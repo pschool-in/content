@@ -1,4 +1,4 @@
-const writing = {
+export default {
   label: 'Letter',
   id: 'bn-writing',
   img: 'writing',
@@ -416,5 +416,3 @@ const writing = {
     }
   ]
 };
-
-export default writing;

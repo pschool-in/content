@@ -1,4 +1,4 @@
-import writing from '../playlists/bn-writing';
+import letter from '../playlists/bn-letter';
 import picture from '../playlists/bn-picture';
 import sound from '../playlists/bn-sound';
 import grammar from '../playlists/bn-grammar';
@@ -17,7 +17,7 @@ export default {
     fontSize: '0.9rem'
   },
   list: [
-    writing,
+    letter,
     sound,
     picture,
     vocabulary,

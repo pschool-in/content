@@ -13,18 +13,42 @@ export default {
       data: [
         {
           audioOffset: 0,
-          text:
-            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+          text: `cat | বিড়াল
+dog | কুকুর
+goat | ছাগল
+sheep | ভেড়া
+horse | ঘোড়া
+pig | শূকর
+elephant | হাতি
+lion | সিংহ
+monkey | বানর 
+tiger | বাঘ`
         },
         {
           audioOffset: 20,
-          text:
-            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
+          text: `hippo | জলহস্তী
+rhino | গণ্ডার
+fox | শিয়াল
+crocodile | কুমির
+zebra | জেব্রা
+bear | ভালুক
+camel | উট
+shark | হাঙ্গর
+whale | তিমি মাছ
+dolphin | ডলফিন`
         },
         {
           audioOffset: 40,
-          text:
-            'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites | termites, ant'
+          text: `dragonfly | ফড়িং
+fish | মাছ
+frog | ব্যাঙ
+crab | কাঁকড়া 
+snake | সাপ
+squirrel | কাঠবিড়ালি
+tortoise | কচ্ছপ 
+rat | ইঁদুর 
+winged-termites | উইপোকা
+ant | পিঁপড়ে `
         },
         {
           audioOffset: 60,
