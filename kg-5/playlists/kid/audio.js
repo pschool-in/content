@@ -147,6 +147,124 @@ export default {
       ]
     },
     {
+      type: 'slides',
+      id: 'flowers',
+      label: 'Flowers',
+      data: {
+        audio: 'flowers-bodyParts.mp3',
+        audioOffset: 0,
+        text:
+          'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
+      }
+    },
+    {
+      type: 'slides',
+      id: 'bodyParts',
+      label: 'Body Parts',
+      data: {
+        audio: 'flowers-bodyParts.mp3',
+        audioOffset: 16,
+        text: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+      }
+    },
+    {
+      type: 'slides',
+      id: 'vehicles',
+      label: 'Transport',
+      commonData: {
+        audio: 'vehicles.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike,ship, tractor'
+        },
+        {
+          audioOffset: 18,
+          text:
+            'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'things',
+      label: 'Things',
+      commonData: {
+        audio: 'objects.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: 'house, table, bed, candle, chair, shelf, baby, boy, girl, man'
+        },
+        {
+          audioOffset: 20,
+          text:
+            'woman, ball, coat, glasses, clock, watch, eraser, pen, pencil, ruler'
+        },
+        {
+          audioOffset: 40,
+          text:
+            'schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons'
+        },
+        {
+          audioOffset: 56,
+          text: 'stove, fork, knife, pan, spoon, pot, butter'
+        },
+        {
+          audioOffset: 70,
+          text:
+            'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web-camera'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'tools',
+      label: 'Tools',
+      commonData: {
+        audio: 'tools.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
+        },
+        {
+          audioOffset: 16,
+          text:
+            'plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel'
+        },
+        {
+          audioOffset: 32,
+          text: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'general',
+      label: 'General',
+      commonData: {
+        audio: 'general.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'sun, moon, rain, star, milk, ring, brush, bone, bell, bird, conch'
+        },
+        {
+          audioOffset: 22,
+          text:
+            'drums, food, fruits, king, kite, ladder, leaf, wheel, whistle, world'
+        }
+      ]
+    },
+    {
       type: 'rightOne',
       label: 'Identify Words by Sound',
       id: 'pick-word',

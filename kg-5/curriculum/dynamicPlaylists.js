@@ -786,6 +786,11 @@ const misc = [
     label: 'Sound Based',
     slug: 'audio',
     grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Tamil Sound Based',
+    slug: 'ta-sound',
+    grade: 'kg, g1, g2'
   }
 ];
 

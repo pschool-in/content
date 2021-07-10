@@ -10,6 +10,7 @@ import science from '../playlists/ta-science';
 import social from '../playlists/ta-social';
 import thirukkural from '../playlists/thirukkural';
 import barathi from '../playlists/barathi';
+import sound from '../playlists/ta-sound';
 
 export default {
   label: 'Tamil',
@@ -18,6 +19,7 @@ export default {
   },
   list: [
     writing,
+    sound,
     picture,
     vocabulary,
     sentence,
