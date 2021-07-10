@@ -17,17 +17,17 @@ export default {
     fontSize: '0.9rem'
   },
   list: [
-    letter,
-    sound,
-    picture,
-    vocabulary,
-    sentence,
-    reading,
-    grammar,
-    science,
-    social,
-    wordsearch,
-    crossword,
-    poem
+     বর্ণ,
+    শব্দ,
+    ছবি,
+    শব্দভাণ্ডার,
+    বাক্য,
+    পাঠ,
+    ব্যাকরণ,
+    বিজ্ঞান,
+    সমাজবিজ্ঞান,
+    শব্দ খোজা,
+    শব্দদ্বন্দ,
+    কবিতা
   ]
 };
