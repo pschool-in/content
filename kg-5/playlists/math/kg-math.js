@@ -127,7 +127,7 @@ export default {
       }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'After Number',
       id: 'after-no',
       data: {
@@ -135,7 +135,7 @@ export default {
       }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Before Number',
       id: 'before-no',
       data: {

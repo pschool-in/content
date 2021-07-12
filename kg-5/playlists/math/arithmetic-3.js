@@ -4,7 +4,7 @@ export default {
   list: [
     {
       id: 'evaluate',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Evaluate',
       lockAfter: 2,
       commonData: {
@@ -33,7 +33,7 @@ export default {
     },
     {
       id: 'fillup',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Fill Up',
       lockAfter: 2,
       commonData: {

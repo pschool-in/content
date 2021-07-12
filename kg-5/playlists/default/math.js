@@ -92,13 +92,13 @@ const math = {
       }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'after-number',
       label: 'After Number',
       data: { type: 'after~xx' }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'before-number',
       label: 'Before Number',
       data: { type: 'before~xx' }
@@ -110,13 +110,13 @@ const math = {
       id: 'count-add'
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'addition',
       label: 'Addition',
       data: { type: 'add~xx~x' }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'misc',
       label: 'Evaluate',
       data: { type: 'misc~xx+x-x', title: 'Solve.' }
@@ -128,19 +128,19 @@ const math = {
       data: { level: 2 }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'multiplication',
       label: 'Multiplication',
       data: { type: 'mul~xx~x' }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'division',
       label: 'Division',
       data: { type: 'div~xx~x' }
     },
     {
-      type: 'addition',
+      type: 'quickArithmetic',
       id: 'evaluate',
       label: 'Missing Number',
       data: {
@@ -151,7 +151,7 @@ const math = {
     },
     {
       type: 'missingWorkout',
-      id: 'addition-missing',
+      id: 'quickArithmetic-missing',
       label: 'Addition - Missing Number',
       data: {
         pattern: 'xx + xx',
@@ -163,13 +163,7 @@ const math = {
       id: 'subtraction-missing',
       label: 'Subtraction - Missing Number',
       data: { pattern: 'xx - xx', missing: [0, 1, 2, 3] }
-    } /*
-    {
-      type: 'biggestNumber',
-      id: 'biggest-number',
-      label: 'Biggest Number',
-      data: { totalNos: 4, isBiggest: true, type: 2 }
-    },*/,
+    },
     {
       type: 'rightOne',
       id: 'biggest-number',
@@ -197,16 +191,30 @@ const math = {
       }
     },
     {
-      type: 'ascendingOrder',
+      type: 'sorting',
       id: 'ascending-order',
       label: 'Ascending Order',
-      data: { totalNos: 4, isAscending: true, type: 2 }
+      data: {
+        title: 'Rearrange the numbers in ascending order.',
+        fontSize: '2rem',
+        noCaps: true,
+        type: 'math',
+        probType: 'ascending',
+        pattern: 'xx'
+      }
     },
     {
-      type: 'ascendingOrder',
+      type: 'sorting',
       id: 'descending-order',
       label: 'Descending Order',
-      data: { totalNos: 4, isAscending: false, type: 2 }
+      data: {
+        title: 'Rearrange the numbers in descending order.',
+        fontSize: '2rem',
+        noCaps: true,
+        type: 'math',
+        probType: 'descending',
+        pattern: 'xx'
+      }
     },
     {
       type: 'factorTree',

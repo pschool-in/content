@@ -36,7 +36,7 @@ they are coming
 I am a boy
 I live in Mumbai
 please come in line
-we are watching tv
+we are watching TV
 they are playing cricket
 I am reading poems`
       }

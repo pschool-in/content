@@ -4,7 +4,7 @@ export default {
   list: [
     {
       id: 'after-number',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'After Number ',
       lockAfter: 2,
       commonData: {
@@ -32,7 +32,7 @@ export default {
     },
     {
       id: 'before-number',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Before Number ',
       lockAfter: 2,
       commonData: {
@@ -60,7 +60,7 @@ export default {
     },
     {
       id: 'addition',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Add the Numbers',
       lockAfter: 2,
       commonData: {
@@ -101,7 +101,7 @@ export default {
     },
     {
       id: 'subtract',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Subtract the Numbers',
       lockAfter: 2,
       commonData: {
@@ -145,7 +145,7 @@ export default {
     },
     {
       id: 'multiply',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Multiplication',
       lockAfter: 2,
       commonData: {
@@ -171,7 +171,7 @@ export default {
     },
     {
       id: 'divide',
-      type: 'addition',
+      type: 'quickArithmetic',
       label: 'Division',
       lockAfter: 2,
       commonData: {
