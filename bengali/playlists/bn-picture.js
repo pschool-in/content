@@ -1,68 +1,68 @@
 export default {
-  label: 'Picture',
-  id: 'bn-picture',
-  img: 'image',
-  list: [
-    {
-      type: 'completeWord',
-      label: 'Fill in the Blanks',
-      id: 'complete-word',
-      commonData: {
-        images: 'custom',
-        lang: 'bn'
+    label: 'ছবি',
+    id: 'bn-picture',
+    img: 'image',
+    list: [
+      {
+        type: 'completeWord',
+        label: 'শুন্যস্তান পূরণ - ফল ও শাকসব্জি',
+        id: 'complete-word',
+        commonData: {
+          images: 'custom',
+          lang: 'bn'
+        },
+        data: [
+          `apple| আপেল| _পেল| আ, অ, ঔ, এ
+  grapes| আঙুর| _ঙুর| আ, অ, ঔ, এ
+  banana| কলা| _লা| ক, কু, খ, ছ
+  guava| পেয়ারা| _য়ারা| পে, ফে, ক, ব
+  jackfruit| কাঁঠাল| _ঠাল| কাঁ, ব, খ, কু
+  orange| কমলালেবু| _মলালেবু| ক, কু, খ, ব`,
+
+  `papaya| পেঁপে| _পে| পেঁ, ফে, ক, এ
+  pineapple| আনারস| _নারস| আ, অ, ঔ, তা
+  pomegranate| বেদানা| _দানা| বে, ব, খ, র
+  watermelon| তরমুজ| _রমুজ| ত, ফে, প, ব
+  fig| ডুমুর| _মুর| ডু, ব, খ, কু
+  mango| আম| _ম| আ, তা, অ, এ`,
+
+  `plum| বরই| _রই| ব, বে, খ, র
+  custard-apple| আতা| _তা| আ, অ, ঔ, তা
+  dates| খেজুর| _জুর| খে, বে, ব, খ,
+  muskmelon| খরবুজ| _রবুজ| খ, ত, প, ব
+  litchi| লিচু| _চু| লি, ব, খ, ল
+  fruits| ফল| _ল| ফ, তা, ব, প`,
+        ]
       },
-      data: [
-        `sun| সূ, র্য| _, র্য| সূ, তা, ঔ, এ
-star| তারা| _রা| তা, বৃ, ঔ, এ
-rain| বৃ, ষ্টি| _, ষ্টি| বৃ, সূ, তা, ঔ
-milk| দুধ| _ধ| দু , বৃ, সূ, তা
-leaf| পাত| _ত| পা , দু , বৃ, সূ
-king| রাজা| _জা| রা, তা, ঔ, এ
-wheel| চাকা| _কা| চা ,তা, ঔ, এ
-world| বিশ্ব| _শ্ব| বি , রা, তা, ঔ
-ladder| মই| _ই| ম, বি, ই, ঋ
-kite| ঘুড়ি| _ড়ি| ঘু , ক, ঘ, ফ`
-      ]
-    },
-    {
-      id: 'match-animals',
-      type: 'match',
-      label: 'Match',
-      commonData: {
-        title: 'Match images with their first letter',
-        rightImgType: 'custom',
-        big: true
+      {
+        id: 'match-animals',
+        type: 'match',
+        label: 'অক্ষর মেলানো - ফল ও শাকসব্জি',
+        commonData: {
+          title: 'Match images with their first letter',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          `ক, banana
+  আ, mango
+  পেঁ, papaya
+  ত, watermelon
+  ডা, pomegranate`,
+
+  `আ, grapes
+  পে, guava
+  কাঁ, jackfruit
+  ক, orange
+  বে, pomegranate`,
+
+  `আ, pineapple
+  ডু, fig
+  খে, dates
+  খ, muskmelon
+  ক, orange
+  লি, litchi`,
+        ]
       },
-      data: [
-        `ক, banana
-আ, mango
-পেঁ, papaya
-ত, watermelon
-ডা, pomegranate`
-      ]
-    },
-    {
-      type: 'connectLetters',
-      label: 'Connect Letters',
-      id: 'connect-letters',
-      commonData: {
-        title: 'Connect Letters to form words',
-        printTitle: 'Form the word using the letters.',
-        type: 'image',
-        lang: 'bn'
-      },
-      data: [
-        `sun, সূর্য
-star, তারা
-rain, বৃষ্টি
-milk, দুধ
-leaf, পাত
-king, রাজা
-wheel, চাকা
-world, বিশ্ব
-ladder, মই
-kite, ঘুড়ি`
-      ]
-    }
-  ]
-};
+    ]
+  };
