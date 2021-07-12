@@ -1,5 +1,5 @@
 export default {
-  label: 'Letter',
+  label: 'বর্ণ',
   id: 'bn-writing',
   img: 'writing',
   list: [
