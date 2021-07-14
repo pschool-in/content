@@ -5,7 +5,7 @@ export default {
   list: [
     {
       id: 'direction',
-      label: 'திசைகள்',
+      label: 'দিক',
       type: 'dragAndDrop',
       data: {
         img: 'direction',
@@ -13,7 +13,7 @@ export default {
         height: 300,
         wordWidth: 70,
         isPractice: false,
-        title: 'Direction',
+        title: 'দিক',
         words: [
           {
             word: 'পূর্ব',
