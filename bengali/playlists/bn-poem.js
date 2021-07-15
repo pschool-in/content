@@ -1,5 +1,5 @@
 export default {
-  label: 'Poems',
+  label: 'কবিতা',
   id: 'bn-reading',
   img: 'reading',
   list: [
