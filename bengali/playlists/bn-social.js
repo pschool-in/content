@@ -1,5 +1,5 @@
 export default {
-  label: 'Social',
+  label: 'সমাজবিজ্ঞান',
   id: 'bn-social',
   img: 'social',
   list: [
