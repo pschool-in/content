@@ -576,6 +576,36 @@ export default {
           },
 
           {
+            type: 'group',
+            label: 'স্বরবর্ণ vs ব্যঞ্জনবর্ণ ',
+            id: 'classify-noun-verb',
+            commonData: {
+              title: 'স্বরবর্ণ ও ব্যঞ্জনবর্ণ গুলি সঠিক বক্সে রাখুন ',
+              printTitle:
+                'Rewrite the words given at the bottom at approprate boxes.',
+              types: ['স্বরবর্ণ', 'ব্যঞ্জনবর্ণ']
+            },
+            data: [
+              [
+                `অ, আ, ই, ঈ, উ, ঊ`,
+                `ক, খ, গ, ঘ, ঙ`
+              ],
+              [
+                `ঋ, ৯, এ, ঐ, ও, ঔ, উ, ঊ`,
+                `চ , ছ, জ,	ঝ, ঞ, ট,	ঠ,	ড,	ঢ,	ণ`
+              ],
+              [
+                `অ, আ, ই, ঈ, উ, ঊ, ও, ঔ`,
+                `প,	ফ,	ব,	ভ,	ম, র,	ল,	শ,	ষ,	স`
+              ],
+              [
+                `অ, আ, ঋ, ৯, এ, ঐ, ও, ঔ`,
+                `য,	র,	ল,	শ,	ষ,	স, হ,	ড়,	ঢ়,	য়,	ৎ`
+              ]
+            ]
+          },
+
+          {
             //Coumpound letters
             id: 'number',
             type: 'match',
