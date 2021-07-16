@@ -550,6 +550,32 @@ export default {
           },
 
           {
+            label: 'বর্ণের ক্রম',
+            type: 'sorting',
+            id: 'ascending',
+            lockAfter: 1,
+            commonData: {
+              title:
+                'অক্ষরগুলি সঠিক ক্রমে সাজান',
+              allowFrac: true,
+              multiple: true,
+              fontSize: '1.3rem'
+            },
+            data: [
+              `অ, আ, ই, ঈ, উ, ঊ
+              ঋ, ৯, এ, ঐ, ও, ঔ`,
+              `ক, খ, গ, ঘ, ঙ
+              চ , ছ, জ,	ঝ, ঞ`,
+              `ট,	ঠ,	ড,	ঢ,	ণ
+              ত,	থ,	দ,	ধ,	ন
+              প,	ফ,	ব,	ভ,	ম`,
+              `য,	র,	ল,	শ,	ষ,	স
+              হ,	ড়,	ঢ়,	য়,	ৎ`,  
+      
+            ]
+          },
+
+          {
             //Coumpound letters
             id: 'number',
             type: 'match',
