@@ -1,5 +1,5 @@
 export default {
-  label: 'WordSearch',
+  label: 'শব্দ খোজ',
   id: '1626185597921',
   img: 'wordsearch',
   list: [
