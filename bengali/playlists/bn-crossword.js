@@ -1,11 +1,11 @@
 export default {
-  label: 'Crossword',
+  label: 'শব্দজব্দ',
   id: 'bn-crossword',
   img: 'crossword',
   list: [
     {
       id: 'fruits',
-      type: 'crossword',
+      type: 'শব্দজব্দ - 1',
       label: 'Fruits',
       data: {
         title: 'Solve the crossword. Please click on a cell to view the hint.',
