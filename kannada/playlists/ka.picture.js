@@ -1,6 +1,6 @@
 export default {
   label: 'படம்',
-  id: 'ta-picture',
+  id: 'ka-picture',
   img: 'image',
   list: [
     {
@@ -9,7 +9,7 @@ export default {
       id: 'animals-birds',
       commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
       },
       data: [ 
               `cat| பூனை | _னை | பூ, பு , ப , கு 
@@ -85,7 +85,7 @@ export default {
         id: 'vegetables-fruits',
         commonData: {
           images: 'custom',
-          lang: 'ta'
+          lang: 'ka'
         },
         data: [
                 `onion| வெங்காயம் | _ங்காயம்| வெ,  வா, வே , வொ 
@@ -143,7 +143,7 @@ muskmelon| ಖರ್ಬೂಜ| ಖರ್ಬೂಜ|`,
         id: 'flowers',
         commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
         },
         data: [
            `lotus| தாமரை| _மரை| ரு, தா, த, தி
@@ -160,7 +160,7 @@ jasmine| மல்லி| _ல்லி | ம, ப, பா, மா `,
         id: 'bodyparts',
         commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
         },
         data: [
                 `ear| காது | _து| கா, த, தி, க 
@@ -180,7 +180,7 @@ tooth| பல் | _ல்| பா, ப, ம, மா`,
         id: 'vehicles',
         commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
         },
         data: [
                 `aeroplane| விமானம் | _மானம்| வி, வீ, வ, வா 
@@ -206,7 +206,7 @@ lorry| சரக்குந்து | _ரக்குந்து | ச, ம�
         id: 'others',
         commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
         },
         data: [
 
@@ -260,7 +260,7 @@ label: 'கருவிகள்',
 id: 'tools',
 commonData: {
 images: 'custom',
-lang: 'ta'
+lang: 'ka'
 },
 data: [
 
@@ -531,7 +531,7 @@ hacksaw| வெட்டும் ரம்பம்| _ட்டும் ரம
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ka'
       },
       data: [
         `grapes, திராட்சை
@@ -638,7 +638,7 @@ sparrow, சிட்டுக்குருவி`
       id: 'write-word',
       commonData: {
         images: 'custom',
-        lang: 'ta'
+        lang: 'ka'
       },
       data: [
         `squirrel| அணில்
@@ -702,7 +702,7 @@ ginger| இஞ்சி`,
         `cat| பூனை
 dog| நாய்
 goat| ஆடு
-sheep| செம்மறி ஆடு | ____ __
+sheep| செம்மறி ஆடு | 
 horse| குதிரை
 pig| பன்றி
 elephant| யானை
