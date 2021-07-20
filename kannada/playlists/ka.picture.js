@@ -81,7 +81,7 @@ export default {
     },
 {
         type: 'completeWord',
-        label: 'காய்களும் கனிகளும் ',
+        label: 'ತರಕಾರಿ ಹಣ್ಣುಗಳು ',
         id: 'vegetables-fruits',
         commonData: {
           images: 'custom',
@@ -139,19 +139,21 @@ muskmelon| ಖರ್ಬೂಜ| ಖರ್ಬೂಜ|`,
 },
  {
         type: 'completeWord',
-        label: 'பூக்கள்',
+        label: `ಹೂವುಗಳು',
         id: 'flowers',
         commonData: {
         images: 'custom',
         lang: 'ka'
         },
         data: [
-           `lotus| தாமரை| _மரை| ரு, தா, த, தி
-Rose| ரோஜா | _ஜா|ரோ, சே, பா, மா
-sunflower| சூரியகாந்தி | _ரியகாந்தி| சூ, தோ, தி , ஆ
-marigold| சாமந்தி | _மந்தி | சா, ச, செ, சே
-hibiscus| செம்பருத்தி | _ம்பருத்தி| செ, சே, பா, மா
-jasmine| மல்லி| _ல்லி | ம, ப, பா, மா `,
+        
+       
+           `lotus| ಕಮಲ| _ಕಮಲ ரு, தா, த, தி
+rose| ಗುಲಾಬಿ | ಗುಲಾಬಿ |ரோ, சே, பா, மா
+sunflower| ಸೂರ್ಯಕಾಂತಿ| _ಸೂರ್ಯಕಾಂತಿ| சூ, தோ, தி , ஆ
+marigold| ಚೆಂಡು ಹೂವು |ಚೆಂಡು ಹೂವು | சா, ச, செ, சே
+hibiscus|  ದಾಸವಾಳ|  ದಾಸವಾಳ| செ, சே, பா, மா
+jasmine| ಮಲ್ಲಿಗೆ| ಮಲ್ಲಿಗೆ| ம, ப, பா, மா `,
                 ]
         },
   {
