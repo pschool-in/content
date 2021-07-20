@@ -3,6 +3,55 @@ export default {
   id: 'people-jobs',
   list: [
     {
+      type: 'slides',
+      id: 'tools',
+      label: 'Tools',
+      commonData: {
+        audio: 'tools.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
+        },
+        {
+          audioOffset: 16,
+          text:
+            'plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel'
+        },
+        {
+          audioOffset: 32,
+          text: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Tools',
+      id: 'pick-tool',
+      commonData: {
+        title: 'Listen to the sound and click on the right picture.',
+        type: 'image',
+        audio: 'tools.mp3'
+      },
+      data: [
+        {
+          words:
+            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
+        },
+        {
+          audioOffset: 16,
+          words:
+            'plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel'
+        },
+        {
+          audioOffset: 32,
+          words: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
+        }
+      ]
+    },
+    {
       label: 'People and Jobs - Match',
       type: 'matchByDragDrop',
       id: '100',
