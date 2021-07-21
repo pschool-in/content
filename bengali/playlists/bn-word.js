@@ -269,17 +269,44 @@ export default {
         লাল, Red
         কমলা, Orange`,
 
-        `গেরুয়া, Saffron,
-        বেগুনি, Violet,
-        কালো, Black,
-        সাদা, White,
-        ধূসর, Grey,`,
+        `গেরুয়া, Saffron
+        বেগুনি, Violet
+        কালো, Black
+        সাদা, White
+        ধূসর, Grey`,
 
          `বাদামি, Brown
          গোলাপী, Pink
          আকাশী, Sky color
          গাঢ়, dark
          হালকা, light`,
+
+        ]
+      },
+
+      {
+        //Antonyms
+        id: 'TimePlace',
+        type: 'match',
+        label: 'বাংলায় আপেক্ষিক সময়-কাল',
+        commonData: {
+          title: 'বাংলায় আপেক্ষিক সময়-কাল',
+          fontSize: '1.2rem'
+        },
+        data: [
+        `আজ, Today
+        গতকাল, Yesterday
+        আগামীকাল, Tomorrow
+        এখানে, Here
+        ওখানে, There`,
+
+        `তাড়াতাড়ি - Quikly
+        আস্তে - Slowly
+        সর্বদা - Always
+        মাঝে মাঝে - Sometime
+        কখনো - Never
+        প্রায় - Often
+        কদাপি - Seldom`,
 
         ]
       },
