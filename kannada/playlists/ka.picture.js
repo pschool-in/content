@@ -138,7 +138,6 @@ muskmelon| ಖರ್ಬೂಜ| ಖರ್ಬೂಜ|  `,
         lang: 'ka'
         },
         data: [
-        
        
            `lotus| ಕಮಲ| _ಕಮಲ |
 rose| ಗುಲಾಬಿ | ಗುಲಾಬಿ |
@@ -236,7 +235,7 @@ clock| ಗಡಿಯಾರ| ಗಡಿಯಾರ| `,
 },    
 {
 type: 'completeWord',
-label: 'கருவிகள்',
+label: `ಉಪಕರಣಗಳು',
 id: 'tools',
 commonData: {
 images: 'custom',
@@ -244,16 +243,15 @@ lang: 'ka'
 },
 data: [
 
-        `Axe| ಕೊಡಲಿ | ಕೊಡಲಿ| 
+        `axe| ಕೊಡಲಿ | ಕೊಡಲಿ| 
 balance| ತುಲನೆ | ತುಲನೆ | 
 blackboard| ಕಪ್ಪು ಹಲಗೆ | ಕಪ್ಪು ಹಲಗೆ |
 hose| ಮೆದುಗೊಳವೆ | ಮೆದುಗೊಳವೆ | 
 microscope| ಸೂಕ್ಷ್ಮದರ್ಶಕ| ಸೂಕ್ಷ್ಮದರ್ಶಕ | 
 needle| ಸೂಜಿ| ಸೂಜಿ| 
 plough| ನೇಗಿಲು | ನೇಗಿಲು| 
-saw| ಗರಗಸ | ಗರಗಸ| `, 
-
-        `telescope| ದೂರದರ್ಶಕ | ದೂರದರ್ಶಕ| ை
+saw| ಗರಗಸ | ಗರಗಸ|
+telescope| ದೂರದರ್ಶಕ | ದೂರದರ್ಶಕ| ை
 testtube| ಪ್ರನಾಳ | ಪ್ರನಾಳ |  
 compass| ದಿಕ್ಸೂಚಿ| ದಿಕ್ಸೂಚಿ | `, 
 ]
@@ -334,16 +332,13 @@ watermelon, ಕಲ್ಲಂಗಡಿ ಹಣ್ಣು
 fig, ಅಂಜೂರ
 muskmelon, ಖರ್ಬೂಜ`,
 
-
-
-        `தா, lotus
-சூ, sunflower
-சா, marigold
-செ, hibiscus
-ம, jasmine
-ரோ, rose`,
-
-
+# ಹೂವುಗಳು
+`rose, ಗುಲಾಬಿ
+lotus, ಕಮಲ
+sunflower, ಸೂರ್ಯಕಾಂತಿ
+marigold, ಚೆಂಡು ಹೂವು
+hibiscus, ದಾಸವಾಳ
+jasmine, ಮಲ್ಲಿಗೆ`,
 
 # ವಾಹನಗಳು
 `aeroplane, ವಿಮಾನ
@@ -352,7 +347,6 @@ bus, ಬಸ್
 car, ಕಾರು
 cycle, ಚಕ್ರ
 ship, ಹಡಗು
-tractor
 train, ರೈಲು
 auto, ಸ್ವಯಂ
 excavator, ಅಗೆಯುವ ಯಂತ್ರ
@@ -374,7 +368,6 @@ tooth,ಹಲ್ಲು`,
 `carrot, ಗಜ್ಜರಿ
 beetroot,ಕಂದು ಬೇರು
 onion, ಈರುಳ್ಳಿ
-tomato
 potato, ಆಲೂ ಗಡ್ಡೆ
 cabbage, ಎಲೆ ಕೋಸು
 cauliflower, ಹೂ ಕೋಸು
@@ -393,7 +386,6 @@ chilli, ಹಸಿರು ಮೆಣಸಿನಕಾಯಿ
 coconut,ತೆಂಗಿನಕಾಯಿ
 corianderleaf, ಕೊತ್ತಂಬರಿ ಸೊಪ್ಪು
 curryleaf, ಕರಿಬೇವು
-drumstick
 greenpeas, ಬಟಾಣಿ
 ladies-finger, ಬೆಂಡೇಕಾಯಿ
 mintleaf, ಪುದಿನ ಸೊಪ್ಪು
@@ -403,88 +395,80 @@ spinach, ಸೊಪ್ಪು`,
         
 
 # ಮರಕುಟಿಗ
-        `கா, ಕಾಗೆ
-பு, ಪಾರಿವಾಳ
-வா, ಬಾತುಕೋಳಿ
-கோ, ಕೋಳಿ
-கி, ಗಿಣಿ
-ம, నెమలి
-சி, ಗುಬ್ಬಚ್ಚಿ 
-கோ, ಮರಿ`,
+        `ಕಾಗೆ, ಕಾಗೆ
+ಪ, ಪಾರಿವಾಳ
+ಬ, ಬಾತುಕೋಳಿ
+ಕ, ಕೋಳಿ
+ಗಿ, ಗಿಣಿ
+నె, నెమలి
+ಗ, ಗುಬ್ಬಚ್ಚಿ 
+ಮ, ಮರಿ`,
 
-`ஆ, ಗೂಬೆ
-சே, ಹುಂಜ
-க, ವಲ್ಚರ್
-ம, ಮರಕುಟಿಗ `,
+`ಗೂ, ಗೂಬೆ
+ಹ, ಹುಂಜ
+ವ, ವಲ್ಚರ್
+ಮ, ಮರಕುಟಿಗ `,
 
-`அ, eraser
-பே, pen
-எ, pencil 
-அ, ruler
-பு, schoolbag
-க, scissors
-த, water bottle
-க, calculator
-பு, book`,
+ # ಶಾಲೆ
+`ತ, ತಕ್ಕಡಿ
+ಶ, ಶಾಲಾ ಚೀಲ
+ಕ, ಕತ್ತರಿ
+ನೀ, ನೀರಿನ ಶೀಶೆ
+ಪ, ಪುಸ್ತಕ `,
 
-        `அ, stove
-        மு, fork
-        க, knife
-        பா, pot
-        வெ, butter `,
+  # ಅಡಿಗೆ
+`ಒ, ಒಲೆ
+ಚ, ಚಾಕು
+ಚ, ಚಮಚ
+ಮ, ಮಡಕೆ
+ಬೆ, ಬೆಣ್ಣೆ`, 
+   
+# tools
+        
+`ಕ, ಕೊಡಲಿ  
+ತ, ತುಲನೆ  
+ಕ,  ಕಪ್ಪು ಹಲಗೆ 
+ಮೆ, ಮೆದುಗೊಳವೆ 
+ಸೂ, ಸೂಕ್ಷ್ಮದರ್ಶಕ
+ಸೂ, ಸೂಜಿ
+ನ, ನೇಗಿಲು  
+ಗ, ಗರಗಸ 
+ದೂ, ದೂರದರ್ಶಕ 
+ಪ್, ಪ್ರನಾಳ  
+ದಿ, ದಿಕ್ಸೂಚಿ`,
 
-        `கோ, axe
-        த, balance, ராசு
-        க, blackboard
-        கு, hose
-        நு, microscope
-        ஊ, needle 
-        இ, plier
-        க, plough
-        இர, Saw
-        ம, spade`,
-
-`தொ, telescope
-சோ, testtube
-வெ, thermometer
-க, trowel, ரணை
-ந, walkie-talkie
-கு, awl
-தி, compass
-வெ, hacksaw`,
-
-       #  others
-`sun, ಸೂರ್ಯ
-moon, ಚಂದ್ರ
-rain, ಮಳೆ
-star, ನಕ್ಷತ್ರ
-milk, ಹಾಲು
-bone, ಮೂಳೆ
-bell, ಗಂಟೆ
-bird, ಹಕ್ಕಿ
-conch, ಶಂಖ
-five, ಐದು
-food, ಆಹಾರ
-fruits, ಹಣ್ಣುಗಳು
-king, ರಾಜ
-kite, ಗಾಳಿಪಟ
-ladder, ಏಣಿ 
-leaf, ಎಲೆ
-wheel, ಚಕ್ರ
-whistle, ಶಿಳ್ಳೆ
-world, ಪ್ರಪಂಚ
-house, ಮನೆ
-bed, ಹಾಸಿಗೆ
-candle, ಮೋಂಬತ್ತಿ
-chair, ಕುರ್ಚಿ
-baby, ಮಗು
-boy, ಹುಡುಗ
-girl, ಹುಡುಗಿ
-man, ಮನುಷ್ಯ
-woman, ಮಹಿಳೆ
-ball, ಚೆಂಡು
-clock, ಗಡಿಯಾರ
-watch, ನೋಡುವವ`,
+ #  others
+`ಸೂ, ಸೂರ್ಯ
+ಚ, ಚಂದ್ರ
+ಮ, ಮಳೆ
+ನ, ನಕ್ಷತ್ರ
+ಹ, ಹಾಲು
+ಮೂ, ಮೂಳೆ
+ಗ, ಗಂಟೆ
+ಹ, ಹಕ್ಕಿ
+ಶ, ಶಂಖ
+ಐ, ಐದು
+ಆ, ಆಹಾರ
+ಹ, ಹಣ್ಣುಗಳು
+ರ, ರಾಜ
+ಗ, ಗಾಳಿಪಟ
+ಏ, ಏಣಿ 
+ಎ, ಎಲೆ
+ಚ, ಚಕ್ರ
+ಶಿ, ಶಿಳ್ಳೆ
+ಪ್, ಪ್ರಪಂಚ
+ಮ, ಮನೆ
+ಹ, ಹಾಸಿಗೆ
+ಮೋ, ಮೋಂಬತ್ತಿ
+ಕ, ಕುರ್ಚಿ
+ಮ, ಮಗು
+ಹ, ಹುಡುಗ
+ಹ, ಹುಡುಗಿ
+ಮ, ಮನುಷ್ಯ
+ಮ, ಮಹಿಳೆ
+ಚೆ, ಚೆಂಡು
+ಗ, ಗಡಿಯಾರ
+ನ, ನೋಡುವವ`,
              
 ]
     },
