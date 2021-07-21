@@ -5,11 +5,105 @@ export default {
   list: [
     {
       type: 'completeWord',
+      id: 'animals',
+      label: 'Animals',
+      commonData: {
+        images: 'animals'
+      },
+      data: [
+        `cat |CAT |_AT
+dog|DOG |_OG
+goat|GOAT |_OAT
+sheep|SHEEP |_HEEP
+horse|HORSE |_ORSE
+pig|PIG |_IG
+elephant|ELEPHANT |_LEPHANT
+lion |LION |_ION
+monkey|MONKEY |_ONKEY
+tiger|TIGER |_IGER`,
+
+        `hippo|HIPPO |_IPPO
+rhino|RHINO |_HINO
+fox|FOX |_OX
+crocodile|CROCODILE |_ROCODILE
+zebra|ZEBRA |_EBRA
+bear|BEAR |_EAR
+camel|CAMEL |_AMEL
+shark|SHARK |_HARK
+whale|WHALE |_HALE
+dolphin|DOLPHIN |_OLPHIN `,
+
+        `dragonfly |DRAGON FLY |_RAGON FLY
+fish|FISH |_ISH
+frog|FROG |_ROG
+crab|CRAB |_RAB
+snake|SNAKE |_NAKE
+squirrel|SQUIRREL |_QUIRREL
+tortoise|TORTOISE |_ORTOISE
+rat|RAT |_AT
+ant|ANT |_NT`,
+
+        `fly|HOUSEFLY |_OUSEFLY
+bat| BAT| _AT
+buffalo| BUFFALO | _UFFALO
+butterfly| BUTTERFLY | _UTTERFLY
+cheetah| CHEETAH | _HEETAH
+cow| COW | _OW
+donkey| DONKEY | _ONKEY
+giraffe| GIRAFFE | _IRAFFE
+kangaroo| KANGAROO | _ANGAROO
+leopard| LEOPARD | _EOPARD`,
+
+        `mongoose| MONGOOSE| _ONGOOSE
+mosquito| MOSQUITO | _OSQUITO
+octopus| OCTOPUS | _CTOPUS
+wolf| WOLF | _OLF
+lizard| LIZARD | _IZARD
+cockroach| COCKROACH | _OCKROACH
+garden-lizard| GARDEN LIZARD | _ARDEN LIZARD 
+rabbit| RABBIT | _ABBIT`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'birds',
+      label: 'Birds',
+      commonData: {
+        images: 'birds'
+      },
+      data: [
+        `crow|CROW |_ROW
+        dove|DOVE |_OVE
+        duck|DUCK |_UCK
+        hen|HEN |_EN
+        chick| CHICK | _HICK
+        parrot|PARROT |_ARROT
+        peacock|PEACOCK |_EACOCK
+        penguin|PENGUIN |_ENGUIN
+        sparrow|SPARROW |_PARROW
+        crane| CRANE | _RANE`,
+
+        `eagle| EAGLE | _AGLE
+      flamingo| FLAMINGO | _LAMINGO
+      kingfisher| KINGFISHER | _INGFISHER
+      myna| MYNA | _YNA
+      ostrich| OSTRICH | _STRICH
+      owl| OWL | _WL
+      rooster| ROOSTER | _OOSTER
+      vulture| VULTURE | _ULTURE
+      woodpecker| WOODPECKER | _OODPECKER
+      hornbill | HORNBILL | _ORNBILL`
+      ]
+    },
+    {
+      type: 'completeWord',
       id: 'fruits',
-      label: 'Complete Word - Fruits',
-      data: {
-        images: 'fruits',
-        text: `apple | APPLE | _PPLE 
+      label: 'Fruits',
+      commonData: {
+        images: 'fruits'
+      },
+      data: [
+        `apple | APPLE | _PPLE 
 grapes | GRAPES | _RAPES
 banana | BANANA | _ANANA
 cherry | CHERRY | _HERRY
@@ -18,248 +112,59 @@ strawberry | STRAWBERRY | _TRAW_ERRY
 guava | GUAVA | _UAVA
 jackfruit | JACKFRUIT | _ACK_RUIT
 mango | MANGO | _ANGO
-orange | ORANGE | _RANGE
-papaya | PAPAYA | _APAYA
+orange | ORANGE | _RANGE`,
+
+        `papaya | PAPAYA | _APAYA
 pineapple | PINEAPPLE | _INE_PPLE
-watermelon | WATERMELON | _ATER_ELON`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'vehicles',
-      label: 'Complete Word - Vehicles',
-      data: {
-        images: 'vehicles',
-        text: `aeroplane | AEROPLANE | _ERO_LANE
-boat | BOAT | _OAT
-bus | BUS | _US
-car | CAR | _AR
-cycle | CYCLE | _YCLE
-helicoptor | HELICOPTOR | _ELI_OPTOR
-motorbike | MOTORBIKE | _OTOR_IKE
-ship | SHIP | _HIP
-tractor | TRACTOR | _RACTOR
-train | TRAIN | _RAIN`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'flowers',
-      label: 'Complete Word - Flowers',
-      data: {
-        images: 'flowers',
-        text: `rose | ROSE | _OSE
-lotus | LOTUS | _OTUS 
-sunflower | SUNFLOWER | _UN_LOWER
-marigold | MARIGOLD | _ARIGOLD
-hibiscus | HIBISCUS | _IBISCUS
-jasmine | JASMINE | _ASMINE`
-      }
+watermelon | WATERMELON | _ATER_ELON
+pomegranate| POMEGRANATE | _OMEGRANATE
+fig| FIG | _IG
+custard-apple| CUSTARD APPLE | _USTARD APPLE
+plum| PLUM | _LUM
+dates| DATES | _ATES
+muskmelon| MUSKMELON | _USKMELON`
+      ]
     },
     {
       type: 'completeWord',
       id: 'vegetables',
-      label: 'Complete Word - Vegetables',
-      data: {
-        images: 'vegetables',
-        text: `carrot | CARROT | _ARROT
-beetroot | BEETROOT | _EET_OOT
-onion | ONION | _NION
-tomato | TOMATO | _OMATO
-potato | POTATO | _OTATO
-cabbage | CABBAGE | _ABBAGE
-corn | CORN | _ORN
-cucumber |CUCUMBER |_UCUMBER
-garlic|GARLIC |_ARLIC
-ginger|GINGER |_INGER`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'house',
-      label: 'Complete Word - House',
-      data: {
-        images: 'house',
-        text: `man| MAN |_AN
-woman | WOMAN |_OMAN
-boy|BOY |_OY
-girl | GIRL |_IRL
-house| HOUSE|_OUSE
-table|TABLE |_ABLE
-bed|BED |_ED
-candle|CANDLE |_ANDLE
-chair|CHAIR |_HAIR
-shelf|SHELF |_HELF
-ball|BALL |_ALL
-coat|COAT |_OAT
-glasses|GLASSES |_LASSES`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'kitchen',
-      label: 'Complete Word - Kitchen',
-      data: {
-        images: 'kitchen',
-        text: `stove |STOVE |_TOVE
-fork|FORK |_ORK
-knife|KNIFE |_NIFE
-pan|PAN |_AN
-spoon|SPOON |_POON
-pot|POT |_OT
-butter|BUTTER |_UTTER`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'birds',
-      label: 'Complete Word - Birds',
-      data: {
-        images: 'birds',
-        text: `crow|CROW |_ROW
-dove|DOVE |_OVE
-duck|DUCK |_UCK
-hen|HEN |_EN
-parrot|PARROT |_ARROT
-peacock|PEACOCK |_EACOCK
-penguin|PENGUIN |_ENGUIN
-sparrow|SPARROW |_PARROW`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'parts-body',
-      label: 'Complete Word - Body Parts',
-      data: {
-        images: 'bodyParts',
-        text: `ear |EAR |_AR
-eye |EYE |_YE
-foot |FOOT |_OOT
-hair|HAIR |_AIR
-hand|HAND |_AND
-mouth|MOUTH |_OUTH
-nose|NOSE |_OSE
-tooth|TOOTH |_OOTH`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'nature',
-      label: 'Complete Word - Nature',
-      data: {
-        images: 'others',
-        text: `sun |SUN |_UN
-rain|RAIN |_AIN
-star|STAR |_TAR
-milk|MILK |_ILK
-bird|BIRD |_IRD
-fruits|FRUITS |_RUITS
-leaf|LEAF |_EAF
-world|WORLD |_ORLD`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'objects',
-      label: 'Complete Word - Objects',
-      data: {
-        images: 'custom',
-        text: `pen |PEN |_EN
-pencil|PENCIL |_ENCIL
-ruler|RULER |_ULER
-eraser|ERASER |_RASER
-scissors|SCISSORS |_CISSORS
-sharpener|SHARPENER |_HARPENER
-bell | BELL | _ELL
-whistle |WHISTLE |_HISTLE`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'objects-2',
-      label: 'Complete Word - Objects - 2',
-      data: {
-        images: 'others',
-        text: `ring |RING |_ING
-        brush |BRUSH |_RUSH
-        bone|BONE |_ONE
-        drums|DRUMS |_RUMS
-        food|FOOD |_OOD
-        king|KING |_ING
-        kite|KITE |_ITE
-        ladder|LADDER |_ADDER
-        wheel|WHEEL |_HEEL`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'animals',
-      label: 'Complete Word - Domestic Animals',
-      data: {
-        images: 'animals',
-        text: `cat |CAT |_AT
-dog|DOG |_OG
-goat|GOAT |_OAT
-sheep|SHEEP |_HEEP
-horse|HORSE |_ORSE
-pig|PIG |_IG
-camel|CAMEL |_AMEL`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'animals-2',
-      label: 'Complete Word - Wild Animals',
-      data: {
-        images: 'animals',
-        text: `lion |LION |_ION
-monkey|MONKEY |_ONKEY
-tiger|TIGER |_IGER
-hippo|HIPPO |_IPPO
-rhino|RHINO |_HINO
-fox|FOX |_OX
-elephant|ELEPHANT |_LEPHANT
-crocodile|CROCODILE |_ROCODILE
-zebra|ZEBRA |_EBRA
-bear|BEAR |_EAR
-shark|SHARK |_HARK
-whale|WHALE |_HALE
-dolphin|DOLPHIN |_OLPHIN `
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'animals-3',
-      label: 'Complete Word - Small Animals',
-      data: {
-        images: 'animals',
-        text: `dragonfly |DRAGONFLY |_RAGONFLY
-fish|FISH |_ISH
-frog|FROG |_ROG
-crab|CRAB |_RAB
-snake|SNAKE |_NAKE
-squirrel|SQUIRREL |_QUIRREL
-tortoise|TORTOISE |_ORTOISE
-rat|RAT |_AT
-ant|ANT |_NT
-fly|HOUSEFLY |_OUSEFLY`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'gadgets',
-      label: 'Complete Word - Gadgets',
-      data: {
-        images: 'gadgets',
-        text: `camera |CAMERA |_AMERA
-headphone|HEADPHONE |_EADPHONE
-pendrive|PENDRIVE |_ENDRIVE
-remote|REMOTE |_EMOTE
-smartphone|SMARTPHONE |_MARTPHONE
-speaker|SPEAKER |_PEAKER
-tablet|TABLET |_ABLET
-torch|TORCH |_ORCH`
-      }
+      label: 'Vegetables',
+      commonData: {
+        images: 'vegetables'
+      },
+      data: [
+        `carrot | CARROT | _ARROT
+        beetroot | BEETROOT | _EET_OOT
+        onion | ONION | _NION
+        tomato | TOMATO | _OMATO
+        potato | POTATO | _OTATO
+        cabbage | CABBAGE | _ABBAGE
+        corn | CORN | _ORN
+        cucumber |CUCUMBER |_UCUMBER
+        garlic|GARLIC |_ARLIC
+        ginger|GINGER |_INGER`,
+
+        `cauliflower| CAULIFLOWER | _AULIFLOWER
+pumpkin| PUMPKIN | _UMPKIN
+almond| ALMOND | _LMOND
+beans| BEANS | _EANS
+bitter-gourd| BITTER GOURD | _ITTER GOURD
+brinjal| BRINJAL | _RINJAL
+capsicum| CAPSICUM | _APSICUM
+cashewnut| CASHEWNUT | _ASHEWNUT
+chilli| CHILLI | _HILLI
+coconut | COCONUT | _OCONUT`,
+
+        `corianderleaf | CORIANDER LEAF | _ORIANDER LEAF
+curryleaf | CURRY LEAF | _URRY LEAF
+drumstick| DRUMSTICK | _RUMSTICK
+greenpeas| GREEN PEAS |  _REEN PEAS
+ladies-finger | LADIES FINGER | _ADIES FINGER
+mintleaf| MINT LEAF | _INT LEAF
+peanut| PEANUT | _EANUT
+raddish| RADDISH | _ADDISH
+spinach | SPINACH | _PINACH`
+      ]
     }
   ]
 };
