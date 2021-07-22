@@ -1,6 +1,6 @@
 export default {
   label: 'কবিতা',
-  id: 'bn-reading',
+  id: 'bn-poem',
   img: 'reading',
   list: [
     {
