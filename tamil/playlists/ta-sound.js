@@ -25,7 +25,17 @@ export default {
         {
           audioOffset: 42,
           text:
-            'fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant'
+            'fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant, fly'
+        },
+        {
+          audioOffset: 62,
+          text:
+            'bat, buffalo, butterfly,cow, donkey, giraffe, kangaroo, leopard'
+        },
+        {
+          audioOffset: 78,
+          text:
+            'mongoose, mosquito, wolf, cockroach, garden-lizard, lizard,  rabbit  '
         }
       ]
     },
@@ -33,12 +43,66 @@ export default {
       type: 'slides',
       id: 'birds',
       label: 'பறவைகள்',
-      data: {
+      commonData: {
         title: 'பறவைகள் : படமும் ஒலியும்',
-        audio: 'ta-birds.mp3',
-        audioOffset: 2,
-        text: 'crow, dove, duck, hen, parrot, peacock, sparrow'
-      }
+        audio: 'ta-birds.mp3'
+      },
+      data: [
+        {
+          audioOffset: 2,
+          text: 'crow, dove, duck, hen, parrot, peacock, sparrow'
+        },
+        {
+          audioOffset: 16,
+          text:
+            'chick,crane, eagle, kingfisher, myna, ostrich, owl, rooster, woodpecker'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'fruits',
+      label: 'பழங்கள் ',
+      commonData: {
+        title: 'பழங்கள்  : படமும் ஒலியும்',
+        audio: 'ta-fruits.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: 'grapes, banana, guava, jackfruit, mango, papaya'
+        },
+        {
+          audioOffset: 12,
+          text: 'pineapple, pomegranate, watermelon, fig, custard-apple, dates'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'vegetables',
+      label: 'காய்கறிகள்  ',
+      commonData: {
+        title: 'காய்கறிகள் : படமும் ஒலியும்',
+        audio: 'ta-vegetables.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'onion, tomato, potato, cabbage, corn, cucumber, garlic, ginger, pumpkin, almond'
+        },
+        {
+          audioOffset: 20,
+          text:
+            'bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut, corianderleaf , curryleaf'
+        },
+        {
+          audioOffset: 36,
+          text:
+            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+        }
+      ]
     },
     {
       type: 'slides',

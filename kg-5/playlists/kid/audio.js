@@ -4,41 +4,6 @@ export default {
   list: [
     {
       type: 'slides',
-      id: 'animals',
-      label: 'Animals',
-      commonData: {
-        audio: 'animals.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
-        },
-        {
-          audioOffset: 20,
-          text:
-            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
-        },
-        {
-          audioOffset: 40,
-          text:
-            'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites | termites, ant'
-        },
-        {
-          audioOffset: 60,
-          text:
-            'fly, bat, buffalo, butterfly, cheetah, cow, donkey, giraffe, kangaroo, leopard'
-        },
-        {
-          audioOffset: 80,
-          text:
-            'mongoose, mosquito, octopus, wolf, cockroach, garden-lizard, lizard,  rabbit'
-        }
-      ]
-    },
-    {
-      type: 'slides',
       id: 'animal-sound',
       label: 'Animal Sounds',
       commonData: {
@@ -80,7 +45,41 @@ export default {
         }
       ]
     },
-
+    {
+      type: 'slides',
+      id: 'animals',
+      label: 'Animals',
+      commonData: {
+        audio: 'animals.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+        },
+        {
+          audioOffset: 20,
+          text:
+            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
+        },
+        {
+          audioOffset: 40,
+          text:
+            'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites | termites, ant'
+        },
+        {
+          audioOffset: 60,
+          text:
+            'fly, bat, buffalo, butterfly, cheetah, cow, donkey, giraffe, kangaroo, leopard'
+        },
+        {
+          audioOffset: 80,
+          text:
+            'mongoose, mosquito, octopus, wolf, cockroach, garden-lizard, lizard,  rabbit'
+        }
+      ]
+    },
     {
       type: 'slides',
       id: 'birds',
@@ -146,150 +145,112 @@ export default {
         }
       ]
     },
-    {
-      type: 'slides',
-      id: 'flowers',
-      label: 'Flowers',
-      data: {
-        audio: 'flowers-bodyParts.mp3',
-        audioOffset: 0,
-        text:
-          'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
-      }
-    },
-    {
-      type: 'slides',
-      id: 'bodyParts',
-      label: 'Body Parts',
-      data: {
-        audio: 'flowers-bodyParts.mp3',
-        audioOffset: 16,
-        text: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
-      }
-    },
-    {
-      type: 'slides',
-      id: 'vehicles',
-      label: 'Transport',
-      commonData: {
-        audio: 'vehicles.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike,ship, tractor'
-        },
-        {
-          audioOffset: 18,
-          text:
-            'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'things',
-      label: 'Things',
-      commonData: {
-        audio: 'objects.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: 'house, table, bed, candle, chair, shelf, baby, boy, girl, man'
-        },
-        {
-          audioOffset: 20,
-          text:
-            'woman, ball, coat, glasses, clock, watch, eraser, pen, pencil, ruler'
-        },
-        {
-          audioOffset: 40,
-          text:
-            'schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons'
-        },
-        {
-          audioOffset: 56,
-          text: 'stove, fork, knife, pan, spoon, pot, butter'
-        },
-        {
-          audioOffset: 70,
-          text:
-            'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web-camera'
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'tools',
-      label: 'Tools',
-      commonData: {
-        audio: 'tools.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
-        },
-        {
-          audioOffset: 16,
-          text:
-            'plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel'
-        },
-        {
-          audioOffset: 32,
-          text: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'general',
-      label: 'General',
-      commonData: {
-        audio: 'general.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'sun, moon, rain, star, milk, ring, brush, bone, bell, bird, conch'
-        },
-        {
-          audioOffset: 22,
-          text:
-            'drums, food, fruits, king, kite, ladder, leaf, wheel, whistle, world'
-        }
-      ]
-    },
+
     {
       type: 'rightOne',
-      label: 'Identify Words by Sound',
-      id: 'pick-word',
+      label: 'Identify Animals',
+      id: 'pick-animal',
       lockAfter: 2,
       commonData: {
-        title: 'Listen to the sound and click on the word.',
-        type: 'image'
+        title: 'Listen to the sound and click on the animal.',
+        type: 'image',
+        audio: 'animals.mp3'
       },
       data: [
         {
-          audio: 'animals.mp3',
           words:
             'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
         },
         {
-          audio: 'animals.mp3',
           audioOffset: 20,
           words:
             'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
         },
         {
-          audio: 'animals.mp3',
           audioOffset: 40,
           words:
             'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant'
+        },
+        {
+          audioOffset: 60,
+          words:
+            'fly, bat, buffalo, butterfly, cheetah, cow, donkey, giraffe, kangaroo, leopard'
+        },
+        {
+          audioOffset: 80,
+          words:
+            'mongoose, mosquito, octopus, wolf, cockroach, garden-lizard, lizard,  rabbit'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Birds',
+      id: 'pick-bird',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the bird.',
+        type: 'image',
+        audio: 'birds.mp3'
+      },
+      data: [
+        {
+          words:
+            'crow, dove, duck, hen, chick, parrot, peacock, penguin, sparrow, crane'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, hornbill'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Fruits',
+      id: 'pick-fruit',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the fruit.',
+        type: 'image',
+        audio: 'fruits.mp3'
+      },
+      data: [
+        {
+          words:
+            'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'papaya, pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Vegetables',
+      id: 'pick-vegetable',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the vegetable.',
+        type: 'image',
+        audio: 'vegetables.mp3'
+      },
+      data: [
+        {
+          words:
+            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+        },
+        {
+          audioOffset: 40,
+          words:
+            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger , mintleaf, peanut, raddish, spinach'
         }
       ]
     },

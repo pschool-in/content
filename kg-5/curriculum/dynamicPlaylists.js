@@ -252,6 +252,11 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Root Word',
+    slug: 'root-word',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Phrase',
     slug: 'phrase',
     grade: 'g5'

@@ -8,6 +8,7 @@ export default {
       type: 'fillupOptions',
       commonData: {
         noOptions: true,
+        lang: 'bn',
         title:
           'Fill in the blanks with the most appropriate word. The root word is given within the brackets.'
       },

@@ -1,5 +1,5 @@
 export default {
-  label: 'Story',
+  label: 'গল্প',
   id: 'bn-reading',
   img: 'reading',
   list: [
