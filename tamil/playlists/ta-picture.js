@@ -299,63 +299,228 @@ hacksaw| வெட்டும் ரம்பம்| _ட்டும் ரம
 சி, lion
 கு, monkey
 பு , tiger
-வ, zebra`,
-
-        `பூ, cat
+வ, zebra
+பூ, cat
 நா, dog
 ஆ, goat
 ப, pig
 கு, horse`,
 
+`செ, sheep
+நீ, hippo
+கா, rhino
+ந, fox
+மு, crocodile
+வ, zebra 
+க, bear 
+ஒ, camel
+சு, shark
+தி, whale`,
+
+`த, dragonfly
+மீ, fish
+த, frog
+ந, crab
+பா, snake
+அ, squirrel 
+ஆ, tortoise
+எ, rat
+ஈ, winged-termites
+எ, ant`,
+
+`ஈ, fly 
+வௌ, bat  
+எ, buffalo
+வ, butterfly  
+மா, cow
+க, donkey  
+ஒ, giraffe 
+க, kangaroo 
+சி, leopard
+கீ, mongoose`,
+
+`கொ, mosquito
+ஆ, octopus
+ஓ, wolf  
+க, cockroach
+ஓ, garden-lizard
+ப, lizard
+மு, rabbit`, 
+
+
         `தி, grapes
 வா, banana
 த, watermelon
 ப, papaya
-மா, mango`,
-
-        `ப, jackfruit
+மா, mango
+ப, jackfruit
 கொ, guava
 அ, pineapple
 மா, pomegranate
-ஆ, apple`,
+ஆ, apple
+அ, fig
+சீ, custard-apple
+ஆ, orange
+பே, dates`,
 
         `தா, lotus
 சூ, sunflower
 சா, marigold
 செ, hibiscus
-ம, jasmine`,
+ம, jasmine
+ரோ, rose`,
 
         `வி, aeroplane
 ப, boat
 பே, bus
 ம, car
 மி, cycle
-க, ship`,
+க, ship
+தொ, train 
+வா, helicoptor
+இ, tractor
+அ, ambulance
+தீ, fire-engine
+ச, lorry`,
 
         `கா, ear
 க, eye
 மு, hair
 கை, hand
-வா, mouth`,
+வா, mouth
+பா, foot
+மூ, nose 
+ப, tooth`,
 
         `வெ, onion
 த, tomato
 உ, potato
 பூ, garlic
-இ, ginger`,
+இ, ginger
+கா, carrot
+பீ, beetroot
+மு, cabbage
+கா, cauliflower
+சோ, corn`,
+
+`ப, pumpkin
+பா, almond 
+பீ, beans
+பா, bitter-gourd  
+கு, capsicum 
+மு, cashewnut  
+ப, chilli
+தே, coconut 
+கொ, corianderleaf
+க, curryleaf`,
+
+`பு, mintleaf
+மு, drumstick
+ப, greenpeas,  
+நி, peanut 
+மு, raddish
+கீ, spinach 
+க, brinjal 
+வெ, ladies-finger
+வெ, cucumber`,
 
         `கா, crow
 பு, dove
 வா, duck
 கோ, hen
-கி, parrot`,
+கி, parrot
+ம, peacock
+சி, sparrow 
+கோ, chick
+கொ, Crane 
+மீ, kingfisher`,
 
-        `மீ, fish
-த, frog 
-ந, crab
-பா, snake
-எ, rat`
-      ]
+`மை, myna
+தீ, ostrich
+ஆ, owl
+சே, rooster
+க, vulture
+ம, woodpecker `,
+
+`அ, eraser
+பே, pen
+எ, pencil 
+அ, ruler
+பு, schoolbag
+க, scissors
+த, water bottle
+க, calculator
+பு, book`,
+
+        `அ, stove
+        மு, fork
+        க, knife
+        பா, pot
+        வெ, butter `,
+
+        `கோ, axe
+        த, balance, ராசு
+        க, blackboard
+        கு, hose
+        நு, microscope
+        ஊ, needle 
+        இ, plier
+        க, plough
+        இர, Saw
+        ம, spade`,
+
+`தொ, telescope
+சோ, testtube
+வெ, thermometer
+க, trowel, ரணை
+ந, walkie-talkie
+கு, awl
+தி, compass
+வெ, hacksaw`,
+
+        `வீ, house
+மே, table
+மெ, bed
+மெ, candle
+நா, chair
+அ, shelf
+சி, boy
+சி, girl
+ஆ, man
+பெ, woman`,
+        
+        `ப, ball
+மே, coat
+மூ, glasses
+க, clock
+கை, watch
+சூ, sun  
+ம, rain
+ந, star
+பா, milk
+மோ, ring`,
+
+        `தூ, brush
+எ, bone
+ஒள, auvai 
+ம, bell
+ப, bird
+ச, conch
+ஐ, five
+உ, food
+ப, fruits
+அ, king`,
+
+        `ப, kite
+ஏ,ladder
+ல, ladoo
+இ, leaf
+மு, rishi
+ச, wheel
+ஊ, whistle
+உ, world
+யா, yazl`,      
+]
     },
     {
       type: 'connectLetters',
