@@ -5,100 +5,112 @@ export default {
   list: [
     {
       type: 'slides',
-      id: 'animals',
-      label: 'Animals',
+      id: 'birds',
+      label: 'Birds',
       commonData: {
-        audio: 'animals.mp3'
+        audio: 'bn-birds.mp3'
       },
       data: [
         {
           audioOffset: 0,
-          text: `cat | বিড়াল
-dog | কুকুর
-goat | ছাগল
-sheep | ভেড়া
-horse | ঘোড়া
-pig | শূকর
-elephant | হাতি
-lion | সিংহ
-monkey | বানর 
-tiger | বাঘ`
+          text: `crow | কাক 
+            dove |  পায়রা
+ duck| হাঁস 
+ hen| মুরগি
+ parrot| টিয়া পাখি
+ peacock| ময়ূর
+ sparrow| চড়ুই, চড়াই
+ chick| মুরগিছানা
+crane| সারস পাখি`
         },
         {
-          audioOffset: 20,
-          text: `hippo | জলহস্তী
-rhino | গণ্ডার
-fox | শিয়াল
-crocodile | কুমির
-zebra | জেব্রা
-bear | ভালুক
-camel | উট
-shark | হাঙ্গর
-whale | তিমি মাছ
-dolphin | ডলফিন`
-        },
-        {
-          audioOffset: 40,
-          text: `dragonfly | ফড়িং
-fish | মাছ
-frog | ব্যাঙ
-crab | কাঁকড়া 
-snake | সাপ
-squirrel | কাঠবিড়ালি
-tortoise | কচ্ছপ 
-rat | ইঁদুর 
-winged-termites | উইপোকা
-ant | পিঁপড়ে `
-        },
-        {
-          audioOffset: 60,
-          text:
-            'fly, bat, buffalo, butterfly, cheetah, cow, donkey, giraffe, kangaroo, leopard'
-        },
-        {
-          audioOffset: 80,
-          text:
-            'mongoose, mosquito, octopus, wolf, cockroach, garden-lizard, lizard,  rabbit'
+          audioOffset: 18,
+          text: `kingfisher|মাছরাঙ্গা
+ myna|মায়না
+ ostrich| উটপাখি
+ owl| পেঁচা
+ rooster| মোরগ
+ vulture| শকুন
+ woodpecker | কাঠঠোকরা `
         }
       ]
     },
     {
       type: 'slides',
-      id: 'birds',
-      label: 'Birds',
-      commonData: {
-        audio: 'birds.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'crow, dove, duck, hen, chick, parrot, peacock, penguin, sparrow, crane'
-        },
-        {
-          audioOffset: 20,
-          text:
-            'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, hornbill'
-        }
-      ]
+      id: 'flowers',
+      label: 'Flowers',
+      data: {
+        audio: 'bn-flowers-bodyParts-kitchen.mp3',
+        audioOffset: 0,
+        text: `rose | গোলাপ
+lotus | পদ্ম 
+sunflower | সূর্যমুখী 
+marigold | গাঁদা 
+hibiscus | জবা
+jasmine | জুঁই `
+      }
+    },
+    {
+      type: 'slides',
+      id: 'bodyParts',
+      label: 'Parts of Body',
+      data: {
+        audio: 'bn-flowers-bodyParts-kitchen.mp3',
+        audioOffset: 12,
+        text: `ear | কান
+eye | চোখ
+foot | পা
+hair | চুল
+hand | হাত
+mouth | মুখ
+nose | নাক
+tooth | দাঁত `
+      }
+    },
+    {
+      type: 'slides',
+      id: 'bodyParts',
+      label: 'Kitchen',
+      data: {
+        audio: 'bn-flowers-bodyParts-kitchen.mp3',
+        audioOffset: 28,
+        text: `stove | চুলা
+fork | কাঁটাচামচ 
+knife | ছুরি
+pan | চাটু
+spoon | চামচ
+pot | পাত্র
+butter | মাখন`
+      }
     },
     {
       type: 'slides',
       id: 'fruits',
       label: 'Fruits',
       commonData: {
-        audio: 'fruits.mp3'
+        audio: 'bn-fruits.mp3'
       },
       data: [
         {
           audioOffset: 0,
-          text:
-            'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange'
+          text: `apple | আপেল
+grapes | আঙুর
+banana | কলা
+guava | পেয়ারা
+jackfruit | কাঁঠাল 
+mango | আম
+orange | কমলা লেবু
+papaya | পেঁপে `
         },
         {
-          audioOffset: 20,
-          text:
-            'papaya, pineapple, pomegranate, watermelon, fig, custard-apple | custard apple, plum, dates, muskmelon'
+          audioOffset: 16,
+          text: `pineapple | আনারস
+pomegranate | ডালিম
+watermelon | তরমুজ
+fig | ডুমুর
+custard-apple | আতা
+dates | খেজুর
+muskmelon | খরবুজ`
         }
       ]
     },
@@ -107,25 +119,65 @@ ant | পিঁপড়ে `
       id: 'vegetables',
       label: 'Vegetables',
       commonData: {
-        audio: 'vegetables.mp3'
+        audio: 'bn-vegetables.mp3'
       },
       data: [
         {
           audioOffset: 0,
-          text:
-            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+          text: `carrot | গাজর
+beetroot | বিট
+onion | পেঁয়াজ 
+tomato | টমেটো
+potato | আলু
+cabbage | বাঁধাকপি
+cauliflower | ফুলকপি
+corn | ভুট্টা
+cucumber | শসা
+garlic | রসুন`
         },
         {
           audioOffset: 20,
-          text:
-            'ginger, pumpkin, almond, beans, bitter-gourd | bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+          text: `ginger | আদা
+pumpkin | কুমড়
+almond | বাদাম
+bitter-gourd | করলা
+brinjal | বেগুন
+cashewnut | কাজুবাদাম
+chilli | লঙ্কা
+coconut | নারকেল
+corianderleaf | ধনেপাতা
+curryleaf | কারিপাতা`
         },
         {
           audioOffset: 40,
-          text:
-            'corianderleaf | coriander leaf, curryleaf | curry leaf, drumstick, greenpeas, ladies-finger | ladies finger, mintleaf, peanut, raddish, spinach'
+          text: `drumstick | সজনেডাঁটা
+greenpeas | মটরশুটি
+ladies-finger | ভিন্ডি
+mintleaf | পুদিনা
+peanut | চিনাবাদাম
+raddish | মূলো
+spinach | পালং শাক`
         }
       ]
+    },
+    {
+      type: 'slides',
+      id: 'vehicles',
+      label: 'Vehicles',
+      data: {
+        audio: 'bn-vehicles.mp3',
+        audioOffset: 0,
+        text: `aeroplane | বিমান
+          boat | নৌকা
+          bus | বাস
+          car | কার
+          ship | জাহাজ
+          train | রেল গাড়ি
+          auto | অটো
+cart | গোরুর গাড়ি
+excavator | খননকারী যন্ত্র
+fire-engine | দমকল`
+      }
     },
     {
       type: 'rightOne',
@@ -138,21 +190,64 @@ ant | পিঁপড়ে `
       },
       data: [
         {
-          audio: 'animals.mp3',
-          words:
-            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+          audio: 'bn-birds.mp3',
+          words: 'crow, dove, duck, hen, parrot, peacock, sparrow, chick, crane'
         },
         {
-          audio: 'animals.mp3',
+          audio: 'bn-birds.mp3',
+          audioOffset: 18,
+          words: 'kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 0,
+          words: 'rose, lotus, sunflower, marigold, hibiscus, jasmine'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 12,
+          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 28,
+          words: 'stove, fork, knife, pan, spoon, pot, butter'
+        },
+        {
+          audio: 'bn-fruits.mp3',
+          audioOffset: 0,
+          words:
+            'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
+        },
+        {
+          audio: 'bn-fruits.mp3',
+          audioOffset: 16,
+          words:
+            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+        },
+        {
+          audio: 'bn-vegetables.mp3',
+          audioOffset: 0,
+          words:
+            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+        },
+        {
+          audio: 'bn-vegetables.mp3',
           audioOffset: 20,
           words:
-            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
+            'ginger, pumpkin, almond, bitter-gourd, brinjal, cashewnut, chilli, coconut, corianderleaf, curryleaf'
         },
         {
-          audio: 'animals.mp3',
+          audio: 'bn-vegetables.mp3',
           audioOffset: 40,
           words:
-            'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant'
+            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+        },
+        {
+          audio: 'bn-vehicles.mp3',
+          audioOffset: 0,
+          words:
+            'aeroplane, boat, bus, car, ship, train, auto, cart, excavator, fire-engine'
         }
       ]
     }

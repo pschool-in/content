@@ -1,5 +1,6 @@
 import writing from '../playlists/ta-writing';
 import picture from '../playlists/ta-picture';
+import picture2 from '../playlists/ta-picture-2';
 import grammar from '../playlists/ta-grammar';
 import vocabulary from '../playlists/ta-word';
 import sentence from '../playlists/ta-sentence';
@@ -30,7 +31,8 @@ export default {
     wordsearch,
     crossword,
     thirukkural,
-    barathi
+    barathi,
+    picture2
   ]
 };
 
