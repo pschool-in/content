@@ -180,6 +180,41 @@ fire-engine | দমকল`
       }
     },
     {
+      type: 'slides',
+      id: 'other-images',
+      label: 'Other Images',
+      commonData: {
+        audio: 'bn-others.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `house | ঘর
+table | টেবিল
+bed | বিছানা
+candle | মোমবাতি
+chair | কেদারা
+shelf | তাক
+baby | বাচ্চা
+boy | ছেলে
+girl | মেয়ে`
+        },
+        {
+          audioOffset: 18,
+          text: `man | পুরুষ
+woman| মহিলা
+glasses | চশমা
+clock | ঘড়ি
+watch | হাতঘড়ি
+pen | কলম
+scissors | কাঁচি 
+waterbottle | জলের বোতল
+book | বই
+color-pencils | রঙ পেন্সিল`
+        }
+      ]
+    },
+    {
       type: 'rightOne',
       label: 'Identify Words by Sound',
       id: 'pick-word',
@@ -248,6 +283,17 @@ fire-engine | দমকল`
           audioOffset: 0,
           words:
             'aeroplane, boat, bus, car, ship, train, auto, cart, excavator, fire-engine'
+        },
+        {
+          audio: 'bn-others.mp3',
+          audioOffset: 0,
+          words: 'house, table, bed, candle, chair, shelf, baby, boy, girl'
+        },
+        {
+          audio: 'bn-others.mp3',
+          audioOffset: 18,
+          words:
+            'man, woman, glasses, clock, watch, pen, scissors, waterbottle, book, color-pencils'
         }
       ]
     }

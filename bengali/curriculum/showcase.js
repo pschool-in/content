@@ -12,7 +12,7 @@ import social from '../playlists/bn-social';
 import poem from '../playlists/bn-poem';
 
 export default {
-  label: 'Bengali',
+  label: 'বাংলা',
   style: {
     fontSize: '0.9rem'
   },
