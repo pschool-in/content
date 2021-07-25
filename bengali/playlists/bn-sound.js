@@ -218,7 +218,6 @@ color-pencils | রঙ পেন্সিল`
       type: 'rightOne',
       label: 'Identify Words by Sound',
       id: 'pick-word',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'image'
