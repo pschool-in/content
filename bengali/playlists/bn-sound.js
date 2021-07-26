@@ -5,6 +5,73 @@ export default {
   list: [
     {
       type: 'slides',
+      id: 'animals',
+      label: 'Animals',
+      commonData: {
+        audio: 'bn-animals.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `cat | বিড়াল
+dog | কুকুর
+goat | ছাগল
+sheep | ভেড়া
+horse | ঘোড়া
+pig | শূকর
+elephant | হাতি
+lion | সিংহ
+monkey | বাঁদর
+tiger | বাঘ`
+        },
+        {
+          audioOffset: 20,
+          text: `hippo | জলহস্তী
+          rhino | গণ্ডার
+fox | শিয়াল
+crocodile | কুমির
+bear | ভালুক
+camel | উট
+shark | হাঙ্গর
+whale | তিমি মাছ
+dolphin | শুশুক 
+dragonfly | ফড়িং`
+        },
+        {
+          audioOffset: 40,
+          text: `fish | মাছ
+frog | ব্যাঙ
+crab | কাঁকড়া
+snake | সাপ
+squirrel | কাঠবিড়ালি
+tortoise | কচ্ছপ
+rat | ইঁদুর
+winged-termites | উইপোকা
+ant | পিঁপড়ে
+fly | মাছি`
+        },
+        {
+          audioOffset: 60,
+          text: `bat | বাদুড়
+buffalo | মোষ
+butterfly | প্রজাপতি
+cheetah | চিতাবাঘ
+cow | গোরু
+donkey | গাধা`
+        },
+        {
+          audioOffset: 72,
+          text: `mongoose | বেজি
+mosquito | মশা
+wolf | নেকড়ে বাঘ
+cockroach | আরশোলা
+lizard | টিকটিকি
+rabbit | খরগোশ`
+        }
+      ]
+    },
+    {
+      type: 'slides',
       id: 'birds',
       label: 'Birds',
       commonData: {
@@ -211,6 +278,38 @@ scissors | কাঁচি
 waterbottle | জলের বোতল
 book | বই
 color-pencils | রঙ পেন্সিল`
+        },
+        {
+          audioOffset: 38,
+          text: `sun | সূর্য 
+moon | চাঁদ
+rain | বৃষ্টি 
+star | তারা
+milk | দুধ
+ring | আংটি
+bone | হাড়
+bell | ঘণ্টা
+bird | পাখি
+conch | শঙ্খ`
+        },
+        {
+          audioOffset: 58,
+          text: `drums | ঢাক
+five | পাঁচ 
+food | খাবার
+fruits | ফল
+king | রাজা
+kite | ঘুড়ি
+ladder | মই`
+        },
+        {
+          audioOffset: 72,
+          text: `ladoo | লাড্ডু
+leaf | পাতা
+rishi | ঋষি
+wheel | চাকা
+whistle | বাঁশি 
+world | পৃথিবী`
         }
       ]
     },
@@ -223,6 +322,33 @@ color-pencils | রঙ পেন্সিল`
         type: 'image'
       },
       data: [
+        {
+          audio: 'bn-animals.mp3',
+          words:
+            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 20,
+          words:
+            'hippo, rhino, fox, crocodile, bear, camel, shark, whale, dolphin, dragonfly'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 40,
+          words:
+            'fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant, fly'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 60,
+          words: 'bat, buffalo, butterfly, cheetah, cow, donkey'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 72,
+          words: 'mongoose, mosquito, wolf, cockroach, lizard, rabbit'
+        },
         {
           audio: 'bn-birds.mp3',
           words: 'crow, dove, duck, hen, parrot, peacock, sparrow, chick, crane'
@@ -293,6 +419,21 @@ color-pencils | রঙ পেন্সিল`
           audioOffset: 18,
           words:
             'man, woman, glasses, clock, watch, pen, scissors, waterbottle, book, color-pencils'
+        },
+        {
+          audio: 'bn-others.mp3',
+          audioOffset: 38,
+          words: 'sun, moon, rain, star, milk, ring, bone, bell, bird, conch'
+        },
+        {
+          audio: 'bn-others.mp3',
+          audioOffset: 58,
+          words: 'drums, five, food, fruits, king, kite, ladder'
+        },
+        {
+          audio: 'bn-others.mp3',
+          audioOffset: 72,
+          words: 'ladoo, leaf, rishi, wheel, whistle, world'
         }
       ]
     }
