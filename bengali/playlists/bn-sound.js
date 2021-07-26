@@ -69,7 +69,7 @@ tooth | দাঁত `
     },
     {
       type: 'slides',
-      id: 'bodyParts',
+      id: 'kitchen',
       label: 'Kitchen',
       data: {
         audio: 'bn-flowers-bodyParts-kitchen.mp3',

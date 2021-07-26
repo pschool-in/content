@@ -1,3 +1,4 @@
+/*
 import letter from '../playlists/bn-letter';
 import picture from '../playlists/bn-picture';
 import sound from '../playlists/bn-sound';
@@ -10,6 +11,20 @@ import reading from '../playlists/bn-reading';
 import science from '../playlists/bn-science';
 import social from '../playlists/bn-social';
 import poem from '../playlists/bn-poem';
+*/
+
+import letter from '../playlists/bn-letter.js';
+import picture from '../playlists/bn-picture.js';
+import sound from '../playlists/bn-sound.js';
+import grammar from '../playlists/bn-grammar.js';
+import word from '../playlists/bn-word.js';
+import sentence from '../playlists/bn-sentence.js';
+import wordsearch from '../playlists/bn-wordsearch.js';
+import crossword from '../playlists/bn-crossword.js';
+import reading from '../playlists/bn-reading.js';
+import science from '../playlists/bn-science.js';
+import social from '../playlists/bn-social.js';
+import poem from '../playlists/bn-poem.js';
 
 export default {
   label: 'বাংলা',

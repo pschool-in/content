@@ -1,3 +1,4 @@
+/*
 import writing from '../playlists/ta-writing';
 import picture from '../playlists/ta-picture';
 import picture2 from '../playlists/ta-picture-2';
@@ -12,6 +13,22 @@ import social from '../playlists/ta-social';
 import thirukkural from '../playlists/thirukkural';
 import barathi from '../playlists/barathi';
 import sound from '../playlists/ta-sound';
+*/
+
+import writing from '../playlists/ta-writing.js';
+import picture from '../playlists/ta-picture.js';
+import picture2 from '../playlists/ta-picture-2.js';
+import grammar from '../playlists/ta-grammar.js';
+import vocabulary from '../playlists/ta-word.js';
+import sentence from '../playlists/ta-sentence.js';
+import wordsearch from '../playlists/ta-wordsearch.js';
+import crossword from '../playlists/ta-crossword.js';
+import reading from '../playlists/ta-reading.js';
+import science from '../playlists/ta-science.js';
+import social from '../playlists/ta-social.js';
+import thirukkural from '../playlists/thirukkural.js';
+import barathi from '../playlists/barathi.js';
+import sound from '../playlists/ta-sound.js';
 
 export default {
   label: 'Tamil',

@@ -1,3 +1,4 @@
+/*
 import coloring from '../playlists/default/coloring';
 import writing from '../playlists/default/writing';
 import grammar from '../playlists/default/grammar';
@@ -12,6 +13,22 @@ import reading from '../playlists/default/reading';
 import sudoku from '../playlists/default/sudoku';
 import clock from '../playlists/default/clock';
 import games from '../playlists/default/games';
+*/
+
+import coloring from '../playlists/default/coloring.js';
+import writing from '../playlists/default/writing.js';
+import grammar from '../playlists/default/grammar.js';
+import vocabulary from '../playlists/default/vocabulary.js';
+import math from '../playlists/default/math.js';
+import science from '../playlists/default/science.js';
+import social from '../playlists/default/social.js';
+import dragdrop from '../playlists/default/dragdrop.js';
+import wordsearch from '../playlists/default/wordsearch.js';
+import crossword from '../playlists/default/crossword.js';
+import reading from '../playlists/default/reading.js';
+import sudoku from '../playlists/default/sudoku.js';
+import clock from '../playlists/default/clock.js';
+import games from '../playlists/default/games.js';
 
 let mainMenu = {
   style: {},

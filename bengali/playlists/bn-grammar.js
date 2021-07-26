@@ -34,7 +34,7 @@ export default {
 
     {
       //Same sounding words
-      id: 'number',
+      id: 'number-2',
       type: 'match',
       label: 'ব্যাকরণ - বচন',
       commonData: {
@@ -66,7 +66,7 @@ export default {
 
     {
       //Gender
-      id: 'number',
+      id: 'number-3',
       type: 'match',
       label: 'ব্যাকরণ - লিঙ্গ',
       commonData: {
