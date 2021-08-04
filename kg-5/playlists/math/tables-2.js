@@ -6,6 +6,7 @@ export default {
       type: 'match',
       label: 'Tables',
       id: 'match',
+      lockAfter: 3,
       commonData: {
         title: 'Tables - Match the following'
       },

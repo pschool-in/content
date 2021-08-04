@@ -54,120 +54,52 @@ export default {
       }
     },
     {
-      type: 'match',
-      label: 'Animals and Birds',
-      id: 'animals-birds',
-      commonData: {
-        title: 'Match Images and their first letters.',
-        rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `C, cat
-D, dog
-G, goat
-H, horse
-S, sheep`,
-
-        `P, pig
-E, elephant  
-L, lion
-M, monkey
-T, tiger`,
-
-        `H, hippo
-R, rhino
-F,fox
-C,crocodile
-Z,zebra`,
-
-        `B,bear
-C,camel
-S,shark
-F,frog
-D,dolphin`,
-
-        `D,dragonfly
-F,fish
-W,whale
-C,crab
-S,snake`,
-
-        `S,squirrel
-T,tortoise
-R,rat
-A,ant
-F,fly`,
-
-        `C,crow
-D,dove
-H,hen
-P,penguin
-S,sparrow`
-      ]
-    },
-    {
-      type: 'match',
-      label: 'Fruits and Vegetables',
-      id: 'fruits-vegetables',
-      commonData: {
-        title: 'Match Images and their first letters.',
-        rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `A, apple
-B, banana
-C, cherry
-P, pineapple
-S, strawberry`,
-
-        `A, avocado
-G, guava
-J, jackfruit
-C, cauliflower
-P, pumpkin`,
-
-        `G, grapes
-O, orange
-P, pomegranate
-W, watermelon
-C, corn`,
-
-        `C, carrot
-B, beetroot
-O, onion
-P, potato
-G, garlic`,
-
-        `C, cabbage
-T, tomato
-P, papaya
-G, ginger
-M, mango`
-      ]
-    },
-    {
       type: 'rightOne',
       label: 'Identify Capital Letters',
       slug: 'correct-spelling',
       id: 'sound',
-      data: {
+      commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        collectionType: 'capitalLetters'
-      }
+        audio: 'english.mp3'
+      },
+      data: [
+        {
+          words: 'A, B, C, D, E, F, G, H, I, J'
+        },
+        {
+          words: 'K, L, M, N, O, P, Q, R',
+          audioOffset: 20
+        },
+        {
+          words: 'S, T, U, V, W, X, Y, Z',
+          audioOffset: 36
+        }
+      ]
     },
     {
       type: 'rightOne',
       label: 'Identify Small Letters',
       slug: 'correct-spelling',
       id: 'sound-2',
-      data: {
+      commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        collectionType: 'smallLetters'
-      }
+        audio: 'english.mp3'
+      },
+      data: [
+        {
+          words: 'a, b, c, d, e, f, g, h, i, j'
+        },
+        {
+          words: 'k, l, m, n, o, p, q, r',
+          audioOffset: 20
+        },
+        {
+          words: 's, t, u, v, w, x, y, z',
+          audioOffset: 36
+        }
+      ]
     }
   ]
 };

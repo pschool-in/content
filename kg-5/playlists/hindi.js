@@ -9,7 +9,7 @@ export default {
       label: 'Hindi Common Vowels',
       data: {
         type: 'custom',
-        audio: 'hindi.mp3',
+        audio: 'hi-letters.mp3',
         source: [
           {
             id: 'अ',
@@ -85,7 +85,8 @@ export default {
               'M 83 171 C 193 131 155 105 132 113 C 98 130 124 181 172 169 C 93 177 88 295 193 221 ',
               'M 6 95 L 191 96 '
             ],
-            width: 200
+            width: 200,
+            audio: 24
           },
           {
             id: 'ए',
@@ -148,7 +149,8 @@ export default {
               'M 84 94 L 172 95 ',
               'M 127 66 L 148 66 '
             ],
-            width: 170
+            width: 170,
+            audio: 20
           },
           {
             id: 'अः',
@@ -161,7 +163,8 @@ export default {
               'M 188 130 L 188 148 ',
               'M 186 201 L 186 219 '
             ],
-            width: 205
+            width: 205,
+            audio: 22
           }
         ],
         repeatCount: 1
@@ -173,7 +176,7 @@ export default {
       label: 'Hindi Common Consonants',
       data: {
         type: 'custom',
-        audio: 'hindi.mp3',
+        audio: 'hi-letters.mp3',
         source: [
           {
             id: 'क',
@@ -219,7 +222,8 @@ export default {
               'M 75 95 L 75 125 Q 15 120 15 149 Q 12 182 54 182 Q 91 182 90 214 Q 85 257 12 233 ',
               'M 9 94 L 109 94 ',
               'M 109 146 L 109 168 '
-            ]
+            ],
+            audio: 36
           },
           {
             id: 'च',
@@ -552,19 +556,37 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
       data: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        collectionType: 'hindiVowels'
+        words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
+        audio: 'hi-letters.mp3'
       }
     },
     {
       type: 'rightOne',
       label: 'Identify Hindi Consonants',
-      slug: 'correct-spelling',
       id: 'sound-2',
-      data: {
+      commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        collectionType: 'hindiConsonants'
-      }
+        audio: 'hi-letters.mp3'
+      },
+      data: [
+        {
+          audioOffset: 28,
+          words: 'क, ख, ग, घ, ङ, च, छ, ज, झ, ञ'
+        },
+        {
+          audioOffset: 48,
+          words: 'ट, ठ, ड, ढ, ण, त, थ, द, ध, न'
+        },
+        {
+          audioOffset: 68,
+          words: 'प, फ, ब, भ, म, य, र, ल'
+        },
+        {
+          audioOffset: 84,
+          words: 'व, श, ष, स, ह'
+        }
+      ]
     },
     {
       data: {

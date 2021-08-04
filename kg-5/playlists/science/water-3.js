@@ -2,6 +2,7 @@ export default {
   id: 'water-3',
   label: 'Water',
   pdf: 'water-3.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Water - Reading',

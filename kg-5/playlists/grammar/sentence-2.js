@@ -6,6 +6,7 @@ export default {
       id: 'sort',
       label: 'Order the Sentence',
       type: 'sorting',
+      lockAfter: 1,
       commonData: {
         title: 'Rearrange words to form sentence.',
         multiple: true
@@ -49,6 +50,7 @@ when, are, you, coming, to, our, house`
       label: 'Fill Up',
       type: 'matchByDragDrop',
       id: 'fill-up',
+      lockAfter: 1,
       commonData: {
         isPractice: false,
         title: 'Drag and drop: Fill the blanks with the appropriate word',

@@ -2,6 +2,7 @@ export default {
   label: 'Water Management',
   id: 'water-5',
   pdf: 'water-5.pdf',
+  lockAfter: 4,
   list: [
     {
       id: '100',

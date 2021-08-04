@@ -2,6 +2,7 @@ export default {
   id: 'everyday-science-3',
   label: 'Everyday Science',
   pdf: 'everyday-science-3.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Science in Kitchen - Passage',

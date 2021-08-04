@@ -1,6 +1,7 @@
 export default {
   label: 'Conjunction',
   id: 'conjunction',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',
@@ -27,8 +28,7 @@ export default {
     {
       label: 'Find Conjunction',
       type: 'selectWord',
-      slug: 'select-word',
-      editable: true,
+      lockAfter: 1,
       commonData: {
         title: 'Click on the word in the sentence, which is a conjunction.'
       },
@@ -72,6 +72,7 @@ I waited for him *until* he arrived.`
       id: 'because-so',
       label: 'So vs Because',
       type: 'fillupOptions',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct conjunction.',
         options: 'because, so'

@@ -2,6 +2,7 @@ export default {
   label: 'Stories',
   id: 'stories-2',
   pageBreaks: '8',
+  lockAfter: 3,
   list: [
     {
       id: '100',

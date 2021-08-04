@@ -76,6 +76,7 @@ Strepsils − First Aid For Sore Throat`
       type: 'match',
       label: 'Match',
       id: 'match',
+      lockAfter: 2,
       commonData: {
         title: 'Match'
       },
@@ -116,6 +117,7 @@ Facebook, Social Media Platform`
       label: 'Brands and Slogans',
       type: 'matchByDragDrop',
       id: 'slogans',
+      lockAfter: 2,
       commonData: {
         title: 'Drag and drop to match Brands and Slogans.',
         printTitle: 'Pick the brand to match the slogon.',

@@ -2,6 +2,7 @@ export default {
   label: 'Water Cycle',
   id: 'water-4',
   pdf: 'water-4.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Water - Reading',

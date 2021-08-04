@@ -18,6 +18,7 @@ export default {
       type: 'counter',
       id: 'count-1-9',
       label: 'Count Objects (1 - 9)',
+      locked: true,
       data: { level: 1 }
     },
     {
@@ -30,12 +31,14 @@ export default {
       label: 'Count Arithmetic - Subtraction',
       type: 'countArithmetic',
       data: { type: 'subtraction' },
+      locked: true,
       id: 'count-sub'
     },
     {
       label: 'Find the Value',
       type: 'picturePuzzle',
       id: 'value',
+      lockAfter: 2,
       commonData: {
         type: 1
       },

@@ -1,6 +1,7 @@
 export default {
   label: 'People and Jobs',
   id: 'people-jobs',
+  lockAfter: 4,
   list: [
     {
       type: 'slides',

@@ -127,8 +127,8 @@ My aunt *works in this hospital.*`
       lockAfter: 2,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right word to match the article.',
-        printTitle: 'Pick the right word that goes with the article.',
+        title: 'Drag and drop the right part of the sentence.',
+        printTitle: 'Pick the right part of the sentence.',
         leftWidth: 125,
         rightWidth: 195,
         fontSize: '1rem'
@@ -153,7 +153,7 @@ It| is dark.| are dark.`
           text: `Their plan| failed.| is failed.
 My goal| is to become a doctor.| are to become a doctor.
 My friends| liked my joke.| likes my joke.
-There parents| are very strict.| is very strict.
+Their parents| are very strict.| is very strict.
 It| is dark outside.| are dark outside.`
         },
         {

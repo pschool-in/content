@@ -3,9 +3,61 @@ export default {
   label: 'Profession',
   list: [
     {
+      id: 'reading',
+      type: 'passage',
+      label: 'Reading',
+      data: {
+        title: 'Tools of Workers',
+        text: [
+          {
+            type: 'sitewords',
+            text:
+              'axe, balance, blackboard, hose, microscope, needle, oven, plier, plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel, walkie-talkie, awl, compass, easel, hacksaw, scalpel',
+            width: 120
+          }
+        ]
+      }
+    },
+    {
+      type: 'completeWord',
+      id: 'tools',
+      label: 'Write the Names',
+      lockAfter: 1,
+      commonData: {
+        images: 'custom'
+      },
+      data: [
+        `axe | AXE
+ balance | BALANCE
+ blackboard | BLACKBOARD
+ hose | HOSE
+ microscope | MICROSCOPE
+ needle | NEEDLE
+ oven | OVEN
+ plier | PLIER
+ plough | PLOUGH
+ saw | SAW`,
+
+        `spade| SPADE
+ stethoscope | STETHOSCOPE
+ telescope | TELESCOPE
+ testtube | TESTTUBE
+ thermometer | THERMOMETER
+ trowel | TROWEL
+ walkie-talkie | WALKIETALKIE`,
+
+        `awl | AWL
+ compass | COMPASS
+ easel | EASEL
+ hacksaw | HACKSAW
+ scalpel | SCALPEL`
+      ]
+    },
+    {
       label: 'People and Professions',
       type: 'matchByDragDrop',
       id: 'profession',
+      lockAfter: 1,
       commonData: {
         title: 'Match the given words at the right blanks.',
         styles: {
@@ -40,6 +92,7 @@ I look after a library, I am a *librarian*.`
       id: 'match-tools',
       type: 'match',
       label: 'People and Tool',
+      lockAfter: 1,
       commonData: {
         title: 'Match the people with their  tools of trade.'
       },

@@ -29,6 +29,7 @@ import social from '../playlists/ta-social.js';
 import thirukkural from '../playlists/thirukkural.js';
 import barathi from '../playlists/barathi.js';
 import sound from '../playlists/ta-sound.js';
+import word2 from '../playlists/ta-word-2.js';
 
 export default {
   label: 'Tamil',
@@ -49,7 +50,8 @@ export default {
     crossword,
     thirukkural,
     barathi,
-    picture2
+    picture2,
+    word2
   ]
 };
 

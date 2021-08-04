@@ -44,6 +44,7 @@ We went to *Ooty* for vacation.
       type: 'selectWord',
       label: 'Identify Common Noun',
       id: 'select-common',
+      lockAfter: 1,
       commonData: {
         title: 'Select the common noun in the below sentence.'
       },
@@ -115,6 +116,7 @@ Don't under-estimate your *strength*.`
       label: 'Collective Nouns',
       type: 'matchByDragDrop',
       id: 'collective-noun',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the collective nouns at proper places.',
         styles: {
@@ -151,6 +153,7 @@ A *forest* of trees`
       type: 'selectWord',
       label: 'Identify Proper Noun',
       id: 'select-proper2',
+      lockAfter: 1,
       commonData: {
         title: 'Select the proper noun in the below sentence.',
         printTitle: 'Underline the proper noun in the below sentences.'
@@ -204,6 +207,7 @@ The most famous play writer in the world is *William Shakesphere.*
       type: 'selectWord',
       label: 'Identify Common Noun',
       id: 'select-common2',
+      lockAfter: 1,
       commonData: {
         title: 'Select the common noun in the below sentence.',
         printTitle: 'Underline the common noun in the below sentences.'
@@ -258,6 +262,7 @@ Which *country* do you belong to?`
       type: 'selectWord',
       label: 'Identify Collective Noun',
       id: 'select-collective2',
+      lockAfter: 1,
       commonData: {
         title: 'Select the collective noun in the below sentence.',
         printTitle: 'Underline the collective noun in the below sentences.'
@@ -290,6 +295,7 @@ A *band* of musicians was hired to perform at the birthday party.`
       type: 'selectWord',
       label: 'Identify Abstract Noun',
       id: 'select-abstract2',
+      lockAfter: 1,
       commonData: {
         title: 'Select the abstract noun in the below sentence.',
         printTitle: 'Underline the abstract noun in the below sentences.'

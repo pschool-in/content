@@ -2,6 +2,7 @@ export default {
   label: 'Stories',
   id: 'stories',
   pdf: 'stories.pdf',
+  lockAfter: 3,
   list: [
     {
       id: '100',

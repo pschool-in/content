@@ -1,6 +1,7 @@
 export default {
   label: 'Simple Reading',
   id: 'simple-reading',
+  lockAfter: 3,
   list: [
     {
       id: 'sandwich',
@@ -83,7 +84,7 @@ A baby zebra is called a foal and it can run within 1 hour of being born.`
         title: 'Camels',
         text: [
           { type: 'img', src: 'stockimg/camel.jpg' },
-          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camels' hump consist of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
+          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camel's hump consist of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
         ]
       }
     }

@@ -1,6 +1,7 @@
 export default {
   label: 'Air',
   id: 'air',
+  lockAfter: 4,
   list: [
     {
       id: '100',

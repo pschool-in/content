@@ -2,6 +2,7 @@ export default {
   // these pages are taken from 4th grade book
   label: 'Small Passages',
   id: 'small-passages',
+  lockAfter: 3,
   list: [
     {
       id: '100',

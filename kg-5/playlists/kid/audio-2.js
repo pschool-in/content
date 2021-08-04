@@ -1,6 +1,7 @@
 export default {
   label: 'Picture and Audio 2',
   id: 'audio-2',
+  lockAfter: 3,
   list: [
     {
       type: 'slides',
@@ -8,6 +9,7 @@ export default {
       label: 'Flowers',
       data: {
         audio: 'flowers-bodyParts.mp3',
+        title: 'Listening Activity',
         audioOffset: 0,
         text:
           'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
@@ -19,6 +21,7 @@ export default {
       label: 'Body Parts',
       data: {
         audio: 'flowers-bodyParts.mp3',
+        title: 'Listening Activity',
         audioOffset: 16,
         text: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
       }
@@ -28,7 +31,8 @@ export default {
       id: 'vehicles',
       label: 'Transport',
       commonData: {
-        audio: 'vehicles.mp3'
+        audio: 'vehicles.mp3',
+        title: 'Listening Activity'
       },
       data: [
         {
@@ -48,7 +52,8 @@ export default {
       id: 'picture',
       label: 'Pictures',
       commonData: {
-        audio: 'objects.mp3'
+        audio: 'picture.mp3',
+        title: 'Listening Activity'
       },
       data: [
         {
@@ -81,7 +86,8 @@ export default {
       id: 'picture-2',
       label: 'Pictures 2',
       commonData: {
-        audio: 'general.mp3'
+        audio: 'picture-2.mp3',
+        title: 'Listening Activity'
       },
       data: [
         {

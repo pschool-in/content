@@ -1,6 +1,7 @@
 export default {
   label: 'Child Rights',
   id: 'child-rights',
+  lockAfter: 4,
   list: [
     {
       id: 'reading',

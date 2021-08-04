@@ -1,6 +1,7 @@
 export default {
   label: 'Preposition',
   id: 'preposition',
+  lockAfter: 7,
   list: [
     {
       id: 'reading',
@@ -62,6 +63,7 @@ export default {
       label: 'Find Preposition',
       type: 'selectWord',
       slug: 'select-word',
+      lockAfter: 3,
       commonData: {
         title: 'Click on the word in the sentence, which is a preposition.'
       },

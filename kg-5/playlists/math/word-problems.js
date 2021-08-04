@@ -6,7 +6,7 @@ export default {
       label: 'Type of Problem',
       type: 'classifySentence',
       id: 'classify',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title:
           'Classify the below problem as addition, subtraction, multiplication, division',
@@ -69,7 +69,7 @@ On his birthday, Jagga buys 600 toffees for school. He wants to put them equally
       type: 'numberInput',
       id: 'word-prob',
       label: 'Answer the Word Problem.',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'

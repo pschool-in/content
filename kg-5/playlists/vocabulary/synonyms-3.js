@@ -256,6 +256,7 @@ explore − search`
       type: 'connectLetters',
       label: 'Pick the word',
       id: 'connect-letters',
+      lockAfter: 2,
       commonData: {
         title:
           'Connect the letters from left to right to form the synonym for the below word.',

@@ -1,6 +1,7 @@
 export default {
   label: 'Countable Noun',
   id: 'countable-noun',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',

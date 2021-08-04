@@ -2,6 +2,7 @@ export default {
   id: 'everyday-science-4',
   label: 'Everyday Science',
   pdf: 'everyday-science-4.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Gadgets - Passage',

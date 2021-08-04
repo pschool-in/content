@@ -2,6 +2,7 @@ export default {
   label: 'Nutrients',
   id: 'food-3',
   pdf: 'food-3.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Food - Reading',

@@ -4,78 +4,213 @@ export default {
   list: [
     {
       type: 'rightOne',
-      label: 'Identify Words by Sound',
-      id: 'pick-word',
-      lockAfter: 2,
+      id: 'animals',
+      label: 'Animals',
       commonData: {
         title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audio: 'animals.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
+        },
+        {
+          audioOffset: 40,
+          words:
+            'dragonfly, fish, frog, crab, snake, squirrel, tortoise, rat, termites, ant'
+        },
+        {
+          audioOffset: 60,
+          words:
+            'fly, bat, buffalo, butterfly, cheetah, cow, donkey, giraffe, kangaroo, leopard'
+        },
+        {
+          audioOffset: 80,
+          words:
+            'mongoose, mosquito, octopus, wolf, cockroach, garden lizard, lizard,  rabbit'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'birds',
+      label: 'Birds',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        audio: 'birds.mp3',
         type: 'words'
       },
       data: [
         {
-          audio: 'englishWords.mp3',
+          audioOffset: 0,
           words:
-            'jump, play, look, good, water, about, little, after, before, many, few'
+            'crow, dove, duck, hen, chick, parrot, peacock, penguin, sparrow, crane'
         },
         {
-          audio: 'words/audio1.mp3',
+          audioOffset: 20,
           words:
-            'huge, large, quick, fast, ill, sick, friendly, kind, silent, quiet, speak, talk, large, big'
+            'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, hornbill'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'fruits',
+      label: 'Fruits',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        audio: 'fruits.mp3',
+        type: 'words'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange'
         },
         {
-          audio: 'words/audio2.mp3',
+          audioOffset: 20,
           words:
-            'rest, relax, bad, evil, difficult, hard, begin, start, come, arrive, end, finish, right, correct, wrong, incorrect'
+            'papaya, pineapple, pomegranate, watermelon, fig, custard-apple | custard apple, plum, dates, muskmelon'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'vegetables',
+      label: 'Vegetables',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        audio: 'vegetables.mp3',
+        type: 'words'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
         },
         {
-          audio: 'words/audio3.mp3',
+          audioOffset: 20,
           words:
-            'small, tiny, draw, sketch, store, shop, see, observe, smile, grin, funny, silly, angry, upset'
+            'ginger, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
         },
         {
-          audio: 'words/audio4.mp3',
+          audioOffset: 40,
           words:
-            'road, street, gift, present, answer, reply, below, under, money, cash, child, kid'
+            'coriander leaf, curry leaf, drumstick, greenpeas, ladies finger, mintleaf, peanut, raddish, spinach'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'flowers',
+      label: 'Flowers',
+      data: {
+        audio: 'flowers-bodyParts.mp3',
+        title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audioOffset: 0,
+        words:
+          'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
+      }
+    },
+    {
+      type: 'rightOne',
+      id: 'bodyParts',
+      label: 'Body Parts',
+      data: {
+        audio: 'flowers-bodyParts.mp3',
+        title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audioOffset: 16,
+        words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+      }
+    },
+    {
+      type: 'rightOne',
+      id: 'vehicles',
+      label: 'Transport',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audio: 'vehicles.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike,ship, tractor'
         },
         {
-          audio: 'words/audio5.mp3',
+          audioOffset: 18,
           words:
-            'lift, raise, bag, sack, buy, purchase, chair, seat, close, near, choose, pick, find, discover, two, pair'
+            'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'picture',
+      label: 'Pictures',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audio: 'picture.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'house, table, bed, candle, chair, shelf, baby, boy, girl, man'
         },
         {
-          audio: 'words/audio6.mp3',
+          audioOffset: 20,
           words:
-            'leave, exit, tasty, delicious, intelligent, smart, chilly, cool, bravery, courage, eat, munch, stop, ease'
+            'woman, ball, coat, glasses, clock, watch, eraser, pen, pencil, ruler'
         },
         {
-          audio: 'words/audio7.mp3',
+          audioOffset: 40,
           words:
-            'yes, no, day, night, yesterday, tomorrow, young, old, early, late, cry, laugh, humility, pride'
+            'schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons'
         },
         {
-          audio: 'words/audio8.mp3',
-          words:
-            'fail, pass, many, few, poor, rich, speed, slow, cruel, kind, top, below  '
+          audioOffset: 56,
+          words: 'stove, fork, knife, pan, spoon, pot, butter'
         },
         {
-          audio: 'words/audio9.mp3',
+          audioOffset: 70,
           words:
-            'foolish, wise, forget, remember, glad, sad, angel, devil, battle, peace, beautiful, ugly, behind, ahead, best, worst'
+            'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web-camera'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      id: 'picture-2',
+      label: 'Pictures 2',
+      commonData: {
+        title: 'Listen to the sound and click on the word.',
+        type: 'words',
+        audio: 'picture-2.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'sun, moon, rain, star, milk, ring, brush, bone, bell, bird, conch'
         },
         {
-          audio: 'words/audio10.mp3',
+          audioOffset: 22,
           words:
-            'common, rare, complex, simple, difficult, easy, dream, reality, enemy, friend, everything, nothing, construct, destroy, expensive, cheap, future, past'
-        },
-        {
-          audio: 'words/audio11.mp3',
-          words:
-            'nowhere, everywhere, pain, pleasure, permanent, temporary, serious, silly, build, demolish, ashamed, proud, capture, release, casual, regular'
-        },
-        {
-          audio: 'words/audio12.mp3',
-          words:
-            'ceiling, floor, collect, distribute, command, request, advantage, drawback, damage, repair, different, alike, encourage, discourage, trap, release'
+            'drums, food, fruits, king, kite, ladder, leaf, wheel, whistle, world'
         }
       ]
     }

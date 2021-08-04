@@ -108,7 +108,7 @@ export default {
         },
         {
           title:
-            'A survey was conducted amoung students on their favorite fruit. The results are given in the below bar chart. Answer the questions given at the bottom.',
+            'A survey was conducted among students on their favorite fruit. The results are given in the below bar chart. Answer the questions given at the bottom.',
           type: 'vbar',
           labels: 'Mango, Apple, Banana, Orange, Pear',
           values: '10, 4, 7, 9, 4',

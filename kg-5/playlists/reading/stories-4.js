@@ -1,6 +1,7 @@
 export default {
   label: 'Stories',
   id: 'stories-4',
+  lockAfter: 3,
   list: [
     {
       id: '100',

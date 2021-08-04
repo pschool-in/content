@@ -1,6 +1,7 @@
 export default {
   label: 'Good Citizen',
   id: 'good-citizen',
+  lockAfter: 4,
   list: [
     {
       id: 'reading',

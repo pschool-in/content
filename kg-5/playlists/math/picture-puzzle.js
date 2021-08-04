@@ -6,6 +6,7 @@ export default {
       label: 'Fill Up',
       type: 'picturePuzzle',
       id: 'evaluate',
+      lockAfter: 3,
       commonData: {
         type: 1
       },
@@ -169,8 +170,8 @@ export default {
         ],
 
         [
-          `0 − 1 = 1
-1 − 2 = 1
+          `0 + 1 = 9
+1 + 2 = 7
 3 × 2 = 9
 5, 4, 3`,
 
@@ -268,6 +269,7 @@ export default {
       label: 'Find the Value',
       type: 'picturePuzzle',
       id: 'value',
+      lockAfter: 3,
       commonData: {
         type: 2
       },

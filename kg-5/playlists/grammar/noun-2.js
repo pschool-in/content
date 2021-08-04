@@ -6,6 +6,7 @@ export default {
       id: 'jumble',
       type: 'sequence',
       label: 'Connect the Collection',
+      lockAfter: 1,
       commonData: {
         title: 'Based on the below clue, connect letters and form the word.',
         printTitle: 'Form the word using the letters.',
@@ -40,6 +41,7 @@ a ______ of keys | bunch`
       type: 'group',
       label: 'Gender Bender! ',
       id: 'group',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the below words in the respective boxes.',
         printTitle:
@@ -58,6 +60,7 @@ a ______ of keys | bunch`
     {
       type: 'match',
       label: 'Match the Gender Pair',
+      lockAfter: 1,
       id: 'match',
       commonData: {
         title: 'Match'
@@ -92,6 +95,7 @@ gentleman, lady`
       label: 'Same Basket',
       type: 'matchByDragDrop',
       id: 'same-basket',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop words, so that nouns of same group are together.',
         styles: {

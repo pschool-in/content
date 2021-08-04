@@ -73,26 +73,26 @@ rabbit| RABBIT | _ABBIT`
       },
       data: [
         `crow|CROW |_ROW
-        dove|DOVE |_OVE
-        duck|DUCK |_UCK
-        hen|HEN |_EN
-        chick| CHICK | _HICK
-        parrot|PARROT |_ARROT
-        peacock|PEACOCK |_EACOCK
-        penguin|PENGUIN |_ENGUIN
-        sparrow|SPARROW |_PARROW
-        crane| CRANE | _RANE`,
+dove|DOVE |_OVE
+duck|DUCK |_UCK
+hen|HEN |_EN
+chick| CHICK | _HICK
+parrot|PARROT |_ARROT
+peacock|PEACOCK |_EACOCK
+penguin|PENGUIN |_ENGUIN
+sparrow|SPARROW |_PARROW
+crane| CRANE | _RANE`,
 
         `eagle| EAGLE | _AGLE
-      flamingo| FLAMINGO | _LAMINGO
-      kingfisher| KINGFISHER | _INGFISHER
-      myna| MYNA | _YNA
-      ostrich| OSTRICH | _STRICH
-      owl| OWL | _WL
-      rooster| ROOSTER | _OOSTER
-      vulture| VULTURE | _ULTURE
-      woodpecker| WOODPECKER | _OODPECKER
-      hornbill | HORNBILL | _ORNBILL`
+flamingo| FLAMINGO | _LAMINGO
+kingfisher| KINGFISHER | _INGFISHER
+myna| MYNA | _YNA
+ostrich| OSTRICH | _STRICH
+owl| OWL | _WL
+rooster| ROOSTER | _OOSTER
+vulture| VULTURE | _ULTURE
+woodpecker| WOODPECKER | _OODPECKER
+hornbill | HORNBILL | _ORNBILL`
       ]
     },
     {
@@ -134,15 +134,15 @@ muskmelon| MUSKMELON | _USKMELON`
       },
       data: [
         `carrot | CARROT | _ARROT
-        beetroot | BEETROOT | _EET_OOT
-        onion | ONION | _NION
-        tomato | TOMATO | _OMATO
-        potato | POTATO | _OTATO
-        cabbage | CABBAGE | _ABBAGE
-        corn | CORN | _ORN
-        cucumber |CUCUMBER |_UCUMBER
-        garlic|GARLIC |_ARLIC
-        ginger|GINGER |_INGER`,
+beetroot | BEETROOT | _EET_OOT
+onion | ONION | _NION
+tomato | TOMATO | _OMATO
+potato | POTATO | _OTATO
+cabbage | CABBAGE | _ABBAGE
+corn | CORN | _ORN
+cucumber |CUCUMBER |_UCUMBER
+garlic|GARLIC |_ARLIC
+ginger|GINGER |_INGER`,
 
         `cauliflower| CAULIFLOWER | _AULIFLOWER
 pumpkin| PUMPKIN | _UMPKIN

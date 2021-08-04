@@ -3,6 +3,7 @@ export default {
   pageBreaks: '1,4',
   id: 'india',
   pdf: 'india.pdf',
+  lockAfter: 6,
   list: [
     {
       id: '100',

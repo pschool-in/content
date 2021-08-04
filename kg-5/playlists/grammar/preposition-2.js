@@ -1,6 +1,7 @@
 export default {
   label: 'Preposition',
   id: 'preposition-2',
+  lockAfter: 5,
   list: [
     {
       id: 'reading',

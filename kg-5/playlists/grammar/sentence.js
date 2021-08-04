@@ -17,7 +17,7 @@ export default {
           `An  imperative sentence gives a command or makes a request. Usually in imperative sentences, the subject is hidden and understood. eg:`,
           `Please sit down.`,
           `# Interrogative`,
-          `An interrogative sentence asks a question. eg: `,
+          `An interrogative sentence asks a question. It usually ends with a question mark. eg: `,
           `What is your name?`,
           `# Exclamatory`,
           `An exclamatory sentence is a sentence that expresses great emotion such as excitement, surprise, happiness and anger, and ends with an exclamation point. eg: `,
@@ -29,6 +29,7 @@ export default {
       type: 'classifySentence',
       label: 'Classify Sentence Type',
       id: 'sentence-type',
+      lockAfter: 2,
       commonData: {
         title: 'Classify the below sentences.',
         types: ['Declarative', 'Imperative', 'Interrogative']
@@ -231,6 +232,7 @@ Can you clean the classroom?`
       type: 'sequence',
       label: 'Order Sentence',
       id: 'find-sentence',
+      lockAfter: 2,
       commonData: {
         printTitle: 'Rewrite the words and form proper sentence.'
       },
@@ -323,7 +325,7 @@ her father is very kind
 the road is very narrow
 keep the pebbles safe`,
 
-        `you hand writing is good
+        `your hand writing is good
 friends presented a lovely gift
 measure the line using ruler
 maintain silence in library
@@ -426,6 +428,7 @@ John hid the chocolate`
       type: 'fillupOptions',
       label: 'Choose Appropriate Word',
       id: 'fillup',
+      lockAfter: 1,
       data: [
         `John wanted to read *a (an, the)* comic book. *He (She, It) * went to the library. But *the (a, an)* library was closed.
         *I (He, We) * am eight years old. John *is (are, am) * my friend. *He (She, It)* is also eight years old. *We (Us, Me)* go to school together.
@@ -433,7 +436,7 @@ John hid the chocolate`
         *They (Them, We)* chased us. *We (Me, Us)*  climbed a tree to escape from *them (us, him)*. `,
 
         `There *was (were)* a tree in the backyard. It was a mango *tree (plant)*. It had *many (lot)* fruits. They were *very (so)* high. We were not *able (can)* to reach them with *our (my)* hands. 
-        We saw a monkey sitting on the tree. It was suprisingly looking *at (to)* us. We said 'hi' to *the (a, an)* monkey. It was impressed. It picked and *threw (throw)* a few mangoes to us. We collected *them (us, it)* happily and left the place.`,
+        We saw a monkey sitting on the tree. It was surprisingly looking *at (to)* us. We said 'hi' to *the (a, an)* monkey. It was impressed. It picked and *threw (throw)* a few mangoes to us. We collected *them (us, it)* happily and left the place.`,
 
         `Every week we *have (has, had)* Sunday as *our (my, they)* holiday.  Why Sunday is *so (to, do)* special for me?  My father takes *me (I, we)* along for his morning walk.  We walk briskly *to (do, so)* the sea shore. It is *just (first)* ten minutes *from (on, in)* my home.  I can hear the rolling waves of the *sea (see, say)*.  It is so good to watch the waves in the morning *sun (moon, star)* rays.`
       ]

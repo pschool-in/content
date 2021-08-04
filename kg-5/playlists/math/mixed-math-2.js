@@ -1,6 +1,7 @@
 export default {
   label: 'Mixed Math 2',
   id: 'mixed-math-2',
+  lockAfter: 2,
   list: [
     {
       label: 'Count Arithmetic - Multiply',

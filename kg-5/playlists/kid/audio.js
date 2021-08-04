@@ -124,6 +124,7 @@ export default {
       type: 'slides',
       id: 'vegetables',
       label: 'Vegetables',
+      lockAfter: 3,
       commonData: {
         audio: 'vegetables.mp3'
       },
@@ -253,7 +254,8 @@ export default {
             'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger , mintleaf, peanut, raddish, spinach'
         }
       ]
-    },
+    }
+    /*
     {
       type: 'slides',
       id: 'tamil-kural',
@@ -300,6 +302,6 @@ export default {
           ]
         }
       ]
-    }
+    }*/
   ]
 };

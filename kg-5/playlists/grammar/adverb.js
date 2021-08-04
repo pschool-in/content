@@ -1,6 +1,7 @@
 export default {
   label: 'Adverb',
   id: 'adverb',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',

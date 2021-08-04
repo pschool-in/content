@@ -83,6 +83,7 @@ export default {
       label: 'Verb / Adjective/ Adverb',
       type: 'classifySentence',
       id: 'classify-between3',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the underlined word as verb or adjective or adverb.',
         types: ['Verb', 'Adjective', 'Adverb']
@@ -130,6 +131,7 @@ The class is *very* loud today.`
       type: 'match',
       label: 'Match Words with Parts of Speech',
       id: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match Words with Parts of Speech'
       },

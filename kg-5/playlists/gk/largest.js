@@ -71,6 +71,7 @@ Brightest Planet − Venus`
       id: 'mcq',
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title: 'Multiple Choice Questions'
       },
@@ -154,6 +155,7 @@ Brightest Planet − Venus`
       type: 'match',
       label: 'Match',
       id: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the following'
       },
@@ -184,6 +186,7 @@ Brightest Planet − Venus`
       type: 'completeWord',
       label: 'Answer It',
       id: 'complete',
+      lockAfter: 1,
       commonData: {
         title: 'Type the right answer.'
       },
@@ -266,6 +269,7 @@ Highest Waterfall − Kunchikal Falls`
       id: 'mcq-2',
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title: 'Multiple Choice Questions'
       },
@@ -348,6 +352,7 @@ Highest Waterfall − Kunchikal Falls`
       type: 'match',
       label: 'Match',
       id: 'match-2',
+      lockAfter: 1,
       commonData: {
         title: 'Match the following. (In India)'
       },
@@ -375,6 +380,7 @@ Longest Railway Platform, Gorakhpur`
       type: 'completeWord',
       label: 'Write It',
       id: 'complete-2',
+      lockAfter: 1,
       commonData: {
         title: 'Write the following with respect to India.'
       },

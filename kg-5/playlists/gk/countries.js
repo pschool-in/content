@@ -92,6 +92,7 @@ United Arab Emirates − Abu Dhabi`
       type: 'match',
       label: 'Match Countries and Capitals',
       id: 'match',
+      lockAfter: 2,
       commonData: {
         title: 'Match Countries and Capitals'
       },
@@ -161,6 +162,7 @@ United Arab Emirates, Abu Dhabi`
       type: 'completeWord',
       label: 'Write the Capital',
       id: 'write-capital',
+      lockAfter: 2,
       commonData: {
         title: 'Type the capital of the given country.'
       },
@@ -208,6 +210,7 @@ Indonesia| Jakarta`
       type: 'completeWord',
       label: 'Write the Country',
       id: 'write-country',
+      lockAfter: 2,
       commonData: {
         title: 'Type the country which has the given capital.'
       },

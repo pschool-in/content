@@ -6,6 +6,7 @@ export default {
       label: 'Simple Word Problems',
       type: 'mcq',
       id: 'word-problem',
+      lockAfter: 2,
       commonData: {
         title: 'Pick the correct answer for the word problem.'
       },
@@ -112,6 +113,7 @@ export default {
       type: 'denomination',
       id: 'denomination',
       label: 'Write Denomination',
+      lockAfter: 2,
       data: [
         {
           format: 'xx0',

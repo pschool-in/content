@@ -6,6 +6,7 @@ export default {
       type: 'selectWord',
       label: 'Identify action word (Verb)',
       id: 'select-action-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the action word in the below sentence.'
       },
@@ -48,6 +49,7 @@ Tom is *watching* his favorite movie.`
       type: 'classifySentence',
       label: 'Identify Tense',
       id: 'find-tense',
+      lockAfter: 1,
       commonData: {
         title: 'Read the below sentence and find its tense.',
         types: ['Present', 'Past', 'Future']
@@ -95,6 +97,7 @@ I will see you later.`
       label: 'Subject-Verb Agreement',
       type: 'fillupOptions',
       id: 'fillup',
+      lockAfter: 1,
       data: [
         `Mangoes and bananas *are (is) * available in summer.
 Ravi *helps (help) * his mother to fetch water every day.

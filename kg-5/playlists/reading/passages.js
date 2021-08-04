@@ -1,6 +1,7 @@
 export default {
   label: 'Reading Passages',
   id: 'passages',
+  lockAfter: 3,
   list: [
     {
       id: '100',

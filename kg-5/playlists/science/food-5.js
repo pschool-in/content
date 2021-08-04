@@ -2,6 +2,7 @@ export default {
   label: 'Food - 5',
   id: 'food-5',
   pdf: 'food-5.pdf',
+  lockAfter: 4,
   list: [
     {
       id: '100',

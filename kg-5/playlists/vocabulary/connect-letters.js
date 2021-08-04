@@ -4,27 +4,69 @@ export default {
   list: [
     {
       type: 'connectLetters',
-      label: 'Connect letters to form word',
-      id: 'connect-letters',
-      lockAfter: 4,
+      id: 'animals',
+      label: 'Animals',
+      lockAfter: 1,
       commonData: {
         title:
           'Connect the letters from left to right to form the word that represents the image.',
-        printTitle: 'Form the word using the letters.',
         type: 'image'
       },
       data: [
-        'rat, ant, fly, hen, ear, eye, boy, girl, man, pen',
-        'bus, car, bed, sun, rain, star, milk, ring, bone, ship',
-        'rose, boat, pan, pot, ball, coat, fox, woman, foot, hair',
-        'cat, dog,pig, bear, tiger, hippo, rhino,  zebra,  camel, shark',
-        'goat, sheep, horse, lion, monkey,  whale, fish, frog, crab, snake',
-        'train, house, table, chair, candle, shelf, apple, grapes, banana, cherry',
-        'mango, orange, papaya, carrot, onion, tomato, fork, knife, spoon,  butter',
-        'hand, mouth, nose, tooth, brush, crow, dove, duck, parrot, sparrow ',
-        'bell, bird, drums, five, food, fruits, king, kite, ladder, leaf',
-        'potato, cabbage, corn,  lotus,  cycle, eraser,  pencil, ruler, stove',
-        'garlic, ginger, whistle, wheel,  world, camera, remote, speaker, tablet, torch'
+        'cat,dog,goat,sheep,horse,pig,elephant,lion,monkey,tiger',
+        'hippo,rhino,fox,crocodile,zebra,bear,camel,shark,whale,dolphin',
+        'dragonfly,fish,frog,crab,snake,squirrel,tortoise,rat,ant',
+        'fly | housefly,bat,buffalo,butterfly,cheetah,cow,donkey,giraffe,kangaroo,leopard',
+        'mongoose,mosquito,octopus,wolf,lizard,cockroach,rabbit'
+      ]
+    },
+    {
+      type: 'connectLetters',
+      id: 'birds',
+      label: 'Birds',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Connect the letters from left to right to form the word that represents the image.',
+        type: 'image'
+      },
+      data: [
+        'crow,dove,duck,hen,chick,parrot,peacock,penguin,sparrow,crane',
+        'eagle,flamingo,kingfisher,myna,ostrich,owl,rooster,vulture,woodpecker,hornbill'
+      ]
+    },
+    {
+      type: 'connectLetters',
+      id: 'fruits',
+      label: 'Fruits',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Connect the letters from left to right to form the word that represents the image.',
+        type: 'image'
+      },
+      data: [
+        'apple,grapes,banana,cherry,avocado,strawberry,guava,jackfruit,mango,orange',
+
+        'papaya,pineapple,watermelon,pomegranate,fig,plum,dates,muskmelon'
+      ]
+    },
+    {
+      type: 'connectLetters',
+      id: 'vegetables',
+      label: 'Vegetables',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Connect the letters from left to right to form the word that represents the image.',
+        type: 'image'
+      },
+      data: [
+        'carrot,beetroot,onion,tomato,potato,cabbage,corn,cucumber,garlic,ginger',
+
+        'cauliflower,pumpkin,almond,beans,brinjal,capsicum,cashewnut,chilli,coconut',
+
+        'curryleaf,drumstick,greenpeas,mintleaf,peanut,raddish,spinach'
       ]
     }
   ]

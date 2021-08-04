@@ -1,6 +1,7 @@
 export default {
   label: 'Pronoun',
   id: 'pronoun',
+  lockAfter: 4,
   list: [
     {
       id: 'reading',

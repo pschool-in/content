@@ -112,12 +112,12 @@ export default {
     mango, மாம்பழம்
     papaya, பப்பாளி`,
 
-        `pineapple, அன்னாசிப்பழம் 
+        `pineapple, அன்னாசி 
     pomegranate, மாதுளை 
     watermelon, தர்பூசணி 
     fig, அத்திப்பழம்
     custard-apple, சீத்தாப்பழம்
-    dates, பேரிச்சம்பழம்`
+    dates, பேரிச்சை `
       ]
     },
     {
@@ -149,13 +149,13 @@ export default {
       chilli, பச்சைமிளகாய்
       coconut, தேங்காய்
       corianderleaf,கொத்தமல்லி
-      curryleaf, கறிவேப்பிலை`,
+      curryleaf, கருவேப்பிலை`,
 
         `drumstick , முருங்கைக்காய்
       greenpeas, பச்சைபட்டாணி
       ladies-finger, வெண்டைக்காய்
       mintleaf , புதினா
-      peanut, நிலக்கடலை
+      peanut, வேர்க்கடலை
       raddish, முள்ளங்கி
       spinach, கீரை`
       ]
@@ -189,7 +189,6 @@ jasmine, மல்லி `
         text: `ear, காது 
 eye, கண்
 hair, முடி
-hand, கை
 mouth, வாய் 
 nose, மூக்கு 
 tooth, பல்`
@@ -203,6 +202,7 @@ tooth, பல்`
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
+        fontSize: '1rem',
         lang: 'ta'
       },
       data: [
@@ -215,7 +215,7 @@ tooth, பல்`
 
         `train, தொடர்வண்டி
   tractor, இழுவைஇயந்திரம்
-  ambulance, அவசர ஊர்தி
+  ambulance, அவசரஊர்தி
   fire-engine, தீயணைப்புவாகனம்
   lorry, சரக்குந்து`
       ]
@@ -411,12 +411,12 @@ tooth, பல்`
   mango| மாம்பழம்
   papaya| பப்பாளி`,
 
-        `pineapple| அன்னாசிப்பழம் 
+        `pineapple| அன்னாசி
   pomegranate| மாதுளை 
   watermelon| தர்பூசணி 
   fig| அத்திப்பழம்
   custard-apple| சீத்தாப்பழம்
-  dates| பேரிச்சம்பழம்`
+  dates| பேரிச்சை`
       ]
     },
     {
@@ -446,13 +446,13 @@ tooth, பல்`
     chilli| பச்சைமிளகாய்
     coconut| தேங்காய்
     corianderleaf|கொத்தமல்லி
-    curryleaf| கறிவேப்பிலை`,
+    curryleaf| கருவேப்பிலை`,
 
         `drumstick | முருங்கைக்காய்
     greenpeas| பச்சை பட்டாணி| ப__ ____
     ladies-finger| வெண்டைக்காய்
     mintleaf | புதினா
-    peanut| நிலக்கடலை
+    peanut| வேர்க்கடலை
     raddish| முள்ளங்கி
     spinach| கீரை`
       ]

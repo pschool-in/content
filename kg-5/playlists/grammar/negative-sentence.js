@@ -1,6 +1,7 @@
 export default {
   label: 'Negative Sentence',
   id: 'negative-sentence',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',
@@ -17,7 +18,8 @@ export default {
           `If a sentence does not have any of the above words, then it is a positive sentence. A sentence can be created in two ways. For example, the below two sentences have the same meaning.`,
           {
             type: 'hilight',
-            text: 'The jug has no water.\\nThe jug is empty. '
+            text: `The jug has no water.
+ The jug is empty.`
           },
           `The first sentence is known as negative sentence and the second sentence is known as positive sentence.`,
           `# some vs any`,
@@ -25,7 +27,8 @@ export default {
           `We use 'some' when we request for something or offer something.`,
           {
             type: 'hilight',
-            text: 'Can I borrow some money?\\nWould you like some tea?'
+            text: `Can I borrow some money?
+Would you like some tea?`
           },
           `We use 'any' when asking a question.`,
           { type: 'hilight', text: 'Do you have any pen?' },
@@ -60,7 +63,7 @@ It is very cloudy.`
 We should never tell lies.
 There is no one in the house.
 There is nothing in the fridge.
-It is n't sunny.`
+It isn't sunny.`
           }
         ]
       },

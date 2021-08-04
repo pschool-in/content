@@ -2,6 +2,7 @@ export default {
   id: 'everyday-science-5',
   label: 'Everyday Science',
   pdf: 'everyday-science-5.pdf',
+  lockAfter: 4,
   list: [
     {
       label: 'Reversible Changes - Passage',

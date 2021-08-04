@@ -1,6 +1,7 @@
 export default {
   label: 'Small Passages 3',
   id: 'small-passages-3',
+  lockAfter: 3,
   list: [
     {
       id: '100',

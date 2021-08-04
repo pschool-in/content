@@ -1,6 +1,7 @@
 export default {
   label: 'Divisibility Test',
   id: 'divisibility-test',
+  lockAfter: 4,
   list: [
     {
       id: 'notes',
@@ -52,6 +53,7 @@ A number is divisible by 10, if the number ends with zero.
       id: 'divisible-3',
       data: {
         title: 'Classify the below as divisible by 3 or not.',
+        fontSize: '1.5rem',
         types: [
           {
             name: 'Divisible by 3',
@@ -74,18 +76,18 @@ A number is divisible by 10, if the number ends with zero.
           {
             name: 'True',
             text: `40 is divisible by 10.
-                15 is divisible by 5.
-                18 is divisible by 2.
-                18 is divisible by 3.
-                  30 is divisible by 3.`
+15 is divisible by 5.
+18 is divisible by 2.
+18 is divisible by 3.
+30 is divisible by 3.`
           },
           {
             name: 'False',
             text: `18 is divisible by 4.
-                15 is divisible by 2.
-                10 is divisible by 3.
-                14 is divisible by 4.
-                11 is divisible by 3.`
+15 is divisible by 2.
+10 is divisible by 3.
+14 is divisible by 4.
+11 is divisible by 3.`
           }
         ]
       }
@@ -96,6 +98,7 @@ A number is divisible by 10, if the number ends with zero.
       id: 'divisible-4',
       data: {
         title: 'Classify the below as divisible by 4 or not.',
+        fontSize: '1.5rem',
         types: [
           {
             name: 'Divisible by 4',
@@ -114,6 +117,7 @@ A number is divisible by 10, if the number ends with zero.
       id: 'divisible-5',
       data: {
         title: 'Classify the below as divisible by 5 or not.',
+        fontSize: '1.5rem',
         types: [
           {
             name: 'Divisible by 5',
@@ -132,6 +136,7 @@ A number is divisible by 10, if the number ends with zero.
       id: 'divisible-6',
       data: {
         title: 'Classify the below as divisible by 6 or not.',
+        fontSize: '1.5rem',
         types: [
           {
             name: 'Divisible by 6',
@@ -154,18 +159,18 @@ A number is divisible by 10, if the number ends with zero.
           {
             name: 'True',
             text: `30 is divisible by 6.
-                  5 is divisible by 5.
-                  13 is divisible by 1.
-                  12 is divisible by 6.
-                  10 is divisible by 5.`
+5 is divisible by 5.
+13 is divisible by 1.
+12 is divisible by 6.
+10 is divisible by 5.`
           },
           {
             name: 'False',
             text: `32 is divisible by 6.
-                51 is divisible by 5.
-                13 is divisible by 6.
-                30 is divisible by 4.
-                5 is divisible by 10.`
+51 is divisible by 5.
+13 is divisible by 6.
+30 is divisible by 4.
+5 is divisible by 10.`
           }
         ]
       }
@@ -176,6 +181,7 @@ A number is divisible by 10, if the number ends with zero.
       id: 'divisible-10',
       data: {
         title: 'Classify the below as divisible by 10 or not.',
+        fontSize: '1.5rem',
         types: [
           {
             name: 'Divisible by 10',
@@ -198,18 +204,18 @@ A number is divisible by 10, if the number ends with zero.
           {
             name: 'True',
             text: `360 is divisible by 6.
-                  545 is divisible by 5.
-                  913 is divisible by 1.
-                  912 is divisible by 6.
-                  180 is divisible by 5. `
+545 is divisible by 5.
+913 is divisible by 1.
+912 is divisible by 6.
+180 is divisible by 5. `
           },
           {
             name: 'False',
             text: `232 is divisible by 6.
-                519 is divisible by 5.
-                813 is divisible by 6.
-                630 is divisible by 4.
-                665 is divisible by 10.`
+519 is divisible by 5.
+813 is divisible by 6.
+630 is divisible by 4.
+665 is divisible by 10.`
           }
         ]
       }

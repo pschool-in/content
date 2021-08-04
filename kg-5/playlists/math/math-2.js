@@ -6,6 +6,7 @@ export default {
       label: 'Arrange Number Names',
       type: 'sorting',
       id: 'sort',
+      lockAfter: 2,
       commonData: {
         title:
           'Drag and drop and arrange the numbers. The smallest should come on top.'
@@ -22,9 +23,11 @@ export default {
       label: 'Odd vs Even Numbers',
       type: 'group',
       id: 'group',
+      lockAfter: 2,
       commonData: {
         title:
           'Classify the below numbers as Odd and Even. Drag and drop them in the right boxes',
+        fontSize: '2rem',
         types: ['Even', 'Odd']
       },
       data: [
@@ -39,7 +42,7 @@ export default {
       type: 'match',
       label: 'Match Multiply',
       id: 'match-multiply',
-      editable: true,
+      lockAfter: 2,
       commonData: {
         title: 'Match Multiply'
       },
@@ -89,6 +92,7 @@ export default {
       type: 'match',
       label: 'Match Division',
       id: 'match-divide',
+      lockAfter: 2,
       commonData: {
         title: 'Match Division'
       },
@@ -136,6 +140,7 @@ export default {
       label: 'Number Sequence',
       type: 'matchByDragDrop',
       id: 'complete',
+      lockAfter: 2,
       commonData: {
         title:
           'Fill the sequence by moving the numbers to the respective boxes',
@@ -159,6 +164,7 @@ export default {
       label: 'Fill Up',
       type: 'fillupOptions',
       id: 'fillup',
+      lockAfter: 2,
       commonData: {
         title: 'Click on the blanks and fill it with right option'
       },

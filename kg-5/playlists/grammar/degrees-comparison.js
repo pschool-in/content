@@ -79,7 +79,7 @@ Bheem is braver than Kalia.
 Diamond is costlier than ruby.`,
 
           `Taj Mahal is one of the most famous monument in India.
-Bheeem is the bravest boy amoung his friends.
+Bheem is the bravest boy among his friends.
 Diamond is the costliest stone.`
         ],
         [
@@ -128,7 +128,7 @@ India is a *larger( large,largest )* Democracy than the USA.
 Ostrich is the *largest( large,larger )* bird.`,
 
         `Taj Mahal is a *famous(more famous)* monument in India.
-Bheeem is the *bravest(braver,brave)* boy amoung his friends.
+Bheem is the *bravest(braver,brave)* boy among his friends.
 Diamond is a *costly(costlier,costliest)* stone.
 Taj Mahal is *more(most)* famous than Qutub Minar.
 Bheem is *braver(brave,bravest)* than Kalia.

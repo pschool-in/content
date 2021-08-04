@@ -263,6 +263,7 @@ on × off`
       type: 'connectLetters',
       label: 'Pick the word',
       id: 'connect-letters',
+      lockAfter: 2,
       commonData: {
         title:
           'Connect the letters from left to right to form the antonym for the below word.',

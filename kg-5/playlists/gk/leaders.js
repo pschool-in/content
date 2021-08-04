@@ -64,6 +64,7 @@ J. R. D. Tata − Industrialist, philanthropist, and aviation pioneer, Tata foun
       type: 'match',
       label: 'Match',
       id: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match',
         fontSize: '1rem'
@@ -98,6 +99,7 @@ Nelson Mandela, apartheid`
       id: 'mcq-2',
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title: 'Multiple Choice Questions'
       },

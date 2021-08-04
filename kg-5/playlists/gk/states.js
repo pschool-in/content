@@ -53,6 +53,7 @@ Tripura	− Agartala`
       type: 'match',
       label: 'Match',
       id: 'match',
+      lockAfter: 2,
       commonData: {
         title: 'Match States and Capitals'
       },
@@ -95,6 +96,7 @@ Tripura	, Agartala`
       type: 'completeWord',
       label: 'Write the Capital',
       id: 'write-capital',
+      lockAfter: 1,
       commonData: {
         title: 'Type the capital of the given state.'
       },

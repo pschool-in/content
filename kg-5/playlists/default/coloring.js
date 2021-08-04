@@ -1093,7 +1093,7 @@ const coloring = {
           color: '#de00b2'
         },
         {
-          title: 'Help the monkey to get the banana.',
+          title: 'Help the dog to get the bone.',
           start: 'dog',
           target: 'bone',
           color: '#007e81',
@@ -1141,7 +1141,7 @@ const coloring = {
 1,1,1,1,1,1,1,1,1,1`
         },
         {
-          title: 'Help the monkey to get the banana.',
+          title: 'Help the dog to get the bone.',
           start: 'dog',
           target: 'bone',
           color: '#904bd5',

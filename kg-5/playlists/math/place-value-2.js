@@ -6,6 +6,7 @@ export default {
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Number',
+      lockAfter: 2,
       commonData: {
         title: 'Write the Number',
         type: 'word-problem'
@@ -40,6 +41,7 @@ Nine crore and ninety nine thousand | 90099000`
       type: 'numberInput',
       id: 'place-value',
       label: 'Place Value',
+      lockAfter: 2,
       commonData: {
         title: 'Find the Place Value',
         type: 'word-problem'

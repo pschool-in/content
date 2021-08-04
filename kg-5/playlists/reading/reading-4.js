@@ -1,6 +1,7 @@
 export default {
   label: 'Reading Lessons',
   id: 'reading-4',
+  lockAfter: 3,
   list: [
     {
       id: '1100',

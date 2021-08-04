@@ -52,6 +52,7 @@ Electric Motor − Michael Faraday`
       type: 'match',
       label: 'Match',
       id: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match'
       },
@@ -83,6 +84,7 @@ Electric Motor, Michael Faraday`
       type: 'completeWord',
       label: 'Write the Answer',
       id: 'write',
+      lockAfter: 1,
       commonData: {
         lang: 'en',
         title: 'Write the Answer'

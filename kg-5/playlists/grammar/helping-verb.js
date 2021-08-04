@@ -1,6 +1,7 @@
 export default {
   label: 'Helping Verb',
   id: 'helping-verb',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',
@@ -106,6 +107,7 @@ Why *was* your brother sad?`,
     {
       type: 'group',
       label: 'Helping vs Main verbs',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the below verbs in the respective boxes.',
         types: ['Helping Verb', 'Main Verb']

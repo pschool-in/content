@@ -127,12 +127,12 @@ papaya | பப்பாளி`
         },
         {
           audioOffset: 12,
-          text: `pineapple | அன்னாசிப்பழம்
+          text: `pineapple | அன்னாசி
 pomegranate | மாதுளை
 watermelon | தர்பூசணி
 fig | அத்திப்பழம்
 custard-apple | சீத்தாப்பழம்
-dates | பேரிச்சம்பழம்`
+dates | பேரிச்சை`
         }
       ]
     },
@@ -175,7 +175,7 @@ curryleaf | கருவேப்பிலை`
 greenpeas | பச்சை பட்டாணி
 ladies-finger | வெண்டைக்காய் 
 mintleaf | புதினா
-peanut | நிலக்கடலை
+peanut | வேர்க்கடலை
 raddish | முள்ளங்கி
 spinach | கீரை`
         }

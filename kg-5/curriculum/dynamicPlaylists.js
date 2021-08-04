@@ -20,8 +20,23 @@ const vocabulary = [
     grade: 'g2, g3, g4'
   },
   {
+    label: 'Picture Match',
+    slug: 'match-picture',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Picture Match - 2',
+    slug: 'match-picture-2',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
     label: 'Missing Letter',
     slug: 'picture',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Missing Letter - 2',
+    slug: 'picture-2',
     grade: 'kg, g1, g2, g3'
   },
   {
@@ -30,14 +45,24 @@ const vocabulary = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Word from Picture - 2',
+    slug: 'word-from-picture-2',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: '3 Letter Words',
     slug: 'simple-words',
     grade: 'kg, g1, g2'
   },
   {
-    label: 'Connect Letters and Make Words',
+    label: 'Connect Letters',
     slug: 'connect-letters',
-    grade: 'g1, g2, g3'
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Connect Letters - 2',
+    slug: 'connect-letters-2',
+    grade: 'g3, g4, g5'
   },
   {
     label: '4 Letter Words',
@@ -117,6 +142,11 @@ const vocabulary = [
   {
     label: 'Pick Words by Sound',
     slug: 'pick-word',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Pick Words by Sound - 2',
+    slug: 'pick-word-2',
     grade: 'g1, g2, g3'
   },
   {
@@ -252,9 +282,9 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Root Word',
-    slug: 'root-word',
-    grade: 'g3, g4, g5'
+    label: 'Root Word - 5',
+    slug: 'root-word-5',
+    grade: 'g5'
   },
   {
     label: 'Phrase',
@@ -529,7 +559,7 @@ const science = [
   {
     label: 'Force',
     slug: 'force',
-    grade: 'g2, g3'
+    grade: 'g2, g3, g4'
   },
   {
     label: 'Plants',
@@ -592,13 +622,13 @@ const science = [
     grade: 'g4, g5'
   },
   {
-    label: 'Digestive System',
-    slug: 'digestive-system',
-    grade: 'g4, g5'
+    label: 'Human Body',
+    slug: 'human-body',
+    grade: 'g3, g4, g5'
   },
   {
-    label: 'Brain',
-    slug: 'brain',
+    label: 'Human Body 2',
+    slug: 'human-body-2',
     grade: 'g4, g5'
   },
   {
@@ -610,7 +640,8 @@ const science = [
     label: 'Satellites',
     slug: 'satellites',
     grade: 'g4, g5'
-  },
+  }
+  /*
   {
     label: 'Science Misc - 4',
     slug: 'science-4',
@@ -620,7 +651,7 @@ const science = [
     label: 'Computers',
     slug: 'computer',
     grade: 'g3, g4, g5'
-  }
+  }*/
 ];
 
 const social = [
@@ -647,6 +678,11 @@ const social = [
   {
     label: 'Transportation',
     slug: 'transportation',
+    grade: 'g3, g4'
+  },
+  {
+    label: 'Health',
+    slug: 'health',
     grade: 'g3, g4'
   },
   {
@@ -793,8 +829,8 @@ const misc = [
     grade: 'kg, g1, g2'
   },
   {
-    label: 'Tamil Sound Based',
-    slug: 'ta-sound',
+    label: 'Sound Based 2',
+    slug: 'audio-2',
     grade: 'kg, g1, g2'
   }
 ];
