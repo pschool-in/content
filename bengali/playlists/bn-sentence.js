@@ -210,7 +210,7 @@ export default {
   
       {
         id: 'fillup-2',
-        label: 'বাক্য - ব্যক্তি - ক্রিয়া',
+        label: 'বাক্য - পুরুষ - ক্রিয়া',
         type: 'fillupOptions',
         commonData: {
           title: 'শূন্যস্থান পূরণ করুন.'
