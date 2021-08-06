@@ -1,6 +1,6 @@
 export default {
  id: 'ta-spell',
- label: 'Spelling',
+ label: 'ல,ள,ழ வேறுபாடுகள்',
  list: [
    {
       id: '200',
@@ -11,21 +11,50 @@ export default {
         title: 'Click on the blanks and fill it with the right word.',
       },
      data: [
-       `Students have *access (excess)* to the library on holidays.
-          My friends eat to *excess(access)*.
-          In the forest, I saw a small house *among (between)* the trees.
-          There was a big stone *between(among)* the two wheels.
-          His hair was so soft. It was just *like (as)* silk.
-          She is working *as (like)* a doctor.
-          They got a set of 12 *knives (knifes)* and forks for their wedding.`,
+      `கடலில் *அலை (அளை)* வேகமாக வீசுகிறது.
+*குழந்தை (குலந்தை)* இருக்கும் இடம் கலகலப்பாக இருக்கும்.
+அப்பா முகிலனைை *அழை (அலை)*த்தார். 
+ராதா மிகவும் *அழகு (அலகு)* வாய்ந்தவள். 
+நான் *அவல் (அவழ்)* சாப்பிட்டேன். 
+*அவள் (அவல்)* என் தோழி.
+மாமா எனக்கு ஒரு பரிசு *அளி (அலி)*த்தார். 
+பாண்டியர் பகைவரை *அழி(அளி)*த்தார்.
+*அல்லி (அள்ளி)* மலர் மாலையில் மலர்கிறது.
+தச்சருக்கு தேவைப்படும் கருவி *உளி (உலி)*`,
        
-       `Students have *access (excess)* to the library on holidays.
-          My friends eat to *excess(access)*.
-          In the forest, I saw a small house *among (between)* the trees.
-          There was a big stone *between(among)* the two wheels.
-          His hair was so soft. It was just *like (as)* silk.
-          She is working *as (like)* a doctor.
-          They got a set of 12 *knives (knifes)* and forks for their wedding.`
+      `உயிர் கொடுப்பான் *தோழன் (தோலன்)*.
+கொடுத்து *மகிழ்வது (மகிள்வது)* இன்பம்.
+கிளியின் *அலகு (அளகு)* சிவப்பாக இருக்கும்.
+அம்மா வாசலில் *கோலம் (கோளம்)*  போட்டாள் 
+மரம் வளர்ப்போம்,*மழை (மலை)* பெறுவோம்.
+உயர்ந்து நிற்பது *மலை (மளை)*.
+பாதையை குறிப்பது *வழி(வலி)*.
+உடல் காயத்தினால் ஏற்படுவது *வலி (வளி)*.`
+
+       `வீட்டுக்கு ஒரு *மரம் (மறம்)* வளர்ப்போம்.
+ஒன்றில் பாதி *அரை (அறை)*.
+என் வீட்டில் எனக்கென்று ஓர் *அறை (அரை)*உள்ளது.
+ஆடு புற்களை *இரை (இறை)*யாக எடுத்துக்கொள்ளும்.
+எந்த செயல் தொடங்கும்போதும் *இறை (இரை)* வனை வேண்டுகிறேன்.
+நிலவு வரும் நேரம் *இரவு (இறவு)*`,
+      
+      `நேர்மை எப்போதும் *நன்மை (நண்மை)* தரும்.
+ஐம்புலன்களில் ஒன்று *கண் (கன்)*. 
+பூக்களில் இருப்பது *தேன் (தேண்)*.
+மார்கழி மாதத்தில் *பனி (பணி)* பெய்யும்.  
+*பனை (பணை)* மரத்தில் நுங்கு கிடைக்கும். 
+உயரத்தில் ஏற பயன்படுவது *ஏணி (ஏனி)*. 
+*பணம் (பனம்)* பத்தும் செய்யும்.
+சுவரில் அடிப்பது *ஆணி (ஆனி)*
+தமிழ் மாதங்களில் ஒன்று  *ஆனி (ஆணி)*
+      மண்டபம்
+ கொண்டாட்டம்
+தென்றல்
+சென்றான்
+பந்து
+*வெந்தயம் (வெண்தயம்)* உடலுக்கு குளிர்ச்சி தரும்
+மந்தை`,
+      
        ]
       }
     },
