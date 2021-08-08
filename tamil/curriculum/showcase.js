@@ -30,6 +30,7 @@ import thirukkural from '../playlists/thirukkural.js';
 import barathi from '../playlists/barathi.js';
 import sound from '../playlists/ta-sound.js';
 import word2 from '../playlists/ta-word-2.js';
+import spelling from '../playlists/ta-spell.js';
 
 export default {
   label: 'Tamil',
@@ -51,7 +52,8 @@ export default {
     thirukkural,
     barathi,
     picture2,
-    word2
+    word2,
+    spelling
   ]
 };
 
