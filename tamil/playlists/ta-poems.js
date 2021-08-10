@@ -21,7 +21,7 @@ export default {
       }
     },
     {
-      id:222
+      id: `222`
       type: 'passage',
       label: `தமிழ்த்தாய் வாழ்த்து`,
       data: {
