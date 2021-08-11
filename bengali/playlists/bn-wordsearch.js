@@ -6,7 +6,7 @@ export default {
     {
       id: '100',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 1',
+      label: 'শব্দ খোজ ১',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -35,7 +35,7 @@ export default {
     {
       id: '200',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 2',
+      label: 'শব্দ খোজ ২',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -63,7 +63,7 @@ export default {
     {
       id: '300',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 3',
+      label: 'শব্দ খোজ ৩',
       data: {
         title: 'টেবিল থেকে  বাংলা মাস সন্ধান করুন',
         words: [
@@ -89,7 +89,7 @@ export default {
     {
       id: '400',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 4',
+      label: 'শব্দ খোজ ৪',
       data: {
         title: 'টেবিল থেকে বাংলা ঋতু সন্ধান করুন',
         words: [
@@ -115,7 +115,7 @@ export default {
     {
       id: '500',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 5',
+      label: 'শব্দ খোজ ৫',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -144,7 +144,7 @@ export default {
     {
       id: '600',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 6',
+      label: 'শব্দ খোজ ৬',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -173,7 +173,7 @@ export default {
     {
       id: '700',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 7',
+      label: 'শব্দ খোজ ৭',
       data: {
         title: 'টেবিল থেকে  গ্রহের নাম করুন',
         words: [
@@ -202,7 +202,7 @@ export default {
     {
       id: '800',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 8',
+      label: 'শব্দ খোজ ৮',
       data: {
         title: 'টেবিল থেকে  বাংলা দিন সন্ধান করুন',
         words: [
@@ -231,7 +231,7 @@ export default {
       id: '900',
       editable: true,
       type: 'wordsearch',
-      label: 'শব্দ খোজ 9',
+      label: 'শব্দ খোজ ৯',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -263,7 +263,7 @@ export default {
     {
       id: '1000',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 10',
+      label: 'শব্দ খোজ ১০',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -295,7 +295,7 @@ export default {
     {
       id: '1100',
       type: 'wordsearch',
-      label: 'শব্দ খোজ 11',
+      label: 'শব্দ খোজ ১১',
       data: {
         title: 'টেবিল থেকে  জায়গাগুলি সন্ধান করুন',
         words: [
@@ -326,7 +326,7 @@ export default {
       id: "1200",
       editable: true,
       type: "wordsearch",
-      label: "শব্দ - খোজ 12",
+      label: "শব্দ - খোজ ১২",
       data: {
         title: "টেবিল থেকে পাখির নামগুলি সন্ধান করুন ",
         words: [
@@ -360,7 +360,7 @@ export default {
       id: "1300",
       editable: true,
       type: "wordsearch",
-      label: "শব্দ - খোজ 13",
+      label: "শব্দ - খোজ ১৩",
       data: {
         title: "টেবিল থেকে পশুর নামগুলি সন্ধান করুন ",
         words: [
@@ -392,7 +392,7 @@ export default {
       id: "1400",
       editable: true,
       type: "wordsearch",
-      label: "শব্দ - খোজ 14",
+      label: "শব্দ - খোজ ১৪",
       data: {
         title: "টেবিল থেকে ফুলের  নামগুলি সন্ধান করুন ",
         words: [
@@ -424,7 +424,7 @@ export default {
       id: "1500",
       editable: true,
       type: "wordsearch",
-      label: "শব্দ - খোজ 15",
+      label: "শব্দ - খোজ ১৫",
       data: {
         title: "টেবিল থেকে শহরের  নামগুলি সন্ধান করুন ",
         words: [
