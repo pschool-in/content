@@ -1,6 +1,6 @@
 export default {
     label: 'Stories',
-    id: 'bn-reading',
+    id: 'hi-reading',
     img: 'reading',
     list: [
       {
