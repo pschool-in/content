@@ -324,7 +324,6 @@ export default {
     },
         {
       id: "1200",
-      editable: true,
       type: "wordsearch",
       label: "শব্দ - খোজ ১২",
       data: {
@@ -358,7 +357,6 @@ export default {
     },
     {
       id: "1300",
-      editable: true,
       type: "wordsearch",
       label: "শব্দ - খোজ ১৩",
       data: {
@@ -390,7 +388,6 @@ export default {
     },
         {
       id: "1400",
-      editable: true,
       type: "wordsearch",
       label: "শব্দ - খোজ ১৪",
       data: {
@@ -422,7 +419,6 @@ export default {
     },
         {
       id: "1500",
-      editable: true,
       type: "wordsearch",
       label: "শব্দ - খোজ ১৫",
       data: {
