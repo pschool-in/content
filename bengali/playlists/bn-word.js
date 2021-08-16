@@ -297,13 +297,13 @@ export default {
         এখানে, Here
         ওখানে, There`,
 
-        `তাড়াতাড়ি - Quikly
-        আস্তে - Slowly
-        সর্বদা - Always
-        মাঝে মাঝে - Sometime
-        কখনো - Never
-        প্রায় - Often
-        কদাপি - Seldom`
+        `তাড়াতাড়ি, Quikly
+        আস্তে, Slowly
+        সর্বদা, Always
+        মাঝে মাঝে, Sometime
+        কখনো, Never
+        প্রায়, Often
+        কদাপি, Seldom`
       ]
     }
   ]
