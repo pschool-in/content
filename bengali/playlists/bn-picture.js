@@ -199,7 +199,7 @@ export default {
           প্র, butterfly
           চি, cheetah`,
 
-        `গো, cow
+        `গ, cow
           গা, donkey
           বে, mongoose
           ম, mosquito`,
