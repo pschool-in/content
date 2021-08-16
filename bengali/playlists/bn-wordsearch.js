@@ -325,7 +325,7 @@ export default {
         {
       id: "1200",
       type: "wordsearch",
-      label: "শব্দ - খোজ ১২",
+      label: "শব্দ খোজ ১২",
       data: {
         title: "টেবিল থেকে পাখির নামগুলি সন্ধান করুন ",
         words: [
@@ -358,7 +358,7 @@ export default {
     {
       id: "1300",
       type: "wordsearch",
-      label: "শব্দ - খোজ ১৩",
+      label: "শব্দ খোজ ১৩",
       data: {
         title: "টেবিল থেকে পশুর নামগুলি সন্ধান করুন ",
         words: [
@@ -389,7 +389,7 @@ export default {
         {
       id: "1400",
       type: "wordsearch",
-      label: "শব্দ - খোজ ১৪",
+      label: "শব্দ খোজ ১৪",
       data: {
         title: "টেবিল থেকে ফুলের  নামগুলি সন্ধান করুন ",
         words: [
@@ -420,7 +420,7 @@ export default {
         {
       id: "1500",
       type: "wordsearch",
-      label: "শব্দ - খোজ ১৫",
+      label: "শব্দ খোজ ১৫",
       data: {
         title: "টেবিল থেকে শহরের  নামগুলি সন্ধান করুন ",
         words: [
