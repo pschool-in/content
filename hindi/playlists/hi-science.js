@@ -1,5 +1,5 @@
 export default {
-    label: 'science',
+    label: 'विज्ञान',
     id: 'hi-science',
     img: 'science',
     list: [
