@@ -5,7 +5,7 @@ export default {
     list: [
       {
         id: 'parts-of-face',
-        label: 'Parts of Face',
+        label: 'चेहरे के हिस्से',
         type: 'dragAndDrop',
         data: {
           img: 'face',
@@ -45,10 +45,10 @@ export default {
 
       {
         type: 'group',
-        label: 'Wild Animal vs Domestic Animal ',
+        label: 'जंगली जानवर बनाम घरेलू जानवर ',
         id: 'classify-animal-type',
         commonData: {
-          title: 'Put the Animals in correct bucket ',
+          title: 'जानवरों को सही बॉक्स में रखें ',
           fontSize: '2rem',
           printTitle:
             'Rewrite the words given at the bottom at approprate boxes.',
