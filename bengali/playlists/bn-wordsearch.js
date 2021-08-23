@@ -477,5 +477,6 @@ export default {
         showWords: true,
       },
     },
+    
   ]
 };

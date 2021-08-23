@@ -1,12 +1,12 @@
 export default {
-  label: 'letters',
+  label: 'वर्ण',
   id: 'hi-letters',
   img: 'writing',
   list: [
     {
       id: 'vowels-writing',
       type: 'tracing',
-      label: 'Hindi Common Vowels',
+      label: 'स्वर वर्ण',
       data: {
         type: 'custom',
         audio: 'hi-letters.mp3',
@@ -173,7 +173,7 @@ export default {
     {
       id: 'consonants-writing',
       type: 'tracing',
-      label: 'Hindi Common Consonants',
+      label: 'व्यंजन वर्ण',
       data: {
         type: 'custom',
         audio: 'hi-letters.mp3',
@@ -495,10 +495,10 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'Identify Hindi Consonants',
+      label: 'हिंदी व्यंजन की पहचान करें',
       id: 'sound-2',
       commonData: {
-        title: 'Listen to the sound and click on the letter.',
+        title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
         audio: 'hi-letters.mp3'
       },

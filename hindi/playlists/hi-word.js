@@ -1,5 +1,5 @@
 export default {
-    label: 'word',
+    label: 'शब्द',
     id: 'hi-word',
     img: 'word',
     list: [
@@ -8,7 +8,7 @@ export default {
         label: 'शब्द गठन',
         type: 'sequence',
         commonData: {
-          title: 'Connect the blocks to form meaningful word.',
+          title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
           lang: 'hi'
         },
         data: [
@@ -25,10 +25,10 @@ export default {
       },
       {
         type: 'match',
-        label: 'Match Antonyms',
+        label: 'विलोम शब्द',
         id: 'antonyms',
         commonData: {
-          title: 'Match Antonyms'
+          title: 'विलोम का मिलान करें'
         },
         data: [
           `ज्ञान, अज्ञान
@@ -322,7 +322,7 @@ export default {
         label: 'समानार्थी शब्द',
         id: 'synonyms',
         commonData: {
-          title: 'Match Synonyms'
+          title: 'समानार्थी शब्द का मिलान करें'
         },
         data: [
           `आग, अग्नि

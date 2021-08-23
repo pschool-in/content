@@ -1,5 +1,5 @@
 export default {
-    label: 'निबंध (Essay)',
+    label: 'निबंध',
     id: 'hi-reading',
     img: 'reading',
     list: [
