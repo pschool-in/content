@@ -56,7 +56,7 @@ export default {
   buffalo | মোষ
   butterfly | প্রজাপতি
   cheetah | চিতাবাঘ
-  cow | গোরু
+  cow | গরু
   donkey | গাধা`
           },
           {

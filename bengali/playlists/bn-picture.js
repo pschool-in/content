@@ -5,7 +5,7 @@ export default {
   list: [
     {
       type: 'completeWord',
-      label: 'শুন্যস্তান পূরণ - ফল ও শাকসব্জি',
+      label: 'শূন্যস্থান পূরণ - ফল ও শাকসব্জি',
       id: 'complete-word',
       commonData: {
         images: 'custom',
@@ -33,7 +33,7 @@ export default {
   litchi| লিচু| _চু| লি, ব, খ, ল
   fruits| ফল| _ল| ফ, তা, ব, প`,
 
-        `carrot| গাজর| _জর| ব, বে, খ, র
+        `carrot| গাজর| _জর| গা, বে, খ, র
   beetroot| বিট| _ট| বি, ব, বে, খ
   onion| পেঁয়াজ| _য়াজ| পেঁ, বে, প, খ
   tomato| টমেটো| _মেটো| ট, ত, প, ব
@@ -66,7 +66,7 @@ export default {
     {
       id: 'match-fruit',
       type: 'match',
-      label: 'অক্ষর মেলানো - ফল ও শাকসব্জি',
+      label: 'অক্ষর মেলানো - ফল ও শাকসবজি',
       commonData: {
         title: 'চিত্রগুলি তাদের প্রথম অক্ষরের সাথে মেলান',
         rightImgType: 'custom',
@@ -199,7 +199,7 @@ export default {
           প্র, butterfly
           চি, cheetah`,
 
-        `গো, cow
+        `গ, cow
           গা, donkey
           বে, mongoose
           ম, mosquito`,
