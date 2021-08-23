@@ -1,14 +1,14 @@
 export default {
-  label: 'social',
+  label: 'सामाजिक विज्ञान',
   id: 'hi-social',
   img: 'social',
   list: [
     {
-        label: 'City - Monuments',
+        label: 'शहर - स्मारक',
         type: 'matchByDragDrop',
         id: 'right-word',
         commonData: {
-          title: 'Drag and drop the Cities where these monuments are present',
+          title: 'उन शहरों को खींचें और छोड़ें जहां ये स्मारक मौजूद हैं',
           styles: {
             fontSize: '1rem',
             dashWidth: 70
