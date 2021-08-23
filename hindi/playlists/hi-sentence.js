@@ -1,14 +1,14 @@
 export default {
-  label: 'sentence',
+  label: 'वाक्य',
   id: 'hi-sentence',
   img: 'sentence',
   list: [
     {
       id: 'form-sentence',
-      label: 'Form Sentence',
+      label: 'सही वाक्य बनाओ',
       type: 'sequence',
       commonData: {
-        title: 'Connect the blocks to form meaningful word.',
+        title: 'अर्थपूर्ण वाक्य बनाने के लिए शब्दों को जोड़िए',
         lang: 'hi'
       },
       data: [
