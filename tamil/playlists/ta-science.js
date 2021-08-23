@@ -109,7 +109,7 @@ export default {
       label: 'மரம்',
       type: 'dragAndDrop',
       data: {
-        img: 'img/dragDrop/tree.jpg',
+        img: 'tree.jpg',
         title: 'மரம்',
         width: 320,
         height: 396,
@@ -163,7 +163,7 @@ export default {
       label: 'உடல்  உறுப்புகள்',
       type: 'dragAndDrop',
       data: {
-        img: 'img/dragDrop/organs.jpg',
+        img: 'organs.jpg',
         title: 'உடல்  உறுப்புகளை பொருத்துக',
         width: 304,
         height: 354,
@@ -211,6 +211,28 @@ export default {
           }
         ]
       }
+    },
+    {
+      id: 'body-parts',
+      label: 'உடலின் பாகங்களும் செயல்களும்',
+      type: 'matchByDragDrop',
+      commonData: {
+        isPractice: false,
+        title: 'உடலின் பாகங்களும் செயல்களும்',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 60
+        }
+      },
+      data: [
+        `பார்க்க உதவும் உறுப்பு = *கண்*
+சுவாசிக்க பயன்படும் உறுப்பு = *மூக்கு* 
+கேட்க உதவும் உறுப்பு = *காது* 
+பேச உதவும் உறுப்பு = *வாய்* 
+ஓடுவதற்கு  உதவும் உறுப்பு = *கால்* 
+எழுதுவதற்கு பயன்படும் உறுப்பு = *கை* 
+சுவை அறிய உதவும் உறுப்பு = *நாக்கு*`
+      ]
     }
   ]
 };

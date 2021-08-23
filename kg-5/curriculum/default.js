@@ -103,6 +103,10 @@ let mainMenu = {
       img: 'bengali',
       alt: 'bengali icon',
       desc: 'bengali group',
+      separateApp: {
+        url: 'https://bn.pschool.in',
+        label: 'bn.pschool.in'
+      },
       dynamic: true
     }
   ]

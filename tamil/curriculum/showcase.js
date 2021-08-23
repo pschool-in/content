@@ -31,6 +31,12 @@ import barathi from '../playlists/barathi.js';
 import sound from '../playlists/ta-sound.js';
 import word2 from '../playlists/ta-word-2.js';
 import spelling from '../playlists/ta-spell.js';
+import kidsPoem from '../playlists/ta-kid-poems.js';
+import poems from '../playlists/ta-poems.js';
+/*
+ta-kid-poems, ta-la-words, ta-na-words, ta-ra-words
+ta-poems, thirukkural-2
+*/
 
 export default {
   label: 'Tamil',
@@ -53,7 +59,9 @@ export default {
     barathi,
     picture2,
     word2,
-    spelling
+    spelling,
+    kidsPoem,
+    poems
   ]
 };
 

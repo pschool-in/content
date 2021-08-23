@@ -4,27 +4,17 @@ const vocabulary = {
   img: 'vocabulary',
   list: [
     {
-      type: 'slides',
-      id: 'slides',
-      label: 'Slides',
-      data: {
-        audio: 'animals.mp3',
-        audioOffset: 0,
-        text: 'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
-      }
-    },
-    {
       type: 'sequence',
-      id: 'order-3-letter-words',
-      label: 'Order Word (3 letter words)',
+      id: '3-letter-word',
+      label: 'Three Letter Words',
       data: {
         text: `COW, KEY, BED, FAT, SAD, SUN, MAP, PAY, RUN, PEN, MAY, HIT, ANT, BAG, SIT`
       }
     },
     {
       type: 'sequence',
-      id: 'order-4-letter-words',
-      label: 'Order Word (4 letter words)',
+      id: '4-letter-word',
+      label: 'Four Letter Words',
       data: {
         text: `HOME, TIME, ROAD, KIND, GOLD, LION, GOAT, MILK, BIKE, LOVE, DUCK, STAR, FISH, HAND, BIRD`
       }
