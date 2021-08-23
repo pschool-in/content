@@ -1,11 +1,11 @@
 export default {
-  label: 'wordsearch',
+  label: 'शब्द खोज',
   id: 'hi-wordsearch',
   img: 'wordsearch',
   list: [
     {
       id: '100',
-      label: 'WordSearch - Hindi',
+      label: 'शब्द खोज 1',
       type: 'wordsearch',
       data: {
         lang: 'hi',
