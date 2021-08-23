@@ -1,10 +1,10 @@
 export default {
-    label: 'grammar',
+    label: 'व्याकरण',
     id: 'hi-grammar',
     img: 'langGrammar',
     list: [
       {
-        id: 'gender',
+        id: 'gender-hi',
         type: 'passage',
         label: 'लिंग',
         data: {
@@ -55,10 +55,10 @@ export default {
       },
       {
         type: 'group',
-        label: 'Gender - Male Female ',
+        label: 'लिंग पुरुष/महिला ',
         id: 'classify-geneder-type',
         commonData: {
-          title: 'Put the Genders in correct bucket ',
+          title: 'लिंग का वर्गीकरण करें',
           fontSize: '2rem',
           printTitle:
             'Rewrite the words given at the bottom at approprate boxes.',
