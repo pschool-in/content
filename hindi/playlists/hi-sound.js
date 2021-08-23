@@ -1,12 +1,12 @@
 export default {
-  label: 'sound',
+  label: 'ध्वनि',
   id: 'hi-sound',
   img: 'sound',
   list: [
     {
       type: 'slides',
       id: 'animals',
-      label: 'Animals',
+      label: 'जानवर',
       commonData: {
         audio: 'hi-animals.mp3'
       },
