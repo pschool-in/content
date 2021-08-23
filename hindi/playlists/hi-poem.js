@@ -1,5 +1,5 @@
 export default {
-  label: 'poem',
+  label: 'कविता',
   id: 'hi-poem',
   img: 'reading',
   list: [
