@@ -23,7 +23,53 @@ elephant| हाथी
 lion| शेर
 monkey| बंदर
 tiger| बाघ`
-        }
+        },
+        {
+            audioOffset: 0,
+            text: `hippo, दरियाई घोड़ा
+rhino, गैंडा
+fox, लोमड़ी
+crocodile, मगरमच्छ
+zebra, धारीदार घोडा
+bear, भालू
+camel, ऊंट
+shark, हाँगर
+whale, तिमिंगल`
+          },
+          {
+            audioOffset: 0,
+            text: ` fish, मछली
+frog, मेंडक
+crab, केकड़ा
+snake, सर्प
+squirrel, गिलहरी
+tortoise, कछुआ
+rat, चूहा
+winged-termites, पंखों वाला दीमक
+ant, चींटी`
+          },
+          {
+            audioOffset: 0,
+            text: `fly,मक्खी
+bat, चमगादड़
+buffalo, भेंस
+butterfly, तितली
+cheetah, 
+cow, गाय
+donkey, गधा
+kangaroo, कंगारू
+leopard, तेंदुआ`
+          },
+          {
+            audioOffset: 0,
+            text: `mongoose, नेवला
+mosquito, मच्छर
+wolf, भेड़िया
+cockroach, तिलचट्टा
+garden-lizard, बिछकपडा 
+lizard, छिपकली
+rabbit, खरगोश`
+          }
       ]
     },
     {
