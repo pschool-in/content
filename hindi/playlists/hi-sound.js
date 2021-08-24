@@ -326,7 +326,7 @@ ladder| सीढ़ी`
 rishi| ऋषि
 wheel| पहिया
 whistle| सीटी
-world, दुनिया`
+world| दुनिया`
           }
         ]
       },
