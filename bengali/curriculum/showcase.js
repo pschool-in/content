@@ -25,6 +25,7 @@ import reading from '../playlists/bn-reading.js';
 import science from '../playlists/bn-science.js';
 import social from '../playlists/bn-social.js';
 import poem from '../playlists/bn-poem.js';
+import reading2 from '../playlists/bn-reading-2.js';
 
 export default {
   label: 'বাংলা',
@@ -43,7 +44,8 @@ export default {
     social,
     wordsearch,
     crossword,
-    poem
+    poem,
+    reading2
   ]
   /*
   list: [

@@ -10,6 +10,7 @@ import reading from '../playlists/hi-reading.js';
 import science from '../playlists/hi-science.js';
 import social from '../playlists/hi-social.js';
 import poem from '../playlists/hi-poem.js';
+import essay from '../playlists/hi-essay.js';
 
 export default {
   label: 'हिंदी',
@@ -28,6 +29,7 @@ export default {
     social,
     wordsearch,
     crossword,
-    poem
+    poem,
+    essay
   ]
 };
