@@ -483,11 +483,11 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'Identify Hindi Vowels',
+      label: 'हिंदी स्वर वर्ण की पहचान करें',
       slug: 'correct-spelling',
       id: 'sound',
       data: {
-        title: 'Listen to the sound and click on the letter.',
+        title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
         words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
         audio: 'hi-letters.mp3'
@@ -495,7 +495,7 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'हिंदी व्यंजन की पहचान करें',
+      label: 'हिंदी व्यंजन वर्ण की पहचान करें',
       id: 'sound-2',
       commonData: {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
