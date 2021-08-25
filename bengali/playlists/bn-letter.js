@@ -459,6 +459,44 @@ export default {
         repeatCount: 1
       }
     },
+    
+    {
+    type: 'rightOne',
+    label: 'স্বরবর্ণ নির্বাচন করুন',
+    slug: 'correct-spelling',
+    id: 'sound',
+    data: {
+      title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন',
+      type: 'letters',
+      words: 'অ, আ, ই, ঈ, উ, ঊ, ঋ, ৯, এ, ঐ, ও, ঔ',
+      audio: 'bn-letters.mp3'
+    }
+  },
+  {
+    type: 'rightOne',
+    label: 'ব্যঞ্জনবর্ণ নির্বাচন করুন',
+    id: 'sound-2',
+    commonData: {
+      title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',
+      type: 'letters',
+      audio: 'bn-letters.mp3'
+    },
+    data: [
+      {
+        audioOffset: 24,
+        words: 'ক, খ, গ, ঘ, ঙ, চ , ছ, জ, ঝ, ঞ'
+      },
+      {
+        audioOffset: 44,
+        words: 'ট, ঠ, ড, ঢ,	ণ, ত, থ, দ, ধ, ন'
+      },
+      {
+        audioOffset: 64,
+        words: 'প, ফ,	ব,	ভ,	ম, য, র, ল,	শ,	ষ,	স'
+      },
+     
+    ]
+  },
     {
       id: '100',
       type: 'passage',
