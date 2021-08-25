@@ -1,5 +1,5 @@
 export default {
-  label: 'कहानियों',
+  label: 'कहानियाँ',
   id: 'hi-reading',
   img: 'reading',
   list: [
