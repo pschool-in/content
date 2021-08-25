@@ -1,5 +1,5 @@
 export default {
-    label: 'গল্প',
+    label: 'সুকুমার রায়',
     id: 'bn-reading-2',
     img: 'reading',
     list: [
