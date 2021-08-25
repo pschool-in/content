@@ -332,10 +332,10 @@ world| दुनिया`
       },
     {
       type: 'rightOne',
-      label: 'Select Picture',
+      label: 'चित्र चुनें',
       id: 'pick-word',
       commonData: {
-        title: 'Select Picture by listening to the Sound',
+        title: 'ध्वनि सुनकर चित्र का चयन करें',
         type: 'image'
       },
       data: [
