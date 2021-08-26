@@ -289,7 +289,9 @@ sharpener| पेंसिल ताराश
 waterbottle| पानी की बोतल 
 book| किताब
 crayons| कडिया पेंसिल`
-          },
+          }
+          ]
+     },
           {
         type: 'slides',
         id: 'other-images',
@@ -335,6 +337,33 @@ world| दुनिया`
           }
         ]
       },
+    {
+        type: 'slides',
+        id: 'house',
+        label: 'अन्य छवियां',
+        commonData: {
+          audio: 'hi-house.mp3'
+        },
+        data: [
+          {
+            audioOffset: 0,
+            text: `house| मकान
+table| मेज
+bed| बिस्तर
+candle| मोमबत्ती
+chair| कुर्सी
+shelf| अलमारी
+baby| बच्चा
+boy| लड़का
+girl| लड़की
+man| आदमी
+woman| स्री
+ball| गेंद
+glasses| ऐनक
+clock| दीवार घड़ी
+watch| घड़ीडी`
+
+          },
     {
       type: 'rightOne',
       label: 'चित्र चुनें',
