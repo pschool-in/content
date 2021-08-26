@@ -444,15 +444,24 @@ world| दुनिया`
             words: 'sun, moon, rain, star, milk, ring, brush, bone'
           },
           {
-            audio: 'bn-others.mp3',
+            audio: 'hi-others.mp3',
             audioOffset: 16,
             words: 'bell, bird, conch, five, drums, food,  fruits, king'
           },
           {
-            audio: 'bn-others.mp3',
+            audio: 'hi-others.mp3',
             audioOffset: 32,
             words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
-          }  
+          },
+          {
+            audio: 'hi-school.mp3',
+            audioOffset: 0,
+            words: 'Eraser, pen, pencil, ruler, bag, Scissors, sharpener, watterbottle, calculator, book, color pencils, crayons '
+          },
+          {
+            audio: 'hi-tools.mp3',
+            audioOffset: 32,
+            words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
       ]
     }
   ]
