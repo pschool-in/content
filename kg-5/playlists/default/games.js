@@ -85,6 +85,93 @@ export default {
       data: {},
       id: 'chess',
       locked: true
+    },
+    {
+      label: 'Phonics',
+      type: 'phonics',
+      id: 'phonics',
+      locked: true,
+      data: [
+        {
+          arr: [
+            {
+              sound: 's',
+              examples: 'sun, set, small, seven',
+              pos: 0
+            },
+            {
+              sound: 'a',
+              examples: 'act, and, am, ask',
+              pos: 4
+            },
+            {
+              sound: 't',
+              examples: 'ten, ton, tell,top',
+              pos: 8
+            },
+            {
+              sound: 'i',
+              examples: 'in, it, if, ink',
+              pos: 12
+            },
+            {
+              sound: 'p',
+              examples: 'pot, pen, pet, pin',
+              pos: 16
+            },
+            {
+              sound: 'n',
+              examples: 'not, nil, nut, nib',
+              pos: 20
+            },
+            {
+              sound: 'c',
+              examples: 'cat, cup, cut, cap ',
+              pos: 24
+            },
+            {
+              sound: 'e',
+              examples: 'end, east, egg, ear',
+              pos: 28
+            },
+            {
+              sound: 'h',
+              examples: 'hat, hen, hot, her',
+              pos: 32
+            },
+            {
+              sound: 'r',
+              examples: 'rat, red, rest, rod',
+              pos: 36
+            },
+            {
+              sound: 'm',
+              examples: 'man, mat, mug, milk',
+              pos: 40
+            },
+            {
+              sound: 'd',
+              examples: 'dog, dot, den, dam',
+              pos: 44
+            },
+            {
+              sound: 'g',
+              examples: 'gun, get, gap, log',
+              pos: 48
+            },
+            {
+              sound: 'o',
+              examples: 'on, old, open, one',
+              pos: 52
+            },
+            {
+              sound: 'u',
+              examples: 'fun, run, but, up',
+              pos: 56
+            }
+          ]
+        }
+      ]
     }
   ]
 };

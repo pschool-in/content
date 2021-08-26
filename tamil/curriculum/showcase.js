@@ -27,6 +27,10 @@ import reading from '../playlists/ta-reading.js';
 import science from '../playlists/ta-science.js';
 import social from '../playlists/ta-social.js';
 import thirukkural from '../playlists/thirukkural.js';
+import thirukkural2 from '../playlists/thirukkural-2.js';
+import thirukkural3 from '../playlists/thirukkural-3.js';
+import thirukkural4 from '../playlists/thirukkural-4.js';
+import thirukkural5 from '../playlists/thirukkural-5.js';
 import barathi from '../playlists/barathi.js';
 import sound from '../playlists/ta-sound.js';
 import word2 from '../playlists/ta-word-2.js';
@@ -56,6 +60,10 @@ export default {
     wordsearch,
     crossword,
     thirukkural,
+    thirukkural2,
+    thirukkural3,
+    thirukkural4,
+    thirukkural5,
     barathi,
     picture2,
     word2,
