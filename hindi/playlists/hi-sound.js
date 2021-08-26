@@ -398,28 +398,34 @@ world| दुनिया`
               'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
           },
           {
-            audio: 'hi-vegetables.mp3',
+            audio: 'hi-vegetable.mp3',
             audioOffset: 0,
             words:
               'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
           },
           {
-            audio: 'hi-vegetables.mp3',
+            audio: 'hi-vegetable.mp3',
             audioOffset: 20,
             words:
-              'ginger, pumpkin, almond, bitter-gourd, brinjal, cashewnut, chilli, coconut, corianderleaf, curryleaf'
+              'ginger, pumpkin, almond, bean, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
           },
           {
-            audio: 'hi-vegetables.mp3',
+            audio: 'hi-vegetable.mp3',
             audioOffset: 40,
             words:
-              'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+              'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
           },
           {
             audio: 'hi-vehicles.mp3',
             audioOffset: 0,
             words:
-              'aeroplane, boat, bus, car, ship, train, auto, cart, excavator, fire-engine'
+              'aeroplane, boat, bus, car, bicycle, helicopter, motorbike, ship, tractor'
+          },
+          {
+            audio: 'hi-vehicles.mp3',
+            audioOffset: 18,
+            words:
+              'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
           },
           {
             audio: 'hi-house.mp3',
