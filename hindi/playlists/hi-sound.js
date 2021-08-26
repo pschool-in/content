@@ -25,50 +25,38 @@ monkey| बंदर
 tiger| बाघ`
         },
         {
-            audioOffset: 0,
+            audioOffset: 20,
             text: `hippo| दरियाई घोड़ा
 rhino| गैंडा
 fox| लोमड़ी
 crocodile| मगरमच्छ
-zebra| धारीदार घोडा
 bear| भालू
 camel| ऊंट
-shark| हाँगर
-whale| तिमिंगल`
-          },
-          {
-            audioOffset: 0,
-            text: ` fish| मछली
+fish| मछली
 frog| मेंडक
-crab| केकड़ा
 snake| सर्प
-squirrel| गिलहरी
-tortoise| कछुआ
-rat| चूहा
-winged-termites| पंखों वाला दीमक
-ant| चींटी`
+tortoise| कछुआ`
           },
           {
-            audioOffset: 0,
-            text: `fly| मक्खी
+            audioOffset: 40,
+            text: ` rat| चूहा
+squirrel| गिलहरी
+ant| चींटी
+fly| मक्खी
 bat| चमगादड़
 buffalo| भेंस
-butterfly| तितली 
-cow| गाय
-donkey| गधा
-kangaroo| कंगारू
-leopard| तेंदुआ`
+butterfly| तितली `
           },
           {
-            audioOffset: 0,
-            text: `mongoose| नेवला
+            audioOffset: 54,
+            text: `leopard| तेंदुआ
+cow| गाय
+donkey| गधा
+mongoose| नेवला
 mosquito| मच्छर
-wolf| भेड़िया
-cockroach| तिलचट्टा
-garden-lizard| बिछकपडा 
 lizard| छिपकली
 rabbit| खरगोश`
-          }
+          }        
       ]
     },
     {
@@ -82,26 +70,25 @@ rabbit| खरगोश`
           {
             audioOffset: 0,
             text: `crow| कौवा
-dove| कबूतर
 duck| बतख़
 hen| मुर्गी
 parrot| तोता
 peacock| मोर
 sparrow| गौरेया
 chick| चूजा
-crane| सारस`
+myna| मैना
+ostrich| शुतरमुर्ग`
           },
           {
             audioOffset: 18,
-            text: `eagle| गिद्ध
-flamingo| राज-हंस
-kingfisher| राम चिरैया
-myna| मैना
-ostrich| शुतरमुर्ग
-owl| उल्लू
+            text: `owl| उल्लू
 rooster| मुर्गा
-vulture| गिद्ध
-woodpecker| कठफोड़वा`
+woodpecker| कठफोड़व
+eagle| गिद्ध
+sparrow| गौरेया
+crane| सारस
+flamingo| राज-हंस
+kingfisher| राम चिरैया`
           }
         ]
       },
@@ -116,9 +103,8 @@ woodpecker| कठफोड़वा`
 lotus | कमल
 sunflower | सूरजमुखी
 marigold | गेंदा
-hibiscus | हिबिस्कुस
 jasmine | चमेली
-zinnia | ज़िन्निया `
+hibiscus | हिबिस्कुस`
         }
       },
     {
@@ -147,9 +133,9 @@ tooth| दांत`
           audioOffset: 28,
           text: `stove| चूल्हा
 fork| कांटा
+spoon| चमचा
 knife| छुरी
 pan| तवा
-spoon| चमचा
 pot| मटका
 butter| मक्खन`
         }
@@ -171,17 +157,16 @@ strawberry| झरबेर
 guava| अमरूद
 jackfruit| कटहल
 mango| आम
-orange| संतरा`
+orange| संतरा
+papaya| पपीता`
           },
           {
-            audioOffset: 16,
-            text: `papaya| पपीता
-pineapple| अनानास
+            audioOffset: 18,
+            text: `pineapple| अनानास
 pomegranate| अनार
 watermelon| तरबूज
 fig| अंजीर
 custard apple| शरीफा
-plum| बेर
 dates| खजूर
 muskmelon| खरबूजा`
           }
@@ -244,27 +229,32 @@ spinach| पालक`
           audioOffset: 0,
           text: `aeroplane| हवाई जहाज
 boat| नाव
+bus| बस
 car| गाड़ी
-cycle| चक्र
+bicycle| साइकिल
+helicopter| हेलीकॉप्टर
 motorbike| मोटरसाइकिल
 ship| समुंद्री जहाज
-train| रेल गाडी`},
+tractor| ट्रैक्टर`},
           {
-            audioOffset: 16,
-            text: `ambulance| रोगी वाहन
+            audioOffset: 18,
+            text: `train| रेल गाडी
+ambulance| रोगी वाहन
 auto| ऑटो
 cart| कार्ट
 excavator| खोदक मशीन
-fire-engine| दमकल`
+fire-engine| दमकल
+lorry| लॉरी
+Van|वेन`
           }
         ]
       },
      {
         type: 'slides',
-        id: 'other-images',
-        label: 'अन्य छवियां',
+        id: 'house',
+        label: 'मकान',
         commonData: {
-          audio: 'hi-others.mp3'
+          audio: 'hi-house.mp3'
         },
         data: [
           {
@@ -276,8 +266,11 @@ candle| मोमबत्ती
 chair| कुर्सी
 shelf| अलमारी
 baby| बच्चा
-boy| लड़का
-girl| लड़की
+boy| लड़का`
+          },
+          {
+            audioOffset: 16,
+            text: `girl| लड़की
 man| आदमी
 woman| स्री
 ball| गेंद
@@ -286,7 +279,7 @@ clock| दीवार घड़ी
 watch| घड़ी`
           },
           {
-            audioOffset: 18,
+            audioOffset: 30,
             text: `eraser| रबड़
 pen| कलम 
 ruler| मापन
@@ -296,9 +289,19 @@ sharpener| पेंसिल ताराश
 waterbottle| पानी की बोतल 
 book| किताब
 crayons| कडिया पेंसिल`
-          },
+          }
+          ]
+     },
           {
-            audioOffset: 38,
+        type: 'slides',
+        id: 'other-images',
+        label: 'अन्य छवियां',
+        commonData: {
+          audio: 'hi-others.mp3'
+        },
+        data: [
+          {
+            audioOffset: 0,
             text: `sun| रवि
 moon| चांद
 rain| वर्षा
@@ -306,23 +309,27 @@ star| सितारा
 milk| दूध
 ring| अंगूठी
 brush| ब्रश
-bone| हड्डी
-bell| घंटी`
+bone| हड्डी`
+
           },
           {
-            audioOffset: 58,
-            text: `bird| चिड़िया
+            audioOffset: 16,
+            text: `bell| घंटी
+bird| चिड़िया
 conch| शंख 
 five| पांच
+drums| ढोल
 food| खाना
 fruits| फल
-king| राजा
-kite, पतंग
-ladder| सीढ़ी`
+king| राजा`
+
           },
           {
-            audioOffset: 72,
-            text: `leaf| पत्ता
+            audioOffset: 32,
+            text: `kite, पतंग
+ladder| सीढ़ी
+ladoo| लड्डू
+leaf| पत्ता
 rishi| ऋषि
 wheel| पहिया
 whistle| सीटी
@@ -330,6 +337,62 @@ world| दुनिया`
           }
         ]
       },
+    {
+        type: 'slides',
+        id: 'school',
+        label: 'विद्यालय',
+        commonData: {
+          audio: 'hi-school.mp3'
+        },
+        data: { audioOffset: 0,
+               text: `eraser| रबड़
+pen| कलम 
+pencil| 
+ruler| मापन
+schoolbag| बस्ता 
+scissors| कैंची
+sharpener| पेंसिल ताराश 
+waterbottle| पानी की बोतल 
+calculator | 
+book| किताब
+color pencils | 
+crayons| कडिया पेंसिली`
+
+          },
+      {
+        type: 'slides',
+        id: 'tools',
+        label: 'उपकरण',
+        commonData: {
+          audio: 'hi-tools.mp3'
+        },
+        data: [ { audioOffset: 0,
+               text: `Axe| कुल्हाडी
+balance| तराज़ू
+Black board | श्यामपट 
+hose | नली
+microscope| सूछ्म दर्शी
+Needle | सुई
+Oven | तन्दूर
+plier| 
+plough | हल 
+Saw| आरी`
+          },
+          { audioOffset: 20,
+               text: `Spade| कुदाली
+Stethescope|
+telescope| दूरबीन
+testube | 
+thermometer| 
+trowel| करनी
+Compass| कुतुबनुमा
+easel| चित्रफलक
+hacksaw| लोहा-आरी
+scalpel| छुरी`
+
+          }
+          ]
+},
     {
       type: 'rightOne',
       label: 'चित्र चुनें',
@@ -359,7 +422,7 @@ world| दुनिया`
           {
             audio: 'hi-animals.mp3',
             audioOffset: 54,
-            words: 'Wolf, Cow, Donkey, Mongoose, mosquito, lizard, rabbit'
+            words: 'leopard, Cow, Donkey, Mongoose, mosquito, lizard, rabbit'
           },
           {
             audio: 'hi-birds.mp3',
@@ -407,7 +470,7 @@ world| दुनिया`
             audio: 'hi-vegetable.mp3',
             audioOffset: 20,
             words:
-              'ginger, pumpkin, almond, bean, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
+              'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
           },
           {
             audio: 'hi-vegetable.mp3',
@@ -427,7 +490,7 @@ world| दुनिया`
             words:
               'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
           },
-          {
+        {
             audio: 'hi-house.mp3',
             audioOffset: 0,
             words: 'house, table, bed, candle, chair, shelf, baby, boy'
@@ -460,9 +523,16 @@ world| दुनिया`
           },
           {
             audio: 'hi-tools.mp3',
-            audioOffset: 32,
-            words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
-      ]
+            audioOffset: 0,
+            words: 'Axe, balance, black board, hose, microscope, needle, oven, plier, plough, saw '
+          },
+          {
+            audio: 'hi-tools.mp3',
+            audioOffset: 20,
+            words: 'spade, Stethescope, telescope, testube, thermometer, trowel, compass, easel, hacksaw, scalpel '
+          },
+            
+            ]
     }
   ]
 };
