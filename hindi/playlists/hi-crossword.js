@@ -1,5 +1,5 @@
 export default {
-  label: 'क्रॉसवर्ड',
+  label: 'वर्ग पहेली',
   id: 'hi-crossword',
   img: 'crossword',
   list: []

@@ -332,10 +332,10 @@ world| दुनिया`
       },
     {
       type: 'rightOne',
-      label: 'Select Picture',
+      label: 'चित्र चुनें',
       id: 'pick-word',
       commonData: {
-        title: 'Select Picture by listening to the Sound',
+        title: 'ध्वनि सुनकर चित्र का चयन करें',
         type: 'image'
       },
       data: [
@@ -343,7 +343,125 @@ world| दुनिया`
           audio: 'hi-animals.mp3',
           words:
             'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
-        }
+        },
+        {
+            audio: 'hi-animals.mp3',
+            audioOffset: 20,
+            words:
+              'hippo, rhino, fox, crocodile, bear, camel, fish, frog, Snake, Tortoise'
+          },
+          {
+            audio: 'hi-animals.mp3',
+            audioOffset: 40,
+            words:
+              'Rat, Squirrel, Ant, fly, Bat, Buffalo, Butterfly'
+          },
+          {
+            audio: 'hi-animals.mp3',
+            audioOffset: 54,
+            words: 'Wolf, Cow, Donkey, Mongoose, mosquito, lizard, rabbit'
+          },
+          {
+            audio: 'hi-birds.mp3',
+            words: 'crow, duck, hen, parrot, peacock, sparrow, chick, myna, Ostrich'
+          },
+          {
+            audio: 'hi-birds.mp3',
+            audioOffset: 18,
+            words: 'owl, rooster, woodpecker, eagle, sparrow, crane, flamingo, kingfisher'
+          },
+          {
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
+            audioOffset: 0,
+            words: 'rose, lotus, sunflower, marigold, jasmine, hibiscus'
+          },
+          {
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
+            audioOffset: 12,
+            words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+          },
+          {
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
+            audioOffset: 28,
+            words: 'stove, fork, spoon, knife, pan, pot, butter'
+          },
+          {
+            audio: 'hi-fruits.mp3',
+            audioOffset: 0,
+            words:
+              'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
+          },
+          {
+            audio: 'hi-fruits.mp3',
+            audioOffset: 16,
+            words:
+              'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+          },
+          {
+            audio: 'hi-vegetable.mp3',
+            audioOffset: 0,
+            words:
+              'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+          },
+          {
+            audio: 'hi-vegetable.mp3',
+            audioOffset: 20,
+            words:
+              'ginger, pumpkin, almond, bean, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
+          },
+          {
+            audio: 'hi-vegetable.mp3',
+            audioOffset: 40,
+            words:
+              'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+          },
+          {
+            audio: 'hi-vehicles.mp3',
+            audioOffset: 0,
+            words:
+              'aeroplane, boat, bus, car, bicycle, helicopter, motorbike, ship, tractor'
+          },
+          {
+            audio: 'hi-vehicles.mp3',
+            audioOffset: 18,
+            words:
+              'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
+          },
+          {
+            audio: 'hi-house.mp3',
+            audioOffset: 0,
+            words: 'house, table, bed, candle, chair, shelf, baby, boy'
+          },
+          {
+            audio: 'hi-house.mp3',
+            audioOffset: 16,
+            words:
+              'girl, man, woman, ball, coat, glasses, clock, watch'
+          },
+          {
+            audio: 'hi-others.mp3',
+            audioOffset: 0,
+            words: 'sun, moon, rain, star, milk, ring, brush, bone'
+          },
+          {
+            audio: 'hi-others.mp3',
+            audioOffset: 16,
+            words: 'bell, bird, conch, five, drums, food,  fruits, king'
+          },
+          {
+            audio: 'hi-others.mp3',
+            audioOffset: 32,
+            words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
+          },
+          {
+            audio: 'hi-school.mp3',
+            audioOffset: 0,
+            words: 'Eraser, pen, pencil, ruler, bag, Scissors, sharpener, watterbottle, calculator, book, color pencils, crayons '
+          },
+          {
+            audio: 'hi-tools.mp3',
+            audioOffset: 32,
+            words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
       ]
     }
   ]
