@@ -5,9 +5,9 @@ export default {
     list: [
             {
           //Coumpound letters
-          id: 'Coumpound_letters_bn_2',
+          id: 'Coumpound_letters_bn_2_1',
           type: 'match',
-          label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ',
+          label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (চ-ঝ)',
           commonData: {
             title: 'সঠিছ অক্ষর মেলান',
             fontSize: '2rem'
@@ -60,6 +60,19 @@ export default {
             ঝ +ঐ, ঝৈ 
             ঝ +ও, ঝো 
             ঝ +ঔ, ঝৌ`,
+
+        ]
+    },
+    {
+        //Coumpound letters
+        id: 'Coumpound_letters_bn_2_2',
+        type: 'match',
+        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ট-ণ)',
+        commonData: {
+          title: 'সঠিছ অক্ষর মেলান',
+          fontSize: '2rem'
+        },
+        data: [
             
             `ট + আ, টা 
             ট + ই, টি
@@ -120,6 +133,19 @@ export default {
             ণ + ঐ, ণৈ
             ণ + ও, ণো
             ণ + ঔ, ণৌ`,
+
+        ]
+    },
+    {
+        //Coumpound letters
+        id: 'Coumpound_letters_bn_2_3',
+        type: 'match',
+        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ত-ন)',
+        commonData: {
+          title: 'সঠিছ অক্ষর মেলান',
+          fontSize: '2rem'
+        },
+        data: [
               
             `ত + আ, তা 
             ত + ই, তি
@@ -180,6 +206,19 @@ export default {
             ন + ঐ, নৈ
             ন + ও, নো
             ন + ঔ, নৌ`,  
+
+        ]
+    },
+    {
+        //Coumpound letters
+        id: 'Coumpound_letters_bn_2_4',
+        type: 'match',
+        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (প-ম)',
+        commonData: {
+          title: 'সঠিছ অক্ষর মেলান',
+          fontSize: '2rem'
+        },
+        data: [
             
               `প + আ, পা 
             প + ই, পি
@@ -240,6 +279,19 @@ export default {
             ম + ঐ, মৈ
             ম + ও, মো
             ম + ঔ, মৌ`,
+
+        ]
+    },
+    {
+        //Coumpound letters
+        id: 'Coumpound_letters_bn_2_5',
+        type: 'match',
+        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (র-স)',
+        commonData: {
+          title: 'সঠিছ অক্ষর মেলান',
+          fontSize: '2rem'
+        },
+        data: [
               
               `র + আ, রা 
             র + ই, রি
