@@ -366,57 +366,57 @@ world| दुनिया`
             words: 'crow, duck, hen, parrot, peacock, sparrow, chick, myna, Ostrich'
           },
           {
-            audio: 'bn-birds.mp3',
+            audio: 'hi-birds.mp3',
             audioOffset: 18,
             words: 'owl, rooster, woodpecker, eagle, sparrow, crane, flamingo, kingfisher'
           },
           {
-            audio: 'bn-flowers-bodyParts-kitchen.mp3',
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
             audioOffset: 0,
             words: 'rose, lotus, sunflower, marigold, jasmine, hibiscus'
           },
           {
-            audio: 'bn-flowers-bodyParts-kitchen.mp3',
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
             audioOffset: 12,
             words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
           },
           {
-            audio: 'bn-flowers-bodyParts-kitchen.mp3',
+            audio: 'hi-flowers-bodyParts-kitchen.mp3',
             audioOffset: 28,
             words: 'stove, fork, spoon, knife, pan, pot, butter'
           },
           {
-            audio: 'bn-fruits.mp3',
+            audio: 'hi-fruits.mp3',
             audioOffset: 0,
             words:
               'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
           },
           {
-            audio: 'bn-fruits.mp3',
+            audio: 'hi-fruits.mp3',
             audioOffset: 16,
             words:
               'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
           },
           {
-            audio: 'bn-vegetables.mp3',
+            audio: 'hi-vegetables.mp3',
             audioOffset: 0,
             words:
               'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
           },
           {
-            audio: 'bn-vegetables.mp3',
+            audio: 'hi-vegetables.mp3',
             audioOffset: 20,
             words:
               'ginger, pumpkin, almond, bitter-gourd, brinjal, cashewnut, chilli, coconut, corianderleaf, curryleaf'
           },
           {
-            audio: 'bn-vegetables.mp3',
+            audio: 'hi-vegetables.mp3',
             audioOffset: 40,
             words:
               'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
           },
           {
-            audio: 'bn-vehicles.mp3',
+            audio: 'hi-vehicles.mp3',
             audioOffset: 0,
             words:
               'aeroplane, boat, bus, car, ship, train, auto, cart, excavator, fire-engine'
