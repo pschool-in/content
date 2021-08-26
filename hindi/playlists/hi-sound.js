@@ -252,7 +252,7 @@ Van|वेन`
      {
         type: 'slides',
         id: 'house',
-        label: 'अन्य छवियां',
+        label: 'मकान',
         commonData: {
           audio: 'hi-house.mp3'
         },
@@ -340,7 +340,7 @@ world| दुनिया`
     {
         type: 'slides',
         id: 'school',
-        label: 'अन्य छवियां',
+        label: 'विद्यालय',
         commonData: {
           audio: 'hi-school.mp3'
         },
@@ -362,7 +362,7 @@ crayons| कडिया पेंसिली`
       {
         type: 'slides',
         id: 'tools',
-        label: 'अन्य छवियां',
+        label: 'उपकरण',
         commonData: {
           audio: 'hi-tools.mp3'
         },
