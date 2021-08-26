@@ -25,7 +25,7 @@ monkey| बंदर
 tiger| बाघ`
         },
         {
-            audioOffset: 0,
+            audioOffset: 20,
             text: `hippo| दरियाई घोड़ा
 rhino| गैंडा
 fox| लोमड़ी
@@ -38,7 +38,7 @@ snake| सर्प
 tortoise| कछुआ`
           },
           {
-            audioOffset: 0,
+            audioOffset: 40,
             text: ` rat| चूहा
 squirrel| गिलहरी
 ant| चींटी
@@ -48,7 +48,7 @@ buffalo| भेंस
 butterfly| तितली `
           },
           {
-            audioOffset: 0,
+            audioOffset: 54,
             text: `leopard| तेंदुआ
 cow| गाय
 donkey| गधा
@@ -161,7 +161,7 @@ orange| संतरा
 papaya| पपीता`
           },
           {
-            audioOffset: 16,
+            audioOffset: 18,
             text: `pineapple| अनानास
 pomegranate| अनार
 watermelon| तरबूज
@@ -237,7 +237,7 @@ motorbike| मोटरसाइकिल
 ship| समुंद्री जहाज
 tractor| ट्रैक्टर`},
           {
-            audioOffset: 16,
+            audioOffset: 18,
             text: `train| रेल गाडी
 ambulance| रोगी वाहन
 auto| ऑटो
@@ -279,7 +279,7 @@ clock| दीवार घड़ी
 watch| घड़ी`
           },
           {
-            audioOffset: 18,
+            audioOffset: 30,
             text: `eraser| रबड़
 pen| कलम 
 ruler| मापन
@@ -313,7 +313,7 @@ bone| हड्डी`
 
           },
           {
-            audioOffset: 58,
+            audioOffset: 16,
             text: `bell| घंटी
 bird| चिड़िया
 conch| शंख 
@@ -325,7 +325,7 @@ king| राजा`
 
           },
           {
-            audioOffset: 72,
+            audioOffset: 32,
             text: `kite, पतंग
 ladder| सीढ़ी
 ladoo| लड्डू
@@ -339,31 +339,60 @@ world| दुनिया`
       },
     {
         type: 'slides',
-        id: 'house',
+        id: 'school',
         label: 'अन्य छवियां',
         commonData: {
-          audio: 'hi-house.mp3'
+          audio: 'hi-school.mp3'
         },
-        data: [
-          {
-            audioOffset: 0,
-            text: `house| मकान
-table| मेज
-bed| बिस्तर
-candle| मोमबत्ती
-chair| कुर्सी
-shelf| अलमारी
-baby| बच्चा
-boy| लड़का
-girl| लड़की
-man| आदमी
-woman| स्री
-ball| गेंद
-glasses| ऐनक
-clock| दीवार घड़ी
-watch| घड़ीडी`
+        data: { audioOffset: 0,
+               text: `eraser| रबड़
+pen| कलम 
+pencil| 
+ruler| मापन
+schoolbag| बस्ता 
+scissors| कैंची
+sharpener| पेंसिल ताराश 
+waterbottle| पानी की बोतल 
+calculator | 
+book| किताब
+color pencils | 
+crayons| कडिया पेंसिली`
 
           },
+      {
+        type: 'slides',
+        id: 'tools',
+        label: 'अन्य छवियां',
+        commonData: {
+          audio: 'hi-tools.mp3'
+        },
+        data: [ { audioOffset: 0,
+               text: `Axe| कुल्हाडी
+balance| तराज़ू
+Black board | श्यामपट 
+hose | नली
+microscope| सूछ्म दर्शी
+Needle | सुई
+Oven | तन्दूर
+plier| 
+plough | हल 
+Saw| आरी`
+          },
+          { audioOffset: 20,
+               text: `Spade| कुदाली
+Stethescope|
+telescope| दूरबीन
+testube | 
+thermometer| 
+trowel| करनी
+Compass| कुतुबनुमा
+easel| चित्रफलक
+hacksaw| लोहा-आरी
+scalpel| छुरी`
+
+          }
+          ]
+},
     {
       type: 'rightOne',
       label: 'चित्र चुनें',
