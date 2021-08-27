@@ -356,20 +356,20 @@ crayons| चित्रांकनी `
                text: `Axe| कुल्हाडी
 balance| तराज़ू
 Black board | श्यामपट 
-hose | नली
+hose | रबर का पाइप
 microscope| सूछ्म दर्शी
 Needle | सुई
 Oven | तन्दूर
-plier| 
+plier| प्‍लास
 plough | हल 
 Saw| आरी`
           },
           { audioOffset: 20,
                text: `Spade| कुदाली
-Stethescope|
+Stethescope|आला
 telescope| दूरबीन
-testube | 
-thermometer| 
+testube | परखनली
+thermometer| तापमान-यंत्र 
 trowel| करनी
 Compass| कुतुबनुमा
 easel| चित्रफलक
