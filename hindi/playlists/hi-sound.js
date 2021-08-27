@@ -26,7 +26,7 @@ tiger| बाघ`
         },
         {
             audioOffset: 20,
-            text: `hippo| दरियाई घोड़ा
+            text: `hippo| जलहस्ती
 rhino| गैंडा
 fox| लोमड़ी
 crocodile| मगरमच्छ
@@ -34,7 +34,7 @@ bear| भालू
 camel| ऊंट
 fish| मछली
 frog| मेंडक
-snake| सर्प
+snake| साँप
 tortoise| कछुआ`
           },
           {
@@ -85,10 +85,9 @@ ostrich| शुतरमुर्ग`
 rooster| मुर्गा
 woodpecker| कठफोड़व
 eagle| गिद्ध
-sparrow| गौरेया
 crane| सारस
-flamingo| राज-हंस
-kingfisher| राम चिरैया`
+flamingo| मराल
+kingfisher| नीलकंठ`
           }
         ]
       },
@@ -104,7 +103,7 @@ lotus | कमल
 sunflower | सूरजमुखी
 marigold | गेंदा
 jasmine | चमेली
-hibiscus | हिबिस्कुस`
+hibiscus | गुडहल`
         }
       },
     {
@@ -135,7 +134,7 @@ tooth| दांत`
 fork| कांटा
 spoon| चमचा
 knife| छुरी
-pan| तवा
+pan|कड़ाही
 pot| मटका
 butter| मक्खन`
         }
@@ -158,7 +157,7 @@ guava| अमरूद
 jackfruit| कटहल
 mango| आम
 orange| संतरा
-papaya| पपीता`
+papaya| पपीता `
           },
           {
             audioOffset: 18,
@@ -168,7 +167,7 @@ watermelon| तरबूज
 fig| अंजीर
 custard apple| शरीफा
 dates| खजूर
-muskmelon| खरबूजा`
+muskmelon| खरबूज`
           }
         ]
       },
@@ -277,18 +276,6 @@ ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
 watch| घड़ी`
-          },
-          {
-            audioOffset: 30,
-            text: `eraser| रबड़
-pen| कलम 
-ruler| मापन
-schoolbag| बस्ता 
-scissors| कैंची
-sharpener| पेंसिल ताराश 
-waterbottle| पानी की बोतल 
-book| किताब
-crayons| कडिया पेंसिल`
           }
           ]
      },
@@ -326,14 +313,14 @@ king| राजा`
           },
           {
             audioOffset: 32,
-            text: `kite, पतंग
+            text: `kite| पतंग
 ladder| सीढ़ी
 ladoo| लड्डू
 leaf| पत्ता
 rishi| ऋषि
 wheel| पहिया
 whistle| सीटी
-world| दुनिया`
+world| दुनियाा`
           }
         ]
       },
@@ -347,18 +334,17 @@ world| दुनिया`
         data: { audioOffset: 0,
                text: `eraser| रबड़
 pen| कलम 
-pencil| 
-ruler| मापन
-schoolbag| बस्ता 
+pencil|पेंसिल 
+ruler| पेमाना
+bag| बस्ता 
 scissors| कैंची
-sharpener| पेंसिल ताराश 
+sharpener| चोखा करनेवाला 
 waterbottle| पानी की बोतल 
-calculator | 
+Calculator | गणना यंत्र
 book| किताब
-color pencils | 
-crayons| कडिया पेंसिली`
-
-          },
+Color pencils | रंग पेंसिल
+crayons| चित्रांकनी `
+     },
       {
         type: 'slides',
         id: 'tools',
