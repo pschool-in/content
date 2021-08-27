@@ -76,16 +76,17 @@ parrot| तोता
 peacock| मोर
 sparrow| गौरेया
 chick| चूजा
-myna| मैना
-ostrich| शुतरमुर्ग`
+myna| मैना`
+
           },
           {
-            audioOffset: 18,
-            text: `owl| उल्लू
+            audioOffset: 16,
+            text: `ostrich| शुतरमुर्ग
+            owl| उल्लू
 rooster| मुर्गा
 woodpecker| कठफोड़व
 eagle| गिद्ध
-crane| सारस
+crane| वाक
 flamingo| मराल
 kingfisher| नीलकंठ`
           }
@@ -412,12 +413,12 @@ scalpel| छुरी`
           },
           {
             audio: 'hi-birds.mp3',
-            words: 'crow, duck, hen, parrot, peacock, sparrow, chick, myna, Ostrich'
+            words: 'crow, duck, hen, parrot, peacock, sparrow, chick, myna '
           },
           {
             audio: 'hi-birds.mp3',
-            audioOffset: 18,
-            words: 'owl, rooster, woodpecker, eagle, sparrow, crane, flamingo, kingfisher'
+            audioOffset: 16,
+            words: 'Ostrich, owl, rooster, woodpecker, eagle, crane, flamingo, kingfisher'
           },
           {
             audio: 'hi-flowers-bodyParts-kitchen.mp3',
