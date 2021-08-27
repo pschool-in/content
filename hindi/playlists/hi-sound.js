@@ -166,6 +166,7 @@ pomegranate| अनार
 watermelon| तरबूज
 fig| अंजीर
 custard-apple| शरीफा
+plum | आलूबुखारा
 dates| खजूर
 muskmelon| खरबूज`
         }
@@ -449,7 +450,7 @@ scalpel| छुरी`
           audio: 'hi-fruits.mp3',
           audioOffset: 16,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+            'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
         },
         {
           audio: 'hi-vegetable.mp3',
