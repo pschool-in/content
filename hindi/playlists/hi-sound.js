@@ -357,21 +357,21 @@ crayons| चित्रांकनी `
 balance| तराज़ू
 Black board | श्यामपट 
 hose | रबर का पाइप
+plier| प्‍लास
 microscope| सूछ्म दर्शी
 Needle | सुई
-Oven | तन्दूर
-plier| प्‍लास
-plough | हल 
-Saw| आरी`
+oven | कुठला
+plough | हल
+Saw| आरा`
           },
           { audioOffset: 20,
-               text: `Spade| कुदाली
+               text: `Spade| कुदाल
 Stethescope|आला
 telescope| दूरबीन
 testube | परखनली
 thermometer| तापमान-यंत्र 
 trowel| करनी
-Compass| कुतुबनुमा
+Compass| दिशा सूचक यंत्र
 easel| चित्रफलक
 hacksaw| लोहा-आरी
 scalpel| छुरी`
@@ -510,7 +510,7 @@ scalpel| छुरी`
           {
             audio: 'hi-tools.mp3',
             audioOffset: 0,
-            words: 'Axe, balance, black board, hose, microscope, needle, oven, plier, plough, saw '
+            words: 'Axe, balance, black board, hose, plier,  microscope, needle, oven, plough, saw'
           },
           {
             audio: 'hi-tools.mp3',
