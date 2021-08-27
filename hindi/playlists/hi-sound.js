@@ -76,16 +76,16 @@ parrot| तोता
 peacock| मोर
 sparrow| गौरेया
 chick| चूजा
-myna| मैना
-ostrich| शुतरमुर्ग`
+myna| मैना`
         },
         {
-          audioOffset: 18,
-          text: `owl| उल्लू
+          audioOffset: 16,
+          text: `ostrich| शुतरमुर्ग
+            owl| उल्लू
 rooster| मुर्गा
 woodpecker| कठफोड़व
 eagle| गिद्ध
-crane| सारस
+crane| वाक
 flamingo| मराल
 kingfisher| नीलकंठ`
         }
