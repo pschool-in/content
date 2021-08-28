@@ -170,6 +170,149 @@ export default {
               pos: 56
             }
           ]
+        },
+        {
+          arr: [
+            {
+              sound: 'l',
+              examples: 'lot, let, lap, leg',
+              pos: 60
+            },
+            {
+              sound: 'f',
+              examples: 'fox, fan, if, fat',
+              pos: 64
+            },
+            {
+              sound: 'b',
+              examples: 'bun, bag, bed, bad',
+              pos: 68
+            },
+            {
+              sound: 'ai',
+              examples: 'aim, tail, pain, fail',
+              pos: 72
+            },
+            {
+              sound: 'j',
+              examples: 'jam, jug, jump, jar',
+              pos: 76
+            },
+            {
+              sound: 'oa',
+              examples: 'boat, coat, goat, oat, goal, roar',
+              pos: 80
+            },
+            {
+              sound: 'ie',
+              examples: 'tie, lie, die, pie, flies',
+              pos: 86
+            },
+            {
+              sound: 'ee',
+              examples: 'see, tree, feed, need, jeep',
+              pos: 91
+            },
+            {
+              sound: 'or',
+              examples: 'for, born, port, corn',
+              pos: 96
+            },
+            {
+              sound: 'z',
+              examples: 'zip, zen, zebra',
+              pos: 100
+            },
+            {
+              sound: 'w',
+              examples: 'wet, win, wind, was',
+              pos: 103
+            },
+            {
+              sound: 'ng',
+              examples: 'long, sing, ring, song',
+              pos: 107
+            },
+            {
+              sound: 'v',
+              examples: 'van, visa, cave, even',
+              pos: 111
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              sound: 'oo',
+              examples: 'good, look, foot, wool',
+              pos: 115
+            },
+            {
+              sound: 'OO',
+              examples: 'soon, spoon, roof, cool',
+              pos: 119
+            },
+            {
+              sound: 'y',
+              examples: 'toy, boy, yes, my',
+              pos: 123
+            },
+            {
+              sound: 'x',
+              examples: 'six, fix, ox, fox',
+              pos: 127
+            },
+            {
+              sound: 'ch',
+              examples: 'chat, chop, chips, catch, watch',
+              pos: 131
+            },
+            {
+              sound: 'sh',
+              examples: 'push, fish, bush, dish',
+              pos: 136
+            },
+            {
+              sound: 'th',
+              examples: 'thank, thin, bath, path, math',
+              pos: 140
+            },
+            {
+              sound: 'TH',
+              examples: 'that, this, these, them',
+              pos: 145
+            },
+            {
+              sound: 'qu',
+              examples: 'quit, quest, quiz, quick',
+              pos: 149
+            },
+            {
+              sound: 'ou',
+              examples: 'loud, cloud, mount, found, count',
+              pos: 153
+            },
+            {
+              sound: 'oi',
+              examples: 'oil, point, soil, coin, boil',
+              pos: 158
+            },
+            {
+              sound: 'ue',
+              examples: 'blue, glue, true, clue',
+              pos: 163
+            },
+            {
+              sound: 'er',
+              examples: 'her, after, baker, worker',
+              pos: 167
+            },
+            {
+              sound: 'ar',
+              examples: 'car, art, cart,card, bark',
+              pos: 171
+            }
+          ]
         }
       ]
     }
