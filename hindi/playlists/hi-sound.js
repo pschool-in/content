@@ -115,8 +115,8 @@ hibiscus | गुडहल`
         audioOffset: 12,
         text: `ear| कान
 eye| आंख
-foot| टांग
-hair| केश
+foot| पैर
+hair| बाल
 hand|  हाथ
 mouth| मुंह
 nose| नाक
@@ -132,7 +132,7 @@ tooth| दांत`
         audioOffset: 28,
         text: `stove| चूल्हा
 fork| कांटा
-spoon| चमचा
+spoon| चम्मच
 knife| छुरी
 pan|कड़ाही
 pot| मटका
@@ -166,6 +166,7 @@ pomegranate| अनार
 watermelon| तरबूज
 fig| अंजीर
 custard-apple| शरीफा
+plum | आलूबुखारा
 dates| खजूर
 muskmelon| खरबूज`
         }
@@ -187,8 +188,8 @@ onion| प्याज
 tomato| टमाटर
 potato| आलू
 cabbage| पत्ता गोभी
-cauliflower| गोभी
-corn| मक्का
+cauliflower| फूल गोभी
+corn| भुट्टा
 cucumber| खीरा
 garlic| लहसुन`
         },
@@ -197,20 +198,20 @@ garlic| लहसुन`
           text: `ginger| अदरक
 pumpkin| कद्दू
 almond| बादाम
-beans| फलियां
+beans| फलि
 bitter-gourd| करेला
 brinjal| बैंगन
 capsicum| शिमला मिर्च
 cashewnut| काजू
-chilli| मिर्च
+chilli| हरी मिर्च
 coconut| नारियल`
         },
         {
           audioOffset: 40,
-          text: `corianderleaf| धनिए के पत्ते
+          text: `corianderleaf| धनिया पत्ता
 curryleaf| करी पत्ता
-drumstick| ढोल का छड़ी
-greenpeas| हरी मटर
+drumstick| सहजन
+greenpeas| मटर
 ladies-finger| भिन्डी
 mintleaf| पुदीना
 peanut| मूंगफली
@@ -230,7 +231,7 @@ spinach| पालक`
           text: `aeroplane| हवाई जहाज
 boat| नाव
 bus| बस
-car| गाड़ी
+car| कार
 bicycle| साइकिल
 helicopter| हेलीकॉप्टर
 motorbike| मोटरसाइकिल
@@ -260,12 +261,12 @@ Van|वेन`
       data: [
         {
           audioOffset: 0,
-          text: `house| मकान
+          text: `house| घर
 table| मेज
 bed| बिस्तर
 candle| मोमबत्ती
 chair| कुर्सी
-shelf| अलमारी
+shelf| शेल्फ
 baby| बच्चा
 boy| लड़का`
         },
@@ -273,7 +274,7 @@ boy| लड़का`
           audioOffset: 16,
           text: `girl| लड़की
 man| आदमी
-woman| स्री
+woman| औरत
 ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
@@ -449,7 +450,7 @@ scalpel| छुरी`
           audio: 'hi-fruits.mp3',
           audioOffset: 16,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+            'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
         },
         {
           audio: 'hi-vegetable.mp3',
