@@ -281,12 +281,12 @@ export default {
       ]
     },
     {
-      label: 'சரியான விடையை தேர்ந்தெடுத்து எழுதுக',
+      label: 'சரியான விடையை தேர்ந்தெடு',
       type: 'matchByDragDrop',
       id: 'match-5',
       commonData: {
         isPractice: false,
-        title: 'சரியான விடையை தேர்ந்தெடுத்து எழுதுக',
+        title: 'சரியான விடையை தேர்ந்தெடு',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
