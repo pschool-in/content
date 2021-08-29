@@ -320,7 +320,7 @@ leaf| पत्ता
 rishi| ऋषि
 wheel| पहिया
 whistle| सीटी
-world| दुनियाा`
+world| दुनिया`
         }
       ]
     },
