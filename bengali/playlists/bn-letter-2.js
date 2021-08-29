@@ -1,5 +1,5 @@
 export default {
-    label: 'আরো বর্ণ',
+    label: 'বর্ণ অনুশীলন',
     id: 'bn-writing-2',
     img: 'writing',
     list: [
