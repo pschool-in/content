@@ -83,9 +83,9 @@ myna| मैना`
           text: `ostrich| शुतरमुर्ग
             owl| उल्लू
 rooster| मुर्गा
-woodpecker| कठफोड़व
+woodpecker| कठफोड़वा
 eagle| गिद्ध
-crane| वाक
+crane| सारस
 flamingo| मराल
 kingfisher| नीलकंठ`
         }
@@ -132,7 +132,7 @@ tooth| दांत`
         audioOffset: 28,
         text: `stove| चूल्हा
 fork| कांटा
-spoon| चम्मच
+spoon| चमचा
 knife| छुरी
 pan|कड़ाही
 pot| मटका
@@ -166,7 +166,6 @@ pomegranate| अनार
 watermelon| तरबूज
 fig| अंजीर
 custard-apple| शरीफा
-plum | आलूबुखारा
 dates| खजूर
 muskmelon| खरबूज`
         }
@@ -189,7 +188,7 @@ tomato| टमाटर
 potato| आलू
 cabbage| पत्ता गोभी
 cauliflower| फूल गोभी
-corn| भुट्टा
+corn| मक्का
 cucumber| खीरा
 garlic| लहसुन`
         },
@@ -198,7 +197,7 @@ garlic| लहसुन`
           text: `ginger| अदरक
 pumpkin| कद्दू
 almond| बादाम
-beans| फलि
+beans| फलियां
 bitter-gourd| करेला
 brinjal| बैंगन
 capsicum| शिमला मिर्च
@@ -261,12 +260,12 @@ Van|वेन`
       data: [
         {
           audioOffset: 0,
-          text: `house| घर
+          text: `house| मकान
 table| मेज
 bed| बिस्तर
 candle| मोमबत्ती
 chair| कुर्सी
-shelf| शेल्फ
+shelf| अलमारी
 baby| बच्चा
 boy| लड़का`
         },
@@ -278,7 +277,7 @@ woman| औरत
 ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
-watch| घड़ी`
+watch| हाथ-घड़ी`
         }
       ]
     },
@@ -295,7 +294,7 @@ watch| घड़ी`
           text: `sun| रवि
 moon| चांद
 rain| वर्षा
-star| सितारा
+star| तारा
 milk| दूध
 ring| अंगूठी
 brush| ब्रश
@@ -450,7 +449,7 @@ scalpel| छुरी`
           audio: 'hi-fruits.mp3',
           audioOffset: 16,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
+            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
         },
         {
           audio: 'hi-vegetable.mp3',
