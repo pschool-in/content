@@ -170,7 +170,7 @@ They flew to Europe via the North *Pole*.`,
         title: 'Fill in the blanks with either site or sight.',
         text: `A *site* has been chosen for the new school.
 Don’t judge anyone at first *sight*.
-There are two shops on *site*.
+There are two shops on the *site*.
 The students cleaned up their camping *site*.
 She lost her *sight* in an accident.`,
         options: 'site, sight'

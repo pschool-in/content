@@ -44,6 +44,8 @@ ta-poems, thirukkural-2
 
 export default {
   label: 'Tamil',
+  contactInfo:
+    'இந்த செயலியில் ஏதேனும் தவறு இருந்தால், அல்லது எங்களுடன் தகவல் பகிர்வு செய்ய info@pschool.in க்கு மின் அஞ்சல் அனுப்புக.',
   style: {
     fontSize: '0.9rem'
   },
@@ -61,9 +63,9 @@ export default {
     crossword,
     thirukkural,
     thirukkural2,
-    thirukkural3,
+    /* thirukkural3,
     thirukkural4,
-    thirukkural5,
+    thirukkural5,*/
     barathi,
     picture2,
     word2,

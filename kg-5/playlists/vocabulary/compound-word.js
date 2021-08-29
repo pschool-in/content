@@ -97,8 +97,18 @@ wheel, chair
 day, dream
 along, side
 eye, sight
-post, card`,
-
+post, card`
+      ]
+    },
+    {
+      id: 'match-2',
+      type: 'match',
+      label: 'Match - 2',
+      lockAfter: 4,
+      commonData: {
+        title: 'Match the compound words'
+      },
+      data: [
         `key, hole
 home, town
 night, fall
@@ -167,8 +177,18 @@ upper, case
 house, keeper
 any, body
 be, cause
-wall, paper`,
-
+wall, paper`
+      ]
+    },
+    {
+      id: 'match-3',
+      type: 'match',
+      label: 'Match - 3',
+      lockAfter: 4,
+      commonData: {
+        title: 'Match the compound words'
+      },
+      data: [
         `lay, off
 foot, ball
 some, thing

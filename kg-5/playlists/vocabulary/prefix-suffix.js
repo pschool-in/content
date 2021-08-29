@@ -189,8 +189,18 @@ ir, rational
 re, publish        
 un, usual	
 im, prison	
-mis, use`,
-
+mis, use`
+      ]
+    },
+    {
+      type: 'match',
+      label: 'Match Prefix - 2',
+      id: 'match-prefix-2',
+      lockAfter: 4,
+      commonData: {
+        title: 'Match Prefix with the word.'
+      },
+      data: [
         `pre, fix	
 de, grade	
 re, turn	
@@ -369,8 +379,22 @@ curricular, extra, over
 unite, re, over
 fame, de, dis
 due, over, re
-come, over, re`,
-
+come, over, re`
+      ]
+    },
+    {
+      label: 'Choose Right Prefix - 2',
+      id: 'complete-prefix-2',
+      type: 'completePuzzle',
+      lockAfter: 4,
+      commonData: {
+        type: 'leftOpen',
+        title: 'Drag and drop the correct prefix.',
+        printTitle: 'Fill up with the right option.',
+        leftWidth: 90,
+        rightWidth: 210
+      },
+      data: [
         `power, over, un
 plan, pre, de
 view, re, dis
@@ -710,8 +734,17 @@ actual, ly
 cultur, al	
 priori, ty	
 pave, ment	
-direct, ion`,
-
+direct, ion`
+      ]
+    },
+    {
+      type: 'match',
+      label: 'Match Suffix - 2',
+      id: 'match-suffix-2',
+      commonData: {
+        title: 'Match Suffix with the word.'
+      },
+      data: [
         `beauti, ful	
 direct, ly	
 festiv, al	
@@ -780,8 +813,17 @@ original, ly
 individu, al	
 nationali, ty	
 retire, ment	
-suggest, ion`,
-
+suggest, ion`
+      ]
+    },
+    {
+      type: 'match',
+      label: 'Match Suffix - 3',
+      id: 'match-suffix-3',
+      commonData: {
+        title: 'Match Suffix with the word.'
+      },
+      data: [
         `attent, ive
 especial, ly
 drain, age
@@ -850,8 +892,17 @@ friend, ship
 seri, ous
 home, less
 heavi, ness
-interrog, ate`,
-
+interrog, ate`
+      ]
+    },
+    {
+      type: 'match',
+      label: 'Match Suffix - 4',
+      id: 'match-suffix-4',
+      commonData: {
+        title: 'Match Suffix with the word.'
+      },
+      data: [
         `initiat, ive
 member, ship
 curi, ous
@@ -1057,8 +1108,21 @@ direct, ion, ous
 heavi, ness, ty
 educat, ion, ness
 natural, ly, ty
-effective, ly, ty`,
-
+effective, ly, ty`
+      ]
+    },
+    {
+      label: 'Choose Right Suffix - 2',
+      id: 'complete-suffix-2',
+      type: 'completePuzzle',
+      commonData: {
+        type: 'rightOpen',
+        title: 'Drag and drop the correct suffix.',
+        printTitle: 'Fill up with the right suffix.',
+        leftWidth: 180,
+        rightWidth: 140
+      },
+      data: [
         `digest, ion, ness
 limitat, ion, ing
 animat, ion, ous
@@ -1167,8 +1231,21 @@ logic, al, ous
 encourage, ment, ly
 religi, ous, ment
 encour, age, ous
-fam, ous, age`,
-
+fam, ous, age`
+      ]
+    },
+    {
+      label: 'Choose Right Suffix - 3',
+      id: 'complete-suffix-3',
+      type: 'completePuzzle',
+      commonData: {
+        type: 'rightOpen',
+        title: 'Drag and drop the correct suffix.',
+        printTitle: 'Fill up with the right suffix.',
+        leftWidth: 180,
+        rightWidth: 140
+      },
+      data: [
         `use, less, ness
 historic, al, ly
 grammatic, al, ty
@@ -1180,8 +1257,7 @@ negoti, ate, ment
 power, ful, ly
 sensit, ive, ful`,
 
-        `cre, ate, ous
-owner, ship, wise
+        `owner, ship, wise
 famous, ly, al
 danger, ous, ly
 technic, al, ness
