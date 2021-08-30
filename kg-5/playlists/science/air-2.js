@@ -93,7 +93,7 @@ export default {
       {
         id: '500',
         label: 'Match the following',
-        type: 'Percentage Gas in Air - match',
+        type: 'match',
         data: {
           text: `Nitrogen, 78%
           Oxygen, 21%
@@ -355,7 +355,7 @@ export default {
     {
         id: '1600',
         label: 'Match the following',
-        type: 'Air Polution - match',
+        type: 'match',
         data: {
           text: `Smog, Air pollution
           Lung cancer, Smoke and fog
