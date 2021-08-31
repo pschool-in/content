@@ -1,5 +1,5 @@
 export default {
-  label: 'শব্দভাণ্ডার',
+  label: 'শব্দ',
   id: 'bn-word',
   img: 'word',
   list: [
