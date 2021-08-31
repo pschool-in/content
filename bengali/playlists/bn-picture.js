@@ -285,8 +285,7 @@ export default {
         `চু, stove
           কাঁ, fork
           ছু, knife
-          চা, pan
-          পা, bread`,
+          চা, pan`,
 
         `চা, spoon
           পা, pot
