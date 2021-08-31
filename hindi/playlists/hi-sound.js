@@ -115,8 +115,8 @@ hibiscus | गुडहल`
         audioOffset: 12,
         text: `ear| कान
 eye| आंख
-foot| पैर
-hair| बाल
+foot| टांग 
+hair| केश
 hand|  हाथ
 mouth| मुंह
 nose| नाक
