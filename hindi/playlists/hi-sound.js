@@ -132,7 +132,7 @@ tooth| दांत`
         audioOffset: 28,
         text: `stove| चूल्हा
 fork| कांटा
-spoon| चमचा
+spoon| चम्मच
 knife| छुरी
 pan|कड़ाही
 pot| मटका
@@ -188,7 +188,7 @@ tomato| टमाटर
 potato| आलू
 cabbage| पत्ता गोभी
 cauliflower| फूल गोभी
-corn| मक्का
+corn| भुट्टा
 cucumber| खीरा
 garlic| लहसुन`
         },
@@ -222,7 +222,7 @@ spinach| पालक`
     {
       type: 'slides',
       id: 'vehicles',
-      label: 'वाहनों',
+      label: 'वाहन',
       data: [
         {
           audio: 'hi-vehicles.mp3',
@@ -230,10 +230,7 @@ spinach| पालक`
           text: `aeroplane| हवाई जहाज
 boat| नाव
 bus| बस
-car| कार
-bicycle| साइकिल
-helicopter| हेलीकॉप्टर
-motorbike| मोटरसाइकिल
+car| गाड़ी 
 ship| समुंद्री जहाज
 tractor| ट्रैक्टर`
         },
@@ -241,12 +238,9 @@ tractor| ट्रैक्टर`
           audioOffset: 18,
           text: `train| रेल गाडी
 ambulance| रोगी वाहन
-auto| ऑटो
-cart| कार्ट
+cart| हाथगाडी
 excavator| खोदक मशीन
 fire-engine| दमकल
-lorry| लॉरी
-Van|वेन`
         }
       ]
     },
@@ -291,19 +285,19 @@ watch| हाथ-घड़ी`
       data: [
         {
           audioOffset: 0,
-          text: `sun| रवि
+          text: `sun| सूर्य
 moon| चांद
-rain| वर्षा
+rain| बारिश
 star| तारा
 milk| दूध
 ring| अंगूठी
-brush| ब्रश
+brush| कूंचा
 bone| हड्डी`
         },
         {
           audioOffset: 16,
           text: `bell| घंटी
-bird| चिड़िया
+bird| पक्षी
 conch| शंख 
 five| पांच
 drums| ढोल
@@ -317,8 +311,8 @@ king| राजा`
 ladder| सीढ़ी
 ladoo| लड्डू
 leaf| पत्ता
-rishi| ऋषि
-wheel| पहिया
+rishi| ऋषि मुनि
+wheel| चक्का
 whistle| सीटी
 world| दुनिया`
         }
@@ -393,7 +387,7 @@ scalpel| छुरी`
       },
       data: [
         {
-          audio: 'hi-animals.mp3',
+          audio: 'hi-animals.mp3'
           words:
             'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
         },
@@ -406,7 +400,7 @@ scalpel| छुरी`
         {
           audio: 'hi-animals.mp3',
           audioOffset: 40,
-          words: 'sat, squirrel, Ant, fly, Bat, Buffalo, Butterfly'
+          words: 'rat, squirrel, Ant, fly, Bat, Buffalo, Butterfly'
         },
         {
           audio: 'hi-animals.mp3',
@@ -443,13 +437,13 @@ scalpel| छुरी`
           audio: 'hi-fruits.mp3',
           audioOffset: 0,
           words:
-            'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
+            'apple, grapes, banana, strawberry, guava, jackfruit, mango, orange, papaya'
         },
         {
           audio: 'hi-fruits.mp3',
           audioOffset: 16,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+            'pineapple, pomegranate, watermelon, fig, custard-apple, Plum, dates, muskmelon'
         },
         {
           audio: 'hi-vegetable.mp3',
@@ -461,7 +455,7 @@ scalpel| छुरी`
           audio: 'hi-vegetable.mp3',
           audioOffset: 20,
           words:
-            'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
+            'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, Green chilli, coconut '
         },
         {
           audio: 'hi-vegetable.mp3',
@@ -473,13 +467,13 @@ scalpel| छुरी`
           audio: 'hi-vehicles.mp3',
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, bicycle, helicopter, motorbike, ship, tractor'
+            'aeroplane, boat, bus, car, ship, tractor'
         },
         {
           audio: 'hi-vehicles.mp3',
           audioOffset: 18,
           words:
-            'train, ambulance, auto, cart, excavator, fire-engine, lorry, van'
+            'train, ambulance, cart, excavator, fire-engine,
         },
         {
           audio: 'hi-house.mp3',
@@ -489,7 +483,7 @@ scalpel| छुरी`
         {
           audio: 'hi-house.mp3',
           audioOffset: 16,
-          words: 'girl, man, woman, ball, coat, glasses, clock, watch'
+          words: 'girl, man, woman, ball, glasses, clock, watch'
         },
         {
           audio: 'hi-others.mp3',
