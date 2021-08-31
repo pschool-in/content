@@ -30,7 +30,6 @@ export default {
   custard-apple| আতা| _তা| আ, অ, ঔ, তা
   dates| খেজুর| _জুর| খে, বে, ব, খ
   muskmelon| খরবুজ| _রবুজ| খ, ত, প, ব
-  litchi| লিচু| _চু| লি, ব, খ, ল
   fruits| ফল| _ল| ফ, তা, ব, প`,
 
         `carrot| গাজর| _জর| গা, বে, খ, র
@@ -89,8 +88,7 @@ export default {
   ডু, fig
   খে, dates
   খ, muskmelon
-  ক, orange
-  লি, litchi`,
+  ক, orange`,
 
         `গা, carrot
   বি, beetroot
@@ -169,8 +167,8 @@ export default {
           বাঁ, monkey
           বা, tiger`,
 
-        `জ, hippopotamus
-          গ, rhinoceros
+        `জ, hippo
+          গ, rhino
           শি, fox
           কু, crocodile
           জে, zebra`,
@@ -190,7 +188,7 @@ export default {
         `কা, squirrel
           ক, tortoise
           ইঁ, rat
-          উ, termites
+          উ, winged-termites
           পিঁ, ant`,
 
         `মা, fly
@@ -287,13 +285,11 @@ export default {
         `চু, stove
           কাঁ, fork
           ছু, knife
-          চা, pan
-          পা, bread`,
+          চা, pan`,
 
         `চা, spoon
           পা, pot
-          মা, butter
-          ঘি, ghee`
+          মা, butter`
       ]
     },
 

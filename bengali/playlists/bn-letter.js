@@ -679,7 +679,7 @@ export default {
         //Coumpound letters
         id: 'Coumpound_letters_bn_1',
         type: 'match',
-        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ',
+        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ক-ঙ)',
         commonData: {
           title: 'সঠিক অক্ষর মেলান',
           fontSize: '2rem'

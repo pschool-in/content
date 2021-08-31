@@ -115,8 +115,8 @@ hibiscus | गुडहल`
         audioOffset: 12,
         text: `ear| कान
 eye| आंख
-foot| पैर
-hair| बाल
+foot| टांग 
+hair| केश
 hand|  हाथ
 mouth| मुंह
 nose| नाक
@@ -270,11 +270,11 @@ boy| लड़का`
           audioOffset: 16,
           text: `girl| लड़की
 man| आदमी
-woman| औरत
+woman| स्त्री
 ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
-watch| हाथ-घड़ी`
+watch| घड़ी`
         }
       ]
     },
