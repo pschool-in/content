@@ -293,7 +293,7 @@ export default {
 
     {
       label: 'हिंदी मुहावरे',
-      id: 'hi_idioms',
+      id: 'hi-idioms',
       type: 'mcq',
       commonData: {
         title: 'नीचे दिए गए मुहावरे का सही अर्थ खोजें'
@@ -463,7 +463,7 @@ export default {
 
     {
       label: 'काल की पहचान करें',
-      id: 'hi_tense_1',
+      id: 'hi-tense-2',
       type: 'mcq',
       commonData: {
         title: 'काल की पहचान करें'

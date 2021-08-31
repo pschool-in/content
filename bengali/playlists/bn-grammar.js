@@ -191,7 +191,7 @@ export default {
     },
 
     {
-      id: 'Person_verb',
+      id: 'Person-verb',
       label: 'পুরুষ - ক্রিয়া',
       type: 'fillupOptions',
       commonData: {
@@ -331,7 +331,7 @@ export default {
 
     {
       label: 'বাগধারা ও প্রবাদ-প্রবচন',
-      id: 'bn_idioms',
+      id: 'bn-idioms',
       type: 'mcq',
       commonData: {
         title: 'বাগধারাগুলির সঠিক অর্থ খুঁজুন'

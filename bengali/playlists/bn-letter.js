@@ -459,44 +459,43 @@ export default {
         repeatCount: 1
       }
     },
-    
+
     {
-    type: 'rightOne',
-    label: 'স্বরবর্ণ নির্বাচন করুন',
-    slug: 'correct-spelling',
-    id: 'sound',
-    data: {
-      title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন',
-      type: 'letters',
-      words: 'অ, আ, ই, ঈ, উ, ঊ, ঋ, ৯, এ, ঐ, ও, ঔ',
-      audio: 'bn-letters.mp3'
-    }
-  },
-  {
-    type: 'rightOne',
-    label: 'ব্যঞ্জনবর্ণ নির্বাচন করুন',
-    id: 'sound-2',
-    commonData: {
-      title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',
-      type: 'letters',
-      audio: 'bn-letters.mp3'
+      type: 'rightOne',
+      label: 'স্বরবর্ণ নির্বাচন করুন',
+      slug: 'correct-spelling',
+      id: 'sound',
+      data: {
+        title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন',
+        type: 'letters',
+        words: 'অ, আ, ই, ঈ, উ, ঊ, ঋ, ৯, এ, ঐ, ও, ঔ',
+        audio: 'bn-letters.mp3'
+      }
     },
-    data: [
-      {
-        audioOffset: 24,
-        words: 'ক, খ, গ, ঘ, ঙ, চ , ছ, জ, ঝ, ঞ'
+    {
+      type: 'rightOne',
+      label: 'ব্যঞ্জনবর্ণ নির্বাচন করুন',
+      id: 'sound-2',
+      commonData: {
+        title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',
+        type: 'letters',
+        audio: 'bn-letters.mp3'
       },
-      {
-        audioOffset: 44,
-        words: 'ট, ঠ, ড, ঢ,	ণ, ত, থ, দ, ধ, ন'
-      },
-      {
-        audioOffset: 64,
-        words: 'প, ফ,	ব,	ভ,	ম, য, র, ল,	শ,	ষ,	স'
-      },
-     
-    ]
-  },
+      data: [
+        {
+          audioOffset: 24,
+          words: 'ক, খ, গ, ঘ, ঙ, চ , ছ, জ, ঝ, ঞ'
+        },
+        {
+          audioOffset: 44,
+          words: 'ট, ঠ, ড, ঢ,	ণ, ত, থ, দ, ধ, ন'
+        },
+        {
+          audioOffset: 64,
+          words: 'প, ফ,	ব,	ভ,	ম, য, র, ল,	শ,	ষ,	স'
+        }
+      ]
+    },
     {
       id: '100',
       type: 'passage',
@@ -674,76 +673,75 @@ export default {
         [`ঋ, ৯, এ, আ, ই, ঈ, ঔ, উ, ঊ`, `চ , ছ, জ,	ঝ, ঞ, ট, ঠ,	ড,	ঢ,	ণ`]
       ]
     },
-    
-          {
-        //Coumpound letters
-        id: 'Coumpound_letters_bn_1',
-        type: 'match',
-        label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ক-ঙ)',
-        commonData: {
-          title: 'সঠিক অক্ষর মেলান',
-          fontSize: '2rem'
-        },
-        data: [
-          `ক + আ, কা 
+
+    {
+      //Coumpound letters
+      id: 'Coumpound-letters-bn-1',
+      type: 'match',
+      label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ক-ঙ)',
+      commonData: {
+        title: 'সঠিক অক্ষর মেলান',
+        fontSize: '2rem'
+      },
+      data: [
+        `ক + আ, কা 
           ক + ই, কি
           ক + ঈ, কী 
           ক + উ, কু  
           ক + ঊ, কূ`,
 
-          `ক +ঋ, কৃ
+        `ক +ঋ, কৃ
           ক +এ, কে
           ক +ঐ, কৈ
           ক +ও, কো
           ক +ঔ, কৌ`,
 
-          `খ + আ, খা
+        `খ + আ, খা
           খ + ই, খি
           খ + ঈ, খী
           খ + উ, খু
           খ + ঊ, খূ`,
 
-          `খ + ঋ, খৃ
+        `খ + ঋ, খৃ
           খ + এ, খে
           খ + ঐ, খৈ
           খ + ও, খো
           খ + ঔ, খৌ`,
 
-          `গ + আ, গা
+        `গ + আ, গা
           গ + ই, গু
           গ + ঈ, গী
           গ + উ, গু
           গ + ঊ, গূ`,
 
-          `গ + ঋ, গৃ
+        `গ + ঋ, গৃ
           গ + এ, গে
           গ + ঐ, গৈ
           গ + ও, গো
           গ + ঔ, গৌ`,
 
-          `ঘ + আ, ঘা 
+        `ঘ + আ, ঘা 
           ঘ + ই, ঘি
           ঘ + ঈ, ঘী
           ঘ +উ, ঘু
           ঘ + ঊ, ঘূ`,
 
-          `ঘ + ঋ, ঘৃ
+        `ঘ + ঋ, ঘৃ
           ঘ + এ, ঘে 
           ঘ +ঐ, ঘৈ 
           ঘ +ও, ঘো 
           ঘ +ঔ, ঘৌ`,
-          
-         `ঙ + আ, ঙা
+
+        `ঙ + আ, ঙা
           ঙ + ই, ঙি 
           ঙ + উ, ঙু
-          ঙ + এ, ঙে`,
-
-        ]
-      },
+          ঙ + এ, ঙে`
+      ]
+    },
 
     {
       //Coumpound letters
-      id: 'Coumpound_letters_bn_2',
+      id: 'Coumpound-letters-bn-2',
       type: 'match',
       label: 'বর্ণ - যুক্তাক্ষর',
       commonData: {

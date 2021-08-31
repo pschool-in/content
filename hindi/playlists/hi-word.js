@@ -4,7 +4,7 @@ export default {
   img: 'word',
   list: [
     {
-      id: 'jumbled_hi_1',
+      id: 'jumbled-hi-1',
       label: 'शब्द गठन क-घ',
       type: 'sequence',
       commonData: {
@@ -27,7 +27,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_2',
+      id: 'jumbled-hi-2',
       label: 'शब्द गठन च-झ',
       type: 'sequence',
       commonData: {
@@ -50,7 +50,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_3',
+      id: 'jumbled-hi-3',
       label: 'शब्द गठन ट-ढ',
       type: 'sequence',
       commonData: {
@@ -73,7 +73,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_4',
+      id: 'jumbled-hi-4',
       label: 'शब्द गठन त-न',
       type: 'sequence',
       commonData: {
@@ -99,7 +99,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_5',
+      id: 'jumbled-hi-5',
       label: 'शब्द गठन प-म',
       type: 'sequence',
       commonData: {
@@ -125,7 +125,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_6',
+      id: 'jumbled-hi-6',
       label: 'शब्द गठन य-स',
       type: 'sequence',
       commonData: {
@@ -156,7 +156,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_hi_7',
+      id: 'jumbled-hi-7',
       label: 'शब्द गठन ह-ज्ञ',
       type: 'sequence',
       commonData: {
@@ -178,7 +178,7 @@ export default {
       ]
     },
     {
-      id: 'jumbled_0',
+      id: 'jumbled-0',
       label: 'शब्द गठन',
       type: 'sequence',
       commonData: {

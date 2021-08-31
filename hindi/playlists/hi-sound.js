@@ -366,7 +366,7 @@ saw| आरा`
         {
           audioOffset: 20,
           text: `spade| कुदाल
-stethescope|आला
+stethoscope|आला
 telescope| दूरबीन
 testtube | परखनली
 thermometer| तापमान-यंत्र 
@@ -514,7 +514,7 @@ scalpel| छुरी`
           audio: 'hi-tools.mp3',
           audioOffset: 20,
           words:
-            'spade, stethescope, telescope, testube, thermometer, trowel, compass, easel, hacksaw, scalpel '
+            'spade, stethoscope, telescope, testube, thermometer, trowel, compass, easel, hacksaw, scalpel '
         }
       ]
     }
