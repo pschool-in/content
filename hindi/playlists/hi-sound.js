@@ -272,7 +272,7 @@ woman| स्त्री
 ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
-watch| हाथ-घड़ी`
+watch| घड़ी`
         }
       ]
     },
