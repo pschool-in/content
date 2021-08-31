@@ -167,8 +167,8 @@ export default {
           বাঁ, monkey
           বা, tiger`,
 
-        `জ, hippopotamus
-          গ, rhinoceros
+        `জ, hippo
+          গ, rhino
           শি, fox
           কু, crocodile
           জে, zebra`,
