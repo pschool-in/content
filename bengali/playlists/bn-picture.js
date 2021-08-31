@@ -30,7 +30,6 @@ export default {
   custard-apple| আতা| _তা| আ, অ, ঔ, তা
   dates| খেজুর| _জুর| খে, বে, ব, খ
   muskmelon| খরবুজ| _রবুজ| খ, ত, প, ব
-  litchi| লিচু| _চু| লি, ব, খ, ল
   fruits| ফল| _ল| ফ, তা, ব, প`,
 
         `carrot| গাজর| _জর| গা, বে, খ, র
@@ -89,8 +88,7 @@ export default {
   ডু, fig
   খে, dates
   খ, muskmelon
-  ক, orange
-  লি, litchi`,
+  ক, orange`,
 
         `গা, carrot
   বি, beetroot
