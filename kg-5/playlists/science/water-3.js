@@ -294,7 +294,7 @@ We should drink *12* glasses of water everyday.
       }
     },
     {
-      id: 'notes-2',
+      id: 'notes-3',
       label: 'Where does water come from?',
       type: 'passage',
       data: {
@@ -331,7 +331,7 @@ We should drink *12* glasses of water everyday.
       }
     },
     {
-      id: 'notes-3',
+      id: 'notes-4',
       label: 'More About Water',
       type: 'passage',
       data: {
@@ -388,7 +388,7 @@ Gas/ Vapour: Formed at high temperatures.
       }
     },
     {
-      id: 'fillup',
+      id: 'fillup-2',
       label: 'Fill in the blanks',
       type: 'fillupOptions',
       data: {

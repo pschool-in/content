@@ -393,7 +393,7 @@ Animals and birds can be categorized into two types. They are domestic and wild.
       }
     },
     {
-      id: 'true-false',
+      id: 'true-false-3',
       label: 'True or False',
       type: 'classifySentence',
       data: {

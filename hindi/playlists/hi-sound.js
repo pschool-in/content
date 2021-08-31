@@ -224,9 +224,11 @@ spinach| पालक`
       type: 'slides',
       id: 'vehicles',
       label: 'वाहन',
+      commonData: {
+        audio: 'hi-vehicles.mp3'
+      },
       data: [
         {
-          audio: 'hi-vehicles.mp3',
           audioOffset: 0,
           text: `aeroplane| हवाई जहाज
 boat| नाव
@@ -236,7 +238,7 @@ ship| समुंद्री जहाज
 tractor| ट्रैक्टर`
         },
         {
-          audioOffset: 18,
+          audioOffset: 12,
           text: `train| रेल गाडी
 ambulance| रोगी वाहन
 cart| हाथगाडी
@@ -323,10 +325,8 @@ world| दुनिया`
       type: 'slides',
       id: 'school',
       label: 'विद्यालय',
-      commonData: {
-        audio: 'hi-school.mp3'
-      },
       data: {
+        audio: 'hi-school.mp3',
         audioOffset: 0,
         text: `eraser| रबड़
 pen| कलम 
@@ -441,24 +441,24 @@ scalpel| छुरी`
         },
         {
           audio: 'hi-fruits.mp3',
-          audioOffset: 16,
+          audioOffset: 18,
           words:
             'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
         },
         {
-          audio: 'hi-vegetable.mp3',
+          audio: 'hi-vegetables.mp3',
           audioOffset: 0,
           words:
             'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
         },
         {
-          audio: 'hi-vegetable.mp3',
+          audio: 'hi-vegetables.mp3',
           audioOffset: 20,
           words:
             'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
         },
         {
-          audio: 'hi-vegetable.mp3',
+          audio: 'hi-vegetables.mp3',
           audioOffset: 40,
           words:
             'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
@@ -470,7 +470,7 @@ scalpel| छुरी`
         },
         {
           audio: 'hi-vehicles.mp3',
-          audioOffset: 18,
+          audioOffset: 12,
           words: 'train, ambulance, cart, excavator, fire-engine'
         },
         {
@@ -502,7 +502,7 @@ scalpel| छुरी`
           audio: 'hi-school.mp3',
           audioOffset: 0,
           words:
-            'eraser, pen, pencil, ruler, bag, scissors, sharpener, watterbottle, calculator, book, color-pencils, crayons '
+            'eraser, pen, pencil, ruler, schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons '
         },
         {
           audio: 'hi-tools.mp3',
