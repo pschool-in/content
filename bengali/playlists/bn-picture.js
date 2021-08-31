@@ -289,8 +289,7 @@ export default {
 
         `চা, spoon
           পা, pot
-          মা, butter
-          ঘি, ghee`
+          মা, butter`
       ]
     },
 
