@@ -286,7 +286,6 @@ glasses| ऐनक| _नक| भ, ऐ, मा, यि
 clock| घड़ी | _ड़ी | घ, तू, ठ	, थ`
       ]
     },
-
     {
       type: 'completeWord',
       label: 'विद्यालय',

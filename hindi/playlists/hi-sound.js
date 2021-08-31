@@ -166,6 +166,7 @@ pomegranate| अनार
 watermelon| तरबूज
 fig| अंजीर
 custard-apple| शरीफा
+Plum| आलूबुखारा
 dates| खजूर
 muskmelon| खरबूज`
         }
@@ -222,7 +223,7 @@ spinach| पालक`
     {
       type: 'slides',
       id: 'vehicles',
-      label: 'वाहनों',
+      label: 'वाहन',
       data: [
         {
           audio: 'hi-vehicles.mp3',
@@ -406,7 +407,7 @@ scalpel| छुरी`
         {
           audio: 'hi-animals.mp3',
           audioOffset: 40,
-          words: 'sat, squirrel, Ant, fly, Bat, Buffalo, Butterfly'
+          words: 'rat, squirrel, ant, fly, bat, buffalo, butterfly'
         },
         {
           audio: 'hi-animals.mp3',
@@ -416,13 +417,12 @@ scalpel| छुरी`
         {
           audio: 'hi-birds.mp3',
           words:
-            'crow, duck, hen, parrot, peacock, sparrow, chick, myna, Ostrich'
+            'crow, duck, hen, parrot, peacock, sparrow, chick, myna, ostrich'
         },
         {
           audio: 'hi-birds.mp3',
           audioOffset: 18,
-          words:
-            'owl, rooster, woodpecker, eagle, sparrow, crane, flamingo, kingfisher'
+          words: 'owl, rooster, woodpecker, eagle, crane, flamingo, kingfisher'
         },
         {
           audio: 'hi-flowers-bodyParts-kitchen.mp3',
@@ -449,7 +449,7 @@ scalpel| छुरी`
           audio: 'hi-fruits.mp3',
           audioOffset: 16,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+            'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
         },
         {
           audio: 'hi-vegetable.mp3',
@@ -510,13 +510,13 @@ scalpel| छुरी`
           audio: 'hi-school.mp3',
           audioOffset: 0,
           words:
-            'Eraser, pen, pencil, ruler, bag, Scissors, sharpener, watterbottle, calculator, book, color pencils, crayons '
+            'eraser, pen, pencil, ruler, bag, scissors, sharpener, watterbottle, calculator, book, color-pencils, crayons '
         },
         {
           audio: 'hi-tools.mp3',
           audioOffset: 0,
           words:
-            'axe, balance, black board, hose, plier,  microscope, needle, oven, plough, saw'
+            'axe, balance, black-board, hose, plier,  microscope, needle, oven, plough, saw'
         },
         {
           audio: 'hi-tools.mp3',

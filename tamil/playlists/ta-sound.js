@@ -1,5 +1,5 @@
 export default {
-  label: 'Sound',
+  label: 'ஓசை',
   id: 'ta-sound',
   img: 'sound',
   list: [

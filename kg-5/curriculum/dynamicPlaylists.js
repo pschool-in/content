@@ -764,6 +764,47 @@ const social = [
     label: 'Houses',
     slug: 'houses',
     grade: 'g4, g5'
+  },
+  // new addition
+  {
+    label: 'Animals',
+    slug: 'animals',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Environment',
+    slug: 'environment',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Environment - 2',
+    slug: 'environment-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Clothes',
+    slug: 'clothes',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Maps',
+    slug: 'maps',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Surroundings',
+    slug: 'surroundings',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Plants - 2',
+    slug: 'plants-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Air - 2',
+    slug: 'air-2',
+    grade: 'g3, g4, g5'
   }
 ];
 

@@ -14,6 +14,7 @@ import poem from '../playlists/bn-poem';
 */
 
 import letter from '../playlists/bn-letter.js';
+import letter2 from '../playlists/bn-letter-2.js';
 import picture from '../playlists/bn-picture.js';
 import sound from '../playlists/bn-sound.js';
 import grammar from '../playlists/bn-grammar.js';
@@ -25,10 +26,12 @@ import reading from '../playlists/bn-reading.js';
 import science from '../playlists/bn-science.js';
 import social from '../playlists/bn-social.js';
 import poem from '../playlists/bn-poem.js';
-import reading2 from '../playlists/bn-reading-2.js';
+import sukumar from '../playlists/bn-sukumar.js';
 
 export default {
-  label: 'বাংলা',
+  //label: 'বাংলা',
+  contactInfo:
+    'বিষয়বস্তুতে কোন সমস্যা খুঁজে পেলে, আপনি আমাদের সাথে সরাসরি যোগাযোগ করতে পারেন। দয়া করে ইমেল লিখুন এই ঠিকানায় info@pschool.in',
   style: {
     fontSize: '0.9rem'
   },
@@ -38,14 +41,15 @@ export default {
     picture,
     word,
     sentence,
-    reading,
     grammar,
-    science,
-    social,
+    letter2,
+    reading,
+    poem,
+    sukumar,
     wordsearch,
     crossword,
-    poem,
-    reading2
+    social,
+    science
   ]
   /*
   list: [
