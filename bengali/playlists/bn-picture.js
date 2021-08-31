@@ -188,7 +188,7 @@ export default {
         `কা, squirrel
           ক, tortoise
           ইঁ, rat
-          উ, termites
+          উ, winged-termites
           পিঁ, ant`,
 
         `মা, fly
