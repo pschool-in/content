@@ -120,7 +120,7 @@ woodpecker | மரங்கொத்தி`
           audioOffset: 0,
           text: `grapes | திராட்சை
 banana | வாழைப்பழம்
-guava | கொய்யாப்பழம்
+guava | கொய்யா
 jackfruit | பலாப்பழம்
 mango | மாம்பழம்
 papaya | பப்பாளி`
@@ -195,7 +195,7 @@ lotus | தாமரை
 sunflower | சூரியகாந்தி
 marigold | சாமந்தி
 hibiscus | செம்பருத்தி
-jasmine | மல்லி `
+jasmine | மல்லிகை `
       }
     },
     {
