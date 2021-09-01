@@ -23,11 +23,11 @@ export default {
 
           `# The atmosphere`,
 
-          `Higher the level above the ground, lesser the oxygen. It includes several other gases like nitrogen, carbondioxide, water vapour etc. Some layers of the atmosphere are:
+          `Higher the level above the ground, lesser the oxygen. It includes several other gases like nitrogen, carbondioxide, water vapour etc. Some layers of the atmosphere are:`,
           
-          Troposphere: extends 13km from the earth's surface.
-          Stratosphere: extends 50km from the earth's surface.
-          Ozone: protects from harmful UV rays of the sun.`,
+          `1. Troposphere: extends 13km from the earth's surface.`,
+          `2. Stratosphere: extends 50km from the earth's surface.`,
+          `3. Ozone: protects from harmful UV rays of the sun.`,
           `# Water cycle`,
 
           `Water on the earth evaporates continuously due to the heat of the sun.As water vapour is lighter than air, it rises high up into the atmosphere.As it goes higher, cools and condenses to form clouds.The small droplets join together and formbigger drops which are heavy. Such drops of water fall down as rain. This continuous process of evaporation and condensation is called water cycle.`,
