@@ -110,7 +110,7 @@ export default {
       }
     },
     {
-      label: 'Who am I',
+      label: 'Who am I ?',
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
