@@ -188,13 +188,13 @@ export default {
           {
             name: 'True',
             text: `We get wool from sheep.
-                  We get silk from silkworm.
-                  We wear woolen clothes in summer.
+                  We get silk from silkworm.               
                   Lawyer wears black coat.`
           },
           {
             name: 'False',
             text: `We wear party wear to school.
+                  We wear woolen clothes in summer.
                   Doctors wear yellow coats.`
           }
         ]
