@@ -30,7 +30,7 @@ export default {
           },
           {
             name: 'Weaving ',
-            text: 'Dowels, Shed stick, Shed stick, Warp yarn'
+            text: 'Dowels, Shed stick, Warp yarn'
           }
         ]
       }
