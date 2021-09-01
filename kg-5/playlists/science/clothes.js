@@ -296,7 +296,7 @@ export default {
               Cotton, cotton yarn              
               Jute, fibres              
               Cap, summer              
-              Raincoat, winter`,
+              Raincoat, rain`,
         title: 'Match the following'
       }
     },
