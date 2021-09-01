@@ -1,5 +1,5 @@
 export default {
-    label: 'শব্দ',
+    label: 'ধ্বনি',
     id: 'bn-sound',
     img: 'sound',
     list: [

@@ -31,6 +31,7 @@ import clock from '../playlists/default/clock.js';
 import games from '../playlists/default/games.js';
 
 let mainMenu = {
+  label: 'Showcase',
   style: {},
   list: [
     coloring,

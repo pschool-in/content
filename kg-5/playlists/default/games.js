@@ -93,6 +93,7 @@ export default {
       locked: true,
       data: [
         {
+          audio: 'phonicsWords.mp3',
           arr: [
             {
               sound: 's',
@@ -172,145 +173,149 @@ export default {
           ]
         },
         {
+          audio: 'phonicsWords-2.mp3',
+          soundOffset: 15,
           arr: [
             {
               sound: 'l',
               examples: 'lot, let, lap, leg',
-              pos: 60
+              pos: 0
             },
             {
               sound: 'f',
               examples: 'fox, fan, if, fat',
-              pos: 64
+              pos: 4
             },
             {
               sound: 'b',
               examples: 'bun, bag, bed, bad',
-              pos: 68
+              pos: 8
             },
             {
               sound: 'ai',
               examples: 'aim, tail, pain, fail',
-              pos: 72
+              pos: 12
             },
             {
               sound: 'j',
               examples: 'jam, jug, jump, jar',
-              pos: 76
+              pos: 16
             },
             {
               sound: 'oa',
               examples: 'boat, coat, goat, oat, goal, roar',
-              pos: 80
+              pos: 20
             },
             {
               sound: 'ie',
               examples: 'tie, lie, die, pie, flies',
-              pos: 86
+              pos: 26
             },
             {
               sound: 'ee',
               examples: 'see, tree, feed, need, jeep',
-              pos: 91
+              pos: 31
             },
             {
               sound: 'or',
               examples: 'for, born, port, corn',
-              pos: 96
+              pos: 36
             },
             {
               sound: 'z',
               examples: 'zip, zen, zebra',
-              pos: 100
+              pos: 40
             },
             {
               sound: 'w',
               examples: 'wet, win, wind, was',
-              pos: 103
+              pos: 43
             },
             {
               sound: 'ng',
               examples: 'long, sing, ring, song',
-              pos: 107
+              pos: 47
             },
             {
               sound: 'v',
               examples: 'van, visa, cave, even',
-              pos: 111
+              pos: 51
             }
           ]
         },
         {
+          audio: 'phonicsWords-3.mp3',
+          soundOffset: 28,
           arr: [
             {
               sound: 'oo',
               examples: 'good, look, foot, wool',
-              pos: 115
+              pos: 0
             },
             {
               sound: 'OO',
               examples: 'soon, spoon, roof, cool',
-              pos: 119
+              pos: 4
             },
             {
               sound: 'y',
               examples: 'toy, boy, yes, my',
-              pos: 123
+              pos: 8
             },
             {
               sound: 'x',
               examples: 'six, fix, ox, fox',
-              pos: 127
+              pos: 12
             },
             {
               sound: 'ch',
               examples: 'chat, chop, chips, catch, watch',
-              pos: 131
+              pos: 16
             },
             {
               sound: 'sh',
               examples: 'push, fish, bush, dish',
-              pos: 136
+              pos: 21
             },
             {
               sound: 'th',
               examples: 'thank, thin, bath, path, math',
-              pos: 140
+              pos: 25
             },
             {
               sound: 'TH',
               examples: 'that, this, these, them',
-              pos: 145
+              pos: 30
             },
             {
               sound: 'qu',
               examples: 'quit, quest, quiz, quick',
-              pos: 149
+              pos: 34
             },
             {
               sound: 'ou',
               examples: 'loud, cloud, mount, found, count',
-              pos: 153
+              pos: 38
             },
             {
               sound: 'oi',
               examples: 'oil, point, soil, coin, boil',
-              pos: 158
+              pos: 43
             },
             {
               sound: 'ue',
               examples: 'blue, glue, true, clue',
-              pos: 163
+              pos: 48
             },
             {
               sound: 'er',
               examples: 'her, after, baker, worker',
-              pos: 167
+              pos: 52
             },
             {
               sound: 'ar',
               examples: 'car, art, cart,card, bark',
-              pos: 171
+              pos: 56
             }
           ]
         }

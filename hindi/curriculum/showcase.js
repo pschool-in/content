@@ -13,7 +13,9 @@ import poem from '../playlists/hi-poem.js';
 import essay from '../playlists/hi-essay.js';
 
 export default {
-  label: 'हिंदी',
+  //label: 'हिंदी',
+  contactInfo:
+    'यदि आपको किसी विषय में कोई समस्या मिलती है या आप हमारे साथ बात  करना चाहते हैं, तो कृपया info@pschool.in पर एक ईमेल लिखें।',
   style: {
     fontSize: '0.9rem'
   },
