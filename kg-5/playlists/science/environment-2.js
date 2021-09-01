@@ -9,17 +9,17 @@ export default {
       type: 'passage',
       id: '100',
       data: {
-        title: 'Our Need for Air',
+        title: 'Our Earth and Living World',
         text: [
           `# What is an environment?`,
           `Everything that we see and many many things that we can't see are present in our surroundings and are together known as the environment. For example sunlight, air, water, food, plants, animals, microbes, dust, insects etc.`,
 
           `# The Biosphere`,
 
-          `The zone of life where all the life forms interact is called biosphere. It basically includes everything the environment has. It is sub-divided as;          
-          Lithosphere: all the land of the environment.
-          Hydrosphere: all the major, minor and minute water-bodies.
-          Atmosphere: envelope of air around the earth.`,
+          `The zone of life where all the life forms interact is called biosphere. It basically includes everything the environment has. It is sub-divided as;`,          
+          `1. Lithosphere: all the land of the environment.`,
+          `2. Hydrosphere: all the major, minor and minute water-bodies.`,
+          `3. Atmosphere: envelope of air around the earth.`,
 
           `# The atmosphere`,
 
