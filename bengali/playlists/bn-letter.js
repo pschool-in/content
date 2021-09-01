@@ -462,7 +462,7 @@ export default {
 
     {
       type: 'rightOne',
-      label: 'স্বরবর্ণ নির্বাচন করুন',
+      label: 'ধ্বনি শুনে স্বরবর্ণ নির্বাচন',
       slug: 'correct-spelling',
       id: 'sound',
       data: {
@@ -474,7 +474,7 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'ব্যঞ্জনবর্ণ নির্বাচন করুন',
+      label: 'ধ্বনি শুনে ব্যঞ্জনবর্ণ নির্বাচন',
       id: 'sound-2',
       commonData: {
         title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',

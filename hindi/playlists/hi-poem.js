@@ -544,9 +544,9 @@ export default {
     {
       id: '1700',
       type: 'passage',
-      label: 'दवाई खाती',
+      label: 'घड़ी',
       data: {
-        title: 'दवाई खाती',
+        title: 'घड़ी',
         text: [
           {
             type: 'poem',

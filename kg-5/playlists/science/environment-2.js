@@ -9,25 +9,25 @@ export default {
       type: 'passage',
       id: '100',
       data: {
-        title: 'Our Need for Air',
+        title: 'Our Earth and Living World',
         text: [
           `# What is an environment?`,
           `Everything that we see and many many things that we can't see are present in our surroundings and are together known as the environment. For example sunlight, air, water, food, plants, animals, microbes, dust, insects etc.`,
 
           `# The Biosphere`,
 
-          `The zone of life where all the life forms interact is called biosphere. It basically includes everything the environment has. It is sub-divided as;          
-          Lithosphere: all the land of the environment.
-          Hydrosphere: all the major, minor and minute water-bodies.
-          Atmosphere: envelope of air around the earth.`,
+          `The zone of life where all the life forms interact is called biosphere. It basically includes everything the environment has. It is sub-divided as;`,          
+          `1. Lithosphere: all the land of the environment.`,
+          `2. Hydrosphere: all the major, minor and minute water-bodies.`,
+          `3. Atmosphere: envelope of air around the earth.`,
 
           `# The atmosphere`,
 
-          `Higher the level above the ground, lesser the oxygen. It includes several other gases like nitrogen, carbondioxide, water vapour etc. Some layers of the atmosphere are:
+          `Higher the level above the ground, lesser the oxygen. It includes several other gases like nitrogen, carbondioxide, water vapour etc. Some layers of the atmosphere are:`,
           
-          Troposphere: extends 13km from the earth's surface.
-          Stratosphere: extends 50km from the earth's surface.
-          Ozone: protects from harmful UV rays of the sun.`,
+          `1. Troposphere: extends 13km from the earth's surface.`,
+          `2. Stratosphere: extends 50km from the earth's surface.`,
+          `3. Ozone: protects from harmful UV rays of the sun.`,
           `# Water cycle`,
 
           `Water on the earth evaporates continuously due to the heat of the sun.As water vapour is lighter than air, it rises high up into the atmosphere.As it goes higher, cools and condenses to form clouds.The small droplets join together and formbigger drops which are heavy. Such drops of water fall down as rain. This continuous process of evaporation and condensation is called water cycle.`,

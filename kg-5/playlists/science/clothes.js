@@ -82,22 +82,17 @@ export default {
         ]
       }
     },
-    {
-      label: 'Fun fact!',
-      type: 'matchByDragDrop',
-      id: '400',
-      data: {
-        isPractice: false,
-        title: 'Guess what would they wear in the following surroundings',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `Soldiers wear *Khaki* clothes in deserts.
-              Soldiers wear *Green* clothes in jungles.              
-              Soldiers wear *White* clothes in The Himalayas`
-      }
-    },
+{
+    label: 'Do you know?',
+    type: 'passage',
+    id: '400',
+    data: {
+      title: 'Interesting Fun Fact!',
+      text: [
+        `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
+      ]
+    }
+  },
     {
       label: 'Fun fact!',
       type: 'matchByDragDrop',
@@ -115,7 +110,7 @@ export default {
       }
     },
     {
-      label: 'Who am I',
+      label: 'Who am I ?',
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
@@ -193,13 +188,13 @@ export default {
           {
             name: 'True',
             text: `We get wool from sheep.
-                  We get silk from silkworm.
-                  We wear woolen clothes in summer.
+                  We get silk from silkworm.               
                   Lawyer wears black coat.`
           },
           {
             name: 'False',
             text: `We wear party wear to school.
+                  We wear woolen clothes in summer.
                   Doctors wear yellow coats.`
           }
         ]
@@ -248,28 +243,28 @@ export default {
               *Scarfs* protect our skin from the sun and *Mufflers* protect our ears and neck from cold.`
       }
     },
-    {
-      label: 'What are the sources of these clothes?',
-      id: '1200',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'Animal',
-            text: 'wool, silk'
-          },
-          {
-            name: 'Plant',
-            text: 'cotton, jute'
-          },
-          {
-            name: 'Synthetic',
-            text: 'nylon, rayon'
-          }
-        ]
-      }
-    },
+  {
+    label: 'What are the sources of these clothes?',
+    id: '1200',
+    type: 'group',
+    data: {
+      title: 'Identify the source of the clothe',
+      types: [
+        {
+          name: 'Animal',
+          text: 'wool, silk'
+        },
+        {
+          name: 'Plant',
+          text: 'cotton, jute'
+        },
+        {
+          name: 'Synthetic',
+          text: 'nylon, rayon'
+        }
+      ]
+    }
+  },
     {
       label: 'True or False',
       id: '1300',
@@ -301,7 +296,7 @@ export default {
               Cotton, cotton yarn              
               Jute, fibres              
               Cap, summer              
-              Raincoat, winter`,
+              Raincoat, rain`,
         title: 'Match the following'
       }
     },
