@@ -243,28 +243,28 @@ export default {
               *Scarfs* protect our skin from the sun and *Mufflers* protect our ears and neck from cold.`
       }
     },
-    {
-      label: 'What are the sources of these clothes?',
-      id: '1200',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'Animal',
-            text: 'wool, silk'
-          },
-          {
-            name: 'Plant',
-            text: 'cotton, jute'
-          },
-          {
-            name: 'Synthetic',
-            text: 'nylon, rayon'
-          }
-        ]
-      }
-    },
+  {
+    label: 'What are the sources of these clothes?',
+    id: '1200',
+    type: 'group',
+    data: {
+      title: 'Identify the source of the clothe',
+      types: [
+        {
+          name: 'Animal',
+          text: 'wool, silk'
+        },
+        {
+          name: 'Plant',
+          text: 'cotton, jute'
+        },
+        {
+          name: 'Synthetic',
+          text: 'nylon, rayon'
+        }
+      ]
+    }
+  },
     {
       label: 'True or False',
       id: '1300',
