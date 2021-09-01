@@ -82,22 +82,17 @@ export default {
         ]
       }
     },
-    {
-      label: 'Fun fact!',
-      type: 'matchByDragDrop',
-      id: '400',
-      data: {
-        isPractice: false,
-        title: 'Guess what would they wear in the following surroundings',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `Soldiers wear *Khaki* clothes in deserts.
-              Soldiers wear *Green* clothes in jungles.              
-              Soldiers wear *White* clothes in The Himalayas`
-      }
-    },
+{
+    label: 'Do you know?',
+    type: 'passage',
+    id: '400',
+    data: {
+      title: 'Interesting Fun Fact!',
+      text: [
+        `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
+      ]
+    }
+  },
     {
       label: 'Fun fact!',
       type: 'matchByDragDrop',
