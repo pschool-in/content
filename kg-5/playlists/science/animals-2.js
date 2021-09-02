@@ -106,7 +106,7 @@ It is believed that a cobra lives in an anthill. But anthills are built by ants,
     },
     {
       label: 'Animal Shelters - True or False',
-      id: '700',
+      id: 'true-false-shelters',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -564,7 +564,7 @@ The main visible parts on the head are the large compound eyes, the antennae (fe
     },
     {
       label: 'Nocturnal Vs Diurnal',
-      id: '2900',
+      id: 'classify-nocturnal',
       type: 'group',
       data: {
         title:
