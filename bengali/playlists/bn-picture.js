@@ -62,6 +62,27 @@ export default {
   raddish| মূলো| _লো| মূ, বে, ত, লো`
       ]
     },
+          {
+        type: 'completeWord',
+        label: 'শূন্যস্থান পূরণ - ফুল',
+        id: 'complete-word',
+        commonData: {
+          images: 'custom',
+          lang: 'bn'
+        },
+        data: [
+          `rose| গোলাপ| _লাপ| গো, অ, টি, ট
+          lotus| পদ্ম| _দ্ম| প, অ, জু, খ
+          sunflower| সূর্যমুখী| _র্যমুখী| সূ, কু, খ, ছ
+          marigold| গাঁদা| _দা| গাঁ, গ, ক, ব`,
+
+    `hibiscus| জবা| _বা| জ, জুঁ, খ, কু
+    jasmine| জুঁই| _ই| জুঁ, কু, জ, ব
+    tulip| টিউলিপ| _উলিপ| টি, ট, তি, কু
+    zinnia| জিনিয়া| _নিয়া| জি, জ, খ, ব`,
+
+        ]
+      },
     {
       id: 'match-fruit',
       type: 'match',
