@@ -102,7 +102,7 @@ export default {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `Living things bring *changes* in non-living things too.
+        text: `Living things bring changes in *non-living things* too.
         Living things need *food* to grow.
         Humans used to weave *clothes* using cotton, silk, wool.
         Some animals used to hunt and eat other animal's *flesh*
@@ -371,9 +371,9 @@ Animals and birds can be categorized into two types. They are domestic and wild.
       label: 'Fill in the blanks',
       type: 'fillupOptions',
       data: {
-        text: `Cow dung is used for the production of *biogas*.
+        text: `Cow dung is used for the *production of biogas*.
           Plants in *marshes* are called mangroves.
-          Sheep *pellets* can be used as manure for plants.
+          *Sheep pellets* can be used as manure for plants.
           *Roots* of the plant grow under the soil.
           Silk is obtained from the cocoon of the larvae of *silkworm*.`,
         title: 'Fill in the blanks.'
