@@ -27,7 +27,7 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       id: '200',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Who wears what?',
         types: [
           {
             name: 'Men',
@@ -65,7 +65,7 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       id: '300',
       type: 'group',
       data: {
-        title: 'Classify the below animals based on the presence of fur.',
+        title: 'Classify the below clothings.',
         types: [
           {
             name: 'Summer',
@@ -83,7 +83,7 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       type: 'passage',
       id: '400',
       data: {
-        title: 'Interesting Fun Fact!',
+        title: 'Fun Fact!',
         text: `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
       }
     },
@@ -98,9 +98,9 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Soldiers wear *Khaki* clothes in deserts.
-              Soldiers wear *Green* clothes in jungles.              
-              Soldiers wear *White* clothes in The Himalayas`
+        text: `Soldiers wear *khaki* clothes in deserts.
+              Soldiers wear *green* clothes in jungles.              
+              Soldiers wear *white* clothes in The Himalayas`
       }
     },
     {
@@ -109,15 +109,14 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       id: 'drag-drop',
       data: {
         isPractice: false,
-        title: 'Guess who wears what!',
+        title: 'Guess who are they!',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
         },
         text: `I wear a white coat and examine patients. - *Doctor*
               I wear blue clothes and put out fires. - *Firefighter*
-              You always see me in khaki clothes.
-              I go wherever there is a fight. - *police*
+              You always see me in khaki clothes. I go wherever there is a fight. - *police*
               I work in a hospital and take care of patients. - *nurse*
               I am always ready to protect the country.- *soldier*`
       }
@@ -325,31 +324,13 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
       }
     },
     {
-      id: 'match-2',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Ikkat saree, Andhra Pradesh
-              Mekhela Chador, Assam
-              Dhoti-kurta, Bihar
-              Kachhora,  Chhattisgarh 
-              Nav-vari, Goa
-              Kediyu-chorno, Gujrat
-              Daaman, Haryana
-              Tussar silk saris ,  Jharkhand 
-              Mundum Neriyathum, Kerala
-              Puan, Mizoram`,
-        title: 'Match the following'
-      }
-    },
-    {
       label: 'Clothes - Our Necessity',
       type: 'passage',
       id: 'notes-4',
       data: {
         title: 'Clothes - Our Necessity',
         text: `# Want vs Need
-We ‘Need’ clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘Want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.
+We ‘need’ clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.
 # Fun fact!
 Sarees from some states of India have special significance and great popularity among women. Those sarees are Lucknow chikan, Kashmir silk, Banarasi silk, Kadiyal, Pitambari, Pochampalli, Narayanpet, Kanjivaram, Patola and Mysore silk.`
       }
@@ -383,9 +364,7 @@ Sarees from some states of India have special significance and great popularity 
           dashWidth: 80
         },
         text: `*Mumbai (Goa)* is famous worldwide for its textile mills.
-              Wanting things you do not need is *desire (want)*, not necessity.
-              Several regions in our country have a tradition of producing fabrics
-              *characteristic (traditional)* of the place.
+              Wanting things you do not need is *want (desire)*, not necessity.
               It is cold. Put on your *coat (umbrella)*.
               It is snowy. Put on your *gloves (skirt)*.`
       }
