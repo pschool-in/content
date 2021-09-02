@@ -186,7 +186,7 @@ export default {
               text: 'Hen, Spider, Frog, Snake, Crow'
             },
             {
-              name: 'not lay eggs',
+              name: 'do not lay eggs',
               text: 'Cat, Dog, Horse, Cow, Donkey'
             }
           ]
