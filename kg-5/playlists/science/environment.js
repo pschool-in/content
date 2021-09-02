@@ -117,7 +117,7 @@ export default {
       type: 'fillupOptions',
       data: {
         text: `Sparrows grow by eating *insects (stone)* and *food grains (paper)*.
-          Plants and animals will come under *living (non-living)* things.
+          Plants and animals will come under *living things (non-living things)*.
           Plants utilize *sunlight (moonlight)* to prepare their food.
           Birds will build their nest using *twigs (bricks) *.
           Papers, rock and bag will come under *non-living (living)* things .`,
