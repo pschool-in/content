@@ -781,18 +781,6 @@ Soil is one of the most important natural resources. It is essential for agricul
       }
     },
     {
-      id: '3900',
-      type: 'sequence',
-      label: 'Words related to plants',
-      commonData: {
-        title: 'connect the letter to create word'
-      },
-      data: [
-        `Androecium, Gynoecium, Anemochory, Hydrochory, Zoochory`,
-        `Autochory, Anemophily, Hydrophily, Entamophily`
-      ]
-    },
-    {
       id: '4000',
       label: 'Plants - Answer in one word ',
       type: 'fillupOptions',
