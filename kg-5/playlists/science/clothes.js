@@ -10,20 +10,16 @@ export default {
       id: '100',
       data: {
         title: 'Our Clothes',
-        text: [
-          `# Why do we need clothes?`,
-
-          `1. To cover our body.`,
-          `2. To protect ourselves from dust and dirt.`,
-          `3. To feel warm during winters.`,
-          `4. To avoid tanning from the sun.`,
-          `5. To look presentable.`,
-
-          `...what else can you think of?`,
-          `# How do we know what to wear?`,
-          `There are three main seasons, namely, The Summer, The Winter and The Rainy Season. These seasons last for almost 4 months and after the completion of one cycle, they continue to follow each other. That’s why it’s called “cycle of seasons”. So, we can say that what we wear depends on the cycle of seasons.              
-              In addition to this, we wear clothes of different designs, colors and tradition. So we can say that clothing style also depends on occupation, taste and occasion.`
-        ]
+        text: `# Why do we need clothes?
+1. To cover our body.
+2. To protect ourselves from dust and dirt.
+3. To feel warm during winters.
+4. To avoid tanning from the sun.
+5. To look presentable.
+...what else can you think of?
+# How do we know what to wear?
+There are three main seasons, namely, The Summer, The Winter and The Rainy Season. These seasons last for almost 4 months and after the completion of one cycle, they continue to follow each other. That’s why it’s called “cycle of seasons”. So, we can say that what we wear depends on the cycle of seasons.
+In addition to this, we wear clothes of different designs, colors and tradition. So we can say that clothing style also depends on occupation, taste and occasion.`
       }
     },
     {
@@ -31,7 +27,7 @@ export default {
       id: '200',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Who wears what?',
         types: [
           {
             name: 'Men',
@@ -69,7 +65,7 @@ export default {
       id: '300',
       type: 'group',
       data: {
-        title: 'Classify the below animals based on the presence of fur.',
+        title: 'Classify the below clothings.',
         types: [
           {
             name: 'Summer',
@@ -82,17 +78,15 @@ export default {
         ]
       }
     },
-{
-    label: 'Do you know?',
-    type: 'passage',
-    id: '400',
-    data: {
-      title: 'Interesting Fun Fact!',
-      text: [
-        `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
-      ]
-    }
-  },
+    {
+      label: 'Do you know?',
+      type: 'passage',
+      id: '400',
+      data: {
+        title: 'Fun Fact!',
+        text: `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
+      }
+    },
     {
       label: 'Fun fact!',
       type: 'matchByDragDrop',
@@ -104,9 +98,9 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Soldiers wear *Khaki* clothes in deserts.
-              Soldiers wear *Green* clothes in jungles.              
-              Soldiers wear *White* clothes in The Himalayas`
+        text: `Soldiers wear *khaki* clothes in deserts.
+              Soldiers wear *green* clothes in jungles.              
+              Soldiers wear *white* clothes in The Himalayas`
       }
     },
     {
@@ -115,15 +109,14 @@ export default {
       id: 'drag-drop',
       data: {
         isPractice: false,
-        title: 'Guess who wears what!',
+        title: 'Guess who are they!',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
         },
         text: `I wear a white coat and examine patients. - *Doctor*
               I wear blue clothes and put out fires. - *Firefighter*
-              You always see me in khaki clothes.
-              I go wherever there is a fight. - *police*
+              You always see me in khaki clothes. I go wherever there is a fight. - *police*
               I work in a hospital and take care of patients. - *nurse*
               I am always ready to protect the country.- *soldier*`
       }
@@ -206,23 +199,16 @@ export default {
       id: '1000',
       data: {
         title: 'How & what about clothes',
-        text: [
-          `# How clothes are made?`,
-
-          `In the past, a spinning wheel was used to make yarn from cotton; and then, these yarns were used to make fabrics and clothes. In the modern times, yarn is made through machinery; although the procedure is same.`,
-
-          `# What to do with old clothes?`,
-
-          `1. If they’re in a good condition, donate them to needy people.`,
-          `2. They can be reused for making new clothes.`,
-          `3. Torn clothes can be used in dusting, moping, doormats etc.`,
-          `4. Some clothes can also be reused into paper making. Eg- paper plates, false flowers, models etc.`,
-
-          `# Fun fact!`,
-
-          `Mahatma Gandhi, during the struggle for independence, promoted the use of ‘Swasdeshi’ goods by making khadi yarn on his charakha. This led to formation of ‘Charakha Mandals’ throughout the nation.
-              In case of unavailability of detergent, one can also use soap nuts, washing soda, ritha, hinganbet and limestone. All these are natural substances.`
-        ]
+        text: `# How clothes are made?
+In the past, a spinning wheel was used to make yarn from cotton; and then, these yarns were used to make fabrics and clothes. In the modern times, yarn is made through machinery; although the procedure is same.
+# What to do with old clothes?
+1. If they’re in a good condition, donate them to needy people.
+2. They can be reused for making new clothes.
+3. Torn clothes can be used in dusting, moping, doormats etc.
+4. Some clothes can also be reused into paper making. Eg- paper plates, false flowers, models etc.
+# Fun fact!
+Mahatma Gandhi, during the struggle for independence, promoted the use of ‘Swasdeshi’ goods by making khadi yarn on his charakha. This led to formation of ‘Charakha Mandals’ throughout the nation.
+In case of unavailability of detergent, one can also use soap nuts, washing soda, ritha, hinganbet and limestone. All these are natural substances.`
       }
     },
     {
@@ -243,28 +229,28 @@ export default {
               *Scarfs* protect our skin from the sun and *Mufflers* protect our ears and neck from cold.`
       }
     },
-  {
-    label: 'What are the sources of these clothes?',
-    id: '1200',
-    type: 'group',
-    data: {
-      title: 'Identify the source of the clothe',
-      types: [
-        {
-          name: 'Animal',
-          text: 'wool, silk'
-        },
-        {
-          name: 'Plant',
-          text: 'cotton, jute'
-        },
-        {
-          name: 'Synthetic',
-          text: 'nylon, rayon'
-        }
-      ]
-    }
-  },
+    {
+      label: 'What are the sources of these clothes?',
+      id: '1200',
+      type: 'group',
+      data: {
+        title: 'Identify the source of the clothe',
+        types: [
+          {
+            name: 'Animal',
+            text: 'wool, silk'
+          },
+          {
+            name: 'Plant',
+            text: 'cotton, jute'
+          },
+          {
+            name: 'Synthetic',
+            text: 'nylon, rayon'
+          }
+        ]
+      }
+    },
     {
       label: 'True or False',
       id: '1300',
@@ -338,35 +324,15 @@ export default {
       }
     },
     {
-      id: 'match-2',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Ikkat saree, Andhra Pradesh
-              Mekhela Chador, Assam
-              Dhoti-kurta, Bihar
-              Kachhora,  Chhattisgarh 
-              Nav-vari, Goa
-              Kediyu-chorno, Gujrat
-              Daaman, Haryana
-              Tussar silk saris ,  Jharkhand 
-              Mundum Neriyathum, Kerala
-              Puan, Mizoram`,
-        title: 'Match the following'
-      }
-    },
-    {
       label: 'Clothes - Our Necessity',
       type: 'passage',
       id: 'notes-4',
       data: {
         title: 'Clothes - Our Necessity',
-        text: [
-          `# Want vs Need`,
-          `We ‘Need’ clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘Want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.`,
-          `# Fun fact!`,
-          `Sarees from some states of India have special significance and great popularity among women. Those sarees are Lucknow chikan, Kashmir silk, Banarasi silk, Kadiyal, Pitambari, Pochampalli, Narayanpet, Kanjivaram, Patola and Mysore silk.`
-        ]
+        text: `# Want vs Need
+We ‘need’ clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.
+# Fun fact!
+Sarees from some states of India have special significance and great popularity among women. Those sarees are Lucknow chikan, Kashmir silk, Banarasi silk, Kadiyal, Pitambari, Pochampalli, Narayanpet, Kanjivaram, Patola and Mysore silk.`
       }
     },
     {
@@ -398,9 +364,7 @@ export default {
           dashWidth: 80
         },
         text: `*Mumbai (Goa)* is famous worldwide for its textile mills.
-              Wanting things you do not need is *desire (want)*, not necessity.
-              Several regions in our country have a tradition of producing fabrics
-              *characteristic (traditional)* of the place.
+              Wanting things you do not need is *want (desire)*, not necessity.
               It is cold. Put on your *coat (umbrella)*.
               It is snowy. Put on your *gloves (skirt)*.`
       }

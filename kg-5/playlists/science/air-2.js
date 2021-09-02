@@ -10,11 +10,9 @@ export default {
       id: '100',
       data: {
         title: 'Our Need for Air',
-        text: [
-          `Air is all around us, even though we cannot see it. But we are able to feel air. Air does not have colour, smell,or taste.`,
-          `We need air to breathe. Inhalation and exhalation are together called breathing. We breathe continuously and this process is called respiration.`,
-          `We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to work properly.`
-        ]
+        text: `Air is all around us, even though we cannot see it. But we are able to feel air. Air does not have colour, smell,or taste.
+We need air to breathe. Inhalation and exhalation are together called breathing. We breathe continuously and this process is called respiration.
+We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to work properly.`
       }
     },
     {
@@ -82,12 +80,10 @@ export default {
       id: '400',
       data: {
         title: 'Our Need for Air',
-        text: [
-          `The earth we live on is round in shape. There exist a blanket of air surrounding the earth. This blanket of air is known as atmosphere. The atmosphere is as high as 50km.`,
-          `As we go farther from the earth, the layer of air becomes thin. The air at greater heights is rarer and the layers of air are also not held close together.`,
-          `Air plays a role in burning. The component of air that helps in burning is a gas called oxygen. Oxygen is also used for respiration by us. Another component of air is carbon dioxide which is used by plants to make food. However, the largest component in air is nitrogen. Air has several gases mixed in it therefore, air is called a mixture of gases.`,
-          `Some fuels like coal, petrol and diesel give out smoke while burning. This mixes with air and pollutes it.`
-        ]
+        text: `The earth we live on is round in shape. There exist a blanket of air surrounding the earth. This blanket of air is known as atmosphere. The atmosphere is as high as 50km.
+As we go farther from the earth, the layer of air becomes thin. The air at greater heights is rarer and the layers of air are also not held close together.
+Air plays a role in burning. The component of air that helps in burning is a gas called oxygen. Oxygen is also used for respiration by us. Another component of air is carbon dioxide which is used by plants to make food. However, the largest component in air is nitrogen. Air has several gases mixed in it therefore, air is called a mixture of gases.
+Some fuels like coal, petrol and diesel give out smoke while burning. This mixes with air and pollutes it.`
       }
     },
     {
@@ -220,39 +216,34 @@ export default {
       id: '1100',
       data: {
         title: 'The composition of Air',
-        text: [
-          `# Importance of air in our daily life.`,
-          `1. Oxygen present in air is needed for respiration.`,
-          `2. We can speak and hear the sound only when there is air around.`,
-          `3. Air helps in the dispersal of seeds for plant reproduction.`,
-          `4. Monsoon and rain occurs due to the wind action.`,
-          `5. Air regulates the atmospheric temperature.`,
-          `The properties of all the gases present in Air.`,
-
-          `# Nitrogen`,
-          `1. It is used to fill up food packages to extend their shelf life.`,
-          `2. Liquid nitrogen is used to store living cells.`,
-          `3. Plants need nitrogen for their growth.`,
-          `4. We can see root nodules containing nitrogen in some plants.`,
-          `5. Nowadays people use nitrogen gas to fill the tires of their vehicles.`,
-          `6. Some compounds of nitrogen are used as explosives also.`,
-
-          `# Oxygen`,
-          `1. It can be tested with a piece of glowing splint, which relights in oxygen.`,
-          `2. All living things use oxygen for breathing.`,
-          `3. Oxygen is essential for burning.`,
-          `4. Oxygen cylinders are used in hospitals to enable the patients to breathe when they cannot breathe normally.`,
-          `5. Oxygen is used in gas welding.`,
-          `6. Mountaineers carry oxygen cylinders at high altitudes.`,
-          `7. Deep sea divers also carry oxygen cylinders along with them while diving deep into the sea.`,
-
-          `# Carbon dioxide`,
-          `1. It can be tested with lime water. The lime water changes from colourless to milky.`,
-          `2. Carbon dioxide helps plants in photosynthesis.`,
-          `3. It is used in fi re extinguishers.`,
-          `4. It is used in refrigerators as dry ice for cooling purposes.`,
-          `5. It is used to make plastics and polymers.`
-        ]
+        text: `# Importance of air in our daily life.
+1. Oxygen present in air is needed for respiration.
+2. We can speak and hear the sound only when there is air around.
+3. Air helps in the dispersal of seeds for plant reproduction.
+4. Monsoon and rain occurs due to the wind action.
+5. Air regulates the atmospheric temperature.
+The properties of all the gases present in Air.
+# Nitrogen
+1. It is used to fill up food packages to extend their shelf life.
+2. Liquid nitrogen is used to store living cells.
+3. Plants need nitrogen for their growth.
+4. We can see root nodules containing nitrogen in some plants.
+5. Nowadays people use nitrogen gas to fill the tires of their vehicles.
+6. Some compounds of nitrogen are used as explosives also.
+# Oxygen
+1. It can be tested with a piece of glowing splint, which relights in oxygen.
+2. All living things use oxygen for breathing.
+3. Oxygen is essential for burning.
+4. Oxygen cylinders are used in hospitals to enable the patients to breathe when they cannot breathe normally.
+5. Oxygen is used in gas welding.
+6. Mountaineers carry oxygen cylinders at high altitudes.
+7. Deep sea divers also carry oxygen cylinders along with them while diving deep into the sea.
+# Carbon dioxide
+1. It can be tested with lime water. The lime water changes from colourless to milky.
+2. Carbon dioxide helps plants in photosynthesis.
+3. It is used in fi re extinguishers.
+4. It is used in refrigerators as dry ice for cooling purposes.
+5. It is used to make plastics and polymers.`
       }
     },
     {
@@ -261,35 +252,27 @@ export default {
       id: '1200',
       data: {
         title: 'Air pollution',
-        text: [
-          `# Air pollution`,
-
-          `The atmospheric balance is disturbed by human activities The air carries soot, smoke, and other particles from car exhaust and power plants. These are the major contributors to air pollution.`,
-
-          `# Adverse effects of air pollution`,
-
-          `1. Global warming`,
-          `2. Formation of smog`,
-          `3. Acid rain`,
-          `4. Aerosol formation`,
-          `5. Depletion of ozone`,
-
-          `# Effects of air pollution on human beings`,
-
-          `1. Irritation in the eyes, nose and throat`,
-          `2. Wheezing, coughing and breathing problems`,
-          `3. Respiratory diseases`,
-          `4. Cardiovascular damage.`,
-          `5. Fatigue, headaches and anxiety.`,
-          `6. Nervous system damage.`,
-          `# Steps to check air pollution`,
-
-          `1. Alternative source of energy (E.g. Solar energy) should be used.`,
-          `2. Air filters should be used to prevent harmful gases mixing with air.`,
-          `3. Smoke emission test and certification of motor vehicles must be enforced.`,
-          `4. More trees should be planted to absorb carbon dioxide.`,
-          `Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energy, Wave Energy, Biofuels, Natural Gas, Geothermal Power, Wind Energy, Biomass Energy, Tidal Energy and Hydrogen Gas.`
-        ]
+        text: `# Air pollution
+The atmospheric balance is disturbed by human activities The air carries soot, smoke, and other particles from car exhaust and power plants. These are the major contributors to air pollution.
+# Adverse effects of air pollution
+1. Global warming
+2. Formation of smog
+3. Acid rain
+4. Aerosol formation
+5. Depletion of ozone
+# Effects of air pollution on human beings
+1. Irritation in the eyes, nose and throat
+2. Wheezing, coughing and breathing problems
+3. Respiratory diseases
+4. Cardiovascular damage.
+5. Fatigue, headaches and anxiety.
+6. Nervous system damage.
+# Steps to check air pollution
+1. Alternative source of energy (E.g. Solar energy) should be used.
+2. Air filters should be used to prevent harmful gases mixing with air.
+3. Smoke emission test and certification of motor vehicles must be enforced.
+4. More trees should be planted to absorb carbon dioxide.
+Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energy, Wave Energy, Biofuels, Natural Gas, Geothermal Power, Wind Energy, Biomass Energy, Tidal Energy and Hydrogen Gas.`
       }
     },
     {

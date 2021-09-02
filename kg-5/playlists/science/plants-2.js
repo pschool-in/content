@@ -10,15 +10,13 @@ export default {
       id: '100',
       data: {
         title: 'Plants',
-        text: [
-          `Like our body a plant also has many parts. The main parts of a plant include root, stem, leaf, flower, fruit and seed. Each part has a set of jobs to do to keep the plant healthy.`,
-          `Roots are found below the soil and it holds the plant firmly in its position. It absorbs the water and minerals from the soil. Sometimes it also stores food. Roots are of two main types: tap root and ﬁbrous root.`,
-          `The stem is the part that stays above the ground. A stem usually bears leaves, flowers and fruits. It distributes the water and minerals from the root to the leaves and flowers. The stem is the support system of the plant.`,
-          `The leaves grow out of the side of the stem. Their main function is to make food for the plant by the process known as photosynthesis. Also they help in removing any excess water via stomata and this process is known as transpiration.`,
-          `Flowers are the reproductive part of a plant. The flower has both female parts, called the pistil, and male parts, called the staemens. They work together to fertilize the plant and produce seeds.`,
-          `The fruit is a fleshy or dry ripened part of a plant, enclosing the seed or seeds.
-              The hard part inside the fruit is called seed. Most plants grow from seeds.`
-        ]
+        text: `Like our body a plant also has many parts. The main parts of a plant include root, stem, leaf, flower, fruit and seed. Each part has a set of jobs to do to keep the plant healthy.
+Roots are found below the soil and it holds the plant firmly in its position. It absorbs the water and minerals from the soil. Sometimes it also stores food. Roots are of two main types: tap root and ﬁbrous root.
+The stem is the part that stays above the ground. A stem usually bears leaves, flowers and fruits. It distributes the water and minerals from the root to the leaves and flowers. The stem is the support system of the plant.
+The leaves grow out of the side of the stem. Their main function is to make food for the plant by the process known as photosynthesis. Also they help in removing any excess water via stomata and this process is known as transpiration.
+Flowers are the reproductive part of a plant. The flower has both female parts, called the pistil, and male parts, called the staemens. They work together to fertilize the plant and produce seeds.
+The fruit is a fleshy or dry ripened part of a plant, enclosing the seed or seeds.
+The hard part inside the fruit is called seed. Most plants grow from seeds.`
       }
     },
     {
@@ -42,7 +40,7 @@ export default {
       }
     },
     {
-      label: 'Free floating vs Fixed rooted vs Submerged',
+      label: 'Free floating vs Fixed rooted',
       id: '300',
       type: 'group',
       data: {
@@ -54,7 +52,21 @@ export default {
           },
           {
             name: 'Fixed rooted',
-            text: 'lotus, watershield, lotus, water lily'
+            text: 'lotus, watershield, water lily'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fixed rooted vs Submerged',
+      id: '301',
+      type: 'group',
+      data: {
+        title: 'Classify the below plants into their respective type',
+        types: [
+          {
+            name: 'Fixed rooted',
+            text: 'lotus, watershield, water lily'
           },
           {
             name: 'Submerged',
@@ -173,11 +185,11 @@ export default {
       type: 'match',
       data: {
         text: `Root, Absorption
-              Stem, Support
-              Leaf, Photosynthesis
-              Flower, Reproduction
-              Seed, Germination`,
-        title: 'Match the things with their place in the environment'
+                Stem, Support
+                Leaf, Photosynthesis
+                Flower, Reproduction
+                Seed, Germination`,
+        title: 'Match the plant parts with their function'
       }
     },
     {
@@ -185,10 +197,11 @@ export default {
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
-        title: `*Fibrous (tap)* roots are developed from the base of the stem.
-              Avecinnia plants have roots *above (below)* the ground.
-              Trees such as peepal and banyan have very strong and thick stem called *trunk (wood)*.
-              The loss of water in the form of gas happens through the tiny pores in the leaves is called *transpiration (evaporation)*.`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `*Fibrous (tap)* roots are developed from the base of the stem.
+                Avecinnia plants have roots *above (below)* the ground.
+                Trees such as peepal and banyan have very strong and thick stem called *trunk (wood)*.
+                The loss of water in the form of gas happens through the tiny pores in the leaves is called *transpiration (evaporation)*.`
       }
     },
     {
@@ -196,11 +209,12 @@ export default {
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
-        title: `The soft and brightly colored part of a flower is called *petal (tepal)*.
-              The green part that lies under the petal and supports it is called *sepal (petal)*.
-              The middle of the flower has two parts called the *stamen (style)* and pistil.
-              The natural home of a plant is called its *habitat (niche)*.
-              Plants make suitable adjustment with their surroundings to meet their requirements. This is known as *adaptation (evolution)*.`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `The soft and brightly colored part of a flower is called *petal (tepal)*.
+                The green part that lies under the petal and supports it is called *sepal (petal)*.
+                The middle of the flower has two parts called the *stamen (style)* and pistil.
+                The natural home of a plant is called its *habitat (niche)*.
+                Plants make suitable adjustment with their surroundings to meet their requirements. This is known as *adaptation (evolution)*.`
       }
     },
     {
@@ -213,14 +227,14 @@ export default {
           {
             name: 'True',
             text: `Deserts get very less rainfall and experience high temperature.
-                  Leaves are changed to spines to reduce the loss of water.
-                  Needle like leaves help them to survive in cold conditions like snow.
-                  Plants in plains need to adapt to both dry conditions and extreme temperatures`
+                    Leaves are changed to spines to reduce the loss of water.
+                    Needle like leaves help them to survive in cold conditions like snow.
+                    Plants in plains need to adapt to both dry conditions and extreme temperatures`
           },
           {
             name: 'False',
             text: `Banyan, Peepal and Tamarind trees live less than hundred years.
-                  Mountain trees leaves are called frond`
+                    Mountain trees leaves are called frond`
           }
         ]
       }
@@ -230,8 +244,7 @@ export default {
       type: 'sequence',
       label: 'Words related to plants',
       commonData: {
-        title: 'connect the letter to create word',
-        lang: 'bn'
+        title: 'connect the letter to create word'
       },
       data: [`Plant, leaf, bud, flower, root, dessert, mountain, seed`]
     },
@@ -241,10 +254,10 @@ export default {
       type: 'match',
       data: {
         text: `Deserts, Cactus
-              Mountains, Pine
-              Plains, Teak
-              Coastal areas, Coconut
-              Trees, Neem`,
+                Mountains, Pine
+                Plains, Teak
+                Coastal areas, Coconut
+                Trees, Neem`,
         title: 'Match plants to the parts we eat'
       }
     },
@@ -303,11 +316,9 @@ export default {
       id: '1600',
       data: {
         title: 'Some more details on Plants',
-        text: [
-          `All living things need food. Photosynthesis is a process by which plants make their food using chlorophyll, water, carbon dioxide in the presence of sunlight.Plants are also referred as primary producers since they prepare food for themselves. Stems and branches of the plant take the prepared food from the leaves to other parts of the plants. Extra food is stored as starch in roots, stems, leaves ,fruits and in flowers.`,
-          `Plants are classiﬁed in many ways based on stems, life span, seeds, ﬂower and colour. Based on the production of flowers, plants are classified into flowering and nonflowering plants. Based on the period of life cycle plants are classified into Annuals, Biennials and Perennials.`,
-          `Based on the colour present in the plant, they are classified into Green and Nongreen plants.`
-        ]
+        text: `All living things need food. Photosynthesis is a process by which plants make their food using chlorophyll, water, carbon dioxide in the presence of sunlight.Plants are also referred as primary producers since they prepare food for themselves. Stems and branches of the plant take the prepared food from the leaves to other parts of the plants. Extra food is stored as starch in roots, stems, leaves ,fruits and in flowers.
+Plants are classiﬁed in many ways based on stems, life span, seeds, ﬂower and colour. Based on the production of flowers, plants are classified into flowering and nonflowering plants. Based on the period of life cycle plants are classified into Annuals, Biennials and Perennials.
+Based on the colour present in the plant, they are classified into Green and Nongreen plants.`
       }
     },
     {
@@ -444,9 +455,9 @@ export default {
       type: 'match',
       data: {
         text: `Pine, 400 years
-              Banyan, 300 years
-              Oak, 1500 years
-              Apple, 30 years`,
+                Banyan, 300 years
+                Oak, 1500 years
+                Apple, 30 years`,
         title: 'Match the trees with their life span'
       }
     },
@@ -455,10 +466,11 @@ export default {
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
-        title: `*Veins (lamina)* are branch out from the midrib.
-              *Petiole (sepal)*joins the leaf to the main stem.
-              *Stomata (leaf)* are used to exchange gases.
-              *Chlorophyll (anthocyanin)* is the green pigment in plants`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `*Veins (lamina)* are branch out from the midrib.
+                *Petiole (sepal)*joins the leaf to the main stem.
+                *Stomata (leaf)* are used to exchange gases.
+                *Chlorophyll (anthocyanin)* is the green pigment in plants`
       }
     },
     {
@@ -471,13 +483,13 @@ export default {
           {
             name: 'True',
             text: `Plants bearing flowers are flowering plants.
-                  Tomato is a fruit.
-                  Cycas is an exotic plant`
+                    Tomato is a fruit.
+                    Cycas is an exotic plant`
           },
           {
             name: 'False',
             text: `Rose is an autumn flower.
-                  Cauliflower is an edible leaf`
+                    Cauliflower is an edible leaf`
           }
         ]
       }
@@ -487,10 +499,11 @@ export default {
       label: 'Plants - Answer in one word ',
       type: 'fillupOptions',
       data: {
-        title: `Green pigment in plant that help in tapping light - *chlorophyll*
-              Process by which plants make food - *photosynthesis*
-              Part of plant that helps in exchange of gases - *stomata*
-              Leaves loose water by this process - *traspiration*`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Green pigment in plant that help in tapping light - *chlorophyll*
+                Process by which plants make food - *photosynthesis*
+                Part of plant that helps in exchange of gases - *stomata*
+                Leaves loose water by this process - *traspiration*`
       }
     },
     {
@@ -517,11 +530,11 @@ export default {
       type: 'match',
       data: {
         text: `Roots, Beetroot
-              Flowers, Clove
-              Fruits, Banana
-              Grains, Rice
-              Leaves, Cabbage
-              Stem, Sugarcane`,
+                Flowers, Clove
+                Fruits, Banana
+                Grains, Rice
+                Leaves, Cabbage
+                Stem, Sugarcane`,
         title: 'Match parts and their food'
       }
     },
@@ -578,16 +591,14 @@ export default {
       id: '3000',
       data: {
         title: 'Reproduction in Plants',
-        text: [
-          `#REPRODUCTION IN PLANTS`,
-          `Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).`,
-          `The main stages involved in sexual reproduction are as follows. Pollination- The transfer of pollen grains from the anther to stigma of a flower. Fertilization- When pollination is successful, the pollen joins the egg present in the ovary. The cell which results after fusion is called a zygote. Seed formation- After fertilization, the ovary swells and changes into a fruit. The seeds develop from the ovules.`,
-          `Flowers are not required for asexual reproduction method. It occurs through budding, fragmentation, vegetative propagation, and spore formation.`,
-          `#AGRICULTURE`,
-          `Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.`,
-          `Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.`,
-          `Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.`
-        ]
+        text: `#REPRODUCTION IN PLANTS
+Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).
+The main stages involved in sexual reproduction are as follows. Pollination- The transfer of pollen grains from the anther to stigma of a flower. Fertilization- When pollination is successful, the pollen joins the egg present in the ovary. The cell which results after fusion is called a zygote. Seed formation- After fertilization, the ovary swells and changes into a fruit. The seeds develop from the ovules.
+Flowers are not required for asexual reproduction method. It occurs through budding, fragmentation, vegetative propagation, and spore formation.
+#AGRICULTURE
+Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.
+Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.
+Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.`
       }
     },
     {
@@ -675,7 +686,7 @@ export default {
         types: [
           {
             name: 'Monocotyledon',
-            text: 'grass, palm,. orchid, lily, banana, wheat, rice'
+            text: 'grass, palm, orchid, lily, banana, wheat, rice'
           },
           {
             name: 'Dicotyledon',
@@ -727,9 +738,9 @@ export default {
       type: 'match',
       data: {
         text: `Anthocyanin, Purple
-              Carotenoid, Orange
-              Chlorophyll, Green
-              Astaxanthin, Blood red`,
+                Carotenoid, Orange
+                Chlorophyll, Green
+                Astaxanthin, Blood red`,
         title: 'Match the pigments with their respective colour'
       }
     },
@@ -738,12 +749,13 @@ export default {
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
-        title: `Neelakurinji that blossoms once in *12 (15)* years.
-              To attract the *insects (moth)* plants are bright in colour and produce smell in their flowers.
-              Plants which are pollinated by the moth and bats release their fragrance mostly at *night (noon)* and have colourless petals.
-              Pollination by *birds (bats)* is known as Ornithophily.
-              Earthworms help to *increase (decrease)* the amount of air and water that gets into the soil.
-              *Dragonfly (butterfly)* destroys the egg and larva of harmful insects and mosquitoes and prevents the spreading of diseases.`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Neelakurinji that blossoms once in *12 (15)* years.
+                To attract the *insects (moth)* plants are bright in colour and produce smell in their flowers.
+                Plants which are pollinated by the moth and bats release their fragrance mostly at *night (noon)* and have colourless petals.
+                Pollination by *birds (bats)* is known as Ornithophily.
+                Earthworms help to *increase (decrease)* the amount of air and water that gets into the soil.
+                *Dragonfly (butterfly)* destroys the egg and larva of harmful insects and mosquitoes and prevents the spreading of diseases.`
       }
     },
     {
@@ -756,40 +768,29 @@ export default {
           {
             name: 'True',
             text: `Man is also responsible for the dispersal of many fruits and seeds.
-                  Every seed has minute plant called the embryo.
-                  After fertilization, the ovary grows into a fruit and other parts of the flower fall off.
-                  The cell which results after fusion of the gametes is called a zygote`
+                    Every seed has minute plant called the embryo.
+                    After fertilization, the ovary grows into a fruit and other parts of the flower fall off.
+                    The cell which results after fusion of the gametes is called a zygote`
           },
           {
             name: 'False',
             text: `The embryo forms into a zygote.
-                  Androecium is the female reproductive part`
+                    Androecium is the female reproductive part`
           }
         ]
       }
-    },
-    {
-      id: '3900',
-      type: 'sequence',
-      label: 'Words related to plants',
-      commonData: {
-        title: 'connect the letter to create word'
-      },
-      data: [
-        `Androecium, Gynoecium, Anemochory, Hydrochory, Zoochory`,
-        `Autochory, Anemophily, Hydrophily, Entamophily`
-      ]
     },
     {
       id: '4000',
       label: 'Plants - Answer in one word ',
       type: 'fillupOptions',
       data: {
-        title: `Female reproductive organ - *gynoecium*
-              Male reproductive organ - *androceium*
-              Pollination through air - *anemophily*
-              Pollination through water - *hydrophily*
-              Pollination through animals - *entamophily*`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Female reproductive organ - *gynoecium*
+                Male reproductive organ - *androceium*
+                Pollination through air - *anemophily*
+                Pollination through water - *hydrophily*
+                Pollination through animals - *entamophily*`
       }
     },
     {
@@ -797,12 +798,13 @@ export default {
       label: 'Plants - Answer in one word -2 ',
       type: 'fillupOptions',
       data: {
-        title: `Seed with single cotyledon - *monocotyledon*
-              Seed with two cotyledons - *dicotyledon*
-              Seed dispersal by wind - *anemochory*
-              Seed dispersal by water - *hydrochory*
-              Seed dispersal by animals - *zoochory*
-              Self dispersal of seeds - *autochory*`
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Seed with single cotyledon - *monocotyledon*
+                Seed with two cotyledons - *dicotyledon*
+                Seed dispersal by wind - *anemochory*
+                Seed dispersal by water - *hydrochory*
+                Seed dispersal by animals - *zoochory*
+                Self dispersal of seeds - *autochory*`
       }
     },
     {
@@ -811,10 +813,10 @@ export default {
       type: 'match',
       data: {
         text: `Earthworm, Vermicompost
-              Birds, Ornithophily
-              Coconut, Dispersal by water
-              Bee, Honey
-              Dragonfly, Destroys larvae`,
+                Birds, Ornithophily
+                Coconut, Dispersal by water
+                Bee, Honey
+                Dragonfly, Destroys larvae`,
         title: 'Match the following'
       }
     },
@@ -824,10 +826,10 @@ export default {
       type: 'match',
       data: {
         text: `Roots, anchoring
-              Flowers, reproduction
-              Fruits, production of seeds
-              Leaves, food factory
-              Stem, support`,
+                Flowers, reproduction
+                Fruits, production of seeds
+                Leaves, food factory
+                Stem, support`,
         title: 'Match the following'
       }
     },

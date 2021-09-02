@@ -649,6 +649,11 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Animals 2',
+    slug: 'animals-2',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Environment',
     slug: 'environment',
     grade: 'g3, g4, g5'

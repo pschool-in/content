@@ -11,63 +11,63 @@ export default {
       data: {
         title: 'Water',
         text: [
-          'Water is one of the most important resources on Earth. All living things like small organisms, plants and animals need water to survive. People use water for various purposes. Rain is one of the main sources of water.',
+          'Water is one of the most important resources on Earth. All living things like insects, plants and animals need water to survive. People use water for various purposes and rain is one of the main sources.',
           '# Potable Water',
-          'Drinking water is known as potable water. Potable water is water that is good to drink and useful for food preparation.',
-          'Potable Water should be:',
-          '1. free from dangerous chemicals.',
+          'Drinking water is known as potable water. It is healthy for drinking and cooking.',
+          'Potable Water is:',
+          '1. free from harmful chemicals.',
           '2. transparent.',
           '3. odourless and colourless.',
           '4. free from bacteria which cause diseases.',
           '# Sources of Drinking Water',
-          'Water is available in many natural sources, but not all the water sources are suitable for drinking. Water should be boiled to kill the germs in it, and only then it is suitable for drinking. A few sources of water are rain, well, river, lake and stream.',
+          'Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.',
           '# Saving Water',
-          'Only 3% of the water in the entire Earth is freshwater. Water is precious. So, we should never waste water.',
-          'Some methods to prevent wastage of water:',
-          '1. Never allow water to overflow from buckets.',
-          '2. Wash fruits and vegetables in a bowl of water and not under running tap water.',
-          '3. Always close the taps while brushing the teeth.',
-          '4. Use left over water in your water bottle to water a potted plant.',
-          '5. Turn off the tap after each use.',
+          'Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.',
+          'Some ways to prevent wastage of water:',
+          '1. Never let water overflow from buckets.',
+          '2. Wash fruits and vegetables in a bowl and not under running tap.',
+          '3. Always close the taps while brushing your teeth.',
+          '4. Pour left over water in a plant.',
+          '5. Close the tap properly after use.',
           '6. Use a sprinkler to water the garden.',
           '# Conservation of Water Bodies',
-          'All the water that we get comes from rain. When it rains, some water flows over the ground giving rise to streams and rivers. Some water gets collected in low lying areas such as ponds and lakes. The flow of the river is blocked by building a dam across it. Some rainwater seeps into the ground as underground water.',
+          'Raining rises streams and rivers. Some water gets collected in low lying areas like ponds and lakes. The flow of rivers is blocked by building a dam. Some rainwater seeps into the ground as underground water.',
           '# Lake',
-          'It is a large area filled with water surrounded by land. It is usually a part of a river or some other water source.',
+          'It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.',
           '# Pond',
-          'A pond is a body of stagnant water, either natural or artificial; it is smaller than a lake.',
+          'A pond is a body of stagnant water, either natural or artificial and is smaller than a lake.',
           '# Tanks',
-          'A water tank is a container for storing water for our daily use.',
+          'A water tank is a container that stores water for our daily use.',
           '# Methods to Conserve Water Bodies',
           '1. Deepening of ponds and lakes',
-          '2. Plant trees at the bank of the lake and pond',
+          '2. Plant trees at the bank of water bodies',
           '3. Reduce water pollution',
           '4. Avoid digging too many wells in a region',
           '# Water borne diseases',
-          'Stagnant water can become a breeding ground for the mosquitoes that transmit diseases. Malaria and Dengue Fever are the main dangers of stagnant water.',
+          'Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue Fever.',
           'Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.',
           '# Experiment',
           'Let us assemble a Simple Pump',
           { type: 'img', src: 'img/science/waterPumpExperiment.png' },
           '# Materials needed',
-          'Any hollow tube – PVC, metal or even a long papaya stem',
+          'A hollow tube – PVC, metal or even a long papaya stem',
           '# Procedure',
-          'Hold the tube with your left hand and move it up and down into a bucket of water. Keep the palm of your right hand on the top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.',
+          'Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.',
           '# Do you know?',
           '1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.',
-          '2. World Water Day is observed on 22nd March.'
+          '2. World Water Day is on 22nd March.'
         ]
       }
     },
     {
       label: 'Choose the best Answer - Water',
       id: '200',
-      type: 'mcq',
+      type: 'MCQ',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: ' Which is the main source of water for us?',
+            qText: ' Which is the main source of water?',
             options: 'Rain,Lake,Sea'
           },
           {
@@ -76,16 +76,16 @@ export default {
             options: '3%,0.3%,30%'
           },
           {
-            qText: 'By __________ water, we can kill the germs.',
+            qText: 'By __________ water, we can kill its germs.',
             options: 'boiling,cooling,filtering'
           },
           {
             qText: 'Which of these is not true?',
             options:
-              'We should always waste water, Plants and animals need water too,  We should use water carefully,  Water is precious'
+              'We should always waste water, Plants and animals need water,  We should use water carefully,  Water is precious'
           },
           {
-            qText: 'Where does the rain water go after falling on the ground?',
+            qText: 'Where does the rain water go?',
             options:
               '* Seeps into the ground, * Plants absorb the water, * Mingles with sea and ocean, * Mixes with lake and pond'
           },
@@ -113,7 +113,7 @@ export default {
           }
         ]
       },
-      slug: 'mcq',
+      slug: 'MCQ',
       editable: true
     },
     {
@@ -142,16 +142,16 @@ Ice Cream, Water, Ice, Vapour`
           {
             name: 'True',
             text: `Saving water is our duty.
-Always close the water tap while brushing teeth.
-Planting more trees leads to rainfall.
+Always close the tap while brushing.
+Planting more trees lead to rainfall.
 It is necessary to collect rain water.`
           },
           {
             name: 'False',
             text: `Living things do not need water.
-A tank is a large area to store water compared to reservoirs.
-To save water, we should wash our vehicles everyday.
-We can bathe in shower to save water.`
+A tank is a larger than a reservoir.
+We should wash our vehicles everyday.
+We should bathe in shower to save water.`
           }
         ]
       }
@@ -251,7 +251,8 @@ Well, Ground water`,
         Our body is 70% made of water. Its doesn't mean that it has flowing water within. It means that 70% functioning of our body is dependent on water. For example:
         1. Water keeps our blood thin.
 2. It helps to digest our food.
-3. Urination of waste materials. Therefore, we must have sufficient water in our body for the easy performance of these functions. In case there's not enough water, we feel thirsty.
+3. Urination of waste materials. 
+Therefore, we must have sufficient water in our body for the easy performance of these functions. In case there's not enough water, we feel thirsty.
 # Fun Fact!
 There are some plants like Bulrushes, Lotus, Water chestnut, Hyacinth and Spider plant that grow only in water. If we try to grow them in soil, they simply don't.
 # Importance of water
@@ -288,7 +289,7 @@ Water is very important in our lives!
         text: `Plants that grow in water are called *aquatic*.
 Only *3%* of the earth's water is fresh.
 Only *0.5%* of the fresh water is available to us.
-Our body is has *70%* of water in it.
+Our body has *70%* of water in it.
 We should drink *12* glasses of water everyday.
 *Whale* is the largest animal.`
       }
@@ -305,7 +306,7 @@ We should drink *12* glasses of water everyday.
         Some water gets deposited under the ground and we usually extract it through wells, hand-pumps and bore-wells.
         # Fun fact!
         Dams are built to slower the flow of water, to save it and to generate energy.
-        Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from he roofs of the house and gets deposited in the tank.
+        Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from the roofs of the house and gets deposited in the tank.
         # How rivers are formed?
         When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.
         `
@@ -320,12 +321,12 @@ We should drink *12* glasses of water everyday.
         types: [
           {
             name: 'Natural',
-            text:
-              'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs'
+            text: 
+            'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
           },
           {
             name: 'Man-made',
-            text: 'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
+            text: 'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs' 
           }
         ]
       }
@@ -359,7 +360,9 @@ Gas/ Vapour: Formed at high temperatures.
         types: [
           {
             name: 'True',
-            text: `Water is transparent.`
+            text: `Water is transparent.
+            Natural water bodies consist of living organisms.
+            Starfish and Seahorse are aquatic animals.`
           },
           {
             name: 'False',
