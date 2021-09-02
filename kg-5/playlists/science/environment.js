@@ -105,7 +105,7 @@ export default {
         text: `Living things bring changes in *non-living things* too.
         Living things need *food* to grow.
         Humans used to weave *clothes* using cotton, silk, wool.
-        Some animals used to hunt and eat other animal's *flesh*
+        Some animals used to hunt and eat other *animal's flesh*
         For survival, living things take their needs from the *environment*.`
       }
     },
@@ -385,7 +385,7 @@ Animals and birds can be categorized into two types. They are domestic and wild.
       type: 'fillupOptions',
       data: {
         text: `Cattle dung is used in *plastering (constructing)* the mud houses.
-          Change in season will affect * living  (non-living) things*.
+          Change in season will affect * living things (non-living things)*.
           Plants prepare their food by *photosynthesis (Absorption)*.
           We depend upon *Agriculture (Weaving)* for our food.
           The *Shearing (Ginning)* process involved in obtaining the wool from sheep.`,
