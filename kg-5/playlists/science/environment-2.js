@@ -14,9 +14,9 @@ export default {
 Everything that we see and many many things that we can't see are present in our surroundings and are together known as the environment. For example sunlight, air, water, food, plants, animals, microbes, dust, insects etc.
 # The Biosphere
 The zone of life where all the life forms interact is called biosphere. It basically includes everything the environment has. It is sub-divided as;
-Lithosphere: all the land of the environment.
-Hydrosphere: all the major, minor and minute water-bodies.
-Atmosphere: envelope of air around the earth.
+1. Lithosphere: all the land of the environment.
+2. Hydrosphere: all the major, minor and minute water-bodies.
+3. Atmosphere: envelope of air around the earth.
 # The atmosphere
 Higher the level above the ground, lesser the oxygen. It includes several other gases like nitrogen, carbondioxide, water vapour etc. Some layers of the atmosphere are:
 1. Troposphere: extends 13km from the earth's surface.

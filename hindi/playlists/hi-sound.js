@@ -508,13 +508,13 @@ scalpel| छुरी`
           audio: 'hi-tools.mp3',
           audioOffset: 0,
           words:
-            'axe, balance, black-board, hose, plier,  microscope, needle, oven, plough, saw'
+            'axe, balance, blackboard, hose, plier,  microscope, needle, oven, plough, saw'
         },
         {
           audio: 'hi-tools.mp3',
           audioOffset: 20,
           words:
-            'spade, stethoscope, telescope, testube, thermometer, trowel, compass, easel, hacksaw, scalpel '
+            'spade, stethoscope, telescope, testtube, thermometer, trowel, compass, easel, hacksaw, scalpel '
         }
       ]
     }
