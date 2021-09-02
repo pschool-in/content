@@ -152,7 +152,7 @@ export default {
       type: 'passage',
       data: {
         title: 'Different types of Animals, Insects, and Birds',
-        text: `Our mother nature is full of diversity. On our planet, there are different types of animals, birds, and insects with different colors, shapes, sizes. All of them will move in different ways. Moreover, every type has its unique characteristics. Many animals live on land and some reside in water. Some live both in water and land. Birds will be there in land and air. Some birds will be there in both water and land. Birds and animals are grouped in different ways. Mammal is one of the most important categories. Some kinds of animals/ birds will come under mammals, whereas some of them are not mammals. The mammals usually give the milk to their young owns, for example; cows, goats, pigs, rats, dogs, etc. Usually, mammals have presence of mammary glands and they will have hair in their body.
+        text: `Our planet is full of diversity. Moreover, every type has its unique characteristics. Some animals live on land; some in water; some live both in water and land; birds in land and air; some birds in water. Mammals are one of the most important ones. They usually give the milk to their young ones like cows, goats, pigs, rats, dogs, etc. They have mammary glands and hair on their body.
           # Different Sizes
           Animals like cows, elephants, horses, goats, etc., are there in different types of sizes. Some are small, some are big and some are medium-sized animals. For example Elephants, giraffes are big size animals. Dogs, goats are medium-sized animals. Squirrels, rats are small-sized animals. Insects are also tiny ones, where they have their unique characteristics.
           # Different Colors
