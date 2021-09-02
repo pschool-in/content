@@ -9,7 +9,7 @@ export default {
       type: 'passage',
       id: '100',
       data: {
-        title: 'Our Need for Air',
+        title: 'Directions and maps',
         text: [
           `How to find the directions?
 
