@@ -508,7 +508,7 @@ scalpel| छुरी`
           audio: 'hi-tools.mp3',
           audioOffset: 0,
           words:
-            'axe, balance, black-board, hose, plier,  microscope, needle, oven, plough, saw'
+            'axe, balance, blackboard, hose, plier,  microscope, needle, oven, plough, saw'
         },
         {
           audio: 'hi-tools.mp3',
