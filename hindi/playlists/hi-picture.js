@@ -52,8 +52,8 @@ export default {
          wolf| भेड़िया| _ड़िया| भे, दी, फी, दै
          cockroach| तिलचट्टा| _लचट्टा| ति, श्री, दी, तौ 	
          lizard| छिपकली| _पकली| छि, ठै, धु, यी 
-         rabbit| खरगोश| _रगोश| ख, तै, णी, का`	
-                                ]
+         rabbit| खरगोश| _रगोश| ख, तै, णी, का`
+      ]
     },
     {
       type: 'completeWord',
@@ -64,7 +64,7 @@ export default {
         lang: 'hi'
       },
       data: [
-              `crow| कौवा |_वा|  कौ, वू, यु, षि 
+        `crow| कौवा |_वा|  कौ, वू, यु, षि 
       dove| कबूतर | _बूतर | क , षि,  डि, ब
       duck| बतख़ | _तख़| ब , टौ, त , णा
       hen| मुर्गी | _र्गी | मु , त्रि,  क्षु , वू 
@@ -74,25 +74,25 @@ export default {
       chick| चूजा| _जा| चू, ढि, ठै, फि
       crane| सारस| _रस| सा, तै, यु, सी
       vulture| गिद्ध| _द्ध| गि, णा, यै, फी`,
-      
-      `flamingo| मराल |_राल | म, णू, थो, टी
+
+        `flamingo| मराल |_राल | म, णू, थो, टी
       kingfisher| रामचिरैया| _मचिरैया| रा, जु, खं, तौ	
       myna| मैना | _ना | मै, तै, यै, गि
       ostrich| शुतरमुर्ग| _तरमुर्ग| शु, फि, तै, खि 
       owl| उल्लू| _ल्लू| उ, णू, थो, टी
       rooster| मुर्गा| _र्गा| मु, घ, झी, जु
       woodpecker| कठफोड़वा| _ठफोड़वा| क, त, यै, घ`
-]
+      ]
     },
     {
-        type: 'completeWord',
-        label: 'सब्जियां & फल ',
-        id: 'fruits',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
+      type: 'completeWord',
+      label: 'सब्जियां & फल ',
+      id: 'fruits',
+      commonData: {
+        images: 'custom',
+        lang: 'hi'
+      },
+      data: [
         `apple| सेब | _ब| से, घि, खे, च
         grapes| अंगूर | _गू,र | अं, जा, टा, ढ
         banana| केला |_ला| के, तं, को, डं
@@ -152,59 +152,55 @@ export default {
         peanut| मूंगफली| _गफली| मूं, आ, ई, तो
         raddish| मूली| _ली| मू, मु, तु, खौ
         spinach| पालक| _लक| पा, कु, खू, झो`
-]
-      },
+      ]
+    },
 
     {
       type: 'completeWord',
       label: 'फूल',
       id: 'flowers',
-      commonData: {
+      data: {
         images: 'custom',
-        lang: 'hi'
-      },
-      data: [
-        `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
+        lang: 'hi',
+        text: `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
         lotus| कमल| _मल| क, लू, ही, त्रु	
         sunflower| सूरजमुखी | _रजमुखी| सू, त्रु, लू , भो	
         marigold| गेंदा | _दा | गें, सि, सै, नो	
         hibiscus| हिबिस्कुस | _बिस्कुस| हि, ही, त्रु, भो	
         jasmine| चमेली| _मेली | च, त्रु, सै, सि`
-      ]
+      }
     },
     {
-        type: 'completeWord',
-        label: 'वाहनों',
-        id: 'vehicles',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
-          `aeroplane| विमान | _मान| वि, ळी, म, है 
-    boat| नाव | _व | ना, हे, शं, पू
-    car| गाड़ी | _ड़ी | गा, यी, हौ, नि	
-    cycle| चक्र | _क्र | च, खु, ये, हा 
-    motorbike| मोटरसाइकिल| _टरसाइकिल|मो, क, छा, जो		
-    ship| समुंद्री जहाज | _मुंद्रीजहाज | स, झ, छे, झं	 
-    train| रेल गाडी| _लगाडी| रे, झ, झू, खि
-    ambulance| रोगीवाहन | _गीवाहन |रो, गी, गे, जी
-    cart| हाथगाडी | _थगाडी | हा, अ,  खि, ळी
-    excavator| खोदकमशीन| _ दकमशीन | खो, झी, क,अ
-    fire-engine|दमकल | _मकल| द, खि, गा, कु`
-        ]
-      },
+      type: 'completeWord',
+      label: 'वाहनों',
+      id: 'vehicles',
+      data: {
+        images: 'custom',
+        lang: 'hi',
+        text: `aeroplane| विमान | _मान| वि, ळी, म, है 
+        boat| नाव | _व | ना, हे, शं, पू
+        car| गाड़ी | _ड़ी | गा, यी, हौ, नि	
+        cycle| चक्र | _क्र | च, खु, ये, हा 
+        motorbike| मोटरसाइकिल| _टरसाइकिल|मो, क, छा, जो		
+        ship| समुंद्री जहाज | _मुंद्रीजहाज | स, झ, छे, झं	 
+        train| रेल गाडी| _लगाडी| रे, झ, झू, खि
+        ambulance| रोगीवाहन | _गीवाहन |रो, गी, गे, जी
+        cart| हाथगाडी | _थगाडी | हा, अ,  खि, ळी
+        excavator| खोदकमशीन| _ दकमशीन | खो, झी, क,अ
+        fire-engine|दमकल | _मकल| द, खि, गा, कु`
+      }
+    },
 
-      {
-        type: 'completeWord',
-        label: 'मकान',
-        id: 'house',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
-                `house| मकान| _कान|  म, कि, घा, खू
+    {
+      type: 'completeWord',
+      label: 'मकान',
+      id: 'house',
+      commonData: {
+        images: 'custom',
+        lang: 'hi'
+      },
+      data: [
+        `house| मकान| _कान|  म, कि, घा, खू
         table| मेज| _ज| मे, गु, झे, णु	
         bed| बिस्तर| _स्तर| बि, खू, णौ, ठी
         candle| मोमबत्ती| _मबत्ती| मो, डे, ठी, झू	
@@ -214,69 +210,63 @@ export default {
         boy| लड़का|  _ड़का| ल, ठा, झौ, कि
         girl| लड़की| _ड़की| ल, चू, का,गु	
         man| आदमी | _दमी | आ, डि, ची, डे`,
-        
+
         `woman| स्री| _री| स्, ठु, णा, तो
         ball| गेंद| _द| गें, ध, थी, ये
         glasses| ऐनक| _नक|  ऐ, भ, मा, यि
         clock| घड़ी | _ड़ी | घ, तू, ठ, थ`
-        ]                
-      },
-      {
-        type: 'completeWord',
-        label: 'विद्यालय',
-        id: 'school',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
-          `eraser| रबड़| _बड़ | र, खा, कौ, घै	
+      ]
+    },
+    {
+      type: 'completeWord',
+      label: 'विद्यालय',
+      id: 'school',
+      data: {
+        images: 'custom',
+        lang: 'hi',
+        text: `eraser| रबड़| _बड़ | र, खा, कौ, घै	
         pen| कलम|  _लम| क, घै, थो, दी
         ruler| मापन| _पन|  मा, थौ, घै, थी	
         scissors| कैंची| _ची| कैं, थी, ता, दी
         sharpener| पेंसिल ताराश| _सिल ताराश| पें, घै, खा, कौ	
         book| किताब | _ताब | कि, फे, णू, घो	
         crayons| कडियापेंसिल| _डियापेंसिल | क, घि, त, झो`
-        ]
-      },
-      {
-        type: 'completeWord',
-        label: 'रसोईघर',
-        id: 'kitchen',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
-                `stove| चूल्हा| _ल्हा |चू, चा, चे, चै	 
+      }
+    },
+    {
+      type: 'completeWord',
+      label: 'रसोईघर',
+      id: 'kitchen',
+      data: {
+        images: 'custom',
+        lang: 'hi',
+        text: `stove| चूल्हा| _ल्हा |चू, चा, चे, चै	 
         fork| कांटा| _टा |कां, कै, को, कौ
         knife| छुरी| _री| छु, छा, छि, छे	
         pan| कड़ाही| _ड़ाही |क, कि, की, कु	
         spoon | चम्मच| _म्मच| च, चू, चा, चे
         pot| मटका| _टका |म, मू,	मे, मै
         butter| मक्खन| _क्खन| म, मा, मि, मी`
-        ]
-},
-        {
+      }
+    },
+    {
       type: 'completeWord',
       label: 'शरीर के अंग',
       id: 'bodyparts',
-      commonData: {
+      data: {
         images: 'custom',
-        lang: 'hi'
-      },
-      data: [
-        `ear| कान | _न| का, हू, क्षौ, त्रि	 
-  eye| आंख | _ख| आं, य, भि, मु  
-  foot| टांग | _ग|  टां, बा, क्षौ, धं
-  hair| केश | _श|  के, यि, त्रै, मा	 
-  hand| हाथ | _थ| हा , भि, मू , त्रौ 
-  mouth| मुंह | _ह|  मुं, नि, क्षै, लि	
-  nose| नाक | _क |  ना, मै, त्रा, क्षं 
-  tooth| दांत | _त| दां, भी, क्षा, मु`
-      ]
+        lang: 'hi',
+        text: `ear| कान | _न| का, हू, क्षौ, त्रि	 
+        eye| आंख | _ख| आं, य, भि, मु  
+        foot| टांग | _ग|  टां, बा, क्षौ, धं
+        hair| केश | _श|  के, यि, त्रै, मा	 
+        hand| हाथ | _थ| हा , भि, मू , त्रौ 
+        mouth| मुंह | _ह|  मुं, नि, क्षै, लि	
+        nose| नाक | _क |  ना, मै, त्रा, क्षं 
+        tooth| दांत | _त| दां, भी, क्षा, मु`
+      }
     },
-   
+
     {
       type: 'completeWord',
       label: 'उपकरण',
@@ -307,23 +297,23 @@ export default {
         scalpel| छुरी | _री| छु, तु, चि, गु`
       ]
     },
-      
+
     {
-        type: 'completeWord',
-        label: 'चित्र और नाम',
-        id: 'others',
-        commonData: {
-          images: 'custom',
-          lang: 'hi'
-        },
-        data: [
-               `sun| रवि| _वि| र, कि, ते, छा
+      type: 'completeWord',
+      label: 'चित्र और नाम',
+      id: 'others',
+      commonData: {
+        images: 'custom',
+        lang: 'hi'
+      },
+      data: [
+        `sun| रवि| _वि| र, कि, ते, छा
      moon| चांद| _ द| चां, छी, टा, झा		
      rain| वर्षा| _र्षा|  व, टा, णू, ते	
      star| सितारा| _तारा|  सि, डा, घू, छि
      milk| दूध| _ध| दू, टु, णी, णो	
      ring| अंगूठी |_गूठी |  अं, णु, थी, गो`,
-  
+
         `bone| हड्डी| _ड्डी | ह, खे, ट, तं
      bell| घंटी| _टी| घं, झो, गो, ड 
      bird| चिड़िया| _ड़िया | चि, कि, झि, ता
@@ -334,16 +324,16 @@ export default {
      fruits|  फल|  _ल| फ, चु, टी, झि
      king|  राजा|  _जा|  रा, गा, कि, चं
      kite| पतंग| _तंग|  प, बै, नि, णे`,
-  
+
         `ladder|  सीढ़ी |  _ढ़ी | सी, दी, ती, ढू
      leaf| पत्ता | _त्ता | प, टा, ती, खी
      rishi|  ऋषि|  _षि|  ऋ, मि, डो, टि	
      wheel| पहिया| _हिया| प, ब, भि, बै,
      whistle| सीटी| _टी|  सी, णू, घी, था	
      world| दुनिया| _निया | दु, टा, णू, दी`
-           ]
-      },
-     
+      ]
+    },
+
     {
       id: 'match-animals',
       type: 'match',
@@ -359,31 +349,31 @@ export default {
         ब, goat
         भे, sheep
         घो, horse`,
-        
-         `सु, pig
+
+        `सु, pig
         हा, elephant
         शे, lion
         बं, monkey
         बा, tiger`,
-        
+
         `द, hippo
         गैं, rhino
         लो, fox
         म, crocodile
         धा, zebra`,
-        
+
         `भा, bear
         ऊं, camel
         हाँ, shark
         ति, whale
         म, fish`,
-        
+
         `में, frog
         के, crab
         स, snake
         गि, squirrel
         क, tortoise`,
-        
+
         `चू, rat
         दु, ant
         म, fly
@@ -403,19 +393,19 @@ export default {
         छि, lizard
         ख, rabbit`
       ]
-},
+    },
 
-        {
-         id: 'match-birds',
-         type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+    {
+      id: 'match-birds',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-         },
-        data: [
-       ` कौ, crow
+      },
+      data: [
+        ` कौ, crow
         क, dove
         ब, duck
         मु, hen
@@ -433,50 +423,49 @@ export default {
         उ, owl
         मु, rooster
         क, woodpecker`
-                ]
-        },
+      ]
+    },
 
-        {
-        id: 'match-fruits',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+    {
+      id: 'match-fruits',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-        },
-        data: [
+      },
+      data: [
         `से, apple
 अं, grapes 
 के, banana
 अ, guava
-क, jackfruit`,
+क, jackfruit
+ख, dates`,
 
         `आ, mango
 सं, orange
 प, papaya
 अ, pineapple
-अ, pomegranate`,
+त, watermelon`,
 
-        `त, watermelon
-अं, fig
+        `अं, fig
 श, custard-apple
 बे, plum
-ख, dates
+अ, pomegranate
 ख, muskmelon`
-                ]
-        },
-        {
-         id: 'match-vegetables',
-         type: 'match',
-        label: 'चित्र से मिलाओ',
-       commonData: {
-         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
-         rightImgType: 'custom',
-         big: true
-          },
-        data: [
-
+      ]
+    },
+    {
+      id: 'match-vegetables',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
+        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
         `गा, carrot
 चु, beetroot
 प्, onion
@@ -487,10 +476,10 @@ export default {
 गो, cauliflower
 म, corn
 खी, cucumber
-ल, garlic`,
+क, pumpkin`,
 
         `अ, ginger
-क, pumpkin
+ल, garlic
 बा, almond
 फ, beans
 क, bitter-gourd`,
@@ -511,37 +500,35 @@ export default {
 मूं, peanut
 मू, raddish
 पा, spinach`
-                ]
-        },
-        {
-         id: 'match-flowers',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+      ]
+    },
+    {
+      id: 'match-flowers',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      data: {
+        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        rightImgType: 'custom',
+        big: true,
+        text: `गु, rose
+        क, lotus
+        सू, sunflower
+        गें, marigold
+        हि, hibiscus
+        च, jasmine`
+      }
+    },
+    {
+      id: 'match-vehicles',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-           },
-        data: [
-        `गु, rose
-क, lotus
-सू, sunflower
-गें, marigold
-हि, hibiscus
-च, jasmine`
-          ]
-        },
-        {
-        id: 'match-vehicles',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
-        rightImgType: 'custom',
-        big: true
-          },
-        data: [
-                 `वि, aeroplane
+      },
+      data: [
+        `वि, aeroplane
                 ना, boat
                 गा, car
                 च, cycle
@@ -552,19 +539,19 @@ export default {
 हा, cart
 खो, excavator
 द, fire-engine`
-         ]
-        },
+      ]
+    },
 
-        {
-        id: 'match-house',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+    {
+      id: 'match-house',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-         },
-        data: [
+      },
+      data: [
         `म, house
 मे, table
 बि, bed
@@ -581,82 +568,79 @@ export default {
 गें, ball
 ऐ, glasses
 घ, clock`
-         ]
-        },
-        {
-        id: 'match-school',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+      ]
+    },
+    {
+      id: 'match-school',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-         },
-        data: [
-
+      },
+      data: [
         `र, eraser
 क, pen 
 मा, ruler
-ब, schoolbag
-कैं, scissors
+ब, schoolbag`,
+
+        `कैं, scissors
 पें, sharpener 
 कि, book
 क, crayons`
-               ]
-        },
-        {
-        id: 'match-kitchen',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+      ]
+    },
+    {
+      id: 'match-kitchen',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-         },
-        data: [
-
-        `चू, stove
+      },
+      data: [
+        `चू , stove
 कां, fork
 छु, knife
 त, pan
 च, spoon
-म, pot
-म, butter`
-    ]
-        },
-        {
-       id: 'match-bodyparts',
-       type: 'match',
-       label: 'चित्र से मिलाओ',
-       commonData: {
-       title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+म, pot`
+      ]
+    },
+    {
+      id: 'match-bodyparts',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
+        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-         },
-        data: [
+      },
+      data: [
         `का, ear
         आं, eye
         टां, foot
         के, hair`,
 
-                `हा, hand
+        `हा, hand
         मुं, mouth
         ना,nose
         दां, tooth`
-                ]
-        },
+      ]
+    },
 
-        {
-        id: 'match-tools',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+    {
+      id: 'match-tools',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-          },
-        data: [
-
+      },
+      data: [
         `कु, axe
 त, balance
 श्, blackboard 
@@ -669,29 +653,28 @@ export default {
 कु, spade
 दू, telescope`,
 
-`प, testube 
+        `प, testube 
 ता, thermometer
 क, trowel
-टे, awl 
-कु, compass`,
+टे, awl `,
 
-`चि, easel
+        `कु, compass
+        चि, easel
 लो, hacksaw
 छु, scalpel`
-           ]
-        },
-       
-        {
-        id: 'match-others',
-        type: 'match',
-        label: 'चित्र से मिलाओ',
-        commonData: {
+      ]
+    },
+
+    {
+      id: 'match-others',
+      type: 'match',
+      label: 'चित्र से मिलाओ',
+      commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
         big: true
-          },
-        data: [
-
+      },
+      data: [
         `र, sun
 चां, moon
 व, rain
@@ -708,10 +691,10 @@ export default {
 पां, five
 खा, food
 फ, fruits
+प, kite
 रा, king`,
 
-        `प, kite
-सी, ladder 
+        `सी, ladder 
 प, leaf
 ऋ, rishi
 प, wheel
