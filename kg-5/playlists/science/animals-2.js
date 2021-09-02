@@ -594,7 +594,6 @@ export default {
         label: 'Words related to Animal world',
         commonData: {
           title: 'connect the letter to create word',
-          lang: 'bn'
         },
         data: [
           `NECTAR , DOVE , INCISORS , CANINES , PREY`,
@@ -831,7 +830,6 @@ export default {
         label: 'Words related to Animal world',
         commonData: {
           title: 'connect the letter to create word',
-          lang: 'bn'
         },
         data: [`PRIDE , THORAX , DIURNAL , FLOCK , TRUNK`]
       },
