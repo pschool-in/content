@@ -251,7 +251,8 @@ Well, Ground water`,
         Our body is 70% made of water. Its doesn't mean that it has flowing water within. It means that 70% functioning of our body is dependent on water. For example:
         1. Water keeps our blood thin.
 2. It helps to digest our food.
-3. Urination of waste materials. Therefore, we must have sufficient water in our body for the easy performance of these functions. In case there's not enough water, we feel thirsty.
+3. Urination of waste materials. 
+Therefore, we must have sufficient water in our body for the easy performance of these functions. In case there's not enough water, we feel thirsty.
 # Fun Fact!
 There are some plants like Bulrushes, Lotus, Water chestnut, Hyacinth and Spider plant that grow only in water. If we try to grow them in soil, they simply don't.
 # Importance of water
@@ -288,7 +289,7 @@ Water is very important in our lives!
         text: `Plants that grow in water are called *aquatic*.
 Only *3%* of the earth's water is fresh.
 Only *0.5%* of the fresh water is available to us.
-Our body is has *70%* of water in it.
+Our body has *70%* of water in it.
 We should drink *12* glasses of water everyday.
 *Whale* is the largest animal.`
       }
@@ -305,7 +306,7 @@ We should drink *12* glasses of water everyday.
         Some water gets deposited under the ground and we usually extract it through wells, hand-pumps and bore-wells.
         # Fun fact!
         Dams are built to slower the flow of water, to save it and to generate energy.
-        Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from he roofs of the house and gets deposited in the tank.
+        Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from the roofs of the house and gets deposited in the tank.
         # How rivers are formed?
         When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.
         `
@@ -320,12 +321,12 @@ We should drink *12* glasses of water everyday.
         types: [
           {
             name: 'Natural',
-            text:
-              'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs'
+            text: 
+            'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
           },
           {
             name: 'Man-made',
-            text: 'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
+            text: 'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs' 
           }
         ]
       }
