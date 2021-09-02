@@ -164,10 +164,10 @@ export default {
           # Different ways of the Insects
           Some fly in the air, as well as they move on land. There are variety of insects with different characteristics. Insects also have wings. Examples are mosquitoes, houseflies, butterflies, etc. Usually, most insects have six legs but some have eight.
           # Different ways of the Fish
-          Fishes live and breathe in water. There are many different types of fishes and every type has its unique characteristic feature. Fishes have fins and scales in their body. Fish uses fins to move in the water. Fishes use their gills to breathe in water. Fishes cannot survive on land and they cannot walk on land. Some unique fishes are there that can survive on moist-land also, for example, the mud-fish.
-          Interesting facts - Bats have wings in their body, but they don’t have feathers on the body. Bats are not birds like the crow, peacock, parrot, etc. It is classified under the cold-blooded animal.
+          Fishes live in water. They are of different types. They have fins and scales in their body to move in the water; use gills to breathe. They cannot survive on land. Some unique fishes can survive on moist-land, for example, the mud-fish.
+          Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified under the cold-blooded animal.
           # Domestic animals and Wild animals:
-Animals and birds can be categorized into two types. They are domestic and wild. Domestic animals can be tamed and they will not do any harm, whereas wild animals will harm us. Wild animals can be seen in the places like forests, zoos. Examples: lions, foxes, bears, tigers, etc. Some types of animals /birds can stay along with us in the home. They will not do any harm to us and they are called as Domestic animals. will always give good support to humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which will enter our house, which is of no use for us. For example, some types of animals and insects like rats, mice, bed bugs, spiders, etc will come to our home and they will create disturbance for us.`
+ Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`
       }
     },
     {
