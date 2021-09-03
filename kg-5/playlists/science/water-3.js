@@ -62,7 +62,7 @@ export default {
     {
       label: 'Choose the best Answer - Water',
       id: '200',
-      type: 'MCQ',
+      type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
