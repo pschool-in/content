@@ -32,30 +32,27 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           {
             name: 'Men',
             text: `Dhoti
-                  pyjama
-                  lungi
-                  trousers
-                  mundase
-                  pheta
-                  pagdi`
+                  Lungi
+                  Pheta
+                  Pagdi`
           },
           {
             name: 'Women',
             text: `Saris
-                  salwar-suit
-                  frocks
-                  skirts
-                  gowns
-                  tops`
+                  Salwar-suit
+                  Frocks
+                  Skirts
+                  Gowns
+                  Tops`
           },
           {
             name: 'Common',
             text: ` Shirts
-                    pants
-                    jeans
-                    t-shirts
-                    caps
-                    hats`
+                    Pyjama
+                    Trousers
+                    Jeans
+                    T-shirts
+                    Hats`
           }
         ]
       }
@@ -69,11 +66,11 @@ In addition to this, we wear clothes of different designs, colors and tradition.
         types: [
           {
             name: 'Summer',
-            text: 'Skirts, shorts, cotton clothes, kurtas'
+            text: 'Skirts, Shorts, Cotton clothes, Kurtas'
           },
           {
             name: 'Winter',
-            text: 'Coats, sweaters, mufflers, gloves, socks'
+            text: 'Coats, Sweaters, Mufflers, Gloves, Socks'
           }
         ]
       }
@@ -116,9 +113,9 @@ In addition to this, we wear clothes of different designs, colors and tradition.
         },
         text: `I wear a white coat and examine patients. - *Doctor*
               I wear blue clothes and put out fires. - *Firefighter*
-              You always see me in khaki clothes. I go wherever there is a fight. - *police*
-              I work in a hospital and take care of patients. - *nurse*
-              I am always ready to protect the country.- *soldier*`
+              You always see me in khaki clothes. I go wherever there is a fight. - *Police*
+              I work in a hospital and take care of patients. - *Nurse*
+              I am always ready to protect the country.- *Soldier*`
       }
     },
     {
@@ -126,11 +123,11 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       label: 'Season vs clothes',
       type: 'match',
       data: {
-        text: `Summer,cotton clothes
-              Winter, woolen clothes
-              Rain, raincoat
-              Polyester, artificial fiber
-              Silk, silkworm`,
+        text: `Summer, Cotton clothes
+              Winter, Woolen clothes
+              Rain, Raincoat
+              Polyester, Artificial fiber
+              Silk, Silkworm`,
         title: 'Match the following'
       }
     },
@@ -145,13 +142,13 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `What do we wear to protect our feet - *shoes*
-              What do we wear to keep ourselves dry in rain - *raincoat*
-              What do we wear when we go to bed - *pyjamas*
-              What do we wear to protect ourselves from cold - *sweater*
-              What do we wear to provide shade from sunlight - *hat*
-              What do we wear to go to school - *uniform*
-              What do we wear to protect our hands from cold - *gloves*`
+        text: `What do we wear to protect our feet - *Shoes*
+              What do we wear to keep ourselves dry in rain - *Raincoat*
+              What do we wear when we go to bed - *Pyjamas*
+              What do we wear to protect ourselves from cold - *Sweater*
+              What do we wear to provide shade from sunlight - *Hat*
+              What do we wear to go to school - *Uniform*
+              What do we wear to protect our hands from cold - *Gloves*`
       }
     },
     {
@@ -226,7 +223,8 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
               It is unsafe to wear *nylon* clothes while cooking or burning crackers.
               People prefer wearing *cotton* clothes in summer.
               *Raincoats* protect us from rain.
-              *Scarfs* protect our skin from the sun and *Mufflers* protect our ears and neck from cold.`
+              *Scarfs* protect our skin from the sun.
+              *Mufflers* protect our ears and neck from cold.`
       }
     },
     {
@@ -238,15 +236,15 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
         types: [
           {
             name: 'Animal',
-            text: 'wool, silk'
+            text: 'Wool, Silk'
           },
           {
             name: 'Plant',
-            text: 'cotton, jute'
+            text: 'Cotton, Jute'
           },
           {
             name: 'Synthetic',
-            text: 'nylon, rayon'
+            text: 'Nylon, Rayon'
           }
         ]
       }
@@ -277,12 +275,12 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
       label: 'Match the following',
       type: 'match',
       data: {
-        text: `Sheep, wool
-              Sweater, winter             
-              Cotton, cotton yarn              
-              Jute, fibres              
-              Cap, summer              
-              Raincoat, rain`,
+        text: `Sheep, Wool
+              Sweater, Winter             
+              Cotton, Cotton yarn              
+              Jute, Fibres              
+              Cap, Summer              
+              Raincoat, Rain`,
         title: 'Match the following'
       }
     },
@@ -314,11 +312,11 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
         types: [
           {
             name: 'Natural',
-            text: 'cotton, wool, silk, jute.'
+            text: 'Cotton, Wool, Silk, Jute'
           },
           {
             name: 'Artificial',
-            text: 'nylon, rayon'
+            text: 'Nylon, Rayon'
           }
         ]
       }
@@ -346,10 +344,11 @@ Sarees from some states of India have special significance and great popularity 
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Paithan and Yeolla are famous for *Paithani*
-              Aurangabad is famous for *Himroo shawls*              
-              Solapur is known for *Bedsheets*              
-              Ichalkaranji is well known for *Handloom*`
+        text:  `Paithan and Yeolla are famous for *paithani*
+                Goa is famous for *shell jewellery*.
+                Banaras/ Varanasi is famous for * silk sarees*.
+                Punjab is famous for *patiala salwars*.
+                Kolkata is famous for *tant bengali sarees*.`
       }
     },
     {
