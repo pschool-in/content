@@ -249,6 +249,21 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
       data: [`Plant, leaf, bud, flower, root, dessert, mountain, seed`]
     },
     {
+    type: 'rightOne',
+    id: '1301',
+    label: 'Odd one out',
+    data: {
+      title: 'Odd one out',
+      fontSize: '1.3rem',
+      noCaps: true,
+      text: `Tomato, Carrot, Radish, Beetroot
+            Turmeric,Cabbage,  Greens,  Spinach
+            Neem,  Aloe vera,  Datepalm,  Opuntia
+            Mango, Apple, Orange, Papaya.
+            Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
+      }
+    },
+    {
       id: '1400',
       label: 'Match the following',
       type: 'match',
@@ -473,6 +488,19 @@ Based on the colour present in the plant, they are classified into Green and Non
                 *Chlorophyll (anthocyanin)* is the green pigment in plants`
       }
     },
+    {
+    type: 'rightOne',
+    id: '2401',
+    label: 'Odd one out',
+    data: {
+      title: 'Odd one out',
+      fontSize: '1.3rem',
+      noCaps: true,
+      text: `Tulip, December, Tuberose. 
+            Rose,Saffron, Dahlia. 
+            Rose, Boat lily, Crotons. `
+     }
+   },
     {
       label: 'True or False',
       id: '2500',
