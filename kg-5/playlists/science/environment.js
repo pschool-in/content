@@ -614,7 +614,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 0
             },
-            hint: 'Floor',
+            hint: 'Lying on the Floor',
             direction: 'across'
           },
           {
@@ -623,7 +623,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 2,
               y: 5
             },
-            hint: 'Bird',
+            hint: 'Bird house',
             direction: 'down2'
           },
           {
