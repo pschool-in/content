@@ -160,7 +160,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'match-2',
-      label: 'Match',
+      label: 'Match-2',
       type: 'match',
       data: {
         title: 'Match the related ones.',
@@ -174,7 +174,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'mcq-2',
-      label: 'Multiple Choice Questions',
+      label: 'Multiple Choice Questions-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -203,7 +203,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
       }
     },
     {
-      label: 'Drag and Drop',
+      label: 'Drag and Drop-2',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
@@ -222,7 +222,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'fillup-2',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks-2',
       type: 'fillupOptions',
       data: {
         text: `Mamallapuram was built by *Narasimhavarman (Paramesvaravarman)*.
@@ -235,7 +235,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'true-false-2',
-      label: 'True or False',
+      label: 'True or False-2',
       type: 'classifySentence',
       data: {
         title: 'True or False',
