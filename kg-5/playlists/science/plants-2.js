@@ -249,6 +249,21 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
       data: [`Plant, leaf, bud, flower, root, dessert, mountain, seed`]
     },
     {
+      type: 'rightOne',
+      id: '1301',
+      label: 'Odd one out',
+      data: {
+        title: 'Odd one out',
+        fontSize: '1.3rem',
+        noCaps: true,
+        text: `Tomato, Carrot, Radish, Beetroot
+            Turmeric,Cabbage,  Greens,  Spinach
+            Neem,  Aloe vera,  Datepalm,  Opuntia
+            Mango, Apple, Orange, Papaya.
+            Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
+      }
+    },
+    {
       id: '1400',
       label: 'Match the following',
       type: 'match',
@@ -471,6 +486,19 @@ Based on the colour present in the plant, they are classified into Green and Non
                 *Petiole (sepal)*joins the leaf to the main stem.
                 *Stomata (leaf)* are used to exchange gases.
                 *Chlorophyll (anthocyanin)* is the green pigment in plants`
+      }
+    },
+    {
+      type: 'rightOne',
+      id: '2401',
+      label: 'Odd one out',
+      data: {
+        title: 'Odd one out',
+        fontSize: '1.3rem',
+        noCaps: true,
+        text: `Tulip, December, Tuberose. 
+            Rose,Saffron, Dahlia. 
+            Rose, Boat lily, Crotons. `
       }
     },
     {
@@ -878,6 +906,595 @@ Soil is one of the most important natural resources. It is essential for agricul
             options: 'bisexual, unisexual, asexual'
           }
         ]
+      }
+    },
+    {
+      id: 'wordsearch-1',
+      type: 'wordsearch',
+      label: 'WordSearch 1',
+      data: {
+        title: 'Find the exotic plants from the table.',
+        words: [
+          {
+            word: ['C', 'Y', 'C', 'A', 'S'],
+            marker: [0, 0, 4, 0]
+          },
+          {
+            word: ['F', 'E', 'R', 'N'],
+            marker: [0, 1, 0, 4]
+          },
+          {
+            word: ['C', 'R', 'O', 'T', 'O', 'N'],
+            marker: [2, 0, 2, 5]
+          },
+          {
+            word: ['A', 'L', 'O', 'E', 'V', 'E', 'R', 'A'],
+            marker: [3, 0, 3, 7]
+          },
+          {
+            word: ['P', 'L', 'U', 'M', 'E', 'R', 'I', 'A'],
+            marker: [5, 0, 5, 7]
+          }
+        ],
+        table: [
+          ['C', 'Y', 'C', 'A', 'S', 'P'],
+          ['F', 'J', 'R', 'L', 'H', 'L'],
+          ['E', 'Z', 'O', 'O', 'B', 'U'],
+          ['R', 'S', 'T', 'E', 'T', 'M'],
+          ['N', 'J', 'O', 'V', 'T', 'E'],
+          ['Q', 'D', 'N', 'E', 'M', 'R'],
+          ['I', 'W', 'T', 'R', 'P', 'I'],
+          ['E', 'R', 'D', 'A', 'N', 'A']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword-1',
+      type: 'crossword',
+      label: 'Crossword 1',
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'androceium',
+            marker: {
+              x: 3,
+              y: 0
+            },
+            hint: 'male reproductive organ in plants',
+            direction: 'down'
+          },
+          {
+            word: 'gynoecium',
+            marker: {
+              x: 0,
+              y: 4
+            },
+            hint: 'female reproductive organ in plants',
+            direction: 'across'
+          },
+          {
+            word: 'zoochory',
+            marker: {
+              x: 5,
+              y: 1
+            },
+            hint: 'seed dispersal by animals',
+            direction: 'down'
+          },
+          {
+            word: 'petal',
+            marker: {
+              x: 4,
+              y: 3
+            },
+            hint: 'colorful part of flower ',
+            direction: 'down'
+          },
+          {
+            word: 'ovary',
+            marker: {
+              x: 5,
+              y: 3
+            },
+            hint: 'contain ovules',
+            direction: 'across'
+          },
+          {
+            word: 'anther',
+            marker: {
+              x: 3,
+              y: 0
+            },
+            hint: 'contain pollen',
+            direction: 'across'
+          },
+          {
+            word: 'pollen',
+            marker: {
+              x: 2,
+              y: 9
+            },
+            hint: 'seen within pollen sac',
+            direction: 'down2'
+          },
+          {
+            word: 'stalk',
+            marker: {
+              x: 6,
+              y: 5
+            },
+            hint: 'part of stamen',
+            direction: 'down'
+          },
+          {
+            word: 'stamen',
+            marker: {
+              x: 9,
+              y: 4
+            },
+            hint: 'androceium',
+            direction: 'down'
+          },
+          {
+            word: 'style',
+            marker: {
+              x: 1,
+              y: 2
+            },
+            hint: 'gynoecium',
+            direction: 'down'
+          },
+          {
+            word: 'stigma',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'seen in female flower',
+            direction: 'down'
+          },
+          {
+            word: 'ovule',
+            marker: {
+              x: 5,
+              y: 2
+            },
+            hint: 'seen in ovary',
+            direction: 'across'
+          }
+        ],
+        table: [
+          ['', '', '', 'A', 'N', 'T', 'H', 'E', 'R', ''],
+          ['S', '', '', 'N', '', 'Z', '', '', '', ''],
+          ['T', 'S', '', 'D', '', 'O', 'V', 'U', 'L', 'E'],
+          ['I', 'T', '', 'R', 'P', 'O', 'V', 'A', 'R', 'Y'],
+          ['G', 'Y', 'N', 'O', 'E', 'C', 'I', 'U', 'M', 'S'],
+          ['M', 'L', 'E', 'C', 'T', 'H', 'S', '', '', 'T'],
+          ['A', 'E', 'L', 'E', 'A', 'O', 'T', '', '', 'A'],
+          ['', '', 'L', 'I', 'L', 'R', 'A', '', '', 'M'],
+          ['', '', 'O', 'U', '', 'Y', 'L', '', '', 'E'],
+          ['', '', 'P', 'M', '', '', 'K', '', '', 'N']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: 'wordsearch-2',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch 2',
+      data: {
+        title: 'Find the parts of flower',
+        words: [
+          {
+            word: ['S', 'E', 'P', 'A', 'L'],
+            marker: [0, 0, 0, 4]
+          },
+          {
+            word: ['P', 'E', 'T', 'A', 'L'],
+            marker: [4, 4, 0, 4]
+          },
+          {
+            word: ['S', 'T', 'I', 'G', 'M', 'A'],
+            marker: [0, 0, 5, 0]
+          },
+          {
+            word: ['S', 'T', 'Y', 'L', 'E'],
+            marker: [2, 3, 2, 7]
+          },
+          {
+            word: ['O', 'V', 'A', 'R', 'Y'],
+            marker: [6, 5, 2, 5]
+          },
+          {
+            word: ['O', 'V', 'U', 'L', 'E'],
+            marker: [5, 6, 5, 2]
+          },
+          {
+            word: ['P', 'O', 'L', 'L', 'E', 'N'],
+            marker: [6, 7, 1, 7]
+          },
+          {
+            word: ['S', 'T', 'A', 'L', 'K'],
+            marker: [1, 2, 1, 6]
+          },
+          {
+            word: ['A', 'N', 'T', 'H', 'E', 'R'],
+            marker: [1, 1, 6, 1]
+          },
+          {
+            word: ['F', 'I', 'L', 'A', 'M', 'E', 'N', 'T'],
+            marker: [7, 0, 7, 7]
+          }
+        ],
+        table: [
+          ['S', 'T', 'I', 'G', 'M', 'A', 'O', 'F'],
+          ['E', 'A', 'N', 'T', 'H', 'E', 'R', 'I'],
+          ['P', 'S', 'G', 'Q', 'S', 'E', 'K', 'L'],
+          ['A', 'T', 'S', 'M', 'A', 'L', 'V', 'A'],
+          ['L', 'A', 'T', 'E', 'P', 'U', 'P', 'M'],
+          ['C', 'L', 'Y', 'R', 'A', 'V', 'O', 'E'],
+          ['O', 'K', 'L', 'X', 'S', 'O', 'H', 'N'],
+          ['K', 'N', 'E', 'L', 'L', 'O', 'P', 'T']
+        ],
+        lang: 'en',
+        showWords: false
+      }
+    },
+    {
+      id: 'wordsearch-3',
+      type: 'wordsearch',
+      label: 'WordSearch 3',
+      data: {
+        title: 'Find the flowering plants from the table.',
+        words: [
+          {
+            word: ['O', 'R', 'C', 'H', 'I', 'D', 'S'],
+            marker: [0, 4, 6, 4]
+          },
+          {
+            word: ['R', 'O', 'S', 'E'],
+            marker: [1, 4, 1, 7]
+          },
+          {
+            word: ['D', 'A', 'H', 'L', 'I', 'A'],
+            marker: [5, 4, 5, 9]
+          },
+          {
+            word: ['M', 'A', 'R', 'I', 'G', 'O', 'L', 'D'],
+            marker: [4, 1, 4, 8]
+          },
+          {
+            word: ['L', 'O', 'T', 'U', 'S'],
+            marker: [0, 3, 0, 7]
+          },
+          {
+            word: ['J', 'A', 'S', 'M', 'I', 'N', 'E'],
+            marker: [6, 2, 6, 8]
+          },
+          {
+            word: ['L', 'I', 'L', 'Y'],
+            marker: [6, 0, 9, 0]
+          },
+          {
+            word: ['I', 'R', 'I', 'S'],
+            marker: [6, 1, 9, 1]
+          },
+          {
+            word: ['B', 'A', 'L', 'S', 'A', 'M'],
+            marker: [7, 2, 7, 7]
+          },
+          {
+            word: ['T', 'U', 'L', 'I', 'P', 'S'],
+            marker: [9, 6, 9, 1]
+          },
+          {
+            word: ['H', 'Y', 'D', 'R', 'A', 'N', 'G', 'E', 'A'],
+            marker: [1, 9, 9, 9]
+          },
+          {
+            word: ['D', 'I', 'A', 'S', 'Y'],
+            marker: [4, 8, 0, 8]
+          },
+          {
+            word: ['O', 'A', 'K'],
+            marker: [1, 5, 3, 5]
+          },
+          {
+            word: ['V', 'I', 'O', 'L', 'E', 'T'],
+            marker: [0, 0, 5, 0]
+          },
+          {
+            word: ['P', 'O', 'P', 'Y'],
+            marker: [0, 1, 3, 1]
+          },
+          {
+            word: ['A', 'S', 'T', 'E', 'R'],
+            marker: [8, 2, 8, 6]
+          }
+        ],
+        table: [
+          ['V', 'I', 'O', 'L', 'E', 'T', 'L', 'I', 'L', 'Y'],
+          ['P', 'O', 'P', 'Y', 'M', 'T', 'I', 'R', 'I', 'S'],
+          ['H', 'K', 'O', 'X', 'A', 'K', 'J', 'B', 'A', 'P'],
+          ['L', 'N', 'G', 'F', 'R', 'F', 'A', 'A', 'S', 'I'],
+          ['O', 'R', 'C', 'H', 'I', 'D', 'S', 'L', 'T', 'L'],
+          ['T', 'O', 'A', 'K', 'G', 'A', 'M', 'S', 'E', 'U'],
+          ['U', 'S', 'S', 'Z', 'O', 'H', 'I', 'A', 'R', 'T'],
+          ['S', 'E', 'G', 'V', 'L', 'L', 'N', 'M', 'P', 'E'],
+          ['Y', 'S', 'A', 'I', 'D', 'I', 'E', 'W', 'E', 'X'],
+          ['L', 'H', 'Y', 'D', 'R', 'A', 'N', 'G', 'E', 'A']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
+    {
+      id: 'wordsearch-4',
+      type: 'wordsearch',
+      label: 'WordSearch 4',
+      data: {
+        title: 'Find the non flowering plants from the table.',
+        words: [
+          {
+            word: ['F', 'E', 'R', 'N'],
+            marker: [0, 0, 3, 0]
+          },
+          {
+            word: ['C', 'O', 'N', 'I', 'F', 'E', 'R'],
+            marker: [2, 6, 2, 0]
+          },
+          {
+            word: ['C', 'Y', 'C', 'A', 'D'],
+            marker: [1, 1, 1, 5]
+          },
+          {
+            word: ['H', 'O', 'R', 'S', 'E', 'T', 'A', 'I', 'L'],
+            marker: [4, 0, 4, 8]
+          },
+          {
+            word: ['G', 'I', 'N', 'G', 'O'],
+            marker: [3, 1, 3, 5]
+          },
+          {
+            word: ['A', 'L', 'G', 'A', 'E'],
+            marker: [0, 1, 0, 5]
+          },
+          {
+            word: ['M', 'O', 'S', 'E'],
+            marker: [0, 7, 3, 7]
+          },
+          {
+            word: ['F', 'I', 'R', 'S'],
+            marker: [0, 8, 3, 8]
+          },
+          {
+            word: ['P', 'I', 'N', 'E'],
+            marker: [5, 0, 5, 3]
+          },
+          {
+            word: ['Y', 'E', 'W', 'S'],
+            marker: [5, 8, 5, 5]
+          }
+        ],
+        table: [
+          ['F', 'E', 'R', 'N', 'H', 'P'],
+          ['A', 'C', 'E', 'G', 'O', 'I'],
+          ['L', 'Y', 'F', 'I', 'R', 'N'],
+          ['G', 'C', 'I', 'N', 'S', 'E'],
+          ['A', 'A', 'N', 'G', 'E', 'H'],
+          ['E', 'D', 'O', 'O', 'T', 'S'],
+          ['K', 'S', 'C', 'C', 'A', 'W'],
+          ['M', 'O', 'S', 'E', 'I', 'E'],
+          ['F', 'I', 'R', 'S', 'L', 'Y']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword-2',
+      type: 'crossword',
+      label: 'Crossword 2',
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'opuntia',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'dessert plant',
+            direction: 'across'
+          },
+          {
+            word: 'teak',
+            marker: {
+              x: 4,
+              y: 0
+            },
+            hint: 'seen in plains',
+            direction: 'down'
+          },
+          {
+            word: 'pistia',
+            marker: {
+              x: 1,
+              y: 0
+            },
+            hint: 'free floating plant',
+            direction: 'down'
+          },
+          {
+            word: 'pine',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: 'mountain tree',
+            direction: 'across2'
+          },
+          {
+            word: 'mango',
+            marker: {
+              x: 0,
+              y: 4
+            },
+            hint: 'single seeded fruit',
+            direction: 'down2'
+          },
+          {
+            word: 'banana',
+            marker: {
+              x: 0,
+              y: 5
+            },
+            hint: 'seedless fruit',
+            direction: 'across'
+          },
+          {
+            word: 'sepal',
+            marker: {
+              x: 1,
+              y: 2
+            },
+            hint: 'green part under petal',
+            direction: 'across'
+          },
+          {
+            word: 'pistil',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: 'part of flower',
+            direction: 'down'
+          },
+          {
+            word: 'apex',
+            marker: {
+              x: 3,
+              y: 1
+            },
+            hint: 'narrow end of leaf',
+            direction: 'down'
+          },
+          {
+            word: 'lamina',
+            marker: {
+              x: 7,
+              y: 6
+            },
+            hint: 'branch from midrib',
+            direction: 'across2'
+          },
+          {
+            word: 'trunk',
+            marker: {
+              x: 0,
+              y: 7
+            },
+            hint: 'thick and strong stem',
+            direction: 'across'
+          },
+          {
+            word: 'grass',
+            marker: {
+              x: 6,
+              y: 8
+            },
+            hint: 'fibrous root',
+            direction: 'down2'
+          },
+          {
+            word: 'guava',
+            marker: {
+              x: 6,
+              y: 8
+            },
+            hint: 'multiple seeds',
+            direction: 'across2'
+          }
+        ],
+        table: [
+          ['O', 'P', 'U', 'N', 'T', 'I', 'A', ''],
+          ['G', 'I', '', 'A', 'E', 'N', 'I', 'P'],
+          ['N', 'S', 'E', 'P', 'A', 'L', '', 'I'],
+          ['A', 'T', '', 'E', 'K', '', '', 'S'],
+          ['M', 'I', '', 'X', '', '', 'S', 'T'],
+          ['B', 'A', 'N', 'A', 'N', 'A', 'S', 'I'],
+          ['', '', 'A', 'N', 'I', 'M', 'A', 'L'],
+          ['T', 'R', 'U', 'N', 'K', '', 'R', ''],
+          ['', '', 'A', 'V', 'A', 'U', 'G', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: 'wordsearch-5',
+      type: 'wordsearch',
+      label: 'WordSearch 5',
+      data: {
+        title: 'Find the friends of farmer from the table.',
+        words: [
+          {
+            word: ['E', 'A', 'R', 'T', 'H', 'W', 'O', 'R', 'M'],
+            marker: [0, 0, 0, 8]
+          },
+          {
+            word: ['L', 'A', 'D', 'Y', 'B', 'I', 'R', 'D'],
+            marker: [1, 8, 1, 1]
+          },
+          {
+            word: ['D', 'R', 'A', 'G', 'O', 'N', 'F', 'L', 'Y'],
+            marker: [2, 0, 2, 8]
+          },
+          {
+            word: ['E', 'A', 'R', 'W', 'I', 'G'],
+            marker: [7, 3, 2, 3]
+          },
+          {
+            word: ['S', 'P', 'I', 'D', 'E', 'R'],
+            marker: [7, 1, 2, 1]
+          },
+          {
+            word: ['B', 'E', 'E', 'T', 'L', 'E'],
+            marker: [7, 8, 7, 3]
+          },
+          {
+            word: ['B', 'E', 'E'],
+            marker: [3, 0, 3, 2]
+          },
+          {
+            word: ['B', 'U', 'L', 'L'],
+            marker: [5, 7, 2, 7]
+          },
+          {
+            word: ['M', 'U', 'N', 'I', 'A', 'S'],
+            marker: [6, 7, 6, 2]
+          },
+          {
+            word: ['D', 'O', 'V', 'E'],
+            marker: [3, 8, 6, 8]
+          }
+        ],
+        table: [
+          ['E', 'W', 'D', 'B', 'O', 'D', 'D', 'W'],
+          ['A', 'D', 'R', 'E', 'D', 'I', 'P', 'S'],
+          ['R', 'R', 'A', 'E', 'V', 'B', 'S', 'V'],
+          ['T', 'I', 'G', 'I', 'W', 'R', 'A', 'E'],
+          ['H', 'B', 'O', 'R', 'D', 'Y', 'I', 'L'],
+          ['W', 'Y', 'N', 'H', 'V', 'P', 'N', 'T'],
+          ['O', 'D', 'F', 'Y', 'R', 'O', 'U', 'E'],
+          ['R', 'A', 'L', 'L', 'U', 'B', 'M', 'E'],
+          ['M', 'L', 'Y', 'D', 'O', 'V', 'E', 'B']
+        ],
+        lang: 'en',
+        showWords: true
       }
     }
   ]

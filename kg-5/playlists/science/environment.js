@@ -117,7 +117,7 @@ export default {
       type: 'fillupOptions',
       data: {
         text: `Sparrows grow by eating *insects (stone)* and *food grains (paper)*.
-          Plants and animals will come under *living (non-living)* things.
+          Plants and animals will come under *living things (non-living things)*.
           Plants utilize *sunlight (moonlight)* to prepare their food.
           Birds will build their nest using *twigs (bricks) *.
           Papers, rock and bag will come under *non-living (living)* things .`,
@@ -422,19 +422,22 @@ export default {
       data: {
         title: '',
         text: `# Biotic Factors
-          Biotic factors are the living organisms in our environment. For example; Trees and Plants, Animals, Birds, Human beings, etc.
+          Biotic factors are the living organisms in our environment. For example; Trees, Animals, Birds, Human beings, etc.
           # Abiotic factors
 Abiotic factors are the non-living organisms in our environment. For example; Temperature, Water, air, stone, mountain, etc.
 # Difference between Biotic and Abiotic factors
-Biotic factors are also called living things and abiotic factors are also called non-living things. Biotic factors can feel, breathe and grow. They need food for living and they will give birth to young ones. Abiotic factors do not grow and breathe. They cannot feel and food is not necessary for them. Besides, they do not give birth to young ones. Moreover, all abiotic and biotic factors are linked together in the environment by the flow of energy via food. Living things and non-living things interact with one another in the environment. Moreover, plants are not able to move from one place to another, but they will be able to grow and also their branches will develop well. Plants can make prepare their food by using abiotic factors like soil, water, air, sunlight, etc. Every biotic factor depends on other things for food in the environment.
+Biotic factors are also called living things and abiotic factors are also called non-living things. Biotic factors can feel, breathe and grow. They need food for living and they will give birth to young ones. Abiotic factors do not live. So, food is not necessary for them. Abiotic and biotic factors are linked together in the environment by the flow of energy via food. They both interact with one another in the environment. Moreover, plants are immobile, but they can grow well. Plants prepare their food by using abiotic factors like soil, water, air, sunlight, etc. Every biotic factor depends on other things for food in the environment.
 # Balanced – Ecosystem
-The food chain plays a more important role in every biotic/ living thing in the environment. Living things are dependent on both living things and non-living things for food, survival in this ecosystem. Based on consumption of food, living things/ biotic factors are categorized into three types. They are Producers, Consumers, and Decomposers. Our ecosystem supports living things such as plants, animals, human beings, and also micro-organisms to grow in the environment.
+The food chain plays a more important role in every biotic/ living thing in the environment. Living things are dependent on both living things and non-living things for food, survival in this ecosystem. Based on consumption of food, living things are categorized into three types. They are Producers, Consumers, and Decomposers. Our ecosystem supports living things such as plants, animals, human beings, and also micro-organisms to grow in the environment.
 # Producers
-Some types of living things can able to prepare their food by themselves and they are called producers. For example, Plants & trees are classified under producers. Plants will prepare the food by the process called photosynthesis. Plants are also called primary producers. Moreover, humans and animals depend upon plants for their food. Some types of plants do not prepare their food by themselves and they will depend upon other plants for food. These types of plants are called parasitic plants. For example, Cuscuta.
+Some types of living things prepare their food by themselves and they are called producers. For example, trees. Plants prepare food by the process called photosynthesis. Plants are also called primary producers. Moreover, humans and some types of animals depend upon plants for their food. Some types of plants do not prepare their food by themselves and they depend upon other plants for food. These types of plants are called parasitic plants. For example, Cuscuta.
 # Consumers
-Some types of living things are not able to produce food on their own and it is dependent for food on plants and animals for its survival. They are called Consumers and they can be classified into three categories. They are Herbivores, Carnivores and Omnivores. When living things are dependent fully on plants for their food and they are called Herbivores. When living things eats only flesh animals for their food and they are called Carnivores. When living things are dependent fully on plants and animal's flesh (meat) for their food and they are called Omnivores.
+Some types of living things are not able to produce food on their own and it is dependent for food on plants and animals. They are called Consumers and they can be classified into three categories. They are Herbivores, Carnivores and Omnivores.
+1. Living things depend completely on plants for their food, they are called Herbivores.
+2. Living things eats only flesh animals for their food, they are called Carnivores.
+3. Living things depend completely on plants and animal's flesh (meat) for their food, they are called Omnivores.
 # Decomposers
-Microorganisms that feed on the decaying waste such as dead plants and animals for their survival and are called decomposers. Those micro-organisms support the environment by giving nutrients to the soil. So soil turns more fertile and this helps to grow the plants and trees well. For example; Bacteria, fungi, etc.`
+Microorganisms that feed on the decaying waste such as dead plants and animals for their survival are called decomposers. Those micro-organisms support the environment by giving nutrients to the soil. So soil turns more fertile and this helps to grow the plants and trees well. For example; Bacteria, fungi, etc.`
       }
     },
     {
@@ -552,6 +555,449 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               ]
             }
           }
+        ]
+      }
+    },
+    {
+      id: 'wordsearch',
+      label: 'Living things - Wordsearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['A', 'N', 'T'],
+            marker: [0, 0, 2, 0]
+          },
+          {
+            word: ['T', 'I', 'G', 'E', 'R'],
+            marker: [2, 0, 2, 4]
+          },
+          {
+            word: ['C', 'R', 'O', 'W'],
+            marker: [1, 4, 4, 4]
+          },
+          {
+            word: ['L', 'O', 'T', 'U', 'S'],
+            marker: [5, 0, 5, 4]
+          },
+          {
+            word: ['E', 'A', 'G', 'L', 'E'],
+            marker: [0, 4, 4, 0]
+          },
+          {
+            word: ['F', 'O', 'X'],
+            marker: [3, 3, 3, 5]
+          }
+        ],
+        title: 'Find the hidden living things ',
+        lang: 'en',
+        table: [
+          ['A', 'N', 'T', 'K', 'E', 'L'],
+          ['I', 'H', 'I', 'L', 'T', 'O'],
+          ['Y', 'R', 'G', 'G', 'D', 'T'],
+          ['F', 'A', 'E', 'F', 'O', 'U'],
+          ['E', 'C', 'R', 'O', 'W', 'S'],
+          ['O', 'Y', 'L', 'X', 'L', 'K']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Non-Living things - Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'Mat',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Floor',
+            direction: 'across'
+          },
+          {
+            word: 'Nest',
+            marker: {
+              x: 2,
+              y: 5
+            },
+            hint: 'Bird',
+            direction: 'down2'
+          },
+          {
+            word: 'PENCIL',
+            marker: {
+              x: 5,
+              y: 1
+            },
+            hint: 'Stationary Things',
+            direction: 'across2'
+          },
+          {
+            word: 'Dress',
+            marker: {
+              x: 0,
+              y: 4
+            },
+            hint: 'Human being',
+            direction: 'across'
+          },
+          {
+            word: 'Pen',
+            marker: {
+              x: 4,
+              y: 0
+            },
+            hint: 'Stationary things',
+            direction: 'down'
+          },
+          {
+            word: 'TANK',
+            marker: {
+              x: 2,
+              y: 2
+            },
+            hint: 'Help to store water',
+            direction: 'across'
+          },
+          {
+            word: 'NET',
+            marker: {
+              x: 3,
+              y: 3
+            },
+            hint: 'Connected with threads',
+            direction: 'across'
+          },
+          {
+            word: 'CAB',
+            marker: {
+              x: 3,
+              y: 5
+            },
+            hint: 'Taxi',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['M', 'A', 'T', '', 'P', ''],
+          ['L', 'I', 'C', 'N', 'E', 'P'],
+          ['', '', 'T', 'A', 'N', 'K'],
+          ['', '', 'S', 'N', 'E', 'T'],
+          ['D', 'R', 'E', 'S', 'S', ''],
+          ['', '', 'N', 'C', 'A', 'B']
+        ]
+      }
+    },
+    {
+      id: 'wordsearch-2',
+      label: 'Domestic Animals - Wordsearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['B', 'U', 'F', 'F', 'A', 'L', 'O'],
+            marker: [0, 0, 6, 6]
+          },
+          {
+            word: ['C', 'A', 'T'],
+            marker: [3, 4, 5, 4]
+          },
+          {
+            word: ['D', 'O', 'G'],
+            marker: [6, 5, 6, 7]
+          },
+          {
+            word: ['H', 'E', 'N'],
+            marker: [7, 0, 5, 2]
+          },
+          {
+            word: ['C', 'O', 'C', 'K'],
+            marker: [3, 4, 3, 7]
+          },
+          {
+            word: ['G', 'O', 'A', 'T'],
+            marker: [4, 5, 1, 5]
+          },
+          {
+            word: ['D', 'O', 'N', 'K', 'E', 'Y'],
+            marker: [0, 7, 5, 7]
+          },
+          {
+            word: ['D', 'U', 'C', 'K'],
+            marker: [1, 6, 4, 6]
+          }
+        ],
+        title: 'Find the hidden domestic animals',
+        lang: 'en',
+        table: [
+          ['B', 'R', 'Z', 'F', 'T', 'P', 'Z', 'H'],
+          ['T', 'U', 'L', 'F', 'Y', 'Q', 'E', 'B'],
+          ['R', 'X', 'F', 'M', 'I', 'N', 'F', 'U'],
+          ['B', 'J', 'E', 'F', 'H', 'Z', 'U', 'R'],
+          ['D', 'U', 'U', 'C', 'A', 'T', 'S', 'X'],
+          ['O', 'T', 'A', 'O', 'G', 'L', 'D', 'I'],
+          ['I', 'D', 'U', 'C', 'K', 'Z', 'O', 'Y'],
+          ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword-2',
+      label: 'Wild animals - Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'ELEPHANT',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Trunk',
+            direction: 'down'
+          },
+          {
+            word: 'LEOPARD',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'Belongs cat family',
+            direction: 'across'
+          },
+          {
+            word: 'DEER',
+            marker: {
+              x: 6,
+              y: 1
+            },
+            hint: 'Spots on body',
+            direction: 'down'
+          },
+          {
+            word: 'BEAR',
+            marker: {
+              x: 5,
+              y: 3
+            },
+            hint: 'Teddy',
+            direction: 'across'
+          },
+          {
+            word: 'SNAKE',
+            marker: {
+              x: 2,
+              y: 2
+            },
+            hint: 'POISONOUS ANIMAL',
+            direction: 'across'
+          },
+          {
+            word: 'CROCODILE',
+            marker: {
+              x: 0,
+              y: 8
+            },
+            hint: '',
+            direction: 'across'
+          },
+          {
+            word: 'GIRAFFE',
+            marker: {
+              x: 8,
+              y: 1
+            },
+            hint: 'Long necked animal',
+            direction: 'down'
+          },
+          {
+            word: 'MONKEY',
+            marker: {
+              x: 1,
+              y: 5
+            },
+            hint: 'Jumps in tree',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['E', '', '', '', '', '', '', '', ''],
+          ['L', 'E', 'O', 'P', 'A', 'R', 'D', '', 'G'],
+          ['E', '', 'S', 'N', 'A', 'K', 'E', '', 'I'],
+          ['P', '', '', '', '', 'B', 'E', 'A', 'R'],
+          ['H', '', '', '', '', '', 'R', '', 'A'],
+          ['A', 'M', 'O', 'N', 'K', 'E', 'Y', '', 'F'],
+          ['N', '', '', '', '', '', '', '', 'F'],
+          ['T', '', '', '', '', '', '', '', 'E'],
+          ['C', 'R', 'O', 'C', 'O', 'D', 'I', 'L', 'E']
+        ]
+      }
+    },
+    {
+      id: 'wordsearch-3',
+      label: 'Carnivores- Word search',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['T', 'I', 'G', 'E', 'R'],
+            marker: [0, 0, 4, 4]
+          },
+          {
+            word: ['L', 'I', 'O', 'N'],
+            marker: [1, 0, 1, 3]
+          },
+          {
+            word: ['E', 'A', 'G', 'L', 'E'],
+            marker: [3, 3, 3, 7]
+          },
+          {
+            word: ['W', 'O', 'L', 'F'],
+            marker: [1, 6, 4, 6]
+          },
+          {
+            word: ['F', 'O', 'X'],
+            marker: [2, 1, 0, 3]
+          },
+          {
+            word: ['S', 'N', 'A', 'K', 'E'],
+            marker: [7, 3, 3, 3]
+          },
+          {
+            word: ['S', 'H', 'A', 'R', 'K'],
+            marker: [1, 4, 5, 4]
+          },
+          {
+            word: ['S', 'E', 'A', 'L', 'S'],
+            marker: [7, 3, 7, 7]
+          },
+          {
+            word: ['F', 'R', 'O', 'G'],
+            marker: [2, 1, 5, 1]
+          }
+        ],
+        title: 'Find the hidden carnivores',
+        lang: 'en',
+        table: [
+          ['T', 'L', 'R', 'E', 'H', 'G', 'M', 'A'],
+          ['K', 'I', 'F', 'R', 'O', 'G', 'N', 'O'],
+          ['V', 'O', 'G', 'B', 'G', 'S', 'D', 'V'],
+          ['X', 'N', 'R', 'E', 'K', 'A', 'N', 'S'],
+          ['O', 'S', 'H', 'A', 'R', 'K', 'F', 'E'],
+          ['Z', 'B', 'S', 'G', 'I', 'G', 'H', 'A'],
+          ['F', 'W', 'O', 'L', 'F', 'G', 'F', 'L'],
+          ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword-3',
+      label: 'Omnivores- Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'HUMAN',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Mankind',
+            direction: 'across'
+          },
+          {
+            word: 'ANT',
+            marker: {
+              x: 3,
+              y: 0
+            },
+            hint: 'Small creature',
+            direction: 'down'
+          },
+          {
+            word: 'BEAR',
+            marker: {
+              x: 7,
+              y: 4
+            },
+            hint: 'Teddy',
+            direction: 'across2'
+          },
+          {
+            word: 'MONKEY',
+            marker: {
+              x: 6,
+              y: 0
+            },
+            hint: 'Lives in Tree',
+            direction: 'down'
+          },
+          {
+            word: 'DOG',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: 'PET',
+            direction: 'across2'
+          },
+          {
+            word: 'CROW',
+            marker: {
+              x: 4,
+              y: 3
+            },
+            hint: 'Black color bird',
+            direction: 'down'
+          },
+          {
+            word: 'PIG',
+            marker: {
+              x: 0,
+              y: 3
+            },
+            hint: 'Pigpen',
+            direction: 'across'
+          },
+          {
+            word: 'BAT',
+            marker: {
+              x: 0,
+              y: 7
+            },
+            hint: 'Flying mammal',
+            direction: 'down2'
+          },
+          {
+            word: 'RAT',
+            marker: {
+              x: 2,
+              y: 5
+            },
+            hint: 'Living in holes',
+            direction: 'across2'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['H', 'U', 'M', 'A', 'N', '', 'M', ''],
+          ['', '', '', 'N', '', 'G', 'O', 'D'],
+          ['', '', '', 'T', '', '', 'N', ''],
+          ['P', 'I', 'G', '', 'C', '', 'K', ''],
+          ['', '', '', '', 'R', 'A', 'E', 'B'],
+          ['T', 'A', 'R', '', 'O', '', 'Y', ''],
+          ['A', '', '', '', 'W', '', '', ''],
+          ['B', '', '', '', '', '', '', '']
         ]
       }
     }

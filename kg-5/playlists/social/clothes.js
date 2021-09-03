@@ -388,6 +388,185 @@ Sarees from some states of India have special significance and great popularity 
               It is *cold (rainy)*. Take your sweater.
               It is *rainy (cold)*. Take your umbrella.s`
       }
+    },
+    {
+      id: 'wordsearch',
+      type: 'wordsearch',
+      label: 'WordSearch ',
+      data: {
+        title: 'Find 20 clothing items from the table.',
+        words: [
+          {
+            word: ['S', 'K', 'I', 'R', 'T'],
+            marker: [0, 0, 4, 0]
+          },
+          {
+            word: ['T', 'S', 'H', 'I', 'R', 'T'],
+            marker: [4, 0, 4, 5]
+          },
+          {
+            word: ['P', 'A', 'N', 'T'],
+            marker: [7, 0, 4, 0]
+          },
+          {
+            word: ['D', 'R', 'E', 'S', 'S'],
+            marker: [0, 4, 0, 0]
+          },
+          {
+            word: ['G', 'O', 'W', 'N'],
+            marker: [1, 4, 1, 1]
+          },
+          {
+            word: ['S', 'A', 'R', 'E', 'E'],
+            marker: [2, 4, 6, 4]
+          },
+          {
+            word: ['T', 'I', 'E'],
+            marker: [5, 2, 5, 4]
+          },
+          {
+            word: ['G', 'L', 'O', 'V', 'E'],
+            marker: [7, 1, 7, 5]
+          },
+          {
+            word: ['B', 'O', 'W'],
+            marker: [2, 3, 2, 1]
+          },
+          {
+            word: ['S', 'H', 'O', 'E', 'S'],
+            marker: [0, 6, 4, 6]
+          },
+          {
+            word: ['S', 'C', 'A', 'R', 'F'],
+            marker: [0, 7, 4, 7]
+          },
+          {
+            word: ['B', 'O', 'O', 'T'],
+            marker: [1, 5, 4, 5]
+          },
+          {
+            word: ['T', 'R', 'O', 'U', 'S', 'E', 'R'],
+            marker: [8, 0, 8, 6]
+          },
+          {
+            word: ['S', 'O', 'C', 'K'],
+            marker: [5, 7, 8, 7]
+          },
+          {
+            word: ['C', 'O', 'A', 'T'],
+            marker: [0, 8, 3, 8]
+          },
+          {
+            word: ['J', 'E', 'A', 'N', 'S'],
+            marker: [4, 8, 8, 8]
+          },
+          {
+            word: ['S', 'W', 'E', 'A', 'T', 'E', 'R'],
+            marker: [9, 0, 9, 6]
+          },
+          {
+            word: ['J', 'A', 'C', 'K', 'E', 'T'],
+            marker: [0, 9, 5, 9]
+          },
+          {
+            word: ['V', 'E', 'S', 'T'],
+            marker: [6, 9, 9, 9]
+          },
+          {
+            word: ['H', 'A', 'T'],
+            marker: [3, 1, 3, 3]
+          }
+        ],
+        table: [
+          ['S', 'K', 'I', 'R', 'T', 'N', 'A', 'P', 'T', 'S'],
+          ['S', 'N', 'W', 'H', 'S', 'B', 'G', 'G', 'R', 'W'],
+          ['E', 'W', 'O', 'A', 'H', 'T', 'F', 'L', 'O', 'E'],
+          ['R', 'O', 'B', 'T', 'I', 'I', 'V', 'O', 'U', 'A'],
+          ['D', 'G', 'S', 'A', 'R', 'E', 'E', 'V', 'S', 'T'],
+          ['P', 'B', 'O', 'O', 'T', 'H', 'A', 'E', 'E', 'E'],
+          ['S', 'H', 'O', 'E', 'S', 'S', 'I', 'T', 'R', 'R'],
+          ['S', 'C', 'A', 'R', 'F', 'S', 'O', 'C', 'K', 'R'],
+          ['C', 'O', 'A', 'T', 'J', 'E', 'A', 'N', 'S', 'E'],
+          ['J', 'A', 'C', 'K', 'E', 'T', 'V', 'E', 'S', 'T']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'blanket',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'covers your body while you sleep.',
+            direction: 'down'
+          },
+          {
+            word: 'sweater',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: 'protects your body from cold.',
+            direction: 'down'
+          },
+          {
+            word: 'muffler',
+            marker: {
+              x: 1,
+              y: 7
+            },
+            hint: 'covers your neck and is also fashionable.',
+            direction: 'across'
+          },
+          {
+            word: 'socks',
+            marker: {
+              x: 3,
+              y: 1
+            },
+            hint: 'covers your feet.',
+            direction: 'across'
+          },
+          {
+            word: 'coat',
+            marker: {
+              x: 5,
+              y: 1
+            },
+            hint: 'worn in occasions and professional meetings.',
+            direction: 'down'
+          },
+          {
+            word: 'gloves',
+            marker: {
+              x: 1,
+              y: 1
+            },
+            hint: 'protect your hands.',
+            direction: 'down'
+          }
+        ],
+        title: 'Winter clothings.',
+        lang: 'en',
+        table: [
+          ['B', '', '', '', '', '', '', ''],
+          ['L', 'G', '', 'S', 'O', 'C', 'K', 'S'],
+          ['A', 'L', '', '', '', 'O', '', 'W'],
+          ['N', 'O', '', '', '', 'A', '', 'E'],
+          ['K', 'V', '', '', '', 'T', '', 'A'],
+          ['E', 'E', '', '', '', '', '', 'T'],
+          ['T', 'S', '', '', '', '', '', 'E'],
+          ['', 'M', 'U', 'F', 'F', 'L', 'E', 'R']
+        ]
+      },
+      editable: true
     }
   ]
 };

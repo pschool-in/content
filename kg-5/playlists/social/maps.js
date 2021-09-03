@@ -220,6 +220,125 @@ export default {
               Golden Temple, Punjab`,
         title: 'Match the following'
       }
+    },
+    {
+      id: 'wordsearch-1',
+      type: 'wordsearch',
+      label: 'WordSearch ',
+      data: {
+        title: 'Find the continents from the table.',
+        words: [
+          {
+            word: ['A', 'U', 'S', 'T', 'R', 'A', 'L', 'I', 'A'],
+            marker: [0, 0, 8, 0]
+          },
+          {
+            word: ['A', 'N', 'T', 'A', 'R', 'T', 'I', 'C', 'A'],
+            marker: [8, 1, 0, 1]
+          },
+          {
+            word: ['A', 'S', 'I', 'A'],
+            marker: [0, 1, 0, 4]
+          },
+          {
+            word: ['A', 'F', 'R', 'I', 'C', 'A'],
+            marker: [0, 4, 5, 4]
+          },
+          {
+            word: ['E', 'U', 'R', 'O', 'P', 'E'],
+            marker: [1, 2, 6, 2]
+          },
+          {
+            word: ['A', 'M', 'E', 'R', 'I', 'C', 'A'],
+            marker: [1, 3, 7, 3]
+          }
+        ],
+        table: [
+          ['A', 'U', 'S', 'T', 'R', 'A', 'L', 'I', 'A'],
+          ['A', 'C', 'I', 'T', 'R', 'A', 'T', 'N', 'A'],
+          ['S', 'E', 'U', 'R', 'O', 'P', 'E', 'O', 'H'],
+          ['I', 'A', 'M', 'E', 'R', 'I', 'C', 'A', 'U'],
+          ['A', 'F', 'R', 'I', 'C', 'A', 'R', 'O', 'V']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
+    {
+      id: 'wordsearch-2',
+      type: 'wordsearch',
+      label: 'WordSearch ',
+      data: {
+        title: 'Find the states on India from the table.',
+        words: [
+          {
+            word: ['A', 'S', 'S', 'A', 'M'],
+            marker: [0, 0, 4, 0]
+          },
+          {
+            word: ['B', 'I', 'H', 'A', 'R'],
+            marker: [5, 0, 9, 0]
+          },
+          {
+            word: ['M', 'U', 'M', 'B', 'A', 'I'],
+            marker: [4, 0, 4, 5]
+          },
+          {
+            word: ['O', 'R', 'I', 'S', 'S', 'A'],
+            marker: [8, 5, 8, 0]
+          },
+          {
+            word: ['D', 'E', 'L', 'H', 'I'],
+            marker: [6, 4, 6, 0]
+          },
+          {
+            word: ['K', 'E', 'R', 'A', 'L', 'A'],
+            marker: [3, 5, 3, 0]
+          },
+          {
+            word: ['T', 'A', 'M', 'I', 'L', 'N', 'A', 'D', 'U'],
+            marker: [5, 1, 5, 9]
+          },
+          {
+            word: ['G', 'U', 'J', 'R', 'A', 'T'],
+            marker: [0, 1, 0, 6]
+          },
+          {
+            word: ['P', 'U', 'N', 'J', 'A', 'B'],
+            marker: [1, 1, 1, 6]
+          },
+          {
+            word: ['H', 'A', 'R', 'Y', 'A', 'N', 'A'],
+            marker: [2, 1, 2, 7]
+          },
+          {
+            word: ['S', 'I', 'K', 'K', 'I', 'M'],
+            marker: [7, 6, 7, 1]
+          },
+          {
+            word: ['G', 'O', 'A'],
+            marker: [0, 9, 2, 7]
+          },
+          {
+            word: ['M', 'A', 'N', 'I', 'P', 'U', 'R'],
+            marker: [9, 6, 9, 0]
+          }
+        ],
+        table: [
+          ['A', 'S', 'S', 'A', 'M', 'B', 'I', 'H', 'A', 'R'],
+          ['G', 'P', 'H', 'L', 'U', 'T', 'H', 'M', 'S', 'U'],
+          ['U', 'U', 'A', 'A', 'M', 'A', 'L', 'I', 'S', 'P'],
+          ['J', 'N', 'R', 'R', 'B', 'M', 'E', 'K', 'I', 'I'],
+          ['R', 'J', 'Y', 'E', 'A', 'I', 'D', 'K', 'R', 'N'],
+          ['A', 'A', 'A', 'K', 'I', 'L', 'E', 'I', 'O', 'A'],
+          ['T', 'B', 'N', 'E', 'T', 'N', 'L', 'S', 'E', 'M'],
+          ['Y', 'B', 'A', 'M', 'B', 'A', 'F', 'B', 'S', 'G'],
+          ['H', 'O', 'B', 'M', 'O', 'D', 'J', 'O', 'X', 'D'],
+          ['G', 'W', 'V', 'W', 'A', 'U', 'R', 'P', 'X', 'H']
+        ],
+        lang: 'en',
+        showWords: true
+      }
     }
   ]
 };
