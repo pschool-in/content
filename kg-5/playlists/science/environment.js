@@ -485,7 +485,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             qText: 'Humans are classified under ________. ',
-            options: `Omnivores, Carnivores, Herbivores`
+            options: `Omnivores, Carnivores, Herbivores, None of the above`
           },
           {
             qText: '_______ are also called as primary producers.',
@@ -493,15 +493,15 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             qText: 'Van Mahotsav means ____________.',
-            options: `festival of forests, festival of animals, festival of human beings`
+            options: `festival of forests, festival of animals, festival of human beings, None of the above`
           },
           {
             qText:
               'Choose a correct food chain sequence from the following orders',
             options: `Plant – Deer- Lion
-              Lion- Bacteria – Humans
-              Humans – plants – Tiger
-              Fox – Fungi - Humans`
+              Lion- Bacteria – Human
+              Human – plant – Tiger
+              Fox – Fungi - Human`
           },
           {
             label: 'Drag and Drop',
