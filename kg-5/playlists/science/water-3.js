@@ -170,31 +170,42 @@ The largest source of water on the earth is *ocean (sea)*.
 *Malaria (Cholera)* is caused by mosquitoes.`
       }
     },
-    {
-      label: 'Drag and Drop',
-      type: 'MCQ',
-      id: '600',
-      data: {
-        isPractice: false,
-        title: 'Choose the correct option.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `We need water to _____ our face.
-wash, dry, paint
-We need water to _____ our teeth.
-brush, rinse, colour
-We need water to _____ our food.
-cook, water, waste
-We need water to _____ our vessels.
-clean, paint, colour
-Plants need water to ______.
-grow, flow, dry
-We need water to ______ a boat.
-row, sow, tow`
-      }
-    },
+      {
+        label: 'Choose the correct option',
+        type: 'mcq',
+        id: '600',
+        data: {
+          title: 'Choose the correct option.',
+          questions: [
+          {
+            qText: ' We need water to _____ our face.',
+            options: 'wash, dry, paint'
+          },
+          {
+            qText: ' We need water to _____ our teeth.',
+            options: 'brush, rinse, colour'
+          },
+          {
+            qText: ' We need water to _____ our food.',
+            options: 'cook, water, waste'
+          },
+          {
+            qText: 'We need water to _____ our vessels.',
+            options: 'clean, paint, colour'
+          },
+          {
+            qText: 'Plants need water to ______.',
+            options: 'grow, flow, dry'
+          },
+          {
+            qText: 'We need water to ______ a boat.',
+            options: 'row, sow, tow'
+          },
+
+
+          ]
+        }
+      },
     {
       label: 'Activities needing water',
       id: '700',
