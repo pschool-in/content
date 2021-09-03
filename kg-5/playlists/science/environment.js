@@ -804,7 +804,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 8
             },
-            hint: '',
+            hint: 'Reptile',
             direction: 'across'
           },
           {
