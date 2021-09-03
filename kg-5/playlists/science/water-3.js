@@ -113,7 +113,7 @@ export default {
           }
         ]
       },
-      slug: 'MCQ',
+      slug: 'mcq',
       editable: true
     },
     {
