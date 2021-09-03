@@ -69,7 +69,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           },
           {
             qText: 'Khajuraho Temples is situated in ___________.',
-            options: `Madhya Pradesh, Odisha, Gujarat`
+            options: `Madhya Pradesh, Odisha, Gujarat, None of the above`
           },
           {
             qText: '_______ is situated in Tamil Nadu.',
@@ -293,7 +293,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           ['O', 'I', 'S', 'Q', 'Y', 'W', 'R', 'S'],
           ['W', 'T', 'Y', 'M', 'F', 'S', 'W', 'H']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
