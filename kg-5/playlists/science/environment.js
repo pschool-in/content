@@ -632,7 +632,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 5,
               y: 1
             },
-            hint: 'Stationary Things',
+            hint: 'Friend of eraser',
             direction: 'across2'
           },
           {
