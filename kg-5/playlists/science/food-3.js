@@ -391,7 +391,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
     {
       id: 'fillup-4',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'matchByDragDrop',
       data: {
         text: `Healthy food makes our body *fit*.
         A balanced diet contain all the *nutrients*.
