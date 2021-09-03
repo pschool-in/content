@@ -172,20 +172,27 @@ The largest source of water on the earth is *ocean (sea)*.
     },
     {
       label: 'Drag and Drop',
-      type: 'matchByDragDrop',
+      type: 'MCQ',
       id: '600',
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: 'Choose the correct option.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `We need water to *clean* our face.
-We need water to *brush* our teeth.
-We need water to *cook* our food.
-We need water to *wash* our vessels.
-We need water to *drink*.`
+        text: `We need water to _____ our face.
+wash, dry, paint
+We need water to _____ our teeth.
+brush, rinse, colour
+We need water to _____ our food.
+cook, water, waste
+We need water to _____ our vessels.
+clean, paint, colour
+Plants need water to ______.
+grow, flow, dry
+We need water to ______ a boat.
+row, sow, tow`
       }
     },
     {
@@ -196,13 +203,13 @@ We need water to *drink*.`
         title: 'Classify the activities that need water.',
         types: [
           {
-            name: 'Needs Water',
+            name: 'Needs water',
             text:
-              'grow plant, water coloring, row a boat, knead dough, wash dress'
+              'Plant, Water coloring, Boating, Dough, Washing'
           },
           {
-            name: "Doesn't need",
-            text: 'play game, sing a song, run fast, write'
+            name: "Doesn't need water",
+            text: 'Playing, Singing, Running, Writing'
           }
         ]
       }
@@ -321,12 +328,12 @@ We should drink *12* glasses of water everyday.
         types: [
           {
             name: 'Natural',
-            text: 'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
+            text: 'Springs, Streams, Rivers, Lakes, Creeks, Seas, Oceans, Ponds'
           },
           {
             name: 'Man-made',
             text:
-              'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs'
+              'Wells, Dams, Bore-wells, Hand-pumps, Canals, Taps, Reservoirs'
           }
         ]
       }
