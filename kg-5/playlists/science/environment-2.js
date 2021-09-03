@@ -92,10 +92,10 @@ For the existence of living things, it is important that environmental balance i
         fontSize: '2rem'
       },
       data: [
-        `Nectar, butterflies, small birds, foxes`,
-        `Dead plants, centipede, robin, raccoon`,
-        `Grass, grasshopper, frog, snake, eagle`,
-        `Decayed plants, worms, birds, eagles`
+        `Nectar, Butterflies, Small birds, Foxes`,
+        `Dead plants, Centipede, Robin, Raccoon`,
+        `Grass, Grasshopper, Frog, Snake, Eagle`,
+        `Decayed plants, Worms, Birds, Eagles`
       ]
     },
     {
@@ -301,8 +301,7 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
                 Concentrates include broken grams, cereals, millets, rice polish, cotton seeds and oil cakes.
                 Bullocks are used to plough land, harvest and thrash crops.
                 Panchagavya is an ayurvedic medicine used in agriculture to control pest and fungi.
-                Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals.
-                `
+                Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals. `
           },
           {
             name: 'False',
