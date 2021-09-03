@@ -107,7 +107,7 @@ export default {
         text: `Living things bring changes in *non-living things* too.
         Living things need *food* to grow.
         Humans used to weave *clothes* using cotton, silk, wool.
-        Some animals used to hunt and eat other *animal's flesh*
+        Some animals used to hunt and eat other *animal's flesh*.
         For survival, living things take their needs from the *environment*.`
       }
     },
@@ -359,7 +359,7 @@ export default {
             options: `Panda, Seals, Penguins, Walrus`
           },
           {
-            qText: '__________ is a reptile',
+            qText: '__________ is a reptile.',
             options: `Turtles
               Gila monster
               Alligator
@@ -599,7 +599,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['E', 'C', 'R', 'O', 'W', 'S'],
           ['O', 'Y', 'L', 'X', 'L', 'K']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -744,7 +744,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['I', 'D', 'U', 'C', 'K', 'Z', 'O', 'Y'],
           ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -896,7 +896,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['F', 'W', 'O', 'L', 'F', 'G', 'F', 'L'],
           ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
