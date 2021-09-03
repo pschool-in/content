@@ -253,6 +253,143 @@ India has a rich heritage and it is well known for its old culture. Many places 
           }
         ]
       }
+    },
+    {
+      id: 'wordsearch',
+      label: 'Farming Implements- Word Search ',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['T', 'R', 'A', 'C', 'T', 'O', 'R'],
+            marker: [0, 0, 6, 6]
+          },
+          {
+            word: ['P', 'L', 'O', 'W', 'S'],
+            marker: [5, 3, 5, 7]
+          },
+          {
+            word: ['B', 'A', 'L', 'E', 'R'],
+            marker: [1, 2, 5, 2]
+          },
+          {
+            word: ['H', 'A', 'R', 'R', 'O', 'W'],
+            marker: [0, 2, 0, 7]
+          },
+          {
+            word: ['S', 'E', 'E', 'D', 'E', 'R', 'S'],
+            marker: [7, 0, 7, 6]
+          }
+        ],
+        title: 'Find the hidden farming implements',
+        lang: 'en',
+        table: [
+          ['T', 'N', 'X', 'R', 'X', 'Z', 'H', 'S'],
+          ['Y', 'R', 'X', 'O', 'Q', 'T', 'C', 'E'],
+          ['H', 'B', 'A', 'L', 'E', 'R', 'I', 'E'],
+          ['A', 'J', 'Q', 'C', 'F', 'P', 'W', 'D'],
+          ['R', 'L', 'F', 'P', 'T', 'L', 'X', 'E'],
+          ['R', 'B', 'G', 'J', 'H', 'O', 'W', 'R'],
+          ['O', 'I', 'S', 'Q', 'Y', 'W', 'R', 'S'],
+          ['W', 'T', 'Y', 'M', 'F', 'S', 'W', 'H']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Monuments in India- Crossword ',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'TAJ MAHAL',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Seven Wonder ',
+            direction: 'down'
+          },
+          {
+            word: 'INDIA GATE',
+            marker: {
+              x: 9,
+              y: 3
+            },
+            hint: 'British monument in Delhi',
+            direction: 'across2'
+          },
+          {
+            word: 'QUTUB MINAR',
+            marker: {
+              x: 0,
+              y: 9
+            },
+            hint: 'Victory tower in Delhi',
+            direction: 'across'
+          },
+          {
+            word: 'ELLORA',
+            marker: {
+              x: 1,
+              y: 3
+            },
+            hint: 'Monument in Aurangabad',
+            direction: 'down'
+          },
+          {
+            word: 'AJANTA',
+            marker: {
+              x: 5,
+              y: 3
+            },
+            hint: 'Famous architectural cave',
+            direction: 'down'
+          },
+          {
+            word: 'CHARMINAR',
+            marker: {
+              x: 9,
+              y: 8
+            },
+            hint: 'Monument in Hyderabad',
+            direction: 'down2'
+          },
+          {
+            word: 'RAJ GHAT',
+            marker: {
+              x: 3,
+              y: 2
+            },
+            hint: 'GANDHIJI',
+            direction: 'down'
+          },
+          {
+            word: 'RED FORT',
+            marker: {
+              x: 6,
+              y: 0
+            },
+            hint: 'Old Delhi Monument',
+            direction: 'across2'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['T', 'R', 'O', 'F', 'D', 'E', 'R', '', '', 'R'],
+          ['A', '', '', '', '', '', '', '', '', 'A'],
+          ['J', '', '', 'R', '', '', '', '', '', 'N'],
+          ['M', 'E', 'T', 'A', 'G', 'A', 'I', 'D', 'N', 'I'],
+          ['A', 'L', '', 'J', '', 'J', '', '', '', 'M'],
+          ['H', 'L', '', 'G', '', 'A', '', '', '', 'R'],
+          ['A', 'O', '', 'H', '', 'N', '', '', '', 'A'],
+          ['L', 'R', '', 'A', '', 'T', '', '', '', 'H'],
+          ['', 'A', '', 'T', '', 'A', '', '', '', 'C'],
+          ['Q', 'U', 'T', 'U', 'B', 'M', 'I', 'N', 'A', 'R']
+        ]
+      }
     }
   ]
 };
