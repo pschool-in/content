@@ -391,7 +391,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
     {
       id: 'fillup-4',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'matchByDragDrop',
       data: {
         text: `Healthy food makes our body *fit*.
         A balanced diet contain all the *nutrients*.
@@ -443,19 +443,19 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
       data: {
         title: 'Our Diet',
         text: `# Inside the Kitchen!
-        Heating is used to prepare our food.
-To cook rice, we add water to the rice and bring it to a boil.
-Puris and pakodas are deep-fried. They are fried in oil or ghee.
-Idlis and modaks are steamed.
-Chapatis and bhakaris are roasted.
-When foods are heated, they become tastier and easier to digest.
+        1. Heating is used to prepare our food.
+2. To cook rice, we add water to the rice and bring it to a boil.
+3. Puris and pakodas are deep-fried. They are fried in oil or ghee.
+4. Idlis and modaks are steamed.
+5. Chapatis and bhakaris are roasted.
+6. When foods are heated, they become tastier and easier to digest.
 # Combustible material
 A combustible substance is something that can burn.  Fuel is a combustible substance that can be utilized to generate heat in a convenient manner. Fuels include cooking gas, kerosene, and coal.
 # Methods of supplying heat for cooking
-Some people use kerosene stoves for cooking.
-Nowadays, hotplates are also used for cooking on electricity. They are very convenient to use.
-Some people use biogas.
-Some people use the heat from the sun for cooking. They use the solar cooker.`
+1. Some people use kerosene stoves for cooking.
+2. Nowadays, hotplates are also used for cooking on electricity. They are very convenient to use.
+3. Some people use biogas.
+4. Some people use the heat from the sun for cooking. They use the solar cooker.`
       }
     },
     {
