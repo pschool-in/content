@@ -204,7 +204,7 @@ export default {
     },
     {
       id: 'mcq-2',
-      label: 'Multiple Choice Questions - MCQ',
+      label: 'Multiple Choice Questions - MCQ-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -233,7 +233,7 @@ export default {
       }
     },
     {
-      label: 'Drag and Drop',
+      label: 'Drag and Drop-2',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
@@ -253,7 +253,7 @@ export default {
 
     {
       id: 'fillup-2',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks-2',
       type: 'fillupOptions',
       data: {
         text: `Birds have *two (three)* wings.
@@ -266,7 +266,7 @@ export default {
     },
     {
       id: 'true-false-2',
-      label: 'True or False',
+      label: 'True or False-2',
       type: 'classifySentence',
       data: {
         title: 'True or False',
