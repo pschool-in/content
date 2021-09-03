@@ -68,6 +68,10 @@ let mainMenu = {
       img: 'hindi',
       alt: 'hindi icon',
       desc: 'Hindi group',
+      separateApp: {
+        url: 'https://hi.pschool.in',
+        label: 'hi.pschool.in'
+      },
       dynamic: true
     },
     {

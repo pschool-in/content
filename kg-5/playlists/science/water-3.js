@@ -321,12 +321,12 @@ We should drink *12* glasses of water everyday.
         types: [
           {
             name: 'Natural',
-            text: 
-            'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
+            text: 'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
           },
           {
             name: 'Man-made',
-            text: 'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs' 
+            text:
+              'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs'
           }
         ]
       }
@@ -402,6 +402,139 @@ The process of evaporation talks about water turning into its *vapour (solid, li
 Humidity is caused due to the presence of *water (ice, blood)* in the air.     
 Water takes the *shape (size, taste)* of the container it is kept in.`,
         title: 'Fill in the blanks.'
+      }
+    },
+    {
+      id: 'wordsearch',
+      label: 'WordSearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['R', 'A', 'I', 'N', 'W', 'A', 'T', 'E', 'R'],
+            marker: [0, 0, 8, 8]
+          },
+          {
+            word: ['R', 'I', 'V', 'E', 'R'],
+            marker: [1, 2, 5, 2]
+          },
+          {
+            word: ['L', 'A', 'K', 'E'],
+            marker: [0, 5, 0, 8]
+          },
+          {
+            word: ['P', 'O', 'N', 'D'],
+            marker: [8, 0, 8, 3]
+          },
+          {
+            word: ['S', 'E', 'A'],
+            marker: [6, 7, 8, 7]
+          },
+          {
+            word: ['W', 'E', 'L', 'L'],
+            marker: [4, 4, 1, 4]
+          },
+          {
+            word: ['O', 'C', 'E', 'A', 'N'],
+            marker: [8, 1, 4, 1]
+          },
+          {
+            word: ['C', 'A', 'N', 'A', 'L'],
+            marker: [7, 1, 7, 5]
+          },
+          {
+            word: ['B', 'A', 'Y'],
+            marker: [2, 0, 0, 2]
+          },
+          {
+            word: ['D', 'E', 'L', 'T', 'A'],
+            marker: [8, 3, 8, 7]
+          },
+          {
+            word: ['W', 'A', 'T', 'E', 'R'],
+            marker: [1, 7, 5, 7]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['R', 'K', 'B', 'C', 'G', 'C', 'L', 'S', 'P'],
+          ['D', 'A', 'T', 'A', 'N', 'A', 'E', 'C', 'O'],
+          ['Y', 'R', 'I', 'V', 'E', 'R', 'B', 'A', 'N'],
+          ['H', 'Z', 'T', 'N', 'W', 'N', 'I', 'N', 'D'],
+          ['B', 'L', 'L', 'E', 'W', 'C', 'V', 'A', 'E'],
+          ['L', 'H', 'S', 'F', 'S', 'A', 'P', 'L', 'L'],
+          ['A', 'C', 'O', 'L', 'S', 'Y', 'T', 'H', 'T'],
+          ['K', 'W', 'A', 'T', 'E', 'R', 'S', 'E', 'A'],
+          ['E', 'O', 'H', 'X', 'M', 'J', 'R', 'L', 'R']
+        ],
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'atlantic',
+            marker: {
+              x: 0,
+              y: 3
+            },
+            hint: '',
+            direction: 'across'
+          },
+          {
+            word: 'pacific',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: '',
+            direction: 'down'
+          },
+          {
+            word: 'southern',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: '',
+            direction: 'across'
+          },
+          {
+            word: 'arctic',
+            marker: {
+              x: 2,
+              y: 7
+            },
+            hint: '',
+            direction: 'across'
+          },
+          {
+            word: 'indian',
+            marker: {
+              x: 7,
+              y: 4
+            },
+            hint: '',
+            direction: 'across2'
+          }
+        ],
+        title: 'Major oceans of the earth.',
+        lang: 'en',
+        table: [
+          ['S', 'O', 'U', 'T', 'H', 'E', 'R', 'N'],
+          ['', '', '', '', '', '', '', 'P'],
+          ['', '', '', '', '', '', '', 'A'],
+          ['A', 'T', 'L', 'A', 'N', 'T', 'I', 'C'],
+          ['', '', 'N', 'A', 'I', 'D', 'N', 'I'],
+          ['', '', '', '', '', '', '', 'F'],
+          ['', '', '', '', '', '', '', 'I'],
+          ['', '', 'A', 'R', 'C', 'T', 'I', 'C']
+        ]
       }
     }
   ]

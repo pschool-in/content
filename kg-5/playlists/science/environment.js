@@ -557,6 +557,449 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           }
         ]
       }
+    },
+    {
+      id: 'wordsearch',
+      label: 'Living things - Wordsearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['A', 'N', 'T'],
+            marker: [0, 0, 2, 0]
+          },
+          {
+            word: ['T', 'I', 'G', 'E', 'R'],
+            marker: [2, 0, 2, 4]
+          },
+          {
+            word: ['C', 'R', 'O', 'W'],
+            marker: [1, 4, 4, 4]
+          },
+          {
+            word: ['L', 'O', 'T', 'U', 'S'],
+            marker: [5, 0, 5, 4]
+          },
+          {
+            word: ['E', 'A', 'G', 'L', 'E'],
+            marker: [0, 4, 4, 0]
+          },
+          {
+            word: ['F', 'O', 'X'],
+            marker: [3, 3, 3, 5]
+          }
+        ],
+        title: 'Find the hidden living things ',
+        lang: 'en',
+        table: [
+          ['A', 'N', 'T', 'K', 'E', 'L'],
+          ['I', 'H', 'I', 'L', 'T', 'O'],
+          ['Y', 'R', 'G', 'G', 'D', 'T'],
+          ['F', 'A', 'E', 'F', 'O', 'U'],
+          ['E', 'C', 'R', 'O', 'W', 'S'],
+          ['O', 'Y', 'L', 'X', 'L', 'K']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Non-Living things - Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'Mat',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Floor',
+            direction: 'across'
+          },
+          {
+            word: 'Nest',
+            marker: {
+              x: 2,
+              y: 5
+            },
+            hint: 'Bird',
+            direction: 'down2'
+          },
+          {
+            word: 'PENCIL',
+            marker: {
+              x: 5,
+              y: 1
+            },
+            hint: 'Stationary Things',
+            direction: 'across2'
+          },
+          {
+            word: 'Dress',
+            marker: {
+              x: 0,
+              y: 4
+            },
+            hint: 'Human being',
+            direction: 'across'
+          },
+          {
+            word: 'Pen',
+            marker: {
+              x: 4,
+              y: 0
+            },
+            hint: 'Stationary things',
+            direction: 'down'
+          },
+          {
+            word: 'TANK',
+            marker: {
+              x: 2,
+              y: 2
+            },
+            hint: 'Help to store water',
+            direction: 'across'
+          },
+          {
+            word: 'NET',
+            marker: {
+              x: 3,
+              y: 3
+            },
+            hint: 'Connected with threads',
+            direction: 'across'
+          },
+          {
+            word: 'CAB',
+            marker: {
+              x: 3,
+              y: 5
+            },
+            hint: 'Taxi',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['M', 'A', 'T', '', 'P', ''],
+          ['L', 'I', 'C', 'N', 'E', 'P'],
+          ['', '', 'T', 'A', 'N', 'K'],
+          ['', '', 'S', 'N', 'E', 'T'],
+          ['D', 'R', 'E', 'S', 'S', ''],
+          ['', '', 'N', 'C', 'A', 'B']
+        ]
+      }
+    },
+    {
+      id: 'wordsearch-2',
+      label: 'Domestic Animals - Wordsearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['B', 'U', 'F', 'F', 'A', 'L', 'O'],
+            marker: [0, 0, 6, 6]
+          },
+          {
+            word: ['C', 'A', 'T'],
+            marker: [3, 4, 5, 4]
+          },
+          {
+            word: ['D', 'O', 'G'],
+            marker: [6, 5, 6, 7]
+          },
+          {
+            word: ['H', 'E', 'N'],
+            marker: [7, 0, 5, 2]
+          },
+          {
+            word: ['C', 'O', 'C', 'K'],
+            marker: [3, 4, 3, 7]
+          },
+          {
+            word: ['G', 'O', 'A', 'T'],
+            marker: [4, 5, 1, 5]
+          },
+          {
+            word: ['D', 'O', 'N', 'K', 'E', 'Y'],
+            marker: [0, 7, 5, 7]
+          },
+          {
+            word: ['D', 'U', 'C', 'K'],
+            marker: [1, 6, 4, 6]
+          }
+        ],
+        title: 'Find the hidden domestic animals',
+        lang: 'en',
+        table: [
+          ['B', 'R', 'Z', 'F', 'T', 'P', 'Z', 'H'],
+          ['T', 'U', 'L', 'F', 'Y', 'Q', 'E', 'B'],
+          ['R', 'X', 'F', 'M', 'I', 'N', 'F', 'U'],
+          ['B', 'J', 'E', 'F', 'H', 'Z', 'U', 'R'],
+          ['D', 'U', 'U', 'C', 'A', 'T', 'S', 'X'],
+          ['O', 'T', 'A', 'O', 'G', 'L', 'D', 'I'],
+          ['I', 'D', 'U', 'C', 'K', 'Z', 'O', 'Y'],
+          ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword-2',
+      label: 'Wild animals - Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'ELEPHANT',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Trunk',
+            direction: 'down'
+          },
+          {
+            word: 'LEOPARD',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'Belongs cat family',
+            direction: 'across'
+          },
+          {
+            word: 'DEER',
+            marker: {
+              x: 6,
+              y: 1
+            },
+            hint: 'Spots on body',
+            direction: 'down'
+          },
+          {
+            word: 'BEAR',
+            marker: {
+              x: 5,
+              y: 3
+            },
+            hint: 'Teddy',
+            direction: 'across'
+          },
+          {
+            word: 'SNAKE',
+            marker: {
+              x: 2,
+              y: 2
+            },
+            hint: 'POISONOUS ANIMAL',
+            direction: 'across'
+          },
+          {
+            word: 'CROCODILE',
+            marker: {
+              x: 0,
+              y: 8
+            },
+            hint: '',
+            direction: 'across'
+          },
+          {
+            word: 'GIRAFFE',
+            marker: {
+              x: 8,
+              y: 1
+            },
+            hint: 'Long necked animal',
+            direction: 'down'
+          },
+          {
+            word: 'MONKEY',
+            marker: {
+              x: 1,
+              y: 5
+            },
+            hint: 'Jumps in tree',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['E', '', '', '', '', '', '', '', ''],
+          ['L', 'E', 'O', 'P', 'A', 'R', 'D', '', 'G'],
+          ['E', '', 'S', 'N', 'A', 'K', 'E', '', 'I'],
+          ['P', '', '', '', '', 'B', 'E', 'A', 'R'],
+          ['H', '', '', '', '', '', 'R', '', 'A'],
+          ['A', 'M', 'O', 'N', 'K', 'E', 'Y', '', 'F'],
+          ['N', '', '', '', '', '', '', '', 'F'],
+          ['T', '', '', '', '', '', '', '', 'E'],
+          ['C', 'R', 'O', 'C', 'O', 'D', 'I', 'L', 'E']
+        ]
+      }
+    },
+    {
+      id: 'wordsearch-3',
+      label: 'Carnivores- Word search',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['T', 'I', 'G', 'E', 'R'],
+            marker: [0, 0, 4, 4]
+          },
+          {
+            word: ['L', 'I', 'O', 'N'],
+            marker: [1, 0, 1, 3]
+          },
+          {
+            word: ['E', 'A', 'G', 'L', 'E'],
+            marker: [3, 3, 3, 7]
+          },
+          {
+            word: ['W', 'O', 'L', 'F'],
+            marker: [1, 6, 4, 6]
+          },
+          {
+            word: ['F', 'O', 'X'],
+            marker: [2, 1, 0, 3]
+          },
+          {
+            word: ['S', 'N', 'A', 'K', 'E'],
+            marker: [7, 3, 3, 3]
+          },
+          {
+            word: ['S', 'H', 'A', 'R', 'K'],
+            marker: [1, 4, 5, 4]
+          },
+          {
+            word: ['S', 'E', 'A', 'L', 'S'],
+            marker: [7, 3, 7, 7]
+          },
+          {
+            word: ['F', 'R', 'O', 'G'],
+            marker: [2, 1, 5, 1]
+          }
+        ],
+        title: 'Find the hidden carnivores',
+        lang: 'en',
+        table: [
+          ['T', 'L', 'R', 'E', 'H', 'G', 'M', 'A'],
+          ['K', 'I', 'F', 'R', 'O', 'G', 'N', 'O'],
+          ['V', 'O', 'G', 'B', 'G', 'S', 'D', 'V'],
+          ['X', 'N', 'R', 'E', 'K', 'A', 'N', 'S'],
+          ['O', 'S', 'H', 'A', 'R', 'K', 'F', 'E'],
+          ['Z', 'B', 'S', 'G', 'I', 'G', 'H', 'A'],
+          ['F', 'W', 'O', 'L', 'F', 'G', 'F', 'L'],
+          ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S']
+        ],
+        showWords: false
+      }
+    },
+    {
+      id: 'crossword-3',
+      label: 'Omnivores- Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'HUMAN',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Mankind',
+            direction: 'across'
+          },
+          {
+            word: 'ANT',
+            marker: {
+              x: 3,
+              y: 0
+            },
+            hint: 'Small creature',
+            direction: 'down'
+          },
+          {
+            word: 'BEAR',
+            marker: {
+              x: 7,
+              y: 4
+            },
+            hint: 'Teddy',
+            direction: 'across2'
+          },
+          {
+            word: 'MONKEY',
+            marker: {
+              x: 6,
+              y: 0
+            },
+            hint: 'Lives in Tree',
+            direction: 'down'
+          },
+          {
+            word: 'DOG',
+            marker: {
+              x: 7,
+              y: 1
+            },
+            hint: 'PET',
+            direction: 'across2'
+          },
+          {
+            word: 'CROW',
+            marker: {
+              x: 4,
+              y: 3
+            },
+            hint: 'Black color bird',
+            direction: 'down'
+          },
+          {
+            word: 'PIG',
+            marker: {
+              x: 0,
+              y: 3
+            },
+            hint: 'Pigpen',
+            direction: 'across'
+          },
+          {
+            word: 'BAT',
+            marker: {
+              x: 0,
+              y: 7
+            },
+            hint: 'Flying mammal',
+            direction: 'down2'
+          },
+          {
+            word: 'RAT',
+            marker: {
+              x: 2,
+              y: 5
+            },
+            hint: 'Living in holes',
+            direction: 'across2'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['H', 'U', 'M', 'A', 'N', '', 'M', ''],
+          ['', '', '', 'N', '', 'G', 'O', 'D'],
+          ['', '', '', 'T', '', '', 'N', ''],
+          ['P', 'I', 'G', '', 'C', '', 'K', ''],
+          ['', '', '', '', 'R', 'A', 'E', 'B'],
+          ['T', 'A', 'R', '', 'O', '', 'Y', ''],
+          ['A', '', '', '', 'W', '', '', ''],
+          ['B', '', '', '', '', '', '', '']
+        ]
+      }
     }
   ]
 };
