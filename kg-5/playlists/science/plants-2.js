@@ -525,7 +525,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     {
       id: '2600',
       label: 'Plants - Answer in one word ',
-      type: 'fillupOptions',
+      type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Green pigment in plant that help in tapping light - *chlorophyll*
@@ -811,7 +811,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: '4000',
       label: 'Plants - Answer in one word ',
-      type: 'fillupOptions',
+      type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Female reproductive organ - *gynoecium*
@@ -824,7 +824,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: '4100',
       label: 'Plants - Answer in one word -2 ',
-      type: 'fillupOptions',
+      type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Seed with single cotyledon - *monocotyledon*
@@ -911,7 +911,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: 'wordsearch-1',
       type: 'wordsearch',
-      label: 'WordSearch 1',
+      label: 'Exotic Plants',
       data: {
         title: 'Find the exotic plants from the table.',
         words: [
@@ -1085,7 +1085,7 @@ Soil is one of the most important natural resources. It is essential for agricul
       id: 'wordsearch-2',
       editable: true,
       type: 'wordsearch',
-      label: 'WordSearch 2',
+      label: 'Parts of flower',
       data: {
         title: 'Find the parts of flower',
         words: [
@@ -1147,7 +1147,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: 'wordsearch-3',
       type: 'wordsearch',
-      label: 'WordSearch 3',
+      label: 'Flowering Plants',
       data: {
         title: 'Find the flowering plants from the table.',
         words: [
@@ -1235,7 +1235,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: 'wordsearch-4',
       type: 'wordsearch',
-      label: 'WordSearch 4',
+      label: 'Non Flowering Plants',
       data: {
         title: 'Find the non flowering plants from the table.',
         words: [
@@ -1437,7 +1437,7 @@ Soil is one of the most important natural resources. It is essential for agricul
     {
       id: 'wordsearch-5',
       type: 'wordsearch',
-      label: 'WordSearch 5',
+      label: 'Friends of Farmer',
       data: {
         title: 'Find the friends of farmer from the table.',
         words: [

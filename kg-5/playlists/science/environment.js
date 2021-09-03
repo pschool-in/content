@@ -27,7 +27,7 @@ export default {
         types: [
           {
             name: 'living',
-            text: 'mango tree, squirrel, fox, lotus,'
+            text: 'mango tree, squirrel, fox, lotus'
           },
           {
             name: 'non-living',
@@ -323,7 +323,7 @@ export default {
     },
     {
       id: 'match-3',
-      label: 'Match',
+      label: 'Match-3',
       type: 'match',
       data: {
         title: 'Match the related ones.',
@@ -337,7 +337,7 @@ export default {
     },
     {
       id: 'mcq-3',
-      label: 'Multiple Choice Questions - MCQ',
+      label: 'Multiple Choice Questions - MCQ-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -369,9 +369,9 @@ export default {
       }
     },
     {
-      id: 'fillup-3',
-      label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      id: 'drag-drop-3',
+      label: 'Drag and Drop-3',
+      type: 'matchByDragDrop',
       data: {
         text: `Cow dung is used for the *production of biogas*.
           Plants in *marshes* are called mangroves.
@@ -383,7 +383,7 @@ export default {
     },
     {
       id: 'fillup-options-3',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks-3',
       type: 'fillupOptions',
       data: {
         text: `Cattle dung is used in *plastering (constructing)* the mud houses.
@@ -396,7 +396,7 @@ export default {
     },
     {
       id: 'true-false-3',
-      label: 'True or False',
+      label: 'True or False-3',
       type: 'classifySentence',
       data: {
         title: 'True or False',
@@ -442,7 +442,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
     },
     {
       id: 'classify-4',
-      label: 'Living vs Non-living',
+      label: 'Plant based food Vs. Animal based food',
       type: 'group',
       data: {
         title: 'Classify the below things as plant-based or animal-based.',
@@ -460,7 +460,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
     },
     {
       id: 'match-4',
-      label: 'Match',
+      label: 'Match-4',
       type: 'match',
       data: {
         title: 'Match the related ones.',
@@ -474,7 +474,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
     },
     {
       id: 'mcq-4',
-      label: 'Multiple Choice Questions - MCQ',
+      label: 'Multiple Choice Questions - MCQ-4',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -485,7 +485,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             qText: 'Humans are classified under ________. ',
-            options: `Omnivores, Carnivores, Herbivores`
+            options: `Omnivores, Carnivores, Herbivores, None of the above`
           },
           {
             qText: '_______ are also called as primary producers.',
@@ -493,18 +493,18 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             qText: 'Van Mahotsav means ____________.',
-            options: `festival of forests, festival of animals, festival of human beings`
+            options: `festival of forests, festival of animals, festival of human beings, None of the above`
           },
           {
             qText:
               'Choose a correct food chain sequence from the following orders',
             options: `Plant – Deer- Lion
-              Lion- Bacteria – Humans
-              Humans – plants – Tiger
-              Fox – Fungi - Humans`
+              Lion- Bacteria – Human
+              Human – plant – Tiger
+              Fox – Fungi - Human`
           },
           {
-            label: 'Drag and Drop',
+            label: 'Drag and Drop-4',
             type: 'matchByDragDrop',
             id: 'drag-drop-4',
             data: {
@@ -523,7 +523,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             id: 'fillup-4',
-            label: 'Fill in the blanks',
+            label: 'Fill in the blanks-4',
             type: 'fillupOptions',
             data: {
               text: `*Decomposers (Producers)* get food from the decay of animals and plants.
@@ -536,7 +536,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           },
           {
             id: 'true-false-4',
-            label: 'True or False',
+            label: 'True or False-4',
             type: 'classifySentence',
             data: {
               title: 'True or False',

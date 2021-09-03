@@ -496,7 +496,7 @@ Throwing out electronics.`
     {
       id: 'wordsearch-1',
       type: 'wordsearch',
-      label: 'WordSearch - 1',
+      label: 'Biodegradable Items',
       data: {
         title: 'Find 10 biodegradable items ',
         words: [
@@ -559,7 +559,7 @@ Throwing out electronics.`
       id: 'wordsearch-2',
       editable: true,
       type: 'wordsearch',
-      label: 'WordSearch 2',
+      label: 'Non Biodegradable Items',
       data: {
         title: 'Find 10 non biodegradable items',
         words: [
@@ -1055,7 +1055,7 @@ Throwing out electronics.`
       id: 'wordsearch-3',
       editable: true,
       type: 'wordsearch',
-      label: 'WordSearch 3',
+      label: 'Living Things',
       data: {
         title: 'Find 13 living things',
         words: [
@@ -1129,7 +1129,7 @@ Throwing out electronics.`
     {
       id: 'wordsearch-4',
       type: 'wordsearch',
-      label: 'WordSearch ',
+      label: 'Non Living Things ',
       data: {
         title: 'Find 13 non living things',
         words: [

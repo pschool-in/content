@@ -354,7 +354,7 @@ Sarees from some states of India have special significance and great popularity 
     },
     {
       label: 'Additional questions in cloth',
-      type: 'matchByDragDrop',
+      type: 'fillupOptions',
       id: 'drag-drop-4',
       data: {
         isPractice: false,
@@ -371,7 +371,7 @@ Sarees from some states of India have special significance and great popularity 
     },
     {
       label: 'Additional questions in cloth - 2',
-      type: 'matchByDragDrop',
+      type: 'fillupOptions',
       id: 'drag-drop-5',
       data: {
         isPractice: false,

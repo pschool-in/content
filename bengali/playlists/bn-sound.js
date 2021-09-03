@@ -313,10 +313,10 @@ export default {
           }
         ]
       },
-      {
+        {
         type: 'rightOne',
-        label: 'শব্দ শুনে শনাক্ত করুন',
-        id: 'pick-word',
+        label: 'শব্দ শুনে শনাক্ত করুন - পশু, পাখি',
+        id: 'pick-word-animalbird',
         commonData: {
           title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
           type: 'image'
@@ -358,6 +358,17 @@ export default {
             audioOffset: 18,
             words: 'kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker'
           },
+        ]
+    },
+    {
+        type: 'rightOne',
+        label: 'শব্দ শুনে শনাক্ত করুন - ফল, ফুল, শাকসবজি',
+        id: 'pick-word-fruitveg',
+        commonData: {
+          title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
+          type: 'image'
+        },
+        data: [
           {
             audio: 'bn-flowers-bodyParts-kitchen.mp3',
             audioOffset: 0,
@@ -403,12 +414,24 @@ export default {
             words:
               'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
           },
+        ]
+    },
+    {
+        type: 'rightOne',
+        label: 'শব্দ শুনে শনাক্ত করুন - যানবাহন , অন্যান্য',
+        id: 'pick-word-others',
+        commonData: {
+          title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
+          type: 'image'
+        },
+        data: [
           {
             audio: 'bn-vehicles.mp3',
             audioOffset: 0,
             words:
               'aeroplane, boat, bus, car, ship, train, auto, cart, excavator, fire-engine'
           },
+
           {
             audio: 'bn-others.mp3',
             audioOffset: 0,
