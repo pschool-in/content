@@ -166,7 +166,7 @@ export default {
           # Different ways of the Fish
           Fishes live in water. They are of different types. They have fins and scales in their body to move in the water; use gills to breathe. They cannot survive on land. Some unique fishes can survive on moist-land, for example, the mud-fish.
           Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified under the cold-blooded animal.
-          # Domestic animals and Wild animals:
+          # Domestic animals and Wild animals
  Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`
       }
     },
