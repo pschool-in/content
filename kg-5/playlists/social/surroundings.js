@@ -29,7 +29,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           },
           {
             name: 'Weaving ',
-            text: 'Dowels, Shed stick, Warp yarn'
+            text: 'Dowels, Shed stick, Tapestry Needle, Warp yarn'
           }
         ]
       }
