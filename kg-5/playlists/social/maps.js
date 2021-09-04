@@ -178,7 +178,7 @@ export default {
       id: '700',
       data: {
         isPractice: false,
-        title: 'Answer the following in one word',
+        title: 'Answer the following',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
