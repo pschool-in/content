@@ -39,7 +39,7 @@ export default {
       }
     },
     {
-      label: 'Drag and drops the words at the right places',
+      label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: '200',
       data: {
