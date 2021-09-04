@@ -131,7 +131,7 @@ export default {
       id: '400',
       data: {
         isPractice: false,
-        title: 'Drag and drops the words at the right places',
+        title: 'Determine the directions with reference to starting points',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -148,7 +148,7 @@ export default {
       id: '500',
       data: {
         isPractice: false,
-        title: 'Drag and drops the words at the right places',
+        title: 'Fill in the blanks',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -178,7 +178,7 @@ export default {
       id: '700',
       data: {
         isPractice: false,
-        title: 'Drag and drops the words at the right places',
+        title: 'Answer the following in one word',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
