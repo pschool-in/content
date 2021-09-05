@@ -283,8 +283,7 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
         title: 'Click the blanks and fill it with the right word.',
         text: `Clay pot has thousands of tiny pores through which water seeps out. This causes *cooling (heating)* effect.
           The *flute (piano)* is an example for wind instrument.
-          In 1772, the Scottish chemist, Daniel Rutherford, reported
-          noxious air, which now we call *Nitrogen (oxygen)*.
+          In 1772, the Scottish chemist, Daniel Rutherford, reported noxious air, which now we call *Nitrogen (oxygen)*.
           A grown up tree intakes *1/3 (2/3)* of carbon dioxide exhaled by one person and it gives out the same amount of *oxygen (carbon dioxide)* required by a person.
           *Three (five)* trees are needed to fulfill the required oxygen for a man to survive.`
       }
@@ -327,8 +326,7 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
         text: `Gives you oxygen. - *tree*
           Melting of snow caps and increase in sea levels - *global warming*
           Dust particles and smoke combine with fog in the presence of sunlight - *smog*
-          Sulphur dioxide and nitrogen oxides react with water in the atmosphere producing sulphuric acid and nitric acid. These acids
-          come down along with the rain. - *acid rain*
+          Sulphur dioxide and nitrogen oxides react with water in the atmosphere producing sulphuric acid and nitric acid. These acids come down along with the rain. - *acid rain*
           Liquid or solid particles are dispersed in air, - *aerosol*
           Hydrocarbons such as the Chloro Fluoro Carbons (CFCs) destroy - *ozone*`
       }

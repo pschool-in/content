@@ -29,7 +29,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           },
           {
             name: 'Weaving ',
-            text: 'Dowels, Shed stick, Warp yarn'
+            text: 'Dowels, Shed stick, Tapestry Needle, Warp yarn'
           }
         ]
       }
@@ -69,7 +69,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           },
           {
             qText: 'Khajuraho Temples is situated in ___________.',
-            options: `Madhya Pradesh, Odisha, Gujarat`
+            options: `Madhya Pradesh, Odisha, Gujarat, None of the above`
           },
           {
             qText: '_______ is situated in Tamil Nadu.',
@@ -102,10 +102,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
       type: 'fillupOptions',
       data: {
         text: `King Chathrapathi Sivaji was the founder of *Maratha (Gupta)* Empire. 
-          * Rajaraja (Rajendra)*  Chola built the Brihadishvara temple. 
+          *Rajaraja Chola I (Rajendra Chola I)* built the Brihadishvara temple. 
           *Plough (Shuttle)* is used in agriculture.
           Lotus temple is one of the famous monuments situated in *Delhi (Amritsar)*.
-          *Jaisalmer (Mehrangarh)*  Fort is also called a golden fort.`,
+          *Jaisalmer (Mehrangarh)* Fort is also called a golden fort.`,
         title: 'Fill in the blanks.'
       }
     },
@@ -141,7 +141,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'classify-2',
-      label: ' British  vs Mughal monuments',
+      label: ' British vs Mughal monuments in India',
       type: 'group',
       data: {
         title: 'Classify the below',
@@ -160,7 +160,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'match-2',
-      label: 'Match',
+      label: 'Match-2',
       type: 'match',
       data: {
         title: 'Match the related ones.',
@@ -174,18 +174,18 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'mcq-2',
-      label: 'Multiple Choice Questions',
+      label: 'Multiple Choice Questions-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
             qText: 'Tomb of Akbar is located in ________.',
-            options: `Agra, Noida, Gurugram`
+            options: `Agra, Noida, Gurugram, None of the Above`
           },
           {
             qText: '_________ Fort is first English fort in India.',
-            options: `Fort St. George, Sewri Fort, Mahim Fort`
+            options: `Fort St. George, Sewri Fort, Mahim Fort, None of the Above`
           },
           {
             qText: 'Vivekanandha rock is situated in __________. ',
@@ -203,7 +203,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
       }
     },
     {
-      label: 'Drag and Drop',
+      label: 'Drag and Drop-2',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
@@ -213,20 +213,20 @@ India has a rich heritage and it is well known for its old culture. Many places 
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `*Thiruvalluvar* statue was situated in the Kanyakumari district.
-        Aayi Mandapam is also called *Park* Monument.
-        *Mandvi* Gate is the north gate of the Royal Enclosure for the state Baroda.
-        *Wagah* border is famous for ceremonial closing the gates and lowering of India and Pakistan flags.
+        text: `*Thiruvalluvar statue* was situated in the Kanyakumari district.
+        Aayi Mandapam is also called *Park Monument*.
+        *Mandvi Gate* is the north gate of the Royal Enclosure for the state Baroda.
+        *Wagah border* is famous for ceremonial closing the gates and lowering of India and Pakistan flags.
         *Sittanavasal* Cave is situated in Tamil Nadu.`
       }
     },
     {
       id: 'fillup-2',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks-2',
       type: 'fillupOptions',
       data: {
-        text: `Mamallapuram was built by *Narasimhavarman (Paramesvaravarman )*.
-          Arch of Viceroy is situated in * Goa (Ahmedabad)*
+        text: `Mamallapuram was built by *Narasimhavarman (Paramesvaravarman)*.
+          Arch of Viceroy is situated in *Goa (Ahmedabad)*
           Vasco Da Gama Memorial is situated in *Kerala (Goa)*.
           Nalanda University was constructed by the *Gupta dynasty (Rajputs)*.
           The Elephant Palace is situated in *Madhya Pradesh (Andhra Pradesh)*`,
@@ -235,7 +235,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
     },
     {
       id: 'true-false-2',
-      label: 'True or False',
+      label: 'True or False-2',
       type: 'classifySentence',
       data: {
         title: 'True or False',
@@ -293,7 +293,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
           ['O', 'I', 'S', 'Q', 'Y', 'W', 'R', 'S'],
           ['W', 'T', 'Y', 'M', 'F', 'S', 'W', 'H']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {

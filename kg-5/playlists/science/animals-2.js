@@ -302,9 +302,9 @@ export default {
         fontSize: '2rem'
       },
       data: [
-        `egg, tadpole, tadpole with legs, young frog, adult frog`,
-        `egg, caterpillar, chrysalis, butterfly`,
-        `egg, embryo, hatching, chick, chicken`
+        `Egg, Tadpole, Tadpole with legs, Young frog, Adult frog`,
+        `Egg, Caterpillar, Chrysalis, Butterfly`,
+        `Egg, Embryo, Hatching, Chick, Chicken`
       ]
     },
     {
@@ -560,7 +560,7 @@ export default {
         fontSize: '2rem'
       },
       data: [
-        `Pre-fertilization, fertilization, post-fertilization, embryo formation`
+        `Pre-fertilization, Fertilization, Post-fertilization, Embryo formation`
       ]
     },
     {
@@ -597,7 +597,6 @@ export default {
         `SPORE, ZYGOTE, LARVA, EMBRYO, HYDRA`
       ]
     },
-
     {
       label: 'Choose the best Answer - Animal food habit',
       id: '2600',

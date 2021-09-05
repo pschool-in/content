@@ -62,7 +62,7 @@ export default {
     {
       label: 'Choose the best Answer - Water',
       id: '200',
-      type: 'MCQ',
+      type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -113,7 +113,7 @@ export default {
           }
         ]
       },
-      slug: 'MCQ',
+      slug: 'mcq',
       editable: true
     },
     {
@@ -170,24 +170,42 @@ The largest source of water on the earth is *ocean (sea)*.
 *Malaria (Cholera)* is caused by mosquitoes.`
       }
     },
-    {
-      label: 'Drag and Drop',
-      type: 'matchByDragDrop',
-      id: '600',
-      data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `We need water to *clean* our face.
-We need water to *brush* our teeth.
-We need water to *cook* our food.
-We need water to *wash* our vessels.
-We need water to *drink*.`
-      }
-    },
+      {
+        label: 'Choose the correct option',
+        type: 'mcq',
+        id: '600',
+        data: {
+          title: 'Choose the correct option.',
+          questions: [
+          {
+            qText: ' We need water to _____ our face.',
+            options: 'wash, dry, paint'
+          },
+          {
+            qText: ' We need water to _____ our teeth.',
+            options: 'brush, rinse, colour'
+          },
+          {
+            qText: ' We need water to _____ our food.',
+            options: 'cook, water, waste'
+          },
+          {
+            qText: 'We need water to _____ our vessels.',
+            options: 'clean, paint, colour'
+          },
+          {
+            qText: 'Plants need water to ______.',
+            options: 'grow, flow, dry'
+          },
+          {
+            qText: 'We need water to ______ a boat.',
+            options: 'row, sow, tow'
+          },
+
+
+          ]
+        }
+      },
     {
       label: 'Activities needing water',
       id: '700',
@@ -196,13 +214,13 @@ We need water to *drink*.`
         title: 'Classify the activities that need water.',
         types: [
           {
-            name: 'Needs Water',
+            name: 'Needs water',
             text:
-              'grow plant, water coloring, row a boat, knead dough, wash dress'
+              'Plant, Water coloring, Boating, Dough, Washing'
           },
           {
-            name: "Doesn't need",
-            text: 'play game, sing a song, run fast, write'
+            name: "Doesn't need water",
+            text: 'Playing, Singing, Running, Writing'
           }
         ]
       }
@@ -321,12 +339,12 @@ We should drink *12* glasses of water everyday.
         types: [
           {
             name: 'Natural',
-            text: 'springs, streams, rivers, lakes, creeks, seas, oceans, ponds'
+            text: 'Springs, Streams, Rivers, Lakes, Creeks, Seas, Oceans, Ponds'
           },
           {
             name: 'Man-made',
             text:
-              'wells, dams, bore-wells, hand-pumps, canals, taps, reservoirs'
+              'Wells, Dams, Bore-wells, Hand-pumps, Canals, Taps, Reservoirs'
           }
         ]
       }

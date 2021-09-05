@@ -259,7 +259,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
         text: `Tomato, Carrot, Radish, Beetroot
             Turmeric,Cabbage,  Greens,  Spinach
             Neem,  Aloe vera,  Datepalm,  Opuntia
-            Mango, Apple, Orange, Papaya.
+            Mango, Apple, Orange, Papaya
             Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
       }
     },
@@ -496,9 +496,9 @@ Based on the colour present in the plant, they are classified into Green and Non
         title: 'Odd one out',
         fontSize: '1.3rem',
         noCaps: true,
-        text: `Tulip, December, Tuberose. 
-            Rose,Saffron, Dahlia. 
-            Rose, Boat lily, Crotons. `
+        text: `Tulip, December, Tuberose 
+            Rose,Saffron, Dahlia 
+            Rose, Boat lily, Crotons`
       }
     },
     {
@@ -511,13 +511,13 @@ Based on the colour present in the plant, they are classified into Green and Non
           {
             name: 'True',
             text: `Plants bearing flowers are flowering plants.
-                    Tomato is a fruit.
-                    Cycas is an exotic plant`
+                   Tomato is a fruit.
+                   Cycas is an exotic plant`
           },
           {
             name: 'False',
             text: `Rose is an autumn flower.
-                    Cauliflower is an edible leaf`
+                   Cauliflower is an edible leaf`
           }
         ]
       }
@@ -531,7 +531,7 @@ Based on the colour present in the plant, they are classified into Green and Non
         text: `Green pigment in plant that help in tapping light - *chlorophyll*
                 Process by which plants make food - *photosynthesis*
                 Part of plant that helps in exchange of gases - *stomata*
-                Leaves loose water by this process - *traspiration*`
+                Leaves loose water by this process - *transpiration*`
       }
     },
     {

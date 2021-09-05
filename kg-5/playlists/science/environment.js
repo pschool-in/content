@@ -107,7 +107,7 @@ export default {
         text: `Living things bring changes in *non-living things* too.
         Living things need *food* to grow.
         Humans used to weave *clothes* using cotton, silk, wool.
-        Some animals used to hunt and eat other *animal's flesh*
+        Some animals used to hunt and eat other *animal's flesh*.
         For survival, living things take their needs from the *environment*.`
       }
     },
@@ -166,7 +166,7 @@ export default {
           # Different ways of the Fish
           Fishes live in water. They are of different types. They have fins and scales in their body to move in the water; use gills to breathe. They cannot survive on land. Some unique fishes can survive on moist-land, for example, the mud-fish.
           Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified under the cold-blooded animal.
-          # Domestic animals and Wild animals:
+          # Domestic animals and Wild animals
  Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`
       }
     },
@@ -204,7 +204,7 @@ export default {
     },
     {
       id: 'mcq-2',
-      label: 'Multiple Choice Questions - MCQ',
+      label: 'Multiple Choice Questions - MCQ-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -233,7 +233,7 @@ export default {
       }
     },
     {
-      label: 'Drag and Drop',
+      label: 'Drag and Drop-2',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
@@ -253,7 +253,7 @@ export default {
 
     {
       id: 'fillup-2',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks-2',
       type: 'fillupOptions',
       data: {
         text: `Birds have *two (three)* wings.
@@ -266,7 +266,7 @@ export default {
     },
     {
       id: 'true-false-2',
-      label: 'True or False',
+      label: 'True or False-2',
       type: 'classifySentence',
       data: {
         title: 'True or False',
@@ -359,7 +359,7 @@ export default {
             options: `Panda, Seals, Penguins, Walrus`
           },
           {
-            qText: '__________ is a reptile',
+            qText: '__________ is a reptile.',
             options: `Turtles
               Gila monster
               Alligator
@@ -599,7 +599,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['E', 'C', 'R', 'O', 'W', 'S'],
           ['O', 'Y', 'L', 'X', 'L', 'K']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -614,7 +614,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 0
             },
-            hint: 'Floor',
+            hint: 'Lying on the Floor',
             direction: 'across'
           },
           {
@@ -623,7 +623,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 2,
               y: 5
             },
-            hint: 'Bird',
+            hint: 'Bird house',
             direction: 'down2'
           },
           {
@@ -632,7 +632,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 5,
               y: 1
             },
-            hint: 'Stationary Things',
+            hint: 'Friend of eraser',
             direction: 'across2'
           },
           {
@@ -744,7 +744,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['I', 'D', 'U', 'C', 'K', 'Z', 'O', 'Y'],
           ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -804,7 +804,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 8
             },
-            hint: '',
+            hint: 'Reptile',
             direction: 'across'
           },
           {
@@ -896,7 +896,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
           ['F', 'W', 'O', 'L', 'F', 'G', 'F', 'L'],
           ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S']
         ],
-        showWords: false
+        showWords: true
       }
     },
     {
