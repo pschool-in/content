@@ -502,58 +502,58 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               Lion- Bacteria – Human
               Human – plant – Tiger
               Fox – Fungi - Human`
-          },
-          {
-            label: 'Drag and Drop-4',
-            type: 'matchByDragDrop',
-            id: 'drag-drop-4',
-            data: {
-              isPractice: false,
-              title: 'Drag and drop the words at proper place.',
-              styles: {
-                fontSize: '1rem',
-                dashWidth: 80
-              },
-              text: `Amoeba is a *unicellular* organism.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Drag and Drop-4',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-4',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Amoeba is a *unicellular* organism.
               *Ecology* is the science that deals with the relationship between biotic factors and their physical environment.
               Plants prepare their own food and the process is called *photosynthesis*.
               *Parasitic* plants are dependent on other plants for their food.
               Carnivores are *flesh* eating animals.`
-            }
-          },
-          {
-            id: 'fillup-4',
-            label: 'Fill in the blanks-4',
-            type: 'fillupOptions',
-            data: {
-              text: `*Decomposers (Producers)* get food from the decay of animals and plants.
+      }
+    },
+    {
+      id: 'fillup-4',
+      label: 'Fill in the blanks-4',
+      type: 'fillupOptions',
+      data: {
+        text: `*Decomposers (Producers)* get food from the decay of animals and plants.
               Trees give *Oxygen (Carbon-dioxide)* during day time.
               *Lentils (Insects)* grows in the fertile soil.
               *Cats (Hens)* gives birth to kittens. 
               *Tree (Sapling)*provides both shelter and food to other living things.`,
-              title: 'Fill in the blanks.'
-            }
-          },
+        title: 'Fill in the blanks.'
+      }
+    },
+    {
+      id: 'true-false-4',
+      label: 'True or False-4',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
           {
-            id: 'true-false-4',
-            label: 'True or False-4',
-            type: 'classifySentence',
-            data: {
-              title: 'True or False',
-              types: [
-                {
-                  name: 'True',
-                  text: `Fungi is a micro-organism.
+            name: 'True',
+            text: `Fungi is a micro-organism.
                   The young plant is called a sapling.
                   Stones are an abiotic factor`
-                },
-                {
-                  name: 'False',
-                  text: `An elephant is an omnivore animal.
+          },
+          {
+            name: 'False',
+            text: `An elephant is an omnivore animal.
                   Soil is a consumer.`
-                }
-              ]
-            }
           }
         ]
       }

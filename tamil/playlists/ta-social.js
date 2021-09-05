@@ -44,7 +44,7 @@ export default {
       label: 'நதிகள்',
       type: 'dragAndDrop',
       data: {
-        img: 'tamilNadu',
+        img: 'tamilnadu.jpg',
         width: 320,
         height: 412,
         wordWidth: 110,
@@ -94,8 +94,7 @@ export default {
       label: 'மாநகரங்கள்',
       type: 'dragAndDrop',
       data: {
-        img: 'tamilNadu',
-        src: 'tamilNadu.png',
+        img: 'tamilnadu.jpg',
         title: 'மாநகரங்கள்',
         width: 320,
         height: 412,
@@ -135,8 +134,7 @@ export default {
       label: 'சுற்றுலா தலங்கள்',
       type: 'dragAndDrop',
       data: {
-        img: 'tamilNadu',
-        src: 'tamilNadu.png',
+        img: 'tamilnadu.jpg',
         title: 'சுற்றுலா தலங்கள்',
         width: 320,
         height: 412,
@@ -256,19 +254,9 @@ export default {
       type: 'sequence',
       label: 'வார்த்தை அமைக்கவும் ',
       data: {
-        editable: true,
+        lang: 'ta',
         title: 'எழுத்துக்களை சேர்த்து வார்த்தை அமைக்கவும் ',
-        text: `செ ன் னை
-தி ரு ச் சி
-சே ல ம்
-ம து ரை
-கோ ய ம் பு த் தூ ர் 
-கா வி ரி
-தா மி ர ப ர ணி
-நொ ய் ய ல்
-அ ம ரா வ தி
-பா லா று
-தெ ன் பெ ண் ணை `
+        text: `சென்னை, திருச்சி, சேலம், மதுரை, கோயம்புத்தூர், காவிரி, தாமிரபரணி, நொய்யல், அமராவதி, பாலாறு, தென்பெண்ணை `
       }
     },
     {

@@ -77,7 +77,7 @@ When the hunter was away, the mouse freed the turtle from the net.`
       label: 'The Mice that Ate Balance',
       data: {
         img: {
-          url: 'img/story/24_mice_ate_balance.png'
+          url: 'story/24_mice_ate_balance.jpg'
         },
         title: 'The Mice that Ate Balance',
         text: `Once upon a time, there lived a wealthy merchant, in a village. He ran a big business. His village was situated near a river. Once, due to heavy rain, the river was flooded. One night, the whole village was submerged in neck deep water. The crops, houses and factories in the village were destroyed and hundreds of people and cattle perished in the flood.
@@ -161,7 +161,7 @@ He asked his friend to keep his iron balance for some time.`
         editable: true,
         title: 'The Well Dispute',
         img: {
-          url: 'img/story/26_well_dispute.jpg'
+          url: 'story/26_well_dispute.jpg'
         },
         text: `Once there was a complaint at King Akbar's court. There were two neighbours who shared their garden. In that garden, there was a well that was possessed by Iqbal Khan. His neighbour, who was a farmer wanted to buy the well for irrigation purpose. Therefore, they signed an agreement between them, after which the farmer owned the well.
 Even after selling the well to the farmer, Iqbal continued to fetch water from the well. Angered by this, the farmer had come to get justice from King Akbar. King Akbar asked Iqbal the reason for fetching water from the well even after selling it to the farmer. Iqbal replied that he had sold only the well to the farmer but not the water inside it.
@@ -292,7 +292,7 @@ The villagers got curious about the stone soup.`
       label: 'The Man and the Tree',
       data: {
         img: {
-          url: 'img/story/28_tree.png'
+          url: 'story/28_tree.jpg'
         },
         title: 'The Man and the Tree',
         text: `One day, a man climbed up a tree. While climbing up, he did not realise how tall the tree actually was and kept climbing up. On reaching the top, when the man looked down, he realised that climbing down from the tree would not be as easy as climbing up. He could not think of any way of getting down without injuring himself seriously.

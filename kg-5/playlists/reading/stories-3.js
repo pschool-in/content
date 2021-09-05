@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Tenali Raman and the Horse',
         img: {
-          url: 'img/story/16_horse.png'
+          url: 'story/16_horse.png'
         },
         text: `Once, the King wanted to expand his army. So, he needed more horses. He decided to give one horse to each person in his kingdom to take care of. He also gave everyone a good supply of straw to feed the horse. Everyone except Tenali Rama was not happy with this plan. He shut his horse in one room and everyday at exactly nine o’clock he gave the horse very little straw through the window. He gave the remaining straw to his cows that became fat and healthy.
 At the end of a year, the king wanted to see all his horses. All the people who were given horses to take care of  brought their horses for inspection. But, Tenali Rama did not bring his horse. On being questioned, he answered that his horse had become so strong that he could not bring it to the court. The king was surprised on hearing this. He said, “Alright, I will send my chief inspector to your house tomorrow morning at nine to inspect the horse there.” Tenali agreed.
@@ -73,7 +73,7 @@ He shouted in pain, and ran out to report to the king.`
       label: 'Tenali Raman and the Cat',
       data: {
         img: {
-          url: 'img/story/17_tenali_cat.png'
+          url: 'story/17_tenali_cat.jpg'
         },
         title: 'Tenali Raman and the Cat',
         text: `The country faced a major problem of rats. Rats had multiplied to a very large number and were creating a lot of destruction. They were nibbling through important papers, clothes, grains in food stores, etc. There were not many cats in the kingdom to catch all the rats. So, the king asked all the houses in the country to keep one cat each. But cats feed on milk and not every house owned a cow to get the milk. So, the king also gave a cow to every house. The people were happy and took care of cows and cats. They used to give a lot of milk to their cats.
@@ -145,7 +145,7 @@ Tenali drank all the milk himself.`
         editable: true,
         title: 'Who will Bell the Cat',
         img: {
-          url: 'img/story/18_cat_with_bell.png'
+          url: 'story/18_cat_with_bell.png'
         },
         text: `Once, a huge number of mice lived in a grocer’s shop. They ate the fresh, tasty wheat, rice, bread, cheese and biscuits that were kept in the shop. They were having a great time and living easy, comfortable lives, growing fatter day-by-day.
 But, the grocer was concerned about the loss that he was suffering, because of the damage done to his stock by the mice. So, he thought of a solution and bought a big, fat cat to keep in his shop.
@@ -212,7 +212,7 @@ But no mice was ready to do it.`
       label: 'Blue Jackal',
       data: {
         img: {
-          url: 'img/story/19_blue_jackal.png'
+          url: 'story/19_blue_jackal.jpg'
         },
         title: 'Blue Jackal',
         text: `Long ago, there lived a cunning jackal. One day, driven by hunger, he strayed into a village in search of food. On seeing him, a pack of dogs ran after him. Terrified, he dashed into the house of a dye merchant and accidentally fell into a tub of blue dye. The jackal was stained blue from head to toe.
@@ -277,7 +277,7 @@ One day, the jackal was caught due to its howling.`
       label: 'The Talkative Tortoise',
       data: {
         img: {
-          url: 'img/story/20_talkative_tortoise.png'
+          url: 'story/20_talkative_tortoise.jpg'
         },
         title: 'The Talkative Tortoise',
         text: `There once lived three great friends - a pair of geese and a tortoise. One summer, the scorching sun rays dried up their lake, and they decided to leave and look for a new lake.

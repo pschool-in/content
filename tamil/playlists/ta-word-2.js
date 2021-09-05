@@ -90,7 +90,7 @@ export default {
         {
           audioOffset: 23,
           audio: 'ta-flowers-bodyParts.mp3',
-          words: 'காது, கண், கால், முடி, கை , வாய், மூக்கு, பல்'
+          words: 'காது, கண், கால், முடி, கை , வாய், மூக்கு, பற்கள்'
         },
         {
           audioOffset: 0,

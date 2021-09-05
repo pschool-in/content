@@ -339,6 +339,108 @@ export default {
         lang: 'en',
         showWords: true
       }
+    },
+    {
+      id: 'wordsearch',
+      label: 'Word Search: Directions',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['E', 'A', 'S', 'T'],
+            marker: [1, 1, 4, 4]
+          },
+          {
+            word: ['W', 'E', 'S', 'T'],
+            marker: [5, 0, 2, 0]
+          },
+          {
+            word: ['N', 'O', 'R', 'T', 'H'],
+            marker: [1, 4, 5, 4]
+          },
+          {
+            word: ['S', 'O', 'U', 'T', 'H'],
+            marker: [0, 1, 0, 5]
+          }
+        ],
+        title: 'Find the directions',
+        table: [
+          ['O', 'L', 'T', 'S', 'E', 'W'],
+          ['S', 'E', 'E', 'X', 'A', 'T'],
+          ['O', 'E', 'A', 'I', 'K', 'B'],
+          ['U', 'F', 'Q', 'S', 'L', 'X'],
+          ['T', 'N', 'O', 'R', 'T', 'H'],
+          ['H', 'S', 'V', 'N', 'X', 'N']
+        ],
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'Ganga',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Holy river',
+            direction: 'across'
+          },
+          {
+            word: 'Narmada',
+            marker: {
+              x: 2,
+              y: 0
+            },
+            hint: '5th longest river in India',
+            direction: 'down'
+          },
+          {
+            word: 'Mumbai',
+            marker: {
+              x: 2,
+              y: 3
+            },
+            hint: 'Capital of Maharashtra',
+            direction: 'across'
+          },
+          {
+            word: 'Asia',
+            marker: {
+              x: 2,
+              y: 6
+            },
+            hint: 'Largest continent',
+            direction: 'across'
+          },
+          {
+            word: 'Gujarat',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: '5th Largest Indian state',
+            direction: 'down'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['G', 'A', 'N', 'G', 'A', '', '', ''],
+          ['U', '', 'A', '', '', '', '', ''],
+          ['J', '', 'R', '', '', '', '', ''],
+          ['A', '', 'M', 'U', 'M', 'B', 'A', 'I'],
+          ['R', '', 'A', '', '', '', '', ''],
+          ['A', '', 'D', '', '', '', '', ''],
+          ['T', '', 'A', 'S', 'I', 'A', '', ''],
+          ['', '', '', '', '', '', '', '']
+        ]
+      },
+      editable: true
     }
   ]
 };

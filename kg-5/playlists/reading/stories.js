@@ -11,7 +11,7 @@ export default {
       data: {
         title: 'A Thirsty Crow',
         img: {
-          url: 'img/story/01_crow.jpg'
+          url: 'story/01_crow.jpg'
         },
         text: `One hot day, a thirsty crow flew all over the fields looking for water. For a long time, he could not find any. He felt very weak, almost lost all hope.Suddenly, he saw a water jug below the tree. He flew straight down to see if there was any water inside. Yes, he could see some water inside the jug!
 The crow tried to push his head into the jug. Sadly, he found that the neck of the jug was too narrow. Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
@@ -76,7 +76,7 @@ The crow drank the water happily.`
       label: 'The Woodcutter and the Axe',
       data: {
         img: {
-          url: 'img/story/02_woodcutter.png'
+          url: 'story/02_woodcutter.jpg'
         },
         title: 'The Woodcutter and the Axe',
         text: `Long ago, there lived a woodcutter in a small village. He was sincere in his work and very honest. Every day, he went into the nearby forest to cut trees. He brought the woods back into the village and sold them to a merchant and earned his money. He earned just enough to make a living, and he was satisfied with his simple living.
@@ -203,7 +203,7 @@ The fox climbed on the goat and came out of the well.`
       label: 'The Bear and the Two Friends',
       data: {
         img: {
-          url: 'img/story/05_bear.jpg'
+          url: 'story/05_bear.jpg'
         },
         title: 'The Bear and the Two Friends',
         text: `Once upon a time, two friends were walking through the forest. They knew that any danger can happen to them at any time in the forest. So, they promised each other that they would remain united in any case of danger. 
@@ -271,7 +271,7 @@ The bear came, smelt and walked away.`
       label: 'The Golden Egg',
       data: {
         img: {
-          url: 'img/story/06_goose.png'
+          url: 'story/06_goose.jpg'
         },
         title: 'The Golden Egg',
         text: `Once upon a time, there lived a cloth merchant in a village with his wife and two children. They were indeed quite well-off. They had a beautiful hen which laid an egg every day. It was not an ordinary egg, but a golden egg. But, the man was not satisfied with what he used to get daily. He was a greedy person.

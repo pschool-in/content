@@ -11,7 +11,7 @@ const reading = {
       data: {
         title: 'A Thirsty Crow',
         img: {
-          url: 'img/story/01_crow.jpg'
+          url: 'story/01_crow.jpg'
         },
         text: ` One hot day, a thirsty crow flew all over the fields looking for water. For a long time, he could not find any. He felt very weak, almost lost all hope.Suddenly, he saw a water jug below the tree. He flew straight down to see if there was any water inside. Yes, he could see some water inside the jug!
         The crow tried to push his head into the jug. Sadly, he found that the neck of the jug was too narrow. Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
@@ -27,7 +27,7 @@ const reading = {
       data: {
         title: 'The Woodcutter and the Axe',
         img: {
-          url: 'img/story/02_woodcutter.png'
+          url: 'story/02_woodcutter.jpg'
         },
         text: ` Long ago, there lived a woodcutter in a small village. He was sincere in his work and very honest. Every day, he went into the nearby forest to cut trees. He brought the woods back into the village and sold them to a merchant and earned his money. He earned just enough to make a living, and he was satisfied with his simple living.
         One day, while cutting a tree near a river, his axe slipped out of his hand and fell into the river. The river was so deep, he could not take it on his own. He had only one axe that fell into the river. He started to worry. He will not be able to earn his living now! He was very sad and prayed to the God. He prayed sincerely and God appeared in front of him and asked, “What is the problem, my son?” The woodcutter explained the problem and requested the God to get his axe back.
@@ -43,7 +43,7 @@ const reading = {
       data: {
         title: 'Tenali Rama and the Brinjal Curry',
         img: {
-          url: 'img/story/03_brinjal.png'
+          url: 'story/03_brinjal.jpg'
         },
         text: `Tenali Rama was an advisor to the King Krishna Devaraya. He was very clever and spontaneous. Sri Krishna Devaraya had some special type of brinjal plants in his garden. The brinjal was a very rare kind and the curry made out of it was very tasty which was loved by the king. As it was a rare type, the garden was guarded and no one was allowed to see the plants without the king’s permission.
         Once the emperor arranged an excellent dinner for his advisors and the brinjal curry was served. Tenali Rama enjoyed the brinjal curry very much and went home. But, he was unable to forget the taste. He told his wife about the taste of the curry. Tenali Rama’s wife also liked brinjal curry, she asked Tenali Rama to bring home few brinjals, so that she can prepare a curry. But, Tenali Rama knew that the king was taking extreme care about the brinjal plants and he can easily find out even if one brinjal was missing from his garden. And, the king would punish such a thief severely, if he was caught stealing a brinjal from his garden.
@@ -79,7 +79,7 @@ const reading = {
       data: {
         title: 'The Bear and the Two Friends',
         img: {
-          url: 'img/story/05_bear.png'
+          url: 'story/05_bear.png'
         },
         text: `Once upon a time, two friends were walking through the forest. They knew that any danger can happen to them at any time in the forest. So, they promised each other that they would remain united in any case of danger.
         Suddenly, they saw a huge bear approaching them. One of the friends at once climbed a nearby tree. But the other one did not know how to climb. So, being led by his common sense, he lay down on the ground breathless, pretending to be a dead man.
@@ -95,7 +95,7 @@ const reading = {
       data: {
         title: 'The Golden Egg',
         img: {
-          url: 'img/story/06_goose.png'
+          url: 'story/06_goose.jpg'
         },
         text: `Once upon a time, there lived a cloth merchant in a village with his wife and two children. They were indeed quite well-off. They had a beautiful hen which laid an egg every day. It was not an ordinary egg, but a golden egg. But, the man was not satisfied with what he used to get daily. He was a greedy person.
         The man wanted to get all the golden eggs from his hen at one single go. So, one day he thought hard and at last came with a plan. He decided to kill the hen and get all the eggs together.
@@ -126,7 +126,7 @@ const reading = {
       data: {
         title: 'Birbal’s Wisdom',
         img: {
-          url: 'img/story/08_ring.png'
+          url: 'story/08_ring.jpg'
         },
         text: `One fine day, Akbar lost his ring. When Birbal arrived in the court, Akbar told him “I have lost my ring. My father gave it to me as a gift. Please help me to find it.” Birbal said, ”Do not worry your Majesty, I will find your ring right now.”
         He said,  “Your Majesty the ring is here in this court itself, it is with one of the people present here. The person who has a straw in his beard has your ring.” One man who had the king’s ring was shocked and immediately moved his hand over his beard. Birbal noticed this act. He immediately pointed towards the man and said,  “Please search this man. He has the king’s ring.”
@@ -156,7 +156,7 @@ const reading = {
       data: {
         title: 'The Fox and the Grapes',
         img: {
-          url: 'img/story/10_fox_grapes.png'
+          url: 'story/10_fox_grapes.jpg'
         },
         text: `One afternoon a fox was walking through the forest and spotted a bunch of grapes hanging from a lofty branch. “Just the thing to quench my thirst,” he thought.
         Taking a few steps back, the fox jumped and just missed the hanging grapes. Again, the fox took a few paces back and tried to reach them but still failed.
@@ -185,7 +185,7 @@ const reading = {
       data: {
         title: 'Two Frogs',
         img: {
-          url: 'img/story/12_two_frogs.png'
+          url: 'story/12_two_frogs.jpg'
         },
         text: `A group of frogs was traveling through the woods and two of them fell into a deep pit. When other frogs saw how deep the pit was, they told the two frogs that they were as good as dead. The two frogs ignored their comments and tried to jump out of the pit with all their might. The other frogs kept telling them to stop, and that they were as good as dead. Finally, one of the frogs took heed to what other frogs were saying and gave up. He fell down and died.
         The other frog continued to jump as hard as he could. Once again, the crowd of frogs yelled at him to stop the pain and just die. He jumped even harder and finally made it out. When he got out, the other frogs said, “Did you not hear us?” The frog explained to them that he was deaf. He thought they were encouraging him, the entire time.`,
@@ -200,7 +200,7 @@ const reading = {
       data: {
         title: 'Never Give Up',
         img: {
-          url: 'img/story/13_donkey.png'
+          url: 'story/13_donkey.jpg'
         },
         text: `One day a farmer’s donkey fell down into a well. The animal cried for hours as the farmer tried to figure out what to do. Finally, he decided the animal was old and the well needed to be covered up anyway it just wasn’t worth to retrieve the donkey. He invited all his neighbors to come over and help him. They all grabbed a shovel and began to shovel dirt into the well. At first, the donkey realized what was happening and cried horribly. Then, to everyone’s amazement, he kept quiet.
           A few shovel loads later, the farmer finally looked down the well and was astonished at what he saw. With every shovel of dirt that fell on his back, the donkey was doing something amazing. He would shake it off and take a step up. As the farmer’s neighbors continued to shovel dirt on top of the animal, he would shake it off and take a step up.
@@ -232,7 +232,7 @@ const reading = {
       data: {
         title: 'Tenali Raman and the Horse',
         img: {
-          url: 'img/story/16_horse.png'
+          url: 'story/16_horse.png'
         },
         text: `Once, the King wanted to expand his army. So, he needed more horses. He decided to give one horse to each person in his kingdom to take care of. He also gave everyone a good supply of straw to feed the horse. Everyone except Tenali Rama was not happy with this plan. He shut his horse in one room and everyday at exactly nine o’clock he gave the horse very little straw through the window. He gave the remaining straw to his cows that became fat and healthy.
           At the end of a year, the king wanted to see all his horses. All the people who were given horses to take care of  brought their horses for inspection. But, Tenali Rama did not bring his horse. On being questioned, he answered that his horse had become so strong that he could not bring it to the court. The king was surprised on hearing this. He said, “Alright, I will send my chief inspector to your house tomorrow morning at nine to inspect the horse there.” Tenali agreed.
@@ -247,7 +247,7 @@ const reading = {
       data: {
         title: 'Tenali Raman and the Cat',
         img: {
-          url: 'img/story/17_tenali_cat.png'
+          url: 'story/17_tenali_cat.jpg'
         },
         text: `The country faced a major problem of rats. Rats had multiplied to a very large number and were creating a lot of destruction. They were nibbling through important papers, clothes, grains in food stores, etc. There were not many cats in the kingdom to catch all the rats. So, the king asked all the houses in the country to keep one cat each. But cats feed on milk and not every house owned a cow to get the milk. So, the king also gave a cow to every house. The people were happy and took care of cows and cats. They used to give a lot of milk to their cats.
           But Tenali Raman was a lazy fellow and he was also very fond of drinking milk. He wanted to keep the milk from the cow for himself. So, he thought of a clever trick. He boiled the milk and poured it in a pan. Then, he put this pan in front of the cat. As soon as the cat touched the boiling hot milk with its tongue, its tongue got burned and it ran away at once.
@@ -263,7 +263,7 @@ const reading = {
       data: {
         title: 'Who will Bell the Cat',
         img: {
-          url: 'img/story/18_cat_with_bell.png'
+          url: 'story/18_cat_with_bell.png'
         },
         text: `Once, a huge number of mice lived in a grocer’s shop. They ate the fresh, tasty wheat, rice, bread, cheese and biscuits that were kept in the shop. They were having a great time and living easy, comfortable lives, growing fatter day-by- day.
           But, the grocer was concerned about the loss that he was suffering, because of the damage done to his stock by the mice. So, he thought of a solution and bought a big, fat cat to keep in his shop.
@@ -280,7 +280,7 @@ const reading = {
       data: {
         title: 'Blue Jackal',
         img: {
-          url: 'img/story/19_blue_jackal.png'
+          url: 'story/19_blue_jackal.jpg'
         },
         text: `Long ago, there lived a cunning jackal. One day, driven by hunger, he strayed into a village in search of food. On seeing him, a pack of dogs ran after him. Terrified, he dashed into the house of a dye merchant and accidentally fell into a tub of blue dye. The jackal was stained blue from head to toe.
           Later, when he got back to the jungle, all the animals stared at him in shock. They had never seen such a strange and beautiful animal before. Seeing everyone confused the jackal thought of an idea. He proclaimed that he was sent to rule over the animal kingdom and guard its animals. The animals believed it and proclaimed him as their king.
@@ -295,7 +295,7 @@ const reading = {
       data: {
         title: 'The Talkative Tortoise',
         img: {
-          url: 'img/story/20_talkative_tortoise.png'
+          url: 'story/20_talkative_tortoise.jpg'
         },
         text: `There once lived three great friends - a pair of geese and a tortoise. One summer, the scorching sun rays dried up their lake, and they decided to leave and look for a new lake.
           But the tortoise could not fly, so, the geese thought of an idea, where the tortoise would have to bite on to a stick, which would be carried by the two geese. The only condition was that the tortoise should not open its mouth, or it would meet a terrible fate.
@@ -357,7 +357,7 @@ const reading = {
       data: {
         title: 'The Mice that Ate Balance',
         img: {
-          url: 'img/story/24_mice_ate_balance.png'
+          url: 'story/24_mice_ate_balance.jpg'
         },
         text: `Once upon a time, there lived a wealthy merchant, in a village. He ran a big business. His village was situated near a river. Once, due to heavy rain, the river was flooded. One night, the whole village was submerged in neck deep water. The crops, houses and factories in the village were destroyed and hundreds of people and cattle perished in the flood.
           The merchant had to suffer heavy losses in his business. He decided to shift to some other town to try his luck. His plan was to earn a lot of money and then come back to his native village to start his business again.
@@ -384,7 +384,7 @@ const reading = {
       data: {
         title: 'The Bad Elephant',
         img: {
-          url: 'img/story/25_bad_elephant.png'
+          url: 'story/25_bad_elephant.jpg'
         },
         text: `There lived a huge elephant in a dense jungle. He was cruel and arrogant by nature. He roamed freely in the jungle, pulling down small trees and branches. Those animals who lived in the trees were very much afraid of this elephant. When he pulled down the trees and tore off the branches, many-a-nest with eggs and nestlings came down crashing on the ground and got destroyed. His movement in the jungle created an all round havoc. Even the tigers and lions kept themselves at a safe distance from this rogue. In his ruthless march in the jungle, many holes of the foxes were trampled. This led to dissatisfaction among the foxes and among the other animals alike. Many of them wanted to kill the elephant. But this task was very difficult, because of his huge size.
           "He is so huge", said the foxes amongst themselves. "It's nearly impossible to kill him."
@@ -410,7 +410,7 @@ const reading = {
       data: {
         title: 'The Well Dispute',
         img: {
-          url: 'img/story/26_well_dispute.jpg'
+          url: 'story/26_well_dispute.jpg'
         },
         text: `Once there was a complaint at King Akbar's court. There were two neighbours who shared their garden. In that garden, there was a well that was possessed by Iqbal Khan. His neighbour, who was a farmer wanted to buy the well for irrigation purpose. Therefore, they signed an agreement between them, after which the farmer owned the well.
           Even after selling the well to the farmer, Iqbal continued to fetch water from the well. Angered by this, the farmer had come to get justice from King Akbar. King Akbar asked Iqbal the reason for fetching water from the well even after selling it to the farmer. Iqbal replied that he had sold only the well to the farmer but not the water inside it.
@@ -439,7 +439,7 @@ const reading = {
       data: {
         title: 'The Man and the Tree',
         img: {
-          url: 'img/story/28_tree.png'
+          url: 'story/28_tree.jpg'
         },
         text: `One day, a man climbed up a tree. While climbing up, he did not realise how tall the tree actually was and kept climbing up. On reaching the top, when the man looked down, he realised that climbing down from the tree would not be as easy as climbing up. He could not think of any way of getting down without injuring himself seriously.
           He asked the people who were passing by to help him. But nobody could think of a way of bringing him down safely. Soon, quite a few people gathered around the tree and tried to help the man, but no one knew what to do. The man remained stuck on top of the tree.

@@ -76,7 +76,7 @@ The doves were trapped.`
       label: 'Birbal’s Wisdom',
       data: {
         img: {
-          url: 'img/story/08_ring.png'
+          url: 'story/08_ring.jpg'
         },
         title: 'Birbal’s Wisdom',
         text: `One fine day, Akbar lost his ring. When Birbal arrived in the court, Akbar told him “I have lost my ring. My father gave it to me as a gift. Please help me to find it.” Birbal said, ”Do not worry your Majesty, I will find your ring right now.”
@@ -205,7 +205,7 @@ The turtle won the race`
       label: 'Two Frogs',
       data: {
         img: {
-          url: 'img/story/12_two_frogs.png'
+          url: 'story/12_two_frogs.jpg'
         },
         title: 'Two Frogs',
         text: `A group of frogs was travelling through the woods and two of them fell into a deep pit. When other frogs saw how deep the pit was, they told the two frogs that they were as good as dead. The two frogs ignored their comments and tried to jump out of the pit with all their might. The other frogs kept telling them to stop, and that they were as good as dead. Finally, one of the frogs took heed to what other frogs were saying and gave up. He fell down and died.

@@ -208,12 +208,12 @@ jasmine | மல்லிகை `
         audioOffset: 23,
         text: `ear | காது 
 eye | கண் 
-foot | பாதம் 
+foot | கால்
 hair | முடி 
 hand | கை 
 mouth | வாய் 
 nose | மூக்கு 
-tooth | பல் `
+tooth | பற்கள்`
       }
     },
     {
