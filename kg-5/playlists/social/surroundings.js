@@ -8,8 +8,8 @@ export default {
       type: 'passage',
       data: {
         title: 'Getting to Know the Place we Live in',
-        text: `# Formation of a Town/village
-In very ancient times, man used to hunt animals and used to eat raw meat, raw vegetables, root, fruits, bulbs, etc., for food. They kept moving from one place to another for their survival. After long years, slowly they start to learn and develop themselves in different activities like agriculture, weaving, jewel making, etc. So, the people started to settle in the places where they felt more comfortable. Slowly, they settled and started to live together. They helped each other and divided work among themselves. These settlements were helped to form the village/ town. Besides, this made the people engaged in different occupations.
+        text: `# Formation of a town/village
+In very ancient times, man used to hunt animals and used to eat raw meat, raw vegetables, root, fruits, bulbs, etc., for food. They kept moving from one place to another for their survival. After long years, slowly they learned agriculture, weaving, jewel making, etc. So, the people started to settle in the places where they felt more comfortable. Slowly, they settled and started to live together. They helped each other and divided work among themselves. These settlements were helped to form the village/town. Besides, this made the people engaged in different occupations.
 # Market places
 People in villages are dependent on market places to fulfill their daily essential needs. All essential things are available in the market. People from different areas will come to sell the products in the marketplace. Besides, they use different modes of transportation for carrying their goods to the market.
 # Historical Places and Monuments
@@ -21,7 +21,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
       label: 'Farming Vs Weaving',
       type: 'group',
       data: {
-        title: 'Classify the below.',
+        title: 'Classify the below tools based on the purpose.',
         types: [
           {
             name: 'Farming ',
@@ -102,7 +102,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
       type: 'fillupOptions',
       data: {
         text: `King Chathrapathi Sivaji was the founder of *Maratha (Gupta)* Empire. 
-          *Rajaraja Chola I (Rajendra Chola I)* built the Brihadishvara temple. 
+          *Rajaraja (Rajendra)* Chola I  built the Brihadishvara temple. 
           *Plough (Shuttle)* is used in agriculture.
           Lotus temple is one of the famous monuments situated in *Delhi (Amritsar)*.
           *Jaisalmer (Mehrangarh)* Fort is also called a golden fort.`,
@@ -120,7 +120,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
             name: 'True',
             text: `In ancient days, man used to hunt animals and eat raw meat.
               Ajanta caves are famous for its cave paintings, sculptures, and architecture.
-              Red fort is built by Shah Jahan, Mughal emperor of India.`
+              Red fort was built by Shah Jahan, Mughal emperor of India.`
           },
           {
             name: 'False',
@@ -136,7 +136,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
       type: 'passage',
       data: {
         title: 'Historical Places',
-        text: `Historical places have famous buildings or famous sites or religious cultures that have been preserved due to their rich cultural- heritage. Every historical place has its own (story) historical importance and they are preserved carefully by our government. Historical places add important value to a nation’s heritage. It also helps in promoting tourism. Moreover, historical places will also tell us about the ancient lifestyle. By reading and knowing a lot about historical places, we can know about where we come from. Historical places mark important events in history.`
+        text: `Historical places have famous buildings or famous sites or religious cultures that have been preserved due to their rich cultural heritage. Every historical place has its own (story) historical importance and they are preserved carefully by our government. Historical places add important value to a nation's heritage. It also helps in promoting tourism. Moreover, historical places will also tell us about the ancient lifestyle. By reading and knowing a lot about historical places, we can know about where we come from. Historical places mark important events in history.`
       }
     },
     {
@@ -214,10 +214,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
           dashWidth: 80
         },
         text: `*Thiruvalluvar statue* was situated in the Kanyakumari district.
-        Aayi Mandapam is also called *Park Monument*.
-        *Mandvi Gate* is the north gate of the Royal Enclosure for the state Baroda.
-        *Wagah border* is famous for ceremonial closing the gates and lowering of India and Pakistan flags.
-        *Sittanavasal* Cave is situated in Tamil Nadu.`
+Aayi Mandapam is also called *Park Monument*.
+*Mandvi Gate* is the north gate of the Royal Enclosure for the state Baroda.
+*Wagah border* is famous for ceremonial closing the gates and lowering of India and Pakistan flags.
+*Sittanavasal* Cave is situated in Tamil Nadu.`
       }
     },
     {
@@ -226,10 +226,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
       type: 'fillupOptions',
       data: {
         text: `Mamallapuram was built by *Narasimhavarman (Paramesvaravarman)*.
-          Arch of Viceroy is situated in *Goa (Ahmedabad)*
-          Vasco Da Gama Memorial is situated in *Kerala (Goa)*.
-          Nalanda University was constructed by the *Gupta dynasty (Rajputs)*.
-          The Elephant Palace is situated in *Madhya Pradesh (Andhra Pradesh)*`,
+Arch of Viceroy is situated in *Goa (Ahmedabad)*
+Vasco Da Gama Memorial is situated in *Kerala (Goa)*.
+Nalanda University was constructed by the *Gupta dynasty (Rajputs)*.
+The Elephant Palace is situated in *Madhya Pradesh (Andhra Pradesh)*`,
         title: 'Fill in the blanks.'
       }
     },
@@ -243,13 +243,13 @@ India has a rich heritage and it is well known for its old culture. Many places 
           {
             name: 'True',
             text: `Ajanta and Ellora caves were built by Krishna I.
-              Brihadishvara temple was constructed by Cholas.
-              Gingee fort is located in the Villupuram district.`
+Brihadishvara temple was constructed by Cholas.
+Gingee fort is located in the Villupuram district.`
           },
           {
             name: 'False',
             text: `Mahabalipuram was constructed by pandyas.
-              Tipu Sultan palace is situated in Mangalore.`
+Tipu Sultan palace is situated in Mangalore.`
           }
         ]
       }
@@ -308,7 +308,7 @@ India has a rich heritage and it is well known for its old culture. Many places 
               x: 0,
               y: 0
             },
-            hint: 'Seven Wonder ',
+            hint: 'One of the seven wonders ',
             direction: 'down'
           },
           {

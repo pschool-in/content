@@ -614,7 +614,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 0
             },
-            hint: 'Lying on the Floor',
+            hint: 'Lying on the floor near the door step',
             direction: 'across'
           },
           {
@@ -650,7 +650,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 4,
               y: 0
             },
-            hint: 'Stationary things',
+            hint: 'A stationary thing that helps to write',
             direction: 'down'
           },
           {
@@ -659,7 +659,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 2,
               y: 2
             },
-            hint: 'Help to store water',
+            hint: 'Helps to store water that comes through pipe.',
             direction: 'across'
           },
           {
@@ -677,7 +677,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 3,
               y: 5
             },
-            hint: 'Taxi',
+            hint: 'Another word for Taxi',
             direction: 'across'
           }
         ],
@@ -759,7 +759,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 0
             },
-            hint: 'Trunk',
+            hint: 'A big animal with a trunk',
             direction: 'down'
           },
           {
@@ -768,7 +768,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 1
             },
-            hint: 'Belongs cat family',
+            hint: 'An animal with lot of spots; belongs to cat family',
             direction: 'across'
           },
           {
@@ -777,7 +777,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 6,
               y: 1
             },
-            hint: 'Spots on body',
+            hint: 'Grass eating wild animal. May have lot of spots on body.',
             direction: 'down'
           },
           {
@@ -786,7 +786,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 5,
               y: 3
             },
-            hint: 'Teddy',
+            hint: 'A fat wild animal that can walk on two legs',
             direction: 'across'
           },
           {
@@ -795,7 +795,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 2,
               y: 2
             },
-            hint: 'POISONOUS ANIMAL',
+            hint: 'A poisonous animal with no legs',
             direction: 'across'
           },
           {
@@ -804,7 +804,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 8
             },
-            hint: 'Reptile',
+            hint: 'A reptile with rough skin and big mouth',
             direction: 'across'
           },
           {
@@ -822,7 +822,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 1,
               y: 5
             },
-            hint: 'Jumps in tree',
+            hint: 'An animal well known for jumping from tree to tree',
             direction: 'across'
           }
         ],
@@ -911,7 +911,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 0
             },
-            hint: 'Mankind',
+            hint: 'Our type of animal',
             direction: 'across'
           },
           {
@@ -920,7 +920,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 3,
               y: 0
             },
-            hint: 'Small creature',
+            hint: 'Small disciplined animal that goes in line',
             direction: 'down'
           },
           {
@@ -947,7 +947,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 7,
               y: 1
             },
-            hint: 'PET',
+            hint: `Man's best friend`,
             direction: 'across2'
           },
           {
@@ -965,7 +965,7 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
               x: 0,
               y: 3
             },
-            hint: 'Pigpen',
+            hint: 'An animal that lives in sty.',
             direction: 'across'
           },
           {

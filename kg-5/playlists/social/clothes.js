@@ -18,7 +18,7 @@ export default {
 5. To look presentable.
 ...what else can you think of?
 # How do we know what to wear?
-There are three main seasons, namely, The Summer, The Winter and The Rainy Season. These seasons last for almost 4 months and after the completion of one cycle, they continue to follow each other. That’s why it’s called “cycle of seasons”. So, we can say that what we wear depends on the cycle of seasons.
+We usually have three main seasons: summer, winter and the rainy season. These seasons last for almost 4 months and after the completion of one cycle, they continue to follow each other. That’s why it’s called “cycle of seasons”. So, we can say that what we wear depends on the cycle of seasons.
 In addition to this, we wear clothes of different designs, colors and tradition. So we can say that clothing style also depends on occupation, taste and occasion.`
       }
     },
@@ -32,31 +32,32 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           {
             name: 'Men',
             text: `Dhoti
-                  Lungi
-                  Pheta
-                  Pagdi`
+Lungi
+Pheta
+Pagdi`
           },
           {
             name: 'Women',
             text: `Saris
-                  Salwar-suit
-                  Frocks
-                  Skirts
-                  Gowns
-                  Tops`
+Salwar-suit
+Frocks
+Skirts
+Gowns
+Tops`
           },
           {
             name: 'Common',
             text: ` Shirts
-                    Pyjama
-                    Trousers
-                    Jeans
-                    T-shirts
-                    Hats`
+Pyjama
+Trousers
+Jeans
+T-shirts
+Hats`
           }
         ]
       }
     },
+
     {
       label: 'Which clothes are suitable for which season?',
       id: '300',
@@ -96,8 +97,8 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           dashWidth: 80
         },
         text: `Soldiers wear *khaki* clothes in deserts.
-              Soldiers wear *green* clothes in jungles.              
-              Soldiers wear *white* clothes in The Himalayas`
+Soldiers wear *green* clothes in jungles.              
+Soldiers wear *white* clothes in The Himalayas`
       }
     },
     {
@@ -112,10 +113,10 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           dashWidth: 80
         },
         text: `I wear a white coat and examine patients. - *Doctor*
-              I wear blue clothes and put out fires. - *Firefighter*
-              You always see me in khaki clothes. I go wherever there is a fight. - *Police*
-              I work in a hospital and take care of patients. - *Nurse*
-              I am always ready to protect the country.- *Soldier*`
+I wear blue clothes and put out fires. - *Firefighter*
+You always see me in khaki clothes. I go wherever there is a fight. - *Police*
+I work in a hospital and take care of patients. - *Nurse*
+I am always ready to protect the country.- *Soldier*`
       }
     },
     {
@@ -124,10 +125,10 @@ In addition to this, we wear clothes of different designs, colors and tradition.
       type: 'match',
       data: {
         text: `Summer, Cotton clothes
-              Winter, Woolen clothes
-              Rain, Raincoat
-              Polyester, Artificial fiber
-              Silk, Silkworm`,
+Winter, Woolen clothes
+Rain, Raincoat
+Polyester, Artificial fiber
+Silk, Silkworm`,
         title: 'Match the following'
       }
     },
@@ -139,16 +140,16 @@ In addition to this, we wear clothes of different designs, colors and tradition.
         isPractice: false,
         title: 'Guess when you wears what!',
         styles: {
-          fontSize: '1.3rem',
+          fontSize: '1rem',
           dashWidth: 80
         },
         text: `What do we wear to protect our feet - *Shoes*
-              What do we wear to keep ourselves dry in rain - *Raincoat*
-              What do we wear when we go to bed - *Pyjamas*
-              What do we wear to protect ourselves from cold - *Sweater*
-              What do we wear to provide shade from sunlight - *Hat*
-              What do we wear to go to school - *Uniform*
-              What do we wear to protect our hands from cold - *Gloves*`
+What do we wear to keep ourselves dry in rain - *Raincoat*
+What do we wear when we go to bed - *Pyjamas*
+What do we wear to protect ourselves from cold - *Sweater*
+What do we wear to provide shade from sunlight - *Hat*
+What do we wear to go to school - *Uniform*
+What do we wear to protect our hands from cold - *Gloves*`
       }
     },
     {
@@ -163,9 +164,9 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           dashWidth: 80
         },
         text: `Clothes *protect* us from heat, cold and rain.
-              We wear *cotton* clothes in summer.
-              Woollen clothes keeps us *warm*.
-              We use *raincoat* or umbrella when it rains.`
+We wear *cotton* clothes in summer.
+Woollen clothes keeps us *warm*.
+We use *raincoat* or umbrella when it rains.`
       }
     },
     {
@@ -178,14 +179,14 @@ In addition to this, we wear clothes of different designs, colors and tradition.
           {
             name: 'True',
             text: `We get wool from sheep.
-                  We get silk from silkworm.               
-                  Lawyer wears black coat.`
+We get silk from silkworm.               
+Lawyer wears black coat.`
           },
           {
             name: 'False',
             text: `We wear party wear to school.
-                  We wear woolen clothes in summer.
-                  Doctors wear yellow coats.`
+We wear woolen clothes in summer.
+Doctors wear yellow coats.`
           }
         ]
       }
@@ -204,7 +205,7 @@ In the past, a spinning wheel was used to make yarn from cotton; and then, these
 3. Torn clothes can be used in dusting, moping, doormats etc.
 4. Some clothes can also be reused into paper making. Eg- paper plates, false flowers, models etc.
 # Fun fact!
-Mahatma Gandhi, during the struggle for independence, promoted the use of ‘Swasdeshi’ goods by making khadi yarn on his charakha. This led to formation of ‘Charakha Mandals’ throughout the nation.
+Mahatma Gandhi, during the struggle for independence, promoted the use of Swasdeshi goods by making khadi yarn on his charakha. This led to formation of Charakha Mandals throughout the nation.
 In case of unavailability of detergent, one can also use soap nuts, washing soda, ritha, hinganbet and limestone. All these are natural substances.`
       }
     },
@@ -220,11 +221,11 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
           dashWidth: 80
         },
         text: `Gandhiji always wore clothes made of *khadi* yarn.
-              It is unsafe to wear *nylon* clothes while cooking or burning crackers.
-              People prefer wearing *cotton* clothes in summer.
-              *Raincoats* protect us from rain.
-              *Scarfs* protect our skin from the sun.
-              *Mufflers* protect our ears and neck from cold.`
+It is unsafe to wear *nylon* clothes while cooking or burning crackers.
+People prefer wearing *cotton* clothes in summer.
+*Raincoats* protect us from rain.
+*Scarfs* protect our skin from the sun.
+*Mufflers* protect our ears and neck from cold.`
       }
     },
     {
@@ -259,13 +260,13 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
           {
             name: 'True',
             text: `Detergent is used to wash clothes.
-                  Clothing styles vary according to gender, situation, occasion, season, ethnicity and one’s taste.                  
-                  Bamboo yarn is also used for making clothes.`
+Clothing styles vary according to gender, situation, occasion, season, ethnicity and one’s taste.                  
+Bamboo yarn is also used for making clothes.`
           },
           {
             name: 'False',
             text: `A person can wear same clothes forever.
-                  Liquid handwashes are used to clean clothes.`
+Liquid handwashes are used to clean clothes.`
           }
         ]
       }
@@ -276,11 +277,11 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
       type: 'match',
       data: {
         text: `Sheep, Wool
-              Sweater, Winter             
-              Cotton, Cotton yarn              
-              Jute, Fibres              
-              Cap, Summer              
-              Raincoat, Rain`,
+Sweater, Winter             
+Cotton, Cotton yarn              
+Jute, Fibres              
+Cap, Summer              
+Raincoat, Rain`,
         title: 'Match the following'
       }
     },
@@ -292,15 +293,15 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
         styles: {
-          fontSize: '1.3rem',
+          fontSize: '1.1rem',
           dashWidth: 80
         },
         text: `Cloth or fabric is made by intertwining *threads* together. 
-              Intertwining threads together is called *weaving*.
-              The wad of *cotton* is twisted into a long wick.
-              Sweaters, caps, etc. are woven with the help of *knitting needles* at home.
-              *Handlooms* and powerlooms are used to weave cloth on a large scale.
-              We must always have *clean* clothes in order to remain healthy and look neat and tidy.`
+Intertwining threads together is called *weaving*.
+The wad of *cotton* is twisted into a long wick.
+Sweaters, caps, etc. are woven with the help of *knitting needles* at home.
+*Handlooms* and powerlooms are used to weave cloth on a large scale.
+We must always have *clean* clothes in order to remain healthy and look neat and tidy.`
       }
     },
     {
@@ -328,7 +329,7 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
       data: {
         title: 'Clothes - Our Necessity',
         text: `# Want vs Need
-We ‘need’ clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.
+We need clothes to cover and protect our body from dust and infection. But desire to have some clothes just because they look attractive is called ‘want’. Want is something we can live without because it’s not a necessity. On the other hand, fulfilment of the need is important for our living.
 # Fun fact!
 Sarees from some states of India have special significance and great popularity among women. Those sarees are Lucknow chikan, Kashmir silk, Banarasi silk, Kadiyal, Pitambari, Pochampalli, Narayanpet, Kanjivaram, Patola and Mysore silk.`
       }
@@ -344,11 +345,11 @@ Sarees from some states of India have special significance and great popularity 
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text:  `Paithan and Yeolla are famous for *paithani*
-                Goa is famous for *shell jewellery*.
-                Banaras/ Varanasi is famous for * silk sarees*.
-                Punjab is famous for *patiala salwars*.
-                Kolkata is famous for *tant bengali sarees*.`
+        text: `Paithan and Yeolla are famous for *paithani*
+Goa is famous for *shell jewellery*.
+Banaras/ Varanasi is famous for * silk sarees*.
+Punjab is famous for *patiala salwars*.
+Kolkata is famous for *tant bengali sarees*.`
       }
     },
     {
@@ -363,9 +364,9 @@ Sarees from some states of India have special significance and great popularity 
           dashWidth: 80
         },
         text: `*Mumbai (Goa)* is famous worldwide for its textile mills.
-              Wanting things you do not need is *want (desire)*, not necessity.
-              It is cold. Put on your *coat (umbrella)*.
-              It is snowy. Put on your *gloves (skirt)*.`
+Wanting things you do not need is *want (desire)*, not necessity.
+It is cold. Put on your *coat (umbrella)*.
+It is snowy. Put on your *gloves (skirt)*.`
       }
     },
     {
@@ -376,16 +377,16 @@ Sarees from some states of India have special significance and great popularity 
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
         styles: {
-          fontSize: '1.3rem',
+          fontSize: '1rem',
           dashWidth: 80
         },
         text: `It is sunny. Put on your *sunglasses (boots)*.
-              I take my *umbrella (skirt)* on a rainy day.
-              I wear my *hat (boot)* on sunny day.
-              It is cool. Put on a *jacket (bag)*.
-              It is cold. Put on a *scarf (skirt)*.
-              It is *cold (rainy)*. Take your sweater.
-              It is *rainy (cold)*. Take your umbrella.s`
+I take my *umbrella (skirt)* on a rainy day.
+I wear my *hat (boot)* on sunny day.
+It is cool. Put on a *jacket (bag)*.
+It is cold. Put on a *scarf (skirt)*.
+It is *cold (rainy)*. Take your sweater.
+It is *rainy (cold)*. Take your umbrella.`
       }
     },
     {
@@ -394,6 +395,7 @@ Sarees from some states of India have special significance and great popularity 
       label: 'WordSearch ',
       data: {
         title: 'Find 20 clothing items from the table.',
+        showWords: true,
         words: [
           {
             word: ['S', 'K', 'I', 'R', 'T'],

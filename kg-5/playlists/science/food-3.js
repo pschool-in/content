@@ -308,7 +308,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
           {
             name: 'False',
             text: `The dog is a herbivore.
-            There is no difference in the feeding habit of a tiger and a vulture.`
+            There is no difference in the food habit of a tiger and a vulture.`
           }
         ]
       }
@@ -410,7 +410,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
         types: [
           {
             name: 'True',
-            text: `Water is the most important part of our diet
+            text: `Water is the most important part of our diet.
             Deficiency diseases can be prevented by eating a balanced diet.`
           },
           {

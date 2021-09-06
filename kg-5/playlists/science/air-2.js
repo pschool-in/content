@@ -10,9 +10,9 @@ export default {
       id: '100',
       data: {
         title: 'Our Need for Air',
-        text: `Air is all around us, even though we cannot see it. But we are able to feel air. Air does not have colour, smell,or taste.
+        text: `Air is all around us, even though we cannot see it. But we are able to feel air. Air does not have colour, smell, or taste.
 We need air to breathe. Inhalation and exhalation are together called breathing. We breathe continuously and this process is called respiration.
-We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to work properly.`
+We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to do all our works.`
       }
     },
     {
@@ -27,8 +27,8 @@ We need air for our body to function properly. It also makes us feel fresh and l
           dashWidth: 80
         },
         text: `As *breathing* goes on continuously, a sleeping man’s chest can be seen going up and down.
-          There is *air* spread all around us.
-          Like us, all living things have a *need* for air.
+          There is *air* all around us.
+          Like us, all living things *need* air.
           We can *feel* air although we cannot *see* it.
           Air does not have *colour*, smell or taste.`
       }
@@ -122,7 +122,7 @@ Some fuels like coal, petrol and diesel give out smoke while burning. This mixes
         types: [
           {
             name: 'True',
-            text: `Plants need carbon dioxide to prepare food
+            text: `Plants need carbon dioxide to prepare food.
               Burning fossil fuels pollutes the air.
               Oxygen is required to produce energy to do work.`
           },
@@ -179,8 +179,7 @@ Some fuels like coal, petrol and diesel give out smoke while burning. This mixes
           There is *air* even in an empty container.
           The air at a greater height from the earth is *rarer* than the air nearer to the earth.
           If all the air were divided into five parts, the oxygen in the air would equal to *one* part.
-          There is air till a height of about *50*km from the earth.
-          The layers of air nearer the earth bear *more* weight than the upper layers.`
+          There is air till a height of about *50*km from the earth.`
       }
     },
     {
@@ -197,11 +196,11 @@ Some fuels like coal, petrol and diesel give out smoke while burning. This mixes
           {
             qText:
               'As we go farther from the earth, the layers of air become ________.',
-            options: 'Thinner, thicker, lighter'
+            options: 'thinner, thicker, lighter'
           },
           {
             qText: 'The gas that fizzes out of soda-water is _________.',
-            options: 'Carbon dioxide, oxygen, nitrogen'
+            options: 'carbon dioxide, oxygen, nitrogen'
           },
           {
             qText: 'Water is present in air in the form of a ______.',
@@ -216,7 +215,7 @@ Some fuels like coal, petrol and diesel give out smoke while burning. This mixes
       id: '1100',
       data: {
         title: 'The composition of Air',
-        text: `# Importance of air in our daily life.
+        text: `# Importance of air.
 1. Oxygen present in air is needed for respiration.
 2. We can speak and hear the sound only when there is air around.
 3. Air helps in the dispersal of seeds for plant reproduction.
@@ -241,7 +240,7 @@ The properties of all the gases present in Air.
 # Carbon dioxide
 1. It can be tested with lime water. The lime water changes from colourless to milky.
 2. Carbon dioxide helps plants in photosynthesis.
-3. It is used in fi re extinguishers.
+3. It is used in fire extinguishers.
 4. It is used in refrigerators as dry ice for cooling purposes.
 5. It is used to make plastics and polymers.`
       }
@@ -283,7 +282,7 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
         title: 'Click the blanks and fill it with the right word.',
         text: `Clay pot has thousands of tiny pores through which water seeps out. This causes *cooling (heating)* effect.
           The *flute (piano)* is an example for wind instrument.
-          In 1772, the Scottish chemist, Daniel Rutherford, reported noxious air, which now we call *Nitrogen (oxygen)*.
+          In 1772, the Scottish chemist, Daniel Rutherford, reported noxious air, which now we call *nitrogen (oxygen)*.
           A grown up tree intakes *1/3 (2/3)* of carbon dioxide exhaled by one person and it gives out the same amount of *oxygen (carbon dioxide)* required by a person.
           *Three (five)* trees are needed to fulfill the required oxygen for a man to survive.`
       }
@@ -298,8 +297,7 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
           {
             name: 'True',
             text: `The Scottish chemist Joseph Black discovered that carbon dioxide is present in air.
-              Covering our mouth and nose while sneezing or coughing prevents
-              spreading of germs through air to people around us.
+              Covering our mouth and nose while sneezing or coughing prevents spreading of germs through air to people around us.
               Carbonated drinks are bad to health.
               Plants need nitrogen for their growth.`
           },
@@ -326,7 +324,6 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
         text: `Gives you oxygen. - *tree*
           Melting of snow caps and increase in sea levels - *global warming*
           Dust particles and smoke combine with fog in the presence of sunlight - *smog*
-          Sulphur dioxide and nitrogen oxides react with water in the atmosphere producing sulphuric acid and nitric acid. These acids come down along with the rain. - *acid rain*
           Liquid or solid particles are dispersed in air, - *aerosol*
           Hydrocarbons such as the Chloro Fluoro Carbons (CFCs) destroy - *ozone*`
       }
@@ -361,53 +358,53 @@ Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energ
           },
           {
             qText: 'Monsoon and rain occurs due to the ______ action.',
-            options: 'Wind, breeze, gale, storm'
+            options: 'wind, breeze, gale, storm'
           },
           {
             qText:
               'We can speak and hear the sound only when there is ____ around.',
-            options: 'Air, water, light'
+            options: 'air, water, light'
           },
           {
             qText: 'Air regulates the atmospheric ______________.',
-            options: 'Temperature, balance, pressure'
+            options: 'temperature, balance, pressure'
           },
           {
             qText:
               'We can speak and hear the sound only when there is ____ around.',
-            options: 'Air, water, light'
+            options: 'air, water, light'
           },
           {
             qText:
-              'While ________ using firewood, fanning air helps in burning of fire wood.',
-            options: 'Cooking, heating, burning'
+              'While ________ with firewood, fanning air helps in burning of fire wood.',
+            options: 'cooking, heating, burning'
           },
           {
             qText:
-              '_________ used to fill up food packages to extend their shelf life.',
-            options: 'Nitrogen, oxygen, carbon dioxide'
+              '_________ is used to fill up food packages to extend their shelf life.',
+            options: 'Nitrogen, Oxygen, Carbon dioxide'
           },
           {
             qText:
               '__________ cylinders are used in hospitals to enable the patients to breathe when they cannot breathe normally.',
-            options: 'Oxygen, nitrogen, carbon dioxide'
+            options: 'Oxygen, Nitrogen, Carbon dioxide'
           },
           {
             qText: '_________ can be tested with lime water.',
-            options: 'Carbon dioxide, oxygen, nitrogen'
+            options: 'Carbon dioxide, Oxygen, Oitrogen'
           },
           {
             qText: '__________ is used to make plastics and polymers.',
-            options: 'Carbon dioxide, oxygen, nitrogen'
+            options: 'Carbon dioxide, Oxygen, Oitrogen'
           },
           {
             qText:
               'The Scottish chemist Joseph Black discovered that ___________- is present in air.',
-            options: 'Carbon dioxide, oxygen, nitrogen'
+            options: 'carbon dioxide, oxygen, nitrogen'
           },
           {
             qText: '___________ is used in fire extinguishers.',
-            options: 'Carbon dioxide, oxygen, nitrogen'
+            options: 'carbon dioxide, oxygen, nitrogen'
           }
         ]
       }

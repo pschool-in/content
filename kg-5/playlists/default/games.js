@@ -85,7 +85,8 @@ export default {
       data: {},
       id: 'chess',
       locked: true
-    },
+    }
+    /*
     {
       label: 'Phonics Collection - 1',
       type: 'phonics',
@@ -612,6 +613,6 @@ export default {
           The crow drank the water happily and flew in the sky singing his favorite song.`
         ]
       }
-    }
+    }*/
   ]
 };
