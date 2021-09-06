@@ -51,7 +51,7 @@ export default {
               {
         type: 'rightOne',
         label: 'সঠিক বাঞ্জনধ্বনি চয়ন',
-        id: 'compoundword-2',
+        id: 'sound-type-1',
         commonData: {
           title: 'কোন ধরণের ধ্বনি নির্বাচন করুন ',
           noCaps: true,
