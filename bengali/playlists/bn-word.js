@@ -51,7 +51,7 @@ export default {
     },
 
     {
-      //Antonyms
+      //Antonyms - class-5 content ref-bhasapath-v
       id: 'opposites',
       type: 'match',
       label: 'বিপরীতার্থক শব্দ',
