@@ -11,6 +11,7 @@ export default {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
         lang: 'bn'
       },
+      // refernce - west bengal state board class 1/2 books
       data: [
         `বক , বই , কই , বন , বল , নল `,
         `ফল, জল, খই, দই, টব, টক, জট, বট `,
@@ -25,6 +26,7 @@ export default {
       ]
     },
     {
+      // this is for class 3 and above students
       id: 'bn-jumbled',
       type: 'sequence',
       label: 'অক্ষর যুক্ত করে শব্দ গঠন',
@@ -214,7 +216,7 @@ export default {
     },
 
     {
-      //bengali number
+      // bengali number - Class 1 and above
       id: 'number',
       type: 'match',
       label: 'সংখ্যা ও শব্দ',
@@ -257,6 +259,7 @@ export default {
     },
 
     {
+      // for studetns class 3 and above
       type: 'rightOne',
       label: 'সঠিক বানান',
       id: 'spelling',
@@ -298,7 +301,7 @@ export default {
     },
 
     {
-      //Antonyms
+      // for class 2 and above
       id: 'colors',
       type: 'match',
       label: 'রঙ',
@@ -328,7 +331,7 @@ export default {
     },
 
     {
-      //Antonyms
+      // for class 3 and above
       id: 'TimePlace',
       type: 'match',
       label: 'বাংলায় আপেক্ষিক সময়-কাল',
