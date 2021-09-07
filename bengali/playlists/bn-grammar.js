@@ -57,7 +57,7 @@ export default {
     },
 
     {
-      //Same sounding words
+      //Singular-Prural class-5 content ref-bhasapath-v
       id: 'number-2',
       type: 'match',
       label: 'ব্যাকরণ - বচন',
