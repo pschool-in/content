@@ -122,12 +122,12 @@ export default {
       ]
     },
     {
-      // Synonyms
+      // Synonyms - class-4 content ref-bhasapath-iv
       id: 'same-meaning',
       type: 'match',
-      label: 'সমার্থক শব্দ',
+      label: 'প্রতিশব্দ বা সমার্থক শব্দ',
       commonData: {
-        title: 'সমার্থক শব্দ',
+        title: 'প্রতিশব্দ মেলান',
         fontSize: '1.2rem'
       },
       data: [
@@ -196,7 +196,7 @@ export default {
     },
 
     {
-      //Antonyms
+      //bengali number
       id: 'number',
       type: 'match',
       label: 'সংখ্যা ও শব্দ',
