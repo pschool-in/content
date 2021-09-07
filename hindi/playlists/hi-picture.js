@@ -5,7 +5,7 @@ export default {
   list: [
     {
       type: 'completeWord',
-      label: 'जानवरों',
+      label: 'जानवर',
       id: 'animals',
       commonData: {
         images: 'custom',
@@ -57,7 +57,7 @@ export default {
     },
     {
       type: 'completeWord',
-      label: 'जानवरों',
+      label: 'पक्षी',
       id: 'birds',
       commonData: {
         images: 'custom',
@@ -94,7 +94,7 @@ export default {
       },
       data: [
         `apple| सेब | _ब| से, घि, खे, च
-        grapes| अंगूर | _गू,र | अं, जा, टा, ढ
+        grapes| अंगूर | _गूर | अं, जा, टा, ढ
         banana| केला |_ला| के, तं, को, डं
         guava| अमरूद | _मरूद| अ, ण, शि, पू
         jackfruit| कटहल | _टहल| क, घे, थौ, डा
@@ -172,7 +172,7 @@ export default {
     },
     {
       type: 'completeWord',
-      label: 'वाहनों',
+      label: 'वाहन',
       id: 'vehicles',
       data: {
         images: 'custom',
