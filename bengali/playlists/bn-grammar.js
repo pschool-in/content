@@ -147,7 +147,7 @@ export default {
     },
 
     {
-      //subjectverb
+      //subjectverb - class-5 content ref-bhasapath-v
       id: 'Person',
       type: 'match',
       label: 'পুরুষ',
@@ -191,7 +191,8 @@ export default {
     },
 
     {
-      id: 'Person-verb',
+      //person-verb - class-5 content ref-bhasapath-v
+      id: 'person-verb',
       label: 'পুরুষ - ক্রিয়া',
       type: 'fillupOptions',
       commonData: {
