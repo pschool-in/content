@@ -4,8 +4,8 @@ export default {
   img: 'langGrammar',
   list: [
     {
-      //Same sounding words - Need to add more
-      id: 'number',
+      // for class 5 and above
+      id: 'bn_samesoundingword',
       type: 'match',
       label: 'ব্যাকরণ - সমোচ্চারিত ভিন্নার্থক শব্দ',
       commonData: {
