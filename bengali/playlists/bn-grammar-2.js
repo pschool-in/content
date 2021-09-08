@@ -1,11 +1,11 @@
-export default {
-    // class-4 content ref-bhasapath-iv
-    label: 'বর্ণ',
+export default {    
+    label: 'ব্যাকরণ-2',
     id: 'bn-grammar-2',
     img: 'writing',
     list: [
   
       {
+          // class-4 content ref-bhasapath-iv
         type: 'group',
         label: 'ব্যঞ্জনধ্বনি - অল্পপ্রাণ/মহাপ্রাণ ধ্বনি',
         id: 'classify-sound-type-1',
