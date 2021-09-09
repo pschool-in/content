@@ -27,6 +27,7 @@ export default {
         ]
       },
       {
+          // class-4 content ref-bhasapath-iv
         type: 'group',
         label: 'ব্যঞ্জনধ্বনি - অঘোষ/ঘোষ ধ্বনি',
         id: 'classify-sound-type-2',
@@ -49,6 +50,7 @@ export default {
       },
         
               {
+                  // class-4 content ref-bhasapath-iv
         type: 'rightOne',
         label: 'সঠিক বাঞ্জনধ্বনি চয়ন',
         id: 'sound-type-1',
