@@ -250,6 +250,7 @@ export default {
     },
 
     {
+      // class iv and above. ref - bhasapath iv
       type: 'rightOne',
       label: 'স্বরসন্ধি',
       id: 'compoundword',
@@ -291,6 +292,7 @@ export default {
     },
 
     {
+      // class iv and above. ref - bhasapath v
       type: 'rightOne',
       label: 'ব্যাঞ্জনসন্ধি',
       id: 'compoundword-2',
@@ -331,6 +333,7 @@ export default {
     },
 
     {
+      // class v and above
       label: 'বাগধারা ও প্রবাদ-প্রবচন',
       id: 'bn-idioms',
       type: 'mcq',
