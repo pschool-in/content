@@ -4,7 +4,7 @@ export default {
   img: 'writing',
   list: [
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-2-1',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (চ-ঝ)',
@@ -63,7 +63,7 @@ export default {
       ]
     },
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-2-2',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ট-ণ)',
@@ -134,7 +134,7 @@ export default {
       ]
     },
     {
-      //Coumpound letters
+      //Coumpound letters - - class 2 and above
       id: 'Coumpound-letters-bn-2-3',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ত-ন)',
@@ -205,7 +205,7 @@ export default {
       ]
     },
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-2-4',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (প-ম)',
@@ -276,7 +276,7 @@ export default {
       ]
     },
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-2-5',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (র-স)',
