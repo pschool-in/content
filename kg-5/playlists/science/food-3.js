@@ -240,7 +240,7 @@ Athletes need less amount of energy.`
       data: {
         title: 'Our Need for Food',
         text: `# Why do we feel hungry?
-Our bodies must work properly. It also provides us with the energy we require to work. When we work a lot and eat less our bodies become exhausted. It makes us very hungry.
+Our bodies must work properly. It also provides us with the energy we require to do work. When we work a lot and eat less, our body will become weak. It makes us very hungry.
 # Oilcake
 After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fibrous component is pressed into slabs. This is known as oilcake. Ambon is an animal feed made from a fermented mixture of oilcake, jaggery, and coarse grain particles combined with water.
 # Animals & Foods
@@ -252,7 +252,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
 6. Deer, bison, and nilgai eat a wide variety of green grasses, crops, and leaves.
 7. Wild animals such as the tiger and lion hunt and eat other animals. When they are starving, they are sometimes driven to enter neighbouring villages. The livestock is then killed and taken away.
 8. Foxes have been known to venture into human settlements. They are unable to kill cattle. The majority of their time is spent stealing poultry.
-9. Some birds eat grains. Worms are eaten by hens. Crows eat the meat of dead animals. Some birds eat the fruits of trees.
+9. Some birds eat grains. Hens eat small worms. Crows eat the meat of dead animals. Some birds eat the fruits of trees.
 # Plants Need Food Too
 1. However, they are unable to travel from one location to another in search of food.
 2. Plant roots take up water from the earth. In this water, several soil substances are dissolved. This water reaches the plant's leaves.
@@ -302,7 +302,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
           {
             name: 'True',
             text: `Food for different living things, is different.
-            The entire living world depends on food prepared by plants.
+            The entire living world depends on the food prepared by plants.
             With the help of sunlight, plants prepare their own food.`
           },
           {
@@ -345,7 +345,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
 2. People in areas where jowar or bajra is a major crop include more ‘bhakari' in their diets.
 3. In certain regions, wheat is the major crop. People in those regions eat more chapatis.
 4. In the sea, fish are abundant. As a result, the Konkan people consume a lot of fish in their diet.
-5. We receive different vegetables and fruits at different times of the year depending on their seasons. As a result, the foods in our diet change as well.
+5. We receive different vegetables and fruits on different seasons. As a result, the foods in our diet change as well.
 # Watch What We Eat
 1. We should eat food made at home.
 2. Sprouted pulses, leafy vegetables, buttermilk and yogurt should be included often in our diet.

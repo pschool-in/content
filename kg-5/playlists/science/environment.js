@@ -12,7 +12,7 @@ export default {
           # Living thing and Non-living thing
           Living things live, breathe, consume, grow, die and reproduce. For example Human beings, animals, plants, trees, bacteria, fungus, plants, trees etc. Non-living things do not breathe, live, eat, reproduce, etc. For example Stone, chair, house, etc.
           # Relationship of all things in the environment
-          1. Living things and non-living things interact in the environment.For example, birds live in a nest. To build the nest, they need twigs, cotton, threads, etc.
+          1. Living things and non-living things interact in the environment. For example, birds live in a nest. To build the nest, they need twigs, cotton, threads, etc.
           2. Living things also keep the environment healthy. For example, seeds scatter in the soil/ ground by the wind and grow as new plants that help the environment.
           3. Living things bring changes even in non-living things. Some types of animals hunt and eat. The remaining part of the dead animals will start to decay in the soil and that will turn into manure. Thus, all living things and non-living things are dependent upon each other.`,
         title: 'What is an Environment?'
@@ -60,31 +60,31 @@ export default {
           {
             qText: 'Animals can  __________',
             options: `eat food
-              move one place to another
-              reproduce the little ones
-              *All the above`
+move one place to another
+reproduce the little ones
+*All the above`
           },
           {
             qText: 'Houses are built using ___________',
-            options: `Bricks and cement
-              Steel and glasses
-              Wood
-              *All the above`
+            options: `bricks and cement
+steel and glasses
+wood
+*All the above`
           },
           {
             qText: 'Environment is made up of __________.',
-            options: `living things and non-living things
-              animals and plants
-             human beings and animals
-             earth and sky`
+            options: `living and non-living things
+animals and plants
+human beings and animals
+earth and sky`
           },
           {
             qText:
               'Human used to make many things like _____, ______ from the environment.',
             options: `paper, baskets
-              water, soil
-              stone, plants
-              mountain, land`
+water, soil
+stone, plants
+mountain, land`
           },
           {
             qText: 'Seeds of the plants are scattered by _________.',
@@ -117,10 +117,10 @@ export default {
       type: 'fillupOptions',
       data: {
         text: `Sparrows grow by eating *insects (stone)* and *food grains (paper)*.
-          Plants and animals will come under *living things (non-living things)*.
+          Plants and animals are *living things (non-living things)*.
           Plants utilize *sunlight (moonlight)* to prepare their food.
-          Birds will build their nest using *twigs (bricks) *.
-          Papers, rock and bag will come under *non-living (living)* things .`,
+          Birds build their nest using *twigs (bricks) *.
+          Papers, rock and bag are *non-living (living)* things .`,
         title: 'Fill in the blanks.'
       }
     },
@@ -133,13 +133,13 @@ export default {
         types: [
           {
             name: 'True',
-            text: `Dead animals will decay in the soil and turn the soil as fertile.
+            text: `Dead animals will decay in the soil and turn the soil fertile.
             Living things and non-living things depend upon each other in the environment.
             Plants will not move from one place to another place by their own.`
           },
           {
             name: 'False',
-            text: `Train can move from one place to another. So, train is a living things.
+            text: `Train can move from one place to another. So, train is a living thing.
             Wooden chairs and tables are made from the trees. So, they are living things.`
           }
         ]
@@ -158,14 +158,14 @@ export default {
           # Different Colors
          Different animals, birds, and insects will have different color patterns in their body. For example, peacock has colorful feathers; five-colored parrot Brett; tiger is found in both orange and white; crows in black and pigeons in grey.
           # Different ways of the Birds
-          Birds have two legs and two wings. Their body is covered with feathers. Every bird can fly, with a few exceptions like penguins. For example, an eagle will fly higher whereas pigeons will not be able to fly high.
+          Birds have two legs and two wings. Their body is covered with feathers. Most of the birds can fly. But some birds like penguin and ostrish cannot fly. For example, an eagle can fly higher than pigeons.
           # Different ways of the Animals
          Animals have four legs and each animals move in a different way. Some run very fast, some move very slowly. For example, cheetah is the fastest land animal and the tortoise is the slowest. Some reptiles move at normal speed and some very fast. Most of the reptiles crawl and have scales on their body. For example, snakes move much faster when compared to crocodiles on land. Moreover, some have short legs and some have no legs at all. For example, snakes don't have legs, and lizards have small legs.
           # Different ways of the Insects
           Some fly in the air, as well as they move on land. There are variety of insects with different characteristics. Insects also have wings. Examples are mosquitoes, houseflies, butterflies, etc. Usually, most insects have six legs but some have eight.
           # Different ways of the Fish
           Fishes live in water. They are of different types. They have fins and scales in their body to move in the water; use gills to breathe. They cannot survive on land. Some unique fishes can survive on moist-land, for example, the mud-fish.
-          Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified under the cold-blooded animal.
+          Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified as cold-blooded animal.
           # Domestic animals and Wild animals
  Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`
       }
@@ -222,7 +222,7 @@ export default {
             options: `Horse, Cow, Elephant, Deer`
           },
           {
-            qText: '_______ have different types of colors in their body.',
+            qText: '_______ have different colors in their body.',
             options: `Peacock, Crow, Eagle, Dove`
           },
           {
@@ -243,8 +243,8 @@ export default {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `Crocodiles are *reptile*.
-          *Elephants* have a trunk.
+        text: `Crocodiles are *reptiles*.
+          *Elephants* have trunk.
           *Snake* is a cold-blooded animal.
           *Chameleon* can change its skin color.
           *Monkey* is a warm-blooded animal.`
@@ -258,8 +258,8 @@ export default {
       data: {
         text: `Birds have *two (three)* wings.
         *Ox (Dog)* is used as a draft animal.
-        Rats and mice will *trouble (help)* us.
-        Bedbugs will suck *blood (sweat)* from our body
+        Rats and mice *trouble (help)* us.
+        Bedbugs suck *blood (sweat)* from our body
         *Kangaroos (Monkey)* have a special pouch in their body, to carry their young ones.`,
         title: 'Fill in the blanks.'
       }
@@ -279,7 +279,7 @@ export default {
           },
           {
             name: 'False',
-            text: `Dogs will have scales in their body.
+            text: `Dogs have scales in their body.
               Bat is a bird.`
           }
         ]
@@ -299,7 +299,7 @@ export default {
           # Human’s Need
           Animals and plants give us abundantly and they are satisfying our needs. Humans also take care of some animals for their domestic use and they are called domestic animals. Plants give us vegetables, fruits, flowers, seeds, and many products for our daily use. Besides, many plants have more medicinal values and their extraction is used as medicines.
           # Seasons
-          We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season we will bring changes in the environment. For example, in the summer season, there will be sunny and we used to wear cotton clothes. In the winter season, there will be cold and we wear woolen clothes. It will give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.
+          We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season brings changes in the environment. For example, in summer, there will be sunny and we used to wear cotton clothes. In the winter season, there will be cold and we wear woolen clothes. It will give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.
           `
       }
     },
@@ -360,7 +360,7 @@ export default {
           },
           {
             qText: '__________ is a reptile.',
-            options: `Turtles
+            options: `Turtle
               Gila monster
               Alligator
               *All the above`
@@ -404,13 +404,13 @@ export default {
           {
             name: 'True',
             text: `Monkey is an arboreal animal.
-              Deer is an herbivore.
-              Kangaroo is a wild animal.`
+Deer is an herbivore.
+Kangaroo is a wild animal.`
           },
           {
             name: 'False',
-            text: `Frogs will be active during wintertime.
-              During the autumn season, fresh buds will bloom, and the new beginning of life starts.`
+            text: `Frogs can live only during rainy days.
+During autumn, fresh buds will bloom, and the new beginning of life starts.`
           }
         ]
       }
@@ -422,9 +422,9 @@ export default {
       data: {
         title: '',
         text: `# Biotic Factors
-          Biotic factors are the living organisms in our environment. For example; Trees, Animals, Birds, Human beings, etc.
+          Biotic factors are the living organisms in our environment. example: trees, animals, birds
           # Abiotic factors
-Abiotic factors are the non-living organisms in our environment. For example; Temperature, Water, air, stone, mountain, etc.
+Abiotic factors are the non-living organisms in our environment. example: water, air, stone
 # Difference between Biotic and Abiotic factors
 Biotic factors are also called living things and abiotic factors are also called non-living things. Biotic factors can feel, breathe and grow. They need food for living and they will give birth to young ones. Abiotic factors do not live. So, food is not necessary for them. Abiotic and biotic factors are linked together in the environment by the flow of energy via food. They both interact with one another in the environment. Moreover, plants are immobile, but they can grow well. Plants prepare their food by using abiotic factors like soil, water, air, sunlight, etc. Every biotic factor depends on other things for food in the environment.
 # Balanced – Ecosystem
@@ -433,9 +433,9 @@ The food chain plays a more important role in every biotic/ living thing in the 
 Some types of living things prepare their food by themselves and they are called producers. For example, trees. Plants prepare food by the process called photosynthesis. Plants are also called primary producers. Moreover, humans and some types of animals depend upon plants for their food. Some types of plants do not prepare their food by themselves and they depend upon other plants for food. These types of plants are called parasitic plants. For example, Cuscuta.
 # Consumers
 Some types of living things are not able to produce food on their own and it is dependent for food on plants and animals. They are called Consumers and they can be classified into three categories. They are Herbivores, Carnivores and Omnivores.
-1. Living things depend completely on plants for their food, they are called Herbivores.
-2. Living things eats only flesh animals for their food, they are called Carnivores.
-3. Living things depend completely on plants and animal's flesh (meat) for their food, they are called Omnivores.
+1. Herbivores eat only plants
+2. Carnivores eat only the meat of other animals.
+3. Omnivores eat both plants and meat.
 # Decomposers
 Microorganisms that feed on the decaying waste such as dead plants and animals for their survival are called decomposers. Those micro-organisms support the environment by giving nutrients to the soil. So soil turns more fertile and this helps to grow the plants and trees well. For example; Bacteria, fungi, etc.`
       }
@@ -484,8 +484,8 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
             options: `Fungi, Lotus, Tomato, Lentils`
           },
           {
-            qText: 'Humans are classified under ________. ',
-            options: `Omnivores, Carnivores, Herbivores, None of the above`
+            qText: 'Humans are  ________. ',
+            options: `omnivores, carnivores, herbivores, None of the above`
           },
           {
             qText: '_______ are also called as primary producers.',
