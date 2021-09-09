@@ -61,6 +61,7 @@ export default {
 
           },
                   {
+                      // for class iii and above
             type: 'rightOne',
             id: 'bn-sound-word-1s',
             label: 'ধ্বনি শুনে শব্দ শনাক্ত',
