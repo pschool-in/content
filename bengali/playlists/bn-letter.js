@@ -627,7 +627,7 @@ export default {
     },
 
     {
-      //Coumpound letters - class 2 and above
+      //Coumpound letters - class ii and above
       id: 'Coumpound-letters-bn-1',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ক-ঙ)',
@@ -692,7 +692,7 @@ export default {
     },
 
     {
-      //Coumpound letters - class 2 and above
+      //Coumpound letters - class ii and above
       id: 'Coumpound-letters-bn-2',
       type: 'match',
       label: 'বর্ণ - যুক্তাক্ষর',
