@@ -60,6 +60,59 @@ export default {
             ],            
 
           },
+                  {
+            type: 'rightOne',
+            id: 'bn-sound-word-1s',
+            label: 'ধ্বনি শুনে শব্দ শনাক্ত',
+            commonData: {
+              title: 'ধ্বনি শুনে শব্দ শনাক্ত করুন',
+              type: 'words',
+              audio: 'bn-animals.mp3'
+            },
+            data: [
+              {
+                audioOffset: 0,
+                words:
+                  'বিড়াল, কুকুর, ছাগল, ভেড়া, ঘোড়া'
+              },
+              {
+                audioOffset: 10,
+                words:
+                  'শূকর, হাতি, সিংহ, বাঁদর, বাঘ'
+              },
+              {
+                audioOffset: 20,
+                words:
+                  'জলহস্তী, গণ্ডার, শিয়াল, কুমির, ভালুক'
+              },
+              {
+                audioOffset: 30,
+                words:
+                  'উট, হাঙ্গর, তিমি মাছ, শুশুক, ফড়িং'
+              },
+              {
+                audioOffset: 40,
+                words:
+                  'মাছ, ব্যাঙ, কাঁকড়া, সাপ, কাঠবিড়ালি'
+              },
+              {
+                audioOffset: 50,
+                words:
+                  'কচ্ছপ, ইঁদুর, উইপোকা, পিঁপড়ে, মাছি'
+              },
+              {
+                audioOffset: 60,
+                words:
+                  'বাদুড়, মোষ, প্রজাপতি, চিতাবাঘ, গরু, গাধা'
+              },
+              {
+                audioOffset: 72,
+                words:
+                  'বেজি, মশা, নেকড়ে বাঘ, আরশোলা, টিকটিকি, খরগোশ'
+              },
+
+            ]
+          },
 
     ]
 };
