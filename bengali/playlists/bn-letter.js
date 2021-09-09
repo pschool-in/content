@@ -4,6 +4,7 @@ export default {
   img: 'writing',
   list: [
     {
+      // KG and avobe
       id: 'vowels',
       label: 'বাংলা - স্বরবর্ণ লেখা ',
       type: 'tracing',
@@ -131,6 +132,7 @@ export default {
       }
     },
     {
+      // KG and avobe
       id: 'consonants',
       label: 'বাংলা - ব্যঞ্জনবর্ণ লেখা',
       type: 'tracing',
@@ -461,6 +463,7 @@ export default {
     },
 
     {
+      // KG and avobe
       type: 'rightOne',
       label: 'ধ্বনি শুনে স্বরবর্ণ নির্বাচন',
       slug: 'correct-spelling',
@@ -473,6 +476,7 @@ export default {
       }
     },
     {
+      // KG and avobe
       type: 'rightOne',
       label: 'ধ্বনি শুনে ব্যঞ্জনবর্ণ নির্বাচন',
       id: 'sound-2',
@@ -498,6 +502,7 @@ export default {
     },
 
     {
+      // KG and avobe
       id: '100',
       type: 'passage',
       label: 'বর্ণ ছড়া অ-ঊ',
@@ -569,6 +574,7 @@ export default {
       ]
     },
     {
+      // KG and avobe
       label: 'বর্ণের ক্রম',
       type: 'sorting',
       id: 'ascending',
@@ -591,6 +597,7 @@ export default {
     },
 
     {
+      // KG and avobe
       type: 'group',
       label: 'স্বরবর্ণ vs ব্যঞ্জনবর্ণ ',
       id: 'classify-letter-type',
@@ -620,7 +627,7 @@ export default {
     },
 
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-1',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (ক-ঙ)',
@@ -685,7 +692,7 @@ export default {
     },
 
     {
-      //Coumpound letters
+      //Coumpound letters - class 2 and above
       id: 'Coumpound-letters-bn-2',
       type: 'match',
       label: 'বর্ণ - যুক্তাক্ষর',
