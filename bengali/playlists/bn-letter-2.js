@@ -4,7 +4,7 @@ export default {
   img: 'writing',
   list: [
     {
-      //Coumpound letters - class 2 and above
+      //Coumpound letters - class ii and above
       id: 'Coumpound-letters-bn-2-1',
       type: 'match',
       label: 'বর্ণ - ব্যঞ্জনবর্ণের সাথে স্বরবর্ণ যোগ (চ-ঝ)',
