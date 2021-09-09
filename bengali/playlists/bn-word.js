@@ -11,6 +11,7 @@ export default {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
         lang: 'bn'
       },
+      // refernce - west bengal state board class 1/2 books
       data: [
         `বক , বই , কই , বন , বল , নল `,
         `ফল, জল, খই, দই, টব, টক, জট, বট `,
@@ -25,6 +26,7 @@ export default {
       ]
     },
     {
+      // this is for class 3 and above students
       id: 'bn-jumbled',
       type: 'sequence',
       label: 'অক্ষর যুক্ত করে শব্দ গঠন',
@@ -51,7 +53,7 @@ export default {
     },
 
     {
-      //Antonyms
+      //Antonyms - class-5 content ref-bhasapath-v
       id: 'opposites',
       type: 'match',
       label: 'বিপরীতার্থক শব্দ',
@@ -60,6 +62,24 @@ export default {
         fontSize: '1.2rem'
       },
       data: [
+        `দিন , রাত 
+        বৃদ্ধি , হ্রাস 
+        নবীন , প্রবীণ 
+        স্বাধীন , পরাধীন 
+        স্থির , অস্থির`,
+        
+        `অজ্ঞ , বিজ্ঞ 
+        কঠিন , কোমল 
+        ধ্বংস , সৃষ্টি 
+        আকাশ , পাতাল 
+        অগ্রজ , অনুজ`,
+        
+        `উন্নতি , অবনতি 
+          ছোট , বড়
+          জ্ঞানী , মূর্খ 
+          উচিত , অনুচিত 
+          পাপ , পুণ্য `,
+        
         `আসা, যাওয়া
         আগে, পেছনে
         উপর, নিচ
@@ -122,15 +142,27 @@ export default {
       ]
     },
     {
-      // Synonyms
+      // Synonyms - class-4 content ref-bhasapath-iv
       id: 'same-meaning',
       type: 'match',
-      label: 'সমার্থক শব্দ',
+      label: 'প্রতিশব্দ বা সমার্থক শব্দ',
       commonData: {
-        title: 'সমার্থক শব্দ',
+        title: 'প্রতিশব্দ মেলান',
         fontSize: '1.2rem'
       },
       data: [
+        `পথ , মার্গ 
+        গৃহ , আবাস 
+        হাতি , গজ 
+        বাগান , উদ্যান 
+        পৃথিবী , জগৎ `,
+        
+        `সমীর , বাতাস 
+        নদী , সরিৎ
+        রাত্রি , নিশা 
+        আকাশ , গগন 
+        মাটি , মৃত্তিকা`,
+        
         `অচল , গতিহীন
     নয়ন , চোখ
     অনেক , বেশি
@@ -173,7 +205,7 @@ export default {
     মুখ, আনন
     কান, কর্ণ `,
 
-        `উঠান, অঙ্গান 
+        `উঠান, অঙ্গন 
     পুকুর, দীঘি 
     সাপ, নাগ 
     ঘর , আবাস 
@@ -196,7 +228,7 @@ export default {
     },
 
     {
-      //Antonyms
+      // bengali number - Class 1 and above
       id: 'number',
       type: 'match',
       label: 'সংখ্যা ও শব্দ',
@@ -239,6 +271,7 @@ export default {
     },
 
     {
+      // for studetns class 3 and above
       type: 'rightOne',
       label: 'সঠিক বানান',
       id: 'spelling',
@@ -280,7 +313,7 @@ export default {
     },
 
     {
-      //Antonyms
+      // for class 2 and above
       id: 'colors',
       type: 'match',
       label: 'রঙ',
@@ -310,7 +343,7 @@ export default {
     },
 
     {
-      //Antonyms
+      // for class 3 and above
       id: 'TimePlace',
       type: 'match',
       label: 'বাংলায় আপেক্ষিক সময়-কাল',

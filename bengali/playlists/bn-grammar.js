@@ -4,8 +4,8 @@ export default {
   img: 'langGrammar',
   list: [
     {
-      //Same sounding words - Need to add more
-      id: 'number',
+      // for class 5 and above
+      id: 'bn_samesoundingword',
       type: 'match',
       label: 'ব্যাকরণ - সমোচ্চারিত ভিন্নার্থক শব্দ',
       commonData: {
@@ -57,7 +57,7 @@ export default {
     },
 
     {
-      //Same sounding words
+      //Singular-Prural class-5 content ref-bhasapath-v
       id: 'number-2',
       type: 'match',
       label: 'ব্যাকরণ - বচন',
@@ -96,7 +96,7 @@ export default {
     },
 
     {
-      //Gender
+      //Gender - class-5 content ref-bhasapath-v
       id: 'number-3',
       type: 'match',
       label: 'ব্যাকরণ - লিঙ্গ',
@@ -147,7 +147,7 @@ export default {
     },
 
     {
-      //subjectverb
+      //subjectverb - class-5 content ref-bhasapath-v
       id: 'Person',
       type: 'match',
       label: 'পুরুষ',
@@ -191,7 +191,8 @@ export default {
     },
 
     {
-      id: 'Person-verb',
+      //person-verb - class-5 content ref-bhasapath-v
+      id: 'person-verb',
       label: 'পুরুষ - ক্রিয়া',
       type: 'fillupOptions',
       commonData: {

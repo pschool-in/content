@@ -1,4 +1,5 @@
 export default {
+  // Primarily for class 1 and 2 students. above class also can refer
   label: 'কবিতা',
   id: 'bn-poem',
   img: 'reading',

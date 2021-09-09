@@ -84,7 +84,7 @@ Chips, Frying`,
       }
     },
     {
-      label: 'Choose the best answer',
+      label: 'Choose the correct answer(s)',
       type: 'mcq',
       id: '500',
       data: {
