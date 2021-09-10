@@ -563,9 +563,9 @@ export default {
     {
       id: 'leaders',
       type: 'wordsearch',
-      label: 'தலைவர்கள் ',
+      label: 'தலைவர்கள்',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'தலைவர்கள்',
         words: [
           {
             word: ['ரா', 'ஜ', 'கோ', 'பா', 'லா', 'ச்', 'சா', 'ரி'],
@@ -604,7 +604,7 @@ export default {
       type: 'wordsearch',
       label: 'புலவர்கள்',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'புலவர்கள்',
         words: [
           {
             word: ['பா', 'ர', 'தி', 'தா', 'ச', 'ன்'],
@@ -645,9 +645,9 @@ export default {
     {
       id: 'literature',
       type: 'wordsearch',
-      label: 'இலக்கியங்கள் ',
+      label: 'இலக்கியங்கள்',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'இலக்கியங்கள்',
         words: [
           {
             word: ['க', 'ம்', 'ப', 'ரா', 'மா', 'ய', 'ண', 'ம்'],
@@ -695,11 +695,11 @@ export default {
     {
       id: 'numbers',
       type: 'wordsearch',
-      label: 'எண்கள் ',
+      label: 'எண்கள்',
       lang: 'ta',
       showWords: true,
       data: {
-        title: 'Find the given words from the table.',
+        title: 'எண்கள்',
         words: [
           {
             word: ['ஒ', 'ன்', 'று'],
@@ -759,7 +759,7 @@ export default {
       type: 'wordsearch',
       label: 'எண்கள்-1',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'எண்கள்-1',
         lang: 'ta',
         showWords: true,
         words: [
@@ -843,7 +843,7 @@ export default {
       type: 'wordsearch',
       label: 'திருக்குறள் ',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'திருக்குறள்',
         words: [
           {
             word: ['உ', 'ல', 'க', 'ப்', 'பொ', 'து', 'ம', 'றை'],
@@ -890,7 +890,7 @@ export default {
       type: 'wordsearch',
       label: 'பாரம்பரிய விளையாட்டுகள்',
       data: {
-        title: 'Find the given words from the table.',
+        title: 'பாரம்பரிய விளையாட்டுகள்',
         words: [
           {
             word: ['தா', 'ய', 'ம்'],
@@ -961,7 +961,7 @@ export default {
           slug: 'தமிழ்'
         },
         {
-          title: 'Find the given words from the table.',
+          title: 'பயிற்சி-1',
           words: [
             {
               word: ['பெ', 'ரி', 'ய'],
@@ -1018,7 +1018,7 @@ export default {
           showWords: true
         },
         {
-          title: 'Find the given words from the table.',
+          title: 'பயிற்சி-2',
           words: [
             {
               word: ['உ', 'ண', 'வ', 'க', 'ம்'],
@@ -1067,7 +1067,7 @@ export default {
           showWords: true
         },
         {
-          title: 'Find the given words from the table.',
+          title: 'பயிற்சி-3',
           words: [
             { word: ['க', 'ட்', 'டெ', 'று', 'ம்', 'பு'], marker: [0, 0, 0, 5] },
             { word: ['பே', 'ரு', 'ந்', 'து'], marker: [1, 0, 4, 0] },
@@ -1091,7 +1091,7 @@ export default {
           showWords: true
         },
         {
-          title: 'Find the given words from the table.',
+          title: 'பயிற்சி-4',
           words: [
             {
               word: ['தொ', 'ட்', 'டா', 'சி', 'ணு', 'ங்', 'கி'],
