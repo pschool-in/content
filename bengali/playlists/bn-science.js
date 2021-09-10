@@ -41,6 +41,29 @@ export default {
               ]
             }
           },
+                  {
+            label: 'স্থলযান - জলযান - বায়ুযান',
+            type: 'group',
+            id: 'bn-vehicle',
+            data: {
+              title: 'স্থলযান, জলযান আর বায়ুযান সঠিক বাক্সে রাখুন ',
+              imageType: 'vegetables',
+              types: [
+                {
+                  name: 'স্থলযান',
+                  text: 'bus, auto'
+                },
+                {
+                  name: 'জলযান',
+                  text: 'boat, ship'
+                },
+                {
+                  name: 'বায়ুযান',
+                  text: 'aeroplane, helicoptor'
+                },
+              ]
+            }
+          },
       {
         id: 'parts-of-face',
         label: 'মুখের অংশ',
