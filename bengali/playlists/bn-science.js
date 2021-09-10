@@ -3,6 +3,25 @@ export default {
     id: 'bn-science',
     img: 'science',
     list: [
+                  {
+            label: 'গৃহপালিত পশু - বন্য পশু',
+            type: 'group',
+            id: 'bn-domestic-wild',
+            data: {
+              title: 'গৃহপালিত পশু আর বন্য পশু ঠিক বাক্সে রাখুন ',
+              imageType: 'animals',
+              types: [
+                {
+                  name: 'গৃহপালিত পশু',
+                  text: 'cat, dog, goat, horse, pig, sheep'
+                },
+                {
+                  name: 'বন্য পশু',
+                  text: 'elephant, lion, monkey, rhino, tiger, zebra'
+                }
+              ]
+            }
+          },
       {
         id: 'parts-of-face',
         label: 'মুখের অংশ',
