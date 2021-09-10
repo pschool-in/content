@@ -505,9 +505,9 @@ export default {
       // KG and avobe
       id: '100',
       type: 'passage',
-      label: 'বর্ণ ছড়া অ-ঊ',
+      label: 'ছোটদের বর্ণ ছড়া',
       commonData: {
-        title: 'বর্ণ ছড়া অ-ঊ',
+        title: 'ছোটদের বর্ণ ছড়া',
         type: 'poem'
       },
       data: [
