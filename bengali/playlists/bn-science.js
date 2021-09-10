@@ -22,6 +22,25 @@ export default {
               ]
             }
           },
+                  {
+            label: 'মাটির উপরে - মাটির নিচে সবজি ',
+            type: 'group',
+            id: 'vegi',
+            data: {
+              title: 'মাটির উপরে আর মাটির নিচে সবজি সঠিক বাক্সে রাখুন ',
+              imageType: 'vegetables',
+              types: [
+                {
+                  name: 'মাটির উপরে',
+                  text: 'tomato, cabbage, cauliflower, corn, cucumber, pumpkin'
+                },
+                {
+                  name: 'মাটির নিচে',
+                  text: 'carrot, beetroot, onion, potato, garlic, ginger'
+                }
+              ]
+            }
+          },
       {
         id: 'parts-of-face',
         label: 'মুখের অংশ',
