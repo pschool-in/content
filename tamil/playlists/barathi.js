@@ -194,7 +194,7 @@ export default {
       }
     },
     {
-      id: '200-audio',
+      id: '600-audio',
       type: 'slides2',
       label: `தேடிச் சோறு - audio`,
       data: {
