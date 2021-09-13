@@ -6,9 +6,9 @@ export default {
     {
       id: '100',
       type: 'crossword',
-      label: 'Animal Crossword',
+      label: 'पशु वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'शेर ',
@@ -79,9 +79,9 @@ export default {
     {
       id: '200',
       type: 'crossword',
-      label: 'Birds Crossword',
+      label: 'पक्षी वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'कौआ ',
@@ -152,9 +152,9 @@ export default {
     {
       id: '300',
       type: 'crossword',
-      label: 'Fruits Crossword',
+      label: 'फल वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'आम ',
@@ -225,9 +225,9 @@ export default {
     {
       id: '400',
       type: 'crossword',
-      label: 'Capital Crossword',
+      label: 'राजधानी वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'दिल्ली',
@@ -298,9 +298,9 @@ export default {
     {
       id: '500',
       type: 'crossword',
-      label: 'Capital 2 Crossword',
+      label: 'राजधानी - 2  वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'भोपाल ',
@@ -371,9 +371,9 @@ export default {
     {
       id: '600',
       type: 'crossword',
-      label: 'Monuments Crossword',
+      label: 'स्मारक वर्ग पहेली',
       data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        title: 'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
         words: [
           {
             word: 'आगरा ',
