@@ -56,9 +56,9 @@ export default {
     {
       id: '200',
       type: 'wordsearch',
-      label: 'WordSearch - Days',
+      label: 'शब्द खोज - दिन',
       data: {
-        title: 'Find out the days',
+        title: 'दिनों का पता लगाएं',
         words: [
           {
             word: ['र', 'बि', 'वा', 'र'],
@@ -106,9 +106,9 @@ export default {
     {
       id: '300',
       type: 'wordsearch',
-      label: 'WordSearch - Fruits',
+      label: 'शब्द खोज - फल',
       data: {
-        title: 'Find out Fruits',
+        title: 'फलों का पता लगाएं',
         words: [
           {
             word: ['आ', 'म'],
@@ -164,9 +164,9 @@ export default {
     {
       id: '400',
       type: 'wordsearch',
-      label: 'WordSearch - Animal',
+      label: 'शब्द खोज - पशु',
       data: {
-        title: 'Find out the Animals',
+        title: 'जानवरों का पता लगाएं',
         words: [
           {
             word: ['शे', 'र'],
@@ -212,9 +212,9 @@ export default {
     {
       id: '500',
       type: 'wordsearch',
-      label: 'WordSearch - Flowers',
+      label: 'शब्द खोज - फूल',
       data: {
-        title: 'Find out the Flowers',
+        title: 'फूलों का पता लगाएं',
         words: [
           {
             word: ['गु', 'ला', 'ब'],
@@ -252,9 +252,9 @@ export default {
     {
       id: '600',
       type: 'wordsearch',
-      label: 'WordSearch - Birds',
+      label: 'शब्द खोज - पक्षी',
       data: {
-        title: 'Find the Birds',
+        title: 'पक्षियों का पता लगाएं',
         words: [
           {
             word: ['कौ', 'वा'],
@@ -300,9 +300,9 @@ export default {
     {
       id: '700',
       type: 'wordsearch',
-      label: 'WordSearch - Birds',
+      label: 'शब्द खोज - पक्षी',
       data: {
-        title: 'Find the Birds',
+        title: 'पक्षियों का पता लगाएं',
         words: [
           {
             word: ['मो', 'र'],
@@ -344,9 +344,9 @@ export default {
     {
       id: '800',
       type: 'wordsearch',
-      label: "WordSearch - Month's Name",
+      label: 'शब्द खोज - महीनो के नाम',
       data: {
-        title: "Find the Month's Name",
+        title: 'महीनो के नाम खोजें',
         words: [
           {
             word: ['ज', 'न', 'व', 'री'],
@@ -414,9 +414,9 @@ export default {
     {
       id: '900',
       type: 'wordsearch',
-      label: 'WordSearch - Colors',
+      label: 'शब्द खोज - रंग',
       data: {
-        title: 'Find the colors',
+        title: 'रंग खोजें',
         words: [
           {
             word: ['स', 'फे', 'द'],
@@ -466,9 +466,9 @@ export default {
     {
       id: '1000',
       type: 'wordsearch',
-      label: 'WordSearch - Vegetables',
+      label: 'शब्द खोज - सब्जियां',
       data: {
-        title: 'Find the Vegetables',
+        title: 'सब्जियां खोजें',
         words: [
           {
             word: ['पा', 'ल', 'क'],
@@ -518,9 +518,9 @@ export default {
     {
       id: '1100',
       type: 'wordsearch',
-      label: 'WordSearch - Cities',
+      label: 'शब्द खोज - शहर',
       data: {
-        title: 'Find the Cities',
+        title: 'शहरों का पता लगाएं',
         words: [
           {
             word: ['दि', 'ल्', 'ली'],
@@ -570,9 +570,9 @@ export default {
     {
       id: '1200',
       type: 'wordsearch',
-      label: 'WordSearch - Relatives',
+      label: 'शब्द खोज - रिश्तेदार',
       data: {
-        title: 'Find the Relatives',
+        title: 'रिश्तेदारों को खोजें',
         words: [
           {
             word: ['मा', 'मा'],
@@ -622,9 +622,9 @@ export default {
     {
       id: '1300',
       type: 'wordsearch',
-      label: 'WordSearch - Vehicle',
+      label: 'शब्द खोज - वाहन',
       data: {
-        title: 'Find the Vehicles',
+        title: 'वाहनों का पता लगाएं',
         words: [
           {
             word: ['ब', 'स'],
@@ -674,9 +674,9 @@ export default {
     {
       id: '1400',
       type: 'wordsearch',
-      label: 'WordSearch - Household items',
+      label: 'शब्द खोज - घरेलू सामान',
       data: {
-        title: 'Find the household items',
+        title: 'घरेलू सामान खोजें',
         words: [
           {
             word: ['अ', 'ल', 'मा', 'री'],
@@ -726,9 +726,9 @@ export default {
     {
       id: '1500',
       type: 'wordsearch',
-      label: 'WordSearch - Household 2',
+      label: 'शब्द खोज - घरेलू 2',
       data: {
-        title: 'Find the Household items',
+        title: 'घरेलू सामान खोजें',
         words: [
           {
             word: ['धू', 'प', 'दा', 'न'],
@@ -778,9 +778,9 @@ export default {
     {
       id: '1600',
       type: 'wordsearch',
-      label: 'WordSearch - Rivers',
+      label: 'शब्द खोज - नदियाँ',
       data: {
-        title: 'Find the Rivers',
+        title: 'नदियों का पता लगाएं',
         words: [
           {
             word: ['गं', 'गा'],
@@ -830,9 +830,9 @@ export default {
     {
       id: '1700',
       type: 'wordsearch',
-      label: 'WordSearch - Monuments',
+      label: 'शब्द खोज - स्मारक',
       data: {
-        title: 'Find the Monuments',
+        title: 'स्मारक खोजें',
         words: [
           {
             word: ['ता', 'ज', 'म', 'ह', 'ल'],
@@ -880,9 +880,9 @@ export default {
     {
       id: '1800',
       type: 'wordsearch',
-      label: 'WordSearch - Sweets',
+      label: 'शब्द खोज - मिठाई',
       data: {
-        title: 'Find the Sweets',
+        title: 'मिठाई खोजें',
         words: [
           {
             word: ['ज', 'ले', 'बी'],
@@ -928,9 +928,9 @@ export default {
     {
       id: '1900',
       type: 'wordsearch',
-      label: 'WordSearch - Bodyparts',
+      label: 'शब्द खोज - शरीर के अंग',
       data: {
-        title: 'Find the Body Parts',
+        title: 'शरीर के अंगों का पता लगाएं',
         words: [
           {
             word: ['बा', 'ल'],
