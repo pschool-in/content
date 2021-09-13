@@ -526,7 +526,8 @@ export default {
       id: 'compoundword-2',
       commonData: {
         title: 'பிரித்து எழுதுக',
-        hasHint: true
+        hasHint: true,
+        fontSize: '1rem'
       },
       data: [
         `அச்செல்வம்=, அ+செல்வம், அந்த+செல்வம்
