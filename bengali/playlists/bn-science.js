@@ -65,7 +65,7 @@ export default {
             }
           },
       {
-        id: 'parts-of-face',
+        id: 'bn-parts-of-face',
         label: 'মুখের অংশ',
         type: 'dragAndDrop',
         data: {
@@ -105,7 +105,7 @@ export default {
       },
       {
         type: 'dragAndDrop',
-        id: 'parts-plant',
+        id: 'bn-parts-plant',
         label: 'উদ্ভিদের অংশ',
         data: {
           img: 'plant',
@@ -123,7 +123,7 @@ export default {
       },
       {
         type: 'dragAndDrop',
-        id: 'parts-dog',
+        id: 'bn-parts-dog',
         label: 'কুকুরের অংশ',
         data: {
           img: 'dog',
@@ -143,7 +143,7 @@ export default {
       },
       {
         type: 'dragAndDrop',
-        id: 'parts-body',
+        id: 'bn-parts-body',
         label: 'মানুষের অংশ',
         data: {
           img: 'human',
@@ -162,8 +162,52 @@ export default {
           ]
         }
       },
+                  {
+            id: 'bn-fish',
+            label: 'মাছের অংশ',
+            type: 'dragAndDrop',
+            data: {
+              img: 'fish.jpg',
+              title: 'মাছের অংশ',
+              width: 380,
+              height: 280,
+              wordWidth: 50,
+              words: [
+                {
+                  word: 'মুখ',
+                  x: 10,
+                  y: 190
+                },
+                {
+                  word: 'চোখ',
+                  x: 10,
+                  y: 70
+                },
+                {
+                  word: 'কানকো',
+                  x: 30,
+                  y: 20
+                },
+                {
+                  word: 'আঁশ',
+                  x: 150,
+                  y: 30
+                },
+                {
+                  word: 'পাখনা',
+                  x: 210,
+                  y: 250
+                },
+                {
+                  word: 'লেজ',
+                  x: 280,
+                  y: 40
+                }
+              ]
+            }
+          },
       {
-        id: 'tree',
+        id: 'bn-tree',
         label: 'গাছের অংশ',
         type: 'dragAndDrop',
         data: {
