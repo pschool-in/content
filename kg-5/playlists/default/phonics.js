@@ -7,7 +7,6 @@ export default {
       label: 'Phonics Collection - 1',
       type: 'phonics',
       id: 'phonics-sound',
-      locked: true,
       commonData: {
         audio: 'phonicsWords.mp3'
       },
@@ -93,7 +92,6 @@ export default {
       label: 'Phonics Collection - 2',
       type: 'phonics',
       id: 'phonics-microLabel',
-      locked: true,
       commonData: {
         audio: 'phonicsWords-2.mp3'
       },
@@ -169,7 +167,6 @@ export default {
       label: 'Phonics Collection - 3',
       type: 'phonics',
       id: 'phonics-microLabel',
-      locked: true,
       commonData: {
         audio: 'phonicsWords-3.mp3'
       },
