@@ -554,9 +554,9 @@ export default {
       //Coumpound letters
       id: 'compound-7',
       type: 'match',
-      label: 'पत्र - संयोजन (क - घ)',
+      label: 'व्यंजन और स्वर संयोजन (क - घ)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
@@ -623,23 +623,22 @@ export default {
 घ + औ, घौ
 घ + अं, घं
 घ + अः, घः`,
-
-        `च + अ, च
-च + आ, चा
-च + इ, चि
-च + ई, ची`
       ]
     },
     {
       //Coumpound letters
       id: 'compound',
       type: 'match',
-      label: 'पत्र - संयोजन (च - झ)',
+      label: 'व्यंजन और स्वर संयोजन (च - झ)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
+        `च + अ, च
+च + आ, चा
+च + इ, चि
+च + ई, ची`
         `च + उ, चु
 च + ऊ, चू
 च + ऋ, चृ
@@ -702,9 +701,9 @@ export default {
       //Coumpound letters
       id: 'compound-2',
       type: 'match',
-      label: 'पत्र - संयोजन (ट - त)',
+      label: 'व्यंजन और स्वर संयोजन (ट - त)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
@@ -789,9 +788,9 @@ export default {
       //Coumpound letters
       id: 'compound-3',
       type: 'match',
-      label: 'पत्र - संयोजन (थ - न)',
+      label: 'व्यंजन और स्वर संयोजन (थ - न)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
@@ -860,9 +859,9 @@ export default {
       //Coumpound letters
       id: 'compound-4',
       type: 'match',
-      label: 'पत्र - संयोजन (प - म)',
+      label: 'व्यंजन और स्वर संयोजन (प - म)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
@@ -946,9 +945,9 @@ export default {
       //Coumpound letters
       id: 'compound-5',
       type: 'match',
-      label: 'पत्र - संयोजन (य - ष)',
+      label: 'व्यंजन और स्वर संयोजन (य - ष)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
@@ -1047,9 +1046,9 @@ export default {
       //Coumpound letters
       id: 'compound-6',
       type: 'match',
-      label: 'पत्र - संयोजन (ह - त्र)',
+      label: 'व्यंजन और स्वर संयोजन (ह - त्र)',
       commonData: {
-        title: 'सही व्यंजन का मिलान करें',
+        title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
       },
       data: [
