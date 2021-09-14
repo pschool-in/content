@@ -41,6 +41,16 @@ export default {
           examples: 'net, nill, nip, nib, not, nut, next, nest, nine, nice',
           pos: 50
         },
+         ]
+    },
+    {
+      label: 'Phonics Collection - 2',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-2.mp3'
+      },
+      data: [
         {
           microLabel: 'c',
           examples: 'cat, cup, cap, can, car coat carrot,crow, call, cut',
@@ -72,6 +82,16 @@ export default {
           examples: 'den, desk, dog, dot, dam, deed, dash, data, dwan, defend',
           pos: 50
         },
+        ]
+    },
+    {
+      label: 'Phonics Collection - 3',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-3.mp3'
+      },
+      data: [
         {
           microLabel: 'g',
           examples: 'goat, get, glow, grow, grass, green, go, gap, gun, gate',
@@ -86,17 +106,7 @@ export default {
           microLabel: 'u',
           examples: 'up, under, fun, but, butter, run, mug, cup, rug, jug',
           pos: 20
-        }
-      ]
-    },
-    {
-      label: 'Phonics Collection - 2',
-      type: 'phonics',
-      id: 'phonics-microLabel',
-      commonData: {
-        audio: 'phonicsWords-2.mp3'
-      },
-      data: [
+        },
         {
           microLabel: 'l',
           examples: 'lot, leg, lap, let, lab, lace, lack, lade, lad, lady',
@@ -112,6 +122,16 @@ export default {
           examples: 'bag, box, bat, bet, bone, butter, bun, bed, bad, but',
           pos: 50
         },
+        ]
+    },
+    {
+      label: 'Phonics Collection - 4',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-4.mp3'
+      },
+      data: [
         {
           microLabel: 'ai',
           examples: 'paid, laid, said, maid, aim, pain, tail, fail, sail, hail',
@@ -142,6 +162,16 @@ export default {
           examples: 'born, horn, corn, thorn, for, torch, more, cord, sort, port',
           pos: 50
         },
+        ]
+    },
+    {
+      label: 'Phonics Collection - 5',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-5.mp3'
+      },
+      data: [
         {
           microLabel: 'z',
           examples: 'zip, zoo, zone, zap, zig-zag, zoom, zest, zinc,  zen, zombie',
@@ -161,17 +191,7 @@ export default {
           microLabel: 'v',
           examples: 'van, vet, vest, vote, village, vase, volcano, very, violet, vamp',
           pos: 30
-        }
-      ]
-    },
-    {
-      label: 'Phonics Collection - 3',
-      type: 'phonics',
-      id: 'phonics-microLabel',
-      commonData: {
-        audio: 'phonicsWords-3.mp3'
-      },
-      data: [
+        },
         {
           microLabel: 'oo',
           examples: 'zoo, book, hook, took, look, good, foot, boot, wool, cook',
@@ -182,6 +202,16 @@ export default {
           examples: 'pool, tool, shoot, bloom, tooth, mood, school, moon, balloon, proof',
           pos: 50
         },
+        ]
+    },
+    {
+      label: 'Phonics Collection - 6',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-6.mp3'
+      },
+      data: [
         {
           microLabel: 'y',
           examples: 'boy, yes, yet, my, york, yo-yo, toy, you, yuck, youth',
@@ -212,6 +242,16 @@ export default {
           examples: 'that, they, then, them, this, though, their, these, those, father',
           pos: 50
         },
+        ]
+    },
+    {
+      label: 'Phonics Collection - 7',
+      type: 'phonics',
+      id: 'phonics-microLabel',
+      commonData: {
+        audio: 'phonicsWords-7.mp3'
+      },
+      data: [
         {
           microLabel: 'qu',
           examples: 'quiz, quilt, question, queen, quiet, quill, quack, quick, squirell, liquid ',
