@@ -20,7 +20,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
       }
     },
     {
-      label: 'Terrestrial vs Aquatic',
+      label: 'Terrestrial vs Aquatic-1',
       id: '200',
       type: 'group',
       data: {
@@ -29,12 +29,32 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
           {
             name: 'Terrestrial',
             text:
-              'sunflower, rose, daffodils, poison ivy, tulip, cactus, papaya, pineapple, apricot'
+              'sunflower, rose, daffodils, poison ivy'
           },
           {
             name: 'Aquatic',
             text:
-              'lotus, water lily, duckweed, watercress, water hyacinth, hydrilla, vallisneria'
+              'lotus, water lily, duckweed, watercress'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Terrestrial vs Aquatic-2',
+      id: '201',
+      type: 'group',
+      data: {
+        title: 'Classify the below plants based on the habitat they belong',
+        types: [
+          {
+            name: 'Terrestrial',
+            text:
+              ' tulip, cactus, papaya, pineapple, apricot'
+          },
+          {
+            name: 'Aquatic',
+            text:
+              'water hyacinth, hydrilla, vallisneria'
           }
         ]
       }
