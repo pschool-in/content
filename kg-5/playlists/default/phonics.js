@@ -14,32 +14,32 @@ export default {
         {
           microLabel: 's',
           examples: 'sun, soon, sat, sock, safe, small, set, seven, soft, sauce',
-          pos: 10
+          pos: 0
         },
         {
           microLabel: 'a',
           examples: 'ant, act, and, axe, apple, at, ate, ask, am, any',
-          pos: 20
+          pos: 10
         },
         {
           microLabel: 't',
           examples: 'table, ten, tool, tail, tax, top, toys, tall, ton, two',
-          pos: 30
+          pos: 20
         },
         {
           microLabel: 'i',
           examples: 'it, if, ink, igloo, insect, inch, in, index, ill,ice',
-          pos: 40
+          pos: 30
         },
         {
           microLabel: 'p',
           examples: 'pot, pen, pet, puff, pin, peg, pig, police, pan, put',
-          pos: 50
+          pos: 40
         },
         {
           microLabel: 'n',
           examples: 'net, nill, nip, nib, not, nut, next, nest, nine, nice',
-          pos: 60
+          pos: 50
         },
         {
           microLabel: 'c',
@@ -80,12 +80,12 @@ export default {
         {
           microLabel: 'o',
           examples: 'on, old, open, oven, oath, object, offer, oat, off, out',
-          pos: 20
+          pos: 10
         },
         {
           microLabel: 'u',
           examples: 'up, under, fun, but, butter, run, mug, cup, rug, jug',
-          pos: 30
+          pos: 20
         }
       ]
     },
@@ -100,67 +100,67 @@ export default {
         {
           microLabel: 'l',
           examples: 'lot, leg, lap, let, lab, lace, lack, lade, lad, lady',
-          pos: 40
+          pos: 30
         },
         {
           microLabel: 'f',
           examples: 'face, fate, fact, fads, fade, fail, fain, fair, fox, fan',
-          pos: 50
+          pos: 40
         },
         {
           microLabel: 'b',
           examples: 'bag, box, bat, bet, bone, butter, bun, bed, bad, but',
-          pos: 60
+          pos: 50
         },
         {
           microLabel: 'ai',
           examples: 'paid, laid, said, maid, aim, pain, tail, fail, sail, hail',
-          pos: 
+          pos: 0
         },
         {
           microLabel: 'j',
           examples: 'jam, jug, jar, jet, jump, jack, jail, jaw, junk, joke',
-          pos: 0
+          pos: 10
         },
         {
           microLabel: 'oa',
           examples: 'coat, boat, oat, goat, bloat, roar, goal, throat, coach, load ',
-          pos: 10
+          pos: 20
         },
         {
           microLabel: 'ie',
           examples: 'tie, flie, die, pie, cried, dried, fries, piep, tries, lie',
-          pos: 20
+          pos: 30
         },
         {
           microLabel: 'ee',
           examples: 'beet, feet, meet, see, seed, feed, jeep, free, tree, need',
-          pos: 30
+          pos: 40
         },
         {
           microLabel: 'or',
           examples: 'born, horn, corn, thorn, for, torch, more, cord, sort, port',
-          pos: 40
+          pos: 50
         },
         {
           microLabel: 'z',
           examples: 'zip, zoo, zone, zap, zig-zag, zoom, zest, zinc,  zen, zombie',
-          pos: 
+          pos: 0
         },
         {
           microLabel: 'w',
           examples: 'wet, win, was, work, wok, worm, web, woke, whale, which',
-          pos: 43
+          pos: 10
         },
         {
           microLabel: 'ng',
           examples: 'ring, king, sing, ping, wing, long, fang, gang, sting, hung',
-          pos: 47
+          pos: 20
         },
         {
           microLabel: 'v',
           examples: 'van, vet, vest, vote, village, vase, volcano, very, violet, vamp',
-          pos: 51
+          pos: 30
         }
       ]
     },
@@ -175,72 +175,72 @@ export default {
         {
           microLabel: 'oo',
           examples: 'zoo, book, hook, took, look, good, foot, boot, wool, cook',
-          pos: 0
+          pos: 40
         },
         {
           microLabel: 'OO',
           examples: 'pool, tool, shoot, bloom, tooth, mood, school, moon, balloon, proof',
-          pos: 4
+          pos: 50
         },
         {
           microLabel: 'y',
           examples: 'boy, yes, yet, my, york, yo-yo, toy, you, yuck, youth',
-          pos: 8
+          pos: 0
         },
         {
           microLabel: 'x',
           examples: 'six, mix, fix, fox,  ox, box, flex, tax, tux, wax,',
-          pos: 12
+          pos: 10
         },
         {
           microLabel: 'ch',
           examples: 'chop, cheese, chest, chain, chant, chips, chair, chess, patch, teach',
-          pos: 16
+          pos: 20
         },
         {
           microLabel: 'sh',
           examples: 'shed, ship, show, shout, shrink, shut, shop, crush, crash, shirt',
-          pos: 21
+          pos: 30
         },
         {
           microLabel: 'th',
           examples: 'thank, think, bath, path, thin, math, myth, third, thief, thorn',
-          pos: 25
+          pos: 40
         },
         {
           microLabel: 'TH',
           examples: 'that, they, then, them, this, though, their, these, those, father',
-          pos: 30
+          pos: 50
         },
         {
           microLabel: 'qu',
           examples: 'quiz, quilt, question, queen, quiet, quill, quack, quick, squirell, liquid ',
-          pos: 34
+          pos: 0
         },
         {
           microLabel: 'ou',
           examples: 'loud, count, found, cloud, mountain, ground, round, mouth, proud sound,',
-           pos: 38
+           pos: 10
         },
         {
           microLabel: 'oi',
           examples: 'oil, boil, foil, coil, soil, join, point, noise, choice, voice',
-          pos: 43
+          pos: 20
         },
         {
           microLabel: 'ue',
           examples: 'true, clue, blue, rescue, tissue, argue, value, statue, venue, issue',
-          pos: 48
+          pos: 30
         },
         {
           microLabel: 'er',
           examples: 'her, after, baker, worker, tower, river, mixer, fixer, herd, fern',
-          pos: 52
+          pos: 40
         },
         {
           microLabel: 'ar',
           examples: 'farmer, bar, tar,  jar, car, carpet, market, artist,  harm, charm',
-          pos: 56
+          pos: 50
         }
       ]
    
