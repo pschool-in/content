@@ -282,10 +282,19 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
         text: `Chicken occupy *90% (80%)* of the total poultry.
             India ranks *fifth (fourth)* in poultry production in the world.
             Whitelegon is the most *egg (milk)* yielding breed in the world.
-            An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.
-            *Dairy farming (poultry farming)* is a type of agriculture that focuses on extraction of milk and preparation of various milk products.
+            An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.`
+      }
+    },
+     {
+      id: '1401',
+      label: 'Environment- Do you know these ?-2 ',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `*Dairy farming (poultry farming)* is a type of agriculture that focuses on extraction of milk and preparation of various milk products.
             *Buffaloes (sheeps)* produce more amount of milk than cows.
-            Dr.Verghese Kurien is called the Father of *White (blue)* Revolution.`
+            Dr.Verghese Kurien is called the Father of *White (blue)* Revolution.
+            Honey also enhances digestion and *appetite*.`
       }
     },
     {
