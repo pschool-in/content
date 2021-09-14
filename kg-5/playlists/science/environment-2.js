@@ -23,7 +23,7 @@ Higher the level above the ground, lesser the oxygen. It includes several other 
 2. Stratosphere: extends 50km from the earth's surface.
 3. Ozone: protects from harmful UV rays of the sun.
 # Water cycle
-Water on the earth evaporates continuously due to the heat of the sun.As water vapour is lighter than air, it rises high up into the atmosphere.As it goes higher, cools and condenses to form clouds.The small droplets join together and formbigger drops which are heavy. Such drops of water fall down as rain. This continuous process of evaporation and condensation is called water cycle.
+Water on the earth evaporates continuously due to the heat of the sun.As water vapour is lighter than air, it rises high up into the atmosphere.As it goes higher, cools and condenses to form clouds.The small droplets join together and form bigger drops which are heavy. Such drops of water fall down as rain. This continuous process of evaporation and condensation is called water cycle.
 # Food chain
 A worm eats grass and leaves. A grasshopper eats worms. Birds eat Grasshoppers.They are all connected. One component is food for the next one. That is why we say that they form a chain. Such a chain is called a food chain. Each of these components is a link in a food chain. 
 The most important food in a food chain is plants.One living thing can be a part of a number of food chains. That gives rise to a food web in nature.
