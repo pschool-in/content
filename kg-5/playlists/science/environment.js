@@ -27,7 +27,7 @@ export default {
         types: [
           {
             name: 'living',
-            text: 'mango tree, squirrel, fox, lotus'
+            text: 'tree, squirrel, fox, plant'
           },
           {
             name: 'non-living',
