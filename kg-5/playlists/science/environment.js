@@ -46,7 +46,7 @@ export default {
         text: `Birds, Nest
           Silk, Clothes
           Wooden chair, Tree
-          Soil Fertile, Decay of dead animals and plants
+          Soil Fertile, humus
           Pollution, Environment`
       }
     },
