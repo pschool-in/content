@@ -75,7 +75,6 @@ export default {
           microLabel: 'm',
           examples: 'mat, mad, man, mix, mug, milk, met, mail, map, match',
           pos: 40
-       
          },
         { 
           microLabel: 'd',
@@ -87,7 +86,7 @@ export default {
     {
       label: 'Phonics Collection - 3',
       type: 'phonics',
-      id: 'phonics-microLabel',
+      id: 'phonics-microLabel-1',
       commonData: {
         audio: 'phonicsWords-3.mp3'
       },
@@ -127,7 +126,7 @@ export default {
     {
       label: 'Phonics Collection - 4',
       type: 'phonics',
-      id: 'phonics-microLabel',
+      id: 'phonics-microLabel-2',
       commonData: {
         audio: 'phonicsWords-4.mp3'
       },
@@ -167,7 +166,7 @@ export default {
     {
       label: 'Phonics Collection - 5',
       type: 'phonics',
-      id: 'phonics-microLabel',
+      id: 'phonics-microLabel-3',
       commonData: {
         audio: 'phonicsWords-5.mp3'
       },
@@ -207,7 +206,7 @@ export default {
     {
       label: 'Phonics Collection - 6',
       type: 'phonics',
-      id: 'phonics-microLabel',
+      id: 'phonics-microLabel-4',
       commonData: {
         audio: 'phonicsWords-6.mp3'
       },
@@ -247,7 +246,7 @@ export default {
     {
       label: 'Phonics Collection - 7',
       type: 'phonics',
-      id: 'phonics-microLabel',
+      id: 'phonics-microLabel-5',
       commonData: {
         audio: 'phonicsWords-7.mp3'
       },
