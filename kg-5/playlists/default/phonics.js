@@ -14,27 +14,27 @@ export default {
         {
           microLabel: 's',
           examples: 'sun, soon, sat, sock, safe, small, set, seven, soft, sauce',
-          pos: 0
+          pos: 10
         },
         {
           microLabel: 'a',
           examples: 'ant, act, and, axe, apple, at, ate, ask, am, any',
-          pos: 10
+          pos: 20
         },
         {
           microLabel: 't',
           examples: 'table, ten, tool, tail, tax, top, toys, tall, ton, two',
-          pos: 20
+          pos: 30
         },
         {
           microLabel: 'i',
           examples: 'it, if, ink, igloo, insect, inch, in, index, ill,ice',
-          pos: 30
+          pos: 40
         },
         {
           microLabel: 'p',
           examples: 'pot, pen, pet, puff, pin, peg, pig, police, pan, put',
-          pos: 40
+          pos: 50
         },
         {
           microLabel: 'n',
