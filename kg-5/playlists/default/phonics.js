@@ -13,13 +13,13 @@ export default {
       data: [
         {
           microLabel: 's',
-          examples: 'sun, set, small, seven',
+          examples: 'sun, soon, sat, sock, safe, small, set, seven, soft, sauce',
           pos: 0
         },
         {
           microLabel: 'a',
-          examples: 'act, and, am, ask',
-          pos: 4
+          examples: 'ant, act, and, axe, apple, at, ate, ask, am, any',
+          pos: 10
         },
         {
           microLabel: 't',
