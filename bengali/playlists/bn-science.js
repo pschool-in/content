@@ -314,6 +314,45 @@ export default {
               ]
             }
           },
+                  {
+            id: 'bn-skeleton',
+            label: 'কঙ্কাল',
+            type: 'dragAndDrop',
+            data: {
+              img: 'skeleton.jpg',
+              title: 'কঙ্কাল',
+              width: 350,
+              height: 448,
+              wordWidth: 70,
+              words: [
+                {
+                  word: 'কশেরুকা',
+                  x: 70,
+                  y: 160
+                },
+                {
+                  word: 'শ্রোণী',
+                  x: 70,
+                  y: 200
+                },
+                {
+                  word: 'খুলি',
+                  x: 60,
+                  y: 30
+                },
+                {
+                  word: 'পাঁজর',
+                  x: 60,
+                  y: 110
+                },
+                {
+                  word: 'ঊর্বস্থি',
+                  x: 70,
+                  y: 300
+                }
+              ]
+            }
+          },
     ]
   };
   
