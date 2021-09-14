@@ -23,68 +23,69 @@ export default {
         },
         {
           microLabel: 't',
-          examples: 'ten, ton, tell,top',
-          pos: 8
-        },
-        {
-          microLabel: 'i',
-          examples: 'in, it, if, ink',
-          pos: 12
-        },
-        {
-          microLabel: 'p',
-          examples: 'pot, pen, pet, pin',
-          pos: 16
-        },
-        {
-          microLabel: 'n',
-          examples: 'not, nil, nut, nib',
+          examples: 'table, ten, tool, tail, tax, top, toys, tall, ton, two',
           pos: 20
         },
         {
-          microLabel: 'c',
-          examples: 'cat, cup, cut, cap ',
-          pos: 24
+          microLabel: 'i',
+          examples: 'it, if, ink, igloo, insect, inch, in, index, ill,ice',
+          pos: 30
         },
         {
-          microLabel: 'e',
-          examples: 'end, east, egg, ear',
-          pos: 28
-        },
-        {
-          microLabel: 'h',
-          examples: 'hat, hen, hot, her',
-          pos: 32
-        },
-        {
-          microLabel: 'r',
-          examples: 'rat, red, rest, rod',
-          pos: 36
-        },
-        {
-          microLabel: 'm',
-          examples: 'man, mat, mug, milk',
+          microLabel: 'p',
+          examples: 'pot, pen, pet, puff, pin, peg, pig, police, pan, put',
           pos: 40
         },
         {
+          microLabel: 'n',
+          examples: 'net, nill, nip, nib, not, nut, next, nest, nine, nice',
+          pos: 60
+        },
+        {
+          microLabel: 'c',
+          examples: 'cat, cup, cap, can, car coat carrot,crow, call, cut',
+          pos: 0
+        },
+        {
+          microLabel: 'e',
+          examples: 'eat, egg, end, east, ear, eel, eleven, enter, extra, elephant',
+          pos: 10
+        },
+        {
+          microLabel: 'h',
+          examples: 'hot, hen, hat, her, hid, hip, harm, ham, hard, hand,',
+          pos: 20 
+        },
+        {
+          microLabel: 'r',
+          examples: 'rat, red, rest, rod, ring, rip, ram, ran, roll, road',
+          pos: 30
+          },
+        { 
+          microLabel: 'm',
+          examples: 'mat, mad, man, mix, mug, milk, met, mail, map, match',
+          pos: 40
+       
+         },
+        { 
           microLabel: 'd',
-          examples: 'dog, dot, den, dam',
-          pos: 44
+          examples: 'den, desk, dog, dot, dam, deed, dash, data, dwan, defend',
+          pos: 50
         },
         {
           microLabel: 'g',
-          examples: 'gun, get, gap, log',
-          pos: 48
+          examples: 'goat, get, glow, grow, grass, green, go, gap, gun, gate',
+          pos: 0 
         },
         {
           microLabel: 'o',
-          examples: 'on, old, open, one',
-          pos: 52
+          examples: 'on, old, open, oven, oath, object, offer, oat, off, out',
+          pos: 20
         },
         {
           microLabel: 'u',
-          examples: 'fun, run, but, up',
-          pos: 56
+          examples: 'up, under, fun, but, butter, run, mug, cup, rug, jug',
+          pos: 30
         }
       ]
     },
@@ -98,67 +99,67 @@ export default {
       data: [
         {
           microLabel: 'l',
-          examples: 'lot, let, lap, leg',
-          pos: 0
-        },
-        {
-          microLabel: 'f',
-          examples: 'fox, fan, if, fat',
-          pos: 4
-        },
-        {
-          microLabel: 'b',
-          examples: 'bun, bag, bed, bad',
-          pos: 8
-        },
-        {
-          microLabel: 'ai',
-          examples: 'aim, tail, pain, fail',
-          pos: 12
-        },
-        {
-          microLabel: 'j',
-          examples: 'jam, jug, jump, jar',
-          pos: 16
-        },
-        {
-          microLabel: 'oa',
-          examples: 'boat, coat, goat, oat, goal, roar',
-          pos: 20
-        },
-        {
-          microLabel: 'ie',
-          examples: 'tie, lie, die, pie, flies',
-          pos: 26
-        },
-        {
-          microLabel: 'ee',
-          examples: 'see, tree, feed, need, jeep',
-          pos: 31
-        },
-        {
-          microLabel: 'or',
-          examples: 'for, born, port, corn',
-          pos: 36
-        },
-        {
-          microLabel: 'z',
-          examples: 'zip, zen, zebra',
+          examples: 'lot, leg, lap, let, lab, lace, lack, lade, lad, lady',
           pos: 40
         },
         {
+          microLabel: 'f',
+          examples: 'face, fate, fact, fads, fade, fail, fain, fair, fox, fan',
+          pos: 50
+        },
+        {
+          microLabel: 'b',
+          examples: 'bag, box, bat, bet, bone, butter, bun, bed, bad, but',
+          pos: 60
+        },
+        {
+          microLabel: 'ai',
+          examples: 'paid, laid, said, maid, aim, pain, tail, fail, sail, hail',
+          pos: 
+        },
+        {
+          microLabel: 'j',
+          examples: 'jam, jug, jar, jet, jump, jack, jail, jaw, junk, joke',
+          pos: 0
+        },
+        {
+          microLabel: 'oa',
+          examples: 'coat, boat, oat, goat, bloat, roar, goal, throat, coach, load ',
+          pos: 10
+        },
+        {
+          microLabel: 'ie',
+          examples: 'tie, flie, die, pie, cried, dried, fries, piep, tries, lie',
+          pos: 20
+        },
+        {
+          microLabel: 'ee',
+          examples: 'beet, feet, meet, see, seed, feed, jeep, free, tree, need',
+          pos: 30
+        },
+        {
+          microLabel: 'or',
+          examples: 'born, horn, corn, thorn, for, torch, more, cord, sort, port',
+          pos: 40
+        },
+        {
+          microLabel: 'z',
+          examples: 'zip, zoo, zone, zap, zig-zag, zoom, zest, zinc,  zen, zombie',
+          pos: 
+        },
+        {
           microLabel: 'w',
-          examples: 'wet, win, wind, was',
+          examples: 'wet, win, was, work, wok, worm, web, woke, whale, which',
           pos: 43
         },
         {
           microLabel: 'ng',
-          examples: 'long, sing, ring, song',
+          examples: 'ring, king, sing, ping, wing, long, fang, gang, sting, hung',
           pos: 47
         },
         {
           microLabel: 'v',
-          examples: 'van, visa, cave, even',
+          examples: 'van, vet, vest, vote, village, vase, volcano, very, violet, vamp',
           pos: 51
         }
       ]
@@ -173,308 +174,76 @@ export default {
       data: [
         {
           microLabel: 'oo',
-          examples: 'good, look, foot, wool',
+          examples: 'zoo, book, hook, took, look, good, foot, boot, wool, cook',
           pos: 0
         },
         {
           microLabel: 'OO',
-          examples: 'soon, spoon, roof, cool',
+          examples: 'pool, tool, shoot, bloom, tooth, mood, school, moon, balloon, proof',
           pos: 4
         },
         {
           microLabel: 'y',
-          examples: 'toy, boy, yes, my',
+          examples: 'boy, yes, yet, my, york, yo-yo, toy, you, yuck, youth',
           pos: 8
         },
         {
           microLabel: 'x',
-          examples: 'six, fix, ox, fox',
+          examples: 'six, mix, fix, fox,  ox, box, flex, tax, tux, wax,',
           pos: 12
         },
         {
           microLabel: 'ch',
-          examples: 'chat, chop, chips, catch, watch',
+          examples: 'chop, cheese, chest, chain, chant, chips, chair, chess, patch, teach',
           pos: 16
         },
         {
           microLabel: 'sh',
-          examples: 'push, fish, bush, dish',
+          examples: 'shed, ship, show, shout, shrink, shut, shop, crush, crash, shirt',
           pos: 21
         },
         {
           microLabel: 'th',
-          examples: 'thank, thin, bath, path, math',
+          examples: 'thank, think, bath, path, thin, math, myth, third, thief, thorn',
           pos: 25
         },
         {
           microLabel: 'TH',
-          examples: 'that, this, these, them',
+          examples: 'that, they, then, them, this, though, their, these, those, father',
           pos: 30
         },
         {
           microLabel: 'qu',
-          examples: 'quit, quest, quiz, quick',
+          examples: 'quiz, quilt, question, queen, quiet, quill, quack, quick, squirell, liquid ',
           pos: 34
         },
         {
           microLabel: 'ou',
-          examples: 'loud, cloud, mount, found, count',
-          pos: 38
+          examples: 'loud, count, found, cloud, mountain, ground, round, mouth, proud sound,',
+           pos: 38
         },
         {
           microLabel: 'oi',
-          examples: 'oil, point, soil, coin, boil',
+          examples: 'oil, boil, foil, coil, soil, join, point, noise, choice, voice',
           pos: 43
         },
         {
           microLabel: 'ue',
-          examples: 'blue, glue, true, clue',
+          examples: 'true, clue, blue, rescue, tissue, argue, value, statue, venue, issue',
           pos: 48
         },
         {
           microLabel: 'er',
-          examples: 'her, after, baker, worker',
+          examples: 'her, after, baker, worker, tower, river, mixer, fixer, herd, fern',
           pos: 52
         },
         {
           microLabel: 'ar',
-          examples: 'car, art, cart,card, bark',
+          examples: 'farmer, bar, tar,  jar, car, carpet, market, artist,  harm, charm',
           pos: 56
         }
       ]
-    },
-    {
-      label: 'Phonics',
-      type: 'phonics',
-      id: 'phonics',
-      locked: true,
-      data: [
-        {
-          audio: 'phonicsWords.mp3',
-          arr: [
-            {
-              sound: 's',
-              examples: 'sun, set, small, seven',
-              pos: 0
-            },
-            {
-              sound: 'a',
-              examples: 'act, and, am, ask',
-              pos: 4
-            },
-            {
-              sound: 't',
-              examples: 'ten, ton, tell,top',
-              pos: 8
-            },
-            {
-              sound: 'i',
-              examples: 'in, it, if, ink',
-              pos: 12
-            },
-            {
-              sound: 'p',
-              examples: 'pot, pen, pet, pin',
-              pos: 16
-            },
-            {
-              sound: 'n',
-              examples: 'not, nil, nut, nib',
-              pos: 20
-            },
-            {
-              sound: 'c',
-              examples: 'cat, cup, cut, cap ',
-              pos: 24
-            },
-            {
-              sound: 'e',
-              examples: 'end, east, egg, ear',
-              pos: 28
-            },
-            {
-              sound: 'h',
-              examples: 'hat, hen, hot, her',
-              pos: 32
-            },
-            {
-              sound: 'r',
-              examples: 'rat, red, rest, rod',
-              pos: 36
-            },
-            {
-              sound: 'm',
-              examples: 'man, mat, mug, milk',
-              pos: 40
-            },
-            {
-              sound: 'd',
-              examples: 'dog, dot, den, dam',
-              pos: 44
-            },
-            {
-              sound: 'g',
-              examples: 'gun, get, gap, log',
-              pos: 48
-            },
-            {
-              sound: 'o',
-              examples: 'on, old, open, one',
-              pos: 52
-            },
-            {
-              sound: 'u',
-              examples: 'fun, run, but, up',
-              pos: 56
-            }
-          ]
-        },
-        {
-          audio: 'phonicsWords-2.mp3',
-          soundOffset: 15,
-          arr: [
-            {
-              sound: 'l',
-              examples: 'lot, let, lap, leg',
-              pos: 0
-            },
-            {
-              sound: 'f',
-              examples: 'fox, fan, if, fat',
-              pos: 4
-            },
-            {
-              sound: 'b',
-              examples: 'bun, bag, bed, bad',
-              pos: 8
-            },
-            {
-              sound: 'ai',
-              examples: 'aim, tail, pain, fail',
-              pos: 12
-            },
-            {
-              sound: 'j',
-              examples: 'jam, jug, jump, jar',
-              pos: 16
-            },
-            {
-              sound: 'oa',
-              examples: 'boat, coat, goat, oat, goal, roar',
-              pos: 20
-            },
-            {
-              sound: 'ie',
-              examples: 'tie, lie, die, pie, flies',
-              pos: 26
-            },
-            {
-              sound: 'ee',
-              examples: 'see, tree, feed, need, jeep',
-              pos: 31
-            },
-            {
-              sound: 'or',
-              examples: 'for, born, port, corn',
-              pos: 36
-            },
-            {
-              sound: 'z',
-              examples: 'zip, zen, zebra',
-              pos: 40
-            },
-            {
-              sound: 'w',
-              examples: 'wet, win, wind, was',
-              pos: 43
-            },
-            {
-              sound: 'ng',
-              examples: 'long, sing, ring, song',
-              pos: 47
-            },
-            {
-              sound: 'v',
-              examples: 'van, visa, cave, even',
-              pos: 51
-            }
-          ]
-        },
-        {
-          audio: 'phonicsWords-3.mp3',
-          soundOffset: 28,
-          arr: [
-            {
-              sound: 'oo',
-              examples: 'good, look, foot, wool',
-              pos: 0
-            },
-            {
-              sound: 'OO',
-              examples: 'soon, spoon, roof, cool',
-              pos: 4
-            },
-            {
-              sound: 'y',
-              examples: 'toy, boy, yes, my',
-              pos: 8
-            },
-            {
-              sound: 'x',
-              examples: 'six, fix, ox, fox',
-              pos: 12
-            },
-            {
-              sound: 'ch',
-              examples: 'chat, chop, chips, catch, watch',
-              pos: 16
-            },
-            {
-              sound: 'sh',
-              examples: 'push, fish, bush, dish',
-              pos: 21
-            },
-            {
-              sound: 'th',
-              examples: 'thank, thin, bath, path, math',
-              pos: 25
-            },
-            {
-              sound: 'TH',
-              examples: 'that, this, these, them',
-              pos: 30
-            },
-            {
-              sound: 'qu',
-              examples: 'quit, quest, quiz, quick',
-              pos: 34
-            },
-            {
-              sound: 'ou',
-              examples: 'loud, cloud, mount, found, count',
-              pos: 38
-            },
-            {
-              sound: 'oi',
-              examples: 'oil, point, soil, coin, boil',
-              pos: 43
-            },
-            {
-              sound: 'ue',
-              examples: 'blue, glue, true, clue',
-              pos: 48
-            },
-            {
-              sound: 'er',
-              examples: 'her, after, baker, worker',
-              pos: 52
-            },
-            {
-              sound: 'ar',
-              examples: 'car, art, cart,card, bark',
-              pos: 56
-            }
-          ]
+   
         }
       ]
     },
