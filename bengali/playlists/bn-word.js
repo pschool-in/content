@@ -145,7 +145,7 @@ export default {
       // for students class 3 and above
       type: 'rightOne',
       label: 'সঠিক বানান',
-      id: 'spelling',
+      id: 'bn-spelling',
       commonData: {
         title: 'সঠিক বানান নির্বাচন',
         noCaps: true
@@ -156,6 +156,11 @@ export default {
 ছড়া , ছরা 
 ধরা ,  ধড়া 
 লাঠি, লাঠী`,
+        `কাঠি , কাঠী 
+খড়ি , খরী 
+ঘড়ি , ঘরী 
+ঝুড়ি , ঝুড়ী 
+মুড়ি , মুড়ী `,
         
         `জবা , যবা 
           আপেল , অপেল 
