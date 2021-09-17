@@ -12,7 +12,7 @@ export default {
           title: 'Sancuaries',
           text: `# What are Sanctuaries?
 
-          Sanctuary is a place, where animals and birds are brought together and protected from hunting and other harmful human activities. They can lead a peaceful life with a good ecosystem. Sanctuaries are run by the government. Our government also runs the biosphere reserve, where they conserve plants, wild animals, and birds. The flora and fauna are maintained in the biosphere reserves, national parks, sanctuaries, etc. Moreover, there are many national parks, where our government is taking care of rare and many diverse species. For example, Jim Corbett National Park is known for Bengal tigers. Due to these conservation efforts, many wild animal populations which had once decreased have once again started to increase in India. `
+          Sanctuary is a place, where animals and birds are brought together. It is protected from hunting and other harmful human activities. They can lead a peaceful life with a good ecosystem. Sanctuaries are run by the government. Our government also runs the biosphere reserve, where they conserve plants, wild animals, and birds. The flora and fauna are maintained in the biosphere reserves, national parks, sanctuaries, etc. Moreover, there are many national parks, where our government is taking care of rare and many diverse species. For example, Jim Corbett National Park is known for Bengal tigers. The conservation efforts created a huge impact in saving wild animals. Many wild animal populations which had once decreased have once again started to increase in India.`
         }
       },
       {
@@ -25,11 +25,11 @@ export default {
           types: [
             {
               name: 'Wildlife Sanctuaries',
-              text: 'Govind Sanctuary, Mudumalai Sanctuary, Periyar Sanctuary, Bharatpur Sanctuary'
+              text: 'Govind, Mudumalai, Periyar, Bharatpur'
             },
             {
               name: 'National Parks',
-              text: ' Anamudi Shola Park, Anshi Park, Balphakram Park, Betla Park'
+              text: ' Anamudi Shola, Anshi, Balphakram, Betla'
             }
           ]
         }
@@ -78,10 +78,10 @@ export default {
         label: 'Match the following',
         type: 'match',
         data: {
-          text: `Vendanthangal Sanctuary, Birds
-          Anamudi Reserve, Elephants
-          Gir National Park, Lions
-          Bandipur Reserve, Tigers
+          text: `Vendanthangal, Birds
+          Anamudi, Elephants
+          Gir Park, Lions
+          Bandipur, Tigers
           Botanical Garden, Flora`,
           title: 'Match the following'
         }
