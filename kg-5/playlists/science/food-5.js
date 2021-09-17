@@ -15,7 +15,7 @@ export default {
           `Once the food items are harvested they begin to decompose. Food can be spoiled by factors like air and oxygen, moisture, enzymes, microorganisms, light and temperature.`,
           `1. Air and Oxygen: When oxygen reacts with food contents, it produces changes in the colour and flavour of the food.`,
           `2. Moisture keeps the food fresh. When the moisture is gone, vegetables and fruits shrink. Due to evaporation, moisture loss occurs in foods like meat, fish and cheese.`,
-          `3. Enzymes break down the tissues and components of the food in different ways like oxidation, browning and ripening. So the food items decay`,
+          `3. Enzymes break down the tissues and components of the food in different ways like oxidation, browning and ripening. So the food items decay.`,
           `4. Microorganisms such as fungi, yeast and bacteria can grow well in low temperatures. They multiply in food and spoil them.`,
           `5. Light produces colour changes and also vitamin loss.`,
           `6. Temperature: Sometimes rise in temperature causes food spoilage.`,
