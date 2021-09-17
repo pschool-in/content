@@ -23,7 +23,7 @@ export default {
           
           1. Food is available to us because many people are farmers by occupation.
           2. Many of the nutritious food items like bhakri, sugar, fruits, chapati, jowar, bajra, wheat, rice, dals, vegetables, etc. are produced by agriculture.
-          3. Not just food, Cotton yarn for textiles; plants are medicines; fodder for cattle; grains for chickens; are obtained through agriculture.
+          3. Not just food, cotton yarn for textiles; plants for medicines; fodder for cattle; grains for chickens; are obtained through agriculture.
           4. Occupations like sheep rearing, poultry, animal husbandry and fruit processing are dependent on agriculture.
           
           # Industry
@@ -37,14 +37,14 @@ export default {
           
           Early men used to search and hunt for food. They eventually discovered the technique to grow all crops that yield food in one place. It saved their time and effort. This is how agriculture started.
           
-          Certain occupations run on a large scale in some cities and thus, those cities become famous for those products. For example, 
+          Certain occupations run on a large scale in some cities and thus, such cities become famous for those products. For example, 
           1. Solhapur- Solhapuri bedsheets
           2. Kolhapur- Kolhapuri Chappals
           3. Paithan- Paithanis
           
           # Conclusion
           
-          Although human beings have developed many occupations, we rely on nature to provide us raw materials for the same. Therefore, we can conclude that Nature fulfills our needs.`
+          Although human beings have developed many occupations, we rely on nature to provide us raw materials for the same. Therefore, we can conclude that nature fulfills our needs.`
         }
       },
       {
@@ -228,7 +228,7 @@ export default {
             {
               name: 'True',
               text: `A tailor stitches the clothes.
-              Traffic police control traffic.
+              Traffic police controls traffic.
               Supreme court is the guardian of the constitution.`
             },
             {
