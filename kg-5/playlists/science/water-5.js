@@ -182,7 +182,7 @@ Allow mosquitoes to live in our surroundings.`
     {
         label: 'Water- Reading',
         type: 'passage',
-        id: '100',
+        id: '700',
         data: {
           title: 'Water ',
           text: `# Pollution of water
@@ -206,7 +206,7 @@ Allow mosquitoes to live in our surroundings.`
       {
         label: 'Fiil by drag',
         type: 'matchByDragDrop',
-        id: '600',
+        id: '800',
         data: {
           isPractice: false,
           title: 'Drag and drop the given words at the right blanks.',
@@ -223,7 +223,7 @@ Allow mosquitoes to live in our surroundings.`
         }
       },
       {
-        id: '800',
+        id: '900',
         label: 'Match the following',
         type: 'match',
         data: {
@@ -237,7 +237,7 @@ Allow mosquitoes to live in our surroundings.`
       },
       {
         label: 'True or False',
-        id: '700',
+        id: '1000',
         type: 'classifySentence',
         data: {
           title: 'Classify the below sentences as true and false',
