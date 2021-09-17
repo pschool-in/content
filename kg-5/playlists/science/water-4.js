@@ -160,7 +160,7 @@ Condensation, Clouds`,
           text: `# Importance of Water Cycle
 
           1. Increases the availability of ground water.
-          2. Control Earth‛s temperature.
+          2. Control earth‛s temperature.
           3. Provides water to plants, animals and humans.
           4. Recycles Earth‛s supply of water constantly.
           
@@ -215,7 +215,7 @@ Condensation, Clouds`,
           
           # Do you know?
           
-          In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Strands.`
+          In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Stands.`
         }
       },
       {
