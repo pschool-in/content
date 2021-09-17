@@ -150,6 +150,321 @@ Condensation, Clouds`,
           'Sort the below items based on their usual temperature. (Coolest should come at the top)',
         text: 'ice cubes, cool drinks, tap water, hot water, boiling water'
       }
-    }
+    },
+    {
+        label: 'Water - Reading',
+        type: 'passage',
+        id: '100',
+        data: {
+          title: 'Water Cycle',
+          text: `# Importance of Water Cycle
+
+          1. Increases the availability of ground water.
+          2. Control Earth‛s temperature.
+          3. Provides water to plants, animals and humans.
+          4. Recycles Earth‛s supply of water constantly.
+          
+          # Did you know?
+          
+          1. The chemical formula for water is H2O, which means two atoms of Hydrogen and one atom of Oxygen forms one molecule of water.
+          
+          2. Rainwater harvesting is the only way to save rainwater. It was first made compulsory in Tamil Nadu in India.
+          
+          # Importance of rainwater harvesting
+          
+          1. Increases the level of ground water.
+          2. Can be used for agriculture.
+          3. Increases availability of water.`
+        }
+      },
+      {
+        label: 'Water Storage - Reading',
+        type: 'passage',
+        id: '101',
+        data: {
+          title: 'Water Storage',
+          text: `# Old water stores
+
+          The following ways were used by previous generations and are rarely in use these days.
+          
+          # Wells:
+          
+          We know that rainwater seeps into the ground. So, wells were used to get this water.
+          
+          # Water tanks in forts:
+          
+          The forts had reservoirs and tanks made of stone. It was used to store and conserve water.
+          
+          # Draw-wells:
+          
+          These were small wells through which water was taken out using a bucket tied to a rope, further attached to a pulley or rotating rod.
+          
+          # Rivers and Bunds:
+          
+          Bunds were built across the rivers to save water.
+          
+          # Old reservoirs and tanks:
+          
+          These were built in areas that had scarcity of water or had no major rivers. Some large cities still have the old tanks and some of them are still in use.
+          
+          # Recent systems of water storage
+          
+          1. Dams: This is the most important way of storing water as it is able to store water in large amounts and can even generate energy from it.
+          
+          2. Borewells: These wells are very deep and narrow. So, the groundwater is extracted with the help of electric pumps and motors.
+          
+          # Do you know?
+          
+          In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Strands.`
+        }
+      },
+      {
+        label: 'Old ways Vs New ways',
+        id: '200',
+        type: 'group',
+        data: {
+          title:
+            'Drag and drop the water storage techniques accordingly. ',
+          types: [
+            {
+              name: 'Old ways',
+              text: 'Forts, Draw-wells, Bunds, Reservoirs'
+            },
+            {
+              name: 'New ways',
+              text: 'Dams, Borewells, Water tower'
+            }
+          ]
+        }
+      },
+      {
+        label: 'Choose the best Answer',
+        id: '401',
+        type: 'mcq',
+        data: {
+          title: 'Multiple Choice Questions',
+          questions: [
+            {
+              qText: ' Old water stores were made of __________.',
+              options: 'stones, marbles, metals'
+            },
+            {
+              qText:
+                'Which is the most important technique for water storage?',
+              options: 'Dams, Reservoirs, Forts'
+            },
+            {
+              qText: 'Which of these does not require machine work?',
+              options: 'Draw-wells, Borewells, Dams'
+            },
+            {
+              qText: 'Free drinking water on road-sides is called__________.',
+              options: 'panpoi, bund, filter water'
+            },
+            {
+                qText: '___________ were built in areas with no major river.',
+                options: 'Reservoirs, Dams, Borewells'
+            }
+          ]
+        }
+      },
+      {
+        id: '402',
+        type: 'sequence',
+        label: 'Words related to water storage',
+        commonData: {
+          title: 'Identify these techniques of water storage.Connect the letter to create word'
+        },
+        data: [`Dam, Tank, Fort, Bund, Well, Tower`]
+      },
+      {
+        label: 'Drinking Water- Reading',
+        type: 'passage',
+        id: '400',
+        data: {
+          title: 'Water safe for drinking',
+          text: `Some substances dissolve in water (salt, sugar, detergent etc.) while some substances don't (turmeric powder, oil etc.). 
+
+          The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
+          
+          # New Words!
+          
+          1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
+          
+          2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
+          
+          3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
+          
+          4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
+          
+          # Do you know?
+          
+          1. Sea water is unfit for drinking because its saline.
+          2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
+          3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
+          4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
+          5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
+        }
+      },
+      {
+        label: 'True or False',
+        id: '700',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify the below sentences as true and false',
+          types: [
+            {
+              name: 'True',
+              text: `A sediment is formed at the bottom if muddy water is kept still for sometime.
+              Tea leaves can be separated from tea by filtration.`
+            },
+            {
+              name: 'False',
+              text: `Alum powder doesn't dissolve in water.
+              Micro-organisms can't live in water.
+              An eraser floats in water.`
+            }
+          ]
+        }
+      },
+      {
+        label: 'Fill in the blanks',
+        type: 'matchByDragDrop',
+        id: 'drag-drop ',
+        data: {
+          isPractice: false,
+          title: 'Drag and drop the given words at the right blanks.',
+          styles: {
+            fontSize: '1.3rem',
+            dashWidth: 80
+          },
+          text: `Salt and sugar *dissolve* in water.
+          Mixture obtained after dissolving a substance in water is called *solution*.
+          Some micro-organisms can cause *diseases* if they enter our body.
+          Things that float in water are *lighter*.
+          Things that sink in water are *heavier*.
+          *Alum* is swirled in muddy water to clean it.`
+        }
+      },
+      {
+        label: 'Dissolve or Do not dissolve',
+        id: '800',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify which ones dissolve in water and which ones do not',
+          types: [
+            {
+              name: 'Dissolve',
+              text: `Salt
+              Sugar
+              Washing soda
+              Honey
+              Alum`
+            },
+            {
+              name: 'Do not dissolve',
+              text: `Sand
+              Sawdust
+              Oil
+              Turmeric powder`
+            }
+          ]
+        }
+      },
+      {
+        label: 'Clean Water - Reading',
+        type: 'passage',
+        id: '1100',
+        data: {
+          title: 'Clean Water',
+          text: `Earlier, earthen pots and copper pots were used to store water at homes. But these days we generally use plastic or steel bottles and containers for the same.
+
+          # How to keep water clean:
+          
+          1. Keep the containers covered to prevent dust and insects.
+          2. Keep a dipper to take out water from these containers, else dirt from our hands will contaminate the water. Also, we can have a tap on these containers to avoid contamination.
+          3. Wash the container before refilling it.
+          
+          # Do you know?
+          
+          People think that we can't drink water from previous day. But the truth is, water remains as clean as it was before if kept safely. So, we can drink the water we stored on previous day.
+          
+          # New Word!
+          
+          1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
+        }
+      },
+      {
+        label: 'Right or Wrong',
+        id: '1400',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify the below sentences as right and wrong',
+          types: [
+            {
+              name: 'Right',
+              text: `Reshma carries drinking water with her when she goes for a picnic.
+              Nisha saves the water left in the mug for washing her face later.`
+            },
+            {
+              name: 'Wrong',
+              text: `Sameer drank water from the pot and left the lid beside it.
+              Sai empties her pot everyday to fill fresh water in it.`
+            }
+          ]
+        }
+      },
+      {
+        id: '1600',
+        label: 'Match the following',
+        type: 'match',
+        data: {
+          text: `Pure water, Water tower
+          Copper pots, Old way
+          Water supply, Pipelines
+          Groundwater, Wells
+          Potable water, Drinkable`,
+          title: 'Match the following'
+        }
+      },
+      {
+        label: 'How water reaches us?',
+        type: 'sorting',
+        slug: '3-planets-order',
+        data: {
+          title:
+            'Arrange these steps in the order of occurrence.',
+          text: 'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
+        },
+        id: '1700'
+      },
+      {
+        id: '1800',
+        type: 'sequence',
+        label: 'Water Reservoir',
+        commonData: {
+          title: 'Match the jumbled letters to make reveal the word.'
+        },
+        data: [`Bunds, Forts, Pots, Dams, Borewell, River, Water`]
+      },
+      {
+        label: 'Sink Vs Float',
+        id: '1900',
+        type: 'group',
+        data: {
+          title:
+            'dentify what will sink and float in water.',
+          types: [
+            {
+              name: 'Sink',
+              text: 'Sand, Turmeric powder, Mud, Eraser, Stone'
+            },
+            {
+              name: 'Float',
+              text: 'Leaves, Thin stick, Pencil, Flower, Paper'
+            }
+          ]
+        }
+      },
   ]
 };
