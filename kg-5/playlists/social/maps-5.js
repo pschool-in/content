@@ -20,7 +20,7 @@ export default {
         }
       },
       {
-        label: 'Sign vs symbol',
+        label: 'Sign vs Symbol',
         id: 'signsymbol',
         type: 'group',
         data: {
