@@ -11,7 +11,7 @@ export default {
         data: {
           title: 'Our Emotional World',
           text: `#Emotions
-          Emotions are also called as feelings that one experiences and processes in themselves. It should be expressed, but we should handle the emotions accordingly to the situation. Angry, sadness, excitment, fear, confused are the examples of the emotions.          
+          Emotions are also called as feelings that one experiences and processes in themselves. It should be expressed, but we should handle the emotions accordingly to the situation. Anger, sadness, excitment, fear, confused are the examples of the emotions.          
           #Emotional balance is good to life          
          1. Coping up with emotions helps in balancing and shape the personality. It also increases the ability to understand others. Handling emotions in the right way helps us to lead a better life.          
          2. If we are aware of the flaws in the construct of our nature, then we should try to correct ourselves. Moreover, we should help each other to get rid of the flaws. We should stop identifying negative qualities people have and rather seek positive ones.          
