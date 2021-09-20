@@ -95,7 +95,7 @@ export default {
           },
           text: `We must know well about our talents and also our *flaws*.
           Handling *emotions* in the right way will help us lead a happy life.
-          If we know our flaws in our nature, then we should try to *correct* ourselves.
+          If we know our flaws, we should try to *correct* ourselves.
           Being *stubborn* always, will lead to the problem. 
           We should able to do *balance* between the thoughts and emotions.`
       }
