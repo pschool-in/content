@@ -40,8 +40,7 @@ export default {
           # Sprinkler irrigation
           This is similar to a waterfall. In this, water is sprayed over the crops through sprinklers.
           # Drip irrigation
-          This method conserves both water and soil nutrients. In this, water drips slowly into the
-          roots of plants through pipes.
+          This method conserves both water and soil nutrients. In this, water drips slowly into the roots of plants through pipes.
           # Do you know?
           1. Central Ground Water Board (CGWB) monitors the level and nature of groundwater.
           2. Green Revolution increased crop production as a result of a variety of seeds, pesticides, and new agricultural techniques.
