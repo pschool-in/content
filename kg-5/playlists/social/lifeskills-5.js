@@ -159,11 +159,11 @@ export default {
           types: [
             {
               name: 'Animal activities',
-              text: 'Hunting, Sixth sense, climbing the tree'
+              text: 'Hunting, Sixth sense, Climbing the tree'
             },
             {
               name: 'Human activities',
-              text: 'Skipping, cycling, playing games'
+              text: 'Skipping, Cycling, Playing games'
             }
           ]
         }
