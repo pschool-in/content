@@ -63,8 +63,8 @@ export default {
                 'emotions, tears, Sweat'
             },
             {
-              qText: 'Always we must think first about our friends _________.',
-              options: 'Virtues, iniquity, sin, dream'
+              qText: 'We should always think about our friends __________ first.',
+              options: 'virtues, iniquity, sin, dream'
             },
             {
               qText: 'Too much of _______, will lead to adverse effects on mental health.',
