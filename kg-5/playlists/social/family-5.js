@@ -118,8 +118,7 @@ export default {
           types: [
             {
               name: 'Honest',
-              text: `Arya borrowed a pencil from Mina. After she finished using it, she
-              returned it.
+              text: `Arya borrowed a pencil from Mina. After she finished using it, she returned it.
               Jerry took the bag she found in a rickshaw to a police station.
               Renu accepted that she had broken her mother’s vase.`
             },
