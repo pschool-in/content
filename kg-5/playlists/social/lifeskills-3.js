@@ -22,7 +22,7 @@ export default {
         id: 'timepastfuture',
         type: 'group',
         data: {
-          title: 'Classify the below things based on the category of past tense and future tense.',
+          title: 'Classify the below options based on the category of past tense and future tense.',
           types: [
             {
               name: 'Past tense',
@@ -122,7 +122,7 @@ export default {
           types: [
             {
               name: 'True',
-              text: `Time is majorly divided into past, present, and future.
+              text: `Time is majorly divided into past, present and future.
               Historical buildings help us to understand the history, that has happened in the past.
               “The train may come late” is future tense.`
             },
