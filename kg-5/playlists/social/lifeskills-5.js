@@ -68,7 +68,7 @@ export default {
             },
             {
               qText: 'Too much of _______, will lead to adverse effects on mental health.',
-              options: 'anger, blue, curious, Furious'
+              options: 'anger, blue, curious, furious'
             },
             {
               qText: 'One can have desire in their life, but not ________ about it.',
