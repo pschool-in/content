@@ -280,7 +280,7 @@ export default {
           title: 'Click the blanks and fill it with the right word.',
           text: `The prohibition of the child marriage act is established to prevent *child (adult)* marriage.
           The Ministry of Women and Child Development was established to protect *children (adults)*. 
-          Physical harm is *legal (illegal)*.
+          Physical harm is *illegal (legal)*.
           Childline also helps children who are neglected by their *parents (teachers)*.
           If a stranger secretly touching the children’s private parts then it is *bad (good)*touch.`
         }
