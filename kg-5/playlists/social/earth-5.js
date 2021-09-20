@@ -230,7 +230,7 @@ export default {
           1. Europe is separated from Asia by the Ural mountains and the Caspian Sea.
           2. The world's smallest country, the Vatican City, is in Europe.
           3. The Volga is one of the longest rivers in Europe.
-          4. Finland, in Europe, is called the 'Land of Lakes;.
+          4. Finland, in Europe, is called the 'Land of Lakes'.
           5. Major countries in Europe: France, Spain, United Kingdom, Germany, Norway, Austria, Greece, Spain, Portugal and Italy.
           
           # Australia
