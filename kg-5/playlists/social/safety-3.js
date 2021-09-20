@@ -194,7 +194,7 @@ export default {
           
           # Bad touch
           
-          1. A stranger  secretly touching the child’s private parts .
+          1. A stranger secretly touching the child’s private parts.
           2. A family member  secretly touching the child’s private part.
           3. A stranger secretly asks a child to touch their private part.
           4. Children shouldn’t accept food, gifts from strangers and should be made aware of the way that, some people bribe kids to perform certain bad touches.
