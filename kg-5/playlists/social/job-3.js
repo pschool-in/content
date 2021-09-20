@@ -98,11 +98,11 @@ export default {
           types: [
             {
               name: 'Raw materials',
-              text: 'Sugarcane, Cotton, Bamboo, Wheat, Fruits, Iron, Clay'
+              text: 'Sugarcane, Cotton, Bamboo, Wheat, Clay'
             },
             {
               name: 'Finished products',
-              text: 'Cars, Clothes, Tyres, Pots, Omelet, Chairs, Fans'
+              text: 'Clothes, Tyres, Pots, Omelet, Chairs'
             }
           ]
         }
