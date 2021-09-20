@@ -143,7 +143,7 @@ export default {
     },
     {
       id: 'fillup',
-      label: 'Gas in Air - Fill Up',
+      label: 'Fill in the blanks',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
