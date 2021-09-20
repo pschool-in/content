@@ -16,7 +16,8 @@ export default {
           
           # Layer tinting method
           
-          The spaces between contour lines are coloured in this method. Each colour represents a height.          
+          The spaces between contour lines are coloured in this method. Each colour represents a height.
+          
           # Digital elevation method
           
           In this way, we use computers to convey data from man-made satellites to show on a map.          
