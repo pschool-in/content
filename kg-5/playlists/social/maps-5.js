@@ -10,9 +10,17 @@ export default {
         id: 'landforms',
         data: {
           title: 'Methods of showing landforms on a map',
-          text: `Contour line method- On a map, this method shows the unevenness of landforms. Land height is measured from sea level. Then we find spots of the same height. Their location is pinpointed on the map. A line connects these points. Such lines are called contour lines. It helps us to understand the land's slope and height.
-          Layer tinting method- The spaces between contour lines are coloured in this method. Each colour represents a height.          
-          Digital elevation method- In this way, we use computers to convey data from man-made satellites to show on a map.          
+          text: `# Contour line method
+          
+          On a map, this method shows the unevenness of landforms. Land height is measured from sea level. Then we find spots of the same height. Their location is pinpointed on the map. A line connects these points. Such lines are called contour lines. It helps us to understand the land's slope and height.
+          
+          # Layer tinting method
+          
+          The spaces between contour lines are coloured in this method. Each colour represents a height.          
+          # Digital elevation method
+          
+          In this way, we use computers to convey data from man-made satellites to show on a map.          
+          
           Physical maps can be utilised in military operations, tourism, mountaineering route planning, and regional development planning, among other things.          
           To make the map easy to read, standard signs and symbols are utilised. For specified components, these symbols and signs are universally used.          
           The Signs which are used to depict various objects on a map as per convention are called conventional signs. These can be letters or mathematical shapes such as lines, circles, triangles, dots, and so on.          
