@@ -290,15 +290,12 @@ export default {
       ]
     },
 
-
-    
-
    
           {
         // class v and above
         type: 'group',
         label: 'বিশেষ্য vs সর্বনাম ',
-        id: 'classify-letter-type',
+        id: 'bn-nounpronoun',
         commonData: {
           title: 'বিশেষ্য ও সর্বনাম গুলি সঠিক বক্সে রাখুন ',
           fontSize: '2rem',
@@ -403,7 +400,7 @@ export default {
         // Synonyms - class-5 content ref-bhasapath-iv
         type: 'rightOne',
         label: 'ব্যাকরণ - বিপরীতার্থক শব্দ চয়ন',
-        id: 'bn_antonym-2',
+        id: 'bn-antonym-2',
         commonData: {
           title: 'সঠিক বিপরীতার্থক শব্দ চয়ন করুন',
           noCaps: true,
@@ -458,7 +455,7 @@ export default {
       // for class -5 students
       type: 'rightOne',
       label: 'ব্যাকরণ - সমোচ্চারিত ভিন্নার্থক শব্দ চয়ন',
-      id: 'bn_samesoundingword-2',
+      id: 'bn-samesoundingword-2',
       commonData: {
         title: 'সঠিক অর্থ চয়ন করুন',
         noCaps: true,
