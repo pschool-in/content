@@ -533,7 +533,7 @@ export default {
           title: 'Multiple Choice Questions',
           questions: [
             {
-              qText: ' Our eyes tell us how __________ something is.',
+              qText: ' What is the length of the alimentary canal?',
               options: '9-11 m, 3-5 m, 5-6 m,  6-9 m'
             },
             {
