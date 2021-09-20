@@ -522,7 +522,7 @@ export default {
           Stomach, Nostrils, Nasal cavity,  Pharynx   
           Kidney, Mouth,  Esophagus,  Stomach
           Think,  Smell, Taste, Hear
-          Nephron, Cerebrum , Cerebellum, Medulla Oblongata,`
+          Nephron, Cerebrum , Cerebellum, Medulla Oblongata`
         }
       },
       {
