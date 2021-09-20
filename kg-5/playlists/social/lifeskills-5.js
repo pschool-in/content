@@ -46,7 +46,7 @@ export default {
           Angry, Irritated
           Sad, Blue
           Jumbled, Confused
-          Excited, enthusiatic`,
+          Excited, Enthusiatic`,
           title: 'Match the following with its correct one'
         }
       },
