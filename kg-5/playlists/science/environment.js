@@ -27,7 +27,7 @@ export default {
         types: [
           {
             name: 'living',
-            text: 'mango tree, squirrel, fox, lotus'
+            text: 'tree, squirrel, fox, plant'
           },
           {
             name: 'non-living',
@@ -46,7 +46,7 @@ export default {
         text: `Birds, Nest
           Silk, Clothes
           Wooden chair, Tree
-          Soil Fertile, Decay of dead animals and plants
+          Soil Fertile, humus
           Pollution, Environment`
       }
     },
@@ -299,7 +299,7 @@ mountain, land`
           # Human’s Need
           Animals and plants give us abundantly and they are satisfying our needs. Humans also take care of some animals for their domestic use and they are called domestic animals. Plants give us vegetables, fruits, flowers, seeds, and many products for our daily use. Besides, many plants have more medicinal values and their extraction is used as medicines.
           # Seasons
-          We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season brings changes in the environment. For example, in summer, there will be sunny and we used to wear cotton clothes. In the winter season, there will be cold and we wear woolen clothes. It will give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.
+          We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season brings changes in the environment. For example, Cotton clothes are comfortable to wear during the summer season. Woolen clothes are comfortable to wear during winter season. Seasons give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.
           `
       }
     },
