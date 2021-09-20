@@ -6,7 +6,7 @@ export default {
     {
       id: '100',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১',
+      label: 'শব্দ খোজ : ফল - শাকসবজি',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -35,7 +35,7 @@ export default {
     {
       id: '200',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ২',
+      label: 'শব্দ খোজ : ফল - শাকসবজি',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -63,7 +63,7 @@ export default {
     {
       id: '300',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৩',
+      label: 'শব্দ খোজ : মাস',
       data: {
         title: 'টেবিল থেকে  বাংলা মাস সন্ধান করুন',
         words: [
@@ -89,7 +89,7 @@ export default {
     {
       id: '400',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৪',
+      label: 'শব্দ খোজ : ঋতু',
       data: {
         title: 'টেবিল থেকে বাংলা ঋতু সন্ধান করুন',
         words: [
@@ -144,7 +144,7 @@ export default {
     {
       id: '600',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৬',
+      label: 'শব্দ খোজ : ফুল - ফল - শাকসবজি',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -173,7 +173,7 @@ export default {
     {
       id: '700',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৭',
+      label: 'শব্দ খোজ : গ্রহ',
       data: {
         title: 'টেবিল থেকে  গ্রহের নাম করুন',
         words: [
@@ -202,7 +202,7 @@ export default {
     {
       id: '800',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৮',
+      label: 'শব্দ খোজ : দিন',
       data: {
         title: 'টেবিল থেকে  বাংলা দিন সন্ধান করুন',
         words: [
@@ -231,7 +231,7 @@ export default {
       id: '900',
       editable: true,
       type: 'wordsearch',
-      label: 'শব্দ খোজ ৯',
+      label: 'শব্দ খোজ : পশু - পাখি',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -263,7 +263,7 @@ export default {
     {
       id: '1000',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১০',
+      label: 'শব্দ খোজ : পশু - পাখি',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -295,7 +295,7 @@ export default {
     {
       id: '1100',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১১',
+      label: 'শব্দ খোজ : জায়গা',
       data: {
         title: 'টেবিল থেকে  জায়গাগুলি সন্ধান করুন',
         words: [
@@ -325,7 +325,7 @@ export default {
     {
       id: '1200',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১২',
+      label: 'শব্দ খোজ : পাখি',
       data: {
         title: 'টেবিল থেকে পাখির নামগুলি সন্ধান করুন ',
         words: [
@@ -358,7 +358,7 @@ export default {
     {
       id: '1300',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১৩',
+      label: 'শব্দ খোজ : পশু',
       data: {
         title: 'টেবিল থেকে পশুর নামগুলি সন্ধান করুন ',
         words: [
@@ -389,7 +389,7 @@ export default {
     {
       id: '1400',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১৪',
+      label: 'শব্দ খোজ : ফুল',
       data: {
         title: 'টেবিল থেকে ফুলের  নামগুলি সন্ধান করুন ',
         words: [
@@ -420,7 +420,7 @@ export default {
     {
       id: '1500',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১৫',
+      label: 'শব্দ খোজ : শহর',
       data: {
         title: 'টেবিল থেকে শহরের  নামগুলি সন্ধান করুন ',
         words: [
@@ -450,7 +450,7 @@ export default {
     {
       id: '1600',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১৬',
+      label: 'শব্দ খোজ : শহর',
       data: {
         title: 'টেবিল থেকে  শব্দগুলি সন্ধান করুন',
         words: [
@@ -480,7 +480,7 @@ export default {
     {
       id: '1700',
       type: 'wordsearch',
-      label: 'শব্দ খোজ ১৭',
+      label: 'শব্দ খোজ : লেখক',
       data: {
         title: 'টেবিল থেকে  বাংলা লেখকের নাম  সন্ধান করুন',
         words: [
