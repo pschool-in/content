@@ -71,13 +71,13 @@ export default {
               options: 'anger, blue, curious, furious'
             },
             {
-              qText: 'One can have desire in their life, but not ________ about it.',
+              qText: 'one can have desire in their life, but should not be____ about it.',
               options:
                 'greedy, unsatisfied, discontent, ascetic'
             },
             {
               qText: 'Undestand and act according to other’s ____________.',
-              options: 'emotion, hunger, tiredness, money'
+              options: 'emotions, hunger, tiredness, money'
             }
           ]
         }
