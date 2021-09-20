@@ -119,7 +119,7 @@ export default {
             {
               name: 'True',
               text: `Using a mobile phone for a long time is a bad habit.
-              Learning ‘how not to be’, is as important as ‘learning how to be’.
+              Learning ‘how not to be’, is as important as learning ‘how to be’.
               We learn more things through exposure.`
             },
             {
