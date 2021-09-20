@@ -24,7 +24,7 @@ export default {
         id: 'signsymbol',
         type: 'group',
         data: {
-          title: 'Classify the following on basis of signs and symbols',
+          title: 'Classify the following on basis of conventional signs and conventional symbols',
           types: [
             {
               name: 'Sign',
