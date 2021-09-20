@@ -107,8 +107,8 @@ export default {
         data: {
           title: 'Click the blanks and fill it with the right word.',
           text: `If you get angry, then you should not revert in a *bad (good)* way to others.
-          We should help each other, to get rid of the *flaws(talent)*.
-          Sometimes being *patient (impatient)* in life, is the best emotional intelligence.
+          We should help each other to get rid of the *flaws(talent)*.
+          Sometimes being *patient (impatient)* in life is the best emotional intelligence.
           *Society (Food)*influences one’s emotion.
           *Hunger (Anger)* is not a type of emotion.`
         }
@@ -122,9 +122,9 @@ export default {
           types: [
             {
               name: 'True',
-              text: `Ram used to sing a song, whenever he feels happy.
+              text: `Ram used to sing a song, whenever he felt happy.
               Rahim’s parents were so happy, because she won the swimming race.
-              Robert was so happy yesterday, because he cent percent in all subjects. 
+              Robert was so happy yesterday, because he scored cent percent in all subjects. 
               `
             },
             {
@@ -143,7 +143,7 @@ export default {
         data: {
           title: 'Growth and personality development',
           text: `#Growth and development
-          All living things have the ability to grow. Humans have slow growth and development from birth to adulthood. Infants cannot do any activity by themselves. Slowly they get the coordination and control of the movements. They grow in weight and height slowly according till adulthood. A balanced diet and regular exercise are the major factors that support growth and development for humans.          
+          All living things have the ability to grow. Humans have slow growth and development from birth to adulthood. Infants cannot do any activity by themselves. Slowly they get the coordination and control of the movements. They grow in weight and height slowly till adulthood. A balanced diet and regular exercise are the major factors that support growth and development for humans.          
           #Skills development          
           When we grow, our physical strength increases. At the same time, learning and practicing new skills rapidly leads to personality development. Animals learn from their mother how to protect themselves from their enemies, weather, etc. They learn and begin to live independently. Animals learn only a limited number of skills in their life, however, humans learn more things throughout their life. Developing skills helps one to live independently and enrich life.           
           #Heredity          
