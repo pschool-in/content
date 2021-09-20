@@ -147,7 +147,7 @@ export default {
         }
       },
       {
-        label: 'Fill in the blanks -2',
+        label: 'Answer the following in one word',
         type: 'matchByDragDrop',
         id: 'gettingtoknowindiafilldrag-2',
         data: {
@@ -157,11 +157,11 @@ export default {
             fontSize: '1.3rem',
             dashWidth: 80
           },
-          text: `Largest state. *Rajasthan*
-          State born in 2014. *Telangana*
-          The state in which apples are grown. *Jammu and Kashmir*
-          The part which is surrounded by the water on three sides. *Indian Peninsula*
-          Fifth largest state. *Gujarat*`
+          text: `Largest state- *Rajasthan*
+          State born in 2014- *Telangana*
+          The state in which apples are grown- *Jammu and Kashmir*
+          The part which is surrounded by the water on three sides- *Indian Peninsula*
+          Fifth largest state- *Gujarat*`
       }
     },
     ]
