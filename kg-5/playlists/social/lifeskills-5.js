@@ -94,7 +94,7 @@ export default {
             dashWidth: 80
           },
           text: `We must know well about our talents and also our *flaws*.
-          Handling *emotions* in a right way, will help us to lead the happy life.
+          Handling *emotions* in the right way will help us lead a happy life.
           If we know our flaws in our nature, then we should try to *correct* ourselves.
           Being *stubborn* always, will lead to the problem. 
           We should able to do *balance* between the thoughts and emotions.`
