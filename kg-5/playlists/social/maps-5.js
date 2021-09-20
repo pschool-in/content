@@ -79,7 +79,7 @@ export default {
               name: 'True',
               text: `Previously, relief was shown using the ‘hill shading’ technique.
               The ‘Survey of India’ is the foremost mapmaking institute in India.
-              standard signs and symbols are used to make the map easy to read.`
+              Standard signs and symbols are used to make the map easy to read.`
             },
             {
               name: 'False',
