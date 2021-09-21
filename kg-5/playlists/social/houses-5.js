@@ -16,7 +16,7 @@ export default {
           
           # Different types of houses
           
-          Different types of houses are built according to the climate and region. For example, house structure varies in plains, marshy areas, heavy rainfall regions, mountains, deserts, etc.  The structure of the houses varies from the region to region. So, people build houses that are suitable for the climate and natural resources. Building materials to construction differs for every type of house.  Moreover, one can see the different types of houses in cities and villages.  For example, you can see houses like mud houses, huts, bungalows, apartments, independent houses, etc. 
+          Different types of houses are built according to the climate and region. For example, house structure varies in plains, marshy areas, heavy rainfall regions, mountains, deserts, etc.  The structure of the houses varies from the region to region. So, people build houses that are suitable for the climate and natural resources. Building materials for construction differ for each type of house.  Moreover, one can see the different types of houses in cities and villages.  For example, you can see houses like mud houses, huts, bungalows, apartments, independent houses, etc. 
           
           # People and their houses
           
