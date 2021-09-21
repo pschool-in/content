@@ -194,7 +194,7 @@ export default {
           
           # Bad touch
           
-          1. A stranger  secretly touching the child’s private parts .
+          1. A stranger secretly touching the child’s private parts.
           2. A family member  secretly touching the child’s private part.
           3. A stranger secretly asks a child to touch their private part.
           4. Children shouldn’t accept food, gifts from strangers and should be made aware of the way that, some people bribe kids to perform certain bad touches.
@@ -280,7 +280,7 @@ export default {
           title: 'Click the blanks and fill it with the right word.',
           text: `The prohibition of the child marriage act is established to prevent *child (adult)* marriage.
           The Ministry of Women and Child Development was established to protect *children (adults)*. 
-          Physical harm is *legal (illegal)*.
+          Physical harm is *illegal (legal)*.
           Childline also helps children who are neglected by their *parents (teachers)*.
           If a stranger secretly touching the children’s private parts then it is *bad (good)*touch.`
         }

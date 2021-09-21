@@ -14,7 +14,7 @@ export default {
           # Farmers
           They cultivate crops and rear animals. Our country is a land of farmers and they're the backbone of our economy.
           # Subsistence farming
-          In this, crops are cultivated and are only used by the farmer's family. Small and marginal farmers practice this on small pieces of land they own. The method of farming is generally archaic.
+          In this, crops are cultivated and they are only used by the farmer's family. Small and marginal farmers practice this on small pieces of land they own. The method of farming is generally archaic.
           # Commercial farming
           In this type of farming, crops are cultivated and are used for commercial purposes. This is done using modern techniques, tools, and machines.
           # Plantation farming
@@ -40,8 +40,7 @@ export default {
           # Sprinkler irrigation
           This is similar to a waterfall. In this, water is sprayed over the crops through sprinklers.
           # Drip irrigation
-          This method conserves both water and soil nutrients. In this, water drips slowly into the
-          roots of plants through pipes.
+          This method conserves both water and soil nutrients. In this, water drips slowly into the roots of plants through pipes.
           # Do you know?
           1. Central Ground Water Board (CGWB) monitors the level and nature of groundwater.
           2. Green Revolution increased crop production as a result of a variety of seeds, pesticides, and new agricultural techniques.

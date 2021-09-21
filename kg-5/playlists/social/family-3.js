@@ -131,8 +131,7 @@ export default {
           {
             name: 'Wrong',
             text: `Garbage should not be thrown in a garbage bin.
-              Keeping the house clean and tidy is the responsibility of
-              one person in the family.
+              Keeping the house clean and tidy is the responsibility of one person in the family.
               Joint family has only 3 - 4 members.`
           }
         ]

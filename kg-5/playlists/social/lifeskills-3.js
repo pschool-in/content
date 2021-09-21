@@ -14,7 +14,7 @@ export default {
           1. Past - Event that has happened.          
           2. Present - Event that is happening.          
           3. Future- Event that is going to happen.          
-          To calculate and understand time, we are using certain units like a clock, calendars, etc. The clock contains seconds, minutes, and hours. Calendars are there to make a log of time. The calendar contains days, months, and years. These are all units of time, that help us to measure and calculate the time. In ancient days, people used a water clock, an hourglass, etc. Statues, historical places, monuments, coins, shards of pottery, old objects, etc. So this helps us to understand the history of those things.`
+          To calculate and understand time, we use certain units like clocks, calendars, etc. A clock contains seconds, minutes, and hours. Calendars are there to make a log of time. The calendar contains days, months, and years. These are all units of time, that help us to measure and calculate the time. In ancient days, people used a water clock, an hourglass, etc. Statues, historical places, monuments, coins, shards of pottery, old objects, etc. So this helps us to understand the life style of people who lived during such times.`
         }
       },
       {
@@ -22,7 +22,7 @@ export default {
         id: 'timepastfuture',
         type: 'group',
         data: {
-          title: 'Classify the below things based on the category of past tense and future tense.',
+          title: 'Classify the below options based on the category of past tense and future tense.',
           types: [
             {
               name: 'Past tense',
@@ -122,7 +122,7 @@ export default {
           types: [
             {
               name: 'True',
-              text: `Time is majorly divided into past, present, and future.
+              text: `Time is majorly divided into past, present and future.
               Historical buildings help us to understand the history, that has happened in the past.
               “The train may come late” is future tense.`
             },

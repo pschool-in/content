@@ -87,7 +87,7 @@ export default {
             dashWidth: 80
           },
           text: `*Digestion* takes place in different parts of a long and flexible tube called the *alimentary* canal. 
-          The upper end of this tube is the *mouth8 and the lower end is called the *anus*.
+          The upper end of this tube is the *mouth* and the lower end is called the *anus*.
           The *shape* of this tube is not the same in all its parts.`
         }
       },
@@ -327,8 +327,7 @@ export default {
             {
               name: 'True',
               text: `The circulatory system is made up of the heart, blood and blood vessels.
-              Important function of the heart is to transport blood with nutrients, oxygen, waste
-              and hormones.
+              Important function of the heart is to transport blood with nutrients, oxygen, waste and hormones.
               We have 2 kidneys.`
             },
             {
@@ -523,7 +522,7 @@ export default {
           Stomach, Nostrils, Nasal cavity,  Pharynx   
           Kidney, Mouth,  Esophagus,  Stomach
           Think,  Smell, Taste, Hear
-          Nephron, Cerebrum , Cerebellum, Medulla Oblongata,`
+          Nephron, Cerebrum , Cerebellum, Medulla Oblongata`
         }
       },
       {
@@ -534,7 +533,7 @@ export default {
           title: 'Multiple Choice Questions',
           questions: [
             {
-              qText: ' Our eyes tell us how __________ something is.',
+              qText: ' What is the length of the alimentary canal?',
               options: '9-11 m, 3-5 m, 5-6 m,  6-9 m'
             },
             {

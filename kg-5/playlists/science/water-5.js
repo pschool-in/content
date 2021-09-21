@@ -192,7 +192,7 @@ Allow mosquitoes to live in our surroundings.`
           This is why all industries must treat the waste water before releasing it. Similarly, sewage is also purified before releasing the water into a water body. Likewise, water is purified before being supplied across the town.
           # Mineral water
           It is conveniently available in general stores and stations. The bottles are packed and sealed. We should always check the date of sealing and the date of expiry printed on the neck of the bottle before buying it.
-          Checking for dates is important for not just mineral water bottles but other packed edibles like food and medicines.
+          Checking for dates is important for not just mineral water bottles but for other packed edibles like food and medicines as well.
           # Famine
           Places with least or no rainfall face scarcity of water, which further leads to drought. 
           When there is no water to drink, bathe, cook and for agriculture, this condition is called famine.
@@ -214,7 +214,7 @@ Allow mosquitoes to live in our surroundings.`
             fontSize: '1.3rem',
             dashWidth: 80
           },
-          text: `*Mineral* water is available as in sealed bottles.
+          text: `*Mineral* water is available in sealed bottles.
           *Sewage* water is polluted water.
           *Waste water* should be treated before merging with rivers.
           *Oxygenation* means mixing oxygen and water through pumps.
@@ -251,7 +251,7 @@ Allow mosquitoes to live in our surroundings.`
             },
             {
               name: 'False',
-              text: `Waster water is directly disposed into rivers and seas.
+              text: `Waste water is directly disposed into rivers and seas.
               Water pollution refers to the purification of water.
               We should ignore the manufcture and expiry date in mineral water bottles.`
             }

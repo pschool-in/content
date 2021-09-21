@@ -10,9 +10,18 @@ export default {
         id: 'landforms',
         data: {
           title: 'Methods of showing landforms on a map',
-          text: `Contour line method- On a map, this method shows the unevenness of landforms. Land height is measured from sea level. Then we find spots of the same height. Their location is pinpointed on the map. A line connects these points. Such lines are called contour lines. It helps us to understand the land's slope and height.
-          Layer tinting method- The spaces between contour lines are coloured in this method. Each colour represents a height.          
-          Digital elevation method- In this way, we use computers to convey data from man-made satellites to show on a map.          
+          text: `# Contour line method
+          
+          On a map, this method shows the unevenness of landforms. Land height is measured from sea level. Then we find spots of the same height. Their location is pinpointed on the map. A line connects these points. Such lines are called contour lines. It helps us to understand the land's slope and height.
+          
+          # Layer tinting method
+          
+          The spaces between contour lines are coloured in this method. Each colour represents a height.
+          
+          # Digital elevation method
+          
+          In this way, we use computers to convey data from man-made satellites to show on a map.          
+          
           Physical maps can be utilised in military operations, tourism, mountaineering route planning, and regional development planning, among other things.          
           To make the map easy to read, standard signs and symbols are utilised. For specified components, these symbols and signs are universally used.          
           The Signs which are used to depict various objects on a map as per convention are called conventional signs. These can be letters or mathematical shapes such as lines, circles, triangles, dots, and so on.          
@@ -20,11 +29,11 @@ export default {
         }
       },
       {
-        label: 'Sign vs symbol',
+        label: 'Sign vs Symbol',
         id: 'signsymbol',
         type: 'group',
         data: {
-          title: 'Classify the following on basis of signs and symbols',
+          title: 'Classify the following on basis of conventional signs and conventional symbols',
           types: [
             {
               name: 'Sign',
@@ -79,7 +88,7 @@ export default {
               name: 'True',
               text: `Previously, relief was shown using the ‘hill shading’ technique.
               The ‘Survey of India’ is the foremost mapmaking institute in India.
-              standard signs and symbols are used to make the map easy to read.`
+              Standard signs and symbols are used to make the map easy to read.`
             },
             {
               name: 'False',
@@ -138,7 +147,7 @@ export default {
         }
       },
       {
-        label: 'Fill in the blanks -2',
+        label: 'Answer the following in one word',
         type: 'matchByDragDrop',
         id: 'gettingtoknowindiafilldrag-2',
         data: {
@@ -148,11 +157,11 @@ export default {
             fontSize: '1.3rem',
             dashWidth: 80
           },
-          text: `Largest state. *Rajasthan*
-          State born in 2014. *Telangana*
-          The state in which apples are grown. *Jammu and Kashmir*
-          The part which is surrounded by the water on three sides. *Indian Peninsula*
-          Fifth largest state. *Gujarat*`
+          text: `Largest state- *Rajasthan*
+          State born in 2014- *Telangana*
+          The state in which apples are grown- *Jammu and Kashmir*
+          The part which is surrounded by the water on three sides- *Indian Peninsula*
+          Fifth largest state- *Gujarat*`
       }
     },
     ]

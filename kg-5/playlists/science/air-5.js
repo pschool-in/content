@@ -27,7 +27,7 @@ export default {
             4. Sound travels through air.
             5. Plants require air to grow.
             6. Helps in transport.
-            7. Produce wind energy
+            7. Produce wind energy.
             8. Help in movement of parachutes and hot air balloons.`
       }
     },
@@ -219,7 +219,7 @@ export default {
           # Prevention:
             1. Avoid close contact with people who have active symptoms of disease.
             2. Maintain personal hygiene.
-            3. Keep the patient in complete isolation.Cover nose and mouth while sneezing or coughing.
+            3. Keep the patient in complete isolation. Cover nose and mouth while sneezing or coughing.
             4. Avoid touching the face or other people with unwashed hands.
             5. Wash your hands thoroughly.
             6. Timely vaccination can prevent the diseases.`
@@ -236,12 +236,12 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Common cold - *rhino virus*
-          Influenza - *myxo virus*
-          Measles - *rubeola virus*
-          Chicken pox - *varicella zoster*
-          Tuberculosis - *mycobacterium*
-          Diptheria - *coneybacterium*
+        text: `Common cold - *Rhino virus*
+          Influenza - *Myxo virus*
+          Measles - *Rubeola virus*
+          Chicken pox - *Varicella zoster*
+          Tuberculosis - *Mycobacterium*
+          Diptheria - *Coneybacterium*
           Whooping cough - *Bordetalla pertusis*`
       }
     },
@@ -307,7 +307,7 @@ export default {
           
           # Heat zones of Earth
           1. Torrid zone: zone between Tropic of Cancer and Tropic of Capricorn.
-          2. Temperate zone: Receives slanting rays of sun.
+          2. Temperate zone: receives slanting rays of sun.
           3. Frigid zone: do not get sun’s rays.
           
           # Important Mountain peaks
@@ -336,7 +336,7 @@ export default {
           
           # Types of clouds:
           
-          1. Cirrus cloud: These may not give rain.they are seen at very high altitudes.
+          1. Cirrus cloud: These may not give rain. They are seen at very high altitudes.
           2. Stratus cloud: They are grey in colour and are spreadout. They may give small shower. 
           3. Cumulus cloud: It looks like a burst cotton and gives convectional rain fall. These clouds are associated with rainfall lightning and thunder.
           4. Nimbus cloud: It appears as dark or grey in color. It gives heavy rainfall. It is called vertical or rain clouds.

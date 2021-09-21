@@ -365,8 +365,7 @@ export default {
           If our teeth are dirty, foul substances go into our stomach. We can fall ill.
           
           We must wash our hands before we eat.
-          We must keep our hair, our nails, our sense organs and the entire
-          body clean`
+          We must keep our hair, our nails, our sense organs and the entire body clean`
         }
       },
       {
