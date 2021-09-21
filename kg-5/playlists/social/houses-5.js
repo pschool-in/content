@@ -20,7 +20,7 @@ export default {
           
           # People and their houses
           
-          Food, water, clothing, and shelter are more important basic things for human beings. The shelter is needed for every living thing. Due to some reason, some people lack their basic needs. These people live the homeless life. They are seeking shelter in subways, roadside pathways, under bridges, open grounds, etc. It is a serious social problem, that these kinds of people leading their life with insufficient livelihood. To eradicate this problem, our government introduces many schemes and taking huge steps to fulfill the basic needs of these people. 
+          Food, water, clothing, and shelter are more important basic things for human beings. The shelter is needed for every living thing. Due to some reason, some people lack their basic needs. These people live the homeless life. They are seeking shelter in subways, roadside pathways, under bridges, open grounds, etc. It is a serious social problem, that these kinds of people leading their life with insufficient livelihood. To eradicate this problem, our government is introducing  many schemes and taking huge steps to fulfill the basic needs of these people. 
           
           # Depletion of natural resources
           
