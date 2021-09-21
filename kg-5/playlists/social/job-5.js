@@ -14,7 +14,7 @@ export default {
           # Farmers
           They cultivate crops and rear animals. Our country is a land of farmers and they're the backbone of our economy.
           # Subsistence farming
-          In this, crops are cultivated and are only used by the farmer's family. Small and marginal farmers practice this on small pieces of land they own. The method of farming is generally archaic.
+          In this, crops are cultivated and they are only used by the farmer's family. Small and marginal farmers practice this on small pieces of land they own. The method of farming is generally archaic.
           # Commercial farming
           In this type of farming, crops are cultivated and are used for commercial purposes. This is done using modern techniques, tools, and machines.
           # Plantation farming
