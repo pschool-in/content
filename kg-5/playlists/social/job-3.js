@@ -14,10 +14,10 @@ export default {
           
           # Types of occupations
           
-          1. Nature-based: agriculture, fishing, etc.
-          2. Manufacture: clothes, automobiles, etc.
-          3. Trade: shopkeeping, selling products, etc.
-          4. Providing services: teacher, doctor, etc.
+          1. Nature-based: Agriculture, Fishing, etc.
+          2. Manufacture: Clothes, Automobiles, etc.
+          3. Trade: Shopkeeping, Selling products, etc.
+          4. Providing services: Teacher, Doctor, etc.
           
           # Importance of agriculture
           
@@ -78,7 +78,7 @@ export default {
               name: 'Nature-based',
               text: `Agriculture
               Fishing
-              Poultry.`
+              Poultry`
             },
             {
               name: 'Providing service',
@@ -125,7 +125,7 @@ export default {
             },
             {
               qText: 'Bamboo',
-              options: 'Basket-weaving, Garment industry, Food industry'
+              options: 'Basket-weaving industry, Garment industry, Food industry'
             },
             {
               qText: 'Maida',
@@ -133,7 +133,7 @@ export default {
             },
             {
                 qText: 'Wheat',
-                options: 'Food industry, Sugar industry, Basket-weaving'
+                options: 'Food industry, Sugar industry, Basket-weaving industry'
             }
           ]
         }
