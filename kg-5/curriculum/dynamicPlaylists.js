@@ -632,6 +632,21 @@ const science = [
     grade: 'g4, g5'
   },
   {
+    label: 'Human Body 3',
+    slug: 'humanbody-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Human Body 4',
+    slug: 'humanbody-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Human Body 2',
+    slug: 'humanbody-5',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Solar System',
     slug: 'solar-system',
     grade: 'g4, g5'
@@ -671,6 +686,11 @@ const science = [
   {
     label: 'Air - 2',
     slug: 'air-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Air - 3',
+    slug: 'air-5',
     grade: 'g3, g4, g5'
   }
   /*
@@ -810,8 +830,79 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Maps 3',
+    slug: 'maps-5',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Surroundings',
     slug: 'surroundings',
+    grade: 'g3, g4, g5'
+  },
+  // new addition 2
+  {
+    label: 'Earth',
+    slug: 'earth-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Family',
+    slug: 'family-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Family - 2',
+    slug: 'family-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Houses',
+    slug: 'houses-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Job',
+    slug: 'job-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Job 2',
+    slug: 'job-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Life Skills',
+    slug: 'lifeskills-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Life Skills - 2',
+    slug: 'lifeskills-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Life Skills - 3',
+    slug: 'lifeskills-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Nature ',
+    slug: 'nature-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Nature - 2',
+    slug: 'nature-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Safety',
+    slug: 'safety-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Surroundings',
+    slug: 'surroundings-3',
     grade: 'g3, g4, g5'
   }
 ];

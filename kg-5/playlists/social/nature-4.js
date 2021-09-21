@@ -41,52 +41,52 @@ export default {
       }
     },
     {
-        label: 'Natural or Man-made',
-        id: '200',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the disasters as Natural or Man-made',
-          types: [
-            {
-              name: 'Natural',
-              text: `Cyclone
+      label: 'Natural or Man-made',
+      id: '200',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the disasters as Natural or Man-made',
+        types: [
+          {
+            name: 'Natural',
+            text: `Cyclone
               Death due to lightning
               Lives disturbed due to heavy snowfall
               Earthquake
               Tsunami`
-            },
-            {
-              name: 'Man-made',
-              text: `Collision of two trains.
+          },
+          {
+            name: 'Man-made',
+            text: `Collision of two trains.
               Air crash due to mechanical fault.
               Fire due to explosion of gas cylinder.
               Collapse of old house.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'True or False',
-        id: '300',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the sentence as true or false',
-          types: [
-            {
-              name: 'True',
-              text: `In every city and district headquarters, there is a fixed drill to be followed in case of a natural disaster.
+          }
+        ]
+      }
+    },
+    {
+      label: 'True or False',
+      id: '300',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the sentence as true or false',
+        types: [
+          {
+            name: 'True',
+            text: `In every city and district headquarters, there is a fixed drill to be followed in case of a natural disaster.
               During an earthquake, one should sit under a table or bed or stand under a doorframe.
               Fields become waterlogged and crops rot during flood.`
-            },
-            {
-              name: 'False',
-              text: `During an earthquake move to an open space.
+          },
+          {
+            name: 'False',
+            text: `During an earthquake move to an open space.
               During flood sit under a table.
               Hailstorm is a man-made disaster.`
-            }
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
     {
       label: 'Answer in one word',
       type: 'matchByDragDrop',
@@ -129,7 +129,7 @@ export default {
       }
     },
     {
-      id: '600',
+      id: 'match-pollution',
       label: 'Match the following',
       type: 'match',
       data: {

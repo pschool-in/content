@@ -1,16 +1,16 @@
 export default {
-    id: 'earth-5',
-    label: 'Earth-5',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Our Earth - Reading',
-        type: 'passage',
-        id: '100',
-        data: {
-          title: 'Earth',
-          text: `# Origin of Earth.
+  id: 'earth-5',
+  label: 'Earth-5',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Our Earth - Reading',
+      type: 'passage',
+      id: '100',
+      data: {
+        title: 'Earth',
+        text: `# Origin of Earth.
 
           Millions of years ago an explosion called 'The Big Bang' occurred. Numerous stars and celestial bodies came into existence by that massive explosion. These celestial bodies together called the Universe or Cosmos.
           
@@ -34,20 +34,20 @@ export default {
           
           1. Continents: The 7 continents are Asia, Africa, North America, South America, Antarctica, Europe,and Australia.The Asian continent where we live is the biggest of all. And Australia is the smallest one. The Antarctica is the continent full of snow.
           2. Oceans: The 5 oceans are Pacific Ocean, Atlantic Ocean, Indian Ocean, Arctic Ocean and Southern Ocean. Around 97 percent of the planet’s water is in the Ocean.Around 71 percent of our Earth is covered by salt water and that is called as Ocean. Only 2.5 percent of water is fresh and 1 percent of it is easily accessible.`
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: '600',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Mercury and *Venus* lie near the sun.
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: '600',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Mercury and *Venus* lie near the sun.
           Next to Earth is *Mars*, Jupiter, *Saturn*, Uranus and *Neptune*.
           The planets nearer to the sun are very *hot*. 
           The planets away from the sun are very *cold*. 
@@ -56,132 +56,130 @@ export default {
           Mars is described as the *Red* planet. 
           Earth is called the *Blue* planet.
           Saturn is the *Ringed* planet.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: '200',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `The Universe is a vast expanse of space.
+      }
+    },
+    {
+      label: 'True or False',
+      id: '200',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `The Universe is a vast expanse of space.
               There are billions of galaxies in the Universe.
               The earth rotates on its axis.`
-            },
-            {
-              name: 'False',
-              text: `Day and night are due to Earth’s revolution.
+          },
+          {
+            name: 'False',
+            text: `Day and night are due to Earth’s revolution.
               Milky way is our Universe.
               There are 5 continents and 7 oceans.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Name the Planet',
-        type: 'matchByDragDrop',
-        id: '300',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Red planet - *Mars*
+          }
+        ]
+      }
+    },
+    {
+      label: 'Name the Planet',
+      type: 'matchByDragDrop',
+      id: '300',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Red planet - *Mars*
           Blue planet - *Earth*
           Ringed planet - *Saturn*
           Smallest planet - *Mercury*
           Largest planet - *Neptune*`
-        }
-      },
-      {
-        label: 'Name the Continents',
-        type: 'matchByDragDrop',
-        id: '400',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Smallest continent - *Australia*
+      }
+    },
+    {
+      label: 'Name the Continents',
+      type: 'matchByDragDrop',
+      id: '400',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Smallest continent - *Australia*
           Largest continent - *Asia*
           Snow covered continent - *Antarctica*
           Second largest continent - *Africa*`
-        }
+      }
+    },
+    {
+      label: 'Choose the best Answer ',
+      id: '500',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'The distance between the earth and the sun is ___________.',
+            options: '150 million kilometre, 50km, 1500km'
+          },
+          {
+            qText: '_____________ is caused due to revolution of the Earth.',
+            options: 'season, day, night'
+          },
+          {
+            qText: 'The continent which is covered by ice is _____________.',
+            options: 'Antarctica, Australia, Asia'
+          },
+          {
+            qText: 'The biggest continent is ______________.',
+            options: 'Asia, Africa, Australia'
+          },
+          {
+            qText: '_____________ is described as Red Planet. ',
+            options: 'Mars, Venus, Mercury'
+          },
+          {
+            qText:
+              '____________ Percentage of our earth is covered by salt water ',
+            options: '97%, 71%, 81%'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Solar System',
+      type: 'sorting',
+      slug: '3-planets-order',
+      data: {
+        title:
+          'Sort the planets based on its distance from sun. (Nearest planet at top)',
+        text: 'Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune'
       },
-      {
-        label: 'Choose the best Answer ',
-        id: '500',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText:
-                'The distance between the earth and the sun is ___________.',
-              options: '150 million kilometre, 50km, 1500km'
-            },
-            {
-              qText: '_____________ is caused due to revolution of the Earth.',
-              options: 'season, day, night'
-            },
-            {
-              qText:
-                'The continent which is covered by ice is _____________.',
-              options: 'Antarctica, Australia, Asia'
-            },
-            {
-              qText: 'The biggest continent is ______________.',
-              options: 'Asia, Africa, Australia'
-            },
-            {
-              qText:
-                '_____________ is described as Red Planet. ',
-              options: 'Mars, Venus, Mercury'
-            },
-            {
-                qText:
-                  '____________ Percentage of our earth is covered by salt water ',
-                options: '97%, 71%, 81%'
-            }
-          ]
-        }
+      id: 'sort-planets'
+    },
+    {
+      label: 'Continents',
+      type: 'sorting',
+      slug: '3-planets-order',
+      data: {
+        title:
+          'Arrange the continents based on their size. (Start from largest continent)',
+        text:
+          'Asia, Africa, N.America, S.America, Antarctica, Europe, Australia'
       },
-      {
-        label: 'Solar System',
-        type: 'sorting',
-        slug: '3-planets-order',
-        data: {
-          title:
-            'Sort the planets based on its distance from sun. (Nearest planet at top)',
-          text: 'Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune'
-        },
-        id: '600'
-      },
-      {
-        label: 'Continents',
-        type: 'sorting',
-        slug: '3-planets-order',
-        data: {
-          title:
-            'Arrange the continents based on their size. (Start from largest continent)',
-          text: 'Asia, Africa, N.America, S.America, Antarctica, Europe, Australia'
-        },
-        id: '700'
-      },
-      {
-        label: 'Earth - Reading',
-        type: 'passage',
-        id: '800',
-        data: {
-          title: 'World',
-          text: `# Asia
+      id: '700'
+    },
+    {
+      label: 'Earth - Reading',
+      type: 'passage',
+      id: '800',
+      data: {
+        title: 'World',
+        text: `# Asia
 
           1. It is the largest continents.
           2. China and India has the highest population both in Asia and the World.
@@ -244,87 +242,87 @@ export default {
           1. Civilization : A society in an advanced state of social development.
           2. Island : A piece of land surrounded by water.
           3. Monument : A building that is of historical importance and preserved as public property.`
-        }
-      },
-      {
-        id: '900',
-        label: 'Continents and Countries',
-        type: 'match',
-        data: {
-          text: `Asia, India
+      }
+    },
+    {
+      id: '900',
+      label: 'Continents and Countries',
+      type: 'match',
+      data: {
+        text: `Asia, India
           Africa, Cape Town
           N.America, Mexico
           S.America, Brazil
           Europe, Vatican City
           Australia, Tasmania `,
-          title: 'Match the following'
-        }
-      },
-      {
-        id: '1000',
-        label: 'Wonders of the World',
-        type: 'match',
-        data: {
-          text: `Taj Mahal, India
+        title: 'Match the following'
+      }
+    },
+    {
+      id: '1000',
+      label: 'Wonders of the World',
+      type: 'match',
+      data: {
+        text: `Taj Mahal, India
           The Great Wall of China, China
           Petra, Jordan
           Machu Picchu, Peru
           Colosseum, Rome`,
-          title: 'Match the following'
-        }
-      },
-      {
-        label: 'True or False',
-        id: '1000',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `The Amazon rainforest covers most of the South America.
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `The Amazon rainforest covers most of the South America.
               There are only permanent research stations from different countries in Antarctica.
               Europe and Asia are parts of the same major landmass.`
-            },
-            {
-              name: 'False',
-              text: `India is the world largest coffee producer.
+          },
+          {
+            name: 'False',
+            text: `India is the world largest coffee producer.
               Caspian sea is the largest sea.
               Lake Superior is in Africa.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Choose the correct answer',
-        type: 'matchByDragDrop',
-        id: 'drag-drop ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `The Great Wall of *China* is the man made structure that can be seen from space.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'matchByDragDrop',
+      id: 'drag-drop ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `The Great Wall of *China* is the man made structure that can be seen from space.
           Seven continents of the world were joined together as a single huge landmass called *Pangaea*.
           Taj Mahal is situated in Agra on the banks of river *Yamuna*.
           More than *50%* of the world's gold and *diamonds* come from the mineral rich continent of Africa.
           The world's smallest country, the *Vatican City*, is in Europe.`
-        }
-      },
-      {
-        label: 'Name the following.',
-        type: 'matchByDragDrop',
-        id: '1800 ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Highest volcano - *Mt. Cotopaxi*
+      }
+    },
+    {
+      label: 'Name the following.',
+      type: 'matchByDragDrop',
+      id: '1800 ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Highest volcano - *Mt. Cotopaxi*
           Smallest country - *Vatican City*
           World’s biggest lake - *Caspian sea*
           White continent - *Antarctica*
@@ -333,38 +331,37 @@ export default {
           Largest fresh water lake - *Lake Superior*
           World’s longest river - *Nile*
           World’s largest dessert - *Sahara*`
-        }
-      },
-      {
-        label: 'Choose the best Answer',
-        id: '1700',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText:
-                'The continent which is covered by ice is _____________.',
-              options: 'Antarctica, Australia, Asia'
-            },
-            {
-              qText: 'The biggest continent is ______________.',
-              options: 'Asia, Africa, Australia'
-            },
-            {
-              qText: 'There are________ continents in the world.',
-              options: '7, 5, 9'
-            },
-            {
-              qText: '____________ is the longest river in the world.',
-              options: 'Nile, Kaveri, Ganga'
-            },
-            {
-                qText: 'Penguins are found in __________',
-                options: 'Antarctica, Africa, Asia'
-            }
-          ]
-        }
       }
-    ]
-  };
+    },
+    {
+      label: 'Choose the best Answer',
+      id: '1700',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'The continent which is covered by ice is _____________.',
+            options: 'Antarctica, Australia, Asia'
+          },
+          {
+            qText: 'The biggest continent is ______________.',
+            options: 'Asia, Africa, Australia'
+          },
+          {
+            qText: 'There are________ continents in the world.',
+            options: '7, 5, 9'
+          },
+          {
+            qText: '____________ is the longest river in the world.',
+            options: 'Nile, Kaveri, Ganga'
+          },
+          {
+            qText: 'Penguins are found in __________',
+            options: 'Antarctica, Africa, Asia'
+          }
+        ]
+      }
+    }
+  ]
+};

@@ -1,16 +1,16 @@
 export default {
-    id: 'air-5',
-    label: 'Air-5',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Air - Reading',
-        type: 'passage',
-        id: '100',
-        data: {
-          title: 'Air',
-          text: `# Atmosphere
+  id: 'air-5',
+  label: 'Air-5',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Air - Reading',
+      type: 'passage',
+      id: '100',
+      data: {
+        title: 'Air',
+        text: `# Atmosphere
 
           Atmosphere is the layer of gas that surrounds Earth. Atmosphere is divided into five different layers:
             1. Troposphere: It is the lowest and densest layer. It extends up to 10km from sea. 
@@ -29,89 +29,92 @@ export default {
             6. Helps in transport.
             7. Produce wind energy
             8. Help in movement of parachutes and hot air balloons.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: '200',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `Ultraviolet rays can cause damage to our skin and eyes.
+      }
+    },
+    {
+      label: 'True or False',
+      id: '200',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `Ultraviolet rays can cause damage to our skin and eyes.
               Movement of clouds is possible due to air.
               Body cells burn the food molecules with the help of oxygen and produce energy.`
-            },
-            {
-              name: 'False',
-              text: `Plants absorb nitrogen in the form of ammonia.
+          },
+          {
+            name: 'False',
+            text: `Plants absorb nitrogen in the form of ammonia.
               Exosphere is nearest to earth.
               Spacecrafts are seen in thermosphere.`
-            }
-          ]
-        }
-      },
-      {
-        id: '300',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Troposphere, weather change
+          }
+        ]
+      }
+    },
+    {
+      id: '300',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Troposphere, weather change
           Stratosphere, ozone
           Exosphere, outermost layer
           Thermosphere, satellite
           Mesosphere, meteors`,
-          title: 'Match the following'
-        }
-      },
-      {
-        label: 'Choose the best Answer - Air',
-        id: '400',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'Second highest layer of Earth’s atmosphere is ____________.',
-              options: 'thermosphere, mesosphere, stratosphere, exosphere'
-            },
-            {
-              qText:
-                'The ____________ layer protects us from the harmful UV rays coming from the sun.',
-              options: 'ozone, atmosphere, mesosphere'
-            },
-            {
-              qText: '____________ is used by plants as nitrates.',
-              options: 'nitrogen, nitrite, ammonia'
-            },
-            {
-              qText: 'Movement of air is called __________.',
-              options: 'wind, breeze, gale'
-            },
-            {
-                qText: '___________ is the recreational and competitive adventure sport of flying.',
-                options: 'paragliding, surfing, hand gliding '
-            },
-            {
-                qText: 'Process of nitrogen fixation by ________ is called nitrogen fixation.',
-                options: 'microbes, plants, earthworm'
-            },
-            {
-                qText: 'Sound travel through ______.',
-                options: 'air, land, water '
-            }
-          ]
-        }
-      },
-      {
-        label: 'Air pollution- Reading',
-        type: 'passage',
-        id: '500',
-        data: {
-          title: 'Air Pollution',
-          text: `# Air Pollution
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'Choose the best Answer - Air',
+      id: '400',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText:
+              'Second highest layer of Earth’s atmosphere is ____________.',
+            options: 'thermosphere, mesosphere, stratosphere, exosphere'
+          },
+          {
+            qText:
+              'The ____________ layer protects us from the harmful UV rays coming from the sun.',
+            options: 'ozone, atmosphere, mesosphere'
+          },
+          {
+            qText: '____________ is used by plants as nitrates.',
+            options: 'nitrogen, nitrite, ammonia'
+          },
+          {
+            qText: 'Movement of air is called __________.',
+            options: 'wind, breeze, gale'
+          },
+          {
+            qText:
+              '___________ is the recreational and competitive adventure sport of flying.',
+            options: 'paragliding, surfing, hand gliding '
+          },
+          {
+            qText:
+              'Process of nitrogen fixation by ________ is called nitrogen fixation.',
+            options: 'microbes, plants, earthworm'
+          },
+          {
+            qText: 'Sound travel through ______.',
+            options: 'air, land, water '
+          }
+        ]
+      }
+    },
+    {
+      label: 'Air pollution- Reading',
+      type: 'passage',
+      id: '500',
+      data: {
+        title: 'Air Pollution',
+        text: `# Air Pollution
 
           Presence of harmful substances in air have an  adverse effect on living beings and environment. This is called air pollution.
           
@@ -137,75 +140,76 @@ export default {
             4. Recycle and reuse
             5. Switch off appliances after using them
             6. Plant more trees`
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Air Pollution- Fill Up',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `Combustion of fossil fuels like coal and petroleum release *sulphur dioxide (carbon dioxide)*
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Air Pollution- Fill Up',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Combustion of fossil fuels like coal and petroleum release *sulphur dioxide (carbon dioxide)*
           Air pollution can be natural or *man-made (artificial)*.
           Extraction of *minerals (salts)* from the earth is called mining.
           Taj Mahal in Agra is built entirely with *white (yellow)* marbles.
           Air pollutants cause pneumonia and *asthma (cold)* in children.
           The growth of *green (red)* algae in water bodies is called eutrophication.`
-        }
-      },
-      {
-        label: 'Cause or Effect',
-        id: '700',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as cause and effect of air pollution',
-          types: [
-            {
-              name: 'Cause',
-              text: `Industries
+      }
+    },
+    {
+      label: 'Cause or Effect',
+      id: '700',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Classify the below sentences as cause and effect of air pollution',
+        types: [
+          {
+            name: 'Cause',
+            text: `Industries
               Burning of fossil fuels
               Agricultural activities like use of pesticides
               Mining 
               Use of chemical for cleaning`
-            },
-            {
-              name: 'Effect',
-              text: `Spread of diseases
+          },
+          {
+            name: 'Effect',
+            text: `Spread of diseases
               Global warming
               Acid rain
               Depletion of ozone layer
               Adverse effect on marine life
               Adverse effect on wildlife`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Natural Vs Man-made',
-        id: '600',
-        type: 'group',
-        data: {
-          title:
-            'Classify the following based on whether it is natural or man-made pollution',
-          types: [
-            {
-              name: 'Natural',
-              text: 'volcanic eruption, lightning, storm'
-            },
-            {
-              name: 'Man-made',
-              text: 'mining, industrial waste, burning coal'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Airborne Diseases - Reading',
-        type: 'passage',
-        id: '1100',
-        data: {
-          title: 'Airborne Diseases',
-          text: `# Airborne Diseases
+          }
+        ]
+      }
+    },
+    {
+      label: 'Natural Vs Man-made',
+      id: '600',
+      type: 'group',
+      data: {
+        title:
+          'Classify the following based on whether it is natural or man-made pollution',
+        types: [
+          {
+            name: 'Natural',
+            text: 'volcanic eruption, lightning, storm'
+          },
+          {
+            name: 'Man-made',
+            text: 'mining, industrial waste, burning coal'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Airborne Diseases - Reading',
+      type: 'passage',
+      id: '1100',
+      data: {
+        title: 'Airborne Diseases',
+        text: `# Airborne Diseases
 
           Diseases which are caused by microorganisms and communicated through air are called airborne diseases. Air borne disease can be further classified into two.
           
@@ -219,54 +223,53 @@ export default {
             4. Avoid touching the face or other people with unwashed hands.
             5. Wash your hands thoroughly.
             6. Timely vaccination can prevent the diseases.`
-        }
-      },
-      {
-        label: 'Find the causative organism',
-        type: 'matchByDragDrop',
-        id: '1500',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Common cold - *rhino virus*
+      }
+    },
+    {
+      label: 'Find the causative organism',
+      type: 'matchByDragDrop',
+      id: '1500',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Common cold - *rhino virus*
           Influenza - *myxo virus*
           Measles - *rubeola virus*
           Chicken pox - *varicella zoster*
           Tuberculosis - *mycobacterium*
           Diptheria - *coneybacterium*
           Whooping cough - *Bordetalla pertusis*`
-        }
-      },
-      {
-        label: 'Bacteria Vs Virus',
-        id: '1600',
-        type: 'group',
-        data: {
-          title:
-            'Classify the diseases based on causative organism.',
-          types: [
-            {
-              name: 'Bacteria',
-              text: 'diptheria, tuberculosis'
-            },
-            {
-              name: 'Virus',
-              text: 'measles, mumps, influenza'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Atmosphere - Reading',
-        type: 'passage',
-        id: '1700',
-        data: {
-          title: 'Atmosphere',
-          text: `# Important terms
+      }
+    },
+    {
+      label: 'Bacteria Vs Virus',
+      id: '1600',
+      type: 'group',
+      data: {
+        title: 'Classify the diseases based on causative organism.',
+        types: [
+          {
+            name: 'Bacteria',
+            text: 'diptheria, tuberculosis'
+          },
+          {
+            name: 'Virus',
+            text: 'measles, mumps, influenza'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Atmosphere - Reading',
+      type: 'passage',
+      id: '1700',
+      data: {
+        title: 'Atmosphere',
+        text: `# Important terms
 
           1. Lithosphere: land on Earth.
           2. Atmosphere: air on Earth.
@@ -338,168 +341,167 @@ export default {
           3. Cumulus cloud: It looks like a burst cotton and gives convectional rain fall. These clouds are associated with rainfall lightning and thunder.
           4. Nimbus cloud: It appears as dark or grey in color. It gives heavy rainfall. It is called vertical or rain clouds.
           `
-        }
-      },
-      {
-        label: 'Answer in one word -1',
-        type: 'matchByDragDrop',
-        id: '1800',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `*Lithosphere*: land on Earth.
+      }
+    },
+    {
+      label: 'Answer in one word -1',
+      type: 'matchByDragDrop',
+      id: '1800',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `*Lithosphere*: land on Earth.
           *Atmosphere*: air on Earth.
           *Hydrosphere*: water on Earth.
           *Biosphere*: life on Earth.
           *Weather*: day to day conditions of atmosphere.`
-        }
-      },
-      {
-        label: 'Answer in one word -2',
-        type: 'matchByDragDrop',
-        id: '1801',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `*Climate*: average weather for a given period of time.
+      }
+    },
+    {
+      label: 'Answer in one word -2',
+      type: 'matchByDragDrop',
+      id: '1801',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `*Climate*: average weather for a given period of time.
           *Solar radiation*: heat energy from sun.
           *Meteorology*: study of weather.
           *Latitude*: an imaginary line drawn horizontally on Earth’s surface.
           *Longitude*: semicircle extending from North pole to South pole.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: '1900',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `Condensation of the wind causes rain fall.
+      }
+    },
+    {
+      label: 'True or False',
+      id: '1900',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `Condensation of the wind causes rain fall.
               Rain water must be saved and not be wasted.
               The natural materials and living things, including sunlight are called environment.
               Air currents in the upper layers of atmosphere is known as Jet streams.`
-            },
-            {
-              name: 'False',
-              text: `Land breeze blows from sea to land during the evening.
+          },
+          {
+            name: 'False',
+            text: `Land breeze blows from sea to land during the evening.
               Sea breeze blows from land to sea in the morning.
               Monsoon winds move in the same direction throughout the year with the rotation of the Earth.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Name the instrument',
-        type: 'matchByDragDrop',
-        id: '2000',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Used to measure pressure - *Barometer*
+          }
+        ]
+      }
+    },
+    {
+      label: 'Name the instrument',
+      type: 'matchByDragDrop',
+      id: '2000',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Used to measure pressure - *Barometer*
           Used to measure direction of wind - *Wind vane*
           Used to measure speed of wind - *Anemometer*`
-        }
-      },
-      {
-        label: 'Name the following',
-        type: 'matchByDragDrop',
-        id: '2100',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Technique of collection and storage of rain water - *Rain water harvesting*
+      }
+    },
+    {
+      label: 'Name the following',
+      type: 'matchByDragDrop',
+      id: '2100',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Technique of collection and storage of rain water - *Rain water harvesting*
           Zone between Tropic of Cancer and Tropic of Capricorn - *Torrid zone*
           Receives slanting rays of sun - *Temperate zone*
           This zone do not get sun’s rays - *Frigid zone*`
-        }
-      },
-      {
-        id: '2100',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Cirrus clouds,  do not rain
+      }
+    },
+    {
+      id: 'match-clouds',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Cirrus clouds,  do not rain
           Stratus clouds,  small shower
           Cumulus clouds, burst cotton
           Nimbus clouds, vertical cloud`,
-          title: 'Match the following'
-        }
-      },
-      {
-        id: 'fillup-2',
-        label: 'Choose the correct option',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `Equator - *0 (2)* degree
+        title: 'Match the following'
+      }
+    },
+    {
+      id: 'fillup-2',
+      label: 'Choose the correct option',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Equator - *0 (2)* degree
           Tropic of Cancer - 23(1/2) degree *N (S)*
           Tropic of Capricorn - 23(1/2) degree *S (N)*
           *Arctic (Antarctic)* circle - 66(1/2) degree N
           *Antarctic (Artic)* circle - 66(1/2) degree S
           0 degree  longitude - Prime *meridian (median)*
           *Indian (India)* Standard Time - IST`
-        }
-      },
-      {
-        label: 'Choose the best Answer - Atmosphere',
-        id: '2200',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText:
-                ' The atmosphere is divided into ___________ layers.',
-              options: '5, 7, 4'
-            },
-            {
-              qText: 'The world weather day is on march ____.',
-              options: '23, 24, 25'
-            },
-            {
-              qText: 'The Indian Standard Meridian passes through the city of ___________.',
-              options: 'Allahabad, Ahmedabad, Hyderabad, Secunderbad'
-            },
-            {
-              qText:
-                'Zone located in between Tropic of cancer and Tropic of Capricorn is ________ zone.',
-              options: 'Torrid, Temperate, Subtropical'
-            },
-            {
-              qText: '_______________ is used to measure pressure in the air.',
-              options: 'Barometer, Thermometer, Anemometer, Wind vane'
-            },
-            {
-              qText:
-                'Monsoon is derived from the ____________ word.',
-              options: 'Arabian, English, Latin'
-            },
-            {
-              qText:
-                'Vertical cloud is called ___________.',
-              options: 'Nimbus clouds, Cirrus cloud,  Stratus clouds, Cumulus clouds '
-            }
-          ]
-        }
       }
-    ]
-  };
+    },
+    {
+      label: 'Choose the best Answer - Atmosphere',
+      id: '2200',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' The atmosphere is divided into ___________ layers.',
+            options: '5, 7, 4'
+          },
+          {
+            qText: 'The world weather day is on march ____.',
+            options: '23, 24, 25'
+          },
+          {
+            qText:
+              'The Indian Standard Meridian passes through the city of ___________.',
+            options: 'Allahabad, Ahmedabad, Hyderabad, Secunderbad'
+          },
+          {
+            qText:
+              'Zone located in between Tropic of cancer and Tropic of Capricorn is ________ zone.',
+            options: 'Torrid, Temperate, Subtropical'
+          },
+          {
+            qText: '_______________ is used to measure pressure in the air.',
+            options: 'Barometer, Thermometer, Anemometer, Wind vane'
+          },
+          {
+            qText: 'Monsoon is derived from the ____________ word.',
+            options: 'Arabian, English, Latin'
+          },
+          {
+            qText: 'Vertical cloud is called ___________.',
+            options:
+              'Nimbus clouds, Cirrus cloud,  Stratus clouds, Cumulus clouds '
+          }
+        ]
+      }
+    }
+  ]
+};
