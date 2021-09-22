@@ -16,15 +16,15 @@ export default {
           
           # Different types of houses
           
-          Different types of houses are built according to the climate and region. For example, house structure varies in plains, marshy areas, heavy rainfall regions, mountains, deserts, etc.  The structure of the houses varies from the region to region. So, people build houses that are suitable for the climate and natural resources. Building materials to construction differs for every type of house.  Moreover, one can see the different types of houses in cities and villages.  For example, you can see houses like mud houses, huts, bungalows, apartments, independent houses, etc. 
+          Different types of houses are built according to the climate and region. For example, house structure varies in plains, marshy areas, heavy rainfall regions, mountains, deserts, etc.  The structure of the houses varies from the region to region. So, people build houses that are suitable for the climate and natural resources. Building materials for construction differ for each type of house.  Moreover, one can see the different types of houses in cities and villages.  For example, you can see houses like mud houses, huts, bungalows, apartments, independent houses, etc. 
           
           # People and their houses
           
-          Food, water, clothing, and shelter are more important basic things for human beings. The shelter is needed for every living thing. Due to some reason, some people lack their basic needs. These people live the homeless life. They are seeking shelter in subways, roadside pathways, under bridges, open grounds, etc. It is a serious social problem, that these kinds of people leading their life with insufficient livelihood. To eradicate this problem, our government introduces many schemes and taking huge steps to fulfill the basic needs of these people. 
+          Food, water, clothing, and shelter are more important basic things for human beings. The shelter is needed for every living thing. Due to some reason, some people lack their basic needs. These people live the homeless life. They are seeking shelter in subways, roadside pathways, under bridges, open grounds, etc. It is a serious social problem, that these kinds of people leading their life with insufficient livelihood. To eradicate this problem, our government is introducing  many schemes and taking huge steps to fulfill the basic needs of these people. 
           
           # Depletion of natural resources
           
-          The world population is increasing day by day. As a result, the number of houses is increasing. Natural resources are used in large amounts to fulfill mankind’s needs. For example, extracting sand from riverbeds, cutting down trees to clear the land, digging more hills for quarrying, and using exhaustible sources of energy. Using plenty of natural resources for a long time will put our world in danger. For urbanization development, many agricultural lands, forests are destroyed and natural resources are getting wasted. Usually, to form the exhaustible sources in nature, it will lakhs of time. So, it is in our hands, to protect our environment and natural resources.
+          The world population is increasing day by day. As a result, the number of houses are increasing. Natural resources are used in large amounts to fulfill mankind’s needs. For example, extracting sand from riverbeds, cutting down trees to clear the land, digging more hills for quarrying, and using exhaustible sources of energy. Using plenty of natural resources for a long time will put our world in danger. For urbanization development, many agricultural lands, forests are destroyed and natural resources are getting wasted. Usually, to form the exhaustible sources in nature, it will lakhs of time. So, it is in our hands, to protect our environment and natural resources.
           
           # Home Sweet Home
           
@@ -64,7 +64,7 @@ export default {
           text: `Houseboats are commonly seen in *Kerala*.
           *Tents* are lightweight and it is easy to carry along with us on travel.
           *Cottages* are widely seen in hilly areas.
-          Prehistoric humans were lived in *caves*.
+          Prehistoric humans lived in *caves*.
           *Tiles* are used for covering floors, walls, etc.`
         }
       },
@@ -79,7 +79,7 @@ export default {
               name: 'True',
               text: `Tents are made up of nylon or canvas.
               House helps us to protect from the anti-social elements.
-              Ventilation is a more important factor in the house.`
+              Ventilation is more important in a house.`
             },
             {
               name: 'False',

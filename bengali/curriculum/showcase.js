@@ -45,15 +45,15 @@ export default {
     sentence,
     grammar,
     letter2,
+    word2,
+    grammar2,
     reading,
     poem,
     sukumar,
     wordsearch,
     crossword,
     social,
-    science,
-    word2,
-    grammar2
+    science
   ]
   /*
   list: [
