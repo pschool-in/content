@@ -1,16 +1,16 @@
 export default {
-    id: 'houses-5',
-    label: 'Houses-5',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Houses - Reading',
-        type: 'passage',
-        id: '100',
-        data: {
-          title: 'Home',
-          text: `# What is House?
+  id: 'houses-5',
+  label: 'Houses-5',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Houses - Reading',
+      type: 'passage',
+      id: '100',
+      data: {
+        title: 'Home',
+        text: `# What is House?
 
           It shelters us, protects us from almost all threats, gives us protection against wild animals, global warming, anti-social elements, etc., and is a relaxing place to live. In ancient times, humans lived in caves. As time passed, they slowly evolved and constructed their houses according to their comfort.
           
@@ -29,122 +29,235 @@ export default {
           # Home Sweet Home
           
           It is our responsibility to save and protect natural resources and the environment. So that future generations can use this utility well. It is necessary to construct eco–friendly houses and should increase the use of non-exhaustible sources of energy.  Recycling water, garbage, avoiding plastics, artificial materials, and colors will help in the protection of our environment.`
-        }
-      },
-      {
-        label: 'Exhaustible  Vs Non - exhaustible',
-        id: '300',
-        type: 'group',
-        data: {
-          title:
-            'Classify the below things based on the category of exhaustible sources and non - exhaustible sources.',
-          types: [
-            {
-              name: 'Exhaustible',
-              text: 'Iron, Oil, Coal, Fuel'
-            },
-            {
-              name: 'Non - exhaustible',
-              text: ' Solar energy, Wind energy, Hydro energy, Biogas'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: '600',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
+      }
+    },
+    {
+      label: 'Exhaustible  Vs Non - exhaustible',
+      id: '300',
+      type: 'group',
+      data: {
+        title:
+          'Classify the below things based on the category of exhaustible sources and non - exhaustible sources.',
+        types: [
+          {
+            name: 'Exhaustible',
+            text: 'Iron, Oil, Coal, Fuel'
           },
-          text: `Houseboats are commonly seen in *Kerala*.
+          {
+            name: 'Non - exhaustible',
+            text: ' Solar energy, Wind energy, Hydro energy, Biogas'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: '600',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Houseboats are commonly seen in *Kerala*.
           *Tents* are lightweight and it is easy to carry along with us on travel.
           *Cottages* are widely seen in hilly areas.
           Prehistoric humans lived in *caves*.
           *Tiles* are used for covering floors, walls, etc.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: '200',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `Tents are made up of nylon or canvas.
+      }
+    },
+    {
+      label: 'True or False',
+      id: '200',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `Tents are made up of nylon or canvas.
               House helps us to protect from the anti-social elements.
               Ventilation is more important in a house.`
-            },
-            {
-              name: 'False',
-              text: `Quarrying helps to protect natural sources.
+          },
+          {
+            name: 'False',
+            text: `Quarrying helps to protect natural sources.
               Fuel is a non-exhaustible source.`
-            }
-          ]
-        }
-      },
-      {
-        id: '500',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Drilling machine, Noise pollution
+          }
+        ]
+      }
+    },
+    {
+      id: '500',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Drilling machine, Noise pollution
           Bungalow, Luxury house
           Fuel, Fossil
           Forest, Woodhouse
           Cement, Limestone`,
-          title: 'Match the following'
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `*Caravan (wooden house)* is a temporary house, that helps to navigate to all places.
+        title: 'Match the following'
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the blanks',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `*Caravan (wooden house)* is a temporary house, that helps to navigate to all places.
           *Pucca house (Kutcha house)* is made up of stone, concrete, clay tiles, etc.
           Apartments are widely seen in *urban (rural)* areas.
           *Flat roofs (Hip roofs )*are commonly seen on commercial buildings.
           *Eco-friendly houses (Cottages)* requires less energy consumption.`
-        }
-      },
-      {
-        label: 'Choose the best Answer ',
-        id: '1000',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: ' ________  are  found in the polar region.',
-              options: 'Igloos, Apartments, Bamboo houses, Tents'
-            },
-            {
-              qText:
-                '____________ are made up of silica sand.',
-              options: 'Glasses, Cements, Bricks, Tiles'
-            },
-            {
-              qText: 'Stilt houses are found in ___________ ',
-              options: 'marshy region, dessert region, mountain region, plains'
-            },
-            {
-              qText: '__________ help to build the Kutcha house.',
-              options: 'Straw and wood, Bricks and cement, Sand and steel, Cement and wood'
-            },
-            {
-                qText: 'Mansion is a example of _________',
-                options: 'pucca house, kutcha house, wooden house, mudhouse'
-            }
-          ]
-        }
       }
-    ]
-  };
+    },
+    {
+      label: 'Choose the best Answer ',
+      id: '1000',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' ________  are  found in the polar region.',
+            options: 'Igloos, Apartments, Bamboo houses, Tents'
+          },
+          {
+            qText: '____________ are made up of silica sand.',
+            options: 'Glasses, Cements, Bricks, Tiles'
+          },
+          {
+            qText: 'Stilt houses are found in ___________ ',
+            options: 'marshy region, dessert region, mountain region, plains'
+          },
+          {
+            qText: '__________ help to build the Kutcha house.',
+            options:
+              'Straw and wood, Bricks and cement, Sand and steel, Cement and wood'
+          },
+          {
+            qText: 'Mansion is a example of _________',
+            options: 'pucca house, kutcha house, wooden house, mudhouse'
+          }
+        ]
+      }
+    },
+    {
+      id: 'wordsearch',
+      label: 'WordSearch - Types of Houses',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['I', 'G', 'L', 'O', 'O'],
+            marker: [0, 0, 4, 4]
+          },
+          {
+            word: ['K', 'U', 'T', 'C', 'H', 'A'],
+            marker: [7, 0, 7, 5]
+          },
+          {
+            word: ['P', 'U', 'C', 'C', 'A'],
+            marker: [3, 5, 7, 5]
+          },
+          {
+            word: ['S', 'T', 'I', 'L', 'T'],
+            marker: [3, 2, 7, 2]
+          },
+          {
+            word: ['M', 'U', 'D'],
+            marker: [5, 4, 3, 6]
+          },
+          {
+            word: ['W', 'O', 'O', 'D', 'E', 'N'],
+            marker: [0, 6, 5, 6]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['I', 'F', 'Y', 'X', 'F', 'D', 'O', 'K'],
+          ['Q', 'G', 'A', 'R', 'H', 'S', 'O', 'U'],
+          ['M', 'X', 'L', 'S', 'T', 'I', 'L', 'T'],
+          ['R', 'W', 'K', 'O', 'K', 'S', 'J', 'C'],
+          ['C', 'O', 'S', 'M', 'O', 'M', 'X', 'H'],
+          ['B', 'U', 'V', 'P', 'U', 'C', 'C', 'A'],
+          ['W', 'O', 'O', 'D', 'E', 'N', 'O', 'T'],
+          ['L', 'Y', 'E', 'W', 'F', 'E', 'W', 'N']
+        ],
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Crossword - Types of Houses',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'Tent',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'The house easy to carry along with us',
+            direction: 'across'
+          },
+          {
+            word: 'Cottages',
+            marker: {
+              x: 7,
+              y: 0
+            },
+            hint: 'House found in hilly areas',
+            direction: 'down'
+          },
+          {
+            word: 'Caravan',
+            marker: {
+              x: 0,
+              y: 4
+            },
+            hint:
+              'It is temporary house, that helps to navigate to all places.',
+            direction: 'across'
+          },
+          {
+            word: 'Kutcha',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'House made up of Straw and wood.',
+            direction: 'down'
+          },
+          {
+            word: 'pucca',
+            marker: {
+              x: 5,
+              y: 0
+            },
+            hint: 'Concreate house',
+            direction: 'down'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['T', 'E', 'N', 'T', '', 'P', '', 'C'],
+          ['K', '', '', '', '', 'U', '', 'O'],
+          ['U', '', '', '', '', 'C', '', 'T'],
+          ['T', '', '', '', '', 'C', '', 'T'],
+          ['C', 'A', 'R', 'A', 'V', 'A', 'N', 'A'],
+          ['H', '', '', '', '', '', '', 'G'],
+          ['A', '', '', '', '', '', '', 'E'],
+          ['', '', '', '', '', '', '', 'S']
+        ]
+      }
+    }
+  ]
+};

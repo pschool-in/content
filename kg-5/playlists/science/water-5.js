@@ -180,12 +180,12 @@ Allow mosquitoes to live in our surroundings.`
       }
     },
     {
-        label: 'Water- Reading',
-        type: 'passage',
-        id: '700',
-        data: {
-          title: 'Water ',
-          text: `# Pollution of water
+      label: 'Water- Reading',
+      type: 'passage',
+      id: '700',
+      data: {
+        title: 'Water ',
+        text: `# Pollution of water
           Water is polluted when other substances get mixed in it. Some float on its surface while some dissolve in it. This makes the water unfit and unhealthy for drinking.
           # Disposal of waste water
           Waste water is impure water and thus is polluted. Sewage water carries microbes that spread diseases. Waste water from industries can also be poisonous. If we mix this waste water into our water sources like oceans, rivers, and seas, then it will be a big problem for us.
@@ -201,62 +201,176 @@ Allow mosquitoes to live in our surroundings.`
           1. Air and water are mixed with the help of pumps. This leads to the dissolution of oxygen in the water. The process is called oxygenation.
           
           2. In chlorination, chlorine is mixed in water to kill the germs present in it.`
-        }
-      },
-      {
-        label: 'Fiil by drag',
-        type: 'matchByDragDrop',
-        id: '800',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `*Mineral* water is available in sealed bottles.
+      }
+    },
+    {
+      label: 'Fiil by drag',
+      type: 'matchByDragDrop',
+      id: '800',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `*Mineral* water is available in sealed bottles.
           *Sewage* water is polluted water.
           *Waste water* should be treated before merging with rivers.
           *Oxygenation* means mixing oxygen and water through pumps.
           *Famine* is when there's no water left.
           *Flood* is the excess flow of water.`
-        }
-      },
-      {
-        id: '900',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Mineral water, General store
+      }
+    },
+    {
+      id: '900',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Mineral water, General store
           Sewage, Waste water
           Famine, Scarcity
           Flood, Excess water
           Pollution, Impure water`,
-          title: 'Match the babies'
-        }
-      },
-      {
-        label: 'True or False',
-        id: '1000',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `We must not waste water at any cost.
+        title: 'Match the babies'
+      }
+    },
+    {
+      label: 'True or False',
+      id: '1000',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `We must not waste water at any cost.
               Droughts lead to scarcity of water.
               Famine is a natural disaster.
               We cannot consume polluted water.`
-            },
-            {
-              name: 'False',
-              text: `Waste water is directly disposed into rivers and seas.
+          },
+          {
+            name: 'False',
+            text: `Waste water is directly disposed into rivers and seas.
               Water pollution refers to the purification of water.
               We should ignore the manufcture and expiry date in mineral water bottles.`
-            }
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
+    {
+      id: 'wordsearch',
+      type: 'wordsearch',
+      label: 'WordSearch',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['P', 'O', 'L', 'L', 'U', 'T', 'I', 'O', 'N'],
+            marker: [9, 0, 1, 8]
+          },
+          {
+            word: ['F', 'A', 'M', 'I', 'N', 'E'],
+            marker: [0, 6, 5, 6]
+          },
+          {
+            word: ['S', 'E', 'W', 'A', 'G', 'E'],
+            marker: [0, 0, 5, 5]
+          },
+          {
+            word: ['D', 'R', 'O', 'U', 'G', 'H', 'T'],
+            marker: [9, 3, 9, 9]
+          },
+          {
+            word: ['R', 'A', 'I', 'N'],
+            marker: [7, 6, 7, 9]
+          },
+          {
+            word: ['B', 'O', 'T', 'T', 'L', 'E'],
+            marker: [2, 0, 7, 0]
+          }
+        ],
+        table: [
+          ['S', 'Y', 'B', 'O', 'T', 'T', 'L', 'E', 'Y', 'P'],
+          ['X', 'E', 'J', 'U', 'S', 'V', 'N', 'T', 'O', 'F'],
+          ['A', 'D', 'W', 'Y', 'C', 'K', 'A', 'L', 'G', 'I'],
+          ['C', 'S', 'A', 'A', 'Y', 'H', 'L', 'E', 'J', 'D'],
+          ['F', 'V', 'E', 'P', 'G', 'U', 'K', 'F', 'S', 'R'],
+          ['S', 'Y', 'R', 'F', 'T', 'E', 'L', 'H', 'D', 'O'],
+          ['F', 'A', 'M', 'I', 'N', 'E', 'Z', 'R', 'K', 'U'],
+          ['T', 'Y', 'O', 'W', 'R', 'Y', 'V', 'A', 'P', 'G'],
+          ['I', 'N', 'W', 'A', 'M', 'Z', 'Z', 'I', 'X', 'H'],
+          ['M', 'Z', 'G', 'P', 'M', 'A', 'O', 'N', 'D', 'T']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword',
+      type: 'crossword',
+      label: 'Crossword',
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'pollution',
+            marker: {
+              x: 0,
+              y: 7
+            },
+            hint: 'when water is contaminated by other substances.',
+            direction: 'across'
+          },
+          {
+            word: 'drought',
+            marker: {
+              x: 0,
+              y: 2
+            },
+            hint: "when there's a scarcity of water.",
+            direction: 'across'
+          },
+          {
+            word: 'flood',
+            marker: {
+              x: 2,
+              y: 0
+            },
+            hint: "when excess water from rivers comes to people's property.",
+            direction: 'down'
+          },
+          {
+            word: 'famine',
+            marker: {
+              x: 2,
+              y: 0
+            },
+            hint: "when there's no water available for anything.",
+            direction: 'across'
+          },
+          {
+            word: 'sewage',
+            marker: {
+              x: 8,
+              y: 1
+            },
+            hint: 'carries waste water.',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['', '', 'F', 'A', 'M', 'I', 'N', 'E', ''],
+          ['', '', 'L', '', '', '', '', '', 'S'],
+          ['D', 'R', 'O', 'U', 'G', 'H', 'T', '', 'E'],
+          ['', '', 'O', '', '', '', '', '', 'W'],
+          ['', '', 'D', '', '', '', '', '', 'A'],
+          ['', '', '', '', '', '', '', '', 'G'],
+          ['', '', '', '', '', '', '', '', 'E'],
+          ['P', 'O', 'L', 'L', 'U', 'T', 'I', 'O', 'N']
+        ],
+        lang: 'en'
+      }
+    }
   ]
 };

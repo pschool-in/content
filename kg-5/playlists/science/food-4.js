@@ -352,7 +352,7 @@ We can cook rice on a tawa.`
     {
       label: 'Value of Food - Reading',
       type: 'passage',
-      id: '100',
+      id: 'value-of-food',
       data: {
         title: 'Value of Food',
         text: `# How do we get grains?
@@ -373,7 +373,7 @@ We can cook rice on a tawa.`
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'fillup',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',

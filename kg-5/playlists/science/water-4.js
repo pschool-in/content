@@ -158,23 +158,17 @@ Condensation, Clouds`,
       data: {
         title: 'Water Cycle',
         text: `# Importance of Water Cycle
-
-          1. Increases the availability of ground water.
-          2. Control earth‛s temperature.
-          3. Provides water to plants, animals and humans.
-          4. Recycles earth‛s supply of water constantly.
-          
-          # Did you know?
-          
-          1. The chemical formula for water is H2O, which means two atoms of Hydrogen and one atom of Oxygen forms one molecule of water.
-          
-          2. Rainwater harvesting is the only way to save rainwater. It was first made compulsory in Tamil Nadu in India.
-          
-          # Importance of rainwater harvesting
-          
-          1. Increases the level of ground water.
-          2. Can be used for agriculture.
-          3. Increases availability of water.`
+1. Increases the availability of ground water.
+2. Control earth‛s temperature.
+3. Provides water to plants, animals and humans.
+4. Recycles earth‛s supply of water constantly.      
+# Did you know?      
+1. The chemical formula for water is H2O, which means two atoms of Hydrogen and one atom of Oxygen forms one molecule of water.        
+2. Rainwater harvesting is the only way to save rainwater. It was first made compulsory in Tamil Nadu in India.
+# Importance of rainwater harvesting  
+1. Increases the level of ground water.
+2. Can be used for agriculture.
+3. Increases availability of water.`
       }
     },
     {
@@ -184,38 +178,22 @@ Condensation, Clouds`,
       data: {
         title: 'Water Storage',
         text: `# Old water stores
-
-          The following ways were used by previous generations and are rarely in use these days.
-          
-          # Wells:
-          
-          We know that rainwater seeps into the ground. So, wells were used to get this water.
-          
-          # Water tanks in forts:
-          
-          The forts had reservoirs and tanks made of stone. It was used to store and conserve water.
-          
-          # Draw-wells:
-          
-          These were small wells through which water was taken out using a bucket tied to a rope, further attached to a pulley or rotating rod.
-          
-          # Rivers and Bunds:
-          
-          Bunds were built across the rivers to save water.
-          
-          # Old reservoirs and tanks:
-          
-          These were built in areas that had scarcity of water or had no major rivers. Some large cities still have the old tanks and some of them are still in use.
-          
-          # Recent systems of water storage
-          
-          1. Dams: This is the most important way of storing water as it is able to store water in large amounts and can even generate energy from it.
-          
-          2. Borewells: These wells are very deep and narrow. So, the groundwater is extracted with the help of electric pumps and motors.
-          
-          # Do you know?
-          
-          In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Stands.`
+The following ways were used by previous generations and are rarely in use these days.         
+# Wells:         
+We know that rainwater seeps into the ground. So, wells were used to get this water.         
+# Water tanks in forts:        
+The forts had reservoirs and tanks made of stone. It was used to store and conserve water.        
+# Draw-wells:        
+These were small wells through which water was taken out using a bucket tied to a rope, further attached to a pulley or rotating rod.        
+# Rivers and Bunds:        
+Bunds were built across the rivers to save water.        
+# Old reservoirs and tanks:        
+These were built in areas that had scarcity of water or had no major rivers. Some large cities still have the old tanks and some of them are still in use.        
+# Recent systems of water storage        
+1. Dams: This is the most important way of storing water as it is able to store water in large amounts and can even generate energy from it.        
+2. Borewells: These wells are very deep and narrow. So, the groundwater is extracted with the help of electric pumps and motors.        
+# Do you know?
+In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Stands.`
       }
     },
     {
@@ -461,6 +439,250 @@ Condensation, Clouds`,
             name: 'Float',
             text: 'Leaves, Thin stick, Pencil, Flower, Paper'
           }
+        ]
+      }
+    },
+    {
+      id: 'wordsearch',
+      label: 'WordSearch',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['B', 'O', 'R', 'E', 'W', 'E', 'L', 'L', 'S'],
+            marker: [7, 0, 7, 8]
+          },
+          {
+            word: ['P', 'A', 'N', 'P', 'O', 'I'],
+            marker: [3, 1, 8, 1]
+          },
+          {
+            word: ['D', 'A', 'M', 'S'],
+            marker: [4, 8, 7, 8]
+          },
+          {
+            word: ['W', 'E', 'L', 'L', 'S'],
+            marker: [0, 3, 4, 7]
+          },
+          {
+            word: ['D', 'R', 'A', 'W', 'W', 'E', 'L', 'L', 'S'],
+            marker: [0, 0, 0, 8]
+          },
+          {
+            word: ['B', 'U', 'N', 'D', 'S'],
+            marker: [4, 3, 4, 7]
+          },
+          {
+            word: ['F', 'O', 'R', 'T', 'S'],
+            marker: [2, 0, 2, 4]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['D', 'A', 'F', 'U', 'K', 'L', 'V', 'B', 'D'],
+          ['R', 'A', 'O', 'P', 'A', 'N', 'P', 'O', 'I'],
+          ['A', 'B', 'R', 'H', 'H', 'S', 'K', 'R', 'B'],
+          ['W', 'H', 'T', 'H', 'B', 'L', 'C', 'E', 'F'],
+          ['W', 'E', 'S', 'H', 'U', 'O', 'A', 'W', 'O'],
+          ['E', 'T', 'L', 'B', 'N', 'J', 'H', 'E', 'B'],
+          ['L', 'T', 'D', 'L', 'D', 'E', 'D', 'L', 'M'],
+          ['L', 'Q', 'R', 'H', 'S', 'M', 'G', 'L', 'A'],
+          ['S', 'V', 'O', 'M', 'D', 'A', 'M', 'S', 'G']
+        ],
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword',
+      label: 'Crossword',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'borewell',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'extracts ground water through motors.',
+            direction: 'down'
+          },
+          {
+            word: 'bunds',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'made on the banks of river to save water.',
+            direction: 'across'
+          },
+          {
+            word: 'pipes',
+            marker: {
+              x: 3,
+              y: 2
+            },
+            hint: 'responsible for water availability across the city.',
+            direction: 'across'
+          },
+          {
+            word: 'panpoi',
+            marker: {
+              x: 3,
+              y: 2
+            },
+            hint: 'free drinking water on roadsides.',
+            direction: 'down'
+          },
+          {
+            word: 'dams',
+            marker: {
+              x: 7,
+              y: 4
+            },
+            hint: 'stores water as well as generates energy.',
+            direction: 'down'
+          },
+          {
+            word: 'tanks',
+            marker: {
+              x: 2,
+              y: 3
+            },
+            hint: 'most common storage in big buildings.',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['B', 'U', 'N', 'D', 'S', '', '', ''],
+          ['O', '', '', '', '', '', '', ''],
+          ['R', '', '', 'P', 'I', 'P', 'E', 'S'],
+          ['E', '', 'T', 'A', 'N', 'K', 'S', ''],
+          ['W', '', '', 'N', '', '', '', 'D'],
+          ['E', '', '', 'P', '', '', '', 'A'],
+          ['L', '', '', 'O', '', '', '', 'M'],
+          ['L', '', '', 'I', '', '', '', 'S']
+        ]
+      }
+    },
+    {
+      id: 'wordsearch-2',
+      label: 'WordSearch - 2',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['F', 'I', 'L', 'T', 'R', 'A', 'T', 'I', 'O', 'N'],
+            marker: [0, 0, 9, 9]
+          },
+          {
+            word: ['A', 'L', 'U', 'M'],
+            marker: [5, 5, 5, 8]
+          },
+          {
+            word: ['S', 'E', 'T', 'T', 'L', 'I', 'N', 'G'],
+            marker: [1, 3, 8, 3]
+          },
+          {
+            word: ['M', 'I', 'C', 'R', 'O', 'B', 'E', 'S'],
+            marker: [1, 4, 8, 4]
+          },
+          {
+            word: ['B', 'O', 'I', 'L', 'I', 'N', 'G'],
+            marker: [0, 9, 6, 9]
+          },
+          {
+            word: ['S', 'A', 'L', 'I', 'N', 'E'],
+            marker: [9, 0, 9, 5]
+          },
+          {
+            word: ['S', 'O', 'L', 'U', 'T', 'I', 'O', 'N'],
+            marker: [2, 7, 9, 7]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['F', 'G', 'X', 'S', 'O', 'F', 'M', 'E', 'C', 'S'],
+          ['X', 'I', 'F', 'T', 'B', 'U', 'N', 'U', 'E', 'A'],
+          ['J', 'T', 'L', 'O', 'V', 'Y', 'Y', 'T', 'Z', 'L'],
+          ['S', 'S', 'E', 'T', 'T', 'L', 'I', 'N', 'G', 'I'],
+          ['B', 'M', 'I', 'C', 'R', 'O', 'B', 'E', 'S', 'N'],
+          ['X', 'C', 'D', 'Y', 'R', 'A', 'Q', 'E', 'T', 'E'],
+          ['V', 'J', 'G', 'A', 'O', 'L', 'T', 'V', 'G', 'R'],
+          ['G', 'E', 'S', 'O', 'L', 'U', 'T', 'I', 'O', 'N'],
+          ['O', 'D', 'V', 'G', 'G', 'M', 'S', 'M', 'O', 'F'],
+          ['B', 'O', 'I', 'L', 'I', 'N', 'G', 'Z', 'T', 'N']
+        ],
+        showWords: true
+      }
+    },
+    {
+      id: 'crossword-2',
+      label: 'Crossword - 2',
+      type: 'crossword',
+      data: {
+        words: [
+          {
+            word: 'microscope',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'used to see micro-organisms.',
+            direction: 'across'
+          },
+          {
+            word: 'salt',
+            marker: {
+              x: 5,
+              y: 0
+            },
+            hint: 'dissolved in seawater.',
+            direction: 'down'
+          },
+          {
+            word: 'filtration',
+            marker: {
+              x: 0,
+              y: 6
+            },
+            hint: 'process of separating particles from water.',
+            direction: 'across'
+          },
+          {
+            word: 'boiling',
+            marker: {
+              x: 9,
+              y: 1
+            },
+            hint: 'kills micro-organisms present in water.',
+            direction: 'down'
+          },
+          {
+            word: 'alum',
+            marker: {
+              x: 1,
+              y: 4
+            },
+            hint: 'helps particles to settle down in water quickly.',
+            direction: 'across'
+          }
+        ],
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        lang: 'en',
+        table: [
+          ['M', 'I', 'C', 'R', 'O', 'S', 'C', 'O', 'P', 'E'],
+          ['', '', '', '', '', 'A', '', '', '', 'B'],
+          ['', '', '', '', '', 'L', '', '', '', 'O'],
+          ['', '', '', '', '', 'T', '', '', '', 'I'],
+          ['', 'A', 'L', 'U', 'M', '', '', '', '', 'L'],
+          ['', '', '', '', '', '', '', '', '', 'I'],
+          ['F', 'I', 'L', 'T', 'R', 'A', 'T', 'I', 'O', 'N'],
+          ['', '', '', '', '', '', '', '', '', 'G']
         ]
       }
     }

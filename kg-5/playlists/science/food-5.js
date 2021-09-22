@@ -255,7 +255,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     {
       label: 'Food for all - Reading',
       type: 'passage',
-      id: '100',
+      id: 'food-for-all',
       data: {
         title: 'Food for all',
         text: `# Agriculture
@@ -280,7 +280,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'fillup',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -332,7 +332,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -384,7 +384,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     {
       label: 'Food preservation - Reading',
       type: 'passage',
-      id: '400',
+      id: 'preservation-passage',
       data: {
         title: 'Preserving Food',
         text: `# Food Preservation
@@ -412,7 +412,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     },
     {
       label: 'True or False',
-      id: '700',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -470,7 +470,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     {
       label: 'Food Spoilage- Reading',
       type: 'passage',
-      id: '1100',
+      id: 'food-spoilage',
       data: {
         title: 'Food Spoilage',
         text: `Perishable foods get spoiled easily. The change in the normal state of food is called spoilage of food.
