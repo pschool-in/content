@@ -152,12 +152,12 @@ Condensation, Clouds`,
       }
     },
     {
-        label: 'Water - Reading',
-        type: 'passage',
-        id: '800',
-        data: {
-          title: 'Water Cycle',
-          text: `# Importance of Water Cycle
+      label: 'Water - Reading',
+      type: 'passage',
+      id: '800',
+      data: {
+        title: 'Water Cycle',
+        text: `# Importance of Water Cycle
 
           1. Increases the availability of ground water.
           2. Control earth‛s temperature.
@@ -175,15 +175,15 @@ Condensation, Clouds`,
           1. Increases the level of ground water.
           2. Can be used for agriculture.
           3. Increases availability of water.`
-        }
-      },
-      {
-        label: 'Water Storage - Reading',
-        type: 'passage',
-        id: '900',
-        data: {
-          title: 'Water Storage',
-          text: `# Old water stores
+      }
+    },
+    {
+      label: 'Water Storage - Reading',
+      type: 'passage',
+      id: '900',
+      data: {
+        title: 'Water Storage',
+        text: `# Old water stores
 
           The following ways were used by previous generations and are rarely in use these days.
           
@@ -216,74 +216,73 @@ Condensation, Clouds`,
           # Do you know?
           
           In some areas, big water jars, made of clay, are kept for road-side thirsty people. No charges are taken for drinking this water. These are known as Panpoi or Drinking Water Stands.`
-        }
+      }
+    },
+    {
+      label: 'Old ways Vs New ways',
+      id: '1000',
+      type: 'group',
+      data: {
+        title: 'Drag and drop the water storage techniques accordingly. ',
+        types: [
+          {
+            name: 'Old ways',
+            text: 'Forts, Draw-wells, Bunds, Reservoirs'
+          },
+          {
+            name: 'New ways',
+            text: 'Dams, Borewells, Water tower'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the best Answer',
+      id: '1100',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' Old water stores were made of __________.',
+            options: 'stones, marbles, metals'
+          },
+          {
+            qText: 'Which is the most important technique for water storage?',
+            options: 'Dams, Reservoirs, Forts'
+          },
+          {
+            qText: 'Which of these does not require machine work?',
+            options: 'Draw-wells, Borewells, Dams'
+          },
+          {
+            qText: 'Free drinking water on road-sides is called__________.',
+            options: 'panpoi, bund, filter water'
+          },
+          {
+            qText: '___________ were built in areas with no major river.',
+            options: 'Reservoirs, Dams, Borewells'
+          }
+        ]
+      }
+    },
+    {
+      id: '1200',
+      type: 'sequence',
+      label: 'Words related to water storage',
+      commonData: {
+        title:
+          'Identify these techniques of water storage.Connect the letter to create word'
       },
-      {
-        label: 'Old ways Vs New ways',
-        id: '1000',
-        type: 'group',
-        data: {
-          title:
-            'Drag and drop the water storage techniques accordingly. ',
-          types: [
-            {
-              name: 'Old ways',
-              text: 'Forts, Draw-wells, Bunds, Reservoirs'
-            },
-            {
-              name: 'New ways',
-              text: 'Dams, Borewells, Water tower'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Choose the best Answer',
-        id: '1100',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: ' Old water stores were made of __________.',
-              options: 'stones, marbles, metals'
-            },
-            {
-              qText:
-                'Which is the most important technique for water storage?',
-              options: 'Dams, Reservoirs, Forts'
-            },
-            {
-              qText: 'Which of these does not require machine work?',
-              options: 'Draw-wells, Borewells, Dams'
-            },
-            {
-              qText: 'Free drinking water on road-sides is called__________.',
-              options: 'panpoi, bund, filter water'
-            },
-            {
-                qText: '___________ were built in areas with no major river.',
-                options: 'Reservoirs, Dams, Borewells'
-            }
-          ]
-        }
-      },
-      {
-        id: '1200',
-        type: 'sequence',
-        label: 'Words related to water storage',
-        commonData: {
-          title: 'Identify these techniques of water storage.Connect the letter to create word'
-        },
-        data: [`Dam, Tank, Fort, Bund, Well, Tower`]
-      },
-      {
-        label: 'Drinking Water- Reading',
-        type: 'passage',
-        id: '1300',
-        data: {
-          title: 'Water safe for drinking',
-          text: `Some substances dissolve in water (salt, sugar, detergent etc.) while some substances don't (turmeric powder, oil etc.). 
+      data: [`Dam, Tank, Fort, Bund, Well, Tower`]
+    },
+    {
+      label: 'Drinking Water- Reading',
+      type: 'passage',
+      id: '1300',
+      data: {
+        title: 'Water safe for drinking',
+        text: `Some substances dissolve in water (salt, sugar, detergent etc.) while some substances don't (turmeric powder, oil etc.). 
 
           The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
           
@@ -304,80 +303,80 @@ Condensation, Clouds`,
           3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
           4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
           5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: '1400',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `A sediment is formed at the bottom if muddy water is kept still for sometime.
+      }
+    },
+    {
+      label: 'True or False',
+      id: '1400',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `A sediment is formed at the bottom if muddy water is kept still for sometime.
               Tea leaves can be separated from tea by filtration.`
-            },
-            {
-              name: 'False',
-              text: `Alum powder doesn't dissolve in water.
+          },
+          {
+            name: 'False',
+            text: `Alum powder doesn't dissolve in water.
               Micro-organisms can't live in water.
               An eraser floats in water.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Salt and sugar *dissolve* in water.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Salt and sugar *dissolve* in water.
           Mixture obtained after dissolving a substance in water is called *solution*.
           Some micro-organisms can cause *diseases* if they enter our body.
           Things that float in water are *lighter*.
           Things that sink in water are *heavier*.
           *Alum* is swirled in muddy water to clean it.`
-        }
-      },
-      {
-        label: 'Dissolve or Do not dissolve',
-        id: '1500',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify which ones dissolve in water and which ones do not',
-          types: [
-            {
-              name: 'Dissolve',
-              text: `Salt
+      }
+    },
+    {
+      label: 'Dissolve or Do not dissolve',
+      id: '1500',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify which ones dissolve in water and which ones do not',
+        types: [
+          {
+            name: 'Dissolve',
+            text: `Salt
               Sugar
               Washing soda
               Honey
               Alum`
-            },
-            {
-              name: 'Do not dissolve',
-              text: `Sand
+          },
+          {
+            name: 'Do not dissolve',
+            text: `Sand
               Sawdust
               Oil
               Turmeric powder`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Clean Water - Reading',
-        type: 'passage',
-        id: '1600',
-        data: {
-          title: 'Clean Water',
-          text: `Earlier, earthen pots and copper pots were used to store water at homes. But these days we generally use plastic or steel bottles and containers for the same.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Clean Water - Reading',
+      type: 'passage',
+      id: '1600',
+      data: {
+        title: 'Clean Water',
+        text: `Earlier, earthen pots and copper pots were used to store water at homes. But these days we generally use plastic or steel bottles and containers for the same.
 
           # How to keep water clean:
           
@@ -392,79 +391,78 @@ Condensation, Clouds`,
           # New Word!
           
           1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
-        }
-      },
-      {
-        label: 'Right or Wrong',
-        id: '1700',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as right and wrong',
-          types: [
-            {
-              name: 'Right',
-              text: `Reshma carries drinking water with her when she goes for a picnic.
+      }
+    },
+    {
+      label: 'Right or Wrong',
+      id: '1700',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as right and wrong',
+        types: [
+          {
+            name: 'Right',
+            text: `Reshma carries drinking water with her when she goes for a picnic.
               Nisha saves the water left in the mug for washing her face later.`
-            },
-            {
-              name: 'Wrong',
-              text: `Sameer drank water from the pot and left the lid beside it.
+          },
+          {
+            name: 'Wrong',
+            text: `Sameer drank water from the pot and left the lid beside it.
               Sai empties her pot everyday to fill fresh water in it.`
-            }
-          ]
-        }
-      },
-      {
-        id: '1800',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Pure water, Water tower
+          }
+        ]
+      }
+    },
+    {
+      id: '1800',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Pure water, Water tower
           Copper pots, Old way
           Water supply, Pipelines
           Groundwater, Wells
           Potable water, Drinkable`,
-          title: 'Match the following'
-        }
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'How water reaches us?',
+      type: 'sorting',
+      slug: '3-planets-order',
+      data: {
+        title: 'Arrange these steps in the order of occurrence.',
+        text:
+          'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
       },
-      {
-        label: 'How water reaches us?',
-        type: 'sorting',
-        slug: '3-planets-order',
-        data: {
-          title:
-            'Arrange these steps in the order of occurrence.',
-          text: 'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
-        },
-        id: '1900'
+      id: '1900'
+    },
+    {
+      id: '2000',
+      type: 'sequence',
+      label: 'Water Reservoir',
+      commonData: {
+        title: 'Match the jumbled letters to make reveal the word.'
       },
-      {
-        id: '2000',
-        type: 'sequence',
-        label: 'Water Reservoir',
-        commonData: {
-          title: 'Match the jumbled letters to make reveal the word.'
-        },
-        data: [`Bunds, Forts, Pots, Dams, Borewell, River, Water`]
-      },
-      {
-        label: 'Sink Vs Float',
-        id: '2100',
-        type: 'group',
-        data: {
-          title:
-            'dentify what will sink and float in water.',
-          types: [
-            {
-              name: 'Sink',
-              text: 'Sand, Turmeric powder, Mud, Eraser, Stone'
-            },
-            {
-              name: 'Float',
-              text: 'Leaves, Thin stick, Pencil, Flower, Paper'
-            }
-          ]
-        }
-      },
+      data: [`Bunds, Forts, Pots, Dams, Borewell, River, Water`]
+    },
+    {
+      label: 'Sink Vs Float',
+      id: '2100',
+      type: 'group',
+      data: {
+        title: 'dentify what will sink and float in water.',
+        types: [
+          {
+            name: 'Sink',
+            text: 'Sand, Turmeric powder, Mud, Eraser, Stone'
+          },
+          {
+            name: 'Float',
+            text: 'Leaves, Thin stick, Pencil, Flower, Paper'
+          }
+        ]
+      }
+    }
   ]
 };
