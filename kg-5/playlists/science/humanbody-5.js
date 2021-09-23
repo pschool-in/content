@@ -14,7 +14,7 @@ export default {
 
           1. A group of organs that together carry out some function of the body is called a system.
           2. The nose, trachea, lungs and diaphragm are organs of the respiratory system.
-          3. The mouth, oesophagus, stomach, small intestine, large intestine, rectum and anus and certain glands outside the alimentary canal are the organs of the digestive system.
+          3. The mouth, oesophagus, stomach, small intestine, large intestine, rectum, anus and certain glands outside the alimentary canal are the organs of the digestive system.
           4. Other systems like the circulatory system, the skeletal system, the excretory system also take care of other important functions of our body.
           5. The nervous system co-ordinates all the functions of the body.
           6. For us to lead a healthy life, all our systems must function smoothly.`
@@ -253,8 +253,7 @@ export default {
           
           # Respiratory system
           
-          The respiratory system provides oxygen to the tissues of the body and
-          removes carbon dioxide from the tissues. There are three major parts forming the respiratory system.
+          The respiratory system provides oxygen to the tissues of the body and removes carbon dioxide from the tissues. There are three major parts forming the respiratory system.
           
           1. Airway 
           2. Lungs 
@@ -269,8 +268,7 @@ export default {
           
           # Excretory system
           
-          Excretory system removes the waste products from the body. It also
-          regulates water and electrolyte balance. Kidneys, lungs, liver and skin together function as excretory organs. Excretory system consists of the following.
+          Excretory system removes the waste products from the body. It also regulates water and electrolyte balance. Kidneys, lungs, liver and skin together function as excretory organs. Excretory system consists of the following.
           1. Kidneys 
           2. Ureters 
           3. Urinary bladder
@@ -312,7 +310,7 @@ export default {
         data: {
           title: 'Click the blanks and fill it with the right word.',
           text: `The volume of blood in human adults is *4-5 (6-7)*litres.
-          *Spinal cord (vertebra)* is along a tube like structure which extends from the brain.
+          *Spinal cord (Vertebra)* is along a tube like structure which extends from the brain.
           The brain loses the ability to function when it does not get oxygen for more than *4 (5)* minutes.
           Enough sleep and healthy food increases the efficiency of our *brain (kidney)*.`
         }
