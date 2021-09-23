@@ -15,7 +15,7 @@ export default {
           1. The numerous important functions that go on inside our body are carried out by different organs. These organs are inside our body and cannot be seen from the outside. They are called internal organs.
           2. The body is structured in such a way that the internal organs remain safe within the cavities inside the head and the torso.
           3. The oesophagus carries the swallowed food from the throat to the stomach.It is situated in the thoracic cavity.
-          4. The heart keeps the blood flowing through the blood vessels spread throughout the body.
+          4. The heart keeps the blood flowing through the blood vessels which are spread throughout the body.
           5. The heart is continuously contracting and relaxing.
           6. The contractions of the heart push the blood from the heart into the blood vessels.
           7. The lungs are the organs through which the air we breathe in is supplied to the whole body. 
