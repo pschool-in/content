@@ -134,6 +134,23 @@ export default {
   বৃদ্ধ, বৃদ্ধা `
       ]
     },
+          {
+          // class v and above - reference bhashapath - v
+          type: 'group',
+          label: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ ',
+          id: 'classify-letter-type',
+          commonData: {
+            title: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ গুলি সঠিক বক্সে রাখুন ',
+            fontSize: '2rem',
+            printTitle:
+              'Rewrite the words given at the bottom at approprate boxes.',
+            types: ['উভয়লিঙ্গ', 'ক্লীবলিঙ্গ']
+          },
+          data: [
+            [`মানুষ, শিশু, সন্তান`, `ঘর , বাড়ি , টেবিল , চেয়ার`],
+            [`লোকজন , জনগণ`, `কালি , কলম , জামা, মাটি , বই , ফুল`],
+          ]
+        },
 
     {
       //subjectverb - class-5 content ref-bhasapath-v
