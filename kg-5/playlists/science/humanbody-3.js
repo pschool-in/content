@@ -197,10 +197,10 @@ export default {
 
           Our sensory organs tell us about the situation all around us. The eyes, ears, nose, tongue and skin are our five sensory organs.
           
-          1. We can see with our eyes
-          2. We can hear with our ears
-          3. We can smell with our nose 
-          4. We taste things with our tongue 
+          1. We can see with our eyes.
+          2. We can hear with our ears.
+          3. We can smell with our nose. 
+          4. We taste things with our tongue. 
           5. We feel things with our skin.
           
           # Co-ordination
@@ -210,8 +210,7 @@ export default {
           
           # Disability
           
-          If any organ does not function well, we may face difficulties in
-          doing our work. We must not give up in the face of difficulties. They can be overcome.
+          If any organ does not function well, we may face difficulties in doing our work. We must not give up in the face of difficulties. They can be overcome.
           
           # Overcoming Disability
           
@@ -432,7 +431,7 @@ export default {
           text: `Because of the rotting particles in the mouth, our teeth *decay (cracks)*.
           We must brush our teeth in the *morning (evening)* and before going to bed at night.
           We must clean our *gums (mouth)* and tongue.
-          *Neem (tulsi)* or babul sticks are sometimes used for cleaning teeth.
+          *Neem (Tulsi)* or babul sticks are sometimes used for cleaning teeth.
           Infected cut or wound may start oozing *pus (blood)*.`
         }
       },
