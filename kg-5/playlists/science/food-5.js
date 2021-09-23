@@ -245,10 +245,10 @@ Deficiency due to iodine is called as beriberi.`
           fontSize: '1rem',
           dashWidth: 70
         },
-        text: `Night Blindness is caused by the lack of *Vitamin-A*.
+        text: `Night Blindness is caused by the lack of *vitamin-A*.
 Marasmus is a *protein* deficiency disease.
-Bad smell from the food item is due to *Spoilage*.
-Humidity in air is one of the *Important* factor, which spoils food.
+Bad smell from the food item is due to *spoilage*.
+Humidity in air is one of the *important* factor, which spoils food.
 Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
       }
     },
@@ -271,8 +271,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
         
         # Food storage and conservation of environment
         
-        1. Green revolution- The  increase in food grain production (such as rice and wheat) due to the introduction of high-yielding varieties, the use of 
-        pesticides, and improved management techniques.
+        1. Green revolution- The  increase in food grain production (such as rice and wheat) due to the introduction of high-yielding varieties, the use of pesticides, and improved management techniques.
         2. In 2013, India enacted a food security law that made it possible to fight against hunger and malnutrition.
         3. Various agriculture assistance programmes are organised for farmers to inform them about the latest technology, irrigation facilities, pesticides, fertilizers etc.`
       }
@@ -360,23 +359,23 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
         questions: [
           {
             qText: ' Which is called the golden fibre?',
-            options: 'jute, cotton, silk'
+            options: 'Jute, Cotton, Silk'
           },
           {
             qText: 'Which of these is not a rabi crop?',
-            options: 'maize, wheat, barley'
+            options: 'Maize, Wheat, Barley'
           },
           {
             qText: 'Farming that relies on natural material?',
-            options: 'organic, home, commercial'
+            options: 'Organic, Home, Commercial'
           },
           {
             qText: 'Which state is the chief producer of tea in India?',
-            options: 'Assam. Kerala, Karnataka'
+            options: 'Assam, Kerala, Karnataka'
           },
           {
             qText: 'The person who is engaged in agriculture.',
-            options: 'farmer, doctor, teacher'
+            options: 'Farmer, Doctor, Teacher'
           }
         ]
       }
@@ -401,8 +400,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
         
         Drying- It is the process in which foodstuffs are dried to remove the water content.
         
-        Cooling- It is the process in which the foodstuffs are kept in the refrigerator. Through this process, micro-organisms do not get any warmth so
-        they are unable to grow.
+        Cooling- It is the process in which the foodstuffs are kept in the refrigerator. Through this process, micro-organisms do not get any warmth so they are unable to grow.
         
         Boiling- In this process the foodstuffs are boiled to destroy microorganisms.
         
@@ -492,8 +490,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
         
         # Causes of diseases
         
-        Microorganisms such as bacteria, viruses, protozoa, and fungi cause diseases. Insects carry them, and they can also be spread by contaminated air and
-        water. When an organ's function is disturbed, it can lead to disease.
+        Microorganisms such as bacteria, viruses, protozoa, and fungi cause diseases. Insects carry them, and they can also be spread by contaminated air and water. When an organ's function is disturbed, it can lead to disease.
         
         # Obesity
         
@@ -517,8 +514,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
         
         Physiological diseases are diseases that are caused by the malfunction of body organs.
         
-        Maintaining good health requires a diet that provides all important elements in the proper proportions. Deficiencies in one or more nutrients produce a 
-        variety of diseases. These are called deficiency diseases.
+        Maintaining good health requires a diet that provides all important elements in the proper proportions. Deficiencies in one or more nutrients produce a variety of diseases. These are called deficiency diseases.
         
         In marasmus, the child loses weight and the bones appear to be covered by skin. In Kwashiorkor, the child acquires a big belly, swollen face and feet.
         
@@ -551,7 +547,7 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Obesity is caused by **excessive fat* in the body.
+        text: `Obesity is caused by *excessive fat* in the body.
         Grains are preserved by *drying*.
         In *kwashiorkor*, the child develops an enlarged belly.
         *Anaemia* is caused due to lack of iron.
