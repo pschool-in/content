@@ -79,7 +79,7 @@ export default {
                   // this activity if for class 5 and above
                   label: 'বাক্য - বচন ',
                   type: 'matchByDragDrop',
-                  id: 'bn-oneword',
+                  id: 'bn-singpru',
                   commonData: {
                     isPractice: false,
                     title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
@@ -264,6 +264,25 @@ export default {
        `
         ]
       },
+              {
+        label: 'বাক্য - বিপরীতার্থক শব্দ',
+        type: 'matchByDragDrop',
+        id: 'bn-antonym-sentence',
+        data: {
+          isPractice: false,
+          title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
+          styles: {
+            fontSize: '1.1 rem',
+            dashWidth: 80
+          },
+          text: `অমিত একজন *ছেলে *। রিয়া একটা মেয়ে। অমিত এবং রিয়া বন্ধু।
+          রিয়া গরীব কিন্তু অমিত খুব *ধনী *          
+          রিয়ার বাড়ি কাঁচা, কিন্তু অমিতের বাড়ি *পাকা *।          
+          যখন রিয়া এবং অমিত একসাথে থাকে, তখন আশেপাশের মানুষ তাদের দেখে উচু-*নিচু* এর কথা বলে।          
+          রিয়া এবং অমিত বিভেদের পথ ছেড়ে *একতা*র  পথে চলেছে।          
+          অমিত এবং রিয়া উভয়েরই *সঠিক* এবং ভুলের বোধ আছে।`
+      }
+    },
          {
           // for Class v and above. 
         id: 'fillup',
