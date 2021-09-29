@@ -23,7 +23,7 @@ export default {
         monkey| बंदर | _दर | बं, थि , झु, ठि 
         tiger| बाघ| _घ| बा, ता, थी, ची `,
 
-        `hippo| दरियाई घोड़ा|_रियाई घोड़ा | द , थो, जी, घु	 
+        `hippo| जलहस्ती| _लहस्ती | ज , थो, जी, घु	 
         rhino| गैंडा| _डा| गैं , णू, तै ,  घा
         fox| लोमड़ी | _मड़ी | लो, लै, डी , टा	 
         crocodile| मगरमच्छ | _गरमच्छ | म, डि, णी, झी	  
@@ -356,7 +356,7 @@ export default {
         बं, monkey
         बा, tiger`,
 
-        `द, hippo
+        `ज, hippo
         गैं, rhino
         लो, fox
         म, crocodile
