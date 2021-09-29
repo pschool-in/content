@@ -375,7 +375,7 @@ export default {
         क, tortoise`,
 
         `चू, rat
-        दु, ant
+        चीं, ant
         म, fly
         च, bat
         भें, buffalo`,
