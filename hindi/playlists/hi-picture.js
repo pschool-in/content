@@ -126,8 +126,9 @@ export default {
         beetroot| चुकंदर |_कंदर| चु, खु, झु, डु
         onion| प्याज | _याज| प्, जू, चु, झु	  
         tomato| टमाटर | _माटर| ट, टे, खु, ह	  
-        potato| आलू | _लू| आ, कै, गू, टे, घा			 
-        cabbage| पत्ता गोभी | _त्ता गोभी | प, घा, ख, ट	   
+        potato| आलू | _लू| आ, कै, गू, टे, घा	`,		 
+        
+        `cabbage| पत्ता गोभी | _त्ता गोभी | प, घा, ख, ट	   
         cauliflower| गोभी| _ भी| गो, झौ, झा, टि  	
         corn| मक्का | _क्का | म, छी, चू, का
         cucumber| खीरा | _रा | खी, शी, से, यो 
@@ -146,7 +147,7 @@ export default {
 
         `corianderleaf|धनिएके पत्ते| _निएके पत्ते| ध, णी, थे, ट	
         curryleaf| करी पत्ता| _री पत्ता| क, का, छ, ड
-        drumstick| ढोलकाछड़ी| _लकाछड़ी| ढो, ज, को, ब		
+        drumstick| सहजन| _हजन| स, ज, को, ब		
         greenpeas| हरी मटर | _री मटर | ह, च, ढि, का
         ladies-finger| भिन्डी| _न्डी| भि, ढे, टी, णि
         mintleaf| पुदीना | _दीना| पु, गू, ढा, घौ
@@ -492,7 +493,7 @@ export default {
 
         `ध, corianderleaf
 क, curryleaf
-ढो, drumstick
+स, drumstick
 ह, greenpeas
 भि, ladies-finger`,
 
