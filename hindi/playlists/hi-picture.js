@@ -44,7 +44,6 @@ export default {
         butterfly|  तितली| _तली| ति, यै, खि, खं
         cow|  गाय| _य| गा, ढि, छी, खे
         donkey| गधा | _धा| ग, घा, झि, टा  
-        kangaroo| कंगारू| गारू| कं, डी,  गू, टा 
         leopard| तेंदुआ| _दुआ| तें, थु, दि, तु`,
 
         `mongoose| नेवला| _वला| ने, खी, थी,  ठी
@@ -383,12 +382,11 @@ export default {
         `ति, butterfly 
         गा, cow
         ग, donkey 
-        कं, kangaroo
-        तें, leopard`,
+        तें, leopard
+        भे, wolf`,
 
         `ने, mongoose
         म, mosquito
-        भे, wolf
         ति, cockroach
         छि, lizard
         ख, rabbit`
