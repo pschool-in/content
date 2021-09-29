@@ -130,12 +130,12 @@ export default {
         
         `cabbage| पत्ता गोभी | _त्ता गोभी | प, घा, ख, ट	   
         cauliflower| गोभी| _ भी| गो, झौ, झा, टि  	
-        corn| मक्का | _क्का | म, छी, चू, का
+        corn| भुट्टा | _ट्टा | भु, छी, चू, का
         cucumber| खीरा | _रा | खी, शी, से, यो 
         garlic| लहसुन | _हसुन | ल, र , हि, षु`,
 
         `ginger| अदरक | _दरक| अ, ऊ, ऐ, औ	  
-        pumpkin| कददू   | _द्दू  | क, रे, षे, भ
+        pumpkin| कद्दू   | _द्दू  | क, रे, षे, भ
         almond|  बादाम|  _दाम| बा, ढि, कौ, क
         beans| फलियां| _लियां| फ, ध, ब, य
         bitter-gourd| करेला| _रेला| क, भा, मू, घू
@@ -148,7 +148,7 @@ export default {
         `corianderleaf|धनिएके पत्ते| _निएके पत्ते| ध, णी, थे, ट	
         curryleaf| करी पत्ता| _री पत्ता| क, का, छ, ड
         drumstick| सहजन| _हजन| स, ज, को, ब		
-        greenpeas| हरी मटर | _री मटर | ह, च, ढि, का
+        greenpeas| मटर | _टर | म, च, ढि, का
         ladies-finger| भिन्डी| _न्डी| भि, ढे, टी, णि
         mintleaf| पुदीना | _दीना| पु, गू, ढा, घौ
         peanut| मूंगफली| _गफली| मूं, आ, ई, तो
@@ -168,7 +168,7 @@ export default {
         lotus| कमल| _मल| क, लू, ही, त्रु	
         sunflower| सूरजमुखी | _रजमुखी| सू, त्रु, लू , भो	
         marigold| गेंदा | _दा | गें, सि, सै, नो	
-        hibiscus| हिबिस्कुस | _बिस्कुस| हि, ही, त्रु, भो	
+        hibiscus| गुडहल | _डहल| गु, ही, त्रु, भो	
         jasmine| चमेली| _मेली | च, त्रु, सै, सि`
       }
     },
@@ -179,16 +179,15 @@ export default {
       data: {
         images: 'custom',
         lang: 'hi',
-        text: `aeroplane| विमान | _मान| वि, ळी, म, है 
+        text: `aeroplane| हवाईजहाज | _वाईजहाज| ह, ळी, म, है 
         boat| नाव | _व | ना, हे, शं, पू
         car| गाड़ी | _ड़ी | गा, यी, हौ, नि	
-        cycle| चक्र | _क्र | च, खु, ये, हा 
         motorbike| मोटरसाइकिल| _टरसाइकिल|मो, क, छा, जो		
-        ship| समुंद्री जहाज | _मुंद्रीजहाज | स, झ, छे, झं	 
-        train| रेल गाडी| _लगाडी| रे, झ, झू, खि
+        ship| समुंद्रीजहाज | _मुंद्रीजहाज | स, झ, छे, झं	 
+        train| रेलगाडी| _लगाडी| रे, झ, झू, खि
         ambulance| रोगीवाहन | _गीवाहन |रो, गी, गे, जी
         cart| हाथगाडी | _थगाडी | हा, अ,  खि, ळी
-        excavator| खोदकमशीन| _ दकमशीन | खो, झी, क,अ
+        excavator| खोदकमशीन| _दकमशीन | खो, झी, क,अ
         fire-engine|दमकल | _मकल| द, खि, गा, कु`
       }
     },
@@ -213,8 +212,7 @@ export default {
         girl| लड़की| _ड़की| ल, चू, का,गु	
         man| आदमी | _दमी | आ, डि, ची, डे`,
 
-        `woman| स्री| _री| स्, ठु, णा, तो
-        ball| गेंद| _द| गें, ध, थी, ये
+        `ball| गेंद| _द| गें, ध, थी, ये
         glasses| ऐनक| _नक|  ऐ, भ, मा, यि
         clock| घड़ी | _ड़ी | घ, तू, ठ, थ`
       ]
@@ -230,9 +228,8 @@ export default {
         pen| कलम|  _लम| क, घै, थो, दी
         ruler| मापन| _पन|  मा, थौ, घै, थी	
         scissors| कैंची| _ची| कैं, थी, ता, दी
-        sharpener| पेंसिल ताराश| _सिल ताराश| पें, घै, खा, कौ	
         book| किताब | _ताब | कि, फे, णू, घो	
-        crayons| कडियापेंसिल| _डियापेंसिल | क, घि, त, झो`
+        crayons| चित्रांकनी| _त्रांकनी | चि, घि, त, झो`
       }
     },
     {
@@ -281,19 +278,15 @@ export default {
         `axe| कुल्हाडी| _ल्हाडी| कु, झो, फे, टू
         balance| तराज़ू| _राज़ू|  त, मि, फी, थी
         blackboard| श्यामपट| _यामपट| श्, मि, झं, मू 
-        hose| नली| _ली| न, थी, लौ, ठी
         microscope| सूछ्मदर्शी |_छ्मदर्शी | सू, भी, क्षा, मु
         needle| सुई| _ई| सु, झि, ठू, झं
-        oven| तन्दूर| _न्दूर| त, झे, ण, णा
         plough| हल| _ल| ह, टु, थी, चू
-        saw| आरी| _री| आ, फु, थी, ने	
+        saw| आरा| _रा| आ, फु, थी, ने	
         spade| कुदाली| _दाली| कु, झै, झः, पी`,
 
         `telescope| दूरबीन| _रबीन|  दू, ची, जै, घू
-        testube | परखनली | _रखनली | प, दां, भी, क्षा
         trowel| करनी| _रनी| क, झा, णु, दै
         awl| टेकुआ | _कुआ | टे, धी, बी, फे
-        compass| कुतुबनुमा| _तुबनुमा| कु, छै, फा, तौ	
         easel| चित्रफलक | _त्रफलक| चि, थी, तो,दू	 
         hacksaw| लोहा-आरी| _हा-आरी| लो, थी, रे, रौ
         scalpel| छुरी | _री| छु, तु, चि, गु`
@@ -309,16 +302,16 @@ export default {
         lang: 'hi'
       },
       data: [
-        `sun| रवि| _वि| र, कि, ते, छा
-     moon| चांद| _ द| चां, छी, टा, झा		
-     rain| वर्षा| _र्षा|  व, टा, णू, ते	
-     star| सितारा| _तारा|  सि, डा, घू, छि
+        `sun| सूर्य| _र्य| सू, कि, ते, छा
+     moon| चांद| _द| चां, छी, टा, झा		
+     rain| बारिश| _रिश|  बा, टा, णू, ते	
+     star| तारा| _रा|  ता, डा, घू, छि
      milk| दूध| _ध| दू, टु, णी, णो	
      ring| अंगूठी |_गूठी |  अं, णु, थी, गो`,
 
         `bone| हड्डी| _ड्डी | ह, खे, ट, तं
      bell| घंटी| _टी| घं, झो, गो, ड 
-     bird| चिड़िया| _ड़िया | चि, कि, झि, ता
+     bird| पक्षी| _क्षी | प, कि, झि, ता
      conch| शंख | _ख |  शं, झि, ता, णु
      drums| ढोल|| _ल| ढो, णू, घी, था
      five| पांच| _च| पां, ची, ख, घु
@@ -330,7 +323,7 @@ export default {
         `ladder|  सीढ़ी |  _ढ़ी | सी, दी, ती, ढू
      leaf| पत्ता | _त्ता | प, टा, ती, खी
      rishi|  ऋषि|  _षि|  ऋ, मि, डो, टि	
-     wheel| पहिया| _हिया| प, ब, भि, बै,
+     wheel| चक्का| _क्का| च, ब, भि, बै,
      whistle| सीटी| _टी|  सी, णू, घी, था	
      world| दुनिया| _निया | दु, टा, णू, दी`
       ]
@@ -366,7 +359,6 @@ export default {
 
         `भा, bear
         ऊं, camel
-        हाँ, shark
         ति, whale
         म, fish`,
 
@@ -452,7 +444,7 @@ export default {
 
         `अं, fig
 श, custard-apple
-बे, plum
+आ, plum
 अ, pomegranate
 ख, muskmelon`
       ]
@@ -475,7 +467,7 @@ export default {
 
         `प, cabbage
 गो, cauliflower
-म, corn
+भु, corn
 खी, cucumber
 क, pumpkin`,
 
@@ -494,7 +486,7 @@ export default {
         `ध, corianderleaf
 क, curryleaf
 स, drumstick
-ह, greenpeas
+म, greenpeas
 भि, ladies-finger`,
 
         `पु, mintleaf
@@ -515,7 +507,7 @@ export default {
         क, lotus
         सू, sunflower
         गें, marigold
-        हि, hibiscus
+        गु, hibiscus
         च, jasmine`
       }
     },
@@ -529,13 +521,13 @@ export default {
         big: true
       },
       data: [
-        `वि, aeroplane
+        `ह, aeroplane
                 ना, boat
                 गा, car
-                च, cycle
+                रे, train
                 स, ship`,
 
-        `रे, train
+        `
 रो, ambulance
 हा, cart
 खो, excavator
@@ -562,11 +554,9 @@ export default {
         `अ, shelf
 ब, baby
 ल, boy
-ल, girl
 आ, man`,
 
-        `स्, woman
-गें, ball
+        `गें, ball
 ऐ, glasses
 घ, clock`
       ]
@@ -587,9 +577,8 @@ export default {
 ब, schoolbag`,
 
         `कैं, scissors
-पें, sharpener 
 कि, book
-क, crayons`
+चि, crayons`
       ]
     },
     {
@@ -605,7 +594,7 @@ export default {
         `चू , stove
 कां, fork
 छु, knife
-त, pan
+क, pan
 च, spoon
 म, pot`
       ]
@@ -645,22 +634,18 @@ export default {
         `कु, axe
 त, balance
 श्, blackboard 
-न, hose 
 सु, needle`,
 
-        `त, oven
-        ह, plough 
+        `ह, plough 
 आ, saw
 कु, spade
 दू, telescope`,
 
-        `प, testube 
-ता, thermometer
+        `ता, thermometer
 क, trowel
 टे, awl `,
 
-        `कु, compass
-        चि, easel
+        `चि, easel
 लो, hacksaw
 छु, scalpel`
       ]
@@ -676,16 +661,16 @@ export default {
         big: true
       },
       data: [
-        `र, sun
+        `सू, sun
 चां, moon
-व, rain
-सि, star
+बा, rain
+ता, star
 दू, milk`,
 
         `अं, ring
 ह, bone
 घं, bell
-चि, bird
+प, bird
 शं, conch`,
 
         `ढो, drums
@@ -698,7 +683,7 @@ export default {
         `सी, ladder 
 प, leaf
 ऋ, rishi
-प, wheel
+च, wheel
 सी, whistle
 दु, world`
       ]
