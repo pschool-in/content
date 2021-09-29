@@ -1,6 +1,6 @@
 export default {
   // Primarily for KG. above class also can refer
-  label: 'কবিতা',
+  label: 'ছোটদের ছড়া',
   id: 'bn-poem',
   img: 'reading',
   list: [
