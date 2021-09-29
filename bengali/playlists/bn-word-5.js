@@ -1,6 +1,6 @@
 export default {
     label: 'শব্দ',
-    id: 'bn-word',
+    id: 'bn-word-2',
     img: 'word',
     list: [
         {
