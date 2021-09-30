@@ -557,19 +557,39 @@ const science = [
     grade: 'g2, g3'
   },
   {
-    label: 'Force',
-    slug: 'force',
+    label: 'States of Matter',
+    slug: 'matter-3',
     grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Matter and Materials',
+    slug: 'matter-4',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Matter and Materials 2',
+    slug: 'matter-5',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Force',
+    slug: 'force-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Work',
+    slug: 'work-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Energy',
+    slug: 'energy-5',
+    grade: 'g4, g5'
   },
   {
     label: 'Plants',
     slug: 'plants',
     grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Energy',
-    slug: 'energy',
-    grade: 'g5'
   },
   {
     label: 'Nutrients',

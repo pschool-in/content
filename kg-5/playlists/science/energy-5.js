@@ -117,7 +117,7 @@ the music we hear
 the games we play`
           },
           {
-            qText: 'Moving object has',
+            qText: 'Moving object has _______.',
             options: 'kinetic energy, potential energy, electrical energy'
           },
           {
@@ -134,8 +134,49 @@ no wind, as windmill may fall down due to the wind.`
           {
             qText: 'A stone in a stretched catapult has _______.',
             options: 'potential energy, kinetic energy, wind energy'
+          },
+          {
+            qText: 'Which of the following are true statements?',
+            options: `* Energy can neither be created not be destroyed.
+* We can convert one form of energy into another.
+* Petrol has chemical energy which is used to run vehicles.`
           }
         ]
+      }
+    },
+    {
+      id: 'true-false-2',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Water stored in dams possesses potential energy.
+Energy can neither be created nor be destroyed.
+Ceiling fan converts electrical energy into mechanical energy.`
+          },
+          {
+            name: 'False',
+            text: `We can produce energy without the help of any objects.
+Electric lamp converts electrical energy into heat energy.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-3',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Mobiles and laptops run on *electrical* energy. Wind mills convert *kinetic* energy of winds into electrical energy. Moving body can be brought to rest using *mechanical* energy. Photosynthesis changes solar energy into *chemical* energy. Iron box converts electrical energy into *heat* energy.`
       }
     }
   ]

@@ -145,24 +145,6 @@ export default {
       }
     },
     {
-      label: 'Contact Force',
-      type: 'group',
-      id: 'classify-contact',
-      data: {
-        title: 'Drag and drop in the right boxes.',
-        types: [
-          {
-            name: 'Contact Force',
-            text: 'mechanical, muscular, frictional, kicking a ball'
-          },
-          {
-            name: 'Non-Contact Force',
-            text: 'gravitation, magnet, vaccum cleaner'
-          }
-        ]
-      }
-    },
-    {
       id: 'true-false',
       label: 'True or False',
       type: 'classifySentence',
@@ -181,6 +163,24 @@ To ride a bicycle, we use muscular force.`
 We don't need force to stop a moving body.
 Gravitation is a contact force.
 Magnet attracts things that are made up of iron and plastic.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Contact Force',
+      type: 'group',
+      id: 'classify-contact',
+      data: {
+        title: 'Drag and drop in the right boxes.',
+        types: [
+          {
+            name: 'Contact Force',
+            text: 'mechanical, muscular, frictional, kicking a ball'
+          },
+          {
+            name: 'Non-Contact Force',
+            text: 'gravitation, magnet, vaccum cleaner'
           }
         ]
       }
