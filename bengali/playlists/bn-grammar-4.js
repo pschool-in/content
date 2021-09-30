@@ -1,6 +1,6 @@
 export default {
   label: 'ব্যাকরণ',
-  id: 'bn-grammar',
+  id: 'bn-grammar-4',
   img: 'langGrammar',
   list: [
     {

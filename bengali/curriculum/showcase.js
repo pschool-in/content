@@ -26,7 +26,7 @@ import reading from '../playlists/bn-reading.js';
 import science from '../playlists/bn-science.js';
 import social from '../playlists/bn-social.js';
 import poem from '../playlists/bn-poem.js';
-import sukumar from '../playlists/bn-sukumar.js';
+import sukumar from '../playlists/bn-sukumar-poem.js';
 import word2 from '../playlists/bn-word-2.js';
 import grammar2 from '../playlists/bn-grammar-2.js';
 
