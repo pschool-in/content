@@ -155,7 +155,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - फल',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -185,7 +185,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ- सब्जियां',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -231,7 +231,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - फूल',
       data: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true,
         text: `गु, rose
@@ -247,7 +247,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - शरीर के अंग',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -268,7 +268,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },

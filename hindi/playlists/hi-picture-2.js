@@ -203,7 +203,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - जानवर',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -262,7 +262,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - पक्षी',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -293,7 +293,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - वाहन',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -317,7 +317,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - मकान',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -343,7 +343,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - विद्यालय',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -363,7 +363,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - रसोईघर',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
@@ -382,7 +382,7 @@ export default {
       type: 'match',
       label: 'चित्र से मिलाओ - उपकरण',
       commonData: {
-        title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
+        title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
         big: true
       },
