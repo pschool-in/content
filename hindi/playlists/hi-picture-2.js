@@ -17,8 +17,9 @@ export default {
         dog| कुत्ता | _त्ता | कु, ग, आ, इ 
         goat| बकरी | _करी| ब, द, ध, थ
         sheep| भेड् | _ड्|  भे,अ, ख, पी   
-        horse| घोडा | _डा | घो, ध, न, प  
-        pig| सुअर | _अर | सु, य, र, ल 
+        horse| घोडा | _डा | घो, ध, न, प`,  
+        
+        `pig| सुअर | _अर | सु, य, र, ल 
         elephant| हाथी  | _थी | हा, घी, कै, ध 
         lion| शेर | _र | शे, डि ,थी , ढि  
         monkey| बंदर | _दर | बं, थि , झु, ठि 
@@ -29,8 +30,9 @@ export default {
         fox| लोमड़ी | _मड़ी | लो, लै, डी , टा	 
         crocodile| मगरमच्छ | _गरमच्छ | म, डि, णी, झी	  
         bear| भालू | _लू | भा, तू,  घि, ग	
-        camel| ऊंट | _ट | ऊं , छा,  तू , गा
-        fish| मछली | _छली| म , खु,  झा , घा
+        camel| ऊंट | _ट | ऊं , छा,  तू , गा`,
+
+        `fish| मछली | _छली| म , खु,  झा , घा
         frog| मेंडक | _डक | में , गं, ठू , ख 
         crab| केकड़ा | _कड़ा | के , ठा , डि,  नि
         snake | साँप | _प | साँ, सा, झा, ख  
@@ -40,8 +42,9 @@ export default {
         rat| चूहा | _हा | चू , क्षु, षु , वू 
         ant| चींटी | _टीा| चीं , तै, छं , ची
         fly| मक्खी| _क्खी |  म , थो, टौ , षि 
-        bat| चमगादड़ |_मगादड़ | च, धु, णा, बु
-        buffalo|  भेंस| _स| भें, ख,  चि, गा	
+        bat| चमगादड़ |_मगादड़ | च, धु, णा, बु`,
+
+        `buffalo|  भेंस| _स| भें, ख,  चि, गा	
         butterfly|  तितली| _तली| ति, यै, खि, खं
         cow|  गाय| _य| गा, ढि, छी, खे
         donkey| गधा | _धा| ग, घा, झि, टा  
@@ -121,14 +124,15 @@ export default {
         table| मेज| _ज| मे, गु, झे, णु	
         bed| बिस्तर| _स्तर| बि, खू, णौ, ठी
         candle| मोमबत्ती| _मबत्ती| मो, डे, ठी, झू	
-        chair| कुर्सी| _र्सी| कु, झे, गु, ठी
-        shelf| अलमारी|  _लमारी|  अ, चा, जि, टु
-        baby| बच्चा| _च्चा| ब, ल, झौ, आ
+        chair| कुर्सी| _र्सी| कु, झे, गु, ठी`,
+
+        `baby| बच्चा| _च्चा| ब, ल, झौ, आ
         boy| लड़का|  _ड़का| ल, ठा, झौ, कि
         girl| लड़की| _ड़की| ल, चू, का,गु	
         man| आदमी | _दमी | आ, डि, ची, डे`,
 
-        `ball| गेंद| _द| गें, ध, थी, ये
+        `shelf| अलमारी|  _लमारी|  अ, चा, जि, टु
+        ball| गेंद| _द| गें, ध, थी, ये
         glasses| ऐनक| _नक|  ऐ, भ, मा, यि
         clock| घड़ी | _ड़ी | घ, तू, ठ, थ`
       ]
@@ -179,14 +183,15 @@ export default {
         balance| तराज़ू| _राज़ू|  त, मि, फी, थी
         blackboard| श्यामपट| _यामपट| श्, मि, झं, मू 
         microscope| सूछ्मदर्शी |_छ्मदर्शी | सू, भी, क्षा, मु
-        needle| सुई| _ई| सु, झि, ठू, झं
-        plough| हल| _ल| ह, टु, थी, चू
-        saw| आरा| _रा| आ, फु, थी, ने	
-        spade| कुदाली| _दाली| कु, झै, झः, पी`,
+        needle| सुई| _ई| सु, झि, ठू, झं`,
 
-        `telescope| दूरबीन| _रबीन|  दू, ची, जै, घू
-        trowel| करनी| _रनी| क, झा, णु, दै
-        awl| टेकुआ | _कुआ | टे, धी, बी, फे
+        `plough| हल| _ल| ह, टु, थी, चू
+        saw| आरा| _रा| आ, फु, थी, ने	
+        spade| कुदाली| _दाली| कु, झै, झः, पी
+        telescope| दूरबीन| _रबीन|  दू, ची, जै, घू
+        trowel| करनी| _रनी| क, झा, णु, दै`,
+        
+        `awl| टेकुआ | _कुआ | टे, धी, बी, फे
         easel| चित्रफलक | _त्रफलक| चि, थी, तो,दू	 
         hacksaw| लोहा-आरी| _हा-आरी| लो, थी, रे, रौ
         scalpel| छुरी | _री| छु, तु, चि, गु`
@@ -196,7 +201,7 @@ export default {
     {
       id: 'match-animals',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - जानवर',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -255,7 +260,7 @@ export default {
     {
       id: 'match-birds',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - पक्षी',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -286,7 +291,7 @@ export default {
     {
       id: 'match-vehicles',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - वाहन',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -310,7 +315,7 @@ export default {
     {
       id: 'match-house',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - मकान',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -336,7 +341,7 @@ export default {
     {
       id: 'match-school',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - विद्यालय',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -356,7 +361,7 @@ export default {
     {
       id: 'match-kitchen',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - रसोईघर',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -375,7 +380,7 @@ export default {
     {
       id: 'match-tools',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - उपकरण',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -387,18 +392,17 @@ export default {
 श्, blackboard 
 सु, needle`,
 
-        `ह, plough 
-आ, saw
-कु, spade
-दू, telescope`,
-
         `ता, thermometer
 क, trowel
-टे, awl `,
+टे, awl 
+ह, plough 
+आ, saw`,
 
         `चि, easel
 लो, hacksaw
-छु, scalpel`
+छु, scalpel
+कु, spade
+दू, telescope`
       ]
     },
 

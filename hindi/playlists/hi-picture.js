@@ -5,7 +5,7 @@ export default {
   list: [ // This is for class 2 and below
     {
       type: 'completeWord',
-      label: 'सब्जियां & फल ',
+      label: 'फल ',
       id: 'fruits',
       commonData: {
         images: 'custom',
@@ -34,7 +34,7 @@ export default {
     },
     {
       type: 'completeWord',
-      label: 'सब्जियां & फल ',
+      label: 'सब्जियां',
       id: 'vegetables',
       commonData: {
         images: 'custom',
@@ -57,8 +57,9 @@ export default {
         pumpkin| कद्दू   | _द्दू  | क, रे, षे, भ
         almond|  बादाम|  _दाम| बा, ढि, कौ, क
         beans| फलियां| _लियां| फ, ध, ब, य
-        bitter-gourd| करेला| _रेला| क, भा, मू, घू
-        brinjal| बैंगन | _गन| बैं, क, ओ, खौ
+        bitter-gourd| करेला| _रेला| क, भा, मू, घू`,
+
+        `brinjal| बैंगन | _गन| बैं, क, ओ, खौ
         capsicum| शिमला मिर्च| _मला मिर्च| शि, णु, चु, ठे
         cashewnut| काजू | _जू| का, झा, घै, जा
         chilli| मिर्च| _र्च| मि, झो, जै, खा
@@ -68,8 +69,9 @@ export default {
         curryleaf| करी पत्ता| _री पत्ता| क, का, छ, ड
         drumstick| सहजन| _हजन| स, ज, को, ब		
         greenpeas| मटर | _टर | म, च, ढि, का
-        ladies-finger| भिन्डी| _न्डी| भि, ढे, टी, णि
-        mintleaf| पुदीना | _दीना| पु, गू, ढा, घौ
+        ladies-finger| भिन्डी| _न्डी| भि, ढे, टी, णि`,
+
+        `mintleaf| पुदीना | _दीना| पु, गू, ढा, घौ
         peanut| मूंगफली| _गफली| मूं, आ, ई, तो
         raddish| मूली| _ली| मू, मु, तु, खौ
         spinach| पालक| _लक| पा, कु, खू, झो`
@@ -100,19 +102,16 @@ export default {
       data: {
         images: 'custom',
         lang: 'hi',
-        text: `ear| कान | _न| का, हू, क्षौ, त्रि	 
-        eye| आंख | _ख| आं, य, भि, मु  
-        foot| टांग | _ग|  टां, बा, क्षौ, धं
-        hair| केश | _श|  के, यि, त्रै, मा	 
+        text: `ear| कान | _न| का, हू, क्षौ, त्रि	          
         hand| हाथ | _थ| हा , भि, मू , त्रौ 
         mouth| मुंह | _ह|  मुं, नि, क्षै, लि	
         nose| नाक | _क |  ना, मै, त्रा, क्षं 
-        tooth| दांत | _त| दां, भी, क्षा, मु`
+        tooth| दांत | _त| दां, भी, क्षा, मु
+        eye| आंख | _ख| आं, य, भि, मु  
+        foot| टांग | _ग|  टां, बा, क्षौ, धं
+        hair| केश | _श|  के, यि, त्रै, मा	`
       }
     },
-
-
-
     {
       type: 'completeWord',
       label: 'चित्र और नाम',
@@ -133,8 +132,9 @@ export default {
      bell| घंटी| _टी| घं, झो, गो, ड 
      bird| पक्षी| _क्षी | प, कि, झि, ता
      conch| शंख | _ख |  शं, झि, ता, णु
-     drums| ढोल|| _ल| ढो, णू, घी, था
-     five| पांच| _च| पां, ची, ख, घु
+     drums| ढोल|| _ल| ढो, णू, घी, था`,
+
+     `five| पांच| _च| पां, ची, ख, घु
      food| खाना| _ना| खा, ठि, का, झो	
      fruits|  फल|  _ल| फ, चु, टी, झि
      king|  राजा|  _जा|  रा, गा, कि, चं
@@ -153,7 +153,7 @@ export default {
     {
       id: 'match-fruits',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - फल',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -183,7 +183,7 @@ export default {
     {
       id: 'match-vegetables',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ- सब्जियां',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -229,7 +229,7 @@ export default {
     {
       id: 'match-flowers',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - फूल',
       data: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
@@ -245,7 +245,7 @@ export default {
     {
       id: 'match-bodyparts',
       type: 'match',
-      label: 'चित्र से मिलाओ',
+      label: 'चित्र से मिलाओ - शरीर के अंग',
       commonData: {
         title: 'चित्र को उनके पहले अक्षर से सुमेलित करें',
         rightImgType: 'custom',
