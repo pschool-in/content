@@ -66,7 +66,7 @@ export default {
     {
       label: 'Digestive System - MCQ',
       type: 'mcq',
-      id: 'mcq',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Question',
         questions: [
@@ -155,7 +155,7 @@ export default {
     {
       label: 'Brain - MCQ',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq-brain',
       data: {
         title: 'Multiple Choice Question',
         questions: [

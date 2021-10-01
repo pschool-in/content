@@ -355,7 +355,7 @@ export default {
     },
     {
       label: 'Choose the best Answer',
-      id: 'mcq',
+      id: 'mcq-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

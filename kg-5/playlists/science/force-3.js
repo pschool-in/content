@@ -1,6 +1,6 @@
 export default {
   label: 'Force',
-  id: 'force',
+  id: 'force-3',
   lockAfter: 4,
   list: [
     {

@@ -1,6 +1,6 @@
 export default {
-  id: 'maps',
-  label: 'Maps-1',
+  id: 'maps-4',
+  label: 'Directions and Maps ',
   pdf: '',
   lockAfter: 4,
   list: [

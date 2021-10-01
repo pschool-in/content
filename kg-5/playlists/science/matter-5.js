@@ -91,7 +91,7 @@ export default {
       }
     },
     {
-      id: 'classify',
+      id: 'classify-sink-float',
       label: 'Sinking vs Floating',
       type: 'group',
       data: {
@@ -140,7 +140,7 @@ export default {
       }
     },
     {
-      id: 'notes',
+      id: 'notes-fibres',
       label: 'Fibres',
       type: 'passage',
       data: {
@@ -180,7 +180,7 @@ from coal, petroleum and natural gas.
       }
     },
     {
-      id: 'mcq',
+      id: 'mcq-fibres',
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
@@ -219,7 +219,7 @@ from coal, petroleum and natural gas.
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-fibres',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper place.',
@@ -231,7 +231,7 @@ from coal, petroleum and natural gas.
       }
     },
     {
-      id: 'classify',
+      id: 'classify-natural',
       label: 'Natural vs Artificial',
       type: 'group',
       data: {
@@ -249,7 +249,7 @@ from coal, petroleum and natural gas.
       }
     },
     {
-      id: 'true-false',
+      id: 'true-false-fibres',
       label: 'True or False',
       type: 'classifySentence',
       data: {
@@ -270,7 +270,7 @@ Coir is used in preparing surgical bandages.`
       }
     },
     {
-      id: 'match',
+      id: 'match-fibre',
       label: 'Match',
       type: 'match',
       data: {
@@ -386,7 +386,7 @@ Coir is used in preparing surgical bandages.`
       }
     },
     {
-      id: 'notes',
+      id: 'notes-grains',
       label: 'Grains',
       type: 'passage',
       data: {
@@ -403,7 +403,7 @@ Millets are a group of small seeded grasses. They are widely grown around the wo
       }
     },
     {
-      id: 'mcq',
+      id: 'mcq-grains',
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
@@ -437,7 +437,7 @@ Millets are a group of small seeded grasses. They are widely grown around the wo
       }
     },
     {
-      id: 'true-false',
+      id: 'true-false-grains',
       label: 'True or False',
       type: 'classifySentence',
       data: {
@@ -531,7 +531,7 @@ Millets are a group of small seeded grasses. They are widely grown around the wo
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-grains',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper place.',

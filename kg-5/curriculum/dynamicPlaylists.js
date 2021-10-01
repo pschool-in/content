@@ -578,7 +578,7 @@ const science = [
   },
   {
     label: 'Work',
-    slug: 'work-3',
+    slug: 'work-4',
     grade: 'g2, g3, g4'
   },
   {
@@ -588,7 +588,17 @@ const science = [
   },
   {
     label: 'Plants',
-    slug: 'plants',
+    slug: 'plants-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Plants - 2',
+    slug: 'plants-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Plants - 3',
+    slug: 'plants-5',
     grade: 'g3, g4, g5'
   },
   {
@@ -638,18 +648,18 @@ const science = [
   },
   {
     label: 'Air',
-    slug: 'air',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Human Body',
-    slug: 'human-body',
+    slug: 'air-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body 2',
-    slug: 'human-body-2',
-    grade: 'g4, g5'
+    label: 'Air we Breathe',
+    slug: 'air-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Atmosphere',
+    slug: 'air-5',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Human Body 3',
@@ -680,37 +690,32 @@ const science = [
   // new addition
   {
     label: 'Animals',
-    slug: 'animals',
+    slug: 'animals-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Animals 2',
-    slug: 'animals-2',
+    slug: 'animals-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Reproduction in Animals',
+    slug: 'animals-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Environment',
-    slug: 'environment',
+    slug: 'environment-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Environment - 2',
-    slug: 'environment-2',
+    label: 'Green Environment',
+    slug: 'environment-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Plants - 2',
-    slug: 'plants-2',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Air - 2',
-    slug: 'air-2',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Air - 3',
-    slug: 'air-5',
+    label: 'Our Environment',
+    slug: 'environment-5',
     grade: 'g3, g4, g5'
   }
   /*
@@ -834,19 +839,19 @@ const social = [
   },
   {
     label: 'Houses',
-    slug: 'houses',
-    grade: 'g4, g5'
+    slug: 'houses-4',
+    grade: 'g3, g4, g5'
   },
 
   // new addition
   {
     label: 'Clothes',
-    slug: 'clothes',
+    slug: 'clothes-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Maps',
-    slug: 'maps',
+    label: 'Directions and Maps',
+    slug: 'maps-4',
     grade: 'g3, g4, g5'
   },
   {
@@ -873,11 +878,6 @@ const social = [
   {
     label: 'Family - 2',
     slug: 'family-5',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Houses',
-    slug: 'houses-5',
     grade: 'g3, g4, g5'
   },
   {

@@ -1,5 +1,5 @@
 export default {
-  id: 'energy',
+  id: 'energy-5',
   label: 'Energy',
   lockAfter: 4,
   list: [

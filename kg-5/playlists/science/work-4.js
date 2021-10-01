@@ -17,7 +17,7 @@ export default {
       }
     },
     {
-      id: 'classify',
+      id: 'classify-work-or-not',
       label: 'Work or Not',
       type: 'classifySentence',
       data: {
@@ -94,7 +94,7 @@ one form to another. The SI unit of energy is joule. It is named after James Jou
       }
     },
     {
-      id: 'classify',
+      id: 'classify-renewable',
       label: 'Renewable Energy - classify',
       type: 'group',
       data: {
@@ -159,7 +159,7 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
       }
     },
     {
-      id: 'mcq',
+      id: 'mcq-simple-machine',
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
@@ -198,7 +198,7 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
       }
     },
     {
-      id: 'classify',
+      id: 'classify-lever',
       label: 'Lever - classify',
       type: 'group',
       data: {
@@ -246,7 +246,7 @@ Wedge, Axe`
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-lever',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper place.',

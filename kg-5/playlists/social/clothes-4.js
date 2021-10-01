@@ -1,5 +1,5 @@
 export default {
-  id: 'clothes',
+  id: 'clothes-4',
   label: 'Clothes',
   pdf: '',
   lockAfter: 4,

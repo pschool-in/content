@@ -1,5 +1,5 @@
 export default {
-  id: 'environment',
+  id: 'environment-3',
   label: 'Environment',
   lockAfter: 4,
   list: [
