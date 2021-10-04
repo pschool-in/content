@@ -1,6 +1,6 @@
 export default {
   label: 'वर्ण - 2',
-  id: 'hi-letter',
+  id: 'hi-letter-practice',
   img: 'writing',
   list: [
     {
@@ -75,7 +75,7 @@ export default {
 घ + ओ, घो
 घ + औ, घौ
 घ + अं, घं
-घ + अः, घः`,
+घ + अः, घः`
       ]
     },
     {
@@ -91,7 +91,7 @@ export default {
         `च + अ, च
 च + आ, चा
 च + इ, चि
-च + ई, ची`
+च + ई, ची`,
         `च + उ, चु
 च + ऊ, चू
 च + ऋ, चृ

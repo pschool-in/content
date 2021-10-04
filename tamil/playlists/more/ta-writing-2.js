@@ -1,6 +1,6 @@
 export default {
   label: 'எழுத்து',
-  id: 'ta-writing',
+  id: 'ta-writing-2',
   img: 'writing',
   list: [
     {

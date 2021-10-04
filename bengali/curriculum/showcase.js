@@ -13,22 +13,19 @@ import social from '../playlists/bn-social';
 import poem from '../playlists/bn-poem';
 */
 
-import letter from '../playlists/bn-letter.js';
-import letter2 from '../playlists/bn-letter-2.js';
-import picture from '../playlists/bn-picture.js';
-import sound from '../playlists/bn-sound.js';
-import grammar from '../playlists/bn-grammar.js';
-import word from '../playlists/bn-word.js';
-import sentence from '../playlists/bn-sentence.js';
-import wordsearch from '../playlists/bn-wordsearch.js';
-import crossword from '../playlists/bn-crossword.js';
-import reading from '../playlists/bn-reading.js';
-import science from '../playlists/bn-science.js';
-import social from '../playlists/bn-social.js';
-import poem from '../playlists/bn-poem.js';
-import sukumar from '../playlists/bn-sukumar-poem.js';
-import word2 from '../playlists/bn-word-2.js';
-import grammar2 from '../playlists/bn-grammar-2.js';
+import letter from '../playlists/default/bn-letter.js';
+import sound from '../playlists/default/bn-sound.js';
+import picture from '../playlists/default/bn-picture.js';
+import word from '../playlists/default/bn-word.js';
+import grammar from '../playlists/default/bn-grammar-5.js';
+import sentence from '../playlists/default/bn-sentence.js';
+import reading from '../playlists/default/bn-reading-3.js';
+import poem from '../playlists/default/bn-poem-1.js';
+import science from '../playlists/default/bn-science.js';
+import social from '../playlists/default/bn-social.js';
+import wordsearch from '../playlists/default/bn-wordsearch.js';
+import crossword from '../playlists/default/bn-crossword.js';
+import sukumar from '../playlists/default/bn-sukumar-poem.js';
 
 export default {
   //label: 'বাংলা',
@@ -44,9 +41,6 @@ export default {
     word,
     sentence,
     grammar,
-    letter2,
-    word2,
-    grammar2,
     reading,
     poem,
     sukumar,
@@ -55,19 +49,4 @@ export default {
     social,
     science
   ]
-  /*
-  list: [
-     বর্ণ,
-    শব্দ,
-    ছবি,
-    শব্দভাণ্ডার,
-    বাক্য,
-    পাঠ,
-    ব্যাকরণ,
-    বিজ্ঞান,
-    সমাজবিজ্ঞান,
-    শব্দ খোজা,
-    শব্দদ্বন্দ,
-    কবিতা
-  ]*/
 };

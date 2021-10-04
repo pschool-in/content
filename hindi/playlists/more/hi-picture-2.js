@@ -1,6 +1,6 @@
 export default {
   label: 'चित्र',
-  id: 'hi-picture',
+  id: 'hi-picture-2',
   img: 'image',
   list: [
     // This is for class 3 and below
@@ -17,8 +17,8 @@ export default {
         dog| कुत्ता | _त्ता | कु, ग, आ, इ 
         goat| बकरी | _करी| ब, द, ध, थ
         sheep| भेड् | _ड्|  भे,अ, ख, पी   
-        horse| घोडा | _डा | घो, ध, न, प`,  
-        
+        horse| घोडा | _डा | घो, ध, न, प`,
+
         `pig| सुअर | _अर | सु, य, र, ल 
         elephant| हाथी  | _थी | हा, घी, कै, ध 
         lion| शेर | _र | शे, डि ,थी , ढि  
@@ -72,8 +72,8 @@ export default {
       duck| बतख़ | _तख़| ब , टौ, त , णा
       hen| मुर्गी | _र्गी | मु , त्रि,  क्षु , वू 
       parrot| तोता | _ता| तो, षि,  षु, ठा`,
-        
-      `peacock| मोर | _र | मो , टौ,  श्री , त्रि  
+
+        `peacock| मोर | _र | मो , टौ,  श्री , त्रि  
       sparrow| गौरेया| _रेया| गौ, णा , सी , त्रि 
       chick| चूजा| _जा| चू, ढि, ठै, फि
       crane| सारस| _रस| सा, तै, यु, सी
@@ -88,8 +88,6 @@ export default {
       woodpecker| कठफोड़वा| _ठफोड़वा| क, त, यै, घ`
       ]
     },
-
-
 
     {
       type: 'completeWord',
@@ -169,7 +167,6 @@ export default {
       }
     },
 
-
     {
       type: 'completeWord',
       label: 'उपकरण',
@@ -190,7 +187,7 @@ export default {
         spade| कुदाली| _दाली| कु, झै, झः, पी
         telescope| दूरबीन| _रबीन|  दू, ची, जै, घू
         trowel| करनी| _रनी| क, झा, णु, दै`,
-        
+
         `awl| टेकुआ | _कुआ | टे, धी, बी, फे
         easel| चित्रफलक | _त्रफलक| चि, थी, तो,दू	 
         hacksaw| लोहा-आरी| _हा-आरी| लो, थी, रे, रौ
@@ -404,7 +401,6 @@ export default {
 कु, spade
 दू, telescope`
       ]
-    },
-
+    }
   ]
 };

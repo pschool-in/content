@@ -1,6 +1,6 @@
 export default {
   label: 'বর্ণ অনুশীলন',
-  id: 'bn-writing-2',
+  id: 'bn-letter-2',
   img: 'writing',
   list: [
     {

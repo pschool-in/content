@@ -1,4 +1,4 @@
-const tamil = [
+const more = [
   {
     label: 'மீண்டும் படம்',
     slug: 'ta-picture-2'
@@ -46,5 +46,5 @@ const tamil = [
 ];
 
 export default {
-  tamil
+  more
 };
