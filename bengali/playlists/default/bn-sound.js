@@ -5,6 +5,98 @@ export default {
   list: [
     {
       type: 'slides',
+      id: 'fruits',
+      label: 'ফল',
+      commonData: {
+        audio: 'bn-fruits.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `apple | আপেল
+  grapes | আঙুর
+  banana | কলা
+  guava | পেয়ারা
+  jackfruit | কাঁঠাল 
+  mango | আম
+  orange | কমলা লেবু
+  papaya | পেঁপে `
+        },
+        {
+          audioOffset: 16,
+          text: `pineapple | আনারস
+  pomegranate | ডালিম
+  watermelon | তরমুজ
+  fig | ডুমুর
+  custard-apple | আতা
+  dates | খেজুর
+  muskmelon | খরবুজ`
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'flowers',
+      label: 'ফুল',
+      data: {
+        audio: 'bn-flowers-bodyParts-kitchen.mp3',
+        audioOffset: 0,
+        text: `rose | গোলাপ
+  lotus | পদ্ম 
+  sunflower | সূর্যমুখী 
+  marigold | গাঁদা 
+  hibiscus | জবা
+  jasmine | জুঁই `
+      }
+    },
+    {
+      type: 'slides',
+      id: 'vegetables',
+      label: 'শাকসবজি',
+      commonData: {
+        audio: 'bn-vegetables.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `carrot | গাজর
+  beetroot | বিট
+  onion | পেঁয়াজ 
+  tomato | টমেটো
+  potato | আলু
+  cabbage | বাঁধাকপি
+  cauliflower | ফুলকপি
+  corn | ভুট্টা
+  cucumber | শসা
+  garlic | রসুন`
+        },
+        {
+          audioOffset: 20,
+          text: `ginger | আদা
+  pumpkin | কুমড়
+  almond | বাদাম
+  bitter-gourd | করলা
+  brinjal | বেগুন
+  cashewnut | কাজুবাদাম
+  chilli | লঙ্কা
+  coconut | নারকেল
+  corianderleaf | ধনেপাতা
+  curryleaf | কারিপাতা`
+        },
+        {
+          audioOffset: 40,
+          text: `drumstick | সজনেডাঁটা
+  greenpeas | মটরশুটি
+  ladies-finger | ভিন্ডি
+  mintleaf | পুদিনা
+  peanut | চিনাবাদাম
+  raddish | মূলো
+  spinach | পালং শাক`
+        }
+      ]
+    },
+    {
+      type: 'slides',
       id: 'animals',
       label: 'পশু',
       commonData: {
@@ -102,98 +194,7 @@ export default {
         }
       ]
     },
-    {
-      type: 'slides',
-      id: 'vegetables',
-      label: 'শাকসবজি',
-      commonData: {
-        audio: 'bn-vegetables.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: `carrot | গাজর
-  beetroot | বিট
-  onion | পেঁয়াজ 
-  tomato | টমেটো
-  potato | আলু
-  cabbage | বাঁধাকপি
-  cauliflower | ফুলকপি
-  corn | ভুট্টা
-  cucumber | শসা
-  garlic | রসুন`
-        },
-        {
-          audioOffset: 20,
-          text: `ginger | আদা
-  pumpkin | কুমড়
-  almond | বাদাম
-  bitter-gourd | করলা
-  brinjal | বেগুন
-  cashewnut | কাজুবাদাম
-  chilli | লঙ্কা
-  coconut | নারকেল
-  corianderleaf | ধনেপাতা
-  curryleaf | কারিপাতা`
-        },
-        {
-          audioOffset: 40,
-          text: `drumstick | সজনেডাঁটা
-  greenpeas | মটরশুটি
-  ladies-finger | ভিন্ডি
-  mintleaf | পুদিনা
-  peanut | চিনাবাদাম
-  raddish | মূলো
-  spinach | পালং শাক`
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'fruits',
-      label: 'ফল',
-      commonData: {
-        audio: 'bn-fruits.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: `apple | আপেল
-  grapes | আঙুর
-  banana | কলা
-  guava | পেয়ারা
-  jackfruit | কাঁঠাল 
-  mango | আম
-  orange | কমলা লেবু
-  papaya | পেঁপে `
-        },
-        {
-          audioOffset: 16,
-          text: `pineapple | আনারস
-  pomegranate | ডালিম
-  watermelon | তরমুজ
-  fig | ডুমুর
-  custard-apple | আতা
-  dates | খেজুর
-  muskmelon | খরবুজ`
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'flowers',
-      label: 'ফুল',
-      data: {
-        audio: 'bn-flowers-bodyParts-kitchen.mp3',
-        audioOffset: 0,
-        text: `rose | গোলাপ
-  lotus | পদ্ম 
-  sunflower | সূর্যমুখী 
-  marigold | গাঁদা 
-  hibiscus | জবা
-  jasmine | জুঁই `
-      }
-    },
+
     {
       type: 'slides',
       id: 'bodyParts',
