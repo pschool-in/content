@@ -8,7 +8,7 @@ export default {
       label: 'विलोम शब्द',
       id: 'antonyms',
       commonData: {
-        title: 'विलोम का मिलान करें'
+        title: 'विलोम शब्द का मिलान करें'
       },
       data: [
         `सरल, कठिन 
@@ -149,7 +149,7 @@ export default {
       ]
     },
     {
-      type: 'rightOne',
+      type: 'match',
       id: 'onewordmanymeanings-2',
       label: 'असंगत का चयन करें ।',
       data: {
@@ -213,7 +213,7 @@ export default {
     },
     {
       label: 'सही उत्तर का चयन करें।',
-      id: 'hi-collective words',
+      id: 'hi-collectivewords',
       type: 'mcq',
       commonData: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।'
