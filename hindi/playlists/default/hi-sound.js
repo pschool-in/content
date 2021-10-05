@@ -18,7 +18,7 @@ dog| कुत्ता
 goat| बकरी
 sheep| भेड्
 horse| घोडा
-pig| सुअर
+pig| सूअर
 elephant| हाथी
 lion| शेर
 monkey| बंदर
@@ -75,7 +75,7 @@ hen| मुर्गी
 parrot| तोता
 peacock| मोर
 sparrow| गौरेया
-chick| चूजा
+chick| चूज़ा
 myna| मैना`
         },
         {
@@ -100,7 +100,7 @@ kingfisher| नीलकंठ`
         audioOffset: 0,
         text: `rose | गुलाब
 lotus | कमल
-sunflower | सूरजमुखी
+sunflower | सूर्यमुखी 
 marigold | गेंदा
 jasmine | चमेली
 hibiscus | गुडहल`
@@ -184,7 +184,7 @@ muskmelon| खरबूज`
           audioOffset: 0,
           text: `carrot| गाजर
 beetroot| चुकंदर
-onion| प्याज
+onion| प्याज़
 tomato| टमाटर
 potato| आलू
 cabbage| पत्ता गोभी
@@ -355,9 +355,9 @@ crayons| चित्रांकनी `
           text: `axe| कुल्हाडी
 balance| तराज़ू
 blackboard | श्यामपट 
-hose | रबर का पाइप
+hose| रबर की पाइप
 plier| प्‍लास
-microscope| सूछ्म दर्शी
+microscope| सूक्ष्मदर्शी
 needle | सुई
 oven | कुठला
 plough | हल
