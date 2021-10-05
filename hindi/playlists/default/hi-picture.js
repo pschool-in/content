@@ -9,6 +9,7 @@ export default {
       id: 'fruits',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -38,6 +39,7 @@ export default {
       id: 'vegetables',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -84,6 +86,7 @@ export default {
       id: 'flowers',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
         lotus| कमल| _मल| क, लू, ही, त्रु	
@@ -101,6 +104,7 @@ export default {
       id: 'bodyparts',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `ear| कान | _न| का, हू, क्षौ, त्रि	          
         hand| हाथ | _थ| हा , भि, मू , त्रौ 
@@ -118,6 +122,7 @@ export default {
       id: 'others',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
