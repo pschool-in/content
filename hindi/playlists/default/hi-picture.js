@@ -84,9 +84,9 @@ export default {
       type: 'completeWord',
       label: 'फूल',
       id: 'flowers',
-      title: 'लापता अक्षरों को भरें।',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
         lotus| कमल| _मल| क, लू, ही, त्रु	
@@ -102,9 +102,9 @@ export default {
       type: 'completeWord',
       label: 'शरीर के अंग',
       id: 'bodyparts',
-      title: 'लापता अक्षरों को भरें।',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `ear| कान | _न| का, हू, क्षौ, त्रि	          
         hand| हाथ | _थ| हा , भि, मू , त्रौ 
