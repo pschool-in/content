@@ -9,6 +9,7 @@ export default {
       id: 'fruits',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -38,6 +39,7 @@ export default {
       id: 'vegetables',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -82,6 +84,7 @@ export default {
       type: 'completeWord',
       label: 'फूल',
       id: 'flowers',
+      title: 'लापता अक्षरों को भरें।',
       data: {
         images: 'custom',
         lang: 'hi',
@@ -99,6 +102,7 @@ export default {
       type: 'completeWord',
       label: 'शरीर के अंग',
       id: 'bodyparts',
+      title: 'लापता अक्षरों को भरें।',
       data: {
         images: 'custom',
         lang: 'hi',
@@ -118,6 +122,7 @@ export default {
       id: 'others',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
