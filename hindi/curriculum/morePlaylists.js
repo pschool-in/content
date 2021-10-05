@@ -8,14 +8,6 @@ const more = [
     slug: 'hi-grammar-4'
   },
   {
-    label: 'व्याकरण 3',
-    slug: 'hi-grammar-practice'
-  },
-  {
-    label: 'वर्ण 2',
-    slug: 'hi-letter-practice'
-  },
-  {
     label: 'चित्र',
     slug: 'hi-picture-2'
   },
@@ -32,21 +24,29 @@ const more = [
     slug: 'hi-sentence-4'
   },
   {
-    label: 'वाक्य 3',
-    slug: 'hi-sentence-practice'
-  },
-  {
     label: 'शब्द',
     slug: 'hi-word-4'
   },
   {
     label: 'शब्द 2',
     slug: 'hi-word-5'
+  },  
+  {
+    label: 'व्याकरण 3',
+    slug: 'hi-grammar-practice'
+  },
+  {
+    label: 'वर्ण 2',
+    slug: 'hi-letter-practice'
   },
   {
     label: 'शब्द 3',
     slug: 'hi-word-practice'
   }
+  {
+    label: 'वाक्य 3',
+    slug: 'hi-sentence-practice'
+  },
 ];
 
 export default {
