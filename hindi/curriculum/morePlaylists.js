@@ -42,11 +42,11 @@ const more = [
   {
     label: 'शब्द 3',
     slug: 'hi-word-practice'
-  }
+  },
   {
     label: 'वाक्य 3',
     slug: 'hi-sentence-practice'
-  },
+  }
 ];
 
 export default {
