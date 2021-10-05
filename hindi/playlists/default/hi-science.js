@@ -48,11 +48,11 @@ export default {
         label: 'जंगली जानवर बनाम घरेलू जानवर ',
         id: 'classify-animal-type',
         commonData: {
-          title: 'जानवरों को सही बॉक्स में रखें ',
+          title: 'जानवरों को जंगली या घरेलू के रूप में वर्गीकृत करें',
           fontSize: '2rem',
           printTitle:
             'Rewrite the words given at the bottom at approprate boxes.',
-          types: ['Wild Animal', 'Domestic Animal']
+          types: ['जंगली जानवर', 'घरेलू जानवर']
         },
         data: [
           [`बाघ,बारहसिंगा, शेर, लोमड़ी, कंगारू`, `गाय, भैंस, बकरी, भेड़, घोड़ा`],
@@ -64,9 +64,9 @@ export default {
       {
         label: 'जंगली जानवर - घरेलू जानवर',
         type: 'group',
-        id: 'bn-domestic-wild',
+        id: 'hi-domestic-wild',
         data: {
-          title: 'पालतू जानवरों और जंगली जानवरों को सही डिब्बे में रखें ',
+          title: 'जानवरों को जंगली या घरेलू के रूप में वर्गीकृत करें',
           imageType: 'animals',
           types: [
             {
@@ -80,12 +80,12 @@ export default {
           ]
         }
       },
-              {
+       {
         label: 'जमीन के ऊपर - जमीन के नीचे सब्जियां',
         type: 'group',
         id: 'vegi',
         data: {
-          title: 'जमीन के ऊपर और जमीन के नीचे सब्जियां को सही डिब्बे में रखें ',
+          title: 'सब्जियों को जमीन के नीचे या जमीन के ऊपर उगने वाले के रूप में वर्गीकृत करें। ',
           imageType: 'vegetables',
           types: [
             {
@@ -99,12 +99,12 @@ export default {
           ]
         }
       },
-              {
+      {
         label: 'भूमिवाहन - जलवाहन - वायुवाहन',
         type: 'group',
-        id: 'bn-vehicle',
+        id: 'hi-vehicle',
         data: {
-          title: 'भूमिवाहन, जलवाहन और वायुवाहन को सही डिब्बे में रखें ',
+          title: 'सड़क पर, पानी में या हवा में इस्तेमाल होने वाले वाहनों को वर्गीकृत करें। ',
           imageType: 'vegetables',
           types: [
             {
@@ -122,9 +122,9 @@ export default {
           ]
         }
       },
-  {
+     {
     type: 'dragAndDrop',
-    id: 'bn-parts-plant',
+    id: 'hi-parts-plant',
     label: 'पौधे का भाग',
     data: {
       img: 'plant',
@@ -133,7 +133,7 @@ export default {
       wordWidth: 50,
       words: [
         { word: 'जड़ों', x: 4, y: 139 },
-        { word: 'उपजी', x: 190, y: 10 },
+        { word: 'तना', x: 190, y: 10 },
         { word: 'पत्तियां', x: 197, y: 78 },
         { word: 'पुष्प', x: 18, y: 16 },
         { word: 'कली', x: 4, y: 88 }
@@ -142,7 +142,7 @@ export default {
   },
   {
     type: 'dragAndDrop',
-    id: 'bn-parts-dog',
+    id: 'hi-parts-dog',
     label: 'कुत्ते का भाग',
     data: {
       img: 'dog',
@@ -162,8 +162,8 @@ export default {
   },
   {
     type: 'dragAndDrop',
-    id: 'bn-parts-body',
-    label: 'मानव भाग',
+    id: 'hi-parts-body',
+    label: 'शरीर के अंग',
     data: {
       img: 'human',
       width: 250,
@@ -182,4 +182,4 @@ export default {
     }
   }
     ]
-  };
+  };      
