@@ -135,7 +135,6 @@ export default {
   },
     {
         label: 'खाली स्थान में उचित क्रिया लिखिए।',
-        locked: 'true',
         type: 'matchByDragDrop',
         id: 'verb',
         data: {
