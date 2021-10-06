@@ -152,6 +152,7 @@ export default {
       type: 'match',
       id: 'onewordmanymeanings-2',
       label: 'असंगत का चयन करें ।',
+      locked: 'true',
       data: {
         title: 'असंगत का चयन करें ।',
         fontSize: '1.3rem',
