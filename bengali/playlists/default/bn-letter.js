@@ -2,6 +2,7 @@ export default {
     label: 'বর্ণ',
     id: 'bn-writing',
     img: 'writing',
+    lockAfter: 8,
     list: [
         {
             id: 'compoundword-reading',
