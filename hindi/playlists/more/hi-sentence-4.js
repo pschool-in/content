@@ -31,7 +31,7 @@ export default {
       },
       {
         label: 'खाली स्थान में उचित संज्ञा लिखिए।',
-        type: 'fillupOptions',
+        type: 'matchByDragDrop',
         id: 'noun',
         data: {
         title: 'दिए गए शब्दों में से सही व्यक्तिवाचक संज्ञा चुनकर वाक्य पूरी करो।',
@@ -44,7 +44,7 @@ export default {
     },
       {
        label: 'खाली स्थान में उचित संज्ञा लिखिए।',
-       type: 'fillupOptions',
+       type: 'matchByDragDrop',
        id: 'noun-2',
        data: {
        title: 'दिए गए शब्दों में से सही जातिवाचक संज्ञा चुनकर वाक्य पूरी करो।',
@@ -57,7 +57,7 @@ export default {
     },
       {
        label: 'खाली स्थान में उचित संज्ञा लिखिए।',
-       type: 'fillupOptions',
+       type: 'matchByDragDrop',
        id: 'noun-3',
        data: {
        title: 'दिए गए शब्दों में से सही भाववाचक संज्ञा चुनकर वाक्य पूरी करो।',
@@ -69,7 +69,7 @@ export default {
     },
       {
         label: 'खाली स्थान में उचित सर्वनाम लिखिए।',
-        type: 'fillupOptions',
+        type: 'matchByDragDrop',
         id: 'pronoun',
         data: {
         title: 'दिए गए शब्दों में से सही पुरुषवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
@@ -82,12 +82,12 @@ export default {
     },
       {
        label: 'खाली स्थान में उचित सर्वनाम लिखिए।',
-       type: 'fillupOptions',
+       type: 'matchByDragDrop',
        id: 'pronoun-2',
        data: {
        title: 'दिए गए शब्दों में से सही निजवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
        text: `मैं अपने कपडे *स्वयं* धो लूँगा।
-       मैं वहां अपने *आप* चला जाऊंगा।
+       मैं वहाँ अपने *आप* चला जाऊँगा। 
        *मैं* सुबह जल्दी उठता हूँ।
        अपने देश की सेवा करना ही *मेरा* लक्षय है।
        वहां जो गाडी खड़ी है वह *मेरी* है।`

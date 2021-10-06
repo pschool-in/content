@@ -10,6 +10,7 @@ export default {
       id: 'animals',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -40,7 +41,7 @@ export default {
 
         `tortoise| कछुआ|  _छुआ| क, झा, घि, की
         rat| चूहा | _हा | चू , क्षु, षु , वू 
-        ant| चींटी | _टीा| चीं , तै, छं , ची
+        ant| चींटी | _टी | चीं , तै, छं , ची
         fly| मक्खी| _क्खी |  म , थो, टौ , षि 
         bat| चमगादड़ |_मगादड़ | च, धु, णा, बु`,
 
@@ -52,7 +53,7 @@ export default {
 
         `mongoose| नेवला| _वला| ने, खी, थी,  ठी
          mosquito| मच्छर | _च्छर| म, ढि, दै,  चा
-         wolf| भेड़िया| _ड़िया| भे, दी, फी, दै
+         wolf| भेड़िया| _,ड़िया| भे, दी, फी, दै
          cockroach| तिलचट्टा| _लचट्टा| ति, श्री, दी, तौ 	
          lizard| छिपकली| _पकली| छि, ठै, धु, यी 
          rabbit| खरगोश| _रगोश| ख, तै, णी, का`
@@ -64,6 +65,7 @@ export default {
       id: 'birds',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -80,7 +82,7 @@ export default {
       vulture| गिद्ध| _द्ध| गि, णा, यै, फी`,
 
         `flamingo| मराल |_राल | म, णू, थो, टी
-      kingfisher| नीलकंठा| _लकंठ| नी, जु, खं, तौ	
+      kingfisher|नीलकंठ| _लकंठ| नी, जु, खं, तौ	
       myna| मैना | _ना | मै, तै, यै, गि
       ostrich| शुतरमुर्ग| _तरमुर्ग| शु, फि, तै, खि 
       owl| उल्लू| _ल्लू| उ, णू, थो, टी
@@ -95,6 +97,7 @@ export default {
       id: 'vehicles',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `aeroplane| हवाईजहाज | _वाईजहाज| ह, ळी, म, है 
         boat| नाव | _व | ना, हे, शं, पू
@@ -115,6 +118,7 @@ export default {
       id: 'house',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -141,6 +145,7 @@ export default {
       id: 'school',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `eraser| रबड़| _बड़ | र, खा, कौ, घै	
         pen| कलम|  _लम| क, घै, थो, दी
@@ -156,6 +161,7 @@ export default {
       id: 'kitchen',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `stove| चूल्हा| _ल्हा |चू, चा, चे, चै	 
         fork| कांटा| _टा |कां, कै, को, कौ
@@ -173,13 +179,14 @@ export default {
       id: 'tools',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
         `axe| कुल्हाडी| _ल्हाडी| कु, झो, फे, टू
         balance| तराज़ू| _राज़ू|  त, मि, फी, थी
         blackboard| श्यामपट| _यामपट| श्, मि, झं, मू 
-        microscope| सूछ्मदर्शी |_छ्मदर्शी | सू, भी, क्षा, मु
+        microscope| सूक्ष्मदर्शी|_क्ष्मदर्शीशी | सू, भी, क्षा, मु
         needle| सुई| _ई| सु, झि, ठू, झं`,
 
         `plough| हल| _ल| ह, टु, थी, चू

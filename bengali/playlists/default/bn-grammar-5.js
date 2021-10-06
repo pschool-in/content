@@ -1,5 +1,5 @@
 export default {
-    label: 'ব্যাকরণ-2',
+    label: 'ব্যাকরণ',
     id: 'bn-grammar-5',
     img: 'langGrammar',
     list: [

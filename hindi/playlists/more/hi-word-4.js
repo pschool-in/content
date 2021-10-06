@@ -8,7 +8,7 @@ export default {
       label: 'विलोम शब्द',
       id: 'antonyms',
       commonData: {
-        title: 'विलोम का मिलान करें'
+        title: 'विलोम शब्द का मिलान करें'
       },
       data: [
         `सरल, कठिन 
@@ -149,7 +149,7 @@ export default {
       ]
     },
     {
-      type: 'rightOne',
+      type: 'match',
       id: 'onewordmanymeanings-2',
       label: 'असंगत का चयन करें ।',
       data: {
@@ -213,7 +213,7 @@ export default {
     },
     {
       label: 'सही उत्तर का चयन करें।',
-      id: 'hi-collective words',
+      id: 'hi-collectivewords',
       type: 'mcq',
       commonData: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।'
@@ -242,30 +242,34 @@ export default {
               options: 'कुंज, रेवड़, मंडल'
             }
           ],
+        },
+        {
 
           questions: [
             {
               qText: 'मक्खियों का',
-              options: 'झुंड, जाल, जत्था  '
+              options: 'झुंड, जाल, जत्था'
             },
             {
               qText: 'अनाज का',
-              options: 'ढेर, गड्डी, दस्ता '
+              options: 'ढेर, गड्डी, दस्ता'
             },
             {
               qText: 'सत्याग्रहियों का',
-              options: 'जत्था, झुंड, मंडल '
+              options: 'जत्था, झुंड, मंडल'
             },
             {
               qText: 'यात्रियों का  ',
-              options: 'समूह, संघ, जाल '
+              options: 'समूह, संघ, जाल'
             },
             {
               qText: 'गायकों की',
-              options: 'मंडली, टीम, गिरोह '
+              options: 'मंडली, टीम, गिरोह'
             }
           ]
         },
+      ]
+    },
         {
           label: 'रिक्त स्थान भरें। ',
           type: 'matchByDragDrop',
@@ -303,7 +307,7 @@ export default {
                   फलों की *टोकरी*`
           }
         }
-      ]
-    }
+      
+    
   ]
-};
+}

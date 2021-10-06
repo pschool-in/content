@@ -9,6 +9,7 @@ export default {
       id: 'fruits',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -38,6 +39,7 @@ export default {
       id: 'vegetables',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -48,7 +50,7 @@ export default {
         potato| आलू | _लू| आ, कै, गू, टे, घा	`,		 
         
         `cabbage| पत्ता गोभी | _त्ता गोभी | प, घा, ख, ट	   
-        cauliflower| गोभी| _ भी| गो, झौ, झा, टि  	
+        cauliflower| गोभी| _भी| गो, झौ, झा, टि  	
         corn| भुट्टा | _ट्टा | भु, छी, चू, का
         cucumber| खीरा | _रा | खी, शी, से, यो 
         garlic| लहसुन | _हसुन | ल, र , हि, षु`,
@@ -84,6 +86,7 @@ export default {
       id: 'flowers',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
         lotus| कमल| _मल| क, लू, ही, त्रु	
@@ -101,6 +104,7 @@ export default {
       id: 'bodyparts',
       data: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi',
         text: `ear| कान | _न| का, हू, क्षौ, त्रि	          
         hand| हाथ | _थ| हा , भि, मू , त्रौ 
@@ -118,6 +122,7 @@ export default {
       id: 'others',
       commonData: {
         images: 'custom',
+        title: 'लापता अक्षरों को भरें।',
         lang: 'hi'
       },
       data: [
@@ -143,7 +148,7 @@ export default {
         `ladder|  सीढ़ी |  _ढ़ी | सी, दी, ती, ढू
      leaf| पत्ता | _त्ता | प, टा, ती, खी
      rishi|  ऋषि|  _षि|  ऋ, मि, डो, टि	
-     wheel| चक्का| _क्का| च, ब, भि, बै,
+     wheel| चक्का| _क्का| च, ब, भि, बै
      whistle| सीटी| _टी|  सी, णू, घी, था	
      world| दुनिया| _निया | दु, टा, णू, दी`
       ]
@@ -296,7 +301,6 @@ export default {
 प, leaf
 ऋ, rishi
 च, wheel
-सी, whistle
 दु, world`
       ]
     }

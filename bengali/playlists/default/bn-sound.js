@@ -5,6 +5,154 @@ export default {
   list: [
     {
       type: 'slides',
+      id: 'fruits',
+      label: 'ফল',
+      commonData: {
+        audio: 'bn-fruits.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `apple | আপেল
+  grapes | আঙুর
+  banana | কলা
+  guava | পেয়ারা
+  jackfruit | কাঁঠাল 
+  mango | আম
+  orange | কমলা লেবু
+  papaya | পেঁপে `
+        },
+        {
+          audioOffset: 16,
+          text: `pineapple | আনারস
+  pomegranate | ডালিম
+  watermelon | তরমুজ
+  fig | ডুমুর
+  custard-apple | আতা
+  dates | খেজুর
+  muskmelon | খরবুজ`
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'flowers',
+      label: 'ফুল',
+      data: {
+        audio: 'bn-flowers-bodyParts-kitchen.mp3',
+        audioOffset: 0,
+        text: `rose | গোলাপ
+  lotus | পদ্ম 
+  sunflower | সূর্যমুখী 
+  marigold | গাঁদা 
+  hibiscus | জবা
+  jasmine | জুঁই `
+      }
+    },
+    {
+      type: 'slides',
+      id: 'vegetables',
+      label: 'শাকসবজি',
+      commonData: {
+        audio: 'bn-vegetables.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `carrot | গাজর
+  beetroot | বিট
+  onion | পেঁয়াজ 
+  tomato | টমেটো
+  potato | আলু
+  cabbage | বাঁধাকপি
+  cauliflower | ফুলকপি
+  corn | ভুট্টা
+  cucumber | শসা
+  garlic | রসুন`
+        },
+        {
+          audioOffset: 20,
+          text: `ginger | আদা
+  pumpkin | কুমড়
+  almond | বাদাম
+  bitter-gourd | করলা
+  brinjal | বেগুন
+  cashewnut | কাজুবাদাম
+  chilli | লঙ্কা
+  coconut | নারকেল
+  corianderleaf | ধনেপাতা
+  curryleaf | কারিপাতা`
+        },
+        {
+          audioOffset: 40,
+          text: `drumstick | সজনেডাঁটা
+  greenpeas | মটরশুটি
+  ladies-finger | ভিন্ডি
+  mintleaf | পুদিনা
+  peanut | চিনাবাদাম
+  raddish | মূলো
+  spinach | পালং শাক`
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'শব্দ শুনে শনাক্ত করুন - ফল, ফুল, শাকসবজি',
+      id: 'pick-word-fruitveg',
+      commonData: {
+        title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
+        type: 'image'
+      },
+      data: [
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 0,
+          words: 'rose, lotus, sunflower, marigold, hibiscus, jasmine'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 12,
+          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 28,
+          words: 'stove, fork, knife, pan, spoon, pot, butter'
+        },
+        {
+          audio: 'bn-fruits.mp3',
+          audioOffset: 0,
+          words:
+            'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
+        },
+        {
+          audio: 'bn-fruits.mp3',
+          audioOffset: 16,
+          words:
+            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
+        },
+        {
+          audio: 'bn-vegetables.mp3',
+          audioOffset: 0,
+          words:
+            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+        },
+        {
+          audio: 'bn-vegetables.mp3',
+          audioOffset: 20,
+          words:
+            'ginger, pumpkin, almond, bitter-gourd, brinjal, cashewnut, chilli, coconut, corianderleaf, curryleaf'
+        },
+        {
+          audio: 'bn-vegetables.mp3',
+          audioOffset: 40,
+          words:
+            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+        }
+      ]
+    },
+    {
+      type: 'slides',
       id: 'animals',
       label: 'পশু',
       commonData: {
@@ -103,20 +251,53 @@ export default {
       ]
     },
     {
-      type: 'slides',
-      id: 'flowers',
-      label: 'ফুল',
-      data: {
-        audio: 'bn-flowers-bodyParts-kitchen.mp3',
-        audioOffset: 0,
-        text: `rose | গোলাপ
-  lotus | পদ্ম 
-  sunflower | সূর্যমুখী 
-  marigold | গাঁদা 
-  hibiscus | জবা
-  jasmine | জুঁই `
-      }
+      type: 'rightOne',
+      label: 'শব্দ শুনে শনাক্ত করুন - পশু, পাখি',
+      id: 'pick-word-animalbird',
+      commonData: {
+        title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
+        type: 'image'
+      },
+      data: [
+        {
+          audio: 'bn-animals.mp3',
+          words:
+            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 20,
+          words:
+            'hippo, rhino, fox, crocodile, bear, camel, shark, whale, dolphin, dragonfly'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 40,
+          words:
+            'fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant, fly'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 60,
+          words: 'bat, buffalo, butterfly, cheetah, cow, donkey'
+        },
+        {
+          audio: 'bn-animals.mp3',
+          audioOffset: 72,
+          words: 'mongoose, mosquito, wolf, cockroach, lizard, rabbit'
+        },
+        {
+          audio: 'bn-birds.mp3',
+          words: 'crow, dove, duck, hen, parrot, peacock, sparrow, chick, crane'
+        },
+        {
+          audio: 'bn-birds.mp3',
+          audioOffset: 18,
+          words: 'kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker'
+        }
+      ]
     },
+
     {
       type: 'slides',
       id: 'bodyParts',
@@ -150,83 +331,8 @@ export default {
   butter | মাখন`
       }
     },
-    {
-      type: 'slides',
-      id: 'fruits',
-      label: 'ফল',
-      commonData: {
-        audio: 'bn-fruits.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: `apple | আপেল
-  grapes | আঙুর
-  banana | কলা
-  guava | পেয়ারা
-  jackfruit | কাঁঠাল 
-  mango | আম
-  orange | কমলা লেবু
-  papaya | পেঁপে `
-        },
-        {
-          audioOffset: 16,
-          text: `pineapple | আনারস
-  pomegranate | ডালিম
-  watermelon | তরমুজ
-  fig | ডুমুর
-  custard-apple | আতা
-  dates | খেজুর
-  muskmelon | খরবুজ`
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'vegetables',
-      label: 'শাকসবজি',
-      commonData: {
-        audio: 'bn-vegetables.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: `carrot | গাজর
-  beetroot | বিট
-  onion | পেঁয়াজ 
-  tomato | টমেটো
-  potato | আলু
-  cabbage | বাঁধাকপি
-  cauliflower | ফুলকপি
-  corn | ভুট্টা
-  cucumber | শসা
-  garlic | রসুন`
-        },
-        {
-          audioOffset: 20,
-          text: `ginger | আদা
-  pumpkin | কুমড়
-  almond | বাদাম
-  bitter-gourd | করলা
-  brinjal | বেগুন
-  cashewnut | কাজুবাদাম
-  chilli | লঙ্কা
-  coconut | নারকেল
-  corianderleaf | ধনেপাতা
-  curryleaf | কারিপাতা`
-        },
-        {
-          audioOffset: 40,
-          text: `drumstick | সজনেডাঁটা
-  greenpeas | মটরশুটি
-  ladies-finger | ভিন্ডি
-  mintleaf | পুদিনা
-  peanut | চিনাবাদাম
-  raddish | মূলো
-  spinach | পালং শাক`
-        }
-      ]
-    },
+
+
     {
       type: 'slides',
       id: 'vehicles',
@@ -313,109 +419,8 @@ export default {
         }
       ]
     },
-    {
-      type: 'rightOne',
-      label: 'শব্দ শুনে শনাক্ত করুন - পশু, পাখি',
-      id: 'pick-word-animalbird',
-      commonData: {
-        title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
-        type: 'image'
-      },
-      data: [
-        {
-          audio: 'bn-animals.mp3',
-          words:
-            'cat, dog, goat, sheep, horse, pig, elephant, lion, monkey, tiger'
-        },
-        {
-          audio: 'bn-animals.mp3',
-          audioOffset: 20,
-          words:
-            'hippo, rhino, fox, crocodile, bear, camel, shark, whale, dolphin, dragonfly'
-        },
-        {
-          audio: 'bn-animals.mp3',
-          audioOffset: 40,
-          words:
-            'fish, frog, crab, snake, squirrel, tortoise, rat, winged-termites, ant, fly'
-        },
-        {
-          audio: 'bn-animals.mp3',
-          audioOffset: 60,
-          words: 'bat, buffalo, butterfly, cheetah, cow, donkey'
-        },
-        {
-          audio: 'bn-animals.mp3',
-          audioOffset: 72,
-          words: 'mongoose, mosquito, wolf, cockroach, lizard, rabbit'
-        },
-        {
-          audio: 'bn-birds.mp3',
-          words: 'crow, dove, duck, hen, parrot, peacock, sparrow, chick, crane'
-        },
-        {
-          audio: 'bn-birds.mp3',
-          audioOffset: 18,
-          words: 'kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker'
-        }
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'শব্দ শুনে শনাক্ত করুন - ফল, ফুল, শাকসবজি',
-      id: 'pick-word-fruitveg',
-      commonData: {
-        title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
-        type: 'image'
-      },
-      data: [
-        {
-          audio: 'bn-flowers-bodyParts-kitchen.mp3',
-          audioOffset: 0,
-          words: 'rose, lotus, sunflower, marigold, hibiscus, jasmine'
-        },
-        {
-          audio: 'bn-flowers-bodyParts-kitchen.mp3',
-          audioOffset: 12,
-          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
-        },
-        {
-          audio: 'bn-flowers-bodyParts-kitchen.mp3',
-          audioOffset: 28,
-          words: 'stove, fork, knife, pan, spoon, pot, butter'
-        },
-        {
-          audio: 'bn-fruits.mp3',
-          audioOffset: 0,
-          words:
-            'apple, grapes, banana, guava, jackfruit, mango, orange, papaya'
-        },
-        {
-          audio: 'bn-fruits.mp3',
-          audioOffset: 16,
-          words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, dates, muskmelon'
-        },
-        {
-          audio: 'bn-vegetables.mp3',
-          audioOffset: 0,
-          words:
-            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
-        },
-        {
-          audio: 'bn-vegetables.mp3',
-          audioOffset: 20,
-          words:
-            'ginger, pumpkin, almond, bitter-gourd, brinjal, cashewnut, chilli, coconut, corianderleaf, curryleaf'
-        },
-        {
-          audio: 'bn-vegetables.mp3',
-          audioOffset: 40,
-          words:
-            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
-        }
-      ]
-    },
+
+
     {
       type: 'rightOne',
       label: 'শব্দ শুনে শনাক্ত করুন - যানবাহন , অন্যান্য',
