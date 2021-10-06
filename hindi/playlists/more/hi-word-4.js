@@ -151,13 +151,15 @@ export default {
     {
       type: 'rightOne',
       id: 'onewordmanymeanings-2',
-      label: 'असंगत का चयन करें ।',
-      locked: 'true',
-      data: {
-        title: 'असंगत का चयन करें ।',
+      label: 'असंगत का चयन करें',
+      // locked: 'true',
+      lockAfter: 1,
+      commonData: {
+        title: 'असंगत का चयन करें',
         fontSize: '1.3rem',
         noCaps: true,
-        text: [
+      },
+        data: [
           `सेवा, फल, परिणाम,आम 
               ऊपर, तीर, किनारा, बाण
               दिशा, जग, संसार, बर्तन 
@@ -171,7 +173,7 @@ export default {
                पक्षी, मगर, परंतु, मगरमच्छ 
                पर, वर्ण, अक्षर, जाति`
         ]
-      }
+      
     },
     {
       type: 'fillupOptions',
