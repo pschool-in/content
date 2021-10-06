@@ -108,6 +108,7 @@ export default {
     },
       {
         label: 'खाली स्थान में उचित विशेषण लिखिए',
+          locked: 'true',
         type: 'matchByDragDrop',
         id: 'adjective-2',
         data: {
@@ -121,6 +122,7 @@ export default {
     },
       {
         label: 'खाली स्थान में उचित विशेषण लिखिए',
+          locked: 'true',
         type: 'matchByDragDrop',
         id: 'adjective-3',
         data: {
@@ -132,6 +134,7 @@ export default {
     },
       {
         label: 'पर्यायवाची शब्द से रिक्त स्थान की पूर्ति',
+          locked: 'true',
         type: 'matchByDragDrop',
         id: 'synonym',
         data: {

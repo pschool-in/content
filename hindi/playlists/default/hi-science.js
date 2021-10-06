@@ -101,6 +101,7 @@ export default {
       },
       {
         label: 'भूमिवाहन - जलवाहन - वायुवाहन',
+          locked: 'true',
         type: 'group',
         id: 'hi-vehicle',
         data: {
@@ -164,6 +165,7 @@ export default {
     type: 'dragAndDrop',
     id: 'hi-parts-body',
     label: 'शरीर के अंग',
+      locked: 'true',
     data: {
       img: 'human',
       width: 250,
@@ -183,6 +185,7 @@ export default {
     },
     {
         label: 'क्या तुम जानते हो? ',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'didyouknow',
         commonData: {

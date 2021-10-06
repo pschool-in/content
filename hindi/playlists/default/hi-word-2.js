@@ -6,6 +6,7 @@ export default {
       {
         id: 'jumbled-hi-1',
         label: 'शब्द गठन-दो अक्षर वाले शब्द',
+           lockAfter:4,
         type: 'sequence',
         commonData: {
           title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -27,6 +28,7 @@ export default {
       {
         id: 'jumbled-hi-2',
         label: 'शब्द गठन-तीन अक्षर वाले शब्द',
+           lockAfter:4,
         type: 'sequence',
         commonData: {
           title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -110,6 +112,7 @@ export default {
       },
       {
         label: 'अनेक शब्दों के लिए एक शब्द',
+           lockAfter:4,
         type: 'matchByDragDrop',
         id: 'one-word-sub',
         commonData: {

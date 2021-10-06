@@ -176,6 +176,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'भालू और दो मित्र-mcq',
       type: 'mcq',
       data: {
@@ -235,6 +236,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'एकता में बल की कहानी-mcq',
       type: 'mcq',
       data: {
@@ -284,6 +286,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'चार मित्रों की कहानी-mcq',
       type: 'mcq',
       data: {
@@ -327,6 +330,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'नीले सियार की कहानी-mcq',
       type: 'mcq',
       data: {
@@ -372,6 +376,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'अंगूर खट्टे हैं – लोमड़ी और अंगूर की कहानी-mcq',
       type: 'mcq',
       data: {

@@ -129,6 +129,7 @@ export default {
     {
       type: 'match',
       label: 'निम्नलिखित को जोड़िए।',
+       lockAfter:2,
       id: 'match-tatsamandtatbhav',
       commonData: {
         title: 'तत्सम और तद्भव शब्द को जोड़िए।'
@@ -228,6 +229,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित संज्ञा लिखिए।',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun3',
       data: {
@@ -246,6 +248,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित संज्ञा लिखिए।',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun4',
       data: {
@@ -323,6 +326,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित सर्वनाम लिखिए। ',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun3',
       data: {
@@ -393,6 +397,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित विशेषण लिखिए। ',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-typesofadjective3',
       data: {
@@ -411,6 +416,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित विशेषण लिखिए। ',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-typesofadjective4',
       data: {

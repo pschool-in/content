@@ -37,6 +37,7 @@ export default {
       type: 'completeWord',
       label: 'सब्जियां',
       id: 'vegetables',
+      lockAfter:4,
       commonData: {
         images: 'custom',
         title: 'लापता अक्षरों को भरें।',
@@ -189,6 +190,7 @@ export default {
       id: 'match-vegetables',
       type: 'match',
       label: 'चित्र से मिलाओ- सब्जियां',
+       lockAfter:4,
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -235,6 +237,7 @@ export default {
       id: 'match-flowers',
       type: 'match',
       label: 'चित्र से मिलाओ - फूल',
+      locked: 'true',
       data: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -251,6 +254,7 @@ export default {
       id: 'match-bodyparts',
       type: 'match',
       label: 'चित्र से मिलाओ - शरीर के अंग',
+      locked: 'true',
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -272,6 +276,7 @@ export default {
       id: 'match-others',
       type: 'match',
       label: 'चित्र से मिलाओ',
+       lockAfter:2,
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',

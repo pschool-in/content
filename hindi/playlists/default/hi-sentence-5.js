@@ -94,6 +94,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupsentence-2',
         label: 'वाक्य के प्रकार की पहचान करें',
+           lockAfter:4,
         commonData: {
           title: 'सही विकल्प चुनकर रिक्त स्थानों की पूर्ति कीजिए।'
         },
@@ -199,6 +200,7 @@ export default {
       },
       {
         label: 'भविष्यकाल',
+        locked: 'true',  
         type: 'fillupOptions',
         id: 'futuretense',
         commonData: {
@@ -220,6 +222,7 @@ export default {
       },
       {
         label: 'सही उत्तर का चयन करें।',
+        locked: 'true',  
         id: 'hi-idioms',
         type: 'mcq',
         data: {
@@ -246,6 +249,7 @@ export default {
       }, 
       {
        label: 'विलोम शब्द',
+       locked: 'true',   
        type: 'matchByDragDrop',
        id: 'antonym',
        data: {
@@ -260,6 +264,7 @@ export default {
     },
       {
         label: 'पर्यायवाची शब्द से रिक्त स्थान की पूर्ति',
+        locked: 'true',  
         type: 'matchByDragDrop',
         id: 'synonym',
         data: {

@@ -7,6 +7,7 @@ export default {
     {
       type: 'completeWord',
       label: 'जानवर',
+       lockAfter:4,
       id: 'animals',
       commonData: {
         images: 'custom',
@@ -62,6 +63,7 @@ export default {
     {
       type: 'completeWord',
       label: 'पक्षी',
+       lockAfter:2,
       id: 'birds',
       commonData: {
         images: 'custom',
@@ -206,6 +208,7 @@ export default {
       id: 'match-animals',
       type: 'match',
       label: 'चित्र से मिलाओ - जानवर',
+       lockAfter:4,
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -265,6 +268,7 @@ export default {
       id: 'match-birds',
       type: 'match',
       label: 'चित्र से मिलाओ - पक्षी',
+       locked: 'true',
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -346,6 +350,7 @@ export default {
       id: 'match-school',
       type: 'match',
       label: 'चित्र से मिलाओ - विद्यालय',
+      locked: 'true',
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',
@@ -385,6 +390,7 @@ export default {
       id: 'match-tools',
       type: 'match',
       label: 'चित्र से मिलाओ - उपकरण',
+      locked: 'true',
       commonData: {
         title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
         rightImgType: 'custom',

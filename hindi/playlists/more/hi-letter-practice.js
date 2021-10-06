@@ -8,6 +8,7 @@ export default {
       id: 'compound-7',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (क - घ)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -83,6 +84,7 @@ export default {
       id: 'compound',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (च - झ)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -155,6 +157,7 @@ export default {
       id: 'compound-2',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (ट - त)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -242,6 +245,7 @@ export default {
       id: 'compound-3',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (थ - न)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -313,6 +317,7 @@ export default {
       id: 'compound-4',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (प - म)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -399,6 +404,7 @@ export default {
       id: 'compound-5',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (य - ष)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -500,6 +506,7 @@ export default {
       id: 'compound-6',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (ह - त्र)',
+       lockAfter:4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
