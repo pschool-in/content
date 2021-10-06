@@ -45,8 +45,8 @@ export default {
       data: {
         title: 'Elephants',
         text: [
-          { type: 'img', src: 'stockimg/elephant.jpg' },
-          `Elephants are the largest animal that lives in land. They are usually found in the forest of Africa and Asia. They have a long trunk. It is used to gather food, drink water and bathe. To cool down, they flap their large ears. They love to eat leaves, grass and bark. They are really big so they need to eat a lot of food. They can strike with huge force, which can topple even a truck.`
+          { type: 'img', src: 'elephant.jpg' },
+          `Elephants are the largest animals that live on land. They are usually found in the forests of Africa and Asia. They have a long trunk. It is used to gather food, drink water and bathe. They flap their ears to cool down. They love to eat leaves, grass and bark. They are really big so they need to eat a lot of food. They can strike with huge force, which can topple even a truck.`
         ]
       }
     },
@@ -57,10 +57,10 @@ export default {
       data: {
         title: 'Zebras',
         text: [
-          { type: 'img', src: 'stockimg/zebra.jpg' },
-          `Zebras are animals that have black and white stripes. Their stripes help to hide them and keep them safe from other animals. No two zebras have the same stripes - they are all different.
+          { type: 'img', src: 'zebra.jpg' },
+          `Zebras have black and white stripes. It helps them to hide from other animals/predators. No two zebras have the same stripes - they are all different.
 Zebras move quickly and can run faster than lions. If they are being chased by another animal, they run from side to side. Zebras also sleep standing up and they mostly eat grass.
-A baby zebra is called a foal and it can run within 1 hour of being born.`
+A baby zebra is called a foal and it can run within an hour after being born.`
         ]
       }
     },
@@ -71,8 +71,8 @@ A baby zebra is called a foal and it can run within 1 hour of being born.`
       data: {
         title: 'Giraffes',
         text: [
-          { type: 'img', src: 'stockimg/giraffe.jpg' },
-          `Giraffes are the tallest animals on land. Their long necks help them to eat leaves from tall trees. Giraffes also have small horns on the top of their head. These horns help to protect their head in a fight.`
+          { type: 'img', src: 'giraffe.jpg' },
+          `Giraffes are the tallest animals on land. Their long necks help them to eat leaves from tall trees. Giraffes also have small horns on top of their head. These horns help to protect their head in a fight.`
         ]
       }
     },
@@ -83,8 +83,8 @@ A baby zebra is called a foal and it can run within 1 hour of being born.`
       data: {
         title: 'Camels',
         text: [
-          { type: 'img', src: 'stockimg/camel.jpg' },
-          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camel's hump consist of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
+          { type: 'img', src: 'camel.jpg' },
+          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camel's hump consists of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
         ]
       }
     }

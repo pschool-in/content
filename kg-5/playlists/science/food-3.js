@@ -85,18 +85,18 @@ Garlic, Minerals`,
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'Bread,wheat and potato are rich in _______________ .',
+            qText: 'Bread,wheat and potato are rich in _______________.',
             options: 'carbohydrate, protein, roughage, fats'
           },
           {
-            qText: 'A balanced diet contains _______________ .',
+            qText: 'A balanced diet contains _______________.',
             options: `Carbohydrates and vitamins
 Proteins and fats and minerals
 Fibre and water
 * All`
           },
           {
-            qText: 'The Vitamin present in carrot is _______________ .',
+            qText: 'The Vitamin present in carrot is _______________.',
             options: 'Vitamin-A , Vitamin-D, Vitamin-E, Vitamin-K '
           },
           {

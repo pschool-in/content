@@ -74,7 +74,7 @@ export default {
         types: [
           {
             name: 'Push',
-            text: 'kicking a ball, Switching on light, pedaling cycle '
+            text: 'kicking a ball, switching on light, pedaling cycle '
           },
           {
             name: 'Pull',
@@ -95,7 +95,7 @@ export default {
  eg: lighting a match stick, throwing a ball.
  # Non-Contact Force
  When a force is applied without touching the object, it is called non-contact force.
- Eg. Vaccum cleaner, magnet, gravitation
+ Eg: Vaccum cleaner, magnet, gravitation
  # Muscular Force
  The force applied by using parts of our body is called muscular force.
  We use our legs to pedal our bicycle. We use our hands to make some model from clay.

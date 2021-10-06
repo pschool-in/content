@@ -55,8 +55,7 @@ Energy is defined as capacity for doing work. Energy must be transferred to an o
 Renewable sources of energy are replaced naturally over a period of time. We can keep using these sources for a long period of time. Since the beginning of human life, we have been using these resources. We use these resources for light, transport, cooking, heating. eg: sun, wind and water.
 The resources which are not easily replaced once used are called the non-renewable resources. eg: petrol, coal and natural gas
 # Law of conservation
-The law of conservation of energy states that energy cannot created nor destroyed. It can be converted from
-one form to another. The SI unit of energy is joule. It is named after James Joule who explained about energy. `
+The law of conservation of energy states that energy can neither be created nor be destroyed. It can be converted from one form to another. The SI unit of energy is joule. It is named after James Joule who explained about energy. `
       }
     },
     {
@@ -136,7 +135,7 @@ The escalator moves by using *electricity* as energy.`
         text: `In our daily life our effort is saved with the help of some simple machines.
 We draw water from the well with the help of a wheel and a rope.
 Simple machines are tools which are used to make our work easier. Some examples for simple machines are pulley, wedge, inclined plane, screw, lever, wheel and axle.
-A pulley is a machine made up of a wheel with a cut around it. A rope or chain passes around the pulley. It rotates in the direction with more force. eg: crane, well
+A pulley is a machine made up of a wheel with a cut around it. A rope or chain passes around the pulley. It rotates in the direction with more force. eg: crane, well.
 An inclined plane is a flat sloping surface with one end higher than another. eg: ramp, slide and slope for wheel chair.
 A wedge is a tool with a sharp edge which can be used to split materials. It is used to break wooden logs into two pieces. eg: knife, scissors and axe.
 The screw is used to raise weights and to hold objects together. eg: pencil sharpener, screw-jack, bottle cap and windmill.
@@ -167,7 +166,7 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
         questions: [
           {
             qText: 'We draw water from the well with the help of ______.',
-            options: `pully, wedge, inclined plane`
+            options: `pulley, wedge, inclined plane`
           },
           {
             qText:
@@ -359,7 +358,7 @@ Seesaw is an example of Class III lever.`
               x: 0,
               y: 7
             },
-            hint: 'A vehicle primarily used to raise weight using pully',
+            hint: 'A vehicle primarily used to raise weight using pulley',
             direction: 'across'
           },
           {

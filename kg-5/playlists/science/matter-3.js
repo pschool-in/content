@@ -10,16 +10,16 @@ export default {
       type: 'passage',
       data: {
         title: 'States of Matter',
-        text: `We can see a number of things around you. Everything we can see and touch is made up of matter. Anything that occupies space and has mass is called matter.
+        text: `We can see a number of things around us. Everything we can see and touch is made up of matter. Anything that occupies space and has mass is called matter.
           # What is Mass?
           Mass is a measure of how much matter is present in an object. The air we breathe, the food we take, and the water we drink, all have matter in them. 
           # What is Volume?
           The space occupied by an object is called its volume.
           # Three states of Matter
           Solid, liquid and gas are the three states of matter. 
-          Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book
-          Liquid does not have fixed shape. It takes the shape of it container.eg: milk, honey, water, juice, oil, petrol
-          Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind`
+          Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
+          Liquid does not have fixed shape. It takes the shape of it container. eg: milk, honey, water, juice, oil, petrol.
+          Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind.`
       }
     },
     {
@@ -140,7 +140,7 @@ fixed shape, solid`
           # Condensation
           Change of gas into liquid on cooling is called condensation. For example; clouds (gas) on cooling condense and fall as rain (liquid)
           # Experiment
-          Take a balance. Keep an air filled football in one plate and an empty football in another plate . What happens? 
+          Take a balance. Keep an air filled football in one plate and an empty football in another plate. What happens? 
           Air filled ball goes down. It is because air has mass.`
       }
     },
@@ -252,7 +252,7 @@ Electrical energy is also used as fuel for cooking and transporting.`
             options: `LPG, Petrol, Paper`
           },
           {
-            qText: 'LPG stands for _____',
+            qText: 'LPG stands for _____.',
             options: `Liquid Petroleum Gas, Light Petrol Gas, Liquid Petrol Gas`
           }
         ]

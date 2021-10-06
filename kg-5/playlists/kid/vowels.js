@@ -3,201 +3,212 @@ export default {
   id: 'vowels',
   list: [
     {
-      id: '100',
-      editable: true,
+      id: 'connect-vowels',
       type: 'maze',
-      label: 'Solve the Maze',
+      label: 'Connect the Vowels',
+      data: [
+        {
+          title: 'Connect the vowels and help the monkey to get the banana.',
+          start: 'monkey',
+          target: 'banana',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 3,
+            y: 0
+          },
+          size: 50,
+          fills: `B,A,U,I,S,T
+  V,U,W,X,Y,Z
+  R,A,I,E,S,T
+  N,L,M,U,X,R
+  B,C,D,O,F,G
+  E,I,U,A,Q,T`,
+          table: `0,1,1,1,0,0
+  0,1,0,0,0,0
+  0,1,1,1,0,0
+  0,0,0,1,0,0
+  0,0,0,1,0,0
+  1,1,1,1,0,0`
+        },
+        {
+          title: 'Connect the vowels and help the fox to get the grapes.',
+          start: 'fox',
+          target: 'grapes',
+          color: '#c05252',
+          startPt: {
+            x: 5,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `A,B,C,D,Z,U
+  U,S,T,X,B,C
+  E,N,O,I,U,Z
+  I,M,O,Z,E,P
+  U,A,E,R,O,I
+  B,C,X,Y,M,A`,
+          table: `1,0,0,0,0,0
+  1,0,0,0,0,0
+  1,0,1,1,1,0
+  1,0,1,0,1,0
+  1,1,1,0,1,1
+  0,0,0,0,0,1`
+        },
+        {
+          title: 'Connect the vowels and help the dog to get the bone.',
+          start: 'dog',
+          target: 'bone',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 5,
+            y: 0
+          },
+          size: 50,
+          fills: `S,T,X,R,O,I
+  G,H,J,K,A,B
+  W,H,B,T,E,O
+  I,O,U,L,X,U
+  E,X,E,V,W,E
+  A,R,A,I,O,U`,
+          table: `0,0,0,0,1,1
+  0,0,0,0,1,0
+  0,0,0,0,1,1
+  1,1,1,0,0,1
+  1,0,1,0,0,1
+  1,0,1,1,1,1`
+        },
+        {
+          title: 'Connect the vowels and help the monkey to get the banana.',
+          start: 'monkey',
+          target: 'banana',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `E,O,A,I,B,T
+  X,Y,Z,E,U,B
+  A,E,U,B,I,Z
+  I,C,E,U,A,C
+  E,R,S,T,W,V
+  U,B,C,D,F,G`,
+          table: `1,1,1,1,0,0
+  0,0,0,1,1,0
+  1,1,1,0,1,0
+  1,0,1,1,1,0
+  1,0,0,0,0,0
+  1,0,0,0,0,0`
+        }
+      ]
+    },
+    {
+      id: 'connect-consonants',
+      type: 'maze',
+      label: 'Connect the Consonants',
+      data: [
+        {
+          title: 'Connect the consonants and help the fox to get the grapes.',
+          start: 'fox',
+          target: 'grapes',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 2,
+            y: 0
+          },
+          size: 50,
+          fills: `A,E,B,C,D,F
+U,A,I,E,O,Y
+O,E,U,I,Z,X
+I,A,O,C,K,E
+N,L,R,D,O,A
+B,U,O,A,E,I`,
+          table: `0,0,1,1,1,1
+  0,0,0,0,0,1
+  0,0,0,0,1,1
+  0,0,0,1,1,0
+  1,1,1,1,0,0
+  1,0,0,0,0,0`
+        },
+        {
+          title: 'Connect the consonants and help the cat to get the milk.',
+          start: 'cat',
+          target: 'milk',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 5,
+            y: 0
+          },
+          size: 50,
+          fills: `O,U,D,B,S,T
+A,E,K,I,O,U
+U,O,G,M,N,P
+U,O,I,E,A,Q
+A,E,I,R,S,T
+V,W,X,Y,U,A`,
+          table: `0,0,1,1,1,1
+  0,0,1,0,0,0
+  0,0,1,1,1,1
+  0,0,0,0,0,1
+  0,0,0,1,1,1
+  1,1,1,1,0,0`
+        }
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-fruits',
+      label: 'Complete Word - Fruits',
       data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 0,
-          y: 5
-        },
-        endPt: {
-          x: 3,
-          y: 0
-        },
-        size: 50,
-        fills: `ஞ,கி,கே,க,தெ,லா
-      சி,கு,சே,சு,டெ,பி
-      லா,க,கூ,கே,வா,மீ
-      டெ,சு,த,கோ,ழெ,ஙெ
-      சே,வா,மீ,கொ,பி,சி
-      கா,கெ,க,கு,ஞே,தெ`,
-        table: `0,1,1,1,0,0
-      0,1,0,0,0,0
-      0,1,1,1,0,0
-      0,0,0,1,0,0
-      0,0,0,1,0,0
-      1,1,1,1,0,0`
+        images: 'svg',
+        text: `SQUARE | S_____
+TRIANGLE | T__A____
+CIRCLE | C_____
+OVAL | O___`,
+        svgs: [
+          `M 10 10 H 190 V 190 H 10 Z`,
+          `M 100 10 L 190 190 H 10 Z`,
+          `M 10, 100 a 90,90 0 1,0 180,0 a 90,90 0 1,0 -180,0`,
+          `M 10, 100 a 90,45 0 1,0 180,0 a 90,45 0 1,0 -180,0`
+        ]
       }
     },
     {
-      id: '200',
-      editable: true,
-      type: 'maze',
-      label: 'Solve the Maze',
+      type: 'completeWord',
+      id: 'complete-word-fruits',
+      label: 'Complete Word - Fruits',
       data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 5,
-          y: 5
-        },
-        endPt: {
-          x: 0,
-          y: 0
-        },
-        size: 50,
-        fills: `A,B,C,D,Z,U
-      U,S,T,X,B,C
-      E,N,O,I,U,Z
-      I,M,O,Z,E,P
-      U,A,E,R,O,I
-      B,C,X,Y,M,A`,
-        table: `1,0,0,0,0,0
-      1,0,0,0,0,0
-      1,0,1,1,1,0
-      1,0,1,0,1,0
-      1,1,1,0,1,1
-      0,0,0,0,0,1`
-      }
-    },
-    {
-      id: '300',
-      editable: true,
-      type: 'maze',
-      label: 'Solve the Maze',
-      data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 0,
-          y: 5
-        },
-        endPt: {
-          x: 5,
-          y: 0
-        },
-        size: 50,
-        fills: `ரு,தூ,மெ,யெ,பி,பை
-      யு,வி,ய,ஙி,ப,ரு
-      யெ,லா,தீ,மெ	,பு,பெ
-      பு,பெ,பொ,ண,ய,ப
-      ப,யு,பை,மா,வி,பொ
-      பி,ரு,பு,பீ,பூ,பி`,
-        table: `0,0,0,0,1,1
-      0,0,0,0,1,0
-      0,0,0,0,1,1
-      1,1,1,0,0,1
-      1,0,1,0,0,1
-      1,0,1,1,1,1`
-      }
-    },
-    {
-      id: '400',
-      editable: true,
-      type: 'maze',
-      label: 'Solve the Maze',
-      data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 0,
-          y: 5
-        },
-        endPt: {
-          x: 0,
-          y: 0
-        },
-        size: 50,
-        fills: `1,1,1,1,0,0
-      0,0,0,1,1,0
-      1,1,1,0,1,0
-      1,0,1,1,1,0
-      1,0,0,0,0,0
-      1,0,0,0,0,0`,
-        table: `1,1,1,1,0,0
-      0,0,0,1,1,0
-      1,1,1,0,1,0
-      1,0,1,1,1,0
-      1,0,0,0,0,0
-      1,0,0,0,0,0`
-      }
-    },
-    {
-      id: '500',
-      editable: true,
-      type: 'maze',
-      label: 'Solve the Maze',
-      data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 0,
-          y: 5
-        },
-        endPt: {
-          x: 2,
-          y: 0
-        },
-        size: 50,
-        fills: `1,1,1,1,0,0
-      0,0,0,1,1,0
-      1,1,1,0,1,0
-      1,0,1,1,1,0
-      1,0,0,0,0,0
-      1,0,0,0,0,0`,
-        table: `0,0,1,1,1,1
-      0,0,0,0,0,1
-      0,0,0,0,1,1
-      0,0,0,1,1,0
-      1,1,1,1,0,0
-      1,0,0,0,0,0`
-      }
-    },
-    {
-      id: '600',
-      editable: true,
-      type: 'maze',
-      label: 'Solve the Maze',
-      data: {
-        title: 'Help the monkey to get the banana.',
-        start: 'monkey',
-        target: 'banana',
-        color: '#c05252',
-        startPt: {
-          x: 0,
-          y: 5
-        },
-        endPt: {
-          x: 5,
-          y: 0
-        },
-        size: 50,
-        fills: `1,1,1,1,0,0
-      0,0,0,1,1,0
-      1,1,1,0,1,0
-      1,0,1,1,1,0
-      1,0,0,0,0,0
-      1,0,0,0,0,0`,
-        table: `0,0,1,1,1,1
-      0,0,1,0,0,0
-      0,0,1,1,1,1
-      0,0,0,0,0,1
-      0,0,0,1,1,1
-      1,1,1,1,0,0`
+        images: 'svg',
+        text: `MOON | M___
+        STAR | S___
+        `,
+        svgs: [
+          'M 190 100 A 90 90 90 1 1 70 16 A 45 45 90 0 0 190 100',
+          'M 105.8 5 L 127.4 72.2 L 197 72.2 L 139.4 113 L 163.4 177.8 L 105.8 137 L 48.2 177.8 L 72.2 113 L 14.6 72.2 L 84.2 72.2 L 105.8 5 Z'
+        ]
       }
     }
   ]

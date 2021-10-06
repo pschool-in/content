@@ -17,7 +17,7 @@ export default {
           In gases, molecules are very loosely packed. Hence, gases are highly compressible.
           A material is a mixture of substances that constitute an object. They can be pure or impure, natural or man made. Materials are needed to get the things needed for our daily life. We need food, dress and many other goods for our daily living. Natural and man made materials are transformed to produce these things.
           # Household Goods
-          These are the products that we use in our house permanently. The goods that are found in a house permanently are called household goods. House hold goods are: furniture, kitchenware, cloths, towels, beddings, boots and electronic goods.
+          These are the products that we use in our house permanently. The goods that are found in a house permanently are called household goods. Some household goods are: furniture, kitchenware, cloths, towels, beddings, boots and electronic goods.
           # Sinking and Floating
           You could have seen that some objects float in water while others sink. Whether an object floats or sinks is determined by its density. When an object is immersed into a liquid, the liquid exerts an upward force on the object. It is known as upthrust. What happens if you put a coin and an empty water bottle in water? The weight of the coin is greater than the upthrust and so the coin sinks. But weight of the empty water bottle is less and so it floats.
           # Solubility in Water
@@ -155,7 +155,7 @@ The raw fibres are separated from the seeds by a process known as Ginning. The f
 # Spinning
 The process of making yarn from lint (fibre) is called spinning. Spinning is done on a large scale with the help of  spinning machines.
 # Yarn to fabrics
-Weaving and knitting are the two most important processes used for making fabric from the yarn. The process of making  two sets of yarns together to make fabric is called weaving. It is done by weavers on a machine called loom. The loom are either hand – operated (hand looms) or power - operated. During knitting a single yarn is used to make a piece of fabric. It is done by hand and also on machine.
+Weaving and knitting are the two most important processes used for making fabric from the yarn. The process of making  two sets of yarns together to make fabric is called weaving. It is done by weavers on a machine called loom. The looms are either hand-operated (hand looms) or power-operated. During knitting a single yarn is used to make a piece of fabric. It is done by hand and also on machine.
 # Uses of cotton
 1. It is used for making dhotis, sarees, bedsheets, table cloth and other textiles and garments.
 2. It is used as fillers in pillows and mattresses.
@@ -169,9 +169,7 @@ Jute fibre is obtained from the stem of the jute plant. Jute plant has long, sof
 # Coir
 Coir fibre is obtained from the outer covering of coconut. It is used to make floor mats, door mats, brushes and mattresses.
 # Synthetic Fibres
-These fibres are made by human
-beings with the help of chemical process. They are also called as manmade fibre. These fibres are obtained
-from coal, petroleum and natural gas.
+These fibres are made by human beings with the help of chemical process. They are also called as manmade fibre. These fibres are obtained from coal, petroleum and natural gas.
 # Uses of synthetic fibres
 1. Rayon is used to make rope, cloth, cap, tyre cords and carpets.
 2. Nylon is used to make fishing nets, ropes, parachutes, fabrics and bristles for brushes.
@@ -393,7 +391,7 @@ Coir is used in preparing surgical bandages.`
         title: 'Grains',
         text: `Grain is a small, hard, dry seed. Each grain is protected by a husk. Two main types of commercial grain crops are cereals and legumes. Wheat, maize, rice, beans, peas, barely and millets are some of the whole grains.
 # Wheat
-This is the most important crop in the world. Whole wheat is rich in fibre, vitamins and minerals. Some of the common wheat products are bread, cake and pasta.
+This is the most important crop in the world. Wheat is rich in fibre, vitamins and minerals. Some of the common wheat products are bread, cake and pasta.
 # Maize
 In many tropical and sub tropical countries (Mexico and America) maize is the main food that people eat. It is also rich source of many vitamins and minerals. Corn syrup is used as a sweetener instead of sugar in many products.
 # Rice
@@ -463,6 +461,7 @@ Millets are a group of small seeded grasses. They are widely grown around the wo
       label: 'WordSearch',
       data: {
         title: 'Find the given words from the table.',
+        showWords: true,
         words: [
           {
             word: ['C', 'R', 'O', 'P'],

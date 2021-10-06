@@ -9,8 +9,10 @@ export default {
       type: 'passage',
       data: {
         title: 'Shin Chan',
+        /*
         img:
           'https://s3.ap-south-1.amazonaws.com/pschool.in/assets/english/chinshan.webp',
+        */
         text:
           "My favourite cartoon is Shin chan. It is the story about a five-year-old boy who is full of mischief. He is always looking for adventure. He loves life and he is very optimistic about it. He is very fond of Action Kamen which is his favourite toon. He doesn't like to eat capsicum but her mother forces him to eat it. \n Shin chan's mother, Mitsi, is the main character after Shin Chan. She is a perfect housewife. She takes care of all the family members. However, she is little bad-tempered. She hits Shin Chan on his head which forms a bulging on his head. She hides some money which she calls her secret-savings. She spends them on buying expensive clothes or cosmetics. Shin chan, by some means, always, find out where she has hidden her secret-savings and then blackmails her that he would tell that to his dad. She, having no choice, buys him either Action kamen set or Choco chips. \n He lives in Japan. He goes to a kindergarten school. He has many friends. His main friends are Kazama and Masao. Shin chan calls his principal as 'Gang Leader' who has a very rough face like a real gang leader.  But he is a good natured and kind hearted person. \n Shin chan has a pet dog named Shiro. Shin chan does not take good care of his dog. He never gives him his morning food. Though he is a naughty boy, everyone likes him very much."
       },

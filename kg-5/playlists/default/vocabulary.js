@@ -95,6 +95,7 @@ const vocabulary = {
       label: 'Complete Word - Fruits',
       data: {
         images: 'fruits',
+        title: 'Fill in the missing letters.',
         text: `apple | APPLE | A_P_E
 grapes | GRAPES | _R_P_S
 banana | BANANA | _A_A_A
