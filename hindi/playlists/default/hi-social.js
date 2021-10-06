@@ -5,6 +5,7 @@ export default {
   list: [
     {
         label: 'शहर',
+       lockAfter:3,
         type: 'matchByDragDrop',
         id: 'right-word',
         commonData: {
@@ -81,6 +82,7 @@ export default {
        {
         type: 'match',
         label: 'राज्य और राजधानियाँ',
+          lockAfter:2,
         id: 'match3',
         commonData: {
           title: 'राज्य और राजधानियाँ को आपस में जोड़िए।'
@@ -176,6 +178,7 @@ export default {
       },
       {
         label: 'भारत के राष्ट्रीय',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'nationalofindia',
         commonData: {
@@ -203,6 +206,7 @@ export default {
       },
        {
         label: 'भारत के प्रथम',
+        locked: 'true', 
         type: 'matchByDragDrop',
         id: 'indias-first',
         commonData: {
