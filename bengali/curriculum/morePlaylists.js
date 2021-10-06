@@ -16,6 +16,10 @@ const more = [
     slug: 'bn-word-5'
   },
   {
+    label: 'কবিতা সহজপাঠ',
+    slug: 'bn-poem-1'
+  },
+  {
     label: 'ছোটদের ছড়া',
     slug: 'bn-poem'
   },

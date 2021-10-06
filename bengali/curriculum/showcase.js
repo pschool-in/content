@@ -20,7 +20,7 @@ import word from '../playlists/default/bn-word.js';
 import grammar from '../playlists/default/bn-grammar-5.js';
 import sentence from '../playlists/default/bn-sentence.js';
 import reading from '../playlists/default/bn-reading-3.js';
-import poem from '../playlists/default/bn-poem-1.js';
+//import poem from '../playlists/default/bn-poem-1.js';
 import science from '../playlists/default/bn-science.js';
 import social from '../playlists/default/bn-social.js';
 import wordsearch from '../playlists/default/bn-wordsearch.js';
@@ -42,7 +42,7 @@ export default {
     sentence,
     grammar,
     reading,
-    poem,
+    //poem,
     sukumar,
     wordsearch,
     crossword,

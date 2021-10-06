@@ -37,7 +37,7 @@ let mainMenu = {
   list: [
     coloring,
     writing,
-    phonics,
+    //phonics,
     reading,
     grammar,
     vocabulary,
