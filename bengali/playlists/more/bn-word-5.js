@@ -8,9 +8,11 @@ export default {
       id: 'bn_samesoundingword',
       type: 'match',
       label: 'সমোচ্চারিত ভিন্নার্থক শব্দ অর্থ মেলান',
+      lockAfter: 2,
       commonData: {
         title: 'সমোচ্চারিত ভিন্নার্থক শব্দ - অর্থ মেলান',
         fontSize: '1.2rem'
+        
       },
       data: [
         `পরা, পরিধান
@@ -60,6 +62,7 @@ export default {
       type: 'rightOne',
       label: 'সমোচ্চারিত ভিন্নার্থক শব্দ সঠিক অর্থ চয়ন',
       id: 'bn-samesoundingword-2',
+      lockAfter: 2,
       commonData: {
         title: 'সঠিক অর্থ চয়ন করুন',
         noCaps: true,

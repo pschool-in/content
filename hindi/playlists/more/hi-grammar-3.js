@@ -22,6 +22,7 @@ export default {
       {
         type: 'match',
         label: 'निम्नलिखित को जोड़िए।',
+           lockAfter:4,
         id: 'match-gender',
         commonData: {
           title: 'लिंग के आधार पर निम्नलिखित को जोड़िए।'
@@ -130,6 +131,7 @@ export default {
       {
         type: 'match',
         label: 'निम्नलिखित को जोड़िए।',
+           lockAfter:4,
         id: 'match-singular-plural',
         commonData: {
           title: 'एकवचन  शब्द के साथ बहुवचन शब्द को जोड़िए।'
@@ -206,6 +208,7 @@ export default {
       {
         type: 'group',
         label: 'वचन एकवचन/बहुवचन ',
+           lockAfter:6,
         id: 'classify-singular-plural-type',
         commonData: {
           title: 'शब्दों को एकवचन या बहुवचन के रूप में वर्गीकृत करें।',
@@ -370,6 +373,7 @@ export default {
       type: 'fillupOptions',
       id: 'fillup',
       label: 'सही विकल्प चुनें।',
+           lockAfter:2,
       commonData: {
         title: 'संज्ञा, सर्वनाम, क्रिया या विशेषण के रूप में पहचानें।'
       },

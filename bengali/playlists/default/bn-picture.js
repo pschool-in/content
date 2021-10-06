@@ -2,6 +2,7 @@ export default {
   label: 'ছবি',
   id: 'bn-picture-1',
   img: 'image',
+  lockAfter: 4,
   list: [
     {
       type: 'completeWord',

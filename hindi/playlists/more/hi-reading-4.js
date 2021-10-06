@@ -302,6 +302,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+          locked: 'true',
       id: 'तेनालीराम और बैंगन की सब्जी-mcq',
       type: 'mcq',
       data: {
@@ -349,6 +350,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+          locked: 'true',
       id: 'बीरबल ने चोर को पकड़ा-mcq',
       type: 'mcq',
       data: {
@@ -396,6 +398,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+          locked: 'true',
       id: 'दो मेंढकों की कहानी-mcq',
       type: 'mcq',
       data: {
@@ -445,6 +448,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      locked: 'true',    
       id: 'अपराधी बकरी-mcq',
       type: 'mcq',
       data: {
@@ -487,6 +491,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+          locked: 'true',
       id: 'मूर्ख कौआ और चालाक लोमड़ी की कहानी-mcq',
       type: 'mcq',
       data: {
@@ -529,6 +534,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+          locked: 'true',
       id: 'कबूतर और शिकारी की कहानी-mcq',
       type: 'mcq',
       data: {

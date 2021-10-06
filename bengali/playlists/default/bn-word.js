@@ -7,9 +7,11 @@ export default {
       id: 'bn-jumbled-2letter',
       type: 'sequence',
       label: 'দুই অক্ষরের শব্দ',
+      lockAfter: 6,
       commonData: {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
         lang: 'bn'
+        
       },
       // refernce - west bengal state board class 1/2 books
       data: [
@@ -29,6 +31,7 @@ export default {
       // this is for class 3 and above students
       id: 'bn-jumbled',
       type: 'sequence',
+      lockAfter: 8,
       label: 'অক্ষর যুক্ত করে শব্দ গঠন',
       commonData: {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
@@ -55,6 +58,7 @@ export default {
       // for class iii and above
       type: 'rightOne',
       id: 'bn-sound-word-1s',
+      lockAfter: 4,
       label: 'ধ্বনি শুনে শব্দ শনাক্ত',
       commonData: {
         title: 'ধ্বনি শুনে শব্দ শনাক্ত করুন',
@@ -146,6 +150,7 @@ export default {
       type: 'rightOne',
       label: 'সঠিক বানান',
       id: 'bn-spelling',
+      lockAfter: 4,
       commonData: {
         title: 'সঠিক বানান নির্বাচন',
         noCaps: true

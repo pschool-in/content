@@ -2,6 +2,7 @@ export default {
     label: 'বর্ণ',
     id: 'bn-writing',
     img: 'writing',
+    lockAfter: 9,
     list: [
         {
             id: 'compoundword-reading',
@@ -24,6 +25,7 @@ export default {
         id: 'vowels',
         label: 'স্বরবর্ণ লেখা ',
         type: 'tracing',
+        lockAfter: 8,
         data: {
           type: 'custom',
           audio: 'bn-letters.mp3',
@@ -231,6 +233,7 @@ export default {
         id: 'consonants',
         label: 'ব্যঞ্জনবর্ণ লেখা',
         type: 'tracing-conso',
+        lockAfter: 10,
         data: {
           type: 'custom',
           audio: 'bn-letters.mp3',
@@ -563,6 +566,7 @@ export default {
         type: 'rightOne',
         label: 'ধ্বনি শুনে ব্যঞ্জনবর্ণ নির্বাচন',
         id: 'bn-sound-conso',
+        lockAfter: 2,
         commonData: {
           title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',
           type: 'letters',
@@ -610,6 +614,7 @@ export default {
         id: 'letter-poem-conso',
         type: 'passage',
         label: 'ছোটদের বর্ণ ছড়া - ব্যঞ্জনবর্ণ',
+        lockAfter: 5,
         commonData: {
           title: 'ছোটদের বর্ণ ছড়া',
           type: 'poem'
@@ -671,6 +676,7 @@ export default {
         type: 'group',
         label: 'স্বরবর্ণ vs ব্যঞ্জনবর্ণ ',
         id: 'classify-letter-type',
+        lockAfter: 8,
         commonData: {
           title: 'স্বরবর্ণ ও ব্যঞ্জনবর্ণ গুলি সঠিক বক্সে রাখুন ',
           fontSize: '2rem',

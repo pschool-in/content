@@ -2,6 +2,7 @@ export default {
   label: 'বর্ণ অনুশীলন',
   id: 'bn-letter-2',
   img: 'writing',
+  lockAfter: 4,
   list: [
     {
       //Coumpound letters - class ii and above

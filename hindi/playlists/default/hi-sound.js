@@ -381,6 +381,7 @@ scalpel| छुरी`
     {
       type: 'rightOne',
       label: 'चित्र चुनें',
+       lockAfter:3,
       id: 'pick-word',
       commonData: {
         title: 'ध्वनि सुनकर चित्र का चयन करें',

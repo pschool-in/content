@@ -2,6 +2,7 @@ export default {
   label: 'ব্যাকরণ-2',
   id: 'bn-grammar-4',
   img: 'langGrammar',
+  lockAfter: 4,
   list: [
     {
       // class-4 content ref-bhasapath-iv
