@@ -54,6 +54,7 @@ export default {
      {
        type: 'match',
        label: 'निम्नलिखित को जोड़िए।',
+       lockAfter:4,
        id: 'match-tatsamandtatbhav',
        commonData: {
         title: 'तत्सम और तद्भव शब्द को जोड़िए।'
@@ -235,6 +236,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupverb',
         label: 'क्रिया के प्रकार को पहचानें।',
+        lockAfter:4,
         commonData: {
           title: 'सही विकल्प चुनें और प्रयुक्त क्रिया के प्रकार की पहचान करें।'
         },
@@ -500,6 +502,7 @@ export default {
         type: 'fillupOptions',
         id: 'filluptenses',
         label: 'काल की पहचान करें।',
+        lockAfter:4,  
         commonData: {
           title: 'दिए गए विकल्पों में से सही उत्तर चुनिए।'
         },
@@ -679,6 +682,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupsingular-plural',
         label: 'सही विकल्प चुनें।',
+        lockAfter:4,  
         commonData: {
           title: 'विकल्पों में से सही बहुवचन प्रयोग चुनें।'
         },
@@ -845,6 +849,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupwords',
         label: 'सही विकल्प चुनें।',
+        lockAfter:4,  
         commonData: {
           title: 'अविकारी शब्दों के प्रकार को पहचानें।'
         },
@@ -963,6 +968,7 @@ export default {
       },
       {
         label: 'सही उत्तर का चयन करें।',
+        lockAfter:4,  
         id: 'hi-punctuation1',
         type: 'mcq',
         data: {
@@ -1001,6 +1007,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
+      lockAfter:4,    
       id: 'hi-spelling',
       type: 'mcq',
       commonData: {
@@ -1211,6 +1218,7 @@ export default {
       },
     {
         label: 'सही उत्तर का चयन करें।',
+        lockAfter:4,
         id: 'hi-creating words',
         type: 'mcq',
         commonData: {
