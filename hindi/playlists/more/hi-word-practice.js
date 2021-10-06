@@ -178,7 +178,7 @@ export default {
     {
       id: 'jumbled-0',
       label: 'शब्द गठन',
-      lockAfter: 8,
+      lockAfter: 6,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
