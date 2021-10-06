@@ -4,7 +4,7 @@ export default {
   img: 'social',
   list: [
     {
-        label: 'शहर - स्मारक',
+        label: 'शहर',
         type: 'matchByDragDrop',
         id: 'right-word',
         commonData: {
