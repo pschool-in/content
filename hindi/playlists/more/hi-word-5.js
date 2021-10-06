@@ -66,6 +66,7 @@ export default {
       type: 'fillupOptions',
       id: 'fillup',
       label: 'श्रुतिसमभिन्नार्थक शब्द ',
+      lockAfter:1,
       commonData: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।।'
       },
@@ -102,6 +103,7 @@ export default {
     },
     {
       type: 'matchByDragDrop',
+      lockAfter: 2,
       id: 'fillup-2',
       label: 'अनेक शब्दों के लिए एक शब्द ',
       commonData: {
@@ -137,6 +139,7 @@ export default {
     },
     {
       label: 'अनेक शब्दों के लिए एक शब्द',
+      locked: 'true',
       type: 'matchByDragDrop',
       id: 'one-word-sub',
       data: {
