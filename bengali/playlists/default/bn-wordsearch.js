@@ -2,6 +2,7 @@ export default {
   label: 'শব্দ খোজ',
   id: 'bn-wordsearch',
   img: 'wordsearch',
+  lockAfter: 8,
   list: [
     {
       id: '100',

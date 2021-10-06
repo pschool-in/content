@@ -8,6 +8,7 @@ export default {
         type: 'completeWord',
         label: 'শূন্যস্থান পূরণ - পশু ও পাখি',
         id: 'bn-complete-word-3',
+        lockAfter: 5,
         commonData: {
           images: 'custom',
           lang: 'bn'
@@ -81,6 +82,7 @@ export default {
       id: 'match-animals',
       type: 'match',
       label: 'অক্ষর মেলানো - পশু ও পাখি',
+      lockAfter: 5,
       commonData: {
         title: 'চিত্রগুলি তাদের প্রথম অক্ষরের সাথে মেলান',
         rightImgType: 'custom',
@@ -166,6 +168,7 @@ export default {
       id: 'match-house',
       type: 'match',
       label: 'অক্ষর মেলানো - ঘর ও গাড়ি',
+      lockAfter: 5,
       commonData: {
         title: 'চিত্রগুলি তাদের প্রথম অক্ষরের সাথে মেলান',
         rightImgType: 'custom',
@@ -229,6 +232,7 @@ export default {
       id: 'match-others',
       type: 'match',
       label: 'অক্ষর মেলানো - অন্যান্য',
+      lockAfter: 5,
       commonData: {
         title: 'চিত্রগুলি তাদের প্রথম অক্ষরের সাথে মেলান',
         rightImgType: 'custom',

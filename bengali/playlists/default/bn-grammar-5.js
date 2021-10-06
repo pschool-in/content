@@ -2,6 +2,7 @@ export default {
     label: 'ব্যাকরণ',
     id: 'bn-grammar-5',
     img: 'langGrammar',
+    
     list: [
             {
               // class iv and above. ref - bhasapath v
@@ -24,6 +25,7 @@ export default {
         type: 'rightOne',
         label: 'ব্যাঞ্জনসন্ধি',
         id: 'bn-compoundword-consonant',
+        lockAfter: 3,
         commonData: {
           title: 'সঠিক বানান চয়ন করুন',
           noCaps: true,
@@ -81,6 +83,7 @@ export default {
         id: 'number-2',
         type: 'match',
         label: 'ব্যাকরণ - বচন',
+        lockAfter: 2,
         commonData: {
           title: 'একবচন বহুবচন - মেলান',
           fontSize: '1.2rem'
@@ -138,6 +141,7 @@ export default {
         id: 'number-3',
         type: 'match',
         label: 'ব্যাকরণ - লিঙ্গ',
+        lockAfter: 3,
         commonData: {
           title: 'পুলিঙ্গ স্ত্রীলিঙ্গ - মেলান',
           fontSize: '1.2rem'
@@ -188,6 +192,7 @@ export default {
             type: 'group',
             label: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ ',
             id: 'classify-letter-type',
+            lockAfter: 1,
             commonData: {
               title: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ গুলি সঠিক বক্সে রাখুন ',
               fontSize: '2rem',
@@ -222,6 +227,7 @@ export default {
         id: 'Person',
         type: 'match',
         label: 'পুরুষ নির্বাচন',
+        lockAfter: 4,
         commonData: {
           title: 'পুরুষ নির্বাচন',
           fontSize: '1.2rem'
@@ -266,6 +272,7 @@ export default {
         id: 'person-verb',
         label: 'পুরুষ - ক্রিয়া',
         type: 'fillupOptions',
+        lockAfter: 5,
         commonData: {
           title: 'শূন্যস্থান পূরণ করুন.'
         },
@@ -346,6 +353,7 @@ export default {
                     // for class v and above - ref class v bhasapath
               id: 'bn-verbtype',
               label: 'সমাপিকা ও অসমাপিকা ক্রিয়া',
+              lockAfter: 2,
               type: 'fillupOptions',
               commonData: {
                 title: 'সমাপিকা ও অসমাপিকা ক্রিয়া নির্ধারণ করুন',               
@@ -388,6 +396,7 @@ export default {
           type: 'group',
           label: 'বিশেষ্য vs সর্বনাম ',
           id: 'bn-nounpronoun',
+          lockAfter: 6,
           commonData: {
             title: 'বিশেষ্য ও সর্বনাম গুলি সঠিক বক্সে রাখুন ',
             fontSize: '2rem',
@@ -413,6 +422,7 @@ export default {
         type: 'classifySentence',
         id: 'bn-partsofspeach',
         // lockAfter: 10,
+        lockAfter: 3,
         commonData: {
           title:
             'আন্ডারলাইন করা শব্দটিকে বিশেষ্য বা ক্রিয়াপদ হিসেবে শ্রেণীবদ্ধ করুন.',
@@ -487,6 +497,7 @@ export default {
           type: 'rightOne',
           label: 'ব্যাকরণ - বিপরীতার্থক শব্দ চয়ন',
           id: 'bn-antonym-2',
+          lockAfter: 5,
           commonData: {
             title: 'সঠিক বিপরীতার্থক শব্দ চয়ন করুন',
             noCaps: true,
@@ -559,6 +570,7 @@ export default {
         id: 'bn_samesoundingword',
         type: 'match',
         label: 'ব্যাকরণ - সমোচ্চারিত ভিন্নার্থক শব্দ অর্থ মেলান',
+        lockAfter: 4,
         commonData: {
           title: 'সমোচ্চারিত ভিন্নার্থক শব্দ - অর্থ মেলান',
           fontSize: '1.2rem'
@@ -611,6 +623,7 @@ export default {
         type: 'rightOne',
         label: 'ব্যাকরণ - সমোচ্চারিত ভিন্নার্থক শব্দ সঠিক অর্থ চয়ন',
         id: 'bn-samesoundingword-2',
+        lockAfter: 4,
         commonData: {
           title: 'সঠিক অর্থ চয়ন করুন',
           noCaps: true,
@@ -664,6 +677,7 @@ export default {
         label: 'বাগধারা ও প্রবাদ-প্রবচন',
         id: 'bn-idioms',
         type: 'mcq',
+        lockAfter: 2,
         commonData: {
           title: 'বাগধারাগুলির সঠিক অর্থ খুঁজুন'
         },

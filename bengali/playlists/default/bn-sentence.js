@@ -9,6 +9,7 @@ export default {
         type: 'sequence',
         label: 'শব্দ থেকে বাক্য গঠন',
         id: 'find-sentence',
+        lockAfter: 5,
         commonData: {
           printTitle: 'শব্দগুলি যুক্ত করে সঠিক বাক্য বানান'
         },
@@ -107,6 +108,7 @@ export default {
         id: 'subjectverb',
         type: 'match',
         label: 'বাক্য - ক্রিয়া',
+        lockAfter: 5,
         commonData: {
           title: 'ব্যক্তি-ক্রিয়া',
           fontSize: '1.2rem'
@@ -166,6 +168,7 @@ export default {
         id: 'tense',
         type: 'match',
         label: 'বাক্য - ক্রিয়ার কাল',
+        lockAfter: 5,
         commonData: {
           title: 'ক্রিয়ার কাল নির্বাচন',
           fontSize: '1.2rem'
@@ -210,6 +213,7 @@ export default {
         id: 'fillup-2',
         label: 'বাক্য - পুরুষ - ক্রিয়া',
         type: 'fillupOptions',
+        lockAfter: 5,
         commonData: {
           title: 'শূন্যস্থান পূরণ করুন.'
         },
@@ -288,6 +292,7 @@ export default {
         id: 'fillup',
         label: 'বাক্য - সমোচ্চারিত ভিন্নার্থক শব্দ',
         type: 'fillupOptions',
+        lockAfter: 4,
         commonData: {
           title: 'শূন্যস্থান পূরণ করুন.'
         },

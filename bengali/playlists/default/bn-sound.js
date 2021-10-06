@@ -2,6 +2,7 @@ export default {
   label: 'ধ্বনি',
   id: 'bn-sound',
   img: 'sound',
+  lockAfter: 7,
   list: [
     {
       type: 'slides',
@@ -254,6 +255,7 @@ export default {
       type: 'rightOne',
       label: 'শব্দ শুনে শনাক্ত করুন - পশু, পাখি',
       id: 'pick-word-animalbird',
+      lockAfter: 4,
       commonData: {
         title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
         type: 'image'

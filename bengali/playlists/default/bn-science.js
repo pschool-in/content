@@ -2,6 +2,7 @@ export default {
     label: 'বিজ্ঞান',
     id: 'bn-science',
     img: 'science',
+    lockAfter: 7,
     list: [
                   {
             label: 'গৃহপালিত পশু - বন্য পশু',

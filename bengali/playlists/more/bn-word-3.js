@@ -8,6 +8,7 @@ export default {
       type: 'rightOne',
       id: 'bn-sound-word-1s',
       label: 'ধ্বনি শুনে শব্দ শনাক্ত',
+      lockAfter: 2,
       commonData: {
         title: 'ধ্বনি শুনে শব্দ শনাক্ত করুন',
         type: 'words',
@@ -54,6 +55,7 @@ export default {
       id: 'same-meaning',
       type: 'match',
       label: 'প্রতিশব্দ বা সমার্থক শব্দ',
+      lockAfter: 5,
       commonData: {
         title: 'প্রতিশব্দ মেলান',
         fontSize: '1.2rem'
@@ -139,6 +141,7 @@ export default {
       id: 'opposites',
       type: 'match',
       label: 'বিপরীতার্থক শব্দ',
+      lockAfter: 5,
       commonData: {
         title: 'বিপরীতার্থক শব্দ',
         fontSize: '1.2rem'
@@ -229,6 +232,7 @@ export default {
       label: 'অনেক শব্দের জন্য একটি শব্দ',
       type: 'matchByDragDrop',
       id: 'bn-oneword',
+      lockAfter: 4,
       commonData: {
         isPractice: false,
         title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
