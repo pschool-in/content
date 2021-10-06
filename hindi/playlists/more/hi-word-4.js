@@ -149,7 +149,7 @@ export default {
       ]
     },
     {
-      type: 'match',
+      type: 'rightOne',
       id: 'onewordmanymeanings-2',
       label: 'असंगत का चयन करें ।',
       locked: 'true',
