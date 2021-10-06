@@ -6,6 +6,7 @@ export default {
       {
         id: 'form-sentence',
         label: 'सही वाक्य बनाओ',
+           lockAfter:4,
         type: 'sequence',
         commonData: {
           title: 'अर्थपूर्ण वाक्य बनाने के लिए शब्दों को जोड़िए',
@@ -134,6 +135,7 @@ export default {
   },
     {
         label: 'खाली स्थान में उचित क्रिया लिखिए।',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'verb',
         data: {
@@ -147,6 +149,7 @@ export default {
   },
     {
         label: 'खाली स्थान में उचित संज्ञा लिखिए।',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'noun',
         data: {
@@ -160,6 +163,7 @@ export default {
   },
     {
         label: 'खाली स्थान में उचित विशेषण लिखिए',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'adjective',
         data: {
@@ -173,6 +177,7 @@ export default {
   },
     {
         label: 'पर्यायवाची शब्द से रिक्त स्थान की पूर्ति',
+        locked: 'true',
         type: 'matchByDragDrop',
         id: 'synonym',
         data: {
