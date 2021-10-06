@@ -10,6 +10,11 @@ const vocabulary = [
     grade: 'kg, 1'
   },
   {
+    label: 'Vowels and Consonants',
+    slug: 'vowels',
+    grade: 'kg, 1, 2'
+  },
+  {
     label: 'Words related to Animals',
     slug: 'animal-words',
     grade: 'g2, g3, g4'
@@ -153,6 +158,11 @@ const vocabulary = [
     label: 'Words and Meaning',
     slug: 'words-meaning',
     grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Crossword',
+    slug: 'crossword-1',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'New Words',
