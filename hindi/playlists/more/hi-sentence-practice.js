@@ -6,6 +6,7 @@ export default {
     {
       id: 'form-sentence',
       label: 'सही वाक्य बनाओ',
+      lockAfter: 4,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण वाक्य बनाने के लिए शब्दों को जोड़िए',
