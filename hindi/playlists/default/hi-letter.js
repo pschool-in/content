@@ -524,6 +524,7 @@ export default {
     {
       type: 'group',
       label: 'स्वर बनाम व्यंजन ',
+      locked: 'true',
       id: 'classify-letter-type-hi',
       commonData: {
         title: 'व्यंजन और स्वर सही बॉक्स में डालें ',
@@ -555,6 +556,7 @@ export default {
       id: 'compound-7',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (क - घ)',
+      locked: 'true',
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
