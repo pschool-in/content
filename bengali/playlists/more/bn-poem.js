@@ -182,9 +182,9 @@ export default {
     {
       id: '1100',
       type: 'passage',
-      label: 'খোকার প্রশ্',
+      label: 'খোকার প্রশ্ন',
       data: {
-        title: 'খোকার প্রশ্',
+        title: 'খোকার প্রশ্ন',
         text: [
           {
             type: 'poem',
