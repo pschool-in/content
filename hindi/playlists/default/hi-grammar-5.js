@@ -355,6 +355,7 @@ export default {
       {
         label: 'खाली स्थान में उचित सर्वनाम लिखिए। ',
         type: 'matchByDragDrop',
+        locked: 'true',  
         id: 'hi-typesofpronoun3',
         data: {
           isPractice: false,
@@ -371,6 +372,7 @@ export default {
       },
       {
         label: 'खाली स्थान में उचित सर्वनाम लिखिए। ',
+        locked: 'true',  
         type: 'matchByDragDrop',
         id: 'hi-typesofpronoun4',
         data: {
@@ -763,6 +765,7 @@ export default {
       },
       {
         label: 'निम्नलिखित वाक्यों में रेखांकित शब्दों के कारक को पहचानिये',
+        locked: 'true',  
         id: 'hi-preposition1',
         type: 'mcq',
         data: {
