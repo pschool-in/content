@@ -4,16 +4,16 @@ const more = [
     slug: 'bn-picture-2'
   },
   {
-    label: 'ব্যাকরণ',
-    slug: 'bn-grammar-4'
-  },
-  {
     label: 'শব্দ 2',
     slug: 'bn-word-3'
   },
   {
     label: 'শব্দ 3',
     slug: 'bn-word-5'
+  },
+  {
+    label: 'ব্যাকরণ',
+    slug: 'bn-grammar-4'
   },
   {
     label: 'কবিতা সহজপাঠ',
@@ -31,7 +31,6 @@ const more = [
     label: 'সুকুমার রায় - গল্প ',
     slug: 'bn-sukumar-story'
   },
-
   {
     label: 'বর্ণ অনুশীলন',
     slug: 'bn-letter-2'
