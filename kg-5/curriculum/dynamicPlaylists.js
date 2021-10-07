@@ -15,6 +15,11 @@ const vocabulary = [
     grade: 'kg, 1, 2'
   },
   {
+    label: 'Word Search',
+    slug: 'wordsearch-1',
+    grade: ' 1, 2,3'
+  },
+  {
     label: 'Words related to Animals',
     slug: 'animal-words',
     grade: 'g2, g3, g4'
@@ -1034,6 +1039,36 @@ const gk = [
   {
     label: 'Brands, Companies & People',
     slug: 'brands',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Cities',
+    slug: 'gk-cities',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Culture',
+    slug: 'gk-culture',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'History',
+    slug: 'gk-history',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'India',
+    slug: 'gk-india',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Sports',
+    slug: 'gk-sports',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'World',
+    slug: 'gk-world',
     grade: 'g3, g4, g5'
   }
   /*

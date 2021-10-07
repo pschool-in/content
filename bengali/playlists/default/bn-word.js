@@ -1,6 +1,6 @@
 export default {
   label: 'শব্দ',
-  id: 'bn-word-2',
+  id: 'bn-word',
   img: 'word',
   list: [
     {
@@ -11,7 +11,6 @@ export default {
       commonData: {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
         lang: 'bn'
-        
       },
       // refernce - west bengal state board class 1/2 books
       data: [
@@ -54,7 +53,7 @@ export default {
         `অনুসরণ , পরিবর্তন, অনুপ্রেরণা, অনুসন্ধান, আতিথিয়তা`
       ]
     },
-     {
+    {
       // for class iii and above
       type: 'rightOne',
       id: 'bn-sound-word-1s',
@@ -101,7 +100,6 @@ export default {
       ]
     },
 
-   
     {
       // bengali number - Class 1 and above
       id: 'number',
@@ -175,8 +173,8 @@ export default {
 দুল , দূল 
 ফুল , ফূল 
 রথ ,  ড়থ 
-সরল, সড়ল `, 
-        
+সরল, সড়ল `,
+
         `জবা , যবা 
           আপেল , অপেল 
           আনারস , আনাড়স 
@@ -252,17 +250,17 @@ export default {
         `আজ, Today
         গতকাল, Yesterday
         আগামীকাল, Tomorrow`,
-        
+
         `এখানে, Here
         ওখানে, There
         তাড়াতাড়ি, Quikly
         আস্তে, Slowly`,
-        
+
         `সর্বদা, Always
         মাঝে মাঝে, Sometime
         কখনো, Never
         প্রায়, Often
-        কদাপি, Seldom`,
+        কদাপি, Seldom`
       ]
     }
   ]
