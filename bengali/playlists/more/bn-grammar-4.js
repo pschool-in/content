@@ -94,6 +94,7 @@ export default {
       type: 'rightOne',
       label: 'স্বরসন্ধি',
       id: 'bn-compoundword-vowel',
+      lockAfter: 3,
       commonData: {
         title: 'সঠিক বানান চয়ন করুন',
         noCaps: true,
@@ -174,7 +175,7 @@ export default {
 
           {
         // class-4 content ref-bhasapath-iv
-        label: 'বাক্যে কর্তা ও ক্রিয়া',
+        label: 'কর্তা ও ক্রিয়া',
         type: 'classifySentence',
         id: 'bn-sentence-subject',
         // lockAfter: 10,
