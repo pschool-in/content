@@ -246,7 +246,6 @@ export default {
         क, lotus
         सू, sunflower
         गें, marigold
-        गु, hibiscus
         च, jasmine`
       }
     },

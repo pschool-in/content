@@ -9,13 +9,13 @@ export default {
         type: 'dragAndDrop',
         data: {
           img: 'face',
-          title: 'Parts of Face',
+          title: 'चेहरे के हिस्सों की पहचान करें',
           width: 250,
           height: 296,
           wordWidth: 50,
           words: [
             {
-              word: 'मुंह',
+              word: 'मुँह',
               x: 13,
               y: 242
             },
@@ -35,7 +35,7 @@ export default {
               y: 231
             },
             {
-              word: 'आंख',
+              word: 'आँख',
               x: 16,
               y: 188
             }
@@ -81,19 +81,19 @@ export default {
         }
       },
        {
-        label: 'जमीन के ऊपर - जमीन के नीचे सब्जियां',
+        label: 'ज़मीन के ऊपर - ज़मीन के नीचे सब्जियां',
         type: 'group',
         id: 'vegi',
         data: {
-          title: 'सब्जियों को जमीन के नीचे या जमीन के ऊपर उगने वाले के रूप में वर्गीकृत करें। ',
+          title: 'सब्जियों को ज़मीन के नीचे या ज़मीन के ऊपर उगने वाले के रूप में वर्गीकृत करें। ',
           imageType: 'vegetables',
           types: [
             {
-              name: 'जमीन के ऊपर',
+              name: 'ज़मीन के ऊपर',
               text: 'tomato, cabbage, cauliflower, corn, cucumber, pumpkin'
             },
             {
-              name: 'जमीन के नीचे',
+              name: 'ज़मीन के नीचे',
               text: 'carrot, beetroot, onion, potato, garlic, ginger'
             }
           ]
@@ -104,6 +104,7 @@ export default {
           locked: 'true',
         type: 'group',
         id: 'hi-vehicle',
+        
         data: {
           title: 'सड़क पर, पानी में या हवा में इस्तेमाल होने वाले वाहनों को वर्गीकृत करें। ',
           imageType: 'vegetables',
@@ -129,6 +130,7 @@ export default {
     label: 'पौधे का भाग',
     data: {
       img: 'plant',
+      title: 'पौधों के भागों की पहचान करें',
       width: 249,
       height: 235,
       wordWidth: 50,
@@ -147,13 +149,14 @@ export default {
     label: 'कुत्ते का भाग',
     data: {
       img: 'dog',
+      title: 'कुत्ते के अंगों को पहचानें',
       width: 250,
       height: 271,
       wordWidth: 50,
       words: [
-        { word: 'पूंछ', x: 190, y: 70 },
+        { word: 'पूँछ', x: 190, y: 70 },
         { word: 'कान', x: 5, y: 6 },
-        { word: 'आंख', x: 60, y: 8 },
+        { word: 'आँख', x: 60, y: 8 },
         { word: 'नाक', x: 10, y: 140 },
         { word: 'पैर', x: 140, y: 238 },
         { word: 'पीठ', x: 146, y: 106 },
@@ -168,6 +171,7 @@ export default {
       locked: 'true',
     data: {
       img: 'human',
+      title: 'शरीर के अंगों को पहचानें',
       width: 250,
       height: 354,
       wordWidth: 70,
@@ -177,9 +181,8 @@ export default {
         { word: 'सिर', x: 177, y: 70 },
         { word: 'कंधों', x: 39, y: 78 },
         { word: 'घुटना', x: 25, y: 261 },
-        { word: 'हाथ', x: 24, y: 124 },
         { word: 'छाती', x: 193, y: 111 },
-        { word: 'पैर', x: 28, y: 295 }
+        
       ]
     }
     },

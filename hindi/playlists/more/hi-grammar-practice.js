@@ -61,8 +61,8 @@ export default {
         title: 'लिंग का वर्गीकरण करें',
         fontSize: '2rem',
         printTitle:
-          'Rewrite the words given at the bottom at approprate boxes.',
-        types: ['Male', 'Female']
+          'लिंग का वर्गीकरण करें',
+        types: ['पुरुष', 'महिला']
       },
       data: [
         [`पिता, गायक, धोबी, माली, मोर`, `माता, गायिका, धोबिन, मालिन, मोरनी`],
