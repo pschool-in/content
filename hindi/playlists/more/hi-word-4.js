@@ -7,6 +7,7 @@ export default {
       type: 'match',
       label: 'विलोम शब्द',
       id: 'antonyms',
+      lockAfter: 2,
       commonData: {
         title: 'विलोम शब्द का मिलान करें'
       },
@@ -37,6 +38,7 @@ export default {
       type: 'match',
       label: 'समानार्थी शब्द',
       id: 'synonyms',
+      lockAfter: 2,
       commonData: {
         title: 'समानार्थी शब्द का मिलान करें'
       },

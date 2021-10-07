@@ -154,6 +154,7 @@ export default {
       label: 'सही उत्तर का चयन करें।',
       id: 'भेड़िये और बकरी की कहानी-mcq',
       type: 'mcq',
+      locked: 'true',
       data: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।',
         questions: [
@@ -198,6 +199,7 @@ export default {
       label: 'सही उत्तर का चयन करें।',
       id: 'बीरबल की बुद्धिमानी-mcq',
       type: 'mcq',
+      locked: 'true',
       data: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।',
         questions: [
@@ -249,6 +251,7 @@ export default {
       label: 'सही उत्तर का चयन करें।',
       id: 'ईमानदार लकड़हारा-mcq',
       type: 'mcq',
+      locked: 'true',
       data: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।',
         questions: [

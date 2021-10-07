@@ -57,6 +57,7 @@ export default {
     },
       {
        label: 'खाली स्थान में उचित संज्ञा लिखिए।',
+       locked: 'true',
        type: 'matchByDragDrop',
        id: 'noun-3',
        data: {
@@ -82,6 +83,7 @@ export default {
     },
       {
        label: 'खाली स्थान में उचित सर्वनाम लिखिए।',
+       locked: 'true',
        type: 'matchByDragDrop',
        id: 'pronoun-2',
        data: {

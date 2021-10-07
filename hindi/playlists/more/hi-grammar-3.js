@@ -22,7 +22,7 @@ export default {
       {
         type: 'match',
         label: 'निम्नलिखित को जोड़िए।',
-           lockAfter:4,
+           lockAfter:3,
         id: 'match-gender',
         commonData: {
           title: 'लिंग के आधार पर निम्नलिखित को जोड़िए।'
@@ -74,6 +74,7 @@ export default {
         type: 'group',
         label: 'लिंग स्त्रीलिंक/पुल्लिंग ',
         id: 'classify-geneder-type',
+        lockAfter:3,
         commonData: {
           title: 'लिंग का वर्गीकरण करें',
           fontSize: '2rem',
@@ -296,6 +297,7 @@ export default {
         type: 'group',
         label: 'संज्ञा और क्रिया',
         id: 'partsofspeech1-hi',
+        lockAfter:2,
         commonData: {
           title: 'संज्ञा और क्रिया को वर्गीकृत करें।',
           fontSize: '2rem',
@@ -316,6 +318,7 @@ export default {
         type: 'group',
         label: 'सर्वनाम vs विशेषण',
         id: 'partsofspeech2-hi',
+        lockAfter:3,
         commonData: {
           title: 'सर्वनाम और विशेषण को वर्गीकृत करें।',
           fontSize: '2rem',
@@ -339,6 +342,7 @@ export default {
         type: 'match',
         label: 'निम्नलिखित को जोड़िए।',
         id: 'matchpartsofspeech',
+        lockAfter:3,
         commonData: {
           title: 'शब्दभेद के हिस्सों के साथ शब्दों को जोड़िए।'
         },

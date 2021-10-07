@@ -60,6 +60,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupsentence',
         label: 'वाक्य के भेद',
+        lockAfter:2,
         commonData: {
           title: 'सही विकल्प चुनकर रिक्त स्थानों की पूर्ति कीजिए।'
         },

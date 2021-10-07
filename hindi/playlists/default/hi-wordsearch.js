@@ -1,6 +1,6 @@
 export default {
   label: 'शब्द खोज',
-  lockAfter:14,
+  lockAfter:9,
   id: 'hi-wordsearch',
   img: 'wordsearch',
   list: [

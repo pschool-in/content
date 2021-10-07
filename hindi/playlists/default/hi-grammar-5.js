@@ -641,6 +641,7 @@ export default {
         id: 'match-gender2',
         label: 'निम्नलिखित को जोड़िए। ',
         type: 'match',
+        locked: 'true', 
         data: {
           text: `कोयल, नर कोयल
           तितली, नर तितली
@@ -852,7 +853,7 @@ export default {
         type: 'fillupOptions',
         id: 'fillupwords',
         label: 'सही विकल्प चुनें।',
-        lockAfter:4,  
+        lockAfter:3,  
         commonData: {
           title: 'अविकारी शब्दों के प्रकार को पहचानें।'
         },
@@ -902,6 +903,7 @@ export default {
         type: 'match',
         label: 'निम्नलिखित को जोड़िए।',
         id: 'match-idioms',
+        lockAfter:2,
         commonData: {
           title: 'मुहावरे को उनके अर्थ से मिलाएं।'
         },
@@ -971,7 +973,7 @@ export default {
       },
       {
         label: 'सही उत्तर का चयन करें।',
-        lockAfter:4,  
+        locked: 'true',  
         id: 'hi-punctuation1',
         type: 'mcq',
         data: {
@@ -1010,7 +1012,7 @@ export default {
       },
       {
       label: 'सही उत्तर का चयन करें।',
-      lockAfter:4,    
+      lockAfter:3,    
       id: 'hi-spelling',
       type: 'mcq',
       commonData: {

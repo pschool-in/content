@@ -114,6 +114,7 @@ export default {
         type: 'match',
         label: 'राज्य और उसकी भाषा।',
         id: 'match4',
+        lockAfter:1,
         commonData: {
           title: 'राज्य और उसकी भाषा को आपस में जोड़िए।'
         },
@@ -177,9 +178,10 @@ export default {
       },
       {
         label: 'भारत के राष्ट्रीय',
-        locked: 'true',
+        //locked: 'true',
         type: 'matchByDragDrop',
         id: 'nationalofindia',
+        lockAfter:1,
         commonData: {
           title: 'सही उत्तर का चयन करें।',
           styles: {
@@ -205,9 +207,10 @@ export default {
       },
        {
         label: 'भारत के प्रथम',
-        locked: 'true', 
+        //locked: 'true', 
         type: 'matchByDragDrop',
         id: 'indias-first',
+        lockAfter:1,
         commonData: {
           title: 'सही उत्तर का चयन करें।',
           styles: {
