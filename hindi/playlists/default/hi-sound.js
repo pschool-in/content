@@ -198,7 +198,7 @@ garlic| लहसुन`
           text: `ginger| अदरक
 pumpkin| कद्दू
 almond| बादाम
-beans| फलियां
+beans| फलि
 bitter-gourd| करेला
 brinjal| बैंगन
 capsicum| शिमला मिर्च
@@ -210,7 +210,7 @@ coconut| नारियल`
           audioOffset: 40,
           text: `corianderleaf| धनिया पत्ता
 curryleaf| करी पत्ता
-drumstick| सहजन
+drumstick| सेहजन
 greenpeas| मटर
 ladies-finger| भिन्डी
 mintleaf| पुदीना
