@@ -221,8 +221,7 @@ export default {
         भे, sheep
         घो, horse`,
 
-        `सू, pig
-        हा, elephant
+        `हा, elephant
         शे, lion
         बं, monkey
         बा, tiger`,
@@ -230,12 +229,11 @@ export default {
         `ज, hippo
         गैं, rhino
         लो, fox
-        म, crocodile
-        धा, zebra`,
+        म, crocodile`,
 
         `भा, bear
         ऊं, camel
-        ति, whale
+        सू, pig
         म, fish`,
 
         `में, frog
