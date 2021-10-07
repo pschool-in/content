@@ -10,7 +10,7 @@ import reading from '../playlists/default/hi-reading-3.js';
 import science from '../playlists/default/hi-science.js';
 import social from '../playlists/default/hi-social.js';
 import poem from '../playlists/default/hi-poem.js';
-import essay from '../playlists/default/hi-essay.js';
+// import essay from '../playlists/default/hi-essay.js';
 
 export default {
   //label: 'हिंदी',
@@ -32,6 +32,6 @@ export default {
     wordsearch,
     crossword,
     poem,
-    essay
+    // essay
   ]
 };

@@ -25,6 +25,10 @@ const more = [
     slug: 'hi-reading-4'
   },
   {
+    label: 'निबंध',
+    slug: 'hi-essay'
+  },
+  {
     label: 'व्याकरण',
     slug: 'hi-grammar-3'
   },
