@@ -35,7 +35,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'भोकने वाला जानवर ',
+            hint: 'भौंकने वाला जानवर ',
             direction: 'down'
           },
           {
@@ -382,7 +382,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'ताजमहल कहा स्थित है ',
+            hint: 'ताजमहल कहाँ स्थित है ',
             direction: 'across'
           },
           {
@@ -391,7 +391,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'लाल किला कहा स्थित है ',
+            hint: 'लाल किला कहाँ स्थित है ',
             direction: 'down'
           },
           {
@@ -409,7 +409,7 @@ export default {
               x: 1,
               y: 5
             },
-            hint: 'स्वर्ण मंदिर कहा स्थित है ',
+            hint: 'स्वर्ण मंदिर कहाँ स्थित है ',
             direction: 'across'
           },
           {
@@ -418,7 +418,7 @@ export default {
               x: 2,
               y: 4
             },
-            hint: 'विक्टोरिया मेमोरियल कहा स्थित है ',
+            hint: 'विक्टोरिया मेमोरियल कहाँ स्थित है ',
             direction: 'across'
           },
           {
