@@ -16,12 +16,12 @@ const more = [
     slug: 'bn-grammar-4'
   },
   {
-    label: 'কবিতা সহজপাঠ',
-    slug: 'bn-poem-1'
-  },
-  {
     label: 'ছোটদের ছড়া',
     slug: 'bn-poem'
+  },
+  {
+    label: 'কবিতা সহজপাঠ',
+    slug: 'bn-poem-1'
   },
   {
     label: 'গল্প',
