@@ -2,6 +2,7 @@ export default {
   label: 'निबंध',
   id: 'hi-essay',
   img: 'reading',
+  lockAfter:6,
   list: [
     
     {
