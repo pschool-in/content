@@ -7,7 +7,7 @@ export default {
     {
       id: '1200',
       type: 'passage',
-      label: 'Pegion (कबूतर)',
+      label: 'Pigeon (कबूतर)',
       data: {
         title: 'कबूतर',
 
