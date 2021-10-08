@@ -14,7 +14,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'used for cutting in kitchen.',
+            hint: 'used for chopping',
             direction: 'across'
           },
           {
@@ -23,7 +23,7 @@ export default {
               x: 3,
               y: 0
             },
-            hint: 'used to eat noodles.',
+            hint: 'used to eat noodles',
             direction: 'down'
           },
           {
@@ -32,7 +32,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'adds good taste in food.',
+            hint: 'adds good taste in food; looks like an onion but is white in color',
             direction: 'across'
           },
           {
@@ -41,7 +41,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'generally used in making tea and soups.',
+            hint: 'generally used in making tea and soups; starts with G',
             direction: 'down2'
           },
           {
@@ -59,7 +59,7 @@ export default {
               x: 5,
               y: 1
             },
-            hint: 'used to mix and serve vegetables.',
+            hint: 'used to mix and serve vegetables',
             direction: 'down'
           },
           {
@@ -68,7 +68,7 @@ export default {
               x: 4,
               y: 5
             },
-            hint: 'rich in protein.',
+            hint: 'rich in protein',
             direction: 'across'
           },
           {
@@ -77,7 +77,7 @@ export default {
               x: 9,
               y: 5
             },
-            hint: 'we usually drink it in winters.',
+            hint: 'we usually drink it in winters; mentioned in "starters" section of the menu',
             direction: 'down'
           },
           {
@@ -86,7 +86,7 @@ export default {
               x: 3,
               y: 9
             },
-            hint: 'gas used to cook.',
+            hint: 'gas used for cooking',
             direction: 'down2'
           },
           {
@@ -104,7 +104,7 @@ export default {
               x: 7,
               y: 5
             },
-            hint: 'main ingredient in almost all the dishes.',
+            hint: 'main ingredient in almost all the dishes',
             direction: 'down'
           }
         ],
@@ -138,7 +138,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'our grandparents.',
+            hint: 'our grandparents',
             direction: 'across'
           },
           {
@@ -147,7 +147,7 @@ export default {
               x: 0,
               y: 2
             },
-            hint: 'something very nice.',
+            hint: 'something very nice and pretty',
             direction: 'across'
           },
           {
@@ -156,7 +156,7 @@ export default {
               x: 2,
               y: 2
             },
-            hint: 'irritating.',
+            hint: 'irritating',
             direction: 'down'
           },
           {
@@ -174,7 +174,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'something described in short.',
+            hint: 'something described in short',
             direction: 'down'
           },
           {
@@ -183,7 +183,7 @@ export default {
               x: 4,
               y: 5
             },
-            hint: 'something we are very afraid of.',
+            hint: 'something we are very afraid of',
             direction: 'down'
           },
           {
@@ -192,7 +192,7 @@ export default {
               x: 4,
               y: 7
             },
-            hint: 'when we loose temper.',
+            hint: 'when we loose temper',
             direction: 'across'
           },
           {
@@ -201,7 +201,7 @@ export default {
               x: 8,
               y: 3
             },
-            hint: 'not found in common.',
+            hint: 'not found in common',
             direction: 'down'
           }
         ],
@@ -234,7 +234,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'we grab things using these.',
+            hint: 'we grab things using these',
             direction: 'across'
           },
           {
@@ -243,7 +243,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'final absorption of nutrients occur here.',
+            hint: 'final absorption of nutrients occur here',
             direction: 'down'
           },
           {
@@ -252,7 +252,7 @@ export default {
               x: 1,
               y: 2
             },
-            hint: 'our tongue identifies taste with these.',
+            hint: 'our tongue identifies taste with these',
             direction: 'across'
           },
           {
@@ -261,7 +261,7 @@ export default {
               x: 9,
               y: 2
             },
-            hint: 'present in the back.',
+            hint: 'present in the back',
             direction: 'down'
           },
           {
@@ -270,7 +270,7 @@ export default {
               x: 1,
               y: 4
             },
-            hint: 'digests food.',
+            hint: 'digests food',
             direction: 'across'
           },
           {
@@ -279,7 +279,7 @@ export default {
               x: 1,
               y: 7
             },
-            hint: 'we should cut these regularly.',
+            hint: 'we should cut these regularly',
             direction: 'across'
           },
           {
@@ -288,7 +288,7 @@ export default {
               x: 7,
               y: 4
             },
-            hint: 'can be of different color of different people.',
+            hint: 'can be of different color of different people',
             direction: 'down'
           },
           {
@@ -297,7 +297,7 @@ export default {
               x: 3,
               y: 8
             },
-            hint: 'filter blood.',
+            hint: 'filter blood',
             direction: 'across'
           }
         ],
@@ -329,7 +329,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'antonym of absence.',
+            hint: 'opposite of absence.',
             direction: 'across'
           },
           {
@@ -338,7 +338,7 @@ export default {
               x: 9,
               y: 3
             },
-            hint: 'opposite of fake.',
+            hint: 'opposite of fake',
             direction: 'down'
           },
           {
@@ -347,7 +347,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'opposite of attention.',
+            hint: 'opposite of attention',
             direction: 'down'
           },
           {
@@ -356,7 +356,7 @@ export default {
               x: 1,
               y: 9
             },
-            hint: 'opposite of frank.',
+            hint: 'opposite of chatty',
             direction: 'across'
           },
           {
@@ -365,7 +365,7 @@ export default {
               x: 2,
               y: 6
             },
-            hint: 'opposite of harsh.',
+            hint: 'opposite of harsh',
             direction: 'across'
           },
           {
@@ -374,7 +374,7 @@ export default {
               x: 1,
               y: 2
             },
-            hint: 'opposite of collect.',
+            hint: 'opposite of collect',
             direction: 'down'
           },
           {
@@ -383,7 +383,7 @@ export default {
               x: 5,
               y: 3
             },
-            hint: 'opposite of high.',
+            hint: 'opposite of high',
             direction: 'across'
           },
           {
@@ -392,7 +392,7 @@ export default {
               x: 7,
               y: 2
             },
-            hint: 'opposite of asleep.',
+            hint: 'opposite of asleep',
             direction: 'down'
           },
           {
@@ -401,7 +401,7 @@ export default {
               x: 1,
               y: 2
             },
-            hint: 'opposite of asweet.',
+            hint: 'opposite of sweet',
             direction: 'across'
           }
         ],
@@ -434,7 +434,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'slow running.',
+            hint: 'slow running',
             direction: 'down'
           },
           {
@@ -443,7 +443,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'done with minimum 3 balls.',
+            hint: 'done with minimum 3 balls',
             direction: 'across'
           },
           {
@@ -452,7 +452,7 @@ export default {
               x: 0,
               y: 4
             },
-            hint: 'skills required for vehicles.',
+            hint: 'skills required for vehicles',
             direction: 'down'
           },
           {
@@ -461,7 +461,7 @@ export default {
               x: 0,
               y: 4
             },
-            hint: 'to jump into the water.',
+            hint: 'to jump into the water',
             direction: 'across'
           },
           {
@@ -470,7 +470,7 @@ export default {
               x: 7,
               y: 4
             },
-            hint: 'our mind does this.',
+            hint: 'our mind does this',
             direction: 'down'
           },
           {
@@ -479,7 +479,7 @@ export default {
               x: 3,
               y: 8
             },
-            hint: 'when someone talks to us.',
+            hint: 'when someone asks us something',
             direction: 'across'
           },
           {
@@ -488,7 +488,7 @@ export default {
               x: 7,
               y: 0
             },
-            hint: 'when someone scolds kids.',
+            hint: 'when someone scolds kids',
             direction: 'down'
           },
           {
@@ -497,7 +497,7 @@ export default {
               x: 5,
               y: 4
             },
-            hint: 'when we are happy.',
+            hint: 'when we are happy',
             direction: 'down'
           },
           {
@@ -506,7 +506,7 @@ export default {
               x: 3,
               y: 4
             },
-            hint: 'when we are hungry.',
+            hint: 'when we are hungry',
             direction: 'down'
           },
           {
@@ -549,7 +549,7 @@ export default {
               x: 9,
               y: 3
             },
-            hint: 'animal with a long neck.',
+            hint: 'animal with a long neck',
             direction: 'down'
           },
           {
@@ -558,7 +558,7 @@ export default {
               x: 7,
               y: 3
             },
-            hint: 'most common pet to humans.',
+            hint: 'most common pet to humans',
             direction: 'across'
           },
           {
@@ -567,7 +567,7 @@ export default {
               x: 1,
               y: 2
             },
-            hint: 'largest land animal.',
+            hint: 'largest land animal',
             direction: 'across'
           },
           {
@@ -576,7 +576,7 @@ export default {
               x: 5,
               y: 1
             },
-            hint: 'largest water animal.',
+            hint: 'largest water animal',
             direction: 'down'
           },
           {
@@ -585,7 +585,7 @@ export default {
               x: 2,
               y: 5
             },
-            hint: 'known as the ship of the dessert.',
+            hint: 'known as the ship of the dessert',
             direction: 'across'
           },
           {
@@ -594,7 +594,7 @@ export default {
               x: 6,
               y: 5
             },
-            hint: 'known as the king of the jungle.',
+            hint: 'known as the king of the jungle',
             direction: 'down'
           },
           {
@@ -603,7 +603,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'animal with a baby pouch.',
+            hint: 'animal with a baby pouch; found in Australia',
             direction: 'across'
           },
           {
@@ -612,7 +612,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'hops and love carrots.',
+            hint: 'hops and love carrots',
             direction: 'across'
           },
           {
@@ -621,7 +621,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'one-horned animal.',
+            hint: 'one-horned animal',
             direction: 'down'
           },
           {
@@ -630,7 +630,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'five-armed fish.',
+            hint: 'five-armed fish',
             direction: 'across'
           },
           {
@@ -639,7 +639,7 @@ export default {
               x: 1,
               y: 7
             },
-            hint: 'a common insect.',
+            hint: 'a common insect; loves sweet food',
             direction: 'down'
           }
         ],
@@ -672,7 +672,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'famous for Eifel Tower.',
+            hint: 'famous for Eifel Tower',
             direction: 'down'
           },
           {
@@ -681,7 +681,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: 'famous for Taj Mahal.',
+            hint: 'famous for Taj Mahal',
             direction: 'across'
           },
           {
@@ -690,7 +690,7 @@ export default {
               x: 1,
               y: 1
             },
-            hint: 'tourist hub of India.',
+            hint: 'tourist hub of India',
             direction: 'down'
           },
           {
@@ -699,7 +699,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'birth place of Mahatma Gandhi.',
+            hint: 'birth place of Mahatma Gandhi',
             direction: 'across'
           },
           {
@@ -708,7 +708,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'famous for Statue of Liberty.',
+            hint: 'famous for Statue of Liberty',
             direction: 'across'
           },
           {
@@ -717,7 +717,7 @@ export default {
               x: 4,
               y: 4
             },
-            hint: 'cleanest city of India.',
+            hint: 'cleanest city of India',
             direction: 'down'
           },
           {
@@ -726,7 +726,7 @@ export default {
               x: 6,
               y: 5
             },
-            hint: 'largest city in the world.',
+            hint: 'largest city in the world; situated in Japan',
             direction: 'down'
           },
           {
@@ -735,7 +735,7 @@ export default {
               x: 9,
               y: 1
             },
-            hint: 'known as the Pink City of India.',
+            hint: 'known as the Pink City of India; situated in Rajasthan',
             direction: 'down'
           },
           {
@@ -744,7 +744,7 @@ export default {
               x: 4,
               y: 3
             },
-            hint: 'known as the City of Dreams.',
+            hint: 'known as the City of Dreams; home to Indian film city',
             direction: 'across'
           },
           {
@@ -753,7 +753,7 @@ export default {
               x: 7,
               y: 3
             },
-            hint: 'famous holiday destination of Thailand.',
+            hint: 'famous holiday destination of Thailand',
             direction: 'down'
           }
         ],
@@ -786,7 +786,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'capital of India.',
+            hint: 'capital of India',
             direction: 'across'
           },
           {
@@ -795,7 +795,7 @@ export default {
               x: 2,
               y: 0
             },
-            hint: 'capital of England.',
+            hint: 'capital of England',
             direction: 'down'
           },
           {
@@ -804,7 +804,7 @@ export default {
               x: 9,
               y: 0
             },
-            hint: 'capital of USA.',
+            hint: 'capital of USA',
             direction: 'down'
           },
           {
@@ -813,7 +813,7 @@ export default {
               x: 3,
               y: 6
             },
-            hint: 'capital of China.',
+            hint: 'capital of China',
             direction: 'across'
           },
           {
@@ -822,7 +822,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'capital of Singapore.',
+            hint: 'capital of Singapore',
             direction: 'across'
           },
           {
@@ -831,7 +831,7 @@ export default {
               x: 2,
               y: 1
             },
-            hint: 'capital of Canada.',
+            hint: 'capital of Canada',
             direction: 'across'
           },
           {
@@ -840,7 +840,7 @@ export default {
               x: 0,
               y: 3
             },
-            hint: 'capital of Australia.',
+            hint: 'capital of Australia',
             direction: 'across'
           },
           {
@@ -849,7 +849,7 @@ export default {
               x: 1,
               y: 4
             },
-            hint: 'capital of Italy.',
+            hint: 'capital of Italy',
             direction: 'across'
           },
           {
@@ -858,7 +858,7 @@ export default {
               x: 7,
               y: 2
             },
-            hint: 'capital of Germany.',
+            hint: 'capital of Germany',
             direction: 'down'
           },
           {
@@ -867,7 +867,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'capital of Bangladesh.',
+            hint: 'capital of Bangladesh',
             direction: 'across'
           }
         ],
@@ -900,7 +900,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'describes the quality of a noun.',
+            hint: 'describes the quality of a noun',
             direction: 'down'
           },
           {
@@ -909,7 +909,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'describes the verb or adjective.',
+            hint: 'describes the verb or adjective',
             direction: 'across'
           },
           {
@@ -918,7 +918,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'doing words.',
+            hint: 'doing words',
             direction: 'across'
           },
           {
@@ -927,7 +927,7 @@ export default {
               x: 5,
               y: 2
             },
-            hint: 'used in place of noun.',
+            hint: 'used in place of noun',
             direction: 'down'
           },
           {
@@ -936,7 +936,7 @@ export default {
               x: 2,
               y: 5
             },
-            hint: 'name of a person, place or thing.',
+            hint: 'name of a person, place or thing',
             direction: 'across'
           }
         ],
@@ -968,7 +968,7 @@ export default {
               x: 9,
               y: 0
             },
-            hint: 'synonym for enthusiastic.',
+            hint: 'synonym for enthusiastic',
             direction: 'down'
           },
           {
@@ -977,7 +977,7 @@ export default {
               x: 4,
               y: 2
             },
-            hint: 'synonym for dull.',
+            hint: 'synonym for dull',
             direction: 'across'
           },
           {
@@ -986,7 +986,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'synonym for clarify.',
+            hint: 'synonym for clarify',
             direction: 'across'
           },
           {
@@ -995,7 +995,7 @@ export default {
               x: 0,
               y: 2
             },
-            hint: 'synonym for finish.',
+            hint: 'synonym for finish',
             direction: 'down'
           },
           {
@@ -1004,7 +1004,7 @@ export default {
               x: 6,
               y: 2
             },
-            hint: 'synonym for savor.',
+            hint: 'synonym for savor',
             direction: 'down'
           },
           {
@@ -1013,7 +1013,7 @@ export default {
               x: 0,
               y: 8
             },
-            hint: 'synonym for ruin.',
+            hint: 'synonym for ruin',
             direction: 'across'
           },
           {
@@ -1022,7 +1022,7 @@ export default {
               x: 4,
               y: 4
             },
-            hint: 'synonym for inactive.',
+            hint: 'synonym for inactive',
             direction: 'across'
           },
           {
@@ -1031,7 +1031,7 @@ export default {
               x: 2,
               y: 8
             },
-            hint: 'synonym for rapidly.',
+            hint: 'synonym for rapidly',
             direction: 'down2'
           },
           {
@@ -1040,7 +1040,7 @@ export default {
               x: 1,
               y: 3
             },
-            hint: 'synonym for divide.',
+            hint: 'synonym for divide',
             direction: 'across'
           },
           {
@@ -1049,7 +1049,7 @@ export default {
               x: 5,
               y: 9
             },
-            hint: 'synonym for descend.',
+            hint: 'synonym for descend',
             direction: 'across2'
           },
           {
@@ -1058,7 +1058,7 @@ export default {
               x: 5,
               y: 5
             },
-            hint: 'synonym for heap.',
+            hint: 'synonym for heap',
             direction: 'across'
           },
           {
@@ -1067,7 +1067,7 @@ export default {
               x: 8,
               y: 5
             },
-            hint: 'synonym for ahead.',
+            hint: 'synonym for ahead',
             direction: 'down'
           }
         ],
@@ -1100,7 +1100,7 @@ export default {
               x: 4,
               y: 1
             },
-            hint: "Ironman's assistant.",
+            hint: "Ironman's assistant",
             direction: 'across'
           },
           {
@@ -1109,7 +1109,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'short name of Captain America.',
+            hint: 'short name of Captain America',
             direction: 'down'
           },
           {
@@ -1127,7 +1127,7 @@ export default {
               x: 4,
               y: 1
             },
-            hint: "Batman's enemy.",
+            hint: "Batman's enemy",
             direction: 'down'
           },
           {
@@ -1136,7 +1136,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'also called The Man of Steel.',
+            hint: 'also called The Man of Steel',
             direction: 'down'
           },
           {
@@ -1145,7 +1145,7 @@ export default {
               x: 1,
               y: 3
             },
-            hint: "he's green, big and aggressive.",
+            hint: "he's green, big and aggressive",
             direction: 'across'
           },
           {
@@ -1163,7 +1163,7 @@ export default {
               x: 6,
               y: 6
             },
-            hint: 'God of Thunder.',
+            hint: 'God of Thunder',
             direction: 'down'
           },
           {
@@ -1172,7 +1172,7 @@ export default {
               x: 2,
               y: 1
             },
-            hint: 'real name of Batman.',
+            hint: 'real name of Batman',
             direction: 'down'
           },
           {
@@ -1181,7 +1181,7 @@ export default {
               x: 7,
               y: 3
             },
-            hint: 'birth planet of Superman.',
+            hint: 'birth planet of Superman',
             direction: 'down'
           },
           {
@@ -1223,7 +1223,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'this person helps our life problems.',
+            hint: 'this person helps us with our life problems.',
             direction: 'across'
           },
           {
@@ -1232,7 +1232,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'deals with technical things and machines.',
+            hint: 'deals with technical things and machines',
             direction: 'down'
           },
           {
@@ -1241,7 +1241,7 @@ export default {
               x: 1,
               y: 5
             },
-            hint: 'whole and soul of agriculture.',
+            hint: 'whole and soul of agriculture',
             direction: 'across'
           },
           {
@@ -1250,7 +1250,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'prepares delicious food.',
+            hint: 'prepares delicious food',
             direction: 'down'
           },
           {
@@ -1259,7 +1259,7 @@ export default {
               x: 4,
               y: 5
             },
-            hint: 'walks on ramp.',
+            hint: 'walks on ramp',
             direction: 'down'
           },
           {
@@ -1268,7 +1268,7 @@ export default {
               x: 2,
               y: 3
             },
-            hint: 'enlightens us with knowledge.',
+            hint: 'enlightens us with knowledge',
             direction: 'down'
           },
           {
@@ -1277,7 +1277,7 @@ export default {
               x: 9,
               y: 5
             },
-            hint: 'operates airplane.',
+            hint: 'operates airplane',
             direction: 'down'
           },
           {
@@ -1286,7 +1286,7 @@ export default {
               x: 3,
               y: 9
             },
-            hint: 'works with flowers.',
+            hint: 'works with flowers',
             direction: 'across'
           },
           {
@@ -1295,7 +1295,7 @@ export default {
               x: 8,
               y: 1
             },
-            hint: 'sells meat.',
+            hint: 'sells meat',
             direction: 'down'
           },
           {
@@ -1304,7 +1304,7 @@ export default {
               x: 0,
               y: 5
             },
-            hint: 'work in a bakery.',
+            hint: 'work in a bakery',
             direction: 'down'
           }
         ],
@@ -1337,7 +1337,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'founder of Apple.',
+            hint: 'founder of Apple',
             direction: 'across'
           },
           {
@@ -1346,7 +1346,7 @@ export default {
               x: 9,
               y: 0
             },
-            hint: 'founder of Facebook, Mark_____.',
+            hint: 'founder of Facebook, Mark_____',
             direction: 'down'
           },
           {
@@ -1355,7 +1355,7 @@ export default {
               x: 2,
               y: 0
             },
-            hint: 'owns Tesla and SpaceX.',
+            hint: 'owns Tesla, PayPal and SpaceX',
             direction: 'down'
           },
           {
@@ -1364,7 +1364,7 @@ export default {
               x: 7,
               y: 0
             },
-            hint: 'founder of Microsoft.',
+            hint: 'founder of Microsoft',
             direction: 'down'
           },
           {
@@ -1373,7 +1373,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'ex-CEO of Amazon.',
+            hint: 'ex-CEO of Amazon',
             direction: 'down'
           },
           {
@@ -1382,7 +1382,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'richest person in India, owns IPL team Mumbai Indians.',
+            hint: 'richest person in India, owns IPL team Mumbai Indians',
             direction: 'across'
           },
           {
@@ -1391,7 +1391,7 @@ export default {
               x: 1,
               y: 9
             },
-            hint: "world's most powerful leader.",
+            hint: "world's most powerful leader",
             direction: 'down2'
           },
           {
@@ -1400,7 +1400,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'owns the company of ethics.',
+            hint: 'owns the most eithical comapny of India',
             direction: 'down'
           },
           {
@@ -1410,7 +1410,7 @@ export default {
               y: 0
             },
             hint:
-              'globally recognized and very successful bollywood superstar.',
+              'globally recognized and very successful bollywood superstar',
             direction: 'down'
           }
         ],
@@ -1443,7 +1443,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'smallest planet.',
+            hint: 'smallest planet',
             direction: 'down'
           },
           {
@@ -1452,7 +1452,7 @@ export default {
               x: 0,
               y: 4
             },
-            hint: 'coldest planet.',
+            hint: 'coldest planet',
             direction: 'across'
           },
           {
@@ -1461,7 +1461,7 @@ export default {
               x: 4,
               y: 0
             },
-            hint: 'most distant planet.',
+            hint: 'most distant planet',
             direction: 'down'
           },
           {
@@ -1470,7 +1470,7 @@ export default {
               x: 4,
               y: 6
             },
-            hint: 'blue planet.',
+            hint: 'blue planet',
             direction: 'across'
           },
           {
@@ -1479,7 +1479,7 @@ export default {
               x: 3,
               y: 1
             },
-            hint: 'coldest planet.',
+            hint: 'hottest planet',
             direction: 'across'
           },
           {
@@ -1488,7 +1488,7 @@ export default {
               x: 2,
               y: 3
             },
-            hint: 'red planet.',
+            hint: 'red planet',
             direction: 'down'
           },
           {
@@ -1497,7 +1497,7 @@ export default {
               x: 1,
               y: 7
             },
-            hint: 'biggest planet.',
+            hint: 'biggest planet',
             direction: 'across'
           },
           {
@@ -1506,7 +1506,7 @@ export default {
               x: 8,
               y: 0
             },
-            hint: 'planet with rings.',
+            hint: 'planet with rings',
             direction: 'down'
           }
         ],
@@ -1537,7 +1537,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'captain of 1983 world cup winning team.',
+            hint: 'captain of 1983 world cup winning team',
             direction: 'across'
           },
           {
@@ -1546,7 +1546,7 @@ export default {
               x: 7,
               y: 0
             },
-            hint: 'scored most hundreds after Sachin.',
+            hint: 'scored most hundreds after Sachin',
             direction: 'down'
           },
           {
@@ -1555,7 +1555,7 @@ export default {
               x: 7,
               y: 6
             },
-            hint: '50-over match.',
+            hint: '50-over match',
             direction: 'across'
           },
           {
@@ -1564,7 +1564,7 @@ export default {
               x: 5,
               y: 0
             },
-            hint: 'captain cool.',
+            hint: 'captain cool',
             direction: 'down'
           },
           {
@@ -1573,7 +1573,7 @@ export default {
               x: 3,
               y: 9
             },
-            hint: 'known as the God of Cricket.',
+            hint: 'known as the God of Cricket',
             direction: 'across'
           },
           {
@@ -1582,7 +1582,7 @@ export default {
               x: 9,
               y: 2
             },
-            hint: 'known as The Wall.',
+            hint: 'known as The Wall',
             direction: 'down'
           },
           {
@@ -1591,7 +1591,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: 'known as the yorker king.',
+            hint: 'known as the yorker king',
             direction: 'across'
           },
           {
@@ -1600,7 +1600,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: 'nickname of spin king, Harbhajan Singh.',
+            hint: 'nickname of spin king, Harbhajan Singh',
             direction: 'down'
           },
           {
@@ -1609,7 +1609,7 @@ export default {
               x: 1,
               y: 3
             },
-            hint: 'first batsman to hit 6 sixes in an over.',
+            hint: 'first batsman to hit 6 sixes in an over',
             direction: 'down'
           },
           {
@@ -1618,7 +1618,7 @@ export default {
               x: 1,
               y: 6
             },
-            hint: 'one of the best fielders in the world.',
+            hint: 'one of the best fielders in the world; was once the vice captain of the Indian team',
             direction: 'across'
           },
           {
@@ -1627,7 +1627,7 @@ export default {
               x: 1,
               y: 8
             },
-            hint: "given the title 'Sir'.",
+            hint: "given the title 'Sir'",
             direction: 'across'
           }
         ],
@@ -1661,7 +1661,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: 'provides aid to children worldwide.',
+            hint: 'provides aid to children worldwide',
             direction: 'across'
           },
           {
@@ -1670,7 +1670,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'promotes international cooperation through education.',
+            hint: 'promotes international cooperation through education',
             direction: 'down'
           },
           {
@@ -1679,7 +1679,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'maintains world peace.',
+            hint: 'maintains world peace',
             direction: 'across'
           },
           {
@@ -1688,7 +1688,7 @@ export default {
               x: 5,
               y: 3
             },
-            hint: 'focusses on hunger and food security.',
+            hint: 'focusses on hunger and food security',
             direction: 'down2'
           },
           {
@@ -1697,7 +1697,7 @@ export default {
               x: 5,
               y: 3
             },
-            hint: 'provides healthcare worldwide.',
+            hint: 'provides healthcare worldwide',
             direction: 'across2'
           },
           {
@@ -1706,7 +1706,7 @@ export default {
               x: 5,
               y: 2
             },
-            hint: 'ensures food security.',
+            hint: 'ensures food security',
             direction: 'across2'
           }
         ],
@@ -1735,7 +1735,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'mobiles launched by Apple company.',
+            hint: 'smartphones launched by Apple company',
             direction: 'across'
           },
           {
@@ -1745,7 +1745,7 @@ export default {
               y: 0
             },
             hint:
-              "first company to successfully launch 'Fold' series in smartphones.",
+              "first company to successfully launch 'Fold' series in smartphones",
             direction: 'down'
           },
           {
@@ -1754,7 +1754,7 @@ export default {
               x: 1,
               y: 0
             },
-            hint: 'used to convert soft copies into hard copies.',
+            hint: 'used to convert soft copies into hard copies',
             direction: 'down'
           },
           {
@@ -1763,7 +1763,7 @@ export default {
               x: 0,
               y: 5
             },
-            hint: 'most common source of entertainment.',
+            hint: 'most common source of entertainment',
             direction: 'across'
           },
           {
@@ -1772,7 +1772,7 @@ export default {
               x: 5,
               y: 5
             },
-            hint: 'tablet by Apple.',
+            hint: 'tablet by Apple',
             direction: 'down'
           },
           {
@@ -1781,7 +1781,7 @@ export default {
               x: 2,
               y: 2
             },
-            hint: 'bigger than a phone, smaller than a PC.',
+            hint: 'bigger than a phone, smaller than a PC',
             direction: 'down'
           },
           {
@@ -1790,7 +1790,7 @@ export default {
               x: 8,
               y: 1
             },
-            hint: 'computer that can be carried along easily.',
+            hint: 'computer that can be carried along easily',
             direction: 'down'
           },
           {
@@ -1799,7 +1799,7 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'wearable computer.',
+            hint: 'wearable computer; a watch that does more than telling time',
             direction: 'across'
           },
           {
@@ -1808,7 +1808,7 @@ export default {
               x: 6,
               y: 1
             },
-            hint: 'helps us to listen to music without disturbing others.',
+            hint: 'helps us to listen to music without disturbing others',
             direction: 'down'
           },
           {
@@ -1817,7 +1817,7 @@ export default {
               x: 7,
               y: 7
             },
-            hint: 'a videogame.',
+            hint: 'a handy videogame',
             direction: 'across'
           }
         ],
@@ -1850,7 +1850,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'another word for relationship.',
+            hint: 'another word for relationship',
             direction: 'across'
           },
           {
@@ -1859,7 +1859,7 @@ export default {
               x: 4,
               y: 0
             },
-            hint: 'what a man is to the woman he marries.',
+            hint: 'what a man is to the woman he marries',
             direction: 'down'
           },
           {
@@ -1868,7 +1868,7 @@ export default {
               x: 4,
               y: 5
             },
-            hint: "what a boy is to his mother's brother.",
+            hint: "what a boy is to his mother's brother",
             direction: 'across'
           },
           {
@@ -1877,7 +1877,7 @@ export default {
               x: 9,
               y: 5
             },
-            hint: 'what a woman is to a man she marries.',
+            hint: 'what a woman is to a man she marries',
             direction: 'down'
           },
           {
@@ -1886,7 +1886,7 @@ export default {
               x: 2,
               y: 1
             },
-            hint: 'what a girl is to her mother.',
+            hint: 'what a girl is to her mother',
             direction: 'across'
           },
           {
@@ -1895,7 +1895,7 @@ export default {
               x: 4,
               y: 5
             },
-            hint: "what a girl is to her mother's brother.",
+            hint: "what a girl is to her mother's brother",
             direction: 'across2'
           },
           {
@@ -1904,7 +1904,7 @@ export default {
               x: 0,
               y: 8
             },
-            hint: "what you are to your uncle's children.",
+            hint: "what you are to your uncle's children",
             direction: 'across'
           },
           {
@@ -1913,7 +1913,7 @@ export default {
               x: 4,
               y: 2
             },
-            hint: 'what a boy is to his mother.',
+            hint: 'what a boy is to his mother',
             direction: 'across'
           },
           {
@@ -1922,7 +1922,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: "what your mother's husband is to you.",
+            hint: "what your mother's husband is to you",
             direction: 'down'
           },
           {
@@ -1932,7 +1932,7 @@ export default {
               y: 2
             },
             hint:
-              "what you are to someone you like to hang out with but they're not family members.",
+              "what you are to someone you like to hang out with but they're not family members",
             direction: 'down'
           }
         ],
@@ -1964,7 +1964,7 @@ export default {
               x: 0,
               y: 5
             },
-            hint: 'famous sports car company.',
+            hint: 'famous sports car company',
             direction: 'across'
           },
           {
@@ -1973,7 +1973,7 @@ export default {
               x: 2,
               y: 0
             },
-            hint: 'car company named after an animal.',
+            hint: 'car company named after an animal',
             direction: 'down'
           },
           {
@@ -1982,7 +1982,7 @@ export default {
               x: 1,
               y: 3
             },
-            hint: 'sports company named after an animal.',
+            hint: 'sports company named after an animal',
             direction: 'across'
           },
           {
@@ -1991,7 +1991,7 @@ export default {
               x: 3,
               y: 1
             },
-            hint: 'Sweden-based clothing brand.',
+            hint: 'Sweden-based clothing brand',
             direction: 'down'
           },
           {
@@ -2000,7 +2000,7 @@ export default {
               x: 4,
               y: 2
             },
-            hint: 'popular footwear brand.',
+            hint: 'popular footwear brand',
             direction: 'down'
           },
           {
@@ -2009,7 +2009,7 @@ export default {
               x: 6,
               y: 4
             },
-            hint: "has  the motto 'Just Do It.'",
+            hint: "has  the motto 'Just Do It'",
             direction: 'down'
           },
           {
@@ -2027,7 +2027,7 @@ export default {
               x: 7,
               y: 0
             },
-            hint: 'popular sandwich brand.',
+            hint: 'popular sandwich brand',
             direction: 'down'
           },
           {
@@ -2036,7 +2036,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'cab company.',
+            hint: 'cab company',
             direction: 'down'
           },
           {
@@ -2045,7 +2045,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'popular coffee brand.',
+            hint: 'popular coffee brand',
             direction: 'across'
           }
         ],
@@ -2076,7 +2076,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'movies based on end of the world.',
+            hint: 'movies based on the end of the world',
             direction: 'across'
           },
           {
@@ -2085,7 +2085,7 @@ export default {
               x: 1,
               y: 1
             },
-            hint: 'dinosaur-based movie.',
+            hint: 'dinosaur-based movie',
             direction: 'down'
           },
           {
@@ -2094,7 +2094,7 @@ export default {
               x: 0,
               y: 5
             },
-            hint: 'gorilla-based movie.',
+            hint: 'gorilla-based movie',
             direction: 'across'
           },
           {
@@ -2103,7 +2103,7 @@ export default {
               x: 6,
               y: 1
             },
-            hint: 'movie based on a sinking ship.',
+            hint: 'movie based on a sinking ship',
             direction: 'down'
           },
           {
@@ -2112,7 +2112,7 @@ export default {
               x: 5,
               y: 1
             },
-            hint: 'movie about a kid stuck on a boat with a tiger.',
+            hint: 'movie about a kid stuck on a boat with a tiger',
             direction: 'down'
           },
           {
@@ -2121,7 +2121,7 @@ export default {
               x: 1,
               y: 9
             },
-            hint: 'animated movie based on a queen with superpower.',
+            hint: 'animated movie based on a queen with superpower',
             direction: 'across'
           },
           {
@@ -2130,7 +2130,7 @@ export default {
               x: 8,
               y: 0
             },
-            hint: 'a horror movie.',
+            hint: 'a horror movie',
             direction: 'down'
           }
         ],
