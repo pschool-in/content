@@ -11,6 +11,7 @@ export default {
         lockAfter: 5,
         commonData: {
           images: 'custom',
+          title: 'শূন্যস্থান পূরণ করুন',
           lang: 'bn'
         },
         data: [

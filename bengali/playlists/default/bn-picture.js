@@ -10,6 +10,7 @@ export default {
       id: 'bn-complete-word-1',
       commonData: {
         images: 'custom',
+        title: 'শূন্যস্থান পূরণ করুন',
         lang: 'bn'
       },
       data: [
@@ -129,6 +130,7 @@ export default {
       id: 'bn-complete-word-2',
       commonData: {
         images: 'custom',
+        title: 'শূন্যস্থান পূরণ করুন',
         lang: 'bn'
       },
       data: [
@@ -171,6 +173,7 @@ export default {
       id: 'bn-complete-word-3',
       commonData: {
         images: 'custom',
+        title: 'শূন্যস্থান পূরণ করুন',
         lang: 'bn'
       },
       data: [
