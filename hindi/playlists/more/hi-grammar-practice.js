@@ -21,6 +21,7 @@ export default {
     {
       type: 'match',
       label: 'शब्दों का लिंग-परिवर्तन',
+      lockAfter:4,
       id: 'match-gender',
       commonData: {
         title: 'शब्दों का लिंग परिवर्तन करें'
@@ -84,6 +85,7 @@ export default {
     {
       type: 'match',
       label: 'संधि विच्छेद',
+      lockAfter:4,
       id: 'sandhi-hi',
       commonData: {
         title: 'संधि विच्छेद कीजिये '
@@ -272,6 +274,7 @@ export default {
     {
       type: 'group',
       label: 'क्रिया और क्रिया विशेषण',
+      lockAfter:3,
       id: 'partsofspeech2-hi',
       commonData: {
         title: 'क्रिया और क्रिया विशेषण सही बॉक्स में डालें ',
@@ -466,6 +469,7 @@ export default {
 
     {
       label: 'काल की पहचान करें',
+      lockAfter:3,
       id: 'hi-tense-2',
       type: 'mcq',
       commonData: {
