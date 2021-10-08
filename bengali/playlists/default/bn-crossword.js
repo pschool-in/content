@@ -20,7 +20,7 @@ export default {
             {
               word: 'মাখন',
               marker: { x: 0, y: 0 },
-              hint: 'পাউরিটিতে স্বাদ বাড়ায় ',
+              hint: 'পাউরিটিতে স্বাদ বাড়ায়, ঘি এর ভাই',
               direction: 'across'
             },
             {
@@ -32,25 +32,25 @@ export default {
             {
               word: 'দীপ ',
               marker: { x: 2, y: 1 },
-              hint: 'বাতি ',
+              hint: 'বাতি, অন্ধকারে আলো দেয় ',
               direction: 'across'
             },
             {
               word: 'পলাশ ',
               marker: { x: 3, y: 1 },
-              hint: 'এক প্রকার ফুল ',
+              hint: 'এক প্রকার ফুল, প দিয়ে শুরু',
               direction: 'down'
             },
             {
               word: 'শশা',
               marker: { x: 3, y: 3 },
-              hint: 'সালাদ এ এই ফলটি চায় ',
+              hint: 'সালাদ এ এই ফলটি চায়, সবুজ রঙের',
               direction: 'across'
             },
             {
               word: 'মামারবাড়ি',
               marker: { x: 0, y: 0 },
-              hint: 'এখানে গেলে খুব মজা ',
+              hint: 'এখানে গেলে খুব মজা, মা এর বাড়ি',
               direction: 'down'
             },
             {
@@ -62,7 +62,7 @@ export default {
             {
               word: 'শাখা',
               marker: { x: 4, y: 3 },
-              hint: 'গাছের অংশ',
+              hint: 'গাছের অংশ, খ দিয়ে শেষ',
               direction: 'down'
             }
           ],
@@ -91,37 +91,37 @@ export default {
             {
               word: 'কাকাতুয়া',
               marker: { x: 0, y: 2 },
-              hint: 'এই পাখি কথা বলে ',
+              hint: 'এই পাখি কথা বলে',
               direction: 'across'
             },
             {
               word: 'তুফান',
               marker: { x: 2, y: 2 },
-              hint: 'ঝড়',
+              hint: 'ঝড়, ত দিয়ে শুরু',
               direction: 'down'
             },
             {
               word: 'ফাটাফাটি',
               marker: { x: 2, y: 3 },
-              hint: 'খুব ভালোকে চলতি কথায় ',
+              hint: 'খুব ভালোকে চলতি কথায়, ফ দিয়ে শুরু ',
               direction: 'across'
             },
             {
               word: 'টিয়া',
               marker: { x: 5, y: 3 },
-              hint: 'সবুজ রঙের পাখি ',
+              hint: 'সবুজ রঙের পাখি',
               direction: 'down'
             },
             {
               word: 'লাল',
               marker: { x: 5, y: 0 },
-              hint: 'একটা রঙ',
+              hint: 'জবা ফুলের রঙ',
               direction: 'down'
             },
             {
               word: 'কলা',
               marker: { x: 4, y: 0 },
-              hint: 'স্বাস্থকর খাবার ',
+              hint: 'স্বাস্থকর খাবার, কাঁচা-পাকা, সবুজ-হলুদ',
               direction: 'across'
             }
           ],
@@ -138,13 +138,13 @@ export default {
             {
               word: 'মোবাইল',
               marker: { x: 0, y: 0 },
-              hint: 'একে ছাড়া আজকাল জীবন ভাবা যায় না ',
+              hint: 'একে ছাড়া আজকাল জীবন ভাবা যায় না, কথা বলা যায়',
               direction: 'across'
             },
             {
               word: 'মোমবাতি',
               marker: { x: 0, y: 0 },
-              hint: 'অন্ধকারে আলো দেয় ',
+              hint: 'অন্ধকারে আলো দেয়',
               direction: 'down'
             },
             {
@@ -156,7 +156,7 @@ export default {
             {
               word: 'মটর',
               marker: { x: 2, y: 2 },
-              hint: 'ঘুগনিতে ব্যবহার হয় ',
+              hint: 'ঘুগনিতে ব্যবহার হয়',
               direction: 'across'
             },
             {
@@ -168,7 +168,7 @@ export default {
             {
               word: 'মমতা',
               marker: { x: 2, y: 2 },
-              hint: 'স্নেহ',
+              hint: 'স্নেহ, ম দিয়ে শুরু',
               direction: 'down'
             },
             {
@@ -191,13 +191,13 @@ export default {
             {
               word: 'পুতুল',
               marker: { x: 0, y: 0 },
-              hint: 'ছোটদের খেলার জিনিস ',
+              hint: 'ছোটদের খেলার জিনিস, প দিয়ে শুরু',
               direction: 'across'
             },
             {
               word: 'পুকুর',
               marker: { x: 0, y: 0 },
-              hint: 'গ্রামে জলের উৎস',
+              hint: 'গ্রামে জলের উৎস, মাছ পাওয়া যায়',
               direction: 'down'
             },
             {
@@ -215,7 +215,7 @@ export default {
             {
               word: 'মহরম',
               marker: { x: 1, y: 4 },
-              hint: 'এক ধরণের উৎসব',
+              hint: 'এক ধরণের উৎসব, ম দিয়ে শুরু',
               direction: 'across'
             },
             {
@@ -227,7 +227,7 @@ export default {
             {
               word: 'কাক',
               marker: { x: 3, y: 1 },
-              hint: 'কালো পাখি',
+              hint: 'কালো পাখি, ধাড়ুদার নামে খ্যাতি',
               direction: 'across'
             },
             {
@@ -250,31 +250,31 @@ export default {
             {
               word: 'পিপীলিকা',
               marker: { x: 1, y: 0 },
-              hint: 'পিঁপড়ের আরেক নাম ',
+              hint: 'পিঁপড়ের আরেক নাম',
               direction: 'across'
             },
             {
               word: 'পিপাসিত',
               marker: { x: 1, y: 0 },
-              hint: ' জল তেষ্টা',
+              hint: 'জল তেষ্টা',
               direction: 'down'
             },
             {
               word: 'অসিত',
               marker: { x: 0, y: 2 },
-              hint: 'কৃষ্ণবর্ণ',
+              hint: 'কৃষ্ণবর্ণ, অ দিয়ে শুরু',
               direction: 'across'
             },
             {
               word: 'তথাগত',
               marker: { x: 1, y: 3 },
-              hint: 'বুদ্ধদেবের আর এক নাম ',
+              hint: 'বুদ্ধদেবের আর এক নাম, ত দিয়ে শুরু',
               direction: 'across'
             },
             {
               word: 'লিপি',
               marker: { x: 3, y: 0 },
-              hint: 'বর্ণ - অক্ষর ',
+              hint: 'বর্ণ - অক্ষর',
               direction: 'down'
             },
             {
@@ -286,7 +286,7 @@ export default {
             {
               word: 'তথাপি',
               marker: { x: 2, y: 2 },
-              hint: 'যথাযথ',
+              hint: 'যথাযথ, ত দিয়ে শুরু',
               direction: 'down'
             }
           ],
@@ -303,19 +303,19 @@ export default {
             {
               word: 'আম',
               marker: { x: 0, y: 0 },
-              hint: 'ফলের রাজা ',
+              hint: 'ফলের রাজা',
               direction: 'across'
             },
             {
               word: 'আনারস ',
               marker: { x: 0, y: 0 },
-              hint: 'এই ফলটাতে কাঁটা থাকে ',
+              hint: 'এই ফলটাতে কাঁটা থাকে',
               direction: 'down'
             },
             {
               word: 'সহমত',
               marker: { x: 0, y: 3 },
-              hint: 'একমত হওয়া ',
+              hint: 'একমত হওয়া',
               direction: 'across'
             },
             {
@@ -327,7 +327,7 @@ export default {
             {
               word: 'পুনা ',
               marker: { x: 3, y: 1 },
-              hint: 'মহারাষ্ট্রেস এক জায়গা ',
+              hint: 'মহারাষ্ট্রেস এক জায়গা, প দিয়ে শুরু',
               direction: 'across'
             },
             {
@@ -368,13 +368,13 @@ export default {
             {
               word: 'আমলকি',
               marker: { x: 0, y: 0 },
-              hint: ' ফলটা খেতে টক',
+              hint: 'ফলটা খেতে টক, আ দিয়ে শুরু',
               direction: 'down'
             },
             {
               word: 'আগমনী',
               marker: { x: 0, y: 0 },
-              hint: 'দুর্গাঠাকুরের আগমন ',
+              hint: 'দুর্গাঠাকুরের আগমন',
               direction: 'across'
             },
             {
@@ -386,13 +386,13 @@ export default {
             {
               word: 'মশলা',
               marker: { x: 2, y: 2 },
-              hint: 'রান্নায় দেওয়া হয় স্বাদ বাড়ানোর জন্যে ',
+              hint: 'রান্নায় দেওয়া হয় স্বাদ বাড়ানোর জন্যে',
               direction: 'across'
             },
             {
               word: 'লালন',
               marker: { x: 4, y: 2 },
-              hint: 'বাউল গায়ক ',
+              hint: 'বাউল গায়ক, ল দিয়ে শুরু',
               direction: 'down'
             },
             {
@@ -404,7 +404,7 @@ export default {
             {
               word: 'তিন',
               marker: { x: 3, y: 4 },
-              hint: 'একটা ছোট নম্বর  ',
+              hint: 'একটা ছোট নম্বর, ভারতের পতাকাতে যত রঙ',
               direction: 'across'
             }
           ],
@@ -427,7 +427,7 @@ export default {
             {
               word: 'নতুন',
               marker: { x: 0, y: 0 },
-              hint: 'পুরানোকে ভুলে গিয়ে',
+              hint: 'যা পুরানো নয়',
               direction: 'down'
             },
             {
@@ -439,7 +439,7 @@ export default {
             {
               word: 'রজনী',
               marker: { x: 1, y: 2 },
-              hint: 'রাত্রি',
+              hint: 'রাত্রি, ন দিয়ে শেষ',
               direction: 'down'
             },
             {
@@ -492,7 +492,7 @@ export default {
             {
               word: 'কটক',
               marker: { x: 0, y: 0 },
-              hint: 'ওড়িশার একটা জায়গা ',
+              hint: 'ওড়িশার একটা জায়গা, ক দিয়ে শুরু',
               direction: 'down'
             },
             {
@@ -504,7 +504,7 @@ export default {
             {
               word: 'চিতল',
               marker: { x: 1, y: 2 },
-              hint: 'বড় মাছবিশেষ',
+              hint: 'বড় মাছবিশেষ, চ দিয়ে শুরু',
               direction: 'down'
             },
             {
@@ -516,7 +516,7 @@ export default {
             {
               word: 'লকেট',
               marker: { x: 1, y: 4 },
-              hint: 'গলার হারে থাকে ',
+              hint: 'গলার হারে থাকে, হারে থাকে',
               direction: 'across'
             },
             {
@@ -528,7 +528,7 @@ export default {
             {
               word: 'লবণ',
               marker: { x: 4, y: 1 },
-              hint: 'খাবারে স্বাদ বাড়ায়',
+              hint: 'খাবারে স্বাদ বাড়ায়, সাদা রঙের',
               direction: 'down'
             }
           ],
@@ -557,7 +557,7 @@ export default {
             {
               word: 'পটোল',
               marker: { x: 2, y: 0 },
-              hint: 'সবজিবিশেষ',
+              hint: 'সবজিবিশেষ, পাতুরি বানানো হয়',
               direction: 'down'
             },
             {
