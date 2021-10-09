@@ -1110,7 +1110,7 @@ export default {
       }
     },
     {
-      id: '100',
+      id: 'maze-ka',
       type: 'maze',
       label: 'க - வரிசை',
       data: {
@@ -1143,7 +1143,7 @@ export default {
       }
     },
     {
-      id: '200',
+      id: 'maze-sa',
       type: 'maze',
       label: 'ச - வரிசை',
       data: {

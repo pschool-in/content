@@ -1,5 +1,4 @@
 const more = [
-
   {
     label: 'चित्र',
     slug: 'hi-picture-2'
@@ -11,7 +10,7 @@ const more = [
   {
     label: 'शब्द 2',
     slug: 'hi-word-5'
-  }, 
+  },
   {
     label: 'वाक्य',
     slug: 'hi-sentence-3'
@@ -19,7 +18,7 @@ const more = [
   {
     label: 'वाक्य 2',
     slug: 'hi-sentence-4'
-  }, 
+  },
   {
     label: 'कहानियाँ 2',
     slug: 'hi-reading-4'
@@ -51,7 +50,7 @@ const more = [
   {
     label: 'व्याकरण अधिक अभ्यास',
     slug: 'hi-grammar-practice'
-  },
+  }
 ];
 
 export default {

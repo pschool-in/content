@@ -50,6 +50,11 @@ const vocabulary = [
     grade: 'kg, g1, g2, g3'
   },
   {
+    label: 'Shapes and Symbols',
+    slug: 'picture-3',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
     label: 'Word from Picture',
     slug: 'word-from-picture',
     grade: 'g3, g4, g5'
