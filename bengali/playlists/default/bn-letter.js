@@ -232,7 +232,7 @@ export default {
       // KG and avobe
       id: 'consonants',
       label: 'ব্যঞ্জনবর্ণ লেখা',
-      type: 'tracing-conso',
+      type: 'tracing',
       lockAfter: 10,
       data: {
         type: 'custom',

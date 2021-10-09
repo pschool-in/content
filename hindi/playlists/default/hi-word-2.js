@@ -120,6 +120,21 @@ export default {
 
     ]
   },
+    {
+      id: 'match-days',
+      label: 'दिन',
+      type: 'match',
+      data: {
+        text: `Monday, सोमवार 
+Tuesday, मंगलवार 
+Wednesday, बुधवार 
+Thursday, गुरूवार 
+Friday, शुक्रवार 
+Saturday, शनिवार 
+Sunday, रविवार`,
+        title: 'निम्नलिखित को मिलाएं'
+      }
+    },    
       {
         type: 'match',
         label: 'विलोम शब्द',
