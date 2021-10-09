@@ -80,7 +80,7 @@ export default {
           fontSize: '2rem',
           printTitle:
             'Rewrite the words given at the bottom at approprate boxes.',
-          types: ['Female', 'Male']
+          types: ['स्त्रीलिंक', 'पुल्लिंग']
         },
         data: [
           [`दादी, घोड़ी, छात्रा, धोबिन, हथिनी`,
