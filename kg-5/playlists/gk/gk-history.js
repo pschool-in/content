@@ -60,7 +60,7 @@ Pratibha Devisingh Patil - First woman president of India`
              options: "C.V Raman, Srinivasa Ramanujam, Rabindranath Tagore",
            },
            {
-             qText: "Who is the first President of India?.",
+             qText: "Who is the first President of India?",
              options: "Dr. Rajendra Prasad, Sardar Vallabhai Patel, Sarvepalli Radhakrishnan ",
            },
            {
