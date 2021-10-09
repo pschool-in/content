@@ -139,7 +139,7 @@ Pratibha Devisingh Patil - First woman president of India`
       }
     },
     {
-        id: "match-3",
+        id: "match-2",
         label: "Match the following",
         type: "match",
         data: {
