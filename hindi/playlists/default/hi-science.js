@@ -51,11 +51,11 @@ export default {
           imageType: 'animals',
           types: [
             {
-              name: 'जंगली जानवर',
+              name: 'घरेलू जानवर',
               text: 'cat, dog, goat, horse, pig, sheep'
             },
             {
-              name: 'घरेलू जानवर',
+              name: 'जंगली जानवर',
               text: 'elephant, lion, monkey, rhino, tiger, zebra'
             }
           ]

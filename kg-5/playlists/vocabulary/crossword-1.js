@@ -51,7 +51,7 @@ export default {
               x: 5,
               y: 1
             },
-            hint: 'we eat pulses with it.',
+            hint: 'we eat pulses with it',
             direction: 'across'
           },
           {
@@ -97,7 +97,7 @@ export default {
               x: 2,
               y: 4
             },
-            hint: 'we eat food in this.',
+            hint: 'we eat food in this',
             direction: 'across'
           },
           {
@@ -167,7 +167,7 @@ export default {
               x: 0,
               y: 2
             },
-            hint: 'we call it to someone who has courage.',
+            hint: 'we call it to someone who is courageous',
             direction: 'down'
           },
           {
@@ -236,7 +236,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'we grab things using these',
+            hint: 'we grab things using these; also used in typing',
             direction: 'across'
           },
           {
@@ -290,7 +290,7 @@ export default {
               x: 7,
               y: 4
             },
-            hint: 'can be of different color of different people',
+            hint: 'can be of different color of different people; can be styled in different wways',
             direction: 'down'
           },
           {
@@ -331,7 +331,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'opposite of absence.',
+            hint: 'opposite of absence',
             direction: 'across'
           },
           {
@@ -436,7 +436,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: 'slow running',
+            hint: 'to run slowly and steadily',
             direction: 'down'
           },
           {
@@ -454,7 +454,7 @@ export default {
               x: 0,
               y: 4
             },
-            hint: 'skills required for vehicles',
+            hint: 'a person who has a car must know how to_______',
             direction: 'down'
           },
           {
@@ -481,7 +481,7 @@ export default {
               x: 3,
               y: 8
             },
-            hint: 'when someone asks us something',
+            hint: 'when someone asks us something; when we participate in a debate',
             direction: 'across'
           },
           {
@@ -490,7 +490,7 @@ export default {
               x: 7,
               y: 0
             },
-            hint: 'when someone scolds kids',
+            hint: 'when someone is hurt, they_____',
             direction: 'down'
           },
           {
@@ -508,7 +508,7 @@ export default {
               x: 3,
               y: 4
             },
-            hint: 'when we are hungry',
+            hint: 'when we go to s restaurant',
             direction: 'down'
           },
           {
@@ -517,7 +517,7 @@ export default {
               x: 4,
               y: 2
             },
-            hint: 'kids do this in their free time.',
+            hint: 'all work, no_____, makes Jack a dull boy',
             direction: 'across'
           }
         ],
@@ -551,7 +551,7 @@ export default {
               x: 9,
               y: 3
             },
-            hint: 'animal with a long neck',
+            hint: 'animal that has a long neck',
             direction: 'down'
           },
           {
@@ -560,7 +560,7 @@ export default {
               x: 7,
               y: 3
             },
-            hint: 'most common pet to humans',
+            hint: 'most common pet to humans; also known as a bestfriend of man',
             direction: 'across'
           },
           {
@@ -569,7 +569,7 @@ export default {
               x: 1,
               y: 2
             },
-            hint: 'largest land animal',
+            hint: 'largest land animal; has a trunk',
             direction: 'across'
           },
           {
@@ -920,7 +920,7 @@ export default {
               x: 0,
               y: 7
             },
-            hint: 'doing words',
+            hint: 'doing words; action words',
             direction: 'across'
           },
           {
@@ -1147,7 +1147,7 @@ export default {
               x: 1,
               y: 3
             },
-            hint: "he's green, big and aggressive",
+            hint: "he's green, big and aggressive; Dr. Bruce Banner",
             direction: 'across'
           },
           {
