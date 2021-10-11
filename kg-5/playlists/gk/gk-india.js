@@ -15,7 +15,7 @@ export default {
 Assam - Assamese
 Goa - Konkani
 Gujarat - Gujarati
-Jammu & Kashmir - Urdu
+Jammu & Kashmir - Kashmiri
 Karnataka - Kannada`
           },
           {
@@ -47,7 +47,7 @@ West Bengal - Bengali`
                Assam, Assamese
                Goa, Konkani
                Gujarat, Gujarati
-               Jammu & Kashmir, Urdu`,
+               Jammu & Kashmir, Kashmiri`,
                title: "Match the following with its correct one",
              }
            },
