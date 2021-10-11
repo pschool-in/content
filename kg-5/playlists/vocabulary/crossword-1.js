@@ -32,7 +32,8 @@ export default {
               x: 0,
               y: 9
             },
-            hint: 'adds good taste in food; looks like an onion but is white in color',
+            hint:
+              'adds good taste in food; looks like an onion but is white in color',
             direction: 'across'
           },
           {
@@ -77,7 +78,8 @@ export default {
               x: 9,
               y: 5
             },
-            hint: 'we usually drink it in winters; mentioned in "starters" section of the menu',
+            hint:
+              'we usually drink it in winters; mentioned in "starters" section of the menu',
             direction: 'down'
           },
           {
@@ -1409,8 +1411,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint:
-              'globally recognized and very successful bollywood superstar',
+            hint: 'globally recognized and very successful bollywood superstar',
             direction: 'down'
           }
         ],
@@ -1618,7 +1619,8 @@ export default {
               x: 1,
               y: 6
             },
-            hint: 'one of the best fielders in the world; was once the vice captain of the Indian team',
+            hint:
+              'one of the best fielders in the world; was once the vice captain of the Indian team',
             direction: 'across'
           },
           {
@@ -1985,6 +1987,7 @@ export default {
             hint: 'sports company named after an animal',
             direction: 'across'
           },
+          /*
           {
             word: 'h&m',
             marker: {
@@ -1993,7 +1996,7 @@ export default {
             },
             hint: 'Sweden-based clothing brand',
             direction: 'down'
-          },
+          },*/
           {
             word: 'bata',
             marker: {
@@ -2051,8 +2054,8 @@ export default {
         ],
         table: [
           ['O', '', 'J', 'O', 'N', 'E', 'S', 'S'],
-          ['L', '', 'A', 'H', '', '', '', 'U'],
-          ['A', '', 'G', '&', 'B', '', '', 'B'],
+          ['L', '', 'A', '', '', '', '', 'U'],
+          ['A', '', 'G', '', 'B', '', '', 'B'],
           ['', 'P', 'U', 'M', 'A', '', '', 'W'],
           ['', '', 'A', '', 'T', '', 'N', 'A'],
           ['F', 'E', 'R', 'R', 'A', 'R', 'I', 'Y'],

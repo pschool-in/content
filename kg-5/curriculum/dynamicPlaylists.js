@@ -355,6 +355,12 @@ const reading = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Animals',
+    slug: 'reading-animals',
+    grade: 'g2, g3, g4'
+  },
+
+  {
     label: 'Kids Favourite Cartoons',
     slug: 'kids-favourite-cartoons',
     grade: 'g4, g5'
@@ -432,6 +438,11 @@ const math = [
     label: 'Numbers',
     slug: 'numbers',
     grade: 'kg, g1'
+  },
+  {
+    label: 'Math Maze',
+    slug: 'math-maze-3',
+    grade: 'g1,g2,g3'
   },
   {
     label: 'Numbers - 2',
@@ -911,8 +922,8 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Life Skills',
-    slug: 'lifeskills-3',
+    label: 'Understanding Time',
+    slug: 'time-3',
     grade: 'g3, g4, g5'
   },
   {

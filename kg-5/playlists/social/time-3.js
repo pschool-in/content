@@ -1,6 +1,6 @@
 export default {
-  id: 'lifeskills-3',
-  label: 'Life Skills - 3',
+  id: 'time-3',
+  label: 'Understanding Time',
   pdf: '',
   lockAfter: 4,
   list: [
@@ -11,10 +11,11 @@ export default {
       data: {
         title: 'What is Time?',
         text: `Time is an infinite continuous progress of events from the past, through the present, to the future. It is majorly divided into three parts.
-          1. Past - Event that has happened.          
-          2. Present - Event that is happening.          
-          3. Future- Event that is going to happen.          
-          To calculate and understand time, we use certain units like clocks, calendars, etc. A clock contains seconds, minutes, and hours. Calendars are there to make a log of time. The calendar contains days, months, and years. These are all units of time, that help us to measure and calculate the time. In ancient days, people used a water clock, an hourglass, etc. Statues, historical places, monuments, coins, shards of pottery, old objects, etc. So this helps us to understand the life style of people who lived during such times.`
+1. Past - event that has happened         
+2. Present - event that is happening        
+3. Future- event that is going to happen         
+To calculate and understand time, we use certain units like clocks, calendars, etc. A clock contains seconds, minutes, and hours. Calendars are there to make a log of time. The calendar contains days, months, and years. These are all units of time, that help us to measure and calculate the time. In ancient days, some people used a water clock or an hourglass to measure time.
+Sometimes, old statues, coins, shards of pottery, old objects, etc. are found while digging the ground. They are things used by the people who lived many years ago. They help us to understand the life style of people who lived during such times.`
       }
     },
     {
@@ -22,8 +23,7 @@ export default {
       id: 'timepastfuture',
       type: 'group',
       data: {
-        title:
-          'Classify the below options based on the category of past tense and future tense.',
+        title: 'Classify the below as past or future tense.',
         types: [
           {
             name: 'Past tense',
@@ -46,7 +46,7 @@ export default {
           8.00 P.M, 20:00 hours 
           6.00 A.M, 6:00 hours
           11.00 P.M, 23:00 hours`,
-        title: 'Match the following with 12-hour format and 24-hour format'
+        title: 'Match the equal time.'
       }
     },
     {
@@ -100,6 +100,7 @@ export default {
           *December* month has 31 days.`
       }
     },
+    /*
     {
       id: 'timefill-1',
       label: 'Fill in the blanks -2',
@@ -113,6 +114,7 @@ export default {
           The time difference between India and London is *4(6)* hours behind.`
       }
     },
+    */
     {
       label: 'True or False',
       id: 'timeTF',
@@ -123,13 +125,13 @@ export default {
           {
             name: 'True',
             text: `Time is majorly divided into past, present and future.
-              Historical buildings help us to understand the history, that has happened in the past.
-              “The train may come late” is future tense.`
+Historical buildings help us to understand the history, that has happened in the past.
+“The train may come late” is future tense.`
           },
           {
             name: 'False',
             text: `Time is not measured by any instruments.
-              “Right now” is past tense.`
+“Right now” is past tense.`
           }
         ]
       }
@@ -195,7 +197,7 @@ export default {
               x: 0,
               y: 0
             },
-            hint: '366 days',
+            hint: 'the year with 366 days',
             direction: 'across'
           },
           {
@@ -204,7 +206,7 @@ export default {
               x: 9,
               y: 0
             },
-            hint: 'This month has 29 days',
+            hint: 'the month that may have 29 days',
             direction: 'down'
           },
           {
@@ -213,7 +215,7 @@ export default {
               x: 2,
               y: 6
             },
-            hint: 'It is a Christmas month',
+            hint: 'the month we celebrate Christmas',
             direction: 'across'
           },
           {
@@ -222,7 +224,7 @@ export default {
               x: 0,
               y: 1
             },
-            hint: 'Historical collections',
+            hint: 'very old buildings that talks history',
             direction: 'down'
           },
           {
@@ -249,7 +251,7 @@ export default {
               x: 5,
               y: 3
             },
-            hint: 'Mid month of a year',
+            hint: 'the first of the two months that start with the same letter',
             direction: 'down'
           }
         ],
