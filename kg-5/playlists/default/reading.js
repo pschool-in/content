@@ -79,7 +79,7 @@ const reading = {
       data: {
         title: 'The Bear and the Two Friends',
         img: {
-          url: 'story/05_bear.png'
+          url: 'story/05_bear.jpg'
         },
         text: `Once upon a time, two friends were walking through the forest. They knew that any danger can happen to them at any time in the forest. So, they promised each other that they would remain united in any case of danger.
         Suddenly, they saw a huge bear approaching them. One of the friends at once climbed a nearby tree. But the other one did not know how to climb. So, being led by his common sense, he lay down on the ground breathless, pretending to be a dead man.
@@ -263,7 +263,7 @@ const reading = {
       data: {
         title: 'Who will Bell the Cat',
         img: {
-          url: 'story/18_cat_with_bell.png'
+          url: 'story/18_cat_with_bell.jpg'
         },
         text: `Once, a huge number of mice lived in a grocer’s shop. They ate the fresh, tasty wheat, rice, bread, cheese and biscuits that were kept in the shop. They were having a great time and living easy, comfortable lives, growing fatter day-by- day.
           But, the grocer was concerned about the loss that he was suffering, because of the damage done to his stock by the mice. So, he thought of a solution and bought a big, fat cat to keep in his shop.
