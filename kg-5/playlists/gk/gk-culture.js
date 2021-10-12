@@ -126,7 +126,7 @@ Mecca Masjid  -   Hyderabad, Telangana`
             type: 'hilight',
             text: `Andhra Pradesh - Ugadi
 Gujarat  - Makar Sankranti
-Karnataka -  Dasara
+Karnataka - Dussehra
 Kerala  -  Onam
 Punjab  -  Lohri
 Tamil Nadu  - Pongal
@@ -230,7 +230,7 @@ West Bengal - Durga Puja`
             type: 'hilight',
             text: `Andhra Pradesh - Kuchipudi
 Gujarat - Dandiya Raas
-Kerala - Mohiniyattam
+Kerala -  kathakali 
 Manipur - Manipuri
 Odisha - Odissi
 Punjab - Bhangra
@@ -246,7 +246,7 @@ Tamil Nadu - Bharatnatyam`
       data: {
         text: `Andhra Pradesh, Kuchipudi
               Gujarat, Dandiya Raas
-              Kerala, Mohiniyattam
+              Kerala,  kathakali 
               Manipur, Manipuri
               Odisha, Odissi`,
         title: 'Match the following with its correct one'
@@ -277,7 +277,7 @@ Tamil Nadu - Bharatnatyam`
           },
           {
             qText: '________ is the famous state dance of Kerala. ',
-            options: 'Mohiniyattam, Kavadi, Hojagiri'
+            options: 'kathakali, Kavadi, Hojagiri'
           }
         ]
       }
