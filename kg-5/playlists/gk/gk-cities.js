@@ -32,7 +32,7 @@ Jamshedpur - Steel City of India`
         type: 'match',
         label: 'Match the following',
         data: {
-          title: 'Match the following with its correct one',
+          title: 'match city with its sorbiquet',
           text: `Jaipur, Pink city
                  Varanasi, City of light
                  Udaipur, City of Lakes
@@ -98,13 +98,13 @@ Jamshedpur - Steel City of India`
           {
             name: "True",
             text: `Ahmedabad is known as Manchester of India.
-            Calicut is called as the City of spices in India.
-            Udaipur is called City of Lakes.`,
+            Calicut is known as the City of spices in India.
+            Udaipur is known as City of Lakes.`,
           },
           {
             name: "False",
-            text: `Nagpur is called Apple city.
-            Mysore is called Diamond city.`,
+            text: `Nagpur is known as Apple city.
+            Mysore is known as Diamond city.`,
           },
         ],
       },

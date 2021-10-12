@@ -39,15 +39,11 @@ We live on the surface of the Earth. It is called the Blue Planet. It is made up
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Mercury and *Venus* lie near the sun.
-Next to Earth is *Mars*, Jupiter, *Saturn*, Uranus and *Neptune*.
-The planets nearer to the sun are very *hot*. 
-The planets away from the sun are very *cold*. 
-*Mercury* is the smallest planet. 
+        text: `The planets nearer to the sun are very *hot*. 
+The planets away from the sun are very *cold*.  
 Venus is called Earth’s *twin*. 
 Mars is described as the *Red* planet. 
-Earth is called the *Blue* planet.
-Saturn is the *Ringed* planet.`
+Earth is called the *Blue* planet.`
       }
     },
     {

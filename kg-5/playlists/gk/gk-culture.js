@@ -142,7 +142,7 @@ West Bengal - Durga Puja`
         data: {
         text: `Andhra Pradesh, Ugadi
                Gujarat, Makar Sankranti
-               Karnataka, Dasara
+               Karnataka, Dussehra
                Kerala, Onam
                Punjab, Lohri`,
               title: "Match the following with its correct one",
@@ -161,7 +161,7 @@ West Bengal - Durga Puja`
           },
           {
             qText: "___________ is the famous festival celebrated at Gujarat.",
-            options: "Makar Sankranti, Mysore Dasara, Hornbill festival",
+            options: "Makar Sankranti, Dussehra, Hornbill festival",
           },
           {
             qText: "Durga Puja is the famous festival celebrated at __________.",
@@ -173,7 +173,7 @@ West Bengal - Durga Puja`
           },
           {
             qText: "_______ is the famous festival celebrated at Karnataka.",
-            options: "Dasara, Onam, Wangla",
+            options: "Dussehra, Onam, Wangla",
           },
         ],
       },
@@ -192,7 +192,7 @@ West Bengal - Durga Puja`
         text: `The  famous festival of Kerala is *Onam*.
         The  famous festival of  Punjab  is *Lohri*.
         The  famous festival of Andhra Pradesh is *Ugadi*.
-        The  famous festival of Karnataka is *Dasara*.
+        The  famous festival of Karnataka is *Dussehra*.
         The  famous festival of Gujarat is *Makar Sankranti*.`,
       },
     },
@@ -228,7 +228,7 @@ West Bengal - Durga Puja`
             type: 'hilight',
             text: `Andhra Pradesh - Kuchipudi
 Gujarat - Dandiya Raas
-Kerala - Kathakali
+Kerala - Mohiniyattam
 Manipur - Manipuri
 Odisha - Odissi
 Punjab - Bhangra
@@ -244,7 +244,7 @@ Tamil Nadu - Bharatnatyam`
      data: {
             text: `Andhra Pradesh, Kuchipudi
               Gujarat, Dandiya Raas
-              Kerala, Kathakali
+              Kerala, Mohiniyattam
               Manipur, Manipuri
               Odisha, Odissi`,
               title: "Match the following with its correct one",
@@ -275,7 +275,7 @@ Tamil Nadu - Bharatnatyam`
           },
           {
             qText: "________ is the famous state dance of Kerala. ",
-            options: "Kathakali, Kavadi, Hojagiri",
+            options: "Mohiniyattam, Kavadi, Hojagiri",
           },
         ],
       },
@@ -292,7 +292,7 @@ Tamil Nadu - Bharatnatyam`
           dashWidth: 80,
         },
         text: `The famous state dance of *Manipur*is Manipuri.
-        The famous state dance of *Kerala* is Kathakali.
+        The famous state dance of *Kerala* is Mohiniyattam.
         The famous state dance of *Punjab * is Bhangra.
         The famous state dance of *Andhra Pradesh* is Kuchipudi.
         The famous state dance of *Odisha* is Odissi.`,
