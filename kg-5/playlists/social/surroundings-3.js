@@ -10,29 +10,13 @@ export default {
       id: '100',
       data: {
         title: 'Sanctuaries',
-        text: `# What are Sanctuaries?
-
-          Sanctuary is a place, where animals and birds are kept together. They are protected from hunting and other harmful human activities. They can lead a peaceful life with a good ecosystem. Sanctuaries are run by the government. Our government also runs the biosphere reserves, national parks, sanctuaries. They conserve plants, wild animals, birds, rare and diverse species. 
-          For example, Jim Corbett National Park is known for Bengal tigers. The conservation efforts created a huge impact in saving wild animals. Many wild animal populations which had once decreased have once again started to increase in India.`
-      }
-    },
-    {
-      label: 'Wildlife Sanctuaries Vs National Parks',
-      id: '300',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below things based on the category of Wildlife Sanctuaries and National Parks in India.',
-        types: [
-          {
-            name: 'Wildlife Sanctuaries',
-            text: 'Govind, Mudumalai, Periyar, Bharatpur'
-          },
-          {
-            name: 'National Parks',
-            text: ' Anamudi Shola, Anshi, Balphakram, Betla'
-          }
-        ]
+        text: `A Sanctuary is a place where animals and birds are protected from hunting and other human activities. Sanctuaries are run by the government. Our government also runs  biosphere reserves and national parks. They conserve plants, wild animals, birds, rare and diverse species. 
+For example, Jim Corbett National Park, present in Uttarakhand is a well known national park. The majestic Bengal Tigers are protected there.
+In Sunderbans National Park, present in West Bengal, also Bengal tigers are protected. Due to the successful conservation efforts of 'Project Tiger', the number of tigers have been increased in India.
+The Nilgiri Biosphere Reserve has elephants, Indian leopard, Black panther and Nilgiri tahr.
+Vedanthangal Bird Sanctuary is famous for migrating birds that come from different countries. Some birds move from one place to another due to change in seasons.
+Kaziranga National Park in Assam, is the home of one-horned rhinoceros. It has around two-thirds of all rhinoceros in the world. Due to the successful conservation efforts, the number of one-horned rhinoceros have been increased.
+Gir National Park in Gujarat has Asiatic Lions. This is the only forest in India where we can sea lions.`
       }
     },
     {
@@ -46,11 +30,11 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Vendanthangal Sanctuary is famous for *birds*.
-          Bannerghatta Biological Park is situated in *Karnataka*.
-          The Acharya Jagadish Chandra Bose Indian Botanic Garden is situated in *West Bengal*.
-          *Manas National park* is a biosphere reserve situated in Assam.
-          *Wildlife Sanctuary* is established to protect wild animals and birds.`
+        text: `*Vendanthangal* Sanctuary is famous for migrating birds.
+*Gir* forest is famous for lions.
+*Kaziranga* National Park in Assam, is the home of one-horned rhinoceros.
+The *Nilgiri* Biosphere Reserve has elephants, Indian leopard, Black panther.
+*Jim Corbett* National Park is known for majestic Bengal tigers.`
       }
     },
     {
@@ -63,13 +47,13 @@ export default {
           {
             name: 'True',
             text: `Mudumalai Sanctuary is located in Tamil Nadu.
-              Birds and animals move from one place to another place because of seasonal changes.
-              In Vedanthangal Bird Sanctuary, birds migrate from different countries of the world.`
+Birds and animals move from one place to another place because of seasonal changes.
+In Vedanthangal Bird Sanctuary, birds migrate from different countries.`
           },
           {
             name: 'False',
-            text: `Nilgiri Biosphere Reserve is only for elephants.
-              Gulf of Mannar Biosphere Reserve is located in Madhya Pradesh.`
+            text: `In Nilgiri Biosphere Reserve, you can find only elephants.
+Kaziranga National Park is present in West Bengal.`
           }
         ]
       }
@@ -80,13 +64,27 @@ export default {
       type: 'match',
       data: {
         text: `Vendanthangal, Birds
-          Anamudi, Elephants
+        Nilgiri, Elephants
           Gir Park, Lions
           Bandipur, Tigers
           Botanical Garden, Flora`,
         title: 'Match the following'
       }
     },
+    {
+      id: 'match-park-place',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Kaziranga, Assam
+Sunderbans, West Bengal
+Vendanthangal, Tamil Nadu
+Jim Corbett, Uttarakhand
+Gir Park, Gujarat `,
+        title: 'Match the following'
+      }
+    },
+    /*
     {
       id: 'fillup',
       label: 'Fill in the blanks',
@@ -100,6 +98,7 @@ export default {
           Botanical gardens are there to maintain the extinct *plants (animals)* species.`
       }
     },
+    */
     {
       label: 'Choose the best Answer ',
       id: '1000',
@@ -109,7 +108,7 @@ export default {
         questions: [
           {
             qText: ' Kaziranga National Park is famous for _____________.',
-            options: 'One horned rhinoceros, Elephants, Tigers, Lions'
+            options: 'one horned rhinoceros, elephants, tigers, lions'
           },
           {
             qText: 'Vedanthangal Bird Sanctuary is located in _____________',

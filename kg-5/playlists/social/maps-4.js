@@ -174,10 +174,10 @@ West bengal, Kolkata`,
           dashWidth: 80
         },
         text: `River originated from Gomukh: *Ganga river*
-              State in which Bhimbhetika caves are situated:  *Madhya pradesh*
-              Where the source of Kaveri is located? *Western ghats*
-              India's largest port by size: *Mumbai port*
-              Port known for handling bulk Cargo on the eastern coast: *Visakhapatnam*`
+State in which Bhimbhetika caves are situated:  *Madhya pradesh*
+Where the source of Kaveri is located? *Western ghats*
+India's largest port by size: *Mumbai port*
+Port known for handling bulk Cargo on the eastern coast: *Visakhapatnam*`
       }
     },
     {
@@ -193,9 +193,9 @@ West bengal, Kolkata`,
           dashWidth: 80
         },
         text: `Jaipur : Rajasthan :: Shimla : *Himachal Pradesh*
-              Godavari : Maharashtra :: Narmada : *Madhya Pradesh*
-              Cotton : Natural :: Plastic : *Man-made*
-              Northeast : Southeast :: Northwest : *Southwest*`
+Godavari : Maharashtra :: Narmada : *Madhya Pradesh*
+Cotton : Natural :: Plastic : *Man-made*
+Northeast : Southeast :: Northwest : *Southwest*`
       }
     },
     {
@@ -204,10 +204,10 @@ West bengal, Kolkata`,
       type: 'match',
       data: {
         text: `Taj Mahal, Agra
-              India Gate, Delhi
-              Hawa Mahal, Jaipur
-              Victoria Memorial, Kolkata
-              Golden Temple, Punjab`,
+India Gate, Delhi
+Hawa Mahal, Jaipur
+Victoria Memorial, Kolkata
+Golden Temple, Punjab`,
         title: 'Match the following'
       }
     },

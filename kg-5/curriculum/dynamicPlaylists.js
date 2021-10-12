@@ -890,11 +890,6 @@ const social = [
     slug: 'maps-5',
     grade: 'g3, g4, g5'
   },
-  {
-    label: 'Surroundings',
-    slug: 'surroundings',
-    grade: 'g3, g4, g5'
-  },
   // new addition 2
   {
     label: 'Earth',
