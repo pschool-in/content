@@ -11,7 +11,7 @@ export default {
         title: 'Dogs',
         text: [
           { type: 'img', src: 'dog.jpg' },
-          `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They live for 13-14 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
+          `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They live for 10-13 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
         ]
       }
     },
@@ -56,7 +56,7 @@ export default {
         title: 'Tigers',
         text: [
           { type: 'img', src: 'tiger.jpg' },
-          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white in colour. But some tigers are just white and black. Tigers’ eyesight is 6 times better than humans. An amazing fact about the tigers is that they can survive without food for 2 weeks.`
+          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white in colour. But some tigers are just white and black. Tigers’ eyesights are 6 times better than humans. An amazing fact about the tigers is that they can survive without food for 2 weeks.`
         ]
       }
     },
