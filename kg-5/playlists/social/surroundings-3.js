@@ -509,7 +509,7 @@ Tipu Sultan palace is situated in Mangalore.`
       }
     },
     {
-      id: 'wordsearch',
+      id: 'wordsearch-2',
       label: 'Farming Implements- Word Search ',
       type: 'wordsearch',
       data: {
@@ -551,7 +551,7 @@ Tipu Sultan palace is situated in Mangalore.`
       }
     },
     {
-      id: 'crossword',
+      id: 'crossword-2',
       label: 'Monuments in India- Crossword ',
       type: 'crossword',
       data: {
