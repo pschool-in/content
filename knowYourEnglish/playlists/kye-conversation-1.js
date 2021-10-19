@@ -166,7 +166,168 @@ Building anticipation
 “I see. I saw the trailer of my favourite director’s latest horror movie yesterday. It has really whet my curiosity.”
 “No horror movies for me, please. Life in this pandemic is horrible enough.”
 “Adopt the pace of nature: her secret is patience.” Ralph Waldo Emerson`
-}
+   }
+ },
+{
+  type: 'passage',
+    label: 'Stay indoors without going stir-crazy',
+    id: '600',
+    data: {
+      title: `Stay indoors without going stir-crazy`,
+      text: `“I don’t believe it! Are you going for an early morning walk?”
+“Yes. It’s been three weeks since I stepped out. I was going absolutely stir-crazy.”
+“Stir-crazy? Does it mean that you were going slightly mad or getting a little angry?”
+“It could be either. It’s the feeling of restlessness or depression that you get because of prolonged confinement.”
+“Something like what people are experiencing now because of the virus?”
+“That’s right. Many of us have been compelled to stay indoors for nearly two months. Initially, we enjoyed the experience. But, after a while, we started to get restless. Some of us got irritated. The non-stop rain forced the children to stay indoors. After two days, some of them were going stir-crazy.”
+“How about this example? After staying with my grandfather in the village for just a day, I went stir-crazy. No cell phone, no television, no....”
+Learning to cope
+“I get the picture. Well, if the problem with COVID-19 continues, we’ll need to learn how to cope with people going stir-crazy.”
+“That’s not something I’m looking forward to. By the way, shouldn’t it be ‘cope up with’? We’ll need to learn how to cope up with people going stir-crazy.”
+“No. The word ‘cope’ is followed by ‘with’ and not ‘up’. Hemant had a nervous breakdown because he wasn’t able to cope with the pressure his boss was putting on him.”
+“When my cousins come down from the States, they have a hard time coping with the noise and the traffic.
+“That’s a good example. The new vice chancellor is having a difficult time coping with the students.”
+“That’s to be expected, I guess. Tell me, why is it called ‘stir-crazy’ and not...?”
+“That’s because the expression was first used by prisoners. One of the slang terms for prison was ‘stir’.”
+“I see. So, the restlessness that the expression refers to is the restlessness that inmates feel when they’re locked up. Tell me, is there another expression which has more or less the same meaning as stir-crazy?”
+“Cabin fever has more or less the same meaning. It was initially used to refer to the restlessness that one felt because of confinement — especially, during winter. Nowadays, it’s used in all contexts.”
+“How about this example? After staying at home for six weeks, Aparna started to develop cabin fever.”
+“Good example. Children have a difficult time coping with cabin fever.”
+“Tell me, why is it called ‘cabin fever’?”
+“Will tell you some other time. Right now, I need to go for my walk.”
+The only exercise I take is walking behind the coffins of friends who took exercise. Peter O’Toole`
     }
+  },
+{
+  type: 'passage',
+    label: 'Let the virus not breeze in',
+    id: '700',
+    data: {
+      title: `Let the virus not breeze in`,
+      text: `“Where’s the mask? Aren’t you supposed to be wearing one when you step outside?”
+“It’s in my pocket. I was wearing it till I entered your apartment building.”
+“That’s a relief. I thought the security guard had allowed you to breeze in without one.”
+“Let me breeze in without a mask? Does it mean enter the building?”
+“Not exactly. When you ‘breeze in’, you enter a place in a very carefree manner. You walk in quickly and confidently. You’re sure no one is going to stop you. Here’s an example: As usual, the young teacher breezed in 20 minutes late.”
+“How about this example? The manager breezed in and started ordering people around.”
+“Sounds good. It’s also possible to say ‘breeze into’. The students breezed into the auditorium and occupied every chair.”
+“The ageing candidate breezed into the room and shook hands with everyone. Tell me, does the expression ‘breeze out’ exist? Is it frequently used?”
+“People do use it. When you ‘breeze out’ of a place, you exit quickly; often, unexpectedly. Mahesh breezed out of the room without thanking his host.”
+“That’s to be expected, I guess. Many of my classmates breeze into college late, and they breeze out whenever they feel like.”
+“I hope you’re not like that. Thanks to the coronavirus, people have stopped....”
+“Talking about the virus, what’s the difference between ‘epidemic’ and ‘pandemic’?”
+It’s the spread
+“First of all, the stress is on ‘dem’ in both words. The words are pronounced ‘e-pi-DEM-ic’ and ‘pan-DEM-ic’. In both cases, you’re talking about a disease that has affected a large number of people. What’s more, it spreads quickly from one person to another.”
+“If that is the case, can the two words be used interchangeably?”
+“No, not really. When you refer to a disease as being an ‘epidemic’, what you’re suggesting is that it’s localised. For example, when COVID-19 started spreading from Wuhan to the rest of China, it was still being referred to as an epidemic.”
+“Because it was localised. The virus was basically a problem for the people in China.”
+“Exactly! The spread was limited to China. But once it crossed the borders of China and spread to other countries and other continents...”
+“It became a problem for the entire world. The virus became ‘pandemic’. So basically, what you’re saying is that when an epidemic spreads over a relatively large area, it becomes pandemic.”
+“I guess you could say that! A pandemic is an epidemic that travels great distances. The World Health Organisation defines it as ‘the worldwide spread of a new disease’.”
+“Let’s just hope COVID-19 stops spreading.”
+Worry is like a rocking chair. It gives you something to do, but never gets you anywhere. Erma Bombeck`
+   }
+ },
+{
+  type: 'passage',
+    label: 'Disappointed?',
+    id: '800',
+    data: {
+      title: `Disappointed?`,
+      text: `“Come in! Did you go to the airport this morning to pick up you cousin from London?”
+ “He decided not to come because of the coronavirus scare.”
+ “That’s so sad. You were really looking forward to his visit. That explains the long face, I guess.”
+ “Long face? Are you telling me that my face is long?”
+ “The expression ‘long face’ is frequently used in informal contexts to suggest that a person is looking rather sad — there’s a look of disappointment. For example, Jai has been walking around with a long face ever since he was dropped from the team.”
+ “By the end of the tenth over, there were some long faces in the room. We knew that our girls weren’t going to win the World Cup.”
+ “Good example. With the final exams around the corner, many students are walking around with a long face.”
+“That’s not the case in Bengaluru. The virus has forced many schools to cancel the final exams. The children’s summer break has already begun.”
+Happiness personified
+“I heard about that. I am sure the students are like a dog with two tails.”
+“Two tails? A dog usually wags its tail when it’s happy. So, when you say that someone is like a dog with two tails, are you suggesting he’s extremely happy?”
+“That’s exactly what it means. The person is excited because something good has happened. Ever since Sunitha got engaged, she’s been like a dog with two tails.”
+“How about this example? Ganesh has every reason to be like a dog with two tails. He won the lottery last week.”
+“Sounds good. After her promotion, Vineeta was walking around like a dog with two tails.”
+“Talking about promotion. Weren’t you planning to ask your boss for one?”
+Too much tgo bite
+“I’m scared that if I ask for a raise or a promotion now, he will bite my head off.”
+“Bite your head off? Are you scared that he will say no to your request?”
+“When someone bites your head off, what the person is doing is shouting angrily at you. He reacts rudely to something you have said.”
+“And you feel that there was no reason for the person to react that way.”
+“Exactly! I made some innocent comment about her favourite teacher, and Sunny bit my head off.”
+“You need to be careful with her. She has a temper. How about this example? The next person who says that I have been walking around with a long face, I am going to bite his head off.”
+“Sounds good. But I don’t think it’s a good idea to bite someone’s head off just because you are in a bad mood.”
+“Well, not all of us can be like a dog with two tails all the time.”
+“The organization of any bureaucracy is very much like a septic tank. The really big chunks always rise to the top.” John Imhoff`
+    }
+  },
+{
+  type: 'passage',
+    label: 'Mum’s the word',
+    id: '900',
+    data: {
+      title: `Mum’s the word`,
+      text: `“Guess what? I’ve already started packing for next week’s trip. Have you...?”
+“Well, you’d better start unpacking. We’re not going. At least, I won’t be going.”
+“Oh no! What did your boss say when you asked him if you could take a week off?”
+“It was a straightforward no. He didn’t mince his words, either.”
+“Didn’t mince his words! I’ve never come across that expression before. What does it mean?”
+“When you say that someone doesn’t mince their words, what you’re suggesting is that the person is direct or blunt. He doesn’t sugarcoat anything.”
+“I see. And this person doesn’t really care if what he says hurts your feelings or not?”
+In-the-face
+“Exactly. He doesn’t mind if what he says upsets you. My friend Jai seldom minces his words. Many students who have gone to him for advice have come out crying.”
+“How about this example? Rama didn’t mince her words while criticising the film.”
+“Sounds good. My mother didn’t mince words. She said that I’m a terrible dresser.”
+“Ouch! That must have really hurt. What did you say?”
+“Nothing really. I took her at her word and began to make some changes in the way...”
+“Took her at her word? Does it mean you believed what she said?”
+“Yes. When you take someone at their word, you accept what they say as the truth. You trust the individual, and as a result, try to make the necessary changes.”
+“So, because of what your mother said, you’ve changed the way you dress?”
+“Exactly. Here’s another example. When my uncle told me he would help me get a job, I had to take his word for it.”
+“I wouldn’t take Savithri at her word, if I were you. She has been known to let people down at the last minute.”
+“That’s a good example. I’m sure she’s not going to be very happy with your example.”
+“Oh, please, don’t tell her. She’ll keep asking me why I said that.”
+“Don’t worry, I won’t tell her. Mum’s the word.”
+“Mum’s the word? Does it mean you’ll not talk about it?”
+“When someone tells you something, and you reply by saying, ‘mum’s the word’, you’re saying that you’ll not tell anyone. You will keep your mouth shut.”
+“In other words, you’ll keep it a secret. No one will hear the secret from you.”
+“That’s right! I don’t want anyone to know that I’m engaged. So, mum’s the word.”
+“How about this example? Remember, mum’s the word on the surprise party we’re giving our boss on Monday.”
+“That’s a good example. I don’t want you to be talking about our plans till they’ve...”
+“Don’t worry. I won’t tell anyone. Mum’s the word.”
+“I’ll take your word for it!”
+A man who correctly guesses a woman’s age may be smart, but he’s not very bright. Lucille Ball`
+   }
+ },
+{
+  type: 'passage',
+    label: 'Think on your feet',
+    id: '1000',
+    data: {
+      title: `Think on your feet`,
+      text: `“Hey, there’s a big bump on your forehead. Did you have a dustup with someone?”
+“Dustup with someone? What are you talking about?”
+“The word is sometimes used in informal contexts to mean to have an argument or a fight with someone.”
+“I see. Well, I didn’t have a dustup with anyone. I somehow managed to bang my head against the wall. I did have a major dustup with Sujatha about the proposed conference.”
+“That’s nothing unusual. You and Sujatha are famous for your dustups. I had a dustup with the new manager, yesterday.”
+“Really? You have fought with your new boss already? What was it about?”
+“He was giving my friend a hard time. Making fun of him, actually. I was in no mood to sit by and let him get away with it!”
+“To sit by? In other words, you felt that your boss was doing something wrong.”
+“And I was in no mood to allow it to continue. I put a stop to it. I am your friend. I cannot just sit by and watch you waste all your hard-earned money on a silly car.”
+“Are we just going to sit by and let the students decide what is good for the university? Tell me, why were you upset with your boss?”
+“He was telling my friend that he lacked the ability to think on his feet, and...”
+“Think on his feet? Does it mean having the ability to think quickly?”
+“Actually, it is the ability to think quickly in tricky situations — when you are under tremendous pressure. If you have the ability to think on your feet, you will come up with new ideas and...”
+“And quickly come up with possible solutions to problems.”
+“Very good. It also suggests the ability to make decisions quickly. Nowadays, most companies are looking for people who can think on their feet. They are not interested in those who just follow orders — those who merely do as they are told.”
+“That’s true! Last week, the gas cylinder began to leak. Luckily for us, my mother was able to think on her feet and found a way to stop it.”
+“That is a good example. When I was in school, I was never able to think on my feet.”
+“I never had that problem. Listen, since I have the ability to think on my feet, do you think I will be able to get a job in your company”“If you join my company, you will probably end up having a dustup with everyone there.”
+“I’ll probably have one with you every day. Tell me, is dustup written as one word or two?”
+“Some people write it as one word. Others put a hyphen between dust and up.”
+“Thanks. Let’s hope you don’t have another dustup with your boss before the year ends.”
+He who hesitates, meditates in a horizontal position. Ed Parker`
+}
+   }
   ]
 };
