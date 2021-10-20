@@ -149,6 +149,62 @@ What do you call a person who plays the flute?
 Americans call him ‘flutist’— the ‘flut’ is pronounced like the word ‘flute’. The British, on the other hand, call a flute player, ‘flautist’. The ‘au’ sounds like the ‘aw’ in ‘saw’, ‘jaw’ and ‘law’.
 Of course, I’m in shape. Round is a shape. – Anonymous`
       }
+    },
+    {
+      type: 'passage',
+      label: 'Downshift to a stress-free life',
+      id: '800',
+      data: {
+        title: `Downshift to a stress-free life`,
+        text: `What is the difference between ‘disinfectant’ and ‘antiseptic’?
+Many people use the two terms interchangeably because both are used to kill micro-organisms and reduce the spread of any form of infection. Neither is meant to be ingested or swallowed. President Donald Trump created quite a commotion last month, when during a press conference, he suggested that perhaps one way of defeating the corona virus was to inject ourselves with a disinfectant. The reason that people get confused and use the two terms interchangeably is because another name for an antiseptic is ‘skin disinfectant’. A disinfectant is normally what we rub on or spread on non-living things — for example, the chemicals we use when cleaning floors, tables, sinks, etc. Nowadays, it has become common practice to use a disinfectant when we mop the floor. In the old days, cow dung was used as a disinfectant.
+An antiseptic, on the other hand, is mostly applied on living organisms. The spirit or alcohol that a doctor rubs on our arm before giving an injection is an example of an antiseptic. It is meant to kill the bacteria and microorganisms in that area. The after-shave lotion that men put on after their morning shave is another example of an antiseptic.
+What is the meaning of ‘downshift’ in the following sentence? The Government is encouraging people over 55 to downshift.
+Nowadays, we find that many people in the software industry quit their job in their mid 40s and move on to do something totally different. Though the job is well paying, they are sick and tired of the constant pressure they have to deal with, and want to do something more meaningful — something that gives them a little more satisfaction. The new job that they take up may not be as important or as well paying, but it gives them the time to slow down and do the kinds of things they want to. So, when you ‘downshift’, you are willingly giving up your high-paying job and taking up something less lucrative — but far less stressful, one that gives you the free time to do what you want to. A person who sacrifices his salary and position for a better quality of life is called a ‘downshifter’. This use of the word ‘downshift’ is mostly found in British English. The Americans, on the other hand, use the word to mean to put the car in a lower gear, thus, slowing it down.
+Several of my colleagues are seriously considering downshifting.
+The downshifters get together at the club every Sunday.
+Wisdom comes from experience. Experience is often a result of a lack of wisdom. Terry Pratchett`
        }
+      },
+      {
+        type: 'passage',
+        label: 'Indefinite break',
+        id: '900',
+        data: {
+          title: `Indefinite break`,
+          text: `What is the meaning and origin of ‘month of Sundays’?
+This is an expression mostly used in informal contexts to mean a long, indefinite or unspecified period of time. It could range from a few months to a few years. The expression can also be used to suggest ‘never’.
+I haven’t seen a Rajini movie in a month of Sundays.
+Not in a month of Sundays will I hire a dunce like Govind.
+According to some scholars, during the 19th century, not everyone looked forward to Sundays. This day was set aside as a day of prayer. One was expected to go to church, and then spend the rest of the day reflecting on life. Playing and other fun activities were prohibited. For some people, time just seemed to crawl by on Sundays. Imagine 30 successive days like this! It is similar to the children’s situation today. Due to the lockdown, every day is like a Sunday for them but, because of restrictions, they are forced to stay indoors, and are unable to enjoy themselves.
+What is the difference between ‘furlough’ and ‘laid off’?
+Ever since COVID-19 became a pandemic, companies across the world have either furloughed or laid off some of their employees. The two syllables in ‘furlough’ are pronounced like the words ‘fur’ and ‘low’. The word is pronounced ‘FUR-low’ with the stress on the first syllable. It comes from the Dutch ‘verlof’ meaning ‘permission’, and its use was limited to the military. When a soldier went home for a short period of time to be with his family, he was said to be ‘on furlough’. Once the leave was over, he was expected to report for duty again. Nowadays, ‘furlough’ is being used in all contexts, not just the military. When a company ‘furloughs’ an employee, it is asking the person not to show up for work. This could be because the company is experiencing financial difficulty. A person who has been furloughed will not be paid for the period he/she does not work; but will, however, continue to be on the payroll of the company. When the company’s problems are sorted out, he/she can return to his/her old job. When a person gets ‘laid off’, he/she is asked to leave, and ceases to be an employee of the company. He/she is unlikely to be rehired.
+During the second week of the crisis, the company furloughed 300 people.
+Dilip is in a bad mood because he got laid off.
+The chief obstacle to the progress of the human race is the human race. Don Marquis `
+         }
+        },
+        {
+          type: 'passage',
+          label: 'To kill or cut?',
+          id: '1000',
+          data: {
+            title: `To kill or cut?`,
+            text: `What is the correct pronunciation of ‘vase’?
+There are two different ways of pronouncing the word. The Americans tend to rhyme it with ‘face’, ‘pace’ and ‘case’. The British, on the other hand, pronounce the ‘a’ like the ‘a’ in ‘path’ and ‘bath’, and the final ‘se’ like the ‘z’ in ‘zip’ and ‘zoo’. They pronounce the word ‘VAAZ’. It comes from the Old French ‘vas’ meaning ‘container’ or ‘receptacle’. Nowadays, the word is mostly used to refer to a vessel in which cut flowers are placed.
+Don’t you dare drop that vase! It’s really expensive.
+The killer used the flower vase to smash the victim’s skull.
+What is the difference between ‘butcher’ and ‘slaughter’?
+When you slaughter an animal, you are killing it for food. It comes from the old Norse word, ‘slatr’ meaning ‘killing animals for meat’. This explains why places where animals are killed are called ‘slaughter houses’. Butchering is the process of cutting up the slaughtered animal into smaller pieces. The butcher cuts up the meat of the slaughtered animal and makes it available for his customers. The two verbs can be used with people as well. When you ‘butcher’ a person, what you are doing is killing him in a very cruel manner — you are making the person suffer by torturing him. Perhaps, you are cutting him into small pieces. You can butcher one person or several. The word ‘slaughter’, on the other hand, suggests you are indiscriminately killing many people — their death is usually violent. The killing of a single individual cannot be considered a slaughter.
+The serial killer had butchered 20 teenagers before being caught.
+The rebel troops slaughtered everyone in the village.
+Is there a difference between, ‘She was a good dancer, she was’ and ‘She was a good dancer, was she?’
+Yes, there is a big difference in the meaning between the two. ‘She was a good dancer, was she?’ is a question; you are seeking information in this case. You are attempting to find out from the person whether the individual was a good dancer or not. ‘She was a good dancer, she was’ is a statement — an emphatic one, to be precise. You are stating that the person in question was a good dancer. The addition of ‘she was’ at the end of the sentence reinforces the point you are making — that the person was indeed a very good dancer.
+Here are a few more examples:
+Mythreye was a wonderful teacher, she was.
+The movie was terrible, it was.
+No flower is happy in a vase, because a vase is nothing but an ornate coffin for the flower. Mehmet Murat Ildan`
+        }
+      }
      ]
   };
