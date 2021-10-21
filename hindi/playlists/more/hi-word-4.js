@@ -61,9 +61,7 @@ export default {
           {
             qText: 'हम सब *एकता* से रहते हैं।',
             options: 'अनेकता, कैद, शगुन'
-          }
-        ],
-        questions: [
+          },
             {
               qText: 'मैं *सुबह* मंदिर गई। ',
               options: 'शाम, रात, दिन'
