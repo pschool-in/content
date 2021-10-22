@@ -122,7 +122,120 @@ Keep the language simple. I want to make sure that the blockheads in the Sales
 Department can make sense of the document.
 The word has an interesting origin. In the old days in Europe, it was common practice for both men and women to wear wigs — whether you had hair or not, it was fashionable to sport a wig. Rich people, of course, had many wigs. At night-time, the wig was placed on a block of wood that was shaped like the wig wearer’s head — this was to ensure that the wig did not lose its shape. This block of wood was called a ‘blockhead’. With the passage of time, the word began to mean someone who had nothing inside his head — just like the original blockhead.
 “Scientists say that the world is made of protons, neutrons and electrons. They forgot to mention morons.” Unknown`
+     }
+    },
+    {
+      type: 'passage',
+      label: 'Moving on to the finals',
+      id: '600',
+      data: {
+        title: `Moving on to the finals`,
+        text: `How is the word ‘fracas’ pronounced?
+The pronunciation of the word seems to depend on which side of the Atlantic you are from — the British and the Americans pronounce the word very differently. According to most standard dictionaries, people in Britain rhyme the first syllable with the words ‘crack’, ‘track’ and ‘rack’. The following vowel sounds like the ‘a’ in ‘path’, ‘bath’, and ‘ask’; the final ‘s’ remains silent. They pronounce the word ‘FRA-kaa’ with the stress on the first syllable.
+Many Americans, on the other hand, rhyme the first syllable with the words ‘pray’, ‘tray’ and ‘bray’; some, however, pronounce the first syllable the way the English do. They all pronounce the final ‘s’ and the vowel in the second syllable like the ‘a’ in ‘china’. The word can be pronounced ‘FRAY-kes’ or ‘FRA-kes’ with the stress on the first syllable.
+It comes from the Italian ‘fracasso’ meaning ‘uproar, crash’. The word is mostly used nowadays to refer to a noisy argument or scuffle of any kind — one in which several people are involved. A ‘fracas’ usually lasts for a short time. Two people having a loud argument would not be considered a fracas.
+Two policemen were injured when they tried to break up the fracas outside the stadium.
+Most teachers and students joined the fracas over the proposed changes in rules.
+What is the meaning of ‘punch the ticket’?
+This is an expression that is mostly used in informal contexts in American English. The ticket originally referred to a train or bus ticket. In the past, whenever someone bought a ticket, the conductor ‘punched’ or put a hole it. This allowed the passenger to get on with his journey, and also ensured that the ticket was not used again.
+The expression ‘punch the ticket’ is used nowadays to mean several different things. Just as a ‘punch’ in the ticket allowed the passenger to continue his journey, the expression ‘punch the ticket’ is used in everyday contexts to mean, “to perform an action that allows one to proceed”. The expression is frequently used in the context of sports — when someone ‘punches his ticket’, he moves to the next round in a tournament. When someone says, “Federer punched his ticket to the final,” what they mean is that Federer won his semi-final match and has advanced to the final.
+I don’t think she’ll punch her ticket to the final — she has to play Halep in the next round.
+Nobody expected Lisa to punch her ticket to the championship.
+The expression has a completely different meaning as well. It can also be used to mean to kill someone.
+Govind had his ticket punched by a rival gang member.
+If you continue publishing such stories, I’ll send a couple of my men and punch your ticket.
+Is there a word for the ashes that remain after the cremation?
+Yes, there is. The word that you have in mind is ‘cremains’. It is a combination of two words: ‘cremate’ and ‘remains’.
+We plan to immerse the cremains in the river tomorrow.
+Nandu went to the crematorium to pick up the cremains of his father.
+Marriage is nature’s way of keeping us from fighting with strangers. Alan King`
       }
-    }
-  ]
-};
+    },
+    {
+      type: 'passage',
+      label: 'Make a deal',
+      id: '700',
+      data: {
+        title: `Make a deal`,
+        text: `How is the word ‘emaciate’ pronounced?
+This is a word that is mostly restricted to formal contexts. The ‘e’ in the first syllable and the ‘i’ in the third sound like the ‘i’ in ‘sit’, ‘bit’ and ‘knit’. The second syllable is pronounced like the word ‘may’, and the ‘c’ that follows sounds like the ‘s’ in ‘see’, ‘sit’ and ‘sin’. The last syllable sounds like the word ‘ate’. The word is pronounced ‘i-MAY-si-ate’ with the stress on the second syllable. It comes from the Latin ‘emaciatus’ meaning ‘make lean, to waste away’. When you say someone looks ‘emaciated’, what you are suggesting is that the individual looks extremely skinny; perhaps, dangerously so. There is no energy about him; he is so skinny, that one can count the bones in the body. When there is famine in some part of the world, newspapers and magazines usually carry photographs of emaciated people - people who are nothing more than skin and bones. This look is often the result of malnourishment or illness. Nowadays, of course, there are people who want to promote this kind of look — just look at our so-called supermodels.
+She had become so emaciated that no one recognised her.
+Jai had a difficult time trying to make eye contact with the emaciated refugees.
+What is the meaning and origin of ‘a sop to Cerberus’?
+The first syllable of ‘Cerberus’ is pronounced like the word ‘sir’; the vowels in the second and third syllables sound like the ‘a’ in ‘china’. The word is pronounced ‘SIR-be-res’ with the stress on the first syllable. ‘Sop’, which rhymes with ‘hop’ and ‘pop’, is usually defined as something insignificant given to someone in order to keep them happy/content. It is also used to refer to piece of bread dipped in something — soup, milk, gravy, and so on. The expression ‘a sop to Cerberus’ has its origins in Greek mythology. Cerberus was a dog with several heads that guarded the gate to Hades — nobody is really sure how many heads the animal had; it varies between three and fifty. In order to enter Hades, one had to give the animal a bribe of some kind — usually, a piece of cake dipped in honey. In the past, it was common practice among the Greeks and Romans to bury their dead along with a piece of honey cake — this was to ensure that Cerberus allowed the dead person into Hades. When you give ‘a sop to Cerberus’, what you are essentially doing is giving them a bribe. Did you know the word ‘bribe’ meaning ‘gift’ at one time referred to the small pieces of bread that people used to carry to give beggars?
+Which is correct: ‘to hit someone with something’ or ‘to hit someone for something’?
+Both are acceptable. The first expression suggests that you are using an object to hit someone — it could be a gun, a hammer, and so on. When you ‘hit someone for something’, you want them to do you a favour. Maybe you want the person to lend you some money or something else. It is also possible to say, ‘to hit someone up for something’. The expression is mostly used in informal contexts.
+My colleague wanted to hit me up for a couple of lakhs. I said I didn’t have that kind of cash.
+“Money is not the most important thing in the world. Love is. Fortunately, I love money!” Jackie Mason`
+      }
+    },
+    {
+      type: 'passage',
+      label: 'This is for the hardcore learner',
+      id: '800',
+      data: {
+        title: `This is for the hardcore learner`,
+        text: `How is the expression ‘qui vive’ pronounced?
+The first word is pronounced like the word ‘key’; the second, rhymes with ‘leave’, ‘weave’ and ‘heave’. It is pronounced ‘key VEEV’ with the stress on the second word. In the past, whenever a stranger approached a French fort, the sentry on duty would shout the question “qui vive”, meaning “Long live who”? The expression was the short form of “qui voulez vous qui vive”, meaning “Whom do you wish to live?” The question was used to determine if the person at the gate was a friend or a foe. If the stranger responded by saying, “Long live the King”, he was usually allowed to enter the fort. When this French expression was adopted into English, it took on a totally different meaning. The English were so impressed by how vigilant the French sentry was, they began to use the expression “on the qui vive” to mean “to be alert”, “to be on the lookout”.
+Soldiers along the border have been on qui vive since last night’s bombing.
+I must tell Veda about the sale at the mall. She’s always on the qui vive for great bargains.
+What is the difference between ‘no doubt’ and ‘without doubt’?
+The difference is one of emphasis; ‘without doubt’ is the more formal of the two. It has the same meaning as ‘without a doubt’. When you say, “You’ll no doubt go trekking in the morning”, what you are suggesting is that you are pretty sure that the person will go on a trek. In other words, you believe that the person is very likely to go — there is, however, a small element of doubt. When you say, “Dilip without (a) doubt is the most intelligent boy in class”, what you are suggesting is that you have no doubt whatsoever that he is the smartest boy in class. You are absolutely certain about this; ‘without (a) doubt’ adds emphasis to your belief.
+Karthik has no doubt told you that he’s getting married next month.
+She is without (a) doubt the girl of Karthik’s dreams.
+What is the meaning of ‘hardcore’ in ‘hardcore drug addict’? 
+The word ‘hardcore’ or ‘hard-core’ can be used both as a noun and an adjective. When you describe someone as being a ‘hardcore addict’, what you are suggesting is that he is into drugs big time; he uses substances regularly, perhaps even on a daily basis. There is little one can do to help him kick the habit. The word is also frequently used to refer to one’s belief system. When you say that someone is a ‘hardcore conservative’, you are implying he is someone who strongly believes in conservatism; nothing you do or say will get him to change his existing set of beliefs. He is someone who is very dedicated to the cause he believes in.
+The hardcore members of the ruling party did not like the PM’s decision.
+Like most hardcore gamers, Sita doesn’t have time to take a bath.
+Is it okay to say, “You needn’t to sing”?
+‘Needn’t’ is not usually followed by ‘to’. For example, ‘You needn’t sing at the event’. ‘You needn’t do your assignment now’. If you wish to use ‘to’, then you will have to say, “You don’t need to sing at the event”, and, “You don’t need to do your assignment now”.
+“Love is like an hourglass with the heart filling up as the brain empties.” Jules Renard`
+       }
+      },
+      {
+        type: 'passage',
+        label: 'Time to play with a full deck',
+        id: '900',
+        data: {
+          title: `Time to play with a full deck`,
+          text: `What is the difference between ‘postpone’ and ‘adjourn’?
+Most of us are familiar with the word ‘postpone’; it is the more common of the two. When you ‘postpone’ doing something, you delay doing it. You put it off to another day or another time. A meeting scheduled to be held on Monday may be postponed to Thursday. Postponing a meeting usually happens before the meeting actually takes place. It could be a few hours or a few days before the scheduled time. The word ‘adjourn’ brings to mind the Parliament sessions in our country. When you ‘adjourn’ a meeting, you are bringing it to a close temporarily; you are making it clear to everyone that the meeting will resume at a later time or on a later date. Unlike in the case of ‘postpone’, the meeting has already begun; it is not possible to adjourn something before it has begun. As for the pronunciation of ‘adjourn’, the first vowel sounds like the ‘a’ in ‘China’, and the following ‘dj’ sounds like the ‘j’ in ‘jam’, ‘juice’ and ‘jump’. The final ‘ourn’ rhymes with the ‘urn’ in ‘burn’, ‘turn’ and ‘churn’. This rather formal word is pronounced ‘e-JURN’ with the stress on the second syllable. It comes from the French phrase ‘a journ’ meaning ‘to another day’.
+The wedding had to be postponed because of the groom’s serious illness.
+With the members becoming restless, the CEO decided to adjourn the meeting.
+How is the word ‘elite’ pronounced?
+The first ‘e’ sounds like the ‘i’ in ‘bit’, ‘pit’ and ‘kit’, and the following ‘lite’ rhymes with ‘beat’, ‘seat’ and ‘meat’. The word, which can be used both as an adjective and a noun, is pronounced ‘i-LEET’ with the stress on the second syllable. According to the Dictionary of Etymology, it comes from the Old French ‘eslite’ meaning ‘pick out, choose’. When you refer to a group of people as belonging to the elite, what you are suggesting is that they are powerful and influential — it could be because of money power or their ability to excel at something thanks to the special skill set they have. These individuals belong to the privileged class — the cream of society.
+Kohli, Federer and Ronaldo are elite athletes.
+According to this report, the wealthy elite is unhappy with the PM.
+What is the meaning and origin of ‘not playing with a full deck’?
+The expression is mostly used to show disapproval in American English, and its use is limited to informal contexts. When you say that someone is ‘not playing with a full deck’, what you are suggesting is that the person is not bright; he is, in fact, rather dull or stupid. The expression can also suggest that the person in question is not mentally sound — in everyday language, he is ‘crazy’. The deck in the expression refers to a deck of playing cards. The person is being compared to a deck that does not contain the 52 cards that are required to play any game — something is missing in both the person and the pack of cards.
+I don’t wish to work with Pankaj. I don’t think he’s playing with a full deck.
+The way she behaved at the party makes me suspect that she’s not playing with a full deck.
+Insanity doesn’t run in my family — it gallops. Cary Grant `
+         }
+        },
+        {
+          type: 'passage',
+          label: 'Mollycoddling the moonstruck',
+          id: '1000',
+          data: {
+            title: `Mollycoddling the moonstruck`,
+            text: `What is the difference between ‘semi-monthly’ and ‘bimonthly’?
+The word ‘bimonthly’ is rather ambiguous; it has two very different meanings. A magazine that is published twice a month — i.e. every two weeks — can be called a ‘bimonthly’. The term, however, can also be used to refer to a journal or magazine that is published once in two months. Americans, in general, prefer ‘semi-monthly’, and they frequently use the word to mean ‘twice a month’.
+We decided that the new publication was going to be a semi-monthly/bimonthly.
+What is the meaning and origin of ‘happy as a sandboy’? 
+This rather old-fashioned expression is mostly limited to British English; the idiom was quite popular till the 19th century. The original expression was ‘jolly as a sandboy’. When you say that someone is ‘happy as a sandboy’, what you are suggesting is that the individual is extremely happy about something. The idiom has more or less the same meaning as ‘happy as a clam at high tide’. In the old days, the word ‘boy’ was frequently used to refer to a man who did menial work; a male worker of low status. This probably explains why the men who look after cattle and work on ranches are called ‘cowboys’, and why men who work in hotels and carry people’s suitcases are called ‘bellboys’. Several centuries ago, sand was used as a form of floor covering in theatres, bars, houses, etc.; whenever someone spilt something or spit on the floor, the sand absorbed it. Sandboys were hired to spread the sand on the floor and also remove it at regular intervals. Though these individuals were seldom paid in cash, they always remained in excellent spirits — the free drinks that they received ensured they always remained happy.
+Ramana was happy as a sandboy when the company promoted him.
+He’s happy as a sandboy when his grandchildren play with him.
+What is the meaning of ‘moonstruck’?
+Many people believe that the moon somehow influences the way human beings behave. There are many stories about how on a full moon night, some people transform into werewolves. When you say that someone is ‘moonstruck’, you are suggesting that the individual is acting in an odd manner — the person is in love and is therefore not himself; he is acting in a crazy or foolish manner.
+Don’t pay any attention to Priya. She’s moonstruck.
+When the actor stepped out of the club, moonstruck teenagers mobbed him.
+How is the word ‘mollycoddle’ pronounced?
+The first word rhymes with ‘jolly’, ‘volley’, and ‘poly’. The ‘cod’ in ‘coddle’ rhymes with ‘god’, ‘pod’, and ‘mod’, and the second syllable sounds like the ‘dle’ in ‘middle’ and ‘fiddle’. The word, which is mostly used to show disapproval, is pronounced ‘MO-li cod-el’ with the main stress on the first syllable of ‘molly’. When you mollycoddle your children, you are being overly protective. The word also suggests that you indulge them too much; in other words, you make sure that all their wants and demands are met.
+Like any grandmother, she took great delight in mollycoddling her grandchild.
+I don’t understand why the government is mollycoddling the power industry.
+Everyone is a moon, and has a dark side which he never shows to anybody. Mark Twain`
+        }
+      }
+     ]
+  };
