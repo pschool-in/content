@@ -441,6 +441,16 @@ const math = [
   },
   {
     label: 'Math Maze',
+    slug: 'math-maze',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Math Maze - 2',
+    slug: 'math-maze-2',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Maze - Multiples',
     slug: 'math-maze-3',
     grade: 'g1,g2,g3'
   },
