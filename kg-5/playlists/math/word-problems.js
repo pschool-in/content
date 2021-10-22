@@ -237,6 +237,57 @@ Cost of 15 candies = ₹ ?1
           ]
         }
       ]
+    },
+    {
+      type: 'numberInput',
+      id: 'word-prob-factors',
+      label: 'Word Problem factors',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem.',
+        type: 'word-problem'
+      },
+      data: [
+        {
+          list: [
+            `Ramu has a 21 ft long cloth. He wants to cut the cloth into equal pieces of 3 ft length. How much cloth will be left?
+            solution:
+            Number of 3 ft cloth = ?0 ft
+            Cloth left = ?1 ft
+            7, 0`,
+
+            `John has 2 clothes 12 ft and 15 ft long. What could be the length ruler scale in ft by which he can measure both the cloth? 
+            solution:
+            The smallest length of the ruler = ?0 ft
+            The biggest length of the ruler = ?1 ft
+            1, 3`,
+
+            `There are 24 bangles. We need to put the bangles in 8 boxes. Can we put them equally without any bangles being left?
+            solution:
+            Number Bangles in each box = ?0
+            Bangles left = ?1
+            3, 0`,
+
+            `Dave has 20 cookies. He wants to keep the cookies in a jar. He has 2 different types of Jars which can contant 4 cookies or 3 cookies.
+            If he wants to keep an equal amount of cookies in each Jar, how many Jars will he require?
+            solution:
+            Number of Jars required = ?0
+            Each Jar have = ?1 cookies
+            5, 4`,
+
+            `Teacher has 20 Pencils & 10 erasers. These can be divided equally to maximum how many students ?
+            solution:
+            Each student will get = ?0 Pencil/s
+            Each student will get = ?1 Eraser/s
+            Number of Students = ?2
+            2, 1, 10`
+          ]
+        },
+        `A class had 90 pencils. If these pencils are divided among 15 students equally, how many pencils each student will get? | 6
+        Kittu wants to buy chocolates. She has ₹ 18. If each chocolate cost ₹ 4, how many chocolates will she be able to buy? | 4
+        I can put 30 balls equally in 10 buckets, each bucket will have 3 balls. If I have only 5 buckets, how many balls will be present in each bucket? | 6`,
+
+      ]
     }
   ]
 };
