@@ -101,10 +101,39 @@ No, it is not. One can invade a country or a place, but not a person. Of course,
 “It’s not the size of the dog in the fight, but the size of the fight in the dog.” Mark Twain`
       }
     },
+   },
+    {
+      type: 'passage',
+      label: 'Ready to retire for the day?',
+      id: '500',
+      data: {
+        title: `Ready to retire for the day?`,
+        text: `What is the meaning of the expression ‘play out of one’s skin’? 
+        A lot of people who watched Simona Halep running from one corner of the court to the other during the recent Wimbledon final against Serena Williams must have thought that the little Romanian was ‘playing out of her skin’. The expression is used quite frequently in American English in the context of sports. When you say that someone is playing out of their skin, what you are suggesting is that they are playing brilliantly; they are playing the game with a lot of energy and skill, and their performance is truly outstanding. When someone plays out of their skin, it does not necessarily mean that the person ends up winning — just ask Roger Federer.
+Ganesh played out of his skin, but unfortunately lost the match.
+Hamsa was truly brilliant. She played out of her skin.
+What is the difference between ‘retire’ and ‘hit the hay’?
+Both are normally used to mean ‘to go to bed’. The word ‘retire’ is the more formal of the two. When someone who is tired says he is ‘retiring’ for the evening, it suggests that he is going to bed - perhaps immediately. The word can also suggest that one does not wish to be in the company of others; the individual who is ‘retiring’ perhaps wants to be alone in his room doing a bit of reading or writing before actually going to bed.
+It’s been a really strenuous day; the President plans to retire early tonight.
+Sujatha usually retires after dinner. She spends a couple of hours watching TV before going to bed.
+The idiomatic expression ‘hit the hay’, on the other hand, is mostly used in informal contexts to mean, ‘to go bed’.
+Rajan had already hit the hay before we arrived.
+You look sleepy, Shakul. Why don’t you hit the hay?
+In the old days, a poor person usually slept on a sack filled with hay — this was his bed. In order to get a good night’s sleep, people used to ensure that the hay in the sack had been spread evenly. This was achieved by hitting the hay before lying down on it.
+What is the meaning of ‘pontificate’?
+The first syllable rhymes with ‘con’ and ‘don’, and the final syllable with the words ‘hate’, ‘date’ and ‘gate’. The vowel in the second and third syllable sounds like the ‘i’ in ‘bit’, ‘sit’ and ‘kit’. It is pronounced ‘pon-TI-fi-kate’ with the stress on the second syllable. The word is mostly used nowadays to show disapproval. When someone ‘pontificates’, he speaks in a rather pompous way; he believes that his opinion should be the final opinion about a matter because he knows everything there is to know about the subject. Everyone else’s opinion is wrong. The word can also be used to refer to one’s style of writing.
+His son is a crook. Yet the Minister is always pontificating about good parenting.
+Is it okay to say, ‘pin drop silence’?
+Native speakers of English normally say, ‘you could hear a pin drop’ and not ‘pin drop silence’. The expression is normally used to suggest that there was absolute silence — people were so interested or shocked by what was happening that nobody spoke or said anything.
+It was so quiet in the meditation hall that you could hear a pin drop.
+When Radha announced she was leaving her husband, you could hear a pin drop.
+”Sleeping is no mean art: for its sake one must stay awake all day.” Friedrich Nietzsche`
+      }
+   },
     {
       type: 'passage',
       label: 'Air headed?',
-      id: '500',
+      id: '600',
       data: {
         title: `Air headed?`,
         text: `What is the difference between ‘mock’ and ‘tease’?
@@ -122,12 +151,12 @@ Keep the language simple. I want to make sure that the blockheads in the Sales
 Department can make sense of the document.
 The word has an interesting origin. In the old days in Europe, it was common practice for both men and women to wear wigs — whether you had hair or not, it was fashionable to sport a wig. Rich people, of course, had many wigs. At night-time, the wig was placed on a block of wood that was shaped like the wig wearer’s head — this was to ensure that the wig did not lose its shape. This block of wood was called a ‘blockhead’. With the passage of time, the word began to mean someone who had nothing inside his head — just like the original blockhead.
 “Scientists say that the world is made of protons, neutrons and electrons. They forgot to mention morons.” Unknown`
-     }
+      }
     },
     {
       type: 'passage',
       label: 'Moving on to the finals',
-      id: '600',
+      id: '700',
       data: {
         title: `Moving on to the finals`,
         text: `How is the word ‘fracas’ pronounced?
@@ -154,7 +183,7 @@ Marriage is nature’s way of keeping us from fighting with strangers. Alan King
     {
       type: 'passage',
       label: 'Make a deal',
-      id: '700',
+      id: '800',
       data: {
         title: `Make a deal`,
         text: `How is the word ‘emaciate’ pronounced?
@@ -172,7 +201,7 @@ My colleague wanted to hit me up for a couple of lakhs. I said I didn’t have t
     {
       type: 'passage',
       label: 'This is for the hardcore learner',
-      id: '800',
+      id: '900',
       data: {
         title: `This is for the hardcore learner`,
         text: `How is the expression ‘qui vive’ pronounced?
@@ -195,7 +224,7 @@ Is it okay to say, “You needn’t to sing”?
       {
         type: 'passage',
         label: 'Time to play with a full deck',
-        id: '900',
+        id: '1000',
         data: {
           title: `Time to play with a full deck`,
           text: `What is the difference between ‘postpone’ and ‘adjourn’?
@@ -211,30 +240,6 @@ The expression is mostly used to show disapproval in American English, and its u
 I don’t wish to work with Pankaj. I don’t think he’s playing with a full deck.
 The way she behaved at the party makes me suspect that she’s not playing with a full deck.
 Insanity doesn’t run in my family — it gallops. Cary Grant `
-         }
-        },
-        {
-          type: 'passage',
-          label: 'Mollycoddling the moonstruck',
-          id: '1000',
-          data: {
-            title: `Mollycoddling the moonstruck`,
-            text: `What is the difference between ‘semi-monthly’ and ‘bimonthly’?
-The word ‘bimonthly’ is rather ambiguous; it has two very different meanings. A magazine that is published twice a month — i.e. every two weeks — can be called a ‘bimonthly’. The term, however, can also be used to refer to a journal or magazine that is published once in two months. Americans, in general, prefer ‘semi-monthly’, and they frequently use the word to mean ‘twice a month’.
-We decided that the new publication was going to be a semi-monthly/bimonthly.
-What is the meaning and origin of ‘happy as a sandboy’? 
-This rather old-fashioned expression is mostly limited to British English; the idiom was quite popular till the 19th century. The original expression was ‘jolly as a sandboy’. When you say that someone is ‘happy as a sandboy’, what you are suggesting is that the individual is extremely happy about something. The idiom has more or less the same meaning as ‘happy as a clam at high tide’. In the old days, the word ‘boy’ was frequently used to refer to a man who did menial work; a male worker of low status. This probably explains why the men who look after cattle and work on ranches are called ‘cowboys’, and why men who work in hotels and carry people’s suitcases are called ‘bellboys’. Several centuries ago, sand was used as a form of floor covering in theatres, bars, houses, etc.; whenever someone spilt something or spit on the floor, the sand absorbed it. Sandboys were hired to spread the sand on the floor and also remove it at regular intervals. Though these individuals were seldom paid in cash, they always remained in excellent spirits — the free drinks that they received ensured they always remained happy.
-Ramana was happy as a sandboy when the company promoted him.
-He’s happy as a sandboy when his grandchildren play with him.
-What is the meaning of ‘moonstruck’?
-Many people believe that the moon somehow influences the way human beings behave. There are many stories about how on a full moon night, some people transform into werewolves. When you say that someone is ‘moonstruck’, you are suggesting that the individual is acting in an odd manner — the person is in love and is therefore not himself; he is acting in a crazy or foolish manner.
-Don’t pay any attention to Priya. She’s moonstruck.
-When the actor stepped out of the club, moonstruck teenagers mobbed him.
-How is the word ‘mollycoddle’ pronounced?
-The first word rhymes with ‘jolly’, ‘volley’, and ‘poly’. The ‘cod’ in ‘coddle’ rhymes with ‘god’, ‘pod’, and ‘mod’, and the second syllable sounds like the ‘dle’ in ‘middle’ and ‘fiddle’. The word, which is mostly used to show disapproval, is pronounced ‘MO-li cod-el’ with the main stress on the first syllable of ‘molly’. When you mollycoddle your children, you are being overly protective. The word also suggests that you indulge them too much; in other words, you make sure that all their wants and demands are met.
-Like any grandmother, she took great delight in mollycoddling her grandchild.
-I don’t understand why the government is mollycoddling the power industry.
-Everyone is a moon, and has a dark side which he never shows to anybody. Mark Twain`
         }
       }
      ]
