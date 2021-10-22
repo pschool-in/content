@@ -4,8 +4,32 @@ export default {
     list: [
       {
         type: 'passage',
-        label: 'Find your lodestar',
+        label: 'Mollycoddling the moonstruck',
         id: '100',
+        data: {
+          title: `Mollycoddling the moonstruck`,
+          text: `What is the difference between ‘semi-monthly’ and ‘bimonthly’?
+The word ‘bimonthly’ is rather ambiguous; it has two very different meanings. A magazine that is published twice a month — i.e. every two weeks — can be called a ‘bimonthly’. The term, however, can also be used to refer to a journal or magazine that is published once in two months. Americans, in general, prefer ‘semi-monthly’, and they frequently use the word to mean ‘twice a month’.
+We decided that the new publication was going to be a semi-monthly/bimonthly.
+What is the meaning and origin of ‘happy as a sandboy’? 
+This rather old-fashioned expression is mostly limited to British English; the idiom was quite popular till the 19th century. The original expression was ‘jolly as a sandboy’. When you say that someone is ‘happy as a sandboy’, what you are suggesting is that the individual is extremely happy about something. The idiom has more or less the same meaning as ‘happy as a clam at high tide’. In the old days, the word ‘boy’ was frequently used to refer to a man who did menial work; a male worker of low status. This probably explains why the men who look after cattle and work on ranches are called ‘cowboys’, and why men who work in hotels and carry people’s suitcases are called ‘bellboys’. Several centuries ago, sand was used as a form of floor covering in theatres, bars, houses, etc.; whenever someone spilt something or spit on the floor, the sand absorbed it. Sandboys were hired to spread the sand on the floor and also remove it at regular intervals. Though these individuals were seldom paid in cash, they always remained in excellent spirits — the free drinks that they received ensured they always remained happy.
+Ramana was happy as a sandboy when the company promoted him.
+He’s happy as a sandboy when his grandchildren play with him.
+What is the meaning of ‘moonstruck’?
+Many people believe that the moon somehow influences the way human beings behave. There are many stories about how on a full moon night, some people transform into werewolves. When you say that someone is ‘moonstruck’, you are suggesting that the individual is acting in an odd manner — the person is in love and is therefore not himself; he is acting in a crazy or foolish manner.
+Don’t pay any attention to Priya. She’s moonstruck.
+When the actor stepped out of the club, moonstruck teenagers mobbed him.
+How is the word ‘mollycoddle’ pronounced?
+The first word rhymes with ‘jolly’, ‘volley’, and ‘poly’. The ‘cod’ in ‘coddle’ rhymes with ‘god’, ‘pod’, and ‘mod’, and the second syllable sounds like the ‘dle’ in ‘middle’ and ‘fiddle’. The word, which is mostly used to show disapproval, is pronounced ‘MO-li cod-el’ with the main stress on the first syllable of ‘molly’. When you mollycoddle your children, you are being overly protective. The word also suggests that you indulge them too much; in other words, you make sure that all their wants and demands are met.
+Like any grandmother, she took great delight in mollycoddling her grandchild.
+I don’t understand why the government is mollycoddling the power industry.
+Everyone is a moon, and has a dark side which he never shows to anybody. Mark Twain`
+         }
+       },
+        {
+        type: 'passage',
+        label: 'Find your lodestar',
+        id: '200',
         data: {
           title: `Find your lodestar`,
           text: `How is the word ‘acquiesce’ pronounced?
@@ -29,7 +53,7 @@ There are two kinds of travel: first class and with children. Robert Benchley`
       {
         type: 'passage',
         label: 'The thief is a history-sheeter',
-        id: '200',
+        id: '300',
         data: {
           title: `The thief is a history-sheeter`,
           text: `What is the difference between ‘populous’ and ‘popular’? 
