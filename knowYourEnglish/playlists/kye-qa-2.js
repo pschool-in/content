@@ -101,7 +101,6 @@ No, it is not. One can invade a country or a place, but not a person. Of course,
 “It’s not the size of the dog in the fight, but the size of the fight in the dog.” Mark Twain`
       }
     },
-   },
     {
       type: 'passage',
       label: 'Ready to retire for the day?',
