@@ -8,7 +8,7 @@ export default {
       // class iv and above. ref - bhasapath iv - this is revision chapter for class 5
       type: 'rightOne',
       label: 'স্বরসন্ধি',
-      id: 'bn-compoundword-vowel',
+      id: 'bn-compoundword-vowel-1',
       lockAfter: 3,
       commonData: {
         title: 'সঠিক বানান চয়ন করুন',
