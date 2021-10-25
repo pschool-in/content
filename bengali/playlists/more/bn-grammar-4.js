@@ -1,5 +1,5 @@
 export default {
-  label: 'ব্যাকরণ-2',
+  label: 'ব্যাকরণ চতুর্থ শ্রেণী',
   id: 'bn-grammar-4',
   img: 'langGrammar',
   lockAfter: 4,
