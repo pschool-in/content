@@ -47,7 +47,7 @@ export default {
           types: [
             {
               name: 'Modern',
-              text: 'e-mail, fax, television, mobile phones, pager'
+              text: 'e-mail, fax, television, mobile phones'
             },
             {
               name: 'Traditional',
