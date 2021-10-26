@@ -758,6 +758,26 @@ const science = [
     label: 'Our Environment',
     slug: 'environment-5',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Communication and Mass media',
+    slug: 'communication-5',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Introduction to Computers',
+    slug: 'computer-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Evolution of Computer',
+    slug: 'computer-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Computer System',
+    slug: 'computer-5',
+    grade: 'g3, g4, g5'
   }
   /*
   {
