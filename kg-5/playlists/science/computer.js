@@ -16,7 +16,7 @@ export default {
           },
           {
             qText:
-              'In Ms word black document opens with a default name ______.',
+              'In Ms word blank document opens with a default name ______.',
             options: 'Document 1, New Document'
           },
           {

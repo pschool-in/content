@@ -10,6 +10,16 @@ const vocabulary = [
     grade: 'kg, 1'
   },
   {
+    label: 'Vowels and Consonants',
+    slug: 'vowels',
+    grade: 'kg, 1, 2'
+  },
+  {
+    label: 'Word Search',
+    slug: 'wordsearch-1',
+    grade: ' 1, 2,3'
+  },
+  {
     label: 'Words related to Animals',
     slug: 'animal-words',
     grade: 'g2, g3, g4'
@@ -37,6 +47,11 @@ const vocabulary = [
   {
     label: 'Missing Letter - 2',
     slug: 'picture-2',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Shapes and Symbols',
+    slug: 'picture-3',
     grade: 'kg, g1, g2, g3'
   },
   {
@@ -153,6 +168,11 @@ const vocabulary = [
     label: 'Words and Meaning',
     slug: 'words-meaning',
     grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Crossword',
+    slug: 'crossword-1',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'New Words',
@@ -335,6 +355,12 @@ const reading = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Animals',
+    slug: 'reading-animals',
+    grade: 'g2, g3, g4'
+  },
+
+  {
     label: 'Kids Favourite Cartoons',
     slug: 'kids-favourite-cartoons',
     grade: 'g4, g5'
@@ -412,6 +438,21 @@ const math = [
     label: 'Numbers',
     slug: 'numbers',
     grade: 'kg, g1'
+  },
+  {
+    label: 'Math Maze',
+    slug: 'math-maze',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Math Maze - 2',
+    slug: 'math-maze-2',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Maze - Multiples',
+    slug: 'math-maze-3',
+    grade: 'g1,g2,g3'
   },
   {
     label: 'Numbers - 2',
@@ -557,19 +598,49 @@ const science = [
     grade: 'g2, g3'
   },
   {
-    label: 'Force',
-    slug: 'force',
+    label: 'States of Matter',
+    slug: 'matter-3',
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Plants',
-    slug: 'plants',
-    grade: 'g3, g4, g5'
+    label: 'Matter and Materials',
+    slug: 'matter-4',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Matter and Materials 2',
+    slug: 'matter-5',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Force',
+    slug: 'force-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Work',
+    slug: 'work-4',
+    grade: 'g2, g3, g4'
   },
   {
     label: 'Energy',
-    slug: 'energy',
-    grade: 'g5'
+    slug: 'energy-5',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Plants',
+    slug: 'plants-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Plants - 2',
+    slug: 'plants-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Plants - 3',
+    slug: 'plants-5',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Nutrients',
@@ -618,18 +689,33 @@ const science = [
   },
   {
     label: 'Air',
-    slug: 'air',
-    grade: 'g4, g5'
+    slug: 'air-3',
+    grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body',
-    slug: 'human-body',
+    label: 'Air we Breathe',
+    slug: 'air-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Atmosphere',
+    slug: 'air-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Human Body 3',
+    slug: 'humanbody-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Human Body 4',
+    slug: 'humanbody-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Human Body 2',
-    slug: 'human-body-2',
-    grade: 'g4, g5'
+    slug: 'humanbody-5',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Solar System',
@@ -645,32 +731,52 @@ const science = [
   // new addition
   {
     label: 'Animals',
-    slug: 'animals',
+    slug: 'animals-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Animals 2',
-    slug: 'animals-2',
+    slug: 'animals-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Reproduction in Animals',
+    slug: 'animals-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Environment',
-    slug: 'environment',
+    slug: 'environment-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Environment - 2',
-    slug: 'environment-2',
+    label: 'Green Environment',
+    slug: 'environment-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Plants - 2',
-    slug: 'plants-2',
+    label: 'Our Environment',
+    slug: 'environment-5',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Air - 2',
-    slug: 'air-2',
+    label: 'Communication and Mass media',
+    slug: 'communication-5',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Introduction to Computers',
+    slug: 'computer-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Evolution of Computer',
+    slug: 'computer-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Computer System',
+    slug: 'computer-5',
     grade: 'g3, g4, g5'
   }
   /*
@@ -794,24 +900,85 @@ const social = [
   },
   {
     label: 'Houses',
-    slug: 'houses',
-    grade: 'g4, g5'
+    slug: 'houses-4',
+    grade: 'g3, g4, g5'
   },
 
   // new addition
   {
     label: 'Clothes',
-    slug: 'clothes',
+    slug: 'clothes-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Maps',
-    slug: 'maps',
+    label: 'Directions and Maps',
+    slug: 'maps-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Maps 3',
+    slug: 'maps-5',
+    grade: 'g3, g4, g5'
+  },
+  // new addition 2
+  {
+    label: 'Earth',
+    slug: 'earth-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Family',
+    slug: 'family-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Family - 2',
+    slug: 'family-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Job',
+    slug: 'job-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Job 2',
+    slug: 'job-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Understanding Time',
+    slug: 'time-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Life Skills - 2',
+    slug: 'lifeskills-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Life Skills - 3',
+    slug: 'lifeskills-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Nature ',
+    slug: 'nature-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Nature - 2',
+    slug: 'nature-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Safety',
+    slug: 'safety-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Surroundings',
-    slug: 'surroundings',
+    slug: 'surroundings-3',
     grade: 'g3, g4, g5'
   }
 ];
@@ -913,6 +1080,36 @@ const gk = [
   {
     label: 'Brands, Companies & People',
     slug: 'brands',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Cities',
+    slug: 'gk-cities',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Culture',
+    slug: 'gk-culture',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'History',
+    slug: 'gk-history',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'India',
+    slug: 'gk-india',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Sports',
+    slug: 'gk-sports',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'World',
+    slug: 'gk-world',
     grade: 'g3, g4, g5'
   }
   /*

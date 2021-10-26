@@ -50,8 +50,11 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text:
-          "Independence Day → *August* \n  Republic Day → *January* \n  Gandhi Jayanthi → *October* \n  Children's Day → *November* \n Teacher's Day → *September*"
+        text: `Independence Day → *August* 
+  Republic Day → *January* 
+  Gandhi Jayanthi → *October* 
+  Children's Day → *November* 
+ Teacher's Day → *September*`
       }
     }
   ]

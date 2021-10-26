@@ -5,6 +5,7 @@ export default {
     {
       id: 'reading',
       type: 'passage',
+      style: 'big',
       label: 'World: Largest, Tallest, Longest',
       data: {
         title: 'World: Largest, Tallest, Longest, Smallest etc',

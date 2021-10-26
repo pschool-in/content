@@ -348,6 +348,107 @@ We can cook rice on a tawa.`
           }
         ]
       }
+    },
+    {
+      label: 'Value of Food - Reading',
+      type: 'passage',
+      id: 'value-of-food',
+      data: {
+        title: 'Value of Food',
+        text: `# How do we get grains?
+
+        We need rainwater to grow bajra. After sometime, ears of bajra are visible on every stalk. During harvest season, ears of corn
+        are full. All the bajra's ears must be chopped and gathered. Then the process of threshing and winnowing starts. Through this process,
+        we obtain the grains from the ears of bajra.
+        
+        Do you know?
+        Birds come to eat the tender grains as the grains grow. Scarecrows must be placed and slung shots must be fired to scare the birds away.
+        
+        We get different types of food from different places. We get fish from water. Fruits like amla, jamun, karvanda,bor grow in forests.
+        The grains and other foodstuffs are gathered and sold all over the country. They are transported by means of trucks or goods trains. 
+        It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting
+        and marketing are expensive.`
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Singhadas and makhanas are obtained from *freshwater* plants.
+        If a machine is not available, *bullocks* do the threshing.
+        The tiny peaks on our tongue are called *taste buds*.
+        A region’s climate and *soil* determine the crops that are grown in that region.
+        When the soil becomes *hot* and humid the crop is sown.`
+      }
+    },
+    {
+      label: 'Answer in one word',
+      type: 'matchByDragDrop',
+      id: '601',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `The process of gathering of ripened crop.  *Harvesting*
+        To blow through grain in order to remove the outer covering. *Winnowing*
+        Process of moving foodstuffs from warehouses to consumers through trucks. *Transporting*
+        The process of loosening the edible part of grain. *Threshing*`
+      }
+    },
+    {
+      id: '1600',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Wheat, Rabi crop
+        Fruits, Horticulture
+        Rice, Kharif crop
+        Chilly, Spices
+        Sesame, Oil`,
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'Sour vs Sweet',
+      type: 'group',
+      id: '209',
+      data: {
+        title: 'Classify as sour or sweet',
+        types: [
+          {
+            name: 'Sour',
+            text: 'Tamarind, Vinegar, Lemon'
+          },
+          {
+            name: 'Sweet',
+            text: 'Sugar, Candy, Cupcake, Honey, Fruit juice'
+          }
+        ]
+      }
+    },
+    {
+      type: 'rightOne',
+      id: '2800',
+      label: 'Odd one out',
+      data: {
+        title: 'Odd one out',
+        fontSize: '1.3rem',
+        noCaps: true,
+        text: `Dog, Cow, Sheep, Hen
+        Rice, Pizza, Donut, Bread
+        Fish, Milk, Butter, Yoghurt
+        Tamarind, Honey, Sugar, Jaggery`
+      }
     }
   ]
 };
