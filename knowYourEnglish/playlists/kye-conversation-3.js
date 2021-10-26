@@ -332,6 +332,42 @@ Jayanth is always in good humour. I’ve never seen him get upset about anything
 “You certainly can. India have/has a good chance of sweeping the one day series.”
 “Every time you say something like that, we always end up losing the next match.”
 Sports are the reason I am out of shape. I watch them all on TV. — Thomas Sowell`
+      }
+   },
+  {
+    type: 'passage',
+      label: 'Have a blast, but not literally!',
+      id: '1000',
+      data: {
+        title: `Have a blast, but not literally!`,
+        text: `“Hey, Happy New Year! Good to see you. When did you get back from your trip?” “Around seven last night. How have you been?”
+“Pretty good, actually. So, how was your trip? Where did you go? Did you manage to find a place that was off the beaten track — and the peace and quiet you were looking for?”
+“Peace and quiet, no. A couple of my colleagues and I went to a small town about a hundred kilometres from here. We had a blast. The hotel...”
+“There was a blast? I didn’t read about any blast in the newspapers. When was this?”
+“I said that my friends and I had a blast, meaning that we had a very good time. We went trekking every morning, and in the evening, played cricket with the kids.”
+“I see. So, when I say I had a blast, it’s another way of saying that I really enjoyed myself. That I had a really good time!”
+“That’s right! It’s an expression mostly limited to informal contexts. Last night, my cousins had a blast going to different parties and sampling different types of food.”
+“Your cousins are foodies, I guess. How about this example? The kids had a blast playing with the rabbits and the puppies.”
+“Sounds great! Did you have a blast at the party last night?”
+“I didn’t go this time! I was feeling extremely tired. Did you?”
+“No, I didn’t either. I’ve decided no more New Year parties. People are just keen to show that they can drink me under the table.”
+Drink me under
+“How can anyone drink you under the table? What are you talking about?”
+“When you tell someone that you can drink him under the table, what you’re suggesting is that you can drink more alcohol than him and still remain sober.”
+“In other words, you’re challenging the person.”
+“That’s right! Most of the people I know can probably drink me under the table.”
+“That’s because you don’t have more than one drink when you go to parties. So, how are you feeling after the trip? Tired?”
+Right as rain
+“I was last night. But after a good night’s sleep, I feel right as rain.”
+“Right as rain? Does it mean you’re feeling better now?”
+“When you say that you feel right as rain, what you’re suggesting is that you’re feeling perfectly all right. Earlier you weren’t feeling so good.”
+“I see. When Jyothi broke her leg, she worried if she’d ever play tennis again. But after a couple of months of rest, followed by intense physiotherapy, she was right as rain.”
+“That’s a good example. There’s nothing seriously wrong with the car. Once you change the spark plug and the air filter, she’ll be as right as rain.”
+“She? Don’t you mean ‘it’? Does one refer to a car as ‘she’?”
+“It’s common among native speakers of English to refer their car as ‘she’ — especially, if they’re extremely fond of the vehicle. For example, this is my old Maruti 800. She’s been with me for nearly 15 years.”
+“The new car that my dad has is really good. She gives nearly 20 kilometres per litre.”
+“That’s great!”
+This New Year’s, I resolved to lead a better life. Now all I have to do is find someone who will trade lives with me.— Melanie White`
           }
        }
     ]
