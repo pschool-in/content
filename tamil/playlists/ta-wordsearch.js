@@ -692,15 +692,16 @@ export default {
         showWords: true
       }
     },
+    
     {
       id: 'numbers',
       type: 'wordsearch',
       label: 'எண்கள்',
+      data: {
+      title: 'எண்கள்',
       lang: 'ta',
       showWords: true,
-      data: {
-        title: 'எண்கள்',
-        words: [
+      words: [
           {
             word: ['ஒ', 'ன்', 'று'],
             marker: [2, 4, 4, 4]
