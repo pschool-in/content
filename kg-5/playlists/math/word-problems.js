@@ -269,7 +269,7 @@ Cost of 15 candies = ₹ ?1
             3, 0`,
 
             `Dave has 20 cookies. He wants to keep the cookies in a jar. He has 2 different types of Jars which can contain 4 cookies or 3 cookies.
-            If he wants to keep an equal amount of cookies in each Jar, how many Jars will he require?
+            If he wants to keep an equal amount of cookies in each Jar, how many Jars will he require? Note - Dave can only use one type of Jar.
             solution:
             Number of Jars required = ?0
             Each Jar have = ?1 cookies
@@ -277,8 +277,8 @@ Cost of 15 candies = ₹ ?1
 
             `Teacher has 20 Pencils & 10 erasers. These can be divided equally to maximum how many students ?
             solution:
-            Each student will get = ?0 Pencil/s
-            Each student will get = ?1 Eraser/s
+            Each student will get = ?0 Pencils
+            Each student will get = ?1 Erasers
             Number of Students = ?2
             2, 1, 10`
           ]
