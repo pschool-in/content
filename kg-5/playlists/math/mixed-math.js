@@ -269,6 +269,26 @@ export default {
         ]
         //new one ends here - 2
       ]
-    }
+    },
+    {
+      label: 'Number Name (10-20)',
+      type: 'matchByDragDrop',
+      id: 'numbername1020',
+  
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the numbers at proper name.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 70
+        },
+        text: `Fifteen : *15*
+        Twenty : *20*
+        Eighteen : *18*
+        Eleven : *11*
+        Fourteen : *14*
+        Twelve : *12*`
+      }
+    },
   ]
 };
