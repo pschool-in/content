@@ -116,6 +116,192 @@ Taking refuge
 “How about this example? My father thinks our colony has become very crowded. He wants to move house.”
 “God bless your father!”
 Marriage is like a deck of cards. At first, all you need is two hearts and a diamond. By the end, you wish you had a club and a spade. Unknown`
+                }
+       },
+      {
+        type: 'passage',
+          label: 'Head of a dog or tail of a lion?',
+          id: '400',
+          data: {
+            title: `Head of a dog or tail of a lion?`,
+            text: `“Sorry for being late, but I went to see Shyam. You know, my friend who lives in Ramanujam Street.”
+“I haven’t been to that part of the town in a while. Has it changed much?”
+“Not really! I think I did a mistake when I said...”
+“One does not ‘do’ a mistake, one ‘makes’ a mistake. Sujatha gets really upset when people make mistakes.”
+“I don’t understand why she does. We all make mistakes. Tell me, is it ‘living in’ or ‘living on’ a street? I always get confused.”
+“One can live in or live on a particular street or road. As far as the meaning is concerned, there’s no difference between the two. Many years ago, my cousins lived on Eldams Road.”
+“Sujatha, as you know, lives in Prince Street. By the way, I met her yesterday, and she’s decided not to join either TCS or Infosys. She said she was going to help her father run his business.”
+“That’s a smart thing to do, if you ask me. You know what they say! It’s better to be the head of a dog than the tail of a lion.”
+Leadership role
+“I’ve never heard that expression before. What does it mean?”
+“It’s an expression mostly used in informal contexts. What you’re trying to say is that it’s better to be in a leadership position in a small organisation than...”
+“Than work for a big company where you don’t have much to do. Instead of giving orders to people, you merely follow orders given by others.”
+“Exactly! Being a leader in a small company is worth a lot more than being a follower in a big company.”
+“How about this example? An MNC offered to double Sridhar’s salary. But he chose to stay with the startup company because he thought it was better to be the head of a dog than the tail of a lion.”
+“That’s a good example. His father did the exact opposite. He jumped at the offer made by an MNC. He didn’t realise that being the head of a dog was better than being the tail of a lion. Now, the poor man is stuck. Doesn’t know what to do.”
+“His two kids have great jobs. Why doesn’t he just retire?”
+“That’s what Sridhar wants. He thinks it’s high time his father retired.”
+“High time he retired? Tell me, is there a difference between ‘high time he retired’ and ‘it’s time he retired’? Some people say...”
+“When you say it’s ‘high time’ he retired, what you’re suggesting is that it’s about time he retired. The expression also carries with it the sense that the person should have retired a long time ago. The retirement is overdue.”
+“How about this example? It’s high time you study for the test.”
+“The expression ‘high time’ is usually followed by the past tense form of the verb. It’s high time you studied for the test.”
+“I’m sure your parents think that it’s high time you got married.”
+“I think it’s high time you went home.”
+I’m not afraid of an army of lions led by a sheep; I’m afraid of an army of sheep led by a lion. Alexander the Great`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'Laughing all the way to the bank',
+      id: '500',
+      data: {
+        title: `Laughing all the way to the bank`,
+        text: `“The writer has nice things to say about your company’s cultural programme.”
+“That’s to be expected, I guess. He was our former employee.”
+“Really? He says there was pin drop silence when the CEO’s wife sang. Is that true?”
+“Of course, not! People were chatting away. By the way, the expression ‘pin drop silence’ is an Indianism. Native speakers of English don’t use it.”
+“Really? What do they say?”
+“They normally say, ‘hear a pin drop’. Everyone was so stunned by the announcement, you could have heard a pin drop.”
+“In other words, there was absolute silence. The funeral home was so quiet that you could have heard a pin drop. It was pretty scary, actually.”
+“Some use ‘fall’ instead of ‘drop’. When Tejah asked Divya to marry him, she didn’t say anything for a few seconds. The silence was deafening — one could have heard a pin fall.”
+“The poor chap must have started sweating. According to this article, several washed-up politicians were present at the function. What does ‘washed up’ mean?”
+“When you refer to someone as being ‘washed up’, what you’re suggesting is that the person is no longer as successful as he once was. He has no chance of...”
+Washed up
+“The person has no chance of becoming great again. Is that what you’re saying?”
+“That’s right! For example, around this time last year, many sports writers were saying that both Federer and Nadal were washed up.”
+“How wrong they were! That’s the problem being a sportsperson, I guess. You’re all washed up by the time you’re 30 or 40.”
+“It happens to actors as well. Directors don’t cast women who are in their 30s in lead roles because they believe they’re washed up.”
+“Our news channels provide opportunities to washed-up politicians to air their views.”
+“The feedbacks that they give to the reporters...”
+“Feedback and not feedbacks.”
+“What?”
+“The plural of ‘feedback’ is ‘feedback’ and not ‘feedbacks’. The feedback that we got from the students and the parents was positive.”
+“Vinitha got immediate feedback on her dissertation from her supervisor.”
+“Get feedback from your customers before you start trying to improve your product.”
+“That’s what one of our rival companies did last year, and now they’re laughing all the way to the bank.”
+“Laughing all the way to the bank? Why would they do that?”
+“The expression is mostly limited to informal contexts. When you say that someone is laughing all the way to the bank, you mean that the person is making lots of money.”
+“Is it because the person did something smart?”
+“Not necessarily. It could be because of some other person’s stupidity. Nobody wanted to publish my father’s novel. Finally, my cousin decided to do it himself. Now, he’s laughing all the way to the bank.”
+“How about this example? If we don’t have a tie-up with this company, someone else will. And they will be laughing all the way to the bank.”
+“Sounds good.”
+He who does not understand your silence will probably not understand your words. Elbert Hubbard`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'Don’t be a showboat',
+      id: '600',
+      data: {
+        title: `Don’t be a showboat`,
+        text: `
+        “I don’t think I can eat the entire slice. I’ll cut it into two. Where do you keep your cutleries? In the kitchen or in the...”
+“No, it’s in the shelf over there. You’ll find the cutlery in the bottom drawer.”
+“Wow! You have a lot of cutleries. When did you buy this knife?”
+“A couple of years ago. By the way, it’s cutlery and not cutleries. Everything that you use — the knives, forks, spoons, etc. — is usually referred to as cutlery.”
+“My neighbour spends a lot of money on cutlery. Why do you have so much cutlery?”
+“Stop asking irritating questions. Did you watch the match yesterday?
+“I watched it with my uncle. Like your father, he’s very fond of cricket. But he doesn’t ...”
+“If he’s like my father, he probably doesn’t care about the players of today. Does he say there’s too much showboating in today’s game?”
+“Showboating? What does it mean?”
+“The annoying way some players behave on the field just to attract the attention of the spectators and the television cameras.”
+“You mean showing off on the field?”
+“I guess you could say that. The expression is mostly used in the context of sports to show disapproval. The thing I like about Federer and Nadal is that there’s no showboating after they win a big event.”
+“But when an athlete performs something truly extraordinary, I suppose you could excuse his or her showboating.”
+“Most definitely. Someone who indulges in a lot of showboating is called a ‘showboat’. For example, some of my cousin’s teammates think he’s nothing more than a showboat.”
+“Is your cousin a good player?”
+“He’s all right, I guess. I’m told he’s a great fielder and...”
+“Tell me, is the word ‘all right’ spelt as one word or two? I’ve often seen it spelt ‘a..l..r..i..g..h..t’. Is it okay to spell it this way?”
+“That’s the spelling that many people use — especially, in informal contexts. But in formal styles of writing, ‘a..l..l..r..i..g..h..t’ is still the preferred spelling. It’s safer to spell it as two words instead of one.”
+“I must remember to tell Sujatha this. She, as usual, told me...”
+“You had lunch with her yesterday, didn’t you? How did it go?”
+“As usual, she had nasty things to say — it was about my beard, this time.”
+“I think Sujatha likes giving you the needle. She thinks...”
+“What are you talking about? She’s never given me any needle. In fact, ...”
+“When you ‘give someone the needle’, you irritate or annoy the individual.”
+“Really? I suppose you annoy the person by criticising him all the time.”
+“That’s one way of giving the person the needle. You can also irritate him by teasing him. It’s also possible to say ‘needle someone’.”
+“How about this example? I say silly things just to needle my parents.”
+“Most people do that. Prassana’s friends gave him the needle when he came to college wearing an orange shirt and a purple tie.”
+“Good grief! What a terrible combination. My grandmother is always needling me about my long hair and beard.”
+“I think it’s about time you got a haircut and a shave.”
+“Cricket needs brightening up a bit. My solution is to let the players drink at the beginning of the game, not after. It always works in our picnic matches.” — Paul Hogan`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'On a slippery slope',
+      id: '700',
+      data: {
+        title: `On a slippery slope`,
+        text: `“What are you doing here? Isn’t there some test you should be cramming for?”
+“Cramming for? Are you asking me if I need to prepare for a test?”
+“When you ‘cram for’ a test, you study very hard for it. You try to learn as much as possible in a short period of time.”
+“In other words, instead of studying throughout the semester, you spend the last few days studying. That’s what many students...”
+“I guess you could say that. My neighbour’s son is cramming for his physics test.”
+“My friends and I usually spend most of March cramming for the final exam. Let’s talk about tomorrow’s match. Do you think there’s a possibility to win tomorrow’s game?”
+“There’s every possibility of winning, provided we do not...”
+“Possibility of winning? Don’t you mean possibility to win?”
+“It’s okay to say ‘possible to’, but many people object to ‘possibility to’. We usually talk about the possibility of something happening. Rani is considering the possibility of buying a new house.”
+“Is there a possibility of meeting Roger Federer at Wimbledon?”
+“If you’re lucky, I guess. We must explore the possibility of starting a good school.”
+“That’s a good idea! Your cousin Mala was telling me that she’s planning to quit school. Did she talk to you about it?”
+“She did. I tried to tell her that a good education is a passport to success. But I...”
+All about passport
+“A passport to success? What does a passport have anything to do with...”
+“The word passport, in this context, means something that allows a person to get what he wants — something that allows him to succeed and...”
+“I see. So, what you’re saying is a good education will help you succeed in life.”
+“Exactly! Here’s another example. Many youngsters believe becoming a software engineer is a passport to a life of luxury.”
+“I’m not so sure about that! According to my grandmother, early to bed and early to rise is a passport to good health.”
+“How is she doing? Has she managed to sell her property in the village?”
+“She’s planning to ask her neighbour to help. He’s the local MLA and he’s been...”
+“Not a very good idea, I’m afraid. She’ll find herself on a slippery slope.”
+“Find herself on a slippery slope? What are you talking about? I’ve never heard...”
+“Have you ever tried walking on a slope that’s very slippery?”
+“Of course, I have! It’s very difficult to walk when the ground is slippery. You really have no control over where you’re going. Your feet...”
+“That’s right! When you tell someone he’s on a slippery slope, what you’re suggesting is that he’s started something that he has no control over. He’s ...”
+“He’s started something that he can’t stop! And chances are, the series of actions are going to create a lot of problems for him.”
+“Very good. Not just problems, the action may have disastrous consequences. According to this article, many street children are on the slippery slope towards a life of crime by the time they turn ten.”
+“In some cases, it starts even earlier. Hemant is on a slippery slope — trying to please both his wife and his possessive mother.”
+“There’s no way he can please both. The poor chap is doomed.”
+Success consists of going from failure to failure without loss of enthusiasm. — Winston Churchill`
+     }
+   },
+  {
+    type: 'passage',
+      label: 'Left in the lurch?',
+      id: '800',
+      data: {
+        title: `Left in the lurch?`,
+        text: `“Weren’t we supposed to meet at the gym yesterday? What happened?”
+“Sorry to have left you in the lurch. I couldn’t inform you because of the...”
+“Who said anything about meeting you in a church? I asked why you didn’t show up...”
+“I said ‘lurch’, not ‘church’. When you leave someone in the lurch, you desert them. You leave them in a difficult situation — you don’t offer them help.”
+“Well, the good news is that I didn’t feel that you’d left me in the lurch. There were a couple of friends who were working out. So, I didn’t need you to rescue me!”
+“You do realise that I’d never leave you in the lurch, right?”
+“I’m not so sure about that! Tell me, where does this word ‘lurch’ come from?”
+“No one is really sure. Some people believe that it was actually the name of a board game played in 16th century France.”
+“Was it because you were playing some game that you forgot about our meeting?”
+“Very funny! I completely forgot because things have been a little crazy at the office. Nobody is really sure...”
+“Yes, everyone is talking about it. Is it true that your boss was fired yesterday?”
+“It is. Both he and his sidekick, Shyam, were asked to go. They were told to...”
+“Sidekick! Tell me, how....”
+“A sidekick is someone who is always around an important person. He...”
+“Is a friend or a close associate of the important person. The two spend a considerable amount of time together. Dr. Watson was Sherlock Holmes’ sidekick. Robin was Batman’s sidekick. In our movies, the comedian is always the hero’s sidekick.”
+“If you knew the meaning, why did you ask me what the word....?”
+“I wanted to know why this person who hangs around is called a sidekick? What did...”
+“There are several explanations for this. According to one theory, in the past, one of the meanings of the word ‘kick’ was ‘walk’ or ‘wander’. Since this individual...”
+“Was always ‘kicking’ or walking by the ‘side’ of the important person, he began to be called ‘sidekick’.”
+“Exactly! So, can I refer to you as my sidekick?”
+“Of course, not! We don’t spend too much time together. And nobody in his right mind would say that you’re an important person! Tell me, why was your boss fired?”
+Failure
+“He’s been going through a tough time ever since the stock market meltdown, and ...”
+“Stock market meltdown? What are you talking about?”
+“A ‘meltdown’ is a quick and complete failure of something. In this case, I’m...”
+“You’re talking about the collapse of the stock market. How about this example? For the past two months, my father’s company has been experiencing a financial meltdown.”
+“Sounds good! The word can be used with people as well. When a person has a meltdown, he loses control of his emotions. He freaks out. My boss had a major meltdown when he was asked to quit.”
+“I might have a meltdown the next time you don’t show up.”
+Medically speaking, there is no such thing as a nervous breakdown, which is very annoying to discover when you’re right in the middle of one. — Marian Keyes`
          }
       }
     ]
