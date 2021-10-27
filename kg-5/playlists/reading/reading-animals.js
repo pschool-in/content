@@ -324,7 +324,7 @@ It is covered with a lot of white fur.`,
       }
     },
      {
-        "id": "wordSearch-polarbears",
+        "id": "wordSearch-polar-bears",
         "label": "WordSearch - Polar Bears",
         "type": "wordsearch",
         "data": {
@@ -1056,7 +1056,7 @@ Stings cause a lot of pain.`,
       }
     },
     {
-      id: 'bees-umbled-words',
+      id: 'bees-jumbled-words',
       type: 'sequence',
       label: 'Jumbled Words',
       data: {
