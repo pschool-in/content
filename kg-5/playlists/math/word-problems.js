@@ -285,7 +285,9 @@ Cost of 15 candies = ₹ ?1
         },
         `A class had 90 pencils. If these pencils are divided among 15 students equally, how many pencils each student will get? | 6
         Kittu wants to buy chocolates. She has ₹ 18. If each chocolate cost ₹ 4, how many chocolates will she be able to buy? | 4
-        I can put 30 balls equally in 10 buckets, each bucket will have 3 balls. If I have only 5 buckets, how many balls will be present in each bucket? | 6`,
+        I can put 30 balls equally in 10 buckets, each bucket will have 3 balls. If I have only 5 buckets, how many balls will be present in each bucket? | 6
+        Neelu wants to give chocolates to his 4 friends. If he wants to give equally to his friends, how many should he buy, 20 or 30? | 20
+        What is the least number of saplings which can be arranged in rows of 4, 5 and 6? | 60`,
 
       ]
     }
