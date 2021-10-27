@@ -268,7 +268,7 @@ Cost of 15 candies = ₹ ?1
             Bangles left = ?1
             3, 0`,
 
-            `Dave has 20 cookies. He wants to keep the cookies in a jar. He has 2 different types of Jars which can contant 4 cookies or 3 cookies.
+            `Dave has 20 cookies. He wants to keep the cookies in a jar. He has 2 different types of Jars which can contain 4 cookies or 3 cookies.
             If he wants to keep an equal amount of cookies in each Jar, how many Jars will he require?
             solution:
             Number of Jars required = ?0
