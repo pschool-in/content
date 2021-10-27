@@ -9,7 +9,6 @@ export default {
       type: 'passage',
       label: 'Passage',
       data: {
-        editable: true,
         title: 'Plants-Notes',
         text: `Plants are an important part of nature. Plants need good soil, water and sunlight. The main parts of the plant are root, stem, leaf, flower, vegetable and fruit. Plants gives us food, fresh air, medicine, wood etc.
 # Leaf
@@ -31,7 +30,6 @@ Root is responsible for absorbing water and other minerals from the soil. The st
       type: 'sequence',
       label: 'Find the word',
       data: {
-        editable: true,
         title: 'Connect the letters',
         printTitle: 'Find the jumbled words',
         text: 'plant, stem, flower, bud, root, fruit, tree, leaf, soil, water'
@@ -99,7 +97,6 @@ Root is responsible for absorbing water and other minerals from the soil. The st
       label: 'Below vs Above Ground',
       type: 'group',
       data: {
-        editable: true,
         title: 'Identify whether the below things grow above or below ground.',
         types: [
           {
@@ -118,7 +115,6 @@ Root is responsible for absorbing water and other minerals from the soil. The st
       type: 'match',
       label: 'Food and Part',
       data: {
-        editable: true,
         title: 'Food and Parts of the plant',
         text: `carrot, root
 cauliflower, flower
@@ -132,7 +128,6 @@ peas, seed`
       type: 'match',
       label: 'Flower and Color',
       data: {
-        editable: true,
         title: 'Match the flowers with its usual colour',
         text: `Jasmine, White
 Sunflower, Yellow
@@ -146,7 +141,6 @@ Marigold, Orange`
       label: 'Choose the correct answer',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -219,7 +213,6 @@ Plants can move from one place to another.`
       label: 'Drag and Drop Blanks ',
       type: 'matchByDragDrop',
       data: {
-        editable: true,
         isPractice: false,
         title: 'Drag and drop the words ',
         printTitle: 'Fill in the blanks',

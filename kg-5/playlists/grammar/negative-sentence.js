@@ -44,7 +44,7 @@ Would you like some tea?`
     {
       label: 'Classify Positive and Negative sentences',
       type: 'classifySentence',
-      editable: true,
+
       data: {
         title:
           'Classify the below sentences as Positive or Negative sentences.',
@@ -93,7 +93,6 @@ It isn't sunny.`
       label: 'any vs some',
       type: 'fillupOptions',
       data: {
-        editable: true,
         title: `Fill in the blanks with 'any' or 'some'`,
         text: `He hasn't got *any* friends.
 There is *some* milk in the glass.
@@ -113,7 +112,6 @@ She doesn't have *any* brothers.`,
       label: 'any vs some - 2',
       type: 'fillupOptions',
       data: {
-        editable: true,
         title: `Fill in the blanks with 'any' or 'some'`,
         text: `There are *some* letters on the floor.
 Are there *any* computers in the library?
@@ -174,7 +172,7 @@ Today, we have school.`
     {
       label: 'Classify',
       type: 'classifySentence',
-      editable: true,
+
       data: {
         title: 'Classify the below sentences as Correct or Incorrect.',
         types: [

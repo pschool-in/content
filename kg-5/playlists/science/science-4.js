@@ -13,7 +13,7 @@ export default {
           'Shivaji assumed the tittle of *chhatrapati*in 1647.\n  Akbar started a new relegion called *Din-i-ilahi*\n  Maharana Pratap was a *great* king.\n  Gandhi ji used the method of *Non-violence*to oppose the british rule..\n  Kadambini Ganguly was one of the first female doctors in the whole of *British empire*',
         title: 'Drag and drop the words at proper places.'
       },
-      editable: true,
+
       id: '1615793951400',
       label: 'Fill up by drag - Template',
       type: 'matchByDragDrop'
@@ -72,7 +72,7 @@ export default {
           'Father of our Nation, Gandhi ji\nTemple built by Rajaraja chola, Kadambini Temple\nCapital of Magadha, Patliputra\nImportant part of blood, red blood cells\nAbility to do work, energy\nMoving air is called ,wind',
         title: 'Match with correct answer'
       },
-      editable: true,
+
       id: '1615797229220',
       label: 'Match - Template',
       type: 'match'
@@ -125,7 +125,7 @@ export default {
         ],
         title: 'Multiple Choice Questions'
       },
-      editable: true,
+
       id: '1615798165126',
       label: 'Multiple Choice Questions - MCQ',
       slug: 'mcq',
@@ -142,7 +142,7 @@ export default {
           'The volume of liquid that a container can hold is called its*volume*.\nPie chart is used to compare *data*\n2/3 of year in months = *8 months*\nIt is day or night at 2:00 am? *Night*\nThe *Perimeter*of figure is sum of length of its side.\n*4 * hours in 240 minutes.\n1/2,1/4,1/5 are called *improper*fraction\nHow many 250 g are their in 1 kg *4*\nWhat is the area of rectangle that covers 10 unit square *10*',
         title: 'choose the correct option'
       },
-      editable: true,
+
       id: '1615800224407',
       label: 'Fill up by drag - Template',
       type: 'matchByDragDrop'
@@ -152,7 +152,7 @@ export default {
         text: '750m+250m,1 km\nQuater hour,15 minutes\n1000mL,1L\n500 cm,5m',
         title: 'Match with correct choice'
       },
-      editable: true,
+
       id: '1615801309158',
       label: 'Match - Template',
       type: 'match'

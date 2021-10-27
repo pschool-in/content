@@ -125,8 +125,7 @@ export default {
           ['I', '', '', 'P', '', '', '', 'T', '', 'P'],
           ['G', 'A', 'R', 'L', 'I', 'C', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: '1633085353177',
@@ -221,8 +220,7 @@ export default {
           ['', '', 'N', '', 'R', '', '', '', ''],
           ['', '', 'G', '', 'Y', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: '1633086817105',
@@ -290,7 +288,8 @@ export default {
               x: 7,
               y: 4
             },
-            hint: 'can be of different color of different people; can be styled in different wways',
+            hint:
+              'can be of different color of different people; can be styled in different wways',
             direction: 'down'
           },
           {
@@ -316,8 +315,7 @@ export default {
           ['', 'N', 'A', 'I', 'L', 'S', '', 'R', '', ''],
           ['', 'E', '', 'K', 'I', 'D', 'N', 'E', 'Y', 'S']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: '1633087426253',
@@ -421,8 +419,7 @@ export default {
           ['', 'R', '', '', '', '', '', '', '', 'N'],
           ['', 'S', 'E', 'C', 'R', 'E', 'T', 'I', 'V', 'E']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: '1633088777629',
@@ -481,7 +478,8 @@ export default {
               x: 3,
               y: 8
             },
-            hint: 'when someone asks us something; when we participate in a debate',
+            hint:
+              'when someone asks us something; when we participate in a debate',
             direction: 'across'
           },
           {
@@ -534,12 +532,11 @@ export default {
           ['V', '', '', '', '', 'L', '', 'N'],
           ['E', '', '', 'S', 'P', 'E', 'A', 'K']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: '1633333215445',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - animals',
       data: {
@@ -560,7 +557,8 @@ export default {
               x: 7,
               y: 3
             },
-            hint: 'most common pet to humans; also known as a bestfriend of man',
+            hint:
+              'most common pet to humans; also known as a bestfriend of man',
             direction: 'across'
           },
           {
@@ -662,7 +660,7 @@ export default {
     },
     {
       id: '1633334186792',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - cities',
       data: {
@@ -776,7 +774,7 @@ export default {
     },
     {
       id: '1633338345355',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - capitals',
       data: {
@@ -890,7 +888,7 @@ export default {
     },
     {
       id: '1633344593463',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - parts of speech',
       data: {
@@ -958,7 +956,7 @@ export default {
     },
     {
       id: '1633345725240',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword -synonyms',
       data: {
@@ -1090,7 +1088,7 @@ export default {
     },
     {
       id: '1633417258099',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - DC & Marvel',
       data: {
@@ -1213,7 +1211,7 @@ export default {
     },
     {
       id: '1633419440028',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - professions',
       data: {
@@ -1327,7 +1325,7 @@ export default {
     },
     {
       id: '1633421711954',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - popular names',
       data: {
@@ -1432,7 +1430,7 @@ export default {
     },
     {
       id: '1633423491884',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - planets',
       data: {
@@ -1526,7 +1524,7 @@ export default {
     },
     {
       id: '1633424754754',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - cricket',
       data: {
@@ -1650,7 +1648,7 @@ export default {
     },
     {
       id: '1633428074110',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - abbreviations',
       data: {
@@ -1725,7 +1723,7 @@ export default {
     },
     {
       id: '1633429189163',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - technology',
       data: {
@@ -1840,7 +1838,7 @@ export default {
     },
     {
       id: '1633436994427',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - relationships',
       data: {
@@ -1954,7 +1952,7 @@ export default {
     },
     {
       id: '1633438323591',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - brands',
       data: {
@@ -2067,7 +2065,7 @@ export default {
     },
     {
       id: '1633440356231',
-      editable: true,
+
       type: 'crossword',
       label: 'Crossword - movies',
       data: {

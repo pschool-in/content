@@ -24,7 +24,6 @@ The crow thought hard for a while. Then, looking around it, he saw some pebbles.
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -62,7 +61,6 @@ Always carry pebbles while going out.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `One hot day, a crow was searching for water.
 The crow found a jug with little water.
@@ -90,7 +88,6 @@ The God smiled and finally put his hand into the water again and took out his ir
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -127,7 +124,6 @@ The God smiled and finally put his hand into the water again and took out his ir
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Long ago, there lived a woodcutter in a small village.
 One day, the axe slipped and fell into the river.
@@ -141,7 +137,6 @@ God rewarded the woodcutter for his honesty.`
       type: 'passage',
       label: 'A Fox and A Goat',
       data: {
-        editable: true,
         title: 'A Fox and A Goat',
         text: `Once upon a time, a fox was roaming around in the dark. Unfortunately, he fell into a well. He tried his level best to come out, but was unable to. So, he had no other alternative but to remain there until the next morning. The next day, a goat came that way. She peeped into the well and saw the fox there. The goat asked, “What are you doing there, Mr. Fox?”
 The sly fox replied, “I came here to drink water. It is the best I have ever tasted. Come and drink yourself.” Without thinking even for a while, the goat jumped into the well, quenched her thirst and looked for a way to get out. But just like the fox, she also found herself helpless to come out.
@@ -155,7 +150,6 @@ While walking away, the fox said, “Had you been intelligent enough, you would 
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -189,7 +183,6 @@ It drank the water from the well.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `A fox fell into the well.
 The fox asked the goat to jump into the well.
@@ -218,7 +211,6 @@ The bear came near the man lying on the ground. It smelt him with his nose, and 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -256,7 +248,6 @@ Do not go into a forest.`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Two friends walked into a forest.
 A huge bear approached them.
@@ -287,7 +278,6 @@ His life was going on smoothly with one golden egg a day, but now, he himself ma
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -324,7 +314,6 @@ Life is full of problems.`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Merchant's hen laid a golden egg everyday.
 He wanted all eggs immediately and made a plan.

@@ -23,7 +23,6 @@ The inspector went running to the king. He reported that indeed Tenali Rama’s 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -57,7 +56,6 @@ He gave wet straw`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `The king wanted to expand his army.
 He gave a horse to everyone and ordered them to take care.
@@ -88,7 +86,6 @@ So, Tenali brought his cat and the pan of milk in front of the king. He offered 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -128,7 +125,6 @@ By asking people to keep a cow.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `The country faced a major problem of rats.
 There was not enough cats.
@@ -142,7 +138,6 @@ Tenali drank all the milk himself.`
       type: 'passage',
       label: 'Who will Bell the Cat',
       data: {
-        editable: true,
         title: 'Who will Bell the Cat',
         img: {
           url: 'story/18_cat_with_bell.png'
@@ -160,7 +155,6 @@ None of the mice had an answer to this question. They had not thought about this
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -196,7 +190,6 @@ They could not live happily in the grocer’s shop anymore
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `A lot of mice lived in a grocer's shop.
 They ate the tasty bread, cheese and biscuits.
@@ -226,7 +219,6 @@ One day, as the blue king was enjoying himself, a pack of jackals passed by and 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -261,7 +253,6 @@ One day, as the blue king was enjoying himself, a pack of jackals passed by and 
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `A jackal strayed into a village.
 It fell into a tub containing blue dye.
@@ -291,7 +282,6 @@ And so, the poor tortoise came crashing to the ground, only to be saved from dea
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -328,7 +318,6 @@ The tortoise should not jump.`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Once lived three great friends - a tortoise and two geese.
 They lived in a lake happily.

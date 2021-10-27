@@ -23,7 +23,6 @@ export default {
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -61,7 +60,6 @@ Always have a mouse as a friend.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `A flight of doves were search for food.
 They found rice scattered under a banyan tree.
@@ -90,7 +88,6 @@ The doves were trapped.`
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -127,7 +124,6 @@ The doves were trapped.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Akbar lost his ring.
 He was very upset as it was his favourite ring.
@@ -141,7 +137,6 @@ One person reacted and checked his beard and he was the thief.`
       type: 'passage',
       label: 'The Rabbit and the Turtle',
       data: {
-        editable: true,
         title: 'The Rabbit and the Turtle',
         text: `One day a rabbit was boasting about how fast he could run. He was laughing at the turtle for being so slow. Much to the rabbit’s surprise, the turtle challenged him to a race. The rabbit thought this was a good joke and accepted the challenge. The fox was the umpire of the race. As the race began, the rabbit raced way ahead of the turtle, just like everyone thought.
         The rabbit reached the halfway point and he could not see the turtle anywhere. It was very hot. The rabbit felt very tired and so decided to take a break and take a (short) nap. Even if the turtle passed him, he would be able to race to the finish line and run ahead of him. All this time, the turtle kept walking step-by- step. He decided not to quit no matter how hot or tired he was. He just kept going.
@@ -154,7 +149,6 @@ One person reacted and checked his beard and he was the thief.`
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -190,7 +184,6 @@ It kept a fox as umpire.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `The rabbit made fun on the turtle.
 The turtle challenged the rabbit for a race.
@@ -219,7 +212,6 @@ The turtle won the race`
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -255,7 +247,6 @@ Both the frogs gave up`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `A group of frogs was travelling through the woods.
 Two frogs fell into a deep pit.
@@ -286,7 +277,6 @@ But the other frog was deaf, and tried hard and came out.`
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -336,7 +326,6 @@ Call someone hopefully`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `One summer night, Tenali Raman and his wife spotted theives hiding in the bush.
 They made a plan and shouted loudly about a plan.

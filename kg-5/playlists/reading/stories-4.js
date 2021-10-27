@@ -28,7 +28,6 @@ The hunter got frightened on account of these happenings and ran out of the jung
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -61,7 +60,6 @@ It helped by making lot of noise.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Seeing the hunter, the three friends escaped fast.
 But the turtle was unable to move fast.
@@ -103,7 +101,6 @@ The judge then asked Ravi to tell the truth. He warned him that if he didn't tel
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -144,7 +141,6 @@ He honestly returned the iron balance.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Once, there lived a wealthy merchant.
 Due to flood, he lost most of this wealth.
@@ -158,7 +154,6 @@ He asked his friend to keep his iron balance for some time.`
       type: 'passage',
       label: 'The Well Dispute',
       data: {
-        editable: true,
         title: 'The Well Dispute',
         img: {
           url: 'story/26_well_dispute.jpg'
@@ -174,7 +169,6 @@ Iqbal's trickery was countered thus in a tricky way. The farmer got justice and 
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -209,7 +203,6 @@ He asked Iqbal to continue using the water.`
       label: 'Order the sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `The farmer approached the king, with a case against Iqbal.
 He told the king that he bought the well from Iqbal.
@@ -236,7 +229,6 @@ Though the travellers tricked the villagers into sharing their food with them, t
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -276,7 +268,6 @@ They were disappointed.`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `Some travellers reached a village having nothing except a cooking pot.
 They were hungry.
@@ -308,7 +299,6 @@ Mulla replied, “Well, once I did exactly the same thing and saved someone’s 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -350,7 +340,6 @@ They ran away.`
       label: 'Order the Sentences',
       type: 'sorting',
       data: {
-        editable: true,
         title: 'Order the sentences based on the story.',
         text: `One day, a man climbed up a tree.
 On reaching the top, he didn't know how to climb down.
