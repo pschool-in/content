@@ -275,7 +275,7 @@ Cost of 15 candies = ₹ ?1
             Each Jar have = ?1 cookies
             5, 4`,
 
-            `Teacher has 20 Pencils & 10 erasers. These can be divided equally to maximum how many students ?
+            `Teacher has 20 Pencils and 10 erasers. These can be divided equally to maximum how many students?
             solution:
             Each student will get = ?0 Pencils
             Each student will get = ?1 Erasers
