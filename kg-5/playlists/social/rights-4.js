@@ -1,5 +1,5 @@
 export default {
-    id: 'rights-54',
+    id: 'rights-4',
     label: 'Rights',
     pdf: '',
     lockAfter: 4,
