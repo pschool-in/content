@@ -138,8 +138,7 @@ export default {
           text: `Diseases caused by micro-organisms are called *infectious* diseases.
           Every infectious disease is caused by a specific *micro-organism*.
           Infectious diseases spread through water, food or air, by *direct contact* or through insect bites.
-          If many people in a place get a disease at the same time, it is called
-          an *epidemic*.
+          If many people in a place get a disease at the same time, it is called an *epidemic*.
           *Vaccination* is an excellent method of preventing disease.`
         }
       },
