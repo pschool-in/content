@@ -36,8 +36,8 @@ Not a surprise
 “Praveen is a wonderful carpenter. But whatever you do, never hurry him. If you do, he gets angry and does a slipshod job.”
 “In that case, I’ll stay out of his way.”
 Dogs look up to us. Cats look down on us. Pigs treat us as equals. — Winston Churchill`
-           }
-         },
+          }
+        },
       {
         type: 'passage',
           label: 'Don’t pay backhanded compliments',
@@ -116,7 +116,7 @@ Taking refuge
 “How about this example? My father thinks our colony has become very crowded. He wants to move house.”
 “God bless your father!”
 Marriage is like a deck of cards. At first, all you need is two hearts and a diamond. By the end, you wish you had a club and a spade. Unknown`
-                }
+          }
        },
       {
         type: 'passage',
@@ -303,6 +303,81 @@ Failure
 “I might have a meltdown the next time you don’t show up.”
 Medically speaking, there is no such thing as a nervous breakdown, which is very annoying to discover when you’re right in the middle of one. — Marian Keyes`
          }
-      }
+      },
+    {
+    type: 'passage',
+      label: 'Has success gone to your head?',
+      id: '900',
+      data: {
+        title: `Has success gone to your head?`,
+        text: `“You look extremely tired and grumpy. Why don’t you take a few days off?”
+“No chance! My boss won’t grant me leave even if I ask for it. She’s upset because two people on her team have taken French leave. They’ve been...”
+“French leave? Really? Have they gone to France on holiday? Why didn’t you...”
+“That’s not what the expression means. When a person goes on ‘French leave’, he takes off without permission. He just...”
+“He just doesn’t show up for work. He doesn’t have anyone’s okay to be on leave either.”
+“That’s right! The Principal became extremely angry when he learnt that the students took French leave to see the one-day match.”
+“Good example. If your boss is giving you a hard time, take French leave and go see your parents.”
+“I don’t know if I’ll be able to do it. I’ve never taken French leave. I’ve always...”
+“There’s always the first time. Tell me, why is it called French leave? What is the ....”
+“The English, as you probably know, hated the French. So whenever they got a chance, they made fun of their neighbours.
+They thought that the French were rude; that they were people without manners.
+The English believed that when a Frenchman was invited to dinner, he always left without thanking the host. They called this ‘French leave’.”
+Origins
+“That’s shocking. But is it true that Frenchmen really did that? Did they...”
+“Who knows? But what’s interesting is that what the English call ‘French leave’, the French call ‘English leave’! “The two just couldn’t stand each other, I guess. Why do you think your two group members decided to take French leave?”
+“A couple of weeks ago, our CEO praised them. It’s possible that all the nice things he had to say went to their head. They...”
+“Went to their head? Does it mean it made them dizzy?”
+“No, not dizzy. When you let compliments or praise go to your head, it makes you feel extremely proud. You become conceited. You begin to think that you’re much more important than you actually are.”
+“In other words, the expression is mostly used to show disapproval. Madhavi has won so many awards at such a young age. But she hasn’t let success go to her head.”
+“But that’s not the case with Mohan. He’s let his new-found fame go to his head.”
+“He certainly has! How good is your French? Do you remember any of...”
+“Well, I haven’t used the language in a while. I’m sure I’m pretty rusty.”
+“Rusty? Are you saying that your knowledge of French is full of rust?”
+“What I mean is that my French is not as good as it used to be. After all,...”
+“You haven’t used the language in a while. So, if you haven’t used a skill or a language in a while, it can get rusty.”
+“Exactly! Here’s another example. I went to play table tennis with my cousin. I was a bit rusty at first. Once I loosened up, I had a great deal of fun.”
+“Everyone thought that Federer would be rusty at the Australian Open.”
+“He certainly proved everyone wrong, didn’t he?”
+How can anyone govern a nation (France) that has 240 different kinds of cheese? — Charles de Gaulle`
+     }
+   },
+  {
+    type: 'passage',
+      label: 'Staring down the barrel',
+      id: '1000',
+      data: {
+        title: `Staring down the barrel`,
+        text: `“President Trump has been calling some people a ‘nutjob’. What does it mean?”
+“The word has the same meaning as ‘nut case’. When you call someone...”
+“I think I know what ‘nut case’ means. It means crazy, doesn’t it?”
+“That’s right! When you call someone a ‘nutjob’ or a ‘nut case’, what you’re suggesting is that the person is mad or mentally imbalanced. It’s used in informal contexts to show disapproval. ‘Nutjob’ can be written as one word or two.”
+“I see. A lot of people in my class avoid Roshni because they think she’s a nutjob.”
+“It’s probably because she keeps to herself! I’ve talked to Roshni, and she’s definitely not a nutjob. Many people in my office think our new Manager is a real nutjob.”
+“Gopi was telling me about him. He sounds like a real nutjob, all right. I believe he wants everyone in the company to work seven days a week. What a silly idea! Who would...”
+“I wouldn’t rubbish the idea, if I were you. Our company, as you know, is...”
+“Rubbish the idea? Does ‘rubbish’ in this context mean ‘criticise’?”
+“That’s right. When you rubbish someone’s idea, you criticise it. You make it clear that the idea is trivial or worthless. It’s also possible to rubbish people.”
+“I see. It wasn’t much of a debate. The two candidates merely rubbished each other.”
+“That’s what most politicians do nowadays. Americans, by the way, say ‘trash’ instead of ‘rubbish’. The Minister trashed the idea that he had a Swiss bank account.”
+“The media rubbished/trashed the team for its poor performance.”
+“A few minutes ago, you said that I shouldn’t rubbish your new manager’s idea of working seven days a week. Why would you want to work seven...”
+“The company is in trouble. We’re staring down the barrel of ...”
+“Staring down the barrel? What are you talking about?”
+“The expression ‘staring down the barrel’ is mostly used to suggest danger. It means that something bad is likely to happen.”
+“But what is this barrel you are looking at?”
+In trouble
+“It’s the barrel of a gun.”
+“Staring into a gun? That would mean that someone is pointing a gun at you. If that’s the case, you’re definitely in very serious trouble”
+“That’s right! That’s why the expression is associated with danger. In fact, the original expression was ‘staring down the barrel of a gun’.”
+“I guess this means that the expression can’t be used for anything positive.”
+“No, it can’t. It’s always associated with negative things. If the market doesn’t pick up, our company will be staring down the barrel of bankruptcy.”
+“Really? Can I say, we were looking down the barrel of defeat when we lost our sixth wicket with only 50 runs on the board?”
+“Sounds good. Our client is planning to sue us. You know that most people get nervous when they stare down the barrel of a lawsuit.”
+“I know! If your company is in urgent need for a loan, why don’t you...”
+“It is not ‘need for a loan’, but ‘urgent need of a loan’. When you mean ‘require’ it is always ‘need of’. For example, your scooter is in need of a wash.”
+“Your company is in desperate need of cash.”
+I shook my family tree and a bunch of nuts fell out. — Unknown`
+       }
+     }
     ]
   };
