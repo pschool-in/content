@@ -36,8 +36,8 @@ Not a surprise
 “Praveen is a wonderful carpenter. But whatever you do, never hurry him. If you do, he gets angry and does a slipshod job.”
 “In that case, I’ll stay out of his way.”
 Dogs look up to us. Cats look down on us. Pigs treat us as equals. — Winston Churchill`
-           }
-         },
+          }
+        },
       {
         type: 'passage',
           label: 'Don’t pay backhanded compliments',
@@ -116,7 +116,7 @@ Taking refuge
 “How about this example? My father thinks our colony has become very crowded. He wants to move house.”
 “God bless your father!”
 Marriage is like a deck of cards. At first, all you need is two hearts and a diamond. By the end, you wish you had a club and a spade. Unknown`
-                }
+          }
        },
       {
         type: 'passage',
