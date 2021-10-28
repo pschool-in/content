@@ -10,8 +10,7 @@ export default {
         id: 'home-remedies',
         data: {
           title: 'Home Remedies',
-          text: `# Home remedies - Reading
-
+          text: `
           # Illness
           When we are well, we feel hungry at the right times. We sleep well at night. We have no complaints about digestion. And most importantly, we feel refreshed on getting up in the morning. We do not feel tired even if we have been at work. But sometimes, for some reason, we fall ill.
           Seema had a slightly sore throat. Still, she had some ice cream. The next day, her throat hurt and she found it difficult to swallow. Mother made her gargle with warm salt water before and after school for two days. On the third day, Seema's throat had stopped hurting. This was a simple illness and she soon felt better again.
