@@ -1,5 +1,5 @@
 export default {
-    id: 'Health-3',
+    id: 'health-3',
     label: 'Health',
     pdf: '',
     lockAfter: 4,
