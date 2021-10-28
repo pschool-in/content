@@ -185,18 +185,17 @@ export default {
         title: 'Match Number names'
       },
       data: [
-        `1, One
+        `0, Zero
+        1, One
 2, Two
 3, Three
-4, Four
-5, Five
-6, Six`,
+4, Four`,
 
-        `7, Seven
+        `5, Five
+        6, Six
+        7, Seven
 8, Eight
-9, Nine
-0, Zero
-5, Five`
+9, Nine`
       ]
     }
   ]
