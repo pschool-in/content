@@ -132,7 +132,7 @@ export default {
       label: 'After Number',
       id: 'after-no',
       data: {
-        type: 'after~xx'
+        type: 'after~x'
       }
     },
     {
@@ -140,7 +140,7 @@ export default {
       label: 'Before Number',
       id: 'before-no',
       data: {
-        type: 'before~xx'
+        type: 'before~x'
       }
     },
     {
