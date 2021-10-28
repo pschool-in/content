@@ -174,7 +174,82 @@ There was a time when ‘agenda’, meaning ‘things to be done’, was conside
 The agenda for tomorrow’s meeting hasn’t been sent as yet.
 The agendas are being prepared by my boss.
 It seems like everyone’s got an agenda, and the agenda seems to be selling magazines or air time with sensational stories. — Scott Weiland`
-         }
        }
+     },
+    {
+      type: 'passage',
+      label: 'Unitasking has its advantages',
+      id: '800',
+      data: {
+        title: `Unitasking has its advantages`,
+        text: `What is the meaning of ‘burn a hole in the pocket’?
+In India, many people use this expression to mean to spend a lot of money. But this is not how native speakers of English use it. If you have money burning a hole in your pocket, you are eager to spend it as quickly as possible — the amount spent need not necessarily be large. As the money in your pocket is literally ‘hot’, you are rather keen to take it out and spend it as quickly as possible.
+The money Sneha received this morning was burning a hole in her pocket.
+Stop behaving like a teenager with money burning a hole in her pocket. If you want to buy a car, you need to start saving.
+How is the word ‘AWOL’ pronounced?
+The first vowel sounds like the ‘ay’ in ‘bay’, ‘say’ and ‘pay’, while the second sounds like the ‘o’ on ‘cot’, ‘got’ and ‘not’. The word is pronounced ‘A-wol’ with the stress on the first syllable. It was originally used in the military and is the abbreviated form of ‘absence without leave’. When a soldier goes ‘AWOL’, he takes time off without informing or getting the permission of his commanding officer. It has more or less the same meaning as ‘French leave’. Nowadays, the term is used in non-military contexts as well.
+According to Major Ram, three soldiers have gone AWOL.
+During the monsoon session of Parliament, Sachin went AWOL.
+What is the difference between ‘Joe Public’ and ‘general public’?
+In terms of meaning, there is no difference. In British English, the term ‘Joe Public’ is used to refer to the general public. The name ‘Joe’ is frequently employed in expressions to refer to the common man. For example, we have expressions like ‘average Joe’, ‘Joe citizen’, ‘Joe sixpacks’, etc. to refer to the average representative of the public. In the U.S., the common man is sometimes called ‘Joe Q Public’.
+Our company needs to find out what Joe Public thinks of the new product.
+The restaurant that we are planning to open is not meant for Joe Public.
+What is the opposite of ‘multitasking’? 
+The word ‘multitasking’ is mostly used in everyday contexts to mean having the ability to perform or do more than one thing/task at the same time. In many households, it is common to see a mother helping her child with his homework while she is cutting vegetables for dinner. Some teachers correct their students’ homework while watching their favourite TV programme. But not all of us have the ability to multitask. If you perform only one task at a time, you are ‘unitasking’. ‘Uni’, as everyone knows, means ‘one’; if you are in the habit of doing a single thing at a time, you are a ‘unitasker’.
+There are so many distractions that it’s extremely difficult to unitask.
+I can’t do all those things in an hour. I’m a unitasker, not a multitasker.
+Some call it multitasking. I call it doing something else while I try to remember what I was doing in the first place. — Unknown`
+      }
+    },
+    {
+      type: 'passage',
+      label: 'Nonchalance is the new ‘cool’',
+      id: '900',
+      data: {
+        title: `Nonchalance is the new ‘cool’`,
+        text: `How is the word ‘nonchalant’ pronounced?
+The first syllable is pronounced like the word ‘non’ and the remaining two vowels sound like the ‘a’ in ‘China’. The ‘ch’ is like the ‘sh’ in ‘ship’, ‘sheep’ and ‘shoe’. One way of pronouncing the word is ‘NON-she-lent’ with the stress on the first syllable. It comes from the French term ‘noncholoir’ meaning ‘to be indifferent to someone’. The word is normally used with people. When you say that someone is nonchalant about something, what you are suggesting is that he looks relaxed and does not display any sense of anxiety or worry. He looks and acts as if he does not have a care in the world.
+The champion glided to the net and put away the volley with nonchalant ease.
+Sandeep talked in such a nonchalant manner at the condolence meeting that it made many people extremely angry.
+What is the difference between ‘amend’ and ‘emend’?
+Both words have the stress on the second syllable, but unlike ‘amend’, ‘emend’ is seldom used in everyday contexts nowadays. In terms of meaning, it does not have the wide range that ‘amend’ does. Emend is mostly used in the context of writing; when you ‘emend’ a document, you edit it. You improve the quality of the text by removing the errors — spelling, grammar, punctuation, and so on, in it. When you ‘amend’ a document, in addition to carrying out the required language corrections, you may also bring about changes in the content. You may choose to change the organisation or include new information; it is possible to ‘amend’ a document that is error free. MPs and MLAs often talk about ‘amending’ a law. The word, unlike ‘emend’, can be used with people as well. It is possible for one to amend or change one’s behaviour.
+This badly written dissertation needs to be emended.
+I don’t believe this is the time to amend the Constitution.
+If Prabhu is serious about fitting in, he needs to amend his behaviour.
+What is the meaning of ‘roast’ in ‘celebrity roast’?
+It is an expression used mostly in American English. It is an occasion when people get together to celebrate the achievement of a well-known person. At the event, the friends of the celebrity keep the audience entertained by narrating funny stories about him/her — not all stories are complimentary. The word ‘roast’ is frequently used in informal contexts as a verb to mean to speak angrily or criticise someone rather harshly.
+Prof. Ranjit is retiring next month. The students are planning to have a roast in his honour.
+Go well prepared. If Gurveen feels you’re wasting her time, she’ll roast you.
+Which is correct? The couple has/have gone...? 
+Both ‘have’ and ‘has’ are possible — it depends on how you view the two individuals. If you consider them to be inseparable — a single unit — then you use ‘has’. The couple has decided not to have children. If, on the other, you think of them as being two separate individuals, then you use ‘have’. The couple have gone their separate ways.
+A bride at her second wedding does not wear a veil. She wants to see what she is getting. — Helen Rowland`
+       }
+      },
+      {
+          type: 'passage',
+          label: 'You’re on the wrong track',
+          id: '1000',
+          data: {
+            title: `You’re on the wrong track`,
+            text: `What is the meaning and origin of ‘barking up the wrong tree’?
+The expression is mostly used in informal contexts to mean to waste one’s time or effort by choosing the wrong course of action. When you tell someone that he is barking up the wrong tree, what you are suggesting is that he will not succeed because he is on the wrong track.
+If you think Mr. Srinivas will give you the job because he and your father are good friends, you’re barking up the wrong tree.
+I really thought Kamal would help. But I was barking up the wrong tree.
+According to scholars, the expression comes from the world of raccoon hunting. In the early days of colonisation in America, settlers made use of dogs to hunt these furry, nocturnal animals. Raccoons are adept at climbing trees. So, whenever dogs pursued them, they inevitably climbed one and proceeded to jump from one tree to another. The dogs usually stood under the tree that the animal had climbed and kept barking — not realising that their prey had moved on and that they were barking up the wrong tree!
+Which is correct? He dived/dove into the pool? 
+There was a time when ‘dived’ was considered the only correct past tense form of ‘dive’. But thanks to a pair like ‘drive-drove’, many people in the United States began to use ‘dove’ instead of the older past tense form ‘dived’. Today, the preferred form in the U.S. and Canada is ‘dove’; the British use ‘dived’ much more frequently. Nowadays, both forms of the verb are accepted.
+The students dived/dove off the bridge and seriously injured themselves.
+When the police started firing at him, Nikhil dove/dived for cover.
+What is the meaning of ‘an easy touch’? 
+When you say that someone is ‘an easy touch’ or ‘a soft touch’, what you are suggesting is that the person can be easily manipulated. He is someone who can be easily persuaded to do whatever you want him to — for example, give you money. The two expressions are mostly limited to informal contexts.
+Shalini’s mother is a tough cookie. She’s by no means a soft touch.
+I think it’s about time that Ravi stopped being such an easy touch.
+How is the word ‘sycophant’ pronounced? 
+The ‘syc’ is pronounced like the word ‘sick’, and the following ‘o’ is like the ‘a’ in ‘china’. The ‘phan’ is pronounced like the word ‘fan’. One way of pronouncing the word is ‘SICK-e-fant’ with the stress on the first syllable. It comes from the Greek ‘sukophantes’ meaning informer. Nowadays, the word is mostly used to show disapproval. When you refer to someone as being a ‘sycophant’, what you are suggesting is that he flatters others — especially those in power — to get what he wants. He is a like a parasite.
+Sycophants surround the new Minister wherever she goes.
+I wouldn’t take what your sycophants say very seriously.
+Flattery is like chewing gum. Enjoy it, but don’t swallow it. — Hank Ketchman`
+        }
+      }
      ]
   };
