@@ -102,7 +102,7 @@ export default {
         }
       },
       {
-        label: 'Choose the correct Answer',
+        label: 'Choose the correct Answer(s)',
         id: 'mcq',
         type: 'mcq',
         data: {
