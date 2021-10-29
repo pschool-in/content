@@ -231,7 +231,33 @@ Our leaders are promoting mindless jingoism and not patriotism.
 Which is correct: ‘You really ought to help her’ or ‘You ought really to help her’?
 Both are acceptable. Books on grammar suggest that in constructions with the modal ‘ought to’, words like ‘really’, ‘always’ and ‘never’ can either precede or follow ‘ought’. ‘You ought really to help her’ would be considered the formal of the two.
 A real patriot is someone who gets a parking ticket and rejoices that the system works. — Bill Vaughan`
-         }
+          }
+        },
+      {
+          type: 'passage',
+          label: 'Pull yourself up by your bootstraps',
+          id: '1000',
+          data: {
+            title: `Pull yourself up by your bootstraps`,
+            text: `What is the difference between ‘byword’ and ‘buzzword’? 
+The two words have very different meanings. ‘Byword’ is mostly used with people and things to mean a very good or an outstanding example of something. For example, if you say that ‘Sujatha has become a byword for hospitality’, what you are suggesting is that she is a great host — she is very welcoming and makes everyone feel wanted. She is an excellent example of what it means to be hospitable. A catchphrase or a motto that captures the essence of something can also be called ‘byword’. ‘Jai Jawan, Jai Kisan’ became the byword for Government policy in the 1960s.
+My friend’s hotel has become the byword for luxury.
+Our family’s byword is ‘Whatever happens, happens for the best’.
+‘Buzzword’, on the other hand, is usually used to refer to a word or phrase that suddenly becomes very popular in a certain discipline. The common man becomes aware of these words when the media begins to use them in their stories. ‘Ecotourism’, ‘dead tree media’, ‘nettiquette’, ‘webinar’ and ‘millenial’ are just a few examples of buzzwords.
+What is the meaning of ‘pull oneself up by one’s bootstraps’? 
+This informal expression is frequently heard in American English. When you ‘pull/haul/drag yourself up by your bootstraps’, you come up in life through sheer hard work. You improve your position or status without taking the help of other people. You are a self-made individual.
+Satish pulled himself up by his bootstraps to become a hotshot industrialist.
+She hauled herself up by her bootstraps to become the owner of a five-star hotel.
+How is ‘fait accompli’ pronounced?
+There are different ways of pronouncing this word. One simple way is to pronounce the first word like the word ‘fate’. The ‘a’ in ‘accompli’ is like the ‘a’ in ‘china’, and the final ‘i’ sounds like the ‘i’ in ‘sit’ and ‘bit’. The word can be pronounced ‘fate e-KOM-pli’ with the main stress on ‘com’. This French expression literally means ‘an accomplished fact’. When you say that something is a ‘fait accompli’, what it implies is that a decision regarding a certain matter has already been made; there is no point in discussing it because nothing we do or say will matter. The decision taken is final; we have no option but to accept it.
+We are seldom consulted about anything. All the changes that Suchitra makes are presented to us as a fait accompli.
+The students became increasingly angry when they realised they were being presented with a fait accompli.
+Is the following sentence correct: ‘Rahul did not avail of his father’s advice’? 
+We Indians are very fond of the word ‘avail’; we frequently use it in both formal and informal contexts. Native speakers of English mostly limit it to formal contexts. One does not ‘avail of something’ — one avails oneself of something.
+Rahul did not avail himself of his father’s advice.
+The tourists availed themselves of the opportunity to buy souvernirs.
+Pulling yourself up by the bootstraps only works if you have boots. — Eddie Arthur`
+        }
       }
      ]
   };
