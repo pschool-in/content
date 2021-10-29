@@ -149,6 +149,240 @@ Disapproval
 “Very nice example. My neighbour is very inquisitive. He has questions coming out of his ears.”
 “Just like you!”
 Sure, reading a book under a tree is peaceful, but imagine how stressful it is for the tree to see a bunch of its dead friends in your hand. — Kyle Lippert`
+       }
+    },
+  {
+    type: 'passage',
+      label: 'Cramming for the exams?',
+      id: '500',
+      data: {
+        title: `Cramming for the exams?`,
+        text: `“What are you doing here? I thought you would be cramming for tomorrow’s exam.”
+“Cramming? Does it mean the same as studying?”
+“When you ‘cram for’ a test, you study hard for it. You try to learn as much as possible in a short period. You start studying just before the test or exam.”
+“I goof around most of the semester. I usually spend a fortnight cramming for the exams. How does that sound?”
+“Sounds good! When I was a student, I used to switch off my cell phone whenever I had to cram for a test.”
+“That’s what my friends seem to be doing as well. I can’t get hold of any of them.”
+“Why aren’t you cramming for tomorrow’s exam? Have you finished...”
+“That’s what I’ve been doing since morning. I thought I could...”
+“Since morning! Well, in that case, you could do with some downtime.”
+“Downtime? What are you talking about?”
+“When you say that you could do with some downtime, what you’re suggesting is that ...”
+“You need some time to relax — a period when you don’t have to do anything.”
+“Exactly! After a day at the office, I really look forward to my downtime.”
+“I guess everyone does. What do you do in your downtime? Take a nap?”
+“Rarely. During my downtime, I usually watch TV or listen to some old songs.”
+“Jayanth has registered for four courses this semester. He has very little downtime.”
+“That’s a good example. ‘Downtime’ can be spelt as two words or one.”
+Prepone
+“I see. I ran into Sujatha on my way here. We got into an argument about ‘prepone’. According to her, the word doesn’t exist. Is that true?”
+“How can she say that ‘prepone’ doesn’t exist? We Indians use it all the time. People talk about preponing their trip to some place, and...”
+“So the word does exist! Will I find it listed in a dictionary?”
+“Of course, you will. Perhaps not in all standard dictionaries, but you’ll find it...”
+“Then, it’s a real word! I’m going to call Sujatha right now and tell her that it...”
+“Let me finish, will you? Some dictionaries include ‘prepone’. Those that do, say that it is an example of Indian English. Its use is limited...”
+“Mostly limited to India? You mean native speakers of English don’t use ‘prepone’?
+“No, they don’t. I am not really sure if they will understand what we mean by it either.”
+“So, what do native speakers use instead of ‘prepone’? Do they...”
+“Some prefer to use the word ‘advance’. The launch of the new product will have to be advanced by a week.”
+“I would like to advance my trip to Kashmir by a few days. How does that sound?”
+“Sounds great. Before you start thinking about your trip to Kashmir, you’d better run home and cram for tomorrow’s exam.”
+“But this is my downtime. I still have...”
+“You have had enough downtime. It is time to get back to your books.”
+During exams you are permitted to look down for inspiration and up in exasperation, but you are not permitted to look side to side for information. — Anonymous`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'How much rabbit food is too much?',
+      id: '600',
+      data: {
+        title: `How much rabbit food is too much?`,
+        text: `“What are you doing here at this time of day? Isn’t it hot? Don’t you...”
+“What a silly question! You know that we’ve been having a really bad weather the past...”
+“We don’t usually say ‘a really bad weather’. The word ‘weather’ is not preceded by ‘a’. For example, we’ve had really good weather the past few weeks.”
+“Do you really think so? They’ve been having terrible weather down in Australia.”
+“Yes, they’ve been having miserable weather. Tell me, how did...”
+“No, you tell me. Do you have any of the goodies you bought yesterday?”
+“I’m afraid not. Ganesh came by this morning and finished off most of the things. He...”
+“That doesn’t sound like Ganesh. He doesn’t usually eat between...”
+“Apparently, his wife has been starving him. The poor chap’s diet mainly consists of rabbit food. You know that he....”
+“Rabbit? I was under the impression that Ganesh was a vegetarian. Guess I was...”
+“He is a vegetarian. When you say that someone has been eating rabbit food, it means he’s been eating raw vegetables.”
+“You mean something like a salad?”
+“That’s right! People who don’t like eating salad or raw vegetables usually refer to them as ‘rabbit food’. It shows their contempt.”
+“It’s their way of suggesting that these things are meant for rabbits. Not for human beings!”
+“Exactly! Usha is fond of rabbit food. Says she can live on salads for days together.”
+“Well, Ganesh is not Usha. He sees raw vegetables as nothing more than rabbit food.”
+“Good example! Some of my colleagues have rabbit food for lunch.”
+“I don’t mind rabbit food, actually. I nibble on raw carrots every now and then. I see that you’re still going through the same document that you were...”
+“It’s a copy of the contract our company will be signing in a week’s time. My boss wants me to go through it with a fine toothcomb to make sure...”
+“With a fine toothcomb? What are you talking about?”
+“When you go through something with a fine toothcomb, you study it very carefully. You examine it in great detail.”
+“How about this example? When her earrings went missing, Hema went through her cupboard with a fine toothcomb. She managed to find them.”
+“That’s a good example. The police realise that it’s an important case. They’ve been going through the evidence with a fine toothcomb.”
+“What do you plan to do once you’ve finished going through the contract with a fine toothcomb? Do you want to go somewhere?”
+“I can’t. I have to discuss the contract with my boss. Tell me, what are you doing here at this time of the day? Aren’t you supposed to be in college?”
+“Our college timings have changed. So, I...”
+“We Indians are fond of the word ‘timings’. But do you know that native speakers of English don’t use the word? Many dictionaries don’t even list ‘timings’. Those that do, say that it’s Indian English.”
+“Really! What do native speakers say instead of...”
+“They usually talk about ‘office hours’ and ‘working hours’. My office hours are between 9:30 and 7:00.”
+“Those are my sleeping hours!”
+“It’s so dry, the trees are bribing the dogs.” Charles Martin`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'Breaking the bank to buy a BMW?',
+      id: '700',
+      data: {
+        title: `Breaking the bank to buy a BMW?`,
+        text: `“Sorry I’m late. But I had to go to Vikram’s place to drop something off. His mother gave me some nice and hot idlis. They were really good.”
+“I’m sure they were. Several people have told me that Vikram’s mother is an excellent cook.”
+“No doubt about it. Nothing like having a few nice and hot idlis in the evening. Especially, when....”
+“Careful users of the language would say ‘nice hot idlis’ instead of ‘nice and hot idlis’.”
+“So, is it wrong to say ‘nice and hot’?”
+“If you want to use ‘nice and hot’, then you say, the idlis were nice and hot. But if ‘nice’ comes before ‘idlis’, then you say, I had nice hot idlis.”
+“I see. How about this example? Ramani’s room is always nice and tidy.”
+“Sounds fine. You could also say, Ramani works in a nice tidy room.”
+“I know, but...Wow! Those shoes look great! But they look really expensive. How much did you pay for them? Did you end up...”
+A lot of money
+“Don’t worry, they were on sale. I didn’t have to break the bank to buy them.”
+“Break the bank? How can you break a bank? What are you talking about?”
+“When you say that you broke the bank in order to buy something, what you’re suggesting is that the item you bought was very expensive.”
+“It cost you a lot of money. You spent all your money in order to...”
+“Very good! That’s exactly what it means. His father advised him not to spend so much money on a car. Atman, however, broke the bank to buy a BMW.”
+“So, what’s he going to do now? Live in the car?”
+“You should ask him that question. At the recent IPL auction, several teams broke the bank to buy the player they wanted.”
+“How about this example? The dinner cost us only Rs. 750. That’s definitely not going to break anyone’s bank.”
+“That’s a good example. I decided not to buy the house. I would have had to break the bank to buy it.”
+“That’s too bad. I thought you were keen on ....keen to? Which is correct? Keen on or....”
+An eagerness
+“In terms of grammar, both are acceptable. You can be ‘keen to’ do something. Or you can be ‘keen on’ doing it. Both mean you’re anxious or eager to do something. For example, Rahul was keen to take his children to the zoo.”
+“The children, however, weren’t keen on seeing the animals in the zoo. They were keen to go to the stadium and watch Virat and his men in action.”
+“That’s not surprising at all. Rahul’s kids, I’m told, are keen sportsmen. They are...”
+“Keen sportsmen? Does it mean they play a lot of games?”
+“In informal contexts, when you say that someone is a keen sportsman, what you mean is that he’s greatly interested in sports. He may also be someone who participates in games. Ramdas was a keen tennis player.”
+“Yes, he was. Our former Principal is a keen gardener.”
+“If only he had devoted as much time to being an administrator!”
+“I guess he wasn’t keen on being one!”
+“Too many people spend money they haven’t earned, to buy things they don’t need, to impress people they don’t like.” Will Smith`
+     }
+   },
+  {
+    type: 'passage',
+      label: 'She’s no spring chicken',
+      id: '800',
+      data: {
+        title: `She’s no spring chicken`,
+        text: `“I have a surprise for you. Here’s the novel that you’ve been dying to read. I got it...”
+“I have a surprise for you! I managed to read the novel a week ago.”
+“Really? Looks like I just wasted my time trying to get a copy...”
+“What makes you say that? You haven’t wasted your time. Now that you have the book, you should read it.”
+“Are you joking? You know I don’t like to read. Anyway, did you enjoy reading the book? Did you...”
+“It’s what I’d call a good read. I quite enjoyed the bits where the...”
+“It’s a good read? That sounds really odd. Is it okay to say that a book is a good read?”
+“It most certainly is. It’s an expression that’s limited to informal contexts. When you say that an article or a book was ‘a good read’, you mean that you enjoyed reading it. Whenever I travel, I always carry a Wodehouse novel. He’s always a good read.”
+“I was disappointed with my favourite author’s latest book. It wasn’t a good read.”
+“That’s a good example. Now then, would you like to see the photographs I took when...”
+“While we’re on the subject of photographs, I saw pictures of your favourite heroine in some magazine. She looked really old!”
+“That’s not surprising at all. She’s no spring chicken, you know. She must be in her....”
+“Spring chicken? What are you talking about?”
+“When you say that someone is ‘no spring chicken’, what you mean is that the person is not very young.”
+“I see. How about this example? My father isn’t old. But he’s no spring chicken either.”
+“That’s an excellent example. The expression is used in informal contexts. It suggests that you’re trying to be humorous. You can’t expect your aunt to do all these exercises. She’s no spring chicken, you know.”
+“I didn’t expect Anita to behave so childishly. She should know better. After all, she is no spring chicken.”
+“She certainly isn’t! Her daughter got engaged recently.”
+“I know! I think she got engaged with one of her classmates.”
+“It’s not ‘engaged with’, but ‘engaged to’. My friend Karthik is engaged to Sowmya.”
+“My cousin is engaged to someone from the States. Tell me, is it ‘married to’ or ‘married with’? I always get...”
+“It’s ‘engaged to’ and ‘married to’. Revathi has been married to Dilip for 20 years.”
+“My friend is married to a millionaire. But what about when you want to use ‘engage’ when you’re talking about an activity? When you’re busy doing something, then....”
+“Then you normally say ‘engage in’. The CEO hopes to find a solution to the problem by engaging the workers in a dialogue.”
+“The teacher kept the children busy by engaging them in different activities.”
+“That’s a good example. I was engaged in a conversation when my phone rang.”
+“I wonder who I’ll get married to! Do you think...”
+“No girl will be crazy enough to marry you!”
+“Marriage, it’s like a walk in the park. Jurassic Park.” Unknown`
+      }
+    },
+  {
+    type: 'passage',
+      label: 'Oddballs can be lucky too',
+      id: '900',
+      data: {
+        title: `Oddballs can be lucky too`,
+        text: `“Haven’t seen you in a while. Come on in!”
+“You always keep saying ‘come on in’. Tell me, is there a difference between ‘come on in’ and ‘come in’?”
+“In terms of meaning, not much really. In both cases, you’re asking the person...”
+“You’re asking the person to come inside. You’re asking him to enter the...”
+“That’s right! ‘Come on in’ is mostly used in informal contexts. It suggests that you’re being very friendly, and that you’re very happy to see the individual.”
+“In other words, it’s normally used to show warmth.”
+“I guess you could say that. ‘Come in’, on the other hand, can be used as a request for somebody to enter or as an order. An angry boss is likely to say ‘come in’ rather than ‘come on in’.”
+“I don’t have a boss. But when we go to the Principal’s office, he usually says, ‘Come in’. What does your new boss say? Does she...”
+“She’s a bit of an oddball, actually. She never...”
+“Oddball? Does it mean someone who is odd or peculiar?”
+“Yes, that’s right! The word is normally used in informal contexts to refer to someone who is strange or unusual. The person comes across as being an eccentric. In school, everyone thought I was an oddball.”
+“Why only in school? Many people think you’re an oddball even now! How about this example? At the wedding, the family oddballs got together and had a blast.”
+“Sounds good. The word can also be used as an adjective. People avoid Naveen because of his oddball ideas and behaviour.”
+“The players didn’t know what to make of Harish’s oddball coaching methods.”
+“That’s understandable, I guess. Harish is an oddball. So,...”
+“What’s not understandable, however, is that you seem to have bought another tennis racquet. How much did this one cost?”
+“Not much, actually. I really lucked out this time. The racquet was....”
+“Lucked out? Does the expression even exist?”
+“Of course, it does. It’s mostly used in informal contexts in American English. When you say that you ‘lucked out’, you mean that you got really lucky.”
+“So you’re saying that you were lucky to get the racquet at a ridiculously low price.”
+“That’s right!”
+“How about this example? Seema hadn’t studied for the Physics test. She lucked out because the teacher decided to put off the test.”
+“Sounds good. Federer really lucked out in his match against Wawrinka.”
+“You may be right. Revathi lucked out when she found an excellent apartment opposite to her office building. She is...”
+“How many times do I have to tell you? It’s not ‘opposite to something’ but ‘opposite something’. The supermarket is opposite the bank.”
+“Yes, you’ve told me many times. But a lot of my friends always say ‘opposite to’. So I keep saying the same thing. The restaurant opposite the station is really good.”
+“That sounds a lot better. Hang this painting on the wall opposite the door.”
+“Why don’t we hang your new racquet, instead?”
+It’s freezing and snowing in New York – we need global warming. — Donald Trump`
+     }
+   },
+  {
+    type: 'passage',
+      label: 'It’s dress-down day',
+      id: '1000',
+      data: {
+        title: `It’s dress-down day`,
+        text: `“Nice to see you so relaxed. No office today, I suppose?”
+“What gives you that idea? I’m waiting for Nishant to pick me up.”
+“You’re going to the office dressed like that? You cannot be serious!”
+“Relax, will you? It’s dress-down Friday. I don’t have to worry about...”
+“Dress-down Friday? Does it mean the same thing as ‘casual Friday’?”
+“Very good. That’s exactly what it means. Many companies across the world observe dress-down Friday. The management allows its employees to be dressed informally. This is supposed to create a relaxed atmosphere in the office.”
+“Mayank says he hates casual Fridays. He finds it difficult to decide what to wear.”
+“Jaya, on the other hand, loves dress-down Fridays. She comes wearing something new every Friday.”
+“That sounds like Jaya! Can I use your laptop for a few minutes? I need...”
+“Sorry. My neighbour’s son was using it yesterday. I don’t know what he did, but the computer is royally messed up.”
+“Royally? Is it okay to say that something is ‘royally messed up’? I’ve never...”
+“The word ‘royally’ is frequently used in informal contexts to mean utterly. You...”
+“I see. So, what you’re saying is that your computer is badly or completely messed up.”
+“That’s right! The word ‘royally’ is used to emphasise something. The Minister’s explanation as to why he had to increase taxes left me royally confused.”
+“So, here you’re talking about how terribly confused you were. How about this example? I was royally frustrated by Anita’s inability to make up her mind.”
+“That’s a good example. But remember, this use of the word ‘royally’ is limited to...”
+“It’s limited to informal contexts. I know! You’ve already said it. Why do you always insist in repeating yourself? I mean...”
+“It’s ‘insist on’ and not ‘in’. One always insists on something. I insist on doing the job myself.”
+“John insisted on paying the bill. How does that sound?”
+“Sounds good. It’s also possible to say, John insisted that he pay the bill.”
+“I see. The children insisted on taking the dog to the beach.”
+“The children insisted that we take the dog to the beach. Now then, can we...Excuse me, while I take this call.”
+“Who was it?”
+“Nishant. He can’t pick me up because there’s something wrong with his car.”
+“And there’s something wrong with yours. What are you going to do? How are you going....”
+“Getting to the office shouldn’t be a problem. At this time of the morning, I should be able to flag down an auto rickshaw or ....”
+“Flag down? What does it mean?”
+“To signal the driver of a vehicle to stop. We usually do this...”
+“We usually wave to the driver. The students tried to flag down the bus.”
+“We succeeded in flagging down a taxi. We were able to reach the station in time for the train.”
+“I think you’ll have a hard time flagging down an auto today.”
+“What makes you say that?”
+“Because they’re all on strike!”
+Life is like a taxi. The metre keeps ticking whether you are getting somewhere or standing still. — Lou Erickson`
           }
         }
      ]
