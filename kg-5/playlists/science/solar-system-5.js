@@ -102,7 +102,7 @@ export default {
           Some heavenly bodies revolve around planets. These are called satellites. Satellites too get their light from the sun. We see the moon at night. It revolves around the earth. Hence, it is called a satellite of the earth. The planets revolve around the sun along with their satellites.
 
           # Man - made Satellites
-          Man-made satellites provide useful information foragriculture, environment, weather forecasting, making maps, and searching for water and mineral wealth on the earth. They are also used for telecommunication. They are put into orbit around the earth. They can remain in space for many years.
+          Man-made satellites provide useful information for agriculture, environment, weather forecasting, making maps, and searching for water and mineral wealth on the earth. They are also used for telecommunication. They are put into orbit around the earth. They can remain in space for many years.
           
           # Dwarf Planets
           Some smaller heavenly bodies revolve around the sun. They are called dwarf planets. Of these, the most well-known is Pluto. Dwarf planets revolve independently around the sun. They have an orbit of their own.
@@ -257,7 +257,7 @@ export default {
           Equator: If a circle was drawn around the surface of the Earth exactly in between the north and south poles, it would divide the Earth into two equal parts. This imaginary circle is called the equator.
           Hemisphere: The two equal parts the equator makes of the Earth are called the northern hemisphere and the southern hemisphere.
           Rotation: The turning of an object around itself is called rotation and the imaginary line around which it rotates is called its axis of rotation.
-          Day:  The period that the Earth takes to complete one rotation is called a day. A day has two parts, daytime and nighttime or simply day and night.
+          Day:  The period that the Earth takes to complete one rotation is called a day. A day has two parts, daytime and night time or simply day and night.
           Hour: To measure time, the whole day is divided into 24 parts, each of which is called an hour.
           Revolution: Revolution is the movement of the Earth around the Sun. The Earth takes 24 hours to complete a rotation. 
           Year: The period the Earth takes to complete one revolution around the sun is called one year. There are about 365 days and 6 hours in a year.
