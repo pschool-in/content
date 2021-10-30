@@ -12,7 +12,7 @@ export default {
           title: 'Day and Night',
           text: `# Day and Night 
           We live on the earth and the earth gets light from the sun. The earth’s shape is like that of a very large ball. Therefore, light from the sun does not reach the entire earth at the same time. Half the earth gets sunlight while the other half remains dark.
-          We say that it is day in the half that gets light, while in the other half where sunlight does not reach, it is night. Every day we see day chasing night and then night chasing day. Night comes after day and then day follows night. This cycle goes on without stopping.
+          We say that it is day in the half of the earth that gets light, while in the other half where sunlight does not reach, it is night. Every day we see day chasing night and then night chasing day. Night comes after day and then day follows night. This cycle goes on without stopping.
           
           # Points to remember
           
@@ -125,7 +125,7 @@ export default {
               options: 'when we get sunlight, when we do not get sunlight, none of the above'
             },
             {
-              qText: 'When do we say that it is nighttime?',
+              qText: 'When do we say that it is night time?',
               options: 'when it gets dark, when it gets bright, when the sun rises'
             },
             {
