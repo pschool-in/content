@@ -613,7 +613,7 @@ export default {
       id: 'letter-poem-conso',
       type: 'passage',
       label: 'ছোটদের বর্ণ ছড়া - ব্যঞ্জনবর্ণ',
-      lockAfter: 5,
+      lockAfter: 7,
       commonData: {
         title: 'ছোটদের বর্ণ ছড়া',
         type: 'poem'
