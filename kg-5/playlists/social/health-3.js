@@ -62,7 +62,7 @@ export default {
       type: 'sorting',
       id: 'hand-washing',
       data: {
-        title: 'Order the steps while hand washing.',
+        title: 'Arrange the steps of handwashing in order.',
         text: `Wet your hands.
          Apply enough soap.
          Rub palms and its backside.
@@ -123,7 +123,7 @@ export default {
       type: 'passage',
       id: 'personal-hygenine',
       data: {
-        title: 'Personal Hyygeine',
+        title: 'Personal Hygeine',
         text: `# Using toilets
           In the world, nearly one billion people have no access to a toilet at all and they are forced to do open defecation. Open defecation spreads diseases such as cholera and diarrhea. Groundwater is polluted by toilets and it also causes diseases. Children also get affected by intestinal worms which causes anemia. So, it is necessary to use toilets.
           
@@ -152,7 +152,7 @@ export default {
           
           # Safety measures in Bathroom
           
-          1. o not play with water or run around in the bathroom. You may get hurt.
+          1. Do not play with water or run around in the bathroom. You may get hurt.
           2. Do not touch sharp objects such as blades, razors and scissors kept in the bathroom.
           3. Use hot water under the supervision of an adult only.
           4. Do not leave a soap bar on the floor. Someone may slip due to it.
@@ -186,7 +186,7 @@ export default {
       id: 'true-false2',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',
@@ -228,7 +228,7 @@ export default {
         title: 'Protecting Sense Organs',
         text: `By nature, all the sense organs have some ways to protect themselves. For example, the eyelids and lashes protect the eyes from dust and other foreign particles. Our finger tips are protected by nails.
          # Eyes
-         1. We should read under proper light. Reading in too dim or too bright light will make our eyes uncomforatable.
+         1. We should read under proper light. Reading in too dim or too bright light will make our eyes uncomfortable.
          2. We should watch TV from a minimum distance of 6 feet. We should not play video games or watch TV for long hours.
          3. If you feel your eyes are itchy, wash them with clean and cold water. Don't rub your eyes with your fist.
          If you find it difficult to read the classroom board from your place, tell your parents and see an eye doctor.
@@ -428,7 +428,7 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Some cannot use any one or more of them, such people are called *Differently-abled*.
+        text: `Some cannot use any one or more of the five senses, such people are called *Differently-abled*.
           Some touches are *good* or safe, like when we shake hands. 
           Some touches are *bad* or unsafe, like when we hit someone.
           If you do not like any touch or if it makes you sad, angry or scared, tell them to *STOP*!`
@@ -519,7 +519,7 @@ export default {
       id: 'true-false3',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',
