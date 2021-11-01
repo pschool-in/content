@@ -66,6 +66,25 @@ export default {
       }
     },
     {
+      label: 'ফল - শাকসব্জি',
+      type: 'group',
+      id: 'fruits',
+      data: {
+        title: 'ফল আর শাকসব্জি সঠিক বাক্সে রাখুন',
+        imageType: 'general',
+        types: [
+          {
+            name: 'ফল',
+            text: `apple, banana, mango, guava, orange`
+          },
+          {
+            name: 'শাকসব্জি',
+            text: `cabbage, pumpkin, raddish, carrot, onion`
+          }
+        ]
+      }
+    },
+    {
       id: 'bn-parts-of-face',
       label: 'মুখের অংশ',
       type: 'dragAndDrop',
