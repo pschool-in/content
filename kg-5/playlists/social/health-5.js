@@ -239,7 +239,7 @@ export default {
           title: 'Click the blanks and fill it with the right word.',
           text: `A healthy and wholesome life leads to feelings of *friendship (hatred)*.
           The constant presence of tobacco in the digestive organs can lead to *cancer (ulcer)* of any of the digestive organs.
-          *Alcoholism (tobacco consumption)* leads to diseases of the liver, intestines and urinary bladder.
+          *Alcoholism (Tobacco consumption)* leads to diseases of the liver, intestines and urinary bladder.
           The most important factor in the country’s progress and development is its *people (wealth)*.
           Good community *health (wealth)*can be achieved through habits of hygiene and good health.`
         }
