@@ -312,7 +312,7 @@ export default {
         label: 'Match the Following ',
         id: 'match2',
         data: {
-          title: 'Match the following.',
+          title: 'Match the threads to community health with the possible solutions.',
           text: `Cholera, safe drinking water
           Addiction, deaddiction center
           Malnutrition, nutritious diet
