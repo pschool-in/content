@@ -713,13 +713,23 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body 2',
+    label: 'Human Body 5',
     slug: 'humanbody-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Solar System',
     slug: 'solar-system',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Solar System - 2',
+    slug: 'solar-system-4',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Solar System - 3',
+    slug: 'solar-system-5',
     grade: 'g4, g5'
   },
   {
@@ -820,13 +830,28 @@ const social = [
   },
   {
     label: 'Health',
-    slug: 'health',
+    slug: 'health-3',
     grade: 'g3, g4'
   },
   {
+    label: 'Health - 2',
+    slug: 'health-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Health - 3',
+    slug: 'health-5',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Child Rights',
-    slug: 'child-rights',
-    grade: 'g3, g4'
+    slug: 'rights-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Child Rights-2',
+    slug: 'rights-5',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Early Humans',

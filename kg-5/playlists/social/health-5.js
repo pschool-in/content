@@ -203,7 +203,7 @@ export default {
           # Wholesome living
           If we take care of our health, we can lead a wholesome life. Keeping ourselves happy and taking an interest in things, avoiding feelings of hatred and envy and doing what is necessary to maintain physical health helps us to achieve this end. If people of society live a healthy and wholesome life, social tensions also decrease and feelings of friendship can be nurtured.
           
-          ### Tobacco Consumption
+          # Tobacco Consumption
           Names of tobacco products such as gutka, cigarettes, bidis, masheri, mawa, pan masala, etc. are often heard. We also see many people consuming tobacco in different ways. All these are harmful to our health. 
           At first, a person may chew tobacco casually at someone’s urging. But this may lead to addiction. The person becomes dependent on tobacco and cannot give up the habit. When people develop this habit, they become restless if they do not get tobacco. They are not able to pay attention to anything else. They have to have tobacco in the mouth all the time. When the habit reaches this stage, it is called an addiction.
           People addicted to tobacco spit here and there all the time and make their surroundings dirty.
@@ -239,7 +239,7 @@ export default {
           title: 'Click the blanks and fill it with the right word.',
           text: `A healthy and wholesome life leads to feelings of *friendship (hatred)*.
           The constant presence of tobacco in the digestive organs can lead to *cancer (ulcer)* of any of the digestive organs.
-          *Alcoholism (tobacco consumption)* leads to diseases of the liver, intestines and urinary bladder.
+          *Alcoholism (Tobacco consumption)* leads to diseases of the liver, intestines and urinary bladder.
           The most important factor in the country’s progress and development is its *people (wealth)*.
           Good community *health (wealth)*can be achieved through habits of hygiene and good health.`
         }
@@ -312,7 +312,7 @@ export default {
         label: 'Match the Following ',
         id: 'match2',
         data: {
-          title: 'Match the following.',
+          title: 'Match the threads to community health with the possible solutions.',
           text: `Cholera, safe drinking water
           Addiction, deaddiction center
           Malnutrition, nutritious diet

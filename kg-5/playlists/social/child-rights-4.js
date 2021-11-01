@@ -1,6 +1,6 @@
 export default {
-    id: 'rights-4',
-    label: 'Rights',
+    id: 'child-rights-4',
+    label: 'Child Rights',
     pdf: '',
     lockAfter: 4,
     list: [
@@ -188,6 +188,22 @@ export default {
           *Protect* - keep safe from harm or injury. 
           *Inappropriately* - not correct.`
         }
+      },
+        {
+      type: 'rightOne',
+      id: 'spell',
+      label: 'Right Spelling',
+      data: {
+        title: 'Pick the word with the right spelling',
+        noCaps: true,
+        text: `vaccine, vacine, vaccene
+          adequate, adiquate, adequete
+          survival, sarvival, sarvivel
+          protection, protaction, protecsion
+          constitution, constitusion, canstitution
+          participation, partisipation, participetion
+          sanitation, sanetation, sanitasion`
       }
+    }
     ]
   };
