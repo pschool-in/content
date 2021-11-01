@@ -845,16 +845,11 @@ const social = [
   },
   {
     label: 'Child Rights',
-    slug: 'child-rights',
-    grade: 'g3, g4'
-  },
-  {
-    label: 'Child Rights',
     slug: 'rights-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Child Rights',
+    label: 'Child Rights-2',
     slug: 'rights-5',
     grade: 'g3, g4, g5'
   },
