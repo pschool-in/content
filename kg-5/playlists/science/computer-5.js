@@ -98,7 +98,7 @@ export default {
           },
           {
             name: 'Output',
-            text: 'printer, speaker, scanner, monitor'
+            text: 'printer, speaker, monitor'
           }
         ]
       }
