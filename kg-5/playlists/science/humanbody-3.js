@@ -525,20 +525,24 @@ export default {
         questions: [
           {
             qText: ' Our eyes tell us how __________ something is.',
-            options: 'far, tasty, smelly'
+            options: 'far, tasty, smelly',
+            feedback: 'Our eyes help us to estimate how far or near an object is from us'
           },
           {
             qText:
               'Our ears tell us which direction a _________ is coming from.',
-            options: 'sound, smell, breeze'
+            options: 'sound, smell, breeze',
+            feedback:'The tiny hairs and receptors in our ear help us to recognize the direction from which the sound is approaching.'
           },
           {
             qText: 'The smell tells us that the air is _________.',
-            options: 'foul, colourless, harsh '
+            options: 'foul, colourless, harsh ',
+            feedback:'Our nose helps us to sense the various scents around us and help to differentiate them as a sweet fragrance or foul odor.'
           },
           {
             qText: 'Our ________ tells us that something is hot.',
-            options: 'skin, tongue, touch'
+            options: 'skin, tongue, touch',
+            feedback:'Our sense of touch helps us feel if something is hot or cold'
           },
           {
             qText:
