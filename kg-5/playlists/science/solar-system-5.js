@@ -286,7 +286,7 @@ export default {
         }
       },
       {
-        id: 'fillup',
+        id: 'fillup-2',
         label: 'Fill in the blanks',
         type: 'fillupOptions3',
         data: {
@@ -295,7 +295,7 @@ export default {
           The *revolution (rotation)* of the Earth and the inclination of its axis give rise to the cycle of seasons.
           On a *full (half)* moon night, we see the entire side of the moon that faces the Earth.
           On a *new (full)* moon night, we cannot see any face of the moon.
-          The different shapes of the moon that we see are called the phases of the *moon *(earth)*.`
+          The different shapes of the moon that we see are called the phases of the *moon (earth)*.`
         }
       },
       {
