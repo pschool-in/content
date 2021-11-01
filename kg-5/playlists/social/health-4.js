@@ -78,8 +78,7 @@ export default {
           types: [
             {
               name: 'True',
-              text: `If someone has a cut, bruise or a small wound, it should be washed with
-              clean water and dabbed dry.  
+              text: `If someone has a cut, bruise or a small wound, it should be washed with clean water and dabbed dry.  
               A service that takes care of the health of the people and provides treatment for those who are ill is called a health service or medical service.
               Even if an illness appears to be minor, it should never be neglected. `
             },
