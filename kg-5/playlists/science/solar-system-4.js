@@ -133,7 +133,7 @@ export default {
                 options: 'longer days and shorter nights, longer nights and shorter days, equal days and nights'
             },
             {
-                qText: 'When do we say that it is night?',
+                qText: 'When do we say that it is winter?',
                 options: 'Longer nights and shorter days, equal days and nights, shorter nights and longer days'
             }
           ]
