@@ -281,7 +281,7 @@ export default {
           text: `leap year, 366 days
           year, 365 days 
           day, 24 hours 
-          month, 30/31 days
+          month, 30 to 31 days
           week, 7 days`
         }
       },
