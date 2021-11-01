@@ -220,8 +220,8 @@ export default {
           Drinking alcohol also has adverse effects on the body. Alcohol addiction is called alcoholism.
           1.  Alcohol makes a person drowsy and confused. One loses control over one’s actions.
           2.  Alcoholism causes diseases of the liver, intestines and urinary bladder.
-          3.  Addiction to tobacco or alcohol is both very bad habits. The condition of the addict becomes pathetic, and the addict’s family has to suffer with them. There is no telling how much money will be required for treatment.
-          4. The family gets deprived of health and happiness and is ruined.
+          3.  Addiction to tobacco or alcohol are both very bad habits. The condition of the addict becomes pathetic, and the addict’s family has to suffer with them. There is no telling how much money will be required for treatment.
+          4.  The family gets deprived of health and happiness and is ruined.
           5.  We must be aware that an addict destroys the entire family.
           
           # An Invitation to Death
@@ -312,7 +312,7 @@ export default {
         label: 'Match the Following ',
         id: 'match2',
         data: {
-          title: 'Match the threads to community health with the possible solutions.',
+          title: 'Match the threats to community health with the possible solutions.',
           text: `Cholera, safe drinking water
           Addiction, deaddiction center
           Malnutrition, nutritious diet
