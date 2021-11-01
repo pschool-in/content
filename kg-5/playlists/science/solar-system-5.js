@@ -28,7 +28,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillupOptions',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
+        title: 'Click on the blanks and fill it with the right word.',
         text: `The sun, the moon, the stars, the planets, etc are all known as *heavenly (heavy)*bodies.
           *Stars (Planets)* have their own light.
           The *sun (earth)* is a star.
@@ -41,7 +41,7 @@ export default {
       id: 'true-false',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',
@@ -98,7 +98,7 @@ export default {
       id: 'solar-system-2',
       data: {
         title: 'Solar System',
-        text: `# Satelites
+        text: `# SatelLites
           Some heavenly bodies revolve around planets. These are called satellites. Satellites too get their light from the sun. We see the moon at night. It revolves around the earth. Hence, it is called a satellite of the earth. The planets revolve around the sun along with their satellites.
 
           # Man - made Satellites
@@ -179,7 +179,7 @@ export default {
           {
             qText: 'What are man-made satellites used for?',
             options:
-              '*telecommunication, *weather forecasting, *making maps, none of the above'
+              'telecommunication, weather forecasting, making maps, *all'
           }
         ]
       }
@@ -276,7 +276,7 @@ export default {
     {
       id: 'match',
       type: 'match',
-      label: 'Match the Folowing',
+      label: 'Match the Following',
       data: {
         title: 'Match the Following',
         text: `leap year, 366 days
@@ -291,7 +291,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillupOptions',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
+        title: 'Click on the blanks and fill it with the right word.',
         text: `The period that the Earth takes to complete one rotation is called a *day (year)*.
           The *revolution (rotation)* of the Earth and the inclination of its axis give rise to the cycle of seasons.
           On a *full (half)* moon night, we see the entire side of the moon that faces the Earth.
@@ -304,7 +304,7 @@ export default {
       id: 'true-false2',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',
