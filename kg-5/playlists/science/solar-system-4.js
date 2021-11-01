@@ -54,7 +54,7 @@ export default {
       id: 'true-false',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',
