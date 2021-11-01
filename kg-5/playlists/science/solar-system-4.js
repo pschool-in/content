@@ -102,6 +102,42 @@ export default {
           When the days are longer and the nights are shorter, it is *summer*.
           When the nights are longer and the days are shorter, it is *winter*.
           The sun rises in the *east* in the morning and moves towards the *west*.`
+        }
+      },
+      {
+        label: 'Choose the correct Answer',
+        id: 'mcq',
+        type: 'mcq',
+        data: {
+          title: 'Multiple Choice Questions',
+          questions: [
+            {
+              qText: ' From where does the earth get light?',
+              options: 'sun, moon, satellite'
+            },
+            {
+              qText:
+                'What is the earth shaped like?',
+              options: 'large ball, large bowl, small ball, small bowl'
+            },
+            {
+              qText: 'When do we say that it is daytime?',
+              options: 'when we get sunlight, when we do not get sunlight, none of the above'
+            },
+            {
+              qText: 'When do we say that it is night time?',
+              options: 'when it gets dark, when it gets bright, when the sun rises'
+            },
+            {
+                qText: 'When do we say that it is summer?',
+                options: 'longer days and shorter nights, longer nights and shorter days, equal days and nights'
+            },
+            {
+                qText: 'When do we say that it is winter?',
+                options: 'Longer nights and shorter days, equal days and nights, shorter nights and longer days'
+            }
+          ]
+        }
       }
     },
     {

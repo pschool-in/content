@@ -168,8 +168,7 @@ export default {
             },
             {
               name: 'Disadvantage',
-              text: `Excessive use of the television, computer or mobile phones causes
-              disorders of the eyes, ears and back.
+              text: `Excessive use of the television, computer or mobile phones causes disorders of the eyes, ears and back.
               Information can be misused to disturb the peace and order in society.`
             }
           ]

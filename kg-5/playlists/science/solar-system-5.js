@@ -282,7 +282,7 @@ export default {
         text: `leap year, 366 days
           year, 365 days 
           day, 24 hours 
-          month, 30/31 days
+          month, 30 to 31 days
           week, 7 days`
       }
     },
@@ -293,10 +293,10 @@ export default {
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The period that the Earth takes to complete one rotation is called a *day (year)*.
-          The *revolution (rotation) of the Earth and the inclination of its axis give rise to the cycle of seasons.
+          The *revolution (rotation)* of the Earth and the inclination of its axis give rise to the cycle of seasons.
           On a *full (half)* moon night, we see the entire side of the moon that faces the Earth.
           On a *new (full)* moon night, we cannot see any face of the moon.
-          The different shapes of the moon that we see are called the phases of the *moon *(earth)*.`
+          The different shapes of the moon that we see are called the phases of the *moon (earth)*.`
       }
     },
     {
