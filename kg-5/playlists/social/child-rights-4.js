@@ -1,6 +1,6 @@
 export default {
-    id: 'rights-4',
-    label: 'Rights',
+    id: 'child-rights-4',
+    label: 'Child Rights',
     pdf: '',
     lockAfter: 4,
     list: [
