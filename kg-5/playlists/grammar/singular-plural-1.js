@@ -10,14 +10,14 @@ export default {
         data: {
           title: 'Singular-Plural',
           text: `In simple words, singular means only one. Plural means more than one. We generally add 's' at the end of the nouns to make them plural. Some examples are:
-1. The plural for an ant will be *ants*.
-2. The plural for a cat will be *cats*
-3. The plural for a bird will be *birds*.
+1. The plural for an ant will be ants.
+2. The plural for a cat will be cats.
+3. The plural for a bird will be birds.
 
 Some nouns use different words as plural. Some examples are:
-1. The plural for a child is *children*.
-2. The plural for a tooth is *teeth*.
-3. The plural for a foot is *feet*.`
+1. The plural for a child is children.
+2. The plural for a tooth is teeth.
+3. The plural for a foot is feet.`
         }
       },
       {
