@@ -1,6 +1,6 @@
 export default {
-    id: 'Clauses',
-    label: 'Clauses',
+    id: 'common-occupations',
+    label: 'Common Occupations',
     pdf: '',
     list: [
       {
@@ -108,136 +108,80 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       }
     },
     {
-        id: 'match-1',
+        id: 'match',
         label: 'Match the following',
         type: 'match',
-        data: {
-          text: `Doctor, Hospital
+        commonData: {
+            title: 'Match the pairs'
+        },
+       
+        data: [
+         `Doctor, Hospital
           Shopkeeper, Shop
           Fisherman, Sea
           Driver, Vehicles
           Teacher, School`,
-          title: 'Match the pairs.'
-        }
-      },
-      {
-        id: 'match-2',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Blacksmith, Scrap
+         
+         `Blacksmith, Scrap
           Salesman, Sells
           Writer, Books
           Baker, Bakery
           Electrician, Wires`,
-          title: 'Match the pairs.'
-        }
-      },
-      {
-        id: 'match-3',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Carpenter, Wood
+          
+         `Carpenter, Wood
           Cobbler, Shoes
           Police, Safety
           Shepherd, Flock
           Plumber, Pipes`,
-          title: 'Match the pairs.'
-        }
-      },
-      {
-        id: 'match-4',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Nurse, Hospital
+          
+        
+         `Nurse, Hospital
           Singer, Melody
           Goldsmith, Gold
           Barber, Haircut
           Tailor, Clothes`,
-          title: 'Match the pairs.'
-        }
-      },
-      {
-        id: 'match-5',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Weaver, Weaving
+
+          `Weaver, Weaving
           Gardner, Lawns
           Potter, Clay
           Farmer, Field
           Dancer, Performance`,
-          title: 'Match the pairs.'
-        }
-      },
+          ]
+        },
       {
         label: 'True or False',
-        id: 'TF-1',
+        id: 'TF',
         type: 'classifySentence',
-        data: {
-          title: 'State whether these statements are true or false.',
-          types: [
-            {
-              name: 'True',
-              text: `A cobbler is a person who repairs shoes.
+        commonData: {
+            title: 'State whether these statements are true or false.',
+            types: ['True', 'False']
+          },
+        data: [
+           [
+             `A cobbler is a person who repairs shoes.
               Shepherd is one of the oldest occupations.
-              A singer has a melodious voice.`
-            },
-            {
-              name: 'False',
-              text: `Dancers work in hospitals.
-              Shopkeeper helps the patients.
-              An actor is an expert in dancing.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'TF-2',
-        type: 'classifySentence',
-        data: {
-          title: 'State whether these statements are true or false.',
-          types: [
-            {
-              name: 'True',
-              text: `A farmer is the most important unit of agriculture.
+              A singer has a melodious voice.`,
+    `Dancers work in hospitals.
+    Shopkeeper helps the patients.
+    An actor is an expert in dancing.`
+           ],
+            [`A farmer is the most important unit of agriculture.
               We have no threat of robbery if we have a watchman.
-              A potter makes pottery on a spinning wheel.`
-            },
-            {
-              name: 'False',
-              text: `Gardner takes care of the law.
-              A weaver sews our clothes as per our demands.
-              Goldsmith makes things out of scrap.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'TF-3',
-        type: 'classifySentence',
-        data: {
-          title: 'State whether these statements are true or false.',
-          types: [
-            {
-              name: 'True',
-              text: `Blacksmith moulds the scrap into usable products.
-              A tailor sews our clothes as per our demands.
-              Barber styles our hair.`
-            },
-            {
-              name: 'False',
-              text: `A carpenter works with shoes.
-              A baker serves people at a restaurant.
-              A plumber helps to repair vehicles.`
-            }
-          ]
-        }
-      },
+              A potter makes pottery on a spinning wheel.`,
+    `Gardner takes care of the law.
+     A weaver sews our clothes as per our demands.
+    Goldsmith makes things out of scrap.`
+           ],
+              [
+                 `Blacksmith moulds the scrap into usable products.
+                 A tailor sews our clothes as per our demands.
+                 Barber styles our hair.`,
+    `A carpenter works with shoes.
+    A baker serves people at a restaurant.
+    A plumber helps to repair vehicles.`
+              ]
+           ]
+        },
       {
         label: 'Multiple Choice Questions',
         id: 'mcq',
@@ -270,23 +214,17 @@ A blacksmith is a person who makes different things out of scrap metals like iro
         }
       },
       {
-        id: 'Jumbled-words-1',
+        id: 'Jumbled-words',
         type: 'sequence',
         label: 'Jumbled Words',
-        data: {
-          title: 'Identify these occupations.',
-          text: 'Police, Doctor, Driver, Tailor, Barber'
-        }
-      },
-      {
-        id: 'Jumbled-words-2',
-        type: 'sequence',
-        label: 'Jumbled Words',
-        data: {
-          title: 'Identify these occupations.',
-          text: 'Weaver, Baker, Nurse, Writer, Actor'
-        }
-      },
+        commonData: {
+            title: 'Identify these occupations.'
+          },
+        data: [
+            'Police, Doctor, Driver, Tailor, Barber',
+    'Weaver, Baker, Nurse, Writer, Actor'
+              ]
+        },
       {
         label: 'Fill in the blanks. (Fill by drag)',
         type: 'matchByDragDrop',
@@ -335,3 +273,4 @@ A blacksmith is a person who makes different things out of scrap metals like iro
     ]
   };
         
+           
