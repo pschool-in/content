@@ -41,14 +41,14 @@ export default {
       },
       {
         label: 'Cured easily Vs Not cured easily',
-        id: 'manmade-natural',
+        id: 'cured-not-cured',
         type: 'group',
         data: {
           title: 'Classify the illness based on how fast it can be cured.',
           types: [
             {
               name: 'Cured easily',
-              text: 'cold, bruising, upset stomach, headache, sour throat'
+              text: 'cold, bruising, upset stomach, headache, sore throat'
             },
             {
               name: 'Not cured easily',
@@ -74,7 +74,7 @@ export default {
         id: 'true-false',
         type: 'classifySentence',
         data: {
-          title: 'Classify the below sentences as true and false',
+          title: 'Classify the below sentences as true or false',
           types: [
             {
               name: 'True',
@@ -119,7 +119,7 @@ export default {
             {
               name: 'Right',
               text: `Offer lemon sherbet to someone who is vomiting.
-              Gargle with warm water to get rid of a sour throat.
+              Gargle with warm water to get rid of a sore throat.
               Inhale steam to get relief from a cold.`
             },
             {
@@ -139,7 +139,7 @@ export default {
           questions: [
             {
               qText: ' What are the signs that tell you someone has a cold?',
-              options: 'runny nose, sneezing, cough, sour throat, *all'
+              options: 'runny nose, sneezing, cough, sore throat, *all'
             },
             {
               qText:
