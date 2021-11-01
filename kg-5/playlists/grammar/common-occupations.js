@@ -171,7 +171,7 @@ A blacksmith is a person who makes different things out of scrap metals like iro
     `Gardner takes care of the law.
      A weaver sews our clothes as per our demands.
     Goldsmith makes things out of scrap.`
-           ],
+            ],
               [
                  `Blacksmith moulds the scrap into usable products.
                  A tailor sews our clothes as per our demands.
