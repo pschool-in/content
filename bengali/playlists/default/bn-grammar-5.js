@@ -318,7 +318,7 @@ export default {
       id: 'Person',
       type: 'match',
       label: 'পুরুষ নির্বাচন',
-      lockAfter: 4,
+      lockAfter: 5,
       commonData: {
         title: 'পুরুষ নির্বাচন',
         fontSize: '1.2rem'
