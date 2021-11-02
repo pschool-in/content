@@ -70,7 +70,7 @@ Some nouns use different words as plural. Some examples are:
         label: 'Fill up with options',
         type: 'fillup',
         commonData: {
-          title: `Choose the correct plurals. (title)`
+          title: `Choose the correct plurals.`
         },
         data: [
           `My friend has 2 *puppies (puppys)* in his house.
