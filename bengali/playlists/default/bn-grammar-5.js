@@ -9,7 +9,7 @@ export default {
       type: 'rightOne',
       label: 'স্বরসন্ধি',
       id: 'bn-compoundword-vowel-1',
-      lockAfter: 3,
+      lockAfter: 6,
       commonData: {
         title: 'সঠিক বানান চয়ন করুন',
         noCaps: true,
@@ -232,7 +232,7 @@ export default {
       id: 'number-3',
       type: 'match',
       label: 'ব্যাকরণ - লিঙ্গ',
-      lockAfter: 3,
+      lockAfter: 4,
       commonData: {
         title: 'পুলিঙ্গ স্ত্রীলিঙ্গ - মেলান',
         fontSize: '1.2rem'
