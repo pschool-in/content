@@ -21,27 +21,27 @@ export default {
           audio: 'hi-animals.mp3',
           audioOffset: 20,
           words:
-            'hippo, rhino, fox, crocodile, bear, camel, fish, frog, snake, tortoise'
+            'जलहस्ती, गैंडा, लोमड़ी, मगरमच्छ, भालू, ऊंट, मछली, मेंडक, साँप, कछुआ'
         },
         {
           audio: 'hi-animals.mp3',
           audioOffset: 40,
-          words: 'rat, squirrel, ant, fly, bat, buffalo, butterfly'
+          words: 'चूहा, गिलहरी, चींटी, मक्खी, चमगादड़, भेंस, तितली'
         },
         {
           audio: 'hi-animals.mp3',
           audioOffset: 54,
-          words: 'leopard, cow, donkey, mongoose, mosquito, lizard, rabbit'
+          words: 'तेंदुआ, गाय, गधा, नेवला, मच्छर, छिपकली, खरगोश'
         },
         {
           audio: 'hi-birds.mp3',
           words:
-            'crow, duck, hen, parrot, peacock, sparrow, chick, myna, ostrich'
+            'कौवा, बतख़, मुर्गी, तोता, मोर, गौरेया, चूजा, मैना, शुतरमुर्ग'
         },
         {
           audio: 'hi-birds.mp3',
           audioOffset: 18,
-          words: 'owl, rooster, woodpecker, eagle, crane, flamingo, kingfisher'
+          words: 'उल्लू, मुर्गा, कठफोड़वा, गिद्ध, सारस, मराल, नीलकंठ'
         },
         {
           audio: 'hi-flowers-bodyParts-kitchen.mp3',
