@@ -192,11 +192,10 @@ export default {
           # Features of RTE
           
           1. Until the completion of elementary education, no student is stopped from school.
-          2. Twenty-five percent reservation is given to the economically
-          3. Underprivileged people in all private schools.
-          4. Improvement in the quality of education.
-          5. School infrastructure should be improved every three years.
-          6. Finances will be shared between the state and the central government.
+          2. Twenty-five percent reservation is given to the economically underprivileged people in all private schools.
+          3. Improvement in the quality of education.
+          4. School infrastructure should be improved every three years.
+          5. Finances will be shared between the state and the central government.
           
           # National Education Policy (NEP)
           In 2019, the Government of India has framed the National Education Policy (NEP) to promote education among the people of India. The NPE covers all educational systems from primary to college levels. 
