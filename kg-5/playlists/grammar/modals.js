@@ -10,10 +10,10 @@ export default {
         data: {
           title: 'Modals-1',
           text: `A modal is a verb that combines with another verb. It indicates mood or tense. For example, 'can' and 'may' are modals. They can be used in a sentence as;
-I can write a letter without making any mistakes.
-He can run 100 meters in one go.
-You may a bit late on Saturday.
-We may have a holiday on Tuesday.`
+1. I can write a letter without making any mistakes.
+2. He can run 100 meters in one go.
+3. You may a bit late on Saturday.
+4. We may have a holiday on Tuesday.`
         }
       },
       {
