@@ -764,7 +764,7 @@ export default {
       label: 'বাগধারা ও প্রবাদ-প্রবচন',
       id: 'bn-idioms',
       type: 'mcq',
-      lockAfter: 2,
+      lockAfter: 3,
       commonData: {
         title: 'বাগধারাগুলির সঠিক অর্থ খুঁজুন'
       },
