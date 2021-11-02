@@ -112,16 +112,6 @@ export default {
           words: 'rose, lotus, sunflower, marigold, hibiscus, jasmine'
         },
         {
-          audio: 'bn-flowers-bodyParts-kitchen.mp3',
-          audioOffset: 12,
-          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
-        },
-        {
-          audio: 'bn-flowers-bodyParts-kitchen.mp3',
-          audioOffset: 28,
-          words: 'stove, fork, knife, pan, spoon, pot, butter'
-        },
-        {
           audio: 'bn-fruits.mp3',
           audioOffset: 0,
           words:
@@ -465,7 +455,18 @@ export default {
           audio: 'bn-others.mp3',
           audioOffset: 72,
           words: 'ladoo, leaf, rishi, wheel, whistle, world'
-        }
+        },
+
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 12,
+          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+        },
+        {
+          audio: 'bn-flowers-bodyParts-kitchen.mp3',
+          audioOffset: 28,
+          words: 'stove, fork, knife, pan, spoon, pot, butter'
+        },
       ]
     }
   ]
