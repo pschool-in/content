@@ -111,35 +111,35 @@ export default {
         {
           audio: 'hi-others.mp3',
           audioOffset: 0,
-          words: 'sun, moon, rain, star, milk, ring, brush, bone'
+          words: 'सूर्य, चांद, बारिश, तारा, दूध, अंगूठी, कूंचा, हड्डी'
         },
         {
           audio: 'hi-others.mp3',
           audioOffset: 16,
-          words: 'bell, bird, conch, five, drums, food,  fruits, king'
+          words: 'घंटी, पक्षी, शंख, पांच, ढोल, खाना, फल, राजा'
         },
         {
           audio: 'hi-others.mp3',
           audioOffset: 32,
-          words: 'kite, ladder, ladoo, leaf, rishi, wheel, whistle, world'
+          words: 'पतंग, सीढ़ी, लड्डू, पत्ता, ऋषि मुनि, चक्का, सीटी, दुनिया'
         },
         {
           audio: 'hi-school.mp3',
           audioOffset: 0,
           words:
-            'eraser, pen, pencil, ruler, schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons '
+            'रबड़, कलम, पेंसिल, पेमाना, बस्ता, कैंची, चोखा करने वाला, पानी की बोतल, गणना यंत्र, किताब, रंग पेंसिल, चित्रांकनी '
         },
         {
           audio: 'hi-tools.mp3',
           audioOffset: 0,
           words:
-            'axe, balance, blackboard, hose, plier,  microscope, needle, oven, plough, saw'
+            'कुल्हाडी, तराज़ू, श्यामपट, रबर की पाइप , प्‍लास,  सूक्ष्मदर्शी, सुई, कुठला, हल, आरा'
         },
         {
           audio: 'hi-tools.mp3',
           audioOffset: 20,
           words:
-            'spade, stethoscope, telescope, testtube, thermometer, trowel, compass, easel, hacksaw, scalpel '
+            'कुदाल, आला, दूरबीन, परखनली, तापमान-यंत्र, करनी, दिशा सूचक यंत्र, चित्रफलक, लोहा-आरी, छुरी '
         }
       ]
     }
