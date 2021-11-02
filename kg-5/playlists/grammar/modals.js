@@ -73,7 +73,8 @@ We *may not* have to leave.`
         id: 'modals-2-reading',
         data: {
           title: 'Modals-2',
-          text: `The verbs can, could, may, might, will, would, shall, should, must and ought are called modal verbs, or simply modals. A few examples are;
+          text: `The verbs can, could, may, might, will, would, shall, should, must and ought are called modal verbs, or simply modals.
+          A few examples are;
 1. She can swim very well.
 2. Could I borrow your bicycle?
 3. I will go to my gramdma's place tomorrow.
