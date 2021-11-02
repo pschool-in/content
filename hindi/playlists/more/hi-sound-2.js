@@ -46,67 +46,67 @@ export default {
         {
           audio: 'hi-flowers-bodyParts-kitchen.mp3',
           audioOffset: 0,
-          words: 'rose, lotus, sunflower, marigold, jasmine, hibiscus'
+          words: 'गुलाब, कमल, सूर्यमुखी, गेंदा, चमेली, गुडहल'
         },
         {
           audio: 'hi-flowers-bodyParts-kitchen.mp3',
           audioOffset: 12,
-          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+          words: 'कान, आँख, टांग, टांग, हाथ, मुँह, नाक, दांत'
         },
         {
           audio: 'hi-flowers-bodyParts-kitchen.mp3',
           audioOffset: 28,
-          words: 'stove, fork, spoon, knife, pan, pot, butter'
+          words: 'चूल्हा, कांटा, चम्मच, छुरी, कड़ाही, मटका, मक्खन'
         },
         {
           audio: 'hi-fruits.mp3',
           audioOffset: 0,
           words:
-            'apple, grapes, banana, strawberry, guava, jackfruit, mango, orange, papaya'
+            'सेब, अंगूर, केला, झरबेर, अमरूद, कटहल, आम, संतरा, पपीता'
         },
         {
           audio: 'hi-fruits.mp3',
           audioOffset: 18,
           words:
-            'pineapple, pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon'
+            'अनानास, अनार, तरबूज, अंजीर, शरीफा, आलूबुखारा, खजूर, खरबूज'
         },
         {
           audio: 'hi-vegetables.mp3',
           audioOffset: 0,
           words:
-            'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic'
+            'गाजर, चुकंदर, प्याज, टमाटर, आलू, पत्तागोभी, फूलगोभी, भुट्टा, खीरा, लहसुन'
         },
         {
           audio: 'hi-vegetables.mp3',
           audioOffset: 20,
           words:
-            'ginger, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut '
+            'अदरक, कद्दू, बादाम, फलि, करेला, बैंगन, शिमला मिर्च, काजू, हरी मिर्च, नारियल '
         },
         {
           audio: 'hi-vegetables.mp3',
           audioOffset: 40,
           words:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+            'धनिया पत्ता, करी पत्ता, सेहजन, मटर, भिन्डी, पुदीना, मूंगफली, मूली, पालक'
         },
         {
           audio: 'hi-vehicles.mp3',
           audioOffset: 0,
-          words: 'aeroplane, boat, bus, car, ship, tractor'
+          words: 'हवाईजहाज, नाव, बस, गाड़ी, समुंद्रीजहाज, ट्रैक्टर'
         },
         {
           audio: 'hi-vehicles.mp3',
           audioOffset: 12,
-          words: 'train, ambulance, cart, excavator, fire-engine'
+          words: 'रेलगाडी, रोगीवाहन, हाथगाडी, खोदक मशीन, दमकल'
         },
         {
           audio: 'hi-house.mp3',
           audioOffset: 0,
-          words: 'house, table, bed, candle, chair, shelf, baby, boy'
+          words: 'मकान, मेज, बिस्तर, मोमबत्ती, कुर्सी, अलमारी, बच्चा, लड़का'
         },
         {
           audio: 'hi-house.mp3',
           audioOffset: 16,
-          words: 'girl, man, woman, ball, glasses, clock, watch'
+          words: 'लड़की, आदमी, स्त्री, गेंद, ऐनक, दीवार घड़ी, घडी'
         },
         {
           audio: 'hi-others.mp3',
