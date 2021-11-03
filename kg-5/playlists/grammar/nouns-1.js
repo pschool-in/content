@@ -17,12 +17,12 @@ export default {
       }
     },
     {
-        type: 'group',
-        label: 'Drag and drop',
-        id: 'classify-Nouns-not-Nouns',
-        commonData: {
-          title: 'Identify which of these words are nouns and which are not.',
-          types: ['Nouns', 'Not Nouns']
+    type: 'group',
+    label: 'Drag and drop',
+    id: 'classify-Nouns-not-Nouns',
+    commonData: {
+      title: 'Identify which of these words are nouns and which are not.',
+      types: ['Nouns', 'Not Nouns']
         },
         data: [
           [
@@ -34,8 +34,8 @@ export default {
             `Small, Play, Dance, Run`
           ],
           [
-            'Nita, Delhi, Tiger, Ring',
-            'Walk, Talk, Speak, Teach'
+            `Nita, Delhi, Tiger, Ring`,
+            `Walk, Talk, Speak, Teach`
           ]
         ]
       },
