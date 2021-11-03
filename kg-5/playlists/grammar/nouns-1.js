@@ -40,7 +40,7 @@ export default {
         ]
       },
       {
-        id: 'Jumbled-words',
+        id: 'jumbled-words',
         type: 'sequence',
         label: 'Jumbled Words',
         commonData: {
@@ -53,11 +53,11 @@ export default {
               ]
         },
         {
-            type: 'selectWord',
-            label: 'Select the noun',
-            id: 'select-word',
-            commonData: {
-            title: 'Select the nouns in the below sentences.'
+  type: 'selectWord',
+  label: 'Select the noun',
+  id: 'select-word',
+  commonData: {
+  title: 'Select the nouns in the below sentences.'
                 },
                 data: [
   `*Neha* likes grapes.
