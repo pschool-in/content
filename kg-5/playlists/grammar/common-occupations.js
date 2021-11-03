@@ -150,7 +150,7 @@ A blacksmith is a person who makes different things out of scrap metals like iro
         },
       {
         label: 'True or False',
-        id: 'TF',
+        id: 'tf',
         type: 'classifySentence',
         commonData: {
             title: 'State whether these statements are true or false.',
@@ -214,7 +214,7 @@ A blacksmith is a person who makes different things out of scrap metals like iro
         }
       },
       {
-        id: 'Jumbled-words',
+        id: 'jumbled-words',
         type: 'sequence',
         label: 'Jumbled Words',
         commonData: {
