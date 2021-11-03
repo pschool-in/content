@@ -6,7 +6,7 @@ export default {
     {
       label: 'Alliteration - Reading',
       type: 'passage',
-      id: 'Alliteration-reading',
+      id: 'alliteration-reading',
       data: {
         title: 'Alliteration',
         text: `It is generally used in poetry. It is a style of writinng in which a series of words have the same consonant sound. Some examples of alliteration are;
@@ -71,7 +71,7 @@ export default {
       },
     {
       label: 'True or False',
-      id: 'TF',
+      id: 'tf',
       type: 'classifySentence',
       data: {
         title: 'Classify these sentences as true or false.',
