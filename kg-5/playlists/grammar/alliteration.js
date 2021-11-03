@@ -93,9 +93,8 @@ export default {
         label: 'Classify',
         type: 'classifySentence',
         id: 'classify-alliteration-1',
-    
         data: {
-          title: 'Identify if these sentences have alliteration or not',
+        title: 'Identify if these sentences have alliteration or not',
           types: [
             {
               name: 'Yes',
@@ -114,7 +113,6 @@ export default {
         label: 'Classify',
         type: 'classifySentence',
         id: 'classify-alliteration-2',
-    
         data: {
           title: 'Identify if these sentences have alliteration or not.',
           types: [
@@ -135,7 +133,6 @@ export default {
         label: 'Classify',
         type: 'classifySentence',
         id: 'classify-alliteration-3',
-    
         data: {
           title: 'Identify if these sentences have alliteration or not.',
           types: [
@@ -156,7 +153,6 @@ export default {
         label: 'Identify the alliteration',
         type: 'selectWord',
         id: 'select-word-1',
-    
         data: {
             title: `Select the alliteration in the sentences.`,
             text: `The *sticky stuff got stuck* in my shoes.
@@ -170,7 +166,6 @@ export default {
     label: 'Identify the alliteration',
     type: 'selectWord',
     id: 'select-word-2',
-
     data: {
       title: `Select the alliteration in the sentences.`,
       text: `*My mother makes marvelous melon*cakes.
@@ -184,7 +179,6 @@ export default {
     label: 'Identify the alliteration',
     type: 'selectWord',
     id: 'select-word-3',
-
     data: {
       title: `Select the alliteration in the sentences.`,
       text: `*Dani's dogs drank* from the pot.
