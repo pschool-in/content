@@ -19,10 +19,10 @@ export default {
     {
         type: 'group',
         label: 'Drag and drop',
-        id: 'classify-Nouns-not-Nouns:',
+        id: 'classify-Nouns-not-Nouns',
         commonData: {
           title: 'Identify which of these words are nouns and which are not.',
-          types: ['Nouns', 'Not Nouns:']
+          types: ['Nouns', 'Not Nouns']
         },
         data: [
           [
