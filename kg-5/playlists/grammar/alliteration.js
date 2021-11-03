@@ -1,5 +1,5 @@
 export default {
-  id: 'Alliteration',
+  id: 'alliteration',
   label: 'Alliteration',
   pdf: '',
   list: [
