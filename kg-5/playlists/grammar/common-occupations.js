@@ -226,7 +226,7 @@ A blacksmith is a person who makes different things out of scrap metals like iro
               ]
         },
       {
-        label: 'Fill in the blanks. (Fill by drag)',
+        label: 'Fill in the blanks.',
         type: 'matchByDragDrop',
         id: 'drag-drop-1',
         data: {
@@ -260,9 +260,8 @@ A blacksmith is a person who makes different things out of scrap metals like iro
         type: 'rightOne',
         label: 'Correct Spelling',
         id: 'correct-spelling',
-    
         data: {
-          title: 'Identify the correct spelling.',
+        title: 'Identify the correct spelling.',
           text: `Police, Poliece
           Dancer, Danser
           Barber, Barbar
