@@ -35,8 +35,7 @@ export default {
 7. Nehru was a man of letters.
 8. Rohit was the black sheep of the family and preferred to do things on his own. 
 9. You are such a copy cat! Do your own work. 
-10. Sarah is such an early bird! She gets up daily before the sunrises.
-`
+10. Sarah is such an early bird! She gets up daily before the sunrises.`
   }
     },
      {
@@ -271,8 +270,7 @@ export default {
         commonData: {
             title: 'Match the beginning of the proverb with the correct ending'
         },
-       
-        data: [
+       data: [
          `First come, first serve
          All's well, that ends well
          All is fair, in love and war
