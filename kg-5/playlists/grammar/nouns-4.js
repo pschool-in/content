@@ -21,12 +21,12 @@ Some more examples of concrete nouns are:
     }
       },
       {
-          type: 'group',
-          label: 'Drag and drop',
-          id: 'classify-concrete-abstract',
-          commonData: {
-            title: 'Identify these nouns as concrete and abstract.',
-            types: ['Concrete', 'Abstract']
+      type: 'group',
+      label: 'Drag and drop',
+      id: 'classify-concrete-abstract',
+      commonData: {
+        title: 'Identify these nouns as concrete and abstract.',
+        types: ['Concrete', 'Abstract']
           },
           data: [
             [
@@ -44,18 +44,18 @@ Some more examples of concrete nouns are:
           ]
         },
           {
-              type: 'selectWord',
-              label: 'Select the word.',
-              id: 'select-word',
-              commonData: {
-              title: 'Select the concrete noun in the below sentences.'
-                  },
-                  data: [
-                    `The *melody* is wonderful.
-                    You can have some *pie* after dinner.
-                    The loud *noise* made mom upset.
-                    You need good *friends*.
-                    Seema felt love for her new *dog*.`,
+      type: 'selectWord',
+      label: 'Select the word.',
+      id: 'select-word',
+      commonData: {
+      title: 'Select the concrete noun in the below sentences.'
+          },
+      data: [
+    `The *melody* is wonderful.
+    You can have some *pie* after dinner.
+    The loud *noise* made mom upset.
+    You need good *friends*.
+    Seema felt love for her new *dog*.`,
       
       `Curiosity killed the *cat*.
       A *dove* is a symbol of peace.
@@ -64,53 +64,53 @@ Some more examples of concrete nouns are:
       The math *formula* is stored in your memory.`
                    ]
                 },
-                {
-                  label: 'Classify-1',
-                  type: 'classifySentence',
-                  id: 'classify-abstract-concrete',
-                  data: {
-                  title: 'Classify whether these nouns are abstract or concrete.',
-                    types: [
-                      {
-                        name: 'Abstract',
-                        text: `Luxury
-                               Joy
-                               Maturity
-                               Work`
-                      },
-                      {
-                        name: 'Concrete',
-                        text: `Table
-                               Feet
-                               Melody
-                               Pie`
-                      }
-                    ]
-                  }
-                },
-                {
-                  label: 'Classify-2',
-                  type: 'classifySentence',
-                  id: 'classify-abstract-concrete-2',
-                  data: {
-                  title: 'Identify if these sentences have alliteration or not',
-                    types: [
-                      {
-                        name: 'Abstract',
-                        text: `Happiness
-                               Dinner
-                               Habit
-                               Manners`
-                      },
-                      {
-                        name: 'Concrete',
-                        text: `Fish
-                               Grapes
-                               Soap
-                               Stairs`
-                      }
-                    ]
-                  }
-                }
-              ]
-            };
+{
+  label: 'Classify-1',
+  type: 'classifySentence',
+  id: 'classify-abstract-concrete',
+  data: {
+  title: 'Classify whether these nouns are abstract or concrete.',
+    types: [
+      {
+    name: 'Abstract',
+    text: `Luxury
+           Joy
+           Maturity
+           Work`
+  },
+  {
+    name: 'Concrete',
+    text: `Table
+           Feet
+           Melody
+           Pie`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Classify-2',
+      type: 'classifySentence',
+      id: 'classify-abstract-concrete-2',
+      data: {
+      title: 'Identify if these sentences have alliteration or not',
+        types: [
+          {
+            name: 'Abstract',
+            text: `Happiness
+                   Dinner
+                   Habit
+                   Manners`
+          },
+          {
+            name: 'Concrete',
+            text: `Fish
+                   Grapes
+                   Soap
+                   Stairs`
+          }
+        ]
+      }
+    }
+  ]
+};
