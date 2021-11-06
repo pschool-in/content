@@ -6,7 +6,7 @@ export default {
       {
         label: 'Exclamation mark',
         type: 'passage',
-        id: 'exclamation mark-reading',
+        id: 'exclamation-mark-reading',
         data: {
           title: 'Exclamation mark',
           text: `It is used to show strong feelings of joy, sadness, confusion, surprise, etc. This mark can be used after a word, phrase or sentence. The sentences ending with an exclamation mark are called exclamatory sentences. 
@@ -171,7 +171,7 @@ We also use period in front of abbreviations. For example,
       {
         label: 'Apostrophe/Contraction',
         type: 'passage',
-        id: 'apostrophe-Contraction-reading',
+        id: 'apostrophe-contraction-reading',
         data: {
           title: 'Apostrophe/Contraction',
           text: `An apostrophe is used for making a contraction. A contraction is made by combining two words into one. We put an apostrophe in place of a missing letter. 
