@@ -99,8 +99,8 @@ We *may not* have to leave.`
             `Have, Am, Are, Is`
           ],
           [
-            'Can, May, Will, Would',
-            'If, She, They, It'
+            `Can, May, Will, Would`,
+            `If, She, They, It`
           ]
         ]
       },
@@ -129,7 +129,7 @@ You *must* improve your spellings.`
         ]
       },
       {
-        id: 'Jumbled-words',
+        id: 'jumbled-words',
         type: 'sequence',
         label: 'Jumbled Words',
         commonData: {
@@ -160,6 +160,6 @@ If we had more chocolates, we *could* eat more.
 We *must* not steal from anyone.
 We *ought* to practice more.`
             ]
-          },
+          }
         ]
       };
