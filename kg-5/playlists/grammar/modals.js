@@ -31,7 +31,7 @@ He *may (can)* be at home.`
       }
     },
     {
-        label: 'Fill in the blanks (fill up by drag)',
+        label: 'Fill in the blanks',
         type: 'matchByDragDrop',
         id: 'drag-and-drop-1',
         commonData: {
