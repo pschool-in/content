@@ -78,6 +78,59 @@ export default {
     We’re having *soup* for *dinner*.
     *Lavina* brought *cake* to the *party*.`
                 ]
-              }
-            ]
-          };
+              },
+    {
+      "id": "1635961075354",
+      "editable": true,
+      "type": "wordsearch",
+      "label": "WordSearch - nouns",
+      "data": {
+        "title": "Find the given words from the table.",
+        "words": [
+          {
+            "word": ["N", "O", "U", "N", "S"],
+            "marker": [3, 2, 7, 6]
+          },
+          {
+            "word": ["P", "E", "R", "S", "O", "N"],
+            "marker": [1, 5, 6, 5]
+          },
+          {
+            "word": ["P", "L", "A", "C", "E"],
+            "marker": [1, 5, 5, 9]
+          },
+          {
+            "word": ["A", "N", "I", "M", "A", "L"],
+            "marker": [6, 4, 6, 9]
+          },
+          {
+            "word": ["W", "O", "R", "D", "S"],
+            "marker": [9, 0, 9, 4]
+          },
+          {
+            "word": ["T", "H", "I", "N", "G"],
+            "marker": [3, 0, 7, 0]
+          },
+          {
+            "word": ["N", "A", "M", "E", "S"],
+            "marker": [0, 1, 4, 5]
+          }
+        ],
+        "table": [
+          ["H", "O", "C", "T", "H", "I", "N", "G", "K", "W"],
+          ["N", "O", "P", "S", "M", "O", "V", "P", "W", "O"],
+          ["P", "A", "M", "N", "B", "G", "P", "K", "J", "R"],
+          ["T", "M", "M", "N", "O", "F", "C", "D", "X", "D"],
+          ["K", "C", "A", "E", "V", "U", "A", "K", "F", "S"],
+          ["U", "P", "E", "R", "S", "O", "N", "K", "B", "J"],
+          ["J", "Q", "L", "D", "U", "M", "I", "S", "L", "H"],
+          ["H", "M", "S", "A", "K", "M", "M", "F", "N", "V"],
+          ["R", "L", "I", "E", "C", "C", "A", "E", "R", "B"],
+          ["D", "N", "Q", "J", "U", "E", "L", "V", "K", "R"]
+        ],
+        "lang": "en",
+        "showWords": true
+      }
+    }
+  ]
+};
