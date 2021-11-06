@@ -1,12 +1,12 @@
 export default {
-  id: 'Simile',
+  id: 'simile',
   label: 'Simile',
   pdf: '',
   list: [
     {
       label: 'Simile - Reading',
       type: 'passage',
-      id: 'Simile-reading',
+      id: 'simile-reading',
       data: {
         title: 'Simile',
         text: `A Simile is a term used to compare two different things and show a common quality between them. A Simile uses words like or as to draw a comparison. Similes are an important tool that makes the language more creative, descriptive and entertaining.
@@ -127,7 +127,7 @@ For example:
            },
            {
             label: 'Simile or Not a simile',
-            id: 'classify-Sentence',
+            id: 'classify-sentence',
             type: 'classifySentence',
             commonData: {
                 title: 'Identify whether the given sentence is a simile or not a simile',
@@ -149,7 +149,7 @@ For example:
         My mom is a bear in the mornings.`
                   ]
                ]
-            },
+            }
           ]
         };
       
