@@ -23,11 +23,11 @@ A few examples of such sentences are:
         label: 'Fill in the blanks',
         type: 'fillupOptions',
         data: {
-          text: `Should I get the umbrella *?, ., !*
-          Yikes *!, ., ?* I hear thunder.
-          We should go inside *., !, ?*
-          Quick, call the dog *!, ., ?*
-          Have you written your homework *?, ., !*`,
+          text: `Should I get the umbrella *? (., !)*
+          Yikes *! (., ?)* I hear thunder.
+          We should go inside *. (!, ?)*
+          Quick, call the dog *! (., ?)*
+          Have you written your homework *? (., !)*`,
           title: 'Choose the correct punctuation. Tap on each blank for options.'
         }
       },
@@ -93,11 +93,11 @@ We also use period in front of abbreviations. For example,
         label: 'Fill in the blanks',
         type: 'fillupOptions',
         data: {
-          text: `Mr. Mac is a firefighter *., !, ?*
-          How many balls are there *?, !, .*
-          I am 10 years old *., !, ?*
-          What a beautiful day *!, ., ?*
-          My home is outside the city *., ?, !*`,
+          text: `Mr. Mac is a firefighter *. (!, ?)*
+          How many balls are there *? (!, .)*
+          I am 10 years old *. (!, ?)*
+          What a beautiful day *! (., ?)*
+          My home is outside the city *. (?, !)*`,
           title: 'Choose the correct option. Tap on each blank for options.'
         }
       },
@@ -250,11 +250,11 @@ We also put commas in between the series of words. For example:
         label: 'Fill in the blanks',
         type: 'fillupOptions',
         data: {
-          text: `I have my exams from November *,, ., ?* 21.
-          He likes cricket, kho-kho and hockey *., ,, ?*.
-          January 31 *,, ., ?* 2024.
-          May i come in *?, ., ,,*
-          She carries lunch *,, ., ?* bottle and bag to school.`,
+          text: `I have my exams from November *, (., ?)* 21.
+          He likes cricket, kho-kho and hockey *. (,, ?)*.
+          January 31 *, (., ?)* 2024.
+          May i come in *? (., ,)*
+          She carries lunch *, (., ?)* bottle and bag to school.`,
           title: 'Choose the correct option. Tap on each blank for options.'
         }
       },
@@ -295,11 +295,11 @@ We also put commas in between the series of words. For example:
         label: 'Fill in the blanks',
         type: 'fillupOptions',
         data: {
-          text: `What is this *?, ., !*
-          What a pleasant day *!, ?, .*
-          How many books do you have *?, ., !*
-          I am an obedient child *., !, ?*
-          Why is the sky blue *?, ., !*`,
+          text: `What is this *? (., !)*
+          What a pleasant day *! (?, .)*
+          How many books do you have *? (., !)*
+          I am an obedient child *. (!, ?)*
+          Why is the sky blue *? (., !)*`,
           title: 'Choose the correct option. Tap on each blank for options.'
         }
       },
@@ -323,6 +323,6 @@ We also put commas in between the series of words. For example:
             }
           ]
         }
-      },
+      }
     ]
 };
