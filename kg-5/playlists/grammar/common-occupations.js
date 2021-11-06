@@ -269,6 +269,112 @@ A blacksmith is a person who makes different things out of scrap metals like iro
           Cobbler, Cobblar`
         }
       }
+        {
+      "id": "1635960563407",
+      "editable": true,
+      "type": "wordsearch",
+      "label": "WordSearch - occupations-1",
+      "data": {
+        "title": "Find the given words from the table.",
+        "words": [
+          {
+            "word": ["P", "L", "U", "M", "B", "E", "R"],
+            "marker": [6, 0, 6, 6]
+          },
+          {
+            "word": ["C", "O", "B", "B", "L", "E", "R"],
+            "marker": [0, 6, 6, 6]
+          },
+          {
+            "word": ["S", "I", "N", "G", "E", "R"],
+            "marker": [1, 1, 6, 6]
+          },
+          {
+            "word": ["B", "A", "R", "B", "E", "R"],
+            "marker": [3, 1, 8, 6]
+          },
+          {
+            "word": ["F", "A", "R", "M", "E", "R"],
+            "marker": [8, 4, 8, 9]
+          },
+          {
+            "word": ["B", "L", "A", "C", "K", "S", "M", "I", "T", "H"],
+            "marker": [0, 9, 0, 0]
+          },
+          {
+            "word": ["G", "A", "R", "D", "E", "N", "E", "R"],
+            "marker": [1, 9, 8, 9]
+          }
+        ],
+        "table": [
+          ["H", "Q", "G", "K", "N", "Y", "P", "S", "G"],
+          ["T", "S", "W", "B", "Z", "H", "L", "V", "O"],
+          ["I", "E", "I", "Y", "A", "W", "U", "L", "E"],
+          ["M", "O", "L", "N", "H", "R", "M", "Q", "W"],
+          ["S", "E", "Y", "R", "G", "I", "B", "V", "F"],
+          ["K", "Z", "R", "N", "M", "E", "E", "E", "A"],
+          ["C", "O", "B", "B", "L", "E", "R", "J", "R"],
+          ["A", "L", "O", "V", "E", "M", "S", "Z", "M"],
+          ["L", "O", "V", "K", "R", "E", "K", "O", "E"],
+          ["B", "G", "A", "R", "D", "E", "N", "E", "R"]
+        ],
+        "lang": "en",
+        "showWords": true
+      }
+    },
+    {
+      "id": "1635960900264",
+      "editable": true,
+      "type": "wordsearch",
+      "label": "WordSearch - occupations-2",
+      "data": {
+        "title": "Find the given words from the table.",
+        "words": [
+          {
+            "word": ["S", "A", "L", "E", "S", "M", "A", "N"],
+            "marker": [8, 0, 8, 7]
+          },
+          {
+            "word": ["C", "A", "R", "P", "E", "N", "T", "E", "R"],
+            "marker": [1, 3, 9, 3]
+          },
+          {
+            "word": ["B", "A", "K", "E", "R"],
+            "marker": [1, 2, 5, 6]
+          },
+          {
+            "word": ["T", "E", "A", "C", "H", "E", "R"],
+            "marker": [0, 8, 6, 8]
+          },
+          {
+            "word": ["D", "O", "C", "T", "O", "R"],
+            "marker": [0, 0, 0, 5]
+          },
+          {
+            "word": ["D", "R", "I", "V", "E", "R"],
+            "marker": [0, 0, 5, 0]
+          },
+          {
+            "word": ["W", "E", "A", "V", "E", "R"],
+            "marker": [4, 9, 9, 9]
+          }
+        ],
+        "table": [
+          ["D", "R", "I", "V", "E", "R", "H", "L", "S", "S"],
+          ["O", "T", "E", "Q", "K", "I", "S", "E", "A", "J"],
+          ["C", "B", "X", "L", "L", "C", "S", "C", "L", "N"],
+          ["T", "C", "A", "R", "P", "E", "N", "T", "E", "R"],
+          ["O", "P", "E", "K", "F", "Y", "I", "V", "S", "O"],
+          ["R", "R", "G", "N", "E", "C", "B", "N", "M", "Q"],
+          ["V", "W", "D", "J", "R", "R", "I", "A", "A", "H"],
+          ["J", "Y", "R", "T", "H", "M", "S", "M", "N", "F"],
+          ["T", "E", "A", "C", "H", "E", "R", "E", "N", "L"],
+          ["R", "N", "X", "K", "W", "E", "A", "V", "E", "R"]
+        ],
+        "lang": "en",
+        "showWords": true
+       }
+      }
     ]
   };
         
