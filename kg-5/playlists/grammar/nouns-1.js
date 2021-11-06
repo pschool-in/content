@@ -78,6 +78,6 @@ export default {
     We’re having *soup* for *dinner*.
     *Lavina* brought *cake* to the *party*.`
                 ]
-              },
+              }
             ]
           };
