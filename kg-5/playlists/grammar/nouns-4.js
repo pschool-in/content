@@ -38,8 +38,8 @@ Some more examples of concrete nouns are:
               `Hope, Love, Angry, Trust`
             ],
             [
-              'Soldier, Friend, Artist, Judge',
-              'Peace, Justice, Artistry, Friendship'
+              `Soldier, Friend, Artist, Judge`,
+              `Peace, Justice, Artistry, Friendship`
             ]
           ]
         },
@@ -73,11 +73,17 @@ Some more examples of concrete nouns are:
                     types: [
                       {
                         name: 'Abstract',
-                        text: `Luxury, Joy, Maturity, Work`
+                        text: `Luxury
+                               Joy
+                               Maturity
+                               Work`
                       },
                       {
                         name: 'Concrete',
-                        text: `Table, Feet, Melody, Pie`
+                        text: `Table
+                               Feet
+                               Melody
+                               Pie`
                       }
                     ]
                   }
@@ -91,11 +97,17 @@ Some more examples of concrete nouns are:
                     types: [
                       {
                         name: 'Abstract',
-                        text: `Happiness, Dinner, Habit, Manners`
+                        text: `Happiness
+                               Dinner
+                               Habit
+                               Manners`
                       },
                       {
                         name: 'Concrete',
-                        text: `Fish, Grapes, Soap, Stairs`
+                        text: `Fish
+                               Grapes
+                               Soap
+                               Stairs`
                       }
                     ]
                   }
