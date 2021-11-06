@@ -19,17 +19,17 @@ export default {
         }
       },
         {
-        id: 'Jumbled-words',
+        id: 'jumbled-words',
         type: 'sequence',
         label: 'Identify',
         commonData: {
             title: 'Join the letters to form an action word'
           },
         data: [
-            'read, plays, runs, take, tell',
-    'jump, hop, cry, smile, sing',
-    'walk, laugh, fly, eat, sit',
-    'cook, sleep, catch, write, listen',
+             `read, plays, runs, take, tell `,
+     `jump, hop, cry, smile, sing `,
+     `walk, laugh, fly, eat, sit `,
+     `cook, sleep, catch, write, listen `,
               ]
         },
         {
@@ -85,6 +85,6 @@ export default {
              They are *riding* a bicycle.
              She is *singing* a song.`,
             ]
-          },
+          }
         ]
       };
