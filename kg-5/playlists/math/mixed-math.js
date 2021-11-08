@@ -24,15 +24,28 @@ export default {
     {
       label: 'Count Arithmetic - Addition',
       type: 'countArithmetic',
-      data: { type: 'addition' },
+      data: { type: 'addition', prefill: true },
       id: 'count-add'
+    },
+    {
+      label: 'Count Arithmetic - Addition - 2',
+      type: 'countArithmetic',
+      data: { type: 'addition' },
+      id: 'count-add-2'
     },
     {
       label: 'Count Arithmetic - Subtraction',
       type: 'countArithmetic',
-      data: { type: 'subtraction' },
+      data: { type: 'subtraction', prefill: true },
       locked: true,
       id: 'count-sub'
+    },
+    {
+      label: 'Count Arithmetic - Subtraction - 2',
+      type: 'countArithmetic',
+      data: { type: 'subtraction' },
+      locked: true,
+      id: 'count-sub-2'
     },
     {
       label: 'Find the Value',
@@ -274,7 +287,7 @@ export default {
       label: 'Number Name (10-20)',
       type: 'matchByDragDrop',
       id: 'numbername1020',
-  
+
       data: {
         isPractice: false,
         title: 'Drag and drop the numbers at proper name.',
@@ -289,6 +302,6 @@ export default {
         Fourteen : *14*
         Twelve : *12*`
       }
-    },
+    }
   ]
 };

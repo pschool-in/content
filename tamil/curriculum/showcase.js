@@ -15,7 +15,7 @@ import barathi from '../playlists/barathi';
 import sound from '../playlists/ta-sound';
 */
 
-import writing from '../playlists/default/ta-writing.js';
+import letter from '../playlists/default/ta-letter.js';
 import picture from '../playlists/default/ta-picture.js';
 import grammar from '../playlists/default/ta-grammar.js';
 import vocabulary from '../playlists/default/ta-word.js';
@@ -41,7 +41,7 @@ export default {
     fontSize: '0.9rem'
   },
   list: [
-    writing,
+    letter,
     sound,
     picture,
     vocabulary,

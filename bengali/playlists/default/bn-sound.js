@@ -9,7 +9,7 @@ export default {
       id: 'fruits',
       label: 'ফল',
       commonData: {
-        audio: 'bn-fruits.mp3'
+        audio: 'bn/bn-fruits.mp3'
       },
       data: [
         {

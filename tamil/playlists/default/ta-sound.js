@@ -8,7 +8,7 @@ export default {
       id: 'animals',
       label: 'விலங்குகள்',
       commonData: {
-        audio: 'ta-animals.mp3',
+        audio: 'ta/ta-animals.mp3',
         title: 'விலங்குகள்: படமும் ஒலியும்'
       },
       data: [
@@ -80,7 +80,7 @@ rabbit| முயல் `
       label: 'பறவைகள்',
       commonData: {
         title: 'பறவைகள் : படமும் ஒலியும்',
-        audio: 'ta-birds.mp3'
+        audio: 'ta/ta-birds.mp3'
       },
       data: [
         {
@@ -113,7 +113,7 @@ woodpecker | மரங்கொத்தி`
       label: 'பழங்கள் ',
       commonData: {
         title: 'பழங்கள்  : படமும் ஒலியும்',
-        audio: 'ta-fruits.mp3'
+        audio: 'ta/ta-fruits.mp3'
       },
       data: [
         {
@@ -142,7 +142,7 @@ dates | பேரிச்சை`
       label: 'காய்கறிகள்  ',
       commonData: {
         title: 'காய்கறிகள் : படமும் ஒலியும்',
-        audio: 'ta-vegetables.mp3'
+        audio: 'ta/ta-vegetables.mp3'
       },
       data: [
         {
@@ -187,7 +187,7 @@ spinach | கீரை`
       label: 'பூக்கள்',
       data: {
         title: 'பூக்கள் : படமும் ஒலியும்',
-        audio: 'ta-flowers-bodyParts.mp3',
+        audio: 'ta/ta-flowers-bodyParts.mp3',
         audioOffset: 3,
         audioWidth: 3,
         text: `rose | ரோஜா 
@@ -204,7 +204,7 @@ jasmine | மல்லிகை `
       label: 'உடல் உறுப்புகள்',
       data: {
         title: 'உடல் உறுப்புகள்',
-        audio: 'ta-flowers-bodyParts.mp3',
+        audio: 'ta/ta-flowers-bodyParts.mp3',
         audioOffset: 23,
         text: `ear | காது 
 eye | கண் 
@@ -221,7 +221,7 @@ tooth | பற்கள்`
       id: 'vehicles',
       label: 'வாகனங்கள்',
       commonData: {
-        audio: 'ta-vehicles.mp3'
+        audio: 'ta/ta-vehicles.mp3'
       },
       data: [
         {
@@ -248,7 +248,7 @@ tractor | இழுவை இயந்திரம்`
       id: 'tools',
       label: 'கருவிகள்',
       commonData: {
-        audio: 'ta-tools.mp3'
+        audio: 'ta/ta-tools.mp3'
       },
       data: [
         {
@@ -277,7 +277,7 @@ compass | திசைகாட்டி`
       id: 'others',
       label: 'படமும் பெயரும் ',
       commonData: {
-        audio: 'ta-others.mp3'
+        audio: 'ta/ta-others.mp3'
       },
       data: [
         {
@@ -345,7 +345,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-animals.mp3'
+        audio: 'ta/ta-animals.mp3'
       },
       data: [
         {
@@ -382,7 +382,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-birds.mp3'
+        audio: 'ta/ta-birds.mp3'
       },
       data: [
         {
@@ -403,7 +403,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-fruits.mp3'
+        audio: 'ta/ta-fruits.mp3'
       },
       data: [
         {
@@ -423,7 +423,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-vegetables.mp3'
+        audio: 'ta/ta-vegetables.mp3'
       },
       data: [
         {
@@ -450,7 +450,7 @@ watch | கைக்கடிகாரம்`
       data: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-flowers-bodyParts.mp3',
+        audio: 'ta/ta-flowers-bodyParts.mp3',
         audioOffset: 3,
         audioWidth: 3,
         words: 'rose, lotus, sunflower, marigold, hibiscus, jasmine'
@@ -463,7 +463,7 @@ watch | கைக்கடிகாரம்`
       data: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-flowers-bodyParts.mp3',
+        audio: 'ta/ta-flowers-bodyParts.mp3',
         audioOffset: 23,
         words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
       }
@@ -475,7 +475,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-vehicles.mp3'
+        audio: 'ta/ta-vehicles.mp3'
       },
       data: [
         {
@@ -495,7 +495,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-tools.mp3'
+        audio: 'ta/ta-tools.mp3'
       },
       data: [
         {
@@ -516,7 +516,7 @@ watch | கைக்கடிகாரம்`
       commonData: {
         title: 'ஒலியை கேட்டு தேர்வு செய்க.',
         type: 'image',
-        audio: 'ta-others.mp3'
+        audio: 'ta/ta-others.mp3'
       },
       data: [
         {

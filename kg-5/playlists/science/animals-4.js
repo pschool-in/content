@@ -42,11 +42,12 @@ export default {
       type: 'match',
       data: {
         text: `Cat, Kitten
-                Dog, Puppy
-                Butterfly, Caterpillar
-                Goat, Lamb
-                Lion, Cub
-                Horse, Foal`,
+Dog, Puppy
+Butterfly, Caterpillar
+Goat, Lamb
+Lion, Cub
+Horse, Foal`,
+
         title: 'Match the babies'
       }
     },
@@ -95,11 +96,11 @@ export default {
           dashWidth: 80
         },
         text: `The four stages of butterfly growth are egg, larva, *pupa*, and adult.
-                In some animals, the young ones look very different from the adult form, this change in the form is called *metamorphosis*.
-                Animals like *ants*, snakes, frogs, and crow lay eggs.
-                There are many *differences* between the caterpillar and butterfly.
-                A butterfly lays eggs on the *leaves* of a plant.
-                *Moult* means to shed old skin to make way for new growth.`
+In some animals, the young ones look very different from the adult form, this change in the form is called *metamorphosis*.
+Animals like *ants*, snakes, frogs, and crow lay eggs.
+There are many *differences* between the caterpillar and butterfly.
+A butterfly lays eggs on the *leaves* of a plant.
+*Moult* means to shed old skin to make way for new growth.`
       }
     },
     {
