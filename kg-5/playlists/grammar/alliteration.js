@@ -9,7 +9,7 @@ export default {
       id: 'alliteration-reading',
       data: {
         title: 'Alliteration',
-        text: `It is generally used in poetry. It is a style of writinng in which a series of words have the same consonant sound. Some examples of alliteration are;
+        text: `It is generally used in poetry. It is a style of writing in which a series of words have the same consonant sound. Some examples of alliteration are;
         The boy bounced the ball in the basket. ("boy bounced the ball" is alliteration)
         A big brown bear bumped into our boxes. ("big brown bear bumped" is the alliteration)
         My neighbour is normally noisy. ("neighbour is normally noisy" is the alliteration)`
@@ -78,7 +78,7 @@ export default {
         types: [
           {
             name: 'True',
-            text: `Alliteration is a peotic technique.
+            text: `Alliteration is a poetic technique.
             Alliteration has a series of same sound words.`
           },
           {
@@ -98,8 +98,8 @@ export default {
           types: [
             {
               name: 'Yes',
-              text: `The sherif put his shiny star-shaped batch.
-              I sometimes hear shounds of someone saying something.`
+              text: `The sheriff put his shiny star-shaped batch.
+              I sometimes hear sounds of someone saying something.`
             },
             {
               name: 'No',
@@ -158,7 +158,7 @@ export default {
             text: `The *sticky stuff got stuck* in my shoes.
           The *raccoon ran rapidly* in towards the bushes.
           The *pink pigs played* in the mud.
-          I kept the apples in the *big blue bowl*.
+          I kept the apples in the *big blue bowl.*
           *Sara silently sneaked* into her brother's room.`
         }
     },
@@ -168,10 +168,10 @@ export default {
     id: 'select-word-2',
     data: {
       title: `Select the alliteration in the sentences.`,
-      text: `*My mother makes marvelous melon*cakes.
+      text: `*My mother makes marvelous melon* cakes.
       *Four friends finshed* their homework.
-      *Betty bough butter* from the market.
-      The *cat climbed carefully* but still fell downn.
+      *Betty bought butter* from the market.
+      The *cat climbed carefully* but still fell down.
       *Sakshi stopped staring* when someone called her name.`
     }
   },
@@ -181,10 +181,10 @@ export default {
     id: 'select-word-3',
     data: {
       title: `Select the alliteration in the sentences.`,
-      text: `*Dani's dogs drank* from the pot.
-      Vidhi saw a *jellyfish jiggle*.
+      text: `*Dani's dog drank* from the pot.
+      Vidhi saw a *jellyfish jiggle.*
       The *audience applauded* at the end of the play.
-      We love *Abhay's aunt's apples*.
+      We love *Abhay's aunt's apples.*
       *Falguni's friends fed* the street dogs.`
       }
     }
