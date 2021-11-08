@@ -39,7 +39,7 @@ export default {
       ],
       [
         `Happy, Perfect, Wise, Wonderful`,
-        `Cruel, Lousy, Boring, Clingy`
+        `Cruel, Sad, Boring, Dull`
       ],
       [
         `Talented, Natural, Caring, Amazing`,
@@ -69,7 +69,7 @@ export default {
         },
         data: [
           `A ball is *round* in shape.
-          A *good* chess player is usually *smart*.
+          A *good* chess player is usually *smart.*
           My friend has a *brown* muffler.
           I have a *red* cap.
           Aman is *confused* about a maths problem.`,
@@ -78,7 +78,7 @@ export default {
           A *fast* car always win in races.
           Coconut trees are *tall*.
           A lion roars very *loudly*.
-          Goods train is very *long*.`,
+          Goods train is very *long.*`,
   
          `A *poor* man was sitting on roadside.
          This is a *pleasant* weather.
