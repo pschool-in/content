@@ -1,5 +1,5 @@
 export default {
-  label: 'Word Problems',
+  label: 'Word Problems - Level 1',
   id: 'word-problems-1',
   //word problems for class 1 students
   list: [
