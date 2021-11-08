@@ -3,7 +3,7 @@ export default {
   label: 'Alliteration',
   pdf: '',
   list: [
-    {
+     {
       label: 'Alliteration - Reading',
       type: 'passage',
       id: 'alliteration-reading',
@@ -15,7 +15,7 @@ export default {
         My neighbour is normally noisy. ("neighbour is normally noisy" is the alliteration)`
       }
     },
-   {
+      {
         label: 'Fill in the blanks',
         type: 'matchByDragDrop',
         id: 'drag-and-drop',
@@ -96,7 +96,7 @@ How many feet of *fruit* did freaky Fred find?`
           ]
         ]
       },
-          {
+           {
             type: 'selectWord',
             label: 'Identify the alliteration',
             id: 'select-word',
