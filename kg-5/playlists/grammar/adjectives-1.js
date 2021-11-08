@@ -138,7 +138,7 @@ export default {
              ]
            },
            {
-            label: 'Multiple Choice Questions (MCQ)-1',
+            label: 'Multiple Choice Questions-1',
             type: 'mcq',
             id: '100',
             data: {
@@ -168,7 +168,7 @@ export default {
             }
           },
           {
-            label: 'Multiple Choice Questions (MCQ)-2',
+            label: 'Multiple Choice Questions-2',
             id: '200',
             type: 'mcq',
             data: {
@@ -200,7 +200,7 @@ export default {
             }
           },
           {
-              label: 'Multiple Choice Questions (MCQ)-3',
+              label: 'Multiple Choice Questions-3',
               id: '300',
               type: 'mcq',
               data: {
