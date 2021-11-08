@@ -286,7 +286,7 @@ export default {
       }
     },
     {
-      id: '1600',
+      id: '1650',
       type: 'passage',
       label: 'সোনা নাচে কোনা',
       data: {
@@ -369,6 +369,6 @@ export default {
           }
         ]
       }
-    },
+    }
   ]
 };

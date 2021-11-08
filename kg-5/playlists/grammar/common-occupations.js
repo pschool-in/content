@@ -1,15 +1,15 @@
 export default {
-    id: 'common-occupations',
-    label: 'Common Occupations',
-    pdf: '',
-    list: [
-      {
-        label: 'Common Occupations-1',
-        type: 'passage',
-        id: 'common-occupations-1-reading',
-        data: {
-          title: 'Common Occupations-1',
-          text: `# 1. Teacher
+  id: 'common-occupations',
+  label: 'Common Occupations',
+  pdf: '',
+  list: [
+    {
+      label: 'Common Occupations-1',
+      type: 'passage',
+      id: 'common-occupations-1-reading',
+      data: {
+        title: 'Common Occupations-1',
+        text: `# 1. Teacher
           A teacher helps us acquire knowledge. A good teacher has a very important role in a student's life. They lay foundations of their values, knowledge and principles. We must always respect our teachers.
 
 # 2. Engineer
@@ -53,15 +53,15 @@ A weaver is an expert in weaving. There are two types of weavers. Handweavers do
 
 # 15. Goldsmith
 A goldsmith is a person who specializes in working with gold and other precious metals. They mainly specialize in making jewelry and other decoratives. They do this by cutting, melting, beating and polishing the precious metals and stones.`
-        }
-      },
-      {
-        label: 'Common Occupations-2',
-        type: 'passage',
-        id: 'common-occupations-2-reading',
-        data: {
-          title: 'Common Occupations-2',
-          text: `# 1. Nurse
+      }
+    },
+    {
+      label: 'Common Occupations-2',
+      type: 'passage',
+      id: 'common-occupations-2-reading',
+      data: {
+        title: 'Common Occupations-2',
+        text: `# 1. Nurse
 A nurse provides care to the patients in the hospitals. They help them get rid of their pain and discomfort. They also educate them about their health condition and what they can do to get better. They also educate them on how to stay healthy.
 
 # 2. Singer
@@ -108,274 +108,271 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       }
     },
     {
-        id: 'match',
-        label: 'Match the following',
-        type: 'match',
-        commonData: {
-            title: 'Match the pairs'
-        },
-       
-        data: [
-         `Doctor, Hospital
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      commonData: {
+        title: 'Match the pairs'
+      },
+
+      data: [
+        `Doctor, Hospital
           Shopkeeper, Shop
           Fisherman, Sea
           Driver, Vehicles
           Teacher, School`,
-         
-         `Blacksmith, Scrap
+
+        `Blacksmith, Scrap
           Salesman, Sells
           Writer, Books
           Baker, Bakery
           Electrician, Wires`,
-          
-         `Carpenter, Wood
+
+        `Carpenter, Wood
           Cobbler, Shoes
           Police, Safety
           Shepherd, Flock
           Plumber, Pipes`,
-          
-        
-         `Nurse, Hospital
+
+        `Nurse, Hospital
           Singer, Melody
           Goldsmith, Gold
           Barber, Haircut
           Tailor, Clothes`,
 
-          `Weaver, Weaving
+        `Weaver, Weaving
           Gardner, Lawns
           Potter, Clay
           Farmer, Field
-          Dancer, Performance`,
-          ]
-        },
-      {
-        label: 'True or False',
-        id: 'tf',
-        type: 'classifySentence',
-        commonData: {
-            title: 'State whether these statements are true or false.',
-            types: ['True', 'False']
-          },
-        data: [
-           [
-             `A cobbler is a person who repairs shoes.
+          Dancer, Performance`
+      ]
+    },
+    {
+      label: 'True or False',
+      id: 'tf',
+      type: 'classifySentence',
+      commonData: {
+        title: 'State whether these statements are true or false.',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `A cobbler is a person who repairs shoes.
               Shepherd is one of the oldest occupations.
               A singer has a melodious voice.`,
-    `Dancers work in hospitals.
+          `Dancers work in hospitals.
     Shopkeeper helps the patients.
     An actor is an expert in dancing.`
-           ],
-            [`A farmer is the most important unit of agriculture.
+        ],
+        [
+          `A farmer is the most important unit of agriculture.
               We have no threat of robbery if we have a watchman.
               A potter makes pottery on a spinning wheel.`,
-    `Gardner takes care of the law.
+          `Gardner takes care of the law.
      A weaver sews our clothes as per our demands.
     Goldsmith makes things out of scrap.`
-            ],
-              [
-                 `Blacksmith moulds the scrap into usable products.
+        ],
+        [
+          `Blacksmith moulds the scrap into usable products.
                  A tailor sews our clothes as per our demands.
                  Barber styles our hair.`,
-    `A carpenter works with shoes.
+          `A carpenter works with shoes.
     A baker serves people at a restaurant.
     A plumber helps to repair vehicles.`
-              ]
-           ]
-        },
-      {
-        label: 'Multiple Choice Questions',
-        id: 'mcq',
-        type: 'mcq',
-        data: {
-          title: 'Choose the correct answer.',
-          questions: [
-            {
-              qText: 'Who assists patients in the hospital?',
-              options: 'Nurse, Teacher, Watchman'
-            },
-            {
-              qText: 'Who is an expert in jewelry-making?',
-              options: 'Goldsmith, Blacksmith, Cobbler'
-            },
-            {
-              qText:
-                'Who is skilled with the wooden frameworks?',
-              options: `Carpenter, Blacksmith, Cobbler`
-            },
-            {
-              qText: 'Who makes cakes and pastries?',
-              options: 'Baker, Nurse, Teacher'
-            },
-            {
-              qText: 'Who maintains law and order?',
-              options: 'Police, Conductor, Salesman'
-            }
-          ]
-        }
+        ]
+      ]
+    },
+    {
+      label: 'Multiple Choice Questions',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct answer.',
+        questions: [
+          {
+            qText: 'Who assists patients in the hospital?',
+            options: 'Nurse, Teacher, Watchman'
+          },
+          {
+            qText: 'Who is an expert in jewelry-making?',
+            options: 'Goldsmith, Blacksmith, Cobbler'
+          },
+          {
+            qText: 'Who is skilled with the wooden frameworks?',
+            options: `Carpenter, Blacksmith, Cobbler`
+          },
+          {
+            qText: 'Who makes cakes and pastries?',
+            options: 'Baker, Nurse, Teacher'
+          },
+          {
+            qText: 'Who maintains law and order?',
+            options: 'Police, Conductor, Salesman'
+          }
+        ]
+      }
+    },
+    {
+      id: 'jumbled-words',
+      type: 'sequence',
+      label: 'Jumbled Words',
+      commonData: {
+        title: 'Identify these occupations.'
       },
-      {
-        id: 'jumbled-words',
-        type: 'sequence',
-        label: 'Jumbled Words',
-        commonData: {
-            title: 'Identify these occupations.'
-          },
-        data: [
-            'Police, Doctor, Driver, Tailor, Barber',
-    'Weaver, Baker, Nurse, Writer, Actor'
-              ]
+      data: [
+        'Police, Doctor, Driver, Tailor, Barber',
+        'Weaver, Baker, Nurse, Writer, Actor'
+      ]
+    },
+    {
+      label: 'Fill in the blanks.',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-1',
+      data: {
+        isPractice: false,
+        title: 'Fill in the blanks by dragging the correct option.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
-      {
-        label: 'Fill in the blanks.',
-        type: 'matchByDragDrop',
-        id: 'drag-drop-1',
-        data: {
-          isPractice: false,
-          title: 'Fill in the blanks by dragging the correct option.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `A *teacher* works in schools.
+        text: `A *teacher* works in schools.
           A *singer* has a melodious voice.
           A *writer* is very creative.
           A *barber* styles our hair.
           A *salesman* sells products and services.`
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Fill up with options',
-        type: 'fillupOptions',
-        data: {
-          text: `A *blacksmith (goldsmith)* works with scrap.
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill up with options',
+      type: 'fillupOptions',
+      data: {
+        text: `A *blacksmith (goldsmith)* works with scrap.
           A *doctor (nurse)* prescribes medicines.
           A *teacher (dancer)* teaches values.
           A *shopkeeper (salesman)* sells products in a shop.
           An *electrician (plumber)* deals with wires.`,
-          title: 'Tap on each blank to view options.'
-        }
-      },
-      {
-        type: 'rightOne',
-        label: 'Correct Spelling',
-        id: 'correct-spelling',
-        data: {
+        title: 'Tap on each blank to view options.'
+      }
+    },
+    {
+      type: 'rightOne',
+      label: 'Correct Spelling',
+      id: 'correct-spelling',
+      data: {
         title: 'Identify the correct spelling.',
-          text: `Police, Poliece
+        text: `Police, Poliece
           Dancer, Danser
           Barber, Barbar
           Writer, Riter
           Cobbler, Cobblar`
-        }
-      }
-        {
-      "id": "1635960563407",
-      "editable": true,
-      "type": "wordsearch",
-      "label": "WordSearch - occupations-1",
-      "data": {
-        "title": "Find the given words from the table.",
-        "words": [
-          {
-            "word": ["P", "L", "U", "M", "B", "E", "R"],
-            "marker": [6, 0, 6, 6]
-          },
-          {
-            "word": ["C", "O", "B", "B", "L", "E", "R"],
-            "marker": [0, 6, 6, 6]
-          },
-          {
-            "word": ["S", "I", "N", "G", "E", "R"],
-            "marker": [1, 1, 6, 6]
-          },
-          {
-            "word": ["B", "A", "R", "B", "E", "R"],
-            "marker": [3, 1, 8, 6]
-          },
-          {
-            "word": ["F", "A", "R", "M", "E", "R"],
-            "marker": [8, 4, 8, 9]
-          },
-          {
-            "word": ["B", "L", "A", "C", "K", "S", "M", "I", "T", "H"],
-            "marker": [0, 9, 0, 0]
-          },
-          {
-            "word": ["G", "A", "R", "D", "E", "N", "E", "R"],
-            "marker": [1, 9, 8, 9]
-          }
-        ],
-        "table": [
-          ["H", "Q", "G", "K", "N", "Y", "P", "S", "G"],
-          ["T", "S", "W", "B", "Z", "H", "L", "V", "O"],
-          ["I", "E", "I", "Y", "A", "W", "U", "L", "E"],
-          ["M", "O", "L", "N", "H", "R", "M", "Q", "W"],
-          ["S", "E", "Y", "R", "G", "I", "B", "V", "F"],
-          ["K", "Z", "R", "N", "M", "E", "E", "E", "A"],
-          ["C", "O", "B", "B", "L", "E", "R", "J", "R"],
-          ["A", "L", "O", "V", "E", "M", "S", "Z", "M"],
-          ["L", "O", "V", "K", "R", "E", "K", "O", "E"],
-          ["B", "G", "A", "R", "D", "E", "N", "E", "R"]
-        ],
-        "lang": "en",
-        "showWords": true
       }
     },
     {
-      "id": "1635960900264",
-      "editable": true,
-      "type": "wordsearch",
-      "label": "WordSearch - occupations-2",
-      "data": {
-        "title": "Find the given words from the table.",
-        "words": [
+      id: '1635960563407',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - occupations-1',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
           {
-            "word": ["S", "A", "L", "E", "S", "M", "A", "N"],
-            "marker": [8, 0, 8, 7]
+            word: ['P', 'L', 'U', 'M', 'B', 'E', 'R'],
+            marker: [6, 0, 6, 6]
           },
           {
-            "word": ["C", "A", "R", "P", "E", "N", "T", "E", "R"],
-            "marker": [1, 3, 9, 3]
+            word: ['C', 'O', 'B', 'B', 'L', 'E', 'R'],
+            marker: [0, 6, 6, 6]
           },
           {
-            "word": ["B", "A", "K", "E", "R"],
-            "marker": [1, 2, 5, 6]
+            word: ['S', 'I', 'N', 'G', 'E', 'R'],
+            marker: [1, 1, 6, 6]
           },
           {
-            "word": ["T", "E", "A", "C", "H", "E", "R"],
-            "marker": [0, 8, 6, 8]
+            word: ['B', 'A', 'R', 'B', 'E', 'R'],
+            marker: [3, 1, 8, 6]
           },
           {
-            "word": ["D", "O", "C", "T", "O", "R"],
-            "marker": [0, 0, 0, 5]
+            word: ['F', 'A', 'R', 'M', 'E', 'R'],
+            marker: [8, 4, 8, 9]
           },
           {
-            "word": ["D", "R", "I", "V", "E", "R"],
-            "marker": [0, 0, 5, 0]
+            word: ['B', 'L', 'A', 'C', 'K', 'S', 'M', 'I', 'T', 'H'],
+            marker: [0, 9, 0, 0]
           },
           {
-            "word": ["W", "E", "A", "V", "E", "R"],
-            "marker": [4, 9, 9, 9]
+            word: ['G', 'A', 'R', 'D', 'E', 'N', 'E', 'R'],
+            marker: [1, 9, 8, 9]
           }
         ],
-        "table": [
-          ["D", "R", "I", "V", "E", "R", "H", "L", "S", "S"],
-          ["O", "T", "E", "Q", "K", "I", "S", "E", "A", "J"],
-          ["C", "B", "X", "L", "L", "C", "S", "C", "L", "N"],
-          ["T", "C", "A", "R", "P", "E", "N", "T", "E", "R"],
-          ["O", "P", "E", "K", "F", "Y", "I", "V", "S", "O"],
-          ["R", "R", "G", "N", "E", "C", "B", "N", "M", "Q"],
-          ["V", "W", "D", "J", "R", "R", "I", "A", "A", "H"],
-          ["J", "Y", "R", "T", "H", "M", "S", "M", "N", "F"],
-          ["T", "E", "A", "C", "H", "E", "R", "E", "N", "L"],
-          ["R", "N", "X", "K", "W", "E", "A", "V", "E", "R"]
+        table: [
+          ['H', 'Q', 'G', 'K', 'N', 'Y', 'P', 'S', 'G'],
+          ['T', 'S', 'W', 'B', 'Z', 'H', 'L', 'V', 'O'],
+          ['I', 'E', 'I', 'Y', 'A', 'W', 'U', 'L', 'E'],
+          ['M', 'O', 'L', 'N', 'H', 'R', 'M', 'Q', 'W'],
+          ['S', 'E', 'Y', 'R', 'G', 'I', 'B', 'V', 'F'],
+          ['K', 'Z', 'R', 'N', 'M', 'E', 'E', 'E', 'A'],
+          ['C', 'O', 'B', 'B', 'L', 'E', 'R', 'J', 'R'],
+          ['A', 'L', 'O', 'V', 'E', 'M', 'S', 'Z', 'M'],
+          ['L', 'O', 'V', 'K', 'R', 'E', 'K', 'O', 'E'],
+          ['B', 'G', 'A', 'R', 'D', 'E', 'N', 'E', 'R']
         ],
-        "lang": "en",
-        "showWords": true
-       }
+        lang: 'en',
+        showWords: true
       }
-    ]
-  };
-        
-           
+    },
+    {
+      id: '1635960900264',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - occupations-2',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['S', 'A', 'L', 'E', 'S', 'M', 'A', 'N'],
+            marker: [8, 0, 8, 7]
+          },
+          {
+            word: ['C', 'A', 'R', 'P', 'E', 'N', 'T', 'E', 'R'],
+            marker: [1, 3, 9, 3]
+          },
+          {
+            word: ['B', 'A', 'K', 'E', 'R'],
+            marker: [1, 2, 5, 6]
+          },
+          {
+            word: ['T', 'E', 'A', 'C', 'H', 'E', 'R'],
+            marker: [0, 8, 6, 8]
+          },
+          {
+            word: ['D', 'O', 'C', 'T', 'O', 'R'],
+            marker: [0, 0, 0, 5]
+          },
+          {
+            word: ['D', 'R', 'I', 'V', 'E', 'R'],
+            marker: [0, 0, 5, 0]
+          },
+          {
+            word: ['W', 'E', 'A', 'V', 'E', 'R'],
+            marker: [4, 9, 9, 9]
+          }
+        ],
+        table: [
+          ['D', 'R', 'I', 'V', 'E', 'R', 'H', 'L', 'S', 'S'],
+          ['O', 'T', 'E', 'Q', 'K', 'I', 'S', 'E', 'A', 'J'],
+          ['C', 'B', 'X', 'L', 'L', 'C', 'S', 'C', 'L', 'N'],
+          ['T', 'C', 'A', 'R', 'P', 'E', 'N', 'T', 'E', 'R'],
+          ['O', 'P', 'E', 'K', 'F', 'Y', 'I', 'V', 'S', 'O'],
+          ['R', 'R', 'G', 'N', 'E', 'C', 'B', 'N', 'M', 'Q'],
+          ['V', 'W', 'D', 'J', 'R', 'R', 'I', 'A', 'A', 'H'],
+          ['J', 'Y', 'R', 'T', 'H', 'M', 'S', 'M', 'N', 'F'],
+          ['T', 'E', 'A', 'C', 'H', 'E', 'R', 'E', 'N', 'L'],
+          ['R', 'N', 'X', 'K', 'W', 'E', 'A', 'V', 'E', 'R']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    }
+  ]
+};
