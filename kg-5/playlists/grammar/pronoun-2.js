@@ -35,8 +35,7 @@ Examples of personal pronouns:
         commonData: {
             title: 'Match the word or group of words given with the corresponding pronoun'
         },
-       
-        data: [
+       data: [
          `Pintu and I, we
 Jashwanth, he
 Rakhi, she
