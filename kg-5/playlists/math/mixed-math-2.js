@@ -6,8 +6,14 @@ export default {
     {
       label: 'Count Arithmetic - Multiply',
       type: 'countArithmetic',
-      data: { type: 'multiply' },
+      data: { type: 'multiply', prefill: true },
       id: 'count-mul'
+    },
+    {
+      label: 'Count Arithmetic - Multiply - 2',
+      type: 'countArithmetic',
+      data: { type: 'multiply' },
+      id: 'count-mul-2'
     },
     {
       type: 'counter',

@@ -16,7 +16,7 @@ import games from '../playlists/default/games';
 */
 
 import coloring from '../playlists/default/coloring.js';
-import writing from '../playlists/default/writing.js';
+import alphabets from '../playlists/default/alphabets.js';
 import grammar from '../playlists/default/grammar.js';
 import vocabulary from '../playlists/default/vocabulary.js';
 import math from '../playlists/default/math.js';
@@ -36,7 +36,7 @@ let mainMenu = {
   style: {},
   list: [
     coloring,
-    writing,
+    alphabets,
     //phonics,
     reading,
     grammar,
