@@ -4,7 +4,7 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Nouns-5',
+      label: 'Noun-5',
       type: 'passage',
       id: 'nouns-5-reading',
       data: {
@@ -13,7 +13,7 @@ export default {
 1. Masculine: The names of all male people or animals are called masculine gender nouns. For example, man, lion, hero, uncle, etc.
 2. Feminine: The names of all female people or animals are called feminine gender nouns. For example, lady, lioness, heroine, aunt, etc.
 3. Neuter: All non-living things cannot be referred to as males or females. So, all naming words that are non-living are called neuter gender nouns. For example, book, pen, chair, table, etc.
-4. Commom: The naming words that be used for both males and females are called common gender nouns. For example, child, parent, student, etc.`
+4. Common: The naming words that be used for both males and females are called common gender nouns. For example, child, parent, student, etc.`
       }
     },
     {
