@@ -311,10 +311,16 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       label: 'Word Problem Fraction',
       lockAfter: 10,
       commonData: {
-        title: 'Answer the word problem in decimal.',
+        title: 'Answer the word problem in simplified fraction.',
         type: 'word-problem'
       },
       data: [
+
+        `A pizza is divided into 6 pieces. You are 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
+        You had 8 balloons. You gifted your friends 5 balloons. What was the fraction of balloons you have gifted your friends? | ?0/?1 | 5, 8
+        You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? ?0/?1 | 1, 5
+        Your school is 12 kms away from your home. You walk for 2 kms and the rest of the distance you take a bus. What is the fraction of the distance you walk? ?0/?1 | 1, 6
+        It takes 1 hour to complete 10 tasks. You have completed 6 tasks. What is the fraction of tasks you have completed? ?0/?1 | 3, 5`,
 
         `Fida baked 12 cup cakes. He ate up to 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
        Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
