@@ -12,7 +12,7 @@ export default {
           text: `A clause is a group of words that consists of a subject and a verb. For example- In the following sentences, the groups of words that are in italics are clauses.
 1. People who pay their debts are trusted.
 2. We cannot start while it is raining.
-3. think that you have made a mistake.
+3. I think that you have made a mistake.
 
 #Types of Clauses
 There are two types of clauses
