@@ -242,7 +242,7 @@ Cost of 15 candies = ₹ ?1
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-factors',
-      label: 'Word Problem factors',
+      label: 'Word Problem Factors',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem.',
