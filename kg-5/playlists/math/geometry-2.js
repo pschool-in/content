@@ -15,7 +15,6 @@ export default {
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Draw Triangle',
       id: 'draw-triangle',
       data: {
@@ -28,7 +27,6 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Make angles in Triangle',
       id: 'triangle-angle',
       data: {
@@ -41,7 +39,6 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Parallelogram',
       id: 'parallelogram',
       data: {
@@ -74,7 +71,6 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
     },
     {
       type: 'geometryType',
-      slug: 'geometry',
       label: 'Missing angle - Triangle',
       id: 'triangle-missing-angle',
       locked: true,

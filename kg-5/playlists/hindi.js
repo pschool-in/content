@@ -551,7 +551,6 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
     {
       type: 'rightOne',
       label: 'Identify Hindi Vowels',
-      slug: 'correct-spelling',
       id: 'sound',
       data: {
         title: 'Listen to the sound and click on the letter.',
@@ -598,7 +597,6 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
       editable: true,
       id: 'jumbled',
       label: 'शब्द गठन',
-      slug: 'find-word-template',
       type: 'sequence'
     },
     {
@@ -619,7 +617,6 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
       editable: true,
       id: 'sort',
       label: 'हफ्ते के दिन',
-      slug: 'sort',
       type: 'sorting'
     },
     {

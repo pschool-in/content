@@ -522,7 +522,6 @@ tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
       editable: true,
       id: 'jumbled-word',
       label: 'Jumbled Word',
-      slug: 'find-word-template',
       type: 'sequence'
     },
     {
@@ -534,7 +533,6 @@ tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
       editable: true,
       id: 'days-of-week',
       label: 'Days of the week',
-      slug: 'sort',
       type: 'sorting'
     },
     {

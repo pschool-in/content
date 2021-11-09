@@ -1,182 +1,162 @@
 const vocabulary = [
   {
-    label: 'Letters',
-    slug: 'letters',
-    grade: 'kg, 1'
-  },
-  {
-    label: 'Letters 2',
-    slug: 'letters-2',
-    grade: 'kg, 1'
-  },
-  {
-    label: 'Vowels and Consonants',
-    slug: 'vowels',
-    grade: 'kg, 1, 2'
-  },
-  {
-    label: 'Word Search',
-    slug: 'wordsearch-1',
-    grade: ' 1, 2,3'
-  },
-  {
     label: 'Words related to Animals',
-    slug: 'animal-words',
+    id: 'animal-words',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Rhyming Words',
-    slug: 'rhyming-words',
+    id: 'rhyming-words',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Picture Match',
-    slug: 'match-picture',
+    id: 'match-picture',
     grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Picture Match - 2',
-    slug: 'match-picture-2',
+    id: 'match-picture-2',
     grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Missing Letter',
-    slug: 'picture',
+    id: 'picture',
     grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Missing Letter - 2',
-    slug: 'picture-2',
+    id: 'picture-2',
     grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Shapes and Symbols',
-    slug: 'picture-3',
+    id: 'picture-3',
     grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Word from Picture',
-    slug: 'word-from-picture',
+    id: 'word-from-picture',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Word from Picture - 2',
-    slug: 'word-from-picture-2',
+    id: 'word-from-picture-2',
     grade: 'g3, g4, g5'
   },
   {
     label: '3 Letter Words',
-    slug: 'simple-words',
+    id: 'simple-words',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Connect Letters',
-    slug: 'connect-letters',
+    id: 'connect-letters',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Connect Letters - 2',
-    slug: 'connect-letters-2',
+    id: 'connect-letters-2',
     grade: 'g3, g4, g5'
   },
   {
     label: '4 Letter Words',
-    slug: '4-letter-words',
+    id: '4-letter-words',
     grade: 'g1, g2, g3, g4'
   },
   {
     label: '5 Letter Words',
-    slug: '5-letter-words',
+    id: '5-letter-words',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Antonyms Collection 1',
-    slug: 'antonyms-1',
+    id: 'antonyms-1',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Antonyms Collection 2',
-    slug: 'antonyms-2',
+    id: 'antonyms-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Antonyms Collection 3',
-    slug: 'antonyms-3',
+    id: 'antonyms-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Synonyms Collection 1',
-    slug: 'synonyms-1',
+    id: 'synonyms-1',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Synonyms Collection 2',
-    slug: 'synonyms-2',
+    id: 'synonyms-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Synonyms Collection 3',
-    slug: 'synonyms-3',
+    id: 'synonyms-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Common Spelling',
-    slug: 'spelling-1',
+    id: 'spelling-1',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Common Spelling Mistakes',
-    slug: 'spelling-2',
+    id: 'spelling-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Compound Words',
-    slug: 'compound-word',
+    id: 'compound-word',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Prefix and Suffix',
-    slug: 'prefix-suffix',
+    id: 'prefix-suffix',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Confusing Words',
-    slug: 'confusing-words',
+    id: 'confusing-words',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Confusing Words - 2',
-    slug: 'confusing-words-2',
+    id: 'confusing-words-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Compound Words',
-    slug: 'compound-word',
+    id: 'compound-word',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Pick Words by Sound',
-    slug: 'pick-word',
+    id: 'pick-word',
     grade: 'g1, g2, g3'
   },
   {
     label: 'Pick Words by Sound - 2',
-    slug: 'pick-word-2',
+    id: 'pick-word-2',
     grade: 'g1, g2, g3'
   },
   {
     label: 'Words and Meaning',
-    slug: 'words-meaning',
+    id: 'words-meaning',
     grade: 'g1, g2, g3'
   },
   {
     label: 'Crossword',
-    slug: 'crossword-1',
+    id: 'crossword-1',
     grade: 'g3, g4, g5'
   },
   {
     label: 'New Words',
-    slug: 'new-words',
+    id: 'new-words',
     grade: 'g3, g4, g5'
   }
 ];
@@ -184,217 +164,208 @@ const vocabulary = [
 const grammar = [
   {
     label: 'Article',
-    slug: 'article',
+    id: 'article',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Sentence',
-    slug: 'sentence',
+    id: 'sentence',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Sentence-2',
-    slug: 'sentence-2',
+    id: 'sentence-2',
     grade: 'g4, g5'
   },
   {
     label: 'Negative Sentence',
-    slug: 'negative-sentence',
+    id: 'negative-sentence',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Questions',
-    slug: 'questions',
+    id: 'questions',
     grade: 'g2, g3'
   },
   {
     label: 'Subject and Predicate',
-    slug: 'subject-predicate',
+    id: 'subject-predicate',
     grade: 'g2, g3'
   },
-
-  /*
-  // The quality is not good
-  {
-    label: 'Fill Ups',
-    slug: 'fill-ups',
-    grade: 'g4, g5'
-  },
-  */
   {
     label: 'Facts and Opinions',
-    slug: 'facts-opinions',
+    id: 'facts-opinions',
     grade: 'g4, g5'
   },
   {
     label: 'Parts of Speech',
-    slug: 'parts-of-speech',
+    id: 'parts-of-speech',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Parts of Speech 2',
-    slug: 'parts-of-speech-2',
+    id: 'parts-of-speech-2',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Noun',
-    slug: 'noun',
+    id: 'noun',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Noun 2',
-    slug: 'noun-2',
+    id: 'noun-2',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Countable Noun',
-    slug: 'countable-noun',
+    id: 'countable-noun',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Verb',
-    slug: 'verb',
+    id: 'verb',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Verb 2',
-    slug: 'verb-2',
+    id: 'verb-2',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Helping Verb',
-    slug: 'helping-verb',
+    id: 'helping-verb',
     grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Helping Verb 2',
-    slug: 'helping-verb-2',
+    id: 'helping-verb-2',
     grade: 'g4, g5'
   },
   {
     label: 'Adjective',
-    slug: 'adjective',
+    id: 'adjective',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Pronoun',
-    slug: 'pronoun',
+    id: 'pronoun',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Preposition',
-    slug: 'preposition',
+    id: 'preposition',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Preposition 2',
-    slug: 'preposition-2',
+    id: 'preposition-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Conjunction',
-    slug: 'conjunction',
+    id: 'conjunction',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Right Word',
-    slug: 'right-word',
+    id: 'right-word',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Root Word - 5',
-    slug: 'root-word-5',
+    id: 'root-word-5',
     grade: 'g5'
   },
   {
     label: 'Phrase',
-    slug: 'phrase',
+    id: 'phrase',
     grade: 'g5'
   },
   {
     label: 'Adverb',
-    slug: 'adverb',
+    id: 'adverb',
     grade: 'g4, g5'
   },
   {
     label: 'Degrees of Comparison',
-    slug: 'degrees-comparison',
+    id: 'degrees-comparison',
     grade: 'g4, g5'
   },
   {
     label: 'Sentence Pattern',
-    slug: 'sentence-pattern',
+    id: 'sentence-pattern',
     grade: 'g4, g5'
   },
   // New Playlists
   {
     label: 'Noun - 1',
-    slug: 'noun-1',
+    id: 'noun-1',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Alliteration',
-    slug: 'alliteration',
+    id: 'alliteration',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Article - 1',
-    slug: 'article-1',
+    id: 'article-1',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Punctuation',
-    slug: 'punctuation',
+    id: 'punctuation',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Modals',
-    slug: 'modal',
+    id: 'modal',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Clauses',
-    slug: 'clause',
+    id: 'clause',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Noun 4',
-    slug: 'noun-4',
+    id: 'noun-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Describing Words',
-    slug: 'adjective-1',
+    id: 'adjective-1',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Simile',
-    slug: 'simile',
+    id: 'simile',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Idioms',
-    slug: 'idioms',
+    id: 'idioms',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Gerund and Infinitive',
-    slug: 'gerund-infinitive',
+    id: 'gerund-infinitive',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Action Word',
-    slug: 'verb-1',
+    id: 'verb-1',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Noun - 5',
-    slug: 'noun-5',
+    id: 'noun-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Pronoun - Introduction',
-    slug: 'pronoun-1',
+    id: 'pronoun-1',
     grade: 'g3, g4, g5'
   }
 ];
@@ -402,89 +373,89 @@ const grammar = [
 const reading = [
   {
     label: 'Simple Reading',
-    slug: 'simple-reading',
+    id: 'simple-reading',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Stories',
-    slug: 'stories',
+    id: 'stories',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Stories - 2',
-    slug: 'stories-2',
+    id: 'stories-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Stories - 3',
-    slug: 'stories-3',
+    id: 'stories-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Stories - 4',
-    slug: 'stories-4',
+    id: 'stories-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Animals',
-    slug: 'reading-animals',
+    id: 'reading-animals',
     grade: 'g2, g3, g4'
   },
 
   {
     label: 'Kids Favourite Cartoons',
-    slug: 'kids-favourite-cartoons',
+    id: 'kids-favourite-cartoons',
     grade: 'g4, g5'
   },
   {
     label: 'Small Passages',
-    slug: 'small-passages',
+    id: 'small-passages',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Small Passages - 2',
-    slug: 'small-passages-2',
+    id: 'small-passages-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Small Passages - 3',
-    slug: 'small-passages-3',
+    id: 'small-passages-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Small Passages - 4',
-    slug: 'small-passages-4',
+    id: 'small-passages-4',
     grade: 'g3, g4, g5'
   },
 
   {
     label: 'Reading Passages',
-    slug: 'passages',
+    id: 'passages',
     grade: 'g4, g5'
   },
   {
     label: 'Reading Lessons - 4',
-    slug: 'reading-4',
+    id: 'reading-4',
     grade: 'g4, g5'
   },
   {
     label: 'Poems Collection',
-    slug: 'poems-collection',
+    id: 'poems-collection',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Poems Collection  - 2',
-    slug: 'poems-collection-2',
+    id: 'poems-collection-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Poems Collection  - 3',
-    slug: 'poems-collection-3',
+    id: 'poems-collection-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Poems Collection - 4',
-    slug: 'poems-collection-4',
+    id: 'poems-collection-4',
     grade: 'g3, g4, g5'
   }
 ];
@@ -492,167 +463,167 @@ const reading = [
 const math = [
   {
     label: 'KG Math',
-    slug: 'kg-math',
+    id: 'kg-math',
     grade: 'kg'
   },
   {
     label: 'Mixed Math',
-    slug: 'mixed-math',
+    id: 'mixed-math',
     grade: 'kg, g1'
   },
   {
     label: 'Mixed Math 2',
-    slug: 'mixed-math-2',
+    id: 'mixed-math-2',
     grade: 'g2, g3'
   },
   {
     label: 'Numbers',
-    slug: 'numbers',
+    id: 'numbers',
     grade: 'kg, g1'
   },
   {
     label: 'Math Maze',
-    slug: 'math-maze',
+    id: 'math-maze',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Math Maze - 2',
-    slug: 'math-maze-2',
+    id: 'math-maze-2',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Maze - Multiples',
-    slug: 'math-maze-3',
+    id: 'math-maze-3',
     grade: 'g1,g2,g3'
   },
   {
     label: 'Numbers - 2',
-    slug: 'numbers-2',
+    id: 'numbers-2',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Tables: 2 to 5',
-    slug: 'tables',
+    id: 'tables',
     grade: 'kg, g1'
   },
   {
     label: 'Tables: 6 to 10',
-    slug: 'tables-2',
+    id: 'tables-2',
     grade: 'g1, g2, g3'
   },
   {
     label: 'Tables: 11 to 15',
-    slug: 'tables-3',
+    id: 'tables-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Arithmetic',
-    slug: 'arithmetic',
+    id: 'arithmetic',
     grade: 'kg, g1'
   },
   {
     label: 'Arithmetic - 2',
-    slug: 'arithmetic-2',
+    id: 'arithmetic-2',
     grade: 'g1, g2, g3'
   },
   {
     label: 'Arithmetic - 3',
-    slug: 'arithmetic-3',
+    id: 'arithmetic-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Math - 1',
-    slug: 'math-1',
+    id: 'math-1',
     grade: 'g1, g2'
   },
   {
     label: 'Math - 2',
-    slug: 'math-2',
+    id: 'math-2',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Balance Numbers',
-    slug: 'balance-numbers',
+    id: 'balance-numbers',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Balance Numbers - 2',
-    slug: 'balance-numbers-2',
+    id: 'balance-numbers-2',
     grade: 'g4, g5'
   },
   {
     label: 'Word Problems',
-    slug: 'word-problems',
+    id: 'word-problems',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Money',
-    slug: 'money',
+    id: 'money',
     grade: 'g4, g5'
   },
   {
     label: 'Fraction',
-    slug: 'fraction',
+    id: 'fraction',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Fraction - 2',
-    slug: 'fraction-2',
+    id: 'fraction-2',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Measurement',
-    slug: 'measurement',
+    id: 'measurement',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Place Value',
-    slug: 'place-value',
+    id: 'place-value',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Place Value - 2',
-    slug: 'place-value-2',
+    id: 'place-value-2',
     grade: 'g4, g5'
   },
   {
     label: 'Geometry',
-    slug: 'geometry',
+    id: 'geometry',
     grade: 'g2, g3'
   },
   {
     label: 'Geometry - 2',
-    slug: 'geometry-2',
+    id: 'geometry-2',
     grade: 'g4, g5'
   },
   {
     label: 'Divisibility Test',
-    slug: 'divisibility-test',
+    id: 'divisibility-test',
     grade: 'g4, g5'
   },
   {
     label: 'Missing Workout',
-    slug: 'missing-workout',
+    id: 'missing-workout',
     grade: 'g4, g5'
   },
   {
     label: 'Area and Perimeter',
-    slug: 'area-perimeter',
+    id: 'area-perimeter',
     grade: 'g4, g5'
   },
   {
     label: 'Picture Puzzle',
-    slug: 'picture-puzzle',
+    id: 'picture-puzzle',
     grade: 'g4, g5'
   },
   {
     label: 'Math Workout',
-    slug: 'math-workout',
+    id: 'math-workout',
     grade: 'g4, g5'
   },
   {
     label: 'Information Processing',
-    slug: 'information',
+    id: 'information',
     grade: 'g3, g4, g5'
   }
 ];
@@ -660,215 +631,215 @@ const math = [
 const science = [
   {
     label: 'Science for Kids',
-    slug: 'kids-science',
+    id: 'kids-science',
     grade: 'g1, g2'
   },
   {
     label: 'Seasons',
-    slug: 'seasons',
+    id: 'seasons',
     grade: 'g2, g3'
   },
   {
     label: 'States of Matter',
-    slug: 'matter-3',
+    id: 'matter-3',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Matter and Materials',
-    slug: 'matter-4',
+    id: 'matter-4',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Matter and Materials 2',
-    slug: 'matter-5',
+    id: 'matter-5',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Force',
-    slug: 'force-3',
+    id: 'force-3',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Work',
-    slug: 'work-4',
+    id: 'work-4',
     grade: 'g2, g3, g4'
   },
   {
     label: 'Energy',
-    slug: 'energy-5',
+    id: 'energy-5',
     grade: 'g4, g5'
   },
   {
     label: 'Plants',
-    slug: 'plants-3',
+    id: 'plants-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Plants - 2',
-    slug: 'plants-4',
+    id: 'plants-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Plants - 3',
-    slug: 'plants-5',
+    id: 'plants-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Nutrients',
-    slug: 'food-3',
+    id: 'food-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Food and Hygine',
-    slug: 'food-4',
+    id: 'food-4',
     grade: 'g4, g5'
   },
   {
     label: 'Food - 5',
-    slug: 'food-5',
+    id: 'food-5',
     grade: 'g4, g5'
   },
   {
     label: 'Water',
-    slug: 'water-3',
+    id: 'water-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Water Cycle',
-    slug: 'water-4',
+    id: 'water-4',
     grade: 'g4, g5'
   },
   {
     label: 'Water Management',
-    slug: 'water-5',
+    id: 'water-5',
     grade: 'g5'
   },
   {
     label: 'Science in Kitchen',
-    slug: 'everyday-science-3',
+    id: 'everyday-science-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Gadgets',
-    slug: 'everyday-science-4',
+    id: 'everyday-science-4',
     grade: 'g4, g5'
   },
   {
     label: 'Everyday Science',
-    slug: 'everyday-science-5',
+    id: 'everyday-science-5',
     grade: 'g5'
   },
   {
     label: 'Air',
-    slug: 'air-3',
+    id: 'air-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Air we Breathe',
-    slug: 'air-4',
+    id: 'air-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Atmosphere',
-    slug: 'air-5',
+    id: 'air-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Human Body 3',
-    slug: 'humanbody-3',
+    id: 'humanbody-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Human Body 4',
-    slug: 'humanbody-4',
+    id: 'humanbody-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Human Body 5',
-    slug: 'humanbody-5',
+    id: 'humanbody-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Solar System',
-    slug: 'solar-system',
+    id: 'solar-system',
     grade: 'g4, g5'
   },
   {
     label: 'Solar System - 2',
-    slug: 'solar-system-4',
+    id: 'solar-system-4',
     grade: 'g4, g5'
   },
   {
     label: 'Solar System - 3',
-    slug: 'solar-system-5',
+    id: 'solar-system-5',
     grade: 'g4, g5'
   },
   {
     label: 'Satellites',
-    slug: 'satellites',
+    id: 'satellites',
     grade: 'g4, g5'
   },
 
   // new addition
   {
     label: 'Animals',
-    slug: 'animals-3',
+    id: 'animals-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Animals 2',
-    slug: 'animals-4',
+    id: 'animals-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Reproduction in Animals',
-    slug: 'animals-5',
+    id: 'animals-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Environment',
-    slug: 'environment-3',
+    id: 'environment-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Green Environment',
-    slug: 'environment-4',
+    id: 'environment-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Our Environment',
-    slug: 'environment-5',
+    id: 'environment-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Communication and Mass media',
-    slug: 'communication-5',
+    id: 'communication-5',
     grade: 'g4, g5'
   },
   {
     label: 'Introduction to Computers',
-    slug: 'computer-3',
+    id: 'computer-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Evolution of Computer',
-    slug: 'computer-4',
+    id: 'computer-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Computer System',
-    slug: 'computer-5',
+    id: 'computer-5',
     grade: 'g3, g4, g5'
   }
   /*
   {
     label: 'Science Misc - 4',
-    slug: 'science-4',
+    id: 'science-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Computers',
-    slug: 'computer',
+    id: 'computer',
     grade: 'g3, g4, g5'
   }*/
 ];
@@ -876,388 +847,371 @@ const science = [
 const social = [
   {
     label: 'India',
-    slug: 'india',
+    id: 'india',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Profession',
-    slug: 'profession',
+    id: 'profession',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Continents',
-    slug: 'continents',
+    id: 'continents',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Hydrosphere',
-    slug: 'hydrosphere',
+    id: 'hydrosphere',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Transportation',
-    slug: 'transportation',
+    id: 'transportation',
     grade: 'g3, g4'
   },
   {
     label: 'Health',
-    slug: 'health-3',
+    id: 'health-3',
     grade: 'g3, g4'
   },
   {
     label: 'Health - 2',
-    slug: 'health-4',
+    id: 'health-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Health - 3',
-    slug: 'health-5',
+    id: 'health-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Child Rights',
-    slug: 'rights-4',
+    id: 'rights-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Child Rights-2',
-    slug: 'rights-5',
+    id: 'rights-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Early Humans',
-    slug: 'early-humans',
+    id: 'early-humans',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Good Citizen',
-    slug: 'good-citizen',
+    id: 'good-citizen',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Universe',
-    slug: 'universe',
+    id: 'universe',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Our Government',
-    slug: 'government',
+    id: 'government',
     grade: 'g4, g5'
   },
   {
     label: 'Forests in India',
-    slug: 'forests-india',
+    id: 'forests-india',
     grade: 'g4, g5'
   },
   {
     label: 'Minerals - under our feet',
-    slug: 'minerals',
+    id: 'minerals',
     grade: 'g4, g5'
   },
   {
     label: 'The story of a seed',
-    slug: 'seed-story',
+    id: 'seed-story',
     grade: 'g4, g5'
   },
   {
     label: 'Food Facts',
-    slug: 'food-facts',
+    id: 'food-facts',
     grade: 'g4, g5'
   },
   {
     label: 'People and Jobs',
-    slug: 'people-jobs',
+    id: 'people-jobs',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Goods and Services',
-    slug: 'goods-services',
+    id: 'goods-services',
     grade: 'g4, g5'
   },
   {
     label: 'Festivals',
-    slug: 'festivals',
+    id: 'festivals',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Road Manners',
-    slug: 'road-manners',
+    id: 'road-manners',
     grade: 'g3, g4, g5'
   },
   {
     label: 'About Us',
-    slug: 'about-us',
+    id: 'about-us',
     grade: 'g2, g3'
   },
   {
     label: 'Transport',
-    slug: 'transport',
+    id: 'transport',
     grade: 'g2, g3'
   },
   {
     label: 'Houses',
-    slug: 'houses-4',
+    id: 'houses-4',
     grade: 'g3, g4, g5'
   },
 
   // new addition
   {
     label: 'Clothes',
-    slug: 'clothes-4',
+    id: 'clothes-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Directions and Maps',
-    slug: 'maps-4',
+    id: 'maps-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Maps 3',
-    slug: 'maps-5',
+    id: 'maps-5',
     grade: 'g3, g4, g5'
   },
   // new addition 2
   {
     label: 'Earth',
-    slug: 'earth-5',
+    id: 'earth-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Family',
-    slug: 'family-3',
+    id: 'family-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Family - 2',
-    slug: 'family-5',
+    id: 'family-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Job',
-    slug: 'job-3',
+    id: 'job-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Job 2',
-    slug: 'job-5',
+    id: 'job-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Understanding Time',
-    slug: 'time-3',
+    id: 'time-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Life Skills - 2',
-    slug: 'lifeskills-4',
+    id: 'lifeskills-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Life Skills - 3',
-    slug: 'lifeskills-5',
+    id: 'lifeskills-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Nature ',
-    slug: 'nature-4',
+    id: 'nature-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Nature - 2',
-    slug: 'nature-5',
+    id: 'nature-5',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Safety',
-    slug: 'safety-3',
+    id: 'safety-3',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Surroundings',
-    slug: 'surroundings-3',
+    id: 'surroundings-3',
     grade: 'g3, g4, g5'
   }
 ];
 
-const misc = [
+const general = [
   {
     label: 'Coloring',
-    slug: 'coloring',
+    id: 'coloring',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Maze',
-    slug: 'maze',
+    id: 'maze',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Drawing',
-    slug: 'drawing',
+    id: 'drawing',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Classify Images',
-    slug: 'classify-images',
+    id: 'classify-images',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Picture Activities',
-    slug: 'kg-picture',
+    id: 'kg-picture',
     grade: 'kg, g1'
   },
   {
     label: 'Match Colors',
-    slug: 'match-colors',
+    id: 'match-colors',
     grade: 'kg, g1'
   },
   {
     label: 'Complete the Pattern',
-    slug: 'pattern',
+    id: 'pattern',
     grade: 'kg, g1, g2'
   },
   {
     label: 'What Comes Next?',
-    slug: 'what-next',
+    id: 'what-next',
     grade: 'kg, g1, g2'
   },
   {
     label: 'More Sudoku 4 x 4',
-    slug: 'sudoku4',
+    id: 'sudoku4',
     grade: 'kg, g1, g2'
   },
   {
     label: 'More Sudoku 6 x 6',
-    slug: 'sudoku6',
+    id: 'sudoku6',
     grade: 'g1, g2, g3, g4'
   },
   {
     label: 'More Sudoku 9 x 9',
-    slug: 'sudoku9',
+    id: 'sudoku9',
     grade: 'g3, g4, g5'
+  }
+];
+
+const english = [
+  {
+    label: 'Letters',
+    id: 'letters',
+    grade: 'kg, 1'
+  },
+  {
+    label: 'Letters 2',
+    id: 'letters-2',
+    grade: 'kg, 1'
+  },
+  {
+    label: 'Vowels and Consonants',
+    id: 'vowels',
+    grade: 'kg, 1, 2'
   },
   {
     label: 'Sound Based',
-    slug: 'audio',
+    id: 'audio',
     grade: 'kg, g1, g2'
   },
   {
     label: 'Sound Based 2',
-    slug: 'audio-2',
+    id: 'audio-2',
     grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Word Search',
+    id: 'wordsearch-1',
+    grade: ' 1, 2,3'
   }
 ];
 
 const gk = [
   {
     label: 'Largest, Tallest, Longest etc',
-    slug: 'largest',
+    id: 'largest',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Inventions and Discovery',
-    slug: 'inventions',
+    id: 'inventions',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Countries in the World',
-    slug: 'countries',
+    id: 'countries',
     grade: 'g3, g4, g5'
   },
   {
     label: 'States of India',
-    slug: 'states',
+    id: 'states',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Leaders',
-    slug: 'leaders',
+    id: 'leaders',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Brands, Companies & People',
-    slug: 'brands',
+    id: 'brands',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Cities',
-    slug: 'gk-cities',
+    id: 'gk-cities',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Culture',
-    slug: 'gk-culture',
+    id: 'gk-culture',
     grade: 'g3, g4, g5'
   },
   {
     label: 'History',
-    slug: 'gk-history',
+    id: 'gk-history',
     grade: 'g3, g4, g5'
   },
   {
     label: 'India',
-    slug: 'gk-india',
+    id: 'gk-india',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Sports',
-    slug: 'gk-sports',
+    id: 'gk-sports',
     grade: 'g3, g4, g5'
   },
   {
     label: 'World',
-    slug: 'gk-world',
-    grade: 'g3, g4, g5'
-  }
-  /*
-  {
-    label: 'History',
-    slug: 'history',
-    grade: 'g3, g4, g5'
-  }*/
-];
-
-const tamil = [
-  {
-    label: 'தமிழ் எழுத்துக்கள் ',
-    slug: 'tamil-letters',
-    grade: 'kg, g1'
-  },
-  {
-    label: 'தமிழ் எழுத்துக்கள் - 2',
-    slug: 'tamil-letters2',
-    grade: 'kg, g1'
-  },
-  {
-    label: 'தமிழ் வார்த்தைகள் ',
-    slug: 'tamil-words',
-    grade: 'kg, g1'
-  },
-  {
-    label: 'பழகு தமிழ் - 2',
-    slug: 'tamil-2',
-    grade: 'g2, g3'
-  },
-  {
-    label: 'பழகு தமிழ் - 4',
-    slug: 'tamil-4',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'தமிழ்நாடு',
-    slug: 'தமிழ்நாடு',
+    id: 'gk-world',
     grade: 'g3, g4, g5'
   }
 ];
-
-const others = [];
 
 export default {
   vocabulary,
   grammar,
   reading,
+  english,
   math,
   science,
   social,
   gk,
-  misc
+  general
 };

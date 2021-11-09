@@ -153,7 +153,6 @@ export default {
       // KG and avobe
       type: 'rightOne',
       label: 'ধ্বনি শুনে স্বরবর্ণ নির্বাচন',
-      slug: 'correct-spelling',
       id: 'bn-sound-vowel',
       data: {
         title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন',

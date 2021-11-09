@@ -484,7 +484,6 @@ export default {
     {
       type: 'rightOne',
       label: 'हिंदी स्वर वर्ण की पहचान करें',
-      slug: 'correct-spelling',
       id: 'sound',
       data: {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',

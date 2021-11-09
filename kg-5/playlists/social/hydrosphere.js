@@ -195,7 +195,6 @@ export default {
     {
       label: 'Water Bodies',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title: 'Sort the water bodies based on the size (Largest at the top)',
         text: 'Ocean, Sea, Lake, Pond, Well'
@@ -205,7 +204,6 @@ export default {
     {
       label: 'Moving Water Bodies',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title: 'Sort the water bodies based on the size (Largest at the top)',
         text: 'River, Stream, Canal, Pipeline'

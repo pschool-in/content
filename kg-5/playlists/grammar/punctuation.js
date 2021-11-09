@@ -298,7 +298,7 @@ We also put commas in between the series of words. For example:
       data: {
         text: `What is this *? (., !)*
           What a pleasant day *! (?, .)*
-          How many books do you have *? (., !)*
+          How many books do you have *? (., !)*git 
           I am an obedient child *. (!, ?)*
           Why is the sky blue *? (., !)*`,
         title: 'Choose the correct option. Tap on each blank for options.'

@@ -15,7 +15,6 @@ export default {
     {
       label: 'Planets',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title:
           'Sort the planets based on its distance from sun. (Nearest planet at top)',

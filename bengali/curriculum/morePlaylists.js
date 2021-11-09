@@ -1,39 +1,39 @@
 const more = [
   {
     label: 'ছবি',
-    slug: 'bn-picture-2'
+    id: 'bn-picture-2'
   },
   {
     label: 'শব্দ 2',
-    slug: 'bn-word-3'
+    id: 'bn-word-3'
   },
   {
     label: 'শব্দ 3',
-    slug: 'bn-word-5'
+    id: 'bn-word-5'
   },
   {
     label: 'ব্যাকরণ',
-    slug: 'bn-grammar-4'
+    id: 'bn-grammar-4'
   },
   {
     label: 'ছোটদের ছড়া',
-    slug: 'bn-poem'
+    id: 'bn-poem'
   },
   {
     label: 'কবিতা সহজপাঠ',
-    slug: 'bn-poem-1'
+    id: 'bn-poem-1'
   },
   {
     label: 'গল্প',
-    slug: 'bn-reading-2'
+    id: 'bn-reading-2'
   },
   {
     label: 'সুকুমার রায় - গল্প ',
-    slug: 'bn-sukumar-story'
+    id: 'bn-sukumar-story'
   },
   {
     label: 'বর্ণ অনুশীলন',
-    slug: 'bn-letter-2'
+    id: 'bn-letter-2'
   }
 ];
 

@@ -141,7 +141,6 @@ Second largest continent - *Africa*`
     {
       label: 'Solar System',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title:
           'Sort the planets based on its distance from sun. (Nearest planet at top)',
@@ -152,7 +151,6 @@ Second largest continent - *Africa*`
     {
       label: 'Continents',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title:
           'Arrange the continents based on their size. (Start from largest continent)',

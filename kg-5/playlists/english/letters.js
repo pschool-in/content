@@ -56,7 +56,6 @@ export default {
     {
       type: 'rightOne',
       label: 'Identify Capital Letters',
-      slug: 'correct-spelling',
       id: 'sound',
       commonData: {
         title: 'Listen to the sound and click on the letter.',
@@ -80,7 +79,6 @@ export default {
     {
       type: 'rightOne',
       label: 'Identify Small Letters',
-      slug: 'correct-spelling',
       id: 'sound-2',
       commonData: {
         title: 'Listen to the sound and click on the letter.',
