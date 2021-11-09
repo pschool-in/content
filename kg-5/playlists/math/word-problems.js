@@ -239,6 +239,7 @@ Cost of 15 candies = ₹ ?1
       ]
     },
     {
+      // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-factors',
       label: 'Word Problem factors',
@@ -299,6 +300,27 @@ Cost of 15 candies = ₹ ?1
 Jai needs to put tiles on the wall. Each tile is 20 cm x 20 cm in dimension. The wall is  600 cm X 400 cm dimension. How many tiles will be required to complete the tiling of the wall. | 600
 Dave has 42 blue pens & 70 black pens. He wants to distribute the pens among his friends. What could be the maximum number of friends among whom Dave can distribute the pens, so each one of them gets an equal number of blue pens and black pens. | 14
 With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If there are 40 people to eat and each one has 5 small paneer cubes, how many packets of paneer are required to buy? | 10`
+
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-fraction',
+      label: 'Word Problem Fraction',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem in decimal.',
+        type: 'word-problem'
+      },
+      data: [
+
+        `Fida baked 12 cup cakes. He ate up 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
+        Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
+        Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
+        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
+        India won 4 matches out of 6 mathes they played. what fraction of matches India won? | ?0/?1 | 2, 3`
 
 
       ]
