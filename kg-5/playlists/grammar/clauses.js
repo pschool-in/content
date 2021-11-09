@@ -25,7 +25,17 @@ Examples: I want some cereal. Marie likes cats. Joseph is a good football player
 Dependent Clauses has a subject and a verb, but cannot be used as a simple sentence. A dependent clause is introduced by a dependent word (subordinating conjunction). 
 
 See the following list :
-After, although, as, as if, because, before even if, even though, ever since, how, if in order that, since, so, so that, than, that though, unless, until, what, whatever, when whenever, where, whereas, wherever, whether which, whichever, while, whom, whose, why
+After, although, as, as if, because, before
+
+even if, even though, ever since, how, if
+
+in order that, since, so, so that, than, that
+
+though unless, until, what, whatever, when 
+
+whenever, where, whereas, wherever, whether
+
+which, whichever, while, whom, whose, why
 
 Whenever a clause begins with one of the above dependent words (except questions) it is called a dependent clause. For example if we take an independent clause and add a dependent word like -
 
