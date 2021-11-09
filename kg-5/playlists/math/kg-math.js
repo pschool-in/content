@@ -30,7 +30,7 @@ export default {
       data: {
         type: 'custom',
         noPicker: true,
-        audio: 'shapes.mp3',
+        audio: 'kg-5/shapes.mp3',
         source: [
           {
             id: '0',

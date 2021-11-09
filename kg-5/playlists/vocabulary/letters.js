@@ -61,7 +61,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        audio: 'english.mp3'
+        audio: 'kg-5/english.mp3'
       },
       data: [
         {
@@ -85,7 +85,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        audio: 'english.mp3'
+        audio: 'kg-5/english.mp3'
       },
       data: [
         {

@@ -12,7 +12,7 @@ export default {
       commonData: {
         title: 'ধ্বনি শুনে শব্দ শনাক্ত করুন',
         type: 'words',
-        audio: 'bn-animals.mp3'
+        audio: 'bn/bn-animals.mp3'
       },
       data: [
         {
