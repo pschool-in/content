@@ -52,7 +52,7 @@ A few examples of such sentences are:
     },
     {
       id: 'true-false-3',
-      label: 'True or False (classify the sentence)',
+      label: 'True or False',
       type: 'classifySentence',
       data: {
         title: 'State whether these statements are true or false.',
@@ -104,7 +104,7 @@ We also use period in front of abbreviations. For example,
     },
     {
       id: 'true-false-5',
-      label: 'True or False (classify the sentence)',
+      label: 'True or False',
       type: 'classifySentence',
       data: {
         title: 'State whether these statements are true or false.',
@@ -142,15 +142,15 @@ We also use period in front of abbreviations. For example,
       data: {
         text: `My name is *Reena (reena)*.
           I am 15 years *old (Old)*.
-          *Mrs. (mrs.) Sharma is a kind *lady (Lady).
-          Ram is a very *smart (Smart) boy.
+          *Mrs. (mrs.)* Sharma is a kind *lady (Lady)*.
+          Ram is a very *smart (Smart)* boy.
           She lives in *Delhi (delhi)*.`,
         title: 'Choose the correct option. Tap on each blank for options.'
       }
     },
     {
       id: 'true-false-7',
-      label: 'True or False (classify the sentence)',
+      label: 'True or False',
       type: 'classifySentence',
       data: {
         title: 'State whether these statements are true or false.',
@@ -212,7 +212,7 @@ Some examples are;
     },
     {
       id: 'right-or-wrong-10',
-      label: 'Right or wrong (classify the sentence))',
+      label: 'Right or wrong',
       type: 'classifySentence',
       data: {
         title: 'Identify if the given words are right or wrong.',
@@ -241,9 +241,9 @@ Some examples are;
 
 We also put commas in between the series of words. For example:
           
-1.I like eating grapes, cabbage and noodles.
-2.I have a pencil, crayons and eraser in my box.
-3.He bought new clothes, shoes and a bag.`
+1. I like eating grapes, cabbage and noodles.
+2. I have a pencil, crayons and eraser in my box.
+3. He bought new clothes, shoes and a bag.`
       }
     },
     {
@@ -261,7 +261,7 @@ We also put commas in between the series of words. For example:
     },
     {
       id: 'true-false-12',
-      label: 'True or False (classify the sentence)',
+      label: 'True or False',
       type: 'classifySentence',
       data: {
         title: 'State whether these statements are true or false.',
@@ -306,7 +306,7 @@ We also put commas in between the series of words. For example:
     },
     {
       id: 'true-false-14',
-      label: 'True or False (classify the sentence)',
+      label: 'True or False',
       type: 'classifySentence',
       data: {
         title: 'State whether these statements are true or false.',
