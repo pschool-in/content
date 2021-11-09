@@ -1,15 +1,15 @@
 export default {
-    id: 'clauses',
-    label: 'Clauses',
-    pdf: '',
-    list: [
-      {
-        label: 'Clauses - Reading',
-        type: 'passage',
-        id: 'clauses-reading',
-        data: {
-          title: 'Clauses',
-          text: `A clause is a group of words that consists of a subject and a verb. For example- In the following sentences, the groups of words that are in italics are clauses.
+  id: 'clause',
+  label: 'Clauses',
+  pdf: '',
+  list: [
+    {
+      label: 'Clauses - Reading',
+      type: 'passage',
+      id: 'clauses-reading',
+      data: {
+        title: 'Clauses',
+        text: `A clause is a group of words that consists of a subject and a verb. For example- In the following sentences, the groups of words that are in italics are clauses.
 1. People who pay their debts are trusted.
 2. We cannot start while it is raining.
 3. think that you have made a mistake.
@@ -30,64 +30,64 @@ After, although, as, as if, because, before even if, even though, ever since, ho
 Whenever a clause begins with one of the above dependent words (except questions) it is called a dependent clause. For example if we take an independent clause and add a dependent word like -
 
 We finished the game - Independent clause (IC) After we finished the game- dependent clause ( DC) Although we finished the game. (DC) Before we finish the game. (DC)`
-        }
+      }
+    },
+    {
+      type: 'selectWord',
+      label: 'Identify the clause',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the clause in the below sentence.'
       },
-      {
-        type: 'selectWord',
-        label: 'Identify the clause',
-        id: 'select-word',
-        commonData: {
-          title: 'Select the clause in the below sentence.'
-        },
-        data: [
-`*He is standing* on the roof.
+      data: [
+        `*He is standing* on the roof.
 *The cat is sleeping* under the table.
 *She is drawing a map* on the wall.
 *He is waiting* at the door.
 *He is dancing* on the floor.`,
 
-`*She arrived to work on time* in spite of leaving home so late.
+        `*She arrived to work on time* in spite of leaving home so late.
 *I was standing* near a wall.
 *She made tea* for the guests.
 *He bought a book* for a friend.
 *She was dancing* in the rain.`,
 
-`*The people are dancing* at the party.
+        `*The people are dancing* at the party.
 *He reached school* in time.
 *I will meet him* in my office.
 *She wrote a poem* on a piece of paper.
-*Kiran poured the mango juice* in the bottle.`,
-        ]
+*Kiran poured the mango juice* in the bottle.`
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Identify the independent clause',
+      id: 'select-word-2',
+      commonData: {
+        title: 'Select the independent clause (IC) from each sentence'
       },
-      {
-        type: 'selectWord',
-        label: 'Identify the independent clause',
-        id: 'select-word-2',
-        commonData: {
-          title: 'Select the independent clause (IC) from each sentence'
-        },
-        data: [
-`*I am saving my money* because I wanted to buy a new Ipad. 
+      data: [
+        `*I am saving my money* because I wanted to buy a new Ipad. 
 When I arrived, *Jimmy was surprised to see me*.
 Because I don't know how to do my homework, * I need to call Kiran for help*. 
 *Cindy loves to read*.
 Although we were late, *we decided to watch the movie anyway*.`,
 
-`*I forgot most of the groceries I needed* because I forgot my list. 
+        `*I forgot most of the groceries I needed* because I forgot my list. 
 *Tomorrow is going to be an exciting day* because I am going to a movie. 
 If you want to ride with Meena and Ravi, *you need to let them know*. 
 *Nobody knows the answer to that question*. 
-*I went to the park*.`,
-        ]
+*I went to the park*.`
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Identify the Dependent Clause',
+      id: 'select-word-3',
+      commonData: {
+        title: 'Select the dependent clause from each sentence'
       },
-      {
-        type: 'selectWord',
-        label: 'Identify the Dependent Clause',
-        id: 'select-word-3',
-        commonData: {
-          title: 'Select the dependent clause from each sentence'
-        },
-        data: [
+      data: [
         `My mother is a nurse *since she likes to help people*. 
         *After the storm* there were branches in the streets.
         I asked the question *that no one else wanted to ask*.
@@ -106,7 +106,7 @@ If you want to ride with Meena and Ravi, *you need to let them know*.
         *Whenever you come to visit*, make sure to bring food. 
         *Unless you have the right size * don't try it. 
         *When it will start to snow* we will go skiing. 
-        *If the dress is on sale* she will buy it.`,
+        *If the dress is on sale* she will buy it.`
       ]
     },
     {
@@ -114,7 +114,8 @@ If you want to ride with Meena and Ravi, *you need to let them know*.
       label: 'Classify',
       id: 'identify-type',
       data: {
-        title: 'Identify the underlined part of the sentence as a dependent clause (DC) or independent clause (IC)',
+        title:
+          'Identify the underlined part of the sentence as a dependent clause (DC) or independent clause (IC)',
         types: [
           {
             name: 'Dependent Clause',
@@ -136,10 +137,9 @@ If you want to ride with Meena and Ravi, *you need to let them know*.
             *The movie was good* although it was too long. 
             Though he didn't receive formal schooling, *he is clever and smart*.
             *Our dog will run away* if the gate is left open.`
-            }
-          ]
-        }
+          }
+        ]
       }
-    ]
-  };
-        
+    }
+  ]
+};

@@ -28,7 +28,7 @@ export default {
       lockAfter: 8,
       data: {
         type: 'custom',
-        audio: 'bn-letters.mp3',
+        audio: 'bn/bn-letters.mp3',
         source: [
           {
             id: 'অ',
@@ -159,7 +159,7 @@ export default {
         title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন',
         type: 'letters',
         words: 'অ, আ, ই, ঈ, উ, ঊ, ঋ, ৯, এ, ঐ, ও, ঔ',
-        audio: 'bn-letters.mp3'
+        audio: 'bn/bn-letters.mp3'
       }
     },
     {
@@ -269,7 +269,7 @@ export default {
       lockAfter: 10,
       data: {
         type: 'custom',
-        audio: 'bn-letters.mp3',
+        audio: 'bn/bn-letters.mp3',
         source: [
           {
             id: 'ক',
@@ -602,7 +602,7 @@ export default {
       commonData: {
         title: 'ধ্বনি শুনে বর্ণ পরিচয় করুন ',
         type: 'letters',
-        audio: 'bn-letters.mp3'
+        audio: 'bn/bn-letters.mp3'
       },
       data: [
         {

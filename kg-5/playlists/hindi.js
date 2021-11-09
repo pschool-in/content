@@ -9,7 +9,7 @@ export default {
       label: 'Hindi Common Vowels',
       data: {
         type: 'custom',
-        audio: 'hi-letters.mp3',
+        audio: 'hi/hi-letters.mp3',
         source: [
           {
             id: 'अ',
@@ -176,7 +176,7 @@ export default {
       label: 'Hindi Common Consonants',
       data: {
         type: 'custom',
-        audio: 'hi-letters.mp3',
+        audio: 'hi/hi-letters.mp3',
         source: [
           {
             id: 'क',
@@ -557,7 +557,7 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
         words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
-        audio: 'hi-letters.mp3'
+        audio: 'hi/hi-letters.mp3'
       }
     },
     {
@@ -567,7 +567,7 @@ hen|मु, र्गी |_, र्गी |मु, मो, पां , र`
       commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        audio: 'hi-letters.mp3'
+        audio: 'hi/hi-letters.mp3'
       },
       data: [
         {

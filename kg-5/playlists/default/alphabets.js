@@ -41,7 +41,7 @@ const writing = {
       commonData: {
         title: 'Listen to Sound and Identify Letters.',
         type: 'letters',
-        audio: 'english.mp3'
+        audio: 'kg-5/english.mp3'
       },
       data: [
         {

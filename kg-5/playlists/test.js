@@ -23,7 +23,7 @@ export default {
           { id: 'ஓ', audio: 20 },
           { id: 'ஔ', audio: 22 }
         ],
-        audio: 'tamil.mp3'
+        audio: 'ta/tamil.mp3'
       }
     },
     {
@@ -53,7 +53,7 @@ export default {
           { id: 'ற', audio: 58 },
           { id: 'ன', audio: 60 }
         ],
-        audio: 'tamil.mp3'
+        audio: 'ta/tamil.mp3'
       }
     }
   ]

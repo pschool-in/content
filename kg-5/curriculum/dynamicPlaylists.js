@@ -325,6 +325,77 @@ const grammar = [
     label: 'Sentence Pattern',
     slug: 'sentence-pattern',
     grade: 'g4, g5'
+  },
+  // New Playlists
+  {
+    label: 'Noun - 1',
+    slug: 'noun-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Alliteration',
+    slug: 'alliteration',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Article - 1',
+    slug: 'article-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Punctuation',
+    slug: 'punctuation',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Modals',
+    slug: 'modal',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Clauses',
+    slug: 'clause',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Noun 4',
+    slug: 'noun-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Describing Words',
+    slug: 'adjective-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Simile',
+    slug: 'simile',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Idioms',
+    slug: 'idioms',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Gerund and Infinitive',
+    slug: 'gerund-infinitive',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Action Word',
+    slug: 'verb-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Noun - 5',
+    slug: 'noun-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Pronoun - Introduction',
+    slug: 'pronoun-1',
+    grade: 'g3, g4, g5'
   }
 ];
 
