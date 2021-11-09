@@ -316,11 +316,18 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       },
       data: [
 
-        `Fida baked 12 cup cakes. He ate up 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
-        Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
-        Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
-        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
-        India won 4 matches out of 6 mathes they played. what fraction of matches India won? | ?0/?1 | 2, 3`
+        `Fida baked 12 cup cakes. He ate up to 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
+       Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
+       Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
+       Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
+       India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
+
+       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament?  ?0/?1 | 1, 6
+       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? ?0/?1 | 1, 3
+       There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
+       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? ?0/?1 | 3, 10
+       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? ?0/?1 | 2, 7 `,
+
 
 
       ]
