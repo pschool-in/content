@@ -352,21 +352,20 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
         A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
         A rectangle has an area of 15 square cm. If the breadth of the rectangle is 3 cm, then what is the length? | ?0 cm | 5
-        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`
+        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`,
 
         `What is the perimeter of a rectangle with 4 cm length and 10 cm breadth? | ?0 cm | 28 
         What is the perimeter of a rectangle with 15 cm length and 25 cm breadth? | ?0 cm | 80
         What is the perimeter of a square with 8 cm length? | ?0 cm | 32
         What is the perimeter of a rectangle with 5 cm length and 30 cm breadth? | ?0 cm | 50
-        What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `
+        What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `,
 
         `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the perimeter of the rectangle? | ?0 cm | 28
         A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
         A square has an area of 16 square cm. What is the perimeter of the square? | ?0 cm | 16
         A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
-        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200
-        `
+        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
 
       ]
     },
