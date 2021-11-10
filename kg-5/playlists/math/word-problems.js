@@ -367,6 +367,12 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
 
+        `A triangle has sides of length 3 cm, 4 cm, 5 cm. What is the perimeter of the triangle? ?0 cm | 12
+        A triangle has sides of length 10 cm, 12 cm, 15 cm. What is the perimeter of the triangle? ?0 cm | 37
+        An equilateral (a triangle with equal sides) triangle has sides of length 6 cm. What is the perimeter of the triangle? ?0 cm | 18
+        An equilateral triangle (a triangle with equal sides) has sides of length 10 cm. What is the perimeter of the triangle? ?0 cm | 30
+        A regular Pentagon (A pentagon with equal sides) has sides of length 6 cm. What is the perimeter of the Pentagon? ?0 cm | 30`,
+
       ]
     },
   ]
