@@ -373,6 +373,12 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         An equilateral triangle (a triangle with equal sides) has sides of length 10 cm. What is the perimeter of the triangle? ?0 cm | 30
         A regular Pentagon (A pentagon with equal sides) has sides of length 6 cm. What is the perimeter of the Pentagon? ?0 cm | 30`,
 
+        `Perimeter of a rectangle is 20 cm. The area of the rectangle is 21 square cm. If one of the sides is 7 cm, what is the length of the other side? | ?0 cm | 3 
+        Perimeter of a rectangle is 36 cm. The area of the rectangle is 80 square cm. What is the length of the bigger side? | ?0 cm | 10
+        Perimeter of a rectangle is 42 cm. The area of the rectangle is 20 square cm. What is the length of the smaller side? | ?0 cm | 1
+        Perimeter of a square is 36 cm. What is the area of the square? | ?0 square cm | 81
+        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`,
+
       ]
     },
   ]
