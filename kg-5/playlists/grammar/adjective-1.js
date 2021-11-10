@@ -128,95 +128,87 @@ export default {
          Sweet, Dish`
       ]
     },
-    {
-      label: 'Multiple Choice Questions (MCQ)-1',
-      type: 'mcq',
-      id: '100',
-      data: {
-        title: 'Choose the correct describing words.',
+  {
+    label: 'Multiple Choice Questions',
+     id: 'mcq-adjectives-1',
+    type: 'mcq',
+    commonData: {
+      title: 'Choose the correct describing words.'
+                },
+    data: [
+       {
+ questions: [
+              {
+                qText: 'Neha likes to ride in______cars.',
+                options: 'fast, the, all'
+              },
+              {
+                qText: '_______trees are easy to climb.',
+                options: 'Small, Big, Large'
+              },
+              {
+                qText: 'My mom is a______lady.',
+                options: 'pretty, bad, old'
+              },
+              {
+                qText: 'The dog found a______stick.',
+                options: 'long, smart, round'
+              },
+              {
+                qText: 'Disha caught the______ball.',
+                options: 'red, far, near'
+              }
+              ]
+            },
+          {
         questions: [
+            {
+                qText: 'I love my______puppy.',
+                options: 'little, bad, slow'
+              },
+              {
+                qText: 'We went down the_______slide.',
+                options: 'giant, round, steep'
+              },
+              {
+                qText: 'My little sister loves_______toys.',
+                options: 'soft, sweet, fast'
+              },
+              {
+                qText: 'The_______sun warms our house.',
+                options: 'bright, dull, small'
+              },
+              {
+                qText: 'That is an_______bug.',
+                options: 'ugly, sweet, long'
+              }
+              ]
+            },
           {
-            qText: 'Neha likes to ride in______cars.',
-            options: 'fast, the, all'
-          },
-          {
-            qText: '_______trees are easy to climb.',
-            options: 'Small, Big, Large'
-          },
-          {
-            qText: 'My mom is a______lady.',
-            options: 'pretty, bad, old'
-          },
-          {
-            qText: 'The dog found a______stick.',
-            options: 'long, smart, round'
-          },
-          {
-            qText: 'Disha caught the______ball.',
-            options: 'red, far, near'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Multiple Choice Questions (MCQ)-2',
-      id: '200',
-      type: 'mcq',
-      data: {
-        title: 'Choose the correct describing words.',
         questions: [
-          {
-            qText: 'I love my______puppy.',
-            options: 'little, bad, slow'
-          },
-          {
-            qText: 'We went down the_______slide.',
-            options: 'giant, round, steep'
-          },
-          {
-            qText: 'My little sister loves_______toys.',
-            options: 'soft, sweet, fast'
-          },
-          {
-            qText: 'The_______sun warms our house.',
-            options: 'bright, dull, small'
-          },
-          {
-            qText: 'That is an_______bug.',
-            options: 'ugly, sweet, long'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Multiple Choice Questions (MCQ)-3',
-      id: '300',
-      type: 'mcq',
-      data: {
-        title: 'Choose the correct describing words.',
-        questions: [
-          {
-            qText: 'Snowbell is a______cat.',
-            options: 'nice, dull, long'
-          },
-          {
-            qText: 'There are_________trees in the garden.',
-            options: 'beautiful, ugly, bad'
-          },
-          {
-            qText: 'My_______brother is in his room.',
-            options: 'little, bad, smart'
-          },
-          {
-            qText: 'The elephant has______ears.',
-            options: 'big, small, little'
-          },
-          {
-            qText: 'My______bicycle is purple.',
-            options: 'new, big, small'
-          }
-        ]
-      }
-    }
-  ]
-};
+            {
+                qText: 'Snowbell is a______cat.',
+                options: 'nice, dull, long'
+              },
+              {
+                qText: 'There are_________trees in the garden.',
+                options: 'beautiful, ugly, bad'
+              },
+              {
+                qText: 'My_______brother is in his room.',
+                options: 'little, bad, smart'
+              },
+              {
+                qText: 'The elephant has______ears.',
+                options: 'big, small, little'
+              },
+              {
+                qText: 'My______bicycle is purple.',
+                options: 'new, big, small'
+              }
+              ]
+            }
+          ]
+        }
+      ]
+    }; 
