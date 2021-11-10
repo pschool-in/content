@@ -27,60 +27,43 @@ export default {
       data: [
         [`Singer, Parent, Cat, Teacher`, `Chair, Table, Tree, Star`],
         [`Deer, Bird, Fish, Cub`, `Mountain, Street, Book, Car`],
-        ['Enemy, Infant, Leader, Member', 'Paper, Computer, School, Pencil']
+        [`Enemy, Infant, Leader, Member', 'Paper, Computer, School, Pencil`]
       ]
     },
-    {
-      label: 'Classify-1',
-      type: 'classifySentence',
-      id: '100',
-      data: {
-        title:
-          'Identify whether these nouns are common gender or neuter gender.',
-        types: [
-          {
-            name: 'Common Gender',
-            text: `Servant
-                     Neighbour
-                     Cousin
-                    Friend`
-          },
-          {
-            name: 'Neuter Gender',
-            text: `Bus 
-                     TV 
-                     Speaker
-                     Box`
-          }
-        ]
-      }
+     {
+    label: 'Classify',
+    type: 'classifySentence',
+    id: 'classify',
+    commonData: {
+        title: `Identify whether these nouns are common gender or neuter gender.`,
+        types: ['Common Gender', 'Neuter Gender']
     },
-    {
-      label: 'Classify-2',
-      type: 'classifySentence',
-      id: '200',
-      data: {
-        title:
-          'Identify whether these nouns are common gender or neuter gender.',
-        types: [
-          {
-            name: 'Common Gender',
-            text: `Doctor
-                     Teacher 
-                     Minister
-                     Painter`
-          },
-          {
-            name: 'Neuter Gender',
-            text: `Ocean 
-                     Words 
-                     Train
-                      Road`
-          }
+    data: [
+        [
+        `Servant
+        Neighbour
+        Cousin
+       Friend`,
+
+       `Bus 
+       TV 
+       Speaker
+       Box`
+        ],
+        [
+        `Doctor
+        Teacher 
+        Minister
+        Painter`,
+
+       `Ocean 
+        Words 
+        Train
+        Road`
         ]
-      }
+      ]
     },
-    {
+   {
       label: 'True or False',
       id: 'tf',
       type: 'classifySentence',
