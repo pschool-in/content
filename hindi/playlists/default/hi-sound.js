@@ -84,7 +84,7 @@ myna| मैना`
             owl| उल्लू
 rooster| मुर्गा
 woodpecker| कठफोड़वा
-eagle| गिद्ध
+eagle| चील
 crane| सारस
 flamingo| मराल
 kingfisher| नीलकंठ`
@@ -115,8 +115,8 @@ hibiscus | गुडहल`
         audioOffset: 12,
         text: `ear| कान
 eye| आंख
-foot| टांग 
-hair| केश
+foot| पैर  
+hair| बाल
 hand|  हाथ
 mouth| मुंह
 nose| नाक
@@ -366,7 +366,7 @@ saw| आरा`
         {
           audioOffset: 20,
           text: `spade| कुदाल
-stethoscope|आला
+stethoscope|परिश्रावक
 telescope| दूरबीन
 testtube | परखनली
 thermometer| तापमान-यंत्र 
