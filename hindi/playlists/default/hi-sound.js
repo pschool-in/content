@@ -270,7 +270,7 @@ boy| लड़का`
           audioOffset: 16,
           text: `girl| लड़की
 man| आदमी
-woman| स्त्री
+woman|औरत 
 ball| गेंद
 glasses| ऐनक
 clock| दीवार घड़ी
