@@ -360,7 +360,7 @@ export default {
       type: 'informationProcessing',
       id: 'chart-5',
       lockAfter: 2,
-      label: 'Charts Class-5',
+      label: 'Charts -5',
       data: [
         {
           title:
