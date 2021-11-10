@@ -39,7 +39,7 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-1',
+      label: 'Identify the meanings',
       type: 'mcq',
       id: '100',
       data: {
@@ -72,7 +72,7 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-2',
+      label: 'Identify the meanings',
       id: '200',
       type: 'mcq',
       data: {
@@ -105,7 +105,7 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-3',
+      label: 'Identify the meanings',
       id: '300',
       type: 'mcq',
       data: {
@@ -139,7 +139,7 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-4',
+      label: 'Identify the meanings',
       id: '400',
       type: 'mcq',
       data: {
@@ -170,7 +170,7 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-5',
+      label: 'Identify the meanings',
       id: '500',
       type: 'mcq',
       data: {
