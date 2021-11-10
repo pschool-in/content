@@ -7,7 +7,7 @@ export default {
       id: 'animal-sound',
       label: 'Animal Sounds',
       commonData: {
-        audio: 'animal-sounds.mp3'
+        audio: 'kg-5/animal-sounds.mp3'
       },
       data: [
         {
@@ -29,16 +29,15 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and select the right animal.',
-        type: 'image'
+        type: 'image',
+        audio: 'kg-5/animal-sounds.mp3'
       },
       data: [
         {
-          audio: 'animal-sounds.mp3',
           audioWidth: 5,
           words: 'cat, dog, cow, hen, sheep, horse, pig, donkey, rooster , duck'
         },
         {
-          audio: 'animal-sounds.mp3',
           audioOffset: 50,
           audioWidth: 5,
           words: 'goat, chick, frog, lion, monkey, tiger, elephant, bear, wolf'
@@ -50,7 +49,7 @@ export default {
       id: 'animals',
       label: 'Animals',
       commonData: {
-        audio: 'animals.mp3'
+        audio: 'kg-5/animals.mp3'
       },
       data: [
         {
@@ -85,7 +84,7 @@ export default {
       id: 'birds',
       label: 'Birds',
       commonData: {
-        audio: 'birds.mp3'
+        audio: 'kg-5/birds.mp3'
       },
       data: [
         {
@@ -105,7 +104,7 @@ export default {
       id: 'fruits',
       label: 'Fruits',
       commonData: {
-        audio: 'fruits.mp3'
+        audio: 'kg-5/fruits.mp3'
       },
       data: [
         {
@@ -126,7 +125,7 @@ export default {
       label: 'Vegetables',
       lockAfter: 3,
       commonData: {
-        audio: 'vegetables.mp3'
+        audio: 'kg-5/vegetables.mp3'
       },
       data: [
         {
@@ -155,7 +154,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the animal.',
         type: 'image',
-        audio: 'animals.mp3'
+        audio: 'kg-5/animals.mp3'
       },
       data: [
         {
@@ -192,7 +191,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the bird.',
         type: 'image',
-        audio: 'birds.mp3'
+        audio: 'kg-5/birds.mp3'
       },
       data: [
         {
@@ -214,7 +213,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the fruit.',
         type: 'image',
-        audio: 'fruits.mp3'
+        audio: 'kg-5/fruits.mp3'
       },
       data: [
         {
@@ -236,7 +235,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the vegetable.',
         type: 'image',
-        audio: 'vegetables.mp3'
+        audio: 'kg-5/vegetables.mp3'
       },
       data: [
         {
@@ -261,7 +260,7 @@ export default {
       id: 'tamil-kural',
       label: 'Tamil Kural',
       commonData: {
-        audio: 'thirukkural.mp3',
+        audio: 'kg-5/thirukkural.mp3',
         type: 'text'
       },
       data: [

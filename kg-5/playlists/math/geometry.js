@@ -37,7 +37,6 @@ If one half of the figure is the mirror image of the other half, then we can say
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Draw Lines',
       id: 'lines',
       data: [
@@ -68,7 +67,6 @@ Draw a vertical line of length 3.4 cm. | vLine | 3.4`
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Draw Circle',
       id: 'circle',
       data: {
@@ -81,7 +79,6 @@ Draw a vertical line of length 3.4 cm. | vLine | 3.4`
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Draw Square',
       id: 'square',
       data: {
@@ -94,7 +91,6 @@ Draw a vertical line of length 3.4 cm. | vLine | 3.4`
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Draw Rectangle',
       id: 'rectangle',
       data: {
@@ -307,7 +303,6 @@ Make an angle of 250 degree. | angle | 250`
     },
     {
       type: 'geometry',
-      slug: 'geometry',
       label: 'Mixed Activity',
       lockAfter: 1,
       id: 'misc',

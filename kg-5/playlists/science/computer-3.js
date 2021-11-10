@@ -1,16 +1,16 @@
 export default {
-    id: 'computer-3',
-    label: 'Computer',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Computer',
-        type: 'passage',
-        id: 'intro-computer',
-        data: {
-          title: 'Introduction to Computer',
-          text: `# Introduction to computers
+  id: 'computer-3',
+  label: 'Computer',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Computer',
+      type: 'passage',
+      id: 'intro-computer',
+      data: {
+        title: 'Introduction to Computer',
+        text: `# Introduction to computers
           A computer is an advanced electronic device that performs both arithmetic and logical operations.
           1. CPU: It is the brain of the computer. It is the central processing unit. It helps in executing the instructions given by the user.   
           2. Mouse:  It is used to pick items on the screen. When the mouse moves, the pointer also moves.
@@ -84,163 +84,162 @@ export default {
           2. It works on electricity.
           3. It cannot think by itself.
           4. It is unable to make its own decisions.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'tf',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true and false',
-          types: [
-            {
-              name: 'True',
-              text: `A computer is an electronic device.
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'tf',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `A computer is an electronic device.
               A memory card is a storage device.
               Off-line storage requires human assistance`
-            },
-            {
-              name: 'False',
-              text: `ROM is a secondary storage device.
+          },
+          {
+            name: 'False',
+            text: `ROM is a secondary storage device.
               Monitor feeds information to the CPU.
               Tertiary storage is connected to the CPU directly.`
-            }
-          ]
-        }
-      },
-      {
-        id: 'match',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `Monitor, display
+          }
+        ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Monitor, display
           Keyboard, type
           Processing, CPU
           Storage, hard disc
           Mouse, point`,
-          title: 'Match the following'
-        }
-      },
-      {
-        label: 'Choose the best Answer',
-        id: 'mcq',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText:
-                'What is a cursor?',
-              options: 'a pointer on the screen, noise from the speaker, ink in a printer'
-            },
-            {
-              qText:
-                'Which is not a storage device?',
-              options: 'Scanner, DVD, Hard disc'
-            },
-            {
-              qText: 'What is the use of a joystick?',
-              options: 'to play games, to enter data, to listen to music'
-            },
-            {
-              qText: 'Keyborad is used to __________________.',
-              options: 'enter data, produce output, see characters'
-            }
-          ]
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Computer- Fill Up',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `The *control (memory)* unit controls everything that happens inside the computer.
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'Choose the best Answer',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What is a cursor?',
+            options:
+              'a pointer on the screen, noise from the speaker, ink in a printer'
+          },
+          {
+            qText: 'Which is not a storage device?',
+            options: 'Scanner, DVD, Hard disc'
+          },
+          {
+            qText: 'What is the use of a joystick?',
+            options: 'to play games, to enter data, to listen to music'
+          },
+          {
+            qText: 'Keyborad is used to __________________.',
+            options: 'enter data, produce output, see characters'
+          }
+        ]
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Computer- Fill Up',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `The *control (memory)* unit controls everything that happens inside the computer.
           CPU is the *brain (heart)* of the computer.
           Off-line storage is also known as *disconnected (connected)* storage.
           The CPU *cannot (can)* access the secondary memory directly.
           RAM is an example of *primary (secondary)* storage.`
-        }
-      },
-      {
-        label: 'Strength or Limitation',
-        id: 'strength-limitation',
-        type: 'classifySentence',
-        data: {
-          title:
-            'Classify the below sentences as strength or limitation of computer',
-          types: [
-            {
-              name: 'Strength',
-              text: `The computer can store large amounts of data.
+      }
+    },
+    {
+      label: 'Strength or Limitation',
+      id: 'strength-limitation',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Classify the below sentences as strength or limitation of computer',
+        types: [
+          {
+            name: 'Strength',
+            text: `The computer can store large amounts of data.
               The computer is more reliable than humans.
               The computer can perform a variety of operations on the same set of data.`
-            },
-            {
-              name: 'Limitation',
-              text: `It works on electricity.
-              It is unable to make its own decisions.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Name the following',
-        type: 'matchByDragDrop',
-        id: 'name-them',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
           },
-          text: `A high-speed access area in memory unit - *cache*
+          {
+            name: 'Limitation',
+            text: `It works on electricity.
+              It is unable to make its own decisions.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Name the following',
+      type: 'matchByDragDrop',
+      id: 'name-them',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `A high-speed access area in memory unit - *cache*
           A tape  with data encoded on the magnetic strip - *magnetic tape*
           A device that stores data in digital format - *optical disc*
           A portable, soft magnetic disc with slow access - *floppy*`
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'fill-up2',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `The *capslock* key is used when we want to type a capital letter.
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fill-up2',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `The *capslock* key is used when we want to type a capital letter.
           *Enter* key is used to finish a line and move to the next line on the page.
           The *shift* key is a modifier key present on both sides of the keyboard.
           The *left* mouse button is used to point to any menu tool, icon, or for the selection of text. 
           The *scroll* button is used to scroll the page up and down.
           The *right* mouse button is used to invoke the shortcut menu.`
-        }
-      },
-      {
-        id: 'fillup-3',
-        label: 'What does it stand for ?',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `RAM - *Random (Read)* Access Memory
+      }
+    },
+    {
+      id: 'fillup-3',
+      label: 'What does it stand for ?',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `RAM - *Random (Read)* Access Memory
           ROM - *Read (Random)* Only Memory
           CPU - Central *Processing (Programing)* Unit`
-        }
-      },
-      {
-        label: 'Strating the Computer',
-        type: 'sorting',
-        slug: '3-planets-order',
-        data: {
-          title:
-            'Arrange the steps in starting the computer in the correct order.',
-          text: 'plugin computer, switch on UPS, press power button on CPU, boot up '
-        },
-        id: 'sort'
       }
-    ]
-  };
+    },
+    {
+      label: 'Strating the Computer',
+      type: 'sorting',
+      data: {
+        title:
+          'Arrange the steps in starting the computer in the correct order.',
+        text:
+          'plugin computer, switch on UPS, press power button on CPU, boot up '
+      },
+      id: 'sort'
+    }
+  ]
+};

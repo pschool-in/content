@@ -165,9 +165,7 @@ Today, we have some homework.
 Today, we have school.`
           }
         ]
-      },
-      slug: 'mcq',
-      editable: true
+      }
     },
     {
       label: 'Classify',

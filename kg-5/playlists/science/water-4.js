@@ -407,7 +407,6 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'How water reaches us?',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title: 'Arrange these steps in the order of occurrence.',
         text:

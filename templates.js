@@ -27,8 +27,6 @@ export const templates = [
   /*{
       type: "sequence",
       label: "Find Sentence Template",
-      slug: "find-sentence-template",
-      
       data: {
         
         title: "Connect the blocks to form meaningful sentence.",
@@ -161,7 +159,6 @@ export const templates = [
   /* {
       label: "Fillup (Variable options) Template",
       type: "fillupOptions",
-      slug: "fillup-options",
       
       data: {
        
@@ -200,8 +197,6 @@ export const templates = [
   {
     label: 'Multiple Choice Questions - MCQ',
     type: 'mcq',
-    slug: 'mcq',
-
     data: {
       title: 'Multiple Choice Questions',
       questions: [

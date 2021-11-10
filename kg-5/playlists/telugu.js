@@ -566,10 +566,8 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
         text: 'క మ లం\nప ల క\nత ల\nఎ లు క\nఅ మ్మ\nఊ య ల\nఊ య ల',
         title: 'Connect the blocks to form meaningful word.'
       },
-      editable: true,
       id: 'jumbled-word',
       label: 'Connect the word',
-      slug: 'find-word-template',
       type: 'sequence'
     },
     {
@@ -582,7 +580,6 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
       editable: true,
       id: 'match-colors',
       label: 'Colors',
-      slug: 'match',
       type: 'match'
     },
     {
@@ -594,7 +591,6 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
       editable: true,
       id: 'sort',
       label: 'Days of the week',
-      slug: 'sort',
       type: 'sorting'
     },
     {

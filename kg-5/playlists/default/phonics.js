@@ -207,7 +207,7 @@ export default {
       type: 'phonics',
       id: 'phonics-sound',
       commonData: {
-        audio: 'phonicsWords.mp3'
+        audio: 'kg-5/phonicsWords.mp3'
       },
       data: [
         {
@@ -248,7 +248,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel',
       commonData: {
-        audio: 'phonicsWords-2.mp3'
+        audio: 'kg-5/phonicsWords-2.mp3'
       },
       data: [
         {
@@ -289,7 +289,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel-1',
       commonData: {
-        audio: 'phonicsWords-3.mp3'
+        audio: 'kg-5/phonicsWords-3.mp3'
       },
       data: [
         {
@@ -329,7 +329,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel-2',
       commonData: {
-        audio: 'phonicsWords-4.mp3'
+        audio: 'kg-5/phonicsWords-4.mp3'
       },
       data: [
         {
@@ -372,7 +372,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel-3',
       commonData: {
-        audio: 'phonicsWords-5.mp3'
+        audio: 'kg-5/phonicsWords-5.mp3'
       },
       data: [
         {
@@ -416,7 +416,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel-4',
       commonData: {
-        audio: 'phonicsWords-6.mp3'
+        audio: 'kg-5/phonicsWords-6.mp3'
       },
       data: [
         {
@@ -460,7 +460,7 @@ export default {
       type: 'phonics',
       id: 'phonics-microLabel-5',
       commonData: {
-        audio: 'phonicsWords-7.mp3'
+        audio: 'kg-5/phonicsWords-7.mp3'
       },
       data: [
         {
@@ -508,7 +508,7 @@ export default {
       data: {
         title: `Thirsty Crow`,
         disType: 'highlight',
-        audio: 'reading/thirsty-crow.mp3',
+        audio: 'kg-5/reading/thirsty-crow.mp3',
         audioOffsets4: [3.5, 7.2, 11, 14.4, 18, 21.4, 24.8, 28, 100],
         audioOffsets: [
           5.5,
@@ -531,22 +531,22 @@ export default {
         ],
         steps: [
           `One hot day, a thirsty crow flew all over the fields looking for water. 
-            For a long time, he could not find any. 
-            He felt very weak, almost lost all hope.
-            Suddenly, he saw a water jug below the tree. 
-            He flew straight down to see if there was any water inside. 
-            Yes, he could see some water inside the jug!
-            The crow tried to push his head into the jug. 
-            Sadly, he found that the neck of the jug was too narrow. 
-            Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
-            The crow thought hard for a while. 
-            Then, looking around it, he saw some pebbles. 
-            He suddenly had a good idea. 
-            He started picking up the pebbles one by one, dropping each into the jug. 
-            As more and more pebbles filled the jug, the water level kept rising. 
-            Soon it was high enough for the crow to drink. 
-            His plan had worked! 
-            The crow drank the water happily and flew in the sky singing his favorite song.`
+For a long time, he could not find any. 
+He felt very weak, almost lost all hope.
+Suddenly, he saw a water jug below the tree. 
+He flew straight down to see if there was any water inside. 
+Yes, he could see some water inside the jug!
+The crow tried to push his head into the jug. 
+Sadly, he found that the neck of the jug was too narrow. 
+Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
+The crow thought hard for a while. 
+Then, looking around it, he saw some pebbles. 
+He suddenly had a good idea. 
+He started picking up the pebbles one by one, dropping each into the jug. 
+As more and more pebbles filled the jug, the water level kept rising. 
+Soon it was high enough for the crow to drink. 
+His plan had worked! 
+The crow drank the water happily and flew in the sky singing his favorite song.`
         ]
       }
     },

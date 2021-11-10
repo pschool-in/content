@@ -15,7 +15,6 @@ export default {
     {
       label: 'Recipe fillup',
       type: 'matchByDragDrop',
-      slug: 'drag-and-drop-blanks-template',
       id: 'sandwich-fillup',
       data: {
         title: 'Drag and drop the words at proper places.',
@@ -30,7 +29,6 @@ export default {
     {
       label: 'Recipe - Sorting',
       type: 'sorting',
-      slug: 'sort',
       data: {
         title: 'Sort the sentences in the right order.',
         text:

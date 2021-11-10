@@ -9,7 +9,7 @@ export default {
       label: 'स्वर वर्ण',
       data: {
         type: 'custom',
-        audio: 'hi-letters.mp3',
+        audio: 'hi/hi-letters.mp3',
         source: [
           {
             id: 'अ',
@@ -176,7 +176,7 @@ export default {
       label: 'व्यंजन वर्ण',
       data: {
         type: 'custom',
-        audio: 'hi-letters.mp3',
+        audio: 'hi/hi-letters.mp3',
         source: [
           {
             id: 'क',
@@ -484,24 +484,23 @@ export default {
     {
       type: 'rightOne',
       label: 'हिंदी स्वर वर्ण की पहचान करें',
-      slug: 'correct-spelling',
       id: 'sound',
       data: {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
         words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
-        audio: 'hi-letters.mp3'
+        audio: 'hi/hi-letters.mp3'
       }
     },
     {
       type: 'rightOne',
       label: 'हिंदी व्यंजन वर्ण की पहचान करें',
       id: 'sound-2',
-      lockAfter:3,
+      lockAfter: 3,
       commonData: {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
-        audio: 'hi-letters.mp3'
+        audio: 'hi/hi-letters.mp3'
       },
       data: [
         {
@@ -525,7 +524,7 @@ export default {
     {
       type: 'group',
       label: 'स्वर बनाम व्यंजन ',
-      lockAfter:4,
+      lockAfter: 4,
       id: 'classify-letter-type-hi',
       commonData: {
         title: 'व्यंजन और स्वर सही बॉक्स में डालें ',
@@ -557,7 +556,7 @@ export default {
       id: 'compound-7',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (क - घ)',
-      lockAfter:4,
+      lockAfter: 4,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'
@@ -625,9 +624,8 @@ export default {
 घ + ओ, घो
 घ + औ, घौ
 घ + अं, घं
-घ + अः, घः`,
+घ + अः, घः`
       ]
-    },
-
+    }
   ]
 };

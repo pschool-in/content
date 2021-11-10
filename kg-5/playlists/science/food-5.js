@@ -236,8 +236,6 @@ Deficiency due to iodine is called as beriberi.`
       id: '1100',
       label: 'Fill in the Blanks',
       type: 'matchByDragDrop',
-      slug: 'drag-and-drop-blanks-template',
-      editable: true,
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',

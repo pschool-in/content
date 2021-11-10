@@ -112,9 +112,7 @@ export default {
               'taking umbrella while going out in rain,avoiding water pollution,planting more trees,saving rain water'
           }
         ]
-      },
-      slug: 'mcq',
-      editable: true
+      }
     },
     {
       type: 'rightOne',
@@ -170,13 +168,13 @@ The largest source of water on the earth is *ocean (sea)*.
 *Malaria (Cholera)* is caused by mosquitoes.`
       }
     },
-      {
-        label: 'Choose the correct option',
-        type: 'mcq',
-        id: '600',
-        data: {
-          title: 'Choose the correct option.',
-          questions: [
+    {
+      label: 'Choose the correct option',
+      type: 'mcq',
+      id: '600',
+      data: {
+        title: 'Choose the correct option.',
+        questions: [
           {
             qText: ' We need water to _____ our face.',
             options: 'wash, dry, paint'
@@ -200,12 +198,10 @@ The largest source of water on the earth is *ocean (sea)*.
           {
             qText: 'We need water to ______ a boat.',
             options: 'row, sow, tow'
-          },
-
-
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
     {
       label: 'Activities needing water',
       id: '700',
@@ -215,8 +211,7 @@ The largest source of water on the earth is *ocean (sea)*.
         types: [
           {
             name: 'Needs water',
-            text:
-              'Plant, Water coloring, Boating, Dough, Washing'
+            text: 'Plant, Water coloring, Boating, Dough, Washing'
           },
           {
             name: "Doesn't need water",

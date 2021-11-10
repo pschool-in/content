@@ -173,7 +173,6 @@ export default {
     {
       label: 'Lighter vs Heavier',
       type: 'group',
-      slug: '3-lighter-heavier',
       data: {
         title: 'Lighter vs Heavier',
         types: [

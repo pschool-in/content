@@ -9,7 +9,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
-        audio: 'animals.mp3'
+        audio: 'kg-5/animals.mp3'
       },
       data: [
         {
@@ -45,7 +45,7 @@ export default {
       label: 'Birds',
       commonData: {
         title: 'Listen to the sound and click on the word.',
-        audio: 'birds.mp3',
+        audio: 'kg-5/birds.mp3',
         type: 'words'
       },
       data: [
@@ -67,7 +67,7 @@ export default {
       label: 'Fruits',
       commonData: {
         title: 'Listen to the sound and click on the word.',
-        audio: 'fruits.mp3',
+        audio: 'kg-5/fruits.mp3',
         type: 'words'
       },
       data: [
@@ -89,7 +89,7 @@ export default {
       label: 'Vegetables',
       commonData: {
         title: 'Listen to the sound and click on the word.',
-        audio: 'vegetables.mp3',
+        audio: 'kg-5/vegetables.mp3',
         type: 'words'
       },
       data: [
@@ -115,7 +115,7 @@ export default {
       id: 'flowers',
       label: 'Flowers',
       data: {
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         title: 'Listen to the sound and click on the word.',
         type: 'words',
         audioOffset: 0,
@@ -128,7 +128,7 @@ export default {
       id: 'bodyParts',
       label: 'Body Parts',
       data: {
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         title: 'Listen to the sound and click on the word.',
         type: 'words',
         audioOffset: 16,
@@ -142,7 +142,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
-        audio: 'vehicles.mp3'
+        audio: 'kg-5/vehicles.mp3'
       },
       data: [
         {
@@ -164,7 +164,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
-        audio: 'picture.mp3'
+        audio: 'kg-5/picture.mp3'
       },
       data: [
         {
@@ -199,7 +199,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
-        audio: 'picture-2.mp3'
+        audio: 'kg-5/picture-2.mp3'
       },
       data: [
         {

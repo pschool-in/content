@@ -246,7 +246,6 @@ export default {
     {
       label: 'Working of computer',
       type: 'sorting',
-      slug: '3-planets-order',
       data: {
         title: 'Arrange processes in the sequence they occur.',
         text: 'Accepts data, Processes data, Produces results, Stores results.'

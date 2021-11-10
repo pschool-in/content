@@ -56,12 +56,11 @@ export default {
     {
       type: 'rightOne',
       label: 'Identify Capital Letters',
-      slug: 'correct-spelling',
       id: 'sound',
       commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        audio: 'english.mp3'
+        audio: 'kg-5/english.mp3'
       },
       data: [
         {
@@ -80,12 +79,11 @@ export default {
     {
       type: 'rightOne',
       label: 'Identify Small Letters',
-      slug: 'correct-spelling',
       id: 'sound-2',
       commonData: {
         title: 'Listen to the sound and click on the letter.',
         type: 'letters',
-        audio: 'english.mp3'
+        audio: 'kg-5/english.mp3'
       },
       data: [
         {

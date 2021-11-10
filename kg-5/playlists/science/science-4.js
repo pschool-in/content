@@ -128,7 +128,6 @@ export default {
 
       id: '1615798165126',
       label: 'Multiple Choice Questions - MCQ',
-      slug: 'mcq',
       type: 'mcq'
     },
     {

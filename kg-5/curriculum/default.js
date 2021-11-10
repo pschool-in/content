@@ -52,7 +52,6 @@ let mainMenu = {
     games,
     {
       label: 'Tamil',
-      slug: 'tamil',
       id: 'tamil',
       img: 'tamil',
       alt: 'tamil icon',
@@ -65,7 +64,6 @@ let mainMenu = {
     },
     {
       label: 'Hindi',
-      slug: 'hindi',
       id: 'hindi',
       img: 'hindi',
       alt: 'hindi icon',
@@ -78,7 +76,6 @@ let mainMenu = {
     },
     {
       label: 'Telugu',
-      slug: 'telugu',
       id: 'telugu',
       img: 'telugu',
       alt: 'telugu icon',
@@ -87,7 +84,6 @@ let mainMenu = {
     },
     {
       label: 'Kannada',
-      slug: 'kannada',
       id: 'kannada',
       img: 'kannada',
       alt: 'kannada icon',
@@ -96,7 +92,6 @@ let mainMenu = {
     },
     {
       label: 'Malayalam',
-      slug: 'malayalam',
       id: 'malayalam',
       img: 'malayalam',
       alt: 'malayalam icon',
@@ -105,7 +100,6 @@ let mainMenu = {
     },
     {
       label: 'Bengali',
-      slug: 'bengali',
       id: 'bengali',
       img: 'bengali',
       alt: 'bengali icon',

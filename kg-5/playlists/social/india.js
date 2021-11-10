@@ -436,7 +436,6 @@ Manipur, Imphal`
         isPractice: false,
         title: 'Drag and drop to match states and capitals.',
         printTitle: "Write the state's capital",
-        slug: '3-map-south-rivers',
         styles: {
           fontSize: '1rem',
           dashWidth: 70

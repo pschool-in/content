@@ -81,7 +81,7 @@ export default {
       data: {
         title: `அச்சமில்லை`,
         disType: 'highlight',
-        audio: 'tamil/ta-barathi-achamillai.mp3',
+        audio: 'ta/ta-barathi-achamillai.mp3',
         audioOffsets: [3.5, 7.2, 11, 14.4, 18, 21.4, 24.8, 28, 100],
         steps: [
           `அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
@@ -201,7 +201,7 @@ export default {
       data: {
         title: `தேடிச் சோறுநிதந் தின்று`,
         disType: 'highlight',
-        audio: 'tamil/ta-barathi-ninnai.mp3',
+        audio: 'ta/ta-barathi-ninnai.mp3',
         audioOffsets: [
           2.5,
           5,

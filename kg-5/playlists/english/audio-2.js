@@ -8,7 +8,7 @@ export default {
       id: 'flowers',
       label: 'Flowers',
       data: {
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         title: 'Listening Activity',
         audioOffset: 0,
         text:
@@ -20,7 +20,7 @@ export default {
       id: 'bodyParts',
       label: 'Body Parts',
       data: {
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         title: 'Listening Activity',
         audioOffset: 16,
         text: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
@@ -31,7 +31,7 @@ export default {
       id: 'vehicles',
       label: 'Transport',
       commonData: {
-        audio: 'vehicles.mp3',
+        audio: 'kg-5/vehicles.mp3',
         title: 'Listening Activity'
       },
       data: [
@@ -52,7 +52,7 @@ export default {
       id: 'picture',
       label: 'Pictures',
       commonData: {
-        audio: 'picture.mp3',
+        audio: 'kg-5/picture.mp3',
         title: 'Listening Activity'
       },
       data: [
@@ -86,7 +86,7 @@ export default {
       id: 'picture-2',
       label: 'Pictures 2',
       commonData: {
-        audio: 'picture-2.mp3',
+        audio: 'kg-5/picture-2.mp3',
         title: 'Listening Activity'
       },
       data: [
@@ -110,7 +110,7 @@ export default {
       data: {
         title: 'Listen to the sound and click on the flower.',
         type: 'image',
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         words:
           'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
       }
@@ -122,7 +122,7 @@ export default {
       data: {
         title: 'Listen to the sound and click on the part.',
         type: 'image',
-        audio: 'flowers-bodyParts.mp3',
+        audio: 'kg-5/flowers-bodyParts.mp3',
         audioOffset: 16,
         words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
       }
@@ -134,7 +134,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the transport.',
         type: 'image',
-        audio: 'vehicles.mp3'
+        audio: 'kg-5/vehicles.mp3'
       },
       data: [
         {
@@ -155,7 +155,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the image.',
         type: 'image',
-        audio: 'picture.mp3'
+        audio: 'kg-5/picture.mp3'
       },
       data: [
         {
@@ -189,7 +189,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the image.',
         type: 'image',
-        audio: 'picture-2.mp3'
+        audio: 'kg-5/picture-2.mp3'
       },
       data: [
         {

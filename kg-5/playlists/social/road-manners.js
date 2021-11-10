@@ -5,7 +5,6 @@ export default {
     {
       label: 'Road Manners - Reading',
       type: 'passage',
-      slug: '3-road-manners-passage',
       data: {
         title: 'Road Manners',
         text:
@@ -16,7 +15,6 @@ export default {
     {
       label: 'Road Manners - MCQ',
       type: 'mcq',
-      slug: '3-road-manners-mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
