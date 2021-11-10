@@ -110,67 +110,65 @@ Could you help me move *these*?
           Those, Thoose`
         }
       },
-      {
+          {
+    label: 'Multiple Choice Questions',
         id: '600',
-        label: 'Multiple Choice Questions-1',
-        type: 'mcq',
-        data: {
-          title: 'Select the correct demonstrative pronoun for each sentence.',
-          questions: [
+    type: 'mcq',
+    commonData: {
+        title: 'Select the correct demonstrative pronoun for each sentence.'
+    },
+    data: [
+              {
+        questions: [
             {
-              qText: 'I bought______tool yesterday.',
-              options: `that, those`
+                qText: 'I bought______tool yesterday.',
+                options: `that, those`
+              },
+              {
+                qText: 'I like______books.',
+                options: `these, this`
+              },
+              {
+                qText: '______is my moms phone.',
+                options: `That, Those`
+              },
+              {
+                qText: 'None of______answers are correct.',
+                options: `these, this`
+              },
+              {
+                qText: '______was my fathers ring.',
+                options: `This, These`
+              }
+              ]
             },
+          {
+        questions: [
             {
-              qText: 'I like______books.',
-              options: `these, this`
-            },
-            {
-              qText: '______is my moms phone.',
-              options: `That, Those`
-            },
-            {
-              qText: 'None of______answers are correct.',
-              options: `these, this`
-            },
-            {
-              qText: '______was my fathers ring.',
-              options: `This, These`
+                qText: '______is mine.',
+                options: `This, These, Such`
+              },
+              {
+                qText: 'There is no end to______.',
+                options: `this, them, such`
+              },
+              {
+                qText: 'Are______your books?',
+                options: `those, them, this`
+              },
+              {
+                qText: '_______are looking nice.',
+                options: `These, Them, Such`
+              },
+              {
+                qText: '_______was such a good experience.',
+                options: `That, Them, Those`
+              }
+              ]
             }
-          ]
-        }
-      },
-      {
-        id: '700',
-        label: 'Multiple Choice Questions-2',
-        type: 'mcq',
-        data: {
-          title: 'Select the correct demonstrative pronoun for each sentence.',
-          questions: [
-            {
-              qText: '______is mine.',
-              options: `This, These, Such`
-            },
-            {
-              qText: 'There is no end to______.',
-              options: `this, them, such`
-            },
-            {
-              qText: 'Are______your books?',
-              options: `those, them, this`
-            },
-            {
-              qText: '_______are looking nice.',
-              options: `These, Them, Such`
-            },
-            {
-              qText: '_______was such a good experience.',
-              options: `That, Them, Those`
-            }
-          ]
-        }
-      },
-      {
+         ]
+       },
+     {
         label: 'Personal Pronouns',
         type: 'passage',
         id: 'personal-pronouns-reading',
@@ -195,7 +193,7 @@ Some more examples of personal pronouns are:
         }
       },
       {
-        id: '800',
+        id: '700',
         label: 'Drag and Drop',
         type: 'group',
         data: {
@@ -215,7 +213,7 @@ Some more examples of personal pronouns are:
       {
         label: 'Select word',
         type: 'selectWord',
-        id: '900',
+        id: '800',
     
         data: {
             title: `Tap on the pronouns in each sentence.`,
@@ -227,7 +225,7 @@ Some more examples of personal pronouns are:
         }
     },
     {
-        id: '1000',
+        id: '900',
         label: 'Match the following',
         type: 'match',
         commonData: {
@@ -247,7 +245,7 @@ Rony, He`,
            },
            {
             label: 'Classify',
-            id: '2000',
+            id: '1000',
             type: 'classifySentence',
             commonData: {
               title: 'Identify if these sentences have personal pronouns or not.',
