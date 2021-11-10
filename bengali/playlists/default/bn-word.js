@@ -30,7 +30,7 @@ export default {
       // this is for class 3 and above students
       id: 'bn-jumbled',
       type: 'sequence',
-      lockAfter: 8,
+      lockAfter: 6,
       label: 'অক্ষর যুক্ত করে শব্দ গঠন',
       commonData: {
         title: 'অক্ষর যুক্ত করে শব্দ গঠন',
@@ -148,7 +148,7 @@ export default {
       type: 'rightOne',
       label: 'সঠিক বানান',
       id: 'bn-spelling',
-      lockAfter: 4,
+      lockAfter: 6,
       commonData: {
         title: 'সঠিক বানান নির্বাচন',
         noCaps: true
