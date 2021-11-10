@@ -425,6 +425,35 @@ export default {
         },
         {
           title:
+            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Cycle, Car, Auto, Bus',
+          values: '18, 12, 13, 6',
+          questions: [
+            {
+              qText: 'How many vehicles in all did Sumita see on the road in half an hour?',
+              type: 'number',
+              value: 49
+            },
+            {
+              qText:
+                'True or False: The total number cycles are thrice the number of buses',
+              options: 'True, False'
+            },
+            {
+              qText: 'Which is the most seen vehicle?',
+              options:
+                'Cycle, Car, Auto, Bus'
+            },
+            {
+              qText: 'Which vehicle passed more frequently?  car or auto?',
+              options:
+                'Auto, Car'
+            },
+          ]
+        },
+        {
+          title:
             'The below pie chart tells how students helping their parents at home. Please answer the questions given at the bottom.',
           type: 'pie',
           labels: 'Washing, Serving food, Cleaning, Cooking',
@@ -451,6 +480,11 @@ export default {
                 'Which type of activity is done by most number of students?',
               options: 'Washing, Cooking, Serving food, Cleaning'
             },
+            {
+              qText:
+                'True or False: The total number students help in serving food and cooking are same',
+              options: 'True, False'
+            }
           ]
         },
 
