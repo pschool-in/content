@@ -21,14 +21,14 @@ Gerund can be used as a
 # Subject of verb
 Examples are
 1. Walking is good exercise for health.
-2. Reading books increases your knowledge
-3. Working hard makes you successfull
+2. Reading books increases your knowledge.
+3. Working hard makes you successful.
 
 # Object of verb
 Examples are
 1. He dislike sleeping long.
 2. I hate telling lies.
-3.Stop writing now.
+3. Stop writing now.
 
 # Object of preposition
 Examples are
@@ -85,7 +85,7 @@ Some examples of infinitive include
           I don't mind *getting* up early.
           Did you miss *watching* TV?
           Dentists recommend *cleaning* teeth twice a day.
-          He was so noisy, I asked him to stop *talking*`
+          He was so noisy, I asked him to stop *talking*.`
       ]
     },
     {
