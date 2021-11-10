@@ -328,15 +328,35 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
        India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
 
-       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament?  ?0/?1 | 1, 6
-       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? ?0/?1 | 1, 3
+       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
+       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? | ?0/?1 | 1, 3
        There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
-       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? ?0/?1 | 3, 10
-       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? ?0/?1 | 2, 7 `,
+       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? | ?0/?1 | 3, 10
+       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-area',
+      label: 'Word Problem Area and boundary',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+
+        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the breadth? | ?0 cm | 6
+        A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
+        A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
+        A rectangle has an area of 15 square cm. If the breadth of the rectangle is 3 cm, then what is the length? | ?0 cm | 5
+        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`
 
 
 
       ]
-    }
+    },
   ]
 };
