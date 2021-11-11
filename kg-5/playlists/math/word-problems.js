@@ -392,24 +392,23 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         type: 'word-problem'
       },
       data: [
-
+        // multiplication class 5 - ref Karnataka state book , chaper 1/2 unit-2
         `Mr. Sidhu is a fruit selling agent who exports oranges. One box contains 144 oranges. If he exports 250 boxes of oranges, find the total number of oranges exported. | 36000
         In a protected forest area, 160 trees are planted in each row and 128 trees in each column. Find the total number of trees planted in the forest area. | 20480
         A dealer buys 37 bicycles for his show room. Cost of each bicycle is ₹ 2,050. Find the total amount paid by the dealer. | 75850
         A farmer grew 43 quintals of wheat. He sold them for ₹ 1,935 per quintal. How much did the farmer get by selling wheat? | 83205`,
 
+        // division class 5 - ref Karnataka state book , chaper 1/2 unit-2
         `A bike can cover 250 km with 5 litres of petrol. Find how many kilometres it covers with 1 litre of petrol. | 50
         Mr. Shankar purchased 13 toys of the same price for ₹ 793 from a toy shop. Find the cost of each toy. | 61
         The annual income of a person is ₹ 90,912. Find his monthly income. | 7576
         A car manufacturing company manufactures 14,820 cars in 12 months. Find the number of cars manufactured in one month. | 1235
         A tailor has 18 metres of cloth. He can stitch 9 shirts from this cloth. Find the length of cloth required to stitch one shirt. | ?0 metres | 2`
 
+        // mix of multiplication / division class 5 - ref Karnataka state book , chaper 1/2 unit-2
         `An orange garden has 72 orange plants. A farmer plucks 15 oranges from each plant and packs 12 oranges in each box. Calculate the number of boxes required to pack all oranges. | 90
         15 school children hire a cab for a day's excursion at ₹ 14 per km. If they travel a distance of 225 km, find the amount to be shared by each one of them. | 210
         Ananya has a cow which yields 8 litres of milk in a day. The selling price of one litre of milk is ₹ 18. She wants to divide the amount earned in one month (30 days) among her 4 sons. What amount does each one get? | 1080`,
-
-
-
       ]
     },
   ]
