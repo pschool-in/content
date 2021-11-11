@@ -385,7 +385,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-area',
-      label: 'Word Problem Area and boundary',
+      label: 'Word Problem miscellaneous',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
