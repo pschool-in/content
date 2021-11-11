@@ -363,7 +363,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         `The length of a wire is 3 m. What is the total length of 5 such wires? | ?0 m | 15
         Out of a roll of cloth measuring 50 m, 27 m of cloth is sold. Find the length of remaining cloth. | ?0 m | 23
         32 m of coloured ribbon is distributed among 8 students equally. What is the length of ribbon that each one gets? | ?0 m | 4
-        How many centimetres are there in 9 metres ? | ?0 cm | 900
+        How many centimetres are there in 9 metres? | ?0 cm | 900
         The length of a wooden log is 19 m. Out of this 4 pieces of 4 m each are cut off. Find the length of the remaining piece. | ?0 m | 3`,
 
         `The length of a line segment is 12 cm. Into how many line segments of 2 cm each, can it be divided? | 6
@@ -413,6 +413,12 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
+
+        `A farmer has a rectangular land of length 265 m and breadth 182 m. Find the area of the land. | ?0 sq m | 48230
+        A carpet is needed to cover the entire area of a room. If the length of the room is 17 m and breadth 5m, find the area of the carpet required. | ?0 sq m | 85       
+        An auditorium measures 27 m in length and 18 m in breadth. How many slabs of stones of 3m × 1m are required to cover the floor of the auditorium? | 162
+        A rectangular plot's length is 24 m and its breadth is 18 m. If 1 square metre of the plot costs ₹ 250, what is the total value of the plot? | ₹ ?0 | 108000 
+        A rectangular room's length is 20 m and its breadth is 9 m. How many tiles of 2m × 1m are required to cover the floor of the room? | 90`,
 
         `A triangle has sides of length 3 cm, 4 cm, 5 cm. What is the perimeter of the triangle? ?0 cm | 12
         A triangle has sides of length 10 cm, 12 cm, 15 cm. What is the perimeter of the triangle? ?0 cm | 37
