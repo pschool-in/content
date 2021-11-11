@@ -384,7 +384,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
     {
       // word problem for class 5
       type: 'numberInput',
-      id: 'word-prob-area',
+      id: 'word-prob-misc-ka',
       label: 'Word Problem miscellaneous',
       lockAfter: 10,
       commonData: {
@@ -403,12 +403,53 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         Mr. Shankar purchased 13 toys of the same price for ₹ 793 from a toy shop. Find the cost of each toy. | 61
         The annual income of a person is ₹ 90,912. Find his monthly income. | 7576
         A car manufacturing company manufactures 14,820 cars in 12 months. Find the number of cars manufactured in one month. | 1235
-        A tailor has 18 metres of cloth. He can stitch 9 shirts from this cloth. Find the length of cloth required to stitch one shirt. | ?0 metres | 2`
+        A tailor has 18 metres of cloth. He can stitch 9 shirts from this cloth. Find the length of cloth required to stitch one shirt. | ?0 metres | 2`,
 
         // mix of multiplication / division class 5 - ref Karnataka state book , chaper 1/2 unit-2
         `An orange garden has 72 orange plants. A farmer plucks 15 oranges from each plant and packs 12 oranges in each box. Calculate the number of boxes required to pack all oranges. | 90
         15 school children hire a cab for a day's excursion at ₹ 14 per km. If they travel a distance of 225 km, find the amount to be shared by each one of them. | 210
         Ananya has a cow which yields 8 litres of milk in a day. The selling price of one litre of milk is ₹ 18. She wants to divide the amount earned in one month (30 days) among her 4 sons. What amount does each one get? | 1080`,
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-length',
+      label: 'Word Problem Length',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+        // Length class 5 - ref Karnataka state book , chaper 8 unit-1
+        `How many millimetres make one centimetre? | 10
+        How many centimetres make one metre? | 100
+        How many metres make one kilometre? | 1000
+        How many metres make half a kilometre? | 500
+        How many centimetres make 1⁄4 of a metre? | 25`,
+
+        `Convert 573 cm into metres. | 5.73
+        Convert 1575 m into kilometres. | 1.575
+        Convert 2525 cm into millimetres. | 25250
+        Your school is at a distance of 3,556 m from your house. Express this distance in km. | 3.556
+        The length of a ground is 15 metres. Express the length in centimetres. | 1500`,
+
+        `The length of a wire is 3 m. What is the total length of 5 such wires? | ?0 m | 15
+        Out of a roll of cloth measuring 50 m, 27 m of cloth is sold. Find the length of remaining cloth. | ?0 m | 23
+        32 m of coloured ribbon is distributed among 8 students equally. What is the length of ribbon that each one gets? | ?0 m | 4
+        How many centimetres are there in 9 metres ? | ?0 cm | 900
+        The length of a wooden log is 19 m. Out of this 4 pieces of 4 m each are cut off. Find the length of the remaining piece. | ?0 m | 3`,
+
+        `The length of a line segment is 12 cm. Into how many line segments of 2 cm each, can it be divided? | 6
+        Raju bought 3 m 60 cm length of pant cloth. He gave 1 m 20 cm of cloth to his younger brother. What is the length of the remaining cloth? | ?0 m ?1 cm| 2,40
+        The length of cloth purchased by Joseph is as follows : 2m 30cm for shirt, 1m 10 cm for pants and 4m 80cm for coat. What is the total length of cloth purchased by Joseph? | ?0 m ?1 cm| 8,20 
+        2m 80 cm of cloth is required to stitch a frock. What is the length of cloth required to stitch 12 such frocks? | ?0 m ?1 cm| 33,60
+        Length of cloth required to stitch 6 pairs of Kurta and Pyjama is 33 m. What is the length of cloth required to stitch 1 pair of Kurta & Pyjama? | ?0 m ?1 cm| 5,50
+        The total length of 8 bundles of wire is 210 m. Find the length of each bundle of wire. | ?0 m ?1 cm| 26,25
+        The height of a table is 1m 25 cm and the height of a stool is 50 cm less than the height of the table. Find the height of the stool. | ?0 m ?1 cm| 0,75`,
+
+        
       ]
     },
   ]
