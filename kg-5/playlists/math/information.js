@@ -354,6 +354,141 @@ export default {
           ]
         }
       ]
-    }
+    },
+    {
+      // from the class 5 text book
+      type: 'informationProcessing',
+      id: 'chart-5',
+      lockAfter: 2,
+      label: 'Charts -5',
+      data: [
+        {
+          title:
+            'Weather report of 4 cities in a newspaper on June 01. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Delhi, Shimla, Bangalore, Jaisalmer',
+          values: '33, 22, 28, 38',
+          questions: [
+            {
+              qText: 'Which city is the hottest on June 01?',
+              options: 'Jaisalmer, Delhi, Shimla, Bangalore'
+            },
+            {
+              qText: 'Which city is the coldest on June 01?',
+              options: 'Shimla, Jaisalmer, Delhi, Bangalore'
+            },
+            {
+              qText: 'What is the highest temperature on June 01?',
+              type: 'number',
+              value: 38
+            },
+            {
+              qText: 'What is the difference between highest and lowest temperature on June 01',
+              type: 'number',
+              value: 16
+            },
+          ]
+        },
+        {
+          title:
+            'Yamini did a project Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
+          values: '14, 20, 10, 12, 3, 10, 5',
+          questions: [
+            {
+              qText: 'How many children in all did Yamini talk to?',
+              type: 'number',
+              value: 74
+            },
+            {
+              qText: 'Which is the most favourite pet animal in this table?',
+              options:
+                'Dog, Cat, Cow, Parrot, Squirrel'
+            },
+            {
+              qText: 'How many children wanted to a pet dog?',
+              type: 'number',
+              value: 22
+            },
+            {
+              qText: 'Which is the least favourite pet animal in this table?',
+              options:
+                'Parrot, Rabbit, Cat, Cow, Squirrel'
+            },
+            {
+              qText: 'How many children wanted to a pet squirrel?',
+              type: 'number',
+              value: 5
+            },
+          ]
+        },
+        {
+          title:
+            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Cycle, Car, Auto, Bus',
+          values: '18, 12, 13, 6',
+          questions: [
+            {
+              qText: 'How many vehicles in all did Sumita see on the road in half an hour?',
+              type: 'number',
+              value: 49
+            },
+            {
+              qText:
+                'True or False: The total number cycles are thrice the number of buses',
+              options: 'True, False'
+            },
+            {
+              qText: 'Which is the most seen vehicle?',
+              options:
+                'Cycle, Car, Auto, Bus'
+            },
+            {
+              qText: 'Which vehicle passed more frequently?  car or auto?',
+              options:
+                'Auto, Car'
+            },
+          ]
+        },
+        {
+          title:
+            'The below pie chart tells how students helping their parents at home. Please answer the questions given at the bottom.',
+          type: 'pie',
+          labels: 'Washing, Serving food, Cleaning, Cooking',
+          values: '25, 15, 20, 15',
+          questions: [
+            {
+              qText: 'How many total students helping their paretns?',
+              type: 'number',
+              value: 75
+            },
+            {
+              qText:
+                'Which type of help is done by 1/3 of the students?',
+              options: 'Washing, Serving food, Cleaning, Cooking'
+            },
+            {
+              qText:
+                'How many students are helping with washing or cleaning?',
+              type: 'number',
+              value: 55
+            },
+            {
+              qText:
+                'Which type of activity is done by most number of students?',
+              options: 'Washing, Cooking, Serving food, Cleaning'
+            },
+            {
+              qText:
+                'True or False: The total number students help in serving food and cooking are same',
+              options: 'True, False'
+            }
+          ]
+        },
+
+      ]
+    },
   ]
 };

@@ -117,7 +117,7 @@ export default {
       type: 'rightOne',
       label: 'ব্যাঞ্জনসন্ধি',
       id: 'bn-compoundword-consonant',
-      lockAfter: 3,
+      lockAfter: 4,
       commonData: {
         title: 'সঠিক বানান চয়ন করুন',
         noCaps: true,
@@ -174,7 +174,7 @@ export default {
       id: 'number-2',
       type: 'match',
       label: 'ব্যাকরণ - বচন',
-      lockAfter: 2,
+      lockAfter: 3,
       commonData: {
         title: 'একবচন বহুবচন - মেলান',
         fontSize: '1.2rem'
@@ -283,7 +283,7 @@ export default {
       type: 'group',
       label: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ ',
       id: 'classify-letter-type',
-      lockAfter: 1,
+      // lockAfter: 1,
       commonData: {
         title: 'উভয়লিঙ্গ ও ক্লীবলিঙ্গ গুলি সঠিক বক্সে রাখুন ',
         fontSize: '2rem',
@@ -363,7 +363,7 @@ export default {
       id: 'person-verb',
       label: 'পুরুষ - ক্রিয়া',
       type: 'fillupOptions',
-      lockAfter: 5,
+      lockAfter: 6,
       commonData: {
         title: 'শূন্যস্থান পূরণ করুন.'
       },
@@ -764,7 +764,7 @@ export default {
       label: 'বাগধারা ও প্রবাদ-প্রবচন',
       id: 'bn-idioms',
       type: 'mcq',
-      lockAfter: 3,
+      // lockAfter: 3,
       commonData: {
         title: 'বাগধারাগুলির সঠিক অর্থ খুঁজুন'
       },

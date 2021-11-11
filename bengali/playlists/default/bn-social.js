@@ -242,7 +242,7 @@ export default {
       type: 'group',
       label: 'ঋতু এবং মাস',
       id: 'classify-letter-type',
-      lockAfter: 4,
+      // lockAfter: 4,
       commonData: {
         title: 'ঋতু এবং মাসগুলি সঠিক বক্সে রাখুন ',
         fontSize: '2rem',

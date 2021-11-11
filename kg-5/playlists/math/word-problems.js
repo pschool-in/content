@@ -328,15 +328,89 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
        India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
 
-       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament?  ?0/?1 | 1, 6
-       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? ?0/?1 | 1, 3
+       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
+       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? | ?0/?1 | 1, 3
        There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
-       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? ?0/?1 | 3, 10
-       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? ?0/?1 | 2, 7 `,
+       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? | ?0/?1 | 3, 10
+       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-area',
+      label: 'Word Problem Area and boundary',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+
+        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the breadth? | ?0 cm | 6
+        A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
+        A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
+        A rectangle has an area of 15 square cm. If the breadth of the rectangle is 3 cm, then what is the length? | ?0 cm | 5
+        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`,
+
+        `What is the perimeter of a rectangle with 4 cm length and 10 cm breadth? | ?0 cm | 28 
+        What is the perimeter of a rectangle with 15 cm length and 25 cm breadth? | ?0 cm | 80
+        What is the perimeter of a square with 8 cm length? | ?0 cm | 32
+        What is the perimeter of a rectangle with 5 cm length and 30 cm breadth? | ?0 cm | 50
+        What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `,
+
+        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the perimeter of the rectangle? | ?0 cm | 28
+        A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
+        A square has an area of 16 square cm. What is the perimeter of the square? | ?0 cm | 16
+        A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
+        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
+        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
+
+        `A triangle has sides of length 3 cm, 4 cm, 5 cm. What is the perimeter of the triangle? ?0 cm | 12
+        A triangle has sides of length 10 cm, 12 cm, 15 cm. What is the perimeter of the triangle? ?0 cm | 37
+        An equilateral (a triangle with equal sides) triangle has sides of length 6 cm. What is the perimeter of the triangle? ?0 cm | 18
+        An equilateral triangle (a triangle with equal sides) has sides of length 10 cm. What is the perimeter of the triangle? ?0 cm | 30
+        A regular Pentagon (A pentagon with equal sides) has sides of length 6 cm. What is the perimeter of the Pentagon? ?0 cm | 30`,
+
+        `Perimeter of a rectangle is 20 cm. The area of the rectangle is 21 square cm. If one of the sides is 7 cm, what is the length of the other side? | ?0 cm | 3 
+        Perimeter of a rectangle is 36 cm. The area of the rectangle is 80 square cm. What is the length of the bigger side? | ?0 cm | 10
+        Perimeter of a rectangle is 42 cm. The area of the rectangle is 20 square cm. What is the length of the smaller side? | ?0 cm | 1
+        Perimeter of a square is 36 cm. What is the area of the square? | ?0 square cm | 81
+        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-area',
+      label: 'Word Problem miscellaneous',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+
+        `Mr. Sidhu is a fruit selling agent who exports oranges. One box contains 144 oranges. If he exports 250 boxes of oranges, find the total number of oranges exported. | 36000
+        In a protected forest area, 160 trees are planted in each row and 128 trees in each column. Find the total number of trees planted in the forest area. | 20480
+        A dealer buys 37 bicycles for his show room. Cost of each bicycle is ₹ 2,050. Find the total amount paid by the dealer. | 75850
+        A farmer grew 43 quintals of wheat. He sold them for ₹ 1,935 per quintal. How much did the farmer get by selling wheat? | 83205`,
+
+        `A bike can cover 250 km with 5 litres of petrol. Find how many kilometres it covers with 1 litre of petrol. | 50
+        Mr. Shankar purchased 13 toys of the same price for ₹ 793 from a toy shop. Find the cost of each toy. | 61
+        The annual income of a person is ₹ 90,912. Find his monthly income. | 7576
+        A car manufacturing company manufactures 14,820 cars in 12 months. Find the number of cars manufactured in one month. | 1235
+        A tailor has 18 metres of cloth. He can stitch 9 shirts from this cloth. Find the length of cloth required to stitch one shirt. | ?0 metres | 2`
+
+        `An orange garden has 72 orange plants. A farmer plucks 15 oranges from each plant and packs 12 oranges in each box. Calculate the number of boxes required to pack all oranges. | 90
+        15 school children hire a cab for a day's excursion at ₹ 14 per km. If they travel a distance of 225 km, find the amount to be shared by each one of them. | 210
+        Ananya has a cow which yields 8 litres of milk in a day. The selling price of one litre of milk is ₹ 18. She wants to divide the amount earned in one month (30 days) among her 4 sons. What amount does each one get? | 1080`,
 
 
 
       ]
-    }
+    },
   ]
 };

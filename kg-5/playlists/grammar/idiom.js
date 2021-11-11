@@ -39,170 +39,149 @@ export default {
       }
     },
     {
-      label: 'Identify the meanings (MCQ)-1',
-      type: 'mcq',
-      id: '100',
-      data: {
-        title:
-          'Identify the correct meanings of the idioms from the options given below.',
+            label: 'Identify the meanings',
+             id: 'mcq-idioms',
+            type: 'mcq',
+            commonData: {
+              title: 'Identify the correct meanings of the idioms from the options given below'
+            },
+            data: [
+              {
         questions: [
+            {
+                qText: 'Once in a blue moon',
+                options:
+                    'an event that happens infrequently, an event that happens regularly, an event that happens frequently'
+                },
+                {
+                qText: 'A piece of cake',
+                options: 'very easy, very difficult, its impossible'
+                },
+                {
+                qText: 'Break a leg',
+                options: 'good luck, bad luck, no luck at all'
+                },
+                {
+                qText: 'To feel under the weather',
+                options: 'not feeling well, feeling excited, feeling amazing'
+                },
+                {
+                qText: 'Back to square one',
+                options:
+                    'To start the process all over again, to complete the process, to hold the process in the middle '
+                }
+              ]
+            },
           {
-            qText: 'Once in a blue moon',
-            options:
-              'an event that happens infrequently, an event that happens regularly, an event that happens frequently'
-          },
-          {
-            qText: 'A piece of cake',
-            options: 'very easy, very difficult, its impossible'
-          },
-          {
-            qText: 'Break a leg',
-            options: 'good luck, bad luck, no luck at all'
-          },
-          {
-            qText: 'To feel under the weather',
-            options: 'not feeling well, feeling excited, feeling amazing'
-          },
-          {
-            qText: 'Back to square one',
-            options:
-              'To start the process all over again, to complete the process, to hold the process in the middle '
-          }
-        ]
-      }
-    },
-    {
-      label: 'Identify the meanings (MCQ)-2',
-      id: '200',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
         questions: [
+               {
+                qText: 'Beating around the bush',
+                options:
+                    'Not speaking directly about the issue, speaking directly about the issue, not speaking at all'
+                },
+                {
+                qText: 'Hit the hay',
+                options: 'go to sleep, go to play, go to the farm'
+                },
+                {
+                qText: 'Let the cat out of the bag',
+                options:
+                    'to share the secret, to hide the secret, to conceal the secret'
+                },
+                {
+                qText: 'Cross your fingers',
+                options:
+                    'to hope something happens your way, to hope something doesnt happen, to hope something happens the way your friends wanted'
+                },
+                {
+                qText: 'Hit the books',
+                options: 'to study, to write, to listen'
+                }
+              ]
+            },
           {
-            qText: 'Beating around the bush',
-            options:
-              'Not speaking directly about the issue, speaking directly about the issue, not speaking at all'
-          },
-          {
-            qText: 'Hit the hay',
-            options: 'go to sleep, go to play, go to the farm'
-          },
-          {
-            qText: 'Let the cat out of the bag',
-            options:
-              'to share the secret, to hide the secret, to conceal the secret'
-          },
-          {
-            qText: 'Cross your fingers',
-            options:
-              'to hope something happens your way, to hope something doesnt happen, to hope something happens the way your friends wanted'
-          },
-          {
-            qText: 'Hit the books',
-            options: 'to study, to write, to listen'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Identify the meanings (MCQ)-3',
-      id: '300',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
         questions: [
+               {
+                qText: 'Crack someone up',
+                options:
+                    'to make someone laugh, to make someone cry, to make someone eat'
+                },
+                {
+                qText: 'Out of the blue',
+                options:
+                    'Something that occurs unexpectedly, something that occurs frequently, something that occurs very regularly'
+                },
+                {
+                qText: 'Hold your horses',
+                options: 'be patient, be aggressive, be emotional'
+                },
+                {
+                qText: 'Know the ropes',
+                options:
+                    'to understand the details, to miss the details, to write the details'
+                },
+                {
+                qText: 'Chicken out',
+                options:
+                    'to avoid doing something due to fear, to be brave, to be strong'
+                }
+              ]
+            },
           {
-            qText: 'Crack someone up',
-            options:
-              'to make someone laugh, to make someone cry, to make someone eat'
-          },
-          {
-            qText: 'Out of the blue',
-            options:
-              'Something that occurs unexpectedly, something that occurs frequently, something that occurs very regularly'
-          },
-          {
-            qText: 'Hold your horses',
-            options: 'be patient, be aggressive, be emotional'
-          },
-          {
-            qText: 'Know the ropes',
-            options:
-              'to understand the details, to miss the details, to write the details'
-          },
-          {
-            qText: 'Chicken out',
-            options:
-              'to avoid doing something due to fear, to be brave, to be strong'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Identify the meanings (MCQ)-4',
-      id: '400',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
         questions: [
-          {
-            qText: 'Fishy',
-            options: 'strange, ordinary, familiar'
-          },
-          {
-            qText: 'Rat race',
-            options: 'Competitive struggle, no struggle, no challenge '
-          },
-          {
-            qText: 'Hard nut to crack',
-            options:
-              'difficult to understand, easy to understand, clear to understand'
-          },
-          {
-            qText: 'In a nutshell',
-            options: 'to sum up, to serve in a shell, to eat in a shell'
-          },
-          {
-            qText: 'Black out',
-            options: 'to lose consciousness, to gain consciousness, to sleep'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Identify the meanings (MCQ)-5',
-      id: '500',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
+                {
+                qText: 'Fishy',
+                options: 'strange, ordinary, familiar'
+                },
+                {
+                qText: 'Rat race',
+                options: 'Competitive struggle, no struggle, no challenge '
+                },
+                {
+                qText: 'Hard nut to crack',
+                options:
+                    'difficult to understand, easy to understand, clear to understand'
+                },
+                {
+                qText: 'In a nutshell',
+                options: 'to sum up, to serve in a shell, to eat in a shell'
+                },
+                {
+                qText: 'Black out',
+                options: 'to lose consciousness, to gain consciousness, to sleep'
+                }
+              ]
+            },
+         {
         questions: [
-          {
+            {
             qText: 'Born with a silver spoon',
             options:
-              'from a rich family, from a poor family, from a middle-class family'
-          },
-          {
+                'from a rich family, from a poor family, from a middle-class family'
+            },
+            {
             qText: 'Pitch black',
             options: 'very dark, very bright, very shiny'
-          },
-          {
+            },
+            {
             qText: 'Paint the town red',
             options:
-              'to have fun, to paint the town with red color, to work hard'
-          },
-          {
+                'to have fun, to paint the town with red color, to work hard'
+            },
+            {
             qText: 'Feel blue',
             options: 'to feel sad, to feel happy, to feel excited'
-          },
-          {
+            },
+            {
             qText: 'Green thumb',
             options:
-              'talent for gardening, talent for singing, talent for dancing'
-          }
-        ]
-      }
+                'talent for gardening, talent for singing, talent for dancing'
+            }
+          ]
+        }
+      ]
     },
-    {
+     {
       type: 'selectWord',
       label: 'Identify the Idioms',
       id: 'select-word',
