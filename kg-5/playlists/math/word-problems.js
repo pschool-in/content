@@ -414,6 +414,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
         The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
 
+        // class 5, Karnataka state board , chapter 9
         `A farmer has a rectangular land of length 265 m and breadth 182 m. Find the area of the land. | ?0 sq m | 48230
         A carpet is needed to cover the entire area of a room. If the length of the room is 17 m and breadth 5m, find the area of the carpet required. | ?0 sq m | 85       
         An auditorium measures 27 m in length and 18 m in breadth. How many slabs of stones of 3m × 1m are required to cover the floor of the auditorium? | 162
