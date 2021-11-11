@@ -288,6 +288,21 @@ const grammar = [
     grade: 'g4, g5'
   },
   {
+    label: 'Adverb - 3',
+    id: 'adverb-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Adverb - 4',
+    id: 'adverb-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Adverb - 5',
+    id: 'adverb-5',
+    grade: 'g4, g5'
+  },
+  {
     label: 'Degrees of Comparison',
     id: 'degrees-comparison',
     grade: 'g4, g5'
@@ -311,6 +326,11 @@ const grammar = [
   {
     label: 'Article - 1',
     id: 'article-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Article - 3',
+    id: 'article-3',
     grade: 'g3, g4, g5'
   },
   {
@@ -366,6 +386,26 @@ const grammar = [
   {
     label: 'Pronoun - Introduction',
     id: 'pronoun-1',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'Pronoun 2',
+    id: 'pronoun-2',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Pronoun 3',
+    id: 'pronoun-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Pronoun 4',
+    id: 'pronoun-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Pronoun 5',
+    id: 'pronoun-5',
     grade: 'g3, g4, g5'
   }
 ];
