@@ -304,83 +304,8 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
 
       ]
     },
-    {
-      // word problem for class 5
-      type: 'numberInput',
-      id: 'word-prob-fraction',
-      label: 'Word Problem Fraction',
-      lockAfter: 10,
-      commonData: {
-        title: 'Answer the word problem in simplified fraction.',
-        type: 'word-problem'
-      },
-      data: [
 
-        `A pizza is divided into 6 pieces. You are 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
-        You had 8 balloons. You gifted your friends 5 balloons. What was the fraction of balloons you have gifted your friends? | ?0/?1 | 5, 8
-        You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? ?0/?1 | 1, 5
-        Your school is 12 kms away from your home. You walk for 2 kms and the rest of the distance you take a bus. What is the fraction of the distance you walk? ?0/?1 | 1, 6
-        It takes 1 hour to complete 10 tasks. You have completed 6 tasks. What is the fraction of tasks you have completed? ?0/?1 | 3, 5`,
 
-        `Fida baked 12 cup cakes. He ate up to 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
-       Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
-       Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
-       Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
-       India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
-
-       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
-       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? | ?0/?1 | 1, 3
-       There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
-       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? | ?0/?1 | 3, 10
-       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `,
-
-      ]
-    },
-    {
-      // word problem for class 5
-      type: 'numberInput',
-      id: 'word-prob-area',
-      label: 'Word Problem Area and boundary',
-      lockAfter: 10,
-      commonData: {
-        title: 'Answer the word problem',
-        type: 'word-problem'
-      },
-      data: [
-
-        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the breadth? | ?0 cm | 6
-        A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
-        A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
-        A rectangle has an area of 15 square cm. If the breadth of the rectangle is 3 cm, then what is the length? | ?0 cm | 5
-        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`,
-
-        `What is the perimeter of a rectangle with 4 cm length and 10 cm breadth? | ?0 cm | 28 
-        What is the perimeter of a rectangle with 15 cm length and 25 cm breadth? | ?0 cm | 80
-        What is the perimeter of a square with 8 cm length? | ?0 cm | 32
-        What is the perimeter of a rectangle with 5 cm length and 30 cm breadth? | ?0 cm | 50
-        What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `,
-
-        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the perimeter of the rectangle? | ?0 cm | 28
-        A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
-        A square has an area of 16 square cm. What is the perimeter of the square? | ?0 cm | 16
-        A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
-        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
-        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
-
-        `A triangle has sides of length 3 cm, 4 cm, 5 cm. What is the perimeter of the triangle? ?0 cm | 12
-        A triangle has sides of length 10 cm, 12 cm, 15 cm. What is the perimeter of the triangle? ?0 cm | 37
-        An equilateral (a triangle with equal sides) triangle has sides of length 6 cm. What is the perimeter of the triangle? ?0 cm | 18
-        An equilateral triangle (a triangle with equal sides) has sides of length 10 cm. What is the perimeter of the triangle? ?0 cm | 30
-        A regular Pentagon (A pentagon with equal sides) has sides of length 6 cm. What is the perimeter of the Pentagon? ?0 cm | 30`,
-
-        `Perimeter of a rectangle is 20 cm. The area of the rectangle is 21 square cm. If one of the sides is 7 cm, what is the length of the other side? | ?0 cm | 3 
-        Perimeter of a rectangle is 36 cm. The area of the rectangle is 80 square cm. What is the length of the bigger side? | ?0 cm | 10
-        Perimeter of a rectangle is 42 cm. The area of the rectangle is 20 square cm. What is the length of the smaller side? | ?0 cm | 1
-        Perimeter of a square is 36 cm. What is the area of the square? | ?0 square cm | 81
-        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`,
-
-      ]
-    },
     {
       // word problem for class 5
       type: 'numberInput',
@@ -450,6 +375,89 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         The height of a table is 1m 25 cm and the height of a stool is 50 cm less than the height of the table. Find the height of the stool. | ?0 m ?1 cm| 0,75`,
 
         
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-area',
+      label: 'Word Problem Area and boundary',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+
+        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the breadth? | ?0 cm | 6
+        A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
+        A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
+        A rectangle has an area of 15 square cm. If the breadth of the rectangle is 3 cm, then what is the length? | ?0 cm | 5
+        A square has an area of 9 square cm. What is the length of one side? | ?0 cm | 3`,
+
+        `What is the perimeter of a rectangle with 4 cm length and 10 cm breadth? | ?0 cm | 28 
+        What is the perimeter of a rectangle with 15 cm length and 25 cm breadth? | ?0 cm | 80
+        What is the perimeter of a square with 8 cm length? | ?0 cm | 32
+        What is the perimeter of a rectangle with 5 cm length and 30 cm breadth? | ?0 cm | 50
+        What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `,
+
+        // class 5, Karnataka state board , chapter 9
+        `A rectangular floor measures 5 m in length and 4 m in breadth. Find the perimeter of the floor. | 0? m | 18
+        A rectangular field has a length of 170 m and breadth 120 m. Find the perimeter of the field. | 0? m | 580         
+        A rectangular garden measures 70 m in length and 50 m in breadth. If the garden has to be fenced 5 rounds with barbed wire, what is the length of the wire required? | 0? m | 1200
+        Srija, during her morning walk, goes round a rectangular park 3 times. If the length and breadth of that park are 310 m and 190 m respectively, calculate the distance she has covered in km. | 0? km | 3`,
+
+        `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the perimeter of the rectangle? | ?0 cm | 28
+        A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
+        A square has an area of 16 square cm. What is the perimeter of the square? | ?0 cm | 16
+        A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
+        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
+        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
+
+        `A triangle has sides of length 3 cm, 4 cm, 5 cm. What is the perimeter of the triangle? ?0 cm | 12
+        A triangle has sides of length 10 cm, 12 cm, 15 cm. What is the perimeter of the triangle? ?0 cm | 37
+        An equilateral (a triangle with equal sides) triangle has sides of length 6 cm. What is the perimeter of the triangle? ?0 cm | 18
+        An equilateral triangle (a triangle with equal sides) has sides of length 10 cm. What is the perimeter of the triangle? ?0 cm | 30
+        A regular Pentagon (A pentagon with equal sides) has sides of length 6 cm. What is the perimeter of the Pentagon? ?0 cm | 30`,
+
+        `Perimeter of a rectangle is 20 cm. The area of the rectangle is 21 square cm. If one of the sides is 7 cm, what is the length of the other side? | ?0 cm | 3 
+        Perimeter of a rectangle is 36 cm. The area of the rectangle is 80 square cm. What is the length of the bigger side? | ?0 cm | 10
+        Perimeter of a rectangle is 42 cm. The area of the rectangle is 20 square cm. What is the length of the smaller side? | ?0 cm | 1
+        Perimeter of a square is 36 cm. What is the area of the square? | ?0 square cm | 81
+        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-fraction',
+      label: 'Word Problem Fraction',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem in simplified fraction.',
+        type: 'word-problem'
+      },
+      data: [
+
+        `A pizza is divided into 6 pieces. You are 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
+        You had 8 balloons. You gifted your friends 5 balloons. What was the fraction of balloons you have gifted your friends? | ?0/?1 | 5, 8
+        You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? ?0/?1 | 1, 5
+        Your school is 12 kms away from your home. You walk for 2 kms and the rest of the distance you take a bus. What is the fraction of the distance you walk? ?0/?1 | 1, 6
+        It takes 1 hour to complete 10 tasks. You have completed 6 tasks. What is the fraction of tasks you have completed? ?0/?1 | 3, 5`,
+
+        `Fida baked 12 cup cakes. He ate up to 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
+       Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
+       Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
+       Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
+       India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
+
+       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
+       Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? | ?0/?1 | 1, 3
+       There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
+       There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? | ?0/?1 | 3, 10
+       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `,
+
       ]
     },
   ]
