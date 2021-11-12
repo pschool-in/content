@@ -33,7 +33,7 @@ export default {
         `There are 3 wickets on each side of the cricket pitch. If 1 wicket is broken while playing, how many are left in good condition? | 5
         You have 10 bananas with you. You gave 2 to your brother and 2 to your friend. How many are left with you now? | 6
         You have filled 6 bottles of 1 litres with water. By mistake one bottle of water has fallen down. How much total water (in litre) is left? | 5
-        Priya has ₹1 , ₹2 and ₹5 each. How much total money in ₹ Priya has with her? | 8
+        Priya has ₹1 , ₹2 and ₹5 each. How much total money Priya has with her? | ₹ ?0 | 8
         Gopal took his 4 cows for grazing. Each cow eats 2 baskets of grass. How many baskets of grass are required to feed all the cows? | 8`,
 
       ]
