@@ -290,11 +290,11 @@ Cost of 15 candies = ₹ ?1
         Neelu wants to give chocolates to his 4 friends. If he wants to give equally to his friends, how many should he buy, 20 or 30? | 20
         What is the least number of saplings which can be arranged in rows of 4, 5 and 6? | 60`,
 
-        `Find the length of the rope in cm which can be cut into pieces of 10 cm, 15 cm, 20 cm? | 30
+        `Find the least length of the rope in cm which can be cut into pieces of 10 cm, 15 cm, 20 cm? | 60
         A shopkeeper sells candles in packs of 8 and candle stands in packs of 6. What is the least number of candles and candle stands Chintu should buy so that each candle will have a candle stand? | 24
         To print a paper a printer takes 3 seconds. How long does the printer need to print 180 pages? Find the time in minutes. | 9
         Babar plays football every 3 days, runs every 5 days and cycles every 6 days. If he has done all together today, then after how many days will he do all the 3 activities together again? | 30
-        John saves ₹ 6 each day. If he wants to get his savings converted to ₹ 100 denomination. How many days does he need to wait to convert the whole savings to ₹ 100 denomination? | 50`,
+        John saves ₹ 6 each day. If he wants to get his savings converted to exact ₹ 100 denominations. How many days does he need to wait to convert the whole savings to exact ₹ 100 denominations? | 50`,
 
         `There are 18 bangles on the rod. Tina is trying to group them. She can put them in groups of 2,3,6,9 and 18 — without any bangle being left. If she puts them in groups of 3, how many groups of bangles will there be? | 6
 Jai needs to put tiles on the wall. Each tile is 20 cm x 20 cm in dimension. The wall is  600 cm X 400 cm dimension. How many tiles will be required to complete the tiling of the wall. | 600
@@ -411,8 +411,8 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
         A square has an area of 16 square cm. What is the perimeter of the square? | ?0 cm | 16
         A square has an area of 64 square cm. What is the perimeter of the square? | ?0 cm | 32
-        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
-        The perimeter of a square is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
+        The perimeter of a rectangle is 60 cm. If the length of the rectangle is 10 cm, then what is the breadth of the rectangle? | ?0 cm | 20
+        The perimeter of a rectangle is 60 cm. If the length of the rectangle is 10 cm, then what is the area of the rectangle? | ?0 square cm | 200`,
 
         // class 5, Karnataka state board , chapter 9
         `A farmer has a rectangular land of length 265 m and breadth 182 m. Find the area of the land. | ?0 sq m | 48230
@@ -505,15 +505,15 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       },
       data: [
 
-        `A pizza is divided into 6 pieces. You are 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
+        `A pizza is divided into 6 pieces. You ate 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
         You had 8 balloons. You gifted your friends 5 balloons. What was the fraction of balloons you have gifted your friends? | ?0/?1 | 5, 8
-        You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? ?0/?1 | 1, 5
-        Your school is 12 kms away from your home. You walk for 2 kms and the rest of the distance you take a bus. What is the fraction of the distance you walk? ?0/?1 | 1, 6
-        It takes 1 hour to complete 10 tasks. You have completed 6 tasks. What is the fraction of tasks you have completed? ?0/?1 | 3, 5`,
+        You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? | ?0/?1 | 1, 5
+        Your school is 12 kms away from your home. You walk for 2 kms and the rest of the distance you take a bus. What is the fraction of the distance you walk? | ?0/?1 | 1, 6
+        It takes 1 hour to complete 10 tasks. You have completed 6 tasks. What is the fraction of tasks you have completed? | ?0/?1 | 3, 5`,
 
         `Fida baked 12 cup cakes. He ate up to 3 cup cakes. What fraction of lemon tarts did Fida eat? | ?0/?1 | 1, 4
        Dan has a total of 25 marbles. He gives 10 marbles to his sister, Jane. What fraction of marbles did Jane receive? | ?0/?1 | 2, 5
-       Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Gina travel by bus? | ?0/?1 | 5, 9
+       Rita travels a distance of 9 miles to reach home. The bus ride covers 5 miles. She then walks 4 miles to reach her home. What fraction of miles does Rita travel by bus? | ?0/?1 | 5, 9
        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
        India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
 
