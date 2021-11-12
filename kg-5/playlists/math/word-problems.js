@@ -438,6 +438,25 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
     {
       // word problem for class 5
       type: 'numberInput',
+      id: 'word-prob-weightvol',
+      label: 'Word Problem Weight and Volume',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem in simplified fraction.',
+        type: 'word-problem'
+      },
+      data: [
+
+        `60 kg of rice was supplied to a school. If 15 kg of rice was used, find the quantity of rice remaining? | ?0 kg | 45
+        Abrar buys 17 kg of jaggery and 16 kg of rice from a shop. He puts both the packets into one bag. What is the total weight of the bag? | ?0 kg | 33
+        A bag can hold 30 kg of ragi. If 180 kg of ragi is to be filled equally, how many such bags are required? | 6
+        A merchant has 7 packets of sugar, each packet weighing 15 kg of sugar. What is the total weight of 7 packets of sugar? | ?0 kg | 105`,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
       id: 'word-prob-fraction',
       label: 'Word Problem Fraction',
       lockAfter: 10,
@@ -467,5 +486,6 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
 
       ]
     },
+    
   ]
 };
