@@ -66,13 +66,13 @@ Some examples of interrogative pronouns:
       type: 'fillupOptions',
       data: {
         text: `*Why(what)* is the flight late?
-          *Who(when)* left the door open?
-          *Why(what)* are you sad?
-          *What(which)* is your brother's name?
-          *Which(whom)* car is yours?
-          *Who(when)* is the new student in the class?
+          *Who(When)* left the door open?
+          *Why(What)* are you sad?
+          *What(Which)* is your brother's name?
+          *Which(Whom)* car is yours?
+          *Who(When)* is the new student in the class?
           *What(when)*do you like to wear tomorrow?
-          *Which (what)* one of these burgers is made of meat?
+          *Which (What)* one of these burgers is made of meat?
           To *whom(who)* was the song dedicated?`,
         title:
           'Click on the blank and fill in the correct interrogative pronoun.'
@@ -104,7 +104,7 @@ Some examples of interrogative pronouns:
     },
     {
       id: 'classify-sentence',
-      label: 'Identify (Reflexive or possessive pronoun)',
+      label: 'Identify',
       type: 'classifySentence',
       data: {
         title:
@@ -121,7 +121,7 @@ Some examples of interrogative pronouns:
             name: 'Possessive pronoun',
             text: `This notebook is mine.
               That bike is theirs.
-              Is pencil yours?
+              Is this pencil yours?
               The lipstick is hers.`
           }
         ]
