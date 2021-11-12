@@ -58,21 +58,21 @@ Is this pencil *yours*?
 My car is bigger than *his*.
 This house is *ours*.`,
 
-`This cat is *ours*.
-The bag over there is *his*.
-This money is *mine*.
-These earphones are not *yours*.
-The lipstick is *hers*.`,
+`I paid for my book, so it is *mine*.
+Pick any of these chocolates, the choice is *yours*.
+The cricket bat belongs to Ram. It is *his*.
+We bought this music player together. So it is *ours*.
+All my cousins love criket. Playing cricket is a favourite passtime of *theirs*.`,
 
 `My car is bigger than *yours*.
-That painting on the wall is *ours*. 
-That bike is *theirs*.
-This book is *mine*.
-Is this dress *hers*.`
+That book belongs to me. That book is *mine*.
+This dress belongs to my sister Priya. This dress is *hers*.
+This skate board belongs to my brother Jatin. This is *his*.
+This bag belongs to me and my sister. This bag is *ours*.`
         ]
       },
       {
-        label: 'Identify (yes or no)',
+        label: 'Identify',
         id: 'yes-no',
         type: 'classifySentence',
         data: {
@@ -107,16 +107,16 @@ The water bottle belongs to her. It is *hers(mine)*.
 He has a new phone. It is *his(her)*.
 You have a cap. It is *yours(hers)*.`,
 
-`Jack has a toy car. it is *his(her)*.
+`Jack has a toy car. It is *his(her)*.
 I have mittens. They are *mine(ours)*.
-Sangamitra has a dool. it is *hers(ours)*.
+Sangamitra has a doll. It is *hers(ours)*.
 Mannu and I have many dolls. They are *ours(yours)*.
 Uncle and Aunt have a car. It is *theirs (mine)*.`,
         ]
       },
       {
         type: 'selectWord',
-        label: 'Identify (select the word)',
+        label: 'Identify',
         id: 'select-word',
         commonData: {
         title: 'Select the possessive pronoun in the sentence.'
@@ -130,7 +130,7 @@ I own the bike. It is *mine*.`,
           
 `Chandan has a small puppy. It is *his* puppy.
 The house at the corner is *theirs*.
-Are you sure this is *yours*.
+Are you sure this is *yours*?
 Who owns this bat? Is it *yours*?
 This dog is *ours*.`,
        ]
