@@ -402,10 +402,10 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         What is the perimeter of a square with 2 cm length? | ?0 cm | 8 `,
 
         // class 5, Karnataka state board , chapter 9
-        `A rectangular floor measures 5 m in length and 4 m in breadth. Find the perimeter of the floor. | 0? m | 18
-        A rectangular field has a length of 170 m and breadth 120 m. Find the perimeter of the field. | 0? m | 580         
-        A rectangular garden measures 70 m in length and 50 m in breadth. If the garden has to be fenced 5 rounds with barbed wire, what is the length of the wire required? | 0? m | 1200
-        Srija, during her morning walk, goes round a rectangular park 3 times. If the length and breadth of that park are 310 m and 190 m respectively, calculate the distance she has covered in km. | 0? km | 3`,
+        `A rectangular floor measures 5 m in length and 4 m in breadth. Find the perimeter of the floor. | ?0 m | 18
+        A rectangular field has a length of 170 m and breadth 120 m. Find the perimeter of the field. | ?0 m | 580         
+        A rectangular garden measures 70 m in length and 50 m in breadth. If the garden has to be fenced 5 rounds with barbed wire, what is the length of the wire required? | ?0 m | 1200
+        Srija, during her morning walk, goes round a rectangular park 3 times. If the length and breadth of that park are 310 m and 190 m respectively, calculate the distance she has covered in km. | ?0 km | 3`,
 
         `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the perimeter of the rectangle? | ?0 cm | 28
         A rectangle has an area of 60 square cm. If the length of the rectangle is 10 cm, then what is the perimeter of the rectangle? | ?0 cm | 32
