@@ -446,11 +446,17 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         type: 'word-problem'
       },
       data: [
-
+        // class 5, Karnataka state board , chapter 6, unit-2
         `60 kg of rice was supplied to a school. If 15 kg of rice was used, find the quantity of rice remaining? | ?0 kg | 45
         Abrar buys 17 kg of jaggery and 16 kg of rice from a shop. He puts both the packets into one bag. What is the total weight of the bag? | ?0 kg | 33
         A bag can hold 30 kg of ragi. If 180 kg of ragi is to be filled equally, how many such bags are required? | 6
         A merchant has 7 packets of sugar, each packet weighing 15 kg of sugar. What is the total weight of 7 packets of sugar? | ?0 kg | 105`,
+
+        `Yogita buys 4 kg 500 g of carrot, 2 kg 500 g of brinjal and 3 kg 250 g of tomatoes from a vegetable shop. Find the total weight of vegetables bought by her. | ?0 kg ?1 g | 10,250
+        A merchant has 57 kg 250 g of wheat with him. He sells 15 kg 250 g of wheat to one customer and 13 kg 500 g to another customer. What is the weight of wheat remaining with him? | ?0 kg ?1 g | 38,500
+        The yield of wheat per acre is 1 quintal 50 kg. Raju has 30 acres of field. What is the total yield of paddy? | ?0 quintals | 45
+        18 kg 400 g of sugar is to be packed in 4 bags equally. What is the weight of each bag ? | ?0 kg ?1 g | 4,600
+        A farmer gets 60 kg 400 g of onion from one field and 66 kg 800 g from another field. If he sells 97 kg 200 g of onion, find the weight of onions left with him. | ?0 kg | 30`
 
       ]
     },
