@@ -466,8 +466,8 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         `Shabina buys 4 l 250 ml of groundnut oil while returning from her office. Her mother also bought 2 l 500 ml of groundnut oil on the same day. What is the total quantity of groundnut oil bought by them? | ?0 l ?1 ml | 6,750
         A milkman has 27 l of milk. He sells 16 l 650 ml of it. Find the quantity of milk left with him. | ?0 l ?1 ml | 10,350
         A bottle contains 1 l 750 ml of mustard oil. It has to be filled into bottles of 250 ml each. How many bottles are required? | 7
-        An oil can contains 15 l of Saffola oil. Out of this Rani uses 3 l 400 ml in the first month and 5 l 350 ml in the second month. Find the quantity of oil left in the oil can. ?0 l ?1 ml | 6,250
-        A vessel contains 3 l 300 ml of tea. It is poured into 12 glasses of the same size equally. What is the quantity of tea contained in each glass? ?0 ml | 275`,
+        An oil can contains 15 l of Saffola oil. Out of this Rani uses 3 l 400 ml in the first month and 5 l 350 ml in the second month. Find the quantity of oil left in the oil can. | ?0 l ?1 ml | 6,250
+        A vessel contains 3 l 300 ml of tea. It is poured into 12 glasses of the same size equally. What is the quantity of tea contained in each glass? | ?0 ml | 275`,
 
       ]
     },
