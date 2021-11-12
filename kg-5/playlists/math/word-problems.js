@@ -442,7 +442,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       label: 'Word Problem Weight and Volume',
       lockAfter: 10,
       commonData: {
-        title: 'Answer the word problem in simplified fraction.',
+        title: 'Answer the word problem',
         type: 'word-problem'
       },
       data: [
@@ -468,6 +468,28 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         A bottle contains 1 l 750 ml of mustard oil. It has to be filled into bottles of 250 ml each. How many bottles are required? | 7
         An oil can contains 15 l of Saffola oil. Out of this Rani uses 3 l 400 ml in the first month and 5 l 350 ml in the second month. Find the quantity of oil left in the oil can. | ?0 l ?1 ml | 6,250
         A vessel contains 3 l 300 ml of tea. It is poured into 12 glasses of the same size equally. What is the quantity of tea contained in each glass? | ?0 ml | 275`,
+
+      ]
+    },
+    {
+      // word problem for class 5
+      type: 'numberInput',
+      id: 'word-prob-time',
+      label: 'Word Problem Time',
+      lockAfter: 10,
+      commonData: {
+        title: 'Answer the word problem',
+        type: 'word-problem'
+      },
+      data: [
+        // class 5, Karnataka state board , chapter 7, unit-2
+        `Your school starts at 7 : 00 a.m and closes at 1 : 30 p.m. How many hours did the school work on that day? | ?0 hour ?1 minutes | 6,30
+        Virat comes to his office at 8 : 00 a.m. He works 7 hours 30 minutes in his office. What time does he leave his office in the evening? | ?0 : ?1 p.m | 3,30
+        Sanha studies for 5 hr. 10 min in her school. At home, she studies 2 hr. 50 min. What is the total number of hours she studied on that day? | 8
+        Mahi spent his 15 days holiday in his uncle's place from 7 - 11 - 2021. On which date does he leave his uncle's place ? | ?0 - ?1 - ?2 | 22,11,2021
+        A school closes for mid-term vacation on October 3rd and reopens on October 21st. How many days has the school closed for mid term vacation? | 18
+        A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the factory at 2 : 45 p.m. For how many hours has he worked in the factory ? | 7`,
+
 
       ]
     },
