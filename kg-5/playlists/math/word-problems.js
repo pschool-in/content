@@ -486,9 +486,9 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         `Your school starts at 7 : 00 a.m and closes at 1 : 30 p.m. How many hours did the school work on that day? | ?0 hour ?1 minutes | 6,30
         Virat comes to his office at 8 : 00 a.m. He works 7 hours 30 minutes in his office. What time does he leave his office in the evening? | ?0 : ?1 p.m | 3,30
         Sanha studies for 5 hr. 10 min in her school. At home, she studies 2 hr. 50 min. What is the total number of hours she studied on that day? | 8
-        Mahi spent his 15 days holiday in his uncle's place from 7 - 11 - 2021. On which date does he leave his uncle's place ? | ?0 - ?1 - ?2 | 22,11,2021
+        Mahi spent his 15 days holiday in his uncle's place from 7 - 11 - 2021. On which date does he leave his uncle's place? | ?0 - ?1 - ?2 | 22,11,2021
         A school closes for mid-term vacation on October 3rd and reopens on October 21st. How many days has the school closed for mid term vacation? | 18
-        A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the factory at 2 : 45 p.m. For how many hours has he worked in the factory ? | 7`,
+        A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the factory at 2 : 45 p.m. For how many hours has he worked in the factory? | 7`,
 
 
       ]
