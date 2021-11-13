@@ -16,45 +16,33 @@ export default {
 4. We may have a holiday on Tuesday.`
       }
     },
-    {
-      id: 'fillup',
-      label: 'Fill up with options',
-      type: 'fillupOptions',
-      data: {
-        title: 'Tap on each blank for options.',
-        text: `I *can (may)* swim across the river.
+      {
+    id: 'fillup',
+    label: 'Fill up with options',
+    type: 'fillup',
+    commonData: {
+      title: `Tap on each blank for options.`
+    },
+    data: [
+`I *can (may)* swim across the river.
 It *may (can)* rain tomorrow.
 *Can (May)* you lift this box?
 *May (Can)* I come in?
 He *can (may)* work late.
-He *may (can)* be at home.`
-      }
-    },
-    {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-and-drop-1',
-      commonData: {
-        isPractice: false,
-        title: 'Drag the correct option to each blank.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `I *cannot* go to the party.
-          She *may not* be able to come.
-          We *cannot* dance without the teacher's permission.
-          Books *may not* be available at the store.`,
+He *may (can)* be at home.`,
 
-        `They *can* speak English.
-He *cannot* ride a bike.
-*May* you have a joyful weekend.
-How *may* I help you?
-We *may not* have to leave.`
-      ]
-    },
+`I *cannot (cann't)* go to the party.
+She *may not (mayn't)* be able to come.
+We *cannot (cann't)* dance without the teacher's permission.
+Books *may not (mayn't)* be available at the store.`,
+
+`They *can (may)* speak English.
+He *cannot (cann't)* ride a bike.
+*May (Can)* you have a joyful weekend.
+How *may (May)* I help you?
+We *may not (cannot)* have to leave.`,
+    ]
+  },
     {
       label: 'Select the word',
       type: 'selectWord',
