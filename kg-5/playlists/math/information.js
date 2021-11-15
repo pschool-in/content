@@ -423,6 +423,38 @@ export default {
         },
         {
           title:
+            'A survey of 150 school students was done to find the activity they prefer to do in their free time. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Playing, Reading, Painting, Music, Sleeping',
+          values: '50, 20, 10, 40, 30',
+          questions: [
+            {
+              qText: 'Which activity is most preffered by the students?',
+              options: 'Playing, Painting, Music'
+            },
+            {
+              qText: 'Which activity is preferred by most of the students other than playing?',
+              options: 'Music, Video Games, Reading'
+            },
+            {
+              qText: 'How many students are involved in the least preffered activity?',
+              type: 'number',
+              value: 10
+            },
+            {
+              qText:
+                'True or False: Sleeping is the most preffered activity by the students',
+              options: 'False, True'
+            },
+            {
+              qText: 'How many students like to read?',
+              type: 'number',
+              value: 20
+            },
+          ]
+        },
+        {
+          title:
             'The following bar graph shows the sales in a baker’s shop in a day.. Answer the questions given at the bottom.',
           type: 'vbar',
           labels: 'Bread, Bun, Biscuit, Cake, Chocolate',
