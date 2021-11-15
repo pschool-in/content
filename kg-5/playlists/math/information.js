@@ -389,40 +389,7 @@ export default {
             },
           ]
         },
-        {
-          title:
-            'Yamini did a project Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
-          type: 'tally',
-          labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
-          values: '14, 20, 10, 12, 3, 10, 5',
-          questions: [
-            {
-              qText: 'How many children in all did Yamini talk to?',
-              type: 'number',
-              value: 74
-            },
-            {
-              qText: 'Which is the most favourite pet animal in this table?',
-              options:
-                'Dog, Cat, Cow, Parrot, Squirrel'
-            },
-            {
-              qText: 'How many children wanted to a pet dog?',
-              type: 'number',
-              value: 22
-            },
-            {
-              qText: 'Which is the least favourite pet animal in this table?',
-              options:
-                'Parrot, Rabbit, Cat, Cow, Squirrel'
-            },
-            {
-              qText: 'How many children wanted to a pet squirrel?',
-              type: 'number',
-              value: 5
-            },
-          ]
-        },
+
         {
           title:
             'Rehan buys fruits for his mother on her birthday. He picks up various kinds of fruits from the fruit seller. He prepares a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
@@ -483,6 +450,69 @@ export default {
               qText: 'Which vehicle passed more frequently?  car or auto?',
               options:
                 'Auto, Car'
+            },
+          ]
+        },
+        {
+          title:
+            'Yamini did a project Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
+          values: '14, 20, 10, 12, 3, 10, 5',
+          questions: [
+            {
+              qText: 'How many children in all did Yamini talk to?',
+              type: 'number',
+              value: 74
+            },
+            {
+              qText: 'Which is the most favourite pet animal in this table?',
+              options:
+                'Dog, Cat, Cow, Parrot, Squirrel'
+            },
+            {
+              qText: 'How many children wanted to a pet dog?',
+              type: 'number',
+              value: 22
+            },
+            {
+              qText: 'Which is the least favourite pet animal in this table?',
+              options:
+                'Parrot, Rabbit, Cat, Cow, Squirrel'
+            },
+            {
+              qText: 'How many children wanted to a pet squirrel?',
+              type: 'number',
+              value: 5
+            },
+          ]
+        },
+        {
+          title:
+            'The following tally chart shows the number of students present in a class of 35 students during the week. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Mon, Tue, Wed, Thu, Fri, Sat',
+          values: '28, 25, 30, 18, 20, 12',
+          questions: [
+            {
+              qText: 'How many students were present on Tuesday?',
+              type: 'number',
+              value: 25
+            },
+            {
+              qText: 'Which day maximum studetns were present in the class?',
+              options:
+                'Wed, Mon, Tue, Thu, Fri'
+            },
+            {
+              qText: 'How many students were present in the class on Saturday',
+              type: 'number',
+              value: 12
+            },
+            {
+              qText: 'Which day the attendance was least in the class?',
+              options:
+                'Sat, Mon, Tue, Thu, Fri'
             },
           ]
         },
