@@ -56,13 +56,13 @@ export default {
     {
       type: 'memoryFindOrder',
       id: 'find-order-1',
-      label: 'Find the order (level - 1)',
+      label: 'Find the order',
       data: { level: 1 }
     },
     {
       type: 'memoryFindOrder',
       id: 'find-order-2',
-      label: 'Find the order (level - 2)',
+      label: 'Find the order - 2',
       data: { level: 2 }
     },
     {
