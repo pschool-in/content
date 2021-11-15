@@ -592,6 +592,11 @@ const math = [
     grade: 'g4, g5'
   },
   {
+    label: 'Word Problems - 1',
+    id: 'word-problems-1',
+    grade: 'g1, g2'
+  },
+  {
     label: 'Word Problems',
     id: 'word-problems',
     grade: 'g3, g4, g5'
