@@ -389,6 +389,70 @@ export default {
             },
           ]
         },
+        {
+          title:
+            'Marks scored by Saira in annual examinations are represented in the below chart. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Hindi, English, Science, Maths, Social',
+          values: '60, 80, 55, 95, 75',
+          questions: [
+            {
+              qText: 'Which subject did Saira scored the highest?',
+              options: 'Maths, English, Science'
+            },
+            {
+              qText: 'Which subject did Saira scored the lowest?',
+              options: 'Science, Hindi, Socail'
+            },
+            {
+              qText: 'What is the total marks scored by Saira?',
+              type: 'number',
+              value: 365
+            },
+            {
+              qText:
+                'True or False: Saira scored better in Social than in English',
+              options: 'False, True'
+            },
+            {
+              qText: 'What is the difference between highest and lowest score in a subject by Saira?',
+              type: 'number',
+              value: 40
+            },
+          ]
+        },
+        {
+          title:
+            'The following bar graph shows the sales in a baker’s shop in a day.. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Bread, Bun, Biscuit, Cake, Chocolate',
+          values: '100, 80, 200, 250, 210',
+          questions: [
+            {
+              qText: 'Which item has the maximum sale?',
+              options: 'Cake, Biscuit, Chocolate'
+            },
+            {
+              qText: 'Which item has the minimum sale?',
+              options: 'Bun, Bread, Biscuit'
+            },
+            {
+              qText: 'What is the sale of buns and breads together?',
+              type: 'number',
+              value: 180
+            },
+            {
+              qText:
+                'True or False: The sale of buns and breads together is less than the sale of biscuits',
+              options: 'True, False'
+            },
+            {
+              qText:
+                'True or False: Sale of biscuits are more than the sale of Chocolates',
+              options: 'False, True'
+            },
+          ]
+        },
 
         {
           title:
