@@ -425,6 +425,40 @@ export default {
         },
         {
           title:
+            'Rehan buys fruits for his mother on her birthday. He picks up various kinds of fruits from the fruit seller. He prepares a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Banana, Orange, Apple, Mango',
+          values: '19, 11, 7, 15',
+          questions: [
+            {
+              qText: 'How many types of fruits did Rehan buy?',
+              type: 'number',
+              value: 4
+            },
+            {
+              qText: 'What is the total number of fruits?',
+              type: 'number',
+              value: 52
+            },
+            {
+              qText:
+                'True or False: The total number Banana and Apple is equal to the total number of Orange and Mango together.',
+              options: 'True, False'
+            },
+            {
+              qText: 'Which fruit did Rehan bought the most?',
+              options:
+                'Banana, Orange, Apple, Mango'
+            },
+            {
+              qText: 'Which fruit did Rehan bought the least?',
+              options:
+                'Apple, Banana, Orange, Mango'
+            },
+          ]
+        },
+        {
+          title:
             'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Cycle, Car, Auto, Bus',
