@@ -360,7 +360,7 @@ export default {
       type: 'informationProcessing',
       id: 'chart-5',
       lockAfter: 2,
-      label: 'Charts -5',
+      label: 'Data Handling -5',
       data: [
         {
           title:
@@ -386,6 +386,166 @@ export default {
               qText: 'What is the difference between highest and lowest temperature on June 01',
               type: 'number',
               value: 16
+            },
+          ]
+        },
+        {
+          title:
+            'Marks scored by Saira in annual examinations are represented in the below chart. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Hindi, English, Science, Maths, Social',
+          values: '60, 80, 55, 95, 75',
+          questions: [
+            {
+              qText: 'Which subject did Saira scored the highest?',
+              options: 'Maths, English, Science'
+            },
+            {
+              qText: 'Which subject did Saira scored the lowest?',
+              options: 'Science, Hindi, Socail'
+            },
+            {
+              qText: 'What is the total marks scored by Saira?',
+              type: 'number',
+              value: 365
+            },
+            {
+              qText:
+                'True or False: Saira scored better in Social than in English',
+              options: 'False, True'
+            },
+            {
+              qText: 'What is the difference between highest and lowest score in a subject by Saira?',
+              type: 'number',
+              value: 40
+            },
+          ]
+        },
+        {
+          title:
+            'A survey of 150 school students was done to find the activity they prefer to do in their free time. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Playing, Reading, Painting, Music, Sleeping',
+          values: '50, 20, 10, 40, 30',
+          questions: [
+            {
+              qText: 'Which activity is most preffered by the students?',
+              options: 'Playing, Painting, Music'
+            },
+            {
+              qText: 'Which activity is preferred by most of the students other than playing?',
+              options: 'Music, Video Games, Reading'
+            },
+            {
+              qText: 'How many students are involved in the least preffered activity?',
+              type: 'number',
+              value: 10
+            },
+            {
+              qText:
+                'True or False: Sleeping is the most preffered activity by the students',
+              options: 'False, True'
+            },
+            {
+              qText: 'How many students like to read?',
+              type: 'number',
+              value: 20
+            },
+          ]
+        },
+        {
+          title:
+            'The following bar graph shows the sales in a baker’s shop in a day.. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Bread, Bun, Biscuit, Cake, Chocolate',
+          values: '100, 80, 200, 250, 210',
+          questions: [
+            {
+              qText: 'Which item has the maximum sale?',
+              options: 'Cake, Biscuit, Chocolate'
+            },
+            {
+              qText: 'Which item has the minimum sale?',
+              options: 'Bun, Bread, Biscuit'
+            },
+            {
+              qText: 'What is the sale of buns and breads together?',
+              type: 'number',
+              value: 180
+            },
+            {
+              qText:
+                'True or False: The sale of buns and breads together is less than the sale of biscuits',
+              options: 'True, False'
+            },
+            {
+              qText:
+                'True or False: Sale of biscuits are more than the sale of Chocolates',
+              options: 'False, True'
+            },
+          ]
+        },
+
+        {
+          title:
+            'Rehan buys fruits for his mother on her birthday. He picks up various kinds of fruits from the fruit seller. He prepares a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Banana, Orange, Apple, Mango',
+          values: '19, 11, 7, 15',
+          questions: [
+            {
+              qText: 'How many types of fruits did Rehan buy?',
+              type: 'number',
+              value: 4
+            },
+            {
+              qText: 'What is the total number of fruits?',
+              type: 'number',
+              value: 52
+            },
+            {
+              qText:
+                'True or False: The total number Banana and Apple is equal to the total number of Orange and Mango together.',
+              options: 'True, False'
+            },
+            {
+              qText: 'Which fruit did Rehan bought the most?',
+              options:
+                'Banana, Orange, Apple, Mango'
+            },
+            {
+              qText: 'Which fruit did Rehan bought the least?',
+              options:
+                'Apple, Banana, Orange, Mango'
+            },
+          ]
+        },
+        {
+          title:
+            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Cycle, Car, Auto, Bus',
+          values: '18, 12, 13, 6',
+          questions: [
+            {
+              qText: 'How many vehicles in all did Sumita see on the road in half an hour?',
+              type: 'number',
+              value: 49
+            },
+            {
+              qText:
+                'True or False: The total number cycles are thrice the number of buses',
+              options: 'True, False'
+            },
+            {
+              qText: 'Which is the most seen vehicle?',
+              options:
+                'Cycle, Car, Auto, Bus'
+            },
+            {
+              qText: 'Which vehicle passed more frequently?  car or auto?',
+              options:
+                'Auto, Car'
             },
           ]
         },
@@ -425,30 +585,30 @@ export default {
         },
         {
           title:
-            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
+            'The following tally chart shows the number of students present in a class of 35 students during the week. Answer the questions, given at the bottom.',
           type: 'tally',
-          labels: 'Cycle, Car, Auto, Bus',
-          values: '18, 12, 13, 6',
+          labels: 'Mon, Tue, Wed, Thu, Fri, Sat',
+          values: '28, 25, 30, 18, 20, 12',
           questions: [
             {
-              qText: 'How many vehicles in all did Sumita see on the road in half an hour?',
+              qText: 'How many students were present on Tuesday?',
               type: 'number',
-              value: 49
+              value: 25
             },
             {
-              qText:
-                'True or False: The total number cycles are thrice the number of buses',
-              options: 'True, False'
-            },
-            {
-              qText: 'Which is the most seen vehicle?',
+              qText: 'Which day maximum studetns were present in the class?',
               options:
-                'Cycle, Car, Auto, Bus'
+                'Wed, Mon, Tue, Thu, Fri'
             },
             {
-              qText: 'Which vehicle passed more frequently?  car or auto?',
+              qText: 'How many students were present in the class on Saturday',
+              type: 'number',
+              value: 12
+            },
+            {
+              qText: 'Which day the attendance was least in the class?',
               options:
-                'Auto, Car'
+                'Sat, Mon, Tue, Thu, Fri'
             },
           ]
         },
