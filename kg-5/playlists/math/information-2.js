@@ -40,6 +40,35 @@ export default {
             }
           ]
         },
+        {
+          title:
+            'Suchi and her mother went to a fruit shop. They bought different types of fruits. Out of curiosity, Suchi counted each type of fruit and listed them. Answer the questions given at the bottom.',
+          type: 'vbar',
+          labels: 'Apple, Banana, Guava, Orange',
+          values: '8, 4, 2, 7',
+          questions: [
+            {
+              qText: 'How many types of fruits were bought by Suchi and her mother?',
+              type: 'number',
+              value: 4
+            },
+            {
+              qText: 'How many fruits were bought by Suchi and her mother?',
+              type: 'number',
+              value: 21
+            },
+            {
+              qText:
+                'True or False: The number of Guavas were more than the number of Bananas',
+              options: 'False, True'
+            },
+            {
+              qText:
+                'True or False: The number of apples were more than the number of Oranges',
+              options: 'True, False'
+            },
+          ]
+        },
       ]
     },
     {
