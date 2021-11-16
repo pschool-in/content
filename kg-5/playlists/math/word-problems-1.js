@@ -71,5 +71,25 @@ export default {
         `,
       ]
     },
+    {
+      
+      type: 'numberInput',
+      id: 'word-prob-1-3',
+      label: 'Answer the Word Problem -3',
+      lockAfter: 2,
+      commonData: {
+        title: 'Answer the word problem.',
+        type: 'word-problem'
+      },
+      data: [
+        // Word Problems for ( > 20) addition - Class 1
+        `Your grandmother made 75 pancakes and also baked 60 muffins for your friends. How many breakfast items are made by your grandmother? | 135
+        Hiya has recorded 36 minutes of old hindi tunes and 49 minutes of new hindi tunes. How many minutes of recordings were done by Hiya? | 85
+        One egg crate has 4 rows. Each row can have 6 eggs. How many maximum eggs can a crate contain? | 24
+        One crate has 60 eggs. You have taken 6 eggs from it for cooking. How many eggs are left in the crate? | 54
+        A gems packet has 30 gems in it. You have given your 2 friends 5 gems each. How many gems are left with you? | 20`,
+        
+      ]
+    },
   ]
 };
