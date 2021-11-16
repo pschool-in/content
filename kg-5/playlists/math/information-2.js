@@ -2,6 +2,7 @@ export default {
   label: 'Data Handling -2',
   id: 'information-2',
   list: [
+    // for class 2 students
     {
       type: 'informationProcessing',
       id: 'bar-chart-2',
