@@ -106,6 +106,32 @@ export default {
             
           ]
         },
+        {
+          title:
+            'Aruna made a chart of various kinds of flowers she has in her garden. Answer the questions, given at the bottom.',
+          type: 'tally',
+          labels: 'Rose, Sunflower, Hibiscus, Dahlia',
+          values: '11, 4, 13, 6',
+          questions: [
+            {
+              qText: 'Which flower is maximum in number?',
+              options: 'Hibiscus, Rose, Sunflower'
+            },
+            {
+              qText: 'Which flower is minimum in number?',
+              options: 'Sunflower, Hibiscus, Dahlia'
+            },
+            {
+              qText: 'Comparing the number of Roses with Dahlias, which flower is more in number?',
+              options: 'Rose, Dahlia'
+            },
+            {
+              qText: 'What is the total number of flowers in her garden?',
+              type: 'number',
+              value: 34
+            },            
+          ]
+        },
       ]
     },
 
