@@ -364,26 +364,26 @@ export default {
       data: [
         {
           title:
-            'Weather report of 4 cities in a newspaper on June 01. Answer the questions given at the bottom.',
+            'Weather report of 4 cities in a newspaper on June 1. Answer the questions given at the bottom.',
           type: 'vbar',
           labels: 'Delhi, Shimla, Bangalore, Jaisalmer',
           values: '33, 22, 28, 38',
           questions: [
             {
-              qText: 'Which city is the hottest on June 01?',
+              qText: 'Which city was the hottest on June 1?',
               options: 'Jaisalmer, Delhi, Shimla, Bangalore'
             },
             {
-              qText: 'Which city is the coldest on June 01?',
+              qText: 'Which city was the coldest on June 1?',
               options: 'Shimla, Jaisalmer, Delhi, Bangalore'
             },
             {
-              qText: 'What is the highest temperature on June 01?',
+              qText: 'What was the highest temperature on June 1?',
               type: 'number',
               value: 38
             },
             {
-              qText: 'What is the difference between highest and lowest temperature on June 01',
+              qText: 'What was the difference between highest and lowest temperature on June 1',
               type: 'number',
               value: 16
             },
@@ -429,25 +429,25 @@ export default {
           values: '50, 20, 10, 40, 30',
           questions: [
             {
-              qText: 'Which activity is most preffered by the students?',
+              qText: 'Which activity was most preffered by the students?',
               options: 'Playing, Painting, Music'
             },
             {
-              qText: 'Which activity is preferred by most of the students other than playing?',
+              qText: 'Which activity was preferred by most of the students other than playing?',
               options: 'Music, Video Games, Reading'
             },
             {
-              qText: 'How many students are involved in the least preffered activity?',
+              qText: 'How many students were involved in the least preffered activity?',
               type: 'number',
               value: 10
             },
             {
               qText:
-                'True or False: Sleeping is the most preffered activity by the students',
+                'True or False: Sleeping was the most preffered activity by the students',
               options: 'False, True'
             },
             {
-              qText: 'How many students like to read?',
+              qText: 'How many students liked to read?',
               type: 'number',
               value: 20
             },
@@ -455,7 +455,7 @@ export default {
         },
         {
           title:
-            'The following bar graph shows the sales in a baker’s shop in a day.. Answer the questions given at the bottom.',
+            'The following bar graph shows the sales in a baker’s shop in a day. Answer the questions given at the bottom.',
           type: 'vbar',
           labels: 'Bread, Bun, Biscuit, Cake, Chocolate',
           values: '100, 80, 200, 250, 210',
@@ -488,7 +488,7 @@ export default {
 
         {
           title:
-            'Rehan buys fruits for his mother on her birthday. He picks up various kinds of fruits from the fruit seller. He prepares a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
+            'Rehan bought fruits for his mother on her birthday. He picked up various kinds of fruits from the fruit seller. He prepared a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Banana, Orange, Apple, Mango',
           values: '19, 11, 7, 15',
@@ -499,13 +499,13 @@ export default {
               value: 4
             },
             {
-              qText: 'What is the total number of fruits?',
+              qText: 'What was the total number of fruits?',
               type: 'number',
               value: 52
             },
             {
               qText:
-                'True or False: The total number Banana and Apple is equal to the total number of Orange and Mango together.',
+                'True or False: The total number Banana and Apple was equal to the total number of Orange and Mango together.',
               options: 'True, False'
             },
             {
@@ -534,11 +534,11 @@ export default {
             },
             {
               qText:
-                'True or False: The total number cycles are thrice the number of buses',
+                'True or False: The total number cycles were thrice the number of buses',
               options: 'True, False'
             },
             {
-              qText: 'Which is the most seen vehicle?',
+              qText: 'What was the most seen vehicle?',
               options:
                 'Cycle, Car, Auto, Bus'
             },
@@ -562,7 +562,7 @@ export default {
               value: 74
             },
             {
-              qText: 'Which is the most favourite pet animal in this table?',
+              qText: 'Which was the most favourite pet animal in this table?',
               options:
                 'Dog, Cat, Cow, Parrot, Squirrel'
             },
@@ -572,7 +572,7 @@ export default {
               value: 22
             },
             {
-              qText: 'Which is the least favourite pet animal in this table?',
+              qText: 'Which was the least favourite pet animal in this table?',
               options:
                 'Parrot, Rabbit, Cat, Cow, Squirrel'
             },
@@ -614,30 +614,30 @@ export default {
         },
         {
           title:
-            'The below pie chart tells how students helping their parents at home. Please answer the questions given at the bottom.',
+            'The below pie chart tells how students were helping their parents at home. Please answer the questions given at the bottom.',
           type: 'pie',
           labels: 'Washing, Serving food, Cleaning, Cooking',
           values: '25, 15, 20, 15',
           questions: [
             {
-              qText: 'How many total students helping their paretns?',
+              qText: 'How many total students were helping their paretns?',
               type: 'number',
               value: 75
             },
             {
               qText:
-                'Which type of help is done by 1/3 of the students?',
+                'Which type of help was done by 1/3 of the students?',
               options: 'Washing, Serving food, Cleaning, Cooking'
             },
             {
               qText:
-                'How many students are helping with washing or cleaning?',
+                'How many students were helping with washing or cleaning?',
               type: 'number',
               value: 55
             },
             {
               qText:
-                'Which type of activity is done by most number of students?',
+                'Which type of activity was done by most number of students?',
               options: 'Washing, Cooking, Serving food, Cleaning'
             },
             {
