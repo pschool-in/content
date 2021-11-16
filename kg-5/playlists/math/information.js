@@ -114,25 +114,25 @@ export default {
           values: '10, 4, 7, 9, 4',
           questions: [
             {
-              qText: 'Which is the most popular fruit?',
+              qText: 'what was the most popular fruit?',
               options: 'Mango, Orange, Banana'
             },
             {
-              qText: 'Which two fruits are equally popular?',
+              qText: 'Which two fruits were equally popular?',
               options: 'Apple and Pear, Orange and Banana, Pear and Orange'
             },
             {
-              qText: 'How many children like orange the most?',
+              qText: 'How many children liked orange the most?',
               type: 'number',
               value: 9
             },
             {
-              qText: 'How many more children like banana than apple?',
+              qText: 'How many children liked banana more than apple?',
               type: 'number',
               value: 3
             },
             {
-              qText: 'How many children like apple or orange?',
+              qText: 'How many children liked apple or orange?',
               type: 'number',
               value: 13
             }
