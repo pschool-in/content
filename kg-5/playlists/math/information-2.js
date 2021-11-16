@@ -16,11 +16,11 @@ export default {
           values: '10, 30, 20',
           questions: [
             {
-              qText: 'What flavour is liked by most of the students?',
+              qText: 'What flavour was liked by the students most?',
               options: 'Chocolate, Vanilla, Strawberry'
             },
             {
-              qText: 'What flavour is liked by most of the students?',
+              qText: 'What flavour was liked by the students least?',
               options: 'Vanilla, Chocolate, Strawberry'
             },
             {
@@ -29,7 +29,7 @@ export default {
               value: 60
             },
             {
-              qText: 'How many students like Vanilla?',
+              qText: 'How many students liked Vanilla?',
               type: 'number',
               value: 10
             },
