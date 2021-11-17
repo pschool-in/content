@@ -324,6 +324,11 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Article - 4',
+    id: 'article-4',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Punctuation',
     id: 'punctuation',
     grade: 'g3, g4, g5'
@@ -346,6 +351,11 @@ const grammar = [
   {
     label: 'Describing Words',
     id: 'adjective-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Adjective - 3',
+    id: 'adjective-3',
     grade: 'g3, g4, g5'
   },
   {

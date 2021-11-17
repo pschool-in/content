@@ -63,7 +63,22 @@ const allImages = {
     'python',
     'bison',
     'chameleon',
-    'pocupine'
+    'pocupine',
+    'bee',
+    'goldfish',
+    'jellyfish',
+    'tigerfish',
+    'ladybug',
+    'seahorse',
+    'hamster',
+    'mole',
+    'spider',
+    'caterpillar',
+    'panda',
+    'starfish',
+    'earthworm',
+    'hedgehog',
+    'stingray'
   ],
 
   birds: [
@@ -92,7 +107,19 @@ const allImages = {
     'falcon',
     'swan',
     'bulbul',
-    'spotted-dove'
+    'spotted-dove',
+    'felican',
+    'humming-bird',
+    'robin',
+    'swallow',
+    'blue-jay',
+    'seagull',
+    'canary',
+    'goose',
+    'turkey',
+    'hawk',
+    'cardinal',
+    'parakeet'
   ],
   fruits: [
     'apple',
@@ -125,7 +152,8 @@ const allImages = {
     'water-chesnut',
     'jujube',
     'sapotta',
-    'tapioca'
+    'tapioca',
+    'blueberry'
   ],
   vegetables: [
     'carrot',
@@ -203,7 +231,10 @@ const allImages = {
     'excavator',
     'fire-engine',
     'lorry',
-    'van'
+    'van',
+    'bulldozer',
+    'rocket',
+    'submarine'
   ],
   house: [
     'house',
@@ -226,8 +257,35 @@ const allImages = {
     'flower-pot',
     'umbrella',
     'door',
-    'broom'
+    'broom',
+    'window',
+    'air-conditioner',
+    'sofa',
+    'bucket',
+    'toilet',
+    'soap',
+    'washing-machine',
+    'backpack',
+    'pillow',
+    'shoe',
+    'sock',
+    'boots',
+    'basket',
+    'dustbin',
+    'pyjama',
+    'bed-lamp',
+    'gloves',
+    'scarf',
+    'sweater',
+    'bib',
+    'handbag',
+    'shirt',
+    'jacket',
+    'hat',
+    'trousers',
+    'dress'
   ],
+
   school: [
     'eraser',
     'pen',
@@ -253,7 +311,29 @@ const allImages = {
     'butter',
     'plate',
     'tap',
-    'lid'
+    'lid',
+    'blender',
+    'cheese',
+    'fridge',
+    'lollipop',
+    'salad',
+    'sugar',
+    'bowl',
+    'chicken',
+    'ice-cream',
+    'meat',
+    'salt',
+    'sweets',
+    'bread',
+    'cup',
+    'juice',
+    'mushroom',
+    'sandwich',
+    'cake',
+    'flour',
+    'lentils',
+    'rice',
+    'soup'
   ],
   gadgets: [
     'camera',
@@ -293,7 +373,35 @@ const allImages = {
     'screw',
     'screwdriver',
     'barber',
-    'washerman'
+    'washerman',
+    'flute',
+    'piano',
+    'tabla',
+    'violin',
+    'guitar',
+    'saxophone',
+    'trumpet',
+    'xylophone'
+  ],
+  jobs: [
+    'astronaut',
+    'clown',
+    'fisherman',
+    'postman',
+    'teacher',
+    'blacksmith',
+    'cobbler',
+    'goldsmith',
+    'potter',
+    'weaver',
+    'carpenter',
+    'diver',
+    'nurse',
+    'sailor',
+    'chef',
+    'doctor',
+    'police',
+    'soldier'
   ],
   nature: [
     'sun',
@@ -351,7 +459,15 @@ const allImages = {
     'twig',
     'dhol',
     'palanquin',
-    'medicine'
+    'medicine',
+
+    'balloon',
+    'radio',
+    'toothbrush',
+    'chocolate',
+    'toothpaste',
+    'box',
+    'coin'
   ]
 };
 
