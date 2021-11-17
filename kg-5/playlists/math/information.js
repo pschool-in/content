@@ -509,12 +509,12 @@ export default {
               options: 'True, False'
             },
             {
-              qText: 'Which fruit did Rehan bought the most?',
+              qText: 'Which fruit did Rehan buy the most?',
               options:
                 'Banana, Orange, Apple, Mango'
             },
             {
-              qText: 'Which fruit did Rehan bought the least?',
+              qText: 'Which fruit did Rehan buy the least?',
               options:
                 'Apple, Banana, Orange, Mango'
             },
@@ -551,7 +551,7 @@ export default {
         },
         {
           title:
-            'Yamini did a project Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
+            'Yamini did a project on Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
           values: '14, 20, 10, 12, 3, 10, 5',
@@ -567,9 +567,9 @@ export default {
                 'Dog, Cat, Cow, Parrot, Squirrel'
             },
             {
-              qText: 'How many children wanted to a pet dog?',
+              qText: 'How many children wanted to pet a dog?',
               type: 'number',
-              value: 22
+              value: 20
             },
             {
               qText: 'Which was the least favourite pet animal in this table?',
@@ -627,18 +627,18 @@ export default {
             {
               qText:
                 'Which type of help was done by 1/3 of the students?',
-              options: 'Washing, Serving food, Cleaning, Cooking'
+              options: 'Washing, Cleaning, Cooking'
             },
             {
               qText:
                 'How many students were helping with washing or cleaning?',
               type: 'number',
-              value: 55
+              value: 45
             },
             {
               qText:
                 'Which type of activity was done by most number of students?',
-              options: 'Washing, Cooking, Serving food, Cleaning'
+              options: 'Washing, Cooking, Cleaning'
             },
             {
               qText:
