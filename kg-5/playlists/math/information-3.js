@@ -49,7 +49,7 @@ export default {
           values: '10, 8, 5, 12, 11',
           questions: [
             {
-              qText: 'How many different colours of balloons were there in the fair?',
+              qText: 'How many different colours of balloon were there in the fair?',
               type: 'number',
               value: 5
             },
