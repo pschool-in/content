@@ -402,7 +402,7 @@ export default {
             },
             {
               qText: 'Which subject did Saira scored the lowest?',
-              options: 'Science, Hindi, Socail'
+              options: 'Science, Hindi, Social'
             },
             {
               qText: 'What is the total marks scored by Saira?',
