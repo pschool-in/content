@@ -153,12 +153,12 @@ I didn't have *any* breakfast today.`
   text: `Use of "a/an"
 It's understood that "a" is used for words beginning with consonant sound while "an" is used before the nouns beginning with vowel sounds. But for certain words like univeristy, unicorn, European, union, etc we use the article "a" as they sound as "you" i.e. they begin with a consonant sound and not with vowel sound.
 Similarly for words like hour, honest, heir, MBA, FIR, etc article "an" is used as they begin with a vowel sound, even though they start with consonants.
-Use of "the"
+# Use of "the"
 "the" is also used for things like - the sun, the moon, the sky, etc.
 "the" is also used for proper nouns like names of monuments, rivers, oceans, etc.
 "the" is also used for superlatives as the strongest, the longest, the smallest, etc.
 "the" is also used for number positions like the first, the fifth, the second, the third, etc.
-Omission of Article or No article:
+# Omission of Article or No article:
 We do not use articles in the following cases:
 Names of the persons - Mahita is my best friend (not The Mahita).
 Common nouns in the plural number - Birds live in trees (not The birds) Cows give milk (not The cows)
@@ -278,6 +278,33 @@ She is *an architect(a architect)*.`
       `Milk is good for you.
       Men are always fond of cricket.`
       ]
+      ]
+    },
+    {
+      id: '1000',
+      label: 'Fill up',
+      type: 'fillup',
+      commonData: {
+        title: `Choose the appropriate option to complete the sentence.`
+      },
+      data: [
+  `The roads are empty. There are only *a few (few)* cars on the road.
+  I am very busy. I have *little (a little)* time to see the email.
+  I'd like to have coffee with just *a little (little)* sugar.
+  Anand can speak German because he lived in Berlin for *a few (few)* years.
+  You look amazing! It seems like you have lost *a little (little)* weight.`,
+
+  `There is *little (a little)* noise in small villages.
+  I have *a few (few)* good friends. I am not alone.
+  Vihaan gave us *a few (few)* apples from his garden.
+  I have got *a few (few)* chocolates to give away.
+  Tina is lucky. She has *few (a few)* problems.`,
+
+  `Sweden has *little (a little)* sunshine in winter. 
+  He has *little (a little)* self-confidence. He has trouble talking to new people.
+  There are only *a few (few)* people she really trusts. 
+  There are *few (a few)* female bike riders in my city. 
+  There is *a little (little)* milk left in the fridge. It should be enough for our tea.`
       ]
     }
   ]
