@@ -27,29 +27,29 @@ Zero articles: In some situations, we do not use any articles at all, such a sit
         },
         data: [
     `I met *a (the, an)* friend in the store. 
-    He ate *an (a, the)* orange for his breakfast.
-    I have *a (an, the)* pet cat.
-    I bought *an (a, the)* iPad yesterday.
-    Kiran's mother is *the (a, an)* principal of our college.
-    *The(a,an)* Ganges flows from *the (a, an)* Himalayas.`,
+He ate *an (a, the)* orange for his breakfast.
+I have *a (an, the)* pet cat.
+I bought *an (a, the)* iPad yesterday.
+Kiran's mother is *the (a, an)* principal of our college.
+*The(A,An)* Ganges flows from *the (a, an)* Himalayas.`,
     
     `It is better to tell *the (a, an)* truth.
-    India is *a (an, the)* country.
-    Lakshadweep is *an (a, the)* island.
-    He arrived *an (a, the)* hour later.
-    Which bike do you like? *The (a, an)* blue one?`,
+India is *a (an, the)* country.
+Lakshadweep is *an (a, the)* island.
+He arrived *an (a, the)* hour later.
+Which bike do you like? *The (A, An)* blue one?`,
     
     `He is *an (a, the)* honest man.
-    His wife is *an (a, the)* American.
-    My brother acted in *a (an, the)* movie.
-    *The (a, an)* laptop that I bought is not very expensive.
-    Rohit bought *a (an, the)* cup of tea.`,
+His wife is *an (a, the)* American.
+My brother acted in *a (an, the)* movie.
+*The (A, An)* laptop that I bought is not very expensive.
+Rohit bought *a (an, the)* cup of tea.`,
 
     `Reading is *a (an, the)* good habit.
-    *The (a, an)* school will remain closed for two days.
-    My sister is *an (a, the)* English teacher.
-    She bought *an (a, the)* orange dress.
-    My husband is *a (an, the)* doctor.`
+*The (A, An)* school will remain closed for two days.
+My sister is *an (a, the)* English teacher.
+She bought *an (a, the)* orange dress.
+My husband is *a (an, the)* doctor.`
         ]
       },
       {
