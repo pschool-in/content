@@ -509,12 +509,12 @@ export default {
               options: 'True, False'
             },
             {
-              qText: 'Which fruit did Rehan bought the most?',
+              qText: 'Which fruit did Rehan buy the most?',
               options:
                 'Banana, Orange, Apple, Mango'
             },
             {
-              qText: 'Which fruit did Rehan bought the least?',
+              qText: 'Which fruit did Rehan buy the least?',
               options:
                 'Apple, Banana, Orange, Mango'
             },
