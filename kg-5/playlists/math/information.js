@@ -551,7 +551,7 @@ export default {
         },
         {
           title:
-            'Yamini did a project Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
+            'Yamini did a project on Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
           values: '14, 20, 10, 12, 3, 10, 5',
@@ -567,9 +567,9 @@ export default {
                 'Dog, Cat, Cow, Parrot, Squirrel'
             },
             {
-              qText: 'How many children wanted to a pet dog?',
+              qText: 'How many children wanted to pet a dog?',
               type: 'number',
-              value: 22
+              value: 20
             },
             {
               qText: 'Which was the least favourite pet animal in this table?',
