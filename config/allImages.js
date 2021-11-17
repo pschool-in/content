@@ -290,6 +290,8 @@ const allImages = {
     'easel',
     'hacksaw',
     'scalpel',
+    'screw',
+    'screwdriver',
     'barber',
     'washerman'
   ],
@@ -328,6 +330,7 @@ const allImages = {
     'yazl',
     'bullock-cart',
     'warrior',
+    'knight',
     'chariot',
     'park',
     'garden',

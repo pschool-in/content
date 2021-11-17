@@ -10,16 +10,6 @@ const vocabulary = [
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Picture Match',
-    id: 'match-picture',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
-    label: 'Picture Match - 2',
-    id: 'match-picture-2',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
     label: 'Missing Letter',
     id: 'picture',
     grade: 'kg, g1, g2, g3'
@@ -1183,6 +1173,16 @@ const english = [
     label: 'Word Search',
     id: 'wordsearch-1',
     grade: ' 1, 2,3'
+  },
+  {
+    label: 'Picture Match',
+    id: 'match-picture',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Picture Match - 2',
+    id: 'match-picture-2',
+    grade: 'kg, g1, g2, g3'
   }
 ];
 
