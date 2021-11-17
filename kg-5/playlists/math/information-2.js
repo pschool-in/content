@@ -97,7 +97,7 @@ export default {
             },
             {
               qText:
-                'True or False: The number of blue pens is equal to the number of red and black pens together',
+                'True or False: The number of blue pens are equal to the number of red and black pens together',
               options: 'True, False'
             },
             {
