@@ -81,7 +81,7 @@ export default {
       data: [
         {
           title:
-            'Total number of students in a class in 20. Below tally chart represent the attendance each day of one week. Answer the questions, given at the bottom.',
+            'Total number of students in a class is 20. Below tally chart represent the attendance each day of one week. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Monday, Tuesday, Wednesday, Thursday, Friday',
           values: '18, 20, 15, 12, 17',
@@ -97,7 +97,7 @@ export default {
               value: 2
             },
             {
-              qText: 'Which day all the students were present?',
+              qText: 'On which day all the students were present?',
               options: 'Tuesday, Wednesday, Thursday'
             },
             {
