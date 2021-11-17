@@ -627,18 +627,18 @@ export default {
             {
               qText:
                 'Which type of help was done by 1/3 of the students?',
-              options: 'Washing, Serving food, Cleaning, Cooking'
+              options: 'Washing, Cleaning, Cooking'
             },
             {
               qText:
                 'How many students were helping with washing or cleaning?',
               type: 'number',
-              value: 55
+              value: 45
             },
             {
               qText:
                 'Which type of activity was done by most number of students?',
-              options: 'Washing, Cooking, Serving food, Cleaning'
+              options: 'Washing, Cooking, Cleaning'
             },
             {
               qText:
