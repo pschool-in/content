@@ -405,6 +405,57 @@ const dragdrop = {
           5, Five
           6, Six`
       }
+    },
+    {
+      type: 'match',
+      label: 'Number Names',
+      id: 'match-numbers',
+      data: {
+        title: 'Match Number names',
+        text: `1, One
+          2, Two
+          3, Three
+          4, Four
+          5, Five
+          6, Six`
+      }
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Drag and Drop',
+      id: 'dragDropImgLabel',
+      data: {
+        title: 'Drag and Drop the name on the images.',
+        text: `apple | Apple
+        orange | Orange
+        pineapple | Pineapple
+        papaya | Papaya
+        mango | Mango
+        grapes | Grapes`
+      }
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation',
+      id: 'dictation',
+      data: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/fruits.mp3',
+        audioOffset: 0,
+        words: 'apple, grapes, banana, cherry, avocado'
+      }
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation - Tamil',
+      id: 'dictation-2',
+      data: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'ta/ta-animals.mp3',
+        audioOffset: 2,
+        lang: 'ta',
+        words: 'பூனை, நாய், ஆடு, செம்மறி ஆடு, குதிரை'
+      }
     }
   ]
 };
