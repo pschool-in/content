@@ -65,8 +65,8 @@ export default {
             },
             {
               qText:
-                'True or False: The number of red, blue and green balloons together are equal to the  number of orange and white balloons together.',
-              options: 'False, True'
+                'True or False: The number of red, blue and green balloons together are equal to the number of orange and white balloons together.',
+              options: 'True, False'
             },
 
           ]
