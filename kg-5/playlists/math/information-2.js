@@ -80,7 +80,7 @@ export default {
       data: [
         {
           title:
-            'You have counted the different colour pens you have and put it in the below chart. Answer the questions, given at the bottom.',
+            'You have counted the different colour pens that you have and put it in the below chart. Answer the questions, given at the bottom.',
           type: 'tally',
           labels: 'Red, Black, Blue',
           values: '3, 7, 10',
