@@ -110,7 +110,7 @@ Mr.Iyer is *an* honorary member of our council.`
           I am fine and hope to hear the same from you. Our entire class went to *a (an, the)* picnic to *the (a, an)*beach.
           I was left alone. So, I went to *the (a, an)* sandy corner and sat down. 
           My mother packed me *an (a, the)* egg, cake and *a (an, the)* chocolate. 
-          At that time, *a (an, the)* large sandy Lobster crawled out of *the (a, an)*sea water. 
+          At that time, *a (an, the)* large sandy lobster crawled out of *the (a, an)*sea water. 
           All *the (a, an)* sea animals tried to shake hands with me. 
           But, they pricked me till I was black and blue. 
           They taught me *a (an, the)* lesson not to hurt anyone. 
@@ -163,7 +163,19 @@ We do not use articles in the following cases:
 Names of the persons - Mahita is my best friend (not The Mahita).
 Common nouns in the plural number - Birds live in trees (not The birds) Cows give milk (not The cows)
 Names of the days/Months- Saturday is a week off. (not The Saturday)
-Names of materials- We wear clothes made of cotton ( not the cotton)`
+Names of materials- We wear clothes made of cotton. ( not the cotton)
+
+We use indefinite article to certain quantifiers like - "few", "little" to show that the quantity of the thing is small, but it adds lot of value or is of great importance.
+
+For example:
+1. Mrudula was never lonely, she made " a few" good friends while she was in university.
+2. My grandfather needs "a little" help with sorting his medicines.
+
+Similarly, indefinite article is also used for words like "few", "little" when words like "only" or "just" are used.
+
+For example:
+1. Ramesh made "just a few" mistakes in his test.
+2. There is "only a little" icecream left in the fridge.`
       }
     },
       {
