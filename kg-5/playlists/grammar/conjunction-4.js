@@ -90,7 +90,7 @@ questions: [
             options: 'or, nor, so'
             },
             {
-            qText: '________he's smart, but also very intelligent.',
+            qText: '________hes smart, but also very intelligent.',
             options: 'Not only, Both, Whether'
             }
             ]
