@@ -10,22 +10,18 @@ export default {
         data: {
           title: 'Adjective-3',
     text: `The words that are used to describe a noun or a pronoun are called as adjectives. They give us more information about a noun or pronoun by describing it. They inform or tell us about how she or he looks, sounds, smells, feels or tastes. Names of the colors are also used as adjectives.
-
 For example -
 a. The dog is "black". (here dog is a noun and black is the adjective i.e., it is describing how the dog looks)
 b. The sweater is "fluffy". (here the sweater is a noun and fluffy describes how the sweater feels like)
-
 Adjectives are used to describe the qualities of things or people. They are called "adjectives of quality".
 Example -
 It is a "tall" building.
 It was a "rainy" day.
 Hyderabad is a "big" city.
-
 Adjectives are used to determine or describe the quantity of the noun. Words like "much", "little", "some", "any", "whole" etc are used to describe the quantity of the noun.
 For example -
 1. Preethi ate the "whole" cake.
 2. How "much" money do you have?
-
 Adjectives are used to compare the qualities of two nouns and more than two nouns. These are known as "degrees of comparison".
 When we compare qualities of two nouns we add "-er" + "than".
 Example- Hari is "taller than" Krishna.
