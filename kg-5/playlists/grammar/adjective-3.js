@@ -9,30 +9,27 @@ export default {
         id: 'adjective-3-reading',
         data: {
           title: 'Adjective-3',
-    text: `Describing words are called adjectives. In general, adjectives usually give us more information about a noun or pronoun by describing it or providing more information about it. They are also called "descriptive adjectives". They inform or tell us about how she or he looks, sounds, smells, feels or tastes.
-For example - a. The dog is "black". (here dog is a naming word or noun and black is the adjective i.e., it is describing how the dog looks) b. The sweater is "fluffy". (here the sweater is a naming word and fluffy describes how the sweater feels like)
-Similarly, names of the colors are used as adjectives.
-Adjectives are also used to describe the qualities of two things or people. They are called "adjectives of quality".
+    text: `The words that are used to describe a noun or a pronoun are called as adjectives. They give us more information about a noun or pronoun by describing it. They inform or tell us about how she or he looks, sounds, smells, feels or tastes. Names of the colors are also used as adjectives.
 
+For example -
+a. The dog is "black". (here dog is a noun and black is the adjective i.e., it is describing how the dog looks)
+b. The sweater is "fluffy". (here the sweater is a noun and fluffy describes how the sweater feels like)
+
+Adjectives are used to describe the qualities of things or people. They are called "adjectives of quality".
 Example -
 It is a "tall" building.
 It was a "rainy" day.
 Hyderabad is a "big" city.
 
-Adjectives of quantity determine or describe how much of the noun is being specified in the sentence.
-Words like "much", "little", "some", "any", "whole" etc are used to describe the quantity.
-
+Adjectives are used to determine or describe the quantity of the noun. Words like "much", "little", "some", "any", "whole" etc are used to describe the quantity of the noun.
 For example -
 1. Preethi ate the "whole" cake.
 2. How "much" money do you have?
 
-Adjectives are also used to compare the qualities of two nouns and more than two nouns. These are known as "degrees of comparison".
-When we compare qualities of two nouns we add "-er" + "than". 
-
-Example - Hari is "taller than" Krishna.
-
+Adjectives are used to compare the qualities of two nouns and more than two nouns. These are known as "degrees of comparison".
+When we compare qualities of two nouns we add "-er" + "than".
+Example- Hari is "taller than" Krishna.
 When we compare qualities of more than three nouns we add "-est" +"the".
-
 Example - Hari is "the tallest" boy in the class.`
 }
 },
@@ -47,7 +44,7 @@ Example - Hari is "the tallest" boy in the class.`
     data: [
       [
         `Beautiful, Tall, Black, Red, Happy, Fat`,
-        `Park, Bread, Pencil, Rose, Board, peacock`
+        `Park, Bread, Pencil, Rose, Board, Peacock`
       ],
       [
         `Angry, Bad, Blue, Clean, Dark, Easy`,
@@ -86,52 +83,70 @@ Example - Hari is "the tallest" boy in the class.`
     label: 'Match',
     id: 'match',
     commonData: {
-      title: 'Match the following adjectives with their corresponding naming words.'
+      title: 'Match the most appropriate adjectives with their corresponding naming words.'
     },
     data: [
       `Cheerful, boy
       Tall, building
       Sweet, mangoes
-      Colorful, umbrella`,
+      Colorful, umbrella
+      Black, dog
+      Pretty, women`,
 
 `New, dress
 Clever, girl
 Yellow, flowers
-Big, house`
-    ]
+Brick, house
+Green, parrot
+Crunchy, chips`,
+
+`Black, board
+Tall, tree
+Narrow, road
+Pretty, girl
+Colorful, kite
+Strong, bull`,
+
+`Blue, sky
+Big, room
+Soft, carpet
+Thorny, bush
+Brown, bear
+Wild, dog`,
+]
   },
   {
-    label: 'Pick-out',
+    label: 'Drag and drop',
     type: 'matchByDragDrop',
-    id: 'drag-and-drop',
+    id: 'drag-and-drop-1',
     commonData: {
       isPractice: false,
-      title: 'Drag and drop the correct adjective to complete the sentence.',
+      title: 'Drag and drop the appropriate adjective to complete the sentence.',
       styles: {
         fontSize: '1rem',
         dashWidth: 80
       }
     },
     data: [
-      `A *fat* cow.
-A *red* apple.
-A *colorful* kite.
-A *green* parrot.
-A *black* board.
-A *tall* tree.`,
+      `He is a *short* boy.
+      She wore a *beautiful* dress.
+      She bought a *big* kite.
+      I saw a *green* parrot in the zoo.
+      There is a *black* board in my classroom.
+      There is a *tall* mango tree in my garden.`,
 
-      `An *intelligent* person.
-An *orange* chair.
-A *wide* road.
-A *soft* carpet.
-She is *pretty*.
-A *big* basket.`,
+      `She is an *intelligent* student in the class.
+      I bought an *orange* chair from the market.
+      We live in a *big* city.
+      Ram is a *funny* guy.
+      She has a *black* cat.
+      My mother has a *curly* hair.`,
 
       `The dress is *pretty*.
-The day is *bright*.
-Mango is a *sweet* fruit.
-Sita is an *honest* girl.
-Our teacher is very *kind*.`
+      The day is *bright*.
+      Mango is a *sweet* fruit.
+      Sita is an *honest* girl.
+      Our teacher is very *kind*.`
     ]
   },
   {
@@ -143,10 +158,10 @@ Our teacher is very *kind*.`
     },
     data: [
 `Manisha is wearing a *beautiful (tall)* dress.
-She loves to eat *sweet (slim)* apples.
+She loves to eat *fresh (slim)* apples.
 Rahul has *curly (deep)* hair.
 A ball is *round (curly)* in shape.
-Birds have *little (high)* feathers.`,
+Birds have *beautiful (high)* feathers.`,
 
 `Harish saw a *funny (clumsy)* clown.
 Jasmines have *white (black)* petals.
@@ -157,37 +172,46 @@ The book is very *colorful (ill)*.`,
 `A car has *four (three)* wheels.
 Coffee is hot but ice is *cold ( black)*.
 I like to sleep on a *soft (hard)* bed.
-The Indian team was *delighted (sad)* when they won the match.
+The Indian team was *happy (sad)* when they won the match.
 I saw some *black (green)* clouds.`
     ]
   },
   {
-    type: 'selectWord',
-    label: 'Identify-1',
-    id: 'select-word-1',
+    label: 'Fill-Up',
+    type: 'matchByDragDrop',
+    id: 'drag-and-drop-2',
     commonData: {
-      title: 'Select the correct comparative degree of adjective in the sentence.'
+      isPractice: false,
+      title: 'Drag and drop the appropriate adjective in the sentence.',
+      styles: {
+        fontSize: '1rem',
+        dashWidth: 80
+      }
     },
     data: [
-      `Giraffe is *bigger than* lion.
-      Suhani is a *clever* girl.
-      The Ganga is *longer than* Yamuna.
-      Mahesh is *the tallest* boy in the class.
-      Mount Everest in *the highest* peak in the world.`,
+      `The lion is a *big* animal.
+      The Rhinoceros is *bigger* than lion.
+      The elephant is the *biggest* of three animals.`,
 
-      `Mangoes are *sweeter than* oranges.
-      Gold is *costlier than* silver.
-      My house is *bigger than* yours.
-      This is *the biggest* park in the city.
-      May is *hotter than* March.`
+      `Suhani is a *clever* girl.
+      Geeta is *cleverer* than Suhani. 
+      Sita is the *cleverest* of all three.`,
+      
+      `Krishna is a *tall* boy.
+      Hari is *taller* than Krishna.
+      Mahesh is the *tallest* boy in the class.`,
+
+      `Teju is an *active* girl.
+      Laukya is *more active* than Teju.
+      Padma is the *most active* girl among three.`
     ]
   },
   {
-    label: 'Identify-2',
+    label: 'Identify-1',
     type: 'selectWord',
-    id: 'select-word-2',
+    id: 'select-word-1',
     data: {
-      title: `Select the correct adjective of quantity in the sentence.`,
+      title: `Select the adjective of quantity in the sentence.`,
       text: `There are *five* pencils in my box.
       I drank *some* milk.
       He ate only *half* of his breakfast.
@@ -196,17 +220,25 @@ I saw some *black (green)* clouds.`
     }
   },
   {
-    label: 'Identify-3',
     type: 'selectWord',
-    id: 'select-word-3',
-    data: {
-      title: `Select the descriptive adjective in the sentence.`,
-      text: `The girl was very *smart*.
+    label: 'Identify-2',
+    id: 'select-word-2',
+    commonData: {
+      title: 'Select the adjective in the sentence.'
+    },
+    data: [
+      `The girl was very *smart*.
       This is a *beautiful* garden.
       Siri is a *noisy* girl.
       Rohan lives in a *big* city.
-      These are the *fresh* fruits.`
-      }
-    }
-  ]
+      These are the *fresh* fruits.`,
+
+      `Neeta has *long* hair.
+      This is a *funny* movie.
+      This is a *huge* snake.
+      I have a pair of *yellow* shoes.
+      We live in a *small* village.`
+    ]
+  }
+ ]
 };
