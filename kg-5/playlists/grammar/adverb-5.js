@@ -4,9 +4,9 @@ export default {
     pdf: '',
     list: [
       {
-        label: 'Adverb of degree',
+        label: 'Adverb of Frequency',
         type: 'passage',
-        id: 'Adverb of Frequency',
+        id: 'adverb-of-Frequency',
         data: {
           title: 'Adverb of Frequency',
           text: `Adverb of frequency tells us;
@@ -48,49 +48,28 @@ My little sister is *always* hungry.
 Sheenu *usually* helps her mother in the kitchen.`
             ]
           },
-           {
-        label: 'Classify',
-        id: 'yes-or-no',
-        type: 'classifySentence',
-        commonData: {
-          title: 'Identify if these words are adverbs of frequency or not.',
-          types: ['Yes', 'No']
-        },
-        data: [
-          [
-            `Rarely
-             Weekly
-             Usually
-             Monthly`,
-  
-            `Quickly
-             Slowly
-            Peacefully
-             Godly`
-          ],
-          [
-            `Thrice
-             Sometimes
-             Ever
-             Always`,
-  
-            `Smart
-            Running
-            Fasting
-            Grains`
-          ],
-          [
-            `Twice
-             Never
-             Seldom
-             Often`,
-  
-            `Noisily
-             Safely
-             Intelligent
-             Great`
-          ]
+       {
+      type: 'group',
+      label: 'Drag and Drop',
+      id: 'drag-and-drop',
+      commonData: {
+        title: 'Identify if these words are adverbs of frequency or not.',
+        types: ['Yes', 'No']
+      },
+      data: [
+        [
+          `Rarely, Weekly, Usually, Monthly`,
+          `Quickly, Slowly, Peacefully, Godly`
+        ],
+        [
+          `Thrice, Sometimes, Ever, Always`,
+          `Smart, Running, Fasting, Grains`
+        ],
+        [
+          `Twice, Never, Seldom, Often`,
+          `Noisily, Safely, Intelligent, Great`
         ]
-      }
+      ]
+    }
     ]
   }; 
