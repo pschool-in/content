@@ -6,7 +6,7 @@ export default {
       {
         label: 'Adverb of Frequency',
         type: 'passage',
-        id: 'adverb-of-Frequency',
+        id: 'adverb-of-frequency',
         data: {
           title: 'Adverb of Frequency',
           text: `Adverb of frequency tells us;
