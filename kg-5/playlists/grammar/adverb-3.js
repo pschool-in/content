@@ -114,34 +114,27 @@ She is very *greedy (greedily, greed)*.`
     }
   },
   {
-    label: 'Right match-1',
-    id: 'complete-1',
+    label: 'Right match',
+    id: 'complete',
     type: 'completePuzzle',
-    data: {
+    commonData: {
       type: 'rightOpen',
       title: 'Identify the correct adverb of manner for these adjectives.',
-      printNoOptions: true,
-      text: `Smart, Smartly, Smartily
+      printTitle: 'Fill up with the right option.'
+    },
+    data: [
+      `Smart, Smartly, Smartily
       Possible, Possibly, Possibley
       Pleasant, Pleasantly, Pleasantary
       Happy, Happily, Happilie
-      Bad, Badly, Badley`
-      }
-    },
-    {
-        label: 'Right match-2',
-        id: 'complete-2',
-        type: 'completePuzzle',
-        data: {
-          type: 'rightOpen',
-          title: 'Identify the correct adverb of manner for these adjectives.',
-          printNoOptions: true,
-          text: `Quick, Quickly, Quickey
-          Slow, Slowly, Slowey
-          Fast, Fastly, Fastily
-          Gentle, Gently, Gentley
-          Correct, Correctly, Corrects`
-          }
+      Bad, Badly, Badley`,
+
+      `Quick, Quickly, Quickey
+      Slow, Slowly, Slowey
+      Fast, Fastly, Fastily
+      Gentle, Gently, Gentley
+      Correct, Correctly, Corrects`
+          ]
         }
       ]
     };
