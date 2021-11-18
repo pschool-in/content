@@ -1,10 +1,10 @@
 export default {
     id: 'conjunction-1',
-    label: 'Conjunction -1',
+    label: 'Conjunction - 1',
     pdf: '',
     list: [
       {
-        label: 'Conjunction -1',
+        label: 'Conjunction - 1',
         type: 'passage',
         id: 'conjunction-1-reading',
         data: {
