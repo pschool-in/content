@@ -1092,6 +1092,31 @@ const social = [
     label: 'Surroundings',
     id: 'surroundings-3',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Community Life',
+    id: 'community-life-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Community Life 2',
+    id: 'community-life-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Social Living',
+    id: 'social-living-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Social Living - 2',
+    id: 'social-living-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Social Living - 3',
+    id: 'social-living-5',
+    grade: 'g3, g4, g5'
   }
 ];
 
