@@ -3,29 +3,29 @@ export default {
     id: 'parts-of-speech-3',
     list: [
         {
-            id: 'well',
-            label: 'Well',
-            type: 'classifySentence',
-            data: {
-              title: 'Indentify the parts of speech of the underlined word.',
-              types: [
-                {
-                  name: 'Adjective',
-                  text: `Are you *well*?
-                  She is *well*.
-                  My grandmother is doing *well*. `
-                },
-                {
-                    name: 'Adverb',
-                    text: `She paints very *well*.`
-                  },
-                  {
-                    name: 'Noun',
-                    text: `I dropped a coin in the *well*. 
-                    They dig a *well* to get water out of the ground.
-                    I went down to the *well* to get some water. 
-                    The dog jumped into the *well*.`
-                  },
+        id: 'well',
+        label: 'Well',
+        type: 'classifySentence',
+        data: {
+          title: 'Indentify the parts of speech of the underlined word.',
+          types: [
+            {
+              name: 'Adjective',
+              text: `Are you *well*?
+              She is *well*.
+              My grandmother is doing *well*. `
+            },
+            {
+                name: 'Adverb',
+                text: `She paints very *well*.`
+              },
+              {
+                name: 'Noun',
+                text: `I dropped a coin in the *well*. 
+                They dig a *well* to get water out of the ground.
+                I went down to the *well* to get some water. 
+                The dog jumped into the *well*.`
+              },
                 {
                   name: 'Interjection',
                   text: `*Well*! That's expensive!
@@ -46,12 +46,12 @@ export default {
                   text: `I live in a *brick* house.`
                 },
                {
-                    name: 'Noun',
-                    text: `My house is made of *bricks*.
-                    This wall is made of *bricks*.
-                    This tiny garden is surrounded by high *brick* walls.
-                    She built the bookshelves using *bricks*.`
-                  }
+                name: 'Noun',
+                text: `My house is made of *bricks*.
+                This wall is made of *bricks*.
+                This tiny garden is surrounded by high *brick* walls.
+                She built the bookshelves using *bricks*.`
+              }
               ]
             }
           },
@@ -68,13 +68,13 @@ export default {
                   Would you *call* me as soon as you find out. 
                   My friend gave me this number to *call*.`
                 },
-                 {
-                    name: 'Noun',
-                    text: `He received a *call* at work.
-                    I received a *call* from my brother last night.
-                    I *called* him by his nickname.
-                    I have had hundreds of *calls* from parents.`
-                  }
+                {
+                name: 'Noun',
+                text: `He received a *call* at work.
+                I received a *call* from my brother last night.
+                I *called* him by his nickname.
+                I have had hundreds of *calls* from parents.`
+                }
               ]
             }
           },
@@ -112,12 +112,12 @@ export default {
                   We asked Madhu to *judge* the art show.
                   I *judged* her age to be around thirty years.`
                 },
-                 {
-                    name: 'Noun',
-                    text: `The *judge* sentenced the criminal to life in prison.
-                    A panel of *judges* are selecting the players.
-                    *Judge* Mr. Patnaik jailed him for life.`
-                  }
+              {
+                name: 'Noun',
+                text: `The *judge* sentenced the criminal to life in prison.
+                A panel of *judges* are selecting the players.
+                *Judge* Mr. Patnaik jailed him for life.`
+              }
               ]
             }
           },
@@ -132,15 +132,19 @@ export default {
                   name: 'Adjective',
                   text: `That *little* cat makes a lot of noise.
                   This puppy has *little* feet.
-                  My friend had *little* money left.`
+                  My friend had *little* money left.
+                  There is *little* scope for new fields in India.
+                  There is *little* danger in slides than in swings.`
                 },
                  {
-                    name: 'Adverb',
-                    text: `My son eats very *little*.
-                    This is a *little* known fact. 
-                    She walked a *little* by herself in the garden.
-                    She was a *little* bit afraid of her mother’s reaction.`
-                  }
+                name: 'Adverb',
+                text: `My son eats very *little*.
+                This is a *little* known fact. 
+                She walked a *little* by herself in the garden.
+                She was a *little* bit afraid of her mother’s reaction.
+                She talks very *little*.
+                He eats very *little*.`
+                 }
               ]
             }
           },
@@ -204,7 +208,7 @@ export default {
                     name: 'verb',
                     text: `*Stamp* this envelope.
                     Bike manufacturers *stamp* a vehicle identification number in many places.`
-                  }
+                 }
               ]
             }
           },
@@ -226,7 +230,7 @@ export default {
                     text: `The snow is melting *fast*.
                     She works terrifically *fast*.
                     How *fast* were you riding?`
-                  }
+                 }
               ]
             }
           },
@@ -271,7 +275,7 @@ export default {
                     He *worked* all day in the garden. 
                     The door hinges *work* better with oil. 
                     I *work* in Mumbai.`
-                  }
+                 }
               ]
             }
           },
@@ -438,12 +442,22 @@ export default {
                   name: 'Adverb',
                   text: `We are eating more and exercising *less*.
                   Poverty is *less* of a problem now than it used to be.
-                  The red jacket is *less* expensive.`
+                  The red jacket is *less* expensive.
+                  The population of India is *less* than China.
+                  Train is *less* riskier than a plane.
+                  Water in rivers is *less* than that in the oceans.`
                 },
-                 {
-                    name: 'Adjective',
-                    text: `You are paying *less* attention to your studies than you used to do.`
-                  }
+                {
+                  name: 'Adjective',
+                  text: `You are paying *less* attention to your studies than you used to do.
+                  You’re paying *less* attention to your studies.
+                  Saanvi has *less* interest in household work.
+                  Rohit is *less* efficient for this job.`
+                },
+                {
+                  name: 'Noun',
+                  text: `He won’t settle for *less*.`
+                }
               ]
             }
           },
@@ -457,7 +471,9 @@ export default {
                   {
                     name: 'Preposition',
                     text: `Don’t come *near* me.
-                    I lived *near* the school.`
+                    I lived *near* the school.
+                    She walks *near* the park.
+                    His school is *near* the railway station.`
                   },
                   {
                     name: 'Adverb',
@@ -466,7 +482,9 @@ export default {
                   },
                   {
                     name: 'Adjective',
-                    text: `Where is the *nearest* phone?`
+                    text: `Where is the *nearest* phone?
+                    I frequently meet people *near* me.
+                   I have a good friendship with my *near* cousin.`
                   }
               ]
             }
@@ -545,16 +563,16 @@ export default {
               title: 'Indentify the parts of speech of the underlined word.',
               types: [
                {
-                    name: 'Adverb',
-                    text: `There’s more food *yet* to be eaten.
-                    My mom is *yet* to cook.
-                    I’m *yet* to get ready.`
-                  },
-                  {
-                    name: 'Conjunction',
-                    text: `She is busy, *yet* will come.
-                    She hasn’t completed her HW, *yet* sleeping.`
-                  }
+                name: 'Adverb',
+                text: `There’s more food *yet* to be eaten.
+                My mom is *yet* to cook.
+                I’m *yet* to get ready.`
+              },
+              {
+                name: 'Conjunction',
+                text: `She is busy, *yet* will come.
+                She hasn’t completed her HW, *yet* sleeping.`
+                }
               ]
             }
           },
@@ -565,7 +583,7 @@ export default {
             data: {
               title: 'Indentify the parts of speech of the underlined word.',
               types: [
-               {
+                  {
                     name: 'Interjection',
                     text: `*What* a match!
                     *What!* Really?
@@ -834,32 +852,6 @@ export default {
             }
           },
           {
-            id: 'less',
-            label: 'Less',
-            type: 'classifySentence',
-            data: {
-              title: 'Indentify the parts of speech of the underlined word.',
-              types: [
-                 {
-                    name: 'Adjective',
-                    text: `You’re paying *less* attention to your studies.
-                    Saanvi has *less* interest in household work.
-                    Rohit is *less* efficient for this job.`
-                  },
-                  {
-                    name: 'Adverb',
-                    text: `The population of India is *less* than China.
-                    Train is *less* riskier than a plane.
-                    Water in rivers is *less* than that in the oceans.`
-                  },
-                  {
-                    name: 'Noun',
-                    text: `He won’t settle for *less*.`
-                  }
-              ]
-            }
-          },
-          {
             id: 'like',
             label: 'Like',
             type: 'classifySentence',
@@ -881,26 +873,6 @@ export default {
                     text: `I *like* my best friend a lot.
                     I *like* tap dance.
                     I *like* meeting new people.`
-                  }
-              ]
-            }
-          },
-          {
-            id: 'little',
-            label: 'Little',
-            type: 'classifySentence',
-            data: {
-              title: 'Indentify the parts of speech of the underlined word.',
-              types: [
-                 {
-                    name: 'Adverb',
-                    text: `She talks very *little*.
-                    He eats very *little*.`
-                  },
-                  {
-                    name: 'Adjective',
-                    text: `There is *little* scope for new fields in India.
-                    There is *little* danger in slides than in swings.`
                   }
               ]
             }
