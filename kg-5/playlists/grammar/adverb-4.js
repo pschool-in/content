@@ -17,7 +17,7 @@ Some more examples are:
 1. Ram can run so quickly.
 2. I totally enjoyed the ride.
 
-Some common adverbs of degree are almost, quite, nearly, extremely, too, just, enough, hardly, almost, etc.
+Other common adverbs of degree are almost, quite, nearly, extremely, too, just, enough, hardly, almost, etc.
 
 There are three types of adverb of degrees:
 1. Positive
@@ -99,11 +99,11 @@ In this sentence, the teddy bear, doll and toy plane are compared with each othe
         },
         data: [
           [
-            `Superlative degree of adverb shows the superiority of an object.
+            `Superlative degree of adverb means that the object is superior (on top).
             Comparative degree talks about comparison between two words.`,
   
             `A positive degree talks about positive qualities only.
-            All the adverbs of degree are no different.`
+            All adverbs of degree have the same meaning.`
           ],
           [
             ` Adverb of degree answers the question "how much."
@@ -122,7 +122,7 @@ In this sentence, the teddy bear, doll and toy plane are compared with each othe
           title: `Tap on each blank for options.`
         },
         data: [
-`I *totally (very)* enjoyed the ride.
+`I *really (very)* enjoyed the ride.
 She *never (so)* completes her homework on time.
 He *almost (utmost)* gave up.
 Richa danced *extremely (politely)* well on the stage.
@@ -132,7 +132,7 @@ That book is *very (never)* nice.`,
 He is walking *too (much)* slowly.
 She has *almost (utmosst)* finished her work.
 You are running fast *enough (much)*.
-You are walking *so (a bit)* slowly.`
+You are walking *very (much)* slowly.`
         ]
       },
       {

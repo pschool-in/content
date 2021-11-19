@@ -78,13 +78,23 @@ Some more examples of adverb of manners are:
 Richa doesn't work *hard (hardly, hardily)*.
 She knows the road *well (good, goodly)*.
 We have to get up *early (earlily, soon)*.
-Our teacher arrives *late (lately, soonly)* for class.`,
+Our teacher arrives *late (lately, soonly)* for class.
+He ate his meal *quickly (quick, quickily)*.
+He is very *talented (talent, talents)*.
+They missed the bus, *unfortunately (unfortunate, fortunately)*.
+They waited *patiently (patient, patience)* until 1 pm.
+She tried on her new dress *happily (happyly, happy)*.`,
 
 `He drives too *fast (well, fastly)*.
 She speaks very *quietly (quiet, quitely)*.
 He plays the guitar *terribly (terrible, terribily)*.
 She walked *happily (happy, happly)* to the school.
-He planned the trip *nicely (nice, nicily)*.`
+He planned the trip *nicely (nice, nicily)*.
+She spoke *softly (softness, soft)*.
+James shouted *loudly (loud, louds)* to call her.
+He swims *well (good, medium)*.
+She *angrily (angryly, angry)* shut the door.
+She is very *greedy (greedily, greed)*.`
     ]
   },
   {

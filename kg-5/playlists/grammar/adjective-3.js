@@ -9,22 +9,31 @@ export default {
         id: 'adjective-3-reading',
         data: {
           title: 'Adjective-3',
-    text: `Describing words is called adjectives. In general, adjectives usually give us more information about a noun or pronoun by describing it or providing more information about it. They are also called "descriptive adjectives". They inform or tell us about how she or he looks, sounds, smells, feels or tastes.
+    text: `Describing words are called adjectives. In general, adjectives usually give us more information about a noun or pronoun by describing it or providing more information about it. They are also called "descriptive adjectives". They inform or tell us about how she or he looks, sounds, smells, feels or tastes.
 For example - a. The dog is "black". (here dog is a naming word or noun and black is the adjective i.e., it is describing how the dog looks) b. The sweater is "fluffy". (here the sweater is a naming word and fluffy describes how the sweater feels like)
 Similarly, names of the colors are used as adjectives.
 Adjectives are also used to describe the qualities of two things or people. They are called "adjectives of quality".
+
 Example -
 It is a "tall" building.
 It was a "rainy" day.
 Hyderabad is a "big" city.
+
 Adjectives of quantity determine or describe how much of the noun is being specified in the sentence.
 Words like "much", "little", "some", "any", "whole" etc are used to describe the quantity.
+
 For example -
 1. Preethi ate the "whole" cake.
 2. How "much" money do you have?
+
 Adjectives are also used to compare the qualities of two nouns and more than two nouns. These are known as "degrees of comparison".
-When we compare qualities of two nouns we add "-er" + "than". Example Hari is "taller than" Krishna.
-When we compare qualities of more than three nouns we add "-est" +"the". Example - Hari is "the tallest" boy in the class.`
+When we compare qualities of two nouns we add "-er" + "than". 
+
+Example - Hari is "taller than" Krishna.
+
+When we compare qualities of more than three nouns we add "-est" +"the".
+
+Example - Hari is "the tallest" boy in the class.`
 }
 },
 {
@@ -104,25 +113,25 @@ Big, house`
       }
     },
     data: [
-      `A *fat* woman.
-      A *red* rose.
-      A *happy* boy.
-      A *beautiful* Peacock.
-      A *black* board.
-      A *tall* man.`,
+      `A *fat* cow.
+A *red* apple.
+A *colorful* kite.
+A *green* parrot.
+A *black* board.
+A *tall* tree.`,
 
-      `A *happy* person.
-      An *orange* chair.
-      A *wide* road.
-      A *green* carpet.
-      She is *thin*.
-      A *big* basket.`,
+      `An *intelligent* person.
+An *orange* chair.
+A *wide* road.
+A *soft* carpet.
+She is *pretty*.
+A *big* basket.`,
 
       `The dress is *pretty*.
-      The day is *bright*.
-      Mango is a *sweet* fruit.
-      Sita is a *clever* girl.
-      Our teacher is very *kind*.`
+The day is *bright*.
+Mango is a *sweet* fruit.
+Sita is an *honest* girl.
+Our teacher is very *kind*.`
     ]
   },
   {

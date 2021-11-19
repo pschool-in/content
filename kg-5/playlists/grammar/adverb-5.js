@@ -12,10 +12,9 @@ export default {
           text: `Adverb of frequency tells us;
 1. how many times an action has occurred in the past.
 2. how many times does it occur in the present.
-3. how many times it will occur in the future.
+3. how many times will it occur in the future.
 
-Some of the common adverbs of frequency are sometimes, usually, always, generally, seldom, rarely, often, ever, weekly, monthly, etc.
-Some examples are:
+Examples are sometimes, usually, always, generally, seldom, rarely, often, ever, weekly, monthly, etc.
 1. Rashi never plays cricket.
 2. Amir visits his grandparents weekly.
 3. She sometimes teaches younger kids.
@@ -30,13 +29,13 @@ Some examples are:
         title: 'Tap on the adverb of frequency in the below sentences.'
             },
             data: [
-`*Sometimes*, they go on school trips.
+`*Sometimes*, the school take the kids to the zoo.
 Ayushi is *usually* very rude.
 My grandma *often* goes for a walk in the morning.
 I *never* go outside in the afternoon.
 He *often* listens to the radio.`,
 
-`He sleeps during lectures *frequently*.
+`He sleeps during the classes *frequently*.
 The newspaper is *usually* delivered in the morning.
 Does she *often* help her mother?
 Sheena *rarely* studies for exams.

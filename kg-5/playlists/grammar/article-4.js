@@ -110,7 +110,7 @@ Mr.Iyer is *an* honorary member of our council.`
           I am fine and hope to hear the same from you. Our entire class went to *a (an, the)* picnic to *the (a, an)*beach.
           I was left alone. So, I went to *the (a, an)* sandy corner and sat down. 
           My mother packed me *an (a, the)* egg, cake and *a (an, the)* chocolate. 
-          At that time, *a (an, the)* large sandy Lobster crawled out of *the (a, an)*sea water. 
+          At that time, *a (an, the)* large sandy lobster crawled out of *the (a, an)*sea water. 
           All *the (a, an)* sea animals tried to shake hands with me. 
           But, they pricked me till I was black and blue. 
           They taught me *a (an, the)* lesson not to hurt anyone. 
@@ -154,17 +154,29 @@ I didn't have *any* breakfast today.`
         text: `Use of "a/an"
 It's understood that "a" is used for words beginning with consonant sound while "an" is used before the nouns beginning with vowel sounds. But for certain words like univeristy, unicorn, European, union, etc we use the article "a" as they sound as "you" i.e. they begin with a consonant sound and not with vowel sound.
 Similarly for words like hour, honest, heir, MBA, FIR, etc article "an" is used as they begin with a vowel sound, even though they start with consonants.
-Use of "the"
+# Use of "the"
 "the" is also used for things like - the sun, the moon, the sky, etc.
 "the" is also used for proper nouns like names of monuments, rivers, oceans, etc.
 "the" is also used for superlatives as the strongest, the longest, the smallest, etc.
 "the" is also used for number positions like the first, the fifth, the second, the third, etc.
-Omission of Article or No article:
+# Omission of Article or No article:
 We do not use articles in the following cases:
 Names of the persons - Mahita is my best friend (not The Mahita).
 Common nouns in the plural number - Birds live in trees (not The birds) Cows give milk (not The cows)
 Names of the days/Months- Saturday is a week off. (not The Saturday)
-Names of materials- We wear clothes made of cotton ( not the cotton)`
+Names of materials- We wear clothes made of cotton. ( not the cotton)
+
+We use indefinite article to certain quantifiers like - "few", "little" to show that the quantity of the thing is small, but it adds lot of value or is of great importance.
+
+For example:
+1. Mrudula was never lonely, she made " a few" good friends while she was in university.
+2. My grandfather needs "a little" help with sorting his medicines.
+
+Similarly, indefinite article is also used for words like "few", "little" when words like "only" or "just" are used.
+
+For example:
+1. Ramesh made "just a few" mistakes in his test.
+2. There is "only a little" icecream left in the fridge.`
       }
     },
     {
@@ -268,6 +280,33 @@ She is *an architect(a architect)*.`
           `Milk is good for you.
       Men are always fond of cricket.`
         ]
+      ]
+    },
+    {
+      id: '1000',
+      label: 'Fill up',
+      type: 'fillup',
+      commonData: {
+        title: `Choose the appropriate option to complete the sentence.`
+      },
+      data: [
+        `The roads are empty. There are only *a few (few)* cars on the road.
+  I am very busy. I have *little (a little)* time to see the email.
+  I'd like to have coffee with just *a little (little)* sugar.
+  Anand can speak German because he lived in Berlin for *a few (few)* years.
+  You look amazing! It seems like you have lost *a little (little)* weight.`,
+
+        `There is *little (a little)* noise in small villages.
+  I have *a few (few)* good friends. I am not alone.
+  Vihaan gave us *a few (few)* apples from his garden.
+  I have got *a few (few)* chocolates to give away.
+  Tina is lucky. She has *few (a few)* problems.`,
+
+        `Sweden has *little (a little)* sunshine in winter. 
+  He has *little (a little)* self-confidence. He has trouble talking to new people.
+  There are only *a few (few)* people she really trusts. 
+  There are *few (a few)* female bike riders in my city. 
+  There is *a little (little)* milk left in the fridge. It should be enough for our tea.`
       ]
     }
   ]
