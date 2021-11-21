@@ -133,13 +133,13 @@ Some examples of interrogative pronouns:
       type: 'fillupOptions',
       data: {
         text: `*Her(his)* name is Sita.
-        *You (they)* are my best friend.
+        *You (They)* are my best friend.
         This pen is *mine(theirs)*.
-        *They(it)* are making a snowman.
+        *They(It)* are making a snowman.
         *He (they)* sings beautifully.
         I folded my clothes by *myself(themselves)*.
-        *Who(what)* is the new teacher?
-        *Which(who)* is your favourite food?`,
+        *Who(What)* is the new teacher?
+        *Which(Who)* is your favourite food?`,
         title: 'Click on the blank and fill in the right pronoun.'
       }
     }

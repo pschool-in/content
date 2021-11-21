@@ -9,85 +9,101 @@ export default {
         id: 'adverb-of-degree',
         data: {
           title: 'Adverb of degree',
-          text: `Adverb of degree tells us to what extent the action has been done. In simple words, it answers the question 'how much?' For example: 
-          The girl was very beautiful. 
-          In this sentence, the word very tells us how much beautiful is the girl.
-          
-Some more examples are:
+text: `Adverb of degree tells us to what extent the action has been done. In simple words, it answers the question 'how much?'
+For example:
+The girl was very beautiful.
+In this sentence, the word very tells us how much beautiful is the girl.
+More examples are:
 1. Ram can run so quickly.
-2. I totally enjoyed the ride.
-
+2. I really enjoyed the ride.
 Other common adverbs of degree are almost, quite, nearly, extremely, too, just, enough, hardly, almost, etc.
-
 There are three types of adverb of degrees:
 1. Positive
-"The toy plane is big." 
+"The toy plane is big."
 This sentence talks about the toy plane. Here, the toy plane is not compared to anything else. Therefore, big is a positive degree of comparison.
-
 2. Comparative
-"The doll is bigger than the plane." 
+"The doll is bigger than the plane."
 In this sentence, the doll is compared to a plane. Therefore, faster is the comparative degree of comparison.
-
 3. Superlative
 "The teddy bear is the biggest of all."
 In this sentence, the teddy bear, doll and toy plane are compared with each other. Teddy bear is superior to all. Therefore, biggest is the superlative degree of comparison.`
 }
-      },
-      {
-        label: 'Classify-1',
-        type: 'classifySentence',
-        id: 'classify-sentence-1',
-        data: {
-        title: 'Identify if these adverbs are positive, comparative or superlative.',
-          types: [
-            {
-              name: 'Positive',
-              text: `Big
-                     Happy
-                     Quick`
-            },
-            {
-                name: 'Comparative',
-                text: `Smaller
-                       Quicker
-                       Faster`
-              },
-            {
-              name: 'Superlative',
-              text: `Happiest
-                     Bravest
-                     Biggest`
-            }
+  },
+  {
+    label: 'Classify',
+    type: 'classifySentence',
+    id: 'classify',
+    commonData: {
+      title: `Identify if these adverbs are positive, comparative or superlative.`,
+      types: ['Positive', 'Comparative', 'Superlative']
+    },
+    data: [
+          [
+            `Big
+            Happy
+            Quick`,
+  
+            `Smaller
+            Quicker
+            Faster`,
+  
+            `Happiest
+             Bravest
+             Biggest`
+          ],
+          [
+            `Tall
+             Good
+             Pretty`,
+  
+            `Better
+             Heavier
+             Taller`,
+  
+            `Best
+             Prettiest
+             Bravest`
+          ],
+          [
+            `Hard
+             Wide
+             Suddenly`,
+  
+            `More carefully
+             Worse
+             More justly`,
+  
+            `Most carefully
+             Most justly
+             Longest`
+          ],
+          [
+            `Fast
+            Carefully
+            Justly`,
+  
+            `Harder
+            More suddenly
+            Louder`,
+  
+            `Widest
+            Fastest
+            Worst`
+          ],
+          [
+            `Badly
+             Loud
+             Long`,
+  
+            `Wider
+            Faster
+            Longer`,
+  
+            `Hardest
+            Most suddenly
+            Loudest`
           ]
-        }
-      },
-      {
-        label: 'Classify-2',
-        type: 'classifySentence',
-        id: 'classify-sentence-2',
-        data: {
-        title: 'Identify if these adverbs are positive, comparative or superlative.',
-          types: [
-            {
-              name: 'Positive',
-              text: `Tall
-                     Good
-                     Pretty`
-            },
-            {
-                name: 'Comparative',
-                text: `Better
-                       Heavier
-                       Taller`
-              },
-            {
-              name: 'Superlative',
-              text: `Best
-                     Prettiest
-                     Bravest`
-            }
-          ]
-        }
+        ]
       },
       {
         label: 'True or False',
@@ -106,7 +122,7 @@ In this sentence, the teddy bear, doll and toy plane are compared with each othe
             All adverbs of degree have the same meaning.`
           ],
           [
-            ` Adverb of degree answers the question "how much."
+            `Adverb of degree answers the question "how much."
             'Very' is an adverb of degree.`,
   
             `Adverb of degree answers the question "how."
@@ -126,13 +142,23 @@ In this sentence, the teddy bear, doll and toy plane are compared with each othe
 She *never (so)* completes her homework on time.
 He *almost (utmost)* gave up.
 Richa danced *extremely (politely)* well on the stage.
-That book is *very (never)* nice.`,
+That book is *very (never)* nice.
+The tea is *extremely (so)* hot.
+This book is *quite (quiet)* interesting.
+He was *jusy (only)* leaving.
+She has *almost (very)* completed her HW.
+You are walking *fast (almost)* enough.`,
 
 `You *hardly (smartly)* tried.
 He is walking *too (much)* slowly.
-She has *almost (utmosst)* finished her work.
+She has *almost (utmost)* finished her work.
 You are running fast *enough (much)*.
-You are walking *very (much)* slowly.`
+You are walking *very (much)* slowly.
+The chocolates are *absolutely (many)* delicious.
+It *rarely (most)* snows in North India.
+My teacher explains *extremely (nicely)* well.
+I *almost (utmost)* dropped the pen.
+He danced *wonderfully (wonderful)*.`
         ]
       },
       {
@@ -147,13 +173,23 @@ You are walking *very (much)* slowly.`
 The book is *quite* interesting.
 She was *just* playing.
 Reena is *almost* done.
-That boy was *very* smart.`,
+That boy was *very* smart.
+She is *very* kind.
+I am *rather* busy.
+The game went *horribly* wrong.
+Is your tea hot *enough?*
+It was *too* cold.`,
 
 `My bag isn't big *enough*.
 Can I eat the chocolate *too*?
 She worked *quickly*.
 I *almost* stumbled on the rock.
-She reached on the top *so* quickly.`
+She reached on the top *so* quickly.
+The team played *spectacularly*.
+It's not big *enough*.
+I was *too* tired to get up this morning.
+The function was *very* good.
+He drove the car *very* fast.`
             ]
           }
         ]

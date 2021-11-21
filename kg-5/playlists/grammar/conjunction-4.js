@@ -90,7 +90,7 @@ questions: [
             options: 'or, nor, so'
             },
             {
-            qText: '________hes smart, but also very intelligent.',
+            qText: `________he's smart, but also very intelligent.`,
             options: 'Not only, Both, Whether'
             }
             ]
@@ -130,7 +130,7 @@ questions: [
                 options: 'Not only, Both, So'
                 },
                 {
-                qText: 'I dont know whether shell come_____not.',
+                qText: `I dont know whether she'll come_____not`,
                 options: 'or, and, but'
                 },
                 {
@@ -165,8 +165,8 @@ questions: [
                     qText: 'She ran fast______won the race.',
                     options: 'and, but, or'
                     }
-                        ]
-                    },
+                    ]
+                  },
                 {
             questions: [
                 {

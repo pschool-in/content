@@ -1,76 +1,105 @@
 export default {
   id: 'noun-1',
-  label: 'Nouns-1',
+  label: 'Noun-1',
   pdf: '',
   list: [
     {
-      label: 'Nouns-1',
+      label: 'Naming words',
       type: 'passage',
-      id: 'nouns-reading',
+      id: 'naming-words-reading',
       data: {
         title: 'Naming words',
         text: `Words that are used as names of person, place, thing or animal are called naming words. Another name for naming words is nouns. Some examples of nouns are:
-1. Richa lives with his parents.
+1. Richa lives with her parents.
 2. The books are very helpful.
 3. Agra is a beautiful city.
 4. Lion is the king of the jungle.`
       }
     },
     {
-      type: 'group',
-      label: 'Drag and drop',
-      id: 'classify-Nouns-not-Nouns',
-      commonData: {
-        title: 'Identify which of these words are nouns and which are not.',
-        types: ['Nouns', 'Not Nouns']
+    type: 'group',
+    label: 'Drag and drop',
+    id: 'classify',
+    commonData: {
+      title: 'Identify which of these words are nouns and which are not.',
+      types: ['Nouns', 'Not Nouns']
+        },
+        data: [
+          [
+            `Book, Boy, City, House, Dog`,
+            `Big, Little, Sleep, Eat, Pretty`
+          ],
+          [
+            `Sakshi, School, Cat, Pen, Eraser`,
+            `Small, Play, Dance, Run, Jump`
+          ],
+          [
+            `Nita, Delhi, Tiger, Ring, Phone`,
+            `Walk, Talk, Speak, Teach, Repeat`
+          ],
+          [
+            `Dog, Cat, Puppy, Cow, Pig`,
+            `Dance, Sing, Drink, Lie`
+          ],
+          [
+            `Kitten, Birds, Flowers, Fruits`,
+            `Beautiful, Black, Slept, Sit`
+          ]
+        ]
       },
-      data: [
-        [`Book, Boy, City, House, Dog`, `Big, Little, Sleep, Eat, Pretty`],
-        [`Sakshi, School, Cat, Pen`, `Small, Play, Dance, Run`],
-        [`Nita, Delhi, Tiger, Ring`, `Walk, Talk, Speak, Teach`]
-      ]
-    },
-    {
-      id: 'jumbled-words',
-      type: 'sequence',
-      label: 'Jumbled Words',
-      commonData: {
-        title: 'Identify these naming words.'
-      },
-      data: [
-        'Dog, Cat, Child, Mother, Father, Doctor',
-        'House, Room, Bed, Book, Pencil, Eraser',
-        'Mobile, Boy, Laptop, Girl, Spoon, Bowl'
-      ]
-    },
-    {
-      type: 'selectWord',
-      label: 'Select the noun',
-      id: 'select-word',
-      commonData: {
-        title: 'Select the nouns in the below sentences.'
-      },
-      data: [
-        `*Neha* likes grapes.
+      {
+        id: 'jumbled-words',
+        type: 'sequence',
+        label: 'Jumbled Words',
+        commonData: {
+            title: 'Identify these naming words.'
+          },
+        data: [
+            'Dog, Cat, Child, Mother, Father, Doctor',
+    'House, Room, Bed, Book, Pencil, Eraser',
+    'Mobile, Boy, Laptop, Girl, Spoon, Bowl'
+              ]
+        },
+        {
+  type: 'selectWord',
+  label: 'Select the noun',
+  id: 'select-word',
+  commonData: {
+  title: 'Select the nouns in the below sentences.'
+                },
+                data: [
+  `*Neha* likes grapes.
   The *clown* gave a *balloon* to the *boy*.
   The *pear* fell off the *tree*.
   The *teacher* rings the *bell*.
   *Monkeys* swing in *trees*.`,
-
-        `The *cat* is purring.
+    
+    `The *cat* is purring.
     The *bus* stops at the red *light*.
     These *flowers* are beautiful.
     We saw *tigers* at the *zoo*.
     The *boy* kicked the *ball*.`,
 
-        `Who likes *apples*?
+    `Who likes *apples*?
     The *rabbit* hopped across the *road*.
     *Ice* floats on *water*.
     We’re having *soup* for *dinner*.
-    *Lavina* brought *cake* to the *party*.`
-      ]
-    },
-    {
+    *Lavina* brought *cake* to the *party*.`,
+
+    `An *apple* a day keeps the doctor away.
+    The *broom* is used to clean the house.
+    The *sand* is found in the *beach*.
+    My *dog* is very playful.
+    The *airplane* flies in the sky.`,
+
+    `I click very good *pictures*.
+    *Books* are kept on the *table*.
+    *Rani* wrote a *letter*.
+    The *dog* barks at *strangers*.
+    I love *balloons*.`
+                ]
+              },
+     {
       id: '1635961075354',
       editable: true,
       type: 'wordsearch',
