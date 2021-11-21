@@ -456,6 +456,101 @@ const dragdrop = {
         lang: 'ta',
         words: 'பூனை, நாய், ஆடு, செம்மறி ஆடு, குதிரை'
       }
+    },
+    {
+      type: 'mathCrossword',
+      label: 'Math Crossword',
+      id: 'dictation-2',
+      data: {
+        title: 'Click on the empty cells and fill it with the correct value.',
+        numbers: [2, 2, 4, 2, 2, 0, 4, 1, 4],
+        symbols: ['+', '−', 'x', '÷', '+', '+'],
+        blanks: [2, 5, 6, 7, 8]
+      }
+    },
+    {
+      type: 'mathCrossword',
+      label: 'Math Crossword',
+      id: 'mathcross',
+      data: {
+        title: 'Click on the empty cells and fill it with the correct value.',
+        text: `?, + , 10, =, ?
++, b, +, b, +
+?, +, ?, =, 3
+=, b, =, b, =
+5, +, 12, =, ?`,
+        answer: [4, 14, 1, 2, 17]
+      }
+    },
+    {
+      type: 'mathCrossword',
+      label: 'Math Crossword',
+      id: 'mathcross',
+      data: {
+        title: 'Click on the empty cells and fill it with the correct value.',
+        text: `?, + , 5, =, ?
++, b, +, b, +
+?, +, ?, =, 3
+=, b, =, b, =
+10, +, 6, =, ?`,
+        answer: [8, 13, 2, 1, 16]
+      }
+    },
+    {
+      type: 'mathCrossword',
+      label: 'Math Crossword',
+      id: 'mathcross',
+      data: {
+        title: 'Click on the empty cells and fill it with the correct value.',
+        text: `?, + , 2, =, ?
++, b, -, b, +
+?, -, ?, =, 8
+=, b, =, b, =
+12, +, 1, =, ?`,
+        answer: [3,5,9,1,13]
+      }
+    },
+    {
+      type: 'mathCrossword',
+      label: 'Math Crossword',
+      id: 'mathcross',
+      commonData: {
+        title: 'Click on the empty cells and fill it with the correct value.',
+      },
+      data: [
+        {
+          text: `?, + , 6, =, ?
+          +, b, +, b, +
+          ?, +, ?, =, 8
+          =, b, =, b, =
+          12, +, 6, =, ?`,
+                  answer: [4,10,8,0,18]
+        },
+        {
+          text: `?, - , 11, =, ?
+          +, b, +, b, +
+          ?, +, ?, =, 5
+          =, b, =, b, =
+          14, -, 8, =, ?`,
+                  answer: [12,1,2,3,6]
+        },
+        {
+          text: `?, - , 6, =, ?
+          +, b, +, b, +
+          ?, +, ?, =, 6
+          =, b, =, b, =
+          20, -, 8, =, ?`,
+                  answer: [12,1,2,3,6]
+        },
+        {
+          text: `?, - , 6, =, ?
+          +, b, +, b, +
+          ?, -, ?, =, 6
+          =, b, =, b, =
+          20, -, 8, =, ?`,
+                  answer: [12,6,8,2,12]
+        }
+      ]
     }
   ]
 };
