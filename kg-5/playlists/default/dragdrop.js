@@ -445,7 +445,7 @@ const dragdrop = {
         words: 'apple, grapes, banana, cherry, avocado'
       }
     },
-    {
+       {
       type: 'dictation',
       label: 'Dictation - Tamil',
       id: 'dictation-2',
