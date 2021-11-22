@@ -65,7 +65,7 @@ Some examples of interrogative pronouns:
       label: 'Fill in the blanks - 1',
       type: 'fillup',
       commonData: {
-        title: `Click on the blank and fill in the correct interrogative pronoun.`
+        title: 'Click on the blank and fill in the correct interrogative pronoun.'
       },
     data: [
 `*Why(What)* is the flight late?
@@ -117,7 +117,7 @@ To *whom (who)* was the song dedicated?
     },
     {
       id: 'classify-sentence',
-      label: 'Identify',
+      label: 'Identify - Reflexive or possessive pronoun',
       type: 'classifySentence',
       data: {
         title:
@@ -145,7 +145,7 @@ To *whom (who)* was the song dedicated?
         label: 'Fill in the blanks - 2',
         type: 'fillup',
         commonData: {
-          title: `Click on the blank and fill in the right pronoun.`
+          title: 'Click on the blank and fill in the right pronoun.'
         },
       data: [
 `*Her(His)* name is Sita.
