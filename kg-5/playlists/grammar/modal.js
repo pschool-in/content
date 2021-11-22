@@ -62,7 +62,7 @@ I *can (may)* not eat almonds because I'm allergic.`,
       commonData: {
         title: `Tap on the modal verb in the below sentences.`,
       },
-      data [
+      data : [
 `I *can* speak 3 different languages.
 *May* I ask what you're doing?
 I told my sister that she *cannot* sleep without brushing her teeth.
@@ -90,7 +90,7 @@ My mom *may* tell me stories.`,
 Raj *may* take a half day leave today.
 Mihir *can* stand on one leg for 10 minutes.
 Boys *cannot* have long hair in school.
-Girls *may* form a separate team.`
+Girls *may* form a separate team.`,
       ]
     },
     {
