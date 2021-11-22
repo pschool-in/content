@@ -90,7 +90,7 @@ My mom *may* tell me stories.`,
 Raj *may* take a half day leave today.
 Mihir *can* stand on one leg for 10 minutes.
 Boys *cannot* have long hair in school.
-Girls *may* form a separate team.`,
+Girls *may* form a separate team.`
       ]
     },
     {
