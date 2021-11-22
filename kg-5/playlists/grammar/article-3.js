@@ -4,11 +4,11 @@ export default {
     pdf: '',
     list: [
     {
-    label: 'Article',
+    label: 'Definite and Indefinite Article',
     type: 'passage',
     id: 'article-reading',
     data: {
-    title: 'Article',
+    title: 'Definite and Indefinite Article',
     text: `Articles are of two types – the definite article (the) and the indefinite article (a/an).
 # Indefinite articles:
 The indefinite articles "a/an" are generally used to mention some person or thing.
@@ -61,19 +61,35 @@ We use definite article "the" when we are talking about a specific person or a t
 I will meet *the (a, an)* President today.
 The mangoes cost thirty rupees *a (an, the)* piece.
 I have *an (a, the)* exam today. 
-*A (an, the)* dog is barking.`,
+*A (an, the)* dog is barking.
+She goes to temple in *the (a, an)* morning.
+Abhinav is *the (a, an)* best singer in the class.
+*The (A, An)* camel is the ship of the desert.
+Aarav is sleeping on *the (a, an)* grey sofa.
+*The (An, A)* sun is shining bright today!
+He is holding *a (an, the)* bag.`,
 
 `There is *a (an, the)* cat in my room. 
 My brother bought *a (an, the)* gift for me. 
 He is eating *an (the, a)* apple. 
 I saw *an (a, the)* elephant.
-My sister poured honey on *the (a, an)* fruits.`,
+My sister poured honey on *the (a, an)* fruits.
+I saw *a (an, the)* snake in my garden.
+My uncle is *a (the, an)* policeman.
+Are you going to *the (a, an)* park this evening?
+There is *a (the, an)* fountain at the entrance of the temple.
+My cousins visited *the (a, an)* Tajmahal last year.`,
 
 `I am reading *a (an, the)* novel.
 It is *a (the, an)* sweet memory.
 I want *a (the, an)* burger.
 She wants to buy *an (the, a)* umbrella. 
-We can see *the (a, an)* stars at night.`,
+We can see *the (a, an)* stars at night.
+*The (A, An)* elephants are very big animals.
+That is *an (a, the)* interesting book.
+My brother has *a (an, the)* headache.
+I have *a (an, the)* test today.
+She is eating *a (an, the)* chocolate pastry.`,
         ]
       },
       {
@@ -118,7 +134,26 @@ We can see *the (a, an)* stars at night.`,
 
 *The (a, an)* crow thought hard for a while. Then, looking around it, he saw some pebbles. He suddenly had *a (an, the)* good idea. 
 He started picking up *the (a, an)* pebbles one by one, dropping each into the jug. As more and more pebbles filled *the (a, an)* jug, the water level kept rising. Soon it was high enough for *the (a, an)* crow to drink. His plan had worked!`,
+     
+`Once upon a time there was *an (a, the)* old farmer who had a horse and a donkey. 
+He was fond of both of them but he took better care of *the (a, an)* horse.
+*The (A, An)* donkey always carried heavy load to the market. 
+One day, the donkey moaned and said: I am so weak! Couldn't you take some of my load.
+*The (A, An)* horse said no, I won't carry your load. So, the poor donkey carried on. 
+But soon he had to stop again and said: please help me or I will never reach *the (a, an)* market alive.
+But *the (a, an)* horse replied: Rubbish! Come on, you will manage this time too. 
+After *a (the, an)* few steps the donkey dropped dead on the ground. 
+*The (a, an)* master saw donkey dead and felt vey sad and later transferred all *the (a, an)* load to the horse.`,       
+ 
+ `One night Manoj and his friend Suresh were travelling by train. 
+They spoke for sometime and after *a (the, an)* while they switched off *the (a, an)* light and fell asleep. 
+Soon, *a (an, the)* thief entered the compartment. 
+He saw Manoj's mobile lying beside him. 
+*The (A, An)* thief carefully took it away without disturbing him. *The (A, An)* next morning Suresh wanted to use Manoj's mobile.
+He asked, "Can I use your mobile, Manoj?". Sure, replied Suresh. 
+When he searched, he could not find his mobile anywhere. He said, "I think someone stole it". 
+Oh! I am so sorry, said Suresh. But Manoj smiled and said it is ok, as *the (a, an)* thief will not be able to use it as I have switched it off.`          
         ]
-      },
+     }
     ]
 };
