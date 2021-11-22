@@ -4,11 +4,11 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Pronoun',
+      label: 'Interrogative Pronoun',
       type: 'passage',
       id: 'pronoun-reading',
       data: {
-        title: 'Pronoun',
+        title: 'Interrogative Pronoun',
         text: `We know that pronouns are the words used to replace one or more nouns. Apart from Personal, Possessive, Demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
 These are used to ask questions. The sentences with interrogative pronouns always end up with question marks. 
 
