@@ -145,7 +145,7 @@ Girls *may* form a separate team.`,
         `*Shall* we go to the party?
 We *should* obey our parents.
 I *will* sleep in the evening.
-You *must* improve your spellings.`
+You *must* improve your spellings.`,
       ]
     },
     {
