@@ -157,19 +157,34 @@ Wild, dog`,
 She loves to eat *fresh (slim)* apples.
 Rahul has *curly (deep)* hair.
 A ball is *round (curly)* in shape.
-Birds have *beautiful (high)* feathers.`,
+Birds have *beautiful (high)* feathers.
+The blanket is *soft (round)*.
+There was very *little (huge)* water in the bottle.
+I wore a *red (short)* saree for my friend's wedding.
+Ravi is an *obedient (white)* student.
+My dad is wearing a *black (square)* coat.`,
 
 `Harish saw a *funny (clumsy)* clown.
 Jasmines have *white (black)* petals.
 The Earth is *round (oval)*.
 Grandma gave me a *sweet (sour)* chocolate.
-The book is very *colorful (ill)*.`,
+The book is very *colorful (ill)*.
+Priya loves to eat *sweet (grey)* mangoes.
+Dog is an *honest (sour)* animal.
+Neeta is a *clever (much)* girl.
+Paddy fields are very *green (blue)*.
+The *black (blue)* soil is rich in nutrients.`,
 
 `A car has *four (three)* wheels.
 Coffee is hot but ice is *cold ( black)*.
 I like to sleep on a *soft (hard)* bed.
 The Indian team was *happy (sad)* when they won the match.
-I saw some *black (green)* clouds.`
+I saw some *black (green)* clouds.
+An *angry (black)* tiger jumped out of the cage.
+My mom cooks *tasty (beautiful)* payasam.
+A squirrel is a *small (huge)* animal.
+The earth is *round(sqaure)* in shape.
+My cousin's house is very *big (fat)*.`
     ]
   },
   {
@@ -203,21 +218,26 @@ I saw some *black (green)* clouds.`
     ]
   },
   {
-    label: 'Identify-1',
+    label: 'Identify-Adjective of Quantity',
     type: 'selectWord',
     id: 'select-word-1',
     data: {
       title: `Select the adjective of quantity in the sentence.`,
-      text: `There are *five* pencils in my box.
+      text: `Chandan gave *all* his pens to Manish.
       I drank *some* milk.
       He ate only *half* of his breakfast.
       Do you have *any* money?
-      I read the *whole* book.`
+      I read the *whole* book.
+      *Many* students were present for the seminar today.
+I took *some* notebooks from the school library.
+I have finished *most* of my homework.
+Mannu has *little* interest in singing.
+My sister ate the *whole* banana.`
     }
   },
   {
     type: 'selectWord',
-    label: 'Identify-2',
+    label: 'Identify-Adjective',
     id: 'select-word-2',
     commonData: {
       title: 'Select the adjective in the sentence.'
@@ -227,13 +247,23 @@ I saw some *black (green)* clouds.`
       This is a *beautiful* garden.
       Siri is a *noisy* girl.
       Rohan lives in a *big* city.
-      These are the *fresh* fruits.`,
+      These are the *fresh* fruits.
+      Hyderabad is a *beautiful* city.
+Charminar is an *old* monument located in Hyderabad.
+Reshma has a *pink* dress.
+My mom has a *grey* handbag.
+I saw a *white* pigeon in my blacony.`,
 
       `Neeta has *long* hair.
       This is a *funny* movie.
       This is a *huge* snake.
       I have a pair of *yellow* shoes.
-      We live in a *small* village.`
+      We live in a *small* village.
+      My father is a *tall* man.
+My village has *narrow* roads.
+These bananas are very *raw*.
+My Grandfather sat on a *broken* chair.
+I lost my *gold* bracelet.`
     ]
   }
  ]
