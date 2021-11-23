@@ -70,7 +70,7 @@ garlic| लहसुन`,
 pumpkin| कद्दू  
 almond|  बादाम
 beans| फलियां
-bitter-gourd`,
+bitter-gourd| करेला`,
 
 `brinjal| बैंगन 
 capsicum| शिमला मिर्च
@@ -78,7 +78,7 @@ cashewnut| काजू
 chilli| मिर्च
 coconut| नारियल`,
 
-`corianderleaf|धनिएके पत्ते
+`corianderleaf|धनिया पत्ते
 curryleaf| करी पत्ता
 drumstick| सहजन		
 greenpeas| मटर 
