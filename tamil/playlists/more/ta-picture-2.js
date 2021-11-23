@@ -361,7 +361,7 @@ tooth, பல்`
         `mongoose| கீரிப்பிள்ளை
   mosquito| கொசு 
   wolf| ஓநாய்
-  cockroach| கரப்பான் பூச்சி| | க____ ___
+  cockroach| கரப்பான் பூச்சி|  க____ ___
   garden-lizard| ஓணான்
   lizard| பல்லி
   rabbit| முயல்`
