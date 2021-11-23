@@ -220,7 +220,7 @@ export default {
       {
     id: 'match-vowels',
     type: 'match',
-    label: 'चित्र से मिलाओ - स्वर,
+    label: 'चित्र से मिलाओ - स्वर',
     commonData: {
       title: 'नीचे दिए गए चित्रों को उनके  सही स्वर  से मिलाये',
       rightImgType: 'custom',
@@ -231,10 +231,10 @@ export default {
       आ, mango
       इ, tamarind
       ई, sugarcane
-      उ, owl`,
+      उ, owl
+      ऊ, yarn-ball`,
 
-      `ऊ, yarn-ball
-      ऋ, rishi
+      `ऋ, rishi
       ऐ, glasses
       ओ, water-drop
       औ, woman
@@ -244,7 +244,7 @@ export default {
 {
     id: 'match-consonents',
     type: 'match',
-    label: 'चित्र से मिलाओ - व्यंजन ,
+    label: 'चित्र से मिलाओ - व्यंजन',
     commonData: {
       title: 'चित्र पहचान  कर व्यंजन से मिलाये',
       rightImgType: 'custom',
