@@ -217,8 +217,79 @@ export default {
        twig| टहनी| _हनी| ट, ह, न, त`
         ]
       },
-  
-  
+      {
+    id: 'match-vowels',
+    type: 'match',
+    label: 'चित्र से मिलाओ - स्वर,
+    commonData: {
+      title: 'नीचे दिए गए चित्रों को उनके  सही स्वर  से मिलाये',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+      `अ, pomegranate 
+      आ, mango
+      इ, tamarind
+      ई, sugarcane
+      उ, owl`,
+
+      `ऊ, yarn-ball
+      ऋ, rishi
+      ऐ, glasses
+      ओ, water-drop
+      औ, woman
+      अं, grapes`
+    ]
+},
+{
+    id: 'match-consonents',
+    type: 'match',
+    label: 'चित्र से मिलाओ - व्यंजन ,
+    commonData: {
+      title: 'चित्र पहचान  कर व्यंजन से मिलाये',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+      `क, lotus
+      ख, rabbit
+      ग, flower-pot
+      घ, watch`,
+     
+     `च, jasmine 
+      छ, umbrella
+      ज, ship
+      झ, waterfall `,
+      
+      `ट, tomato
+      ठ, trolley 
+      ड, damaru, 
+      ढ, lid `,
+
+      `त, watermelon
+      थ, pouch
+      द, door
+      ध, bow
+      न, tap`,
+
+      `प, wheel 
+      फ, fruits
+      ब, goat 
+      भ, bear
+      म, crocodile`,
+
+      `य, yagna 
+      र, chariot
+      ल, top
+      श, turnip`,
+
+      `ष, hexagon
+      स, vegetables
+      ह, plough
+      त्र, trident`
+    
+    ]
+  },
       {
         id: 'match-fruits',
         type: 'match',
