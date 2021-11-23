@@ -50,23 +50,38 @@ We finished the game - Independent clause (IC) After we finished the game- depen
         title: 'Select the clause in the below sentence.'
       },
       data: [
-        `*He is standing* on the roof.
-*The cat is sleeping* under the table.
-*She is drawing a map* on the wall.
-*He is waiting* at the door.
-*He is dancing* on the floor.`,
+        `*He is standing* on the bench.
+*The dog is sleeping* under the table.
+*She is drawing* on the wall.
+*He is standing* at the door.
+*He is dancing* on the floor.
+*The tiger is an animal* of great strength.
+*Do not play* with older children.
+*Hyderabad is a city* of pearls.
+*She listened to me* with great curiosity.
+*She is eating* in a plate.`,
 
         `*She arrived to work on time* in spite of leaving home so late.
-*I was standing* near a wall.
-*She made tea* for the guests.
-*He bought a book* for a friend.
-*She was dancing* in the rain.`,
+*I was standing* near the gate.
+*She made coffee* for the guests.
+*He bought a scarf* for a friend.
+*She was dancing* in the rain.
+*Calcutta is a city* of thick population.
+*Meera is singing* on the stage.
+*Mahesh waited for Ram* at the bus stop.
+*I am sleeping* on the mat.
+*The dog barked* when I opened the gate.`,
 
         `*The people are dancing* at the party.
 *He reached school* in time.
 *I will meet him* in my office.
 *She wrote a poem* on a piece of paper.
-*Kiran poured the mango juice* in the bottle.`
+*Kiran poured the mango juice* in the bottle.
+*She sings* like a nightingale.
+*They are dancing* to the disco song.
+*She is cooking* in the kitchen.
+*I saw a snake* in the street.
+*He threw* a piece of paper in the class.`
       ]
     },
     {
