@@ -304,13 +304,12 @@ A blacksmith is a person who makes different things out of scrap metals like iro
           Goldsmith, Gold
           Barber, Haircut
           Tailor, Clothes`,
-        
+
         `Engineer, Software
           Mechanic, Machines
           Photographer, Camera
           Shephard, Sheep
           Fisherman, Sea shore`,
-
 
         `Weaver, Weaving
           Gardner, Lawns
@@ -405,49 +404,49 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       ]
     },
     {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-and-drop',
-        commonData: {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-and-drop',
+      commonData: {
         isPractice: false,
         title: 'Drag the correct option in each blank to form an alliteration.',
         styles: {
-        fontSize: '1rem',
-        dashWidth: 80
-          }
-        },
-         data: [
-          `A *teacher* works in schools.
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `A *teacher* works in schools.
            A *singer* has a melodious voice.
            A *writer* is very creative.
            A *barber* styles our hair.
            A *salesman* sells products and services.`,
 
-`An *electrician* is an expert of electricity.
+        `An *electrician* is an expert of electricity.
 A *nurse* takes care of the patients.
 A *doctor* takes care of our health.
 A *policeman* punishes the culprit.
 A *dancer* is an entertainer.`,
 
-`A *blacksmith* works with the metals.
+        `A *blacksmith* works with the metals.
 A *farmer* works in agriculture.
 An *actor* works in Tv shows and movies.
 A *cobbler* repairs shoes.
 A *baker* makes cakes and pastries.`,
-           
-`A *weaver* works in clothing industries.
+
+        `A *weaver* works in clothing industries.
 A *potter* makes things of clay.
 A *photographer* can work in many areas, including wildlife.
 A *fisherman* catches fish and collects shells.
 A *tailor* sews clothes.`,
-           
-`A *shephard* has a lot of sheep.
+
+        `A *shephard* has a lot of sheep.
 A *plumber* can fix running and leaking taps.
 A *driver* drives vehicles.
 A *carpenter* makes furniture.
 A *shopkeeper* has a shop.`
-        ]
-      },
+      ]
+    },
     {
       id: 'fillup',
       label: 'Fill up with options',
@@ -466,41 +465,40 @@ A *shopkeeper* has a shop.`
       label: 'Correct Spelling',
       id: 'correct-spelling',
       commonData: {
-        title: 'Identify the correct spelling.',
-      }
-      data : [
-      
+        title: 'Identify the correct spelling.'
+      },
+      data: [
         `Police, Poliece
           Dancer, Danser
           Barber, Barbar
           Writer, Riter
           Cobbler, Cobblar`,
-      
+
         `Electrician, Electricean
           Salesman, Saleman
           Blacksmith, Blacksmit
           Singer, Singur
           Dancer, Dancur`,
-      
+
         `Doctor, Docter
           Shopkeeper, Shopkeper
           Fisherman, Fishman
           Driver, Driiver
           Teacher, Teecher`,
-      
+
         `Baker, Bakeir
           Carpenter, Carpent
           Shepherd, Shefard
           Plumber, Pumber
-          Nurse, Nusze`
-      
+          Nurse, Nusze`,
+
         `Goldsmith, Goldsmit
           Tailor, Taylor
           Weaver, Weavar
           Gardner, Gardnar
           Potter, Pottar`
-        ]  
-      },
+      ]
+    },
     {
       id: '1635960563407',
       editable: true,

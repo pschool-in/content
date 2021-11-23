@@ -102,6 +102,7 @@ const allImages = {
     'vulture',
     'woodpecker',
     'hornbill',
+    'koel',
     'cuckoo',
     'pheasant',
     'falcon',
@@ -192,8 +193,23 @@ const allImages = {
     'fenugreek',
     'tamarind',
     'elephant-yam',
+    'ashgourd',
+    'broad-beans',
+    'snake-gourd',
+    'banana-flower',
+    'cluster-beans',
+    'kohlrabi',
+    'spring-onion',
+    'banana-stem',
+    'drumstick-leaves',
+    'raw-banana',
+    'tulsi',
+    'bottlegourd',
+    'ivygourd',
+    'ridgegourd',
     'vegetables'
   ],
+
   flowers: [
     'rose',
     'lotus',
@@ -210,7 +226,7 @@ const allImages = {
     'poppy',
     'daisy',
     'jasmine',
-    'mangolia',
+    'magnolia',
     'periwinkle',
     'water-lily'
   ],
@@ -372,8 +388,6 @@ const allImages = {
     'scalpel',
     'screw',
     'screwdriver',
-    'barber',
-    'washerman',
     'flute',
     'piano',
     'tabla',
@@ -401,7 +415,9 @@ const allImages = {
     'chef',
     'doctor',
     'police',
-    'soldier'
+    'soldier',
+    'barber',
+    'washerman'
   ],
   nature: [
     'sun',

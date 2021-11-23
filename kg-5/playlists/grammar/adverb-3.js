@@ -26,87 +26,78 @@ Some more examples of adverb of manners are:
 1. Richa completed her homework independently.
 2. The old lady feeds kindly to the street animals.
 3. The teacher clearly explained the topic.`
-}
+      }
     },
     {
-    type: 'group',
-    label: 'Drag and Drop',
-    id: 'drag-and-drop',
-    commonData: {
-      title: 'Identify which are adverbs of manner and which are adjectives.',
-      types: ['Adjective', 'Adverb']
+      type: 'group',
+      label: 'Drag and Drop',
+      id: 'drag-and-drop',
+      commonData: {
+        title: 'Identify which are adverbs of manner and which are adjectives.',
+        types: ['Adjective', 'Adverb']
+      },
+      data: [
+        [`Quick, Polite, Careful, Hard`, `Loudly, Rudely, Softly, Quietly`],
+        [`Noisy, Sudden, Good, Fast`, `Happily, Slowly, Badly, Nicely`],
+        [`Smart, Loud, Big, Huge`, `Really, Suddenly, Tightly, Tearfully`],
+        [
+          `Red, Brown, Green, Yellow`,
+          `Heavily, Tightly, Attentively, Hurriedly`
+        ],
+        [
+          `Soft, Beautiful, Normal, Personal`,
+          `Softly, Beautifully, Normally, Personally`
+        ]
+      ]
     },
-    data: [
-      [
-        `Quick, Polite, Careful, Hard`,
-        `Loudly, Rudely, Softly, Quietly`
-      ],
-      [
-        `Noisy, Sudden, Good, Fast`,
-        `Happily, Slowly, Badly, Nicely`
-      ],
-      [
-        `Smart, Loud, Big, Huge`,
-        `Really, Suddenly, Tightly, Tearfully`
-      ],
-      [
-        `Red, Brown, Green, Yellow`,
-        `Heavily, Tightly, Attentively, Hurriedly`
-      ],
-      [
-        `Soft, Beautiful, Normal, Personal`,
-        `Softly, Beautifully, Normally, Personally`
-      ],
-    ]
-  },
-  {
-    type: 'match',
-    label: 'Match the following',
-    id: 'match',
-    commonData: {
-      title: 'Match the adjectives and their adverbs.'
-    },
-    data: [
-`Bad, Badly
+    {
+      type: 'match',
+      label: 'Match the following',
+      id: 'match',
+      commonData: {
+        title: 'Match the adjectives and their adverbs.'
+      },
+      data: [
+        `Bad, Badly
 Noisy, Noisily
 Beautiful, Beautifully
 Easy, Easily
 Careful, Carefully`,
 
-`Quick, Quickly
+        `Quick, Quickly
 Tight, Tightly
 Quiet, Quietly
 Near, Nearly
 Good, Well`,
 
-`Greedy, Greedily
+        `Greedy, Greedily
 Gentle, Gently
 Fluent, Fluently
 Hard, Hardly
 Fast, Fast`,
 
-`Rapid, Rapidly
+        `Rapid, Rapidly
 Brief, Briefly
 Careless, Carelessly
 Loud, Loudly
 Most, Mostly`,
 
-`Eager, Eagerly
+        `Eager, Eagerly
 Awkward, Awkwardly
 Bright, Brightly
 Busy, Busily
 Clear, Clearly`
-     ]
-  },
-  {
-    id: 'fill-up',
-    label: 'Fill up with options',
-    type: 'fillup',
-    commonData: {
-      title: `Fill in the blank with the correct option.`
+      ]
     },
-    data: [
-`They dance *beautifully (beautiful, beautifuly)*.
+    {
+      id: 'fill-up',
+      label: 'Fill up with options',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blank with the correct option.`
+      },
+      data: [
+        `They dance *beautifully (beautiful, beautifuly)*.
 Richa doesn't work *hard (hardly, hardily)*.
 She knows the road *well (good, goodly)*.
 We have to get up *early (earlily, soon)*.
@@ -117,7 +108,7 @@ They missed the bus, *unfortunately (unfortunate, fortunately)*.
 They waited *patiently (patient, patience)* until 1 pm.
 She tried on her new dress *happily (happyly, happy)*.`,
 
-`He drives too *fast (well, fastly)*.
+        `He drives too *fast (well, fastly)*.
 She speaks very *quietly (quiet, quitely)*.
 He plays the guitar *terribly (terrible, terribily)*.
 She walked *happily (happy, happly)* to the school.
@@ -127,18 +118,18 @@ James shouted *loudly (loud, louds)* to call her.
 He swims *well (good, medium)*.
 She *angrily (angryly, angry)* shut the door.
 She is very *greedy (greedily, greed)*.`
-    ]
-  },
-  {
-    type: 'rightOne',
-    label: 'Correct Spelling',
-    id: 'spelling',
-    commonData: {
-      title: 'Identify the correct spelling for these adverb of manners.',
-      noCaps: true
+      ]
     },
-    data: [
-`Safely, Safily
+    {
+      type: 'rightOne',
+      label: 'Correct Spelling',
+      id: 'spelling',
+      commonData: {
+        title: 'Identify the correct spelling for these adverb of manners.',
+        noCaps: true
+      },
+      data: [
+        `Safely, Safily
 Noisily, Noisly
 Godly, Godily
 Angrily, Angrys
@@ -149,7 +140,7 @@ Possibly, Possibley
 Cruelly, Cruely
 Doubtfully, Doubtfuly`,
 
-`Eagerly, Eagers
+        `Eagerly, Eagers
 Easily, Easyly
 Equally, Equaly
 Exactly, Exactily
@@ -159,19 +150,20 @@ Gladly, Gladily
 Honestly, Honestty
 Innocently, Inocently
 Joyously, Joyosly`
-    ]
-  },
- {
-    label: 'Right match',
-    id: 'complete',
-    type: 'completePuzzle',
-    commonData: {
-      type: 'rightOpen',
-      title: 'Identify the correct adverb of manner for these adjectives.',
-      printTitle: 'Fill up with the right option.'
+      ]
     },
-    data: [
-  `Smart, Smartly, Smartily
+    {
+      label: 'Right match',
+      id: 'complete',
+      type: 'completePuzzle',
+      commonData: {
+        type: 'rightOpen',
+        title: 'Identify the correct adverb of manner for these adjectives.',
+        printTitle: 'Fill up with the right option.',
+        fontSize: '1.5rem'
+      },
+      data: [
+        `Smart, Smartly, Smartily
   Possible, Possibly, Possibley
   Pleasant, Pleasantly, Pleasantary
   Happy, Happily, Happilie
@@ -182,7 +174,7 @@ Joyously, Joyosly`
   Gentle, Gently, Gentley
   Correct, Correctly, Corrects`,
 
-  `Kind, Kindly, Kindily
+        `Kind, Kindly, Kindily
   Lazy, Lazily, Lazyly
   Neat, Neatly, Neatily
   Nervous, Nervously, Nervosly
@@ -192,7 +184,7 @@ Joyously, Joyosly`
   Powerful, Powerfully, Powerfuly
   Rapid, Rapidly, Rapidlly
   Rare, Rarely, Rarelly`
-          ]
-        }
       ]
-    };
+    }
+  ]
+};

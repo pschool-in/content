@@ -1137,6 +1137,26 @@ const social = [
     label: 'Social Living - 3',
     id: 'social-living-5',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Disaster Management',
+    id: 'disaster-management-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Government',
+    id: 'government-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'India - 5',
+    id: 'india-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'First Aid',
+    id: 'first-aid-4',
+    grade: 'g3, g4, g5'
   }
 ];
 
