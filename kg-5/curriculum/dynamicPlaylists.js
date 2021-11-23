@@ -263,6 +263,21 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Connecting Word',
+    id: 'conjunction-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Conjunction-Introduction',
+    id: 'conjunction-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Conjunction',
+    id: 'conjunction-4',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Right Word',
     id: 'right-word',
     grade: 'g3, g4, g5'
