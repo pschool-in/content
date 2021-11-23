@@ -15,7 +15,7 @@ export default {
 2. I don't like spinach and guava.
 3. I will dance and sing in the competition.
 'But' is used to say something opposite. For example,
-1. I want to play but I haven't done my HW.
+1. I want to play but I haven't done my homework.
 2. I want to go to the party but I'm tired.
 3. I like Ravi but I hate his brother.`
 }
@@ -25,7 +25,7 @@ export default {
     label: 'Fill in the blanks',
     type: 'fillup',
     commonData: {
-      title: `Choose the correct joining word. Tap on blanks for options.`
+      title: `Choose the correct joining word. Tap on each blank for options.`
     },
     data: [
 `I want to go, *but (and)* it is too far.
@@ -41,7 +41,7 @@ My dad is working, *but (and)* he doesn't want to.`,
 `This is good, *but (and)* it could be better.
 My sister is yawning, *but (and)* not sleeping.
 Rohan likes flowers *and (but)* green plants.
-I baked the cookies, *but (and)* they were rotten.`,
+I baked the cookies, *but (and)* they taste very bad.`,
 
 `He is coming to the party *and (but)* he's bringing gifts.
 The bus arrived *but (and)* it was late.
@@ -49,9 +49,9 @@ I put on my sweater *and (but)* muffler.
 Maahi goes to the shop everyday *and (but)* buys candies.`,
 
 `My mom gave me a watch *but (and)* I wanted a video game.
-The teacher gives HW *but (and)* most students don't do it.
+The teacher gives homework *but (and)* most students don't do it.
 Priya lives in the city *and (but)* visits her grandma every Sunday.
-She plays *and (but)* studies in the park.`
+She play *and (but)* walk in the park.`
     ]
   },
   {
@@ -132,7 +132,7 @@ I have a chair *but* I need one more.
 Sheep gives us wool *and* it is used in winters.
 I throw the stick *but* my dog never runs to get it.`,
 
-`Neha is friends with all boys *and* girls in the class.
+`Neha is friends with all the boys *and* girls in the class.
 We burn crackers *and* eat sweets on Diwali.
 We have a dog *but* I also want a cat.
 Mohan is a smart boy *but* he is not good at sports.
@@ -150,7 +150,7 @@ I like reading books *and* eating vegetables.`
     },
     data: [
       `I like apples, and bananas, but bananas
-      Raj is running, but I'm walking, and I'm walking
+      Raj is running, but I like to walk, and I like to walk
       Bees can fly, and sting, but sting
       He bought grapes, but did not eat them, and did not eat them`,
 
@@ -170,7 +170,7 @@ I like reading books *and* eating vegetables.`
       Mom washed my clothes, but they're still dirty, and they're still dirty`,
 
       `Eggs boil, and float, but float
-      I have videogames, but my friends play outside, and my friends play outside
+      I have a videogames, but my friends like to play outside, and my friends like to play outside
       I am sick, and not going to school, but not going to school
       He practiced a lot, but did not win, and did not win`
           ]
