@@ -866,7 +866,7 @@ export default {
           },
           {
             name: 'Noun',
-            text: `You will never have my *like* again.`
+            text: `You will never have my *like* for this photo.`
           },
           {
             name: 'Verb',
