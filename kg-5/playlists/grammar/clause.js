@@ -94,11 +94,11 @@ We finished the game - Independent clause (IC) After we finished the game- depen
       data: [
         `*I am saving my money* because I wanted to buy a new mobile. 
 When I arrived, *Meera was surprised to see me*.
-Because I don't know how to do my homework, * I need to call Kiran for help*. 
+Because I don't know how to do my homework, *I need to call Kiran for help*. 
 *Priya loves to read*.
-Although we were late, *we decided to watch the movie anyway*.`,
+Although we were late, *we decided to watch the match anyway*.`,
 
-        `*I forgot most of the groceries I needed* because I forgot my list. 
+        `*I forgot most of the items I needed* because I forgot my list. 
 *Tomorrow is going to be an exciting day* because I am going to a movie. 
 If you want to ride with Meena and Ravi, *you need to let them know*. 
 *Nobody knows the answer to that question*. 
