@@ -93,7 +93,7 @@ We finished the game - Independent clause (IC) After we finished the game- depen
       },
       data: [
         `*I am saving my money* because I wanted to buy a new mobile. 
-When I arrived, *Jimmy was surprised to see me*.
+When I arrived, *Meera was surprised to see me*.
 Because I don't know how to do my homework, * I need to call Kiran for help*. 
 *Priya loves to read*.
 Although we were late, *we decided to watch the movie anyway*.`,
