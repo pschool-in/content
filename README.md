@@ -5,24 +5,28 @@ For every app we have 'live' and 'test' server. Whenever we add new content, it 
 Find below the urls of 'live' and 'test' servers.
 
 pschool (kg-5th)
+
 ```
 live: www.pschool.in
 test: pschpsch.netlify.app
 ```
 
 hindi
+
 ```
 live: hi.pschool.in
 test: phindi.netlify.app
 ```
 
 tamil
+
 ```
 live: www.palagutamil.in
 test: tamil2.netlify.app
 ```
 
 bengali
+
 ```
 live: bn.pschool.in
 test: bengali.netlify.app
@@ -38,5 +42,6 @@ Our app is Progressive Web App (PWA). For fast loading of the app, the files wil
 
 To get the lastest version, first open the url and check the version. If the version is 'old', then please wait for 1 min. In this time the new version will be downloaded in the background. Then close all browser windows. Now open the app in the new url and check the version. You will get the latest content.
 
+# templates
 
-
+- [Passage](config/templates/passages.md)
