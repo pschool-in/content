@@ -92,10 +92,10 @@ We finished the game - Independent clause (IC) After we finished the game- depen
         title: 'Select the independent clause (IC) from each sentence'
       },
       data: [
-        `*I am saving my money* because I wanted to buy a new Ipad. 
+        `*I am saving my money* because I wanted to buy a new mobile. 
 When I arrived, *Jimmy was surprised to see me*.
 Because I don't know how to do my homework, * I need to call Kiran for help*. 
-*Cindy loves to read*.
+*Priya loves to read*.
 Although we were late, *we decided to watch the movie anyway*.`,
 
         `*I forgot most of the groceries I needed* because I forgot my list. 
