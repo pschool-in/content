@@ -98,7 +98,7 @@ waterbottle| WATER BOTTLE | _ATER BOTTLE
 color-pencils| COLOR PENCILS | _OLOR PENCILS
 crayons | CRAYONS | _RAYONS`
       ]
-    }
+    },
     {
       type: 'completeWord',
       id: 'kitchen',
@@ -141,8 +141,6 @@ lentils | LENTILS | _ENTILS
 rice | RICE | _ICE
 soup | SOUP | _OUP`
       ]
-    },
-
-    
+    }
   ]
 };

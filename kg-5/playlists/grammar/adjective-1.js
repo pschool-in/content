@@ -1,5 +1,5 @@
 export default {
-  id: 'adjectives-1',
+  id: 'adjective-1',
   label: 'Adjectives-1.',
   pdf: '',
   list: [

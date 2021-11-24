@@ -1,5 +1,5 @@
 export default {
-  label: 'Picture Words 3',
+  label: 'More Fruits and Vegetables',
   id: 'picture-6',
   lockAfter: 4,
   list: [
