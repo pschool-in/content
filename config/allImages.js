@@ -120,7 +120,8 @@ const allImages = {
     'turkey',
     'hawk',
     'cardinal',
-    'parakeet'
+    'parakeet',
+    'macow'
   ],
   fruits: [
     'apple',
@@ -253,20 +254,19 @@ const allImages = {
     'submarine'
   ],
   house: [
+    'man',
+    'woman',
+    'boy',
+    'girl',
     'house',
+    'grandfather',
     'table',
     'bed',
     'candle',
     'chair',
     'shelf',
     'baby',
-    'boy',
-    'girl',
-    'man',
-    'woman',
-    'grandfather',
     'ball',
-    'coat',
     'glasses',
     'clock',
     'watch',
@@ -283,23 +283,26 @@ const allImages = {
     'washing-machine',
     'backpack',
     'pillow',
+    'basket',
+    'dustbin',
+    'bed-lamp',
+    'handbag'
+  ],
+  dress: [
+    'dress',
+    'coat',
     'shoe',
     'sock',
     'boots',
-    'basket',
-    'dustbin',
     'pyjama',
-    'bed-lamp',
     'gloves',
     'scarf',
     'sweater',
     'bib',
-    'handbag',
     'shirt',
     'jacket',
     'hat',
-    'trousers',
-    'dress'
+    'trousers'
   ],
 
   school: [
@@ -425,6 +428,7 @@ const allImages = {
     'rain',
     'star',
     'milk',
+    'bird',
     'fruits',
     'leaf',
     'world',
@@ -439,7 +443,6 @@ const allImages = {
     'bone',
     'auvai',
     'bell',
-    'bird',
     'conch',
     'drums',
     'five',
@@ -476,7 +479,6 @@ const allImages = {
     'dhol',
     'palanquin',
     'medicine',
-
     'balloon',
     'radio',
     'toothbrush',

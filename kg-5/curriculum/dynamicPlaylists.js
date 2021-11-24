@@ -10,21 +10,6 @@ const vocabulary = [
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Missing Letter',
-    id: 'picture',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
-    label: 'Missing Letter - 2',
-    id: 'picture-2',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
-    label: 'Shapes and Symbols',
-    id: 'picture-3',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
     label: 'Word from Picture',
     id: 'word-from-picture',
     grade: 'g3, g4, g5'
@@ -524,6 +509,11 @@ const math = [
   {
     label: 'KG Math',
     id: 'kg-math',
+    grade: 'kg'
+  },
+  {
+    label: 'Math - Shapes',
+    id: 'kg-math-2',
     grade: 'kg'
   },
   {
@@ -1248,6 +1238,46 @@ const english = [
     label: 'Word Search',
     id: 'wordsearch-1',
     grade: ' 1, 2,3'
+  },
+  {
+    label: 'Animals and Birds',
+    id: 'picture',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Fruits and Vegetables',
+    id: 'picture-2',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Nature and Other',
+    id: 'picture-3',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'House and Other',
+    id: 'picture-4',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Animals and Birds',
+    id: 'picture-5',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Fruits and Vegetables',
+    id: 'picture-6',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Vehicles and Jobs',
+    id: 'picture-7',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Images',
+    id: 'picture-8',
+    grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Picture Match',
