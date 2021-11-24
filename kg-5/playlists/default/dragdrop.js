@@ -625,6 +625,29 @@ const dragdrop = {
           }
         ]
       }
+    },
+    {
+      label: 'Adjectives-1',
+      type: 'passage',
+      id: 'adjectives-1-reading',
+      data: {
+        title: 'Describing Words',
+        text: [
+          `Describing words tell us about the noun. It describes the quality of the naming words.
+eg: `,
+          {
+            type: 'html',
+            text: `<b>smart</b> teacher <br>
+<b>big</b> house <br>
+<b>green</b> parrot <br>
+<b>pretty</b> girl <br>
+<b>two</b> boys <br>
+<b>thundering</b> clouds <br>
+<b>soft</b> toy <br>
+<b>loving</b> parents`
+          }
+        ]
+      }
     }
   ]
 };
