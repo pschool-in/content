@@ -93,7 +93,9 @@ list: [
     `mintleaf, पुदीना 
     peanut, मूंगफली
     raddish, मूली
-    spinach, पालक`,
+    spinach, पालक
+    tulsi,तुलसी
+    bottlegourd,लौकी`,
     
     `turnip, शलगम
     chickpea, चना
@@ -210,9 +212,18 @@ list: [
     jackal, सियार
     polarbear, ध्रुवीय भालू`,
     
-    `pocupine, साही
+    `porcupine, साही
     prawn, झींगे
-    python, अजगर`
+    python, अजगर
+    porcupine, साही
+    bee, मधुमक्खी
+    goldfish, सुनहरी मछली`,
+
+    `seahorse, समुद्री घोड़े
+    mole, छछूँदर
+    spider, मकड़ी
+    caterpillar|इल्ली
+    earthworm|केंचुआ`
         ]
     },
     {
@@ -250,7 +261,12 @@ list: [
     cuckoo, कोयल
     swan, हंस
     pheasant, तीतर
-    falcon, बाज़`
+    falcon, बाज़`,
+
+    `bulbul, बुलबुल
+    spotted-dove, चित्तीदार कबूतर
+    seagull, सामुद्रिक चिड़िया
+    hawk, बाज`
         ]
     }, 
     {
@@ -302,13 +318,20 @@ list: [
     glasses, ऐनक
     clock, घड़ी 
     door, दरवाजा
-    broom, झाड़ू`
+    broom, झाड़ू`,
+
+    `window, खिड़की
+    bucket, बाल्टी
+    soap, साबुन
+    pillow, तकिया
+    basket, टोकरी
+    dustbin, कचरे का डिब्बा`
             ]
     }, 
     {
         type: 'connectLetters',
         label: 'जुडिये-विद्यालय',
-        id: 'connecthouse',
+        id: 'connectschool',
         commonData: {
             title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
             printTitle: 'Form the word using the letters.',
@@ -325,6 +348,59 @@ list: [
     crayons, चित्रांकनी`
                 ]
             }, 
+            {
+                type: 'connectLetters',
+                label: 'जुडिये-पोशाक',
+                id: 'connectdress',
+                commonData: {
+                    title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+                    printTitle: 'Form the word using the letters.',
+                    type: 'image',
+                    lang: 'hi'
+                },
+                data: [
+      `shoe, जूता
+      sock, मौज़ा
+      pyjama, पजामा
+      gloves, दस्ताने`,
+      
+      `scarf, दुपट्टा
+      shirt, कमीज
+      hat, टोपी
+      trousers, पतलून`
+                  ]
+             },
+             {
+              type: 'connectLetters',
+              label: 'जुडिये-नौकरियां',
+              id: 'connectjobs',
+              commonData: {
+                title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+                    printTitle: 'Form the word using the letters.',
+                    type: 'image',
+                    lang: 'hi'
+                },
+              data: [
+      `astronaut, अंतरिक्ष यात्री
+      fisherman, मछुआरा
+      postman, डाकिया
+      teacher, शिक्षक
+      blacksmith, लोहार`,
+      
+      `cobbler, मोची
+      goldsmith, सुनार
+      potter, कुम्हार
+      weaver, जुलाहा
+      carpenter, बढ़ई
+      nurse, दाई`,
+      
+      `chef, बावर्ची
+      doctor, चिकित्सक
+      soldier, सैनिक
+      barber, नाई
+      washerman, धोबी`
+                ]
+           }, 
         {
         type: 'connectLetters',
         label: 'जुडिये-रसोईघ',
@@ -346,7 +422,19 @@ list: [
     butter, मक्खन
     lid, ढक्कन
     tap, नल
-    plate, थाली`
+    plate, थाली`,
+
+    `sugar, चीनी
+    bowl, कटोरा
+    meat, मांस
+    salt, नमक
+    sweets, मिठाइयाँ`,
+
+    `bread, रोटी
+    juice, रस
+    flour, आटा
+    lentils, दाल
+    rice, चावल`
             ]
         },
         {
@@ -364,13 +452,15 @@ list: [
     balance, तराज़ू
     blackboard, श्यामपट
     microscope, सूक्ष्मदर्शी
-    needle, सुई`,
+    needle, सुई
+    flute, बांसुरी`,
     
     `plough, हल
     saw, आरा	
     spade, कुदाली
     telescope, दूरबीन
-    trowel, करनी`,
+    trowel, करनी
+    tabla, तबला`,
     
     `awl, सूआ 
     easel, चित्रफलक 	 
@@ -380,6 +470,34 @@ list: [
     screwdriver, पेंचकस`
             ]
         },
+        {
+            type: 'connectLetters',
+            label: 'जुडिये-प्रकृति',
+            id: 'connectnature',
+            commonData: {
+                title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+                printTitle: 'Form the word using the letters.',
+                type: 'image',
+                lang: 'hi'
+            },
+            data: [
+`sun, सूर्य
+moon, चांद
+rain, बारिश
+star, तारा
+milk, दूध`,
+
+`bird,पक्षी
+fruits, फल
+leaf, पत्ता
+world, दुनिया`,
+
+`nest, घोंसला
+water-drop, ओस
+waterfall, झरना
+rainbow, इंद्रधनुष`
+           ]
+       },
         {
         type: 'connectLetters',
         label: 'जुडिये-चित्र और नाम',
@@ -391,58 +509,51 @@ list: [
             lang: 'hi'
         },
         data: [
-            `sun, सूर्य
-            moon, चांद	
-            rain, बारिश	
-            star, तारा
-            milk, दूध	
-            ring, अंगूठी`,
-        
-                `bone, हड्डी
-            bell, घंटी
-            bird, पक्षी
-            conch, शंख 
-            drums, ढोल`,
-        
-            `five, पांच
-            food, खाना	
-            fruits, फल
-            king,  राजा
-            kite, पतंग`,
-        
-                `ladder, सीढ़ी 
-            leaf, पत्ता 
-            rishi,  ऋषि	
-            wheel, चक्का
-            whistle, सीटी	
-            world, दुनिया`,
-        
-            `bow, धनुष
-            arrow, बाण
-            chariot, रथ 
-            damaru, डमरू
-            flower-pot, गमला
-            hexagon, षटकोण`,
-        
-            `warrior, योद्धा
-            park, बाग
-            garden, उद्यान  
-            pouch, थैली
-            trident, त्रिशूल 
-            umbrella, छतरी`,
-        
-            `vegetables, सब्ज़ियाँ
-            water-drop, ओस
-            waterfall, झरना|
-            yagna, यज्ञ
-            touch-me-not, छुई मुई`,
-        
-            `nest, घोसला
-            stick, डंडा
-            yarn-ball, ऊन
-            trolley, ठेला
-            top, लट्टू
-            twig, टहनी`
+            `ring, अंगूठी
+                bone, हड्डी
+                bell, घंटी
+                conch, शंख 
+                drums, ढोल`,
+           
+                `five, पांच
+                food, खाना	
+                king,  राजा
+                kite, पतंग`,
+           
+                   `ladder, सीढ़ी 
+                leaf, पत्ता 
+                rishi,  ऋषि	
+                wheel, चक्का
+                whistle, सीटी	
+                world, दुनिया`,
+         
+                `bow, धनुष
+                arrow, बाण
+                chariot, रथ 
+                damaru, डमरू
+                hexagon, षटकोण
+                coin, सिक्का`,
+         
+                `warrior, योद्धा
+                park, बाग
+                garden, उद्यान  
+                pouch, थैली
+                trident, त्रिशूल
+                box, डिब्बा `,
+         
+                `vegetables, सब्ज़ियाँ
+                dhol, ढोल
+                palanquin, पालकी
+                medicine, दवा
+                balloon, गुब्बारा
+                yagna, यज्ञ`,
+                
+                `touch-me-not, छुई मुई
+                stick, डंडा
+                yarn-ball, ऊन
+                trolley, ठेला
+                top, लट्टू
+                twig, टहनी`
         ]
     },
     {
@@ -533,7 +644,9 @@ ladies-finger| भिन्डी`,
 `mintleaf| पुदीना 
 peanut| मूंगफली
 raddish| मूली
-spinach| पालक`,
+spinach| पालक
+tulsi|तुलसी
+bottlegourd|लौकी`,
 
 `turnip| शलगम
 chickpea| चना
@@ -650,7 +763,15 @@ polarbear| ध्रुवीय भालू| ध्___ __`,
 
 `pocupine| साही
 prawn| झींगे
-python| अजगर`
+python| अजगर
+bee|मधुमक्खी
+goldfish|सुनहरी मछली| सु___ ___
+seahorse|समुद्री घोड़े| स__ __`,
+
+`mole|छछूँदर
+spider|मकड़ी
+caterpillar|इल्ली
+earthworm|केंचुआ`
         ]
     },
     {
@@ -687,7 +808,12 @@ eagle| चील
 cuckoo| कोयल
 swan| हंस
 pheasant| तीतर
-falcon| बाज़`
+falcon| बाज़`,
+
+`bulbul|बुलबुल
+spotted-dove| चित्तीदार कबूतर| चि____ ____
+seagull|सामुद्रिक चिड़िया| सा____ ___
+hawk|बाज`
         ]
     }, 
     {
@@ -711,6 +837,57 @@ foot| पैर
 hair| बाल`
             ]
         },
+        {
+            type: 'completeWord',
+            label: 'पोशाक',
+            id: 'dress',
+            commonData: {
+                title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+                images: 'custom',
+                lang: 'hi'
+            },
+            data: [
+  `shoe|जूता
+  sock|मौज़ा
+  pyjama|पजामा
+  gloves|दस्ताने`,
+  
+  `scarf|दुपट्टा
+  shirt|कमीज
+  hat|टोपी
+  trousers|पतलून`
+              ]
+         },
+         {
+          type: 'completeWord',
+          label: 'नौकरियां',
+          id: 'jobs',
+          commonData: {
+            title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+            images: 'custom',
+            lang: 'hi'
+        },
+          data: [
+  `astronaut|अंतरिक्ष यात्री| अं___ __
+  fisherman|मछुआरा
+  postman|डाकिया
+  teacher|शिक्षक
+  blacksmith|लोहार`,
+  
+  `cobbler|मोची
+  goldsmith|सुनार
+  potter|कुम्हार
+  weaver|जुलाहा
+  carpenter|बढ़ई
+  nurse|दाई`,
+  
+  `chef|बावर्ची
+  doctor|चिकित्सक
+  soldier|सैनिक
+  barber|नाई
+  washerman|धोबी`
+            ]
+       },
     {
         type: 'completeWord',
         label: 'मकान',
@@ -737,7 +914,14 @@ ball| गेंद
 glasses| ऐनक
 clock| घड़ी 
 door| दरवाजा
-broom| झाड़ू`
+broom| झाड़ू`,
+
+`window|खिड़की
+bucket|बाल्टी
+soap|साबुन
+pillow|तकिया
+basket|टोकरी
+dustbin|कचरे का डिब्बा`
             ]
     }, 
     {
@@ -750,13 +934,16 @@ broom| झाड़ू`
             lang: 'hi'
         },
         data: [
-`eraser| रबड़	
-pen| कलम
-ruler| मापन`,
-
-`scissors| कैंची
-book| किताब 	
-crayons| चित्रांकनी`
+            `eraser| रबड़	
+            pen| कलम
+            ruler| मापन
+            schoolbag| बस्ता
+            calculator| गणना यंत्र| ग__ __`,
+            
+            `scissors| कैंची
+            book| किताब 	
+            crayons| चित्रांकनी
+            ink|स्याही`
                 ]
             }, 
         {
@@ -779,7 +966,19 @@ spoon | चम्मच`,
 butter| मक्खन
 lid| ढक्कन
 tap| नल
-plate| थाली`
+plate| थाली`,
+
+`sugar|चीनी
+bowl|कटोरा
+meat|मांस
+salt|नमक
+sweets|मिठाइयाँ`,
+
+`bread|रोटी
+juice|रस
+flour|आटा
+lentils|दाल
+rice|चावल`
             ]
         },
         {
@@ -796,13 +995,15 @@ plate| थाली`
 balance| तराज़ू
 blackboard| श्यामपट
 microscope| सूक्ष्मदर्शी
-needle| सुई`,
+needle| सुई
+flute|बांसुरी`,
 
 `plough| हल
 saw| आरा	
 spade| कुदाली
 telescope| दूरबीन
-trowel| करनी`,
+trowel| करनी
+tabla|तबला`,
 
 `awl| सूआ 
 easel| चित्रफलक 	 
@@ -813,6 +1014,33 @@ screwdriver| पेंचकस`
             ]
         },
         {
+            type: 'completeWord',
+            label: 'प्रकृति',
+            id: 'nature',
+            commonData: {
+                title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+                images: 'custom',
+                lang: 'hi'
+            },
+            data: [
+`sun| सूर्य
+moon| चांद
+rain| बारिश
+star| तारा
+milk| दूध`,
+
+`bird|पक्षी
+fruits|फल
+leaf|पत्ता
+world|दुनिया`,
+
+`nest|घोंसला
+water-drop|ओस
+waterfall|झरना
+rainbow|इंद्रधनुष`
+           ]
+       },
+        {
         type: 'completeWord',
         label: 'चित्र और नाम',
         id: 'others',
@@ -822,53 +1050,44 @@ screwdriver| पेंचकस`
             lang: 'hi'
         },
         data: [
-            `sun| सूर्य
-            moon| चांद	
-            rain| बारिश	
-            star| तारा
-            milk| दूध	
-            ring| अंगूठी`,
-        
-                `bone| हड्डी
+            `ring| अंगूठी
+            bone| हड्डी
             bell| घंटी
-            bird| पक्षी
             conch| शंख 
             drums| ढोल`,
-        
+           
             `five| पांच
             food| खाना	
-            fruits| फल
             king|  राजा
             kite| पतंग`,
-        
-                `ladder| सीढ़ी 
-            leaf| पत्ता 
+           
+            `ladder| सीढ़ी 
             rishi|  ऋषि	
             wheel| चक्का
-            whistle| सीटी	
-            world| दुनिया`,
-        
+            whistle| सीटी`,
+         
             `bow| धनुष
             arrow| बाण
             chariot| रथ 
             damaru| डमरू
-            flower-pot| गमला
-            hexagon| षटकोण`,
-        
+            hexagon| षटकोण
+            coin|सिक्का`,
+         
             `warrior| योद्धा
             park| बाग
             garden| उद्यान  
             pouch| थैली
-            trident| त्रिशूल 
-            umbrella| छतरी`,
-        
+            trident| त्रिशूल
+            box|डिब्बा `,
+         
             `vegetables| सब्ज़ियाँ
-            water-drop| ओस
-            waterfall| झरना|
-            yagna| यज्ञ
-            touch-me-not| छुई मुई| छु_ __`,
+            dhol|ढोल
+            palanquin|पालकी
+            medicine|दवा
+            balloon|गुब्बारा
+            yagna| यज्ञ`,
         
-            `nest| घोसला
+            `touch-me-not| छुई मुई| छु_ __
             stick| डंडा
             yarn-ball| ऊन
             trolley| ठेला
