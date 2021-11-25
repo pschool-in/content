@@ -16,6 +16,7 @@ export default {
           `apple| सेब | _ब| से, घि, खे, च
           grapes| अंगूर | _,गूर | अं, जा, टा, ढ
           banana| केला |_ला| के, तं, को, डं
+          strawberry| झरबेर| _रबेर| झ, र, जा, च
           guava| अमरूद | _मरूद| अ, ण, शि, पू
           jackfruit| कटहल | _टहल| क, घे, थौ, डा`,
           
@@ -23,7 +24,7 @@ export default {
           orange| संतरा | _तरा | सं, डी, मी, क्षू
           papaya|  पपीता |_पीता | प, गो, कु, तु
           pineapple| अननास | _ननास| अ, पू,  त्रे, शि
-          pomegranate| अनार | _नार| अ, टु	, डा, ती`,
+          pomegranate| अनार | _नार| अ, टु, डा, ती`,
   
           `watermelon| तरबूज | _रबूज| त, झा, ठ, थौ
           fig| अंजीर| _जीर| अं, भि, व, क्षै
@@ -34,13 +35,12 @@ export default {
 
           `sapotta| चीकू| _कू| ची, च, ख, डी
           jamun| जामुन| _मुन| जा, ज, मु, न
-          coconut| नारियल| _रियल| ना, रि, न, ल
           pear| नाशपाती| _शपाती| ना, रि, न, ल
           tamarind| इमली| _मली| इ, म, ली, ल
-          sugarcane| ईख| _ख| ई, इ, म, ली`,
+          sugarcane| ईख| _ख| ई, इ, म, ली
+          water-chesnut| सिंघाड़ा| _घाड़ा| सिं, सि, स, घा`,
 
-          `water-chesnut| सिंघाड़ा| _घाड़ा| सिं, सि, स, घा
-          blueberry| नीलबदरी| _लबदरी| नी, ल, ब, न
+          `blueberry| नीलबदरी| _लबदरी| नी, ल, ब, न
           peach| सतालू| _तालू| स, ता, लू, ल
           jujube| बेर| _र| बे, ब, म, ली
           passion-fruit| कृष्णा फल| _ष्णा फल| कृ, फ, ल, ली
@@ -81,60 +81,89 @@ export default {
           capsicum| शिमला मिर्च| _मला मिर्च| शि, णु, चु, ठे
           cashewnut| काजू | _जू| का, झा, घै, जा
           chilli| मिर्च| _र्च| मि, झो, जै, खा
-          coconut| नारियल| _रियल| ना, ठि, टी, तौ`,
+          coconut| नारियल| _रियल| ना, ठि, टी, तौ`
   
-          `corianderleaf|धनिएके पत्ते| _निएके पत्ते| ध, णी, थे, ट	
-          curryleaf| करी पत्ता| _री पत्ता| क, का, छ, ड
-          drumstick| सहजन| _हजन| स, ज, को, ब		
-          greenpeas| मटर | _टर | म, च, ढि, का
-          ladies-finger| भिन्डी| _न्डी| भि, ढे, टी, णि`,
-  
-          `mintleaf| पुदीना | _दीना| पु, गू, ढा, घौ
-          peanut| मूंगफली| _गफली| मूं, आ, ई, तो
-          raddish| मूली| _ली| मू, मु, तु, खौ
-          spinach| पालक| _लक| पा, कु, खू, झो`,
-
-          `turnip| शलगम| _लगम| श, ल, ग, म
-          chickpea| चना| _ना| च, न, ग, म
-          fenugreek| हरी मेथी| _री मेथी| ह, र, मे, थ
-          mustard-greens| सरसों पत्ता| _रसों पत्ता| स, र, सो, प
-          turmeric| हल्दी| _ल्दी| ह, ल्, सो, प
-          sweet-potato| शकरकंद| _करकंद| श, क, र, कं`
         ]
       },
-  
       {
         type: 'completeWord',
-        label: 'फूल',
-        id: 'flowers',
+        label: 'जानवर',
+         lockAfter:4,
+        id: 'animals',
         commonData: {
-            images: 'custom',
-            title: 'लापता अक्षरों को भरें।',
-            lang: 'hi'
-          },
-          data: [
-         `rose| गुलाब | _लाब|गु, ही, त्रु, भो	
-          lotus| कमल| _मल| क, लू, ही, त्रु	
-          sunflower| सूरजमुखी | _रजमुखी| सू, त्रु, लू , भो	
-          marigold| गेंदा | _दा | गें, सि, सै, नो	
-          hibiscus| गुडहल | _डहल| गु, ही, त्रु, भो	
-          jasmine| चमेली| _मेली | च, त्रु, सै, सि`,
-
-          `daisy| गुलबहार| _लबहार| गु, ल, ब, ह
-          periwinkle| सदाबहार| _दाबहार| स, द, हा, र
-          water-lily| नीलकमल| _लकमल| नी, न, क, म
-          gulmohar| गुलमोहर| _लमोहर| गु, ल, मो, ग
-          poppy| खसखस| _सखस| ख, स, मो, ग 
-          pansy| बनफूल| _नफूल| ब, फ, ल, ग`,
-
-          `mogra| मोगरा| _गरा| मो, ग, रा, म
-          lily| कुमुदनी| _मुदनी| कु, मु, द, क
-          mangolia| चम्पा| _म्पा| च, क, लू, ह
-          daffodil| नरगिस| _रगिस| न, र, ग, स`
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi'
+        },
+        data: [
+          `cat| बिल्ली | _ल्ली | बि, इ, ऊ, घ 
+          dog| कुत्ता | _त्ता | कु, ग, आ, इ 
+          goat| बकरी | _करी| ब, द, ध, थ
+          sheep| भेड् | _ड्|  भे,अ, ख, पी   
+          horse| घोडा | _डा | घो, ध, न, प`,
+  
+          `pig| सूअर | _अर | सू, य, र, ल 
+          elephant| हाथी  | _थी | हा, घी, कै, ध 
+          lion| शेर | _र | शे, डि ,थी , ढि  
+          monkey| बंदर | _दर | बं, थि , झु, ठि 
+          tiger| बाघ| _घ| बा, ता, थी, ची `,
+  
+          `hippo| जलहस्ती| _लहस्ती | ज , थो, जी, घु	 
+          rhino| गैंडा| _डा| गैं , णू, तै ,  घा
+          fox| लोमड़ी | _मड़ी | लो, लै, डी , टा	 
+          crocodile| मगरमच्छ | _गरमच्छ | म, डि, णी, झी	  
+          bear| भालू | _लू | भा, तू,  घि, ग	
+          camel| ऊंट | _ट | ऊं , छा,  तू , गा`,
+  
+          `fish| मछली | _छली| म , खु,  झा , घा
+          frog| मेंडक | _डक | में , गं, ठू , ख 
+          crab| केकड़ा | _कड़ा | के , ठा , डि,  नि
+          snake | साँप | _प | साँ, सा, झा, ख  
+          squirrel| गिलहरी| _लहरी| गि, ले, ची, द्वि`,
+  
+          `tortoise| कछुआ|  _छुआ| क, झा, घि, की
+          rat| चूहा | _हा | चू , क्षु, षु , वू 
+          ant| चींटी | _टी | चीं , तै, छं , ची
+          fly| मक्खी| _क्खी |  म , थो, टौ , षि 
+          bat| चमगादड़ |_मगादड़ | च, धु, णा, बु`,
+  
+          `buffalo|  भेंस| _स| भें, ख,  चि, गा	
+          butterfly|  तितली| _तली| ति, यै, खि, खं
+          cow|  गाय| _य| गा, ढि, छी, खे
+          donkey| गधा | _धा| ग, घा, झि, टा`
         ]
-    },
+      },
+      {
+        type: 'completeWord',
+        label: 'पक्षी',
+         lockAfter:2,
+        id: 'birds',
+        commonData: {
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi'
+        },
+        data: [
+          `crow| कौवा |_वा|  कौ, वू, यु, षि 
+        dove| कबूतर | _बूतर | क , षि,  डि, ब
+        duck| बतख़ | _तख़| ब , टौ, त , णा
+        hen| मुर्गी | _र्गी | मु , त्रि,  क्षु , वू 
+        parrot| तोता | _ता| तो, षि,  षु, ठा`,
   
+          `peacock| मोर | _र | मो , टौ,  श्री , त्रि  
+        sparrow| गौरेया| _रेया| गौ, णा , सी , त्रि 
+        chick| चूज़ा| _ज़ा| चू, ढि, ठै, फि
+        crane| सारस| _रस| सा, तै, यु, सी
+        vulture| गिद्ध| _द्ध| गि, णा, यै, फी`,
   
+          `flamingo| मराल |_राल | म, णू, थो, टी
+        kingfisher|नीलकंठ| _लकंठ| नी, जु, खं, तौ	
+        myna| मैना | _ना | मै, तै, यै, गि
+        ostrich| शुतरमुर्ग| _तरमुर्ग| शु, फि, तै, खि 
+        owl| उल्लू| _ल्लू| उ, णू, थो, टी
+        rooster| मुर्गा| _र्गा| मु, घ, झी, जु`
+        ]
+      },
       {
         type: 'completeWord',
         label: 'शरीर के अंग',
@@ -155,6 +184,126 @@ export default {
       },
       {
         type: 'completeWord',
+        label: 'मकान',
+        id: 'house',
+        lockAfter:4,
+        commonData: {
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi'
+        },
+        data: [
+          `man| आदमी| _दमी| आ, अ, ला, प
+          woman| औरत| _रत| औ, आ, अ, ला 
+          boy| लड़का| _ड़का| ल, ड़, क, ला
+          girl| लड़की| _ड़की| ल, ड़, क, ला
+          house| मकान| _कान| म, क, न, प
+          grandfather| दादा| _दा| दा, द, न, प `,
+
+          `table| मेज| _ज| मे, गु, झे, णु	
+          bed| बिस्तर| _स्तर| बि, खू, णौ, ठी
+          candle| मोमबत्ती| _मबत्ती| मो, डे, ठी, झू	
+          chair| कुर्सी| _र्सी| कु, झे, गु, ठी
+          shelf| अलमारी|  _लमारी|  अ, चा, जि, टु
+          baby| बच्चा| _च्चा| ब, ल, झौ, आ
+          ball| गेंद| _द| गें, ध, थी, ये`,
+
+          `glasses| ऐनक| _नक|  ऐ, भ, मा, यि
+          clock| दीवार घड़ी | _वार घड़ी | दी, घ, तू, थ
+          watch| घड़ी | _ड़ी | घ, तू, ठ, थ
+          flower-pot| गमला| _मला| ग, च, ब, भि
+          umbrella| छतरी| _तरी| छ, त, र, च
+          door| दरवाजा| _रवाजा| द, र, वा, जा
+          broom| झाड़ू| _ड़ू| झा, झ, ड़, जा`,
+
+          `window|खिड़की| _ड़की| खि, ड़, की, ख 
+          bucket|बाल्टी| _ल्टी| बा, ग, ब, भि
+          soap|साबुन| _बुन| सा, स, र, च
+          pillow|तकिया| _किया| त, क, य, थ
+          basket|टोकरी| _करी| टो, क, री, ट
+          dustbin|कचरे का डिब्बा| _चरे का डिब्बा| क, झे, गु, ठी`
+        ]
+      },
+      {
+        type: 'completeWord',
+        label: 'पोशाक',
+        id: 'dress',
+        data: {
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi',
+          text: `shoe|जूता| _ता| जू, ता, ज, 
+          sock|मौज़ा| _ज़ा| मौ, म, जू, ज
+          pyjama|पजामा| _जामा| प, ज, म, मौ
+          gloves|दस्ताने| _स्ताने| द, ने, गु, ठी
+          scarf|दुपट्टा| _पट्टा| दु, द, गु, ठी
+          shirt|कमीज| _मीज| क, झे, गु, ठी
+          hat|टोपी| _पी| टो,  तू, ठ, थ
+          trousers|पतलून| _तलून| प, त, ल, न`
+        }
+      },
+      {
+        type: 'completeWord',
+        label: 'रसोईघर',
+        id: 'kitchen',
+        commonData: {
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi'
+        },
+        data: [
+         `stove| चूल्हा| _ल्हा |चू, चा, चे, चै	 
+          fork| कांटा| _टा |कां, कै, को, कौ
+          knife| छुरी| _री| छु, छा, छि, छे	
+          pan| कड़ाही| _ड़ाही |क, कि, की, कु	
+          spoon | चम्मच| _म्मच| च, चू, चा, चे
+          pot| मटका| _टका |म, मू,	मे, मै
+          butter| मक्खन| _क्खन| म, मा, मि, मी`,
+
+          `lid| ढक्कन| _क्कन| ढ, क, न, ध
+          tap| नल| _ल| न, ल, भ, ब
+          plate| थाली| _ली| था, ल, वा, जा
+          sugar|चीनी| _नी| ची, नी, चा, चे
+          bowl|कटोरा| _टोरा| क, कै, को, कौ
+          meat|मांस| _स| मां, मा, म, स
+          salt|नमक| _मक|न, म, क, स`,
+
+          `sweets|मिठाइयाँ| _ठाइयाँ| मि, मां, मा, म
+          bread|रोटी| _टी| रो, ट, र, टी
+          juice|रस| _स| र, रो, ट, टी
+          flour|आटा| _टा| आ, फु, थी, ने
+          lentils|दाल| _ल| दा, ल, थी, ने
+          rice|चावल| _वल| चा, व, ची, नी,`
+        ]
+      },
+      {
+        type: 'completeWord',
+        label: 'प्रकृति',
+        id: 'nature',
+        commonData: {
+          images: 'custom',
+          title: 'लापता अक्षरों को भरें।',
+          lang: 'hi'
+        },
+        data: [
+         `sun| सूर्य| _र्य| सू, कि, ते, छा
+         moon| चांद| _द| चां, छी, टा, झा		
+         rain| बारिश| _रिश|  बा, टा, णू, ते	
+         star| तारा| _रा|  ता, डा, घू, छि
+         milk| दूध| _ध| दू, टु, णी, णो
+         bird| पक्षी| _क्षी | प, कि, झि, ता`,
+
+         `fruits|  फल|  _ल| फ, चु, टी, झि
+          leaf| पत्ता | _त्ता | प, टा, ती, खी
+          world| दुनिया| _निया | दु, टा, णू, दी
+          nest| घोसला| _सला| घो, घ, स, ल
+          water-drop| ओस| _स| ओ, ऊ, न, ट 
+          waterfall| झरना| _रना| झ, र, न, छ
+          rainbow|इंद्रधनुष| _द्रधनुष| इं, झ, र, न`
+        ]
+      },
+      {
+        type: 'completeWord',
         label: 'चित्र और नाम',
         id: 'others',
         commonData: {
@@ -163,58 +312,21 @@ export default {
           lang: 'hi'
         },
         data: [
-          `sun| सूर्य| _र्य| सू, कि, ते, छा
-       moon| चांद| _द| चां, छी, टा, झा		
-       rain| बारिश| _रिश|  बा, टा, णू, ते	
-       star| तारा| _रा|  ता, डा, घू, छि
-       milk| दूध| _ध| दू, टु, णी, णो	
-       ring| अंगूठी |_गूठी |  अं, णु, थी, गो`,
-  
-          `bone| हड्डी| _ड्डी | ह, खे, ट, तं
-       bell| घंटी| _टी| घं, झो, गो, ड 
-       bird| पक्षी| _क्षी | प, कि, झि, ता
+        `ring| अंगूठी |_गूठी |  अं, णु, थी, गो
+        bone| हड्डी| _ड्डी | ह, खे, ट, तं
+        bell| घंटी| _टी| घं, झो, गो, ड 
        conch| शंख | _ख |  शं, झि, ता, णु
        drums| ढोल|| _ल| ढो, णू, घी, था`,
   
        `five| पांच| _च| पां, ची, ख, घु
        food| खाना| _ना| खा, ठि, का, झो	
-       fruits|  फल|  _ल| फ, चु, टी, झि
        king|  राजा|  _जा|  रा, गा, कि, चं
        kite| पतंग| _तंग|  प, बै, नि, णे`,
   
-          `ladder|  सीढ़ी |  _ढ़ी | सी, दी, ती, ढू
-       leaf| पत्ता | _त्ता | प, टा, ती, खी
+      `ladder|  सीढ़ी |  _ढ़ी | सी, दी, ती, ढू
        rishi|  ऋषि|  _षि|  ऋ, मि, डो, टि	
        wheel| चक्का| _क्का| च, ब, भि, बै
-       whistle| सीटी| _टी|  सी, णू, घी, था	
-       world| दुनिया| _निया | दु, टा, णू, दी`,
-
-       `bow| धनुष| _नुष| ध, न, ष, द
-       arrow| बाण| _ण| बा, ब, ट, ण
-       chariot| रथ| _थ| र, थ, ब, ट 
-       damaru| डमरू| _मरू| ड, म, र, ट
-       flower-pot| गमला| _मला| ग, च, ब, भि
-       hexagon| षटकोण| _टकोण| ष, ट, क, ण`,
-
-       `warrior| योद्धा| _द्धा| यो, योद्, य, द
-       park| बाग| _ग| बा, ग, ब, य
-       garden| उद्यान | _द्यान | उ, द्न, द्य ,न  
-       pouch| थैली| _ली| थै, ल, थ, द्य 
-       trident| त्रिशूल | _शूल| त्रि, त्र, त, त् 
-       umbrella| छतरी| _तरी| छ, त, र, च`,
-
-       `vegetables| सब्ज़ियाँ| _ब्ज़ियाँ| स, म, र, ट
-       water-drop| ओस| _स| ओ, ऊ, न, ट 
-       waterfall| झरना| _रना| झ, र, न, छ
-       yagna| यज्ञ| _ज्ञ| य, ज्ञ, झ, र
-       touch-me-not| छुई मुई| _ई मुई| छु, मु, ई, छ`,
-
-       `nest| घोसला| _सला| घो, घ, स, ल
-       stick| डंडा| _डा| डं, डा, ड, ट
-       yarn-ball| ऊन| _न| ऊ, झ, र, न
-       trolley| ठेला| _ला| ठे, ठ, ड, ट
-       top| लट्टू| _ट्टू| ल, ठे, ठ, ड
-       twig| टहनी| _हनी| ट, ह, न, त`
+       whistle| सीटी| _टी|  सी, णू, घी, था`
         ]
       },
       {
@@ -369,53 +481,87 @@ export default {
   शि, capsicum
   का, cashewnut
   मि, chilli
-  ना, coconut`,
-  
-          `ध, corianderleaf
-  क, curryleaf
-  स, drumstick
-  म, greenpeas
-  भि, ladies-finger`,
-  
-          `पु, mintleaf
-  मूं, peanut
-  मू, raddish
-  पा, spinach
-  श, sweet-potato`,
-
-  `श, turnip
-  च, chickpea
-  ह, fenugreek
-  स, mustard-greens`
+  ना, coconut`
         ]
       },
       {
-        id: 'match-flowers',
+        id: 'match-animals',
         type: 'match',
-        label: 'चित्र से मिलाओ - फूल',
-        locked: 'true',
+        label: 'चित्र से मिलाओ - जानवर',
+         lockAfter:4,
         commonData: {
           title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
           rightImgType: 'custom',
           big: true
         },
         data: [
-          `गु, rose
-          क, lotus
-          सू, sunflower
-          गें, marigold
-          च, jasmine`,
-
-          `गु, daisy
-          स, periwinkle 
-          नी, water-lily 
-          ख, poppy
-          ब, pansy`,
-
-          `मो, mogra
-          कु, lily
-          च, magnolia
-          न, daffodil`
+          `बि, cat
+          कु, dog
+          ब, goat
+          भे, sheep
+          घो, horse`,
+  
+          `हा, elephant
+          शे, lion
+          बं, monkey
+          बा, tiger`,
+  
+          `ज, hippo
+          गैं, rhino
+          लो, fox
+          म, crocodile`,
+  
+          `भा, bear
+          ऊं, camel
+          सू, pig
+          म, fish`,
+  
+          `में, frog
+          के, crab
+          स, snake
+          गि, squirrel
+          क, tortoise`,
+  
+          `चू, rat
+          चीं, ant
+          म, fly
+          च, bat
+          भें, buffalo`,
+  
+          `ति, butterfly 
+          गा, cow
+          ग, donkey`
+        ]
+      },
+  
+      {
+        id: 'match-birds',
+        type: 'match',
+        label: 'चित्र से मिलाओ - पक्षी',
+         locked: 'true',
+        commonData: {
+          title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          ` कौ, crow
+          क, dove
+          ब, duck
+          मु, hen
+          तो, parrot`,
+  
+          `मो, peacock
+          गौ, sparrow
+          चू, chick
+          सा, crane
+          गि, vulture`,
+  
+          `नी, kingfisher
+          मै, myna
+          शु, ostrich
+          उ, owl
+          मु, rooster`
         ]
       },
       {
@@ -441,9 +587,113 @@ export default {
         ]
       },
       {
-        id: 'match-others',
+        id: 'match-house',
         type: 'match',
-        label: 'चित्र से मिलाओ',
+        label: 'चित्र से मिलाओ - मकान',
+        locked: 'true',
+        commonData: {
+          title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          `आ, man
+          औ, woman
+         दा, grandfather
+         ग, flower-pot
+         छ, umbrella`,
+
+         `द, door
+         झा, broom
+         खि, window 
+         बा,  bucket`,
+
+         `सा, soap
+         त,  pillow
+         टो,  basket
+         क,  dustbin`,
+         
+          `म, house
+          मे, table
+          बि, bed
+          मो, candle
+          कु, chair`,
+          
+          `अ, shelf
+          ब, baby
+          ल, boy
+          आ, man`,
+          
+                  `गें, ball
+          ऐ, glasses
+          घ, clock
+          द, door
+          न, tap
+        `
+        ]
+      },
+      {
+        id: 'match-dress',
+        type: 'match',
+        label: 'चित्र से मिलाओ - पोशाक',
+        locked: 'true',
+        commonData: {
+          title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          ` जू, shoe
+          मौ, sock
+          प,  pyjama
+          द, gloves`, 
+
+          `दु, scarf
+          क, shirt
+          टो, hat
+          प, trousers`
+        ]
+      },
+      {
+        id: 'match-kitchen',
+        type: 'match',
+        label: 'चित्र से मिलाओ - रसोईघर',
+        locked: 'true',
+        commonData: {
+          title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          `चू , stove
+          कां, fork
+          छु, knife
+          क, pan`, 
+        
+          `च, spoon
+          म, pot
+          झा, broom
+          था, plate
+          न, tap`,
+
+          `ढ, lid
+          ची, sugar
+          क, bowl
+          मां, meat
+          न, salt`,
+
+          `मि, sweets
+          रो, bread
+          र, juice
+          आ, flour
+          दा, lentils
+          चा, rice`
+        ]
+      },
+      {
+        id: 'match-nature',
+        type: 'match',
+        label: 'चित्र से मिलाओ - प्रकृति',
          lockAfter:2,
         commonData: {
           title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
@@ -461,47 +711,41 @@ export default {
   ह, bone
   घं, bell
   प, bird
+  फ, fruits`, 
+
+  `प, leaf
+  दु, world
+  ओ, water-drop
+  झ, waterfall
+  घो, nest`
+        ]
+      },
+      {
+        id: 'match-others',
+        type: 'match',
+        label: 'चित्र से मिलाओ',
+         lockAfter:2,
+        commonData: {
+          title: 'चित्र को उनके पेहले अक्षर से जोड़िए',
+          rightImgType: 'custom',
+          big: true
+        },
+        data: [
+          `अं, ring
+  ह, bone
+  घं, bell
   शं, conch`,
   
           `ढो, drums
   पां, five
   खा, food
-  फ, fruits
   प, kite
   रा, king`,
   
           `सी, ladder 
   प, leaf
   ऋ, rishi
-  च, wheel
-  दु, world`,
-
-  `ध, bow
-  बा, arrow
-  र, chariot
-  ड, damaru
-  ग, flower-pot
-  ष, hexagon`,
-
-  `यो, warrior
-  बा, park
-  उ, garden
-  थै, pouch
-  त्रि, trident
-  छ, umbrella`,
-
-  `स, vegetables
-  ओ, water-drop
-  झ, waterfall
-  य, yagna
-  छु, touch-me-not`,
-
-  `घो, nest
-  डं, stick
-  ऊ, yarn-ball
-  ठे, trolley
-  ल, top
-  ट, twig`
+  च, wheel`
         ]
       }
     ]
