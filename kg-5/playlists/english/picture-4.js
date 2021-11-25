@@ -141,6 +141,292 @@ lentils | LENTILS | _ENTILS
 rice | RICE | _ICE
 soup | SOUP | _OUP`
       ]
-    }
+    },
+  {
+    type: 'match',
+    id: 'match-house',
+    label: 'Match House',
+    lockAfter: 4,
+    commonData: {
+      title: 'Connect image with its first letter.',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+      `M, man
+      W, woman 
+      B, boy
+      G, girl 
+      B, baby`,
+
+      `H, house
+      T, table
+      B, bed
+      C, candle
+      S, shelf`,
+
+      `B, ball
+      C, coat
+      G, glasses
+      W, watch 
+      F, flower-pot`,
+
+      `U, umbrella 
+      D, door 
+      B, broom 
+      W, window 
+      S, sofa`,
+
+      `B, bucket 
+      T, toilet 
+      S, soap 
+      P, pillow 
+      D, dustbin`,
+
+      `B, bed-lamp 
+      H, handbag 
+      A, air-conditioner 
+      W, washing-machine `
+    ]
+  },
+  {
+    type: 'match',
+    id: 'match-dress',
+    label: 'Match Dress',
+    lockAfter: 4,
+    commonData: {
+      title: 'Connect image with its first letter.',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+      `D, dress 
+C, coat
+S, shoe 
+B, boots 
+P, pyjama 
+G, gloves`,
+
+`S, sweater 
+B, bib 
+J, jacket 
+H, hat 
+T, trousers`
+    ]
+  },
+  {
+    type: 'match',
+    id: 'match-school',
+    label: 'Match School',
+    lockAfter: 4,
+    commonData: {
+      title: 'Connect image with its first letter.',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+`P, pen 
+R, ruler
+E, eraser
+S, scissors
+C, calculator`,
+
+`B, book
+P, pencil
+I, ink 
+S, schoolbag
+W, waterbottle
+C, crayons `
+    ]
+  },
+  {
+    type: 'match',
+    id: 'match-kitchen',
+    label: 'Match Kitchen',
+    lockAfter: 4,
+    commonData: {
+      title: 'Connect image with its first letter.',
+      rightImgType: 'custom',
+      big: true
+    },
+    data: [
+      `S, stove 
+      F, fork
+      K, knife
+      P, pan
+      P, pot`,
+      
+      `B, butter
+      P, plate 
+      T, tap
+      L, lid 
+      C, cheese`,
+
+      `F, fridge 
+      L, lollipop 
+      S, salad 
+      B, bowl
+      C, chicken 
+      I,ice-cream `,
+
+      `M, meat 
+      S, salt 
+      B, bread 
+      C, cup 
+      J, juice 
+      M, mushroom`,
+
+      `S, sandwich 
+      C, cake 
+      F, flour 
+      L, lentils 
+      R, rice `
+    ]
+  },
+  {
+    type: 'dragDropImgLabel',
+    label: 'House - Drag & Drop',
+    id: 'dragDrop-house',
+    commonData: {
+      title: 'Drag and Drop the name on the images.'
+    },
+    data: [
+      `man| Man
+      woman | Woman
+      boy|Boy
+      girl | Girl
+      baby | Baby
+      house| House`,
+
+      `table|Table
+      bed|Bed
+      candle|Candle
+      chair|Chair
+      shelf|Shelf
+      coat|Coat`,
+
+      `glasses|Glasses
+      clock | Clock
+      watch | Watch
+      flower-pot | Flower Pot
+      umbrella | Umbrella
+      door | Door`,
+
+      `broom | Broom
+      window | Window
+      sofa | Sofa
+      bucket | Bucket
+      toilet | Toilet
+      soap | Soap`,
+
+      `backpack | Backpack
+      pillow | Pillow
+      basket | Basket
+      dustbin | Dustbin`,
+
+      `bed-lamp | Bed Lamp
+      handbag | Handbag
+      air-conditioner | Air Conditioner
+      washing-machine | Washing Machine`
+    ]
+  },
+  {
+    type: 'dragDropImgLabel',
+    label: 'Dress - Drag & Drop',
+    id: 'dragDrop-dress',
+    commonData: {
+      title: 'Drag and Drop the name on the images.'
+    },
+    data: [
+`dress | Dress
+coat | Coat
+shoe | Shoe
+sock | Sock
+boots | Boots
+pyjama | Pyjama`,
+
+`gloves | Gloves
+scarf | Scarf
+sweater | Sweater
+bib | Bib`,
+
+`shirt | Shirt
+jacket | Jacket
+hat | Hat
+trousers | Trousers`
+    ]
+  },
+  {
+    type: 'dragDropImgLabel',
+    label: 'School - Drag & Drop',
+    id: 'dragDrop-school',
+    commonData: {
+      title: 'Drag and Drop the name on the images.'
+    },
+    data: [
+      `pen |Pen
+      pencil|Pencil
+      ruler|Ruler
+      eraser|Eraser
+      scissors|Scissors
+      sharpener|Sharpener`,
+
+      `calculator| Calculator
+      book| Book
+      ink | Ink
+      schoolbag| Schoolbag`,
+
+      `waterbottle| Waterbottle
+      color-pencils| Color Pencils
+      crayons | Crayons`
+    ]
+  },
+  {
+    type: 'dragDropImgLabel',
+    label: 'Kitchen - Drag & Drop',
+    id: 'dragDrop-kitchen',
+    commonData: {
+      title: 'Drag and Drop the name on the images.'
+    },
+    data: [
+      `stove |Stove
+      fork|Fork
+      knife|Knife
+      pan|Pan
+      spoon|Spoon
+      pot|Pot`,
+
+      `butter|Butter
+      plate | Plate
+      tap | Tap
+      lid | Lid
+      blender | Blender
+      cheese | Cheese`,
+
+      `fridge | Fridge
+      lollipop | Lollipop
+      salad | Salad
+      sugar | Sugar
+      bowl | Bowl
+      chicken | Chicken`,
+
+      `ice-cream | Ice cream
+      meat | Meat
+      salt | Salt
+      sweets | Sweets
+      bread | Bread
+      cup | Cup`,
+
+      `juice | Juice
+      mushroom | Mushroom
+      sandwich | Sandwich
+      cake | Cake`,
+
+      `flour | Flour
+      lentils | Lentils
+      rice | Rice
+      soup | Soup`
+    ]
+  }
   ]
 };
