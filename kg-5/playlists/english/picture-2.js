@@ -181,7 +181,7 @@ muskmelon| Muskmelon`
     },
     {
       type: 'dragDropImgLabel',
-      label: 'Vegetaables - Drag & Drop',
+      label: 'Vegetables - Drag & Drop',
       id: 'dragDrop-vegetables',
       commonData: {
         title: 'Drag and Drop the name on the images.'
