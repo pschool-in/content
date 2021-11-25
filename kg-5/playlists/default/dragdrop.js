@@ -648,6 +648,64 @@ eg: `,
           }
         ]
       }
+    },
+    {
+      label: 'Type of Adjective',
+      id: 'adjective-type',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the highlighted adjective.',
+        types: [
+          {
+            name: 'Quality',
+            text: `He is a clever boy.
+Naina has a *black* dog.
+This box is *heavy*.
+She is an *intelligent* girl.
+Her father is an *honest* person.`
+          },
+          {
+            name: 'Quantity',
+            text: `There is *no* milk in the glass.
+I ate *some* rice.
+She ate the *whole* apple.
+You should not spend *all* the money.
+Is there *any* mango in the basket?`
+          }
+        ]
+      }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the describing words',
+      id: 'select-word',
+      commonData: {
+        title: 'Tap on the describing words in these sentences.',
+        multiSelect: true
+      },
+      data: [
+        `A *poor* man was sitting on roadside. He wore *dirty* clothes. He asked for *hot* water. I bought him in a *big* jug.
+A *red* car was going on a *black* road. The *green* trees on *both* sides gave a *cool* breeze.
+The well is *deep*. It has an *iron* pully and *think* rope connected to a *big* bucket. We can get *fresh* water.`,
+
+        `A ball is *round* in shape.
+        A *good* chess player is usually *smart*.
+        My friend has a *brown* muffler.
+        I have a *red* cap.
+        Aman is *confused* about a maths problem.`,
+
+        `I read a story about an *ugly* witch.
+        A *fast* car always win in races.
+        Coconut trees are *tall*.
+        A lion roars very *loudly*.
+        Goods train is very *long*.`,
+
+        `A *poor* man was sitting on roadside.
+       This is a *pleasant* weather.
+       A *small* rat lives in our house.
+       I have a *purple* dress.
+       A *clean* table.`
+      ]
     }
   ]
 };

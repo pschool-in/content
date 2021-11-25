@@ -25,7 +25,7 @@ export default {
             It was a <b>rainy</b> day.<br>
             Hyderabad is a <b>big</b> city. `
           },
-          '# Adjective of quality',
+          '# Adjective of quantity',
           {
             type: 'html',
             text: `Words like <i>much</i>, <i>little</i>, <i>some</i>, <i>any</i>, <i>whole</i> are used to describe the quantity of the noun. eg: <br>

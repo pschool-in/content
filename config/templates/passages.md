@@ -39,7 +39,7 @@ Each item in the array need not have to be a string. It can also be an object of
 }
 ```
 
-Commonly used styles are bold (<b>...</b>), italic (<i>...</i>) and line break (<br>)
+Commonly used styles are bold (`<b>...</b>`), italic (`<i>...</i>`) and line break (`<br>`)
 
 ## hilight
 
