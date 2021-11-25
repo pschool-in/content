@@ -85,6 +85,203 @@ wheel| WHEEL | _HEEL
 park | PARK | _ARK
 garden | GARDEN | _ARDEN`
       ]
+    },
+    {
+      type: 'match',
+      id: 'match-nature',
+      label: 'Match Nature',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `S, sun
+M, moon 
+R, rain
+B, bird
+F,fruits
+W, water-drop`,
+
+`S, star
+L, leaf
+W, world
+N, nest`,
+
+`M, milk
+W, waterfall 
+R, rainbow`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-bodyparts',
+      label: 'Match Body Parts',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `E, ear
+        F, foot
+        H, hair
+        M, mouth`,
+
+        `E, eye
+        H, hand
+        T, tooth
+        N, nose`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-flower',
+      label: 'Match Flower',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `R, rose
+        L, lotus
+        S, sunflower
+        M, marigold`,
+
+        `H, hibiscus
+        J, jasmine
+        T, tulip
+        Z, zinnia`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-other',
+      label: 'Match Other',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `B, bell
+        R, radio
+        C, coin
+        T, top,
+        S, stick`,
+
+        `B, brush
+        R, ring
+        D, drums
+        F, food
+        K, king`,
+
+        `B, bone
+        K, kite
+        L, ladder
+        W, wheel`,
+
+        `B, baloon
+        P, park
+        G, garden`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Nature - Drag & Drop',
+      id: 'dragDrop-nature',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `sun |Sun
+moon|Moon 
+rain|Rain 
+star|Star 
+milk|Milk
+bird|Bird 
+fruits|Fruits `,
+
+        `leaf|Leaf 
+world|World
+nest |Nest 
+water-drop |Water Drop
+waterfall |Waterfall 
+rainbow |Rainbow `
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Body Parts - Drag & Drop',
+      id: 'dragDrop-bodyparts',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `ear |Ear
+        eye |Eye
+        foot |Foot
+        hair|Hair`,
+
+        `hand|Hand
+        mouth|Mouth
+        nose| Nose
+        tooth|Tooth`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Flowers - Drag & Drop',
+      id: 'dragDrop-flowers',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `rose | Rose
+lotus | Lotus
+sunflower | Sunflower
+marigold | Marigold`, 
+
+`hibiscus | Hibiscus
+jasmine | Jasmine
+tulip | Tulip
+zinnia | Zinnia`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Others - Drag & Drop',
+      id: 'dragDrop-others',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `bell | Bell
+        brush| Brush
+        bone| Bone
+        radio | Radio
+        box | Box
+        coin | Coin`,
+
+        `top | Top
+        balloon | Balloon
+        stick | Stick
+        ring| Ring
+        drums| Drum
+        food| Food `,
+
+        `king| King
+        kite| Kite
+        ladder| Ladder
+        wheel| Wheel
+        park | Park
+        garden | Garden`
+      ]
     }
   ]
 };
