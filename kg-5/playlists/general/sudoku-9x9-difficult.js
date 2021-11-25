@@ -3,11 +3,11 @@ export default {
     id: 'sudoku9',
     list: [
       {
-        type: 'sudoku',
-        id: '9x9-difficult',
-        label: 'Sudoku (9 x 9) Difficult',
-        commonData: { type: '9x9-numbers', title: 'Sudoku (9 x 9)' },
-        data: [
+    type: 'sudoku',
+    id: '9x9-difficult',
+    label: 'Sudoku (9 x 9) Difficult',
+    commonData: { type: '9x9-numbers', title: 'Sudoku (9 x 9)' },
+    data: [
 `200000951
 000000007
 876005200
