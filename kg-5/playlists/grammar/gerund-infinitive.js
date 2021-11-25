@@ -54,7 +54,7 @@ Some examples of infinitive include
 1. to read
 2. to run
 3. to jump
-4.  to play
+4. to play
 5. to sing
 6. to laugh
 7. to eat
