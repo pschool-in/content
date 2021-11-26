@@ -66,6 +66,153 @@ export default {
   periwinkle | PERIWINKLE | _ERIWINKLE
   water-lily | WATER-LILY | _ATER-LILY`
       }
+    },
+    {
+      type: 'match',
+      id: 'match-gadgets',
+      label: 'Match Gadgets',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+  `C, camera 
+  S, speaker
+  T, tablet
+  H, headphone
+  P, pendrive`,
+
+  `R, remote
+  S, smartphone
+  T, torch
+  W, web-camera`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-others',
+      label: 'Match Others',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+  `K, knight 
+  C, chariot 
+  H, horse-carriage 
+  Y, yarn-ball 
+  B, bow 
+  T, trolley `,
+
+  `F, fountain 
+  P, pouch 
+  A, arrow
+  W, whistle 
+  C, conch
+  T, toothbrush`,
+
+  `M, medicine 
+  P, palanquin 
+  C, chocolate 
+  T, toothpaste`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-flowers',
+      label: 'Match Flowers',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `D, daffodil 
+        G, gulmohar 
+        L, lily 
+        P, pansy 
+        D, daisy `,
+
+        `J, jasmine 
+        M, magnolia
+        P, periwinkle 
+        W, water-lily `
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Gadgets - Drag & Drop',
+      id: 'dragDrop-gadgets',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `camera |Camera
+  headphone|Headphone
+  pendrive|Pendrive
+  remote|Remote
+  smartphone|Smartphone`,
+
+  `speaker|Speaker
+  tablet|Tablet
+  torch|Torch
+  web-camera | Web Camera`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Others - Drag & Drop',
+      id: 'dragDrop-others',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `knight | Knight
+  chariot | Chariot
+  horse-carriage | Horse Carriage
+  yarn-ball | Yarn Ball
+  bow | Bow
+  arrow | Arrow`,
+
+  `fountain | Fountain
+  pouch | Pouch
+  trolley | Trolley
+  whistle |Whistle
+  twig | Twig
+  palanquin | Palanquin`,
+
+  `medicine | Medecine
+  conch| Conch
+  toothbrush | Toothbrush
+  chocolate | Chocolate
+  toothpaste | Toothpaste`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Flowers - Drag & Drop',
+      id: 'dragDrop-flowers',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `daffodil | Daffodil
+        gulmohar | Gulmohar
+        lily | Lily
+        pansy | Pansy
+        poppy | Poppy`,
+
+        `daisy | Daisy
+        jasmine | Jasmine
+        magnolia | Magnolia
+        periwinkle | Periwinkle
+        water-lily | Water Lily`
+      ]
     }
   ]
 };
