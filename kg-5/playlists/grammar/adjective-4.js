@@ -265,7 +265,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
               options: 'sweet, tall, square'
             },
             {
-              qText: 'The lions have ______ claws.',
+              qText: 'The lion has ______ claws.',
               options: 'sharp, bushy, colorful'
             },
             {
