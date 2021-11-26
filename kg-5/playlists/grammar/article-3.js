@@ -24,7 +24,7 @@ We use definite article "the" when we are talking about a specific person or a t
       },
         {
         id: 'fill-up-1',
-        label: 'Correct Article',
+        label: 'Pick-Correct Article',
         type: 'fillup',
         commonData: {
           title: `Write the correct article before each naming word or noun.`
