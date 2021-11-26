@@ -59,6 +59,119 @@ export default {
   ivygourd | IVYGOURD | _VYGOURD
   ridgegourd | RIDGEGOURD | _IDGEGOURD`
       ]
+    },
+    {
+      type: 'match',
+      id: 'match-fruits',
+      label: 'Match Fruits',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+  `S, star-fruit 
+  D, dragon-fruit 
+  P, peach 
+  J, jamun
+  W, water-chesnut `, 
+
+  `J, jujube 
+  S, sapotta 
+  T, tapioca 
+  B, blueberry 
+  P, passion-fruit `
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-vegetables',
+      label: 'Match Vegetables',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `C, chickpea 
+  M, mustard-greens
+  T, turmeric 
+  F, fenugreek 
+  E, elephant-yam 
+  A, ashgourd `,
+
+  `B, broad-beans 
+  S, snake-gourd 
+  C, cluster-beans 
+  K, kohlrabi 
+  T, turnip`,
+
+  `D, drumstick-leaves
+  R, raw-banana 
+  T, tulsi 
+  B, bottlegourd 
+  I, ivygourd`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Fruits - Drag & Drop',
+      id: 'dragDrop-fruits',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `star-fruit | Star fruit
+        dragon-fruit | Dragon fruit
+        sugarcane | Sugarcane
+        peach | Peach
+        sweet-potato | Sweet potato
+        jamun | Jamun`,
+
+        `pear | Pear
+        water-chesnut | Water chesnut
+        jujube | Jujube
+        sapotta | Sapotta
+        tapioca | Tapioca
+        blueberry | Blueberry
+        passion-fruit | Passion fruit`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Vegetables - Drag & Drop',
+      id: 'dragDrop-vegetables',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+    `chickpea | Chickpea
+  mustard-greens | Mustard greens
+  turmeric | Turmeric
+  turnip | Turnip
+  fenugreek | Fenugreek
+  tamarind | Tamarind`,
+
+ `elephant-yam | Elephant Yam
+  ashgourd | Ashgourd
+  broad-beans | Broad beans
+  snake-gourd | Snake gourd
+  banana-flower | Banana flower
+  cluster-beans | Cluster beans`,
+
+  `kohlrabi | Kohlrabi
+  spring-onion | Spring onion
+  banana-stem | Banana stem
+  drumstick-leaves | Drumstick leaves
+  raw-banana | Raw banana`,
+
+  `tulsi | Tulsi
+  bottlegourd | Bottlegourd
+  ivygourd | Ivygourd
+  ridgegourd | Ridgegourd`
+      ]
     }
   ]
 };

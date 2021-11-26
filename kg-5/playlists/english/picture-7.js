@@ -62,6 +62,144 @@ soldier | SOLDIER | _OLDIER
 barber | BARBER | _ARBER
 washerman | WASHERMAN | _ASHERMAN`
       ]
+    },
+    {
+      type: 'match',
+      id: 'match-vehicles',
+      label: 'Match Vehicles',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `A, aeroplane 
+        B, boat
+        C, cycle 
+        H, helicoptor
+        M, motorbike
+        S, ship `,
+
+        `B, bus 
+        C, car 
+        T, tractor 
+        L, lorry
+        A, auto
+        E, excavator`,
+
+        `F, fire-engine
+        V, van
+        B, bulldozer
+        T, train `,
+
+        `C, cart
+        A, ambulance
+        R, rocket 
+        S, submarine`
+      ]
+    },
+    {
+      type: 'match',
+      id: 'match-jobs',
+      label: 'Match Jobs',
+      lockAfter: 4,
+      commonData: {
+        title: 'Connect image with its first letter.',
+        rightImgType: 'custom',
+        big: true
+      },
+      data: [
+        `A, astronaut 
+C, clown 
+F, fisherman 
+P, postman 
+T, teacher 
+B, blacksmith`,
+
+`C, cobbler 
+G, goldsmith 
+P, potter 
+W, weaver
+D, diver 
+N, nurse`,
+
+`S, sailor 
+C, chef 
+D, doctor 
+P, police`,
+
+`S, soldier 
+C, carpenter 
+B, barber 
+W, washerman`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Vehicles - Drag & Drop',
+      id: 'dragDrop-vehicles',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+  `aeroplane | Aeroplane
+  boat | Boat
+  bus | Bus
+  car | Car
+  cycle | Cycle
+  helicoptor | Helicopter`,
+
+  `motorbike | Motorbike
+  ship | Ship
+  tractor | Tractor
+  lorry| Lorry
+  train | Train
+  ambulance| Ambulance`,
+
+  `auto| Auto
+  cart| Cart
+  excavator| Excavator
+  fire-engine| Fire Engine`,
+
+  `van| Van
+  bulldozer | Bulldozer
+ rocket | Rocket
+ submarine | Submarine`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Jobs - Drag & Drop',
+      id: 'dragDrop-jobs',
+      commonData: {
+        title: 'Drag and Drop the name on the images.'
+      },
+      data: [
+        `astronaut | Astronaut
+clown | Clown
+fisherman | Fisherman
+postman | Postman
+teacher | Teacher
+blacksmith | Blacksmith`,
+
+`cobbler | Cobbler
+goldsmith | Goldsmith
+potter | Potter
+weaver | Weaver
+carpenter | Carpenter
+diver | Diver`,
+
+`nurse | Nurse
+sailor | Sailor
+chef | Chef
+doctor | Doctor`,
+
+`police | Police
+soldier | Soldier
+barber | Barber
+washerman | Washerman`
+      ]
     }
   ]
 };

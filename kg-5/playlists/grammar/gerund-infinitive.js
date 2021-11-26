@@ -54,7 +54,7 @@ Some examples of infinitive include
 1. to read
 2. to run
 3. to jump
-4.  to play
+4. to play
 5. to sing
 6. to laugh
 7. to eat
@@ -125,7 +125,7 @@ She denied *having* an ice-cream at night.`
 I suggested *discussing* the matter in the next meeting.
 Mrs.Sharma is keen on *setting* up a restaurant nearby her place.
 Before *leaving*, Mrs.Reddy said goodbye to each of us.
-Not only *living in the city is hectic, but it is expensive too.`
+Not only *living* in the city is hectic, but it is expensive too.`
       ]
     },
     {

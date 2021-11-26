@@ -6,7 +6,7 @@ export default {
         {
             type: 'dragDropImgLabel',
             label: 'फल',
-            id: 'dragDrop-fruits',
+            id: 'dragdrop-fruits',
             commonData: {
               title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
@@ -21,7 +21,8 @@ jackfruit| कटहल `,
 orange| संतरा 
 papaya|  पपीता 
 pineapple| अननास 
-pomegranate| अनार `,
+pomegranate| अनार 
+blueberry |नीलबदरी`,
 
 `watermelon| तरबूज 
 fig| अंजीर
@@ -32,13 +33,11 @@ muskmelon |खरबूजा `,
 
 `sapotta| चीकू
 jamun| जामुन
-coconut| नारियल
 pear| नाशपाती
 tamarind| इमली
 sugarcane| ईख`,
 
 `water-chesnut| सिंघाड़ा
-blueberry| नीलबदरी
 peach| सतालू
 jujube| बेर
 passion-fruit| कृष्णा फल
@@ -49,7 +48,7 @@ dragon-fruit| पिताया`
     {
         type: 'dragDropImgLabel',
         label: 'सब्जियां',
-        id: 'dragDrop-vegetables',
+        id: 'dragdrop-vegetables',
         commonData: {
           title: 'छवियों पर नाम खींचें और छोड़ें।'
         },
@@ -69,7 +68,7 @@ garlic| लहसुन`,
 `ginger| अदरक 	  
 pumpkin| कद्दू  
 almond|  बादाम
-beans| फलियां
+beans| फलि
 bitter-gourd| करेला`,
 
 `brinjal| बैंगन 
@@ -87,7 +86,9 @@ ladies-finger| भिन्डी`,
 `mintleaf| पुदीना 
 peanut| मूंगफली
 raddish| मूली
-spinach| पालक`,
+spinach| पालक
+tulsi|तुलसी
+bottlegourd|लौकी`,
 
 `turnip| शलगम
 chickpea| चना
@@ -100,7 +101,7 @@ sweet-potato| शकरकंद`
      {
         type: 'dragDropImgLabel',
         label: 'फूल',
-        id: 'dragDrop-flowers',
+        id: 'dragdrop-flowers',
         commonData: {
           title: 'छवियों पर नाम खींचें और छोड़ें।'
         },
@@ -128,7 +129,7 @@ daffodil| नरगिस`
       {
         type: 'dragDropImgLabel',
         label: 'जानवर',
-        id: 'dragDrop-animal',
+        id: 'dragdrop-animal',
         commonData: {
           title: 'छवियों पर नाम खींचें और छोड़ें।'
         },
@@ -198,15 +199,23 @@ hyena| लकड़बग्धा
 jackal| सियार
 polarbear| ध्रुवीय भालू`,
 
-`pocupine| साही
+`porcupine| साही
 prawn| झींगे
-python| अजगर`
+python| अजगर
+bee|मधुमक्खी
+goldfish|सुनहरी मछली
+seahorse|समुद्री घोड़े`,
+
+`mole|छछूँदर
+spider|मकड़ी
+caterpillar|इल्ली
+earthworm|केंचुआ`
           ]
         },
         {
             type: 'dragDropImgLabel',
             label: 'पक्षी',
-            id: 'dragDrop-bird',
+            id: 'dragdrop-bird',
             commonData: {
               title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
@@ -235,13 +244,18 @@ eagle| चील
 cuckoo| कोयल
 swan| हंस
 pheasant| तीतर
-falcon| बाज़`
+falcon| बाज़`,
+
+`bulbul|बुलबुल
+spotted-dove| चित्तीदार कबूतर
+seagull|सामुद्रिक चिड़िया
+hawk|बाज`
             ]
         }, 
         {
             type: 'dragDropImgLabel',
             label: 'शरीर के अंग',
-            id: 'dragDrop-body-parts',
+            id: 'dragdrop-body-parts',
             commonData: {
               title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
@@ -257,10 +271,57 @@ foot| पैर
 hair| बाल`
               ]
          },
+         {
+          type: 'dragDropImgLabel',
+          label: 'पोशाक',
+          id: 'dragdrop-dress',
+          commonData: {
+            title: 'छवियों पर नाम खींचें और छोड़ें।'
+          },
+          data: [
+`shoe|जूता
+sock|मौज़ा
+pyjama|पजामा
+gloves|दस्ताने`,
+
+`scarf|दुपट्टा
+shirt|कमीज
+hat|टोपी
+trousers|पतलून`
+            ]
+       },
+       {
+        type: 'dragDropImgLabel',
+        label: 'नौकरियां',
+        id: 'dragdrop-jobs',
+        commonData: {
+          title: 'छवियों पर नाम खींचें और छोड़ें।'
+        },
+        data: [
+`astronaut|अंतरिक्ष यात्री
+fisherman|मछुआरा
+postman|डाकिया
+teacher|शिक्षक
+blacksmith|लोहार`,
+
+`cobbler|मोची
+goldsmith|सुनार
+potter|कुम्हार
+weaver|जुलाहा
+carpenter|बढ़ई
+nurse|दाई`,
+
+`chef|बावर्ची
+doctor|चिकित्सक
+soldier|सैनिक
+barber|नाई
+washerman|धोबी`
+          ]
+     },
         {
             type: 'dragDropImgLabel',
             label: 'मकान',
-            id: 'dragDrop-house',
+            id: 'dragdrop-house',
             commonData: {
              title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
@@ -281,30 +342,40 @@ ball| गेंद
 glasses| ऐनक
 clock| घड़ी 
 door| दरवाजा
-broom| झाड़ू`
+broom| झाड़ू`,
+
+`window|खिड़की
+bucket|बाल्टी
+soap|साबुन
+pillow|तकिया
+basket|टोकरी
+dustbin|कचरे का डिब्बा`
                 ]
         }, 
         {
             type: 'dragDropImgLabel',
             label: 'विद्यालय',
-            id: 'dragDrop-house',
+            id: 'dragdrop-school',
             commonData: {
                 title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
             data: [
 `eraser| रबड़	
 pen| कलम
-ruler| मापन`,
+ruler| मापन
+schoolbag| बस्ता
+calculator| गणना यंत्र`,
 
 `scissors| कैंची
 book| किताब 	
-crayons| चित्रांकनी`
+crayons| चित्रांकनी
+ink|स्याही`
                  ]
                }, 
             {
             type: 'dragDropImgLabel',
             label: 'रसोईघ',
-            id: 'dragDrop-kitchen',
+            id: 'dragdrop-kitchen',
             commonData: {
                 title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
@@ -319,13 +390,25 @@ spoon | चम्मच`,
 butter| मक्खन
 lid| ढक्कन
 tap| नल
-plate| थाली`
+plate| थाली`,
+
+`sugar|चीनी
+bowl|कटोरा
+meat|मांस
+salt|नमक
+sweets|मिठाइयाँ`,
+
+`bread|रोटी
+juice|रस
+flour|आटा
+lentils|दाल
+rice|चावल`
                 ]
             },
             {
                 type: 'dragDropImgLabel',
                 label: 'उपकरण',
-                id: 'dragDrop-tools',
+                id: 'dragdrop-tools',
                 commonData: {
                     title: 'छवियों पर नाम खींचें और छोड़ें।'
                 },
@@ -334,13 +417,15 @@ plate| थाली`
 balance| तराज़ू
 blackboard| श्यामपट
 microscope| सूक्ष्मदर्शी
-needle| सुई`,
+needle| सुई
+flute|बांसुरी`,
 
 `plough| हल
 saw| आरा	
 spade| कुदाली
 telescope| दूरबीन
-trowel| करनी`,
+trowel| करनी
+tabla|तबला`,
 
 `awl| सूआ 
 easel| चित्रफलक 	 
@@ -352,59 +437,75 @@ screwdriver| पेंचकस`
            },
            {
             type: 'dragDropImgLabel',
-            label: 'चित्र और नाम',
-            id: 'dragDrop-others',
+            label: 'प्रकृति',
+            id: 'dragdrop-nature',
             commonData: {
                 title: 'छवियों पर नाम खींचें और छोड़ें।'
             },
             data: [
-                `sun| सूर्य
-                moon| चांद	
-                rain| बारिश	
-                star| तारा
-                milk| दूध	
-                ring| अंगूठी`,
-           
-                   `bone| हड्डी
+`sun| सूर्य
+moon| चांद
+rain| बारिश
+star| तारा
+milk| दूध`,
+
+`bird|पक्षी
+fruits|फल
+leaf|पत्ता
+world|दुनिया`,
+
+`nest|घोंसला
+water-drop|ओस
+waterfall|झरना
+rainbow|इंद्रधनुष`
+           ]
+       },
+           {
+            type: 'dragDropImgLabel',
+            label: 'चित्र और नाम',
+            id: 'dragdrop-others',
+            commonData: {
+                title: 'छवियों पर नाम खींचें और छोड़ें।'
+            },
+            data: [
+                `ring| अंगूठी
+                bone| हड्डी
                 bell| घंटी
-                bird| पक्षी
                 conch| शंख 
                 drums| ढोल`,
            
                 `five| पांच
                 food| खाना	
-                fruits| फल
                 king|  राजा
                 kite| पतंग`,
            
                    `ladder| सीढ़ी 
-                leaf| पत्ता 
                 rishi|  ऋषि	
                 wheel| चक्का
-                whistle| सीटी	
-                world| दुनिया`,
+                whistle| सीटी	`,
          
                 `bow| धनुष
                 arrow| बाण
                 chariot| रथ 
                 damaru| डमरू
-                flower-pot| गमला
-                hexagon| षटकोण`,
+                hexagon| षटकोण
+                coin|सिक्का`,
          
                 `warrior| योद्धा
                 park| बाग
                 garden| उद्यान  
                 pouch| थैली
-                trident| त्रिशूल 
-                umbrella| छतरी`,
+                trident| त्रिशूल
+                box|डिब्बा `,
          
                 `vegetables| सब्ज़ियाँ
-                water-drop| ओस
-                waterfall| झरना|
-                yagna| यज्ञ
-                touch-me-not| छुई मुई`,
-         
-                `nest| घोसला
+                dhol|ढोल
+                palanquin|पालकी
+                medicine|दवा
+                balloon|गुब्बारा
+                yagna| यज्ञ`,
+                
+                `touch-me-not| छुई मुई
                 stick| डंडा
                 yarn-ball| ऊन
                 trolley| ठेला
