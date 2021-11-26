@@ -118,7 +118,7 @@ Mahesh bought *a* new watch.`
         id: '300',
         type: 'classifySentence',
         commonData: {
-          title: 'Identify if the below sentences have conjunction or not.',
+          title: 'Identify whether the sentences have articles or not.',
           types: ['Yes', 'No']
         },
         data: [
