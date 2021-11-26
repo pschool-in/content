@@ -273,7 +273,9 @@ export default {
           juice|रस| _स| र, रो, ट, टी
           flour|आटा| _टा| आ, फु, थी, ने
           lentils|दाल| _ल| दा, ल, थी, ने
-          rice|चावल| _वल| चा, व, ची, नी,`
+          rice|चावल| _वल| चा, व, ची, नी
+          cheese|पनीर| _नीर| प, मा, म, स
+          lollipop|टिकीया| _कीया| टी, र, रो, ट`
         ]
       },
       {
@@ -668,7 +670,9 @@ export default {
           `चू , stove
           कां, fork
           छु, knife
-          क, pan`, 
+          क, pan
+          प, cheese
+          टी, lollipop`, 
         
           `च, spoon
           म, pot
