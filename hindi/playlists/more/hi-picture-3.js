@@ -130,7 +130,7 @@ pansy| बनफूल`,
 
 `mogra| मोगरा
 lily| कुमुदनी
-mangolia| चम्पा
+magnolia| चम्पा
 daffodil| नरगिस`
           ]
      },
