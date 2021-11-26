@@ -364,6 +364,16 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Adjective - 4',
+    id: 'adjective-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Adjective - 5',
+    id: 'adjective-5',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Simile',
     id: 'simile',
     grade: 'g3, g4, g5'
