@@ -261,12 +261,12 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
         {
           questions: [
             {
-              qText: 'An adjective describes _____.',
-              options: 'a noun, a verb, an adverb'
+              qText: 'The mangoes are _____.',
+              options: 'sweet, tall, square'
             },
             {
-              qText: 'The order of adjectives after the number is ______.',
-              options: 'opinion, age, color'
+              qText: 'The lions have ______ claws.',
+              options: 'sharp, bushy, colorful'
             },
             {
               qText: 'The car is ______.',
