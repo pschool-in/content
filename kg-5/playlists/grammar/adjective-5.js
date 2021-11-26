@@ -19,7 +19,10 @@ For example:
 1. Ram is an "honest" boy.
 2. Rose is a "beautiful" flower.
 3. This is a "large" house.
-Adjectives of Quantity: They provide information about the quantity of things or people For example : 1."Many" people gathered near an accident. 2."Few" people attended the meeting.
+Adjectives of Quantity: They provide information about the quantity of things or people.
+For example : 
+1."Many" people gathered near an accident. 
+2."Few" people attended the meeting.
 Adjectives of Number: They describe the number of people, things or places spoken of. For example:
 1. I bought "two" shirts for Diwali.
 2. I saw "three" parrots on the branch.
