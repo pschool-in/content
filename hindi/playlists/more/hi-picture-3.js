@@ -95,7 +95,15 @@ chickpea| चना
 fenugreek| हरी मेथी
 mustard-greens| सरसों पत्ता
 turmeric| हल्दी
-sweet-potato| शकरकंद`
+sweet-potato| शकरकंद`,
+
+`ashgourd|रखिया
+broad-beans|सेम फली
+snake-gourd|चिचिण्डा
+cluster-beans|गँवार फली
+kohlrabi|बन्द-गोभी
+ivygourd|कुंदरू
+ridgegourd|तुरई`
           ]
      },
      {
@@ -384,13 +392,15 @@ ink|स्याही`
 fork| कांटा
 knife| छुरी	
 pan| कड़ाही	
-spoon | चम्मच`,
+spoon | चम्मच
+cheese|पनीर`,
 
 `pot| मटका
 butter| मक्खन
 lid| ढक्कन
 tap| नल
-plate| थाली`,
+plate| थाली
+lollipop|टिकीया`,
 
 `sugar|चीनी
 bowl|कटोरा
