@@ -4,11 +4,11 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Adjective-3',
+      label: 'Adjective of Quality and Quantity',
       type: 'passage',
       id: 'adjective-3-reading',
       data: {
-        title: 'Adjective-3',
+        title: 'Adjective of Quality and Quantity',
         text: [
           `The words that are used to describe a noun or a pronoun are called as adjectives. They give us more information about a noun or pronoun by describing it. They inform or tell us about how she or he looks, sounds, smells, feels or tastes. Names of the colors are also used as adjectives.`,
           {
