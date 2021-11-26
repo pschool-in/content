@@ -127,7 +127,7 @@ These bananas are *sweet (sour)*.`
         {
         type: 'selectWord',
         label: 'Identify the adjectives',
-        id: 'select-word',
+        id: '400',
         commonData: {
             title: 'Spot the adjectives in the following sentences.',
             multiSelect: true
