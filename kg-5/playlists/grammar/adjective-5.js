@@ -38,11 +38,15 @@ Possessive Adjectives: They tell us about to whom something or someone belongs t
 Degrees of Comparison are adjectives that change form and are used to compare one thing or person to another.
 Three types of Degrees of Comparison:
 1. Positive Degree: When we want to describe a person or a thing but there is no comparison, we use the positive degree. Example - Lakshman is a "strong" man.
-2. Comparative Degree: When we want to compare two persons or things, we use a comparative degree. Example - Bheem is "stronger" than Lakshman. We use "more" & "than" for a comparative degree of adjectives and also "-er" is added to the positive adjective.
-3. Superlative Degree: When we want to compare more than two persons or things, we use the superlative degree. Example - Ram is the "strongest" of the three. We use "the" before the superlative degree of adjective and also "-est" at the end of an adjective.
+2. Comparative Degree: When we want to compare two persons or things, we use a comparative degree.
+Example - Bheem is "stronger" than Lakshman. 
+We use "more" & "than" for a comparative degree of adjectives and also "-er" is added to the positive adjective.
+3. Superlative Degree: When we want to compare more than two persons or things, we use the superlative degree. 
+Example - Ram is the "strongest" of the three.
+We use "the" before the superlative degree of adjective and also "-est" at the end of an adjective.
 Positive: rich, small, ugly, fast, few, bright, big, fat, hot, thin, sad, wealthy, lucky, early
 Comparative: richer, smaller, uglier, faster, fewer, brighter, bigger, hotter, fatter, thinner, sadder, wealthier, luckier, earlier
-Superlative: Richest, smallest, ugliest, fastest, fewest, brighter, biggest, fastest, hottest, thinnest, saddest, wealthiest, luckiest, earliest`
+Superlative: Richest, smallest, ugliest, fastest, fewest, brightest, biggest, fastest, hottest, thinnest, saddest, wealthiest, luckiest, earliest`
   }
 },
 {
@@ -60,26 +64,26 @@ Superlative: Richest, smallest, ugliest, fastest, fewest, brighter, biggest, fas
     },
     data: [
       `Kavitha answers all the questions correctly. She is an *intelligent* girl. 
-      These are *costly* chairs.
-      A cow gives us milk. It is a *useful* animal. 
-      Rahul doesn't eat well. So, he is *thin*.
-      Our school is *big*.`,
+These are *costly* chairs made of teak wood.
+A cow gives us milk. It is a *useful* animal. 
+Rahul doesn't eat well. So, he is *thin*.
+Our school has a *big* auditorium when compared to other schools.`,
 
-      `A *green* valley. 
-      She is a *kind* lady.
-      Manish lives in a *large* house.
-      I like *this* shirt.
-      There is *some* water in the jug.`,
+      `The *careless* watchman forgot to close the gate of the building.
+My grandmother is a *wise* lady in our family. 
+Manish lives in a *large* house located near the park.
+We cooked *enough* food for our guests who arrived in the evening.
+I bought *twelve* oranges from the supermarket yesterday.`,
 
-      `We learned *new* recipe in the cooking class.
-      Aditya has *four* books on his shelf.
-      Bhavya wore a *traditional* dress.
-      I like *cold* weather.
-      Mihira is a *naughty* girl.`
+      `We learned a *new* recipe in the cooking class today.
+Aditya has *four* books on his shelf which he borrowed from the library.
+Bhavya wore a *traditional* dress for Diwali celebrations in the society.
+Mahesh was very *gentle* while cleaning his laptop.
+Mihira is a *naughty* girl in her class.`
     ]
   },
   {
-    label: 'True or False',
+    label: 'Classify as True or False',
     id: '200',
     type: 'classifySentence',
     commonData: {
@@ -94,11 +98,11 @@ Superlative: Richest, smallest, ugliest, fastest, fewest, brighter, biggest, fas
         Adjectives of quantity use words like few and many.`,
 
         `Demonstrative adjectives use words like who, what.
-        This and that are called interrogative adjectives.`
+       "This" and "that" are called interrogative adjectives.`
       ],
       [
-        `Than is used in the comparative degree of adjectives.
-        The is used before the superlative degree of adjective.`,
+        `"Than" is used in the comparative degree of adjectives.
+"The" is used before the superlative degree of adjective.`,
 
         `Positive degree of an adjective is used to compare qualities of two persons or things.
         Comparative degree of an adjective is used to compare more than two things or people.`
@@ -107,7 +111,7 @@ Superlative: Richest, smallest, ugliest, fastest, fewest, brighter, biggest, fas
   },
   {
     id: '300',
-    label: 'Fill up',
+    label: 'Add the correct adjective of quantity',
     type: 'fillup',
     commonData: {
       title: `Use the correct adjective of quantity to complete the sentence.`
@@ -134,7 +138,7 @@ I have *less (fewer)* than an hour to complete my homework.`
   },
   {
     id: '400',
-    label: 'Fill up - demonstrative adjective',
+    label: 'Add-demonstrative adjective',
     type: 'fillup',
     commonData: {
       title: `Choose the correct demonstrative adjective in the sentence.`
@@ -155,7 +159,7 @@ Who completed *this (those)* science project?`
   },
   {
     id: '500',
-    label: 'Classify-1',
+    label: 'Classify the adjective-1',
     type: 'classifySentence',
     data: {
       title: 'Identify the underlined adjective and state its kind.',
@@ -179,7 +183,7 @@ Who completed *this (those)* science project?`
   },
   {
     id: '600',
-    label: 'Classify-2',
+    label: 'Classify the adjective-2',
     type: 'classifySentence',
     data: {
       title: 'Identify the underlined adjective and state its kind.',
@@ -192,7 +196,7 @@ Who completed *this (those)* science project?`
           *These* shoes are too expensive.`
         },
         {
-          name: 'Possessive adjectives',
+          name: 'Possessive adjective',
           text: `Mihir is driving in *his* new red sports car.
           Samanvi has got a new car. *Her* car is very nice.
           Mahesh, where is *your* mother?
@@ -203,7 +207,7 @@ Who completed *this (those)* science project?`
   },
   {
     type: 'selectWord',
-    label: 'Identify-1',
+    label: 'Identify - degrees of comparison-1',
     id: '700',
     commonData: {
       title: 'Identify the comparative degree of adjective in the sentence.'
@@ -224,7 +228,7 @@ An elephant is *stronger* than Kangaroo.`
   },
   {
     type: 'selectWord',
-    label: 'Identify -2',
+    label: 'Identify - degrees of comparison-2',
     id: '800',
     commonData: {
       title: 'Identify the superlative degree of adjective in the sentence.'
