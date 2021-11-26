@@ -110,7 +110,15 @@ export default {
           fenugreek| हरी मेथी| _री मेथी| ह, र, मे, थ
           mustard-greens| सरसों पत्ता| _रसों पत्ता| स, र, सो, प
           turmeric| हल्दी| _ल्दी| ह, ल्, सो, प
-          sweet-potato| शकरकंद| _करकंद| श, क, र, कं`
+          sweet-potato| शकरकंद| _करकंद| श, क, र, कं`,
+
+          `ashgourd|रखिया| _खिया| र, मे, थ, ह
+          broad-beans|सेम फली| _म फली| से, स, र, सो
+          snake-gourd|चिचिण्डा| _चिण्डा| चि, च, न, ग
+          cluster-beans|गँवार फली| _वार फली| गँ, न, ग, म
+          kohlrabi|बन्द-गोभी| _न्द-गोभी| ब, ह, र, मे
+          ivygourd|कुंदरू| _दरू| कुं, कु, खू, झो
+          ridgegourd|तुरई| _रई| तु, ल, कु, खू`
         ]
       },
       {
@@ -393,7 +401,15 @@ export default {
   च, chickpea
   ह, fenugreek
   स, mustard-greens
-  लौ, bottlegourd`
+  लौ, bottlegourd`,
+
+  `र, ashgourd 
+  से, broad-beans
+  चि, snake-gourd
+  गँ, cluster-beans
+  ब, kohlrabi
+  कुं, ivygourd
+  तु, ridgegourd`
         ]
       },
       {

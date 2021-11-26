@@ -33,13 +33,11 @@ muskmelon |खरबूजा `,
 
 `sapotta| चीकू
 jamun| जामुन
-coconut| नारियल
 pear| नाशपाती
 tamarind| इमली
 sugarcane| ईख`,
 
 `water-chesnut| सिंघाड़ा
-blueberry| नीलबदरी
 peach| सतालू
 jujube| बेर
 passion-fruit| कृष्णा फल
@@ -70,7 +68,7 @@ garlic| लहसुन`,
 `ginger| अदरक 	  
 pumpkin| कद्दू  
 almond|  बादाम
-beans| फलियां
+beans| फलि
 bitter-gourd| करेला`,
 
 `brinjal| बैंगन 
