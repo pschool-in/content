@@ -220,10 +220,10 @@ Tortoises live *longer than* cats.
 My sister is *more intelligent than* my brother.`,
 
 `Iceland is *colder than* Spain. 
-I drive *more carefully* than my father. 
+I drive *more carefully than* my father. 
 English is *easier than* Japanese. 
 My son is *taller than* his father.
-An elephant is *stronger* than Kangaroo.`
+An elephant is *stronger than* Kangaroo.`
     ]
   },
   {
@@ -290,7 +290,7 @@ February is *the shortest* month of the year.`
             options: 'comparative, superlative, positive'
           },
           {
-            qText: `Poornima's hair is longer than yours`,
+            qText: `Poornima's hair is longer than yours.`,
             options: 'comparative, superlative, positive'
           },
           {
@@ -326,7 +326,7 @@ February is *the shortest* month of the year.`
     ]
   },
   {
-    label: 'MCQ',
+    label: 'Identify - the kind of adjective',
     type: 'mcq',
     id: '1000',
     data: {
@@ -368,7 +368,7 @@ February is *the shortest* month of the year.`
     }
   },
   {
-    label: 'Classify-1',
+    label: 'Classify the statement-1',
     id: '1100',
     type: 'classifySentence',
     commonData: {
@@ -398,7 +398,7 @@ February is *the shortest* month of the year.`
   },
   {
     id: '1200',
-    label: 'Classify-2',
+    label: 'Classify the statement-2',
     type: 'classifySentence',
     data: {
       title: 'Identify the degree of comparison for the below sentence.',
