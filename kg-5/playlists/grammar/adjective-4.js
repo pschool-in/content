@@ -4,11 +4,11 @@ export default {
     pdf: '',
     list: [
       {
-        label: 'Adjective-4',
+        label: 'Order of Adjectives',
         type: 'passage',
         id: 'adjectives-4-reading',
         data: {
-          title: 'Adjective-4',
+          title: 'Order of Adjectives',
 text: `Adjectives are the words that describe the "persons", "places", "things" etc. Adjectives or describing words talk about color, number, material, quality, quantity, size, feel, etc.
 For example:
 1. Tarun is wearing a "red" shirt. (here "red" is an adjective that describes the noun "shirt" by letting us know what kind of shirt it is?)
@@ -32,12 +32,12 @@ Given below is the order of adjectives:
 10. Noun
 For example :
 1. A strange, little, yellow leaf. Here the arrangement of the adjectives is as follows: "a" is an article, "strange" is an opinion or quality, "little" is the size, "yellow" is the color
-2. My dad is a tall, Indian Man. Here the arrangement of the adjectives is as follows: "tall" is a size, "Indian" is a Nationality.`
+2. My dad is a tall, Indian man. Here the arrangement of the adjectives is as follows: "tall" is a size, "Indian" is a Nationality.`
   }
 },
 {
 type: 'group',
-label: 'Drag and Drop',
+label: 'Classify the words',
 id: '100',
 commonData: {
     title: 'Identify the adjectives from the group of words given below and put them into the appropriate box.',
@@ -64,7 +64,7 @@ data: [
   },
    {
         id: '200',
-        label: 'Match the following',
+        label: 'Match - Adjectives with nouns',
         type: 'match',
         commonData: {
             title: 'Match the adjectives with suitable nouns.'
@@ -97,7 +97,7 @@ data: [
              ]
            },
            {
-      label: 'Pick-out the adjective',
+      label: 'Pick the adjective',
       type: 'matchByDragDrop',
       id: '300',
       commonData: {
@@ -177,12 +177,12 @@ data: [
         ],
         [
           `That big, black car goes really fast.
-          A round, black ball.
-          Five, little children.`,
+          A round, black ball
+          Five, little children`,
 
-          `little, five children
-          Full, three boxes
-          two square, red tables`
+          `little, five children.
+          Full, three boxes.
+          two red, sqaure tables`
         ]
       ]
     },
@@ -255,7 +255,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
       id: '900',
       type: 'mcq',
       commonData: {
-        title: 'Identify the adjectives in the sentence.'
+        title: 'Fill in the appropriate adjective to complete the sentence.'
       },
       data: [
         {
