@@ -220,7 +220,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
     {
       id: '800',
       type: 'sequence',
-      label: 'Order the Adjectives',
+      label: 'Find the order of adjectives',
       commonData: {
         title: 'Arrange the adjectives in the correct order to make a meaningful sentence.'
       },
@@ -313,7 +313,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
         id: '1000',
         type: 'mcq',
         commonData: {
-          title: 'Choose the appropriate options to complete the sentence.'
+          title: 'Choose the appropriate order of adjective to complete the sentence.'
         },
         data: [
           {
