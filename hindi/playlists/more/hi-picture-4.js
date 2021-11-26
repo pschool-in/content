@@ -102,7 +102,15 @@ list: [
     fenugreek, हरी मेथी
     mustard-greens, सरसों पत्ता
     turmeric, हल्दी
-    sweet-potato, शकरकंद`
+    sweet-potato, शकरकंद`,
+
+    `ashgourd, रखिया
+    broad-beans, सेम फली
+    snake-gourd, चिचिण्डा
+    cluster-beans, गँवार फली
+    kohlrabi, बन्द-गोभी
+    ivygourd, कुंदरू
+    ridgegourd, तुरई`
         ]
     },
     {
@@ -222,8 +230,8 @@ list: [
     `seahorse, समुद्री घोड़े
     mole, छछूँदर
     spider, मकड़ी
-    caterpillar|इल्ली
-    earthworm|केंचुआ`
+    caterpillar, इल्ली
+    earthworm, केंचुआ`
         ]
     },
     {
@@ -434,7 +442,9 @@ list: [
     juice, रस
     flour, आटा
     lentils, दाल
-    rice, चावल`
+    rice, चावल
+    cheese, पनीर
+    lollipop, टिकीया`
             ]
         },
         {
@@ -653,7 +663,15 @@ chickpea| चना
 fenugreek| हरी मेथी| ह_ __
 mustard-greens| सरसों पत्ता| स__ __
 turmeric| हल्दी
-sweet-potato| शकरकंद`
+sweet-potato| शकरकंद`,
+
+`ashgourd|रखिया
+broad-beans|सेम फली| से_ __
+snake-gourd|चिचिण्डा
+cluster-beans|गँवार फली| गँ__ __
+kohlrabi|बन्द-गोभी| ब__-__
+ivygourd|कुंदरू
+ridgegourd|तुरई`
         ]
     },
     {
@@ -927,7 +945,7 @@ dustbin|कचरे का डिब्बा`
     {
         type: 'completeWord',
         label: 'विद्यालय',
-        id: 'house',
+        id: 'school',
         commonData: {
             title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
             images: 'custom',
@@ -978,7 +996,9 @@ sweets|मिठाइयाँ`,
 juice|रस
 flour|आटा
 lentils|दाल
-rice|चावल`
+rice|चावल
+cheese|पनीर
+lollipop|टिकीया`
             ]
         },
         {
