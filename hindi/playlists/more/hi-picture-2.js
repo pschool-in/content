@@ -253,12 +253,12 @@ export default {
           goldsmith|सुनार| _नार| सु, ना, र, स
           potter|कुम्हार| _म्हार| कु, ड, क, या
           weaver|जुलाहा| _लाहा| जु, ला, हा, ची
-          carpenter|बढ़ई| -ढ़ई| ब, ढ़, ई, ची`,
+          carpenter|बढ़ई| _ढ़ई| ब, ढ़, ई, ची`,
           
          `nurse|दाई| _ई| दा, द, ढ़, ई
           chef|बावर्ची| _वर्ची| बा, व, र्, ब
           doctor|चिकित्सक| _कित्सक| चि, ची, म, छ
-          soldier|सैनिक| -निक| सै, न, क, स
+          soldier|सैनिक| _निक| सै, न, क, स
           barber|नाई| _ई| ना, ई, न, म
           washerman|धोबी| _बी| धो, ब, ध, बी`
         ]
@@ -441,7 +441,6 @@ export default {
           न, daffodil`
         ]
       },
-
       {
         id: 'match-vehicles',
         type: 'match',
