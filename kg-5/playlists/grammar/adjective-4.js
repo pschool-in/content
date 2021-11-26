@@ -111,22 +111,22 @@ data: [
       },
       data: [
         `The *naughty* boy was sent out of the music class by his teacher.
-        Walking is a *healthy* exercise.
-        Savitha is a *beautiful* girl.
-        Nupur likes *colorful* balloons.
-        A rabbit has *long* ears.`,
+Walking is a *healthy* exercise for everyone.
+Savitha is a *beautiful* girl in our class.
+Nupur likes *colorful* balloons.
+A rabbit has *long* ears.`,
 
         `My nephew is very *cute*.
-        It is a *huge* tree.
-        It was a *windy* day.
-        I have a *blue* phone.
-        The cheetah is the *fastest* mammal on the land.`,
+There is a *huge* tree in my garden.
+Yesterday was a *windy* day in my town.
+I have a *blue* phone in my bag.
+The cheetah is the *fastest* mammal on the land.`,
 
         `An octopus has eight *long* arms.
-        My dog has a *fluffy* tail.
-        A *green* pencil is there on the bench.
-        This is a *beautiful* house.
-        My puppy is *playful*.`
+My dog has a *fluffy* tail.
+I found a *green* pencil on my teacher's desk.
+This is a *beautiful* house in my colony.
+My puppy is very *playful* around children.`
       ]
     },
            {
