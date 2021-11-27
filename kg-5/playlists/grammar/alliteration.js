@@ -1,27 +1,27 @@
 export default {
-  id: 'alliteration',
-  label: 'Alliteration',
-  pdf: '',
-  list: [
-     {
-      label: 'Alliteration - Reading',
-      type: 'passage',
-      id: 'alliteration-reading',
-      data: {
-        title: 'Alliteration',
-        text: `It is generally used in poetry. It is a style of writing in which a series of words have the same consonant sound. Some examples of alliteration are;
-        The boy bounced the ball in the basket. ("boy bounced the ball" is alliteration)
-        A big brown bear bumped into our boxes. ("big brown bear bumped" is the alliteration)
-        My neighbour is normally noisy. ("neighbour is normally noisy" is the alliteration)`
-      }
-    },
+    id: 'alliteration',
+    label: 'Alliteration',
+    pdf: '',
+    list: [
+      {
+        label: 'Alliteration',
+        type: 'passage',
+        id: 'alliteration-reading',
+        data: {
+          title: 'Alliteration',
+        text: `It is generally used in poetry. It is a style of writing in which a series of words have the same consonant sound. Examples of alliteration are;
+1. The boy bounced the ball in the basket. ("boy bounced the ball" is alliteration)
+2. A big brown bear bumped into our boxes. ("big brown bear bumped" is the alliteration)
+3. My neighbour is normally noisy. ("neighbour is normally noisy" is the alliteration)`
+        }
+      },
       {
         label: 'Fill in the blanks',
         type: 'matchByDragDrop',
         id: 'drag-and-drop',
         commonData: {
         isPractice: false,
-        title: 'Drag the correct option in each blank to form an alliteration',
+        title: 'Drag the correct option in each blank to form an alliteration.',
         styles: {
         fontSize: '1rem',
         dashWidth: 80
@@ -37,7 +37,7 @@ Peter *put* his painting on the wall.`,
 `Elise’s *easter* eggs were delicious.
 Hari’s *honeybees* have horrible honeycombs.
 Nina’s neighbor *needed* newly cooked nachos.
-Paul’ pet pig *Patty* looks pretty.
+Paul’s pet parrot *Patty* looks pretty.
 Rahul ran around the room for no *reason*.`,
 
 `Tinkerbell likes to tinker with *tools*.
@@ -90,13 +90,13 @@ How many feet of *fruit* did freaky Fred find?`
           ],
           [
             `Shaam sells seashells by the seashore.
-            The  lazy lion looked like a lump.`,
+            The lazy lion looked like a lump.`,
             `My father works at an MNC.
             My pet's name is bony.`
           ]
         ]
       },
-           {
+          {
             type: 'selectWord',
             label: 'Identify the alliteration',
             id: 'select-word',
@@ -105,9 +105,9 @@ How many feet of *fruit* did freaky Fred find?`
                           },
             data: [
 `The *sticky stuff got stuck* in my shoes.
-The *raccoon ran rapidly* in towards the bushes.
+The *raccoon ran rapidly* towards the bushes.
 The *pink pigs played* in the mud.
-I kept the apples in the *big blue bowl.*
+I kept the apples in the *big blue bowl*.
 *Sara silently sneaked* into her brother's room.`,
             
 `*My mother makes marvelous melon* cakes.

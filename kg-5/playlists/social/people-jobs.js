@@ -175,7 +175,7 @@ export default {
       data: {
         title: 'Common Occupations-1',
         text: `# 1. Teacher
-          A teacher helps us acquire knowledge. A good teacher has a very important role in a student's life. They lay foundations of their values, knowledge and principles. We must always respect our teachers.
+          A teacher helps us acquire knowledge. A good teacher has a very important role in a student's life. They lay foundation of their values, knowledge and principles. We must always respect our teachers.
 
 # 2. Engineer
 Engineers are experts in designing, analytics, machines, gadgets, software, etc. It is one of the most popular profession among science students. Engineers work in technology companies, start-ups, fields, etc.
@@ -190,16 +190,16 @@ A mechanic is an expert who repairs and maintains vehicles, television, refriger
 A farmer is the backbone of agriculture. Farmers work in fields and grow crops. They sell cultivated crops to the vendors and then we can buy them. Farmers are the reason we get food. Do you know that agriculture is a major occupation in India?
 
 # 6. Photographer
-A photographer is a person who is an expert at taking perfect pictures. There are different types of areas where photographers work like weddings, company events, wildlife, travel, film industry, modeling industry, etc.
+A photographer is a person who is an expert at taking perfect pictures. There are different areas where photographers work like weddings, company events, wildlife, travel, film industry, modeling industry, etc.
 
 # 7. Actor
-An actor/actress is a person who has skills for acting. They can easily play the role of any character assigned to them. Actors work in performing arts like theatre, movies, plays, shows, street plays, etc.
+An actor/actress is a person who has skills for acting. They can easily play the role of any character assigned to them. Actors work in performing arts like theatre, movies, plays, TV shows, street plays, etc.
 
 # 8. Dancer
 A dancer is a person who is very good at dancing. A dancer knows or can learn different forms of dancing such as Kathak, classical, hip-hop, pop, freestyle, contemporary, etc. Dancing is a part of performing arts.
 
 # 9. Watchman
-A watchman or a guard is a person who ensures the safety of a building. They carry a stick, torch and sometimes a gun for safety. They work at banks, apartment buildings, bungalows, companies, etc. They protect the places from thieves and robbers.
+A watchman or a guard is a person who ensures the safety of a building. They carry a stick, a torch and sometimes a gun for safety. They work at banks, apartment buildings, bungalows, companies, etc. They protect the places from thieves and robbers.
 
 # 10. Gardener
 A gardener is a person who takes care of the gardens. They know exactly which plants can grow well in the garden, depending upon the season. They take good care of the plants by watering them with the right amount, adding necessary manures and fertilizers in the soil, etc. The credit for a good lawn always goes to the gardener.
@@ -254,10 +254,10 @@ Carpenters are people skilled with wooden framework. They are experts in making 
 A shopkeeper is a person who owns a shop or works in a shop. They assist us each time we visit. They show us variety in what we want. They help us choose the products that would be best for us. They take care of the shop and maintain it.
 
 # 10. Electrician
-An electrician has complete knowledge about the electric wires. They come in handy each time we face fluctuations in current or powercut. Electricity can be very dangerous and therefore we must always contact an electrician if we face any problem.
+An electrician has complete knowledge about the electric wires. They help us each time we face fluctuations in current or powercut. Electricity can be very dangerous and therefore we must always contact an electrician if we face any problem.
 
 # 11. Baker
-A baker is a person who works at a bakery. They sell and bake all the baked food like cakes, pastries, pancakes, muffins, donuts, etc.
+A baker is a person who works at a bakery. They sell and bake food like cakes, pastries, pancakes, muffins, donuts, etc.
 
 # 12. Writer
 Being a writer is a very creative job. A writer is very innovative. Their choice of words makes the stories and poems very interesting. A good writer can have one or multiple styles of expressing their ideas. The most common styles are novels, poems, dramas, plays, and stories.
@@ -305,6 +305,12 @@ A blacksmith is a person who makes different things out of scrap metals like iro
           Barber, Haircut
           Tailor, Clothes`,
 
+        `Engineer, Software
+          Mechanic, Machines
+          Photographer, Camera
+          Shephard, Sheep
+          Fisherman, Sea shore`,
+
         `Weaver, Weaving
           Gardner, Lawns
           Potter, Clay
@@ -336,6 +342,14 @@ A blacksmith is a person who makes different things out of scrap metals like iro
           `Gardner takes care of the law.
      A weaver sews our clothes as per our demands.
     Goldsmith makes things out of scrap.`
+        ],
+        [
+          `A driver is a person who drives cars.
+              An electrician is an expert of wires and electricity.
+              A nurse takes care of patients in the hospital.`,
+          `A salesman helps us in shops.
+      A write is a person who helps us in completing our homework.
+      Police protects the theives.`
         ],
         [
           `Blacksmith moulds the scrap into usable products.
@@ -390,22 +404,48 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       ]
     },
     {
-      label: 'Fill in the blanks.',
+      label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: 'drag-drop-1',
-      data: {
+      id: 'drag-and-drop',
+      commonData: {
         isPractice: false,
-        title: 'Fill in the blanks by dragging the correct option.',
+        title: 'Drag the correct option in each blank to form an alliteration.',
         styles: {
-          fontSize: '1.3rem',
+          fontSize: '1rem',
           dashWidth: 80
-        },
-        text: `A *teacher* works in schools.
-          A *singer* has a melodious voice.
-          A *writer* is very creative.
-          A *barber* styles our hair.
-          A *salesman* sells products and services.`
-      }
+        }
+      },
+      data: [
+        `A *teacher* works in schools.
+           A *singer* has a melodious voice.
+           A *writer* is very creative.
+           A *barber* styles our hair.
+           A *salesman* sells products and services.`,
+
+        `An *electrician* is an expert of electricity.
+A *nurse* takes care of the patients.
+A *doctor* takes care of our health.
+A *policeman* punishes the culprit.
+A *dancer* is an entertainer.`,
+
+        `A *blacksmith* works with the metals.
+A *farmer* works in agriculture.
+An *actor* works in Tv shows and movies.
+A *cobbler* repairs shoes.
+A *baker* makes cakes and pastries.`,
+
+        `A *weaver* works in clothing industries.
+A *potter* makes things of clay.
+A *photographer* can work in many areas, including wildlife.
+A *fisherman* catches fish and collects shells.
+A *tailor* sews clothes.`,
+
+        `A *shephard* has a lot of sheep.
+A *plumber* can fix running and leaking taps.
+A *driver* drives vehicles.
+A *carpenter* makes furniture.
+A *shopkeeper* has a shop.`
+      ]
     },
     {
       id: 'fillup',
@@ -424,14 +464,40 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       type: 'rightOne',
       label: 'Correct Spelling',
       id: 'correct-spelling',
-      data: {
-        title: 'Identify the correct spelling.',
-        text: `Police, Poliece
+      commonData: {
+        title: 'Identify the correct spelling.'
+      },
+      data: [
+        `Police, Poliece
           Dancer, Danser
           Barber, Barbar
           Writer, Riter
-          Cobbler, Cobblar`
-      }
+          Cobbler, Cobblar`,
+
+        `Electrician, Electricean
+          Salesman, Saleman
+          Blacksmith, Blacksmit
+          Singer, Singur
+          Dancer, Dancur`,
+
+        `Doctor, Docter
+          Shopkeeper, Shopkeper
+          Fisherman, Fishman
+          Driver, Driiver
+          Teacher, Teecher`,
+
+        `Baker, Bakeir
+          Carpenter, Carpent
+          Shepherd, Shefard
+          Plumber, Pumber
+          Nurse, Nusze`,
+
+        `Goldsmith, Goldsmit
+          Tailor, Taylor
+          Weaver, Weavar
+          Gardner, Gardnar
+          Potter, Pottar`
+      ]
     },
     {
       id: '1635960563407',

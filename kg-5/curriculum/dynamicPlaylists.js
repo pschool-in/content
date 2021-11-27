@@ -10,21 +10,6 @@ const vocabulary = [
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Missing Letter',
-    id: 'picture',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
-    label: 'Missing Letter - 2',
-    id: 'picture-2',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
-    label: 'Shapes and Symbols',
-    id: 'picture-3',
-    grade: 'kg, g1, g2, g3'
-  },
-  {
     label: 'Word from Picture',
     id: 'word-from-picture',
     grade: 'g3, g4, g5'
@@ -263,6 +248,21 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Connecting Word',
+    id: 'conjunction-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Conjunction-Introduction',
+    id: 'conjunction-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Conjunction',
+    id: 'conjunction-4',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Right Word',
     id: 'right-word',
     grade: 'g3, g4, g5'
@@ -361,6 +361,16 @@ const grammar = [
   {
     label: 'Adjective - 3',
     id: 'adjective-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Adjective - 4',
+    id: 'adjective-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Adjective - 5',
+    id: 'adjective-5',
     grade: 'g3, g4, g5'
   },
   {
@@ -509,6 +519,11 @@ const math = [
   {
     label: 'KG Math',
     id: 'kg-math',
+    grade: 'kg'
+  },
+  {
+    label: 'Math - Shapes',
+    id: 'kg-math-2',
     grade: 'kg'
   },
   {
@@ -1123,6 +1138,27 @@ const social = [
     id: 'social-living-5',
     grade: 'g3, g4, g5'
   }
+  /*
+  {
+    label: 'Disaster Management',
+    id: 'disaster-management-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Government',
+    id: 'government-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'India - 5',
+    id: 'india-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'First Aid',
+    id: 'first-aid-4',
+    grade: 'g3, g4, g5'
+  }*/
 ];
 
 const general = [
@@ -1213,6 +1249,46 @@ const english = [
     label: 'Word Search',
     id: 'wordsearch-1',
     grade: ' 1, 2,3'
+  },
+  {
+    label: 'Animals and Birds',
+    id: 'picture',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Fruits and Vegetables',
+    id: 'picture-2',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Nature and Other',
+    id: 'picture-3',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'House and Other',
+    id: 'picture-4',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Animals and Birds',
+    id: 'picture-5',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Fruits and Vegetables',
+    id: 'picture-6',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Vehicles and Jobs',
+    id: 'picture-7',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'More Images',
+    id: 'picture-8',
+    grade: 'kg, g1, g2, g3'
   },
   {
     label: 'Picture Match',

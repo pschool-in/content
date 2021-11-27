@@ -5,43 +5,21 @@ export default {
     list: [
 {
 id: 'fill-up',
-label: 'Fill up',
+label: 'Fillup',
 type: 'fillup',
 commonData: {
     title: `Tap each blank for options`
     },
     data: [
-        `I take my dog for a walk every evening. 
-        I put on its leash *and (but)* walk out of the door. 
-        Next, I take it to the park *and (but)* we walk.
-        *But (And)* it tries to unleash *and (but)* run across the park.
-        People ask me to unleash it *but (and)* he may bite someone.
-        After our walk, I take off his leash.`,
-        
-        `My neighbour is my best friend.
-        He is going on vacation *and (or)* asked me to go with him.
-        *But (So)* I have exams next month, *so (or)* my parents are not allowing.
-        They said I can *either (neither)* study *or (nor)* go with him.
-        *So (But)* I won't be going.`,
-        
-        `My favourite cartoon is Tom and Jerry. 
-        I watch it before going to school *or (so)* in the evening. 
-        I don't like when Tom and Jerry tease each other. 
-        *But (So)* it makes me laugh out loud.
-        *Not only (Even)* they fight a lot, *but also (or)* help each other.
-        *So (Or)* they care about each other a lot.`,
-        
-        `Raj lives in a small town *and (but)* the closest big city is an hour away.
-        Raj likes going to the city *because (or)* they find cattle on the way.
-        Raj loves cattle *so (or)* knows everything about them.
-        A baby is called a calf, a female is called a cow, *and (so)* a male is called an ox.
-        A group of cattle is called a herd.
-        He knows that cattle are sound *and (but)* quiet animals *and (so)* graze on grass.`,
-        
-        `I love reading books *so (and)* I go to the library.
-        I found a very interesting book *so (because)* I borrowed it for one week.
-        Today, I have to return it *but (so)* I haven't completed it. 
-        I will go *and (so)* issue it again in the evening.`
+`I take my dog for a walk every evening. I put on its leash *and (but)* walk out of the door. Next, I take it to the park *and (but)* we walk. *But (And)* it tries to unleash *and (but)* run across the park. People ask me to unleash it *but (and)* it may bite someone. After our walk, I take off his leash.`,
+
+`My neighbour is my best friend. He is going on vacation *and (or)* asked me to go with him. *But (So)* I have exams next month, *so (or)* my parents are not allowing. They said I can *either (neither)* study *or (nor)* go with him. *So (But)* I won't be going.`,
+
+`My favourite cartoon is Tom and Jerry. I watch it before going to school *or (so)* in the evening. I don't like when Tom *and (or)* Jerry tease each other. *But (So)* it makes me laugh out loud. *Not only (Even)* they fight a lot, *but also (or)* help each other. *So (Or)* they care about each other a lot.`,
+
+`Raj lives in a small town *and (but)* the closest big city is an hour away. Raj likes going to the city *because (or)* they find cattle on the way. Raj loves cattle *so (or)* knows everything about them. A baby is called a calf, a female is called a cow, *and (so)* a male is called an ox. A group of cattle is called a herd. He knows that cattle are sound *and (but)* quiet animals *and (so)* graze on grass.`,
+
+`I love reading books *so (and)* I go to the library. I found a very interesting book *so (because)* I borrowed it for one week. Today, I have to return it *but (so)* I haven't completed it. I will go *and (so)* issue it again in the evening.`
             ]
           },
     {
@@ -154,7 +132,7 @@ questions: [
                     options: 'and, so, or'
                     },
                     {
-                    qText: 'My dad wont come_____my mom will.',
+                    qText: `My dad won't come_____my mom will.`,
                     options: 'but, or, because'
                     },
                     {
@@ -186,7 +164,7 @@ questions: [
                     options: 'or, nor, and'
                     },
                     {
-                    qText: 'I slept______skipped my HW.',
+                    qText: 'I slept______skipped my homework.',
                     options: 'and, but, or'
                     }
                     ]

@@ -1,5 +1,5 @@
 export default {
-  id: 'adjectives-1',
+  id: 'adjective-1',
   label: 'Adjectives-1.',
   pdf: '',
   list: [
@@ -9,17 +9,21 @@ export default {
       id: 'adjectives-1-reading',
       data: {
         title: 'Describing Words',
-        text: `Describing words tell us about the noun. It describes the quality of the naming words. Some examples of describing words are:
-1. Smart teacher
-2. Big house
-3. Green parrot
-4. Round ball
-5. Pretty girl
-6. Two boys
-7. Thundering clouds
-8. Sweet food
-9. Soft toy
-10. Loving parents`
+        text: [
+          `Describing words tell us about the noun. It describes the quality of the naming words.
+eg: `,
+          {
+            type: 'html',
+            text: `<b>smart</b> teacher <br>
+<b>big</b> house <br>
+<b>green</b> parrot <br>
+<b>pretty</b> girl <br>
+<b>two</b> boys <br>
+<b>thundering</b> clouds <br>
+<b>soft</b> toy <br>
+<b>loving</b> parents`
+          }
+        ]
       }
     },
     {

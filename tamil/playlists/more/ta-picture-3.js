@@ -6,13 +6,14 @@ export default {
     {
       type: 'dragDropImgLabel',
       label: 'விலங்குகள்',
-      id: 'dragDropImgLabel',
+      id: 'dragDrop-animal',
       commonData: {
         title: 'விலங்குகளின் படங்களுடன் பெயரைப் பொருத்துக'
       },
       data: [
 
         `cat| பூனை 
+<<<<<<< HEAD
         dog| நாய் 
         goat| ஆடு
         sheep| செம்மறி ஆடு  
@@ -589,6 +590,27 @@ tabla| தபேலா`,
 guitar| ஆறு நரம்புள்ள இசைக்கருவி
 yazl| யாழ்
 damaru| உடுக்கை`
+=======
+dog| நாய் 
+goat| ஆடு
+sheep| செம்மறி ஆடு  
+horse| குதிரை 
+pig| பன்றி`
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation - Tamil',
+      id: 'dictation-2',
+      data: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'ta/ta-animals.mp3',
+        audioOffset: 2,
+        lang: 'ta',
+        words: 'பூனை, நாய், ஆடு, செம்மறி ஆடு, குதிரை'
+      }
+    }
+>>>>>>> 2f5264895f063abb68f1e6da91628dab657e4942
   ]
 }
 

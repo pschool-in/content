@@ -4,11 +4,11 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Pronoun',
+      label: 'Interrogative Pronoun',
       type: 'passage',
       id: 'pronoun-reading',
       data: {
-        title: 'Pronoun',
+        title: 'Interrogative Pronoun',
         text: `We know that pronouns are the words used to replace one or more nouns. Apart from Personal, Possessive, Demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
 These are used to ask questions. The sentences with interrogative pronouns always end up with question marks. 
 
@@ -61,50 +61,63 @@ Some examples of interrogative pronouns:
       }
     },
     {
-      id: 'fillup',
-      label: 'Fill in the blanks',
-      type: 'fillupOptions',
-      data: {
-        text: `*Why(what)* is the flight late?
-          *Who(When)* left the door open?
-          *Why(What)* are you sad?
-          *What(Which)* is your brother's name?
-          *Which(Whom)* car is yours?
-          *Who(When)* is the new student in the class?
-          *What(when)*do you like to wear tomorrow?
-          *Which (What)* one of these burgers is made of meat?
-          To *whom(who)* was the song dedicated?`,
-        title:
-          'Click on the blank and fill in the correct interrogative pronoun.'
-      }
+      id: 'fillup-1',
+      label: 'Fill in the blanks - 1',
+      type: 'fillup',
+      commonData: {
+        title: 'Click on the blank and fill in the correct interrogative pronoun.'
+      },
+    data: [
+`*Why(What)* is the flight late?
+*Who(When)* left the door open?
+*Why(What)* are you sad?
+*What(Which)* is your brother's name?
+*Which(Whom)* car is yours?
+*Who(When)* is the new student in the class?
+*What(When)*do you like to wear tomorrow?
+*Which (What)* one of these burgers is made of meat?
+To *whom (who)* was the song dedicated?
+*What (Which)* do you want to do?`,
+
+  `*What (When)* do you want for lunch?
+  *What (Whom)* is your mobile number?
+  *Whose (Which)* bike is this?
+  *Whose (Who)* books are those?
+  *What (Which)* is the time now?
+  *Whom (When)* is he talking to?
+  *Who (Whom)* is your favorite cartoon character?
+  *Which (What)* of these dresses do you like?
+  To *whom (what)* did he give his watch?
+  *What (When)* did you see in the park?`
+      ]
     },
-    {
-      type: 'classifySentence',
-      label: 'Noun or Pronoun',
-      id: 'identify-type',
-      data: {
-        title: 'Identify whether the underlined word is a noun or a pronoun.',
-        types: [
-          {
-            name: 'Noun',
-            text: `*Sita* runs fast.
-              *Tigers* have stripes.
-              These *flowers* are beautiful.
-              Who likes *apples*?`
-          },
-          {
-            name: 'Pronoun',
-            text: `I learned French by *myself*.
-              Can *I* have an ice cream?
-              Will you help *me* with my homework.
-              *We* will go shopping tomorrow.`
+{
+  type: 'classifySentence',
+  label: 'Noun or Pronoun',
+  id: 'identify-type',
+  data: {
+    title: 'Identify whether the underlined word is a noun or a pronoun.',
+    types: [
+      {
+        name: 'Noun',
+        text: `*Sita* runs fast.
+        *Tigers* have stripes.
+        These *flowers* are beautiful.
+        Who likes *apples*?`
+      },
+      {
+        name: 'Pronoun',
+        text: `I learned French by *myself*.
+        Can *I* have an ice cream?
+        Will you help *me* with my homework.
+        *We* will go shopping tomorrow.`
           }
         ]
       }
     },
     {
       id: 'classify-sentence',
-      label: 'Identify',
+      label: 'Identify - Reflexive or possessive pronoun',
       type: 'classifySentence',
       data: {
         title:
@@ -127,21 +140,36 @@ Some examples of interrogative pronouns:
         ]
       }
     },
-    {
-      id: 'fillup-2',
-      label: 'Fill in the blanks',
-      type: 'fillupOptions',
-      data: {
-        text: `*Her(his)* name is Sita.
-        *You (They)* are my best friend.
-        This pen is *mine(theirs)*.
-        *They(It)* are making a snowman.
-        *He (they)* sings beautifully.
-        I folded my clothes by *myself(themselves)*.
-        *Who(What)* is the new teacher?
-        *Which(Who)* is your favourite food?`,
-        title: 'Click on the blank and fill in the right pronoun.'
+     {
+        id: 'fillup-2',
+        label: 'Fill in the blanks - 2',
+        type: 'fillup',
+        commonData: {
+          title: 'Click on the blank and fill in the right pronoun.'
+        },
+      data: [
+`*Her(His)* name is Sita.
+*You (They)* are my best friend.
+This pen is *mine(theirs)*.
+*They(It)* are making a snowman.
+*He (They)* sings beautifully.
+I folded my clothes by *myself(themselves)*.
+*Who(What)* is the new teacher?
+*Which(Who)* is your favourite food?
+*I (Me)* went to library.
+Is that present for *me (I)*?`,
+
+`*We (Us)* are going to Corbett National Park on sunday.
+*We (Us)* live in a small house.
+*She (He)* is a smart girl.
+This is my book. Give it to *me (I)*.
+I can tell *that (those)* he is tensed.
+*This (Those)* is my favorite place for morning walk.
+We bought *ourselves (themselves)* some French fries before the match.
+When I woke up, I found *myself(itself)* on sofa.
+Manisha has a dog. *It (They)* is called Garfield.
+Look at my shoes. *They (It)* are so colorful.`
+        ]
       }
-    }
-  ]
+    ]
 };

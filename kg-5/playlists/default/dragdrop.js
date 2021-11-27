@@ -507,7 +507,7 @@ const dragdrop = {
 ?, -, ?, =, 8
 =, b, =, b, =
 12, +, 1, =, ?`,
-        answer: [3,5,9,1,13]
+        answer: [3, 5, 9, 1, 13]
       }
     },
     {
@@ -515,7 +515,7 @@ const dragdrop = {
       label: 'Math Crossword',
       id: 'mathcross',
       commonData: {
-        title: 'Click on the empty cells and fill it with the correct value.',
+        title: 'Click on the empty cells and fill it with the correct value.'
       },
       data: [
         {
@@ -524,7 +524,7 @@ const dragdrop = {
           ?, +, ?, =, 8
           =, b, =, b, =
           12, +, 6, =, ?`,
-                  answer: [4,10,8,0,18]
+          answer: [4, 10, 8, 0, 18]
         },
         {
           text: `?, - , 11, =, ?
@@ -532,7 +532,7 @@ const dragdrop = {
           ?, +, ?, =, 5
           =, b, =, b, =
           14, -, 8, =, ?`,
-                  answer: [12,1,2,3,6]
+          answer: [12, 1, 2, 3, 6]
         },
         {
           text: `?, - , 6, =, ?
@@ -540,7 +540,7 @@ const dragdrop = {
           ?, +, ?, =, 6
           =, b, =, b, =
           20, -, 8, =, ?`,
-                  answer: [12,1,2,3,6]
+          answer: [12, 1, 2, 3, 6]
         },
         {
           text: `?, - , 6, =, ?
@@ -548,8 +548,163 @@ const dragdrop = {
           ?, -, ?, =, 6
           =, b, =, b, =
           20, -, 8, =, ?`,
-                  answer: [12,6,8,2,12]
+          answer: [12, 6, 8, 2, 12]
         }
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'conversion',
+      label: 'Convert Units',
+      lockAfter: 2,
+      commonData: {
+        title: 'Convert units as requested',
+        type: 'conversion',
+        fontSize: '1.5rem',
+        allowFrac: true
+      },
+      data: [
+        `1^hour = ?^minutes, 60
+3^hours = ?^minutes, 180
+1^hour = ?^seconds, 3600
+1^minute = ?^seconds, 60
+3^minutes = ?^seconds, 180`,
+
+        `30^days = ?^weeks ?^days, 4, 2
+4^years 1^month = ?^months, 49
+5^days 17^hours = ?^hours, 137
+?^hours = 2 half hours, 1 
+349^seconds = ?^minutes ?^seconds, 5, 49`,
+
+        `2^hours 47^minutes = ?^minutes, 167
+4^hours 30^minutes = ?^minutes, 270
+300^minutes = ?^hours, 5
+300^seconds = ?^minutes, 5
+?0^hours 20^minutes = 200^minutes`
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'word-prob-1-3',
+      label: 'Answer the Word Problem -3',
+      lockAfter: 2,
+      commonData: {
+        title: 'Answer the word problem.',
+        type: 'word-problem'
+      },
+      data: [
+        `The train left the terminal at 11:20 a.m. and arrived at its destination at 2:40 p.m. How long did the train travel? | ?0 hours ?1 minutes | 3, 20
+        Jack’s meeting started at 2:45 p.m. and ended at 5:25 p.m. How long did the meeting last?  | ?0 hours ?1 minutes | 2, 40
+        Class will start at 9:15 am, but I reached school at 8:55 am. How much time do I have to wait? | ?0 minutes | 20
+        Ravi works for 8 hours in a day. A particular job takes 40 hours to complete. How many days should Ravi work to complete the job? | ?0 days | 5
+        I left home at 9:30 am and reached theatre at 9:45 am and after 20 minutes the movie started. How long was the time between I left home and movie began? | ?0 minutes | 35`
+      ]
+    },
+    {
+      label: 'Force - MCQ',
+      type: 'mcq',
+      id: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `It takes John 25 minutes to go to school and it takes Ashok 50 minutes to go to school. Today, John left home at 8:30 a.m. and Ashok left home at 8:15 a.m. Who arrived at school earlier?`,
+            options: `John, Ashok, Both will reach at the same time`
+          },
+          {
+            qText: `Sheela has a homework to write 5 pages. She takes 5 minutes to complete one page. Her little brother Ravi has a homework to write 2 pages. He takes 10 minutes to complete one page. Who will take more time to complete the homework.`,
+            options: `Sheela, Ravi, Both will take same time`
+          },
+          {
+            qText: `2 hour movie started at 10:30 am. By what time the movie gets over?`,
+            options: `12:30 pm, 12:30 am, 12:00 am, 12:00 pm`
+          },
+          {
+            qText: `The doctor takes 5 minutes for each patient. I am the sixth patient in the queue. If the doctor arrives after 15 minutes, how much time do I have to wait to see the doctor?`,
+            options: `40 minutes, 25 minutes, 30 minutes`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Adjectives-1',
+      type: 'passage',
+      id: 'adjectives-1-reading',
+      data: {
+        title: 'Describing Words',
+        text: [
+          `Describing words tell us about the noun. It describes the quality of the naming words.
+eg: `,
+          {
+            type: 'html',
+            text: `<b>smart</b> teacher <br>
+<b>big</b> house <br>
+<b>green</b> parrot <br>
+<b>pretty</b> girl <br>
+<b>two</b> boys <br>
+<b>thundering</b> clouds <br>
+<b>soft</b> toy <br>
+<b>loving</b> parents`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Type of Adjective',
+      id: 'adjective-type',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the highlighted adjective.',
+        types: [
+          {
+            name: 'Quality',
+            text: `He is a clever boy.
+Naina has a *black* dog.
+This box is *heavy*.
+She is an *intelligent* girl.
+Her father is an *honest* person.`
+          },
+          {
+            name: 'Quantity',
+            text: `There is *no* milk in the glass.
+I ate *some* rice.
+She ate the *whole* apple.
+You should not spend *all* the money.
+Is there *any* mango in the basket?`
+          }
+        ]
+      }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the describing words',
+      id: 'select-word',
+      commonData: {
+        title: 'Tap on the describing words in these sentences.',
+        multiSelect: true
+      },
+      data: [
+        `A *poor* man was sitting on roadside. He wore *dirty* clothes. He asked for *hot* water. I bought him in a *big* jug.
+A *red* car was going on a *black* road. The *green* trees on *both* sides gave a *cool* breeze.
+The well is *deep*. It has an *iron* pully and *think* rope connected to a *big* bucket. We can get *fresh* water.`,
+
+        `A ball is *round* in shape.
+        A *good* chess player is usually *smart*.
+        My friend has a *brown* muffler.
+        I have a *red* cap.
+        Aman is *confused* about a maths problem.`,
+
+        `I read a story about an *ugly* witch.
+        A *fast* car always win in races.
+        Coconut trees are *tall*.
+        A lion roars very *loudly*.
+        Goods train is very *long*.`,
+
+        `A *poor* man was sitting on roadside.
+       This is a *pleasant* weather.
+       A *small* rat lives in our house.
+       I have a *purple* dress.
+       A *clean* table.`
       ]
     }
   ]
