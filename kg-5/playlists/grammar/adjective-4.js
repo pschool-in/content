@@ -1,15 +1,15 @@
 export default {
-    id: 'adjective-4',
-    label: 'Adjective-4',
-    pdf: '',
-    list: [
-      {
-        label: 'Adjective-4',
-        type: 'passage',
-        id: 'adjectives-4-reading',
-        data: {
-          title: 'Adjective-4',
-text: `Adjectives are the words that describe the "persons", "places", "things" etc. Adjectives or describing words talk about color, number, material, quality, quantity, size, feel, etc.
+  id: 'adjective-4',
+  label: 'Adjective-4',
+  pdf: '',
+  list: [
+    {
+      label: 'Adjective-4',
+      type: 'passage',
+      id: 'adjectives-4-reading',
+      data: {
+        title: 'Adjective-4',
+        text: `Adjectives are the words that describe the "persons", "places", "things" etc. Adjectives or describing words talk about color, number, material, quality, quantity, size, feel, etc.
 For example:
 1. Tarun is wearing a "red" shirt. (here "red" is an adjective that describes the noun "shirt" by letting us know what kind of shirt it is?)
 2. They have purchased a "square" table. (here "square" is an adjective that describes the noun "table" by letting us know the shape of the table)
@@ -33,77 +33,77 @@ Given below is the order of adjectives:
 For example :
 1. A strange, little, yellow leaf. Here the arrangement of the adjectives is as follows: "a" is an article, "strange" is an opinion or quality, "little" is the size, "yellow" is the color
 2. My dad is a tall, Indian Man. Here the arrangement of the adjectives is as follows: "tall" is a size, "Indian" is a Nationality.`
-  }
-},
-{
-type: 'group',
-label: 'Drag and Drop',
-id: '100',
-commonData: {
-    title: 'Identify the adjectives from the group of words given below and put them into the appropriate box.',
-    types: ['Adjectives', 'Non-adjectives']
-},
-data: [
-      [
-        `strange, little, yellow, round, tall`,
-        `leaf, plant, stem, fruit, soil`
-      ],
-      [
-        `red, seven, wooden, nice, small, soft`,
-        `pancakes, children, dress, knife, chair, mug`
-      ],
-      [
-        `brave, young, strong, intelligent, courageous`,
-        `Mowgli, lion, floor, boxer, player`
-      ],
-      [
-        `slowest, brown, huge, sharp, fast, dangerous`,
-        `crocodile, train, turtle, table, banana`
+      }
+    },
+    {
+      type: 'group',
+      label: 'Drag and Drop',
+      id: '100',
+      commonData: {
+        title:
+          'Identify the adjectives from the group of words given below and put them into the appropriate box.',
+        types: ['Adjectives', 'Non-adjectives']
+      },
+      data: [
+        [
+          `strange, little, yellow, round, tall`,
+          `leaf, plant, stem, fruit, soil`
+        ],
+        [
+          `red, seven, wooden, nice, small, soft`,
+          `pancakes, children, dress, knife, chair, mug`
+        ],
+        [
+          `brave, young, strong, intelligent, courageous`,
+          `Mowgli, lion, floor, boxer, player`
+        ],
+        [
+          `slowest, brown, huge, sharp, fast, dangerous`,
+          `crocodile, train, turtle, table, banana`
+        ]
       ]
-    ]
-  },
-   {
-        id: '200',
-        label: 'Match the following',
-        type: 'match',
-        commonData: {
-            title: 'Match the adjectives with suitable nouns.'
-        },
-       
-        data: [
-         `starry, night
+    },
+    {
+      id: '200',
+      label: 'Match the following',
+      type: 'match',
+      commonData: {
+        title: 'Match the adjectives with suitable nouns.'
+      },
+
+      data: [
+        `starry, night
          tall, trees
          naughty, boys
          woolen, clothes
          cold, weather`,
-         
-         `curly, hair
+
+        `curly, hair
          green, grass
          hot, milk
          angry, lion
          sweet, mango`,
 
-         `sick, boy
+        `sick, boy
          sour, grapes
          slow, tortoise
          calm, water
          salted, peanuts`,
 
-         `high, mountain
+        `high, mountain
          deep, sea
          sharp, knife
          old, man
-         round, table`,
-             ]
-           },
-           {
+         round, table`
+      ]
+    },
+    {
       label: 'Pick-out the adjective',
       type: 'matchByDragDrop',
       id: '300',
       commonData: {
         isPractice: false,
-        title:
-          'Drag and drop the correct adjective to complete the sentence.',
+        title: 'Drag and drop the correct adjective to complete the sentence.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -129,34 +129,34 @@ data: [
         My puppy is *playful*.`
       ]
     },
-           {
-        type: 'selectWord',
-        label: 'Find Me',
-        id: '400',
-        commonData: {
-          title: 'Identify the adjective in the sentence.'
-        },
-        data: [
-          `The tree is too *tall* to climb.
+    {
+      type: 'selectWord',
+      label: 'Find Me',
+      id: '400',
+      commonData: {
+        title: 'Identify the adjective in the sentence.'
+      },
+      data: [
+        `The tree is too *tall* to climb.
           Sita got *good* marks in the exam. She is very happy.
           The gold ring is *expensive*.
           Tarun is wearing a *red* shirt.
           The elephant is a *large* animal.`,
-  
-          `Ramya is a *brilliant* painter.
+
+        `Ramya is a *brilliant* painter.
           The music was *loud*.
           The wolf has *sharp* teeth.
           I lost my *new* anklet.
           Coconut trees are *tall*.`,
-  
-         `My sister likes *soft* music.
+
+        `My sister likes *soft* music.
          *Colorful* butterflies fly by my window every morning.
          The *white* car is my uncle's.
          *Fast* driving is dangerous.
          *Cold* weather makes me lazy.`
-        ]
-      },
-      {
+      ]
+    },
+    {
       label: 'Yes or No',
       id: '500',
       type: 'classifySentence',
@@ -187,19 +187,19 @@ data: [
       ]
     },
     {
-    id: '600',
-    label: 'Fill in the adjectives',
-    type: 'fillupOptions',
-    data: {
+      id: '600',
+      label: 'Fill in the adjectives',
+      type: 'fillupOptions',
+      data: {
         title: 'Fill up the correct order of adjectives in the sentence.',
         text: `She gave her a *tiny(soft)*, *soft(tiny)* scarf.
         She wore a *silly(pink)*, *pink(silly)* hat.
         I have *five(big)*, *big(five)*, *wooden(big)* pencils.
         The *little (pink)*, *pink(little)* mitten was lost.
         My dad is a *tall (Indian)*, *Indian(tall)* man.`
-        }
-      },
-       {
+      }
+    },
+    {
       id: '700',
       label: 'Complete the passage',
       type: 'fillup',
@@ -207,12 +207,12 @@ data: [
         title: `Drag and drop the adjectives to complete the passage.`
       },
       data: [
-`Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
+        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
 One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. 
 He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare.
 He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
 
-`Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
+        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
 One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! 
 He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
       ]
@@ -222,7 +222,8 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
       type: 'sequence',
       label: 'Order the Adjectives',
       commonData: {
-        title: 'Arrange the adjectives in the correct order to make a meaningful sentence.'
+        title:
+          'Arrange the adjectives in the correct order to make a meaningful sentence.'
       },
       data: [
         `A big brown bear.
@@ -248,9 +249,9 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
         Two ancient copper statues.
         A small round flower pot.
         A beautiful traditional saree.`
-       ]
+      ]
     },
-     {
+    {
       label: 'Identify the adjective',
       id: '900',
       type: 'mcq',
@@ -309,131 +310,130 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
       ]
     },
     {
-        label: 'Identify the order of adjectives',
-        id: '1000',
-        type: 'mcq',
-        commonData: {
-          title: 'Choose the appropriate options to complete the sentence.'
+      label: 'Identify the order of adjectives',
+      id: '1000',
+      type: 'mcq',
+      commonData: {
+        title: 'Choose the appropriate options to complete the sentence.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'I bought a pair of _____ sandals.',
+              options: 'red leather, leather red'
+            },
+            {
+              qText: 'It was a ____ bike.',
+              options: 'fast blue, blue fast'
+            },
+            {
+              qText: `It's a _______ hut.`,
+              options: 'small round, round small'
+            },
+            {
+              qText: `It's a _____ song.`,
+              options: 'beautiful old, old beautiful'
+            },
+            {
+              qText: `It's a ___ village.`,
+              options: 'lovely green, green lovely'
+            }
+          ]
         },
-        data: [
-          {
-            questions: [
-              {
-                qText: 'I bought a pair of _____ sandals.',
-                options: 'red leather, leather red'
-              },
-              {
-                qText: 'It was a ____ bike.',
-                options: 'fast blue, blue fast'
-              },
-              {
-                qText: `It's a _______ hut.`,
-                options: 'small round, round small'
-              },
-              {
-                qText: `It's a _____ song.`,
-                options: 'beautiful old, old beautiful'
-              },
-              {
-                qText: `It's a ___ village.`,
-                options: 'lovely green, green lovely'
-              }
-            ]
-          },
-          {
-            questions: [
-              {
-                qText: `It's a _______ watch.`,
-                options: 'cute Swiss, Swiss cute'
-              },
-              {
-                qText: 'There are two _____ lamps.',
-                options: 'big glass, glass big'
-              },
-              {
-                qText: 'It is a ______ bug.',
-                options: 'tiny black, black tiny'
-              },
-              {
-                qText: 'That is a ____ beach.',
-                options: 'wonderful Goan, Goan wonderful'
-              },
-              {
-                qText: 'This is an _______ job.',
-                options: 'exciting new, new exciting'
-              }
-            ]
-          },
-          {
-            questions: [
-              {
-                qText: 'This is a _____ island.',
-                options: 'beautiful small, small beautiful'
-              },
-              {
-                qText: 'I saw a ____ whale in the ocean.',
-                options: 'big black, black big'
-              },
-              {
-                qText: 'I have a ______ shirt.',
-                options: 'pink cotton, cotton pink'
-              },
-              {
-                qText: 'He is a _________ man.',
-                options: 'silly old, old silly'
-              },
-              {
-                qText: 'I ate a ________ pizza today.',
-                options: 'delicious Italian, Italian delicious'
-              }
-            ]
-          },
-          {
-            questions: [
-              {
-                qText: 'This is an ________story.',
-                options: 'amazing short, short amazing'
-              },
-              {
-                qText: 'This is a ______ bag.',
-                options: 'cotton sleeping, sleeping cotton'
-              },
-              {
-                qText: 'Lata Mangeshkar is a _____ singer.',
-                options: 'famous Indian, Indian famous'
-              },
-              {
-                qText: 'I have a ______ dress.',
-                options: 'beautiful blue, blue beautiful'
-              }
-            ]
-          },
-          {
-            questions: [
-              {
-                qText: 'I bought ______ tomatoes.',
-                options: 'big red, red big'
-              },
-              {
-                qText: 'I have a _____ dog.',
-                options: 'small white, white small'
-              },
-              {
-                qText: 'Those are ________ flowers.',
-                options: 'beautiful yellow, yellow beautiful'
-              },
-              {
-                qText: 'My aunt has a  _______ table.',
-                options: 'round brown, brown round'
-              },
-              {
-                qText: 'He is a ____ man.',
-                options: 'kind old, old kind'
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  };
-  
+        {
+          questions: [
+            {
+              qText: `It's a _______ watch.`,
+              options: 'cute Swiss, Swiss cute'
+            },
+            {
+              qText: 'There are two _____ lamps.',
+              options: 'big glass, glass big'
+            },
+            {
+              qText: 'It is a ______ bug.',
+              options: 'tiny black, black tiny'
+            },
+            {
+              qText: 'That is a ____ beach.',
+              options: 'wonderful Goan, Goan wonderful'
+            },
+            {
+              qText: 'This is an _______ job.',
+              options: 'exciting new, new exciting'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'This is a _____ island.',
+              options: 'beautiful small, small beautiful'
+            },
+            {
+              qText: 'I saw a ____ whale in the ocean.',
+              options: 'big black, black big'
+            },
+            {
+              qText: 'I have a ______ shirt.',
+              options: 'pink cotton, cotton pink'
+            },
+            {
+              qText: 'He is a _________ man.',
+              options: 'silly old, old silly'
+            },
+            {
+              qText: 'I ate a ________ pizza today.',
+              options: 'delicious Italian, Italian delicious'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'This is an ________story.',
+              options: 'amazing short, short amazing'
+            },
+            {
+              qText: 'This is a ______ bag.',
+              options: 'cotton sleeping, sleeping cotton'
+            },
+            {
+              qText: 'Lata Mangeshkar is a _____ singer.',
+              options: 'famous Indian, Indian famous'
+            },
+            {
+              qText: 'I have a ______ dress.',
+              options: 'beautiful blue, blue beautiful'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'I bought ______ tomatoes.',
+              options: 'big red, red big'
+            },
+            {
+              qText: 'I have a _____ dog.',
+              options: 'small white, white small'
+            },
+            {
+              qText: 'Those are ________ flowers.',
+              options: 'beautiful yellow, yellow beautiful'
+            },
+            {
+              qText: 'My aunt has a  _______ table.',
+              options: 'round brown, brown round'
+            },
+            {
+              qText: 'He is a ____ man.',
+              options: 'kind old, old kind'
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
