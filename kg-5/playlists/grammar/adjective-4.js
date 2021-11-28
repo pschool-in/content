@@ -111,22 +111,22 @@ For example :
       },
       data: [
         `The *naughty* boy was sent out of the music class by his teacher.
-        Walking is a *healthy* exercise.
-        Savitha is a *beautiful* girl.
-        Nupur likes *colorful* balloons.
-        A rabbit has *long* ears.`,
+Walking is a *healthy* exercise for everyone.
+Savitha is a *beautiful* girl in our class.
+Nupur likes *colorful* balloons.
+A rabbit has *long* ears.`,
 
         `My nephew is very *cute*.
-        It is a *huge* tree.
-        It was a *windy* day.
-        I have a *blue* phone.
-        The cheetah is the *fastest* mammal on the land.`,
+There is a *huge* tree in my garden.
+Yesterday was a *windy* day in my town.
+I have a *blue* phone in my bag.
+The cheetah is the *fastest* mammal on the land.`,
 
         `An octopus has eight *long* arms.
-        My dog has a *fluffy* tail.
-        A *green* pencil is there on the bench.
-        This is a *beautiful* house.
-        My puppy is *playful*.`
+My dog has a *fluffy* tail.
+I found a *green* pencil on my teacher's desk.
+This is a *beautiful* house in my colony.
+My puppy is very *playful* around children.`
       ]
     },
     {
@@ -177,12 +177,12 @@ For example :
         ],
         [
           `That big, black car goes really fast.
-          A round, black ball.
-          Five, little children.`,
+          A round, black ball
+          Five, little children`,
 
-          `little, five children
-          Full, three boxes
-          two square, red tables`
+          `little, five children.
+          Full, three boxes.
+          two red, sqaure tables`
         ]
       ]
     },
@@ -220,7 +220,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
     {
       id: '800',
       type: 'sequence',
-      label: 'Order the Adjectives',
+      label: 'Find the order of adjectives',
       commonData: {
         title:
           'Arrange the adjectives in the correct order to make a meaningful sentence.'
@@ -256,18 +256,18 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
       id: '900',
       type: 'mcq',
       commonData: {
-        title: 'Identify the adjectives in the sentence.'
+        title: 'Fill in the appropriate adjective to complete the sentence.'
       },
       data: [
         {
           questions: [
             {
-              qText: 'An adjective describes _____.',
-              options: 'a noun, a verb, an adverb'
+              qText: 'The mangoes are _____.',
+              options: 'sweet, tall, square'
             },
             {
-              qText: 'The order of adjectives after the number is ______.',
-              options: 'opinion, age, color'
+              qText: 'The lion has ______ claws.',
+              options: 'sharp, bushy, colorful'
             },
             {
               qText: 'The car is ______.',

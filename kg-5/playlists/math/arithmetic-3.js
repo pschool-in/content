@@ -71,7 +71,7 @@ export default {
           type: 'mul~x0~x'
         },
         {
-          type: 'mul~x0~x'
+          type: 'div~x0~x'
         },
         {
           type: 'mul~x00~x0'

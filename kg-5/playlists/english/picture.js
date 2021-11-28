@@ -204,45 +204,45 @@ cow| Cow
 donkey| Donkey
 horse| Horse`,
 
-        `pig| pig
-elephant| elephant
-lion | lion
-monkey| monkey
-hippo| hippo
-rhino| rhino`,
+        `pig| Pig
+elephant| Elephant
+lion | Lion
+monkey| Monkey
+hippo| Hippo
+rhino| Rhino`,
 
-        `fox| fox
-crocodile| crocodile
-zebra| zebra
-bear| bear
-camel| camel
-shark| shark`,
+        `fox| Fox
+crocodile| Crocodile
+zebra| Zebra
+bear| Bear
+camel| Camel
+shark| Shark`,
 
-        `whale| whale
-dolphin| dolphin
-tiger| tiger
-sheep| sheep
-fish| fish
-frog| frog`,
+        `whale| Whale
+dolphin| Dolphin
+tiger| Tiger
+sheep| Sheep
+fish| Fish
+frog| Frog`,
 
-        `crab| crab
-snake| snake
-bull | bull
-tortoise| tortoise
-rat| rat
-ant| ant`,
+        `crab| Crab
+snake| Snake
+bull | Bull
+tortoise| Tortoise
+rat| Rat
+ant| Ant`,
 
-        `bat| bat
-buffalo| buffalo
-butterfly| butterfly
-cheetah| cheetah
-bee | bee
-goldfish | goldfish`,
+        `bat| Bat
+buffalo| Buffalo
+butterfly| Butterfly
+cheetah| Cheetah
+bee | Bee
+goldfish | Goldfish`,
 
-        `spider | spider
-panda | panda
-giraffe| giraffe
-kangaroo| kangaroo`
+        `spider | Spider
+panda | Panda
+giraffe| Giraffe
+kangaroo| Kangaroo`
       ]
     },
     {
@@ -253,29 +253,29 @@ kangaroo| kangaroo`
         title: 'Drag and Drop the name on the images.'
       },
       data: [
-        `crow|CROW |_ROW
-        dove|DOVE |_OVE
-        duck|DUCK |_UCK
-        hen|HEN |_EN
-        chick| CHICK | _HICK
-        parrot|PARROT |_ARROT`,
+        `crow|Crow
+        dove|Dove
+        duck|Duck
+        hen|Hen
+        chick| Chick
+        parrot|Parrot`,
 
-        `peacock|PEACOCK |_EACOCK
-        penguin|PENGUIN |_ENGUIN
-        sparrow|SPARROW |_PARROW
-        crane| CRANE | _RANE`,
+        `peacock|Peacock
+        penguin|Penguin
+        sparrow|Sparrow
+        crane| Crane`,
 
-        `eagle| EAGLE | _AGLE
-        flamingo| FLAMINGO | _LAMINGO
-        kingfisher| KINGFISHER | _INGFISHER
-        myna| MYNA | _YNA
-        ostrich| OSTRICH | _STRICH
-        owl| OWL | _WL`,
+        `eagle| Eagle
+        flamingo| Flamingo
+        kingfisher| Kingfisher
+        myna| Myna
+        ostrich| Ostrich
+        owl| Owl`,
 
-        `rooster| ROOSTER | _OOSTER
-        vulture| VULTURE | _ULTURE
-        woodpecker| WOODPECKER | _OODPECKER
-        koel | KOEL | _OEL`
+        `rooster| Rooster
+        vulture| Vulture
+        woodpecker| Woodpecker
+        koel | Koel`
       ]
     }
   ]

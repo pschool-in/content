@@ -160,7 +160,7 @@ Mahesh bought *a* new watch.`
         }
       },
       {
-        label: 'Fill up',
+        label: 'Add suitable quantifiers',
         type: 'matchByDragDrop',
         id: '500',
         commonData: {
