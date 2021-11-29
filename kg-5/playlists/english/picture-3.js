@@ -7,6 +7,9 @@ export default {
       type: 'completeWord',
       id: 'nature',
       label: 'Nature',
+      commonData: {
+        images: 'custom'
+      },
       data: [
         `sun |SUN |_UN
 moon|MOON |_OON
