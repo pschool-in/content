@@ -304,6 +304,32 @@ These bananas are very *raw*.
 My Grandfather sat on a *broken* chair.
 I lost my *gold* bracelet.`
       ]
+    },
+    {
+  label: 'Identify the adjectives',
+  type: 'matchByDragDrop',
+  id: 'multi-select-word',
+  commonData: {
+    isPractice: false,
+    title: 'Select the adjectives in the passage.',
+    styles: {
+      fontSize: '1rem',
+      dashWidth: 80
     }
+  },
+  data: [
+`Trees are found everywhere. Some trees are *big* and some are trees *small*. 
+Some trees have *broad* leaves while some have *narrow* leaves. 
+Some trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
+
+`My cousin, Ram has a *large* farm. In that farm there are many plants and animals. 
+The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
+Ram sells *fresh* fruits and vegetables in the *big* market every Sunday.`,
+
+`A shopkeeper sells *tasty* and *fresh* apples and mangoes in different boxes. 
+There are *forty* mangoes in *large* box and *fifteen* mangoes in *small* box.
+He sells these fruits in a *big* supermarket.`
+          ]
+        }
   ]
 };
