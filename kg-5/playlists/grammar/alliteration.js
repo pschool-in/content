@@ -44,7 +44,19 @@ Rahul ran around the room for no *reason*.`,
 Sheep should *sleep* in a shed.
 Black bug bit a big *black* bear.
 Sheep *shouldn’t* sleep in a shack.
-How many feet of *fruit* did freaky Fred find?`
+How many feet of *fruit* did freaky Fred find?`,
+             
+`Ayush's aunt Anjali *ate* all apples.
+Dhanju's *dog* Dan dropped the ball.
+Fatima's father *fried* french fries.
+Granny *guided* the guard to grocery.
+Honeybees have *huge* honeycombs.`,
+             
+`Jane is *jogging* joyfully.
+Betty Botter *bought* some butter.
+A good cook *could* cook many cookies.
+Sheep should sleep in a shed.
+How much wood *would* a woodpecker peck?`
         ]
       },
       {
@@ -94,6 +106,18 @@ How many feet of *fruit* did freaky Fred find?`
             `My father works at an MNC.
             My pet's name is bony.`
           ]
+          [
+            `Silly Sally swiftly shooed seven silly sheep.
+            A tutor tried to tutor two tooters to toot.`,
+            `She likes her milk cold.
+            He plays a guitar when he's bored.`
+          ]
+          [
+            `I cannot bear to see a bear.
+            A tree toad loved a she-toad.`,
+            `I don't like vegetables.
+            The bollywood is full of actors and singers.`
+          ]
         ]
       },
           {
@@ -121,6 +145,12 @@ Vidhi saw a *jellyfish jiggle.*
 The *audience applauded* at the end of the play.
 We love *Abhay's aunt's apples.*
 *Falguni's friends fed* the street dogs.`,
+                
+`*See’s saw sawed Soar’s seesaw.*
+Raj *picked pepper powder.*
+I cannot *bear* to see a *bear.*
+I *had* to *hurry home* because grandma was baking cookies.
+The *baron* was *busy* as a *bee.*`
        ]
       }
     ]
