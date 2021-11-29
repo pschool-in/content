@@ -190,7 +190,6 @@ Joyously, Joyosly`
     label: 'Select the adverb of manners',
     type: 'selectWord',
     id: 'select-word',
-
     data: {
       title: `Tap on the adverb of manners in the following sentences.`,
       text: `He was in a hurry. He had a meeting. So, he *quickly* drank the water.
@@ -202,6 +201,6 @@ Joyously, Joyosly`
   He is *eagerly* waiting for his job letter. He has worked very hard for this.
   My teacher has *faithfully* worked for my school. She will be awarded for respect.`
     }
-  },
+  }
  ]
 };
