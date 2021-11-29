@@ -351,6 +351,46 @@ Some nouns use different words as plural. Some examples are:
         There are twenty *sheep (sheeps)* in the farm.
         I saw two black *fish (fishes)* in the pond.`
       ]
-    }
-  ]
-};
+    },
+    {
+        label: 'Fish or Fishes',
+        type: 'fillupOptions',
+        id: 'fillup-fixed-options',
+    
+        data: {
+          title: `Tap on each blank and choose the right option.`,
+          text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of different kind, they're called *fishes (fish)*.`
+        }
+      },
+      {
+        label: 'Cow or Cows',
+        type: 'fillupOptions',
+        id: 'fillup-fixed-options',
+    
+        data: {
+          title: `Tap on each blank and choose the right option.`,
+          text: `A *cow (cows)* is a very common animal in India. There are more than 300 million *cows (cow)* in India. *Cows (Cow)* give us milk. Baby *cows (cow)* are called calves. We often see *cows (cow)* chewing. A group of *cows (cow)* is called a herd. *Cows (Cow)* are also called cattle.`
+        }
+      },
+      {
+        label: 'Dog or Dogs',
+        type: 'fillupOptions',
+        id: 'fillup-fixed-options',
+    
+        data: {
+          title: `Tap on each blank and choose the right option.`,
+          text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets.`
+        }
+      },
+      {
+        label: 'Spider or Spiders',
+        type: 'fillupOptions',
+        id: 'fillup-fixed-options',
+    
+        data: {
+          title: `Tap on each blank and choose the right option.`,
+          text: `A *spider (spiders)* has 8 legs. *Spiders (Spider)* make webs to trap the insects for food. Female *spiders (spider)* lay eggs. These are very common insects. *Spiders (Spider)* are generally found in the corners of our home.`
+        }
+      },
+    ]
+  };
