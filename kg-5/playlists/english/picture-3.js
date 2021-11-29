@@ -186,7 +186,7 @@ R, rainbow`
         L, ladder
         W, wheel`,
 
-        `B, baloon
+        `B, balloon
         P, park
         G, garden`
       ]
