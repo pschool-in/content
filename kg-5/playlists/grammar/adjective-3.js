@@ -49,7 +49,7 @@ When we compare qualities of two nouns we add "-er" + "than".`,
     },
     {
       type: 'group',
-      label: 'Drag and Drop',
+      label: 'Group',
       id: 'classify',
       commonData: {
         title:
@@ -92,7 +92,7 @@ When we compare qualities of two nouns we add "-er" + "than".`,
     },
     {
       type: 'match',
-      label: 'Match',
+      label: 'Match the adjectives',
       id: 'match',
       commonData: {
         title:
@@ -142,30 +142,36 @@ Wild, dog`
         }
       },
       data: [
-        `He is a *short* boy.
-      She wore a *beautiful* dress.
-      She bought a *big* kite.
-      I saw a *green* parrot in the zoo.
-      There is a *black* board in my classroom.
-      There is a *tall* mango tree in my garden.`,
+`He is a *short* boy.
+She wore a *beautiful* dress.
+She bought a *big* kite.
+I saw a *green* parrot in the zoo.
+There is a *black* board in my classroom.
+There is a *tall* mango tree in my garden.`,
 
-        `She is an *intelligent* student in the class.
-      I bought an *orange* chair from the market.
-      We live in a *big* city.
-      Ram is a *funny* guy.
-      She has a *black* cat.
-      My mother has a *curly* hair.`,
+`She is an *intelligent* student in the class.
+I bought an *orange* chair from the market.
+We live in a *big* city.
+Ram is a *funny* guy.
+She has a *black* cat.
+My mother has a *curly* hair.`,
 
-        `The dress is *pretty*.
-      The day is *bright*.
-      Mango is a *sweet* fruit.
-      Sita is an *honest* girl.
-      Our teacher is very *kind*.`
+`The dress is *pretty*.
+The day is *bright*.
+Mango is a *sweet* fruit.
+Sita is an *honest* girl.
+Our teacher is very *kind*.`,
+        
+`My brother was *lucky* to survive the floods.
+I am *afraid* to stay home alone.
+I went to the shop to pick up *red* apples.
+The *bright* sun rose in the morning.
+My mom was baking a *chocolate* cake for the party.`
       ]
     },
     {
       id: 'fill-up',
-      label: 'Fill in the blanks',
+      label: 'Adjectives',
       type: 'fillup',
       commonData: {
         title: `Select the correct word to complete the sentence.`
@@ -206,7 +212,7 @@ My cousin's house is very *big (fat)*.`
       ]
     },
     {
-      label: 'Fill-Up',
+      label: 'Identify the degrees of adjectives',
       type: 'matchByDragDrop',
       id: 'drag-and-drop-2',
       commonData: {
@@ -219,24 +225,39 @@ My cousin's house is very *big (fat)*.`
       },
       data: [
         `The lion is a *big* animal.
-      The Rhinoceros is *bigger* than lion.
-      The elephant is the *biggest* of three animals.`,
+The Rhinoceros is *bigger* than lion.
+The elephant is the *biggest* of three animals.`,
 
         `Suhani is a *clever* girl.
-      Geeta is *cleverer* than Suhani. 
-      Sita is the *cleverest* of all three.`,
+Geeta is *cleverer* than Suhani. 
+Sita is the *cleverest* of all three.`,
 
         `Krishna is a *tall* boy.
-      Hari is *taller* than Krishna.
-      Mahesh is the *tallest* boy in the class.`,
+Hari is *taller* than Krishna.
+Mahesh is the *tallest* boy in the class.`,
 
         `Teju is an *active* girl.
-      Laukya is *more active* than Teju.
-      Padma is the *most active* girl among three.`
+Laukya is *more active* than Teju.
+Padma is the *most active* girl among three.`,
+        
+        
+        `My room is *tidy*.
+My brother's room is *tidier than mine.
+My mother's room is the *tidiest* of all three.`,
+        
+        `March is a *hot* month.
+April is *hotter* than March.
+May is the *hottest* month of the year.`,
+        
+        `Lion is a *heavy* animal.
+Crocodile is *heavier* than lion.
+Elephant is the *heaviest* among all three.`
+        
+        
       ]
     },
     {
-      label: 'Identify-Adjective of Quantity',
+      label: 'Identify - adjective of quantity',
       type: 'selectWord',
       id: 'select-word-1',
       data: {
@@ -255,7 +276,7 @@ My sister ate the *whole* banana.`
     },
     {
       type: 'selectWord',
-      label: 'Identify-Adjective',
+      label: 'Identify - adjective',
       id: 'select-word-2',
       commonData: {
         title: 'Select the adjective in the sentence.'
