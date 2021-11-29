@@ -185,6 +185,23 @@ Joyously, Joyosly`
   Rapid, Rapidly, Rapidlly
   Rare, Rarely, Rarelly`
       ]
+    },
+    {
+    label: 'Select the adverb of manners',
+    type: 'selectWord',
+    id: 'select-word',
+
+    data: {
+      title: `Tap on the adverb of manners in the following sentences.`,
+      text: `He was in a hurry. He had a meeting. So, he *quickly* drank the water.
+  Someone made fun of her in the group. She was embarassed but laughed *nervously.*
+  She has a test tomorrow. So, she is reading *carefully.*
+  I was crossing the street and my mom was *anxiously* looking at me.
+  We had to move the sofa across the street. So we moved it *awkwardly* in front of the guests.
+  He *calmly* explained the lesson to me. I don't have any doubts.
+  He is *eagerly* waiting for his job letter. He has worked very hard for this.
+  My teacher has *faithfully* worked for my school. She will be awarded for respect.`
     }
-  ]
+  },
+ ]
 };
