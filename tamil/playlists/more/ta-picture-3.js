@@ -47,7 +47,7 @@ export default {
         buffalo|  எருமை`,
 
         `butterfly|  வண்ணத்துப்பூச்சி
-          cow|  மாடு
+          cow|  பசு 
           donkey| கழுதை
           giraffe| ஒட்டகச்சிவிங்கி
           kangaroo| கங்காரு
@@ -69,10 +69,10 @@ export default {
 
         `jackal| நரி
     prawn| இறால்
-    baboon| வாலில்லாக் குரங்கு
     bull| காளை
-    dinosaur| டைனோசர்
-    python| மலைப்பாம்பு`,
+    python| மலைப்பாம்பு
+    hamster| வெள்ளெலி
+    spider| சிலந்தி`,
 
         `bison| காட்டெருமை
     chameleon|பச்சோந்தி
@@ -81,13 +81,9 @@ export default {
     goldfish| தங்கமீன்
     seahorse| கடற்குதிரை`,
 
-        `hamster| வெள்ளெலி
-    spider| சிலந்தி
-    caterpillar| கம்பளிப்பூச்சி
-    panda| பாண்டா
-    starfish| நட்சத்திர மீன்`,
-
-        `dragonfly| தட்டான்
+       
+        `caterpillar| கம்பளிப்பூச்சி
+        dragonfly| தட்டான்
     fish| மீன் 
     earthworm| மண்புழு
     hedgehog| முள்ளெலி
@@ -118,7 +114,7 @@ export default {
       owl| ஆந்தை
       rooster| சேவல்
       woodpecker| மரங்கொத்தி
-      cuckoo| குயில்`,
+      koel| குயில்`,
 
         `swan| அன்னப்பறவை
       spotted-dove| மணிப்புறா
@@ -131,7 +127,7 @@ export default {
       myna| மைனா
       peacock| மயில்
       turkey| வான்கோழி
-      parakeet| பெரிய பச்சைக்கிளி`
+      macow| பஞ்சவர்ணக்கிளி`
       ]
     },
     {
@@ -145,8 +141,8 @@ export default {
         `apple| ஆப்பிள்
         grapes| திராட்சை
         banana| வாழைப்பழம்
-        avocado| வெண்ணைப்பழம்
-        guava| கொய்யாப்பழம்`,
+        guava| கொய்யாப்பழம்
+        dates| பேரிச்சை`,
 
         `jackfruit| பலாப்பழம் 
         mango| மாம்பழம்
@@ -158,19 +154,14 @@ export default {
         watermelon| தர்பூசணி 
         fig| அத்திப்பழம்
         custard-apple| சீதாப்பழம்
-        plum| ஊட்டி ஆப்பிள்`,
+        jamun| நாவல் பழம்`,
 
-        `dates| பேரிச்சை 
-        dragon-fruit| விருத்திரப்பழம்
-        sweet-potato| சர்க்கரை வள்ளி கிழங்கு 
-        jamun| நாவல் பழம்
-        pear| பேரிக்காய்`,
-
-        `jujube| இலந்தைப்பழம்
+        
+        `pear| பேரிக்காய்
+        jujube| இலந்தைப்பழம்
         sapotta| சப்போட்டா
         sugarcane| கரும்பு 
-          tapioca| மரவள்ளிக்கிழங்கு
-          blueberry| அவுரிநெல்லி`
+        tapioca| மரவள்ளிக்கிழங்கு`
       ]
     },
     {
@@ -185,8 +176,7 @@ export default {
         tomato| தக்காளி
         potato| உருளைக்கிழங்கு
         cabbage| முட்டைகோசு
-        corn| மக்காச்சோளம்
-        cucumber| வெள்ளரிக்காய்`,
+        corn| மக்காச்சோளம்`,
 
         `garlic| பூண்டு
         ginger| இஞ்சி
@@ -211,10 +201,10 @@ export default {
 
         `spinach| கீரை
         chickpea| கொண்டைக்கடலை
-        mustard-greens| கடுகு கீரை 
         turmeric| மஞ்சள்
         fenugreek| வெந்தயக்கீரை
-        tamarind| புளி`,
+        tamarind| புளி
+        mushroom| காளான்`,
 
         `curryleaf| கருவேப்பிலை
         broad-beans| அவரைக்காய் 
@@ -226,14 +216,14 @@ export default {
         `tulsi| துளசி
         banana-flower| வாழைப்பூ 
         bottlegourd| சுரைக்காய்
-        cluster-beans| கொத்தவரங்காய்
         ivygourd| கோவைக்காய்
         kohlrabi| நூல்கோல்`,
 
-        `mushroom| காளான்
-        snake-gourd| புடலங்காய்
+        `snake-gourd| புடலங்காய்
         spring-onion| வெங்காயத்தாள்
-        banana-stem| வாழைத்தண்டு`
+        banana-stem| வாழைத்தண்டு
+        cluster-beans| கொத்தவரங்காய்
+        cucumber| வெள்ளரிக்காய்`
       ]
     },
     {
@@ -247,13 +237,12 @@ export default {
         `lotus| தாமரை
         rose| ரோஜா
         sunflower| சூரியகாந்தி 
-        marigold| சாமந்தி 
-        hibiscus| செம்பருத்தி`,
+        marigold| சாமந்தி`,
 
-        `jasmine| முல்லை 
+        `hibiscus| செம்பருத்தி
+        jasmine| முல்லை 
         magnolia| செண்பகப்பூ
-        periwinkle| நித்தியகல்யாணிப்பூ
-        water-lily| அல்லி`
+       water-lily| அல்லி`
       ]
     },
     {
@@ -266,7 +255,6 @@ export default {
       data: [
         `aeroplane| விமானம்
         boat| படகு 
-        bus| பேருந்து 
         car| மகிழுந்து 
         cycle| மிதிவண்டி
         bullock-cart| மாட்டு வண்டி`,
@@ -280,9 +268,9 @@ export default {
 
         `cart| கட்டை வண்டி
         lorry| சரக்குந்து
-        
         rocket| ஏவுகனை
-        submarine| நீர்மூழ்கிக் கப்பல்`
+        submarine| நீர்மூழ்கிக் கப்பல்
+        bus| பேருந்து`
       ]
     },
     {
@@ -299,17 +287,16 @@ export default {
     postman| தபால்காரர்
     teacher| ஆசிரியர்`,
 
-        `blacksmith| கொல்லன்
-    cobbler| செருப்புத் தொழிலாளி
+        `blacksmith| கொல்லர்
+    cobbler| செருப்பு தைப்பவர் 
     goldsmith| பொற்கொல்லர்
-    potter| குயவன்
+    potter| குயவர்
     weaver| நெசவாளர்`,
-
-        `carpenter| தச்சர்
-   
-    warrior| போர்வீரன்
-    nurse| செவிலியர்
-    sailor| மாலுமி`,
+    
+       `carpenter| தச்சர்
+       warrior| போர்வீரர்
+      nurse| செவிலியர்
+      sailor| மாலுமி`,
 
         `chef| சமையல்காரர்
     doctor| மருத்துவர்
@@ -360,7 +347,7 @@ export default {
     park| பூங்கா`,
 
         `garden| தோட்டம்
-    touch-me-not| தொட்டாற் சிணுங்கி
+    touch-me-not| தொட்டாற்சிணுங்கி
     yagna| யாகம்
     yarn-ball| நூல் கண்டு
     bow| வில்
@@ -392,7 +379,7 @@ scarf| கழுத்துத்துண்டு`,
         `
 sweater| கம்பளிச்சட்டை
 shirt| சட்டை
-jacket| மேலங்கி
+coat| மேலங்கி
 hat| தொப்பி
 trousers| கால்சட்டை`
       ]
@@ -428,8 +415,8 @@ trousers| கால்சட்டை`
       table| மேசை
       radio| வானொலி
       chair| நாற்காலி
-      
-      shelf| அலமாரி`,
+      shelf| அலமாரி
+      door| கதவு`,
 
         `grandfather| தாத்தா
       man| ஆண்
@@ -438,17 +425,12 @@ trousers| கால்சட்டை`
       girl| சிறுமி
       baby | குழந்தை`,
 
-        `door| கதவு
-        window| ஜன்னல்
-        air-conditioner| குளிரூட்டி
-        washing-machine| துணி துவைக்கும் இயந்திரம்
-        fridge| குளிர்சாதன பெட்டி`,
-
-        `toothbrush| பற்குச்சி
+        `window| ஜன்னல்
+      air-conditioner| குளிரூட்டி
+      fridge| குளிர்சாதன பெட்டி
       toothpaste| பற்பசை 
       bucket| வாளி
-      toilet| கழிப்பறை
-      soap| சவர்க்காரம்`,
+      toilet| கழிப்பறை`,
 
         `candle| மெழுகுவர்த்தி
     ball| பந்து
@@ -465,22 +447,21 @@ trousers| கால்சட்டை`
     broom| துடைப்பம்`,
 
         `pillow| தலையணை
-    bed-lamp| படுக்கை விளக்கு
     bed| மெத்தை
     basket| கூடை
     dustbin| குப்பை தொட்டி
-    handbag| கைப்பை`,
+    handbag| கைப்பை
+    soap| சவர்க்காரம்`,
 
         `stove| அடுப்பு
       fork| முள் கரண்டி
       knife|கத்தி
-      pan| உலோகத்தட்டு
+      pan| வாணலி 
       pot| பானை`,
 
         `plate| தட்டு
       tap| நீர்க்குழாய்
       lid| மூடி
-      
       salt| உப்பு
       cup| கோப்பை`,
 
@@ -510,25 +491,24 @@ trousers| கால்சட்டை`
 balance| தராசு
 blackboard| கரும்பலகை
 hose| குழாய்
-microscope| நுண்ணோக்கி`,
+microscope| நுண்ணோக்கி
+compass| திசைகாட்டி`,
 
         `needle| ஊசி
 plier| இடுக்கி
 Plough| கலப்பை
 saw| இரம்பம்
-spade| மண்வெட்டி`,
+spade| மண்வெட்டி
+screw| திருகு`,
 
         `telescope| தொலைநோக்கி
 test-tube| சோதனை குழாய்
 thermometer| வெப்பமானி
 trowel| கரணை
-`,
+awl| குத்தூசி
+screwdriver| திருப்புளி`,
 
-        `awl| குத்தூசி
-compass| திசைகாட்டி
-screw| திருகு
-screwdriver| திருப்புளி`
-      ]
+              ]
     },
     {
       type: 'dragDropImgLabel',
@@ -549,8 +529,7 @@ screwdriver| திருப்புளி`
     chicken| கோழி
     ice-cream| பனிக்கூழ்
     sweets|இனிப்பு
-    bread| ரொட்டி
-    `,
+    bread| ரொட்டி`,
 
         `juice| பழச்சாறு
     flour| மாவு
@@ -570,11 +549,10 @@ screwdriver| திருப்புளி`
         `conch| சங்கு
     drums|முரசு
     dhol| மத்தளம்
-    flute| புல்லாங்குழல்
-tabla| தபேலா`,
+    flute| புல்லாங்குழல்`,
 
-        `violin| நரம்பிசைக்கருவி
-guitar| ஆறு நரம்புள்ள இசைக்கருவி
+        `tabla| தபேலா
+        violin| நரம்பிசைக்கருவி
 yazl| யாழ்
 damaru| உடுக்கை`
       ]
