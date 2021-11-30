@@ -189,7 +189,7 @@ Joyously, Joyosly`
       {
         type: 'selectWord',
         label: 'Select the adverb of manners',
-        id: '500',
+        id: 'select',
         commonData: {
             title: 'Tap on the adverb of manners in the following sentences.',
             multiSelect: true
