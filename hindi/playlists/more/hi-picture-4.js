@@ -216,7 +216,7 @@ list: [
     `bug, खटमल
     cricket, झिंगुर
     chameleon, गिरगिट
-    hyena, लकड़बग्धा
+    hyena, लकड़बग्घा
     jackal, सियार
     polarbear, ध्रुवीय भालू`,
     
@@ -775,7 +775,7 @@ bull| सांड`,
 `bug| खटमल
 cricket| झिंगुर
 chameleon| गिरगिट
-hyena| लकड़बग्धा
+hyena| लकड़बग्घा
 jackal| सियार
 polarbear| ध्रुवीय भालू| ध्___ __`,
 
