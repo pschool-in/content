@@ -186,7 +186,7 @@ O, ostrich`,
 R, rooster
 V, vulture
 W, woodpecker
-H, hornbill`
+K, koel`
       ]
     },
     {
