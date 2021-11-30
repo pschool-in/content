@@ -186,7 +186,7 @@ export default {
   twig | Twig
   palanquin | Palanquin`,
 
-  `medicine | Medecine
+  `medicine | Medicine
   conch| Conch
   toothbrush | Toothbrush
   chocolate | Chocolate
