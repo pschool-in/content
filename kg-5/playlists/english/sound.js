@@ -1,5 +1,5 @@
 export default {
-    label: 'Picture and Audio',
+    label: 'Animals and Birds',
     id: 'audio',
     list: [
       {
