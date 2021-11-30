@@ -15,7 +15,7 @@ import clock from '../playlists/default/clock';
 import games from '../playlists/default/games';
 */
 
-import coloring from '../playlists/default/coloring.js';
+import fun from '../playlists/default/fun.js';
 import alphabets from '../playlists/default/alphabets.js';
 import grammar from '../playlists/default/grammar.js';
 import vocabulary from '../playlists/default/vocabulary.js';
@@ -35,7 +35,7 @@ let mainMenu = {
   label: 'Showcase',
   style: {},
   list: [
-    coloring,
+    fun,
     alphabets,
     //phonics,
     reading,

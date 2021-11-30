@@ -65,10 +65,11 @@ Some examples of interrogative pronouns:
       label: 'Fill in the blanks - 1',
       type: 'fillup',
       commonData: {
-        title: 'Click on the blank and fill in the correct interrogative pronoun.'
+        title:
+          'Click on the blank and fill in the correct interrogative pronoun.'
       },
-    data: [
-`*Why(What)* is the flight late?
+      data: [
+        `*Why(What)* is the flight late?
 *Who(When)* left the door open?
 *Why(What)* are you sad?
 *What(Which)* is your brother's name?
@@ -79,7 +80,7 @@ Some examples of interrogative pronouns:
 To *whom (who)* was the song dedicated?
 *What (Which)* do you want to do?`,
 
-  `*What (When)* do you want for lunch?
+        `*What (When)* do you want for lunch?
   *What (Whom)* is your mobile number?
   *Whose (Which)* bike is this?
   *Whose (Who)* books are those?
@@ -91,23 +92,23 @@ To *whom (who)* was the song dedicated?
   *What (When)* did you see in the park?`
       ]
     },
-{
-  type: 'classifySentence',
-  label: 'Noun or Pronoun',
-  id: 'identify-type',
-  data: {
-    title: 'Identify whether the underlined word is a noun or a pronoun.',
-    types: [
-      {
-        name: 'Noun',
-        text: `*Sita* runs fast.
+    {
+      type: 'classifySentence',
+      label: 'Noun or Pronoun',
+      id: 'identify-type',
+      data: {
+        title: 'Identify whether the underlined word is a noun or a pronoun.',
+        types: [
+          {
+            name: 'Noun',
+            text: `*Sita* runs fast.
         *Tigers* have stripes.
         These *flowers* are beautiful.
         Who likes *apples*?`
-      },
-      {
-        name: 'Pronoun',
-        text: `I learned French by *myself*.
+          },
+          {
+            name: 'Pronoun',
+            text: `I learned French by *myself*.
         Can *I* have an ice cream?
         Will you help *me* with my homework.
         *We* will go shopping tomorrow.`
@@ -140,15 +141,15 @@ To *whom (who)* was the song dedicated?
         ]
       }
     },
-     {
-        id: 'fillup-2',
-        label: 'Fill in the blanks - 2',
-        type: 'fillup',
-        commonData: {
-          title: 'Click on the blank and fill in the right pronoun.'
-        },
+    {
+      id: 'fillup-2',
+      label: 'Fill in the blanks - 2',
+      type: 'fillup',
+      commonData: {
+        title: 'Click on the blank and fill in the right pronoun.'
+      },
       data: [
-`*Her(His)* name is Sita.
+        `*Her(His)* name is Sita.
 *You (They)* are my best friend.
 This pen is *mine(theirs)*.
 *They(It)* are making a snowman.
@@ -159,7 +160,7 @@ I folded my clothes by *myself(themselves)*.
 *I (Me)* went to library.
 Is that present for *me (I)*?`,
 
-`*We (Us)* are going to Corbett National Park on sunday.
+        `*We (Us)* are going to Corbett National Park on sunday.
 *We (Us)* live in a small house.
 *She (He)* is a smart girl.
 This is my book. Give it to *me (I)*.
@@ -169,7 +170,55 @@ We bought *ourselves (themselves)* some French fries before the match.
 When I woke up, I found *myself(itself)* on sofa.
 Manisha has a dog. *It (They)* is called Garfield.
 Look at my shoes. *They (It)* are so colorful.`
+      ]
+    },
+    {
+      label: 'Pronouns',
+      type: 'fillupOptions',
+      data: {
+        text: `Saranya likes to cook. Everyone likes *her (his) * cooking. 
+  Kumar and his brother enjoy watching action films. This movie is for *them(they) *. 
+  Do you like movies? Please join *us (them) * at the theatre. 
+  I will meet Sangeetha tomorrow. I am meeting *her (him)* for the first time. 
+  You left *your (yours) * text books on the table. 
+  I want to know *who (whom)* is going to play as villain. 
+  Please eat whatever you want. The choice is *yours (your)*. 
+  Rekha told *him (his)* about the celebration next week. 
+  Rahul cannot come with *us (them)* today. 
+  She grows Jasmine on her terrace. *They (Them)* smell sweet. 
+  Peacock is our national bird. *It (They)* has beautiful feathers. 
+  Ram will visit *his (her) * grandmother this week. 
+  Don't walk fast. *We (Us)* feel tired. 
+  Every Sunday, we meet *them (they)* at the sea shore.`
+      },
+      id: '200'
+    },
+    {
+      type: 'classifySentence',
+      label: 'Reflexive vs Emphatic Pronouns',
+      data: {
+        title:
+          'Classify the below sentences as Reflexive and Emphatic Pronouns.',
+        types: [
+          {
+            name: 'Reflexive',
+            text: `He cuts *himself* while chopping the vegetables.
+I don't trust *myself* in tough times.
+We blame *ourselves* for the accident.
+He was speaking to *himself*.
+Be careful. You may hurt *yourself*.`
+          },
+          {
+            name: 'Emphatic',
+            text: `She *herself* cooked the food.
+I *myself* saw him.
+He *himself* cut the cake.
+We will watch the game *ourselves*.
+We saw the President *himself*.`
+          }
         ]
-      }
-    ]
+      },
+      id: 'reflexive-emphatic'
+    }
+  ]
 };
