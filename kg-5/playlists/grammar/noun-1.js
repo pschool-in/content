@@ -97,8 +97,8 @@ export default {
     *Rani* wrote a *letter*.
     The *dog* barks at *strangers*.
     I love *balloons*.`
-                ]
-              },
+    ]
+  },
 {
   type: 'selectWord',
   label: 'Select the noun-2',
