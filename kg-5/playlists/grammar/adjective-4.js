@@ -472,6 +472,5 @@ She said to herself, how *pretty* Thumbelina is!
 Later, she picked up Thumbelina and hopped back in to the wetlands.`
           ]
       }
-    
-  ]
+    ]
 };
