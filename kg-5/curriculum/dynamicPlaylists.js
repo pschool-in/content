@@ -359,6 +359,11 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Adjective - Introduction',
+    id: 'adjective-2',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Adjective - 3',
     id: 'adjective-3',
     grade: 'g3, g4, g5'
