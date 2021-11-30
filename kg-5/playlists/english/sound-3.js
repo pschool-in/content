@@ -205,6 +205,73 @@ export default {
                   'ring, drums, food, king, kite, ladder, wheel, park, garden'
               }
         ]
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Nature',
+        id: 'dictation-nature',
+        lockAfter: 2,
+        commonData: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/nature-body-flower-1.mp3'
+        },
+        data: [
+            {
+                audioOffset: 0,
+                words:
+                  'sun, moon, rain, star, milk, bird, fruits'
+              },
+              {
+                audioOffset: 14,
+                words:
+                  'leaf, world, nest, water-drop, waterfall, rainbow'
+              }
+        ]
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Body Parts',
+        id: 'dictation-bodyparts',
+        data: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/nature-body-flower-1.mp3',
+          audioOffset: 26,
+          words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
+        }
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Flowers',
+        id: 'dictation-flowers',
+        data: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/nature-body-flower-1.mp3',
+          audioOffset: 42,
+          words:
+            'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
+        }
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Pictures',
+        id: 'dictation-other',
+        lockAfter: 2,
+        commonData: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/birds-1.mp3'
+        },
+        data: [
+            {
+                audioOffset: 0,
+                words:
+                  'bell, brush, bone, radio, box, coin, top, balloon, stick'
+              },
+              {
+                audioOffset: 18,
+                words:
+                  'ring, drums, food, king, kite, ladder, wheel, park, garden'
+              }
+        ]
       }
     ]
   };

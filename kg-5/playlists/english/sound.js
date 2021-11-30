@@ -163,6 +163,60 @@ export default {
                   'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, koel'
               }
         ]
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Animals',
+        id: 'dictation-animal',
+        lockAfter: 2,
+        commonData: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/animals-1.mp3'
+        },
+        data: [
+            {
+                audioOffset: 0,
+                words:
+                  'cat, dog, goat, cow, donkey, horse, pig, elephant, lion, monkey'
+              },
+              {
+                audioOffset: 20,
+                words:
+                  'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
+              },
+              {
+                audioOffset: 40,
+                words:
+                  'tiger, sheep, fish, frog, crab, snake, bull, tortoise, rat, ant'
+              },
+              {
+                audioOffset: 60,
+                words:
+                  'bat, buffalo, butterfly, cheetah, bee, goldfish, spider, panda, giraffe, kangaroo'
+              }
+        ]
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Birds',
+        id: 'dictation-bird',
+        lockAfter: 2,
+        commonData: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/birds-1.mp3'
+        },
+        data: [
+            {
+                audioOffset: 0,
+                words:
+                  'crow, dove, duck, hen, chick, parrot, peacock, penguin, sparrow, crane'
+              },
+              {
+                audioOffset: 20,
+                words:
+                  'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, koel'
+              }
+        ]
       }
     ]
   };

@@ -139,6 +139,51 @@ export default {
           words:
           'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
         }
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Gadgets',
+        id: 'dictation-gadgets',
+        data: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/gadget-other-flowers-2.mp3',
+          audioOffset: 0,
+          words: 'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+        }
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Pictures',
+        id: 'dictation-other',
+        lockAfter: 2,
+        commonData: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/gadget-other-flowers-2.mp3'
+        },
+        data: [
+          {
+            audioOffset: 18,
+            words:
+              'knight, chariot, horse-carriage, yarn-ball, bow, arrow, fountain, pouch'
+          },
+          {
+            audioOffset: 34,
+            words:
+              'trolley, whistle, twig, palanquin, medicine, conch, toothbrush, chocolate, toothpaste'
+          }
+        ]
+      },
+      {
+        type: 'dictation',
+        label: 'Dictation Flowers',
+        id: 'dictation-flowers',
+        data: {
+          title: 'Listen to the sound and type the word.',
+          audio: 'kg-5/gadget-other-flowers-2.mp3',
+          audioOffset: 42,
+          words:
+          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+        }
       }
     ]
   };
