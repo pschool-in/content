@@ -7,6 +7,9 @@ export default {
       type: 'completeWord',
       id: 'nature',
       label: 'Nature',
+      commonData: {
+        images: 'custom'
+      },
       data: [
         `sun |SUN |_UN
 moon|MOON |_OON
@@ -186,7 +189,7 @@ R, rainbow`
         L, ladder
         W, wheel`,
 
-        `B, baloon
+        `B, balloon
         P, park
         G, garden`
       ]
