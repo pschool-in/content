@@ -180,7 +180,7 @@ export default {
       id: 'sound-other',
       lockAfter: 2,
       commonData: {
-        title: 'Listen to the sound and click on the picture.',
+        title: 'Listen to the sound and click on the word.',
         type: 'words',
         audio: 'kg-5/other-1.mp3'
       },
