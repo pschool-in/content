@@ -89,7 +89,7 @@ export default {
         {
           audioOffset: 20,
           words:
-            'cauliflower, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+            'cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
         },
         {
           audioOffset: 40,
