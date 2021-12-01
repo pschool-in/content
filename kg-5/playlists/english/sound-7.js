@@ -13,12 +13,12 @@ export default {
         {
           audioOffset: 0,
           text:
-            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
           text:
-            'train, ambulance, auto, cart, excavator, fire-engine, van, bulldozer, rocket, submarine'
+            'train, ambulance, auto, cart, excavator, fire-engine|fire engine, van, bulldozer, rocket, submarine'
         }
       ]
     },
@@ -56,7 +56,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
@@ -102,12 +102,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
           words:
-            'train, ambulance, auto, cart, excavator, fire-engine, van, bulldozer, rocket, submarine'
+            'train, ambulance, auto, cart, excavator, fire engine, van, bulldozer, rocket, submarine'
         }
       ]
     },
@@ -147,12 +147,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
           words:
-            'train, ambulance, auto, cart, excavator, fire-engine, van, bulldozer, rocket, submarine'
+            'train, ambulance, auto, cart, excavator, fire engine, van, bulldozer, rocket, submarine'
         }
       ]
     },

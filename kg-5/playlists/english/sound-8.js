@@ -11,7 +11,7 @@ export default {
         title: 'Listening Activity',
         audioOffset: 0,
         text:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web-camera|web camera'
       }
     },
     {
@@ -25,7 +25,7 @@ export default {
         {
           audioOffset: 18,
           text:
-            'knight, chariot, horse-carriage, yarn-ball, bow, arrow, fountain, pouch'
+            'knight, chariot, horse-carriage|horse carriage, yarn-ball|yarn ball, bow, arrow, fountain, pouch'
         },
         {
           audioOffset: 34,
@@ -43,7 +43,7 @@ export default {
         title: 'Listening Activity',
         audioOffset: 42,
         text:
-          'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water-lily'
+          'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water-lily|water lily'
       }
     },
     {
@@ -56,7 +56,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 0,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web-camera'
       }
     },
     {
@@ -92,7 +92,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 42,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water-lily'
       }
     },
     {
@@ -105,7 +105,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 0,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web camera'
       }
     },
     {
@@ -122,7 +122,7 @@ export default {
         {
           audioOffset: 18,
           words:
-            'knight, chariot, horse-carriage, yarn-ball, bow, arrow, fountain, pouch'
+            'knight, chariot, horse carriage, yarn ball, bow, arrow, fountain, pouch'
         },
         {
           audioOffset: 34,
@@ -141,7 +141,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 42,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water lily'
       }
     },
     {
@@ -153,7 +153,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 0,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web camera'
       }
     },
     {
@@ -169,7 +169,7 @@ export default {
         {
           audioOffset: 18,
           words:
-            'knight, chariot, horse-carriage, yarn-ball, bow, arrow, fountain, pouch'
+            'knight, chariot, horse carriage, yarn ball, bow, arrow, fountain, pouch'
         },
         {
           audioOffset: 34,
@@ -187,7 +187,7 @@ export default {
         audio: 'kg-5/gadget-other-flowers-2.mp3',
         audioOffset: 42,
         words:
-          'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, webcam'
+          'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water lily'
       }
     }
   ]
