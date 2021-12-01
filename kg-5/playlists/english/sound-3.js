@@ -115,7 +115,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',
-        audio: 'kg-5/birds-1.mp3'
+        audio: 'kg-5/other-1.mp3'
       },
       data: [
         {
@@ -136,7 +136,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the element of nature.',
         type: 'words',
-        audio: 'kg-5/nature-body-flower-1.mp3'
+        audio: 'kg-5/nature-body-flowers-1.mp3'
       },
       data: [
         {
@@ -156,7 +156,7 @@ export default {
       data: {
         title: 'Listen to the sound and click on the part.',
         type: 'words',
-        audio: 'kg-5/nature-body-flower-1.mp3',
+        audio: 'kg-5/nature-body-flowers-1.mp3',
         audioOffset: 26,
         words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
       }
@@ -168,7 +168,7 @@ export default {
       data: {
         title: 'Listen to the sound and click on the flower.',
         type: 'words',
-        audio: 'kg-5/nature-body-flower-1.mp3',
+        audio: 'kg-5/nature-body-flowers-1.mp3',
         audioOffset: 42,
         words:
           'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
@@ -182,7 +182,7 @@ export default {
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'words',
-        audio: 'kg-5/birds-1.mp3'
+        audio: 'kg-5/other-1.mp3'
       },
       data: [
         {
@@ -202,7 +202,7 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/nature-body-flower-1.mp3'
+        audio: 'kg-5/nature-body-flowers-1.mp3'
       },
       data: [
         {
@@ -221,7 +221,7 @@ export default {
       id: 'dictation-bodyparts',
       data: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/nature-body-flower-1.mp3',
+        audio: 'kg-5/nature-body-flowers-1.mp3',
         audioOffset: 26,
         words: 'ear, eye, foot, hair, hand, mouth, nose, tooth'
       }
@@ -232,7 +232,7 @@ export default {
       id: 'dictation-flowers',
       data: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/nature-body-flower-1.mp3',
+        audio: 'kg-5/nature-body-flowers-1.mp3',
         audioOffset: 42,
         words:
           'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia'
@@ -245,7 +245,7 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/birds-1.mp3'
+        audio: 'kg-5/other-1.mp3'
       },
       data: [
         {
