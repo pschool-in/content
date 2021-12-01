@@ -6,7 +6,7 @@ export default {
     {
       label: 'Personal Pronouns',
       type: 'passage',
-      id: 'personal-pronouns-reading',
+      id: 'reading',
       data: {
         title: 'Personal Pronouns',
         text: [
