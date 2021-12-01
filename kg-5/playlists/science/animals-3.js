@@ -496,6 +496,137 @@ export default {
         `Carrot, Rabbit, Fox, Lion`,
         `Tree, Deer, Lion`
       ]
+    },
+    {
+      label: 'Body structure of animals  - Reading',
+      type: 'passage',
+      id: 'passage',
+      data: {
+        title: 'Body structure of animals ',
+        text: `# Body structure of reptiles 
+        Reptiles have scales instead of hair or feathers. Reptiles are considered to be ancestors of birds and mammals. Dinosaurs are well known reptiles that became extinct. Reptiles include snakes, lizards, turtles, alligators and crocodiles. Snakes are reptiles that are without limbs. Reptiles shed and replace their scales throughout their lifetime.
+        # Body structure of insects
+        The common insects we see around us are bees, houseflies, mosquitos and beetles. All insects have three main parts in their body which are called head, thorax and abdomen.
+        The head contains two eyes, mouth and two hairy parts that are called antennae. The torax is the part of the body that bears wings and legs. The abdomen is the part of the body that consits of the heart and stomach.
+        # Body structure of fish
+        There are many different kinds of fish but all of them have some things in common. They breathe through organs called gills. They have fins in place of arms and legs. They are often covered by scales. The shape of their body helps them swim freely.
+        # Body structure of birds
+        All birds have wings but not all of them can fly. All birds also have feathers, Birds are the only living animals that have feathers. Birds are able to fly because of their body structure and feathers. Flying birds are strong but light. Their powerful chest muscles help them flap their wings. Their bodies are narrow towards the ends. Every bird has two legs, two feet and a bill or beak.
+        # Feathers
+        Feathers protect birds from water, heat and cold. At least once a year, birds shed their old feathers and grow new ones. This is called molting. Birds mainly have three types of feathers. The flight feathers help them to fly and are found on the wings and tail. The body feathers are usually coloured and they cover the entire body. The down feathers are soft, fluffy and always seen close to the body of a bird. It keeps them warm.
+        # Feet and Claws
+        All birds have two feet and four toes. They help the bird to walk, wade through water and catch food. The woodpecker has two toes in the front and two at the back. Their claws are long and curved. This helps them to climb up trees. Duck has three toes that are webbed and a little toe at the back. These help them to swim. The vulture has four toes with very sharp claws. These help them to catch prey. The sparrow has three toes in the front and one at the back so that they can hold on to the branches tightly. Cranes have long legs and four toes that are spread wide so that they can walk near banks of rivers and lakes to eat fish.
+        # Nesting Habits
+        Birds bulid nests to lay eggs and protect their babies. They use grass, straw, twigs and leaves to build their nests. Tailorbird uses its beak to stitch leaves to build the nest. Different birds build different kinds of nest in trees, but there are some birds like a peacock or a duck who build their nests on the ground.`
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Snake, limbless
+        Gills, fish
+        Antennae, insects
+        Feathers, birds
+        Dinosaur, extinct`,
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Reptiles have *scales* instead of hair or feathers.
+        All insects have three main parts in their body which are called head, *thorax* and abdomen.
+        All birds have *wings* but not all of them can fly.
+        Feathers *protect* birds from water, heat and cold.`
+      }
+    },
+    {
+      label: 'Who am I?',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Who am I?.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `I have 2 toes in front and 2 at the back. My claws are long and curved. Who am I? - *woodpecker*
+        I have webbed feet with a little toe at the back. Who am I? - *duck*
+        I have 4 toes with very sharp claws to catch prey. Who am I? - *vulture*
+        I have 3 toes in front and one at back to hold on to the branches. Who am I? - *sparrow*`
+      }
+    },
+    {
+      id: 'fillup-2',
+      label: 'Fill in the blanks',
+      type: 'fillupOptions',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Tailorbird uses its *beak (claws)* to stitch leaves to build the nest.
+        Birds mainly have *three (four)* types of feathers
+        Reptiles are considered to be ancestors of *birds (insects)* and mammals.
+        All birds have two feet and *four (six)* toes.`
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `Reptiles have scales instead of hair.
+            Birds are strong but light.`
+          },
+          {
+            name: 'False',
+            text: `Sparrow uses beak to stitch its nest.
+            Crane has webbed feet.
+            Fish breathes through lungs.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the best Answer - Animal food habit',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `How many parts are there in an insect's body?`,
+            options: '3, 4, 5'
+          },
+          {
+            qText:
+              'What do fishes have in place of arms and legs?',
+            options: 'fins, scales, gills'
+          },
+          {
+            qText:
+              `Which part of the insect's body bears wings?`,
+            options: 'thorax, head, abdomen'
+          },
+          {
+            qText: 'What is the process through which birds shed their feathers and grow new ones called?',
+            options: 'molting, malting, melting'
+          }
+        ]
+      }
     }
   ]
 };

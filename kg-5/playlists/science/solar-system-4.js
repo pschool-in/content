@@ -1,6 +1,6 @@
 export default {
   id: 'solar-system-4',
-  label: 'Solar System 2',
+  label: 'Solar System 3',
   pdf: '',
   lockAfter: 4,
   list: [

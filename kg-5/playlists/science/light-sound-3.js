@@ -130,8 +130,7 @@ export default {
             {
               name: 'True',
               text: `We cannot see through opaque objects.
-              Moon is a non-luminous object.
-              `
+              Moon is a non-luminous object.`
             },
             {
               name: 'False',
