@@ -1,0 +1,74 @@
+export default {
+    label: 'Light',
+    id: 'light-2',
+    list: [
+      {
+        label: 'Light and Shadow - Reading',
+        type: 'passage',
+        data: {
+          title: 'Light and Shadow',
+          text:
+            `# Light
+            Light comes from different sources called light sources; our main natural light source is the sun. Other sources include fire, stars and man-made light sources such as light-bulbs and torches. Thanks to light, we see life in glorious colors.
+            # Shadow
+            A shadow is the dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
+        },
+        id: 'passage'
+      },
+      {
+        label: 'Artificial vs Natural',
+        type: 'group',
+        id: 'artificial-natural',
+        data: {
+          title: 'Classify natural and artificial sources of light',
+          types: [
+            {
+                name: 'Artificial',
+                text: 'light bulb, torch, lamp, candle '
+              },
+              {
+                name: 'Natural',
+                text: 'sun, star, fire'
+              }
+          ]
+        }
+      },
+      {
+        id: 'true-false',
+        label: 'True or False',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify the sentences as true and false',
+          types: [
+            {
+              name: 'True',
+              text: `Sun is the most powerful source of light.
+              A candle is an artificial source of light.`
+            },
+            {
+              name: 'False',
+              text: `We do not need light to see objects.
+              Shadow is formed when light passes through objects.`
+            }
+          ]
+        }
+      },
+      {
+        label: 'Fill in the blanks',
+        id: 'fillup',
+        type: 'fillupOptions',
+        data: {
+          isPractice: false,
+          title: 'Click the blanks and fill it with the right word.',
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `The *sun (moon)* is the most powerful source of light. 
+          A shadow is formed on the *opposite (same)* side of the source of light.
+          We cannot see anything in a *dark (lit)* room.`
+        }
+      }
+    ]
+  };
+  

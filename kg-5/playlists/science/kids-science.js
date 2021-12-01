@@ -188,6 +188,46 @@ export default {
         ]
       },
       id: '1400'
+    },
+    {
+      label: 'Day vs Night',
+      type: 'group',
+      id: 'day-vs-night',
+      data: {
+        title: 'Classify the activities based on the time of day they are done.',
+        types: [
+          {
+              name: 'Day',
+              text: 'breakfast, read, play in the garden'
+            },
+            {
+              name: 'Night',
+              text: 'stargazing, sleeping, eating dinner'
+            }
+        ]
+      }
+    },
+    {
+      id: 'day-night',
+      label: 'Day or Night',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the activities based on the time of day they are done.',
+        types: [
+          {
+            name: 'Day',
+            text: `Having breakfast.
+            Going to school.
+            Reading.`
+          },
+          {
+            name: 'Night',
+            text: `Going to bed.
+            Having dinner.
+            Stargazing.`
+          }
+        ]
+      }
     }
   ]
 };

@@ -39,7 +39,7 @@ fish|FISH |_ISH
 frog|FROG |_ROG
 crab|CRAB |_RAB
 snake|SNAKE |_NAKE
-bull | BULL
+bull | _ULL
 tortoise|TORTOISE |_ORTOISE
 rat|RAT |_AT
 ant|ANT |_NT`,

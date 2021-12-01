@@ -209,12 +209,12 @@ only one seat ; few *seats(seat)*`
       data: [
         [
           `The women sat on the *bench*
+The books you are looking for are on that *shelf*.
 Which  is the sick *sheep?*
 The *child’s* parents are waiting outside.
 The children’s *bat* was lost.`,
 
-          `There are *mice* in the store room.
-The books you are looking for are on that *shelf*.         
+          `There are *mice* in the store room.         
 This is the way *monkeys* jump.
 There are three *kittens* in the barn.
 They are three *sisters* and one brother.
@@ -355,7 +355,7 @@ Some nouns use different words as plural. Some examples are:
     {
         label: 'Fish or Fishes',
         type: 'fillupOptions',
-        id: 'fillup-fixed-options',
+        id: 'fillup-sp-1',
     
         data: {
           title: `Tap on each blank and choose the right option.`,
@@ -365,7 +365,7 @@ Some nouns use different words as plural. Some examples are:
       {
         label: 'Cow or Cows',
         type: 'fillupOptions',
-        id: 'fillup-fixed-options',
+        id: 'fillup-sp-2',
     
         data: {
           title: `Tap on each blank and choose the right option.`,
@@ -375,7 +375,7 @@ Some nouns use different words as plural. Some examples are:
       {
         label: 'Dog or Dogs',
         type: 'fillupOptions',
-        id: 'fillup-fixed-options',
+        id: 'fillup-sp-3',
     
         data: {
           title: `Tap on each blank and choose the right option.`,
@@ -385,7 +385,7 @@ Some nouns use different words as plural. Some examples are:
       {
         label: 'Spider or Spiders',
         type: 'fillupOptions',
-        id: 'fillup-fixed-options',
+        id: 'fillup-sp-4',
     
         data: {
           title: `Tap on each blank and choose the right option.`,

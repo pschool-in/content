@@ -55,8 +55,7 @@ commonData: {
         commonData: {
             title: 'Match the following adjectives with appropriate nouns.'
         },
-       
-        data: [
+ data: [
 `high, mountain
 sunny, day
 deep, river
@@ -95,10 +94,10 @@ red, rose`,
     },
 {
   id: '300',
-  label: 'Matching adjectives',
+  label: 'Match - Adjectives and opposites',
   type: 'match',
   commonData: {
-      title: 'Match the adjectives with their corresponding opposites'
+      title: 'Match the adjectives with their corresponding opposites.'
   },
       data: [
 `old, new
@@ -127,7 +126,21 @@ wide, narrow
 first, last
 noisy, quiet
 deep, shallow
-polite, rude`
+polite, rude`,
+          
+ `high, low
+cold, hot
+heavy, light
+right, wrong
+best, worst
+interesting, boring`,
+          
+ `smooth, rough
+ancient, modern
+fresh, rotten
+fast, slow
+active, dull
+thick, thin`         
         ]
       },
   {
@@ -158,7 +171,18 @@ The chocolate cake was *tasty (wide)*.
 My pillow is *soft (tall)*.
 We wear *cotton (warm)* clothes in summer.
 Wolf is a *dangerous (pretty)* animal.
-These bananas are *sweet (sour)*.`
+These bananas are *sweet (sour)*.`,
+      
+  `A plane is very *fast (rich)*.
+Suresh is a *lazy (smart)* boy. He always fails in the exam.
+The *rich (poor)* man has got lot of money.
+The sums are *difficult (easy)*. She cannot solve them in the given time.
+The ball is *round (rectangle)* in shape.
+These boxes are *heavy (light)*, I cannot lift them myself.
+My mom bought a *pretty (ugly)* dress for my birthday.
+Rabbits are *cute (dangerous)* animals.
+My brother gave some money to the *poor (rich)* beggar.
+That *naught (sincere)* boy broke our balcony window.`    
     ]
   },
 {
@@ -177,7 +201,17 @@ Soon, my *playful* cat yawned. He was *tired*. I picked him up and put him on a 
 `Sita and Meera are twins. Preethi and Swapna live next door. Meera's mom packed some *tasty* snacks and water in a *big* basket. 
 The *four* friends walk to the nearby woods for a picnic. They spot an *old* tree. 
 Sita spreads the *new* mat under the tree and they all have their snacks. 
-Swapna sits on a *small* bench and watches the squirrels running up and down.`
+Swapna sits on a *small* bench and watches the squirrels running up and down.`,
+    
+`My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
+She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt and some oil 
+and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha. 
+She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix 
+and made *round* parathas with lots of butter and served hot.`,
+
+`This is my grandmother's house. There is a *pretty* garden in front of her house. 
+There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
+Every year we distribute these *tasty* mangoes to all our neighbours.` 
     ]
 },
   {

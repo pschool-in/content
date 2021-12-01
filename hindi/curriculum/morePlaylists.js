@@ -4,6 +4,22 @@ const more = [
     id: 'hi-picture-2'
   },
   {
+    label: 'चित्र-2',
+    id: 'hi-picture-3'
+  },
+  {
+    label: 'चित्र-3',
+    id: 'hi-picture-4'
+  },
+  {
+    label: 'ध्वनि',
+    id: 'hi-sound-2'
+  },
+  {
+    label: 'ध्वनि-2',
+    id: 'hi-sound-3'
+  },
+  {
     label: 'शब्द',
     id: 'hi-word-4'
   },

@@ -9,6 +9,7 @@ const vocabulary = [
     id: 'rhyming-words',
     grade: 'g2, g3, g4'
   },
+  /*
   {
     label: 'Word from Picture',
     id: 'word-from-picture',
@@ -19,6 +20,7 @@ const vocabulary = [
     id: 'word-from-picture-2',
     grade: 'g3, g4, g5'
   },
+  */
   {
     label: '3 Letter Words',
     id: 'simple-words',
@@ -109,6 +111,7 @@ const vocabulary = [
     id: 'compound-word',
     grade: 'g2, g3, g4'
   },
+  /*
   {
     label: 'Pick Words by Sound',
     id: 'pick-word',
@@ -119,6 +122,7 @@ const vocabulary = [
     id: 'pick-word-2',
     grade: 'g1, g2, g3'
   },
+  */
   {
     label: 'Words and Meaning',
     id: 'words-meaning',
@@ -1187,11 +1191,12 @@ const general = [
     id: 'classify-images',
     grade: 'kg, g1, g2'
   },
+  /*
   {
     label: 'Picture Activities',
     id: 'kg-picture',
     grade: 'kg, g1'
-  },
+  },*/
   {
     label: 'Match Colors',
     id: 'match-colors',
@@ -1221,6 +1226,41 @@ const general = [
     label: 'More Sudoku 9 x 9',
     id: 'sudoku9',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Easy Sudoku 4x4',
+    id: 'sudoku-4x4-easy',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Hard Sudoku 4x4',
+    id: 'sudoku-4x4-difficult',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Hard Sudoku 4x4',
+    id: 'sudoku-4x4-difficult',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Hard Sudoku 6x6',
+    id: 'sudoku-6x6-difficult',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Easy Sudoku 9x9',
+    id: 'sudoku-9x9-easy',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Medium Sudoku 9x9',
+    id: 'sudoku-9x9-medium',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Hard Sudoku 9x9',
+    id: 'sudoku-9x9-difficult',
+    grade: 'g3, g4, g5'
   }
 ];
 
@@ -1240,6 +1280,7 @@ const english = [
     id: 'vowels',
     grade: 'kg, 1, 2'
   },
+  /*
   {
     label: 'Sound Based',
     id: 'audio',
@@ -1250,6 +1291,7 @@ const english = [
     id: 'audio-2',
     grade: 'kg, g1, g2'
   },
+  */
   {
     label: 'Word Search',
     id: 'wordsearch-1',
@@ -1296,6 +1338,47 @@ const english = [
     grade: 'kg, g1, g2, g3'
   },
   {
+    label: 'Sound: Animals and Birds',
+    id: 'sound',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: Fruits and Vegetables',
+    id: 'sound-2',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: Nature and Other',
+    id: 'sound-3',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: House and Other',
+    id: 'sound-4',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: More Animals and Birds',
+    id: 'sound-5',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: More Fruits and Vegetables',
+    id: 'sound-6',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: Vehicles and Jobs',
+    id: 'sound-7',
+    grade: 'kg, g1, g2, g3'
+  },
+  {
+    label: 'Sound: More Images',
+    id: 'sound-8',
+    grade: 'kg, g1, g2, g3'
+  }
+  /*
+  {
     label: 'Picture Match',
     id: 'match-picture',
     grade: 'kg, g1, g2, g3'
@@ -1304,7 +1387,7 @@ const english = [
     label: 'Picture Match - 2',
     id: 'match-picture-2',
     grade: 'kg, g1, g2, g3'
-  }
+  }*/
 ];
 
 const gk = [
