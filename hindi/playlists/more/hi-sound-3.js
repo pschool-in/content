@@ -1,5 +1,5 @@
 export default {
-    label: 'ध्वनि',
+    label: 'ध्वनि-2',
     id: 'hi-sound-3',
     img: 'sound',
     list: [

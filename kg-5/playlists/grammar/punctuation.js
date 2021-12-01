@@ -269,7 +269,7 @@ I *haven't (have'nt)* seen her after the class.
 *It's (Its)* her birthday today.
 He *doesn't (does'nt)* like bananas.`,
 
-        `Mom says we *shouldn't (should'nt) lie.
+        `Mom says we *shouldn't (should'nt)* lie.
 My dad *doesn't (does'nt)* come home early.
 *I'll (Ill)* visit my grandma this Sunday.
 They *don't (do'nt)* like cake.
@@ -285,7 +285,7 @@ My dog *doesn't (does'nt)* bite.`
         types: [
           {
             name: 'Right',
-            text: `Don’t,
+            text: `Don’t
                   Shouldn’t
                    You’re`
           },

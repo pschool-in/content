@@ -59,7 +59,7 @@ Some more examples are;
 
           `We run in the park everyday.
     I take a nap every afternoon.
-    I will go to my friend's hounse on Thursday.`
+    I will go to my friend's house on Thursday.`
         ],
         [
           `I love ice cream but can't eat it in winters.

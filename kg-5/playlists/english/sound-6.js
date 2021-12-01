@@ -1,183 +1,182 @@
 export default {
-    label: 'More Fruits and Vegetables',
-    id: 'audio-6',
-    list: [
-      {
-        type: 'slides',
-        id: 'fruits',
-        label: 'Fruits',
-        commonData: {
-          audio: 'kg-5/fruits-vegetables-2.mp3'
-        },
-        data: [
-          {
-            audioOffset: 0,
-            text:
-              'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
-          },
-          {
-            audioOffset: 14,
-            text:
-              'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
-          }
-        ]
+  label: 'More Fruits and Vegetables',
+  id: 'sound-6',
+  list: [
+    {
+      type: 'slides',
+      id: 'fruits',
+      label: 'Fruits',
+      commonData: {
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'slides',
-        id: 'vegetables',
-        label: 'Vegetables',
-        commonData: {
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 0,
+          text:
+            'star-fruit|star fruit, dragon-fruit|dragon fruit, sugarcane, peach, sweet-potato|sweet potato, jamun, pear'
         },
-        data: [
-          {
-            audioOffset: 26,
-            text:
-              'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
-          },
-          {
-            audioOffset: 46,
-            text:
-              'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
-          }
-        ]
+        {
+          audioOffset: 14,
+          text:
+            'water-chesnut|water chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit|passion fruit'
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      id: 'vegetables',
+      label: 'Vegetables',
+      commonData: {
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'rightOne',
-        label: 'Identify Fruits',
-        id: 'pick-fruits',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and click on the fruit.',
-          type: 'image',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 26,
+          text:
+            'chickpea, mustard-greens|mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam|elephant yam, ashgourd, broad-beans|broad beans, snake-gourd|snake gourd'
         },
-        data: [
-            {
-                audioOffset: 0,
-                words:
-                  'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
-              },
-              {
-                audioOffset: 14,
-                words:
-                  'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
-              }
-        ]
+        {
+          audioOffset: 46,
+          text:
+            'banana-flower| banana flower, cluster-beans|cluster beans, kohlrabi, spring-onion|spring onion, banana-stem|banana stem, drumstick-leaves|drumstick leaves, raw-banana|raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Fruits',
+      id: 'pick-fruits',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the fruit.',
+        type: 'image',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'rightOne',
-        label: 'Identify Vegetables',
-        id: 'pick-vegetables',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and click on the vegetable.',
-          type: 'image',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
         },
-        data: [
-            {
-                audioOffset: 26,
-                words:
-                  'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
-              },
-              {
-                audioOffset: 46,
-                words:
-                  'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
-              }
-        ]
+        {
+          audioOffset: 14,
+          words:
+            'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Vegetables',
+      id: 'pick-vegetables',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the vegetable.',
+        type: 'image',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'rightOne',
-        label: 'Identify Fruits',
-        id: 'sound-fruits',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and click on the fruit.',
-          type: 'words',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 26,
+          words:
+            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
         },
-        data: [
-            {
-                audioOffset: 0,
-                words:
-                  'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
-              },
-              {
-                audioOffset: 14,
-                words:
-                  'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
-              }
-        ]
+        {
+          audioOffset: 46,
+          words:
+            'banana-flower, cluster-beans, kohlrabi, spring-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Fruits',
+      id: 'sound-fruits',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the fruit.',
+        type: 'words',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'rightOne',
-        label: 'Identify Vegetables',
-        id: 'sound-vegetables',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and click on the vegetable.',
-          type: 'words',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'star fruit, dragon fruit, sugarcane, peach, sweet potato, jamun, pear'
         },
-        data: [
-            {
-                audioOffset: 26,
-                words:
-                  'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
-              },
-              {
-                audioOffset: 46,
-                words:
-                  'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
-              }
-        ]
+        {
+          audioOffset: 14,
+          words:
+            'water chesnut, jujube, sapotta, tapioca, blueberry, passion fruit'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Vegetables',
+      id: 'sound-vegetables',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and click on the vegetable.',
+        type: 'words',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'dictation',
-        label: 'Dictation Fruits',
-        id: 'dictation-fruits',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and type the word.',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 26,
+          words:
+            'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad beans, snake gourd'
         },
-        data: [
-            {
-                audioOffset: 0,
-                words:
-                  'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
-              },
-              {
-                audioOffset: 14,
-                words:
-                  'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
-              }
-        ]
+        {
+          audioOffset: 46,
+          words:
+            'banana flower, cluster beans, kohlrabi, spring onion, banana stem, drumstick leaves, raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation Fruits',
+      id: 'dictation-fruits',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
       },
-      {
-        type: 'dictation',
-        label: 'Dictation Vegetables',
-        id: 'dictation-vegetables',
-        lockAfter: 2,
-        commonData: {
-          title: 'Listen to the sound and type the word.',
-          audio: 'kg-5/fruits-vegetables-2.mp3'
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'star fruit, dragon fruit, sugarcane, peach, sweet potato, jamun, pear'
         },
-        data: [
-            {
-                audioOffset: 26,
-                words:
-                  'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
-              },
-              {
-                audioOffset: 46,
-                words:
-                  'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
-              }
-        ]
-      }
-    ]
-  };
-  
+        {
+          audioOffset: 14,
+          words:
+            'water chesnut, jujube, sapotta, tapioca, blueberry, passion fruit'
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation Vegetables',
+      id: 'dictation-vegetables',
+      lockAfter: 2,
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/fruits-vegetables-2.mp3'
+      },
+      data: [
+        {
+          audioOffset: 26,
+          words:
+            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
+        },
+        {
+          audioOffset: 46,
+          words:
+            'banana flower, cluster beans, kohlrabi, spring onion, banana stem, drumstick leaves, raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+        }
+      ]
+    }
+  ]
+};

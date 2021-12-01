@@ -54,37 +54,38 @@ export default {
       ]
     }
   },
-{
-  type: 'selectWord',
-  label: 'Identify',
-  id: 'select-word',
-  commonData: {
-    title: 'Select the common and neuter gender nouns in these sentences.'
-  },
-  data: [
-    `*Birds* live in trees.
-    I love my *parents*.
-    The *baby* is crying.
-    The *young ones* are playing.
-    There are forty *students* in the class.
-    My English *teacher* is very polite.
-    The *doctor* gave me medicines.
-    I have very good *friends*.
-    I saw a *stranger* in the park.
-    The *children* are praying.`,
-
-    `The books are on the *table*.
-    He is sitting on the *chair*.
-    The *picutre* is on the *wall*.
-    This *stick* is made of *wood*.
-    She rang the *bell*.
-    Our *house* is in the city.
-    There are many red *bricks* on roadside.
-    I forgot my *phone* at home.
-    That *car* was very fast.
-    This is my *video game*.`
-    ]
-},
+  {
+    type: 'selectWord',
+    label: 'Identify',
+    id: 'select-word-multi',
+    commonData: {
+        title: 'Tap on all the common and neuter gender nouns',
+        multiSelect: true
+      },
+    data: [
+        `*Birds* live in *trees*.
+        I love my *parents*.
+        The *baby* is crying.
+        The *young ones* are playing.
+        There are forty *students* in the *class*.
+        My English *teacher* is very polite.
+        The *doctor* gave me *medicines*.
+        I have very good *friends*.
+        I saw a *stranger* in the *park*.
+        The *children* are praying.`,
+    
+        `The *books* are on the *table*.
+        He is sitting on the *chair*.
+        The *picutre* is on the *wall*.
+        This *stick* is made of *wood*.
+        She rang the *bell*.
+        Our *house* is in the *city*.
+        There are many red *bricks* on *roadside*.
+        I forgot my *phone* at *home*.
+        That *car* was very fast.
+        This is my *video game*.`
+        ]
+    },
 {
   type: 'selectWord',
   label: 'Identify the neuter gender',
