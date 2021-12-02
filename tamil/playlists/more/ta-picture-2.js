@@ -235,16 +235,16 @@ export default {
         type: 'image',
         lang: 'ta',
         text:
-        [`lotus, தாமரை
+                  `lotus, தாமரை
         rose, ரோஜா
         sunflower, சூரியகாந்தி 
         marigold, சாமந்தி
         hibiscus, செம்பருத்தி 
-        jasmine, மல்லி 
-        magnolia, செண்பகப்பூ
-        water-lily, அல்லி`
-      ]
-    }
+        jasmine, முல்லை
+        magnolia, செண்பகம்
+        water-lily, அல்லி
+        mogra, குண்டுமல்லி`
+          }
     },
     {
       type: 'connectLetters',
@@ -255,14 +255,15 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
-        data: 
+        text: 
         `ear, காது 
-          eye, கண்
-          hair, முடி
-          mouth, வாய் 
-          nose, மூக்கு 
-          tooth, பல்`
-      }
+        eye, கண்
+        hair, முடி
+        mouth, வாய் 
+        nose, மூக்கு 
+        tooth, பல்
+        foot| பாதம்`
+             }
     },
     {
       type: 'connectLetters',
@@ -280,18 +281,18 @@ export default {
         boat, படகு 
         car, மகிழுந்து 
         cycle, மிதிவண்டி
-        bullock-cart, மாட்டு வண்டி
+        bullock-cart, மாட்டுவண்டி
         ship, கப்பல்
         train, தொடர்வண்டி
-        tractor, இழுவை இயந்திரம்
+        tractor, இழுவைஇயந்திரம்
         ambulance, அவசரஊர்தி
-        fire-engine, தீயணைப்பு வாகனம்`,
+        fire-engine, தீயணைப்புவாகனம்`,
         
-        `horse-carriage, குதிரை வண்டி
-        cart, கட்டை வண்டி
+        `horse-carriage, குதிரைவண்டி
+        cart, கட்டைவண்டி
         lorry, சரக்குந்து
         rocket, ஏவுகனை
-        submarine, நீர்மூழ்கிக் கப்பல்
+        submarine, நீர்மூழ்கிக்கப்பல்
         bus, பேருந்து`
       ]
     },
@@ -307,14 +308,14 @@ export default {
         lang: 'ta'
       },
       data: [
-        `astronaut,விண்வெளி வீரர்
+        `astronaut,விண்வெளிவீரர்
     clown, கோமாளி
     fisherman, மீனவர்
     postman, தபால்காரர்
     teacher, ஆசிரியர்`,
 
         `blacksmith, கொல்லர்
-    cobbler, செருப்பு தைப்பவர் 
+    cobbler, செருப்புதைப்பவர் 
     goldsmith, பொற்கொல்லர்
     potter, குயவர்
     weaver, நெசவாளர்`,
@@ -482,19 +483,21 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
-      },
-      text:
-      [`conch, சங்கு
-      drums,முரசு
-      dhol, மத்தளம்
-      flute, புல்லாங்குழல்
-      tabla, தபேலா
-      violin, நரம்பிசைக்கருவி
-      yazl, யாழ்
-      damaru, உடுக்கை`
-    ]
-}
+        lang: 'ta',
+        text: 
+        `conch, சங்கு
+        drums,முரசு
+        dhol, மத்தளம்
+        flute, புல்லாங்குழல்
+        tabla, தபேலா
+        violin, நரம்பிசைக்கருவி
+        yazl, யாழ்
+        damaru, உடுக்கை`
+             }
+    }
+  ]
+};
+    
 /*
     //end of connect word
     {
@@ -785,5 +788,4 @@ lorry| சரக்குந்து`
       ]
     }
     */
-  ]
-};
+  
