@@ -65,7 +65,7 @@ export default {
           },
           {
             audioOffset: 18,
-            words: 'ring, drums, food, king, kite, ladder, wheel, park, garden'
+            words: 'ring, drum, food, king, kite, ladder, wheel, park, garden'
           }
         ]
       },
@@ -128,7 +128,7 @@ export default {
           },
           {
             audioOffset: 18,
-            words: 'ring, drums, food, king, kite, ladder, wheel, park, garden'
+            words: 'ring, drum, food, king, kite, ladder, wheel, park, garden'
           }
         ]
       }

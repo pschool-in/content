@@ -57,7 +57,7 @@ export default {
         },
         {
           audioOffset: 18,
-          text: 'ring, drums, food, king, kite, ladder, wheel, park, garden'
+          text: 'ring, drums|drum, food, king, kite, ladder, wheel, park, garden'
         }
       ]
     },
