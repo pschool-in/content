@@ -39,7 +39,7 @@ export default {
         },
         {
           audioOffset: 40,
-          text: `frog| मेढक
+          text: `frog| मेंढक
           crab|केकड़ा
           snake|साँप
           squirrel|गिलहरी
@@ -52,7 +52,7 @@ export default {
           text: `ant|चींटी
           fly|मक्खी
           bat|चमगादड़
-          buffalo|भेंस
+          buffalo|भैंस
           butterfly|तितली
           cow|गाय
           donkey|गधा`
@@ -85,7 +85,7 @@ export default {
           flamingo| मराल
           kingfisher| नीलकंठ
           myna| मैना
-          ostrich| शुतरमुर्ग
+          ostrich| शुतुरमुर्ग 
           owl| उल्लू
           rooster| मुर्गा
           vulture | गिद्ध`
@@ -375,12 +375,12 @@ export default {
           audio: 'hi/hi-animals-1.mp3',
           audioOffset: 20,
           words:
-            'hippo, rhino, fox, crocodile, bear, camel, shark, dragonfly, fish'
+            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, dragonfly, fish'
         },
         {
           audio: 'hi/hi-animals-1.mp3',
           audioOffset: 40,
-          words: 'frog, crab, snake, suirrel, tortoise, rat, winged-termites'
+          words: 'frog, crab, snake, squirrel, tortoise, rat, winged-termites'
         },
         {
           audio: 'hi/hi-animals-1.mp3',

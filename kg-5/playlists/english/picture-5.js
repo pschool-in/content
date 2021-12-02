@@ -8,7 +8,8 @@ export default {
       label: 'Animals',
       lockAfter: 1,
       commonData: {
-        images: 'animals'
+        images: 'animals',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `mongoose| MONGOOSE| _ONGOOSE
@@ -24,7 +25,7 @@ export default {
         `dragonfly |DRAGON FLY |_RAGON FLY
   fly|HOUSEFLY |_OUSEFLY
   squirrel|SQUIRREL |_QUIRREL
-  dinosaur | DINOSAUR
+  dinosaur | DINOSAUR| _INOSAUR
   alligator | ALLIGATOR | _LLIGATOR
   boar | BOAR | _OAR
   cricket | CRICKET | _RICKET
@@ -60,7 +61,8 @@ export default {
       label: 'Birds',
       lockAfter: 1,
       commonData: {
-        images: 'birds'
+        images: 'birds',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `hornbill | HORNBILL | _ORNBILL
@@ -71,7 +73,7 @@ export default {
   bulbul | BULBUL | _ULBUL
   spotted-dove | SPOTTED DOVE | _POTTED DOVE
   pelican | PELICAN | _ELICAN
-  humming-bird | HUMMING BIRD | _UMMING BIRD
+  hummingbird | HUMMING BIRD | _UMMING BIRD
   robin | ROBIN | _OBIN`,
 
         `swallow | SWALLOW | _WALLOW
@@ -153,7 +155,7 @@ export default {
 
         `S, spotted-dove 
         P, pelican 
-        H, humming-bird 
+        H, hummingbird 
         R, robin 
         B, blue-jay 
         C, canary `,
@@ -237,7 +239,7 @@ export default {
 
   `spotted-dove | Spotted Dove
   pelican | Pelican
-  humming-bird | Humming Bird
+  humming-bird | Hummingbird
   robin | Robin
   swallow | Swallow
   blue-jay | Blue jay`,

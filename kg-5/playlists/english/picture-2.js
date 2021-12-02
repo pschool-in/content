@@ -8,7 +8,8 @@ export default {
       label: 'Fruits',
       lockAfter: 1,
       commonData: {
-        images: 'fruits'
+        images: 'fruits',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `apple | APPLE | _PPLE 
@@ -39,7 +40,8 @@ muskmelon| MUSKMELON | _USKMELON`
       label: 'Vegetables',
       lockAfter: 1,
       commonData: {
-        images: 'vegetables'
+        images: 'vegetables',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `carrot | CARROT | _ARROT
@@ -91,7 +93,7 @@ vegetables | VEGETABLES | _EGETABLES`
         C, cherry
         B, banana
         G, grapes
-        S, strwberry
+        S, strawberry
         P, plum`,
 
         `A, avocado
@@ -199,7 +201,7 @@ cucumber |Cucumber
 garlic|Garlic
 ginger|Ginger
 cauliflower| Cauliflower
-pumpkin| Pumbkin`,
+pumpkin| Pumpkin`,
 
 `almond| Almond
 beans| Beans

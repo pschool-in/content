@@ -59,7 +59,7 @@ Some more examples are;
 
           `We run in the park everyday.
     I take a nap every afternoon.
-    I will go to my friend's hounse on Thursday.`
+    I will go to my friend's house on Thursday.`
         ],
         [
           `I love ice cream but can't eat it in winters.
@@ -81,30 +81,24 @@ Some more examples are;
         ]
       ]
     },
-    {
-      label: 'Drag and Drop',
-      type: 'classifySentence',
-      id: '200',
-      data: {
-        title: 'Identify if these words are conjunctions or not.',
-        types: [
-          {
-            name: 'Yes',
-            text: `And
-          But
-          Or
-          So`
-          },
-          {
-            name: 'No',
-            text: `Can
-          May
-          Shall 
-          Will`
-          }
-        ]
+{
+  id: '200',
+  label: 'Drag and Drop',
+  type: 'group',
+  data: {
+    title: 'Identify if these words are conjunctions or not.',
+    types: [
+      {
+        name: 'Yes',
+        text: 'And, But, Or, So'
+      },
+      {
+        name: 'No',
+        text: 'Can, May, Shall, Will'
       }
-    },
+    ]
+  }
+},
     {
       id: '300',
       label: 'Fill up',

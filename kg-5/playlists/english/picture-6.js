@@ -8,7 +8,8 @@ export default {
       id: 'fruits',
       label: 'Fruits',
       commonData: {
-        images: 'fruits'
+        images: 'fruits',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `star-fruit | STAR-FRUIT | _TAR-FRUIT
@@ -33,7 +34,8 @@ export default {
       id: 'vegetables',
       label: 'Vegetables',
       commonData: {
-        images: 'vegetables'
+        images: 'vegetables',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `chickpea | CHICKPEA | _HICKPEA

@@ -146,7 +146,7 @@ eg: `,
             },
             {
               qText: 'I can climb_______trees.',
-              options: 'Small, Big, Large'
+              options: 'small, big, large'
             },
             {
               qText: 'My mom is a______lady.',

@@ -13,12 +13,12 @@ export default {
         {
           audioOffset: 0,
           text:
-            'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
+            'star-fruit|star fruit, dragon-fruit|dragon fruit, sugarcane, peach, sweet-potato|sweet potato, jamun, pear'
         },
         {
           audioOffset: 14,
           text:
-            'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
+            'water-chesnut|water chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit|passion fruit'
         }
       ]
     },
@@ -33,12 +33,12 @@ export default {
         {
           audioOffset: 26,
           text:
-            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
+            'chickpea, mustard-greens|mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam|elephant yam, ashgourd, broad-beans|broad beans, snake-gourd|snake gourd'
         },
         {
           audioOffset: 46,
           text:
-            'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+            'banana-flower| banana flower, cluster-beans|cluster beans, kohlrabi, spring-onion|spring onion, banana-stem|banana stem, drumstick-leaves|drumstick leaves, raw-banana|raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
         }
       ]
     },
@@ -84,7 +84,7 @@ export default {
         {
           audioOffset: 46,
           words:
-            'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+            'banana-flower, cluster-beans, kohlrabi, spring-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
         }
       ]
     },
@@ -102,12 +102,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
+            'star fruit, dragon fruit, sugarcane, peach, sweet potato, jamun, pear'
         },
         {
           audioOffset: 14,
           words:
-            'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
+            'water chesnut, jujube, sapotta, tapioca, blueberry, passion fruit'
         }
       ]
     },
@@ -125,12 +125,12 @@ export default {
         {
           audioOffset: 26,
           words:
-            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
+            'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad beans, snake gourd'
         },
         {
           audioOffset: 46,
           words:
-            'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+            'banana flower, cluster beans, kohlrabi, spring onion, banana stem, drumstick leaves, raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
         }
       ]
     },
@@ -147,12 +147,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'star-fruit, dragon-fruit, sugarcane, peach, sweet-potato, jamun, pear'
+            'star fruit, dragon fruit, sugarcane, peach, sweet potato, jamun, pear'
         },
         {
           audioOffset: 14,
           words:
-            'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
+            'water chesnut, jujube, sapotta, tapioca, blueberry, passion fruit'
         }
       ]
     },
@@ -169,12 +169,12 @@ export default {
         {
           audioOffset: 26,
           words:
-            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad-beans, snake-gourd'
+            'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
         },
         {
           audioOffset: 46,
           words:
-            'banana-flower, cluster-beans, kohlrabi, sping-onion, banana-stem, drumstick-leaves, raw-banana, tulsi, bottlegourd, ivygourd, ridgegourd'
+            'banana flower, cluster beans, kohlrabi, spring onion, banana stem, drumstick leaves, raw banana, tulsi, bottlegourd, ivygourd, ridgegourd'
         }
       ]
     }

@@ -18,7 +18,7 @@ export default {
         {
           audioOffset: 18,
           text:
-            'dragonfly, fly, squirrel, dinosaur, alligator, boar, cricket, hyena, polarbear, antelope'
+            'dragonfly, fly|housefly, squirrel, dinosaur, alligator, boar, cricket, hyena, polarbear, antelope'
         },
         {
           audioOffset: 38,
@@ -43,12 +43,12 @@ export default {
         {
           audioOffset: 0,
           text:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, humming-bird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,
           text:
-            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow'
+            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow|macaw'
         }
       ]
     },
@@ -122,7 +122,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'mongoose, mosquito, octopus, wolf, lizard, cockroach, garden-lizard, rabbit, leopard'
+            'mongoose, mosquito, octopus, wolf, lizard, cockroach, garden lizard, rabbit, leopard'
         },
         {
           audioOffset: 18,
@@ -155,12 +155,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, humming-bird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,
           words:
-            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
+            'swallow, blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
         }
       ]
     },
@@ -177,7 +177,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'mongoose, mosquito, octopus, wolf, lizard, cockroach, garden-lizard, rabbit, leopard'
+            'mongoose, mosquito, octopus, wolf, lizard, cockroach, garden lizard, rabbit, leopard'
         },
         {
           audioOffset: 18,
@@ -209,12 +209,12 @@ export default {
         {
           audioOffset: 0,
           words:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, humming-bird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,
           words:
-            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
+            'swallow, blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
         }
       ]
     }

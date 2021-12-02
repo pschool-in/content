@@ -39,7 +39,7 @@ Some more examples of concrete nouns are:
     {
       type: 'selectWord',
       label: 'Select the word.',
-      id: 'select-word',
+      id: '100',
       commonData: {
         title: 'Select the concrete noun in the below sentences.'
       },
@@ -66,6 +66,62 @@ They turned off the *lights*.
 I'm *afraid* of dogs.
 I'm not going outside in the *fear* of dogs.`
       ]
+    },
+{
+id: '200',
+label: 'Identify',
+type: 'classifySentence',
+data: {
+  title: 'Identify whether the underlined nouns are concrete or abstract.',
+  types: [
+    {
+      name: 'Concrete',
+      text: `An *apple* is kept on the *table.*
+      There are tons of *books* in the *library.*
+      A *dog* is a very common pet.
+      The *sweater* is made of *wool.*
+      I saw *banana trees* on the way.
+      She reads three *books* in a week.
+      The *elephant* is very big.`
+    },
+    {
+      name: 'Abstract',
+      text: `He is not telling the *truth.*
+      People lose *faith* when you lie.
+      He will *defeat* her.
+      They laughed at my *joke.*
+      Pia is *afraid* of heights.
+      She is *angry.*
+      The girls love to *gossip.*`
+      }
+    ]
+  }
+},
+{
+id: '300',
+label: 'Identify-2',
+type: 'classifySentence',
+data: {
+  title: 'Identify whether the below nouns are countable or uncountable.',
+  types: [
+    {
+      name: 'Countable',
+      text: `There are a few chinese *restaurants* in the city.
+      Priya took many *pictures* on her vacation.
+      Many *books* are kept on the table.
+      The *beds* we have are very old.
+      My *phone* is not working properly.`
+    },
+    {
+      name: 'Uncountable',
+      text: `Do you have a *water* bottle?
+      I like *butter* on my bread slice.
+      The police needs *information* about the thief.
+      Her *intelligence* is undoubtful.
+      The *milk* is in the bottle.`
     }
+    ]
+  }
+}
   ]
 };

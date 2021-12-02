@@ -7,7 +7,7 @@ export default {
       id: 'house',
       label: 'House',
       commonData: {
-        audio: 'kg-5/house-dress-1mp3'
+        audio: 'kg-5/house-dress-1.mp3'
       },
       data: [
         {
@@ -17,16 +17,16 @@ export default {
         {
           audioOffset: 20,
           text:
-            'shelf, ball, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
+            'shelf, coat, glasses, clock, watch, flower-pot|flower pot, umbrella, door, broom'
         },
         {
-          audioOffset: 40,
+          audioOffset: 38,
           text: 'window, sofa, bucket, toilet, soap, backpack'
         },
         {
-          audioOffset: 52,
+          audioOffset: 50,
           text:
-            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner, washing-machine'
+            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner| air condiditioner, washing-machine|washing machine'
         }
       ]
     },
@@ -39,11 +39,11 @@ export default {
       },
       data: [
         {
-          audioOffset: 66,
+          audioOffset: 64,
           text: 'dress, coat, shoe, sock, boots, pyjama, gloves, scarf'
         },
         {
-          audioOffset: 82,
+          audioOffset: 80,
           text: 'sweater, bib, shirt, jacket, hat, trousers'
         }
       ]
@@ -62,7 +62,7 @@ export default {
         },
         {
           audioOffset: 14,
-          text: 'book, ink, schoolbag, waterbottle, color-pencils, crayons'
+          text: 'book, ink, schoolbag, waterbottle, color-pencils|color pencils, crayons'
         }
       ]
     },
@@ -86,7 +86,7 @@ export default {
         {
           audioOffset: 60,
           text:
-            'chicken, ice-cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
+            'chicken, ice-cream|ice cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
         },
         {
           audioOffset: 80,
@@ -110,16 +110,16 @@ export default {
           words: 'man, woman, boy, girl, baby, house, table, bed, candle, chair'
         },
         {
-          audioOffset: 20,
+          audioOffset: 18,
           words:
-            'shelf, ball, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
+            'shelf, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
         },
         {
-          audioOffset: 40,
+          audioOffset: 38,
           words: 'window, sofa, bucket, toilet, soap, backpack'
         },
         {
-          audioOffset: 52,
+          audioOffset: 50,
           words:
             'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner, washing-machine'
         }
@@ -137,11 +137,11 @@ export default {
       },
       data: [
         {
-          audioOffset: 66,
+          audioOffset: 64,
           words: 'dress, coat, shoe, sock, boots, pyjama, gloves, scarf'
         },
         {
-          audioOffset: 82,
+          audioOffset: 80,
           words: 'sweater, bib, shirt, jacket, hat, trousers'
         }
       ]
@@ -214,18 +214,18 @@ export default {
           words: 'man, woman, boy, girl, baby, house, table, bed, candle, chair'
         },
         {
-          audioOffset: 20,
+          audioOffset: 18,
           words:
-            'shelf, ball, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
+            'shelf, coat, glasses, clock, watch, flower pot, umbrella, door, broom'
         },
         {
-          audioOffset: 40,
+          audioOffset: 38,
           words: 'window, sofa, bucket, toilet, soap, backpack'
         },
         {
-          audioOffset: 52,
+          audioOffset: 50,
           words:
-            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner, washing-machine'
+            'pillow, basket, dustbin, bed lamp, handbag, air conditioner, washing machine'
         }
       ]
     },
@@ -241,11 +241,11 @@ export default {
       },
       data: [
         {
-          audioOffset: 66,
+          audioOffset: 64,
           words: 'dress, coat, shoe, sock, boots, pyjama, gloves, scarf'
         },
         {
-          audioOffset: 82,
+          audioOffset: 80,
           words: 'sweater, bib, shirt, jacket, hat, trousers'
         }
       ]
@@ -256,7 +256,7 @@ export default {
       id: 'sound-school',
       lockAfter: 2,
       commonData: {
-        title: 'Listen to the sound and click on the picture.',
+        title: 'Listen to the sound and click on the word.',
         type: 'words',
         audio: 'kg-5/school-kitchen-1.mp3'
       },
@@ -267,7 +267,7 @@ export default {
         },
         {
           audioOffset: 14,
-          words: 'book, ink, schoolbag, waterbottle, color-pencils, crayons'
+          words: 'book, ink, schoolbag, waterbottle, color pencils, crayons'
         }
       ]
     },
@@ -277,7 +277,7 @@ export default {
       id: 'sound-kitchen',
       lockAfter: 2,
       commonData: {
-        title: 'Listen to the sound and click on the picture.',
+        title: 'Listen to the sound and click on the word.',
         type: 'words',
         audio: 'kg-5/school-kitchen-1.mp3'
       },
@@ -294,7 +294,7 @@ export default {
         {
           audioOffset: 60,
           words:
-            'chicken, ice-cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
+            'chicken, ice cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
         },
         {
           audioOffset: 80,
@@ -317,18 +317,18 @@ export default {
           words: 'man, woman, boy, girl, baby, house, table, bed, candle, chair'
         },
         {
-          audioOffset: 20,
+          audioOffset: 18,
           words:
-            'shelf, ball, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
+            'shelf, coat, glasses, clock, watch, flower pot, umbrella, door, broom'
         },
         {
-          audioOffset: 40,
+          audioOffset: 38,
           words: 'window, sofa, bucket, toilet, soap, backpack'
         },
         {
-          audioOffset: 52,
+          audioOffset: 50,
           words:
-            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner, washing-machine'
+            'pillow, basket, dustbin, bed lamp, handbag, air conditioner, washing machine'
         }
       ]
     },
@@ -343,11 +343,11 @@ export default {
       },
       data: [
         {
-          audioOffset: 66,
+          audioOffset: 64,
           words: 'dress, coat, shoe, sock, boots, pyjama, gloves, scarf'
         },
         {
-          audioOffset: 82,
+          audioOffset: 80,
           words: 'sweater, bib, shirt, jacket, hat, trousers'
         }
       ]
@@ -368,7 +368,7 @@ export default {
         },
         {
           audioOffset: 14,
-          words: 'book, ink, schoolbag, waterbottle, color-pencils, crayons'
+          words: 'book, ink, schoolbag, waterbottle, color pencils, crayons'
         }
       ]
     },
@@ -394,7 +394,7 @@ export default {
         {
           audioOffset: 60,
           words:
-            'chicken, ice-cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
+            'chicken, ice cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich'
         },
         {
           audioOffset: 80,

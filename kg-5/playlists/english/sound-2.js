@@ -140,12 +140,12 @@ export default {
         {
           audioOffset: 20,
           words:
-            'cauliflower, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+            'cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
         },
         {
           audioOffset: 40,
           words:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach, vegetables'
+            'coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, raddish, spinach, vegetables'
         }
       ]
     },
@@ -167,7 +167,7 @@ export default {
         {
           audioOffset: 20,
           words:
-            'papaya, pineapple, watermelon, pomegranate, fig, custard-apple, plum, dates, muskmelon'
+            'papaya, pineapple, watermelon, pomegranate, fig, custard apple, plum, dates, muskmelon'
         }
       ]
     },
@@ -189,12 +189,12 @@ export default {
         {
           audioOffset: 20,
           words:
-            'cauliflower, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+            'cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
         },
         {
           audioOffset: 40,
           words:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach, vegetables'
+            'coriander leaf, curry leaf, drumstick, green peas, ladies finger, mintleaf, peanut, raddish, spinach, vegetables'
         }
       ]
     }
