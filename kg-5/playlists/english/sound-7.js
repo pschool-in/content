@@ -13,7 +13,7 @@ export default {
         {
           audioOffset: 0,
           text:
-            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicoptor|helicopter, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
@@ -102,7 +102,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,
@@ -147,7 +147,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'aeroplane, boat, bus, car, cycle, helicoptor, motorbike, ship, tractor, lorry'
+            'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry'
         },
         {
           audioOffset: 20,

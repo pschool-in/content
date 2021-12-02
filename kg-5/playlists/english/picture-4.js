@@ -9,7 +9,8 @@ export default {
       label: 'House',
       lockAfter: 2,
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `man| MAN |_AN
@@ -55,7 +56,8 @@ washing-machine | WASHING MACHINE | _ASHING MACHINE`
       id: 'dress',
       label: 'Dress',
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `dress | DRESS | _RESS
@@ -80,7 +82,8 @@ trousers | TROUSERS | _ROUSERS`
       id: 'school',
       label: 'School',
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `pen |PEN |_EN
@@ -104,6 +107,10 @@ crayons | CRAYONS | _RAYONS`
       id: 'kitchen',
       label: 'Kitchen',
       lockAfter: 2,
+      commonData: {
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
+      },
       data: [
         `stove |STOVE |_TOVE
 fork|FORK |_ORK
@@ -254,7 +261,7 @@ C, crayons `
       F, fork
       K, knife
       P, pan
-      P, pot`,
+      M, meat`,
       
       `B, butter
       P, plate 
@@ -269,7 +276,7 @@ C, crayons `
       C, chicken 
       I,ice-cream `,
 
-      `M, meat 
+      `P, pot 
       S, salt 
       B, bread 
       C, cup 
