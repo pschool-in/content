@@ -142,11 +142,6 @@ const vocabulary = [
 
 const grammar = [
   {
-    label: 'Article',
-    id: 'article',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Sentence',
     id: 'sentence',
     grade: 'g2, g3, g4'
@@ -323,17 +318,22 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Article - 1',
+    label: 'Article - Introduction',
     id: 'article-1',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Article - 3',
+    label: 'Definite and Indefinite Article',
+    id: 'article-2',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'No Article Rules',
     id: 'article-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Article - 4',
+    label: 'Article - Quantifiers',
     id: 'article-4',
     grade: 'g3, g4, g5'
   },
@@ -413,22 +413,22 @@ const grammar = [
     grade: 'g1, g2'
   },
   {
-    label: 'Pronoun 2',
+    label: 'Personal and Demonstrative Pronoun',
     id: 'pronoun-2',
     grade: 'g1, g2, g3'
   },
   {
-    label: 'Pronoun 3',
+    label: 'Possessive pronoun',
     id: 'pronoun-3',
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Pronoun 4',
+    label: 'Reflexive Pronoun',
     id: 'pronoun-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Pronoun 5',
+    label: 'Interrogative Pronoun',
     id: 'pronoun-5',
     grade: 'g3, g4, g5'
   }

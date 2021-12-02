@@ -8,7 +8,8 @@ export default {
       id: 'nature',
       label: 'Nature',
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `sun |SUN |_UN
@@ -31,6 +32,7 @@ rainbow | RAINBOW | _AINBOW`
       type: 'completeWord',
       id: 'parts-body',
       label: 'Body Parts',
+      title: 'Find the missing letter and complete the word',
       data: {
         images: 'bodyParts',
         text: `ear |EAR |_AR
@@ -65,7 +67,8 @@ zinnia | ZINNIA | _INNIA`
       id: 'pictures',
       label: 'Other Pictures',
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `bell | BELL | _ELL
