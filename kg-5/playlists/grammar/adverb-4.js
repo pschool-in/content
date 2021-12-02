@@ -145,7 +145,7 @@ Richa danced *extremely (politely)* well on the stage.
 That book is *very (never)* nice.
 The tea is *extremely (so)* hot.
 This book is *quite (quiet)* interesting.
-He was *jusy (only)* leaving.
+He was *just (only)* leaving.
 She has *almost (very)* completed her HW.
 You are walking *fast (almost)* enough.`,
 
@@ -201,17 +201,17 @@ He drove the car *very* fast.`
         multiSelect: true
       },
       data: [
-        `She was *considerably* sick. Yet she *bravely* appeared in the exam. Everone praised her *a lot*.
+        `She was *considerably* sick. Yet she *bravely* appeared in the exam. Everone praised her.
 She gained a lot of weight *enormously*. She was *very* thin last year. And she got *very* fat this year.
 The guests were *pretty* loud. I could *hardly* study. So I decided to do it later.
 The teacher *completely* agreed with my answer. I was *extremely* happy. My enemies got *very* jealous.
 I was *immensely* tired after the programme. My mom made *so* much food. But I was *quite* tired so I slept.
 That man *somewhat* looked like my uncle. I *almost* got confused. Then I realised he was *just* similar to him.
 We live in the same street and go to the same school. But, I *barely* talk to him. He's *quite* irritating.
-She made fun of me. I am *deeply* hurt. She is *very* bad and rude.She *almost* made me cry.`,
+She made fun of me. I am *deeply* hurt. She is *very* bad and rude. She *almost* made me cry.`,
 
         `It's *very* cold outside. I would *rather* stay inside a blanket. It is *extremely* cold.
-I like this book *a lot*. I *really* admire the author. I will now read *all* the books he has written.
+I like this book. I *really* admire the author. I will now read all the books he has written.
 Our teacher decided to teach us even in the lunch break. And now we all are *literally* starving.
 The artist *minutely* observed my painting. He said it was good *enough*. I felt *immense* joy.
 I *strongly* believe that we should obey our elder. It is because they know about *so* many things.
@@ -219,7 +219,7 @@ My friend *highly* recommended me this book. I *just* finished reading. I think 
 The teacher *thoroughly* checked my answer sheet. I answered *almost* all the questions correctly.
 I became *slightly* uncomfortable when the guests came. I am *simply* shy. So, I left within 5 minutes.`,
 
-        `He was *almost* finished with his work. But the teacher gave him *a lot* more to do.
+        `He was *almost* finished with his work. But the teacher gave him a lot more to do.
 The milk was *completely* frozen because it was kept in the freezer. I *quickly* put it outside.
 The teacher was *terribly* rude today. She gave us *so* much homework that it is more than *enough* for the week.
 The cake was *absolutely* delicious. But I *barely* ate it because I ate *so* many french fries. I like them *very* much.

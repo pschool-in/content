@@ -136,7 +136,7 @@ How much wood *would* a woodpecker peck?`
         multiSelect: true
           },
         data: [
-        `The *sticky* stuff* got *stuck* in my *shoes*.
+        `The *sticky* *stuff* got *stuck* in my *shoes*.
         The *raccoon* *ran* *rapidly* towards the bushes.
         The *pink* *pigs* *played* in the mud.
         I kept the apples in the *big* *blue* *bowl*.
