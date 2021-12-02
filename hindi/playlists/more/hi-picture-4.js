@@ -175,7 +175,7 @@ list: [
     camel, ऊंट`,
     
     `fish, मछली 
-    frog, मेंडक 
+    frog, मेंढक 
     crab, केकड़ा 
     snake, साँप   
     squirrel, गिलहरी`,
@@ -186,7 +186,7 @@ list: [
     fly, मक्खी
     bat, चमगादड़ `,
     
-    `buffalo, भेंस
+    `buffalo, भैंस
     butterfly, तितली
     cow, गाय
     donkey, गधा  
@@ -260,7 +260,7 @@ list: [
     `flamingo, मराल 
     kingfisher, नीलकंठ	
     myna, मैना 
-    ostrich, शुतरमुर्ग
+    ostrich, शुतुरमुर्ग 
     owl, उल्लू
     rooster, मुर्गा`,
     
@@ -734,7 +734,7 @@ bear| भालू
 camel| ऊंट`,
 
 `fish| मछली 
-frog| मेंडक 
+frog| मेंढक 
 crab| केकड़ा 
 snake | साँप   
 squirrel| गिलहरी`,
@@ -745,7 +745,7 @@ ant| चींटी
 fly| मक्खी
 bat| चमगादड़ `,
 
-`buffalo| भेंस
+`buffalo|  भैंस
 butterfly| तितली
 cow| गाय
 donkey| गधा  
@@ -817,7 +817,7 @@ vulture| गिद्ध`,
 `flamingo| मराल 
 kingfisher|नीलकंठ	
 myna| मैना 
-ostrich| शुतरमुर्ग
+ostrich| शुतुरमुर्ग 
 owl| उल्लू
 rooster| मुर्गा`,
 
