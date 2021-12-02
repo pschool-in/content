@@ -8,7 +8,8 @@ export default {
       label: 'Animals',
       lockAfter: 2,
       commonData: {
-        images: 'animals'
+        images: 'animals',
+        title: 'Find the missing letter and complete the word',
       },
       data: [
         `cat |CAT |_AT
@@ -62,7 +63,8 @@ kangaroo| KANGAROO | _ANGAROO`
       label: 'Birds',
       lockAfter: 1,
       commonData: {
-        images: 'birds'
+        images: 'birds',
+        title: 'Find the missing letter and complete the word',
       },
       data: [
         `crow|CROW |_ROW
