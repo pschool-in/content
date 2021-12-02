@@ -1,6 +1,6 @@
 export default {
   id: 'pronoun-5',
-  label: 'Pronoun-5',
+  label: 'Interrogative Pronoun',
   pdf: '',
   list: [
     {

@@ -1,7 +1,25 @@
 export default {
-  label: 'Article',
-  id: 'article',
+  label: 'Definite and Indefinite Article',
+  id: 'article-2',
   list: [
+    {
+      label: 'Definite and Indefinite Article',
+      type: 'passage',
+      id: 'article-reading',
+      data: {
+        title: 'Definite and Indefinite Article',
+        text: `Articles are of two types – the definite article (the) and the indefinite article (a/an).
+  # Indefinite articles:
+  The indefinite articles "a/an" are generally used to mention some person or thing.
+  These articles do not specify a particular person or a thing.
+  "A" and "An" are used to introduce noun or naming words and are also used to mention singular countable nouns.
+  "a" is used before singular nouns beginning with consonant sounds.
+  "an" is used before singular nouns beginning with vowel sounds.
+  # Definite article:
+  We use definite article "the" when we are talking about a specific person or a thing.
+  "the" is used for countable and uncountable nouns/singular and plural nouns.`
+      }
+    },
     {
       id: 'reading',
       type: 'passage',
@@ -22,27 +40,6 @@ export default {
           {
             type: 'html',
             text: `For indefinite article, we use <b>a</b> or  <b>an</b> depending on the sound that begins the next word.`
-          },
-          { type: 'hilight', text: 'an apple, an egg, a bag, a cat' },
-          `We use 'a' before words that begin with vowel. For eg, though the below words begin with 'u', the beginning sound is 'you'.`,
-          { type: 'hilight', text: 'a universe, a uniform' },
-          `We use 'an' before words that begin with non vowel. For eg, though the below words begin with 'h', the first letter is silent.`,
-          { type: 'hilight', text: 'an hour, an honest' },
-          `# No Article Rule`,
-          `To talk about things in general.`,
-          {
-            type: 'hilight',
-            text: `Fried foods are unhealthy.
-Boys are usually fond of outdoor games.`
-          },
-          `No article is used before plural and uncountable nouns.`,
-          { type: 'hilight', text: 'cars, people, life, water' },
-          `No article is used before abstract nouns.`,
-          { type: 'hilight', text: 'education, happiness, music' },
-          `No article is used before single countable nouns.`,
-          {
-            type: 'html',
-            text: `<b>People</b>: Mary, Ashok<br><b>Places</b>: Jupiter, Russia, Oxford street<br><b>Language</b>: English, Hindi<br><b>Subjects</b>: History, Law, Science<br><b>Days, months</b>: Monday, November<br><b>Games</b>: football, chess<br><b>Meals</b>: breakfast, dinner<br><b>Routine Places</b>: in bed, at home, to school, to work<br><b>Movement or Transport</b>: on foot, by car, by air`
           }
         ]
       }
@@ -188,6 +185,48 @@ an, eye, head`
       ]
     },
     {
+      type: 'selectWord',
+      label: 'Identify - Article',
+      id: '200',
+      commonData: {
+        title: 'Select the article in the sentence.'
+      },
+      data: [
+        `There is *a* snake. 
+Mahi wants *an* iPad.
+Tia has *a* cat.
+I can see *a* blue car.
+This is *an* easy question.
+Piya is eating *an* apple.
+Somnath is reading *a* book.
+Karthik is sleeping on *the* sofa.
+Mihir has *an* old bike.
+My sister wants to be *an* astronaut.`,
+
+        `I had *an* egg for breakfast.
+My son wants to be *an* architect.
+My cousin is *a* pilot. 
+There is *an* orange in the fridge.
+Did you read *the* book I gave you?
+Swati is *a* nice girl.
+Manish was *the* first to arrive in class.
+I have *a* little white kitten.
+There is *a* beehive on neem tree.
+Aladdin had *a* magic lamp.`,
+
+        `That's *an* easy question.
+She is *a* pretty girl. 
+Neil Armstrong was *an* American astronaut.
+This is exactly *the* shirt I was looking for.
+Mr.Iyer is *an* honorary member of our council.
+My grandfather was *the* village chief.
+*The* fruit market will be closed on Tuesday.
+He gave me *a* call in the evening.
+Reading is *a* good habit.
+Mahesh bought *a* new watch.`
+      ]
+    },
+    {
       id: 'fillup',
       label: 'Article - Fill up',
       type: 'fillupOptions',
@@ -310,57 +349,6 @@ New York is *a* large city.
 Blue whale is *the* largest animal.
 I saw *a* one eyed person near *the* market.
 He is *an* honest teacher. He don't give extra marks for his son.`*/
-      ]
-    },
-    {
-      id: 'no-article',
-      label: 'No Article - Fill up',
-      type: 'fillupOptions',
-      data: {
-        title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
-        options: '-, a, an, the',
-        text: `*-* man is mortal.
-Can you tell me *a* story?
-She goes to the temple in *-* mornings.
-I am fond of *-* music.
-I will go to school by *-* walk.
-Ashoka was *an* honest king.
-I left my book at *-* home.
-I saw *a* snake in my garden.
-He likes to read *-* short stories.
-A teacher is *an* important person in everyone's life.`
-      }
-    },
-    {
-      id: 'no-article-2',
-      label: 'No Article - Fill up (2)',
-      type: 'fillupOptions',
-      commonData: {
-        title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
-        options: '-, a, an'
-      },
-      data: [
-        `I bought *a* pair of shoes.
-*-* elephants are very intelligent animals.
-I saw *a* movie last night.
-They are staying at *a* hostel.
-Ram played with *-* determination.
-*-* penguins live in the South Pole.
-I could see *-* clouds in the sky.
-There was *-* milk on the table.
-I gave it to *-* Jhonny.
-She arrived in *-* India yesterday.`,
-
-        `She is *a* famous actress.
-Do you speak *-* English?
-He is good at *-* cricket.
-People will travel to *-* Mars soon.
-I do not like *-* basketball.
-Shall we play *a* game of chess?
-My grandma was sick. We took her to *-* hospital. Now she is good.
-We saw *an* elephant in the zoo.
-Do you eat *-* rice everyday?
-My brother does not like *-* chicken.`
       ]
     }
   ]

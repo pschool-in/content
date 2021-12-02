@@ -122,6 +122,44 @@ data: {
     }
     ]
   }
-}
+},
+{
+  type: 'selectWord',
+  label: 'Select-1',
+  id: '400',
+  commonData: {
+      title: 'Tap on the abstract nouns.',
+      multiSelect: true
+    },
+  data: [
+  `The team was practicing a lot yesterday. This is the reason for their *victory*.
+  He studied in a big city. He gained good *education*.
+  *Opportunities* don't come to just anyone. We have to work *hard* for it.
+  She is my best friend. Our *friendship* is unbreakable.
+  I was sick. So I couldn't study for *exams*. It was my bad *luck*.
+  Our teacher's *strictness* scares all the naughty students in the class. Everyone studies in her class.
+  We don't like Savita. Her *ego* pushes everyone away.
+  I had a brilliant *idea*. We decided to study together for *exams*. `,
+     ]
+  },
+  {
+    type: 'selectWord',
+    label: 'Select-2',
+    id: '500',
+    commonData: {
+        title: 'Tap on the concrete nouns.',
+        multiSelect: true
+      },
+    data: [
+    `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
+    A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
+    The *crocodiles* live in the ocean. It is a very dangerous *animal.*
+    My *mother* is a *teacher*. She teaches science.
+    We should take a *shower* everyday. It helps us stay clean and tidy.
+    Someone stole my dad's *wallet* in the train. The *police* will try to catch the *thief*.
+    I love everything that is *sweet*. I like *chocolates,* *pies* and *sweets*.
+    My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`,
+       ]
+    }
   ]
 };
