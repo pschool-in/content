@@ -349,7 +349,7 @@ list: [
         data: [
     `eraser, रबड़	
     pen, कलम
-    ruler, मापन`,
+    ruler, पेमाना`,
     
     `scissors, कैंची
     book, किताब 	

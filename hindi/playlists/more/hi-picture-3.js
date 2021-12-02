@@ -370,7 +370,7 @@ dustbin|कचरे का डिब्बा`
             data: [
 `eraser| रबड़	
 pen| कलम
-ruler| मापन
+ruler| पेमाना
 schoolbag| बस्ता
 calculator| गणना यंत्र`,
 
