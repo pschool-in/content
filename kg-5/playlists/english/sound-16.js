@@ -46,7 +46,7 @@ export default {
           title: 'Listen to the sound and click on the flower.',
           type: 'words',
           audio: 'kg-5/gadget-other-flowers-2.mp3',
-          audioOffset: 42,
+          audioOffset: 52,
           words:
             'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water lily'
         }
@@ -92,7 +92,7 @@ export default {
         data: {
           title: 'Listen to the sound and type the word.',
           audio: 'kg-5/gadget-other-flowers-2.mp3',
-          audioOffset: 42,
+          audioOffset: 52,
           words:
             'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water lily'
         }
