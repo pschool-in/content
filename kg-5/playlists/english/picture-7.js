@@ -8,7 +8,8 @@ export default {
       label: 'Vehicles',
       lockAfter: 1,
       commonData: {
-        images: 'vehicles'
+        images: 'vehicles',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `aeroplane | AEROPLANE | _ERO_LANE
@@ -39,6 +40,10 @@ submarine | SUBMARINE | _UBMARINE`
       id: 'job',
       label: 'Job',
       lockAfter: 1,
+      commonData: {
+        images: 'vehicles',
+        title: 'Find the missing letter and complete the word'
+      },
       data: [
         `astronaut | ASTRONAUT | _STRONAUT
 clown | CLOWN | _LOWN

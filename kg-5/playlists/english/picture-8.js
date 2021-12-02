@@ -7,6 +7,7 @@ export default {
       type: 'completeWord',
       id: 'gadgets',
       label: 'Gadgets',
+      title: 'Find the missing letter and complete the word',
       data: {
         images: 'gadgets',
         text: `camera |CAMERA |_AMERA
@@ -25,7 +26,8 @@ export default {
       id: 'pictures',
       label: 'Other Pictures',
       commonData: {
-        images: 'custom'
+        images: 'custom',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `knight | KNIGHT | _NIGHT
@@ -135,11 +137,11 @@ export default {
         `D, daffodil 
         G, gulmohar 
         L, lily 
-        P, pansy 
-        D, daisy `,
+        P, pansy `,
 
         `J, jasmine 
         M, magnolia
+        D, daisy 
         P, periwinkle 
         W, water-lily `
       ]

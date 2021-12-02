@@ -192,7 +192,7 @@ export default {
           lang: 'hi',
           text: `eraser| रबड़| _बड़ | र, खा, कौ, घै	
           pen| कलम|  _लम| क, घै, थो, दी
-          ruler| मापन| _पन|  मा, थौ, घै, थी	
+          ruler| पेमाना| _माना| पे, मा, थौ, घै
           scissors| कैंची| _ची| कैं, थी, ता, दी
           book| किताब | _ताब | कि, फे, णू, घो	
           crayons| चित्रांकनी| _त्रांकनी | चि, घि, त, झो
@@ -339,7 +339,7 @@ export default {
          सि, jackal`,
 
          `ध्रु, polarbear
-          सा, pocupine 
+          सा, porcupine 
           झीं, prawn
           अ, python`,
 
@@ -464,8 +464,7 @@ export default {
   द, fire-engine
   रि, auto
   बै, bullock-cart
-  घो, horse-carriage
-  `
+  घो, horse-carriage`
         ]
       },
       {
@@ -481,7 +480,7 @@ export default {
         data: [
           `र, eraser
   क, pen 
-  मा, ruler
+  पे, ruler
   ब, schoolbag`,
   
           `कैं, scissors

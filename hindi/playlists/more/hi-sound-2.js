@@ -161,7 +161,7 @@ export default {
           bus| बस
           car| गाड़ी
           cycle| साइकिल
-          helicopter| घिरनीदार विमान
+          helicoptor| घिरनीदार विमान
           ship| समुंद्रीजहाज
           tractor| ट्रैक्टर
           train| रेलगाडी
@@ -311,7 +311,7 @@ export default {
           top|लट्टू 
           hexagon|षटकोण
           trident|त्रिशूल
-          trolley|डमरू
+          damaru|डमरू
           stick|डंडा
           twig| टहनी
           dhol|ढोल`
@@ -387,7 +387,7 @@ export default {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
           audioOffset: 30,
           words:
-            'aeroplane, boat, bus, car, cycle, helicopter, ship, tractor, train, ambulance'
+            'aeroplane, boat, bus, car, cycle, helicoptor, ship, tractor, train, ambulance'
         },
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
@@ -441,12 +441,12 @@ export default {
         {
           audio: 'hi/hi-other-2.mp3',
           audioOffset: 20,
-          words: 'bow, arrow, pouch, top, hexagon, trident, trolley, stick, twig, dhol'
+          words: 'bow, arrow, pouch, top, hexagon, trident, damaru, stick, twig, dhol'
         },
         {
           audio: 'hi/hi-other-2.mp3',
           audioOffset: 40,
-          words: 'palanquin, medecine, balloon, box, coin'
+          words: 'palanquin, medicine, balloon, box, coin'
         }
       ]
     }

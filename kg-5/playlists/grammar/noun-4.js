@@ -39,7 +39,7 @@ Some more examples of concrete nouns are:
     {
       type: 'selectWord',
       label: 'Select the word.',
-      id: 'select-word',
+      id: '100',
       commonData: {
         title: 'Select the concrete noun in the below sentences.'
       },
@@ -66,6 +66,100 @@ They turned off the *lights*.
 I'm *afraid* of dogs.
 I'm not going outside in the *fear* of dogs.`
       ]
+    },
+{
+id: '200',
+label: 'Identify',
+type: 'classifySentence',
+data: {
+  title: 'Identify whether the underlined nouns are concrete or abstract.',
+  types: [
+    {
+      name: 'Concrete',
+      text: `An *apple* is kept on the *table.*
+      There are tons of *books* in the *library.*
+      A *dog* is a very common pet.
+      The *sweater* is made of *wool.*
+      I saw *banana trees* on the way.
+      She reads three *books* in a week.
+      The *elephant* is very big.`
+    },
+    {
+      name: 'Abstract',
+      text: `He is not telling the *truth.*
+      People lose *faith* when you lie.
+      He will *defeat* her.
+      They laughed at my *joke.*
+      Pia is *afraid* of heights.
+      She is *angry.*
+      The girls love to *gossip.*`
+      }
+    ]
+  }
+},
+{
+id: '300',
+label: 'Identify-2',
+type: 'classifySentence',
+data: {
+  title: 'Identify whether the below nouns are countable or uncountable.',
+  types: [
+    {
+      name: 'Countable',
+      text: `There are a few chinese *restaurants* in the city.
+      Priya took many *pictures* on her vacation.
+      Many *books* are kept on the table.
+      The *beds* we have are very old.
+      My *phone* is not working properly.`
+    },
+    {
+      name: 'Uncountable',
+      text: `Do you have a *water* bottle?
+      I like *butter* on my bread slice.
+      The police needs *information* about the thief.
+      Her *intelligence* is undoubtful.
+      The *milk* is in the bottle.`
+    }
+    ]
+  }
+},
+{
+  type: 'selectWord',
+  label: 'Select-1',
+  id: '400',
+  commonData: {
+      title: 'Tap on the abstract nouns.',
+      multiSelect: true
+    },
+  data: [
+  `The team was practicing a lot yesterday. This is the reason for their *victory*.
+  He studied in a big city. He gained good *education*.
+  *Opportunities* don't come to just anyone. We have to work *hard* for it.
+  She is my best friend. Our *friendship* is unbreakable.
+  I was sick. So I couldn't study for *exams*. It was my bad *luck*.
+  Our teacher's *strictness* scares all the naughty students in the class. Everyone studies in her class.
+  We don't like Savita. Her *ego* pushes everyone away.
+  I had a brilliant *idea*. We decided to study together for *exams*. `,
+     ]
+  },
+  {
+    type: 'selectWord',
+    label: 'Select-2',
+    id: '500',
+    commonData: {
+        title: 'Tap on the concrete nouns.',
+        multiSelect: true
+      },
+    data: [
+    `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
+    A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
+    The *crocodiles* live in the ocean. It is a very dangerous *animal.*
+    My *mother* is a *teacher*. She teaches science.
+    We should take a *shower* everyday. It helps us stay clean and tidy.
+    Someone stole my dad's *wallet* in the train. The *police* will try to catch the *thief*.
+    I love everything that is *sweet*. I like *chocolates,* *pies* and *sweets*.
+    My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`,
+       ]
     }
   ]
 };

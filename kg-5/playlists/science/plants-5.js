@@ -16,7 +16,13 @@ export default {
   #AGRICULTURE
   Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.
   Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.
-  Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.`
+  Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.
+  # Insectivorous plants
+Insectivorous plants are insect eating plants. They obtain their nutrition from insects that they have trapped. They grow in humid areas with sufficient sunlight and moisture. They are usually seen in ares that are deficient in nitrogen. These plants are very colourful and shiny. They also produce nectars. All these features help in attracting insects. They have special parts to trap insects and use digestive enzymes to digest them. They often have sticky mucus like structures that trap the insects.  Example: venus fly trap, nepenthes, pitcher plant
+# Exotic plants
+Exotic plants are the plants that have been introduced to a region or ecosystem where they are foreign or non-native. Example: tulip, lily, orchid, tuberose, water hyacinth, flowering cactus, etc
+# Exotic animals
+Exotic animals are those animal species that is non-native and has been introduced into an area where it does not occur naturally. Example: nilgiri tahr, black buck, red panda, etc`
       }
     },
     {
@@ -209,6 +215,45 @@ export default {
                   Pollination through air - *anemophily*
                   Pollination through water - *hydrophily*
                   Pollination through animals - *entamophily*`
+      }
+    },
+    {
+      label: 'Plants - Choose the best Answer',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText:
+              ' Which places do insectivorous plants grow most?',
+            options: 'nitrogen deficient, oxygen deficient, phophorous deficient'
+          },
+          {
+            qText:
+              'How does insectivorus plants attract insects?',
+            options: 'nectar, bright colours, certain odours, *all'
+          },
+          {
+            qText: ' Which of the following is not an exotic plant?',
+            options: 'lotus, tulip, orchid, lily'
+          },
+          {
+            qText: 'Which of the following is not an exotic animal?',
+            options: 'rhinocerous, red panda, black buck'
+          }
+        ]
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Plants - Fill up ',
+      type: 'matchByDragDrop',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `*Insectivorous* plants are insect eating plants. 
+        Exotic *plants* are the plants that have been introduced to a region or ecosystem where they are foreign or non-native.
+        Exotic *animals* are those animal species that is non-native and has been introduced into an area where it does not occur naturally.`
       }
     },
     {
@@ -885,6 +930,53 @@ export default {
         ],
         lang: 'en',
         showWords: true
+      }
+    },
+    {
+      label: 'Structure of seed- Reading',
+      type: 'passage',
+      id: 'passage',
+      data: {
+        title: 'Structure of seed',
+        text: `# Seed
+        Most plants grow from seeds. Seeds are usually found on inside the fruit. Often new plants grow when seeds from a plant fall on the soil.
+        # Structure of seed
+        A thick outer covering called a seed coat protects the seed. The scar on the seed is where it was attached to the fruit. On top of the scar you will find a small hole. This hole allows water to enter the seed.Carefully remove the seed coat. You will see two seed leaves. Between the seed leaves is the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. They also protect the baby plant. All seeds do not have two seed leaves. Some such as corn, have only one seed leaf. When seeds get enough water, air and warmth they grow into new plants. They do not grow if any one of these is missing. Seeds use the food stored  in seed leaves to grow. The growth of a baby plant from a seed is called germination. The growing baby plant is known as a seedling. The roots of the young plant start growing from the seed down into the soil. Then the shoot starts appearing and grows upwards. The seed leaves are present till leaves start growing on the plant. Once green leaves grow, the plant is able to make its own food.`
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `seed coat, protect
+        seed leaf, food
+        corn, 1 seed leaf
+        scar, attached to fruit`,
+        title: 'Match the following'
+      }
+    },
+    {
+      label: 'Germination',
+      type: 'sorting',
+      data: {
+        title:
+          'Arrange in the correct order.',
+        text: 'seed falls on soil, enough water and air, root grow into soil, shoot appears, grow upwards, leaves appear.'
+      },
+      id: 'germination'
+    },
+    {
+      id: 'drag-drop',
+      label: 'Seed - Fill in the blanks',
+      type: 'matchByDragDrop',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `A thick outer covering called a *seed coat* protects the seed. 
+        The *scar* on the seed is where it was attached to the fruit. 
+        On top of the scar you will find a small hole. This hole allows *water* to enter the seed.
+        Between the *seed leaves* is the baby plant.
+        The seed leaves store *food* for the baby plant.`
       }
     }
   ]
