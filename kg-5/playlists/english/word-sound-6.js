@@ -3,6 +3,30 @@ export default {
     id: 'word-sound-6',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Fruits`,
+            {
+              type: 'sitewords',
+              text:
+                'star fruit, dragon fruit, sugarcane, peach, sweet potato, jamun, pear, water chesnut, jujube, sapotta, tapioca, blueberry, passion fruit',
+              width: 80
+            },
+            `# Vegetables`,
+            {
+              type: 'sitewords',
+              text:
+                'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd, banana flower, cluster beans, kohlrabi, spring onion, banana stem, drumstick leaves, raw banana, tulsi, bottlegourd, ivygourd, ridgegourd',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Fruits',
         id: 'sound-fruits',

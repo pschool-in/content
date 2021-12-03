@@ -3,6 +3,44 @@ export default {
     id: 'word-sound-4',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# House`,
+            {
+              type: 'sitewords',
+              text:
+                'man, woman, boy, girl, baby, house, table, bed, candle, chair, shelf, coat, glasses, clock, watch, flower pot, umbrella, door, broom, window, sofa, bucket, toilet, soap, backpack, pillow, basket, dustbin, bed lamp, handbag, air conditioner, washing machine',
+              width: 80
+            },
+            `# Dress`,
+            {
+              type: 'sitewords',
+              text:
+                'dress, coat, shoe, sock, boots, pyjama, gloves, scarf, sweater, bib, shirt, jacket, hat, trousers',
+              width: 80
+            },
+            `# School`,
+            {
+              type: 'sitewords',
+              text:
+                'pen, pencil, ruler, eraser, scissors, sharpener, calculator, book, ink, schoolbag, waterbottle, color pencils, crayons',
+              width: 80
+            },
+            `# Kitchen`,
+            {
+              type: 'sitewords',
+              text:
+                'stove, fork, knife, pan, spoon, pot, butter, plate, tap, lid, blender, cheese, fridge, lollipop, salad, sugar, bowl, chicken, ice cream, meat, salt, sweets, bread, cup, juice, mushroom, sandwich, cake, flour, lentils, rice, soup',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify House',
         id: 'sound-house',

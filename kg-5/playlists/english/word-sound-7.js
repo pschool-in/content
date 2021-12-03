@@ -3,6 +3,30 @@ export default {
     id: 'word-sound-7',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Vehicles`,
+            {
+              type: 'sitewords',
+              text:
+                'aeroplane, boat, bus, car, cycle, helicopter, motorbike, ship, tractor, lorry, train, ambulance, auto, cart, excavator, fire engine, van, bulldozer, rocket, submarine',
+              width: 80
+            },
+            `# Jobs`,
+            {
+              type: 'sitewords',
+              text:
+                'astronaut, clown, fisherman, postman, teacher, blacksmith, cobbler, goldsmith, potter, weaver, carpenter, diver, nurse, sailor, chef, doctor, police, soldier, barber, washerman',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Vehicles',
         id: 'sound-vehicles',
