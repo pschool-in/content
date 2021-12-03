@@ -39,7 +39,7 @@ export default {
           {
             audioOffset: 26,
             words:
-              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad beans, snake gourd'
+              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
           },
           {
             audioOffset: 46,
@@ -83,7 +83,7 @@ export default {
           {
             audioOffset: 26,
             words:
-              'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
+              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
           },
           {
             audioOffset: 46,
