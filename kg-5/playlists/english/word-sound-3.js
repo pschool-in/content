@@ -3,6 +3,44 @@ export default {
     id: 'word-sound-3',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Nature`,
+            {
+              type: 'sitewords',
+              text:
+                'sun, moon, rain, star, milk, bird, fruits, leaf, world, nest, water drop, waterfall, rainbow',
+              width: 80
+            },
+            `# Body Parts`,
+            {
+              type: 'sitewords',
+              text:
+                'ear, eye, foot, hair, hand, mouth, nose, tooth',
+              width: 80
+            },
+            `# Flowers`,
+            {
+              type: 'sitewords',
+              text:
+                'rose, lotus, sunflower, marigold, hibiscus, jasmine, tulip, zinnia',
+              width: 80
+            },
+            `# Others`,
+            {
+              type: 'sitewords',
+              text:
+                'bell, brush, bone, radio, box, coin, top, balloon, stick, ring, drum, food, king, kite, ladder, wheel, park, garden',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Nature',
         id: 'sound-nature',
@@ -19,7 +57,7 @@ export default {
           },
           {
             audioOffset: 14,
-            words: 'leaf, world, nest, water-drop, waterfall, rainbow'
+            words: 'leaf, world, nest, water drop, waterfall, rainbow'
           }
         ]
       },
@@ -85,7 +123,7 @@ export default {
           },
           {
             audioOffset: 14,
-            words: 'leaf, world, nest, water-drop, waterfall, rainbow'
+            words: 'leaf, world, nest, water drop, waterfall, rainbow'
           }
         ]
       },

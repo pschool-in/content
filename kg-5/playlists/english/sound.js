@@ -149,39 +149,6 @@ export default {
             'eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture, woodpecker, koel'
         }
       ]
-    },
-    {
-      type: 'rightOne',
-      label: 'Identify Animals',
-      id: 'sound-animal',
-      lockAfter: 2,
-      commonData: {
-        title: 'Listen to the sound and click on the animal.',
-        type: 'words',
-        audio: 'kg-5/animals-1.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          words:
-            'cat, dog, goat, cow, donkey, horse, pig, elephant, lion, monkey'
-        },
-        {
-          audioOffset: 20,
-          words:
-            'hippo, rhino, fox, crocodile, zebra, bear, camel, shark, whale, dolphin'
-        },
-        {
-          audioOffset: 40,
-          words:
-            'tiger, sheep, fish, frog, crab, snake, bull, tortoise, rat, ant'
-        },
-        {
-          audioOffset: 60,
-          words:
-            'bat, buffalo, butterfly, cheetah, bee, goldfish, spider, panda, giraffe, kangaroo'
-        }
-      ]
     }
   ]
 };

@@ -3,6 +3,30 @@ export default {
     id: 'word-sound-2',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Fruits`,
+            {
+              type: 'sitewords',
+              text:
+                'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange, papaya, pineapple, watermelon, pomegranate, fig, custard-apple, plum, dates, muskmelon',
+              width: 80
+            },
+            `# Vegetables`,
+            {
+              type: 'sitewords',
+              text:
+                'carrot, beetroot, onion, tomato, potato, cabbage, corn, cucumber, garlic, ginger, cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut, coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, raddish, spinach, vegetables',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Fruits',
         id: 'sound-fruits',
