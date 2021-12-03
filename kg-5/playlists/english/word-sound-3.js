@@ -114,7 +114,7 @@ export default {
       },
       {
         type: 'dictation',
-        label: 'Dictation Pictures',
+        label: 'Dictation Others',
         id: 'dictation-other',
         lockAfter: 2,
         commonData: {
