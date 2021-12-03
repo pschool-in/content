@@ -26,7 +26,7 @@ export default {
         {
           audioOffset: 50,
           text:
-            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner| air condiditioner, washing-machine|washing machine'
+            'pillow, basket, dustbin, bed-lamp|bed lamp, handbag, air-conditioner| air condiditioner, washing-machine|washing machine'
         }
       ]
     },
