@@ -99,7 +99,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, humming-bird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,
