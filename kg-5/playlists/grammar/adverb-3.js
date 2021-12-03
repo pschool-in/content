@@ -186,15 +186,15 @@ Joyously, Joyosly`
   Rare, Rarely, Rarelly`
       ]
     },
-      {
-        type: 'selectWord',
-        label: 'Select the adverb of manners',
-        id: 'multi-select-word',
-        commonData: {
-            title: 'Tap on the adverb of manners in the following sentences.',
-            multiSelect: true
-          },
-        data: [
+    {
+      type: 'selectWord',
+      label: 'Select the adverb of manners',
+      id: 'multi-select-word',
+      commonData: {
+        title: 'Tap on the adverb of manners in the following sentences.',
+        multiSelect: true
+      },
+      data: [
         `He had a meeting. So, he *quickly* drank the water and went to the office *hurriedly*.
         Someone *suddenly* cracked a joke. She did not understand but laughed *nervously*.
         She is reading *carefully*. She's trying to complete her lessons *quickly*. She has a test tomorrow. 
@@ -203,7 +203,7 @@ Joyously, Joyosly`
         He *calmly* explained the lesson to me. I don't have any doubts now. I will *calmly* write the test today.
         He is *eagerly* waiting for his job letter. He has worked very hard for this.
         My teacher has *faithfully* worked for my school. She will be awarded and will continue to work *respectfully*.`,
-        
+
         `I was at the railway station yesterday. The announcement asked the people to move away from the tracks. Then a bullet train passed by very *quickly*.
         There were many children in the park. They were playing *happily*. After 7pm, they *sadly* went to their homes.
         We are going to the jungle. We may see many wild animals there. My mom asked my dad to drive *carefully*.
@@ -229,8 +229,8 @@ Joyously, Joyosly`
         Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
         The man in the street was *badly* hurt. I *quickly* called the hosptial. The man was soon treated *carefully* and *efficiently*.
         He ate all the chocolate *greedily*. But my friend *gently* tap me on my shoulder and *politely* offered me his cake.
-        Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`       
+        Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`
       ]
-    },
+    }
   ]
 };

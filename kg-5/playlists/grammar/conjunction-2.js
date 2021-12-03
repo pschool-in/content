@@ -81,24 +81,24 @@ Some more examples are;
         ]
       ]
     },
-{
-  id: '200',
-  label: 'Drag and Drop',
-  type: 'group',
-  data: {
-    title: 'Identify if these words are conjunctions or not.',
-    types: [
-      {
-        name: 'Yes',
-        text: 'And, But, Or, So'
-      },
-      {
-        name: 'No',
-        text: 'Can, May, Shall, Will'
+    {
+      id: '200',
+      label: 'Drag and Drop',
+      type: 'group',
+      data: {
+        title: 'Identify if these words are conjunctions or not.',
+        types: [
+          {
+            name: 'Yes',
+            text: 'And, But, Or, So'
+          },
+          {
+            name: 'No',
+            text: 'Can, May, Shall, Will'
+          }
+        ]
       }
-    ]
-  }
-},
+    },
     {
       id: '300',
       label: 'Fill up',
