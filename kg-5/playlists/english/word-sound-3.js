@@ -13,7 +13,7 @@ export default {
             {
               type: 'sitewords',
               text:
-                'sun, moon, rain, star, milk, bird, fruits, leaf, world, nest, water-drop, waterfall, rainbow',
+                'sun, moon, rain, star, milk, bird, fruits, leaf, world, nest, water drop, waterfall, rainbow',
               width: 80
             },
             `# Body Parts`,
@@ -57,7 +57,7 @@ export default {
           },
           {
             audioOffset: 14,
-            words: 'leaf, world, nest, water-drop, waterfall, rainbow'
+            words: 'leaf, world, nest, water drop, waterfall, rainbow'
           }
         ]
       },
@@ -123,7 +123,7 @@ export default {
           },
           {
             audioOffset: 14,
-            words: 'leaf, world, nest, water-drop, waterfall, rainbow'
+            words: 'leaf, world, nest, water drop, waterfall, rainbow'
           }
         ]
       },
