@@ -1,6 +1,6 @@
 export default {
     label: 'Nature and Others 2',
-    id: 'sound-11',
+    id: 'word-sound-3',
     list: [
       {
         type: 'rightOne',

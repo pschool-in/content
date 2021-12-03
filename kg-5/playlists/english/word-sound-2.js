@@ -1,6 +1,6 @@
 export default {
     label: 'Fruits and Vegetables 2',
-    id: 'sound-10',
+    id: 'word-sound-2',
     list: [
       {
         type: 'rightOne',

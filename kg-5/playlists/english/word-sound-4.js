@@ -1,6 +1,6 @@
 export default {
     label: 'House and Other 2',
-    id: 'sound-12',
+    id: 'word-sound-4',
     list: [
       {
         type: 'rightOne',

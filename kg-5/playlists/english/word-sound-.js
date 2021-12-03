@@ -1,6 +1,6 @@
 export default {
     label: 'Animals and Birds 2',
-    id: 'sound-9',
+    id: 'word-sound',
     list: [
       {
         type: 'rightOne',

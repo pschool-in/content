@@ -1,6 +1,6 @@
 export default {
     label: 'More Animals and Birds 2',
-    id: 'sound-13',
+    id: 'word-sound-5',
     list: [
       {
         type: 'rightOne',

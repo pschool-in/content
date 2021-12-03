@@ -1,6 +1,6 @@
 export default {
     label: 'More Images 2',
-    id: 'sound-16',
+    id: 'word-sound-8',
     list: [
       {
         type: 'rightOne',
@@ -21,7 +21,7 @@ export default {
         id: 'sound-other',
         lockAfter: 2,
         commonData: {
-          title: 'Listen to the sound and click on the picture.',
+          title: 'Listen to the sound and click on the word.',
           type: 'words',
           audio: 'kg-5/gadget-other-flowers-2.mp3'
         },

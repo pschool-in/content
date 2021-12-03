@@ -1,6 +1,6 @@
 export default {
     label: 'Vehicles and Jobs 2',
-    id: 'sound-15',
+    id: 'word-sound-7',
     list: [
       {
         type: 'rightOne',
