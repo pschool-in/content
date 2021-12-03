@@ -62,7 +62,8 @@ export default {
         },
         {
           audioOffset: 14,
-          text: 'book, ink, schoolbag, waterbottle, color-pencils|color pencils, crayons'
+          text:
+            'book, ink, schoolbag, waterbottle, color-pencils|color pencils, crayons'
         }
       ]
     },
