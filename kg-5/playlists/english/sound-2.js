@@ -18,7 +18,7 @@ export default {
         {
           audioOffset: 20,
           text:
-            'papaya, pineapple, watermelon, pomegranate, fig, custard-apple, plum, dates, muskmelon'
+            'papaya, pineapple, watermelon, pomegranate, fig, custard-apple| custard apple, plum, dates, muskmelon'
         }
       ]
     },
@@ -38,12 +38,12 @@ export default {
         {
           audioOffset: 20,
           text:
-            'cauliflower, pumpkin, almond, beans, bitter-gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+            'cauliflower, pumpkin, almond, beans, bitter-gourd| bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
         },
         {
           audioOffset: 40,
           text:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach, vegetables'
+            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger| ladies finger, mintleaf, peanut, raddish, spinach, vegetables'
         }
       ]
     },
