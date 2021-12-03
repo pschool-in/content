@@ -49,16 +49,24 @@ Some examples of interrogative pronouns:
       id: 'match',
       label: 'Match the following',
       type: 'match',
-      data: {
+      commonData: {
         title:
           'Draw a line from the interrogative pronoun to complete the question.',
         fontSize: '1rem',
-        text: `What, time is it?
+      },
+        data : [ 
+            `What, time is it?
         Who, did this?
         Whose, book is this?
         Which, car is yours?
-        To whom, should I address this letter?`
-      }
+        To whom, should I address this letter?`,
+
+        `Which,is the song you like?
+        What, is this flavour called?
+        Whose is, this trophy?
+        What is, your score?
+        Whose are, these folders?`
+      ]
     },
     {
       id: 'fillup-1',
@@ -110,7 +118,7 @@ To *whom (who)* was the song dedicated?
             name: 'Pronoun',
             text: `I learned French by *myself*.
         Can *I* have an ice cream?
-        Will you help *me* with my homework.
+        Will you help *me* with my homework?
         *We* will go shopping tomorrow.`
           }
         ]
@@ -141,6 +149,33 @@ To *whom (who)* was the song dedicated?
         ]
       }
     },
+    {
+        id: 'classify-emphatic-interrogative',
+        label: 'Identify - Interrogative or Emphatic',
+        type: 'classifySentence',
+        data: {
+          title:
+            'Identify whether the following sentences have interrgative or emphatic pronouns.',
+          types: [
+            {
+              name: 'Interrogative pronoun',
+              text: `Please tell me who took my book.
+              Whom are you calling?
+              Which one is your house?
+              What is this flavour called?
+              Whose was that voice?`
+            },
+            {
+              name: 'Emphatic pronoun',
+              text: `She herself did it.
+              You yourself can find your talent.
+              I myself will cook the dinner.
+              She herself baked a cake.
+              He himself did it.`
+            }
+          ]
+        }
+      },
     {
       id: 'fillup-2',
       label: 'Fill in the blanks - 2',

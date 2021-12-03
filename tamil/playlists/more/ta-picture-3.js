@@ -80,7 +80,6 @@ export default {
     bee| தேனீ
     goldfish| தங்கமீன்
     seahorse| கடற்குதிரை`,
-
        
         `caterpillar| கம்பளிப்பூச்சி
         dragonfly| தட்டான்
@@ -237,11 +236,12 @@ export default {
         `lotus| தாமரை
         rose| ரோஜா
         sunflower| சூரியகாந்தி 
-        marigold| சாமந்தி`,
+        marigold| சாமந்தி
+        mogra, குண்டு மல்லி`,
 
         `hibiscus| செம்பருத்தி
         jasmine| முல்லை 
-        magnolia| செண்பகப்பூ
+        magnolia| செண்பகம்
        water-lily| அல்லி`
       ]
     },
@@ -304,64 +304,7 @@ export default {
     soldier| சிப்பாய்`
       ]
     },
-    {
-      type: 'dragDropImgLabel',
-      label: 'கூடுதல் பயிற்சி',
-      id: 'dragDropImgLabel7',
-      commonData: {
-        title: 'படங்களுடன் பெயரைப் பொருத்துக'
-      },
-      data: [
-        `sun| சூரியன்
-    moon | நிலா
-    rain| மழை
-    star| நட்சத்திரம்
-    bird| பறவை
-    palanquin| பல்லக்கு`,
-
-        `vegetables| காய்கறிகள்
-    fruits| பழங்கள்
-    leaf|  இலை
-    world| உலகம்
-    nest| கூடு
-    twig| கிளை`,
-
-        `water-drop| நீர்த்துளி
-      waterfall| அருவி
-      ring| மோதிரம்
-      brush| தூரிகை
-      bone| எலும்புத்துண்டு
-      auvai| ஔவை`,
-
-        `bell| மணி
-    five| ஐந்து
-    food| உணவு
-    king| அரசன்
-    kite| பட்டம்
-    ladder| ஏணி`,
-
-        `rishi| முனிவர்
-    wheel| சக்கரம்
-    whistle| ஊதல்
-    chariot| தேர்
-    park| பூங்கா`,
-
-        `garden| தோட்டம்
-    touch-me-not| தொட்டாற்சிணுங்கி
-    yagna| யாகம்
-    yarn-ball| நூல் கண்டு
-    bow| வில்
-    arrow| அம்பு`,
-
-        `fountain| நீரூற்று
-pouch| சுருக்குப்பை
-top| பம்பரம்
-hexagon| அறுகோணம்
-trident| திரிசூலம்
-stick| குச்சி`
-      ]
-    },
-    {
+       {
       type: 'dragDropImgLabel',
       label: 'உடை',
       id: 'dragDropImgLabel8',
@@ -555,6 +498,63 @@ screwdriver| திருப்புளி`,
         violin| நரம்பிசைக்கருவி
 yazl| யாழ்
 damaru| உடுக்கை`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'கூடுதல் பயிற்சி',
+      id: 'dragDropImgLabel7',
+      commonData: {
+        title: 'படங்களுடன் பெயரைப் பொருத்துக'
+      },
+      data: [
+        `sun| சூரியன்
+    moon | நிலா
+    rain| மழை
+    star| நட்சத்திரம்
+    bird| பறவை
+    palanquin| பல்லக்கு`,
+
+        `vegetables| காய்கறிகள்
+    fruits| பழங்கள்
+    leaf|  இலை
+    world| உலகம்
+    nest| கூடு
+    twig| கிளை`,
+
+        `water-drop| நீர்த்துளி
+      waterfall| அருவி
+      ring| மோதிரம்
+      brush| தூரிகை
+      bone| எலும்புத்துண்டு
+      auvai| ஔவை`,
+
+        `bell| மணி
+    five| ஐந்து
+    food| உணவு
+    king| அரசன்
+    kite| பட்டம்
+    ladder| ஏணி`,
+
+        `rishi| முனிவர்
+    wheel| சக்கரம்
+    whistle| ஊதல்
+    chariot| தேர்
+    park| பூங்கா`,
+
+        `garden| தோட்டம்
+    touch-me-not| தொட்டாற்சிணுங்கி
+    yagna| யாகம்
+    yarn-ball| நூல் கண்டு
+    bow| வில்
+    arrow| அம்பு`,
+
+        `fountain| நீரூற்று
+pouch| சுருக்குப்பை
+top| பம்பரம்
+hexagon| அறுகோணம்
+trident| திரிசூலம்
+stick| குச்சி`
       ]
     }
   ]

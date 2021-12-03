@@ -8,7 +8,7 @@ export default {
       type: 'passage',
       id: 'article-reading',
       data: {
-        title: 'Definite and Indefinite Article',
+        title: 'No Article Rules',
         text: [
           `To talk about things in general.`,
           {

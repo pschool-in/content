@@ -37,6 +37,24 @@ export default {
       }
     },
     {
+      label: 'Used vs Not used',
+      type: 'group',
+      id: 'used-not-used',
+      data: {
+        title: 'Classify the given materials based on if they are used to clean your body',
+        types: [
+          {
+              name: 'Used',
+              text: 'toothbrush, toothpaste, soap, shampoo, cotton buds, towel, nail cutter'
+            },
+            {
+              name: 'Not Used',
+              text: 'pencil, kite, television, spoon'
+            }
+        ]
+      }
+    },
+    {
       label: 'Good or Bad',
       id: 'good-bad',
       type: 'classifySentence',

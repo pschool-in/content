@@ -21,30 +21,6 @@ export default {
       }
     },
     {
-      id: 'reading',
-      type: 'passage',
-      label: 'Article - Notes',
-      data: {
-        title: 'Article',
-        text: [
-          `Articles are words that define a noun as specific or unspecific.`,
-          `An article is an adjective. Like adjectives, articles modify nouns.`,
-          {
-            type: 'html',
-            text: `English has two articles: <b>definite (the)</b> and <b> indefinite (a/an)</b>.<br><b>The</b> is used to refer specific or particular nouns; <b>a/an</b> is used to modify non-specific or non-particular nouns. We call <b>the</b> the definite article and <b>a/an</b> the indefinite article.`
-          },
-          {
-            type: 'html',
-            text: `For example, if I say, <i>Let's read the book</i>, I mean a specific book.<br>If I say, <i>Let's read a book</i>, I mean any book.`
-          },
-          {
-            type: 'html',
-            text: `For indefinite article, we use <b>a</b> or  <b>an</b> depending on the sound that begins the next word.`
-          }
-        ]
-      }
-    },
-    {
       label: 'Pick the Right Article',
       id: 'complete',
       type: 'completePuzzle',
