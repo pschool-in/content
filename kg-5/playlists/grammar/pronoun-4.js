@@ -90,7 +90,7 @@ I love *myself*.
 Harish lives in a big house by *himself*.
 I don't like eating by *myself*.
 Lets complete this work *ourselves*.
-The AC turned-off *itself*.
+The AC turned-off by *itself*.
 We will build the tree house by *ourselves*.`,
 
 `I cannot do it *myself*.
@@ -136,27 +136,44 @@ Don't hurt *yourself (itself)* while cooking.
 We cooked biryani *ourselves (themselves)* for the guests.`,
             ]
           },
-      {
-        label: 'True or False',
-        id: 'tf',
-        type: 'classifySentence',
-        data: {
-        title: 'Identify whether the sentence has the correct reflexive pronoun.',
-        types: [
-        {
-            name: 'True',
-            text: `Why don't you cut your nails yourself?
-            Look at yourself in the mirror.
-            Pooja and Indu! Please behave yourselves.`
-        },
-        {
-            name: 'False',
-            text: `Grandma cut himself.
-            Why don't you clean the balcony ourself?`
-        }
-        ]
-      }
-    },
+          {
+            label: 'True or False',
+            id: 'tf',
+            type: 'classifySentence',
+            commonData: {
+              title:
+                'Identify whether the sentence has the correct reflexive pronoun.',
+              types: ['True', 'False']
+            },
+            data: [
+              [
+                `Why don't you cut your nails yourself?
+                Look at yourself in the mirror.
+                Pooja and Indu! Please behave yourselves`,
+      
+                `Grandma cut himself.
+                Why don't you clean the balcony ourself?.`
+              ],
+              [
+                `Can you do your homework by yourself?
+                I can walk to the school by myself.
+                Dad can cook food by himself.`,
+      
+                `Dad can cook food by herself.
+                I can walk to the school by himself.
+                Can you do your homework by ourself?`
+              ],
+              [
+                `They do their projects by themselves.
+                We can make this model by ourselves.
+                You ride your bike by yourself.`,
+      
+                `They do their projects by ourselves.
+                We can make this model by myselves.
+                You ride your bike by herself.`
+              ]
+            ]
+          },
       {
         label: 'Drag and Drop',
         type: 'matchByDragDrop',
@@ -182,8 +199,30 @@ We made chocolate cookies *ourselves*.
 Lohit finished the project by *himself*.
 The dog let *itself* into our room.`
         ]
-      }
+      },
+      {
+        type: 'selectWord',
+        label: 'Identify the pronouns',
+        id: 'multi-select-pronoun-4',
+        commonData: {
+        title: 'Tap on all the demonstrative, reflexive and possessive pronouns.',
+        multiSelect: true
+      },
+        data: [
+`*This* book is *mine*. I read the whole book all by *myself*. I like *this* book.
+*That* is my father. *This* car is *his*. I washed it all by *myself*.
+My dad gave me *this* map. He told me it was *his*. I need to find directions by *myself*.
+He wanted to impress the teacher. So, he baked the cake by *himself*. The recepie was *mine*.
+*Those* bags are *hers*. She goes for shopping all by *herself*.`,
+
+`We don't like to go out for dinner. We cook dinner by *ourselves*.
+*This* brush is *mine*. I stare at *myself* in the mirror while brushing.
+*This* garage is *mine*. Me and my dad painted it *ourselves*.
+The children loves holidays. *They* buy all the new things for *themselves*. *That* time is their favourite.
+Prateek is very lazy. He copied his friend's project instead of doing it *himself*.`
     ]
-  };
+   }
+  ]
+ };
         
 

@@ -55,24 +55,24 @@ export default {
       },
       data: [
         `*I* am waiting for the train. 
-*He* is a smart boy.
-*She* is a good dancer.
+The teacher thinks that *he* is a smart boy.
+My mom told me that *she* is a good dancer.
 *I* am very happy.
 This is my pen, give it to *me*.
 *I* am sitting on the chair.
-*We* are watching the cricket match.
+The guests arrived while *we* were watching the cricket match.
 Are *you* from Hyderabad?
 *She* is going home.
 *It* is an amazing movie.`,
 
-        `*She* is our teacher.
+        `The principal told us that *she* is our new teacher.
 *He* wants to buy a new cycle.
-*Her* name is Meera.
-*They* are going to the market.
-*She* is very intelligent.
+Teacher told everyone that *her* name is Meera.
+On Wednesday, *they* will go to the market.
+Meera thinks that *she* is very intelligent.
 *They* are studying together.
 *He* is teaching science in our school.
-*She* is running very fast.
+Priya was shy at first but *she* is running very fast.
 Did *you* water the plants?
 *She* likes to dance.`
       ]

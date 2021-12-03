@@ -62,6 +62,18 @@ The cricket bat belongs to Ram. It is *his*.
 We bought this music player together. So it is *ours*.
 All my cousins love criket. Playing cricket is a favourite passtime of *theirs*.`,
 
+`She bought a new bicycle. It is *hers* now.
+That book is *mine*. He thought is was *his*.
+We bought many new balls yesterday. All of them are *ours*.
+That pen is not mine. It may be *yours*.
+They go to the village in the car. It is *theirs*.`,
+
+`Varun kept his bag on the table. It is *his*.
+Sheena likes games. That board is *hers*.
+I bring lunch everyday. That lunchbox is *mine*.
+You forgot your pen. This is *yours*.
+The children play cricket. This bat is *theirs*.`,
+
 `My car is bigger than *yours*.
 This book is not yours. This is *mine*.
 This dress belongs to my sister Priya. This dress is *hers*.
@@ -152,6 +164,28 @@ The purse belongs to Meera. It is *hers*.
 That headphone is *mine*.
 This bangle is *hers*.`,
        ]
-      }
+      },
+      {
+        type: 'selectWord',
+        label: 'Identify the pronouns',
+        id: 'select-multi-pronoun',
+        commonData: {
+        title: 'Tap on all the personal, demonstrative and possessive pronouns.',
+        multiSelect: true
+      },
+        data: [
+`*She* tries to steal everyone's chocolates. *She* lies and says *they* are *hers*.
+*Me* and my sister go to swimming. *Those* swimming glasses are *ours*.
+The book is kept on the table. *It* is *ours*.
+*I* borrowed *this* paper from Vidya. *This* is hers.
+Sheena gave me *this* napkin. *This* is *hers*.`,
+
+`Rahul is my best friend. *We* go to school together. *This* bag is *his*.
+*I* like my mother's kurti. *I* borrowed *this* for a party. *It* is *hers*.
+*That* house is *theirs*. *It* is not in a good condition. *They* need to repair *it*.
+*I* said to my friend, "What is *mine*, is *yours*. *He* was very happy to hear *this*.
+My parents teach *me*, "What is rightfully *yours* will surely be *yours*.`
     ]
-  };
+   }
+  ]
+ };
