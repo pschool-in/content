@@ -314,6 +314,24 @@ export default {
         ]
       },
       {
+        id: '1500',
+        label: 'Complete the passage',
+        type: 'fillup',
+        commonData: {
+          title: 'Insert the correct punctuation in the passage.',
+          isPunctuation: true
+        },
+        data: [
+          `I saw a cat *. (? , !)* It had green eyes *, (., !)* brown fur *, (., !)* and small tail *. (?, !)* Do you know that cats like milk *? (. , !)* I love cats *! (?, ;)* They are very cute *. (!, ?)*`,
+  
+          `My house is very clean *. (!, ?)* There are three rooms *, (., !)* a kitchen *, (., !)* and a bathroom *. (!, ?)* There are beautiful flowers in the garden *. (!, ?)* I love living in my house *. (?, !)* What is your house like *? (., !)*`,
+  
+          `My school is 20 minutes away from my home *. (!, ?)* I love going to school *. (?, !)* I meet all my friends there *. (!, ?)* My teachers are very helping *. (?, !)* My classroom is very big *, (., !)* clean *, (., ?)* and colorful *. (!, ?)*`,
+
+          `Do you like milk *? (., !)* I drink milk every morning *. (?, !)* It is good for our health *. (?, !)* Sometimes *, (., !)* I add chocolate flavour *, (., !)* sugar *, (., !)* and cream in the milk *. (!, ?)*`
+        ]
+      },
+      {
         id: '1400',
         label: 'True or False',
         type: 'classifySentence',
