@@ -1,6 +1,6 @@
 export default {
     label: 'More Fruits and Vegetables 2',
-    id: 'sound-14',
+    id: 'word-sound-6',
     list: [
       {
         type: 'rightOne',
@@ -39,7 +39,7 @@ export default {
           {
             audioOffset: 26,
             words:
-              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant-yam, ashgourd, broad beans, snake gourd'
+              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
           },
           {
             audioOffset: 46,
@@ -83,7 +83,7 @@ export default {
           {
             audioOffset: 26,
             words:
-              'chickpea, mustard-greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
+              'chickpea, mustard greens, turmeric, turnip, fenugreek, tamarind, elephant yam, ashgourd, broad beans, snake gourd'
           },
           {
             audioOffset: 46,
