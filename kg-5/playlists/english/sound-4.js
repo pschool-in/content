@@ -111,7 +111,7 @@ export default {
           words: 'man, woman, boy, girl, baby, house, table, bed, candle, chair'
         },
         {
-          audioOffset: 18,
+          audioOffset: 20,
           words:
             'shelf, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
         },
