@@ -14,60 +14,60 @@ export default {
         lang: 'ta'
       },
       data: [
-        `cat, பூனை 
-        dog, நாய் 
-        goat, ஆடு
-        sheep, செம்மறிஆடு  
-        horse, குதிரை
-        pig, பன்றி
-        elephant, யானை 
-        lion, சிங்கம் 
-        monkey, குரங்கு
-        tiger, புலி`,
+    `cat, பூனை 
+    dog, நாய் 
+    goat, ஆடு
+    sheep, செம்மறிஆடு  
+    horse, குதிரை
+    pig, பன்றி
+    elephant, யானை 
+    lion, சிங்கம் 
+    monkey, குரங்கு
+    tiger, புலி`,
 
-        `hippo, நீர்யானை
-        rhino, காண்டாமிருகம்
-        fox, நரி 
-        crocodile, முதலை
-        zebra, வரிக்குதிரை
-        bear, கரடி
-        camel, ஒட்டகம்
-        shark, சுறாமீன்
-        whale, திமிங்கிலம்
-        frog, தவளை`,
+    `hippo, நீர்யானை
+    rhino, காண்டாமிருகம்
+    fox, நரி 
+    crocodile, முதலை
+    zebra, வரிக்குதிரை
+    bear, கரடி
+    camel, ஒட்டகம்
+    shark, சுறாமீன்
+    whale, திமிங்கிலம்
+    frog, தவளை`,
 
-          `crab, நண்டு
-          snake, பாம்பு
-          squirrel, அணில்
-          tortoise,  ஆமை
-          rat, எலி 
-          winged-termites, ஈசல் 
-          ant, எறும்பு
-          fly, ஈ
-          bat, வௌவால்
-          buffalo, எருமை`,
+    `crab, நண்டு
+    snake, பாம்பு
+    squirrel, அணில்
+    tortoise,  ஆமை
+    rat, எலி 
+    winged-termites, ஈசல் 
+    ant, எறும்பு
+    fly, ஈ
+    bat, வௌவால்
+    buffalo, எருமை`,
 
-        `butterfly,  வண்ணத்துப்பூச்சி
-          cow,  பசு 
-          donkey, கழுதை
-          giraffe, ஒட்டகச்சிவிங்கி
-          kangaroo, கங்காரு
-          leopard, சிறுத்தை
-          mongoose, கீரிப்பிள்ளை
-          mosquito, கொசு 
-          wolf, ஓநாய்
-          cockroach, கரப்பான்பூச்சி`,
+    `butterfly,  வண்ணத்துப்பூச்சி
+    cow,  பசு 
+    donkey, கழுதை
+    giraffe, ஒட்டகச்சிவிங்கி
+    kangaroo, கங்காரு
+    leopard, சிறுத்தை
+    mongoose, கீரிப்பிள்ளை
+    mosquito, கொசு 
+    wolf, ஓநாய்
+    cockroach, கரப்பான்பூச்சி`,
 
    `garden-lizard, ஓணான்
-      lizard, பல்லி
-      rabbit, முயல்
-      boar, காட்டுப்பன்றி
-      hyena, கழுதைப் புலி
-      polarbear, பனிக்கரடி
-      antelope, மான்
-            bug, வண்டு
-            jackal, நரி
-            prawn, இறால்`,
+    lizard, பல்லி
+    rabbit, முயல்
+    boar, காட்டுப்பன்றி
+    hyena, கழுதைப் புலி
+    polarbear, பனிக்கரடி
+    antelope, மான்
+    bug, வண்டு
+    jackal, நரி
+    prawn, இறால்`,
 
     `bull, காளை
     python, மலைப்பாம்பு
@@ -80,12 +80,12 @@ export default {
     goldfish, தங்கமீன்
     seahorse, கடற்குதிரை`,
 
-    `caterpillar, கம்பளிப்பூச்சி
-        dragonfly, தட்டான்
-        fish, மீன் 
-        earthworm, மண்புழு
-        hedgehog, முள்ளெலி
-        stingray, திருக்கை மீன்`
+  `caterpillar, கம்பளிப்பூச்சி
+    dragonfly, தட்டான்
+    fish, மீன் 
+    earthworm, மண்புழு
+    hedgehog, முள்ளெலி
+    stingray, திருக்கை மீன்`
       ]
     },
     {
@@ -312,23 +312,21 @@ export default {
     clown, கோமாளி
     fisherman, மீனவர்
     postman, தபால்காரர்
-    teacher, ஆசிரியர்`,
-
-        `blacksmith, கொல்லர்
+    teacher, ஆசிரியர்
+    blacksmith, கொல்லர்
     cobbler, செருப்புதைப்பவர் 
     goldsmith, பொற்கொல்லர்
     potter, குயவர்
     weaver, நெசவாளர்`,
     
-       `carpenter, தச்சர்
-       warrior, போர்வீரர்
+    `carpenter, தச்சர்
+      warrior, போர்வீரர்
       nurse, செவிலியர்
-      sailor, மாலுமி`,
-
-        `chef, சமையல்காரர்
-    doctor, மருத்துவர்
-    police, காவல்
-    soldier, சிப்பாய்`
+      sailor, மாலுமி
+      chef, சமையல்காரர்
+      doctor, மருத்துவர்
+      police, காவல்
+      soldier, சிப்பாய்`
       ]
     },
     {
@@ -347,16 +345,15 @@ export default {
         blackboard, கரும்பலகை
         hose, குழாய்
         microscope, நுண்ணோக்கி
-        compass, திசைகாட்டி`,
-        
-                `needle, ஊசி
+        compass, திசைகாட்டி
+        needle, ஊசி
         plier, இடுக்கி
         Plough, கலப்பை
-        saw, இரம்பம்
-        spade, மண்வெட்டி
-        screw, திருகு`,
-        
-                `telescope, தொலைநோக்கி
+        saw, இரம்பம்`,
+                
+        `spade, மண்வெட்டி
+        screw, திருகு
+        telescope, தொலைநோக்கி
         test-tube, சோதனை குழாய்
         thermometer, வெப்பமானி
         trowel, கரணை
@@ -381,15 +378,14 @@ export default {
     ladoo, லட்டு
     cheese, பாலாடைக்கட்டி
     butter, வெண்ணெய்
-    sugar,சர்க்கரை`,
-
-        `meat, இறைச்சி
+    sugar,சர்க்கரை
+    meat, இறைச்சி
     chicken, கோழி
     ice-cream, பனிக்கூழ்
-    sweets,இனிப்பு
-    bread, ரொட்டி`,
+    sweets,இனிப்பு`,
 
-        `juice, பழச்சாறு
+    `bread, ரொட்டி
+    juice, பழச்சாறு
     flour, மாவு
     lentils, பருப்பு
     rice,அரிசி
@@ -412,30 +408,28 @@ export default {
       radio, வானொலி
       chair, நாற்காலி
       shelf, அலமாரி
-      door, கதவு`,
-
-        `grandfather, தாத்தா
+      door, கதவு
+      grandfather, தாத்தா
       man, ஆண்
       woman, பெண்
-      boy, சிறுவன்
-      girl, சிறுமி
-      baby , குழந்தை`,
+      boy, சிறுவன்`,
 
-        `window, ஜன்னல்
+      `girl, சிறுமி
+      baby , குழந்தை
+      window, ஜன்னல்
       air-conditioner, குளிரூட்டி
       fridge, குளிர்சாதன பெட்டி
       toothpaste, பற்பசை 
       bucket, வாளி
-      toilet, கழிப்பறை`,
+      toilet, கழிப்பறை
+      candle, மெழுகுவர்த்தி
+      ball, பந்து`,
 
-        `candle, மெழுகுவர்த்தி
-    ball, பந்து
-    box, பெட்டி
+        `box, பெட்டி
     coin, நாணயம்
     medicine, மருந்து
-    balloon, பலூன்`,
-
-        `glasses, மூக்குகண்ணாடி
+    balloon, பலூன்
+    glasses, மூக்குகண்ணாடி
     clock, கடிகாரம் 
     watch, கைக்கடிகாரம்
     flower-pot, பூத்தொட்டி
@@ -447,28 +441,26 @@ export default {
     basket, கூடை
     dustbin, குப்பை தொட்டி
     handbag, கைப்பை
-    soap, சவர்க்காரம்`,
+    soap, சவர்க்காரம்
+    stove, அடுப்பு
+    fork, முள் கரண்டி
+    knife,கத்தி
+    pan, வாணலி`,
 
-        `stove, அடுப்பு
-      fork, முள் கரண்டி
-      knife,கத்தி
-      pan, வாணலி 
-      pot, பானை`,
-
-        `plate, தட்டு
+        `pot, பானை
+      plate, தட்டு
       tap, நீர்க்குழாய்
       lid, மூடி
       salt, உப்பு
-      cup, கோப்பை`,
-
-        `bowl, கிண்ணம்
+      cup, கோப்பை
+      bowl, கிண்ணம்
       waterbottle, தண்ணீர் குடுவை
       scissors, கத்தரிக்கோல்
-      calculator, கணிப்பான்
-      book, புத்தகம்
-      ink, மை`,
+      calculator, கணிப்பான்`,
 
-        `eraser, அழிப்பான்
+        `book, புத்தகம்
+      ink, மை
+      eraser, அழிப்பான்
       pen, பேனா
       pencil, எழுதுகோல்
       ruler, அளவுகோல்
