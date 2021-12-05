@@ -6,15 +6,14 @@ export default {
     {
       label: 'Articles',
       type: 'passage',
-      id: 'articles-reading',
+      id: 'reading',
       data: {
         title: 'Articles ',
         text: [
           {
             type: 'html',
-            text: `<b>a</b>, <b>an</b> and <b>the</b> are known as articles. They are used in front on naming words (nouns).<br>
-          <b>an</b> is used with the word that begins with a vowel sound. We already know that <b>a</b>, <b>e</b>, <b>i</b>, <b>o</b> and <b>u</b> are called vowels. The remaining 21 letters are called consonants. <br>
-          <b>a</b> is used with the word that begins with a consonant sound.`
+            text: `<b>a</b>, <b>an</b> and <b>the</b> are known as articles. They are used in front on naming words (nouns).<br><br>
+          <b>an</b> is used with the word that begins with a vowel sound. We already know that <b>a</b>, <b>e</b>, <b>i</b>, <b>o</b> and <b>u</b> are called vowels. The remaining 21 letters are called consonants.`
           },
           {
             type: 'hilight',
@@ -22,20 +21,24 @@ export default {
               'an apple, an animal, an egg, an eagle, an ice-cream, an owl, an umbrella'
           },
           {
+            type: 'html',
+            text:
+              '<b>a</b> is used with the word that begins with a consonant sound.'
+          },
+          {
             type: 'hilight',
             text: 'a bag, a bird, a cat, a cup, a dog, a pen, a tree'
           },
 
-          `Though the below words begin with 'u', the beginning sound is 'you'.`,
+          `Though the below words begin with 'u', the beginning sound is 'you'. So it is not considered as a vowel sound.`,
           { type: 'hilight', text: 'a universe, a uniform' },
-          `Though the below words begin with 'h', the first letter is silent.`,
+          `Though the below words begin with 'h', the first letter is silent. So the initial sound of the word is a vowel.`,
           { type: 'hilight', text: 'an hour, an honest' },
-
           {
             type: 'html',
             text: `<b>a</b> and <b>an</b> are used to refer any one of the things. But <b>the</b> is used to refer to a specific thing.<br>
             I went to a doctor. The doctor was very kind.<br>
-            In the first sentence we use <b>a<b> before the word <b>doctor</b> because she is one of the many doctor. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
+            In the first sentence we use <b>a</b> before the word <b>doctor</b> because she is one of the many doctor. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
           }
         ]
       }

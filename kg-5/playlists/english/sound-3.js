@@ -16,7 +16,7 @@ export default {
         },
         {
           audioOffset: 14,
-          text: 'leaf, world, nest, water-drop, waterfall, rainbow'
+          text: 'leaf, world, nest, water-drop|water drop, waterfall, rainbow'
         }
       ]
     },

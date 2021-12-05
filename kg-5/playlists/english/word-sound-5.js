@@ -3,6 +3,30 @@ export default {
     id: 'word-sound-5',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Animals`,
+            {
+              type: 'sitewords',
+              text:
+                'mongoose, mosquito, octopus, wolf, lizard, cockroach, garden lizard, rabbit, leopard, dragonfly, housefly, squirrel, dinosaur, alligator, boar, cricket, hyena, polarbear, antelope, bug, jackal, prawn, baboon, python, bison, chameleon, porcupine, tigerfish, ladybug, seahorse, hamster, mole, caterpillar, earthworm, hedgehog, stingray, jellyfish, starfish',
+              width: 80
+            },
+            `# Birds`,
+            {
+              type: 'sitewords',
+              text:
+                'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted dove, pelican, hummingbird, robin, swallow, blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Animals',
         id: 'sound-animal',

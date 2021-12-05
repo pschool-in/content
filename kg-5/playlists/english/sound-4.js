@@ -26,7 +26,7 @@ export default {
         {
           audioOffset: 50,
           text:
-            'pillow, basket, dustbin, bed-lamp, handbag, air-conditioner| air condiditioner, washing-machine|washing machine'
+            'pillow, basket, dustbin, bed-lamp|bed lamp, handbag, air-conditioner| air condiditioner, washing-machine|washing machine'
         }
       ]
     },
@@ -62,7 +62,8 @@ export default {
         },
         {
           audioOffset: 14,
-          text: 'book, ink, schoolbag, waterbottle, color-pencils|color pencils, crayons'
+          text:
+            'book, ink, schoolbag, waterbottle, color-pencils|color pencils, crayons'
         }
       ]
     },
@@ -110,7 +111,7 @@ export default {
           words: 'man, woman, boy, girl, baby, house, table, bed, candle, chair'
         },
         {
-          audioOffset: 18,
+          audioOffset: 20,
           words:
             'shelf, coat, glasses, clock, watch, flower-pot, umbrella, door, broom'
         },

@@ -43,12 +43,12 @@ export default {
         {
           audioOffset: 0,
           text:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, hummingbird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove|spotted dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,
           text:
-            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow|macaw'
+            'swallow, blue-jay|blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow|macaw'
         }
       ]
     },
@@ -99,7 +99,7 @@ export default {
         {
           audioOffset: 0,
           words:
-            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, humming-bird, robin'
+            'hornbill, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, pelican, hummingbird, robin'
         },
         {
           audioOffset: 20,

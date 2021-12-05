@@ -3,6 +3,37 @@ export default {
     id: 'word-sound-8',
     list: [
       {
+        id: 'reading',
+        type: 'passage',
+        label: 'Words List',
+        data: {
+          title: 'Words List',
+          text: [
+            `# Gadget`,
+            {
+              type: 'sitewords',
+              text:
+                'camera, headphone, pendrive, remote, smartphone, speaker, tablet, torch, web camera',
+              width: 80
+            },
+            `# Others`,
+            {
+              type: 'sitewords',
+              text:
+                'knight, chariot, horse carriage, yarn ball, bow, arrow, fountain, pouch, trolley, whistle, twig, palanquin, medicine, conch, toothbrush, chocolate, toothpaste',
+              width: 80
+            },
+            `# Flowers`,
+            {
+              type: 'sitewords',
+              text:
+                'daffodil, gulmohar, lily, pansy, poppy, daisy, jasmine, magnolia, periwinkle, water lily',
+              width: 80
+            }
+          ]
+        }
+      },
+      {
         type: 'rightOne',
         label: 'Identify Gadgets',
         id: 'sound-gadgets',

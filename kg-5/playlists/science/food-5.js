@@ -629,20 +629,19 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
     },
     {
       label: 'Choose the best Answer',
-      id: 'mcq',
+      id: 'mcq-food',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
             qText: 'What are taste buds?',
-            options:
-              'sensory organs, nerve endings, bone'
+            options: 'sensory organs, nerve endings, bone'
           },
           {
-            qText: 'What will restricting our diet to a few food groups lead to?',
-            options:
-              'lifestyle diseases, healthy living, strong body'
+            qText:
+              'What will restricting our diet to a few food groups lead to?',
+            options: 'lifestyle diseases, healthy living, strong body'
           },
           {
             qText: 'Which of the following is not sweet?',
@@ -650,13 +649,11 @@ Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
           },
           {
             qText: 'Which of the following is bitter?',
-            options:
-              'bitter guard, carrot, orange'
+            options: 'bitter guard, carrot, orange'
           },
           {
             qText: 'What part of our tongue recognises salty taste?',
-            options:
-              'sides, front, back'
+            options: 'sides, front, back'
           }
         ]
       }
