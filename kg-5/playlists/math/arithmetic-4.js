@@ -3,104 +3,192 @@ export default {
   label: 'Arithmetic - 4',
   list: [
     {
-      type: 'mathCrossword',
-      label: 'Math Crossword',
-      id: 'mathcross',
+      id: 'multiply',
+      type: 'quickArithmetic',
+      label: 'Multiply',
+      lockAfter: 2,
       commonData: {
-        title: 'Click on the empty cells and fill it with the correct value.'
+        count: 10,
+        title: 'Multiply'
       },
       data: [
         {
-          text: `?+6=?
-  +b+b+
-  ?+?=8
-  =b=b=
-  12+6=?`,
-          answer: [4, 10, 8, 0, 18]
+          type: 'mul~x0~6'
+        },
+        {
+          type: 'mul~x0~7'
+        },
+        {
+          type: 'mul~x0~8'
+        },
+        {
+          type: 'mul~x0~9'
+        },
+        {
+          type: 'mul~x0~x'
+        }
+      ]
+    },
+    {
+      id: 'divide',
+      type: 'quickArithmetic',
+      label: 'Division',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Division'
+      },
+      data: [
+        {
+          type: 'div~x~6'
+        },
+        {
+          type: 'div~x~7'
+        },
+        {
+          type: 'div~x~8'
+        },
+        {
+          type: 'div~x~9'
+        },
+        {
+          type: 'div~x~x'
+        }
+      ]
+    },
+    {
+      id: 'evaluate',
+      type: 'quickArithmetic',
+      label: 'Evaluate',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Evaluate'
+      },
+      data: [
+        {
+          type: 'misc~xx+x0-x0'
+        },
+        {
+          type: 'misc~xx-x0+x0'
+        },
+        {
+          type: 'misc~xx-x0-x0'
+        },
+        {
+          type: 'misc~xxx+x-x'
+        },
+        {
+          type: 'misc~xxx-x+x'
+        },
+        {
+          type: 'misc~xxx-x-x'
+        },
+        {
+          type: 'misc~xxx-100+x'
+        },
+        {
+          type: 'misc~xxx+100-x'
+        },
+        {
+          type: 'misc~1000+x0-x'
+        },
+        {
+          type: 'misc~1000+x00-x'
+        }
+      ]
+    },
+    {
+      id: 'fillup',
+      type: 'quickArithmetic',
+      label: 'Fill Up',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Fill in the blanks.',
+        isReverse: true
+      },
+      data: [
+        {
+          type: 'misc~x00+x'
+        },
+        {
+          type: 'misc~x00+x0'
+        },
+        {
+          type: 'misc~x00+x0+x'
+        },
+        {
+          type: 'misc~x00+xx+3'
+        },
+        {
+          type: 'misc~xxx+x'
+        },
+        {
+          type: 'misc~xxx+x0'
+        },
+        {
+          type: 'misc~xxx+x00'
+        },
+        {
+          type: 'misc~x0+x0'
+        },
+        {
+          type: 'misc~xx+50'
+        },
+        {
+          type: 'misc~xx+1x'
+        }
+      ]
+    },
+    {
+      id: 'fillup-2',
+      type: 'quickArithmetic',
+      label: 'Fill Up - 2',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Fill in the blanks.',
+        isReverse: true
+      },
+      data: [
+        {
+          type: 'misc~xx-30'
+        },
+        {
+          type: 'misc~xx-x0'
         },
 
         {
-          text: `4+?=10
-  +b+b+
-  8+?=?
-  =b=b=
-  ?+?=18`,
-          answer: [6, 0, 8, 12, 6]
+          type: 'misc~x0-x0'
         },
         {
-          text: `?−11=?
-  +b+b+
-  ?+?=5
-  =b=b=
-  14−8=?`,
-          answer: [12, 1, 2, 3, 6]
-        },
-
-        {
-          text: `12−?=6
-  +b+b+
-  8−?=?
-  =b=b=
-  ?−?=12`,
-          answer: [6, 2, 6, 20, 8]
+          type: 'misc~x5-x5'
         },
         {
-          text: `?−3=?
-            −b+b−
-  ?+?=10
-  =b=b=
-  12−7=?`,
-          answer: [18, 15, 6, 4, 5]
-        },
-
-        {
-          text: `8−?=4
-            +b+b+
-  5−?=?
-  =b=b=
-  ?−?=8`,
-          answer: [4, 1, 4, 13, 5]
+          type: 'misc~xx-9'
         },
         {
-          text: `?−1=?
-            +b+b+
-  ?−?=5
-  =b=b=
-  18−8=?`,
-          answer: [6, 5, 12, 7, 10]
-        },
-
-        {
-          text: `6−?=5
-            +b+b+
-  9−?=?
-  =b=b=
-  ?−?=5`,
-          answer: [1, 9, 0, 15, 10]
+          type: 'misc~xx-11'
         },
         {
-          text: `?−13=?
-            −b+b−
-  ?+?=2
-  =b=b=
-  16−14=?`,
-          answer: [17, 4, 1, 1, 2]
+          type: 'misc~xx-15'
         },
-
         {
-          text: `13−?=12
-            +b−b+
-  0+?=?
-  =b=b=
-  ?+?=13`,
-          answer: [1, 1, 0, 13, 0]
+          type: 'misc~xx-19'
+        },
+        {
+          type: 'misc~x09-x'
+        },
+        {
+          type: 'misc~x99-x'
         }
       ]
     },
     {
       type: 'mathCrossword',
       label: 'Math Crossword - 2',
-      id: 'mathcross',
+      id: 'mathcross-2',
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },

@@ -52,10 +52,10 @@ Some examples of interrogative pronouns:
       commonData: {
         title:
           'Draw a line from the interrogative pronoun to complete the question.',
-        fontSize: '1rem',
+        fontSize: '1rem'
       },
-        data : [ 
-            `What, time is it?
+      data: [
+        `What, time is it?
         Who, did this?
         Whose, book is this?
         Which, car is yours?
@@ -150,32 +150,32 @@ To *whom (who)* was the song dedicated?
       }
     },
     {
-        id: 'classify-emphatic-interrogative',
-        label: 'Identify - Interrogative or Emphatic',
-        type: 'classifySentence',
-        data: {
-          title:
-            'Identify whether the following sentences have interrgative or emphatic pronouns.',
-          types: [
-            {
-              name: 'Interrogative pronoun',
-              text: `Please tell me who took my book.
+      id: 'classify-emphatic-interrogative',
+      label: 'Identify - Interrogative or Emphatic',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Identify whether the following sentences have interrgative or emphatic pronouns.',
+        types: [
+          {
+            name: 'Interrogative pronoun',
+            text: `Please tell me who took my book.
               Whom are you calling?
               Which one is your house?
               What is this flavour called?
               Whose was that voice?`
-            },
-            {
-              name: 'Emphatic pronoun',
-              text: `She herself did it.
+          },
+          {
+            name: 'Emphatic pronoun',
+            text: `She herself did it.
               You yourself can find your talent.
               I myself will cook the dinner.
               She herself baked a cake.
               He himself did it.`
-            }
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
     {
       id: 'fillup-2',
       label: 'Fill in the blanks - 2',

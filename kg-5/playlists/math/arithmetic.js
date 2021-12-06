@@ -24,6 +24,9 @@ export default {
         },
         {
           type: 'after~x9'
+        },
+        {
+          type: 'after~9x'
         }
       ]
     },
@@ -49,6 +52,9 @@ export default {
         },
         {
           type: 'before~x0'
+        },
+        {
+          type: 'before~9x'
         }
       ]
     },
@@ -65,34 +71,34 @@ export default {
       },
       data: [
         {
-          type: 'add~x~x'
+          type: 'misc~x+x'
         },
         {
-          type: 'add~x0~x'
+          type: 'misc~x0+x'
         },
         {
-          type: 'add~xx~10'
+          type: 'misc~xx+10'
         },
         {
-          type: 'add~xx~3'
+          type: 'misc~xx+3'
         },
         {
-          type: 'add~xx~5'
+          type: 'misc~xx+5'
         },
         {
-          type: 'add~xx~9'
+          type: 'misc~xx+9'
         },
         {
-          type: 'add~xx~x'
+          type: 'misc~xx+x'
         },
         {
-          type: 'add~xx~20'
+          type: 'misc~xx+20'
         },
         {
-          type: 'add~xx~30'
+          type: 'misc~xx+30'
         },
         {
-          type: 'add~xx~x0'
+          type: 'misc~xx+x0'
         }
       ]
     },
@@ -109,40 +115,61 @@ export default {
       },
       data: [
         {
-          type: 'sub~x~x'
+          type: 'misc~x-x'
         },
         {
-          type: 'sub~x9~x'
+          type: 'misc~x9-x'
         },
         {
-          type: 'sub~xx~2'
+          type: 'misc~xx-2'
         },
         {
-          type: 'sub~xx~3'
+          type: 'misc~xx-3'
         },
         {
-          type: 'sub~xx~10'
+          type: 'misc~xx-10'
         },
         {
-          type: 'sub~xx~4'
+          type: 'misc~xx-4'
         },
         {
-          type: 'sub~xx~5'
+          type: 'misc~xx-5'
         },
         {
-          type: 'sub~xx~9'
+          type: 'misc~xx-9'
         },
         {
-          type: 'sub~xx~x'
+          type: 'misc~xx-x'
         },
         {
-          type: 'sub~xx~20'
+          type: 'misc~xx-20'
+        }
+      ]
+    },
+    {
+      id: 'multiply',
+      type: 'quickArithmetic',
+      label: 'Multiply',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Multiply'
+      },
+      data: [
+        {
+          type: 'mul~x~2'
         },
         {
-          type: 'sub~xx~30'
+          type: 'mul~x~3'
         },
         {
-          type: 'sub~xx~x0'
+          type: 'mul~x~4'
+        },
+        {
+          type: 'mul~x~5'
+        },
+        {
+          type: 'mul~x~10'
         }
       ]
     }

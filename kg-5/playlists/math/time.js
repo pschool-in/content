@@ -1,11 +1,11 @@
 export default {
   label: 'Time Based Problems',
-  id: 'word-problems-1',
+  id: 'time',
   //word problems for class 1 students
   list: [
     {
       type: 'clock',
-      id: 'write-time-5mins',
+      id: 'write-time',
       label: 'AM or PM',
       commonData: {
         type: 'AMorPM'
@@ -32,7 +32,7 @@ export default {
     },
     {
       type: 'clock',
-      id: 'write-time-5mins',
+      id: 'write-time-2',
       label: 'Word Problems - Set the clock',
       commonData: {
         type: 'wordProblem',
