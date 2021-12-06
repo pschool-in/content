@@ -8,7 +8,7 @@ export default {
       label: 'விலங்குகள் ',
       id: 'connect-animals',
       commonData: {
-        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக',
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta'
@@ -121,10 +121,8 @@ export default {
         swallow,  தகைவிலாங் குருவி
         seagull, கடற்பறவை`,
             
-          `goose, வாத்து
-          falcon, பருந்து
+          `falcon, பருந்து
         myna, மைனா
-        peacock, மயில்
         turkey, வான்கோழி
         macow, பஞ்சவர்ணக்கிளி`
       ]
@@ -259,10 +257,11 @@ export default {
         `ear, காது 
         eye, கண்
         hair, முடி
+        hand, கை 
         mouth, வாய் 
         nose, மூக்கு 
         tooth, பல்
-        foot| பாதம்`
+        foot, பாதம்`
              }
     },
     {
@@ -372,7 +371,6 @@ export default {
         lang: 'ta'
       },
       data: [
-
     `chocolate, மிட்டாய்
     milk, பால்
     ladoo, லட்டு
@@ -486,7 +484,67 @@ export default {
         yazl, யாழ்
         damaru, உடுக்கை`
              }
-    }
+    },
+    {
+      type: 'connectLetters',
+      label: 'இயற்கை ',
+      id: 'connect-nature',
+      commonData: {
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'ta'
+      },
+      data: [
+            `sun, சூரியன்
+    moon , நிலா
+    rain, மழை
+    star, நட்சத்திரம்
+    bird, பறவை
+    palanquin, பல்லக்கு`,
+
+        `vegetables, காய்கறிகள்
+    fruits, பழங்கள்
+    leaf,  இலை
+    world, உலகம்
+    nest, கூடு
+    twig, கிளை`,
+
+        `water-drop, நீர்த்துளி
+      waterfall, அருவி
+      ring, மோதிரம்
+      brush, தூரிகை
+      bone, எலும்புத்துண்டு
+      auvai, ஔவை`,
+
+        `bell, மணி
+    five, ஐந்து
+    food, உணவு
+    king, அரசன்
+    kite, பட்டம்
+    ladder, ஏணி`,
+
+        `rishi, முனிவர்
+    wheel, சக்கரம்
+    whistle, ஊதல்
+    chariot, தேர்
+    park, பூங்கா`,
+
+        `garden, தோட்டம்
+    touch-me-not, தொட்டாற்சிணுங்கி
+    yagna, யாகம்
+    yarn-ball, நூல் கண்டு
+    bow, வில்
+    arrow, அம்பு`,
+
+        `fountain, நீரூற்று
+pouch, சுருக்குப்பை
+top, பம்பரம்
+hexagon, அறுகோணம்
+trident, திரிசூலம்
+stick, குச்சி`
+      ]      
+}
   ]
 };
     
