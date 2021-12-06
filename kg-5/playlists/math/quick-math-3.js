@@ -38,9 +38,9 @@ export default {
       ]
     },
     {
-      id: 'addition',
+      id: 'subtraction',
       type: 'quickArithmetic',
-      label: 'Add the Numbers',
+      label: 'Subtract the Numbers',
       lockAfter: 2,
       commonData: {
         count: 10,

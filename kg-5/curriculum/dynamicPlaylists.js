@@ -601,6 +601,16 @@ const math = [
     grade: 'g3, g4, g5'
   },
   {
+    label: 'Arithmetic - 4',
+    id: 'arithmetic-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Arithmetic - 5',
+    id: 'arithmetic-5',
+    grade: 'g3, g4, g5'
+  },
+  {
     label: 'Math - 1',
     id: 'math-1',
     grade: 'g1, g2'
@@ -698,6 +708,26 @@ const math = [
   {
     label: 'Information Processing',
     id: 'information',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Time Based Problems',
+    id: 'time',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Quick Math - 3',
+    id: 'quick-math-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Quick Math - 4',
+    id: 'quick-math-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Quick Math - 5',
+    id: 'quick-math-5',
     grade: 'g3, g4, g5'
   }
 ];
@@ -1213,21 +1243,6 @@ const general = [
     grade: 'kg, g1, g2'
   },
   {
-    label: 'More Sudoku 4 x 4',
-    id: 'sudoku4',
-    grade: 'kg, g1, g2'
-  },
-  {
-    label: 'More Sudoku 6 x 6',
-    id: 'sudoku6',
-    grade: 'g1, g2, g3, g4'
-  },
-  {
-    label: 'More Sudoku 9 x 9',
-    id: 'sudoku9',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Easy Sudoku 4x4',
     id: 'sudoku-4x4-easy',
     grade: 'g3, g4, g5'
@@ -1238,8 +1253,13 @@ const general = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Hard Sudoku 4x4',
-    id: 'sudoku-4x4-difficult',
+    label: 'Easy Sudoku 6x6',
+    id: 'sudoku-6x6-easy',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Medium Sudoku 6x6',
+    id: 'sudoku-6x6-medium',
     grade: 'g3, g4, g5'
   },
   {
@@ -1260,6 +1280,21 @@ const general = [
   {
     label: 'Hard Sudoku 9x9',
     id: 'sudoku-9x9-difficult',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'More Sudoku 4 x 4',
+    id: 'sudoku4',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'More Sudoku 6 x 6',
+    id: 'sudoku6',
+    grade: 'g1, g2, g3, g4'
+  },
+  {
+    label: 'More Sudoku 9 x 9',
+    id: 'sudoku9',
     grade: 'g3, g4, g5'
   }
 ];

@@ -53,7 +53,7 @@ Some more examples of adverb of manners are:
     {
       type: 'completeWord',
       label: 'Complete the word',
-      id: 'complete',
+      id: 'complete-2',
       commonData: {
         title: 'Form the adverb of manner from the given word and hints.'
       },
