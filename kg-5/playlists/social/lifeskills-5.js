@@ -87,10 +87,10 @@ Neha talks the most in her group. Her friends began to avoid her since they neve
       type: 'match',
       data: {
         text: `Happy, Glad
-          Angry, Irritated
-          Sad, Crying
-          Jumbled, Confused
-          Excited, Enthusiatic`,
+Angry, Irritated
+Sad, Crying
+Jumbled, Confused
+Excited, Enthusiatic`,
         title: 'Match the following.'
       }
     },
@@ -138,11 +138,11 @@ Neha talks the most in her group. Her friends began to avoid her since they neve
           dashWidth: 80
         },
         text: `We must know our talents and also our *flaws*.
-          Handling *emotions* in the right way will help us lead a happy life.
-          We should try to *correct* our flaws.
-          Being *stubborn* always, will lead to problems. 
-          headaches
-          If we don't control our anger, it may lead to *headache*.`
+Handling *emotions* in the right way will help us lead a happy life.
+We should try to *correct* our flaws.
+Being *stubborn* always, will lead to problems. 
+headaches
+If we don't control our anger, it may lead to *headache*.`
       }
     },
     /*
@@ -223,10 +223,10 @@ The characteristics and features of parents or ancestors that are being passed t
       type: 'match',
       data: {
         text: `Heredity, Family
-          Physical growth, Development
-          Imbalanced diet, Malnutrition
-          Good Values, Good character
-          Infants, Slow co-ordination`,
+Physical growth, Development
+Imbalanced diet, Malnutrition
+Good Values, Good character
+Infants, Slow co-ordination`,
         title: 'Match the following with its correct one'
       }
     },
@@ -275,10 +275,10 @@ The characteristics and features of parents or ancestors that are being passed t
           dashWidth: 80
         },
         text: `Learning new *skills* make us better.
-          *Infants* learn the various skills slowly.
-          We learn many skills from our parents and *teachers*.
-          Our *personality* develops through our efforts and interests.
-          Passing on features from *ancestors* is called heredity.`
+*Infants* learn the various skills slowly.
+We learn many skills from our parents and *teachers*.
+Our *personality* develops through our efforts and interests.
+Passing on features from *ancestors* is called heredity.`
       }
     },
     {
@@ -288,10 +288,10 @@ The characteristics and features of parents or ancestors that are being passed t
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `We have physical body growth until we reach *18 (25)* years.
-          Learning many skills will help one to be less *dependent (independent)* on others.
-          Doing *regular (irregular)* exercises helps to keep the body fit.
-          Every one of us has a *unique (similar)* personality.
-          It is more important to reflect the *good (bad)* values in our behavior.`
+Learning many skills will help one to be less *dependent (independent)* on others.
+Doing *regular (irregular)* exercises helps to keep the body fit.
+Every one of us has a *unique (similar)* personality.
+It is more important to reflect the *good (bad)* values in our behavior.`
       }
     },
     {
@@ -304,13 +304,13 @@ The characteristics and features of parents or ancestors that are being passed t
           {
             name: 'True',
             text: `Intake of proper nutritious food is necessary for growth and development.
-              Animals learn from their mother how to protect themselves from their enemies.
-              Lack of physical activity and exercise affect the overall growth adversely.`
+Animals learn from their mother how to protect themselves from their enemies.
+Lack of physical activity and exercise affect the overall growth adversely.`
           },
           {
             name: 'False',
             text: `Food is not required for physical and mental growth.
-              Infants feed themselves.`
+Infants feed themselves.`
           }
         ]
       }

@@ -5,7 +5,7 @@ export default {
     {
       label: 'Pick the correct option.',
       type: 'mcq',
-      id: '100',
+      id: 'mcq',
       data: {
         title: 'Pick the correct option.',
         questions: [
@@ -35,7 +35,7 @@ export default {
     {
       type: 'match',
       label: 'Match Smiley',
-      id: '200',
+      id: 'match',
       data: {
         title: 'Match smiley with emotion.',
         text:
@@ -45,7 +45,7 @@ export default {
     },
     {
       label: 'School: Good or Bad',
-      id: '300',
+      id: 'good-bad',
       type: 'classifySentence',
       data: {
         title: 'Good or Bad',
@@ -65,7 +65,7 @@ export default {
     },
     {
       label: 'Home: Good or Bad',
-      id: '400',
+      id: 'good-bad-2',
       type: 'classifySentence',
       data: {
         title: 'Good or Bad',

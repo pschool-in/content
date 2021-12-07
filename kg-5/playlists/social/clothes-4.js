@@ -7,7 +7,7 @@ export default {
     {
       label: 'Our Clothes',
       type: 'passage',
-      id: '100',
+      id: 'passage',
       data: {
         title: 'Our Clothes',
         text: `# Why do we need clothes?
@@ -24,7 +24,7 @@ In addition to this, we wear clothes of different designs, colors and tradition.
     },
     {
       label: 'Who wears what?',
-      id: '200',
+      id: 'men-women',
       type: 'classifySentence',
       data: {
         title: 'Who wears what?',
@@ -60,7 +60,7 @@ Hats`
 
     {
       label: 'Which clothes are suitable for which season?',
-      id: '300',
+      id: 'summer-winter',
       type: 'group',
       data: {
         title: 'Classify the below clothings.',
@@ -79,7 +79,7 @@ Hats`
     {
       label: 'Do you know?',
       type: 'passage',
-      id: '400',
+      id: 'passage-2',
       data: {
         title: 'Fun Fact!',
         text: `Uniforms of soldiers are called ‘camouflage’ because it matches with their environment so that the enemies could not spot them easily.`
@@ -88,7 +88,7 @@ Hats`
     {
       label: 'Fun fact!',
       type: 'matchByDragDrop',
-      id: '500',
+      id: 'fun-fact',
       data: {
         isPractice: false,
         title: 'Guess what would they wear in the following surroundings',
@@ -104,7 +104,7 @@ Soldiers wear *white* clothes in The Himalayas`
     {
       label: 'Who am I ?',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-1',
       data: {
         isPractice: false,
         title: 'Guess who are they!',
@@ -120,7 +120,7 @@ I am always ready to protect the country.- *Soldier*`
       }
     },
     {
-      id: '600',
+      id: 'match',
       label: 'Season vs clothes',
       type: 'match',
       data: {
@@ -135,7 +135,7 @@ Silk, Silkworm`,
     {
       label: 'What do we wear?',
       type: 'matchByDragDrop',
-      id: '700',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Guess when you wears what!',
@@ -155,7 +155,7 @@ What do we wear to protect our hands from cold - *Gloves*`
     {
       label: 'How clothes help us to protect ourselves?',
       type: 'matchByDragDrop',
-      id: '800',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
@@ -171,7 +171,7 @@ We use *raincoat* or umbrella when it rains.`
     },
     {
       label: 'True or False',
-      id: '900',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -194,7 +194,7 @@ Doctors wear yellow coats.`
     {
       label: 'How & what about clothes- Reading',
       type: 'passage',
-      id: '1000',
+      id: 'passage-3',
       data: {
         title: 'How & what about clothes',
         text: `# How clothes are made?
@@ -212,7 +212,7 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
     {
       label: 'Some more facts about clothes',
       type: 'matchByDragDrop',
-      id: '1100',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
@@ -230,7 +230,7 @@ People prefer wearing *cotton* clothes in summer.
     },
     {
       label: 'What are the sources of these clothes?',
-      id: '1200',
+      id: 'sources-clothes',
       type: 'group',
       data: {
         title: 'Identify the source of the clothe',
@@ -252,7 +252,7 @@ People prefer wearing *cotton* clothes in summer.
     },
     {
       label: 'True or False',
-      id: '1300',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -272,7 +272,7 @@ Liquid handwashes are used to clean clothes.`
       }
     },
     {
-      id: '1400',
+      id: 'match-2',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -288,7 +288,7 @@ Raincoat, Rain`,
     {
       label: 'Some more facts about clothes -2',
       type: 'matchByDragDrop',
-      id: 'drag-drop-2',
+      id: 'drag-drop-6',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
@@ -355,7 +355,7 @@ Kolkata is famous for *tant bengali sarees*.`
     {
       label: 'Additional questions in cloth',
       type: 'fillupOptions',
-      id: 'drag-drop-4',
+      id: 'drag-drop-7',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
@@ -372,7 +372,7 @@ It is snowy. Put on your *gloves (skirt)*.`
     {
       label: 'Additional questions in cloth - 2',
       type: 'fillupOptions',
-      id: 'drag-drop-5',
+      id: 'drag-drop-8',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',

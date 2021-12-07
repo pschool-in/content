@@ -7,7 +7,7 @@ export default {
     {
       label: 'My Family My Home - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'My Family',
         text: `# Family
@@ -36,7 +36,7 @@ Independence Day and Republic Day are our national festivals. All citizens celeb
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -57,7 +57,7 @@ During festivals, we meet each other, talk to each other and feel *connected*.`
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -80,7 +80,7 @@ Festivals are annoying.`
     {
       label: 'Festivals',
       type: 'matchByDragDrop',
-      id: '300',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -98,7 +98,7 @@ In Kerala, *Onam* is celebrated during the harvest season.
       }
     },
     {
-      id: '500',
+      id: 'match',
       label: 'Match festival with states',
       type: 'match',
       data: {
@@ -132,7 +132,7 @@ Joint family has only 3 - 4 members.`
       }
     },
     {
-      id: '700',
+      id: 'match-2',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -147,25 +147,20 @@ Holi, colour`,
     {
       label: 'Family - Reading',
       type: 'passage',
-      id: '800',
+      id: 'reading-2',
       data: {
         title: 'Family',
         text: `# Family
-
 Animals also lives together in families like humans.
 1. Lions live together as families in caves.
 2. Birds live in nest build on trees.
 3. Group of elephants are called parade and they stay together.
-
 # Important terms
-
 1. Society: Individuals together make a family and families together make a society.
 2. Maternal relations: People who are related through our mother are called Maternal Relations.
 3. Paternal relations: People who are related through our father are called Paternal Relations.
 4. Neighbour:  Many families live near our home. We call them neighbours.
-
 # Points to remember
-
 1. Basic unit of the society is family.
 2. Basic needs like food, dress and shelter are fulfilled by the family.
 3. Inter dependence of family members help in becoming good citizens and develop harmony.
@@ -175,7 +170,7 @@ Animals also lives together in families like humans.
       }
     },
     {
-      id: '900',
+      id: 'match-3',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -201,7 +196,7 @@ Many families live near our home. We call them *neighbour (outsider)*.`
     },
     {
       label: 'True or False',
-      id: '1000',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -223,7 +218,7 @@ Our economy improves when expenditure exceeds income.`
     {
       label: 'Choose the correct answer',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -241,7 +236,7 @@ Family helps us to feel safe and *secure*.`
     },
     {
       label: 'Choose the best Answer',
-      id: '1700',
+      id: 'mcq-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

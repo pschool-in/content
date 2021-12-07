@@ -91,6 +91,38 @@ export default {
           night blindness, vitamin A`,
           title: 'Match with appropriate choice'
         }
+      },
+      {
+        label: 'Name the following',
+        type: 'matchByDragDrop',
+        id: 'drag-drop',
+        data: {
+          isPractice: false,
+          title: 'Drag and drop the words at proper place.',
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `Disease caused by iron deficiency - *anaemia*
+          Disease caused by Vitamin C deficiency - *scurvy*
+          Disease caused by Vitamin B deficiency - *beriberi*
+          Disease caused by Vitamin D deficiency - *rickets*
+          Disease caused by Vitamin A deficiency - *night blindness*
+          Disease caused by iodine deficiency - *goitre*`
+        }
+      },
+      {
+        id: 'match',
+        label: 'Match the following',
+        type: 'match-2',
+        data: {
+          text: `orange, Vitamin C
+          carrot , Vitamin A
+          salt, iodine
+          pulses, Vitamin B
+          sunlight, Vitamin D`,
+          title: 'Match with appropriate choice'
+        }
       }
     ]
   };

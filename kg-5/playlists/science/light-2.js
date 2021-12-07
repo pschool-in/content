@@ -68,6 +68,28 @@ export default {
           A shadow is formed on the *opposite (same)* side of the source of light.
           We cannot see anything in a *dark (lit)* room.`
         }
+      },
+      {
+        id: 'mcq',
+        label: 'Multiple Choice Questions - MCQ',
+        type: 'mcq',
+        data: {
+          title: 'Multiple Choice Questions',
+          questions: [
+            {
+              qText: 'Which of the following is an artificial source of light?',
+              options: `torch, sun , fire`
+            },
+            {
+              qText: 'What is the most powerfu; source of light?',
+              options: `sun, moon, lamp`
+            },
+            {
+              qText: 'What is a shadow?',
+              options: `dark shape made when light is blocked by an object, dark reflection of the object in mirror, dark image in absence of light `
+            }
+          ]
+        }
       }
     ]
   };

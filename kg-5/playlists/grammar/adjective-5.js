@@ -92,18 +92,18 @@ Mihira is a *naughty* girl in her class.`
       data: [
         [
           `Adjectives are called modifiers.
-      Age and size are called the adjectives of quality.
-      Adjectives of quantity use words like few and many.`,
+Age and size are called the adjectives of quality.
+Adjectives of quantity use words like few and many.`,
 
           `Demonstrative adjectives use words like who, what.
-     "This" and "that" are called interrogative adjectives.`
+"This" and "that" are called interrogative adjectives.`
         ],
         [
           `"Than" is used in the comparative degree of adjectives.
 "The" is used before the superlative degree of adjective.`,
 
           `Positive degree of an adjective is used to compare qualities of two persons or things.
-      Comparative degree of an adjective is used to compare more than two things or people.`
+Comparative degree of an adjective is used to compare more than two things or people.`
         ]
       ]
     },

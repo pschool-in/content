@@ -41,12 +41,12 @@ The head and the members of Corporation is elected by the people directly. The c
             {
               name: 'True',
               text: `Municipality is divided into wards.
-              Main income of municipality is from tax.`
+Main income of municipality is from tax.`
             },
             {
               name: 'False',
               text: `President is the chairperson of a corporation.
-              Mayor is the head of municipality.`
+Mayor is the head of municipality.`
             }
           ]
         }

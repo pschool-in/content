@@ -6,7 +6,7 @@ export default {
   lockAfter: 6,
   list: [
     {
-      id: '100',
+      id: 'drag-drop',
       label: 'North India - States Map',
       type: 'dragAndDrop',
       data: {
@@ -72,7 +72,7 @@ export default {
       }
     },
     {
-      id: '200',
+      id: 'drag-drop-2',
       label: 'North India - Capitals',
       type: 'dragAndDrop',
       data: {
@@ -133,7 +133,7 @@ export default {
       }
     },
     {
-      id: '300',
+      id: 'match',
       type: 'match',
       label: 'North India - States & Capitals',
       data: {
@@ -150,7 +150,7 @@ Chhattisgarh, Raipur`
       }
     },
     {
-      id: '400',
+      id: 'drag-drop-3',
       label: 'East India - States Map',
       type: 'dragAndDrop',
       data: {
@@ -206,7 +206,7 @@ Chhattisgarh, Raipur`
       }
     },
     {
-      id: '500',
+      id: 'match-2',
       type: 'match',
       label: 'East India - States & Capitals',
       data: {
@@ -223,7 +223,7 @@ Manipur, Imphal`
       }
     },
     {
-      id: '600',
+      id: 'drag-drop-4',
       label: 'East India - Cities',
       type: 'dragAndDrop',
       data: {
@@ -279,7 +279,7 @@ Manipur, Imphal`
       }
     },
     {
-      id: '700',
+      id: 'mcq',
       label: 'Biggest, Longest, Largest - MCQ',
       type: 'mcq',
       data: {
@@ -324,7 +324,7 @@ Manipur, Imphal`
       }
     },
     {
-      id: '800',
+      id: 'classify',
       label: 'Neighboring Countries',
       type: 'group',
       data: {
@@ -345,7 +345,7 @@ Manipur, Imphal`
     {
       id: '900',
       label: 'India - MCQ',
-      type: 'mcq',
+      type: 'mcq-3',
       data: {
         editable: true,
         title: 'Multiple Choice Questions',
@@ -378,7 +378,7 @@ Manipur, Imphal`
       }
     },
     {
-      id: '1000',
+      id: 'drag-drop-6',
       label: 'States in South India',
       type: 'dragAndDrop',
       data: {
@@ -429,7 +429,7 @@ Manipur, Imphal`
       }
     },
     {
-      id: '1100',
+      id: 'match-7',
       label: 'States and Capitals',
       type: 'matchByDragDrop',
       data: {
@@ -449,7 +449,7 @@ Maharashtra : *Mumbai*`
       }
     },
     {
-      id: '1200',
+      id: 'drag-drop-7',
       label: 'South Indian Rivers',
       type: 'dragAndDrop',
       data: {
@@ -500,7 +500,7 @@ Maharashtra : *Mumbai*`
       }
     },
     {
-      id: '1300',
+      id: 'drag-drop-8',
       label: 'Languages',
       type: 'matchByDragDrop',
       data: {
@@ -520,7 +520,7 @@ Maharashtra : *Marathi*`
       }
     },
     {
-      id: '1400',
+      id: 'mcq-4',
       label: 'Quiz',
       type: 'mcq',
       data: {
@@ -563,7 +563,7 @@ Maharashtra : *Marathi*`
       }
     },
     {
-      id: '1500',
+      id: 'reading-2',
       label: 'Famous Personalities',
       type: 'passage',
       data: {
@@ -575,7 +575,7 @@ Mother Teresa is the first indian citizen to receive the Nobel Prize, though she
       }
     },
     {
-      id: '1600',
+      id: 'drag-drop-10',
       label: 'Map - Cities ',
       type: 'dragAndDrop',
       data: {

@@ -5,7 +5,7 @@ export default {
     {
       label: 'Goods and Services - Passage',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Goods and Services',
         text:
@@ -14,7 +14,7 @@ export default {
     },
     {
       label: 'Identify Goods and Services',
-      id: '200',
+      id: 'goods-services',
       type: 'group',
       data: {
         title: 'Drag and drop: Goods vs Services.',
@@ -32,7 +32,7 @@ export default {
     },
     {
       label: 'Identify Producer and Consumer',
-      id: '300',
+      id: 'producer-consumer',
       type: 'group',
       data: {
         title: 'Drag and drop: Producer vs Consumer.',
