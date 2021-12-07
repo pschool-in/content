@@ -7,33 +7,30 @@ export default {
     {
       label: 'Air - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Air',
         text: `# Atmosphere
-
-          Atmosphere is the layer of gas that surrounds Earth. Atmosphere is divided into five different layers:
-            1. Troposphere: It is the lowest and densest layer. It extends up to 10km from sea. 
-            2. Stratosphere: It is the region above troposphere. It extends up to 50km. There is no water vapour in this layer. The temperature is around -500C.
-            3. Mesosphere: It is the region above stratosphere. It extends to a height of about 85km. The temperature is around -1100C. Most of the meteors burn in this layer.
-            4. Thermosphere: It is very rare layer of air above mesosphere.
-            5. Exosphere: It is the outermost layer with extremely thin air. It extends up to 400 to 1500km.
-          
-          # Importance of Air
-          
-            1. All living organisms require air.
-            2. It regulates the water cycle.
-            3. Air supplies energy.
-            4. Sound travels through air.
-            5. Plants require air to grow.
-            6. Helps in transport.
-            7. Produce wind energy.
-            8. Help in movement of parachutes and hot air balloons.`
+Atmosphere is the layer of gas that surrounds Earth. Atmosphere is divided into five different layers:
+1. Troposphere: It is the lowest and densest layer. It extends up to 10km from sea. 
+2. Stratosphere: It is the region above troposphere. It extends up to 50km. There is no water vapour in this layer. The temperature is around -500C.
+3. Mesosphere: It is the region above stratosphere. It extends to a height of about 85km. The temperature is around -1100C. Most of the meteors burn in this layer.
+4. Thermosphere: It is very rare layer of air above mesosphere.
+5. Exosphere: It is the outermost layer with extremely thin air. It extends up to 400 to 1500km.
+# Importance of Air
+1. All living organisms require air.
+2. It regulates the water cycle.
+3. Air supplies energy.
+4. Sound travels through air.
+5. Plants require air to grow.
+6. Helps in transport.
+7. Produce wind energy.
+8. Help in movement of parachutes and hot air balloons.`
       }
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -41,34 +38,34 @@ export default {
           {
             name: 'True',
             text: `Ultraviolet rays can cause damage to our skin and eyes.
-              Movement of clouds is possible due to air.
-              Body cells burn the food molecules with the help of oxygen and produce energy.`
+Movement of clouds is possible due to air.
+Body cells burn the food molecules with the help of oxygen and produce energy.`
           },
           {
             name: 'False',
             text: `Plants absorb nitrogen in the form of ammonia.
-              Exosphere is nearest to earth.
-              Spacecrafts are seen in thermosphere.`
+Exosphere is nearest to earth.
+Spacecrafts are seen in thermosphere.`
           }
         ]
       }
     },
     {
-      id: '300',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Troposphere, weather change
-          Stratosphere, ozone
-          Exosphere, outermost layer
-          Thermosphere, satellite
-          Mesosphere, meteors`,
+Stratosphere, ozone
+Exosphere, outermost layer
+Thermosphere, satellite
+Mesosphere, meteors`,
         title: 'Match the following'
       }
     },
     {
       label: 'Choose the best Answer - Air',
-      id: '400',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -111,35 +108,31 @@ export default {
     {
       label: 'Air pollution- Reading',
       type: 'passage',
-      id: '500',
+      id: 'reading-2',
       data: {
         title: 'Air Pollution',
         text: `# Air Pollution
-
-          Presence of harmful substances in air have an  adverse effect on living beings and environment. This is called air pollution.
-          
-          # Causes:
-            1. Industries
-            2. Burning of fossil fuels
-            3. Agricultural activities like use of pesticides
-            4. Mining 
-            5. Use of chemical for cleaning
-          
-          # Effects:
-            1. Spread of diseases
-            2. Global warming
-            3. Acid rain
-            4. Depletion of ozone layer
-            5. Adverse effect on marine life
-            6. Adverse effect on wildlife
-          
-          # Prevention:
-            1. Use public transport
-            2. Reduce usage of fossil fuels
-            3. Use renewable energy sources
-            4. Recycle and reuse
-            5. Switch off appliances after using them
-            6. Plant more trees`
+Presence of harmful substances in air have an  adverse effect on living beings and environment. This is called air pollution.
+# Causes:
+1. Industries
+2. Burning of fossil fuels
+3. Agricultural activities like use of pesticides
+4. Mining 
+5. Use of chemical for cleaning
+# Effects:
+1. Spread of diseases
+2. Global warming
+3. Acid rain
+4. Depletion of ozone layer
+5. Adverse effect on marine life
+6. Adverse effect on wildlife
+# Prevention:
+1. Use public transport
+2. Reduce usage of fossil fuels
+3. Use renewable energy sources
+4. Recycle and reuse
+5. Switch off appliances after using them
+6. Plant more trees`
       }
     },
     {
@@ -149,16 +142,16 @@ export default {
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Combustion of fossil fuels like coal and petroleum release *sulphur dioxide (carbon dioxide)*
-          Air pollution can be natural or *man-made (artificial)*.
-          Extraction of *minerals (salts)* from the earth is called mining.
-          Taj Mahal in Agra is built entirely with *white (yellow)* marbles.
-          Air pollutants cause pneumonia and *asthma (cold)* in children.
-          The growth of *green (red)* algae in water bodies is called eutrophication.`
+Air pollution can be natural or *man-made (artificial)*.
+Extraction of *minerals (salts)* from the earth is called mining.
+Taj Mahal in Agra is built entirely with *white (yellow)* marbles.
+Air pollutants cause pneumonia and *asthma (cold)* in children.
+The growth of *green (red)* algae in water bodies is called eutrophication.`
       }
     },
     {
       label: 'Cause or Effect',
-      id: '700',
+      id: 'cause-effect',
       type: 'classifySentence',
       data: {
         title:
@@ -167,26 +160,26 @@ export default {
           {
             name: 'Cause',
             text: `Industries
-              Burning of fossil fuels
-              Agricultural activities like use of pesticides
-              Mining 
-              Use of chemical for cleaning`
+Burning of fossil fuels
+Agricultural activities like use of pesticides
+Mining 
+Use of chemical for cleaning`
           },
           {
             name: 'Effect',
             text: `Spread of diseases
-              Global warming
-              Acid rain
-              Depletion of ozone layer
-              Adverse effect on marine life
-              Adverse effect on wildlife`
+Global warming
+Acid rain
+Depletion of ozone layer
+Adverse effect on marine life
+Adverse effect on wildlife`
           }
         ]
       }
     },
     {
       label: 'Natural Vs Man-made',
-      id: '600',
+      id: 'classify',
       type: 'group',
       data: {
         title:
@@ -206,29 +199,26 @@ export default {
     {
       label: 'Airborne Diseases - Reading',
       type: 'passage',
-      id: '1100',
+      id: 'reading-3',
       data: {
         title: 'Airborne Diseases',
         text: `# Airborne Diseases
-
-          Diseases which are caused by microorganisms and communicated through air are called airborne diseases. Air borne disease can be further classified into two.
-          
-            1. Bacterial diseases: Diphtheria, Whooping Cough and Tuberclosis are some of the common airborne diseases caused by bacteria.
-            2. Viral diseases: Common cold, influenza, measles, mumps and chickenpox are some of the diseases caused by virus.
-          
-          # Prevention:
-            1. Avoid close contact with people who have active symptoms of disease.
-            2. Maintain personal hygiene.
-            3. Keep the patient in complete isolation. Cover nose and mouth while sneezing or coughing.
-            4. Avoid touching the face or other people with unwashed hands.
-            5. Wash your hands thoroughly.
-            6. Timely vaccination can prevent the diseases.`
+Diseases which are caused by microorganisms and communicated through air are called airborne diseases. Air borne disease can be further classified into two.
+1. Bacterial diseases: Diphtheria, Whooping Cough and Tuberclosis are some of the common airborne diseases caused by bacteria.
+2. Viral diseases: Common cold, influenza, measles, mumps and chickenpox are some of the diseases caused by virus.
+# Prevention:
+1. Avoid close contact with people who have active symptoms of disease.
+2. Maintain personal hygiene.
+3. Keep the patient in complete isolation. Cover nose and mouth while sneezing or coughing.
+4. Avoid touching the face or other people with unwashed hands.
+5. Wash your hands thoroughly.
+6. Timely vaccination can prevent the diseases.`
       }
     },
     {
       label: 'Find the causative organism',
       type: 'matchByDragDrop',
-      id: '1500',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -237,17 +227,17 @@ export default {
           dashWidth: 80
         },
         text: `Common cold - *Rhino virus*
-          Influenza - *Myxo virus*
-          Measles - *Rubeola virus*
-          Chicken pox - *Varicella zoster*
-          Tuberculosis - *Mycobacterium*
-          Diptheria - *Coneybacterium*
-          Whooping cough - *Bordetalla pertusis*`
+Influenza - *Myxo virus*
+Measles - *Rubeola virus*
+Chicken pox - *Varicella zoster*
+Tuberculosis - *Mycobacterium*
+Diptheria - *Coneybacterium*
+Whooping cough - *Bordetalla pertusis*`
       }
     },
     {
       label: 'Bacteria Vs Virus',
-      id: '1600',
+      id: 'classify-2',
       type: 'group',
       data: {
         title: 'Classify the diseases based on causative organism.',
@@ -266,87 +256,70 @@ export default {
     {
       label: 'Atmosphere - Reading',
       type: 'passage',
-      id: '1700',
+      id: 'reading-4',
       data: {
         title: 'Atmosphere',
-        text: `# Important terms
-
-          1. Lithosphere: land on Earth.
-          2. Atmosphere: air on Earth.
-          3. Hydrosphere: water on Earth.
-          4. Biosphere: life on Earth.
-          5. Weather: day to day conditions of atmosphere.
-          6. Climate: average weather for a given period of time.
-          7. Solar radiation: heat energy from sun.
-          8. Meteorology: study of weather.
-          9. Latitude: an imaginary line drawn horizontally on Earth’s surface.
-          10. Longitude: semicircle extending from North pole to South pole.
-          11. Prime meridian: 0 degree  longitude
-          12. IST: Indian Standard Time.
-          13. Rain water harvesting: technique of collection and storage of rain water.
-          
-          # Important Dates
-          
-          1. World Environment Day - June 5
-          2. World Ozone Day - September 16
-          3. World Weather Day - March 23
-          
-          # Effects of solar radiation
-          
-          1. Land - conduction
-          2. Water - convection
-          3. Atmosphere terrestrial radiation
-          
-          # Important Latitudes
-          
-          1. Equator - 0 degree
-          2. Tropic of Cancer - 23(1/2) degree North
-          3. Tropic of Capricorn -  23(1/2) degree South
-          4. Arctic circle - 66(1/2) degree North
-          5. Antarctic circle - 66(1/2) degree South
-          
-          # Heat zones of Earth
-          1. Torrid zone: zone between Tropic of Cancer and Tropic of Capricorn.
-          2. Temperate zone: receives slanting rays of sun.
-          3. Frigid zone: do not get sun’s rays.
-          
-          # Important Mountain peaks
-          
-          1. Mount Everest
-          2. K2
-          3. Kanchenjunga
-          4. Nanga Parbat
-          5. Annapurna
-          
-          # Instrument
-          
-          1. Barometer: used to measure pressure.
-          2. Wind vane: used to measure direction of wind.
-          3. Anemometer: used to measure speed of wind.
-          
-          # Types of wind
-          
-          1. Planetray wind
-          2. Monsoon wind
-          3. Sea breeze
-          4. Land breeze
-          5. Local wind
-          6. Jet streams
-          7. Hurricane
-          
-          # Types of clouds:
-          
-          1. Cirrus cloud: These may not give rain. They are seen at very high altitudes.
-          2. Stratus cloud: They are grey in colour and are spreadout. They may give small shower. 
-          3. Cumulus cloud: It looks like a burst cotton and gives convectional rain fall. These clouds are associated with rainfall lightning and thunder.
-          4. Nimbus cloud: It appears as dark or grey in color. It gives heavy rainfall. It is called vertical or rain clouds.
-          `
+       text: `# Important terms
+1. Lithosphere: land on Earth.
+2. Atmosphere: air on Earth.
+3. Hydrosphere: water on Earth.
+4. Biosphere: life on Earth.
+5. Weather: day to day conditions of atmosphere.
+6. Climate: average weather for a given period of time.
+7. Solar radiation: heat energy from sun.
+8. Meteorology: study of weather.
+9. Latitude: an imaginary line drawn horizontally on Earth’s surface.
+10. Longitude: semicircle extending from North pole to South pole.
+11. Prime meridian: 0 degree  longitude
+12. IST: Indian Standard Time.
+13. Rain water harvesting: technique of collection and storage of rain water.
+# Important Dates
+1. World Environment Day - June 5
+2. World Ozone Day - September 16
+3. World Weather Day - March 23
+# Effects of solar radiation
+1. Land - conduction
+2. Water - convection
+3. Atmosphere terrestrial radiation
+# Important Latitudes
+1. Equator - 0 degree
+2. Tropic of Cancer - 23(1/2) degree North
+3. Tropic of Capricorn -  23(1/2) degree South
+4. Arctic circle - 66(1/2) degree North
+5. Antarctic circle - 66(1/2) degree South
+# Heat zones of Earth
+1. Torrid zone: zone between Tropic of Cancer and Tropic of Capricorn.
+2. Temperate zone: receives slanting rays of sun.
+3. Frigid zone: do not get sun’s rays.
+# Important Mountain peaks
+1. Mount Everest
+2. K2
+3. Kanchenjunga
+4. Nanga Parbat
+5. Annapurna
+# Instrument
+1. Barometer: used to measure pressure.
+2. Wind vane: used to measure direction of wind.
+3. Anemometer: used to measure speed of wind.
+# Types of wind
+1. Planetray wind
+2. Monsoon wind
+3. Sea breeze
+4. Land breeze
+5. Local wind
+6. Jet streams
+7. Hurricane
+# Types of clouds:
+1. Cirrus cloud: These may not give rain. They are seen at very high altitudes.
+2. Stratus cloud: They are grey in colour and are spreadout. They may give small shower. 
+3. Cumulus cloud: It looks like a burst cotton and gives convectional rain fall. These clouds are associated with rainfall lightning and thunder.
+4. Nimbus cloud: It appears as dark or grey in color. It gives heavy rainfall. It is called vertical or rain clouds.`
       }
     },
     {
       label: 'Answer in one word -1',
       type: 'matchByDragDrop',
-      id: '1800',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -355,16 +328,16 @@ export default {
           dashWidth: 80
         },
         text: `*Lithosphere*: land on Earth.
-          *Atmosphere*: air on Earth.
-          *Hydrosphere*: water on Earth.
-          *Biosphere*: life on Earth.
-          *Weather*: day to day conditions of atmosphere.`
+*Atmosphere*: air on Earth.
+*Hydrosphere*: water on Earth.
+*Biosphere*: life on Earth.
+*Weather*: day to day conditions of atmosphere.`
       }
     },
     {
       label: 'Answer in one word -2',
       type: 'matchByDragDrop',
-      id: '1801',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -373,15 +346,15 @@ export default {
           dashWidth: 80
         },
         text: `*Climate*: average weather for a given period of time.
-          *Solar radiation*: heat energy from sun.
-          *Meteorology*: study of weather.
-          *Latitude*: an imaginary line drawn horizontally on Earth’s surface.
-          *Longitude*: semicircle extending from North pole to South pole.`
+*Solar radiation*: heat energy from sun.
+*Meteorology*: study of weather.
+*Latitude*: an imaginary line drawn horizontally on Earth’s surface.
+*Longitude*: semicircle extending from North pole to South pole.`
       }
     },
     {
       label: 'True or False',
-      id: '1900',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -389,15 +362,15 @@ export default {
           {
             name: 'True',
             text: `Condensation of the wind causes rain fall.
-              Rain water must be saved and not be wasted.
-              The natural materials and living things, including sunlight are called environment.
-              Air currents in the upper layers of atmosphere is known as Jet streams.`
+Rain water must be saved and not be wasted.
+The natural materials and living things, including sunlight are called environment.
+Air currents in the upper layers of atmosphere is known as Jet streams.`
           },
           {
             name: 'False',
             text: `Land breeze blows from sea to land during the evening.
-              Sea breeze blows from land to sea in the morning.
-              Monsoon winds move in the same direction throughout the year with the rotation of the Earth.`
+Sea breeze blows from land to sea in the morning.
+Monsoon winds move in the same direction throughout the year with the rotation of the Earth.`
           }
         ]
       }
@@ -405,7 +378,7 @@ export default {
     {
       label: 'Name the instrument',
       type: 'matchByDragDrop',
-      id: '2000',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -414,14 +387,14 @@ export default {
           dashWidth: 80
         },
         text: `Used to measure pressure - *Barometer*
-          Used to measure direction of wind - *Wind vane*
-          Used to measure speed of wind - *Anemometer*`
+Used to measure direction of wind - *Wind vane*
+Used to measure speed of wind - *Anemometer*`
       }
     },
     {
       label: 'Name the following',
       type: 'matchByDragDrop',
-      id: '2100',
+      id: 'drag-drop-5',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -430,20 +403,20 @@ export default {
           dashWidth: 80
         },
         text: `Technique of collection and storage of rain water - *Rain water harvesting*
-          Zone between Tropic of Cancer and Tropic of Capricorn - *Torrid zone*
-          Receives slanting rays of sun - *Temperate zone*
-          This zone do not get sun’s rays - *Frigid zone*`
+Zone between Tropic of Cancer and Tropic of Capricorn - *Torrid zone*
+Receives slanting rays of sun - *Temperate zone*
+This zone do not get sun’s rays - *Frigid zone*`
       }
     },
     {
       id: 'match-clouds',
       label: 'Match the following',
-      type: 'match',
+      type: 'match-3',
       data: {
         text: `Cirrus clouds,  do not rain
-          Stratus clouds,  small shower
-          Cumulus clouds, burst cotton
-          Nimbus clouds, vertical cloud`,
+Stratus clouds,  small shower
+Cumulus clouds, burst cotton
+Nimbus clouds, vertical cloud`,
         title: 'Match the following'
       }
     },
@@ -454,17 +427,17 @@ export default {
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Equator - *0 (2)* degree
-          Tropic of Cancer - 23(1/2) degree *N (S)*
-          Tropic of Capricorn - 23(1/2) degree *S (N)*
-          *Arctic (Antarctic)* circle - 66(1/2) degree N
-          *Antarctic (Artic)* circle - 66(1/2) degree S
-          0 degree  longitude - Prime *meridian (median)*
-          *Indian (India)* Standard Time - IST`
+Tropic of Cancer - 23(1/2) degree *N (S)*
+Tropic of Capricorn - 23(1/2) degree *S (N)*
+*Arctic (Antarctic)* circle - 66(1/2) degree N
+*Antarctic (Artic)* circle - 66(1/2) degree S
+0 degree  longitude - Prime *meridian (median)*
+*Indian (India)* Standard Time - IST`
       }
     },
     {
       label: 'Choose the best Answer - Atmosphere',
-      id: '2200',
+      id: 'mcq-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
