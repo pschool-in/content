@@ -36,48 +36,48 @@ Some more examples are;
       data: [
         [
           `We wake up early and see the sunrise.
-    I love school but I hate maths class.
-    I completed my homework so I went to play.`,
+I love school but I hate maths class.
+I completed my homework so I went to play.`,
 
           `I can play. I can eat.
-    I like playing with my friends a lot.
-    My family eats dinner together.`
+I like playing with my friends a lot.
+My family eats dinner together.`
         ],
         [
           `I can play or watch a movie.
-    The teacher was absent so we got to play.
-    I like dancing but never have time for classes.`,
+The teacher was absent so we got to play.
+I like dancing but never have time for classes.`,
 
           `Natasha is a good girl.
-    Naman is talking on the phone.
-    The hotel has a good view.`
+Naman is talking on the phone.
+The hotel has a good view.`
         ],
         [
           `He said thankyou and left.
-    He sings well so he participated in the competition.
-    I ate but did not sleep after that.`,
+He sings well so he participated in the competition.
+I ate but did not sleep after that.`,
 
           `We run in the park everyday.
-    I take a nap every afternoon.
-    I will go to my friend's house on Thursday.`
+I take a nap every afternoon.
+I will go to my friend's house on Thursday.`
         ],
         [
           `I love ice cream but can't eat it in winters.
-    Do you like cricket or hockey?
-    He's late so he won't come.`,
+Do you like cricket or hockey?
+He's late so he won't come.`,
 
           `I can eat 10 chocolates at a time.
-    My best friend's name is Rashi.
-    My parents like my friends.`
+My best friend's name is Rashi.
+My parents like my friends.`
         ],
         [
           `I lost the key so my dad will pick me up.
-    Who's smarter, Priya or Raj?
-    My mom and dad are doctors.`,
+Who's smarter, Priya or Raj?
+My mom and dad are doctors.`,
 
           `Do you have friends?
-    We are going for a vacation in summer.
-    My parents love me a lot.`
+We are going for a vacation in summer.
+My parents love me a lot.`
         ]
       ]
     },
