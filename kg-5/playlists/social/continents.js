@@ -10,23 +10,23 @@ export default {
       data: {
         title: 'Continents',
         text: `Where do we all live? We all live on the Earth. Earth is our home. The total land on the earth is formed of seven continents of various sizes. Some are connected to each other while others are not. Each continent has a different number of countries. The seven continents of the world are: Asia, Africa, North America, South America, Antarctica, Europe and Australia.
-          # Asia
-          Asia is the world's largest continent in size and population. The world's two most populous countries, China and India are in Asia. Asia has the highest point on earth, the peak of Mount Everest which is in the Himalayas. Asia is the birth of great ancient civilisations: Indus civilisation, Chinese civilisation and Mesopotamian civilisation.The Great Wall of China is the man made structure that can be seen from space.
-          # Africa
-        Africa is the second largest continent of the seven continents of the world, The world's longest river, the Nile and the world's largest desert, the Sahara, both are home in Africa. More than 50% of the world's gold and diamonds come from the mineral rich continent of Africa. The continent remained unknown for thousands of years. So Africa is also known as 'Dark Continent'
-        # North America
-        North America is the third largest continent by area. The United States of America (USA) is a part of North America. Christopher Columbus, a famous explorer and navigator discovered America. Canada and Mexico are other important countries in North America.
-        # South America
-        South America is the fourth largest continent. The world's largest river, which is also the second longest, is the Amazon river in South America. Brazil, a country in South America, is one of the largest coffee producer in the world. Amazon rain forest is home to thousands of animals, insects and plant species. Other important countries are Argentina, Bolivia, Colombia, Ecuador, Peru, and Venezuela.
-        # Antarctica
-        Antarctica is the coldest continent on Earth. It is also called the White Continent or the Frozen Continent. Antarctica experiences half a year of sun light and half a year of complete darkness. Penguins are found in Antarctica. There are only permanent research stations from different countries can be found there.
-        # Europe
-        Europe and Asia are parts of the same major landmass. Europe is separated from Asia by the Ural mountains and the Caspian Sea. The world's smallest country, the Vatican City, is in Europe. Finland, in Europe, is called the 'Land of Lakes' because melting ice sheets have created a lot of lakes here. Some countries in European continent are: France, Spain, United Kingdom, Germany, Norway and Italy.
-        #Australia 
-        Australia is the smallest continent. It is also a country. Australia is an Island continent covered with unique landscapes and natural wonders. The Great Barrier Reef, the pride and joy of Australia is made up of nearly 2,500 individual reefs and visible from space. Australia is also called the land of Kangaroos.`
+# Asia
+Asia is the world's largest continent in size and population. The world's two most populous countries, China and India are in Asia. Asia has the highest point on earth, the peak of Mount Everest which is in the Himalayas. Asia is the birth of great ancient civilisations: Indus civilisation, Chinese civilisation and Mesopotamian civilisation.The Great Wall of China is the man made structure that can be seen from space.
+# Africa
+Africa is the second largest continent of the seven continents of the world, The world's longest river, the Nile and the world's largest desert, the Sahara, both are home in Africa. More than 50% of the world's gold and diamonds come from the mineral rich continent of Africa. The continent remained unknown for thousands of years. So Africa is also known as 'Dark Continent'
+# North America
+North America is the third largest continent by area. The United States of America (USA) is a part of North America. Christopher Columbus, a famous explorer and navigator discovered America. Canada and Mexico are other important countries in North America.
+# South America
+South America is the fourth largest continent. The world's largest river, which is also the second longest, is the Amazon river in South America. Brazil, a country in South America, is one of the largest coffee producer in the world. Amazon rain forest is home to thousands of animals, insects and plant species. Other important countries are Argentina, Bolivia, Colombia, Ecuador, Peru, and Venezuela.
+# Antarctica
+Antarctica is the coldest continent on Earth. It is also called the White Continent or the Frozen Continent. Antarctica experiences half a year of sun light and half a year of complete darkness. Penguins are found in Antarctica. There are only permanent research stations from different countries can be found there.
+# Europe
+Europe and Asia are parts of the same major landmass. Europe is separated from Asia by the Ural mountains and the Caspian Sea. The world's smallest country, the Vatican City, is in Europe. Finland, in Europe, is called the 'Land of Lakes' because melting ice sheets have created a lot of lakes here. Some countries in European continent are: France, Spain, United Kingdom, Germany, Norway and Italy.
+#Australia 
+Australia is the smallest continent. It is also a country. Australia is an Island continent covered with unique landscapes and natural wonders. The Great Barrier Reef, the pride and joy of Australia is made up of nearly 2,500 individual reefs and visible from space. Australia is also called the land of Kangaroos.`
       }
-      /*
-         Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
+/*
+Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
     },
     {
       label: 'Map - Continents',
@@ -113,14 +113,14 @@ export default {
           {
             name: 'True',
             text: `Antarctica has the coldest climate.
-            Australia is the smallest continent.
-            Africa is the second largest continent.`
+Australia is the smallest continent.
+Africa is the second largest continent.`
           },
           {
             name: 'False',
             text: `Amazon is the longest river.
-            The Great Wall of China is present in Africa.
-            Mexico is a part of South America.`
+The Great Wall of China is present in Africa.
+Mexico is a part of South America.`
           }
         ]
       }
@@ -132,10 +132,10 @@ export default {
       data: {
         title: 'Match the continents with its speciality.',
         text: `Australia, Kangaroo
-        South America, Amazon Forest
-        Asia, Biggest Continent
-        Africa, Sahara desert
-        Europe, Vatican city`
+South America, Amazon Forest
+Asia, Biggest Continent
+Africa, Sahara desert
+Europe, Vatican city`
       }
     },
     {
@@ -145,10 +145,10 @@ export default {
       data: {
         title: 'Match Countries with Continents',
         text: `Asia, China
-          Africa, Egypt
-          North America, Canada
-          Europe, France,
-          South America, Brazil`
+Africa, Egypt
+North America, Canada
+Europe, France,
+South America, Brazil`
       }
     },
     {

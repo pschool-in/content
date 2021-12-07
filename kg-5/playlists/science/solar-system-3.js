@@ -61,7 +61,38 @@ export default {
           Different shapes of the moon seen from the earth are called *phases* of the moon.
           Holes present on the surface of the moon are called *craters*.`
         }
-      },  
+      }, 
+      {
+        id: 'match',
+        label: 'Match the following',
+        type: 'match',
+        data: {
+          text: `orion, constellation
+          2 moons, mars
+          27 moons, uranus
+          13 monns, neptune
+          50 moons, jupiter`,
+          title: 'Match with appropriate choice'
+        }
+      },
+      {
+        label: 'Name the following',
+        type: 'matchByDragDrop',
+        id: 'drag-drop',
+        data: {
+          isPractice: false,
+          title: 'Drag and drop the words at proper place.',
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `Places built to educate people about space and objects in the space - *Planeterium*
+          Holes on the surface of the moon - *craters*
+          Pattern formed by stars in the sky - *constellation*
+          Planet with 13 moons - *Neptune*
+          Planet with 50 moons - *Saturn*`
+        }
+      }, 
       {
         id: 'true-false',
         label: 'True or False',

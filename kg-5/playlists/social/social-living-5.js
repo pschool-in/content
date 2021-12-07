@@ -27,13 +27,13 @@ A school can also help in the development of a community or solve a problem. All
             {
               name: 'True',
               text: `Schools lend a hand in the development of the community.
-              Every child has the right to go to school and learn.
-              The school is our world outside the home.`
+Every child has the right to go to school and learn.
+The school is our world outside the home.`
             },
             {
               name: 'False',
               text: `We must not inform our parents about the happenings in the school.
-              Every school looks the same.`
+Every school looks the same.`
             }
           ]
         }

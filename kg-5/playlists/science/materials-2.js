@@ -27,6 +27,47 @@ export default {
         }
       },
       {
+        id: 'true-false',
+        label: 'True or False',
+        type: 'classifySentence',
+        data: {
+          title: 'True or False',
+          types: [
+            {
+              name: 'True',
+              text: `An object can be made from more than one raw material.
+              For manufacturing a particular object we use the most suitable raw material.
+              We use a wide range of materials daily.`
+            },
+            {
+              name: 'False',
+              text: `Shoes are made from steel.
+              Doors can be made from cardboard.
+              Every object is made from a single raw material.`
+            }
+          ]
+        }
+      },
+      
+      {
+        label: 'Fill in the blanks',
+        type: 'matchByDragDrop',
+        id: 'drag-drop',
+        data: {
+          isPractice: false,
+          title: 'Drag and drop the words at proper place.',
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `Clothes are made of *fabric*.
+          Knives and spoons are made from *steel*.
+          Bags, bottles and toys are made from *plastic*.
+          Shoes are made from *leather*.
+          Tables, chairs and pencils are made from *wood*.`
+        }
+      },
+      {
         label: 'Choose the best Answer',
         id: 'mcq',
         type: 'mcq',

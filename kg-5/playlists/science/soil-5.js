@@ -82,6 +82,24 @@ export default {
         }
       },
       {
+        label: 'Name the following',
+        type: 'matchByDragDrop',
+        id: 'drag-drop',
+        data: {
+          isPractice: false,
+          title: 'Drag and drop the words at proper place.',
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `The topmost layer of soil - *topsoil*
+          The layer of soil beneath topsoil - *subsoil*
+          The compacted and cemented layer made of rocks - *parent rock*
+          The wearing away of topsoil - soil *erosion*
+          The prevention of loss of topsoil - soil *conservation*`
+        }
+      },
+      {
         label: 'Fill in the blanks',
         type: 'matchByDragDrop',
         id: 'drag-drop',

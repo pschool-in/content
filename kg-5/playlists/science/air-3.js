@@ -171,7 +171,7 @@ We need air for our body to function properly. It also makes us feel fresh and l
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -195,7 +195,7 @@ We need air for our body to function properly. It also makes us feel fresh and l
     {
       label: 'Drag and Drop - Breathing',
       type: 'matchByDragDrop',
-      id: '300',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',

@@ -11,29 +11,25 @@ export default {
       data: {
         title: 'Cleanliness',
         text: `Maintaining cleanliness is a must have discipline for every human being. We should not forget brushing teeth, taking bath, wearing clean clothes etc.
-
-          # Germs
-          Germs are micro-organisms that affects our body. They are found in all the places. If we do not maintain cleanliness, the germs will infect us and cause many diseases to us.
-          # Hand Washing
-          It is important to wash our hands, before and after having the food.
-
-          # Steps of hand washing
-          1. Wet your hands.
-          2. Apply enough soap.
-          3. Rub the palms.
-          4. Rub the back of each hand together.
-          5. Rub both hands holding all fingers.
-          6. Rub the back of the fingers.
-          7. Rub the tip of the fingers.
-          8. Rub the thumbs and the ends of the wrists.
-          9. Rinse both hands properly with enough water.
-          
-          # Benefits of hand washing
-          
-          1. Kills or removes germs.
-          2. Lowers the risk of diseases like Diarrhoea.
-          3. Prevents eye infections.
-          4. Reduces the risk of respiratory infections.`
+# Germs
+Germs are micro-organisms that affects our body. They are found in all the places. If we do not maintain cleanliness, the germs will infect us and cause many diseases to us.
+# Hand Washing
+It is important to wash our hands, before and after having the food.
+# Steps of hand washing
+1. Wet your hands.
+2. Apply enough soap.
+3. Rub the palms.
+4. Rub the back of each hand together.
+5. Rub both hands holding all fingers.
+6. Rub the back of the fingers.
+7. Rub the tip of the fingers.
+8. Rub the thumbs and the ends of the wrists.
+9. Rinse both hands properly with enough water.
+# Benefits of hand washing
+1. Kills or removes germs.
+2. Lowers the risk of diseases like Diarrhoea.
+3. Prevents eye infections.
+4. Reduces the risk of respiratory infections.`
       }
     },
     {
@@ -64,13 +60,13 @@ export default {
           {
             name: 'Good',
             text: `Always wash your hands before and after eating food.
-              Make sure to use soap while washing your hands.
-              Always maintain cleanliness.`
+Make sure to use soap while washing your hands.
+Always maintain cleanliness.`
           },
           {
             name: 'Bad',
             text: `Do not wash hands for a quick snack.
-              Just wash your hands quickly in water before a meal.`
+Just wash your hands quickly in water before a meal.`
           }
         ]
       }
@@ -82,10 +78,10 @@ export default {
       data: {
         title: 'Arrange the steps of handwashing in order.',
         text: `Wet your hands.
-         Apply enough soap.
-         Rub palms and its backside.
-         Rub the tip of fingers.
-         Rinse both bands with enough water.`
+Apply enough soap.
+Rub palms and its backside.
+Rub the tip of fingers.
+Rinse both bands with enough water.`
       }
     },
     {
@@ -100,10 +96,10 @@ export default {
           dashWidth: 80
         },
         text: `*Germs* are microorganisms that affect our bodies.
-          It is important to wash our hands to keep ourselves *healthy*. 
-          Washing hand *kills* or removes germs.
-          Washing hands *prevents* eye infections.
-          Apply enough *soap* while washing hands.`
+It is important to wash our hands to keep ourselves *healthy*. 
+Washing hand *kills* or removes germs.
+Washing hands *prevents* eye infections.
+Apply enough *soap* while washing hands.`
       }
     },
     {
@@ -143,39 +139,30 @@ export default {
       data: {
         title: 'Personal Hygeine',
         text: `# Using toilets
-          In the world, nearly one billion people have no access to a toilet at all and they are forced to do open defecation. Open defecation spreads diseases such as cholera and diarrhea. Groundwater is polluted by toilets and it also causes diseases. Children also get affected by intestinal worms which causes anemia. So, it is necessary to use toilets.
-          
-          # Benefits of using a toilet
-          
-          1. It prevents diseases like cholera.
-          2. It offers privacy.
-          3. It is convenient.
-          4. It is safe.
-          
-          # Effects of open defecation.
-          
-          1. It causes waterborne diseases.
-          2. Leads to spread of diseases caused by insect carrier.
-          3. Leads to pollution.
-          
-          # How to wash out intestinal worms?
-          Use the toilet and avoid open defecation. Wash our hands after using the toilet. These will help us to have a healthy life.
-          
-          # Importance of Bathing
-          
-          1. Cleanses the body.
-          2. Removes dirt and odor.
-          3. Protects oneself from infection.
-          4. Improves blood circulation.
-          
-          # Safety measures in Bathroom
-          
-          1. Do not play with water or run around in the bathroom. You may get hurt.
-          2. Do not touch sharp objects such as blades, razors and scissors kept in the bathroom.
-          3. Use hot water under the supervision of an adult only.
-          4. Do not leave a soap bar on the floor. Someone may slip due to it.
-          5. Do not leave the bathroom floor wet. Dry the floor using a wiper before you leave.
-          6. Do not touch electric switches with wet hands. You may get hurt with an electric shock.`
+In the world, nearly one billion people have no access to a toilet at all and they are forced to do open defecation. Open defecation spreads diseases such as cholera and diarrhea. Groundwater is polluted by toilets and it also causes diseases. Children also get affected by intestinal worms which causes anemia. So, it is necessary to use toilets.
+# Benefits of using a toilet
+1. It prevents diseases like cholera.
+2. It offers privacy.
+3. It is convenient.
+4. It is safe.
+# Effects of open defecation.
+1. It causes waterborne diseases.
+2. Leads to spread of diseases caused by insect carrier.
+3. Leads to pollution.
+# How to wash out intestinal worms?
+Use the toilet and avoid open defecation. Wash our hands after using the toilet. These will help us to have a healthy life.
+# Importance of Bathing
+1. Cleanses the body.
+2. Removes dirt and odor.
+3. Protects oneself from infection.
+4. Improves blood circulation.
+# Safety measures in Bathroom
+1. Do not play with water or run around in the bathroom. You may get hurt.
+2. Do not touch sharp objects such as blades, razors and scissors kept in the bathroom.
+3. Use hot water under the supervision of an adult only.
+4. Do not leave a soap bar on the floor. Someone may slip due to it.
+5. Do not leave the bathroom floor wet. Dry the floor using a wiper before you leave.
+6. Do not touch electric switches with wet hands. You may get hurt with an electric shock.`
       }
     },
     {
@@ -188,13 +175,13 @@ export default {
           {
             name: 'Right',
             text: `Use hot water under the supervision of an adult only.
-              Do not touch electric switches with wet hands.
-              Do not leave a soap bar on the floor.`
+Do not touch electric switches with wet hands.
+Do not leave a soap bar on the floor.`
           },
           {
             name: 'Wrong',
             text: `Touch electric switches with wet hands.
-              Running around in the bathroom.`
+Running around in the bathroom.`
           }
         ]
       }
@@ -209,13 +196,13 @@ export default {
           {
             name: 'True',
             text: `Open defecation causes waterborne diseases.
-              Bathing cleanses the body.
-              Using toilet prevents spreading of diseases like cholera.`
+Bathing cleanses the body.
+Using toilet prevents spreading of diseases like cholera.`
           },
           {
             name: 'False',
             text: `Bathing slows circulation.
-              Using toilets causes cholera.`
+Using toilets causes cholera.`
           }
         ]
       }
@@ -232,10 +219,10 @@ export default {
           dashWidth: 80
         },
         text: `Do not play with water or *run* around in the bathroom. 
-          Do not touch *sharp* objects such as blades, razors and scissors kept in the bathroom.
-          Do not leave the bathroom floor *wet*. 
-          *Dry* the floor using a wiper before you leave.
-          Do not touch *electric* switches with wet hands. `
+Do not touch *sharp* objects such as blades, razors and scissors kept in the bathroom.
+Do not leave the bathroom floor *wet*. 
+*Dry* the floor using a wiper before you leave.
+Do not touch *electric* switches with wet hands. `
       }
     },
     {
@@ -245,31 +232,31 @@ export default {
       data: {
         title: 'Protecting Sense Organs',
         text: `By nature, all the sense organs have some ways to protect themselves. For example, the eyelids and lashes protect the eyes from dust and other foreign particles. Our finger tips are protected by nails.
-         # Eyes
-         1. We should read under proper light. Reading in too dim or too bright light will make our eyes uncomfortable.
-         2. We should watch TV from a minimum distance of 6 feet. We should not play video games or watch TV for long hours.
-         3. If you feel your eyes are itchy, wash them with clean and cold water. Don't rub your eyes with your fist.
-         If you find it difficult to read the classroom board from your place, tell your parents and see an eye doctor.
-         # Ears
-         1. Avoid loud noise.
-         2. Do not listen to music at higher volume when using earphones or headphones.
-         3. Do not clean ears with ear buds.
-         4. Dry your ears after taking bath.
-         5. Cover your ears while swimming and bathing.
-         6. Use earplugs or ear muffs (when you are exposed to loud sound).
-         Consult a doctor if you have pain in ear.
-         # Nose
-         1. Do not clean your nose by inserting any object into it.
-         2. If the nose is blocked due to cold, it is better to use steam to clear it.
-         3. Do not pick your nose.
-         # Tongue
-         1. We should clean our tongue daily with the tongue cleaner while brushing our teeth.
-         2. A dirty tongue may cause disease and bad breath.
-         # Skin
-         1. We should take bath daily.
-         2. Always use a mild soap.
-         3. Keep your skin dry and clean.
-         4. Dry your skin by rubbing gently with a clean cloth.`
+# Eyes
+1. We should read under proper light. Reading in too dim or too bright light will make our eyes uncomfortable.
+2. We should watch TV from a minimum distance of 6 feet. We should not play video games or watch TV for long hours.
+3. If you feel your eyes are itchy, wash them with clean and cold water. Don't rub your eyes with your fist.
+If you find it difficult to read the classroom board from your place, tell your parents and see an eye doctor.
+# Ears
+1. Avoid loud noise.
+2. Do not listen to music at higher volume when using earphones or headphones.
+3. Do not clean ears with ear buds.
+4. Dry your ears after taking bath.
+5. Cover your ears while swimming and bathing.
+6. Use earplugs or ear muffs (when you are exposed to loud sound).
+Consult a doctor if you have pain in ear.
+# Nose
+1. Do not clean your nose by inserting any object into it.
+2. If the nose is blocked due to cold, it is better to use steam to clear it.
+3. Do not pick your nose.
+# Tongue
+1. We should clean our tongue daily with the tongue cleaner while brushing our teeth.
+2. A dirty tongue may cause disease and bad breath.
+# Skin
+1. We should take bath daily.
+2. Always use a mild soap.
+3. Keep your skin dry and clean.
+4. Dry your skin by rubbing gently with a clean cloth.`
       }
     },
     {
@@ -279,10 +266,10 @@ export default {
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Consult a doctor when you feel any itching, *skin (nose)* injury or infection.
-          If the nose is blocked due to cold it is better to use *steam (ice)* to clear it.
-          A dirty *tongue (nose)* may cause disease and bad breath.
-          Watch television from a minimum distance of *6 (2)* feet.
-          Do not listen to music at *higher (lower)* volume when using Earphones or Headphones.`
+If the nose is blocked due to cold it is better to use *steam (ice)* to clear it.
+A dirty *tongue (nose)* may cause disease and bad breath.
+Watch television from a minimum distance of *6 (2)* feet.
+Do not listen to music at *higher (lower)* volume when using Earphones or Headphones.`
       }
     },
     {
@@ -297,10 +284,10 @@ export default {
           dashWidth: 80
         },
         text: `Do not clean your *nose* by inserting any object into it.
-          Do not rub your *eyes* with your fist.
-          Dry your *ears* after taking bath.
-          Keep your *skin* dry and clean.
-          A dirty *tongue* may cause disease and bad breath.`
+Do not rub your *eyes* with your fist.
+Dry your *ears* after taking bath.
+Keep your *skin* dry and clean.
+A dirty *tongue* may cause disease and bad breath.`
       }
     },
     {
@@ -345,14 +332,14 @@ export default {
           {
             name: 'True',
             text: `We can wash our eyes with cold water.
-              An eye doctor is known as ophthalmologist.
-              A dirty tongue may cause disease and bad breath.`
+An eye doctor is known as ophthalmologist.
+A dirty tongue may cause disease and bad breath.`
           },
           {
             name: 'False',
             text: `We should always study under very bright light.
-              We should dry our skin with wet clothes.
-              Loud noises do not cause hearing loss.`
+We should dry our skin with wet clothes.
+Loud noises do not cause hearing loss.`
           }
         ]
       }
@@ -394,25 +381,23 @@ export default {
       data: {
         title: 'Disability',
         text: `# Good touch, Bad Touch
-          There are body parts that you and others can see and touch like our arms and hands. But, there are also some body parts that no one should see or touch like our chest, between our legs and our bottom. These parts are called private parts. 
-          It is never right for anyone to look at, touch or talk about your private parts and it is never right for someone older to you to ask you to look, touch or talk about their private parts.
-          When we are small our mom or dad might touch us to help us to be clean. It is never a secret and it is okay to tell someone about it.
-          Some touches are good or safe, like when we shake hands. But, some touches are bad or unsafe, like when we hit someone. Bad touches might make you feel sad, angry, scared, or confused. If you do not like any touch or if it makes you sad, angry or scared, tell them to STOP! Scream “STOP!” and run away.
-          Tell an adult you trust, about the bad touch. Keep telling until you get the help you need.
-          
-          # Differently-abled
-          Not everybody can use all five senses. Some cannot use any one or more of the five senses, such people are called Differently-abled.
-          Helping people is very honorable, and there are plenty of ways by which we can help differently-abled people.
-          
-          1. Ask first if they need any help from you and follow their lead.
-          2. Speak clearly and listen to their words well.
-          3. Use direct words.
-          4. Never tease them by calling with specific names.
-          5. Be aware of their aids, do not cause any damage to the aids.
-          6. Open doors for the disabled.
-          7. Making way for them.
-          8. Help them to cross the road.
-          9. Treat them as normal people.`
+There are body parts that you and others can see and touch like our arms and hands. But, there are also some body parts that no one should see or touch like our chest, between our legs and our bottom. These parts are called private parts. 
+It is never right for anyone to look at, touch or talk about your private parts and it is never right for someone older to you to ask you to look, touch or talk about their private parts.
+When we are small our mom or dad might touch us to help us to be clean. It is never a secret and it is okay to tell someone about it.
+Some touches are good or safe, like when we shake hands. But, some touches are bad or unsafe, like when we hit someone. Bad touches might make you feel sad, angry, scared, or confused. If you do not like any touch or if it makes you sad, angry or scared, tell them to STOP! Scream “STOP!” and run away.
+Tell an adult you trust, about the bad touch. Keep telling until you get the help you need.
+# Differently-abled
+Not everybody can use all five senses. Some cannot use any one or more of the five senses, such people are called Differently-abled.
+Helping people is very honorable, and there are plenty of ways by which we can help differently-abled people.
+1. Ask first if they need any help from you and follow their lead.
+2. Speak clearly and listen to their words well.
+3. Use direct words.
+4. Never tease them by calling with specific names.
+5. Be aware of their aids, do not cause any damage to the aids.
+6. Open doors for the disabled.
+7. Making way for them.
+8. Help them to cross the road.
+9. Treat them as normal people.`
       }
     },
     {
@@ -425,12 +410,12 @@ export default {
           {
             name: 'Good',
             text: `Shaking hands.
-              Mother bathing you.`
+Mother bathing you.`
           },
           {
             name: 'Bad',
             text: `Stranger touching you without your permission.
-              Someone touching your private parts.`
+Someone touching your private parts.`
           }
         ]
       }
@@ -447,9 +432,9 @@ export default {
           dashWidth: 80
         },
         text: `Some cannot use any one or more of the five senses, such people are called *Differently-abled*.
-          Some touches are *good* or safe, like when we shake hands. 
-          Some touches are *bad* or unsafe, like when we hit someone.
-          If you do not like any touch or if it makes you sad, angry or scared, tell them to *STOP*!`
+Some touches are *good* or safe, like when we shake hands. 
+Some touches are *bad* or unsafe, like when we hit someone.
+If you do not like any touch or if it makes you sad, angry or scared, tell them to *STOP*!`
       }
     },
     {
@@ -487,36 +472,33 @@ export default {
       data: {
         title: 'Physical Fitness',
         text: `# How to stay fit
-          1. Avoid junk food.
-          2. Eat fresh and healthy food.
-          3. Exercise daily.
-          4. Play outdoor games.
-          5. Have a balanced diet.
-          
-          # Importance of Exercise
-          
-          1. Protects us from diseases
-          2. Balances our body weight
-          3. Strengthens our muscles and bones
-          4. Improves digestion
-          5. Improves sleep quality
-          6. Increases our energy level
-          7. Improves skin health
-          8. Boosts brain functions and memory
-
-          # Did you know? 
-          Global Hand Washing Day is observed on October 15.
-          World Toilet Day is observed on November 19.
-          National Deworming Day is observed on February 10.
-          Sulabh International Museum of Toilets is in Delhi, India. It exhibits different toilet models from 50 countries across the world – spanning from 3000 BC till the 20th century.
-          World Health Day is observed on April 7.
-          The fruits of the Soapberry tree are Saponin-rich and used as a soap substitute.
-          A condition known as digital eye strain is common among people working at computers all day. This condition leads to dry eyes, eye strain, blurred vision and headache.
-          Noise levels are measured in decibels (dB).
-          Any sound over 85dB can be harmful to us.
-          If someone abuses you or hurts you, you can call 1098 and get help.
-          Braille is a reading and writing method for the visually challenged person. It has a raised pattern that can be read with the fingers.
-          We do not use the word handicapped or disabled. We use differently-abled.`
+1. Avoid junk food.
+2. Eat fresh and healthy food.
+3. Exercise daily.
+4. Play outdoor games.
+5. Have a balanced diet.
+# Importance of Exercise
+1. Protects us from diseases
+2. Balances our body weight
+3. Strengthens our muscles and bones
+4. Improves digestion
+5. Improves sleep quality
+6. Increases our energy level
+7. Improves skin health
+8. Boosts brain functions and memory
+# Did you know? 
+Global Hand Washing Day is observed on October 15.
+World Toilet Day is observed on November 19.
+National Deworming Day is observed on February 10.
+Sulabh International Museum of Toilets is in Delhi, India. It exhibits different toilet models from 50 countries across the world – spanning from 3000 BC till the 20th century.
+World Health Day is observed on April 7.
+The fruits of the Soapberry tree are Saponin-rich and used as a soap substitute.
+A condition known as digital eye strain is common among people working at computers all day. This condition leads to dry eyes, eye strain, blurred vision and headache.
+Noise levels are measured in decibels (dB).
+Any sound over 85dB can be harmful to us.
+If someone abuses you or hurts you, you can call 1098 and get help.
+Braille is a reading and writing method for the visually challenged person. It has a raised pattern that can be read with the fingers.
+We do not use the word handicapped or disabled. We use differently-abled.`
       }
     },
     {
@@ -526,10 +508,10 @@ export default {
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A condition known as digital eye strain is common among people working at *computers (books)* all day. 
-          Noise levels are measured in *decibels (joules)*.
-          Any sound over *85 (15)*dB can be harmful to us.
-          If someone abuses you or hurts you, you can call *1098 (1908)* and get help.
-          Braille is a reading and writing method for the *visually (physically)* challenged person.`
+Noise levels are measured in *decibels (joules)*.
+Any sound over *85 (15)*dB can be harmful to us.
+If someone abuses you or hurts you, you can call *1098 (1908)* and get help.
+Braille is a reading and writing method for the *visually (physically)* challenged person.`
       }
     },
     {
@@ -542,16 +524,16 @@ export default {
           {
             name: 'True',
             text: `Exercise protects us from diseases.
-              Exercise balances our body weight.
-              Exercise strengthens our muscles and bones.
-              Exercise improves digestion.`
+Exercise balances our body weight.
+Exercise strengthens our muscles and bones.
+Exercise improves digestion.`
           },
           {
             name: 'False',
             text: `Exercise deprives sleep quality.
-              Exercise reduces our energy level.
-              Exercise declines skin health.
-              Exercise slows down brain functions and memory.`
+Exercise reduces our energy level.
+Exercise declines skin health.
+Exercise slows down brain functions and memory.`
           }
         ]
       }
@@ -559,7 +541,7 @@ export default {
     {
       label: 'Answer the Following',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-8',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -568,9 +550,9 @@ export default {
           dashWidth: 80
         },
         text: `Global Hand Washing Day is observed on *October 15*.
-          World Toilet Day is observed on *November 19*.
-          National Deworming Day is observed on *February 10*.
-          World Health Day is observed on *April 7*.`
+World Toilet Day is observed on *November 19*.
+National Deworming Day is observed on *February 10*.
+World Health Day is observed on *April 7*.`
       }
     }
   ]

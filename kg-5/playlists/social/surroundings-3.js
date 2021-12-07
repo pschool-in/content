@@ -64,10 +64,10 @@ Kaziranga National Park is present in West Bengal.`
       type: 'match',
       data: {
         text: `Vendanthangal, Birds
-        Nilgiri, Elephants
-          Gir Park, Lions
-          Bandipur, Tigers
-          Botanical Garden, Flora`,
+Nilgiri, Elephants
+Gir Park, Lions
+Bandipur, Tigers
+Botanical Garden, Flora`,
         title: 'Match the following'
       }
     },
@@ -92,10 +92,10 @@ Gir Park, Gujarat `,
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Kurinchi flower blossoms only once in *12 (10)* years.
-          Vedanthangal Bird Sanctuary is the very oldest water *birds (animals)* sanctuary in India.
-          There are *three (four)* biosphere reserves in Tamil Nadu.
-          Padmaja Naidu Himalayan Zoological Park is situated in *West Bengal (Maharashtra)*.
-          Botanical gardens are there to maintain the extinct *plants (animals)* species.`
+Vedanthangal Bird Sanctuary is the very oldest water *birds (animals)* sanctuary in India.
+There are *three (four)* biosphere reserves in Tamil Nadu.
+Padmaja Naidu Himalayan Zoological Park is situated in *West Bengal (Maharashtra)*.
+Botanical gardens are there to maintain the extinct *plants (animals)* species.`
       }
     },
     */
@@ -296,10 +296,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
         title: 'Match.',
         fontSize: '1rem',
         text: `Delhi, Red fort
-        Jaipur, Amber Fort
-        Telangana, Golconda Fort
-        Rajasthan, Chittorgarh Fort
-        Chennai, Fort St. George`
+Jaipur, Amber Fort
+Telangana, Golconda Fort
+Rajasthan, Chittorgarh Fort
+Chennai, Fort St. George`
       }
     },
     {
@@ -340,10 +340,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
           dashWidth: 80
         },
         text: `*Village* is formed by the people who got settled and lived together in a place. 
-          In India, some places are famous because of *historical buildings*.
-          *Sun temple* is situated in Konark.
-          Rajgad Fort is a hill fort, situated in Rajgad district of *Maharashtra*. 
-          *Golden temple* is situated in Amritsar.`
+In India, some places are famous because of *historical buildings*.
+*Sun temple* is situated in Konark.
+Rajgad Fort is a hill fort, situated in Rajgad district of *Maharashtra*. 
+*Golden temple* is situated in Amritsar.`
       }
     },
     {
@@ -352,10 +352,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
       type: 'fillupOptions',
       data: {
         text: `King Chathrapathi Sivaji was the founder of *Maratha (Gupta)* Empire. 
-          *Rajaraja (Rajendra)* Chola I  built the Brihadishvara temple. 
-          *Plough (Shuttle)* is used in agriculture.
-          Lotus temple is one of the famous monuments situated in *Delhi (Amritsar)*.
-          *Jaisalmer (Mehrangarh)* Fort is also called a golden fort.`,
+*Rajaraja (Rajendra)* Chola I  built the Brihadishvara temple. 
+*Plough (Shuttle)* is used in agriculture.
+Lotus temple is one of the famous monuments situated in *Delhi (Amritsar)*.
+*Jaisalmer (Mehrangarh)* Fort is also called a golden fort.`,
         title: 'Fill in the blanks.'
       }
     },
@@ -369,13 +369,13 @@ India has a rich heritage and it is well known for its old culture. Many places 
           {
             name: 'True',
             text: `In ancient days, man used to hunt animals and eat raw meat.
-              Ajanta caves are famous for its cave paintings, sculptures, and architecture.
-              Red fort was built by Shah Jahan, Mughal emperor of India.`
+Ajanta caves are famous for its cave paintings, sculptures, and architecture.
+Red fort was built by Shah Jahan, Mughal emperor of India.`
           },
           {
             name: 'False',
             text: `Humayun tomb is located in Gujarat.
-              Gateway of India is situated in Delhi.`
+Gateway of India is situated in Delhi.`
           }
         ]
       }
@@ -387,9 +387,8 @@ India has a rich heritage and it is well known for its old culture. Many places 
       data: {
         title: 'Historical Places',
         text: `Historical places have buildings that were build hundreds of years ago. Every historical place has its own story and they are preserved carefully by our government. Historical places add value to a nation's heritage. It also helps in promoting tourism. Moreover, historical places also tell us about the ancient lifestyle. By reading and knowing a lot about historical places, we can know about where we come from. Historical places mark important events in history.
-        Mamallapuram is one of the important historical place. It is located near Chennai. It was build by Pallavas. We can find many monuments that were made out of just single stone. It is also known as shore temple, because it is located on the shores of Bay of Bengal.
-
-        St. George fort is the first English fort in India. It is present in Chennai.
+Mamallapuram is one of the important historical place. It is located near Chennai. It was build by Pallavas. We can find many monuments that were made out of just single stone. It is also known as shore temple, because it is located on the shores of Bay of Bengal.
+St. George fort is the first English fort in India. It is present in Chennai.
         `
       }
     },
@@ -420,10 +419,10 @@ India has a rich heritage and it is well known for its old culture. Many places 
         title: 'Match the related ones.',
         fontSize: '1rem',
         text: `Mecca Masjid, Hyderabad
-          Undavalli Caves, Amaravathi
-          Dhamekh Stupa, Varanasi 
-          Santhome Church, Chennai
-          Sree Padmanabhaswamy Temple, Kerala`
+Undavalli Caves, Amaravathi
+Dhamekh Stupa, Varanasi 
+Santhome Church, Chennai
+Sree Padmanabhaswamy Temple, Kerala`
       }
     },
     {

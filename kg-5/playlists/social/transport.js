@@ -5,7 +5,7 @@ export default {
     {
       type: 'rightOne',
       label: 'Odd one out',
-      id: '100',
+      id: 'odd-one',
       data: {
         title: 'Pick the odd one',
         text:
@@ -15,7 +15,7 @@ export default {
     {
       label: 'Transport- MCQ',
       type: 'mcq',
-      id: '200',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
