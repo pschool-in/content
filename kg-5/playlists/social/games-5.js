@@ -71,6 +71,54 @@ export default {
           Karate is the martial art form of *Japan*.
           *Kabbadi* is a traditional Indian game.`
         }
+      },
+      {
+        label: 'Multiple Choice Questions',
+        type: 'mcq',
+        id: 'mcq',
+        data: {
+          title: 'Multiple Choice Questions',
+          questions: [
+            {
+              qText: 'Which form of martial art originated from Himachal Pradesh?',
+              options: 'thoda, kalaripayattu, thang-ta'
+            },
+            {
+              qText: 'What is another name for wrestling?',
+              options: 'kusthi, akada, kabadi'
+            },
+            {
+              qText: 'Which game is ancient form of cricket?',
+              options: 'gilli-danda, kho-kho, shatranj'
+            },
+            {
+              qText: 'Kung-fu is the martial art form of which country?',
+              options: 'China, Japan, Korea'
+            }
+          ]
+        }
+      },
+      {
+        id: 'true-false',
+        label: 'True or False',
+        type: 'classifySentence',
+        data: {
+          title: 'True or False',
+          types: [
+            {
+              name: 'True',
+              text: `Martial arts is a form of mock fights.
+              In thoda, the archers aim at the leg of the  opponents below the knee.
+              Vallamkali is a part of Onam celebration.`
+            },
+            {
+              name: 'False',
+              text: `Kung-fu originated from Japan.
+              Karate originated from China.
+              Kalaripayattu is played with spears.`
+            }
+          ]
+        }
       }
     ]
   };

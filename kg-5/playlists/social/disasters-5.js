@@ -57,6 +57,19 @@ export default {
       }
     },
     {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `flood, water ovwerflow
+        earthquake, aftershock
+        tsunami, giant waves
+        drought, dry lands
+        fire, fire alarm`,
+        title: 'Match with appropriate choice'
+      }
+    },
+    {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'drag-drop',
@@ -72,6 +85,50 @@ export default {
           Drought are periods with *no* rainfall.
           Warnings about natural disasters are given through *radio* and television.
           The state of Himachal Pradesh are prone to *cyclones*.`
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'In case of fire what should we do?',
+            options: 'walk out of the building, run out of the building'
+          },
+          {
+            qText: 'Which of the following should you do in case of an earthquake?',
+            options: 'sit under furniture, stay under a stair, run into any building'
+          },
+          {
+            qText: 'Which of the following is an organization that provides voluntary services?',
+            options: 'Red Cross Society, World Health Organization, *all'
+          }
+        ]
+      }
+    },
+    {
+      id: 'do-dont',
+      label: `Do and Don't`,
+      type: 'classifySentence',
+      data: {
+        title: `Do and Don't`,
+        types: [
+          {
+            name: 'Do',
+            text: `Keep calm and do not run in case of a fire
+            In case of an earthquake move to open ground or stay beneath furniture.
+            Watch out for warning on radio and television`
+          },
+          {
+            name: `Don't`,
+            text: `Ignore warning signs.
+            Panic in case of emergency and cause commotion.
+            Stay under door or stairs in time of an earthquake.`
+          }
+        ]
       }
     }
   ]
