@@ -119,8 +119,7 @@ export default {
       spotted-dove| மணிப்புறா
       robin| கருஞ்சிட்டு
       swallow|  தகைவிலாங் குருவி
-      seagull| கடற்பறவை
-      goose| வாத்து`,
+      seagull| கடற்பறவை`,
 
         `falcon| பருந்து
       myna| மைனா
@@ -195,10 +194,10 @@ export default {
         greenpeas| பச்சைபட்டாணி
         ladies-finger| வெண்டைக்காய்
         mintleaf | புதினா
-        peanut| வேர்க்கடலை
+        spinach| கீரை
         raddish| முள்ளங்கி`,
 
-        `spinach| கீரை
+        `peanut| வேர்க்கடலை
         chickpea| கொண்டைக்கடலை
         turmeric| மஞ்சள்
         fenugreek| வெந்தயக்கீரை
@@ -237,7 +236,7 @@ export default {
         rose| ரோஜா
         sunflower| சூரியகாந்தி 
         marigold| சாமந்தி
-        mogra, குண்டு மல்லி`,
+        mogra| குண்டு மல்லி`,
 
         `hibiscus| செம்பருத்தி
         jasmine| முல்லை 

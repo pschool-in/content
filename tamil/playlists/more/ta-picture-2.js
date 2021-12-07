@@ -62,7 +62,7 @@ export default {
     lizard, பல்லி
     rabbit, முயல்
     boar, காட்டுப்பன்றி
-    hyena, கழுதைப் புலி
+    hyena, கழுதைப்புலி
     polarbear, பனிக்கரடி
     antelope, மான்
     bug, வண்டு
@@ -85,7 +85,7 @@ export default {
     fish, மீன் 
     earthworm, மண்புழு
     hedgehog, முள்ளெலி
-    stingray, திருக்கை மீன்`
+    stingray, திருக்கைமீன்`
       ]
     },
     {
@@ -118,7 +118,7 @@ export default {
         swan, அன்னப்பறவை
         spotted-dove, மணிப்புறா
         robin, கருஞ்சிட்டு
-        swallow,  தகைவிலாங் குருவி
+        swallow,  தகைவிலாங்குருவி
         seagull, கடற்பறவை`,
             
           `falcon, பருந்து
@@ -209,7 +209,7 @@ export default {
         ashgourd, பூசணிக்காய் 
         ridgegourd, பீர்க்கங்காய்
         raw-banana, வாழைக்காய்
-        drumstick-leaves, முருங்கை கீரை
+        drumstick-leaves, முருங்கைக்கீரை
         tulsi, துளசி
         banana-flower, வாழைப்பூ 
         bottlegourd, சுரைக்காய்
@@ -353,7 +353,7 @@ export default {
         `spade, மண்வெட்டி
         screw, திருகு
         telescope, தொலைநோக்கி
-        test-tube, சோதனை குழாய்
+        test-tube, சோதனைக்குழாய்
         thermometer, வெப்பமானி
         trowel, கரணை
         awl, குத்தூசி
@@ -416,7 +416,7 @@ export default {
       baby , குழந்தை
       window, ஜன்னல்
       air-conditioner, குளிரூட்டி
-      fridge, குளிர்சாதன பெட்டி
+      fridge, குளிர்சாதனப்பெட்டி
       toothpaste, பற்பசை 
       bucket, வாளி
       toilet, கழிப்பறை
@@ -437,11 +437,11 @@ export default {
         `pillow, தலையணை
     bed, மெத்தை
     basket, கூடை
-    dustbin, குப்பை தொட்டி
+    dustbin, குப்பைத்தொட்டி
     handbag, கைப்பை
     soap, சவர்க்காரம்
     stove, அடுப்பு
-    fork, முள் கரண்டி
+    fork, முள்கரண்டி
     knife,கத்தி
     pan, வாணலி`,
 
@@ -452,7 +452,7 @@ export default {
       salt, உப்பு
       cup, கோப்பை
       bowl, கிண்ணம்
-      waterbottle, தண்ணீர் குடுவை
+      waterbottle, தண்ணீர்குடுவை
       scissors, கத்தரிக்கோல்
       calculator, கணிப்பான்`,
 
