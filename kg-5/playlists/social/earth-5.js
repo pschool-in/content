@@ -7,7 +7,7 @@ export default {
     {
       label: 'Our Earth - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Earth',
         text: `# Origin of Earth.
@@ -31,7 +31,7 @@ We live on the surface of the Earth. It is called the Blue Planet. It is made up
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -48,7 +48,7 @@ Earth is called the *Blue* planet.`
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -71,7 +71,7 @@ There are 5 continents and 7 oceans.`
     {
       label: 'Name the Planet',
       type: 'matchByDragDrop',
-      id: '300',
+      id: 'match',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -89,7 +89,7 @@ Largest planet - *Neptune*`
     {
       label: 'Name the Continents',
       type: 'matchByDragDrop',
-      id: '400',
+      id: 'match-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -105,7 +105,7 @@ Second largest continent - *Africa*`
     },
     {
       label: 'Choose the best Answer ',
-      id: '500',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -157,81 +157,64 @@ Second largest continent - *Africa*`
         text:
           'Asia, Africa, N.America, S.America, Antarctica, Europe, Australia'
       },
-      id: '700'
+      id: 'sorting-2'
     },
     {
       label: 'Earth - Reading',
       type: 'passage',
-      id: '800',
+      id: 'reading-2',
       data: {
         title: 'World',
         text: `# Asia
-
 1. It is the largest continents.
 2. China and India has the highest population both in Asia and the World.
 3. Highest point on earth is in Asia
 4. Asia is the birth point of many great ancient civilization.
 5. Major countries in Asia: India, Japan,Singapore, Malaysia, Saudi Arabia, Sri Lanka, Nepal, Pakistan, Maldives,Philippines, Afghanistan, Thailand and Indonesia.
-
 # India
-
 1. Land of unity in diversity.
 2. India has several historical monuments.
 3. It has 29 states and 7 union territories.
 4. Monuments in India:  India Gate in Delhi, Sanchi Stuba near Bhopal, Gateway of India in Mumbai, St George Fort and Taj Mahal in Agra.
-
 # Africa
-
 1. Africa is the second largest continent.
 2. The world's longest river the Nile and the world's largest desert the Sahara, are in Africa.
 3. More than 50% of the world's gold and diamonds come from the mineral rich continent of Africa.
 4. Also called The Dark Continent.
-
 # North America
-
 1. North America is the third largest continent by area.
 2. The largest fresh water lake, Lake Superior is located in this continent.
 3. The Mississippi - Missouri, is one of the longest river located in North America.
 4. The United States of America (USA) is a part of North America.
 5. Major countries in North America: Canada, Mexico, Nicaragua, Honduras, Cuba, Guatemala, Panama and Costa Rica.
-
 # South America
-
 1. The world's largest river is in South America.
 2. Brazil a country in South America is one of the largest coffee producer in the world.
 3. The Andes is one of the longest mountain range in South America.
 4. One of the highest volcanoes of the world, Mt. Cotopaxi is found in this continent.
 5. Major countries in South America: Argentina, Bolivia, Brazil, Colombia, Ecuador, Paraguay, Peru, Uruguay and Venezuela.
-
 # Antarctica
-
 1. Antarctica is the coldest continent on Earth.
 2. It is also called the White Continent or the Frozen Continent.
 3. Penguins are found in Antarctica.
-
 # Europe
-
 1. Europe is separated from Asia by the Ural mountains and the Caspian Sea.
 2. The world's smallest country, the Vatican City, is in Europe.
 3. The Volga is one of the longest rivers in Europe.
 4. Finland, in Europe, is called the 'Land of Lakes'.
 5. Major countries in Europe: France, Spain, United Kingdom, Germany, Norway, Austria, Greece, Spain, Portugal and Italy.
-
 # Australia
-
 1. Australia is an Island continent covered with unique landscapes and natural wonders.
 2. The Great Barrier Reef, the pride and joy of Australia is made up of nearly 2,500 individual reefs and visible from space.
 3. Australia includes the islands of Tasmania and numerous small islands.
-
 # Important terms
-
 1. Civilization : A society in an advanced state of social development.
 2. Island : A piece of land surrounded by water.
 3. Monument : A building that is of historical importance and preserved as public property.`
       }
     },
     {
-      id: '900',
+      id: 'match-3',
       label: 'Continents and Countries',
       type: 'match',
       data: {
@@ -245,7 +228,7 @@ Australia, Tasmania `,
       }
     },
     {
-      id: '1000',
+      id: 'match-4',
       label: 'Wonders of the World',
       type: 'match',
       data: {
@@ -259,7 +242,7 @@ Colosseum, Rome`,
     },
     {
       label: 'True or False',
-      id: 'true-false',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -282,7 +265,7 @@ Lake Superior is in Africa.`
     {
       label: 'Choose the correct answer',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -300,7 +283,7 @@ The world's smallest country, the *Vatican City*, is in Europe.`
     {
       label: 'Name the following.',
       type: 'matchByDragDrop',
-      id: '1800 ',
+      id: 'drag-drop-5',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -321,7 +304,7 @@ World’s largest dessert - *Sahara*`
     },
     {
       label: 'Choose the best Answer',
-      id: '1700',
+      id: 'mcq-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

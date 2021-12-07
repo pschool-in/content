@@ -44,13 +44,13 @@ There are municipal corporations for *big cities (small towns)*.`
             {
               name: 'True',
               text: `Public services are provided to us out of the money collected from us as taxes. 
-              The postal service is useful for keeping in touch with our friends and relatives.
-              The local government provides the services of water supply and public hygiene. `
+The postal service is useful for keeping in touch with our friends and relatives.
+The local government provides the services of water supply and public hygiene. `
             },
             {
               name: 'False',
               text: `The gram panchayat runs the administration of the town.
-              The municipality runs the administration of the village.`
+The municipality runs the administration of the village.`
             }
           ]
         }
@@ -298,13 +298,13 @@ Teaches morality. - *teacher*`
             {
               name: 'True',
               text: `The Forest officer takes care of the forest department.
-              District collectors are appointed through exams conducted by U.P.S.C.
-              Chief Educational Officer takes care of the education department.`
+District collectors are appointed through exams conducted by U.P.S.C.
+Chief Educational Officer takes care of the education department.`
             },
             {
               name: 'False',
               text: `The police are responsible for the proper and smooth functioning of the district.
-              The teacher gives the order to make sure different policies reach people in the district.`
+The teacher gives the order to make sure different policies reach people in the district.`
             }
           ]
         }
