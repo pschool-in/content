@@ -1,14 +1,14 @@
 export default {
-    id: 'disasters-5',
-    label: 'Disaster Management',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Disasater Management',
-        type: 'passage',
-        data: {
-          text: `# Calamities 
+  id: 'disasters-5',
+  label: 'Disaster Management',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Disasater Management',
+      type: 'passage',
+      data: {
+        text: `# Calamities 
           Some even that occur cause great damage to human life and property. Such events and situations are called emergencies or calamities. When they are caused by natural factors we call them natural calamities.
           # Fire
           In case of fire:
@@ -33,47 +33,46 @@ export default {
           Drought prone areas in India are Uttar Pradesh, Telangana, Chhatisgarh, Haryana, Maharashtra, Odisha, Rajasthan and Tamil Nadu.
           # Disaster Management 
           Advances in technology have made it possible to warn people about some disasters beforehand and to help minimise the damage caused. Floods, cyclones, droughts and sometimes tsunamis canbe predicted. This knowleedge helps us save many lives. After the disaster the government sets up, relief camps for the affected people and provides food, drinking water and bedding. The army is also called in to airlift stranded people and airdrop food. Emergency services are alerted immediately. Medecines are provided to the people as there is a high risk ofan outbreak of diseases. Organizations suchas Red Cross Society and World Health Organization provide voluntary services. People from all over the country donate to relief funds.`,
-          title: 'Times of Emergencies'
-        }
-      },
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Red Cross help people during disasters.
+        title: 'Times of Emergencies'
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Red Cross help people during disasters.
               Cyclones are formed over the sea.`
-            },
-            {
-              name: 'False',
-              text: `Earthquakes can be predicted.
-              During anearthquake we should stay indoors.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
           },
-          text: `In case of a fire, we should *walk* out of the building.
+          {
+            name: 'False',
+            text: `Earthquakes can be predicted.
+              During an earthquake we should stay indoors.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `In case of a fire, we should *walk* out of the building.
           *Floods* are caused when rivers break their banks.
           Drought are periods with *no* rainfall.
           Warnings about natural disasters are given through *radio* and television.
           The state of Himachal Pradesh are prone to *cyclones*.`
-        }
       }
-    ]
-  };
-  
+    }
+  ]
+};

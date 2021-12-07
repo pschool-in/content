@@ -189,10 +189,12 @@ Oh! I am so sorry, said suresh. But Manoj smiled and said it is ok, as *the (a, 
       id: 'no-article',
       label: 'No Article - Fill up',
       type: 'fillupOptions',
-      data: {
+      commonData: {
         title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
-        options: '-, a, an, the',
-        text: `*-* man is mortal.
+        options: '-, a, an'
+      },
+      data: [
+        `*-* man is mortal.
   Can you tell me *a* story?
   She goes to the temple in *-* mornings.
   I am fond of *-* music.
@@ -201,18 +203,8 @@ Oh! I am so sorry, said suresh. But Manoj smiled and said it is ok, as *the (a, 
   I left my book at *-* home.
   I saw *a* snake in my garden.
   He likes to read *-* short stories.
-  A teacher is *an* important person in everyone's life.`
-      }
-    },
-    {
-      id: 'no-article-2',
-      label: 'No Article - Fill up (2)',
-      type: 'fillupOptions',
-      commonData: {
-        title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
-        options: '-, a, an'
-      },
-      data: [
+  A teacher is *an* important person in everyone's life.`,
+
         `I bought *a* pair of shoes.
   *-* elephants are very intelligent animals.
   I saw *a* movie last night.

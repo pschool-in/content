@@ -137,7 +137,7 @@ My puppy is very *playful* around children.`
         title: 'Identify the adjective in the sentence.'
       },
       data: [
-`The tree is too *tall* to climb.
+        `The tree is too *tall* to climb.
 Sita got *good* marks in the exam. She is very happy.
 The gold ring is *expensive*.
 Tarun is wearing a *red* shirt.
@@ -147,7 +147,7 @@ Mihir has *five* pens in his bag.
 I have a *black* sweater in the cupboard.
 Mahesh ate *tasty* samosas in the restaurant.`,
 
-`Ramya is a *brilliant* painter.
+        `Ramya is a *brilliant* painter.
 The music was *loud*.
 The wolf has *sharp* teeth.
 I lost my *new* anklet.
@@ -158,7 +158,7 @@ The *little* kitten was sleeping under the sofa.
 The students danced to the *loud* music.
 My garden is filled with *green* grass.`,
 
-`My sister likes *soft* music.
+        `My sister likes *soft* music.
 *Colorful* butterflies fly by my window every morning.
 The *white* car is my uncle's.
 *Fast* driving is dangerous.
@@ -181,28 +181,28 @@ My grandparents live in a *brick* house.`
       data: [
         [
           `Two tiny, brown squirrels ate all the peanuts.
-          Ram and Mahesh went to the market to buy ten large, fresh, red apples.
-          Mani left his small, white, striped shirt at home.`,
+Ram and Mahesh went to the market to buy ten large, fresh, red apples.
+Mani left his small, white, striped shirt at home.`,
 
           `The principal said that we could go on a tropical, long vacation.
-          Does the Indian, young actor win a lot of awards?
-          The white, comfortable sofa was very expensive.`
+Does the Indian, young actor win a lot of awards?
+The white, comfortable sofa was very expensive.`
         ],
         [
           `That big, black car goes really fast.
-          A round, black ball
-          Five, little children`,
+A round, black ball
+Five, little children`,
 
           `little, five children.
-          Full, three boxes.
-          two red, sqaure tables`
+Full, three boxes.
+two red, sqaure tables`
         ]
       ]
     },
     {
       id: '600',
       label: 'Fill in the adjectives',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill up the correct order of adjectives in the sentence.',
         text: `She gave her a *tiny(soft)*, *soft(tiny)* scarf.
@@ -220,12 +220,12 @@ My dad is a *tall (Indian)*, *Indian(tall)* man.`
         title: `Drag and drop the adjectives to complete the passage.`
       },
       data: [
-  `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
+        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
   One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. 
   He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare.
 He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
 
-  `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
+        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
   One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! 
   He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
       ]
@@ -239,25 +239,25 @@ He said, I hope you are quicker at eating, or will it take a year to finish the 
           'Arrange the adjectives in the correct order to make a meaningful sentence.'
       },
       data: [
-`A big brown bear.
+        `A big brown bear.
 A beautiful young girl.
 A beautiful blue dress.
 A magnificent new black shoe.
 An amazing large stone statue.`,
 
-`A handsome young boy.
+        `A handsome young boy.
 Four full boxes of chocolates.
 A talented young singer.
 A cool new black sports bike.
 Delicious Indian food.`,
 
-`Beautiful blue eyes.
+        `Beautiful blue eyes.
 A small oval table.
 A nice cold coffee.
 A beautiful long blue curtain.
 A poor little kitten.`,
 
-`A big hungry lion.
+        `A big hungry lion.
 A delicious Indian biryani.
 Two ancient copper statues.
 A small round flower pot.
@@ -453,24 +453,24 @@ A beautiful traditional saree.`
       label: 'Identify adjectives',
       id: '1100',
       commonData: {
-          title: 'Identify the adjectives given in the passage.',
-          multiSelect: true
-        },
+        title: 'Identify the adjectives given in the passage.',
+        multiSelect: true
+      },
       data: [
-`Once upon a time... there lived a women who had no children. 
+        `Once upon a time... there lived a women who had no children. 
 She dreamed of having a *little* girl. 
 But time went by and her dream never came true. 
 So, she visited an *ugly* witch who gave her a *magic* grain of barley.
 She planted the grain in a *big* flower pot. 
 The next morning, the *magic* grain turned into a *lovely* tulip.`,
 
-`The women kissed the *soft* petals and the flower opened. 
+        `The women kissed the *soft* petals and the flower opened. 
 Inside the flower sat a *tiny* girl, no bigger than a thumb.
 She was named Thumbelina. She had a walnut shell for bed, *violet* petals for mattress. 
 One night, as Thumbelina  was fast asleep, a *large* frog hopped in through the window.
 She said to herself, how *pretty* Thumbelina is!
 Later, she picked up Thumbelina and hopped back in to the wetlands.`
-          ]
-      }
-    ]
+      ]
+    }
+  ]
 };
