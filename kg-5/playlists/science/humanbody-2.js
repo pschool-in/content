@@ -76,6 +76,28 @@ export default {
           *Hands* help us to write, to hold things, etc.
           *Legs* help us to walk, to run, to jump, etc.`
         }
+      },
+      {
+        id: 'mcq',
+        label: 'Multiple Choice Questions - MCQ',
+        type: 'mcq',
+        data: {
+          title: 'Multiple Choice Questions',
+          questions: [
+            {
+              qText: 'What helps us to hold things and turn pages?',
+              options: `fingers, leg, wrist`
+            },
+            {
+              qText: 'What are external organs?',
+              options: `body parts we can see outside, body parts inside our body`
+            },
+            {
+              qText: 'Are sense organs considered as external body part?',
+              options: `yes, no `
+            }
+          ]
+        }
       }
     ]
   };
