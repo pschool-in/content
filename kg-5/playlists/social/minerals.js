@@ -5,7 +5,7 @@ export default {
     {
       label: 'Wealth under the Ground - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Wealth under the Ground',
         text:
@@ -15,7 +15,7 @@ export default {
     {
       label: 'Minerals - MCQ',
       type: 'mcq',
-      id: '200',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Question',
         questions: [
@@ -49,7 +49,7 @@ export default {
     {
       label: 'Minerals vs Non-minerals',
       type: 'group',
-      id: '300',
+      id: 'classify',
       data: {
         label: 'Minerals vs Non-minerals',
         types: [

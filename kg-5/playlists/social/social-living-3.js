@@ -30,13 +30,13 @@ Each child must get the opportunity to attend school. School is for everyone. We
             {
               name: 'True',
               text: `We learn how to get along with others at school.
-              Pages of books should not be torn.
-              Books borrowed from the library should be returned on time.`
+Pages of books should not be torn.
+Books borrowed from the library should be returned on time.`
             },
             {
               name: 'False',
               text: `Sports equipment should not be put back in its place after use.
-              School is not for everyone.`
+School is not for everyone.`
             }
           ]
         }
@@ -127,13 +127,13 @@ Sports keep us *healthy*.`
             {
               name: 'Right',
               text: `Cross the road on the zebra crossing.
-              If injured, go to a doctor or Primary Health Centre at once.
-              Report a leaking tap in a public place to the gram panchayat or the local government body. `
+If injured, go to a doctor or Primary Health Centre at once.
+Report a leaking tap in a public place to the gram panchayat or the local government body. `
             },
             {
               name: 'Wrong',
               text: `Jump the queue and climb on the bus.
-              Travel without a ticket.`
+Travel without a ticket.`
             }
           ]
         }
