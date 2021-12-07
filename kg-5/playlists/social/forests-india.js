@@ -4,7 +4,7 @@ export default {
   list: [
     {
       label: 'Types of Forests in India - Reading',
-      id: '100',
+      id: 'reading',
       type: 'passage',
       data: {
         title: 'Types of Forests in India',
@@ -14,7 +14,7 @@ export default {
     },
     {
       type: 'match',
-      id: '200',
+      id: 'match',
       label: 'Forest and Trees',
       data: {
         title: 'Match forests with their common tree.',
@@ -25,7 +25,7 @@ export default {
     {
       label: 'Forests - MCQ',
       type: 'mcq',
-      id: '300',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Question',
         questions: [

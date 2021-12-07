@@ -84,10 +84,10 @@ Dictatorship: A dictatorship is a government where one person makes all the rule
           dashWidth: 80
         },
         text: `In monarchy, the rulers position is *heriditary*.
-        The branch of government that makes the laws is the *legislature*.
-        *Monarchy* is the rule of kings and queens.
-        The *Supreme* court is the highest court in the land.
-        To vote, one must be over *18* yaers old.`
+The branch of government that makes the laws is the *legislature*.
+*Monarchy* is the rule of kings and queens.
+The *Supreme* court is the highest court in the land.
+To vote, one must be over *18* yaers old.`
       }
     }
   ]

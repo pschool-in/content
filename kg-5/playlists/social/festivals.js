@@ -5,7 +5,7 @@ export default {
     {
       label: 'What festival brings?',
       type: 'group',
-      id: '100',
+      id: 'classify',
       data: {
         title: 'What festival brings?',
         types: [
@@ -23,7 +23,7 @@ export default {
     {
       label: 'National and Religious Festivals',
       type: 'group',
-      id: '200',
+      id: 'classify-2',
       data: {
         title: 'National vs Religious Festivals',
         types: [
@@ -42,7 +42,7 @@ export default {
     {
       label: 'National Festivals - Month',
       type: 'matchByDragDrop',
-      id: '300',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop to match National festivals with months.',
@@ -51,10 +51,10 @@ export default {
           dashWidth: 80
         },
         text: `Independence Day → *August* 
-  Republic Day → *January* 
-  Gandhi Jayanthi → *October* 
-  Children's Day → *November* 
- Teacher's Day → *September*`
+Republic Day → *January* 
+Gandhi Jayanthi → *October* 
+Children's Day → *November* 
+Teacher's Day → *September*`
       }
     }
   ]
