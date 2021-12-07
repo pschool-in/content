@@ -7,7 +7,7 @@ export default {
     {
       label: 'Directions and Maps - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Directions and maps',
         text: `How to find the directions?
@@ -32,7 +32,7 @@ Do you know? The information in a map is presented via symbols, drawings, signs,
     {
       label: 'Drag and drop',
       type: 'matchByDragDrop',
-      id: '200',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Fill in the blanks',
@@ -49,7 +49,7 @@ Sun rises in *east* and sets in *west*.
     },
     {
       label: 'Choose the best Answer - Maps',
-      id: '300',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -80,7 +80,7 @@ Sun rises in *east* and sets in *west*.
     {
       label: 'Maps & Direction - Few facts',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Name the following',
@@ -119,7 +119,7 @@ There are three main directions east, west and south.`
     {
       label: 'Understanding of direction',
       type: 'matchByDragDrop',
-      id: '400',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Determine the directions with reference to starting points',
@@ -136,7 +136,7 @@ I am facing west, and I am going to turn to the opposite direction. *East*`
     {
       label: 'Understanding maps',
       type: 'matchByDragDrop',
-      id: '500',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Fill in the blanks',
@@ -151,7 +151,7 @@ Andhra pradesh is located in the *southern* region of India.
       }
     },
     {
-      id: '600',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -165,7 +165,7 @@ West bengal, Kolkata`,
     {
       label: 'Places in India',
       type: 'matchByDragDrop',
-      id: '700',
+      id: 'drag-drop-5',
       data: {
         isPractice: false,
         title: 'Answer the following',
@@ -183,7 +183,7 @@ Port known for handling bulk Cargo on the eastern coast: *Visakhapatnam*`
     {
       label: 'Connect logically',
       type: 'matchByDragDrop',
-      id: '800',
+      id: 'drag-drop-6',
       data: {
         isPractice: false,
         title:
@@ -199,7 +199,7 @@ Northeast : Southeast :: Northwest : *Southwest*`
       }
     },
     {
-      id: '900',
+      id: 'match-2',
       label: 'Monuments & location',
       type: 'match',
       data: {

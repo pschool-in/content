@@ -100,10 +100,10 @@ A lion cub is not able to hunt as soon as it is born. It is taught how to hunt b
       type: 'match',
       data: {
         text: `Do not litter, in public
-          Share things, with everyone
-          Don’t harm, our environment
-          Save, energy
-          Help, the poor`,
+Share things, with everyone
+Don’t harm, our environment
+Save, energy
+Help, the poor`,
         title: 'Match the following with its correct one'
       }
     },
@@ -120,10 +120,10 @@ A lion cub is not able to hunt as soon as it is born. It is taught how to hunt b
           dashWidth: 80
         },
         text: `Every *life* has value.
-          *Honesty* is the best policy.
-          *Cleanliness* is next to godliness.
-          Reuse, reduce, *recycle*.
-          *Help* those in need.`
+*Honesty* is the best policy.
+*Cleanliness* is next to godliness.
+Reuse, reduce, *recycle*.
+*Help* those in need.`
       }
     },
     {
