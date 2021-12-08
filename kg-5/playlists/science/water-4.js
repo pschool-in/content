@@ -7,45 +7,45 @@ export default {
     {
       label: 'Water - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Water',
         text: [
-          '# Three states of water',
-          'Water occurs naturally in three forms: ice, water and water vapour. These forms are also called states of water. Ice is in solid form, water is in liquid form and water vapour is in gaseous form. These states occur naturally because of temperature changes. Water becomes ice in cold regions, remains as water in oceans/rivers and becomes water vapour due to the heat of the Sun.',
-          'We measure heat and cold using temperature. The natural temperature is known as room temperature. When we get fever, our body temperature will raise. We can measure temperature using a thermometer',
-          'At temperature below 0° C water becomes ice. This process is called freezing.',
-          '# Water Cycle',
-          'Continuous movement of water from the Earth to the atmosphere and back to the Earth is known as water cycle or hydrologic cycle. Water cycle consists of the following four stages.',
-          '# Evaporation',
-          'The process in which water is changed into water vapour by the heat of the sun is called evaporation. It takes place from the surfaces of rivers, oceans, lakes and ponds. Plants also release water by transpiration. Water can slowly convert to water vapour even in room temperature. It is called evaporation. Water from ocean becomes clouds due to evaporation. Wet clothes dry when exposed to sunlight or air due to evaporation.',
-          '# Condensation',
-          'The process of converting water vapour into water on cooling is called condensation. Water vapour in the atmosphere being lighter, rises up and cools down. It further condenses to form tiny water droplets.',
-          '# Precipitation',
-          'The water droplets join together to form clouds. As they get cooler, the droplets become bigger and heavier and fall as rain. If the air is very cold, they freeze to fall as hail of snow.',
-          '# Flowing back to Oceans',
-          'Rain water forms streams and springs which join together to form rivers. Rivers flow finally into the sea and ocean thereby completing the cycle.',
-          '# Activity 1',
-          'Take half a glass of water. Clean the outside part of the glass. Add few ice cubes and leave it for 5-10 minutes. You will observe drops of water appearing outside the glass. This happens because the water vapour in the air condenses on the cold surface of the glass.',
-          '#Let us do',
-          '1. Fill water in an ice tray and keep it in the freezer. After few hours, take it out. What happened to the water?',
-          '2. Now keep this ice tray on a table for some time. What happens to the ice?',
-          '3. Pour water from the ice tray into a kettle. Ask an elder at your home to heat the kettle and observe the mouth of the kettle when the water starts boiling. What do you see?',
-          'In nature, water keeps changing its state. Let us see how this happens. Due to the Sun‛s heat, water in oceans and rivers changes into water vapour and rises up.',
-          'Water becoming water vapour on heating is called evaporation. The water vapour, when comes into contact with cool air, becomes water droplets. This is called condensation. The water droplets combine to form clouds. The water droplets continue to combine, and they become big and heavy. These water droplets then fall down as rain. This is called precipitation. In colder places, combined water droplets come down as snow, sleet or hail. This continuous change of water from one state to another in nature is called water cycle.',
-          'When we pour cold water in a glass, we could notice water droplets being formed on the outer side of the glass. It is due to condensation. Water vapour present in the air, when comes in contact with the cold glass, it becomes water.',
-          '# Rainwater harvesting',
-          'It is the process of collecting and storing rainwater for future use. Rainwater can be collected in natural reservoirs or artificial tanks. Roof top harvesting is also a type of rainwater harvesting. The rainwater on the top of the building is collected and passed into the ground through pipes. Water passing through the pipes enters the pit which consist of gravels and coarse sand. As it passes impurities are filtered and stored as ground water. Do you know?',
-          '1. Each day, we lose a little more than a cup of water when we exhale.',
-          '2. 73% of our brain‛s mass consists of water.',
-          `3. The Antarctic region has about 70% of the world's fresh water.`
+'# Three states of water',
+'Water occurs naturally in three forms: ice, water and water vapour. These forms are also called states of water. Ice is in solid form, water is in liquid form and water vapour is in gaseous form. These states occur naturally because of temperature changes. Water becomes ice in cold regions, remains as water in oceans/rivers and becomes water vapour due to the heat of the Sun.',
+'We measure heat and cold using temperature. The natural temperature is known as room temperature. When we get fever, our body temperature will raise. We can measure temperature using a thermometer',
+'At temperature below 0° C water becomes ice. This process is called freezing.',
+'# Water Cycle',
+'Continuous movement of water from the Earth to the atmosphere and back to the Earth is known as water cycle or hydrologic cycle. Water cycle consists of the following four stages.',
+'# Evaporation',
+'The process in which water is changed into water vapour by the heat of the sun is called evaporation. It takes place from the surfaces of rivers, oceans, lakes and ponds. Plants also release water by transpiration. Water can slowly convert to water vapour even in room temperature. It is called evaporation. Water from ocean becomes clouds due to evaporation. Wet clothes dry when exposed to sunlight or air due to evaporation.',
+'# Condensation',
+'The process of converting water vapour into water on cooling is called condensation. Water vapour in the atmosphere being lighter, rises up and cools down. It further condenses to form tiny water droplets.',
+'# Precipitation',
+'The water droplets join together to form clouds. As they get cooler, the droplets become bigger and heavier and fall as rain. If the air is very cold, they freeze to fall as hail of snow.',
+'# Flowing back to Oceans',
+'Rain water forms streams and springs which join together to form rivers. Rivers flow finally into the sea and ocean thereby completing the cycle.',
+'# Activity 1',
+'Take half a glass of water. Clean the outside part of the glass. Add few ice cubes and leave it for 5-10 minutes. You will observe drops of water appearing outside the glass. This happens because the water vapour in the air condenses on the cold surface of the glass.',
+'#Let us do',
+'1. Fill water in an ice tray and keep it in the freezer. After few hours, take it out. What happened to the water?',
+'2. Now keep this ice tray on a table for some time. What happens to the ice?',
+'3. Pour water from the ice tray into a kettle. Ask an elder at your home to heat the kettle and observe the mouth of the kettle when the water starts boiling. What do you see?',
+'In nature, water keeps changing its state. Let us see how this happens. Due to the Sun‛s heat, water in oceans and rivers changes into water vapour and rises up.',
+'Water becoming water vapour on heating is called evaporation. The water vapour, when comes into contact with cool air, becomes water droplets. This is called condensation. The water droplets combine to form clouds. The water droplets continue to combine, and they become big and heavy. These water droplets then fall down as rain. This is called precipitation. In colder places, combined water droplets come down as snow, sleet or hail. This continuous change of water from one state to another in nature is called water cycle.',
+'When we pour cold water in a glass, we could notice water droplets being formed on the outer side of the glass. It is due to condensation. Water vapour present in the air, when comes in contact with the cold glass, it becomes water.',
+'# Rainwater harvesting',
+'It is the process of collecting and storing rainwater for future use. Rainwater can be collected in natural reservoirs or artificial tanks. Roof top harvesting is also a type of rainwater harvesting. The rainwater on the top of the building is collected and passed into the ground through pipes. Water passing through the pipes enters the pit which consist of gravels and coarse sand. As it passes impurities are filtered and stored as ground water. Do you know?',
+'1. Each day, we lose a little more than a cup of water when we exhale.',
+'2. 73% of our brain‛s mass consists of water.',
+`3. The Antarctic region has about 70% of the world's fresh water.`
         ]
       }
     },
     {
       label: 'Choose the Correct Answer - Water',
       type: 'mcq',
-      id: '200',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -78,7 +78,7 @@ export default {
       }
     },
     {
-      id: '300',
+      id: 'fillup',
       label: 'Fill Up',
       type: 'fillupOptions',
       data: {
@@ -93,7 +93,7 @@ Water cycle increases the availability of *ground water (water tank)*.
     {
       label: 'True or False',
       type: 'classifySentence',
-      id: '400',
+      id: 'true-false',
       data: {
         title: 'True or False',
         types: [
@@ -115,7 +115,7 @@ Roof top harvesting method is used in agriculture field.`
     {
       label: 'Water, Ice and Vapor',
       type: 'matchByDragDrop',
-      id: '500',
+      id: 'drag-drop-water',
       data: {
         isPractice: false,
         title: 'Drag and drop to complete the below sentences.',
@@ -129,7 +129,7 @@ Ice *melts* when we keep it in *room* temperature. `
       }
     },
     {
-      id: '600',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -144,7 +144,7 @@ Condensation, Clouds`,
     {
       label: 'Temperature',
       type: 'sorting',
-      id: '700',
+      id: 'sorting',
       data: {
         title:
           'Sort the below items based on their usual temperature. (Coolest should come at the top)',
@@ -154,7 +154,7 @@ Condensation, Clouds`,
     {
       label: 'Water - Reading',
       type: 'passage',
-      id: '800',
+      id: 'reading-2',
       data: {
         title: 'Water Cycle',
         text: `# Importance of Water Cycle
@@ -174,7 +174,7 @@ Condensation, Clouds`,
     {
       label: 'Water Storage - Reading',
       type: 'passage',
-      id: '900',
+      id: 'reading-3',
       data: {
         title: 'Water Storage',
         text: `# Old water stores
@@ -198,7 +198,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Old ways Vs New ways',
-      id: '1000',
+      id: 'old-new',
       type: 'group',
       data: {
         title: 'Drag and drop the water storage techniques accordingly. ',
@@ -216,7 +216,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Choose the best Answer',
-      id: '1100',
+      id: 'mcq-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -245,7 +245,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
       }
     },
     {
-      id: '1200',
+      id: 'words',
       type: 'sequence',
       label: 'Words related to water storage',
       commonData: {
@@ -257,35 +257,27 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Drinking Water- Reading',
       type: 'passage',
-      id: '1300',
+      id: 'reading-4',
       data: {
         title: 'Water safe for drinking',
         text: `Some substances dissolve in water (salt, sugar, detergent etc.) while some substances don't (turmeric powder, oil etc.). 
-
-          The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
-          
-          # New Words!
-          
-          1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
-          
-          2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
-          
-          3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
-          
-          4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
-          
-          # Do you know?
-          
-          1. Sea water is unfit for drinking because its saline.
-          2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
-          3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
-          4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
-          5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
+The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
+# New Words!
+1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
+2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
+3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
+4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
+# Do you know?
+1. Sea water is unfit for drinking because its saline.
+2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
+3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
+4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
+5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
       }
     },
     {
       label: 'True or False',
-      id: '1400',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -293,13 +285,13 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'True',
             text: `A sediment is formed at the bottom if muddy water is kept still for sometime.
-              Tea leaves can be separated from tea by filtration.`
+Tea leaves can be separated from tea by filtration.`
           },
           {
             name: 'False',
             text: `Alum powder doesn't dissolve in water.
-              Micro-organisms can't live in water.
-              An eraser floats in water.`
+Micro-organisms can't live in water.
+An eraser floats in water.`
           }
         ]
       }
@@ -307,7 +299,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -316,16 +308,16 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           dashWidth: 80
         },
         text: `Salt and sugar *dissolve* in water.
-          Mixture obtained after dissolving a substance in water is called *solution*.
-          Some micro-organisms can cause *diseases* if they enter our body.
-          Things that float in water are *lighter*.
-          Things that sink in water are *heavier*.
-          *Alum* is swirled in muddy water to clean it.`
+Mixture obtained after dissolving a substance in water is called *solution*.
+Some micro-organisms can cause *diseases* if they enter our body.
+Things that float in water are *lighter*.
+Things that sink in water are *heavier*.
+*Alum* is swirled in muddy water to clean it.`
       }
     },
     {
       label: 'Dissolve or Do not dissolve',
-      id: '1500',
+      id: 'classify-3',
       type: 'classifySentence',
       data: {
         title: 'Classify which ones dissolve in water and which ones do not',
@@ -333,17 +325,17 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'Dissolve',
             text: `Salt
-              Sugar
-              Washing soda
-              Honey
-              Alum`
+Sugar
+Washing soda
+Honey
+Alum`
           },
           {
             name: 'Do not dissolve',
             text: `Sand
-              Sawdust
-              Oil
-              Turmeric powder`
+Sawdust
+Oil
+Turmeric powder`
           }
         ]
       }
@@ -351,29 +343,23 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Clean Water - Reading',
       type: 'passage',
-      id: '1600',
+      id: 'reading-5',
       data: {
         title: 'Clean Water',
         text: `Earlier, earthen pots and copper pots were used to store water at homes. But these days we generally use plastic or steel bottles and containers for the same.
-
-          # How to keep water clean:
-          
-          1. Keep the containers covered to prevent dust and insects.
-          2. Keep a dipper to take out water from these containers, else dirt from our hands will contaminate the water. Also, we can have a tap on these containers to avoid contamination.
-          3. Wash the container before refilling it.
-          
-          # Do you know?
-          
-          People think that we can't drink water from previous day. But the truth is, water remains as clean as it was before if kept safely. So, we can drink the water we stored on previous day.
-          
-          # New Word!
-          
-          1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
+# How to keep water clean:
+1. Keep the containers covered to prevent dust and insects.
+2. Keep a dipper to take out water from these containers, else dirt from our hands will contaminate the water. Also, we can have a tap on these containers to avoid contamination.
+3. Wash the container before refilling it.
+# Do you know?
+People think that we can't drink water from previous day. But the truth is, water remains as clean as it was before if kept safely. So, we can drink the water we stored on previous day.
+# New Word!
+1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
       }
     },
     {
       label: 'Right or Wrong',
-      id: '1700',
+      id: 'right-wrong',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as right and wrong',
@@ -381,26 +367,26 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'Right',
             text: `Reshma carries drinking water with her when she goes for a picnic.
-              Nisha saves the water left in the mug for washing her face later.`
+Nisha saves the water left in the mug for washing her face later.`
           },
           {
             name: 'Wrong',
             text: `Sameer drank water from the pot and left the lid beside it.
-              Sai empties her pot everyday to fill fresh water in it.`
-          }
+Sai empties her pot everyday to fill fresh water in it.`
+        }
         ]
       }
     },
     {
-      id: '1800',
+      id: 'match-5',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Pure water, Water tower
-          Copper pots, Old way
-          Water supply, Pipelines
-          Groundwater, Wells
-          Potable water, Drinkable`,
+Copper pots, Old way
+Water supply, Pipelines
+Groundwater, Wells
+Potable water, Drinkable`,
         title: 'Match the following'
       }
     },
@@ -412,10 +398,10 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
         text:
           'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
       },
-      id: '1900'
+      id: 'sorting-5'
     },
     {
-      id: '2000',
+      id: 'words-5',
       type: 'sequence',
       label: 'Water Reservoir',
       commonData: {
@@ -425,7 +411,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Sink Vs Float',
-      id: '2100',
+      id: 'sink-float',
       type: 'group',
       data: {
         title: 'dentify what will sink and float in water.',
