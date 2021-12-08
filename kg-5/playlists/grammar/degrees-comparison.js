@@ -11,10 +11,10 @@ export default {
         text: [
           `We use this to compare something.`,
           { type: 'hilight', text: 'Elephant is bigger than tiger.' },
-          `The above sentence has 'comparative' degree. We directly compare one thing with another.`,
-          `Note: Usually the  'comparative' adjective is followed by the word 'than'.`,
-          `Sometimes we compare something with the rest of the group. It is called 'superlative' degree.`,
-          `Note: Definite article (the) is used before the 'superlative' adjective.`,
+          `The above sentence has 'comparative' degree. We directly compare one thing with another.
+          Note: Usually the  'comparative' adjective is followed by the word 'than'.`,
+          `Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
+          Note: Definite article (the) is used before the 'superlative' adjective.`,
           { type: 'hilight', text: 'Elephant is the biggest land animal.' },
           `Sometimes we simply tell something, without really comparing with anything. It is called 'positive' degree.`,
           { type: 'hilight', text: 'Elephant is a big animal.' },
