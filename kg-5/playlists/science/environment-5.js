@@ -6,7 +6,7 @@ export default {
     {
       label: 'The Earth and its Living World- Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Our Earth and Living World',
         text: `# What is an environment?
@@ -33,7 +33,7 @@ For the existence of living things, it is important that environmental balance i
     },
     {
       label: 'Lithosphere vs Hydrosphere',
-      id: '200',
+      id: 'classify',
       type: 'group',
       data: {
         title:
@@ -52,7 +52,7 @@ For the existence of living things, it is important that environmental balance i
     },
     {
       label: 'Atmosphere vs Biosphere',
-      id: '300',
+      id: 'classify-2',
       type: 'group',
       data: {
         title:
@@ -70,36 +70,36 @@ For the existence of living things, it is important that environmental balance i
       }
     },
     {
-      id: '400',
+      id: 'match',
       label: 'Match the things with their place in the environment',
       type: 'match',
       data: {
         text: `Oxygen, Atmosphere
-            Plants, Biosphere
-            Ocean, Hydrosphere
-            Sand, Lithosphere`,
+Plants, Biosphere
+Ocean, Hydrosphere
+Sand, Lithosphere`,
         title: 'Match the things with their place in the environment'
       }
     },
     {
       label: 'Arrange the links to form a food chain',
       type: 'sorting',
-      id: '500',
+      id: 'sorting',
       commonData: {
         title: 'Arrange the links to form a food chain',
         multiple: true,
         fontSize: '2rem'
       },
       data: [
-        `Nectar, Butterflies, Small birds, Foxes`,
-        `Dead plants, Centipede, Robin, Raccoon`,
-        `Grass, Grasshopper, Frog, Snake, Eagle`,
-        `Decayed plants, Worms, Birds, Eagles`
+`Nectar, Butterflies, Small birds, Foxes`,
+`Dead plants, Centipede, Robin, Raccoon`,
+`Grass, Grasshopper, Frog, Snake, Eagle`,
+`Decayed plants, Worms, Birds, Eagles`
       ]
     },
     {
       label: 'Choose the best Answer - Environment',
-      id: '600',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -133,7 +133,7 @@ For the existence of living things, it is important that environmental balance i
     {
       label: 'Drag and Drop - Enviroment',
       type: 'matchByDragDrop',
-      id: '700',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -142,28 +142,28 @@ For the existence of living things, it is important that environmental balance i
           dashWidth: 80
         },
         text: `For the existence of living things, it is important that *environmental balance* is maintained.
-            Biosphere is also known as *the zone of life*.
-            One *living thing* can be a part of a number of food chains.
-            Our surroundings and all the living and non living things are together known as the *environment*.
-            The *biosphere* spreads in all the other three spheres.`
+Biosphere is also known as *the zone of life*.
+One *living thing* can be a part of a number of food chains.
+Our surroundings and all the living and non living things are together known as the *environment*.
+The *biosphere* spreads in all the other three spheres.`
       }
     },
     {
-      id: '800',
+      id: 'fillup-2',
       label: 'Environment- Fill Up',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `About *a third (two-third)* of the surface of the earth consists of land.
-            Micro-organisms living in the soil help the process of *decomposition (evaporation)* of plant residue, dead animals, excreta, etc.
-            As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
-            Each of the components in a food chain is called a *link (web)*.
-            The lithosphere is the *solid (liquid)* part of the Earth such as rocks and mountains.`
+Micro-organisms living in the soil help the process of *decomposition (evaporation)* of plant residue, dead animals, excreta, etc.
+As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
+Each of the components in a food chain is called a *link (web)*.
+The lithosphere is the *solid (liquid)* part of the Earth such as rocks and mountains.`
       }
     },
     {
       label: 'Environment - True or False',
-      id: '900',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -171,13 +171,13 @@ For the existence of living things, it is important that environmental balance i
           {
             name: 'True',
             text: `The zone of life where all the life forms interact is called biosphere.
-                The ozone layer absorbs Ultraviolet rays and protects the living world from these rays.
-                Water vapour cools and condenses forming very fine droplets of water forming clouds.`
+The ozone layer absorbs Ultraviolet rays and protects the living world from these rays.
+Water vapour cools and condenses forming very fine droplets of water forming clouds.`
           },
           {
             name: 'False',
             text: `In the lower part of the ionosphere, there is a layer of a gas called ozone.
-                One-third of the earth’s surface is covered with water.`
+One-third of the earth’s surface is covered with water.`
           }
         ]
       }
@@ -185,7 +185,7 @@ For the existence of living things, it is important that environmental balance i
     {
       label: 'Our Environment - Reading',
       type: 'passage',
-      id: '1000',
+      id: 'reading-2',
       data: {
         title: 'Our Environment',
         text: `# Types of Environment
@@ -226,7 +226,7 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
     },
     {
       label: 'Diary farm vs Poultry farm',
-      id: '1100',
+      id: 'classify-3',
       type: 'group',
       data: {
         title: 'Classify the animals based on the environment they belong',
@@ -243,21 +243,21 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
       }
     },
     {
-      id: '1200',
+      id: 'match-2',
       label: 'Match the animals with their products',
       type: 'match',
       data: {
         text: `Cow, Milk
-            Bees, Honey
-            Chicken, Eggs
-            Earthworms, Fertilizer`,
+Bees, Honey
+Chicken, Eggs
+Earthworms, Fertilizer`,
         title: 'Match the animals with their products'
       }
     },
     {
       label: 'Drag and Drop - Facts on Enviroment',
       type: 'matchByDragDrop',
-      id: '1300',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -266,39 +266,39 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
           dashWidth: 80
         },
         text: `The term Green Revolution is associated with *food grains*.
-            The term Blue Revolution is associated with *fish*.
-            The term Silver Revolution is associated with *eggs*.
-            The term Yellow Revolution is associated with *oil seeds*.
-            The term Golden Revolution is associated with *honey*.`
+The term Blue Revolution is associated with *fish*.
+The term Silver Revolution is associated with *eggs*.
+The term Yellow Revolution is associated with *oil seeds*.
+The term Golden Revolution is associated with *honey*.`
       }
     },
     {
-      id: '1400',
+      id: 'fillup-4',
       label: 'Environment- Do you know these ?',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Chicken occupy *90% (80%)* of the total poultry.
-            India ranks *fifth (fourth)* in poultry production in the world.
-            Whitelegon is the most *egg (milk)* yielding breed in the world.
-            An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.`
+India ranks *fifth (fourth)* in poultry production in the world.
+Whitelegon is the most *egg (milk)* yielding breed in the world.
+An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.`
       }
     },
     {
-      id: '1401',
+      id: 'fillup-5',
       label: 'Environment- Do you know these ?-2 ',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Dairy farming (poultry farming)* is a type of agriculture that focuses on extraction of milk and preparation of various milk products.
-            *Buffaloes (sheeps)* produce more amount of milk than cows.
-            Dr.Verghese Kurien is called the Father of *White (blue)* Revolution.
-            Honey also enhances digestion and *appetite*.`
+*Buffaloes (sheeps)* produce more amount of milk than cows.
+Dr.Verghese Kurien is called the Father of *White (blue)* Revolution.
+Honey also enhances digestion and *appetite*.`
       }
     },
     {
       label: 'Fact check on Environment - True or False',
-      id: '1500',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -306,17 +306,17 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
           {
             name: 'True',
             text: `The roughage contains high amount of fiber and it includes fodder, hay, straw and silage.
-                Concentrates include broken grams, cereals, millets, rice polish, cotton seeds and oil cakes.
-                Bullocks are used to plough land, harvest and thrash crops.
-                Panchagavya is an ayurvedic medicine used in agriculture to control pest and fungi.
-                Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals. `
+Concentrates include broken grams, cereals, millets, rice polish, cotton seeds and oil cakes.
+Bullocks are used to plough land, harvest and thrash crops.
+Panchagavya is an ayurvedic medicine used in agriculture to control pest and fungi.
+Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals. `
           },
           {
             name: 'False',
             text: `Worker bees lays eggs.
-                Egg type fowls are called broilers.
-                Surti is a cow breed.
-                Assel is a buffalo breed.`
+Egg type fowls are called broilers.
+Surti is a cow breed.
+Assel is a buffalo breed.`
           }
         ]
       }

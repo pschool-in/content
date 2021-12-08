@@ -7,7 +7,7 @@ export default {
     {
       label: 'Reversible Changes - Passage',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Reversible Changes',
         text: `Change is the transition of a substance from one form to another. We see many changes around us. We see changes like day and night, summer and winter and so on. We also see changes in objects. Growth of a tree, ripening of fruits, falling of leaves are some of the changes taking place around us. You can observe changes in you also. Your height and weight increase, hair and nail grow and you have grown up as a whole compared to last year. These changes can be classified as reversible and irreversible changes.
@@ -48,7 +48,7 @@ We need to learn how to reduce, reuse and recycle wastes. The following practice
     },
     {
       type: 'rightOne',
-      id: '200',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Pick the odd one out',
@@ -63,7 +63,7 @@ Paints, Paper, Glass, Metals`
     {
       label: 'Reversible vs Irreversible',
       type: 'classifySentence',
-      id: '300',
+      id: 'classify',
       data: {
         title: 'Classify the below, as reversible or irreversible process.',
         types: [
@@ -83,7 +83,7 @@ Burning of papers`
       }
     },
     {
-      id: '400',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -98,7 +98,7 @@ Freezing, reversible`,
     },
     {
       label: 'Multiple Choice Questions',
-      id: '500',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -132,7 +132,7 @@ Freezing, reversible`,
     {
       label: 'Fill up ',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'fillup',
       data: {
         isPractice: false,
         title: 'Drag and drop to complete the below sentences.',
