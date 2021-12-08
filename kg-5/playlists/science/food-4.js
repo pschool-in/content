@@ -7,37 +7,37 @@ export default {
     {
       label: 'Cooking - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Raw and Cooked Food',
         text: [
-          `Food is one of the basic needs of life. We get energy for all our activities from food. Food obtained from the nature provides all the nutrients to our body. But seeing the advertisement, we are attracted towards junk food.`,
-          `In our daily life, we depend on plants and animals for our food. Food that we eat directly without cooking is called raw food. We eat fruits, some vegetables, tubers and nuts in the raw form. Some pulses and cereals are also eaten as raw food.`,
-          `Food that needs to be processed using heat before it can be eaten is called cooked food. Why should we cook food?`,
-          `1. Cooked food is digested easily.`,
-          `2. Cooking softens the food materials.`,
-          `3. Cooking kills germs.`,
-          `4. Cooking adds taste and flavour to food.`,
-          `# Cooking methods`,
-          `Some of the commonly used cooking methods are given below.`,
-          `# Boiling:`,
-          `It is a method of cooking food by immersing it in boiling water. So that the food becomes soft. Example: Rice, Egg.`,
-          `# Steaming: `,
-          `It is a method of cooking food in steam by immersing the vessel in a container with boiling water. Example: Idli, Idiyappam.`,
-          `# Pressure cooking: `,
-          `It is a method of cooking food in a pressure cooker. Example: Rice, Dhal.`,
-          `# Roasting: `,
-          `It is a method of cooking food by heating on a tawa or frying pan without covering it. Example: Groundnuts, Cashewnut.`,
-          `# Frying:`,
-          `It is a method of cooking food in hot oil. Example: Chips, Poori.`,
-          `Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`
+`Food is one of the basic needs of life. We get energy for all our activities from food. Food obtained from the nature provides all the nutrients to our body. But seeing the advertisement, we are attracted towards junk food.`,
+`In our daily life, we depend on plants and animals for our food. Food that we eat directly without cooking is called raw food. We eat fruits, some vegetables, tubers and nuts in the raw form. Some pulses and cereals are also eaten as raw food.`,
+`Food that needs to be processed using heat before it can be eaten is called cooked food. Why should we cook food?`,
+`1. Cooked food is digested easily.`,
+`2. Cooking softens the food materials.`,
+`3. Cooking kills germs.`,
+`4. Cooking adds taste and flavour to food.`,
+`# Cooking methods`,
+`Some of the commonly used cooking methods are given below.`,
+`# Boiling:`,
+`It is a method of cooking food by immersing it in boiling water. So that the food becomes soft. Example: Rice, Egg.`,
+`# Steaming: `,
+`It is a method of cooking food in steam by immersing the vessel in a container with boiling water. Example: Idli, Idiyappam.`,
+`# Pressure cooking: `,
+`It is a method of cooking food in a pressure cooker. Example: Rice, Dhal.`,
+`# Roasting: `,
+`It is a method of cooking food by heating on a tawa or frying pan without covering it. Example: Groundnuts, Cashewnut.`,
+`# Frying:`,
+`It is a method of cooking food in hot oil. Example: Chips, Poori.`,
+`Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`
         ]
       }
     },
     {
       label: 'Food from Plants vs Animals',
       type: 'group',
-      id: '200',
+      id: 'classify',
       data: {
         title: 'We get the below food items from plants and animals. Classify.',
         types: [
@@ -55,7 +55,7 @@ export default {
     {
       label: 'Raw food',
       type: 'group',
-      id: '300',
+      id: 'classify-2',
       data: {
         title: 'We can eat some food items raw, without cooking. Classify',
         types: [
@@ -71,7 +71,7 @@ export default {
       }
     },
     {
-      id: '400',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -86,7 +86,7 @@ Chips, Frying`,
     {
       label: 'Choose the correct answer(s)',
       type: 'mcq',
-      id: '500',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -117,7 +117,7 @@ Chips, Frying`,
     },
     {
       label: 'True or False',
-      id: '600',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true or false',
@@ -140,50 +140,50 @@ Chips are made by the process of boiling.`
     {
       label: 'Food Hygiene - Reading',
       type: 'passage',
-      id: '700',
+      id: 'reading',
       data: {
         title: 'Food Hygiene',
         text: [
-          `We need to follow the below basic habits.`,
-          `1. Wash your hands with soap before cooking.`,
-          `2. Wash vegetables and fruits before cutting.`,
-          `3. Wash cooking vessels and knives.`,
-          `4. Don't cook food for a long time because it destroys the nutrients present in the food.`,
-          `5. Don't use the same oil for cooking food many times.`,
-          `6. Using the food items after their expiry date is not good for health.`,
-          `# Utensils`,
-          `Utensils are in different shapes and sizes. We use specific utensils for each cooking method. Clay pots were used earlier. Stainless steel and aluminum vessels are now generally used for cooking.`,
-          `# Meal-time Hygiene`,
-          `Meal-time hygiene includes ways to make sure that we do not get sick because of the way we eat or make food.`,
-          `1. Always cover food to protect them from dust and insects.`,
-          `2. Eat fresh food always.`,
-          `3. Avoid taking food that is too cold or too hot.`,
-          `4. Avoid fast food and fried food.`,
-          `5. Always wash your hands before and after eating.`,
-          `# Food During Illness`,
-          `When we are sick, we should avoid food items that are fried in oil. We should take energy-giving, easily digestible food. Some of them are given below:`,
-          `1. Porridge of rice or cereals.`,
-          `2. Fruit juice, tender coconut.`,
-          `3. Steamed foods like idli.`,
-          `# Food Wastage`,
-          `We should not waste food. Food that is not eaten is called leftover food. That is discarded as waste. Following are the simple ways to avoid food wastage.`,
-          `1. Take what you'll eat and eat what you take.`,
-          `2. Share the excess food.`,
-          `3. Give the excess food to hungry animals.`,
-          `One third of the food produced in the world is wasted. On the other hand, one section of people do not get enough food. 28th May is observed as world hunger day.`,
-          `# Food Preservation`,
-          `We can preserve the food for long time by using the following methods.`,
-          `1. Pickling - Mixing fruits and vegetables with oil and salt.`,
-          `2. Refrigerating - Keeping food in the fridge to preserve them for a short time.`,
-          `3. Drying - Removing the water content of the food.`,
-          `4. Canning - Storing food in air tight containers.`
+`We need to follow the below basic habits.`,
+`1. Wash your hands with soap before cooking.`,
+`2. Wash vegetables and fruits before cutting.`,
+`3. Wash cooking vessels and knives.`,
+`4. Don't cook food for a long time because it destroys the nutrients present in the food.`,
+`5. Don't use the same oil for cooking food many times.`,
+`6. Using the food items after their expiry date is not good for health.`,
+`# Utensils`,
+`Utensils are in different shapes and sizes. We use specific utensils for each cooking method. Clay pots were used earlier. Stainless steel and aluminum vessels are now generally used for cooking.`,
+`# Meal-time Hygiene`,
+`Meal-time hygiene includes ways to make sure that we do not get sick because of the way we eat or make food.`,
+`1. Always cover food to protect them from dust and insects.`,
+`2. Eat fresh food always.`,
+`3. Avoid taking food that is too cold or too hot.`,
+`4. Avoid fast food and fried food.`,
+`5. Always wash your hands before and after eating.`,
+`# Food During Illness`,
+`When we are sick, we should avoid food items that are fried in oil. We should take energy-giving, easily digestible food. Some of them are given below:`,
+`1. Porridge of rice or cereals.`,
+`2. Fruit juice, tender coconut.`,
+`3. Steamed foods like idli.`,
+`# Food Wastage`,
+`We should not waste food. Food that is not eaten is called leftover food. That is discarded as waste. Following are the simple ways to avoid food wastage.`,
+`1. Take what you'll eat and eat what you take.`,
+`2. Share the excess food.`,
+`3. Give the excess food to hungry animals.`,
+`One third of the food produced in the world is wasted. On the other hand, one section of people do not get enough food. 28th May is observed as world hunger day.`,
+`# Food Preservation`,
+`We can preserve the food for long time by using the following methods.`,
+`1. Pickling - Mixing fruits and vegetables with oil and salt.`,
+`2. Refrigerating - Keeping food in the fridge to preserve them for a short time.`,
+`3. Drying - Removing the water content of the food.`,
+`4. Canning - Storing food in air tight containers.`
         ]
       }
     },
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: '800',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -213,7 +213,7 @@ Chips are made by the process of boiling.`
     },
     {
       label: 'True or False',
-      id: '900',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true or false',
@@ -237,7 +237,7 @@ Junk food is good for health.`
     {
       label: 'Preservatives - Fill up',
       type: 'matchByDragDrop',
-      id: '1000',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the preservative methods at appropriate places.',
@@ -254,7 +254,7 @@ Storing food in air tight containers is called *canning*.`
     {
       label: 'Choose the best answer',
       type: 'mcq',
-      id: '1100',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -284,7 +284,7 @@ Storing food in air tight containers is called *canning*.`
       }
     },
     {
-      id: '1200',
+      id: 'fillup',
       label: 'Fill Up',
       type: 'fillupOptions',
       data: {
@@ -298,7 +298,7 @@ We make Idli by *steaming(boiling)* method.`
     },
     {
       label: 'Hygienic vs Junk food',
-      id: '1300',
+      id: 'classify-3',
       type: 'group',
       data: {
         title: 'Classify the below as hygenic or junk food.',
@@ -317,7 +317,7 @@ We make Idli by *steaming(boiling)* method.`
     {
       type: 'match',
       label: 'Match the following',
-      id: '1400',
+      id: 'match-4',
       data: {
         fontSize: '1rem',
         title: 'Match the following',
@@ -331,7 +331,7 @@ Less fatty food,Food during illness`
     {
       label: 'Say yes or No',
       type: 'classifySentence',
-      id: '1500',
+      id: 'yes-no',
       data: {
         title: 'Say Yes or No',
         types: [
@@ -356,24 +356,21 @@ We can cook rice on a tawa.`
       data: {
         title: 'Value of Food',
         text: `# How do we get grains?
-
-        We need rainwater to grow bajra. After sometime, ears of bajra are visible on every stalk. During harvest season, ears of corn
-        are full. All the bajra's ears must be chopped and gathered. Then the process of threshing and winnowing starts. Through this process,
-        we obtain the grains from the ears of bajra.
-        
-        Do you know?
-        Birds come to eat the tender grains as the grains grow. Scarecrows must be placed and slung shots must be fired to scare the birds away.
-        
-        We get different types of food from different places. We get fish from water. Fruits like amla, jamun, karvanda,bor grow in forests.
-        The grains and other foodstuffs are gathered and sold all over the country. They are transported by means of trucks or goods trains. 
-        It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting
-        and marketing are expensive.`
+We need rainwater to grow bajra. After sometime, ears of bajra are visible on every stalk. During harvest season, ears of corn
+are full. All the bajra's ears must be chopped and gathered. Then the process of threshing and winnowing starts. Through this process,
+we obtain the grains from the ears of bajra.
+Do you know?
+Birds come to eat the tender grains as the grains grow. Scarecrows must be placed and slung shots must be fired to scare the birds away.
+We get different types of food from different places. We get fish from water. Fruits like amla, jamun, karvanda,bor grow in forests.
+The grains and other foodstuffs are gathered and sold all over the country. They are transported by means of trucks or goods trains. 
+It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting
+and marketing are expensive.`
       }
     },
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: 'fillup',
+      id: 'fillup-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -382,16 +379,16 @@ We can cook rice on a tawa.`
           dashWidth: 80
         },
         text: `Singhadas and makhanas are obtained from *freshwater* plants.
-        If a machine is not available, *bullocks* do the threshing.
-        The tiny peaks on our tongue are called *taste buds*.
-        A region’s climate and *soil* determine the crops that are grown in that region.
-        When the soil becomes *hot* and humid the crop is sown.`
+If a machine is not available, *bullocks* do the threshing.
+The tiny peaks on our tongue are called *taste buds*.
+A region’s climate and *soil* determine the crops that are grown in that region.
+When the soil becomes *hot* and humid the crop is sown.`
       }
     },
     {
       label: 'Answer in one word',
       type: 'matchByDragDrop',
-      id: '601',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -400,28 +397,28 @@ We can cook rice on a tawa.`
           dashWidth: 80
         },
         text: `The process of gathering of ripened crop.  *Harvesting*
-        To blow through grain in order to remove the outer covering. *Winnowing*
-        Process of moving foodstuffs from warehouses to consumers through trucks. *Transporting*
-        The process of loosening the edible part of grain. *Threshing*`
+To blow through grain in order to remove the outer covering. *Winnowing*
+Process of moving foodstuffs from warehouses to consumers through trucks. *Transporting*
+The process of loosening the edible part of grain. *Threshing*`
       }
     },
     {
-      id: '1600',
+      id: 'match-5',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Wheat, Rabi crop
-        Fruits, Horticulture
-        Rice, Kharif crop
-        Chilly, Spices
-        Sesame, Oil`,
+Fruits, Horticulture
+Rice, Kharif crop
+Chilly, Spices
+Sesame, Oil`,
         title: 'Match the following'
       }
     },
     {
       label: 'Sour vs Sweet',
       type: 'group',
-      id: '209',
+      id: 'sour-sweet',
       data: {
         title: 'Classify as sour or sweet',
         types: [
@@ -438,16 +435,16 @@ We can cook rice on a tawa.`
     },
     {
       type: 'rightOne',
-      id: '2800',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
         noCaps: true,
         text: `Dog, Cow, Sheep, Hen
-        Rice, Pizza, Donut, Bread
-        Fish, Milk, Butter, Yoghurt
-        Tamarind, Honey, Sugar, Jaggery`
+Rice, Pizza, Donut, Bread
+Fish, Milk, Butter, Yoghurt
+Tamarind, Honey, Sugar, Jaggery`
       }
     }
   ]

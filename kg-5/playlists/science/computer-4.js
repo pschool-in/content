@@ -40,13 +40,13 @@ There are five generations of computers.
           {
             name: 'True',
             text: `A tally stick was an ancient memory aid device.
-              An abacus is a mechanical device used to aid an individual in performing mathematical calculations.
-              The Jacquard loom is a mechanical loom.`
+An abacus is a mechanical device used to aid an individual in performing mathematical calculations.
+The Jacquard loom is a mechanical loom.`
           },
           {
             name: 'False',
             text: `We use first-generation computers nowadays.
-              AI is used in fourth-generation computers.`
+AI is used in fourth-generation computers.`
           }
         ]
       }
@@ -57,9 +57,9 @@ There are five generations of computers.
       type: 'match',
       data: {
         text: `UNIVAC, first-generation
-          IBM 1920, second-generation
-          Internet, fourth-generation
-          AI, fifth-generation`,
+IBM 1920, second-generation
+Internet, fourth-generation
+AI, fifth-generation`,
         title: 'Match the following'
       }
     },
@@ -97,10 +97,10 @@ There are five generations of computers.
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The *first (second)* computers used vacuum tubes and were very expensive.
-          *Transistors (Capacitors)*replaced vacuum tubes.
-          The development of the integrated circuit increased the *speed (time)* and efficiency of computers. 
-          The microprocessor brought the *fourth (fifth)* generation of computers. 
-          Second-generation computers used *assembly (operating)* languages. `
+*Transistors (Capacitors)*replaced vacuum tubes.
+The development of the integrated circuit increased the *speed (time)* and efficiency of computers. 
+The microprocessor brought the *fourth (fifth)* generation of computers. 
+Second-generation computers used *assembly (operating)* languages. `
       }
     },
     {
@@ -115,9 +115,9 @@ There are five generations of computers.
           dashWidth: 80
         },
         text: `An ancient memory aid device to record and document numbers, quantities, or even messages - *tally stick*
-          A mechanical device used to aid an individual in performing mathematical calculations - *abacus*
-          An automatic loom controlled by punched cards - *jacquard loom*
-          A mechanical calculator - *arithmometer*`
+A mechanical device used to aid an individual in performing mathematical calculations - *abacus*
+An automatic loom controlled by punched cards - *jacquard loom*
+A mechanical calculator - *arithmometer*`
       }
     },
     {
@@ -132,12 +132,12 @@ There are five generations of computers.
           dashWidth: 80
         },
         text: `Napier's bones - *John Napier*
-          Slide rule - *William Oughtred*
-          Difference engine - *Charles Babbage*
-          Pascaline - *Blaise Pascal*
-          Stepped Reckoner - *Gottfried Wilhelm Leibniz*
-          Jacquard loom - *Joseph-Marie Jacquard*
-          Arithmometer - *Thomas de Colmar*`
+Slide rule - *William Oughtred*
+Difference engine - *Charles Babbage*
+Pascaline - *Blaise Pascal*
+Stepped Reckoner - *Gottfried Wilhelm Leibniz*
+Jacquard loom - *Joseph-Marie Jacquard*
+Arithmometer - *Thomas de Colmar*`
       }
     },
     {
@@ -147,8 +147,8 @@ There are five generations of computers.
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `AI - *Artificial (Automatic)* Intelligence
-          IC - *Integrated (Internet)* Circuit
-          CPU - Central *Processing (Programing)* Unit`
+IC - *Integrated (Internet)* Circuit
+CPU - Central *Processing (Programing)* Unit`
       }
     },
     {
@@ -157,10 +157,10 @@ There are five generations of computers.
       type: 'match',
       data: {
         text: `first, 1946
-          second, 1959
-          third, 1965
-          fourth, 1971
-          fifth, today`,
+second, 1959
+third, 1965
+fourth, 1971
+fifth, today`,
         title: 'Match the following'
       }
     },
@@ -171,25 +171,24 @@ There are five generations of computers.
       data: {
         title: 'Common Shortcuts',
         text: `# Shortcuts
-
-          1. Alt + F - File menu options in the current program.
-          2. Alt + E - Edits options in the current program.
-          3. F1 - Universal help 
-          4. Ctrl + A - Selects all text.
-          5. Ctrl + X - Cuts the selected item.
-          6. Ctrl + Del - Cut selected item.
-          7. Ctrl + C- Copy the selected item.
-          8. Ctrl + Ins -  Copy the selected item.
-          9. Ctrl + V - Paste the selected item.
-          10. Shift + Ins - Paste the selected item.
-          11. Home  - Takes the user to the beginning of the current line.
-          12. Ctrl + Home - Go to the beginning of the document.
-          13. End - Go to the end of the current line.
-          14. Ctrl + End - Go to the end of a document.
-          15. Shift + Home - Highlight from the current position to the beginning of the line.
-          16. Shift + End - Highlight from the current position to the end of the line.
-          17. Ctrl + (Left arrow) - Move one word to the left at a time.
-          18. Ctrl + (Right arrow) - Move one word to the right at a time.`
+1. Alt + F - File menu options in the current program.
+2. Alt + E - Edits options in the current program.
+3. F1 - Universal help 
+4. Ctrl + A - Selects all text.
+5. Ctrl + X - Cuts the selected item.
+6. Ctrl + Del - Cut selected item.
+7. Ctrl + C- Copy the selected item.
+8. Ctrl + Ins -  Copy the selected item.
+9. Ctrl + V - Paste the selected item.
+10. Shift + Ins - Paste the selected item.
+11. Home  - Takes the user to the beginning of the current line.
+12. Ctrl + Home - Go to the beginning of the document.
+13. End - Go to the end of the current line.
+14. Ctrl + End - Go to the end of a document.
+15. Shift + Home - Highlight from the current position to the beginning of the line.
+16. Shift + End - Highlight from the current position to the end of the line.
+17. Ctrl + (Left arrow) - Move one word to the left at a time.
+18. Ctrl + (Right arrow) - Move one word to the right at a time.`
       }
     },
     {
@@ -198,10 +197,10 @@ There are five generations of computers.
       type: 'match',
       data: {
         text: `F1,  help 
-          Ctrl + A , Select all 
-          Ctrl + X , Cut
-          Ctrl + C, Copy
-          Ctrl + V, Paste`,
+Ctrl + A , Select all 
+Ctrl + X , Cut
+Ctrl + C, Copy
+Ctrl + V, Paste`,
         title: 'Match the following'
       }
     },
@@ -217,10 +216,10 @@ There are five generations of computers.
           dashWidth: 80
         },
         text: `*Alt + F* - File menu options in the current program.
-          *Alt + E* - Edits options in the current program.
-          *Home*  - Takes the user to the beginning of the current line.
-          *End* - Go to the end of the current line.
-          *Ctrl + End* - Go to the end of a document.`
+*Alt + E* - Edits options in the current program.
+*Home*  - Takes the user to the beginning of the current line.
+*End* - Go to the end of the current line.
+*Ctrl + End* - Go to the end of a document.`
       }
     }
   ]

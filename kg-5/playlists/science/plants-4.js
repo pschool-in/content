@@ -6,7 +6,7 @@ export default {
     {
       label: 'Plants-2 - Reading',
       type: 'passage',
-      id: '1600',
+      id: 'reading',
       data: {
         title: 'Some more details on Plants',
         text: `All living things need food. Photosynthesis is a process by which plants make their food using chlorophyll, water, carbon dioxide in the presence of sunlight.Plants are also referred as primary producers since they prepare food for themselves. Stems and branches of the plant take the prepared food from the leaves to other parts of the plants. Extra food is stored as starch in roots, stems, leaves ,fruits and in flowers.
@@ -16,7 +16,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: ' Flowering vs Non flowering',
-      id: '1700',
+      id: 'classify',
       type: 'group',
       data: {
         title:
@@ -36,7 +36,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: 'Green vs Non green',
-      id: '1800',
+      id: 'classify-2',
       type: 'group',
       data: {
         title: 'Classify the below plants based on colour',
@@ -72,7 +72,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: 'Autumn vs Spring',
-      id: '1900',
+      id: 'classify-3',
       type: 'group',
       data: {
         title: 'Classify the below flowers based on the season they bloom',
@@ -90,7 +90,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: 'Root vs Stem',
-      id: '2000',
+      id: 'classify-4',
       type: 'group',
       data: {
         title: 'Classify the below plants based on their edible part',
@@ -108,7 +108,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: 'Leaf vs Flower',
-      id: '2100',
+      id: 'classify-5',
       type: 'group',
       data: {
         title: 'Classify the below plants based on their edible part',
@@ -126,7 +126,7 @@ Based on the colour present in the plant, they are classified into Green and Non
     },
     {
       label: 'Fruits vs Grains',
-      id: '2200',
+      id: 'classify-6',
       type: 'group',
       data: {
         title: 'Classify the below plants based on their edible part',
@@ -143,45 +143,45 @@ Based on the colour present in the plant, they are classified into Green and Non
       }
     },
     {
-      id: '2300',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Pine, 400 years
-                Banyan, 300 years
-                Oak, 1500 years
-                Apple, 30 years`,
+Banyan, 300 years
+Oak, 1500 years
+Apple, 30 years`,
         title: 'Match the trees with their life span'
       }
     },
     {
-      id: '2400',
+      id: 'fillup',
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Veins (lamina)* are branch out from the midrib.
-                *Petiole (sepal)*joins the leaf to the main stem.
-                *Stomata (leaf)* are used to exchange gases.
-                *Chlorophyll (anthocyanin)* is the green pigment in plants`
+*Petiole (sepal)*joins the leaf to the main stem.
+*Stomata (leaf)* are used to exchange gases.
+*Chlorophyll (anthocyanin)* is the green pigment in plants`
       }
     },
     {
       type: 'rightOne',
-      id: '2401',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
         noCaps: true,
         text: `Tulip, December, Tuberose 
-            Rose,Saffron, Dahlia 
-            Rose, Boat lily, Crotons`
+Rose,Saffron, Dahlia 
+Rose, Boat lily, Crotons`
       }
     },
     {
       label: 'True or False',
-      id: '2500',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -189,32 +189,32 @@ Based on the colour present in the plant, they are classified into Green and Non
           {
             name: 'True',
             text: `Plants bearing flowers are flowering plants.
-                   Tomato is a fruit.
-                   Cycas is an exotic plant`
+Tomato is a fruit.
+Cycas is an exotic plant`
           },
           {
             name: 'False',
             text: `Rose is an autumn flower.
-                   Cauliflower is an edible leaf`
+Cauliflower is an edible leaf`
           }
         ]
       }
     },
     {
-      id: '2600',
+      id: 'drag-drop',
       label: 'Plants - Answer in one word ',
       type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Green pigment in plant that help in tapping light - *chlorophyll*
-                Process by which plants make food - *photosynthesis*
-                Part of plant that helps in exchange of gases - *stomata*
-                Leaves loose water by this process - *transpiration*`
+Process by which plants make food - *photosynthesis*
+Part of plant that helps in exchange of gases - *stomata*
+Leaves loose water by this process - *transpiration*`
       }
     },
     {
       label: 'Flower vs Leaf',
-      id: '2700',
+      id: 'flower-leaf',
       type: 'group',
       data: {
         title: 'Identify whether the mentioned parts belong to flower or leaf',
@@ -231,22 +231,22 @@ Based on the colour present in the plant, they are classified into Green and Non
       }
     },
     {
-      id: '2800',
+      id: 'match-2',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Roots, Beetroot
-                Flowers, Clove
-                Fruits, Banana
-                Grains, Rice
-                Leaves, Cabbage
-                Stem, Sugarcane`,
+Flowers, Clove
+Fruits, Banana
+Grains, Rice
+Leaves, Cabbage
+Stem, Sugarcane`,
         title: 'Match parts and their food'
       }
     },
     {
       label: 'Plants - Choose the best Answer',
-      id: '2900',
+      id: 'mcq-plants',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

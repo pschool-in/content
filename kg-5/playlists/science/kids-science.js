@@ -6,7 +6,7 @@ export default {
     {
       label: 'Domestic vs Wild Animals',
       type: 'group',
-      id: '100',
+      id: 'domestic-wild',
       data: {
         title: 'Domestic vs Wild Animals',
         imageType: 'animals',
@@ -29,7 +29,7 @@ export default {
         type: 'plant',
         isPractice: false
       },
-      id: '200'
+      id: 'plant'
     },
     {
       type: 'dragAndDrop',
@@ -37,7 +37,7 @@ export default {
       data: {
         type: 'dog'
       },
-      id: '300'
+      id: 'dog'
     },
     {
       type: 'dragAndDrop',
@@ -45,7 +45,7 @@ export default {
       data: {
         type: 'face'
       },
-      id: '400'
+      id: 'face'
     },
     {
       type: 'dragAndDrop',
@@ -53,7 +53,7 @@ export default {
       data: {
         type: 'human'
       },
-      id: '500'
+      id: 'human'
     },
     {
       type: 'match',
@@ -63,7 +63,7 @@ export default {
         text:
           'Cow, Shed\n  Monkey, Tree\n  Dog, Kennel\n  Bee, Hive\n Spider, Web\nBird, Nest'
       },
-      id: '600'
+      id: 'animal-houses'
     },
     {
       type: 'dragAndDrop',
@@ -71,7 +71,7 @@ export default {
       data: {
         type: 'computer'
       },
-      id: '700'
+      id: 'computer'
     },
     {
       label: 'Living vs Non-living things',
@@ -89,7 +89,7 @@ export default {
           }
         ]
       },
-      id: '800'
+      id: 'living'
     },
     {
       label: 'Vegetables - Below or Above ground',
@@ -107,7 +107,7 @@ export default {
           }
         ]
       },
-      id: '900'
+      id: 'vegetables'
     },
     {
       label: 'Healthy vs Unhealthy foods',
@@ -125,7 +125,7 @@ export default {
           }
         ]
       },
-      id: '1000'
+      id: 'healthy'
     },
     {
       label: 'The Five Senses',
@@ -140,7 +140,7 @@ export default {
         text:
           'We *smell* with our nose. \n We *see* with our eyes. \n  We *hear* with our ears. \n  We *taste* with our tongue. \n  We *touch* with our hands.'
       },
-      id: '1100'
+      id: 'senses'
     },
     {
       type: 'match',
@@ -150,7 +150,7 @@ export default {
         text:
           'Desert, Camel \n Farm, Cow \n Ocean, Whale \n Pond, Fish \n Forest, Lion \n Iceland, Penguin'
       },
-      id: '1200'
+      id: 'regions-animals'
     },
     {
       label: 'Natural vs Man-made',
@@ -168,7 +168,7 @@ export default {
           }
         ]
       },
-      id: '1300'
+      id: 'classify'
     },
     {
       label: 'Lighter vs Heavier',
@@ -187,7 +187,7 @@ export default {
           }
         ]
       },
-      id: '1400'
+      id: 'classify-2'
     },
     {
       label: 'Day vs Night',

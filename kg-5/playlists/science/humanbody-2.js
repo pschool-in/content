@@ -8,16 +8,16 @@ export default {
         data: {
           title: 'Humanbody',
           text:
-            `# External body parts 
-            External organs are the body parts that we can see outside. Like eyes, ears, nose, hands, legs, mouth, fingers, shoulders, etc.
-            # Functions of External Body Parts
-            1. Eyes help us to see things, to read, to watch T.V, etc.
-            2. Ears help us to hear different sounds.
-            3. Nose helps us to smell.
-            4. Mouth helps us to eat food.
-            5. Hands help us to write, to hold things, etc.
-            6. Legs help us to walk, to run, to jump, etc.
-            7. Fingers help us to turn pages, to hold things, etc.`
+`# External body parts 
+External organs are the body parts that we can see outside. Like eyes, ears, nose, hands, legs, mouth, fingers, shoulders, etc.
+# Functions of External Body Parts
+1. Eyes help us to see things, to read, to watch T.V, etc.
+2. Ears help us to hear different sounds.
+3. Nose helps us to smell.
+4. Mouth helps us to eat food.
+5. Hands help us to write, to hold things, etc.
+6. Legs help us to walk, to run, to jump, etc.
+7. Fingers help us to turn pages, to hold things, etc.`
         },
         id: 'passage'
       },
@@ -49,12 +49,12 @@ export default {
             {
               name: 'True',
               text: `Eyes help us to see.
-              Fingers help us to hold things.`
+Fingers help us to hold things.`
             },
             {
               name: 'False',
               text: `Ears help us to smell things.
-              Arms help us to run.`
+Arms help us to run.`
             }
           ]
         }
@@ -71,10 +71,10 @@ export default {
             dashWidth: 80
           },
           text: `*Ears* help us to hear different sounds.
-          *Nose* helps us to smell.
-          *Mouth* helps us to eat food.
-          *Hands* help us to write, to hold things, etc.
-          *Legs* help us to walk, to run, to jump, etc.`
+*Nose* helps us to smell.
+*Mouth* helps us to eat food.
+*Hands* help us to write, to hold things, etc.
+*Legs* help us to walk, to run, to jump, etc.`
         }
       },
       {

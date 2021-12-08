@@ -294,7 +294,7 @@ Plants can move from one place to another.`
     {
       label: 'Plants - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading-2',
       data: {
         title: 'Plants',
         text: `Like our body a plant also has many parts. The main parts of a plant include root, stem, leaf, flower, fruit and seed. Each part has a set of jobs to do to keep the plant healthy.
@@ -308,7 +308,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Terrestrial vs Aquatic-1',
-      id: '200',
+      id: 'terrestrial-aquatic',
       type: 'group',
       data: {
         title: 'Classify the below plants based on the habitat they belong',
@@ -326,7 +326,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Terrestrial vs Aquatic-2',
-      id: '201',
+      id: 'classify-2',
       type: 'group',
       data: {
         title: 'Classify the below plants based on the habitat they belong',
@@ -344,7 +344,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Free floating vs Fixed rooted',
-      id: '300',
+      id: 'classify-3',
       type: 'group',
       data: {
         title: 'Classify the below plants into their respective type',
@@ -362,7 +362,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Fixed rooted vs Submerged',
-      id: '301',
+      id: 'classify-4',
       type: 'group',
       data: {
         title: 'Classify the below plants into their respective type',
@@ -380,7 +380,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Dessert vs Mountain vs Plain',
-      id: '400',
+      id: 'classify-5',
       type: 'group',
       data: {
         title: 'Classify the below plants into their respective type',
@@ -402,7 +402,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'Cold climate vs Hot climate',
-      id: '500',
+      id: 'classify-6',
       type: 'group',
       data: {
         title: 'Classify the below plants based on the climate they grow in',
@@ -422,7 +422,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: 'One seed vs Many seeds vs Seedless',
-      id: '600',
+      id: 'classify-7',
       type: 'group',
       data: {
         title:
@@ -446,7 +446,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: ' Tap root vs Fibrous root',
-      id: '700',
+      id: 'classify-8',
       type: 'group',
       data: {
         title:
@@ -465,7 +465,7 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       label: ' Weak vs Strong',
-      id: '800',
+      id: 'classify-9',
       type: 'group',
       data: {
         title:
@@ -483,46 +483,46 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
       }
     },
     {
-      id: '900',
+      id: 'match-4',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Root, Absorption
-                Stem, Support
-                Leaf, Photosynthesis
-                Flower, Reproduction
-                Seed, Germination`,
+Stem, Support
+Leaf, Photosynthesis
+Flower, Reproduction
+Seed, Germination`,
         title: 'Match the plant parts with their function'
       }
     },
     {
-      id: '1000',
+      id: 'plant-fillup',
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Fibrous (tap)* roots are developed from the base of the stem.
-                Avecinnia plants have roots *above (below)* the ground.
-                Trees such as peepal and banyan have very strong and thick stem called *trunk (wood)*.
-                The loss of water in the form of gas happens through the tiny pores in the leaves is called *transpiration (evaporation)*.`
+Avecinnia plants have roots *above (below)* the ground.
+Trees such as peepal and banyan have very strong and thick stem called *trunk (wood)*.
+The loss of water in the form of gas happens through the tiny pores in the leaves is called *transpiration (evaporation)*.`
       }
     },
     {
-      id: '1100',
+      id: 'plant-fillup-2',
       label: 'Plants - Fill in the Blanks ',
       type: 'fillupOptions',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The soft and brightly colored part of a flower is called *petal (tepal)*.
-                The green part that lies under the petal and supports it is called *sepal (petal)*.
-                The middle of the flower has two parts called the *stamen (style)* and pistil.
-                The natural home of a plant is called its *habitat (niche)*.
-                Plants make suitable adjustment with their surroundings to meet their requirements. This is known as *adaptation (evolution)*.`
+The green part that lies under the petal and supports it is called *sepal (petal)*.
+The middle of the flower has two parts called the *stamen (style)* and pistil.
+The natural home of a plant is called its *habitat (niche)*.
+Plants make suitable adjustment with their surroundings to meet their requirements. This is known as *adaptation (evolution)*.`
       }
     },
     {
       label: 'True or False',
-      id: '1200',
+      id: 'true-false-5',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -530,20 +530,20 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
           {
             name: 'True',
             text: `Deserts get very less rainfall and experience high temperature.
-                    Leaves are changed to spines to reduce the loss of water.
-                    Needle like leaves help them to survive in cold conditions like snow.
-                    Plants in plains need to adapt to both dry conditions and extreme temperatures`
+Leaves are changed to spines to reduce the loss of water.
+Needle like leaves help them to survive in cold conditions like snow.
+Plants in plains need to adapt to both dry conditions and extreme temperatures`
           },
           {
             name: 'False',
             text: `Banyan, Peepal and Tamarind trees live less than hundred years.
-                    Mountain trees leaves are called frond`
+Mountain trees leaves are called frond`
           }
         ]
       }
     },
     {
-      id: '1300',
+      id: 'words',
       type: 'sequence',
       label: 'Words related to plants',
       commonData: {
@@ -553,35 +553,35 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
     },
     {
       type: 'rightOne',
-      id: '1301',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
         noCaps: true,
         text: `Tomato, Carrot, Radish, Beetroot
-            Turmeric,Cabbage,  Greens,  Spinach
-            Neem,  Aloe vera,  Datepalm,  Opuntia
-            Mango, Apple, Orange, Papaya
-            Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
+Turmeric,Cabbage,  Greens,  Spinach
+Neem,  Aloe vera,  Datepalm,  Opuntia
+Mango, Apple, Orange, Papaya
+Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
       }
     },
     {
-      id: '1400',
+      id: 'match-7',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Deserts, Cactus
-                Mountains, Pine
-                Plains, Teak
-                Coastal areas, Coconut
-                Trees, Neem`,
+Mountains, Pine
+Plains, Teak
+Coastal areas, Coconut
+Trees, Neem`,
         title: 'Match plants to the parts we eat'
       }
     },
     {
       label: 'Plants - Choose the best Answer',
-      id: '1500',
+      id: 'mcq-plants',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

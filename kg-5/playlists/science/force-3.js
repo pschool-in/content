@@ -26,8 +26,8 @@ export default {
           dashWidth: 80
         },
         text: `We push or *pull* things to *move* them. A push or pull is called *force*.
-         Force can change the *shape* of an object.
-         Friction slows down *movements*. A wet floor is slippery because there is very little *friction*.`
+Force can change the *shape* of an object.
+Friction slows down *movements*. A wet floor is slippery because there is very little *friction*.`
       }
     },
     {

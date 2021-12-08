@@ -7,7 +7,7 @@ export default {
     {
       label: 'Science in Kitchen - Passage',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Science in Kitchen',
         text: `Science is the study of the natural world around us. We learn science by observing, experimenting and describing. Science is all around us.
@@ -66,7 +66,7 @@ This is made from coriander seed powder. One tablespoon of powder is mixed to tw
     },
     {
       label: 'Choose the best Answer.',
-      id: '200',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -101,7 +101,7 @@ This is made from coriander seed powder. One tablespoon of powder is mixed to tw
     },
     {
       type: 'rightOne',
-      id: '300',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
@@ -115,7 +115,7 @@ Pan, Fork, Spoon, Ladle`
       }
     },
     {
-      id: '400',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -129,7 +129,7 @@ Fridge, Store Vegetables`,
     },
     {
       label: 'True or False',
-      id: '500',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -153,7 +153,7 @@ We can use the induction stove, even without electricity.`
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -168,7 +168,7 @@ Heating a liquid unit becomes gas is called *boiling*.`
       }
     },
     {
-      id: '700',
+      id: 'match-2',
       label: 'Kitchen Medicine',
       type: 'match',
       data: {
