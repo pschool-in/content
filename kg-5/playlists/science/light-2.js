@@ -8,10 +8,10 @@ export default {
         data: {
           title: 'Light and Shadow',
           text:
-            `# Light
-            Light comes from different sources called light sources; our main natural light source is the sun. Other sources include fire, stars and man-made light sources such as light-bulbs and torches. Thanks to light, we see life in glorious colors.
-            # Shadow
-            A shadow is the dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
+`# Light
+Light comes from different sources called light sources; our main natural light source is the sun. Other sources include fire, stars and man-made light sources such as light-bulbs and torches. Thanks to light, we see life in glorious colors.
+# Shadow
+A shadow is the dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
         },
         id: 'passage'
       },
@@ -43,12 +43,12 @@ export default {
             {
               name: 'True',
               text: `Sun is the most powerful source of light.
-              A candle is an artificial source of light.`
+A candle is an artificial source of light.`
             },
             {
               name: 'False',
               text: `We do not need light to see objects.
-              Shadow is formed when light passes through objects.`
+Shadow is formed when light passes through objects.`
             }
           ]
         }
@@ -65,8 +65,8 @@ export default {
             dashWidth: 80
           },
           text: `The *sun (moon)* is the most powerful source of light. 
-          A shadow is formed on the *opposite (same)* side of the source of light.
-          We cannot see anything in a *dark (lit)* room.`
+A shadow is formed on the *opposite (same)* side of the source of light.
+We cannot see anything in a *dark (lit)* room.`
         }
       },
       {
