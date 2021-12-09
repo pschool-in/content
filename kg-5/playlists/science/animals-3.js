@@ -94,7 +94,7 @@ Tigers and hyenas live in *caves*.
     {
       id: 'fillup',
       label: 'Animal Shelter - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A cat lies outside a hole to catch *rat (rabbit)*.
@@ -390,7 +390,7 @@ Flat beak that helps to grip plant and insect from water.- *Duck*`
     {
       id: 'fillup-2',
       label: 'Animal Shelter - Fill Up-2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Animals that live on trees are known as *arboreal (aerial)* animals.
@@ -489,11 +489,11 @@ Animals can make their own food.`
         fontSize: '2rem'
       },
       data: [
-`Leaves, Caterpillar, Hen, Hawk`,
-`Grass, Grasshopper, rat, owl`,
-`Flower, Flies, Frog, Snake, Eagle`,
-`Carrot, Rabbit, Fox, Lion`,
-`Tree, Deer, Lion`
+        `Leaves, Caterpillar, Hen, Hawk`,
+        `Grass, Grasshopper, rat, owl`,
+        `Flower, Flies, Frog, Snake, Eagle`,
+        `Carrot, Rabbit, Fox, Lion`,
+        `Tree, Deer, Lion`
       ]
     },
     {
@@ -569,7 +569,7 @@ I have 3 toes in front and one at back to hold on to the branches. Who am I? - *
     {
       id: 'fillup-6',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Tailorbird uses its *beak (claws)* to stitch leaves to build the nest.
@@ -611,17 +611,16 @@ Fish breathes through lungs.`
             options: '3, 4, 5'
           },
           {
-            qText:
-              'What do fishes have in place of arms and legs?',
+            qText: 'What do fishes have in place of arms and legs?',
             options: 'fins, scales, gills'
           },
           {
-            qText:
-              `Which part of the insect's body bears wings?`,
+            qText: `Which part of the insect's body bears wings?`,
             options: 'thorax, head, abdomen'
           },
           {
-            qText: 'What is the process through which birds shed their feathers and grow new ones called?',
+            qText:
+              'What is the process through which birds shed their feathers and grow new ones called?',
             options: 'molting, malting, melting'
           }
         ]

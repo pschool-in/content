@@ -425,7 +425,7 @@ John hid the chocolate`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       label: 'Choose Appropriate Word',
       id: 'fillup',
       lockAfter: 1,

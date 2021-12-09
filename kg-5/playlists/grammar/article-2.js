@@ -34,61 +34,60 @@ export default {
       },
 
       data: [
-        `year, a, an
-Indian, an, a
-umbrella, an, a
-honest, an, a
-hour, an, a
-universe, a, an
-university, a, an
-x-ray, an, a
-one, a, an
-wonderful, a, an`,
+        `mango, a, an
+        igloo, an, a
+        cat, a, an
+        egg, an, a
+        ball, a, an
+        elephant, an, a
+        cake, a, an
+        zoo, a, an
+        singer, a, an
+        onion, an, a`,
 
         `inch, an, a
-igloo, an, a
-tree, a, an
-eagle, an, a
-bench, a, an
-bat, a, an
-tiger, a, an
-ice-cream, an, a
-lemon, a, an
-house, a, an`,
-
-        `banana, a, an
-mango, a, an
-igloo, an, a
-cat, a, an
-egg, an, a
-ball, a, an
-elephant, an, a
-cake, a, an
-zoo, a, an
-singer, a, an`,
+        plate, a, an
+        tree, a, an
+        eagle, an, a
+        bench, a, an
+        bat, a, an
+        tiger, a, an
+        ice-cream, an, a
+        lemon, a, an
+        house, a, an`,
 
         `eye, an, a
-oven, an, a
-teacher, a, an
-unicorn, a, an
-pencil, a, an
-useful, a, an
-union, a, an
-young, a, an
-ox, an, a
-eight, an, a`,
+        oven, an, a
+        teacher, a, an
+        unicorn, a, an
+        pencil, a, an
+        useful, a, an
+        union, a, an
+        young, a, an
+        ox, an, a
+        eight, an, a`,
 
-        `arrow, an, a
-ugly, an, a
-nice, a, an
-oval, an, a
-axe, an, a
-pair, a, an
-empty, an, a
-ant, an, a
-kite, a, an
-european, a, an
-engine, an, a`
+        `fish, a, an
+        doctor, a, an
+        answer, an, a
+        ball, a, an
+        egg, an, a
+        igloo, an, a
+        tiger, a, an
+        book, a, an
+        octopus, an, a
+        girl, a, an`,
+
+        `flower, a, an
+        inkpot, an, a
+        parrot, a, an
+        box, a, an
+        elbow, an, a
+        window, a, an
+        football, a, an
+        panda, a, an
+        mouse, a, an
+        ice-cream,an, a`
       ]
     },
     {
@@ -104,108 +103,129 @@ engine, an, a`
         rightWidth: 245
       },
       data: [
-        `an, ox, cow
-a, bat, owl
-a, parrot, eagle
-an, orange, cherry
-an, eye, nose
-a, teeth, ear
-an, eight, nine
-a, younger, elder
-an, old, new
-an, arrow, bow`,
-
-        `a, cow, ox
-an, owl, bat
-an, eagle, parrot
-a, cherry, orange
-a, nose, eye
-an, ear, teeth
-a, nine, eight
-an, elder, younger
-a, new, old
-a, bow, arrow`,
-
-        `an, inch, cm
-a, kite, eagle
-a, lemon, orange
-a, mango, apple
-an, oven, stove
-a, nice, old
-a, one, eight
-an, oval, circle
-a, pair, eye
-a, pencil, eraser`,
-
         `an, umbrella, union
-a, unicorn, ugly
-a, union, hour
-a, singer, artist
-a, teacher, artist
-an, ugly, duck
-a, house, hour 
-an, empty, full
-an, Indian, French
-an, honest, smart`,
+        a, unicorn, ugly
+        a, union, hour
+        a, singer, artist
+        a, teacher, artist
+        an, ugly, duck
+        a, house, hour
+        an, empty, full
+        an, Indian, French
+        an, honest, smart`,
 
         `a, useful, eager
-a, young, old
-a, wonderful, underground
-an, x-ray, xerox
-a, year, ear
-a, zoo, animal
-an, hour, house
-an, eraser, pencil
-an, engine, motor
-an, eye, head`
+        a, young, old
+        a, wonderful, underground
+        an, x-ray, xerox
+        a, year, ear
+        a, zoo, animal
+        an, hour, house
+        an, eraser, pencil
+        an, engine, motor
+        an, eye, head`,
+
+        `an, umbrella, cat
+        an, ice-cream, pot
+        an, engineer, pen
+        a, toy, eagle
+        an, accident, ring
+        a, lion, elephant
+        an, hour, clock
+        an, honest man, bad man
+        a, car, owl
+        a, cherry, apple
+        `
       ]
     },
     {
       type: 'selectWord',
-      label: 'Identify - Article',
-      id: '200',
+      label: 'Identify the Article',
+      id: 'select-word',
       commonData: {
         title: 'Select the article in the sentence.'
       },
       data: [
-        `There is *a* snake. 
-Mahi wants *an* iPad.
-Tia has *a* cat.
-I can see *a* blue car.
-This is *an* easy question.
-Piya is eating *an* apple.
-Somnath is reading *a* book.
-Karthik is sleeping on *the* sofa.
-Mihir has *an* old bike.
-My sister wants to be *an* astronaut.`,
-
         `I had *an* egg for breakfast.
-My son wants to be *an* architect.
-My cousin is *a* pilot. 
-There is *an* orange in the fridge.
-Did you read *the* book I gave you?
-Swati is *a* nice girl.
-Manish was *the* first to arrive in class.
-I have *a* little white kitten.
-There is *a* beehive on neem tree.
-Aladdin had *a* magic lamp.`,
+        My son wants to be *an* architect.
+        Cheetah is *the* fastest land animal.
+        My dad is *a* professor at the University.
+        My son has *a* big world map in his room.
+        There is *an* orange in the fridge.
+        Did you read *the* book I gave you?
+        Manish was *the* first to arrive in class.
+        I have *a* little white kitten.
+        Aladdin had *a* magic lamp.`,
 
-        `That's *an* easy question.
-She is *a* pretty girl. 
-Neil Armstrong was *an* American astronaut.
-This is exactly *the* shirt I was looking for.
-Mr.Iyer is *an* honorary member of our council.
-My grandfather was *the* village chief.
-*The* fruit market will be closed on Tuesday.
-He gave me *a* call in the evening.
-Reading is *a* good habit.
-Mahesh bought *a* new watch.`
+        {
+          title:
+            'Select all the articles in the below sentence. There can be zero or more articles.',
+          multiSelect: true,
+          text: `*An* elephant is *a* mammal.
+            Eating *an* apple every day can keep *the* doctor away.
+            I bought *a* dozen bananas from *the* market.
+            *The* music is playing on *the* TV.
+            There is *a* dog in *the* yard.
+            I saw *an* owl on *the* branch.
+            The teacher read *a* story in *the* class.
+            There is *a* beehive on *the* neem tree.
+            He gave me *a* call in *the* evening.`
+        }
       ]
     },
     {
-      id: 'fillup',
+      id: 'fill-up',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      commonData: {
+        title: `Click on the blanks and choose the right article.`,
+        options: 'a, an'
+      },
+      data: [
+        `Meera is *an* intelligent student.
+          Dad wants me to wear *a* cap.
+          Reema has *a* jewelry box.
+          We put up *a* Christmas tree for the holidays.
+          Grandma read *a* story to all my friends.
+          I saw *an* ostrich in the zoo.
+          There is *a* hospital near my home.
+          I have *a* new pencil.
+          There is *a* big window in my room.
+          I have *a* box of chocolates in my bag.`,
+
+        `I want to eat *an* apple.
+          I bought *an* umbrella for my brother.
+          Aladdin had *a* magic lantern.
+          I saw *a* big lion at the zoo.
+          She has written *a* story.
+          I saw *a* Peacock in KBR park today.
+          I have *an* inkpot on my study table.
+          It is *an* ancient fort in Hyderabad.
+          I am *a* pilot.
+          Rajeev is reading *a* magazine.`,
+
+        `Rakesh's father is *a* lawyer.
+          This is *a* ball.
+          I saw *an* old car.
+          We have *a* red car.
+          Saanvi is *an* honest girl.
+          Do you like *an* apple?
+          He can ride *a* bicycle.
+          Sudheer is *a* doctor.
+          My sister is *a* painter.
+          My son is *a* good boy.`,
+
+        `That's *an* easy question.
+          She is *a* pretty girl. 
+          Neil Armstrong was *an* American astronaut.
+          Mahesh bought *a* new watch. 
+          My sister wants to be *an* astronaut.`
+      ]
+    },
+    {
+      id: 'fillup-2',
       label: 'Article - Fill up',
-      type: 'fillupOptions',
+      type: 'fillup',
       lockAfter: 2,
       commonData: {
         title: 'Click on the blanks and pick the correct Article.',
@@ -213,118 +233,96 @@ Mahesh bought *a* new watch.`
       },
       data: [
         `Picasso was *an* artist.
-He is *an* honest man.
-I study at *a* small university in London.
-We used to live in *the* city centre.
-Are you *a* teacher?
-It takes me *an* hour to get to work.
-My cousin is *a* surgeon.
-It looks like it's going to rain. Do you have *an* umbrella?
-I have *a* one year old daughter.
-Singer Justin comes from *an* ordinary family.`,
+        He is *an* honest man.
+        I study at *a* small university in London.
+        We used to live in *the* city center.
+        Are you *a* teacher?
+        It takes me *an* hour to get to work.
+        My cousin is *a* surgeon.
+        It looks like it's going to rain. Do you have *an* umbrella?
+        I have *a* one-year-old daughter.
+        Singer Justin comes from *an* ordinary family.`,
 
         `These days Angel enjoys *the* life of *a* Hollywood film star.
-My brother lives in *an* apartment in *the* city centre.
-School children in *the* UK have to wear *a* uniform.
-Is there *a* petrol station near here?
-It is very near here. Go straight on and it is on *the* left.
-Is France *a* European country?
-I've got *a* spare ticket for tonight's program. Do you want to come?
-Simon phoned *the* police.
-Do you want to go to *the* cinema tonight?
-I am reading *a* really good book.`,
+        My brother lives in *an* apartment in *the* city center.
+        School children in *the* UK have to wear *a* uniform.
+        Is there *a* petrol station near here?
+        It is very near here. Go straight on and it is on *the* left.
+        Is France *a* European country?
+        I've got *a* spare ticket for tonight's program. Do you want to come?
+        Simon phoned *the* police.
+        Do you want to go to *the* cinema tonight?
+        I am reading *a* really good book.`,
 
         `I am *a* school student.
-He is *the* best student in the class.
-*the* camel is the ship of the desert.
-This book has won *the* Noble Prize.
-Please inform me about *the* next exam.
-Gold is *a* precious metal.
-She returned after *an* hour.
-Please tell me *the* directions to the beach.
-There is *an* instituiton for *the* blind in this city.`,
+        He is *the* best student in the class.
+        *the* camel is the ship of the desert.
+        This book has won *the* Noble Prize.
+        Please inform me about *the* next exam.
+        Gold is *a* precious metal.
+        She returned after *an* hour.
+        Please tell me *the* directions to the beach.
+        There is *an* institution for *the* blind in this city.`,
 
         `I want *an* apple from that basket.
-The church on *the* corner is open.
-Are you coming to *the* party next Saturday?
- I bought *a* new TV set yesterday
-I think *the* man over there is very ill.
-I watched *the* video you had sent me.
-She was wearing *an* ugly dress when she met him.
-She is *a* nice girl.
-Do you want to go to *the* restaurant where we first met?
-He is *an* engineer.`,
+        The church on *the* corner is open.
+        Are you coming to *the* party next Saturday?
+         I bought *a* new TV set yesterday
+        I think *the* man over there is very ill.
+        I watched *the* video you had sent me.
+        She was wearing *an* ugly dress when she met him.
+        She is *a* nice girl.
+        Do you want to go to *the* restaurant where we first met?
+        He is *an* engineer.`,
 
         `John wanted to read *a* comic book.
-The class went on *a* field trip.
-I met *a* boy in the store.
-Lisa put *an* orange on her yogurt.
-My mom likes making *the* cake from scratch.
-The dog caught *a* stick.
-I saw *an* owl at the garden.
-I quickly ate *the* cookies.
-Egg has *an* oval shape.
-He carried *an* axe.`
-        /*
-        `My mom poured lemonade from *a* pitcher.
-That cat is stuck in *a* tree.
-An elephant has *a* long trunk.
-The truck was driving down *a* dirt road.
-There is a chair at *the* table.
-Mary ate *an* egg for breakfast.
-Tom runs as fast as *a* cheetah.
-There is *an* inky spot on my pants.
-I love to read *a* book.`,
+        The class went on *a* field trip.
+        I met *a* boy in the store.
+        Lisa put *an* orange on her yogurt.
+        My mom likes making *the* cake from scratch.
+        The dog caught *a* stick.
+        I saw *an* owl in the garden.
+        I quickly ate *the* cookies.
+        The egg has *an* oval shape.
+        He carried *an* axe.`,
 
-        `Raj wants *a* new bag.
-John tasted *the* cake made by his mother.
- *a* new dance teacher was appointed.
-All *the* children need to obey their parents.
-Uncle turned on *the* television.
-I will buy *a* pen today.
-She read *an* interesting story to us.
-There was *a* huge crowd in the market.
-Julie spoke for *an* hour about her school project.
-*a* European expert was invited to our school annual day celebration.`,
+        `This is exactly *the* shirt I was looking for.
+        Mr.Iyer is *an* honorary member of our council.
+        My grandfather was *the* village chief.
+        *The(A, An)* fruit market will be closed on Tuesday.`
+      ]
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      commonData: {
+        isPractice: false,
+        title:
+          'Fill in the blanks by dragging the options given at the bottom.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `What's *the* capital of your country?
+          I always have an *egg* for breakfast.
+          I read *an* interesting story.
+          I saw *a* rainbow in the sky.
+          My friend has a *sore throat* due to a cold.`,
 
-        `We have *a* beautiful dressing room.
-*the* garden is full of lillies.
-Is hockey *a* popular sport in your school? 
-I need *a* glass of water.
-She needs *an* envelope.
-They’re at *the* park near their house.
-My brother is in *the* library.
-What is *the* baby’s name?`,
+        `My grandmother told me *a* story.
+          Can you pass me a *slice* of bread?
+          There was *an* elephant in the field.
+          Mahesh has an *interest* in painting.
+          We saw a tiger in *the* zoo.`,
 
-        `John uses *the* Internet *a* lot.
-What is *the* capital of your country?
-He called me *an* hour ago.
-Tamil nadu lies in *the* south of India.
-She is on *a* diet.
-Carol’s father works as *an* electrician.
-We need *a* place to live.
-I saw *an* old man working on *a* farm.`,
-
-        `Jake took out *a* bottle of juice.
-It started raining heavily and she lended us *an* umbrella. I returned *the* umbrella the next day.
-I have *a* great idea.
-He is *the* nice man whom i told you about. 
-We had *a* delicious meal.
-She wore *a* pretty pink dress.
-I saw tigers in *a* zoo.
-He is *a* pilot.
-*An* apple *a* day builds immunity.
-*The* boys have come to play.`,
-
-        `Italy is *a* European country.
-He gave *a* one rupee coin to her.
-He says he always speaks *the* truth. But I don't believe him.
-*The* Sahara is in *the* northern part of Africa.
-Ant is *an* insect.
-New York is *a* large city.
-Blue whale is *the* largest animal.
-I saw *a* one eyed person near *the* market.
-He is *an* honest teacher. He don't give extra marks for his son.`*/
+        `Please give me *a* copy of The Hindu.
+          Manish brought a *cup* of coffee and gave it to his grandma.
+          *The* earth moves around the sun.
+          My friend's dad met with *an* accident yesterday night.
+          Rahul saw a *snake* in the garden.`
       ]
     }
   ]

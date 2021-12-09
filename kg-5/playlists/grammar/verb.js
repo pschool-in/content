@@ -95,7 +95,7 @@ I will see you later.`
     },
     {
       label: 'Subject-Verb Agreement',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup',
       lockAfter: 1,
       data: [

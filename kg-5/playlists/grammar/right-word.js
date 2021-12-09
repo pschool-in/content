@@ -89,7 +89,7 @@ export default {
     {
       id: 'was-were',
       label: 'was vs were',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'was vs were',
         text: `The cat *was* sleeping in the cupboard.
@@ -103,7 +103,7 @@ The frogs *were* croaking in the garden.`,
     {
       id: 'they-them',
       label: 'they vs them',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'they vs them',
         text: `My friend’s  family is very rich and *they* live in the biggest house on the street.
@@ -117,7 +117,7 @@ I told *them* to be quiet.`,
     {
       id: 'my-mine',
       label: 'my vs mine',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'my vs mine',
         text: `This doll is *mine*.
@@ -131,7 +131,7 @@ The room with the yellow door is *mine*.`,
     {
       id: 'he-his',
       label: 'he vs his',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'he vs his',
         text: `This is Mr Sharma, *he* is a writer.
@@ -145,7 +145,7 @@ Saurav is quite scared of *his* strict tutor!`,
     {
       id: 'had-have',
       label: 'had vs have',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'had vs have',
         text: `To *have* good health is the greatest wealth!
@@ -159,7 +159,7 @@ Vijay and Ajay *have* just got a pet kitten.`,
     {
       id: `your-you're`,
       label: "your vs you're",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: your, you're",
         text: `Did you tell *your* parents where *you're* going?
@@ -175,7 +175,7 @@ Let's go play when *you're* ready.`,
     {
       id: `its-it's`,
       label: "its vs it's",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: its, it's",
         text: `The cat licked *its* paw.
@@ -191,7 +191,7 @@ The spacecraft fired *its* rockets.`,
     {
       id: `who's-whose`,
       label: "who's vs whose",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with who's and whose.",
         text: `He is an artist *whose* work I really admire.
@@ -205,7 +205,7 @@ I want someone *who's* loyal to me.`,
     {
       id: 'there-their',
       label: "there, their vs they're",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: there, their, they're",
         text: `The kids went to visit *their* grandparents.
@@ -220,7 +220,7 @@ The students handed in *their* homework.`,
     {
       id: 'you-yours',
       label: 'you vs yours',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'you vs yours',
         text: `Does this book belong to *you*?
@@ -234,7 +234,7 @@ Can *you* help me carry these books?`,
     {
       id: 'when-where',
       label: 'when vs where',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'when vs where',
         text: `Is this *where* Anand found the puppy?
@@ -248,7 +248,7 @@ This is the school *where* my sisters studied.`,
     {
       id: 'this-those',
       label: 'this vs those',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'this vs those',
         text: `*This* is the house that my father built.
@@ -339,7 +339,7 @@ Why are *those* girls laughing?`,
     {
       id: 'can-could',
       label: 'can vs could',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'can vs could',
         text: `Sujatha *can* draw well.
@@ -353,7 +353,7 @@ Where *could* the dog be hiding?
     {
       id: 'than-then',
       label: 'than vs then',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either than or then.',
         text: `He can run faster *than* I can.
@@ -368,7 +368,7 @@ Peter is smarter *than* Mathew.`,
     {
       id: 'better-best',
       label: 'better vs best',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'better vs best',
         text: `Children like juice *better* than lassi.
@@ -382,7 +382,7 @@ Girish felt much *better* after taking a nap.`,
     {
       id: 'shall-should',
       label: 'shall vs should',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'shall vs should',
         text: `What time *shall* we meet tomorrow?
@@ -396,7 +396,7 @@ You *should* have seen the sunrise this morning, it was beautiful!`,
     {
       id: 'will-would',
       label: 'will vs would',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'will vs would',
         text: `Manya wished that her mother *would* bake a cake.
@@ -410,7 +410,7 @@ I wonder who *will* win the IPL cup this year?`,
     {
       id: 'much-many',
       label: 'much vs many',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'much vs many',
         text: `Last night, I saw the sky sprinkled with *many* stars.
@@ -424,7 +424,7 @@ Anup feeds *many* stray dogs every day.`,
     {
       id: 'more-most',
       label: 'more vs most',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'more vs most',
         text: `Oliver asked for *more* soup.
@@ -438,7 +438,7 @@ Who is *most* likely to win the match?`,
     {
       id: 'was-would',
       label: 'was vs would',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'was vs would',
         text: `Shilpa *was* excited about the school trip to Goa.
@@ -452,7 +452,7 @@ The farmer prayed that the rain *would* water his crop.`,
     {
       id: 'were-where',
       label: 'were vs where',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'were vs where',
         text: `This is *where* Mr Rao comes to fish every year.
@@ -466,7 +466,7 @@ There was a power cut when the students *were* writing their exam.`,
     {
       id: 'there-their-2',
       label: 'there vs their',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'there vs their',
         text: `Those boys you see *there* are very good athletes.
@@ -480,7 +480,7 @@ Sonali and Mona are sisters. *Their* parents are doctors.
     {
       id: 'begin-began',
       label: 'begin vs began',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'begin vs began',
         text: `It *began* to rain, as soon as Ritu reached the bus stop.

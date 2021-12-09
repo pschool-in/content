@@ -95,7 +95,7 @@ I am *studying.*`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'is-am-are',
       label: 'is / am / are',
       data: {
@@ -115,7 +115,7 @@ This *is* a lotus flower.`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       label: 'was / were',
       id: 'was-were',
       data: {
@@ -171,7 +171,7 @@ She goes to *market.*`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'article',
       label: 'Article',
       data: {
@@ -189,7 +189,7 @@ She goes to *market.*`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'choose-appropriate-word',
       label: 'Choose Appropriate Word',
       data: {
@@ -287,7 +287,7 @@ I will see you later.`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       label: 'Homonyms',
       id: 'homonyms',
       data: {
@@ -304,7 +304,7 @@ Where have you *been (bean) * all this time? `
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       label: 'Prepositions',
       id: 'prepositions',
       data: {

@@ -88,7 +88,7 @@ export default {
     {
       id: 'fewer-less',
       label: 'fewer vs less',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either fewer or less.',
         text: `Rohan drinks *less* water than he used to.
@@ -102,7 +102,7 @@ We have *fewer* customers this year than last.`,
     {
       id: 'accept-except',
       label: 'accept vs except',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and select the correct word.',
         text: `Please *accept* our invitation for lunch.
@@ -123,7 +123,7 @@ Everyone *except* Ben has blue eyes.`,
     {
       id: 'affect-effect',
       label: 'affect vs effect',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: ' Fill in the blanks with either affect or effect.',
         text: `Smoking will *affect* the health.
@@ -137,7 +137,7 @@ Air pollution has a bad *effect* on children.`,
     {
       id: 'cereal-serial',
       label: 'cereal vs serial',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either cereal or serial.',
         text: `What is your favourite TV *serial*?
@@ -151,7 +151,7 @@ Drought has spoiled this year's *cereal* crop.`,
     {
       id: '1400',
       label: 'pole vs poll',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either pole or poll.',
         text: `The result of the *poll* has been declared.
@@ -165,7 +165,7 @@ They flew to Europe via the North *Pole*.`,
     {
       id: '1500',
       label: 'site vs sight',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either site or sight.',
         text: `A *site* has been chosen for the new school.
@@ -179,7 +179,7 @@ She lost her *sight* in an accident.`,
     {
       id: '1800',
       label: 'allowed vs aloud',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either allowed or aloud.',
         text: `Please read this story *aloud*.
@@ -193,7 +193,7 @@ Swimming is not *allowed* at this beach.`,
     {
       id: '1900',
       label: 'desert vs dessert',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either desert or dessert.',
         text: `Plants in the *desert* do not need a lot of water.
@@ -208,7 +208,7 @@ My favourite kind of *dessert* is Strawberry ice cream.`,
     {
       id: 'birth-berth',
       label: 'birth vs berth',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Birth or Berth.',
         text: `Mrs. Karthini gave *birth* to a baby girl.
@@ -222,7 +222,7 @@ Roshini slept on the *berth* allotted to her.`,
     {
       id: 'bear-bare',
       label: 'bear vs bare',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Bear vs Bare',
         text: `I can't *bear* the suspense.
@@ -237,7 +237,7 @@ I have to *bear* this pain.`,
     {
       id: 'dye-die',
       label: 'dye vs die',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Dye vs Die',
         text: `How did the dinosaurs *die*?
@@ -251,7 +251,7 @@ Please *dye* these shoes.`,
     {
       id: 'peak-peek',
       label: 'peak vs peek',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Peak vs Peek',
         text: `I took a quick *peek* inside.

@@ -149,7 +149,7 @@ If we don't control our anger, it may lead to *headache*.`
     {
       id: 'emotionalworldfill-1',
       label: 'Fill in the blanks -2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `If you get angry, then you should not revert in a *bad (good)* way to others.
@@ -284,7 +284,7 @@ Passing on features from *ancestors* is called heredity.`
     {
       id: 'personalityfill-1',
       label: 'Fill in the blanks -2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `We have physical body growth until we reach *18 (25)* years.

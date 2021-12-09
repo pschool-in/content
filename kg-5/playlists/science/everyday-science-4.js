@@ -101,7 +101,7 @@ torch|torch |_orch`
     {
       id: 'fillup',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A gadget is a small *electronic (electric) * machine.

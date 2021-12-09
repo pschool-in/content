@@ -32,7 +32,7 @@ Other gases, small quantities`,
     {
       id: 'fillup',
       label: 'Gas in Air - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `About *78% (97%)* of air is made up of nitrogen.
@@ -207,7 +207,7 @@ At heights air is denser.`
     {
       id: 'fillup-3',
       label: 'Air & its composition - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Clay pot has thousands of tiny pores through which water seeps out. This causes *cooling (heating)* effect.

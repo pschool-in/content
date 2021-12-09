@@ -142,7 +142,7 @@ Vehicles, smoke`,
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Cities (Villages)* became crowded as people left their villages in search of work.

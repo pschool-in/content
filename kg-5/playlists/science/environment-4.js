@@ -118,7 +118,7 @@ Picking up the waste is called *Waste collection*.
     {
       id: 'fillup',
       label: 'Green Environment- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Recycle (reuse)* is to take materials from things you throw away and make new products by using them.

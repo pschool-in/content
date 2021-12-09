@@ -167,7 +167,7 @@ Excretory system cleans air.`
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A sufficient quantity of *water (energy)* is necessary for the processes of digestion to take place properly.
@@ -300,7 +300,7 @@ Internal organs such as heart, stomach and lungs have muscles. We can keep our m
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Smoke contains large amount of carbon *monoxide (dioxide)* a toxic gas.
@@ -312,7 +312,7 @@ Blood vessels consist of arteries, veins and *capillaries (lymph)*.`
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The volume of blood in human adults is *4-5 (6-7)*litres.

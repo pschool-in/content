@@ -6,7 +6,7 @@ export default {
     {
       id: 'fillup',
       label: 'Fill in the blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:

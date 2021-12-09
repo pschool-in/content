@@ -132,7 +132,7 @@ My mom quit her job *so* she is looking for a new job.`
     {
       id: 'and-or-but',
       label: 'And, Or, But',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `I wanted to wash my shoes, *but* I forgot to do it.

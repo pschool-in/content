@@ -106,7 +106,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     {
       id: 'fillup',
       label: 'Animal Lifecycle - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `All the butterflies have to undergo *four (five)* stages of growth.
@@ -261,7 +261,7 @@ Animals that are active during day time are known as *Diurnal* animals.`
     {
       id: 'fillup-3',
       label: 'Animal Shelter - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Nocturnal (Diurnal)* creatures have highly developed senses of hearing, smell, and eyesight.

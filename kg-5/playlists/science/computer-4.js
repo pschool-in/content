@@ -93,7 +93,7 @@ AI, fifth-generation`,
     {
       id: 'fillup',
       label: 'Computer- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The *first (second)* computers used vacuum tubes and were very expensive.
@@ -143,7 +143,7 @@ Arithmometer - *Thomas de Colmar*`
     {
       id: 'fillup-3',
       label: 'What does it stand for ?',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `AI - *Artificial (Automatic)* Intelligence

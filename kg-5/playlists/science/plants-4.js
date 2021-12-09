@@ -157,7 +157,7 @@ Apple, 30 years`,
     {
       id: 'fillup',
       label: 'Plants - Fill in the Blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Veins (lamina)* are branch out from the midrib.

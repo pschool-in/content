@@ -23,7 +23,7 @@ Our earth is a planet. It gets its light from the sun. It moves around the sun. 
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and fill it with the right word.',
         text: `The sun, the moon, the stars, the planets, etc are all known as *heavenly (heavy)*bodies.
@@ -171,8 +171,7 @@ The heavenly bodies that revolve around a planet are called *satellites*.`
           },
           {
             qText: 'What are man-made satellites used for?',
-            options:
-              'telecommunication, weather forecasting, making maps, *all'
+            options: 'telecommunication, weather forecasting, making maps, *all'
           }
         ]
       }
@@ -276,7 +275,7 @@ week, 7 days`
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and fill it with the right word.',
         text: `The period that the Earth takes to complete one rotation is called a *day (year)*.
@@ -449,17 +448,16 @@ No sound can be heard on the moon because there is no *air* and sound cannot tra
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText:
-              ' Who was the first person to set foot on the moon?',
+            qText: ' Who was the first person to set foot on the moon?',
             options: 'Neil Armstrong, Edwin Aldrin, Michael Collins'
           },
           {
             qText: 'Which spacecraft landed on moon first?',
-            options:
-              'Apollo 11, Apollo 12, Apollo 1'
+            options: 'Apollo 11, Apollo 12, Apollo 1'
           },
           {
-            qText: 'What happens when the earth comes in between the moon and the sun?',
+            qText:
+              'What happens when the earth comes in between the moon and the sun?',
             options: 'lunar eclipse, solar eclipse, partial solar eclipse'
           }
         ]

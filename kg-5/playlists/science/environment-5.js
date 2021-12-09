@@ -91,10 +91,10 @@ Sand, Lithosphere`,
         fontSize: '2rem'
       },
       data: [
-`Nectar, Butterflies, Small birds, Foxes`,
-`Dead plants, Centipede, Robin, Raccoon`,
-`Grass, Grasshopper, Frog, Snake, Eagle`,
-`Decayed plants, Worms, Birds, Eagles`
+        `Nectar, Butterflies, Small birds, Foxes`,
+        `Dead plants, Centipede, Robin, Raccoon`,
+        `Grass, Grasshopper, Frog, Snake, Eagle`,
+        `Decayed plants, Worms, Birds, Eagles`
       ]
     },
     {
@@ -151,7 +151,7 @@ The *biosphere* spreads in all the other three spheres.`
     {
       id: 'fillup-2',
       label: 'Environment- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `About *a third (two-third)* of the surface of the earth consists of land.
@@ -275,7 +275,7 @@ The term Golden Revolution is associated with *honey*.`
     {
       id: 'fillup-4',
       label: 'Environment- Do you know these ?',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Chicken occupy *90% (80%)* of the total poultry.
@@ -287,7 +287,7 @@ An area of land with fields and buildings that is devoted primarily to growing c
     {
       id: 'fillup-5',
       label: 'Environment- Do you know these ?-2 ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Dairy farming (poultry farming)* is a type of agriculture that focuses on extraction of milk and preparation of various milk products.

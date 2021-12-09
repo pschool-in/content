@@ -57,7 +57,7 @@ The municipal corporations of big cities also run hospitals that provide medical
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Without a *doctor’s (elders)* advice, one should never take any medicine that must be swallowed.

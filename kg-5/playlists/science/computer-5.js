@@ -160,7 +160,7 @@ Linux, system software`,
     {
       id: 'fillup',
       label: 'Computer- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Software (Hardware)* is a set of instructions on which computer works.

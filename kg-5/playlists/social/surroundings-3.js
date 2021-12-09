@@ -88,7 +88,7 @@ Gir Park, Gujarat `,
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Kurinchi flower blossoms only once in *12 (10)* years.
@@ -349,7 +349,7 @@ Rajgad Fort is a hill fort, situated in Rajgad district of *Maharashtra*.
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `King Chathrapathi Sivaji was the founder of *Maratha (Gupta)* Empire. 
 *Rajaraja (Rajendra)* Chola I  built the Brihadishvara temple. 
@@ -476,7 +476,7 @@ Aayi Mandapam is also called *Park Monument*.
     {
       id: 'fillup-2',
       label: 'Fill in the blanks-2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Mamallapuram was built by *Narasimhavarman (Paramesvaravarman)*.
 Arch of Viceroy is situated in *Goa (Ahmedabad)*

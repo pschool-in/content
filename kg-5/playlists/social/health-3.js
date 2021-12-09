@@ -37,16 +37,18 @@ It is important to wash our hands, before and after having the food.
       type: 'group',
       id: 'used-not-used',
       data: {
-        title: 'Classify the given materials based on if they are used to clean your body',
+        title:
+          'Classify the given materials based on if they are used to clean your body',
         types: [
           {
-              name: 'Used',
-              text: 'toothbrush, toothpaste, soap, shampoo, cotton buds, towel, nail cutter'
-            },
-            {
-              name: 'Not Used',
-              text: 'pencil, kite, television, spoon'
-            }
+            name: 'Used',
+            text:
+              'toothbrush, toothpaste, soap, shampoo, cotton buds, towel, nail cutter'
+          },
+          {
+            name: 'Not Used',
+            text: 'pencil, kite, television, spoon'
+          }
         ]
       }
     },
@@ -262,7 +264,7 @@ Consult a doctor if you have pain in ear.
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Consult a doctor when you feel any itching, *skin (nose)* injury or infection.
@@ -504,7 +506,7 @@ We do not use the word handicapped or disabled. We use differently-abled.`
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A condition known as digital eye strain is common among people working at *computers (books)* all day. 

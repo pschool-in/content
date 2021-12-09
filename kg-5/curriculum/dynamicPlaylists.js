@@ -320,20 +320,20 @@ const grammar = [
   {
     label: 'Article - Introduction',
     id: 'article-1',
-    grade: 'g3, g4, g5'
+    grade: 'g1, g2, g3, g4, g5'
   },
   {
     label: 'Definite and Indefinite Article',
     id: 'article-2',
-    grade: 'g3, g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'No Article Rules',
     id: 'article-3',
-    grade: 'g3, g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
-    label: 'Article - Quantifiers',
+    label: 'Advanced Article',
     id: 'article-4',
     grade: 'g3, g4, g5'
   },
@@ -410,17 +410,17 @@ const grammar = [
   {
     label: 'Pronoun - Introduction',
     id: 'pronoun-1',
-    grade: 'g1, g2'
+    grade: 'g1, g2, g3, g4, g5'
   },
   {
     label: 'Personal and Demonstrative Pronoun',
     id: 'pronoun-2',
-    grade: 'g1, g2, g3'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Possessive pronoun',
     id: 'pronoun-3',
-    grade: 'g2, g3, g4'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Reflexive Pronoun',

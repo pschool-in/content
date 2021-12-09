@@ -1,16 +1,16 @@
 export default {
-    id: 'child-rights-5',
-    label: 'Child Rights-2',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Good Citizen',
-        type: 'passage',
-        id: 'good-citizen',
-        data: {
-          title: 'Good Citizen',
-text: `# Who is human?
+  id: 'child-rights-5',
+  label: 'Child Rights-2',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Good Citizen',
+      type: 'passage',
+      id: 'good-citizen',
+      data: {
+        title: 'Good Citizen',
+        text: `# Who is human?
 Man is a social animal. Human beings are bestowed with senses. Human beings think and act using their senses. They are born free but bound in the social web. They cannot live alone. They need social and emotional support. To live in society they need to develop some good values.
 # Aim of Education
 We are born with few values and rights. These values are further polished in educational institutions. Education aims to change a person into a valuable person. 
@@ -47,137 +47,138 @@ One main feature of good value is to preserve hygiene. Each person should be tau
 5. Wear slippers/shoes
 6. Trim hair and cut the nails
 7. Wash hands before and after meals.`
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `The word civic means *citizen (human)* of a nation.
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `The word civic means *citizen (human)* of a nation.
 The main objective of education is to change a person into a *valuable (arrogant)* person.
 United we *stand (live)* divided we fall.
 *Mannerism (Generosity)* is an important feature of social values.
 Good values are developed by *practicing (ignoring)* them.`
-        }
-      },
-      {
-        label: 'Affect or Enrich',
-        id: 'affect-enrich',
-        type: 'classifySentence',
-        data: {
-          title: 'State whether these actions affect or enrich our good values.',
-          types: [
-            {
-              name: 'Affect',
-              text: `Break the queue/rules.
+      }
+    },
+    {
+      label: 'Affect or Enrich',
+      id: 'affect-enrich',
+      type: 'classifySentence',
+      data: {
+        title: 'State whether these actions affect or enrich our good values.',
+        types: [
+          {
+            name: 'Affect',
+            text: `Break the queue/rules.
 Spitting and dumping garbage anywhere.
 Polluting land and water.`
-            },
-            {
-              name: 'Enrich',
-              text: `Trying hard till success
+          },
+          {
+            name: 'Enrich',
+            text: `Trying hard till success
 Acceptance
 Self-confidence`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the Blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `*Honesty* is the best policy.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the Blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `*Honesty* is the best policy.
 The best relationship is *friendship*.
 We show *hospitality* to our guests.
 Always speak the *truth*.
 We must maintain *tolerance* in public.`
-        }
-      },
-      {
-        label: 'Choose the correct Answer(s)',
-        id: 'mcq',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: ' Which of these are personal values?',
-              options: '*Love, *mercy, *generosity, *honesty'
-            },
-            {
-              qText:
-                'Which of these is not a social value?',
-              options: 'Spitting in public, Respect elders, Respect nature, Be tolerant '
-            },
-            {
-              qText: 'What is the soul of disciplinary value?',
-              options: 'protect equality, love, mercy, peace '
-            },
-            {
-              qText: 'Which of the following does not enrich good values? ',
-              options: 'Polluting land and water, Literacy, Creating awareness and interests, Trying hard till success'
-            }
-          ]
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match',
-        data: {
-          title: 'Match the following.',
-          text: `National symbol, flag
+      }
+    },
+    {
+      label: 'Choose the correct Answer(s)',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' Which of these are personal values?',
+            options: '*Love, *mercy, *generosity, *honesty'
+          },
+          {
+            qText: 'Which of these is not a social value?',
+            options:
+              'Spitting in public, Respect elders, Respect nature, Be tolerant '
+          },
+          {
+            qText: 'What is the soul of disciplinary value?',
+            options: 'protect equality, love, mercy, peace '
+          },
+          {
+            qText: 'Which of the following does not enrich good values? ',
+            options:
+              'Polluting land and water, Literacy, Creating awareness and interests, Trying hard till success'
+          }
+        ]
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match',
+      data: {
+        title: 'Match the following.',
+        text: `National symbol, flag
 Environment, tree
 Public property, bus
 Harmony, India`
-        }
-      },
-      {
-        label: 'Hygiene',
-        type: 'fillupOptions',
-        id: 'fillup2 ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Wake up *early (late)* in the morning
+      }
+    },
+    {
+      label: 'Hygiene',
+      type: 'fillup',
+      id: 'fillup2 ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Wake up *early (late)* in the morning
 Brush your *teeth (hair)*.
 Wear *clean (dirty)* clothes.
 Trim hair and *cut (grow)* the nails.
 Wash hands *before and after (before)* meals.`
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match2',
-        data: {
-          title: 'Match the following.',
-          text: `Natural character, Affecting factor 
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match2',
+      data: {
+        title: 'Match the following.',
+        text: `Natural character, Affecting factor 
 Culture, Language
 Society, Tolerance
 Discipline, Punctuality`
-        }
-      },
-      {
-        label: 'Educational Rights ',
-        type: 'passage',
-        id: 'educational-rights ',
-        data: {
-          title: 'Educational Rights',
-          text: `# Importance of Education 
+      }
+    },
+    {
+      label: 'Educational Rights ',
+      type: 'passage',
+      id: 'educational-rights ',
+      data: {
+        title: 'Educational Rights',
+        text: `# Importance of Education 
 Education is important for people as well as the nation. Education is the first step for a child‛s development. Education improves knowledge, skills, values and the quality of one‛s life. It also helps in the overall development of a country. 
 Education doesn‛t mean that one should be literate. It is more than literacy. Education helps to analyze the reason, build skills to live, know what is right and wrong, lead a moral life.
 Education helps in broadening one‛s mind. It removes superstitious beliefs. Education helps in increasing awareness of surroundings, social and political issues. It develops wisdom.
@@ -223,116 +224,119 @@ The legislative section is divided into three lists: Union List, State List and 
 The first National Education Policy was implemented in 1968 followed by the second one in 1986.
 Samagra Shiksha subsumes the three Schemes of Sarva Shiksha Abhiyan
 (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA) and Teacher Education (TE).`
-        }
-      },
-      {
-        id: 'fillup3',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `Gurukulam is the system of education that was practiced in *ancient (modern)* India. 
+      }
+    },
+    {
+      id: 'fillup3',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Gurukulam is the system of education that was practiced in *ancient (modern)* India. 
 Guru and the Shishya lived in *Ashram (Bangalow)*.
 Education comes under the *Concurrent (Union)* List.
 The first NEP was implemented in *1968 (1908)* followed by the second one in 1986.
 Samagra Shiksha subsumes the *three (four)* Schemes of SSA, RMSA and Teacher Education.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'true-false',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify statements as true or false',
-          types: [
-            {
-              name: 'True',
-              text: `Every child has the right to have free and compulsory education.
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify statements as true or false',
+        types: [
+          {
+            name: 'True',
+            text: `Every child has the right to have free and compulsory education.
 Education helps in increasing awareness of surroundings, social and political issues.
 The former Chief Minister of Tamil Nadu, K.Kamaraj has implemented a Free mid-day meal program.`
-            },
-            {
-              name: 'False',
-              text: `Right to School Act describes the importance of free and compulsory education for children.
-Numeracy is the first step towards making one educated.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the Blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop2 ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
           },
-          text: `*Education* is very important for every individual.
+          {
+            name: 'False',
+            text: `Right to School Act describes the importance of free and compulsory education for children.
+Numeracy is the first step towards making one educated.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the Blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop2 ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `*Education* is very important for every individual.
 Every child has the *right* to have free and compulsory education.
 Education should be *affordable* to common people.
 The *Right to Education* Act (2009) describes the importance of free and compulsory education for children between 6 to 14 years of age.
 *Samagra Shiksha Scheme* improves the quality of education and the learning of students.`
-        }
-      },
-      {
-        label: 'Choose the correct Answer',
-        id: 'mcq2',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: ' What is the first step for a child‛s development?',
-              options: 'Education, Exploration, Excavation'
-            },
-            {
-              qText:
-                '“Education is the manifestation of the perfection already in man”. To whom do these words of wisdom belong?',
-              options: 'Swami Vivekananda, Mahatma Gandhi, Dr. Radhakrishnan '
-            },
-            {
-              qText: 'Which Act describes the importance of free and compulsory education for children?',
-              options: 'The Right to Education Act, The Right to School Act, The Right to Literacy Act '
-            },
-            {
-              qText: 'Which policy was formed to promote education? ',
-              options: 'National Education Policy, National Policy on Elementary Education, National Policy on Literacy'
-            }
-          ]
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match3',
-        data: {
-          title: 'Match the following.',
-          text: `Gurukulam, ancient 
+      }
+    },
+    {
+      label: 'Choose the correct Answer',
+      id: 'mcq2',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' What is the first step for a child‛s development?',
+            options: 'Education, Exploration, Excavation'
+          },
+          {
+            qText:
+              '“Education is the manifestation of the perfection already in man”. To whom do these words of wisdom belong?',
+            options: 'Swami Vivekananda, Mahatma Gandhi, Dr. Radhakrishnan '
+          },
+          {
+            qText:
+              'Which Act describes the importance of free and compulsory education for children?',
+            options:
+              'The Right to Education Act, The Right to School Act, The Right to Literacy Act '
+          },
+          {
+            qText: 'Which policy was formed to promote education? ',
+            options:
+              'National Education Policy, National Policy on Elementary Education, National Policy on Literacy'
+          }
+        ]
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match3',
+      data: {
+        title: 'Match the following.',
+        text: `Gurukulam, ancient 
 K. Kamaraj, free mid-day meal
 RTE, 2009 
 Education, wisdom
 Samagra Shiksha, 2018 `
-        }
-      },
-      {
-        label: 'Who am I?',
-        type: 'matchByDragDrop',
-        id: 'drag-drop3',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `I am white when I am dirty and black when I am clean. Who am I? - *blackboard*
+      }
+    },
+    {
+      label: 'Who am I?',
+      type: 'matchByDragDrop',
+      id: 'drag-drop3',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `I am white when I am dirty and black when I am clean. Who am I? - *blackboard*
 I am tall when I am young and I am short when I am old. Who am I? - *pencil*
 I am wet when I am drying. Who am I? - *towel*
 I have a neck but no head. Who am I? - *bottle*`
-        }
       }
-    ]
-  };
+    }
+  ]
+};

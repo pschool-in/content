@@ -59,7 +59,7 @@ Handling glassware and sharp items is more important because it causes injuries 
     },
     {
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup',
       data: {
         isPractice: false,
@@ -252,7 +252,7 @@ ICDS, early childhood care`,
     {
       id: 'fillup-3',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The prohibition of the child marriage act is established to prevent *child (adult)* marriage.

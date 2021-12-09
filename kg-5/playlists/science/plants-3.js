@@ -498,7 +498,7 @@ Seed, Germination`,
     {
       id: 'plant-fillup',
       label: 'Plants - Fill in the Blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Fibrous (tap)* roots are developed from the base of the stem.
@@ -510,7 +510,7 @@ The loss of water in the form of gas happens through the tiny pores in the leave
     {
       id: 'plant-fillup-2',
       label: 'Plants - Fill in the Blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The soft and brightly colored part of a flower is called *petal (tepal)*.

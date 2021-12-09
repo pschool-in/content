@@ -148,7 +148,7 @@ Cement, Limestone`,
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Caravan (wooden house)* is a temporary house, that helps to navigate to all places.

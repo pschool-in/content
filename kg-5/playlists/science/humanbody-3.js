@@ -340,7 +340,7 @@ Ankle is a part of our hand.`
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A part of the body that is used for a particular purpose is called *organ (body part)*. 
@@ -410,7 +410,7 @@ Some disabilities can be corrected by medical treatment. In some matters, we can
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `If we cannot see well, we can use *spectacles (walking stick)*.
@@ -614,7 +614,7 @@ Infection, pus`,
     {
       id: 'fillup-3',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Because of the rotting particles in the mouth, our teeth *decay (cracks)*.

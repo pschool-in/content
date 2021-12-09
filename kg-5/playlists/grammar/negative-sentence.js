@@ -91,7 +91,7 @@ It isn't sunny.`
     {
       id: 'fillup',
       label: 'any vs some',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: `Fill in the blanks with 'any' or 'some'`,
         text: `He hasn't got *any* friends.
@@ -110,7 +110,7 @@ She doesn't have *any* brothers.`,
     {
       id: 'fillup-2',
       label: 'any vs some - 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: `Fill in the blanks with 'any' or 'some'`,
         text: `There are *some* letters on the floor.
@@ -197,7 +197,7 @@ Can I have any water?`
     {
       id: 'negative-contraction',
       label: 'Negative Contraction',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct negative contraction.',
         text: `We *aren't* teachers.

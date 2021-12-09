@@ -33,7 +33,7 @@ When the nights are longer and the days are shorter, it is winter.`
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The whole day has *24 (27)*hours.

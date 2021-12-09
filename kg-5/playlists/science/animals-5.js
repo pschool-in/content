@@ -143,7 +143,7 @@ Budding takes place in animals like *Hydras* and corals.
     {
       id: 'fillup',
       label: 'Animal Facts - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Project Tiger was initiated in India in *1972 (1975)* to protect the Bengal Tiger.
@@ -239,13 +239,11 @@ mice, touch`,
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText:
-              ' How do bats find their way?',
+            qText: ' How do bats find their way?',
             options: 'echoes, music, sounds of animals'
           },
           {
-            qText:
-              'Where are the taste buds of butterflies located?',
+            qText: 'Where are the taste buds of butterflies located?',
             options: 'feet, tongue, wings'
           },
           {

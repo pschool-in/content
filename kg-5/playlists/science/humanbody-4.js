@@ -309,7 +309,7 @@ Lungs pump blood.`
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The body is structured in such a way that the internal organs remain safe within the *cavities (spaces)* inside the head and the torso.

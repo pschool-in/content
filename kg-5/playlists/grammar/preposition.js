@@ -147,7 +147,7 @@ Death valley is 86 meters *below* the sea level.`
     {
       id: 'time-in-at-on',
       label: 'Preposition of Time : in, at, on',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `Mamta has a meeting *in* the afternoon.
@@ -166,7 +166,7 @@ I will be ready *in* ten minutes.`,
     {
       id: 'time-in-at-on-2',
       label: 'Preposition of Time : in, at, on - 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `Christmas comes *on* 25th December.
@@ -211,7 +211,7 @@ Where did you go in the last weekend?`
     {
       id: 'ago-before',
       label: 'Right Preposition: Ago, Before',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `It happened a long time *ago*.
@@ -260,7 +260,7 @@ Can you look after the baby _____ I get back.`
     {
       id: 'for-since',
       label: 'For vs Since',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `He was sick *since* last Sunday.
@@ -279,7 +279,7 @@ Home many times, have you visited the park *since* winter?`,
     {
       id: 'as-like',
       label: 'As vs Like',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `His hair was so soft. It was just *like* silk.
@@ -298,7 +298,7 @@ He is known *as* one of the greatest actor in the country.`,
     {
       id: 'among-between',
       label: 'Among vs Between',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `In the forest, I saw a small house *among* the trees.
@@ -349,7 +349,7 @@ They came <b>to</b> the theatre with their kid`
     {
       id: 'under-into-over',
       label: 'under vs into vs over',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `Mohan jumped *over* the wall.
@@ -368,7 +368,7 @@ The carpet *under* my feet is very hard.`,
     {
       id: 'under-into-over-2',
       label: 'under vs into vs over - 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `Mom held the umbrella *over* both of us.
@@ -385,7 +385,7 @@ There are clouds *over* the hills.`,
     {
       id: 'in-on-at',
       label: 'Preposition of Place: In, On, At',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Choose the correct preposition in each sentence.',
         text: `Keep the book *on* the table.
@@ -403,7 +403,7 @@ They are *in* the car.`,
     {
       id: 'in-on-at-2',
       label: 'Preposition of Place: In, On, At - 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Choose the correct preposition in each sentence.',
         text: `Look at the picture *on* the wall.

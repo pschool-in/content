@@ -354,7 +354,7 @@ Kolkata is famous for *tant bengali sarees*.`
     },
     {
       label: 'Additional questions in cloth',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'drag-drop-7',
       data: {
         isPractice: false,
@@ -371,7 +371,7 @@ It is snowy. Put on your *gloves (skirt)*.`
     },
     {
       label: 'Additional questions in cloth - 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'drag-drop-8',
       data: {
         isPractice: false,

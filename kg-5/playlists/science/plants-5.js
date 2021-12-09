@@ -171,7 +171,7 @@ Astaxanthin, Blood red`,
     {
       id: 'fillup',
       label: 'Plants - Fill in the Blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Neelakurinji that blossoms once in *12 (15)* years.
@@ -225,13 +225,12 @@ Pollination through animals - *entamophily*`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText:
-              ' Which places do insectivorous plants grow most?',
-            options: 'nitrogen deficient, oxygen deficient, phophorous deficient'
+            qText: ' Which places do insectivorous plants grow most?',
+            options:
+              'nitrogen deficient, oxygen deficient, phophorous deficient'
           },
           {
-            qText:
-              'How does insectivorus plants attract insects?',
+            qText: 'How does insectivorus plants attract insects?',
             options: 'nectar, bright colours, certain odours, *all'
           },
           {
@@ -960,9 +959,9 @@ scar, attached to fruit`,
       label: 'Germination',
       type: 'sorting',
       data: {
-        title:
-          'Arrange in the correct order.',
-        text: 'seed falls on soil, enough water and air, root grow into soil, shoot appears, grow upwards, leaves appear.'
+        title: 'Arrange in the correct order.',
+        text:
+          'seed falls on soil, enough water and air, root grow into soil, shoot appears, grow upwards, leaves appear.'
       },
       id: 'germination'
     },

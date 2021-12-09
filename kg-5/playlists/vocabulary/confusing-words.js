@@ -78,7 +78,7 @@ export default {
     {
       id: 'to-two-too',
       label: 'to, two, vs too',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'To, Two, and Too',
         text: `It is never *too* late to learn.
@@ -93,7 +93,7 @@ Sita started *to* laugh.`,
     {
       id: 'by-bye-buy',
       label: 'by, bye vs buy',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'By, Buy, and Bye',
         text: `*Bye* for now! I will catch you later.
@@ -108,7 +108,7 @@ The bike was driven *by* Smith.
     {
       id: 'here-hear',
       label: 'here vs hear',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Here vs Hear',
         text: `There is no one *here*.
@@ -124,7 +124,7 @@ I can't *hear* you. You're mumbling.`,
     {
       id: 'thorough-through',
       label: 'thorough vs through',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'thorough vs through',
         text: `The doctor made a *thorough* study of the lab reports and pronounced the patient fit.
@@ -138,7 +138,7 @@ When you are *through* eating, don't forget to take your medicine.
     {
       id: 'borrow-burrow',
       label: 'borrow vs burrow',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'borrow vs burrow',
         text: `Meena was forced to *borrow* ten rupees from Sarita for her bus fare.
@@ -152,7 +152,7 @@ Sujit had to *borrow* a compass during the Math evam.`,
     {
       id: 'past-passed',
       label: 'past vs passed',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either past or passed.',
         text: `We read about the *past* in history books.
@@ -166,7 +166,7 @@ A bus *passed* by just a moment ago.`,
     {
       id: 'heal-heel',
       label: 'heal vs heel',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Heal vs Heel',
         text: `Your wound will *heal* soon.
@@ -180,7 +180,7 @@ The girl turned on her *heel*.`,
     {
       id: 'dear-deer',
       label: 'dear vs deer',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Dear vs Deer',
         text: `We saw a herd of *deer* today.
@@ -194,7 +194,7 @@ The hunter hit at a *deer* with his gun.`,
     {
       id: 'lose-loose',
       label: 'lose vs loose',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Lose vs Loose',
         text: `Ben has a *loose* tooth.
@@ -210,7 +210,7 @@ The dog is *loose* in the neighbourhood.`,
     {
       id: 'lie-lay',
       label: 'lie vs lay',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and select the correct word.',
         text: `I am unwell. I am going to *lie* down for some time.

@@ -69,7 +69,7 @@ export default {
     },
     {
       label: 'Fillup - Gesture',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'gesture-2',
       data: {
         title: 'Fill up with suitable gesture',

@@ -14,7 +14,7 @@ export default {
         lang: 'ta'
       },
       data: [
-    `cat, பூனை 
+        `cat, பூனை 
     dog, நாய் 
     goat, ஆடு
     sheep, செம்மறிஆடு  
@@ -25,7 +25,7 @@ export default {
     monkey, குரங்கு
     tiger, புலி`,
 
-    `hippo, நீர்யானை
+        `hippo, நீர்யானை
     rhino, காண்டாமிருகம்
     fox, நரி 
     crocodile, முதலை
@@ -36,7 +36,7 @@ export default {
     whale, திமிங்கிலம்
     frog, தவளை`,
 
-    `crab, நண்டு
+        `crab, நண்டு
     snake, பாம்பு
     squirrel, அணில்
     tortoise,  ஆமை
@@ -47,7 +47,7 @@ export default {
     bat, வௌவால்
     buffalo, எருமை`,
 
-    `butterfly,  வண்ணத்துப்பூச்சி
+        `butterfly,  வண்ணத்துப்பூச்சி
     cow,  பசு 
     donkey, கழுதை
     giraffe, ஒட்டகச்சிவிங்கி
@@ -58,7 +58,7 @@ export default {
     wolf, ஓநாய்
     cockroach, கரப்பான்பூச்சி`,
 
-   `garden-lizard, ஓணான்
+        `garden-lizard, ஓணான்
     lizard, பல்லி
     rabbit, முயல்
     boar, காட்டுப்பன்றி
@@ -69,7 +69,7 @@ export default {
     jackal, நரி
     prawn, இறால்`,
 
-    `bull, காளை
+        `bull, காளை
     python, மலைப்பாம்பு
     hamster, வெள்ளெலி
     spider, சிலந்தி
@@ -80,7 +80,7 @@ export default {
     goldfish, தங்கமீன்
     seahorse, கடற்குதிரை`,
 
-  `caterpillar, கம்பளிப்பூச்சி
+        `caterpillar, கம்பளிப்பூச்சி
     dragonfly, தட்டான்
     fish, மீன் 
     earthworm, மண்புழு
@@ -109,8 +109,8 @@ export default {
         crane, கொக்கு
         eagle, கழுகு
         kingfisher, மீன்கொத்தி`,
-  
-          `ostrich, நெருப்புக்கோழி
+
+        `ostrich, நெருப்புக்கோழி
         owl, ஆந்தை
         rooster, சேவல்
         woodpecker, மரங்கொத்தி
@@ -120,8 +120,8 @@ export default {
         robin, கருஞ்சிட்டு
         swallow,  தகைவிலாங்குருவி
         seagull, கடற்பறவை`,
-            
-          `falcon, பருந்து
+
+        `falcon, பருந்து
         myna, மைனா
         turkey, வான்கோழி
         macow, பஞ்சவர்ணக்கிளி`
@@ -232,8 +232,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
-        text:
-                  `lotus, தாமரை
+        text: `lotus, தாமரை
         rose, ரோஜா
         sunflower, சூரியகாந்தி 
         marigold, சாமந்தி
@@ -242,7 +241,7 @@ export default {
         magnolia, செண்பகம்
         water-lily, அல்லி
         mogra, குண்டுமல்லி`
-          }
+      }
     },
     {
       type: 'connectLetters',
@@ -253,8 +252,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
-        text: 
-        `ear, காது 
+        text: `ear, காது 
         eye, கண்
         hair, முடி
         hand, கை 
@@ -262,7 +260,7 @@ export default {
         nose, மூக்கு 
         tooth, பல்
         foot, பாதம்`
-             }
+      }
     },
     {
       type: 'connectLetters',
@@ -286,7 +284,7 @@ export default {
         tractor, இழுவைஇயந்திரம்
         ambulance, அவசரஊர்தி
         fire-engine, தீயணைப்புவாகனம்`,
-        
+
         `horse-carriage, குதிரைவண்டி
         cart, கட்டைவண்டி
         lorry, சரக்குந்து
@@ -317,8 +315,8 @@ export default {
     goldsmith, பொற்கொல்லர்
     potter, குயவர்
     weaver, நெசவாளர்`,
-    
-    `carpenter, தச்சர்
+
+        `carpenter, தச்சர்
       warrior, போர்வீரர்
       nurse, செவிலியர்
       sailor, மாலுமி
@@ -349,7 +347,7 @@ export default {
         plier, இடுக்கி
         Plough, கலப்பை
         saw, இரம்பம்`,
-                
+
         `spade, மண்வெட்டி
         screw, திருகு
         telescope, தொலைநோக்கி
@@ -357,7 +355,7 @@ export default {
         thermometer, வெப்பமானி
         trowel, கரணை
         awl, குத்தூசி
-        screwdriver, திருப்புளி`,
+        screwdriver, திருப்புளி`
       ]
     },
     {
@@ -371,7 +369,7 @@ export default {
         lang: 'ta'
       },
       data: [
-    `chocolate, மிட்டாய்
+        `chocolate, மிட்டாய்
     milk, பால்
     ladoo, லட்டு
     cheese, பாலாடைக்கட்டி
@@ -382,14 +380,14 @@ export default {
     ice-cream, பனிக்கூழ்
     sweets,இனிப்பு`,
 
-    `bread, ரொட்டி
+        `bread, ரொட்டி
     juice, பழச்சாறு
     flour, மாவு
     lentils, பருப்பு
     rice,அரிசி
     soup, சாறு`
-  ]
-},
+      ]
+    },
     {
       type: 'connectLetters',
       label: 'படங்களும் பெயர்களும்',
@@ -412,7 +410,7 @@ export default {
       woman, பெண்
       boy, சிறுவன்`,
 
-      `girl, சிறுமி
+        `girl, சிறுமி
       baby , குழந்தை
       window, ஜன்னல்
       air-conditioner, குளிரூட்டி
@@ -474,8 +472,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
-        text: 
-        `conch, சங்கு
+        text: `conch, சங்கு
         drums,முரசு
         dhol, மத்தளம்
         flute, புல்லாங்குழல்
@@ -483,7 +480,7 @@ export default {
         violin, நரம்பிசைக்கருவி
         yazl, யாழ்
         damaru, உடுக்கை`
-             }
+      }
     },
     {
       type: 'connectLetters',
@@ -496,7 +493,7 @@ export default {
         lang: 'ta'
       },
       data: [
-            `sun, சூரியன்
+        `sun, சூரியன்
     moon , நிலா
     rain, மழை
     star, நட்சத்திரம்
@@ -543,10 +540,7 @@ top, பம்பரம்
 hexagon, அறுகோணம்
 trident, திரிசூலம்
 stick, குச்சி`
-      ]      
-}
+      ]
+    }
   ]
 };
-    
-
-  

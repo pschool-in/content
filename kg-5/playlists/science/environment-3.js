@@ -114,7 +114,7 @@ For survival, living things take their needs from the *environment*.`
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Sparrows grow by eating *insects (stone)* and *food grains (paper)*.
 Plants and animals are *living things (non-living things)*.
@@ -254,7 +254,7 @@ Snake, Crawl`
     {
       id: 'fillup-2',
       label: 'Fill in the blanks-2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Birds have *two (three)* wings.
 *Ox (Dog)* is used as a draft animal.
@@ -383,7 +383,7 @@ Silk is obtained from the cocoon of the larvae of *silkworm*.`,
     {
       id: 'fillup-options-3',
       label: 'Fill in the blanks-3',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Cattle dung is used in *plastering (constructing)* the mud houses.
 Change in season will affect * living things (non-living things)*.
@@ -526,7 +526,7 @@ Carnivores are *flesh* eating animals.`
     {
       id: 'fillup-4',
       label: 'Fill in the blanks-4',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `*Decomposers (Producers)* get food from the decay of animals and plants.
 Trees give *Oxygen (Carbon-dioxide)* during day time.

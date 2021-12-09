@@ -65,7 +65,7 @@ export default {
     {
       id: 'is-are',
       label: 'Am, Is vs Are',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blank.',
         text: `Anil *is* swimming in the pool.
@@ -86,7 +86,7 @@ This *is* a lotus flower.`,
     {
       id: 'was-were',
       label: 'Was vs Were',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks.',
         text: `It *was* very hot yesterday.
@@ -128,7 +128,7 @@ Why *was* your brother sad?`,
     {
       id: `has-have`,
       label: 'Has vs Have',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blank with 'has' or 'have'.",
         text: `*Has* she been invited?
@@ -147,7 +147,7 @@ He *has* some oranges.`,
     {
       id: 'do-does',
       label: 'Do vs Does',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blank with 'do' or 'does'.",
         text: `She *does* not revise her lesson today.
@@ -166,7 +166,7 @@ Why mom *does* all the work?
     {
       id: 'can-could',
       label: 'Can vs Could',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blank with 'can' or 'could'.",
         text: `Penquins *can* swim very fast.

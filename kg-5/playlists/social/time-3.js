@@ -104,7 +104,7 @@ P.M stands for *post meridiem*.
     {
       id: 'timefill-1',
       label: 'Fill in the blanks -2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The time difference between India and Washington D.C is *9 (8)*hours behind.

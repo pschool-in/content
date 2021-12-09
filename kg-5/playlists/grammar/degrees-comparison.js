@@ -100,7 +100,7 @@ Lead is one of the heaviest metal.`
     {
       id: 'fillup',
       label: 'Fill up',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: `Click on the blanks and choose the right option.`
       },

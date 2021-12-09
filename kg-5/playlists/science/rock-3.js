@@ -1,14 +1,14 @@
 export default {
-    id: 'rock-3',
-    label: 'Rock',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Rock',
-        type: 'passage',
-        data: {
-          text: `# Rock 
+  id: 'rock-3',
+  label: 'Rock',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Rock',
+      type: 'passage',
+      data: {
+        text: `# Rock 
 The earth was full of rocks when life started on earth. These rocks were heated up by the sun and then cooled down by the rain. This process when continued over thousands of years, broke down the big rocks into smaller ones. These smaller rocks were broken down by natural processes to form tiny particles of soil. Rocks are made of small grains called minerals. Some rocks are made from a single mineral, while others are formed from a mixture of minerals. Rocks can be hard or brittle. Granite is an example of hard rock. Diamond is the hardest rock found on the surface of the earth. Chalk and coal are not so hard and break easily.
 # Types of Rocks
 There are mainly three types of rocks.
@@ -28,132 +28,131 @@ The natural forces and weather changes break the rocks on the earth's surface in
 Soil that contains clay is called clayey soil. It has only small rock particles and is very smooth to touch. It is used by potters to make earthen pots. Clayey soil is very sticky and has the capacity to hold water. Sandy soil is very loose and rough to touch. It is found on beaches. It has large particles which are loosely packed. They cannot hold much water and very few plants grow in them. Loam is a mixture of sand and clay. It can hold both water and air. It contains humus therefore, plants grow well in loam.
 # Importance of Soil
 Soil is required to grow plants. Soil provides plants with water and minerals that are required for their proper growth. Different plants require different types of soil for their proper growth. For example, rice grows well in clayey soil whereas bajra grows well in sandy soil. Many plants grow well in a loamy soil. We can make the soil fertile by adding manures and fertilizers to the soil. So, there will not be any food for us if there is no soil.`,
-          title: 'Rock and Soil'
-        }
-      },
-      {
-        id: 'classify',
-        label: 'Metamorphic vs Sedimentary',
-        type: 'group',
-        data: {
-          title: 'Classify based on the type of rock.',
-          types: [
-            {
-              name: 'Metamorphic',
-              text: 'marble, anthracite, soapstone, schist'
-            },
-            {
-              name: 'Sedimentary',
-              text: 'shale, limestone, sandstone'
-            }
-          ]
-        }
-      },
-      {
-        id: 'classify-2',
-        label: 'Sedimentary vs Igneous',
-        type: 'group',
-        data: {
-          title: 'Classify based on the type of rock.',
-          types: [
-            {
-              name: 'Igneous',
-              text: 'basalt, granite'
-            },
-            {
-              name: 'Sedimentary',
-              text: 'shale, limestone, sandstone'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Rock Cycle',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the events in the correct order.',
-          text: 'volcanic eruption, the magma cools down, igneous rock formed, sedimentation, sedimentary rock formed, change to metamorphic rock'
-        },
-        id: 'rock-cycle'
-      },
-      {
-        id: 'mcq',
-        label: 'Multiple Choice Questions - MCQ',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'What type of rock is formed by great heat and pressure?',
-              options: `metamorphic, sedimentary, igneous`
-            },
-            {
-              qText: 'What comes out when a volcanic eruption occurs?',
-              options: `lava, fire, rocks`
-            },
-            {
-              qText: 'Which rock is formed from magma?',
-              options: `basalt, limestone, marble`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
+        title: 'Rock and Soil'
+      }
+    },
+    {
+      id: 'classify',
+      label: 'Metamorphic vs Sedimentary',
+      type: 'group',
+      data: {
+        title: 'Classify based on the type of rock.',
+        types: [
+          {
+            name: 'Metamorphic',
+            text: 'marble, anthracite, soapstone, schist'
           },
-          text: `*Diamond* is the hardest rock.
+          {
+            name: 'Sedimentary',
+            text: 'shale, limestone, sandstone'
+          }
+        ]
+      }
+    },
+    {
+      id: 'classify-2',
+      label: 'Sedimentary vs Igneous',
+      type: 'group',
+      data: {
+        title: 'Classify based on the type of rock.',
+        types: [
+          {
+            name: 'Igneous',
+            text: 'basalt, granite'
+          },
+          {
+            name: 'Sedimentary',
+            text: 'shale, limestone, sandstone'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Rock Cycle',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the events in the correct order.',
+        text:
+          'volcanic eruption, the magma cools down, igneous rock formed, sedimentation, sedimentary rock formed, change to metamorphic rock'
+      },
+      id: 'rock-cycle'
+    },
+    {
+      id: 'mcq',
+      label: 'Multiple Choice Questions - MCQ',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What type of rock is formed by great heat and pressure?',
+            options: `metamorphic, sedimentary, igneous`
+          },
+          {
+            qText: 'What comes out when a volcanic eruption occurs?',
+            options: `lava, fire, rocks`
+          },
+          {
+            qText: 'Which rock is formed from magma?',
+            options: `basalt, limestone, marble`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `*Diamond* is the hardest rock.
 Rotten plants and animals are called *humus*.
 Potter uses *clayey* soil to make pots.
 *Loam* is a mixture of sand and clay.
 *Manure* and fertilizers are added to soil to make the soil rich and fertile.`
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          text: `*Sandy (Clayey)*soil cannot hold much water.
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      data: {
+        text: `*Sandy (Clayey)*soil cannot hold much water.
 The tiny grains that makeup rocks are called *minerals (sand)*.
 *Chalk (Granite)* is a soft rock that breaks easily.
 When rocks break up, *soil (minerals)* is formed.
 *Clayey (Loamy)* soil is very sticky.`,
-          title: 'Fill in the blanks.'
-        }
-      },
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Plants take water and mineral salts from the soil.
+        title: 'Fill in the blanks.'
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Plants take water and mineral salts from the soil.
 Plants cannot grow properly in clayey soil.
 Soil is formed when rocks break up.
 Sandy soil holds air but not water.`
-            },
-            {
-              name: 'False',
-              text: `Earthen pots are made from sandy soil.
+          },
+          {
+            name: 'False',
+            text: `Earthen pots are made from sandy soil.
 Granite is the hardest rock.
 Humus is not good for the growth of plants.
 Rice grows well in sandy soil.`
-            }
-          ]
-        }
+          }
+        ]
       }
-    ]
-  };
-  
+    }
+  ]
+};

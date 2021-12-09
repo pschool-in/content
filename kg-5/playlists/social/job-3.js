@@ -132,7 +132,7 @@ Provides justice- *Judge*`
       id: 'reading-2',
       data: {
         title: 'Our Friends',
-text: `# Firefighters
+        text: `# Firefighters
 They are trained to save people when there's a fire accident. They wear protective jackets and extinguish fire with water and foam. They also move people and property to a safer place.
 # Ambulance
 It is an emergency vehicle that has a facility for first aid. It helps to treat the patient first hand until they reach the hospital.
@@ -174,7 +174,7 @@ Engineer, Buildings`,
     {
       id: 'fillup',
       label: 'Who am I?',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `I stitch and sew clothes. *Tailor (Teacher)*

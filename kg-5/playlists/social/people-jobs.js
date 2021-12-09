@@ -300,34 +300,34 @@ A blacksmith is a person who makes different things out of scrap metals like iro
       },
       data: [
         [
-`A cobbler is a person who repairs shoes.
+          `A cobbler is a person who repairs shoes.
 Shepherd is one of the oldest occupations.
 A singer has a melodious voice.`,
-`Dancers work in hospitals.
+          `Dancers work in hospitals.
 Shopkeeper helps the patients.
 An actor is an expert in dancing.`
         ],
         [
-`A farmer is the most important unit of agriculture.
+          `A farmer is the most important unit of agriculture.
 We have no threat of robbery if we have a watchman.
 A potter makes pottery on a spinning wheel.`,
-`Gardner takes care of the law.
+          `Gardner takes care of the law.
 A weaver sews our clothes as per our demands.
 Goldsmith makes things out of scrap.`
         ],
         [
-`A driver is a person who drives cars.
+          `A driver is a person who drives cars.
 An electrician is an expert of wires and electricity.
 A nurse takes care of patients in the hospital.`,
-`A salesman helps us in shops.
+          `A salesman helps us in shops.
 A write is a person who helps us in completing our homework.
 Police protects the theives.`
         ],
         [
-`Blacksmith moulds the scrap into usable products.
+          `Blacksmith moulds the scrap into usable products.
 A tailor sews our clothes as per our demands.
 Barber styles our hair.`,
-`A carpenter works with shoes.
+          `A carpenter works with shoes.
 A baker serves people at a restaurant.
 A plumber helps to repair vehicles.`
         ]
@@ -388,7 +388,7 @@ A plumber helps to repair vehicles.`
         }
       },
       data: [
-`A *teacher* works in schools.
+        `A *teacher* works in schools.
 A *singer* has a melodious voice.
 A *writer* is very creative.
 A *barber* styles our hair.
@@ -422,7 +422,7 @@ A *shopkeeper* has a shop.`
     {
       id: 'fillup',
       label: 'Fill up with options',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `A *blacksmith (goldsmith)* works with scrap.
 A *doctor (nurse)* prescribes medicines.
@@ -440,31 +440,31 @@ An *electrician (plumber)* deals with wires.`,
         title: 'Identify the correct spelling.'
       },
       data: [
-`Police, Poliece
+        `Police, Poliece
 Dancer, Danser
 Barber, Barbar
 Writer, Riter
 Cobbler, Cobblar`,
 
-`Electrician, Electricean
+        `Electrician, Electricean
 Salesman, Saleman
 Blacksmith, Blacksmit
 Singer, Singur
 Dancer, Dancur`,
 
-`Doctor, Docter
+        `Doctor, Docter
 Shopkeeper, Shopkeper
 Fisherman, Fishman
 Driver, Driiver
 Teacher, Teecher`,
 
-`Baker, Bakeir
+        `Baker, Bakeir
 Carpenter, Carpent
 Shepherd, Shefard
 Plumber, Pumber
 Nurse, Nusze`,
 
-`Goldsmith, Goldsmit
+        `Goldsmith, Goldsmit
 Tailor, Taylor
 Weaver, Weavar
 Gardner, Gardnar

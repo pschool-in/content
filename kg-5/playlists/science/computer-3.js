@@ -129,7 +129,7 @@ Mouse, point`,
     {
       id: 'fillup',
       label: 'Computer- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The *control (memory)* unit controls everything that happens inside the computer.
@@ -200,7 +200,7 @@ The *right* mouse button is used to invoke the shortcut menu.`
     {
       id: 'fillup-3',
       label: 'What does it stand for ?',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `RAM - *Random (Read)* Access Memory

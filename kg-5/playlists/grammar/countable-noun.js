@@ -158,7 +158,7 @@ jar| jars| ja__`
     {
       id: 'fillup-cats',
       label: 'Cat or Cats',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         editable: true,
         title: 'Click on the blanks and pick the write word. (cat or cats).',
@@ -170,7 +170,7 @@ jar| jars| ja__`
     {
       id: 'fillup-1',
       label: 'One and More than one',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'Click on the blanks and pick the correct option.'
       },
@@ -235,13 +235,13 @@ The *streets* are very quiet these days!`
       ]
     },
     //Newly added
-     {
+    {
       label: 'Singular-Plural - Reading',
       type: 'passage',
       id: 'singular-plural-reading',
       data: {
         title: 'Singular-Plural',
-    text: `In simple words, singular means only one. Plural means more than one. We generally add 's' at the end of the nouns to make them plural. Some examples are:
+        text: `In simple words, singular means only one. Plural means more than one. We generally add 's' at the end of the nouns to make them plural. Some examples are:
 1. The plural for an ant will be ants.
 2. The plural for a cat will be cats
 3. The plural for a bird will be birds.
@@ -252,76 +252,61 @@ Some nouns use different words as plural. Some examples are:
       }
     },
     {
-    type: 'group',
-    label: 'Drag and Drop',
-    id: '100',
-    commonData: {
-      title: 'Identify the singular and plural words.',
-      types: ['Singular', 'Plural']
-    },
-    data: [
-      [
-        `Snake, Bat, Bear, Duck`,
-        `Feet, Children, Teeth, Mice`
-      ],
-      [
-        'School, Pencil, Doctor, Market',
-        'Teachers, Windows, Lamps, Bosses'
-      ],
-      [
-        'Box, Wish, Plate, Berry',
-        'Skies, Tomatoes, Heroes'
-      ],
-      [
-        'Girl, Boy, Apple, Mango',
-        'Boxes, Classes, Dogs, Shops'
-      ],
-      [
-        'Spoon, Sister, Key, Orange',
-        'Flowers, Phones, Knees, Leaves'
+      type: 'group',
+      label: 'Drag and Drop',
+      id: '100',
+      commonData: {
+        title: 'Identify the singular and plural words.',
+        types: ['Singular', 'Plural']
+      },
+      data: [
+        [`Snake, Bat, Bear, Duck`, `Feet, Children, Teeth, Mice`],
+        ['School, Pencil, Doctor, Market', 'Teachers, Windows, Lamps, Bosses'],
+        ['Box, Wish, Plate, Berry', 'Skies, Tomatoes, Heroes'],
+        ['Girl, Boy, Apple, Mango', 'Boxes, Classes, Dogs, Shops'],
+        ['Spoon, Sister, Key, Orange', 'Flowers, Phones, Knees, Leaves']
       ]
-    ]
-  },
-  {
-  id: '200',
-  label: 'Match the following',
-  type: 'match',
-  commonData: {
-      title: 'Match the singular words with their plurals.'
-  },
- data: [
-   `Child, Children
+    },
+    {
+      id: '200',
+      label: 'Match the following',
+      type: 'match',
+      commonData: {
+        title: 'Match the singular words with their plurals.'
+      },
+      data: [
+        `Child, Children
    Foot, Feet
    Tooth, Teeth
    Shelf, Shelves
    Knife, Knives`,
 
-   `Mouse, Mice
+        `Mouse, Mice
    Man, Men
    Plate, Plates
    Chef, Chefs
    Safe, Safes`,
 
-   `Dress, Dresses
+        `Dress, Dresses
    Bush, Bushes
    Lunch, Lunches
    Punch, Punches
    Box, Boxes`,
 
-   `Fox, Foxes
+        `Fox, Foxes
    Bus, Buses
    Dish, Dishes
    Brush, Brushes
    Wish, Wishes`,
 
-   `Woman, Women
+        `Woman, Women
    Family, Families
    Ox, Oxen
    Baby, Babies
-   Country, Countries`,
-    ]
-  },
-  {
+   Country, Countries`
+      ]
+    },
+    {
       id: '300',
       label: 'Fill up with options',
       type: 'fillup',
@@ -353,44 +338,44 @@ Some nouns use different words as plural. Some examples are:
       ]
     },
     {
-        label: 'Fish or Fishes',
-        type: 'fillupOptions',
-        id: 'fillup-sp-1',
-    
-        data: {
-          title: `Tap on each blank and choose the right option.`,
-          text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of different kind, they're called *fishes (fish)*.`
-        }
-      },
-      {
-        label: 'Cow or Cows',
-        type: 'fillupOptions',
-        id: 'fillup-sp-2',
-    
-        data: {
-          title: `Tap on each blank and choose the right option.`,
-          text: `A *cow (cows)* is a very common animal in India. There are more than 300 million *cows (cow)* in India. *Cows (Cow)* give us milk. Baby *cows (cow)* are called calves. We often see *cows (cow)* chewing. A group of *cows (cow)* is called a herd. *Cows (Cow)* are also called cattle.`
-        }
-      },
-      {
-        label: 'Dog or Dogs',
-        type: 'fillupOptions',
-        id: 'fillup-sp-3',
-    
-        data: {
-          title: `Tap on each blank and choose the right option.`,
-          text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets.`
-        }
-      },
-      {
-        label: 'Spider or Spiders',
-        type: 'fillupOptions',
-        id: 'fillup-sp-4',
-    
-        data: {
-          title: `Tap on each blank and choose the right option.`,
-          text: `A *spider (spiders)* has 8 legs. *Spiders (Spider)* make webs to trap the insects for food. Female *spiders (spider)* lay eggs. These are very common insects. *Spiders (Spider)* are generally found in the corners of our home.`
-        }
-      },
-    ]
-  };
+      label: 'Fish or Fishes',
+      type: 'fillup',
+      id: 'fillup-sp-1',
+
+      data: {
+        title: `Tap on each blank and choose the right option.`,
+        text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of different kind, they're called *fishes (fish)*.`
+      }
+    },
+    {
+      label: 'Cow or Cows',
+      type: 'fillup',
+      id: 'fillup-sp-2',
+
+      data: {
+        title: `Tap on each blank and choose the right option.`,
+        text: `A *cow (cows)* is a very common animal in India. There are more than 300 million *cows (cow)* in India. *Cows (Cow)* give us milk. Baby *cows (cow)* are called calves. We often see *cows (cow)* chewing. A group of *cows (cow)* is called a herd. *Cows (Cow)* are also called cattle.`
+      }
+    },
+    {
+      label: 'Dog or Dogs',
+      type: 'fillup',
+      id: 'fillup-sp-3',
+
+      data: {
+        title: `Tap on each blank and choose the right option.`,
+        text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets.`
+      }
+    },
+    {
+      label: 'Spider or Spiders',
+      type: 'fillup',
+      id: 'fillup-sp-4',
+
+      data: {
+        title: `Tap on each blank and choose the right option.`,
+        text: `A *spider (spiders)* has 8 legs. *Spiders (Spider)* make webs to trap the insects for food. Female *spiders (spider)* lay eggs. These are very common insects. *Spiders (Spider)* are generally found in the corners of our home.`
+      }
+    }
+  ]
+};

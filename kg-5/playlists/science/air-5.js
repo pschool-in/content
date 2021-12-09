@@ -138,7 +138,7 @@ Presence of harmful substances in air have an  adverse effect on living beings a
     {
       id: 'fillup',
       label: 'Air Pollution- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Combustion of fossil fuels like coal and petroleum release *sulphur dioxide (carbon dioxide)*
@@ -259,7 +259,7 @@ Whooping cough - *Bordetalla pertusis*`
       id: 'reading-4',
       data: {
         title: 'Atmosphere',
-       text: `# Important terms
+        text: `# Important terms
 1. Lithosphere: land on Earth.
 2. Atmosphere: air on Earth.
 3. Hydrosphere: water on Earth.
@@ -423,7 +423,7 @@ Nimbus clouds, vertical cloud`,
     {
       id: 'fillup-2',
       label: 'Choose the correct option',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Equator - *0 (2)* degree
