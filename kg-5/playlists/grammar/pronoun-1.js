@@ -99,12 +99,12 @@ Congratulations! *You* are such a good dancer.
         `*I* am very happy.
         *She* is going home.
         *He* is playing.
-        *They* are our friends.
+        *They* are nice people.
         Ravi is playing with *him*.
         Do not touch the water. *It* is hot.
         *I* am waiting for the train.
         The teacher thinks that *he* is a smart boy.
-        My mom told me that *she* is a good dancer.`,
+        My mom told my brother that *she* is a good dancer.`,
 
         `Please give the pen to *me*.
         *I* am sitting on the chair.
@@ -174,7 +174,8 @@ Have they taken permission from them?`
       data: {
         title: 'This, That, These, Those',
         text: `These are words that help to show where things are.
-We use 'this' when pointing to one person, place, animal or thing (singular) that is near the speaker.We use 'these' when pointing to more than one person, place, animal or thing (plural) that are near the speaker.
+We use 'this' when pointing to one person, place, animal or thing (singular) that is near the speaker.
+We use 'these' when pointing to more than one person, place, animal or thing (plural) that are near the speaker.
 We use 'that' when pointing to one person, place, animal or thing (singular) that is far from the speaker.
 We use 'those' when pointing to more than one person, place, animal or thing (plural) that are near the speaker. `
       }
@@ -190,7 +191,7 @@ We use 'those' when pointing to more than one person, place, animal or thing (pl
 *That* is our school. (far)
 *Those* children are playing happily. (far)
 *Those* plastic bottles are old. (far)
-*These* are old newspaper. (near)
+*These* are old newspapers. (near)
 *Those* are giraffes. (far)
 *This* is my cat. (near)
 *This* is my gift. (near)`
