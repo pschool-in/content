@@ -52,7 +52,7 @@ export default {
         bench, a, an
         bat, a, an
         tiger, a, an
-        ice-cream, an, a
+        ice cream, an, a
         lemon, a, an
         house, a, an`,
 
@@ -87,7 +87,7 @@ export default {
         football, a, an
         panda, a, an
         mouse, a, an
-        ice-cream,an, a`
+        ice cream,an, a`
       ]
     },
     {
@@ -126,7 +126,7 @@ export default {
         an, eye, head`,
 
         `an, umbrella, cat
-        an, ice-cream, pot
+        an, ice cream, pot
         an, engineer, pen
         a, toy, eagle
         an, accident, ring
@@ -149,9 +149,9 @@ export default {
         `I had *an* egg for breakfast.
         My son wants to be *an* architect.
         Cheetah is *the* fastest land animal.
-        My dad is *a* professor at the University.
+        My dad is *a* Zoology professor.
         My son has *a* big world map in his room.
-        There is *an* orange in the fridge.
+        There is *an* orange in my bag.
         Did you read *the* book I gave you?
         Manish was *the* first to arrive in class.
         I have *a* little white kitten.
@@ -167,7 +167,7 @@ export default {
             *The* music is playing on *the* TV.
             There is *a* dog in *the* yard.
             I saw *an* owl on *the* branch.
-            The teacher read *a* story in *the* class.
+            *The* teacher read *a* story in *the* class.
             There is *a* beehive on *the* neem tree.
             He gave me *a* call in *the* evening.`
         }
@@ -267,7 +267,7 @@ export default {
         `I want *an* apple from that basket.
         The church on *the* corner is open.
         Are you coming to *the* party next Saturday?
-         I bought *a* new TV set yesterday
+         I bought *a* new TV set yesterday.
         I think *the* man over there is very ill.
         I watched *the* video you had sent me.
         She was wearing *an* ugly dress when she met him.
