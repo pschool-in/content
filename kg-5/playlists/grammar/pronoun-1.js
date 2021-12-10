@@ -106,7 +106,7 @@ Congratulations! *You* are such a good dancer.
         The teacher thinks that *he* is a smart boy.
         My mom told me that *she* is a good dancer.`,
 
-        `This is my pen, give it to *me*.
+        `Please give the pen to *me*.
         *I* am sitting on the chair.
         The guests arrived while *we* were watching the cricket match.
         Are *you* from Hyderabad?
@@ -202,10 +202,11 @@ We use 'those' when pointing to more than one person, place, animal or thing (pl
       id: 'select-word',
       data: {
         title: 'Select all the pronouns present in the below text.',
+        multiSelect: true,
         text: `*It* is *her* pen.
 Please give *it* to *me*.
 *It* was raining and *I* got wet.
-The principal told *us* that *she* is our new teacher.`
+The principal told *us* that *she* is *our* new teacher.`
       }
     }
   ]
