@@ -9,7 +9,7 @@ export default {
       id: 'pronoun-reading',
       data: {
         title: 'Interrogative Pronoun',
-        text: `We know that pronouns are the words used to replace one or more nouns. Apart from Personal, Possessive, Demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
+        text: `We know that pronouns are the words used to replace one or more nouns. Apart from personal, possessive, demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
 These are used to ask questions. The sentences with interrogative pronouns always end up with question marks. 
 
 There are five different types of Interrogative pronouns:
@@ -82,7 +82,7 @@ Some examples of interrogative pronouns:
         *What(Which)* is your brother's name?
         *Which(Whom)* car is yours?
         *Who(When)* is the new student in the class?
-        *What(When)*do you like to wear tomorrow?
+        *What(When)* would you like to wear tomorrow?
         *Which (What)* one of these burgers is made of meat?
         To *whom (who)* was the song dedicated?
         *What (Which)* do you want to do?`,
