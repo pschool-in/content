@@ -32,16 +32,16 @@ export default {
           `It is used as an object that refers back to the subject. eg: myself, yourself, herself, himself, itself`,
           {
             type: 'hilight',
-            text: `She herself cooked the food.
-            I myself saw him.
-            He himself cut the cake.`
+            text: `He cuts himself while chopping the vegetables.
+            I don't trust myself in tough times.`
           },
           `# Emphatic Pronouns`,
           `They are used to put emphasis on the subject. So usually they follow the subject.`,
           {
             type: 'hilight',
-            text: `He cuts himself while chopping the vegetables.
-            I don't trust myself in tough times.`
+            text: `She herself cooked the food.
+            I myself saw him.
+            He himself cut the cake.`
           }
         ]
       }
