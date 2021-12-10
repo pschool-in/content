@@ -353,15 +353,15 @@ My grandfather told *us* an interesting story.
       label: 'Fill up',
       type: 'fillup',
       data: {
-        title: "Fill in the blanks with 'he' and 'him'.",
-        text: `I bought *that (those)* tool yesterday.
-I like *these(this)* books.
-*That (Those)* is my mom's phone.
-None of *these (this) * answers are correct.
-*This, (These)* was my father's ring.
-This (These, Such) is mine.
+        title: "Fill in the blanks with the correct pronoun.",
+        text: `I bought *that (these, those)* tool yesterday.
+I like *these (this, that)* books.
+*That (Those, These)* is my mom's phone.
+None of *these (such, this) * answers are correct.
+*This, (These, Those)* was my father's ring.
+*This (These, Such)* is mine.
 There is no end to *this (them, such)*.
-Are *those(them, this)* your books?
+Are *those (them, this)* your books?
 *These (Them, Such)* are looking nice.
 *That (Them, Those)* was such a good experience.`
       }
