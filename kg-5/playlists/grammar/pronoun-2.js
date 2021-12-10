@@ -65,7 +65,7 @@ Did *you* water the plants?
         `*He* puts the book on the table.
 The children play with *it*.
 My mom told me that *they* have a lot of toys.
-I told everyone that *it* is my favorite book.
+Ram told everyone that *it* is his favorite book.
 *She* is playing outside.
 My mother likes *her* very much.
 *His* father scolds him.
@@ -76,7 +76,7 @@ Mrs. Sakshi is giving *them* chocolates.`,
         `*They* play in the park.
 Samir is *her* brother.
 *She* is a good girl.
-Maya takes *me* to her house every day.
+Maya takes *me* to canteen every day.
 *We* like to play football.
 *He* is good at sports.
 The house belongs to *them*.
