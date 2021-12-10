@@ -20,7 +20,7 @@ Some more examples of personal pronouns are:`,
             type: 'html',
             text: `<b>He</b> eats grapes.<br>
   <b>She</b> likes pear.<br>
-  <b>You</b> can have it.<br>
+  <b>You</b> can have <b>it</b>.<br>
   <b>They</b> like fruits.<br>
   <b>He</b> runs fast.<br>
   <b>She</b> jumps high.<br>
@@ -57,18 +57,18 @@ The teacher told everyone that *her* name is Meera.
 On Wednesday, *they* will go to the market.
 Meera thinks that *she* is very intelligent.
 *They* are studying together.
-*He* is teaching science in our school.
+*He* is teaching science in the school.
 Priya was shy at first but *she* is running very fast.
 Did *you* water the plants?
 *She* likes to dance.`,
 
         `*He* puts the book on the table.
 The children play with *it*.
-My mom told me that *they* have a lot of toys.
+My mom told my sister that *they* have a lot of toys.
 Ram told everyone that *it* is his favorite book.
 *She* is playing outside.
 My mother likes *her* very much.
-*His* father scolds him.
+*His* father scolds everyone in the house.
 The book belongs to *me*.
 *I* am never late for class.
 Mrs. Sakshi is giving *them* chocolates.`,
@@ -76,7 +76,7 @@ Mrs. Sakshi is giving *them* chocolates.`,
         `*They* play in the park.
 Samir is *her* brother.
 *She* is a good girl.
-Maya takes *me* to canteen every day.
+Maya takes *me* to the canteen every day.
 *We* like to play football.
 *He* is good at sports.
 The house belongs to *them*.
@@ -93,9 +93,9 @@ Could you help me move *these*?
 *That* looks like a rat.
 Throw *those* rolls away.`,
 
-        `I would like *those*, please.
+        `My brother would like *those*, please.
 *These* are nice flowers.
-I am not sure *that* is how you do it.
+Raju told everyone *that* the party is tomorrow.
 *This* is crazy!`
       ]
     },
@@ -239,7 +239,7 @@ I am not sure *that* is how you do it.
         title: "Fill in the blanks with 'they' and 'them'.",
         text: `We asked *them* to keep the door open.
   If you build it, *they* will come.
-  *They* are very nice people.
+  *They (Them)* are very nice people.
   What do *they* want?
   I have lost my keys. I can't find *them* anywhere.`,
         options: 'they, them'
@@ -253,7 +253,7 @@ I am not sure *that* is how you do it.
         title: "Fill in the blanks with 'he' and 'him'.",
         text: `If you see David, give *him* these books.
   Does *he* want some coffee?
-  *He* is a wise man.
+  *He (Him)* is a wise man.
   Did Mohan get the promotion *he* wanted?
   I didn't recognize *him*.`,
         options: 'he, him'
@@ -358,7 +358,7 @@ My grandfather told *us* an interesting story.
 I like *these (this, that)* books.
 *That (Those, These)* is my mom's phone.
 None of *these (such, this) * answers are correct.
-*This, (These, Those)* was my father's ring.
+*This (These, Those)* was my father's ring.
 *This (These, Such)* is mine.
 There is no end to *this (them, such)*.
 Are *those (them, this)* your books?
