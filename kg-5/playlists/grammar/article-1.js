@@ -255,7 +255,7 @@ export default {
       data: [
         [
           `I would like to have an orange.
-          A Donkey is an animal.
+          A donkey is an animal.
           I bought an umbrella.`,
 
           `I ate an apple pie yesterday.
