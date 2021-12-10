@@ -18,7 +18,7 @@ export default {
           {
             type: 'hilight',
             text:
-              'an apple, an animal, an egg, an eagle, an ice-cream, an owl, an umbrella'
+              'an apple, an animal, an egg, an eagle, an ice cream, an owl, an umbrella'
           },
           {
             type: 'html',
@@ -38,7 +38,7 @@ export default {
             type: 'html',
             text: `<b>a</b> and <b>an</b> are used to refer any one of the things. But <b>the</b> is used to refer to a specific thing.<br>
             I went to a doctor. The doctor was very kind.<br>
-            In the first sentence, we use <b>a</b> before the word <b>doctor</b> because she is one of the many doctor. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
+            In the first sentence, we use <b>a</b> before the word <b>doctor</b> because she is one of the many doctors. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
           }
         ]
       }
@@ -171,7 +171,7 @@ export default {
         `Ravi is *a* boy.
         He is *a* doctor.
         I saw *an* elephant.
-        I have an *umbrella*.
+        I have *an* umbrella.
         We have *a* pet dog.
         Preethi is *an* honest student.
         Ram is *a* very smart boy.
@@ -255,7 +255,7 @@ export default {
       data: [
         [
           `I would like to have an orange.
-          A Donkey is an animal.
+          A donkey is an animal.
           I bought an umbrella.`,
 
           `I could see stars at night.
