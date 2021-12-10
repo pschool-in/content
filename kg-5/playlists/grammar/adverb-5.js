@@ -1,24 +1,62 @@
 export default {
   id: 'adverb-5',
-  label: 'Adverb-5',
+  label: 'Adverb of Degree and Frequency',
   pdf: '',
   list: [
     {
-      label: 'Adverb of Frequency',
+      label: 'Reading',
       type: 'passage',
       id: 'adverb-of-frequency',
       data: {
-        title: 'Adverb of Frequency',
-        text: `Adverb of frequency tells us;
-1. how many times an action has occurred in the past.
-2. how many times does it occur in the present.
-3. how many times will it occur in the future.
-Examples are sometimes, usually, always, generally, seldom, rarely, often, ever, weekly, monthly, etc.
-1. Rashi never plays cricket.
-2. Amir visits his grandparents weekly.
-3. She sometimes teaches younger kids.
-4. We should brush our teeth twice.`
+        title: 'Types of Adverbs',
+        text: [
+          `# Adverb of Frequency
+          It tells 'how often' something happens.`,
+          {
+            type: 'html',
+            text: `I <b>always</b> wake up at 6 o'clock.<br>
+I <b>rarely</b> watch TV.`
+          },
+          `# Adverb of Degree
+          It tells 'how much' or 'to what extent'.`,
+          {
+            type: 'html',
+            text: `I <b>totally</b> agree with you.<br>
+I was <b>really</b> excited.`
+          }
+        ]
       }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the Word',
+      id: 'select-word',
+      commonData: {
+        title: 'Tap on the adverb of degree in each sentence.'
+      },
+      data: [
+        `The food was *extremely* hot.
+The book is *quite* interesting.
+She was *just* playing.
+Reena is *almost* done.
+That boy was *very* smart.
+She is *very* kind.
+I am *rather* busy.
+The game went *horribly* wrong.
+Is your tea hot *enough?*
+It was *too* cold.`,
+
+        `My bag isn't big *enough*.
+Can I eat the chocolate *too*?
+She worked *quickly*.
+I *almost* stumbled on the rock.
+She reached on the top *so* quickly.
+The team played *spectacularly*.
+It's not big *enough*.
+I was *too* tired to get up this morning.
+The function was *very* good.
+He drove the car *very* fast.`
+      ]
     },
     {
       type: 'selectWord',
@@ -65,7 +103,7 @@ I take a bath *daily*.`
       id: 'drag-and-drop',
       commonData: {
         title: 'Identify if these words are adverbs of frequency or not.',
-        types: ['Yes', 'No']
+        types: ['Adverb of Frequency', 'Not So']
       },
       data: [
         [
@@ -82,34 +120,49 @@ I take a bath *daily*.`
       ]
     },
     {
-      id: 'fill-up',
-      label: 'Identify',
-      type: 'fillup',
+      type: 'selectWord',
+      label: 'Select the adverbs of degree',
+      id: 'multi-select-adverb',
       commonData: {
-        title: `Choose the correct adverb of frequency. Tap on each blank to view options.`
+        title: 'Tap on all the adverb of degrees.',
+        multiSelect: true
       },
       data: [
-        `We go on a vacation *annually (annualy, once)*.
-He is *often (offten, twice)* late for class.
-We should brush our teeth *twice (two, twise)* in a day.
-I *usually (usual, general)* wake up late on holidays.
-Ram is *never (not, nor)* late for work.
-I *often (more, usual)* travel on weekends.
-When do you *uaually (almost, utmost)* study?
-My dad is late, *yet (but, for)* he'll go to the office.
-*Yesterday (Yesternight, Usually)* we had sports day at school.
-I will do my HW *tonight (some night, in day)*.`,
+        `She was *considerably* sick. Yet she *bravely* appeared in the exam. Everone praised her.
+She gained a lot of weight *enormously*. She was *very* thin last year. And she got *very* fat this year.
+The guests were *pretty* loud. I could *hardly* study. So I decided to do it later.
+The teacher *completely* agreed with my answer. I was *extremely* happy. My enemies got *very* jealous.
+I was *immensely* tired after the programme. My mom made *so* much food. But I was *quite* tired so I slept.
+That man *somewhat* looked like my uncle. I *almost* got confused. Then I realised he was *just* similar to him.
+We live in the same street and go to the same school. But, I *barely* talk to him. He's *quite* irritating.
+She made fun of me. I am *deeply* hurt. She is *very* bad and rude. She *almost* made me cry.`,
 
-        `My mom *always (anyways, alway)* gives me lunch.
-I am *constantly (constant, most)* thinking about it.
-I go to school *daily (usual, frequent)*.
-He *generally (general, usual)* eats biscuits with tea.
-I'll talk to you *later (late, lately)*.
-Come here *now (today, you)*.
-I *rarely (lowly, less)* speak to him.
-My dad will be home *soon (fast, quick)*.
-My aunt is coming to my home *today (to day, this day)*.
-*Sometimes (Sometime, Usualy)* we stop to buy candies on our way home.`
+        `It's *very* cold outside. I would *rather* stay inside a blanket. It is *extremely* cold.
+I like this book. I *really* admire the author. I will now read all the books he has written.
+Our teacher decided to teach us even in the lunch break. And now we all are *literally* starving.
+The artist *minutely* observed my painting. He said it was good *enough*. I felt *immense* joy.
+I *strongly* believe that we should obey our elder. It is because they know about *so* many things.
+My friend *highly* recommended me this book. I *just* finished reading. I think it is *very* interesting.
+The teacher *thoroughly* checked my answer sheet. I answered *almost* all the questions correctly.
+I became *slightly* uncomfortable when the guests came. I am *simply* shy. So, I left within 5 minutes.`,
+
+        `He was *almost* finished with his work. But the teacher gave him a lot more to do.
+The milk was *completely* frozen because it was kept in the freezer. I *quickly* put it outside.
+The teacher was *terribly* rude today. She gave us *so* much homework that it is more than *enough* for the week.
+The cake was *absolutely* delicious. But I *barely* ate it because I ate *so* many french fries. I like them *very* much.
+I feel *incredibly* lucky. My exams are cancelled. I can play all day long.
+I *just* finished my work. Now I *hardly* have any energy left. I will *rather* sleep than watching TV.
+The movie was *quite* interesting. We *deeply* discussed about it. We liked it *very* much.
+The water was *extremely* cold. We should prefer to drink warm water. It is *very* good for our health.`,
+
+        `Tarun walks *extremely* fast. But I walk *quite* slowly. I *barely* match his pace.
+It is *nearly* impossible for me to attend the party. I am going with my family to a *very* popular restaurant.
+When you try something new, you should *really* look at the instructions first. The are *immensely* useful.
+Rahul is *rather* quite. But his brother is *pretty* talkative. He is also *very* outgoing.
+Your answers are *slightly* wrong. You should revise them *thoroughly* before submitting.
+He performed *remarkably* well this year. The teachers are *extremely* proud of him. He *really* did *very* well.
+Are these pens *enough*? Do you think they are *too* many? Shall I return some of these?
+I am not *entirely* sure what homework the teacher gave us. I was *slightly* distracted in the class.`
       ]
     },
     {
@@ -157,6 +210,51 @@ I *always* study very hard to get good grades. My dad *always* takes me to anoth
 Even though they have to get up *early*, they *rarely* go to bed on time. They *generally* watch TV at night.
 The teacher said that she'll clear my doubt *later*. I can come back in *sometime*.`
       ]
+    },
+    {
+      label: 'Classify Adverb Type',
+      type: 'classifySentence',
+      id: 'classify2',
+      commonData: {
+        title: 'Classify the type of adverb present in the below sentence.',
+        types: ['Frequency', 'Degree']
+      },
+      data: [
+        [
+          `I brush my teeth twice.
+Our teacher is always punctual. 
+The spider tried again and again to catch the fly. 
+He is often late for the Maths class.
+I always read comic books.`,
+
+          `We have almost finished our homework.   
+Our office is fully furnished. 
+This job is quite interesting. 
+Her dress was too small for me. 
+Latha likes Italy very much.`
+        ],
+        [
+          `I seldom go to the library.
+We occasionally eat out.
+We often spend weekends with friends.
+I usually do the homework after dinner.`,
+
+          `Your dinner is *almost* ready.
+Our class teacher has an *extremely* busy schedule.
+Our store room is *fully* loaded.
+This job is *quite* interesting.`
+        ]
+      ]
+    },
+    {
+      id: 'sort',
+      label: 'Adverb of Frequency',
+      type: 'sorting',
+      data: {
+        title:
+          'Rearrange the adverbs of frequencies from the most probable to the least probable.',
+        text: `Always, Usually, Sometimes, Rarely, Never`
+      }
     }
   ]
 };

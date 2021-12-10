@@ -1,6 +1,6 @@
 export default {
   id: 'adverb-4',
-  label: 'Adverb-4',
+  label: 'Types of Adverbs',
   pdf: '',
   list: [
     {
@@ -8,134 +8,42 @@ export default {
       type: 'passage',
       id: 'adverb-of-degree',
       data: {
-        title: 'Adverb of degree',
-        text: `Adverb of degree tells us to what extent the action has been done. In simple words, it answers the question 'how much?'
-For example:
-The girl was very beautiful.
-In this sentence, the word very tells us how much beautiful is the girl.
-More examples are:
-1. Ram can run so quickly.
-2. I really enjoyed the ride.
-Other common adverbs of degree are almost, quite, nearly, extremely, too, just, enough, hardly, almost, etc.
-There are three types of adverb of degrees:
-1. Positive
-"The toy plane is big."
-This sentence talks about the toy plane. Here, the toy plane is not compared to anything else. Therefore, big is a positive degree of comparison.
-2. Comparative
-"The doll is bigger than the plane."
-In this sentence, the doll is compared to a plane. Therefore, faster is the comparative degree of comparison.
-3. Superlative
-"The teddy bear is the biggest of all."
-In this sentence, the teddy bear, doll and toy plane are compared with each other. Teddy bear is superior to all. Therefore, biggest is the superlative degree of comparison.`
+        title: 'Types of Adverbs',
+        text: [
+          `Adverbs are classified based on 'what type' of information it adds.
+          # Adverb of Manner
+          It tells 'how' something happens.`,
+          {
+            type: 'html',
+            text: `Eg:<br>
+            I <b>strongly</b> agree with you.<br>
+            He jumped <b>high</b> in the air.`
+          },
+          `# Adverb of Time
+          It tells 'when' something happens.`,
+          {
+            type: 'html',
+            text: `Eg:<br>
+            I will see you <b>tomorrow</b>.
+            I need some water <b>later</b>.`
+          },
+          `# Adverb of Place
+          It tells 'where' something happens.`,
+          {
+            type: 'html',
+            text: `Eg:<br>
+            Please come <b>in</b>.
+            The kids are <b>downstairs</b>.`
+          }
+        ]
       }
-    },
-    {
-      label: 'Classify',
-      type: 'classifySentence',
-      id: 'classify',
-      commonData: {
-        title: `Identify if these adverbs are positive, comparative or superlative.`,
-        types: ['Positive', 'Comparative', 'Superlative']
-      },
-      data: [
-        [
-          `Big
-            Happy
-            Quick`,
-
-          `Smaller
-            Quicker
-            Faster`,
-
-          `Happiest
-             Bravest
-             Biggest`
-        ],
-        [
-          `Tall
-             Good
-             Pretty`,
-
-          `Better
-             Heavier
-             Taller`,
-
-          `Best
-             Prettiest
-             Bravest`
-        ],
-        [
-          `Hard
-             Wide
-             Suddenly`,
-
-          `More carefully
-             Worse
-             More justly`,
-
-          `Most carefully
-             Most justly
-             Longest`
-        ],
-        [
-          `Fast
-            Carefully
-            Justly`,
-
-          `Harder
-            More suddenly
-            Louder`,
-
-          `Widest
-            Fastest
-            Worst`
-        ],
-        [
-          `Badly
-             Loud
-             Long`,
-
-          `Wider
-            Faster
-            Longer`,
-
-          `Hardest
-            Most suddenly
-            Loudest`
-        ]
-      ]
-    },
-    {
-      label: 'True or False',
-      id: 'truefalse',
-      type: 'classifySentence',
-      commonData: {
-        title: 'State whether the following statements are true or false.',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Superlative degree of adverb means that the object is superior (on top).
-            Comparative degree talks about comparison between two words.`,
-
-          `A positive degree talks about positive qualities only.
-            All adverbs of degree have the same meaning.`
-        ],
-        [
-          `Adverb of degree answers the question "how much."
-            'Very' is an adverb of degree.`,
-
-          `Adverb of degree answers the question "how."
-            'Extremely' is an adverb of manner.`
-        ]
-      ]
     },
     {
       id: 'fill-up',
       label: 'Fill up with options',
       type: 'fillup',
       commonData: {
-        title: `Tap on each blank for options.`
+        title: `Fill in the blanks.`
       },
       data: [
         `I *really (very)* enjoyed the ride.
@@ -162,80 +70,144 @@ He danced *wonderfully (wonderful)*.`
       ]
     },
     {
-      type: 'selectWord',
-      label: 'Select the Word',
-      id: 'select-word',
+      label: 'Classify Adverb Type',
+      type: 'classifySentence',
+      id: 'classify',
       commonData: {
-        title: 'Tap on the adverb of degree in each sentence.'
+        title: 'Classify the type of adverb present in the below sentence.',
+        types: ['Manner', 'Time', 'Place']
       },
       data: [
-        `The food was *extremely* hot.
-The book is *quite* interesting.
-She was *just* playing.
-Reena is *almost* done.
-That boy was *very* smart.
-She is *very* kind.
-I am *rather* busy.
-The game went *horribly* wrong.
-Is your tea hot *enough?*
-It was *too* cold.`,
+        [
+          `Anu swims well. 
+Hari ran quickly. 
+Sheela spoke softly.`,
 
-        `My bag isn't big *enough*.
-Can I eat the chocolate *too*?
-She worked *quickly*.
-I *almost* stumbled on the rock.
-She reached on the top *so* quickly.
-The team played *spectacularly*.
-It's not big *enough*.
-I was *too* tired to get up this morning.
-The function was *very* good.
-He drove the car *very* fast.`
+          `We must go now.
+I will call you later.
+The fight is not over yet. 
+The train is coming late.`,
+
+          `Henry walked towards the car. 
+My son ran towards me. 
+The balloon went up.`
+        ],
+        [
+          `He always keeps himself busy.
+The child ran towards his mother happily.
+Gopi calmly explained his point of view.`,
+
+          ` Pooja forgot her lunch yesterday.
+Rohan decided to leave immediately.
+You must reach there by tomorrow.`,
+
+          ` Water always flows downhill.
+She took the child outside.
+Maya looked upwards to the sky.`
+        ],
+        [
+          `They speak English fluently.
+The tortoise moves slowly.
+He answered all questions correctly.`,
+
+          `Is Kamala still sleeping?
+We have holiday tomorrow.
+I am happy today.`,
+
+          `The balloon drifted upwards.
+My uncle is standing nearby.
+Please come forward and answer.`
+        ]
       ]
     },
     {
       type: 'selectWord',
-      label: 'Select the adverbs of degree',
-      id: 'multi-select-adverb',
+      label: 'Select the adverb of manners',
+      id: 'multi-select-word',
       commonData: {
-        title: 'Tap on all the adverb of degrees.',
+        title: 'Tap on the adverb of manners in the following sentences.',
         multiSelect: true
       },
       data: [
-        `She was *considerably* sick. Yet she *bravely* appeared in the exam. Everone praised her.
-She gained a lot of weight *enormously*. She was *very* thin last year. And she got *very* fat this year.
-The guests were *pretty* loud. I could *hardly* study. So I decided to do it later.
-The teacher *completely* agreed with my answer. I was *extremely* happy. My enemies got *very* jealous.
-I was *immensely* tired after the programme. My mom made *so* much food. But I was *quite* tired so I slept.
-That man *somewhat* looked like my uncle. I *almost* got confused. Then I realised he was *just* similar to him.
-We live in the same street and go to the same school. But, I *barely* talk to him. He's *quite* irritating.
-She made fun of me. I am *deeply* hurt. She is *very* bad and rude. She *almost* made me cry.`,
+        `He had a meeting. So, he *quickly* drank the water and went to the office *hurriedly*.
+        Someone *suddenly* cracked a joke. She did not understand but laughed *nervously*.
+        She is reading *carefully*. She's trying to complete her lessons *quickly*. She has a test tomorrow.
+        I was crossing the street and my mom was *anxiously* looking at me. I *happily* waved at her after crossing.
+        We had to move the sofa across the room. So we moved it *quickly*, but *awkwardly* in front of the guests.
+        He *calmly* explained the lesson to me. I don't have any doubts now. I will *calmly* write the test today.
+        He is *eagerly* waiting for his job letter. He has worked very hard for this.
+        My teacher has *faithfully* worked for my school. She will be awarded and will continue to work *respectfully*.
+        Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
+        The man in the street was *badly* hurt. I *quickly* called the hospital. The man was soon treated *carefully* and *efficiently*.
+        He ate all the chocolate *greedily*. But my friend *gently* tapped me on my shoulder and *politely* offered me his cake.`,
 
-        `It's *very* cold outside. I would *rather* stay inside a blanket. It is *extremely* cold.
-I like this book. I *really* admire the author. I will now read all the books he has written.
-Our teacher decided to teach us even in the lunch break. And now we all are *literally* starving.
-The artist *minutely* observed my painting. He said it was good *enough*. I felt *immense* joy.
-I *strongly* believe that we should obey our elder. It is because they know about *so* many things.
-My friend *highly* recommended me this book. I *just* finished reading. I think it is *very* interesting.
-The teacher *thoroughly* checked my answer sheet. I answered *almost* all the questions correctly.
-I became *slightly* uncomfortable when the guests came. I am *simply* shy. So, I left within 5 minutes.`,
+        `I was at the railway station yesterday. The announcement asked the people to move away from the tracks. Then a bullet train passed by very *quickly*.
+        There were many children in the park. They were playing *happily*. After 7 pm, they *sadly* went to their homes.
+        We are going to the jungle. We may see many wild animals there. My mom asked my dad to drive *carefully*.
+        I am at a party with my family. My mom asked me to talk to everyone *politely* and *respectfully*.
+        Stop talking so *noisily* in the library. It might disturb other readers. The sounds echo *loudly* in the hall.
+        My father can drive the car *easily*. But he yells *angrily* when the traffic irritates him.
+        Our school *suddenly* announced a trip. We all got very excited. Everyone started making plans *excitedly*.
+        Sheena was talking *loudly* on the phone. I asked her to speak *slowly* because my mom was sleeping.
+        He lied to everyone. When we asked him, he *foolishly* denied it. So, everyone decided not to talk to him.
+        My dad tried to give him instructions *calmly*. But he was driving *carelessly*. We were very scared.
+        Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`,
 
-        `He was *almost* finished with his work. But the teacher gave him a lot more to do.
-The milk was *completely* frozen because it was kept in the freezer. I *quickly* put it outside.
-The teacher was *terribly* rude today. She gave us *so* much homework that it is more than *enough* for the week.
-The cake was *absolutely* delicious. But I *barely* ate it because I ate *so* many french fries. I like them *very* much.
-I feel *incredibly* lucky. My exams are cancelled. I can play all day long.
-I *just* finished my work. Now I *hardly* have any energy left. I will *rather* sleep than watching TV.
-The movie was *quite* interesting. We *deeply* discussed about it. We liked it *very* much.
-The water was *extremely* cold. We should prefer to drink warm water. It is *very* good for our health.`,
+        `Raj fell down. We helped him to sit on the chair *comfortably*. I ran *quickly* and told my teacher.
+        I had a fight with my friend. We were shouting *loudly*. His mom told us to talk *nicely* with each other.
+        I was *hardly* able to focus on my homework. Then my friend explained it to me very *easily*. I can *simply* solve it now.
+        She was dressed *smartly* for the party. She also danced *beautifully*. Everyone clapped and praised her.
+        He scored well in exams. He told his parents *proudly*. They decided to celebrate by going to a restaurant.
+        The teacher checked the answers *carefully*. I answered many questions *correctly* and scored well.
+        I *energetically* did my exercise in the morning. I was feeling fresh all day long. I did all my work *efficiently*.
+        The teacher yelled at us *angrily*. The class *immediately* started doing their homework.
+        I *gladly* told my parents that I got selected for the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
+        I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.`,
 
-        `Tarun walks *extremely* fast. But I walk *quite* slowly. I *barely* match his pace.
-It is *nearly* impossible for me to attend the party. I am going with my family to a *very* popular restaurant.
-When you try something new, you should *really* look at the instructions first. The are *immensely* useful.
-Rahul is *rather* quite. But his brother is *pretty* talkative. He is also *very* outgoing.
-Your answers are *slightly* wrong. You should revise them *thoroughly* before submitting.
-He performed *remarkably* well this year. The teachers are *extremely* proud of him. He *really* did *very* well.
-Are these pens *enough*? Do you think they are *too* many? Shall I return some of these?
-I am not *entirely* sure what homework the teacher gave us. I was *slightly* distracted in the class.`
+        `I *gladly* told my parents that I got selected in the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
+        I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.
+        He lied to everyone. When we asked him, he *foolishly* denied. So, everyone decided not to talk to him.
+        My dad tried to give him instructions *calmly*. But he was driving *carelessly*. We were very scared.
+        Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
+        The man in the street was *badly* hurt. I *quickly* called the hosptial. The man was soon treated *carefully* and *efficiently*.
+        He ate all the chocolate *greedily*. But my friend *gently* tap me on my shoulder and *politely* offered me his cake.
+        Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Select all Adverbs',
+      id: 'multi-select-word',
+      commonData: {
+        title: 'Select all Adverbs in the below sentences.',
+        multiSelect: true
+      },
+      data: [
+        `The cat is *under* the sofa. It went there *when* it was time to bath.
+       I will clean my house *tomorrow*. I am very tired *now*.
+       The children are playing *outside*. They have been playing *since* evening.
+       I am studying in this school *since* fourth grade. The school is *in* the city.
+       We rowed the boat towards *north*, *where* the waves were not high.
+       She came *running* to me *when* she saw a dog. I laughed.
+       I had my lunch over *there* *yesterday*. I will eat *here* *today*.
+       He *never* drinks milk. His mom sends him *at* my house. He drinks it with me.
+       We are meeting *behind* the school *next week*. We will play cricket *there*.
+       *Since* she moved *across* the street, we have become friends. We play *in* the park *every day*.
+       The car is moving *backwards*. I will move aside *when* it will come closer.
+       I *always* eat an apple *in* the kitchen. I go to the school *afterwards*.`,
+
+        `I met Ram *yesterday*. I came to know that he lives *across* the street.
+       I completed my homework *last night*. I won't be punished *in* the school today.
+       She is going *towards* the library. But it is closed *now*.
+       Do you know *where* does he live? I need my book by *tonight*.
+       I am taking my dog for a walk *now*. It loves to go *near* the park.
+       I will be *here* *tomorrow* also. We can meet *here* only.
+       My sister likes to play *indoor* games. But she went to play cricket *yesterday* evening.
+       I will go to the school *next week*. I am *overseas* *right now*.
+       The clouds are *up* *in* the sky. It will probably rain *tonight*.
+       We looked *around* but we couldn't find the dog. It may be sleeping.
+       My brother *never* helps me. He is always *at* his friend's house.
+       *Sometimes*, my Dad comes home early. Then we walk *around* the street at night.`
       ]
     }
   ]

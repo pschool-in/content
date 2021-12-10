@@ -1,32 +1,128 @@
 export default {
   id: 'adverb-3',
-  label: 'Adverb-3',
+  label: 'Introduction to Adverb',
   pdf: '',
   list: [
     {
-      label: 'Adverb of Manners',
+      label: 'Adverb Reading',
       type: 'passage',
-      id: 'adverb-3-reading',
+      id: 'reading',
       data: {
-        title: 'Adverb of Manners',
-        text: `We know that adverbs tell us about the verb, adjective or another adverb. Adverbs of manner tells us how an action is done. In simple words, it answers the question 'how'. These adverbs generally end with '-ly'. 
-Some examples are:
-1. The turtle moves slowly.
-2. The dog runs quickly.
-3. The girl walked smartly.
-We can also convert some adjectives into adverbs by simply adding '-ly' in the end. For example;
-1. safe- safely
-2. gentle- gently
-3. possible- possibly
-4. correct- correctly
-5. sad- sadly
-6. angry- angrily
-7. happy- happily
-Some more examples of adverb of manners are:
-1. Richa completed her homework independently.
-2. The old lady feeds kindly to the street animals.
-3. The teacher clearly explained the topic.`
+        title: 'Adverb',
+        text: [
+          `An adverb is a word that adds more meaning to a verb or adjective or another adverb.
+          # Modifying Verb`,
+          {
+            type: 'html',
+            text: `John speaks <b>loudly</b>.<br>
+            Rohan left <b>immediately</b>.`
+          },
+          `# Modifying Adjective`,
+          {
+            type: 'html',
+            text: `He is <b>really</b> handsome.<br>
+            The story was <b>very</b> interesting.`
+          },
+          `# Modifying Another Adverb`,
+          {
+            type: 'html',
+            text: `Sara drives <b>very</b> slowly.<br>
+            Deepa is reading <b>so</b> quickly.`
+          }
+        ]
       }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the Word',
+      id: 'select-word',
+      commonData: {
+        title: 'Click on the adverb in the below sentence.'
+      },
+      data: [
+        `Anu swims *well.*
+Hari ran *fast.*
+Sheela spoke *softly.*
+Ram plays the flute *beautifully.*
+Siva ate the chocolate cake *eagerly.*
+The town grew *quickly* after 1997.
+Muthu waited *patiently* for his mother to arrive.
+Vino swam *well* despite being tired.
+The rain fell *hard* during the storm.
+They speak English *fluently.*`,
+
+        `We must go *now.*
+The tortoise moves *slowly.*
+It is *very* cold at night.
+James coughed *loudly.*
+Kamal answered all the questions *correctly.*
+The cat walked *calmly* along the fence.
+They are working *hard* in the sun.
+The poor man's hut was *badly* damaged in the rain.
+I *eagerly* wait to go home.
+Pooja forgot her lunch *yesterday.*`,
+
+        `We have a holiday *tomorrow.*
+I am happy *today.*
+Is Kamala *still* sleeping?
+Please come *forward* and answer.
+He answered all questions *correctly.*
+I brush my teeth *twice.*
+Our teacher is *always* punctual.
+Dheena is *often* late for the Maths class.
+I *always* read comic books.
+Please come *forward* and answer.`
+      ]
+    },
+    {
+      label: 'Classify Modifier',
+      type: 'classifySentence',
+      id: 'classify3',
+      commonData: {
+        title: 'What does the underlined adverb modifies?',
+        types: ['Verb', 'Adjective', 'Adverb']
+      },
+      data: [
+        [
+          `They speak English *fluently.*
+We must go *now.*
+Pooja forgot her lunch *yesterday.*`,
+
+          `It is *very* cold at night.
+I am happy *today.*
+He is *really* funny.`,
+
+          `Helen drives *extremely* fast.
+I get up *very* early sometimes.
+I have seen her *only* once.`
+        ],
+        [
+          `Please come *forward* and answer.
+The tortoise moves *slowly.*
+He answered all questions *correctly.*`,
+
+          `The water is hot *enough* to prepare tea.
+You have to be *more* careful.
+He is a *very* kind person.`,
+
+          `She talks *too* much.
+Why did you go *so* far?
+He is *not* always busy.`
+        ],
+        [
+          `We must go *now.*
+I will call you *later.*
+The train is coming *late.*`,
+
+          `The answer is *completely* wrong.
+I am *very* hungry.
+The cat is brave *enough* to chase the dogs.`,
+
+          `He answered the question *more* quickly than I did.
+She slept *too* late.
+He writes *quite* slowly.`
+        ]
+      ]
     },
     {
       type: 'group',
@@ -55,181 +151,34 @@ Some more examples of adverb of manners are:
       label: 'Complete the word',
       id: 'complete-2',
       commonData: {
-        title: 'Form the adverb of manner from the given word and hints.'
+        title: 'Form the adverb from the root word.'
       },
       data: [
-        `Bad | BADLY | B__LY
-Noisy | NOISILY | N__SI__
-Beautiful | BEAUTIFULLY | BEA___F___Y
-Easy | EASILY | EA__L_
-Careful | CAREFULLY | CA_EF__LY`,
+        `Bad | BADLY | BA___
+Noisy | NOISILY | NOI____
+Beautiful | BEAUTIFULLY | BEAUTI_____
+Easy | EASILY | EAS___
+Careful | CAREFULLY | CAREF____
+Quick | QUICKLY | QUIC___
+Tight | TIGHTLY | TIGH___
+Quiet | QUIETLY | QUIE___`,
 
-        `Quick | QUICKLY | Q_IC__Y
-Tight | TIGHTLY | __GH__Y
-Quiet | QUIETLY | QU____Y
-Near | NEARLY | _E__LY
-Good | WELL | W__L`,
+        `Near | NEARLY | NEA___
+Greed | GREEDILY | GREE____
+Gentle | GENTLY | GEN___
+Fluent | FLUENTLY | FLUEN___
+Hard | HARDLY | HAR___
+Rapid | RAPIDLY | RAPI___
+Brief | BRIEFLY | BRIE___
+Careless | CARELESSLY | CARELE____`,
 
-        `Greedy | GREEDILY | G__ED_L_
-Gentle | GENTLY | _E__L_
-Fluent | FLUENTLY | FL__N_L_
-Hard | HARDLY | H__D_Y
-Fast | FAST | __ST`,
-
-        `Rapid | RAPIDLY | __PID__
-Brief | BRIEFLY | BR____Y
-Careless | CARELESSLY | __REL__S_Y
-Loud | LOUDLY | L___LY
-Most | MOSTLY | ___TL_`,
-
-        `Eager | EAGERLY | E__ER__
-Awkward | AWKWARDLY | __K__RD_Y
-Bright | BRIGHTLY | BRI____Y
+        `Loud | LOUDLY | LO____
+Most | MOSTLY | MOS___
+Eager | EAGERLY | EAGE___
+Awkward | AWKWARDLY | AWKWAR___
+Bright | BRIGHTLY | BRIGH___
 Busy | BUSILY | BUS___
-Clear | CLEARLY | ___ARL_`
-      ]
-    },
-    {
-      id: 'fill-up',
-      label: 'Fill up with options',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blank with the correct option.`
-      },
-      data: [
-        `They dance *beautifully (beautiful, beautifuly)*.
-Richa doesn't work *hard (hardly, hardily)*.
-She knows the road *well (good, goodly)*.
-We have to get up *early (earlily, soon)*.
-Our teacher arrives *late (lately, soonly)* for class.
-He ate his meal *quickly (quick, quickily)*.
-He is very *talented (talent, talents)*.
-They missed the bus, *unfortunately (unfortunate, fortunately)*.
-They waited *patiently (patient, patience)* until 1 pm.
-She tried on her new dress *happily (happyly, happy)*.`,
-
-        `He drives too *fast (well, fastly)*.
-She speaks very *quietly (quiet, quitely)*.
-He plays the guitar *terribly (terrible, terribily)*.
-She walked *happily (happy, happly)* to the school.
-He planned the trip *nicely (nice, nicily)*.
-She spoke *softly (softness, soft)*.
-James shouted *loudly (loud, louds)* to call her.
-He swims *well (good, medium)*.
-She *angrily (angryly, angry)* shut the door.
-She is very *greedy (greedily, greed)*.`
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'Correct Spelling',
-      id: 'spelling',
-      commonData: {
-        title: 'Identify the correct spelling for these adverb of manners.',
-        noCaps: true
-      },
-      data: [
-        `Safely, Safily
-Noisily, Noisly
-Godly, Godily
-Angrily, Angrys
-Sadly, Sads
-Hopefully, Hopefuly
-Gently, Gentley
-Possibly, Possibley
-Cruelly, Cruely
-Doubtfully, Doubtfuly`,
-
-        `Eagerly, Eagers
-Easily, Easyly
-Equally, Equaly
-Exactly, Exactily
-Faithfully, Faithfuley
-Foolishly, Foolishily
-Gladly, Gladily
-Honestly, Honestty
-Innocently, Inocently
-Joyously, Joyosly`
-      ]
-    },
-    {
-      label: 'Right match',
-      id: 'complete',
-      type: 'completePuzzle',
-      commonData: {
-        type: 'rightOpen',
-        title: 'Identify the correct adverb of manner for these adjectives.',
-        printTitle: 'Fill up with the right option.',
-        fontSize: '1.5rem'
-      },
-      data: [
-        `Smart, Smartly, Smartily
-  Possible, Possibly, Possibley
-  Pleasant, Pleasantly, Pleasantary
-  Happy, Happily, Happilie
-  Bad, Badly, Badley
-  Quick, Quickly, Quickey
-  Slow, Slowly, Slowey
-  Fast, Fastly, Fastily
-  Gentle, Gently, Gentley
-  Correct, Correctly, Corrects`,
-
-        `Kind, Kindly, Kindily
-  Lazy, Lazily, Lazyly
-  Neat, Neatly, Neatily
-  Nervous, Nervously, Nervosly
-  Noisy, Noisily, Noisyly
-  Open, Openly, Openlly
-  Pain, Painfully, Painfuly
-  Powerful, Powerfully, Powerfuly
-  Rapid, Rapidly, Rapidlly
-  Rare, Rarely, Rarelly`
-      ]
-    },
-    {
-      type: 'selectWord',
-      label: 'Select the adverb of manners',
-      id: 'multi-select-word',
-      commonData: {
-        title: 'Tap on the adverb of manners in the following sentences.',
-        multiSelect: true
-      },
-      data: [
-        `He had a meeting. So, he *quickly* drank the water and went to the office *hurriedly*.
-        Someone *suddenly* cracked a joke. She did not understand but laughed *nervously*.
-        She is reading *carefully*. She's trying to complete her lessons *quickly*. She has a test tomorrow. 
-        I was crossing the street and my mom was *anxiously* looking at me. I *happily* waved at her after crossing.
-        We had to move the sofa across the room. So we moved it *quickly*, but *awkwardly* in front of the guests.
-        He *calmly* explained the lesson to me. I don't have any doubts now. I will *calmly* write the test today.
-        He is *eagerly* waiting for his job letter. He has worked very hard for this.
-        My teacher has *faithfully* worked for my school. She will be awarded and will continue to work *respectfully*.`,
-
-        `I was at the railway station yesterday. The announcement asked the people to move away from the tracks. Then a bullet train passed by very *quickly*.
-        There were many children in the park. They were playing *happily*. After 7pm, they *sadly* went to their homes.
-        We are going to the jungle. We may see many wild animals there. My mom asked my dad to drive *carefully*.
-        I am at a party with my family. My mom asked me to talk to everyone *politely* and *respectfully*.
-        Stop talking so *noisily* in the library. It might disturb other readers. The sounds echo *loudly* in the hall.
-        My father can drive the car *easily*. But he yells *angrily* when the traffic irritates him.
-        Our school *suddenly* announced a trip. We all got very excited. Everyone started making plans *excitedly*.
-        Sheena was talking *loudly* on the phone. I asked her to speak *slowly* because my mom was sleeping.`,
-
-        `Raj fell down. We helped him to sit on the chair *comfortably*. I ran *quickly* and told my teacher.
-        I had a fight with my friend. We were shouting *loudly*. His mom told us to talk *nicely* with each other.
-        I was *hardly* able to focus on my homework. Then my friend explained it to me very *easily*. I can *simply* solve it now.
-        She was dressed *smartly* for the party. She also danced *beautifully*. Everyone clapped and praised her.
-        He scored well in exams. He told his parents *proudly*. The decided to celebrate by going to a restaurant.
-        The teacher checked the answers *carefully*. I answered many questions *correctly* and scored well.
-        I *energetically* did my excercise in the morning. I was feeling fresh all day long. I did all my work *efficiently*.
-        The teacher yelled at us *angrily*. The class *immediately* started doing their homework.`,
-
-        `I *gladly* told my parents that I got selected in the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
-        I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.
-        He lied to everyone. When we asked him, he *foolishly* denied. So, everyone decided not to talk to him.
-        My dad tried to give him instructions *calmly*. But he was driving *carelessly*. We were very scared.
-        Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
-        The man in the street was *badly* hurt. I *quickly* called the hosptial. The man was soon treated *carefully* and *efficiently*.
-        He ate all the chocolate *greedily*. But my friend *gently* tap me on my shoulder and *politely* offered me his cake.
-        Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`
+Clear | CLEARLY | CLEA___`
       ]
     }
   ]

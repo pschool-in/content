@@ -27,23 +27,9 @@ eg: `,
       }
     },
     {
-      type: 'group',
-      label: 'Drag and Drop',
-      id: 'classify-positive-negative',
-      commonData: {
-        title: 'Identify these positive and negative describing words.',
-        types: ['Positive', 'Negative']
-      },
-      data: [
-        [`Smart, Pretty, Beautiful, Soft`, `Ugly, Bad, Hard, Stupid`],
-        [`Happy, Perfect, Wise, Wonderful`, `Cruel, Sad, Boring, Dull`],
-        [`Talented, Natural, Caring, Amazing`, `Jealous, Moody, Rude, Selfish`]
-      ]
-    },
-    {
-      id: 'jumbled-words',
+      id: 'find-word',
       type: 'sequence',
-      label: 'Jumbled Words',
+      label: 'Find the Word',
       commonData: {
         title: 'Identify these describing words.'
       },
@@ -54,6 +40,32 @@ eg: `,
       ]
     },
     {
+      type: 'group',
+      label: 'Naming word vs Describing word',
+      id: '100',
+      commonData: {
+        title:
+          'Identify the adjectives from the group of words and add them into the appropriate box.',
+        types: ['Describing Word', 'Naming Word']
+      },
+      data: [
+        [
+          `Blue, Big, Loud, Few, Sweet, Bitter`,
+          `Bag, Flowers, Pens, Chocolate, Apple`
+        ],
+        [`Sixty, Short, Thin, Long, Black`, `Bottles, Boy, Scarf, Sheep, Book`],
+        [
+          `Deep, Heavy, Huge, Juicy, Beautiful`,
+          `Sea, Box, House, Mangoes, Girl`
+        ],
+        [
+          `Handsome, Brave, Clean, Sharp, Bright`,
+          `Man, Soldier, Plates, Teeth, Sun`
+        ],
+        [`Cold, Tasty, Fast, Famous, Small`, `Winter, Pizza, Car, Museum, Hut`]
+      ]
+    },
+    {
       type: 'selectWord',
       label: 'Select the describing words',
       id: 'select-word',
@@ -61,45 +73,27 @@ eg: `,
         title: 'Tap on the describing words in these sentences.'
       },
       data: [
-        `A ball is *round* in shape.
-A *good* chess player is usually *smart*.
+        `The sky is *blue*.
+The sun is *bright*.
+The food is *good*.
+Our dog is *happy*.
+My friend is *kind*.
+My mom is *beautiful*.
+A ball is *round* in shape.
 My friend has a *brown* muffler.
 I have a *red* cap.
-Aman is *confused* about a maths problem.`,
+Aman is *confused* about Maths.`,
 
         `I read a story about an *ugly* witch.
-A *fast* car always win in races.
+A *fast* car always wins in races.
 Coconut trees are *tall*.
 A lion roars very *loudly*.
-Goods train is very *long*.`,
-
-        `A *poor* man was sitting on roadside.
-This is a *pleasant* weather.
+A goods train is very *long*.
+A *poor* man was sitting on the roadside.
+We had a *pleasant* weather.
 A *small* rat lives in our house.
 I have a *purple* dress.
-A *clean* table.`
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'Correct Spelling',
-      id: 'correct-spelling',
-
-      commonData: {
-        title: 'Identify the correct spelling of descibing words.'
-      },
-      data: [
-        `Ugly, Ugley
-Brown, Browne
-Loud, Loude
-Clean, Chleane
-Tall, Tale`,
-
-        `Long, Longe
-Fast, Fest
-Small, Smell
-Big, Beg
-Smart, Smert`
+The *hungry* baby was crying for his bottle.`
       ]
     },
     {

@@ -258,14 +258,14 @@ export default {
           A Donkey is an animal.
           I bought an umbrella.`,
 
-          `I ate an apple pie yesterday.
-          My mother is a doctor.
-          Shannu is a nice boy.`
-        ],
-        [
           `I could see stars at night.
           Do you speak Bengali?
-          She arrived in Mumbai yesterday.`,
+          She arrived in Mumbai yesterday.`
+        ],
+        [
+          `I ate an apple pie yesterday.
+          My mother is a doctor.
+          Shannu is a nice boy.`,
 
           `I eat chapatis every day.
           December is quite cold.

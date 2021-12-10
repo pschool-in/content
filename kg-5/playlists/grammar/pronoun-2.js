@@ -264,7 +264,8 @@ I am not sure *that* is how you do it.
       label: 'I and Me',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with I and me to make a complete sentence.`
+        title: `Fill in the blanks with I and me to make a complete sentence.`,
+        options: 'I, me'
       },
       data: [
         `*I (Me)* went to library. 
@@ -301,7 +302,8 @@ Savitha and *I* eat lunch together.
       label: 'We and Us',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with we and us to make a complete sentence.`
+        title: `Fill in the blanks with we and us to make a complete sentence.`,
+        options: 'we, us'
       },
       data: [
         `*We (Us)* are going to Delhi on Friday.
