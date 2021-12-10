@@ -176,7 +176,7 @@ This bangle is *hers*.`
         `*She* tries to steal everyone's chocolates. *She* lies and says *they* are *hers*.
 *Me* and my sister go swimming. *Those* swimming glasses are *ours*.
 The book is kept on the table. *It* is *ours*.
-*I* borrowed *this* paper from Vidya. *This* is hers.
+*I* borrowed *this* paper from Vidya. *This* is *hers*.
 Sheena gave me *this* napkin. *This* is *hers*.`,
 
         `Rahul is my best friend. *We* go to school together. *This* bag is *his*.
