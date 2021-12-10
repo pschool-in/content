@@ -36,13 +36,13 @@ Friendly and harmonious relations make for joyful community life.`
             {
               name: 'True',
               text: `The number of people in a family may change due to marriage, birth, death and migration.
-              Just as our family changes, so do the other families in our neighborhood.
-              Friendly and harmonious relations make for joyful community life.`
+Just as our family changes, so do the other families in our neighborhood.
+Friendly and harmonious relations make for joyful community life.`
             },
             {
               name: 'False',
               text: `The number of people in a family remains the same.
-              As we migrate, we see the disparity in our country.`
+As we migrate, we see the disparity in our country.`
             }
           ]
         }
@@ -128,13 +128,13 @@ When we offer and seek help, learning becomes more *enjoyable*.`
             {
               name: 'True',
               text: `If we help each other, we can succeed at anything. Work becomes enjoyable.
-              In school, we come to know about the diversity in our country.
-              Every child should get the joy of learning in school. `
+In school, we come to know about the diversity in our country.
+Every child should get the joy of learning in school. `
             },
             {
               name: 'False',
               text: `Girls should do household chores and should not go to school.
-              Special needs children are home-schooled.`
+Special needs children are home-schooled.`
             }
           ]
         }
@@ -204,13 +204,13 @@ People who cannot hear use *sign language*. `
             {
               name: 'True',
               text: `Being sensitive is understanding the difficulties of the people in our family and locality, and helping them when needed.
-              We must treat old people, patients and those with special needs with care and respect.
-              If we are sensitive, our capacity to help others increases.`
+We must treat old people, patients and those with special needs with care and respect.
+If we are sensitive, our capacity to help others increases.`
             },
             {
               name: 'False',
               text: `Braille is used by those who can not hear.
-              People who can not see use sign language.`
+People who can not see use sign language.`
             }
           ]
         }
@@ -225,16 +225,16 @@ People who cannot hear use *sign language*. `
             {
               name: 'Right',
               text: `The patient should be given medicines at the proper times.
-              The patient should not be given unwanted advice.
-              The patient must be given meals at the right time.
-              The patient must be bathed only as per the doctor’s orders.`
+The patient should not be given unwanted advice.
+The patient must be given meals at the right time.
+The patient must be bathed only as per the doctor’s orders.`
             },
             {
               name: 'Wrong',
               text: `We should visit the patient frequently at any odd hour.
-              The patient should be offered fried food.
-              One can watch TV at a loud volume in a patient’s room.
-              When the patient is better, medicine should be stopped immediately without consulting the doctor.`
+The patient should be offered fried food.
+One can watch TV at a loud volume in a patient’s room.
+When the patient is better, medicine should be stopped immediately without consulting the doctor.`
             }
           ]
         }
@@ -317,13 +317,13 @@ The *local government* body provides facilities for the daily needs of people.`
             {
               name: 'True',
               text: `The School Management Committee works to ensure the all-round development of children.
-              The local government body provides facilities for the daily needs of people.`
+The local government body provides facilities for the daily needs of people.`
             },
             {
               name: 'False',
               text: `Management is not necessary for any work to be done properly.
-              A detailed plan is useless for group work.
-              If work is carried out according to the plan, it is never done on time.`
+A detailed plan is useless for group work.
+If work is carried out according to the plan, it is never done on time.`
             }
           ]
         }

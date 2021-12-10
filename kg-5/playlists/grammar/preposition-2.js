@@ -76,7 +76,7 @@ export default {
     {
       id: 'at-of',
       label: 'at vs of',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'at vs of',
         text: `My mother is *at* home today.
@@ -90,7 +90,7 @@ The little boy was tired *of* staying at home.`,
     {
       id: 'with-in',
       label: 'with vs in',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'with vs in',
         text: `His dog is *with* him all the time!
@@ -104,7 +104,7 @@ Please bear *with* us, the flight may be delayed by ten minutes.`,
     {
       id: 'for-from',
       label: 'for vs from',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'for vs from',
         text: `Varun received a letter *from* his uncle.
@@ -118,7 +118,7 @@ I will be boarding the bus *from* the city bus stand.`,
     {
       id: 'during-following',
       label: 'during vs following',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'during vs following',
         text: `Mrs. Indira Gandhi was the Prime Minister of India *during* the Indo-Pakistan war.
@@ -132,7 +132,7 @@ I always feel very hungry *during* the fifth period!`,
     {
       id: 'beside-besides',
       label: 'beside vs besides',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'beside vs besides',
         text: `"Come, sit *beside* me," said the teacher to the crying child.
@@ -146,7 +146,7 @@ There will be ten for lunch, *besides* the four of us.`,
     {
       id: 'up-upon',
       label: 'up vs upon',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'up vs upon',
         text: `Climb *up* the stairs, to find your classroom.
@@ -160,7 +160,7 @@ The clown placed the ball *upon* his nose and walked on the tightrope!`,
     {
       id: 'toward-to',
       label: 'toward vs to',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'toward vs to',
         text: `Paul kicked the ball *toward* the goal post.
@@ -174,7 +174,7 @@ They started driving *toward* Ooty early this morning.`,
     {
       id: 'with-within',
       label: 'with vs within',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'with vs within',
         text: `"Who will go *with* me?" asked the king.
@@ -188,7 +188,7 @@ I see a man standing outside *with* a red suitcase.`,
     {
       id: 'into-inside',
       label: 'into vs inside',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'into vs inside',
         text: `"Come *into* my parlour," said the spider to the fly.
@@ -202,7 +202,7 @@ I know there are foxes living *inside* that cave.`,
     {
       id: 'until-upto',
       label: 'until vs upto',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'until vs upto',
         text: `This tree can grow *upto* thirty feet.
@@ -286,7 +286,7 @@ The mother bird kept flying around, *until* she found food for her chicks.`,
     {
       id: 'over-onto',
       label: 'over vs onto',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'over vs onto',
         text: `Sham stepped *onto* the dance floor to perform for his friends.
@@ -300,7 +300,7 @@ The lady in the blue saree has travelled all *over* the world.`,
     {
       id: 'through-throughout',
       label: 'through vs throughout',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'through vs throughout',
         text: `The monkey jumped *through* the hoop.
@@ -314,7 +314,7 @@ The baby in my neighbour’s house is awake *throughout* the night.`,
     {
       id: 'by-of',
       label: 'by vs of',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'by vs of',
         text: `This beautiful park is maintained *by* the local residents.
@@ -328,7 +328,7 @@ Neera ran out *of* sugar this morning.`,
     {
       id: 'about-across',
       label: 'about vs across',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'about vs across',
         text: `The little boy couldn’t stop talking *about* his toy truck.
@@ -342,7 +342,7 @@ Nisha is writing an essay *about* her school trip to Mysore.`,
     {
       id: 'aside-away',
       label: 'aside vs away',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'aside vs away',
         text: `Naina gave *away* her story books to the little girl next door.
@@ -356,7 +356,7 @@ The mouse ran *away* from the cat.`,
     {
       id: 'along-among',
       label: 'along vs among',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'along vs among',
         text: `There is honour *among* thieves!
@@ -370,7 +370,7 @@ The soldier had to feel his way *along* the dark path in the forest.`,
     {
       id: 'despite-in-spite-of',
       label: 'despite vs in spite of',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'despite vs in spite of',
         text: `*Despite* several warnings, Tenzing continued to The Summit.
@@ -384,7 +384,7 @@ The planes continue to fly *in spite of* the fog.`,
     {
       id: 'before-behind',
       label: 'before vs behind',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'before vs behind',
         text: `Mother had already heard the news *before* I told her.
@@ -398,7 +398,7 @@ Ajay sits *behind* Sameera in class.`,
     {
       id: 'on-in',
       label: 'on vs in',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'on vs in',
         text: `The cat is sleeping *on* the sofa.
@@ -412,7 +412,7 @@ Put all your coins *in* the little pouch.`,
     {
       id: 'around-after',
       label: 'around vs after',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'around vs after',
         text: `Wrap your scarf *around* your neck, it’s a windy day.

@@ -129,7 +129,7 @@ Reuse, reduce, *recycle*.
     {
       id: 'myupbringingfill-1',
       label: 'Fill in the blanks -2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Do not *harm (help)* others.

@@ -7,7 +7,7 @@ export default {
     {
       id: `your-you're`,
       label: "your vs you're",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: your, you're",
         text: `Did you tell *your* parents where *you're* going?
@@ -23,7 +23,7 @@ export default {
     {
       id: 'there-their',
       label: "there, their vs they're",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: there, their, they're",
         text: `The kids went to visit *their* grandparents.
@@ -38,7 +38,7 @@ export default {
     {
       id: `its-it's`,
       label: "its vs it's",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with the right word: its, it's",
         text: `The cat licked *its* paw.
@@ -54,7 +54,7 @@ export default {
     {
       id: `who's-whose`,
       label: "who's vs whose",
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with who's and whose.",
         text: `He is an artist *whose* work I really admire.
@@ -68,7 +68,7 @@ export default {
     {
       id: 'to-two-too',
       label: 'to, two, vs too',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'To, Two, and Too',
         text: `It is never *too* late to learn.
@@ -83,7 +83,7 @@ export default {
     {
       id: 'by-bye-buy',
       label: 'by, bye vs buy',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'By, Buy, and Bye',
         text: `*Bye* for now! I will catch you later.
@@ -98,7 +98,7 @@ export default {
     {
       id: 'here-hear',
       label: 'here vs hear',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Here vs Hear',
         text: `There is no one *here*.
@@ -114,7 +114,7 @@ export default {
     {
       id: 'than-then',
       label: 'than vs then',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either than or then.',
         text: `He can run faster *than* I can.
@@ -128,7 +128,7 @@ export default {
     {
       id: 'past-passed',
       label: 'past vs passed',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Fill in the blanks with either past or passed.',
         text: `We read about the *past* in history books.

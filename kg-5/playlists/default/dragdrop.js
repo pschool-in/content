@@ -419,29 +419,6 @@ const dragdrop = {
         mango | Mango
         grapes | Grapes`
       }
-    },
-    {
-      type: 'dictation',
-      label: 'Dictation',
-      id: 'dictation',
-      data: {
-        title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/fruits.mp3',
-        audioOffset: 0,
-        words: 'apple, grapes, banana, cherry, avocado'
-      }
-    },
-    {
-      type: 'dictation',
-      label: 'Dictation - Tamil',
-      id: 'dictation-2',
-      data: {
-        title: 'Listen to the sound and type the word.',
-        audio: 'ta/ta-animals.mp3',
-        audioOffset: 2,
-        lang: 'ta',
-        words: 'பூனை, நாய், ஆடு, செம்மறி ஆடு, குதிரை'
-      }
     }
   ]
 };

@@ -7,7 +7,7 @@ export default {
     {
       label: 'Water - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Water',
         text: [
@@ -45,7 +45,7 @@ export default {
     {
       label: 'Choose the Correct Answer - Water',
       type: 'mcq',
-      id: '200',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -78,9 +78,9 @@ export default {
       }
     },
     {
-      id: '300',
+      id: 'fillup',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Water is converted into *water vapour (ice cube)* when it is heated.
@@ -93,7 +93,7 @@ Water cycle increases the availability of *ground water (water tank)*.
     {
       label: 'True or False',
       type: 'classifySentence',
-      id: '400',
+      id: 'true-false',
       data: {
         title: 'True or False',
         types: [
@@ -115,7 +115,7 @@ Roof top harvesting method is used in agriculture field.`
     {
       label: 'Water, Ice and Vapor',
       type: 'matchByDragDrop',
-      id: '500',
+      id: 'drag-drop-water',
       data: {
         isPractice: false,
         title: 'Drag and drop to complete the below sentences.',
@@ -129,7 +129,7 @@ Ice *melts* when we keep it in *room* temperature. `
       }
     },
     {
-      id: '600',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -144,7 +144,7 @@ Condensation, Clouds`,
     {
       label: 'Temperature',
       type: 'sorting',
-      id: '700',
+      id: 'sorting',
       data: {
         title:
           'Sort the below items based on their usual temperature. (Coolest should come at the top)',
@@ -154,7 +154,7 @@ Condensation, Clouds`,
     {
       label: 'Water - Reading',
       type: 'passage',
-      id: '800',
+      id: 'reading-2',
       data: {
         title: 'Water Cycle',
         text: `# Importance of Water Cycle
@@ -174,7 +174,7 @@ Condensation, Clouds`,
     {
       label: 'Water Storage - Reading',
       type: 'passage',
-      id: '900',
+      id: 'reading-3',
       data: {
         title: 'Water Storage',
         text: `# Old water stores
@@ -198,7 +198,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Old ways Vs New ways',
-      id: '1000',
+      id: 'old-new',
       type: 'group',
       data: {
         title: 'Drag and drop the water storage techniques accordingly. ',
@@ -216,7 +216,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Choose the best Answer',
-      id: '1100',
+      id: 'mcq-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -245,7 +245,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
       }
     },
     {
-      id: '1200',
+      id: 'words',
       type: 'sequence',
       label: 'Words related to water storage',
       commonData: {
@@ -257,35 +257,27 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Drinking Water- Reading',
       type: 'passage',
-      id: '1300',
+      id: 'reading-4',
       data: {
         title: 'Water safe for drinking',
         text: `Some substances dissolve in water (salt, sugar, detergent etc.) while some substances don't (turmeric powder, oil etc.). 
-
-          The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
-          
-          # New Words!
-          
-          1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
-          
-          2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
-          
-          3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
-          
-          4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
-          
-          # Do you know?
-          
-          1. Sea water is unfit for drinking because its saline.
-          2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
-          3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
-          4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
-          5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
+The things that float in water are lighter than water. Similarly, the things that sink are heavier. This process of sinking is called 'settling'. These particles can also be separated from water through 'filtration'.
+# New Words!
+1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
+2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
+3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
+4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
+# Do you know?
+1. Sea water is unfit for drinking because its saline.
+2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
+3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
+4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
+5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
       }
     },
     {
       label: 'True or False',
-      id: '1400',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -293,13 +285,13 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'True',
             text: `A sediment is formed at the bottom if muddy water is kept still for sometime.
-              Tea leaves can be separated from tea by filtration.`
+Tea leaves can be separated from tea by filtration.`
           },
           {
             name: 'False',
             text: `Alum powder doesn't dissolve in water.
-              Micro-organisms can't live in water.
-              An eraser floats in water.`
+Micro-organisms can't live in water.
+An eraser floats in water.`
           }
         ]
       }
@@ -307,7 +299,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -316,16 +308,16 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           dashWidth: 80
         },
         text: `Salt and sugar *dissolve* in water.
-          Mixture obtained after dissolving a substance in water is called *solution*.
-          Some micro-organisms can cause *diseases* if they enter our body.
-          Things that float in water are *lighter*.
-          Things that sink in water are *heavier*.
-          *Alum* is swirled in muddy water to clean it.`
+Mixture obtained after dissolving a substance in water is called *solution*.
+Some micro-organisms can cause *diseases* if they enter our body.
+Things that float in water are *lighter*.
+Things that sink in water are *heavier*.
+*Alum* is swirled in muddy water to clean it.`
       }
     },
     {
       label: 'Dissolve or Do not dissolve',
-      id: '1500',
+      id: 'classify-3',
       type: 'classifySentence',
       data: {
         title: 'Classify which ones dissolve in water and which ones do not',
@@ -333,17 +325,17 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'Dissolve',
             text: `Salt
-              Sugar
-              Washing soda
-              Honey
-              Alum`
+Sugar
+Washing soda
+Honey
+Alum`
           },
           {
             name: 'Do not dissolve',
             text: `Sand
-              Sawdust
-              Oil
-              Turmeric powder`
+Sawdust
+Oil
+Turmeric powder`
           }
         ]
       }
@@ -351,29 +343,23 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     {
       label: 'Clean Water - Reading',
       type: 'passage',
-      id: '1600',
+      id: 'reading-5',
       data: {
         title: 'Clean Water',
         text: `Earlier, earthen pots and copper pots were used to store water at homes. But these days we generally use plastic or steel bottles and containers for the same.
-
-          # How to keep water clean:
-          
-          1. Keep the containers covered to prevent dust and insects.
-          2. Keep a dipper to take out water from these containers, else dirt from our hands will contaminate the water. Also, we can have a tap on these containers to avoid contamination.
-          3. Wash the container before refilling it.
-          
-          # Do you know?
-          
-          People think that we can't drink water from previous day. But the truth is, water remains as clean as it was before if kept safely. So, we can drink the water we stored on previous day.
-          
-          # New Word!
-          
-          1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
+# How to keep water clean:
+1. Keep the containers covered to prevent dust and insects.
+2. Keep a dipper to take out water from these containers, else dirt from our hands will contaminate the water. Also, we can have a tap on these containers to avoid contamination.
+3. Wash the container before refilling it.
+# Do you know?
+People think that we can't drink water from previous day. But the truth is, water remains as clean as it was before if kept safely. So, we can drink the water we stored on previous day.
+# New Word!
+1. Water tower: It is basically a huge water tank and water is stored on its top. Electric pumps and motors are used to raise the water to its top. It stores purified water and supplies water to different areas through a large network of pipes.`
       }
     },
     {
       label: 'Right or Wrong',
-      id: '1700',
+      id: 'right-wrong',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as right and wrong',
@@ -381,26 +367,26 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
           {
             name: 'Right',
             text: `Reshma carries drinking water with her when she goes for a picnic.
-              Nisha saves the water left in the mug for washing her face later.`
+Nisha saves the water left in the mug for washing her face later.`
           },
           {
             name: 'Wrong',
             text: `Sameer drank water from the pot and left the lid beside it.
-              Sai empties her pot everyday to fill fresh water in it.`
+Sai empties her pot everyday to fill fresh water in it.`
           }
         ]
       }
     },
     {
-      id: '1800',
+      id: 'match-5',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Pure water, Water tower
-          Copper pots, Old way
-          Water supply, Pipelines
-          Groundwater, Wells
-          Potable water, Drinkable`,
+Copper pots, Old way
+Water supply, Pipelines
+Groundwater, Wells
+Potable water, Drinkable`,
         title: 'Match the following'
       }
     },
@@ -412,10 +398,10 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
         text:
           'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
       },
-      id: '1900'
+      id: 'sorting-5'
     },
     {
-      id: '2000',
+      id: 'words-5',
       type: 'sequence',
       label: 'Water Reservoir',
       commonData: {
@@ -425,7 +411,7 @@ In some areas, big water jars, made of clay, are kept for road-side thirsty peop
     },
     {
       label: 'Sink Vs Float',
-      id: '2100',
+      id: 'sink-float',
       type: 'group',
       data: {
         title: 'dentify what will sink and float in water.',

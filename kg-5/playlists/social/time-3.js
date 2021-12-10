@@ -42,10 +42,10 @@ Sometimes, old statues, coins, shards of pottery, old objects, etc. are found wh
       type: 'match',
       data: {
         text: `9.00 A.M, 9:00 hours
-          3.00 P.M, 15:00 hours
-          8.00 P.M, 20:00 hours 
-          6.00 A.M, 6:00 hours
-          11.00 P.M, 23:00 hours`,
+3.00 P.M, 15:00 hours
+8.00 P.M, 20:00 hours 
+6.00 A.M, 6:00 hours
+11.00 P.M, 23:00 hours`,
         title: 'Match the equal time.'
       }
     },
@@ -92,19 +92,19 @@ Sometimes, old statues, coins, shards of pottery, old objects, etc. are found wh
           dashWidth: 80
         },
         text: `Old newspapers help us to know about the *past*.
-          1 hour is *60 minutes*.
-          1 minute is *60 seconds*.
-          A.M stands for *ante meridiem*.
-          P.M stands for *post meridiem*.
-          *June* month has 30 days.
-          *December* month has 31 days.`
+1 hour is *60 minutes*.
+1 minute is *60 seconds*.
+A.M stands for *ante meridiem*.
+P.M stands for *post meridiem*.
+*June* month has 30 days.
+*December* month has 31 days.`
       }
     },
     /*
     {
       id: 'timefill-1',
       label: 'Fill in the blanks -2',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The time difference between India and Washington D.C is *9 (8)*hours behind.

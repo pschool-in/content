@@ -6,7 +6,7 @@ export default {
     {
       label: 'Green Environment - Reading',
       type: 'passage',
-      id: '1600',
+      id: 'raeding',
       data: {
         title: 'Green Environment',
         text: `# What are wastes?
@@ -32,7 +32,7 @@ Micro-organisms can decompose some waster materials and make it beneficiary for 
     },
     {
       label: 'Biodegradable vs Non biodegradable',
-      id: '1700',
+      id: 'classify',
       type: 'group',
       data: {
         title: 'Classify the below items based on its degrading capacity',
@@ -51,7 +51,7 @@ Micro-organisms can decompose some waster materials and make it beneficiary for 
     },
     {
       label: ' Blue waste vs Red waste',
-      id: '1800',
+      id: 'classify-2',
       type: 'group',
       data: {
         title: 'Classify the below items based on its degrading capacity',
@@ -70,7 +70,7 @@ Micro-organisms can decompose some waster materials and make it beneficiary for 
     },
     {
       label: 'Choose the best Answer -Green Environment',
-      id: '1900',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -100,7 +100,7 @@ Micro-organisms can decompose some waster materials and make it beneficiary for 
     {
       label: 'Drag and Drop -Green Enviroment',
       type: 'matchByDragDrop',
-      id: '2000',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper places.',
@@ -116,9 +116,9 @@ Picking up the waste is called *Waste collection*.
       }
     },
     {
-      id: '2100',
+      id: 'fillup',
       label: 'Green Environment- Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Recycle (reuse)* is to take materials from things you throw away and make new products by using them.

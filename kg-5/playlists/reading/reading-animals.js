@@ -18,7 +18,7 @@ export default {
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Do you know *that (this)* dogs are known as man’s *best (worst)* friends? 
 This is *because (became)* a dog is fun and friendly. 
@@ -150,7 +150,7 @@ The baby dogs *are (is)* called puppies.`,
     {
       id: 'cats-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Cats *are (hour)* lazy. 
 They also *have (has)* whiskers *around (round)* their nose. 
@@ -270,7 +270,7 @@ Cats belong to the same family *as (has)*tigers.`,
     {
       id: 'polar-bears-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Polar *bears (bares)* live in very cold areas, *covered (hovered)* in snow. 
 They look *the (a)* same as normal bears, only they are white *and (hand)* bigger. 
@@ -399,7 +399,7 @@ It is covered with a lot of white fur.`,
     {
       id: 'horses-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Horses can *almost (utmost)* see in all directions without turning their necks. 
 They run *very (vary)* fast. 
@@ -523,7 +523,7 @@ They are useful for different *farming (harming)* activities.`,
     {
       id: 'tigers-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Tigers are the largest animals in the *cat (hat)* family.
 They have vertical strips *over (hover)* their body.
@@ -654,7 +654,7 @@ An amazing fact about the tigers is that they can survive without food for 2 wee
     {
       id: 'rabbits-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Rabbits love eating carrots and *hay (bay)*. 
 They *chew (sew)* 120 times in a minute. 
@@ -786,7 +786,7 @@ One weird thing about rabbits is that they sometimes eat their own poop.`,
     {
       id: 'dolphins-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Dolphins are *very (berry)* playful *and (hand)* intelligent. 
 Just like whales, they *breathe (breath)* air from a blowhole on their back. 
@@ -913,7 +913,7 @@ This helps them to *store (shore)* food.`,
     {
       id: 'monkeys-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Monkeys can be *easily (peasily)* seen in India. 
 We usually find them on top *of (on)* buildings and on trees. 
@@ -1041,7 +1041,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
     {
       id: 'bees-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Bees *live (life)* in beehives where they produce honey. 
 The beehive consists of a queen *bee (be)* and worker bees. 
@@ -1170,7 +1170,7 @@ Stings cause a lot of pain.`,
     {
       id: 'pigs-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Pigs *have (shave)* small eyes, large ears and a flat snout. 
 Snouts *give (gives)* them an excellent sense of smell. 
@@ -1299,7 +1299,7 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoe`
     {
       id: 'lions-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Lions are very *powerful (powerless)* and *strong (weak)*. 
 They look like a very *big (small)* cat with *hair (hare)* all around their face. 
@@ -1430,7 +1430,7 @@ Do you know that lions can eat upto 30kgs in one meal?`,
     {
       id: 'sharks-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Sharks *are (were)* predators. 
 It means that they hunt other *fishes (fish)* as their food. 
@@ -1551,7 +1551,7 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
     {
       id: 'snakes-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `A fascinating fact about snakes is that they don’t have *legs (face)*. 
 They move by *creeping (crawling)*. 
@@ -1681,7 +1681,7 @@ Apart from being diverse in their body structures, the species were also differe
     {
       id: 'dinosaurs-fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Dinosaurs lived on earth millions of years *ago (later)*. 
 No one knows what *they (them)* looked like. 

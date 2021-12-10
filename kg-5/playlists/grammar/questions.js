@@ -25,7 +25,7 @@ can you drive a car`
     },
     {
       label: 'Fillup',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup',
       data: {
         title: 'Fill in the blanks with the right word.',
@@ -42,7 +42,7 @@ can you drive a car`
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       label: 'What / Why/ Where',
       data: {
         text: `*What* is your best friend's name?

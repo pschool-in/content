@@ -75,7 +75,7 @@ Stretched rubber band`
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `To do work, we need *energy(machine,battery)*.
 Heat energy can be produced by *friction(wind, photons)*.

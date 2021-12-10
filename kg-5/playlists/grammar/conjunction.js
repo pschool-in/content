@@ -9,20 +9,37 @@ export default {
       label: 'Conjunction - Notes',
       data: {
         title: 'Conjunction',
-        text: `A conjuction is a word that is used for joining other words, phrases or sentences.
-              # and, or, but
-              'and' means 'also', 'added to'
-              'or' means  'any one of the two'
-              'but' is used to say something opposite.
-              {"type": "hilight", "text": "I like coffee and tea.\\nI like to have coffee or tea.\\nI don't like coffee, but I like tea."}
-              # So vs Because
-              'Because' is used to explain the reason for the first event.
-              'So' is used to explain the result of the first event.
-              {"type": "hilight", "text": "I cannot go out because it is raining.\\nIt was raining so I got wet."}
-              # Conjunction Pairs
-              Sometime conjunctions are used in pairs: either/or, both/and, whether/or, neither/nor, not only/but also
-              {"type": "html", "text": "You can <em>either</em> call me <em>or</em> message me.<br> He was <em>both</em> honest <em>and</em> talented.<br> I didn't know <em>whether</em> he will come <em>or</em> not.<br> He is <em>neither</em> tall <em>nor</em> short.<br> <em>Not only</em> he came late, <em>but also</em> he forgot the gift."}
-              `
+        text: [
+          `A conjuction is a word that is used for joining other words, phrases or sentences.
+# and, or, but
+'and' means 'also', 'added to'
+'or' means  'any one of the two'
+'but' is used to say something opposite.`,
+          {
+            type: 'hilight',
+            text: `I like coffee and tea.
+I like to have coffee or tea.
+I don't like coffee, but I like tea.`
+          },
+          ` # So vs Because
+'Because' is used to explain the reason for the first event.
+'So' is used to explain the result of the first event.`,
+          {
+            type: 'hilight',
+            text: `I cannot go out because it is raining.
+It was raining so I got wet.`
+          },
+          `# Conjunction Pairs
+Sometime conjunctions are used in pairs: either/or, both/and, whether/or, neither/nor, not only/but also`,
+          {
+            type: 'html',
+            text: `You can <em>either</em> call me <em>or</em> message me.<br>
+He was <em>both</em> honest <em>and</em> talented.<br> 
+I didn't know <em>whether</em> he will come <em>or</em> not.<br> 
+He is <em>neither</em> tall <em>nor</em> short.<br> 
+<em>Not only</em> he came late, <em>but also</em> he forgot the gift.`
+          }
+        ]
       }
     },
     {
@@ -71,7 +88,7 @@ I waited for him *until* he arrived.`
     {
       id: 'because-so',
       label: 'So vs Because',
-      type: 'fillupOptions',
+      type: 'fillup',
       lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct conjunction.',
@@ -115,7 +132,7 @@ My mom quit her job *so* she is looking for a new job.`
     {
       id: 'and-or-but',
       label: 'And, Or, But',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click on the blanks and pick the correct preposition.',
         text: `I wanted to wash my shoes, *but* I forgot to do it.

@@ -11,15 +11,15 @@ export default {
       data: {
         title: 'States of Matter',
         text: `We can see a number of things around us. Everything we can see and touch is made up of matter. Anything that occupies space and has mass is called matter.
-          # What is Mass?
-          Mass is a measure of how much matter is present in an object. The air we breathe, the food we take, and the water we drink, all have matter in them. 
-          # What is Volume?
-          The space occupied by an object is called its volume.
-          # Three states of Matter
-          Solid, liquid and gas are the three states of matter. 
-          Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
-          Liquid does not have fixed shape. It takes the shape of it container. eg: milk, honey, water, juice, oil, petrol.
-          Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind.`
+# What is Mass?
+Mass is a measure of how much matter is present in an object. The air we breathe, the food we take, and the water we drink, all have matter in them. 
+# What is Volume?
+The space occupied by an object is called its volume.
+# Three states of Matter
+Solid, liquid and gas are the three states of matter. 
+Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
+Liquid does not have fixed shape. It takes the shape of it container. eg: milk, honey, water, juice, oil, petrol.
+Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind.`
       }
     },
     {
@@ -81,13 +81,13 @@ export default {
           {
             name: 'True',
             text: `Everything we can see is made up of matter.
-            Gas has no fixed volume.
-            Cloud is a form of gas.`
+Gas has no fixed volume.
+Cloud is a form of gas.`
           },
           {
             name: 'False',
             text: `Gas has no mass.
-            The space occupied by an object is called mass.`
+The space occupied by an object is called mass.`
           }
         ]
       }
@@ -118,10 +118,10 @@ fixed shape, solid`
           dashWidth: 80
         },
         text: `*Mass* is a measure of how much matter is in an object.
-          *Volume* is the space occupied by an object.
-          *Liquid* has no fixed shape but has fixed volume.
-          *Smoke* is a gas.
-          *Gas* has no fixed shape and no fixed volume.`
+*Volume* is the space occupied by an object.
+*Liquid* has no fixed shape but has fixed volume.
+*Smoke* is a gas.
+*Gas* has no fixed shape and no fixed volume.`
       }
     },
     {
@@ -131,17 +131,17 @@ fixed shape, solid`
       data: {
         title: 'Change in States of Matter',
         text: `Matters change their state as the temparature changes. Solid changes to liquid and liquid changes into gas on heating. Gas becomes liquid and liquid becomes solid on cooling.
-          # Melting
-          Change of solid into liquid on heating is called melting. For example, if ice (solid) is heated, it will change into water (liquid).
-          # Evaporation
-          Change of liquid into vapour on heating is called Evaporation. For example, if water is heated, it will change into steam.
-          # Freezing
-          Change of liquid into solid on cooling is known as freezing. For example, water (liquid) poured in ice-tray and placed in the freezer (fridge), gets cooled and becomes ice (solid).
-          # Condensation
-          Change of gas into liquid on cooling is called condensation. For example; clouds (gas) on cooling condense and fall as rain (liquid)
-          # Experiment
-          Take a balance. Keep an air filled football in one plate and an empty football in another plate. What happens? 
-          Air filled ball goes down. It is because air has mass.`
+# Melting
+Change of solid into liquid on heating is called melting. For example, if ice (solid) is heated, it will change into water (liquid).
+# Evaporation
+Change of liquid into vapour on heating is called Evaporation. For example, if water is heated, it will change into steam.
+# Freezing
+Change of liquid into solid on cooling is known as freezing. For example, water (liquid) poured in ice-tray and placed in the freezer (fridge), gets cooled and becomes ice (solid).
+# Condensation
+Change of gas into liquid on cooling is called condensation. For example; clouds (gas) on cooling condense and fall as rain (liquid)
+# Experiment
+Take a balance. Keep an air filled football in one plate and an empty football in another plate. What happens? 
+Air filled ball goes down. It is because air has mass.`
       }
     },
     {
@@ -323,9 +323,9 @@ The measure of matter in an object is called *mass*.`
         title: 'Match the related ones.',
         fontSize: '1rem',
         text: `solid to liquid, melting
-          water to vapour, evaporation
-          vapour to liquid, condensation
-          liquid to solid, freezing`
+water to vapour, evaporation
+vapour to liquid, condensation
+liquid to solid, freezing`
       }
     }
   ]

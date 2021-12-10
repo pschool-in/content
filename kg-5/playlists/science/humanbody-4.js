@@ -11,11 +11,11 @@ export default {
       data: {
         title: 'Digestive System',
         text: `We need energy to do our daily activities. We get energy from the food we eat. If we don't take food for some time, we will feel hungry. 
-    A group of our body parts work together and convert the food we eat into fuel that body needs to function. While eating we first chew the food in our mouth. Saliva present in our mouth helps in breaking the food into small pieces. Your tongue does the work of pushing the food around, and your teeth will do the work of chewing. The food will be made into a soft moist ball which is easy to swallow.
-    The esophagus is like a flexible pipe and it takes the food from mouth to stomach. Stomach is the place where digestion happens. Acidic fluids present in stomach helps in breaking down the food further. Energy present in our food, is absorbed from the walls of stomach and passed through blood stream. 
-    Then the food is passed to small intestine. Bile is a digestive juice helps in breaking down the fats when the food passes through small intestine. Bile is created in liver, which is the largest human organ. 
-    After extracting fats and other nutrients, the waste is passed to large intestine, and finally reaches rectum. 
-    All the body parts we discussed above, together form the digestive system. It is an important function of our body. Always eat healthy food even if they are less tasty, so that your digestive system will be happy.`
+A group of our body parts work together and convert the food we eat into fuel that body needs to function. While eating we first chew the food in our mouth. Saliva present in our mouth helps in breaking the food into small pieces. Your tongue does the work of pushing the food around, and your teeth will do the work of chewing. The food will be made into a soft moist ball which is easy to swallow.
+The esophagus is like a flexible pipe and it takes the food from mouth to stomach. Stomach is the place where digestion happens. Acidic fluids present in stomach helps in breaking down the food further. Energy present in our food, is absorbed from the walls of stomach and passed through blood stream. 
+Then the food is passed to small intestine. Bile is a digestive juice helps in breaking down the fats when the food passes through small intestine. Bile is created in liver, which is the largest human organ. 
+After extracting fats and other nutrients, the waste is passed to large intestine, and finally reaches rectum. 
+All the body parts we discussed above, together form the digestive system. It is an important function of our body. Always eat healthy food even if they are less tasty, so that your digestive system will be happy.`
       }
     },
     {
@@ -202,18 +202,17 @@ export default {
       data: {
         title: 'Our Body',
         text: `# Points to remember.
-
-          1. The numerous important functions that go on inside our body are carried out by different organs. These organs are inside our body and cannot be seen from the outside. They are called internal organs.
-          2. The body is structured in such a way that the internal organs remain safe within the cavities inside the head and the torso.
-          3. The oesophagus carries the swallowed food from the throat to the stomach.It is situated in the thoracic cavity.
-          4. The heart keeps the blood flowing through the blood vessels which are spread throughout the body.
-          5. The heart is continuously contracting and relaxing.
-          6. The contractions of the heart push the blood from the heart into the blood vessels.
-          7. The lungs are the organs through which the air we breathe in is supplied to the whole body. 
-          8. The right lung is a little bigger than the left lung.
-          9. The heart and the lungs are held safely in the ribcage in the thoracic cavity.
-          10. Our brain is a very important internal organ. It has a safe place inside the skull. 
-          11. Controlling movements, becoming aware of emotions and interpreting the information collected by the sensory organs are the functions of the brain.`
+1. The numerous important functions that go on inside our body are carried out by different organs. These organs are inside our body and cannot be seen from the outside. They are called internal organs.
+2. The body is structured in such a way that the internal organs remain safe within the cavities inside the head and the torso.
+3. The oesophagus carries the swallowed food from the throat to the stomach.It is situated in the thoracic cavity.
+4. The heart keeps the blood flowing through the blood vessels which are spread throughout the body.
+5. The heart is continuously contracting and relaxing.
+6. The contractions of the heart push the blood from the heart into the blood vessels.
+7. The lungs are the organs through which the air we breathe in is supplied to the whole body. 
+8. The right lung is a little bigger than the left lung.
+9. The heart and the lungs are held safely in the ribcage in the thoracic cavity.
+10. Our brain is a very important internal organ. It has a safe place inside the skull. 
+11. Controlling movements, becoming aware of emotions and interpreting the information collected by the sensory organs are the functions of the brain.`
       }
     },
     {
@@ -227,10 +226,9 @@ export default {
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `The *heart* keeps the blood flowing through the blood vessels spread
-          throughout the body.
-          The heart is continuously *contracting* and relaxing.
-          The contractions of the heart *push* the blood from the heart into the blood vessels. `
+        text: `The *heart* keeps the blood flowing through the blood vessels spread throughout the body.
+The heart is continuously *contracting* and relaxing.
+The contractions of the heart *push* the blood from the heart into the blood vessels. `
       }
     },
     {
@@ -245,15 +243,15 @@ export default {
           dashWidth: 80
         },
         text: `The *lungs* are the organs through which the air we breathe in is supplied to the whole body. 
-          The *right* lung is a little bigger than the left lung.
-          The heart and the lungs are held safely in the *ribcage* in the *thoracic* cavity.
-          Our *brain* is a very important internal organ. It has a safe place inside the *skull*. `
+The *right* lung is a little bigger than the left lung.
+The heart and the lungs are held safely in the *ribcage* in the *thoracic* cavity.
+Our *brain* is a very important internal organ. It has a safe place inside the *skull*. `
       }
     },
     {
       label: 'Name the following',
       type: 'matchByDragDrop',
-      id: '601',
+      id: 'name-drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -262,15 +260,15 @@ export default {
           dashWidth: 80
         },
         text: `The cavity inside the head - *cranial* cavity
-          The cavity in the chest - *thoracic* cavity
-          The cavity in  the upper abdomen - *abdominal* cavity
-          The cavity in the lower abdomen - *pelvic* cavity`
+The cavity in the chest - *thoracic* cavity
+The cavity in  the upper abdomen - *abdominal* cavity
+The cavity in the lower abdomen - *pelvic* cavity`
       }
     },
     {
       label: 'Journey of food',
       type: 'matchByDragDrop',
-      id: '602',
+      id: 'journey-food',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -279,16 +277,16 @@ export default {
           dashWidth: 80
         },
         text: `The journey of food in our body begins in the *mouth*. 
-          The internal organs in the *abdomen* help to digest it. 
-          The undigested, unwanted part is passed out through the *anus* in the form of *faeces*. That is where the journey *ends*.
-          *Food* travels through a pipe-like pathway from the mouth to the anus. 
-          It is called the *alimentary* canal. It is about *9* metres long. 
-          The *oesophagus* is a part of the alimentary canal.`
+The internal organs in the *abdomen* help to digest it. 
+The undigested, unwanted part is passed out through the *anus* in the form of *faeces*. That is where the journey *ends*.
+*Food* travels through a pipe-like pathway from the mouth to the anus. 
+It is called the *alimentary* canal. It is about *9* metres long. 
+The *oesophagus* is a part of the alimentary canal.`
       }
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -296,14 +294,14 @@ export default {
           {
             name: 'True',
             text: `The brain controls the entire body.
-              The heart pumps blood.
-              Food pipe is in the thoracic cavity.`
+The heart pumps blood.
+Food pipe is in the thoracic cavity.`
           },
           {
             name: 'False',
             text: `Oxygenated blood flows through veins.
-              Beating of heart is a voluntary action.
-              Lungs pump blood.`
+Beating of heart is a voluntary action.
+Lungs pump blood.`
           }
         ]
       }
@@ -311,13 +309,13 @@ export default {
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The body is structured in such a way that the internal organs remain safe within the *cavities (spaces)* inside the head and the torso.
-          The *oesophagus (windpipe)* carries the swallowed food from the throat to the stomach.
-          The heart keeps the blood flowing through the *blood vessels (veins)* spread throughout the body.
-          Controlling movements, becoming aware of *emotions (movements)* and interpreting the information collected by the *sensory organs (internal organs)* are the functions of the *brain (heart)*.`
+The *oesophagus (windpipe)* carries the swallowed food from the throat to the stomach.
+The heart keeps the blood flowing through the *blood vessels (veins)* spread throughout the body.
+Controlling movements, becoming aware of *emotions (movements)* and interpreting the information collected by the *sensory organs (internal organs)* are the functions of the *brain (heart)*.`
       }
     },
     {
@@ -351,14 +349,14 @@ export default {
       }
     },
     {
-      id: '1600',
+      id: 'match-body',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Supply blood, heart
-          Breathing, lungs
-          Carry food, alimentary canal
-          Control center, brain`,
+Breathing, lungs
+Carry food, alimentary canal
+Control center, brain`,
         title: 'Match the following'
       }
     }

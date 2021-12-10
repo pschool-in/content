@@ -6,18 +6,18 @@ export default {
     {
       label: 'Reproduction in Plants- Reading',
       type: 'passage',
-      id: '3000',
+      id: 'raeding',
       data: {
         title: 'Reproduction in Plants',
         text: `#REPRODUCTION IN PLANTS
-  Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).
-  The main stages involved in sexual reproduction are as follows. Pollination- The transfer of pollen grains from the anther to stigma of a flower. Fertilization- When pollination is successful, the pollen joins the egg present in the ovary. The cell which results after fusion is called a zygote. Seed formation- After fertilization, the ovary swells and changes into a fruit. The seeds develop from the ovules.
-  Flowers are not required for asexual reproduction method. It occurs through budding, fragmentation, vegetative propagation, and spore formation.
-  #AGRICULTURE
-  Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.
-  Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.
-  Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.
-  # Insectivorous plants
+Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).
+The main stages involved in sexual reproduction are as follows. Pollination- The transfer of pollen grains from the anther to stigma of a flower. Fertilization- When pollination is successful, the pollen joins the egg present in the ovary. The cell which results after fusion is called a zygote. Seed formation- After fertilization, the ovary swells and changes into a fruit. The seeds develop from the ovules.
+Flowers are not required for asexual reproduction method. It occurs through budding, fragmentation, vegetative propagation, and spore formation.
+#AGRICULTURE
+Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.
+Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.
+Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.
+# Insectivorous plants
 Insectivorous plants are insect eating plants. They obtain their nutrition from insects that they have trapped. They grow in humid areas with sufficient sunlight and moisture. They are usually seen in ares that are deficient in nitrogen. These plants are very colourful and shiny. They also produce nectars. All these features help in attracting insects. They have special parts to trap insects and use digestive enzymes to digest them. They often have sticky mucus like structures that trap the insects.  Example: venus fly trap, nepenthes, pitcher plant
 # Exotic plants
 Exotic plants are the plants that have been introduced to a region or ecosystem where they are foreign or non-native. Example: tulip, lily, orchid, tuberose, water hyacinth, flowering cactus, etc
@@ -27,7 +27,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Gynoecium vs Androceium',
-      id: '3100',
+      id: 'group',
       type: 'group',
       data: {
         title: 'Classify the below parts based on where they belong',
@@ -63,7 +63,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Unisexual vs Bisexual -2',
-      id: '3200',
+      id: 'group-3',
       type: 'group',
       data: {
         title: 'Classify the below parts based on where they belong',
@@ -81,7 +81,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Anemophily vs Hydrophily vs Entamophily',
-      id: '3300',
+      id: 'group-4',
       type: 'group',
       data: {
         title: 'Classify the below plants based on their mode of pollination',
@@ -103,7 +103,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Monocotyledon vs Dicotyledon',
-      id: '3400',
+      id: 'group-5',
       type: 'group',
       data: {
         title: 'Classify the below plants based on their type of seed',
@@ -121,7 +121,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Anemochory vs Hydrochory',
-      id: '3500',
+      id: 'group-6',
       type: 'group',
       data: {
         title:
@@ -140,7 +140,7 @@ Exotic animals are those animal species that is non-native and has been introduc
     },
     {
       label: 'Zoochory vs Autochory',
-      id: '3600',
+      id: 'group-7',
       type: 'group',
       data: {
         title: 'Classify the below plants based on the type seed dispersal',
@@ -157,29 +157,29 @@ Exotic animals are those animal species that is non-native and has been introduc
       }
     },
     {
-      id: '3700',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Anthocyanin, Purple
-                  Carotenoid, Orange
-                  Chlorophyll, Green
-                  Astaxanthin, Blood red`,
+Carotenoid, Orange
+Chlorophyll, Green
+Astaxanthin, Blood red`,
         title: 'Match the pigments with their respective colour'
       }
     },
     {
-      id: '3800',
+      id: 'fillup',
       label: 'Plants - Fill in the Blanks ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Neelakurinji that blossoms once in *12 (15)* years.
-                  To attract the *insects (moth)* plants are bright in colour and produce smell in their flowers.
-                  Plants which are pollinated by the moth and bats release their fragrance mostly at *night (noon)* and have colourless petals.
-                  Pollination by *birds (bats)* is known as Ornithophily.
-                  Earthworms help to *increase (decrease)* the amount of air and water that gets into the soil.
-                  *Dragonfly (butterfly)* destroys the egg and larva of harmful insects and mosquitoes and prevents the spreading of diseases.`
+To attract the *insects (moth)* plants are bright in colour and produce smell in their flowers.
+Plants which are pollinated by the moth and bats release their fragrance mostly at *night (noon)* and have colourless petals.
+Pollination by *birds (bats)* is known as Ornithophily.
+Earthworms help to *increase (decrease)* the amount of air and water that gets into the soil.
+*Dragonfly (butterfly)* destroys the egg and larva of harmful insects and mosquitoes and prevents the spreading of diseases.`
       }
     },
     {
@@ -192,29 +192,29 @@ Exotic animals are those animal species that is non-native and has been introduc
           {
             name: 'True',
             text: `Man is also responsible for the dispersal of many fruits and seeds.
-                      Every seed has minute plant called the embryo.
-                      After fertilization, the ovary grows into a fruit and other parts of the flower fall off.
-                      The cell which results after fusion of the gametes is called a zygote`
+Every seed has minute plant called the embryo.
+After fertilization, the ovary grows into a fruit and other parts of the flower fall off.
+The cell which results after fusion of the gametes is called a zygote`
           },
           {
             name: 'False',
             text: `The embryo forms into a zygote.
-                      Androecium is the female reproductive part`
+Androecium is the female reproductive part`
           }
         ]
       }
     },
     {
-      id: '4000',
+      id: 'drag-drop',
       label: 'Plants - Answer in one word ',
       type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Female reproductive organ - *gynoecium*
-                  Male reproductive organ - *androceium*
-                  Pollination through air - *anemophily*
-                  Pollination through water - *hydrophily*
-                  Pollination through animals - *entamophily*`
+Male reproductive organ - *androceium*
+Pollination through air - *anemophily*
+Pollination through water - *hydrophily*
+Pollination through animals - *entamophily*`
       }
     },
     {
@@ -225,13 +225,12 @@ Exotic animals are those animal species that is non-native and has been introduc
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText:
-              ' Which places do insectivorous plants grow most?',
-            options: 'nitrogen deficient, oxygen deficient, phophorous deficient'
+            qText: ' Which places do insectivorous plants grow most?',
+            options:
+              'nitrogen deficient, oxygen deficient, phophorous deficient'
           },
           {
-            qText:
-              'How does insectivorus plants attract insects?',
+            qText: 'How does insectivorus plants attract insects?',
             options: 'nectar, bright colours, certain odours, *all'
           },
           {
@@ -246,59 +245,59 @@ Exotic animals are those animal species that is non-native and has been introduc
       }
     },
     {
-      id: 'fillup',
+      id: 'fillup-plants',
       label: 'Plants - Fill up ',
       type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Insectivorous* plants are insect eating plants. 
-        Exotic *plants* are the plants that have been introduced to a region or ecosystem where they are foreign or non-native.
-        Exotic *animals* are those animal species that is non-native and has been introduced into an area where it does not occur naturally.`
+Exotic *plants* are the plants that have been introduced to a region or ecosystem where they are foreign or non-native.
+Exotic *animals* are those animal species that is non-native and has been introduced into an area where it does not occur naturally.`
       }
     },
     {
-      id: '4100',
+      id: 'drag-drop-2',
       label: 'Plants - Answer in one word -2 ',
       type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Seed with single cotyledon - *monocotyledon*
-                  Seed with two cotyledons - *dicotyledon*
-                  Seed dispersal by wind - *anemochory*
-                  Seed dispersal by water - *hydrochory*
-                  Seed dispersal by animals - *zoochory*
-                  Self dispersal of seeds - *autochory*`
+Seed with two cotyledons - *dicotyledon*
+Seed dispersal by wind - *anemochory*
+Seed dispersal by water - *hydrochory*
+Seed dispersal by animals - *zoochory*
+Self dispersal of seeds - *autochory*`
       }
     },
     {
-      id: '4200',
+      id: 'match-3',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Earthworm, Vermicompost
-                  Birds, Ornithophily
-                  Coconut, Dispersal by water
-                  Bee, Honey
-                  Dragonfly, Destroys larvae`,
+Birds, Ornithophily
+Coconut, Dispersal by water
+Bee, Honey
+Dragonfly, Destroys larvae`,
         title: 'Match the following'
       }
     },
     {
-      id: '4300',
+      id: 'match-4',
       label: 'Match the following -2',
       type: 'match',
       data: {
         text: `Roots, anchoring
-                  Flowers, reproduction
-                  Fruits, production of seeds
-                  Leaves, food factory
-                  Stem, support`,
+Flowers, reproduction
+Fruits, production of seeds
+Leaves, food factory
+Stem, support`,
         title: 'Match the following'
       }
     },
     {
       label: 'Plants - Choose the best Answer',
-      id: '4400',
+      id: 'mcq-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -939,20 +938,20 @@ Exotic animals are those animal species that is non-native and has been introduc
       data: {
         title: 'Structure of seed',
         text: `# Seed
-        Most plants grow from seeds. Seeds are usually found on inside the fruit. Often new plants grow when seeds from a plant fall on the soil.
-        # Structure of seed
-        A thick outer covering called a seed coat protects the seed. The scar on the seed is where it was attached to the fruit. On top of the scar you will find a small hole. This hole allows water to enter the seed.Carefully remove the seed coat. You will see two seed leaves. Between the seed leaves is the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. They also protect the baby plant. All seeds do not have two seed leaves. Some such as corn, have only one seed leaf. When seeds get enough water, air and warmth they grow into new plants. They do not grow if any one of these is missing. Seeds use the food stored  in seed leaves to grow. The growth of a baby plant from a seed is called germination. The growing baby plant is known as a seedling. The roots of the young plant start growing from the seed down into the soil. Then the shoot starts appearing and grows upwards. The seed leaves are present till leaves start growing on the plant. Once green leaves grow, the plant is able to make its own food.`
+Most plants grow from seeds. Seeds are usually found on inside the fruit. Often new plants grow when seeds from a plant fall on the soil.
+# Structure of seed
+A thick outer covering called a seed coat protects the seed. The scar on the seed is where it was attached to the fruit. On top of the scar you will find a small hole. This hole allows water to enter the seed.Carefully remove the seed coat. You will see two seed leaves. Between the seed leaves is the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. It has a baby shoot and a baby root. The seed leaves store food for the baby plant. They also protect the baby plant. All seeds do not have two seed leaves. Some such as corn, have only one seed leaf. When seeds get enough water, air and warmth they grow into new plants. They do not grow if any one of these is missing. Seeds use the food stored  in seed leaves to grow. The growth of a baby plant from a seed is called germination. The growing baby plant is known as a seedling. The roots of the young plant start growing from the seed down into the soil. Then the shoot starts appearing and grows upwards. The seed leaves are present till leaves start growing on the plant. Once green leaves grow, the plant is able to make its own food.`
       }
     },
     {
-      id: 'match',
+      id: 'match-9',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `seed coat, protect
-        seed leaf, food
-        corn, 1 seed leaf
-        scar, attached to fruit`,
+seed leaf, food
+corn, 1 seed leaf
+scar, attached to fruit`,
         title: 'Match the following'
       }
     },
@@ -960,23 +959,23 @@ Exotic animals are those animal species that is non-native and has been introduc
       label: 'Germination',
       type: 'sorting',
       data: {
-        title:
-          'Arrange in the correct order.',
-        text: 'seed falls on soil, enough water and air, root grow into soil, shoot appears, grow upwards, leaves appear.'
+        title: 'Arrange in the correct order.',
+        text:
+          'seed falls on soil, enough water and air, root grow into soil, shoot appears, grow upwards, leaves appear.'
       },
       id: 'germination'
     },
     {
-      id: 'drag-drop',
+      id: 'drag-drop-seed',
       label: 'Seed - Fill in the blanks',
       type: 'matchByDragDrop',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A thick outer covering called a *seed coat* protects the seed. 
-        The *scar* on the seed is where it was attached to the fruit. 
-        On top of the scar you will find a small hole. This hole allows *water* to enter the seed.
-        Between the *seed leaves* is the baby plant.
-        The seed leaves store *food* for the baby plant.`
+The *scar* on the seed is where it was attached to the fruit. 
+On top of the scar you will find a small hole. This hole allows *water* to enter the seed.
+Between the *seed leaves* is the baby plant.
+The seed leaves store *food* for the baby plant.`
       }
     }
   ]

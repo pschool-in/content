@@ -18,7 +18,7 @@ export default {
           {
             type: 'hilight',
             text:
-              'an apple, an animal, an egg, an eagle, an ice-cream, an owl, an umbrella'
+              'an apple, an animal, an egg, an eagle, an ice cream, an owl, an umbrella'
           },
           {
             type: 'html',
@@ -38,224 +38,239 @@ export default {
             type: 'html',
             text: `<b>a</b> and <b>an</b> are used to refer any one of the things. But <b>the</b> is used to refer to a specific thing.<br>
             I went to a doctor. The doctor was very kind.<br>
-            In the first sentence we use <b>a</b> before the word <b>doctor</b> because she is one of the many doctor. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
+            In the first sentence, we use <b>a</b> before the word <b>doctor</b> because she is one of the many doctors. But in the second sentence we use <b>the</b> because we are speaking about a particular doctor whom we visited.`
           }
         ]
       }
     },
     {
-      id: 'fill-up-1',
-      label: 'Addition of Articles',
-      type: 'fillup',
+      label: 'Pick the Right Article',
+      id: 'complete',
+      type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
-        title: `Click on the blank and choose a or an before the following naming words`
+        type: 'leftOpen',
+        title: 'Drag and drop the correct Article.',
+        printTitle: 'Pick the correct Article',
+        leftWidth: 75,
+        rightWidth: 245
       },
+
       data: [
-        `*a(an)* lion
-*an(a)* orange
-*a(an)* peacock
-*a(an)* tailor 
-*an(a)* eye
-*a(an)* bus
-*a(an)* sheep
-*a(an)* lemon
-*an(a)* eraser
-*a(an)* farmer`,
+        `pot, a, an
+        gun, a, an
+        ant, an, a
+        pan, a, an
+        nose, a, an
+        cup, a, an
+        can, a, an
+        cap, a, an
+        hen, a, an
+        bed, a, an`,
 
-        `*a(an)* fish
-*a(an)* docotor
-*an(a)* engine
-*a(an)* ball
-*an(a)* egg
-*an(a)* igloo
-*a(an)* tiger
-*a(an)* book
-*an(a)* octopus
-*a(an)* girl`,
+        `pen, a, an
+        car, a, an
+        bat, a, an
+        axe, an, a
+        ear, an, a
+        hat, a, an
+        table, a, an
+        insect, an, a
+        banana, a, an
+        paper, a, an`,
 
-        `*a(an)* ballon
-*an(a)* ant
-*an(a)* aeroplane
-*a(an)* mat
-*an(a)* engine
-*a(an)* kite
-*a(an)* bag
-*a(an)* dog
-*an(a)* owl
-*a(an)* bench`,
+        `ant, an, a
+        mat, a, an
+        bag, a, an
+        dog, a, an
+        owl, an, a
+        bench, a, an
+        ballon, a, an
+        aeroplane, an, a
+        engine, an, a
+        kite, a, an`,
 
-        `*a(an)* banana
-*a(an)* car
-*a(an)* paper
-*a(an)* bat
-*an(a)* axe
-*an(a)* ear
-*a(an)* hat
-*a(an)* table
-*an(a)* insect
-*a(an)* pen`,
+        `eye, an, a
+        bus, a, an
+        sheep, a, an
+        lemon, a, an
+        eraser, an, a
+        farmer, a, an
+        lion, a, an
+        orange, an, a
+        peacock, a, an
+        tailor, a, an`,
 
-        `*a(an)* flower
-*an(a)* inkpot
-*a(an)* parrot
-*a(an)* box
-*an(a)* elbow
-*a(an)* window
-*a(an)* football
-*a(an)* panda
-*a(an)* mouse
-*an(a)* ice-cream`,
-
-        `*a(an)* woman
-*an(a)* officer
-*a(an)* bottle
-*a(an)* baby
-*an(a)* urn
-*an(a)* old carpet
-*a(an)* beehive
-*a(an)* gun
-*a(an)* pot
-*a(an)* hospital`,
-
-        `*a (an)* guitar
-*a (an)* pony tail
-*an (a)* apple
-*a (an)* pencil
-*an (a)* elastic
-*an (a)* animal
-*a (an)* biscuit
-*an (a)* ostrich
-*a (an)* board
-*a (an)* sofa`
+        `bulb, a, an
+        rose, a, an
+        frog, a, an
+        door, a, an
+        pear, a, an
+        peach, a, an
+        shoe, a, an
+        horse, a, an
+        brush, a, an
+        pin, a, an`
       ]
     },
     {
-      id: 'fill-up-2',
-      label: 'Addition of naming words',
-      type: 'fillup',
+      label: 'Pick the Right Word',
+      id: 'complete-2',
+      type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
-        title: `Click on the blank and add the correct naming word in front of the articles.`
+        type: 'rightOpen',
+        title: 'Drag and drop the right word to match the article.',
+        printTitle: 'Pick the right word that goes with the article.',
+        leftWidth: 75,
+        rightWidth: 245
       },
       data: [
-        `an *umbrella (cat)*
-          an *ice-cream (pot)*
-          an *engineer (pen)*
-          a *toy (eagle)*
-          an *accident(ring)*`,
+        `a, cow, ox
+      an, owl, bat
+      an, eagle, parrot
+      a, cherry, orange
+      a, nose, eye
+      an, ear, teeth
+      a, nine, eight
+      an, elder, younger
+      a, new, old
+      a, bow, arrow`,
 
-        `a *lion (elephant)*
-          an *hour(clock)*
-          an *honest man(bad man)*
-          a *car(owl)*
-          a *cherry(apple)*`,
+        `an, ox, cow
+      a, bat, owl
+      a, parrot, eagle
+      an, orange, cherry
+      an, eye, nose
+      a, teeth, ear
+      an, eight, nine
+      a, younger, elder
+      an, old, new
+      an, arrow, bow`,
 
-        `an *Eagle (crow)*
-         an *honour(dishonour)*
-         an *apron(coat)*
-         a *lamp (inkpot)*
-         an *egg (hen)*`
+        `an, inch, cm
+      a, kite, eagle
+      a, lemon, orange
+      a, mango, apple
+      an, oven, stove
+      a, nice, old
+      a, one, eight
+      an, oval, circle
+      a, pair, eye
+      a, pencil, eraser`
       ]
     },
     {
       type: 'selectWord',
-      label: 'Select - Article -1',
+      label: 'Identify the Articles',
       id: 'select-word',
       commonData: {
         title: 'Select the article in the sentence.'
       },
       data: [
-        `*An* elephant is a mammal.
-          Eating *an* apple everyday can keep a doctor away.
-          Yesterday, I bought *a* white umbrella.
-          *The* music is playing on the TV.
-          I bought dozen bananas from *the* market.`,
+        `Ravi is *a* boy.
+        He is *a* doctor.
+        I saw *an* elephant.
+        I have *an* umbrella.
+        We have *a* pet dog.
+        Preethi is *an* honest student.
+        Ram is *a* very smart boy.
+        I want *a* burger for dinner.
+        There is *a* snake.
+        Tia has *a* cat.`,
 
-        `Cheetah is *the* fastest land animal.
-          My dad is *a* professor in Osmania University.
-          My son has *a* big world map in his room.
-          There is *a* dog in the yard.
-          I saw *an* owl on the branch.`,
-
-        `The teacher read *a* story in the class.
-         I want *a* burger for dinner.
-         Ram is *a* very smart boy.
-         We have *a* black dog.
-         Preethi is *an* honest student.`
+        `Mahi wants *an* iPad.
+        I can see *a* blue car.
+        This is *an* easy question.
+        Piya is eating *an* apple.
+        Somnath is reading *a* book.
+        Karthik is sleeping on *the* sofa.
+        Mihir has *an* old bike.
+        My uncle is *a* pilot.
+        Swati is *a* nice girl.
+        Reading is *a* good habit.`
       ]
     },
     {
-      id: 'fill-up-3',
+      id: 'fill-up',
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blank and choose the correct article in the sentence`
+        title: `Click on the blanks and choose the right article.`,
+        options: 'a, an'
       },
       data: [
-        `There is *a (an)* dog in the backyard.
-I see *an (a)* owl on the tree!
-Mom has *a (an)* blue dress.
-There is *a(an)* cup on the table.
-Manish eats *an (a)* orange for breakfast.
-There is *a (an)* ball.
-My aunt is *a (an)* lawyer.
-Aditya wants *a (an)* pair of jeans.
-Nitya is *an (a)* Indian classical singer.
-He is sitting on *a (an)* sofa.`,
+        `That is *a* pot.
+        I saw *an* ant hill in my garden.
+        I have *an* exam tomorrow morning.
+        We went to *a* movie yesterday evening.
+        I and my brother had *a* chocolate cake.
+        I need *a* bowl of soup.
+        I have *a* bag of chocolates.
+        I want to eat *a* mango.
+        I have *an* idea for our project work.`,
 
-        `Meera is *an (a)* intelligent student.
-Dad wants me to wear *a (an)* cap.
-Reema has *a(an)* jewelry box.
-We put up *a (an)* Christmas tree for holidays.
-Grandma read *a (an)* story to all my friends.
-I saw *an (a)* ostrich in zoo.
-There is *a (an)* hospital near my home.
-I have *a (an)* new pencil.
-There is *a (an)* big window in my room.
-I have *a (an)* box of chocolates in my bag.`,
+        `The tiger is *a* wild animal.
+        Kavya is *a* hardworking student.
+        Is that *an* old dress you are wearing?
+        This is *an* eraser.
+        M.S.Dhoni is *a* cricketer.
+        Mr. Ramesh is *a* teacher.
+        Ginger is *a* lazy dog.
+        He can ride *a* bike.
+        There is *an* insect under the pillow.
+        I bought *a* new lunch box today.`,
 
-        `I want to eat *an (a)* apple.
-I bought *an (a)* umbrella for my brother.
-Aladdin had *a (an)* magic lantern.
-I saw *a (an)* big lion at the zoo.
-She has written *a (an)* story.
-I saw *a (an)* Peacock in KBR park today.
-I have *an (a)* inkpot on my study table.
-It is *an (a)* ancient fort in Hyderabad.
-I am *a (an)* pilot.
-Rajeev is reading *a (an)* magazine.`,
+        `There is *a* dog in the backyard.
+        I see *an* owl on the tree!
+        Mom has *a* blue dress.
+        There is *a* cup on the table.
+        Manish eats *an* orange for breakfast.
+        There is *a* ball.
+        My aunt is *a* lawyer.
+        Aditya wants *a* pair of jeans.
+        Nitya is *an* Indian classical singer.
+        He is sitting on *a* sofa.`,
 
-        `Rakesh's father is *a (an)* lawyer.
-This is *a (an)* ball.
-I saw *an (a)* old carpet.
-We have *a (an)* red car.
-Saanvi is *an(a)* honest girl.
-Do you like *an (a)* apple?
-He can ride *a (an)* bicycle.
-Sudheer is *a (an)* doctor.
-My sister is *a (an)* painter.
-My son is *a (an)* good boy.`,
+        `There is *a* beehive.
+        Pass me *an* apple.
+        Mohan has *a* bike.
+        Ritu is *an* Indian.
+        Krishna wants *an* orange.
+        My mom is baking *a* cake.
+        My neighbor has *a* BMW car.
+        Nandita is *a* classical dancer.
+        Mohit has *an* umbrella.
+        Rohita is *an* intelligent girl.`
+      ]
+    },
+    {
+      label: 'Presence of Article',
+      id: '300',
+      type: 'classifySentence',
+      commonData: {
+        title: 'Identify whether the sentences have articles or not.',
+        types: ['Has article', `Doesn't Have`]
+      },
+      data: [
+        [
+          `I would like to have an orange.
+          A donkey is an animal.
+          I bought an umbrella.`,
 
-        `There is *a (an)* beehive.
-Pass me *an(a)* apple.
-Mohan has *a (an)* bike.
-Ritu is *an (a)* Indian.
-Krishna wants *an(a)* orange.
-My mom is baking *a (an)* cake.
-My neighbor has *a (an)* BMW car.
-Nandita is *a (an)* classical dancer.
-Mohit has *an(a)* umbrella.
-Rohita is *an(a)* intelligent girl.`,
+          `I could see stars at night.
+          Do you speak Bengali?
+          She arrived in Mumbai yesterday.`
+        ],
+        [
+          `I ate an apple pie yesterday.
+          My mother is a doctor.
+          Shannu is a nice boy.`,
 
-        `Mayukha bought *a (an)* flower.
-They live in *a(an)* small hut.
-She is not *an(a)* old lady.
-My dad works in *a(an)* factory.
-My brother has *a (an)* toy laptop.
-*An (A)* elephant is a huge animal.
-Meera is *a (an)* nice girl.
-My uncle is *an (a)* engineer.
-I bought *a (an)* pair of gloves.
-Gold is *a (an)* precious ornament.`
+          `I eat chapatis every day.
+          December is quite cold.
+          I go to school by car every day.`
+        ]
       ]
     }
   ]

@@ -7,7 +7,7 @@ export default {
     {
       label: 'Gadgets - Passage',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Gadgets',
         text: `A gadget is a small electronic machine or device which does something useful. Number of gadgets have changed our lives. They make our life enjoyable. Examples: Laptop, Phone, Camera, Pen drive, Speaker
@@ -29,7 +29,7 @@ Internet allows us to connect with anyone in the world present in different plac
       }
     },
     {
-      id: '200',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -44,7 +44,7 @@ Tablet, Read books`,
     },
     {
       label: 'Multiple Choice Questions',
-      id: '300',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -92,16 +92,16 @@ torch|torch |_orch`
     {
       type: 'sequence',
       label: 'Jumbled Word',
-      id: '400',
+      id: 'jumbled-words',
       data: {
         title: 'Find the word.',
         text: 'laptop, camera, smart, phone, speaker'
       }
     },
     {
-      id: '500',
+      id: 'fillup',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A gadget is a small *electronic (electric) * machine.

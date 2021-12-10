@@ -7,7 +7,7 @@ export default {
     {
       label: 'Air Atmosphere - Reading',
       type: 'passage',
-      id: '400',
+      id: 'reading',
       data: {
         title: 'Our Need for Air',
         text: `The earth we live on is round in shape. There exist a blanket of air surrounding the earth. This blanket of air is known as atmosphere. The atmosphere is as high as 50km.
@@ -17,35 +17,35 @@ export default {
       }
     },
     {
-      id: '500',
+      id: 'match',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Nitrogen, 78%
-            Oxygen, 21%
-            Argon, 0.07%
-            Carbon dioxide, 0.03%
-            Other gases, small quantities`,
+Oxygen, 21%
+Argon, 0.07%
+Carbon dioxide, 0.03%
+Other gases, small quantities`,
         title: 'Match the following'
       }
     },
     {
       id: 'fillup',
       label: 'Gas in Air - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `About *78% (97%)* of air is made up of nitrogen.
-            About *21% (50%)* of air is made up of oxygen.
-            As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
-            *Oxygen (carbon dioxide)* is required for burning.
-            Plants use *carbon dioxide (oxygen)* to make food. 
-            The fizzy bubbles in soft drinks are due to the presence of *carbon dioxide (nitrogen)*.`
+About *21% (50%)* of air is made up of oxygen.
+As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
+*Oxygen (carbon dioxide)* is required for burning.
+Plants use *carbon dioxide (oxygen)* to make food. 
+The fizzy bubbles in soft drinks are due to the presence of *carbon dioxide (nitrogen)*.`
       }
     },
     {
       label: 'True or False',
-      id: '700',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -53,21 +53,21 @@ export default {
           {
             name: 'True',
             text: `Plants need carbon dioxide to prepare food.
-                Burning fossil fuels pollutes the air.
-                Oxygen is required to produce energy to do work.`
+Burning fossil fuels pollutes the air.
+Oxygen is required to produce energy to do work.`
           },
           {
             name: 'False',
             text: `We exhale oxygen.
-                We inhale carbon dioxide.
-                At heights air is denser.`
+We inhale carbon dioxide.
+At heights air is denser.`
           }
         ]
       }
     },
     {
       type: 'rightOne',
-      id: '800',
+      id: 'odd-one-2',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
@@ -80,7 +80,7 @@ export default {
     {
       label: 'Answer in one word',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -97,7 +97,7 @@ export default {
     {
       label: 'Atmosphere - Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '900',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -114,7 +114,7 @@ export default {
     },
     {
       label: 'Choose the best Answer - Air',
-      id: '1000',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -142,7 +142,7 @@ export default {
     {
       label: 'Air Composition - Reading',
       type: 'passage',
-      id: '1100',
+      id: 'reading-2',
       data: {
         title: 'The composition of Air',
         text: `# Importance of air.
@@ -178,7 +178,7 @@ export default {
     {
       label: 'Air Polution - Reading',
       type: 'passage',
-      id: '1200',
+      id: 'reading-3',
       data: {
         title: 'Air pollution',
         text: `# Air pollution
@@ -205,9 +205,9 @@ export default {
       }
     },
     {
-      id: '1300',
+      id: 'fillup-3',
       label: 'Air & its composition - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Clay pot has thousands of tiny pores through which water seeps out. This causes *cooling (heating)* effect.
@@ -219,7 +219,7 @@ export default {
     },
     {
       label: 'True or False',
-      id: '1400',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -243,7 +243,7 @@ export default {
     {
       label: 'Drag and Drop - Air Composition',
       type: 'matchByDragDrop',
-      id: '1500',
+      id: 'drag-drop-6',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -259,7 +259,7 @@ export default {
       }
     },
     {
-      id: '1600',
+      id: 'match-4',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -272,7 +272,7 @@ export default {
     },
     {
       label: 'Choose the best Answer - Air Composition & Air Polution',
-      id: '1700',
+      id: 'mcq-2',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

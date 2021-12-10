@@ -185,7 +185,7 @@ Neighbours,  respect`,
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Individuals together make a family and families together make a *society (extended family)*.

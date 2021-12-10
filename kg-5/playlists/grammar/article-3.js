@@ -29,203 +29,348 @@ Boys are usually fond of outdoor games.`
       }
     },
     {
-      id: 'fill-up-1',
-      label: 'Pick-Correct Article',
-      type: 'fillup',
+      label: 'Pick the Right Article',
+      id: 'complete',
+      type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
-        title: `Write the correct article before each naming word or noun.`
+        type: 'leftOpen',
+        title: 'Drag and drop the correct Article.',
+        printTitle: 'Pick the correct Article',
+        leftWidth: 75,
+        rightWidth: 245
       },
+
       data: [
-        `*an (a)* apple
-*a (an)* cage 
-*a (an)* doctor 
-*an (a)* inkpot
-*a (an)* train`,
+        `woman, a, an
+        officer, an, a
+        bottle, a, an
+        baby, a, an
+        urn, an, a
+        old carpet, an, a
+        beehive, a, an
+        remote, a, an
+        mobile, a, an
+        hospital, a, an`,
 
-        `*an (a)* orange
-*an (a)* owl
-*an (a)* elephant
-*the (a)* bananas
-*a (an)* cat`,
+        `guitar, a, an
+        pony tail, a, an
+        apple, an, a
+        pencil, a, an
+        elastic, an, a
+        animal, an, a
+        biscuit, a, an
+        ostrich, an, a
+        board, a, an
+        sofa, a, an`,
 
-        `*the (an)* cats
-*the (a)* dogs
-*an (a)* eagle
-*a (an)* baboon
-*the (a)* wolves`
+        `arrow, an, a
+       ugly, an, a
+       nice, a, an
+       oval, an, a
+       axe, an, a
+       pair, a, an
+       empty, an, a
+       ant, an, a
+       kite, a, an
+       European, a, an
+       engine, an, a`,
+
+        `year, a, an
+       Indian, an, a
+       umbrella, an, a
+       honest, an, a
+       hour, an, a
+       universe, a, an
+       university, a, an
+       x-ray, an, a
+       one, a, an
+       wonderful, a, an`,
+
+        `utensil, a, an
+       uncle, an, a
+       uniform, a, an
+       ugly dog, an, a
+       half, a, an
+       actor, an, a
+       invitation, an, a
+       dollar, a, an
+       rupee, a, an
+       envelope, an, a`
       ]
     },
     {
-      id: 'fill-up-2',
-      label: 'Complete the following',
-      type: 'fillup',
+      label: 'Pick the Right Word',
+      id: 'complete-2',
+      type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
-        title: `Fill in the sentences with correct articles.`
+        type: 'rightOpen',
+        title: 'Drag and drop the right word to match the article.',
+        printTitle: 'Pick the right word that goes with the article.',
+        leftWidth: 75,
+        rightWidth: 245
       },
       data: [
-        `He ate *an (a, the)* apple.
-I will meet *the (a, an)* President today.
-The mangoes cost thirty rupees *a (an, the)* piece.
-I have *an (a, the)* exam today. 
-*A (an, the)* dog is barking.
-She goes to temple in *the (a, an)* mornings.
-Abhinav is *the (a, an)* best singer in the class.
-*The (A, An)* camel is the ship of the desert.
-Aarav is sleeping on *the (a, an)* grey sofa.
-*The (An, A)* sun is shining bright today!
-He is holding *a (an, the)* bag.`,
+        `an, eagle, crow
+      an, honour, dishonour
+      an, apron, coat
+      a, lamp, inkpot
+      an, egg, chick
+      a, computer, aeroplane
+      a, pizza, onion
+      an, Ipad, table
+      an, idea, pen
+      an, old woman, young woman`,
 
-        `There is *a (an, the)* cat in my room. 
-My brother bought *a (an, the)* gift for me. 
-He is eating *an (the, a)* apple. 
-I saw *an (a, the)* elephant.
-My sister poured honey on *the (a, an)* fruits. 
-I saw *a (an, the)* snake in my garden.
-My uncle is *a (the, an)* policeman.
-Are you going to *the (a, an)* park this evening?
-There is *a (the, an)* fountain at the entrance of the temple.
-My cousins visited *the (a, an)* Tajmahal last year.`,
+        `a, man, elephant
+a, European, Indian
+a, little, ice cream
+a, year, hour
+an, island, beach
+an, honest man, clever man
+a, usual, unusual
+a, horse, ox
+an, American, Russian
+a, kindman, honest`,
 
-        `I am reading *a (an, the)* novel.
-It is *a (the, an)* sweet memory.
-I want *a (the, an)* burger.
-She wants to buy *an (the, a)* umbrella. 
-We can see *the (a, an)* stars at night.
-*The (A, An)* elephants are very big animals.
-That is *an (a, the)* interesting book.
-My brother has *a (an, the)* headache.
-I have *a (an, the)* test today.
-She is eating *a (an, the)* chocolate pastry.`
+        `a, golden watch, apple
+a, bird, ostrich
+an, exam, paper
+an, English book, science book
+a, young, old
+an, octopus, shark
+a, dictionary, aeroplane
+an, option, student
+a, trophy, animal
+an, ambulance, lorry`
       ]
     },
-    {
-      label: 'Yes or No',
-      id: 'yes-or-no',
-      type: 'classifySentence',
-      data: {
-        title:
-          'Write whether the article used for each word is correct or wrong.',
-        types: [
-          {
-            name: 'Yes',
-            text: `A friend
-              A gun
-              The postcard
-              An hour
-              An octopus`
-          },
-          {
-            name: 'No',
-            text: `An basket
-              A eagle
-              A owl
-              A ice-cream
-              A inkpot`
-          }
-        ]
-      }
-    },
-
     {
       type: 'selectWord',
-      label: 'Select - Article-2',
-      id: 'select-word-2',
+      label: 'Identify the Articles',
+      id: 'select-word',
       commonData: {
-        title: 'Select the articles in the paragraph.',
+        title:
+          'Select all the articles in the below sentence. There can be zero or more articles.',
         multiSelect: true
       },
       data: [
-        `I live in Hyderabad. It is *a* big city. *The* Charminar is *a* famous monument in our city. 
-*The* Birla Planetarium is *the* most frequently visited place by many students every year.
-Nehru Zoological park is *a* famous zoo in Hyderabad which consists of different kinds of animals.`,
+        `I live in Hyderabad. It is *a* big city. *The* Charminar is *a* famous monument in our city.
+        *The* Birla Planetarium is *the* most frequently visited place by many students every year.
+        Nehru Zoological park is *a* famous zoo in Hyderabad which consists of different kinds of animals.
+        My neighborhood is *a* very nice place. There is *a* big supermarket at *the* end of *the* road.
+        There is also *a* small park near my home. Also, we have *a* health center in *the* colony.
+        In addition, there is *a* preschool where my little sister studies.
+        I have *a* dog and *a* parrot for pets. *The* dog is always quiet but *the* parrot is very noisy!`,
 
-        `My neighborhood is *a* very nice place. There is *a* big supermarket at *the* end of *the* road. 
-There is also *a* small park near my home. Also we have *a* health center in *the* colony. 
-In addition, there is *a* preschool where my little sister studies.`,
-
-        `Once upon *a* time *a* women had *an* only son whose name was Aladdin. 
-One day as he was looking for wild figs out in the desert, he came across *a* dungeon.
-Aladdin went in to *the* dungeon and found *a* magic lamp.
-When Aladdin rubbed *the* magic lamp *a* genie arrived and asked him to wish for something.`
+        `Once upon *a* time *a* woman had *an* only son whose name was Aladdin.
+One day as he was looking for wild figs out in *the* desert, he came across *a* dungeon.
+Aladdin went into *the* dungeon and found *a* magic lamp.
+When Aladdin rubbed *the* magic lamp *a* Genie arrived and asked him to wish for something.
+*A* dog is *a* pet animal and is *the* most obedient animal. There are different kinds of dogs in *the* world.
+Kids love to play with dogs in *the* playground. It is *a* very playful animal.
+I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats pedigree and curd rice.`
       ]
     },
     {
-      id: 'fill-up-3',
-      label: 'Complete the Story',
+      id: 'fillup-2',
+      label: 'Fill in the Blanks',
       type: 'fillup',
+      lockAfter: 2,
       commonData: {
-        title: `Fill in the blanks with appropriate articles to complete the story.`
+        title: 'Click on the blanks and pick the correct Article.',
+        options: 'a, an, the'
       },
       data: [
-        `Once upon a time, in *a (the, an)* thick forest, *a (the, an)* lion was sleeping under *a (an, the)* tree. *A (the, an)* cheerful mouse came there and saw *the (a, an)* lion. *The (a, an)* mouse climbed onto the body of the lion and started playing. He pulled *the (a, an)* lion’s whiskers. Suddenly the lion woke up and roared in anger and caught the mouse. *The (a, an)* mouse trembled in fear. The lion took pity on it and let it go. The mouse thanked and promised the lion that it would help in times of need. One day *a (an, the)* hunter trapped *the (an, a)* lion. *The (a, an)* poor lion roared for help. The mouse heard the cries and came there and cut *the (a, an)* net with its sharp teeth. The lion came out and they became good friends.`,
+        `He ate *an* apple.
+       I will meet *the* President today.
+       The mangoes cost thirty rupees *a* piece.
+       I have *an* exam today.
+       *The (A, An)* dog is barking.
+       She goes to the temple in *the* mornings.
+       Abhinav is *the* best singer in the class.
+       *The (A, An)* camel is the ship of the desert.
+       Aarav is sleeping on *the* grey sofa.
+       *The (An, A)* sun is shining bright today!
+       He is holding *a* bag.`,
 
-        `One afternoon *a (the, an)* fox was walking through *the (a, an)* forest and spotted *a (the, an)* bunch of grapes hanging from over *a (an, the)* lofty branch. “Just *the (a, an)* right thing to quench my thirst,” he thought. Taking a few steps back, *the (a, an)* fox jumped and just missed *the (a, an)* hanging grapes. Again *the (a, an)* fox took a few paces back and tried to reach them but still failed.After *an (a, the)* hour finally *the (a, an)* fox gave up and turned up his nose and said, “They’re probably sour anyway,” and walked away.`,
+        `There is *a* cat in my room.
+       My brother bought *a* gift for me.
+       He is eating *an* apple.
+       I saw *an* elephant.
+       My sister poured honey on *the* fruits.
+       I saw *a* snake in my garden.
+       My uncle is *a* policeman.
+       Are you going to *the* park this evening?
+       There is *a* fountain at the entrance of the temple.
+       My cousins visited *the* Tajmahal last year.`,
 
-        `One hot day, *a (an, the)* thirsty crow flew all over the fields looking for water. For a long time, he could not find any. He felt very weak, almost lost all hope. Suddenly, he saw *a (an, the)* water jug below *the (a, an)* tree. He flew straight down to see if there was any water inside. Yay! he could see some water inside the jug! *The (a, an)* crow tried to push his head into the jug. Sadly, he found that *the (a, an)* neck of the jug was too narrow. Then he tried to push *the (a, an)* jug to tilt for the water to flow out, but the jug was too heavy.
-*The (a, an)* crow thought hard for a while. Then, looking around it, he saw some pebbles. He suddenly had *a (an, the)* good idea. 
-He started picking up *the (a, an)* pebbles one by one, dropping each into the jug. As more and more pebbles filled *the (a, an)* jug, the water level kept rising. Soon it was high enough for *the (a, an)* crow to drink. His plan had worked!`,
-
-        `Once upon a time there was *an (a, the)* old farmer who had a horse and a donkey. 
-He was fond of both of them but he took better care of *the (a, an)* horse.
-*The (A, An)* donkey always carried heavy load to the market. 
-One day, the donkey moaned and said: I am so weak! Couldn't you take some of my load.
-*The (A, An)* horse said no, I won't carry your load. So, the poor donkey carried on. 
-But soon he had to stop again and said: please help me or I will never reach *the (a, an)* market alive.
-But *the (a, an)* horse replied: Rubbish! Come on, you will manage this time too. 
-After *a (the, an)* few steps the donkey dropped dead on the ground. 
-*The (a, an)* master saw donkey dead and felt vey sad and later transferred all *the (a, an)* load to the horse.`,
-
-        `One night Manoj and his friend Suresh were travelling by train. 
-They spoke for sometime and after *a (the, an)* while they switched off *the (a, an)* light and fell asleep. 
-Soon, *a (an, the)* thief entered the compartment. 
-He saw Manoj's mobile lying beside him. 
-*The (A, An)* thief carefully took it away without disturbing him. *The (A, An)* next morning Suresh wanted to use Manoj's mobile.
-He asked, "Can I use your mobile, Manoj?". Sure, replied suresh. 
-When he searched, he could not find his mobile anywhere. He said, "I think someone stole it". 
-Oh! I am so sorry, said suresh. But Manoj smiled and said it is ok, as *the (a, an)* thief will not be able to use it as I have switched it off.`
+        `I am reading *a* novel.
+       It is *a* sweet memory.
+       I want *a* burger.
+       She wants to buy *an* umbrella.
+       We can see *the* stars at night.
+       *The (A, An)* elephants are very big animals.
+       That is *an* interesting book.
+       My brother has *a* headache.
+       I have *a* test today.
+       She is eating *a* chocolate pastry.`
       ]
     },
     {
       id: 'no-article',
       label: 'No Article - Fill up',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
         options: '-, a, an'
       },
       data: [
         `*-* man is mortal.
-  Can you tell me *a* story?
-  She goes to the temple in *-* mornings.
-  I am fond of *-* music.
-  I will go to school by *-* walk.
-  Ashoka was *an* honest king.
-  I left my book at *-* home.
-  I saw *a* snake in my garden.
-  He likes to read *-* short stories.
-  A teacher is *an* important person in everyone's life.`,
+        Can you tell me *a* story?
+        She goes to *-*school every day. 
+        I am fond of *-* music.
+        I will go to school by *-* walk.
+        Ashoka was *an* honest king.
+        I left my book at *-* home.
+        I saw *a* snake in my garden.
+        He likes to read *-* short stories.
+        A teacher is *an* important person in everyone's life.`,
 
         `I bought *a* pair of shoes.
-  *-* elephants are very intelligent animals.
-  I saw *a* movie last night.
-  They are staying at *a* hostel.
-  Ram played with *-* determination.
-  *-* penguins live in the South Pole.
-  I could see *-* clouds in the sky.
-  There was *-* milk on the table.
-  I gave it to *-* Jhonny.
-  She arrived in *-* India yesterday.`,
+        *-* elephants are very intelligent animals.
+        I saw *a* movie last night.
+        They are staying at *a* hostel.
+        Ram played with *-* determination.
+        *-* penguins live in the South Pole.
+        I could see *-* clouds in the sky.
+        There was *-* milk on the table.
+        I gave it to *-* Jhonny.
+        She arrived in *-* India yesterday.`,
 
         `She is *a* famous actress.
-  Do you speak *-* English?
-  He is good at *-* cricket.
-  People will travel to *-* Mars soon.
-  I do not like *-* basketball.
-  Shall we play *a* game of chess?
-  My grandma was sick. We took her to *-* hospital. Now she is good.
-  We saw *an* elephant in the zoo.
-  Do you eat *-* rice everyday?
-  My brother does not like *-* chicken.`
+        Do you speak *-* English?
+        He is good at *-* cricket.
+        People will travel to *-* Mars soon.
+        I do not like *-* basketball.
+        Shall we play *a* game of chess?
+        My grandma was sick. We took her to *-* hospital. Now she is good.
+        We saw *an* elephant in the zoo.
+        Do you eat *-* rice every day?
+        My brother does not like *-* chicken.`
+      ]
+    },
+    {
+      label: 'Classify Article Type',
+      id: 'classify-article-type',
+      type: 'classifySentence',
+      commonData: {
+        title:
+          'Select whether the sentence has a definite,indefinite or no article.',
+        types: ['Definite', 'Indefinite', 'No Article']
+      },
+      data: [
+        [
+          `I wake up at 6 0'clock in the morning.
+          The Arabian sea lies to the west of India.
+          It is better, to tell the truth.`,
+
+          `Mihir wants a pair of jeans.
+          She is an hour late.
+          I just read an interesting novel.`,
+
+          `Please keep quiet! Don't make noise!
+          We love to eat Indian food.`
+        ],
+        [
+          `The cow gives us milk.
+          Can you switch off the light?
+          There is someone at the door.`,
+
+          `He has a daughter.
+          It is a good bike.
+          Tia wants an ink pen.`,
+
+          `Milk is good for you.
+          Men are always fond of cricket.`
+        ]
+      ]
+    },
+    {
+      label: 'Correct or Incorrect',
+      id: 'classify-correct',
+      type: 'classifySentence',
+      commonData: {
+        title: 'Check whether the article usage is correct in the sentence.',
+        types: ['Correct', 'Incorrect']
+      },
+      data: [
+        [
+          `I have a book.
+         Look at the beach!
+         I like the red T-shirt.
+         Mahesh's father is an engineer.
+         Rahul has a terrible headache.`,
+
+          `I work as an English teacher in a school.
+         He is a friend of mine.
+         A gun is a very dangerous weapon.
+         I collected the postcard from the post office.`,
+
+          `My dad came an hour ago.
+         An octopus has eight tentacles.
+         Nandana is the fastest swimmer in our group.`
+        ],
+        [
+          `Do you live in the Hyderabad?
+          The London is big city.
+          Who is an lady in a picture?
+          Do you still live in the Banglore?
+          What did you have for a breakfast today?`,
+
+          `We live in an village.
+          My friend gave me an basket of fruits.
+          I saw a eagle near my farm.
+          A owl was sitting on the roof of my house.`,
+
+          `I had a ice-cream after my dinner.
+          My grandfather has a inkpot on his writing-table.
+          He is best player in the team.`
+        ]
+      ]
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      commonData: {
+        isPractice: false,
+        title:
+          'Fill in the blanks by dragging the options given at the bottom.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `I saw *a* colorful kite hanging on our mango tree.
+        Subrat is the *tallest* boy in the class.
+        Rakesh is *an* honest man in my village.
+        My cousin gave me an *Inkpen* for writing.
+        My brother is an *MBA* graduate and is working at Deloitte.`,
+
+        `We will return from the park after *an* hour.
+        It might rain today! Please carry an *umbrella*.
+        I met a *European* tourist in Agra last year.
+        Ram uses *the* internet a lot these days!
+        Mrs. Sunitha Bhan is an *English* teacher in my son's school.`,
+
+        `The fourth standard students went on *a* field trip to the zoo.
+I quickly ate *the* cookies kept on my kitchen table.
+I eat *an* egg daily before breakfast.
+The *rose* plant in my garden is growing well.
+The *lion* is the king of the jungle.`
       ]
     }
   ]

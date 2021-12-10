@@ -60,7 +60,7 @@ const vocabulary = {
     {
       id: '200',
       label: 'Fill up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         editable: true,
         title: 'Click on the blanks and fill it with the right word.',

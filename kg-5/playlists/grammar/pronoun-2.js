@@ -20,7 +20,7 @@ Some more examples of personal pronouns are:`,
             type: 'html',
             text: `<b>He</b> eats grapes.<br>
   <b>She</b> likes pear.<br>
-  <b>You</b> can have it.<br>
+  <b>You</b> can have <b>it</b>.<br>
   <b>They</b> like fruits.<br>
   <b>He</b> runs fast.<br>
   <b>She</b> jumps high.<br>
@@ -32,11 +32,11 @@ Aman likes <b>it</b>.`
     },
     {
       type: 'group',
-      label: 'Drag and Drop',
-      id: '700',
+      label: 'Pronoun or Not',
+      id: 'pronoun-or-not',
       commonData: {
-        title: 'Identify which of these words are pronouns and which are not.',
-        types: ['Pronouns', 'Not Pronouns']
+        title: 'Drag the given words and put it in the right boxes.',
+        types: ['Pronoun', 'Not a Pronoun']
       },
       data: [
         [`He, She, It, They`, `Sleep, Walk, Run, Sit`],
@@ -46,185 +46,181 @@ Aman likes <b>it</b>.`
     },
     {
       type: 'selectWord',
-      label: 'Select word',
+      label: 'Select the Pronoun',
       id: '800',
       commonData: {
-        title: 'Tap on the pronouns in each sentence.'
+        title: 'Select the pronoun in the below sentence.'
       },
       data: [
-        `*He* puts the book on the table.
-        The children play with *it*.
-        My mom told me that *they* have a lot of toys.
-        I told everyone that *it* is my favorite book.
-        *She* is playing outside.`,
+        `*He* wants to buy a new cycle.
+The teacher told everyone that *her* name is Meera.
+On Wednesday, *they* will go to the market.
+Meera thinks that *she* is very intelligent.
+*They* are studying together.
+*He* is teaching science in the school.
+Priya was shy at first but *she* is running very fast.
+Did *you* water the plants?
+*She* likes to dance.`,
 
-        `My mother likes *her* very much.
-          *His* father scolds him.
-          The book belongs to *me*.
-          *I* am never late for class.
-          Mrs. Sakshi is gives *them* chocolates.`,
+        `*He* puts the book on the table.
+The children play with *it*.
+My mom told my sister that *they* have a lot of toys.
+Ram told everyone that *it* is his favorite book.
+*She* is playing outside.
+My mother likes *her* very much.
+*His* father scolds everyone in the house.
+The book belongs to *me*.
+*I* am never late for class.
+Mrs. Sakshi is giving *them* chocolates.`,
 
         `*They* play in the park.
-          Samir is *her* brother.
-          *She* is a good girl.
-          Maya takes *me* to her house everyday.
-          *We* like to play football.`,
+Samir is *her* brother.
+*She* is a good girl.
+Maya takes *me* to the canteen every day.
+*We* like to play football.
+*He* is good at sports.
+The house belongs to *them*.
+Shenna blamed *us* for lying.
+*We* will have dinner outside.
+*I* go to sleep early.`,
 
-        `*He* is good at sports.
-          The house belongs to *them*.
-          Shenna blamed *us* for lying.
-          *We* will have dinner outside.
-          *I* go to sleep early.`
+        `*This* idea is amazing.
+Is *that* your book?
+Eat *these* chocolates after lunch.
+*Those* are my clothes.
+*This* is my mother’s saree.
+Could you help me move *these*?
+*That* looks like a rat.
+Throw *those* rolls away.`,
+
+        `My brother would like *those*, please.
+*These* are nice flowers.
+Raju told everyone *that* the party is tomorrow.
+*This* is crazy!`
       ]
     },
     {
       id: '900',
-      label: 'Match the following',
+      label: 'Match the pairs',
       type: 'match',
       commonData: {
-        title: 'Match the pairs.'
+        title: 'Match the subject with the correct pronoun.'
       },
       data: [
         `Reena, She
-       Rahul, He
-       Book, It
-       Children, They`,
+        Rahul, He
+        Book, It
+        Children, They
+        Siya and Me, We`,
 
         `Pencil, It
-       Priya, Her
-       Rahul, Him
-       Rena and Sen, Them
-       I, Me`,
+        Ram and Shaam, They
+        Richa, She
+        Rony, He
+        Me and Raj, Us`,
 
         `Pen, It
-Ram and Shaam, They
-Richa, She
-Rony, He`
+        Priya, Her
+        Rahul, Him
+        Rena and Sen, Them
+        I, Me`,
+
+        `Pintu and I, We
+        Jashwanth, He
+        Rakhi, She
+        The big bus, It
+        Kishore and Lalith, They`,
+
+        `A bike, It
+        This boy, He
+        The girls, They
+        You and Ram, You
+        You and I, We`
       ]
     },
     {
-      label: 'Classify',
+      label: 'True or False',
       id: '1000',
       type: 'classifySentence',
       commonData: {
-        title: 'Identify if these sentences have personal pronouns or not.',
-        types: ['Yes', 'No']
+        title: 'True or False: The below sentences have personal pronoun.',
+        types: ['True', 'False']
       },
       data: [
         [
           `She is a good girl.
-              It is a good book.
-              They are in the park.`,
+          It is a good book.
+          They are in the park.
+          It is on the table.
+          She has kept it safely.`,
 
           `Karan is playing.
-              Sakshi is a good student.
-              Anya and Avi are very smart.`
+          Sakshi is a good student.
+          Anya and Avi are very smart.
+          The eraser is used to correct mistakes.
+          The dress is purple.`
         ],
         [
-          `It is on the table.
-              She has kept it safely.
-              He is sleeping.`,
-
-          `The eraser is used to correct mistakes.
-              The dress is purple.
-              Racing cars are very fast.`
-        ],
-        [
-          `The book belongs to her.
+          `He is sleeping.
+          The book belongs to her.
           The house belongs to his dad.
-          I am a good writer.`,
+          I am a good writer.
+          Maya is his cousin.`,
 
-          `Naman is my cousin.
+          `Racing cars are very fast.
+          Naman is my cousin.
           Karan is my brother.
-          Anisha is my niece.`
+          Anisha is my niece.
+          My mom is very sweet.`
         ],
         [
-          `Maya is his cousin.
-            The laptop belongs to us.
-            They own black bikes.`,
+          `The laptop belongs to us.
+          They own black bikes.
+          They go to the movies.
+          He likes cake.
+          She is going to school.`,
 
-          `My mom is very sweet.
-            My dad is a good person.
-            The phone fell down.`
-        ],
-        [
-          `They go to the movies.
-                He likes cake.
-                She is going to school.`,
-
-          `Ravi is eating.
-                The phone is ringing.
-                The girls are sleeping.`
+          `My dad is a good person.
+          The phone fell down.
+          Ravi is eating.
+          The phone is ringing.
+          The girls are sleeping.`
         ]
       ]
     },
     {
-      label: 'Personal Pronouns',
-      type: 'passage',
-      id: 'personal-pronouns-reading',
-      data: {
-        title: 'Personal Pronouns',
-        text: `The pronouns that refer to people, places, things directly are called as personal pronouns. Personal pronouns can be divided into two categories
-1. Subject pronoun - I, we, you, she, he, it, they
-2. Object pronoun - me, us, you, her, him, it, them
-A personal pronoun describes a person or a thing in the following ways:
-1. The pronouns I, we, me, denotes the 1st person that means the person who speaks.
-2. The pronoun you refers to the 2nd person, which means the person who is spoken to.
-3. The pronoun he, she, they, it refers to 3rd person, that means a person or a thing which is spoken about.
-Examples of personal pronouns:
-1. She is very beautiful.
-2. It is very cold today.
-3. They are going to the park.
-4. We wanted some grapes.
-5. Reena gave me a letter.`
-      }
-    },
-    {
-      type: 'match',
-      label: 'Match Related Pronouns',
-      id: 'complete-word',
-      data: {
-        lang: 'en',
-        title: 'Match the pronouns that have similar meaning.',
-        text: `I, Me
-          He, Him
-          She, Her
-          They, Them
-          We, Us`
-      }
-    },
-    {
-      id: 'i-me',
-      label: 'I vs Me',
-      type: 'fillupOptions',
-      data: {
-        title: "Fill in the blanks with 'I' and 'me'.",
-        text: `Could you pass *me* the salt?
-  *I (Me)* don't want to go out now.
-  Vinoth and *I* are going to the movies.
-  Am *I* invited?
-  She gave *me* some coins.`,
-        options: 'I, me'
-      }
-    },
-    {
-      id: 'we-us',
-      label: 'We vs Us',
-      type: 'fillupOptions',
-      data: {
-        title: "Fill in the blanks with 'we' and 'us'.",
-        text: `Let *us* cross the road.
-  Can *we* all go to the swimming pool tomorrow?
-  *We (Us)* were talking to the principal.
-  Thank you for driving *us* to the market.
-  The teacher asked *us* to form a circle.`,
-        options: 'we, us'
-      }
+      label: 'True or False',
+      id: '1000',
+      type: 'classifySentence',
+      commonData: {
+        title: 'True or False: The below sentence has demonstrative pronoun.',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `These are very yummy.
+          This is the most comfortable pillow.
+          Those belong to Sakshi.`,
+
+          `It is a flower.
+          She has my book.
+          My name is Rani.`
+        ],
+        [
+          `Do you like this?
+          These are my friends.
+          My mom gifted me that.`,
+
+          `My father is very good.
+          The teacher went to school.
+          I forgot to eat.`
+        ]
+      ]
     },
     {
       id: 'she-her',
       label: 'She vs Her',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with 'she' and 'her'.",
         text: `I gave *her* the books.
@@ -238,12 +234,12 @@ Examples of personal pronouns:
     {
       id: 'they-them',
       label: 'They vs Them',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with 'they' and 'them'.",
         text: `We asked *them* to keep the door open.
   If you build it, *they* will come.
-  *They* are very nice people.
+  *They (Them)* are very nice people.
   What do *they* want?
   I have lost my keys. I can't find *them* anywhere.`,
         options: 'they, them'
@@ -252,45 +248,24 @@ Examples of personal pronouns:
     {
       id: 'he-him',
       label: 'He vs Him',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: "Fill in the blanks with 'he' and 'him'.",
         text: `If you see David, give *him* these books.
   Does *he* want some coffee?
-  *He* is a wise man.
+  *He (Him)* is a wise man.
   Did Mohan get the promotion *he* wanted?
   I didn't recognize *him*.`,
         options: 'he, him'
       }
     },
     {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
-      commonData: {
-        title:
-          'Match the word or group of words given with the corresponding pronoun.'
-      },
-      data: [
-        `Pintu and I, we
-Jashwanth, he
-Rakhi, she
-The big bus, it 
-Kishore and Lalith, they`,
-
-        `A bike, it
-This boy, he
-The girls, they
-You and Ram, you
-You and I, we`
-      ]
-    },
-    {
       id: 'fill-up-1',
       label: 'I and Me',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with I and me to make a complete sentence.`
+        title: `Fill in the blanks with I and me to make a complete sentence.`,
+        options: 'I, me'
       },
       data: [
         `*I (Me)* went to library. 
@@ -313,7 +288,13 @@ She asked *me* a question.
 She walks to park with *me*.
 My dad makes *me* laugh.
 Savitha and *I* eat lunch together.
-*Me (I)* and my brother play together in ground.`
+*Me (I)* and my brother play together in ground.`,
+
+        `Could you pass *me* the salt?
+  *I (Me)* don't want to go out now.
+  Vinoth and *I* are going to the movies.
+  Am *I* invited?
+  She gave *me* some coins.`
       ]
     },
     {
@@ -321,7 +302,8 @@ Savitha and *I* eat lunch together.
       label: 'We and Us',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with we and us to make a complete sentence.`
+        title: `Fill in the blanks with we and us to make a complete sentence.`,
+        options: 'we, us'
       },
       data: [
         `*We (Us)* are going to Delhi on Friday.
@@ -344,7 +326,13 @@ My grandmother made *us* a delicious jalebi.
 My teacher asked all of *us* to assemble in the hall.
 *We (Us)* can visit the Botanical garden on sunday.
 My grandfather told *us* an interesting story.
-*We (Us)* went to see the circus yesterday.`
+*We (Us)* went to see the circus yesterday.`,
+
+        `Let *us* cross the road.
+  Can *we* all go to the swimming pool tomorrow?
+  *We (Us)* were talking to the principal.
+  Thank you for driving *us* to the market.
+  The teacher asked *us* to form a circle.`
       ]
     },
     {
@@ -361,145 +349,22 @@ My grandfather told *us* an interesting story.
       }
     },
     {
-      id: '100',
-      type: 'sequence',
-      label: 'Jumbled Words',
+      id: 'fillup-demonstrative',
+      label: 'Fill up',
+      type: 'fillup',
       data: {
-        title: 'Identify these demonstrative pronouns.',
-        text: 'This, That, These, Those'
+        title: "Fill in the blanks with the correct pronoun.",
+        text: `I bought *that (these, those)* tool yesterday.
+I like *these (this, that)* books.
+*That (Those, These)* is my mom's phone.
+None of *these (such, this) * answers are correct.
+*This (These, Those)* was my father's ring.
+*This (These, Such)* is mine.
+There is no end to *this (them, such)*.
+Are *those (them, this)* your books?
+*These (Them, Such)* are looking nice.
+*That (Them, Those)* was such a good experience.`
       }
-    },
-    {
-      type: 'selectWord',
-      label: 'Identify',
-      id: '200',
-      commonData: {
-        title: 'Tap the demonstrative pronouns in these sentences.'
-      },
-      data: [
-        `*This* idea is amazing.
-        Is *that* your book?
-        Eat *these* chocolates after lunch.
-        *Those* are my clothes.`,
-
-        `*This* is my mother’s saree.
-        Could you help me move *these*?
-        *That* looks like a rat.
-        Throw *those* rolls away.`,
-
-        `I would like *those*, please.
-        *These* are nice flowers.
-        I am not sure *that* is how you do it.
-        *This* is crazy!`
-      ]
-    },
-    {
-      label: 'Classify-1',
-      id: '300',
-      type: 'classifySentence',
-      commonData: {
-        title:
-          'Identify whether these sentences have demonstrative pronouns or not.',
-        types: ['Yes', 'No']
-      },
-      data: [
-        [
-          `These are very yummy.
-          This is the most comfortable.
-          Those belong to Sakshi.`,
-
-          `It is a flower.
-          She has my book.
-          My name is Rani.`
-        ],
-        [
-          `Do you like this?
-          These are my friends.
-          My mom gifted me that.`,
-
-          `My father is very good.
-          The teacher went to school.
-          I forgot to eat.`
-        ]
-      ]
-    },
-    {
-      label: 'Classify-2',
-      id: '400',
-      type: 'classifySentence',
-      data: {
-        title: 'Identify whether these pronouns are singular or plural.',
-        types: [
-          {
-            name: 'Singular',
-            text: `This
-                   That`
-          },
-          {
-            name: 'Plural',
-            text: `These
-                   Those`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Multiple Choice Questions',
-      id: '600',
-      type: 'mcq',
-      commonData: {
-        title: 'Select the correct demonstrative pronoun for each sentence.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'I bought______tool yesterday.',
-              options: `that, those`
-            },
-            {
-              qText: 'I like______books.',
-              options: `these, this`
-            },
-            {
-              qText: '______is my moms phone.',
-              options: `That, Those`
-            },
-            {
-              qText: 'None of______answers are correct.',
-              options: `these, this`
-            },
-            {
-              qText: '______was my fathers ring.',
-              options: `This, These`
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: '______is mine.',
-              options: `This, These, Such`
-            },
-            {
-              qText: 'There is no end to______.',
-              options: `this, them, such`
-            },
-            {
-              qText: 'Are______your books?',
-              options: `those, them, this`
-            },
-            {
-              qText: '_______are looking nice.',
-              options: `These, Them, Such`
-            },
-            {
-              qText: '_______was such a good experience.',
-              options: `That, Them, Those`
-            }
-          ]
-        }
-      ]
     }
   ]
 };

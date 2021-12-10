@@ -14,7 +14,7 @@ export default {
         title: 'Drag and drop the words at proper places.'
       },
 
-      id: '1615793951400',
+      id: 'drag-drop',
       label: 'Fill up by drag - Template',
       type: 'matchByDragDrop'
     },
@@ -55,11 +55,11 @@ export default {
     {
       data: {
         text: `Coal, fuel
-          Lever, Bottle opener
-          Sugar and salt, preservatives
-          Saliva , salivary gland
-          Aurangzeb, Mugal ruler
-          Shivaji,  Maratha Empire`,
+Lever, Bottle opener
+Sugar and salt, preservatives
+Saliva , salivary gland
+Aurangzeb, Mugal ruler
+Shivaji,  Maratha Empire`,
         title: 'Match the following'
       },
       id: 'match',
@@ -73,7 +73,7 @@ export default {
         title: 'Match with correct answer'
       },
 
-      id: '1615797229220',
+      id: 'match-2',
       label: 'Match - Template',
       type: 'match'
     },
@@ -126,7 +126,7 @@ export default {
         title: 'Multiple Choice Questions'
       },
 
-      id: '1615798165126',
+      id: 'mcq-4',
       label: 'Multiple Choice Questions - MCQ',
       type: 'mcq'
     },
@@ -142,7 +142,7 @@ export default {
         title: 'choose the correct option'
       },
 
-      id: '1615800224407',
+      id: 'fillup-2',
       label: 'Fill up by drag - Template',
       type: 'matchByDragDrop'
     },
@@ -152,7 +152,7 @@ export default {
         title: 'Match with correct choice'
       },
 
-      id: '1615801309158',
+      id: 'match-6',
       label: 'Match - Template',
       type: 'match'
     }

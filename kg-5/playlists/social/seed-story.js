@@ -4,7 +4,7 @@ export default {
   list: [
     {
       label: 'The Story of a Seed - Reading',
-      id: '100',
+      id: 'reading',
       type: 'passage',
       data: {
         title: 'The Story of a Seed',
@@ -15,7 +15,7 @@ export default {
     {
       label: 'The Story of a Seed - MCQ',
       type: 'mcq',
-      id: '200',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Question',
         questions: [

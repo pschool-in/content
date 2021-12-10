@@ -1,55 +1,50 @@
 export default {
-        id: 'conjunction-4',
-        label: 'Conjunction - 4',
-        pdf: '',
-        list: [
+  id: 'conjunction-4',
+  label: 'Conjunction - 4',
+  pdf: '',
+  list: [
     {
-        id: 'fill-up',
-        label: 'Complete the passage',
-        type: 'fillup',
-        commonData: {
-            title: `Complete the passage with the correct conjunction. Tap each blank for options.`
-    },
-        data: [
-`I take my dog for a walk every evening. I put on its leash *and (but)* walk out of the door. Next, I take it to the park *and (but)* we walk. *But (And)* it tries to unleash *and (but)* run across the park. People ask me to unleash it *but (and)* it may bite someone. After our walk, I take off his leash.`,
+      id: 'fill-up',
+      label: 'Complete the passage',
+      type: 'fillup',
+      commonData: {
+        title: `Complete the passage with the correct conjunction. Tap each blank for options.`
+      },
+      data: [
+        `I take my dog for a walk every evening. I put on its leash *and (but)* walk out of the door. Next, I take it to the park *and (but)* we walk. *But (And)* it tries to unleash *and (but)* run across the park. People ask me to unleash it *but (and)* it may bite someone. After our walk, I take off his leash.`,
 
-`My neighbour is my best friend. He is going on vacation *and (or)* asked me to go with him. *But (So)* I have exams next month, *so (or)* my parents are not allowing. They said I can *either (neither)* study *or (nor)* go with him. *So (But)* I won't be going.`,
+        `My neighbour is my best friend. He is going on vacation *and (or)* asked me to go with him. *But (So)* I have exams next month, *so (or)* my parents are not allowing. They said I can *either (neither)* study *or (nor)* go with him. *So (But)* I won't be going.`,
 
-`My favourite cartoon is Tom and Jerry. I watch it before going to school *or (so)* in the evening. I don't like when Tom *and (or)* Jerry tease each other. *But (So)* it makes me laugh out loud. *Not only (Even)* they fight a lot, *but also (or)* help each other. *So (Or)* they care about each other a lot.`,
+        `My favourite cartoon is Tom and Jerry. I watch it before going to school *or (so)* in the evening. I don't like when Tom *and (or)* Jerry tease each other. *But (So)* it makes me laugh out loud. *Not only (Even)* they fight a lot, *but also (or)* help each other. *So (Or)* they care about each other a lot.`,
 
-`Raj lives in a small town *and (but)* the closest big city is an hour away. Raj likes going to the city *because (or)* they find cattle on the way. Raj loves cattle *so (or)* knows everything about them. A baby is called a calf, a female is called a cow, *and (so)* a male is called an ox. A group of cattle is called a herd. He knows that cattle are sound *and (but)* quiet animals *and (so)* graze on grass.`,
+        `Raj lives in a small town *and (but)* the closest big city is an hour away. Raj likes going to the city *because (or)* they find cattle on the way. Raj loves cattle *so (or)* knows everything about them. A baby is called a calf, a female is called a cow, *and (so)* a male is called an ox. A group of cattle is called a herd. He knows that cattle are sound *and (but)* quiet animals *and (so)* graze on grass.`,
 
-`I love reading books *so (and)* I go to the library. I found a very interesting book *so (because)* I borrowed it for one week. Today, I have to return it *but (so)* I haven't completed it. I will go *and (so)* issue it again in the evening.`
-    ]
-    },
-    {
-        type: 'group',
-        label: 'Drag and Drop',
-        id: 'classify',
-        commonData: {
-            title: 'Identify which of the following are conjunctions and which ones are not.',
-            types: ['Conjunctions', 'Not Conjunctions']
-    },
-        data: [
-        [
-        `Either, Neither, But also, Both`,
-        `Can, She, Is, Her`
-        ],
-        [
-        `Nor, Not only, Or, So`,
-        `Have, Should, Would, Obviously`
-        ]
-    ]
+        `I love reading books *so (and)* I go to the library. I found a very interesting book *so (because)* I borrowed it for one week. Today, I have to return it *but (so)* I haven't completed it. I will go *and (so)* issue it again in the evening.`
+      ]
     },
     {
-        id: 'fill-up-option',
-        label: 'Fillup with options',
-        type: 'fillup',
-        commonData: {
-            title: `Tap each blank and choose the correct conjunction.`
+      type: 'group',
+      label: 'Drag and Drop',
+      id: 'classify',
+      commonData: {
+        title:
+          'Identify which of the following are conjunctions and which ones are not.',
+        types: ['Conjunctions', 'Not Conjunctions']
+      },
+      data: [
+        [`Either, Neither, But also, Both`, `Can, She, Is, Her`],
+        [`Nor, Not only, Or, So`, `Have, Should, Would, Obviously`]
+      ]
     },
-        data: [
-`He is *both (not, not only)* smart and intelligent.
+    {
+      id: 'fill-up-option',
+      label: 'Fillup with options',
+      type: 'fillup',
+      commonData: {
+        title: `Tap each blank and choose the correct conjunction.`
+      },
+      data: [
+        `He is *both (not, not only)* smart and intelligent.
 I can either write *or (nor, and)* watch TV.
 *Neither (Either, Only)* mom nor dad are going.
 I don't know whether she sings *or (nor, so)* not.
@@ -62,8 +57,8 @@ She will *either (neither, but)* stay or leave.
 I can *neither (either, only)* study nor concertrate on sports.
 *Not only (Both, So)* my friend is intelligent, but also helps me in studies.
 I don't know whether she'll come *or (and, but)* not.`,
-    
-`I will either eat *or (nor, and)* sleep.
+
+        `I will either eat *or (nor, and)* sleep.
 She can *both (either, neither)* draw and paint.
 You can go by a train *or (but, because)* a bus.
 Our neighbours are good *and (so, or)* friendly.
@@ -76,88 +71,100 @@ He got hurt *because (if, so)* he fell down.
 I will either wash clothes *or (nor, and)* do the dishes.
 I slept *and (but, or)* skipped my homework.`
       ]
-    },      
+    },
     {
-        label: 'Multiple Choice Questions',
-        id: 'mcq',
-        type: 'mcq',
-        commonData: {
-            title: 'Choose the most appropriate option with the correct conjunction.'
-                    },
-        data: [
+      label: 'Multiple Choice Questions',
+      id: 'mcq',
+      type: 'mcq',
+      commonData: {
+        title:
+          'Choose the most appropriate option with the correct conjunction.'
+      },
+      data: [
+        {
+          questions: [
             {
-        questions: [
-    {
-        qText: 'She left ____',
-        options: 'as I entered, but she entered, or I slept'
-    },
-    {
-        qText: 'She goes to the ground ____',
-        options: 'because she likes to play, and she likes to sing, so I go to her school'
-    },
-    {
-        qText: 'He reads comics ____',
-        options: 'but he does not read books, and he sleeps in class, so I do not read books'
-    },
-    {
-        qText: 'We can either go to movie _____',
-        options: 'or to the cafe, nor to the movie, if to the mall'
-    },
-    {
-        qText: `She likes jogging, ____`,
-        options: 'even in the morning, and in the winter, either in school'
-    }
-    ]
-    },
-    {
-        questions: [
-    {
-        qText: 'Do not eat many chocolates, ____',
-        options: 'even if they ask you to, but they always eat, also if they tell you'
-    },
-    {
-        qText: 'They did not practice. ____',
-        options: 'However they won the match, Since they went to the party, Because they slept'
-    },
-    {
-        qText: '____ , they will score good.',
-        options: 'If they study well, Although they sleep well, Even if I dance'
-    },
-    {
-        qText: 'Do you like tea ____',
-        options: 'or coffee, and water, so bread'
-    },
-    {
-        qText: 'Look at the map, _____',
-        options: 'else you will be lost, because I like it, so you will not sleep'
-    }
-    ]
-    },
-    {
-        questions: [
-    {
-        qText: '____ , he cannot come with us.',
-        options: 'Since he has no pocket money, She is a good girl, You are nice but'
-    },
-    {
-        qText: 'I am thirsty, ____',
-        options: 'but I do not have water, and I like eating, so I will eat'
-    },
-    {
-        qText: `I will play ____`,
-        options: 'whether you come or not, if I sleep, but will play'
-    },
-    {
-        qText: 'She eats at home, ____',
-        options: 'because she likes cooking, she is crazy, because you are well'
-    },
-    {
-        qText: 'He came first. ____',
-        options: 'Therefore he got more cake, So he was punished, But he was last'
-         }
-        ]
-       }
+              qText: 'She left ____',
+              options: 'as I entered, but she entered, or I slept'
+            },
+            {
+              qText: 'She goes to the ground ____',
+              options:
+                'because she likes to play, and she likes to sing, so I go to her school'
+            },
+            {
+              qText: 'He reads comics ____',
+              options:
+                'but he does not read books, and he sleeps in class, so I do not read books'
+            },
+            {
+              qText: 'We can either go to movie _____',
+              options: 'or to the cafe, nor to the movie, if to the mall'
+            },
+            {
+              qText: `She likes jogging, ____`,
+              options:
+                'even in the morning, and in the winter, either in school'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'Do not eat many chocolates, ____',
+              options:
+                'even if they ask you to, but they always eat, also if they tell you'
+            },
+            {
+              qText: 'They did not practice. ____',
+              options:
+                'However they won the match, Since they went to the party, Because they slept'
+            },
+            {
+              qText: '____ , they will score good.',
+              options:
+                'If they study well, Although they sleep well, Even if I dance'
+            },
+            {
+              qText: 'Do you like tea ____',
+              options: 'or coffee, and water, so bread'
+            },
+            {
+              qText: 'Look at the map, _____',
+              options:
+                'else you will be lost, because I like it, so you will not sleep'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: '____ , he cannot come with us.',
+              options:
+                'Since he has no pocket money, She is a good girl, You are nice but'
+            },
+            {
+              qText: 'I am thirsty, ____',
+              options:
+                'but I do not have water, and I like eating, so I will eat'
+            },
+            {
+              qText: `I will play ____`,
+              options: 'whether you come or not, if I sleep, but will play'
+            },
+            {
+              qText: 'She eats at home, ____',
+              options:
+                'because she likes cooking, she is crazy, because you are well'
+            },
+            {
+              qText: 'He came first. ____',
+              options:
+                'Therefore he got more cake, So he was punished, But he was last'
+            }
+          ]
+        }
       ]
-     }
-    ]
-   };
+    }
+  ]
+};

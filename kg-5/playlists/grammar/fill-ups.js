@@ -5,7 +5,7 @@ export default {
     {
       id: 'fillup-1',
       label: 'Fillup - Collection 1',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'Click on the blanks and pick the correct option.'
       },
@@ -34,7 +34,7 @@ export default {
     {
       id: 'fillup-2',
       label: 'Fillup - Collection 2',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'Click on the blanks and pick the correct option.'
       },
@@ -63,7 +63,7 @@ export default {
     {
       id: 'fillup',
       label: 'Fillup - Collection 3',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'Click on the blanks and pick the correct option.'
       },

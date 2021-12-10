@@ -1,6 +1,6 @@
 export default {
   id: 'pronoun-3',
-  label: 'Pronoun-3',
+  label: 'Possessive Pronoun',
   pdf: '',
   list: [
     {
@@ -19,37 +19,37 @@ Examples in sentences:
       }
     },
     {
-      label: 'Group the words',
+      label: 'Possessive Pronoun or Not',
       id: 'drag-and-drop',
       type: 'group',
       data: {
-        title: 'Identify the possessive pronouns and not a possessive pronoun',
+        title: 'Drag the given words and put it in the right boxes.',
         types: [
           {
             name: 'possessive pronoun',
-            text: 'his, hers, mine, yours, ours, theirs'
+            text: 'His, Hers, Mine, Yours, Ours, Theirs'
           },
           {
             name: 'Not a possessive pronoun',
-            text: 'he, she, me, I, it, we, us'
+            text: 'He, She, Me, I, It, We, Us'
           }
         ]
       }
     },
     {
-      label: 'Addition of possessive pronoun',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-and-drop-1',
       commonData: {
         isPractice: false,
-        title: 'Choose the right possessive pronoun to complete the sentence.',
+        title: 'Choose the right possessive pronoun.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
         }
       },
       data: [
-        `I have a new crayon box. It is *mine*. 
+        `I have a new crayon box. It is *mine*.
 She has a new dog. It is *hers*.
 Is this pencil *yours*?
 My car is bigger than *his*.
@@ -59,45 +59,45 @@ This house is *ours*.`,
 Pick any of these chocolates, the choice is *yours*.
 The cricket bat belongs to Ram. It is *his*.
 We bought this music player together. So it is *ours*.
-All my cousins love criket. Playing cricket is a favourite passtime of *theirs*.`,
+All my cousins love cricket. Playing cricket is a favourite pass time of *theirs*.`,
 
         `She bought a new bicycle. It is *hers* now.
-That book is *mine*. He thought is was *his*.
+That book is *mine*. He thought it was *his*.
 We bought many new balls yesterday. All of them are *ours*.
 That pen is not mine. It may be *yours*.
 They go to the village in the car. It is *theirs*.`,
 
         `Varun kept his bag on the table. It is *his*.
 Sheena likes games. That board is *hers*.
-I bring lunch everyday. That lunchbox is *mine*.
+I bring lunch every day. That lunchbox is *mine*.
 You forgot your pen. This is *yours*.
 The children play cricket. This bat is *theirs*.`,
 
         `My car is bigger than *yours*.
 This book is not yours. This is *mine*.
 This dress belongs to my sister Priya. This dress is *hers*.
-This skate board belongs to my brother Jatin. This is *his*.
+This skateboard belongs to my brother Jatin. This is *his*.
 This bag belongs to me and my sister. This bag is *ours*.`
       ]
     },
     {
-      label: 'Classify - possessive pronoun',
+      label: 'True or False',
       id: 'yes-no',
       type: 'classifySentence',
       data: {
-        title: 'Identify whether the sentence has a possessive pronoun or not.',
+        title: 'True or False: The below sentence has possessive pronoun.',
         types: [
           {
-            name: 'Yes',
+            name: 'True',
             text: `This notebook is mine.
-              Those pens are hers.
-              Those dressess are yours.`
+            Those pens are hers.
+            That dress is yours.`
           },
           {
-            name: 'No',
+            name: 'False',
             text: `Those gloves belong to him.
-              Those pens belong to her. 
-              Those dresses belong to you.`
+            Those pens belong to her.
+            That dress belongs to you.`
           }
         ]
       }
@@ -110,7 +110,7 @@ This bag belongs to me and my sister. This bag is *ours*.`
         title: `Click on the blank and fill in the correct possessive pronoun.`
       },
       data: [
-        `This is my laptop. It's *mine(me)*. 
+        `This is my laptop. It's *mine(me)*.
 You have a new toy. It is *yours(us)*.
 The water bottle belongs to her. It is *hers(mine)*.
 He has a new phone. It is *his(her)*.
@@ -130,7 +130,7 @@ This lunch box belongs to him. It is *his (hers)*.
 Meera has boots. They are *hers (his)*.
 Abhi has a diary. It is *his (yours)*.
 My parents have a boat. It is *theirs (yours)*.
-Pooja and saanvi have a kitchen set. It is *theirs (us)*.`
+Pooja and Saanvi have a kitchen set. It is *theirs (us)*`
       ]
     },
     {
@@ -157,7 +157,7 @@ The house at the corner is *theirs*.
 Are you sure this is *yours*?
 Who owns this bat? Is it *yours*?
 This dog is *ours*.
-These pens are *mine*. 
+These pens are *mine*.
 Is this blue coat *yours*?
 The purse belongs to Meera. It is *hers*.
 That headphone is *mine*.
@@ -169,19 +169,18 @@ This bangle is *hers*.`
       label: 'Identify the pronouns',
       id: 'select-multi-pronoun',
       commonData: {
-        title:
-          'Tap on all the personal, demonstrative and possessive pronouns.',
+        title: 'Select all the pronouns present in the below text.',
         multiSelect: true
       },
       data: [
         `*She* tries to steal everyone's chocolates. *She* lies and says *they* are *hers*.
-*Me* and my sister go to swimming. *Those* swimming glasses are *ours*.
+*Me* and my sister go swimming. *Those* swimming glasses are *ours*.
 The book is kept on the table. *It* is *ours*.
-*I* borrowed *this* paper from Vidya. *This* is hers.
+*I* borrowed *this* paper from Vidya. *This* is *hers*.
 Sheena gave me *this* napkin. *This* is *hers*.`,
 
         `Rahul is my best friend. *We* go to school together. *This* bag is *his*.
-*I* like my mother's kurti. *I* borrowed *this* for a party. *It* is *hers*.
+*I* like my mother's Kurti. *I* borrowed *this* for a party. *It* is *hers*.
 *That* house is *theirs*. *It* is not in a good condition. *They* need to repair *it*.
 *I* said to my friend, "What is *mine*, is *yours*. *He* was very happy to hear *this*.
 My parents teach *me*, "What is rightfully *yours* will surely be *yours*.`

@@ -6,7 +6,7 @@ export default {
     {
       label: 'The Life Cycle of Animals - Reading',
       type: 'passage',
-      id: '900',
+      id: 'reading',
       data: {
         title: 'The Life Cycle of Animals',
         text: `In animals, the babies either grow in their mother's tummy or hatch out of the eggs. Some animals like crows, spiders, and lizards lay eggs. Unlike a chicken, their eggs are tiny. Some animals lay eggs that are too tiny to be observed with naked eyes.
@@ -19,7 +19,7 @@ export default {
     },
     {
       label: 'Egg-laying Vs Non-egg laying',
-      id: '1000',
+      id: 'classify-1',
       type: 'group',
       data: {
         title:
@@ -37,7 +37,7 @@ export default {
       }
     },
     {
-      id: '1100',
+      id: 'match',
       label: 'animals & their babies - Match the following',
       type: 'match',
       data: {
@@ -53,7 +53,7 @@ Horse, Foal`,
     },
     {
       label: 'Choose the best Answer - Animal life cycle',
-      id: '1200',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -87,7 +87,7 @@ Horse, Foal`,
     {
       label: 'Drag and Drop - Animals Lifecycle',
       type: 'matchByDragDrop',
-      id: '1300',
+      id: 'drag-drop',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -104,21 +104,21 @@ A butterfly lays eggs on the *leaves* of a plant.
       }
     },
     {
-      id: '1400',
+      id: 'fillup',
       label: 'Animal Lifecycle - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `All the butterflies have to undergo *four (five)* stages of growth.
-                It takes * Six to eight weeks (nine to twelve)* for the larva to emerge from the egg.
-                When the caterpillar comes out of the egg it *is (is not)* very hungry.
-                A Spider lays *tiny (big)* eggs.
-                A butterfly during its growth remains in the caterpillar stage for *ten to twelve days (two to three days)*.`
+It takes * Six to eight weeks (nine to twelve)* for the larva to emerge from the egg.
+When the caterpillar comes out of the egg it *is (is not)* very hungry.
+A Spider lays *tiny (big)* eggs.
+A butterfly during its growth remains in the caterpillar stage for *ten to twelve days (two to three days)*.`
       }
     },
     {
       label: 'Animal Lifecycle - True or False',
-      id: '1500',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -126,13 +126,13 @@ A butterfly lays eggs on the *leaves* of a plant.
           {
             name: 'True',
             text: `The pupa of a butterfly is also called a chrysalis.
-                    A butterfly has four attractive wings and six long legs.
-                    Different types of caterpillars are of different colors.`
+A butterfly has four attractive wings and six long legs.
+Different types of caterpillars are of different colors.`
           },
           {
             name: 'False',
             text: `For each type of butterfly, the type of plant on whose leaves its female will lay eggs is not fixed.
-                    In three to four days, the larva emerges from the egg.`
+In three to four days, the larva emerges from the egg.`
           }
         ]
       }
@@ -140,7 +140,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     {
       label: 'Complete the life cycle',
       type: 'sorting',
-      id: '1600',
+      id: 'sorting',
       commonData: {
         title: 'Sort the lifecycle starting with Egg',
         multiple: true,
@@ -155,7 +155,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     {
       label: 'Life Journey of Animals - Reading',
       type: 'passage',
-      id: '2800',
+      id: 'reading-2',
       data: {
         title: 'Life Journey of Animals',
         text: `Each animal has some unique behaviour. Animal behaviour includes the activities of an animal and its interaction with other organisms.
@@ -173,7 +173,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     },
     {
       label: 'Lives Alone Vs Group',
-      id: '2900',
+      id: 'classify-3',
       type: 'group',
       data: {
         title:
@@ -192,7 +192,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     },
     {
       label: 'Nocturnal Vs Diurnal',
-      id: '2950',
+      id: 'classify-4',
       type: 'group',
       data: {
         title:
@@ -211,7 +211,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     },
     {
       label: 'Fur Vs No Fur',
-      id: '3000',
+      id: 'classify-5',
       type: 'group',
       data: {
         title: 'Classify the below animals based on the presence of fur.',
@@ -228,22 +228,22 @@ A butterfly lays eggs on the *leaves* of a plant.
       }
     },
     {
-      id: '3100',
+      id: 'match-2',
       label: 'animals & their groups - Match the following',
       type: 'match',
       data: {
         text: `Lion, Pride
-                Wolf, Pack
-                Sheep, Flock
-                Ant, Colony
-                Owl, Parliament`,
+Wolf, Pack
+Sheep, Flock
+Ant, Colony
+Owl, Parliament`,
         title: 'Match the Animal with their group name'
       }
     },
     {
       label: 'Drag and Drop - Interesting facts about animals',
       type: 'matchByDragDrop',
-      id: '3200',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -252,28 +252,28 @@ A butterfly lays eggs on the *leaves* of a plant.
           dashWidth: 80
         },
         text: `The animals which are active at night are called *Nocturnal* animals.
-                *Kangaroo* is best known for parental care.
-                *Honeybees* lives in hives.
-                The human *baby* is completely helpless at birth.
-                Animals that are active during day time are known as *Diurnal* animals.`
+*Kangaroo* is best known for parental care.
+*Honeybees* lives in hives.
+The human *baby* is completely helpless at birth.
+Animals that are active during day time are known as *Diurnal* animals.`
       }
     },
     {
-      id: '3300',
+      id: 'fillup-3',
       label: 'Animal Shelter - Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Nocturnal (Diurnal)* creatures have highly developed senses of hearing, smell, and eyesight.
-                *Cow (Sheep)* gives milk and protects its calf from the enemies.
-                *Humans (Kangaroo)* support the physical, emotional, social and intellectual development of their child.
-                The compound eyes of insects are made up of small units called *ommatidia (proboscis)*.
-                The *thorax (abdomen)* is the middle region of an insect body.`
+*Cow (Sheep)* gives milk and protects its calf from the enemies.
+*Humans (Kangaroo)* support the physical, emotional, social and intellectual development of their child.
+The compound eyes of insects are made up of small units called *ommatidia (proboscis)*.
+The *thorax (abdomen)* is the middle region of an insect body.`
       }
     },
     {
       label: 'Choose the best Answer - Some Animal facts ',
-      id: '3400',
+      id: 'mcq-3',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -305,7 +305,7 @@ A butterfly lays eggs on the *leaves* of a plant.
     },
     {
       label: 'Interesting facts on animals  - True or False',
-      id: '3500',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -313,20 +313,20 @@ A butterfly lays eggs on the *leaves* of a plant.
           {
             name: 'True',
             text: `Vampire bats feed on the blood of their prey.
-                    Female kangaroo carries its baby in its pouch.
-                    Ants have organs of smell and taste in their antennae.`
+Female kangaroo carries its baby in its pouch.
+Ants have organs of smell and taste in their antennae.`
           },
           {
             name: 'False',
             text: `Birds do not migrate from their shelters to avoid adverse conditions.
-                    A group of elephants is known as herd.
-                    All the species of birds build nests for their shelters.`
+A group of elephants is known as herd.
+All the species of birds build nests for their shelters.`
           }
         ]
       }
     },
     {
-      id: '3600',
+      id: 'words',
       type: 'sequence',
       label: 'Words related to Animal world',
       commonData: {

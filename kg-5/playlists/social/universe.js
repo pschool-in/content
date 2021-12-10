@@ -10,15 +10,15 @@ export default {
       data: {
         title: 'Universe',
         text: `The Universe is a vast expansion of space. The Universe consists of billions of galaxies, stars, planets, dwarf planets, comets, asteroids, meteoroids and natural satellites. The exact size of the universe is still unknown. Scientists believe that the universe is still expanding outward.
-          A Galaxy is a huge cluster of stars. Our galaxy Milky way is one among the countless of galaxies in the Universe.
-          Approximately 4.54 billion years ago, Solar System was a cloud of dust and gas known as Solar Nebula. Due to an explosion, these particles collapsed and began to spin having the sun at centre. The bigger particles which revolve around the sun are called planets. Thus the planet Earth formed.
-          The Rocky-inner planets are Mercury, Venus, Earth and Mars. They are called Terrestrial planets. The outer planets are Gaseous planets. They are Jupiter, Saturn, Uranus and Neptune. The frozen planets are Uranus and Neptune.
-          # Rotation
-          The movement of the earth on its axis is called rotation of the earth. Day and night are caused due to the earth‛s rotation.
-          # Revolution
-          The movement of the Earth around the Sun on it‛s axis which is tilted about 23½° is called revolution of the earth. Seasons are caused by Earth‛s revolution.
-          Life is possible only on the Earth because of the presence of land, air and water.
-          Venus is called Earth‛s twin. Mars is described as the Red planet. Earth is called the Blue planet. Saturn is the Ringed planet.`
+A Galaxy is a huge cluster of stars. Our galaxy Milky way is one among the countless of galaxies in the Universe.
+Approximately 4.54 billion years ago, Solar System was a cloud of dust and gas known as Solar Nebula. Due to an explosion, these particles collapsed and began to spin having the sun at centre. The bigger particles which revolve around the sun are called planets. Thus the planet Earth formed.
+The Rocky-inner planets are Mercury, Venus, Earth and Mars. They are called Terrestrial planets. The outer planets are Gaseous planets. They are Jupiter, Saturn, Uranus and Neptune. The frozen planets are Uranus and Neptune.
+# Rotation
+The movement of the earth on its axis is called rotation of the earth. Day and night are caused due to the earth‛s rotation.
+# Revolution
+The movement of the Earth around the Sun on it‛s axis which is tilted about 23½° is called revolution of the earth. Seasons are caused by Earth‛s revolution.
+Life is possible only on the Earth because of the presence of land, air and water.
+Venus is called Earth‛s twin. Mars is described as the Red planet. Earth is called the Blue planet. Saturn is the Ringed planet.`
       }
     },
     {
@@ -66,13 +66,13 @@ export default {
           {
             name: 'True',
             text: `Scientists believe that the universe is expanding.
-            Uranus and Neptune are frozen planets because they are far away from the sun.`
+Uranus and Neptune are frozen planets because they are far away from the sun.`
           },
           {
             name: 'False',
             text: `Jupiter is the biggest planet in the whole universe.
-            The size of the universe can be measured.
-            We get day and night, due to the movement of Earth around the Sun.`
+The size of the universe can be measured.
+We get day and night, due to the movement of Earth around the Sun.`
           }
         ]
       }
@@ -84,11 +84,11 @@ export default {
       data: {
         title: 'Match the Planets with its description',
         text: `Earth's twin, Venus
-        Red Planet, Mars
-        Blue Planet, Earth
-        Ringed Planet, Saturn
-        Farthest Planet, Neptune
-        Biggest Planet, Jupiter`
+Red Planet, Mars
+Blue Planet, Earth
+Ringed Planet, Saturn
+Farthest Planet, Neptune
+Biggest Planet, Jupiter`
       }
     },
     {
@@ -112,10 +112,10 @@ export default {
           dashWidth: 80
         },
         text: `Life is possible only on the *Earth* because of the presence of land, air and *water*.
-        Solar System was a cloud of dust and gas known as Solar *Nebula*.
-        A *galaxy* is a huge cluster of stars.
-        Our galaxy *Milky* way is one among the countless of galaxies in the Universe.
-        The outer planets are *gaseous* planets.`
+Solar System was a cloud of dust and gas known as Solar *Nebula*.
+A *galaxy* is a huge cluster of stars.
+Our galaxy *Milky* way is one among the countless of galaxies in the Universe.
+The outer planets are *gaseous* planets.`
       }
     }
   ]

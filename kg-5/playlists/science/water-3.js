@@ -7,7 +7,7 @@ export default {
     {
       label: 'Water - Reading',
       type: 'passage',
-      id: '100',
+      id: 'reading',
       data: {
         title: 'Water',
         text: [
@@ -61,7 +61,7 @@ export default {
     },
     {
       label: 'Choose the best Answer - Water',
-      id: '200',
+      id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -116,7 +116,7 @@ export default {
     },
     {
       type: 'rightOne',
-      id: '300',
+      id: 'odd-one',
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
@@ -132,7 +132,7 @@ Ice Cream, Water, Ice, Vapour`
     },
     {
       label: 'True or False',
-      id: '400',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -155,9 +155,9 @@ We should bathe in shower to save water.`
       }
     },
     {
-      id: '500',
+      id: 'fillup',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Drinking water is known as *potable (pot)* water.
@@ -171,7 +171,7 @@ The largest source of water on the earth is *ocean (sea)*.
     {
       label: 'Choose the correct option',
       type: 'mcq',
-      id: '600',
+      id: 'mcq-2',
       data: {
         title: 'Choose the correct option.',
         questions: [
@@ -204,7 +204,7 @@ The largest source of water on the earth is *ocean (sea)*.
     },
     {
       label: 'Activities needing water',
-      id: '700',
+      id: 'classify',
       type: 'group',
       data: {
         title: 'Classify the activities that need water.',
@@ -223,7 +223,7 @@ The largest source of water on the earth is *ocean (sea)*.
     {
       type: 'sequence',
       label: 'Jumbled word',
-      id: '800',
+      id: 'jumbled-words',
       data: {
         title: 'Find out the different sources of water.',
         text: 'rain, lake, pond, stream, well, sea, ocean'
@@ -232,7 +232,7 @@ The largest source of water on the earth is *ocean (sea)*.
     {
       label: 'Size of water bodies',
       type: 'sorting',
-      id: '900',
+      id: 'sorting',
       data: {
         title:
           'Sort the water bodies based on their size. (Largest should come at the top)',
@@ -240,7 +240,7 @@ The largest source of water on the earth is *ocean (sea)*.
       }
     },
     {
-      id: '1000',
+      id: 'match-2',
       label: 'Match the following',
       type: 'match',
       data: {
@@ -259,10 +259,10 @@ Well, Ground water`,
       data: {
         title: 'Our need For Water',
         text: `# How do we know water is everywhere?
-        Apart from the water bodies like rivers, lakes and seas, there's plenty of water around us that we don't notice. For example, tears, saliva, water running from our nose, blood, lemon juice, juicy fruits, cucumber, tomato and many other things.
-        # Why do we feel thirsty?
-        Our body is 70% made of water. Its doesn't mean that it has flowing water within. It means that 70% functioning of our body is dependent on water. For example:
-        1. Water keeps our blood thin.
+Apart from the water bodies like rivers, lakes and seas, there's plenty of water around us that we don't notice. For example, tears, saliva, water running from our nose, blood, lemon juice, juicy fruits, cucumber, tomato and many other things.
+# Why do we feel thirsty?
+Our body is 70% made of water. Its doesn't mean that it has flowing water within. It means that 70% functioning of our body is dependent on water. For example:
+1. Water keeps our blood thin.
 2. It helps to digest our food.
 3. Urination of waste materials. 
 Therefore, we must have sufficient water in our body for the easy performance of these functions. In case there's not enough water, we feel thirsty.
@@ -275,23 +275,23 @@ Water is very important in our lives!
       }
     },
     {
-      id: 'fillup',
+      id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `Water keeps the blood *thin (thick)*.
-        Animals *bathe (sleep)* in water.
-        Water is  * very (less )* important in the lives of people.
-        Roots of the plant absorb rainwater that has *seeped (sowed)* into the soil.
-        People take care to provide drinking water for the animals they *keep (don't keep)*.
-        We go near a waterhole in a forest to see *wild (domestic)* animals.`,
+Animals *bathe (sleep)* in water.
+Water is  * very (less )* important in the lives of people.
+Roots of the plant absorb rainwater that has *seeped (sowed)* into the soil.
+People take care to provide drinking water for the animals they *keep (don't keep)*.
+We go near a waterhole in a forest to see *wild (domestic)* animals.`,
         title: 'Fill in the blanks.'
       }
     },
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the words at proper place.',
@@ -314,15 +314,14 @@ We should drink *12* glasses of water everyday.
       data: {
         title: 'Where does water come from?',
         text: `Simply put, it comes from THE RAIN.
-        Rain water leads to rise in rivulets, streams and rivers.
-        Still water forms lakes and ponds.
-        Some water gets deposited under the ground and we usually extract it through wells, hand-pumps and bore-wells.
-        # Fun fact!
-        Dams are built to slower the flow of water, to save it and to generate energy.
-        Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from the roofs of the house and gets deposited in the tank.
-        # How rivers are formed?
-        When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.
-        `
+Rain water leads to rise in rivulets, streams and rivers.
+Still water forms lakes and ponds.
+Some water gets deposited under the ground and we usually extract it through wells, hand-pumps and bore-wells.
+# Fun fact!
+Dams are built to slower the flow of water, to save it and to generate energy.
+Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from the roofs of the house and gets deposited in the tank.
+# How rivers are formed?
+When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.`
       }
     },
     {
@@ -360,8 +359,7 @@ Gas/ Vapour: Formed at high temperatures.
 # New words!
 1. Transparent: Something that you can see through.
 2. Transluscent: Something you can partially see through.
-3. Opaque: Something you cannot see through.
-`
+3. Opaque: Something you cannot see through.`
       }
     },
     {
@@ -374,14 +372,14 @@ Gas/ Vapour: Formed at high temperatures.
           {
             name: 'True',
             text: `Water is transparent.
-            Natural water bodies consist of living organisms.
-            Starfish and Seahorse are aquatic animals.`
+Natural water bodies consist of living organisms.
+Starfish and Seahorse are aquatic animals.`
           },
           {
             name: 'False',
             text: `Pure water looks bluish in colour.
-            When water is heated a lot, it turns into ice.
-            Sugar does not dissolve in water.`
+When water is heated a lot, it turns into ice.
+Sugar does not dissolve in water.`
           }
         ]
       }
@@ -398,15 +396,15 @@ Gas/ Vapour: Formed at high temperatures.
           dashWidth: 80
         },
         text: `*Pure* water has no colour, smell or taste.
-        Water is *transparent*.
-        Water does not have a *shape* of its own.
-        Ice is the *solid* state of water.`
+Water is *transparent*.
+Water does not have a *shape* of its own.
+Ice is the *solid* state of water.`
       }
     },
     {
-      id: 'fillup-2',
+      id: 'fillup-3',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: `India gets a lot of rain during *monsoon (summer, winter)* season. 
 Water is a *transparent (opaque, transluscent)* body.       

@@ -9,319 +9,225 @@ export default {
       id: 'article-quantifiers-reading',
       data: {
         title: 'Article - Quantifiers',
-        text: `Articles "a", "an" and "the" are commonly used before nouns.
-Articles "a/an" are called indefinite article and "the" is known as definite article.
-"a" is used before singular nouns beginning with consonant sounds.
-"an" is used before the nouns starting with sounds "a,e,i,o,u".
-"the" is used before the singular and plural nouns and it is used when people speak of a person, a place or a thing already mentioned, or things or persons in a situation.
-Quantifiers: The words that are used before nouns to imply the quantity of a noun are called quantifiers. Examples are some, any, many, much, plenty of, a lot of and a few. These can be used for both countable and uncountable nouns.
-Zero articles: In some situations, we do not use any articles at all, such a situation is called a "zero article". When we are talking about something in general or when we mention a city or country, we do not use articles.`
-      }
-    },
-    {
-      id: '100',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Select the correct article to complete the sentence.`
-      },
-      data: [
-        `I met *a (the, an)* friend in the store. 
-    He ate *an (a, the)* orange for his breakfast.
-    I have *a (an, the)* pet cat.
-    My dad bought me *an (a, the)* iPad yesterday.
-    Mrs.Bhavani is *the (a, an)* principal of our college.
-    *The(A,An)* Ganges flows from *the (a, an)* Himalayas. 
-    There is *an (a, the)* eucalyptus tree near my building.
-    Manvi is *a (an, the)* small village in Karnataka.
-    Mohan has *an (a, the)* interest in singing.
-    *The (An, A)* building on the corner is under construction.`,
-
-        `It is better to tell *the (a, an)* truth.
-    India is *a (an, the)* country.
-    Lakshadweep is *an (a, the)* island.
-    He arrived *an (a, the)* hour later.
-    Which bike do you like? *The (A, An)* blue one?
-    Pass me *the (a, an)* slice of bread.
-    I saw *an (a, the)* eagle flying near my fields.
-    *The (A, An)* Tajmahal is in Agra.
-    My mom bought *a (an, the)* pair of jeans and a shirt.
-    There is *an (a, the)* umbrella in my bag.`,
-
-        `He is *an (a, the)* honest man.
-    His wife is *an (a, the)* American.
-    My brother acted in *a (an, the)* movie.
-    *The (A, An)* laptop that I bought is not very expensive.
-    Rohit bought *a (an, the)* cup of tea.
-    Copper is *an (a, the)* useful metal.
-    He gave me *an (a, the)* inkpot and *a (an, the)* pen.
-    *The (A, An)* rose is a beautiful flower.
-    I saw *a (an, the)* baby hippo in *the (a, an)* zoo.
-    I saw *an (a, the)* anthill in my garden.`,
-
-        `Reading is *a (an, the)* good habit.
-    *The (A, An)* school will remain closed for two days.
-    My sister is *an (a, the)* English teacher.
-    She bought *an (a, the)* orange dress.
-    My husband is *a (an, the)* doctor.
-    My neighbour bought *a (an, the)* new car.
-    *The (A, An)* Birla planetarium is located in Hyderabad.
-    My dad is *an (a, the)* engineer.
-    Adi's brother bought *a (an, the)* new bicycle.
-    Are you coming to *the (a, an)* library tomorrow?`
-      ]
-    },
-    {
-      label: 'Articles - Yes or No',
-      id: '300',
-      type: 'classifySentence',
-      commonData: {
-        title: 'Identify whether the sentences have articles or not.',
-        types: ['Yes', 'No']
-      },
-      data: [
-        [
-          `I would like to have an orange.
-            Donkey is an animal.
-            I bought an umbrella.`,
-
-          `Orange is fruit.
-            Donkey is animal.
-            Umbrella is useful thing.`
-        ],
-        [
-          `Dog is a man's best friend.
-            Sun rises in the east.
-            Shannu is a nice boy.`,
-
-          `Cross road carefully.
-            Arya goes to missionary school.
-            Read social textbook carefully.`
+        text: [
+          `The usage of article before words like 'few' or 'little' changes the meaning of the sentence.
+          I have few candies, so I am not sharing with you.
+          I have a few candies and I can share it with you.
+          There is little chance for rain today. So no need to bring an umbrella.
+          There is a little chance for rain today. So please bring an umbrella.`
         ]
-      ]
-    },
-    {
-      id: '400',
-      label: 'Complete the letter',
-      type: 'fillupOptions',
-      data: {
-        text: `Dear Neha, 
-          I am fine and hope to hear the same from you. Our entire class went to *a (an, the)* picnic to *the (a, an)*beach.
-          I was left alone. So, I went to *the (a, an)* sandy corner and sat down. 
-          My mother packed me *an (a, the)* egg, cake and *a (an, the)* chocolate. 
-          At that time, *a (an, the)* large sandy lobster crawled out of *the (a, an)*sea water. 
-          All *the (a, an)* sea animals tried to shake hands with me. 
-          But, they pricked me till I was black and blue. 
-          They taught me *a (an, the)* lesson not to hurt anyone. 
-          Vishnu `,
-        title: 'Fill in the correct article and complete the letter'
       }
     },
     {
-      label: 'Add suitable quantifiers',
-      type: 'matchByDragDrop',
-      id: '500',
-      commonData: {
-        isPractice: false,
-        title:
-          'Drag and drop the suitable quantifiers to make a meaningful sentence.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `I have *many* friends in my life.
-*Few* people know as much about video games as Jeevan does.
-Are there *any* sweets?
-I want to drink *some* coffee.
-There is *a lot of* gold in the bag.`,
-
-        `I don't eat *much* seafood.
-There are *few* bananas in the bowl.
-Do you have *little* time to help me with my homework?
-How *many* coins do you have?
-I didn't have *any* breakfast today.`
-      ]
-    },
-    {
-      label: ' Article - letters with dual roles/quantifiers',
-      type: 'passage',
-      id: 'article-reading',
-      data: {
-        title: 'Article - letters with dual roles/quantifiers',
-        text: `# Use of "a/an"
-  It's understood that "a" is used for words beginning with consonant sound while "an" is used before the nouns beginning with vowel sounds. But for certain words like univeristy, unicorn, European, union, etc we use the article "a" as they sound as "you" i.e. they begin with a consonant sound and not with vowel sound.
-  Similarly for words like hour, honest, heir, MBA, FIR, etc article "an" is used as they begin with a vowel sound, even though they start with consonants.
-  # Use of "the"
-  "the" is also used for things like - the sun, the moon, the sky, etc.
-  "the" is also used for proper nouns like names of monuments, rivers, oceans, etc.
-  "the" is also used for superlatives as the strongest, the longest, the smallest, etc.
-  "the" is also used for number positions like the first, the fifth, the second, the third, etc.
-  # Omission of Article or No article:
-  We do not use articles in the following cases:
-  Names of the persons - Mahita is my best friend (not The Mahita).
-  Common nouns in the plural number - Birds live in trees (not The birds) Cows give milk (not The cows)
-  Names of the days/Months- Saturday is a week off. (not The Saturday)
-  Names of materials- We wear clothes made of cotton. ( not the cotton)
-  # Quantifiers:
-  We use indefinite article to certain quantifiers like - "few", "little" to show that the quantity of the thing is small, but it adds lot of value or is of great importance. When little and few are used, it is essential to consider whether the noun referred to is countable or not. The quantifier ‘a little’ (with and without the article ‘a’) is needed for small quantities with uncountable nouns. ‘A few’ (with and without the article ‘a’), on the other hand, requires countable nouns in the plural if the speaker wants to express a small number.
-  For example:
-  1. Mrudula was never lonely, she made " a few" good friends while she was in university.
-  2. My grandfather needs "a little" help with sorting his medicines.
-  Similarly, indefinite article is also used for words like "few", "little" when words like "only" or "just" are used.
-  For example:
-  1. Ramesh made "just a few" mistakes in his test.
-  2. There is "only a little" icecream left in the fridge.`
-      }
-    },
-    {
-      label: 'Complete the sentence',
-      type: 'matchByDragDrop',
-      id: '600',
-      commonData: {
-        isPractice: false,
-        title: 'Drag and drop the appropriate word to complete the sentence.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `What's *the* capital of your country?
-I always have an *egg* for breakfast.
-I read *an* interesting story.
-I saw *a* rainbow in the sky. 
-My friend has a *sore throat* due to a cold.`,
-
-        `My grandmother told me *a* story.
-Can you pass me a *slice* of bread?
-There was *an* elephant in the field.
-Mahesh has an *interest* in painting.
-We saw a tiger in *the* zoo.`
-      ]
-    },
-    {
-      id: '700',
-      label: 'Choose the word',
-      type: 'fillup',
-      commonData: {
-        title: `Select the appropriate word to complete the sentence.`
-      },
-      data: [
-        `Do you know how to play *the keyboard (keyboard)*?
-This is my best friend *Vamshi (the vamshi)*.
-My mother is *a doctor (the doctor)*. 
-My brother is *an author (a author)*. 
-Cow is *a domestic (an domestic)* animal.
-Riyaan wanted *a new (an new)* watch for his birthday.
-All students must obey *the rules (an rules)* of the school.
-My mom is *an MBA (a MBA)* graduate.
-My teacher read *an interesting (a interesting)* story from today's newspaper.
-Mrs. Sunita is *an excellent (a excellent)* teacher.`,
-
-        `*The sun(A sun)* shines brightly.
-One of my cousins is *an engineer(a engineer)*.
-My son wants to be *a scientist (an scientist)*.
-Do you have *a passport (an passport)*?
-My grandmother is as wise an *an owl(a owl)*.
-We have *an exam (a exam)* tomorrow.
-My parents waited *an hour (a hour)* in the railway station.
-Richa is *an honest (a honest)* student in the class.
-Sumitra's father is *an advocate (the advocate)*. 
-Ravi met with *an accident (the accident)* yesterday.`,
-
-        `There is a spider on *the roof(a roof)*.
-Karthik can play *the guitar (a guitar)*.
-*The AC (An, AC)* has stopped working.
-Please open *the window (a window)*.
-She is *an architect(a architect)*.
-He can play *the flute (an flute)*.
-*The Himalayas (A Himalayas)* lie to North of India.
-Sanskrit is *a difficult (an difficult)* language.
-The children found *an egg (a egg)* in the bird's nest.
-I met him at *the hotel (a hotel)* yesterday.`
-      ]
-    },
-    {
-      id: '800',
-      label: 'Complete the conversation',
-      type: 'fillupOptions',
-      data: {
-        text: `Krishna: Let's make some snacks for our family.
-    Radha: I think we should make *a (an)* cake.
-    Krishna: Yes, it's *a (the)* good idea! I have got *an (a)* egg and some oranges. Let's make *an(a)* orange cake.
-    Radha: To finish it, we can add *the (a)* chocolate icing on top of *the(a)* cake. 
-    Krishna: okay. I hope our family is going to like *the(a)* cake we make.`,
-        title:
-          'Add the correct article to complete the conversation between two friends.'
-      }
-    },
-    {
-      label: 'Classify- Articles or No article',
-      id: '900',
-      type: 'classifySentence',
-      commonData: {
-        title:
-          'Select whether the sentence has a definite/indefinite/no article.',
-        types: ['Definite Article', 'Indefinite article', 'No article']
-      },
-      data: [
-        [
-          `I wake up at 6 0'clock in the morning.
-      The Arabian sea lies to the west of India.
-      It is better to tell the truth.`,
-
-          `Mihir wants a pair of jeans.
-      She is an hour late.
-      I just read an interesting novel.`,
-
-          `Please keep quiet! Don't make noise!
-      We love to eat Indian food.`
-        ],
-        [
-          `The cow gives us milk.
-      Can you switch off the light?
-      There is someone at the door.`,
-
-          `He has a daughter.
-      It is a good bike.
-      Tia wants an ink pen.`,
-
-          `Milk is good for you.
-      Men are always fond of cricket.`
-        ]
-      ]
-    },
-    {
-      id: '1000',
+      id: 'fill-up',
       label: 'Fill up',
       type: 'fillup',
       commonData: {
         title: `Choose the appropriate option to complete the sentence.`
       },
       data: [
-        `The roads are empty. There are only *a few (few)* cars on the road.
-    I am very busy. I have *little (a little)* time to see the email.
-    I'd like to have coffee with just *a little (little)* sugar.
-    Anand can speak German because he lived in Berlin for *a few (few)* years.
-    You look amazing! It seems like you have lost *a little (little)* weight.
-    There is *little (a little)* noise in small villages.
-    I have *a few (few)* good friends. I am not alone.
-    Vihaan gave us *a few (few)* apples from his garden.
-    I have got *a few (few)* chocolates to give away.
-    Tina is lucky. She has *few (a few)* problems.`,
+        `The road is empty. There are only *a few (few)* cars on the road.
+I am very busy. I have *little (a little)* time to see the email.
+I'd like to have coffee with *a little (little)* sugar in it.
+Anand can speak German because he lived in Berlin for *a few (few)* years.
+You look amazing! It seems like you have lost *a little (little)* weight.
+My mother saves *little (a little)* money every month for her expenses.
+I have *a few (few)* good friends. I am not alone.
+Vihaan gave us *a few (few)* apples from his garden for us to eat.
+We stayed *a few (few)* days in Chennai and visited the beach.
+Tina is lucky. She has *few (a few)* problems.`,
 
         `Sweden has *little (a little)* sunshine in winter. 
-    He has *little (a little)* self-confidence. He has trouble talking to new people.
-    There are only *a few (few)* people she really trusts. 
-    There are *few (a few)* female bike riders in my city. 
-    There is *a little (little)* milk left in the fridge. It should be enough for our tea.
-    There are *a few (few)* horses grazing in front of the barn.
-    Can you buy *a few (few)* apples?
-    You have *a little (little)* time left.
-    My neighbour let me pick *a few (few)* mangoes from the tree.
-    There are *a few (few)* tables in the auditorium.`
+He has *little (a little)* self-confidence. He has trouble talking to new people.
+There are only *a few (few)* people she really trusts. 
+There are *few (a few)* female bike riders in my city. 
+There is *little (a little)* milk left in the fridge. It should be enough for our tea.
+There are *a few (few)* horses grazing in front of the barn.
+Can you buy *a few (few)* apples from the market?
+You have *a little (little)* time left to finish your exam.
+My neighbour let me pick *a few (few)* mangoes from the tree.
+There are *a few (few)* tables in the auditorium which are vacant.`
+      ]
+    },
+    {
+      id: 'fillup-2',
+      label: 'Fill in the Blanks',
+      type: 'fillup',
+      lockAfter: 2,
+      commonData: {
+        title: 'Click on the blanks and pick the correct Article.',
+        options: 'a, an, the'
+      },
+      data: [
+        `I met *a* friend in the store.
+      He ate *an* orange for his breakfast.
+      I have *a* pet cat.
+      My dad bought me *an* iPad yesterday.
+      Mrs.Bhavani is *the* principal of our college.
+      *The(A,An)* Ganges flows from *the (a, an)* Himalayas.
+      There is *a* eucalyptus tree near my building.
+      Manvi is *a* small village in Karnataka.
+      I like to have *a* cup of coffee.
+      *The (An, A)* building on the corner is under construction.`,
+
+        `It is better to tell *the* truth.
+      India is *a* country.
+      Lakshadweep is *an* island.
+      He arrived *an* hour later.
+      Which bike do you like? *The (A, An)* blue one?
+      Pass me *the* slice of bread.
+      I saw *an* eagle flying near my fields.
+      *The (A, An)* Tajmahal is in Agra.
+      My mom bought *a* pair of jeans and a shirt.
+      There is *an* umbrella in my bag.`,
+
+        `He is *an* honest man.
+      His wife is *an* American.
+      My brother acted in *a* movie.
+      *The (A, An)* laptop that I have is not very expensive.
+      Rohit bought *a* cup of tea.
+      Copper is *an* useful metal.
+      He gave me *an* inkpot and *a* pen.
+      *The (A, An)* rose is a beautiful flower.
+      I saw *a* baby hippo in *the* zoo.
+      I saw *an* anthill in my garden.`,
+
+        `Reading is *a* good habit.
+      *The (A, An)* school will remain closed for two days.
+      My sister is *an* English teacher.
+      She bought *an* orange dress.
+      My husband is *a* doctor.
+      My neighbour bought *a* new car.
+      *The (A, An)* Birla planetarium is located in Hyderabad.
+      My dad is *an* engineer.
+      Adi's brother bought *a* new bicycle.
+      Are you coming to *the* library tomorrow?`
+      ]
+    },
+    {
+      id: 'fillup-small-passage',
+      label: 'Small Passage - Fill Up',
+      type: 'fillup',
+      lockAfter: 2,
+      commonData: {
+        title: 'Click on the blanks and pick the correct Article.',
+        options: 'a, an, the'
+      },
+      data: [
+        `Once upon *a* time, there was *a* little girl called Meera. She lived in *a* village with her parents.
+      *The (An, A)* village was near *a* sea. Meera had *an* aunt who lived near her house.
+      One day *a* man came to *the* village with *an* elephant. He took *the* children for *a* ride on *the* elephant.
+      *The (An, A)* children enjoyed *the* ride and had lots of fun.
+      Abhi and his dad went fishing one day. Abhi took *the* fishing rod and his dad took some worms.
+      They got on *a* small boat and set for a sail. Abhi's dad drove *the* boat.`,
+
+        `He knows where to find *the* fish. Abhi liked *the* boat ride.
+      Abhi put *a* worm on *the* hook of *the* fishing rod and put it in water.
+      He felt *the* pole pull but when he reeled back *the* rod it was not *a* fish but *an* old can.
+      Ram went on *a* trip with his parents to Nepal. This was Ram's first plane trip. They took *a* cab to *the* airport.
+      Ram got down from *the* cab and was amazed to see *the* big and beautiful airport.
+      Ram boarded *the* plane and found his seat and buckled his seat belt.`,
+
+        `*The(An, A)* plane's engines rumbled and roared! *The(An, A)* plane moved faster and faster and then - whoosh!
+      On *the* ground, cars and houses looked like toys. Ram had great fun on this trip.
+      One day *a* hunter set *a* net to catch *the* birds. He placed grains and rice over *the* net.
+      After some time *a* flock of pigeons started eating *the* grains and got caught in *the* net.
+      They tried to free themselves but could not. Then their leader asked them to fly together up in *the* sky.
+      So, they flew along with *the* net and reached their friend's home. Their friend was *a* mouse.`,
+
+        `*The(An, A)* mouse cut *the* net and freed the pigeons.
+      Once upon *a* time, there lived two friends. One day they were crossing *the* jungle.
+      After some time they found *a* giant bear coming towards them.
+      Then, one of *the* friends quickly climbed *the* tree but *the* other friend did not know how to climb *a* tree.
+      So he lay on *the* ground holding his breath. *The* bear approached *the* friend and sniffed him.
+      After some time *the* bear left thinking *the* man was dead.`
+      ]
+    },
+    {
+      id: 'no-article',
+      label: 'No Article - Fill up',
+      type: 'fillup',
+      commonData: {
+        title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
+        options: '-, a, an, the'
+      },
+      data: [
+        `Do you know how to play *the* keyboard?
+        This is my best friend *-* Vamshi.
+        My mother is *a* doctor.
+        My brother is *an* author.
+        Cow is *a* domestic animal.
+        Riyaan wanted *a* new watch for his birthday.
+        All students must obey *the* rules of the school.
+        My mom is *an* MBA graduate.
+        My teacher read *an* interesting story from today's newspaper.
+        Mrs. Sunita is *an* excellent teacher.`,
+
+        `*The (An, A, -)* sun shines brightly.
+        One of my cousins is *an* engineer.
+        My son wants to be *a* scientist.
+        Do you have *a* passport?
+        My grandmother is as wise as *an* owl.
+        We have *an* exam tomorrow.
+        My parents waited *an* hour in the railway station.
+        I don't like *-* dogs, but I like my sister's dog.
+        Sumitra's father is *an* advocate.
+        Ravi met with *an* accident yesterday.`,
+
+        `There is a spider on *the* roof.
+        Karthik can play *the* guitar.
+        *The (-, an, a)* AC has stopped working.
+        Please open *the* window.
+        She is *an* architect.
+        He can play *the* flute.
+        *The (-)* Himalayas lie in the North of India.
+        Sanskrit is *a* difficult language.
+        The children found *an* egg in the bird's nest.
+        * - (The, An, A)* Mount Everest is the highest mountain peak in the world.`,
+
+        `Pandas and * - (a)* tigers are both endangered animals.
+        *The (-)* school is closed today.
+        May I have your *- (the)* phone number.
+        * - (The)* Milk is good for your health.
+        Let's go and play *- (a)* cricket.
+        Chess is *an (-)* indoor game.
+        We are learning * - (the)* Telugu.
+        Listen! Vamshi is playing *the (an)* piano.
+        Mahita enjoys eating * - (a)* cakes.
+        My sister is in *the (-)* classroom.    `
+      ]
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      commonData: {
+        isPractice: false,
+        title:
+          'Fill in the blanks by dragging the options given at the bottom.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `There is *an* apple in the fruit basket, please have it.
+Bill Gates is *the* richest man in the world.
+The *sun* rises in the east.
+Reena bought *a* banana for lunch today.
+I saw an *old* woman walking on the street at night alone.`,
+
+        `There is *a* small playground behind my house.
+Hyderabad has *an* ideal climate throughout the year.
+This is *the* best restaurant in and around my area.
+This is the *movie* I saw yesterday on Netflix. 
+Our trip to Ooty was an *exciting* experience for all of us.`,
+
+        `I tasted *an* apricot my father bought from the market.
+Do you know which is *the* most populated country in the world?
+I went to the *airport* at 5:00 am yesterday to drop off my cousin.
+Chess is an *interesting* game to play.
+We had *a* really good time at Dinesh's birthday party.`
       ]
     }
   ]

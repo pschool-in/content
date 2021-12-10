@@ -19,10 +19,10 @@ export default {
         type: 'match',
         data: {
           text: `metal, spoon
-          wood, chair
-          leather, shoes
-          fabric, dress
-          ceramic, plates`,
+wood, chair
+leather, shoes
+fabric, dress
+ceramic, plates`,
           title: 'Match the following'
         }
       },
@@ -36,14 +36,14 @@ export default {
             {
               name: 'True',
               text: `An object can be made from more than one raw material.
-              For manufacturing a particular object we use the most suitable raw material.
-              We use a wide range of materials daily.`
+For manufacturing a particular object we use the most suitable raw material.
+We use a wide range of materials daily.`
             },
             {
               name: 'False',
               text: `Shoes are made from steel.
-              Doors can be made from cardboard.
-              Every object is made from a single raw material.`
+Doors can be made from cardboard.
+Every object is made from a single raw material.`
             }
           ]
         }
@@ -61,10 +61,10 @@ export default {
             dashWidth: 80
           },
           text: `Clothes are made of *fabric*.
-          Knives and spoons are made from *steel*.
-          Bags, bottles and toys are made from *plastic*.
-          Shoes are made from *leather*.
-          Tables, chairs and pencils are made from *wood*.`
+Knives and spoons are made from *steel*.
+Bags, bottles and toys are made from *plastic*.
+Shoes are made from *leather*.
+Tables, chairs and pencils are made from *wood*.`
         }
       },
       {

@@ -1,16 +1,16 @@
 export default {
-    id: 'health-5',
-    label: 'Health-3',
-    pdf: '',
-    lockAfter: 4,
-    list: [
-      {
-        label: 'Infectious Diseases and Prevention',
-        type: 'passage',
-        id: 'infectious-diseases-and-prevention',
-        data: {
-          title: 'Infectious Diseases and Prevention',
-          text: `# Infectious Diseases
+  id: 'health-5',
+  label: 'Health-3',
+  pdf: '',
+  lockAfter: 4,
+  list: [
+    {
+      label: 'Infectious Diseases and Prevention',
+      type: 'passage',
+      id: 'infectious-diseases-and-prevention',
+      data: {
+        title: 'Infectious Diseases and Prevention',
+        text: `# Infectious Diseases
 One has to take care to stay away from people who are ill with the flu (influenza), cold, ringworm, scabies, chickenpox. These diseases spread from one person to the other. Such diseases are called infectious diseases.
 They are caused by micro-organisms. Every infectious disease is caused by a specific micro-organism or germ. When the germs of a particular disease enter the body and begin to grow, the person gets the disease.
 # Spread of infectious diseases
@@ -43,142 +43,144 @@ The vaccines for diphtheria, whooping cough and tetanus are combined into a trip
 # Public health service facilities
 To prevent the spread of infectious diseases and epidemics, health and community welfare programs are undertaken at the national level. Community programs for vaccination are also undertaken as part of national health schemes. Children are given the vaccines by trained people. Special camps are arranged for this purpose. Primary Health Centres have been established at the village level. There are also facilities like mobile dispensaries, ambulances and a Welfare Fund for the disabled. Services like the examination of urine and blood, X-ray, ultra-sound and other scans are also available through the health programs. Thus, patients can get the service they need without delay. 
 People are also educated about the right methods of handling drinking water and food. They are urged to maintain cleanliness in their surroundings. It is now forbidden by law to spit in a public place. The purpose of this ban is to prevent the spread of diseases. Mass media are also used for raising public awareness about health and hygiene issues.`
-        }
-      },
-      {
-        label: 'Food Vs Air',
-        id: 'food-air',
-        type: 'group',
-        data: {
-          title: 'Classify the illness based on the medium of spread.',
-          types: [
-            {
-              name: 'Food',
-              text: 'cholera, typhoid, jaundice, diarrhea'
-            },
-            {
-              name: 'Air',
-              text: 'common cold, influenza, diphtheria, whooping cough'
-            }
-          ]
-        }
-      },
-      {
-        label: 'Water Vs Insect',
-        id: 'water-insect',
-        type: 'group',
-        data: {
-          title: 'Classify the illness based on the medium of spread.',
-          types: [
-            {
-              name: 'Water',
-              text: 'cholera, typhoid, jaundice, diarrhea'
-            },
-            {
-              name: 'Insect',
-              text: 'malaria, plague, yellow fever, dengue'
-            }
-          ]
-        }
-      },
-      {
-        id: 'fillup',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `In smaller towns and villages, *bleaching powder (salt)* is added to community sources of water to kill the germs.
+      }
+    },
+    {
+      label: 'Food Vs Air',
+      id: 'food-air',
+      type: 'group',
+      data: {
+        title: 'Classify the illness based on the medium of spread.',
+        types: [
+          {
+            name: 'Food',
+            text: 'cholera, typhoid, jaundice, diarrhea'
+          },
+          {
+            name: 'Air',
+            text: 'common cold, influenza, diphtheria, whooping cough'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Water Vs Insect',
+      id: 'water-insect',
+      type: 'group',
+      data: {
+        title: 'Classify the illness based on the medium of spread.',
+        types: [
+          {
+            name: 'Water',
+            text: 'cholera, typhoid, jaundice, diarrhea'
+          },
+          {
+            name: 'Insect',
+            text: 'malaria, plague, yellow fever, dengue'
+          }
+        ]
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `In smaller towns and villages, *bleaching powder (salt)* is added to community sources of water to kill the germs.
 To prevent mosquitoes from breeding, we must ensure there is no *stagnant (contaminated)* water in the surroundings. 
 People who have a serious infectious disease are *quarantined (ignored)*. The spittle of a person who has tuberculosis is collected in a vessel and covered with *phenyl (amyl)*. 
 It is now forbidden by law to *spit (gather)* in a public place.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'true-false',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true or false',
-          types: [
-            {
-              name: 'True',
-              text: `Our body develops resistance to a particular disease due to vaccination. 
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true or false',
+        types: [
+          {
+            name: 'True',
+            text: `Our body develops resistance to a particular disease due to vaccination. 
 To prevent diseases from spreading through water, it is purified at the waterworks. 
 Several people get diarrhea after consuming contaminated food. `
-            },
-            {
-              name: 'False',
-              text: `Intestinal diseases spread through the air.
-We cannot prevent the spread of diseases.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the Blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
           },
-          text: `Diseases caused by micro-organisms are called *infectious* diseases.
+          {
+            name: 'False',
+            text: `Intestinal diseases spread through the air.
+We cannot prevent the spread of diseases.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the Blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Diseases caused by micro-organisms are called *infectious* diseases.
 Every infectious disease is caused by a specific *micro-organism*.
 Infectious diseases spread through water, food or air, by *direct contact* or through insect bites.
 If many people in a place get a disease at the same time, it is called an *epidemic*.
 *Vaccination* is an excellent method of preventing disease.`
-        }
-      },
-      {
-        label: 'Choose the correct Answer',
-        id: 'mcq',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: ' What is an infectious disease?',
-              options: 'a disease caused by micro-organisms, a disease caused by bacteria, a common disease'
-            },
-            {
-              qText:
-                'What are the mediums of the spread of diseases?',
-              options: 'air, water, food, *all'
-            },
-            {
-              qText: 'What happens when there is an epidemic of a disease?',
-              options: 'a large population gets infected, spread of disease is reduced, only a few people are infected'
-            },
-            {
-              qText: 'What is the role of vaccination?',
-              options: 'boost immunity, prevent spread of diseases, protect from infectious diseases, *all'
-            }
-          ]
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match',
-        data: {
-          title: 'Match the following.',
-          text: `polio, oral
+      }
+    },
+    {
+      label: 'Choose the correct Answer',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: ' What is an infectious disease?',
+            options:
+              'a disease caused by micro-organisms, a disease caused by bacteria, a common disease'
+          },
+          {
+            qText: 'What are the mediums of the spread of diseases?',
+            options: 'air, water, food, *all'
+          },
+          {
+            qText: 'What happens when there is an epidemic of a disease?',
+            options:
+              'a large population gets infected, spread of disease is reduced, only a few people are infected'
+          },
+          {
+            qText: 'What is the role of vaccination?',
+            options:
+              'boost immunity, prevent spread of diseases, protect from infectious diseases, *all'
+          }
+        ]
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match',
+      data: {
+        title: 'Match the following.',
+        text: `polio, oral
 vaccine, prevention
 malaria, mosquito
 cholera, water
 flu, air`
-        }
-      },
-      {
-        label: 'Community Health and Hygiene',
-        type: 'passage',
-        id: 'community-health-and-hygiene',
-        data: {
-          title: 'Community Health and Hygiene',
-          text: `# Community Health
+      }
+    },
+    {
+      label: 'Community Health and Hygiene',
+      type: 'passage',
+      id: 'community-health-and-hygiene',
+      data: {
+        title: 'Community Health and Hygiene',
+        text: `# Community Health
 Nutritious food, personal hygiene, exercise and pursuit of hobbies lead to excellent health and good personal development. Just as we take care of our health, we must make efforts to ensure good health for all. Everyone in our society should be able to live the kind of tension-free and happy life that we wish for ourselves. 
 Good community health and hygiene can be achieved through habits of cleanliness and good health on the part of all individuals in a community.
 Pollution, squalor, epidemics of infectious diseases, addiction, insect-borne diseases are all threats to community health. To nurture community health is to protect the general public from such diseases and to make a happy and healthy life possible for all.
@@ -215,138 +217,140 @@ Tobacco, drugs and alcohol produce a state of intoxication. Addiction to any of 
 Some people lure others into smoking, drinking, or trying out drugs. On no account should we give in to their pressure.
 If a person starts getting addicted to smoking or drinking or taking drugs, the help of counselors or doctors should be sought immediately to rid the person of the habit.
 One should eat regularly and take up sports and other hobbies. One should be firm in avoiding any addiction.`
-        }
-      },
-      {
-        id: 'fillup2',
-        label: 'Fill in the blanks',
-        type: 'fillupOptions',
-        data: {
-          title: 'Click the blanks and fill it with the right word.',
-          text: `A healthy and wholesome life leads to feelings of *friendship (hatred)*.
+      }
+    },
+    {
+      id: 'fillup2',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `A healthy and wholesome life leads to feelings of *friendship (hatred)*.
 The constant presence of tobacco in the digestive organs can lead to *cancer (ulcer)* of any of the digestive organs.
 *Alcoholism (Tobacco consumption)* leads to diseases of the liver, intestines and urinary bladder.
 The most important factor in the country’s progress and development is its *people (wealth)*.
 Good community *health (wealth)*can be achieved through habits of hygiene and good health.`
-        }
-      },
-      {
-        label: 'True or False',
-        id: 'true-false2',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the below sentences as true or false',
-          types: [
-            {
-              name: 'True',
-              text: `Alcoholism causes diseases of the liver, intestines and urinary bladder.
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false2',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true or false',
+        types: [
+          {
+            name: 'True',
+            text: `Alcoholism causes diseases of the liver, intestines and urinary bladder.
 An addict destroys the entire family.
 If we take care of our health, we can lead a wholesome life.`
-            },
-            {
-              name: 'False',
-              text: `Alcohol makes a person intelligent and energetic.
+          },
+          {
+            name: 'False',
+            text: `Alcohol makes a person intelligent and energetic.
 We should give in to the pressure of smoking and drinking.
 Pollution, squalor, epidemics, addictions and insect-borne diseases are all beneficial for community health.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the Blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop2 ',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the given words at the right blanks.',
-          styles: {
-            fontSize: '1.3rem',
-            dashWidth: 80
-          },
-          text: `Each person should put in efforts to maintain the community’s *health*.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the Blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop2 ',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Each person should put in efforts to maintain the community’s *health*.
 We must be *alert* concerning matters of public health.
 *Wholesome* living leads to good personal and social health.
 One needs to be firm with oneself to *avoid* bad habits.
 Besides alcohol and tobacco, people also fall prey to some other addictions such as the addiction to *drugs* like cocaine, brown sugar, etc, which can devastate your life.`
-        }
-      },
-      {
-        label: 'Good or Bad',
-        id: 'good-bad',
-        type: 'classifySentence',
-        data: {
-          title: 'Classify the activities as good or bad habits.',
-          types: [
-            {
-              name: 'Good',
-              text: `Avoid drugs, alcohol and tobacco.
+      }
+    },
+    {
+      label: 'Good or Bad',
+      id: 'good-bad',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the activities as good or bad habits.',
+        types: [
+          {
+            name: 'Good',
+            text: `Avoid drugs, alcohol and tobacco.
 Do not give in to the pressure of smoking, drinking or trying drugs.
 Use public toilets.
 Wash your hands before a meal.`
-            },
-            {
-              name: 'Bad',
-              text: `Improper disposal of waste.
+          },
+          {
+            name: 'Bad',
+            text: `Improper disposal of waste.
 Spitting in public.
 Resorting to smoking, drinking or using drugs.`
-            }
-          ]
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match2',
-        data: {
-          title: 'Match the threats to community health with the possible solutions.',
-          text: `Cholera, safe drinking water
+          }
+        ]
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match2',
+      data: {
+        title:
+          'Match the threats to community health with the possible solutions.',
+        text: `Cholera, safe drinking water
 Addiction, deaddiction center
 Malnutrition, nutritious diet
 Pollution, protect the environment`
-        }
-      },
-      {
-        label: 'Choose the correct Answer(s)',
-        id: 'mcq2',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'How can you achieve excellent health?',
-              options: 'cleanliness and good health habits, alcoholism, tobacco consumption'
-            },
-            {
-              qText:
-                'What factors are a threat to community health?',
-              options: 'alcoholism, drugs, malnutrition, *all'
-            },
-            {
-              qText: 'What are the ill effects of chewing tobacco?',
-              options: '*ulcer, *tumor, *cancer, happiness'
-            },
-            {
-              qText: 'What are the ill effects of alcoholism?',
-              options: '*loss of control over actions, *diseases of the liver, ulcer'
-            },
-            {
-                qText: 'Which of these is not a tobacco product?',
-                options: 'cocaine, gutka, bidis, panmasala'
-            }
-          ]
-        }
-      },
-      {
-        type: 'match',
-        label: 'Match the Following ',
-        id: 'match3',
-        data: {
-          title: 'Match the following.',
-          text: `Alcohol, liver disease
+      }
+    },
+    {
+      label: 'Choose the correct Answer(s)',
+      id: 'mcq2',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'How can you achieve excellent health?',
+            options:
+              'cleanliness and good health habits, alcoholism, tobacco consumption'
+          },
+          {
+            qText: 'What factors are a threat to community health?',
+            options: 'alcoholism, drugs, malnutrition, *all'
+          },
+          {
+            qText: 'What are the ill effects of chewing tobacco?',
+            options: '*ulcer, *tumor, *cancer, happiness'
+          },
+          {
+            qText: 'What are the ill effects of alcoholism?',
+            options:
+              '*loss of control over actions, *diseases of the liver, ulcer'
+          },
+          {
+            qText: 'Which of these is not a tobacco product?',
+            options: 'cocaine, gutka, bidis, panmasala'
+          }
+        ]
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match the Following ',
+      id: 'match3',
+      data: {
+        title: 'Match the following.',
+        text: `Alcohol, liver disease
 Tobacco, ulcer
 Drugs, addiction
 Mass media, public awareness`
-        }
       }
-    ]
-  };
+    }
+  ]
+};

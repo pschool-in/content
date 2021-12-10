@@ -5,7 +5,7 @@ export default {
   lockAfter: 4,
   list: [
     {
-      id: '100',
+      id: 'reading',
       type: 'passage',
       label: 'Water Management',
       editable: true,
@@ -70,7 +70,7 @@ export default {
       }
     },
     {
-      id: '200',
+      id: 'mcq',
       label: 'Choose the best answer',
       type: 'mcq',
       data: {
@@ -113,7 +113,7 @@ export default {
       }
     },
     {
-      id: '300',
+      id: 'fillup',
       label: 'Fill in the blanks - Water',
       type: 'matchByDragDrop',
       data: {
@@ -131,7 +131,7 @@ Cholera is caused by *bacteria*.`
       }
     },
     {
-      id: '400',
+      id: 'match',
       type: 'match',
       label: 'Match the Following',
       data: {
@@ -144,9 +144,9 @@ Swine Flu,Influenza virus`
       }
     },
     {
-      id: '500',
+      id: 'fillup-2',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Due to recent changes in the *climate (weather)* we don’t have water in lakes and ponds.
@@ -161,7 +161,7 @@ Water borne diseases are caused by *micro (macro)* organisms.`
     {
       label: 'Good Vs Bad',
       type: 'classifySentence',
-      id: '600',
+      id: 'good-bad',
       data: {
         title: 'Classify the below sentence as Good or Bad.',
         types: [
@@ -182,31 +182,30 @@ Allow mosquitoes to live in our surroundings.`
     {
       label: 'Water- Reading',
       type: 'passage',
-      id: '700',
+      id: 'reading-2',
       data: {
         title: 'Water ',
         text: `# Pollution of water
-          Water is polluted when other substances get mixed in it. Some float on its surface while some dissolve in it. This makes the water unfit and unhealthy for drinking.
-          # Disposal of waste water
-          Waste water is impure water and thus is polluted. Sewage water carries microbes that spread diseases. Waste water from industries can also be poisonous. If we mix this waste water into our water sources like oceans, rivers, and seas, then it will be a big problem for us.
-          This is why all industries must treat the waste water before releasing it. Similarly, sewage is also purified before releasing the water into a water body. Likewise, water is purified before being supplied across the town.
-          # Mineral water
-          It is conveniently available in general stores and stations. The bottles are packed and sealed. We should always check the date of sealing and the date of expiry printed on the neck of the bottle before buying it.
-          Checking for dates is important for not just mineral water bottles but for other packed edibles like food and medicines as well.
-          # Famine
-          Places with least or no rainfall face scarcity of water, which further leads to drought. 
-          When there is no water to drink, bathe, cook and for agriculture, this condition is called famine.
-          The government moves people from the affected areas to a safer place, temporarily.
-          # Do you know?
-          1. Air and water are mixed with the help of pumps. This leads to the dissolution of oxygen in the water. The process is called oxygenation.
-          
-          2. In chlorination, chlorine is mixed in water to kill the germs present in it.`
+Water is polluted when other substances get mixed in it. Some float on its surface while some dissolve in it. This makes the water unfit and unhealthy for drinking.
+# Disposal of waste water
+Waste water is impure water and thus is polluted. Sewage water carries microbes that spread diseases. Waste water from industries can also be poisonous. If we mix this waste water into our water sources like oceans, rivers, and seas, then it will be a big problem for us.
+This is why all industries must treat the waste water before releasing it. Similarly, sewage is also purified before releasing the water into a water body. Likewise, water is purified before being supplied across the town.
+# Mineral water
+It is conveniently available in general stores and stations. The bottles are packed and sealed. We should always check the date of sealing and the date of expiry printed on the neck of the bottle before buying it.
+Checking for dates is important for not just mineral water bottles but for other packed edibles like food and medicines as well.
+# Famine
+Places with least or no rainfall face scarcity of water, which further leads to drought. 
+When there is no water to drink, bathe, cook and for agriculture, this condition is called famine.
+The government moves people from the affected areas to a safer place, temporarily.
+# Do you know?
+1. Air and water are mixed with the help of pumps. This leads to the dissolution of oxygen in the water. The process is called oxygenation.
+2. In chlorination, chlorine is mixed in water to kill the germs present in it.`
       }
     },
     {
       label: 'Fiil by drag',
       type: 'matchByDragDrop',
-      id: '800',
+      id: 'fillup-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -215,29 +214,29 @@ Allow mosquitoes to live in our surroundings.`
           dashWidth: 80
         },
         text: `*Mineral* water is available in sealed bottles.
-          *Sewage* water is polluted water.
-          *Waste water* should be treated before merging with rivers.
-          *Oxygenation* means mixing oxygen and water through pumps.
-          *Famine* is when there's no water left.
-          *Flood* is the excess flow of water.`
+*Sewage* water is polluted water.
+*Waste water* should be treated before merging with rivers.
+*Oxygenation* means mixing oxygen and water through pumps.
+*Famine* is when there's no water left.
+*Flood* is the excess flow of water.`
       }
     },
     {
-      id: '900',
+      id: 'match-3',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `Mineral water, General store
-          Sewage, Waste water
-          Famine, Scarcity
-          Flood, Excess water
-          Pollution, Impure water`,
+Sewage, Waste water
+Famine, Scarcity
+Flood, Excess water
+Pollution, Impure water`,
         title: 'Match the babies'
       }
     },
     {
       label: 'True or False',
-      id: '1000',
+      id: 'true-false-3',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -245,15 +244,15 @@ Allow mosquitoes to live in our surroundings.`
           {
             name: 'True',
             text: `We must not waste water at any cost.
-              Droughts lead to scarcity of water.
-              Famine is a natural disaster.
-              We cannot consume polluted water.`
+Droughts lead to scarcity of water.
+Famine is a natural disaster.
+We cannot consume polluted water.`
           },
           {
             name: 'False',
             text: `Waste water is directly disposed into rivers and seas.
-              Water pollution refers to the purification of water.
-              We should ignore the manufcture and expiry date in mineral water bottles.`
+Water pollution refers to the purification of water.
+We should ignore the manufcture and expiry date in mineral water bottles.`
           }
         ]
       }

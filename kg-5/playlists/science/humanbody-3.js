@@ -189,7 +189,7 @@ export default {
       data: {
         title: 'Lungs',
         text: `When we breathe in, we take air in through the nose. The internal organs through which this air is supplied to the body are called lungs.
-          The right lung is slightly bigger than the left lung. A pipe-like internal organ carries the air we breathe in into the lungs. It is called the windpipe. The windpipe separates into two branches. Each branch is called a bronchus. When we breathe in, the lungs expand a little. That is why our chest swells up when we breathe in. The functions of the heart and the lungs depend on each other. Both these internal organs are very important. They are situated in the thoracic cavity, inside a cage made of bones called the ribcage. That is why, they are safe and secure.`
+The right lung is slightly bigger than the left lung. A pipe-like internal organ carries the air we breathe in into the lungs. It is called the windpipe. The windpipe separates into two branches. Each branch is called a bronchus. When we breathe in, the lungs expand a little. That is why our chest swells up when we breathe in. The functions of the heart and the lungs depend on each other. Both these internal organs are very important. They are situated in the thoracic cavity, inside a cage made of bones called the ribcage. That is why, they are safe and secure.`
       }
     },
     {
@@ -204,34 +204,34 @@ export default {
           dashWidth: 80
         },
         text: `Our chest *expands* when we *breathe* in.
-          Our heart *contracts* while pumping *blood*.
-          The doctor puts her fingers on our *wrist* to feel your *pulse*.`
+Our heart *contracts* while pumping *blood*.
+The doctor puts her fingers on our *wrist* to feel your *pulse*.`
       }
     },
     {
       label: 'Human Body - Reading',
       type: 'passage',
-      id: '100',
+      id: 'passage-5',
       data: {
         title: 'Our Body',
         text: `# Parts of our Body
-          1. Head: The head is covered with hair. Below the forehead are two eyes, with eyebrows and eyelashes. On the sides are the ears. In front is the nose. Below the nose, is the mouth and chin. The part that joins the head to the torso is the neck.
-          2. Torso: The chest, abdomen and back together make up the torso. The part where the arm is joined to the torso is called the shoulder. The leg is joined to the torso at the hip-joint.      
-          3. Arm: The arm has three parts – upper arm, forearm and hand. The fingers are part of the hand. The upper arm and forearm are joined at the elbow. The forearm and hand are joined at the wrist.       
-          4. Leg: The leg, has three parts – thigh, shank and foot. Toes are part of the foot. The thigh and shank are joined at the knee. The shank and foot are joined at the ankle.        
-          # Organ         
-          A part of the body that is used for a particular purpose is called organ. Organs are further classified as internal and external organs.       
-          # Body Movement        
-          1. Neck: The neck bends forward as well as backward. It turns left or right. It also bends left or right.         
-          2. Arm: We can bend our arm at the shoulder, elbow and wrist. The fingers of our hands can bend too.       
-          3. Waist: We can bend our torso only at the waist. We can bend forward at the waist.        
-          4. Leg: Our legs can bend at the hip-joint, the knees and the ankles. Our toes too can bend, but not as much as our fingers.`
+1. Head: The head is covered with hair. Below the forehead are two eyes, with eyebrows and eyelashes. On the sides are the ears. In front is the nose. Below the nose, is the mouth and chin. The part that joins the head to the torso is the neck.
+2. Torso: The chest, abdomen and back together make up the torso. The part where the arm is joined to the torso is called the shoulder. The leg is joined to the torso at the hip-joint.      
+3. Arm: The arm has three parts – upper arm, forearm and hand. The fingers are part of the hand. The upper arm and forearm are joined at the elbow. The forearm and hand are joined at the wrist.       
+4. Leg: The leg, has three parts – thigh, shank and foot. Toes are part of the foot. The thigh and shank are joined at the knee. The shank and foot are joined at the ankle.        
+# Organ         
+A part of the body that is used for a particular purpose is called organ. Organs are further classified as internal and external organs.       
+# Body Movement        
+1. Neck: The neck bends forward as well as backward. It turns left or right. It also bends left or right.         
+2. Arm: We can bend our arm at the shoulder, elbow and wrist. The fingers of our hands can bend too.       
+3. Waist: We can bend our torso only at the waist. We can bend forward at the waist.        
+4. Leg: Our legs can bend at the hip-joint, the knees and the ankles. Our toes too can bend, but not as much as our fingers.`
       }
     },
     {
       label: 'Head',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'drag-drop-2',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -240,17 +240,17 @@ export default {
           dashWidth: 80
         },
         text: `The head is covered with *hair*.
-          Below the forehead are two *eyes*, with *eyebrows* and eyelashes. 
-          On the sides are the *ears*. 
-          In front is the *nose*. 
-          Below the nose, is the *mouth* and chin. 
-          The part that joins the head to the torso is the *neck*.`
+Below the forehead are two *eyes*, with *eyebrows* and eyelashes. 
+On the sides are the *ears*. 
+In front is the *nose*. 
+Below the nose, is the *mouth* and chin. 
+The part that joins the head to the torso is the *neck*.`
       }
     },
     {
       label: 'Torso',
       type: 'matchByDragDrop',
-      id: '601',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -259,14 +259,14 @@ export default {
           dashWidth: 80
         },
         text: `The chest, *abdomen* and back together make up the torso.
-          The part where the *arm* is joined to the torso is called the *shoulder*. 
-          The leg is joined to the torso at the *hip-joint*.`
+The part where the *arm* is joined to the torso is called the *shoulder*. 
+The leg is joined to the torso at the *hip-joint*.`
       }
     },
     {
       label: 'Arm',
       type: 'matchByDragDrop',
-      id: '602',
+      id: 'drag-drop-4',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -275,15 +275,15 @@ export default {
           dashWidth: 80
         },
         text: `The arm has three parts – upper arm, forearm and *hand*. 
-          The *fingers* are part of the hand. 
-          The upper arm and forearm are joined at the *elbow*. 
-          The forearm and hand are joined at the *wrist*.`
+The *fingers* are part of the hand. 
+The upper arm and forearm are joined at the *elbow*. 
+The forearm and hand are joined at the *wrist*.`
       }
     },
     {
       label: 'Leg',
       type: 'matchByDragDrop',
-      id: '603',
+      id: 'drag-drop-5',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -292,14 +292,14 @@ export default {
           dashWidth: 80
         },
         text: `The leg has three parts – thigh, *shank* and foot.
-          *Toes* are part of the foot. 
-          The thigh and shank are joined at the *knee*. 
-          The shank and foot are joined at the *ankle*.`
+*Toes* are part of the foot. 
+The thigh and shank are joined at the *knee*. 
+The shank and foot are joined at the *ankle*.`
       }
     },
     {
       label: 'True or False',
-      id: '200',
+      id: 'true-false-4',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -307,14 +307,14 @@ export default {
           {
             name: 'True',
             text: `We use our legs too for several purposes.
-              We can bend our torso only at the waist.
-              We can bend our arm at the shoulder, elbow and wrist.`
+We can bend our torso only at the waist.
+We can bend our arm at the shoulder, elbow and wrist.`
           },
           {
             name: 'False',
             text: `We can move our toes more than our fingers.
-              Neck cannot bend backward.
-              Ankle is a part of our hand.`
+Neck cannot bend backward.
+Ankle is a part of our hand.`
           }
         ]
       }
@@ -340,17 +340,17 @@ export default {
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A part of the body that is used for a particular purpose is called *organ (body part)*. 
-          The neck bends forward as well as *backward (sidewards)*. 
-          We can bend our arm at the shoulder, *elbow (knee)* and wrist.
-          The *fingers (toes)* of our hands can bend.
-          We can bend our torso only at the *waist (hips)*. 
-          We can bend *forward (backward)* at the waist.
-          Our legs can bend at the hip-joint, the *knees (elbow)* and the ankles.
-          Our toes *can (cannot)* bend, but not as much as our fingers.`
+The neck bends forward as well as *backward (sidewards)*. 
+We can bend our arm at the shoulder, *elbow (knee)* and wrist.
+The *fingers (toes)* of our hands can bend.
+We can bend our torso only at the *waist (hips)*. 
+We can bend *forward (backward)* at the waist.
+Our legs can bend at the hip-joint, the *knees (elbow)* and the ankles.
+Our toes *can (cannot)* bend, but not as much as our fingers.`
       }
     },
     {
@@ -384,55 +384,45 @@ export default {
     {
       label: 'Sensory Organs - Reading',
       type: 'passage',
-      id: '400',
+      id: 'reading-5',
       data: {
         title: 'Sense Organs',
         text: `# Sensory Organs
-
-          Our sensory organs tell us about the situation all around us. The eyes, ears, nose, tongue and skin are our five sensory organs.
-          
-          1. We can see with our eyes.
-          2. We can hear with our ears.
-          3. We can smell with our nose. 
-          4. We taste things with our tongue. 
-          5. We feel things with our skin.
-          
-          # Co-ordination
-          
-          When we work, we need to have co-ordination in all the tasks.
-          Difficulties may arise due to lack of co-ordination.
-          
-          # Disability
-          
-          If any organ does not function well, we may face difficulties in doing our work. We must not give up in the face of difficulties. They can be overcome.
-          
-          # Overcoming Disability
-          
-          Some disabilities can be corrected by medical treatment. In some matters, we can take the help of other people. Often, some special devices can be used to overcome the disability.
-          
-          1. If we cannot see well, we can use spectacles.
-          2. If we cannot see at all, we can make use of sounds, or feel with our hands to get things done.
-          3. A person who cannot hear well, can use a hearing aid.
-          4. Those who cannot hear at all, can use sign language.
-          5. If there is a defect in the leg, a special wheelchair can be used.`
+Our sensory organs tell us about the situation all around us. The eyes, ears, nose, tongue and skin are our five sensory organs.
+1. We can see with our eyes.
+2. We can hear with our ears.
+3. We can smell with our nose. 
+4. We taste things with our tongue. 
+5. We feel things with our skin.
+# Co-ordination
+When we work, we need to have co-ordination in all the tasks. Difficulties may arise due to lack of co-ordination.
+# Disability
+If any organ does not function well, we may face difficulties in doing our work. We must not give up in the face of difficulties. They can be overcome.
+# Overcoming Disability
+Some disabilities can be corrected by medical treatment. In some matters, we can take the help of other people. Often, some special devices can be used to overcome the disability.
+1. If we cannot see well, we can use spectacles.
+2. If we cannot see at all, we can make use of sounds, or feel with our hands to get things done.
+3. A person who cannot hear well, can use a hearing aid.
+4. Those who cannot hear at all, can use sign language.
+5. If there is a defect in the leg, a special wheelchair can be used.`
       }
     },
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `If we cannot see well, we can use *spectacles (walking stick)*.
-          If we cannot see at all, we can make use of *sounds (hearing aid), or feel with the hands to get things done.
-          A person who cannot hear well, can use a *hearing aid (translator)*.
-          Those who cannot hear at all, can use *sign (braille)* language.
-          If there is a defect in the leg, a special *wheelchair (prosthetic leg)* can be used.`
+If we cannot see at all, we can make use of *sounds (hearing aid), or feel with the hands to get things done.
+A person who cannot hear well, can use a *hearing aid (translator)*.
+Those who cannot hear at all, can use *sign (braille)* language.
+If there is a defect in the leg, a special *wheelchair (prosthetic leg)* can be used.`
       }
     },
     {
       label: 'True or False',
-      id: '700',
+      id: 'true-false-5',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -440,21 +430,21 @@ export default {
           {
             name: 'True',
             text: `Some disabilities can be corrected by medical treatment.
-              Difficulties may arise due to lack of co-ordination.
-              Our sensory organs tell us about the situation all around us.`
+Difficulties may arise due to lack of co-ordination.
+Our sensory organs tell us about the situation all around us.`
           },
           {
             name: 'False',
             text: `Disabilities cannot be overcome.
-              Eyes help to smell.
-              Sign language is used by blind.`
+Eyes help to smell.
+Sign language is used by blind.`
           }
         ]
       }
     },
     {
       label: 'Eyes or Ears',
-      id: '701',
+      id: 'eyes-ears',
       type: 'classifySentence',
       data: {
         title:
@@ -463,21 +453,21 @@ export default {
           {
             name: 'Eyes',
             text: `See the sunrise.
-              There is a bump in the road.
-              There is a rock in your path.`
+There is a bump in the road.
+There is a rock in your path.`
           },
           {
             name: 'Ears',
             text: `Cuckoo is singing
-              Someone is calling out your name
-              Music is loud`
+Someone is calling out your name
+Music is loud`
           }
         ]
       }
     },
     {
       label: 'Nose or Tongue',
-      id: '702',
+      id: 'nose-tongue',
       type: 'classifySentence',
       data: {
         title:
@@ -486,14 +476,14 @@ export default {
           {
             name: 'Nose',
             text: `Rose has a sweet smell.
-              Incense stick has a nice fragrance.
-              My socks are stinking.`
+Incense stick has a nice fragrance.
+My socks are stinking.`
           },
           {
             name: 'Tongue',
             text: `Apple is sweet.
-              The medicine is bitter.
-              The curry is too salty.`
+The medicine is bitter.
+The curry is too salty.`
           }
         ]
       }
@@ -501,7 +491,7 @@ export default {
     {
       label: 'Sensory Organs',
       type: 'matchByDragDrop',
-      id: 'drag-drop ',
+      id: 'drag-drop-22',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -510,15 +500,15 @@ export default {
           dashWidth: 80
         },
         text: `We can see with our *eyes*.
-          We can hear with our *ears*.
-          We can smell with our *nose*. 
-          We taste things with our *tongue*. 
-          We feel things with our *skin*.`
+We can hear with our *ears*.
+We can smell with our *nose*. 
+We taste things with our *tongue*. 
+We feel things with our *skin*.`
       }
     },
     {
       label: 'Choose the best Answer ',
-      id: '1000',
+      id: 'mcq-9',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -559,22 +549,17 @@ export default {
     {
       label: 'Teeth- Reading',
       type: 'passage',
-      id: '1100',
+      id: 'reading-6',
       data: {
         title: 'Our Teeth',
         text: `# Teeth
-
-          The teeth that grow when we are infants are called milk teeth. They start falling at seven or eight years of age. Then we get new teeth once again. These are called permanent teeth. If permanent teeth fall, we do not get new teeth in their place. So, we must take care of our teeth.
-          
-          If our teeth are dirty, foul substances go into our stomach. We can fall ill.
-          
-          We must wash our hands before we eat.
-          We must keep our hair, our nails, our sense organs and the entire body clean`
+The teeth that grow when we are infants are called milk teeth. They start falling at seven or eight years of age. Then we get new teeth once again. These are called permanent teeth. If permanent teeth fall, we do not get new teeth in their place. So, we must take care of our teeth.
+If our teeth are dirty, foul substances go into our stomach. We can fall ill. We must wash our hands before we eat. We must keep our hair, our nails, our sense organs and the entire body clean`
       }
     },
     {
       label: 'True or False',
-      id: '1400',
+      id: 'true-false-10',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -582,14 +567,14 @@ export default {
           {
             name: 'True',
             text: `Infected wound ooze pus.
-              We must rinse our mouth repeatedly with water after eating something.
-              First set of teeth is milk teeth.`
+We must rinse our mouth repeatedly with water after eating something.
+First set of teeth is milk teeth.`
           },
           {
             name: 'False',
             text: `Last set of teeth is milk teeth.
-              We start losing milk teeth at 12 years of age.
-              Clean gums may make us ill. `
+We start losing milk teeth at 12 years of age.
+Clean gums may make us ill. `
           }
         ]
       }
@@ -597,7 +582,7 @@ export default {
     {
       label: 'Teeth',
       type: 'matchByDragDrop',
-      id: '1500',
+      id: 'teeth',
       data: {
         isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
@@ -606,43 +591,42 @@ export default {
           dashWidth: 80
         },
         text: `The teeth we get when we are small are called *milk* teeth. 
-          If *permanent* teeth fall, we do not get new teeth in their place. 
-          We must take care of our *teeth*.
-          If our teeth are *dirty*, foul substances go into our *stomach*. 
-          We must wash our *hands* before we eat.
-          We must keep our hair, our nails, our sense organs and the entire
-          body *clean*.`
+If *permanent* teeth fall, we do not get new teeth in their place. 
+We must take care of our *teeth*.
+If our teeth are *dirty*, foul substances go into our *stomach*. 
+We must wash our *hands* before we eat.
+We must keep our hair, our nails, our sense organs and the entire body *clean*.`
       }
     },
     {
-      id: '1600',
+      id: 'match-10',
       label: 'Match the following',
       type: 'match',
       data: {
         text: `First teeth, milk teeth
-          Last teeth, permanent teeth
-          Toothbrush, toothpaste
-          Rotting, loose teeth
-          Infection, pus`,
+Last teeth, permanent teeth
+Toothbrush, toothpaste
+Rotting, loose teeth
+Infection, pus`,
         title: 'Match the following'
       }
     },
     {
       id: 'fillup-3',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Because of the rotting particles in the mouth, our teeth *decay (cracks)*.
-          We must brush our teeth in the *morning (evening)* and before going to bed at night.
-          We must clean our *gums (mouth)* and tongue.
-          *Neem (Tulsi)* or babul sticks are sometimes used for cleaning teeth.
-          Infected cut or wound may start oozing *pus (blood)*.`
+We must brush our teeth in the *morning (evening)* and before going to bed at night.
+We must clean our *gums (mouth)* and tongue.
+*Neem (Tulsi)* or babul sticks are sometimes used for cleaning teeth.
+Infected cut or wound may start oozing *pus (blood)*.`
       }
     },
     {
       label: 'Choose the best Answer',
-      id: '1700',
+      id: 'mcq-9',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',

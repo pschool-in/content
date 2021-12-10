@@ -9,12 +9,12 @@ export default {
       data: {
         title: 'Animals',
         text: [
-          `There are different types of animals.`,
-          `Some are domestic animals, and others are wild animals.`,
-          `Some live in group, and others live alone.`,
-          `Some lay eggs, and others give birth to young ones.`,
-          `Some live in land, and others live in water. Some live in both land and water.`,
-          `Some eat plants and others eat meat. Some eat both.`
+`There are different types of animals.`,
+`Some are domestic animals, and others are wild animals.`,
+`Some live in group, and others live alone.`,
+`Some lay eggs, and others give birth to young ones.`,
+`Some live in land, and others live in water. Some live in both land and water.`,
+`Some eat plants and others eat meat. Some eat both.`
         ]
       }
     },
@@ -71,12 +71,12 @@ Shark is a domestic animal.`
         multiple: true,
         fontSize: '1.3rem',
         text: `cat, dog, bear, zebra, elephant
-          frog, rat, snake, monkey, hippo
-          cockroach, parrot, owl, eagle, flamingo 
-          sparrow, crow, hen, peacock, ostrich
-          mosquito, cockroach, lizard, rabbit, cheetah
-          ant, tortoise, pig, lion, buffalo
-          crab, fish, dolphin, shark, whale`
+frog, rat, snake, monkey, hippo
+cockroach, parrot, owl, eagle, flamingo 
+sparrow, crow, hen, peacock, ostrich
+mosquito, cockroach, lizard, rabbit, cheetah
+ant, tortoise, pig, lion, buffalo
+crab, fish, dolphin, shark, whale`
       }
     },
     {
@@ -89,9 +89,9 @@ Shark is a domestic animal.`
         multiple: true,
         fontSize: '1.3rem',
         text: `tortoise, snake, cat, tiger
-          ant, rat, donkey, horse
-          lizard, elephant, rabbit, lion
-          hen, peacock, sparrow, eagle`
+ant, rat, donkey, horse
+lizard, elephant, rabbit, lion
+hen, peacock, sparrow, eagle`
       }
     },
     {

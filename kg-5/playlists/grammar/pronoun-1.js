@@ -32,55 +32,24 @@ export default {
           `It is used as an object that refers back to the subject. eg: myself, yourself, herself, himself, itself`,
           {
             type: 'hilight',
-            text: `She herself cooked the food.
-            I myself saw him.
-            He himself cut the cake.`
+            text: `He cuts himself while chopping the vegetables.
+            I don't trust myself in tough times.`
           },
           `# Emphatic Pronouns`,
           `They are used to put emphasis on the subject. So usually they follow the subject.`,
           {
             type: 'hilight',
-            text: `He cuts himself while chopping the vegetables.
-            I don't trust myself in tough times.`
+            text: `She herself cooked the food.
+            I myself saw him.
+            He himself cut the cake.`
           }
         ]
       }
     },
     {
-      type: 'selectWord',
-      label: 'Select the Pronoun',
-      id: 'select-word',
-      commonData: {
-        title: 'Select the personal pronouns in the following sentence.'
-      },
-      data: [
-        `*I* am waiting for the train. 
-The teacher thinks that *he* is a smart boy.
-My mom told me that *she* is a good dancer.
-*I* am very happy.
-This is my pen, give it to *me*.
-*I* am sitting on the chair.
-The guests arrived while *we* were watching the cricket match.
-Are *you* from Hyderabad?
-*She* is going home.
-*It* is an amazing movie.`,
-
-        `The principal told us that *she* is our new teacher.
-*He* wants to buy a new cycle.
-Teacher told everyone that *her* name is Meera.
-On Wednesday, *they* will go to the market.
-Meera thinks that *she* is very intelligent.
-*They* are studying together.
-*He* is teaching science in our school.
-Priya was shy at first but *she* is running very fast.
-Did *you* water the plants?
-*She* likes to dance.`
-      ]
-    },
-    {
       id: 'fillup',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         options: 'He, She, It, They'
       },
@@ -117,6 +86,31 @@ Congratulations! *You* are such a good dancer.
 *I* like my city.
 *You* can go back to your seat.`
         }
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the Pronoun',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the pronoun in the below sentence.'
+      },
+      data: [
+        `*I* am very happy.
+        *She* is going home.
+        *He* is playing.
+        *They* are nice people.
+        Ravi is playing with *him*.
+        Do not touch the water. *It* is hot.
+        *I* am waiting for the train.
+        The teacher thinks that *he* is a smart boy.
+        My mom told my brother that *she* is a good dancer.`,
+
+        `Please give the pen to *me*.
+        *I* am sitting on the chair.
+        The guests arrived while *we* were watching the cricket match.
+        Are *you* from Hyderabad?
+        *It* is an amazing movie.`
       ]
     },
     {
@@ -160,13 +154,28 @@ Have they taken permission from them?`
       }
     },
     {
+      type: 'match',
+      label: 'Match the Pairs',
+      id: 'complete-word',
+      data: {
+        lang: 'en',
+        title: 'Match the pronouns that have same meaning.',
+        text: `I, Me
+          He, Him
+          She, Her
+          They, Them
+          We, Us`
+      }
+    },
+    {
       label: 'This, That, These, Those',
       type: 'passage',
       id: 'this-that-these-those',
       data: {
         title: 'This, That, These, Those',
         text: `These are words that help to show where things are.
-We use 'this' when pointing to one person, place, animal or thing (singular) that is near the speaker.We use 'these' when pointing to more than one person, place, animal or thing (plural) that are near the speaker.
+We use 'this' when pointing to one person, place, animal or thing (singular) that is near the speaker.
+We use 'these' when pointing to more than one person, place, animal or thing (plural) that are near the speaker.
 We use 'that' when pointing to one person, place, animal or thing (singular) that is far from the speaker.
 We use 'those' when pointing to more than one person, place, animal or thing (plural) that are near the speaker. `
       }
@@ -174,7 +183,7 @@ We use 'those' when pointing to more than one person, place, animal or thing (pl
     {
       id: 'fillup-2',
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         options: 'This, That, These, Those',
         title: 'Fill in the blacks by using the clue given in the bracket.',
@@ -182,10 +191,23 @@ We use 'those' when pointing to more than one person, place, animal or thing (pl
 *That* is our school. (far)
 *Those* children are playing happily. (far)
 *Those* plastic bottles are old. (far)
-*These* are old newspaper. (near)
+*These* are old newspapers. (near)
 *Those* are giraffes. (far)
 *This* is my cat. (near)
 *This* is my gift. (near)`
+      }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the Pronoun',
+      id: 'select-word',
+      data: {
+        title: 'Select all the pronouns present in the below text.',
+        multiSelect: true,
+        text: `*It* is *her* pen.
+Please give *it* to *me*.
+*It* was raining and *I* got wet.
+The principal told *us* that *she* is *our* new teacher.`
       }
     }
   ]

@@ -4,6 +4,10 @@ const more = [
     id: 'ta-picture-2'
   },
   {
+    label: 'மீண்டும் படம் 2',
+    id: 'ta-picture-3'
+  },
+  {
     label: 'எழுத்துக்கள் - 2',
     id: 'ta-writing-2'
   },

@@ -455,8 +455,8 @@ This is *the most interesting* movie I have ever watched.`
       data: [
         [
           `This book is long.
-      The airport is far.
-      My mom is a good cook.`,
+The airport is far.
+My mom is a good cook.`,
 
           `This house is bigger than that one. 
       This rose is more beautiful than others.

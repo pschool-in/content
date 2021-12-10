@@ -247,7 +247,7 @@ twelve, 12`
     },
     {
       label: 'Fill Up',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup',
       lockAfter: 2,
       commonData: {

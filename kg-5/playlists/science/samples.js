@@ -52,7 +52,7 @@ export default {
     {
       id: 'fillup',
       label: 'Fill in the blanks',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         text: ``,
         title: 'Fill in the blanks.'
