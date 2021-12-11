@@ -13,11 +13,11 @@ export default {
   The indefinite articles "a/an" are generally used to mention some person or thing.
   These articles do not specify a particular person or a thing.
   "A" and "An" are used to introduce noun or naming words and are also used to mention singular countable nouns.
-  "a" is used before singular nouns beginning with consonant sounds.
-  "an" is used before singular nouns beginning with vowel sounds.
+  "A" is used before singular nouns beginning with consonant sounds.
+  "An" is used before singular nouns beginning with vowel sounds.
   # Definite article:
   We use definite article "the" when we are talking about a specific person or a thing.
-  "the" is used for countable and uncountable nouns/singular and plural nouns.`
+  "The" is used for countable and uncountable nouns/singular and plural nouns.`
       }
     },
     {
@@ -198,7 +198,7 @@ export default {
           Aladdin had *a* magic lantern.
           I saw *a* big lion at the zoo.
           She has written *a* story.
-          I saw *a* Peacock in KBR park today.
+          I saw *a* peacock in KBR park today.
           I have *an* inkpot on my study table.
           It is *an* ancient fort in Hyderabad.
           I am *a* pilot.
@@ -256,7 +256,7 @@ export default {
 
         `I am *a* school student.
         He is *the* best student in the class.
-        *the* camel is the ship of the desert.
+        *The* camel is the ship of the desert.
         This book has won *the* Noble Prize.
         Please inform me about *the* next exam.
         Gold is *a* precious metal.
