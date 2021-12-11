@@ -176,11 +176,11 @@ There are *a few (few)* tables in the auditorium which are vacant.`
 
         `There is a spider on *the* roof.
         Karthik can play *the* guitar.
-        *The (-, an, a)* AC has stopped working.
+        *The (-, An, A)* AC has stopped working.
         Please open *the* window.
         She is *an* architect.
         He can play *the* flute.
-        *The (-)* Himalayas lie in the North of India.
+        *The (-, An, A)* Himalayas lie in the North of India.
         Sanskrit is *a* difficult language.
         The children found *an* egg in the bird's nest.
         * - (The, An, A)* Mount Everest is the highest mountain peak in the world.`,
