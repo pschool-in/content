@@ -12,8 +12,8 @@ export default {
           `We use this to compare something.`,
           { type: 'hilight', text: 'Elephant is bigger than tiger.' },
           `The above sentence has 'comparative' degree. We directly compare one thing with another.
-          Note: Usually the  'comparative' adjective is followed by the word 'than'.`,
-          `Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
+          Note: Usually the  'comparative' adjective is followed by the word 'than'.
+          Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
           Note: Definite article (the) is used before the 'superlative' adjective.`,
           { type: 'hilight', text: 'Elephant is the biggest land animal.' },
           `Sometimes we simply tell something, without really comparing with anything. It is called 'positive' degree.`,
@@ -35,7 +35,7 @@ heavy, heavier, heaviest`
       }
     },
     {
-      label: 'Classify the Degree',
+      label: 'Identify the Degree of Comparison.',
       type: 'classifySentence',
       id: 'classify',
       commonData: {
@@ -148,6 +148,149 @@ A pen is *mightier (might, mightiest)* than a sword.
 Lead is a *heavy(heavier,heaviest)* metal.
 Mumbai is one of the *busiest(busier,busy)* city in the world.
 Mani is the *fastest(fast,faster)* boy in our class.`
+      ]
+    },
+    {
+      label: 'Identify the Degree of Comparison.',
+      type: 'classifySentence',
+      id: 'classify',
+      commonData: {
+        title: 'Identify the degree of comparison.',
+        types: ['Positive', 'Comparative', 'Superlative']
+      },
+      data: [
+        [
+          `This book is long.
+The airport is far.
+My mom is a good cook.`,
+
+          `This house is bigger than that one.
+This rose is more beautiful than others.
+He is taller than Mr.Das.
+My job is worse than yours.`,
+
+          `The Nile is the longest river in the world.
+Today has been the hottest day of the year.
+Which is the highest mountain in the world?`
+        ],
+        [
+          `Her hair is short.
+She walks slow.
+Gold is a precious metal.`,
+
+          `The earth is larger than the moon.
+You are more polite than Meera.
+A car is faster than a bicycle.`,
+
+          `The Burj Khalifa is the tallest building in the world.
+This is the best chocolate cake I have had in a long time.
+This is the smallest box I have ever seen.
+Jupiter is the biggest planet in our solar system.`
+        ],
+        [
+          `Manish is a strong boy.
+My sister is a good teacher.
+KBR park is far.`,
+
+          `She is older than me.
+China is larger than India.
+In Canada, January is colder than March.`,
+
+          `I am the shortest person in my family.
+Sam is the most handsome boy in the whole school.
+London is the largest city in England.`
+        ],
+        [
+          `The pen is light.
+She is a beautiful girl.
+Arjun is a strong boy.
+India is a democratic country.`,
+
+          `A school is noisier than a hospital.
+My TV is bigger than yours.
+Greenland is larger than any other island in the world.`,
+
+          `Whales are the biggest animals.
+Lead is the heaviest of all metals.
+Mahesh is the brightest student in the class.`
+        ],
+        [
+          `Mango is sweet.
+The Himalayas are a mountain range in Asia.
+Neetha is a good girl.
+Her hair is short.`,
+
+          `Meera's work is better than Ram's.
+Athletes are usually more famous than scientists.
+Poornima's hair is longer than yours.`,
+
+          `This is the most interesting book I have read.
+Mount Everest is the highest peak.
+Jeevana is the smartest girl in the class.`
+        ]
+      ]
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-and-drop-2',
+      commonData: {
+        isPractice: false,
+        title: 'Drag and drop the appropriate adjective in the sentence.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `The lion is a *big* animal.
+The Rhinoceros is *bigger* than lion.
+The elephant is the *biggest* of three animals.
+I am a *lazy* person in my family.
+My brother is *lazier* than me.
+My dad is the *laziest* among all three.`,
+
+        `Suhani is a *clever* girl.
+Geeta is *cleverer* than Suhani. 
+Sita is the *cleverest* of all three.
+English exam was *difficult* this year.
+Social exam was *more difficult* than English.
+Math exam was *the most difficult* of all subjects.`,
+
+        `Krishna is a *tall* boy.
+Hari is *taller* than Krishna.
+Mahesh is the *tallest* boy in the class.
+My mom is a *wise* member of the family.
+My dad is *wiser* than my mom.
+My grandmother is the *wisest* of all.`,
+
+        `Teju is an *active* girl.
+Laukya is *more active* than Teju.
+Padma is the *most active* girl among three.
+China is a *big* country.
+Canada is *bigger* than China.
+Russia is the *biggest* country.`,
+
+        `Deer is a *fast* animal.
+Leopard is *faster* than Deer.
+Cheetah is the *fastest* among all three.
+October is a *cold* month.
+November is *colder* than october.
+December is the *coldest* month of the year.`,
+
+        `March is a *hot* month.
+April is *hotter* than March.
+May is the *hottest* month of the year.
+Monkeys are *small* animals.
+Rabbits are *smaller* than monkeys.
+Ants are the *smallest* of all three.`,
+
+        `Lion is a *heavy* animal.
+Crocodile is *heavier* than lion.
+Elephant is the *heaviest* among all three.
+My room is *tidy*.
+My brother's room is *tidier than mine.
+My mother's room is the *tidiest* of all three.`
       ]
     }
   ]

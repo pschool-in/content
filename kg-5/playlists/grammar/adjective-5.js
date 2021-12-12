@@ -1,61 +1,258 @@
 export default {
   id: 'adjective-5',
-  label: 'Adjective-5',
+  label: 'Order of Adjective',
   pdf: '',
   list: [
     {
-      label: 'Degrees of Comparison',
+      label: 'Notes',
       type: 'passage',
-      id: 'adjectives-5-reading',
+      id: 'reading',
       data: {
-        title: 'Degrees of Comparison',
-        text: `Adjectives are the words that modify or describe nouns or pronouns. They are also known as modifiers as they modify the noun and tell us about what a noun is in a particular context. For example:
-1. Lotus is a "beautiful" flower. ( we can simply say, lotus is a flower, but here we are describing how it looks like)
-2. Poornima is a "good" girl.
-3. I bought a pair of "colorful" shoes.
-# Kinds of adjectives
-Adjective of Quality: These adjectives provide information about the quality of person/s, things or places. They can describe the "age", "size", "shape", "colors", "feelings", etc.
-For example:
-1. Ram is an "honest" boy.
-2. Rose is a "beautiful" flower.
-3. This is a "large" house.
-Adjectives of Quantity: They provide information about the quantity of things or people.
-For example : 
-1."Many" people gathered near an accident. 
-2."Few" people attended the meeting.
-Adjectives of Number: They describe the number of people, things or places spoken of. For example:
-1. I bought "two" shirts for Diwali.
-2. I saw "three" parrots on the branch.
-Interrogative adjectives: These are used before the nouns to ask questions. Words like - "which", "what", "whose", etc are called as interrogative adjectives.
-Demonstrative adjectives: Words like "this", "that", "these", "those" are used to describe a particular person or a thing. For example:
-1. "These" mangoes are sweet.
-2. "That" car is yours.
-Possessive Adjectives: They tell us about to whom something or someone belongs to. For example:
-1. "their" room
-2. "my" uncle
-3. "our" farm
-# Degrees of Comparison
-Degrees of Comparison are adjectives that change form and are used to compare one thing or person to another.
-Three types of Degrees of Comparison:
-1. Positive Degree: When we want to describe a person or a thing but there is no comparison, we use the positive degree. Example - Lakshman is a "strong" man.
-2. Comparative Degree: When we want to compare two persons or things, we use a comparative degree.
-Example - Bheem is "stronger" than Lakshman. 
-We use "more" & "than" for a comparative degree of adjectives and also "-er" is added to the positive adjective.
-3. Superlative Degree: When we want to compare more than two persons or things, we use the superlative degree. 
-Example - Ram is the "strongest" of the three.
-We use "the" before the superlative degree of adjective and also "-est" at the end of an adjective.
-Positive: rich, small, ugly, fast, few, bright, big, fat, hot, thin, sad, wealthy, lucky, early
-Comparative: richer, smaller, uglier, faster, fewer, brighter, bigger, hotter, fatter, thinner, sadder, wealthier, luckier, earlier
-Superlative: Richest, smallest, ugliest, fastest, fewest, brightest, biggest, fastest, hottest, thinnest, saddest, wealthiest, luckiest, earliest`
+        title: 'Order of Adjective',
+        text: [
+          `Very often we use more than one adjective with the noun. In that case, the order
+        of adjective is very important.`,
+          {
+            type: 'html',
+            text: `Eg: <br>
+five beautiful puppies : correct <br>
+beautiful five puppies : incorrect <br>
+<br>
+nine red balls : correct <br>
+red nine balls : incorrect`
+          },
+          `Given below is the order of adjectives:
+          1. number
+2. opinion
+3. appearance (size, shape)
+4. age
+5. condition
+6. color
+7. pattern (checkered, stripped)
+8. proper adjective (Nationality, place of origin, or material)
+9. function or purpose
+10. Noun`,
+          {
+            type: 'html',
+            text: `<b>A strange, little, yellow</b> leaf. Here the arrangement of the adjectives is as
+  follows: <b>a</b> is an article, <b>strange</b> is an opinion or quality, <b>little</b> is the
+  size, <b>yellow</b> is the color`
+          }
+        ]
       }
     },
     {
-      label: 'Choose the correct adjective',
+      label: 'Select the Right Option',
+      id: 'mcq',
+      type: 'mcq',
+      commonData: {
+        title: 'Choose the appropriate options to complete the sentence.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'I bought a pair of _____ sandals.',
+              options: 'red leather, leather red'
+            },
+            {
+              qText: 'It was a ____ bike.',
+              options: 'fast blue, blue fast'
+            },
+            {
+              qText: `It's a _______ hut.`,
+              options: 'small round, round small'
+            },
+            {
+              qText: `It's a _____ song.`,
+              options: 'beautiful old, old beautiful'
+            },
+            {
+              qText: `It's a ___ village.`,
+              options: 'lovely green, green lovely'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: `It's a _______ watch.`,
+              options: 'cute Swiss, Swiss cute'
+            },
+            {
+              qText: 'There are two _____ lamps.',
+              options: 'big glass, glass big'
+            },
+            {
+              qText: 'It is a ______ bug.',
+              options: 'tiny black, black tiny'
+            },
+            {
+              qText: 'That is a ____ beach.',
+              options: 'wonderful Goan, Goan wonderful'
+            },
+            {
+              qText: 'This is an _______ job.',
+              options: 'exciting new, new exciting'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'This is a _____ island.',
+              options: 'beautiful small, small beautiful'
+            },
+            {
+              qText: 'I saw a ____ whale in the ocean.',
+              options: 'big black, black big'
+            },
+            {
+              qText: 'I have a ______ shirt.',
+              options: 'pink cotton, cotton pink'
+            },
+            {
+              qText: 'He is a _________ man.',
+              options: 'silly old, old silly'
+            },
+            {
+              qText: 'I ate a ________ pizza today.',
+              options: 'delicious Italian, Italian delicious'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'This is an ________story.',
+              options: 'amazing short, short amazing'
+            },
+            {
+              qText: 'This is a ______ bag.',
+              options: 'cotton sleeping, sleeping cotton'
+            },
+            {
+              qText: 'Lata Mangeshkar is a _____ singer.',
+              options: 'famous Indian, Indian famous'
+            },
+            {
+              qText: 'I have a ______ dress.',
+              options: 'beautiful blue, blue beautiful'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'I bought ______ tomatoes.',
+              options: 'big red, red big'
+            },
+            {
+              qText: 'I have a _____ dog.',
+              options: 'small white, white small'
+            },
+            {
+              qText: 'Those are ________ flowers.',
+              options: 'beautiful yellow, yellow beautiful'
+            },
+            {
+              qText: 'My aunt has a  _______ table.',
+              options: 'round brown, brown round'
+            },
+            {
+              qText: 'He is a ____ man.',
+              options: 'kind old, old kind'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'She gave her a _____ scarf.',
+              options: 'tiny soft, soft tiny'
+            },
+            {
+              qText: 'She wore a _____ hat.',
+              options: 'silly pink, pink silly'
+            },
+            {
+              qText: 'I have _______ pencils.',
+              options: 'five big, big five, wooden big'
+            },
+            {
+              qText: 'The _______ kitten was lost.',
+              options: 'little pink, pink little'
+            },
+            {
+              qText: 'My dad is a ______ man.',
+              options: 'tall Indian, Indian tall'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      label: 'True or False',
+      id: '500',
+      type: 'classifySentence',
+      commonData: {
+        title:
+          'True or False: The order of adjective is correct in the below sentence.',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `Two tiny, brown squirrels ate all the peanuts.
+Ram and Mahesh went to the market to buy ten large, fresh, red apples.
+Mani left his small, white, striped shirt at home.`,
+
+          `The principal said that we could go on a tropical, long vacation.
+Does the Indian, young actor win a lot of awards?
+The white, comfortable sofa was very expensive.`
+        ],
+        [
+          `That big, black car goes really fast.
+A round, black ball
+Five, little children`,
+
+          `little, five children.
+Full, three boxes.
+two red, sqaure tables`
+        ]
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Identify Adjectives',
+      id: '1100',
+      commonData: {
+        title:
+          'Identify the adjectives given in the passage. There can be zero or more. Select all and Submit.',
+        multiSelect: true
+      },
+      data: [
+        `Once upon a time... there lived a women who had no children. 
+She dreamed of having a *little* girl. 
+But time went by and her dream never came true. 
+So, she visited an *ugly* witch who gave her a *magic* grain of barley.
+She planted the grain in a *big* flower pot. 
+The next morning, the *magic* grain turned into a *lovely* tulip.`,
+
+        `The women kissed the *soft* petals and the flower opened. 
+Inside the flower sat a *tiny* girl, no bigger than a thumb.
+She was named Thumbelina. She had a walnut shell for bed, *violet* petals for mattress. 
+One night, as Thumbelina  was fast asleep, a *large* frog hopped in through the window.
+She said to herself, how *pretty* Thumbelina is!
+Later, she picked up Thumbelina and hopped back in to the wetlands.`
+      ]
+    },
+    {
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: '100',
+      id: 'drag-drop',
       commonData: {
         isPractice: false,
-        title: 'Drag and drop the correct adjective to complete the sentence.',
+        title: 'Fill in the blanks by moving the words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -80,421 +277,6 @@ Bhavya wore a *traditional* dress for Diwali celebrations in the society.
 Mahesh was very *gentle* while cleaning his laptop.
 Mihira is a *naughty* girl in her class.`
       ]
-    },
-    {
-      label: 'Classify as True or False',
-      id: '200',
-      type: 'classifySentence',
-      commonData: {
-        title: 'Classify the following statement as true or false.',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Adjectives are called modifiers.
-Age and size are called the adjectives of quality.
-Adjectives of quantity use words like few and many.`,
-
-          `Demonstrative adjectives use words like who, what.
-"This" and "that" are called interrogative adjectives.`
-        ],
-        [
-          `"Than" is used in the comparative degree of adjectives.
-"The" is used before the superlative degree of adjective.`,
-
-          `Positive degree of an adjective is used to compare qualities of two persons or things.
-Comparative degree of an adjective is used to compare more than two things or people.`
-        ]
-      ]
-    },
-    {
-      id: '300',
-      label: 'Add the correct adjective of quantity',
-      type: 'fillup',
-      commonData: {
-        title: `Use the correct adjective of quantity to complete the sentence.`
-      },
-      data: [
-        `I saw *many (much)* animals in the zoo.
-I have *many (much)* friends.
-How *many (much)* chocolates do you have?
-There isn't *much (many)* sugar in my milk.
-How *much (many)* water is used for boiling rice?
-My dad gave me *some (many)* money for school tour.
-I took *some (much)* cookies from the box.
-Did you take *any (many)* money from the purse?
-*Many(Much)* people attended the Republic day parade in Delhi on 26th January.
-We don't have *much (many)* time for the wedding preparation.`,
-
-        `There are *few (little)* chairs in the hall.
-I bought *few (little)* tomatoes from the market.
-There is *some (any)* juice left in the fridge.
-Do you want *some (any)* tea?
-I can give you *some (many)* money if you need it.
-Do you have *any(some)* brothers or sisters?
-My brother bought *some (any)* pencils from the shop.
-I had *some (any)* rice for lunch today.
-My dad showed *much (many)* patience while dealing with the office staff.
-There are *few (little)* dogs in the park near my home.`,
-
-        `Don't eat so *many (some)* sweets, it's not good for your health.
-I have *little (any)* interest in dancing.
-There was *little (few)* traffic near the school.
-There is *little (few)* space left in the car.
-I have *less (fewer)* than an hour to complete my homework.
-There are a *few (little)* trees in my backyard which we can climb.
-There have been *few (little)* problems with my new laptop recently.
-We need a *little (few)* information regarding the new school in our locality.
-We have *little (few)* time left to catch the train to Bangalore.
-I have a *little (few)* money left to buy the ice-cream from the shop.`
-      ]
-    },
-    {
-      id: '400',
-      label: 'Add-demonstrative adjective',
-      type: 'fillup',
-      commonData: {
-        title: `Choose the correct demonstrative adjective in the sentence.`
-      },
-      data: [
-        `*Those (This)* sheep are running away.
-*This (These)* is the last ticket to the movie.
-*These (That)* dancers are very talented.
-*This (These)* fruit is very sour than lemon.
-*Those (This)* farmers are using biofertilizers for farming.
-*This (Those)* time I won't fail my final examination for sure!
-*These (That)* mangoes are rotting in the box faster than expected.
-*This (Those)* shirt is too small for me.
-*Those (That)* jeans are not very comfortable for mountain hiking.
-*These (That)* puppies are very playful around children.`,
-
-        `What was *that (these)* noise?
-*This (Those)* shirt does not fit me now.
-*Those (That)* children were playing in the park.
-We will clean *this (those)* room.
-Who completed *this (those)* science project?
-Could you please pass me *that (those)* water bottle?
-I want *those (that)* big flower pots for Diwali celebrations.
-*Those (That)* birds are flying South as a part of migration.
-My dad presented *that (those)* book on my birthday.
-*These (That)* clothes are wet due to sudden drizzling in the afternoon.`
-      ]
-    },
-    {
-      label: 'Classify the adjective-1',
-      id: '500',
-      type: 'classifySentence',
-      commonData: {
-        title: 'Identify the underlined adjective and state its kind.',
-        types: ['Adjective of quality', 'Adjective of quantity']
-      },
-      data: [
-        [
-          `This boy has a *sweet* voice.
-      That is a *big* ground.
-      I like *yellow* roses.
-      I like *raw* mangoes.`,
-
-          `I ate *some* fried rice today.
-      We have *enough* time for completion of homework.
-      I know very *little* about folk songs.
-      Add *some* sugar to the tea.`
-        ],
-        [
-          `I took *some* chalkpieces from the desk.
-      Priya has *little* interest in reading the story books.
-      We spent *few* hours planning for the birthday party.
-      *Many* people visit Tirupathi every day.`,
-
-          `Meera has a *brown* cat as a pet.
-      Our math teacher is an *old* women who teaches excellently.
-      Prakash is a *clever* boy in the class.
-      My mom made *tasty* jalebis for the party.`
-        ]
-      ]
-    },
-    {
-      id: '600',
-      label: 'Classify the adjective-2',
-      type: 'classifySentence',
-      data: {
-        title: 'Identify the underlined adjective and state its kind.',
-        types: [
-          {
-            name: 'Demonstrative adjective',
-            text: `What is the cost of *these* books?
-        Give me *that* pen.
-        *This* is my last performance on stage.
-        *These* shoes are too expensive.`
-          },
-          {
-            name: 'Possessive adjective',
-            text: `Mihir is driving in *his* new red sports car.
-        Samanvi has got a new car. *Her* car is very nice.
-        Mahesh, where is *your* mother?
-        This is my sister. *Her* name is Tanvi.`
-          }
-        ]
-      }
-    },
-    {
-      id: '700',
-      label: 'Classify the adjective-3',
-      type: 'classifySentence',
-      data: {
-        title: 'Identify the underlined adjective and state its kind.',
-        types: [
-          {
-            name: 'Adjective of Number',
-            text: `I have *twenty five* students in my class.
-        I have learned *six* chapters from Science for the exam.
-        Meena has *two* dogs in her house.
-        They have *two* carpets at the centre of the hall.`
-          },
-          {
-            name: 'Interrogative adjective',
-            text: `*Whose* bag was that?
-        *Which* mobile do you like more?
-        *Which* plate is yours?
-        *What* is your brother's name?`
-          }
-        ]
-      }
-    },
-    {
-      type: 'selectWord',
-      label: 'Identify - degrees of comparison-1',
-      id: 'deg-comp',
-      commonData: {
-        title: 'Identify the comparative degree of adjective in the sentence.'
-      },
-      data: [
-        `My house is *bigger than* yours.
-I am *smarter than* my brother. 
-The summer is *warmer than* winter.
-Tortoises live *longer than* cats.
-My sister is *more intelligent than* my brother.
-Mumbai is *bigger than* Delhi.
-A rose is *more beautiful* than hibiscus.
-Shiva is *cleverer than* Subrat.
-Tortoises live *longer than* cats.
-My mom is *taller than* my grandmom.`,
-
-        `Iceland is *colder than* Spain. 
-I drive *more carefully than* my father. 
-English is *easier than* Japanese. 
-My son is *taller than* his father.
-An elephant is *stronger than* Kangaroo.
-The earth is *larger than* moon.
-Nupur is *more polite than* Rishi.
-My hair is *longer than* yours.
-Roads in the city are *wider than* roads in the villages.
-I am *more tired than* yesterday due to busy work.`
-      ]
-    },
-    {
-      type: 'selectWord',
-      label: 'Identify - degrees of comparison-2',
-      id: '800',
-      commonData: {
-        title: 'Identify the superlative degree of adjective in the sentence.'
-      },
-      data: [
-        `Cheetah is *the fastest* animal in the world.  
-May is *the hottest* month of the year. 
-Which mountain is *the highest* in the world?
-Dhruv is *the noisiest* student in the school. 
-This is *the best* book I have read.
-December is *the coldest* month of the year.
-Mango is *the juciest* fruit among all. 
-Mount Everest is *the highest* peak in the world.
-Chandan is *the most hardworking* student in the class.
-Vihaan is *the tallest* boy in the class.`,
-
-        `Friday is *the busiest* day of the week.
-Mrs. Sunita is *the most polite* teacher I have ever met. 
-Madan is *the slowest* runner in our class. 
-Hyderabad is *the most beautiful* city in Telangana. 
-February is *the shortest* month of the year.
-The Ganga is *the longest* river in India.
-Jupiter is *the biggest* planet in the solar system.
-My aunt is *the shortest* person in my family.
-Karthik is *the most handsome* boy in our class.
-This is *the most interesting* movie I have ever watched.`
-      ]
-    },
-    {
-      label: 'Multiple choice questions',
-      id: '900',
-      type: 'mcq',
-      commonData: {
-        title: 'Identify the correct degrees of comparison for the sentence.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'The pen is light.',
-              options: 'positive, comparative, superlative'
-            },
-            {
-              qText: 'She is very beautiful.',
-              options: 'positive, comparative, superlative'
-            },
-            {
-              qText: `London is the largest city in England.`,
-              options: 'superlative, comparative, positive'
-            },
-            {
-              qText: `Whales are the biggest animals.`,
-              options: 'superlative, comparative, positive'
-            },
-            {
-              qText: `A school  is noisier than a hospital.`,
-              options: 'comparative, superlative, positive'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: `Meera's work is better than Ram's.`,
-              options: 'comparative, positive, superlative'
-            },
-            {
-              qText: 'Athletes are usually more famous than scientists.',
-              options: 'comparative, superlative, positive'
-            },
-            {
-              qText: `Poornima's hair is longer than yours.`,
-              options: 'comparative, superlative, positive'
-            },
-            {
-              qText: 'Arjun is a strong boy.',
-              options: 'positive, comparative, superlative'
-            },
-            {
-              qText: 'India is a democratic country.',
-              options: 'positive, comparative, superlative'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'Mango is sweet.',
-              options: 'positive, comparative, superlative'
-            },
-            {
-              qText: 'This is the most interesting book I have read.',
-              options: 'superlative, comparative, positive'
-            },
-            {
-              qText: 'The Himalayas are a mountain range in Asia.',
-              options: 'positive, comparative, superlative'
-            },
-            {
-              qText: 'Mount Everest is the highest peak.',
-              options: 'superlative, comparative, positive'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      label: 'Identify - the kind of adjective',
-      type: 'mcq',
-      id: '1000',
-      data: {
-        title:
-          'See the underlined adjective and identify the kind of adjective.',
-        questions: [
-          {
-            qText: `Asha has got *five* pencils.`,
-            options: `adjective of number, adjective of quality, adjective of quantity`
-          },
-          {
-            qText: `Who gave you *that* box?`,
-            options: `demonstrative adjective, possessive adjective, interrogative adjective`
-          },
-          {
-            qText: `A week has *seven* days.`,
-            options: `adjective of number, adjective of quantity, adjective of quality`
-          },
-          {
-            qText: `There are *few* chairs in the hall.`,
-            options: `adjecitve of quantity, adjective of number, adjective of quality`
-          },
-          {
-            qText: `*Which* is your bag?`,
-            options: `interrogative adjective, possessive adjecitve, demonstartive adjective`
-          },
-          {
-            qText: `My dad is an *excellent* cook.`,
-            options: `adjective of quality, adjective of quantity, adjective of number`
-          },
-          {
-            qText: `*Many* students attended the exam.`,
-            options: `adjective of quantity, adjective of quality, demonstrative adjective`
-          },
-          {
-            qText: `Pavithra is a *beautiful* girl.`,
-            options: `adjective of quality, demonstrative adjective, interrogative adjective`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Classify the statement-1',
-      id: '1100',
-      type: 'classifySentence',
-      commonData: {
-        title: 'Identify the degree of comparison for the below sentence.',
-        types: ['Positive', 'Comparative']
-      },
-      data: [
-        [
-          `This book is long.
-The airport is far.
-My mom is a good cook.`,
-
-          `This house is bigger than that one. 
-      This rose is more beautiful than others.
-      He is taller than Mr.Das.`
-        ],
-        [
-          `Her hair is short.
-      She walks slow.`,
-
-          `My job is worse than yours. 
-      The earth is larger than moon.
-      You are more polite than meera.`
-        ]
-      ]
-    },
-    {
-      id: '1200',
-      label: 'Classify the statement-2',
-      type: 'classifySentence',
-      data: {
-        title: 'Identify the degree of comparison for the below sentence.',
-        types: [
-          {
-            name: 'Comparative',
-            text: `A car is faster than a bicycle.
-        She is older than me.
-        China is larger than India. 
-        In Canada, January is colder than March.`
-          },
-          {
-            name: 'Superlative',
-            text: `This is the smallest box I have ever seen.
-        Jupiter is the biggest planet in our solar system.
-        I am the shortest person in my family.
-        Sam is the most handsome boy in the whole school.`
-          }
-        ]
-      }
     }
   ]
 };

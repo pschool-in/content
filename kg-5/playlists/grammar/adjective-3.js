@@ -1,90 +1,153 @@
 export default {
   id: 'adjective-3',
-  label: 'Adjective-3',
+  label: 'Adjective of Quality and Quantity',
   pdf: '',
   list: [
     {
-      label: 'Adjective of Quality and Quantity',
+      label: 'Notes',
       type: 'passage',
-      id: 'adjective-3-reading',
+      id: 'reading',
       data: {
         title: 'Adjective of Quality and Quantity',
         text: [
-          `The words that are used to describe a noun or a pronoun are called as adjectives. They give us more information about a noun or pronoun by describing it. They inform or tell us about how she or he looks, sounds, smells, feels or tastes. Names of the colors are also used as adjectives.`,
+          `# Adjective of Quality
+It tells us about the kind or quality of the noun.`,
           {
             type: 'html',
-            text: `eg: <br>
-             The dog is <b>black</b>. (here dog is a noun and black is the adjective i.e., it is describing how the dog looks)<br>
-             The sweater is <b>fluffy</b>. (here the sweater is a noun and fluffy describes how the sweater feels like)`
+            text: `Eg: <br>
+<b>honest</b> boy <br>
+<b>beautiful</b> flower <br>
+<b>large</b> house`
           },
-          `# Adjective of quality`,
+          `# Adjective of Quantity
+It tells us about the 'how much' of the noun.`,
           {
             type: 'html',
-            text: `It is a type of adjective used to describe the qualities of things or people. Eg: <br>
-            It is a <b>tall</b> building.<br>
-            It was a <b>rainy</b> day.<br>
-            Hyderabad is a <b>big</b> city. `
+            text: `Eg: <br>
+<b>many</b> students <br>
+<b>some</b> animals <br>
+<b>little</b> sugar`
           },
-          '# Adjective of quantity',
+          `# Adjective of Number
+It is a special type of adjective of quantity. It tells us how many.`,
           {
             type: 'html',
-            text: `Words like <i>much</i>, <i>little</i>, <i>some</i>, <i>any</i>, <i>whole</i> are used to describe the quantity of the noun. eg: <br>
-            Preethi ate the <b>whole</b> cake.
-            How <b>much</b> money do you have?`
-          },
-          `# degrees of comparison`,
-          `Adjectives are used to compare the qualities of two nouns and more than two nouns.
-When we compare qualities of two nouns we add "-er" + "than".`,
-          {
-            type: 'html',
-            text: `Hari is <b>taller than</b> Krishna.`
-          },
-          `When we compare qualities of more than three nouns we add "-est" +"the".`,
-          {
-            type: 'html',
-            text: `Hari is <b>the tallest</b> boy in the class.`
+            text: `Eg: <br>
+<b>two</b> hands <br>
+<b>twenty-four</b> hours <br>
+<b>thirty</b> students`
           }
         ]
       }
     },
     {
-      type: 'group',
-      label: 'Group',
+      label: 'Classify Adjective Type',
       id: 'classify',
+      type: 'classifySentence',
       commonData: {
-        title:
-          'Identify which one of the following is an adjective and which is not.',
-        types: ['Adjective', 'Not an adjective']
+        title: 'Classify the underlined adjective.',
+        types: ['Adjective of Quality', 'Adjective of Quantity']
       },
       data: [
         [
-          `Beautiful, Tall, Black, Red, Happy, Fat`,
-          `Park, Bread, Pencil, Rose, Board, Peacock`
+          `This boy has a *sweet* voice.
+      That is a *big* ground.
+      I like *yellow* roses.
+      I like *raw* mangoes.`,
+
+          `I ate *some* fried rice today.
+      We have *enough* time for completion of homework.
+      I know very *little* about folk songs.
+      Add *some* sugar to the tea.`
         ],
         [
-          `Angry, Bad, Blue, Clean, Dark, Easy`,
-          `Egg, Shirt, Room, Chocolate, Tiger`
+          `I took *some* chalkpieces from the desk.
+      Priya has *little* interest in reading the story books.
+      We spent *few* hours planning for the birthday party.
+      *Many* people visit Tirupathi every day.`,
+
+          `Meera has a *brown* cat as a pet.
+      Our math teacher is an *old* women who teaches excellently.
+      Prakash is a *clever* boy in the class.
+      My mom made *tasty* jalebis for the party.`
+        ]
+      ]
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the Blanks',
+      type: 'fillup',
+      commonData: {
+        title: `Click on the blank and select the appropriate adjective.`
+      },
+      data: [
+        `I saw *many (much)* animals in the zoo.
+I have *many (much)* friends.
+How *many (much)* chocolates do you have?
+There isn't *much (many)* sugar in my milk.
+How *much (many)* water is used for boiling rice?
+My dad gave me *some (many)* money for school tour.
+I took *some (much)* cookies from the box.
+Did you take *any (many)* money from the purse?
+*Many(Much)* people attended the Republic day parade in Delhi on 26th January.
+We don't have *much (many)* time for the wedding preparation.`,
+
+        `There are *few (little)* chairs in the hall.
+I bought *few (little)* tomatoes from the market.
+There is *some (any)* juice left in the fridge.
+Do you want *some (any)* tea?
+I can give you *some (many)* money if you need it.
+Do you have *any(some)* brothers or sisters?
+My brother bought *some (any)* pencils from the shop.
+I had *some (any)* rice for lunch today.
+My dad showed *much (many)* patience while dealing with the office staff.
+There are *few (little)* dogs in the park near my home.`,
+
+        `Don't eat so *many (some)* sweets, it's not good for your health.
+I have *little (any)* interest in dancing.
+There was *little (few)* traffic near the school.
+There is *little (few)* space left in the car.
+I have *less (fewer)* than an hour to complete my homework.
+There are a *few (little)* trees in my backyard which we can climb.
+There have been *few (little)* problems with my new laptop recently.
+We need a *little (few)* information regarding the new school in our locality.
+We have *little (few)* time left to catch the train to Bangalore.
+I have a *little (few)* money left to buy the ice-cream from the shop.`
+      ]
+    },
+    {
+      type: 'group',
+      label: 'Adjectives vs Non-adjectives',
+      id: '100',
+      commonData: {
+        title: 'Drag and drop the words in the right boxes.',
+        types: ['Adjective', 'Not an Adjective']
+      },
+      data: [
+        [
+          `strange, little, yellow, round, tall`,
+          `leaf, plant, stem, fruit, soil`
         ],
         [
-          `Hungry, Good, Funny, Gentle, Happy`,
-          `Girl, Cat, Dress, Soap, Forest`
+          `red, seven, wooden, nice, small, soft`,
+          `pancakes, children, dress, knife, chair, mug`
         ],
         [
-          `Interesting, Large, Healthy, Tasty, Lazy, Costly`,
-          `Hospital, Book, Food, cookies, Dog, Coat`
+          `brave, young, strong, intelligent, courageous`,
+          `Mowgli, lion, floor, boxer, player`
         ],
         [
-          `Attractive, Brave, Colorful, Fresh, Large`,
-          `Car, Dress, Soldier, Fruits, Building`
+          `slowest, brown, huge, sharp, fast, dangerous`,
+          `crocodile, train, turtle, table, banana`
         ]
       ]
     },
     {
       type: 'group',
-      label: 'Drag and Drop',
+      label: 'Positive vs Negative',
       id: 'classify-positive-negative',
       commonData: {
-        title: 'Identify these positive and negative describing words.',
+        title: 'Classify the below sentences as positive and negative.',
         types: ['Positive', 'Negative']
       },
       data: [
@@ -94,63 +157,38 @@ When we compare qualities of two nouns we add "-er" + "than".`,
       ]
     },
     {
-      label: 'True or False',
-      id: 'tf',
-      type: 'classifySentence',
-      data: {
-        title: 'Identify whether the following statements are true or false.',
-        types: [
-          {
-            name: 'True',
-            text: `Describing word is called adjective.
-      Adjectives describe nouns or pronouns.
-      Names of the colors are used as adjectives.`
-          },
-          {
-            name: 'False',
-            text: `Naming words are called as adjectives.
-      Adjectives describe action words.
-      Adjectives are used in joining the words.`
-          }
-        ]
-      }
-    },
-    {
       type: 'match',
-      label: 'Match the adjectives',
+      label: 'Match - Adjectives and Nouns',
       id: 'match-1',
       commonData: {
-        title:
-          'Match the most appropriate adjectives with their corresponding naming words.'
+        title: 'Match the following adjectives with appropriate nouns.'
       },
       data: [
-        `Cheerful, boy
-  Tall, building
-  Sweet, mangoes
-  Colorful, umbrella
-  Black, dog
-  Pretty, women`,
+        `cheerful, boy
+tall, building
+sweet, mangoes
+colorful, umbrella
+black, dog
+pretty, women`,
 
-        `New, dress
-Clever, girl
-Yellow, flowers
-Brick, house
-Green, parrot
-Crunchy, chips`,
+        `new, dress
+clever, girl
+yellow, flowers
+brick, house
+green, parrot`,
 
-        `Black, board
-Tall, tree
-Narrow, road
-Pretty, girl
-Colorful, kite
-Strong, bull`,
+        `black, board
+tall, tree
+narrow, road
+pretty, girl
+colorful, kite
+strong, bull`,
 
-        `Blue, sky
-Big, room
-Soft, carpet
-Thorny, bush
-Brown, bear
-Wild, dog`
+        `blue, sky
+big, room
+thorny, bush
+brown, bear
+pleasant, weather`
       ]
     },
     {
@@ -198,8 +236,7 @@ danger, unsafe`
       id: 'drag-and-drop-1',
       commonData: {
         isPractice: false,
-        title:
-          'Drag and drop the appropriate adjective to complete the sentence.',
+        title: 'Fill in the blanks by moving the words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -234,124 +271,8 @@ My mom was baking a *chocolate* cake for the party.`
       ]
     },
     {
-      id: 'fill-up',
-      label: 'Adjectives',
-      type: 'fillup',
-      commonData: {
-        title: `Select the correct word to complete the sentence.`
-      },
-      data: [
-        `Manisha is wearing a *beautiful (tall)* dress.
-She loves to eat *fresh (slim)* apples.
-Rahul has *curly (deep)* hair.
-A ball is *round (curly)* in shape.
-Birds have *beautiful (high)* feathers.
-The blanket is *soft (round)*.
-There was very *little (huge)* water in the bottle.
-I wore a *red (short)* saree for my friend's wedding.
-Ravi is an *obedient (white)* student.
-My dad is wearing a *black (square)* coat.`,
-
-        `Harish saw a *funny (clumsy)* clown.
-Jasmines have *white (black)* petals.
-The Earth is *round (oval)*.
-Grandma gave me a *sweet (sour)* chocolate.
-The book is very *colorful (ill)*.
-Priya loves to eat *sweet (grey)* mangoes.
-Dog is an *honest (sour)* animal.
-Neeta is a *clever (much)* girl.
-Paddy fields are very *green (blue)*.
-The *black (blue)* soil is rich in nutrients.`,
-
-        `A car has *four (three)* wheels.
-Coffee is hot but ice is *cold ( black)*.
-I like to sleep on a *soft (hard)* bed.
-The Indian team was *happy (sad)* when they won the match.
-I saw some *black (green)* clouds.
-An *angry (black)* tiger jumped out of the cage.
-My mom cooks *tasty (beautiful)* payasam.
-A squirrel is a *small (huge)* animal.
-The earth is *round(sqaure)* in shape.
-My cousin's house is very *big (fat)*.`,
-
-        `My mother packed a *healthy (unhealthy)* snacks for picnic.
-I read an *interesting (rich)* book today in the library.
-I washed my face with *cold (dirty)* water after playing.
-I wore my *warm (hot)* mittens in the snow while skiing.
-My mom helped me make *delicious (raw)* sweets for Diwali.
-My *furry(curly)* cat made me sneeze.
-The *untidy (neat)* man lived on the streets near my area.
-Sangeeta is a *bright (tall)* student who does her work on time.
-Students are *happy (lazy)* when the lunch time begins in the school.
-Mumbai has *huge (deep)* skycrapers when compared to other cities.`
-      ]
-    },
-    {
-      label: 'Identify the degrees of adjectives',
-      type: 'matchByDragDrop',
-      id: 'drag-and-drop-2',
-      commonData: {
-        isPractice: false,
-        title: 'Drag and drop the appropriate adjective in the sentence.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `The lion is a *big* animal.
-The Rhinoceros is *bigger* than lion.
-The elephant is the *biggest* of three animals.
-I am a *lazy* person in my family.
-My brother is *lazier* than me.
-My dad is the *laziest* among all three.`,
-
-        `Suhani is a *clever* girl.
-Geeta is *cleverer* than Suhani. 
-Sita is the *cleverest* of all three.
-English exam was *difficult* this year.
-Social exam was *more difficult* than English.
-Math exam was *the most difficult* of all subjects.`,
-
-        `Krishna is a *tall* boy.
-Hari is *taller* than Krishna.
-Mahesh is the *tallest* boy in the class.
-My mom is a *wise* member of the family.
-My dad is *wiser* than my mom.
-My grandmother is the *wisest* of all.`,
-
-        `Teju is an *active* girl.
-Laukya is *more active* than Teju.
-Padma is the *most active* girl among three.
-China is a *big* country.
-Canada is *bigger* than China.
-Russia is the *biggest* country.`,
-
-        `Deer is a *fast* animal.
-Leopard is *faster* than Deer.
-Cheetah is the *fastest* among all three.
-October is a *cold* month.
-November is *colder* than october.
-December is the *coldest* month of the year.`,
-
-        `March is a *hot* month.
-April is *hotter* than March.
-May is the *hottest* month of the year.
-Monkeys are *small* animals.
-Rabbits are *smaller* than monkeys.
-Ants are the *smallest* of all three.`,
-
-        `Lion is a *heavy* animal.
-Crocodile is *heavier* than lion.
-Elephant is the *heaviest* among all three.
-My room is *tidy*.
-My brother's room is *tidier than mine.
-My mother's room is the *tidiest* of all three.`
-      ]
-    },
-    {
       type: 'selectWord',
-      label: 'Identify - adjective of quantity',
+      label: 'Select the Adjective of Quantity',
       id: 'select-word-1',
       commonData: {
         title: 'Select the adjective of quantity in the sentence.'
@@ -368,9 +289,9 @@ I have finished *most* of my homework.
 Mannu has *little* interest in singing.
 My sister ate the *whole* banana.`,
 
-        `Can I have *some* ice-cream today after dinner?
+        `Can I have *some* ice cream today after dinner?
 I don't need *any* help with my homework today.
-There are *many* theatres in my city. You can watch movie anywhere you want.
+There are *many* theatres in my city. You can watch a movie anywhere you want.
 I don't have *much* time for completing my science project.
 I have got very *little* water left in my water bottle.
 My sister ate the *whole* cake!
@@ -382,59 +303,31 @@ My rose plant has not grown *much* as expected.`
     },
     {
       type: 'selectWord',
-      label: 'Identify - adjective',
-      id: 'select-word-2',
+      label: 'Identify the Adjectives',
+      id: '500',
       commonData: {
-        title: 'Select the adjective in the sentence.'
+        title: 'Select the adjectives in the following sentences.',
+        multiSelect: true
       },
       data: [
-        `The girl was very *smart*.
-This is a *beautiful* garden.
-Siri is a *noisy* girl.
-Rohan lives in a *big* city.
-These are the *fresh* fruits.
-Hyderabad is a *beautiful* city.
-Charminar is an *old* monument located in Hyderabad.
-Reshma has a *pink* dress.
-My mom has a *grey* handbag.
-I saw a *white* pigeon in my balcony.`,
+        `A *good* chess player is usually *smart*.
+        One *rainy* day, my *little* cat jumped and sat on the *black* sofa and played with his *new* toy.
+        My *younger* brother was watching it play and he was *happy*.
+        Soon, my *playful* cat yawned. He was *tired*. I picked him up and put him on a *soft* bed and he slept.
+        Sita and Meera are twins. Preethi and Swapna live next door. Meera's mom packed some *tasty* snacks and water in a *big* basket.
+        The *four* friends walk to the nearby woods for a picnic. They spot an *old* tree.`,
 
-        `Neeta has *long* hair.
-This is a *funny* movie.
-This is a *huge* snake.
-I have a pair of *yellow* shoes.
-We live in a *small* village.
-My father is a *tall* man.
-My village has *narrow* roads.
-These bananas are very *raw*.
-My Grandfather sat on a *broken* chair.
-I lost my *gold* bracelet.`
-      ]
-    },
-    {
-      label: 'Identify the adjectives',
-      type: 'matchByDragDrop',
-      id: 'multi-select-word',
-      commonData: {
-        isPractice: false,
-        title: 'Select the adjectives in the passage.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `Trees are found everywhere. Some trees are *big* and some are trees *small*. 
-Some trees have *broad* leaves while some have *narrow* leaves. 
-Some trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
+        `Sita spreads the *new* mat under the tree and they all have their snacks.
+        Swapna sits on a *small* bench and watches the squirrels running up and down.
+        This is my grandmother's house. There is a *pretty* garden in front of her house.
+        There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
+        Every year we distribute these *tasty* mangoes to all our neighbours.`,
 
-        `My cousin, Ram has a *large* farm. In that farm there are many plants and animals. 
-The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
-Ram sells *fresh* fruits and vegetables in the *big* market every Sunday.`,
-
-        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in different boxes. 
-There are *forty* mangoes in *large* box and *fifteen* mangoes in *small* box.
-He sells these fruits in a *big* supermarket.`
+        `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
+        She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil
+        and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha.
+        She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix
+        and made *round* parathas with lots of butter and served hot.`
       ]
     }
   ]

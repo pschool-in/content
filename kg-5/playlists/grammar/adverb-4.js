@@ -1,14 +1,14 @@
 export default {
   id: 'adverb-4',
-  label: 'Types of Adverbs',
+  label: 'Adverb of Place, Time and Manner',
   pdf: '',
   list: [
     {
-      label: 'Adverb of degree',
+      label: 'Types of Adverb',
       type: 'passage',
       id: 'adverb-of-degree',
       data: {
-        title: 'Types of Adverbs',
+        title: 'Types of Adverb',
         text: [
           `Adverbs are classified based on 'what type' of information it adds.
           # Adverb of Manner
@@ -39,42 +39,24 @@ export default {
       }
     },
     {
-      id: 'fill-up',
-      label: 'Fill up with options',
-      type: 'fillup',
+      type: 'group',
+      label: 'Classify the Adverbs',
+      id: 'drag-and-drop',
       commonData: {
-        title: `Fill in the blanks.`
+        title: 'Classify the given Adverbs',
+        types: ['Adverb of Time', 'Adverb of Place']
       },
       data: [
-        `I *really (very)* enjoyed the ride.
-She *never (so)* completes her homework on time.
-He *almost (utmost)* gave up.
-Richa danced *extremely (politely)* well on the stage.
-That book is *very (never)* nice.
-The tea is *extremely (so)* hot.
-This book is *quite (quiet)* interesting.
-He was *just (only)* leaving.
-She has *almost (very)* completed her HW.
-You are walking *fast (almost)* enough.`,
-
-        `You *hardly (smartly)* tried.
-He is walking *too (much)* slowly.
-She has *almost (utmost)* finished her work.
-You are running fast *enough (much)*.
-You are walking *very (much)* slowly.
-The chocolates are *absolutely (many)* delicious.
-It *rarely (most)* snows in North India.
-My teacher explains *extremely (nicely)* well.
-I *almost (utmost)* dropped the pen.
-He danced *wonderfully (wonderful)*.`
+        [`Yesterday, Still, While, Soon`, `North, South, Around, Up`],
+        [`Tomorrow, Last week, When, Hourly`, `Behind, Above, Below, East`]
       ]
     },
     {
-      label: 'Classify Adverb Type',
+      label: 'Identify Adverb Type',
       type: 'classifySentence',
       id: 'classify',
       commonData: {
-        title: 'Classify the type of adverb present in the below sentence.',
+        title: 'Identify the type of adverb present in the below sentence.',
         types: ['Manner', 'Time', 'Place']
       },
       data: [
@@ -121,8 +103,39 @@ Please come forward and answer.`
       ]
     },
     {
+      id: 'fill-up',
+      label: 'Fill up with Options',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks.`
+      },
+      data: [
+        `I *really (very)* enjoyed the ride.
+She *never (so)* completes her homework on time.
+He *almost (utmost)* gave up.
+Richa danced *extremely (politely)* well on the stage.
+That book is *very (never)* nice.
+The tea is *extremely (so)* hot.
+This book is *quite (quiet)* interesting.
+He was *just (only)* leaving.
+She has *almost (very)* completed her HW.
+You are walking *fast (almost)* enough.`,
+
+        `You *hardly (smartly)* tried.
+He is walking *too (much)* slowly.
+She has *almost (utmost)* finished her work.
+You are running fast *enough (much)*.
+You are walking *very (much)* slowly.
+The chocolates are *absolutely (many)* delicious.
+It *rarely (most)* snows in North India.
+My teacher explains *extremely (nicely)* well.
+I *almost (utmost)* dropped the pen.
+He danced *wonderfully (wonderful)*.`
+      ]
+    },
+    {
       type: 'selectWord',
-      label: 'Select the adverb of manners',
+      label: 'Select All Adverbs of Manners',
       id: 'multi-select-word',
       commonData: {
         title: 'Tap on the adverb of manners in the following sentences.',
@@ -176,7 +189,7 @@ Please come forward and answer.`
     },
     {
       type: 'selectWord',
-      label: 'Select all Adverbs',
+      label: 'Select all Adverbs of Place',
       id: 'multi-select-word',
       commonData: {
         title: 'Select all Adverbs in the below sentences.',

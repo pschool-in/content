@@ -34,7 +34,7 @@ export default {
     },
     {
       type: 'selectWord',
-      label: 'Select the Word',
+      label: 'Select the Adverb',
       id: 'select-word',
       commonData: {
         title: 'Click on the adverb in the below sentence.'
@@ -126,10 +126,10 @@ He writes *quite* slowly.`
     },
     {
       type: 'group',
-      label: 'Drag and Drop',
+      label: 'Adverb vs Adjective',
       id: 'drag-and-drop',
       commonData: {
-        title: 'Identify which are adverbs of manner and which are adjectives.',
+        title: 'Classify the below words.',
         types: ['Adjective', 'Adverb']
       },
       data: [

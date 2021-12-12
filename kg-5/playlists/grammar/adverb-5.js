@@ -4,7 +4,7 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'adverb-of-frequency',
       data: {
@@ -29,7 +29,7 @@ I was <b>really</b> excited.`
     },
     {
       type: 'selectWord',
-      label: 'Select the Word',
+      label: 'Select the Adverb of Degree',
       id: 'select-word',
       commonData: {
         title: 'Tap on the adverb of degree in each sentence.'
@@ -60,7 +60,7 @@ He drove the car *very* fast.`
     },
     {
       type: 'selectWord',
-      label: 'Select the Adverb',
+      label: 'Select the Adverb of Frequency',
       id: 'select-word',
       commonData: {
         title: 'Tap on the adverb of frequency in the below sentences.'

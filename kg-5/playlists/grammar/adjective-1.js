@@ -10,18 +10,22 @@ export default {
       data: {
         title: 'Describing Words',
         text: [
-          `Describing words tell us about the noun. It describes the quality of the naming words.
-eg: `,
+          `Describing words tell us about the naming word.`,
           {
             type: 'html',
-            text: `<b>smart</b> teacher <br>
-<b>big</b> house <br>
-<b>green</b> parrot <br>
-<b>pretty</b> girl <br>
-<b>two</b> boys <br>
-<b>thundering</b> clouds <br>
-<b>soft</b> toy <br>
-<b>loving</b> parents`
+            text: `Eg:<br>
+            <b>cute</b> puppy <br>
+<b>hot</b> coffee <br>
+<b>green</b> parrot`
+          },
+          'It gives more meaning to the sentence by describing the noun.',
+          {
+            type: 'html',
+            text: `Eg:<br>
+            Hari is a boy.<br>
+            Hari is a <b>good</b> boy.<br>
+            I saw a puppy.<br>
+I saw a <b>cute</b> puppy.`
           }
         ]
       }
@@ -67,10 +71,10 @@ eg: `,
     },
     {
       type: 'selectWord',
-      label: 'Select the describing words',
+      label: 'Select the Describing Word',
       id: 'select-word',
       commonData: {
-        title: 'Tap on the describing words in these sentences.'
+        title: 'Select the adjective in the below sentences.'
       },
       data: [
         `The sky is *blue*.
@@ -98,112 +102,36 @@ The *hungry* baby was crying for his bottle.`
     },
     {
       id: 'match',
-      label: 'Match the following',
+      label: 'Match the Pairs',
       type: 'match',
       commonData: {
-        title: 'Match the pairs.'
+        title: 'Match the describing word with the related naming word.'
       },
 
       data: [
-        `Big, Elephant
-Dark, Night
-Small, Ant
-Pleasant, Weather
-Loud, Lion`,
+        `five, stars
+big, tree
+kind, girl
+true, friend
+white, milk`,
 
-        `Clean, Room
-Smart, Student
-Long, Train
-Ugly, Pig
-Round, Ball`,
+        `big, elephant
+dark, night
+small, ant
+green, light
+fresh, fruits`,
 
-        `Red, Colour
-Two, Hands
-Soft, Toy
-Fast, Horse
-Sweet, Dish`
-      ]
-    },
-    {
-      label: 'Multiple Choice Questions',
-      id: 'mcq-adjectives-1',
-      type: 'mcq',
-      commonData: {
-        title: 'Choose the correct describing words.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'Neha likes______cars.',
-              options: 'fast, the, all'
-            },
-            {
-              qText: 'I can climb_______trees.',
-              options: 'small, big, large'
-            },
-            {
-              qText: 'My mom is a______lady.',
-              options: 'pretty, bad, old'
-            },
-            {
-              qText: 'The dog found a______stick.',
-              options: 'long, smart, round'
-            },
-            {
-              qText: 'Disha caught the______ball.',
-              options: 'red, far, near'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'I love my______puppy.',
-              options: 'little, bad, slow'
-            },
-            {
-              qText: 'We went down the_______slide.',
-              options: 'long, round, steep'
-            },
-            {
-              qText: 'My little sister loves_______toys.',
-              options: 'soft, sweet, fast'
-            },
-            {
-              qText: 'The_______sun warms our house.',
-              options: 'bright, dull, small'
-            },
-            {
-              qText: 'That is an_______bug.',
-              options: 'ugly, sweet, long'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'Snowbell is a______cat.',
-              options: 'nice, dull, long'
-            },
-            {
-              qText: 'There are_________trees in the garden.',
-              options: 'beautiful, ugly, bad'
-            },
-            {
-              qText: 'My_______brother is in his room.',
-              options: 'little, bad, smart'
-            },
-            {
-              qText: 'The elephant has______ears.',
-              options: 'big, small, little'
-            },
-            {
-              qText: 'My______bicycle is purple.',
-              options: 'new, big, small'
-            }
-          ]
-        }
+        `clean, room
+smart, student
+long, train
+ugly, pig
+round, ball`,
+
+        `red, colour
+two, hands
+soft, toy
+long, hair
+sweet, mango`
       ]
     }
   ]

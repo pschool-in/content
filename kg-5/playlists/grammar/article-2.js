@@ -134,8 +134,7 @@ export default {
         an, hour, clock
         an, honest man, bad man
         a, car, owl
-        a, cherry, apple
-        `
+        a, cherry, apple`
       ]
     },
     {

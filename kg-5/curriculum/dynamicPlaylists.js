@@ -277,22 +277,17 @@ const grammar = [
     grade: 'g5'
   },
   {
-    label: 'Adverb',
-    id: 'adverb',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Adverb - 3',
+    label: 'Introduction to Adverb',
     id: 'adverb-3',
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Adverb - 4',
+    label: 'Adverb of Place, Time and Manner',
     id: 'adverb-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Adverb - 5',
+    label: 'Adverb of Degree and Frequency',
     id: 'adverb-5',
     grade: 'g4, g5'
   },
