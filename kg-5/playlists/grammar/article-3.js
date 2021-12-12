@@ -73,7 +73,7 @@ Boys are usually fond of outdoor games.`
        empty, an, a
        ant, an, a
        kite, a, an
-       european, a, an
+       European, a, an
        engine, an, a`,
 
         `year, a, an
@@ -125,7 +125,7 @@ Boys are usually fond of outdoor games.`
 
         `a, man, elephant
 a, European, Indian
-a, little, ice-cream
+a, little, ice cream
 a, year, hour
 an, island, beach
 an, honest man, clever man
@@ -165,7 +165,7 @@ an, ambulance, lorry`
         I have *a* dog and *a* parrot for pets. *The* dog is always quiet but *the* parrot is very noisy!`,
 
         `Once upon *a* time *a* woman had *an* only son whose name was Aladdin.
-One day as he was looking for wild figs out in the desert, he came across *a* dungeon.
+One day as he was looking for wild figs out in *the* desert, he came across *a* dungeon.
 Aladdin went into *the* dungeon and found *a* magic lamp.
 When Aladdin rubbed *the* magic lamp *a* Genie arrived and asked him to wish for something.
 *A* dog is *a* pet animal and is *the* most obedient animal. There are different kinds of dogs in *the* world.
@@ -229,7 +229,7 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       data: [
         `*-* man is mortal.
         Can you tell me *a* story?
-        She goes to the temple in *-* mornings.
+        She goes to *-*school every day. 
         I am fond of *-* music.
         I will go to school by *-* walk.
         Ashoka was *an* honest king.

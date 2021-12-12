@@ -13,11 +13,11 @@ export default {
   The indefinite articles "a/an" are generally used to mention some person or thing.
   These articles do not specify a particular person or a thing.
   "A" and "An" are used to introduce noun or naming words and are also used to mention singular countable nouns.
-  "a" is used before singular nouns beginning with consonant sounds.
-  "an" is used before singular nouns beginning with vowel sounds.
+  "A" is used before singular nouns beginning with consonant sounds.
+  "An" is used before singular nouns beginning with vowel sounds.
   # Definite article:
   We use definite article "the" when we are talking about a specific person or a thing.
-  "the" is used for countable and uncountable nouns/singular and plural nouns.`
+  "The" is used for countable and uncountable nouns/singular and plural nouns.`
       }
     },
     {
@@ -52,7 +52,7 @@ export default {
         bench, a, an
         bat, a, an
         tiger, a, an
-        ice-cream, an, a
+        ice cream, an, a
         lemon, a, an
         house, a, an`,
 
@@ -87,7 +87,7 @@ export default {
         football, a, an
         panda, a, an
         mouse, a, an
-        ice-cream,an, a`
+        ice cream,an, a`
       ]
     },
     {
@@ -126,7 +126,7 @@ export default {
         an, eye, head`,
 
         `an, umbrella, cat
-        an, ice-cream, pot
+        an, ice cream, pot
         an, engineer, pen
         a, toy, eagle
         an, accident, ring
@@ -148,9 +148,9 @@ export default {
         `I had *an* egg for breakfast.
         My son wants to be *an* architect.
         Cheetah is *the* fastest land animal.
-        My dad is *a* professor at the University.
+        My dad is *a* Zoology professor.
         My son has *a* big world map in his room.
-        There is *an* orange in the fridge.
+        There is *an* orange in my bag.
         Did you read *the* book I gave you?
         Manish was *the* first to arrive in class.
         I have *a* little white kitten.
@@ -166,7 +166,7 @@ export default {
             *The* music is playing on *the* TV.
             There is *a* dog in *the* yard.
             I saw *an* owl on *the* branch.
-            The teacher read *a* story in *the* class.
+            *The* teacher read *a* story in *the* class.
             There is *a* beehive on *the* neem tree.
             He gave me *a* call in *the* evening.`
         }
@@ -197,7 +197,7 @@ export default {
           Aladdin had *a* magic lantern.
           I saw *a* big lion at the zoo.
           She has written *a* story.
-          I saw *a* Peacock in KBR park today.
+          I saw *a* peacock in KBR park today.
           I have *an* inkpot on my study table.
           It is *an* ancient fort in Hyderabad.
           I am *a* pilot.
@@ -255,7 +255,7 @@ export default {
 
         `I am *a* school student.
         He is *the* best student in the class.
-        *the* camel is the ship of the desert.
+        *The* camel is the ship of the desert.
         This book has won *the* Noble Prize.
         Please inform me about *the* next exam.
         Gold is *a* precious metal.
@@ -266,7 +266,7 @@ export default {
         `I want *an* apple from that basket.
         The church on *the* corner is open.
         Are you coming to *the* party next Saturday?
-         I bought *a* new TV set yesterday
+         I bought *a* new TV set yesterday.
         I think *the* man over there is very ill.
         I watched *the* video you had sent me.
         She was wearing *an* ugly dress when she met him.

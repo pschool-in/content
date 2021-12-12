@@ -118,7 +118,6 @@ export default {
         swan, அன்னப்பறவை
         spotted-dove, மணிப்புறா
         robin, கருஞ்சிட்டு
-        swallow,  தகைவிலாங்குருவி
         seagull, கடற்பறவை`,
 
         `falcon, பருந்து
@@ -477,7 +476,7 @@ export default {
         dhol, மத்தளம்
         flute, புல்லாங்குழல்
         tabla, தபேலா
-        violin, நரம்பிசைக்கருவி
+        violin, வயலின் 
         yazl, யாழ்
         damaru, உடுக்கை`
       }

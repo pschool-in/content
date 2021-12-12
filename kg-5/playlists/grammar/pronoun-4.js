@@ -11,16 +11,20 @@ export default {
         title: 'Reflexive Pronounoun',
         text: `The words ending in -self(singular) and -selves (plural) that are used when the subject and the object of the sentence are the same are called reflexive pronouns. They tell us the doer and the receiver of the action is the same person.
 In simple terms, reflexive pronouns tell us that someone is doing something on his/her own.
+
+Example: She made herslef a cup of tea.
+
 Here in this sentence - she(doer) made herself(receiver) a cup of tea, the reflexive pronoun herself refers back to she. That means a person who does the action and receives it is the same.
+
 Examples of reflexive pronouns in singular and plural forms are:
 Singular: yourself, himself, herself, itself, myself
-Plural: yourselves, ourselves(we), themselves(they)
+Plural: yourselves, ourselves (we), themselves (they)
 Sentence based examples of reflexive pronouns:
 1. She bought herself a new dress.
 2. They are doing the homework by themselves.
 3. Don't hurt yourselves while playing.
 4. Rekha cleaned her room by herself.
-5. He went to the market byhimself.`
+5. He went to the market by himself.`
       }
     },
     {
@@ -205,17 +209,17 @@ The dog let *itself* into our room.`
         multiSelect: true
       },
       data: [
-        `*This* book is *mine*. I read the whole book all by *myself*. I like *this* book.
-*That* is my father. *This* car is *his*. I washed it all by *myself*.
-My dad gave me *this* map. He told me it was *his*. I need to find directions by *myself*.
-He wanted to impress the teacher. So, he baked the cake by *himself*. The recipe was *mine*.
-*Those* bags are *hers*. She goes shopping all by *herself*.`,
+        `*This* book is *mine*. *I* read the whole book all by *myself*. *I* like *this* book.
+*That* is my father. *This* car is *his*. *I* washed *it* all by *myself*.
+My dad gave *me* *this* map. *He* told *me* *it* was *his*. *I* need to find directions by *myself*.
+*He* wanted to impress the teacher. So, *he* baked the cake by *himself*. The recipe was *mine*.
+*Those* bags are *hers*. *She* goes shopping all by *herself*.`,
 
-        `We don't like to go out for dinner. We cook dinner by *ourselves*.
-*This* brush is *mine*. I stare at *myself* in the mirror while brushing.
-*This* garage is *mine*. Me and my dad painted it *ourselves*.
-The children love holidays. *They* buy all the new things for *themselves*. *That* time is their favourite.
-Prateek is very lazy. He copied his friend's project instead of doing it *himself*.`
+        `*We* don't like to go out for dinner. *We* cook dinner by *ourselves*.
+*This* brush is *mine*. *I* stare at *myself* in the mirror while brushing.
+*This* garage is *mine*. *Me* and my dad painted *it* *ourselves*.
+The children love holidays. *They* buy all the new things for *themselves*. *That* time is *their* favourite.
+Prateek is very lazy. *He* copied *his* friend's project instead of doing *it* *himself*.`
       ]
     }
   ]
