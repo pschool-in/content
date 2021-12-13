@@ -34,7 +34,7 @@ It is used to express the noun's position as near or far. It is also used to tal
 It tells us about, to whom something or someone belongs to.`,
           {
             type: 'html',
-            text: `Eg: <br>
+            text: `Eg:<br>
 <b>their</b> room <br>
 <b>my</b> uncle <br>
 <b>our</b> farm`
