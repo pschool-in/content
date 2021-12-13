@@ -18,7 +18,7 @@ Adjectives usually come before nouns and make them more specific.`,
             text: `Eg:<br>
 It is a <b>big</b> tree.<br>
 Manish is a <b>smart</b> boy.<br>
-My sister has <b>long</b> hairs.<br><br>
+My sister has <b>long</b> hair.<br><br>
 The words <b>big</b>, <b>smart</b>, <b>long</b> are called adjectives.<br><br>
 Sometimes, adjective comes after the noun.<br>
 Eg:<br>
@@ -88,7 +88,7 @@ We live in a *small* village.
 My father is a *tall* man.
 My village has *narrow* roads.
 These bananas are very *raw*.
-My Grandfather sat on a *broken* chair.
+My grandfather sat on a *broken* chair.
 I lost my *gold* bracelet.`
       ]
     },
@@ -141,7 +141,7 @@ red, rose`
       label: 'Match Opposites',
       type: 'match',
       commonData: {
-        title: 'Match the adjectives with with it opposites.'
+        title: 'Match the adjectives with their opposites.'
       },
       data: [
         `old, new
@@ -233,7 +233,7 @@ These bananas are *sweet (sour)*.`
         text: `Sita was a *young* girl. She lived in a *small* village in karnataka. 
 One day, on a *cloudy* morning, she went for a walk into the nearby fields.
 She was wearing a *white* frock and a red ribbon. After sometime, she came across a hut. 
-It was a *small* hut but was *warm* inside. Sita was feeling *tired*. 
+It was a small hut but was *warm* inside. Sita was feeling *tired*. 
 So, she went inside the hut and slept on the cot.
 Soon a *loud* bang on the door woke her up!`
       }
