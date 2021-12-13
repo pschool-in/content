@@ -61,15 +61,15 @@ I know very *little* about folk songs.
 Add *some* sugar to the tea.`
         ],
         [
-          `I took *some* chalkpieces from the desk.
-Priya has *little* interest in reading the story books.
-We spent *few* hours planning for the birthday party.
-*Many* people visit Tirupathi every day.`,
-
           `Meera has a *brown* cat as a pet.
-Our math teacher is an *old* women who teaches excellently.
+Our math teacher is an *old* woman who teaches excellently.
 Prakash is a *clever* boy in the class.
-My mom made *tasty* jalebis for the party.`
+My mom made *tasty* jalebis for the party.`,
+
+          `I took *some* chalk pieces from the desk.
+Priya has *little* interest in reading storybooks.
+We spent *few* hours planning for the birthday party.
+*Many* people visit Tirupathi every day.`
         ]
       ]
     },
@@ -244,7 +244,7 @@ danger, unsafe`
       },
       data: [
         `He is a *short* boy.
-She wore a *beautiful* dress.
+She wore a *cotton* dress.
 She bought a *big* kite.
 I saw a *green* parrot in the zoo.
 There is a *black* board in my classroom.
