@@ -66,7 +66,7 @@ We're going to the park in the evening, <b>so</b> I'll take a nap in the noon.`
       label: 'And, Or, But',
       type: 'fillup',
       data: {
-        title: `Click on the blanks and pick the correct connecting word.`,
+        title: "Click on the blanks and pick the correct connecting word.",
         text: `I wanted to wash my shoes, *but* I forgot to do it.
 I bought a sandwich *and* coffee for lunch.
 Her name is Priya *or* Maya.
@@ -76,15 +76,17 @@ My mom is either in the kitchen *or* in the garden.
 I spent an hour *or* so cleaning my room.
 He switched off the light *and* went to bed.
 He has a ball *but* not a bat.
-Please bring a paper *and* a pencil.`
+Please bring a paper *and* a pencil.`,
+        options: 'and, but, or'
       }
     },
-    {
+   {
       id: 'so-because',
       label: 'So vs Because',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and fill it with the correct options.`
+        title: "Click on the blanks and fill it with the correct options.",
+        options: 'so, because'
       },
       data: [
         `I cannot go out *because* it is raining.
