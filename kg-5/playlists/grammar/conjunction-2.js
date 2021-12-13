@@ -4,30 +4,30 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Conjunction - 2',
+      label: 'Notes',
       type: 'passage',
-      id: 'conjunction-2-reading',
+      id: 'notes',
       data: {
         title: 'Conjunctions',
         text: [
           `A conjuction is a word that is used for joining other words, phrases or sentences.
-          # and, or, but
-          'and' means 'also', 'added to'
-          'or' means  'any one of the two'
-          'but' is used to say something opposite.`,
+# and, or, but
+'and' means 'also', 'added to'
+'or' means  'any one of the two'
+'but' is used to say something opposite.`,
           {
             type: 'hilight',
             text: `I like coffee and tea.
-          I like to have coffee or tea.
-          I don't like coffee, but I like tea.`
+I like to have coffee or tea.
+I don't like coffee, but I like tea.`
           },
           `# So vs Because
-          'Because' is used to explain the reason for the first event.
-          'So' is used to explain the result of the first event.`,
+'Because' is used to explain the reason for the first event.
+'So' is used to explain the result of the first event.`,
           {
             type: 'hilight',
             text: `I cannot go out because it is raining.
-          It was raining so I got wet.`
+It was raining so I got wet.`
           },
           {
             type: 'html',
@@ -217,26 +217,26 @@ My parents love me a lot.`
       },
       data: [
         `I like drawing, and painting, so painting
-        She is smart, but rude, so rude
-        I am late, so won't come, but won't come
-        We can eat, or drink, but drink
-        We can walk, or run, so run
-        I will listen, and write, but write
-        I like tea, and coffee, so coffee
-        He is poor, but honest, so honest
-        I came early, so cleaned my desk, or cleaned my desk
-        I love pizza, but not chips, so not chips`,
+She is smart, but rude, so rude
+I am late, so won't come, but won't come
+We can eat, or drink, but drink
+We can walk, or run, so run
+I will listen, and write, but write
+I like tea, and coffee, so coffee
+He is poor, but honest, so honest
+I came early, so cleaned my desk, or cleaned my desk
+I love pizza, but not chips, so not chips`,
 
         `Mom is working, or cooking, so cooking
-        Ram, and Shaam, so Shaam
-        I read stories, and novels, but novels
-        She is tired, but her homework is left, so her homework is left
-        He goes for running, or cycling, but cycling
-        I woke up early, so helped my mom, but helped my mom
-        I will go to Delhi, or Mumbai, so Mumbai
-        Cats, and dogs are pets, or dogs are pets
-        I like cats, but he likes dogs, so he likes dogs
-        It is raining, so we are at home, but we are at home`
+Ram, and Shaam, so Shaam
+I read stories, and novels, but novels
+She is tired, but her homework is left, so her homework is left
+He goes for running, or cycling, but cycling
+I woke up early, so helped my mom, but helped my mom
+I will go to Delhi, or Mumbai, so Mumbai
+Cats, and dogs are pets, or dogs are pets
+I like cats, but he likes dogs, so he likes dogs
+It is raining, so we are at home, but we are at home`
       ]
     }
   ]

@@ -6,19 +6,19 @@ export default {
     {
       label: 'Notes',
       type: 'passage',
-      id: 'adverb-of-frequency',
+      id: 'passage',
       data: {
         title: 'Types of Adverbs',
         text: [
           `# Adverb of Frequency
-          It tells 'how often' something happens.`,
+It tells 'how often' something happens.`,
           {
             type: 'html',
             text: `I <b>always</b> wake up at 6 o'clock.<br>
 I <b>rarely</b> watch TV.`
           },
           `# Adverb of Degree
-          It tells 'how much' or 'to what extent'.`,
+It tells 'how much' or 'to what extent'.`,
           {
             type: 'html',
             text: `I <b>totally</b> agree with you.<br>
@@ -61,7 +61,7 @@ He drove the car *very* fast.`
     {
       type: 'selectWord',
       label: 'Select the Adverb of Frequency',
-      id: 'select-word',
+      id: 'select-word-2',
       commonData: {
         title: 'Tap on the adverb of frequency in the below sentences.'
       },
@@ -100,7 +100,7 @@ I take a bath *daily*.`
     {
       type: 'group',
       label: 'Drag and Drop',
-      id: 'drag-and-drop',
+      id: 'group',
       commonData: {
         title: 'Identify if these words are adverbs of frequency or not.',
         types: ['Adverb of Frequency', 'Not So']
@@ -168,7 +168,7 @@ I am not *entirely* sure what homework the teacher gave us. I was *slightly* dis
     {
       type: 'selectWord',
       label: 'Select the adverb of frequency',
-      id: 'multi-select',
+      id: 'multi-select-2',
       commonData: {
         title: 'Tap on all the adverbs of frequency.',
         multiSelect: true
@@ -214,7 +214,7 @@ The teacher said that she'll clear my doubt *later*. I can come back in *sometim
     {
       label: 'Classify Adverb Type',
       type: 'classifySentence',
-      id: 'classify2',
+      id: 'classify-2',
       commonData: {
         title: 'Classify the type of adverb present in the below sentence.',
         types: ['Frequency', 'Degree']

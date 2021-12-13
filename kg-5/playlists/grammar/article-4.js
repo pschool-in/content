@@ -11,10 +11,10 @@ export default {
         title: 'Article - Quantifiers',
         text: [
           `The usage of article before words like 'few' or 'little' changes the meaning of the sentence.
-          I have few candies, so I am not sharing with you.
-          I have a few candies and I can share it with you.
-          There is little chance for rain today. So no need to bring an umbrella.
-          There is a little chance for rain today. So please bring an umbrella.`
+I have few candies, so I am not sharing with you.
+I have a few candies and I can share it with you.
+There is little chance for rain today. So no need to bring an umbrella.
+There is a little chance for rain today. So please bring an umbrella.`
         ]
       }
     },
@@ -60,48 +60,48 @@ There are *a few (few)* tables in the auditorium which are vacant.`
       },
       data: [
         `I met *a* friend in the store.
-      He ate *an* orange for his breakfast.
-      I have *a* pet cat.
-      My dad bought me *an* iPad yesterday.
-      Mrs.Bhavani is *the* principal of our college.
-      *The(A,An)* Ganges flows from *the (a, an)* Himalayas.
-      There is *a* eucalyptus tree near my building.
-      Manvi is *a* small village in Karnataka.
-      I like to have *a* cup of coffee.
-      *The (An, A)* building on the corner is under construction.`,
+He ate *an* orange for his breakfast.
+I have *a* pet cat.
+My dad bought me *an* iPad yesterday.
+Mrs.Bhavani is *the* principal of our college.
+*The(A,An)* Ganges flows from *the (a, an)* Himalayas.
+There is *a* eucalyptus tree near my building.
+Manvi is *a* small village in Karnataka.
+I like to have *a* cup of coffee.
+*The (An, A)* building on the corner is under construction.`,
 
         `It is better to tell *the* truth.
-      India is *a* country.
-      Lakshadweep is *an* island.
-      He arrived *an* hour later.
-      Which bike do you like? *The (A, An)* blue one?
-      Pass me *the* slice of bread.
-      I saw *an* eagle flying near my fields.
-      *The (A, An)* Tajmahal is in Agra.
-      My mom bought *a* pair of jeans and a shirt.
-      There is *an* umbrella in my bag.`,
+India is *a* country.
+Lakshadweep is *an* island.
+He arrived *an* hour later.
+Which bike do you like? *The (A, An)* blue one?
+Pass me *the* slice of bread.
+I saw *an* eagle flying near my fields.
+*The (A, An)* Tajmahal is in Agra.
+My mom bought *a* pair of jeans and a shirt.
+There is *an* umbrella in my bag.`,
 
         `He is *an* honest man.
-      His wife is *an* American.
-      My brother acted in *a* movie.
-      *The (A, An)* laptop that I have is not very expensive.
-      Rohit bought *a* cup of tea.
-      Copper is *an* useful metal.
-      He gave me *an* inkpot and *a* pen.
-      *The (A, An)* rose is a beautiful flower.
-      I saw *a* baby hippo in *the* zoo.
-      I saw *an* anthill in my garden.`,
+His wife is *an* American.
+My brother acted in *a* movie.
+*The (A, An)* laptop that I have is not very expensive.
+Rohit bought *a* cup of tea.
+Copper is *an* useful metal.
+He gave me *an* inkpot and *a* pen.
+*The (A, An)* rose is a beautiful flower.
+I saw *a* baby hippo in *the* zoo.
+I saw *an* anthill in my garden.`,
 
         `Reading is *a* good habit.
-      *The (A, An)* school will remain closed for two days.
-      My sister is *an* English teacher.
-      She bought *an* orange dress.
-      My husband is *a* doctor.
-      My neighbour bought *a* new car.
-      *The (A, An)* Birla planetarium is located in Hyderabad.
-      My dad is *an* engineer.
-      Adi's brother bought *a* new bicycle.
-      Are you coming to *the* library tomorrow?`
+*The (A, An)* school will remain closed for two days.
+My sister is *an* English teacher.
+She bought *an* orange dress.
+My husband is *a* doctor.
+My neighbour bought *a* new car.
+*The (A, An)* Birla planetarium is located in Hyderabad.
+My dad is *an* engineer.
+Adi's brother bought *a* new bicycle.
+Are you coming to *the* library tomorrow?`
       ]
     },
     {
@@ -115,32 +115,32 @@ There are *a few (few)* tables in the auditorium which are vacant.`
       },
       data: [
         `Once upon *a* time, there was *a* little girl called Meera. She lived in *a* village with her parents.
-      *The (An, A)* village was near *a* sea. Meera had *an* aunt who lived near her house.
-      One day *a* man came to *the* village with *an* elephant. He took *the* children for *a* ride on *the* elephant.
-      *The (An, A)* children enjoyed *the* ride and had lots of fun.
-      Abhi and his dad went fishing one day. Abhi took *the* fishing rod and his dad took some worms.
-      They got on *a* small boat and set for a sail. Abhi's dad drove *the* boat.`,
+*The (An, A)* village was near *a* sea. Meera had *an* aunt who lived near her house.
+One day *a* man came to *the* village with *an* elephant. He took *the* children for *a* ride on *the* elephant.
+*The (An, A)* children enjoyed *the* ride and had lots of fun.
+Abhi and his dad went fishing one day. Abhi took *the* fishing rod and his dad took some worms.
+They got on *a* small boat and set for a sail. Abhi's dad drove *the* boat.`,
 
         `He knows where to find *the* fish. Abhi liked *the* boat ride.
-      Abhi put *a* worm on *the* hook of *the* fishing rod and put it in water.
-      He felt *the* pole pull but when he reeled back *the* rod it was not *a* fish but *an* old can.
-      Ram went on *a* trip with his parents to Nepal. This was Ram's first plane trip. They took *a* cab to *the* airport.
-      Ram got down from *the* cab and was amazed to see *the* big and beautiful airport.
-      Ram boarded *the* plane and found his seat and buckled his seat belt.`,
+Abhi put *a* worm on *the* hook of *the* fishing rod and put it in water.
+He felt *the* pole pull but when he reeled back *the* rod it was not *a* fish but *an* old can.
+Ram went on *a* trip with his parents to Nepal. This was Ram's first plane trip. They took *a* cab to *the* airport.
+Ram got down from *the* cab and was amazed to see *the* big and beautiful airport.
+Ram boarded *the* plane and found his seat and buckled his seat belt.`,
 
         `*The(An, A)* plane's engines rumbled and roared! *The(An, A)* plane moved faster and faster and then - whoosh!
-      On *the* ground, cars and houses looked like toys. Ram had great fun on this trip.
-      One day *a* hunter set *a* net to catch *the* birds. He placed grains and rice over *the* net.
-      After some time *a* flock of pigeons started eating *the* grains and got caught in *the* net.
-      They tried to free themselves but could not. Then their leader asked them to fly together up in *the* sky.
-      So, they flew along with *the* net and reached their friend's home. Their friend was *a* mouse.`,
+On *the* ground, cars and houses looked like toys. Ram had great fun on this trip.
+One day *a* hunter set *a* net to catch *the* birds. He placed grains and rice over *the* net.
+After some time *a* flock of pigeons started eating *the* grains and got caught in *the* net.
+They tried to free themselves but could not. Then their leader asked them to fly together up in *the* sky.
+So, they flew along with *the* net and reached their friend's home. Their friend was *a* mouse.`,
 
         `*The(An, A)* mouse cut *the* net and freed the pigeons.
-      Once upon *a* time, there lived two friends. One day they were crossing *the* jungle.
-      After some time they found *a* giant bear coming towards them.
-      Then, one of *the* friends quickly climbed *the* tree but *the* other friend did not know how to climb *a* tree.
-      So he lay on *the* ground holding his breath. *The* bear approached *the* friend and sniffed him.
-      After some time *the* bear left thinking *the* man was dead.`
+Once upon *a* time, there lived two friends. One day they were crossing *the* jungle.
+After some time they found *a* giant bear coming towards them.
+Then, one of *the* friends quickly climbed *the* tree but *the* other friend did not know how to climb *a* tree.
+So he lay on *the* ground holding his breath. *The* bear approached *the* friend and sniffed him.
+After some time *the* bear left thinking *the* man was dead.`
       ]
     },
     {
@@ -153,48 +153,48 @@ There are *a few (few)* tables in the auditorium which are vacant.`
       },
       data: [
         `Do you know how to play *the* keyboard?
-        This is my best friend *-* Vamshi.
-        My mother is *a* doctor.
-        My brother is *an* author.
-        Cow is *a* domestic animal.
-        Riyaan wanted *a* new watch for his birthday.
-        All students must obey *the* rules of the school.
-        My mom is *an* MBA graduate.
-        My teacher read *an* interesting story from today's newspaper.
-        Mrs. Sunita is *an* excellent teacher.`,
+This is my best friend *-* Vamshi.
+My mother is *a* doctor.
+My brother is *an* author.
+Cow is *a* domestic animal.
+Riyaan wanted *a* new watch for his birthday.
+All students must obey *the* rules of the school.
+My mom is *an* MBA graduate.
+My teacher read *an* interesting story from today's newspaper.
+Mrs. Sunita is *an* excellent teacher.`,
 
         `*The (An, A, -)* sun shines brightly.
-        One of my cousins is *an* engineer.
-        My son wants to be *a* scientist.
-        Do you have *a* passport?
-        My grandmother is as wise as *an* owl.
-        We have *an* exam tomorrow.
-        My parents waited *an* hour in the railway station.
-        I don't like *-* dogs, but I like my sister's dog.
-        Sumitra's father is *an* advocate.
-        Ravi met with *an* accident yesterday.`,
+One of my cousins is *an* engineer.
+My son wants to be *a* scientist.
+Do you have *a* passport?
+My grandmother is as wise as *an* owl.
+We have *an* exam tomorrow.
+My parents waited *an* hour in the railway station.
+I don't like *-* dogs, but I like my sister's dog.
+Sumitra's father is *an* advocate.
+Ravi met with *an* accident yesterday.`,
 
         `There is a spider on *the* roof.
-        Karthik can play *the* guitar.
-        *The (-, An, A)* AC has stopped working.
-        Please open *the* window.
-        She is *an* architect.
-        He can play *the* flute.
-        *The (-, An, A)* Himalayas lie in the North of India.
-        Sanskrit is *a* difficult language.
-        The children found *an* egg in the bird's nest.
-        * - (The, An, A)* Mount Everest is the highest mountain peak in the world.`,
+Karthik can play *the* guitar.
+*The (-, An, A)* AC has stopped working.
+Please open *the* window.
+She is *an* architect.
+He can play *the* flute.
+*The (-, An, A)* Himalayas lie in the North of India.
+Sanskrit is *a* difficult language.
+The children found *an* egg in the bird's nest.
+* - (The, An, A)* Mount Everest is the highest mountain peak in the world.`,
 
         `Pandas and * - (a)* tigers are both endangered animals.
-        *The (-)* school is closed today.
-        May I have your *- (the)* phone number.
-        * - (The)* Milk is good for your health.
-        Let's go and play *- (a)* cricket.
-        Chess is *an (-)* indoor game.
-        We are learning * - (the)* Telugu.
-        Listen! Vamshi is playing *the (an)* piano.
-        Mahita enjoys eating * - (a)* cakes.
-        My sister is in *the (-)* classroom.    `
+*The (-)* school is closed today.
+May I have your *- (the)* phone number.
+* - (The)* Milk is good for your health.
+Let's go and play *- (a)* cricket.
+Chess is *an (-)* indoor game.
+We are learning * - (the)* Telugu.
+Listen! Vamshi is playing *the (an)* piano.
+Mahita enjoys eating * - (a)* cakes.
+My sister is in *the (-)* classroom.    `
       ]
     },
     {

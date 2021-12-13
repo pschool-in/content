@@ -4,12 +4,12 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Conjunction - 1',
+      label: 'Notes',
       type: 'passage',
-      id: 'conjunction-1-reading',
+      id: 'notes',
       data: {
         title: 'Joining Words',
-        text: `Joining words are used to join two or more words and sentences. The two common joining words are 'and' and 'but'.
+        text: `Joining words are used to join two or more words or sentences. The two common joining words are 'and' and 'but'.
 'And' is used when we are adding something to our statement. For example,
 1. I like to play and eat.
 2. I don't like spinach and guava.
@@ -29,26 +29,26 @@ export default {
       },
       data: [
         `I want to go, *but (and)* it is too far.
-        We washed the clothes, *and (but)* we put them in sunlight.
-        I know Richa, *but (and)* I don't know her friend.
-        Rahul got ready, *but (and)* he forgot his watch.
-        I will eat lunch *and (but)* watch TV.
-        My mom is cooking *and (but)* helping me with HW.
-        I like chocolates, *but (and)* I'm not allowed to eat.
-        My dad is working, *but (and)* he doesn't want to.
-        This is good, *but (and)* it could be better.
-        My sister is yawning, *but (and)* not sleeping.`,
+We washed the clothes, *and (but)* we put them in sunlight.
+I know Richa, *but (and)* I don't know her friend.
+Rahul got ready, *but (and)* he forgot his watch.
+I will eat lunch *and (but)* watch TV.
+My mom is cooking *and (but)* helping me with HW.
+I like chocolates, *but (and)* I'm not allowed to eat.
+My dad is working, *but (and)* he doesn't want to.
+This is good, *but (and)* it could be better.
+My sister is yawning, *but (and)* not sleeping.`,
 
         `Rohan likes flowers *and (but)* green plants.
-        I baked the cookies, *but (and)* they taste very bad.
-        He is coming to the party *and (but)* he's bringing gifts.
-        The bus arrived *but (and)* it was late.
-        I put on my sweater *and (but)* muffler.
-        Maahi goes to the shop every day *and (but)* buys candies.
-        My mom gave me a watch *but (and)* I wanted a video game.
-        The teacher gives homework *but (and)* most students don't do it.
-        Priya lives in the city *and (but)* visits her grandma every Sunday.
-        She plays *and (but)* walks in the park.`
+I baked the cookies, *but (and)* they taste very bad.
+He is coming to the party *and (but)* he's bringing gifts.
+The bus arrived *but (and)* it was late.
+I put on my sweater *and (but)* muffler.
+Maahi goes to the shop every day *and (but)* buys candies.
+My mom gave me a watch *but (and)* I wanted a video game.
+The teacher gives homework *but (and)* most students don't do it.
+Priya lives in the city *and (but)* visits her grandma every Sunday.
+She plays *and (but)* walks in the park.`
       ]
     },
     {
@@ -101,32 +101,32 @@ I like reading books *and* eating vegetables.`
       data: [
         [
           `Brush your teeth and put on your pajamas.
-          She likes football but I like cricket.
-          I will go to the school and meet my friends.
-          I don't want to eat dal and rice.`,
+She likes football but I like cricket.
+I will go to the school and meet my friends.
+I don't want to eat dal and rice.`,
 
           `My name is Raj.
-          I have to complete my homework by evening.
-          Neha is going to Mumbai on Sunday.
-          The Prime Minister will go abroad for meetings.`
+I have to complete my homework by evening.
+Neha is going to Mumbai on Sunday.
+The Prime Minister will go abroad for meetings.`
         ],
         [
           `The school is closed but it will be open tomorrow.
-          I want more chocolate but there isn't any left.
-          Deepika is sitting and reading a book.`,
+I want more chocolate but there isn't any left.
+Deepika is sitting and reading a book.`,
 
           `He is a very intelligent boy.
-          She always comes first in class.
-          Dogs like playing fetch games.`
+She always comes first in class.
+Dogs like playing fetch games.`
         ],
         [
           `Dad wants more sweet but there's none left.
-          The trees and plants have lots of leaves.
-          We get milk from cows and buffalos.`,
+The trees and plants have lots of leaves.
+We get milk from cows and buffalos.`,
 
           `I drink a glass of milk every day.
-          We should keep our room clean.
-          We have a blackboard in the class.`
+We should keep our room clean.
+We have a blackboard in the class.`
         ]
       ]
     },
@@ -142,26 +142,26 @@ I like reading books *and* eating vegetables.`
       },
       data: [
         `I like apples, and bananas, but bananas
-        Raj is running, but I like to walk, and I like to walk
-        Bees can fly, and sting, but sting
-        He bought grapes, but did not eat them, and did not eat them
-        She likes tea, and juice, but juice
-        He doesn't like me, and my friend, but my friend
-        I love dogs, but can't pet one, and can't pet one
-        I have a tricycle, but I like bicycles, and I like bicycles
-        The car is grey, and fast, but fast
-        It is my playtime, but I'm sleepy, and I'm sleepy`,
+Raj is running, but I like to walk, and I like to walk
+Bees can fly, and sting, but sting
+He bought grapes, but did not eat them, and did not eat them
+She likes tea, and juice, but juice
+He doesn't like me, and my friend, but my friend
+I love dogs, but can't pet one, and can't pet one
+I have a tricycle, but I like bicycles, and I like bicycles
+The car is grey, and fast, but fast
+It is my playtime, but I'm sleepy, and I'm sleepy`,
 
         `She said thank you, and she left, but she left
-        We run, and play, but play
-        He studies hard, and comes first, but comes first
-        Raj likes pizza, and I like pasta, but I like pasta
-        I want to play outside, but it's raining, and it's raining
-        Mom washed my clothes, but they're still dirty, and they're still dirty
-        Eggs boil, and float, but float
-        I have videogames, but my friends like to play outside, and my friends like to play outside
-        I am sick, and not going to school, but not going to school
-        He practiced a lot, but did not win, and did not win`
+We run, and play, but play
+He studies hard, and comes first, but comes first
+Raj likes pizza, and I like pasta, but I like pasta
+I want to play outside, but it's raining, and it's raining
+Mom washed my clothes, but they're still dirty, and they're still dirty
+Eggs boil, and float, but float
+I have videogames, but my friends like to play outside, and my friends like to play outside
+I am sick, and not going to school, but not going to school
+He practiced a lot, but did not win, and did not win`
       ]
     }
   ]

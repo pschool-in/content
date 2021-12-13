@@ -11,17 +11,17 @@ export default {
         title: 'Pronouns',
         text: [
           `Pronouns are words used in the place of nouns, to avoid repetition of nouns.
-          Eg: I, he, she, we, me, us, her, him, they, them`,
+Eg: I, he, she, we, me, us, her, him, they, them`,
           '# Personal Pronouns',
           `They are used to indicate a specific or group of people or things.`,
           `A personal pronoun can be used as subject or object in a sentence. In the below word pairs, the first one is used as subject and the second one is used as object.`,
           {
             type: 'hilight',
             text: `I , me
-                we, us
-                she, her
-                he, him
-                they, them`
+we, us
+she, her
+he, him
+they, them`
           },
           `'You' is used both subject and object.`,
           '# Possesive Pronouns',
@@ -33,15 +33,15 @@ export default {
           {
             type: 'hilight',
             text: `He cuts himself while chopping the vegetables.
-            I don't trust myself in tough times.`
+I don't trust myself in tough times.`
           },
           `# Emphatic Pronouns`,
           `They are used to put emphasis on the subject. So usually they follow the subject.`,
           {
             type: 'hilight',
             text: `She herself cooked the food.
-            I myself saw him.
-            He himself cut the cake.`
+I myself saw him.
+He himself cut the cake.`
           }
         ]
       }
@@ -97,20 +97,20 @@ Congratulations! *You* are such a good dancer.
       },
       data: [
         `*I* am very happy.
-        *She* is going home.
-        *He* is playing.
-        *They* are nice people.
-        Ravi is playing with *him*.
-        Do not touch the water. *It* is hot.
-        *I* am waiting for the train.
-        The teacher thinks that *he* is a smart boy.
-        My mom told my brother that *she* is a good dancer.`,
+*She* is going home.
+*He* is playing.
+*They* are nice people.
+Ravi is playing with *him*.
+Do not touch the water. *It* is hot.
+*I* am waiting for the train.
+The teacher thinks that *he* is a smart boy.
+My mom told my brother that *she* is a good dancer.`,
 
         `Please give the pen to *me*.
-        *I* am sitting on the chair.
-        The guests arrived while *we* were watching the cricket match.
-        Are *you* from Hyderabad?
-        *It* is an amazing movie.`
+*I* am sitting on the chair.
+The guests arrived while *we* were watching the cricket match.
+Are *you* from Hyderabad?
+*It* is an amazing movie.`
       ]
     },
     {
@@ -156,15 +156,15 @@ Have they taken permission from them?`
     {
       type: 'match',
       label: 'Match the Pairs',
-      id: 'complete-word',
+      id: 'match-pair',
       data: {
         lang: 'en',
         title: 'Match the pronouns that have same meaning.',
         text: `I, Me
-          He, Him
-          She, Her
-          They, Them
-          We, Us`
+He, Him
+She, Her
+They, Them
+We, Us`
       }
     },
     {
@@ -200,7 +200,7 @@ We use 'those' when pointing to more than one person, place, animal or thing (pl
     {
       type: 'selectWord',
       label: 'Select the Pronoun',
-      id: 'select-word',
+      id: 'select-word-2',
       data: {
         title: 'Select all the pronouns present in the below text.',
         multiSelect: true,

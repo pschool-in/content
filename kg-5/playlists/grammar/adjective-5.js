@@ -11,7 +11,7 @@ export default {
         title: 'Order of Adjective',
         text: [
           `Very often we use more than one adjective with the noun. In that case, the order
-        of adjective is very important.`,
+of adjective is very important.`,
           {
             type: 'html',
             text: `Eg: <br>
@@ -22,7 +22,7 @@ nine red balls : correct <br>
 red nine balls : incorrect`
           },
           `Given below is the order of adjectives:
-          1. number
+1. number
 2. opinion
 3. appearance (size, shape)
 4. age
@@ -35,8 +35,8 @@ red nine balls : incorrect`
           {
             type: 'html',
             text: `<b>A strange, little, yellow</b> leaf. Here the arrangement of the adjectives is as
-  follows: <b>a</b> is an article, <b>strange</b> is an opinion or quality, <b>little</b> is the
-  size, <b>yellow</b> is the color`
+follows: <b>a</b> is an article, <b>strange</b> is an opinion or quality, <b>little</b> is the
+size, <b>yellow</b> is the color`
           }
         ]
       }
@@ -244,6 +244,69 @@ She was named Thumbelina. She had a walnut shell for bed, *violet* petals for ma
 One night, as Thumbelina  was fast asleep, a *large* frog hopped in through the window.
 She said to herself, how *pretty* Thumbelina is!
 Later, she picked up Thumbelina and hopped back in to the wetlands.`
+      ]
+    },
+    {
+      label: 'Appropriate Adjective',
+      type: 'matchByDragDrop',
+      id: 'right-word',
+      commonData: {
+        title: 'Put the adjectives given in the bottom at the right place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 70
+        }
+      },
+      data: [
+        `An ostrich lays the *biggest* eggs!
+The clown in the circus wore *colourful* clothes.
+I have an *orange* persian cat.
+Our neighbours have a *beautiful* garden.
+Puja's school is on a *wide* road.`,
+
+        `Did you know that giraffes have *blue* tongues?
+The boy was wearing a sweater of *soft* wool.
+My mother's *favourite* ice cream is vanilla.
+The blue whale is the *largest* mammal.
+The lime juice is very *sour*.`,
+
+        `This road is very *wide*.
+These books are very *old*.
+Where are you going, my *pretty* maid?
+The *brave* soldier died fighting for his country.
+The *thirsty* crow could not reach the water in the pot.`,
+
+        `This *short* path will lead right into the forest.
+Her cupboard has *many* shelves.
+The farmer's geese walked in a *straight* line!
+The children are sitting on the *green* grass.
+Please wear a *clean* shirt before you go out.`
+      ]
+    },
+    {
+      label: 'Appropriate Adjective - 2',
+      type: 'matchByDragDrop',
+      id: 'right-word-2',
+      commonData: {
+        isPractice: false,
+        title: 'Fill in the blanks by moving the words given at the bottom.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `The mangoes are *sweet*.
+The lion has *sharp* claws.
+The car is moving *fast*.
+Can you give me *little* water?
+The dress is very *colorful*.`,
+
+        `The *tall* man bought apples.
+We have a *tough* exam tomorrow.
+The *red* ball rolled down the stairs.
+These are *blunt* scissors.
+This is a *sweet* mango.`
       ]
     },
     {

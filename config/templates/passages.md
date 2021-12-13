@@ -39,7 +39,20 @@ Each item in the array need not have to be a string. It can also be an object of
 }
 ```
 
-Commonly used styles are bold (`<b>...</b>`), italic (`<i>...</i>`) and line break (`<br>`)
+Commonly used styles are
+
+1. bold (`<b>...</b>`)
+2. italic (`<i>...</i>`)
+3. line break (`<br>`)
+
+```
+{
+    type: 'html',
+    text: `Eg:<br>
+    I will see you <b>tomorrow</b>.<br>
+    I need some water <b>later</b>.`
+}
+```
 
 ## hilight
 
@@ -56,7 +69,7 @@ We may want to hilight a short passage.
 
 ```
 {
-    type: 'image',
+    type: 'img',
     src: 'image location'
 }
 ```

@@ -52,16 +52,16 @@ It tells us about, to whom something or someone belongs to.`,
           {
             name: 'Demonstrative Adjective',
             text: `What is the cost of *these* books?
-        Give me *that* pen.
-        *This* is my last performance on stage.
-        *These* shoes are too expensive.`
+Give me *that* pen.
+*This* is my last performance on stage.
+*These* shoes are too expensive.`
           },
           {
             name: 'Possessive Adjective',
             text: `Mihir is driving in *his* new red sports car.
-        Samanvi has got a new car. *Her* car is very nice.
-        Mahesh, where is *your* mother?
-        This is my sister. *Her* name is Tanvi.`
+Samanvi has got a new car. *Her* car is very nice.
+Mahesh, where is *your* mother?
+This is my sister. *Her* name is Tanvi.`
           }
         ]
       }
@@ -76,16 +76,16 @@ It tells us about, to whom something or someone belongs to.`,
           {
             name: 'Adjective of Number',
             text: `I have *twenty five* students in my class.
-        I have learned *six* chapters from Science for the exam.
-        Meena has *two* dogs in her house.
-        They have *two* carpets at the centre of the hall.`
+I have learned *six* chapters from Science for the exam.
+Meena has *two* dogs in her house.
+They have *two* carpets at the centre of the hall.`
           },
           {
             name: 'Interrogative adjective',
             text: `*Whose* bag was that?
-        *Which* mobile do you like more?
-        *Which* plate is yours?
-        *What* is your brother's name?`
+*Which* mobile do you like more?
+*Which* plate is yours?
+*What* is your brother's name?`
           }
         ]
       }
@@ -228,28 +228,28 @@ Mumbai has *huge (deep)* skyscrapers when compared to other cities.`
 
       data: [
         `starry, night
-        tall, trees
-        naughty, boys
-        woolen, clothes
-        cold, weather`,
+tall, trees
+naughty, boys
+woolen, clothes
+cold, weather`,
 
         `curly, hair
-        green, grass
-        hot, milk
-        angry, lion
-        sweet, mango`,
+green, grass
+hot, milk
+angry, lion
+sweet, mango`,
 
         `sick, boy
-        sour, grapes
-        slow, tortoise
-        calm, water
-        salted, peanuts`,
+sour, grapes
+slow, tortoise
+calm, water
+salted, peanuts`,
 
         `high, mountain
-        deep, sea
-        sharp, knife
-        old, man
-        round, table`
+deep, sea
+sharp, knife
+old, man
+round, table`
       ]
     },
     {

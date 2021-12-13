@@ -54,10 +54,10 @@ Sentence based examples of reflexive pronouns:
       },
       data: [
         `I, myself
-         she, herself
-         we, ourselves
-         you, yourself
-         it, itself`,
+she, herself
+we, ourselves
+you, yourself
+it, itself`,
 
         `them, themselves
 us, ourselves
@@ -117,26 +117,26 @@ Did you learn French *yourself*?`
       },
       data: [
         `She never talks about *herself(itself)*.
-        He did all the paintings by *himself(themselves)*.
-        The dog hurt *itself(himself)*.
-        Shaanvi sang quietly to *herself(itself)*.
-        Shiva hurt *himself(ourselves)* while climbing the ladder.
-        Rajeev was proud of *himself (herself)*.
-        He went trekking by *himself (itself)*.
-        Subrat and Shiv cleaned the room by *themselves (ourselves)*.
-        I carried the rice bag *myself (itself)*.
-        Did you clean the dishes *yourself (themselves)*?`,
+He did all the paintings by *himself(themselves)*.
+The dog hurt *itself(himself)*.
+Shaanvi sang quietly to *herself(itself)*.
+Shiva hurt *himself(ourselves)* while climbing the ladder.
+Rajeev was proud of *himself (herself)*.
+He went trekking by *himself (itself)*.
+Subrat and Shiv cleaned the room by *themselves (ourselves)*.
+I carried the rice bag *myself (itself)*.
+Did you clean the dishes *yourself (themselves)*?`,
 
         `The children drew by *themselves(ourselves)*.
-        I repaired my car *myself(itself)*.
-        I planted the roses *myself(herself)*.
-        He made the breakfast *himself(themselves)*.
-        Aditya and Teja can take care of *themselves(ourselves)*.
-        You must take care of *yourself (herself)*.
-        She bought *herself (himself)* a new dress.
-        They are doing the homework *themselves (ourselves)*.
-        Don't hurt *yourself (itself)* while cooking.
-        We cooked biryani *ourselves (themselves)* for the guests.`
+I repaired my car *myself(itself)*.
+I planted the roses *myself(herself)*.
+He made the breakfast *himself(themselves)*.
+Aditya and Teja can take care of *themselves(ourselves)*.
+You must take care of *yourself (herself)*.
+She bought *herself (himself)* a new dress.
+They are doing the homework *themselves (ourselves)*.
+Don't hurt *yourself (itself)* while cooking.
+We cooked biryani *ourselves (themselves)* for the guests.`
       ]
     },
     {
@@ -150,26 +150,26 @@ Did you learn French *yourself*?`
       data: [
         [
           `Why don't you cut your nails yourself?
-          Look at yourself in the mirror.
-          Pooja and Indu! Please behave yourselves.
-          Can you do your homework by yourself?
-          I can walk to the school by myself.`,
+Look at yourself in the mirror.
+Pooja and Indu! Please behave yourselves.
+Can you do your homework by yourself?
+I can walk to the school by myself.`,
 
           `Grandma cut himself.
-          Why don't you clean the balcony ourself?
-          Dad can cook food by herself.
-          I can walk to the school by himself.
-          Can you do your homework by ourself?`
+Why don't you clean the balcony ourself?
+Dad can cook food by herself.
+I can walk to the school by himself.
+Can you do your homework by ourself?`
         ],
         [
           `Dad can cook food by himself.
-          They do their projects by themselves.
-          We can make this model by ourselves.
-          You ride your bike by yourself.`,
+They do their projects by themselves.
+We can make this model by ourselves.
+You ride your bike by yourself.`,
 
           `They do their projects by ourselves.
-          We can make this model by myselves.
-          You ride your bike by herself.`
+We can make this model by myselves.
+You ride your bike by herself.`
         ]
       ]
     },

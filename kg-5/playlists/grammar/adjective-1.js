@@ -1,12 +1,12 @@
 export default {
   id: 'adjective-1',
-  label: 'Adjectives-1.',
+  label: 'Describing Word',
   pdf: '',
   list: [
     {
-      label: 'Adjectives-1',
+      label: 'Notes',
       type: 'passage',
-      id: 'adjectives-1-reading',
+      id: 'notes',
       data: {
         title: 'Describing Words',
         text: [
@@ -14,7 +14,7 @@ export default {
           {
             type: 'html',
             text: `Eg:<br>
-            <b>cute</b> puppy <br>
+<b>cute</b> puppy <br>
 <b>hot</b> coffee <br>
 <b>green</b> parrot`
           },
@@ -22,9 +22,9 @@ export default {
           {
             type: 'html',
             text: `Eg:<br>
-            Hari is a boy.<br>
-            Hari is a <b>good</b> boy.<br>
-            I saw a puppy.<br>
+Hari is a boy.<br>
+Hari is a <b>good</b> boy.<br>
+I saw a puppy.<br>
 I saw a <b>cute</b> puppy.`
           }
         ]

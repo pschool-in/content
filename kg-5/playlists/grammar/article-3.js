@@ -43,60 +43,60 @@ Boys are usually fond of outdoor games.`
 
       data: [
         `woman, a, an
-        officer, an, a
-        bottle, a, an
-        baby, a, an
-        urn, an, a
-        old carpet, an, a
-        beehive, a, an
-        remote, a, an
-        mobile, a, an
-        hospital, a, an`,
+officer, an, a
+bottle, a, an
+baby, a, an
+urn, an, a
+old carpet, an, a
+beehive, a, an
+remote, a, an
+mobile, a, an
+hospital, a, an`,
 
         `guitar, a, an
-        pony tail, a, an
-        apple, an, a
-        pencil, a, an
-        elastic, an, a
-        animal, an, a
-        biscuit, a, an
-        ostrich, an, a
-        board, a, an
-        sofa, a, an`,
+pony tail, a, an
+apple, an, a
+pencil, a, an
+elastic, an, a
+animal, an, a
+biscuit, a, an
+ostrich, an, a
+board, a, an
+sofa, a, an`,
 
         `arrow, an, a
-       ugly, an, a
-       nice, a, an
-       oval, an, a
-       axe, an, a
-       pair, a, an
-       empty, an, a
-       ant, an, a
-       kite, a, an
-       European, a, an
-       engine, an, a`,
+ugly, an, a
+nice, a, an
+oval, an, a
+axe, an, a
+pair, a, an
+empty, an, a
+ant, an, a
+kite, a, an
+European, a, an
+engine, an, a`,
 
         `year, a, an
-       Indian, an, a
-       umbrella, an, a
-       honest, an, a
-       hour, an, a
-       universe, a, an
-       university, a, an
-       x-ray, an, a
-       one, a, an
-       wonderful, a, an`,
+Indian, an, a
+umbrella, an, a
+honest, an, a
+hour, an, a
+universe, a, an
+university, a, an
+x-ray, an, a
+one, a, an
+wonderful, a, an`,
 
         `utensil, a, an
-       uncle, an, a
-       uniform, a, an
-       ugly dog, an, a
-       half, a, an
-       actor, an, a
-       invitation, an, a
-       dollar, a, an
-       rupee, a, an
-       envelope, an, a`
+uncle, an, a
+uniform, a, an
+ugly dog, an, a
+half, a, an
+actor, an, a
+invitation, an, a
+dollar, a, an
+rupee, a, an
+envelope, an, a`
       ]
     },
     {
@@ -113,15 +113,15 @@ Boys are usually fond of outdoor games.`
       },
       data: [
         `an, eagle, crow
-      an, honour, dishonour
-      an, apron, coat
-      a, lamp, inkpot
-      an, egg, chick
-      a, computer, aeroplane
-      a, pizza, onion
-      an, Ipad, table
-      an, idea, pen
-      an, old woman, young woman`,
+an, honour, dishonour
+an, apron, coat
+a, lamp, inkpot
+an, egg, chick
+a, computer, aeroplane
+a, pizza, onion
+an, Ipad, table
+an, idea, pen
+an, old woman, young woman`,
 
         `a, man, elephant
 a, European, Indian
@@ -157,12 +157,12 @@ an, ambulance, lorry`
       },
       data: [
         `I live in Hyderabad. It is *a* big city. *The* Charminar is *a* famous monument in our city.
-        *The* Birla Planetarium is *the* most frequently visited place by many students every year.
-        Nehru Zoological park is *a* famous zoo in Hyderabad which consists of different kinds of animals.
-        My neighborhood is *a* very nice place. There is *a* big supermarket at *the* end of *the* road.
-        There is also *a* small park near my home. Also, we have *a* health center in *the* colony.
-        In addition, there is *a* preschool where my little sister studies.
-        I have *a* dog and *a* parrot for pets. *The* dog is always quiet but *the* parrot is very noisy!`,
+*The* Birla Planetarium is *the* most frequently visited place by many students every year.
+Nehru Zoological park is *a* famous zoo in Hyderabad which consists of different kinds of animals.
+My neighborhood is *a* very nice place. There is *a* big supermarket at *the* end of *the* road.
+There is also *a* small park near my home. Also, we have *a* health center in *the* colony.
+In addition, there is *a* preschool where my little sister studies.
+I have *a* dog and *a* parrot for pets. *The* dog is always quiet but *the* parrot is very noisy!`,
 
         `Once upon *a* time *a* woman had *an* only son whose name was Aladdin.
 One day as he was looking for wild figs out in *the* desert, he came across *a* dungeon.
@@ -184,38 +184,38 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       },
       data: [
         `He ate *an* apple.
-       I will meet *the* President today.
-       The mangoes cost thirty rupees *a* piece.
-       I have *an* exam today.
-       *The (A, An)* dog is barking.
-       She goes to the temple in *the* mornings.
-       Abhinav is *the* best singer in the class.
-       *The (A, An)* camel is the ship of the desert.
-       Aarav is sleeping on *the* grey sofa.
-       *The (An, A)* sun is shining bright today!
-       He is holding *a* bag.`,
+I will meet *the* President today.
+The mangoes cost thirty rupees *a* piece.
+I have *an* exam today.
+*The (A, An)* dog is barking.
+She goes to the temple in *the* mornings.
+Abhinav is *the* best singer in the class.
+*The (A, An)* camel is the ship of the desert.
+Aarav is sleeping on *the* grey sofa.
+*The (An, A)* sun is shining bright today!
+He is holding *a* bag.`,
 
         `There is *a* cat in my room.
-       My brother bought *a* gift for me.
-       He is eating *an* apple.
-       I saw *an* elephant.
-       My sister poured honey on *the* fruits.
-       I saw *a* snake in my garden.
-       My uncle is *a* policeman.
-       Are you going to *the* park this evening?
-       There is *a* fountain at the entrance of the temple.
-       My cousins visited *the* Tajmahal last year.`,
+My brother bought *a* gift for me.
+He is eating *an* apple.
+I saw *an* elephant.
+My sister poured honey on *the* fruits.
+I saw *a* snake in my garden.
+My uncle is *a* policeman.
+Are you going to *the* park this evening?
+There is *a* fountain at the entrance of the temple.
+My cousins visited *the* Tajmahal last year.`,
 
         `I am reading *a* novel.
-       It is *a* sweet memory.
-       I want *a* burger.
-       She wants to buy *an* umbrella.
-       We can see *the* stars at night.
-       *The (A, An)* elephants are very big animals.
-       That is *an* interesting book.
-       My brother has *a* headache.
-       I have *a* test today.
-       She is eating *a* chocolate pastry.`
+It is *a* sweet memory.
+I want *a* burger.
+She wants to buy *an* umbrella.
+We can see *the* stars at night.
+*The (A, An)* elephants are very big animals.
+That is *an* interesting book.
+My brother has *a* headache.
+I have *a* test today.
+She is eating *a* chocolate pastry.`
       ]
     },
     {
@@ -228,37 +228,37 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       },
       data: [
         `*-* man is mortal.
-        Can you tell me *a* story?
-        She goes to *-*school every day. 
-        I am fond of *-* music.
-        I will go to school by *-* walk.
-        Ashoka was *an* honest king.
-        I left my book at *-* home.
-        I saw *a* snake in my garden.
-        He likes to read *-* short stories.
-        A teacher is *an* important person in everyone's life.`,
+Can you tell me *a* story?
+She goes to *-*school every day. 
+I am fond of *-* music.
+I will go to school by *-* walk.
+Ashoka was *an* honest king.
+I left my book at *-* home.
+I saw *a* snake in my garden.
+He likes to read *-* short stories.
+A teacher is *an* important person in everyone's life.`,
 
         `I bought *a* pair of shoes.
-        *-* elephants are very intelligent animals.
-        I saw *a* movie last night.
-        They are staying at *a* hostel.
-        Ram played with *-* determination.
-        *-* penguins live in the South Pole.
-        I could see *-* clouds in the sky.
-        There was *-* milk on the table.
-        I gave it to *-* Jhonny.
-        She arrived in *-* India yesterday.`,
+*-* elephants are very intelligent animals.
+I saw *a* movie last night.
+They are staying at *a* hostel.
+Ram played with *-* determination.
+*-* penguins live in the South Pole.
+I could see *-* clouds in the sky.
+There was *-* milk on the table.
+I gave it to *-* Jhonny.
+She arrived in *-* India yesterday.`,
 
         `She is *a* famous actress.
-        Do you speak *-* English?
-        He is good at *-* cricket.
-        People will travel to *-* Mars soon.
-        I do not like *-* basketball.
-        Shall we play *a* game of chess?
-        My grandma was sick. We took her to *-* hospital. Now she is good.
-        We saw *an* elephant in the zoo.
-        Do you eat *-* rice every day?
-        My brother does not like *-* chicken.`
+Do you speak *-* English?
+He is good at *-* cricket.
+People will travel to *-* Mars soon.
+I do not like *-* basketball.
+Shall we play *a* game of chess?
+My grandma was sick. We took her to *-* hospital. Now she is good.
+We saw *an* elephant in the zoo.
+Do you eat *-* rice every day?
+My brother does not like *-* chicken.`
       ]
     },
     {
@@ -273,27 +273,27 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       data: [
         [
           `I wake up at 6 0'clock in the morning.
-          The Arabian sea lies to the west of India.
-          It is better, to tell the truth.`,
+The Arabian sea lies to the west of India.
+It is better, to tell the truth.`,
 
           `Mihir wants a pair of jeans.
-          She is an hour late.
-          I just read an interesting novel.`,
+She is an hour late.
+I just read an interesting novel.`,
 
           `Please keep quiet! Don't make noise!
-          We love to eat Indian food.`
+We love to eat Indian food.`
         ],
         [
           `The cow gives us milk.
-          Can you switch off the light?
-          There is someone at the door.`,
+Can you switch off the light?
+There is someone at the door.`,
 
           `He has a daughter.
-          It is a good bike.
-          Tia wants an ink pen.`,
+It is a good bike.
+Tia wants an ink pen.`,
 
           `Milk is good for you.
-          Men are always fond of cricket.`
+Men are always fond of cricket.`
         ]
       ]
     },
@@ -308,35 +308,35 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       data: [
         [
           `I have a book.
-         Look at the beach!
-         I like the red T-shirt.
-         Mahesh's father is an engineer.
-         Rahul has a terrible headache.`,
+Look at the beach!
+I like the red T-shirt.
+Mahesh's father is an engineer.
+Rahul has a terrible headache.`,
 
           `I work as an English teacher in a school.
-         He is a friend of mine.
-         A gun is a very dangerous weapon.
-         I collected the postcard from the post office.`,
+He is a friend of mine.
+A gun is a very dangerous weapon.
+I collected the postcard from the post office.`,
 
           `My dad came an hour ago.
-         An octopus has eight tentacles.
-         Nandana is the fastest swimmer in our group.`
+An octopus has eight tentacles.
+Nandana is the fastest swimmer in our group.`
         ],
         [
           `Do you live in the Hyderabad?
-          The London is big city.
-          Who is an lady in a picture?
-          Do you still live in the Banglore?
-          What did you have for a breakfast today?`,
+The London is big city.
+Who is an lady in a picture?
+Do you still live in the Banglore?
+What did you have for a breakfast today?`,
 
           `We live in an village.
-          My friend gave me an basket of fruits.
-          I saw a eagle near my farm.
-          A owl was sitting on the roof of my house.`,
+My friend gave me an basket of fruits.
+I saw a eagle near my farm.
+A owl was sitting on the roof of my house.`,
 
           `I had a ice-cream after my dinner.
-          My grandfather has a inkpot on his writing-table.
-          He is best player in the team.`
+My grandfather has a inkpot on his writing-table.
+He is best player in the team.`
         ]
       ]
     },
@@ -355,16 +355,16 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       },
       data: [
         `I saw *a* colorful kite hanging on our mango tree.
-        Subrat is the *tallest* boy in the class.
-        Rakesh is *an* honest man in my village.
-        My cousin gave me an *Inkpen* for writing.
-        My brother is an *MBA* graduate and is working at Deloitte.`,
+Subrat is the *tallest* boy in the class.
+Rakesh is *an* honest man in my village.
+My cousin gave me an *Inkpen* for writing.
+My brother is an *MBA* graduate and is working at Deloitte.`,
 
         `We will return from the park after *an* hour.
-        It might rain today! Please carry an *umbrella*.
-        I met a *European* tourist in Agra last year.
-        Ram uses *the* internet a lot these days!
-        Mrs. Sunitha Bhan is an *English* teacher in my son's school.`,
+It might rain today! Please carry an *umbrella*.
+I met a *European* tourist in Agra last year.
+Ram uses *the* internet a lot these days!
+Mrs. Sunitha Bhan is an *English* teacher in my son's school.`,
 
         `The fourth standard students went on *a* field trip to the zoo.
 I quickly ate *the* cookies kept on my kitchen table.

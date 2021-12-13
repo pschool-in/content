@@ -11,23 +11,23 @@ export default {
         title: 'Adverb',
         text: [
           `An adverb is a word that adds more meaning to a verb or adjective or another adverb.
-          # Modifying Verb`,
+# Modifying Verb`,
           {
             type: 'html',
             text: `John speaks <b>loudly</b>.<br>
-            Rohan left <b>immediately</b>.`
+Rohan left <b>immediately</b>.`
           },
           `# Modifying Adjective`,
           {
             type: 'html',
             text: `He is <b>really</b> handsome.<br>
-            The story was <b>very</b> interesting.`
+The story was <b>very</b> interesting.`
           },
           `# Modifying Another Adverb`,
           {
             type: 'html',
             text: `Sara drives <b>very</b> slowly.<br>
-            Deepa is reading <b>so</b> quickly.`
+Deepa is reading <b>so</b> quickly.`
           }
         ]
       }

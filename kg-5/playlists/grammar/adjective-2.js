@@ -4,15 +4,15 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Adjective',
+      label: 'Notes',
       type: 'passage',
-      id: 'reading',
+      id: 'notes',
       data: {
         title: 'Adjective',
         text: [
-          `Adjectives are words that give more meaning to a noun or pronoun.
+          `Adjective is a word that gives more meaning to a noun or pronoun.
 Adjectives usually tell us about what kind of, how many, or what color.
-Adjectives usually come before a noun and make them more specific.`,
+Adjectives usually come before nouns and make them more specific.`,
           {
             type: 'html',
             text: `Eg:<br>
@@ -145,46 +145,46 @@ red, rose`
       },
       data: [
         `old, new
-        tall, short
-        big, small
-        early, late
-        fat, thin
-        far, near`,
+tall, short
+big, small
+early, late
+fat, thin
+far, near`,
 
         `clean, dirty
-        cheap, costly
-        hard, soft
-        happy, sad
-        rich, poor
-        beautiful, ugly`,
+cheap, costly
+hard, soft
+happy, sad
+rich, poor
+beautiful, ugly`,
 
         `old, young
-        heavy, light
-        strong, weak
-        dry, wet
-        easy, difficult
-        long, short`,
+heavy, light
+strong, weak
+dry, wet
+easy, difficult
+long, short`,
 
         `good, bad
-        wide, narrow
-        first, last
-        noisy, quiet
-        deep, shallow
-        polite, rude`,
+wide, narrow
+first, last
+noisy, quiet
+deep, shallow
+polite, rude`,
 
         `high, low
-        cold, hot
-        heavy, light
-        right, wrong
-        best, worst
-        interesting, boring`,
+cold, hot
+heavy, light
+right, wrong
+best, worst
+interesting, boring`,
 
         `smooth, rough
-        ancient, modern
-        fresh, rotten
-        fast, slow
-        active, dull
-        thick, thin`
+ancient, modern
+fresh, rotten
+fast, slow
+active, dull
+thick, thin`
       ]
     },
     {
@@ -196,26 +196,26 @@ red, rose`
       },
       data: [
         `The elephant is a *large (small)* animal.
-        The peacock is a *beautiful (ugly)* bird.
-        The rat is a *small (big)* animal.
-        He is a *tall (wide)* man.
-        The sky is *blue(long)*.
-        She is wearing a *pink (tall)* shirt.
-        A spider has *eight (two)* legs.
-        My mom has *long (round)* hair.
-        A car has *four (three)* wheels.
-        The giraffe has a *long (short)* neck.`,
+The peacock is a *beautiful (ugly)* bird.
+The rat is a *small (big)* animal.
+He is a *tall (wide)* man.
+The sky is *blue(long)*.
+She is wearing a *pink (tall)* shirt.
+A spider has *eight (two)* legs.
+My mom has *long (round)* hair.
+A car has *four (three)* wheels.
+The giraffe has a *long (short)* neck.`,
 
         `Honey is *sweet (sour)*.
-        My mom is making a *tasty (short)* milkshake.
-        We visited an *old (short)* palace.
-        I have a *black (round)* jacket.
-        Meera eats *chocolate (cold)* biscuits.
-        The chocolate cake was *tasty (wide)*.
-        My pillow is *soft (tall)*.
-        We wear *cotton (warm)* clothes in summer.
-        Wolf is a *dangerous (pretty)* animal.
-        These bananas are *sweet (sour)*.`
+My mom is making a *tasty (short)* milkshake.
+We visited an *old (short)* palace.
+I have a *black (round)* jacket.
+Meera eats *chocolate (cold)* biscuits.
+The chocolate cake was *tasty (wide)*.
+My pillow is *soft (tall)*.
+We wear *cotton (warm)* clothes in summer.
+Wolf is a *dangerous (pretty)* animal.
+These bananas are *sweet (sour)*.`
       ]
     },
     {

@@ -11,51 +11,51 @@ export default {
       data: {
         title: 'Water',
         text: [
-          'Water is one of the most important resources on Earth. All living things like insects, plants and animals need water to survive. People use water for various purposes and rain is one of the main sources.',
-          '# Potable Water',
-          'Drinking water is known as potable water. It is healthy for drinking and cooking.',
-          'Potable Water is:',
-          '1. free from harmful chemicals.',
-          '2. transparent.',
-          '3. odourless and colourless.',
-          '4. free from bacteria which cause diseases.',
-          '# Sources of Drinking Water',
-          'Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.',
-          '# Saving Water',
-          'Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.',
-          'Some ways to prevent wastage of water:',
-          '1. Never let water overflow from buckets.',
-          '2. Wash fruits and vegetables in a bowl and not under running tap.',
-          '3. Always close the taps while brushing your teeth.',
-          '4. Pour left over water in a plant.',
-          '5. Close the tap properly after use.',
-          '6. Use a sprinkler to water the garden.',
-          '# Conservation of Water Bodies',
-          'Raining rises streams and rivers. Some water gets collected in low lying areas like ponds and lakes. The flow of rivers is blocked by building a dam. Some rainwater seeps into the ground as underground water.',
-          '# Lake',
-          'It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.',
-          '# Pond',
-          'A pond is a body of stagnant water, either natural or artificial and is smaller than a lake.',
-          '# Tanks',
-          'A water tank is a container that stores water for our daily use.',
-          '# Methods to Conserve Water Bodies',
-          '1. Deepening of ponds and lakes',
-          '2. Plant trees at the bank of water bodies',
-          '3. Reduce water pollution',
-          '4. Avoid digging too many wells in a region',
-          '# Water borne diseases',
-          'Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue Fever.',
-          'Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.',
-          '# Experiment',
-          'Let us assemble a Simple Pump',
+          `Water is one of the most important resources on Earth. All living things like insects, plants and animals need water to survive. People use water for various purposes and rain is one of the main sources.
+# Potable Water
+Drinking water is known as potable water. It is healthy for drinking and cooking.
+Potable Water is:
+1. free from harmful chemicals.
+2. transparent.
+3. odourless and colourless.
+4. free from bacteria which cause diseases.
+# Sources of Drinking Water
+Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.
+# Saving Water
+Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.
+Some ways to prevent wastage of water:
+1. Never let water overflow from buckets.
+2. Wash fruits and vegetables in a bowl and not under running tap.
+3. Always close the taps while brushing your teeth.
+4. Pour left over water in a plant.
+5. Close the tap properly after use.
+6. Use a sprinkler to water the garden.
+# Conservation of Water Bodies
+Raining rises streams and rivers. Some water gets collected in low lying areas like ponds and lakes. The flow of rivers is blocked by building a dam. Some rainwater seeps into the ground as underground water.
+# Lake
+It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.
+# Pond
+A pond is a body of stagnant water, either natural or artificial and is smaller than a lake.
+# Tanks
+A water tank is a container that stores water for our daily use.
+# Methods to Conserve Water Bodies
+1. Deepening of ponds and lakes
+2. Plant trees at the bank of water bodies
+3. Reduce water pollution
+4. Avoid digging too many wells in a region
+# Water borne diseases
+Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue Fever.
+Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.
+# Experiment
+Let us assemble a Simple Pump`,
           { type: 'img', src: 'img/science/waterPumpExperiment.png' },
-          '# Materials needed',
-          'A hollow tube – PVC, metal or even a long papaya stem',
-          '# Procedure',
-          'Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.',
-          '# Do you know?',
-          '1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.',
-          '2. World Water Day is on 22nd March.'
+          `# Materials needed
+A hollow tube - PVC, metal or even a long papaya stem
+# Procedure
+Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.
+# Do you know?
+1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.
+2. World Water Day is on 22nd March.`
         ]
       }
     },

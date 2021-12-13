@@ -12,9 +12,9 @@ export default {
           `We use this to compare something.`,
           { type: 'hilight', text: 'Elephant is bigger than tiger.' },
           `The above sentence has 'comparative' degree. We directly compare one thing with another.
-          Note: Usually the  'comparative' adjective is followed by the word 'than'.
-          Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
-          Note: Definite article (the) is used before the 'superlative' adjective.`,
+Note: Usually the  'comparative' adjective is followed by the word 'than'.
+Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
+Note: Definite article (the) is used before the 'superlative' adjective.`,
           { type: 'hilight', text: 'Elephant is the biggest land animal.' },
           `Sometimes we simply tell something, without really comparing with anything. It is called 'positive' degree.`,
           { type: 'hilight', text: 'Elephant is a big animal.' },
@@ -153,7 +153,7 @@ Mani is the *fastest(fast,faster)* boy in our class.`
     {
       label: 'Identify the Degree of Comparison.',
       type: 'classifySentence',
-      id: 'classify',
+      id: 'classify-2',
       commonData: {
         title: 'Identify the degree of comparison.',
         types: ['Positive', 'Comparative', 'Superlative']
@@ -233,7 +233,7 @@ Jeevana is the smartest girl in the class.`
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-and-drop-2',
+      id: 'drag-drop',
       commonData: {
         isPractice: false,
         title: 'Drag and drop the appropriate adjective in the sentence.',

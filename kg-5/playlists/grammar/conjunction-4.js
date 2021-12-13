@@ -4,14 +4,18 @@ export default {
   pdf: '',
   list: [
     {
-      id: 'reading',
+      id: 'notes',
       type: 'passage',
       label: 'Notes',
       data: {
         title: 'Conjunction Pairs',
         text: [
-          `# Conjunction Pairs
-Sometime conjunctions are used in pairs: either/or, both/and, whether/or, neither/nor, not only/but also`,
+          `Sometime conjunctions are used in pairs: 
+1. either/or
+2. both/and
+3. whether/or
+4. neither/nor
+5. not only/but also`,
           {
             type: 'html',
             text: `You can <em>either</em> call me <em>or</em> message me.<br>
@@ -47,10 +51,10 @@ not only, but also`
           dashWidth: 70
         },
         text: `Either dad *or* mom will come to pick me.
-        I am *both* tired *and* hungry.
-        I have no idea *whether* she will like the dress or not.
-        The coffee was *neither* hot *nor* cold.
-        Not only it was raining *but also* the power went off.`
+I am *both* tired *and* hungry.
+I have no idea *whether* she will like the dress or not.
+The coffee was *neither* hot *nor* cold.
+Not only it was raining *but also* the power went off.`
       }
     },
     {

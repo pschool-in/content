@@ -222,16 +222,6 @@ const grammar = [
     grade: 'g4, g5'
   },
   {
-    label: 'Adjective',
-    id: 'adjective',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Pronoun',
-    id: 'pronoun',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Preposition',
     id: 'preposition',
     grade: 'g3, g4, g5'
@@ -242,22 +232,17 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction',
-    id: 'conjunction',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Connecting Word',
+    label: 'Joining Word',
     id: 'conjunction-1',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction-Introduction',
+    label: 'Conjunction',
     id: 'conjunction-2',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction',
+    label: 'Conjunction Pairs',
     id: 'conjunction-4',
     grade: 'g3, g4, g5'
   },
@@ -355,27 +340,27 @@ const grammar = [
   {
     label: 'Describing Words',
     id: 'adjective-1',
-    grade: 'g3, g4, g5'
+    grade: 'g1, g2, g3'
   },
   {
     label: 'Adjective - Introduction',
     id: 'adjective-2',
-    grade: 'g3, g4, g5'
+    grade: 'g1, g2, g3, g4'
   },
   {
-    label: 'Adjective - 3',
+    label: 'Adjective of Quality and Quantity ',
     id: 'adjective-3',
-    grade: 'g3, g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
-    label: 'Adjective - 4',
+    label: 'More on Adjective',
     id: 'adjective-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Adjective - 5',
+    label: 'Order of Adjective',
     id: 'adjective-5',
-    grade: 'g3, g4, g5'
+    grade: 'g4, g5'
   },
   {
     label: 'Simile',

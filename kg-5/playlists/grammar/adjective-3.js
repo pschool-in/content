@@ -6,9 +6,9 @@ export default {
     {
       label: 'Notes',
       type: 'passage',
-      id: 'reading',
+      id: 'notes',
       data: {
-        title: 'Adjective of Quality and Quantity',
+        title: 'Types of Adjective',
         text: [
           `# Adjective of Quality
 It tells us about the kind or quality of the noun.`,
@@ -51,25 +51,25 @@ It is a special type of adjective of quantity. It tells us how many.`,
       data: [
         [
           `This boy has a *sweet* voice.
-      That is a *big* ground.
-      I like *yellow* roses.
-      I like *raw* mangoes.`,
+That is a *big* ground.
+I like *yellow* roses.
+I like *raw* mangoes.`,
 
           `I ate *some* fried rice today.
-      We have *enough* time for completion of homework.
-      I know very *little* about folk songs.
-      Add *some* sugar to the tea.`
+We have *enough* time for completion of homework.
+I know very *little* about folk songs.
+Add *some* sugar to the tea.`
         ],
         [
           `I took *some* chalkpieces from the desk.
-      Priya has *little* interest in reading the story books.
-      We spent *few* hours planning for the birthday party.
-      *Many* people visit Tirupathi every day.`,
+Priya has *little* interest in reading the story books.
+We spent *few* hours planning for the birthday party.
+*Many* people visit Tirupathi every day.`,
 
           `Meera has a *brown* cat as a pet.
-      Our math teacher is an *old* women who teaches excellently.
-      Prakash is a *clever* boy in the class.
-      My mom made *tasty* jalebis for the party.`
+Our math teacher is an *old* women who teaches excellently.
+Prakash is a *clever* boy in the class.
+My mom made *tasty* jalebis for the party.`
         ]
       ]
     },
@@ -311,23 +311,23 @@ My rose plant has not grown *much* as expected.`
       },
       data: [
         `A *good* chess player is usually *smart*.
-        One *rainy* day, my *little* cat jumped and sat on the *black* sofa and played with his *new* toy.
-        My *younger* brother was watching it play and he was *happy*.
-        Soon, my *playful* cat yawned. He was *tired*. I picked him up and put him on a *soft* bed and he slept.
-        Sita and Meera are twins. Preethi and Swapna live next door. Meera's mom packed some *tasty* snacks and water in a *big* basket.
-        The *four* friends walk to the nearby woods for a picnic. They spot an *old* tree.`,
+One *rainy* day, my *little* cat jumped and sat on the *black* sofa and played with his *new* toy.
+My *younger* brother was watching it play and he was *happy*.
+Soon, my *playful* cat yawned. He was *tired*. I picked him up and put him on a *soft* bed and he slept.
+Sita and Meera are twins. Preethi and Swapna live next door. Meera's mom packed some *tasty* snacks and water in a *big* basket.
+The *four* friends walk to the nearby woods for a picnic. They spot an *old* tree.`,
 
         `Sita spreads the *new* mat under the tree and they all have their snacks.
-        Swapna sits on a *small* bench and watches the squirrels running up and down.
-        This is my grandmother's house. There is a *pretty* garden in front of her house.
-        There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
-        Every year we distribute these *tasty* mangoes to all our neighbours.`,
+Swapna sits on a *small* bench and watches the squirrels running up and down.
+This is my grandmother's house. There is a *pretty* garden in front of her house.
+There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
+Every year we distribute these *tasty* mangoes to all our neighbours.`,
 
         `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
-        She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil
-        and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha.
-        She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix
-        and made *round* parathas with lots of butter and served hot.`
+She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil
+and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha.
+She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix
+and made *round* parathas with lots of butter and served hot.`
       ]
     }
   ]

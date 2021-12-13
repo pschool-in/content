@@ -90,14 +90,14 @@ This bag belongs to me and my sister. This bag is *ours*.`
           {
             name: 'True',
             text: `This notebook is mine.
-            Those pens are hers.
-            That dress is yours.`
+Those pens are hers.
+That dress is yours.`
           },
           {
             name: 'False',
             text: `Those gloves belong to him.
-            Those pens belong to her.
-            That dress belongs to you.`
+Those pens belong to her.
+That dress belongs to you.`
           }
         ]
       }

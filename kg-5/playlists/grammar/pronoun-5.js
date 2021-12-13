@@ -55,16 +55,16 @@ Some examples of interrogative pronouns:
       },
       data: [
         `What, time is it?
-        Who, did this?
-        Whose, book is this?
-        Which, car is yours?
-        To whom, should I address this letter?`,
+Who, did this?
+Whose, book is this?
+Which, car is yours?
+To whom, should I address this letter?`,
 
         `Which, is the song you like?
-        What, is this flavour called?
-        Whose is, this trophy?
-        What is, your score?
-        Whose are, these folders?`
+What, is this flavour called?
+Whose is, this trophy?
+What is, your score?
+Whose are, these folders?`
       ]
     },
     {
@@ -77,26 +77,26 @@ Some examples of interrogative pronouns:
       },
       data: [
         `*Why(What)* is the flight late?
-        *Who(When)* left the door open?
-        *Why(What)* are you sad?
-        *What(Which)* is your brother's name?
-        *Which(Whom)* car is yours?
-        *Who(When)* is the new student in the class?
-        *What(When)* would you like to wear tomorrow?
-        *Which (What)* one of these burgers is made of meat?
-        To *whom (who)* was the song dedicated?
-        *What (Which)* do you want to do?`,
+*Who(When)* left the door open?
+*Why(What)* are you sad?
+*What(Which)* is your brother's name?
+*Which(Whom)* car is yours?
+*Who(When)* is the new student in the class?
+*What(When)* would you like to wear tomorrow?
+*Which (What)* one of these burgers is made of meat?
+To *whom (who)* was the song dedicated?
+*What (Which)* do you want to do?`,
 
         `*What (When)* do you want for lunch?
-        *What (Whom)* is your mobile number?
-        *Whose (Which)* bike is this?
-        *Whose (Who)* books are those?
-        *What (Which)* is the time now?
-        *Whom (When)* is he talking to?
-        *Who (Whom)* is your favorite cartoon character?
-        *Which (What)* of these dresses do you like?
-        To *whom (what)* did he give his watch?
-         *What (When)* did you see in the park?`
+*What (Whom)* is your mobile number?
+*Whose (Which)* bike is this?
+*Whose (Who)* books are those?
+*What (Which)* is the time now?
+*Whom (When)* is he talking to?
+*Who (Whom)* is your favorite cartoon character?
+*Which (What)* of these dresses do you like?
+To *whom (what)* did he give his watch?
+*What (When)* did you see in the park?`
       ]
     },
     {
@@ -112,16 +112,16 @@ Some examples of interrogative pronouns:
             {
               name: 'Reflexive pronoun',
               text: `I will do the job myself.
-            She went to the park by herself.
-            The dog hurt itself.
-            Shaanvi sang quietly to herself.`
+She went to the park by herself.
+The dog hurt itself.
+Shaanvi sang quietly to herself.`
             },
             {
               name: 'Possessive pronoun',
               text: `This notebook is mine.
-            That bike is theirs.
-            Is this pencil yours?
-            The lipstick is hers.`
+That bike is theirs.
+Is this pencil yours?
+The lipstick is hers.`
             }
           ]
         },
@@ -130,18 +130,18 @@ Some examples of interrogative pronouns:
             {
               name: 'Interrogative pronoun',
               text: `Please tell me who took my book.
-            Whom are you calling?
-            Which one is your house?
-            What is this flavour called?
-            Whose voice was that?`
+Whom are you calling?
+Which one is your house?
+What is this flavour called?
+Whose voice was that?`
             },
             {
               name: 'Emphatic pronoun',
               text: `She herself did it.
-            You yourself can find your talent.
-            I myself will cook the dinner.
-            She herself baked a cake.
-            He himself did it.`
+You yourself can find your talent.
+I myself will cook the dinner.
+She herself baked a cake.
+He himself did it.`
             }
           ]
         },
@@ -198,20 +198,20 @@ Manisha has a dog. *It (They)* is called Garfield.
 Look at my shoes. *They (It)* are so colorful.`,
 
         `Saranya likes to cook. Everyone likes *her (his) * cooking. 
-  Kumar and his brother enjoy watching action films. This movie is for *them(they) *. 
-  Do you like movies? Please join *us (them) * at the theatre. 
-  I will meet Sangeetha tomorrow. I am meeting *her (him)* for the first time. 
-  You left *your (yours) * text books on the table. 
-  I want to know *who (whom)* is going to play as villain. 
-  Please eat whatever you want. The choice is *yours (your)*. 
-  Rekha told *him (his)* about the celebration next week. `,
+Kumar and his brother enjoy watching action films. This movie is for *them(they) *. 
+Do you like movies? Please join *us (them) * at the theatre. 
+I will meet Sangeetha tomorrow. I am meeting *her (him)* for the first time. 
+You left *your (yours) * text books on the table. 
+I want to know *who (whom)* is going to play as villain. 
+Please eat whatever you want. The choice is *yours (your)*. 
+Rekha told *him (his)* about the celebration next week. `,
 
         `Rahul cannot come with *us (them)* today. 
-  She grows Jasmine on her terrace. *They (Them)* smell sweet. 
-  Peacock is our national bird. *It (They)* has beautiful feathers. 
-  Ram will visit *his (her) * grandmother this week. 
-  Don't walk fast. *We (Us)* feel tired. 
-  Every Sunday, we meet *them (they)* at the sea shore.`
+She grows Jasmine on her terrace. *They (Them)* smell sweet. 
+Peacock is our national bird. *It (They)* has beautiful feathers. 
+Ram will visit *his (her) * grandmother this week. 
+Don't walk fast. *We (Us)* feel tired. 
+Every Sunday, we meet *them (they)* at the sea shore.`
       ]
     },
 

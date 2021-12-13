@@ -19,12 +19,12 @@ Some more examples of personal pronouns are:`,
           {
             type: 'html',
             text: `<b>He</b> eats grapes.<br>
-  <b>She</b> likes pear.<br>
-  <b>You</b> can have <b>it</b>.<br>
-  <b>They</b> like fruits.<br>
-  <b>He</b> runs fast.<br>
-  <b>She</b> jumps high.<br>
-  <b>They</b> are playing outside.<br>
+<b>She</b> likes pear.<br>
+<b>You</b> can have <b>it</b>.<br>
+<b>They</b> like fruits.<br>
+<b>He</b> runs fast.<br>
+<b>She</b> jumps high.<br>
+<b>They</b> are playing outside.<br>
 Aman likes <b>it</b>.`
           }
         ]
@@ -108,39 +108,39 @@ Raju told everyone *that* the party is tomorrow.
       },
       data: [
         `Reena, She
-        Rahul, He
-        Book, It
-        Children, They
-        Siya and Me, We`,
+Rahul, He
+Book, It
+Children, They
+Siya and Me, We`,
 
         `Pencil, It
-        Ram and Shaam, They
-        Richa, She
-        Rony, He
-        Me and Raj, Us`,
+Ram and Shaam, They
+Richa, She
+Rony, He
+Me and Raj, Us`,
 
         `Pen, It
-        Priya, Her
-        Rahul, Him
-        Rena and Sen, Them
-        I, Me`,
+Priya, Her
+Rahul, Him
+Rena and Sen, Them
+I, Me`,
 
         `Pintu and I, We
-        Jashwanth, He
-        Rakhi, She
-        The big bus, It
-        Kishore and Lalith, They`,
+Jashwanth, He
+Rakhi, She
+The big bus, It
+Kishore and Lalith, They`,
 
         `A bike, It
-        This boy, He
-        The girls, They
-        You and Ram, You
-        You and I, We`
+This boy, He
+The girls, They
+You and Ram, You
+You and I, We`
       ]
     },
     {
       label: 'True or False',
-      id: '1000',
+      id: 'true-false',
       type: 'classifySentence',
       commonData: {
         title: 'True or False: The below sentences have personal pronoun.',
@@ -149,48 +149,48 @@ Raju told everyone *that* the party is tomorrow.
       data: [
         [
           `She is a good girl.
-          It is a good book.
-          They are in the park.
-          It is on the table.
-          She has kept it safely.`,
+It is a good book.
+They are in the park.
+It is on the table.
+She has kept it safely.`,
 
           `Karan is playing.
-          Sakshi is a good student.
-          Anya and Avi are very smart.
-          The eraser is used to correct mistakes.
-          The dress is purple.`
+Sakshi is a good student.
+Anya and Avi are very smart.
+The eraser is used to correct mistakes.
+The dress is purple.`
         ],
         [
           `He is sleeping.
-          The book belongs to her.
-          The house belongs to his dad.
-          I am a good writer.
-          Maya is his cousin.`,
+The book belongs to her.
+The house belongs to his dad.
+I am a good writer.
+Maya is his cousin.`,
 
           `Racing cars are very fast.
-          Naman is my cousin.
-          Karan is my brother.
-          Anisha is my niece.
-          My mom is very sweet.`
+Naman is my cousin.
+Karan is my brother.
+Anisha is my niece.
+My mom is very sweet.`
         ],
         [
           `The laptop belongs to us.
-          They own black bikes.
-          They go to the movies.
-          He likes cake.
-          She is going to school.`,
+They own black bikes.
+They go to the movies.
+He likes cake.
+She is going to school.`,
 
           `My dad is a good person.
-          The phone fell down.
-          Ravi is eating.
-          The phone is ringing.
-          The girls are sleeping.`
+The phone fell down.
+Ravi is eating.
+The phone is ringing.
+The girls are sleeping.`
         ]
       ]
     },
     {
       label: 'True or False',
-      id: '1000',
+      id: 'true-false-2',
       type: 'classifySentence',
       commonData: {
         title: 'True or False: The below sentence has demonstrative pronoun.',
@@ -199,21 +199,21 @@ Raju told everyone *that* the party is tomorrow.
       data: [
         [
           `These are very yummy.
-          This is the most comfortable pillow.
-          Those belong to Sakshi.`,
+This is the most comfortable pillow.
+Those belong to Sakshi.`,
 
           `It is a flower.
-          She has my book.
-          My name is Rani.`
+She has my book.
+My name is Rani.`
         ],
         [
           `Do you like this?
-          These are my friends.
-          My mom gifted me that.`,
+These are my friends.
+My mom gifted me that.`,
 
           `My father is very good.
-          The teacher went to school.
-          I forgot to eat.`
+The teacher went to school.
+I forgot to eat.`
         ]
       ]
     },
@@ -224,10 +224,10 @@ Raju told everyone *that* the party is tomorrow.
       data: {
         title: "Fill in the blanks with 'she' and 'her'.",
         text: `I gave *her* the books.
-  *She (Her)* doesn't have a pen.
-  *She (Her)* is so clever.
-  If I tell Roshima, *she* might tell Sunitha.
-  I will talk to *her* about this issue.`,
+*She (Her)* doesn't have a pen.
+*She (Her)* is so clever.
+If I tell Roshima, *she* might tell Sunitha.
+I will talk to *her* about this issue.`,
         options: 'she, her'
       }
     },
@@ -238,10 +238,10 @@ Raju told everyone *that* the party is tomorrow.
       data: {
         title: "Fill in the blanks with 'they' and 'them'.",
         text: `We asked *them* to keep the door open.
-  If you build it, *they* will come.
-  *They (Them)* are very nice people.
-  What do *they* want?
-  I have lost my keys. I can't find *them* anywhere.`,
+If you build it, *they* will come.
+*They (Them)* are very nice people.
+What do *they* want?
+I have lost my keys. I can't find *them* anywhere.`,
         options: 'they, them'
       }
     },
@@ -252,10 +252,10 @@ Raju told everyone *that* the party is tomorrow.
       data: {
         title: "Fill in the blanks with 'he' and 'him'.",
         text: `If you see David, give *him* these books.
-  Does *he* want some coffee?
-  *He (Him)* is a wise man.
-  Did Mohan get the promotion *he* wanted?
-  I didn't recognize *him*.`,
+Does *he* want some coffee?
+*He (Him)* is a wise man.
+Did Mohan get the promotion *he* wanted?
+I didn't recognize *him*.`,
         options: 'he, him'
       }
     },
@@ -291,10 +291,10 @@ Savitha and *I* eat lunch together.
 *Me (I)* and my brother play together in ground.`,
 
         `Could you pass *me* the salt?
-  *I (Me)* don't want to go out now.
-  Vinoth and *I* are going to the movies.
-  Am *I* invited?
-  She gave *me* some coins.`
+*I (Me)* don't want to go out now.
+Vinoth and *I* are going to the movies.
+Am *I* invited?
+She gave *me* some coins.`
       ]
     },
     {
@@ -329,10 +329,10 @@ My grandfather told *us* an interesting story.
 *We (Us)* went to see the circus yesterday.`,
 
         `Let *us* cross the road.
-  Can *we* all go to the swimming pool tomorrow?
-  *We (Us)* were talking to the principal.
-  Thank you for driving *us* to the market.
-  The teacher asked *us* to form a circle.`
+Can *we* all go to the swimming pool tomorrow?
+*We (Us)* were talking to the principal.
+Thank you for driving *us* to the market.
+The teacher asked *us* to form a circle.`
       ]
     },
     {
@@ -353,7 +353,7 @@ My grandfather told *us* an interesting story.
       label: 'Fill up',
       type: 'fillup',
       data: {
-        title: "Fill in the blanks with the correct pronoun.",
+        title: 'Fill in the blanks with the correct pronoun.',
         text: `I bought *that (these, those)* tool yesterday.
 I like *these (this, that)* books.
 *That (Those, These)* is my mom's phone.
