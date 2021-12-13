@@ -164,7 +164,7 @@ My dad presented *that (those)* book on my birthday.
 *These (That)* clothes are wet due to sudden drizzling in the afternoon.`,
 
         `Manisha is wearing a *beautiful (tall)* dress.
-She loves to eat *fresh (slim)* apples.
+She loves to eat *fresh (rotten)* apples.
 Rahul has *curly (deep)* hair.
 A ball is *round (curly)* in shape.
 Birds have *beautiful (high)* feathers.
@@ -178,10 +178,10 @@ My dad is wearing a *black (square)* coat.`,
 Jasmines have *white (black)* petals.
 The Earth is *round (oval)*.
 Grandma gave me a *sweet (sour)* chocolate.
-The book is very *colorful (ill)*.
+The book is very *colorful (round)*.
 Priya loves to eat *sweet (grey)* mangoes.
-Dog is an *honest (sour)* animal.
-Neeta is a *clever (much)* girl.
+A dog is a *domestic (wild)* animal.
+Neeta is a *clever (old)* girl.
 Paddy fields are very *green (blue)*.
 The *black (blue)* soil is rich in nutrients.`,
 
