@@ -80,7 +80,7 @@ We cannot see anything in a *dark (lit)* room.`
             options: `torch, sun , fire`
           },
           {
-            qText: 'What is the most powerfu; source of light?',
+            qText: 'What is the most powerful source of light?',
             options: `sun, moon, lamp`
           },
           {
