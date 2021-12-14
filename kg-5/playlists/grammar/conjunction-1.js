@@ -8,7 +8,7 @@ export default {
       type: 'passage',
       id: 'notes',
       data: {
-        title: 'Joining Words',
+        title: 'Joining Words ',
         text: `Joining words are used to join two or more words or sentences. The two common joining words are 'and' and 'but'.
 'And' is used when we are adding something to our statement. For example,
 1. I like to play and eat.

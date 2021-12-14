@@ -93,7 +93,7 @@ Arms help us to run.`
               options: `body parts we can see outside, body parts inside our body`
             },
             {
-              qText: 'Are sense organs considered as external body part?',
+              qText: 'Are sense organs considered as external body parts?',
               options: `yes, no `
             }
           ]

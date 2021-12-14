@@ -255,6 +255,37 @@ This job is *quite* interesting.`
           'Rearrange the adverbs of frequencies from the most probable to the least probable.',
         text: `Always, Usually, Sometimes, Rarely, Never`
       }
+    },
+    {
+      id: 'fill-up-2',
+      label: 'Fill up with Options',
+      type: 'fillup',
+      commonData: {
+        title: `Choose the correct adverb of frequency. Tap on each blank to view options.`
+      },
+      data: [
+        `We go on a vacation *annually (annualy, once)*.
+He is *often (offten, twice)* late for class.
+We should brush our teeth *twice (two, twise)* in a day.
+I *usually (usual, general)* wake up late on holidays.
+Ram is *never (not, nor)* late for work.
+I *often (more, usual)* travel on weekends.
+When do you *usually (almost, utmost)* study?
+My dad is late, *yet (but, for)* he'll go to the office.
+*Yesterday (Yesternight, Usually)* we had sports day at school.
+I will do my HW *tonight (some night, in the day)*.`,
+
+        `My mom *always (anyways, alway)* gives me lunch.
+I am *constantly (constant, most)* thinking about it.
+I go to school *daily (usual, frequent)*.
+He *generally (general, usual)* eats biscuits with tea.
+I'll talk to you *later (late, lately)*.
+Come here *now (today, you)*.
+I *rarely (lowly, less)* speak to him.
+My dad will be home *soon (fast, quick)*.
+My aunt is coming to my home *today (to day, this day)*.
+*Sometimes (Sometime, Usualy)* we stop to buy candies on our way home.`
+      ]
     }
   ]
 };

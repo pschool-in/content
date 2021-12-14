@@ -300,11 +300,8 @@ Cost of 15 candies = ₹ ?1
 Jai needs to put tiles on the wall. Each tile is 20 cm x 20 cm in dimension. The wall is  600 cm X 400 cm dimension. How many tiles will be required to complete the tiling of the wall. | 600
 Dave has 42 blue pens & 70 black pens. He wants to distribute the pens among his friends. What could be the maximum number of friends among whom Dave can distribute the pens, so each one of them gets an equal number of blue pens and black pens. | 14
 With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If there are 40 people to eat and each one has 5 small paneer cubes, how many packets of paneer are required to buy? | 10`
-
-
       ]
     },
-
 
     {
       // word problem for class 5
@@ -333,7 +330,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         // mix of multiplication / division class 5 - ref Karnataka state book , chaper 1/2 unit-2
         `An orange garden has 72 orange plants. A farmer plucks 15 oranges from each plant and packs 12 oranges in each box. Calculate the number of boxes required to pack all oranges. | 90
         15 school children hire a cab for a day's excursion at ₹ 14 per km. If they travel a distance of 225 km, find the amount to be shared by each one of them. | 210
-        Ananya has a cow which yields 8 litres of milk in a day. The selling price of one litre of milk is ₹ 18. She wants to divide the amount earned in one month (30 days) among her 4 sons. What amount does each one get? | 1080`,
+        Ananya has a cow which yields 8 litres of milk in a day. The selling price of one litre of milk is ₹ 18. She wants to divide the amount earned in one month (30 days) among her 4 sons. What amount does each one get? | 1080`
       ]
     },
     {
@@ -372,9 +369,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         2m 80 cm of cloth is required to stitch a frock. What is the length of cloth required to stitch 12 such frocks? | ?0 m ?1 cm| 33,60
         Length of cloth required to stitch 6 pairs of Kurta and Pyjama is 33 m. What is the length of cloth required to stitch 1 pair of Kurta & Pyjama? | ?0 m ?1 cm| 5,50
         The total length of 8 bundles of wire is 210 m. Find the length of each bundle of wire. | ?0 m ?1 cm| 26,25
-        The height of a table is 1m 25 cm and the height of a stool is 50 cm less than the height of the table. Find the height of the stool. | ?0 m ?1 cm| 0,75`,
-
-        
+        The height of a table is 1m 25 cm and the height of a stool is 50 cm less than the height of the table. Find the height of the stool. | ?0 m ?1 cm| 0,75`
       ]
     },
     {
@@ -388,7 +383,6 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         type: 'word-problem'
       },
       data: [
-
         `A rectangle has an area of 48 square cm. If the length of the rectangle is 8 cm, then what is the breadth? | ?0 cm | 6
         A rectangle has an area of 12 square cm. If the length of the rectangle is 6 cm, then what is the breadth? | ?0 cm | 2
         A square has an area of 16 square cm. What is the length of one side? | ?0 cm | 4
@@ -431,8 +425,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         Perimeter of a rectangle is 36 cm. The area of the rectangle is 80 square cm. What is the length of the bigger side? | ?0 cm | 10
         Perimeter of a rectangle is 42 cm. The area of the rectangle is 20 square cm. What is the length of the smaller side? | ?0 cm | 1
         Perimeter of a square is 36 cm. What is the area of the square? | ?0 square cm | 81
-        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`,
-
+        Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm | 400`
       ]
     },
     {
@@ -467,8 +460,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         A milkman has 27 l of milk. He sells 16 l 650 ml of it. Find the quantity of milk left with him. | ?0 l ?1 ml | 10,350
         A bottle contains 1 l 750 ml of mustard oil. It has to be filled into bottles of 250 ml each. How many bottles are required? | 7
         An oil can contains 15 l of Saffola oil. Out of this Rani uses 3 l 400 ml in the first month and 5 l 350 ml in the second month. Find the quantity of oil left in the oil can. | ?0 l ?1 ml | 6,250
-        A vessel contains 3 l 300 ml of tea. It is poured into 12 glasses of the same size equally. What is the quantity of tea contained in each glass? | ?0 ml | 275`,
-
+        A vessel contains 3 l 300 ml of tea. It is poured into 12 glasses of the same size equally. What is the quantity of tea contained in each glass? | ?0 ml | 275`
       ]
     },
     {
@@ -488,9 +480,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         Sanha studies for 5 hr. 10 min in her school. At home, she studies 2 hr. 50 min. What is the total number of hours she studied on that day? | 8
         Mahi spent his 15 days holiday in his uncle's place from 7 - 11 - 2021. On which date does he leave his uncle's place? | ?0 - ?1 - ?2 | 22,11,2021
         A school closes for mid-term vacation on October 3rd and reopens on October 21st. How many days has the school closed for mid term vacation? | 18
-        A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the factory at 2 : 45 p.m. For how many hours has he worked in the factory? | 7`,
-
-
+        A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the factory at 2 : 45 p.m. For how many hours has he worked in the factory? | 7`
       ]
     },
     {
@@ -504,7 +494,6 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
         type: 'word-problem'
       },
       data: [
-
         `A pizza is divided into 6 pieces. You ate 1 piece. What is the fraction of pizza you ate? | ?0/?1 | 1, 6
         You had 8 balloons. You gifted your friends 5 balloons. What was the fraction of balloons you have gifted your friends? | ?0/?1 | 5, 8
         You had 10 marbles with you. You took 2 marbles to play. What is the fraction of marble you took to play? | ?0/?1 | 1, 5
@@ -517,14 +506,12 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
        Amit owns a total of 10 pairs of socks of which 5 pairs are black and the rest are blue. What fraction of pairs of socks are blue? | ?0/?1 | 1, 2
        India won 4 matches out of 6 matches they played. What fraction of matches India won? | ?0/?1 | 2, 3`,
 
-       `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
+        `The Indian team has 11 players. There are a total 6 teams in the tournament with each team having 11 players. What is the fraction of Indian players in the tournament? | ?0/?1 | 1, 6
        Ram has 2 blue pens, 4 black pens and 6 red pens. What fraction of black pens can be found with Ram? | ?0/?1 | 1, 3
        There are a total of 52 building blocks in a bag. Alex uses 36 blocks to build a house. What fraction of building blocks remain unused? | ?0/?1 | 4, 13
        There were 50 chips in a chips packet. You ate 35 chips. What was the fraction of chips left with you? | ?0/?1 | 3, 10
-       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `,
-
+       You had 14 toys with you. 4 toys broke while playing with your friends. What is the fraction of toys broken while playing? | ?0/?1 | 2, 7 `
       ]
-    },
-    
+    }
   ]
 };
