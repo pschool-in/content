@@ -40,34 +40,34 @@ Deepa is reading <b>so</b> quickly.`
         title: 'Click on the adverb in the below sentence.'
       },
       data: [
-        `Anu swims *well.*
-Hari ran *fast.*
-Sheela spoke *softly.*
-Ram plays the flute *beautifully.*
-Siva ate the chocolate cake *eagerly.*
+        `Anu swims *well*.
+Hari ran *fast*.
+Sheela spoke *softly*.
+Ram plays the flute *beautifully*.
+Siva ate the chocolate cake *eagerly*.
 The town grew *quickly* after 1997.
 Muthu waited *patiently* for his mother to arrive.
 Vino swam *well* despite being tired.
 The rain fell *hard* during the storm.
-They speak English *fluently.*`,
+They speak English *fluently*.`,
 
-        `We must go *now.*
-The tortoise moves *slowly.*
+        `We must go *now*.
+The tortoise moves *slowly*.
 It is *very* cold at night.
-James coughed *loudly.*
-Kamal answered all the questions *correctly.*
+James coughed *loudly*.
+Kamal answered all the questions *correctly*.
 The cat walked *calmly* along the fence.
 They are working *hard* in the sun.
 The poor man's hut was *badly* damaged in the rain.
 I *eagerly* wait to go home.
-Pooja forgot her lunch *yesterday.*`,
+Pooja forgot her lunch *yesterday*.`,
 
-        `We have a holiday *tomorrow.*
-I am happy *today.*
+        `We have a holiday *tomorrow*.
+I am happy *today*.
 Is Kamala *still* sleeping?
 Please come *forward* and answer.
-He answered all questions *correctly.*
-I brush my teeth *twice.*
+He answered all questions *correctly*.
+I brush my teeth *twice*.
 Our teacher is *always* punctual.
 Dheena is *often* late for the Maths class.
 I *always* read comic books.
@@ -84,12 +84,12 @@ Please come *forward* and answer.`
       },
       data: [
         [
-          `They speak English *fluently.*
-We must go *now.*
-Pooja forgot her lunch *yesterday.*`,
+          `They speak English *fluently*.
+We must go *now*.
+Pooja forgot her lunch *yesterday*.`,
 
           `It is *very* cold at night.
-I am happy *today.*
+I am happy *today*.
 He is *really* funny.`,
 
           `Helen drives *extremely* fast.
@@ -98,8 +98,8 @@ I have seen her *only* once.`
         ],
         [
           `Please come *forward* and answer.
-The tortoise moves *slowly.*
-He answered all questions *correctly.*`,
+The tortoise moves *slowly*.
+He answered all questions *correctly*.`,
 
           `The water is hot *enough* to prepare tea.
 You have to be *more* careful.

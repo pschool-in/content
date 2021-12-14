@@ -34,7 +34,7 @@ He went to the market by <b>himself</b>.`
       id: 'drag-and-drop',
       type: 'group',
       data: {
-        title: 'Drag the given words and put it in the right boxes.',
+        title: 'Drag and drop the given words in the right boxes.',
         types: [
           {
             name: 'Reflexive pronoun',
@@ -80,7 +80,7 @@ me, myself`
 Did you write the poem *yourself*?
 I carried the heavy box by *myself*.
 My brother and I looked at *ourselves* in the mirror.
-I introduced *myself* to my neighbours.
+I introduced *myself* to my neighbors.
 Let's clean the room *ourselves*.
 Can you tell me about *yourself*?
 Amrita baked this cake *herself*.
@@ -95,7 +95,7 @@ I love *myself*.
 Harish lives in a big house by *himself*.
 I don't like eating by *myself*.
 Let's complete this work *ourselves*.
-The AC turned off by *itself*.
+The AC is turned off by *itself*.
 We will build the treehouse by *ourselves*.`,
 
         `I cannot do it *myself*.
@@ -136,11 +136,11 @@ He <b>himself</b> cut the cake.`
         title: `Click on the blanks and choose the correct reflexive pronoun.`
       },
       data: [
-        `She never talks about *herself(itself)*.
-He did all the paintings by *himself(themselves)*.
-The dog hurt *itself(himself)*.
-Shaanvi sang quietly to *herself(itself)*.
-Shiva hurt *himself(ourselves)* while climbing the ladder.
+        `She never talks about *herself (itself)*.
+He did all the paintings by *himself (themselves)*.
+The dog hurt *itself (himself)*.
+Shaanvi sang quietly to *herself (itself)*.
+Shiva hurt *himself (ourselves)* while climbing the ladder.
 Rajeev was proud of *himself (herself)*.
 He went trekking by *himself (itself)*.
 Subrat and Shiv cleaned the room by *themselves (ourselves)*.

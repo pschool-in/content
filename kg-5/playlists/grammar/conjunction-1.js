@@ -64,10 +64,10 @@ She plays *and (but)* walks in the park.`
       label: 'Indentify the joining word.',
       id: 'select-word',
       commonData: {
-        title: 'Tap on the joining words in these sentences.'
+        title: 'Select the joining words in these sentences.'
       },
       data: [
-        `I have a black shirt *and* a blue jeans.
+        `I have a black shirt *and* blue jeans.
 He likes pasta *but* I like burgers.
 We play cricket *and* chess at school.
 My dad has a car *but* he likes to drive a motorcycle.

@@ -27,7 +27,7 @@ This cat is <b>ours</b>.`
       id: 'drag-and-drop',
       type: 'group',
       data: {
-        title: 'Drag the given words and put it in the right boxes.',
+        title: 'Drag and drop the given words in the right boxes.',
         types: [
           {
             name: 'possessive pronoun',
@@ -59,15 +59,15 @@ Is this pencil *yours*?
 My car is bigger than *his*.
 This house is *ours*.`,
 
-        `I paid for my book, so it is *mine*.
+        `I paid for this book, so it is *mine*.
 Pick any of these chocolates, the choice is *yours*.
 The cricket bat belongs to Ram. It is *his*.
 We bought this music player together. So it is *ours*.
-All my cousins love cricket. Playing cricket is a favourite pass time of *theirs*.`,
+My cousins love cricket. These balls are *theirs*.`,
 
         `She bought a new bicycle. It is *hers* now.
 That book is *mine*. He thought it was *his*.
-We bought many new balls yesterday. All of them are *ours*.
+We bought many toffees yesterday. All of them are *ours*.
 That pen is not mine. It may be *yours*.
 They go to the village in the car. It is *theirs*.`,
 
@@ -114,21 +114,21 @@ That dress belongs to you.`
         title: `Click on the blank and fill in the correct possessive pronoun.`
       },
       data: [
-        `This is my laptop. It's *mine(me)*.
-You have a new toy. It is *yours(us)*.
-The water bottle belongs to her. It is *hers(mine)*.
-He has a new phone. It is *his(her)*.
-You have a cap. It is *yours(hers)*.
+        `This is my laptop. It's *mine (me)*.
+You have a new toy. It is *yours (us)*.
+The water bottle belongs to her. It is *hers (mine)*.
+He has a new phone. It is *his (her)*.
+You have a cap. It is *yours (hers)*.
 This was not my mistake. It was *yours (us)*.
 My room is bigger than *yours (us)*.
 Is this dress *hers (us)*?
 I have a new watch. It is *mine (me)*.
 We have new remote cars. They are *ours (yours)*.`,
 
-        `Jack has a toy car. It is *his(her)*.
-I have mittens. They are *mine(ours)*.
-Sangamitra has a doll. It is *hers(ours)*.
-Mannu and I have many dolls. They are *ours(yours)*.
+        `Jack has a toy car. It is *his (her)*.
+I have mittens. They are *mine (ours)*.
+Sangamitra has a doll. It is *hers (ours)*.
+Mannu and I have many dolls. They are *ours (yours)*.
 Uncle and Aunt have a car. It is *theirs (mine)*.
 This lunch box belongs to him. It is *his (hers)*.
 Meera has boots. They are *hers (his)*.
@@ -149,8 +149,8 @@ Pooja and Saanvi have a kitchen set. It is *theirs (us)*`
 Swati and I live in a big house. It is *ours*.
 I am making a drawing. The drawing is *mine*.
 I brought my violin. It is *mine*.
-I own the bike. It is *mine*.
 This dog is *ours*.
+I own the bike. It is *mine*.
 Is this box *yours*?
 This farm is *ours*.
 The cricket bat is *mine*.
