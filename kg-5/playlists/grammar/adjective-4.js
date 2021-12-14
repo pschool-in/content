@@ -68,7 +68,7 @@ This is my sister. *Her* name is Tanvi.`
     },
     {
       id: 'classify-2',
-      label: 'Classify - Interrogative Adjective',
+      label: 'Classify Adjective-2',
       type: 'classifySentence',
       data: {
         title: 'Identify the underlined adjective and state its kind.',
@@ -164,7 +164,7 @@ My dad presented *that (those)* book on my birthday.
 *These (That)* clothes are wet due to sudden drizzling in the afternoon.`,
 
         `Manisha is wearing a *beautiful (tall)* dress.
-She loves to eat *fresh (slim)* apples.
+She loves to eat *fresh (rotten)* apples.
 Rahul has *curly (deep)* hair.
 A ball is *round (curly)* in shape.
 Birds have *beautiful (high)* feathers.
@@ -185,7 +185,7 @@ Neeta is a *clever (much)* girl.
 Paddy fields are very *green (blue)*.
 The *black (blue)* soil is rich in nutrients.`,
 
-        `In the morning, the *heavy (plump) snow was covering the ground.
+        `In the morning, the *heavy (plump)* snow was covering the ground.
 Suresh is a *lazy (smart)* boy and always fails in the exam.
 The *rich (poor)* man has got a lot of money.
 The sums are *difficult (easy)* to solve in the given time.

@@ -10,8 +10,8 @@ export default {
       data: {
         title: 'Order of Adjective',
         text: [
-          `Very often we use more than one adjective with the noun. In that case, the order
-of adjective is very important.`,
+          `Very often we use more than one adjective with the noun. 
+          In that case, the order of adjective is very important.`,
           {
             type: 'html',
             text: `Eg: <br>
@@ -177,15 +177,15 @@ size, <b>yellow</b> is the color`
             },
             {
               qText: 'I have _______ pencils.',
-              options: 'five big, big five, wooden big'
+              options: 'five big, big five'
             },
             {
               qText: 'The _______ kitten was lost.',
               options: 'little pink, pink little'
             },
             {
-              qText: 'My dad is a ______ man.',
-              options: 'tall Indian, Indian tall'
+              qText: 'I have ______ rose plants in my garden.',
+              options: 'five beautiful, beautiful five'
             }
           ]
         }
@@ -299,7 +299,7 @@ Please wear a *clean* shirt before you go out.`
         `The mangoes are *sweet*.
 The lion has *sharp* claws.
 The car is moving *fast*.
-Can you give me *little* water?
+Can you give me *some* water?
 The dress is very *colorful*.`,
 
         `The *tall* man bought apples.
@@ -334,7 +334,7 @@ Manish lives in a *large* house located near the park.
 We cooked *enough* food for our guests who arrived in the evening.
 I bought *twelve* oranges from the supermarket yesterday.`,
 
-        `We learned a *new* recipe in the cooking class today.
+        `We learned an *Italian* recipe in the cooking class today.
 Aditya has *four* books on his shelf which he borrowed from the library.
 Bhavya wore a *traditional* dress for Diwali celebrations in the society.
 Mahesh was very *gentle* while cleaning his laptop.

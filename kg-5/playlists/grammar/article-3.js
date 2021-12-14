@@ -313,46 +313,47 @@ I like the red T-shirt.
 Mahesh's father is an engineer.
 Rahul has a terrible headache.`,
 
-          `I work as an English teacher in a school.
-He is a friend of mine.
-A gun is a very dangerous weapon.
-I collected the postcard from the post office.`,
-
-          `My dad came an hour ago.
-An octopus has eight tentacles.
-Nandana is the fastest swimmer in our group.`
-        ],
-        [
-          `Do you live in the Hyderabad?
+`Do you live in the Hyderabad?
 The London is big city.
 Who is an lady in a picture?
 Do you still live in the Banglore?
-What did you have for a breakfast today?`,
+What did you have for a breakfast today?`          
+],
+[
+`My dad came an hour ago.
+An octopus has eight tentacles.
+Nandana is the fastest swimmer in our group.`,
 
-          `We live in an village.
+`We live in an village.
 My friend gave me an basket of fruits.
 I saw a eagle near my farm.
-A owl was sitting on the roof of my house.`,
-
-          `I had a ice-cream after my dinner.
+A owl was sitting on the roof of my house.`          
+],
+[
+`I work as an English teacher in a school.
+He is a friend of mine.
+A gun is a very dangerous weapon.
+I collected the postcard from the post office.`,
+  
+`I had a ice-cream after my dinner.
 My grandfather has a inkpot on his writing-table.
 He is best player in the team.`
-        ]
-      ]
-    },
-    {
-      label: 'Drag and Drop',
-      type: 'matchByDragDrop',
-      id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
+    ]
+  ]
+},
+{
+  label: 'Drag and Drop',
+  type: 'matchByDragDrop',
+  id: 'drag-drop',
+  commonData: {
+    isPractice: false,
+    title:
+      'Fill in the blanks by dragging the options given at the bottom.',
+    styles: {
+      fontSize: '1rem',
+      dashWidth: 80
+    }
+  },
       data: [
         `I saw *a* colorful kite hanging on our mango tree.
 Subrat is the *tallest* boy in the class.

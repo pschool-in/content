@@ -45,7 +45,7 @@ heavy, heavier, heaviest`
       data: [
         [
           `Vijay is a tall boy.
-Tamil is a old language.
+Tamil is an old language.
 The Himalayas is a tall mountain range.`,
 
           `Vijay is taller than Ramu.
@@ -110,7 +110,7 @@ Vijay is a *tall(taller, tallest)* boy.
 Vijay is *taller (tall, tallest)* than Ramu.
 Dogs are the *most (more)* faithful animals.
 Tamil is *older (old,oldest)* than English.
-Tamil is a *old (older, oldest)* language.
+Tamil is an *old (older, oldest)* language.
 Tamil is one of the *oldest (old, older)* languages in the world.
 The Himalayas is the *tallest(tall, taller)* mountain range.
 The Himalayas is a *tall(taller, tallest)* mountain range.
@@ -151,7 +151,7 @@ Mani is the *fastest(fast,faster)* boy in our class.`
       ]
     },
     {
-      label: 'Identify the Degree of Comparison.',
+      label: 'Identify the Degree of Comparison-2.',
       type: 'classifySentence',
       id: 'classify-2',
       commonData: {
@@ -285,9 +285,9 @@ Monkeys are *small* animals.
 Rabbits are *smaller* than monkeys.
 Ants are the *smallest* of all three.`,
 
-        `Lion is a *heavy* animal.
-Crocodile is *heavier* than lion.
-Elephant is the *heaviest* among all three.
+        `My mom is a *good* cook.
+My aunt is a *better* cook than my mom.
+My grandmother is the *best* cook of all.
 My room is *tidy*.
 My brother's room is *tidier than mine.
 My mother's room is the *tidiest* of all three.`

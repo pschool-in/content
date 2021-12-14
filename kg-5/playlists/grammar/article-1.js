@@ -106,11 +106,11 @@ rose, a, an
 frog, a, an
 door, a, an
 pear, a, an
-peach, a, an
+omelette, an, a
 shoe, a, an
 horse, a, an
-brush, a, an
-pin, a, an`
+accident, an, a
+old man, an, a`
       ]
     },
     {
