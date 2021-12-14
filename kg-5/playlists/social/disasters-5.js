@@ -9,10 +9,10 @@ export default {
       type: 'passage',
       data: {
         text: `# Calamities 
-Some even that occur cause great damage to human life and property. Such events and situations are called emergencies or calamities. When they are caused by natural factors we call them natural calamities.
+Some events that occur cause great damage to human life and property. Such events and situations are called emergencies or calamities. When they are caused by natural factors we call them natural calamities.
 # Fire
 In case of fire:
-1. There will be long bell. Listen to it.
+1. There will be a long bell. Listen to it.
 2. Keep calm and do not shout.  
 3. Shut down all the windows.
 4. Walk out of the building and do not run.
@@ -28,11 +28,11 @@ In case of earthquake:
 # Tsunami
 Before a tsunami strikes, the water in the sea usually retreats by almost a mile. If you are on a beach or coastal area when the water retreats, immediately rush towards land. Run as far as possible from the sea.
 # Cyclone and Floods
-Cyclone prone India states are Andhra Pradesh, West Bengal, Odisha, Assam, Gujrat and Maharashtra. Floods can also be caused by a cyclone.
+Cyclone prone India states are Andhra Pradesh, West Bengal, Odisha, Assam, Gujarat and Maharashtra. Floods can also be caused by a cyclone.
 # Drought
-Drought prone areas in India are Uttar Pradesh, Telangana, Chhatisgarh, Haryana, Maharashtra, Odisha, Rajasthan and Tamil Nadu.
+Drought prone areas in India are Uttar Pradesh, Telangana, Chhattisgarh, Haryana, Maharashtra, Odisha, Rajasthan and Tamil Nadu.
 # Disaster Management 
-Advances in technology have made it possible to warn people about some disasters beforehand and to help minimise the damage caused. Floods, cyclones, droughts and sometimes tsunamis canbe predicted. This knowleedge helps us save many lives. After the disaster the government sets up, relief camps for the affected people and provides food, drinking water and bedding. The army is also called in to airlift stranded people and airdrop food. Emergency services are alerted immediately. Medecines are provided to the people as there is a high risk ofan outbreak of diseases. Organizations suchas Red Cross Society and World Health Organization provide voluntary services. People from all over the country donate to relief funds.`,
+Advances in technology have made it possible to warn people about some disasters beforehand and to help minimise the damage caused. Floods, cyclones, droughts and sometimes tsunamis can be predicted. This knowledge helps us save many lives. After the disaster the government sets up relief camps for the affected people and provides food, drinking water and bedding. The army is also called in to airlift stranded people and airdrop food. Emergency services are alerted immediately. Medicines are provided to the people as there is a high risk ofan outbreak of diseases. Organizations such as the Red Cross Society and World Health Organization provide voluntary services. People from all over the country donate to relief funds.`,
         title: 'Times of Emergencies'
       }
     },
@@ -45,7 +45,7 @@ Advances in technology have made it possible to warn people about some disasters
         types: [
           {
             name: 'True',
-            text: `Red Cross help people during disasters.
+            text: `The Red Cross helps people during disasters.
 Cyclones are formed over the sea.`
           },
           {
@@ -61,7 +61,7 @@ During an earthquake we should stay indoors.`
       label: 'Match the following',
       type: 'match',
       data: {
-        text: `flood, water ovwerflow
+        text: `flood, water overflow
 earthquake, aftershock
 tsunami, giant waves
 drought, dry lands
@@ -119,14 +119,14 @@ The state of Himachal Pradesh are prone to *cyclones*.`
           {
             name: 'Do',
             text: `Keep calm and do not run in case of a fire
-In case of an earthquake move to open ground or stay beneath furniture.
+In case of an earthquake, move to open ground or stay beneath furniture.
 Watch out for warning on radio and television`
           },
           {
             name: `Don't`,
             text: `Ignore warning signs.
 Panic in case of emergency and cause commotion.
-Stay under door or stairs in time of an earthquake.`
+Stay under doors or stairs in time of an earthquake.`
           }
         ]
       }
