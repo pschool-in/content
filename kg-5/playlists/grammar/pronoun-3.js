@@ -4,18 +4,22 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Possessive Pronouns',
+      label: 'Notes',
       type: 'passage',
-      id: 'possessive-pronouns-reading',
+      id: 'notes',
       data: {
-        title: 'Pronouns - Possessive',
-        text: `A pronoun that is used to indicate ownership or possession is called a possessive pronoun. In other words a possessive pronoun represents a noun and tells us who owns it. For example: his, yours, hers, mine, ours, theirs, etc.
-Examples in sentences:
-1. That is his car.
-2. This notebook is mine.
-3. The car is hers.
-4. That book is yours.
-5. This cat is ours.`
+        title: 'Possessive Pronouns',
+        text: [
+          `These are used to indicate ownership or possession. 
+          Eg: his, yours, hers, mine, ours, theirs`,
+          {
+            type: 'html',
+            text: `This notebook is <b>mine</b>.
+The car is <b>hers</b>.
+That book is <b>yours</b>.
+This cat is <b>ours</b>.`
+          }
+        ]
       }
     },
     {

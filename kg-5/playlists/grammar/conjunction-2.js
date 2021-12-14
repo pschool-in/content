@@ -62,11 +62,53 @@ We're going to the park in the evening, <b>so</b> I'll take a nap in the noon.`
       }
     },
     {
+      type: 'selectWord',
+      label: 'Indentify the conjunction.',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the conjunction in the below sentence.'
+      },
+      data: [
+        `I love to swim *and* play tennis.
+We may go to the movies *or* to the theme park.
+John *and* Peter are good basketball players.
+I have a raincoat *but* I forgot to bring it.
+I was on leave *because* I had a headache.
+He was afraid of the dog *so* he ran away.
+Don't open your mouth *unless* I ask you to speak.
+Let me know *if* you want to go.
+She is short *whereas* her brother is tall.
+I ran fast, *yet* I came last.`,
+
+        `We go to the nearby park *whenever* my cousins visit us.
+She is rich *but* unhappy.
+Work hard *or* you will fail.
+He did not study well *because* he was lazy.
+Children like to play cricket *or* football.
+We cannot go home *unless* we get permission.
+I can stay here *until* you ask me to leave.
+Please do not call me *unless* it is an emergency.
+He wears a hat *whenever* he goes outside.
+Dad goes fishing *whenever* he's free.`,
+
+        `I am glad to help you *whenever* you need me.
+I usually don't like movies *though* I like cartoons.
+You can eat an apple *if* you get hungry before dinner.
+I’m staying home *since* it started raining.
+I liked him *so* I helped him.
+Water *and* oil do not mix.
+*Before* we left home, I had my breakfast.
+We reached home *before* the rain came.
+*As* I opened my eyes, I saw a strange animal.
+I waited for him *until* he arrived.`
+      ]
+    },
+    {
       id: 'and-or-but',
       label: 'And, Or, But',
       type: 'fillup',
       data: {
-        title: "Click on the blanks and pick the correct connecting word.",
+        title: 'Click on the blanks and pick the correct connecting word.',
         text: `I wanted to wash my shoes, *but* I forgot to do it.
 I bought a sandwich *and* coffee for lunch.
 Her name is Priya *or* Maya.
@@ -80,12 +122,12 @@ Please bring a paper *and* a pencil.`,
         options: 'and, but, or'
       }
     },
-   {
+    {
       id: 'so-because',
       label: 'So vs Because',
       type: 'fillup',
       commonData: {
-        title: "Click on the blanks and fill it with the correct options.",
+        title: 'Click on the blanks and fill it with the correct options.',
         options: 'so, because'
       },
       data: [

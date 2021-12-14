@@ -6,25 +6,27 @@ export default {
     {
       label: 'Reflexive Pronoun',
       type: 'passage',
-      id: 'reflexive-pronoun-reading',
+      id: 'notes',
       data: {
         title: 'Reflexive Pronounoun',
-        text: `The words ending in -self(singular) and -selves (plural) that are used when the subject and the object of the sentence are the same are called reflexive pronouns. They tell us the doer and the receiver of the action is the same person.
-In simple terms, reflexive pronouns tell us that someone is doing something on his/her own.
-
-Example: She made herslef a cup of tea.
-
-Here in this sentence - she(doer) made herself(receiver) a cup of tea, the reflexive pronoun herself refers back to she. That means a person who does the action and receives it is the same.
-
-Examples of reflexive pronouns in singular and plural forms are:
-Singular: yourself, himself, herself, itself, myself
-Plural: yourselves, ourselves (we), themselves (they)
-Sentence based examples of reflexive pronouns:
-1. She bought herself a new dress.
-2. They are doing the homework by themselves.
-3. Don't hurt yourselves while playing.
-4. Rekha cleaned her room by herself.
-5. He went to the market by himself.`
+        text: [
+          {
+            type: 'html',
+            text: `The words ending in <i>-self</i> and <i>-selves</i> are usually called reflexive pronouns. They tell us, the <b>doer</b> and the <b>receiver</b> of the action are the same person. Eg:`
+          },
+          {
+            type: 'sitewords',
+            text: `Singular: yourself, himself, herself, itself, myself
+Plural: yourselves, ourselves, themselves`
+          },
+          {
+            type: 'html',
+            text: `They are doing the homework by <b>themselves</b>.
+Don't hurt <b>yourselves</b> while playing.
+Rekha cleaned her room by <b>herself</b>.
+He went to the market by <b>himself</b>.`
+          }
+        ]
       }
     },
     {
@@ -107,6 +109,24 @@ I made lunch all by *myself*.
 She hurt *herself* while using the fork.
 Did you learn French *yourself*?`
       ]
+    },
+    {
+      label: 'Emphatic Pronoun',
+      type: 'passage',
+      id: 'notes-2',
+      data: {
+        title: 'Emphatic Pronouns',
+        text: [
+          `They are used to put emphasis on the subject. So usually they follow the subject.
+This is very similar to reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
+          {
+            type: 'html',
+            text: `She <b>herself</b> cooked the food.
+I <b>myself</b> saw him.
+He <b>himself</b> cut the cake.`
+          }
+        ]
+      }
     },
     {
       id: 'fill-up',

@@ -1,31 +1,51 @@
 export default {
   id: 'pronoun-2',
-  label: 'Pronoun-2',
+  label: 'Personal Pronouns',
   pdf: '',
   list: [
     {
-      label: 'Personal Pronouns',
+      label: 'Notes',
       type: 'passage',
-      id: 'reading',
+      id: 'notes',
       data: {
         title: 'Personal Pronouns',
         text: [
-          `A personal pronoun is a word that takes place of naming words. Personal pronouns are he, she, it and they. 
-For example: 
-Rahul is a good boy. 
-'Rahul' is a noun in this sentence. So, it can be replaced with the personal pronoun 'he'. So this sentence can also be written as, 
-He is a good boy.
-Some more examples of personal pronouns are:`,
+          `Pronoun used in the position of name, place or thing is called personal pronoun.
+          # First Person:`,
+          {
+            type: 'hilight',
+            text: `singular: I, me
+            plural: We, Us`
+          },
+          'Second Person:',
+          {
+            type: 'hilight',
+            text: `singular: you
+            plural: you`
+          },
+          'Third Person:',
+          {
+            type: 'hilight',
+            text: `singular: he, she, it, him, her
+            plural: they, them`
+          },
           {
             type: 'html',
             text: `<b>He</b> eats grapes.<br>
 <b>She</b> likes pear.<br>
 <b>You</b> can have <b>it</b>.<br>
-<b>They</b> like fruits.<br>
-<b>He</b> runs fast.<br>
-<b>She</b> jumps high.<br>
-<b>They</b> are playing outside.<br>
-Aman likes <b>it</b>.`
+<b>They</b> are playing outside.`
+          },
+          'Personal pronouns can be divided into two types:',
+          '# Subject Pronoun',
+          {
+            type: 'hilight',
+            text: `I, we, you, she, he, it, they`
+          },
+          '# Object Pronoun',
+          {
+            type: 'hilight',
+            text: `me, us, you, her, him, it, them`
           }
         ]
       }
@@ -356,14 +376,20 @@ I have lost my keys. I can't find *them* anywhere.`,
     {
       label: 'Demonstrative Pronouns',
       type: 'passage',
-      id: 'demonstrative-pronouns-reading',
+      id: 'notes-2',
       data: {
         title: 'Demonstrative Pronouns',
-        text: `Demonstrative pronouns represent nouns. It expresses the position and the time. It can be both singular and plural. These pronouns include this, that, these and those. Some examples are;
-1. This is great.
-2. Is that yours?
-3. Eat these quickly.
-4. Throw those away.`
+        text: [
+          `They are used to point specific things.
+Eg: this, that, these, those, none, neither`,
+          {
+            type: 'html',
+            text: `<b>This</b> is great.<br>
+Is <b>that</b> yours?<br>
+Eat <b>these</b> quickly.<br>
+Throw <b>those</b> away.`
+          }
+        ]
       }
     },
     {

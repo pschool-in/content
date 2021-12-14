@@ -1,5 +1,5 @@
 export default {
-  label: 'Pronoun - Introduction',
+  label: 'Introduction to Pronoun',
   id: 'pronoun-1',
   lockAfter: 4,
   list: [
@@ -10,38 +10,14 @@ export default {
       data: {
         title: 'Pronouns',
         text: [
-          `Pronouns are words used in the place of nouns, to avoid repetition of nouns.
-Eg: I, he, she, we, me, us, her, him, they, them`,
-          '# Personal Pronouns',
-          `They are used to indicate a specific or group of people or things.`,
-          `A personal pronoun can be used as subject or object in a sentence. In the below word pairs, the first one is used as subject and the second one is used as object.`,
+          `Priyanka is a good girl. Priyaka lives near our school. Priyanka comes to school walking.
+In the above paragraph, the word 'Priyanka' is repeated multiple times. To avoid repeating the noun, we use pronoun.
+Priyanka is a good girl. She lives near our school. She comes to school walking. Pronouns are used in the place of noun. Some of the commonly used pronouns are:`,
           {
-            type: 'hilight',
-            text: `I , me
-we, us
-she, her
-he, him
-they, them`
-          },
-          `'You' is used both subject and object.`,
-          '# Possesive Pronouns',
-          `They are used to show ownership or possession. eg: mine, yours, his, hers, ours, theirs`,
-          `# Demonstrative Pronouns`,
-          `They are used to point at something. eg: this, that, these, those, their`,
-          '# Reflexive Pronouns',
-          `It is used as an object that refers back to the subject. eg: myself, yourself, herself, himself, itself`,
-          {
-            type: 'hilight',
-            text: `He cuts himself while chopping the vegetables.
-I don't trust myself in tough times.`
-          },
-          `# Emphatic Pronouns`,
-          `They are used to put emphasis on the subject. So usually they follow the subject.`,
-          {
-            type: 'hilight',
-            text: `She herself cooked the food.
-I myself saw him.
-He himself cut the cake.`
+            type: 'sitewords',
+            text:
+              'I, me, he, she, it, we, us, they, them, these, those, you, your',
+            width: 50
           }
         ]
       }

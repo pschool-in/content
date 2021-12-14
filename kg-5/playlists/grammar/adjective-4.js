@@ -356,11 +356,12 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
     },
     {
       label: 'Identify the adjectives',
-      type: 'matchByDragDrop',
+      type: 'selectWord',
       id: 'multi-select-word',
       commonData: {
         isPractice: false,
         title: 'Select the adjectives in the passage.',
+        multiSelect: true,
         styles: {
           fontSize: '1rem',
           dashWidth: 80

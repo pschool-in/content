@@ -4,27 +4,27 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Interrogative Pronoun',
+      label: 'Notes',
       type: 'passage',
-      id: 'pronoun-reading',
+      id: 'notes',
       data: {
         title: 'Interrogative Pronoun',
-        text: `We know that pronouns are the words used to replace one or more nouns. Apart from personal, possessive, demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
-These are used to ask questions. The sentences with interrogative pronouns always end up with question marks. 
-
-There are five different types of Interrogative pronouns:
+        text: [
+          `These are used to ask questions. The sentences with interrogative pronouns always end with question marks. There are five Interrogative pronouns:
 1. What
 2. Which
 3. Who
 4. Whom
-5. Whose
-
-Some examples of interrogative pronouns:
-1. What is your name?
-2. Which is your favourite food?
-3. Who did this?
-4. Whom did you meet yesterday?
-5. Whose bike is this?`
+5. Whose`,
+          {
+            type: 'html',
+            text: `<b>What</b> is your name?
+<b>Which</b> is your favourite food?
+<b>Who</b> did this?
+<b>Whom</b> did you meet yesterday?
+<b>Whose</b> bike is this?`
+          }
+        ]
       }
     },
     {

@@ -388,7 +388,7 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Pronoun - Introduction',
+    label: 'Introduction to Pronoun',
     id: 'pronoun-1',
     grade: 'g1, g2, g3, g4, g5'
   },
