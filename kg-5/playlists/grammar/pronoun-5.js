@@ -101,7 +101,7 @@ To *whom (what)* did he give his watch?
     },
     {
       id: 'classify-sentence',
-      label: 'Identify - Reflexive or possessive pronoun',
+      label: 'Identify the type of pronoun',
       type: 'classifySentence',
       commonData: {
         title: 'Identify the type of pronoun.'
