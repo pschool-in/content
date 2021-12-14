@@ -265,6 +265,87 @@ I locked the house *myself*.`,
 He met the President *himself*.`
         ]
       ]
+    },
+    {
+      id: 'fillup-3',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      commonData: {
+        title: 'Click on the blank and fill in the right pronoun.'
+      },
+      data: [
+        `He *himself (herself)* attended the class.
+*Where (Who)* are the apples?
+I saw a friend of *yours (yourself)* at the party.
+*We (Us)* enjoyed hearing *her (herself)* sing.
+The dog fetches the stick *itself (himself)*.
+*These (Them)* shoes are very comfortable.
+She asked *what (when)* we wanted for lunch.
+The building *itself (herself)* is very tall.`,
+
+        `Her writing is so much better than *mine (my)*.
+*You (Yours)* are the best player on the team.
+*Who (Whom)* will win the championship?
+Is *that (them)* bag *yours (your)*?
+*They (Them)* are coming from America.
+This book is *mine (my)* not *yours (your)*.
+*That (You)* is such an interesting book.`
+      ]
+    },
+    {
+      id: 'match-2',
+      label: 'Match Pronouns',
+      type: 'match',
+      commonData: {
+        title: 'Match the Related Pronouns',
+        fontSize: '1rem'
+      },
+      data: [
+        `Me & You, Personal
+This & That, Demonstrative
+Mine & Hers, Possessive
+Herself & Myself, Reflexive
+What & Whom, Interrogative`,
+
+        `He & She, Personal
+These & Those, Demonstrative
+Theirs & Ours, Possessive
+Themselves & Yourself, Emphatic
+Which & Whose, Interrogative`
+      ]
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      commonData: {
+        isPractice: false,
+        title:
+          'Fill in the blanks by dragging the options given at the bottom.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
+      },
+      data: [
+        `I *myself* did it.
+*Whose* purse is this?
+That table is *ours*.
+None of *these* options are right.
+*You* must stop lying now.`,
+
+        `*That* is an amazing shop.
+You *yourself* can complete this.
+*He* climbed the tree very fast.
+I know this glass is *yours*.
+*What* are we going to do?`,
+
+        `The dog is *hers*.
+*I* want to read this book.
+We will solve this problem *ourselves*.
+*Which* one is the right answer?
+There is no end to *this*.`
+      ]
     }
   ]
 };

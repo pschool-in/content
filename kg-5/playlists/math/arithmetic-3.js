@@ -181,19 +181,19 @@ export default {
       },
       data: [
         {
-          type: 'div~x~2'
+          type: 'div~xx~2'
         },
         {
-          type: 'div~x~3'
+          type: 'div~xx~3'
         },
         {
-          type: 'div~x~4'
+          type: 'div~xx~4'
         },
         {
-          type: 'div~x~5'
+          type: 'div~xx~5'
         },
         {
-          type: 'div~x~10'
+          type: 'div~xx~10'
         }
       ]
     },

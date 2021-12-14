@@ -50,7 +50,7 @@ Sentence based examples of reflexive pronouns:
       label: 'Match the following',
       type: 'match',
       commonData: {
-        title: 'Match the pronouns to the reflexive pronouns.'
+        title: 'Match the pronouns with the correct reflexive pronouns.'
       },
       data: [
         `I, myself
@@ -176,7 +176,7 @@ You ride your bike by herself.`
     {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-and-drop-1',
+      id: 'drag-drop',
       commonData: {
         isPractice: false,
         title:

@@ -188,6 +188,49 @@ Harsh *patiently* waited for his mother to arrive. They *happily* headed home to
       ]
     },
     {
+      id: 'fill-up-2',
+      label: 'Fill up with Options',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks.`
+      },
+      data: [
+        `The bushes are in *front (behind)* of the house.
+The flowers are *behind (between)* the bench.
+The client is *still (never)* waiting for the meeting.
+The entry is *through* the window.
+Do you take the bus *everyday (never)*?
+Did you submit your project *yet (still)*?
+We go to a restaurant *weekly (once)*.
+Monkeys climb on *top (bottom)* of the tree.
+There are lots of plants *around (round)* us.
+Are you coming *tomorrow (yesterday)*?`,
+
+        `The line is moving *forward (foreword)*.
+I'll talk to you *later (latter)*.
+I kept my box *somewhere (somehow)* in the house.
+I went to Mumbai for *two (too)* weeks on a vacation.
+The bees were *everywhere (somewhat)* on the farm.
+She goes for a regular check-up *every (last)* month.
+Look for your pen *behind (above)* the pot.
+We have to submit our report *daily (days)*.
+I posted a letter *in (on)* the mailbox.
+She stays with her grandma *all (few)* days.`,
+
+        `He kept on lecturing us for *hours (hour)*.
+She lives *down (under)* the road.
+She went to the church *yesterday (tomorrow)*.
+*Tomorrow (Yesterday)*, I will clean my house.
+She visits her grandparents *weekly (week)*.
+Richa completed her homework *independently (independence, freedom)* .
+The girl walked *smartly (smart, confidence)*.
+The old lady feeds *kindly (kind, gentle)* to the street animals.
+The turtle moves *slowly (slow, fast)*.
+The teacher *clearly (clear, elaborate)* explained the topic.
+The dog runs *quickly (quick, slowly)*.`
+      ]
+    },
+    {
       type: 'selectWord',
       label: 'Select all Adverbs of Place',
       id: 'multi-select-word-2',

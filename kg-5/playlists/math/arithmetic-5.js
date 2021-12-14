@@ -49,34 +49,34 @@ export default {
       },
       data: [
         {
-          type: 'div~x0~2'
+          type: 'div~xx0~2'
         },
         {
-          type: 'div~x0~3'
+          type: 'div~xx0~3'
         },
         {
-          type: 'div~x0~4'
+          type: 'div~xx0~4'
         },
         {
-          type: 'div~x0~5'
+          type: 'div~xx0~5'
         },
         {
-          type: 'div~x0~10'
+          type: 'div~xx0~10'
         },
         {
-          type: 'div~x0~6'
+          type: 'div~xx0~6'
         },
         {
-          type: 'div~x0~7'
+          type: 'div~xx0~7'
         },
         {
-          type: 'div~x0~8'
+          type: 'div~xx0~8'
         },
         {
-          type: 'div~x0~9'
+          type: 'div~xx0~9'
         },
         {
-          type: 'div~x0~x'
+          type: 'div~xx0~x'
         }
       ]
     },
