@@ -14,7 +14,7 @@ export default {
 Eg: I, he, she, we, me, us, her, him, they, them`,
           '# Personal Pronouns',
           `They are used to indicate a specific or group of people or things.`,
-          `A personal pronoun can be used as subject or object in a sentence. In the below word pairs, the first one is used as subject and the second one is used as object.`,
+          `A personal pronoun can be used as subject or object in a sentence. In the below word pairs, the first one is used as subject and the second one is used as an object.`,
           {
             type: 'hilight',
             text: `I , me
@@ -23,7 +23,7 @@ she, her
 he, him
 they, them`
           },
-          `'You' is used both subject and object.`,
+          `'You' is used as both subject and object.`,
           '# Possesive Pronouns',
           `They are used to show ownership or possession. eg: mine, yours, his, hers, ours, theirs`,
           `# Demonstrative Pronouns`,
@@ -36,7 +36,7 @@ they, them`
 I don't trust myself in tough times.`
           },
           `# Emphatic Pronouns`,
-          `They are used to put emphasis on the subject. So usually they follow the subject.`,
+          `They are used to emphasize the subject. So usually they follow the subject.`,
           {
             type: 'hilight',
             text: `She herself cooked the food.
@@ -59,27 +59,23 @@ Selvi sells flowers. *She* makes bouquets too.
 The doll is on the shelf. *It* is pretty.
 Tommy is my pet dog. *It* plays with a ball.
 Rohit and Mohit are two brothers. *They* live together.
-The cars are there. *They* need cleaning.`,
-
-        `Tim is a good boy. *He* always works hard.
+The cars are there. *They* need cleaning.
+Tim is a good boy. *He* always works hard.
 Ravi is my friend. *He* is a bright young man.
-Mrs Durga makes dresses. *She* makes doll dresses too.
+Mrs. Durga makes dresses. *She* makes doll dresses too.
 My mom and my brother love cooking. *They* cook tasty food.
-Mango is my favourite fruit. *It* is very tasty.
+Mango is my favorite fruit. *It* is very tasty.
 I have a squirrel. *It* eats nuts.`,
 
         {
           options: 'I, We, You',
-          text: `*I* am a good singer.
-*You* can do your work tomorrow.
+          text: `My father thinks *I* am a good singer.
 *I* love my family.
+The teacher said that *you* can do your work tomorrow.
 *We* love our school.
+In the school library, *we* have many books.
 *You* must bring your book daily.
-*We* have many books in our class.`
-        },
-        {
-          options: 'I, We, You',
-          text: `*I* play with my elder brother.
+On Sundays, *I* play with my elder brother.
 *We* enjoyed our picnic.
 Congratulations! *You* are such a good dancer.
 *We* have to finish our work soon.
@@ -93,23 +89,24 @@ Congratulations! *You* are such a good dancer.
       label: 'Select the Pronoun',
       id: 'select-word',
       commonData: {
-        title: 'Select the pronoun in the below sentence.'
+        title: 'Select the pronoun in the below sentence.',
+        multiSelect: true
       },
       data: [
-        `*I* am very happy.
-*She* is going home.
-*He* is playing.
-*They* are nice people.
-Ravi is playing with *him*.
+        `*I* am very happy for *her*.
+*She* is going to *her* friend's home.
+Raj is playing with *his* sister.
+*They* are very nice to *me*.
+Ravi is playing with *him* and *his* brother.
 Do not touch the water. *It* is hot.
-*I* am waiting for the train.
-The teacher thinks that *he* is a smart boy.
-My mom told my brother that *she* is a good dancer.`,
+*I* am waiting for the train. *It* is running late.
+*I* think that *he* is a smart boy.
+*She* told my brother that *she* is a good dancer.`,
 
-        `Please give the pen to *me*.
-*I* am sitting on the chair.
-The guests arrived while *we* were watching the cricket match.
-Are *you* from Hyderabad?
+        `Please give the pen to *me*. *It* belongs to *me*.
+*I* am sitting on the chair. *It* is very comfortable.
+The guests arrived while *we* were watching the cricket match. *They* brought gifts.
+Is *he* from Hyderabad? *I* might know *him*.
 *It* is an amazing movie.`
       ]
     },
@@ -131,7 +128,7 @@ Yes, she is.`
 Yes, they do.`
           },
           {
-            qText: 'How many pets does Shiva have?',
+            qText: 'How many pets do Shiva have?',
             options: `He has two parrots.
 They have two parrots.`
           },
@@ -174,10 +171,10 @@ We, Us`
       data: {
         title: 'This, That, These, Those',
         text: `These are words that help to show where things are.
-We use 'this' when pointing to one person, place, animal or thing (singular) that is near the speaker.
-We use 'these' when pointing to more than one person, place, animal or thing (plural) that are near the speaker.
-We use 'that' when pointing to one person, place, animal or thing (singular) that is far from the speaker.
-We use 'those' when pointing to more than one person, place, animal or thing (plural) that are near the speaker. `
+We use 'this' when pointing to one person, place, animal, or thing (singular) that is near the speaker.
+We use 'these' when pointing to more than one person, place, animal, or thing (plural) that are near the speaker.
+We use 'that' when pointing to one person, place, animal, or thing (singular) that is far from the speaker.
+We use 'those' when pointing to more than one person, place, animal, or thing (plural) that are near the speaker. `
       }
     },
     {

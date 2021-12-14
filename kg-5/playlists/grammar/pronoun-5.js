@@ -9,7 +9,7 @@ export default {
       id: 'pronoun-reading',
       data: {
         title: 'Interrogative Pronoun',
-        text: `We know that pronouns are the words used to replace one or more nouns. Apart from personal, possessive, demonstrative and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
+        text: `We know that pronouns are the words used to replace one or more nouns. Apart from personal, possessive, demonstrative, and reflexive pronouns, we have another type of pronoun called interrogative pronoun.
 These are used to ask questions. The sentences with interrogative pronouns always end up with question marks. 
 
 There are five different types of Interrogative pronouns:
@@ -21,7 +21,7 @@ There are five different types of Interrogative pronouns:
 
 Some examples of interrogative pronouns:
 1. What is your name?
-2. Which is your favourite food?
+2. Which is your favorite food?
 3. Who did this?
 4. Whom did you meet yesterday?
 5. Whose bike is this?`
@@ -32,7 +32,7 @@ Some examples of interrogative pronouns:
       id: 'drag-and-drop',
       type: 'group',
       data: {
-        title: 'Drag the given words and put it in the right boxes.',
+        title: 'Drag and drop the given words in the right boxes.',
         types: [
           {
             name: 'Interrogative',
@@ -61,7 +61,7 @@ Which, car is yours?
 To whom, should I address this letter?`,
 
         `Which, is the song you like?
-What, is this flavour called?
+What, is this flavor called?
 Whose is, this trophy?
 What is, your score?
 Whose are, these folders?`
@@ -76,13 +76,13 @@ Whose are, these folders?`
           'Click on the blank and fill in the correct interrogative pronoun.'
       },
       data: [
-        `*Why(What)* is the flight late?
-*Who(When)* left the door open?
-*Why(What)* are you sad?
-*What(Which)* is your brother's name?
-*Which(Whom)* car is yours?
-*Who(When)* is the new student in the class?
-*What(When)* would you like to wear tomorrow?
+        `*Why (What)* is the flight late?
+*Who (When)* left the door open?
+*Why (What)* are you sad?
+*What (Which)* is your brother's name?
+*Which (Whom)* car is yours?
+*Who (When)* is the new student in the class?
+*What (When)* would you like to wear tomorrow?
 *Which (What)* one of these burgers is made of meat?
 To *whom (who)* was the song dedicated?
 *What (Which)* do you want to do?`,
@@ -132,7 +132,7 @@ The lipstick is hers.`
               text: `Please tell me who took my book.
 Whom are you calling?
 Which one is your house?
-What is this flavour called?
+What is this flavor called?
 Whose voice was that?`
             },
             {
@@ -181,28 +181,28 @@ This pen is *mine(theirs)*.
 *They(It)* are making a snowman.
 *He (They)* sings beautifully.
 I folded my clothes by *myself(themselves)*.
-*Who(What)* is the new teacher?
-*Which(Who)* is your favourite food?
-*I (Me)* went to library.
+*Who (What)* is the new teacher?
+*Which (Who)* is your favorite food?
+*I (Me)* went to the library.
 Is that present for *me (I)*?`,
 
-        `*We (Us)* are going to Corbett National Park on sunday.
+        `*We (Us)* are going to Corbett National Park on Sunday.
 *We (Us)* live in a small house.
 *She (He)* is a smart girl.
 This is my book. Give it to *me (I)*.
 I can tell *that (those)* he is tensed.
-*This (Those)* is my favorite place for morning walk.
+*This (Those)* is my favorite place for the morning walk.
 We bought *ourselves (themselves)* some French fries before the match.
-When I woke up, I found *myself(itself)* on sofa.
+When I woke up, I found *myself(itself)* on the sofa.
 Manisha has a dog. *It (They)* is called Garfield.
 Look at my shoes. *They (It)* are so colorful.`,
 
         `Saranya likes to cook. Everyone likes *her (his) * cooking. 
-Kumar and his brother enjoy watching action films. This movie is for *them(they) *. 
+Kumar and his brother enjoy watching action films. This movie is for *them (they)*. 
 Do you like movies? Please join *us (them) * at the theatre. 
 I will meet Sangeetha tomorrow. I am meeting *her (him)* for the first time. 
-You left *your (yours) * text books on the table. 
-I want to know *who (whom)* is going to play as villain. 
+You left *your (yours)* textbooks on the table. 
+I want to know *who (whom)* is going to play a villain. 
 Please eat whatever you want. The choice is *yours (your)*. 
 Rekha told *him (his)* about the celebration next week. `,
 
@@ -211,7 +211,7 @@ She grows Jasmine on her terrace. *They (Them)* smell sweet.
 Peacock is our national bird. *It (They)* has beautiful feathers. 
 Ram will visit *his (her) * grandmother this week. 
 Don't walk fast. *We (Us)* feel tired. 
-Every Sunday, we meet *them (they)* at the sea shore.`
+Every Sunday, we meet *them (they)* at the seashore.`
       ]
     },
 
@@ -255,7 +255,7 @@ You *yourself* can do your homework.`
           `I forgot my book, so he lent me *his*.
 That dog is cute, but not as cute as *ours*.`,
 
-          `*Who* wants ice-cream?
+          `*Who* wants ice cream?
 *Which* of these people have you met?`,
 
           `We need to believe in *ourselves*.
@@ -297,7 +297,7 @@ This book is *mine (my)* not *yours (your)*.
       label: 'Match Pronouns',
       type: 'match',
       commonData: {
-        title: 'Match the Related Pronouns',
+        title: 'Identify the type of these pronouns.',
         fontSize: '1rem'
       },
       data: [

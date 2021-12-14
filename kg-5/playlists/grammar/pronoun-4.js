@@ -12,9 +12,9 @@ export default {
         text: `The words ending in -self(singular) and -selves (plural) that are used when the subject and the object of the sentence are the same are called reflexive pronouns. They tell us the doer and the receiver of the action is the same person.
 In simple terms, reflexive pronouns tell us that someone is doing something on his/her own.
 
-Example: She made herslef a cup of tea.
+Example: She made herself a cup of tea.
 
-Here in this sentence - she(doer) made herself(receiver) a cup of tea, the reflexive pronoun herself refers back to she. That means a person who does the action and receives it is the same.
+Here in this sentence - she(doer) made herself(receiver) a cup of tea, the reflexive pronoun herself refers back to her. That means a person who does the action and receives it is the same.
 
 Examples of reflexive pronouns in singular and plural forms are:
 Singular: yourself, himself, herself, itself, myself
@@ -32,7 +32,7 @@ Sentence based examples of reflexive pronouns:
       id: 'drag-and-drop',
       type: 'group',
       data: {
-        title: 'Drag the given words and put it in the right boxes.',
+        title: 'Drag and drop the given words in the right boxes.',
         types: [
           {
             name: 'Reflexive pronoun',
@@ -78,7 +78,7 @@ me, myself`
 Did you write the poem *yourself*?
 I carried the heavy box by *myself*.
 My brother and I looked at *ourselves* in the mirror.
-I introduced *myself* to my neighbours.
+I introduced *myself* to my neighbors.
 Let's clean the room *ourselves*.
 Can you tell me about *yourself*?
 Amrita baked this cake *herself*.
@@ -93,7 +93,7 @@ I love *myself*.
 Harish lives in a big house by *himself*.
 I don't like eating by *myself*.
 Let's complete this work *ourselves*.
-The AC turned off by *itself*.
+The AC is turned off by *itself*.
 We will build the treehouse by *ourselves*.`,
 
         `I cannot do it *myself*.
@@ -116,11 +116,11 @@ Did you learn French *yourself*?`
         title: `Click on the blanks and choose the correct reflexive pronoun.`
       },
       data: [
-        `She never talks about *herself(itself)*.
-He did all the paintings by *himself(themselves)*.
-The dog hurt *itself(himself)*.
-Shaanvi sang quietly to *herself(itself)*.
-Shiva hurt *himself(ourselves)* while climbing the ladder.
+        `She never talks about *herself (itself)*.
+He did all the paintings by *himself (themselves)*.
+The dog hurt *itself (himself)*.
+Shaanvi sang quietly to *herself (itself)*.
+Shiva hurt *himself (ourselves)* while climbing the ladder.
 Rajeev was proud of *himself (herself)*.
 He went trekking by *himself (itself)*.
 Subrat and Shiv cleaned the room by *themselves (ourselves)*.

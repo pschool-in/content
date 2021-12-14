@@ -8,7 +8,7 @@ export default {
       type: 'passage',
       id: 'notes',
       data: {
-        title: 'Joining Words ',
+        title: 'Joining Words',
         text: `Joining words are used to join two or more words or sentences. The two common joining words are 'and' and 'but'.
 'And' is used when we are adding something to our statement. For example,
 1. I like to play and eat.
@@ -56,10 +56,10 @@ She plays *and (but)* walks in the park.`
       label: 'Indentify the joining word.',
       id: 'select-word',
       commonData: {
-        title: 'Tap on the joining words in these sentences.'
+        title: 'Select the joining words in these sentences.'
       },
       data: [
-        `I have a black shirt *and* a blue jeans.
+        `I have a black shirt *and* blue jeans.
 He likes pasta *but* I like burgers.
 We play cricket *and* chess at school.
 My dad has a car *but* he likes to drive a motorcycle.

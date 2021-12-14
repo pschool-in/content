@@ -88,12 +88,12 @@ She took the child outside.
 Maya looked upwards to the sky.`
         ],
         [
-          `They speak English fluently.
+          `They speak Hindi fluently.
 The tortoise moves slowly.
 He answered all questions correctly.`,
 
           `Is Kamala still sleeping?
-We have holiday tomorrow.
+We have a holiday tomorrow.
 I am happy today.`,
 
           `The balloon drifted upwards.
@@ -167,7 +167,7 @@ My dad tried to give him instructions *calmly*. But he was driving *carelessly*.
 Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`,
 
         `Raj fell down. We helped him to sit on the chair *comfortably*. I ran *quickly* and told my teacher.
-I had a fight with my friend. We were shouting *loudly*. His mom told us to talk *nicely* with each other.
+I fought with my friend. We were shouting *loudly*. His mom told us to talk *nicely* with each other.
 I was *hardly* able to focus on my homework. Then my friend explained it to me very *easily*. I can *simply* solve it now.
 She was dressed *smartly* for the party. She also danced *beautifully*. Everyone clapped and praised her.
 He scored well in exams. He told his parents *proudly*. They decided to celebrate by going to a restaurant.
@@ -175,16 +175,7 @@ The teacher checked the answers *carefully*. I answered many questions *correctl
 I *energetically* did my exercise in the morning. I was feeling fresh all day long. I did all my work *efficiently*.
 The teacher yelled at us *angrily*. The class *immediately* started doing their homework.
 I *gladly* told my parents that I got selected for the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
-I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.`,
-
-        `I *gladly* told my parents that I got selected in the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
-I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.
-He lied to everyone. When we asked him, he *foolishly* denied. So, everyone decided not to talk to him.
-My dad tried to give him instructions *calmly*. But he was driving *carelessly*. We were very scared.
-Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
-The man in the street was *badly* hurt. I *quickly* called the hosptial. The man was soon treated *carefully* and *efficiently*.
-He ate all the chocolate *greedily*. But my friend *gently* tap me on my shoulder and *politely* offered me his cake.
-Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`
+I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.`
       ]
     },
     {
@@ -198,7 +189,7 @@ Harsh *patiently* waited for his mother to arrive. They *happily* headed home to
         `The bushes are in *front (behind)* of the house.
 The flowers are *behind (between)* the bench.
 The client is *still (never)* waiting for the meeting.
-The entry is *through* the window.
+The entry is *through (thorough)* the window.
 Do you take the bus *everyday (never)*?
 Did you submit your project *yet (still)*?
 We go to a restaurant *weekly (once)*.
@@ -223,13 +214,13 @@ She went to the church *yesterday (tomorrow)*.
 *Tomorrow (Yesterday)*, I will clean my house.
 She visits her grandparents *weekly (week)*.
 Richa completed her homework *independently (independence, freedom)* .
-The girl walked *smartly (smart, confidence)*.
+The girl walked *smartly (smart, confident)*.
 The old lady feeds *kindly (kind, gentle)* to the street animals.
 The turtle moves *slowly (slow, fast)*.
 The teacher *clearly (clear, elaborate)* explained the topic.
 The dog runs *quickly (quick, slowly)*.`
       ]
-    },
+    },/*
     {
       type: 'selectWord',
       label: 'Select all Adverbs of Place',
@@ -239,14 +230,14 @@ The dog runs *quickly (quick, slowly)*.`
         multiSelect: true
       },
       data: [
-        `The cat is *under* the sofa. It went there *when* it was time to bath.
+        `The cat is *under* the sofa. It went there *when* it was time to bathe.
 I will clean my house *tomorrow*. I am very tired *now*.
 The children are playing *outside*. They have been playing *since* evening.
 I am studying in this school *since* fourth grade. The school is *in* the city.
 We rowed the boat towards *north*, *where* the waves were not high.
 She came *running* to me *when* she saw a dog. I laughed.
 I had my lunch over *there* *yesterday*. I will eat *here* *today*.
-He *never* drinks milk. His mom sends him *at* my house. He drinks it with me.
+He *never* drinks milk. His mom sends him *to* my house. He drinks it with me.
 We are meeting *behind* the school *next week*. We will play cricket *there*.
 *Since* she moved *across* the street, we have become friends. We play *in* the park *every day*.
 The car is moving *backwards*. I will move aside *when* it will come closer.
@@ -265,6 +256,6 @@ We looked *around* but we couldn't find the dog. It may be sleeping.
 My brother *never* helps me. He is always *at* his friend's house.
 *Sometimes*, my Dad comes home early. Then we walk *around* the street at night.`
       ]
-    }
+    }*/
   ]
 };
