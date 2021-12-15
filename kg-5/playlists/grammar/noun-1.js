@@ -1,6 +1,6 @@
 export default {
   id: 'noun-1',
-  label: 'Noun-1',
+  label: 'Naming Word',
   pdf: '',
   list: [
     {
@@ -17,58 +17,30 @@ export default {
       }
     },
     {
-    type: 'group',
-    label: 'Drag and drop',
-    id: 'classify',
-    commonData: {
-      title: 'Identify which of these words are nouns and which are not.',
-      types: ['Nouns', 'Not Nouns']
-        },
-        data: [
-          [
-            `Book, Boy, City, House, Dog`,
-            `Big, Little, Sleep, Eat, Pretty`
-          ],
-          [
-            `Sakshi, School, Cat, Pen, Eraser`,
-            `Small, Play, Dance, Run, Jump`
-          ],
-          [
-            `Nita, Delhi, Tiger, Ring, Phone`,
-            `Walk, Talk, Speak, Teach, Repeat`
-          ],
-          [
-            `Dog, Cat, Puppy, Cow, Pig`,
-            `Dance, Sing, Drink, Lie`
-          ],
-          [
-            `Kitten, Birds, Flowers, Fruits`,
-            `Beautiful, Black, Slept, Sit`
-          ]
-        ]
+      type: 'group',
+      label: 'Classify Naming word or Not',
+      id: 'classify',
+      commonData: {
+        title: 'Drop the words given at the botton in the right boxes.',
+        types: ['Naming word', 'Not a Naming word']
       },
-      {
-        id: 'jumbled-words',
-        type: 'sequence',
-        label: 'Jumbled Words',
-        commonData: {
-            title: 'Identify these naming words.'
-          },
-        data: [
-            'Dog, Cat, Child, Mother, Father, Doctor',
-    'House, Room, Bed, Book, Pencil, Eraser',
-    'Mobile, Boy, Laptop, Girl, Spoon, Bowl'
-              ]
-        },
-        {
-  type: 'selectWord',
-  label: 'Select the noun',
-  id: 'select-word',
-  commonData: {
-  title: 'Select the nouns in the below sentences.'
-                },
-                data: [
-  `*Neha* likes grapes.
+      data: [
+        [`Book, Boy, City, House, Dog`, `Big, Little, Sleep, Eat, Pretty`],
+        [`Sakshi, School, Cat, Pen, Eraser`, `Small, Play, Dance, Run, Jump`],
+        [`Nita, Delhi, Tiger, Ring, Phone`, `Walk, Talk, Speak, Teach, Repeat`],
+        [`Dog, Cat, Puppy, Cow, Pig`, `Dance, Sing, Drink, Lie`],
+        [`Kitten, Birds, Flowers, Fruits`, `Beautiful, Black, Slept, Sit`]
+      ]
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the Naming word',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the naming words in the below sentences.'
+      },
+      data: [
+        `*Neha* likes grapes.
   The *clown* gave a *balloon* to the *boy*.
   The *pear* fell off the *tree*.
   The *teacher* rings the *bell*.
@@ -79,7 +51,7 @@ export default {
   We saw *tigers* at the *zoo*.
   The *boy* kicked the *ball*.`,
 
-    `Who likes *apples*?
+        `Who likes *apples*?
     The *rabbit* hopped across the *road*.
     *Ice* floats on *water*.
     We’re having *soup* for *dinner*.
@@ -90,7 +62,7 @@ export default {
     My *dog* is very playful.
     The *airplane* flies in the sky.`,
 
-    `I click very good *pictures*.
+        `I click very good *pictures*.
     *Books* are kept on the *table*.
     *Rani* wrote a *letter*.
     The *dog* barks at *strangers*.

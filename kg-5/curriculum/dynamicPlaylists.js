@@ -252,7 +252,7 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Root Word - 5',
+    label: 'Root Word',
     id: 'root-word-5',
     grade: 'g5'
   },
@@ -323,12 +323,12 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Modals',
+    label: 'Modal',
     id: 'modal',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Clauses',
+    label: 'Clause',
     id: 'clause',
     grade: 'g3, g4, g5'
   },
@@ -368,8 +368,8 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Idioms',
-    id: 'idioms',
+    label: 'Idiom',
+    id: 'idiom',
     grade: 'g3, g4, g5'
   },
   {
@@ -388,7 +388,7 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Pronoun - Introduction',
+    label: 'Introduction to Pronoun',
     id: 'pronoun-1',
     grade: 'g1, g2, g3, g4, g5'
   },

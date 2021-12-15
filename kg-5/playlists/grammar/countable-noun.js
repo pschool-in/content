@@ -145,6 +145,33 @@ tooth| teeth| t___h`
       }
     },
     {
+      id: 'classify-sentence',
+      label: 'Identify-2',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Identify whether the underlined nouns are countable or uncountable.',
+        types: [
+          {
+            name: 'Countable',
+            text: `There are a few chinese *restaurants* in the city.
+Priya took many *pictures* on her vacation.
+Many *books* are kept on the table.
+The *beds* we have are very old.
+My *phone* is not working properly.`
+          },
+          {
+            name: 'Uncountable',
+            text: `Do you have a *water* bottle?
+I like *butter* on my bread slice.
+The police needs *information* about the thief.
+Her *intelligence* is undoubtful.
+The *milk* is in the bottle.`
+          }
+        ]
+      }
+    },
+    {
       type: 'completeWord',
       label: 'Complete the plural - 2',
       id: 'complete-4',

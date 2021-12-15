@@ -9,15 +9,23 @@ export default {
       id: 'notes',
       data: {
         title: 'Joining Words',
-        text: `Joining words are used to join two or more words or sentences. The two common joining words are 'and' and 'but'.
-'And' is used when we are adding something to our statement. For example,
-1. I like to play and eat.
-2. I don't like spinach and guava.
-3. I will dance and sing in the competition.
-'But' is used to say something opposite. For example,
-1. I want to play but I haven't done my homework.
-2. I want to go to the party but I'm tired.
-3. I like Ravi but I hate his brother.`
+        text: [
+          `Joining words are used to join two or more words or sentences. The two common joining words are 'and' and 'but'.
+'And' is used when we are adding something to our statement. For example,`,
+          {
+            type: 'html',
+            text: `I like to play <b>and</b> eat.<br>
+I don't like spinach <b>and</b> guava.<br>
+I will dance <b>and</b> sing in the competition.`
+          },
+          `'But' is used to say something opposite. For example,`,
+          {
+            type: 'html',
+            text: `I want to play <b>but</b> I haven't done my homework.<br>
+I want to go to the party <b>but</b> I'm tired.<br>
+I like Ravi <b>but</b> I hate his brother.`
+          }
+        ]
       }
     },
     {
@@ -63,9 +71,8 @@ She plays *and (but)* walks in the park.`
 He likes pasta *but* I like burgers.
 We play cricket *and* chess at school.
 My dad has a car *but* he likes to drive a motorcycle.
-She studies at noon *and* plays in the evening.`,
-
-        `He goes for a walk daily *but* not on Sundays.
+She studies at noon *and* plays in the evening.
+He goes for a walk daily *but* not on Sundays.
 They have many books *and* markers.
 The teacher is sick *but* she will teach us.
 I can read *and* write well.
@@ -75,15 +82,14 @@ Her mom scolds her *but* she never listens.`,
 The pencil is new *but* not sharped.
 I bought the cake *and* candles.
 The sofa is soft *but* very small.
-The table is big *and* have drawers.`,
-
-        `Mom switched on the lamp *but* it wasn't working.
+The table is big *and* have drawers.
+Mom switched on the lamp *but* it wasn't working.
 Put your toys away *and* go to sleep.
 I have a chair *but* I need one more.
 Sheep gives us wool *and* it is used in winters.
 I throw the stick *but* my dog never runs to get it.`,
 
-        `Neha is friends with all the boys *and* girls in the class.
+        `Neha is friend with all the boys *and* girls in the class.
 We burn crackers *and* eat sweets on Diwali.
 We have a dog *but* I also want a cat.
 Mohan is a smart boy *but* he is not good at sports.
