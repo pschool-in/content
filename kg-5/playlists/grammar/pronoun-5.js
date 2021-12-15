@@ -297,7 +297,7 @@ This book is *mine (my)* not *yours (your)*.
       label: 'Match Pronouns',
       type: 'match',
       commonData: {
-        title: 'Identify the type of these pronouns.',
+        title: 'Match the pronoun with its type.',
         fontSize: '1rem'
       },
       data: [

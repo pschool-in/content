@@ -56,7 +56,7 @@ Honeybees have *huge* honeycombs.`,
 `Jane is *jogging* joyfully.
 Betty Botter *bought* some butter.
 A good cook *could* cook many cookies.
-Sheep should sleep in a shed.
+Sheep should sleep in a *shed*.
 How much wood *would* a woodpecker peck?`
      ]
    },
@@ -81,7 +81,7 @@ How much wood *would* a woodpecker peck?`
     }
   },
   {
-    label: 'Classify',
+    label: 'Yes or No',
     id: '300',
     type: 'classifySentence',
     commonData: {
@@ -92,38 +92,27 @@ How much wood *would* a woodpecker peck?`
     data: [
       [
         `The sheriff put his shiny star-shaped batch.
-        I sometimes hear sounds of someone saying something.`,
-
-        `I cleaned my room because my mom asked me to.
-        She bought a cake from the shop`
-      ],
-      [
-        `Dan's dog dug a ditch.
-        Sameer had six straws.`,
-
-        `I forgot to bring my lunch.
+        I sometimes hear sounds of someone saying something.
+        I cannot bear to see a bear.
+        Dan's dog dug a ditch.
+        Sameer had six straws.,
+        I cleaned my room because my mom asked me to.
+        She bought a cake from the shop.
+        I don't like vegetables.
+        I forgot to bring my lunch.
         My mother loves me very much.`
       ],
       [
         `Shaam sells seashells by the seashore.
-        The  lazy lion looked like a lump.`,
-
-        `My father works at an MNC.
-        My pet's name is bony.`
-      ],
-      [
-        `Silly Sally swiftly shooed seven silly sheep.
-        A tutor tried to tutor two tooters to toot.`,
-
-        `She likes her milk cold.
+        The  lazy lion looked like a lump.
+        A tree toad loved a she-toad.
+        Silly Sally swiftly shooed seven silly sheep.
+        A tutor tried to tutor two tooters to toot.
+        My father works at an MNC.
+        My pet's name is bony.
+        She likes her milk cold.
+        The bollywood is full of actors and singers.
         He plays a guitar when he's bored.`
-      ],
-      [
-        `I cannot bear to see a bear.
-        A tree toad loved a she-toad.`,
-
-        `I don't like vegetables.
-        The bollywood is full of actors and singers.`
       ]
     ]
   },
@@ -140,9 +129,8 @@ How much wood *would* a woodpecker peck?`
         The *raccoon* *ran* *rapidly* towards the bushes.
         The *pink* *pigs* *played* in the mud.
         I kept the apples in the *big* *blue* *bowl*.
-        *Sara* *silently* *sneaked* into her brother's room.`,
-  
-        `*My* *mother* *makes* *marvelous* *melon* cakes.
+        *Sara* *silently* *sneaked* into her brother's room.
+        *My* *mother* *makes* *marvelous* *melon* cakes.
         *Four* *friends* *finshed* their homework.
         *Betty* *bought* *butter* from the market.
         The *cat* *climbed* *carefully* but still fell down.
@@ -152,9 +140,8 @@ How much wood *would* a woodpecker peck?`
         Vidhi saw a *jellyfish* *jiggle*.
         The *audience* *applauded* at the end of the play.
         We love *Abhay's* *aunt's* *apples*.
-        *Falguni's* *friends* *fed* the street dogs.`,
-        
-        `*See’s* *saw* *sawed* *Soar’s* *seesaw*.
+        *Falguni's* *friends* *fed* the street dogs.
+        *See’s* *saw* *sawed* *Soar’s* *seesaw*.
         Raj *picked* *pepper* *powder*.
         I cannot *bear* to see a *bear*.
         I *had* to *hurry* *home* because grandma was baking cookies.

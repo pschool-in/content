@@ -72,21 +72,19 @@ export default {
   The *clown* gave a *balloon* to the *boy*.
   The *pear* fell off the *tree*.
   The *teacher* rings the *bell*.
-  *Monkeys* swing in *trees*.`,
-    
-    `The *cat* is purring.
-    The *bus* stops at the red *light*.
-    These *flowers* are beautiful.
-    We saw *tigers* at the *zoo*.
-    The *boy* kicked the *ball*.`,
+  *Monkeys* swing in *trees*.
+  The *cat* is purring.
+  The *bus* stops at the red *light*.
+  These *flowers* are beautiful.
+  We saw *tigers* at the *zoo*.
+  The *boy* kicked the *ball*.`,
 
     `Who likes *apples*?
     The *rabbit* hopped across the *road*.
     *Ice* floats on *water*.
     We’re having *soup* for *dinner*.
-    *Lavina* brought *cake* to the *party*.`,
-
-    `An *apple* a day keeps the doctor away.
+    *Lavina* brought *cake* to the *party*.
+    An *apple* a day keeps the doctor away.
     The *broom* is used to clean the house.
     The *sand* is found in the *beach*.
     My *dog* is very playful.
@@ -115,7 +113,10 @@ export default {
   *Sheena* is my *bestfriend.* We play, eat *lunch* and sit in the *class* together.
   I got a new *bicycle* on my birthday. I don't know how to ride. My *mom* will teach me in the *evening*.
   My *brother* is an *artist.* He works in *Mumbai.* He's planning to display his *drawings* at a *fare*.
-  *Samir* is a naughty *boy.* He never listens to *teachers.* The *principal* has called his *parents*.`,
+  *Samir* is a naughty *boy.* He never listens to *teachers.* The *principal* has called his *parents*.
+  I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* within the *sand*.
+  My *uncle* goes to the *office* everyday. But my *father* goes to his *factory* daily. He is a *businessman*.
+  *Cats* are domestic *animals*. We can *pet* them. *Cats* are of very different types and *colors*.`,
 
   `He saw a *monkey* up on the *tree*. It was eating a *banana* and it threw the *peel* on his *head*.
   He gave a *flower* to the *teacher*. She thanked him. She gave him a *chocolate* in return.
@@ -124,7 +125,10 @@ export default {
   The *girl* is playing with her *doll*. She also loves her other *toys*, including the *kitchen set*.
   The *soldiers* protect the *country*. They are very brave *men*. We should always respect them.
   The *lawyer* won the *case*. Some *people* thought that the *judge* was unfair. But, it was the victory of the truth.
-  My *teacher* is very polite. She teaches me all the *subjects*. She also tells us *stories* in our free *periods*.`,
+  My *teacher* is very polite. She teaches me all the *subjects*. She also tells us *stories* in our free *periods*.
+  Do you know that *Australia* is both a *country* and a *continent*? The *capital* *city* of *Australia* is *Canberra*.
+  He has a *toy car*. He plays with it all the time. I have a *remote* control * toy car*. I play with it in the noon.
+  The *girls* are talking in the *classroom*. But the *boys* are playing on the *ground*.`,
 
   `*Rats* are commonly seen running in our *houses*. They make *holes* in our *clothes*. We should trap them in a *cage* and move them out of the *house*.
   A *zebra* is a wild *animal*. It lives in the *forest*. *Zebras* eat *grass*, *plants*, and *leaves*.
@@ -133,16 +137,9 @@ export default {
   I have a *study table* at *home*. I keep all my *books*, *pencils*, *erasers*, *colors*, and *bag* in it.
   My *dad* gave my *mom* a beautiful *ring*. I liked it very much. When I grow up, I will buy a *ring*.
   There are eight *members* in my *family*. I live with my *parents*, *grandparents*, *uncle*, *aunt* and *cousins*.
-  Do you know that the *camel* is known as the *ship* of the *desert*. This is because it can stay without *water* for many *days*.`,
-
-  `I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* within the *sand*.
-  My *uncle* goes to the *office* everyday. But my *father* goes to his *factory* daily. He is a *businessman*.
-  *Cats* are domestic *animals*. We can *pet* them. *Cats* are of very different types and *colors*.
-  Do you know that *Australia* is both a *country* and a *continent*? The *capital* *city* of *Australia* is *Canberra*.
-  He has a *toy car*. He plays with it all the time. I have a *remote* control * toy car*. I play with it in the noon.
-  The *girls* are talking in the *classroom*. But the *boys* are playing on the *ground*.
+  Do you know that the *camel* is known as the *ship* of the *desert*. This is because it can stay without *water* for many *days*.
   She has a brown *dog*. It is very playful and friedly. It's name is *Bony*. We all love playing with it.
-  My *sister* takes her *classes* online. She has a *laptop* but she attends her *class* by *mobile*.`
+  My *sister* takes her *classes* online. She has a *laptop* but she attends her *class* by *mobile*.`,
     ]
   },
   {
@@ -200,3 +197,4 @@ export default {
     }
   ]
 };
+ 
