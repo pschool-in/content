@@ -12,7 +12,8 @@ export default {
         text: [
           `Priyanka is a good girl. Priyaka lives near our school. Priyanka comes to school walking.
 In the above paragraph, the word 'Priyanka' is repeated multiple times. To avoid repeating the noun, we use pronoun.
-Priyanka is a good girl. She lives near our school. She comes to school walking. Pronouns are used in the place of noun. Some of the commonly used pronouns are:`,
+Priyanka is a good girl. She lives near our school. She comes to school walking. Pronouns are used in the place of noun. 
+Some of the commonly used pronouns are:`,
           {
             type: 'sitewords',
             text:

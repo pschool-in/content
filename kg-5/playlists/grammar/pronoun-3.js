@@ -14,9 +14,9 @@ export default {
           Eg: his, yours, hers, mine, ours, theirs`,
           {
             type: 'html',
-            text: `This notebook is <b>mine</b>.
-The car is <b>hers</b>.
-That book is <b>yours</b>.
+            text: `This notebook is <b>mine</b>.<br>
+The car is <b>hers</b>.<br>
+That book is <b>yours</b>.<br>
 This cat is <b>ours</b>.`
           }
         ]

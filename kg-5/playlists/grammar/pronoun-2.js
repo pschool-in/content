@@ -15,15 +15,15 @@ export default {
           {
             type: 'hilight',
             text: `singular: I, me
-            plural: We, Us`
+            plural: we, us`
           },
-          'Second Person:',
+          '# Second Person:',
           {
             type: 'hilight',
             text: `singular: you
             plural: you`
           },
-          'Third Person:',
+          '# Third Person:',
           {
             type: 'hilight',
             text: `singular: he, she, it, him, her

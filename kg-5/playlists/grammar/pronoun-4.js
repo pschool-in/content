@@ -4,7 +4,7 @@ export default {
   pdf: '',
   list: [
     {
-      label: 'Reflexive Pronoun',
+      label: 'Notes',
       type: 'passage',
       id: 'notes',
       data: {
@@ -15,15 +15,15 @@ export default {
             text: `The words ending in <i>-self</i> and <i>-selves</i> are usually called reflexive pronouns. They tell us, the <b>doer</b> and the <b>receiver</b> of the action are the same person. Eg:`
           },
           {
-            type: 'sitewords',
+            type: 'hilight',
             text: `Singular: yourself, himself, herself, itself, myself
 Plural: yourselves, ourselves, themselves`
           },
           {
             type: 'html',
-            text: `They are doing the homework by <b>themselves</b>.
-Don't hurt <b>yourselves</b> while playing.
-Rekha cleaned her room by <b>herself</b>.
+            text: `They are doing the homework by <b>themselves</b>.<br>
+Don't hurt <b>yourselves</b> while playing.<br>
+Rekha cleaned her room by <b>herself</b>.<br>
 He went to the market by <b>himself</b>.`
           }
         ]
@@ -121,8 +121,8 @@ Did you learn French *yourself*?`
 This is very similar to reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
           {
             type: 'html',
-            text: `She <b>herself</b> cooked the food.
-I <b>myself</b> saw him.
+            text: `She <b>herself</b> cooked the food.<br>
+I <b>myself</b> saw him.<br>
 He <b>himself</b> cut the cake.`
           }
         ]

@@ -18,10 +18,10 @@ export default {
 5. Whose`,
           {
             type: 'html',
-            text: `<b>What</b> is your name?
-<b>Which</b> is your favourite food?
-<b>Who</b> did this?
-<b>Whom</b> did you meet yesterday?
+            text: `<b>What</b> is your name?<br>
+<b>Which</b> is your favourite food?<br>
+<b>Who</b> did this?<br>
+<b>Whom</b> did you meet yesterday?<br>
 <b>Whose</b> bike is this?`
           }
         ]
