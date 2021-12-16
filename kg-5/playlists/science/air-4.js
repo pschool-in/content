@@ -9,12 +9,12 @@ export default {
       type: 'passage',
       id: 'reading',
       data: {
-        title: 'Our Need for Air',
+        title: 'Atmosphere',
         text: `The earth we live on is round in shape. There exist a blanket of air surrounding the earth. This blanket of air is known as atmosphere. The atmosphere is as high as 50km.
   As we go farther from the earth, the layer of air becomes thin. The air at greater heights is rarer and the layers of air are also not held close together.
   Air plays a role in burning. The component of air that helps in burning is a gas called oxygen. Oxygen is also used for respiration by us. Another component of air is carbon dioxide which is used by plants to make food. However, the largest component in air is nitrogen. Air has several gases mixed in it therefore, air is called a mixture of gases.
-  Some fuels like coal, petrol and diesel give out smoke while burning. This mixes with air and pollutes it.`
-      }
+  Some fuels like coal, petrol and diesel give out smoke while burning. This mixes with air and pollutes it.`,
+      },
     },
     {
       id: 'match',
@@ -26,8 +26,8 @@ Oxygen, 21%
 Argon, 0.07%
 Carbon dioxide, 0.03%
 Other gases, small quantities`,
-        title: 'Match the following'
-      }
+        title: 'Match the following',
+      },
     },
     {
       id: 'fillup',
@@ -40,8 +40,8 @@ About *21% (50%)* of air is made up of oxygen.
 As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
 *Oxygen (carbon dioxide)* is required for burning.
 Plants use *carbon dioxide (oxygen)* to make food. 
-The fizzy bubbles in soft drinks are due to the presence of *carbon dioxide (nitrogen)*.`
-      }
+The fizzy bubbles in soft drinks are due to the presence of *carbon dioxide (nitrogen)*.`,
+      },
     },
     {
       label: 'True or False',
@@ -54,16 +54,16 @@ The fizzy bubbles in soft drinks are due to the presence of *carbon dioxide (nit
             name: 'True',
             text: `Plants need carbon dioxide to prepare food.
 Burning fossil fuels pollutes the air.
-Oxygen is required to produce energy to do work.`
+Oxygen is required to produce energy to do work.`,
           },
           {
             name: 'False',
             text: `We exhale oxygen.
 We inhale carbon dioxide.
-At heights air is denser.`
-          }
-        ]
-      }
+At heights air is denser.`,
+          },
+        ],
+      },
     },
     {
       type: 'rightOne',
@@ -74,8 +74,8 @@ At heights air is denser.`
         fontSize: '1.3rem',
         noCaps: true,
         text: `biosphere, atmosphere, stratosphere
-            xenon, oxygen, nitrogen, carbon dioxide`
-      }
+            xenon, oxygen, nitrogen, carbon dioxide`,
+      },
     },
     {
       label: 'Answer in one word',
@@ -86,13 +86,13 @@ At heights air is denser.`
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `Burning of fossil fuels release smoke - *air pollution*
             Layer of atmosphere that protects us from UV rays - *ozone*
             Largest component of air - *nitrogen*
-            Mixture of several gases - *air*`
-      }
+            Mixture of several gases - *air*`,
+      },
     },
     {
       label: 'Atmosphere - Fill in the blanks',
@@ -103,14 +103,14 @@ At heights air is denser.`
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `The layers of air in the atmosphere close to the earth are pressed *closer* to each other while the upper layers are rarer.
             There is *air* even in an empty container.
             The air at a greater height from the earth is *rarer* than the air nearer to the earth.
             If all the air were divided into five parts, the oxygen in the air would equal to *one* part.
-            There is air till a height of about *50*km from the earth.`
-      }
+            There is air till a height of about *50*km from the earth.`,
+      },
     },
     {
       label: 'Choose the best Answer - Air',
@@ -121,23 +121,23 @@ At heights air is denser.`
         questions: [
           {
             qText: ' Air is _________ than water',
-            options: 'lighter, heavier, denser, rarer'
+            options: 'lighter, heavier, denser, rarer',
           },
           {
             qText:
               'As we go farther from the earth, the layers of air become ________.',
-            options: 'thinner, thicker, lighter'
+            options: 'thinner, thicker, lighter',
           },
           {
             qText: 'The gas that fizzes out of soda-water is _________.',
-            options: 'carbon dioxide, oxygen, nitrogen'
+            options: 'carbon dioxide, oxygen, nitrogen',
           },
           {
             qText: 'Water is present in air in the form of a ______.',
-            options: 'Gas, vapour, liquid'
-          }
-        ]
-      }
+            options: 'gas, vapour, liquid',
+          },
+        ],
+      },
     },
     {
       label: 'Air Composition - Reading',
@@ -160,7 +160,7 @@ At heights air is denser.`
   5. Nowadays people use nitrogen gas to fill the tires of their vehicles.
   6. Some compounds of nitrogen are used as explosives also.
   # Oxygen
-  1. It can be tested with a piece of glowing splint, which relights in oxygen.
+  1. The presence of oxygen can be tested with a piece of glowing splint, which relights in oxygen.
   2. All living things use oxygen for breathing.
   3. Oxygen is essential for burning.
   4. Oxygen cylinders are used in hospitals to enable the patients to breathe when they cannot breathe normally.
@@ -168,12 +168,12 @@ At heights air is denser.`
   6. Mountaineers carry oxygen cylinders at high altitudes.
   7. Deep sea divers also carry oxygen cylinders along with them while diving deep into the sea.
   # Carbon dioxide
-  1. It can be tested with lime water. The lime water changes from colourless to milky.
+  1. The presesnce of carbon dioxide can be tested with help of lime water. The lime water changes from colourless to milky in presence of carbon dioxide.
   2. Carbon dioxide helps plants in photosynthesis.
   3. It is used in fire extinguishers.
   4. It is used in refrigerators as dry ice for cooling purposes.
-  5. It is used to make plastics and polymers.`
-      }
+  5. It is used to make plastics and polymers.`,
+      },
     },
     {
       label: 'Air Polution - Reading',
@@ -201,8 +201,8 @@ At heights air is denser.`
   2. Air filters should be used to prevent harmful gases mixing with air.
   3. Smoke emission test and certification of motor vehicles must be enforced.
   4. More trees should be planted to absorb carbon dioxide.
-  Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energy, Wave Energy, Biofuels, Natural Gas, Geothermal Power, Wind Energy, Biomass Energy, Tidal Energy and Hydrogen Gas.`
-      }
+  Alternative source of energy are Solar Power, Nuclear Power, Hydroelectric Energy, Wave Energy, Biofuels, Natural Gas, Geothermal Power, Wind Energy, Biomass Energy, Tidal Energy and Hydrogen Gas.`,
+      },
     },
     {
       id: 'fillup-3',
@@ -214,8 +214,8 @@ At heights air is denser.`
             The *flute (piano)* is an example for wind instrument.
             In 1772, the Scottish chemist, Daniel Rutherford, reported noxious air, which now we call *nitrogen (oxygen)*.
             A grown up tree intakes *1/3 (2/3)* of carbon dioxide exhaled by one person and it gives out the same amount of *oxygen (carbon dioxide)* required by a person.
-            *Three (five)* trees are needed to fulfill the required oxygen for a man to survive.`
-      }
+            *Three (Five)* trees are needed to fulfill the required oxygen for a man to survive.`,
+      },
     },
     {
       label: 'True or False',
@@ -229,16 +229,16 @@ At heights air is denser.`
             text: `The Scottish chemist Joseph Black discovered that carbon dioxide is present in air.
                 Covering our mouth and nose while sneezing or coughing prevents spreading of germs through air to people around us.
                 Carbonated drinks are bad to health.
-                Plants need nitrogen for their growth.`
+                Plants need nitrogen for their growth.`,
           },
           {
             name: 'False',
             text: `Air pollution has good impact on human health.
                 Air is made up of oxygen only.
-                The gas used for burning things is Argon.`
-          }
-        ]
-      }
+                The gas used for burning things is Argon.`,
+          },
+        ],
+      },
     },
     {
       label: 'Drag and Drop - Air Composition',
@@ -249,14 +249,14 @@ At heights air is denser.`
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `Gives you oxygen. - *tree*
             Melting of snow caps and increase in sea levels - *global warming*
             Dust particles and smoke combine with fog in the presence of sunlight - *smog*
-            Liquid or solid particles are dispersed in air, - *aerosol*
-            Hydrocarbons such as the Chloro Fluoro Carbons (CFCs) destroy - *ozone*`
-      }
+            Liquid or solid particles are dispersed in air - *aerosol*
+            Hydrocarbons such as the Chloro Fluoro Carbons (CFCs) destroy - *ozone*`,
+      },
     },
     {
       id: 'match-4',
@@ -267,8 +267,8 @@ At heights air is denser.`
             Lung cancer, Smoke and fog
             Balloon, Air
             Solar, Alternative source`,
-        title: 'Match the following'
-      }
+        title: 'Match the following',
+      },
     },
     {
       label: 'Choose the best Answer - Air Composition & Air Polution',
@@ -279,65 +279,65 @@ At heights air is denser.`
         questions: [
           {
             qText:
+              'The Scottish chemist Joseph Black discovered that ___________ is present in air.',
+            options: 'carbon dioxide, oxygen, nitrogen',
+          },
+          {
+            qText:
               ' _________ radiation harms wildlife, damages plants and causes skin cancer in humans.',
-            options: 'UV, IR, X ray'
+            options: 'UV, IR, X ray',
           },
           {
             qText: '________ present in air is needed for respiration',
-            options: 'Oxygen, nitrogen, carbon dioxide'
+            options: 'Oxygen, nitrogen, carbon dioxide',
           },
           {
             qText: 'Monsoon and rain occurs due to the ______ action.',
-            options: 'wind, breeze, gale, storm'
+            options: 'wind, breeze, gale, storm',
+          },
+          {
+            qText: '_________ can be tested with lime water.',
+            options: 'Carbon dioxide, Oxygen, Nitrogen',
           },
           {
             qText:
               'We can speak and hear the sound only when there is ____ around.',
-            options: 'air, water, light'
+            options: 'air, water, light',
+          },
+          {
+            qText: '__________ is used to make plastics and polymers.',
+            options: 'Carbon dioxide, Oxygen, Nitrogen',
           },
           {
             qText: 'Air regulates the atmospheric ______________.',
-            options: 'temperature, balance, pressure'
-          },
-          {
-            qText:
-              'We can speak and hear the sound only when there is ____ around.',
-            options: 'air, water, light'
-          },
-          {
-            qText:
-              'While ________ with firewood, fanning air helps in burning of fire wood.',
-            options: 'cooking, heating, burning'
-          },
-          {
-            qText:
-              '_________ is used to fill up food packages to extend their shelf life.',
-            options: 'Nitrogen, Oxygen, Carbon dioxide'
+            options: 'temperature, balance, pressure',
           },
           {
             qText:
               '__________ cylinders are used in hospitals to enable the patients to breathe when they cannot breathe normally.',
-            options: 'Oxygen, Nitrogen, Carbon dioxide'
-          },
-          {
-            qText: '_________ can be tested with lime water.',
-            options: 'Carbon dioxide, Oxygen, Oitrogen'
-          },
-          {
-            qText: '__________ is used to make plastics and polymers.',
-            options: 'Carbon dioxide, Oxygen, Oitrogen'
+            options: 'Oxygen, Nitrogen, Carbon dioxide',
           },
           {
             qText:
-              'The Scottish chemist Joseph Black discovered that ___________- is present in air.',
-            options: 'carbon dioxide, oxygen, nitrogen'
+              'We can speak and hear the sound only when there is ____ around.',
+            options: 'air, water, light',
+          },
+          {
+            qText:
+              'While ________ with firewood, fanning air helps in burning of fire wood.',
+            options: 'cooking, heating, burning',
+          },
+          {
+            qText:
+              '_________ is used to fill up food packages to extend their shelf life.',
+            options: 'Nitrogen, Oxygen, Carbon dioxide',
           },
           {
             qText: '___________ is used in fire extinguishers.',
-            options: 'carbon dioxide, oxygen, nitrogen'
-          }
-        ]
-      }
-    }
-  ]
+            options: 'carbon dioxide, oxygen, nitrogen',
+          },
+        ],
+      },
+    },
+  ],
 };
