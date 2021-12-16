@@ -411,7 +411,7 @@ This zone do not get sun’s rays - *Frigid zone*`,
     {
       id: 'match-clouds',
       label: 'Match the following',
-      type: 'match-3',
+      type: 'match',
       data: {
         text: `Cirrus clouds,  do not rain
 Stratus clouds,  small shower
