@@ -481,8 +481,6 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
         showWords: true,
       },
     },
-    // hints are not provided to solve the crossword
-    /*
     {
       id: 'crossword',
       label: 'Crossword',
@@ -493,47 +491,47 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
             word: 'atlantic',
             marker: {
               x: 0,
-              y: 3
+              y: 3,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is the second largest ocean in the world. It separates Europe and Africa from South America',
+            direction: 'across',
           },
           {
             word: 'pacific',
             marker: {
               x: 7,
-              y: 1
+              y: 1,
             },
-            hint: '',
-            direction: 'down'
+            hint: 'It is the largest and the most deepest ocean on the surface of Earth',
+            direction: 'down',
           },
           {
             word: 'southern',
             marker: {
               x: 0,
-              y: 0
+              y: 0,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is also known as the Antarctic Ocean, comprises the southernmost waters of the World Ocean and it encircles Antarctica.',
+            direction: 'across',
           },
           {
             word: 'arctic',
             marker: {
               x: 2,
-              y: 7
+              y: 7,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is the smallest and shallowest ocean',
+            direction: 'across',
           },
           {
             word: 'indian',
             marker: {
               x: 7,
-              y: 4
+              y: 4,
             },
-            hint: '',
-            direction: 'across2'
-          }
+            hint: 'It is the third largest ocean in the world. It is bounded by Asia to the north, Africa to the west and Australia to the east.',
+            direction: 'across2',
+          },
         ],
         title: 'Major oceans of the earth.',
         lang: 'en',
@@ -545,10 +543,9 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
           ['', '', 'N', 'A', 'I', 'D', 'N', 'I'],
           ['', '', '', '', '', '', '', 'F'],
           ['', '', '', '', '', '', '', 'I'],
-          ['', '', 'A', 'R', 'C', 'T', 'I', 'C']
-        ]
-      }
-    }
-    */
+          ['', '', 'A', 'R', 'C', 'T', 'I', 'C'],
+        ],
+      },
+    },
   ],
 };
