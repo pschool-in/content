@@ -44,23 +44,21 @@ export default {
   The *clown* gave a *balloon* to the *boy*.
   The *pear* fell off the *tree*.
   The *teacher* rings the *bell*.
-  *Monkeys* swing in *trees*.`,
-
-        `The *cat* is purring.
-    The *bus* stops at the red *light*.
-    These *flowers* are beautiful.
-    We saw *tigers* at the *zoo*.
-    The *boy* kicked the *ball*.`,
+  *Monkeys* swing in *trees*.
+  The *cat* is purring.
+  The *bus* stops at the red *light*.
+  These *flowers* are beautiful.
+  We saw *tigers* at the *zoo*.
+  The *boy* kicked the *ball*.`,
 
         `Who likes *apples*?
     The *rabbit* hopped across the *road*.
     *Ice* floats on *water*.
-    We’re having *soup* for *dinner*.
-    *Lavina* brought *cake* to the *party*.`,
-
-        `An *apple* a day keeps the doctor away.
+    We're having *soup* for *dinner*.
+    *Lavina* brought *cake* to the *party*.
+    An *apple* a day keeps the doctor away.
     The *broom* is used to clean the house.
-    The *sand* is found in the *beach*.
+    The *sand* is found on the *beach*.
     My *dog* is very playful.
     The *airplane* flies in the sky.`,
 
