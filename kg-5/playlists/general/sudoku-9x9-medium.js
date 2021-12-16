@@ -1,5 +1,5 @@
 export default {
-  label: 'Sudoku 9 x 9',
+  label: 'Sudoku 9 x 9 (Medium)',
   id: 'sudoku-9x9-medium',
   list: [
     {

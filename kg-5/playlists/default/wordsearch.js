@@ -1,4 +1,4 @@
-const wordsearch = {
+export default {
   label: 'Word Search',
   id: 'wordsearch',
   img: 'wordsearch',
@@ -7,25 +7,125 @@ const wordsearch = {
       type: 'wordsearch',
       id: 'days-of-week',
       label: 'Days of the Week',
-      data: { slug: 'daysOfWeek' }
+      data: {
+        words: [
+          { word: 'saturday', marker: [0, 0, 7, 0] },
+          { word: 'sunday', marker: [0, 0, 0, 5] },
+          { word: 'monday', marker: [1, 2, 6, 2] },
+          { word: 'thursday', marker: [1, 6, 8, 6] },
+          { word: 'wednesday', marker: [0, 7, 8, 7] },
+          { word: 'friday', marker: [2, 3, 7, 3] },
+          { word: 'tuesday', marker: [8, 0, 8, 6] }
+        ],
+        showWords: false,
+        lang: 'en',
+        desc: 'Find the days of the week.',
+        table: `SATURDAYT
+      UEHQSXBOU
+      NMONDAYVE
+      DDFRIDAYS
+      AGZHXJJFD
+      YAGPMKQGA
+      DTHURSDAY
+      WEDNESDAY`
+      }
     },
     {
       type: 'wordsearch',
       id: 'months-of-year',
       label: 'Months of the year',
-      data: { slug: 'monthsOfYear' }
+      data: {
+        words: [
+          { word: 'February', marker: [0, 9, 7, 9] },
+          { word: 'September ', marker: [3, 1, 3, 9] },
+          { word: 'January ', marker: [7, 3, 7, 9] },
+          { word: 'December ', marker: [6, 2, 6, 9] },
+          { word: 'June', marker: [4, 1, 7, 1] },
+          { word: 'July', marker: [4, 1, 4, 4] },
+          { word: 'November ', marker: [0, 0, 7, 0] },
+          { word: 'October ', marker: [1, 0, 1, 6] },
+          { word: 'August', marker: [5, 2, 5, 7] },
+          { word: 'April', marker: [0, 2, 0, 6] },
+          { word: 'March', marker: [2, 1, 2, 5] },
+          { word: 'May', marker: [0, 8, 2, 8] }
+        ],
+        showWords: false,
+        lang: 'en',
+        desc: 'Find the months of the year.',
+        table: `NOVEMBER
+        DCMSJUNE
+        ATAEUADO
+        PORPLUEJ
+        RBCTYGCA
+        IEHEYUEN
+        LROMUSMU
+        XDZBETBA
+        MAYEUXER
+        FEBRUARY`
+      }
     },
     {
       type: 'wordsearch',
       id: 'planets',
       label: 'Planets',
-      data: { slug: 'planets' }
+      data: {
+        words: [
+          { word: 'mercury', marker: [1, 0, 7, 6] },
+          { word: 'neptune', marker: [1, 1, 7, 1] },
+          { word: 'venus', marker: [7, 0, 7, 4] },
+          { word: 'earth', marker: [0, 3, 4, 7] },
+          { word: 'mars', marker: [0, 4, 3, 4] },
+          { word: 'jupiter', marker: [6, 2, 0, 8] },
+          { word: 'uranus', marker: [2, 8, 7, 8] },
+          { word: 'saturn', marker: [8, 1, 8, 6] }
+        ],
+        showWords: false,
+        lang: 'en',
+        desc: 'Identify all planets in solar system',
+        table: `QMFMCPVVN
+      FNEPTUNES
+      GNBRMSJNA
+      ENOTCUGUT
+      MARSPUDSU
+      TPRIUURXR
+      CRTTHUOYN
+      TESYHTNSL
+      RAURANUSS`
+      }
     },
     {
       type: 'wordsearch',
       id: 'animals',
       label: 'Animals',
-      data: { slug: 'animals' }
+      data: {
+        words: [
+          { word: 'tiger', marker: [3, 3, 7, 7] },
+          { word: 'lion', marker: [3, 4, 6, 4] },
+          { word: 'goat', marker: [0, 3, 3, 3] },
+          { word: 'monkey', marker: [2, 6, 7, 6] },
+          { word: 'dog', marker: [5, 3, 5, 5] },
+          { word: 'cat', marker: [3, 1, 3, 3] },
+          { word: 'zebra', marker: [0, 5, 4, 9] },
+          { word: 'cow', marker: [5, 0, 7, 2] },
+          { word: 'panda', marker: [0, 9, 4, 9] },
+          { word: 'deer', marker: [1, 4, 1, 7] },
+          { word: 'bear', marker: [2, 1, 2, 4] },
+          { word: 'wolf', marker: [1, 0, 4, 0] }
+        ],
+        showWords: true,
+        lang: 'en',
+        desc: 'Find the animals given at the bottom.',
+        table: `LWOLFCQL
+      CCBCYSOC
+      VFEAHJXW
+      GOATWDNL
+      RDRLIONH
+      ZEFMCGLZ
+      MEMONKEY
+      ZRBQUMCR
+      HJDRMLGU
+      PANDAEHX`
+      }
     },
     {
       id: 'fruits',
@@ -95,20 +195,93 @@ const wordsearch = {
       type: 'wordsearch',
       label: 'People and Jobs',
       id: 'profession',
-      data: { slug: 'profession' }
+      data: {
+        words: [
+          { word: 'scientist', marker: [0, 5, 8, 5] },
+          { word: 'teacher', marker: [3, 0, 3, 6] },
+          { word: 'farmer', marker: [2, 2, 7, 2] },
+          { word: 'police', marker: [1, 1, 1, 6] },
+          { word: 'cook', marker: [1, 5, 4, 8] },
+          { word: 'doctor', marker: [8, 2, 8, 7] },
+          { word: 'driver', marker: [6, 3, 6, 8] },
+          { word: 'nurse', marker: [0, 0, 0, 4] },
+          { word: 'tailor', marker: [3, 0, 8, 0] },
+          { word: 'pilot', marker: [0, 7, 4, 7] }
+        ],
+        showWords: true,
+        lang: 'en',
+        desc: 'Find the jobs given at the bottom.',
+        table: `NXCTAILOR
+      UPOEEZPZU
+      ROFARMERD
+      SLGCZVDIO
+      EIPHGNRQC
+      SCIENTIST
+      SEORXYVLO
+      PILOTKEJR
+      MDZPKTRZB`
+      }
     },
     {
       type: 'wordsearch',
       id: 'colors',
       label: 'Colors',
-      data: { slug: 'colors' }
+      data: {
+        words: [
+          { word: 'pink', marker: [4, 7, 7, 7] },
+          { word: 'black', marker: [7, 3, 7, 7] },
+          { word: 'white', marker: [2, 1, 6, 5] },
+          { word: 'blue', marker: [3, 5, 6, 5] },
+          { word: 'green', marker: [6, 3, 6, 7] },
+          { word: 'purple', marker: [0, 1, 5, 6] },
+          { word: 'violet', marker: [0, 2, 0, 7] },
+          { word: 'yellow', marker: [2, 0, 7, 0] },
+          { word: 'red', marker: [2, 3, 2, 5] }
+        ],
+        showWords: true,
+        lang: 'en',
+        desc: 'Find the colors given at the bottom.',
+        table: `NLYELLOW
+      PGWHENMX
+      VUDHJDFW
+      IORXIVGB
+      ODEPRTRL
+      LNDBLUEA
+      EVXXEEEC
+      TRJRPINK`
+      }
     },
     {
       type: 'wordsearch',
       id: 'vehicles',
       label: 'Vehicles',
       locked: true,
-      data: { slug: 'vehicles' }
+      data: {
+        words: [
+          { word: 'boat', marker: [4, 1, 7, 1] },
+          { word: 'car', marker: [6, 0, 6, 2] },
+          { word: 'train', marker: [1, 5, 5, 5] },
+          { word: 'ship', marker: [7, 4, 7, 7] },
+          { word: 'bicycle', marker: [1, 3, 7, 3] },
+          { word: 'van', marker: [0, 0, 0, 2] },
+          { word: 'tractor', marker: [0, 7, 6, 7] },
+          { word: 'aeroplane', marker: [8, 0, 8, 8] },
+          { word: 'truck', marker: [2, 6, 6, 6] },
+          { word: 'bus', marker: [3, 0, 5, 0] }
+        ],
+        showWords: true,
+        lang: 'en',
+        desc: 'Find the vehicles given at the bottom.',
+        table: `VWSBUSCKA
+      AKTFBOATE
+      NTWAAKRNR
+      LBICYCLEO
+      PWMEHCFSP
+      JTRAINBHL
+      AOTRUCKIA
+      TRACTORPN
+      CQEDKXOEE`
+      }
     },
     {
       id: 'kitchen',
@@ -238,5 +411,3 @@ const wordsearch = {
     }
   ]
 };
-
-export default wordsearch;

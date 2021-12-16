@@ -110,7 +110,7 @@ The price of a plate is ₹ 50. What will be the total price of 8 plates? | ₹ 
 A teacher has 300 notebooks. She has to make bundles of 15 notebooks. How many bundles can she make? | 20
 One packet of pencils contains 10 pencils. If there are a total of 500 pencils, how many packets of pencils can we make? | 50
 Richa has 80 erasers to give. If she gives 2 erasers to each of her class friends, how many class friends will get erasers? | 40`,
-
+        // easy problems
         `Janis sings 30 songs on Monday and 20 songs on Tuesday. How many songs did she sing in all? | 50
 Pooja has 50 black balls and 75 blue balls. How many balls does she have in all? | 125
 Kayal had ₹ 700. She spent ₹ 400 on a bag. How much money is left with her? | ₹ ?0 | 300
@@ -315,6 +315,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       },
       data: [
         // multiplication class 5 - ref Karnataka state book , chaper 1/2 unit-2
+
         `Mr. Sidhu is a fruit selling agent who exports oranges. One box contains 144 oranges. If he exports 250 boxes of oranges, find the total number of oranges exported. | 36000
         In a protected forest area, 160 trees are planted in each row and 128 trees in each column. Find the total number of trees planted in the forest area. | 20480
         A dealer buys 37 bicycles for his show room. Cost of each bicycle is ₹ 2,050. Find the total amount paid by the dealer. | 75850
