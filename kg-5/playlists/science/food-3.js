@@ -25,8 +25,8 @@ Fats provide energy to us. They act as the body's energy reservoir. Fats also he
 Our body needs vitamins to work properly. They protect our body from deficiency diseases. E.g., Carrot, Orange, Gooseberry, Papaya and Greens.
 # Minerals
 Minerals help in formation of blood, bone, teeth, etc. They regulate the body functions. E.g., Fig, Pear, Garlic, Banana and Apple.
-Most children love to eat food items like burgers, pizzas and chocolates, which are not good for health. They make children to gain extra weight. Avoid eating unhealthy foods and eat nutritious food to stay healthy. A healthy snack may include sprouts, fruits and salads.`
-      }
+Most children love to eat food items like burgers, pizzas and chocolates, which are not good for health. They make children to gain extra weight. Avoid eating unhealthy foods and eat nutritious food to stay healthy. A healthy snack may include sprouts, fruits and salads.`,
+      },
     },
     {
       label: 'Carbohydrates vs Proteins',
@@ -37,14 +37,14 @@ Most children love to eat food items like burgers, pizzas and chocolates, which 
         types: [
           {
             name: 'Carbohydrates',
-            text: 'Rice, Wheat, Potato, Sugar, Bread'
+            text: 'Rice, Wheat, Potato, Sugar, Bread',
           },
           {
             name: 'Proteins',
-            text: 'Fish, Milk, Egg, Nuts, Sprouted seeds'
-          }
-        ]
-      }
+            text: 'Fish, Milk, Egg, Nuts, Sprouted seeds',
+          },
+        ],
+      },
     },
     {
       label: 'Fats vs Vitamins',
@@ -55,14 +55,14 @@ Most children love to eat food items like burgers, pizzas and chocolates, which 
         types: [
           {
             name: 'Fats',
-            text: 'Cheese, Butter, Ghee, Meat, Oil'
+            text: 'Cheese, Butter, Ghee, Meat, Oil',
           },
           {
             name: 'Vitamins',
-            text: 'Carrot, Orange, Gooseberry, Papaya, Spinach '
-          }
-        ]
-      }
+            text: 'Carrot, Orange, Gooseberry, Papaya, Spinach ',
+          },
+        ],
+      },
     },
     {
       id: 'match',
@@ -74,8 +74,8 @@ Fish, Proteins
 Meat, Fats
 Papaya, Vitamins
 Garlic, Minerals`,
-        title: 'Match the foods with their major nutrients.'
-      }
+        title: 'Match the foods with their major nutrients.',
+      },
     },
     {
       label: 'Choose the best answer.',
@@ -86,30 +86,30 @@ Garlic, Minerals`,
         questions: [
           {
             qText: 'Bread,wheat and potato are rich in _______________.',
-            options: 'carbohydrate, protein, roughage, fats'
+            options: 'carbohydrate, protein, roughage, fats',
           },
           {
             qText: 'A balanced diet contains _______________.',
             options: `Carbohydrates and vitamins
 Proteins and fats and minerals
 Fibre and water
-* All`
+* All`,
           },
           {
             qText: 'The Vitamin present in carrot is _______________.',
-            options: 'Vitamin-A , Vitamin-D, Vitamin-E, Vitamin-K '
+            options: 'Vitamin-A , Vitamin-D, Vitamin-E, Vitamin-K ',
           },
           {
             qText: 'Which of these things are BAD for you?',
             options:
-              'Eating lot of fat food items,Washing vegetables before cutting them,  Eating green vegetables, Eating lot of pulses '
+              'Eating lot of fat food items,Washing vegetables before cutting them,  Eating green vegetables, Eating lot of pulses ',
           },
           {
             qText: 'What is the food that we eat in the morning called?',
-            options: 'Breakfast, Lunch, Dinner'
-          }
-        ]
-      }
+            options: 'Breakfast, Lunch, Dinner',
+          },
+        ],
+      },
     },
     {
       label: 'Fill in the blanks',
@@ -120,14 +120,14 @@ Fibre and water
         title: 'Drag and drop the words at proper places.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 70
+          dashWidth: 70,
         },
         text: `Food rich in proteins are called *body-building* food.
 Food helps in proper *functioning* of our body.
 A *balanced diet* is necessary for the proper growth and development of our body.
 Sprouted seeds contain more *proteins*.
-*lunch* is the second meal of a day.`
-      }
+*lunch* is the second meal of a day.`,
+      },
     },
     {
       type: 'match',
@@ -139,8 +139,8 @@ Sprouted seeds contain more *proteins*.
         text: `Carbohydrates and fats, Energy-giving food
 Vitamins,Fights diseases 
 Protein,Supports body growth
-Minerals,Regulates body functions`
-      }
+Minerals,Regulates body functions`,
+      },
     },
     {
       label: 'Balanced Diet - Reading',
@@ -161,8 +161,8 @@ Cultivation of crops in a small available place in house-holds is known as Home 
 1. Waste water can be reused.
 2. It saves our money.
 3. We get vegetables which are fresh and high in nutritive value.
-4. It can be a good hobby.`
-      }
+4. It can be a good hobby.`,
+      },
     },
     {
       type: 'match',
@@ -174,8 +174,8 @@ Cultivation of crops in a small available place in house-holds is known as Home 
 8 AM, Breakfast 
 1 PM, Lunch
 5 PM, Snacks
-8 PM, Dinner`
-      }
+8 PM, Dinner`,
+      },
     },
     {
       label: 'Multiple Choice Questions.',
@@ -186,31 +186,31 @@ Cultivation of crops in a small available place in house-holds is known as Home 
         questions: [
           {
             qText: 'What is indigestible for our body?',
-            options: 'fibre, protein, vitamin'
+            options: 'fibre, protein, vitamin',
           },
           {
             qText: 'Food habits of the people depends on ___________',
             options: `climate
 culture
 availability of food
-* all of the above`
+* all of the above`,
           },
           {
             qText: 'Which of the following is not an advantage of home garden?',
             options:
-              'We can sell our vegetables, We get fresh vegetables, We can reuse waste water, It is a good hobby'
+              'We can sell our vegetables, We get fresh vegetables, We can reuse waste water, It is a good hobby',
           },
           {
             qText:
               'A _______ diet contains all nutrients in the right amounts.',
-            options: 'balanced, light, heavy, lunch'
+            options: 'balanced, light, heavy, lunch',
           },
           {
             qText: 'How many main meals do we eat every day?',
-            options: 'three, four, two'
-          }
-        ]
-      }
+            options: 'three, four, two',
+          },
+        ],
+      },
     },
     {
       label: 'True or False',
@@ -223,15 +223,15 @@ availability of food
             name: 'True',
             text: `The amount of food a person needs depends on his age.
 Our ancestors ate food that were easily available from nature.
-Our ancestors led a healthy life.`
+Our ancestors led a healthy life.`,
           },
           {
             name: 'False',
             text: `People living in coastal areas, usually don't eat sea food.
-Athletes need less amount of energy.`
-          }
-        ]
-      }
+Athletes need less amount of energy.`,
+          },
+        ],
+      },
     },
     {
       id: 'notes-3',
@@ -257,8 +257,8 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
 1. However, they are unable to travel from one location to another in search of food.
 2. Plant roots take up water from the earth. In this water, several soil substances are dissolved. This water reaches the plant's leaves.
 3. On the surface of leaves, there are numerous tiny holes. We can't see them with our eyes since they're so small. These pores allow air to penetrate the leaves.
-4. As a result, air and water collide in the leaf. Plants use the water and air in their leaves to create their own food with the help of sunlight.`
-      }
+4. As a result, air and water collide in the leaf. Plants use the water and air in their leaves to create their own food with the help of sunlight.`,
+      },
     },
     {
       id: 'classify-4',
@@ -269,14 +269,14 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
         types: [
           {
             name: 'Herbivorous',
-            text: 'Cow, Horse, Sheep, Deer'
+            text: 'Cow, Horse, Sheep, Deer',
           },
           {
             name: 'Carnivorous',
-            text: 'Tiger, Lion, Hyena, Wolf'
-          }
-        ]
-      }
+            text: 'Tiger, Lion, Hyena, Wolf',
+          },
+        ],
+      },
     },
     {
       id: 'match-5',
@@ -287,10 +287,10 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
         fontSize: '1rem',
         text: `Cat, Milk
 Lion, Flesh
-Fox, Rabbits
+Rabbits, Carrot
 Horse, Bengal gram
-Cow, Oilcake`
-      }
+Cow, Oilcake`,
+      },
     },
     {
       id: 'true-false-3',
@@ -303,15 +303,15 @@ Cow, Oilcake`
             name: 'True',
             text: `Food for different living things, is different.
 The entire living world depends on the food prepared by plants.
-With the help of sunlight, plants prepare their own food.`
+With the help of sunlight, plants prepare their own food.`,
           },
           {
             name: 'False',
             text: `The dog is a herbivore.
-There is no difference in the food habit of a tiger and a vulture.`
-          }
-        ]
-      }
+There is no difference in the food habit of a tiger and a vulture.`,
+          },
+        ],
+      },
     },
     {
       label: 'Drag and Drop',
@@ -322,14 +322,14 @@ There is no difference in the food habit of a tiger and a vulture.`
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `The main sources of our *food* are plants and animals.
 The *roots* absorb water and minerals from the soil.
 A plant needs *sunlight* to prepare food.
 *Foxes* are unable to kill cattle.
-The process of making food using sunlight, carbon dioxide and water is called *Photosynthesis*.`
-      }
+The process of making food using sunlight, carbon dioxide and water is called *Photosynthesis*.`,
+      },
     },
     {
       id: 'notes-4',
@@ -349,8 +349,8 @@ The process of making food using sunlight, carbon dioxide and water is called *P
 # Watch What We Eat
 1. We should eat food made at home.
 2. Sprouted pulses, leafy vegetables, buttermilk and yogurt should be included often in our diet.
-3. We should avoid products shown in newspapers and TVs. The advertisements are tempting, but it does not mean that they are healthy for our body.`
-      }
+3. We should avoid products shown in newspapers and TVs. The advertisements are tempting, but it does not mean that they are healthy for our body.`,
+      },
     },
     {
       id: 'classify-5',
@@ -361,14 +361,14 @@ The process of making food using sunlight, carbon dioxide and water is called *P
         types: [
           {
             name: 'Healthy',
-            text: 'Wheat, Pulses, Sprouts, Vegetables'
+            text: 'Wheat, Pulses, Sprouts, Vegetables',
           },
           {
             name: 'Unhealthy',
-            text: 'White bread, Cookies, Pizza, Potato chips'
-          }
-        ]
-      }
+            text: 'White bread, Cookies, Pizza, Potato chips',
+          },
+        ],
+      },
     },
     {
       id: 'classify-6',
@@ -379,14 +379,14 @@ The process of making food using sunlight, carbon dioxide and water is called *P
         types: [
           {
             name: 'Physical labour',
-            text: 'Playing kho-kho, Climbing a mountain, Cycling, Sweeping'
+            text: 'Playing kho-kho, Climbing a mountain, Cycling, Sweeping',
           },
           {
             name: 'Sedentary work',
-            text: 'Reading book, Drawing, Operating a laptop, Playing carrom'
-          }
-        ]
-      }
+            text: 'Reading book, Drawing, Operating a laptop, Playing carrom',
+          },
+        ],
+      },
     },
     {
       id: 'fillup-4',
@@ -398,8 +398,8 @@ A balanced diet contain all the *nutrients*.
 Work done when sitting is *sedentary* work.
 Oils and fat give us *calories*.
 If our diet is not balanced we may suffer from *diseases*.`,
-        title: 'Fill in the blanks.'
-      }
+        title: 'Fill in the blanks.',
+      },
     },
     {
       id: 'true-false-4',
@@ -411,16 +411,16 @@ If our diet is not balanced we may suffer from *diseases*.`,
           {
             name: 'True',
             text: `Water is the most important part of our diet.
-Deficiency diseases can be prevented by eating a balanced diet.`
+Deficiency diseases can be prevented by eating a balanced diet.`,
           },
           {
             name: 'False',
             text: `Meat alone is sufficient to provide all nutrients for the body.
 People who don't work, won't feel hungry.
-We eat the same kind of food throughout the year.`
-          }
-        ]
-      }
+We eat the same kind of food throughout the year.`,
+          },
+        ],
+      },
     },
     {
       id: 'match-6',
@@ -433,8 +433,8 @@ We eat the same kind of food throughout the year.`
 Wheat, Punjab
 Bhakri, Maharashtra
 Turmeric, Andhra Pradesh
-Pulses, Madhya Pradesh`
-      }
+Pulses, Madhya Pradesh`,
+      },
     },
     {
       id: 'notes-5',
@@ -455,8 +455,8 @@ A combustible substance is something that can burn.  Fuel is a combustible subst
 1. Some people use kerosene stoves for cooking.
 2. Nowadays, hotplates are also used for cooking on electricity. They are very convenient to use.
 3. Some people use biogas.
-4. Some people use the heat from the sun for cooking. They use the solar cooker.`
-      }
+4. Some people use the heat from the sun for cooking. They use the solar cooker.`,
+      },
     },
     {
       label: 'Drag and Drop',
@@ -467,14 +467,14 @@ A combustible substance is something that can burn.  Fuel is a combustible subst
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `We boil water to kill *bacteria*.
 *Cooking* makes food soft, tasty and easy to digest.
 The material that is burnt to produce heat is known as *fuel*.
 Wood and *coal* produces more smoke, while using as a fuel for cooking.
-*Utensils* are used for cooking food.`
-      }
+*Utensils* are used for cooking food.`,
+      },
     },
     {
       id: 'match-6',
@@ -487,8 +487,8 @@ Wood and *coal* produces more smoke, while using as a fuel for cooking.
 Oven, Heating
 Refrigerator, Cooling
 Electric juicers, Juicing
-Crock pot, Baking`
-      }
+Crock pot, Baking`,
+      },
     },
     {
       label: 'Drag and Drop',
@@ -499,13 +499,13 @@ Crock pot, Baking`
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `The process by which foodstuffs become tastier and easier to digest is *heating*.
 Foods which we eat mostly without cooking are *fruits*.
 A device that uses the energy of direct sunlight to cook, is *Solar cooker*.
-Grilled sandwiches can also be made with the help of *toaster*.`
-      }
+Grilled sandwiches can also be made with the help of *toaster*.`,
+      },
     },
     {
       id: 'true-false-6',
@@ -518,15 +518,15 @@ Grilled sandwiches can also be made with the help of *toaster*.`
             name: 'True',
             text: `Most tables have salt and pepper shakers for spicing up food.
 You can use a spatula to flip over your eggs easily.
-Plastic containers are used to store food.`
+Plastic containers are used to store food.`,
           },
           {
             name: 'False',
             text: `A pan is used to chop things on so you don't scratch up your kitchen counter.
-Plastic containers are used to cook food.`
-          }
-        ]
-      }
-    }
-  ]
+Plastic containers are used to cook food.`,
+          },
+        ],
+      },
+    },
+  ],
 };
