@@ -3,18 +3,13 @@ export default {
   label: 'Abstract and Concrete Noun',
   list: [
     {
-      label: 'Concrete Nouns',
+      label: 'Noun - 4',
       type: 'passage',
       id: 'noun-4-reading',
       data: {
         title: 'Concrete Nouns',
-        text: `A concrete noun is any noun word that we can see, touch, smell, hear or feel. In other words, any noun that is not abstract is concrete. 
-For example: 
-What is that noise ? 
-In this sentence, the word noise is a concrete noun because we can hear it.
-Another example is; 
-You need patience to read a book. 
-In this sentence, patience is an abstract noun because it is not physically present. On the other hand, the book is a concrete noun because we can see, touch and feel it.
+        text: `A concrete noun is any noun word that we can see, touch, smell, hear or feel. In other words, any noun that is not abstract is concrete. For example: What is that noise ? In this sentence, the word noise is a concrete noun because we can hear it.
+Another example is; You need patience to read a book. In this sentence, patience is an abstract noun because it is not physically present. On the other hand, the book is a concrete noun because we can see, touch and feel it.
 Some more examples of concrete nouns are:
 1. Shruti put her feet on the table.
 2. The teacher ran away from the mouse.
@@ -187,7 +182,7 @@ I'm not going outside in the *fear* of dogs.`
       data: [
         `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
     A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
-    The *crocodiles* live in the *ocean*. It is a very dangerous *animal.*
+    The *crocodiles* live in the ocean. It is a very dangerous *animal.*
     My *mother* is a *teacher*. She teaches science.
     We should take a *shower* everyday. It helps us stay clean and tidy.
     Someone stole my dad's *wallet* in the train. The *police* will try to catch the *thief*.
