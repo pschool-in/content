@@ -187,13 +187,28 @@ const grammar = [
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Noun',
-    id: 'noun',
+    label: 'Naming Word',
+    id: 'noun-1',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Proper and Common Noun',
+    id: 'noun-2',
+    grade: 'g1, g2, g3, g4'
+  },
+  {
+    label: 'Types of Noun',
+    id: 'noun-3',
     grade: 'g2, g3, g4, g5'
   },
   {
-    label: 'Noun 2',
-    id: 'noun-2',
+    label: 'Abstract and Concrete Noun',
+    id: 'noun-4',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Gender Nouns',
+    id: 'noun-5',
     grade: 'g2, g3, g4, g5'
   },
   {
@@ -288,11 +303,6 @@ const grammar = [
   },
   // New Playlists
   {
-    label: 'Noun - 1',
-    id: 'noun-1',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Alliteration',
     id: 'alliteration',
     grade: 'g3, g4, g5'
@@ -330,11 +340,6 @@ const grammar = [
   {
     label: 'Clause',
     id: 'clause',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Noun 4',
-    id: 'noun-4',
     grade: 'g3, g4, g5'
   },
   {
@@ -382,11 +387,7 @@ const grammar = [
     id: 'verb-1',
     grade: 'g3, g4, g5'
   },
-  {
-    label: 'Noun - 5',
-    id: 'noun-5',
-    grade: 'g3, g4, g5'
-  },
+
   {
     label: 'Introduction to Pronoun',
     id: 'pronoun-1',
@@ -609,6 +610,21 @@ const math = [
     label: 'Balance Numbers - 2',
     id: 'balance-numbers-2',
     grade: 'g4, g5'
+  },
+  {
+    label: 'Math Puzzle - 3',
+    id: 'math-puzzle-3',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Math Puzzle - 4',
+    id: 'math-puzzle-4',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Math Puzzle - 5',
+    id: 'math-puzzle-5',
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Word Problems - 1',
@@ -1229,7 +1245,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 4x4',
-    id: 'sudoku-4x4-difficult',
+    id: 'sudoku-4x4-hard',
     grade: 'g3, g4, g5'
   },
   {
@@ -1244,7 +1260,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 6x6',
-    id: 'sudoku-6x6-difficult',
+    id: 'sudoku-6x6-hard',
     grade: 'g3, g4, g5'
   },
   {
@@ -1259,7 +1275,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 9x9',
-    id: 'sudoku-9x9-difficult',
+    id: 'sudoku-9x9-hard',
     grade: 'g3, g4, g5'
   },
   {

@@ -10,52 +10,52 @@ export default {
       data: [
         {
           left: 'x,x',
-          right: 'v',
+          right: '?',
           count: 10
         },
         {
           left: 'x0,x',
-          right: 'v',
+          right: '?',
           count: 10
         },
         {
           left: 'x',
-          right: 'x, v',
+          right: 'x, ?',
           count: 10
         },
         {
           left: 'xx, x',
-          right: 'v',
+          right: '?',
           count: 10
         },
         {
           left: 'x,x,x',
-          right: 'v',
+          right: '?',
           count: 10
         },
         {
           left: 'x',
-          right: 'x,x,v',
+          right: 'x,x,?',
           count: 10
         },
         {
           left: 'xx, x',
-          right: 'x, v',
+          right: 'x, ?',
           count: 10
         },
         {
           left: 'x0, x0',
-          right: 'x0, v',
+          right: 'x0, ?',
           count: 10
         },
         {
           left: 'x, x, x',
-          right: 'x, v',
+          right: 'x, ?',
           count: 10
         },
         {
           left: 'x, x, x',
-          right: 'x, x, v',
+          right: 'x, x, ?',
           count: 10
         }
       ]

@@ -1,6 +1,6 @@
 export default {
-  label: 'Sudoku 6 x 6',
-  id: 'sudoku-6x6-difficult',
+  label: 'Sudoku 6 x 6 (Hard)',
+  id: 'sudoku-6x6-hard',
   list: [
     {
       type: 'sudoku',

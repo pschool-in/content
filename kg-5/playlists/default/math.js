@@ -454,7 +454,7 @@ const math = {
       id: 'balance',
       data: {
         left: 'x,x',
-        right: 'v',
+        right: '?',
         count: 10
       }
     },

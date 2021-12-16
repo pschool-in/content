@@ -10,7 +10,7 @@ export default {
       data: [
         {
           left: 'x0, x, x',
-          right: 'x, x, v',
+          right: 'x, x, ?',
           count: 10
         },
         [
