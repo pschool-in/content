@@ -19,8 +19,8 @@ export default {
   # Animals that found ready shelters in the surroundings
   Some animals do not make any efforts to build a shelter. They simply look around for a safe place. Some live in small hollows on high cliffs or live near our houses. They find shelter in gaps in walls.
   # Fun Fact
-  It is believed that a cobra lives in an anthill. But anthills are built by ants, not by a cobra. The cobras live in holes.`
-      }
+  It is believed that a cobra lives in an anthill. But anthills are built by ants, not by a cobra. The cobras live in holes.`,
+      },
     },
     {
       label: 'Build shelter themselves Vs find ready-shelters',
@@ -31,14 +31,14 @@ export default {
         types: [
           {
             name: 'Build shelter themselves',
-            text: 'Birds, Honey bees, Rats, Mice'
+            text: 'Birds, Honey bees, Rats, Mice',
           },
           {
             name: 'Find ready shelters',
-            text: 'Doves, Tiger, Bats, Cobra'
-          }
-        ]
-      }
+            text: 'Doves, Tiger, Bats, Cobra',
+          },
+        ],
+      },
     },
     {
       label: 'Domestic Animals Vs Wild Animals',
@@ -50,14 +50,14 @@ export default {
         types: [
           {
             name: 'Domestic',
-            text: 'Cow, Horse, Hens, Cat'
+            text: 'Cow, Horse, Hens, Cat',
           },
           {
             name: 'Wild',
-            text: 'Lion, Hyena, Leopard, Bat'
-          }
-        ]
-      }
+            text: 'Lion, Hyena, Leopard, Bat',
+          },
+        ],
+      },
     },
     {
       id: 'match',
@@ -70,8 +70,8 @@ Rat, Hole
 Leopard, Cave
 Bat, Dark Cavern
 Lion, Den`,
-        title: 'Match the shelter name'
-      }
+        title: 'Match the shelter name',
+      },
     },
     {
       label: 'Drag and Drop - Animals Shelters',
@@ -82,14 +82,14 @@ Lion, Den`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `*Birds* use grass, straw, twigs and even cotton and wool, to build their *nests*.
 Weaverbird uses *thorny* trees to build their nest.
 Tailorbird selects a plant with *big* leaves and builds its nest by *stitching* the leaves together.
 Tigers and hyenas live in *caves*.
-*Bats* live in tall trees or look for shelter in old, deserted, tumble-down buildings.`
-      }
+*Bats* live in tall trees or look for shelter in old, deserted, tumble-down buildings.`,
+      },
     },
     {
       id: 'fillup',
@@ -101,8 +101,8 @@ Tigers and hyenas live in *caves*.
 A cow lives in *shed (den)*.
 The shelter for hens is called *chicken coop (nest)*.
 A stable is built for a *horse (dog)*.
-A cobra lives in *hole (anthill)*.`
-      }
+A cobra lives in *hole (anthill)*.`,
+      },
     },
     {
       label: 'Animal Shelters - True or False',
@@ -115,16 +115,16 @@ A cobra lives in *hole (anthill)*.`
             name: 'True',
             text: `The young birds are too weak to defend themselves and the nest keeps the young ones safe.
 Animals that eat eggs find it difficult to reach the nest.
-Rats and mice dig into the soil and make holes and burrows to live in.`
+Rats and mice dig into the soil and make holes and burrows to live in.`,
           },
           {
             name: 'False',
             text: `Anthills are built by cobras as their shelters.
 Doves and pigeons make their shelters and live in caves.
-Bats like to build their shelters in densely populated areas.`
-          }
-        ]
-      }
+Bats like to build their shelters in densely populated areas.`,
+          },
+        ],
+      },
     },
     {
       label: 'Choose the best Answer - Animal Shelter',
@@ -136,27 +136,27 @@ Bats like to build their shelters in densely populated areas.`
           {
             qText: ' Birds build their nests to ___________.',
             options:
-              'Protect their eggs from other animals, Protect young birds as they are too weak to defend themselves, Have a safe place for laying their eggs, * All'
+              'Protect their eggs from other animals, Protect young birds as they are too weak to defend themselves, Have a safe place for laying their eggs, * All',
           },
           {
             qText: 'Rats and Mice mostly build their shelters in ___________',
-            options: 'Muddy houses, Cemented houses, Forests, Stable'
+            options: 'Muddy houses, Cemented houses, Forests, Stable',
           },
           {
             qText: 'Which of the following lives in Caves?',
-            options: 'Hyenas, Doves, Rabbit, Cow'
+            options: 'Hyenas, Doves, Rabbit, Cow',
           },
           {
             qText: 'Which of the following is not the use of a house?',
             options:
-              'Store wild animals, Protect from the scorching sun, Avoid heavy rains, Be away from gusty winds'
+              'Store wild animals, Protect from the scorching sun, Avoid heavy rains, Be away from gusty winds',
           },
           {
             qText: 'Which of the following does not live in a stable?',
-            options: 'Cow, Horse, Donkey, Tiger'
-          }
-        ]
-      }
+            options: 'Tiger, Cow, Horse, Donkey',
+          },
+        ],
+      },
     },
     {
       label: 'Animals & their habits - Reading',
@@ -180,8 +180,8 @@ Animals that eat only plants are called herbivorous animals or herbivores (Plant
 Mouth parts are different parts of the mouth that are adapted based on the nature of food that the animal eats. It is difficult to identify them sometimes.
 # Food chain and food web
 A food chain gives us information on how living things are related with one another by the food they eat. For example, grass is eaten by deer. The deer is eaten by the tiger.
-A Food web is an interconnection of multiple food chains. Transfer of energy between organisms of different energy sources occurs through food web.`
-      }
+A Food web is an interconnection of multiple food chains. Transfer of energy between organisms of different energy sources occurs through food web.`,
+      },
     },
     {
       label: 'Wings Vs No-Wings',
@@ -192,14 +192,14 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Wings',
-            text: 'Sparrow, Dragonfly, Parrot, Butterfly, Bat'
+            text: 'Sparrow, Dragonfly, Parrot, Penguin, Butterfly, Bat',
           },
           {
             name: 'No-Wings',
-            text: 'Snail, Tortoise, Fish, Penguin, Tiger'
-          }
-        ]
-      }
+            text: 'Snail, Tortoise, Fish, Tiger',
+          },
+        ],
+      },
     },
     {
       label: 'Terrestrial Vs Aquatic',
@@ -211,15 +211,14 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Terrestrial',
-            text: 'Bison, Tiger, Horse, Cow, Fox, Bear, deer'
+            text: 'Bison, Tiger, Horse, Cow, Fox, Bear, Deer, Tortoise',
           },
           {
             name: 'Aquatic',
-            text:
-              'Fish, Tortoise, Octopus, Seahorse, Jellyfish, Starfish, Mussel'
-          }
-        ]
-      }
+            text: 'Fish, Octopus, Seahorse, Jellyfish, Starfish, Mussel',
+          },
+        ],
+      },
     },
     {
       label: 'Herbivore Vs Carnivore Vs Omnivore',
@@ -231,18 +230,18 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Herbivore',
-            text: 'Cow, Buffalo, Goat, Elephant, Zebra'
+            text: 'Cow, Buffalo, Goat, Elephant, Zebra',
           },
           {
             name: 'Carnivore',
-            text: 'Lion, Leopard, Cheetah, Seal, Crocodile'
+            text: 'Lion, Leopard, Cheetah, Seal, Crocodile',
           },
           {
             name: 'Omnivore',
-            text: 'Human, Bear, Hen, Fox, Crow'
-          }
-        ]
-      }
+            text: 'Human, Bear, Hen, Fox, Crow',
+          },
+        ],
+      },
     },
     {
       label: 'Plain Vs Forest',
@@ -253,14 +252,14 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Plain',
-            text: 'cow, camel, hen, goat, sheep'
+            text: 'cow, camel, hen, goat, sheep',
           },
           {
             name: 'Forest',
-            text: 'fox, ber, bison, deer'
-          }
-        ]
-      }
+            text: 'fox, bear, bison, deer',
+          },
+        ],
+      },
     },
     {
       label: 'Freshwater Vs Marine',
@@ -271,14 +270,14 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Freswater',
-            text: 'mussel, fish, crab'
+            text: 'mussel, fish, crab',
           },
           {
             name: 'Marine',
-            text: 'seahorse, jellyfish, starfish, shark'
-          }
-        ]
-      }
+            text: 'seahorse, jellyfish, starfish, shark',
+          },
+        ],
+      },
     },
     {
       label: 'Arboreal Vs Aerial Vs Amphibian',
@@ -289,18 +288,18 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         types: [
           {
             name: 'Arboreal',
-            text: 'monkey, squirrel'
+            text: 'monkey, squirrel',
           },
           {
             name: 'Aerial',
-            text: 'crow, dove, parrot'
+            text: 'crow, dove, parrot',
           },
           {
             name: 'Amphibian',
-            text: 'toad, frog'
-          }
-        ]
-      }
+            text: 'toad, frog',
+          },
+        ],
+      },
     },
     {
       id: 'match-2',
@@ -312,8 +311,8 @@ Polar Bear, Polar region
 Whale, Salt water
 Camel, Desert
 Frogs, Fresh water`,
-        title: 'Match the animals with their living places'
-      }
+        title: 'Match the animals with their living places',
+      },
     },
     {
       id: 'match-3',
@@ -325,8 +324,8 @@ Leopard, flesh
 Hen, grain
 Spider, insect
 Goat, plant`,
-        title: 'Match the animals with their living places'
-      }
+        title: 'Match the animals with their living places',
+      },
     },
     {
       label: 'Drag and Drop - Animals & their Shelters',
@@ -337,14 +336,14 @@ Goat, plant`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `A lion lives in a *den*.
 Birds live and lay their eggs in the *nest*.
 An *earthworm* is found in soil.
 We can find a number if fishes in a *pond*.
-Spider like to weave a *web* and honeybee likes to live in a *honeycomb*.`
-      }
+Spider like to weave a *web* and honeybee likes to live in a *honeycomb*.`,
+      },
     },
     {
       label: 'Who am I?',
@@ -355,18 +354,14 @@ Spider like to weave a *web* and honeybee likes to live in a *honeycomb*.`
         title: 'Who am I?.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `I have 8 arms and I live in the sea. Who am I ? *octopus*
 I am a bird but I cannot fly. I can swim very well. Who am I? *penguin*
 I am the largest animal in the sea. Who am I? *whale* 
 I do not have any legs. I like to crawl. Who am I? *snake*
-I have wings but I am not a bird. Who am I? *butterfly*
-I am the king of the forest. I eat animals like deer, zebra and giraffe. Who am I? *lion*
-I suck blood from animals. But males of my family feed on plant juices. Who am I? *female mosquito*
-I eat cereals, small insects, earthworms etc. I live on land. Who am I? *hen*
-I eat small insects that fall in my web. Who am I? *spider*`
-      }
+I have wings but I am not a bird. Who am I? *butterfly*`,
+      },
     },
     {
       label: 'Birds and Beaks',
@@ -377,15 +372,15 @@ I eat small insects that fall in my web. Who am I? *spider*`
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `It has strong, sharp, curved beak to catch prey and tear its flesh.- *Eagle*
 Fish-eating birds have spear-like beaks designed for stabbing fish.- *Kingfisher*
 The hooked, sharp beak helps to collect and eat the grains.- *Parrot*
 Strong chisel beak is used to make hole in the trees and catch small insects.- *Woodpecker*
 Short, conical beak which helps to crack open the shells and extract the inner nut or seed.- *Sparrow*
-Flat beak that helps to grip plant and insect from water.- *Duck*`
-      }
+Flat beak that helps to grip plant and insect from water.- *Duck*`,
+      },
     },
     {
       id: 'fillup-2',
@@ -397,8 +392,25 @@ Flat beak that helps to grip plant and insect from water.- *Duck*`
 *Dove (Monkey)* is an example of aerial animal.
 *Toad (fish)* lives on both land and water.
 Crow flies in the sky, so it is an *aerial (arboreal)* animal.
-Squirrel and monkey are the examples of *arboreal (aquatic)* animals.`
-      }
+Squirrel and monkey are the examples of *arboreal (aquatic)* animals.`,
+      },
+    },
+    {
+      label: 'Who am I?',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-animals',
+      data: {
+        isPractice: false,
+        title: 'Who am I?.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80,
+        },
+        text: `I am the king of the forest. I eat animals like deer, zebra and giraffe. Who am I? *lion*
+I suck blood from animals. But males of my family feed on plant juices. Who am I? *female mosquito*
+I eat cereals, small insects, earthworms etc. I live on land. Who am I? *hen*
+I eat small insects that fall in my web. Who am I? *spider*`,
+      },
     },
     {
       label: 'Steps in Sexual Reproduction',
@@ -407,11 +419,11 @@ Squirrel and monkey are the examples of *arboreal (aquatic)* animals.`
       commonData: {
         title: 'Arrange in correct order',
         multiple: true,
-        fontSize: '2rem'
+        fontSize: '2rem',
       },
       data: [
-        `Pre-fertilization, Fertilization, Post-fertilization, Embryo formation`
-      ]
+        `Pre-fertilization, Fertilization, Post-fertilization, Embryo formation`,
+      ],
     },
     {
       label: 'Animal Food Habit - True or False',
@@ -424,28 +436,28 @@ Squirrel and monkey are the examples of *arboreal (aquatic)* animals.`
             name: 'True',
             text: `Flesh eating animals are called carnivorous animals or carnivores.
 Herbivores have sharp, straight edged, flat front teeth called incisors.
-Animals that hunt other animals are called predators.`
+Animals that hunt other animals are called predators.`,
           },
           {
             name: 'False',
             text: `The mosquitoes do not have a needle like structure to suck blood.
 Animals that need both land and water to live are called aquatic animals.
-Animals can make their own food.`
-          }
-        ]
-      }
+Animals can make their own food.`,
+          },
+        ],
+      },
     },
     {
       id: 'word-connect',
       type: 'sequence',
       label: 'Words related to Animal world',
       commonData: {
-        title: 'connect the letter to create word'
+        title: 'connect the letter to create word',
       },
       data: [
         `NECTAR , DOVE , INCISORS , CANINES , PREY`,
-        `SPORE, ZYGOTE, LARVA, EMBRYO, HYDRA`
-      ]
+        `SPORE, ZYGOTE, LARVA, EMBRYO, HYDRA`,
+      ],
     },
     {
       label: 'Choose the best Answer - Animal food habit',
@@ -456,28 +468,28 @@ Animals can make their own food.`
         questions: [
           {
             qText: ' Bear, man, crow and hen are examples of ___________.',
-            options: 'Omnivores, Herbivores, Carnivores, Amphibians'
+            options: 'Omnivores, Herbivores, Carnivores, Amphibians',
           },
           {
             qText:
               'The butterfly has a tube like structure called _________ to suck nectar from flowers.',
-            options: 'proboscis, Canines, Incisors, None of the above'
+            options: 'proboscis, Canines, Incisors, None of the above',
           },
           {
             qText:
               'A __________ usually starts with plants and ends with carnivores or omnivores.',
-            options: 'food chain, Food Web, connection, hunt'
+            options: 'food chain, Food Web, connection, hunt',
           },
           {
             qText: 'Which of the animals given below suck their food?',
-            options: 'Butterfly, bear, leopard, frog'
+            options: 'Butterfly, bear, leopard, frog',
           },
           {
             qText: 'Which of the following us an example of carnivore?',
-            options: 'Tiger, cow, horse, buffalo'
-          }
-        ]
-      }
+            options: 'Tiger, cow, horse, buffalo',
+          },
+        ],
+      },
     },
     {
       label: 'Food chain - Right order',
@@ -486,15 +498,15 @@ Animals can make their own food.`
       commonData: {
         title: 'Arrange in right order as a food chain',
         multiple: true,
-        fontSize: '2rem'
+        fontSize: '2rem',
       },
       data: [
         `Leaves, Caterpillar, Hen, Hawk`,
         `Grass, Grasshopper, rat, owl`,
         `Flower, Flies, Frog, Snake, Eagle`,
         `Carrot, Rabbit, Fox, Lion`,
-        `Tree, Deer, Lion`
-      ]
+        `Tree, Deer, Lion`,
+      ],
     },
     {
       label: 'Body structure of animals  - Reading',
@@ -516,8 +528,8 @@ Feathers protect birds from water, heat and cold. At least once a year, birds sh
 # Feet and Claws
 All birds have two feet and four toes. They help the bird to walk, wade through water and catch food. The woodpecker has two toes in the front and two at the back. Their claws are long and curved. This helps them to climb up trees. Duck has three toes that are webbed and a little toe at the back. These help them to swim. The vulture has four toes with very sharp claws. These help them to catch prey. The sparrow has three toes in the front and one at the back so that they can hold on to the branches tightly. Cranes have long legs and four toes that are spread wide so that they can walk near banks of rivers and lakes to eat fish.
 # Nesting Habits
-Birds bulid nests to lay eggs and protect their babies. They use grass, straw, twigs and leaves to build their nests. Tailorbird uses its beak to stitch leaves to build the nest. Different birds build different kinds of nest in trees, but there are some birds like a peacock or a duck who build their nests on the ground.`
-      }
+Birds bulid nests to lay eggs and protect their babies. They use grass, straw, twigs and leaves to build their nests. Tailorbird uses its beak to stitch leaves to build the nest. Different birds build different kinds of nest in trees, but there are some birds like a peacock or a duck who build their nests on the ground.`,
+      },
     },
     {
       id: 'match-4',
@@ -529,8 +541,8 @@ Gills, fish
 Antennae, insects
 Feathers, birds
 Dinosaur, extinct`,
-        title: 'Match the following'
-      }
+        title: 'Match the following',
+      },
     },
     {
       label: 'Fill in the blanks',
@@ -541,30 +553,30 @@ Dinosaur, extinct`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `Reptiles have *scales* instead of hair or feathers.
 All insects have three main parts in their body which are called head, *thorax* and abdomen.
 All birds have *wings* but not all of them can fly.
-Feathers *protect* birds from water, heat and cold.`
-      }
+Feathers *protect* birds from water, heat and cold.`,
+      },
     },
     {
       label: 'Who am I?',
       type: 'matchByDragDrop',
-      id: 'drag-drop-5',
+      id: 'drag-drop-birds',
       data: {
         isPractice: false,
         title: 'Who am I?.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `I have 2 toes in front and 2 at the back. My claws are long and curved. Who am I? - *woodpecker*
 I have webbed feet with a little toe at the back. Who am I? - *duck*
 I have 4 toes with very sharp claws to catch prey. Who am I? - *vulture*
-I have 3 toes in front and one at back to hold on to the branches. Who am I? - *sparrow*`
-      }
+I have 3 toes in front and one at back to hold on to the branches. Who am I? - *sparrow*`,
+      },
     },
     {
       id: 'fillup-6',
@@ -575,8 +587,8 @@ I have 3 toes in front and one at back to hold on to the branches. Who am I? - *
         text: `Tailorbird uses its *beak (claws)* to stitch leaves to build the nest.
 Birds mainly have *three (four)* types of feathers
 Reptiles are considered to be ancestors of *birds (insects)* and mammals.
-All birds have two feet and *four (six)* toes.`
-      }
+All birds have two feet and *four (six)* toes.`,
+      },
     },
     {
       label: 'True or False',
@@ -588,16 +600,16 @@ All birds have two feet and *four (six)* toes.`
           {
             name: 'True',
             text: `Reptiles have scales instead of hair.
-Birds are strong but light.`
+Birds are strong but light.`,
           },
           {
             name: 'False',
             text: `Sparrow uses beak to stitch its nest.
 Crane has webbed feet.
-Fish breathes through lungs.`
-          }
-        ]
-      }
+Fish breathes through lungs.`,
+          },
+        ],
+      },
     },
     {
       label: 'Choose the best Answer - Animal food habit',
@@ -608,23 +620,23 @@ Fish breathes through lungs.`
         questions: [
           {
             qText: `How many parts are there in an insect's body?`,
-            options: '3, 4, 5'
+            options: '3, 4, 5',
           },
           {
             qText: 'What do fishes have in place of arms and legs?',
-            options: 'fins, scales, gills'
+            options: 'fins, scales, gills',
           },
           {
             qText: `Which part of the insect's body bears wings?`,
-            options: 'thorax, head, abdomen'
+            options: 'thorax, head, abdomen',
           },
           {
             qText:
               'What is the process through which birds shed their feathers and grow new ones called?',
-            options: 'molting, malting, melting'
-          }
-        ]
-      }
-    }
-  ]
+            options: 'molting, malting, melting',
+          },
+        ],
+      },
+    },
+  ],
 };
