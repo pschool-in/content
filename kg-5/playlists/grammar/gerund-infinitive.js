@@ -9,11 +9,12 @@ export default {
       id: 'the-gerund-reading',
       data: {
         title: 'The Gerund',
-        text: `Gerund is that form of the verb which ends in -ing and acts a noun and verb. Therefore Gerund is also called as Verb-noun. Gerund functions as a subject, object, object of preposition, or subject complement. Gerund might be present either at the beginning, middle or at the end of the sentence.
-For example
-1. Swimming is a very good exercise.
-2. I like reading poetry.
-3. I like watching TV.
+        text: `The gerund is that form of the verb which ends in -ing and acts as a noun and verb. Therefore gerund is also called a Verb-noun. Gerund might be present either at the beginning, middle or at the end of the sentence. 
+
+        For example 
+        1. "Swimming" is a very good exercise. 
+        2. I like "reading" poetry. 
+        3. I like "watching" TV. 
 
 # Uses of gerund:
 Gerund can be used as a
@@ -49,7 +50,7 @@ Examples are
       id: 'infinitive-reading',
       data: {
         title: 'Infinitive',
-        text: `An infinitve is a verb that functions as a noun, adjective, or adverb in order to express an opinion, purpose of an object or action or answers the questions, who, what or why. The infinitve usually begins with the word "to" and is followed by base form of the verb.
+        text: `An infinitive is a verb that functions as a noun, adjective, or adverb in order to express an opinion, purpose of an object or action or answers the questions, who, what or why. The infinitve usually begins with the word "to" and is followed by base form of the verb.
 Some examples of infinitive include
 1. to read
 2. to run
@@ -69,15 +70,15 @@ Some examples of infinitive include
         title: 'Identify the gerund in each sentence'
       },
       data: [
-`Gaurav avoids *driving* in highways as much as possible.
+`Gaurav avoids *driving* on highways as much as possible.
 Grandma enjoyed *meeting* new people.
-Kavitha has developed interest in *cooking*.
+Kavitha has developed an interest in *cooking*.
 My mother says *eating* fresh vegetables is good for health. 
 She likes *painting*.
 My mom is always been afraid of *flying*.
 *Swimming* is a good exercise.
-My brother gave up *smoking* few years ago.
-What about *going* to museum tomorrow?
+My brother gave up *smoking* a few years ago.
+What about *going* to the museum tomorrow?
 My father was happy *seeing* his mom after a long time.`,
 
 `He enjoys *playing* football.
@@ -97,10 +98,10 @@ Did you miss *watching* TV?
 Dentists recommend *cleaning* teeth twice a day.
 He was so noisy, I asked him to stop *talking*.
 She delayed *going* to the hospital.
-I miss *going* to the school.
-My car needs *washing*. Could you do for me?
+I miss *going* to school.
+My car needs *washing*. Could you do that for me?
 I spend my free time *collecting* old stamps.
-She denied *having* an ice-cream at night.`
+She denied *having* an ice cream at night.`
       ]
     },
     {
@@ -109,7 +110,7 @@ She denied *having* an ice-cream at night.`
       id: 'drag-and-drop',
       commonData: {
         isPractice: false,
-        title: 'Complete each sentence using an appropriate gerund',
+        title: 'Fill in the blanks by moving the words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -121,7 +122,7 @@ She denied *having* an ice-cream at night.`
           Studying and *completing* the assignment made Tarun tired and hungry.
           *Sunbathing* helps the body absorb vitamin D.
           *Singing* in front of the crowd made Neha a bit nervous.`,
-        `*Keeping* the school premises neat and tidy is the primary job of administrative department.
+        `*Keeping* the school premises neat and tidy is the primary job of the administrative department.
 I suggested *discussing* the matter in the next meeting.
 Mrs.Sharma is keen on *setting* up a restaurant nearby her place.
 Before *leaving*, Mrs.Reddy said goodbye to each of us.
@@ -133,7 +134,7 @@ Not only *living* in the city is hectic, but it is expensive too.`
       label: 'Gerund or infinitive',
       type: 'fillup',
       commonData: {
-        title: `Complete each sentence using the gerund or infinitve form as appropriate`
+        title: `Fill in the blanks with the appropriate form.`
       },
       data: [
 `Karthik didn't know what *to do (doing)* when the fire broke out. 
@@ -162,14 +163,14 @@ She wanted *to buy (buy)* expensive sandals.`,
 Jatin likes *working (work)* in Canada.
 I forgot *to buy (buying)* milk. 
 Taman gave up *smoking (smoke)* years ago.
-My cousin offered *to take (take)* us to airport.
+My cousin offered *to take (take)* us to the airport.
 It appears *to be (be)* drizzling.
 We are *planning (to plan)* to visit our village this weekend.
 It tends *to rain (raining)* a lot in Kerala.
 Tanish completed *painting (paint)* his flat.
 *Cooking (To cook)* is my father's favorite pass time.`,
 
-`Tanvi refused *to help (help)* in completion of the project.
+`Tanvi refused *to help (help)* in the completion of the project.
 Everybody really enjoyed *dancing (dance)* to Bollywood beats.
 Manish admitted *eating (to eat)* my chocolate cake.
 My mother demanded *to see (see)* the hotel manager.
@@ -178,7 +179,7 @@ My mom chose *to work (work)* in this school.
 My brother postponed *doing (do)* his homework.
 My cousin would be *arriving (arrive)* tomorrow from Delhi.
 I remember *going (go)* to my first movie when I was 13.
-Would you mind *passing (pass)* the salt from the table.`
+Would you mind *passing (pass)* the salt from the table?`
       ]
     }
   ]
