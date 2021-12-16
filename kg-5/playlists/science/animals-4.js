@@ -38,7 +38,7 @@ export default {
     },
     {
       id: 'match',
-      label: 'animals & their babies - Match the following',
+      label: 'Animals & their babies - Match the following',
       type: 'match',
       data: {
         text: `Cat, Kitten
@@ -229,7 +229,7 @@ In three to four days, the larva emerges from the egg.`,
     },
     {
       id: 'match-2',
-      label: 'animals & their groups - Match the following',
+      label: 'Animals & their groups - Match the following',
       type: 'match',
       data: {
         text: `Lion, Pride
