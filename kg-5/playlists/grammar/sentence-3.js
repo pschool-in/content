@@ -121,13 +121,13 @@ My aunt *works in this hospital.*`
       ]
     },
     {
-      label: 'Pick the Right Word',
+      label: 'Right Predicate',
       id: 'complete-2',
       type: 'completePuzzle',
       lockAfter: 2,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right part of the sentence.',
+        title: 'Match the right part that goes with the subject.',
         printTitle: 'Pick the right part of the sentence.',
         leftWidth: 125,
         rightWidth: 195,

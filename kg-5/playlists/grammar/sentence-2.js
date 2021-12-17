@@ -61,8 +61,36 @@ Wow! I really like it!`
     },
     {
       type: 'classifySentence',
-      label: 'Classify Sentence Type',
+      label: 'True or False',
       id: 'sentence-type',
+      lockAfter: 2,
+      commonData: {
+        title: 'State whether the following statements are true or false.',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `Declarative sentences and statements are the same.
+Orders and commands are called imperative sentences.
+'Please sit down.' is an imperative sentence.`,
+          `Imperative and exclamatory sentences are the same.
+Sentences that ask questions are called imperative sentences.
+Exclamatory sentences end with a question mark.`
+        ],
+        [
+          `Sentences that ask questions are called interrogative sentences.
+Exclamatory sentences express strong feelings.
+Interrogative sentences always end with a question mark.`,
+          `Interrogative and imperative sentences are the same.
+Sentences are of 5 types.
+'What a pleasant day!' is an interrogative sentence.`
+        ]
+      ]
+    },
+    {
+      type: 'classifySentence',
+      label: 'Classify Sentence Type',
+      id: 'sentence-type-2',
       lockAfter: 2,
       commonData: {
         title: 'Classify the below sentences.',

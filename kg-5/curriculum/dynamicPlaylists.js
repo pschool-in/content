@@ -144,16 +144,26 @@ const grammar = [
   {
     label: 'Sentence',
     id: 'sentence',
-    grade: 'g2, g3, g4'
+    grade: 'g1, g2, g3, g4'
   },
   {
-    label: 'Sentence-2',
+    label: 'Types of Sentence',
     id: 'sentence-2',
-    grade: 'g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Negative Sentence',
     id: 'negative-sentence',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Subject and Predicate',
+    id: 'sentence-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Subject Verb Agreement',
+    id: 'sentence-4',
     grade: 'g3, g4, g5'
   },
   {

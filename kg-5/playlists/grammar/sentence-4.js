@@ -13,28 +13,6 @@ export default {
         fontSize: '1rem'
       },
       data: [
-        `I| am a boy.| is a boy.
-We| are friends.| is friends.
-I| am late.| are late.
-He| likes tea.| like tea.
-My friends| are coming.| is coming.
-They| are late.| is late.
-Siva| is coming.| are coming.
-Gopal| was sick.| are sick.
-My dad| likes the movie.| like the movie.
-It| is dark.| are dark.`,
-
-        `Their plan| failed.| is failed.
-My goal| is to become a doctor.| are to become a doctor.
-My friends| liked my joke.| likes my joke.
-Their parents| are very strict.| is very strict.
-It| is dark outside.| are dark outside.
-Ramya and Geeta| are playing together.| is playing together.
-The class teacher| warned us.| is warned us.
-John and his parents| are coming. | is coming.
-All students in our classroom | are present. | is present.
-The kitchen in our house | is empty. | are empty.`,
-
         `The boys| like playing| likes playing
 I| love to sleep| loves to sleep
 You| hate jam| hates jam
@@ -62,6 +40,40 @@ You| are ok| is ok
 They| come every day| comes every day
 The teacher| teaches well| teach well
 Snowfalls| are common in America| is common in America`
+      ]
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      commonData: {
+        title: 'Match the pairs to form correct sentences.'
+      },
+      data: [
+        `The flowers, smell lovely.
+My brother, is sleeping.
+You, are late.
+He, is playing.`,
+
+        `Aliens, have spaceships.
+Alien, has a spaceship.
+Monitor, is the class head.
+Monitors, are class heads.`,
+
+        `The actors, act well.
+She, dances well.
+They, play well.
+The chef, cooks well.`,
+
+        `Doctors, are experts.
+Did you, sleep well?
+He, likes dancing.
+I, am Abhi.`,
+
+        `The cows, give milk.
+Cow, gives milk.
+Lights, shine bright.
+Light, shines bright.`
       ]
     },
     {

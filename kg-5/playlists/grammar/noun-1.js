@@ -9,11 +9,16 @@ export default {
       id: 'naming-words-reading',
       data: {
         title: 'Naming words',
-        text: `Words that are used as names of person, place, thing or animal are called naming words. Another name for naming words is nouns. Some examples of nouns are:
-1. Richa lives with her parents.
-2. The books are very helpful.
-3. Agra is a beautiful city.
-4. Lion is the king of the jungle.`
+        text: [
+          `Words that are used as names of person, place, thing or animal are called naming words. Another name for naming words is nouns. Some examples of nouns are:`,
+          {
+            type: 'html',
+            text: `<b>Richa</b> lives with her <b>parents</b>.<br>
+            The <b>books</b> are very helpful.<br>
+           <b>Agra</b> is a beautiful <b>city</b>.<br>
+           <b>Lion</b> is the king of the <b>jungle</b>.<br>`
+          }
+        ]
       }
     },
     {
