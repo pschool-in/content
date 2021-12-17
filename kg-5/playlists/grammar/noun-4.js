@@ -8,8 +8,13 @@ export default {
       id: 'noun-4-reading',
       data: {
         title: 'Concrete Nouns',
-        text: `A concrete noun is any noun word that we can see, touch, smell, hear or feel. In other words, any noun that is not abstract is concrete. For example: What is that noise ? In this sentence, the word noise is a concrete noun because we can hear it.
-Another example is; You need patience to read a book. In this sentence, patience is an abstract noun because it is not physically present. On the other hand, the book is a concrete noun because we can see, touch and feel it.
+        text: `A concrete noun is any noun word that we can see, touch, smell, hear or feel. In other words, any noun that is not abstract is concrete. 
+For example:
+What is that noise?
+In this sentence, the word noise is a concrete noun because we can hear it.
+Another example is; 
+You need patience to read a book. 
+In this sentence, patience is an abstract noun because it is not physically present. On the other hand, the book is a concrete noun because we can see, touch, and feel it.
 Some more examples of concrete nouns are:
 1. Shruti put her feet on the table.
 2. The teacher ran away from the mouse.
@@ -50,7 +55,7 @@ Do you have the *strength* to break this brick?
 Your *idea* is brilliant.
 Due to his *fear* of dogs, he never visited our house.
 I can still feel the *pain*.
-Ram has *faith* on his father.
+Ram has *faith* in his father.
 He was jumping up and down with *excitement*.
 India got its *freedom* in 1947.
 I went home after a long time, and my family members greeted me with *joy*.
@@ -71,7 +76,7 @@ Do you know, when is his *birthday*?`,
 The king celebrated his *victory.*
 I am not sure whether she is telling the *truth*.
 The *height* of the tree is ten feet.
-Pilot could control the *speed* of the plane.
+A pilot could control the *speed* of the plane.
 It was a *surprise* when our teacher visited my home.
 Raj is waiting for his exam *result*.
 Students need to learn new *skills*.
@@ -87,7 +92,7 @@ We have a *holiday* next week.
 Raj couldn't hide his *disappointment*.
 He won the game because of his *determination*.
 *Bravery* of the soldiers was awarded by the President.
-Don't loose *hope*. We can still win the game.`
+Don't lose *hope*. We can still win the game.`
       ]
     },
     {
@@ -98,22 +103,22 @@ Don't loose *hope*. We can still win the game.`
         title: 'Select the concrete noun in the below sentence.'
       },
       data: [
-        `The *melody* is wonderful.
-You can have some *pie* after dinner.
-The loud *noise* made mom upset.
-You need good *friends*.
-Seema felt love for her new *dog*.
+        `The *melody* that she played was wonderful.
+You can have some *ice cream* after dinner.
+The loud *noise* made my mom upset.
+You have good *friends*.
+Seema loves her new *dog*.
 My throat is swollen due to *cold water*.
-My father bought me the *book*.
-My skin is very *dry*.
+My father bought me a new *book*.
+My skin is very *dry* due to winter.
 This is my favorite *sweater*.
-It was difficult to go home because of the *wind*.`,
+It was difficult to go home because of the *heat*.`,
 
         `Curiosity killed the *cat*.
 A *dove* is a symbol of peace.
 Owning two *cars* is a luxury.
 Your story needs more *excitement*.
-The math *formula* is stored in your memory.
+The math *formulae* are easy to memorize.
 It is impossible to sleep in this *noise*.
 The smell of her *perfume* is very sweet.
 They turned off the *lights*.
@@ -131,23 +136,23 @@ I'm not going outside in the *fear* of dogs.`
         types: [
           {
             name: 'Concrete',
-            text: `An *apple* is kept on the *table.*
-      There are tons of *books* in the *library.*
+            text: `An *apple* is kept on the *table*.
+      There are tons of *books* in the *library*.
       A *dog* is a very common pet.
-      The *sweater* is made of *wool.*
+      The *sweater* is made of *wool*.
       I saw *banana trees* on the way.
       She reads three *books* in a week.
       The *elephant* is very big.`
           },
           {
             name: 'Abstract',
-            text: `He is not telling the *truth.*
+            text: `He is not telling the *truth*.
       People lose *faith* when you lie.
       He will *defeat* her.
-      They laughed at my *joke.*
+      They laughed at my *joke*.
       Pia is *afraid* of heights.
-      She is *angry.*
-      The girls love to *gossip.*`
+      She is *angry*.
+      The girls love to *gossip*.`
           }
         ]
       }
@@ -181,13 +186,13 @@ I'm not going outside in the *fear* of dogs.`
       },
       data: [
         `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
-    A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
-    The *crocodiles* live in the ocean. It is a very dangerous *animal.*
-    My *mother* is a *teacher*. She teaches science.
-    We should take a *shower* everyday. It helps us stay clean and tidy.
-    Someone stole my dad's *wallet* in the train. The *police* will try to catch the *thief*.
-    I love everything that is *sweet*. I like *chocolates,* *pies* and *sweets*.
-    My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`
+        A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
+        The *crocodiles* live in the *ocean*. It is a very dangerous *animal*.
+        My *mother* is a *teacher*. She teaches science.
+        We should take a *shower* every day. It helps us stay clean and tidy.
+        Someone stole my dad's *wallet* on the *train*. The *police* will try to catch the *thief*.
+        I love everything that is *sweet*. I like *chocolates*, *cakes* and *sweets*.
+        My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`
       ]
     }
     // old

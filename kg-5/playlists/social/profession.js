@@ -1,30 +1,29 @@
 export default {
-  id: 'profession',
-  label: 'Profession',
+  id: "profession",
+  label: "Profession",
   list: [
     {
-      id: 'reading',
-      type: 'passage',
-      label: 'Reading',
+      id: "reading",
+      type: "passage",
+      label: "Reading",
       data: {
-        title: 'Tools of Workers',
+        title: "Tools of Workers",
         text: [
           {
-            type: 'sitewords',
-            text:
-              'axe, balance, blackboard, hose, microscope, needle, oven, plier, plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel, walkie-talkie, awl, compass, easel, hacksaw, scalpel',
-            width: 120
-          }
-        ]
-      }
+            type: "sitewords",
+            text: "axe, balance, blackboard, hose, microscope, needle, oven, plier, plough, saw, spade, stethoscope, telescope, testtube, thermometer, trowel, walkie-talkie, awl, compass, easel, hacksaw, scalpel",
+            width: 120,
+          },
+        ],
+      },
     },
     {
-      type: 'completeWord',
-      id: 'tools',
-      label: 'Write the Names',
+      type: "completeWord",
+      id: "tools",
+      label: "Write the Names",
       lockAfter: 1,
       commonData: {
-        images: 'custom'
+        images: "custom",
       },
       data: [
         `axe | AXE
@@ -41,7 +40,7 @@ export default {
         `spade| SPADE
  stethoscope | STETHOSCOPE
  telescope | TELESCOPE
- testtube | TESTTUBE
+ test-tube | TESTTUBE
  thermometer | THERMOMETER
  trowel | TROWEL
  walkie-talkie | WALKIETALKIE`,
@@ -50,20 +49,20 @@ export default {
  compass | COMPASS
  easel | EASEL
  hacksaw | HACKSAW
- scalpel | SCALPEL`
-      ]
+ scalpel | SCALPEL`,
+      ],
     },
     {
-      label: 'People and Professions',
-      type: 'matchByDragDrop',
-      id: 'profession',
+      label: "People and Professions",
+      type: "matchByDragDrop",
+      id: "profession",
       lockAfter: 1,
       commonData: {
-        title: 'Match the given words at the right blanks.',
+        title: "Match the given words at the right blanks.",
         styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+          fontSize: "1rem",
+          dashWidth: 70,
+        },
       },
       data: [
         `I look after sick people in the hospital, I am a *nurse*.
@@ -85,16 +84,16 @@ I practice medicine, I am a *doctor*.
 I drive other people’s car for them, I am a *chauffeur*.
 I look after a museum, I am a *curator*.
 I represent people in a court of law, I am a *lawyer*.
-I look after a library, I am a *librarian*.`
-      ]
+I look after a library, I am a *librarian*.`,
+      ],
     },
     {
-      id: 'match-tools',
-      type: 'match',
-      label: 'People and Tool',
+      id: "match-tools",
+      type: "match",
+      label: "People and Tool",
       lockAfter: 1,
       commonData: {
-        title: 'Match the people with their  tools of trade.'
+        title: "Match the people with their  tools of trade.",
       },
       data: [
         `gardener, spade
@@ -119,8 +118,8 @@ cobbler, awl`,
 barber, comb
 greengrocer, weighing scale
 shepherd, staff
-fisherman, net`
-      ]
-    }
-  ]
+fisherman, net`,
+      ],
+    },
+  ],
 };

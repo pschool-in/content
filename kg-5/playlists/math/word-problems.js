@@ -127,7 +127,7 @@ On his birthday, Jaggu buys 600 toffees for school. He wants to put them equally
     {
       type: 'numberInput',
       id: 'word-prob-2',
-      label: 'Word Problem with steps',
+      label: 'Word Problem with Steps',
       lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
@@ -242,7 +242,7 @@ Cost of 15 candies = ₹ ?1
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-factors',
-      label: 'Word Problem Factors',
+      label: 'Word Problems on Factors',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem.',
@@ -309,7 +309,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-misc-ka',
-      label: 'Word Problem miscellaneous',
+      label: 'Miscellaneous Word Problems ',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
@@ -340,7 +340,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-length',
-      label: 'Word Problem Length',
+      label: 'Word Problems on Length',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
@@ -379,7 +379,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-area',
-      label: 'Word Problem Area and boundary',
+      label: 'Word Problems on Area and boundary',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
@@ -435,7 +435,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-weightvol',
-      label: 'Word Problem Weight and Volume',
+      label: 'Word Problems on Weight and Volume',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
@@ -470,7 +470,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-time',
-      label: 'Word Problem Time',
+      label: 'Word Problems on Time',
       commonData: {
         title: 'Answer the word problem',
         type: 'word-problem',
@@ -489,7 +489,7 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       // word problem for class 5
       type: 'numberInput',
       id: 'word-prob-fraction',
-      label: 'Word Problem Fraction',
+      label: 'Word Problems on Fraction',
       lockAfter: 10,
       commonData: {
         title: 'Answer the word problem in simplified fraction.',
