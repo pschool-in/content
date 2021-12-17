@@ -37,20 +37,20 @@ I am going to Chennai`,
 Ram wants to fly
 birds are chirping
 he was annoyed
-baby is drinking milk
+the baby is drinking milk
 I am sitting on the sofa
 the cat is drinking milk
-I am thinking of icecream
-sun rises in the east
+I am thinking about icecream
+the sun rises in the east
 Ravi is very good in math`,
 
         `water is freezing
 roots absorb water
 superheroes are famous
 virus causes infection
-kitten looks frighten
+kitten looks frightened
 I am listening to you
-she is able to read
+she can read
 towels are above the table
 Rani is afraid of snakes
 she fell down again`,
@@ -58,12 +58,12 @@ she fell down again`,
         `please stand opposite to me
 clean your nails frequently
 show respect to elders
-cobbler mend the shoes
+cobblers mend the shoes
 keep up the good work
-world is round in shape
+the world is round in shape
 birds fly as a flock
 I prefer to drink coffee
-lion protects its cubs
+lions protect their cubs
 little girls are singing songs`
       ]
     },
@@ -76,48 +76,48 @@ little girls are singing songs`
         printTitle: 'Rewrite the words and form proper sentence.'
       },
       data: [
-        `I haven’t learnt cycling
+        `I haven't learned cycling
 please look at the mirror
-she is searching her ring
-it started to rain suddenly
+she is searching for her ring
+it started raining suddenly
 exercise daily to stay healthy
 she has a cute smile
-purple is a royal colour
+purple is a royal color
 that was a stormy night
 cleaning is an ordinary task
 Angel vanished into thin air`,
 
-        `my battery is finished
+        `my battery is dead
 summer holidays are always special
-Kim lost her favourite box
+Kim lost her favorite box
 the diagram is really nice
 father made a wonderful cake
-Priya learnt to ride horse
+Priya learned to ride a horse
 the video will be recorded
 remind him to attend meetings
 be attentive in math class
 sit comfortably on the chair`,
 
-        `your hand writing is good
+        `your handwriting is good
 friends presented a lovely gift
-measure the line using ruler
-maintain silence in library
+measure the line using a ruler
+maintain silence in the library
 he delivered a confident speech
-mother’s bike cannot be repaired
+mother's bike cannot be repaired
 Ravi was exempted from punishment
 pack only the necessary things
-living room is arranged neatly
-Lisa speaks proud of herself`,
+the living room is arranged neatly
+Lisa speaks proudly of herself`,
 
         `vehicle is parked near theater
 her father is very kind
 the road is very narrow
 keep the pebbles safe
 the President's speech was humorous
-students has become notorious 
-poor farmer had little food
+students have become notorious 
+the poor farmer had little food
 diamonds are precious stones
-Roy dreamt of gigantic monster
+Roy dreamt of a gigantic monster
 police investigated the criminals`
       ]
     },

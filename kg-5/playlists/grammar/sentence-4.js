@@ -105,7 +105,7 @@ Light, shines bright.`
   please, do, not, write, below, this, line
   the crow, dropped, pebbles, into, the, jar
   she, received, a gift, from, her, brother
-  there, is, a big, tree, beside, the river
+  there, is, a big, tree, besides, the river
   they, were, hiding, inside, the, wardrobe`,
 
         `what, is, your, plan, for, the weekend
@@ -152,7 +152,7 @@ Light, shines bright.`
 
         `It was a *bright* March morning and the air was *fresh*, laden with the scent of *jasmine*. As we *drove* through, we heard the sound of temple *bells*. The houses on *either* side of the road were old but well cared for. There was not a *soul* in sight.`,
 
-        `Our earth is getting *hotter* day by day. It is caused by the increasing *amount* of carbon dioxide in the air. Carbon Dioxide is produced by *burning* fossil fuel, coal, oil, petroleum, and wood. When we *produce* more Carbon Dioxide and *other* greenhouse gasses, it *accelerates* Global Warming.`
+        `Our earth is getting *hotter* day by day. It is caused by the increasing *amount* of carbon dioxide in the air. Carbon Dioxide is produced by *burning* fossil fuels, coal, oil, petroleum, and wood. When we *produce* more Carbon Dioxide and *other* greenhouse gasses, it *accelerates* Global Warming.`
       ]
     }
   ]

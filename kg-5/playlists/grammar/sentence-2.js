@@ -11,16 +11,16 @@ export default {
         text: [
           `A sentence is usually a group of words connected to form a meaningful idea. Any written text is made up of a collection of sentences. Sentences can be classified into 4 types.
 # Declarative
-A declarative sentence simply makes a statement or expresses an opinion. It other words, it just declares something. This is the most common and frequently used type of sentence. eg: 
+A declarative sentence simply makes a statement or expresses an opinion. In other words, it declares something. This is the most common and frequently used type of sentence. eg: 
 I am reading a book.
 # Imperative
-An  imperative sentence gives a command or makes a request. Usually in imperative sentences, the subject is hidden and understood. eg:
+An imperative sentence gives a command or makes a request. Usually, in imperative sentences, the subject is hidden and understood. eg:
 Please sit down.
 # Interrogative
 An interrogative sentence asks a question. It usually ends with a question mark. eg:
 What is your name?
 # Exclamatory
-An exclamatory sentence is a sentence that expresses great emotion such as excitement, surprise, happiness and anger, and ends with an exclamation point. eg: 
+An exclamatory sentence is a sentence that expresses great emotions such as excitement, surprise, happiness and anger, and ends with an exclamation point. eg: 
 Wow! I really like it!`
         ]
       }
@@ -38,12 +38,12 @@ Wow! I really like it!`
             options: 'make statements, issue commands, ask questions'
           },
           {
-            qText: 'Statements usually end with  _____',
+            qText: 'Statements usually end with  _____ .',
             options:
               'a full-stop (period), a question mark, an exclamation mark'
           },
           {
-            qText: 'An interrogative sentence usually ends with _______.',
+            qText: 'An interrogative sentence usually ends with _______ .',
             options:
               'a question mark, a full-stop (period), an exclamation mark'
           },
@@ -53,7 +53,7 @@ Wow! I really like it!`
             options: 'an imperative, an exclamatory, an interrogative '
           },
           {
-            qText: 'The most frequent sentence type is',
+            qText: 'The most frequent sentence type is _______ .',
             options: 'declarative, interrogative, imperative'
           }
         ]
@@ -112,7 +112,7 @@ May I come in?`
         [
           `India won the match.
 Ram is a brave fighter.
-God is love.
+I have faith in God.
 I am a student.`,
           `Wake up now!
 Have some coffee.
@@ -135,7 +135,7 @@ Whose pen is this?`
         ],
         [
           `These grapes are sour.
-Hen lays eggs.
+Hens lay eggs.
 He is a popular singer.`,
           `Please be quiet.
 Pass the bag.
@@ -149,9 +149,9 @@ Is this your jacket?`
           `Books are kept on the table.
 Children are playing in the garden.
 She is a very clever girl.
-My favourite colour is yellow.`,
-          `Don’t sit there!
-Don’t forget your homework.
+My favorite color is yellow.`,
+          `Don't sit there!
+Don't forget to complete your homework.
 Pass the salt.`,
           `Why are you not interested?
 Will they come tomorrow?
@@ -173,9 +173,9 @@ Did you read the article?`
           `There is no life in any other planets.
 The teacher asked us to form a circle.
 The Principal knows every student in our school.`,
-          `Kindly, have your food on time.
+          `Kindly, eat your food on time.
 Show me your marks.
-Sanitise your hands.`,
+Sanitize your hands.`,
           `Did they lose the match?
 Did he laugh at me?
 Am I speaking to Anu?
@@ -188,7 +188,7 @@ Flowers in the garden are well maintained.
 Mother had gone to office.`,
           `Be careful while crossing the road.
 Help each other. 
-Everybody look at him.`,
+Everybody, look at him.`,
           `Was it late yesterday to home?
 Were they on leave for a week?
 Was he writing an email?`
@@ -197,11 +197,11 @@ Was he writing an email?`
           `The boy crossed the road safely.
 Priya likes the diamond ring.
 Daniel is a lawyer.`,
-          `You keep out of this.
+          `You stay out of this.
 Somebody answer the phone.
 Do forgive me.
 Let the dance begin.`,
-          `Is she a classic dancer?
+          `Is she a classical dancer?
 Have you completed your homework?
 Has he submitted the assignment?`
         ]
@@ -226,7 +226,7 @@ Give me my notebook back. *Imperative*
 I will be late for class. *Declarative*
 May I borrow your pen? *Interrogative*`,
 
-        `I don’t have his phone number. *Declarative*
+        `I don't have his phone number. *Declarative*
 When is he coming from School? *Interrogative*
 May God bless you! *Exclamatory*
 Do as I say. *Imperative*`,
@@ -262,7 +262,7 @@ be happy with what you have
 your performance will be observed
 competition details will be notified
 erase the drawing and draw again
-beggars live on streets
+beggars live on the streets
 good habits make great kids
 list out the grocery items
 John climbed the coconut tree`,
@@ -277,12 +277,12 @@ John helps the needy people
 children are solving sudoku
 some books are damaged`,
 
-        `eskimos live in the igloos
+        `Eskimos live in the igloos
 I like to learn guitar
 cats live longer than dogs
 these mangoes are sweet
 Fathima bought a torchlight
-playing treasure game is interesting
+playing treasure games is interesting
 Sam likes to read stories
 the teacher gave easy problems`,
 
@@ -291,7 +291,7 @@ clean your hands with sanitizer
 Geetha kicked the ball
 the old man walks slowly
 your handwriting is legible
-climber plants needs support
+climber plants need support
 students are waiting in the classroom
 octopus has eight tentacles
 mango has one big seed
@@ -310,9 +310,9 @@ Today, a group of dogs barked at *us (we, he)*. *We (He, She)* ran fast.
 *They (Them, We)* chased us. *We (Me, Us)*  climbed a tree to escape from *them (us, him)*. `,
 
         `There *was (were)* a tree in the backyard. It was a mango *tree (plant)*. It had *many (lot)* fruits. They were *very (so)* high. We were not *able (can)* to reach them with *our (my)* hands. 
-We saw a monkey sitting on the tree. It was surprisingly looking *at (to)* us. We said 'hi' to *the (a, an)* monkey. It was impressed. It picked and *threw (throw)* a few mangoes to us. We collected *them (us, it)* happily and left the place.`,
+We saw a monkey sitting on the tree. It was surprisingly looking *at (to)* us. We said 'hi' to *the (a, an)* monkey. It was impressive. It picked and *threw (throw)* a few mangoes to us. We collected *them (us, it)* happily and left the place.`,
 
-        `Every week we *have (has, had)* Sunday as *our (my, they)* holiday.  Why Sunday is *so (to, do)* special for me?  My father takes *me (I, we)* along for his morning walk.  We walk briskly *to (do, so)* the sea shore. It is *just (first)* ten minutes *from (on, in)* my home.  I can hear the rolling waves of the *sea (see, say)*.  It is so good to watch the waves in the morning *sun (moon, star)* rays.`
+        `Every week we *have (has, had)* Sunday as *our (my, they)* holiday.  Why Sunday is *so (to, do)* special for me?  My father takes *me (I, we)* along for his morning walk.  We walk briskly *to (do, so)* the seashore. It is *just (first)* ten minutes *from (on, in)* my home.  I can hear the rolling waves of the *sea (see, say)*.  It is so good to watch the waves in the morning *sun (moon, star)* rays.`
       ]
     }
     //old

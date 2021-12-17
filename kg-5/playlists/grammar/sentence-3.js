@@ -12,7 +12,7 @@ export default {
           `Every sentence has two parts: a subject and a predicate.
 The subject is what (or whom) the sentence is about.
 The predicate tells something about the subject.
-In the below sentences, the highlighted part is subject and the remaining is predicate.`,
+In the below sentences, the highlighted part is subject and the remaining is the predicate.`,
           {
             type: 'html',
             text: `eg: <br>
@@ -21,7 +21,7 @@ In the below sentences, the highlighted part is subject and the remaining is pre
 <b>It</b> is raining.<br>
 <b>I</b> like dogs.`
           },
-          `Subjects can be made up of more than one words too.`,
+          `Subjects can be made up of more than one word too.`,
           {
             type: 'html',
             text: `eg: <br>
@@ -34,7 +34,7 @@ In the below sentences, the highlighted part is subject and the remaining is pre
             text: `<b>My dad's cell phone ringtone</b> is funny.`
           },
           `The above sentence is not about 'dad' or 'cell phone'. It is about the ringtone. The other words are modifiers of 'ringtone'. 
-Usually the subject comes at the beginning of a sentence, but sometimes it comes at the end.`,
+Usually, the subject comes at the beginning of a sentence, but sometimes it comes at the end.`,
           {
             type: 'html',
             text: `Out of the woods came <b>a tiger</b>.<br>
@@ -78,7 +78,7 @@ Down the road ran <b>the little boy</b>.`
 
         `*My friends and I* like to swing at the park.
 *The bee* drank the nectar from the flower.
-*Ram's new pencilbox* is ugly.
+*Ram's new pencil box* is ugly.
 *Sasha* is my beautiful cat!
 *The train* was late again!
 *The rose* is a beautiful flower!
@@ -176,7 +176,7 @@ The kitchen in our house | is empty. | are empty.`
   your performance will be observed
   competition details will be notified
   erase the drawing and draw again
-  beggars live on streets
+  beggars live on the streets
   good habits make great kids
   list out the grocery items
   John climbed the coconut tree`,
@@ -191,12 +191,12 @@ The kitchen in our house | is empty. | are empty.`
   children are solving sudoku
   some books are damaged`,
 
-        `eskimos live in the igloos
+        `Eskimos live in the igloos
   I like to learn guitar
   cats live longer than dogs
   these mangoes are sweet
   Fathima bought a torchlight
-  playing treasure game is interesting
+  playing treasure games is interesting
   Sam likes to read stories
   the teacher gave easy problems`,
 
@@ -205,7 +205,7 @@ The kitchen in our house | is empty. | are empty.`
   Geetha kicked the ball
   the old man walks slowly
   your handwriting is legible
-  climber plants needs support
+  climber plants need support
   students are waiting in the classroom
   octopus has eight tentacles
   mango has one big seed
@@ -226,10 +226,10 @@ The kitchen in our house | is empty. | are empty.`
           `We have planned to go for a picnic.
             The gift was sent by her brother.
             I came first in the running race.`,
-          `Don’t play in the rain.
+          `Don't play in the rain.
             Wipe your hands properly!
             Please remember your belongings.`,
-          `Had they reached home on time?
+          `Did they reach home on time?
             Who will raise the flag on important occasions?
             Does she have difficulties in maths?
             Do you want to come for the tour?`
@@ -248,10 +248,10 @@ The kitchen in our house | is empty. | are empty.`
         ],
         [
           `John got a new watch as his birthday gift.
-            Taylor is punctual everyday.
+            Taylor is punctual every day.
             My pet parrot is sleeping on the couch.`,
           `Go straight ahead and take the second left.
-            Don't eat too much of junk food.
+            Don't eat too much junk food.
             Get out of my sight.
             Don't touch without washing your hands.`,
           `Who is in charge of your class? 
@@ -272,12 +272,12 @@ The kitchen in our house | is empty. | are empty.`
         ],
         [
           `Table lamp was on all day.
-            She is a humble girl and never wear costly dresses.
+            She is a humble girl and never wears costly dresses.
             Food was spoiled because it was kept open all day.
-            Teacher is so strict and won't excuse even small mistakes.`,
-          `Have grit to solve the problems.
+            The teacher is so strict and won't excuse even small mistakes.`,
+          `Have the grit to solve the problems.
             Hand me the file.
-            Be there at 8’0 clock.`,
+            Be there at 8'0 clock.`,
           `Why did Ramya leave so early?
             Is your house ready for visitors?
             Would they participate in the football tournament?`

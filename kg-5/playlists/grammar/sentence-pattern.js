@@ -9,8 +9,7 @@ export default {
       data: {
         title: 'Sentence Pattern',
         text: [
-          `We use words to construct sentences. All meaningful sentences have a pattern. It
-is mainly made up of five components.`,
+          `We use words to construct sentences. All meaningful sentences have a pattern. It is mainly made up of five components.`,
           {
             type: 'html',
             text: `Subject (S)<br>
@@ -149,9 +148,9 @@ The long ship journey made the people sick.`,
 He wrote the letter from Chennai.
 They want money immediately.`,
 
-          `My dad presented me a watch.
+          `My dad presented me with a watch.
 The doctor gave her medicine.
-The child gave me a hug.`
+The child hugged me.`
         ],
         [
           `Rosy got her shoes wet.
