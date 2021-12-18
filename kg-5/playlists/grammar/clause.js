@@ -110,15 +110,15 @@ When Ramesh got home, *he* *ate* *lunch*.
   },
   data: [
 `My mother is a nurse *since* *she* *likes* *to* *help* *people*. 
-*After* *the* *storm* there were branches in the streets.
+*After* *the* *storm*, there were branches in the streets.
 I asked the question *that* *no* *one* *else* *wanted* *to* *ask*.
 Ravi eats carrots *when* *he* *wants* *to* *have* *a* *snack*.
-*If* *you* *want* *to* *be* *my* *friend* you will tell me the truth.`,
+*If* *you* *want* *to* *be* *my* *friend*, you will tell me the truth.`,
 
 `I am not cleaning the dishes *unless* *pavan* *helps*.
 I made good money *until* *I* *lost* *my* *job*. 
 *After* *swimming* *in* *the* *pool*. 
-*Because* *he* *ran* he was able to catch the bus. 
+*Because* *he* *ran*, he was able to catch the bus. 
 *Until* *the* *sun* *sets*, we are going to play.`,
 
 `*As* *the* *lights* *turn* *off*, I will go to sleep. 
@@ -143,7 +143,7 @@ name: 'Dependent Clause',
 text: `Mahita bought some flowers *which she wanted to give her mother since morning*.
 He drove fast *so that he could reach the airport on time*.
 I don't know the reason *why she dislikes me*.
-The gardner said *that all the plants had been pruned neatly*. 
+The gardener said *that all the plants had been pruned neatly*. 
 I wondered *if she was free*.
 The boys *who misbehaved in the class* were suspended.
 This is the homework assignment *that you missed last week*.

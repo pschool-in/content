@@ -9,7 +9,7 @@ export default {
       id: 'exclamation-mark-reading',
       data: {
         title: 'Exclamation mark',
-        text: `It is used to show strong feelings of joy, sadness, confusion, surprise, etc. This mark can be used after a word, phrase or sentence. The sentences ending with an exclamation mark are called exclamatory sentences. A few examples of such sentences are:
+        text: `It is used to show strong feelings of joy, sadness, confusion, surprise, etc. This mark can be used after a word, phrase, or sentence. The sentences ending with an exclamation mark are called exclamatory sentences. A few examples of such sentences are:
   1. Alas! My holidays are canceled.
   2. Wow, it’s raining!
   3. Oh God!
@@ -21,7 +21,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct punctuation. Tap on each blank for options.',
+        title: 'Choose the correct punctuation. Click on each blank for options.',
         isPunctuation: true
       },
       data: [
@@ -71,9 +71,9 @@ export default {
         title: 'Full stop (Period)',
         text: `We use a full stop or period at the end of a statement. For example,
   1. I like eating apples.
-  2. My mom wakes up at 6 o’clock in the morning.
+  2. My mom wakes up at 6 a.m.
   3. I go to school every day.
-  We also use period in front of abbreviations. For example,
+  We also use periods in front of abbreviations. For example,
   1. Mr. Malik
   2. Mrs. Sharma
   3. Ms. Shivani`
@@ -84,7 +84,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct punctuation. Tap on each blank for options.',
+        title: 'Choose the correct punctuation. Click on each blank for options.',
         isPunctuation: true
       },
       data: [
@@ -101,10 +101,10 @@ export default {
   Are you coming to my house *? (., !)*`,
 
         `My little brother is very annoying *. (!, ?)*
-  Are you going to her farm house *? (., !)*
+  Are you going to her farmhouse *? (., !)*
   I love drawing *. (?, !)*
   What is this *? (., !)*
-  She comes late everyday *. (?, !)*`
+  She comes late every day *. (?, !)*`
       ]
     },
     {
@@ -113,7 +113,7 @@ export default {
       id: 'capital-letters-reading',
       data: {
         title: 'Capital letters',
-        text: `The first letter of a sentence should always be capital. The word ‘I’ is also written in capital. In addition, names of special places, people and titles also start with a capital letter. Some examples are;
+        text: `The first letter of a sentence should always be capital. The word ‘I’ is also written in capital. In addition, names of special places, people, and titles also start with a capital letter. Some examples are;
   1. My name is Richa.
   2. May I eat some fish?
   3. Richa Malhotra
@@ -125,7 +125,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct option. Tap on each blank for options.'
+        title: 'Choose the correct option. Click on each blank for options.'
       },
       data: [
         `My name is *Reena (reena)*.
@@ -191,7 +191,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct option. Tap on each blank for options.'
+        title: 'Choose the correct option. Click on each blank for options.'
       },
       data: [
         `*I’m (Im’)* a student.
@@ -256,27 +256,27 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct punctuation. Tap on each blank for options.',
+        title: 'Choose the correct punctuation. Click on each blank for options.',
         isPunctuation: true
       },
       data: [
         `I have my exams from November *, (., ?)* 21.
-  He likes cricket, kho-kho, and hockey *. (,, ?)*.
+  He likes cricket, kho-kho, and hockey *. (!, ?)*.
   January 31 *, (., ?)* 2024.
-  May i come in *? (., ,)*
+  May i come in *? (., !)*
   She carries lunch *, (., ?)* bottle, and bag to school.`,
 
         `He will eat *, (., ?)* play, and complete his homework.
   She has a lot of notebooks, pens *, (., ?)* and pencils.
-  I'm very good at racing and singing *. (?, ,)*
-  Do you have a tape and a scissors *? (., ,)*
+  I'm very good at racing and singing *. (?, !)*
+  Do you have tape and scissors *? (., !)*
   I like eating bananas *, (., ?)* chocolates *, (., ?)* and apples.`,
 
-        `Today's date is November 22 *, (., ?)* 2022 *. (?, ,)*
-  How old is your brother *? (., ,)*
+        `Today's date is November 22 *, (., ?)* 2022 *. (?, !)*
+  How old is your brother *? (., !)*
   I love my mom *, (., ?)* my dad *, (., ?)* and my friends.
-  My name is Rakesh *. (?, ,)*
-  He is always late *. (?, ,)*`
+  My name is Rakesh *. (?, !)*
+  He is always late *. (?, !)*`
       ]
     },
     {
@@ -296,7 +296,7 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Choose the correct punctuation. Tap on each blank for options.',
+        title: 'Choose the correct punctuation. Click on each blank for options.',
         isPunctuation: true
       },
       data: [
@@ -326,9 +326,9 @@ export default {
 
         `My house is very clean *. (!, ?)* There are three rooms *, (., !)* a kitchen *, (., !)* and a bathroom *. (!, ?)* There are beautiful flowers in the garden *. (!, ?)* I love living in my house *. (?, !)* What is your house like *? (., !)*`,
 
-        `My school is 20 minutes away from my home *. (!, ?)* I love going to school *. (?, !)* I meet all my friends there *. (!, ?)* My teachers are very helping *. (?, !)* My classroom is very big *, (., !)* clean *, (., ?)* and colorful *. (!, ?)*`,
+        `My school is 20 minutes away from my home *. (!, ?)* I love going to school *. (?, !)* I meet all my friends there *. (!, ?)* My teachers are very helpful *. (?, !)* My classroom is very big *, (., !)* clean *, (., ?)* and colorful *. (!, ?)*`,
 
-        `Do you like milk *? (., !)* I drink milk every morning *. (?, !)* It is good for our health *. (?, !)* Sometimes *, (., !)* I add chocolate flavour *, (., !)* sugar *, (., !)* and cream in the milk *. (!, ?)*`
+        `Do you like milk *? (., !)* I drink milk every morning *. (?, !)* It is good for our health *. (?, !)* Sometimes *, (., !)* I add chocolate flavor *, (., !)* sugar *, (., !)* and cream in the milk *. (!, ?)*`
       ]
     },
     {
@@ -342,7 +342,7 @@ export default {
       data: [
         [
           `We use a question mark when we ask questions.
-                Full stop is used at the end of abbreviations.
+                A full stop is used at the end of abbreviations.
                 Commas are used in dates.`,
 
           `Question marks and exclamation marks are the same.
@@ -360,17 +360,17 @@ export default {
         ],
         [
           `Commas are used in between the series of words.
-                Name of a country always starts with a capital letter.
+                The name of a country always starts with a capital letter.
                 ‘Wow’ is an expression.`,
 
           `A comma is used at the end of a sentence.
                 Punctuations are not important.
-                Period is used in the middle of a sentence.`
+                A period is used in the middle of a sentence.`
         ],
         [
           `The first word of a sentence always starts with a capital letter.
                 Sentences ending with exclamation marks are called exclamatory sentences.
-                Full stop is also called a period.`,
+                A full stop is also called a period.`,
 
           `The word ‘You’ always starts with a capital letter.
                 A comma is not a punctuation mark.

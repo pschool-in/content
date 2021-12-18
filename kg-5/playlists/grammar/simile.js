@@ -125,7 +125,7 @@ Sunny is as *free* as a bird. He can go wherever he wants.`
         Meera puffed up *like* *a* *pufferfish* after a fight.
         The water in the lake was *as* *clear* *as* *crystal*.
         My karate master is *as* *strong* *as* *an* *ox*.
-        The light in my room was *as* *bright* *as* *the* sun*.`
+        The light in my room was *as* *bright* *as* *the* *sun*.`
       ]
     },
     {
