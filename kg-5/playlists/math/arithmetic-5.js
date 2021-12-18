@@ -182,7 +182,6 @@ export default {
         {
           type: 'misc~x00-x'
         },
-
         {
           type: 'misc~x00-x0'
         },

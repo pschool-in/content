@@ -173,6 +173,9 @@ export default {
       },
       data: [
         {
+          type: 'sub~1000~x0'
+        },
+        {
           type: 'sub~1000~x00'
         },
         {
@@ -215,6 +218,9 @@ export default {
         title: 'Subtract the Numbers'
       },
       data: [
+        {
+          type: 'sub~1000~x0'
+        },
         {
           type: 'sub~1000~x00'
         },

@@ -172,11 +172,6 @@ const grammar = [
     grade: 'g2, g3'
   },
   {
-    label: 'Subject and Predicate',
-    id: 'subject-predicate',
-    grade: 'g2, g3'
-  },
-  {
     label: 'Facts and Opinions',
     id: 'facts-opinions',
     grade: 'g4, g5'
@@ -735,6 +730,16 @@ const math = [
     label: 'Quick Math - 5',
     id: 'quick-math-5',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Decimal Arithmetic',
+    id: 'decimal-arithmetic',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Decimal Arithmetic - 2',
+    id: 'decimal-arithmetic-2',
+    grade: 'g4, g5'
   }
 ];
 
