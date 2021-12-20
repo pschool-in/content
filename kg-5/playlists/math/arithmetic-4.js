@@ -91,10 +91,10 @@ export default {
           type: 'misc~xxx+100-x'
         },
         {
-          type: 'misc~1000+x0-x'
+          type: 'misc~x000+x0-x'
         },
         {
-          type: 'misc~1000+x00-x'
+          type: 'misc~x000+x00-x'
         }
       ]
     },

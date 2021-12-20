@@ -11,7 +11,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `cat, பூனை 
@@ -43,7 +44,6 @@ export default {
     rat, எலி 
     winged-termites, ஈசல் 
     ant, எறும்பு
-    fly, ஈ
     bat, வௌவால்
     buffalo, எருமை`,
 
@@ -96,7 +96,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `crow, காகம் 
@@ -134,7 +135,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `apple, ஆப்பிள்
@@ -168,7 +170,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `onion, வெங்காயம்
@@ -231,6 +234,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
+        fontSize: '1rem',
         text: `lotus, தாமரை
         rose, ரோஜா
         sunflower, சூரியகாந்தி 
@@ -251,6 +255,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
+        fontSize: '1rem',
         text: `ear, காது 
         eye, கண்
         hair, முடி
@@ -333,7 +338,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `axe, கோடரி
@@ -365,7 +371,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `chocolate, மிட்டாய்
@@ -395,7 +402,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `house, வீடு
@@ -471,6 +479,7 @@ export default {
         printTitle: 'Form the word using the letters.',
         type: 'image',
         lang: 'ta',
+        fontSize: '1rem',
         text: `conch, சங்கு
         drums,முரசு
         dhol, மத்தளம்
@@ -489,7 +498,8 @@ export default {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
         type: 'image',
-        lang: 'ta'
+        lang: 'ta',
+        fontSize: '1rem'
       },
       data: [
         `sun, சூரியன்

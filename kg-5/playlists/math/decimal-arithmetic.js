@@ -126,11 +126,11 @@ export default {
     {
       id: 'addition-2',
       type: 'quickArithmetic',
-      label: 'Addition',
+      label: 'Fill Up',
       lockAfter: 2,
       commonData: {
         count: 10,
-        title: 'Decimal Addition',
+        title: 'Fill Up',
         decimal: true,
         isReverse: true
       },
@@ -158,11 +158,11 @@ export default {
     {
       id: 'subtract-2',
       type: 'quickArithmetic',
-      label: 'Subtraction',
+      label: 'Fill Up - 2',
       lockAfter: 2,
       commonData: {
         count: 10,
-        title: 'Decimal Subtraction',
+        title: 'Fill Up',
         isReverse: true,
         decimal: true
       },
@@ -193,11 +193,11 @@ export default {
     {
       id: 'multiply-2',
       type: 'quickArithmetic',
-      label: 'Multiply',
+      label: 'Fill Up - 3',
       lockAfter: 2,
       commonData: {
         count: 10,
-        title: 'Multiply',
+        title: 'Fill Up',
         isReverse: true,
         decimal: true
       },
@@ -222,11 +222,11 @@ export default {
     {
       id: 'divide-2',
       type: 'quickArithmetic',
-      label: 'Divide',
+      label: 'Fill Up - 4',
       lockAfter: 2,
       commonData: {
         count: 10,
-        title: 'Divide',
+        title: 'Fill Up',
         isReverse: true,
         decimal: true
       },

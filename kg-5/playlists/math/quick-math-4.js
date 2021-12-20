@@ -75,7 +75,7 @@ export default {
     {
       id: 'sub-2',
       type: 'quickArithmetic',
-      label: 'Subtract the Numbers',
+      label: 'Subtract the Numbers - 2',
       lockAfter: 2,
       commonData: {
         count: 10,
@@ -113,6 +113,64 @@ export default {
         },
         {
           type: 'sub~80~xx'
+        }
+      ]
+    },
+    {
+      id: 'addition-2',
+      type: 'quickArithmetic',
+      label: 'Addition',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        isReverse: false,
+        text: '',
+        title: 'Add the Numbers'
+      },
+      data: [
+        {
+          type: 'misc~xxx+101'
+        },
+        {
+          type: 'misc~xxx+105'
+        },
+        {
+          type: 'misc~xxx+99'
+        },
+        {
+          type: 'misc~xxx+201'
+        },
+        {
+          type: 'misc~xxx+199'
+        }
+      ]
+    },
+    {
+      id: 'subtraction-2',
+      type: 'quickArithmetic',
+      label: 'Subtraction',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        isReverse: false,
+        text: '',
+        title: 'Subtract the Numbers'
+      },
+      data: [
+        {
+          type: 'misc~xxx-101'
+        },
+        {
+          type: 'misc~xxx-105'
+        },
+        {
+          type: 'misc~xxx-99'
+        },
+        {
+          type: 'misc~xxx-201'
+        },
+        {
+          type: 'misc~xxx-199'
         }
       ]
     },
@@ -163,7 +221,7 @@ export default {
     {
       id: 'sub-4',
       type: 'quickArithmetic',
-      label: 'Subtract the Numbers',
+      label: 'Fill in the Blanks - 2',
       lockAfter: 2,
       commonData: {
         count: 10,
@@ -210,7 +268,7 @@ export default {
     {
       id: 'sub-5',
       type: 'quickArithmetic',
-      label: 'Subtract the Numbers',
+      label: 'Fill in the Blanks - 3',
       lockAfter: 2,
       commonData: {
         count: 10,

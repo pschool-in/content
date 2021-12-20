@@ -1,6 +1,6 @@
 export default {
   label: 'Subject and Predicate',
-  id: 'sentence-4',
+  id: 'sentence-3',
   list: [
     {
       id: 'reading',

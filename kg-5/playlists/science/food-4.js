@@ -30,9 +30,9 @@ export default {
           `It is a method of cooking food by heating on a tawa or frying pan without covering it. Example: Groundnuts, Cashewnut.`,
           `# Frying:`,
           `It is a method of cooking food in hot oil. Example: Chips, Poori.`,
-          `Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`,
-        ],
-      },
+          `Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`
+        ]
+      }
     },
     {
       label: 'Food from Plants vs Animals',
@@ -43,14 +43,14 @@ export default {
         types: [
           {
             name: 'Plants',
-            text: 'Carrot, Potato, Brinjal, Onion, Mushroom, Corn',
+            text: 'Carrot, Potato, Brinjal, Onion, Mushroom, Corn'
           },
           {
             name: 'Animals',
-            text: 'Egg, Milk, Meat, Curd, Fish, Butter, Ghee',
-          },
-        ],
-      },
+            text: 'Egg, Milk, Meat, Curd, Fish, Butter, Ghee'
+          }
+        ]
+      }
     },
     {
       label: 'Raw food',
@@ -61,14 +61,14 @@ export default {
         types: [
           {
             name: 'Raw',
-            text: "cashewnut, carrot, lady's finger, tomato, cucumber, apple",
+            text: "cashewnut, carrot, lady's finger, tomato, cucumber, apple"
           },
           {
             name: 'Only Cooked',
-            text: 'fish, meat, brinjal, potato, dhal, tapioca',
-          },
-        ],
-      },
+            text: 'fish, meat, brinjal, potato, dhal, tapioca'
+          }
+        ]
+      }
     },
     {
       id: 'match',
@@ -80,8 +80,8 @@ Rice, Pressure cooking
 Egg, Boiling
 Cashewnut, Roasting
 Chips, Frying`,
-        title: 'Match the following.',
-      },
+        title: 'Match the following.'
+      }
     },
     {
       label: 'Choose the correct answer(s)',
@@ -93,27 +93,27 @@ Chips, Frying`,
           {
             qText:
               'Which of the following vegetable is not used while making salad?',
-            options: 'potato, carrot, cucumber, cabbage',
+            options: 'potato, carrot, cucumber, cabbage'
           },
           {
             qText: 'Pick the food items that are made from milk?',
-            options: '* curd, * butter, mushroom, * ghee',
+            options: '* curd, * butter, mushroom, * ghee'
           },
           {
             qText: 'Which cooking process needs a lot of oil?',
-            options: 'Frying, Roasting, Boiling',
+            options: 'Frying, Roasting, Boiling'
           },
           {
             qText: 'Cakes are usually prepared by the process of ________.',
-            options: 'baking, frying, roasting',
+            options: 'baking, frying, roasting'
           },
           {
             qText: 'What are the benefits of cooking food?',
             options:
-              'Easy to digest, kills germs, adds taste and flavour, * all of the above',
-          },
-        ],
-      },
+              'Easy to digest, kills germs, adds taste and flavour, * all of the above'
+          }
+        ]
+      }
     },
     {
       label: 'True or False',
@@ -126,21 +126,21 @@ Chips, Frying`,
             name: 'True',
             text: `Cooking kills germs.
 Honey is the only food that does not spoil.
-Idlis are made by the process of steaming.`,
+Idlis are made by the process of steaming.`
           },
           {
             name: 'False',
             text: `We make salad by cooking vegetables.
 Cooked foods are difficult to digest.
-Chips are made by the process of boiling.`,
-          },
-        ],
-      },
+Chips are made by the process of boiling.`
+          }
+        ]
+      }
     },
     {
       label: 'Food Hygiene - Reading',
       type: 'passage',
-      id: 'reading',
+      id: 'reading-hygiene',
       data: {
         title: 'Food Hygiene',
         text: [
@@ -176,40 +176,40 @@ Chips are made by the process of boiling.`,
           `1. Pickling - Mixing fruits and vegetables with oil and salt.`,
           `2. Refrigerating - Keeping food in the fridge to preserve them for a short time.`,
           `3. Drying - Removing the water content of the food.`,
-          `4. Canning - Storing food in air tight containers.`,
-        ],
-      },
+          `4. Canning - Storing food in air tight containers.`
+        ]
+      }
     },
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
             qText: 'We should avoid eating ____ food.',
-            options: 'junk, fresh, raw',
+            options: 'junk, fresh, raw'
           },
           {
             qText: '_______ is an easily digested food.',
-            options: 'Idli, Briyani, parotta',
+            options: 'Idli, Briyani, parotta'
           },
           {
             qText: 'What type of food should we take when sick?',
-            options: 'meat, * energy giving, * easily digestible, fried food',
+            options: 'meat, * energy giving, * easily digestible, fried food'
           },
           {
             qText: 'Which day is observed as world hunger day?',
-            options: '28th May, 18th May, 28th June, 18th June',
+            options: '28th May, 18th May, 28th June, 18th June'
           },
           {
             qText:
               'The preservation method of mixing vegetables with oil and salt is known as _______.',
-            options: 'pickling, drying, canning',
-          },
-        ],
-      },
+            options: 'pickling, drying, canning'
+          }
+        ]
+      }
     },
     {
       label: 'True or False',
@@ -222,17 +222,17 @@ Chips are made by the process of boiling.`,
             name: 'True',
             text: `You should wash your hands before cooking.
 Solar cooker reduces the use of fuel.
-You should wash your hands before and after eating.`,
+You should wash your hands before and after eating.`
           },
           {
             name: 'False',
             text: `Vegetables and fruits should be washed after cutting.
 In olden days, people cooked their food in pressure cooker.
 Pressure cooker is not a cooking utensil.
-Junk food is good for health.`,
-          },
-        ],
-      },
+Junk food is good for health.`
+          }
+        ]
+      }
     },
     {
       label: 'Preservatives - Fill up',
@@ -243,45 +243,45 @@ Junk food is good for health.`,
         title: 'Drag and drop the preservative methods at appropriate places.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `The process of mixing fruits and vegetables with oil and salt is called *pickling*.
 Keeping food in the fridge to preserve them for a short time is called *refrigerating*.
 Removing the water content of the food is called *drying*.
-Storing food in air tight containers is called *canning*.`,
-      },
+Storing food in air tight containers is called *canning*.`
+      }
     },
     {
       label: 'Choose the best answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
             qText: 'Which one can be eaten as raw food?',
-            options: 'Carrot, Meat, Fish, Potato',
+            options: 'Carrot, Meat, Fish, Potato'
           },
           {
             qText: 'Uncooked food is called _______',
-            options: 'raw food, junk food, hygienic food, cooked food',
+            options: 'raw food, junk food, hygienic food, cooked food'
           },
           {
             qText: 'Solar cooker reduces___________ .',
             options:
-              'Air Pollution, Water Pollution, Land Pollution, Noise Pollution',
+              'Air Pollution, Water Pollution, Land Pollution, Noise Pollution'
           },
           {
             qText: 'Which one cannot be preserved by drying method?',
-            options: 'Fruits, Rice, Fish, Cereals',
+            options: 'Fruits, Rice, Fish, Cereals'
           },
           {
             qText: 'We can avoid food wastage by',
             options:
-              'Giving to the needy, Eating more than we need, buying extra food, throwing in a dust bin',
-          },
-        ],
-      },
+              'Giving to the needy, Eating more than we need, buying extra food, throwing in a dust bin'
+          }
+        ]
+      }
     },
     {
       id: 'fillup',
@@ -293,8 +293,8 @@ Storing food in air tight containers is called *canning*.`,
 Cooked food is easily *digested(undigested)*.
 Pressure cooker is one of the *modern(olden)* utensils.
 We need pure air, protected water and * hygenic (junk) *food for our healthy life.
-We make Idli by *steaming(boiling)* method.`,
-      },
+We make Idli by *steaming(boiling)* method.`
+      }
     },
     {
       label: 'Hygienic vs Junk food',
@@ -305,14 +305,14 @@ We make Idli by *steaming(boiling)* method.`,
         types: [
           {
             name: 'Hygenic',
-            text: 'fruits, nuts, salad, milk',
+            text: 'fruits, nuts, salad, milk'
           },
           {
             name: 'Junk',
-            text: 'panipoori, samosa, chips',
-          },
-        ],
-      },
+            text: 'panipoori, samosa, chips'
+          }
+        ]
+      }
     },
     {
       type: 'match',
@@ -325,8 +325,8 @@ We make Idli by *steaming(boiling)* method.`,
 Mixture of vegetables,Salad
 Electric rice cooker,Modern utensil
 Earthen pot, Olden utensil
-Less fatty food,Food during illness`,
-      },
+Less fatty food,Food during illness`
+      }
     },
     {
       label: 'Say yes or No',
@@ -339,15 +339,15 @@ Less fatty food,Food during illness`,
             name: 'Yes',
             text: `Frying is a method of cooking.
 Cooking in a solar oven needs sunlight.
-Consuming too much oily food is bad for our health.`,
+Consuming too much oily food is bad for our health.`
           },
           {
             name: 'No ',
             text: `Briyani is a raw food.
-We can cook rice on a tawa.`,
-          },
-        ],
-      },
+We can cook rice on a tawa.`
+          }
+        ]
+      }
     },
     {
       label: 'Value of Food - Reading',
@@ -361,8 +361,8 @@ We need rainwater to grow bajra. After sometime, ears of bajra are visible on ev
 Birds come to eat the tender grains as the grains grow. Scarecrows must be placed and slung shots must be fired to scare the birds away.
 We get different types of food from different places. We get fish from water. Fruits like amla, jamun, karvanda,bor grow in forests.
 The grains and other foodstuffs are gathered and sold all over the country. They are transported by means of trucks or goods trains. 
-It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting and marketing are expensive.`,
-      },
+It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting and marketing are expensive.`
+      }
     },
     {
       label: 'Fill in the blanks',
@@ -373,14 +373,14 @@ It is the turn of porters and truck-drivers to put in their labour. Transport co
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `Singhadas and makhanas are obtained from *freshwater* plants.
 If a machine is not available, *bullocks* do the threshing.
 The tiny peaks on our tongue are called *taste buds*.
 A region’s climate and *soil* determine the crops that are grown in that region.
-When the soil becomes *hot* and humid the crop is sown.`,
-      },
+When the soil becomes *hot* and humid the crop is sown.`
+      }
     },
     {
       label: 'Answer in one word',
@@ -391,13 +391,13 @@ When the soil becomes *hot* and humid the crop is sown.`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `The process of gathering of ripened crop.  *Harvesting*
 To blow through grain in order to remove the outer covering. *Winnowing*
 Process of moving foodstuffs from warehouses to consumers through trucks. *Transporting*
-The process of loosening the edible part of grain. *Threshing*`,
-      },
+The process of loosening the edible part of grain. *Threshing*`
+      }
     },
     {
       id: 'match-5',
@@ -409,8 +409,8 @@ Fruits, Horticulture
 Rice, Kharif crop
 Chilly, Spices
 Sesame, Oil`,
-        title: 'Match the following',
-      },
+        title: 'Match the following'
+      }
     },
     {
       label: 'Sour vs Sweet',
@@ -421,14 +421,14 @@ Sesame, Oil`,
         types: [
           {
             name: 'Sour',
-            text: 'Tamarind, Vinegar, Lemon',
+            text: 'Tamarind, Vinegar, Lemon'
           },
           {
             name: 'Sweet',
-            text: 'Sugar, Candy, Cupcake, Honey, Fruit juice',
-          },
-        ],
-      },
+            text: 'Sugar, Candy, Cupcake, Honey, Fruit juice'
+          }
+        ]
+      }
     },
     {
       type: 'rightOne',
@@ -441,8 +441,8 @@ Sesame, Oil`,
         text: `Dog, Cow, Sheep, Hen
 Rice, Pizza, Donut, Bread
 Fish, Milk, Butter, Yoghurt
-Tamarind, Honey, Sugar, Jaggery`,
-      },
-    },
-  ],
+Tamarind, Honey, Sugar, Jaggery`
+      }
+    }
+  ]
 };
