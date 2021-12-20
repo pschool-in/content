@@ -143,7 +143,7 @@ The baby dogs *are (is)* called puppies.`,
         title: 'Cats',
         text: [
           { type: 'img', src: 'cat.jpg' },
-          `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remain tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Cats belong to the same family as tigers.`
+          `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remaining tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Cats belong to the same family as tigers.`
         ]
       }
     },
@@ -264,7 +264,7 @@ Cats belong to the same family *as (has)*tigers.`,
       label: 'Polar Bears',
       data: {
         title: 'Polar Bears',
-        text: `Polar bears live in very cold areas, covered in snow. They look the same as normal bears, only they are white and bigger. They have a thick layer of fat on their body. It protects them from the cold. Polar bears can weigh equal to 10 humans. They’re very strong and powerful. An amazing thing about polar bears is that they look white in colour. But in reality, their skin is black. It is covered with a lot of white fur.`
+        text: `Polar bears live in very cold areas, covered in snow. They look the same as normal bears, only they are white and bigger. They have a thick layer of fat on their body. It protects them from the cold. Polar bears can weigh equal to 10 humans. They’re very strong and powerful. An amazing thing about polar bears is that they look white. But in reality, their skin is black. It is covered with a lot of white fur.`
       }
     },
     {
@@ -278,7 +278,7 @@ They have a *thick (rhuck)* layer of fat on *their (there)* body.
 It protects them from the *cold (hold)*. 
 Polar bears *can (could)* weigh equal to 10 humans. 
 They’re *very (vary)* strong and powerful. 
-An amazing thing *about (of)* polar bears is that they look white *in (inn)* colour. 
+An amazing thing *about (of)* polar bears is that they look white *in (inn)* color. 
 But *in (under)* reality, *their (there)* skin is black. 
 It is covered with a lot of white fur.`,
         title: 'Tap on the blanks for options.'
@@ -392,7 +392,7 @@ It is covered with a lot of white fur.`,
         title: 'Horses',
         text: [
           { type: 'img', src: 'horse.jpg' },
-          `Horses can almost see in all directions without turning their necks. They run very fast. Horse racing is a very popular sport. Horseshoes are attached under their feet. It helps them run faster. Horses eat grass, hay, grains and solid food. They're also domesticated in farms. They are useful for different farming activities.`
+          `Horses can almost see in all directions without turning their necks. They run very fast. Horse racing is a very popular sport. Horseshoes are attached under their feet. It helps them run faster. Horses eat grass, hay, grains, and solid food. They're also domesticated on farms. They are useful for different farming activities.`
         ]
       }
     },
@@ -406,7 +406,7 @@ They run *very (vary)* fast.
 Horse racing is *a (an)* very popular sport. 
 Horseshoes are attached *under (thunder)* their feet. 
 It helps them *run (running)* faster. 
-Horses *eat (heat)* grass, hay, grains and solid food. 
+Horses *eat (heat)* grass, hay, grains, and solid food. 
 They're also domesticated in *farms (harms)*. 
 They are useful for different *farming (harming)* activities.`,
         title: 'Tap on the blanks for options.'
@@ -516,7 +516,7 @@ They are useful for different *farming (harming)* activities.`,
         title: 'Tigers',
         text: [
           { type: 'img', src: 'tiger.jpg' },
-          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white in colour. But some tigers are just white and black. Tigers’ eyesights are 6 times better than humans. An amazing fact about the tigers is that they can survive without food for 2 weeks.`
+          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white. But some tigers are just white and black. Tigers’ eyesights are 6 times better than humans. An amazing fact about the tigers is that they can survive without food for 2 weeks.`
         ]
       }
     },
@@ -527,7 +527,7 @@ They are useful for different *farming (harming)* activities.`,
       data: {
         text: `Tigers are the largest animals in the *cat (hat)* family.
 They have vertical strips *over (hover)* their body.
-They’re usually orange, black *and (or)* white in colour.
+They’re usually orange, black *and (or)* white.
 But *some (hum)* tigers are just white and black.
 Tiger’s eyesights *are (hare)* 6 times better than humans.
 An amazing fact about the tigers is that they can survive without food for 2 weeks.`,
@@ -906,7 +906,7 @@ This helps them to *store (shore)* food.`,
         title: 'Monkeys',
         text: [
           { type: 'img', src: 'monkey.jpg' },
-          `Monkeys can be easily seen in India. We usually find them on top of buildings and on trees. Their favourite food is bananas. They eat it just like humans, by removing the peels in the same manner. Do you know that monkeys’ families are our ancestors? Their hands and legs are very similar to humans. A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
+          `Monkeys can be easily seen in India. We usually find them on top of buildings and trees. Their favorite food is bananas. They eat it just like humans, by removing the peels in the same manner. Do you know that monkeys’ families are our ancestors? Their hands and legs are very similar to humans. A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
         ]
       }
     },
@@ -1035,7 +1035,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
       label: 'Bees',
       data: {
         title: 'Bees',
-        text: `Bees live in beehives where they produce honey. The beehive consists of a queen bee and worker bees. They feed on flower nectar. Lifespan of worker bees is usually around one year. But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
+        text: `Bees live in beehives where they produce honey. The beehive consists of a queen bee and worker bees. They feed on flower nectar. The lifespan of worker bees is usually around one year. But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
       }
     },
     {
@@ -1046,7 +1046,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
         text: `Bees *live (life)* in beehives where they produce honey. 
 The beehive consists of a queen *bee (be)* and worker bees. 
 They *feed (fed)* on flower nectar. 
-Lifespan of worker *bees (Bs)* is usually *around (round)* one year. 
+The lifespan of worker *bees (Bs)* is usually *around (round)* one year. 
 But the lifespan of an adult queen bee is around 2 to 5 years. 
 *Only (lonely)* the worker bees can sting. 
 It is usually *advised (adviced)* not to tease the bees. 
@@ -1163,7 +1163,7 @@ Stings cause a lot of pain.`,
         title: 'Pigs',
         text: [
           { type: 'img', src: 'pig.jpg' },
-          `Pigs have small eyes, large ears and a flat snout. Snouts give them an excellent sense of smell. They make an ‘oink’ sound and usually like to stay in mud and dirt. They’re one of the most populous mammals. Do you know that the stiff hair on pigs’ bodies are called bristles? Those bristles were very commonly used to make paintbrushes and shoe brushes.`
+          `Pigs have small eyes, large ears, and a flat snout. Snouts give them an excellent sense of smell. They make an ‘oink’ sound and usually like to stay in mud and dirt. They’re one of the most populous mammals. Do you know that the stiff hair on pigs’ bodies is called bristles? Those bristles were very commonly used to make paintbrushes and shoe brushes.`
         ]
       }
     },
@@ -1172,12 +1172,12 @@ Stings cause a lot of pain.`,
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `Pigs *have (shave)* small eyes, large ears and a flat snout. 
+        text: `Pigs *have (shave)* small eyes, large ears, and a flat snout. 
 Snouts *give (gives)* them an excellent sense of smell. 
 They make an ‘*oink (horn)*’ sound and usually like to stay in mud and *dirt (hurt)*. 
 *They’re (Their're)* one of the most populous mammals. 
 Do you know that the stiff hair on pigs’ bodies are called bristles? 
-Those bristles were very commonly *used (abused)* to make paintbrushes and shoe`,
+Those bristles were very commonly *used (abused)* to make paintbrushes and shoes.`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -1292,7 +1292,7 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoe`
         title: 'Lions',
         text: [
           { type: 'img', src: 'lion.jpg' },
-          `Lions are very powerful and strong. They look like a very big cat with hair all around their face. Lions live together in caves. They usually roar at night. The sound of their roar can be heard 8kms away. They eat by hunting their prey. Do you know that lions can eat upto 30kgs in one meal?`
+          `Lions are very powerful and strong. They look like a very big cat with hair all around their face. Lions live together in caves. They usually roar at night. The sound of their roar can be heard 8kms away. They eat by hunting their prey. Do you know that lions can eat up to 30kgs in one meal?`
         ]
       }
     },
@@ -1307,7 +1307,7 @@ Lions live together in *caves (canes)*.
 They usually *roar (meow)* at night. 
 The sound of their *roar (meow)* can be heard 8kms away. 
 They eat by hunting their prey. 
-Do you know that lions can eat upto 30kgs in one meal?`,
+Do you know that lions can eat up to 30kgs in one meal?`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -1423,7 +1423,7 @@ Do you know that lions can eat upto 30kgs in one meal?`,
         title: 'Sharks',
         text: [
           { type: 'img', src: 'shark.jpg' },
-          `Sharks are predators. It means that they hunt other fishes as their food. Sharks have overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
+          `Sharks are predators. It means that they hunt other fishes as their food. Sharks have an overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
         ]
       }
     },
@@ -1434,7 +1434,7 @@ Do you know that lions can eat upto 30kgs in one meal?`,
       data: {
         text: `Sharks *are (were)* predators. 
 It means that they hunt other *fishes (fish)* as their food. 
-Sharks have overall 30,000 pointed teeth in their *life (live)* span. 
+Sharks have an overall 30,000 pointed teeth in their *life (live)* span. 
 Their skin is the thickest of all the *animals (humans)*. 
 Sharks show their *presence (absence)* by swimming on the upper layer of water. 
 The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
@@ -1673,8 +1673,8 @@ They shed their skin 3 to 6 times *per (par)* year.`,
       label: 'Dinosaurs',
       data: {
         title: 'Dinosaurs',
-        text: `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But on the basis of bones and skeletons from the past, scientists assumed their body structure. They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
-We still have no idea what sounds dinosaurs used to make. But based on their body sizes, scientists have also assumed their voice. We can hear their voices in a lot of movies made on dinosaurs. For example, Jurassic Park series, Jurassic World, Godzilla, etc.       
+        text: `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But based on bones and skeletons from the past, scientists assumed their body structure. They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
+We still have no idea what sounds dinosaurs used to make. But based on their body sizes, scientists have also assumed their voices. We can hear their voices in a lot of movies made on dinosaurs. For example, the Jurassic Park series, Jurassic World, Godzilla, etc.       
 Apart from being diverse in their body structures, the species were also different in their eating habits. Some were herbivores, some were carnivores and some were omnivores. It has been found that dinosaurs became extinct about 65 million years ago. A meteor from space hit the earth. It led to the death of the species.`
       }
     },
@@ -1685,7 +1685,7 @@ Apart from being diverse in their body structures, the species were also differe
       data: {
         text: `Dinosaurs lived on earth millions of years *ago (later)*. 
 No one knows what *they (them)* looked like. 
-But on the basis of bones *and (hands)* skeletons from the past, scientists assumed their body *structure (shape)*. 
+But based on bones *and (hands)* skeletons from the past, scientists assumed their body *structure (shape)*. 
 They were of *different (diffarent)* sizes. 
 Some were very small while some were *very (vary)* huge. 
 Some of them even had *wings (bings)* to fly. 
@@ -1694,7 +1694,7 @@ Some also lived in the sea.
 We still have no idea what *sounds (screams)* dinosaurs used to make. 
 But based on their body sizes, scientists have also *assumed (assured)* their voice. 
 We can hear their voices in a *lot (let)* of movies made on dinosaurs. 
-For example, Jurassic Park series, Jurassic World, Godzilla, etc.
+For example, the Jurassic Park series, Jurassic World, Godzilla, etc.
 
 Apart from being diverse in *their (there)* body structures, the species were also different in their eating habits. 
 Some were *herbivores (harabivores)*, some were carnivores and some were *omnivores (omnipotent)*. 

@@ -237,7 +237,7 @@ I am very happy!. *Exclamatory*
 My mother makes delicious noodles. *Declarative*`,
 
         `I had ice cream in the morning. *Declarative*
-Get out! *Imperative*
+Get out. *Imperative*
 Where are we going? *Interrogative*
 Hurry up! *Exclamatory*`,
 

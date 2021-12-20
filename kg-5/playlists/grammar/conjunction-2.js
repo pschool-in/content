@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Conjunctions',
         text: [
-          `A conjuction is a word that is used for joining other words, phrases or sentences.
+          `A conjunction is a word that is used for joining other words, phrases or sentences.
 # and, or, but
 'and' means 'also', 'added to'
 'or' means  'any one of the two'

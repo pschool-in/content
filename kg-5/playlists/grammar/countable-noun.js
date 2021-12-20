@@ -17,7 +17,7 @@ export default {
             type: 'hilight',
             text: 'eg: pen, house, dog'
           },
-          `Uncountable nouns are substances, concepts etc. that we cannot divide into separate elements. We cannot 'count' them. 
+          `Uncountable nouns are substances, concepts, etc. that we cannot divide into separate elements. We cannot 'count' them. 
           For example, we cannot count 'water'. We can count 'bottles of water' or 'litres of water', but we cannot count water itself.`,
           `Uncountable nouns cannot be counted.`,
           { type: 'hilight', text: 'eg: water, air, sand' },

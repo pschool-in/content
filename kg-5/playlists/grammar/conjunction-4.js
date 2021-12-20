@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Conjunction Pairs',
         text: [
-          `Sometime conjunctions are used in pairs: 
+          `Sometimes conjunctions are used in pairs: 
 1. either/or
 2. both/and
 3. whether/or
@@ -22,7 +22,7 @@ export default {
 He was <em>both</em> honest <em>and</em> talented.<br> 
 I didn't know <em>whether</em> he will come <em>or</em> not.<br> 
 He is <em>neither</em> tall <em>nor</em> short.<br> 
-<em>Not only</em> he came late, <em>but also</em> he forgot the gift.`
+<em>Not only</em> did he come late <em>but also</em> forgot the gift.`
           }
         ]
       }

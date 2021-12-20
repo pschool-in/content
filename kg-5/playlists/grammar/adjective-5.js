@@ -10,16 +10,16 @@ export default {
       data: {
         title: 'Order of Adjective',
         text: [
-          `Very often we use more than one adjective with the noun. 
-          In that case, the order of adjective is very important.`,
+          `Very often we use more than one adjective with the noun.
+          In that case, the order of adjectives is very important.`,
           {
             type: 'html',
             text: `Eg: <br>
-five beautiful puppies : correct <br>
-beautiful five puppies : incorrect <br>
+five beautiful puppies: correct <br>
+beautiful five puppies: incorrect <br>
 <br>
-nine red balls : correct <br>
-red nine balls : incorrect`
+nine red balls: correct <br>
+red nine balls: incorrect`
           },
           `Given below is the order of adjectives:
 1. number
@@ -36,7 +36,7 @@ red nine balls : incorrect`
             type: 'html',
             text: `<b>A strange, little, yellow</b> leaf. Here the arrangement of the adjectives is as
 follows: <b>a</b> is an article, <b>strange</b> is an opinion or quality, <b>little</b> is the
-size, <b>yellow</b> is the color`
+size, <b>yellow</b> is the color.`
           }
         ]
       }

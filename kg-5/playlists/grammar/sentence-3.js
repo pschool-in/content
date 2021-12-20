@@ -12,12 +12,12 @@ export default {
           `Every sentence has two parts: a subject and a predicate.
 The subject is what (or whom) the sentence is about.
 The predicate tells something about the subject.
-In the below sentences, the highlighted part is subject and the remaining is the predicate.`,
+In the below sentences, the highlighted part is the subject and the remaining is the predicate.`,
           {
             type: 'html',
             text: `eg: <br>
 <b>John</b> plays cricket.<br>
-<b>Rabbits</b> like carrot.<br>
+<b>Rabbits</b> like carrots.<br>
 <b>It</b> is raining.<br>
 <b>I</b> like dogs.`
           },
@@ -105,7 +105,7 @@ Geeta and Gopal *are friends.*
 Her dress *is beautiful.*
 Tommy *is a dog.*
 The water *is very cold.*
-They are *buying gifts.*
+They *are buying gifts.*
 The drama *was funny.*`,
 
         `The last room in the house *was locked.*

@@ -19,13 +19,13 @@ export default {
 # Uses of gerund:
 A gerund can be used as a
 
-# Subject of the verb
+# The subject of the verb
 Examples are
 1. Walking is good exercise for health.
-2. Reading books increases your knowledge.
+2. Reading books increase your knowledge.
 3. Working hard makes you successful.
 
-# Object of the verb
+# The object of the verb
 Examples are
 1. He dislikes sleeping long.
 2. I hate telling lies.
@@ -50,7 +50,7 @@ Examples are
       id: 'infinitive-reading',
       data: {
         title: 'Infinitive',
-        text: `An infinitive is a verb that functions as a noun, adjective, or adverb to express an opinion, purpose of an object or action or answers the questions, who, what or why. The infinitive usually begins with the word "to" and is followed by the base form of the verb.
+        text: `An infinitive is a verb that functions as a noun, adjective, or adverb to express an opinion, purpose of an object or action or answers the questions, who, what, or why. The infinitive usually begins with the word "to" and is followed by the base form of the verb.
 Some examples of infinitive include
 1. to read
 2. to run

@@ -9,7 +9,7 @@ export default {
       label: 'Sparrows',
       data: {
         title: 'Sparrows',
-        text: `Hop, hop, hop! Look at the little sparrows! Sparrows are little angels who bring happiness to our homes. Do you like Sparrows? Every day, a pair of sparrows visits our home and chirp happily around. Chatter, chatter, chatter! Sparrows keep on talking continuously. What do they talk? Can you guess?  Sparrows are not only cute. They are smart, little birds.`
+        text: `Hop, hop, hop! Look at the little sparrows! Sparrows are little angels who bring happiness to our homes. Do you like Sparrows? Every day, a pair of sparrows visit our home and chirp happily around. Chatter, chatter, chatter! Sparrows keep on talking continuously. What do they talk about? Can you guess?  Sparrows are not only cute. They are smart, little birds.`
       }
     },
     {
@@ -36,7 +36,7 @@ export default {
       label: 'Stars',
       data: {
         title: 'Stars',
-        text: `Look at the night sky. You can see little, little spots of light.  What are they?  They are Stars.    Can you count the stars in the sky?  One, Two, Three, Four, Five.  Yes. Millions of stars are there on the sky.   Stars are scattered on the sky.  Stars appear and  here.  But, do you know, stars appear in a group.  Every group of stars has a name.  For centuries, stars guide sailors while they are sailing. In a rough sea, stars are better guides to reach the shore safely.`
+        text: `Look at the night sky. You can see little, little spots of light.  What are they?  They are Stars.    Can you count the stars in the sky?  One, Two, Three, Four, Five.  Yes. Millions of stars are there in the sky.   Stars are scattered in the sky.  Stars appear and here.  But, do you know, stars appear in a group.  Every group of stars has a name.  For centuries, stars guide sailors while they are sailing. In a rough sea, stars are better guides to reach the shore safely.`
       }
     },
     {
@@ -45,7 +45,7 @@ export default {
       label: 'Moon',
       data: {
         title: 'Moon',
-        text: `There is a full moon in the sky.  Milky, white light is cool.  It is not hot like sunlight. Some dark spots are there on the moon. What are they?  They are known as craters.  On a  full moon day, you can see the bright moon on the sky.  On a new moon day, there is no moon on the sky.  Moon grows and wanes.  Moon has many tales to tell.`
+        text: `There is a full moon in the sky.  Milky, white light is cool.  It is not hot like sunlight. Some dark spots are there on the moon. What are they?  They are known as craters.  On a  full moon day, you can see the bright moon in the sky.  On a new moon day, there is no moon in the sky.  The moon grows and wanes.  Moon has many tales to tell.`
       }
     },
     {
@@ -63,7 +63,7 @@ export default {
       label: 'Little Saran',
       data: {
         title: 'Little Saran',
-        text: `One day, little Saran crawled fast to the bucket of water near the door.  His little hands grabbed the rim of the bucket. After a few slip, he could get up and stand.  Saran peeped into the bucket of water.  With a giggle, he started to play in the water.  Flap, flap, flap, flap, he went on striking on the water.  Playing in the water is his favourite past time.  His little hands splashed the water everywhere around the bucket.  So cool!  How I love to do this!  Little Saran giggled and played till his mother gave him a nice slap.`
+        text: `One day, little Saran crawled fast to the bucket of water near the door.  His little hands grabbed the rim of the bucket. After a few slips, he could get up and stand.  Saran peeped into the bucket of water.  With a giggle, he started to play in the water.  Flap, flap, flap, flap, he went on striking on the water.  Playing in the water is his favorite pastime.  His little hands splashed the water everywhere around the bucket.  So cool!  How I love to do this!  Little Saran giggled and played till his mother gave him a nice slap.`
       }
     },
     {
@@ -81,7 +81,7 @@ export default {
       label: 'Run fast',
       data: {
         title: 'Run fast',
-        text: `The narrow street looked so busy with so many vehicles down the road. Suddenly,  a white dog came running fast toward something on the roadside.  The moving vehicles stopped for a while.  One, two, three, four.... Within seconds, dogs were chasing each other.  The black dog that followed the white dog did not know what happened.  But, he kept on running. Soon, there were so many dogs on the street barking at each other.  Until, Tara came to chase them away they kept on barking for more than twenty minutes.`
+        text: `The narrow street looked so busy with so many vehicles down the road. Suddenly,  a white dog came running fast toward something on the roadside.  The moving vehicles stopped for a while.  One, two, three, four... Within seconds, dogs were chasing each other.  The black dog that followed the white dog did not know what happened.  But, he kept on running. Soon, there were so many dogs on the street barking at each other.  Until Tara came to chase them away they kept on barking for more than twenty minutes.`
       }
     },
     {
@@ -90,7 +90,7 @@ export default {
       label: 'Feelers in Insects',
       data: {
         title: 'Feelers in Insects',
-        text: `The most interesting part in an insect is its feelers. Most of the insects have feelers. The feelers are a pair of sense organs found at the front side of the head of an insect. The feelers have receivers to detect the smell in the air. Insects use their feelers to find the level of moisture in air. Some flies use their feelers to measure the speed of the air when they are flying. Butterflies use their feelers to find out the direction to fly.`
+        text: `The most interesting part in an insect is its feelers. Most of the insects have feelers. The feelers are a pair of sense organs found at the front side of the head of an insect. The feelers have receivers to detect the smell in the air. Insects use their feelers to find the level of moisture in the air. Some flies use their feelers to measure the speed of the air when they are flying. Butterflies use their feelers to find out the direction to fly.`
       }
     }
   ]

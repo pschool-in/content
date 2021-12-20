@@ -9,7 +9,7 @@ export default {
       data: {
         title: 'Parts of Speech',
         text: [
-          `A sentence is made up of words. Each word does a function to make the sentence work. How the word function in a sentence can be classified into eight types. They are known as parts of speech.`,
+          `A sentence is made up of words. Each word does a function to make the sentence work. How the word functions in a sentence can be classified into eight types. They are known as parts of speech.`,
           `# Noun`,
           'A noun is the name of a person, place, thing, or idea. eg: man, John, Africa, honesty',
           `# Pronoun`,
@@ -26,7 +26,7 @@ export default {
           `A conjunction joins words, phrases, or clauses. eg: and, but, or`,
           `# Interjection`,
           `An interjection is a word used to express emotion. eg: oh!, wow!, oops!`,
-          `Same word can perform different functions in different sentences.`,
+          `The same word can perform different functions in different sentences.`,
           {
             type: 'html',
             text: `<b>Stones</b> are hard to break. - Noun<br>They built a <b>stone</b> wall. - Adjective`

@@ -12,11 +12,11 @@ export default {
 # Indefinite articles:
 The indefinite articles "a/an" are generally used to mention some person or thing.
 These articles do not specify a particular person or a thing.
-"A" and "An" are used to introduce noun or naming words and are also used to mention singular countable nouns.
+"A" and "An" are used to introduce a noun or naming words and are also used to mention singular countable nouns.
 "A" is used before singular nouns beginning with consonant sounds.
 "An" is used before singular nouns beginning with vowel sounds.
 # Definite article:
-We use definite article "the" when we are talking about a specific person or a thing.
+We use the definite article "the" when we are talking about a specific person or a thing.
 "The" is used for countable and uncountable nouns/singular and plural nouns.`
       }
     },
@@ -27,8 +27,8 @@ We use definite article "the" when we are talking about a specific person or a t
       lockAfter: 2,
       commonData: {
         type: 'leftOpen',
-        title: 'Drag and drop the correct Article.',
-        printTitle: 'Pick the correct Article',
+        title: 'Drag and drop the correct article.',
+        printTitle: 'Pick the correct article',
         leftWidth: 75,
         rightWidth: 245
       },

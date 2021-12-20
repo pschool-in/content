@@ -21,7 +21,7 @@ Adverbial (A)`
           `The most simple sentence has a subject and verb (S+V) component.`,
           {
             type: 'html',
-            text: `Baby is crying.<br>
+            text: `The baby is crying.<br>
 Dogs bark.`
           },
           `A complement (C) is used to complete a sentence. Check the highlighted words in
@@ -34,7 +34,7 @@ Ram is <b>a pilot</b>.`
           `An object (O) is the receiver of an action.`,
           {
             type: 'html',
-            text: `I read <b>newspaper</b>.<br>
+            text: `I read the <b>newspaper</b>.<br>
 Sarah ate <b>cake</b>.`
           },
           `In some sentences, there can be two objects: Direct (DO) and Indirect (IO).`,
@@ -42,7 +42,7 @@ Sarah ate <b>cake</b>.`
             type: 'html',
             text: `They sent me a gift.<br>
 me - IO, gift - DO<br><br>
-Can you tell our friends the story.<br>
+Can you tell our friends the story?<br>
 friends - IO, story - DO`
           },
           `An adverbial (A) component gives more meaning to the verb (V) component.`,
