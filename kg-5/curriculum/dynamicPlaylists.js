@@ -950,8 +950,7 @@ const science = [
     label: 'Computer System',
     id: 'computer-5',
     grade: 'g3, g4, g5'
-  }
-  /*
+  },
   {
     label: 'Science Misc - 4',
     id: 'science-4',
@@ -961,7 +960,7 @@ const science = [
     label: 'Computers',
     id: 'computer',
     grade: 'g3, g4, g5'
-  }*/
+  }
 ];
 
 const social = [
@@ -1192,18 +1191,18 @@ const social = [
     label: 'Social Living - 3',
     id: 'social-living-5',
     grade: 'g3, g4, g5'
-  }
-  /*
+  },
   {
     label: 'Disaster Management',
     id: 'disaster-management-5',
     grade: 'g3, g4, g5'
   },
+  /*
   {
     label: 'Government',
     id: 'government-5',
     grade: 'g3, g4, g5'
-  },
+  },*/
   {
     label: 'India - 5',
     id: 'india-5',
@@ -1213,7 +1212,12 @@ const social = [
     label: 'First Aid',
     id: 'first-aid-4',
     grade: 'g3, g4, g5'
-  }*/
+  },
+  {
+    label: 'Science Crosswords',
+    id: 'crossword-science',
+    grade: 'g3, g4, g5'
+  }
 ];
 
 const general = [
