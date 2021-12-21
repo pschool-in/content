@@ -18,7 +18,7 @@ export default {
       label: 'Ski, a sapling',
       data: {
         title: 'Ski, a sapling',
-        text: `So soft to touch! Have you touched the tender leaves of a baby plant? I have touched it.  Last week in the science exhibition, I saw a baby plant.  Two little leaves in light green colour. The stem looked white and tender. I can see the seed with its seed coat under the leaves.  The baby plant swayed in the soft breeze.  Hello, baby plant!`
+        text: `So soft to touch! Have you touched the tender leaves of a baby plant? I have touched it.  Last week in the science exhibition, I saw a baby plant.  Two little leaves in light green color. The stem looked white and tender. I can see the seed with its seed coat under the leaves.  The baby plant swayed in the soft breeze.  Hello, baby plant!`
       }
     },
     {
@@ -45,7 +45,7 @@ export default {
       label: 'Dress like a doll',
       data: {
         title: 'Dress like a doll',
-        text: `Dressing like a doll.  I always like to dress my doll. When I am alone at home,  I have my doll to play.  My doll has so many little, little dresses.  Will you believe if I tell I made it?  I used my toy scissors to cut the cloth.  Then, I used bell pins to join them together.  I don’t know how to use a needle.  Every day, I make her wear a new dress. Do you have a doll?`
+        text: `Dressing like a doll.  I always like to dress my doll. When I am alone at home,  I have my doll to play with.  My doll has so many little, little dresses.  Will you believe it if I tell you I made it?  I used my toy scissors to cut the cloth.  Then, I used bell pins to join them together.  I don’t know how to use a needle.  Every day, I make her wear a new dress. Do you have a doll?`
       }
     },
     {
@@ -54,7 +54,7 @@ export default {
       label: 'Drops of water',
       data: {
         title: 'Drops of water',
-        text: `Do you feel thirsty?  Yes. Grab your bottle of water.  Take a sip.  Now you feel better.  Look at the birds in the sky.  Where will they go when they feel thirsty? Search for a place with water.  Not so lucky.  Whatever water they get, it is not good.  Who made it polluted?  Think!  Every living thing in this world has the right to live. Leave a bowl of water in your terrace.  Let birds quench their thirst.  You will be blessed!`
+        text: `Do you feel thirsty?  Yes. Grab your bottle of water.  Take a sip.  Now you feel better.  Look at the birds in the sky.  Where will they go when they feel thirsty? Search for a place with water.  Not so lucky.  Whatever water they get, it is not good.  Who made it polluted?  Think!  Every living thing in this world has the right to live. Leave a bowl of water on your terrace.  Let birds quench their thirst.  You will be blessed!`
       }
     },
     {
@@ -63,7 +63,7 @@ export default {
       label: 'Dews on leaves',
       data: {
         title: 'Dews on leaves',
-        text: `Look at the pot of plant near the kitchen window.  The leaves are broad and dark green in colour.  Little, little drops of water!  The water drops reflected a prism of colours.  It is so chilly in the morning!  So there are dew-drops on the leaves.  Can you tell me what colours are there?  I can see shades of red and green. What colours do you see?`
+        text: `Look at the pot of plant near the kitchen window.  The leaves are broad and dark green.  Little, little drops of water!  The water drops reflected a prism of colors.  It is so chilly in the morning!  So there are dew-drops on the leaves.  Can you tell me what colors are there?  I can see shades of red and green. What colors do you see?`
       }
     },
     {
@@ -72,7 +72,7 @@ export default {
       label: 'Sundays are holidays',
       data: {
         title: 'Sundays are holidays',
-        text: `Every week we have Sunday as our holiday.  Why Sunday is so special for me?  My father takes me along for his morning walk.  We walk briskly to the sea shore. It is just ten minutes from my home.  I can hear the rolling waves of the sea.  It is so good to watch the waves in the morning sun rays.`
+        text: `Every week we have Sunday as our holiday.  Why Sunday is so special for me?  My father takes me along for his morning walk.  We walk briskly to the seashore. It is just ten minutes from my home.  I can hear the rolling waves of the sea.  It is so good to watch the waves in the morning sun rays.`
       }
     },
     {
@@ -90,7 +90,7 @@ export default {
       label: 'Cycle my way',
       data: {
         title: 'Cycle my way',
-        text: `Arun likes to go for a ride in his cycle to the park near his home.  Every day after he comes back from school, he will ride along with his friends to the park.  The park has a separate track for bicycle rides. It is safe to ride in the park. Cycling is a very good exercise.  Not only little boys, even little girls come there for cycling.`
+        text: `Arun likes to go for a ride in his cycle to the park near his home.  Every day after he comes back from school, he will ride along with his friends to the park.  The park has a separate track for bicycle rides. It is safe to ride in the park. Cycling is a very good exercise.  Not only little boys, but even little girls also come there for cycling.`
       }
     }
   ]

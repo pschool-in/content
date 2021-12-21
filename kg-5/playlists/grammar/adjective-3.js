@@ -255,7 +255,7 @@ I bought an *orange* chair from the market.
 We live in a *big* city.
 Ram is a *funny* guy.
 She has a *black* cat.
-My mother has a *curly* hair.`,
+My mother has *curly* hair.`,
 
         `The dress is *pretty*.
 The day is *bright*.

@@ -10,14 +10,14 @@ export default {
         title: 'Degrees of Comparison',
         text: [
           `We use this to compare something.`,
-          { type: 'hilight', text: 'Elephant is bigger than tiger.' },
-          `The above sentence has 'comparative' degree. We directly compare one thing with another.
-Note: Usually the  'comparative' adjective is followed by the word 'than'.
-Sometimes we compare something with the rest of the group. It is called 'superlative' degree.
+          { type: 'hilight', text: 'An elephant is bigger than a tiger.' },
+          `The above sentence has a 'comparative' degree. We directly compare one thing with another.
+Note: Usually the 'comparative' adjective is followed by the word 'than'.
+Sometimes we compare something with the rest of the group. It is called the 'superlative' degree.
 Note: Definite article (the) is used before the 'superlative' adjective.`,
-          { type: 'hilight', text: 'Elephant is the biggest land animal.' },
-          `Sometimes we simply tell something, without really comparing with anything. It is called 'positive' degree.`,
-          { type: 'hilight', text: 'Elephant is a big animal.' },
+          { type: 'hilight', text: 'The elephant is the biggest land animal.' },
+          `Sometimes we simply tell something, without really comparing it with anything. It is called a 'positive' degree.`,
+          { type: 'hilight', text: 'The elephant is a big animal.' },
           `Some of the commonly used positive, comparative and superlative adjectives are given below.`,
           {
             type: 'html',

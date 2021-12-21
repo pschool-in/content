@@ -53,7 +53,7 @@ Snowfalls| are common in America| is common in America`
         `The flowers, smell lovely.
 My brother, is sleeping.
 You, are late.
-He, is playing.`,
+He, plays well.`,
 
         `Aliens, have spaceships.
 Alien, has a spaceship.

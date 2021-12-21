@@ -21,7 +21,7 @@ export default {
             text: `The jug has no water.
  The jug is empty.`
           },
-          `The first sentence is known as negative sentence and the second sentence is known as positive sentence.`,
+          `The first sentence is known as a negative sentence and the second sentence is known as a positive sentence.`,
           `# some vs any`,
           `We use 'some' in positive statements and 'any' in negative statements.`,
           `We use 'some' when we request for something or offer something.`,
@@ -31,7 +31,7 @@ export default {
 Would you like some tea?`
           },
           `We use 'any' when asking a question.`,
-          { type: 'hilight', text: 'Do you have any pen?' },
+          { type: 'hilight', text: 'Do you have any pens?' },
           `# Contractions`,
           `In everyday speech and informal writing we use contractions.`,
           `"are not" becomes "aren't"`,

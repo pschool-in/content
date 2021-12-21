@@ -56,7 +56,7 @@ export default {
   Arun has done his college in the US.
   Dogs are faithful animals.
   We went to Delhi last summer.`,
-          `I think, the teacher doesn't like me.
+          `I think the teacher doesn't like me.
   Arun is the best math teacher in the whole world.
   It may rain tomorrow.
   He may be fifty years old.

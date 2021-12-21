@@ -10,11 +10,11 @@ export default {
       data: {
         title: 'Article - Quantifiers',
         text: [
-          `The usage of article before words like 'few' or 'little' changes the meaning of the sentence.
-I have few candies, so I am not sharing with you.
-I have a few candies and I can share it with you.
+          `The usage of articles before words like 'few' or 'little' changes the meaning of the sentence.
+I have a few candies, so I am not sharing them with you.
+I have a few candies and I can share them with you.
 There is little chance for rain today. So no need to bring an umbrella.
-There is a little chance for rain today. So please bring an umbrella.`
+There is a little chance of rain today. So please bring an umbrella.`
         ]
       }
     },
@@ -124,7 +124,7 @@ He knows where to find *the* fish. Abhi liked *the* boat ride.
 Abhi put *a* worm on *the* hook of *the* fishing rod and put it in water.
 He felt *the* pole pull but when he reeled back *the* rod it was not *a* fish but *an* old can.`,
 
-`*Ram went on *a* trip with his parents to Nepal. This was Ram's first plane trip. They took *a* cab to *the* airport. Ram got down from *the* cab and was amazed to see *the* big and beautiful airport.
+`Ram went on *a* trip with his parents to Nepal. This was Ram's first plane trip. They took *a* cab to *the* airport. Ram got down from *the* cab and was amazed to see *the* big and beautiful airport.
 Ram boarded *the* plane and found his seat and buckled his seat belt. 
 *The(An, A)* plane's engines rumbled and roared! *The(An, A)* plane moved faster and faster and then - whoosh!
 On *the* ground, cars and houses looked like toys. Ram had great fun on this trip.`,

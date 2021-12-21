@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Adjective',
         text: [
-          `Adjective is a word that gives more meaning to a noun or pronoun.
+          `An adjective is a word that gives more meaning to a noun or pronoun.
 Adjectives usually tell us about what kind of, how many, or what color.
 Adjectives usually come before nouns and make them more specific.`,
           {
@@ -20,7 +20,7 @@ It is a <b>big</b> tree.<br>
 Manish is a <b>smart</b> boy.<br>
 My sister has <b>long</b> hair.<br><br>
 The words <b>big</b>, <b>smart</b>, <b>long</b> are called adjectives.<br><br>
-Sometimes, adjective comes after the noun.<br>
+Sometimes, the adjective comes after the noun.<br>
 Eg:<br>
 The table is <b>small</b>.<br>
 My friend's house is <b>big</b>.<br>

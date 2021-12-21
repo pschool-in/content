@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Personal Pronouns',
         text: [
-          `Pronoun used in the position of name, place or thing is called personal pronoun.
+          `Pronouns used in the position of name, place, or thing is called personal pronoun.
           # First Person:`,
           {
             type: 'hilight',
@@ -56,7 +56,7 @@ export default {
       id: 'pronoun-or-not',
       commonData: {
         title: 'Drag and drop the given words in the right boxes.',
-        types: ['Pronoun', 'Not a Pronoun']
+        types: [' Possessive Pronoun', 'Not a Possessive Pronoun']
       },
       data: [
         [`He, She, It, They`, `Sleep, Walk, Run, Sit`],

@@ -40,7 +40,7 @@ export default {
           },
           {
             name: 'Possessive',
-            text: `His, Her, Mine, Yours, Ours`
+            text: `His, Hers, Mine, Yours, Ours`
           }
         ]
       }

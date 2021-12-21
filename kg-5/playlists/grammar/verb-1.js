@@ -1,6 +1,6 @@
 export default {
   id: 'verb-1',
-  label: 'Action Word',
+  label: 'Action Words',
   pdf: '',
   list: [
     {
@@ -9,7 +9,7 @@ export default {
       id: 'verb-1-reading',
       data: {
         title: 'Action Words (Verbs)',
-        text: `The words that describe what a person, an animal or a thing is doing are called action words. They express an action. For example
+        text: `The words that describe what a person, an animal, or a thing is doing are called action words. They express an action. For example
        1. Abhinav climbs
        2. Mihira plays
        3. Aarush eats

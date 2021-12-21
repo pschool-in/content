@@ -9,7 +9,7 @@ export default {
       label: 'Sandwich',
       data: {
         title: 'Sandwich',
-        text: `First, keep all the ingredients ready. Now, begin by arranging two slices of bread on a plate. Spread butter on both the slices. Then, add cheese, tomatoes, cucumbers, salt and pepper. Next, cover the arrangement with the other slice of bread. Lastly, toast the sandwich on medium flame until it is slightly brown.`
+        text: `First, keep all the ingredients ready. Now, begin by arranging two slices of bread on a plate. Spread butter on both slices. Then, add cheese, tomatoes, cucumbers, salt, and pepper. Next, cover the arrangement with the other slice of bread. Lastly, toast the sandwich on medium flame until it is slightly brown.`
       }
     },
     {
@@ -23,7 +23,7 @@ export default {
           dashWidth: 70
         },
         text:
-          'First, keep all the *ingredients* ready. Now, begin by arranging two slices of *bread* on a plate. Spread *butter* on both the slices. Then, add *cheese*, tomatoes, cucumbers, salt and pepper. Next, *cover* the arrangement with the other slice of bread. Lastly, toast the *sandwich* on medium flame until it is slightly brown.'
+          'First, keep all the *ingredients* ready. Now, begin by arranging two slices of *bread* on a plate. Spread *butter* on both slices. Then, add *cheese*, tomatoes, cucumbers, salt, and pepper. Next, *cover* the arrangement with the other slice of bread. Lastly, toast the *sandwich* on medium flame until it is slightly brown.'
       }
     },
     {
@@ -32,7 +32,7 @@ export default {
       data: {
         title: 'Sort the sentences in the right order.',
         text:
-          'First, keep all the ingredients ready. \nNow, begin by arranging two slices of bread on a plate.\nSpread butter on both the slices. \nThen, add cheese, tomatoes, cucumbers, salt and pepper. \nNext, cover the arrangement with the other slice of bread. \nLastly, toast the sandwich on medium flame until it is slightly brown.'
+          'First, keep all the ingredients ready. \nNow, begin by arranging two slices of bread on a plate.\nSpread butter on both the slices. \nThen, add cheese, tomatoes, cucumbers, salt, and pepper. \nNext, cover the arrangement with the other slice of bread. \nLastly, toast the sandwich on medium flame until it is slightly brown.'
       },
       id: 'sandwich-sort'
     },
@@ -44,7 +44,7 @@ export default {
         title: 'Elephants',
         text: [
           { type: 'img', src: 'elephant.jpg' },
-          `Elephants are the largest animals that live on land. They are usually found in the forests of Africa and Asia. They have a long trunk. It is used to gather food, drink water and bathe. They flap their ears to cool down. They love to eat leaves, grass and bark. They are really big so they need to eat a lot of food. They can strike with huge force, which can topple even a truck.`
+          `Elephants are the largest animals that live on land. They are usually found in the forests of Africa and Asia. They have a long trunk. It is used to gather food, drink water and bathe. They flap their ears to cool down. They love to eat leaves, grass, and bark. They are really big so they need to eat a lot of food. They can strike with huge force, which can topple even a truck.`
         ]
       }
     },
@@ -82,7 +82,7 @@ A baby zebra is called a foal and it can run within an hour after being born.`
         title: 'Camels',
         text: [
           { type: 'img', src: 'camel.jpg' },
-          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camel's hump consists of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
+          `Camels live in the deserts of Africa and Asia. All camels have one or two humps. Camel's hump consists of stored fat. Camels are herbivores, which means they do not eat meat. They eat a lot of leaves, thorns, and bushes. Camels can go without water for a long time. They like to stay together in groups called herds.  `
         ]
       }
     }

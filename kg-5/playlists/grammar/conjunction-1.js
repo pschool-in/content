@@ -33,7 +33,7 @@ I like Ravi <b>but</b> I hate his brother.`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Choose the correct joining word. Tap on each blank for options.`
+        title: `Choose the correct joining word. Click on each blank for options.`
       },
       data: [
         `I want to go, *but (and)* it is too far.
@@ -101,7 +101,7 @@ I like reading books *and* eating vegetables.`
       id: 'true-false',
       type: 'classifySentence',
       commonData: {
-        title: 'True or False: The below sentence has a connecting word.',
+        title: 'True or False: The below sentence has a joining word.',
         types: ['True', 'False']
       },
       data: [
