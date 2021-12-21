@@ -366,7 +366,7 @@ CDL, XC, LV, L, XL`
       id: 'number-names',
       label: 'Write the Numbers',
       commonData: {
-        title: 'Convert Roman numbers to decimal numbers',
+        title: 'Convert Roman numbers to numbers',
         type: 'word-problem'
       },
       data: [
