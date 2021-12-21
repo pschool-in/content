@@ -139,7 +139,7 @@ God rewarded the woodcutter for his honesty.`
       data: {
         title: 'A Fox and A Goat',
         text: `Once upon a time, a fox was roaming around in the dark. Unfortunately, he fell into a well. He tried his level best to come out but was unable to. So, he had no other alternative but to remain there until the next morning. The next day, a goat came that way. She peeped into the well and saw the fox there. The goat asked, “What are you doing there, Mr. Fox?”
-The sly fox replied, “I came here to drink water. It is the best I have ever tasted. Come and drink yourself.” Without thinking even for a while, the goat jumped into the well, quenched her thirst, and looked for a way to get out. But just like the fox, she also found herself helpless to come out.
+The sly fox replied, “I came here to drink water. It is the best I have ever tasted. Come and drink yourself.” Without thinking, the goat jumped into the well, quenched her thirst, and looked for a way to get out. But just like the fox, she also found herself helpless to come out.
 Then the fox said, “I have an idea. You stand on your hind legs. I’ll climb on your head and get out. Then, I shall help you also to come out.” The goat was innocent and did not realize the cunningness of the fox, and so did as the fox said and helped him to get out of the well.
 While walking away, the fox said, “Had you been intelligent enough, you would never have jumped in without thinking how to get out.`,
         moral: 'Moral: Think smart, you may find a solution to any problem.'
@@ -199,8 +199,8 @@ The fox climbed on the goat and came out of the well.`
           url: 'story/05_bear.jpg'
         },
         title: 'The Bear and the Two Friends',
-        text: `Once upon a time, two friends were walking through the forest. They knew that any danger could happen. So, they promised each other that they would remain united in any case of danger. 
-Suddenly, they saw a huge bear approaching them. One of the friends at once climbed a nearby tree. But the other one did not know how to climb. So, being led by his common sense, he lay down on the ground breathless, pretending to be a dead man. 
+        text: `Once upon a time, two friends were walking through the forest. They knew that any danger could happen. So, they promised each other that they would stay together all the time. 
+Suddenly, they saw a huge bear approaching them. One of the friends, at once, climbed a nearby tree. But the other one did not know how to climb. So, being led by his common sense, he lay down on the ground breathless, pretending to be a dead man. 
 The bear came near the man lying on the ground. It smelt him with his nose and left the place. It is because bears do not touch dead creatures. Now, the friend on the tree came down and asked his friend on the ground, “Friend, what did the bear tell you in your ears?” The other friend replied, “The bear advised me not to believe a fake friend.`,
         moral:
           'Moral: True Friend is the one who always supports and stands by you in any situation.'
@@ -267,7 +267,7 @@ The bear came, smelt, and walked away.`
         title: 'The Golden Egg',
         text: `Once upon a time, there lived a cloth merchant in a village with his wife and two children. They were indeed quite well-off. They had a beautiful hen that laid an egg every day. It was not an ordinary egg, but a golden egg. But, the man was not satisfied with what he used to get daily. He was a greedy person.
 The man wanted to get all the golden eggs from his hen in one single go. So, one day he thought hard and at last, came up with a plan. He decided to kill the hen and get all the eggs together.
-So, the next day when the hen laid a golden egg, the man caught hold of it, took a sharp knife, chopped off its neck, and cut its body open. There was nothing but blood all around and there was no trace of any golden egg. He was very sad because now he would not get even one single golden egg.
+So, the next day when the hen laid a golden egg, the man caught hold of it, took a sharp knife, chopped off its neck, and cut its body open. There was nothing but blood all around. There was no trace of any golden egg. He was very sad because now he would not get even one single golden egg.
 His life was going on smoothly with one golden egg a day, but now, he himself made his life miserable. Just because of his greediness, he became very poor.`,
         moral:
           'Moral: One who desires more, loses all. One should remain satisfied with what one gets.'
