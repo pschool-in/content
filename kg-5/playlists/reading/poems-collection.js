@@ -12,11 +12,11 @@ export default {
         type: 'poem',
         text: `Run chicken run.
           The farmer got the gun
-          The wife has the oven hot
+          The wife has the oven
           And you are the one.
-          So run and run
+          So run chicken run
           So you will not be served
-          As my dinner today.`
+          As my dinner with a bun.`
       }
     },
     {

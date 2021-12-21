@@ -11,7 +11,7 @@ export default {
         title: 'Dogs',
         text: [
           { type: 'img', src: 'dog.jpg' },
-          `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They live for 10-13 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
+          `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They have pointed teeth and live for 10-13 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
         ]
       }
     },
@@ -48,23 +48,23 @@ The baby dogs *are (is)* called puppies.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Dogs have _______teeth.',
+            qText: 'Dogs have _____ teeth.',
             options: 'pointed, conical, yellow'
           },
           {
-            qText: 'A dog is a man _______friend.',
+            qText: 'A dog is a man’s _____ friend.',
             options: 'best, worst, honest'
           },
           {
-            qText: 'Dogs love to play_______game.',
+            qText: 'Dogs love to play _____ game.',
             options: 'fetch, dug, dumb'
           },
           {
-            qText: 'Dog babies are called_________.',
+            qText: 'Dog babies are called _____ .',
             options: 'puppies, pomerarians, parrots'
           },
           {
-            qText: 'Dogs are_______.',
+            qText: 'Dogs are _____ .',
             options: 'fun, boring, annoying'
           }
         ]
@@ -143,7 +143,7 @@ The baby dogs *are (is)* called puppies.`,
         title: 'Cats',
         text: [
           { type: 'img', src: 'cat.jpg' },
-          `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remaining tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Cats belong to the same family as tigers.`
+          `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remaining tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Do you know that cats belong to the same family as tigers?`
         ]
       }
     },
@@ -158,7 +158,7 @@ They *spend (spent)* 70% of their *lives (lifes)* sleeping.
 But they also spend a lot of time cleaning *themselves (himself)* and remain tidy. 
 Cats *love (loves)* eating fish *and (hand)* milk. 
 So if cats sneak *into (onto)* your house often, keep *your (their)* milk and fish safe. 
-Cats belong to the same family *as (has)*tigers.`,
+Do you know that cats belong to the same family *as (has)*tigers?`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -179,23 +179,23 @@ Cats belong to the same family *as (has)*tigers.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Cats have_______around their nose.',
+            qText: 'Cats have _____ around their nose.',
             options: 'whiskers, hair, pores'
           },
           {
-            qText: 'Cats love______.',
+            qText: 'Cats love _____ .',
             options: 'milk, hay, food'
           },
           {
-            qText: 'Cats love to______.',
+            qText: 'Cats love to _____ .',
             options: 'sleep, eat, repeat'
           },
           {
-            qText: 'Cat babies are called_________.',
+            qText: 'Cat babies are called _____ .',
             options: 'kittens, mittens, littens'
           },
           {
-            qText: 'Cat family includes_______.',
+            qText: 'Cat family includes _____ .',
             options: 'tigers, wolves, dogs'
           }
         ]
@@ -301,24 +301,24 @@ It is covered with a lot of white fur.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Polar bears live in_______regions.',
+            qText: 'Polar bears live in _____ regions.',
             options: 'cold, warm, dense'
           },
           {
-            qText: 'Polar bears are similar to_______bears.',
+            qText: 'Polar bears are similar to _____ bears.',
             options: 'brown, dark, blue'
           },
           {
-            qText: 'Polar bears have______fur.',
+            qText: 'Polar bears have _____ fur.',
             options: 'white, black, brown'
           },
           {
-            qText: 'Polar bears have_______skin.',
+            qText: 'Polar bears have _____ skin.',
             options: 'black, white, blue'
           },
           {
-            qText: 'Polar bears are found in_______.',
-            options: 'Antarctica, Arctic, Asia'
+            qText: 'Polar bears are found in _____ .',
+            options: 'Antarctica, Africa, Asia'
           }
         ]
       }
@@ -429,24 +429,24 @@ They are useful for different *farming (harming)* activities.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Horses are domesticated in_________.',
+            qText: 'Horses are domesticated in _____ .',
             options: 'farms, houses, barns'
           },
           {
-            qText: 'Horses usually eat________.',
+            qText: 'Horses usually eat _____ .',
             options: 'hay, bay, say'
           },
           {
-            qText: 'Horses are good at_________.',
+            qText: 'Horses are good at _____ .',
             options: 'running, sitting, climbing'
           },
           {
-            qText: '_________are attached under Horses feet.',
+            qText: '_____ are attached under Horse’s feet.',
             options: 'Horseshoes, Shoes, Sandles'
           },
           {
-            qText: 'Horses can_______in all directions.',
-            options: 'see, run, swing'
+            qText: 'Horses can _____ in all directions.',
+            options: 'see, eat, swing'
           }
         ]
       }
@@ -516,7 +516,7 @@ They are useful for different *farming (harming)* activities.`,
         title: 'Tigers',
         text: [
           { type: 'img', src: 'tiger.jpg' },
-          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white. But some tigers are just white and black. Tigers’ eyesights are 6 times better than humans. An amazing fact about the tigers is that they can survive without food for 2 weeks.`
+          `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white. But some tigers are just white and black. Tiger babies are called cubs. Tigers’ eyesights are 6 times better than humans. Do you know that tigers is that they can survive without food for 2 weeks? They are predators, which means that they hunt their prey. They only eat flesh, which means they're carnivores.`
         ]
       }
     },
@@ -530,7 +530,9 @@ They have vertical strips *over (hover)* their body.
 They’re usually orange, black *and (or)* white.
 But *some (hum)* tigers are just white and black.
 Tiger’s eyesights *are (hare)* 6 times better than humans.
-An amazing fact about the tigers is that they can survive without food for 2 weeks.`,
+Do you know that tigers is that they can survive without food for 2 weeks?
+They are predators, *which (witch)* means that they hunt their prey.
+They only eat flesh, which means they're *carnivores (herbivores)*.`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -551,24 +553,24 @@ An amazing fact about the tigers is that they can survive without food for 2 wee
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Tigers are_________.',
+            qText: 'Tigers are _____ .',
             options: 'predators, preys, pals'
           },
           {
-            qText: 'Tigers are________.',
+            qText: 'Tigers are _____ .',
             options: 'carnivores, omnivores, herbivores'
           },
           {
-            qText: 'Tigers________their prey.',
+            qText: 'Tigers _____ their prey.',
             options: 'hunt, run, dump'
           },
           {
-            qText: 'Tigers babies are called_______.',
+            qText: 'Tigers babies are called _____ .',
             options: 'cubs, lambs, kittens'
           },
           {
-            qText: 'Tigers are also found in_______.',
-            options: 'Tigers are also found in_______.'
+            qText: 'Tigers have _____ strips all over their body.',
+            options: 'vertical, horizontal, zig-zag'
           }
         ]
       }
@@ -647,7 +649,8 @@ An amazing fact about the tigers is that they can survive without food for 2 wee
         text: [
           { type: 'img', src: 'rabbit.jpg' },
           `Rabbits love eating carrots and hay. They chew 120 times in a minute. It helps them to digest food easily.  Do you know how many times humans should chew their food?`,
-          `Rabbits have a few things in common with other animals. Just like horses, they can see in almost all directions without turning their heads. Just like cats, they like to keep themselves tidy.`
+          `Rabbits have a few things in common with other animals. Just like horses, they can see in almost all directions without turning their heads. Just like cats, they like to keep themselves tidy.`,
+          `Rabbits live in burrows. They're also called bunnies. Do you know that sometimes rabbits eat their own poop?`
         ]
       }
     },
@@ -662,8 +665,10 @@ It helps them to digest food easily.
 *Do (Did)* you know how many times humans should chew their food?
 Rabbits have a few things in common with *other (another)* animals. 
 Just like horses, they can see in *almost (allmost)* all directions without *turning (tuning)* their heads. 
-Just like cats, they like to *keep (heep)* themselves tidy. 
-One weird thing about rabbits is that they sometimes eat their own poop.`,
+Just like cats, they like to *keep (heep)* themselves tidy.
+Rabbits live in *burrows (tunnels)*.
+They're also called *bunnies (buddies)*.
+Do you know that sometimes rabbits eat their own poop?`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -684,23 +689,23 @@ One weird thing about rabbits is that they sometimes eat their own poop.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Rabbits live in_________.',
+            qText: 'Rabbits live in _____ .',
             options: 'burrows, dens, holes'
           },
           {
-            qText: 'Rabbits are also called________.',
+            qText: 'Rabbits are also called _____ .',
             options: 'bunny, sunny, lamb'
           },
           {
-            qText: 'Rabbits also eat their________.',
+            qText: 'Rabbits also eat their _____ .',
             options: 'poop, ears, tail'
           },
           {
-            qText: 'Rabbits love________.',
+            qText: 'Rabbits love _____ .',
             options: 'carrots, radish, corriander'
           },
           {
-            qText: 'Rabbits usually eat______.',
+            qText: 'Rabbits usually eat _____ .',
             options: 'hay, may, clay'
           }
         ]
@@ -779,7 +784,7 @@ One weird thing about rabbits is that they sometimes eat their own poop.`,
         title: 'Dolphins',
         text: [
           { type: 'img', src: 'dolphin.jpg' },
-          `Dolphins are very playful and intelligent. Just like whales, they breathe air from a blowhole on their back. They swim very fast. They jump out of the water to breathe and it looks like they’re hopping on the water. Dolphins are very attentive even while they’re asleep. Some dolphins have two stomachs. This helps them to store food.`
+          `Dolphins are very playful and intelligent. Just like whales, they breathe air from a blowhole on their back. They swim very fast. They jump out of the water to breathe and it looks like they’re hopping on the water. Dolphin baabies are called calves. Dolphins are very attentive even while they’re asleep. Some dolphins have two stomachs. This helps them to store food.`
         ]
       }
     },
@@ -791,7 +796,8 @@ One weird thing about rabbits is that they sometimes eat their own poop.`,
         text: `Dolphins are *very (berry)* playful *and (hand)* intelligent. 
 Just like whales, they *breathe (breath)* air from a blowhole on their back. 
 They swim very *fast (fist)*. 
-They jump out of the water to breathe and it looks like they’re *hopping (happing)* on the water. 
+They jump out of the water to breathe and it looks like they’re *hopping (happing)* on the water.
+Dolphin baabies are called *calves (cubs)*.
 Dolphins are very *attentive (attractive)* even while they’re asleep. 
 Some dolphins have two stomachs. 
 This helps them to *store (shore)* food.`,
@@ -815,23 +821,23 @@ This helps them to *store (shore)* food.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Dolphins have________stomach(s).',
+            qText: 'Dolphins have _____ stomach(s).',
             options: 'two, one, zero'
           },
           {
-            qText: 'Dolphins_______on the water.',
+            qText: 'Dolphins _____ on the water.',
             options: 'hop, swin, dance'
           },
           {
-            qText: 'Dolphins are very_______.',
+            qText: 'Dolphins are very _____ .',
             options: 'intelligent, dumb, pretty'
           },
           {
-            qText: 'Dolphins are attentive while__________.',
+            qText: 'Dolphins are attentive while _____ .',
             options: 'sleping, eating, swimming'
           },
           {
-            qText: 'Dolphins babies are called________.',
+            qText: 'Dolphins babies are called _____ .',
             options: 'calves, halves, baby dolphins'
           }
         ]
@@ -906,7 +912,7 @@ This helps them to *store (shore)* food.`,
         title: 'Monkeys',
         text: [
           { type: 'img', src: 'monkey.jpg' },
-          `Monkeys can be easily seen in India. We usually find them on top of buildings and trees. Their favorite food is bananas. They eat it just like humans, by removing the peels in the same manner. Do you know that monkeys’ families are our ancestors? Their hands and legs are very similar to humans. A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
+          `Monkey babies are called 'infants'. Monkeys can be easily seen in India. We usually find them on top of buildings and trees. Their favorite food is bananas. They eat it just like humans, by removing the peels in the same manner. Do you know that monkeys’ families are our ancestors? Their hands and legs are very similar to humans. A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
         ]
       }
     },
@@ -915,7 +921,8 @@ This helps them to *store (shore)* food.`,
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `Monkeys can be *easily (peasily)* seen in India. 
+        text: `Monkey babies are called *infants (babies)*.
+Monkeys can be *easily (peasily)* seen in India. 
 We usually find them on top *of (on)* buildings and on trees. 
 *Their (There)* favourite food is bananas. 
 They eat it just like humans, by removing the *peels (heels)* in the same manner. 
@@ -942,23 +949,23 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Monkeys babies are called________.',
+            qText: 'Monkeys babies are called _____ .',
             options: 'infants, cubs, bugs'
           },
           {
-            qText: 'Monkey are our_________.',
+            qText: 'Monkey are our _____ .',
             options: 'ancestors, enemies, slaves'
           },
           {
-            qText: 'Monkeys love eating________.',
+            qText: 'Monkeys love eating _____ .',
             options: 'bananas, chocolates, apples'
           },
           {
-            qText: 'Monkeys_________from one tree to another.',
+            qText: 'Monkeys _____ from one tree to another.',
             options: 'climb, hop, walk'
           },
           {
-            qText: 'Monkeys did________in the past.',
+            qText: 'Monkeys did _____ in the past.',
             options: 'street tricks, talking, theatre'
           }
         ]
@@ -1035,7 +1042,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
       label: 'Bees',
       data: {
         title: 'Bees',
-        text: `Bees live in beehives where they produce honey. The beehive consists of a queen bee and worker bees. They feed on flower nectar. The lifespan of worker bees is usually around one year. But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
+        text: `Bees live in beehives where they produce honey. Baby bees are called broods. The beehive consists of a queen bee and worker bees. They feed on flower nectar. The lifespan of worker bees is usually around one year. But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
       }
     },
     {
@@ -1072,23 +1079,23 @@ Stings cause a lot of pain.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Bees live in_________.',
+            qText: 'Bees live in _____ .',
             options: 'beehives, trees, canals'
           },
           {
-            qText: 'A beehive is also called a_________.',
+            qText: 'A beehive is also called a _____ .',
             options: 'honeycomb, beecomb, queens palace'
           },
           {
-            qText: 'Only________bees can sting.',
+            qText: 'Only _____ bees can sting.',
             options: 'worker, queen, king'
           },
           {
-            qText: 'Baby bees are called_________.',
+            qText: 'Baby bees are called _____ .',
             options: 'broods, croods, infants'
           },
           {
-            qText: 'Bees feed on_______.',
+            qText: 'Bees feed on _____ .',
             options: 'flower nectar, honey, leaves'
           }
         ]
@@ -1198,23 +1205,23 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoes
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'A pigs nose is elongated and is called a_______.',
+            qText: 'A pigs nose is elongated and is called a _____ .',
             options: 'snout, nose, flat, nose'
           },
           {
-            qText: 'Pigs body has stiff hair, called________.',
+            qText: 'Pigs body has stiff hair, called _____ ',
             options: 'bristles, braces, thorns'
           },
           {
-            qText: 'A baby pig is called a_________.',
+            qText: 'A baby pig is called a _____ .',
             options: 'piglet, infant, brood'
           },
           {
-            qText: 'Pigs like to stay in_______.',
+            qText: 'Pigs like to stay in _____ .',
             options: 'mud, ponds, drains'
           },
           {
-            qText: 'Pig hair was used to make_________.',
+            qText: 'Pig hair was used to make _____ .',
             options: 'paintbrushes, toothbrushes, cloth brushes'
           }
         ]
@@ -1292,7 +1299,7 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoes
         title: 'Lions',
         text: [
           { type: 'img', src: 'lion.jpg' },
-          `Lions are very powerful and strong. They look like a very big cat with hair all around their face. Lions live together in caves. They usually roar at night. The sound of their roar can be heard 8kms away. They eat by hunting their prey. Do you know that lions can eat up to 30kgs in one meal?`
+          `Lions are very powerful and strong. They look like a very big cat with hair all around their face. Lions live together in caves or dens. Baby lions are called cubs. They usually roar at night. The sound of their roar can be heard 8kms away. They eat by hunting their prey, which means they're predators. Do you know that lions can eat up to 30kgs in one meal?`
         ]
       }
     },
@@ -1328,23 +1335,23 @@ Do you know that lions can eat up to 30kgs in one meal?`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Lions are known as the______of the Jungle.',
+            qText: 'Lions are known as the _____ of the Jungle.',
             options: 'King, Coward, Cat'
           },
           {
-            qText: 'Lions live in______.',
+            qText: 'Lions live in _____ .',
             options: 'caves, carnivals, trees'
           },
           {
-            qText: 'Caves are also called________.',
+            qText: 'Caves are also called _____ .',
             options: 'dens, forests, pathways'
           },
           {
-            qText: 'Lions are__________.',
+            qText: 'Lions are _____ .',
             options: 'predators, preys, herbivores'
           },
           {
-            qText: 'A lions baby is called a______.',
+            qText: 'A lions baby is called a _____ .',
             options: 'cub, calf, kitten'
           }
         ]
@@ -1423,7 +1430,7 @@ Do you know that lions can eat up to 30kgs in one meal?`,
         title: 'Sharks',
         text: [
           { type: 'img', src: 'shark.jpg' },
-          `Sharks are predators. It means that they hunt other fishes as their food. Sharks have an overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
+          `Sharks are predators. It means that they hunt other fishes as their food. A baby shark is called a pup. Sharks have an overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
         ]
       }
     },
@@ -1433,7 +1440,8 @@ Do you know that lions can eat up to 30kgs in one meal?`,
       type: 'fillup',
       data: {
         text: `Sharks *are (were)* predators. 
-It means that they hunt other *fishes (fish)* as their food. 
+It means that they hunt other *fishes (fish)* as their food.
+A baby shark is called a *pup (pug)*.
 Sharks have an overall 30,000 pointed teeth in their *life (live)* span. 
 Their skin is the thickest of all the *animals (humans)*. 
 Sharks show their *presence (absence)* by swimming on the upper layer of water. 
@@ -1458,23 +1466,23 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Sharks are________.',
+            qText: 'Sharks are _____ .',
             options: 'predators, preys, mammals'
           },
           {
-            qText: 'Sharks have_______teeth.',
+            qText: 'Sharks have _____ teeth.',
             options: 'pointed, blunt, human-like'
           },
           {
-            qText: 'A baby shark is called a________.',
+            qText: 'A baby shark is called a _____ .',
             options: 'pup, bub, baby'
           },
           {
-            qText: 'Sharks move_________their prey before attacking.',
+            qText: 'Sharks move _____ their prey before attacking.',
             options: 'around, away, forward'
           },
           {
-            qText: 'Sharks are_________.',
+            qText: 'Sharks are _____ .',
             options: 'dangerous, friendly, non-friendly'
           }
         ]
@@ -1544,7 +1552,7 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
         title: 'Snakes',
         text: [
           { type: 'img', src: 'snake.jpg' },
-          `A fascinating fact about snakes is that they don’t have legs. They move by creeping. People are generally scared of snakes. This is because they’re poisonous. But, not all snakes are poisonous. Their food is usually frogs and small animals. Snakes can swallow their food without chewing. They shed their skin 3 to 6 times per year.`
+          `A fascinating fact about snakes is that they don’t have legs. They move by creeping. They are reptiles. Snake babies are called snakelets. People are generally scared of snakes. This is because they’re poisonous. But, not all snakes are poisonous. Their food is usually frogs and small animals. Snakes can swallow their food without chewing. They shed their skin 3 to 6 times per year. Do you know that some snakes can fly?`
         ]
       }
     },
@@ -1555,12 +1563,15 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
       data: {
         text: `A fascinating fact about snakes is that they don’t have *legs (face)*. 
 They move by *creeping (crawling)*. 
+They are reptiles.
+Snake babies are called *snakelets (scales)*.
 People are generally *scared (playful)* of snakes. 
 This is *because (became)* they’re poisonous. 
 But, not all snakes are poisonous. 
 *Their (There)* food is usually frogs and small animals. 
 Snakes can swallow their food without *chewing (chasing)*. 
-They shed their skin 3 to 6 times *per (par)* year.`,
+They shed their skin 3 to 6 times *per (par)* year.
+Do you know that some snakes can *fly (run)*?`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -1581,23 +1592,23 @@ They shed their skin 3 to 6 times *per (par)* year.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Snake babies are called________.',
+            qText: 'Snake babies are called _____ .',
             options: 'snakelets, snakies, scalies'
           },
           {
-            qText: 'Snakes are_________.',
+            qText: 'Snakes are _____ .',
             options: 'carnivores, omnivores, herbivores'
           },
           {
-            qText: 'Some snakes can also______.',
+            qText: 'Some snakes can also _____ .',
             options: 'fly, hop, walk'
           },
           {
-            qText: 'Snakes shed their________.',
+            qText: 'Snakes shed their _____ .',
             options: 'skin, tongue, cheeks'
           },
           {
-            qText: 'Snakes are__________.',
+            qText: 'Snakes are _____ .',
             options: 'reptiles, amphibians, mammals'
           }
         ]
@@ -1674,7 +1685,7 @@ They shed their skin 3 to 6 times *per (par)* year.`,
       data: {
         title: 'Dinosaurs',
         text: `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But based on bones and skeletons from the past, scientists assumed their body structure. They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
-We still have no idea what sounds dinosaurs used to make. But based on their body sizes, scientists have also assumed their voices. We can hear their voices in a lot of movies made on dinosaurs. For example, the Jurassic Park series, Jurassic World, Godzilla, etc.       
+We still have no idea what sounds dinosaurs used to make. Based on their body sizes, scientists have also assumed their voices. We can hear their voices in a lot of movies made about dinosaurs. For example, the Jurassic Park series, Jurassic World, Godzilla, etc.       
 Apart from being diverse in their body structures, the species were also different in their eating habits. Some were herbivores, some were carnivores and some were omnivores. It has been found that dinosaurs became extinct about 65 million years ago. A meteor from space hit the earth. It led to the death of the species.`
       }
     },
@@ -1692,8 +1703,8 @@ Some of them even had *wings (bings)* to fly.
 Some also lived in the sea. 
 
 We still have no idea what *sounds (screams)* dinosaurs used to make. 
-But based on their body sizes, scientists have also *assumed (assured)* their voice. 
-We can hear their voices in a *lot (let)* of movies made on dinosaurs. 
+Based on their body sizes, scientists have also *assumed (assured)* their voice. 
+We can hear their voices in a *lot (let)* of movies made about dinosaurs. 
 For example, the Jurassic Park series, Jurassic World, Godzilla, etc.
 
 Apart from being diverse in *their (there)* body structures, the species were also different in their eating habits. 
@@ -1721,23 +1732,23 @@ It led to the death of the species.`,
         title: 'Choose the correct option',
         questions: [
           {
-            qText: 'Dinosaurs died________years ago.',
+            qText: 'Dinosaurs died _____ years ago.',
             options: '65 million, 65 billion, 65 thousand'
           },
           {
-            qText: 'Dinosaurs_________.',
+            qText: 'Dinosaurs _____ .',
             options: 'laid eggs, gave birth, were infertile'
           },
           {
-            qText: 'There were_______species of dinosaurs.',
-            options: 'worker, queen, kingmany, only one, fifteen'
+            qText: 'There were _____ species of dinosaurs.',
+            options: 'many, only one, fifteen'
           },
           {
-            qText: 'Dinosaurs became extinct because of_________.',
+            qText: 'Dinosaurs became extinct because of _____ .',
             options: 'meteor shower, draught, flood'
           },
           {
-            qText: 'We are not sure about dinosaurs__________.',
+            qText: 'We are not sure about dinosaurs _____ .',
             options: 'voices, bodies, wings'
           }
         ]

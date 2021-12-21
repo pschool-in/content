@@ -57,7 +57,7 @@ export default {
           It's really easy
           When you find
           Good manners means
-          Just being kind.`
+          Just be kind.`
       }
     },
     {
@@ -69,9 +69,9 @@ export default {
         type: 'poem',
         author: `Nicolette Lennert`,
         text: `Sunflower, sunflower
-          turn toward the sky
+          Turn toward the sky
           Grow like beanstalk
-          ten feet high
+          Ten feet high
           Large golden petals
           A center full of seed
           Give hungry birds
