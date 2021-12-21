@@ -360,6 +360,46 @@ DC, CDL, LXXIX, LXV, LV
 CM, DL, CCL, CC, XC
 CDL, XC, LV, L, XL`
       ]
+    },
+ {
+  type: 'numberInput',
+  id: 'number-names',
+  label: 'Write the  Roman Numbers',
+  commonData: {
+    title: 'Write the Roman Numbers',
+    type: 'word-problem'
+      },
+      data: [
+`Six hundred and seventy eight | DCLXXVIII
+Thousand, seven hundred and fifty one | MDCCLI
+Eight hundred and seventy nine | DCCCLXXIX
+Six hundred and ninty seven| DCXCVII
+Two thousand, six hundred and ninty three | MMDCXCIII`,
+     
+`Three thousand, nine hundred and eighty seven | MMMCMLXXXVII
+ Two thousand, nine hundred and eighty six| MMCMLXXXVI
+Thousand, one hundred and eleven  | MCXI
+Three thousand, five hundred and seventy eight | MMMDLXXVIII
+Two thousand, nine hundred and nineteen | MMCMXIX`,
+
+`Three thousand, seven hundred and sixty nine | MMMDCCLXIX
+Two thousand, four hundred and fifty seven | MMCDLVII
+Three thousand, three hundred and thirty three| MMMCCCXXXIII
+Thousand, seven hundred and ninty two | MDCCXCII
+Two thousand, six hundred and sevety eight | MMDCLXXVIII`,
+
+`Thousand, seven hundred and seventy four | MDCCLXXIV
+Three thousand, two hundred and fifty four | MMMCCLIV
+Two thousand, eight hundred and ninty seven  | MMDCCCXCVII
+Thousand, three hundred and thirty | MCCCXXX
+Nine hundred and ninty nine | CMXCIX`,
+
+`Thousand, two hundred and thirty four | MCCXXXIV
+Two thousand, three hundred and forty five | MMCCCXLV
+Three thousand, seven hundred and nineteen | MMMDCCXIX
+Thousand, seven hundred and forty nine | MDCCXLIX
+Two thousand, eight hundred and eighty eight | MMDCCCLXXXVIII`
+      ]
     }
   ]
 };
