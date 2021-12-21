@@ -17,7 +17,7 @@ export default {
   My dad is making some evening snacks. | 4:30 | PM
   The sun is shining. Ashok puts on a cap before he goes outside to play. | 10:30 | AM`,
 
-        `The sun is bright, so Mary puts on her sunglasses. | 2:45| AM
+        `The sun is bright, so Mary puts on her sunglasses. | 2:45| PM
   Helen is eating pizza for dinner.| 7:50 | PM
   Our neighbour's dog is barking loudly in the middle of the night.| 12:30 | AM
   I am reading a book in the library. | 1:45 | PM
@@ -116,11 +116,11 @@ export default {
       ]
     },
     {
-      label: 'Force - MCQ',
+      label: 'Choose the Right Answer',
       type: 'mcq',
       id: 'mcq',
       data: {
-        title: 'Multiple Choice Questions',
+        title: 'Choose the Right Answer',
         questions: [
           {
             qText: `It takes John 25 minutes to go to school and it takes Ashok 50 minutes to go to school. Today, John left home at 8:30 a.m. and Ashok left home at 8:15 a.m. Who arrived at school earlier?`,
