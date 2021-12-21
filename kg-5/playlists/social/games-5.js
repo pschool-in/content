@@ -19,9 +19,9 @@ Thoda: It is the martial arts from Himachal Pradesh. It uses a bow and arrow. Th
 Boat race: Snake boat race is held as a part of Onam celebration in parts of Kerala. The boats used in this thrilling contest of Vallamkali, are kite-tailed and shaped like a swan.
 Wrestling: Also called kushti, wrestling as a sport has a long history in India. Since ancient times wrestling has been practiced for bodybuilding. 
 # Did you know?
-Thoda is held at Baisakhi festival.
-Manipuri originated from thang-da
-The trainer of kalaripayattu is called gurukal`,
+1. Thoda is held at Baisakhi festival.
+2. Manipuri originated from thang-da
+3. The trainer of kalaripayattu is called gurukal`,
         title: 'Games of India'
       }
     },
@@ -67,7 +67,7 @@ kalaripayattu, sword`,
           dashWidth: 80
         },
         text: `Thoda is the martial art form from *Himachal Pradesh*.
-Kalaripayattu is similsr to *Kung fu*.
+Kalaripayattu is similar to *Kung fu*.
 Karate is the martial art form of *Japan*.
 *Kabaddi* is a traditional Indian game.`
       }
