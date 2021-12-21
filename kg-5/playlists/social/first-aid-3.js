@@ -1,14 +1,14 @@
 export default {
-    id: 'first-aid-3',
-    label: 'First Aid',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'First Aid',
-        type: 'passage',
-        data: {
-          text: `# First Aid
+  id: 'first-aid-3',
+  label: 'First Aid',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'First Aid',
+      type: 'passage',
+      data: {
+        text: `# First Aid
 The immediate help that can be given to an injured person before further treatment is called first aid. After giving first aid an injured person must be immediately taken to the hospital. First aid plays an important role in everyday life. The type of first aid given varies for different injuries.
 # For cuts and wounds
 1. You must wash your hands thoroughly before giving first aid to an injured person.
@@ -34,64 +34,63 @@ The immediate help that can be given to an injured person before further treatme
 3. Breathe through the mouth.
 # First-aid Box
 First-aid boxes are found in all public places. We should also have one at home. We can buy a first aid kit from the store or make one at home. The basic constituents in a first aid kit is an antiseptic lotion, sterilized gauze, cotton pads, a pair of scissors, band-aids, crepe bandage, burn cream, calamine lotion and basic fever medicine.`
-        }
+      }
+    },
+    {
+      label: 'Cuts and Wounds',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'wash hands, remove dirt and clean wound, use antiseptic, tie a bandage'
       },
-      {
-        label: 'Cuts and Wounds',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'wash hands, remove dirt and clean wound, use antiseptic, tie a bandage'
-        },
-        id: 'sorting-1'
+      id: 'sorting-1'
+    },
+    {
+      label: 'Minor burns',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'hold under cool running water, place ice pack, apply antiseptic cream'
       },
-      {
-        label: 'Minor burns',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'hold under cool running water, place ice pack, apply antiseptic cream'
-        },
-        id: 'sorting-2'
+      id: 'sorting-2'
+    },
+    {
+      label: 'Insect bite',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'apply paste off baking soda and cold cream, place ice pack, use calamine lotion for itching'
       },
-      {
-        label: 'Insect bite',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'apply paste off baking soda and cold cream, place ice pack, use calamine lotion for itching'
-        },
-        id: 'sorting-3'
+      id: 'sorting-3'
+    },
+    {
+      label: 'Fainting',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'lie down, lower head, allow fresh air to enter, sprinkle cold water'
       },
-      {
-        label: 'Fainting',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'lie down, lower head, allow fresh air to enter, sprinkle cold water'
-        },
-        id: 'sorting-4'
+      id: 'sorting-4'
+    },
+    {
+      label: 'Nose bleed',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text: 'pinch nose, lean forward, use clean wet towel'
       },
-      {
-        label: 'Nose bleed',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'pinch nose, lean forward, use clean wet towel'
-        },
-        id: 'sorting-5'
-      },
-      {
-        id: 'notes-2',
-        label: 'First Aid',
-        type: 'passage',
-        data: {
-          text: `# First aid 
+      id: 'sorting-5'
+    },
+    {
+      id: 'notes-2',
+      label: 'First Aid',
+      type: 'passage',
+      data: {
+        text: `# First aid 
 First Aid is given in order to 
 1. To save life: First aid given to a patient at the right time can save his life even before taking him to the hospital.
 2. To relieve pain till a doctor arrives: First aid given to a person can relieve some pain till the time doctor arrives.
@@ -107,71 +106,73 @@ Fracture is caused when a bone in the body breaks. A fracture can occur anywhere
 1. Ensure not to move the fractured part.
 2. Use a splint to give support and prevent the movement of the fractured part e.g. a piece of cardboard can be tied around the injured part.
 3. Take the patient to the doctor immediately.`
-        }
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq2',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What must be given to people with snake bite to save them?',
+            options: 'anti-venom, prayer, tantrik'
+          },
+          {
+            qText: 'What is used to give support to a fracture?',
+            options: 'splint, rubber band, paper'
+          },
+          {
+            qText:
+              'How can we slow down movement of infected blood in case of snake bite?',
+            options:
+              'tie a cloth on the bite, use a splint to support the wound, apply antiseptic'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fracture',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'do not move the fractured part, use a splint, take the patient to a doctor'
       },
-      {
-        label: 'Multiple Choice Questions',
-        type: 'mcq',
-        id: 'mcq2',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'What must be given to people with snake bite to save them?',
-              options: 'anti-venom, prayer, tantrik'
-            },
-            {
-              qText: 'What is used to give support to a fracture?',
-              options: 'splint, rubber band, paper'
-            },
-            {
-              qText: 'How can we slow down movement of infected blood in case of snake bite?',
-              options: 'tie a cloth on the bite, use a splint to support the wound, apply antiseptic'
-            }
-          ]
-        }
+      id: 'sorting-fracture'
+    },
+    {
+      label: 'Snake Bite',
+      type: 'sorting',
+      data: {
+        title: 'Arrange the steps in first-aid in the correct order.',
+        text:
+          'do not move the patient, tie a cloth on the bite, take to a doctor, give anti-venom'
       },
-      {
-        label: 'Fracture',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'do not move the fractured part, use a splint, take the patient to a doctor'
-        },
-        id: 'sorting-5'
-      },
-      {
-        label: 'Snake Bite',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the steps in first-aid in the correct order.',
-          text: 'do not move the patient, tie a cloth on the bite, take to a doctor, give anti-venom'
-        },
-        id: 'sorting-6'
-      },
-      {
-        id: 'do-dont',
-        label: `Do and Don't`,
-        type: 'classifySentence',
-        data: {
-          title: `Do and Don't`,
-          types: [
-            {
-              name: 'Do',
-              text: `After first aid, immediately take the patient to a hospital.
+      id: 'sorting-6'
+    },
+    {
+      id: 'do-dont',
+      label: `Do and Don't`,
+      type: 'classifySentence',
+      data: {
+        title: `Do and Don't`,
+        types: [
+          {
+            name: 'Do',
+            text: `After first aid, immediately take the patient to a hospital.
 Clean the area around the wound to reduce infections.
 Always use antiseptic to clean wounds.`
-            },
-            {
-              name: `Don't`,
-              text: `Gather around someone when they faint.
+          },
+          {
+            name: `Don't`,
+            text: `Gather around someone when they faint.
 Manhandle a fracture.
 Directly apply ice on burns.`
-            }
-          ]
-        }
+          }
+        ]
       }
-    ]
+    }
+  ]
 };
