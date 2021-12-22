@@ -95,7 +95,7 @@ export default {
   4^hours 30^minutes = ?^minutes, 270
   300^minutes = ?^hours, 5
   300^seconds = ?^minutes, 5
-  ?0^hours 20^minutes = 200^minutes`
+  ?0^hours 20^minutes = 200^minutes, 3`
       ]
     },
     {

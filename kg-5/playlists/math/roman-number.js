@@ -361,45 +361,46 @@ CM, DL, CCL, CC, XC
 CDL, XC, LV, L, XL`
       ]
     },
- {
+    {
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Numbers',
       commonData: {
-        title: 'Convert Roman numbers to numbers',
-        type: 'word-problem'
+        title: 'Convert Roman numbers to Decimal numbers',
+        type: 'word-problem',
+        firstLineFontSize: '2.5rem'
       },
       data: [
-`DCL | 650
+        `DCL | 650
 DCCCL | 850 
 M | 1000
 XCVIII | 98 
 LXXXVIII | 88 `,
-     
-`DCCL | 750
+
+        `DCCL | 750
 D | 500
 DCCC  | 800
 CML | 950
 LXXXVI | 86 `,
 
-` MMM | 3000
+        ` MMM | 3000
 MCCLXXXVIII | 1288
 MMMCCLIV | 3254
 MMDCCCXCVII | 2897
 MCCCXXX | 1330 `,
 
-`CMXCIX | 999
+        `CMXCIX | 999
  MMMCMLXXXVII | 3987
  MMCMLXXXVI | 2986
  MCCLXXXVII | 1287
  MCMXCV | 1995 `,
 
-`MMMCMLXXX | 3980
+        `MMMCMLXXX | 3980
  MMCMXCIX | 2999
 MMMDCCCLXXVI | 3876
 MMMDXLI | 3541 
 MCCVII | 1207 `
       ]
-    },
+    }
   ]
 };
