@@ -174,11 +174,12 @@ const grammar = [
     id: 'parts-of-speech-2',
     grade: 'g2, g3, g4, g5'
   },
+  /*
   {
     label: 'Parts of Speech 3',
     id: 'parts-of-speech-3',
     grade: 'g2, g3, g4'
-  },
+  },*/
   {
     label: 'Naming Word',
     id: 'noun-1',

@@ -73,6 +73,38 @@ export default {
     The *dog* barks at *strangers*.
     I love *balloons*.`
       ]
+    },
+    {
+      label: 'Same Basket',
+      type: 'matchByDragDrop',
+      id: 'same-basket',
+      lockAfter: 1,
+      commonData: {
+        title: 'Drag and drop words, so that nouns of same group are together.',
+        styles: {
+          fontSize: '1.5rem',
+          dashWidth: 70
+        }
+      },
+      data: [
+        `cat, dog, *cow*
+lion, tiger, *fox*
+leaf, stem, *root*
+cake, bun, *bread*
+north, south, *east*`,
+
+        `water, tea, *juice*
+apple, cherry, *grapes*
+crow, dove, *duck*
+door, wall, *window*
+sun, moon, *star*`,
+
+        `ear, eye, *nose*
+snake, rat, *ant*
+whale, shark, *fish*
+car, bus, *van*
+carrot, tomato, *potato*`
+      ]
     }
   ]
 };

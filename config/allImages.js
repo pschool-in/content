@@ -121,7 +121,7 @@ const allImages = {
     'hawk',
     'cardinal',
     'parakeet',
-    'macow'
+    'macaw'
   ],
   fruits: [
     'apple',
@@ -155,7 +155,10 @@ const allImages = {
     'jujube',
     'sapotta',
     'tapioca',
-    'blueberry'
+    'blueberry',
+    'wood-apple',
+    'gooseberry',
+    'lemon'
   ],
   vegetables: [
     'carrot',
