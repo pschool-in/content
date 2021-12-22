@@ -79,7 +79,7 @@ It isn't sunny.`
         types: [
           {
             name: 'Negative',
-            text: "not, never, no, nobody, none, isn't , can't, won't"
+            text: "not, never, no, nobody, none, isn't, can't, won't"
           },
           {
             name: 'Non-negative',
@@ -100,7 +100,7 @@ There aren't *any* apples in the basket.
 Do you have *any* brothers?
 There is *some* juice in the fridge.
 I want to wash my hair. Is there *any* shampoo?
-He has *some* money in the wallet.
+He has *some* money in his wallet.
 Today, we don't have *any* homework.
 I have *some* fruits.
 She doesn't have *any* brothers.`,
@@ -121,7 +121,7 @@ There are *some* books in the cupboard.
 Add *some* sugar to the milk.
 Can I have *some* water, please?
 There isn't *any* water in the bottle.
-Sorry, there aren't *any* seats left in the bus.
+Sorry, there aren't *any* seats left on the bus.
 There are *some* people waiting for the bus.
 Are there *any* messages for me?`,
         options: 'any, some'
@@ -143,13 +143,13 @@ John is not eating.`
           {
             qText: 'We should never tell lies.',
             options: `We should always speak the truth.
-We should always keep our mouth shut.
+We should always keep our mouths shut.
 We should always tell lies.`
           },
           {
             qText: 'The glass is empty.',
             options: `There is no water in the glass.
-There is no glass in the table.
+There is no glass on the table.
 The glass is not empty.`
           },
           {

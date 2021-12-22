@@ -9,7 +9,7 @@ export default {
       data: {
         title: 'Words List',
         text: [
-          'It is important that we should write without spelling mistakes. Here are a list of 100 words.',
+          'It is important that we should write without spelling mistakes. Here is a list of 100 words.',
 
           {
             type: 'sitewords',

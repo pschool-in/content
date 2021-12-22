@@ -45,7 +45,7 @@ dense, thick
 odd, strange
 defect, fault
 forest, jungle
-respect, honour`,
+respect, honor`,
       `writer, author
 yearly, annually
 nearly, almost
@@ -136,7 +136,7 @@ dense − thick
 odd − strange
 defect − fault
 forest − jungle
-respect − honour`
+respect − honor`
           },
           {
             type: 'hilight',

@@ -52,7 +52,7 @@ export default {
           {
             type: 'sitewords',
             text:
-              'man, woman, boy, girl, baby, house, table, bed, candle, chair, shelf, ball, coat, glasses, clock, watch, school bag, water bottle, pen, pencil, ruler, eraser, scissors, sharpener, calculator, book, color-pencils, crayons, bell, whistle, brush, bone, conch, ring, drums,food, king, kite, ladder, wheel',
+              'man, woman, boy, girl, baby, house, table, bed, candle, chair, shelf, ball, coat, glasses, clock, watch, school bag, water bottle, pen, pencil, ruler, eraser, scissors, sharpener, calculator, book, color-pencils, crayons, bell, whistle, brush, bone, conch, ring, drums, food, king, kite, ladder, wheel',
             width: 120
           }
         ]

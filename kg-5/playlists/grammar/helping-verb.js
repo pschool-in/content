@@ -12,7 +12,7 @@ export default {
         text: [
           `A helping verb is used with a main verb to help express the main verb's tense, mood, or voice.`,
           `# Be verbs`,
-          `They are used to describe the condition of people, things, places and ideas.`,
+          `They are used to describe the condition of people, things, places, and ideas.`,
           {
             type: 'sitewords',
             text: 'am, is, are, was, were, being, been, will be',
@@ -31,7 +31,7 @@ export default {
           `# Do verbs`,
           {
             type: 'html',
-            text: `They can be used both as main and helping verb. If used as a main verb, then it indicates action. eg: <i> Can you do a favour?</i><br> We use <b>have</b> helping verb to ask questions. We also use them for more emphatic or deliberate actions. `
+            text: `They can be used both as a main and helping verb. If used as a main verb, then it indicates action. eg: <i> Can you do a favor?</i><br> We use <b>have</b> helping verb to ask questions. We also use them for more emphatic or deliberate actions. `
           },
           `# Other common helping verbs`,
           {
@@ -64,7 +64,7 @@ export default {
     },
     {
       id: 'is-are',
-      label: 'Am, Is vs Are',
+      label: 'Am vs Is vs Are',
       type: 'fillup',
       data: {
         title: 'Fill in the blank.',
@@ -99,7 +99,7 @@ I *was* winning the race!
 Where *were* you going?
 I *was* so happy yesterday!
 When *were* you at the park?
-They *were* going to zoo.
+They *were* going to the zoo.
 Why *was* your brother sad?`,
         options: 'was, were'
       }
@@ -156,7 +156,7 @@ Where *do* you work?
 Please *do* your homework.
 What *does* your brother do?
 Siva and Ramya *do* not like coffee.
-John *does* came early for the game.
+John *does* come early for the game.
 Why are you expecting me to *do* the homework on a Sunday?
 Why mom *does* all the work?
 *do* you want to dance?`,
@@ -193,7 +193,7 @@ Why are you sad? Is there anything I *can* do for you?`,
       data: [
         [
           `His house *has* no TV.
-Do you *have* a glass of water.
+Do you *have* a glass of water?
 She has *had* her dog since 2019.
 My parents *had* fish for dinner.
 Did you *have* a shower this morning?
@@ -210,7 +210,7 @@ The floor *is* wet.
 Please *do* your homework.
 I *have* five mangoes.`,
           `I *have* never seen a lion before.
-I *do* trust you, but close the book next to you, while writing the exam.
+I *do* trust you but close the book next to you while writing the exam.
 You *should* definitely see this movie.
 We *are* having breakfast.
 I *can't* run fast.`

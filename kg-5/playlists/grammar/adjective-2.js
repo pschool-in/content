@@ -78,7 +78,7 @@ Hyderabad is a *beautiful* city.
 Charminar is an *old* monument located in Hyderabad.
 Reshma has a *pink* dress.
 My mom has a *grey* handbag.
-I saw a *white* pigeon in my balcony.`,
+I saw a *white* pigeon on my balcony.`,
 
         `Neeta has *long* hair.
 This is a *funny* movie.
@@ -230,9 +230,9 @@ These bananas are *sweet (sour)*.`
           fontSize: '1rem',
           dashWidth: 70
         },
-        text: `Sita was a *young* girl. She lived in a *small* village in karnataka. 
+        text: `Sita was a *young* girl. She lived in a *small* village in Karnataka. 
 One day, on a *cloudy* morning, she went for a walk into the nearby fields.
-She was wearing a *white* frock and a red ribbon. After sometime, she came across a hut. 
+She was wearing a *white* frock and a red ribbon. After some time, she came across a hut. 
 It was a small hut but was *warm* inside. Sita was feeling *tired*. 
 So, she went inside the hut and slept on the cot.
 Soon a *loud* bang on the door woke her up!`
@@ -255,10 +255,10 @@ Soon a *loud* bang on the door woke her up!`
         `The rat is "small" but the dog is *big*.
 The coconut trees are "tall" but apple trees are *short*.
 The ladybug is "beautiful" but the cockroach is *ugly*.
-Coffee is "hot" but ice-cream is *cold*.
+Coffee is "hot" but ice cream is *cold*.
 The hair is "black" but the teeth are *white*.`,
 
-        `The rabbit is "fast" but tortoise is *slow*.
+        `The rabbit is "fast" but the tortoise is *slow*.
 Summer is "hot" but winter is *cold*.
 The school bag is "heavy" but the lunch bag is *light*.
 Saritha's car is "old" but the car tires are *new*.

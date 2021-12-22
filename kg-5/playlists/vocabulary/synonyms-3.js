@@ -45,7 +45,7 @@ transparent, clear`,
 evidence, proof
 trivial, unimportant
 prompt, immediate
-paticular, specific
+particular, specific
 vanish, disappear`,
       `annoy, bother
 bargain, deal
@@ -137,7 +137,7 @@ transparent − clear`
 evidence − proof
 trivial − unimportant
 prompt − immediate
-paticular − specific
+particular − specific
 vanish − disappear`
           },
           {

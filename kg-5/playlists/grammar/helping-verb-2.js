@@ -15,7 +15,7 @@ export default {
 The monkeys *are* chattering in the trees near the river.
 The students *were* relieved at the cancellation of exams!
 Raja *has* a match today.
-It *is* going to be one o’ clock.
+It *is* going to be one o’clock.
 Surely, you *will* attend the wedding?
 I *have* to leave in an hour.
 The children *are* listening to a story.
@@ -27,9 +27,9 @@ Why *should* we get up so early every day?
 Sheeba *is* going out now.
 Ravi *was* eating when the phone rang.
 We *were* instructed to keep our books open.
-I *have* never heard my neighbur’s dog barking!
+I *have* never heard my neighbor's dog barking!
 The baby *was* crying the whole night!
-The prisoner *was* sentenced for life.
+The prisoner *was* sentenced to life.
 The fishermen *were* caught in the storm.
 My friends and I *were* at the mall yesterday.`
       ]
@@ -61,7 +61,7 @@ The girls *were (was)* eagerly waiting to receive their gifts.
 Pepper and chilli *are(is)* required for this recipe.
 Hans Christian Anderson *has (have)* written many fairy tales for children.
 Please check if anybody *has (have)* been left behind.
-Our neighbour’s house *is (are)* not so old.
+Our neighbor’s house *is (are)* not so old.
 These women *have (has)* come a long way to meet the Chief Guest.
 How much money *is (are)* there in the purse?`
       ]

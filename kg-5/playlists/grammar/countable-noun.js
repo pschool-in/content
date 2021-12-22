@@ -11,7 +11,7 @@ export default {
         title: 'Countable vs Uncountable Noun',
         text: [
           `Nouns can be countable or uncountable.`,
-          `Countable nouns are easy to recognize. They are the things we can count. 
+          `Countable nouns are easy to recognize. They are the things we can count on. 
           For eg, pencils. We can count pencils. We can have one, two, three or more pencils.`,
           {
             type: 'hilight',
@@ -192,7 +192,7 @@ jar| jars| ja__`
         editable: true,
         title: 'Click on the blanks and pick the write word. (cat or cats).',
         text:
-          'I saw a *cat* on the window. Suddenly, few more *cats* came from the street. One of the *cats*, was black in color. The oldest *cat* was slow in moving. Two *cats* were fighting. There was too much of noise. A gray colored *cat* was scratching the window. I suddenly woke up and it was a bad dream. It was full of *cats*.',
+          'I saw a *cat* on the window. Suddenly, few more *cats* came from the street. One of the *cats*, was black in color. The oldest *cat* was slow in moving. Two *cats* were fighting. There was too much of noise. A gray-colored *cat* was scratching the window. I suddenly woke up and it was a bad dream. It was full of *cats*.',
         options: 'cat, cats'
       }
     },
@@ -239,11 +239,11 @@ only one seat ; few *seats(seat)*`
         [
           `The women sat on the *bench*
 The books you are looking for are on that *shelf*.
-Which  is the sick *sheep?*
+Which is the sick *sheep?*
 The *child's* parents are waiting outside.
 The children's *bat* was lost.`,
 
-          `There are *mice* in the store room.         
+          `There are *mice* in the storeroom.         
 This is the way *monkeys* jump.
 There are three *kittens* in the barn.
 They are three *sisters* and one brother.
@@ -349,7 +349,7 @@ Some nouns use different words as plural. Some examples are:
         I like *cats (caties)*.
         Dogs have 4 *legs (leges)*.
         I like eating *berries (berrys)*.
-        He divided the chocolate in two *halves (halfs)*.
+        He divided the chocolate into two *halves (halfs)*.
         My *teeth (tooths)* are white.
         The police caught three *thieves (thiefs)*.
         The *children (childs)* are playing in the park.`,
@@ -362,7 +362,7 @@ Some nouns use different words as plural. Some examples are:
         There were many *people (persons)* in the room.
         Human beings have two *feet (foots)*.
         There are so many green *leaves (leafs)* in the tree.
-        There are twenty *sheep (sheeps)* in the farm.
+        There are twenty *sheep (sheeps)* on the farm.
         I saw two black *fish (fishes)* in the pond.`
       ]
     },
@@ -373,7 +373,7 @@ Some nouns use different words as plural. Some examples are:
 
       data: {
         title: `Click on each blank and choose the right option.`,
-        text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of different kind, they're called *fishes (fish)*.`
+        text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of a different kind, they're called *fishes (fish)*.`
       }
     },
     {
@@ -393,7 +393,7 @@ Some nouns use different words as plural. Some examples are:
 
       data: {
         title: `Click on each blank and choose the right option.`,
-        text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets.`
+        text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets?`
       }
     },
     {

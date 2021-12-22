@@ -14,12 +14,12 @@ export default {
         `dog, bark
 cat,  meow
 donkey, bray
-cow,	moo
+cow,  moo
 hen, cluck
 crow, caw`,
 
-        `horse,	neigh
-duck,	quack
+        `horse, neigh
+duck, quack
 monkey, chatter
 goat, bleat
 snake, hiss
@@ -35,7 +35,7 @@ bee, buzz`,
         `frog, croak
 sheep, bleat
 tiger, growl
-cockoo, sing
+cuckoo, sing
 sparrow, tweet`
       ]
     },

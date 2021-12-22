@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Prefix',
         text: [
-          'A prefix is a group of letters placed before the root word. The opposite word for lot of words are formed by adding a prefix. Find below, some of the common prefixes.',
+          'A prefix is a group of letters placed before the root word. The opposite word for a lot of words are formed by adding a prefix. Find below, some of the common prefixes.',
           '# in- words',
           {
             type: 'sitewords',
@@ -66,7 +66,7 @@ export default {
               'degrade, deactivate, dehydrate, depart, demoralize, dehumanize, desalinate, deselect, defame',
             width: 120
           },
-          `Not all words starting with these letters are prefixes. The below words are not considered as having as prefix.`,
+          `Not all words starting with these letters are prefixes. The below words are not considered as having as a prefix.`,
           {
             type: 'sitewords',
             text:
@@ -85,7 +85,7 @@ export default {
           {
             type: 'sitewords',
             text:
-              'return, reunite, recall, rehabit, reorganise, recover, reconsider, republish, reproduce, recalculate, rediscover, refresh, recollect, redirect, reinvest, replay, review, refund, rename, rewrite, relocate, reaction, reload, remix, renew, recharge, rebuild, refill,  restore',
+              'return, reunite, recall, rehabit, reorganize, recover, reconsider, republish, reproduce, recalculate, rediscover, refresh, recollect, redirect, reinvest, replay, review, refund, rename, rewrite, relocate, reaction, reload, remix, renew, recharge, rebuild, refill,  restore',
             width: 120
           },
           '# over- words',
@@ -135,32 +135,32 @@ un, happy
 im, patient
 mis, match`,
 
-        `in, correct	
-ir, replaceable	
-dis, honest	
-un, well	
-im, polite	
+        `in, correct  
+ir, replaceable 
+dis, honest 
+un, well  
+im, polite  
 mis, behave`,
 
-        `in, definite	
-ir, rational	
-dis, agree	
-un, able	
-im, possible	
+        `in, definite 
+ir, rational  
+dis, agree  
+un, able  
+im, possible  
 mis, lead`,
 
-        `in, justice	
-ir, resistable	
-dis, appear	
-un, trained	
-im, pure	
+        `in, justice  
+ir, resistible  
+dis, appear 
+un, trained 
+im, pure  
 mis, spell`,
 
-        `in, secure	
-il, legal	
-dis, approve	
-un, fit	
-im, perfect	
+        `in, secure 
+il, legal 
+dis, approve  
+un, fit 
+im, perfect 
 mis, treat`,
 
         `in, visible
@@ -177,18 +177,18 @@ un, lucky
 im, proper
 mis, field`,
 
-        `in, decent	
-il, literate	
+        `in, decent 
+il, literate  
 re, produce        
-un, seen	
-im, material	
+un, seen  
+im, material  
 mis, fit`,
 
-        `in, human	
-ir, rational	
+        `in, human  
+ir, rational  
 re, publish        
-un, usual	
-im, prison	
+un, usual 
+im, prison  
 mis, use`
       ]
     },
@@ -201,59 +201,59 @@ mis, use`
         title: 'Match Prefix with the word.'
       },
       data: [
-        `pre, fix	
-de, grade	
-re, turn	
-over, due	
+        `pre, fix 
+de, grade 
+re, turn  
+over, due 
 un, bound
 extra, curricular`,
 
-        `pre, view	
-de, activate	
-re, unite	
-over, power	
-un, fold	
+        `pre, view  
+de, activate  
+re, unite 
+over, power 
+un, fold  
 dis, able`,
 
         `pre, occupied
-de, part	
-re, habit	
-over, price	
-tri, angle	
+de, part  
+re, habit 
+over, price 
+tri, angle  
 un, just`,
 
-        `pre, position	
-de, moralize	
-dis, cover		
-over, seas	
-tri, cycle	
+        `pre, position  
+de, moralize  
+dis, cover    
+over, seas  
+tri, cycle  
 un, known`,
 
-        `pre, dominant	
-de, humanize	
-re, cover	
-over, come	
-bi, cycle	
+        `pre, dominant  
+de, humanize  
+re, cover 
+over, come  
+bi, cycle 
 un, likely`,
 
-        `pre, defined	
-de, salinate	
+        `pre, defined 
+de, salinate  
 dis, comfort
-over, coat	
-uni, cycle	
+over, coat  
+uni, cycle  
 un, qualified`,
 
-        `pre, caution	
-de, select	
+        `pre, caution 
+de, select  
 dis, like        
-over, cooked	
+over, cooked  
 homo, phone
 un, satisfactory`,
 
-        `pre, plan	
-de, fame	
+        `pre, plan  
+de, fame  
 dis, obedient
-over, do	
+over, do  
 re, organise
 un, zip`
       ]
@@ -441,7 +441,7 @@ occupied, pre, dis
 angle, tri, bi`,
 
         `publish, re, dis
-organise, re, pre
+organize, re, pre
 coat, over, pre
 pack, un, en
 paid, un, im
@@ -666,74 +666,74 @@ discussion, discover, disable, dislike`
         title: 'Match Suffix with the word.'
       },
       data: [
-        `play, ful	
-soft, ly	
-fiction, al	
-securi, ty	
-argu, ment	
+        `play, ful  
+soft, ly  
+fiction, al 
+securi, ty  
+argu, ment  
 promot, ion`,
 
-        `thank, ful	
-slow, ly	
-region, al	
-validi, ty 	
-achieve, ment	
+        `thank, ful 
+slow, ly  
+region, al  
+validi, ty  
+achieve, ment 
 addit, ion`,
 
-        `hope, ful	
-happi, ly	
-music, al	
-quali, ty	
-encourage, ment	
+        `hope, ful  
+happi, ly 
+music, al 
+quali, ty 
+encourage, ment 
 elect, ion`,
 
-        `hand, ful	
-crazi, ly	
-accident, al	
-abili, ty	
-excite, ment	
+        `hand, ful  
+crazi, ly 
+accident, al  
+abili, ty 
+excite, ment  
 relat, ion`,
 
-        `skil, ful	
-mad, ly	
-logic, al	
-socie, ty	
-pay, ment	
+        `skil, ful  
+mad, ly 
+logic, al 
+socie, ty 
+pay, ment 
 durat, ion`,
 
-        `respect,ful	
-large,ly	
-nation,al	
-reali,ty	
-move,ment	
+        `respect,ful  
+large,ly  
+nation,al 
+reali,ty  
+move,ment 
 rotat,ion`,
 
-        `success, ful	
-month, ly	
-offici, al	
-cruel, ty	
-argu, ment	
+        `success, ful 
+month, ly 
+offici, al  
+cruel, ty 
+argu, ment  
 donat, ion`,
 
-        `unsuccess, ful	
-heavi, ly	
-person, al	
-thirs, ty	
-judg, ment	
+        `unsuccess, ful 
+heavi, ly 
+person, al  
+thirs, ty 
+judg, ment  
 educat, ion`,
 
-        `power, ful	
-readi, ly	
-approv, al	
-activi, ty	
-base, ment	
+        `power, ful 
+readi, ly 
+approv, al  
+activi, ty  
+base, ment  
 operat, ion`,
 
-        `resource, ful	
-actual, ly	
-cultur, al	
-priori, ty	
-pave, ment	
+        `resource, ful  
+actual, ly  
+cultur, al  
+priori, ty  
+pave, ment  
 direct, ion`
       ]
     },
@@ -745,74 +745,74 @@ direct, ion`
         title: 'Match Suffix with the word.'
       },
       data: [
-        `beauti, ful	
-direct, ly	
-festiv, al	
-humani, ty	
-agree, ment	
+        `beauti, ful  
+direct, ly  
+festiv, al  
+humani, ty  
+agree, ment 
 select, ion`,
 
-        `wonder, ful	
-friend, ly	
-option, al	
-inabili, ty	
-equip, ment	
+        `wonder, ful  
+friend, ly  
+option, al  
+inabili, ty 
+equip, ment 
 pollut, ion`,
 
-        `meaning, ful	
-honest, ly	
-season, al	
-sinceri, ty	
-state, ment	
+        `meaning, ful 
+honest, ly  
+season, al  
+sinceri, ty 
+state, ment 
 animat, ion`,
 
-        `thought, ful	
-famous, ly	
-margin, al	
-stupidi, ty	
-treat, ment	
+        `thought, ful 
+famous, ly  
+margin, al  
+stupidi, ty 
+treat, ment 
 digest, ion`,
 
-        `event, ful	
-general, ly	
-parent, al	
-difficul, ty	
-place, ment	
+        `event, ful 
+general, ly 
+parent, al  
+difficul, ty  
+place, ment 
 product, ion`,
 
-        `stress, ful	
-certain, ly	
-habitu, al	
-populari, ty	
-enjoy, ment	
+        `stress, ful  
+certain, ly 
+habitu, al  
+populari, ty  
+enjoy, ment 
 populat, ion`,
 
-        `color, ful	
-perfect, ly	
-financi, al	
-visibili, ty	
-manage, ment	
+        `color, ful 
+perfect, ly 
+financi, al 
+visibili, ty  
+manage, ment  
 discuss, ion`,
 
-        `doubt, ful	
-natural, ly	
-technic, al	
-hones, ty	
-govern, ment	
+        `doubt, ful 
+natural, ly 
+technic, al 
+hones, ty 
+govern, ment  
 opposit, ion`,
 
-        `care, ful	
-frequent, ly	
-emotion, al	
-opportuni, ty	
-employ, ment	
+        `care, ful  
+frequent, ly  
+emotion, al 
+opportuni, ty 
+employ, ment  
 limitat, ion`,
 
-        `help, ful	
-original, ly	
-individu, al	
-nationali, ty	
-retire, ment	
+        `help, ful  
+original, ly  
+individu, al  
+nationali, ty 
+retire, ment  
 suggest, ion`
       ]
     },

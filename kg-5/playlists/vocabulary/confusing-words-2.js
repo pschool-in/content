@@ -111,9 +111,9 @@ Priya will *accept* the award for the best singer.
 Rahul does not like to *accept* help from anyone.
 We all passed our exam *except* Tina.
 Will you *accept* our dinner invitation?
-*except* for Sam, we all likes going swimming.
+*except* for Sam, we all like going swimming.
 Please *accept* this gift as a token of my appreciation.
-All the students scored an A in the math quiz,  *except* for Bradley.
+All the students scored an A on the math quiz,  *except* for Bradley.
 Mitchell wanted to go, *except* his mother couldn't leave.
 Thank you, I will *accept* your offer.
 Everyone *except* Ben has blue eyes.`,
@@ -200,7 +200,7 @@ Swimming is not *allowed* at this beach.`,
 We had chocolate cake for *dessert*.
 Nobody likes to live in the *desert*.
 They were lost in the *desert* for two days.
-My favourite kind of *dessert* is Strawberry ice cream.`,
+My favorite kind of *dessert* is Strawberry ice cream.`,
         options: 'desert, dessert'
       }
     },
