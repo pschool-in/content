@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Naming words',
         text: [
-          `Words that are used as names of person, place, thing or animal are called naming words. Another name for naming words is nouns. Some examples of nouns are:`,
+          `Words that are used as names of person, place, thing, or animal are called naming words. Another name for naming words is nouns. Some examples of nouns are:`,
           {
             type: 'html',
             text: `<b>Richa</b> lives with her <b>parents</b>.<br>

@@ -71,8 +71,8 @@ export default {
             {
               name: 'Adjective',
               text: `Heera has a *cute* little kitten.
-              *None* of the stores in our neighbourhood are open before ten am.
-              Surya’s cousin is a *well known* author.
+              *None* of the stores in our neighborhood are open before ten am.
+              Surya’s cousin is a *well-known* author.
               The view from the mountain top was *breathtaking*!`
             },
             {
@@ -98,9 +98,9 @@ export default {
             {
               name: 'Adverb',
               text: `I have been to the park with the musical fountain *very* few times.
-              The little girls were *so* busy collecting pebbles on the beach, they didn’t realise that the tide had risen.
+              The little girls were *so* busy collecting pebbles on the beach, they didn’t realize that the tide had risen.
               The old man walked *slowly* down the street.
-              She is getting *late* to school.
+              She is getting *late* for school.
               Sita speaks *very* softly.`
             }
           ]
@@ -155,7 +155,7 @@ export default {
               name: 'Verb',
               text: `This is the way to *brush* your hair.
               I can *hear* a cat meowing in the basement!
-              Dr Abdul Kalam has *authored* many books.
+              Dr. Abdul Kalam has *authored* many books.
               The Principal *expressed* annoyance at the indiscipline during assembly.`
             },
             {
@@ -163,7 +163,7 @@ export default {
               text: `I was wonderstruck by the beautiful valley *of* flowers!
               The lizard crawled *up* the wall.
               They built a bridge *across* the river.
-              Kolkata stands *on* the river Hooghli.
+              Kolkata stands *on* the river Hooghly.
               The toys were scattered all *over* the room.`
             }
           ]
@@ -193,7 +193,7 @@ export default {
               text: `The bottle is nearly full of water, *but* it is not enough. 
               Suhasini will buy a car *as soon as* she has enough money.
               The thief ran so fast *that* the policeman could not catch him.
-              *Although* Rani hurried, she was late to school.
+              *Although* Rani hurried, she was late for school.
               His dog jumped on him,*as soon as* Rohit entered the house.`
             },
             {

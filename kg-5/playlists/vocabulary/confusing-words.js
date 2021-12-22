@@ -131,7 +131,7 @@ I can't *hear* you. You're mumbling.`,
 Shilpa searched *thoroughly*, but couldn't find the letter.
 The tiger walked stealthily *through* the forest, stalking its prey.
 When you are *through* eating, don't forget to take your medicine.
-*Through* the dentist appointment, I kept my eyes closed!`,
+*Through (Thorough)* the dentist appointment, I kept my eyes closed!`,
         options: 'thorough, through'
       }
     },
@@ -144,8 +144,8 @@ When you are *through* eating, don't forget to take your medicine.
         text: `Meena was forced to *borrow* ten rupees from Sarita for her bus fare.
 Moles *burrow* under the soil.
 The chipmunk retreated into its *burrow* to feed the babies.
-May I *borrow* your pen please.
-Sujit had to *borrow* a compass during the Math evam.`,
+May I *borrow* your pen, please?
+Sujit had to *borrow* a compass during the Math exam.`,
         options: 'borrow, burrow'
       }
     },
@@ -200,10 +200,10 @@ The hunter hit at a *deer* with his gun.`,
         text: `Ben has a *loose* tooth.
 The hamster is so cute. Don't *lose* her now.
 There are *loose* papers in the bag.
-Don't *lose* your temper.
-Our mothers *lose* their car keys lot of times.
+Don't *lose* your temper!
+Our mothers *lose* their car keys a lot of times.
 The boy is wearing *loose* pants.
-The dog is *loose* in the neighbourhood.`,
+The dog is *loose* in the neighborhood.`,
         options: 'loose, lose'
       }
     },

@@ -147,7 +147,7 @@ a, cherry, apple`
       data: [
         `I had *an* egg for breakfast.
 My son wants to be *an* architect.
-Cheetah is *the* fastest land animal.
+The cheetah is *the* fastest land animal.
 My dad is *a* Zoology professor.
 My son has *a* big world map in his room.
 There is *an* orange in my bag.

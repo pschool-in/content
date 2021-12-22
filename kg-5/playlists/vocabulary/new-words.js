@@ -50,7 +50,7 @@ export default {
             },
             {
               qText: 'We *sighted* three tiger cubs in the distance.',
-              options: 'saw, heared, walked'
+              options: 'saw, heard, walked'
             },
             {
               qText: 'The telephone is an instrument to *communicate*.',

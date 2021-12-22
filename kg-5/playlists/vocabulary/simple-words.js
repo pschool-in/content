@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Words List',
         text: [
-          'Find below some three letter words. Get familiar with them.',
+          'Find below some three-letter words. Get familiar with them.',
           {
             type: 'sitewords',
             text:

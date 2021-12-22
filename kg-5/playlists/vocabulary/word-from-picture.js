@@ -35,7 +35,7 @@ export default {
           {
             type: 'sitewords',
             text:
-              'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic, ginger, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut, coriander leaf, curry leaf, drumstick, green peas, ladies finger, mintleaf, peanut, raddish, spinach',
+              'carrot, beetroot, onion, tomato, potato, cabbage, cauliflower, corn, cucumber, garlic, ginger, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashew nut, chilli, coconut, coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, radish, spinach',
             width: 120
           }
         ]

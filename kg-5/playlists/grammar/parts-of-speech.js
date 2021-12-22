@@ -21,7 +21,7 @@ export default {
           `# Adverb`,
           `An adverb modifies or describes a verb, an adjective, or another adverb. eg: carefully, always, quickly`,
           `# Preposition`,
-          `A preposition is a word that shows relationship between a noun, pronoun, or any other word in a sentence. eg: by, with, about, under`,
+          `A preposition is a word that shows the relationship between a noun, pronoun, or any other word in a sentence. eg: by, with, about, under`,
           `# Conjunction`,
           `A conjunction joins words, phrases, or clauses. eg: and, but, or`,
           `# Interjection`,

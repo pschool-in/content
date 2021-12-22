@@ -61,7 +61,7 @@ export default {
           fontSize: '1rem',
           dashWidth: 70
         },
-        text: `*frowning* : showing worry, anger or disapproval
+        text: `*frowning* : showing worry, anger, or disapproval
 *grinning* : showing happiness or approval
 *pouting*: showing disappointment or unhappiness
 *shrugging*: showing that we do not know or do not care about something`
@@ -93,11 +93,11 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       data: [
         `*witty* - makes jokes easily, 
 *career* - the work a person does for a long time
-*criticised* - find mistakes
+*criticized* - find mistakes
 *pancake* - a flat cake fried on both sides like a dosa
-*batter* - semi liquid mix of flour, egg and milk
+*batter* - a semi-liquid mix of flour, egg, and milk
 *monk* - a member of a religious group of men
-*stalwart* - a hard working member of a company`,
+*stalwart* - a hard-working member of a company`,
 
         `*reformer* - a person who makes changes to make something better
 *lecture* - educational speech to a group of people
@@ -113,7 +113,7 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
 *civil rights* - rights that each person has in a society.
 *illegal* - not allowed by the law of a country
 *proclamation* - public announcement of an important matter
-*visionary* - a person having future vision.`
+*visionary* - a person having a future vision.`
       ]
     },
     {
@@ -130,7 +130,7 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       data: [
         `To make pancakes, we first need the *batter*.
 Rohit believed in God and wanted to become a *monk*.
-The teacher never *criticised* her students.
+The teacher never *criticized* her students.
 *pancakes* are tasty to eat.
 Teachers are the *stalwarts* of a school.
 Dr. Radhakrishnan was known for being *witty*.
@@ -147,7 +147,7 @@ Simran showed great *humanity* when she gave food to a beggar.`,
         `It is *illegal* to steal.
 Abraham Lincoln is called the *liberator*.
 He was sold abroad for *slavery*.
-Right to education is every Indian's *civil right*.
+The right to education is every Indian's *civil right*.
 The Prime Minister made a *proclamation* to clean India.
 My principal is a *visionary* as she has great plans for our school.
 Rita has a two flat *property* in Pune.`
