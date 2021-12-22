@@ -1,12 +1,12 @@
 export default {
-  id: 'diseases-5',
-  label: 'Diseases',
+  id: "diseases-5",
+  label: "Diseases",
   lockAfter: 4,
   list: [
     {
-      id: 'notes',
-      label: 'Diseases',
-      type: 'passage',
+      id: "notes",
+      label: "Diseases",
+      type: "passage",
       data: {
         text: `# Deficiency Diseases
 Food gives us energy to work and play. It helps us grow and gives our body strength to fight diseases. When people do not get the required amount of nutrition, they become weak and are unable to lead productive lives. Diseases which are caused by the lack of adequate amounts of essential nutrients in our food are called deficiency diseases.
@@ -33,55 +33,55 @@ Beriberi is caused by the deficiency of Vitamin B. In those suffering from berib
 It is caused by the lack of Vitamin A in the diet. A person suffering from night blindness finds it difficult to see in dim light. The eyes become dull, triangular patches appear on the white portion of the eyes and the skin becomes dry and scaly. Vitamin A deficiency together with protein-energy malnutrition often affects pre-school children. It impairs their resistance to infection. A diet rich in green leafy vegetables, carrots, papaya, pumpkin, mango, milk, curd and liver will help prevent the disease.
 # Non-communicable diseases
 A non-communicable disease is a disease that is not transmissible directly from one person to another. They include strokes, most heart diseases, most cancers, diabetes, chronic kidney disease, cataracts, etc. Deficiency diseases are also non-communicable diseases.`,
-        title: 'Diseases'
-      }
+        title: "Diseases",
+      },
     },
     {
-      id: 'mcq',
-      label: 'Multiple Choice Questions - MCQ',
-      type: 'mcq',
+      id: "mcq",
+      label: "Multiple Choice Questions - MCQ",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'Which of these is not a deficiency disease?',
-            options: `dengue, scurvy, goitre`
+            qText: "Which of these is not a deficiency disease?",
+            options: `dengue, scurvy, goitre`,
           },
           {
-            qText: 'Which disease is caused by lack of Vitamin D?',
-            options: `rickets, scurvy, beriberi`
+            qText: "Which disease is caused by lack of Vitamin D?",
+            options: `rickets, scurvy, beriberi`,
           },
           {
-            qText: 'Which of the following food is rich in Vitamin C?',
-            options: `orange, milk, potato`
-          }
-        ]
-      }
+            qText: "Which of the following food is rich in Vitamin C?",
+            options: `orange, milk, potato`,
+          },
+        ],
+      },
     },
     {
-      id: 'true-false',
-      label: 'True or False',
-      type: 'classifySentence',
+      id: "true-false",
+      label: "True or False",
+      type: "classifySentence",
       data: {
-        title: 'True or False',
+        title: "True or False",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Malnourished children do not get enough food.
-Rickets is a deficiency disease.`
+Rickets is a deficiency disease.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Vitamin D is called moonlight vitamin.
-Spinach is bad for people with anaemia.`
-          }
-        ]
-      }
+Spinach is bad for people with anaemia.`,
+          },
+        ],
+      },
     },
     {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
+      id: "match",
+      label: "Match the following",
+      type: "match",
       data: {
         text: `anaemia, iron
 rickets, vitamin D
@@ -89,40 +89,40 @@ scurvy, vitamin C
 goitre, iodine
 beriberi, vitamin B
 night blindness, vitamin A`,
-        title: 'Match with appropriate choice'
-      }
+        title: "Match with appropriate choice",
+      },
     },
     {
-      label: 'Name the following',
-      type: 'matchByDragDrop',
-      id: 'drag-drop',
+      label: "Name the following",
+      type: "matchByDragDrop",
+      id: "drag-drop",
       data: {
         isPractice: false,
-        title: 'Drag and drop the words at proper place.',
+        title: "Drag and drop the words at proper place.",
         styles: {
-          fontSize: '1rem',
-          dashWidth: 80
+          fontSize: "1rem",
+          dashWidth: 80,
         },
-        text: `Disease caused by iron deficiency - *anaemia*
-Disease caused by Vitamin C deficiency - *scurvy*
-Disease caused by Vitamin B deficiency - *beriberi*
-Disease caused by Vitamin D deficiency - *rickets*
-Disease caused by Vitamin A deficiency - *night blindness*
-Disease caused by iodine deficiency - *goitre*`
-      }
+        text: `The disease caused by iron deficiency is *anaemia*
+The disease caused by Vitamin C deficiency is *scurvy*
+The disease caused by Vitamin B deficiency is *beriberi*
+The disease caused by Vitamin D deficiency is *rickets*
+The disease caused by Vitamin A deficiency is *night blindness*
+The disease caused by iodine deficiency is *goitre*`,
+      },
     },
     {
-      id: 'match-2',
-      label: 'Match the following',
-      type: 'match',
+      id: "match-2",
+      label: "Match the following",
+      type: "match",
       data: {
         text: `orange, Vitamin C
 carrot , Vitamin A
 salt, iodine
 pulses, Vitamin B
 sunlight, Vitamin D`,
-        title: 'Match with appropriate choice'
-      }
-    }
-  ]
+        title: "Match with appropriate choice",
+      },
+    },
+  ],
 };
