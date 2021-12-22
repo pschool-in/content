@@ -21,7 +21,7 @@ export default {
     label: 'Fill up with options',
     type: 'fillup',
     commonData: {
-      title: `Tap on each blank for options.`
+      title: `Click on each blank for options.`
     },
     data: [
 `I *can (may)* swim across the river.
@@ -29,9 +29,8 @@ It *may (can)* rain tomorrow.
 *Can (May)* you lift this box?
 *May (Can)* I come in?
 He *can (may)* work late.
-He *may (can)* be at home.`,
-
-`I *cannot (cann't)* go to the party.
+He *may (can)* be at home.
+I *cannot (cann't)* go to the party.
 She *may not (mayn't)* be able to come.
 We *cannot (cann't)* dance without the teacher's permission.
 Books *may not (mayn't)* be available at the store.`,
@@ -40,9 +39,8 @@ Books *may not (mayn't)* be available at the store.`,
 He *cannot (cann't)* ride a bike.
 *May (Can)* you have a joyful weekend.
 How *may (May)* I help you?
-We *may not (cannot)* have to leave.`,
-      
-`*May (Can)* I come in?
+We *may not (cannot)* have to leave.
+*May (Can)* I come in?
 *May (Can)* God bess you!
 Susan *may (can)* be upset because she fell down.
 I *can (may)* dance well.
@@ -66,9 +64,8 @@ I *can (may)* not eat almonds because I'm allergic.`,
 `I *can* speak 3 different languages.
 *May* I ask what you're doing?
 I told my sister that she *cannot* sleep without brushing her teeth.
-I *may not* be able to come to the party.`,
-      
-`I *cannot* go to the party.
+I *may not* be able to come to the party.
+I *cannot* go to the party.
 She *may* not come.
 He *can* swim very fast.
 You *may* came first if you try hard.
@@ -78,9 +75,8 @@ My parents *may* not come to the meeting.`,
 He *may* be angry with me.
 My dad *may* give me a surprise.
 My mom *can* cook chinese food.
-All of my friends *can* ride bicycles.`,
-      
-`Reena *can* sing very well.
+All of my friends *can* ride bicycles.
+Reena *can* sing very well.
 *May* I borrow your water bottle?
 We *may* go to Udaipur this summer.
 I *can* sleep in just 5 minutes.
@@ -99,16 +95,16 @@ Girls *may* form a separate team.`,
       id: 'modals-2-reading',
       data: {
         title: 'Modals-2',
-        text: `The verbs can, could, may, might, will, would, shall, should, must and ought are called modal verbs, or simply modals. A few examples are;
+        text: `The verbs can, could, may, might, will, would, shall, should, must, and ought are called modal verbs, or simply modals. A few examples are;
 1. She can swim very well.
 2. Could I borrow your bicycle?
-3. I will go to my gramdma's place tomorrow.
+3. I will go to my grandma's place tomorrow.
 4. Would you like to read my speech?
 5. When shall we see you again?
 6. We should respect our elders.
 7. We must wake up early.
 8. She might like the new play.
-9. This book ought to be very useful`
+9. This book ought to be very useful.`
       }
     },
     {
@@ -153,7 +149,7 @@ You *must* improve your spellings.`,
       type: 'sequence',
       label: 'Jumbled Words',
       commonData: {
-        title: 'Identify these modals.'
+        title: 'Connect these letters to form a modal.'
       },
       data: [
         'Can, Could, May, Might, Must',
@@ -165,16 +161,15 @@ You *must* improve your spellings.`,
       label: 'Select Word',
       id: 'select-word-2',
       commonData: {
-        title: 'Tap on the modal verbs in the below sentences.'
+        title: 'Select the modal verbs in the below sentences.'
       },
       data: [
         `The Prime Minister *will* hoist the flag.
-              I *would* like to have some chocolate.
-              *Shall* I close the door?
-              All the children *should* go to bed early.
-              *May* God bless you.`,
-
-        `I *might* go to the party.
+I *would* like to have some chocolate.
+*Shall* I close the door?
+All the children *should* go to bed early.
+*May* God bless you.
+I *might* go to the party.
 *Can* I borrow your notebook?
 If we had more chocolates, we *could* eat more.
 We *must* not steal from anyone.
@@ -184,9 +179,7 @@ We *ought* to practice more.`,
 There *shall* be showers of blessings.
 We *should* respect our elders.
 *Would* you like to watch a movie?
-*May* I have your attention, please?`,
-        
-`
+*May* I have your attention, please?
 The girls *will* participate in racing.
 He *can* run 200 meters in just 2 minutes.
 We *shall* go to play in the evening.

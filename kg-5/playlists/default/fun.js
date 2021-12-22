@@ -951,6 +951,7 @@ const coloring = {
       label: 'Mirror Image Drawing',
       data: { type: 'mirror' }
     },
+    /*
     {
       type: 'pathDraw',
       id: 'flower',
@@ -987,7 +988,7 @@ const coloring = {
           }
         ]
       }
-    },
+    },*/
     {
       type: 'whatNext',
       id: 'what-next',
@@ -1054,6 +1055,7 @@ M 30 10 L70 10 L 70 90 L 30 90 Z`
         ]
       }
     },
+    /*
     {
       type: 'whatNext',
       id: 'what-next',
@@ -1145,7 +1147,7 @@ M 15 0 L 30 30 H 0 Z`,
         ]
       }
     },
-
+*/
     {
       type: 'maze',
       id: 'maze',

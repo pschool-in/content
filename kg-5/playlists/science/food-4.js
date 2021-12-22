@@ -43,11 +43,11 @@ export default {
         types: [
           {
             name: 'Plants',
-            text: 'Carrot, Potato,  Brinjal, Onion, Mushroom, Corn'
+            text: 'Carrot, Potato, Brinjal, Onion, Mushroom, Corn'
           },
           {
             name: 'Animals',
-            text: 'Egg, Milk, Meat, Curd,Fish,Butter,Ghee'
+            text: 'Egg, Milk, Meat, Curd, Fish, Butter, Ghee'
           }
         ]
       }
@@ -65,7 +65,7 @@ export default {
           },
           {
             name: 'Only Cooked',
-            text: 'fish, meat, brinjal, potato, dhal, spinach'
+            text: 'fish, meat, brinjal, potato, dhal, tapioca'
           }
         ]
       }
@@ -80,7 +80,7 @@ Rice, Pressure cooking
 Egg, Boiling
 Cashewnut, Roasting
 Chips, Frying`,
-        title: 'Match the foods with their major nutrients.'
+        title: 'Match the following.'
       }
     },
     {
@@ -140,7 +140,7 @@ Chips are made by the process of boiling.`
     {
       label: 'Food Hygiene - Reading',
       type: 'passage',
-      id: 'reading',
+      id: 'reading-hygiene',
       data: {
         title: 'Food Hygiene',
         text: [
@@ -183,7 +183,7 @@ Chips are made by the process of boiling.`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -254,7 +254,7 @@ Storing food in air tight containers is called *canning*.`
     {
       label: 'Choose the best answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -356,15 +356,12 @@ We can cook rice on a tawa.`
       data: {
         title: 'Value of Food',
         text: `# How do we get grains?
-We need rainwater to grow bajra. After sometime, ears of bajra are visible on every stalk. During harvest season, ears of corn
-are full. All the bajra's ears must be chopped and gathered. Then the process of threshing and winnowing starts. Through this process,
-we obtain the grains from the ears of bajra.
-Do you know?
+We need rainwater to grow bajra. After sometime, ears of bajra are visible on every stalk. During harvest season, ears of corn are full. All the bajra's ears must be chopped and gathered. Then the process of threshing and winnowing starts. Through this process, we obtain the grains from the ears of bajra.
+# Do you know?
 Birds come to eat the tender grains as the grains grow. Scarecrows must be placed and slung shots must be fired to scare the birds away.
 We get different types of food from different places. We get fish from water. Fruits like amla, jamun, karvanda,bor grow in forests.
 The grains and other foodstuffs are gathered and sold all over the country. They are transported by means of trucks or goods trains. 
-It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting
-and marketing are expensive.`
+It is the turn of porters and truck-drivers to put in their labour. Transport costs a lot, too. All the processes of purchasing, transporting and marketing are expensive.`
       }
     },
     {

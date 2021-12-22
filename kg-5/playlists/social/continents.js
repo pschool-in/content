@@ -25,7 +25,7 @@ Europe and Asia are parts of the same major landmass. Europe is separated from A
 #Australia 
 Australia is the smallest continent. It is also a country. Australia is an Island continent covered with unique landscapes and natural wonders. The Great Barrier Reef, the pride and joy of Australia is made up of nearly 2,500 individual reefs and visible from space. Australia is also called the land of Kangaroos.`
       }
-/*
+      /*
 Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
     },
     {
@@ -33,7 +33,7 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
       type: 'dragAndDrop',
       id: 'map',
       data: {
-        img: 'worldContinents',
+        img: 'worldContinents.jpg',
         title: 'Drag and drop the continents at appropriate places.',
         width: 352,
         //  height: 260,

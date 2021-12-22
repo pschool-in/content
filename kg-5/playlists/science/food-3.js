@@ -287,7 +287,7 @@ After extracting oil from seeds such as groundnut, sesame, or cottonseed, the fi
         fontSize: '1rem',
         text: `Cat, Milk
 Lion, Flesh
-Fox, Rabbits
+Rabbits, Carrot
 Horse, Bengal gram
 Cow, Oilcake`
       }
@@ -477,7 +477,7 @@ Wood and *coal* produces more smoke, while using as a fuel for cooking.
       }
     },
     {
-      id: 'match-6',
+      id: 'match-kitchen',
       label: 'Match',
       type: 'match',
       data: {

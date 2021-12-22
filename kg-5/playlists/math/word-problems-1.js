@@ -3,30 +3,28 @@ export default {
   id: 'word-problems-1',
   //word problems for class 1 students
   list: [
-
     {
-      
       type: 'numberInput',
       id: 'word-prob-1-1',
       label: 'Answer the Word Problem -1',
       lockAfter: 2,
       commonData: {
         title: 'Answer the word problem.',
-        type: 'word-problem'
+        type: 'word-problem',
       },
       data: [
         // Word Problems for (1-9) addition - Class 1
         `You have 2 chocolates and your sister has 3 chocolates, together how many chocolates do you have? | 5
         Ramu likes to eat Idly. He eats 2 Idlis for breakfast, 3 for Lunch and 2 for Dinner. In a day what is the total number of Idlis does Ramu eat? | 7
-        David cycles 4 KMs everyday. How many KMs in total will David cycle on Saturday and Sunday? | 8
+        David cycles 4 kms everyday. How many kms in total will David cycle on Saturday and Sunday? | 8
         You have 3 ladoos, your best friend gave another 3 to you. How many total ladoos do you have now? | 6
         Riya likes to fill water in a water bottle. She has 3 water bottles of 1,2,3 litres. If she fills all the bottles then how much total water has she filled? | 6`,
-        
+
         // Word Problems for (1-9) Subtraction - Class 1
         `Susan had 8 apples in the basket. He ate 2 apples. How many apples are left? | 6
         Saniya loves to collect coins. She collected 9 new coins but lost 4 of them. How many new coins are left with her? | 5
         There are 8 Pencils in a packet. Teacher distributed 6 pencils to the students. How many are left now in the packet? | 2
-        Jane’s school is 5 KMs away from her home. She goes to school by cycle. One day after cycling 3 KMs towards school, her cycle got punctured. How many KMs does she need to walk to reach school? | 2
+        Jane’s school is 5 kms away from her home. She goes to school by cycle. One day after cycling 3 kms towards school, her cycle got punctured. How many kms does she need to walk to reach school? | 2
         Riya has 7 toys with her. She has 3 friends. She has gifted 1 toy each to her 3 friends. How many toys are left with Riya now? | 4 `,
 
         //Word Problems for (1-9) miscellaneous - Class 1
@@ -35,18 +33,16 @@ export default {
         You have filled 6 bottles of 1 litres with water. By mistake one bottle of water has fallen down. How much total water (in litre) is left? | 5
         Priya has ₹1 , ₹2 and ₹5 each. How much total money Priya has with her? | ₹ ?0 | 8
         Gopal took his 4 cows for grazing. Each cow eats 2 baskets of grass. How many baskets of grass are required to feed all the cows? | 8`,
-
-      ]
+      ],
     },
     {
-      
       type: 'numberInput',
       id: 'word-prob-1-2',
       label: 'Answer the Word Problem -2',
       lockAfter: 2,
       commonData: {
         title: 'Answer the word problem.',
-        type: 'word-problem'
+        type: 'word-problem',
       },
       data: [
         // Word Problems for (10-20) addition - Class 1
@@ -57,7 +53,7 @@ export default {
         A cricket team has 5 bowlers, 5 batsmen and 1 wicket keeper. What is the total number of players the team has? | 11`,
 
         // Word Problems for (10-20) Subtraction - Class 1
-        `You have ₹15 with you. You bought one chocolate for ₹5. How much money is left with you now? | ₹ 0 | 10
+        `You have ₹15 with you. You bought one chocolate for ₹5. How much money is left with you now? | 10
         A big water bottle contains 20 litres of water. A small bottle contains 1 litre of water. If you fill 2 small water bottles from the big bottle then how much water is left in the big bottle? | ?0 litre | 18
         Jack has a stick 13 feet long. He broke it to get a 2 feet long stick. What is the length of the remaining stick? | 11
         Aina collected 20 marbles. She has given 4 marbles to her friends. How many are left with her? | 16
@@ -69,17 +65,16 @@ export default {
         Sita needs to travel 15 kms to reach her school. One day she cycled 2 kms towards school then she remembered that she had left the tiffin box at home. She went back home again, took the tiffin box and reached school. How many kms she cycle that day? | 19
         Raghu loves to eat sweets. One day he ate 4 ladoos, 5 rasgullas and 10 gulab jamuns. What is the total number of sweets Raghu ate that day? | 19
         `,
-      ]
+      ],
     },
     {
-      
       type: 'numberInput',
       id: 'word-prob-1-3',
       label: 'Answer the Word Problem -3',
       lockAfter: 2,
       commonData: {
         title: 'Answer the word problem.',
-        type: 'word-problem'
+        type: 'word-problem',
       },
       data: [
         // Word Problems for ( > 20) addition - Class 1
@@ -88,8 +83,7 @@ export default {
         One egg crate has 4 rows. Each row can have 6 eggs. How many maximum eggs can a crate contain? | 24
         One crate has 60 eggs. You have taken 6 eggs from it for cooking. How many eggs are left in the crate? | 54
         A gems packet has 30 gems in it. You have given your 2 friends 5 gems each. How many gems are left with you? | 20`,
-        
-      ]
+      ],
     },
-  ]
+  ],
 };

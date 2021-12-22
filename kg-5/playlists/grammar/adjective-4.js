@@ -1,70 +1,225 @@
 export default {
   id: 'adjective-4',
-  label: 'Adjective-4',
+  label: 'More on Adjective',
   pdf: '',
   list: [
     {
-      label: 'Adjective-4',
+      label: 'Notes',
       type: 'passage',
-      id: 'adjectives-4-reading',
+      id: 'reading',
       data: {
-        title: 'Adjective-4',
-        text: `Adjectives are the words that describe the "persons", "places", "things" etc. Adjectives or describing words talk about color, number, material, quality, quantity, size, feel, etc.
-For example:
-1. Tarun is wearing a "red" shirt. (here "red" is an adjective that describes the noun "shirt" by letting us know what kind of shirt it is?)
-2. They have purchased a "square" table. (here "square" is an adjective that describes the noun "table" by letting us know the shape of the table)
-Read the following sentence
-1. Oh "darling, good" mother, said the third.
-2. Oh dear"darling", "pretty", "good, "nice" mother, said the fifth.
-In these sentences, words like "darling", "good", "pretty", "nice" express the qualities of a mother.
-It can be noticed by looking at the above two sentences that, more adjectives are used to describe the qualities of a mother.
-In such cases, we need to know how to arrange these adjectives in order.
-Given below is the order of adjectives:
-1. number
-2. opinion
-3. appearance (size, shape)
-4. age
-5. condition
-6. color
-7. pattern (checkered, stripped)
-8. proper adjective (Nationality, place of origin or material)
-9. function or purpose
-10. Noun
-For example :
-1. A strange, little, yellow leaf. Here the arrangement of the adjectives is as follows: "a" is an article, "strange" is an opinion or quality, "little" is the size, "yellow" is the color
-2. My dad is a tall, Indian Man. Here the arrangement of the adjectives is as follows: "tall" is a size, "Indian" is a Nationality.`
+        title: 'Other Types of Adjective',
+        text: [
+          `# Interrogative adjective
+It is used in asking questions.`,
+          {
+            type: 'html',
+            text: `Eg: <br>
+<b>which</b> car <br>
+<b>whose</b> book <br>
+<b>what</b> place`
+          },
+          `# Demonstrative adjective
+It is used to express the noun's position as near or far. It is also used to talk about the time.`,
+          {
+            type: 'html',
+            text: `Eg: <br>
+<b>those</b> mangoes <br>
+<b>these</b> pencils <br>
+<b>this</b> box <br>
+<b>that</b> tap <br>
+<b>this</b> morning`
+          },
+          `# Possessive Adjective
+It tells us about, to whom something or someone belongs to.`,
+          {
+            type: 'html',
+            text: `Eg:<br>
+<b>their</b> room <br>
+<b>my</b> uncle <br>
+<b>our</b> farm`
+          }
+        ]
       }
     },
     {
-      type: 'group',
-      label: 'Classify the words',
-      id: '100',
-      commonData: {
+      id: 'classify',
+      label: 'Classify Adjective',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the underlined adjective.',
+        types: [
+          {
+            name: 'Demonstrative Adjective',
+            text: `What is the cost of *these* books?
+Give me *that* pen.
+*This* is my last performance on stage.
+*These* shoes are too expensive.`
+          },
+          {
+            name: 'Possessive Adjective',
+            text: `Mihir is driving in *his* new red sports car.
+Samanvi has got a new car. *Her* car is very nice.
+Mahesh, where is *your* mother?
+This is my sister. *Her* name is Tanvi.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'classify-2',
+      label: 'Classify Adjective-2',
+      type: 'classifySentence',
+      data: {
+        title: 'Identify the underlined adjective and state its kind.',
+        types: [
+          {
+            name: 'Adjective of Number',
+            text: `I have *twenty five* students in my class.
+I have learned *six* chapters from Science for the exam.
+Meena has *two* dogs in her house.
+They have *two* carpets at the centre of the hall.`
+          },
+          {
+            name: 'Interrogative adjective',
+            text: `*Whose* bag was that?
+*Which* mobile do you like more?
+*Which* plate is yours?
+*What* is your brother's name?`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Identify the type of Adjective',
+      type: 'mcq',
+      id: 'mcq',
+      data: {
         title:
-          'Identify the adjectives from the group of words given below and put them into the appropriate box.',
-        types: ['Adjectives', 'Non-adjectives']
+          'See the underlined adjective and identify the kind of adjective.',
+        questions: [
+          {
+            qText: `Asha has got *five* pencils.`,
+            options: `adjective of number, adjective of quality, adjective of quantity`
+          },
+          {
+            qText: `Who gave you *that* box?`,
+            options: `demonstrative adjective, possessive adjective, interrogative adjective`
+          },
+          {
+            qText: `A week has *seven* days.`,
+            options: `adjective of number, adjective of quantity, adjective of quality`
+          },
+          {
+            qText: `There are *few* chairs in the hall.`,
+            options: `adjecitve of quantity, adjective of number, adjective of quality`
+          },
+          {
+            qText: `*Which* is your bag?`,
+            options: `interrogative adjective, possessive adjecitve, demonstartive adjective`
+          },
+          {
+            qText: `My dad is an *excellent* cook.`,
+            options: `adjective of quality, adjective of quantity, adjective of number`
+          },
+          {
+            qText: `*Many* students attended the exam.`,
+            options: `adjective of quantity, adjective of quality, demonstrative adjective`
+          },
+          {
+            qText: `Pavithra is a *beautiful* girl.`,
+            options: `adjective of quality, demonstrative adjective, interrogative adjective`
+          }
+        ]
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill in the blanks.',
+      type: 'fillup',
+      commonData: {
+        title: `Click on the blank and select the appropriate adjective.`
       },
       data: [
-        [
-          `strange, little, yellow, round, tall`,
-          `leaf, plant, stem, fruit, soil`
-        ],
-        [
-          `red, seven, wooden, nice, small, soft`,
-          `pancakes, children, dress, knife, chair, mug`
-        ],
-        [
-          `brave, young, strong, intelligent, courageous`,
-          `Mowgli, lion, floor, boxer, player`
-        ],
-        [
-          `slowest, brown, huge, sharp, fast, dangerous`,
-          `crocodile, train, turtle, table, banana`
-        ]
+        `*Those (This)* sheep are running away.
+*This (These)* is the last ticket to the movie.
+*These (That)* dancers are very talented.
+*This (These)* fruit is very sour than lemon.
+*Those (This)* farmers are using biofertilizers for farming.
+*This (Those)* time I won't fail my final examination for sure!
+*These (That)* mangoes are rotting in the box faster than expected.
+*This (Those)* shirt is too small for me.
+*Those (That)* jeans are not very comfortable for mountain hiking.
+*These (That)* puppies are very playful around children.`,
+
+        `What was *that (these)* noise?
+*This (Those)* shirt does not fit me now.
+*Those (That)* children were playing in the park.
+We will clean *this (those)* room.
+Who completed *this (those)* science project?
+Could you please pass me *that (those)* water bottle?
+I want *those (that)* big flower pots for Diwali celebrations.
+*Those (That)* birds are flying South as a part of migration.
+My dad presented *that (those)* book on my birthday.
+*These (That)* clothes are wet due to sudden drizzling in the afternoon.`,
+
+        `Manisha is wearing a *beautiful (tall)* dress.
+She loves to eat *fresh (rotten)* apples.
+Rahul has *curly (deep)* hair.
+A ball is *round (curly)* in shape.
+Birds have *beautiful (high)* feathers.
+The blanket is *soft (round)*.
+There was very *little (huge)* water in the bottle.
+I wore a *red (short)* saree for my friend's wedding.
+Ravi is an *obedient (white)* student.
+My dad is wearing a *black (square)* coat.`,
+
+        `Harish saw a *funny (clumsy)* clown.
+Jasmines have *white (black)* petals.
+The Earth is *round (oval)*.
+Grandma gave me a *sweet (sour)* chocolate.
+The book is very *colorful (round)*.
+Priya loves to eat *sweet (grey)* mangoes.
+A dog is a *domestic (wild)* animal.
+Neeta is a *clever (old)* girl.
+Paddy fields are very *green (blue)*.
+The *black (blue)* soil is rich in nutrients.`,
+
+        `In the morning, the *heavy (plump)* snow was covering the ground.
+Suresh is a *lazy (smart)* boy and always fails in the exam.
+The *rich (poor)* man has got a lot of money.
+The sums are *difficult (easy)* to solve in the given time.
+The ball is *round (rectangle)* in shape.
+These boxes are *heavy (light)* and I cannot lift them myself.
+My mom bought a *pretty (ugly)* dress for my birthday.
+Rabbits are *cute (dangerous)* animals.
+My brother gave money to the *poor (rich)* beggar.
+That *naughty (sincere)* boy broke our balcony window.`,
+
+        `Coffee is hot but ice is *cold ( black)*.
+I like to sleep on a *soft (hard)* bed.
+The Indian team was *happy (sad)* when they won the match.
+I saw some *black (green)* clouds.
+An *angry (black)* tiger jumped out of the cage.
+My mom cooks *tasty (beautiful)* payasam.
+A squirrel is a *small (huge)* animal.
+The earth is *round(square)* in shape.
+My cousin's house is very *big (fat)*.`,
+
+        `My mother packed *healthy (unhealthy)* snacks for the picnic.
+I read an *interesting (rich)* book today in the library.
+I washed my face with *cold (dirty)* water after playing.
+I wore my *warm (hot)* mittens in the snow while skiing.
+My mom helped me make *delicious (raw)* sweets for Diwali.
+My *furry (curly)* cat made me sneeze.
+The *untidy (neat)* man lived on the streets near my area.
+Sangeeta is a *bright (tall)* student who does her work on time.
+Students are *happy (lazy)* when lunchtime begins in school.
+Mumbai has *huge (deep)* skyscrapers when compared to other cities.`
       ]
     },
     {
-      id: '200',
+      id: 'match',
       label: 'Match - Adjectives with nouns',
       type: 'match',
       commonData: {
@@ -73,37 +228,37 @@ For example :
 
       data: [
         `starry, night
-         tall, trees
-         naughty, boys
-         woolen, clothes
-         cold, weather`,
+tall, trees
+naughty, boys
+woolen, clothes
+cold, weather`,
 
         `curly, hair
-         green, grass
-         hot, milk
-         angry, lion
-         sweet, mango`,
+green, grass
+hot, milk
+angry, lion
+sweet, mango`,
 
         `sick, boy
-         sour, grapes
-         slow, tortoise
-         calm, water
-         salted, peanuts`,
+sour, grapes
+slow, tortoise
+calm, water
+salted, peanuts`,
 
         `high, mountain
-         deep, sea
-         sharp, knife
-         old, man
-         round, table`
+deep, sea
+sharp, knife
+old, man
+round, table`
       ]
     },
     {
-      label: 'Pick the adjective',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: '300',
+      id: 'drag-drop',
       commonData: {
         isPractice: false,
-        title: 'Drag and drop the correct adjective to complete the sentence.',
+        title: 'Fill in the blanks by moving the words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -126,13 +281,25 @@ The cheetah is the *fastest* mammal on the land.`,
 My dog has a *fluffy* tail.
 I found a *green* pencil on my teacher's desk.
 This is a *beautiful* house in my colony.
-My puppy is very *playful* around children.`
+My puppy is very *playful* around children.`,
+
+        `My brother spends *most* of his time watching you-tube videos.
+Add *a little* more salt to the curry to make it tastier.
+Are there *any* sweets left in the kitchen?
+I want to drink *some* coffee after I finish my work.
+We had *a lot of* fun during the summer holidays.`,
+
+        `I had *enough* of your advice! Please stop!
+There were *not many* people present for Diwali pooja due to Covid.
+*Many* people lost their lives during Tsunami in 2004.
+These days *most* people sleep with their mobiles beside their pillows.
+The chocolate cake had *a lot of* cream over it.`
       ]
     },
     {
       type: 'selectWord',
       label: 'Find Me',
-      id: '400',
+      id: 'select-word',
       commonData: {
         title: 'Identify the adjective in the sentence.'
       },
@@ -170,306 +337,48 @@ My grandparents live in a *brick* house.`
       ]
     },
     {
-      label: 'Yes or No',
-      id: '500',
-      type: 'classifySentence',
-      commonData: {
-        title:
-          'Identify whether the sentences have correct order of the adjectives or not.',
-        types: ['Yes', 'No']
-      },
-      data: [
-        [
-          `Two tiny, brown squirrels ate all the peanuts.
-Ram and Mahesh went to the market to buy ten large, fresh, red apples.
-Mani left his small, white, striped shirt at home.`,
-
-          `The principal said that we could go on a tropical, long vacation.
-Does the Indian, young actor win a lot of awards?
-The white, comfortable sofa was very expensive.`
-        ],
-        [
-          `That big, black car goes really fast.
-A round, black ball
-Five, little children`,
-
-          `little, five children.
-Full, three boxes.
-two red, sqaure tables`
-        ]
-      ]
-    },
-    {
-      id: '600',
-      label: 'Fill in the adjectives',
-      type: 'fillup',
-      data: {
-        title: 'Fill up the correct order of adjectives in the sentence.',
-        text: `She gave her a *tiny(soft)*, *soft(tiny)* scarf.
-She wore a *silly(pink)*, *pink(silly)* hat.
-I have *five(big)*, *big(five)*, *wooden(big)* pencils.
-The *little (pink)*, *pink(little)* mitten was lost.
-My dad is a *tall (Indian)*, *Indian(tall)* man.`
-      }
-    },
-    {
-      id: '700',
-      label: 'Complete the passage',
+      id: 'fillup-story',
+      label: 'Fill up in Story',
       type: 'fillup',
       commonData: {
-        title: `Drag and drop the adjectives to complete the passage.`
+        title: `Click on the blanks and fill the right option.`
       },
       data: [
         `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
-  One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. 
-  He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare.
+One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. 
+He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare.
 He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
 
         `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
-  One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! 
-  He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
+One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! 
+He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
       ]
     },
     {
-      id: '800',
-      type: 'sequence',
-      label: 'Find the order of adjectives',
-      commonData: {
-        title:
-          'Arrange the adjectives in the correct order to make a meaningful sentence.'
-      },
-      data: [
-        `A big brown bear.
-A beautiful young girl.
-A beautiful blue dress.
-A magnificent new black shoe.
-An amazing large stone statue.`,
-
-        `A handsome young boy.
-Four full boxes of chocolates.
-A talented young singer.
-A cool new black sports bike.
-Delicious Indian food.`,
-
-        `Beautiful blue eyes.
-A small oval table.
-A nice cold coffee.
-A beautiful long blue curtain.
-A poor little kitten.`,
-
-        `A big hungry lion.
-A delicious Indian biryani.
-Two ancient copper statues.
-A small round flower pot.
-A beautiful traditional saree.`
-      ]
-    },
-    {
-      label: 'Identify the adjective',
-      id: '900',
-      type: 'mcq',
-      commonData: {
-        title: 'Fill in the appropriate adjective to complete the sentence.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'The mangoes are _____.',
-              options: 'sweet, tall, square'
-            },
-            {
-              qText: 'The lion has ______ claws.',
-              options: 'sharp, bushy, colorful'
-            },
-            {
-              qText: 'The car is ______.',
-              options: 'fast, tall, fuel'
-            },
-            {
-              qText: 'Can you give me _____ water?',
-              options: 'little, few, no'
-            },
-            {
-              qText: 'The dress is very ________.',
-              options: 'colorful, enough, some'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'The _____ man bought apples.',
-              options: 'tall, round, blue'
-            },
-            {
-              qText: 'When will this _____ exam be over?',
-              options: 'tough, sweet, frizzy'
-            },
-            {
-              qText: 'The _____ ball rolled down.',
-              options: 'round, tall, short'
-            },
-            {
-              qText: 'This is a ____ scissor.',
-              options: 'blunt, colorful, four'
-            },
-            {
-              qText: 'This is a ____ mango.',
-              options: 'sweet, short, old'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      label: 'Identify the order of adjectives',
-      id: '1000',
-      type: 'mcq',
-      commonData: {
-        title: 'Choose the appropriate options to complete the sentence.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'I bought a pair of _____ sandals.',
-              options: 'red leather, leather red'
-            },
-            {
-              qText: 'It was a ____ bike.',
-              options: 'fast blue, blue fast'
-            },
-            {
-              qText: `It's a _______ hut.`,
-              options: 'small round, round small'
-            },
-            {
-              qText: `It's a _____ song.`,
-              options: 'beautiful old, old beautiful'
-            },
-            {
-              qText: `It's a ___ village.`,
-              options: 'lovely green, green lovely'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: `It's a _______ watch.`,
-              options: 'cute Swiss, Swiss cute'
-            },
-            {
-              qText: 'There are two _____ lamps.',
-              options: 'big glass, glass big'
-            },
-            {
-              qText: 'It is a ______ bug.',
-              options: 'tiny black, black tiny'
-            },
-            {
-              qText: 'That is a ____ beach.',
-              options: 'wonderful Goan, Goan wonderful'
-            },
-            {
-              qText: 'This is an _______ job.',
-              options: 'exciting new, new exciting'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'This is a _____ island.',
-              options: 'beautiful small, small beautiful'
-            },
-            {
-              qText: 'I saw a ____ whale in the ocean.',
-              options: 'big black, black big'
-            },
-            {
-              qText: 'I have a ______ shirt.',
-              options: 'pink cotton, cotton pink'
-            },
-            {
-              qText: 'He is a _________ man.',
-              options: 'silly old, old silly'
-            },
-            {
-              qText: 'I ate a ________ pizza today.',
-              options: 'delicious Italian, Italian delicious'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'This is an ________story.',
-              options: 'amazing short, short amazing'
-            },
-            {
-              qText: 'This is a ______ bag.',
-              options: 'cotton sleeping, sleeping cotton'
-            },
-            {
-              qText: 'Lata Mangeshkar is a _____ singer.',
-              options: 'famous Indian, Indian famous'
-            },
-            {
-              qText: 'I have a ______ dress.',
-              options: 'beautiful blue, blue beautiful'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'I bought ______ tomatoes.',
-              options: 'big red, red big'
-            },
-            {
-              qText: 'I have a _____ dog.',
-              options: 'small white, white small'
-            },
-            {
-              qText: 'Those are ________ flowers.',
-              options: 'beautiful yellow, yellow beautiful'
-            },
-            {
-              qText: 'My aunt has a  _______ table.',
-              options: 'round brown, brown round'
-            },
-            {
-              qText: 'He is a ____ man.',
-              options: 'kind old, old kind'
-            }
-          ]
-        }
-      ]
-    },
-    {
+      label: 'Identify the adjectives',
       type: 'selectWord',
-      label: 'Identify adjectives',
-      id: '1100',
+      id: 'multi-select-word',
       commonData: {
-        title: 'Identify the adjectives given in the passage.',
-        multiSelect: true
+        isPractice: false,
+        title: 'Select the adjectives in the passage.',
+        multiSelect: true,
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        }
       },
       data: [
-        `Once upon a time... there lived a women who had no children. 
-She dreamed of having a *little* girl. 
-But time went by and her dream never came true. 
-So, she visited an *ugly* witch who gave her a *magic* grain of barley.
-She planted the grain in a *big* flower pot. 
-The next morning, the *magic* grain turned into a *lovely* tulip.`,
+        `Trees are found everywhere. Some trees are *big* and some are trees *small*. 
+Some trees have *broad* leaves while some have *narrow* leaves. 
+Some trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
 
-        `The women kissed the *soft* petals and the flower opened. 
-Inside the flower sat a *tiny* girl, no bigger than a thumb.
-She was named Thumbelina. She had a walnut shell for bed, *violet* petals for mattress. 
-One night, as Thumbelina  was fast asleep, a *large* frog hopped in through the window.
-She said to herself, how *pretty* Thumbelina is!
-Later, she picked up Thumbelina and hopped back in to the wetlands.`
+        `My cousin, Ram has a *large* farm. In that farm there are many plants and animals. 
+The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
+Ram sells *fresh* fruits and vegetables in the *big* market every Sunday.`,
+
+        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in different boxes. 
+There are *forty* mangoes in *large* box and *fifteen* mangoes in *small* box.
+He sells these fruits in a *big* supermarket.`
       ]
     }
   ]

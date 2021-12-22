@@ -32,7 +32,7 @@ Idli is cooked by the method called Steaming. Idli batter produced from rice and
 1. Easy cooking method.
 2. Steamed food is easily digested.
 3. Steamed food retains Vitamin C and E.
-# pressure cooking 
+# Pressure cooking 
 Cooking food using water in a sealed vessel (cooker) is called pressure cooking. It can cook foods four times faster than ordinary cooking. The advantages of pressure cooking are:
 1. It saves time
 2. It minimizes the usage of fuel and saves energy
@@ -61,8 +61,8 @@ Turmeric is a common anti-infectant and it helps to heal wounds.
 Black Pepper is a great remedy for colds, coughs.
 Cloves helps to relieve toothache.
 # Preparation of coriander tea
-This is made from coriander seed powder. One tablespoon of powder is mixed to two or three cups of water. Jaggery is added and they are boiled for 5 minutes. It improves digestion.`
-      }
+This is made from coriander seed powder. One tablespoon of powder is mixed to two or three cups of water. Jaggery is added and they are boiled for 5 minutes. It improves digestion.`,
+      },
     },
     {
       label: 'Choose the best Answer.',
@@ -74,30 +74,30 @@ This is made from coriander seed powder. One tablespoon of powder is mixed to tw
           {
             qText: ' Which of the following are the benefits of boiling water?',
             options:
-              '*Destroys germs, * Improves digestion, * Prevents us from the infection of waterborne diseases'
+              '*Destroys germs, * Improves digestion, * Prevents us from the infection of waterborne diseases',
           },
           {
             qText: 'Idly is prepared by the process of ______.',
-            options: 'steaming, boiling, pressure cooking'
+            options: 'steaming, boiling, pressure cooking',
           },
           {
             qText: 'Which of the following is not a home appliance?',
-            options: 'Shoes, Fan, Grinder, Stove'
+            options: 'Shoes, Fan, Grinder, Stove',
           },
           {
             qText: 'Which of the following is safe to play with?',
-            options: 'Plate, Match box, Gas stove, Kettle'
+            options: 'Plate, Match box, Gas stove, Kettle',
           },
           {
             qText: 'Medicine for common illness can be found in ______.',
-            options: 'kitchen, dining room, living room, bedroom'
+            options: 'kitchen, dining room, living room, bedroom',
           },
           {
             qText: "______ is called the poor man's antibiotic.",
-            options: 'Garlic , Ginger, Turmeric '
-          }
-        ]
-      }
+            options: 'Garlic , Ginger, Turmeric ',
+          },
+        ],
+      },
     },
     {
       type: 'rightOne',
@@ -111,8 +111,8 @@ This is made from coriander seed powder. One tablespoon of powder is mixed to tw
 Idli, Juice, Tea, Coffee
 Sleep, Cough, Cold, Fever
 Vegetable cutter, Induction Stove, Kettle
-Pan, Fork, Spoon, Ladle`
-      }
+Pan, Fork, Spoon, Ladle`,
+      },
     },
     {
       id: 'match',
@@ -124,8 +124,8 @@ Mixer, Juice
 Kettle, Boil water
 Induction Stove, Electricity
 Fridge, Store Vegetables`,
-        title: 'Match the following'
-      }
+        title: 'Match the following',
+      },
     },
     {
       label: 'True or False',
@@ -138,17 +138,17 @@ Fridge, Store Vegetables`,
             name: 'True',
             text: `Kitchen has medicine to some of the common illness.
 The cold temperature inside the fridge slows down the bacterial growth in food and thus preserves the food for a longer time.
-Cooking involves lot of science.`
+Cooking involves lot of science.`,
           },
           {
             name: 'False',
             text: `Kids can play with match boxes.
 We keep vegetables in fridge to protect from insects like cockroach.
 In modern days, it is possible to live without appliances.
-We can use the induction stove, even without electricity.`
-          }
-        ]
-      }
+We can use the induction stove, even without electricity.`,
+          },
+        ],
+      },
     },
     {
       label: 'Drag and Drop',
@@ -159,13 +159,13 @@ We can use the induction stove, even without electricity.`
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `Science is the study of the *natural* world around us.
 A refrigerator is also known *fridge*. It works on the principle of *cooling*
 Kids should never play with *knives*.
-Heating a liquid unit becomes gas is called *boiling*.`
-      }
+Heating a liquid unit becomes gas is called *boiling*.`,
+      },
     },
     {
       id: 'match-2',
@@ -177,8 +177,8 @@ Garlic, Blood Pressure
 Turmeric, Wounds
 Black Pepper, Cough
 Cloves, toothache`,
-        title: 'Match the following'
-      }
-    }
-  ]
+        title: 'Match the following',
+      },
+    },
+  ],
 };

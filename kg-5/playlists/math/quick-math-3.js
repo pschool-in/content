@@ -117,6 +117,64 @@ export default {
           pattern: 'x + x - x = x + x - x'
         }
       ]
+    },
+    {
+      id: 'addition-2',
+      type: 'quickArithmetic',
+      label: 'Addition',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        isReverse: false,
+        text: '',
+        title: 'Add the Numbers'
+      },
+      data: [
+        {
+          type: 'misc~xx+11'
+        },
+        {
+          type: 'misc~xx+12'
+        },
+        {
+          type: 'misc~xx+20'
+        },
+        {
+          type: 'misc~xx+21'
+        },
+        {
+          type: 'misc~xx+19'
+        }
+      ]
+    },
+    {
+      id: 'subtraction-2',
+      type: 'quickArithmetic',
+      label: 'Subtraction',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        isReverse: false,
+        text: '',
+        title: 'Subtract the Numbers'
+      },
+      data: [
+        {
+          type: 'misc~xx-11'
+        },
+        {
+          type: 'misc~xx-12'
+        },
+        {
+          type: 'misc~xx-20'
+        },
+        {
+          type: 'misc~xx-21'
+        },
+        {
+          type: 'misc~xx-19'
+        }
+      ]
     }
   ]
 };

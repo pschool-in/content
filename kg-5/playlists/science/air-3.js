@@ -1,16 +1,16 @@
 export default {
-  id: 'air-3',
-  label: 'Air',
-  pdf: '',
+  id: "air-3",
+  label: "Air",
+  pdf: "",
   lockAfter: 4,
   list: [
     {
-      id: 'notes',
-      type: 'passage',
-      label: 'Passage',
+      id: "notes",
+      type: "passage",
+      label: "Passage",
       data: {
         editable: true,
-        title: 'Air - Introduction',
+        title: "Air - Introduction",
         text: `Air is a natural resource. We cannot live without it. It is present around us. It has no definite shape and colour. Air has weight and it occupies space. We cannot see air but it can be felt. Air can flow everywhere.
 Push an empty cup upside down into the water. Slowly turn the cup. You can see air bubbles coming out of the cup.
 Tie a balloon to the mouth of a bottle. Keep the bottle in a vessel containing hot water. Observe it for some time. The balloon expands. Why? Due to the heat of the water in the vessel, air inside the bottle becomes hot. Hot air fills the balloon. Therefore the balloon expands.
@@ -37,177 +37,171 @@ A gentle wind is called breeze. Sea breeze and land breeze are the two types of 
  #Storm 
  Strong wind is called storm. Sometimes storm can uproot trees and can destroy the crops.
  # Gale 
- A very strong wind is called gale. Gale is stronger than storm.`
-      }
+ A very strong wind is called gale. Gale is stronger than storm.`,
+      },
     },
     {
-      label: 'Air',
-      id: 'drag-drop',
-      type: 'matchByDragDrop',
+      label: "Air",
+      id: "drag-drop",
+      type: "matchByDragDrop",
       data: {
         isPractice: false,
-        title: 'Drag and drop the words at proper places.',
+        title: "Drag and drop the words at proper places.",
         styles: {
-          fontSize: '1rem',
-          dashWidth: 80
+          fontSize: "1rem",
+          dashWidth: 80,
         },
-        text: `We inhale *oxygen* and exhale *carbon-dioxide*.  This cyclical process of inhalation and exhalation is called *breathing*. 
+        text: `We inhale *oxygen* and exhale *carbon-dioxide*. This cyclical process of inhalation and exhalation is called *breathing*. 
   The air present in Earth, is majorly made up of *nitrogen*. 
- Air has *weight* but it doesn't have *shape*.`
-      }
+ Air has *weight* but it doesn't have *shape*.`,
+      },
     },
     {
-      type: 'rightOne',
-      id: 'odd-one',
-      label: 'Odd One Out',
+      type: "rightOne",
+      id: "odd-one",
+      label: "Odd One Out",
       data: {
-        title: 'Pick the odd one out.',
+        title: "Pick the odd one out.",
         text: `water, wind, storm
 stone, kite, balloon
 cough, inhale, exhale
 cloud, day, night
-heart, nose, lungs`
-      }
+heart, nose, lungs`,
+      },
     },
     {
-      id: 'match',
-      type: 'match',
-      label: 'Match',
+      id: "match",
+      type: "match",
+      label: "Match",
       data: {
-        title: 'Match',
+        title: "Match",
         text: `breathing, lungs
 windmill, electricity
 Gentle wind, Breeze
 Strong wind, Storm
-wind speed, Anemometer`
-      }
+wind speed, Anemometer`,
+      },
     },
     {
-      id: 'true-false',
-      label: 'True or False',
-      type: 'classifySentence',
+      id: "true-false",
+      label: "True or False",
+      type: "classifySentence",
       data: {
-        title: 'True or False',
+        title: "True or False",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Air is colourless.
 Air fills the empty space.
 A very strong wind is called gale.
-Clouds move because of the movement of air.`
+Clouds move because of the movement of air.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Air occupies space but has no weight.
 Air has definite shape.
-We release oxygen during breathing.`
-          }
-        ]
-      }
+We release oxygen during breathing.`,
+          },
+        ],
+      },
     },
     {
-      id: 'mcq',
-      label: 'Choose the correct answer',
-      type: 'mcq',
+      id: "mcq",
+      label: "Choose the correct answer",
+      type: "mcq",
       data: {
         editable: true,
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'Which of the following is required for good health?',
-            options: 'Clean air, Smoke, Dust '
+            qText: "Which of the following is required for good health?",
+            options: "Clean air, Smoke, Dust ",
           },
           {
-            qText: 'Air has ______.',
-            options: 'weight, shape, color'
+            qText: "Air has ______.",
+            options: "weight, shape, color",
           },
           {
-            qText: '______ is used to measure the speed of wind.',
-            options: 'Anemometer, Speedometer, Thermometer'
+            qText: "______ is used to measure the speed of wind.",
+            options: "Anemometer, Speedometer, Thermometer",
           },
           {
-            qText: 'We inhale ______.',
-            options: 'oxygen, carbon dioxide, nitrogen'
+            qText: "We inhale ______.",
+            options: "oxygen, carbon dioxide, nitrogen",
           },
           {
-            qText: 'Very strong wind is called _______.',
-            options: 'gale, storm, breeze'
+            qText: "Very strong wind is called _______.",
+            options: "gale, storm, breeze",
           },
           {
-            qText: 'Clouds move because of movement of _________.',
-            options: 'air, sun, moon'
-          }
-        ]
-      }
+            qText: "Clouds move because of movement of _________.",
+            options: "air, sun, moon",
+          },
+        ],
+      },
     },
     {
-      label: 'Our Need for Air - Reading',
-      type: 'passage',
-      id: 'notes-2',
+      label: "Our Need for Air - Reading",
+      type: "passage",
+      id: "notes-2",
       data: {
-        title: 'Our Need for Air',
+        title: "Our Need for Air",
         text: `Air is all around us, even though we cannot see it. But we are able to feel air. Air does not have colour, smell, or taste.
 We need air to breathe. Inhalation and exhalation are together called breathing. We breathe continuously and this process is called respiration.
-We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to do all our works.`
-      }
+We need air for our body to function properly. It also makes us feel fresh and lively. We require air to produce the energy that we need to do all our works.`,
+      },
     },
     {
-      label: 'Drag and Drop - Air',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-2',
+      label: "Drag and Drop - Air",
+      type: "matchByDragDrop",
+      id: "drag-drop-2",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `As *breathing* goes on continuously, a sleeping man’s chest can be seen going up and down.
           There is *air* all around us.
           Like us, all living things *need* air.
           We can *feel* air although we cannot *see* it.
-          Air does not have *colour*, smell or taste.`
-      }
+          Air does not have *colour*, smell or taste.`,
+      },
     },
     {
-      label: 'True or False',
-      id: 'true-false-2',
-      type: 'classifySentence',
+      label: "True or False",
+      id: "true-false-2",
+      type: "classifySentence",
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: "Classify the below sentences as true and false",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Air is all around us.
               We cannot see air.
               We can feel air.
               Air is colourless.
-              Air does not have smell or taste.`
+              Air does not have smell or taste.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Air makes us feel dull.
-              We do not require air to function properly.`
-          }
-        ]
-      }
+              We do not require air to function properly.`,
+          },
+        ],
+      },
     },
     {
-      label: 'Drag and Drop - Breathing',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-3',
+      label: "Complete Word - Breathing",
+      type: "completeWord",
+      id: "drag-drop-3",
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `We breathe in air through our nose - *inhalation*.
-          We breathe out air through the nose - *exhalation*.
-          Inhalation and exhalation are together called - *breathing*.
-          We breathe continuously - *respiration*.`
-      }
-    }
-  ]
+        text: `The process by which we breathe in air through our nose.| INHALATION| I_H__A_I__
+The process by which we breathe out air through the nose.|EXHALATION| E_H__A_I__
+Inhalation and exhalation are together called _____________.|BREATHING| B___T___G
+The process by which we breathe continuously is caleed ______________.|RESPIRATION|R__P_R___O_`,
+      },
+    },
+  ],
 };

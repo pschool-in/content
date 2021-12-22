@@ -1,50 +1,99 @@
 export default {
   id: 'adjective-2',
-  label: 'Adjective-2',
+  label: 'Adjective',
   pdf: '',
   list: [
     {
-      label: 'Adjective',
+      label: 'Notes',
       type: 'passage',
-      id: 'adjective-2-reading',
+      id: 'notes',
       data: {
         title: 'Adjective',
-        text: `The words which describe a naming word (noun) or a pronoun are called adjectives. Adjectives usually tell us about what kind of, how many or what color etc, any person, a place, thing or animal is. Adjectives usually come before a noun and make them more specific. Adjectives also have their opposites like - "tall-short", "big-small", "black-white".
-For example:
-1. My study table is "small".
-2. Manish is a "smart" boy.
-3. My sister has "long" hair.
-The words "small", "smart", "long" are called adjectives.`
+        text: [
+          `An adjective is a word that gives more meaning to a noun or pronoun.
+Adjectives usually tell us about what kind of, how many, or what color.
+Adjectives usually come before nouns and make them more specific.`,
+          {
+            type: 'html',
+            text: `Eg:<br>
+It is a <b>big</b> tree.<br>
+Manish is a <b>smart</b> boy.<br>
+My sister has <b>long</b> hair.<br><br>
+The words <b>big</b>, <b>smart</b>, <b>long</b> are called adjectives.<br><br>
+Sometimes, the adjective comes after the noun.<br>
+Eg:<br>
+The table is <b>small</b>.<br>
+My friend's house is <b>big</b>.<br>
+The food is <b>tasty</b>.
+`
+          }
+        ]
       }
     },
     {
       type: 'group',
-      label: 'Group the adjectives',
-      id: '100',
+      label: 'Adjective or Not',
+      id: 'group',
       commonData: {
-        title:
-          'Identify the adjectives from the group of words and add them into the appropriate box.',
-        types: ['Adjectives', 'Non-adjectives']
+        title: 'Drag and drop the words in the right boxes.',
+        types: ['Adjective', 'Not an adjective']
       },
       data: [
         [
-          `Blue, Big, Loud, Few, Sweet, Bitter`,
-          `Bag, Flowers, Pens, Chocolate, Apple`
-        ],
-        [`Sixty, Short, Thin, Long, Black`, `Bottles, Boy, Scarf, Sheep, Book`],
-        [
-          `Deep, Heavy, Huge, Juicy, Beautiful`,
-          `Sea, Box, House, Mangoes, Girl`
+          `Beautiful, Tall, Black, Red, Happy, Fat`,
+          `Park, Bread, Pencil, Rose, Board, Peacock`
         ],
         [
-          `Handsome, Brave, Clean, Sharp, Bright`,
-          `Man, Soldier, Plates, Teeth, Sun`
+          `Angry, Bad, Blue, Clean, Dark, Easy`,
+          `Egg, Shirt, Room, Chocolate, Tiger`
         ],
-        [`Cold, Tasty, Fast, Famous, Small`, `Winter, Pizza, Car, Museum, Hut`]
+        [
+          `Hungry, Good, Funny, Gentle, Happy`,
+          `Girl, Cat, Dress, Soap, Forest`
+        ],
+        [
+          `Interesting, Large, Healthy, Tasty, Lazy, Costly`,
+          `Hospital, Book, Food, cookies, Dog, Coat`
+        ],
+        [
+          `Attractive, Brave, Colorful, Fresh, Large`,
+          `Car, Dress, Soldier, Fruits, Building`
+        ]
       ]
     },
     {
-      id: '200',
+      type: 'selectWord',
+      label: 'Select the Adjective',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the adjective in the sentence.'
+      },
+      data: [
+        `The girl was very *smart*.
+This is a *beautiful* garden.
+Siri is a *noisy* girl.
+Rohan lives in a *big* city.
+These are the *fresh* fruits.
+Hyderabad is a *beautiful* city.
+Charminar is an *old* monument located in Hyderabad.
+Reshma has a *pink* dress.
+My mom has a *grey* handbag.
+I saw a *white* pigeon in my balcony.`,
+
+        `Neeta has *long* hair.
+This is a *funny* movie.
+This is a *huge* snake.
+I have a pair of *yellow* shoes.
+We live in a *small* village.
+My father is a *tall* man.
+My village has *narrow* roads.
+These bananas are very *raw*.
+My grandfather sat on a *broken* chair.
+I lost my *gold* bracelet.`
+      ]
+    },
+    {
+      id: 'match',
       label: 'Match - Adjectives and Nouns',
       type: 'match',
       commonData: {
@@ -88,11 +137,11 @@ red, rose`
       ]
     },
     {
-      id: '300',
-      label: 'Match - Adjectives and opposites',
+      id: 'match-opposites',
+      label: 'Match Opposites',
       type: 'match',
       commonData: {
-        title: 'Match the adjectives with their corresponding opposites.'
+        title: 'Match the adjectives with their opposites.'
       },
       data: [
         `old, new
@@ -139,14 +188,14 @@ thick, thin`
       ]
     },
     {
-      id: '400',
-      label: 'Choose the adjective',
+      id: 'fillup',
+      label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks with the appropriate adjective.`
       },
       data: [
-        `The elephant is a *large (small)* animal. 
+        `The elephant is a *large (small)* animal.
 The peacock is a *beautiful (ugly)* bird.
 The rat is a *small (big)* animal.
 He is a *tall (wide)* man.
@@ -161,58 +210,18 @@ The giraffe has a *long (short)* neck.`,
 My mom is making a *tasty (short)* milkshake.
 We visited an *old (short)* palace.
 I have a *black (round)* jacket.
-Meera eats *chocolate (clever)* biscuits.
+Meera eats *chocolate (cold)* biscuits.
 The chocolate cake was *tasty (wide)*.
 My pillow is *soft (tall)*.
 We wear *cotton (warm)* clothes in summer.
 Wolf is a *dangerous (pretty)* animal.
-These bananas are *sweet (sour)*.`,
-
-        `A plane is very *fast (rich)*.
-Suresh is a *lazy (smart)* boy. He always fails in the exam.
-The *rich (poor)* man has got lot of money.
-The sums are *difficult (easy)*. She cannot solve them in the given time.
-The ball is *round (rectangle)* in shape.
-These boxes are *heavy (light)*, I cannot lift them myself.
-My mom bought a *pretty (ugly)* dress for my birthday.
-Rabbits are *cute (dangerous)* animals.
-My brother gave some money to the *poor (rich)* beggar.
-That *naught (sincere)* boy broke our balcony window.`
-      ]
-    },
-    {
-      type: 'selectWord',
-      label: 'Identify the adjectives',
-      id: '500',
-      commonData: {
-        title: 'Spot the adjectives in the following sentences.',
-        multiSelect: true
-      },
-      data: [
-        `One *rainy* day, my *little* cat jumped and sat on the *black* sofa and played with his *new* toy. 
-My *younger* brother was watching it play and he was *happy*. 
-Soon, my *playful* cat yawned. He was *tired*. I picked him up and put him on a *soft* bed and he slept.`,
-
-        `Sita and Meera are twins. Preethi and Swapna live next door. Meera's mom packed some *tasty* snacks and water in a *big* basket. 
-The *four* friends walk to the nearby woods for a picnic. They spot an *old* tree. 
-Sita spreads the *new* mat under the tree and they all have their snacks. 
-Swapna sits on a *small* bench and watches the squirrels running up and down.`,
-
-        `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
-She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt and some oil 
-and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha. 
-She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix 
-and made *round* parathas with lots of butter and served hot.`,
-
-        `This is my grandmother's house. There is a *pretty* garden in front of her house. 
-There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
-Every year we distribute these *tasty* mangoes to all our neighbours.`
+These bananas are *sweet (sour)*.`
       ]
     },
     {
       label: 'Complete the story',
       type: 'matchByDragDrop',
-      id: '600',
+      id: 'fill-up-story',
       data: {
         isPractice: false,
         title:
@@ -224,7 +233,7 @@ Every year we distribute these *tasty* mangoes to all our neighbours.`
         text: `Sita was a *young* girl. She lived in a *small* village in karnataka. 
 One day, on a *cloudy* morning, she went for a walk into the nearby fields.
 She was wearing a *white* frock and a red ribbon. After sometime, she came across a hut. 
-It was a *small* hut but was *warm* inside. Sita was feeling *tired*. 
+It was a small hut but was *warm* inside. Sita was feeling *tired*. 
 So, she went inside the hut and slept on the cot.
 Soon a *loud* bang on the door woke her up!`
       }
@@ -232,7 +241,7 @@ Soon a *loud* bang on the door woke her up!`
     {
       label: 'Adjective - Opposite',
       type: 'matchByDragDrop',
-      id: '700',
+      id: 'fillup-opposites',
       commonData: {
         isPractice: false,
         title:

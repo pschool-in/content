@@ -1,152 +1,154 @@
 export default {
-  label: 'Noun - 2',
-  id: 'noun-2',
-  list: [
-    {
-      id: 'jumble',
-      type: 'sequence',
-      label: 'Connect the Collection',
-      lockAfter: 1,
-      commonData: {
-        title: 'Based on the below clue, connect letters and form the word.',
-        printTitle: 'Form the word using the letters.',
-        type: 'clue'
-      },
-      data: [
-        ` a ______ of sheep | flock
-a ______ of fish | school
-a ______ of dancers | troupe
-a ______ of thieves | gang
-a ______ of singers | choir
-a ______ of sailors | crew
-a ______ of lions | pride
-a ______ of ships | fleet
-a ______ of bananas | bunch
-a ______ of books | library `,
-
-        `a ______ of flowers | bouquet
-a ______ of sticks | bundle
-a ______ of trees | forest
-a ______ of bees | swarm
-an ______ of soldiers | army
-a ______ of grapes | bunch
-a ______ of pupils | class
-a ______ of cards | pack
-a ______ of players | team
-a ______ of keys | bunch`
-      ]
-      //lake - leak, deal - lead, dear-read, inch - chin, from - form, hate - heat, care - race
-    },
-    {
-      type: 'group',
-      label: 'Gender Bender! ',
-      id: 'group',
-      lockAfter: 1,
-      commonData: {
-        title: 'Drag and drop the below words in the respective boxes.',
-        printTitle:
-          'Rewrite the words given at the bottom at approprate boxes.',
-        types: ['Masculine', 'Feminine']
-      },
-      data: [
-        [
-          `ram, gander, boy, bull, prince, waiter`,
-          `czarina, spinster, hen, wife, queen`
-        ],
-        ['son, sir, actor, colt, priest', 'filly, princess, heroine, lady'],
-        ['tiger, duke, man, master, monk', 'niece, aunt, bride, sister']
-      ]
-    },
-    {
-      type: 'match',
-      label: 'Match the Gender Pair',
-      lockAfter: 1,
-      id: 'match',
-      commonData: {
-        title: 'Match'
-      },
-      data: [
-        `stewardess, steward
-stallion, filly
-giant, giantess
-grandson, granddaughter
-Count, Countess`,
-
-        `peacock, peahen
-landlord, landlady
-emperor, empress
-milkman, milkmaid
-tiger, tigress`,
-
-        `host , hostess
-goddess, god
-stepson, stepdaughter
-maidservant, manservant
-ram, ewe`,
-
-        `nun, monk
-stag, hind
-rooster, hen
-washerman, washerwoman
-gentleman, lady`
-      ]
-    },
-    {
-      label: 'Same Basket',
-      type: 'matchByDragDrop',
-      id: 'same-basket',
-      lockAfter: 1,
-      commonData: {
-        title: 'Drag and drop words, so that nouns of same group are together.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
-      },
-      data: [
-        `drumstick, capsicum, *cauliflower*
-chess, snakes and ladder, *scrabble*
-father, brother, *son*
-elephant, boar, *zebra*
-mango, apple, *orange*`,
-
-        `oxygen, hydrogen, *nitrogen*
-rooster, peacock, *falcon*
-mother, sister, *daughter*
-pencil, pen, *eraser*
-snow, rain, *sunshine*`,
-
-        `carrot, cabbage, *beetroot*
-monopoly, checkers,  *carrom*
-uncle, nephew, *grandfather*
-giraffe, chimpanzee, *bison*
-grapes, banana,  *kiwi*`,
-
-        `turkey,  eagle, *vulture*
-aunt, niece, *grandmother*
-sharpener, ruler, *pencil box*
-gale, snow, *storm*
-hen, crow, *duck*`
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'Outsider',
-      id: 'odd-one-out',
-      data: {
-        title: `Find the odd one out. `,
-        text: `friend, mother, father, cousin, niece
-dinner, tea, lemonade, milk, coffee
-office, house, palace, mansion, flat
-table, chair, sofa, stool, seat
-caravan, school, bank, hospital, theatre
-bicycle, bus, train, car, truck
-chicken, calf, puppy, kitten, piglet
-plates, hammers, axes, screwdrivers, pliers  
-ten o’clock, evening, night, afternoon, noon
-salesman, grocer, butcher, florist, stationer`,
-        noCaps: true
-      }
-    }
-  ]
-};
+        label: 'Proper and Common Noun',
+        id: 'noun-2',
+        list: [
+          {
+            type: 'selectWord',
+            label: 'Select Proper Noun',
+            id: 'select-proper',
+            commonData: {
+              title: 'Select the proper noun in the below sentence.',
+              printTitle: 'Underline the proper noun in the below sentences.'
+            },
+            data: [
+              `*Siva* is a farmer.
+      I am living in *Chennai.*
+      *Delhi* is very hot in summer.
+      *Devi* is studying.
+      We order food from *Swiggy.*
+      My mummy is doing online shopping on *Amazon.*
+      I know how to cook *Maggi.*
+      *Newton* was a great scientist.
+      We went to *Ooty* for vacation.
+      *Microsoft* is a famous software company.`,
+      
+              `*Jim* is a doctor.
+      *Mt. Everest* is the tallest peak in the world.
+      *Earth* is a planet.
+      *Google* is a search engine.
+      A boy threw a ball on *Wilson.*
+      Her friend is *Daniel.*
+      I am lucky to have *John* as a friend.
+      *India* is a democratic country.
+      The *Pacific Ocean* is the largest ocean on earth.
+      *Ganga* is a holy river.`,
+      
+              `*Anu* begins to sing.
+      *Ram* is a clever boy.
+      *English* is easy to learn.
+      Do you know what *John's* hobby is?
+      *Lina* has a collection of feathers of different birds.
+      The first month of the year is *January.*
+      *Roopa* is an engineer.
+      Shall we meet *Priya* at her home?
+      I live in *Canada.*
+      *Ramya* is playing with her pet.`,
+      
+              `*Gopal* is my cousin.
+      His uncle lives in *France.*
+      These paintings are done by *Usha.*
+      The carpenter went to *Mark's* house.
+      She got chocolates from the *United States.*
+      My favorite cartoon is *Shin Chan.*
+      I was born in *April.*
+      *Geetha* is happy with her birthday presents. 
+      *John* is a horse rider.
+      *Peter* won the running race.`,
+      
+              `The *Sun* is round in shape. 
+      My mom ordered the laptop from *Amazon.*
+      Cards are shuffled by *Tina.*
+      *Alladin* went into the cave to find the hidden treasure.
+      The guide received me and *Jack* and showed us around the city.
+      Our neighbor's dog was barking all night. But its name is *Peace.*
+      The most famous play writer in the world is *William Shakesphere.*
+      *Mahabharata* is considered the largest epic book. 
+      *Sita* is a great dancer.`
+            ]
+          },
+          {
+            type: 'selectWord',
+            label: 'Select Common Noun',
+            id: 'select-common',
+            lockAfter: 1,
+            commonData: {
+              title: 'Select the common noun in the below sentence.'
+            },
+            data: [
+              `She is watching *TV.*
+      He is my *brother.*
+      His *father* is cooking.
+      They are playing in *garden.*
+      The *car* is moving fast.
+      We saw *birds* flying.
+      He is eating *ice-cream.*
+      I like to play *football.*
+      We have no *homework* today.
+      She goes to *market.*`,
+      
+              `I am working in the *garden*.
+      We must eat plenty of *vegetables*.
+      Akbar told me the entire *story*.
+      I live in a small *town*.
+      Let's go to the *movies*.
+      I will sleep in my *bed*.
+      These *flowers* are beautiful.
+      Which is your *country*?
+      Do you have a *pen?*
+      Joe is her *cousin*.`,
+      
+              `I am a *student.*
+      The *classroom* is noisy.
+      We all are *friends.*
+      It is an empty *room.* 
+      I like to wear purple color *dress.*
+      This *watch* belongs to Tom.
+      *Dogs* like to go for a walk.
+      All the *bananas* are eaten.
+      George is a clever *boy.*
+      They are playing on the *ground.*`,
+      
+              `Our new *neighbors* are very friendly.
+      I like to play *games.*
+      Jina has posted a *letter.*
+      These *pictures* are beautifully drawn.
+      *Birds* are flying so high.
+      My *brother* delivered the best speech.
+      Please come to visit my *home.*
+      Tom is craving *meat.*
+      Peter went to a *store* to buy some things.
+      Please pass me a *book*. I am getting bored.`,
+      
+              `How many *chocolates* did you buy?
+      Jimmy had broken his *leg.*
+      Anu is playing near the *sea.*
+      *Policemen* are working so hard.
+      Drink a lot of *water* during summer.
+      *Playground* was empty during exams.
+      Sometimes this *computer* doesn't work.
+      I like to play with my *friends.*
+      Jacob is taking a *plane* to California.
+      This *street* is well paved for walking.`,
+      
+              `*Judges* should not be biased.
+      *Magicians* could make things disappear.
+      *Planets* are revolving around the Sun.
+      I like to walk along the banks of the *river.*
+      Tom was given the responsibility to welcome the *guests.*
+      Let's go to the *museum* next week.
+      Some *artists* take lots of time to draw.
+      I want to change my *school.*
+      *Doormats* should be washed regularly.
+      Which *country* do you belong to?`,
+      
+              `Putta and Putti are *twins*.
+      Where is your *notebook*, Rameez?
+      The *dam* was built on the banks of the Kaveri.
+      I have named my *cat* Jerry.
+      Both my *parents* were born in March.`
+            ]
+          }
+          // old
+        ]
+      };
+      

@@ -9,18 +9,6 @@ const vocabulary = [
     id: 'rhyming-words',
     grade: 'g2, g3, g4'
   },
-  /*
-  {
-    label: 'Word from Picture',
-    id: 'word-from-picture',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Word from Picture - 2',
-    id: 'word-from-picture-2',
-    grade: 'g3, g4, g5'
-  },
-  */
   {
     label: '3 Letter Words',
     id: 'simple-words',
@@ -144,12 +132,12 @@ const grammar = [
   {
     label: 'Sentence',
     id: 'sentence',
-    grade: 'g2, g3, g4'
+    grade: 'g1, g2, g3, g4'
   },
   {
-    label: 'Sentence-2',
+    label: 'Types of Sentence',
     id: 'sentence-2',
-    grade: 'g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Negative Sentence',
@@ -157,13 +145,18 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Questions',
-    id: 'questions',
-    grade: 'g2, g3'
+    label: 'Subject and Predicate',
+    id: 'sentence-3',
+    grade: 'g3, g4, g5'
   },
   {
-    label: 'Subject and Predicate',
-    id: 'subject-predicate',
+    label: 'Subject Verb Agreement',
+    id: 'sentence-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Questions',
+    id: 'questions',
     grade: 'g2, g3'
   },
   {
@@ -181,19 +174,35 @@ const grammar = [
     id: 'parts-of-speech-2',
     grade: 'g2, g3, g4, g5'
   },
+  /*
   {
     label: 'Parts of Speech 3',
     id: 'parts-of-speech-3',
     grade: 'g2, g3, g4'
+  },*/
+  {
+    label: 'Naming Word',
+    id: 'noun-1',
+    grade: 'g1, g2, g3'
   },
   {
-    label: 'Noun',
-    id: 'noun',
+    label: 'Proper and Common Noun',
+    id: 'noun-2',
+    grade: 'g1, g2, g3, g4'
+  },
+  {
+    label: 'Types of Noun',
+    id: 'noun-3',
     grade: 'g2, g3, g4, g5'
   },
   {
-    label: 'Noun 2',
-    id: 'noun-2',
+    label: 'Abstract and Concrete Noun',
+    id: 'noun-4',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Gender Nouns',
+    id: 'noun-5',
     grade: 'g2, g3, g4, g5'
   },
   {
@@ -222,16 +231,6 @@ const grammar = [
     grade: 'g4, g5'
   },
   {
-    label: 'Adjective',
-    id: 'adjective',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Pronoun',
-    id: 'pronoun',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Preposition',
     id: 'preposition',
     grade: 'g3, g4, g5'
@@ -242,22 +241,17 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction',
-    id: 'conjunction',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Connecting Word',
+    label: 'Joining Word',
     id: 'conjunction-1',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction-Introduction',
+    label: 'Conjunction',
     id: 'conjunction-2',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Conjunction',
+    label: 'Conjunction Pairs',
     id: 'conjunction-4',
     grade: 'g3, g4, g5'
   },
@@ -267,7 +261,7 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Root Word - 5',
+    label: 'Root Word',
     id: 'root-word-5',
     grade: 'g5'
   },
@@ -277,22 +271,17 @@ const grammar = [
     grade: 'g5'
   },
   {
-    label: 'Adverb',
-    id: 'adverb',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Adverb - 3',
+    label: 'Introduction to Adverb',
     id: 'adverb-3',
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Adverb - 4',
+    label: 'Adverb of Place, Time and Manner',
     id: 'adverb-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Adverb - 5',
+    label: 'Adverb of Degree and Frequency',
     id: 'adverb-5',
     grade: 'g4, g5'
   },
@@ -307,11 +296,6 @@ const grammar = [
     grade: 'g4, g5'
   },
   // New Playlists
-  {
-    label: 'Noun - 1',
-    id: 'noun-1',
-    grade: 'g3, g4, g5'
-  },
   {
     label: 'Alliteration',
     id: 'alliteration',
@@ -343,44 +327,39 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Modals',
+    label: 'Modal',
     id: 'modal',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Clauses',
+    label: 'Clause',
     id: 'clause',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Noun 4',
-    id: 'noun-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Describing Words',
     id: 'adjective-1',
-    grade: 'g3, g4, g5'
+    grade: 'g1, g2, g3'
   },
   {
     label: 'Adjective - Introduction',
     id: 'adjective-2',
-    grade: 'g3, g4, g5'
+    grade: 'g1, g2, g3, g4'
   },
   {
-    label: 'Adjective - 3',
+    label: 'Adjective of Quality and Quantity ',
     id: 'adjective-3',
-    grade: 'g3, g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
-    label: 'Adjective - 4',
+    label: 'More on Adjective',
     id: 'adjective-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Adjective - 5',
+    label: 'Order of Adjective',
     id: 'adjective-5',
-    grade: 'g3, g4, g5'
+    grade: 'g4, g5'
   },
   {
     label: 'Simile',
@@ -388,8 +367,8 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Idioms',
-    id: 'idioms',
+    label: 'Idiom',
+    id: 'idiom',
     grade: 'g3, g4, g5'
   },
   {
@@ -402,13 +381,9 @@ const grammar = [
     id: 'verb-1',
     grade: 'g3, g4, g5'
   },
+
   {
-    label: 'Noun - 5',
-    id: 'noun-5',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Pronoun - Introduction',
+    label: 'Introduction to Pronoun',
     id: 'pronoun-1',
     grade: 'g1, g2, g3, g4, g5'
   },
@@ -631,6 +606,21 @@ const math = [
     grade: 'g4, g5'
   },
   {
+    label: 'Math Puzzle - 3',
+    id: 'math-puzzle-3',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Math Puzzle - 4',
+    id: 'math-puzzle-4',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Math Puzzle - 5',
+    id: 'math-puzzle-5',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
     label: 'Word Problems - 1',
     id: 'word-problems-1',
     grade: 'g1, g2'
@@ -729,6 +719,21 @@ const math = [
     label: 'Quick Math - 5',
     id: 'quick-math-5',
     grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Roman Number System',
+    id: 'roman-number',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Decimal Arithmetic',
+    id: 'decimal-arithmetic',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Decimal Arithmetic - 2',
+    id: 'decimal-arithmetic-2',
+    grade: 'g4, g5'
   }
 ];
 
@@ -934,8 +939,7 @@ const science = [
     label: 'Computer System',
     id: 'computer-5',
     grade: 'g3, g4, g5'
-  }
-  /*
+  },
   {
     label: 'Science Misc - 4',
     id: 'science-4',
@@ -945,7 +949,73 @@ const science = [
     label: 'Computers',
     id: 'computer',
     grade: 'g3, g4, g5'
-  }*/
+  },
+  // missing playlist
+  {
+    label: 'Human Body 2',
+    id: 'humanbody-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Living Things',
+    id: 'living-things',
+    grade: 'g1, g2, g3, g4, g5'
+  },
+  {
+    label: 'Light 2',
+    id: 'light-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Materials',
+    id: 'materials-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Rock',
+    id: 'rock-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Light and Sound',
+    id: 'light-sound-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Solar System 2',
+    id: 'solar-system-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Pollution',
+    id: 'pollution-4',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Measuurement',
+    id: 'measurement-4',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Rock 2',
+    id: 'rock-5',
+    grade: 'g5'
+  },
+  {
+    label: 'Diseases',
+    id: 'diseases-5',
+    grade: 'g5'
+  },
+  {
+    label: 'Soil',
+    id: 'soil-5',
+    grade: 'g5'
+  },
+  {
+    label: 'Science Crosswords',
+    id: 'crossword-science',
+    grade: 'g3, g4, g5'
+  }
 ];
 
 const social = [
@@ -1176,18 +1246,18 @@ const social = [
     label: 'Social Living - 3',
     id: 'social-living-5',
     grade: 'g3, g4, g5'
-  }
-  /*
+  },
   {
     label: 'Disaster Management',
     id: 'disaster-management-5',
     grade: 'g3, g4, g5'
   },
+  /*
   {
     label: 'Government',
     id: 'government-5',
     grade: 'g3, g4, g5'
-  },
+  },*/
   {
     label: 'India - 5',
     id: 'india-5',
@@ -1195,9 +1265,30 @@ const social = [
   },
   {
     label: 'First Aid',
-    id: 'first-aid-4',
+    id: 'first-aid-3',
     grade: 'g3, g4, g5'
-  }*/
+  },
+  // missimg playlist
+  {
+    label: 'Safety 2',
+    id: 'safety-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Communication',
+    id: 'communication-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Games',
+    id: 'games-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Social Crosswords',
+    id: 'crossword-social',
+    grade: 'g3, g4, g5'
+  }
 ];
 
 const general = [
@@ -1249,7 +1340,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 4x4',
-    id: 'sudoku-4x4-difficult',
+    id: 'sudoku-4x4-hard',
     grade: 'g3, g4, g5'
   },
   {
@@ -1264,7 +1355,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 6x6',
-    id: 'sudoku-6x6-difficult',
+    id: 'sudoku-6x6-hard',
     grade: 'g3, g4, g5'
   },
   {
@@ -1279,7 +1370,7 @@ const general = [
   },
   {
     label: 'Hard Sudoku 9x9',
-    id: 'sudoku-9x9-difficult',
+    id: 'sudoku-9x9-hard',
     grade: 'g3, g4, g5'
   },
   {
@@ -1524,6 +1615,12 @@ const gk = [
   {
     label: 'World',
     id: 'gk-world',
+    grade: 'g3, g4, g5'
+  },
+  //missing playlist
+  {
+    label: 'General Knowledge Crosswords',
+    id: 'gk-crossword',
     grade: 'g3, g4, g5'
   }
 ];

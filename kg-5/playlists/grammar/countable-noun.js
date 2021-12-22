@@ -11,12 +11,14 @@ export default {
         title: 'Countable vs Uncountable Noun',
         text: [
           `Nouns can be countable or uncountable.`,
-          `Countable nouns are easy to recognize. They are the things we can count. For eg, pencils. We can count pencils. We can have one, two, three or more pencils.`,
+          `Countable nouns are easy to recognize. They are the things we can count. 
+          For eg, pencils. We can count pencils. We can have one, two, three or more pencils.`,
           {
             type: 'hilight',
             text: 'eg: pen, house, dog'
           },
-          `Uncountable nouns are substances, concepts etc. that we cannot divide into separate elements. We cannot 'count' them. For example, we cannot count 'water'. We can count 'bottles of water' or 'litres of water', but we cannot count water itself.`,
+          `Uncountable nouns are substances, concepts, etc. that we cannot divide into separate elements. We cannot 'count' them. 
+          For example, we cannot count 'water'. We can count 'bottles of water' or 'litres of water', but we cannot count water itself.`,
           `Uncountable nouns cannot be counted.`,
           { type: 'hilight', text: 'eg: water, air, sand' },
           `# Plural nouns`,
@@ -28,8 +30,8 @@ export default {
             text: 'buses, glasses, dresses,dishes, branches, taxes',
             width: 100
           },
-          `If the noun ends with ‑f or ‑fe, the f is often changed to ‑ve before adding the -s to form the plural version.`,
-          { type: 'hilight', text: 'eg: wife – wives, wolf – wolves' },
+          `If the noun ends with -f or -fe, the f is often changed to -ve before adding the -s to form the plural version.`,
+          { type: 'hilight', text: 'eg: wife - wives, wolf - wolves' },
           `# Exceptions`,
           { type: 'hilight', text: 'roofs, beliefs, chefs, chiefs' }
         ]
@@ -143,6 +145,33 @@ tooth| teeth| t___h`
       }
     },
     {
+      id: 'classify-sentence',
+      label: 'Identify-2',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Identify whether the underlined nouns are countable or uncountable.',
+        types: [
+          {
+            name: 'Countable',
+            text: `There are a few chinese *restaurants* in the city.
+Priya took many *pictures* on her vacation.
+Many *books* are kept on the table.
+The *beds* we have are very old.
+My *phone* is not working properly.`
+          },
+          {
+            name: 'Uncountable',
+            text: `Do you have a *water* bottle?
+I like *butter* on my bread slice.
+The police needs *information* about the thief.
+Her *intelligence* is undoubtful.
+The *milk* is in the bottle.`
+          }
+        ]
+      }
+    },
+    {
       type: 'completeWord',
       label: 'Complete the plural - 2',
       id: 'complete-4',
@@ -211,8 +240,8 @@ only one seat ; few *seats(seat)*`
           `The women sat on the *bench*
 The books you are looking for are on that *shelf*.
 Which  is the sick *sheep?*
-The *child’s* parents are waiting outside.
-The children’s *bat* was lost.`,
+The *child's* parents are waiting outside.
+The children's *bat* was lost.`,
 
           `There are *mice* in the store room.         
 This is the way *monkeys* jump.
@@ -221,8 +250,8 @@ They are three *sisters* and one brother.
 The *roads* of this city are very busy.`
         ],
         [
-          `The policemen caught the notorious *thief*
-The queen anxiously awaited the *prince’s* return.
+          `The policemen caught the notorious *thief*.
+The queen anxiously awaited the *prince's* return.
 The *buffalo* had a ring in its nose.
 May I have another *ice cream* please?`,
 
@@ -343,7 +372,7 @@ Some nouns use different words as plural. Some examples are:
       id: 'fillup-sp-1',
 
       data: {
-        title: `Tap on each blank and choose the right option.`,
+        title: `Click on each blank and choose the right option.`,
         text: `Do you know that the plural for *fish (fishes)* is *fish (fishes)*. When we talk about a group of *fish (fishes)* in which all *fish (fishes)* are of the same type, we call them *fish (fishes)*. But, if we talk about many *fishes (fish)* of different kind, they're called *fishes (fish)*.`
       }
     },
@@ -353,7 +382,7 @@ Some nouns use different words as plural. Some examples are:
       id: 'fillup-sp-2',
 
       data: {
-        title: `Tap on each blank and choose the right option.`,
+        title: `Click on each blank and choose the right option.`,
         text: `A *cow (cows)* is a very common animal in India. There are more than 300 million *cows (cow)* in India. *Cows (Cow)* give us milk. Baby *cows (cow)* are called calves. We often see *cows (cow)* chewing. A group of *cows (cow)* is called a herd. *Cows (Cow)* are also called cattle.`
       }
     },
@@ -363,7 +392,7 @@ Some nouns use different words as plural. Some examples are:
       id: 'fillup-sp-3',
 
       data: {
-        title: `Tap on each blank and choose the right option.`,
+        title: `Click on each blank and choose the right option.`,
         text: `A *dog (dogs)* is a domestic animal. *Dogs (Dog)* are known as man's best friends. A *dog (dogs)* loves to eat bones and play fetch games. Do you know that *dogs (dog)* are the first animals that humans adopted as pets.`
       }
     },
@@ -373,7 +402,7 @@ Some nouns use different words as plural. Some examples are:
       id: 'fillup-sp-4',
 
       data: {
-        title: `Tap on each blank and choose the right option.`,
+        title: `Click on each blank and choose the right option.`,
         text: `A *spider (spiders)* has 8 legs. *Spiders (Spider)* make webs to trap the insects for food. Female *spiders (spider)* lay eggs. These are very common insects. *Spiders (Spider)* are generally found in the corners of our home.`
       }
     }

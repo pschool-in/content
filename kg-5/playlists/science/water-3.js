@@ -11,53 +11,53 @@ export default {
       data: {
         title: 'Water',
         text: [
-          'Water is one of the most important resources on Earth. All living things like insects, plants and animals need water to survive. People use water for various purposes and rain is one of the main sources.',
-          '# Potable Water',
-          'Drinking water is known as potable water. It is healthy for drinking and cooking.',
-          'Potable Water is:',
-          '1. free from harmful chemicals.',
-          '2. transparent.',
-          '3. odourless and colourless.',
-          '4. free from bacteria which cause diseases.',
-          '# Sources of Drinking Water',
-          'Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.',
-          '# Saving Water',
-          'Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.',
-          'Some ways to prevent wastage of water:',
-          '1. Never let water overflow from buckets.',
-          '2. Wash fruits and vegetables in a bowl and not under running tap.',
-          '3. Always close the taps while brushing your teeth.',
-          '4. Pour left over water in a plant.',
-          '5. Close the tap properly after use.',
-          '6. Use a sprinkler to water the garden.',
-          '# Conservation of Water Bodies',
-          'Raining rises streams and rivers. Some water gets collected in low lying areas like ponds and lakes. The flow of rivers is blocked by building a dam. Some rainwater seeps into the ground as underground water.',
-          '# Lake',
-          'It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.',
-          '# Pond',
-          'A pond is a body of stagnant water, either natural or artificial and is smaller than a lake.',
-          '# Tanks',
-          'A water tank is a container that stores water for our daily use.',
-          '# Methods to Conserve Water Bodies',
-          '1. Deepening of ponds and lakes',
-          '2. Plant trees at the bank of water bodies',
-          '3. Reduce water pollution',
-          '4. Avoid digging too many wells in a region',
-          '# Water borne diseases',
-          'Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue Fever.',
-          'Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.',
-          '# Experiment',
-          'Let us assemble a Simple Pump',
-          { type: 'img', src: 'img/science/waterPumpExperiment.png' },
-          '# Materials needed',
-          'A hollow tube – PVC, metal or even a long papaya stem',
-          '# Procedure',
-          'Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.',
-          '# Do you know?',
-          '1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.',
-          '2. World Water Day is on 22nd March.'
-        ]
-      }
+          `Water is one of the most important resources on Earth. All living things like insects, plants and animals need water to survive. People use water for various purposes and rain is one of the main sources.
+# Potable Water
+Drinking water is known as potable water. It is healthy for drinking and cooking.
+Potable Water is:
+1. free from harmful chemicals.
+2. transparent.
+3. odourless and colourless.
+4. free from bacteria which cause diseases.
+# Sources of Drinking Water
+Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.
+# Saving Water
+Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.
+Some ways to prevent wastage of water:
+1. Never let water overflow from buckets.
+2. Wash fruits and vegetables in a bowl and not under running tap.
+3. Always close the taps while brushing your teeth.
+4. Pour left over water in a plant.
+5. Close the tap properly after use.
+6. Use a sprinkler to water the garden.
+# Conservation of Water Bodies
+Raining rises streams and rivers. Some water gets collected in low lying areas like ponds and lakes. The flow of rivers is blocked by building a dam. Some rainwater seeps into the ground as underground water.
+# Lake
+It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.
+# Pond
+A pond is a body of stagnant water, either natural or artificial and is smaller than a lake.
+# Tanks
+A water tank is a container that stores water for our daily use.
+# Methods to Conserve Water Bodies
+1. Deepening of ponds and lakes
+2. Plant trees at the bank of water bodies
+3. Reduce water pollution
+4. Avoid digging too many wells in a region
+# Water borne diseases
+Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue Fever.
+Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.
+# Experiment
+Let us assemble a Simple Pump`,
+          {type: 'img', src: 'img/science/waterPumpExperiment.png'},
+          `# Materials needed
+A hollow tube - PVC, metal or even a long papaya stem
+# Procedure
+Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.
+# Do you know?
+1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.
+2. World Water Day is on 22nd March.`,
+        ],
+      },
     },
     {
       label: 'Choose the best Answer - Water',
@@ -68,51 +68,51 @@ export default {
         questions: [
           {
             qText: ' Which is the main source of water?',
-            options: 'Rain,Lake,Sea'
+            options: 'Rain,Lake,Sea',
           },
           {
             qText:
               ' Only _____ of the water in the entire Earth is freshwater.',
-            options: '3%,0.3%,30%'
+            options: '3%,0.3%,30%',
           },
           {
             qText: 'By __________ water, we can kill its germs.',
-            options: 'boiling,cooling,filtering'
+            options: 'boiling,cooling,filtering',
           },
           {
             qText: 'Which of these is not true?',
             options:
-              'We should always waste water, Plants and animals need water,  We should use water carefully,  Water is precious'
+              'We should always waste water, Plants and animals need water,  We should use water carefully,  Water is precious',
           },
           {
             qText: 'Where does the rain water go?',
             options:
-              '* Seeps into the ground, * Plants absorb the water, * Mingles with sea and ocean, * Mixes with lake and pond'
+              '* Seeps into the ground, * Plants absorb the water, * Mingles with sea and ocean, * Mixes with lake and pond',
           },
           {
             qText: 'Which animal can live without water for several days?',
-            options: 'camel, elephant, lion, tiger'
+            options: 'camel, elephant, lion, tiger',
           },
           {
             qText: 'World water day is observed on _________.',
-            options: 'March 22, March 2, May 2, May 22'
+            options: 'March 22, March 2, May 2, May 22',
           },
           {
             qText: 'Which of the following can be man-made?',
-            options: 'pond, sea, river, ocean'
+            options: 'pond, sea, river, ocean',
           },
           {
             qText: 'Which of the following is responsible for water in a well?',
-            options: 'ground water, river, water tank, stream'
+            options: 'ground water, river, water tank, stream',
           },
           {
             qText:
               'Which of the following does not relate to preserving water?',
             options:
-              'taking umbrella while going out in rain,avoiding water pollution,planting more trees,saving rain water'
-          }
-        ]
-      }
+              'taking umbrella while going out in rain,avoiding water pollution,planting more trees,saving rain water',
+          },
+        ],
+      },
     },
     {
       type: 'rightOne',
@@ -127,8 +127,8 @@ Rose, Lily, Lotus,Water Hyacinth
 Fish,Horse, Tiger, Cow
 Combing, Swimming, Washing,Bathing
 Water Tank, Sea, Ocean, Lake
-Ice Cream, Water, Ice, Vapour`
-      }
+Ice Cream, Water, Ice, Vapour`,
+      },
     },
     {
       label: 'True or False',
@@ -142,17 +142,17 @@ Ice Cream, Water, Ice, Vapour`
             text: `Saving water is our duty.
 Always close the tap while brushing.
 Planting more trees lead to rainfall.
-It is necessary to collect rain water.`
+It is necessary to collect rain water.`,
           },
           {
             name: 'False',
             text: `Living things do not need water.
 A tank is a larger than a reservoir.
 We should wash our vehicles everyday.
-We should bathe in shower to save water.`
-          }
-        ]
-      }
+We should bathe in shower to save water.`,
+          },
+        ],
+      },
     },
     {
       id: 'fillup',
@@ -165,8 +165,8 @@ Water that collects in the low lying areas is called *lake (sea)*.
 It is our *responsibility (work)* to keep the public water resources clean.
 The largest source of water on the earth is *ocean (sea)*.
 *All (Few)* living things need water.
-*Malaria (Cholera)* is caused by mosquitoes.`
-      }
+*Malaria (Cholera)* is caused by mosquitoes.`,
+      },
     },
     {
       label: 'Choose the correct option',
@@ -177,30 +177,30 @@ The largest source of water on the earth is *ocean (sea)*.
         questions: [
           {
             qText: ' We need water to _____ our face.',
-            options: 'wash, dry, paint'
+            options: 'wash, dry, paint',
           },
           {
             qText: ' We need water to _____ our teeth.',
-            options: 'brush, rinse, colour'
+            options: 'brush, rinse, colour',
           },
           {
             qText: ' We need water to _____ our food.',
-            options: 'cook, water, waste'
+            options: 'cook, water, waste',
           },
           {
             qText: 'We need water to _____ our vessels.',
-            options: 'clean, paint, colour'
+            options: 'clean, paint, colour',
           },
           {
             qText: 'Plants need water to ______.',
-            options: 'grow, flow, dry'
+            options: 'grow, flow, dry',
           },
           {
             qText: 'We need water to ______ a boat.',
-            options: 'row, sow, tow'
-          }
-        ]
-      }
+            options: 'row, sow, tow',
+          },
+        ],
+      },
     },
     {
       label: 'Activities needing water',
@@ -211,14 +211,14 @@ The largest source of water on the earth is *ocean (sea)*.
         types: [
           {
             name: 'Needs water',
-            text: 'Plant, Water coloring, Boating, Dough, Washing'
+            text: 'Plant, Water coloring, Boating, Dough, Washing',
           },
           {
             name: "Doesn't need water",
-            text: 'Playing, Singing, Running, Writing'
-          }
-        ]
-      }
+            text: 'Playing, Singing, Running, Writing',
+          },
+        ],
+      },
     },
     {
       type: 'sequence',
@@ -226,8 +226,8 @@ The largest source of water on the earth is *ocean (sea)*.
       id: 'jumbled-words',
       data: {
         title: 'Find out the different sources of water.',
-        text: 'rain, lake, pond, stream, well, sea, ocean'
-      }
+        text: 'rain, lake, pond, stream, well, sea, ocean',
+      },
     },
     {
       label: 'Size of water bodies',
@@ -236,8 +236,8 @@ The largest source of water on the earth is *ocean (sea)*.
       data: {
         title:
           'Sort the water bodies based on their size. (Largest should come at the top)',
-        text: 'ocean, sea, river, lake, pond, water tank'
-      }
+        text: 'ocean, sea, river, lake, pond, water tank',
+      },
     },
     {
       id: 'match-2',
@@ -249,8 +249,8 @@ River, Fresh Water
 Dengue, Mosquito
 Typhoid, Unclean water
 Well, Ground water`,
-        title: 'Match the following'
-      }
+        title: 'Match the following',
+      },
     },
     {
       id: 'notes-2',
@@ -271,8 +271,8 @@ There are some plants like Bulrushes, Lotus, Water chestnut, Hyacinth and Spider
 # Importance of water
 Water is important, not just for us, but also for the animals, plants and all other living beings. We need it for drinking, cleaning, bathing, cooking, agriculture, industries etc.
 Water is very important in our lives!
-`
-      }
+`,
+      },
     },
     {
       id: 'fillup-2',
@@ -285,8 +285,8 @@ Water is  * very (less )* important in the lives of people.
 Roots of the plant absorb rainwater that has *seeped (sowed)* into the soil.
 People take care to provide drinking water for the animals they *keep (don't keep)*.
 We go near a waterhole in a forest to see *wild (domestic)* animals.`,
-        title: 'Fill in the blanks.'
-      }
+        title: 'Fill in the blanks.',
+      },
     },
     {
       label: 'Drag and Drop',
@@ -297,15 +297,15 @@ We go near a waterhole in a forest to see *wild (domestic)* animals.`,
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `Plants that grow in water are called *aquatic*.
 Only *3%* of the earth's water is fresh.
 Only *0.5%* of the fresh water is available to us.
 Our body has *70%* of water in it.
 We should drink *12* glasses of water everyday.
-*Whale* is the largest animal.`
-      }
+*Whale* is the largest animal.`,
+      },
     },
     {
       id: 'notes-3',
@@ -321,8 +321,8 @@ Some water gets deposited under the ground and we usually extract it through wel
 Dams are built to slower the flow of water, to save it and to generate energy.
 Rainwater harvesting is another good technique for conserving water in which the rainwater is collected from the roofs of the house and gets deposited in the tank.
 # How rivers are formed?
-When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.`
-      }
+When rain falls on the mountains, water flows down. Further, many rivulets combine to form a river.`,
+      },
     },
     {
       id: 'classify-2',
@@ -333,15 +333,14 @@ When rain falls on the mountains, water flows down. Further, many rivulets combi
         types: [
           {
             name: 'Natural',
-            text: 'Springs, Streams, Rivers, Lakes, Creeks, Seas, Oceans, Ponds'
+            text: 'Springs, Streams, Rivers, Lakes, Creeks, Seas, Oceans, Ponds',
           },
           {
             name: 'Man-made',
-            text:
-              'Wells, Dams, Bore-wells, Hand-pumps, Canals, Taps, Reservoirs'
-          }
-        ]
-      }
+            text: 'Wells, Dams, Bore-wells, Hand-pumps, Canals, Taps, Reservoirs',
+          },
+        ],
+      },
     },
     {
       id: 'notes-4',
@@ -359,8 +358,8 @@ Gas/ Vapour: Formed at high temperatures.
 # New words!
 1. Transparent: Something that you can see through.
 2. Transluscent: Something you can partially see through.
-3. Opaque: Something you cannot see through.`
-      }
+3. Opaque: Something you cannot see through.`,
+      },
     },
     {
       id: 'true-false-3',
@@ -373,16 +372,16 @@ Gas/ Vapour: Formed at high temperatures.
             name: 'True',
             text: `Water is transparent.
 Natural water bodies consist of living organisms.
-Starfish and Seahorse are aquatic animals.`
+Starfish and Seahorse are aquatic animals.`,
           },
           {
             name: 'False',
             text: `Pure water looks bluish in colour.
 When water is heated a lot, it turns into ice.
-Sugar does not dissolve in water.`
-          }
-        ]
-      }
+Sugar does not dissolve in water.`,
+          },
+        ],
+      },
     },
     {
       label: 'Drag and Drop',
@@ -393,13 +392,13 @@ Sugar does not dissolve in water.`
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80
+          dashWidth: 80,
         },
         text: `*Pure* water has no colour, smell or taste.
 Water is *transparent*.
 Water does not have a *shape* of its own.
-Ice is the *solid* state of water.`
-      }
+Ice is the *solid* state of water.`,
+      },
     },
     {
       id: 'fillup-3',
@@ -412,8 +411,8 @@ Ice is formed at *cold (hot, room)* temperature.
 The process of evaporation talks about water turning into its *vapour (solid, liquid)* state.   
 Humidity is caused due to the presence of *water (ice, blood)* in the air.     
 Water takes the *shape (size, taste)* of the container it is kept in.`,
-        title: 'Fill in the blanks.'
-      }
+        title: 'Fill in the blanks.',
+      },
     },
     {
       id: 'wordsearch',
@@ -423,48 +422,48 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
         words: [
           {
             word: ['R', 'A', 'I', 'N', 'W', 'A', 'T', 'E', 'R'],
-            marker: [0, 0, 8, 8]
+            marker: [0, 0, 8, 8],
           },
           {
             word: ['R', 'I', 'V', 'E', 'R'],
-            marker: [1, 2, 5, 2]
+            marker: [1, 2, 5, 2],
           },
           {
             word: ['L', 'A', 'K', 'E'],
-            marker: [0, 5, 0, 8]
+            marker: [0, 5, 0, 8],
           },
           {
             word: ['P', 'O', 'N', 'D'],
-            marker: [8, 0, 8, 3]
+            marker: [8, 0, 8, 3],
           },
           {
             word: ['S', 'E', 'A'],
-            marker: [6, 7, 8, 7]
+            marker: [6, 7, 8, 7],
           },
           {
             word: ['W', 'E', 'L', 'L'],
-            marker: [4, 4, 1, 4]
+            marker: [4, 4, 1, 4],
           },
           {
             word: ['O', 'C', 'E', 'A', 'N'],
-            marker: [8, 1, 4, 1]
+            marker: [8, 1, 4, 1],
           },
           {
             word: ['C', 'A', 'N', 'A', 'L'],
-            marker: [7, 1, 7, 5]
+            marker: [7, 1, 7, 5],
           },
           {
             word: ['B', 'A', 'Y'],
-            marker: [2, 0, 0, 2]
+            marker: [2, 0, 0, 2],
           },
           {
             word: ['D', 'E', 'L', 'T', 'A'],
-            marker: [8, 3, 8, 7]
+            marker: [8, 3, 8, 7],
           },
           {
             word: ['W', 'A', 'T', 'E', 'R'],
-            marker: [1, 7, 5, 7]
-          }
+            marker: [1, 7, 5, 7],
+          },
         ],
         title: 'Find the given words from the table.',
         lang: 'en',
@@ -477,10 +476,10 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
           ['L', 'H', 'S', 'F', 'S', 'A', 'P', 'L', 'L'],
           ['A', 'C', 'O', 'L', 'S', 'Y', 'T', 'H', 'T'],
           ['K', 'W', 'A', 'T', 'E', 'R', 'S', 'E', 'A'],
-          ['E', 'O', 'H', 'X', 'M', 'J', 'R', 'L', 'R']
+          ['E', 'O', 'H', 'X', 'M', 'J', 'R', 'L', 'R'],
         ],
-        showWords: true
-      }
+        showWords: true,
+      },
     },
     {
       id: 'crossword',
@@ -492,47 +491,47 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
             word: 'atlantic',
             marker: {
               x: 0,
-              y: 3
+              y: 3,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is the second largest ocean in the world. It separates Europe and Africa from South America',
+            direction: 'across',
           },
           {
             word: 'pacific',
             marker: {
               x: 7,
-              y: 1
+              y: 1,
             },
-            hint: '',
-            direction: 'down'
+            hint: 'It is the largest and the most deepest ocean on the surface of Earth',
+            direction: 'down',
           },
           {
             word: 'southern',
             marker: {
               x: 0,
-              y: 0
+              y: 0,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is also known as the Antarctic Ocean, comprises the southernmost waters of the World Ocean and it encircles Antarctica.',
+            direction: 'across',
           },
           {
             word: 'arctic',
             marker: {
               x: 2,
-              y: 7
+              y: 7,
             },
-            hint: '',
-            direction: 'across'
+            hint: 'It is the smallest and shallowest ocean',
+            direction: 'across',
           },
           {
             word: 'indian',
             marker: {
               x: 7,
-              y: 4
+              y: 4,
             },
-            hint: '',
-            direction: 'across2'
-          }
+            hint: 'It is the third largest ocean in the world. It is bounded by Asia to the north, Africa to the west and Australia to the east.',
+            direction: 'across2',
+          },
         ],
         title: 'Major oceans of the earth.',
         lang: 'en',
@@ -544,9 +543,9 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
           ['', '', 'N', 'A', 'I', 'D', 'N', 'I'],
           ['', '', '', '', '', '', '', 'F'],
           ['', '', '', '', '', '', '', 'I'],
-          ['', '', 'A', 'R', 'C', 'T', 'I', 'C']
-        ]
-      }
-    }
-  ]
+          ['', '', 'A', 'R', 'C', 'T', 'I', 'C'],
+        ],
+      },
+    },
+  ],
 };

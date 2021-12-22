@@ -211,7 +211,7 @@ The doctor puts her fingers on our *wrist* to feel your *pulse*.`
     {
       label: 'Human Body - Reading',
       type: 'passage',
-      id: 'passage-5',
+      id: 'passage-6',
       data: {
         title: 'Our Body',
         text: `# Parts of our Body
@@ -319,6 +319,8 @@ Ankle is a part of our hand.`
         ]
       }
     },
+    // Repeated twice in the same playlist
+    /*
     {
       label: 'Internal Vs External',
       id: 'group',
@@ -337,6 +339,7 @@ Ankle is a part of our hand.`
         ]
       }
     },
+    */
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',
@@ -344,7 +347,7 @@ Ankle is a part of our hand.`
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A part of the body that is used for a particular purpose is called *organ (body part)*. 
-The neck bends forward as well as *backward (sidewards)*. 
+The neck bends forward as well as *backward (rightside)*. 
 We can bend our arm at the shoulder, *elbow (knee)* and wrist.
 The *fingers (toes)* of our hands can bend.
 We can bend our torso only at the *waist (hips)*. 
@@ -382,11 +385,11 @@ Our toes *can (cannot)* bend, but not as much as our fingers.`
       }
     },
     {
-      label: 'Sensory Organs - Reading',
+      label: 'Disabilities - Reading',
       type: 'passage',
       id: 'reading-5',
       data: {
-        title: 'Sense Organs',
+        title: 'Sense organs and disability',
         text: `# Sensory Organs
 Our sensory organs tell us about the situation all around us. The eyes, ears, nose, tongue and skin are our five sensory organs.
 1. We can see with our eyes.
@@ -508,7 +511,7 @@ We feel things with our *skin*.`
     },
     {
       label: 'Choose the best Answer ',
-      id: 'mcq-9',
+      id: 'mcq-4',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
@@ -626,7 +629,7 @@ Infected cut or wound may start oozing *pus (blood)*.`
     },
     {
       label: 'Choose the best Answer',
-      id: 'mcq-9',
+      id: 'mcq-5',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
