@@ -376,22 +376,22 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
 `சி, leopard
 கீ, mongoose
 ஓ, wolf
-ஓ, garden-lizard
+க, hyena
 கா, boar`,
 
-`க, hyena
+`ஓ, garden-lizard
 ப, polarbear
 வ, bug
 ந, jackal
 இ, prawn`,
 
-`மு, porcupinel
+`மு, porcupine
 ம, python
 வெ, hamster
 கா, bison
 ப, chameleon`,
 
-`கா, bul
+`கா, bull
 தே, bee
 த, goldfish
 க, seahorse`,
@@ -420,10 +420,9 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
 
 `ம, woodpecker
 அ, swan
-ம, spotted-dove`,
-
-        `வா, turkey
-  ப, macow`
+ம, spotted-dove
+வா, turkey
+ப, macow`
       ]
     },
     {
