@@ -217,7 +217,7 @@ Five, little children`,
 
           `little, five children.
 Full, three boxes.
-two red, sqaure tables`
+two red, square tables`
         ]
       ]
     },
@@ -231,7 +231,7 @@ two red, sqaure tables`
         multiSelect: true
       },
       data: [
-        `Once upon a time... there lived a women who had no children. 
+        `Once upon a time... there lived a woman who had no children. 
 She dreamed of having a *little* girl. 
 But time went by and her dream never came true. 
 So, she visited an *ugly* witch who gave her a *magic* grain of barley.
@@ -240,10 +240,10 @@ The next morning, the *magic* grain turned into a *lovely* tulip.`,
 
         `The women kissed the *soft* petals and the flower opened. 
 Inside the flower sat a *tiny* girl, no bigger than a thumb.
-She was named Thumbelina. She had a walnut shell for bed, *violet* petals for mattress. 
-One night, as Thumbelina  was fast asleep, a *large* frog hopped in through the window.
+She was named Thumbelina. She had a walnut shell for the bed, *violet* petals for the mattress. 
+One night, as Thumbelina was fast asleep, a *large* frog hopped in through the window.
 She said to herself, how *pretty* Thumbelina is!
-Later, she picked up Thumbelina and hopped back in to the wetlands.`
+Later, she picked up Thumbelina and hopped back into the wetlands.`
       ]
     },
     {
@@ -259,14 +259,14 @@ Later, she picked up Thumbelina and hopped back in to the wetlands.`
       },
       data: [
         `An ostrich lays the *biggest* eggs!
-The clown in the circus wore *colourful* clothes.
-I have an *orange* persian cat.
-Our neighbours have a *beautiful* garden.
+The clown in the circus wore *colorful* clothes.
+I have an *orange* Persian cat.
+Our neighbors have a *beautiful* garden.
 Puja's school is on a *wide* road.`,
 
         `Did you know that giraffes have *blue* tongues?
 The boy was wearing a sweater of *soft* wool.
-My mother's *favourite* ice cream is vanilla.
+My mother's *favorite* ice cream is vanilla.
 The blue whale is the *largest* mammal.
 The lime juice is very *sour*.`,
 

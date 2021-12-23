@@ -69,14 +69,14 @@ export default {
   This is the tallest building in the city.
   Earth has only one moon.`,
           `England will win the next world cup.
-  Our head master is the most intelligent man in our school.
+  Our headmaster is the most intelligent man in our school.
   I didn't like the food you bought.
-  The movie I saw yesterday was the most boring movie.
+  The movie I saw yesterday was the most boring one.
   Sometimes he behaves like a fool.`
         ],
         [
           `The national currency of India is Rupee.
-The Sun sets in the west.
+Sun sets in the west.
 Tomatoes are fruits.
 Water covers 70% of our Earth.
 Kangaroos can't walk backwards.`,
@@ -88,34 +88,34 @@ Priya is the happiest girl in the world.
 It’s better to buy a pencil than a pen.`
         ],
         [
-          `A group of sheep is called herd.
+          `A group of sheep is called a herd.
 Octopus has blue blood.
 Peanuts are grown in the roots.
 The moon rotates around the Earth.
-Finger nails grow faster than the toenails.`,
+Fingernails grow faster than the toenails.`,
 
           `Maths is an easy subject.
 Winter is the most beautiful season.
 Turtles are the cutest aquatic animals.
 The story was interesting at the beginning.
-Rainbow is more beautiful than the sun set.`
+Rainbow is more beautiful than the sunset.`
         ],
         [
           `Penguins can't fly.
 Spider has eight legs.
-Owls cant move their eyeballs.
+Owls can't move their eyeballs.
 Virat Kohli is a cricketer.
 Taj Mahal is located in Agra.`,
           `Pizza is delicious in that shop.
 The uniform of that school is not good. 
 I think Geetha was not happy with her birthday gift.
-Purple is the best colour.
-Kids like to read story books.`
+Purple is the best color.
+Kids like to read storybooks.`
         ],
         [
           `Kangaroo is the national animal of Australia.
 Diwali is called the Festival of Lights.
-The young one of a deer is called fawn.
+The young one of a deer is called a fawn.
 Ganga is the largest river in India.
 Telephone was invented by Alexander Graham bell.`,
 
@@ -123,7 +123,7 @@ Telephone was invented by Alexander Graham bell.`,
 I think Sheep are not smart animals.
 Math is an easier subject than English.
 Animals should not be kept in a zoo.
-I think your hand writing is not legible.`
+I think your handwriting is not legible.`
         ]
       ]
     }
