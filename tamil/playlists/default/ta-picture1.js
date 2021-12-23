@@ -1,7 +1,7 @@
 export default {
   label: 'படம்',
-  id: 'ta-picture_2',
-  img: 'image2',
+  id: 'ta-picture2',
+  img: 'image',
   list: [
     {
       type: 'completeWord',
@@ -10,7 +10,7 @@ export default {
       commonData: {
         images: 'custom',
         lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க '
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
       },
       data: [
        `sheep| செம்மறி ஆடு | _ம்மறி ஆடு| செ, சை, ச , சே
@@ -54,13 +54,12 @@ stingray| திருக்கை மீன்| _ருக்கை மீன�
     {
       type: 'completeWord',
       label: 'பறவைகள்',
-      id: 'birds',
-      commonData: {
+      id: 'birds2',
+      data: {
         images: 'custom',
         lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க '
-      },
-      data: [
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க',
+      text: 
          `kingfisher| மீன் கொத்தி| _ன் கொத்தி| மீ, ஐ, மு, ஓ
 chick| கோழிக்குஞ்சு| _ழிக்குஞ்சு| கோ, ஐ, மு, ஓ
 ostrich| நெருப்புக்கோழி | _ருப்புக்கோழி | நெ, தீ, மு, ஓ
@@ -71,7 +70,7 @@ swan| அன்னப்பறவை| _ன்னப்பறவை|அ, ஆ, க
 spotted-dove| மணிப்புறா|_ணிப்புறா| ம, பை, மா, மி
 turkey| வான்கோழி| _ன்கோழி| வா,வீ, வு, வூ
 macow| பஞ்சவர்ணக்கிளி| _ஞ்சவர்ணக்கிளி| ப, பீ, பே, பை`
-      ]
+      }
     },
     {
       type: 'completeWord',
@@ -106,7 +105,7 @@ muskmelon| முலாம்பழம்|  _லாம்பழம்| மு, �
       commonData: {
         images: 'custom',
         lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க '
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
       },
       data: [
           `chickpea| கொண்டைக்கடலை| _ண்டைக்கடலை| கொ, க, கு, கி
@@ -291,7 +290,7 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
   telescope| தொலைநோக்கி| _லைநோக்கி| தொ, மே, வீ, கை
   test-tube| சோதனை குழாய்| _தனை குழாய்| சோ, தொ, க, மூ`,
 
-        ` thermometer| வெப்பமானி| _ப்பமானி| வெ, இ, சி, வா
+        `thermometer| வெப்பமானி| _ப்பமானி| வெ, இ, சி, வா
   trowel| கரணை| _ரணை| க, சி, வா, கை
   compass| திசைகாட்டி| _சைகாட்டி| தி, சி, வா, கை
   awl| குத்தூசி| _த்தூசி| கு, கை, க, சி
@@ -362,84 +361,45 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `பூ, cat 
-        நா, dog
-        ஆ, goat
-        செ, sheep 
-        கு, horse`,
+`செ, sheep
+நீ, hippo
+கா, rhino
+மு, crocodile 
+சு, shark`,
 
-        `ப, pig
-        யா, elephant 
-        சி, lion
-        கு, monkey
-        பு, tiger`,
+`தி, whale
+ந, crab
+ஈ, winged-termites    
+வௌ ,bat
+க, kangaroo`,
 
-        `நீ, hippo
-        கா, rhino
-        ந, fox
-        மு, crocodile 
-        வ, zebra`,
+`சி, leopard
+கீ, mongoose
+ஓ, wolf
+ஓ, garden-lizard
+கா, boar`,
 
-        `க, bear
-        ஒ, camel
-        சு, shark
-        தி, whale
-        த, frog`,
+`க, hyena
+ப, polarbear
+வ, bug
+ந, jackal
+இ, prawn`,
 
-        `ந, crab
-        பா, snake
-        அ, squirrel
-        ஆ, tortoise
-        எ, rat`,
+`மு, porcupinel
+ம, python
+வெ, hamster
+கா, bison
+ப, chameleon`,
 
-        `ஈ, winged-termites 
-        எ, ant
-        ப, cow 
-        வௌ ,bat
-        க, kangaroo`,
+`கா, bul
+தே, bee
+த, goldfish
+க, seahorse`,
 
-        `வ, butterfly
-        ஈ, fly
-        க, donkey
-        ஒ, giraffe
-        எ, buffalo`,
-
-        `சி, leopard
-        கீ, mongoose
-        கொ, mosquito
-        ஓ, wolf
-        க, cockroach`,
-
-        `ஓ, garden-lizard
-        ப, lizard
-        மு, rabbit
-        கா, boar
-        க, hyena`,
-
-        `ப, polarbear
-        மா, antelope
-        வ, bug
-        ந, jackal
-        இ, prawn`,
-
-        `மு, porcupinel
-        ம, python
-        வெ, hamster
-        சி, spider
-        கா, bison`,
-
-        `ப, chameleon
-        கா, bul
-        தே, bee
-        த, goldfish
-        க, seahorse`,
-
-        `க, caterpillar
-      த, dragonfly
-      மீ, fish 
-      ம, earthworm
-      மு, hedgehog
-      தி, stingray`
+`க, caterpillar
+த, dragonfly
+மு, hedgehog
+தி, stingray`
       ]
     },
     {
@@ -452,34 +412,18 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `கா, crow
-பு, dove
-வா, duck
-கோ, hen
-கி, parrot`,
-
         `சி, sparrow
 கோ, chick
-கொ, crane
-க, eagle
-மீ, kingfisher`,
-
-        `நெ, ostrich
-ஆ, owl
-சே, rooster
-ம, woodpecker
-கு, koel`,
-
-        `அ, swan
-ம, spotted-dove
-க, robin
+மீ, kingfisher
+நெ, ostrich
 ப, falcon`,
 
-        `மை, myna
-  வா, turkey
-  ப, macow
-ம, peacock
-க, seagull`
+`ம, woodpecker
+அ, swan
+ம, spotted-dove`,
+
+        `வா, turkey
+  ப, macow`
       ]
     },
     {
@@ -492,30 +436,16 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `ஆ, apple
-        தி, grapes
-வா, banana
-கொ, guava
-பே, dates`,
-
-        `ப, jackfruit
-மா, mango
-ஆ, orange
-அ, pineapple
-த, watermelon`,
-
-        `மா, pomegranate
-ப, papaya
+`பே, dates
 அ, fig
 சீ, custard-apple
 நா, jamun`,
 
-        `பே, pear
+`பே, pear
 இ, jujube
 ச, sapotta
-க, sugarcane 
-ம, tapioca`
-      ]
+ ம, tapioca`
+         ]
     },
     {
       id: 'match-vegetables',
@@ -527,133 +457,67 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `வெ, onion
-த, tomato
-உ, potato
-மு, cabbage
-ம, corn`,
-
-        `பூ, garlic
-இ, ginger
+        `ம, corn
 ப, pumpkin
 பா, almond 
-கு, capsicum`,
+கு, capsicum
+சே, elephant-yam`,
 
-        `க, brinjal
-சே, elephant-yam
-மு, cashewnut  
-ப, chilli
-பா, bitter-gourd`,
-
-        `தே, coconut 
-கொ, corianderleaf
-மு, drumstick
+`மு, cashewnut  
 ப, greenpeas
-வெ, ladies-finger`,
-
-        `பு, mintleaf
 வே, peanut 
-மு, raddish
-கீ, spinach 
-கொ, chickpea`,
+கொ, chickpea
+வெ, fenugreek`,
 
-        `ம, turmeric
-வெ, fenugreek
-பு, tamarind
-கா, mushroom
-க, curryleaf`,
-
-        `அ, broad-beans 
+`அ, broad-beans 
 பூ,  ashgourd 
 பீ, ridgegourd
-வா, raw-banana
-மு, drumstick-leaves`,
+மு, drumstick-leaves
+வெ, cucumber`,
 
-        `வெ, cucumber
-வா, banana-flower
+`வா, banana-flower
 சு, bottlegourd
 கோ, ivygourd
 நூ, kohlrabi`,
 
-        `பு, snake-gourd
+`பு, snake-gourd
 வெ, spring-onion
 வா, banana-stem
-கொ, cluster-beans
-து, tulsi`
+கொ, cluster-beans`
       ]
     },
     {
       id: 'match-flowers',
       type: 'match',
       label: 'பொருத்துக : பூக்கள்',
-      CommonData: {
+      data: {
         title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
         rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `தா, lotus
-        ரோ, rose
-சூ, sunflower
-சா, marigold
-செ, hibiscus`,
-
-        `மு, jasmine
-செ, magnolia
-அ, water-lily
-கு,  mogra`
-      ]
+        big: true,
+      text: 
+        `சா, marigold
+        செ, magnolia
+        நி, periwinkle
+        அ, water-lily`
+    }
     },
-    {
-      id: 'match-bodyparts',
-      type: 'match',
-      label: 'பொருத்துக : உடல் உறுப்புகள்',
-      commonData: {
-        title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
-        rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `கா, ear
-                க, eye
-                மு, hair
-                கை, hand`,
-
-        `வா, mouth
-                பா, foot
-                மூ, nose 
-                ப, tooth`
-      ]
-    },
-    {
+        {
       id: 'match-vehicles',
       type: 'match',
       label: 'பொருத்துக: வாகனங்கள்',
-      commonData: {
+      data: {
         title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
         rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `வி, aeroplane
-ப, boat
-ம, car
-மி, cycle
-மா, bullock-cart`,
-
-        `க, ship
-தொ, train 
-இ, tractor
-அ, ambulance
-தீ, fire-engine`,
-
-        `கு, horse-carriage
-க, cart
-ச, lorry
-ஏ, rocket
-நீ, submarine
-பே, bus`
-      ]
+        big: true,
+      text: 
+     `அ, ambulance
+      இ, tractor
+      க, cart
+      தீ, fire-engine
+      ச, lorry
+      ஏ, rocket
+நீ, submarine`
+      }
     },
     {
       id: 'match-jobs',
@@ -667,25 +531,16 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
       data: [
         `வி, astronaut
     கோ, clown
-    மீ, fisherman
-    த, postman
-    ஆ, teacher
-    சி, soldier`,
+    மு, barber
+    ச, washerman
+    கொ, blacksmith`,
 
-        `கொ, blacksmith
+        `சி, soldier
     செ, cobbler 
     பொ, goldsmith
     கு, potter
-    நெ, weaver
-    கா, police`,
-
-        `த, carpenter
-    போ, warrior
-    செ, nurse
-    மா, sailor
-    ச, chef 
-    ம, doctor`
-      ]
+    போ, warrior`
+          ]
     },
     {
       id: 'match-tools',
@@ -723,31 +578,18 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
       id: 'match-snacks',
       type: 'match',
       label: 'பொருத்துக: உணவுப்பொருட்கள்',
-      commonData: {
+      data: {
         title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
         rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `ப, juice
-      பா, milk
-      ல, ladoo
-      இ, sweets
-      வெ, butter`,
-
-        `ச, sugar
-      இ, meat
-      கோ, chicken
-      ப, ice-cream
-      பா, cheese`,
-
-        `ரொ, bread
-      மி, chocolate
-      மா, flour
-      ப, lentils
-      அ, rice
-      சா, soup`
-      ]
+        big: true,
+      text: 
+       `வெ, butter
+       மா, flour
+       ப, lentils
+       அ, rice
+       சா, soup
+       இ, meat` 
+      }
     },
     {
       id: 'match-home',
@@ -759,74 +601,39 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `வீ, house
-        மே, table
-        வா, radio
-        நா, chair
-அ, shelf`,
-
-        `க, door
-தா, grandfather
-ஆ, man
-பெ, woman
-சி, boy`,
-
-        `சி, girl
-கு, baby
-ஜ, window
-மோ, ring
-கு, air-conditioner`,
-
-        `கு, fridge
+        `வா, radio
+    கு, fridge
 ப, toothpaste 
-வா, bucket
-க, toilet
-மெ, candle`,
-
-        `ப, ball
 பெ, box
-நா,  coin
-ம, medicine
-மூ, glasses`,
+நா,  coin`,
 
-        `ப, balloon
-    க, clock
-கை, watch
-பூ, flower-pot
-கு, umbrella`,
-
-        `து, broom
-    த, pillow
-    மெ, bed
-    கூ, basket
-    கு, dustbin`,
-
-        `கை, handbag
-    ச, soap
-    அ, stove
+`ம, medicine
+கை, handbag
+அ, stove
 க, knife
 மு, fork`,
 
-        `வா, pan
+`வா, pan
 பா, pot
 த, plate
 நீ, tap
-மூ, lid
-பு, schoolbag`,
+மூ, lid`,
 
-        `உ, salt
-      கோ, cup
-      கி, bowl
-      த, waterbottle
-      க, scissors
-      அ, ruler`,
+`பு, schoolbag
+உ, salt
+கோ, cup
+கி, bowl
+த, waterbottle`,
 
-        `க, calculator
-      பு, book
-      மை, ink 
-      அ, eraser
-      பே, pen
-      எ, pencil`
+`க, scissors
+அ, ruler
+க, calculator
+பு, book`,
+
+`மை, ink 
+அ, eraser
+பே, pen
+எ, pencil`
       ]
     },
     {
@@ -839,80 +646,54 @@ schoolbag| புத்தகப்பை| _த்தகப்பை| பு, �
         big: true
       },
       data: [
-        `சூ, sun
-      நி, moon
-      ம, rain
-      ந, star
-      ப, bird
-      கா, vegetables`,
-
-        `ப, palanquin
-  ஔ, auvai
-  இ, leaf
-  உ, world
+  `ப, palanquin
+  கா, vegetables
   கூ, nest
-  கி, twig`,
-
-        `நீ, water-drop
-  ப, fruits
-  அ, waterfall
-  மோ, ring
+  கி, twig
+  நீ, water-drop`,
+  
+  `அ, waterfall
   தூ, brush
-  எ, bone`,
-
-        `ம, bell
-  ஐ, five
-  உ, food
-  அ, king
-  ப, kite
-  ஏ, ladder`,
-
-        `மு, rishi
-  ச, wheel
-ஊ, whistle
-தே, chariot
-பூ, park`,
-
-        `தோ, garden
-  தொ, touch-me-not
-  யா, yagna
-  நூ, yarn-ball
-வி, bow
-அ, arrow`,
-
-        `நீ, fountain
-  சு, pouch
-ப, top
-அ, hexagon
-தி, trident
-கு, stick`
-      ]
-    },
-    {
-      id: 'match-instruments',
-      type: 'match',
-      label: 'பொருத்துக:இசைக்கருவிகள்',
-      commonData: {
-        title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
-        rightImgType: 'custom',
-        big: true
-      },
-      data: [
-        `ச, conch
+  எ, bone
+  மு, rishi
+  தே, chariot`,
+  
+  `பூ, park
+  தோ, garden
+    தொ, touch-me-not
+    யா, yagna
+    நூ, yarn-ball`,
+    
+    `நீ, fountain
+    சு, pouch
+  அ, hexagon
+  தி, trident`
+]
+},
+{
+id: 'match-instruments',
+type: 'match',
+label: 'பொருத்துக:இசைக்கருவிகள்',
+commonData: {
+  title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
+  rightImgType: 'custom',
+  big: true
+},
+data: [
+  `ச, conch
 மு, drums
 ம, dhol
 பு, flute`,
 
-        `த, tabla
+  `த, tabla
 வ, violin
 யா, yazl
 உ, damaru`
-      ]
-    }
-  ]
+]
+}
+]
 };
 
 
 
 
-    
