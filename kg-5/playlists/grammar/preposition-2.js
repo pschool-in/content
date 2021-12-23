@@ -82,7 +82,7 @@ export default {
         text: `My mother is *at* home today.
 I hope you will snap out *of* your bad mood soon!
 Which *of* you is Tom?
-Sheetal was *at* the library, when her phone rang. 
+Sheetal was *at* the library when her phone rang. 
 The little boy was tired *of* staying at home.`,
         options: 'at,of'
       }
@@ -122,7 +122,7 @@ I will be boarding the bus *from* the city bus stand.`,
       data: {
         title: 'during vs following',
         text: `Mrs. Indira Gandhi was the Prime Minister of India *during* the Indo-Pakistan war.
-Preethi always falls asleep *during* the long ride home in the school bus.
+Preethi always falls asleep *during* the long ride home on the school bus.
 *During (Following)* the Second World War, people in Europe suffered great hardship.
 It was *during* the dance practice that a pigeon flew into the hall.
 I always feel very hungry *during* the fifth period!`,
@@ -159,16 +159,16 @@ The clown placed the ball *upon* his nose and walked on the tightrope!`,
     },
     {
       id: 'toward-to',
-      label: 'toward vs to',
+      label: 'towards vs to',
       type: 'fillup',
       data: {
-        title: 'toward vs to',
-        text: `Paul kicked the ball *toward* the goal post.
+        title: 'towards vs to',
+        text: `Paul kicked the ball *towards* the goal post.
 I would like *to* show you my new doll.
 "Look! There's daddy!" the lady cried out *to* her little boy.
-I was walking *toward* home, when I saw a blind man playing his flute.
-They started driving *toward* Ooty early this morning.`,
-        options: 'toward, to'
+I was walking *towards* home when I saw a blind man playing his flute.
+They started driving *towards* Ooty early this morning.`,
+        options: 'towards, to'
       }
     },
     {
@@ -180,7 +180,7 @@ They started driving *toward* Ooty early this morning.`,
         text: `"Who will go *with* me?" asked the king.
 The noise seems to be coming from *within* that cupboard!
 There seems to be hidden strife *within* that family.
-My mother appears weak, but has great strength *within* her.
+My mother appears weak but has great strength *within* her.
 I see a man standing outside *with* a red suitcase.`,
         options: 'with, within'
       }
@@ -195,7 +195,7 @@ I see a man standing outside *with* a red suitcase.`,
 I was not permitted to look *inside* the trunk.
 Shruthi dived *into* the pool.
 Aakash angrily threw the letter *into* the fire.
-I know there are foxes living *inside* that cave.`,
+I know foxes are living *inside* that cave.`,
         options: 'into, inside'
       }
     },
@@ -293,7 +293,7 @@ The mother bird kept flying around, *until* she found food for her chicks.`,
 The soldier’s horse skillfully jumped *over* the fence.
 Anjali’s cat was almost run *over* by a car!
 Farid climbed *onto* the roof to rescue his pet parrot which couldn’t fly.
-The lady in the blue saree has travelled all *over* the world.`,
+The lady in the blue saree has traveled all *over* the world.`,
         options: 'over, onto'
       }
     },
@@ -307,7 +307,7 @@ The lady in the blue saree has travelled all *over* the world.`,
 I managed to finish reading my book *through* the long train journey.
 The little boy crawled *through* the window and jumped into the room.
 The children giggled to see their teacher sleep *through* the movie!
-The baby in my neighbour’s house is awake *throughout* the night.`,
+The baby in my neighbor’s house is awake *throughout* the night.`,
         options: 'through, throughout'
       }
     },
@@ -317,9 +317,9 @@ The baby in my neighbour’s house is awake *throughout* the night.`,
       type: 'fillup',
       data: {
         title: 'by vs of',
-        text: `This beautiful park is maintained *by* the local residents.
+        text: `This beautiful park is maintained *by* the residents.
 Puran’s mother reminds him to stay out *of* trouble every morning!
-Which *of* you live close to the market? 
+Which *of* these roads lead to the market? 
 The classrooms are cleaned *by* the students every day.
 Neera ran out *of* sugar this morning.`,
         options: 'by, of'
@@ -373,7 +373,7 @@ The soldier had to feel his way *along* the dark path in the forest.`,
       type: 'fillup',
       data: {
         title: 'despite vs in spite of',
-        text: `*Despite* several warnings, Tenzing continued to The Summit.
+        text: `*Despite (In spite of)* several warnings, Tenzing continued to The Summit.
 The children enjoyed the picnic *despite* the bad weather.
 Elephants can run fast *in spite of* their size.
 My mother cooks fresh food *despite* her busy schedule.

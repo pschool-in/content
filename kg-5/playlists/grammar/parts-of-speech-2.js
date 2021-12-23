@@ -52,7 +52,7 @@ export default {
             {
               name: 'Adjective',
               text: `Jhansi Rani was a *brave* queen.
-               Amit’s father and mother met his *new* swimming coach.
+               Amit’s father met his *new* swimming coach.
               The weather is extremely *hot* in May.
               Raman is the *best* trekker on the team.
               Sunil has been studying *all* morning.`
@@ -63,8 +63,8 @@ export default {
           types: [
             {
               name: 'Noun',
-              text: `*Lunchtime* for us is between one and two pm.
-              This is the *way* we go to school.
+              text: `*Lunchtime* for us is between one and two o'clock.
+              This is the *way* to our school.
               Is Chaitra an *artist*?
               Lucknow is the *capital* of Uttar Pradesh.`
             },
@@ -93,7 +93,7 @@ export default {
               The cow *jumped* over the Moon.
               My father *was* a chess champion.
               Arun *has* lost his house keys.
-              The victims in the accident were *rushed* to the hospital.`
+              The victims were *rushed* to the hospital.`
             },
             {
               name: 'Adverb',
@@ -117,7 +117,7 @@ export default {
             },
             {
               name: 'Adverb',
-              text: `The hungry caterpillars, *greedily* feasted on the lettuce.
+              text: `The hungry caterpillars *greedily* feasted on the lettuce.
               The crocodile swam *across*.
               The bus is *very* crowded almost every day.
               Judy’s father is *very* tall.
@@ -242,7 +242,7 @@ export default {
         `Meera spoke *rudely* to her teacher.
 *Suddenly* it began to rain!
 The gardener worked *tirelessly* in the hot sun.
-The children *stealthily* switched off the television when they heard their father’s car!
+The children *stealthily* switched off the television.
 I can do this *easily*.`,
 
         `The prisoner stared at his captor *fearlessly*.
@@ -253,11 +253,11 @@ The boy ran *fast* to catch the school bus.`,
 
         `Isha’s parents took her to the dentist *immediately*.
 Pujit did all his sums *correctly*.
-The leader requested the residents *humbly* to keep their surroundings clean.
+The leader requested the residents *humbly*.
 The girl *carelessly* crossed the busy road.
 He *rarely* falls sick! `,
 
-        `Meghna waited *patiently* for the doctor to see her.
+        `Meghna waited *patiently* for the doctor.
 The little boy looked *sadly* at his sick puppy.
 The workers are *late* today.
 Sameera visits her grandmother *frequently*.
