@@ -7,16 +7,7 @@ export default {
       label: 'Identify Parts of Speech',
       id: 'identify-type',
       commonData: {
-        title: 'Identify the parts of speech of the underlined word.',
-        types: [
-          'Noun',
-          'Adjective',
-          'Verb',
-          'Adverb',
-          'Preposition',
-          'Pronoun',
-          'Conjunction'
-        ]
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {

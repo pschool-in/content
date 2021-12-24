@@ -74,7 +74,7 @@ soon, shortly`
       data: {
         title: 'Synonyms',
         text: [
-          `Two words are said to be synonyms, if they have similar meaning.`,
+          // `Two words are said to be synonyms, if they have similar meaning.`,
           {
             type: 'hilight',
             text: `magnify − expand
