@@ -83,7 +83,7 @@ virtue, vice`
       data: {
         title: 'Antonyms',
         text: [
-          `Two words are said to be antonyms, if they have opposite meaning.`,
+          // `Two words are said to be antonyms, if they have opposite meaning.`,
           {
             type: 'hilight',
             text: `enemy × friend

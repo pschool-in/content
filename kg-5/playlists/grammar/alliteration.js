@@ -80,7 +80,7 @@ How much wood *would* a woodpecker peck?`
       }
     },
     {
-      label: 'Yes or No',
+      label: 'True or False',
       id: '300',
       type: 'classifySentence',
       commonData: {
