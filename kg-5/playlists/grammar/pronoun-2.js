@@ -56,7 +56,7 @@ export default {
       id: 'pronoun-or-not',
       commonData: {
         title: 'Drag and drop the given words in the right boxes.',
-        types: [' Possessive Pronoun', 'Not a Possessive Pronoun']
+        types: ['Pronoun', 'Not a Pronoun']
       },
       data: [
         [`He, She, It, They`, `Sleep, Walk, Run, Sit`],
@@ -86,7 +86,7 @@ My brother would like *those*, please.`,
         `*He* puts the book on the table.
 The children play with *it*.
 My mom told my sister that *they* have a lot of toys.
-Ram told everyone that *it* is his favorite book.
+Ram told everyone that *it* is the best book.
 *She* is playing outside.
 My mother likes *her* very much.
 *His* father scolds everyone in the house.
@@ -118,20 +118,21 @@ Raju told everyone *that* the party is tomorrow.
 *This* is crazy!`
       ]
     },
+// the below activity consist of possessive pronouns. It can't be about singular and plural.
     {
       type: 'group',
-      label: 'Singular vs Plural',
-      id: 'group-singular-plural',
+      label: 'Personal Pronouns or Not',
+      id: 'group-personal-pronoun',
       data: {
         title: 'Drag and drop the given words in the right boxes.',
         types: [
           {
-            name: 'Singular',
-            text: 'His, Hers, Mine, Yours, Ours, Theirs'
+            name: 'Personal Pronoun',
+            text: 'He, She, Me, I, It, We, Us'
           },
           {
-            name: 'Plural',
-            text: 'He, She, Me, I, It, We, Us'
+            name: 'Not A Personal Pronoun',
+            text: 'Hers, Mine, Yours, Ours, Theirs'
           }
         ]
       }

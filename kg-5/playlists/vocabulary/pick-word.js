@@ -101,12 +101,12 @@ export default {
         {
           audioOffset: 20,
           words:
-            'ginger, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut'
+            'ginger, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashew nut, chilli, coconut'
         },
         {
           audioOffset: 40,
           words:
-            'coriander leaf, curry leaf, drumstick, greenpeas, ladies finger, mintleaf, peanut, raddish, spinach'
+            'coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, radish, spinach'
         }
       ]
     },
@@ -179,7 +179,7 @@ export default {
         {
           audioOffset: 40,
           words:
-            'schoolbag, scissors, sharpener, waterbottle, calculator, book, color-pencils, crayons'
+            'schoolbag, scissors, sharpener, water bottle, calculator, book, color-pencils, crayons'
         },
         {
           audioOffset: 56,

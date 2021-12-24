@@ -1,15 +1,15 @@
 export default {
-  label: 'Food - 5',
-  id: 'food-5',
-  pdf: 'food-5.pdf',
+  label: "Food - 5",
+  id: "food-5",
+  pdf: "food-5.pdf",
   lockAfter: 4,
   list: [
     {
-      id: 'reading',
-      type: 'passage',
-      label: 'Spoilage of Food',
+      id: "reading",
+      type: "passage",
+      label: "Spoilage of Food",
       data: {
-        title: 'Spoilage of Food',
+        title: "Spoilage of Food",
         text: [
           `Food items like fruits, vegetables, milk and meat will be fresh for very short time. These are called perishable foods and they get spoiled easily. Some food items like rice have long life time but they also decompose. The change in the normal state of the food is called spoilage of food. Spoiled food becomes unsuitable to eat. We can notice such changes from the taste and smell of the spoiled food. Eating spoiled food results in diseases.`,
           `Once the food items are harvested they begin to decompose. Food can be spoiled by factors like air and oxygen, moisture, enzymes, microorganisms, light and temperature.`,
@@ -34,84 +34,85 @@ export default {
           `2. To make food available throughout the year.`,
           `3. To prevent the growth of microorganisms like bacteria and fungi in the food items.`,
           `4. To reduce the wastage of food materials.`,
-          `5. Preserving food not only protects our health but also makes food available to the people who need it.`
-        ]
-      }
+          `5. Preserving food not only protects our health but also makes food available to the people who need it.`,
+        ],
+      },
     },
     {
-      label: 'Perishable Food',
-      id: 'classify',
-      type: 'group',
+      label: "Perishable Food",
+      id: "classify",
+      type: "group",
       data: {
-        title: 'Classify the below as perishable or non-perishable food.',
+        title: "Classify the below as perishable or non-perishable food.",
         types: [
           {
-            name: 'Perishable',
-            text: 'Fruits, Vegetables, Corn, Meat, Milk'
+            name: "Perishable",
+            text: "Fruits, Vegetables, Corn, Meat, Milk",
           },
           {
-            name: 'Non-perishable',
-            text: 'Salt, Sugar, Wheat, Pulses, Rice, Nuts, Oil'
-          }
-        ]
-      }
+            name: "Non-perishable",
+            text: "Salt, Sugar, Wheat, Pulses, Rice, Nuts, Oil",
+          },
+        ],
+      },
     },
     {
-      id: 'fillup',
-      label: 'Fill Up',
-      type: 'fillup',
+      id: "fillup",
+      label: "Fill Up",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with the given options.',
+        title: "Fill in the blanks with the given options.",
         text: `Spoiled foods are *unsuitable (suitable)* to eat.
 The change in the normal state of the food is called *spoilage(storage)* of food.
 Food products start to decay after *harvesting (cooking)*.
 Eating spoiled foods bring *food (air)* borne diseases.
-Sometimes we can check spoiled food by *smelling (hearing)*.`
-      }
+Sometimes we can check spoiled food by *smelling (hearing)*.`,
+      },
     },
     {
-      id: 'mcq',
-      label: 'Choose the best answer',
-      type: 'mcq',
+      id: "mcq",
+      label: "Choose the best answer",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'What are the details that can be found in packed food.',
+            qText: "What are the details that can be found in packed food.",
             options:
-              '* Manufactured date, * Expiry date, * Ingredients, * Price'
+              "* Manufactured date, * Expiry date, * Ingredients, * Price",
           },
           {
-            qText: 'Which chemical is used to preserve fruits?',
+            qText: "Which chemical is used to preserve fruits?",
             options:
-              'Sodium Benzoate, Sodium Chloride, Copper Benzoate, Sulphur Dioxide'
+              "Sodium Benzoate, Sodium Chloride, Copper Benzoate, Sulphur Dioxide",
           },
           {
-            qText: 'Which chemical is used to preserve pickles?',
+            qText: "Which chemical is used to preserve pickles?",
             options:
-              'Vinegar, Sodium Benzoate, Sodium Chloride, Copper Benzoate'
+              "Vinegar, Sodium Benzoate, Sodium Chloride, Copper Benzoate",
           },
           {
-            qText: 'Which of the following is not a micro-organism?',
-            options: 'enzymes, fungi, yeast, bacteria'
+            qText: "Which of the following is not a micro-organism?",
+            options: "enzymes, fungi, yeast, bacteria",
           },
           {
-            qText: 'What keeps the food fresh?',
-            options: 'moisure, enzyme, light, oxygen'
+            qText: "What keeps the food fresh?",
+            options: "moisure, enzyme, light, oxygen",
           },
           {
-            qText: 'What rays are used in irradiation process?',
-            options: '* gamma rays, x-rays, infra-red rays, * ultra-violet rays'
-          }
-        ]
-      }
+            qText: "What rays are used in irradiation process?",
+            options:
+              "* gamma rays, x-rays, infra-red rays, * ultra-violet rays",
+          },
+        ],
+      },
     },
     {
-      id: 'reading-2',
-      type: 'passage',
-      label: 'Disease',
+      id: "reading-2",
+      type: "passage",
+      label: "Disease",
       data: {
-        title: 'Disease',
+        title: "Disease",
         text: [
           `A disease is an abnormal condition that affects a living organism. This abnormal condition affects the structure and function of the organism. Diseases may be caused by external factors as well as internal dysfunction. Each disease has symptoms. We come to know about the diseases from their symptoms.`,
           `# Causes of Diseases`,
@@ -136,126 +137,126 @@ Sometimes we can check spoiled food by *smelling (hearing)*.`
           `3. Vitamin-C is abundent in lemon, orange and tomato. Lack of vitamin-C may cause Scurvy.`,
           `4. Sun is the natural source of vitamin-D. It is also present in fish, egg and milk. Lack of vitamin-D may cause Rickets.`,
           `# Mineral deficiency diseases`,
-          `Iron and Iodine are common minerals that we need for good health. Cashewnuts, dates, spinach and lentils are rich in iron. Lack of iron may cause Anaemia. Iodine is present in vegetables and iodized salt.`
-        ]
-      }
+          `Iron and Iodine are common minerals that we need for good health. Cashewnuts, dates, spinach and lentils are rich in iron. Lack of iron may cause Anaemia. Iodine is present in vegetables and iodized salt.`,
+        ],
+      },
     },
     {
-      id: 'match',
-      type: 'match',
-      label: 'Nutrients and Sources',
+      id: "match",
+      type: "match",
+      label: "Nutrients and Sources",
       data: {
-        title: 'Match the Nutrients with its Sources.',
+        title: "Match the Nutrients with its Sources.",
         text: `Vitamin-C, Lemon
 Vitamin-B, Cereals
 Vitamin-A, Milk
 Vitamin-D, Sunlight
 Iron, Dates
-Protein, Fish`
-      }
+Protein, Fish`,
+      },
     },
     {
-      id: 'match-2',
-      type: 'match',
-      label: 'Nutrients and Diseases',
+      id: "match-2",
+      type: "match",
+      label: "Nutrients and Diseases",
       data: {
-        title: 'Match the Nutrients with its deficiency Diseases.',
+        title: "Match the Nutrients with its deficiency Diseases.",
         text: `Vitamin-C, Scurvy
 Vitamin-B, Beri-beri
 Vitamin-A, Night-blindness
 Vitamin-D, Rickets
 Iron, Anaemia
-Protein, Marasmus`
-      }
+Protein, Marasmus`,
+      },
     },
     {
-      id: 'match-3',
-      type: 'match',
-      label: 'Disease Factors',
+      id: "match-3",
+      type: "match",
+      label: "Disease Factors",
       data: {
-        title: 'Match the different disease factors with the disease.',
+        title: "Match the different disease factors with the disease.",
         text: `Metabolic, Diabetes
 Genetic, Colour blindness
 Microorganisms, Typhoid
 Nutritional, Marasmus
-Environmental, Cholera`
-      }
+Environmental, Cholera`,
+      },
     },
     {
-      id: 'mcq-2',
-      label: 'Choose the best answer',
-      type: 'mcq',
+      id: "mcq-2",
+      label: "Choose the best answer",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'The biotic factor which spoils the food item is ________.',
-            options: 'bacteria, drying, temperature, humidity'
+            qText: "The biotic factor which spoils the food item is ________.",
+            options: "bacteria, drying, temperature, humidity",
           },
           {
-            qText: 'Grains are preserved by______.',
-            options: 'drying, freezing, adding sugar, adding salt'
+            qText: "Grains are preserved by______.",
+            options: "drying, freezing, adding sugar, adding salt",
           },
           {
-            qText: 'Anaemia is the disease which occurs due to lack of_______.',
-            options: 'Iron, Vitamin-A, Vitamin-D, Vitamin-B'
+            qText: "Anaemia is the disease which occurs due to lack of_______.",
+            options: "Iron, Vitamin-A, Vitamin-D, Vitamin-B",
           },
           {
-            qText: 'Storage of Excess fat in the body is known as',
-            options: 'Obesity, Headache, Fever, Stomach pain'
+            qText: "Storage of Excess fat in the body is known as",
+            options: "Obesity, Headache, Fever, Stomach pain",
           },
           {
-            qText: 'Carbohydrates are rich in',
-            options: 'Rice, Fruits, Ghee, Oil'
-          }
-        ]
-      }
+            qText: "Carbohydrates are rich in",
+            options: "Rice, Fruits, Ghee, Oil",
+          },
+        ],
+      },
     },
     {
-      id: 'true-false',
-      label: 'True or False',
-      type: 'classifySentence',
+      id: "true-false",
+      label: "True or False",
+      type: "classifySentence",
       data: {
-        title: 'Classify the below sentences as True and False',
+        title: "Classify the below sentences as True and False",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Vinegar is added as Preservative for Pickles.
-Growing children need more proteins in their food.`
+Growing children need more proteins in their food.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `In case of Gas leakage, we can continue to use electric appliances.
 Irradiation affects the taste of the food materials.
-Deficiency due to iodine is called as beriberi.`
-          }
-        ]
-      }
+Deficiency due to iodine is called as beriberi.`,
+          },
+        ],
+      },
     },
     {
-      id: 'drag-drop-2',
-      label: 'Fill in the Blanks',
-      type: 'matchByDragDrop',
+      id: "drag-drop-2",
+      label: "Fill in the Blanks",
+      type: "matchByDragDrop",
       data: {
         isPractice: false,
-        title: 'Drag and drop the words at proper places.',
+        title: "Drag and drop the words at proper places.",
         styles: {
-          fontSize: '1rem',
-          dashWidth: 70
+          fontSize: "1rem",
+          dashWidth: 70,
         },
         text: `Night Blindness is caused by the lack of *vitamin-A*.
 Marasmus is a *protein* deficiency disease.
 Bad smell from the food item is due to *spoilage*.
 Humidity in air is one of the *important* factor, which spoils food.
-Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
-      }
+Using low quality gas tubes in the gas stove may lead to *gas* leakage.`,
+      },
     },
     {
-      label: 'Food for all - Reading',
-      type: 'passage',
-      id: 'food-for-all',
+      label: "Food for all - Reading",
+      type: "passage",
+      id: "food-for-all",
       data: {
-        title: 'Food for all',
+        title: "Food for all",
         text: `# Agriculture
 Sixty percent of land in our country is used for agriculture. For agriculture, there are two main seasons in our country. The season from June to October is called the kharif season. The season from October to March is rabi season. In the kharif season, the crops are watered by rain. In rabi season, rainwater that has soaked into the soil, the retreating monsoons and dew are the sources of water for the crops.
 # Methods of Irrigation
@@ -266,119 +267,119 @@ It is important to avoid excessive use of fertilizers to protect the crops as ov
 # Food storage and conservation of environment
 1. Green revolution- The  increase in food grain production (such as rice and wheat) due to the introduction of high-yielding varieties, the use of pesticides, and improved management techniques.
 2. In 2013, India enacted a food security law that made it possible to fight against hunger and malnutrition.
-3. Various agriculture assistance programmes are organised for farmers to inform them about the latest technology, irrigation facilities, pesticides, fertilizers etc.`
-      }
+3. Various agriculture assistance programmes are organised for farmers to inform them about the latest technology, irrigation facilities, pesticides, fertilizers etc.`,
+      },
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'fillup-3',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "fillup-3",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `*Improved seeds* can resist pest attacks.
 Crops were traditionally watered through *canal*.
 *Sprinkle* irrigation is a process that sprays water directly on plants.
 Natural and *chemical* are two kinds of fertilizers.
-*Overwatering* makes the land saline and fallow.`
-      }
+*Overwatering* makes the land saline and fallow.`,
+      },
     },
     {
-      label: 'Answer in one word',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-4',
+      label: "Answer in one word",
+      type: "matchByDragDrop",
+      id: "drag-drop-4",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `The process through which the water and nutrients are directly delivered to the plant's roots. *Drip irrigation*
 The great increase in the production of food grains. *Green revolution*
 Another name for natural fertilizers. *Manures*
-Crops are grown from March to June. *Summer crops*`
-      }
+Crops are grown from March to June. *Summer crops*`,
+      },
     },
     {
-      label: 'Name the following',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-5',
+      label: "Name the following",
+      type: "matchByDragDrop",
+      id: "drag-drop-5",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `A Beverage crop- *MAIZE*
 A crop that grows in the temperate zone- *WHEAT*
 A crop which is grown extensively in Coimbatore- *COTTON*
 The Oldest method of irrigation- *WELL*
-Rearing of animals- *MIXED FARMING*`
-      }
+Rearing of animals- *MIXED FARMING*`,
+      },
     },
     {
-      label: 'True or False',
-      id: 'true-false-4',
-      type: 'classifySentence',
+      label: "True or False",
+      id: "true-false-4",
+      type: "classifySentence",
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: "Classify the below sentences as true and false",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Thanjavur is known as the rice bowl of Tamil Nadu.
 Agriculture led to the development of human civilization.
-Canal irrigation is the most important form of irrigation in India.`
+Canal irrigation is the most important form of irrigation in India.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Two third of our nation's income comes from agriculture.
-Japan is the land of farmers.`
-          }
-        ]
-      }
+Japan is the land of farmers.`,
+          },
+        ],
+      },
     },
     {
-      label: 'Choose the best Answer',
-      id: 'mcq-4',
-      type: 'mcq',
+      label: "Choose the best Answer",
+      id: "mcq-4",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: ' Which is called the golden fibre?',
-            options: 'Jute, Cotton, Silk'
+            qText: " Which is called the golden fibre?",
+            options: "Jute, Cotton, Silk",
           },
           {
-            qText: 'Which of these is not a rabi crop?',
-            options: 'Maize, Wheat, Barley'
+            qText: "Which of these is not a rabi crop?",
+            options: "Maize, Wheat, Barley",
           },
           {
-            qText: 'Farming that relies on natural material?',
-            options: 'Organic, Home, Commercial'
+            qText: "Farming that relies on natural material?",
+            options: "Organic, Home, Commercial",
           },
           {
-            qText: 'Which state is the chief producer of tea in India?',
-            options: 'Assam, Kerala, Karnataka'
+            qText: "Which state is the chief producer of tea in India?",
+            options: "Assam, Kerala, Karnataka",
           },
           {
-            qText: 'The person who is engaged in agriculture.',
-            options: 'Farmer, Doctor, Teacher'
-          }
-        ]
-      }
+            qText: "The person who is engaged in agriculture.",
+            options: "Farmer, Doctor, Teacher",
+          },
+        ],
+      },
     },
     {
-      label: 'Food preservation - Reading',
-      type: 'passage',
-      id: 'preservation-passage',
+      label: "Food preservation - Reading",
+      type: "passage",
+      id: "preservation-passage",
       data: {
-        title: 'Preserving Food',
+        title: "Preserving Food",
         text: `# Food Preservation
 1. In the winter season, to keep food longer foodstuffs are kept in the refrigerator.
 2. Grains should be dried in sun before storing them
@@ -389,72 +390,72 @@ Microorganisms are present all around us. If microorganisms grow, they spoil the
 Drying- It is the process in which foodstuffs are dried to remove the water content.
 Cooling- It is the process in which the foodstuffs are kept in the refrigerator. Through this process, micro-organisms do not get any warmth so they are unable to grow.
 Boiling- In this process the foodstuffs are boiled to destroy microorganisms.
-Storing in airtight containers- In this process the foodstuffs are placed in airtight containers to ensure that water or air are not entered the foodstuff.`
-      }
+Storing in airtight containers- In this process the foodstuffs are placed in airtight containers to ensure that water or air are not entered the foodstuff.`,
+      },
     },
     {
-      label: 'True or False',
-      id: 'true-false-3',
-      type: 'classifySentence',
+      label: "True or False",
+      id: "true-false-3",
+      type: "classifySentence",
       data: {
-        title: 'Classify the below sentences as true and false',
+        title: "Classify the below sentences as true and false",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `We make efforts to preserve food to prevent them from getting spoiled.
-Spices have a strong taste and are obtained from plants.`
+Spices have a strong taste and are obtained from plants.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Foodstuffs get warmth when they are stored in the refrigerator.
 The process through which water content is lost is cooling.
-Milk products are made and preserved for a whole year.`
-          }
-        ]
-      }
+Milk products are made and preserved for a whole year.`,
+          },
+        ],
+      },
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-6',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "drag-drop-6",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `Microorganisms grow fast in the presence of air and *moisture*.
 A *fungus* is a type of micro-organism.
 Mango pulp and *milk* are foodstuffs that spoil quickly.
 Food spoiled from micro-organisms can cause *diseases*.
-*Airtight cans* ensure that water or air will not enter the foodstuff.`
-      }
+*Airtight cans* ensure that water or air will not enter the foodstuff.`,
+      },
     },
     {
-      label: 'Name the following',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-21 ',
+      label: "Name the following",
+      type: "matchByDragDrop",
+      id: "drag-drop-21 ",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `Food is dried to prevent water content. *Drying*
 Food is rapidly frozen. *Freezing*
 Food is placed in an airtight container. *Canning*
 Food is stored in an airtight container under a vacuum. *Vacuum packing*
-Soaking food in saltwater, vinegar or oil. *Pickling*`
-      }
+Soaking food in saltwater, vinegar or oil. *Pickling*`,
+      },
     },
     {
-      label: 'Food Spoilage- Reading',
-      type: 'passage',
-      id: 'food-spoilage',
+      label: "Food Spoilage- Reading",
+      type: "passage",
+      id: "food-spoilage",
       data: {
-        title: 'Food Spoilage',
+        title: "Food Spoilage",
         text: `Perishable foods get spoiled easily. The change in the normal state of food is called spoilage of food.
 # Why food gets spoiled?
 1. Air, oxygen and moisture can cause spoilage of food.
@@ -494,92 +495,93 @@ The food pyramid was created to encourage people to eat healthily. The requireme
 7. If solid items, such as wood, catch fire, put it out with water.
 8. If an electrical appliance catches fire, turn off the power and unplug the appliances.
 9. To put out the fire, use the correct fire extinguishers.
-10. In the event of small burns, the affected area should be held under cool running water for a few minutes before receiving medical attention.`
-      }
+10. In the event of small burns, the affected area should be held under cool running water for a few minutes before receiving medical attention.`,
+      },
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-8',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "drag-drop-8",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
         text: `Obesity is caused by *excessive fat* in the body.
 Grains are preserved by *drying*.
 In *kwashiorkor*, the child develops an enlarged belly.
 *Anaemia* is caused due to lack of iron.
-*Irradiation* is a method by which food is exposed to UV rays to kill bacteria.`
-      }
+*Irradiation* is a method by which food is exposed to UV rays to kill bacteria.`,
+      },
     },
     {
-      id: 'match-8',
-      label: 'Match the following',
-      type: 'match',
+      id: "match-8",
+      label: "Match the following",
+      type: "match",
       data: {
         text: `Carbohydrates, Rice
 Micro-organisms, Bacterial disease
 Milk, Boiling
 Beri Beri, Cereals
 Goitre, Iodine`,
-        title: 'Match the following'
-      }
+        title: "Match the following",
+      },
     },
     {
-      label: 'Determine the Diseases',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-9',
+      label: "Determine the Diseases",
+      type: "matchByDragDrop",
+      id: "drag-drop-9",
       data: {
         isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
+        title: "Drag and drop the given words at the right blanks.",
         styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
+          fontSize: "1.3rem",
+          dashWidth: 80,
         },
-        text: `Diseases caused due to abnormalities in genes. *Hereditary diseases*
-Diseases which are caused due to a lack of essential nutrients in the body. *Deficiency diseases*
-Diseases which are caused due to micro-organisms. *Infectious diseases*
-Diseases which are caused due to the malfunction of the body organs. *Physiological diseases*`
-      }
+        text: `Diseases caused due to abnormalities in genes are called *Hereditary diseases*
+Diseases which are caused due to a lack of essential nutrients in the body are called *Deficiency diseases*
+Diseases which are caused due to micro-organisms are called *Infectious diseases*
+Diseases which are caused due to the malfunction of the body organs are called *Physiological diseases*`,
+      },
     },
     {
-      label: 'Choose the best Answer',
-      id: 'mcq-6',
-      type: 'mcq',
+      label: "Choose the best Answer",
+      id: "mcq-6",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'In case of a minor burn, what will you do?',
+            qText: "In case of a minor burn, what will you do?",
             options:
-              'Expose the burnt area to cool running water, Apply warmth, Rub on the burnt skin'
+              "Expose the burnt area to cool running water, Apply warmth, Rub on the burnt skin",
           },
           {
-            qText: 'Which of the statement is false?',
+            qText: "Which of the statement is false?",
             options:
-              'Use low quality gas stoves, tubes and regulators, Always use I.S.I standard gas, Keep the doors open to ensure ventilation'
+              "Use low quality gas stoves, tubes and regulators, Always use I.S.I standard gas, Keep the doors open to ensure ventilation",
           },
           {
-            qText: 'In which position we should keep the cylinder?',
-            options: 'Vertical position, Inverted position, Horizontal position'
+            qText: "In which position we should keep the cylinder?",
+            options:
+              "Vertical position, Inverted position, Horizontal position",
           },
           {
-            qText: 'Which of the following statement is true?',
+            qText: "Which of the following statement is true?",
             options:
-              'Turn the knob after lighting the lighter, Turn on the electrical appliances in the kitchen, Keep the cylinder in an inverted position'
-          }
-        ]
-      }
+              "Turn the knob after lighting the lighter, Turn on the electrical appliances in the kitchen, Keep the cylinder in an inverted position",
+          },
+        ],
+      },
     },
     {
-      label: 'Food - Reading',
-      type: 'passage',
-      id: 'food',
+      label: "Food - Reading",
+      type: "passage",
+      id: "food",
       data: {
-        title: 'Food',
+        title: "Food",
         text: `# What our ancestors ate?
 Our ancestors mainly depended on meat caught by hunting and fruits for their nutrition. They gathered fruit, nuts, plants, vegetables and seeds that were edible.
 # Changes in food habits
@@ -587,39 +589,39 @@ Nowadays, we restrict our diet to few food groups. This diet does not provide us
 # Food shortage 
 There are times when farmers are not able to grow enough food. Crops fail either because of lack of rainfall or due to floods. At times like these, the prices go up as the number of mouths to feed is far more than the food availability. In this case, it's the poor who suffer as they can no longer afford to buy food. Food shortages can also be created artificially. This happens when enough food is produced but is not released in the market in order to keep the prices high. Traders hoard food grains and make more money by selling them at higher prices.
 # Taste buds
-Taste buds are sensory organs that are found on the tongue and allow us to experience taste that are sweet, salty, sour and bitter. The front part of the tongue recognises the sweet taste while the sides of the tongue recognises sour and salty taste. The back part of the tongue recognises bitter taste.`
-      }
+Taste buds are sensory organs that are found on the tongue and allow us to experience taste that are sweet, salty, sour and bitter. The front part of the tongue recognises the sweet taste while the sides of the tongue recognises sour and salty taste. The back part of the tongue recognises bitter taste.`,
+      },
     },
     {
-      label: 'Choose the best Answer',
-      id: 'mcq-food',
-      type: 'mcq',
+      label: "Choose the best Answer",
+      id: "mcq-food",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'What are taste buds?',
-            options: 'sensory organs, nerve endings, bone'
+            qText: "What are taste buds?",
+            options: "sensory organs, nerve endings, bone",
           },
           {
             qText:
-              'What will restricting our diet to a few food groups lead to?',
-            options: 'lifestyle diseases, healthy living, strong body'
+              "What will restricting our diet to a few food groups lead to?",
+            options: "lifestyle diseases, healthy living, strong body",
           },
           {
-            qText: 'Which of the following is not sweet?',
-            options: 'chilli, ice cream, candy'
+            qText: "Which of the following is not sweet?",
+            options: "chilli, ice cream, candy",
           },
           {
-            qText: 'Which of the following is bitter?',
-            options: 'bitter gourd, carrot, orange'
+            qText: "Which of the following is bitter?",
+            options: "bitter gourd, carrot, orange",
           },
           {
-            qText: 'What part of our tongue recognises salty taste?',
-            options: 'sides, front, back'
-          }
-        ]
-      }
-    }
-  ]
+            qText: "What part of our tongue recognises salty taste?",
+            options: "sides, front, back",
+          },
+        ],
+      },
+    },
+  ],
 };

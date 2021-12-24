@@ -39,13 +39,13 @@ Tina is lucky. She has *few (a few)* problems.`,
 
         `Sweden has *little (a little)* sunshine in winter. 
 He has *little (a little)* self-confidence. He has trouble talking to new people.
-There are only *a few (few)* people she really trusts. 
+There are only *a few (few)* people she trusts. 
 There are *few (a few)* female bike riders in my city. 
 There is *little (a little)* milk left in the fridge. It should be enough for our tea.
 There are *a few (few)* horses grazing in front of the barn.
 Can you buy *a few (few)* apples from the market?
 You have *a little (little)* time left to finish your exam.
-My neighbour let me pick *a few (few)* mangoes from the tree.
+My neighbor let me pick *a few (few)* mangoes from the tree.
 There are *a few (few)* tables in the auditorium which are vacant.`
       ]
     },
@@ -64,7 +64,7 @@ He ate *an* orange for his breakfast.
 I have *a* pet cat.
 My dad bought me *an* iPad yesterday.
 Mrs.Bhavani is *the* principal of our college.
-*The(A,An)* Ganges flows from *the (a, an)* Himalayas.
+*The(A, An)* Ganges flows from *the (a, an)* Himalayas.
 There is *a* eucalyptus tree near my building.
 Manvi is *a* small village in Karnataka.
 I like to have *a* cup of coffee.
@@ -97,7 +97,7 @@ I saw *an* anthill in my garden.`,
 My sister is *an* English teacher.
 She bought *an* orange dress.
 My husband is *a* doctor.
-My neighbour bought *a* new car.
+My neighbor bought *a* new car.
 *The (A, An)* Birla planetarium is located in Hyderabad.
 My dad is *an* engineer.
 Adi's brother bought *a* new bicycle.

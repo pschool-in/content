@@ -106,7 +106,7 @@ The frogs *were* croaking in the garden.`,
       type: 'fillup',
       data: {
         title: 'they vs them',
-        text: `My friend’s  family is very rich and *they* live in the biggest house on the street.
+        text: `My friend’s family is very rich and *they* live in the biggest house on the street.
 Sheela has known *them* all her life.
 The grapes are so sour that *they* cannot be eaten.
 Tell *them* to be on time.
@@ -357,7 +357,7 @@ Where *could* the dog be hiding?
       data: {
         title: 'Fill in the blanks with either than or then.',
         text: `He can run faster *than* I can.
-First buy bread and butter *then* eat them.
+First, buy bread and butter, *then* eat them.
 Nothing worse *than* a familiar enemy.
 First think, and *then* speak.
 Peter is smarter *than* Mathew.`,
@@ -415,7 +415,7 @@ I wonder who *will* win the IPL cup this year?`,
         title: 'much vs many',
         text: `Last night, I saw the sky sprinkled with *many* stars.
 How *many* mangoes can you count in a dozen?
-How *much* milk does Mrs Banerjee require tomorrow?
+How *much* milk does Mrs. Banerjee require tomorrow?
 *Much* time is required to take care of my pets. 
 Anup feeds *many* stray dogs every day.`,
         options: 'much, many'
@@ -442,7 +442,7 @@ Who is *most* likely to win the match?`,
       data: {
         title: 'was vs would',
         text: `Shilpa *was* excited about the school trip to Goa.
-Vasu hoped that the weather *would* be favourable for the match.
+Vasu hoped that the weather *would* be favorable for the match.
 Heidi *was* thrilled to see that it *was* snowing.
 The beggar hoped that the people in the big house *would* give him some food.
 The farmer prayed that the rain *would* water his crop.`,
@@ -455,7 +455,7 @@ The farmer prayed that the rain *would* water his crop.`,
       type: 'fillup',
       data: {
         title: 'were vs where',
-        text: `This is *where* Mr Rao comes to fish every year.
+        text: `This is *where* Mr. Rao comes to fish every year.
 Two teachers *were* supervising the distribution of books. 
 *Where* is my mother?" The little child asked.
 Those two cats *were* fighting last night.

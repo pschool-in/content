@@ -43,7 +43,7 @@ export default {
             {
               name: 'Adjective',
               text: `Jhansi Rani was a *brave* queen.
-               Amit’s father and mother met his *new* swimming coach.
+               Amit’s father met his *new* swimming coach.
               The weather is extremely *hot* in May.
               Raman is the *best* trekker on the team.
               Sunil has been studying *all* morning.`
@@ -54,16 +54,16 @@ export default {
           types: [
             {
               name: 'Noun',
-              text: `*Lunchtime* for us is between one and two pm.
-              This is the *way* we go to school.
+              text: `*Lunchtime* for us is between one and two o'clock.
+              This is the *way* to our school.
               Is Chaitra an *artist*?
               Lucknow is the *capital* of Uttar Pradesh.`
             },
             {
               name: 'Adjective',
               text: `Heera has a *cute* little kitten.
-              *None* of the stores in our neighbourhood are open before ten am.
-              Surya’s cousin is a *well known* author.
+              *None* of the stores in our neighborhood are open before ten am.
+              Surya’s cousin is a *well-known* author.
               The view from the mountain top was *breathtaking*!`
             },
             {
@@ -84,14 +84,14 @@ export default {
               The cow *jumped* over the Moon.
               My father *was* a chess champion.
               Arun *has* lost his house keys.
-              The victims in the accident were *rushed* to the hospital.`
+              The victims were *rushed* to the hospital.`
             },
             {
               name: 'Adverb',
               text: `I have been to the park with the musical fountain *very* few times.
-              The little girls were *so* busy collecting pebbles on the beach, they didn’t realise that the tide had risen.
+              The little girls were *so* busy collecting pebbles on the beach, they didn’t realize that the tide had risen.
               The old man walked *slowly* down the street.
-              She is getting *late* to school.
+              She is getting *late* for school.
               Sita speaks *very* softly.`
             }
           ]
@@ -108,7 +108,7 @@ export default {
             },
             {
               name: 'Adverb',
-              text: `The hungry caterpillars, *greedily* feasted on the lettuce.
+              text: `The hungry caterpillars *greedily* feasted on the lettuce.
               The crocodile swam *across*.
               The bus is *very* crowded almost every day.
               Judy’s father is *very* tall.
@@ -146,7 +146,7 @@ export default {
               name: 'Verb',
               text: `This is the way to *brush* your hair.
               I can *hear* a cat meowing in the basement!
-              Dr Abdul Kalam has *authored* many books.
+              Dr. Abdul Kalam has *authored* many books.
               The Principal *expressed* annoyance at the indiscipline during assembly.`
             },
             {
@@ -154,7 +154,7 @@ export default {
               text: `I was wonderstruck by the beautiful valley *of* flowers!
               The lizard crawled *up* the wall.
               They built a bridge *across* the river.
-              Kolkata stands *on* the river Hooghli.
+              Kolkata stands *on* the river Hooghly.
               The toys were scattered all *over* the room.`
             }
           ]
@@ -184,7 +184,7 @@ export default {
               text: `The bottle is nearly full of water, *but* it is not enough. 
               Suhasini will buy a car *as soon as* she has enough money.
               The thief ran so fast *that* the policeman could not catch him.
-              *Although* Rani hurried, she was late to school.
+              *Although* Rani hurried, she was late for school.
               His dog jumped on him,*as soon as* Rohit entered the house.`
             },
             {
@@ -233,7 +233,7 @@ export default {
         `Meera spoke *rudely* to her teacher.
 *Suddenly* it began to rain!
 The gardener worked *tirelessly* in the hot sun.
-The children *stealthily* switched off the television when they heard their father’s car!
+The children *stealthily* switched off the television.
 I can do this *easily*.`,
 
         `The prisoner stared at his captor *fearlessly*.
@@ -244,11 +244,11 @@ The boy ran *fast* to catch the school bus.`,
 
         `Isha’s parents took her to the dentist *immediately*.
 Pujit did all his sums *correctly*.
-The leader requested the residents *humbly* to keep their surroundings clean.
+The leader requested the residents *humbly*.
 The girl *carelessly* crossed the busy road.
 He *rarely* falls sick! `,
 
-        `Meghna waited *patiently* for the doctor to see her.
+        `Meghna waited *patiently* for the doctor.
 The little boy looked *sadly* at his sick puppy.
 The workers are *late* today.
 Sameera visits her grandmother *frequently*.

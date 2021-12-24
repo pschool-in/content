@@ -29,7 +29,7 @@ The waves *crashed* on the beach.
 The brook *bubbled* joyfully.`,
 
         `The clock *stopped* suddenly.
-The programme *fizzled  out* like a damp squib!
+The program *fizzled out* like a damp squib!
 The car *honked* noisily.
 The sea *roared* angrily.
 The *fury* of the storm was scary.`,

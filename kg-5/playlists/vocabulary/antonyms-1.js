@@ -32,14 +32,14 @@ near, far
 dark, light
 empty, full`,
 
-      `against,for
+      `against, for
 question, answer
 brave, coward
 closed,  open
 day, night
 found, lost`,
 
-      `all,none
+      `all, none
 black, white
 dull, bright
 cold, hot

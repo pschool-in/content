@@ -56,7 +56,7 @@ I like *yellow* roses.
 I like *raw* mangoes.`,
 
           `I ate *some* fried rice today.
-We have *enough* time for completion of homework.
+We have *enough* time for the completion of homework.
 I know very *little* about folk songs.
 Add *some* sugar to the tea.`
         ],
@@ -86,7 +86,7 @@ I have *many (much)* friends.
 How *many (much)* chocolates do you have?
 There isn't *much (many)* sugar in my milk.
 How *much (many)* water is used for boiling rice?
-My dad gave me *some (many)* money for school tour.
+My dad gave me *some (many)* money for a school tour.
 I took *some (much)* cookies from the box.
 Did you take *any (many)* money from the purse?
 *Many(Much)* people attended the Republic day parade in Delhi on 26th January.
@@ -112,7 +112,7 @@ There are a *few (little)* trees in my backyard which we can climb.
 There have been *few (little)* problems with my new laptop recently.
 We need a *little (few)* information regarding the new school in our locality.
 We have *little (few)* time left to catch the train to Bangalore.
-I have a *little (few)* money left to buy the ice-cream from the shop.`
+I have a *little (few)* money left to buy the ice cream from the shop.`
       ]
     },
     {
@@ -321,7 +321,7 @@ The *four* friends walk to the nearby woods for a picnic. They spot an *old* tre
 Swapna sits on a *small* bench and watches the squirrels running up and down.
 This is my grandmother's house. There is a *pretty* garden in front of her house.
 There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
-Every year we distribute these *tasty* mangoes to all our neighbours.`,
+Every year we distribute these *tasty* mangoes to all our neighbors.`,
 
         `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
 She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil

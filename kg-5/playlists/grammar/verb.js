@@ -27,7 +27,7 @@ My friends are *playing.*
 My uncle is *driving* the car.
 Ashok is *doing* his homework.
 Seema is *making* dinner for her family.
-He is *living* in the next street.
+He is *living* on the next street.
 They are *eating* lunch.
 He is *preparing* for the trip.
 They are *having* their dinner in the kitchen.
@@ -85,7 +85,7 @@ Please come in.
 What is your plan for today?`,
           `Last summer, we went to Ooty.
 Ashoka was a great king.
-I was very cute, when I was a baby.`,
+I was very cute when I was a baby.`,
           `We will make some better plans.
 I will help you to complete the project.
 We will have reached home before you come.
