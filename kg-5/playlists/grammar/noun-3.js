@@ -223,6 +223,50 @@ salesman, grocer, butcher, florist, stationer`,
   There are eight *members* in my *family*. I live with my *parents*, *grandparents*, *uncle*, *aunt* and *cousins*.
   Do you know that the *camel* is known as the *ship* of the *desert*? This is because it can stay without *water* for many *days*.`
       ]
+    },
+    {
+      label: 'Same Basket',
+      type: 'matchByDragDrop',
+      id: 'same-basket-drop',
+      lockAfter: 1,
+      commonData: {
+      title: 'Drag and drop words, so that nouns of the same group are together.',
+      styles: {
+      fontSize: '1.5rem',
+      dashWidth: 70
+              }
+              },
+      data: [
+          `anger, annoyance, *argument*
+apple, *grapes*, banana
+*beauty*, awe, brilliance
+egg, farm, *poultry*
+confusion, *doubt*, unsure`,
+        
+          `*desk*, blackboard, duster
+bed, *pillow*, blanket
+boat, river, *yacht*
+park, *bench*, grass
+*costume*, play, characters`,
+
+          `curiosity, *passion*, excitement
+confusion, uncertainty, *unsure*
+balloon, *airplane*, parachute
+*vase*, flowers, fragrance
+vehicle, *bike*, train`,
+
+          `singer, dancer, *player*
+Virat Kohli, *MS Dhoni*, Sachin Tendulkar
+*Katrina*, Kareena, Priyanka
+Narendra Modi, *Rahul Gandhi, Indira Gandhi
+M. Gandhi, Pt. J. Nehru, *Bhagat Singh*`,
+
+          `rude, *mean*, bad
+*gentle*, kind, good
+teacher, *student*, principal
+football, cricket, *hockey*
+movies, *shows*, dramas`
+      ]
     }
   ]
 };
