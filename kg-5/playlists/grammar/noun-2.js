@@ -147,8 +147,58 @@ export default {
       I have named my *cat* Jerry.
       Both my *parents* were born in March.`
             ]
-          }
+          },
           // old
-        ]
-      };
+          {
+        label: 'Same Basket',
+        type: 'matchByDragDrop',
+        id: 'same-basket-drag',
+        lockAfter: 1,
+        commonData: {
+        title: 'Drag and drop words, so that nouns of the same group are together.',
+        styles: {
+        fontSize: '1.5rem',
+        dashWidth: 70
+                }
+                },
+        data: [
+                `week, month, *year*
+India, *England*, America
+*day*, night, evening
+Google, *Nykaa*, Apple
+school, office, *hospital*`,
+          
+                `black, *red*, purple
+*Facebook*, Whatsapp, LinkedIn
+state, *country*, city
+*Paris*, London, Delhi
+company, *business*, office`,
+
+                `*question*, problem, solution
+Earth, *Mars*, Moon
+kitchen, room, *hall*
+pasta, *pizza*, burger
+*juice*, smoothie, cold drink`,
+
+                `story, *poem*, drama
+Ram, Sita, *Laxman*
+chapati, *pulses*, rice
+*Asia*, Europe, Africa
+point, *line*, square`,
+
+                `forward, backward, *upward*
+mobile, *laptop*, computer
+*glass*, bottle, jug
+eyes, *ears*, nose
+walking, jumping, *running*`,
+          
+                  `Tom, *Cat*, *Jerry*, Mouse
+Shinchan, *Mitsy*, Sheero, *Dog*
+*Dora*, Girl, Boots, *Backpack*
+Bheem, *Laddoo*, *Kaalia*, Jaggu
+*Nobita*, Doraemon, *Giyaan*, Soonio`
+      ]
+    }
+  ]
+};
       
