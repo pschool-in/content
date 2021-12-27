@@ -339,7 +339,7 @@ sun, glasses`
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct block to make a compound word.',
-        printTitle: 'Fill up with the right option.'
+        printTitle: 'Underline the right option.'
       },
       data: [
         `no, body, side
@@ -460,7 +460,7 @@ play, back, front`
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct block to make a compound word.',
-        printTitle: 'Fill up with the right option.'
+        printTitle: 'Underline the right option.'
       },
       data: [
         `house, boat, ship

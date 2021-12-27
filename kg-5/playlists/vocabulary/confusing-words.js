@@ -10,6 +10,7 @@ export default {
       data: {
         title: 'Confusing Words',
         text: [
+          /*
           `# to, two vs too`,
           {
             type: 'html',
@@ -23,7 +24,7 @@ export default {
             text: `<b>by</b> -  one does something<br>
 <b>bye</b> -  we say while leaving<br>
 <b>buy </b> - purchase`
-          },
+          },*/
           `# here vs hear`,
           {
             type: 'html',
@@ -75,6 +76,7 @@ export default {
         ]
       }
     },
+    /*
     {
       id: 'to-two-too',
       label: 'to, two, vs too',
@@ -104,7 +106,7 @@ The bike was driven *by* Smith.
 *Bye*, see you tomorrow.`,
         options: 'by, buy, bye'
       }
-    },
+    },*/
     {
       id: 'here-hear',
       label: 'here vs hear',
@@ -154,7 +156,7 @@ Sujit had to *borrow* a compass during the Math exam.`,
       label: 'past vs passed',
       type: 'fillup',
       data: {
-        title: 'Fill in the blanks with either past or passed.',
+        title: 'past vs passed',
         text: `We read about the *past* in history books.
 Have you *passed* the examination?
 Ten years have *passed* away since he met.
@@ -168,7 +170,7 @@ A bus *passed* by just a moment ago.`,
       label: 'heal vs heel',
       type: 'fillup',
       data: {
-        title: 'Heal vs Heel',
+        title: 'heal vs heel',
         text: `Your wound will *heal* soon.
 A stone was digging into my *heel*.
 Her concern is to *heal* sick people.
@@ -182,7 +184,7 @@ The girl turned on her *heel*.`,
       label: 'dear vs deer',
       type: 'fillup',
       data: {
-        title: 'Dear vs Deer',
+        title: 'dear vs deer',
         text: `We saw a herd of *deer* today.
 He is a very *dear* friend.
 The dogs went after the wounded *deer*.
@@ -212,7 +214,7 @@ The dog is *loose* in the neighborhood.`,
       label: 'lie vs lay',
       type: 'fillup',
       data: {
-        title: 'Click on the blanks and select the correct word.',
+        title: 'lie vs lay',
         text: `I am unwell. I am going to *lie* down for some time.
 Monica and her friend *lay* their keys on the shelf.
 They *lie* on the ground and look at the stars.

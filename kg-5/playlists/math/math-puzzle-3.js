@@ -29,7 +29,7 @@ export default {
         },
         {
           text: `?−11=?
-  +b+b+
+  +b−b+
   ?+?=5
   =b=b=
   14−8=?`,

@@ -419,7 +419,34 @@ const dragdrop = {
         mango | Mango
         grapes | Grapes`
       }
-    }
+    } /*
+    {
+      id: 'multiply',
+      type: 'quickArithmetic',
+      label: 'Multiply',
+      lockAfter: 2,
+      commonData: {
+        count: 10,
+        title: 'Multiply'
+      },
+      data: [
+        {
+          type: 'misc~x0*6'
+        },
+        {
+          type: 'misc~x0*x+x'
+        },
+        {
+          type: 'misc~x0*x-x'
+        },
+        {
+          type: 'misc~x*x+x-x'
+        },
+        {
+          type: 'misc~xx/x+6'
+        }
+      ]
+    }*/
   ]
 };
 

@@ -266,7 +266,7 @@ un, zip`
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct prefix.',
-        printTitle: 'Fill up with the right option.',
+        printTitle: 'Underline the right option.',
         leftWidth: 90,
         rightWidth: 210
       },
@@ -390,7 +390,7 @@ come, over, re`
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct prefix.',
-        printTitle: 'Fill up with the right option.',
+        printTitle: 'Underline the right options.',
         leftWidth: 90,
         rightWidth: 210
       },
@@ -995,7 +995,7 @@ grammatic, al`
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct suffix.',
-        printTitle: 'Fill up with the right suffix.',
+        printTitle: 'Underline the right options.',
         leftWidth: 180,
         rightWidth: 140
       },
@@ -1118,7 +1118,7 @@ effective, ly, ty`
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct suffix.',
-        printTitle: 'Fill up with the right suffix.',
+        printTitle: 'Underline the right options.',
         leftWidth: 180,
         rightWidth: 140
       },
@@ -1241,7 +1241,7 @@ fam, ous, age`
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct suffix.',
-        printTitle: 'Fill up with the right suffix.',
+        printTitle: 'Underline the right options.',
         leftWidth: 180,
         rightWidth: 140
       },
@@ -1332,7 +1332,7 @@ attach, ment, ness`
       commonData: {
         type: 'bothOpen',
         title: 'Drag and drop the correct prefix and suffix.',
-        printTitle: 'Fill up with the right prefix and suffix',
+        printTitle: 'Underline the right options.',
         leftWidth: 60,
         rightWidth: 110,
         midWidth: 160

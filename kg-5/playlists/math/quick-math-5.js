@@ -153,6 +153,9 @@ export default {
         },
         {
           type: 'misc~xxx-90'
+        },
+        {
+          type: 'misc~xxx-190'
         }
       ]
     }

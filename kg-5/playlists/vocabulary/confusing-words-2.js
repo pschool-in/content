@@ -91,6 +91,7 @@ export default {
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either fewer or less.',
+        printTitle: 'fewer vs less',
         text: `Rohan drinks *less* water than he used to.
 There are *fewer* shops open on Sundays.
 I have *less* time to complete this task.
@@ -105,6 +106,7 @@ We have *fewer* customers this year than last.`,
       type: 'fillup',
       data: {
         title: 'Click on the blanks and select the correct word.',
+        printTitle: 'accept vs except',
         text: `Please *accept* our invitation for lunch.
 All the players *except* the bowler wore caps.
 Priya will *accept* the award for the best singer.
@@ -126,6 +128,7 @@ Everyone *except* Ben has blue eyes.`,
       type: 'fillup',
       data: {
         title: ' Fill in the blanks with either affect or effect.',
+        printTitle: 'affect vs effect',
         text: `Smoking will *affect* the health.
 The *effect* of the tsunami was devastating.
 Tom's opinion will not *affect* my decision.
@@ -140,6 +143,7 @@ Air pollution has a bad *effect* on children.`,
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either cereal or serial.',
+        printTitle: 'cereal vs serial',
         text: `What is your favourite TV *serial*?
 My favourite *cereal* is Corn.
 What *cereal* do you like for breakfast?
@@ -154,6 +158,7 @@ Drought has spoiled this year's *cereal* crop.`,
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either pole or poll.',
+        printTitle: 'pole vs poll',
         text: `The result of the *poll* has been declared.
 Every morning the flag is raised on its *pole*.
 We are conducting a *poll* among teachers.
@@ -168,6 +173,7 @@ They flew to Europe via the North *Pole*.`,
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either site or sight.',
+        printTitle: 'site vs sight',
         text: `A *site* has been chosen for the new school.
 Don’t judge anyone at first *sight*.
 There are two shops on the *site*.
@@ -182,6 +188,7 @@ She lost her *sight* in an accident.`,
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either allowed or aloud.',
+        printTitle: 'allowed vs aloud',
         text: `Please read this story *aloud*.
 He was not *allowed* to write the exam.
 Smoking is not *allowed* in the park.
@@ -196,6 +203,7 @@ Swimming is not *allowed* at this beach.`,
       type: 'fillup',
       data: {
         title: 'Fill in the blanks with either desert or dessert.',
+        printTitle: 'desert vs dessert',
         text: `Plants in the *desert* do not need a lot of water.
 We had chocolate cake for *dessert*.
 Nobody likes to live in the *desert*.
@@ -211,6 +219,7 @@ My favorite kind of *dessert* is Strawberry ice cream.`,
       type: 'fillup',
       data: {
         title: 'Birth or Berth.',
+        printTitle: 'birth vs berth',
         text: `Mrs. Karthini gave *birth* to a baby girl.
 I need a copy of my *birth* certificate.
 They got *berth* in Rajdhani Express.

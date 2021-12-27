@@ -208,7 +208,7 @@ India is a democratic country.`,
 
           `A school is noisier than a hospital.
 My TV is bigger than yours.
-Greenland is larger than any other island in the world.`,
+Greenland is larger than any other island.`,
 
           `Whales are the biggest animals.
 Lead is the heaviest of all metals.
@@ -254,8 +254,8 @@ My dad is the *laziest* among all three.`,
 Geeta is *cleverer* than Suhani. 
 Sita is the *cleverest* of all three.
 English exam was *difficult* this year.
-The social exam was *more difficult* than English.
-Math exam was *the most difficult* of all subjects.`,
+The social exam was *more* difficult than English.
+Math exam was the *most* difficult of all subjects.`,
 
         `Krishna is a *tall* boy.
 Hari is *taller* than Krishna.
@@ -264,9 +264,9 @@ My mom is a *wise* member of the family.
 My dad is *wiser* than my mom.
 My grandmother is the *wisest* of all.`,
 
-        `Teju is an *active* girl.
-Laukya is *more active* than Teju.
-Padma is the *most active* girl among the three.
+        `Teju is a *smart* girl.
+Laukya is *smarter* than Teju.
+Padma is the *smartest* girl among the three.
 China is a *big* country.
 Canada is *bigger* than China.
 Russia is the *biggest* country.`,
@@ -289,7 +289,7 @@ Ants are the *smallest* of all three.`,
 My aunt is a *better* cook than my mom.
 My grandmother is the *best* cook of all.
 My room is *tidy*.
-My brother's room is *tidier than mine.
+My brother's room is *tidier* than mine.
 My mother's room is the *tidiest* of all three.`
       ]
     }
