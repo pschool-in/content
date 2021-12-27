@@ -163,40 +163,64 @@ export default {
                 },
         data: [
                 `week, month, *year*
-India, *England*, America
-*day*, night, evening
-Google, *Nykaa*, Apple
+India, America, *England*
+night, evening, *day*
+Google, Apple, *Samsung*
 school, office, *hospital*`,
           
-                `black, *red*, purple
-*Facebook*, Whatsapp, LinkedIn
-state, *country*, city
-*Paris*, London, Delhi
-company, *business*, office`,
+                `black, purple, *red*
+Whatsapp, Instagram, *Facebook*
+state, city, *country*
+London, Delhi, *Paris*
+company, office, *business*`,
 
-                `*question*, problem, solution
-Earth, *Mars*, Moon
+                `problem, solution, *question*
+Earth, Mars, *Jupiter*
 kitchen, room, *hall*
-pasta, *pizza*, burger
-*juice*, smoothie, cold drink`,
+pasta, burger, *pizza*
+shake, cold drink, *juice*`,
 
-                `story, *poem*, drama
+                `story, poem, *novel*
 Ram, Sita, *Laxman*
-chapati, *pulses*, rice
-*Asia*, Europe, Africa
-point, *line*, square`,
+chapati, pulses, *rice*
+Asia, Europe, *Africa*
+point, line, *square*`,
 
                 `forward, backward, *upward*
-mobile, *laptop*, computer
-*glass*, bottle, jug
-eyes, *ears*, nose
-walking, jumping, *running*`,
+mobile, laptop, *computer*
+glass, bottle, *jug*
+eyes, ears, *nose*
+book, notebook, *magzine*`,
           
-                  `Tom, *Cat*, *Jerry*, Mouse
-Shinchan, *Mitsy*, Sheero, *Dog*
-*Dora*, Girl, Boots, *Backpack*
-Bheem, *Laddoo*, *Kaalia*, Jaggu
-*Nobita*, Doraemon, *Giyaan*, Soonio`
+                `sun, moon, *stars*
+airplane, rocket, *satellite*
+sky, blue, *clouds*
+hen, bird, *egg*
+birds, feathers, *wings*`,
+
+                `clock, watch, *time*
+bottle, hug, *water*
+schoolbag, shelf, *books*
+morning, sunrise, *chirping*
+hot, cold, *warm*`,
+
+                `minutes, hours, *seconds*
+pencil, eraser, *sharpener*
+soap, paste, *brush*
+tomato, carrot, *radish*
+cashew nuts, almonds, *peanuts*`,
+
+                `rikshaw, tricycle, *auto*
+notepad, notebook, *diary*
+black, white, *grey*
+doctor, nurse, *hospital*
+temple, prayer, *priest*`,
+
+                `tea, coffee, *milk*
+afternoon, evening, *morning*
+plate, spoon, *bowl*
+chalk, duster, *board*
+classroom, tables, *chairs*`
       ]
     }
   ]
