@@ -346,6 +346,44 @@ We will solve this problem *ourselves*.
 *Which* one is the right answer?
 There is no end to *this*.`
       ]
+    },
+    {
+      id: 'fill-up',
+      label: 'Type in the blanks',
+      type: 'fillup-type',
+      commonData: {
+        title: `Click on the blanks type the right pronoun to complete the sentence.`,
+        noOptions: true
+      },
+      data: [
+      `I love cats. The cat in the picture is *mine*.
+Priya spilled ink on my notebook. *She* will have to pay for *it*.
+The school is taking us on a trip. *We* are very excited.
+Ravi bought chocolates today. It is *his* birthday.
+The class was empty. The only people there were *us*.`,
+
+      `The dog covered *itself* with the blanket.
+I bought this book. *It* is *mine*.
+They are discussing the topic among *themselves*.
+*You* are my best friend. What is mine, is *yours*.
+She *herself* made the cake.
+I will make tea by *myself*.
+The village *itself* is very small.
+Ishaan studies in this school. It is *his*.
+I borrowed this dress from Alia. This is *hers*.
+My new neighbors have a dog. This dog is *theirs*`,
+
+      `*What* do you mean?
+In *those* days, we were innocent.
+*Whose* dress is this?
+Those are chips and *these* are chocolates.
+*Which* one of these is yours?
+My dad gave *me* a present.
+*Whoever* has a dog, I won't go to their house.
+*This* is my bike and that is *yours*.
+*Who* is at the door?
+To *whom* shall I send these?`
+      ]
     }
   ]
 };

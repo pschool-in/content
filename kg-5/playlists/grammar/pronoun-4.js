@@ -220,6 +220,7 @@ Lohit finished the project by *himself*.
 The dog let *itself* into our room.`
       ]
     },
+    
     {
       type: 'selectWord',
       label: 'Identify the Pronouns',
@@ -240,6 +241,24 @@ My dad gave *me* *this* map. *He* told *me* *it* was *his*. *I* need to find dir
 *This* garage is *mine*. *Me* and my dad painted *it* *ourselves*.
 The children love holidays. *They* buy all the new things for *themselves*. *That* time is *their* favourite.
 Prateek is very lazy. *He* copied *his* friend's project instead of doing *it* *himself*.`
+      ]
+    },
+    {
+      id: 'fill-up',
+      label: 'Type in the blanks',
+      type: 'fillup-type',
+      commonData: {
+        title: `Click on the blanks type the right pronoun to complete the passage.`,
+        noOptions: true
+      },
+      data: [
+        `I went to the market yesterday. *I* bought beautiful earrings for *myself*. But my mom loved them, so *they* are *hers* now. She promised that *she* will bring another pair for *me*.`,
+
+        `The teacher is absent today. So *this* is our free period. *We* are free to go and play in the ground by *ourselves*. The next forty minutes are *ours*. *We* can play as much as we want.`,
+
+        `*I* eat with my friends during lunch break. *We* share *our* food with each other. My mom gave *me* noodles today. So *I* have bought two lunch boxes, one for *myself*, and another for *them*.`,
+
+        `*It* is Sunday today. My grandma will cook *her* special dish for *me*. *I* will help *her* in the kitchen. *We* will not let mom enter. *We* will be cooking all by *ourselves*.`
       ]
     }
   ]
