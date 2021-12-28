@@ -68,7 +68,7 @@ My mom made *tasty* jalebis for the party.`,
 
           `I took *some* chalk pieces from the desk.
 Priya has *little* interest in reading storybooks.
-We spent *few* hours planning for the birthday party.
+We spent a *few* hours planning for the birthday party.
 *Many* people visit Tirupathi every day.`
         ]
       ]

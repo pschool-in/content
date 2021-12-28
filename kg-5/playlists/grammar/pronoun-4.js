@@ -12,7 +12,7 @@ export default {
         text: [
           {
             type: 'html',
-            text: `The words ending in <i>-self</i> and <i>-selves</i> are usually called reflexive pronouns. They tell us, the <b>doer</b> and the <b>receiver</b> of the action are the same person. Eg:`
+            text: `The words ending in <i>-self</i> and <i>-selves</i> are usually called reflexive pronouns. They tell us, the <b>doer</b> and the <b>receiver</b> of the action is the same person. Eg:`
           },
           {
             type: 'hilight',
@@ -94,7 +94,7 @@ Meena and Mahesh did the project all by *themselves*.
 She *herself* went to the park to scold him.
 I love *myself*.
 Let's complete this work *ourselves*.
-The AC is turned *itself* off.
+The AC has turned *itself* off.
 We *ourselves* will build the treehouse.
 Harish lives in a big house by *himself*.`,
 
