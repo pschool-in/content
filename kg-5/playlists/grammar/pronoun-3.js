@@ -191,6 +191,34 @@ Sheena gave me *this* napkin. *This* is *hers*.`,
 *I* said to my friend, "What is *mine*, is *yours*. *He* was very happy to hear *this*.
 My parents teach *me*, "What is rightfully *yours* will surely be *yours*.`
       ]
+    },
+    {
+      id: 'fill-up',
+      label: 'Type in the blanks',
+      type: 'fillup-and-type',
+      commonData: {
+        title: `Click on the blanks and type the right pronoun to complete the passage.`,
+        noOptions: true
+      },
+      data: [
+        `*I* slipped on the road and hurt myself.
+Can *you* pass me the water bottle?
+Raj and Ashok are good at sports. *They* are captains of school teams.
+Pia and I have got the same homework. So, *we* will do it together.
+Rashi is sick today. *She* may be absent tomorrow also.
+My best friend bought a gift for *me*.
+Raj is very good at maths. I was surprised to see *his* speed in solving problems.
+My mom is helping *her* sister in the kitchen.
+My dad has *his* own car.
+Renu is my mom's friend. I call *her* aunt.`,
+
+`*I* am 12 years old.
+I love collecting coins. *This* is my coin collection.
+Rohan is my friend. *We* play together every day.
+My uncle works in a food factory. *He* is very hardworking.
+My aunt visits our home a lot. *She* is very talkative.
+Rashi needed my help with her dance. So, I asked *her* to come.`
+      ]
     }
   ]
 };

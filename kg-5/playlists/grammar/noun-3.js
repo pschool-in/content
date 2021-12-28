@@ -237,35 +237,65 @@ salesman, grocer, butcher, florist, stationer`,
               }
               },
       data: [
-          `anger, annoyance, *argument*
-apple, *grapes*, banana
-*beauty*, awe, brilliance
+          `anger, fight, *argument*
+apple, grapes, *banana*
+beauty, cute, *pretty*
 egg, farm, *poultry*
-confusion, *doubt*, unsure`,
+confusion, doubt, *uncertain*`,
         
-          `*desk*, blackboard, duster
-bed, *pillow*, blanket
+          `desk, blackboard, *duster*
+bed, pillow, *blanket*
 boat, river, *yacht*
-park, *bench*, grass
-*costume*, play, characters`,
+park, bench, *grass*
+costume, play, *characters*`,
 
-          `curiosity, *passion*, excitement
-confusion, uncertainty, *unsure*
-balloon, *airplane*, parachute
-*vase*, flowers, fragrance
-vehicle, *bike*, train`,
+          `curiosity, passion, *excitement*
+confusion, uncertainty, *doubt*
+balloon, airplane, *parachute*
+vase, flowers, *fragrance*
+bus, bike, *train*`,
 
-          `singer, dancer, *player*
-Virat Kohli, *MS Dhoni*, Sachin Tendulkar
-*Katrina*, Kareena, Priyanka
-Narendra Modi, *Rahul Gandhi, Indira Gandhi
-M. Gandhi, Pt. J. Nehru, *Bhagat Singh*`,
-
-          `rude, *mean*, bad
-*gentle*, kind, good
-teacher, *student*, principal
+          `rude, mean, *bad*
+gentle, kind, *good*
+teacher, student, *principal*
 football, cricket, *hockey*
-movies, *shows*, dramas`
+movies, theatre, *popcorn*`,
+
+          `postman, post office, *letters*
+breakfast, lunch, *dinner*
+cup, saucer, *tea*
+stumps, bat, *ball*
+bedroom, kitchen, *bathroom*`,
+
+          `brother, sister, *cousin*
+dog, cat, *pig*
+cow, buffalo, *ox*
+crow, dove, *parrot*
+parents, relatives, *family*`,
+
+          `friends, enemies, *strangers*
+Ashok, Raj, *Sameer*
+Priya, Saanvi, *Sanya*
+pigeon, sparrow, *birds*
+rose, lotus, *marigold*`,
+
+          `daffodil, sunflower, jasmine
+boat, ship, *submarine*
+bus, car, *truck*
+shoes, socks, *boots*
+skirts, trousers, *pyjamas*`,
+
+          `spoon, fork, *knife*
+camera, smartphone, *tablet*
+toes, fingers, *nails*
+cloth, needle, *thread*
+piano, guitar, *flute*`,
+
+          `police, thief, *crime*
+hero, villain, *heroine*
+man, woman, *child*
+medicine, tablet, *syrup*
+city, state, *country*`
       ]
     }
   ]
