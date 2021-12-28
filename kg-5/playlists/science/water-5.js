@@ -263,6 +263,7 @@ We should ignore the manufcture and expiry date in mineral water bottles.`
       label: 'WordSearch',
       data: {
         title: 'Find the given words from the table.',
+        pageBreakAfter: true,
         words: [
           {
             word: ['P', 'O', 'L', 'L', 'U', 'T', 'I', 'O', 'N'],

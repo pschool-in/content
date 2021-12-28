@@ -356,13 +356,13 @@ There is no end to *this*.`
         noOptions: true
       },
       data: [
-      `I love cats. The cat in the picture is *mine*.
+        `I love cats. The cat in the picture is *mine*.
 Priya spilled ink on my notebook. *She* will have to pay for *it*.
 The school is taking us on a trip. *We* are very excited.
 Ravi bought chocolates today. It is *his* birthday.
 The class was empty. The only people there were *us*.`,
 
-      `The dog covered *itself* with the blanket.
+        `The dog covered *itself* with the blanket.
 I bought this book. *It* is *mine*.
 They are discussing the topic among *themselves*.
 *You* are my best friend. What is mine, is *yours*.
@@ -373,7 +373,7 @@ Ishaan studies in this school. It is *his*.
 I borrowed this dress from Alia. This is *hers*.
 My new neighbors have a dog. This dog is *theirs*`,
 
-      `*What* do you mean?
+        `*What* do you mean?
 In *those* days, we were innocent.
 *Whose* dress is this?
 Those are chips and *these* are chocolates.

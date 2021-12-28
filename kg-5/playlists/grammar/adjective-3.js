@@ -78,7 +78,7 @@ We spent *few* hours planning for the birthday party.
       label: 'Fill in the Blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blank and select the appropriate adjective.`
+        title: `Select the appropriate adjective.`
       },
       data: [
         `I saw *many (much)* animals in the zoo.
@@ -121,6 +121,7 @@ I have a *little (few)* money left to buy the ice cream from the shop.`
       id: '100',
       commonData: {
         title: 'Drag and drop the words in the right boxes.',
+        printTitle: 'Rewrite the words on the right boxes.',
         types: ['Adjective', 'Not an Adjective']
       },
       data: [

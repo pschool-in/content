@@ -28,6 +28,7 @@ This cat is <b>ours</b>.`
       type: 'group',
       data: {
         title: 'Drag and drop the given words in the right boxes.',
+        printTitle: 'Rewrite the words given at the bottom in the right boxes',
         types: [
           {
             name: 'possessive pronoun',
@@ -89,7 +90,7 @@ This bag belongs to me and my sister. This bag is *ours*.`
       id: 'yes-no',
       type: 'classifySentence',
       data: {
-        title: 'True or False: The below sentence has possessive pronoun.',
+        title: 'True or False: The below sentences have possessive pronouns.',
         types: [
           {
             name: 'True',
@@ -111,7 +112,8 @@ That dress belongs to you.`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blank and fill in the correct possessive pronoun.`
+        title: `Click on the blank and fill in the correct possessive pronoun.`,
+        printTitle: `Fill up with the right pronoun.`
       },
       data: [
         `This is my laptop. It's *mine (me)*.

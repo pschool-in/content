@@ -124,7 +124,8 @@ I take a bath *daily*.`
       label: 'Select the adverbs of degree',
       id: 'multi-select-adverb',
       commonData: {
-        title: 'Tap on all the adverb of degrees.',
+        title: 'Tap on all the adverbs of degree.',
+        printTitle: 'Underline all the adverbs of degree.',
         multiSelect: true
       },
       data: [
@@ -171,6 +172,7 @@ I am not *entirely* sure what homework the teacher gave us. I was *slightly* dis
       id: 'multi-select-2',
       commonData: {
         title: 'Tap on all the adverbs of frequency.',
+        printTitle: 'Underline all the adverbs of frequency.',
         multiSelect: true
       },
       data: [
@@ -252,7 +254,9 @@ This job is *quite* interesting.`
       type: 'sorting',
       data: {
         title:
-          'Rearrange the adverbs of frequencies from the most probable to the least probable.',
+          'Rearrange the adverbs of frequency from the most probable to the least probable.',
+        printTitle:
+          'Number the adverbs of frequency from the most probable to the least probable. ',
         text: `Always, Usually, Sometimes, Rarely, Never`
       }
     },
@@ -261,7 +265,7 @@ This job is *quite* interesting.`
       label: 'Fill up with Options',
       type: 'fillup',
       commonData: {
-        title: `Choose the correct adverb of frequency. Tap on each blank to view options.`
+        title: `Choose the correct adverb of frequency.`
       },
       data: [
         `We go on a vacation *annually (annual, once)*.

@@ -362,6 +362,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
         isPractice: false,
         title: 'Select the adjectives in the passage.',
         multiSelect: true,
+        isPassage: true,
         styles: {
           fontSize: '1rem',
           dashWidth: 80

@@ -41,7 +41,7 @@ He went to the market by <b>himself</b>.`
             text: 'Myself, Herself, Itself, Himself, Yourselves, Themselves'
           },
           {
-            name: 'Non-reflexive pronoun',
+            name: 'Not a reflexive pronoun',
             text: 'He, Mine, She, Her, Them, They, Me, Him'
           }
         ]
@@ -164,8 +164,8 @@ We cooked biryani *ourselves (themselves)* for the guests.`
       id: 'tf',
       type: 'classifySentence',
       commonData: {
-        title: 'Check whether the below sentence is correct.',
-        types: ['Correct', 'Incorrect']
+        title: 'True or False: The below sentences are correct.',
+        types: ['True', 'False']
       },
       data: [
         [
@@ -220,7 +220,7 @@ Lohit finished the project by *himself*.
 The dog let *itself* into our room.`
       ]
     },
-    
+
     {
       type: 'selectWord',
       label: 'Identify the Pronouns',

@@ -34,9 +34,11 @@ red nine balls: incorrect`
 10. Noun`,
           {
             type: 'html',
-            text: `<b>A strange, little, yellow</b> leaf. Here the arrangement of the adjectives is as
-follows: <b>a</b> is an article, <b>strange</b> is an opinion or quality, <b>little</b> is the
-size, <b>yellow</b> is the color.`
+            text: `<b>A strange, little, yellow</b> leaf. Here the arrangement of the adjectives is as follows: <br>
+<b>a</b> is an article,<br>
+<b>strange</b> is an opinion or quality,<br>
+<b>little</b> is the size,<br>
+<b>yellow</b> is the color.`
           }
         ]
       }
@@ -46,7 +48,7 @@ size, <b>yellow</b> is the color.`
       id: 'mcq',
       type: 'mcq',
       commonData: {
-        title: 'Choose the appropriate options to complete the sentence.'
+        title: 'Choose the right option.'
       },
       data: [
         {

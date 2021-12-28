@@ -37,7 +37,8 @@ Deepa is reading <b>so</b> quickly.`
       label: 'Select the Adverb',
       id: 'select-word',
       commonData: {
-        title: 'Click on the adverb in the below sentence.'
+        title: 'Click on the adverb in the below sentence.',
+        printTitle: 'Underline the adverb in the below sentences.'
       },
       data: [
         `Anu swims *well*.

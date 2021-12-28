@@ -139,6 +139,8 @@ He danced *wonderfully (wonderful)*.`
       id: 'multi-select-word',
       commonData: {
         title: 'Tap on the adverb of manners in the following sentences.',
+        printTitle:
+          'Underline the adverb of manners in the following sentences.',
         multiSelect: true
       },
       data: [
@@ -220,7 +222,7 @@ The turtle moves *slowly (slow, fast)*.
 The teacher *clearly (clear, elaborate)* explained the topic.
 The dog runs *quickly (quick, slowly)*.`
       ]
-    },/*
+    } /*
     {
       type: 'selectWord',
       label: 'Select all Adverbs of Place',

@@ -69,7 +69,8 @@ export default {
       label: 'Select the Pronoun',
       id: '800',
       commonData: {
-        title: 'Select the pronoun in the below sentence.'
+        title: 'Select the pronoun in the below sentence.',
+        printTitle: 'Underline the pronouns in the below setences.'
       },
       data: [
         `*He* wants to buy a new cycle.
@@ -118,7 +119,7 @@ Raju told everyone *that* the party is tomorrow.
 *This* is crazy!`
       ]
     },
-// the below activity consist of possessive pronouns. It can't be about singular and plural.
+    // the below activity consist of possessive pronouns. It can't be about singular and plural.
     {
       type: 'group',
       label: 'Personal Pronouns or Not',
@@ -261,6 +262,7 @@ I forgot to eat.`
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks with 'I' or 'me' to complete the sentence.`,
+        printTitle: 'I vs Me',
         options: 'I, me'
       },
       data: [
@@ -299,7 +301,8 @@ She gave *me* some coins.`
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks with 'we' or 'us' to complete the sentence.`,
-        options: 'we, us'
+        options: 'we, us',
+        printTitle: 'We vs Us'
       },
       data: [
         `*We (Us)* are going to Delhi on Friday.
@@ -337,6 +340,7 @@ The teacher asked *us* to form a circle.`
       type: 'fillup',
       data: {
         title: "Fill in the blanks with 'he' or 'him'.",
+        printTitle: 'He vs Him',
         text: `If you see David, give *him* these books.
 Does *he* want some coffee?
 *He (Him)* is a wise man.
@@ -351,6 +355,7 @@ I didn't recognize *him*.`,
       type: 'fillup',
       data: {
         title: "Fill in the blanks with 'she' or 'her'.",
+        printTitle: 'She vs Her',
         text: `I gave *her* the books.
 *She (Her)* doesn't have a pen.
 *She (Her)* is so clever.
@@ -365,6 +370,7 @@ I will talk to *her* about this issue.`,
       type: 'fillup',
       data: {
         title: "Fill in the blanks with 'they' or 'them'.",
+        printTitle: 'They vs Them',
         text: `We asked *them* to keep the door open.
 If you build it, *they* will come.
 *They (Them)* are very nice people.
