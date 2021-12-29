@@ -595,12 +595,11 @@ muskmelon |खरबूजा `,
 
         `sapotta| चीकू
 jamun| जामुन
-coconut| नारियल
 pear| नाशपाती
 tamarind| इमली
 sugarcane| ईख`,
 
-        `water-chesnut| सिंघाड़ा
+        `water-chesnut| सिंघाड़ा| सिं_ड़ा
 blueberry| नीलबदरी
 peach| सतालू
 jujube| बेर
@@ -621,7 +620,7 @@ dragon-fruit| पिताया`,
       data: [
         `carrot| गाजर 
 beetroot| चुकंदर 
-onion| प्याज़   
+onion| प्याज़| __ज़   
 tomato| टमाटर 
 potato| आलू `,
 
@@ -634,10 +633,10 @@ garlic| लहसुन`,
         `ginger| अदरक 	  
 pumpkin| कद्दू  
 almond|  बादाम
-beans| फलियां
+beans| फलियां| __यां
 bitter-gourd| करेला`,
 
-        `brinjal| बैंगन 
+        `brinjal| बैंगन| बैं__
 capsicum| शिमला मिर्च| शि__ __
 cashewnut| काजू 
 chilli| मिर्च
@@ -650,7 +649,7 @@ greenpeas| मटर
 ladies-finger| भिन्डी`,
 
         `mintleaf| पुदीना 
-peanut| मूंगफली
+peanut| मूंगफली| मूं___
 raddish| मूली
 spinach| पालक
 tulsi|तुलसी
@@ -659,7 +658,7 @@ bottlegourd|लौकी`,
         `turnip| शलगम
 chickpea| चना
 fenugreek| हरी मेथी| ह_ __
-mustard-greens| सरसों पत्ता| स__ __
+mustard-greens| सरसों पत्ता| स_सों __
 turmeric| हल्दी
 sweet-potato| शकरकंद`,
 
@@ -668,7 +667,7 @@ broad-beans|सेम फली| से_ __
 snake-gourd|चिचिण्डा
 cluster-beans|गँवार फली| गँ__ __
 kohlrabi|बन्द-गोभी| ब__-__
-ivygourd|कुंदरू
+ivygourd|कुंदरू| कुं__
 ridgegourd|तुरई`,
       ],
     },
@@ -685,7 +684,7 @@ ridgegourd|तुरई`,
         `rose| गुलाब 
 lotus| कमल	
 sunflower| सूरजमुखी 	
-marigold| गेंदा 
+marigold| गेंदा| गें_ 
 hibiscus| गुडहल 	
 jasmine| चमेली`,
 
@@ -725,69 +724,69 @@ monkey| बंदर
 tiger| बाघ`,
 
         `hippo| जलहस्ती	 
-rhino| गैंडा
-fox| लोमड़ी 
+rhino| गैंडा| गैं_
+fox| लोमड़ी| __ड़ी 
 crocodile| मगरमच्छ 	  
 bear| भालू 	
 camel| ऊंट`,
 
         `fish| मछली 
-frog| मेंढक 
+frog| मेंढक| _ढक
 crab| केकड़ा 
-snake | साँप   
+snake | साँप| साँ_  
 squirrel| गिलहरी`,
 
         `tortoise| कछुआ
 rat| चूहा 
-ant| चींटी 
+ant| चींटी| चीं_ 
 fly| मक्खी
-bat| चमगादड़ `,
+bat| चमगादड़| ____ड़ `,
 
-        `buffalo|  भैंस
+        `buffalo| भैंस| भैं_
 butterfly| तितली
 cow| गाय
 donkey| गधा  
-leopard| तेंदुआ`,
+leopard| तेंदुआ| तें__`,
 
         `mongoose| नेवला
 mosquito| मच्छर 
-wolf| भेड़िया
+wolf| भेड़िया| _ड़ि_
 cockroach| तिलचट्टा 	
 lizard| छिपकली 
 rabbit| खरगोश`,
 
         `zebra| जेबरा
-shark| हाँगर
+shark| हाँगर| हाँ__
 dragonfly| व्याध-पतंग| व्__-___
 winged-termites| दीमक
 kangaroo| कंगेरू
 garden-lizard| उद्यान छिपकली| उ___ ____`,
 
-        `alligator| घड़ियाल
+        `alligator| घड़ियाल| _ड़ि__
 baboon| लंगूर
-antelope| बारहसिंगा
+antelope| बारहसिंगा| ___सिं_
 boar| जंगली सूअर| जं__ ___
 bison| जंगली भैसा| जं__ __
-bull| सांड`,
+bull| सांड| सां_`,
 
         `bug| खटमल
-cricket| झिंगुर
+cricket| झिंगुर| झिं__
 chameleon| गिरगिट
-hyena| लकड़बग्घा
+hyena| लकड़बग्घा| __ड़___
 jackal| सियार
 polarbear| ध्रुवीय भालू| ध्___ __`,
 
         `pocupine| साही
-prawn| झींगे
+prawn| झींगे| झीं_
 python| अजगर
 bee|मधुमक्खी
 goldfish|सुनहरी मछली| सु___ ___
-seahorse|समुद्री घोड़े| स__ __`,
+seahorse|समुद्री घोड़े| स__ _ड़े`,
 
-        `mole|छछूँदर
-spider|मकड़ी
+        `mole|छछूँदर| _छूँ__
+spider|मकड़ी| __ड़ी
 caterpillar|इल्ली
-earthworm|केंचुआ`,
+earthworm|केंचुआ| कें__`,
       ],
     },
     {
@@ -802,13 +801,13 @@ earthworm|केंचुआ`,
       data: [
         `crow| कौवा 
 dove| कबूतर 
-duck| बतख़ 
-hen| मुर्गी 
+duck| बतख़| __ख़
+hen| मुर्गी| _र्गी
 parrot| तोता `,
 
         `peacock| मोर  
 sparrow| गौरेया
-chick| चूज़ा
+chick| चूज़ा| _ज़ा
 crane| सारस
 vulture| गिद्ध`,
 
@@ -817,18 +816,18 @@ kingfisher|नीलकंठ
 myna| मैना 
 ostrich| शुतुरमुर्ग 
 owl| उल्लू
-rooster| मुर्गा`,
+rooster| मुर्गा| _र्गा`,
 
-        `woodpecker| कठफोड़वा
+        `woodpecker| कठफोड़वा| ___ड़_
 eagle| चील
 cuckoo| कोयल
-swan| हंस
+swan| हंस| हं_
 pheasant| तीतर
-falcon| बाज़`,
+falcon| बाज़| _ज़`,
 
         `bulbul|बुलबुल
 spotted-dove| चित्तीदार कबूतर| चि____ ____
-seagull|सामुद्रिक चिड़िया| सा____ ___
+seagull|सामुद्रिक चिड़िया| सा____ _ड़ि_
 hawk|बाज`,
       ],
     },
@@ -844,11 +843,11 @@ hawk|बाज`,
       data: [
         `ear| कान 	          
 hand| हाथ
-mouth| मुंह 	
+mouth| मुंह| मुं_ 	
 nose| नाक`,
 
         `tooth| दांत 
-eye| आंख 
+eye| आंख| आं_
 foot| पैर 
 hair| बाल`,
       ],
@@ -864,7 +863,7 @@ hair| बाल`,
       },
       data: [
         `shoe|जूता
-  sock|मौज़ा
+  sock|मौज़ा| _ज़ा
   pyjama|पजामा
   gloves|दस्ताने`,
 
@@ -897,7 +896,7 @@ hair| बाल`,
   carpenter|बढ़ई
   nurse|दाई`,
 
-        `chef|बावर्ची
+        `chef|बावर्ची| __र्ची
   doctor|चिकित्सक
   soldier|सैनिक
   barber|नाई
@@ -918,26 +917,26 @@ hair| बाल`,
 table| मेज	
 bed| बिस्तर
 candle| मोमबत्ती
-chair| कुर्सी`,
+chair| कुर्सी| _र्सी`,
 
         `baby| बच्चा
-boy| लड़का
-girl| लड़की	
+boy| लड़का| _ड़_
+girl| लड़की| _ड़_	
 man| आदमी `,
 
         `shelf| अलमारी
-ball| गेंद
+ball| गेंद| गें_
 glasses| ऐनक
-clock| घड़ी 
+clock| घड़ी| _ड़ी  
 door| दरवाजा
 broom| झाड़ू`,
 
-        `window|खिड़की
+        `window|खिड़की| _ड़_
 bucket|बाल्टी
 soap|साबुन
 pillow|तकिया
 basket|टोकरी
-dustbin|कचरे का डिब्बा`,
+dustbin|कचरे का डिब्बा| क__ का डि__`,
       ],
     },
     {
@@ -950,15 +949,15 @@ dustbin|कचरे का डिब्बा`,
         lang: "hi",
       },
       data: [
-        `eraser| रबड़	
+        `eraser| रबड़| __ड़	
             pen| कलम
             ruler| मापन
             schoolbag| बस्ता
             calculator| गणना यंत्र| ग__ __`,
 
-        `scissors| कैंची
+        `scissors| कैंची| कैं_
             book| किताब 	
-            crayons| चित्रांकनी
+            crayons| चित्रांकनी| _त्रां__
             ink|स्याही`,
       ],
     },
@@ -973,9 +972,9 @@ dustbin|कचरे का डिब्बा`,
       },
       data: [
         `stove| चूल्हा	 
-fork| कांटा
+fork| कांटा| कां_
 knife| छुरी	
-pan| कड़ाही	
+pan| कड़ाही| _ड़ा_
 spoon | चम्मच`,
 
         `pot| मटका
@@ -986,9 +985,9 @@ plate| थाली`,
 
         `sugar|चीनी
 bowl|कटोरा
-meat|मांस
+meat|मांस| मां_
 salt|नमक
-sweets|मिठाइयाँ`,
+sweets|मिठाइयाँ| ___याँ`,
 
         `bread|रोटी
 juice|रस
@@ -1014,7 +1013,7 @@ balance| तराज़ू
 blackboard| श्यामपट
 microscope| सूक्ष्मदर्शी
 needle| सुई
-flute|बांसुरी`,
+flute|बांसुरी| बां__`,
 
         `plough| हल
 saw| आरा	
@@ -1025,10 +1024,10 @@ tabla|तबला`,
 
         `awl| सूआ 
 easel| चित्रफलक 	 
-hacksaw| लोहा-आरी| लो_-__
+hacksaw| लोहा-आरी| लो_ __
 scalpel| छुरी 
-screw| पेंच
-screwdriver| पेंचकस`,
+screw| पेंच| पें_
+screwdriver| पेंचकस| पें___`,
       ],
     },
     {
@@ -1042,7 +1041,7 @@ screwdriver| पेंचकस`,
       },
       data: [
         `sun| सूर्य
-moon| चांद
+moon| चांद| चां_
 rain| बारिश
 star| तारा
 milk| दूध`,
@@ -1052,7 +1051,7 @@ fruits|फल
 leaf|पत्ता
 world|दुनिया`,
 
-        `nest|घोंसला
+        `nest|घोंसला| घों__
 water-drop|ओस
 waterfall|झरना
 rainbow|इंद्रधनुष`,
@@ -1098,8 +1097,7 @@ rainbow|इंद्रधनुष`,
             trident| त्रिशूल
             box|डिब्बा `,
 
-        `vegetables| सब्ज़ियाँ
-            dhol|ढोल
+        `  dhol|ढोल
             palanquin|पालकी
             medicine|दवा
             balloon|गुब्बारा
