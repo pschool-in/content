@@ -239,7 +239,7 @@ salesman, grocer, butcher, florist, stationer`,
       data: [
           `anger, fight, *argument*
 apple, grapes, *banana*
-beauty, cute, *pretty*
+slippers, sandals, *shoes*
 egg, farm, *poultry*
 confusion, doubt, *uncertain*`,
         
@@ -263,7 +263,7 @@ movies, theatre, *popcorn*`,
 
           `postman, post office, *letters*
 breakfast, lunch, *dinner*
-cup, saucer, *tea*
+ship, sailor, *ocean*
 stumps, bat, *ball*
 bedroom, kitchen, *bathroom*`,
 
@@ -291,7 +291,7 @@ toes, fingers, *nails*
 cloth, needle, *thread*
 piano, guitar, *flute*`,
 
-          `police, thief, *crime*
+          `police, thief, *police station*
 hero, villain, *heroine*
 man, woman, *child*
 medicine, tablet, *syrup*

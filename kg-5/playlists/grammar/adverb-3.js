@@ -80,7 +80,7 @@ Please come *forward* and answer.`
       type: 'classifySentence',
       id: 'classify3',
       commonData: {
-        title: 'What does the underlined adverb modifies?',
+        title: 'What does the underlined adverb modify?',
         types: ['Verb', 'Adjective', 'Adverb']
       },
       data: [

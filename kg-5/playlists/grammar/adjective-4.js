@@ -112,11 +112,11 @@ They have *two* carpets at the centre of the hall.`
           },
           {
             qText: `There are *few* chairs in the hall.`,
-            options: `adjecitve of quantity, adjective of number, adjective of quality`
+            options: `adjective of quantity, adjective of number, adjective of quality`
           },
           {
             qText: `*Which* is your bag?`,
-            options: `interrogative adjective, possessive adjecitve, demonstartive adjective`
+            options: `interrogative adjective, possessive adjective, demonstrative adjective`
           },
           {
             qText: `My dad is an *excellent* cook.`,
@@ -373,7 +373,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
 Some trees have *broad* leaves while some have *narrow* leaves. 
 Some trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
 
-        `My cousin, Ram has a *large* farm. In that farm there are many plants and animals. 
+        `My cousin, Ram has a *large* farm. On that farm, there are many plants and animals. 
 The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
 Ram sells *fresh* fruits and vegetables in the *big* market every Sunday.`,
 

@@ -189,7 +189,7 @@ Sheena gave me *this* napkin. *This* is *hers*.`,
 *I* like my mother's Kurti. *I* borrowed *this* for a party. *It* is *hers*.
 *That* house is *theirs*. *It* is not in a good condition. *They* need to repair *it*.
 *I* said to my friend, "What is *mine*, is *yours*. *He* was very happy to hear *this*.
-My parents teach *me*, "What is rightfully *yours* will surely be *yours*.`
+My parents taught *me*, "What is rightfully *yours* will surely be *yours*.`
       ]
     },
     {

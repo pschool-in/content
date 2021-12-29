@@ -70,7 +70,7 @@ export default {
       id: '800',
       commonData: {
         title: 'Select the pronoun in the below sentence.',
-        printTitle: 'Underline the pronouns in the below setences.'
+        printTitle: 'Underline the pronouns in the below sentences.'
       },
       data: [
         `*He* wants to buy a new cycle.
@@ -232,7 +232,7 @@ The girls are sleeping.`
       id: 'true-false-2',
       type: 'classifySentence',
       commonData: {
-        title: 'True or False: The below sentence has demonstrative pronoun.',
+        title: 'True or False: The below sentence has a demonstrative pronoun.',
         types: ['True', 'False']
       },
       data: [
@@ -279,14 +279,14 @@ Please have breakfast with *me*.`,
 
         `Can *I* have chocolate?
 Everybody is happy for *me*.
-Will you help *me* with my homework. 
+Will you help *me* with my homework? 
 Dad dropped *me* at school today.
 *I (Me)* bought a new dress.
 She asked *me* a question.
 She walks to the park with *me*.
 My dad makes *me* laugh.
 Savitha and *I* eat lunch together.
-*Me (I)* and my brother play together in the ground.`,
+*Me (I)* and my brother play together on the ground.`,
 
         `Could you pass *me* the salt?
 *I (Me)* don't want to go out now.

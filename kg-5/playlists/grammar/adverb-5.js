@@ -199,7 +199,7 @@ They have *four* cars. *Each* person in the house drives their vehicle. They *ra
 Ravi *never* tells lie. But *today* he blamed the wrong student. We will *never* trust him *again*.
 She missed her bus *again*. As *usual*, her father has to drop her at school. This has become her *daily* thing.
 We *generally* search for songs on the internet. But he *often* listens to the radio.
-I went to a restaurant last week, but I *seldom* ate at home. I *rarely* eat something outside.
+I went to a restaurant last week, but I *seldom* ate at home. I *rarely* eat anything outside.
 I'm *never* late for maths class. I'm *always* on time. I practice maths *every day*.
 My sister *often* reads a book *weekly*. She loves poetry and novels.`,
 

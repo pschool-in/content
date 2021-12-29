@@ -222,7 +222,7 @@ The turtle moves *slowly (slow, fast)*.
 The teacher *clearly (clear, elaborate)* explained the topic.
 The dog runs *quickly (quick, slowly)*.`
       ]
-    } /*
+    }, /*
     {
       type: 'selectWord',
       label: 'Select all Adverbs of Place',
@@ -258,6 +258,44 @@ We looked *around* but we couldn't find the dog. It may be sleeping.
 My brother *never* helps me. He is always *at* his friend's house.
 *Sometimes*, my Dad comes home early. Then we walk *around* the street at night.`
       ]
-    }*/
+    },*/
+    {
+      type: 'selectWord',
+      label: 'Select the Adverb of Time',
+      id: 'select-word',
+      commonData: {
+        title: 'Click on the adverb of time in the below sentence.',
+        printTitle: 'Underline the adverb of time in the below sentences.'
+      },
+      data: [
+          `I will clean my room *tomorrow*.
+I saw you *yesterday*, at the restaurant.
+My uncle lived in London for a *year*.
+I *often* eat sea food.
+Karan *never* drinks milk.
+I am *seldom* late.
+We should *always* respect our elders.
+My sister *rarely* lies.
+I *frequently* visit my grandma's house.
+I go to the playground *occasionally*.`,
+
+          `I *normally* listen to the rock music.
+*Often*, I go for morning walks.
+I go to the canteen *regularly*.
+I *sometimes* sleep very late.
+My brother *usually* enjoy being with his friends.
+I haven't met him *yet*.
+Do you *still* work in that company?
+I will call you *later*.
+She *often* falls asleep during class.
+*Generally*, I don't like green vegetables.`,
+
+          `I was sleeping *then*.
+*Now* I am going to his party.
+I waited for a *few* minutes.
+She said she would be sleeping for a *while*.
+I am going to the market *now*.`
+      ]
+    }
   ]
 };
