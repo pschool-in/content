@@ -225,25 +225,25 @@ The dog runs *quickly (quick, slowly)*.`
     }, /*
     {
       type: 'selectWord',
-      label: 'Select all Adverbs of Place',
+      label: 'Select all Adverbs of Place and Time',
       id: 'multi-select-word-2',
       commonData: {
-        title: 'Select all Adverbs in the below sentences.',
+        title: 'Select all adverbs of place and time in the below sentences.',
         multiSelect: true
       },
       data: [
-        `The cat is *under* the sofa. It went there *when* it was time to bathe.
+        `My cat eats *under* the sofa. It goes there *whenever* it wants to eat.
 I will clean my house *tomorrow*. I am very tired *now*.
 The children are playing *outside*. They have been playing *since* evening.
-I am studying in this school *since* fourth grade. The school is *in* the city.
+I am studying in this school *since* fourth grade. The school bus runs *in* the city.
 We rowed the boat towards *north*, *where* the waves were not high.
-She came *running* to me *when* she saw a dog. I laughed.
+She came running *to* me *when* she saw a dog. I laughed.
 I had my lunch over *there* *yesterday*. I will eat *here* *today*.
-He *never* drinks milk. His mom sends him *to* my house. He drinks it with me.
+He *never* drinks milk. But he eats everything *at* my house.
 We are meeting *behind* the school *next week*. We will play cricket *there*.
-*Since* she moved *across* the street, we have become friends. We play *in* the park *every day*.
-The car is moving *backwards*. I will move aside *when* it will come closer.
-I *always* eat an apple *in* the kitchen. I go to the school *afterwards*.`,
+*Since* she moved *across* the street, we have become friends. We play together *every day*.
+The car is moving *backwards*. I will move *aside* *when* it will come closer.
+I *always* eat *in* the kitchen. I go to the school *afterwards*.`,
 
         `I met Ram *yesterday*. I came to know that he lives *across* the street.
 I completed my homework *last night*. I won't be punished *in* the school today.
@@ -253,10 +253,10 @@ I am taking my dog for a walk *now*. It loves to go *near* the park.
 I will be *here* *tomorrow* also. We can meet *here* only.
 My sister likes to play *indoor* games. But she went to play cricket *yesterday* evening.
 I will go to the school *next week*. I am *overseas* *right now*.
-The clouds are *up* *in* the sky. It will probably rain *tonight*.
+The clouds are *up* in the sky. It will probably rain *tonight*.
 We looked *around* but we couldn't find the dog. It may be sleeping.
-My brother *never* helps me. He is always *at* his friend's house.
-*Sometimes*, my Dad comes home early. Then we walk *around* the street at night.`
+My brother *never* helps me. He is *always* at his friend's house.
+*Sometimes*, my Dad comes home *early*. Then we walk *around* the street at night.`
       ]
     },*/
     {
