@@ -69,6 +69,35 @@ export default {
       Convert the following fractions 3/8, 1/6 into like fractions | ?0/?1, ?2/?3 | 9, 24, 4, 24
       Convert the following fractions 1/6, 4/9 into like fractions | ?0/?1, ?2/?3 | 3, 18, 8, 18`,
     ]
+  },
+ {
+    type: 'compare',
+    id: 'compare',
+    label: 'Compare Fractions',
+    commonData: {
+      fontSize: '2.5rem',
+      type: 'math',
+      probType: 'compare'
+    },
+    data: [
+      `3/7 = 3/7
+3/8 = 2/8
+2/11 = 10/11 
+5/15 = 10/30
+5/8 = 5/9 
+4/7 = 4/11
+10/11 = 10/13 
+1/5 = 1/9`,
+
+      `5/6 = 1/8 
+ 5/12 = 1/6 
+ 7/8 = 14/16 
+ 4/9 = 4/9 
+ 5/18 = 1/9 
+ 2/3 = 4/7 
+ 3/7 = 5/9 
+ 4/11 = 1/5`,
+     ]
   }
   ]
 };
