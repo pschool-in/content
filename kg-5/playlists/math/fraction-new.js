@@ -49,6 +49,26 @@ export default {
       18/27, 2/3
       10/14, 5/7`
     }
-   }
+   },
+ {
+    type: 'numberInput',
+    id: 'word-prob',
+    label: 'Answer the word problem.',
+    commonData: {
+      title: 'Answer the word problem.',
+      type: 'word-problem'
+    },
+    data: [
+      `Convert the following fractions 3/4, 5/8 into like fractions | ?0/?1, ?2/?3 | 6, 8, 5, 8
+      Convert the following fractions 3/5, 3/7 into like fractions | ?0/?1, ?2/?3 | 21, 35, 15, 35
+      Convert the following fractions 4/5, 3/10 into like fractions | ?0/?1, ?2/?3 | 8, 10, 3, 10
+      Convert the following fractions 2/9, 1/6 into like fractions | ?0/?1, ?2/?3 | 4, 18, 3, 18`,
+
+      `Convert the following fractions 1/4, 2/3 into like fractions | ?0/?1, ?2/?3 | 3, 12, 8, 12
+      Convert the following fractions 5/6, 4/5 into like fractions | ?0/?1, ?2/?3 | 25, 30, 24, 30
+      Convert the following fractions 3/8, 1/6 into like fractions | ?0/?1, ?2/?3 | 9, 24, 4, 24
+      Convert the following fractions 1/6, 4/9 into like fractions | ?0/?1, ?2/?3 | 3, 18, 8, 18`,
+    ]
+  }
   ]
 };
