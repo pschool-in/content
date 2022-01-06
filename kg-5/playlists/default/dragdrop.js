@@ -407,6 +407,28 @@ const dragdrop = {
       }
     },
     {
+      type: 'numberInput',
+      id: 'word-prob',
+      label: 'Fill in the Box',
+      lockAfter: 1,
+      commonData: {
+        title: 'Answer the word problem.',
+        type: 'word-problem',
+        allowFrac: true,
+        firstLineFontSize: '2.5rem'
+      },
+      data: [
+        {
+          list: [
+            `1/2 = ?0/?1
+              2,4`,
+            `3/5 = ?0/15 
+              9`
+          ]
+        }
+      ]
+    },
+    {
       type: 'dragDropImgLabel',
       label: 'Drag and Drop',
       id: 'dragDropImgLabel',

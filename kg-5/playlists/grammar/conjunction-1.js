@@ -89,7 +89,10 @@ I have a chair *but* I need one more.
 Sheep gives us wool *and* it is used in winters.
 I throw the stick *but* my dog never runs to get it.`,
 
-        `Neha is friend with all the boys *and* girls in the class.
+        `Kate likes to play football *and* cricket.
+Kate likes to play football *but* she does not like cricket.
+Kate likes to play football *or* cricket
+Neha is friend with all the boys *and* girls in the class.
 We burn crackers *and* eat sweets on Diwali.
 We have a dog *but* I also want a cat.
 Mohan is a smart boy *but* he is not good at sports.

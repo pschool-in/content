@@ -199,6 +199,7 @@ export default {
         }
       ]
     },
+
     {
       type: 'numberInput',
       id: 'word-prob',

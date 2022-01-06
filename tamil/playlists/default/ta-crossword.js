@@ -8,7 +8,91 @@ export default {
       type: 'crossword',
       label: 'குறுக்கெழுத்து - 1',
       data: {
-        type: 'குறுக்கெழுத்து - 1'
+        words: [
+          {
+            marker: { y: 0, x: 0 },
+            direction: 'across',
+            word: 'கருப்பு',
+            hint: 'இரவின் நிறம் '
+          },
+          {
+            marker: { y: 0, x: 6 },
+            direction: 'down',
+            word: 'சிவப்பு',
+            hint: ' உதிரத்தின் நிறம் '
+          },
+          {
+            marker: { y: 2, x: 1 },
+            direction: 'across',
+            word: 'வெள்ளை',
+            hint: 'முகிலின் நிறம் '
+          },
+          {
+            marker: { y: 4, x: 1 },
+            direction: 'down',
+            word: 'பச்சை',
+            hint: 'இலையின் நிறம்'
+          },
+          {
+            marker: { y: 3, x: 2 },
+            direction: 'across',
+            word: 'நீலம்',
+            hint: 'வானின் நிறம் '
+          },
+          {
+            marker: { y: 5, x: 3 },
+            direction: 'across',
+            word: 'மஞ்சள்',
+            hint: 'வாழைப்பழத்தின் நிறம் '
+          },
+          {
+            hint: 'பொங்கலன்று பற்களால் கடித்து உண்ண படுவது ',
+            word: 'கரும்பு',
+            direction: 'down',
+            marker: { x: 0, y: 0 }
+          },
+          {
+            hint: 'பசு - ஆண்பால் ',
+            word: 'காளை',
+            direction: 'down',
+            marker: { x: 3, y: 1 }
+          },
+          {
+            hint: 'அரசியல் மாற்றத்தின் போது உபயோகிக்க படும் சொல் ',
+            word: 'புரட்சி',
+            direction: 'across',
+            marker: { x: 3, y: 0 }
+          },
+          {
+            hint: 'மிக சிறிய செடி ',
+            word: 'புல்',
+            direction: 'across',
+            marker: { x: 0, y: 3 }
+          },
+          {
+            hint: 'சத்தம்',
+            word: 'ஓசை',
+            direction: 'across',
+            marker: { x: 0, y: 6 }
+          },
+          {
+            hint: 'பயம்',
+            word: 'அச்சம்',
+            direction: 'down',
+            marker: { x: 5, y: 3 }
+          }
+        ],
+        table: [
+          ['க', 'ரு', 'ப்', 'பு', 'ர', 'ட்', 'சி'],
+          ['ரு', '', '', 'கா', '', '', 'வ'],
+          ['ம்', 'வெ', 'ள்', 'ளை', '', '', 'ப்'],
+          ['பு', 'ல்', 'நீ', 'ல', 'ம்', 'அ', 'பு'],
+          ['', 'ப', '', '', '', 'ச்', ''],
+          ['', 'ச்', '', 'ம', 'ஞ்', 'ச', 'ள்'],
+          ['ஓ', 'சை', '', '', '', 'ம்', '']
+        ],
+        title: 'குறுக்கெழுத்து - 1',
+        lang: 'ta'
       }
     },
     {
@@ -16,7 +100,91 @@ export default {
       type: 'crossword',
       label: 'குறுக்கெழுத்து - 2',
       data: {
-        type: 'குறுக்கெழுத்து - 2'
+        words: [
+          {
+            hint: '_____ செய விரும்பு',
+            word: 'அறம்',
+            direction: 'across',
+            marker: { x: 0, y: 0 }
+          },
+          {
+            hint: 'பாசம் ',
+            word: 'அன்பு',
+            direction: 'down',
+            marker: { x: 0, y: 0 }
+          },
+          {
+            hint: 'சத்தமில்லாத சிரிப்பு',
+            word: 'புன்னகை',
+            direction: 'across',
+            marker: { x: 0, y: 2 }
+          },
+          {
+            hint: '______  இட்டு உண் ',
+            word: 'ஐயம்',
+            direction: 'down',
+            marker: { x: 6, y: 4 }
+          },
+          {
+            hint: 'ஆறுவது ________',
+            word: 'சினம்',
+            direction: 'across',
+            marker: { x: 4, y: 6 }
+          },
+          {
+            hint: 'Mobile phone - தமிழாக்கம் ',
+            word: 'கைபேசி',
+            direction: 'down',
+            marker: { x: 3, y: 2 }
+          },
+          {
+            hint: 'பெரிய ஆசை ',
+            word: 'பேராசை',
+            direction: 'across',
+            marker: { x: 3, y: 3 }
+          },
+          {
+            hint: 'அழகான ________ ',
+            word: 'ராட்சசி',
+            direction: 'down',
+            marker: { x: 4, y: 3 }
+          },
+          {
+            hint: 'ஏற்பது __________',
+            word: 'இகழ்ச்சி',
+            direction: 'across',
+            marker: { x: 0, y: 6 }
+          },
+          {
+            hint: 'ஒருவகை பழம் - இலையோடு விற்கப்படும் ',
+            word: 'அன்னாசி',
+            direction: 'across',
+            marker: { x: 0, y: 4 }
+          },
+          {
+            hint: 'எட்டுக்கால் பூச்சி',
+            word: 'சிலந்தி',
+            direction: 'across',
+            marker: { x: 3, y: 1 }
+          },
+          {
+            hint: 'கேள்வி கேட்டால் சொல்ல படுவது ',
+            word: 'பதில்',
+            direction: 'down',
+            marker: { x: 6, y: 0 }
+          }
+        ],
+        table: [
+          ['அ', 'ற', 'ம்', '', '', '', 'ப'],
+          ['ன்', '', '', 'சி', 'ல', 'ந்', 'தி'],
+          ['பு', 'ன்', 'ன', 'கை', '', '', 'ல்'],
+          ['', '', '', 'பே', 'ரா', 'சை', ''],
+          ['அ', 'ன்', 'னா', 'சி', 'ட்', '', 'ஐ'],
+          ['', '', '', '', 'ச', '', 'ய'],
+          ['இ', 'க', 'ழ்', 'ச்', 'சி', 'ன', 'ம்']
+        ],
+        title: 'குறுக்கெழுத்து - 2',
+        lang: 'ta'
       }
     },
     {

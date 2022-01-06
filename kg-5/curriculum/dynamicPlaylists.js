@@ -697,6 +697,11 @@ const math = [
   },
   {
     label: 'Information Processing',
+    id: 'information-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'Information Processing - 2',
     id: 'information',
     grade: 'g3, g4, g5'
   },
@@ -977,8 +982,13 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Light and Sound',
-    id: 'light-sound-3',
+    label: 'Light',
+    id: 'light-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Sound',
+    id: 'sound',
     grade: 'g3, g4, g5'
   },
   {
