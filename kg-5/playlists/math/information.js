@@ -360,11 +360,11 @@ export default {
       type: 'informationProcessing',
       id: 'chart-5',
       lockAfter: 2,
-      label: 'Data Handling -5',
+      label: 'More Problems',
       data: [
         {
           title:
-            'Weather report of 4 cities in a newspaper on June 1. Answer the questions given at the bottom.',
+            'Find below, the weather report of 4 cities reported in newspaper on June 1.',
           type: 'vbar',
           labels: 'Delhi, Shimla, Bangalore, Jaisalmer',
           values: '33, 22, 28, 38',
@@ -383,15 +383,15 @@ export default {
               value: 38
             },
             {
-              qText: 'What was the difference between highest and lowest temperature on June 1',
+              qText:
+                'What was the difference between highest and lowest temperature on June 1?',
               type: 'number',
               value: 16
-            },
+            }
           ]
         },
         {
-          title:
-            'Marks scored by Saira in annual examinations are represented in the below chart. Answer the questions given at the bottom.',
+          title: 'Marks scored by Saira are represented in the below chart.',
           type: 'vbar',
           labels: 'Hindi, English, Science, Maths, Social',
           values: '60, 80, 55, 95, 75',
@@ -415,15 +415,16 @@ export default {
               options: 'False, True'
             },
             {
-              qText: 'What is the difference between highest and lowest score in a subject by Saira?',
+              qText:
+                'What is the difference between the highest and the lowest mark?',
               type: 'number',
               value: 40
-            },
+            }
           ]
         },
         {
           title:
-            'A survey of 150 school students was done to find the activity they prefer to do in their free time. Answer the questions given at the bottom.',
+            'A survey  was done with 150 school students to find the activity they prefer to do in their free time.',
           type: 'vbar',
           labels: 'Playing, Reading, Painting, Music, Sleeping',
           values: '50, 20, 10, 40, 30',
@@ -433,11 +434,13 @@ export default {
               options: 'Playing, Painting, Music'
             },
             {
-              qText: 'Which activity was preferred by most of the students other than playing?',
+              qText:
+                'Which activity was preferred by most of the students other than playing?',
               options: 'Music, Video Games, Reading'
             },
             {
-              qText: 'How many students were involved in the least preffered activity?',
+              qText:
+                'How many students were involved in the least preffered activity?',
               type: 'number',
               value: 10
             },
@@ -450,12 +453,12 @@ export default {
               qText: 'How many students liked to read?',
               type: 'number',
               value: 20
-            },
+            }
           ]
         },
         {
           title:
-            'The following bar graph shows the sales in a baker’s shop in a day. Answer the questions given at the bottom.',
+            'The following bar graph shows the sales in a baker’s shop in a day.',
           type: 'vbar',
           labels: 'Bread, Bun, Biscuit, Cake, Chocolate',
           values: '100, 80, 200, 250, 210',
@@ -469,26 +472,26 @@ export default {
               options: 'Bun, Bread, Biscuit'
             },
             {
-              qText: 'What is the sale of buns and breads together?',
+              qText: 'What is the total number of sales of buns and breads?',
               type: 'number',
               value: 180
             },
             {
               qText:
-                'True or False: The sale of buns and breads together is less than the sale of biscuits',
+                'True or False: The sales of buns and breads is less than the sale of biscuits.',
               options: 'True, False'
             },
             {
               qText:
-                'True or False: Sale of biscuits are more than the sale of Chocolates',
+                'True or False: Sales of biscuits are more than the sale of chocolates',
               options: 'False, True'
-            },
+            }
           ]
         },
 
         {
           title:
-            'Rehan bought fruits for his mother on her birthday. He picked up various kinds of fruits from the fruit seller. He prepared a table for the data about the number of fruits bought. Answer the questions, given at the bottom.',
+            'Rehan bought fruits for his mother on her birthday. He picked up various kinds of fruits from the fruit seller. He counted each fruits and  prepared a tally chart.',
           type: 'tally',
           labels: 'Banana, Orange, Apple, Mango',
           values: '19, 11, 7, 15',
@@ -505,30 +508,29 @@ export default {
             },
             {
               qText:
-                'True or False: The total number Banana and Apple was equal to the total number of Orange and Mango together.',
+                'True or False: The total number of bananas and apples was equal to the total number of oranges and mangos.',
               options: 'True, False'
             },
             {
               qText: 'Which fruit did Rehan buy the most?',
-              options:
-                'Banana, Orange, Apple, Mango'
+              options: 'Banana, Orange, Apple, Mango'
             },
             {
               qText: 'Which fruit did Rehan buy the least?',
-              options:
-                'Apple, Banana, Orange, Mango'
-            },
+              options: 'Apple, Banana, Orange, Mango'
+            }
           ]
         },
         {
           title:
-            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group. Answer the questions, given at the bottom.',
+            'Sumita stood on the road for half an hour and counted the number of vehicles passing by. She made a tally mark for each vehicle. This helped her in counting quickly the total number of vehicles in each group.',
           type: 'tally',
           labels: 'Cycle, Car, Auto, Bus',
           values: '18, 12, 13, 6',
           questions: [
             {
-              qText: 'How many vehicles in all did Sumita see on the road in half an hour?',
+              qText:
+                'How many vehicles in all did Sumita see on the road in half an hour?',
               type: 'number',
               value: 49
             },
@@ -539,21 +541,19 @@ export default {
             },
             {
               qText: 'What was the most seen vehicle?',
-              options:
-                'Cycle, Car, Auto, Bus'
+              options: 'Cycle, Car, Auto, Bus'
             },
             {
               qText: 'Which vehicle passed more frequently?  car or auto?',
-              options:
-                'Auto, Car'
-            },
+              options: 'Auto, Car'
+            }
           ]
         },
         {
           title:
-            'Yamini did a project on Animals and Birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer. Answer the questions, given at the bottom.',
+            'Yamini did a project on animals and birds. She asked each child of her class about one favourite pet animal, She used tally marks to record each answer.',
           type: 'tally',
-          labels: 'Cats, Dogs, Rabbits, Cows, Parrots, Goats, Squirrel',
+          labels: 'Cat, Dog, Rabbit, Cow, Parrot, Goat, Squirrel',
           values: '14, 20, 10, 12, 3, 10, 5',
           questions: [
             {
@@ -563,8 +563,7 @@ export default {
             },
             {
               qText: 'Which was the most favourite pet animal in this table?',
-              options:
-                'Dog, Cat, Cow, Parrot, Squirrel'
+              options: 'Dog, Cat, Cow, Parrot, Squirrel'
             },
             {
               qText: 'How many children wanted to pet a dog?',
@@ -573,14 +572,13 @@ export default {
             },
             {
               qText: 'Which was the least favourite pet animal in this table?',
-              options:
-                'Parrot, Rabbit, Cat, Cow, Squirrel'
+              options: 'Parrot, Rabbit, Cat'
             },
             {
-              qText: 'How many children wanted to a pet squirrel?',
+              qText: 'How many children wanted to pet a squirrel?',
               type: 'number',
               value: 5
-            },
+            }
           ]
         },
         {
@@ -596,42 +594,38 @@ export default {
               value: 25
             },
             {
-              qText: 'Which day maximum studetns were present in the class?',
-              options:
-                'Wed, Mon, Tue, Thu, Fri'
+              qText: 'On which day maximum students were present in the class?',
+              options: 'Wednesday, Monday, Tuesday'
             },
             {
-              qText: 'How many students were present in the class on Saturday',
+              qText: 'How many students were present in the class on Saturday?',
               type: 'number',
               value: 12
             },
             {
-              qText: 'Which day the attendance was least in the class?',
-              options:
-                'Sat, Mon, Tue, Thu, Fri'
-            },
+              qText: 'On which day the attendance was the least in the class?',
+              options: 'Saturday, Monday, Tuesday'
+            }
           ]
         },
         {
           title:
-            'The below pie chart tells how students were helping their parents at home. Please answer the questions given at the bottom.',
+            'The below pie chart tells how students were helping their parents at home.',
           type: 'pie',
           labels: 'Washing, Serving food, Cleaning, Cooking',
           values: '25, 15, 20, 15',
           questions: [
             {
-              qText: 'How many total students were helping their paretns?',
+              qText: 'How many students were helping their parents?',
               type: 'number',
               value: 75
             },
             {
-              qText:
-                'Which type of help was done by 1/3 of the students?',
+              qText: 'Which type of help was done by 1/3 of the students?',
               options: 'Washing, Cleaning, Cooking'
             },
             {
-              qText:
-                'How many students were helping with washing or cleaning?',
+              qText: 'How many students were helping with washing or cleaning?',
               type: 'number',
               value: 45
             },
@@ -646,9 +640,8 @@ export default {
               options: 'True, False'
             }
           ]
-        },
-
+        }
       ]
-    },
+    }
   ]
 };

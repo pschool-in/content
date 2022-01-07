@@ -80,13 +80,13 @@ export default {
         big: true
       },
       data: [
-  `C, camera 
+        `C, camera 
   S, speaker
   T, tablet
   H, headphone
   P, pendrive`,
 
-  `R, remote
+        `R, remote
   S, smartphone
   T, torch
   W, web-camera`
@@ -103,21 +103,21 @@ export default {
         big: true
       },
       data: [
-  `K, knight 
+        `K, knight 
   C, chariot 
-  H, horse-carriage 
   Y, yarn-ball 
   B, bow 
   T, trolley `,
 
-  `F, fountain 
+        //   H, horse-carriage  - removed due to small size
+        `F, fountain 
   P, pouch 
   A, arrow
   W, whistle 
   C, conch
   T, toothbrush`,
 
-  `M, medicine 
+        `M, medicine 
   P, palanquin 
   C, chocolate 
   T, toothpaste`
@@ -160,7 +160,7 @@ export default {
   remote|Remote
   smartphone|Smartphone`,
 
-  `speaker|Speaker
+        `speaker|Speaker
   tablet|Tablet
   torch|Torch
   web-camera | Web Camera`
@@ -181,14 +181,14 @@ export default {
   bow | Bow
   arrow | Arrow`,
 
-  `fountain | Fountain
+        `fountain | Fountain
   pouch | Pouch
   trolley | Trolley
   whistle |Whistle
   twig | Twig
   palanquin | Palanquin`,
 
-  `medicine | Medicine
+        `medicine | Medicine
   conch| Conch
   toothbrush | Toothbrush
   chocolate | Chocolate

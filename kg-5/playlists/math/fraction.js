@@ -101,6 +101,29 @@ export default {
     },
     {
       type: 'match',
+      id: 'match-names',
+      label: 'Match Fractions and Names',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match Fractions and Names',
+        allowFrac: true
+      },
+      data: [
+        `Half , 1/2
+Two-third, 2/3
+Two-tenth, 2/10
+Five-seventh, 5/7
+Three-forth, 3/4`,
+
+        `Quarter, 1/4
+Three quarter, 3/4
+Two-fifth, 2/5
+Four-fifth, 4/5
+Three-seventh, 3/7`
+      ]
+    },
+    {
+      type: 'match',
       id: 'match',
       label: 'Match Equals',
       lockAfter: 1,

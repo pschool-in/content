@@ -99,18 +99,6 @@ const vocabulary = [
     id: 'compound-word',
     grade: 'g2, g3, g4'
   },
-  /*
-  {
-    label: 'Pick Words by Sound',
-    id: 'pick-word',
-    grade: 'g1, g2, g3'
-  },
-  {
-    label: 'Pick Words by Sound - 2',
-    id: 'pick-word-2',
-    grade: 'g1, g2, g3'
-  },
-  */
   {
     label: 'Words and Meaning',
     id: 'words-meaning',
@@ -1416,18 +1404,6 @@ const english = [
     id: 'vowels',
     grade: 'kg, 1, 2'
   },
-  /*
-  {
-    label: 'Sound Based',
-    id: 'audio',
-    grade: 'kg, g1, g2'
-  },
-  {
-    label: 'Sound Based 2',
-    id: 'audio-2',
-    grade: 'kg, g1, g2'
-  },
-  */
   {
     label: 'Word Search',
     id: 'wordsearch-1',

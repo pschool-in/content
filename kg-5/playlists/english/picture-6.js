@@ -20,7 +20,7 @@ export default {
   jamun | JAMUN | _AMUN
   pear | PEAR | _EAR`,
 
-        `water-chesnut | WATER-CHESNUT | _ATER-CHESNUT
+        `water-chestnut | WATER-CHESTNUT | _ATER-CHESTNUT
   jujube | JUJUBE | _UJUBE
   sapotta | SAPOTTA | _APOTTA
   tapioca | TAPIOCA | _APIOCA
@@ -73,13 +73,13 @@ export default {
         big: true
       },
       data: [
-  `S, star-fruit 
+        `S, star-fruit 
   D, dragon-fruit 
   P, peach 
   J, jamun
-  W, water-chesnut `, 
+  W, water-chestnut `,
 
-  `J, jujube 
+        `J, jujube 
   S, sapotta 
   T, tapioca 
   B, blueberry 
@@ -104,13 +104,13 @@ export default {
   E, elephant-yam 
   A, ashgourd `,
 
-  `B, broad-beans 
+        `B, broad-beans 
   S, snake-gourd 
   C, cluster-beans 
   K, kohlrabi 
   T, turnip`,
 
-  `D, drumstick-leaves
+        `D, drumstick-leaves
   R, raw-banana 
   T, tulsi 
   B, bottlegourd 
@@ -133,7 +133,7 @@ export default {
         jamun | Jamun`,
 
         `pear | Pear
-        water-chesnut | Water chesnut
+        water-chestnut | Water chestnut
         jujube | Jujube
         sapotta | Sapotta
         tapioca | Tapioca
@@ -149,27 +149,27 @@ export default {
         title: 'Drag and Drop the name on the images.'
       },
       data: [
-    `chickpea | Chickpea
+        `chickpea | Chickpea
   mustard-greens | Mustard greens
   turmeric | Turmeric
   turnip | Turnip
   fenugreek | Fenugreek
   tamarind | Tamarind`,
 
- `elephant-yam | Elephant Yam
+        `elephant-yam | Elephant Yam
   ashgourd | Ashgourd
   broad-beans | Broad beans
   snake-gourd | Snake gourd
   banana-flower | Banana flower
   cluster-beans | Cluster beans`,
 
-  `kohlrabi | Kohlrabi
+        `kohlrabi | Kohlrabi
   spring-onion | Spring onion
   banana-stem | Banana stem
   drumstick-leaves | Drumstick leaves
   raw-banana | Raw banana`,
 
-  `tulsi | Tulsi
+        `tulsi | Tulsi
   bottlegourd | Bottlegourd
   ivygourd | Ivygourd
   ridgegourd | Ridgegourd`

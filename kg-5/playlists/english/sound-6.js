@@ -18,7 +18,7 @@ export default {
         {
           audioOffset: 14,
           text:
-            'water-chesnut|water chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit|passion fruit'
+            'water-chestnut|water chestnut, jujube, sapotta, tapioca, blueberry, passion-fruit|passion fruit'
         }
       ]
     },
@@ -61,7 +61,7 @@ export default {
         {
           audioOffset: 14,
           words:
-            'water-chesnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
+            'water-chestnut, jujube, sapotta, tapioca, blueberry, passion-fruit'
         }
       ]
     },

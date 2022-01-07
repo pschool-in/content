@@ -4,10 +4,6 @@ const more = [
     id: 'ta-picture-2'
   },
   {
-    label: 'மீண்டும் படம் 2',
-    id: 'ta-picture-3'
-  },
-  {
     label: 'எழுத்துக்கள் - 2',
     id: 'ta-writing-2'
   },
@@ -24,6 +20,10 @@ const more = [
     id: 'ta-kid-poems'
   },
   {
+    label: 'மீண்டும் படம் 2',
+    id: 'ta-picture-3'
+  },
+  {
     label: 'பாடல்கள்',
     id: 'ta-poems'
   },
@@ -38,6 +38,10 @@ const more = [
   {
     label: 'திருக்குறள் - 3',
     id: 'thirukkural-3'
+  },
+  {
+    label: 'மீண்டும் படம் 3',
+    id: 'ta-picture-4'
   },
   {
     label: 'திருக்குறள் - 4',

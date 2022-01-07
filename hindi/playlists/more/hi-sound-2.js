@@ -88,7 +88,7 @@ export default {
           ladies-finger| भिन्डी
           mintleaf| पुदीना
           peanut| मूंगफली
-          raddish| मूली
+          radish| मूली
           spinach| पालक
           chickpea|चना`
         },
@@ -350,23 +350,26 @@ export default {
         {
           audio: 'hi/hi-animals-2.mp3',
           audioOffset: 40,
-          words: 'python, bison, chameleon, porcupine, bee, goldfish, seahorse, mole, spider, caterpillar, earthworm'
+          words:
+            'python, bison, chameleon, porcupine, bee, goldfish, seahorse, mole, spider, caterpillar, earthworm'
         },
         {
           audio: 'hi/hi-birds-vegetables-2.mp3',
           audioOffset: 0,
-          words: 'woodpecker, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, seagull, hawk'
+          words:
+            'woodpecker, cuckoo, pheasant, falcon, swan, bulbul, spotted-dove, seagull, hawk'
         },
         {
           audio: 'hi/hi-birds-vegetables-2.mp3',
           audioOffset: 18,
           words:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach, chickpea'
+            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, radish, spinach, chickpea'
         },
         {
           audio: 'hi/hi-birds-vegetables-2.mp3',
           audioOffset: 38,
-          words: 'mustard-greens, turmeric, turnip, fenugreek, tamarind, ashgourd, broad-beans, snake-gourd, cluster-beans, kohlrabi'
+          words:
+            'mustard-greens, turmeric, turnip, fenugreek, tamarind, ashgourd, broad-beans, snake-gourd, cluster-beans, kohlrabi'
         },
         {
           audio: 'hi/hi-birds-vegetables-2.mp3',
@@ -376,7 +379,8 @@ export default {
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
           audioOffset: 0,
-          words: 'rose, lotus, sunflower, marigold, hibiscus, mogra, daffodil, gulmohar, lily, pansy'
+          words:
+            'rose, lotus, sunflower, marigold, hibiscus, mogra, daffodil, gulmohar, lily, pansy'
         },
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
@@ -392,14 +396,12 @@ export default {
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
           audioOffset: 50,
-          words:
-            'auto, cart, excavator, fire-engine, lorry'
+          words: 'auto, cart, excavator, fire-engine, lorry'
         },
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
           audioOffset: 60,
-          words:
-            'eraser, pen, pencil, sharpener, ruler, schoolbag'
+          words: 'eraser, pen, pencil, sharpener, ruler, schoolbag'
         },
         {
           audio: 'hi/hi-flower-vehicle-school-2.mp3',
@@ -416,7 +418,8 @@ export default {
         {
           audio: 'hi/hi-tools-jobs-2.mp3',
           audioOffset: 20,
-          words: 'spade, stethoscope, telescope, test-tube, thermometer, trowel, awl, compass, easel, hacksaw'
+          words:
+            'spade, stethoscope, telescope, test-tube, thermometer, trowel, awl, compass, easel, hacksaw'
         },
         {
           audio: 'hi/hi-tools-jobs-2.mp3',
@@ -426,7 +429,8 @@ export default {
         {
           audio: 'hi/hi-tools-jobs-2.mp3',
           audioOffset: 50,
-          words: 'astronaut, fisherman, postman, teacher, blacksmith, cobbler, goldsmith, potter, weaver, carpenter'
+          words:
+            'astronaut, fisherman, postman, teacher, blacksmith, cobbler, goldsmith, potter, weaver, carpenter'
         },
         {
           audio: 'hi/hi-tools-jobs-2.mp3',
@@ -436,12 +440,14 @@ export default {
         {
           audio: 'hi/hi-other-2.mp3',
           audioOffset: 0,
-          words: 'bullock-cart, warrior, knight, chariot, park, garden, horse-carriage, touch-me-not, yagna, yarn-ball'
+          words:
+            'bullock-cart, warrior, knight, chariot, park, garden, horse-carriage, touch-me-not, yagna, yarn-ball'
         },
         {
           audio: 'hi/hi-other-2.mp3',
           audioOffset: 20,
-          words: 'bow, arrow, pouch, top, hexagon, trident, damaru, stick, twig, dhol'
+          words:
+            'bow, arrow, pouch, top, hexagon, trident, damaru, stick, twig, dhol'
         },
         {
           audio: 'hi/hi-other-2.mp3',

@@ -52,7 +52,7 @@ export default {
   hedgehog | HEDGEHOG | _EDGEHOG
   stingray | STINGRAY | _TINGRAY
   jellyfish | JELLY FISH | _ELLY FISH
-  starfish | STARFISH | _TAR FISH`
+  starfish | STAR FISH | _TAR FISH`
       ]
     },
     {
@@ -127,7 +127,7 @@ export default {
         L, ladybug 
         S, seahorse `,
 
-       `H, hamster 
+        `H, hamster 
         M, mole 
         C, caterpillar 
         E, earthworm  
@@ -160,7 +160,7 @@ export default {
         B, blue-jay 
         C, canary `,
 
-       `G, goose 
+        `G, goose 
         T, turkey 
         H, hawk 
         C, cardinal 
@@ -230,26 +230,26 @@ export default {
         title: 'Drag and Drop the name on the images.'
       },
       data: [
-    `hornbill | Hornbill
+        `hornbill | Hornbill
   cuckoo | Cuckoo
   pheasant | Pheasant
   falcon | Falcon
   swan | Swan
   bulbul | Bulbul`,
 
-  `spotted-dove | Spotted Dove
+        `spotted-dove | Spotted Dove
   pelican | Pelican
-  humming-bird | Hummingbird
+  hummingbird | Hummingbird
   robin | Robin
   swallow | Swallow
   blue-jay | Blue jay`,
 
-  `seagull | Seagull
+        `seagull | Seagull
   canary | Canary
   goose | Goose
   turkey | Turkey`,
 
-  `hawk | Hawk
+        `hawk | Hawk
   cardinal | Cardinal
   parakeet | Parakeet
   macow | Macaw`

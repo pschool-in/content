@@ -79,7 +79,7 @@ export default {
           },
           {
             name: 'শাকসব্জি',
-            text: `cabbage, pumpkin, raddish, carrot, onion`
+            text: `cabbage, pumpkin, radish, carrot, onion`
           }
         ]
       }

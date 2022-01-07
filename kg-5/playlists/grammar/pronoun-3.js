@@ -193,9 +193,9 @@ My parents taught *me*, "What is rightfully *yours* will surely be *yours*.`
       ]
     },
     {
-      id: 'fill-up',
+      id: 'fill-up-2',
       label: 'Type in the blanks',
-      type: 'fillup-and-type',
+      type: 'fillup',
       commonData: {
         title: `Click on the blanks and type the right pronoun to complete the passage.`,
         noOptions: true
@@ -212,7 +212,7 @@ My mom is helping *her* sister in the kitchen.
 My dad has *his* own car.
 Renu is my mom's friend. I call *her* aunt.`,
 
-`*I* am 12 years old.
+        `*I* am 12 years old.
 I love collecting coins. *This* is my coin collection.
 Rohan is my friend. *We* play together every day.
 My uncle works in a food factory. *He* is very hardworking.

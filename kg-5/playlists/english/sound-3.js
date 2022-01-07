@@ -16,7 +16,7 @@ export default {
         },
         {
           audioOffset: 14,
-          text: 'leaf, world, nest, water-drop|water drop, waterfall, rainbow'
+          text: 'leaf, world, nest, dew , waterfall, rainbow'
         }
       ]
     },
@@ -57,7 +57,8 @@ export default {
         },
         {
           audioOffset: 18,
-          text: 'ring, drums|drum, food, king, kite, ladder, wheel, park, garden'
+          text:
+            'ring, drums|drum, food, king, kite, ladder, wheel, park, garden'
         }
       ]
     },
@@ -78,7 +79,7 @@ export default {
         },
         {
           audioOffset: 14,
-          words: 'leaf, world, nest, water-drop, waterfall, rainbow'
+          words: 'leaf, world, nest, dew, waterfall, rainbow'
         }
       ]
     },

@@ -200,7 +200,7 @@ greenpeas| GREEN PEAS | G____ ____
 ladies-finger | LADIES FINGER | L_____ ______
 mintleaf| MINT LEAF | M___ ____
 peanut| PEANUT
-raddish| RADDISH
+radish| RADISH
 spinach | SPINACH`
       ]
     }

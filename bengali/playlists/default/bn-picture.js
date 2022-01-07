@@ -61,7 +61,7 @@ export default {
   mintleaf| পুদিনা| _দিনা| পু, ব, খ, প
   peanut| চিনাবাদাম|_নাবাদাম| চি, খ, চ, প
   spinach| পালংশাক|_লংশাক| পা, খ, ম, প
-  raddish| মূলো| _লো| মূ, বে, ত, লো`
+  radish| মূলো| _লো| মূ, বে, ত, লো`
       ]
     },
     {
@@ -120,7 +120,7 @@ export default {
   ভি, ladies-finger
   পু, mintleaf
   চি, peanut
-  মূ, raddish
+  মূ, radish
   পা, spinach`
       ]
     },

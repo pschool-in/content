@@ -2112,7 +2112,7 @@ export default {
             ],
             width: 595
           }
-                ]
+        ]
       }
     }
   ]

@@ -9,7 +9,7 @@ export default {
       lockAfter: 2,
       commonData: {
         images: 'animals',
-        title: 'Find the missing letter and complete the word',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `cat |CAT |_AT
@@ -40,7 +40,7 @@ fish|FISH |_ISH
 frog|FROG |_ROG
 crab|CRAB |_RAB
 snake|SNAKE |_NAKE
-bull | _ULL
+bull | BULL | _ULL
 tortoise|TORTOISE |_ORTOISE
 rat|RAT |_AT
 ant|ANT |_NT`,
@@ -64,7 +64,7 @@ kangaroo| KANGAROO | _ANGAROO`
       lockAfter: 1,
       commonData: {
         images: 'birds',
-        title: 'Find the missing letter and complete the word',
+        title: 'Find the missing letter and complete the word'
       },
       data: [
         `crow|CROW |_ROW

@@ -129,7 +129,7 @@ He <b>himself</b> cut the cake.`
       }
     },
     {
-      id: 'fill-up',
+      id: 'fill-up-2',
       label: 'Fill Up',
       type: 'fillup',
       commonData: {
@@ -246,7 +246,7 @@ Prateek is very lazy. *He* copied *his* friend's project instead of doing *it* *
     {
       id: 'fill-up',
       label: 'Type in the blanks',
-      type: 'fillup-type',
+      type: 'fillup',
       commonData: {
         title: `Click on the blanks and type the right pronoun to complete the passage.`,
         noOptions: true

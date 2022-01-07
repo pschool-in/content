@@ -133,7 +133,7 @@ export default {
           sweet-potato|शकरकंद
           jamun|जामुन
           pear|नाशपाती
-          water-chesnut|सिंघाड़ा
+          water-chestnut|सिंघाड़ा
           jujube| बेर
           sapotta| चीकू
           blueberry |नीलबदरी`
@@ -319,7 +319,7 @@ export default {
           leaf|पत्ता
           world|दुनिया
           nest|घोंसला
-          water-drop|ओस
+          dew |ओस
           waterfall|झरना
           rainbow|इंद्रधनुष`
         }
@@ -389,28 +389,31 @@ export default {
         },
         {
           audio: 'hi/hi-birds-1.mp3',
-          words:
-            'crow, dove, duck, hen, parrot, peacock, sparrow, chick'
+          words: 'crow, dove, duck, hen, parrot, peacock, sparrow, chick'
         },
         {
           audio: 'hi/hi-birds-1.mp3',
           audioOffset: 16,
-          words: 'crane, eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture'
+          words:
+            'crane, eagle, flamingo, kingfisher, myna, ostrich, owl, rooster, vulture'
         },
         {
           audio: 'hi/hi-fruits-1.mp3',
           audioOffset: 0,
-          words: 'apple, grapes, banana, strawberry, guava, jackfruit, mango, orange, papaya, pineapple'
+          words:
+            'apple, grapes, banana, strawberry, guava, jackfruit, mango, orange, papaya, pineapple'
         },
         {
           audio: 'hi/hi-fruits-1.mp3',
           audioOffset: 20,
-          words: 'pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon, star-fruit, dragon-fruit, passion-fruit'
+          words:
+            'pomegranate, watermelon, fig, custard-apple, plum, dates, muskmelon, star-fruit, dragon-fruit, passion-fruit'
         },
         {
           audio: 'hi/hi-fruits-1.mp3',
           audioOffset: 40,
-          words: 'sugarcane, peach, sweet-potato, jamun, pear, water-chestnut, jujube, sapotta, blueberry'
+          words:
+            'sugarcane, peach, sweet-potato, jamun, pear, water-chestnut, jujube, sapotta, blueberry'
         },
         {
           audio: 'hi/hi-vegetables-1.mp3',
@@ -439,8 +442,7 @@ export default {
         {
           audio: 'hi/hi-house-dress-1.mp3',
           audioOffset: 40,
-          words:
-            'window, bucket, soap, pillow, basket, dustbin'
+          words: 'window, bucket, soap, pillow, basket, dustbin'
         },
         {
           audio: 'hi/hi-house-dress-1.mp3',
@@ -475,19 +477,17 @@ export default {
         {
           audio: 'hi/hi-nature-other-1.mp3',
           audioOffset: 12,
-          words: 'fruits, leaf, world, nest, water-drop, waterfall, rainbow'
+          words: 'fruits, leaf, world, nest, dew, waterfall, rainbow'
         },
         {
           audio: 'hi/hi-nature-other-1.mp3',
           audioOffset: 26,
-          words:
-            'ring, brush, bone, bell, conch, drums, five'
+          words: 'ring, brush, bone, bell, conch, drums, five'
         },
         {
           audio: 'hi/hi-nature-other-1.mp3',
           audioOffset: 40,
-          words:
-            'food, king, kite, ladder, ladoo, rishi, wheel, whistle'
+          words: 'food, king, kite, ladder, ladoo, rishi, wheel, whistle'
         }
       ]
     }

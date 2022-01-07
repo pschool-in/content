@@ -176,7 +176,7 @@ greenpeas | பச்சை பட்டாணி
 ladies-finger | வெண்டைக்காய் 
 mintleaf | புதினா
 peanut | வேர்க்கடலை
-raddish | முள்ளங்கி
+radish | முள்ளங்கி
 spinach | கீரை`
         }
       ]
@@ -439,7 +439,7 @@ watch | கைக்கடிகாரம்`
         {
           audioOffset: 36,
           words:
-            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, radish, spinach'
         }
       ]
     },

@@ -23,7 +23,7 @@ fruits|FRUITS |_RUITS`,
         `leaf|LEAF |_EAF
 world|WORLD |_ORLD
 nest | NEST | _EST
-water-drop | WATER DROP | _ATER DROP
+dew | DEW | _EW
 waterfall | WATERFALL | _ATERFALL
 rainbow | RAINBOW | _AINBOW`
       ]
@@ -108,14 +108,14 @@ M, moon
 R, rain
 B, bird
 F,fruits
-W, water-drop`,
+D, dew`,
 
-`S, star
+        `S, star
 L, leaf
 W, world
 N, nest`,
 
-`M, milk
+        `M, milk
 W, waterfall 
 R, rainbow`
       ]
@@ -216,7 +216,7 @@ fruits|Fruits `,
         `leaf|Leaf 
 world|World
 nest |Nest 
-water-drop |Water Drop
+dew | Dew
 waterfall |Waterfall 
 rainbow |Rainbow `
       ]
@@ -251,9 +251,9 @@ rainbow |Rainbow `
         `rose | Rose
 lotus | Lotus
 sunflower | Sunflower
-marigold | Marigold`, 
+marigold | Marigold`,
 
-`hibiscus | Hibiscus
+        `hibiscus | Hibiscus
 jasmine | Jasmine
 tulip | Tulip
 zinnia | Zinnia`

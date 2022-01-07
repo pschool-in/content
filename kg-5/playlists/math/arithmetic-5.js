@@ -3,6 +3,111 @@ export default {
   label: 'Arithmetic - 5',
   list: [
     {
+      id: 'subtract-dnd',
+      label: 'Drag & Drop: Subtraction',
+      type: 'dragAndDrop',
+      data: {
+        img: 'subtract.jpg',
+        title: 'Division',
+        width: 260,
+        height: 214,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'minuend',
+            x: 10,
+            y: 30
+          },
+          {
+            word: 'subtrahend',
+            x: 100,
+            y: 30
+          },
+          {
+            word: 'difference',
+            x: 200,
+            y: 30
+          },
+          {
+            word: 'subtraction sign',
+            x: 20,
+            y: 180
+          },
+          {
+            word: 'equals',
+            x: 150,
+            y: 180
+          }
+        ]
+      }
+    },
+    {
+      id: 'multiply-dnd',
+      label: 'Drag & Drop: Multiply',
+      type: 'dragAndDrop',
+      data: {
+        img: 'multiply.jpg',
+        title: 'Multiply',
+        width: 245,
+        height: 196,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Multiplier',
+            x: 140,
+            y: 80
+          },
+          {
+            word: 'Product',
+            x: 140,
+            y: 140
+          },
+          {
+            word: 'Multiplicand',
+            x: 140,
+            y: 20
+          }
+        ]
+      }
+    },
+    {
+      id: 'division-dnd',
+      label: 'Drag & Drop: Division',
+      type: 'dragAndDrop',
+      data: {
+        img: 'divide.jpg',
+        title: 'Division',
+        width: 163,
+        height: 143,
+        wordWidth: 60,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Divisor',
+            x: -60,
+            y: 50
+          },
+          {
+            word: 'Dividend',
+            x: 160,
+            y: 50
+          },
+          {
+            word: 'Quotient',
+            x: 160,
+            y: 20
+          },
+          {
+            word: 'Remainder',
+            x: 160,
+            y: 120
+          }
+        ]
+      }
+    },
+    {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',

@@ -2,8 +2,8 @@ export default {
   label: 'Data Handling -3',
   id: 'information-3',
   list: [
-     // for class 2 students
-     {
+    // for class 2 students
+    {
       type: 'informationProcessing',
       id: 'bar-chart-2',
       lockAfter: 2,
@@ -25,7 +25,7 @@ export default {
               options: 'Vanilla, Chocolate, Strawberry'
             },
             {
-              qText: 'The totol number of students in the class',
+              qText: 'How many students were present in the class?',
               type: 'number',
               value: 60
             },
@@ -61,7 +61,7 @@ export default {
             },
             {
               qText:
-                'True or False: The number of Guavas were more than the number of Bananas',
+                'True or False: The number of guavas were more than the number of bananas',
               options: 'False, True'
             },
             {
@@ -81,50 +81,50 @@ export default {
       data: [
         {
           title:
-            'You have counted the different colour pens that you have and put it in the below chart. Answer the questions, given at the bottom.',
+            'Arun counted the different colour pens he had and put it in the below chart.',
           type: 'tally',
           labels: 'Red, Black, Blue',
           values: '3, 7, 10',
           questions: [
             {
-              qText: 'How many pens do you have?',
+              qText: 'How many blue pens did he have?',
+              type: 'number',
+              value: 10
+            },
+            {
+              qText: 'How many pens did he have?',
               type: 'number',
               value: 20
             },
             {
-              qText: 'How many blue pens do you have?',
-              type: 'number',
-              value: 10
+              qText: 'Which colour pen did he have the least?',
+              options: 'Red, Black, Blue'
             },
             {
               qText:
                 'True or False: The number of blue pens are equal to the number of red and black pens together',
               options: 'True, False'
-            },
-            {
-              qText: 'Which colour pen you have the least?',
-              options: 'Red, Black, Blue'
             }
           ]
         },
         {
           title:
-            'Aruna made a chart of various kinds of flowers she has in her garden. Answer the questions, given at the bottom.',
+            'Aruna made a chart of various kinds of flowers she has in her garden.',
           type: 'tally',
           labels: 'Rose, Sunflower, Hibiscus, Dahlia',
           values: '11, 4, 13, 6',
           questions: [
             {
-              qText: 'Which flower is maximum in number?',
+              qText: 'Which flower she has a lot?',
               options: 'Hibiscus, Rose, Sunflower'
             },
             {
-              qText: 'Which flower is minimum in number?',
+              qText: 'Which flower she has the least?',
               options: 'Sunflower, Hibiscus, Dahlia'
             },
             {
               qText:
-                'Comparing the number of Roses with Dahlias, which flower is more in number?',
+                'Comparing the number of Roses and Dahlias, which flower was more in number?',
               options: 'Rose, Dahlia'
             },
             {
@@ -135,7 +135,7 @@ export default {
           ]
         }
       ]
-    }
+    },
     // for class 3 students
     {
       type: 'informationProcessing',
@@ -145,31 +145,31 @@ export default {
       data: [
         {
           title:
-            'Deepa went to zoo and counted the animals she had seen. The observation data is given in the below bar chart. Answer the questions given at the bottom.',
+            'Deepa went to zoo and counted the animals she had seen. The observation data is given in the below bar chart.',
           type: 'vbar',
           labels: 'Tiger, Lion, Deer, Giraffe',
           values: '6, 3, 14, 8',
           questions: [
             {
-              qText: 'The animal which was least in numbers?',
+              qText: 'Which animal was least in number?',
               options: 'Lion, Tiger, Deer'
             },
             {
-              qText: 'The animal which was highest in numbers?',
+              qText: 'The animal was largest in number?',
               options: 'Deer, Tiger, Giraffe'
             },
             {
-              qText: 'How many Deers are more than Giraffes?',
+              qText: 'How many more deers were present than giraffes?',
               type: 'number',
               value: 6
             },
             {
-              qText: 'How many Tigers are lesser than Giraffes?',
+              qText: 'How many less tigers were present than giraffes?',
               type: 'number',
               value: 2
             },
             {
-              qText: 'Total number of animals?',
+              qText: 'What is the total number of animals?',
               type: 'number',
               value: 31
             }
@@ -177,13 +177,13 @@ export default {
         },
         {
           title:
-            'Rahul went to a fair where he saw different coloured balloons. Out of curiosity, Rahul counted the colours of the balloons. Answer the questions given at the bottom.',
+            'Rahul went to a fair and saw lot of balloons of different colours. Out of curiosity, he counted the number of balloons in each color, and put a bar chart.',
           type: 'vbar',
           labels: 'Red, Blue, Green, Orange, White',
           values: '10, 8, 5, 12, 11',
           questions: [
             {
-              qText: 'How many different colours of balloon were there in the fair?',
+              qText: 'How many different colours of balloon were there?',
               type: 'number',
               value: 5
             },
@@ -193,18 +193,17 @@ export default {
               value: 46
             },
             {
-              qText: 'What is the total number of orange and white balloons together?',
+              qText: 'What is the total count of orange and white balloons?',
               type: 'number',
               value: 23
             },
             {
               qText:
-                'True or False: The number of red, blue and green balloons together are equal to the number of orange and white balloons together.',
+                'True or False: The total number of red, blue and green balloons is equal to the total number of orange and white balloons.',
               options: 'True, False'
-            },
-
+            }
           ]
-        },
+        }
       ]
     },
     {
@@ -215,7 +214,7 @@ export default {
       data: [
         {
           title:
-            'Total number of students in a class is 20. Below tally chart represent the attendance each day of one week. Answer the questions, given at the bottom.',
+            'Total number of students in a class is 20. Below tally chart represent the attendance for a week.',
           type: 'tally',
           labels: 'Monday, Tuesday, Wednesday, Thursday, Friday',
           values: '18, 20, 15, 12, 17',
@@ -226,28 +225,27 @@ export default {
               value: 15
             },
             {
-              qText: 'Number of students absent on Monday?',
+              qText: 'How many students were absent on Monday?',
               type: 'number',
               value: 2
             },
             {
-              qText: 'On which day all the students were present?',
+              qText: 'On which day all students were present?',
               options: 'Tuesday, Wednesday, Thursday'
             },
             {
               qText:
-                'True or False: Thursday had least attendance among all the day.',
+                'True or False: Thursday had least attendance among all days.',
               options: 'True, False'
             },
             {
               qText:
-                'True or False: Attendance on Monday was more than Attendance on Friday',
+                'True or False: The number of students present on Monday was more than that of Friday',
               options: 'True, False'
-            },            
+            }
           ]
-        },
+        }
       ]
-    },
-
+    }
   ]
 };

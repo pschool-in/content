@@ -28,31 +28,31 @@ const dragdrop = {
       type: 'dragAndDrop',
       id: 'parts-plant',
       label: 'Parts of Plant',
-      data: { type: 'plant' }
+      data: { type: 'plant', fontSize: '1.2rem' }
     },
     {
       type: 'dragAndDrop',
       id: 'parts-dog',
       label: 'Parts of Dog',
-      data: { type: 'dog', isPractice: false }
+      data: { type: 'dog', fontSize: '1.2rem' }
     },
     {
       type: 'dragAndDrop',
       id: 'parts-face',
       label: 'Parts of Face',
-      data: { type: 'face' }
+      data: { type: 'face', fontSize: '1.2rem' }
     },
     {
       type: 'dragAndDrop',
       id: 'parts-body',
       label: 'Parts of Human',
-      data: { type: 'human' }
+      data: { type: 'human', fontSize: '1.2rem' }
     },
     {
       type: 'dragAndDrop',
       id: 'parts-computer',
       label: 'Parts of Computer',
-      data: { type: 'computer' }
+      data: { type: 'computer', fontSize: '1.2rem' }
     },
     {
       id: 'tree',
@@ -64,6 +64,7 @@ const dragdrop = {
         width: 320,
         height: 396,
         wordWidth: 50,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'leaf',
@@ -118,6 +119,7 @@ const dragdrop = {
         width: 400,
         height: 218,
         wordWidth: 80,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'collection',
@@ -152,6 +154,7 @@ const dragdrop = {
         width: 380,
         height: 280,
         wordWidth: 50,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'mouth',
@@ -196,6 +199,7 @@ const dragdrop = {
         width: 380,
         height: 336,
         wordWidth: 50,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'petal',
@@ -250,6 +254,7 @@ const dragdrop = {
         width: 350,
         height: 448,
         wordWidth: 70,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'vertebrae',
@@ -289,6 +294,7 @@ const dragdrop = {
         width: 304,
         height: 354,
         wordWidth: 60,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'heart',
@@ -343,6 +349,7 @@ const dragdrop = {
         width: 380,
         height: 276,
         wordWidth: 60,
+        fontSize: '1.2rem',
         words: [
           {
             word: 'seat',
@@ -405,28 +412,6 @@ const dragdrop = {
           5, Five
           6, Six`
       }
-    },
-    {
-      type: 'numberInput',
-      id: 'word-prob',
-      label: 'Fill in the Box',
-      lockAfter: 1,
-      commonData: {
-        title: 'Answer the word problem.',
-        type: 'word-problem',
-        allowFrac: true,
-        firstLineFontSize: '2.5rem'
-      },
-      data: [
-        {
-          list: [
-            `1/2 = ?0/?1
-              2,4`,
-            `3/5 = ?0/15 
-              9`
-          ]
-        }
-      ]
     },
     {
       type: 'dragDropImgLabel',

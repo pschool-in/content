@@ -1,17 +1,17 @@
 export default {
-  label: "चित्र-3",
-  id: "hi-picture-4",
-  img: "image",
+  label: 'चित्र-3',
+  id: 'hi-picture-4',
+  img: 'image',
   list: [
     {
-      type: "connectLetters",
-      label: "जुडिये-फल",
-      id: "connect-fruits",
+      type: 'connectLetters',
+      label: 'जुडिये-फल',
+      id: 'connect-fruits',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `apple, सेब 
@@ -40,24 +40,24 @@ export default {
     tamarind, इमली
     sugarcane, ईख`,
 
-        `water-chesnut, सिंघाड़ा
+        `water-chestnut, सिंघाड़ा
     blueberry, नीलबदरी
     peach, सतालू
     jujube, बेर
     passion-fruit, कृष्णा फल
     star-fruit, कमरख
-    dragon-fruit, पिताया`,
-      ],
+    dragon-fruit, पिताया`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-सब्जियां",
-      id: "connectvegetables",
+      type: 'connectLetters',
+      label: 'जुडिये-सब्जियां',
+      id: 'connectvegetables',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `carrot, गाजर 
@@ -92,7 +92,7 @@ export default {
 
         `mintleaf, पुदीना 
     peanut, मूंगफली
-    raddish, मूली
+    radish, मूली
     spinach, पालक
     tulsi,तुलसी
     bottlegourd,लौकी`,
@@ -110,18 +110,18 @@ export default {
     cluster-beans, गँवार फली
     kohlrabi, बन्द गोभी
     ivygourd, कुंदरू
-    ridgegourd, तुरई`,
-      ],
+    ridgegourd, तुरई`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-फूल",
-      id: "connectflowers",
+      type: 'connectLetters',
+      label: 'जुडिये-फूल',
+      id: 'connectflowers',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `rose, गुलाब 
@@ -141,18 +141,18 @@ export default {
         `mogra, मोगरा
     lily, कुमुदनी
     magnolia, चम्पा
-    daffodil, नरगिस`,
-      ],
+    daffodil, नरगिस`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-जानवर",
-      id: "connectanimal",
+      type: 'connectLetters',
+      label: 'जुडिये-जानवर',
+      id: 'connectanimal',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `cat, बिल्ली 
@@ -230,18 +230,18 @@ export default {
     mole, छछूँदर
     spider, मकड़ी
     caterpillar, इल्ली
-    earthworm, केंचुआ`,
-      ],
+    earthworm, केंचुआ`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-पक्षी",
-      id: "connectbird",
+      type: 'connectLetters',
+      label: 'जुडिये-पक्षी',
+      id: 'connectbird',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `crow, कौवा 
@@ -273,18 +273,18 @@ export default {
         `bulbul, बुलबुल
     spotted-dove, चित्तीदार कबूतर
     seagull, सामुद्रिक चिड़िया
-    hawk, बाज`,
-      ],
+    hawk, बाज`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-शरीर के अंग",
-      id: "connectbody-parts",
+      type: 'connectLetters',
+      label: 'जुडिये-शरीर के अंग',
+      id: 'connectbody-parts',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `ear, कान 	          
@@ -295,18 +295,18 @@ export default {
         `tooth, दांत 
     eye, आंख 
     foot, पैर 
-    hair, बाल`,
-      ],
+    hair, बाल`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-मकान",
-      id: "connecthouse",
+      type: 'connectLetters',
+      label: 'जुडिये-मकान',
+      id: 'connecthouse',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `house, मकान
@@ -332,18 +332,18 @@ export default {
     soap, साबुन
     pillow, तकिया
     basket, टोकरी
-    dustbin, कचरे का डिब्बा`,
-      ],
+    dustbin, कचरे का डिब्बा`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-विद्यालय",
-      id: "connectschool",
+      type: 'connectLetters',
+      label: 'जुडिये-विद्यालय',
+      id: 'connectschool',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `eraser, रबड़	
@@ -352,18 +352,18 @@ export default {
 
         `scissors, कैंची
     book, किताब 	
-    crayons, चित्रांकनी`,
-      ],
+    crayons, चित्रांकनी`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-पोशाक",
-      id: "connectdress",
+      type: 'connectLetters',
+      label: 'जुडिये-पोशाक',
+      id: 'connectdress',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `shoe, जूता
@@ -374,18 +374,18 @@ export default {
         `scarf, दुपट्टा
       shirt, कमीज
       hat, टोपी
-      trousers, पतलून`,
-      ],
+      trousers, पतलून`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-नौकरियां",
-      id: "connectjobs",
+      type: 'connectLetters',
+      label: 'जुडिये-नौकरियां',
+      id: 'connectjobs',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `astronaut, अंतरिक्ष यात्री
@@ -405,18 +405,18 @@ export default {
       doctor, चिकित्सक
       soldier, सैनिक
       barber, नाई
-      washerman, धोबी`,
-      ],
+      washerman, धोबी`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-रसोईघ",
-      id: "connectkitchen",
+      type: 'connectLetters',
+      label: 'जुडिये-रसोईघ',
+      id: 'connectkitchen',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `stove, चूल्हा	 
@@ -443,18 +443,18 @@ export default {
     lentils, दाल
     rice, चावल
     cheese, पनीर
-    lollipop, टिकीया`,
-      ],
+    lollipop, टिकीया`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-उपकरण",
-      id: "connecttools",
+      type: 'connectLetters',
+      label: 'जुडिये-उपकरण',
+      id: 'connecttools',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `axe, कुल्हाडी
@@ -476,18 +476,18 @@ export default {
     hacksaw, लोहा-आरी
     scalpel, छुरी 
     screw, पेंच
-    screwdriver, पेंचकस`,
-      ],
+    screwdriver, पेंचकस`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-प्रकृति",
-      id: "connectnature",
+      type: 'connectLetters',
+      label: 'जुडिये-प्रकृति',
+      id: 'connectnature',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `sun, सूर्य
@@ -502,20 +502,20 @@ leaf, पत्ता
 world, दुनिया`,
 
         `nest, घोंसला
-water-drop, ओस
+        dew , ओस
 waterfall, झरना
-rainbow, इंद्रधनुष`,
-      ],
+rainbow, इंद्रधनुष`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "जुडिये-चित्र और नाम",
-      id: "connectothers",
+      type: 'connectLetters',
+      label: 'जुडिये-चित्र और नाम',
+      id: 'connectothers',
       commonData: {
-        title: "अक्षरों को मिलाकर एक शब्द बनाएँ।",
-        printTitle: "Form the word using the letters.",
-        type: "image",
-        lang: "hi",
+        title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'hi'
       },
       data: [
         `ring, अंगूठी
@@ -561,17 +561,17 @@ rainbow, इंद्रधनुष`,
                 yarn-ball, ऊन
                 trolley, ठेला
                 top, लट्टू
-                twig, टहनी`,
-      ],
+                twig, टहनी`
+      ]
     },
     {
-      type: "completeWord",
-      label: "फल",
-      id: "fruits",
+      type: 'completeWord',
+      label: 'फल',
+      id: 'fruits',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `apple| सेब 
@@ -599,23 +599,23 @@ pear| नाशपाती
 tamarind| इमली
 sugarcane| ईख`,
 
-        `water-chesnut| सिंघाड़ा| सिं_ड़ा
+        `water-chestnut| सिंघाड़ा| सिं_ड़ा
 blueberry| नीलबदरी
 peach| सतालू
 jujube| बेर
 passion-fruit| कृष्णा फल
 star-fruit| कमरख
-dragon-fruit| पिताया`,
-      ],
+dragon-fruit| पिताया`
+      ]
     },
     {
-      type: "completeWord",
-      label: "सब्जियां",
-      id: "vegetables",
+      type: 'completeWord',
+      label: 'सब्जियां',
+      id: 'vegetables',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `carrot| गाजर 
@@ -650,7 +650,7 @@ ladies-finger| भिन्डी`,
 
         `mintleaf| पुदीना 
 peanut| मूंगफली| मूं___
-raddish| मूली
+radish| मूली
 spinach| पालक
 tulsi|तुलसी
 bottlegourd|लौकी`,
@@ -668,17 +668,17 @@ snake-gourd|चिचिण्डा
 cluster-beans|गँवार फली| गँ__ __
 kohlrabi|बन्द-गोभी| ब__-__
 ivygourd|कुंदरू| कुं__
-ridgegourd|तुरई`,
-      ],
+ridgegourd|तुरई`
+      ]
     },
     {
-      type: "completeWord",
-      label: "फूल",
-      id: "flowers",
+      type: 'completeWord',
+      label: 'फूल',
+      id: 'flowers',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `rose| गुलाब 
@@ -698,17 +698,17 @@ pansy| बनफूल`,
         `mogra| मोगरा
 lily| कुमुदनी
 mangolia| चम्पा
-daffodil| नरगिस`,
-      ],
+daffodil| नरगिस`
+      ]
     },
     {
-      type: "completeWord",
-      label: "जानवर",
-      id: "animal",
+      type: 'completeWord',
+      label: 'जानवर',
+      id: 'animal',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `cat| बिल्ली 
@@ -786,17 +786,17 @@ seahorse|समुद्री घोड़े| स__ _ड़े`,
         `mole|छछूँदर| _छूँ__
 spider|मकड़ी| __ड़ी
 caterpillar|इल्ली
-earthworm|केंचुआ| कें__`,
-      ],
+earthworm|केंचुआ| कें__`
+      ]
     },
     {
-      type: "completeWord",
-      label: "पक्षी",
-      id: "bird",
+      type: 'completeWord',
+      label: 'पक्षी',
+      id: 'bird',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `crow| कौवा 
@@ -828,17 +828,17 @@ falcon| बाज़| _ज़`,
         `bulbul|बुलबुल
 spotted-dove| चित्तीदार कबूतर| चि____ ____
 seagull|सामुद्रिक चिड़िया| सा____ _ड़ि_
-hawk|बाज`,
-      ],
+hawk|बाज`
+      ]
     },
     {
-      type: "completeWord",
-      label: "शरीर के अंग",
-      id: "body-parts",
+      type: 'completeWord',
+      label: 'शरीर के अंग',
+      id: 'body-parts',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `ear| कान 	          
@@ -849,17 +849,17 @@ nose| नाक`,
         `tooth| दांत 
 eye| आंख| आं_
 foot| पैर 
-hair| बाल`,
-      ],
+hair| बाल`
+      ]
     },
     {
-      type: "completeWord",
-      label: "पोशाक",
-      id: "dress",
+      type: 'completeWord',
+      label: 'पोशाक',
+      id: 'dress',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `shoe|जूता
@@ -870,17 +870,17 @@ hair| बाल`,
         `scarf|दुपट्टा
   shirt|कमीज
   hat|टोपी
-  trousers|पतलून`,
-      ],
+  trousers|पतलून`
+      ]
     },
     {
-      type: "completeWord",
-      label: "नौकरियां",
-      id: "jobs",
+      type: 'completeWord',
+      label: 'नौकरियां',
+      id: 'jobs',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `astronaut|अंतरिक्ष यात्री| अं___ __
@@ -900,17 +900,17 @@ hair| बाल`,
   doctor|चिकित्सक
   soldier|सैनिक
   barber|नाई
-  washerman|धोबी`,
-      ],
+  washerman|धोबी`
+      ]
     },
     {
-      type: "completeWord",
-      label: "मकान",
-      id: "house",
+      type: 'completeWord',
+      label: 'मकान',
+      id: 'house',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `house| मकान
@@ -936,17 +936,17 @@ bucket|बाल्टी
 soap|साबुन
 pillow|तकिया
 basket|टोकरी
-dustbin|कचरे का डिब्बा| क__ का डि__`,
-      ],
+dustbin|कचरे का डिब्बा| क__ का डि__`
+      ]
     },
     {
-      type: "completeWord",
-      label: "विद्यालय",
-      id: "school",
+      type: 'completeWord',
+      label: 'विद्यालय',
+      id: 'school',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `eraser| रबड़| __ड़	
@@ -958,17 +958,17 @@ dustbin|कचरे का डिब्बा| क__ का डि__`,
         `scissors| कैंची| कैं_
             book| किताब 	
             crayons| चित्रांकनी| _त्रां__
-            ink|स्याही`,
-      ],
+            ink|स्याही`
+      ]
     },
     {
-      type: "completeWord",
-      label: "रसोईघ",
-      id: "kitchen",
+      type: 'completeWord',
+      label: 'रसोईघ',
+      id: 'kitchen',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `stove| चूल्हा	 
@@ -995,17 +995,17 @@ flour|आटा
 lentils|दाल
 rice|चावल
 cheese|पनीर
-lollipop|टिकीया`,
-      ],
+lollipop|टिकीया`
+      ]
     },
     {
-      type: "completeWord",
-      label: "उपकरण",
-      id: "tools",
+      type: 'completeWord',
+      label: 'उपकरण',
+      id: 'tools',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `axe| कुल्हाडी
@@ -1027,17 +1027,17 @@ easel| चित्रफलक
 hacksaw| लोहा-आरी| लो_ __
 scalpel| छुरी 
 screw| पेंच| पें_
-screwdriver| पेंचकस| पें___`,
-      ],
+screwdriver| पेंचकस| पें___`
+      ]
     },
     {
-      type: "completeWord",
-      label: "प्रकृति",
-      id: "nature",
+      type: 'completeWord',
+      label: 'प्रकृति',
+      id: 'nature',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `sun| सूर्य
@@ -1052,19 +1052,19 @@ leaf|पत्ता
 world|दुनिया`,
 
         `nest|घोंसला| घों__
-water-drop|ओस
+dew |ओस
 waterfall|झरना
-rainbow|इंद्रधनुष`,
-      ],
+rainbow|इंद्रधनुष`
+      ]
     },
     {
-      type: "completeWord",
-      label: "चित्र और नाम",
-      id: "others",
+      type: 'completeWord',
+      label: 'चित्र और नाम',
+      id: 'others',
       commonData: {
-        title: "रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।",
-        images: "custom",
-        lang: "hi",
+        title: 'रिक्त स्थानों की पूर्ति कीजिए और शब्द को पूरा कीजिए।',
+        images: 'custom',
+        lang: 'hi'
       },
       data: [
         `ring| अंगूठी
@@ -1108,8 +1108,8 @@ rainbow|इंद्रधनुष`,
             yarn-ball| ऊन
             trolley| ठेला
             top| लट्टू
-            twig| टहनी`,
-      ],
-    },
-  ],
+            twig| टहनी`
+      ]
+    }
+  ]
 };

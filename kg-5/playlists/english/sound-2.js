@@ -43,7 +43,7 @@ export default {
         {
           audioOffset: 40,
           text:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger| ladies finger, mintleaf, peanut, raddish, spinach, vegetables'
+            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger| ladies finger, mintleaf, peanut, radish, spinach, vegetables'
         }
       ]
     },
@@ -94,7 +94,7 @@ export default {
         {
           audioOffset: 40,
           words:
-            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach, vegetables'
+            'corianderleaf, curryleaf, drumstick, greenpeas, ladies-finger, mintleaf, peanut, radish, spinach, vegetables'
         }
       ]
     }

@@ -350,7 +350,7 @@ There is no end to *this*.`
     {
       id: 'fill-up',
       label: 'Type in the blanks',
-      type: 'fillup-type',
+      type: 'fillup',
       commonData: {
         title: `Click on the blanks and type the right pronoun to complete the sentence.`,
         noOptions: true

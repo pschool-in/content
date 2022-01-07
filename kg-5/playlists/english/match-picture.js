@@ -158,7 +158,7 @@ P, potato`,
         `C, cucumber
 G, garlic
 B, beans
-R, raddish`,
+R, radish`,
 
         `C, cauliflower
 P, pumpkin

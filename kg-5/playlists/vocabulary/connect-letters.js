@@ -66,7 +66,7 @@ export default {
 
         'cauliflower,pumpkin,almond,beans,brinjal,capsicum,cashewnut,chilli,coconut',
 
-        'curryleaf,drumstick,greenpeas,mintleaf,peanut,raddish,spinach'
+        'curryleaf,drumstick,greenpeas,mintleaf,peanut,radish,spinach'
       ]
     }
   ]

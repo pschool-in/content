@@ -73,7 +73,7 @@ greenpeas| GREEN PEAS |  _REEN PEAS
 ladies-finger | LADIES FINGER | _ADIES FINGER
 mintleaf| MINT LEAF | _INT LEAF
 peanut| PEANUT | _EANUT
-raddish| RADDISH | _ADDISH
+radish| RADISH | _ADISH
 spinach | SPINACH | _PINACH
 vegetables | VEGETABLES | _EGETABLES`
       ]
@@ -145,7 +145,7 @@ vegetables | VEGETABLES | _EGETABLES`
         `C, cucumber
         B, brinjal
         G, greenpeas
-        R, raddish
+        R, radish
         S, spinach
         V, vegetables`
       ]
@@ -153,7 +153,7 @@ vegetables | VEGETABLES | _EGETABLES`
     {
       type: 'dragDropImgLabel',
       label: 'Fruits - Drag & Drop',
-      id: 'dragDrop-fruits',
+      id: 'dragdrop-fruits',
       commonData: {
         title: 'Drag and Drop the name on the images.'
       },
@@ -165,14 +165,14 @@ cherry | Cherry
 avocado | Avocado
 strawberry | Strawberry`,
 
-`guava | Gvuava
+        `guava | Guava
 jackfruit | Jackfruit
 mango | Mango
 orange | Orange
 papaya | Papaya
 pineapple | Pineapple`,
 
-`watermelon | Watermelon
+        `watermelon | Watermelon
 pomegranate| Pomegranate
 fig| Fig
 custard-apple| Custard Apple
@@ -196,31 +196,31 @@ tomato | Tomato
 potato | Potato
 cabbage | Cabbage`,
 
-`corn | Corn
+        `corn | Corn
 cucumber |Cucumber
 garlic|Garlic
 ginger|Ginger
 cauliflower| Cauliflower
 pumpkin| Pumpkin`,
 
-`almond| Almond
+        `almond| Almond
 beans| Beans
 bitter-gourd| Bitter Gourd
 brinjal| Brinjal
 capsicum| Capsicum
 cashewnut| Cashewnut`,
 
-`chilli| Chilli
+        `chilli| Chilli
 coconut | Coconut
 corianderleaf | Coriander Leaf
 curryleaf | Curry Leaf
 drumstick| Drumstick
 greenpeas| Green Peas`,
 
-`ladies-finger | Ladies Finger
+        `ladies-finger | Ladies Finger
 mintleaf| Mintleaf
 peanut| Peanut
-raddish| Raddish
+radish| Radish
 spinach | Spinach
 vegetables | Vegetables`
       ]

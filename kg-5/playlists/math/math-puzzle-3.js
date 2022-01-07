@@ -123,7 +123,7 @@ export default {
         },
         {
           text: `12−?=1
-        +b-b+
+        +b−b+
         2+?=?
         =b=b=
         ?−?=6`,

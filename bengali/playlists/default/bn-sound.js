@@ -91,7 +91,7 @@ export default {
   ladies-finger | ভিন্ডি
   mintleaf | পুদিনা
   peanut | চিনাবাদাম
-  raddish | মূলো
+  radish | মূলো
   spinach | পালং শাক`
         }
       ]
@@ -139,7 +139,7 @@ export default {
           audio: 'bn/bn-vegetables.mp3',
           audioOffset: 40,
           words:
-            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, raddish, spinach'
+            'drumstick, greenpeas, ladies-finger, mintleaf, peanut, radish, spinach'
         }
       ]
     },
