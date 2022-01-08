@@ -9,11 +9,10 @@ export default {
       id: 'raeding',
       data: {
         title: 'Reproduction in Plants',
-        text: `#REPRODUCTION IN PLANTS
-Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).
+        text: `Reproduction is the process by which living things make young ones. There are two kinds of reproduction that take place in plants. They are sexual reproduction (reproduction through seeds) and asexual reproduction (reproduction through different parts of plants).
 The main stages involved in sexual reproduction are as follows. Pollination- The transfer of pollen grains from the anther to stigma of a flower. Fertilization- When pollination is successful, the pollen joins the egg present in the ovary. The cell which results after fusion is called a zygote. Seed formation- After fertilization, the ovary swells and changes into a fruit. The seeds develop from the ovules.
 Flowers are not required for asexual reproduction method. It occurs through budding, fragmentation, vegetative propagation, and spore formation.
-#AGRICULTURE
+# Agriculture
 Agriculture or farming is one of the main sources of the livelihood. It is the practice of farming to grow crops and produce food. Major agricultural products are cereals, vegetables, fruits and oil seeds. They are cultivated not only for our basic needs but also for commercial purpose. In agriculture, there are certain parameters to be considered such as the type of crop, properties of soil, climate etc.
 Soil is one of the most important natural resources and is essential for agriculture. The organic and inorganic material on the surface of the earth that provides the medium for plant growth is called the soil. The soil is classified on the basis of the proportion of various sizes.
 Soil is one of the most important natural resources. It is essential for agriculture. It supports the growth of plants by holding the roots and supplying water and nutrients. It is the home for many organisms. Soil is formed by the breaking of rocks by the action of wind, water and climate. The mixture of rock particles and humus is called the soil. The soil is classified on the basis of the proportion of various sizes.

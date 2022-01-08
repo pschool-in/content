@@ -8,8 +8,11 @@ export default {
       id: 'odd-one',
       data: {
         title: 'Pick the odd one',
-        text:
-          'ship, airplane, helicopter\ntrain, car, bus\ncar, boat, ship\nbicycle, bus, lorry\nship, van, bus'
+        text: `ship, airplane, helicopter
+train, car, bus
+car, boat, ship
+bicycle, bus, lorry
+ship, van, bus`
       }
     },
     {

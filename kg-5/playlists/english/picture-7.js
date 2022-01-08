@@ -13,24 +13,24 @@ export default {
       },
       data: [
         `aeroplane | AEROPLANE | _ERO_LANE
-  boat | BOAT | _OAT
-  bus | BUS | _US
-  car | CAR | _AR
-  cycle | CYCLE | _YCLE
-  helicoptor | HELICOPTOR | _ELI_OPTOR
-  motorbike | MOTORBIKE | _OTOR_IKE
-  ship | SHIP | _HIP
-  tractor | TRACTOR | _RACTOR
-  lorry| LORRY | _ORRY`,
+boat | BOAT | _OAT
+bus | BUS | _US
+car | CAR | _AR
+cycle | CYCLE | _YCLE
+helicoptor | HELICOPTOR | _ELI_OPTOR
+motorbike | MOTORBIKE | _OTOR_IKE
+ship | SHIP | _HIP
+tractor | TRACTOR | _RACTOR
+lorry| LORRY | _ORRY`,
 
         `train | TRAIN | _RAIN
-  ambulance| AMBULANCE | _MBULANCE
-  auto| AUTO | _UTO
-  cart| CART | _ART
-  excavator| EXCAVATOR | _XCAVATOR
-  fire-engine| FIRE ENGINE | _IRE ENGINE
-  van| VAN | _AN
-  bulldozer | BULLDOZER | _ULLDOZER
+ambulance| AMBULANCE | _MBULANCE
+auto| AUTO | _UTO
+cart| CART | _ART
+excavator| EXCAVATOR | _XCAVATOR
+fire-engine| FIRE ENGINE | _IRE ENGINE
+van| VAN | _AN
+bulldozer | BULLDOZER | _ULLDOZER
 rocket | ROCKET | _OCKET
 submarine | SUBMARINE | _UBMARINE`
       ]
@@ -80,28 +80,28 @@ washerman | WASHERMAN | _ASHERMAN`
       },
       data: [
         `A, aeroplane 
-        B, boat
-        C, cycle 
-        H, helicoptor
-        M, motorbike
-        S, ship `,
+B, boat
+C, cycle 
+H, helicoptor
+M, motorbike
+S, ship `,
 
         `B, bus 
-        C, car 
-        T, tractor 
-        L, lorry
-        A, auto
-        E, excavator`,
+C, car 
+T, tractor 
+L, lorry
+A, auto
+E, excavator`,
 
         `F, fire-engine
-        V, van
-        B, bulldozer
-        T, train `,
+V, van
+B, bulldozer
+T, train `,
 
         `C, cart
-        A, ambulance
-        R, rocket 
-        S, submarine`
+A, ambulance
+R, rocket 
+S, submarine`
       ]
     },
     {
@@ -122,19 +122,19 @@ P, postman
 T, teacher 
 B, blacksmith`,
 
-`C, cobbler 
+        `C, cobbler 
 G, goldsmith 
 P, potter 
 W, weaver
 D, diver 
 N, nurse`,
 
-`S, sailor 
+        `S, sailor 
 C, chef 
 D, doctor 
 P, police`,
 
-`S, soldier 
+        `S, soldier 
 C, carpenter 
 B, barber 
 W, washerman`
@@ -148,29 +148,29 @@ W, washerman`
         title: 'Drag and Drop the name on the images.'
       },
       data: [
-  `aeroplane | Aeroplane
-  boat | Boat
-  bus | Bus
-  car | Car
-  cycle | Cycle
-  helicoptor | Helicopter`,
+        `aeroplane | Aeroplane
+boat | Boat
+bus | Bus
+car | Car
+cycle | Cycle
+helicoptor | Helicopter`,
 
-  `motorbike | Motorbike
-  ship | Ship
-  tractor | Tractor
-  lorry| Lorry
-  train | Train
-  ambulance| Ambulance`,
+        `motorbike | Motorbike
+ship | Ship
+tractor | Tractor
+lorry| Lorry
+train | Train
+ambulance| Ambulance`,
 
-  `auto| Auto
-  cart| Cart
-  excavator| Excavator
-  fire-engine| Fire Engine`,
+        `auto| Auto
+cart| Cart
+excavator| Excavator
+fire-engine| Fire Engine`,
 
-  `van| Van
-  bulldozer | Bulldozer
- rocket | Rocket
- submarine | Submarine`
+        `van| Van
+bulldozer | Bulldozer
+rocket | Rocket
+submarine | Submarine`
       ]
     },
     {
@@ -188,19 +188,19 @@ postman | Postman
 teacher | Teacher
 blacksmith | Blacksmith`,
 
-`cobbler | Cobbler
+        `cobbler | Cobbler
 goldsmith | Goldsmith
 potter | Potter
 weaver | Weaver
 carpenter | Carpenter
 diver | Diver`,
 
-`nurse | Nurse
+        `nurse | Nurse
 sailor | Sailor
 chef | Chef
 doctor | Doctor`,
 
-`police | Police
+        `police | Police
 soldier | Soldier
 barber | Barber
 washerman | Washerman`

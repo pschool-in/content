@@ -66,13 +66,13 @@ export default {
         images: 'flowers',
         title: 'Choose the first letter of the given flower.',
         text: `rose | ROSE
-    lotus | LOTUS 
-    sunflower | SUNFLOWER
-    marigold | MARIGOLD
-    hibiscus | HIBISCUS 
-    jasmine | JASMINE
-    tulip | TULIP 
-    zinnia | ZINNIA`
+lotus | LOTUS 
+sunflower | SUNFLOWER
+marigold | MARIGOLD
+hibiscus | HIBISCUS 
+jasmine | JASMINE
+tulip | TULIP 
+zinnia | ZINNIA`
       }
     },
     {
@@ -82,13 +82,13 @@ export default {
       data: {
         images: 'bodyParts',
         text: `ear |EAR 
-    eye |EYE
-    foot |FOOT
-    hair|HAIR
-    hand|HAND
-    mouth|MOUTH
-    nose|NOSE
-    tooth|TOOTH`
+eye |EYE
+foot |FOOT
+hair|HAIR
+hand|HAND
+mouth|MOUTH
+nose|NOSE
+tooth|TOOTH`
       }
     },
     {
@@ -100,23 +100,23 @@ export default {
       },
       data: [
         `aeroplane | AEROPLANE
-    boat | BOAT
-    bus | BUS | ___
-    car | CAR | ___
-    cycle | CYCLE
-    helicoptor | HELICOPTOR
-    motorbike | MOTORBIKE
-    ship | SHIP
-    tractor | TRACTOR`,
+boat | BOAT
+bus | BUS | ___
+car | CAR | ___
+cycle | CYCLE
+helicoptor | HELICOPTOR
+motorbike | MOTORBIKE
+ship | SHIP
+tractor | TRACTOR`,
 
         `train | TRAIN 
-    ambulance| AMBULANCE
-    auto| AUTO
-    cart| CART 
-    excavator| EXCAVATOR
-    fire-engine| FIRE ENGINE | F___ ______
-    lorry| LORRY 
-    van| VAN `
+ambulance| AMBULANCE
+auto| AUTO
+cart| CART 
+excavator| EXCAVATOR
+fire-engine| FIRE ENGINE | F___ ______
+lorry| LORRY 
+van| VAN `
       ]
     },
     {
@@ -126,12 +126,12 @@ export default {
       data: {
         images: 'kitchen',
         text: `stove |STOVE
-      fork|FORK
-      knife|KNIFE
-      pan|PAN
-      spoon|SPOON
-      pot|POT
-      butter|BUTTER`
+fork|FORK
+knife|KNIFE
+pan|PAN
+spoon|SPOON
+pot|POT
+butter|BUTTER`
       }
     },
     {
@@ -141,14 +141,14 @@ export default {
       data: {
         images: 'others',
         text: `sun |SUN
-            moon|MOON
-      rain|RAIN
-      star|STAR
-      milk|MILK
-      bird|BIRD
-      fruits|FRUITS
-      leaf|LEAF
-      world|WORLD`
+moon|MOON
+rain|RAIN
+star|STAR
+milk|MILK
+bird|BIRD
+fruits|FRUITS
+leaf|LEAF
+world|WORLD`
       }
     },
     {
@@ -160,49 +160,49 @@ export default {
       },
       data: [
         `man| MAN
-  woman | WOMAN
-  boy|BOY
-  girl | GIRL
-  baby | BABY
-  house| HOUSE
-  table|TABLE
-  bed|BED
-  candle|CANDLE
-  chair|CHAIR`,
+woman | WOMAN
+boy|BOY
+girl | GIRL
+baby | BABY
+house| HOUSE
+table|TABLE
+bed|BED
+candle|CANDLE
+chair|CHAIR`,
 
         `shelf|SHELF
-  ball|BALL
-  coat|COAT
-  glasses|GLASSES
-  clock | CLOCK
-  watch | WATCH
-  schoolbag| SCHOOL BAG | S_____ ___
-  waterbottle| WATER BOTTLE | W____ ______`,
+ball|BALL
+coat|COAT
+glasses|GLASSES
+clock | CLOCK
+watch | WATCH
+schoolbag| SCHOOL BAG | S_____ ___
+waterbottle| WATER BOTTLE | W____ ______`,
 
         `pen |PEN |___
-  pencil|PENCIL
-  ruler|RULER
-  eraser|ERASER
-  scissors|SCISSORS
-  sharpener|SHARPENER
-  calculator| CALCULATOR 
-  book| BOOK`,
+pencil|PENCIL
+ruler|RULER
+eraser|ERASER
+scissors|SCISSORS
+sharpener|SHARPENER
+calculator| CALCULATOR 
+book| BOOK`,
 
         `color-pencils| COLOR PENCILS |C____ _______
-  crayons | CRAYONS
-  bell | BELL
-  whistle |WHISTLE
-  brush| BRUSH
-  bone| BONE
-  conch| CONCH`,
+crayons | CRAYONS
+bell | BELL
+whistle |WHISTLE
+brush| BRUSH
+bone| BONE
+conch| CONCH`,
 
         `ring| RING
-  drums| DRUMS
-  food| FOOD
-  king| KING
-  kite| KITE
-  ladder| LADDER
-  wheel| WHEEL`
+drums| DRUMS
+food| FOOD
+king| KING
+kite| KITE
+ladder| LADDER
+wheel| WHEEL`
       ]
     },
     {
@@ -212,14 +212,14 @@ export default {
       data: {
         images: 'gadgets',
         text: `camera |CAMERA
-  headphone|HEADPHONE
-  pendrive|PENDRIVE
-  remote|REMOTE
-  smartphone|SMARTPHONE
-  speaker|SPEAKER
-  tablet|TABLET
-  torch|TORCH 
-  web-camera | WEB CAMERA | W__ ______`
+headphone|HEADPHONE
+pendrive|PENDRIVE
+remote|REMOTE
+smartphone|SMARTPHONE
+speaker|SPEAKER
+tablet|TABLET
+torch|TORCH 
+web-camera | WEB CAMERA | W__ ______`
       }
     }
   ]

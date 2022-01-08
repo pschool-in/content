@@ -14,31 +14,31 @@ export default {
           {
             type: 'html',
             text: `<b>was</b> -  past tense for singular subject <br>
-  <b>were</b> - past tense for plural subject`
+<b>were</b> - past tense for plural subject`
           },
           `# they vs them`,
           {
             type: 'html',
             text: `<b>they</b> -  used as subject<br>
-  <b>them</b> - used as object`
+<b>them</b> - used as object`
           },
           `# my vs mine`,
           {
             type: 'html',
             text: `<b>my</b> -  used as subject<br>
-  <b>mine</b> -  used as object`
+<b>mine</b> -  used as object`
           },
           `# he vs his`,
           {
             type: 'html',
             text: `<b>he</b> - masculine pronoun <br>
-  <b>his </b> - to show belonging`
+<b>his </b> - to show belonging`
           },
           `# had vs have`,
           {
             type: 'html',
             text: `<b>had</b> -  past tense<br>
-  <b>have</b> - present tense with plural subject`
+<b>have</b> - present tense with plural subject`
           },
           `# your vs you're`,
           {
@@ -69,19 +69,19 @@ export default {
           {
             type: 'html',
             text: `<b>you</b> -  second person pronoun <br>
-  <b>yours </b> -  belongs to you.`
+<b>yours </b> -  belongs to you.`
           },
           `# when vs where`,
           {
             type: 'html',
             text: `<b>when</b> - to define time<br>
-  <b>where</b> - to define place`
+<b>where</b> - to define place`
           },
           `# this vs those`,
           {
             type: 'html',
             text: `<b>this</b> - close to the speaker or very recent (singular). <br>
-    <b>those</b> - far to the speaker or far in time`
+<b>those</b> - far to the speaker or far in time`
           }
         ]
       }
@@ -270,7 +270,7 @@ Why are *those* girls laughing?`,
           {
             type: 'html',
             text: `<b>can</b> - to seek permission to do or say something<br>
-  <b>could</b> - past tense of 'can', to ask question politely`
+<b>could</b> - past tense of 'can', to ask question politely`
           },
           `# than vs then`,
           {
@@ -282,56 +282,56 @@ Why are *those* girls laughing?`,
           {
             type: 'html',
             text: `<b>better</b> - comparative degree<br>
-  <b>best</b> - superlative degree`
+<b>best</b> - superlative degree`
           },
           `# shall vs should`,
           {
             type: 'html',
             text: `<b>shall</b> - express ideas in future tense<br>
-  <b>should</b> - past tense of 'shall'`
+<b>should</b> - past tense of 'shall'`
           },
           `# will vs would`,
           {
             type: 'html',
             text: `<b>will </b> -  to refer a future event<br>
-              <b>would</b> -  to refer to a future event that may occur under specific conditions <br>`
+<b>would</b> -  to refer to a future event that may occur under specific conditions <br>`
           },
           `# much vs many`,
           {
             type: 'html',
             text: `<b>much</b> - used with uncountable noun<br>
-    <b>many</b> - used with countable noun`
+<b>many</b> - used with countable noun`
           },
           `# more vs most`,
           {
             type: 'html',
             text: `<b>more</b> - comparative degree<br>
-    <b>most</b> - superlative degree`
+<b>most</b> - superlative degree`
           },
           `# was vs would`,
           {
             type: 'html',
             text: `<b>was</b> -  past tense<br>
-    <b>would</b> - to express a desire, a hope of something being fulfilled`
+<b>would</b> - to express a desire, a hope of something being fulfilled`
           },
           `# were vs where`,
           {
             type: 'html',
             text: `<b>were</b> -  past tense (plural)<br>
-    <b>where</b> - to define a place`
+<b>where</b> - to define a place`
           },
           `# there vs their`,
           {
             type: 'html',
             text: `<b>there</b> - opposite of here <br>
-    <b>their </b> - to show possession`
+<b>their </b> - to show possession`
           },
 
           `# begin vs began`,
           {
             type: 'html',
             text: `<b>begin</b> - present tense<br>
-    <b>began</b> - past tense`
+<b>began</b> - past tense`
           }
         ]
       }

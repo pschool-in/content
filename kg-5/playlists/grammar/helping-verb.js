@@ -52,8 +52,8 @@ export default {
           {
             type: 'hilight',
             text: `do - does
-            have - has
-            `
+have - has
+`
           },
           {
             type: 'html',

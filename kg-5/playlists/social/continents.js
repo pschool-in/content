@@ -174,7 +174,7 @@ South America, Brazil`
           dashWidth: 80
         },
         text: `The top two highly populated countries are present in *Asia*. It is very difficult to live in the continent *Antarctica*. The Great Barrier Reef, is one of the pride of *Australia*. The world's largest desert, Sahara desert is present in *Africa*. Amazon rain forest is present in *South America*. Countries like France and Spain are present in *Europe*.
-        Canada is part of *North America*.`
+Canada is part of *North America*.`
       }
     }
   ]

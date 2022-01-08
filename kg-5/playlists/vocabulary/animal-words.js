@@ -74,11 +74,11 @@ fish, aquarium`
       data: {
         title: 'Match the people with their living place.',
         text: `man, house
-        hermit, hermitage
-        king, palace
-        nomad, tent
-        peasant, cottage
-        soldier, camp`
+hermit, hermitage
+king, palace
+nomad, tent
+peasant, cottage
+soldier, camp`
       }
     },
     {

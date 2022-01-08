@@ -15,8 +15,8 @@ Living things live, breathe, consume, grow, die and reproduce. For example Human
 1. Living things and non-living things interact in the environment. For example, birds live in a nest. To build the nest, they need twigs, cotton, threads, etc.
 2. Living things also keep the environment healthy. For example, seeds scatter in the soil/ ground by the wind and grow as new plants that help the environment.
 3. Living things bring changes even in non-living things. Some types of animals hunt and eat. The remaining part of the dead animals will start to decay in the soil and that will turn into manure. Thus, all living things and non-living things are dependent upon each other.`,
-        title: 'What is an Environment?',
-      },
+        title: 'What is an Environment?'
+      }
     },
     {
       id: 'classify',
@@ -27,14 +27,14 @@ Living things live, breathe, consume, grow, die and reproduce. For example Human
         types: [
           {
             name: 'living',
-            text: 'tree, squirrel, fox, plant',
+            text: 'tree, squirrel, fox, plant'
           },
           {
             name: 'non-living',
-            text: 'stone, water, chair, bread',
-          },
-        ],
-      },
+            text: 'stone, water, chair, bread'
+          }
+        ]
+      }
     },
     {
       id: 'match',
@@ -47,8 +47,8 @@ Living things live, breathe, consume, grow, die and reproduce. For example Human
 Silk, Clothes
 Wooden chair, Tree
 Soil Fertile, humus
-Pollution, Environment`,
-      },
+Pollution, Environment`
+      }
     },
     {
       id: 'mcq',
@@ -62,21 +62,21 @@ Pollution, Environment`,
             options: `eat food
 move one place to another
 reproduce the little ones
-*All the above`,
+*All the above`
           },
           {
             qText: 'Houses are built using ___________',
             options: `bricks and cement
 steel and glasses
 wood
-*All the above`,
+*All the above`
           },
           {
             qText: 'Environment is made up of __________.',
             options: `living and non-living things
 animals and plants
 human beings and animals
-earth and sky`,
+earth and sky`
           },
           {
             qText:
@@ -84,14 +84,14 @@ earth and sky`,
             options: `paper, baskets
 water, soil
 stone, plants
-mountain, land`,
+mountain, land`
           },
           {
             qText: 'Seeds of the plants are scattered by _________.',
-            options: 'wind, animals, insects , *All the above',
-          },
-        ],
-      },
+            options: 'wind, animals, insects , *All the above'
+          }
+        ]
+      }
     },
     {
       label: 'Drag and Drop',
@@ -102,14 +102,14 @@ mountain, land`,
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `Living things bring changes in *non-living things* too.
 Living things need *food* to grow.
 Humans used to weave *clothes* using cotton, silk, wool.
 Some animals used to hunt and eat other *animal's flesh*.
-For survival, living things take their needs from the *environment*.`,
-      },
+For survival, living things take their needs from the *environment*.`
+      }
     },
     {
       id: 'fillup',
@@ -121,8 +121,8 @@ Plants and animals are *living things (non-living things)*.
 Plants utilize *sunlight (moonlight)* to prepare their food.
 Birds build their nest using *twigs (bricks) *.
 Papers, rock and bag are *non-living (living)* things .`,
-        title: 'Fill in the blanks.',
-      },
+        title: 'Fill in the blanks.'
+      }
     },
     {
       id: 'true-false',
@@ -135,15 +135,15 @@ Papers, rock and bag are *non-living (living)* things .`,
             name: 'True',
             text: `Dead animals will decay in the soil and turn the soil fertile.
 Living things and non-living things depend upon each other in the environment.
-Plants will not move from one place to another place by their own.`,
+Plants will not move from one place to another place by their own.`
           },
           {
             name: 'False',
             text: `Train can move from one place to another. So, train is a living thing.
-Wooden chairs and tables are made from the trees. So, they are living things.`,
-          },
-        ],
-      },
+Wooden chairs and tables are made from the trees. So, they are living things.`
+          }
+        ]
+      }
     },
 
     {
@@ -167,8 +167,8 @@ Some fly in the air, as well as they move on land. There are variety of insects 
 Fishes live in water. They are of different types. They have fins and scales in their body to move in the water; use gills to breathe. They cannot survive on land. Some unique fishes can survive on moist-land, for example, the mud-fish.
 Interesting facts - Bats have wings in their body, but they no feathers. Bats are not birds and are classified as cold-blooded animal.
 # Domestic animals and Wild animals
-Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`,
-      },
+Animals and birds can be categorized into two types; domestic and wild. Domestic animals can be tamed and don't harm, but wild animals harm us. Wild animals like lions, foxes, bears, tigers, etc., can be seen in forests, zoos. Domestic animals always support humans and help us in many ways. For example, cows, goats, buffalo. There are some types of animals and insects which enter our house, but are of no use to us like rats, mice, bed bugs, spiders etc.`
+      }
     },
     {
       id: 'classify-2',
@@ -179,14 +179,14 @@ Animals and birds can be categorized into two types; domestic and wild. Domestic
         types: [
           {
             name: 'Domestic',
-            text: 'cow, dog, goat, pig',
+            text: 'cow, dog, goat, pig'
           },
           {
             name: 'Wild',
-            text: 'lion, tiger, bear, fox',
-          },
-        ],
-      },
+            text: 'lion, tiger, bear, fox'
+          }
+        ]
+      }
     },
     {
       id: 'match-2',
@@ -199,8 +199,8 @@ Animals and birds can be categorized into two types; domestic and wild. Domestic
 Fish, Water
 Sheep, Wool
 Dog, Bark
-Snake, Crawl`,
-      },
+Snake, Crawl`
+      }
     },
     {
       id: 'mcq-2',
@@ -211,26 +211,26 @@ Snake, Crawl`,
         questions: [
           {
             qText: '_______ will crawl from one place to another place.',
-            options: `Snake, Elephant, Bat, Horse`,
+            options: `Snake, Elephant, Bat, Horse`
           },
           {
             qText: 'Butterflies have ______ legs.',
-            options: `six, seven, eight, nine`,
+            options: `six, seven, eight, nine`
           },
           {
             qText: '_______ has mane in their body.',
-            options: `Horse, Cow, Elephant, Deer`,
+            options: `Horse, Cow, Elephant, Deer`
           },
           {
             qText: '_______ have different colors in their body.',
-            options: `Peacock, Crow, Eagle, Dove`,
+            options: `Peacock, Crow, Eagle, Dove`
           },
           {
             qText: '_________ grows in stagnant water.',
-            options: `Mosquito, Housefly, Cockroach, Fruitfly`,
-          },
-        ],
-      },
+            options: `Mosquito, Housefly, Cockroach, Fruitfly`
+          }
+        ]
+      }
     },
     {
       label: 'Drag and Drop-2',
@@ -241,14 +241,14 @@ Snake, Crawl`,
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `Crocodiles are *reptiles*.
 *Elephants* have trunk.
 *Snake* is a cold-blooded animal.
 *Chameleon* can change its skin color.
-*Monkey* is a warm-blooded animal.`,
-      },
+*Monkey* is a warm-blooded animal.`
+      }
     },
 
     {
@@ -261,8 +261,8 @@ Snake, Crawl`,
 Rats and mice *trouble (help)* us.
 Bedbugs suck *blood (sweat)* from our body
 *Kangaroos (Monkey)* have a special pouch in their body, to carry their young ones.`,
-        title: 'Fill in the blanks.',
-      },
+        title: 'Fill in the blanks.'
+      }
     },
     {
       id: 'true-false-2',
@@ -275,15 +275,15 @@ Bedbugs suck *blood (sweat)* from our body
             name: 'True',
             text: `Fishes have fins, scales in their body.
 Eagle flies higher than the pigeon.
-Spiders are insects with eight legs.`,
+Spiders are insects with eight legs.`
           },
           {
             name: 'False',
             text: `Dogs have scales in their body.
-Bat is a bird.`,
-          },
-        ],
-      },
+Bat is a bird.`
+          }
+        ]
+      }
     },
     {
       id: 'notes-3',
@@ -299,8 +299,8 @@ Some animals live on trees as well as on land also. For example; monkeys, squirr
 # Human’s Need
 Animals and plants give us abundantly and they are satisfying our needs. Humans also take care of some animals for their domestic use and they are called domestic animals. Plants give us vegetables, fruits, flowers, seeds, and many products for our daily use. Besides, many plants have more medicinal values and their extraction is used as medicines.
 # Seasons
-We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season brings changes in the environment. For example, Cotton clothes are comfortable to wear during the summer season. Woolen clothes are comfortable to wear during winter season. Seasons give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.`,
-      },
+We have four seasons and they are summer, winter, spring, autumn (or) fall. Every season brings changes in the environment. For example, Cotton clothes are comfortable to wear during the summer season. Woolen clothes are comfortable to wear during winter season. Seasons give changes to other living things too. For eg; the animals which have fur will become much thicker during the winter season. During the spring seasons, fresh buds will start to bloom and it is the season of new beginnings. During the autumn (fall) seasons, trees leave changing color and some trees will lose their leaves. Not only trees, change in seasons will affect all living things.`
+      }
     },
     {
       id: 'classify-3',
@@ -311,14 +311,14 @@ We have four seasons and they are summer, winter, spring, autumn (or) fall. Ever
         types: [
           {
             name: 'Carnivores',
-            text: 'Shark, Hyena, Polar Bear, Snake',
+            text: 'Shark, Hyena, Polar Bear, Snake'
           },
           {
             name: 'Omnivores',
-            text: 'Fox, Dog, Human, Bear',
-          },
-        ],
-      },
+            text: 'Fox, Dog, Human, Bear'
+          }
+        ]
+      }
     },
     {
       id: 'match-3',
@@ -331,8 +331,8 @@ We have four seasons and they are summer, winter, spring, autumn (or) fall. Ever
 Winter, Cold and frost
 Spring, a new beginning 
 Autumn, fall season
-Monsoon, Overflow of river`,
-      },
+Monsoon, Overflow of river`
+      }
     },
     {
       id: 'mcq-3',
@@ -343,29 +343,29 @@ Monsoon, Overflow of river`,
         questions: [
           {
             qText: 'Mangoes are available in the ________ season',
-            options: `Summer, Winter, Autumn, Spring`,
+            options: `Summer, Winter, Autumn, Spring`
           },
           {
             qText: '__________ is an arboreal animal.',
-            options: `Primate, Alligator, Lion, Pig`,
+            options: `Primate, Alligator, Lion, Pig`
           },
           {
             qText: '_______ is a root vegetable.',
-            options: `Garlic, Tomato, Brinjal, Cauliflower`,
+            options: `Garlic, Tomato, Brinjal, Cauliflower`
           },
           {
             qText: '_________ lives on land.',
-            options: `Panda, Seals, Penguins, Walrus`,
+            options: `Panda, Seals, Penguins, Walrus`
           },
           {
             qText: '__________ is a reptile.',
             options: `Turtle
-              Gila monster
-              Alligator
-              *All the above`,
-          },
-        ],
-      },
+Gila monster
+Alligator
+*All the above`
+          }
+        ]
+      }
     },
     {
       id: 'drag-drop-3',
@@ -377,8 +377,8 @@ Plants in *marshes* are called mangroves.
 *Sheep pellets* can be used as manure for plants.
 *Roots* of the plant grow under the soil.
 Silk is obtained from the cocoon of the larvae of *silkworm*.`,
-        title: 'Fill in the blanks.',
-      },
+        title: 'Fill in the blanks.'
+      }
     },
     {
       id: 'fillup-options-3',
@@ -390,8 +390,8 @@ Change in season will affect * living things (non-living things)*.
 Plants prepare their food by *photosynthesis (Absorption)*.
 We depend upon *Agriculture (Weaving)* for our food.
 The *Shearing (Ginning)* process involved in obtaining the wool from sheep.`,
-        title: 'Fill in the blanks.',
-      },
+        title: 'Fill in the blanks.'
+      }
     },
     {
       id: 'true-false-3',
@@ -404,15 +404,15 @@ The *Shearing (Ginning)* process involved in obtaining the wool from sheep.`,
             name: 'True',
             text: `Monkey is an arboreal animal.
 Deer is an herbivore.
-Kangaroo is a wild animal.`,
+Kangaroo is a wild animal.`
           },
           {
             name: 'False',
             text: `Frogs can live only during rainy days.
-During autumn, fresh buds will bloom, and the new beginning of life starts.`,
-          },
-        ],
-      },
+During autumn, fresh buds will bloom, and the new beginning of life starts.`
+          }
+        ]
+      }
     },
     {
       id: 'notes-4',
@@ -421,8 +421,8 @@ During autumn, fresh buds will bloom, and the new beginning of life starts.`,
       data: {
         title: '',
         text: `# Biotic Factors
-          Biotic factors are the living organisms in our environment. example: trees, animals, birds
-          # Abiotic factors
+Biotic factors are the living organisms in our environment. example: trees, animals, birds
+# Abiotic factors
 Abiotic factors are the non-living organisms in our environment. example: water, air, stone
 # Difference between Biotic and Abiotic factors
 Biotic factors are also called living things and abiotic factors are also called non-living things. Biotic factors can feel, breathe and grow. They need food for living and they will give birth to young ones. Abiotic factors do not live. So, food is not necessary for them. Abiotic and biotic factors are linked together in the environment by the flow of energy via food. They both interact with one another in the environment. Moreover, plants are immobile, but they can grow well. Plants prepare their food by using abiotic factors like soil, water, air, sunlight, etc. Every biotic factor depends on other things for food in the environment.
@@ -436,8 +436,8 @@ Some types of living things are not able to produce food on their own and it is 
 2. Carnivores eat only the meat of other animals.
 3. Omnivores eat both plants and meat.
 # Decomposers
-Microorganisms that feed on the decaying waste such as dead plants and animals for their survival are called decomposers. Those micro-organisms support the environment by giving nutrients to the soil. So soil turns more fertile and this helps to grow the plants and trees well. For example; Bacteria, fungi, etc.`,
-      },
+Microorganisms that feed on the decaying waste such as dead plants and animals for their survival are called decomposers. Those micro-organisms support the environment by giving nutrients to the soil. So soil turns more fertile and this helps to grow the plants and trees well. For example; Bacteria, fungi, etc.`
+      }
     },
     {
       id: 'classify-4',
@@ -448,14 +448,14 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
         types: [
           {
             name: 'Plant based',
-            text: 'Ketchup, Popcorn, Lettuce, French fries',
+            text: 'Ketchup, Popcorn, Lettuce, French fries'
           },
           {
             name: 'Animal based',
-            text: 'Milk, Cheese, Eggs, Ice cream',
-          },
-        ],
-      },
+            text: 'Milk, Cheese, Eggs, Ice cream'
+          }
+        ]
+      }
     },
     {
       id: 'match-4',
@@ -468,8 +468,8 @@ Microorganisms that feed on the decaying waste such as dead plants and animals f
 Wind Energy, Electricity
 Leather, Bag
 Sheep, Wool
-Farmer, Food`,
-      },
+Farmer, Food`
+      }
     },
     {
       id: 'mcq-4',
@@ -480,19 +480,19 @@ Farmer, Food`,
         questions: [
           {
             qText: '_______ is classified as decomposers.',
-            options: `Fungi, Lotus, Tomato, Lentils`,
+            options: `Fungi, Lotus, Tomato, Lentils`
           },
           {
             qText: 'Humans are  ________. ',
-            options: `omnivores, carnivores, herbivores, None of the above`,
+            options: `omnivores, carnivores, herbivores, None of the above`
           },
           {
             qText: '_______ are also called as primary producers.',
-            options: `Plants, Animals, Insects, Human beings`,
+            options: `Plants, Animals, Insects, Human beings`
           },
           {
             qText: 'Van Mahotsav means ____________.',
-            options: `festival of forests, festival of animals, festival of human beings, None of the above`,
+            options: `festival of forests, festival of animals, festival of human beings, None of the above`
           },
           {
             qText:
@@ -500,10 +500,10 @@ Farmer, Food`,
             options: `Plant – Deer- Lion
 Lion- Bacteria – Human
 Human – plant – Tiger
-Fox – Fungi - Human`,
-          },
-        ],
-      },
+Fox – Fungi - Human`
+          }
+        ]
+      }
     },
     {
       label: 'Drag and Drop-4',
@@ -514,14 +514,14 @@ Fox – Fungi - Human`,
         title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `Amoeba is a *unicellular* organism.
 *Ecology* is the science that deals with the relationship between biotic factors and their physical environment.
 Plants prepare their own food and the process is called *photosynthesis*.
 *Parasitic* plants are dependent on other plants for their food.
-Carnivores are *flesh* eating animals.`,
-      },
+Carnivores are *flesh* eating animals.`
+      }
     },
     {
       id: 'fillup-4',
@@ -533,8 +533,8 @@ Trees give *Oxygen (Carbon-dioxide)* during day time.
 *Lentils (Insects)* grows in the fertile soil.
 *Cats (Hens)* gives birth to kittens. 
 *Tree (Sapling)*provides both shelter and food to other living things.`,
-        title: 'Fill in the blanks.',
-      },
+        title: 'Fill in the blanks.'
+      }
     },
     {
       id: 'true-false-4',
@@ -547,15 +547,15 @@ Trees give *Oxygen (Carbon-dioxide)* during day time.
             name: 'True',
             text: `Fungi is a micro-organism.
 The young plant is called a sapling.
-Stones are an abiotic factor`,
+Stones are an abiotic factor`
           },
           {
             name: 'False',
             text: `An elephant is an omnivore animal.
-Soil is a consumer.`,
-          },
-        ],
-      },
+Soil is a consumer.`
+          }
+        ]
+      }
     },
     {
       id: 'wordsearch',
@@ -565,28 +565,28 @@ Soil is a consumer.`,
         words: [
           {
             word: ['A', 'N', 'T'],
-            marker: [0, 0, 2, 0],
+            marker: [0, 0, 2, 0]
           },
           {
             word: ['T', 'I', 'G', 'E', 'R'],
-            marker: [2, 0, 2, 4],
+            marker: [2, 0, 2, 4]
           },
           {
             word: ['C', 'R', 'O', 'W'],
-            marker: [1, 4, 4, 4],
+            marker: [1, 4, 4, 4]
           },
           {
             word: ['L', 'O', 'T', 'U', 'S'],
-            marker: [5, 0, 5, 4],
+            marker: [5, 0, 5, 4]
           },
           {
             word: ['E', 'A', 'G', 'L', 'E'],
-            marker: [0, 4, 4, 0],
+            marker: [0, 4, 4, 0]
           },
           {
             word: ['F', 'O', 'X'],
-            marker: [3, 3, 3, 5],
-          },
+            marker: [3, 3, 3, 5]
+          }
         ],
         title: 'Find the hidden living things ',
         lang: 'en',
@@ -596,10 +596,10 @@ Soil is a consumer.`,
           ['Y', 'R', 'G', 'G', 'D', 'T'],
           ['F', 'A', 'E', 'F', 'O', 'U'],
           ['E', 'C', 'R', 'O', 'W', 'S'],
-          ['O', 'Y', 'L', 'X', 'L', 'K'],
+          ['O', 'Y', 'L', 'X', 'L', 'K']
         ],
-        showWords: true,
-      },
+        showWords: true
+      }
     },
     {
       id: 'crossword',
@@ -611,74 +611,74 @@ Soil is a consumer.`,
             word: 'Mat',
             marker: {
               x: 0,
-              y: 0,
+              y: 0
             },
             hint: 'Lying on the floor near the door step',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'Nest',
             marker: {
               x: 2,
-              y: 5,
+              y: 5
             },
             hint: 'Bird house',
-            direction: 'down2',
+            direction: 'down2'
           },
           {
             word: 'PENCIL',
             marker: {
               x: 5,
-              y: 1,
+              y: 1
             },
             hint: 'Friend of eraser',
-            direction: 'across2',
+            direction: 'across2'
           },
           {
             word: 'Dress',
             marker: {
               x: 0,
-              y: 4,
+              y: 4
             },
             hint: 'Human being',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'Pen',
             marker: {
               x: 4,
-              y: 0,
+              y: 0
             },
             hint: 'A stationary thing that helps to write',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'TANK',
             marker: {
               x: 2,
-              y: 2,
+              y: 2
             },
             hint: 'Helps to store water that comes through pipe.',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'NET',
             marker: {
               x: 3,
-              y: 3,
+              y: 3
             },
             hint: 'Connected with threads',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'CAB',
             marker: {
               x: 3,
-              y: 5,
+              y: 5
             },
             hint: 'Another word for Taxi',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -688,9 +688,9 @@ Soil is a consumer.`,
           ['', '', 'T', 'A', 'N', 'K'],
           ['', '', 'S', 'N', 'E', 'T'],
           ['D', 'R', 'E', 'S', 'S', ''],
-          ['', '', 'N', 'C', 'A', 'B'],
-        ],
-      },
+          ['', '', 'N', 'C', 'A', 'B']
+        ]
+      }
     },
     {
       id: 'wordsearch-2',
@@ -700,36 +700,36 @@ Soil is a consumer.`,
         words: [
           {
             word: ['B', 'U', 'F', 'F', 'A', 'L', 'O'],
-            marker: [0, 0, 6, 6],
+            marker: [0, 0, 6, 6]
           },
           {
             word: ['C', 'A', 'T'],
-            marker: [3, 4, 5, 4],
+            marker: [3, 4, 5, 4]
           },
           {
             word: ['D', 'O', 'G'],
-            marker: [6, 5, 6, 7],
+            marker: [6, 5, 6, 7]
           },
           {
             word: ['H', 'E', 'N'],
-            marker: [7, 0, 5, 2],
+            marker: [7, 0, 5, 2]
           },
           {
             word: ['C', 'O', 'C', 'K'],
-            marker: [3, 4, 3, 7],
+            marker: [3, 4, 3, 7]
           },
           {
             word: ['G', 'O', 'A', 'T'],
-            marker: [4, 5, 1, 5],
+            marker: [4, 5, 1, 5]
           },
           {
             word: ['D', 'O', 'N', 'K', 'E', 'Y'],
-            marker: [0, 7, 5, 7],
+            marker: [0, 7, 5, 7]
           },
           {
             word: ['D', 'U', 'C', 'K'],
-            marker: [1, 6, 4, 6],
-          },
+            marker: [1, 6, 4, 6]
+          }
         ],
         title: 'Find the hidden domestic animals',
         lang: 'en',
@@ -741,10 +741,10 @@ Soil is a consumer.`,
           ['D', 'U', 'U', 'C', 'A', 'T', 'S', 'X'],
           ['O', 'T', 'A', 'O', 'G', 'L', 'D', 'I'],
           ['I', 'D', 'U', 'C', 'K', 'Z', 'O', 'Y'],
-          ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K'],
+          ['D', 'O', 'N', 'K', 'E', 'Y', 'G', 'K']
         ],
-        showWords: true,
-      },
+        showWords: true
+      }
     },
     {
       id: 'crossword-2',
@@ -756,74 +756,74 @@ Soil is a consumer.`,
             word: 'ELEPHANT',
             marker: {
               x: 0,
-              y: 0,
+              y: 0
             },
             hint: 'A big animal with a trunk',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'LEOPARD',
             marker: {
               x: 0,
-              y: 1,
+              y: 1
             },
             hint: 'An animal with lot of spots; belongs to cat family',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'DEER',
             marker: {
               x: 6,
-              y: 1,
+              y: 1
             },
             hint: 'Grass eating wild animal. May have lot of spots on body.',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'BEAR',
             marker: {
               x: 5,
-              y: 3,
+              y: 3
             },
             hint: 'A fat wild animal that can walk on two legs',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'SNAKE',
             marker: {
               x: 2,
-              y: 2,
+              y: 2
             },
             hint: 'A poisonous animal with no legs',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'CROCODILE',
             marker: {
               x: 0,
-              y: 8,
+              y: 8
             },
             hint: 'A reptile with rough skin and big mouth',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'GIRAFFE',
             marker: {
               x: 8,
-              y: 1,
+              y: 1
             },
             hint: 'Long necked animal',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'MONKEY',
             marker: {
               x: 1,
-              y: 5,
+              y: 5
             },
             hint: 'An animal well known for jumping from tree to tree',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -836,9 +836,9 @@ Soil is a consumer.`,
           ['A', 'M', 'O', 'N', 'K', 'E', 'Y', '', 'F'],
           ['N', '', '', '', '', '', '', '', 'F'],
           ['T', '', '', '', '', '', '', '', 'E'],
-          ['C', 'R', 'O', 'C', 'O', 'D', 'I', 'L', 'E'],
-        ],
-      },
+          ['C', 'R', 'O', 'C', 'O', 'D', 'I', 'L', 'E']
+        ]
+      }
     },
     {
       id: 'wordsearch-3',
@@ -848,40 +848,40 @@ Soil is a consumer.`,
         words: [
           {
             word: ['T', 'I', 'G', 'E', 'R'],
-            marker: [0, 0, 4, 4],
+            marker: [0, 0, 4, 4]
           },
           {
             word: ['L', 'I', 'O', 'N'],
-            marker: [1, 0, 1, 3],
+            marker: [1, 0, 1, 3]
           },
           {
             word: ['E', 'A', 'G', 'L', 'E'],
-            marker: [3, 3, 3, 7],
+            marker: [3, 3, 3, 7]
           },
           {
             word: ['W', 'O', 'L', 'F'],
-            marker: [1, 6, 4, 6],
+            marker: [1, 6, 4, 6]
           },
           {
             word: ['F', 'O', 'X'],
-            marker: [2, 1, 0, 3],
+            marker: [2, 1, 0, 3]
           },
           {
             word: ['S', 'N', 'A', 'K', 'E'],
-            marker: [7, 3, 3, 3],
+            marker: [7, 3, 3, 3]
           },
           {
             word: ['S', 'H', 'A', 'R', 'K'],
-            marker: [1, 4, 5, 4],
+            marker: [1, 4, 5, 4]
           },
           {
             word: ['S', 'E', 'A', 'L', 'S'],
-            marker: [7, 3, 7, 7],
+            marker: [7, 3, 7, 7]
           },
           {
             word: ['F', 'R', 'O', 'G'],
-            marker: [2, 1, 5, 1],
-          },
+            marker: [2, 1, 5, 1]
+          }
         ],
         title: 'Find the hidden carnivores',
         lang: 'en',
@@ -893,10 +893,10 @@ Soil is a consumer.`,
           ['O', 'S', 'H', 'A', 'R', 'K', 'F', 'E'],
           ['Z', 'B', 'S', 'G', 'I', 'G', 'H', 'A'],
           ['F', 'W', 'O', 'L', 'F', 'G', 'F', 'L'],
-          ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S'],
+          ['X', 'B', 'M', 'E', 'E', 'I', 'L', 'S']
         ],
-        showWords: true,
-      },
+        showWords: true
+      }
     },
     {
       id: 'crossword-3',
@@ -908,83 +908,83 @@ Soil is a consumer.`,
             word: 'HUMAN',
             marker: {
               x: 0,
-              y: 0,
+              y: 0
             },
             hint: 'Our type of animal',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'ANT',
             marker: {
               x: 3,
-              y: 0,
+              y: 0
             },
             hint: 'Small disciplined animal that goes in line',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'BEAR',
             marker: {
               x: 7,
-              y: 4,
+              y: 4
             },
             hint: 'Teddy',
-            direction: 'across2',
+            direction: 'across2'
           },
           {
             word: 'MONKEY',
             marker: {
               x: 6,
-              y: 0,
+              y: 0
             },
             hint: 'Lives in Tree',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'DOG',
             marker: {
               x: 7,
-              y: 1,
+              y: 1
             },
             hint: `Man's best friend`,
-            direction: 'across2',
+            direction: 'across2'
           },
           {
             word: 'CROW',
             marker: {
               x: 4,
-              y: 3,
+              y: 3
             },
             hint: 'Black color bird',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'PIG',
             marker: {
               x: 0,
-              y: 3,
+              y: 3
             },
             hint: 'An animal that lives in sty.',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'BAT',
             marker: {
               x: 0,
-              y: 7,
+              y: 7
             },
             hint: 'Flying mammal',
-            direction: 'down2',
+            direction: 'down2'
           },
           {
             word: 'RAT',
             marker: {
               x: 2,
-              y: 5,
+              y: 5
             },
             hint: 'Living in holes',
-            direction: 'across2',
-          },
+            direction: 'across2'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -996,9 +996,9 @@ Soil is a consumer.`,
           ['', '', '', '', 'R', 'A', 'E', 'B'],
           ['T', 'A', 'R', '', 'O', '', 'Y', ''],
           ['A', '', '', '', 'W', '', '', ''],
-          ['B', '', '', '', '', '', '', ''],
-        ],
-      },
-    },
-  ],
+          ['B', '', '', '', '', '', '', '']
+        ]
+      }
+    }
+  ]
 };

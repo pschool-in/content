@@ -71,70 +71,70 @@ The baby dogs *are (is)* called puppies.`,
       }
     },
     {
-        "id": "wordSearch-dogs",
-        "label": "WordSearch - Dogs",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["B", "O", "N", "E", "S"],
-              "marker": [4, 5, 8, 5]
-            },
-            {
-              "word": ["D", "O", "G", "S"],
-              "marker": [5, 4, 5, 7]
-            },
-            {
-              "word": ["P", "U", "P", "P", "I", "E", "S"],
-              "marker": [7, 0, 7, 6]
-            },
-            {
-              "word": ["D", "O", "G", "H", "O", "U", "S", "E"],
-              "marker": [1, 1, 8, 8]
-            },
-            {
-              "word": ["D", "O", "G", "F", "O", "O", "D"],
-              "marker": [2, 1, 2, 7]
-            },
-            {
-              "word": ["B", "E", "S", "T", "F", "R", "I", "E", "N", "D"],
-              "marker": [9, 0, 9, 9]
-            },
-            {
-              "word": ["F", "U", "N"],
-              "marker": [6, 1, 8, 1]
-            },
-            {
-              "word": ["F", "U", "R"],
-              "marker": [2, 4, 4, 6]
-            },
-            {
-              "word": ["F", "E", "T", "C", "H"],
-              "marker": [0, 0, 4, 0]
-            },
-            {
-              "word": ["F", "R", "I", "E", "N", "D", "L", "Y"],
-              "marker": [0, 0, 0, 7]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["F", "E", "T", "C", "H", "C", "N", "P", "Z", "B"],
-            ["R", "D", "D", "L", "W", "G", "F", "U", "N", "E"],
-            ["I", "U", "O", "O", "P", "Y", "X", "P", "W", "S"],
-            ["E", "A", "G", "G", "W", "Q", "I", "P", "H", "T"],
-            ["N", "H", "F", "T", "H", "D", "N", "I", "K", "F"],
-            ["D", "X", "O", "U", "B", "O", "N", "E", "S", "R"],
-            ["L", "R", "O", "K", "R", "G", "U", "S", "N", "I"],
-            ["Y", "T", "D", "N", "R", "S", "V", "S", "E", "E"],
-            ["R", "W", "N", "W", "L", "W", "T", "H", "E", "N"],
-            ["Y", "A", "R", "J", "L", "B", "I", "T", "H", "D"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+      id: 'wordSearch-dogs',
+      label: 'WordSearch - Dogs',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['B', 'O', 'N', 'E', 'S'],
+            marker: [4, 5, 8, 5]
+          },
+          {
+            word: ['D', 'O', 'G', 'S'],
+            marker: [5, 4, 5, 7]
+          },
+          {
+            word: ['P', 'U', 'P', 'P', 'I', 'E', 'S'],
+            marker: [7, 0, 7, 6]
+          },
+          {
+            word: ['D', 'O', 'G', 'H', 'O', 'U', 'S', 'E'],
+            marker: [1, 1, 8, 8]
+          },
+          {
+            word: ['D', 'O', 'G', 'F', 'O', 'O', 'D'],
+            marker: [2, 1, 2, 7]
+          },
+          {
+            word: ['B', 'E', 'S', 'T', 'F', 'R', 'I', 'E', 'N', 'D'],
+            marker: [9, 0, 9, 9]
+          },
+          {
+            word: ['F', 'U', 'N'],
+            marker: [6, 1, 8, 1]
+          },
+          {
+            word: ['F', 'U', 'R'],
+            marker: [2, 4, 4, 6]
+          },
+          {
+            word: ['F', 'E', 'T', 'C', 'H'],
+            marker: [0, 0, 4, 0]
+          },
+          {
+            word: ['F', 'R', 'I', 'E', 'N', 'D', 'L', 'Y'],
+            marker: [0, 0, 0, 7]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['F', 'E', 'T', 'C', 'H', 'C', 'N', 'P', 'Z', 'B'],
+          ['R', 'D', 'D', 'L', 'W', 'G', 'F', 'U', 'N', 'E'],
+          ['I', 'U', 'O', 'O', 'P', 'Y', 'X', 'P', 'W', 'S'],
+          ['E', 'A', 'G', 'G', 'W', 'Q', 'I', 'P', 'H', 'T'],
+          ['N', 'H', 'F', 'T', 'H', 'D', 'N', 'I', 'K', 'F'],
+          ['D', 'X', 'O', 'U', 'B', 'O', 'N', 'E', 'S', 'R'],
+          ['L', 'R', 'O', 'K', 'R', 'G', 'U', 'S', 'N', 'I'],
+          ['Y', 'T', 'D', 'N', 'R', 'S', 'V', 'S', 'E', 'E'],
+          ['R', 'W', 'N', 'W', 'L', 'W', 'T', 'H', 'E', 'N'],
+          ['Y', 'A', 'R', 'J', 'L', 'B', 'I', 'T', 'H', 'D']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'cats',
       type: 'passage',
@@ -201,63 +201,63 @@ Do you know that cats belong to the same family *as (has)*tigers?`,
         ]
       }
     },
-     {
-        "id": "wordSearch-cats",
-        "label": "WordSearch - Cats",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["W", "H", "I", "S", "K", "E", "R", "S"],
-              "marker": [0, 0, 7, 7]
-            },
-            {
-              "word": ["K", "I", "T", "T", "E", "N", "S"],
-              "marker": [1, 2, 7, 2]
-            },
-            {
-              "word": ["C", "A", "T", "S"],
-              "marker": [4, 7, 7, 7]
-            },
-            {
-              "word": ["F", "U", "R"],
-              "marker": [8, 4, 6, 6]
-            },
-            {
-              "word": ["M", "I", "L", "K"],
-              "marker": [2, 1, 2, 4]
-            },
-            {
-              "word": ["S", "L", "E", "E", "P"],
-              "marker": [2, 5, 6, 5]
-            },
-            {
-              "word": ["S", "O", "F", "T", "N", "E", "S", "S"],
-              "marker": [0, 9, 7, 9]
-            },
-            {
-              "word": ["P", "A", "W", "S"],
-              "marker": [0, 6, 0, 9]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["W", "K", "P", "C", "H", "Q", "T", "H", "K"],
-            ["M", "H", "M", "A", "I", "K", "C", "Y", "O"],
-            ["R", "K", "I", "T", "T", "E", "N", "S", "R"],
-            ["R", "L", "L", "S", "U", "H", "B", "I", "Q"],
-            ["N", "M", "K", "M", "K", "R", "W", "C", "F"],
-            ["H", "C", "S", "L", "E", "E", "P", "U", "X"],
-            ["P", "P", "E", "U", "I", "L", "R", "W", "A"],
-            ["A", "E", "X", "N", "C", "A", "T", "S", "I"],
-            ["W", "G", "Y", "M", "C", "F", "P", "Z", "K"],
-            ["S", "O", "F", "T", "N", "E", "S", "S", "Y"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+    {
+      id: 'wordSearch-cats',
+      label: 'WordSearch - Cats',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['W', 'H', 'I', 'S', 'K', 'E', 'R', 'S'],
+            marker: [0, 0, 7, 7]
+          },
+          {
+            word: ['K', 'I', 'T', 'T', 'E', 'N', 'S'],
+            marker: [1, 2, 7, 2]
+          },
+          {
+            word: ['C', 'A', 'T', 'S'],
+            marker: [4, 7, 7, 7]
+          },
+          {
+            word: ['F', 'U', 'R'],
+            marker: [8, 4, 6, 6]
+          },
+          {
+            word: ['M', 'I', 'L', 'K'],
+            marker: [2, 1, 2, 4]
+          },
+          {
+            word: ['S', 'L', 'E', 'E', 'P'],
+            marker: [2, 5, 6, 5]
+          },
+          {
+            word: ['S', 'O', 'F', 'T', 'N', 'E', 'S', 'S'],
+            marker: [0, 9, 7, 9]
+          },
+          {
+            word: ['P', 'A', 'W', 'S'],
+            marker: [0, 6, 0, 9]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['W', 'K', 'P', 'C', 'H', 'Q', 'T', 'H', 'K'],
+          ['M', 'H', 'M', 'A', 'I', 'K', 'C', 'Y', 'O'],
+          ['R', 'K', 'I', 'T', 'T', 'E', 'N', 'S', 'R'],
+          ['R', 'L', 'L', 'S', 'U', 'H', 'B', 'I', 'Q'],
+          ['N', 'M', 'K', 'M', 'K', 'R', 'W', 'C', 'F'],
+          ['H', 'C', 'S', 'L', 'E', 'E', 'P', 'U', 'X'],
+          ['P', 'P', 'E', 'U', 'I', 'L', 'R', 'W', 'A'],
+          ['A', 'E', 'X', 'N', 'C', 'A', 'T', 'S', 'I'],
+          ['W', 'G', 'Y', 'M', 'C', 'F', 'P', 'Z', 'K'],
+          ['S', 'O', 'F', 'T', 'N', 'E', 'S', 'S', 'Y']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'polar-bears',
       type: 'passage',
@@ -323,67 +323,67 @@ It is covered with a lot of white fur.`,
         ]
       }
     },
-     {
-        "id": "wordSearch-polar-bears",
-        "label": "WordSearch - Polar Bears",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["P", "O", "L", "A", "R", "B", "E", "A", "R"],
-              "marker": [9, 0, 1, 8]
-            },
-            {
-              "word": ["R", "U", "S", "S", "I", "A"],
-              "marker": [5, 4, 5, 9]
-            },
-            {
-              "word": ["C", "A", "R", "N", "I", "V", "O", "R", "E"],
-              "marker": [1, 1, 1, 9]
-            },
-            {
-              "word": ["S", "N", "O", "W"],
-              "marker": [6, 1, 9, 1]
-            },
-            {
-              "word": ["W", "H", "I", "T", "E"],
-              "marker": [9, 1, 9, 5]
-            },
-            {
-              "word": ["B", "I", "G"],
-              "marker": [0, 5, 2, 5]
-            },
-            {
-              "word": ["F", "I", "S", "H"],
-              "marker": [4, 8, 7, 8]
-            },
-            {
-              "word": ["F", "U", "R"],
-              "marker": [3, 2, 5, 2]
-            },
-            {
-              "word": ["H", "E", "A", "V", "Y"],
-              "marker": [1, 0, 5, 0]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["Y", "H", "E", "A", "V", "Y", "F", "G", "W", "P"],
-            ["J", "C", "B", "W", "M", "A", "S", "N", "O", "W"],
-            ["P", "A", "G", "F", "U", "R", "Y", "L", "X", "H"],
-            ["B", "R", "Q", "R", "Q", "N", "A", "W", "X", "I"],
-            ["N", "N", "R", "E", "O", "R", "Y", "Z", "N", "T"],
-            ["B", "I", "G", "L", "B", "U", "Z", "A", "L", "E"],
-            ["Y", "V", "D", "E", "U", "S", "M", "X", "L", "O"],
-            ["B", "O", "A", "T", "M", "S", "A", "D", "P", "U"],
-            ["A", "R", "W", "O", "F", "I", "S", "H", "F", "S"],
-            ["W", "E", "N", "P", "K", "A", "K", "X", "T", "H"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+    {
+      id: 'wordSearch-polar-bears',
+      label: 'WordSearch - Polar Bears',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['P', 'O', 'L', 'A', 'R', 'B', 'E', 'A', 'R'],
+            marker: [9, 0, 1, 8]
+          },
+          {
+            word: ['R', 'U', 'S', 'S', 'I', 'A'],
+            marker: [5, 4, 5, 9]
+          },
+          {
+            word: ['C', 'A', 'R', 'N', 'I', 'V', 'O', 'R', 'E'],
+            marker: [1, 1, 1, 9]
+          },
+          {
+            word: ['S', 'N', 'O', 'W'],
+            marker: [6, 1, 9, 1]
+          },
+          {
+            word: ['W', 'H', 'I', 'T', 'E'],
+            marker: [9, 1, 9, 5]
+          },
+          {
+            word: ['B', 'I', 'G'],
+            marker: [0, 5, 2, 5]
+          },
+          {
+            word: ['F', 'I', 'S', 'H'],
+            marker: [4, 8, 7, 8]
+          },
+          {
+            word: ['F', 'U', 'R'],
+            marker: [3, 2, 5, 2]
+          },
+          {
+            word: ['H', 'E', 'A', 'V', 'Y'],
+            marker: [1, 0, 5, 0]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['Y', 'H', 'E', 'A', 'V', 'Y', 'F', 'G', 'W', 'P'],
+          ['J', 'C', 'B', 'W', 'M', 'A', 'S', 'N', 'O', 'W'],
+          ['P', 'A', 'G', 'F', 'U', 'R', 'Y', 'L', 'X', 'H'],
+          ['B', 'R', 'Q', 'R', 'Q', 'N', 'A', 'W', 'X', 'I'],
+          ['N', 'N', 'R', 'E', 'O', 'R', 'Y', 'Z', 'N', 'T'],
+          ['B', 'I', 'G', 'L', 'B', 'U', 'Z', 'A', 'L', 'E'],
+          ['Y', 'V', 'D', 'E', 'U', 'S', 'M', 'X', 'L', 'O'],
+          ['B', 'O', 'A', 'T', 'M', 'S', 'A', 'D', 'P', 'U'],
+          ['A', 'R', 'W', 'O', 'F', 'I', 'S', 'H', 'F', 'S'],
+          ['W', 'E', 'N', 'P', 'K', 'A', 'K', 'X', 'T', 'H']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'horses',
       type: 'passage',
@@ -451,63 +451,63 @@ They are useful for different *farming (harming)* activities.`,
         ]
       }
     },
-     {
-        "id": "wordSearch-horses",
-        "label": "WordSearch - Horses",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["H", "O", "R", "S", "E", "S"],
-              "marker": [9, 0, 9, 5]
-            },
-            {
-              "word": ["H", "A", "Y"],
-              "marker": [9, 0, 7, 2]
-            },
-            {
-              "word": ["H", "O", "R", "S", "E", "S", "H", "O", "E"],
-              "marker": [0, 9, 8, 9]
-            },
-            {
-              "word": ["K", "N", "I", "G", "H", "T"],
-              "marker": [1, 3, 6, 3]
-            },
-            {
-              "word": ["N", "E", "I", "G", "H"],
-              "marker": [2, 3, 6, 7]
-            },
-            {
-              "word": ["R", "A", "C", "I", "N", "G"],
-              "marker": [0, 6, 5, 6]
-            },
-            {
-              "word": ["R", "U", "N", "N", "I", "N", "G"],
-              "marker": [0, 6, 0, 0]
-            },
-            {
-              "word": ["F", "A", "R", "M", "H", "O", "U", "S", "E"],
-              "marker": [8, 0, 8, 8]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["G", "A", "X", "B", "Y", "Q", "G", "Q", "F", "H"],
-            ["N", "P", "R", "P", "R", "K", "N", "X", "A", "O"],
-            ["I", "M", "D", "G", "H", "Z", "J", "Y", "R", "R"],
-            ["N", "K", "N", "I", "G", "H", "T", "F", "M", "S"],
-            ["N", "C", "W", "E", "E", "D", "I", "C", "H", "E"],
-            ["U", "U", "G", "X", "I", "E", "P", "E", "O", "S"],
-            ["R", "A", "C", "I", "N", "G", "F", "G", "U", "Y"],
-            ["X", "M", "P", "Z", "W", "A", "H", "Y", "S", "U"],
-            ["W", "Q", "I", "T", "Z", "B", "I", "G", "E", "M"],
-            ["H", "O", "R", "S", "E", "S", "H", "O", "E", "F"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+    {
+      id: 'wordSearch-horses',
+      label: 'WordSearch - Horses',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['H', 'O', 'R', 'S', 'E', 'S'],
+            marker: [9, 0, 9, 5]
+          },
+          {
+            word: ['H', 'A', 'Y'],
+            marker: [9, 0, 7, 2]
+          },
+          {
+            word: ['H', 'O', 'R', 'S', 'E', 'S', 'H', 'O', 'E'],
+            marker: [0, 9, 8, 9]
+          },
+          {
+            word: ['K', 'N', 'I', 'G', 'H', 'T'],
+            marker: [1, 3, 6, 3]
+          },
+          {
+            word: ['N', 'E', 'I', 'G', 'H'],
+            marker: [2, 3, 6, 7]
+          },
+          {
+            word: ['R', 'A', 'C', 'I', 'N', 'G'],
+            marker: [0, 6, 5, 6]
+          },
+          {
+            word: ['R', 'U', 'N', 'N', 'I', 'N', 'G'],
+            marker: [0, 6, 0, 0]
+          },
+          {
+            word: ['F', 'A', 'R', 'M', 'H', 'O', 'U', 'S', 'E'],
+            marker: [8, 0, 8, 8]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['G', 'A', 'X', 'B', 'Y', 'Q', 'G', 'Q', 'F', 'H'],
+          ['N', 'P', 'R', 'P', 'R', 'K', 'N', 'X', 'A', 'O'],
+          ['I', 'M', 'D', 'G', 'H', 'Z', 'J', 'Y', 'R', 'R'],
+          ['N', 'K', 'N', 'I', 'G', 'H', 'T', 'F', 'M', 'S'],
+          ['N', 'C', 'W', 'E', 'E', 'D', 'I', 'C', 'H', 'E'],
+          ['U', 'U', 'G', 'X', 'I', 'E', 'P', 'E', 'O', 'S'],
+          ['R', 'A', 'C', 'I', 'N', 'G', 'F', 'G', 'U', 'Y'],
+          ['X', 'M', 'P', 'Z', 'W', 'A', 'H', 'Y', 'S', 'U'],
+          ['W', 'Q', 'I', 'T', 'Z', 'B', 'I', 'G', 'E', 'M'],
+          ['H', 'O', 'R', 'S', 'E', 'S', 'H', 'O', 'E', 'F']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'tigers',
       type: 'passage',
@@ -576,70 +576,70 @@ They only eat flesh, which means they're *carnivores (herbivores)*.`,
       }
     },
     {
-        "id": "wordSearch-tigers",
-        "label": "WordSearch - Tigers",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["C", "A", "R", "N", "I", "V", "O", "R", "E", "S"],
-              "marker": [0, 0, 9, 9]
-            },
-            {
-              "word": ["T", "I", "G", "E", "R", "S"],
-              "marker": [3, 4, 8, 4]
-            },
-            {
-              "word": ["D", "E", "N"],
-              "marker": [7, 8, 9, 8]
-            },
-            {
-              "word": ["C", "U", "B", "S"],
-              "marker": [8, 1, 8, 4]
-            },
-            {
-              "word": ["P", "R", "E", "D", "A", "T", "O", "R", "S"],
-              "marker": [0, 1, 0, 9]
-            },
-            {
-              "word": ["B", "E", "N", "G", "A", "L"],
-              "marker": [9, 0, 9, 5]
-            },
-            {
-              "word": ["W", "H", "I", "T", "E"],
-              "marker": [4, 2, 4, 6]
-            },
-            {
-              "word": ["F", "O", "R", "E", "S", "T"],
-              "marker": [2, 9, 7, 9]
-            },
-            {
-              "word": ["S", "T", "R", "I", "P", "E", "S"],
-              "marker": [2, 0, 8, 0]
-            },
-            {
-              "word": ["P", "R", "E", "Y"],
-              "marker": [2, 1, 2, 4]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["C", "P", "S", "T", "R", "I", "P", "E", "S", "B"],
-            ["P", "A", "P", "N", "Y", "W", "R", "S", "C", "E"],
-            ["R", "H", "R", "B", "W", "V", "N", "R", "U", "N"],
-            ["E", "V", "E", "N", "H", "J", "P", "U", "B", "G"],
-            ["D", "A", "Y", "T", "I", "G", "E", "R", "S", "A"],
-            ["A", "W", "H", "K", "T", "V", "M", "B", "K", "L"],
-            ["T", "Q", "K", "F", "E", "N", "O", "D", "M", "V"],
-            ["O", "P", "Y", "H", "P", "J", "M", "R", "E", "M"],
-            ["R", "R", "Z", "A", "M", "Q", "N", "D", "E", "N"],
-            ["S", "H", "F", "O", "R", "E", "S", "T", "U", "S"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+      id: 'wordSearch-tigers',
+      label: 'WordSearch - Tigers',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['C', 'A', 'R', 'N', 'I', 'V', 'O', 'R', 'E', 'S'],
+            marker: [0, 0, 9, 9]
+          },
+          {
+            word: ['T', 'I', 'G', 'E', 'R', 'S'],
+            marker: [3, 4, 8, 4]
+          },
+          {
+            word: ['D', 'E', 'N'],
+            marker: [7, 8, 9, 8]
+          },
+          {
+            word: ['C', 'U', 'B', 'S'],
+            marker: [8, 1, 8, 4]
+          },
+          {
+            word: ['P', 'R', 'E', 'D', 'A', 'T', 'O', 'R', 'S'],
+            marker: [0, 1, 0, 9]
+          },
+          {
+            word: ['B', 'E', 'N', 'G', 'A', 'L'],
+            marker: [9, 0, 9, 5]
+          },
+          {
+            word: ['W', 'H', 'I', 'T', 'E'],
+            marker: [4, 2, 4, 6]
+          },
+          {
+            word: ['F', 'O', 'R', 'E', 'S', 'T'],
+            marker: [2, 9, 7, 9]
+          },
+          {
+            word: ['S', 'T', 'R', 'I', 'P', 'E', 'S'],
+            marker: [2, 0, 8, 0]
+          },
+          {
+            word: ['P', 'R', 'E', 'Y'],
+            marker: [2, 1, 2, 4]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['C', 'P', 'S', 'T', 'R', 'I', 'P', 'E', 'S', 'B'],
+          ['P', 'A', 'P', 'N', 'Y', 'W', 'R', 'S', 'C', 'E'],
+          ['R', 'H', 'R', 'B', 'W', 'V', 'N', 'R', 'U', 'N'],
+          ['E', 'V', 'E', 'N', 'H', 'J', 'P', 'U', 'B', 'G'],
+          ['D', 'A', 'Y', 'T', 'I', 'G', 'E', 'R', 'S', 'A'],
+          ['A', 'W', 'H', 'K', 'T', 'V', 'M', 'B', 'K', 'L'],
+          ['T', 'Q', 'K', 'F', 'E', 'N', 'O', 'D', 'M', 'V'],
+          ['O', 'P', 'Y', 'H', 'P', 'J', 'M', 'R', 'E', 'M'],
+          ['R', 'R', 'Z', 'A', 'M', 'Q', 'N', 'D', 'E', 'N'],
+          ['S', 'H', 'F', 'O', 'R', 'E', 'S', 'T', 'U', 'S']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'rabbits',
       type: 'passage',
@@ -711,71 +711,71 @@ Do you know that sometimes rabbits eat their own poop?`,
         ]
       }
     },
-     {
-        "id": "wordSearch-rabbits",
-        "label": "WordSearch - Rabbits",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["R", "U", "N", "N", "I", "N", "G"],
-              "marker": [0, 0, 0, 6]
-            },
-            {
-              "word": ["R", "A", "B", "B", "I", "T"],
-              "marker": [0, 0, 5, 5]
-            },
-            {
-              "word": ["B", "U", "R", "R", "O", "W"],
-              "marker": [3, 3, 8, 3]
-            },
-            {
-              "word": ["B", "U", "N", "N", "Y"],
-              "marker": [3, 3, 3, 7]
-            },
-            {
-              "word": ["H", "A", "Y"],
-              "marker": [1, 7, 3, 7]
-            },
-            {
-              "word": ["F", "A", "R", "M"],
-              "marker": [2, 6, 2, 9]
-            },
-            {
-              "word": ["W", "H", "I", "T", "E"],
-              "marker": [8, 3, 8, 7]
-            },
-            {
-              "word": ["C", "A", "R", "R", "O", "T"],
-              "marker": [6, 0, 6, 5]
-            },
-            {
-              "word": ["H", "O", "P", "P", "I", "N", "G"],
-              "marker": [7, 2, 7, 8]
-            },
-            {
-              "word": ["E", "A", "R", "S"],
-              "marker": [0, 8, 3, 8]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["R", "C", "U", "P", "Y", "X", "C", "T", "P"],
-            ["U", "A", "F", "J", "R", "D", "A", "L", "P"],
-            ["N", "V", "B", "H", "K", "J", "R", "H", "D"],
-            ["N", "J", "K", "B", "U", "R", "R", "O", "W"],
-            ["I", "P", "D", "U", "I", "H", "O", "P", "H"],
-            ["N", "X", "F", "N", "U", "T", "T", "P", "I"],
-            ["G", "K", "F", "N", "Q", "Y", "R", "I", "T"],
-            ["Z", "H", "A", "Y", "A", "W", "J", "N", "E"],
-            ["E", "A", "R", "S", "G", "N", "U", "G", "V"],
-            ["T", "R", "M", "Q", "B", "N", "L", "N", "X"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+    {
+      id: 'wordSearch-rabbits',
+      label: 'WordSearch - Rabbits',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['R', 'U', 'N', 'N', 'I', 'N', 'G'],
+            marker: [0, 0, 0, 6]
+          },
+          {
+            word: ['R', 'A', 'B', 'B', 'I', 'T'],
+            marker: [0, 0, 5, 5]
+          },
+          {
+            word: ['B', 'U', 'R', 'R', 'O', 'W'],
+            marker: [3, 3, 8, 3]
+          },
+          {
+            word: ['B', 'U', 'N', 'N', 'Y'],
+            marker: [3, 3, 3, 7]
+          },
+          {
+            word: ['H', 'A', 'Y'],
+            marker: [1, 7, 3, 7]
+          },
+          {
+            word: ['F', 'A', 'R', 'M'],
+            marker: [2, 6, 2, 9]
+          },
+          {
+            word: ['W', 'H', 'I', 'T', 'E'],
+            marker: [8, 3, 8, 7]
+          },
+          {
+            word: ['C', 'A', 'R', 'R', 'O', 'T'],
+            marker: [6, 0, 6, 5]
+          },
+          {
+            word: ['H', 'O', 'P', 'P', 'I', 'N', 'G'],
+            marker: [7, 2, 7, 8]
+          },
+          {
+            word: ['E', 'A', 'R', 'S'],
+            marker: [0, 8, 3, 8]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['R', 'C', 'U', 'P', 'Y', 'X', 'C', 'T', 'P'],
+          ['U', 'A', 'F', 'J', 'R', 'D', 'A', 'L', 'P'],
+          ['N', 'V', 'B', 'H', 'K', 'J', 'R', 'H', 'D'],
+          ['N', 'J', 'K', 'B', 'U', 'R', 'R', 'O', 'W'],
+          ['I', 'P', 'D', 'U', 'I', 'H', 'O', 'P', 'H'],
+          ['N', 'X', 'F', 'N', 'U', 'T', 'T', 'P', 'I'],
+          ['G', 'K', 'F', 'N', 'Q', 'Y', 'R', 'I', 'T'],
+          ['Z', 'H', 'A', 'Y', 'A', 'W', 'J', 'N', 'E'],
+          ['E', 'A', 'R', 'S', 'G', 'N', 'U', 'G', 'V'],
+          ['T', 'R', 'M', 'Q', 'B', 'N', 'L', 'N', 'X']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'dolphins',
       type: 'passage',
@@ -843,67 +843,67 @@ This helps them to *store (shore)* food.`,
         ]
       }
     },
-     {
-        "id": "wordSearch-dolphins",
-        "label": "WordSearch - Dolphins",
-        "type": "wordsearch",
-        "data": {
-          "words": [
-            {
-              "word": ["D", "O", "L", "P", "H", "I", "N"],
-              "marker": [2, 0, 2, 6]
-            },
-            {
-              "word": ["C", "A", "L", "F"],
-              "marker": [0, 0, 3, 3]
-            },
-            {
-              "word": ["H", "O", "P", "P", "I", "N", "G"],
-              "marker": [1, 0, 7, 6]
-            },
-            {
-              "word": ["P", "L", "A", "Y", "I", "N", "G"],
-              "marker": [4, 3, 4, 9]
-            },
-            {
-              "word": ["S", "W", "I", "M", "M", "I", "N", "G"],
-              "marker": [9, 0, 9, 7]
-            },
-            {
-              "word": ["R", "A", "C", "I", "N", "G"],
-              "marker": [0, 8, 5, 8]
-            },
-            {
-              "word": ["A", "T", "T", "E", "N", "T", "I", "V", "E"],
-              "marker": [6, 1, 6, 9]
-            },
-            {
-              "word": ["B", "L", "U", "E"],
-              "marker": [3, 1, 0, 4]
-            },
-            {
-              "word": ["F", "R", "I", "E", "N", "D", "L", "Y"],
-              "marker": [8, 1, 8, 8]
-            }
-          ],
-          "title": "Find the given words from the table.",
-          "lang": "en",
-          "table": [
-            ["C", "H", "D", "U", "A", "L", "L", "U", "P", "S"],
-            ["M", "A", "O", "B", "U", "A", "A", "K", "F", "W"],
-            ["T", "Z", "L", "P", "H", "C", "T", "O", "R", "I"],
-            ["K", "U", "P", "F", "P", "E", "T", "D", "I", "M"],
-            ["E", "E", "H", "O", "L", "I", "E", "F", "E", "M"],
-            ["C", "X", "I", "B", "A", "A", "N", "T", "N", "I"],
-            ["I", "Y", "N", "O", "Y", "O", "T", "G", "D", "N"],
-            ["P", "L", "H", "C", "I", "U", "I", "T", "L", "G"],
-            ["R", "A", "C", "I", "N", "G", "V", "O", "Y", "Q"],
-            ["P", "U", "T", "Y", "G", "I", "E", "J", "B", "M"]
-          ],
-          "showWords": true
-        },
-        "editable": true
+    {
+      id: 'wordSearch-dolphins',
+      label: 'WordSearch - Dolphins',
+      type: 'wordsearch',
+      data: {
+        words: [
+          {
+            word: ['D', 'O', 'L', 'P', 'H', 'I', 'N'],
+            marker: [2, 0, 2, 6]
+          },
+          {
+            word: ['C', 'A', 'L', 'F'],
+            marker: [0, 0, 3, 3]
+          },
+          {
+            word: ['H', 'O', 'P', 'P', 'I', 'N', 'G'],
+            marker: [1, 0, 7, 6]
+          },
+          {
+            word: ['P', 'L', 'A', 'Y', 'I', 'N', 'G'],
+            marker: [4, 3, 4, 9]
+          },
+          {
+            word: ['S', 'W', 'I', 'M', 'M', 'I', 'N', 'G'],
+            marker: [9, 0, 9, 7]
+          },
+          {
+            word: ['R', 'A', 'C', 'I', 'N', 'G'],
+            marker: [0, 8, 5, 8]
+          },
+          {
+            word: ['A', 'T', 'T', 'E', 'N', 'T', 'I', 'V', 'E'],
+            marker: [6, 1, 6, 9]
+          },
+          {
+            word: ['B', 'L', 'U', 'E'],
+            marker: [3, 1, 0, 4]
+          },
+          {
+            word: ['F', 'R', 'I', 'E', 'N', 'D', 'L', 'Y'],
+            marker: [8, 1, 8, 8]
+          }
+        ],
+        title: 'Find the given words from the table.',
+        lang: 'en',
+        table: [
+          ['C', 'H', 'D', 'U', 'A', 'L', 'L', 'U', 'P', 'S'],
+          ['M', 'A', 'O', 'B', 'U', 'A', 'A', 'K', 'F', 'W'],
+          ['T', 'Z', 'L', 'P', 'H', 'C', 'T', 'O', 'R', 'I'],
+          ['K', 'U', 'P', 'F', 'P', 'E', 'T', 'D', 'I', 'M'],
+          ['E', 'E', 'H', 'O', 'L', 'I', 'E', 'F', 'E', 'M'],
+          ['C', 'X', 'I', 'B', 'A', 'A', 'N', 'T', 'N', 'I'],
+          ['I', 'Y', 'N', 'O', 'Y', 'O', 'T', 'G', 'D', 'N'],
+          ['P', 'L', 'H', 'C', 'I', 'U', 'I', 'T', 'L', 'G'],
+          ['R', 'A', 'C', 'I', 'N', 'G', 'V', 'O', 'Y', 'Q'],
+          ['P', 'U', 'T', 'Y', 'G', 'I', 'E', 'J', 'B', 'M']
+        ],
+        showWords: true
       },
+      editable: true
+    },
     {
       id: 'monkeys',
       type: 'passage',
@@ -972,70 +972,70 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
       }
     },
     {
-        "id": "wordSearch-monkeys",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Monkeys",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["T", "R", "I", "C", "K", "S", "T", "E", "R", "S"],
-              "marker": [0, 0, 0, 9]
-            },
-            {
-              "word": ["C", "L", "I", "M", "B", "E", "R"],
-              "marker": [0, 3, 6, 9]
-            },
-            {
-              "word": ["T", "R", "E", "E", "S"],
-              "marker": [5, 9, 9, 9]
-            },
-            {
-              "word": ["I", "N", "F", "A", "N", "T", "S"],
-              "marker": [9, 3, 9, 9]
-            },
-            {
-              "word": ["M", "O", "N", "K", "E", "Y"],
-              "marker": [3, 6, 8, 6]
-            },
-            {
-              "word": ["A", "N", "C", "E", "S", "T", "O", "R"],
-              "marker": [1, 0, 8, 0]
-            },
-            {
-              "word": ["B", "A", "N", "A", "N", "A"],
-              "marker": [4, 1, 9, 6]
-            },
-            {
-              "word": ["H", "U", "M", "A", "N", "S"],
-              "marker": [3, 4, 3, 9]
-            },
-            {
-              "word": ["S", "T", "R", "E", "E", "T"],
-              "marker": [4, 3, 9, 8]
-            },
-            {
-              "word": ["T", "A", "I", "L"],
-              "marker": [2, 3, 2, 6]
-            }
-          ],
-          "table": [
-            ["T", "A", "N", "C", "E", "S", "T", "O", "R", "D"],
-            ["R", "M", "S", "S", "B", "E", "Z", "H", "X", "E"],
-            ["I", "I", "V", "I", "H", "A", "Y", "E", "O", "R"],
-            ["C", "E", "T", "F", "S", "Q", "N", "U", "J", "I"],
-            ["K", "L", "A", "H", "O", "T", "I", "A", "C", "N"],
-            ["S", "T", "I", "U", "Z", "T", "R", "L", "N", "F"],
-            ["T", "Y", "L", "M", "O", "N", "K", "E", "Y", "A"],
-            ["E", "T", "V", "A", "B", "J", "W", "I", "E", "N"],
-            ["R", "L", "J", "N", "Y", "E", "H", "U", "G", "T"],
-            ["S", "P", "B", "S", "S", "T", "R", "E", "E", "S"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+      id: 'wordSearch-monkeys',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Monkeys',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['T', 'R', 'I', 'C', 'K', 'S', 'T', 'E', 'R', 'S'],
+            marker: [0, 0, 0, 9]
+          },
+          {
+            word: ['C', 'L', 'I', 'M', 'B', 'E', 'R'],
+            marker: [0, 3, 6, 9]
+          },
+          {
+            word: ['T', 'R', 'E', 'E', 'S'],
+            marker: [5, 9, 9, 9]
+          },
+          {
+            word: ['I', 'N', 'F', 'A', 'N', 'T', 'S'],
+            marker: [9, 3, 9, 9]
+          },
+          {
+            word: ['M', 'O', 'N', 'K', 'E', 'Y'],
+            marker: [3, 6, 8, 6]
+          },
+          {
+            word: ['A', 'N', 'C', 'E', 'S', 'T', 'O', 'R'],
+            marker: [1, 0, 8, 0]
+          },
+          {
+            word: ['B', 'A', 'N', 'A', 'N', 'A'],
+            marker: [4, 1, 9, 6]
+          },
+          {
+            word: ['H', 'U', 'M', 'A', 'N', 'S'],
+            marker: [3, 4, 3, 9]
+          },
+          {
+            word: ['S', 'T', 'R', 'E', 'E', 'T'],
+            marker: [4, 3, 9, 8]
+          },
+          {
+            word: ['T', 'A', 'I', 'L'],
+            marker: [2, 3, 2, 6]
+          }
+        ],
+        table: [
+          ['T', 'A', 'N', 'C', 'E', 'S', 'T', 'O', 'R', 'D'],
+          ['R', 'M', 'S', 'S', 'B', 'E', 'Z', 'H', 'X', 'E'],
+          ['I', 'I', 'V', 'I', 'H', 'A', 'Y', 'E', 'O', 'R'],
+          ['C', 'E', 'T', 'F', 'S', 'Q', 'N', 'U', 'J', 'I'],
+          ['K', 'L', 'A', 'H', 'O', 'T', 'I', 'A', 'C', 'N'],
+          ['S', 'T', 'I', 'U', 'Z', 'T', 'R', 'L', 'N', 'F'],
+          ['T', 'Y', 'L', 'M', 'O', 'N', 'K', 'E', 'Y', 'A'],
+          ['E', 'T', 'V', 'A', 'B', 'J', 'W', 'I', 'E', 'N'],
+          ['R', 'L', 'J', 'N', 'Y', 'E', 'H', 'U', 'G', 'T'],
+          ['S', 'P', 'B', 'S', 'S', 'T', 'R', 'E', 'E', 'S']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'bees',
       type: 'passage',
@@ -1101,67 +1101,67 @@ Stings cause a lot of pain.`,
         ]
       }
     },
-     {
-        "id": "wordSearch-bees",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Bees",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["B", "E", "E", "S"],
-              "marker": [1, 1, 4, 4]
-            },
-            {
-              "word": ["B", "R", "O", "O", "D", "S"],
-              "marker": [1, 1, 6, 1]
-            },
-            {
-              "word": ["H", "O", "N", "E", "Y", "C", "O", "M", "B"],
-              "marker": [0, 3, 8, 3]
-            },
-            {
-              "word": ["B", "E", "E", "H", "I", "V", "E"],
-              "marker": [8, 3, 8, 9]
-            },
-            {
-              "word": ["S", "T", "I", "N", "G"],
-              "marker": [4, 4, 4, 8]
-            },
-            {
-              "word": ["H", "O", "N", "E", "Y"],
-              "marker": [2, 7, 6, 7]
-            },
-            {
-              "word": ["W", "O", "R", "K", "E", "R"],
-              "marker": [2, 0, 7, 0]
-            },
-            {
-              "word": ["Q", "U", "E", "E", "N"],
-              "marker": [0, 5, 0, 9]
-            },
-            {
-              "word": ["N", "E", "C", "T", "A", "R"],
-              "marker": [0, 9, 5, 9]
-            }
-          ],
-          "table": [
-            ["K", "V", "W", "O", "R", "K", "E", "R", "Z"],
-            ["M", "B", "R", "O", "O", "D", "S", "S", "M"],
-            ["K", "I", "E", "C", "A", "C", "L", "E", "F"],
-            ["H", "O", "N", "E", "Y", "C", "O", "M", "B"],
-            ["P", "X", "P", "L", "S", "T", "F", "Z", "E"],
-            ["Q", "L", "C", "S", "T", "N", "P", "I", "E"],
-            ["U", "L", "R", "R", "I", "A", "C", "T", "H"],
-            ["E", "S", "H", "O", "N", "E", "Y", "Z", "I"],
-            ["E", "W", "N", "P", "G", "Y", "A", "O", "V"],
-            ["N", "E", "C", "T", "A", "R", "K", "G", "E"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+    {
+      id: 'wordSearch-bees',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Bees',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['B', 'E', 'E', 'S'],
+            marker: [1, 1, 4, 4]
+          },
+          {
+            word: ['B', 'R', 'O', 'O', 'D', 'S'],
+            marker: [1, 1, 6, 1]
+          },
+          {
+            word: ['H', 'O', 'N', 'E', 'Y', 'C', 'O', 'M', 'B'],
+            marker: [0, 3, 8, 3]
+          },
+          {
+            word: ['B', 'E', 'E', 'H', 'I', 'V', 'E'],
+            marker: [8, 3, 8, 9]
+          },
+          {
+            word: ['S', 'T', 'I', 'N', 'G'],
+            marker: [4, 4, 4, 8]
+          },
+          {
+            word: ['H', 'O', 'N', 'E', 'Y'],
+            marker: [2, 7, 6, 7]
+          },
+          {
+            word: ['W', 'O', 'R', 'K', 'E', 'R'],
+            marker: [2, 0, 7, 0]
+          },
+          {
+            word: ['Q', 'U', 'E', 'E', 'N'],
+            marker: [0, 5, 0, 9]
+          },
+          {
+            word: ['N', 'E', 'C', 'T', 'A', 'R'],
+            marker: [0, 9, 5, 9]
+          }
+        ],
+        table: [
+          ['K', 'V', 'W', 'O', 'R', 'K', 'E', 'R', 'Z'],
+          ['M', 'B', 'R', 'O', 'O', 'D', 'S', 'S', 'M'],
+          ['K', 'I', 'E', 'C', 'A', 'C', 'L', 'E', 'F'],
+          ['H', 'O', 'N', 'E', 'Y', 'C', 'O', 'M', 'B'],
+          ['P', 'X', 'P', 'L', 'S', 'T', 'F', 'Z', 'E'],
+          ['Q', 'L', 'C', 'S', 'T', 'N', 'P', 'I', 'E'],
+          ['U', 'L', 'R', 'R', 'I', 'A', 'C', 'T', 'H'],
+          ['E', 'S', 'H', 'O', 'N', 'E', 'Y', 'Z', 'I'],
+          ['E', 'W', 'N', 'P', 'G', 'Y', 'A', 'O', 'V'],
+          ['N', 'E', 'C', 'T', 'A', 'R', 'K', 'G', 'E']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'pigs',
       type: 'passage',
@@ -1228,69 +1228,69 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoes
       }
     },
     {
-        "id": "wordSearch-pigs",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Pigs",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["P", "I", "G", "S"],
-              "marker": [3, 1, 6, 1]
-            },
-            {
-              "word": ["P", "I", "G", "L", "E", "T", "S"],
-              "marker": [3, 1, 9, 7]
-            },
-            {
-              "word": ["S", "N", "O", "U", "T"],
-              "marker": [9, 7, 5, 7]
-            },
-            {
-              "word": ["B", "R", "I", "S", "T", "L", "E", "S"],
-              "marker": [2, 2, 9, 2]
-            },
-            {
-              "word": ["S", "T", "I", "F", "F"],
-              "marker": [0, 0, 0, 4]
-            },
-            {
-              "word": ["M", "U", "D"],
-              "marker": [5, 6, 7, 8]
-            },
-            {
-              "word": ["D", "I", "R", "T"],
-              "marker": [0, 5, 3, 8]
-            },
-            {
-              "word": ["P", "I", "N", "K"],
-              "marker": [0, 6, 3, 6]
-            },
-            {
-              "word": ["F", "A", "R", "M"],
-              "marker": [0, 7, 3, 7]
-            },
-            {
-              "word": ["S", "M", "E", "L", "L"],
-              "marker": [4, 7, 8, 3]
-            }
-          ],
-          "table": [
-            ["S", "T", "V", "G", "E", "R", "V", "R", "V", "F"],
-            ["T", "V", "Y", "P", "I", "G", "S", "H", "O", "E"],
-            ["I", "D", "B", "R", "I", "S", "T", "L", "E", "S"],
-            ["F", "W", "L", "J", "N", "G", "M", "N", "L", "I"],
-            ["F", "C", "I", "M", "H", "J", "L", "L", "A", "E"],
-            ["D", "T", "V", "E", "O", "N", "E", "E", "K", "S"],
-            ["P", "I", "N", "K", "J", "M", "R", "B", "T", "Q"],
-            ["F", "A", "R", "M", "S", "T", "U", "O", "N", "S"],
-            ["I", "N", "M", "T", "J", "J", "P", "D", "Z", "F"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+      id: 'wordSearch-pigs',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Pigs',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['P', 'I', 'G', 'S'],
+            marker: [3, 1, 6, 1]
+          },
+          {
+            word: ['P', 'I', 'G', 'L', 'E', 'T', 'S'],
+            marker: [3, 1, 9, 7]
+          },
+          {
+            word: ['S', 'N', 'O', 'U', 'T'],
+            marker: [9, 7, 5, 7]
+          },
+          {
+            word: ['B', 'R', 'I', 'S', 'T', 'L', 'E', 'S'],
+            marker: [2, 2, 9, 2]
+          },
+          {
+            word: ['S', 'T', 'I', 'F', 'F'],
+            marker: [0, 0, 0, 4]
+          },
+          {
+            word: ['M', 'U', 'D'],
+            marker: [5, 6, 7, 8]
+          },
+          {
+            word: ['D', 'I', 'R', 'T'],
+            marker: [0, 5, 3, 8]
+          },
+          {
+            word: ['P', 'I', 'N', 'K'],
+            marker: [0, 6, 3, 6]
+          },
+          {
+            word: ['F', 'A', 'R', 'M'],
+            marker: [0, 7, 3, 7]
+          },
+          {
+            word: ['S', 'M', 'E', 'L', 'L'],
+            marker: [4, 7, 8, 3]
+          }
+        ],
+        table: [
+          ['S', 'T', 'V', 'G', 'E', 'R', 'V', 'R', 'V', 'F'],
+          ['T', 'V', 'Y', 'P', 'I', 'G', 'S', 'H', 'O', 'E'],
+          ['I', 'D', 'B', 'R', 'I', 'S', 'T', 'L', 'E', 'S'],
+          ['F', 'W', 'L', 'J', 'N', 'G', 'M', 'N', 'L', 'I'],
+          ['F', 'C', 'I', 'M', 'H', 'J', 'L', 'L', 'A', 'E'],
+          ['D', 'T', 'V', 'E', 'O', 'N', 'E', 'E', 'K', 'S'],
+          ['P', 'I', 'N', 'K', 'J', 'M', 'R', 'B', 'T', 'Q'],
+          ['F', 'A', 'R', 'M', 'S', 'T', 'U', 'O', 'N', 'S'],
+          ['I', 'N', 'M', 'T', 'J', 'J', 'P', 'D', 'Z', 'F']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'lions',
       type: 'passage',
@@ -1358,70 +1358,70 @@ Do you know that lions can eat up to 30kgs in one meal?`,
       }
     },
     {
-        "id": "wordSearch-lions",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Lions",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["L", "I", "O", "N", "E", "S", "S"],
-              "marker": [0, 0, 0, 6]
-            },
-            {
-              "word": ["L", "I", "O", "N"],
-              "marker": [0, 0, 3, 3]
-            },
-            {
-              "word": ["D", "E", "N"],
-              "marker": [5, 1, 3, 3]
-            },
-            {
-              "word": ["P", "R", "E", "D", "A", "T", "O", "R"],
-              "marker": [7, 2, 0, 9]
-            },
-            {
-              "word": ["C", "A", "V", "E", "S"],
-              "marker": [5, 5, 5, 9]
-            },
-            {
-              "word": ["C", "U", "B"],
-              "marker": [5, 5, 7, 5]
-            },
-            {
-              "word": ["F", "O", "R", "E", "S", "T"],
-              "marker": [1, 9, 6, 9]
-            },
-            {
-              "word": ["J", "U", "N", "G", "L", "E"],
-              "marker": [3, 0, 8, 0]
-            },
-            {
-              "word": ["R", "O", "A", "R", "I", "N", "G"],
-              "marker": [8, 2, 8, 8]
-            },
-            {
-              "word": ["K", "I", "N", "G"],
-              "marker": [1, 3, 4, 3]
-            }
-          ],
-          "table": [
-            ["L", "U", "B", "J", "U", "N", "G", "L", "E"],
-            ["I", "I", "S", "D", "Q", "D", "G", "Q", "H"],
-            ["O", "S", "O", "O", "E", "Y", "I", "P", "R"],
-            ["N", "K", "I", "N", "G", "G", "R", "H", "O"],
-            ["E", "J", "I", "B", "W", "E", "J", "S", "A"],
-            ["S", "S", "J", "Y", "D", "C", "U", "B", "R"],
-            ["S", "I", "A", "A", "Y", "A", "G", "G", "I"],
-            ["H", "S", "T", "A", "Z", "V", "N", "O", "N"],
-            ["X", "O", "Y", "D", "J", "E", "J", "N", "G"],
-            ["R", "F", "O", "R", "E", "S", "T", "J", "B"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+      id: 'wordSearch-lions',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Lions',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['L', 'I', 'O', 'N', 'E', 'S', 'S'],
+            marker: [0, 0, 0, 6]
+          },
+          {
+            word: ['L', 'I', 'O', 'N'],
+            marker: [0, 0, 3, 3]
+          },
+          {
+            word: ['D', 'E', 'N'],
+            marker: [5, 1, 3, 3]
+          },
+          {
+            word: ['P', 'R', 'E', 'D', 'A', 'T', 'O', 'R'],
+            marker: [7, 2, 0, 9]
+          },
+          {
+            word: ['C', 'A', 'V', 'E', 'S'],
+            marker: [5, 5, 5, 9]
+          },
+          {
+            word: ['C', 'U', 'B'],
+            marker: [5, 5, 7, 5]
+          },
+          {
+            word: ['F', 'O', 'R', 'E', 'S', 'T'],
+            marker: [1, 9, 6, 9]
+          },
+          {
+            word: ['J', 'U', 'N', 'G', 'L', 'E'],
+            marker: [3, 0, 8, 0]
+          },
+          {
+            word: ['R', 'O', 'A', 'R', 'I', 'N', 'G'],
+            marker: [8, 2, 8, 8]
+          },
+          {
+            word: ['K', 'I', 'N', 'G'],
+            marker: [1, 3, 4, 3]
+          }
+        ],
+        table: [
+          ['L', 'U', 'B', 'J', 'U', 'N', 'G', 'L', 'E'],
+          ['I', 'I', 'S', 'D', 'Q', 'D', 'G', 'Q', 'H'],
+          ['O', 'S', 'O', 'O', 'E', 'Y', 'I', 'P', 'R'],
+          ['N', 'K', 'I', 'N', 'G', 'G', 'R', 'H', 'O'],
+          ['E', 'J', 'I', 'B', 'W', 'E', 'J', 'S', 'A'],
+          ['S', 'S', 'J', 'Y', 'D', 'C', 'U', 'B', 'R'],
+          ['S', 'I', 'A', 'A', 'Y', 'A', 'G', 'G', 'I'],
+          ['H', 'S', 'T', 'A', 'Z', 'V', 'N', 'O', 'N'],
+          ['X', 'O', 'Y', 'D', 'J', 'E', 'J', 'N', 'G'],
+          ['R', 'F', 'O', 'R', 'E', 'S', 'T', 'J', 'B']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'sharks',
       type: 'passage',
@@ -1489,61 +1489,61 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
       }
     },
     {
-        "id": "wordSearch-sharks",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Sharks",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["P", "R", "E", "D", "A", "T", "O", "R", "S"],
-              "marker": [0, 0, 8, 0]
-            },
-            {
-              "word": ["A", "T", "T", "A", "C", "K", "E", "R", "S"],
-              "marker": [4, 0, 4, 8]
-            },
-            {
-              "word": ["S", "H", "A", "R", "K"],
-              "marker": [1, 4, 5, 8]
-            },
-            {
-              "word": ["P", "U", "P", "S"],
-              "marker": [8, 3, 8, 0]
-            },
-            {
-              "word": ["O", "C", "E", "A", "N"],
-              "marker": [3, 3, 7, 7]
-            },
-            {
-              "word": ["W", "A", "T", "E", "R"],
-              "marker": [5, 2, 5, 6]
-            },
-            {
-              "word": ["F", "I", "S", "H"],
-              "marker": [1, 2, 1, 5]
-            },
-            {
-              "word": ["P", "R", "E", "Y"],
-              "marker": [0, 5, 0, 8]
-            }
-          ],
-          "table": [
-            ["P", "R", "E", "D", "A", "T", "O", "R", "S"],
-            ["H", "Y", "V", "K", "T", "O", "V", "S", "P"],
-            ["L", "F", "J", "C", "T", "W", "J", "F", "U"],
-            ["Y", "I", "K", "O", "A", "A", "T", "T", "P"],
-            ["S", "S", "O", "A", "C", "T", "T", "F", "Y"],
-            ["P", "H", "H", "U", "K", "E", "T", "C", "A"],
-            ["R", "K", "F", "A", "E", "R", "A", "Y", "M"],
-            ["E", "Z", "C", "W", "R", "D", "X", "N", "S"],
-            ["Y", "O", "K", "D", "S", "K", "H", "H", "Y"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+      id: 'wordSearch-sharks',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Sharks',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['P', 'R', 'E', 'D', 'A', 'T', 'O', 'R', 'S'],
+            marker: [0, 0, 8, 0]
+          },
+          {
+            word: ['A', 'T', 'T', 'A', 'C', 'K', 'E', 'R', 'S'],
+            marker: [4, 0, 4, 8]
+          },
+          {
+            word: ['S', 'H', 'A', 'R', 'K'],
+            marker: [1, 4, 5, 8]
+          },
+          {
+            word: ['P', 'U', 'P', 'S'],
+            marker: [8, 3, 8, 0]
+          },
+          {
+            word: ['O', 'C', 'E', 'A', 'N'],
+            marker: [3, 3, 7, 7]
+          },
+          {
+            word: ['W', 'A', 'T', 'E', 'R'],
+            marker: [5, 2, 5, 6]
+          },
+          {
+            word: ['F', 'I', 'S', 'H'],
+            marker: [1, 2, 1, 5]
+          },
+          {
+            word: ['P', 'R', 'E', 'Y'],
+            marker: [0, 5, 0, 8]
+          }
+        ],
+        table: [
+          ['P', 'R', 'E', 'D', 'A', 'T', 'O', 'R', 'S'],
+          ['H', 'Y', 'V', 'K', 'T', 'O', 'V', 'S', 'P'],
+          ['L', 'F', 'J', 'C', 'T', 'W', 'J', 'F', 'U'],
+          ['Y', 'I', 'K', 'O', 'A', 'A', 'T', 'T', 'P'],
+          ['S', 'S', 'O', 'A', 'C', 'T', 'T', 'F', 'Y'],
+          ['P', 'H', 'H', 'U', 'K', 'E', 'T', 'C', 'A'],
+          ['R', 'K', 'F', 'A', 'E', 'R', 'A', 'Y', 'M'],
+          ['E', 'Z', 'C', 'W', 'R', 'D', 'X', 'N', 'S'],
+          ['Y', 'O', 'K', 'D', 'S', 'K', 'H', 'H', 'Y']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'snakes',
       type: 'passage',
@@ -1614,70 +1614,70 @@ Do you know that some snakes can *fly (run)*?`,
         ]
       }
     },
-     {
-        "id": "wordSearch-snakes",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Snakes",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["S", "N", "A", "K", "E", "L", "E", "T", "S"],
-              "marker": [0, 8, 8, 8]
-            },
-            {
-              "word": ["R", "E", "P", "T", "I", "L", "E"],
-              "marker": [1, 0, 7, 0]
-            },
-            {
-              "word": ["C", "R", "A", "W", "L", "E", "R"],
-              "marker": [1, 6, 1, 0]
-            },
-            {
-              "word": ["V", "E", "N", "O", "M"],
-              "marker": [0, 0, 4, 4]
-            },
-            {
-              "word": ["A", "N", "A", "C", "O", "N", "D", "A"],
-              "marker": [2, 1, 2, 8]
-            },
-            {
-              "word": ["P", "Y", "T", "H", "O", "N"],
-              "marker": [3, 0, 8, 5]
-            },
-            {
-              "word": ["S", "K", "I", "N"],
-              "marker": [8, 2, 8, 5]
-            },
-            {
-              "word": ["S", "N", "A", "K", "E"],
-              "marker": [4, 6, 8, 6]
-            },
-            {
-              "word": ["C", "O", "B", "R", "A"],
-              "marker": [3, 2, 3, 6]
-            },
-            {
-              "word": ["S", "H", "E", "D"],
-              "marker": [7, 2, 4, 5]
-            }
-          ],
-          "table": [
-            ["V", "R", "E", "P", "T", "I", "L", "E", "J"],
-            ["R", "E", "A", "K", "Y", "M", "U", "G", "W"],
-            ["Y", "L", "N", "C", "D", "T", "B", "S", "S"],
-            ["H", "W", "A", "O", "K", "R", "H", "D", "K"],
-            ["M", "A", "C", "B", "M", "E", "Z", "O", "I"],
-            ["N", "R", "O", "R", "D", "O", "I", "C", "N"],
-            ["Y", "C", "N", "A", "S", "N", "A", "K", "E"],
-            ["H", "A", "D", "M", "E", "G", "Y", "Y", "C"],
-            ["S", "N", "A", "K", "E", "L", "E", "T", "S"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
-      },
+    {
+      id: 'wordSearch-snakes',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Snakes',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['S', 'N', 'A', 'K', 'E', 'L', 'E', 'T', 'S'],
+            marker: [0, 8, 8, 8]
+          },
+          {
+            word: ['R', 'E', 'P', 'T', 'I', 'L', 'E'],
+            marker: [1, 0, 7, 0]
+          },
+          {
+            word: ['C', 'R', 'A', 'W', 'L', 'E', 'R'],
+            marker: [1, 6, 1, 0]
+          },
+          {
+            word: ['V', 'E', 'N', 'O', 'M'],
+            marker: [0, 0, 4, 4]
+          },
+          {
+            word: ['A', 'N', 'A', 'C', 'O', 'N', 'D', 'A'],
+            marker: [2, 1, 2, 8]
+          },
+          {
+            word: ['P', 'Y', 'T', 'H', 'O', 'N'],
+            marker: [3, 0, 8, 5]
+          },
+          {
+            word: ['S', 'K', 'I', 'N'],
+            marker: [8, 2, 8, 5]
+          },
+          {
+            word: ['S', 'N', 'A', 'K', 'E'],
+            marker: [4, 6, 8, 6]
+          },
+          {
+            word: ['C', 'O', 'B', 'R', 'A'],
+            marker: [3, 2, 3, 6]
+          },
+          {
+            word: ['S', 'H', 'E', 'D'],
+            marker: [7, 2, 4, 5]
+          }
+        ],
+        table: [
+          ['V', 'R', 'E', 'P', 'T', 'I', 'L', 'E', 'J'],
+          ['R', 'E', 'A', 'K', 'Y', 'M', 'U', 'G', 'W'],
+          ['Y', 'L', 'N', 'C', 'D', 'T', 'B', 'S', 'S'],
+          ['H', 'W', 'A', 'O', 'K', 'R', 'H', 'D', 'K'],
+          ['M', 'A', 'C', 'B', 'M', 'E', 'Z', 'O', 'I'],
+          ['N', 'R', 'O', 'R', 'D', 'O', 'I', 'C', 'N'],
+          ['Y', 'C', 'N', 'A', 'S', 'N', 'A', 'K', 'E'],
+          ['H', 'A', 'D', 'M', 'E', 'G', 'Y', 'Y', 'C'],
+          ['S', 'N', 'A', 'K', 'E', 'L', 'E', 'T', 'S']
+        ],
+        lang: 'en',
+        showWords: true
+      }
+    },
     {
       id: 'dinosaurs',
       type: 'passage',
@@ -1755,69 +1755,69 @@ It led to the death of the species.`,
       }
     },
     {
-        "id": "wordSearch-dinosaurs",
-        "editable": true,
-        "type": "wordsearch",
-        "label": "WordSearch - Dinosaurs",
-        "data": {
-          "title": "Find the given words from the table.",
-          "words": [
-            {
-              "word": ["D", "I", "N", "O", "S", "A", "U", "R", "S"],
-              "marker": [2, 0, 2, 8]
-            },
-            {
-              "word": ["J", "U", "R", "A", "S", "S", "I", "C"],
-              "marker": [0, 7, 7, 7]
-            },
-            {
-              "word": ["M", "E", "T", "E", "O", "R"],
-              "marker": [6, 3, 1, 3]
-            },
-            {
-              "word": ["M", "E", "S", "O", "Z", "O", "I", "C"],
-              "marker": [9, 0, 9, 7]
-            },
-            {
-              "word": ["E", "N", "O", "R", "M", "O", "U", "S"],
-              "marker": [9, 8, 2, 8]
-            },
-            {
-              "word": ["L", "I", "V", "I", "N", "G"],
-              "marker": [1, 1, 6, 1]
-            },
-            {
-              "word": ["S", "C", "R", "E", "A", "M"],
-              "marker": [0, 0, 0, 5]
-            },
-            {
-              "word": ["A", "N", "C", "I", "E", "N", "T"],
-              "marker": [0, 9, 6, 9]
-            },
-            {
-              "word": ["S", "P", "E", "C", "I", "E", "S"],
-              "marker": [7, 0, 7, 6]
-            },
-            {
-              "word": ["E", "X", "T", "I", "N", "C", "T"],
-              "marker": [8, 1, 8, 7]
-            }
-          ],
-          "table": [
-            ["S", "B", "D", "C", "A", "M", "F", "S", "V", "M"],
-            ["C", "L", "I", "V", "I", "N", "G", "P", "E", "E"],
-            ["R", "P", "N", "I", "Z", "R", "I", "E", "X", "S"],
-            ["E", "R", "O", "E", "T", "E", "M", "C", "T", "O"],
-            ["A", "W", "S", "Y", "V", "T", "A", "I", "I", "Z"],
-            ["M", "Z", "A", "R", "W", "Z", "L", "E", "N", "O"],
-            ["X", "J", "U", "H", "F", "V", "A", "S", "C", "I"],
-            ["J", "U", "R", "A", "S", "S", "I", "C", "T", "C"],
-            ["F", "D", "S", "U", "O", "M", "R", "O", "N", "E"],
-            ["A", "N", "C", "I", "E", "N", "T", "C", "B", "K"]
-          ],
-          "lang": "en",
-          "showWords": true
-        }
+      id: 'wordSearch-dinosaurs',
+      editable: true,
+      type: 'wordsearch',
+      label: 'WordSearch - Dinosaurs',
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['D', 'I', 'N', 'O', 'S', 'A', 'U', 'R', 'S'],
+            marker: [2, 0, 2, 8]
+          },
+          {
+            word: ['J', 'U', 'R', 'A', 'S', 'S', 'I', 'C'],
+            marker: [0, 7, 7, 7]
+          },
+          {
+            word: ['M', 'E', 'T', 'E', 'O', 'R'],
+            marker: [6, 3, 1, 3]
+          },
+          {
+            word: ['M', 'E', 'S', 'O', 'Z', 'O', 'I', 'C'],
+            marker: [9, 0, 9, 7]
+          },
+          {
+            word: ['E', 'N', 'O', 'R', 'M', 'O', 'U', 'S'],
+            marker: [9, 8, 2, 8]
+          },
+          {
+            word: ['L', 'I', 'V', 'I', 'N', 'G'],
+            marker: [1, 1, 6, 1]
+          },
+          {
+            word: ['S', 'C', 'R', 'E', 'A', 'M'],
+            marker: [0, 0, 0, 5]
+          },
+          {
+            word: ['A', 'N', 'C', 'I', 'E', 'N', 'T'],
+            marker: [0, 9, 6, 9]
+          },
+          {
+            word: ['S', 'P', 'E', 'C', 'I', 'E', 'S'],
+            marker: [7, 0, 7, 6]
+          },
+          {
+            word: ['E', 'X', 'T', 'I', 'N', 'C', 'T'],
+            marker: [8, 1, 8, 7]
+          }
+        ],
+        table: [
+          ['S', 'B', 'D', 'C', 'A', 'M', 'F', 'S', 'V', 'M'],
+          ['C', 'L', 'I', 'V', 'I', 'N', 'G', 'P', 'E', 'E'],
+          ['R', 'P', 'N', 'I', 'Z', 'R', 'I', 'E', 'X', 'S'],
+          ['E', 'R', 'O', 'E', 'T', 'E', 'M', 'C', 'T', 'O'],
+          ['A', 'W', 'S', 'Y', 'V', 'T', 'A', 'I', 'I', 'Z'],
+          ['M', 'Z', 'A', 'R', 'W', 'Z', 'L', 'E', 'N', 'O'],
+          ['X', 'J', 'U', 'H', 'F', 'V', 'A', 'S', 'C', 'I'],
+          ['J', 'U', 'R', 'A', 'S', 'S', 'I', 'C', 'T', 'C'],
+          ['F', 'D', 'S', 'U', 'O', 'M', 'R', 'O', 'N', 'E'],
+          ['A', 'N', 'C', 'I', 'E', 'N', 'T', 'C', 'B', 'K']
+        ],
+        lang: 'en',
+        showWords: true
       }
-   ]
+    }
+  ]
 };

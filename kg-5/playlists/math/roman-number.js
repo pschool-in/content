@@ -3,13 +3,13 @@ export default {
   id: 'roman-number',
   list: [
     /*
-    {
-      label: 'Roman Numbers 1 to 50',
-      type: 'passage',
-      id: 'notes-1',
-      data: {
-        title: 'Quick Notes',
-        text: `I - 1
+{
+label: 'Roman Numbers 1 to 50',
+type: 'passage',
+id: 'notes-1',
+data: {
+title: 'Quick Notes',
+text: `I - 1
 II - 2
 III - 3
 IV - 4
@@ -59,15 +59,15 @@ XLVII - 47
 XLVIII - 48
 XLIX - 49
 L - 50`
-      }
-    },
-    {
-      label: 'Roman Numbers 51 to 100',
-      type: 'passage',
-      id: 'notes-2',
-      data: {
-        title: 'Quick Notes',
-        text: `LI - 51
+}
+},
+{
+label: 'Roman Numbers 51 to 100',
+type: 'passage',
+id: 'notes-2',
+data: {
+title: 'Quick Notes',
+text: `LI - 51
 LII - 52
 LIII - 53
 LIV - 54
@@ -117,15 +117,15 @@ XCVII - 97
 XCVIII - 98
 XCIX - 99
 C - 100`
-      }
-    },
-    {
-      label: 'Roman Numbers 100 to 1000',
-      type: 'passage',
-      id: 'notes-3',
-      data: {
-        title: 'Quick Notes',
-        text: `CL  - 150
+}
+},
+{
+label: 'Roman Numbers 100 to 1000',
+type: 'passage',
+id: 'notes-3',
+data: {
+title: 'Quick Notes',
+text: `CL  - 150
 CC - 200
 CCL - 250
 CCC - 300
@@ -143,8 +143,8 @@ DCCCL - 850
 CM - 900
 CML - 950
 M - 1000`
-      }
-    },*/
+}
+},*/
     {
       type: 'match',
       id: 'match',
@@ -390,13 +390,13 @@ MMDCCCXCVII | 2897
 MCCCXXX | 1330 `,
 
         `CMXCIX | 999
- MMMCMLXXXVII | 3987
- MMCMLXXXVI | 2986
- MCCLXXXVII | 1287
- MCMXCV | 1995 `,
+MMMCMLXXXVII | 3987
+MMCMLXXXVI | 2986
+MCCLXXXVII | 1287
+MCMXCV | 1995 `,
 
         `MMMCMLXXX | 3980
- MMCMXCIX | 2999
+MMCMXCIX | 2999
 MMMDCCCLXXVI | 3876
 MMMDXLI | 3541 
 MCCVII | 1207 `

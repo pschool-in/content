@@ -162,25 +162,25 @@ Brightest Planet − Venus`
       },
       data: [
         `Largest Continent, Asia
-        Smallest Continent, Australia 
-        Largest Country, Russia 
-        Smallest Country, Vatican City
-        Largest Ocean , Pacific 
-        Smallest Ocean , Arctic`,
+Smallest Continent, Australia 
+Largest Country, Russia 
+Smallest Country, Vatican City
+Largest Ocean , Pacific 
+Smallest Ocean , Arctic`,
 
         `Largest Bird, Ostrich
-        Largest sea Bird, Albatross
-        Smallest Bird , Humming Bird
-        Fastest bird, Peregrine Falcon
-        Tallest Animal, Giraffe
-        Largest Animal, Blue Whale`,
+Largest sea Bird, Albatross
+Smallest Bird , Humming Bird
+Fastest bird, Peregrine Falcon
+Tallest Animal, Giraffe
+Largest Animal, Blue Whale`,
 
         `Tallest Peak,  Everest
-        Tallest Mountain Range, Himalayas
-        Tallest Building, Burj Khalifa
-        Largely Populated city, Tokyo
-        Smallest Country, Vatican City
-        Largest Island, Greenland`
+Tallest Mountain Range, Himalayas
+Tallest Building, Burj Khalifa
+Largely Populated city, Tokyo
+Smallest Country, Vatican City
+Largest Island, Greenland`
       ]
     },
     {

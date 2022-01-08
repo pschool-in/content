@@ -12,70 +12,70 @@ export default {
         words: [
           {
             word: 'bucket',
-            marker: {x: 2, y: 0},
+            marker: { x: 2, y: 0 },
             hint: 'It could be used to carry water',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'water',
-            marker: {x: 3, y: 1},
+            marker: { x: 3, y: 1 },
             hint: 'It is used for irrigation',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'tractor',
-            marker: {x: 7, y: 0},
+            marker: { x: 7, y: 0 },
             hint: 'It is a slow moving vehicle used in farms',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'milk',
-            marker: {x: 2, y: 2},
+            marker: { x: 2, y: 2 },
             hint: 'It is used to make cheese and butter',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'windmill',
-            marker: {x: 3, y: 1},
+            marker: { x: 3, y: 1 },
             hint: 'It makes energy from wind',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'gander',
-            marker: {x: 0, y: 4},
+            marker: { x: 0, y: 4 },
             hint: 'It is a male goose',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'barn',
-            marker: {x: 1, y: 3},
+            marker: { x: 1, y: 3 },
             hint: 'It gives shelter to farm animals',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'lamb',
-            marker: {x: 3, y: 7},
+            marker: { x: 3, y: 7 },
             hint: 'It is a baby sheep',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'calf',
-            marker: {x: 4, y: 0},
+            marker: { x: 4, y: 0 },
             hint: 'It is a baby cow',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'eggs',
-            marker: {x: 0, y: 2},
+            marker: { x: 0, y: 2 },
             hint: 'It is collected from chicken',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'mule',
-            marker: {x: 1, y: 8},
+            marker: { x: 1, y: 8 },
             hint: 'It is the offspring of horse and donkey',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -88,10 +88,10 @@ export default {
           ['S', 'R', '', 'M', '', '', '', 'O'],
           ['', 'N', '', 'I', '', '', '', 'R'],
           ['', '', '', 'L', 'A', 'M', 'B', ''],
-          ['', 'M', 'U', 'L', 'E', '', '', ''],
-        ],
+          ['', 'M', 'U', 'L', 'E', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-beach',
@@ -101,52 +101,52 @@ export default {
         words: [
           {
             word: 'jellyfish',
-            marker: {x: 2, y: 0},
+            marker: { x: 2, y: 0 },
             hint: 'It is a sea animal that stings',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'ocean',
-            marker: {x: 0, y: 1},
+            marker: { x: 0, y: 1 },
             hint: 'It is the waterbody near to beach',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'swimsuit',
-            marker: {x: 0, y: 6},
+            marker: { x: 0, y: 6 },
             hint: 'Most people wear it at the beach',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'towel',
-            marker: {x: 0, y: 0},
+            marker: { x: 0, y: 0 },
             hint: 'It is used to dry off ourselves',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'shovel',
-            marker: {x: 2, y: 7},
+            marker: { x: 2, y: 7 },
             hint: 'It is used to dig ',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'waves',
-            marker: {x: 3, y: 0},
+            marker: { x: 3, y: 0 },
             hint: 'They wash in at seaside',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'shore',
-            marker: {x: 3, y: 4},
+            marker: { x: 3, y: 4 },
             hint: 'It is the edge of water',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'crab',
-            marker: {x: 1, y: 1},
+            marker: { x: 1, y: 1 },
             hint: 'It is a sea animal that stings',
-            direction: 'down',
-          },
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -159,10 +159,10 @@ export default {
           ['', '', 'F', '', '', '', '', ''],
           ['S', 'W', 'I', 'M', 'S', 'U', 'I', 'T'],
           ['', '', 'S', 'H', 'O', 'V', 'E', 'L'],
-          ['', '', 'H', '', '', '', '', ''],
-        ],
+          ['', '', 'H', '', '', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-fast-food',
@@ -172,52 +172,52 @@ export default {
         words: [
           {
             word: 'donut',
-            marker: {x: 0, y: 1},
+            marker: { x: 0, y: 1 },
             hint: 'It is a cake with a hole',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'sandwich',
-            marker: {x: 1, y: 0},
+            marker: { x: 1, y: 0 },
             hint: 'It has two pieces of bread and filling',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'nuggets',
-            marker: {x: 3, y: 0},
+            marker: { x: 3, y: 0 },
             hint: 'They are small chicken pieces',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'straw',
-            marker: {x: 3, y: 6},
+            marker: { x: 3, y: 6 },
             hint: 'They are tubes used to drink with',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'tomato ',
-            marker: {x: 3, y: 5},
+            marker: { x: 3, y: 5 },
             hint: 'It is the red slice in a burger',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'hotdog',
-            marker: {x: 8, y: 1},
+            marker: { x: 8, y: 1 },
             hint: 'It is a sausage in a roll',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'burger',
-            marker: {x: 0, y: 3},
+            marker: { x: 0, y: 3 },
             hint: 'It is a beef patty on a bun',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'soda',
-            marker: {x: 6, y: 2},
+            marker: { x: 6, y: 2 },
             hint: 'It is a fizzy drink',
-            direction: 'down',
-          },
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -228,10 +228,10 @@ export default {
           ['B', 'U', 'R', 'G', 'E', 'R', 'O', '', 'T'],
           ['', '', '', 'E', '', '', 'D', '', 'D'],
           ['', '', '', 'T', 'O', 'M', 'A', 'T', 'O'],
-          ['', '', '', 'S', 'T', 'R', 'A', 'W', 'G'],
-        ],
+          ['', '', '', 'S', 'T', 'R', 'A', 'W', 'G']
+        ]
       },
-      editable: true,
-    },
-  ],
+      editable: true
+    }
+  ]
 };

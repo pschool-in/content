@@ -8,8 +8,17 @@ export default {
       id: 'reading',
       data: {
         title: 'Wealth under the Ground',
-        text:
-          'Lot of things we use are extracted from ground and they are generally known as minerals. The activity of extracting minerals from earth is known as mining. \n Minerals are of two kinds, namely metallic and non-metalic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metalic minerals. \n India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts. \n Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc. \n Copper was the first  metal used by human beings. It is widely used in electrical equipments. \n Coal is primarily used as fuel and also used in generating electricity. \n Petroleum is a natural resource. The by-products of petroleum are petrol, diesel and kerosene. They are mainly used as fuel and generating energy. In India petroleum is found under sea near Mumbai. But we majorly import petroleum from other countries. \n Indians love gold ornaments and objects made of gold. India majorly imports gold. \n # Conserving our minerals \n Our minerals are being consumed so rapidly that there is a danger of their running out. We must save them and use them wisely. \n Alternate sources of energy and fuel are being considered.  Chief among them are solar and wind energy. This aims at conserving the available mineral resources from being rapidly depleted. '
+        text: `Lot of things we use are extracted from ground and they are generally known as minerals. The activity of extracting minerals from earth is known as mining.
+Minerals are of two kinds, namely metallic and non-metalic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metalic minerals.
+India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts.
+Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc.
+Copper was the first  metal used by human beings. It is widely used in electrical equipments.
+Coal is primarily used as fuel and also used in generating electricity.
+Petroleum is a natural resource. The by-products of petroleum are petrol, diesel and kerosene. They are mainly used as fuel and generating energy. In India petroleum is found under sea near Mumbai. But we majorly import petroleum from other countries.
+Indians love gold ornaments and objects made of gold. India majorly imports gold.
+# Conserving our minerals
+Our minerals are being consumed so rapidly that there is a danger of their running out. We must save them and use them wisely.
+Alternate sources of energy and fuel are being considered.  Chief among them are solar and wind energy. This aims at conserving the available mineral resources from being rapidly depleted.`
       }
     },
     {

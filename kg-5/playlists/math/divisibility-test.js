@@ -25,7 +25,7 @@ A number is divisible by 5, if the last number is 0 or 5.
 A number is divisible by 6, if the number is divisible by both 2 and 3.
 # Divisible by 10:
 A number is divisible by 10, if the number ends with zero.
-          `
+`
       }
     },
     {

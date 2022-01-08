@@ -10,16 +10,16 @@ export default {
       data: {
         title: 'Countable vs Uncountable Noun',
         text: [
-          `Nouns can be countable or uncountable.`,
-          `Countable nouns are easy to recognize. They are the things we can count on. 
-          For eg, pencils. We can count pencils. We can have one, two, three or more pencils.`,
+          `Nouns can be countable or uncountable.
+Countable nouns are easy to recognize. They are the things we can count on. 
+For eg, pencils. We can count pencils. We can have one, two, three or more pencils.`,
           {
             type: 'hilight',
             text: 'eg: pen, house, dog'
           },
           `Uncountable nouns are substances, concepts, etc. that we cannot divide into separate elements. We cannot 'count' them. 
-          For example, we cannot count 'water'. We can count 'bottles of water' or 'litres of water', but we cannot count water itself.`,
-          `Uncountable nouns cannot be counted.`,
+For example, we cannot count 'water'. We can count 'bottles of water' or 'litres of water', but we cannot count water itself.
+Uncountable nouns cannot be counted.`,
           { type: 'hilight', text: 'eg: water, air, sand' },
           `# Plural nouns`,
           `Plural nouns are used to represent more than one item. Most plural nouns are formed by adding an 's' to the singular nouns.`,
@@ -305,34 +305,34 @@ Some nouns use different words as plural. Some examples are:
       },
       data: [
         `Child, Children
-   Foot, Feet
-   Tooth, Teeth
-   Shelf, Shelves
-   Knife, Knives`,
+Foot, Feet
+Tooth, Teeth
+Shelf, Shelves
+Knife, Knives`,
 
         `Mouse, Mice
-   Man, Men
-   Plate, Plates
-   Chef, Chefs
-   Safe, Safes`,
+Man, Men
+Plate, Plates
+Chef, Chefs
+Safe, Safes`,
 
         `Dress, Dresses
-   Bush, Bushes
-   Lunch, Lunches
-   Punch, Punches
-   Box, Boxes`,
+Bush, Bushes
+Lunch, Lunches
+Punch, Punches
+Box, Boxes`,
 
         `Fox, Foxes
-   Bus, Buses
-   Dish, Dishes
-   Brush, Brushes
-   Wish, Wishes`,
+Bus, Buses
+Dish, Dishes
+Brush, Brushes
+Wish, Wishes`,
 
         `Woman, Women
-   Family, Families
-   Ox, Oxen
-   Baby, Babies
-   Country, Countries`
+Family, Families
+Ox, Oxen
+Baby, Babies
+Country, Countries`
       ]
     },
     {
@@ -344,26 +344,26 @@ Some nouns use different words as plural. Some examples are:
       },
       data: [
         `My friend has 2 *puppies (puppys)* in his house.
-        My mom bought 1 packet of *cherries (cheerys)*.
-        I love eating french *fries (frys)*.
-        I like *cats (caties)*.
-        Dogs have 4 *legs (leges)*.
-        I like eating *berries (berrys)*.
-        He divided the chocolate into two *halves (halfs)*.
-        My *teeth (tooths)* are white.
-        The police caught three *thieves (thiefs)*.
-        The *children (childs)* are playing in the park.`,
+My mom bought 1 packet of *cherries (cheerys)*.
+I love eating french *fries (frys)*.
+I like *cats (caties)*.
+Dogs have 4 *legs (leges)*.
+I like eating *berries (berrys)*.
+He divided the chocolate into two *halves (halfs)*.
+My *teeth (tooths)* are white.
+The police caught three *thieves (thiefs)*.
+The *children (childs)* are playing in the park.`,
 
         `My aunt doesn't like *babies (babys)*.
-        *Monkeys (Monkeies)* climb trees very fast.
-        *Flies (Flys)* are very common insects.
-        There are a lot of *apples (appless)* in the tree.
-        Bees live in *hives (hivies)*.
-        There were many *people (persons)* in the room.
-        Human beings have two *feet (foots)*.
-        There are so many green *leaves (leafs)* in the tree.
-        There are twenty *sheep (sheeps)* on the farm.
-        I saw two black *fish (fishes)* in the pond.`
+*Monkeys (Monkeies)* climb trees very fast.
+*Flies (Flys)* are very common insects.
+There are a lot of *apples (appless)* in the tree.
+Bees live in *hives (hivies)*.
+There were many *people (persons)* in the room.
+Human beings have two *feet (foots)*.
+There are so many green *leaves (leafs)* in the tree.
+There are twenty *sheep (sheeps)* on the farm.
+I saw two black *fish (fishes)* in the pond.`
       ]
     },
     {

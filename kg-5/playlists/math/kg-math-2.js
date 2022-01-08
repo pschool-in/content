@@ -10,13 +10,13 @@ export default {
       data: {
         images: 'svg',
         text: `SQUARE | _QUARE
-  TRIANGLE | _RIANGLE
-  CIRCLE | _IRCLE
-  OVAL | _VAL
-  RECTANGLE | _ECTANGLE
-  PENTAGON | _ENTAGON
-  HEXAGON | _EXAGON
-  DIAMOND | _IAMOND`,
+TRIANGLE | _RIANGLE
+CIRCLE | _IRCLE
+OVAL | _VAL
+RECTANGLE | _ECTANGLE
+PENTAGON | _ENTAGON
+HEXAGON | _EXAGON
+DIAMOND | _IAMOND`,
         svgs: [
           `M 10 10 H 190 V 190 H 10 Z`,
           `M 100 10 L 190 190 H 10 Z`,
@@ -36,11 +36,11 @@ export default {
       data: {
         images: 'svg',
         text: `MOON | _OON
-  STAR | _TAR
-  ARROW | _RROW
-  CUBE | _UBE
-  CONE | _ONE
-  CYLINDER | _YLINDER`,
+STAR | _TAR
+ARROW | _RROW
+CUBE | _UBE
+CONE | _ONE
+CYLINDER | _YLINDER`,
         svgs: [
           'M 190 100 A 90 90 90 1 1 70 16 A 45 45 90 0 0 190 100',
           'M 105.8 5 L 127.4 72.2 L 197 72.2 L 139.4 113 L 163.4 177.8 L 105.8 137 L 48.2 177.8 L 72.2 113 L 14.6 72.2 L 84.2 72.2 L 105.8 5 Z',
@@ -58,13 +58,13 @@ export default {
       data: {
         images: 'svg',
         text: `SQUARE | S_____
-  TRIANGLE | T__A____
-  CIRCLE | C_____
-  OVAL | O___
-  RECTANGLE | R________
-  PENTAGON | P_______
-  HEXAGON | H______
-  DIAMOND | D______`,
+TRIANGLE | T__A____
+CIRCLE | C_____
+OVAL | O___
+RECTANGLE | R________
+PENTAGON | P_______
+HEXAGON | H______
+DIAMOND | D______`,
         svgs: [
           `M 10 10 H 190 V 190 H 10 Z`,
           `M 100 10 L 190 190 H 10 Z`,
@@ -84,11 +84,11 @@ export default {
       data: {
         images: 'svg',
         text: `MOON | M___
-  STAR | S___
-  ARROW | A____
-  CUBE | C___
-  CONE | C___
-  CYLINDER | C_______`,
+STAR | S___
+ARROW | A____
+CUBE | C___
+CONE | C___
+CYLINDER | C_______`,
         svgs: [
           'M 190 100 A 90 90 90 1 1 70 16 A 45 45 90 0 0 190 100',
           'M 105.8 5 L 127.4 72.2 L 197 72.2 L 139.4 113 L 163.4 177.8 L 105.8 137 L 48.2 177.8 L 72.2 113 L 14.6 72.2 L 84.2 72.2 L 105.8 5 Z',

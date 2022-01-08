@@ -211,22 +211,22 @@ export default {
       },
       data: [
         `I ate 2/7 part of the pizza. How much is left? | ?0/?1 | 5, 7
-        Gopal walks for 1/12 of an hour to reach the bus stand, and the bus takes 5/12 of an hour to reach the school. What fraction of an hour does he take to reach the school? | ?0/?1 hr | 1, 2
-        Ramu has to travel a distance of 20 km. If he has travelled 4/5 of the distance by car, how many kilometres did he travel by car? | ?0 km | 16
-        A dog is fed with 1/2 cup of the food and a puppy is fed with 1/4 cup of the food. In total, how much of a cup was served? | ?0/?1 | 3, 4
-        Ravi shared 1/5 of his biscuit pack with his dog and 2/5 with his brother. How much part is left for him? | ?0/?1 | 2, 5`,
+Gopal walks for 1/12 of an hour to reach the bus stand, and the bus takes 5/12 of an hour to reach the school. What fraction of an hour does he take to reach the school? | ?0/?1 hr | 1, 2
+Ramu has to travel a distance of 20 km. If he has travelled 4/5 of the distance by car, how many kilometres did he travel by car? | ?0 km | 16
+A dog is fed with 1/2 cup of the food and a puppy is fed with 1/4 cup of the food. In total, how much of a cup was served? | ?0/?1 | 3, 4
+Ravi shared 1/5 of his biscuit pack with his dog and 2/5 with his brother. How much part is left for him? | ?0/?1 | 2, 5`,
 
         `Siva ate 2/5 part of the pizza. How much is left? | ?0/?1 | 3, 5
-        If I run 1 time around my classroom, I cover 1/5 km. How many times do I have to run to cover 1 km? | ?0 times | 5
-        Mom has spent 7/10 part of her salary? How much is left? | ?0/?1 | 3, 10
-        Every hour, I will drink 1/5 litre of water. How many litre of water will I drink in 10 hr? | ?0 ^l | 2
-        I can run 1 km in 1/6 of an hour. How much of an hour will it take to run 3 km? | ?0/?1 ^hr | 1, 2`,
+If I run 1 time around my classroom, I cover 1/5 km. How many times do I have to run to cover 1 km? | ?0 times | 5
+Mom has spent 7/10 part of her salary? How much is left? | ?0/?1 | 3, 10
+Every hour, I will drink 1/5 litre of water. How many litre of water will I drink in 10 hr? | ?0 ^l | 2
+I can run 1 km in 1/6 of an hour. How much of an hour will it take to run 3 km? | ?0/?1 ^hr | 1, 2`,
 
         `My mom prepared 5 dosas. I ate 1 1/2 . How much is left? | ?0 ?1/?2 | 3, 1, 2
-        It takes 1/12 of an hour to write one page. How much of an hour it will take to write 5 pages? | ?0/?1 | 5, 12
-        My dad has spent 4/7 part of his salary? How much is left? | ?0/?1 | 3, 7
-        I ran for 1/4 km and then I walked for 1/4 km. How much distance have I covered? | ?0/?1 km | 1, 2
-        Selvam filled 4/7 of the glass with water. How much of the glass is empty? | ?0/?1 | 3, 7`
+It takes 1/12 of an hour to write one page. How much of an hour it will take to write 5 pages? | ?0/?1 | 5, 12
+My dad has spent 4/7 part of his salary? How much is left? | ?0/?1 | 3, 7
+I ran for 1/4 km and then I walked for 1/4 km. How much distance have I covered? | ?0/?1 km | 1, 2
+Selvam filled 4/7 of the glass with water. How much of the glass is empty? | ?0/?1 | 3, 7`
       ]
     }
   ]

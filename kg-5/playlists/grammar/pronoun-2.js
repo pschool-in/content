@@ -11,23 +11,23 @@ export default {
         title: 'Personal Pronouns',
         text: [
           `Pronouns used in the position of name, place, or thing is called personal pronoun.
-          # First Person:`,
+# First Person:`,
           {
             type: 'hilight',
             text: `singular: I, me
-            plural: we, us`
+plural: we, us`
           },
           '# Second Person:',
           {
             type: 'hilight',
             text: `singular: you
-            plural: you`
+plural: you`
           },
           '# Third Person:',
           {
             type: 'hilight',
             text: `singular: he, she, it, him, her
-            plural: they, them`
+plural: they, them`
           },
           {
             type: 'html',

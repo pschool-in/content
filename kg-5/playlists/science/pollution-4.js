@@ -1,14 +1,14 @@
 export default {
-    id: 'pollution-4',
-    label: 'Pollution',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Pollution',
-        type: 'passage',
-        data: {
-          text: `# What is pollution?
+  id: 'pollution-4',
+  label: 'Pollution',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Pollution',
+      type: 'passage',
+      data: {
+        text: `# What is pollution?
 We all depend on our surroundings for many things. We use the resources that we need and then discard the waste materials in the environmrent. This makes the environment dirty. The substances that make the environment dirty are called pollutants and the presence of these substances in the environment is called pollution.
 # Air Pollution
 The addition of pollutants like smoke, dust and gases in the air leads to air pollution. Smoke is the major cause of air pollution. It leads to breathing problems and serious diseases like asthma. Main sources of pollution are burning of garbage, smoke from factories, burning of forests, smoke from vehicles and materials at construction sites. Air pollution results in an increase in the temperature of the atmosphere leading to changes in the weather conditions.
@@ -30,102 +30,102 @@ Some measures to avoid pollution are:
 4. intelligent use of water
 5. proper disposal of waste
 6. planting of trees`,
-          title: 'Pollution and its types'
-        }
-      },
-      {
-        id: 'mcq',
-        label: 'Multiple Choice Questions - MCQ',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'Which of the following diseases is caused due to regular drinking of polluted water?',
-              options: `jaundice, malaria, headache`
-            },
-            {
-              qText: 'Which form of pollution can cause hearing problems?',
-              options: `noise, air, water`
-            },
-            {
-              qText: 'Which of the following is released from vehicles?',
-              options: `smoke, CNG, oxygen`
-            },
-            {
-                qText: 'Which of the following activities cause pollution?',
-                options: `construction of buildings, using solar energy, planting of trees`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
+        title: 'Pollution and its types'
+      }
+    },
+    {
+      id: 'mcq',
+      label: 'Multiple Choice Questions - MCQ',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText:
+              'Which of the following diseases is caused due to regular drinking of polluted water?',
+            options: `jaundice, malaria, headache`
           },
-          text: `During construction work, a lot of *dust* gets added into the environment.
+          {
+            qText: 'Which form of pollution can cause hearing problems?',
+            options: `noise, air, water`
+          },
+          {
+            qText: 'Which of the following is released from vehicles?',
+            options: `smoke, CNG, oxygen`
+          },
+          {
+            qText: 'Which of the following activities cause pollution?',
+            options: `construction of buildings, using solar energy, planting of trees`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `During construction work, a lot of *dust* gets added into the environment.
 *Noise* pollution irritates us instantly.
 Polluted water causes *diseases* in humans.
 *Fertility* of the soil is affected by soil pollution.`
       }
-      },  
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Oil spill is a cause of water pollution.
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Oil spill is a cause of water pollution.
 Planting more trees reduce air pollution.`
-            },
-            {
-              name: 'False',
-              text: `Daily human activities like bathing in the river does not cause pollution.
+          },
+          {
+            name: 'False',
+            text: `Daily human activities like bathing in the river does not cause pollution.
 We should use polythene bags to avoid land pollution.`
-            }
-          ]
-        }
-      },
-      {
-        id: 'match',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `noise, headache
+          }
+        ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `noise, headache
 polluted water, jaundice
 air pollution, asthma
 soil pollution, loss of crops`,
-          title: 'Match with appropriate choice'
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop-2',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
-          },
-          text: `Smoke leads to *air* pollution.
+        title: 'Match with appropriate choice'
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Smoke leads to *air* pollution.
 Fish can die if the water they live in is *polluted*.
 Rise in *temperature* of the atmosphere is caused by air pollution.
 Headache and earache are caused due to *noise* pollution.
 Washing clothes near the river causes *water* pollution.`
-        }
       }
-    ]
-  };
-  
+    }
+  ]
+};

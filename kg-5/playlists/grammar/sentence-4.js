@@ -87,51 +87,51 @@ Light, shines bright.`
       },
       data: [
         `we, saw, an, injured, dog, on, the, street
-  I, love, to, swim, in, the, sea
-  I, have, three, chocolates, at, home
-  we, are, building, a kennel, for, our, dog
-  which, is, the, fifth, month, of, a, year
-  there, are, forty, students, standing, in, the, queue
-  we, are, having, bread, and butter, for, breakfast
-  Simla, is, one, of, the, most, beautiful, places
-  my mom, gave, me, four, pink, color, pencils
-  I like, coffee, but, my brother, doesn't, like, it`,
+I, love, to, swim, in, the, sea
+I, have, three, chocolates, at, home
+we, are, building, a kennel, for, our, dog
+which, is, the, fifth, month, of, a, year
+there, are, forty, students, standing, in, the, queue
+we, are, having, bread, and butter, for, breakfast
+Simla, is, one, of, the, most, beautiful, places
+my mom, gave, me, four, pink, color, pencils
+I like, coffee, but, my brother, doesn't, like, it`,
 
         `the cat, is, sitting, under, the, dining, table
-  we, will, meet, during, the, lunch, time
-  we, must, submit, the, assignment, by, Saturday
-  my friends, came, to, my house, on, my, birthday
-  the, house, was, very, quiet, at, midnight
-  please, do, not, write, below, this, line
-  the crow, dropped, pebbles, into, the, jar
-  she, received, a gift, from, her, brother
-  there, is, a big, tree, besides, the river
-  they, were, hiding, inside, the, wardrobe`,
+we, will, meet, during, the, lunch, time
+we, must, submit, the, assignment, by, Saturday
+my friends, came, to, my house, on, my, birthday
+the, house, was, very, quiet, at, midnight
+please, do, not, write, below, this, line
+the crow, dropped, pebbles, into, the, jar
+she, received, a gift, from, her, brother
+there, is, a big, tree, besides, the river
+they, were, hiding, inside, the, wardrobe`,
 
         `what, is, your, plan, for, the weekend
-  did, you, complete, the homework, on, time
-  what, is, the, name, of, your, father
-  what, is, the, capital, of, your, country
-  which, is, the, biggest, river, in, India
-  why, are, you, late, for, the, meeting 
-  can, you, please, help, me, with, my, homework
-  at, what, time, do, you, go, to, sleep
-  what, do you, do, after, completing, your, homework
-  when, are, you, coming, to, our, house`,
+did, you, complete, the homework, on, time
+what, is, the, name, of, your, father
+what, is, the, capital, of, your, country
+which, is, the, biggest, river, in, India
+why, are, you, late, for, the, meeting 
+can, you, please, help, me, with, my, homework
+at, what, time, do, you, go, to, sleep
+what, do you, do, after, completing, your, homework
+when, are, you, coming, to, our, house`,
 
         `Siva, is, sleeping, on, the, bed
-  I, am, playing, with, my, friends
-  I, have, not, done, my, homework
-  I, saw, a, very, beautiful, puppy
-  English, is, not, my, favorite, subject
-  Lisa, is, jealous, of, her, sister`,
+I, am, playing, with, my, friends
+I, have, not, done, my, homework
+I, saw, a, very, beautiful, puppy
+English, is, not, my, favorite, subject
+Lisa, is, jealous, of, her, sister`,
 
         `principal, took, the, suggestion, seriously
-  smart, people, don't, repeat, their, mistakes
-  we, want, to, visit, the, Taj, Mahal
-  we, have, a, smartboard, in the, classroom
-  the, cat, jumped, over, the, fence
-  I, put, my, clothes, in, an, almirah`
+smart, people, don't, repeat, their, mistakes
+we, want, to, visit, the, Taj, Mahal
+we, have, a, smartboard, in the, classroom
+the, cat, jumped, over, the, fence
+I, put, my, clothes, in, an, almirah`
       ]
     },
     {

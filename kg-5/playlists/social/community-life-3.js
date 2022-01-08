@@ -186,13 +186,13 @@ The members of the *town panchayats* are elected in the same way as village panc
           {
             name: 'True',
             text: `Village panchayat provides the basic facilities for the village people.
-              Gram Sabha meeting must be held at least four times a year.
-              The members of the town panchayats are elected in the same way as village panchayats. `
+Gram Sabha meeting must be held at least four times a year.
+The members of the town panchayats are elected in the same way as village panchayats. `
           },
           {
             name: 'False',
             text: `Panchayat Raj is a five-tier system.
-              Collecting tax is an optional duty of panchayat.`
+Collecting tax is an optional duty of panchayat.`
           }
         ]
       }

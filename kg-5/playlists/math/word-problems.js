@@ -41,15 +41,15 @@ Gagan has to sell 672 dolls. He sells 7 dolls in one day. How many days will he 
         ],
         [
           `The car dealer has 125 cars in the lot. The owner just ordered 142 new cars. When the new cars come, what will be the total number of cars in the lot?
-        Kasim has 23 blue marbles and 17 red marbles in a box. How many marbles does he have all together?`,
+Kasim has 23 blue marbles and 17 red marbles in a box. How many marbles does he have all together?`,
           `A restaurant made 478 sandwiches. 367 sandwiches were served. How many sandwiches remain?
-        There are 350 apple trees and 670 banana trees in Kumar's garden. How many less apple trees are there than the banana trees?`,
+There are 350 apple trees and 670 banana trees in Kumar's garden. How many less apple trees are there than the banana trees?`,
           `A box of chocolates has 46 chocolates. How many chocolates will be there in 16 boxes?
-        Every classroom in a school has 35 students. How many students are there in 23 classrooms?
-        The price of a plate is ₹ 114. What will be the total price of 8 plates?`,
+Every classroom in a school has 35 students. How many students are there in 23 classrooms?
+The price of a plate is ₹ 114. What will be the total price of 8 plates?`,
           `A teacher has 342 notebooks. She has to make bundles of 3 notebooks. How many bundles can she make?
-        One packet of pencils contains 8 pencils. If there are a total of 512 pencils, how many packets of pencils can we make?
-        Richa has 84 erasers to give. If she gives 2 erasers to each of her class friends, how many class friends will get erasers?`
+One packet of pencils contains 8 pencils. If there are a total of 512 pencils, how many packets of pencils can we make?
+Richa has 84 erasers to give. If she gives 2 erasers to each of her class friends, how many class friends will get erasers?`
         ],
         [
           `Janis sings 12 songs on Monday and 20 songs on Tuesday. How many songs did she sing in all?

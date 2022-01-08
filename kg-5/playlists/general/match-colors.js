@@ -33,10 +33,10 @@ export default {
           rightWidth: 100,
           rightHeight: 50,
           text: `blue, blue
-            red, red
-            yellow, yellow 
-            gray, gray 
-            green, green`
+red, red
+yellow, yellow 
+gray, gray 
+green, green`
         },
         {
           commonPath:
@@ -61,10 +61,10 @@ export default {
           rightWidth: 76,
           rightHeight: 50,
           text: `purple, purple
-            pink, pink
-            orange, orange 
-            black, black 
-            brown, brown`
+pink, pink
+orange, orange 
+black, black 
+brown, brown`
         },
         {
           commonPath: 'M 1 57 L 53 57 L 22 5 L 1 57',
@@ -87,10 +87,10 @@ export default {
           rightWidth: 55,
           rightHeight: 50,
           text: `violet, violet
-          white, white
-          magenta, magenta 
-          navy, navy 
-          teal, teal`
+white, white
+magenta, magenta 
+navy, navy 
+teal, teal`
         },
         {
           commonPath: 'M 30 30 L 30 0 A 30 30 270 1 1 0 30 Z',
@@ -113,10 +113,10 @@ export default {
           rightWidth: 60,
           rightHeight: 60,
           text: `c1, c1
-          c2, c2
-          c3, c3 
-          c4, c4 
-          c5, c5`
+c2, c2
+c3, c3 
+c4, c4 
+c5, c5`
         },
         {
           commonPath: 'M 60 30 A 30 30 0 1 1 20 2 A 15 15 0  0 0 60 30',
@@ -140,10 +140,10 @@ export default {
           rightWidth: 60,
           rightHeight: 60,
           text: `c1, c1
-          c2, c2
-          c3, c3 
-          c4, c4 
-          c5, c5`
+c2, c2
+c3, c3 
+c4, c4 
+c5, c5`
         },
         {
           commonPath: 'M 1 57 L 53 57 L 22 5 L 1 57',
@@ -166,10 +166,10 @@ export default {
           rightWidth: 55,
           rightHeight: 50,
           text: `c1, c1
-          c2, c2
-          c3, c3 
-          c4, c4 
-          c5, c5`
+c2, c2
+c3, c3 
+c4, c4 
+c5, c5`
         },
         {
           commonPath: 'M 0 0 A 30 30 270 0 1 0 60 L 80 60 L 80 0 Z',
@@ -192,10 +192,10 @@ export default {
           rightWidth: 80,
           rightHeight: 60,
           text: `c1, c1
-          c2, c2
-          c3, c3 
-          c4, c4 
-          c5, c5`
+c2, c2
+c3, c3 
+c4, c4 
+c5, c5`
         },
         {
           commonPath:
@@ -220,10 +220,10 @@ export default {
           rightWidth: 80,
           rightHeight: 80,
           text: `c1, c1
-          c2, c2
-          c3, c3 
-          c4, c4 
-          c5, c5`
+c2, c2
+c3, c3 
+c4, c4 
+c5, c5`
         }
       ]
     },
@@ -251,10 +251,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Blue, blue
-            Red, red
-            Yellow, yellow 
-            Gray, gray 
-            Green, green`
+Red, red
+Yellow, yellow 
+Gray, gray 
+Green, green`
         },
         {
           commonPath: 'M 0 0 H 100 V 40 H 0 V 0',
@@ -271,10 +271,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Purple, purple
-            Pink, pink
-            Orange, orange 
-            Black, black 
-            Brown, brown`
+Pink, pink
+Orange, orange 
+Black, black 
+Brown, brown`
         },
         {
           commonPath: 'M 0 0 H 100 V 40 H 0 V 0',
@@ -291,10 +291,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Violet, violet
-            White, white
-            Magenta, magenta 
-            Navy, navy 
-            Teal, teal`
+White, white
+Magenta, magenta 
+Navy, navy 
+Teal, teal`
         },
         {
           commonPath:
@@ -312,10 +312,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Blue, blue
-            Red, red
-            Yellow, yellow 
-            Gray, gray 
-            Green, green`
+Red, red
+Yellow, yellow 
+Gray, gray 
+Green, green`
         },
         {
           commonPath:
@@ -333,10 +333,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Purple, purple
-            Pink, pink
-            Orange, orange 
-            Black, black 
-            Brown, brown`
+Pink, pink
+Orange, orange 
+Black, black 
+Brown, brown`
         },
         {
           commonPath:
@@ -354,10 +354,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Violet, violet
-            White, white
-            Magenta, magenta 
-            Navy, navy 
-            Teal, teal`
+White, white
+Magenta, magenta 
+Navy, navy 
+Teal, teal`
         },
         {
           commonPath: 'M 1 57 L 53 57 L 22 5 L 1 57',
@@ -374,10 +374,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Blue, blue
-            Red, red
-            Yellow, yellow 
-            Gray, gray 
-            Green, green`
+Red, red
+Yellow, yellow 
+Gray, gray 
+Green, green`
         },
         {
           commonPath: 'M 1 57 L 53 57 L 22 5 L 1 57',
@@ -394,10 +394,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Purple, purple
-            Pink, pink
-            Orange, orange 
-            Black, black 
-            Brown, brown`
+Pink, pink
+Orange, orange 
+Black, black 
+Brown, brown`
         },
         {
           commonPath: 'M 1 57 L 53 57 L 22 5 L 1 57',
@@ -414,10 +414,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `Violet, violet
-            White, white
-            Magenta, magenta 
-            Navy, navy 
-            Teal, teal`
+White, white
+Magenta, magenta 
+Navy, navy 
+Teal, teal`
         }
       ]
     }

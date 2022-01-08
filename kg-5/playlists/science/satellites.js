@@ -9,13 +9,13 @@ export default {
       data: {
         title: 'Satellites',
         text: `Moon is called the natural satellite of Earth, because it revolves around the earth. Apart from moon, there are many man-made satellites that revolve around the earth. Satellites are send to space and put it on an orbit with the help of rockets. 
- Man-made satellites helps us in many ways. 
- 1. Satellites help in predicting weather. We get forecast about rains and storms because of them. 
- 2. They guide us in transportation. They take photos of Earth from high distance and help us in preparing maps. 
- 3. They are helpful in information and communication technology. 
- 4. They are helpful in studying the resources in ocean. 
- In India, ISRO is responsible for sending rockets and satellites to space. ISRO stands for Indian Space Research Organization. Usually rockets are launched from Sriharikota in Andhra Pradesh. 
- There are some man-made satellites, in which human beings live, to conduct scientific experiments. They are called space stations. Life in space station is very different from Earth, because there is no gravity in space. So people will keep floating in the space.`
+Man-made satellites helps us in many ways. 
+1. Satellites help in predicting weather. We get forecast about rains and storms because of them. 
+2. They guide us in transportation. They take photos of Earth from high distance and help us in preparing maps. 
+3. They are helpful in information and communication technology. 
+4. They are helpful in studying the resources in ocean. 
+In India, ISRO is responsible for sending rockets and satellites to space. ISRO stands for Indian Space Research Organization. Usually rockets are launched from Sriharikota in Andhra Pradesh. 
+There are some man-made satellites, in which human beings live, to conduct scientific experiments. They are called space stations. Life in space station is very different from Earth, because there is no gravity in space. So people will keep floating in the space.`
       }
     },
 

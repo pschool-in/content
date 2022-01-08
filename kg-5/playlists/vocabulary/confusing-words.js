@@ -11,20 +11,20 @@ export default {
         title: 'Confusing Words',
         text: [
           /*
-          `# to, two vs too`,
-          {
-            type: 'html',
-            text: `<b>to</b> -  to indicate location<br>
+`# to, two vs too`,
+{
+type: 'html',
+text: `<b>to</b> -  to indicate location<br>
 <b>two </b> - a number<br>
 <b>too </b> - more, also`
-          },
-          `# by, bye vs buy`,
-          {
-            type: 'html',
-            text: `<b>by</b> -  one does something<br>
+},
+`# by, bye vs buy`,
+{
+type: 'html',
+text: `<b>by</b> -  one does something<br>
 <b>bye</b> -  we say while leaving<br>
 <b>buy </b> - purchase`
-          },*/
+},*/
           `# here vs hear`,
           {
             type: 'html',
@@ -41,13 +41,13 @@ export default {
           {
             type: 'html',
             text: `<b>thorough</b> - an adjective that describes an act undertaken with great attention to detail.<br>
-    <b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' It also means 'during'.`
+<b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' It also means 'during'.`
           },
           `# borrow vs burrow`,
           {
             type: 'html',
             text: `<b>burrow</b> -  a tunnel or a hole that has been dug by an animal
-    <b>borrow</b> - receive something from somebody, expecting to return it<br>`
+<b>borrow</b> - receive something from somebody, expecting to return it<br>`
           },
           `# heal vs heel`,
           {
@@ -77,36 +77,36 @@ export default {
       }
     },
     /*
-    {
-      id: 'to-two-too',
-      label: 'to, two, vs too',
-      type: 'fillup',
-      data: {
-        title: 'To, Two, and Too',
-        text: `It is never *too* late to learn.
+{
+id: 'to-two-too',
+label: 'to, two, vs too',
+type: 'fillup',
+data: {
+title: 'To, Two, and Too',
+text: `It is never *too* late to learn.
 I am going *to* read a story.
 Suresh ran *two* kilometers.
 This gift is *too* expensive.
 Can I have *two* tickets?
 Sita started *to* laugh.`,
-        options: 'to, two, too'
-      }
-    },
-    {
-      id: 'by-bye-buy',
-      label: 'by, bye vs buy',
-      type: 'fillup',
-      data: {
-        title: 'By, Buy, and Bye',
-        text: `*Bye* for now! I will catch you later.
+options: 'to, two, too'
+}
+},
+{
+id: 'by-bye-buy',
+label: 'by, bye vs buy',
+type: 'fillup',
+data: {
+title: 'By, Buy, and Bye',
+text: `*Bye* for now! I will catch you later.
 Where can I *buy* a ticket?
 This book is written *by* an Indian author.
 Should I *buy* a black car or a white car?
 The bike was driven *by* Smith.
 *Bye*, see you tomorrow.`,
-        options: 'by, buy, bye'
-      }
-    },*/
+options: 'by, buy, bye'
+}
+},*/
     {
       id: 'here-hear',
       label: 'here vs hear',

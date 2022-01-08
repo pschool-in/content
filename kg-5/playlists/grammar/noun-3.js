@@ -9,16 +9,16 @@ export default {
       data: {
         title: 'Noun',
         text: [
-          `A noun is the name of a person, place, thing, or idea. eg: man, John, Africa, honesty`,
-          `Nouns are classified into four types.`,
-          `# Proper Noun`,
-          'A proper noun is a name that identifies a particular person, place, or thing. In written English, proper nouns begin with capital letters. eg: Ram, London, Monday',
-          `# Common Noun`,
-          `A common noun is a noun that refers to people or things in general. eg: girl, city, dog, pencil`,
-          `# Abstract Noun`,
-          `An abstract noun is a noun that refers to ideas, qualities, and conditions - things that cannot be seen or touched. eg: beauty, time, truth, danger, `,
-          `# Collective Noun`,
-          `Collective nouns refer to groups of people or things, e.g. audience, family, government, team, jury.`
+          `A noun is the name of a person, place, thing, or idea. eg: man, John, Africa, honesty
+Nouns are classified into four types.
+# Proper Noun
+A proper noun is a name that identifies a particular person, place, or thing. In written English, proper nouns begin with capital letters. eg: Ram, London, Monday
+# Common Noun
+A common noun is a noun that refers to people or things in general. eg: girl, city, dog, pencil
+# Abstract Noun
+An abstract noun is a noun that refers to ideas, qualities, and conditions - things that cannot be seen or touched. eg: beauty, time, truth, danger, 
+# Collective Noun
+Collective nouns refer to groups of people or things, e.g. audience, family, government, team, jury.`
         ]
       }
     },
@@ -190,38 +190,38 @@ salesman, grocer, butcher, florist, stationer`,
       },
       data: [
         `His name is *Varun*. He lives in *Delhi*. He went to see the *Red Fort* yesterday.
-  I am a *student*. I go to *school* regularly. I have many *friends* there.
-  My *dad* brings me a *gift* every month. I like *surprises*.
-  I like *paneer*. But *mom* says that *market* food is unhealthy. So, she will make *paneer* for me at *home*.
-  *Sheena* is my *bestfriend*. We play, eat *lunch* and sit in the *class* together.
-  I got a new *bicycle* on my birthday. I don't know how to ride. My *mom* will teach me in the *evening*.
-  My *brother* is an *artist*. He works in *Mumbai*. He's planning to display his *drawings* at a *fare*.
-  *Samir* is a naughty *boy*. He never listens to *teachers*. The *principal* has called his *parents*.
-  I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* within the *sand*.
-  My *uncle* goes to the *office* every day. But my *father* goes to his *factory* daily. He is a *businessman*.
-  *Cats* are domestic *animals*. We can *pet* them. *Cats* are of very different types and *colors*.`,
+I am a *student*. I go to *school* regularly. I have many *friends* there.
+My *dad* brings me a *gift* every month. I like *surprises*.
+I like *paneer*. But *mom* says that *market* food is unhealthy. So, she will make *paneer* for me at *home*.
+*Sheena* is my *bestfriend*. We play, eat *lunch* and sit in the *class* together.
+I got a new *bicycle* on my birthday. I don't know how to ride. My *mom* will teach me in the *evening*.
+My *brother* is an *artist*. He works in *Mumbai*. He's planning to display his *drawings* at a *fare*.
+*Samir* is a naughty *boy*. He never listens to *teachers*. The *principal* has called his *parents*.
+I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* within the *sand*.
+My *uncle* goes to the *office* every day. But my *father* goes to his *factory* daily. He is a *businessman*.
+*Cats* are domestic *animals*. We can *pet* them. *Cats* are of very different types and *colors*.`,
 
         `He saw a *monkey* up on the *tree*. It was eating a *banana*. The *monkey* threw the *peel* on his *head*.
-  He gave a *flower* to the *teacher*. She thanked him. She gave him a *chocolate* in return.
-  *Shabad* is a brave *boy*. He is not afraid of *dogs*. He has a *pet* *dog* at his *home*.
-  Look, the *bus* is coming. I see a lot of *people* inside. I hope we find a *seat* to sit on.
-  The *girl* is playing with her *doll*. She also loves her other *toys*, including the *kitchen set*.
-  The *soldiers* protect the *country*. They are very brave *men*. We should always respect them.
-  The *lawyer* won the *case*. Some *people* thought that the *judge* was unfair. But, it was the victory of the truth.
-  My *teacher* is very polite. She teaches me all the *subjects*. She also tells us *stories* in our free *periods*.
-  Do you know that *Australia* is both a *country* and a *continent*? The *capital* *city* of *Australia* is *Canberra*.
-  He has a *toy car*. He plays with it all the time. I have a *remote* control * toy car*. I play with it in the noon.`,
+He gave a *flower* to the *teacher*. She thanked him. She gave him a *chocolate* in return.
+*Shabad* is a brave *boy*. He is not afraid of *dogs*. He has a *pet* *dog* at his *home*.
+Look, the *bus* is coming. I see a lot of *people* inside. I hope we find a *seat* to sit on.
+The *girl* is playing with her *doll*. She also loves her other *toys*, including the *kitchen set*.
+The *soldiers* protect the *country*. They are very brave *men*. We should always respect them.
+The *lawyer* won the *case*. Some *people* thought that the *judge* was unfair. But, it was the victory of the truth.
+My *teacher* is very polite. She teaches me all the *subjects*. She also tells us *stories* in our free *periods*.
+Do you know that *Australia* is both a *country* and a *continent*? The *capital* *city* of *Australia* is *Canberra*.
+He has a *toy car*. He plays with it all the time. I have a *remote* control * toy car*. I play with it in the noon.`,
 
         `*Rats* are commonly seen running in our *houses*. They make *holes* in our *clothes*. We should trap them in a *cage* and move them out of the *house*.
-  A *zebra* is a wild *animal*. It lives in the *forest*. *Zebras* eat *grass*, *plants*, and *leaves*.
-  *London* is a very famous *city*. It is also the *capital* of *England*. Do you know that *Delhi* is the *capital* of *India*?
-  I have a *study table* at *home*. I keep all my *books*, *pencils*, *erasers*, *colors*, and *bag* in it.
-  My *dad* gave my *mom* a beautiful *ring*. I liked it very much. When I grow up, I will buy a *ring*.
-  The *girls* are talking in the *classroom*. But the *boys* are playing on the *ground*.
-  She has a brown *dog*. It is very playful and friendly. Its name is *Bony*. We all love playing with it.
-  My *sister* takes her *classes* online. She has a *laptop* but she attends her *class* by *mobile*.
-  There are eight *members* in my *family*. I live with my *parents*, *grandparents*, *uncle*, *aunt* and *cousins*.
-  Do you know that the *camel* is known as the *ship* of the *desert*? This is because it can stay without *water* for many *days*.`
+A *zebra* is a wild *animal*. It lives in the *forest*. *Zebras* eat *grass*, *plants*, and *leaves*.
+*London* is a very famous *city*. It is also the *capital* of *England*. Do you know that *Delhi* is the *capital* of *India*?
+I have a *study table* at *home*. I keep all my *books*, *pencils*, *erasers*, *colors*, and *bag* in it.
+My *dad* gave my *mom* a beautiful *ring*. I liked it very much. When I grow up, I will buy a *ring*.
+The *girls* are talking in the *classroom*. But the *boys* are playing on the *ground*.
+She has a brown *dog*. It is very playful and friendly. Its name is *Bony*. We all love playing with it.
+My *sister* takes her *classes* online. She has a *laptop* but she attends her *class* by *mobile*.
+There are eight *members* in my *family*. I live with my *parents*, *grandparents*, *uncle*, *aunt* and *cousins*.
+Do you know that the *camel* is known as the *ship* of the *desert*? This is because it can stay without *water* for many *days*.`
       ]
     },
     {
@@ -230,68 +230,69 @@ salesman, grocer, butcher, florist, stationer`,
       id: 'same-basket-drop',
       lockAfter: 1,
       commonData: {
-      title: 'Drag and drop words, so that nouns of the same group are together.',
-      styles: {
-      fontSize: '1.5rem',
-      dashWidth: 70
-              }
-              },
+        title:
+          'Drag and drop words, so that nouns of the same group are together.',
+        styles: {
+          fontSize: '1.5rem',
+          dashWidth: 70
+        }
+      },
       data: [
-          `anger, fight, *argument*
+        `anger, fight, *argument*
 apple, grapes, *banana*
 slippers, sandals, *shoes*
 egg, farm, *poultry*
 confusion, doubt, *uncertain*`,
-        
-          `desk, blackboard, *duster*
+
+        `desk, blackboard, *duster*
 bed, pillow, *blanket*
 boat, river, *yacht*
 park, bench, *grass*
 costume, play, *characters*`,
 
-          `curiosity, passion, *excitement*
+        `curiosity, passion, *excitement*
 confusion, uncertainty, *doubt*
 balloon, airplane, *parachute*
 vase, flowers, *fragrance*
 bus, bike, *train*`,
 
-          `rude, mean, *bad*
+        `rude, mean, *bad*
 gentle, kind, *good*
 teacher, student, *principal*
 football, cricket, *hockey*
 movies, theatre, *popcorn*`,
 
-          `postman, post office, *letters*
+        `postman, post office, *letters*
 breakfast, lunch, *dinner*
 ship, sailor, *ocean*
 stumps, bat, *ball*
 bedroom, kitchen, *bathroom*`,
 
-          `brother, sister, *cousin*
+        `brother, sister, *cousin*
 dog, cat, *pig*
 cow, buffalo, *ox*
 crow, dove, *parrot*
 parents, relatives, *family*`,
 
-          `friends, enemies, *strangers*
+        `friends, enemies, *strangers*
 Ashok, Raj, *Sameer*
 Priya, Saanvi, *Sanya*
 pigeon, sparrow, *birds*
 rose, lotus, *marigold*`,
 
-          `daffodil, sunflower, jasmine
+        `daffodil, sunflower, jasmine
 boat, ship, *submarine*
 bus, car, *truck*
 shoes, socks, *boots*
 skirts, trousers, *pyjamas*`,
 
-          `spoon, fork, *knife*
+        `spoon, fork, *knife*
 camera, smartphone, *tablet*
 toes, fingers, *nails*
 cloth, needle, *thread*
 piano, guitar, *flute*`,
 
-          `police, thief, *police station*
+        `police, thief, *police station*
 hero, villain, *heroine*
 man, woman, *child*
 medicine, tablet, *syrup*

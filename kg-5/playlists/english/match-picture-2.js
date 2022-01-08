@@ -14,14 +14,14 @@ export default {
       },
       data: [
         `R, rose
-        L, lotus
-        S, sunflower
-        M, marigold`,
+L, lotus
+S, sunflower
+M, marigold`,
 
         `H, hibiscus
-        J, jasmine
-        T, tulip
-        Z, zinnia`
+J, jasmine
+T, tulip
+Z, zinnia`
       ]
     },
     {
@@ -35,14 +35,14 @@ export default {
       },
       data: [
         `E, ear
-        F, foot
-        H, hair
-        M, mouth`,
+F, foot
+H, hair
+M, mouth`,
 
         `E, eye
-        H, hand
-        N, nose
-        T, tooth`
+H, hand
+N, nose
+T, tooth`
       ]
     },
     {
@@ -56,24 +56,24 @@ export default {
       },
       data: [
         `A, aeroplane
-        B, boat
-        C, cycle
-        H, helicoptor
-        M, motorbike
-        T, tractor`,
+B, boat
+C, cycle
+H, helicoptor
+M, motorbike
+T, tractor`,
 
         `B, bus
-        C, car
-        A, auto
-        S, ship
-        T, train
-        L, lorry`,
+C, car
+A, auto
+S, ship
+T, train
+L, lorry`,
 
         `A, ambulance
-        C, cart
-        E, excavator
-        F, fire-engine
-        V, van`
+C, cart
+E, excavator
+F, fire-engine
+V, van`
       ]
     },
     {
@@ -85,10 +85,10 @@ export default {
         rightImgType: 'custom',
         big: true,
         text: `S, stove
-        F, fork
-        K, knife
-        P, pot
-        B, butter`
+F, fork
+K, knife
+P, pot
+B, butter`
       }
     },
     {
@@ -102,15 +102,15 @@ export default {
       },
       data: [
         `S, sun
-          M, moon
-          R, rain
-          B, bird
-          F, fruits`,
+M, moon
+R, rain
+B, bird
+F, fruits`,
 
         `S, star
-          M, milk
-          L, leaf
-          W, world`
+M, milk
+L, leaf
+W, world`
       ]
     },
     {

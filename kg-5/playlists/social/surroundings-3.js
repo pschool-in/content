@@ -85,20 +85,20 @@ Gir Park, Gujarat `,
       }
     },
     /*
-    {
-      id: 'fillup',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Kurinchi flower blossoms only once in *12 (10)* years.
+{
+id: 'fillup',
+label: 'Fill in the blanks',
+type: 'fillup',
+data: {
+title: 'Click the blanks and fill it with the right word.',
+text: `Kurinchi flower blossoms only once in *12 (10)* years.
 Vedanthangal Bird Sanctuary is the very oldest water *birds (animals)* sanctuary in India.
 There are *three (four)* biosphere reserves in Tamil Nadu.
 Padmaja Naidu Himalayan Zoological Park is situated in *West Bengal (Maharashtra)*.
 Botanical gardens are there to maintain the extinct *plants (animals)* species.`
-      }
-    },
-    */
+}
+},
+*/
     {
       label: 'Choose the best Answer ',
       id: '1000',
@@ -270,24 +270,24 @@ India has a rich heritage and it is well known for its old culture. Many places 
       }
     },
     /*
-    {
-      id: 'classify',
-      label: 'Farming Vs Weaving',
-      type: 'group',
-      data: {
-        title: 'Classify the below tools based on the purpose.',
-        types: [
-          {
-            name: 'Farming ',
-            text: 'Spades, Garden fork, Pickaxe, Mouldboard plows'
-          },
-          {
-            name: 'Weaving ',
-            text: 'Dowels, Shed stick, Tapestry Needle, Warp yarn'
-          }
-        ]
-      }
-    },*/
+{
+id: 'classify',
+label: 'Farming Vs Weaving',
+type: 'group',
+data: {
+title: 'Classify the below tools based on the purpose.',
+types: [
+{
+name: 'Farming ',
+text: 'Spades, Garden fork, Pickaxe, Mouldboard plows'
+},
+{
+name: 'Weaving ',
+text: 'Dowels, Shed stick, Tapestry Needle, Warp yarn'
+}
+]
+}
+},*/
     {
       id: 'match',
       label: 'Match',
@@ -389,7 +389,7 @@ Gateway of India is situated in Delhi.`
         text: `Historical places have buildings that were build hundreds of years ago. Every historical place has its own story and they are preserved carefully by our government. Historical places add value to a nation's heritage. It also helps in promoting tourism. Moreover, historical places also tell us about the ancient lifestyle. By reading and knowing a lot about historical places, we can know about where we come from. Historical places mark important events in history.
 Mamallapuram is one of the important historical place. It is located near Chennai. It was build by Pallavas. We can find many monuments that were made out of just single stone. It is also known as shore temple, because it is located on the shores of Bay of Bengal.
 St. George fort is the first English fort in India. It is present in Chennai.
-        `
+`
       }
     },
     {

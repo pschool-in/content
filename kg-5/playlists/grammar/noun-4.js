@@ -137,22 +137,22 @@ I'm not going outside in the *fear* of dogs.`
           {
             name: 'Concrete',
             text: `An *apple* is kept on the *table*.
-      There are tons of *books* in the *library*.
-      A *dog* is a very common pet.
-      The *sweater* is made of *wool*.
-      I saw *banana trees* on the way.
-      She reads three *books* in a week.
-      The *elephant* is very big.`
+There are tons of *books* in the *library*.
+A *dog* is a very common pet.
+The *sweater* is made of *wool*.
+I saw *banana trees* on the way.
+She reads three *books* in a week.
+The *elephant* is very big.`
           },
           {
             name: 'Abstract',
             text: `He is not telling the *truth*.
-      People lose *faith* when you lie.
-      He will *defeat* her.
-      They laughed at my *joke*.
-      Pia is *afraid* of heights.
-      She is *angry*.
-      The girls love to *gossip*.`
+People lose *faith* when you lie.
+He will *defeat* her.
+They laughed at my *joke*.
+Pia is *afraid* of heights.
+She is *angry*.
+The girls love to *gossip*.`
           }
         ]
       }
@@ -167,13 +167,13 @@ I'm not going outside in the *fear* of dogs.`
       },
       data: [
         `The team was practicing a lot yesterday. This is the reason for their *victory*.
-  He studied in a big city. He gained good *education*.
-  *Opportunities* don't come to just anyone. We have to work *hard* for it.
-  She is my best friend. Our *friendship* is unbreakable.
-  I was sick. So I couldn't study for *exams*. It was my bad *luck*.
-  Our teacher's *strictness* scares all the naughty students in the class. Everyone studies in her class.
-  We don't like Savita. Her *ego* pushes everyone away.
-  I had a brilliant *idea*. We decided to study together for *exams*. `
+He studied in a big city. He gained good *education*.
+*Opportunities* don't come to just anyone. We have to work *hard* for it.
+She is my best friend. Our *friendship* is unbreakable.
+I was sick. So I couldn't study for *exams*. It was my bad *luck*.
+Our teacher's *strictness* scares all the naughty students in the class. Everyone studies in her class.
+We don't like Savita. Her *ego* pushes everyone away.
+I had a brilliant *idea*. We decided to study together for *exams*. `
       ]
     },
     {
@@ -186,13 +186,13 @@ I'm not going outside in the *fear* of dogs.`
       },
       data: [
         `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
-        A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
-        The *crocodiles* live in the *ocean*. It is a very dangerous *animal*.
-        My *mother* is a *teacher*. She teaches science.
-        We should take a *shower* every day. It helps us stay clean and tidy.
-        Someone stole my dad's *wallet* on the *train*. The *police* will try to catch the *thief*.
-        I love everything that is *sweet*. I like *chocolates*, *cakes* and *sweets*.
-        My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`
+A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
+The *crocodiles* live in the *ocean*. It is a very dangerous *animal*.
+My *mother* is a *teacher*. She teaches science.
+We should take a *shower* every day. It helps us stay clean and tidy.
+Someone stole my dad's *wallet* on the *train*. The *police* will try to catch the *thief*.
+I love everything that is *sweet*. I like *chocolates*, *cakes* and *sweets*.
+My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`
       ]
     }
     // old

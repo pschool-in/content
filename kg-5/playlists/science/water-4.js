@@ -11,34 +11,34 @@ export default {
       data: {
         title: 'Water',
         text: [
-          '# Three states of water',
-          'Water occurs naturally in three forms: ice, water and water vapour. These forms are also called states of water. Ice is in solid form, water is in liquid form and water vapour is in gaseous form. These states occur naturally because of temperature changes. Water becomes ice in cold regions, remains as water in oceans/rivers and becomes water vapour due to the heat of the Sun.',
-          'We measure heat and cold using temperature. The natural temperature is known as room temperature. When we get fever, our body temperature will raise. We can measure temperature using a thermometer',
-          'At temperature below 0° C water becomes ice. This process is called freezing.',
-          '# Water Cycle',
-          'Continuous movement of water from the Earth to the atmosphere and back to the Earth is known as water cycle or hydrologic cycle. Water cycle consists of the following four stages.',
-          '# Evaporation',
-          'The process in which water is changed into water vapour by the heat of the sun is called evaporation. It takes place from the surfaces of rivers, oceans, lakes and ponds. Plants also release water by transpiration. Water can slowly convert to water vapour even in room temperature. It is called evaporation. Water from ocean becomes clouds due to evaporation. Wet clothes dry when exposed to sunlight or air due to evaporation.',
-          '# Condensation',
-          'The process of converting water vapour into water on cooling is called condensation. Water vapour in the atmosphere being lighter, rises up and cools down. It further condenses to form tiny water droplets.',
-          '# Precipitation',
-          'The water droplets join together to form clouds. As they get cooler, the droplets become bigger and heavier and fall as rain. If the air is very cold, they freeze to fall as hail of snow.',
-          '# Flowing back to Oceans',
-          'Rain water forms streams and springs which join together to form rivers. Rivers flow finally into the sea and ocean thereby completing the cycle.',
-          '# Activity 1',
-          'Take half a glass of water. Clean the outside part of the glass. Add few ice cubes and leave it for 5-10 minutes. You will observe drops of water appearing outside the glass. This happens because the water vapour in the air condenses on the cold surface of the glass.',
-          '#Let us do',
-          '1. Fill water in an ice tray and keep it in the freezer. After few hours, take it out. What happened to the water?',
-          '2. Now keep this ice tray on a table for some time. What happens to the ice?',
-          '3. Pour water from the ice tray into a kettle. Ask an elder at your home to heat the kettle and observe the mouth of the kettle when the water starts boiling. What do you see?',
-          'In nature, water keeps changing its state. Let us see how this happens. Due to the Sun‛s heat, water in oceans and rivers changes into water vapour and rises up.',
-          'Water becoming water vapour on heating is called evaporation. The water vapour, when comes into contact with cool air, becomes water droplets. This is called condensation. The water droplets combine to form clouds. The water droplets continue to combine, and they become big and heavy. These water droplets then fall down as rain. This is called precipitation. In colder places, combined water droplets come down as snow, sleet or hail. This continuous change of water from one state to another in nature is called water cycle.',
-          'When we pour cold water in a glass, we could notice water droplets being formed on the outer side of the glass. It is due to condensation. Water vapour present in the air, when comes in contact with the cold glass, it becomes water.',
-          '# Rainwater harvesting',
-          'It is the process of collecting and storing rainwater for future use. Rainwater can be collected in natural reservoirs or artificial tanks. Roof top harvesting is also a type of rainwater harvesting. The rainwater on the top of the building is collected and passed into the ground through pipes. Water passing through the pipes enters the pit which consist of gravels and coarse sand. As it passes impurities are filtered and stored as ground water. Do you know?',
-          '1. Each day, we lose a little more than a cup of water when we exhale.',
-          '2. 73% of our brain‛s mass consists of water.',
-          `3. The Antarctic region has about 70% of the world's fresh water.`
+          `# Three states of water
+Water occurs naturally in three forms: ice, water and water vapour. These forms are also called states of water. Ice is in solid form, water is in liquid form and water vapour is in gaseous form. These states occur naturally because of temperature changes. Water becomes ice in cold regions, remains as water in oceans/rivers and becomes water vapour due to the heat of the Sun.
+We measure heat and cold using temperature. The natural temperature is known as room temperature. When we get fever, our body temperature will raise. We can measure temperature using a thermometer
+At temperature below 0° C water becomes ice. This process is called freezing.
+# Water Cycle
+Continuous movement of water from the Earth to the atmosphere and back to the Earth is known as water cycle or hydrologic cycle. Water cycle consists of the following four stages.
+# Evaporation
+The process in which water is changed into water vapour by the heat of the sun is called evaporation. It takes place from the surfaces of rivers, oceans, lakes and ponds. Plants also release water by transpiration. Water can slowly convert to water vapour even in room temperature. It is called evaporation. Water from ocean becomes clouds due to evaporation. Wet clothes dry when exposed to sunlight or air due to evaporation.
+# Condensation
+The process of converting water vapour into water on cooling is called condensation. Water vapour in the atmosphere being lighter, rises up and cools down. It further condenses to form tiny water droplets.
+# Precipitation
+The water droplets join together to form clouds. As they get cooler, the droplets become bigger and heavier and fall as rain. If the air is very cold, they freeze to fall as hail of snow.
+# Flowing back to Oceans
+Rain water forms streams and springs which join together to form rivers. Rivers flow finally into the sea and ocean thereby completing the cycle.
+# Activity 1
+Take half a glass of water. Clean the outside part of the glass. Add few ice cubes and leave it for 5-10 minutes. You will observe drops of water appearing outside the glass. This happens because the water vapour in the air condenses on the cold surface of the glass.
+# Let us do
+1. Fill water in an ice tray and keep it in the freezer. After few hours, take it out. What happened to the water?
+2. Now keep this ice tray on a table for some time. What happens to the ice?
+3. Pour water from the ice tray into a kettle. Ask an elder at your home to heat the kettle and observe the mouth of the kettle when the water starts boiling. What do you see?
+In nature, water keeps changing its state. Let us see how this happens. Due to the Sun‛s heat, water in oceans and rivers changes into water vapour and rises up.
+Water becoming water vapour on heating is called evaporation. The water vapour, when comes into contact with cool air, becomes water droplets. This is called condensation. The water droplets combine to form clouds. The water droplets continue to combine, and they become big and heavy. These water droplets then fall down as rain. This is called precipitation. In colder places, combined water droplets come down as snow, sleet or hail. This continuous change of water from one state to another in nature is called water cycle.
+When we pour cold water in a glass, we could notice water droplets being formed on the outer side of the glass. It is due to condensation. Water vapour present in the air, when comes in contact with the cold glass, it becomes water.
+# Rainwater harvesting
+It is the process of collecting and storing rainwater for future use. Rainwater can be collected in natural reservoirs or artificial tanks. Roof top harvesting is also a type of rainwater harvesting. The rainwater on the top of the building is collected and passed into the ground through pipes. Water passing through the pipes enters the pit which consist of gravels and coarse sand. As it passes impurities are filtered and stored as ground water. Do you know?
+1. Each day, we lose a little more than a cup of water when we exhale.
+2. 73% of our brain‛s mass consists of water.
+3. The Antarctic region has about 70% of the world's fresh water.`
         ]
       }
     },

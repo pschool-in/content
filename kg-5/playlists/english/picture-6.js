@@ -13,19 +13,19 @@ export default {
       },
       data: [
         `star-fruit | STAR-FRUIT | _TAR-FRUIT
-  dragon-fruit | DRAGON-FRUIT | _RAGON-FRUIT
-  sugarcane | SUGARCANE | _UGARCANE
-  peach | PEACH | _EACH
-  sweet-potato | SWEET-POTATO | _WEET-POTATO
-  jamun | JAMUN | _AMUN
-  pear | PEAR | _EAR`,
+dragon-fruit | DRAGON-FRUIT | _RAGON-FRUIT
+sugarcane | SUGARCANE | _UGARCANE
+peach | PEACH | _EACH
+sweet-potato | SWEET-POTATO | _WEET-POTATO
+jamun | JAMUN | _AMUN
+pear | PEAR | _EAR`,
 
         `water-chestnut | WATER-CHESTNUT | _ATER-CHESTNUT
-  jujube | JUJUBE | _UJUBE
-  sapotta | SAPOTTA | _APOTTA
-  tapioca | TAPIOCA | _APIOCA
-  blueberry | BLUEBERRY | _LUEBERRY
-  passion-fruit | PASSION-FRUIT | _ASSION-FRUIT`
+jujube | JUJUBE | _UJUBE
+sapotta | SAPOTTA | _APOTTA
+tapioca | TAPIOCA | _APIOCA
+blueberry | BLUEBERRY | _LUEBERRY
+passion-fruit | PASSION-FRUIT | _ASSION-FRUIT`
       ]
     },
 
@@ -39,27 +39,27 @@ export default {
       },
       data: [
         `chickpea | CHICKPEA | _HICKPEA
-  mustard-greens | MUSTARD-GREENS | _USTARD-GREENS
-  turmeric | TURMERIC | _URMERIC
-  turnip | TURNIP | _URNIP
-  fenugreek | FENUGREEK | _ENUGREEK
-  tamarind | TAMARIND | _AMARIND
-  elephant-yam | ELEPHANT-YAM | _LEPHANT-YAM
-  ashgourd | ASHGOURD | _SHGOURD
-  broad-beans | BROAD-BEANS | _ROAD-BEANS
-  snake-gourd | SNAKE-GOURD | _NAKE-GOURD`,
+mustard-greens | MUSTARD-GREENS | _USTARD-GREENS
+turmeric | TURMERIC | _URMERIC
+turnip | TURNIP | _URNIP
+fenugreek | FENUGREEK | _ENUGREEK
+tamarind | TAMARIND | _AMARIND
+elephant-yam | ELEPHANT-YAM | _LEPHANT-YAM
+ashgourd | ASHGOURD | _SHGOURD
+broad-beans | BROAD-BEANS | _ROAD-BEANS
+snake-gourd | SNAKE-GOURD | _NAKE-GOURD`,
 
         `banana-flower | BANANA-FLOWER | _ANANA-FLOWER
-  cluster-beans | CLUSTER-BEANS | _LUSTER-BEANS
-  kohlrabi | KOHLRABI | _OHLRABI
-  spring-onion | SPRING-ONION | _PRING-ONION
-  banana-stem | BANANA-STEM | _ANANA-STEM
-  drumstick-leaves | DRUMSTICK-LEAVES | _RUMSTICK-LEAVES
-  raw-banana | RAW-BANANA | _AW-BANANA
-  tulsi | TULSI | _ULSI
-  bottlegourd | BOTTLEGOURD | _OTTLEGOURD
-  ivygourd | IVYGOURD | _VYGOURD
-  ridgegourd | RIDGEGOURD | _IDGEGOURD`
+cluster-beans | CLUSTER-BEANS | _LUSTER-BEANS
+kohlrabi | KOHLRABI | _OHLRABI
+spring-onion | SPRING-ONION | _PRING-ONION
+banana-stem | BANANA-STEM | _ANANA-STEM
+drumstick-leaves | DRUMSTICK-LEAVES | _RUMSTICK-LEAVES
+raw-banana | RAW-BANANA | _AW-BANANA
+tulsi | TULSI | _ULSI
+bottlegourd | BOTTLEGOURD | _OTTLEGOURD
+ivygourd | IVYGOURD | _VYGOURD
+ridgegourd | RIDGEGOURD | _IDGEGOURD`
       ]
     },
     {
@@ -74,16 +74,16 @@ export default {
       },
       data: [
         `S, star-fruit 
-  D, dragon-fruit 
-  P, peach 
-  J, jamun
-  W, water-chestnut `,
+D, dragon-fruit 
+P, peach 
+J, jamun
+W, water-chestnut `,
 
         `J, jujube 
-  S, sapotta 
-  T, tapioca 
-  B, blueberry 
-  P, passion-fruit `
+S, sapotta 
+T, tapioca 
+B, blueberry 
+P, passion-fruit `
       ]
     },
     {
@@ -98,23 +98,23 @@ export default {
       },
       data: [
         `C, chickpea 
-  M, mustard-greens
-  T, turmeric 
-  F, fenugreek 
-  E, elephant-yam 
-  A, ashgourd `,
+M, mustard-greens
+T, turmeric 
+F, fenugreek 
+E, elephant-yam 
+A, ashgourd `,
 
         `B, broad-beans 
-  S, snake-gourd 
-  C, cluster-beans 
-  K, kohlrabi 
-  T, turnip`,
+S, snake-gourd 
+C, cluster-beans 
+K, kohlrabi 
+T, turnip`,
 
         `D, drumstick-leaves
-  R, raw-banana 
-  T, tulsi 
-  B, bottlegourd 
-  I, ivygourd`
+R, raw-banana 
+T, tulsi 
+B, bottlegourd 
+I, ivygourd`
       ]
     },
     {
@@ -126,19 +126,19 @@ export default {
       },
       data: [
         `star-fruit | Star fruit
-        dragon-fruit | Dragon fruit
-        sugarcane | Sugarcane
-        peach | Peach
-        sweet-potato | Sweet potato
-        jamun | Jamun`,
+dragon-fruit | Dragon fruit
+sugarcane | Sugarcane
+peach | Peach
+sweet-potato | Sweet potato
+jamun | Jamun`,
 
         `pear | Pear
-        water-chestnut | Water chestnut
-        jujube | Jujube
-        sapotta | Sapotta
-        tapioca | Tapioca
-        blueberry | Blueberry
-        passion-fruit | Passion fruit`
+water-chestnut | Water chestnut
+jujube | Jujube
+sapotta | Sapotta
+tapioca | Tapioca
+blueberry | Blueberry
+passion-fruit | Passion fruit`
       ]
     },
     {
@@ -150,29 +150,29 @@ export default {
       },
       data: [
         `chickpea | Chickpea
-  mustard-greens | Mustard greens
-  turmeric | Turmeric
-  turnip | Turnip
-  fenugreek | Fenugreek
-  tamarind | Tamarind`,
+mustard-greens | Mustard greens
+turmeric | Turmeric
+turnip | Turnip
+fenugreek | Fenugreek
+tamarind | Tamarind`,
 
         `elephant-yam | Elephant Yam
-  ashgourd | Ashgourd
-  broad-beans | Broad beans
-  snake-gourd | Snake gourd
-  banana-flower | Banana flower
-  cluster-beans | Cluster beans`,
+ashgourd | Ashgourd
+broad-beans | Broad beans
+snake-gourd | Snake gourd
+banana-flower | Banana flower
+cluster-beans | Cluster beans`,
 
         `kohlrabi | Kohlrabi
-  spring-onion | Spring onion
-  banana-stem | Banana stem
-  drumstick-leaves | Drumstick leaves
-  raw-banana | Raw banana`,
+spring-onion | Spring onion
+banana-stem | Banana stem
+drumstick-leaves | Drumstick leaves
+raw-banana | Raw banana`,
 
         `tulsi | Tulsi
-  bottlegourd | Bottlegourd
-  ivygourd | Ivygourd
-  ridgegourd | Ridgegourd`
+bottlegourd | Bottlegourd
+ivygourd | Ivygourd
+ridgegourd | Ridgegourd`
       ]
     }
   ]

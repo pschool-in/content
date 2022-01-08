@@ -15,18 +15,18 @@ export default {
             {
               name: 'Noun',
               text: `My sister and I are *twins*.
-              Swaroop is the teacher’s *pet*.
-              The ship appeared on the *horizon*.
-              The trees are swaying in the *wind*.
-              There is a musty *smell* in this room!`
+Swaroop is the teacher’s *pet*.
+The ship appeared on the *horizon*.
+The trees are swaying in the *wind*.
+There is a musty *smell* in this room!`
             },
             {
               name: 'Adjective',
               text: `There were *three* horses in the stable.
-              Edward Lear was a *great* poet.
-              Priya and Ria are *best* friends.
-              The public library doesn’t have an *interesting* collection of books.
-              The incident happened late *last* night.`
+Edward Lear was a *great* poet.
+Priya and Ria are *best* friends.
+The public library doesn’t have an *interesting* collection of books.
+The incident happened late *last* night.`
             }
           ]
         },
@@ -35,18 +35,18 @@ export default {
             {
               name: 'Noun',
               text: `The bees are humming in the *garden*.
-              The *telephone* is not working.
-              The *news* is too good to be believed.
-              Manu takes a *nap* every afternoon.
-              Hari spends a lot of time playing with his *pet* rabbits.`
+The *telephone* is not working.
+The *news* is too good to be believed.
+Manu takes a *nap* every afternoon.
+Hari spends a lot of time playing with his *pet* rabbits.`
             },
             {
               name: 'Adjective',
               text: `Jhansi Rani was a *brave* queen.
-               Amit’s father met his *new* swimming coach.
-              The weather is extremely *hot* in May.
-              Raman is the *best* trekker on the team.
-              Sunil has been studying *all* morning.`
+Amit’s father met his *new* swimming coach.
+The weather is extremely *hot* in May.
+Raman is the *best* trekker on the team.
+Sunil has been studying *all* morning.`
             }
           ]
         },
@@ -55,24 +55,24 @@ export default {
             {
               name: 'Noun',
               text: `*Lunchtime* for us is between one and two o'clock.
-              This is the *way* to our school.
-              Is Chaitra an *artist*?
-              Lucknow is the *capital* of Uttar Pradesh.`
+This is the *way* to our school.
+Is Chaitra an *artist*?
+Lucknow is the *capital* of Uttar Pradesh.`
             },
             {
               name: 'Adjective',
               text: `Heera has a *cute* little kitten.
-              *None* of the stores in our neighborhood are open before ten am.
-              Surya’s cousin is a *well-known* author.
-              The view from the mountain top was *breathtaking*!`
+*None* of the stores in our neighborhood are open before ten am.
+Surya’s cousin is a *well-known* author.
+The view from the mountain top was *breathtaking*!`
             },
             {
               name: 'Verb',
               text: `Mohan *ran* to catch the school bus.
-              Sheetal’s parrot *loves* to talk to her goldfish!
-              The guests at the wedding *were* tired of waiting for the bride to arrive.
-              We *ignored* her foolish remark.
-              Children must *obey* their parents.`
+Sheetal’s parrot *loves* to talk to her goldfish!
+The guests at the wedding *were* tired of waiting for the bride to arrive.
+We *ignored* her foolish remark.
+Children must *obey* their parents.`
             }
           ]
         },
@@ -81,18 +81,18 @@ export default {
             {
               name: 'Verb',
               text: `The clock on the wall is *ticking* loudly.
-              The cow *jumped* over the Moon.
-              My father *was* a chess champion.
-              Arun *has* lost his house keys.
-              The victims were *rushed* to the hospital.`
+The cow *jumped* over the Moon.
+My father *was* a chess champion.
+Arun *has* lost his house keys.
+The victims were *rushed* to the hospital.`
             },
             {
               name: 'Adverb',
               text: `I have been to the park with the musical fountain *very* few times.
-              The little girls were *so* busy collecting pebbles on the beach, they didn’t realize that the tide had risen.
-              The old man walked *slowly* down the street.
-              She is getting *late* for school.
-              Sita speaks *very* softly.`
+The little girls were *so* busy collecting pebbles on the beach, they didn’t realize that the tide had risen.
+The old man walked *slowly* down the street.
+She is getting *late* for school.
+Sita speaks *very* softly.`
             }
           ]
         },
@@ -101,18 +101,18 @@ export default {
             {
               name: 'Verb',
               text: `Your books are *lying* on the table.
-              The baker *dusted* powdered sugar on the chocolate donuts.
-              On hearing the teacher’s voice, the students *stopped* talking.
-              The lost child has been *found*.
-              Those two siblings *are* like Tom and Jerry!`
+The baker *dusted* powdered sugar on the chocolate donuts.
+On hearing the teacher’s voice, the students *stopped* talking.
+The lost child has been *found*.
+Those two siblings *are* like Tom and Jerry!`
             },
             {
               name: 'Adverb',
               text: `The hungry caterpillars *greedily* feasted on the lettuce.
-              The crocodile swam *across*.
-              The bus is *very* crowded almost every day.
-              Judy’s father is *very* tall.
-              The first exam was *more* difficult than the second.`
+The crocodile swam *across*.
+The bus is *very* crowded almost every day.
+Judy’s father is *very* tall.
+The first exam was *more* difficult than the second.`
             }
           ]
         },
@@ -121,10 +121,10 @@ export default {
             {
               name: 'Verb',
               text: `What do you *want* for lunch?
-              This phone *belongs* to my sister.
-              My mother is the lady *wearing* the red sari.
-              *Have* you ever heard the mockingbird sing? 
-              Robert Bruce watched the spider *spinning* its web.`
+This phone *belongs* to my sister.
+My mother is the lady *wearing* the red sari.
+*Have* you ever heard the mockingbird sing? 
+Robert Bruce watched the spider *spinning* its web.`
             },
             {
               name: 'Adverb',
@@ -133,10 +133,10 @@ export default {
             {
               name: 'Preposition',
               text: `The monkey went around with a basket to collect money from the spectators *after* the performance.
-              The birds are singing sweetly *this* morning.
-              I saw a cart being pulled *by* an old donkey.
-              The milkman’s buffaloes are bathing *in* the river.
-              The sage placed his hand *on* the prince’s head to bless him.`
+The birds are singing sweetly *this* morning.
+I saw a cart being pulled *by* an old donkey.
+The milkman’s buffaloes are bathing *in* the river.
+The sage placed his hand *on* the prince’s head to bless him.`
             }
           ]
         },
@@ -145,17 +145,17 @@ export default {
             {
               name: 'Verb',
               text: `This is the way to *brush* your hair.
-              I can *hear* a cat meowing in the basement!
-              Dr. Abdul Kalam has *authored* many books.
-              The Principal *expressed* annoyance at the indiscipline during assembly.`
+I can *hear* a cat meowing in the basement!
+Dr. Abdul Kalam has *authored* many books.
+The Principal *expressed* annoyance at the indiscipline during assembly.`
             },
             {
               name: 'Preposition',
               text: `I was wonderstruck by the beautiful valley *of* flowers!
-              The lizard crawled *up* the wall.
-              They built a bridge *across* the river.
-              Kolkata stands *on* the river Hooghly.
-              The toys were scattered all *over* the room.`
+The lizard crawled *up* the wall.
+They built a bridge *across* the river.
+Kolkata stands *on* the river Hooghly.
+The toys were scattered all *over* the room.`
             }
           ]
         },
@@ -164,16 +164,16 @@ export default {
             {
               name: 'Preposition',
               text: `The keys are *under* the flower pot on the window sill.
-              These flowers are *from* her garden.
-              Priya could hardly wait for the day of the picnic *to* arrive!`
+These flowers are *from* her garden.
+Priya could hardly wait for the day of the picnic *to* arrive!`
             },
             {
               name: 'Conjunction',
               text: `The students stood up *when* the teacher entered the room.
-              Ravi enjoys cycling up *and* down the hills.
-              Arjun is a shy *but* helpful boy.
-              The farmer hurried home, *as* it was late.
-              The dragon lashed out its tail, *but* missed the brave hunter.`
+Ravi enjoys cycling up *and* down the hills.
+Arjun is a shy *but* helpful boy.
+The farmer hurried home, *as* it was late.
+The dragon lashed out its tail, *but* missed the brave hunter.`
             }
           ]
         },
@@ -182,18 +182,18 @@ export default {
             {
               name: 'Conjunction',
               text: `The bottle is nearly full of water, *but* it is not enough. 
-              Suhasini will buy a car *as soon as* she has enough money.
-              The thief ran so fast *that* the policeman could not catch him.
-              *Although* Rani hurried, she was late for school.
-              His dog jumped on him,*as soon as* Rohit entered the house.`
+Suhasini will buy a car *as soon as* she has enough money.
+The thief ran so fast *that* the policeman could not catch him.
+*Although* Rani hurried, she was late for school.
+His dog jumped on him,*as soon as* Rohit entered the house.`
             },
             {
               name: 'Pronoun',
               text: `*Our* team won the match by one goal.
-              The baby started crying when *its* mother left the room.
-              Prateek was thrilled with *his* birthday gifts.
-              I had strawberry icing on *my* birthday cake.
-              *This* plant can be grown in water.`
+The baby started crying when *its* mother left the room.
+Prateek was thrilled with *his* birthday gifts.
+I had strawberry icing on *my* birthday cake.
+*This* plant can be grown in water.`
             }
           ]
         },
@@ -202,17 +202,17 @@ export default {
             {
               name: 'Conjunction',
               text: `Which do you like better, tea *or* coffee?
-              Please read the instructions *and* follow them.
-              That girl is not only the topper,*but also* very humble.
-              The rooster *and* the hens live in the same coop.`
+Please read the instructions *and* follow them.
+That girl is not only the topper,*but also* very humble.
+The rooster *and* the hens live in the same coop.`
             },
             {
               name: 'Pronoun',
               text: `Wear your headphones while listening to *this*.
-              *That*  calendar has beautiful photographs.
-              *You* and your idea are fantastic!
-              *Who* is the king of the jungle? 
-              Both *he* and Vikram are booksellers.`
+*That*  calendar has beautiful photographs.
+*You* and your idea are fantastic!
+*Who* is the king of the jungle? 
+Both *he* and Vikram are booksellers.`
             }
           ]
         }

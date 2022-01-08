@@ -28,21 +28,21 @@ Neha talks the most in her group. Her friends began to avoid her since they neve
       }
     },
     /*
-    {
-      label: 'Our Emotional World - Reading',
-      type: 'passage',
-      id: 'emotionalworld',
-      data: {
-        title: 'Our Emotional World',
-        text: `#Emotions
-          Emotions are also called as feelings that one experiences and processes in themselves. It should be expressed, but we should handle the emotions accordingly to the situation. Anger, sadness, excitment, fear, confused are the examples of the emotions.          
-          #Emotional balance is good to life          
-         1. Coping up with emotions helps in balancing and shape the personality. It also increases the ability to understand others. Handling emotions in the right way helps us to lead a better life.          
-         2. If we are aware of the flaws in the construct of our nature, then we should try to correct ourselves. Moreover, we should help each other to get rid of the flaws. We should stop identifying negative qualities people have and rather seek positive ones.          
-         3. Too much of anger will lead to adverse effects on mental and physical health. Sometimes, it also leads to violence. Being stubborn is a sign of ego and pride and it will lead to many problems.So, we should try to tolerate things and must not lose the temper. One can have desire in their life, but should not be greedy about it.          
-         4. Sometimes we get hurt by others, intentionally or unintentionally. Some people take revenge in hurting us back, which is very bad quality. Controlling our emotions is the important aspect in our life. It is best way to express the emotions in a reasonable manner.`
-      }
-    },*/
+{
+label: 'Our Emotional World - Reading',
+type: 'passage',
+id: 'emotionalworld',
+data: {
+title: 'Our Emotional World',
+text: `#Emotions
+Emotions are also called as feelings that one experiences and processes in themselves. It should be expressed, but we should handle the emotions accordingly to the situation. Anger, sadness, excitment, fear, confused are the examples of the emotions.          
+#Emotional balance is good to life          
+1. Coping up with emotions helps in balancing and shape the personality. It also increases the ability to understand others. Handling emotions in the right way helps us to lead a better life.          
+2. If we are aware of the flaws in the construct of our nature, then we should try to correct ourselves. Moreover, we should help each other to get rid of the flaws. We should stop identifying negative qualities people have and rather seek positive ones.          
+3. Too much of anger will lead to adverse effects on mental and physical health. Sometimes, it also leads to violence. Being stubborn is a sign of ego and pride and it will lead to many problems.So, we should try to tolerate things and must not lose the temper. One can have desire in their life, but should not be greedy about it.          
+4. Sometimes we get hurt by others, intentionally or unintentionally. Some people take revenge in hurting us back, which is very bad quality. Controlling our emotions is the important aspect in our life. It is best way to express the emotions in a reasonable manner.`
+}
+},*/
     {
       label: 'Positive vs Negative',
       id: 'good-bad',
@@ -62,25 +62,25 @@ Neha talks the most in her group. Her friends began to avoid her since they neve
       }
     },
     /*
-    {
-      label: 'Happy Vs Powerful',
-      id: 'emotionalworldgroup',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below things based on the category of happy and powerful emotions.',
-        types: [
-          {
-            name: 'Happy',
-            text: 'Cheerful, Delighted, Pleased, Ecstatic'
-          },
-          {
-            name: 'Powerful',
-            text: 'Determined, Ambitious, Empowered, Mighty'
-          }
-        ]
-      }
-    },*/
+{
+label: 'Happy Vs Powerful',
+id: 'emotionalworldgroup',
+type: 'group',
+data: {
+title:
+'Classify the below things based on the category of happy and powerful emotions.',
+types: [
+{
+name: 'Happy',
+text: 'Cheerful, Delighted, Pleased, Ecstatic'
+},
+{
+name: 'Powerful',
+text: 'Determined, Ambitious, Empowered, Mighty'
+}
+]
+}
+},*/
     {
       id: 'emotionalworldmatch',
       label: 'Match the following',
@@ -146,43 +146,43 @@ If we don't control our anger, it may lead to *headache*.`
       }
     },
     /*
-    {
-      id: 'emotionalworldfill-1',
-      label: 'Fill in the blanks -2',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `If you get angry, then you should not revert in a *bad (good)* way to others.
-          We should help each other to get rid of the *flaws(talent)*.
-          Sometimes being *patient (impatient)* in life is the best emotional intelligence.
-          *Society (Food)*influences one’s emotion.
-          *Hunger (Anger)* is not a type of emotion.`
-      }
-    },*/
+{
+id: 'emotionalworldfill-1',
+label: 'Fill in the blanks -2',
+type: 'fillup',
+data: {
+title: 'Click the blanks and fill it with the right word.',
+text: `If you get angry, then you should not revert in a *bad (good)* way to others.
+We should help each other to get rid of the *flaws(talent)*.
+Sometimes being *patient (impatient)* in life is the best emotional intelligence.
+*Society (Food)*influences one’s emotion.
+*Hunger (Anger)* is not a type of emotion.`
+}
+},*/
     /*
-    {
-      label: 'True or False',
-      id: 'emotionalworldTF',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'True',
-            text: `Ram used to sing a song, whenever he felt happy.
-              Rahim’s parents were so happy, because she won the swimming race.
-              Robert was so happy yesterday, because he scored cent percent in all subjects. 
-              `
-          },
-          {
-            name: 'False',
-            text: `Alex is a chess champion, but chess is a boring game for him.
-              During festival, people are lethargic.
-              Not having a sense of lack-luster is a good quality.`
-          }
-        ]
-      }
-    },*/
+{
+label: 'True or False',
+id: 'emotionalworldTF',
+type: 'classifySentence',
+data: {
+title: 'Classify the below sentences as true and false',
+types: [
+{
+name: 'True',
+text: `Ram used to sing a song, whenever he felt happy.
+Rahim’s parents were so happy, because she won the swimming race.
+Robert was so happy yesterday, because he scored cent percent in all subjects. 
+`
+},
+{
+name: 'False',
+text: `Alex is a chess champion, but chess is a boring game for him.
+During festival, people are lethargic.
+Not having a sense of lack-luster is a good quality.`
+}
+]
+}
+},*/
     {
       label: 'Growth and personality development - Reading',
       type: 'passage',
@@ -198,25 +198,25 @@ The characteristics and features of parents or ancestors that are being passed t
       }
     },
     /*
-    {
-      label: 'Animal activities Vs Human activities',
-      id: 'personalitygroup',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below things based on the category of Animal and Human activities.',
-        types: [
-          {
-            name: 'Animal activities',
-            text: 'Hunting, Sixth sense, Climbing the tree'
-          },
-          {
-            name: 'Human activities',
-            text: 'Skipping, Cycling, Playing games'
-          }
-        ]
-      }
-    },*/
+{
+label: 'Animal activities Vs Human activities',
+id: 'personalitygroup',
+type: 'group',
+data: {
+title:
+'Classify the below things based on the category of Animal and Human activities.',
+types: [
+{
+name: 'Animal activities',
+text: 'Hunting, Sixth sense, Climbing the tree'
+},
+{
+name: 'Human activities',
+text: 'Skipping, Cycling, Playing games'
+}
+]
+}
+},*/
     {
       id: 'personalitymatch',
       label: 'Match the following',

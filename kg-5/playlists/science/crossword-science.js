@@ -12,64 +12,66 @@ export default {
         words: [
           {
             word: 'intestine',
-            marker: {x: 0, y: 5},
+            marker: { x: 0, y: 5 },
             hint: 'All the digested food is absorbed here',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'teeth',
-            marker: {x: 5, y: 5},
+            marker: { x: 5, y: 5 },
             hint: 'We use it to bite and chew',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'blood',
-            marker: {x: 0, y: 1},
+            marker: { x: 0, y: 1 },
             hint: 'It is red and flows through the body',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'bones',
-            marker: {x: 2, y: 0},
-            hint: 'They are very hard substances and more than 200 of them are present in our body',
-            direction: 'down',
+            marker: { x: 2, y: 0 },
+            hint:
+              'They are very hard substances and more than 200 of them are present in our body',
+            direction: 'down'
           },
           {
             word: 'muscle',
-            marker: {x: 0, y: 4},
+            marker: { x: 0, y: 4 },
             hint: 'It helps us move our bones',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'windpipe',
-            marker: {x: 6, y: 0},
+            marker: { x: 6, y: 0 },
             hint: 'Air moves down trough it into the lungs',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'lungs',
-            marker: {x: 7, y: 3},
+            marker: { x: 7, y: 3 },
             hint: 'They are two bags inside the chest that help us to breathe',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'skin',
-            marker: {x: 3, y: 2},
-            hint: 'It covers the entire body and is one of the five sense organs',
-            direction: 'across',
+            marker: { x: 3, y: 2 },
+            hint:
+              'It covers the entire body and is one of the five sense organs',
+            direction: 'across'
           },
           {
             word: 'nose',
-            marker: {x: 1, y: 5},
+            marker: { x: 1, y: 5 },
             hint: 'It helps us to smell',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'nerve',
-            marker: {x: 0, y: 8},
+            marker: { x: 0, y: 8 },
             hint: 'They carry messages from the brain to the rest of the body',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -83,10 +85,10 @@ export default {
           ['', 'O', '', '', '', 'E', 'P', 'G', ''],
           ['', 'S', '', '', '', 'E', 'E', 'S', ''],
           ['N', 'E', 'R', 'V', 'E', 'T', '', '', ''],
-          ['', '', '', '', '', 'H', '', '', ''],
-        ],
+          ['', '', '', '', '', 'H', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-diseases',
@@ -96,40 +98,41 @@ export default {
         words: [
           {
             word: 'tetanus',
-            marker: {x: 0, y: 1},
-            hint: 'It is caused when germs enter the body through cut in the skin',
-            direction: 'across',
+            marker: { x: 0, y: 1 },
+            hint:
+              'It is caused when germs enter the body through cut in the skin',
+            direction: 'across'
           },
           {
             word: 'malaria',
-            marker: {x: 3, y: 0},
+            marker: { x: 3, y: 0 },
             hint: 'It is spread through the bite of female anopheles mosquito',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'typhoid',
-            marker: {x: 0, y: 1},
+            marker: { x: 0, y: 1 },
             hint: 'It is caused by eating infected food',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'plague',
-            marker: {x: 1, y: 3},
+            marker: { x: 1, y: 3 },
             hint: 'It is caused by rats',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'flu',
-            marker: {x: 2, y: 2},
+            marker: { x: 2, y: 2 },
             hint: 'It is caused by contact with infected person',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'polio',
-            marker: {x: 1, y: 3},
+            marker: { x: 1, y: 3 },
             hint: 'It can be prevented with oral vaccine',
-            direction: 'down',
-          },
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -141,10 +144,10 @@ export default {
           ['H', 'O', '', 'R', '', '', ''],
           ['O', 'L', '', 'I', '', '', ''],
           ['I', 'I', '', 'A', '', '', ''],
-          ['D', 'O', '', '', '', '', ''],
-        ],
+          ['D', 'O', '', '', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-food-health',
@@ -154,52 +157,53 @@ export default {
         words: [
           {
             word: 'salt',
-            marker: {x: 0, y: 3},
-            hint: 'It is added to food for taste and to prevent it from going bad',
-            direction: 'across',
+            marker: { x: 0, y: 3 },
+            hint:
+              'It is added to food for taste and to prevent it from going bad',
+            direction: 'across'
           },
           {
             word: 'goitre',
-            marker: {x: 3, y: 0},
+            marker: { x: 3, y: 0 },
             hint: 'It is caused due to deficiency of iodine',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'scurvy',
-            marker: {x: 0, y: 3},
+            marker: { x: 0, y: 3 },
             hint: 'It is caused due to deficiency of vitamin c',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'pickle',
-            marker: {x: 6, y: 1},
+            marker: { x: 6, y: 1 },
             hint: 'It is made by mixing vegetables with salt, oil and spices',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'fridge',
-            marker: {x: 1, y: 6},
+            marker: { x: 1, y: 6 },
             hint: 'It keeps food cool',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'milk',
-            marker: {x: 2, y: 1},
+            marker: { x: 2, y: 1 },
             hint: 'It turns to curd on fermentation',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'orange',
-            marker: {x: 5, y: 2},
+            marker: { x: 5, y: 2 },
             hint: 'It is a fruit rich in vitamin C',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'idli',
-            marker: {x: 4, y: 5},
+            marker: { x: 4, y: 5 },
             hint: 'It is made from fermented rice and urad dal',
-            direction: 'down',
-          },
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -212,10 +216,10 @@ export default {
           ['U', '', '', 'E', 'I', 'N', 'L'],
           ['R', 'F', 'R', 'I', 'D', 'G', 'E'],
           ['V', '', '', '', 'L', 'E', ''],
-          ['Y', '', '', '', 'I', '', ''],
-        ],
+          ['Y', '', '', '', 'I', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-solar-system',
@@ -225,58 +229,58 @@ export default {
         words: [
           {
             word: 'milkyway',
-            marker: {x: 0, y: 0},
+            marker: { x: 0, y: 0 },
             hint: 'Our solar system is a part of this galaxy',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'uranus',
-            marker: {x: 0, y: 1},
+            marker: { x: 0, y: 1 },
             hint: 'It is the third largest planet',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'neptune',
-            marker: {x: 3, y: 1},
+            marker: { x: 3, y: 1 },
             hint: 'It is the planet furthest from sun',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'mercury',
-            marker: {x: 2, y: 7},
+            marker: { x: 2, y: 7 },
             hint: 'It is the planet closest to sun',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'gravity',
-            marker: {x: 8, y: 1},
+            marker: { x: 8, y: 1 },
             hint: 'It is the force that keeps a planet moving in orbit',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'jupiter',
-            marker: {x: 1, y: 3},
+            marker: { x: 1, y: 3 },
             hint: 'It is the largest planet',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'pluto',
-            marker: {x: 1, y: 5},
+            marker: { x: 1, y: 5 },
             hint: 'It is now called a dwarf planet',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'mars',
-            marker: {x: 7, y: 1},
+            marker: { x: 7, y: 1 },
             hint: 'It is the red planet',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'sun',
-            marker: {x: 1, y: 6},
+            marker: { x: 1, y: 6 },
             hint: 'The planets orbit around this star',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -288,10 +292,10 @@ export default {
           ['', '', '', 'T', '', '', '', 'S', 'V'],
           ['', 'P', 'L', 'U', 'T', 'O', '', '', 'I'],
           ['', 'S', 'U', 'N', '', '', '', '', 'T'],
-          ['', '', 'M', 'E', 'R', 'C', 'U', 'R', 'Y'],
-        ],
+          ['', '', 'M', 'E', 'R', 'C', 'U', 'R', 'Y']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-young-ones',
@@ -301,64 +305,64 @@ export default {
         words: [
           {
             word: 'kid',
-            marker: {x: 0, y: 0},
+            marker: { x: 0, y: 0 },
             hint: 'It is a baby goat',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'duckling',
-            marker: {x: 0, y: 2},
+            marker: { x: 0, y: 2 },
             hint: 'It is a baby duck',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'kitten',
-            marker: {x: 3, y: 2},
+            marker: { x: 3, y: 2 },
             hint: 'It is a baby  cat',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'fawn',
-            marker: {x: 0, y: 7},
+            marker: { x: 0, y: 7 },
             hint: 'It is a baby deer',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'piglet',
-            marker: {x: 7, y: 0},
+            marker: { x: 7, y: 0 },
             hint: 'It is a baby pig',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'chick',
-            marker: {x: 1, y: 1},
+            marker: { x: 1, y: 1 },
             hint: 'It is a baby chicken',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'calf',
-            marker: {x: 0, y: 4},
+            marker: { x: 0, y: 4 },
             hint: 'It is a baby cow',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'lamb',
-            marker: {x: 4, y: 2},
+            marker: { x: 4, y: 2 },
             hint: 'It is a baby sheep',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'bunny',
-            marker: {x: 6, y: 0},
+            marker: { x: 6, y: 0 },
             hint: 'It is a baby rabbit',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'cub',
-            marker: {x: 1, y: 1},
+            marker: { x: 1, y: 1 },
             hint: 'It is a baby bear',
-            direction: 'down',
-          },
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -370,10 +374,10 @@ export default {
           ['C', '', '', 'T', 'M', '', 'Y', 'E'],
           ['A', '', '', 'T', 'B', '', '', 'T'],
           ['L', '', '', 'E', '', '', '', ''],
-          ['F', 'A', 'W', 'N', '', '', '', ''],
-        ],
+          ['F', 'A', 'W', 'N', '', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-dental-health',
@@ -383,52 +387,52 @@ export default {
         words: [
           {
             word: 'plaque',
-            marker: {x: 1, y: 0},
+            marker: { x: 1, y: 0 },
             hint: 'It is the sticky coating on teeth where bacteria multiply',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'bacteria',
-            marker: {x: 0, y: 2},
+            marker: { x: 0, y: 2 },
             hint: 'They are small organisms that can rot your teeth',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'braces',
-            marker: {x: 0, y: 2},
+            marker: { x: 0, y: 2 },
             hint: 'It is a teeth straightening wire',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'dentist',
-            marker: {x: 4, y: 1},
+            marker: { x: 4, y: 1 },
             hint: 'They are experts in dental care, tooth doctor',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'root',
-            marker: {x: 5, y: 2},
+            marker: { x: 5, y: 2 },
             hint: 'It is the part of teeth embedded in gum',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'gargle',
-            marker: {x: 7, y: 1},
+            marker: { x: 7, y: 1 },
             hint: 'It is the rinsing your throat',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'candy',
-            marker: {x: 2, y: 2},
+            marker: { x: 2, y: 2 },
             hint: 'It can rot your teeth',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'gums',
-            marker: {x: 3, y: 0},
+            marker: { x: 3, y: 0 },
             hint: 'It is the tissue surrounding teeth',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -440,10 +444,10 @@ export default {
           ['A', 'U', 'N', '', 'T', 'O', '', 'G'],
           ['C', 'E', 'D', '', 'I', 'T', '', 'L'],
           ['E', '', 'Y', '', 'S', '', '', 'E'],
-          ['S', '', '', '', 'T', '', '', ''],
-        ],
+          ['S', '', '', '', 'T', '', '', '']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-insects',
@@ -453,70 +457,71 @@ export default {
         words: [
           {
             word: 'butterfly',
-            marker: {x: 2, y: 0},
+            marker: { x: 2, y: 0 },
             hint: 'It is an insect with colorful wings',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'bee',
-            marker: {x: 2, y: 0},
+            marker: { x: 2, y: 0 },
             hint: 'It is an insect that makes honey',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'ant',
-            marker: {x: 0, y: 2},
+            marker: { x: 0, y: 2 },
             hint: 'It is a red soldier in a colony',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'thorax',
-            marker: {x: 2, y: 3},
+            marker: { x: 2, y: 3 },
             hint: 'It is a middle segment of an insect',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'six',
-            marker: {x: 7, y: 1},
+            marker: { x: 7, y: 1 },
             hint: 'It is the number of legs an insect has',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'spider',
-            marker: {x: 4, y: 4},
+            marker: { x: 4, y: 4 },
             hint: 'It is an insect with eight legs',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'molting',
-            marker: {x: 3, y: 9},
+            marker: { x: 3, y: 9 },
             hint: 'It is the shedding of exoskeleton',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'housefly',
-            marker: {x: 8, y: 0},
+            marker: { x: 8, y: 0 },
             hint: 'It is an insect that can fly, it is attracted to fruits',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'fleas',
-            marker: {x: 3, y: 1},
+            marker: { x: 3, y: 1 },
             hint: 'These insects live on dogs fur',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'firefly',
-            marker: {x: 9, y: 2},
+            marker: { x: 9, y: 2 },
             hint: 'They are insects with their own light',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'mosquito',
-            marker: {x: 4, y: 2},
-            hint: 'It is a tiny bite from me can make you itch, make you sneeze and make you twitch',
-            direction: 'down',
-          },
+            marker: { x: 4, y: 2 },
+            hint:
+              'It is a tiny bite from me can make you itch, make you sneeze and make you twitch',
+            direction: 'down'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -530,10 +535,10 @@ export default {
           ['', '', 'F', '', 'U', '', '', '', 'L', 'F'],
           ['', '', 'L', '', 'I', '', '', '', 'Y', 'L'],
           ['', '', 'Y', '', 'T', '', '', '', '', 'Y'],
-          ['', '', '', 'M', 'O', 'L', 'T', 'I', 'N', 'G'],
-        ],
+          ['', '', '', 'M', 'O', 'L', 'T', 'I', 'N', 'G']
+        ]
       },
-      editable: true,
+      editable: true
     },
     {
       id: 'crossword-fruits',
@@ -543,52 +548,53 @@ export default {
         words: [
           {
             word: 'watermelon',
-            marker: {x: 0, y: 0},
-            hint: 'It is a very big fruit with green shell red flesh and black seeds',
-            direction: 'across',
+            marker: { x: 0, y: 0 },
+            hint:
+              'It is a very big fruit with green shell red flesh and black seeds',
+            direction: 'across'
           },
           {
             word: 'apple',
-            marker: {x: 1, y: 0},
+            marker: { x: 1, y: 0 },
             hint: 'It is a red fruit which keeps the doctor away',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'mango',
-            marker: {x: 5, y: 0},
+            marker: { x: 5, y: 0 },
             hint: 'It is the king of fruits',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'orange',
-            marker: {x: 8, y: 0},
+            marker: { x: 8, y: 0 },
             hint: 'The colour and name of the fruit is same',
-            direction: 'down',
+            direction: 'down'
           },
           {
             word: 'banana',
-            marker: {x: 2, y: 1},
+            marker: { x: 2, y: 1 },
             hint: 'Monkeys love this fruit',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'lemon',
-            marker: {x: 2, y: 4},
+            marker: { x: 2, y: 4 },
             hint: 'They are yellow and very sour',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'grapes',
-            marker: {x: 4, y: 5},
+            marker: { x: 4, y: 5 },
             hint: 'I am round and in a bunch',
-            direction: 'across',
+            direction: 'across'
           },
           {
             word: 'pear',
-            marker: {x: 1, y: 2},
+            marker: { x: 1, y: 2 },
             hint: 'My name sounds like there might be two of me',
-            direction: 'across',
-          },
+            direction: 'across'
+          }
         ],
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
@@ -598,10 +604,10 @@ export default {
           ['', 'P', 'E', 'A', 'R', 'N', '', '', 'A', ''],
           ['', 'L', '', '', '', 'G', '', '', 'N', ''],
           ['', 'E', 'L', 'E', 'M', 'O', 'N', '', 'G', ''],
-          ['', '', '', '', 'G', 'R', 'A', 'P', 'E', 'S'],
-        ],
+          ['', '', '', '', 'G', 'R', 'A', 'P', 'E', 'S']
+        ]
       },
-      editable: true,
-    },
-  ],
+      editable: true
+    }
+  ]
 };

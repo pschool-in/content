@@ -66,14 +66,14 @@ Provides justice- *Judge*`
           {
             name: 'Nature-based',
             text: `Agriculture
-              Fishing
-              Poultry`
+Fishing
+Poultry`
           },
           {
             name: 'Providing service',
             text: `Farmer
-              Teacher
-              Doctor`
+Teacher
+Doctor`
           }
         ]
       }

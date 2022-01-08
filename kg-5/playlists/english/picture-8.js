@@ -11,14 +11,14 @@ export default {
       data: {
         images: 'gadgets',
         text: `camera |CAMERA |_AMERA
-  headphone|HEADPHONE |_EADPHONE
-  pendrive|PENDRIVE |_ENDRIVE
-  remote|REMOTE |_EMOTE
-  smartphone|SMARTPHONE |_MARTPHONE
-  speaker|SPEAKER |_PEAKER
-  tablet|TABLET |_ABLET
-  torch|TORCH |_ORCH
-  web-camera | WEB CAMERA | _EB CAMERA`
+headphone|HEADPHONE |_EADPHONE
+pendrive|PENDRIVE |_ENDRIVE
+remote|REMOTE |_EMOTE
+smartphone|SMARTPHONE |_MARTPHONE
+speaker|SPEAKER |_PEAKER
+tablet|TABLET |_ABLET
+torch|TORCH |_ORCH
+web-camera | WEB CAMERA | _EB CAMERA`
       }
     },
     {
@@ -31,23 +31,23 @@ export default {
       },
       data: [
         `knight | KNIGHT | _NIGHT
-  chariot | CHARIOT | _HARIOT
-  horse-carriage | HORSE CARRIAGE | _ORSE CARRIAGE
-  yarn-ball | YARN | _ARN
-  bow | BOW | _OW
-  arrow | ARROW | _RROW
-  fountain | FOUNTAIN | _OUNTAIN
-  pouch | POUCH | _OUCH`,
+chariot | CHARIOT | _HARIOT
+horse-carriage | HORSE CARRIAGE | _ORSE CARRIAGE
+yarn-ball | YARN | _ARN
+bow | BOW | _OW
+arrow | ARROW | _RROW
+fountain | FOUNTAIN | _OUNTAIN
+pouch | POUCH | _OUCH`,
 
         `trolley | TROLLEY | _ROLLEY
-  whistle |WHISTLE |_HISTLE
-  twig | TWIG | _WIG
-  palanquin | PALANQUIN | _ALANQUIN
-  medicine | MEDICINE | _EDICINE
-  conch| CONCH | _ONCH
-  toothbrush | TOOTHBRUSH | _OOTHBRUSH
-  chocolate | CHOCOLATE | _HOCOLATE
-  toothpaste | TOOTHPASTE | _OOTHPASTE`
+whistle |WHISTLE |_HISTLE
+twig | TWIG | _WIG
+palanquin | PALANQUIN | _ALANQUIN
+medicine | MEDICINE | _EDICINE
+conch| CONCH | _ONCH
+toothbrush | TOOTHBRUSH | _OOTHBRUSH
+chocolate | CHOCOLATE | _HOCOLATE
+toothpaste | TOOTHPASTE | _OOTHPASTE`
       ]
     },
     {
@@ -58,15 +58,15 @@ export default {
         images: 'flowers',
         title: 'Choose the first letter of the given flower.',
         text: `daffodil | DAFFODIL | _AFFODIL
-  gulmohar | GULMOHAR | _ULMOHAR
-  lily | LILY | _ILY
-  pansy | PANSY | _ANSY
-  poppy | POPPY | _OPPY
-  daisy | DAISY | _AISY
-  jasmine | JASMINE | _ASMINE
-  magnolia | MAGNOLIA | _AGNOLIA
-  periwinkle | PERIWINKLE | _ERIWINKLE
-  water-lily | WATER-LILY | _ATER-LILY`
+gulmohar | GULMOHAR | _ULMOHAR
+lily | LILY | _ILY
+pansy | PANSY | _ANSY
+poppy | POPPY | _OPPY
+daisy | DAISY | _AISY
+jasmine | JASMINE | _ASMINE
+magnolia | MAGNOLIA | _AGNOLIA
+periwinkle | PERIWINKLE | _ERIWINKLE
+water-lily | WATER-LILY | _ATER-LILY`
       }
     },
     {
@@ -81,15 +81,15 @@ export default {
       },
       data: [
         `C, camera 
-  S, speaker
-  T, tablet
-  H, headphone
-  P, pendrive`,
+S, speaker
+T, tablet
+H, headphone
+P, pendrive`,
 
         `R, remote
-  S, smartphone
-  T, torch
-  W, web-camera`
+S, smartphone
+T, torch
+W, web-camera`
       ]
     },
     {
@@ -104,23 +104,23 @@ export default {
       },
       data: [
         `K, knight 
-  C, chariot 
-  Y, yarn-ball 
-  B, bow 
-  T, trolley `,
+C, chariot 
+Y, yarn-ball 
+B, bow 
+T, trolley `,
 
         //   H, horse-carriage  - removed due to small size
         `F, fountain 
-  P, pouch 
-  A, arrow
-  W, whistle 
-  C, conch
-  T, toothbrush`,
+P, pouch 
+A, arrow
+W, whistle 
+C, conch
+T, toothbrush`,
 
         `M, medicine 
-  P, palanquin 
-  C, chocolate 
-  T, toothpaste`
+P, palanquin 
+C, chocolate 
+T, toothpaste`
       ]
     },
     {
@@ -135,15 +135,15 @@ export default {
       },
       data: [
         `D, daffodil 
-        G, gulmohar 
-        L, lily 
-        P, pansy `,
+G, gulmohar 
+L, lily 
+P, pansy `,
 
         `J, jasmine 
-        M, magnolia
-        D, daisy 
-        P, periwinkle 
-        W, water-lily `
+M, magnolia
+D, daisy 
+P, periwinkle 
+W, water-lily `
       ]
     },
     {
@@ -155,15 +155,15 @@ export default {
       },
       data: [
         `camera |Camera
-  headphone|Headphone
-  pendrive|Pendrive
-  remote|Remote
-  smartphone|Smartphone`,
+headphone|Headphone
+pendrive|Pendrive
+remote|Remote
+smartphone|Smartphone`,
 
         `speaker|Speaker
-  tablet|Tablet
-  torch|Torch
-  web-camera | Web Camera`
+tablet|Tablet
+torch|Torch
+web-camera | Web Camera`
       ]
     },
     {
@@ -175,24 +175,24 @@ export default {
       },
       data: [
         `knight | Knight
-  chariot | Chariot
-  horse-carriage | Horse Carriage
-  yarn-ball | Yarn Ball
-  bow | Bow
-  arrow | Arrow`,
+chariot | Chariot
+horse-carriage | Horse Carriage
+yarn-ball | Yarn Ball
+bow | Bow
+arrow | Arrow`,
 
         `fountain | Fountain
-  pouch | Pouch
-  trolley | Trolley
-  whistle |Whistle
-  twig | Twig
-  palanquin | Palanquin`,
+pouch | Pouch
+trolley | Trolley
+whistle |Whistle
+twig | Twig
+palanquin | Palanquin`,
 
         `medicine | Medicine
-  conch| Conch
-  toothbrush | Toothbrush
-  chocolate | Chocolate
-  toothpaste | Toothpaste`
+conch| Conch
+toothbrush | Toothbrush
+chocolate | Chocolate
+toothpaste | Toothpaste`
       ]
     },
     {
@@ -204,16 +204,16 @@ export default {
       },
       data: [
         `daffodil | Daffodil
-        gulmohar | Gulmohar
-        lily | Lily
-        pansy | Pansy
-        poppy | Poppy`,
+gulmohar | Gulmohar
+lily | Lily
+pansy | Pansy
+poppy | Poppy`,
 
         `daisy | Daisy
-        jasmine | Jasmine
-        magnolia | Magnolia
-        periwinkle | Periwinkle
-        water-lily | Water Lily`
+jasmine | Jasmine
+magnolia | Magnolia
+periwinkle | Periwinkle
+water-lily | Water Lily`
       ]
     }
   ]

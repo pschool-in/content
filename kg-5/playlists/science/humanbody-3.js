@@ -11,16 +11,16 @@ export default {
       data: {
         title: 'Sense Organs',
         text: `It is very interesting to learn about our human body. We learn about our body and the external world through our sense organs. Sense organs help us to observe and understand the world around us. We have five sense organs.
-  # Eyes
-  They help us to see the things around us. Eye is the most important sense organ as we learn lot of things through seeing. We can see and tell different colors with the help of eyes. We cannot do most of our works with closed eyes.
-  # Ears
-  We are able to hear the sounds around us with the help of ears. If we close our ears, we can realize that volume of music or noise will be reduced.
-  # Nose
-  Nose helps us to breathe. Apart from that, they also help us to smell our surroundings. Nice food smell increases our appetite. We detect rotten food by its smell. Animals like dog have better smelling ability than us.
-  # Tongue
-  Tongue helps our to enjoy our food. It helps us in detecting different tastes like sweet, salty, bitter or sour. 
-  # Skin
-  Skin is the largest organ as it is located throughout our body. Through skin we experience pain, temperature, pressure etc. And these help us to protect ourself from danger.`
+# Eyes
+They help us to see the things around us. Eye is the most important sense organ as we learn lot of things through seeing. We can see and tell different colors with the help of eyes. We cannot do most of our works with closed eyes.
+# Ears
+We are able to hear the sounds around us with the help of ears. If we close our ears, we can realize that volume of music or noise will be reduced.
+# Nose
+Nose helps us to breathe. Apart from that, they also help us to smell our surroundings. Nice food smell increases our appetite. We detect rotten food by its smell. Animals like dog have better smelling ability than us.
+# Tongue
+Tongue helps our to enjoy our food. It helps us in detecting different tastes like sweet, salty, bitter or sour. 
+# Skin
+Skin is the largest organ as it is located throughout our body. Through skin we experience pain, temperature, pressure etc. And these help us to protect ourself from danger.`
       }
     },
     {
@@ -60,11 +60,11 @@ export default {
       data: {
         title: 'Internal and External Organs',
         text: `A part of the body that is used to perform a certain function is called an organ. We use our legs to walk. Hence, our legs are our organs for walking. We use our ears for hearing. Hence, our ears are the organs for hearing.
-  # External Organs
-  Organs on the outside of our body are external organs. They can be easily seen. eg: ears, nose, legs
-  # Internal Organs
-  Organs that are situated inside the body are called internal organs. It cannot be seen by our eyes.
-  Many functions go on inside our body. A network of blood vessels is spread throughout the body. Blood flows through them continuously. The air we breathe in is carried to all parts of the body through the blood. The food that we eat is digested. These functions are carried out by different organs called internal organs.`
+# External Organs
+Organs on the outside of our body are external organs. They can be easily seen. eg: ears, nose, legs
+# Internal Organs
+Organs that are situated inside the body are called internal organs. It cannot be seen by our eyes.
+Many functions go on inside our body. A network of blood vessels is spread throughout the body. Blood flows through them continuously. The air we breathe in is carried to all parts of the body through the blood. The food that we eat is digested. These functions are carried out by different organs called internal organs.`
       }
     },
     {
@@ -97,9 +97,9 @@ export default {
           dashWidth: 80
         },
         text: `We cannot see our *internal* organs. 
-  We breathe *oxygen* through our *nose*.
-  Blood *vessels* carry oxygen to *every* part of our body.
-  We experience pain through our *skin*.`
+We breathe *oxygen* through our *nose*.
+Blood *vessels* carry oxygen to *every* part of our body.
+We experience pain through our *skin*.`
       }
     },
     {
@@ -109,8 +109,8 @@ export default {
       data: {
         title: 'Internal Cavities',
         text: `The important internal organs should be protected. The structure of our body is such that our internal organs can remain in their places no matter how much we move. They will remain in their place even while moving fast or standing upside down. There are hollow spaces for these organs inside the head and the torso. They are called cavities.
-  The cavity inside the head is called the cranial cavity.
-  The cavity in the torso has three parts. The cavity in the chest is called the thoracic cavity. The cavity inside the abdomen has two parts. They are the abdominal cavity and the pelvic cavity. All the internal organs of the body are situated in these cavities. They are situated in such a way that they will not leave their places and move here and there.`
+The cavity inside the head is called the cranial cavity.
+The cavity in the torso has three parts. The cavity in the chest is called the thoracic cavity. The cavity inside the abdomen has two parts. They are the abdominal cavity and the pelvic cavity. All the internal organs of the body are situated in these cavities. They are situated in such a way that they will not leave their places and move here and there.`
       }
     },
     {
@@ -123,13 +123,13 @@ export default {
           {
             name: 'True',
             text: `Internal cavities help in keeping the organs in its place.
-              The cavity inside the head is called the cranial cavity.
-              The important organs does not move from its original place.`
+The cavity inside the head is called the cranial cavity.
+The important organs does not move from its original place.`
           },
           {
             name: 'False',
             text: `All important organs are hard in nature.
-              The lungs are present in pelvic cavity.`
+The lungs are present in pelvic cavity.`
           }
         ]
       }
@@ -141,14 +141,14 @@ export default {
       data: {
         title: 'Heart',
         text: `We take in air when we breathe. Our blood carries the air to all parts of the body. The food that we eat gets digested. It is again blood that carries the digested part to every particle of the body. For these purposes, it is necessary to keep blood flowing through the blood vessels that spread throughout the body. It is the function of the heart to keep the blood flowing.
-  The heart is an important internal organ. It is in the centre of the thoracic cavity, a little to its left. It is slightly bigger than one’s fist. The walls of the heart too are flexible.
-  1. The heart contracts : The heart becomes smaller.
-  2. The heart relaxes : The heart returns to its original size.
-  Place your palm a little to the left of the centre of your chest. You can feel your own heartbeat.
-  When it contracts the blood in the heart is pushed into the blood vessels. At every contraction, it is pushed further and further. A contraction of the heart is called a ‘heartbeat’. If you place your hand on the middle of the chest a little to the left, you can feel the throbbing of your heart due to the heartbeats.
-  At the wrist, there is a blood vessel that flows very close to the skin. If you place your fingers there, you can feel the heartbeats. This is called feeling the pulse.
-  # Do you know ?
-  When we are sleeping quietly, the pulse becomes slower. When we are running, the pulse becomes faster.`
+The heart is an important internal organ. It is in the centre of the thoracic cavity, a little to its left. It is slightly bigger than one’s fist. The walls of the heart too are flexible.
+1. The heart contracts : The heart becomes smaller.
+2. The heart relaxes : The heart returns to its original size.
+Place your palm a little to the left of the centre of your chest. You can feel your own heartbeat.
+When it contracts the blood in the heart is pushed into the blood vessels. At every contraction, it is pushed further and further. A contraction of the heart is called a ‘heartbeat’. If you place your hand on the middle of the chest a little to the left, you can feel the throbbing of your heart due to the heartbeats.
+At the wrist, there is a blood vessel that flows very close to the skin. If you place your fingers there, you can feel the heartbeats. This is called feeling the pulse.
+# Do you know ?
+When we are sleeping quietly, the pulse becomes slower. When we are running, the pulse becomes faster.`
       }
     },
     {
@@ -321,25 +321,25 @@ Ankle is a part of our hand.`
     },
     // Repeated twice in the same playlist
     /*
-    {
-      label: 'Internal Vs External',
-      id: 'group',
-      type: 'group',
-      data: {
-        title: 'Classify the organs as external or internal organs.',
-        types: [
-          {
-            name: 'Internal',
-            text: 'lungs, kidney, heart, liver, stomach, brain'
-          },
-          {
-            name: 'External',
-            text: 'nostril, skin, nose, mouth, eyes'
-          }
-        ]
-      }
-    },
-    */
+{
+label: 'Internal Vs External',
+id: 'group',
+type: 'group',
+data: {
+title: 'Classify the organs as external or internal organs.',
+types: [
+{
+name: 'Internal',
+text: 'lungs, kidney, heart, liver, stomach, brain'
+},
+{
+name: 'External',
+text: 'nostril, skin, nose, mouth, eyes'
+}
+]
+}
+},
+*/
     {
       id: 'fillup-1',
       label: 'Fill in the blanks',

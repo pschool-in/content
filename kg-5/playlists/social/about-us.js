@@ -38,8 +38,12 @@ export default {
       id: 'match',
       data: {
         title: 'Match smiley with emotion.',
-        text:
-          '🙂, Happy \n  😆, Laugh \n  😢, Sad \n 😠, Angry \n 😮, Surprise \n  😱, Fear',
+        text: `🙂, Happy
+😆, Laugh
+😢, Sad
+😠, Angry
+😮, Surprise
+😱, Fear`,
         leftSingle: true
       }
     },
@@ -52,13 +56,16 @@ export default {
         types: [
           {
             name: 'Good',
-            text:
-              "Covering our mouth while sneezing.\nWearing clean clothes.\nFollowing the class teacher's instruction."
+            text: `Covering our mouth while sneezing.
+Wearing clean clothes.
+Following the class teacher's instruction.`
           },
           {
             name: 'Bad',
-            text:
-              'Shouting in the classroom.\nGoing late for the school.\nRoaming in the classroom.\nTearing papers from notebook.'
+            text: `Shouting in the classroom.
+Going late for the school.
+Roaming in the classroom.
+Tearing papers from notebook.`
           }
         ]
       }
@@ -72,13 +79,16 @@ export default {
         types: [
           {
             name: 'Good',
-            text:
-              'Helping mom with small works.\nEating healthy foods.\nTurn off the tap when not using.'
+            text: `Helping mom with small works.
+Eating healthy foods.
+Turn off the tap when not using.`
           },
           {
             name: 'Bad',
-            text:
-              'Watching TV for a long time.\nKeeping the TV volume high.\nWaking up late in the morning.\nEating before brushing the teeth.'
+            text: `Watching TV for a long time.
+Keeping the TV volume high.
+Waking up late in the morning.
+Eating before brushing the teeth.`
           }
         ]
       }

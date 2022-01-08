@@ -28,8 +28,8 @@ A worm eats grass and leaves. A grasshopper eats worms. Birds eat grasshoppers.T
 The most important food in a food chain is plants.One living thing can be a part of a number of food chains. That gives rise to a food web in nature.
 # Environmental balance
 There are many food chains in our environment. Micro-organisms living in the soil help the process of decomposition of plant residue, dead animals, excreta, etc. This helps in plant growth.Thus plants use substances in the soil for their growth and when plants and animals die, the decomposition of their remains adds these substances to the soil once again. This is an important cycle in the environment.          
-For the existence of living things, it is important that environmental balance is maintained.`,
-      },
+For the existence of living things, it is important that environmental balance is maintained.`
+      }
     },
     {
       label: 'Lithosphere vs Hydrosphere',
@@ -41,14 +41,14 @@ For the existence of living things, it is important that environmental balance i
         types: [
           {
             name: 'Lithosphere',
-            text: 'Mountains, Rocks, Stones, Top soil, Sand',
+            text: 'Mountains, Rocks, Stones, Top soil, Sand'
           },
           {
             name: 'Hydrosphere',
-            text: 'Oceans, Lakes, Ponds, Streams, Glaciers, Groundwater',
-          },
-        ],
-      },
+            text: 'Oceans, Lakes, Ponds, Streams, Glaciers, Groundwater'
+          }
+        ]
+      }
     },
     {
       label: 'Atmosphere vs Biosphere',
@@ -60,14 +60,14 @@ For the existence of living things, it is important that environmental balance i
         types: [
           {
             name: 'Atmosphere',
-            text: 'Carbon dioxide, Oxygen, Nitrogen, Water vapour',
+            text: 'Carbon dioxide, Oxygen, Nitrogen, Water vapour'
           },
           {
             name: 'Biosphere',
-            text: 'Plants, Animals, Humans, Microbes, Insects',
-          },
-        ],
-      },
+            text: 'Plants, Animals, Humans, Microbes, Insects'
+          }
+        ]
+      }
     },
     {
       id: 'match',
@@ -78,8 +78,8 @@ For the existence of living things, it is important that environmental balance i
 Plants, Biosphere
 Ocean, Hydrosphere
 Sand, Lithosphere`,
-        title: 'Match the things with their place in the environment',
-      },
+        title: 'Match the things with their place in the environment'
+      }
     },
     {
       label: 'Arrange the links to form a food chain',
@@ -88,14 +88,14 @@ Sand, Lithosphere`,
       commonData: {
         title: 'Arrange the links to form a food chain',
         multiple: true,
-        fontSize: '2rem',
+        fontSize: '2rem'
       },
       data: [
         `Nectar, Butterflies, Small birds, Foxes`,
         `Dead plants, Centipede, Robin, Raccoon`,
         `Grass, Grasshopper, Frog, Snake, Eagle`,
-        `Decayed plants, Worms, Birds, Eagles`,
-      ],
+        `Decayed plants, Worms, Birds, Eagles`
+      ]
     },
     {
       label: 'Choose the best Answer - Environment',
@@ -107,28 +107,28 @@ Sand, Lithosphere`,
           {
             qText:
               'Water on the earth ___________ continuously due to the heat of the sun.',
-            options: 'evaporates, condensate, cycles',
+            options: 'evaporates, condensate, cycles'
           },
           {
             qText: 'A biosphere contains _______________ .',
-            options: 'Plants, Animals, Humans, Microorganisms,*All',
+            options: 'Plants, Animals, Humans, Microorganisms,*All'
           },
           {
             qText:
               'The envelope of air around the earth is called the _______________ ',
-            options: 'Atmosphere, Biosphere, Lithosphere, Hydrosphere',
+            options: 'Atmosphere, Biosphere, Lithosphere, Hydrosphere'
           },
           {
             qText: 'The most important food in a food chain is  _______.',
-            options: 'Plants, animals, birds, humans',
+            options: 'Plants, animals, birds, humans'
           },
           {
             qText:
               'The layer that extends from the earth’s surface to a height of about 13 km is called the ___________. ',
-            options: 'Troposphere, Stratosphere, Mesosphere, Ionosphere',
-          },
-        ],
-      },
+            options: 'Troposphere, Stratosphere, Mesosphere, Ionosphere'
+          }
+        ]
+      }
     },
     {
       label: 'Drag and Drop - Enviroment',
@@ -139,14 +139,14 @@ Sand, Lithosphere`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `For the existence of living things, it is important that *environmental balance* is maintained.
 Biosphere is also known as *the zone of life*.
 One *living thing* can be a part of a number of food chains.
 Our surroundings and all the living and non living things are together known as the *environment*.
-The *biosphere* spreads in all the other three spheres.`,
-      },
+The *biosphere* spreads in all the other three spheres.`
+      }
     },
     {
       id: 'fillup-2',
@@ -158,8 +158,8 @@ The *biosphere* spreads in all the other three spheres.`,
 Micro-organisms living in the soil help the process of *decomposition (evaporation)* of plant residue, dead animals, excreta, etc.
 As we go higher from the surface of the earth, the air in the atmosphere becomes *rarer (denser)*.
 Each of the components in a food chain is called a *link (web)*.
-The lithosphere is the *solid (liquid)* part of the Earth such as rocks and mountains.`,
-      },
+The lithosphere is the *solid (liquid)* part of the Earth such as rocks and mountains.`
+      }
     },
     {
       label: 'Environment - True or False',
@@ -172,15 +172,15 @@ The lithosphere is the *solid (liquid)* part of the Earth such as rocks and moun
             name: 'True',
             text: `The zone of life where all the life forms interact is called biosphere.
 The ozone layer absorbs Ultraviolet rays and protects the living world from these rays.
-Water vapour cools and condenses forming very fine droplets of water forming clouds.`,
+Water vapour cools and condenses forming very fine droplets of water forming clouds.`
           },
           {
             name: 'False',
             text: `In the lower part of the ionosphere, there is a layer of a gas called ozone.
-One-third of the earth’s surface is covered with water.`,
-          },
-        ],
-      },
+One-third of the earth’s surface is covered with water.`
+          }
+        ]
+      }
     },
     {
       label: 'Our Environment - Reading',
@@ -221,8 +221,8 @@ Manure is an organic matter used as fertilizer. It is mostly derived from animal
 Vermiculture or Vermicomposting is a method of transforming organic wastes such as waste papers, leaves, pieces of woods etc., into a nutrient rich fertilizer using earth worms.
 1. It is a healthy and clean way to eliminate wastes going into our landfills.
 2. It keeps the environment clean.
-3. It improves the water holding capacity of the soil and prevents soil erosion.`,
-      },
+3. It improves the water holding capacity of the soil and prevents soil erosion.`
+      }
     },
     {
       label: 'Diary farm vs Poultry farm',
@@ -233,14 +233,14 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
         types: [
           {
             name: 'Diary farm',
-            text: 'Cows, Buffalo, Goat, Sheeps, Camels',
+            text: 'Cows, Buffalo, Goat, Sheeps, Camels'
           },
           {
             name: 'Poultry farm',
-            text: 'Chicken, Fowls, Ducks, Geese, Turkeys',
-          },
-        ],
-      },
+            text: 'Chicken, Fowls, Ducks, Geese, Turkeys'
+          }
+        ]
+      }
     },
     {
       id: 'match-2',
@@ -251,8 +251,8 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
 Bees, Honey
 Chicken, Eggs
 Earthworms, Fertilizer`,
-        title: 'Match the animals with their products',
-      },
+        title: 'Match the animals with their products'
+      }
     },
     {
       label: 'Drag and Drop - Facts on Enviroment',
@@ -263,14 +263,14 @@ Earthworms, Fertilizer`,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
-          dashWidth: 80,
+          dashWidth: 80
         },
         text: `The term Green Revolution is associated with *food grains*.
 The term Blue Revolution is associated with *fish*.
 The term Silver Revolution is associated with *eggs*.
 The term Yellow Revolution is associated with *oil seeds*.
-The term Golden Revolution is associated with *honey*.`,
-      },
+The term Golden Revolution is associated with *honey*.`
+      }
     },
     {
       id: 'fillup-4',
@@ -281,8 +281,8 @@ The term Golden Revolution is associated with *honey*.`,
         text: `Chicken occupy *90% (80%)* of the total poultry.
 India ranks *fifth (fourth)* in poultry production in the world.
 Whitelegon is the most *egg (milk)* yielding breed in the world.
-An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.`,
-      },
+An area of land with fields and buildings that is devoted primarily to growing crops or raising domestic animals or both as a business is called *farm (field)*.`
+      }
     },
     {
       id: 'fillup-5',
@@ -293,8 +293,8 @@ An area of land with fields and buildings that is devoted primarily to growing c
         text: `*Dairy farming (poultry farming)* is a type of agriculture that focuses on extraction of milk and preparation of various milk products.
 *Buffaloes (sheeps)* produce more amount of milk than cows.
 Dr.Verghese Kurien is called the Father of *White (blue)* Revolution.
-Honey also enhances digestion and *appetite (thirst)*.`,
-      },
+Honey also enhances digestion and *appetite (thirst)*.`
+      }
     },
     {
       label: 'Fact check on Environment - True or False',
@@ -309,17 +309,17 @@ Honey also enhances digestion and *appetite (thirst)*.`,
 Concentrates include broken grams, cereals, millets, rice polish, cotton seeds and oil cakes.
 Bullocks are used to plough land, harvest and thrash crops.
 Panchagavya is an ayurvedic medicine used in agriculture to control pest and fungi.
-Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals. `,
+Veterinary medicine deals with the prevention, diagnosis and treatment of disease, disorder and injury for domestic and non-domestic animals. `
           },
           {
             name: 'False',
             text: `Worker bees lays eggs.
 Egg type fowls are called broilers.
 Surti is a cow breed.
-Assel is a buffalo breed.`,
-          },
-        ],
-      },
-    },
-  ],
+Assel is a buffalo breed.`
+          }
+        ]
+      }
+    }
+  ]
 };

@@ -13,9 +13,9 @@ Light helps us to see things around us. Sun is the natural source of light. It e
 We can see any objects only when light falls on it and bounces off and the light is reflected back into our eyes. We cannot see anything in a dark room because there is no light.
 When light falls on objects, some objects allow light to pass through them while some do not. These are called transparent and opaque objects. Glass is transparent whereas wood is opaque.
 # Shadows
- A shadow is always formed on the opposite side of the source of light. The colour of the shadow is always black.
- A shadow is formed when light cannot pass through an object. That is, the object blocks the path of light. Shadows also tell us that light travels in a straight line. Light cannot bend its path.
- Sometimes, shadows are long and sometimes they are short. It depends on the position of the source of light. Outdoor shadows are longer in the morning and evening and shortest at noon.`,
+A shadow is always formed on the opposite side of the source of light. The colour of the shadow is always black.
+A shadow is formed when light cannot pass through an object. That is, the object blocks the path of light. Shadows also tell us that light travels in a straight line. Light cannot bend its path.
+Sometimes, shadows are long and sometimes they are short. It depends on the position of the source of light. Outdoor shadows are longer in the morning and evening and shortest at noon.`,
         title: 'Light'
       }
     },

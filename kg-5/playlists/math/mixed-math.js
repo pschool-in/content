@@ -296,11 +296,11 @@ export default {
           dashWidth: 70
         },
         text: `Fifteen : *15*
-        Twenty : *20*
-        Eighteen : *18*
-        Eleven : *11*
-        Fourteen : *14*
-        Twelve : *12*`
+Twenty : *20*
+Eighteen : *18*
+Eleven : *11*
+Fourteen : *14*
+Twelve : *12*`
       }
     }
   ]

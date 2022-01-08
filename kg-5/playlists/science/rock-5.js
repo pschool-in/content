@@ -1,14 +1,14 @@
 export default {
-    id: 'rock-5',
-    label: 'Rock 2',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Rocks and Minerals',
-        type: 'passage',
-        data: {
-          text: `# Types of Rocks
+  id: 'rock-5',
+  label: 'Rock 2',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Rocks and Minerals',
+      type: 'passage',
+      data: {
+        text: `# Types of Rocks
 The type of rock depends on the quantity, type and arrangement of minerals in it. The earths crust is made of three main type of rocks. Each one of them is found in a different way.
 # Types of Igneous Rocks
 They are categorized based on the kind of minerals the magma contains and the size of the mineral particles present. 
@@ -25,113 +25,112 @@ Slate: Slate is shiny and is easily split into thin sheets. It is used to make b
 Minerals are underground natural resources. They can be metallic or non-mettalic. Metalic minerals are obtained from ores. Examples of metalic minerals are aluminium, copper, zinc, etc. Precious metals like gold, silver and platinum are used to make jewellery. Non-metalic minerals like coal and petroleum are valuable underground resources.
 # Gemstones 
 Many minerals are formed in the form of crystals. They are very hard and can be cut and polished into beautiful stones called gemstones. Rubies, diamond, sapphires and emerald are examples of gemstones that are used to make jewellery.`,
-          title: 'Rock and Minerals'
-        }
-      },
-      {
-        label: 'Metalic vs Non-metalic',
-        type: 'group',
-        id: 'metalic-nonmetalic',
-        data: {
-          title: 'Classify the minerals as metalic or non-metalic.',
-          types: [
-            {
-                name: 'Metalic',
-                text: 'aluminium, copper, zinc, gold, silver'
-              },
-              {
-                name: 'Non-metalic',
-                text: 'coal, petroleum'
-              }
-          ]
-        }
-      },
-      {
-        id: 'mcq',
-        label: 'Multiple Choice Questions - MCQ',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'Which of the following is a igneous rock?',
-              options: `granite, sandstone, marble`
-            },
-            {
-              qText: 'Which rock is formed from limestone?',
-              options: `marble, basalt, slate`
-            },
-            {
-              qText: 'Which of the following is a use of gemstones?',
-              options: `make jewellery, petroleum, fuel`
-            },
-            {
-                qText: 'Which of the following is a precious metal?',
-                options: `gold, zinc, copper`
-              },
-              {
-                qText: 'Which rock was used to build Taj Mahal?',
-                options: `white marble, slate, sandstone`
-              },
-              {
-                qText: 'Which material was used to build Red Fort?',
-                options: `red sandstone, red marble, red granite`
-              }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
+        title: 'Rock and Minerals'
+      }
+    },
+    {
+      label: 'Metalic vs Non-metalic',
+      type: 'group',
+      id: 'metalic-nonmetalic',
+      data: {
+        title: 'Classify the minerals as metalic or non-metalic.',
+        types: [
+          {
+            name: 'Metalic',
+            text: 'aluminium, copper, zinc, gold, silver'
           },
-          text: `*Basalt* is a fine grained and glassy igneous rock.
+          {
+            name: 'Non-metalic',
+            text: 'coal, petroleum'
+          }
+        ]
+      }
+    },
+    {
+      id: 'mcq',
+      label: 'Multiple Choice Questions - MCQ',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'Which of the following is a igneous rock?',
+            options: `granite, sandstone, marble`
+          },
+          {
+            qText: 'Which rock is formed from limestone?',
+            options: `marble, basalt, slate`
+          },
+          {
+            qText: 'Which of the following is a use of gemstones?',
+            options: `make jewellery, petroleum, fuel`
+          },
+          {
+            qText: 'Which of the following is a precious metal?',
+            options: `gold, zinc, copper`
+          },
+          {
+            qText: 'Which rock was used to build Taj Mahal?',
+            options: `white marble, slate, sandstone`
+          },
+          {
+            qText: 'Which material was used to build Red Fort?',
+            options: `red sandstone, red marble, red granite`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `*Basalt* is a fine grained and glassy igneous rock.
 *Minerals* are underground natural resources.
 Precious metals like gold, silver and platinum are used to make *jewellery*.
 *Sandstone* is made from particles of sand that get cemented together.
 *Slate* is shiny and is easily split into thin sheets.`
-        }
-      },  
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Diamond is the hardest rock.
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Diamond is the hardest rock.
 Limestone is used to make cement.`
-            },
-            {
-              name: 'False',
-              text: `Red fort is made of marble.
+          },
+          {
+            name: 'False',
+            text: `Red fort is made of marble.
 Slate can not be drawn into sheets.
 Gemstones are useless.`
-            }
-          ]
-        }
-      },
-      {
-        id: 'match',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `igneous, granite
+          }
+        ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `igneous, granite
 sedimentary, limestone
 metamorphic, marble
 metalic, zinc
 ruby, gemstone`,
-          title: 'Match with appropriate choice'
-        }
+        title: 'Match with appropriate choice'
       }
-    ]
-  };
-  
+    }
+  ]
+};

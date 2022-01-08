@@ -60,8 +60,12 @@ export default {
       label: 'Animals and Houses',
       data: {
         title: 'Match Animals with their house.',
-        text:
-          'Cow, Shed\n  Monkey, Tree\n  Dog, Kennel\n  Bee, Hive\n Spider, Web\nBird, Nest'
+        text: `Cow, Shed
+Monkey, Tree
+Dog, Kennel
+Bee, Hive
+Spider, Web
+Bird, Nest`
       },
       id: 'animal-houses'
     },
@@ -137,8 +141,11 @@ export default {
           fontSize: '1rem',
           dashWidth: 50
         },
-        text:
-          'We *smell* with our nose. \n We *see* with our eyes. \n  We *hear* with our ears. \n  We *taste* with our tongue. \n  We *touch* with our hands.'
+        text: `We *smell* with our nose.
+We *see* with our eyes.
+We *hear* with our ears.
+We *taste* with our tongue.
+We *touch* with our hands.`
       },
       id: 'senses'
     },
@@ -147,8 +154,12 @@ export default {
       label: 'Regions and animals',
       data: {
         title: 'Match Animals with their dwelling regions.',
-        text:
-          'Desert, Camel \n Farm, Cow \n Ocean, Whale \n Pond, Fish \n Forest, Lion \n Iceland, Penguin'
+        text: `Desert, Camel
+Farm, Cow
+Ocean, Whale
+Pond, Fish
+Forest, Lion
+Iceland, Penguin`
       },
       id: 'regions-animals'
     },
@@ -194,16 +205,17 @@ export default {
       type: 'group',
       id: 'day-vs-night',
       data: {
-        title: 'Classify the activities based on the time of day they are done.',
+        title:
+          'Classify the activities based on the time of day they are done.',
         types: [
           {
-              name: 'Day',
-              text: 'breakfast, read, play in the garden'
-            },
-            {
-              name: 'Night',
-              text: 'stargazing, sleeping, eating dinner'
-            }
+            name: 'Day',
+            text: 'breakfast, read, play in the garden'
+          },
+          {
+            name: 'Night',
+            text: 'stargazing, sleeping, eating dinner'
+          }
         ]
       }
     },
@@ -212,19 +224,20 @@ export default {
       label: 'Day or Night',
       type: 'classifySentence',
       data: {
-        title: 'Classify the activities based on the time of day they are done.',
+        title:
+          'Classify the activities based on the time of day they are done.',
         types: [
           {
             name: 'Day',
             text: `Having breakfast.
-            Going to school.
-            Reading.`
+Going to school.
+Reading.`
           },
           {
             name: 'Night',
             text: `Going to bed.
-            Having dinner.
-            Stargazing.`
+Having dinner.
+Stargazing.`
           }
         ]
       }

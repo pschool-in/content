@@ -14,61 +14,61 @@ export default {
           {
             type: 'html',
             text: `<b>at</b> -  used before a specific time or location<br>
-        <b>of </b> -  to show possession`
+<b>of </b> -  to show possession`
           },
           `# with vs in`,
           {
             type: 'html',
             text: `<b>with</b> - to denote location 'alongside' or 'near' <br>
-        <b>in</b> - to denote the location inside`
+<b>in</b> - to denote the location inside`
           },
           `# for vs from`,
           {
             type: 'html',
             text: `<b>for</b> - used to show purpose or exchange of duration of time<br>
-        <b>from</b> - to show the origin or source`
+<b>from</b> - to show the origin or source`
           },
           `# during vs following`,
           {
             type: 'html',
             text: `<b>during</b> -  to express 'when' something happens <br>
-        <b>following</b> - to express 'after' or as a 'result' of a particular event`
+<b>following</b> - to express 'after' or as a 'result' of a particular event`
           },
           `# beside vs besides`,
           {
             type: 'html',
             text: `<b>beside</b> -  refers to 'close to' or 'next to'<br>
-        <b>besides</b> - 'in addition to' or 'apart from'`
+<b>besides</b> - 'in addition to' or 'apart from'`
           },
           `# up vs upon`,
           {
             type: 'html',
             text: `<b>up</b> -  to talk about position or movement to a higher degree<br>
-        <b>upon</b> - refers to one thing on another`
+<b>upon</b> - refers to one thing on another`
           },
           `# toward vs towards`,
           {
             type: 'html',
             text: `<b>toward</b> - refers to 'near to' or just before a time or place<br>
-        <b>towards</b> - movement in a particular direction`
+<b>towards</b> - movement in a particular direction`
           },
           `# with vs within`,
           {
             type: 'html',
             text: `<b>with</b> - refers to connections between people and things<br>
-        <b>within</b> - inside the range or limits of something`
+<b>within</b> - inside the range or limits of something`
           },
           `# into vs inside`,
           {
             type: 'html',
             text: `<b>into</b> - movement from outside to inside<br>
-        <b>inside</b> - inner part of something`
+<b>inside</b> - inner part of something`
           },
           `# until vs upto`,
           {
             type: 'html',
             text: `<b>until</b> - till a point of time<br>
-        <b>upto</b> - till a point of place`
+<b>upto</b> - till a point of place`
           }
         ]
       }
@@ -224,61 +224,61 @@ The mother bird kept flying around, *until* she found food for her chicks.`,
           {
             type: 'html',
             text: `<b>over</b> - used when crossing from one side to the other<br>
-          <b>onto </b> - refers to direction or movement to a position on a surface`
+<b>onto </b> - refers to direction or movement to a position on a surface`
           },
           `# through vs throughout`,
           {
             type: 'html',
             text: `<b>through</b> - from one end or side of something to the other <br>
-          <b>throughout</b> - refers to every part`
+<b>throughout</b> - refers to every part`
           },
           `# by vs of`,
           {
             type: 'html',
             text: `<b>by</b> - to show who is doing an action, how to do something, method of transport<br>
-          <b>of</b> -  belonging, things made of other things`
+<b>of</b> -  belonging, things made of other things`
           },
           `# about vs across`,
           {
             type: 'html',
             text: `<b>about</b> - on the subject of <br>
-          <b>across</b> - on the other side of something`
+<b>across</b> - on the other side of something`
           },
           `# aside vs away`,
           {
             type: 'html',
             text: `<b>aside</b> - refers to 'close to' or 'next to'<br>
-          <b>away</b> - 'in addition to' or 'apart from'`
+<b>away</b> - 'in addition to' or 'apart from'`
           },
           `# along vs among`,
           {
             type: 'html',
             text: `<b>along</b> - in a line<br>
-          <b>among</b> - in the middle of`
+<b>among</b> - in the middle of`
           },
           `# despite vs in spite of`,
           {
             type: 'html',
             text: `<b>despite</b> - contrast between two things (not followed by 'of')<br>
-          <b>in spite of</b> - to show contrast. (followed by 'of')`
+<b>in spite of</b> - to show contrast. (followed by 'of')`
           },
           `# before vs behind`,
           {
             type: 'html',
             text: `<b>before</b> - refers to earlier time<br>
-          <b>behind</b> - refers to the 'back of'`
+<b>behind</b> - refers to the 'back of'`
           },
           `# on vs in`,
           {
             type: 'html',
             text: `<b>on</b> - top of something<br>
-          <b>in</b> - inside of something`
+<b>in</b> - inside of something`
           },
           `# around vs after`,
           {
             type: 'html',
             text: `<b>around</b> - surrounding<br>
-          <b>after</b> - later in time or place`
+<b>after</b> - later in time or place`
           }
         ]
       }

@@ -435,11 +435,11 @@ Manipur, Imphal`
         title: 'Match states with their capitals.',
         fontSize: '1rem',
         text: `Telengana , Hyderabad
-        Karnataka , Bengaluru
-        Kerala , Thiruvananthapuram
-        Tamil Nadu , Chennai
-        Goa , Panaji
-        Maharashtra , Mumbai`
+Karnataka , Bengaluru
+Kerala , Thiruvananthapuram
+Tamil Nadu , Chennai
+Goa , Panaji
+Maharashtra , Mumbai`
       }
     },
     {
@@ -501,11 +501,11 @@ Manipur, Imphal`
         title: 'Match the states with the language spoken.',
         fontSize: '1rem',
         text: `Andhra Pradhesh , Telugu
-        Karnataka , Kannada
-        Kerala , Malayalam
-        Tamil Nadu , Tamil
-        Goa , Konkani
-        Maharashtra , Marathi`
+Karnataka , Kannada
+Kerala , Malayalam
+Tamil Nadu , Tamil
+Goa , Konkani
+Maharashtra , Marathi`
       }
     },
     {

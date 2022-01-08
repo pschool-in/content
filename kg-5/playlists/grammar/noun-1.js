@@ -14,9 +14,9 @@ export default {
           {
             type: 'html',
             text: `<b>Richa</b> lives with her <b>parents</b>.<br>
-            The <b>books</b> are very helpful.<br>
-           <b>Agra</b> is a beautiful <b>city</b>.<br>
-           <b>Lion</b> is the king of the <b>jungle</b>.<br>`
+The <b>books</b> are very helpful.<br>
+<b>Agra</b> is a beautiful <b>city</b>.<br>
+<b>Lion</b> is the king of the <b>jungle</b>.<br>`
           }
         ]
       }
@@ -46,32 +46,32 @@ export default {
       },
       data: [
         `*Neha* likes grapes.
-  The *clown* gave a *balloon* to the *boy*.
-  The *pear* fell off the *tree*.
-  The *teacher* rings the *bell*.
-  *Monkeys* swing in *trees*.
-  The *cat* is purring.
-  The *bus* stops at the red *light*.
-  These *flowers* are beautiful.
-  We saw *tigers* at the *zoo*.
-  The *boy* kicked the *ball*.`,
+The *clown* gave a *balloon* to the *boy*.
+The *pear* fell off the *tree*.
+The *teacher* rings the *bell*.
+*Monkeys* swing in *trees*.
+The *cat* is purring.
+The *bus* stops at the red *light*.
+These *flowers* are beautiful.
+We saw *tigers* at the *zoo*.
+The *boy* kicked the *ball*.`,
 
         `Who likes *apples*?
-    The *rabbit* hopped across the *road*.
-    *Ice* floats on *water*.
-    We're having *soup* for *dinner*.
-    *Lavina* brought *cake* to the *party*.
-    An *apple* a day keeps the doctor away.
-    The *broom* is used to clean the house.
-    The *sand* is found on the *beach*.
-    My *dog* is very playful.
-    The *airplane* flies in the sky.`,
+The *rabbit* hopped across the *road*.
+*Ice* floats on *water*.
+We're having *soup* for *dinner*.
+*Lavina* brought *cake* to the *party*.
+An *apple* a day keeps the doctor away.
+The *broom* is used to clean the house.
+The *sand* is found on the *beach*.
+My *dog* is very playful.
+The *airplane* flies in the sky.`,
 
         `I click very good *pictures*.
-    *Books* are kept on the *table*.
-    *Rani* wrote a *letter*.
-    The *dog* barks at *strangers*.
-    I love *balloons*.`
+*Books* are kept on the *table*.
+*Rani* wrote a *letter*.
+The *dog* barks at *strangers*.
+I love *balloons*.`
       ]
     },
     {

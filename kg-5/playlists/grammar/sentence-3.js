@@ -171,45 +171,45 @@ The kitchen in our house | is empty. | are empty.`
       },
       data: [
         `the report was sent yesterday
-  do you understand my question
-  be happy with what you have
-  your performance will be observed
-  competition details will be notified
-  erase the drawing and draw again
-  beggars live on the streets
-  good habits make great kids
-  list out the grocery items
-  John climbed the coconut tree`,
+do you understand my question
+be happy with what you have
+your performance will be observed
+competition details will be notified
+erase the drawing and draw again
+beggars live on the streets
+good habits make great kids
+list out the grocery items
+John climbed the coconut tree`,
 
         `the teacher gave us homework
-  this pen belongs to Ruby
-  I'm happy with my family
-  your stage performance was wonderful
-  father lit the candle
-  dry leaves filled the ground
-  John helps the needy people
-  children are solving sudoku
-  some books are damaged`,
+this pen belongs to Ruby
+I'm happy with my family
+your stage performance was wonderful
+father lit the candle
+dry leaves filled the ground
+John helps the needy people
+children are solving sudoku
+some books are damaged`,
 
         `Eskimos live in the igloos
-  I like to learn guitar
-  cats live longer than dogs
-  these mangoes are sweet
-  Fathima bought a torchlight
-  playing treasure games is interesting
-  Sam likes to read stories
-  the teacher gave easy problems`,
+I like to learn guitar
+cats live longer than dogs
+these mangoes are sweet
+Fathima bought a torchlight
+playing treasure games is interesting
+Sam likes to read stories
+the teacher gave easy problems`,
 
         `my pet parrot flew away
-  clean your hands with sanitizer
-  Geetha kicked the ball
-  the old man walks slowly
-  your handwriting is legible
-  climber plants need support
-  students are waiting in the classroom
-  octopus has eight tentacles
-  mango has one big seed
-  John hid the chocolate`
+clean your hands with sanitizer
+Geetha kicked the ball
+the old man walks slowly
+your handwriting is legible
+climber plants need support
+students are waiting in the classroom
+octopus has eight tentacles
+mango has one big seed
+John hid the chocolate`
       ]
     },
     {
@@ -224,75 +224,75 @@ The kitchen in our house | is empty. | are empty.`
       data: [
         [
           `We have planned to go for a picnic.
-            The gift was sent by her brother.
-            I came first in the running race.`,
+The gift was sent by her brother.
+I came first in the running race.`,
           `Don't play in the rain.
-            Wipe your hands properly!
-            Please remember your belongings.`,
+Wipe your hands properly!
+Please remember your belongings.`,
           `Did they reach home on time?
-            Who will raise the flag on important occasions?
-            Does she have difficulties in maths?
-            Do you want to come for the tour?`
+Who will raise the flag on important occasions?
+Does she have difficulties in maths?
+Do you want to come for the tour?`
         ],
         [
           `Fathima lost her water bottle.
-            Wild animals live in the forest.
-            Fruits and vegetables are good for health.
-            Father came to school yesterday.`,
+Wild animals live in the forest.
+Fruits and vegetables are good for health.
+Father came to school yesterday.`,
           `Wake up early in the morning
-            Stop feeding the dog from the table.
-            Please consider my opinion. `,
+Stop feeding the dog from the table.
+Please consider my opinion. `,
           `When is the English hour?
-            Why have you scored less marks?
-            Which is your place in the classroom?`
+Why have you scored less marks?
+Which is your place in the classroom?`
         ],
         [
           `John got a new watch as his birthday gift.
-            Taylor is punctual every day.
-            My pet parrot is sleeping on the couch.`,
+Taylor is punctual every day.
+My pet parrot is sleeping on the couch.`,
           `Go straight ahead and take the second left.
-            Don't eat too much junk food.
-            Get out of my sight.
-            Don't touch without washing your hands.`,
+Don't eat too much junk food.
+Get out of my sight.
+Don't touch without washing your hands.`,
           `Who is in charge of your class? 
-            How do you come to school?
-            Whom do they want to meet?`
+How do you come to school?
+Whom do they want to meet?`
         ],
         [
           `I watched TV and forgot the homework.
-            John brushes his teeth twice a day.
-            Papers are torn by the child.`,
+John brushes his teeth twice a day.
+Papers are torn by the child.`,
           `Nobody can stop the time.
-            Stop biting your fingernails.
-            Stop blabbering in front of people.`,
+Stop biting your fingernails.
+Stop blabbering in front of people.`,
           `Can you help the old man?
-            Will you call your friend?
-            Could he throw away the waste materials?
-            Which is the fastest route to the zoo?`
+Will you call your friend?
+Could he throw away the waste materials?
+Which is the fastest route to the zoo?`
         ],
         [
           `Table lamp was on all day.
-            She is a humble girl and never wears costly dresses.
-            Food was spoiled because it was kept open all day.
-            The teacher is so strict and won't excuse even small mistakes.`,
+She is a humble girl and never wears costly dresses.
+Food was spoiled because it was kept open all day.
+The teacher is so strict and won't excuse even small mistakes.`,
           `Have the grit to solve the problems.
-            Hand me the file.
-            Be there at 8'0 clock.`,
+Hand me the file.
+Be there at 8'0 clock.`,
           `Why did Ramya leave so early?
-            Is your house ready for visitors?
-            Would they participate in the football tournament?`
+Is your house ready for visitors?
+Would they participate in the football tournament?`
         ],
         [
           `John wakes up early in the morning.
-            There was heavy rain in the morning.
-            I don't think anyone has met an alien.`,
+There was heavy rain in the morning.
+I don't think anyone has met an alien.`,
           `Laugh louder for the joke.
-            Join us for the dinner.
-            Stay strong always. 
-            Wash your clothes.`,
+Join us for the dinner.
+Stay strong always. 
+Wash your clothes.`,
           `Should we submit an assignment tomorrow?
-            Shall we change the prayer time?
-            Can you clean the classroom?`
+Shall we change the prayer time?
+Can you clean the classroom?`
         ]
       ]
     }

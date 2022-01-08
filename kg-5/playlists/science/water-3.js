@@ -350,7 +350,7 @@ When rain falls on the mountains, water flows down. Further, many rivulets combi
       data: {
         title: 'More About Water',
         text: `# 3 stages of water
-        Solid: At cold places in the form of ice and snow.
+Solid: At cold places in the form of ice and snow.
 Liquid: The flowing state of water and the most commonly used one.
 Gas/ Vapour: Formed at high temperatures.
 # Fun fact!

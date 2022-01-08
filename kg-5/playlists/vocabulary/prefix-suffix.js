@@ -1388,7 +1388,7 @@ com, over, un, ing, ed
 predict, un, in, able, ing
 fill, ful, fun, ment, ing
 forestat, de, un, ion, ness
- power, em, un, ment, ing
+power, em, un, ment, ing
 mistake, un, im, able, ble
 lead, mis, dis, ing, ness
 will, un, in, ing, able`

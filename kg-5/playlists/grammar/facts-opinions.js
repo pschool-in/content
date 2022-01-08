@@ -9,21 +9,21 @@ export default {
       data: {
         title: 'Facts vs Opinion',
         text: [
-          `A declarative statement can be classified into Facts and Opinions`,
-          `# Facts`,
-          `Statements that can be verified are known as Facts. They can be proven true or false. Statements of fact are objective reality. It can be an event or information, based on real occurrences which can be tested.`,
+          `A declarative statement can be classified into Facts and Opinions
+# Facts
+Statements that can be verified are known as Facts. They can be proven true or false. Statements of fact are objective reality. It can be an event or information, based on real occurrences which can be tested.`,
           {
             type: 'hilight',
             text: `The cost of these chocolates is Rs 100.
-              Tomorrow is a holiday.
-              A week has seven days.`
+Tomorrow is a holiday.
+A week has seven days.`
           },
           `An opinion is an expression of a person’s feelings that cannot be proven. An opinion is an inconclusive statement, used in subjective matters, which cannot be proved true or false. It is what a person thinks or feels about something or someone. `,
           {
             type: 'hilight',
             text: `These chocolates are expensive.
-              I think it may rain tomorrow.
-              Strawberries are better than oranges.`
+I think it may rain tomorrow.
+Strawberries are better than oranges.`
           }
         ]
       }
@@ -40,39 +40,39 @@ export default {
       data: [
         [
           `The Sun rises in the East.
-  Mr. Narendra Modi is the Prime Minister of India.
-  The Ganges is the longest river in India.
-  There are 60 seconds in a minute.
-  Christmas is celebrated in December.`,
+Mr. Narendra Modi is the Prime Minister of India.
+The Ganges is the longest river in India.
+There are 60 seconds in a minute.
+Christmas is celebrated in December.`,
           `Blue is a better color than red.
-  Balu is the best student in my class.
-  No one can hit six like Dhoni.
-  I think it will rain tomorrow.
-  I like dogs more than cats.`
+Balu is the best student in my class.
+No one can hit six like Dhoni.
+I think it will rain tomorrow.
+I like dogs more than cats.`
         ],
         [
           `We saw a rainbow yesterday.
-  Our TV is not working.
-  Arun has done his college in the US.
-  Dogs are faithful animals.
-  We went to Delhi last summer.`,
+Our TV is not working.
+Arun has done his college in the US.
+Dogs are faithful animals.
+We went to Delhi last summer.`,
           `I think the teacher doesn't like me.
-  Arun is the best math teacher in the whole world.
-  It may rain tomorrow.
-  He may be fifty years old.
-  Pizza tastes better than Burger.`
+Arun is the best math teacher in the whole world.
+It may rain tomorrow.
+He may be fifty years old.
+Pizza tastes better than Burger.`
         ],
         [
           `She has won three medals.
-  It is raining hard.
-  I am eleven years old.
-  This is the tallest building in the city.
-  Earth has only one moon.`,
+It is raining hard.
+I am eleven years old.
+This is the tallest building in the city.
+Earth has only one moon.`,
           `England will win the next world cup.
-  Our headmaster is the most intelligent man in our school.
-  I didn't like the food you bought.
-  The movie I saw yesterday was the most boring one.
-  Sometimes he behaves like a fool.`
+Our headmaster is the most intelligent man in our school.
+I didn't like the food you bought.
+The movie I saw yesterday was the most boring one.
+Sometimes he behaves like a fool.`
         ],
         [
           `The national currency of India is Rupee.

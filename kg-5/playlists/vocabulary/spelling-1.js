@@ -30,114 +30,114 @@ export default {
       },
       data: [
         `cat, kat 
-        apple, aple
-        box, bok
-        can, caan
-        ball, bal
-        egg, eg
-        grapes,graps
-        home,hom
-        ice,icc
-        zebra,zibra`,
+apple, aple
+box, bok
+can, caan
+ball, bal
+egg, eg
+grapes,graps
+home,hom
+ice,icc
+zebra,zibra`,
 
         `class, clas
-        cold, kold, colt
-        memory, memary
-        butter, buter
-        sugar, suger
-        water, watar
-        once, onse
-        cattle, catle
-        wheat, wheet
-        meals, meels`,
+cold, kold, colt
+memory, memary
+butter, buter
+sugar, suger
+water, watar
+once, onse
+cattle, catle
+wheat, wheet
+meals, meels`,
 
         `doctor, doktor
-        bomb, bom
-        ghost, gost
-        potatoes, potatos
-        listen, lisen
-        tomatoes, tomatos
-        catch, katch
-        what, wat
-        when, wen
-        how, hou`,
+bomb, bom
+ghost, gost
+potatoes, potatos
+listen, lisen
+tomatoes, tomatos
+catch, katch
+what, wat
+when, wen
+how, hou`,
 
         `why, whi
-        train, trein
-        bus, bas
-        orange, arange
-        boat, bot
-        cycle, cicle
-        call, cal
-        first, farst,
-        many, mani
-        write, rite`,
+train, trein
+bus, bas
+orange, arange
+boat, bot
+cycle, cicle
+call, cal
+first, farst,
+many, mani
+write, rite`,
 
         `your, yor, yoer
-        very, wery
-        which, wich
-        read, raed
-        world, warld
-        great, grate
-        some, som
-        city, citi
-        right, riht
-        best, besd`,
+very, wery
+which, wich
+read, raed
+world, warld
+great, grate
+some, som
+city, citi
+right, riht
+best, besd`,
 
         `know, kow
-        each, eech
-        they, thay
-        number, namber, nambar
-        people, peple, peaple
-        book, bok
-        drop, drap
-        copy, capy, capi
-        dust, dast, tust
-        play, pley`,
+each, eech
+they, thay
+number, namber, nambar
+people, peple, peaple
+book, bok
+drop, drap
+copy, capy, capi
+dust, dast, tust
+play, pley`,
 
         `cost, cast
-        seed, sead, ceed
-        rain, rein, rein
-        near, niar, nier
-        skin, sken, scin
-        team, teem, taem
-        time, tim taime
-        song, sogn
-        snow, sno, snou
-        tree, tre, tere`,
+seed, sead, ceed
+rain, rein, rein
+near, niar, nier
+skin, sken, scin
+team, teem, taem
+time, tim taime
+song, sogn
+snow, sno, snou
+tree, tre, tere`,
 
         `wild, wlid
-        soil, siol, soel
-        that, thet, tat
-        walk, wak, wakl
-        wing, wyng, ving
-        super, supar, suber
-        paint, paent, panit
-        cream, crem, criam
-        buyer, bier, biyer
-        forty, fourty, farty`,
+soil, siol, soel
+that, thet, tat
+walk, wak, wakl
+wing, wyng, ving
+super, supar, suber
+paint, paent, panit
+cream, crem, criam
+buyer, bier, biyer
+forty, fourty, farty`,
 
         `party, parti, parthy
-        smile, smil, smele
-        south, sauth, soath
-        crowd, crawd, croud
-        carry, cari, cary
-        enter, entar, ender
-        break, braek, briak
-        queen, quen, quean
-        cover, cower, covar
-        maker, makar, mager`,
+smile, smil, smele
+south, sauth, soath
+crowd, crawd, croud
+carry, cari, cary
+enter, entar, ender
+break, braek, briak
+queen, quen, quean
+cover, cower, covar
+maker, makar, mager`,
 
         `total, totel, todal
-        heavy, hevy, heavi
-        lunch, lanch, lanche
-        metal, metel, medel
-        final, finel, feinal
-        later, latar, letar
-        chair, char, cheir
-        table, tabel, teble
-        coin, coen, cain
-        cheap, cheep, ceeph`
+heavy, hevy, heavi
+lunch, lanch, lanche
+metal, metel, medel
+final, finel, feinal
+later, latar, letar
+chair, char, cheir
+table, tabel, teble
+coin, coen, cain
+cheap, cheep, ceeph`
       ]
     }
   ]

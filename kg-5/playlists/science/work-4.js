@@ -82,8 +82,8 @@ The law of conservation of energy states that energy can neither be created nor 
           {
             qText: 'What does law of conservation of energy say?',
             options: `Energy can neither be created nor be destroyed.
-            We get tired after doing lot of work.
-            We need to apply force to do work.`
+We get tired after doing lot of work.
+We need to apply force to do work.`
           },
           {
             qText: 'What is the SI unit of energy?',
@@ -236,10 +236,10 @@ Wedge, Axe`
         title: 'Match the related ones.',
         fontSize: '1rem',
         text: `Class 1, Scissors
-  Class 2, Lemon squeezer
-  Class 3, Hockey stick
-  Inclined plane, Slide
-  Wedge, Knife`
+Class 2, Lemon squeezer
+Class 3, Hockey stick
+Inclined plane, Slide
+Wedge, Knife`
       }
     },
     {

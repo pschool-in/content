@@ -443,7 +443,7 @@ Pulses, Madhya Pradesh`
       data: {
         title: 'Our Diet',
         text: `# Inside the Kitchen!
-        1. Heating is used to prepare our food.
+1. Heating is used to prepare our food.
 2. To cook rice, we add water to the rice and bring it to a boil.
 3. Puris and pakodas are deep-fried. They are fried in oil or ghee.
 4. Idlis and modaks are steamed.

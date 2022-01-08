@@ -274,7 +274,7 @@ Fuels are mainly used for cooking and transportation.`
           {
             name: 'False',
             text: `Electrical energy cannot be used as fuel.
- All solid matters can be used as a fuel.`
+All solid matters can be used as a fuel.`
           }
         ]
       }

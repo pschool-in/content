@@ -11,7 +11,7 @@ export default {
         title: 'Order of Adjective',
         text: [
           `Very often we use more than one adjective with the noun.
-          In that case, the order of adjectives is very important.`,
+In that case, the order of adjectives is very important.`,
           {
             type: 'html',
             text: `Eg: <br>

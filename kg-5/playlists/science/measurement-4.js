@@ -1,14 +1,14 @@
 export default {
-    id: 'measurement-4',
-    label: 'Measurement',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Measurement',
-        type: 'passage',
-        data: {
-          text: `# Measurement
+  id: 'measurement-4',
+  label: 'Measurement',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Measurement',
+      type: 'passage',
+      data: {
+        text: `# Measurement
 Measurement is the process of finding out the size or quantity of anything around us by comparing it with a standard time. Length, mass, volume, temperature and time are some of the basic things we measure daily.
 # Measurement of Length
 Length of something means its measurement from end to end. In early days, when there were no rulers, people used their body parts to measure the length. They measured length in terms of hand span, foot span, cubit or paces. But the length of body parts is different for different people, so these method never gave accurate results.
@@ -21,100 +21,100 @@ Volume or capacity of an object is the measurement of space occupied by it. The 
 Temperature of an object is the measurement of how hot or cold an object is. Temperature is commonly measured in degree Celsius or degree Fahrenheit. Temperature of a body is measured using an instrument called thermometer. 
 # Measurement of Time
 Time is usually measured in seconds, minutes, hours, days, months and years. There are 60 seconds in a minute, 60 minutes in an hour and 24 hours in a day. In earlier times when there were no clocks, movements of the sun and the moon were used to know the estimated time of the day. Then sundials were designed. After sundials came the sand clock. Later, pendulum clocks were used.`,
-          title: 'Means of Measurement'
-        }
-      },
-      {
-        id: 'mcq',
-        label: 'Multiple Choice Questions - MCQ',
-        type: 'mcq',
-        data: {
-          title: 'Multiple Choice Questions',
-          questions: [
-            {
-              qText: 'Which of the following is the unit of volume?',
-              options: `litre, metre, second`
-            },
-            {
-              qText: 'Which of the following is measured using a physical balance?',
-              options: `mass, time, length`
-            },
-            {
-              qText: 'Which of the following is measured using measuring tape?',
-              options: `length, time, volume`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
+        title: 'Means of Measurement'
+      }
+    },
+    {
+      id: 'mcq',
+      label: 'Multiple Choice Questions - MCQ',
+      type: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'Which of the following is the unit of volume?',
+            options: `litre, metre, second`
           },
-          text: `A minute contains *60* seconds.
+          {
+            qText:
+              'Which of the following is measured using a physical balance?',
+            options: `mass, time, length`
+          },
+          {
+            qText: 'Which of the following is measured using measuring tape?',
+            options: `length, time, volume`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `A minute contains *60* seconds.
 Thermometer is used to measure the *temperature*.
 If you measure how much water a glass can hold, then you are measuring its *volume*.
 Standard unit of mass is *kilogram*.
 *Time* is measured using a clock or a watch.`
-        }
-      },  
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Millimetre is the smallest unit of length.
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Millimetre is the smallest unit of length.
 Months and years are units for measuring time.`
-            },
-            {
-              name: 'False',
-              text: `In early time, scale was used to measure length.
+          },
+          {
+            name: 'False',
+            text: `In early time, scale was used to measure length.
 Digital balance is used to measure volume.`
-            }
-          ]
-        }
-      },
-      {
-        id: 'match',
-        label: 'Match the following',
-        type: 'match',
-        data: {
-          text: `length, metre
+          }
+        ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `length, metre
 mass, kilogram
 volume, litre
 temperature, celsius
 time, seconds`,
-          title: 'Match with appropriate choice'
-        }
-      },
-      {
-        label: 'Answer in one word',
-        type: 'matchByDragDrop',
-        id: 'drag-drop-2',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
-          },
-          text: `Measurement of something from end to end - *length*
+        title: 'Match with appropriate choice'
+      }
+    },
+    {
+      label: 'Answer in one word',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Measurement of something from end to end - *length*
 Measurement of the quantity of matter an object contains - *mass*
 Measurement of space that an object occupies - *volume*
 Measurement of how hot or cold a body is - *temperature*
 Measurement of interval between two events - *time*`
-        }
       }
-    ]
-  };
-  
+    }
+  ]
+};

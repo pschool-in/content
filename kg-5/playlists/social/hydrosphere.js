@@ -42,7 +42,7 @@ We should be very careful about how we use the water. We have the choice to cons
 It is incredible that a wide variety of earth’s  living organisms exist within the oceans.  Earth is made up of land, water and air. Water is necessary for all life forms. Only 3% of the water is found in ground, lakes, ponds, streams and  rivers .`
       }
       /*
-       Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
+Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
     },
     {
       label: 'Map - Oceans',
@@ -152,7 +152,7 @@ It is incredible that a wide variety of earth’s  living organisms exist within
           {
             name: 'True',
             text: `About 97% of water on the earth is salt water.
-  We should save water.`
+We should save water.`
           },
           {
             name: 'False',

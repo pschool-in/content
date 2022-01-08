@@ -1,15 +1,15 @@
 export default {
-  id: "computer-5",
-  label: "Computer-3",
-  pdf: "",
+  id: 'computer-5',
+  label: 'Computer-3',
+  pdf: '',
   lockAfter: 4,
   list: [
     {
-      label: "Computer System",
-      type: "passage",
-      id: "computersystem",
+      label: 'Computer System',
+      type: 'passage',
+      id: 'computersystem',
       data: {
-        title: "Computer System",
+        title: 'Computer System',
         text: `# What is a computer?
 A computer is an electronic device that accepts data, stores it and processes it to give a result. It uses the input data to give desired outputs based on the instruction that is given. A  computer is made up of hardware and software devices.
 # Hardware
@@ -39,228 +39,228 @@ It is the brain of the computer. It is made of three components.
 2. Arithmetic logic unit
 3. Memory unit
 # Storage devices
-It is used to store data. The most common storage devices are: Hard disc, Compact disc, Digital versatile disc, Blu-ray disc, USB flash drive, Memory card, etc`,
-      },
+It is used to store data. The most common storage devices are: Hard disc, Compact disc, Digital versatile disc, Blu-ray disc, USB flash drive, Memory card, etc`
+      }
     },
     {
-      label: "External Vs Internal",
-      id: "external-internal",
-      type: "group",
+      label: 'External Vs Internal',
+      id: 'external-internal',
+      type: 'group',
       data: {
-        title: "Classify the below devices as internal or external hardware.",
+        title: 'Classify the below devices as internal or external hardware.',
         types: [
           {
-            name: "External",
-            text: "scanner, monitor, mouse, speaker",
+            name: 'External',
+            text: 'scanner, monitor, mouse, speaker'
           },
           {
-            name: "Internal",
-            text: "motherboard, hard disc, microprocessor, RAM",
-          },
-        ],
-      },
+            name: 'Internal',
+            text: 'motherboard, hard disc, microprocessor, RAM'
+          }
+        ]
+      }
     },
     {
-      label: "System Vs Application",
-      id: "system-application",
-      type: "group",
+      label: 'System Vs Application',
+      id: 'system-application',
+      type: 'group',
       data: {
-        title: "Classify the below software as system or application software.",
+        title: 'Classify the below software as system or application software.',
         types: [
           {
-            name: "System",
-            text: "MS-DOS, Windows, Unix, Linux",
+            name: 'System',
+            text: 'MS-DOS, Windows, Unix, Linux'
           },
           {
-            name: "Application",
-            text: "MS Word, Google Chrome, MS Powerpoint",
-          },
-        ],
-      },
+            name: 'Application',
+            text: 'MS Word, Google Chrome, MS Powerpoint'
+          }
+        ]
+      }
     },
     {
-      label: "Input Vs Output",
-      id: "input-output",
-      type: "group",
+      label: 'Input Vs Output',
+      id: 'input-output',
+      type: 'group',
       data: {
-        title: "Classify the below devices as input or output devices.",
+        title: 'Classify the below devices as input or output devices.',
         types: [
           {
-            name: "Input",
-            text: "keyboard, mouse, scanner, webcam",
+            name: 'Input',
+            text: 'keyboard, mouse, scanner, webcam'
           },
           {
-            name: "Output",
-            text: "printer, speaker, monitor",
-          },
-        ],
-      },
+            name: 'Output',
+            text: 'printer, speaker, monitor'
+          }
+        ]
+      }
     },
     {
-      label: "True or False",
-      id: "true-false",
-      type: "classifySentence",
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
       data: {
-        title: "Classify the below sentences as true and false",
+        title: 'Classify the below sentences as true and false',
         types: [
           {
-            name: "True",
+            name: 'True',
             text: `A computer is an electronic device.
 A memory card is a storage device.
-Output device display result.`,
+Output device display result.`
           },
           {
-            name: "False",
+            name: 'False',
             text: `The monitor is an input device.
 Input is the processed data.
-Printed data is called soft copy.`,
-          },
-        ],
-      },
+Printed data is called soft copy.`
+          }
+        ]
+      }
     },
     {
-      id: "match",
-      label: "Match the following",
-      type: "match",
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
       data: {
         text: `Monitor, output
 Keyboard, input
 Processing, CPU
 Storage, memory unit
 Linux, system software`,
-        title: "Match the following",
-      },
+        title: 'Match the following'
+      }
     },
     {
-      label: "Choose the best Answer",
-      id: "mcq",
-      type: "mcq",
+      label: 'Choose the best Answer',
+      id: 'mcq',
+      type: 'mcq',
       data: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: "CPU is known as ______________.",
-            options: "Microprocessor, Microcontrolller, Microphone",
+            qText: 'CPU is known as ______________.',
+            options: 'Microprocessor, Microcontrolller, Microphone'
           },
           {
-            qText: "Which is not a storage device?",
-            options: "Scanner, DVD, Hard disc",
+            qText: 'Which is not a storage device?',
+            options: 'Scanner, DVD, Hard disc'
           },
           {
-            qText: "Which is not an operating system?",
-            options: "MS word, Linux, Windows",
+            qText: 'Which is not an operating system?',
+            options: 'MS word, Linux, Windows'
           },
           {
-            qText: "Which unit carries out arithmetic operations?",
-            options: "ALU, CPU, VDU ",
-          },
-        ],
-      },
+            qText: 'Which unit carries out arithmetic operations?',
+            options: 'ALU, CPU, VDU '
+          }
+        ]
+      }
     },
     {
-      id: "fillup",
-      label: "Computer- Fill Up",
-      type: "fillup",
+      id: 'fillup',
+      label: 'Computer- Fill Up',
+      type: 'fillup',
       data: {
-        title: "Click the blanks and fill it with the right word.",
+        title: 'Click the blanks and fill it with the right word.',
         text: `*Software (Hardware)* is a set of instructions on which computer works.
 The *control (memory)* unit controls everything that happens inside the computer.
 *ALU (CPU)* performs arithmetic operations.
 CPU is the *brain (heart)* of the computer.
-Computer works on the *principle (process)* of Input- Process-Output cycle.`,
-      },
+Computer works on the *principle (process)* of Input- Process-Output cycle.`
+      }
     },
     {
-      label: "Connect",
-      type: "sequence",
-      id: "name-them",
+      label: 'Connect',
+      type: 'sequence',
+      id: 'name-them',
       data: {
-        title: "Based on the below clue, connect letters and form the word.",
-        printTitle: "Form the word using the letters.",
-        type: "clue",
+        title: 'Based on the below clue, connect letters and form the word.',
+        printTitle: 'Form the word using the letters.',
+        type: 'clue',
         text: `An input device used to point and access items on the computer.|MOUSE
 A unit that performs logical operations.|ALU
 An output device that prints output on paper.|PRINTER
 A device that helps to listen to music.|SPEAKER
-A device that is known as VDU.|MONITOR`,
-      },
+A device that is known as VDU.|MONITOR`
+      }
     },
     {
-      label: "Answer in one word",
-      type: "matchByDragDrop",
-      id: "fill-up2",
+      label: 'Answer in one word',
+      type: 'matchByDragDrop',
+      id: 'fill-up2',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `The devices that provide data are called *input* devices
 Storage unit in CPU is also known as *memory* unit
 The brain of the computer is the *CPU*
 The output that is seen on the computer is a *softcopy*
-*Monitor* IS Also known as Visual Display Unit.`,
-      },
+*Monitor* IS Also known as Visual Display Unit.`
+      }
     },
     {
-      id: "match-2",
-      label: "What does it stand for ?",
-      type: "match",
+      id: 'match-2',
+      label: 'What does it stand for ?',
+      type: 'match',
       data: {
         text: `Control unit, CU
 Compact disc, CD
 Memory unit, MU
 Microsoft, MS`,
-        title: "Match the following",
-      },
+        title: 'Match the following'
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fill-up-4",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fill-up-4',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `*Operating* system is an example of system software.
 A hard disc is a *storage* device.
 The devices that provide raw data to the computer are called *input* devices
 Application software is run by *system* software.
-*Software* controls the working of the computer.`,
-      },
+*Software* controls the working of the computer.`
+      }
     },
     {
-      label: "Working of computer",
-      type: "sorting",
+      label: 'Working of computer',
+      type: 'sorting',
       data: {
-        title: "Arrange processes in the sequence they occur.",
-        text: "Accepts data, Processes data, Produces results, Stores results.",
+        title: 'Arrange processes in the sequence they occur.',
+        text: 'Accepts data, Processes data, Produces results, Stores results.'
       },
-      id: "sort",
+      id: 'sort'
     },
     {
-      type: "rightOne",
-      id: "odd-one-out",
-      label: "Odd one out",
+      type: 'rightOne',
+      id: 'odd-one-out',
+      label: 'Odd one out',
       data: {
-        title: "Pick the odd one out.",
-        fontSize: "1.3rem",
+        title: 'Pick the odd one out.',
+        fontSize: '1.3rem',
         noCaps: true,
         text: `monitor, keyboard, mouse, scanner 
 touchscreen, printer, speaker, headphones
-MS word, Linux, Unix, MS-DOS`,
-      },
+MS word, Linux, Unix, MS-DOS`
+      }
     },
     {
-      label: "Internet",
-      type: "passage",
-      id: "Inteernet",
+      label: 'Internet',
+      type: 'passage',
+      id: 'Inteernet',
       data: {
-        title: "Internet",
+        title: 'Internet',
         text: `# Internet
 Internet stands for International Network. It is a vast network that connects computers all over the world. The Internet can be used in various ways.
 Uses: searching information, communication, shopping, entertainment, education, airline, and railway ticketing, etc
@@ -277,59 +277,59 @@ The basic requirement to access the internet includes a computer, a web browser,
 8. E-mail: it stands for Electronic mail. It is used to send and receive messages in electronic form. Examples: Gmail.com, Yahoo.com, Rediffmail.com
 9. Instant messaging: it is used for online chat. It allows an instant response. Examples: Whatsapp, Viber, Line
 10. Video conferencing: it is a face to face communication among people at distant locations through the internet. Examples: Skype, Google meet, Facetime, Zoom
-11. Social networking: these are websites used to connect to friends and relatives. It allows you to share ideas, information, pictures, events, etc online. Examples: Facebook, Orkut, Twitter, Youtube`,
-      },
+11. Social networking: these are websites used to connect to friends and relatives. It allows you to share ideas, information, pictures, events, etc online. Examples: Facebook, Orkut, Twitter, Youtube`
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fill-up3",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fill-up3',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `*World Wide Web* is a collection of websites or web pages stored in web servers.
 *Web page* is a document that can be displayed in a web browser.
 *Website* is a collection of web pages.
 *Home page* is the first page of a website.
-*Web browser* is a software application that helps you to access websites on the internet`,
-      },
+*Web browser* is a software application that helps you to access websites on the internet`
+      }
     },
     {
-      label: "Answer in one word",
-      type: "matchByDragDrop",
-      id: "fill-up4",
+      label: 'Answer in one word',
+      type: 'matchByDragDrop',
+      id: 'fill-up4',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `*Search engine* is a website used to search for information on the internet.
 *Instant messaging* is used for online chat
 *Video conferencing* is a face to face communication among people at distant locations through the internet.
-*Social networking* sites are websites used to connect to friends and relatives. `,
-      },
+*Social networking* sites are websites used to connect to friends and relatives. `
+      }
     },
     {
-      label: "What does it stand for?",
-      type: "matchByDragDrop",
-      id: "fill-up5",
+      label: 'What does it stand for?',
+      type: 'matchByDragDrop',
+      id: 'fill-up5',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `*Internet* stands for International Network.
 *URL* stands for Uniform Resource Locator. 
-*E-mail* stands for Electronic mail`,
-      },
-    },
-  ],
+*E-mail* stands for Electronic mail`
+      }
+    }
+  ]
 };

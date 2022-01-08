@@ -37,10 +37,10 @@ export default {
       type: 'match',
       data: {
         text: `27 September, World Tourism Day
-      05 October, World Teachers' Day
-      24 October, United Nations Day
-      07 April, World Health Day
-      03 March, World Wildlife Day`,
+05 October, World Teachers' Day
+24 October, United Nations Day
+07 April, World Health Day
+03 March, World Wildlife Day`,
         title: 'Match the following with its correct one'
       }
     },
@@ -82,10 +82,10 @@ export default {
           dashWidth: 80
         },
         text: `08 March is the International *Women’s Day*.
-    1 May is the International *Labour Day*.
-    *24 January* is the International Day of Education.
-    *21 February* is the International Mother Language Day.
-    *05 June* is the World Environment Day.`
+1 May is the International *Labour Day*.
+*24 January* is the International Day of Education.
+*21 February* is the International Mother Language Day.
+*05 June* is the World Environment Day.`
       }
     },
     {
@@ -98,13 +98,13 @@ export default {
           {
             name: 'True',
             text: `27 September is the World Tourism Day.
-       05 October is the World Teacher's Day.
-       05 June is the World Environment Day.`
+05 October is the World Teacher's Day.
+05 June is the World Environment Day.`
           },
           {
             name: 'False',
             text: `24 October is world students day.
-    1 May is the International Dance Day.`
+1 May is the International Dance Day.`
           }
         ]
       }
@@ -142,10 +142,10 @@ Angkor Wat - Cambodia`
       type: 'match',
       data: {
         text: `Taj Mahal, Agra
-       Statue of Liberty, New York
-       The Colosseum, Rome
-       Eiffel Tower, Paris
-       Leaning Tower of Pisa, Italy`,
+Statue of Liberty, New York
+The Colosseum, Rome
+Eiffel Tower, Paris
+Leaning Tower of Pisa, Italy`,
         title: 'Match the following with its correct one'
       }
     },
@@ -191,10 +191,10 @@ Angkor Wat - Cambodia`
           dashWidth: 80
         },
         text: `*Eiffel Tower* is situated in Paris.
-   *Taj Mahal* is situated in Agra.
-  *Statue of Liberty* is situated in New York.
-   *Angkor Wat* is situated in Cambodia. 
-  *The Colosseum* is situated in Rome.`
+*Taj Mahal* is situated in Agra.
+*Statue of Liberty* is situated in New York.
+*Angkor Wat* is situated in Cambodia. 
+*The Colosseum* is situated in Rome.`
       }
     },
     {
@@ -207,13 +207,13 @@ Angkor Wat - Cambodia`
           {
             name: 'True',
             text: `Burj Khalifa is located in Dubai. 
-       Statue of Liberty is situated in New York.
-       The Acropolis is situated in Athens.`
+Statue of Liberty is situated in New York.
+The Acropolis is situated in Athens.`
           },
           {
             name: 'False',
             text: `Taj Mahal is located in Nepal. 
-       Angkor Wat is situated in Austria.`
+Angkor Wat is situated in Austria.`
           }
         ]
       }

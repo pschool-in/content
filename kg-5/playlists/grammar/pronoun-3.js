@@ -11,7 +11,7 @@ export default {
         title: 'Possessive Pronouns',
         text: [
           `These are used to indicate ownership or possession. 
-          Eg: his, yours, hers, mine, ours, theirs`,
+Eg: his, yours, hers, mine, ours, theirs`,
           {
             type: 'html',
             text: `This notebook is <b>mine</b>.<br>

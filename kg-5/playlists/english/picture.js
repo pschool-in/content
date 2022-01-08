@@ -256,28 +256,28 @@ kangaroo| Kangaroo`
       },
       data: [
         `crow|Crow
-        dove|Dove
-        duck|Duck
-        hen|Hen
-        chick| Chick
-        parrot|Parrot`,
+dove|Dove
+duck|Duck
+hen|Hen
+chick| Chick
+parrot|Parrot`,
 
         `peacock|Peacock
-        penguin|Penguin
-        sparrow|Sparrow
-        crane| Crane`,
+penguin|Penguin
+sparrow|Sparrow
+crane| Crane`,
 
         `eagle| Eagle
-        flamingo| Flamingo
-        kingfisher| Kingfisher
-        myna| Myna
-        ostrich| Ostrich
-        owl| Owl`,
+flamingo| Flamingo
+kingfisher| Kingfisher
+myna| Myna
+ostrich| Ostrich
+owl| Owl`,
 
         `rooster| Rooster
-        vulture| Vulture
-        woodpecker| Woodpecker
-        koel | Koel`
+vulture| Vulture
+woodpecker| Woodpecker
+koel | Koel`
       ]
     }
   ]

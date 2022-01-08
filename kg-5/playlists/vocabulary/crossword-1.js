@@ -1986,15 +1986,15 @@ export default {
             direction: 'across'
           },
           /*
-          {
-            word: 'h&m',
-            marker: {
-              x: 3,
-              y: 1
-            },
-            hint: 'Sweden-based clothing brand',
-            direction: 'down'
-          },*/
+{
+word: 'h&m',
+marker: {
+x: 3,
+y: 1
+},
+hint: 'Sweden-based clothing brand',
+direction: 'down'
+},*/
           {
             word: 'bata',
             marker: {

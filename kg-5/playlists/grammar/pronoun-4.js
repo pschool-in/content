@@ -118,7 +118,7 @@ Did you learn French *yourself*?`
         title: 'Emphatic Pronouns',
         text: [
           `They are used to emphasize the subject. So usually they follow the subject.
-          This is very similar to a reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
+This is very similar to a reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
           {
             type: 'html',
             text: `She <b>herself</b> cooked the food.<br>

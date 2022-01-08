@@ -8,21 +8,21 @@ export default {
       type: 'dragAndDrop',
       data: {
         img: 'subtract.jpg',
-        title: 'Division',
+        title: 'Subtraction: Drag and Drop the words on the right boxes.',
         width: 260,
         height: 214,
         wordWidth: 70,
         fontSize: '1.2rem',
         words: [
           {
-            word: 'minuend',
-            x: 10,
-            y: 30
-          },
-          {
             word: 'subtrahend',
             x: 100,
             y: 30
+          },
+          {
+            word: 'equals',
+            x: 150,
+            y: 180
           },
           {
             word: 'difference',
@@ -30,13 +30,13 @@ export default {
             y: 30
           },
           {
-            word: 'subtraction sign',
-            x: 20,
-            y: 180
+            word: 'minuend',
+            x: 10,
+            y: 30
           },
           {
-            word: 'equals',
-            x: 150,
+            word: 'subtraction sign',
+            x: 20,
             y: 180
           }
         ]
@@ -48,7 +48,7 @@ export default {
       type: 'dragAndDrop',
       data: {
         img: 'multiply.jpg',
-        title: 'Multiply',
+        title: 'Multiply: Drag and Drop the words on the right boxes.',
         width: 245,
         height: 196,
         wordWidth: 70,
@@ -78,7 +78,7 @@ export default {
       type: 'dragAndDrop',
       data: {
         img: 'divide.jpg',
-        title: 'Division',
+        title: 'Division: Drag and Drop the words on the right boxes.',
         width: 163,
         height: 143,
         wordWidth: 60,

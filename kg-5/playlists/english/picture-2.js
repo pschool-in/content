@@ -90,26 +90,26 @@ vegetables | VEGETABLES | _EGETABLES`
       },
       data: [
         `A, apple
-        C, cherry
-        B, banana
-        G, grapes
-        S, strawberry
-        P, plum`,
+C, cherry
+B, banana
+G, grapes
+S, strawberry
+P, plum`,
 
         `A, avocado
-        G, guava
-        J, jackfruit
-        M, mango
-        O, orange
-        P, pomegranate`,
+G, guava
+J, jackfruit
+M, mango
+O, orange
+P, pomegranate`,
 
         `P, papaya
-        W, watermelon
-        F, fig
-        C, custard-apple
-        D, dates
-        P, pineapple
-        M, muskmelon`
+W, watermelon
+F, fig
+C, custard-apple
+D, dates
+P, pineapple
+M, muskmelon`
       ]
     },
     {
@@ -124,30 +124,30 @@ vegetables | VEGETABLES | _EGETABLES`
       },
       data: [
         `C, carrot
-        B, beetroot
-        O, onion
-        T, tomato
-        P, potato`,
+B, beetroot
+O, onion
+T, tomato
+P, potato`,
 
         `C, cabbage
-        G, garlic
-        P, pumpkin
-        A, almond
-        B, beans
-        D, drumstick`,
+G, garlic
+P, pumpkin
+A, almond
+B, beans
+D, drumstick`,
 
         `C, corn
-        G, ginger
-        L, ladies-finger
-        M, mintleaf
-        P, peanut`,
+G, ginger
+L, ladies-finger
+M, mintleaf
+P, peanut`,
 
         `C, cucumber
-        B, brinjal
-        G, greenpeas
-        R, radish
-        S, spinach
-        V, vegetables`
+B, brinjal
+G, greenpeas
+R, radish
+S, spinach
+V, vegetables`
       ]
     },
     {

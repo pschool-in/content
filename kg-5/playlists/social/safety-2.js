@@ -1,14 +1,14 @@
 export default {
-    id: 'safety-2',
-    label: 'Safety 2',
-    lockAfter: 4,
-    list: [
-      {
-        id: 'notes',
-        label: 'Safety',
-        type: 'passage',
-        data: {
-          text: `# Safety while using electricity
+  id: 'safety-2',
+  label: 'Safety 2',
+  lockAfter: 4,
+  list: [
+    {
+      id: 'notes',
+      label: 'Safety',
+      type: 'passage',
+      data: {
+        text: `# Safety while using electricity
 1. Never put your fingers or anything into a plug socket
 2. Never fly kites near power lines, always find open space
 3. If you see a broken wire, don’t touch it and tell a parent
@@ -32,66 +32,65 @@ export default {
 6. Do not go too close to the swing when someone is using it.
 7. Never jump off a moving swing and hold onto the chains with both hands.
 8. If you are playing in the school grounds, do not leave the area without the teacher's permission.`,
-          title: 'Electric Safety'
-        }
-      },
-      {
-        label: 'Electric Safety - Fillup',
-        type: 'matchByDragDrop',
-        id: 'drag-drop',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
-          },
-          text: `Make sure there aren’t any *cables* where people walk.
+        title: 'Electric Safety'
+      }
+    },
+    {
+      label: 'Electric Safety - Fillup',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Make sure there aren’t any *cables* where people walk.
 Turn *off* electrical objects by the switch and then unplug.
 Keep water, juice, or any other types of *liquid* away from electronics.
 Don’t touch electrical objects with *wet* hands.
 Don’t use electrical objects in the *bathroom*.`
-        }
-      },  
-      {
-        id: 'true-false',
-        label: 'True or False',
-        type: 'classifySentence',
-        data: {
-          title: 'True or False',
-          types: [
-            {
-              name: 'True',
-              text: `Don’t touch electrical objects with wet hands.
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Don’t touch electrical objects with wet hands.
 Don’t use electrical objects in the bathroom.
 Never put your fingers or anything into a plug socket.`
-            },
-            {
-              name: 'False',
-              text: `Don't obey warning signs.
+          },
+          {
+            name: 'False',
+            text: `Don't obey warning signs.
 If you see a broken wire, handle it yourself.
 We can leave devices charging overnight.`
-            }
-          ]
-        }
-      },
-      {
-        label: 'Fill in the blanks',
-        type: 'matchByDragDrop',
-        id: 'drag-drop2',
-        data: {
-          isPractice: false,
-          title: 'Drag and drop the words at proper place.',
-          styles: {
-            fontSize: '1rem',
-            dashWidth: 80
-          },
-          text: `Never *push* other children or cause any harm.
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop2',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Never *push* other children or cause any harm.
 Do not go too *close* to the swing when someone is using it.
 Inform your *parents* before going outdoors to play.
 Land on your *feet* while jumping.`
-        }
       }
-    ]
-  };
-  
+    }
+  ]
+};

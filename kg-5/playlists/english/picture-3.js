@@ -132,14 +132,14 @@ R, rainbow`
       },
       data: [
         `E, ear
-        F, foot
-        H, hair
-        M, mouth`,
+F, foot
+H, hair
+M, mouth`,
 
         `E, eye
-        H, hand
-        T, tooth
-        N, nose`
+H, hand
+T, tooth
+N, nose`
       ]
     },
     {
@@ -154,14 +154,14 @@ R, rainbow`
       },
       data: [
         `R, rose
-        L, lotus
-        S, sunflower
-        M, marigold`,
+L, lotus
+S, sunflower
+M, marigold`,
 
         `H, hibiscus
-        J, jasmine
-        T, tulip
-        Z, zinnia`
+J, jasmine
+T, tulip
+Z, zinnia`
       ]
     },
     {
@@ -176,25 +176,25 @@ R, rainbow`
       },
       data: [
         `B, bell
-        R, radio
-        C, coin
-        T, top,
-        S, stick`,
+R, radio
+C, coin
+T, top,
+S, stick`,
 
         `B, brush
-        R, ring
-        D, drums
-        F, food
-        K, king`,
+R, ring
+D, drums
+F, food
+K, king`,
 
         `B, bone
-        K, kite
-        L, ladder
-        W, wheel`,
+K, kite
+L, ladder
+W, wheel`,
 
         `B, balloon
-        P, park
-        G, garden`
+P, park
+G, garden`
       ]
     },
     {
@@ -230,14 +230,14 @@ rainbow |Rainbow `
       },
       data: [
         `ear |Ear
-        eye |Eye
-        foot |Foot
-        hair|Hair`,
+eye |Eye
+foot |Foot
+hair|Hair`,
 
         `hand|Hand
-        mouth|Mouth
-        nose| Nose
-        tooth|Tooth`
+mouth|Mouth
+nose| Nose
+tooth|Tooth`
       ]
     },
     {
@@ -268,25 +268,25 @@ zinnia | Zinnia`
       },
       data: [
         `bell | Bell
-        brush| Brush
-        bone| Bone
-        radio | Radio
-        box | Box
-        coin | Coin`,
+brush| Brush
+bone| Bone
+radio | Radio
+box | Box
+coin | Coin`,
 
         `top | Top
-        balloon | Balloon
-        stick | Stick
-        ring| Ring
-        drums| Drum
-        food| Food `,
+balloon | Balloon
+stick | Stick
+ring| Ring
+drums| Drum
+food| Food `,
 
         `king| King
-        kite| Kite
-        ladder| Ladder
-        wheel| Wheel
-        park | Park
-        garden | Garden`
+kite| Kite
+ladder| Ladder
+wheel| Wheel
+park | Park
+garden | Garden`
       ]
     }
   ]

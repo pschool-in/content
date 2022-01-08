@@ -44,10 +44,10 @@ West Bengal - Bengali`
       type: 'match',
       data: {
         text: `Andhra Pradesh, Telugu
-               Assam, Assamese
-               Goa, Konkani
-               Gujarat, Gujarati
-               Jammu & Kashmir, Kashmiri`,
+Assam, Assamese
+Goa, Konkani
+Gujarat, Gujarati
+Jammu & Kashmir, Kashmiri`,
         title: 'Match the following with its correct one'
       }
     },
@@ -93,10 +93,10 @@ West Bengal - Bengali`
           dashWidth: 80
         },
         text: `People in Mizoram speak *Mizo*.
-         People in Tamil Nadu speak *Tamil*.
-         People in Odisha speak *Odia*.
-         People in Punjab speak *Punjabi*.
-         People in Telangana speak *Telugu*.`
+People in Tamil Nadu speak *Tamil*.
+People in Odisha speak *Odia*.
+People in Punjab speak *Punjabi*.
+People in Telangana speak *Telugu*.`
       }
     },
     {
@@ -109,12 +109,12 @@ West Bengal - Bengali`
           {
             name: 'True',
             text: `Hindi is the official language of Uttar Pradesh.
-             Bengali is the official language of West Bengal.`
+Bengali is the official language of West Bengal.`
           },
           {
             name: 'False',
             text: `Hindi is the official language of Karnataka.
-             Tamil is the official language of Kerala.`
+Tamil is the official language of Kerala.`
           }
         ]
       }

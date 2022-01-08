@@ -11,10 +11,10 @@ export default {
       data: {
         title: 'Unity is Strength',
         text: `Once upon a time, there was a flight of doves that flew in search of food led by their king. One day, after flying for a long distance, they were feeling very tired. The dove king encouraged them to fly a little further. The smallest dove picked up speed and found some rice scattered beneath a banyan tree. So, all of them landed on the ground and began to eat.
-        Suddenly a net fell over them, and they were all trapped. They saw a hunter was approaching them, and he was carrying a huge club. The doves desperately fluttered their wings trying to get out, but they could not. The king had an idea. He advised all doves to fly up together carrying the net with them. He said, "there is strength in unity".
-        Each dove picked up a portion of the net and they flew off carrying the net with them. The hunter looked up in astonishment. He tried to follow them, but they were flying high over hills and valleys. They flew to a hill near a city of temples where lived a mouse who could help them. He was a faithful friend of the dove king.
-        When the mouse heard the loud noise of their approach, he went into hiding. The dove king gently called out to him, and then the mouse was happy to see him. The dove king explained that they were caught in a trap and they needed his help to gnaw the net with his teeth and set them free.
-        The mouse cut the net and one by one all the doves were free. They all thanked the mouse and flew away together.`,
+Suddenly a net fell over them, and they were all trapped. They saw a hunter was approaching them, and he was carrying a huge club. The doves desperately fluttered their wings trying to get out, but they could not. The king had an idea. He advised all doves to fly up together carrying the net with them. He said, "there is strength in unity".
+Each dove picked up a portion of the net and they flew off carrying the net with them. The hunter looked up in astonishment. He tried to follow them, but they were flying high over hills and valleys. They flew to a hill near a city of temples where lived a mouse who could help them. He was a faithful friend of the dove king.
+When the mouse heard the loud noise of their approach, he went into hiding. The dove king gently called out to him, and then the mouse was happy to see him. The dove king explained that they were caught in a trap and they needed his help to gnaw the net with his teeth and set them free.
+The mouse cut the net and one by one all the doves were free. They all thanked the mouse and flew away together.`,
         moral: 'Moral: When you work together, you are stronger.'
       }
     },
@@ -78,8 +78,8 @@ The doves were trapped.`
         },
         title: 'Birbal’s Wisdom',
         text: `One day, Akbar lost his ring. When Birbal arrived in the court, Akbar told him “I have lost my ring. My father gave it to me as a gift. Please help me to find it.” Birbal said, ”Do not worry your Majesty, I will find your ring right now.”
-        He said,  “Your Majesty the ring is here in this court itself, it is with one of the people present here. The person who has a straw in his beard has your ring.” One man who had the king’s ring was shocked and immediately moved his hand over his beard. Birbal noticed it. He immediately pointed towards the man and said,  “Please search this man. He has the king’s ring.”
-        Akbar could not understand how Birbal managed to find the ring. Birbal explained that a guilty person is always scared.`,
+He said,  “Your Majesty the ring is here in this court itself, it is with one of the people present here. The person who has a straw in his beard has your ring.” One man who had the king’s ring was shocked and immediately moved his hand over his beard. Birbal noticed it. He immediately pointed towards the man and said,  “Please search this man. He has the king’s ring.”
+Akbar could not understand how Birbal managed to find the ring. Birbal explained that a guilty person is always scared.`,
         moral: 'Moral: A guilty conscience needs no accuser.'
       }
     },
@@ -139,8 +139,8 @@ One person reacted and checked his beard and he was the thief.`
       data: {
         title: 'The Rabbit and the Turtle',
         text: `One day a rabbit was boasting about how fast he could run. He was laughing at the turtle for being so slow. Much to the rabbit’s surprise, the turtle challenged him to a race. The rabbit thought this was a good joke and accepted the challenge. The fox was the umpire of the race. As the race began, the rabbit raced way ahead of the turtle, just like everyone thought.
-        The rabbit reached halfway and could not see the turtle anywhere. It was very hot. The rabbit felt very tired. So he decided to  take a short nap. Even if the turtle passed him, he would be able to race to the finish line and run ahead of him. All this time, the turtle kept walking step-by-step. He decided not to quit no matter how tired he was. He just kept going.
-        However, the rabbit slept longer than he had thought. When he woke up, he could not see the turtle anywhere! He raced at full speed to the finish line but he found the turtle there waiting for him.`,
+The rabbit reached halfway and could not see the turtle anywhere. It was very hot. The rabbit felt very tired. So he decided to  take a short nap. Even if the turtle passed him, he would be able to race to the finish line and run ahead of him. All this time, the turtle kept walking step-by-step. He decided not to quit no matter how tired he was. He just kept going.
+However, the rabbit slept longer than he had thought. When he woke up, he could not see the turtle anywhere! He raced at full speed to the finish line but he found the turtle there waiting for him.`,
         moral: 'Moral: Never underestimate anyone.'
       }
     },
@@ -202,7 +202,7 @@ The turtle won the race`
         },
         title: 'Two Frogs',
         text: `A group of frogs was traveling through the woods and two of them fell into a deep pit. When other frogs saw how deep the pit was, they told them that they were as good as dead. The two frogs ignored their comments and tried to jump out of the pit with all their might. The other frogs kept telling them to stop, and that they were as good as dead. Finally, one of the frogs took heed to what other frogs were saying and gave up. He fell down and died.
-        The other frog continued to jump as hard as he could. Once again, the crowd of frogs yelled at him to stop the pain and just die. He jumped even harder and finally made it out. When he got out, the other frogs said, “Did you not hear us?” The frog explained to them that he was deaf. He thought they were encouraging him the entire time.`,
+The other frog continued to jump as hard as he could. Once again, the crowd of frogs yelled at him to stop the pain and just die. He jumped even harder and finally made it out. When he got out, the other frogs said, “Did you not hear us?” The frog explained to them that he was deaf. He thought they were encouraging him the entire time.`,
         moral:
           'Moral: There is power of life and death in the tongue. An encouraging word to someone who is down can lift them up and help them to make it. Also, we should do our best and don’t mind the discouragement.'
       }
@@ -263,11 +263,11 @@ But the other frog was deaf, and tried hard and came out.`
       data: {
         title: 'Tenali Raman and Two Thieves',
         text: `One summer night, when Tenali Raman and his wife were about to sleep, he heard a rustling sound of leaves from outside. There was not even a light breeze blowing at that time, so he presumed that some thieves were hiding in the bushes. He figured out that they must be planning to rob his house in the night.
-        He thought of a plan and said to his wife, “My dear, I think that some notorious thieves are hiding in our neighborhood. So, let’s hide all the jewelry and money that we have in the well.
-        A little later, Tenali Raman and his wife came out of the house carrying a big trunk and dropped it into the well. Then, they went back inside their house and pretended to be asleep. The thieves waited for a while and then started drawing water from the well.
-        They wanted to empty the water in the well and get the treasure. The thieves kept drawing out water, the entire night. Towards dawn, they managed to pull out the trunk, and when they opened it, they were extremely shocked and disappointed to see only some big stones in it.
-        They understood that Tenali Raman planned to outsmart them. Just then, Tenali Raman came out of his house and said, “Thank you friends, for watering my plants. I must pay you for your labor.”
-        Hearing this, the thieves fell at Tenali’s feet, asking for forgiveness. They promised not to steal or rob anyone ever again. Tenali decided to let them go.`,
+He thought of a plan and said to his wife, “My dear, I think that some notorious thieves are hiding in our neighborhood. So, let’s hide all the jewelry and money that we have in the well.
+A little later, Tenali Raman and his wife came out of the house carrying a big trunk and dropped it into the well. Then, they went back inside their house and pretended to be asleep. The thieves waited for a while and then started drawing water from the well.
+They wanted to empty the water in the well and get the treasure. The thieves kept drawing out water, the entire night. Towards dawn, they managed to pull out the trunk, and when they opened it, they were extremely shocked and disappointed to see only some big stones in it.
+They understood that Tenali Raman planned to outsmart them. Just then, Tenali Raman came out of his house and said, “Thank you friends, for watering my plants. I must pay you for your labor.”
+Hearing this, the thieves fell at Tenali’s feet, asking for forgiveness. They promised not to steal or rob anyone ever again. Tenali decided to let them go.`,
         moral:
           'Moral - Keeping cool and using your wit during dire situations can help you to get out of them.'
       }

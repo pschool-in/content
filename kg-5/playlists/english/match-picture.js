@@ -116,27 +116,27 @@ H, hornbill`
       },
       data: [
         `A, apple
-        G, grapes
-        B, banana
-        C, cherry
-        P, papaya`,
+G, grapes
+B, banana
+C, cherry
+P, papaya`,
 
         `S, strawberry
-        G, guava
-        P, pineapple
-        M, mango
-        O, orange`,
+G, guava
+P, pineapple
+M, mango
+O, orange`,
 
         `A, avocado
-        J, jackfruit
-        W, watermelon
-        P, pomegranate
-        F, fig`,
+J, jackfruit
+W, watermelon
+P, pomegranate
+F, fig`,
 
         `C, custard-apple
-        P, plum
-        D, dates
-        M, muskmelon`
+P, plum
+D, dates
+M, muskmelon`
       ]
     },
     {

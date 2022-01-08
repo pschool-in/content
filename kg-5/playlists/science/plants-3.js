@@ -18,7 +18,7 @@ Many kids feel that flowers are the most attractive part of a plant. Flowers are
 # Vegetable & Fruit
 In most of the plants, flowers become vegetables and fruits. They provide food to humans like us, and they are very healthy. 
 # Seed
- Seeds are very important to plant, because they help in bringing new plants. Farmers sow the seeds to grow plants. Birds eat the fruits and throw the seeds in some other places. And after few days, a new plant will come from the seeds.
+Seeds are very important to plant, because they help in bringing new plants. Farmers sow the seeds to grow plants. Birds eat the fruits and throw the seeds in some other places. And after few days, a new plant will come from the seeds.
 # Stem
 Stem is the strongest part of a plant. It helps the plant to stand straight. Plants with weak stems are usually creepers. They need support to grow.
 # Root
@@ -86,10 +86,10 @@ Root is responsible for absorbing water and other minerals from the soil. The st
           dashWidth: 50
         },
         text: `The *root* absorbs water from the soil and helps to hold the plant in the soil. 
-  The *leaf* uses the sun and air to make food for the plant. 
- The *stem* helps the plant to stand straight. 
-  The *flower* makes the seeds and fruits. 
- All plants start as a *seed*.`
+The *leaf* uses the sun and air to make food for the plant. 
+The *stem* helps the plant to stand straight. 
+The *flower* makes the seeds and fruits. 
+All plants start as a *seed*.`
       }
     },
     {

@@ -11,26 +11,26 @@ export default {
       data: {
         title: 'Raw and Cooked Food',
         text: [
-          `Food is one of the basic needs of life. We get energy for all our activities from food. Food obtained from the nature provides all the nutrients to our body. But seeing the advertisement, we are attracted towards junk food.`,
-          `In our daily life, we depend on plants and animals for our food. Food that we eat directly without cooking is called raw food. We eat fruits, some vegetables, tubers and nuts in the raw form. Some pulses and cereals are also eaten as raw food.`,
-          `Food that needs to be processed using heat before it can be eaten is called cooked food. Why should we cook food?`,
-          `1. Cooked food is digested easily.`,
-          `2. Cooking softens the food materials.`,
-          `3. Cooking kills germs.`,
-          `4. Cooking adds taste and flavour to food.`,
-          `# Cooking methods`,
-          `Some of the commonly used cooking methods are given below.`,
-          `# Boiling:`,
-          `It is a method of cooking food by immersing it in boiling water. So that the food becomes soft. Example: Rice, Egg.`,
-          `# Steaming: `,
-          `It is a method of cooking food in steam by immersing the vessel in a container with boiling water. Example: Idli, Idiyappam.`,
-          `# Pressure cooking: `,
-          `It is a method of cooking food in a pressure cooker. Example: Rice, Dhal.`,
-          `# Roasting: `,
-          `It is a method of cooking food by heating on a tawa or frying pan without covering it. Example: Groundnuts, Cashewnut.`,
-          `# Frying:`,
-          `It is a method of cooking food in hot oil. Example: Chips, Poori.`,
-          `Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`
+          `Food is one of the basic needs of life. We get energy for all our activities from food. Food obtained from the nature provides all the nutrients to our body. But seeing the advertisement, we are attracted towards junk food.
+In our daily life, we depend on plants and animals for our food. Food that we eat directly without cooking is called raw food. We eat fruits, some vegetables, tubers and nuts in the raw form. Some pulses and cereals are also eaten as raw food.
+Food that needs to be processed using heat before it can be eaten is called cooked food. Why should we cook food?
+1. Cooked food is digested easily.
+2. Cooking softens the food materials.
+3. Cooking kills germs.
+4. Cooking adds taste and flavour to food.
+# Cooking methods
+Some of the commonly used cooking methods are given below.
+# Boiling:
+It is a method of cooking food by immersing it in boiling water. So that the food becomes soft. Example: Rice, Egg.
+# Steaming: 
+It is a method of cooking food in steam by immersing the vessel in a container with boiling water. Example: Idli, Idiyappam.
+# Pressure cooking: 
+It is a method of cooking food in a pressure cooker. Example: Rice, Dhal.
+# Roasting: 
+It is a method of cooking food by heating on a tawa or frying pan without covering it. Example: Groundnuts, Cashewnut.
+# Frying:
+It is a method of cooking food in hot oil. Example: Chips, Poori.
+Boiling, steaming and pressure cooking uses moist heat. Roasting, frying and baking uses dry heat. There are other cooking methods like microwave cooking and solar cooking.`
         ]
       }
     },

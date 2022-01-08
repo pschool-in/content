@@ -43,8 +43,8 @@ We need to learn how to reduce, reuse and recycle wastes. The following practice
 3. Segregate wastes into bio-degradable and nonbiodegradable items.
 4. Do not throw away your wastes every where. Put them in dustbins and dispose them properly.
 5. Don’t waste food. Waste food in schools can be collected and used to feed cattles.
-6. Organic wastes can be converted into manures.`,
-      },
+6. Organic wastes can be converted into manures.`
+      }
     },
     {
       type: 'rightOne',
@@ -57,8 +57,8 @@ We need to learn how to reduce, reuse and recycle wastes. The following practice
         text: `Cooking, Melting, Freezing, Boiling
 Boiling, Burning, Cooking, Rusting of iron
 Chemicals, Vegetables, Flowers, Fruits
-Paints, Paper, Glass, Metals`,
-      },
+Paints, Paper, Glass, Metals`
+      }
     },
     {
       label: 'Reversible vs Irreversible',
@@ -71,16 +71,16 @@ Paints, Paper, Glass, Metals`,
             name: 'Reversible',
             text: `Stretching a rubber band.
 Blowing air into a balloon.
-Freezing water in a fridge.`,
+Freezing water in a fridge.`
           },
           {
             name: 'Irreversible',
             text: `Cutting a rubber band into pieces.
 Bursting a balloon.
-Burning of papers`,
-          },
-        ],
-      },
+Burning of papers`
+          }
+        ]
+      }
     },
     {
       id: 'match',
@@ -93,8 +93,8 @@ Paper, recycleable
 Rusting, irreversible
 Freezing, reversible`,
         fontSize: '1rem',
-        title: 'Match the following',
-      },
+        title: 'Match the following'
+      }
     },
     {
       label: 'Multiple Choice Questions',
@@ -106,28 +106,28 @@ Freezing, reversible`,
           {
             qText: 'An example for reversible change is ________.',
             options:
-              'melting of ice, burst of balloon, burning paper, change of milk into curd',
+              'melting of ice, burst of balloon, burning paper, change of milk into curd'
           },
           {
             qText: 'Chemical reactions are example for',
             options:
-              'reversible change, * irreversible change, both of them, none of them',
+              'reversible change, * irreversible change, both of them, none of them'
           },
           {
             qText: 'Which of the following is not an organic waste?',
-            options: 'Battery, Flowers, Vegetables, Fruits',
+            options: 'Battery, Flowers, Vegetables, Fruits'
           },
           {
             qText: '________ wastes can be converted into manures.',
-            options: 'organic, toxic, recyclable e-waste',
+            options: 'organic, toxic, recyclable e-waste'
           },
           {
             qText: 'Which of the following help to reduce waste?',
             options:
-              "* Use reusable bags, * Don't waste food, * Segregate wastes into bio-degradable and nonbiodegradable items",
-          },
-        ],
-      },
+              "* Use reusable bags, * Don't waste food, * Segregate wastes into bio-degradable and nonbiodegradable items"
+          }
+        ]
+      }
     },
     {
       label: 'Fill up ',
@@ -138,14 +138,14 @@ Freezing, reversible`,
         title: 'Drag and drop to complete the below sentences.',
         styles: {
           fontSize: '1rem',
-          dashWidth: 60,
+          dashWidth: 60
         },
         text: `Most of the physical changes are *reversible* changes.
 Most of the chemical changes are *irreversible* changes.
 Wastes from house and apartments are called *household* wastes.
 News paper is a *recyclable* waste.
-Kitchen wastes are *organic* waste.`,
-      },
-    },
-  ],
+Kitchen wastes are *organic* waste.`
+      }
+    }
+  ]
 };

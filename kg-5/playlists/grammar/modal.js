@@ -16,15 +16,15 @@ export default {
 4. We may have a holiday on Tuesday.`
       }
     },
-      {
-    id: 'fillup',
-    label: 'Fill up with options',
-    type: 'fillup',
-    commonData: {
-      title: `Click on each blank for options.`
-    },
-    data: [
-`I *can (may)* swim across the river.
+    {
+      id: 'fillup',
+      label: 'Fill up with options',
+      type: 'fillup',
+      commonData: {
+        title: `Click on each blank for options.`
+      },
+      data: [
+        `I *can (may)* swim across the river.
 It *may (can)* rain tomorrow.
 *Can (May)* you lift this box?
 *May (Can)* I come in?
@@ -35,7 +35,7 @@ She *may not (mayn't)* be able to come.
 We *cannot (cann't)* dance without the teacher's permission.
 Books *may not (mayn't)* be available at the store.`,
 
-`They *can (may)* speak English.
+        `They *can (may)* speak English.
 He *cannot (cann't)* ride a bike.
 *May (Can)* you have a joyful weekend.
 How *may (May)* I help you?
@@ -45,23 +45,23 @@ We *may not (cannot)* have to leave.
 Susan *may (can)* be upset because she fell down.
 I *can (may)* dance well.
 He *can (may)* write 50 words in a minute.`,
-     
-`She *can (may)* eat 2 apples at a time.
+
+        `She *can (may)* eat 2 apples at a time.
 I *may (can)* be absent on Tuesday.
 *May (Can)* I borrow your pen?
 He *can (may)* keep this phone in his pocket.
-I *can (may)* not eat almonds because I'm allergic.`,
-    ]
-  },
+I *can (may)* not eat almonds because I'm allergic.`
+      ]
+    },
     {
       label: 'Select the word',
       type: 'selectWord',
       id: 'select-word-1',
       commonData: {
-        title: `Tap on the modal verb in the below sentences.`,
+        title: `Tap on the modal verb in the below sentences.`
       },
-      data : [
-`I *can* speak 3 different languages.
+      data: [
+        `I *can* speak 3 different languages.
 *May* I ask what you're doing?
 I told my sister that she *cannot* sleep without brushing her teeth.
 I *may not* be able to come to the party.
@@ -70,8 +70,8 @@ She *may* not come.
 He *can* swim very fast.
 You *may* came first if you try hard.
 My parents *may* not come to the meeting.`,
-      
-`I *can* ride my bicycle without support wheels.
+
+        `I *can* ride my bicycle without support wheels.
 He *may* be angry with me.
 My dad *may* give me a surprise.
 My mom *can* cook chinese food.
@@ -81,12 +81,12 @@ Reena *can* sing very well.
 We *may* go to Udaipur this summer.
 I *can* sleep in just 5 minutes.
 My mom *may* tell me stories.`,
-      
-`He *can* be very annoying sometimes.
+
+        `He *can* be very annoying sometimes.
 Raj *may* take a half day leave today.
 Mihir *can* stand on one leg for 10 minutes.
 Boys *cannot* have long hair in school.
-Girls *may* form a separate team.`,
+Girls *may* form a separate team.`
       ]
     },
     {
@@ -134,14 +134,14 @@ Girls *may* form a separate team.`,
       },
       data: [
         `*Can* you lift this box?
-          He said I *could* go.
-          *May* I go?
-          It *might* rain tomorrow.`,
+He said I *could* go.
+*May* I go?
+It *might* rain tomorrow.`,
 
         `*Shall* we go to the party?
 We *should* obey our parents.
 I *will* sleep in the evening.
-You *must* improve your spellings.`,
+You *must* improve your spellings.`
       ]
     },
     {
@@ -174,8 +174,8 @@ I *might* go to the party.
 If we had more chocolates, we *could* eat more.
 We *must* not steal from anyone.
 We *ought* to practice more.`,
-        
-`I *might* fall asleep in maths class.
+
+        `I *might* fall asleep in maths class.
 There *shall* be showers of blessings.
 We *should* respect our elders.
 *Would* you like to watch a movie?
@@ -185,8 +185,8 @@ He *can* run 200 meters in just 2 minutes.
 We *shall* go to play in the evening.
 We *should* go to school everday.
 *Shall* I open the door?`,
-        
-`I *can* play cricket well.
+
+        `I *can* play cricket well.
 *May* I go to the bathroom?
 You *must* study today.
 She *will* not come.

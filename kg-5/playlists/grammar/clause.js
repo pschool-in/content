@@ -3,13 +3,13 @@ export default {
   label: 'Clauses',
   pdf: '',
   list: [
-{
-  label: 'Notes',
-  type: 'passage',
-  id: 'clauses-reading',
-  data: {
-    title: 'Clauses',
-text: `A clause is a group of words that consists of a subject and a verb. A clause may form part of a sentence or it may be a complete sentence in itself. For example:
+    {
+      label: 'Notes',
+      type: 'passage',
+      id: 'clauses-reading',
+      data: {
+        title: 'Clauses',
+        text: `A clause is a group of words that consists of a subject and a verb. A clause may form part of a sentence or it may be a complete sentence in itself. For example:
 1. "I see you".
 2. "She ran away".
 3. "They sang beautifully".
@@ -35,16 +35,16 @@ For example:
 3. Before we finish the game.`
       }
     },
-{
-  type: 'selectWord',
-  label: 'Identify the clause',
-  id: 'select-word',
-  commonData: {
-    title: 'Select the clause in the below sentence.',
-    multiSelect: true
-  },
-  data: [
-`*He* *is* *standing* on the bench.
+    {
+      type: 'selectWord',
+      label: 'Identify the clause',
+      id: 'select-word',
+      commonData: {
+        title: 'Select the clause in the below sentence.',
+        multiSelect: true
+      },
+      data: [
+        `*He* *is* *standing* on the bench.
 *The* *dog* *is* *sleeping* under the table.
 *She* *is* *drawing* on the wall.
 *He* *is* *standing* at the door.
@@ -55,7 +55,7 @@ For example:
 *She* *listened* *to* *me* with great curiosity.
 *She* *is* *eating* on a plate.`,
 
-`*She* *arrived* *to* *work* *on* *time* despite leaving home so late.
+        `*She* *arrived* *to* *work* *on* *time* despite leaving home so late.
 *I* *was* *standing* near the gate.
 *She* *made* *coffee* for the guests.
 *He* *bought* *a* *scarf* for a friend.
@@ -66,7 +66,7 @@ For example:
 *I* *am* *sleeping* on the mat.
 *The* *dog* *barked* when I opened the gate.`,
 
-`*The* *people* *are* *dancing* at the party.
+        `*The* *people* *are* *dancing* at the party.
 *He* *reached* *school* in time.
 *I* *will* *meet* *him* in my office.
 *She* *wrote* *a* *poem* on a piece of paper.
@@ -78,50 +78,50 @@ For example:
 *The* *cat* *is* *sleeping* on the mat.`
       ]
     },
-{
-  type: 'selectWord',
-  label: 'Identify the independent clause',
-  id: 'select-word-2',
-  commonData: {
-    title: 'Select the independent clause (IC) from each sentence',
-    multiSelect: true
-  },
-  data: [
-`*I* *am* *saving* *my* *money* because I wanted to buy a new mobile. 
+    {
+      type: 'selectWord',
+      label: 'Identify the independent clause',
+      id: 'select-word-2',
+      commonData: {
+        title: 'Select the independent clause (IC) from each sentence',
+        multiSelect: true
+      },
+      data: [
+        `*I* *am* *saving* *my* *money* because I wanted to buy a new mobile. 
 When I arrived, *Meera* *was* *surprised* *to* *see* *me*.
 *Karan* *is* *a* *good* *football* *player*.
 *Priya* *loves* *to* *read* before going to bed.
 Although we were late, *we* *decided* *to* *watch* *the* *match* *anyway*.`,
 
-`*I* *forgot* *most* *of* *the* *items* *I* *needed* because I forgot my list. 
+        `*I* *forgot* *most* *of* *the* *items* *I* *needed* because I forgot my list. 
 *She* *walked* *to* *the* *grocery* *store* to buy a box of chocolates. 
 When Ramesh got home, *he* *ate* *lunch*.
 *I* *like* *to* *sit* *in* *the* *balcony* while the warm breeze blows.
 *I* *went* *to* *the* *park* in the evening.`
       ]
     },
-{
-  type: 'selectWord',
-  label: 'Identify the Dependent Clause',
-  id: 'select-word-3',
-  commonData: {
-    title: 'Select the dependent clause from each sentence',
-    multiSelect: true
-  },
-  data: [
-`My mother is a nurse *since* *she* *likes* *to* *help* *people*. 
+    {
+      type: 'selectWord',
+      label: 'Identify the Dependent Clause',
+      id: 'select-word-3',
+      commonData: {
+        title: 'Select the dependent clause from each sentence',
+        multiSelect: true
+      },
+      data: [
+        `My mother is a nurse *since* *she* *likes* *to* *help* *people*. 
 *After* *the* *storm*, there were branches in the streets.
 I asked the question *that* *no* *one* *else* *wanted* *to* *ask*.
 Ravi eats carrots *when* *he* *wants* *to* *have* *a* *snack*.
 *If* *you* *want* *to* *be* *my* *friend*, you will tell me the truth.`,
 
-`I am not cleaning the dishes *unless* *pavan* *helps*.
+        `I am not cleaning the dishes *unless* *pavan* *helps*.
 I made good money *until* *I* *lost* *my* *job*. 
 *After* *swimming* *in* *the* *pool*. 
 *Because* *he* *ran*, he was able to catch the bus. 
 *Until* *the* *sun* *sets*, we are going to play.`,
 
-`*As* *the* *lights* *turn* *off*, I will go to sleep. 
+        `*As* *the* *lights* *turn* *off*, I will go to sleep. 
 *Wherever* *he* *might* *go*, I'll follow him. 
 *Since* *I* *went* *back* *to* *school* I am feeling happy.
 *Whenever* *you* *come* *to* *visit*, make sure to bring food. 
@@ -130,17 +130,17 @@ I made good money *until* *I* *lost* *my* *job*.
 *If* *the* *dress* *is* *on* *sale* she will buy it.`
       ]
     },
-{
-type: 'classifySentence',
-label: 'Classify',
-id: 'identify-type',
-data: {
-  title:
-    'Classify the underlined part of the sentence as a dependent clause (DC) or independent clause (IC)',
-  types: [
     {
-name: 'Dependent Clause',
-text: `Mahita bought some flowers *which she wanted to give her mother since morning*.
+      type: 'classifySentence',
+      label: 'Classify',
+      id: 'identify-type',
+      data: {
+        title:
+          'Classify the underlined part of the sentence as a dependent clause (DC) or independent clause (IC)',
+        types: [
+          {
+            name: 'Dependent Clause',
+            text: `Mahita bought some flowers *which she wanted to give her mother since morning*.
 He drove fast *so that he could reach the airport on time*.
 I don't know the reason *why she dislikes me*.
 The gardener said *that all the plants had been pruned neatly*. 
@@ -149,10 +149,10 @@ The boys *who misbehaved in the class* were suspended.
 This is the homework assignment *that you missed last week*.
 *When I went to the zoo*, I looked at the animals
 The teacher *who lives next door to Raj* is Mrs. Iyer.`
-},
-{
-name: 'Independent Clause',
-text: `*We went for a walk* after the rain stopped. 
+          },
+          {
+            name: 'Independent Clause',
+            text: `*We went for a walk* after the rain stopped. 
 Until the sun sets *I will stay out and play*. 
 Because the heavy rains knocked out the power, *school will be closed on Friday*.
 *The movie was good* although it was too long. 

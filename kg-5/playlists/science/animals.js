@@ -9,12 +9,12 @@ export default {
       data: {
         title: 'Animals',
         text: [
-`There are different types of animals.`,
-`Some are domestic animals, and others are wild animals.`,
-`Some live in group, and others live alone.`,
-`Some lay eggs, and others give birth to young ones.`,
-`Some live in land, and others live in water. Some live in both land and water.`,
-`Some eat plants and others eat meat. Some eat both.`
+          `There are different types of animals.`,
+          `Some are domestic animals, and others are wild animals.`,
+          `Some live in group, and others live alone.`,
+          `Some lay eggs, and others give birth to young ones.`,
+          `Some live in land, and others live in water. Some live in both land and water.`,
+          `Some eat plants and others eat meat. Some eat both.`
         ]
       }
     },

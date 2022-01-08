@@ -12,11 +12,11 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Look at the full moon
-          That brings a boon
-          With a little star
-          Shining below
-          Silver rays shine
-          Bright and white`
+That brings a boon
+With a little star
+Shining below
+Silver rays shine
+Bright and white`
       }
     },
     {
@@ -28,15 +28,15 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Beautiful with blue sky
-          Sun shines in the day
-          When Moon comes in night
-          It makes dark sky bright
-          Green leaves on trees
-          Sway slowly in the breeze
-          Blades of grass on the way
-          Wants me to walk away
-          Every step as I walk
-          Must save every little thing.`
+Sun shines in the day
+When Moon comes in night
+It makes dark sky bright
+Green leaves on trees
+Sway slowly in the breeze
+Blades of grass on the way
+Wants me to walk away
+Every step as I walk
+Must save every little thing.`
       }
     },
     {
@@ -48,12 +48,12 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Now and then
-          Learn to tell
-          “Thank you” 
-          Be thankful
-          For everything here
-          That makes your life
-          Good and fair!`
+Learn to tell
+“Thank you” 
+Be thankful
+For everything here
+That makes your life
+Good and fair!`
       }
     },
     {
@@ -65,17 +65,17 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Help her
-          Help him
-          Help an ant
-          Help a cat
-          Help a sheep
-          Help a crow
-          Help a pigeon
-          Whatever it may be
-          Learn to help
-          A person or a bird 
-          Or an animal
-          That is in need!`
+Help him
+Help an ant
+Help a cat
+Help a sheep
+Help a crow
+Help a pigeon
+Whatever it may be
+Learn to help
+A person or a bird 
+Or an animal
+That is in need!`
       }
     },
     {
@@ -87,17 +87,17 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Wash, wash, wash
-          Remember to wash
-          Both your hands
-          Before you eat
-          After you eat
-          Before you drink
-          Before you touch
-          Anything you get
-          Anything you give
-          Better to wash again
-          Again and again
-          To get rid of dust.`
+Remember to wash
+Both your hands
+Before you eat
+After you eat
+Before you drink
+Before you touch
+Anything you get
+Anything you give
+Better to wash again
+Again and again
+To get rid of dust.`
       }
     },
     {
@@ -109,10 +109,10 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Drink your cup of water
-          every time you feel
-          thirsty and dry!
-          Drops of water
-          builds life in you!`
+every time you feel
+thirsty and dry!
+Drops of water
+builds life in you!`
       }
     },
     {
@@ -124,12 +124,12 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `It is your time
-          To walk, walk, walk
-          Stretch your legs
-          And your hands now
-          Allow your bones
-          To feel healthy
-          And strong always`
+To walk, walk, walk
+Stretch your legs
+And your hands now
+Allow your bones
+To feel healthy
+And strong always`
       }
     },
     {
@@ -141,23 +141,23 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `A cute little lizard
-          Crawls on the wall
-          Above my head
-          Near the ceiling fan
-          Slowly, and slowly
-          It walks to catch
-          A tasty food to eat
-          For the morning breakfast
-          When I am not at home
-          It roams around free
-          Jumping on the chairs
-          Crawling on my desk
-          It even tries 
-          To open my book
-          A cute little lizard
-          For he thinks 
-          He is at home
-          And we live with him.`
+Crawls on the wall
+Above my head
+Near the ceiling fan
+Slowly, and slowly
+It walks to catch
+A tasty food to eat
+For the morning breakfast
+When I am not at home
+It roams around free
+Jumping on the chairs
+Crawling on my desk
+It even tries 
+To open my book
+A cute little lizard
+For he thinks 
+He is at home
+And we live with him.`
       }
     },
     {
@@ -169,13 +169,13 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `It takes only seconds
-          To smile and smile
-          A smile can cross miles
-          Reaching anyone
-          To be your friend
-          Smile, smile, smile
-          For it can help you
-          To be your best!`
+To smile and smile
+A smile can cross miles
+Reaching anyone
+To be your friend
+Smile, smile, smile
+For it can help you
+To be your best!`
       }
     },
     {
@@ -187,20 +187,20 @@ export default {
         type: 'poem',
         author: 'Kalai Selvi',
         text: `Hurry, hurry, hurry
-          A line of ants on the way
-          On the stairs
-          On the door
-          On the floor
-          They move very fast
-          To their nest -
-          Tiny bits of food
-          In their tiny mouths
-          Not looking around
-          Tiny little ants
-          March their way
-          Not talking or stopping
-          To store in their nest
-          Food for rainy days.`
+A line of ants on the way
+On the stairs
+On the door
+On the floor
+They move very fast
+To their nest -
+Tiny bits of food
+In their tiny mouths
+Not looking around
+Tiny little ants
+March their way
+Not talking or stopping
+To store in their nest
+Food for rainy days.`
       }
     }
   ]

@@ -71,10 +71,10 @@ Draw a vertical line of length 3.4 cm. | vLine | 3.4`
       id: 'circle',
       data: {
         text: `Draw a circle of radius 2 cm. | circle | 2
-        Draw a circle of radius 2.4 cm. | circle | 2.4
-        Draw a circle of radius 1.8 cm. | circle | 1.8
-        Draw a circle of radius 1.2 cm. | circle | 1.2
-        Draw a circle of radius 2.2 cm. | circle | 2.2`
+Draw a circle of radius 2.4 cm. | circle | 2.4
+Draw a circle of radius 1.8 cm. | circle | 1.8
+Draw a circle of radius 1.2 cm. | circle | 1.2
+Draw a circle of radius 2.2 cm. | circle | 2.2`
       }
     },
     {
@@ -83,10 +83,10 @@ Draw a vertical line of length 3.4 cm. | vLine | 3.4`
       id: 'square',
       data: {
         text: `Draw a square of side 4 cm. | rect | 4, 4
-        Draw a square of side 3.2 cm. | rect | 3.2, 3.2
-        Draw a square of side 1.8 cm. | rect | 1.8, 1.8
-        Draw a square of side 3.4 cm. | rect | 3.4, 3.4
-        Draw a square of side 2.8 cm. | rect | 2.8, 2.8`
+Draw a square of side 3.2 cm. | rect | 3.2, 3.2
+Draw a square of side 1.8 cm. | rect | 1.8, 1.8
+Draw a square of side 3.4 cm. | rect | 3.4, 3.4
+Draw a square of side 2.8 cm. | rect | 2.8, 2.8`
       }
     },
     {
@@ -151,15 +151,15 @@ Make an angle of 250 degree. | angle | 250`
         type: 'custom',
         types: ['closed', 'open'],
         text: `M 36 16 C 69 -12 93 32 33 82 C -16 45 -1 -27 36 16 | 0
-        M 20 5 H 80 L 90 80 H 10 Z | 1
-        M 30 30 L 30 0 A 30 30 270 1 1 0 30 | 1
-        M 42 0 L 51 28 L 80 28 L 56 45 L 66 72 L 42 55 L 18 72 L 28 45 L 4 28 L 33 28 L 42 0 Z | 0
-        M 5 5 L 95 95 | 1
-        M 1 57 L 53 57 L 22 5 L 1 57 | 0
-        M 73.2 55.5 L 47.4 76 L 15.3 68.7 L 1 39 L 15.3 9.3 L 47.4 1.9 | 1
-        M 95 50 A 45 45 0 1 0 50 95 | 1
-        M 95 50 A 45 45 0 1 1 50 5 Z | 0
-        M 73.2 55.5 L 47.4 76 L 15.3 68.7 L 1 39 L 15.3 9.3 L 47.4 1.9 L 73.2 22.5 L 73 55 | 0`
+M 20 5 H 80 L 90 80 H 10 Z | 1
+M 30 30 L 30 0 A 30 30 270 1 1 0 30 | 1
+M 42 0 L 51 28 L 80 28 L 56 45 L 66 72 L 42 55 L 18 72 L 28 45 L 4 28 L 33 28 L 42 0 Z | 0
+M 5 5 L 95 95 | 1
+M 1 57 L 53 57 L 22 5 L 1 57 | 0
+M 73.2 55.5 L 47.4 76 L 15.3 68.7 L 1 39 L 15.3 9.3 L 47.4 1.9 | 1
+M 95 50 A 45 45 0 1 0 50 95 | 1
+M 95 50 A 45 45 0 1 1 50 5 Z | 0
+M 73.2 55.5 L 47.4 76 L 15.3 68.7 L 1 39 L 15.3 9.3 L 47.4 1.9 L 73.2 22.5 L 73 55 | 0`
       }
     },
     {
@@ -171,15 +171,15 @@ Make an angle of 250 degree. | angle | 250`
         type: 'custom',
         types: ['symmetric', 'not symmetric'],
         text: `M 73.2 55.5 L 47.4 76 L 15.3 68.7 L 1 39 L 15.3 9.3 L 47.4 1.9 L 73.2 22.5 L 73 55 Z | 1
-        M 50 5 L 95 95 H 5 Z | 0
-        M 100 25 A 50 25 0 1 1 100 24 | 0
-        M 30 30 L 30 0 A 30 30 270 1 1 0 30 Z | 1
-        M 30 30 L 30 60 A 30 30 90 1 1 60 30 Z | 1
-        M 5 5 V 50 H 95 V 95 M 95 5 H 50 V 95 H 5 | 1
-        M 45 95 V 70 H 10 L 45 40 H 20 L 50 5 L 80 40 H 55 L 90 70 H 55 V 95 | 0
-        M 42 0 L 51 28 L 80 28 L 56 45 L 66 72 L 42 55 L 18 72 L 28 45 L 4 28 L 33 28 L 42 0 Z | 0
-        M 0 0 H 100 V 40 H 0 V 0 | 0
-        M 5 5 V 95 H 95 V 75 H 25 V 5 Z | 1`
+M 50 5 L 95 95 H 5 Z | 0
+M 100 25 A 50 25 0 1 1 100 24 | 0
+M 30 30 L 30 0 A 30 30 270 1 1 0 30 Z | 1
+M 30 30 L 30 60 A 30 30 90 1 1 60 30 Z | 1
+M 5 5 V 50 H 95 V 95 M 95 5 H 50 V 95 H 5 | 1
+M 45 95 V 70 H 10 L 45 40 H 20 L 50 5 L 80 40 H 55 L 90 70 H 55 V 95 | 0
+M 42 0 L 51 28 L 80 28 L 56 45 L 66 72 L 42 55 L 18 72 L 28 45 L 4 28 L 33 28 L 42 0 Z | 0
+M 0 0 H 100 V 40 H 0 V 0 | 0
+M 5 5 V 95 H 95 V 75 H 25 V 5 Z | 1`
       }
     },
     {

@@ -11,10 +11,10 @@ export default {
         title: 'The Gerund',
         text: `The gerund is that form of the verb which ends in -ing and acts as a noun and verb. Therefore gerund is also called a Verb-noun. Gerund might be present either at the beginning, middle, or at the end of the sentence. 
 
-        For example 
-        1. "Swimming" is a very good exercise. 
-        2. I like "reading" poetry. 
-        3. I like "watching" TV. 
+For example 
+1. "Swimming" is a very good exercise. 
+2. I like "reading" poetry. 
+3. I like "watching" TV. 
 
 # Uses of gerund:
 A gerund can be used as a
@@ -70,7 +70,7 @@ Some examples of infinitive include
         title: 'Identify the gerund in each sentence'
       },
       data: [
-`Gaurav avoids *driving* on highways as much as possible.
+        `Gaurav avoids *driving* on highways as much as possible.
 Grandma enjoyed *meeting* new people.
 Kavitha has developed an interest in *cooking*.
 My mother says *eating* fresh vegetables are good for health. 
@@ -81,7 +81,7 @@ My brother gave up *smoking* a few years ago.
 What about *going* to the museum tomorrow?
 My father was happy *seeing* his mom after a long time.`,
 
-`He enjoys *playing* football.
+        `He enjoys *playing* football.
 Vihaan's most favorite free-time activity is *restoring* vintage bikes.
 Mahita is fond of *spending* long hours at the library.
 Aadhya loved *listening* to grandpa's childhood memories.
@@ -92,7 +92,7 @@ It's no use *taking* a cab now, as we are late already.
 I couldn't stop *laughing* at the joke.
 I considered *moving* to Mumbai last year.`,
 
-`Is the exhibition worth *visiting*?
+        `Is the exhibition worth *visiting*?
 I don't mind *getting* up early.
 Did you miss *watching* TV?
 Dentists recommend *cleaning* teeth twice a day.
@@ -137,7 +137,7 @@ Not only *living* in the city is hectic, but it is expensive too.`
         title: `Fill in the blanks with the appropriate form.`
       },
       data: [
-`Karthik didn't know what *to do (doing)* when the fire broke out. 
+        `Karthik didn't know what *to do (doing)* when the fire broke out. 
 Bhavya dreams about *studying (to study)* at Harvard University.
 Tired after work, my mother didn't like *cooking (cook)* her dinner.
 Few people could afford *to buy (buy)* a house as big as that.
@@ -148,7 +148,7 @@ I would love *to come (coming)* with you to Hyderabad.
 At last, I managed *to finish (finish)* my work for the day.
 They practised *speaking (speak)* Sanskrit.`,
 
-`My mom has promised *to take (take)* us to the park this weekend.
+        `My mom has promised *to take (take)* us to the park this weekend.
 Mahesh recommended *writing (write)* down my own notes.
 Richa said she needed *to borrow (borrow)* some money from Deepthi.
 Mrs. Naidu didn't like *making (make)* promises that she knew she couldn't keep. 
@@ -159,7 +159,7 @@ Mihir denied *breaking (break)* the porcelain cup.
 We were very excited *boarding (board)* the plane for the first time.
 She wanted *to buy (buy)* expensive sandals.`,
 
-`I can't stand *waiting (wait)* in queues.
+        `I can't stand *waiting (wait)* in queues.
 Jatin likes *working (work)* in Canada.
 I forgot *to buy (buying)* milk. 
 Taman gave up *smoking (smoke)* years ago.
@@ -170,7 +170,7 @@ It tends *to rain (raining)* a lot in Kerala.
 Tanish completed *painting (paint)* his flat.
 *Cooking (To cook)* is my father's favorite pass time.`,
 
-`Tanvi refused *to help (help)* in the completion of the project.
+        `Tanvi refused *to help (help)* in the completion of the project.
 Everybody enjoyed *dancing (dance)* to Bollywood beats.
 Manish admitted *eating (to eat)* my chocolate cake.
 My mother demanded *to see (see)* the hotel manager.

@@ -22,17 +22,17 @@ export default {
           },
           size: 50,
           fills: `B,A,U,I,S,T
-  V,U,W,X,Y,Z
-  R,A,I,E,S,T
-  N,L,M,U,X,R
-  B,C,D,O,F,G
-  E,I,U,A,Q,T`,
+V,U,W,X,Y,Z
+R,A,I,E,S,T
+N,L,M,U,X,R
+B,C,D,O,F,G
+E,I,U,A,Q,T`,
           table: `0,1,1,1,0,0
-  0,1,0,0,0,0
-  0,1,1,1,0,0
-  0,0,0,1,0,0
-  0,0,0,1,0,0
-  1,1,1,1,0,0`
+0,1,0,0,0,0
+0,1,1,1,0,0
+0,0,0,1,0,0
+0,0,0,1,0,0
+1,1,1,1,0,0`
         },
         {
           title: 'Connect the vowels and help the fox to get the grapes.',
@@ -49,17 +49,17 @@ export default {
           },
           size: 50,
           fills: `A,B,C,D,Z,U
-  U,S,T,X,B,C
-  E,N,O,I,U,Z
-  I,M,O,Z,E,P
-  U,A,E,R,O,I
-  B,C,X,Y,M,A`,
+U,S,T,X,B,C
+E,N,O,I,U,Z
+I,M,O,Z,E,P
+U,A,E,R,O,I
+B,C,X,Y,M,A`,
           table: `1,0,0,0,0,0
-  1,0,0,0,0,0
-  1,0,1,1,1,0
-  1,0,1,0,1,0
-  1,1,1,0,1,1
-  0,0,0,0,0,1`
+1,0,0,0,0,0
+1,0,1,1,1,0
+1,0,1,0,1,0
+1,1,1,0,1,1
+0,0,0,0,0,1`
         },
         {
           title: 'Connect the vowels and help the dog to get the bone.',
@@ -76,17 +76,17 @@ export default {
           },
           size: 50,
           fills: `S,T,X,R,O,I
-  G,H,J,K,A,B
-  W,H,B,T,E,O
-  I,O,U,L,X,U
-  E,X,E,V,W,E
-  A,R,A,I,O,U`,
+G,H,J,K,A,B
+W,H,B,T,E,O
+I,O,U,L,X,U
+E,X,E,V,W,E
+A,R,A,I,O,U`,
           table: `0,0,0,0,1,1
-  0,0,0,0,1,0
-  0,0,0,0,1,1
-  1,1,1,0,0,1
-  1,0,1,0,0,1
-  1,0,1,1,1,1`
+0,0,0,0,1,0
+0,0,0,0,1,1
+1,1,1,0,0,1
+1,0,1,0,0,1
+1,0,1,1,1,1`
         },
         {
           title: 'Connect the vowels and help the monkey to get the banana.',
@@ -103,17 +103,17 @@ export default {
           },
           size: 50,
           fills: `E,O,A,I,B,T
-  X,Y,Z,E,U,B
-  A,E,U,B,I,Z
-  I,C,E,U,A,C
-  E,R,S,T,W,V
-  U,B,C,D,F,G`,
+X,Y,Z,E,U,B
+A,E,U,B,I,Z
+I,C,E,U,A,C
+E,R,S,T,W,V
+U,B,C,D,F,G`,
           table: `1,1,1,1,0,0
-  0,0,0,1,1,0
-  1,1,1,0,1,0
-  1,0,1,1,1,0
-  1,0,0,0,0,0
-  1,0,0,0,0,0`
+0,0,0,1,1,0
+1,1,1,0,1,0
+1,0,1,1,1,0
+1,0,0,0,0,0
+1,0,0,0,0,0`
         }
       ]
     },
@@ -143,11 +143,11 @@ I,A,O,C,K,E
 N,L,R,D,O,A
 B,U,O,A,E,I`,
           table: `0,0,1,1,1,1
-  0,0,0,0,0,1
-  0,0,0,0,1,1
-  0,0,0,1,1,0
-  1,1,1,1,0,0
-  1,0,0,0,0,0`
+0,0,0,0,0,1
+0,0,0,0,1,1
+0,0,0,1,1,0
+1,1,1,1,0,0
+1,0,0,0,0,0`
         },
         {
           title: 'Connect the consonants and help the cat to get the milk.',
@@ -170,11 +170,11 @@ U,O,I,E,A,Q
 A,E,I,R,S,T
 V,W,X,Y,U,A`,
           table: `0,0,1,1,1,1
-  0,0,1,0,0,0
-  0,0,1,1,1,1
-  0,0,0,0,0,1
-  0,0,0,1,1,1
-  1,1,1,1,0,0`
+0,0,1,0,0,0
+0,0,1,1,1,1
+0,0,0,0,0,1
+0,0,0,1,1,1
+1,1,1,1,0,0`
         }
       ]
     }

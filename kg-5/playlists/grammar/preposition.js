@@ -11,7 +11,7 @@ export default {
         title: 'Preposition',
         text: [
           `A preposition is a word that shows relationship between a noun, pronoun, or any other word in a sentence.
-          Find below, some of the common prepositions.`,
+Find below, some of the common prepositions.`,
           {
             type: 'sitewords',
             text:
@@ -28,35 +28,35 @@ export default {
       data: {
         title: 'Preposition of time',
         text: `# at
-            'At' is used to represent particular time of a day.
-            {"type": "hilight", "text": "at 4 o'clock, at 10:30, at noon, at night, at midnight, at lunch time, at dinner time, at present, at the moment"}
-            'At' is also used with special celebrations.
-            {"type": "hilight", "text": "at Christmas, at the weekend"}
-            # in
-            'In' is used with months, seasons, year.
-            {"type": "hilight", "text": "in April, in the summer, in the spring, in 1990"}
-            'In' is also used to represent parts of the day.
-            {"type": "hilight", "text": "in the morning, in the afternoon, in the evening"}
-            # on
-            'On' is used to represent days.
-            {"type": "hilight", "text": "on Tuesday, on 15th June, on my birthday"}
-            On is also used to represent parts of a specific day.
-            {"type": "hilight", "text": "on Monday morning, on Friday evening, on Sunday afternoon"}
-            No need for preposition before 'Last' or 'Next'.
-            {"type": "hilight", "text": "Call me next week.\\nI met her last Friday."}
-            # For vs Since
-            'For' is used with a period of time.
-            'Since' is used to refer to a specific point in time.
-            {"type": "hilight", "text": "I have been waiting for 2 hours.\\nI have been waiting since 4'o clock."}
-            # Ago vs Before
-            Use 'ago' to talk about the past with reference to the present.
-            Use 'before' to talk about the past with reference to another time in the past.
-            {"type": "hilight", "text": "I completed the course, 3 years ago.\\nI met him, 2 weeks before the holidays."}
-            # By vs Until
-            'By' is used for one specific event that happens before a certain time in the future.
-            'Until' is used for a continuous event that stops at a certain time in the future.
-            {"type": "hilight", "text": "Please return my book by Monday.\\nI will study for exams until Monday."}
-            `
+'At' is used to represent particular time of a day.
+{"type": "hilight", "text": "at 4 o'clock, at 10:30, at noon, at night, at midnight, at lunch time, at dinner time, at present, at the moment"}
+'At' is also used with special celebrations.
+{"type": "hilight", "text": "at Christmas, at the weekend"}
+# in
+'In' is used with months, seasons, year.
+{"type": "hilight", "text": "in April, in the summer, in the spring, in 1990"}
+'In' is also used to represent parts of the day.
+{"type": "hilight", "text": "in the morning, in the afternoon, in the evening"}
+# on
+'On' is used to represent days.
+{"type": "hilight", "text": "on Tuesday, on 15th June, on my birthday"}
+On is also used to represent parts of a specific day.
+{"type": "hilight", "text": "on Monday morning, on Friday evening, on Sunday afternoon"}
+No need for preposition before 'Last' or 'Next'.
+{"type": "hilight", "text": "Call me next week.\\nI met her last Friday."}
+# For vs Since
+'For' is used with a period of time.
+'Since' is used to refer to a specific point in time.
+{"type": "hilight", "text": "I have been waiting for 2 hours.\\nI have been waiting since 4'o clock."}
+# Ago vs Before
+Use 'ago' to talk about the past with reference to the present.
+Use 'before' to talk about the past with reference to another time in the past.
+{"type": "hilight", "text": "I completed the course, 3 years ago.\\nI met him, 2 weeks before the holidays."}
+# By vs Until
+'By' is used for one specific event that happens before a certain time in the future.
+'Until' is used for a continuous event that stops at a certain time in the future.
+{"type": "hilight", "text": "Please return my book by Monday.\\nI will study for exams until Monday."}
+`
       }
     },
     {
@@ -152,8 +152,8 @@ Death valley is 86 meters *below* the sea level.`
         title: 'Click on the blanks and pick the correct preposition.',
         options: 'at, in, on'
       },
-        data: [
-          `Mamta has a meeting *in* the afternoon.
+      data: [
+        `Mamta has a meeting *in* the afternoon.
 We will go to movie *on* Sunday evening.
 We get up early *in* the morning.
 Anita had breakfast *at* 8 am.
@@ -163,8 +163,8 @@ We go to bed *at* night.
 The movie starts at two *in* the afternoon.
 Autumn season begins *in* September.
 I will be ready *in* ten minutes.`,
-     
-`Christmas is celebrated *on* 25th December.
+
+        `Christmas is celebrated *on* 25th December.
 We shall meet *on* the weekend.
 They were married *in* 1990.
 The house was very quiet *at* midnight.
@@ -328,14 +328,14 @@ They came <b>to</b> the theatre with their kid.`
           {
             type: 'html',
             text: `They are driving <b>towards</b> the mall.<br>
-            She went <b>towards</b> the kitchen.`
+She went <b>towards</b> the kitchen.`
           },
           `# into`,
           `It is used to indicate a movement going inside something.`,
           {
             type: 'html',
             text: `He put the garbage <b>into</b> the dustbin.<br>
-  The boy jumped <b>into</b> the well.`
+The boy jumped <b>into</b> the well.`
           }
         ]
       }
@@ -348,8 +348,8 @@ They came <b>to</b> the theatre with their kid.`
         title: 'Click on the blanks and pick the correct preposition.',
         options: 'under, into, over'
       },
-        data: [
-          `Mohan jumped *over* the wall.
+      data: [
+        `Mohan jumped *over* the wall.
 Is he looking *into* the screen?
 The cat is *under* the table.
 You go straight *into* the office.
@@ -359,15 +359,15 @@ He hid *under* the bed.
 Go *over* the railway line.
 Let's go *into* the swimming pool.
 The carpet *under* my feet is very hard.`,
-        
-          `Mom held the umbrella *over* both of us.
+
+        `Mom held the umbrella *over* both of us.
 He keep the books *into* the cupboard.
 Rafi moved the table *into* the dining room.
 We slept *under* the open sky.
 A helicopter dropped flowers *over* the city.
 Rajesh jumped *into* the lake.
 He kept his shoes *under* the table.
-There are clouds *over* the hills.`,
+There are clouds *over* the hills.`
       ]
     },
     {
@@ -378,8 +378,8 @@ There are clouds *over* the hills.`,
         title: 'Choose the correct preposition in each sentence.',
         options: 'in, on, at'
       },
-        data:[ 
-          `Keep the book *on* the table.
+      data: [
+        `Keep the book *on* the table.
 Write your name *on* the paper.
 I keep my pen *in* my bag.
 Pooja was waiting *at* the bus stop.
@@ -388,8 +388,8 @@ Raju stayed *at* home all weekend.
 He lives *at* number 10, Patel Road.
 The theatre is *on* the right.
 They are *in* the car.`,
-        
-   `Look at the picture *on* the wall.
+
+        `Look at the picture *on* the wall.
 Look at the flower *in* the picture.
 The milkman is *at* the door.
 What's *on* the menu today?

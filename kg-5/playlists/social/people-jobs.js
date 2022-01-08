@@ -1,174 +1,179 @@
 export default {
-  label: "People and Jobs",
-  id: "people-jobs",
+  label: 'People and Jobs',
+  id: 'people-jobs',
   lockAfter: 4,
   list: [
     {
-      type: "slides",
-      id: "tools",
-      label: "Tools",
+      type: 'slides',
+      id: 'tools',
+      label: 'Tools',
       commonData: {
-        audio: "kg-5/tools.mp3",
+        audio: 'kg-5/tools.mp3'
       },
       data: [
         {
           audioOffset: 0,
-          text: "axe, balance, blackboard, hose, microscope, needle, oven, plier",
+          text:
+            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
         },
         {
           audioOffset: 16,
-          text: "plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel",
+          text:
+            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel'
         },
         {
           audioOffset: 32,
-          text: "walkie-talkie, awl, compass, easel, hacksaw, scalpel",
-        },
-      ],
+          text: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
+        }
+      ]
     },
     {
-      type: "rightOne",
-      label: "Identify Tools",
-      id: "pick-tool",
+      type: 'rightOne',
+      label: 'Identify Tools',
+      id: 'pick-tool',
       commonData: {
-        title: "Listen to the sound and click on the right picture.",
-        type: "image",
-        audio: "kg-5/tools.mp3",
+        title: 'Listen to the sound and click on the right picture.',
+        type: 'image',
+        audio: 'kg-5/tools.mp3'
       },
       data: [
         {
           words:
-            "axe, balance, blackboard, hose, microscope, needle, oven, plier",
+            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
         },
         {
           audioOffset: 16,
           words:
-            "plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel",
+            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel'
         },
         {
           audioOffset: 32,
-          words: "walkie-talkie, awl, compass, easel, hacksaw, scalpel",
-        },
-      ],
+          words: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
+        }
+      ]
     },
     {
-      label: "People and Jobs - Match",
-      type: "matchByDragDrop",
-      id: "drag-drop",
+      label: 'People and Jobs - Match',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
       data: {
         isPractice: false,
-        title: "Drag and drop to match People and Jobs.",
+        title: 'Drag and drop to match People and Jobs.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 60,
+          fontSize: '1rem',
+          dashWidth: 60
         },
-        text: "A *fireman* puts out fire. \n A *butcher* cuts meat and sell. \n A *policeman* prevents crime. \n A *veterinary doctor* looks after sick animal. \n A *postman* delivers letter to our house. \n A *tailor* makes clothes",
-      },
+        text:
+          'A *fireman* puts out fire. \n A *butcher* cuts meat and sell. \n A *policeman* prevents crime. \n A *veterinary doctor* looks after sick animal. \n A *postman* delivers letter to our house. \n A *tailor* makes clothes'
+      }
     },
     {
-      label: "People and Workplace",
-      type: "matchByDragDrop",
-      id: "drad-drop-2",
+      label: 'People and Workplace',
+      type: 'matchByDragDrop',
+      id: 'drad-drop-2',
       data: {
         isPractice: false,
-        title: "Drag and drop to match People and workplace.",
+        title: 'Drag and drop to match People and workplace.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 80,
+          fontSize: '1rem',
+          dashWidth: 80
         },
-        text: "Doctor → *Hospital* \n  Teacher → *School* \n Cashier → *Bank* \n Chef → *Restaurant* \n Lawyer → *Court* \n  Photographer → *Studio*",
-      },
+        text:
+          'Doctor → *Hospital* \n  Teacher → *School* \n Cashier → *Bank* \n Chef → *Restaurant* \n Lawyer → *Court* \n  Photographer → *Studio*'
+      }
     },
     {
-      label: "People and Tools",
-      type: "matchByDragDrop",
-      id: "drag-drop-3",
+      label: 'People and Tools',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-3',
       data: {
         isPractice: false,
-        title: "Drag and drop to match People and the tools they use.",
+        title: 'Drag and drop to match People and the tools they use.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 80,
+          fontSize: '1rem',
+          dashWidth: 80
         },
-        text: "Doctor → *Stethoscope* \n  Painter → *Brush* \n Fisherman → *Net*  \n Photographer → *Camera* \n Butcher → *Knife* \n  Farmer → *Plough* \n  Woodcutter → *Axe*",
-      },
+        text:
+          'Doctor → *Stethoscope* \n  Painter → *Brush* \n Fisherman → *Net*  \n Photographer → *Camera* \n Butcher → *Knife* \n  Farmer → *Plough* \n  Woodcutter → *Axe*'
+      }
     },
     {
-      label: "Profession - MCQ",
-      type: "mcq",
-      id: "mcq",
+      label: 'Profession - MCQ',
+      type: 'mcq',
+      id: 'mcq',
       data: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: "________ cuts the meat and sells it in their shop.",
-            options: "Butcher,Barber,Plumber,Chef",
+            qText: '________ cuts the meat and sells it in their shop.',
+            options: 'Butcher,Barber,Plumber,Chef'
           },
           {
-            qText: "_________ makes wooden doors, windows and furnitures.",
-            options: "Carpenter,Mechanic,Waiter,Mason",
+            qText: '_________ makes wooden doors, windows and furnitures.',
+            options: 'Carpenter,Mechanic,Waiter,Mason'
           },
           {
-            qText: "We go to _________ when we have toothache.",
-            options: "Dentist,Doctor,Nurse, Chemist",
+            qText: 'We go to _________ when we have toothache.',
+            options: 'Dentist,Doctor,Nurse, Chemist'
           },
           {
-            qText: "__________ prevents crime.",
-            options: "Police, Lawyer, Fireman",
+            qText: '__________ prevents crime.',
+            options: 'Police, Lawyer, Fireman'
           },
           {
-            qText: "__________ drives a bus.",
-            options: "Driver, Pilot, Captain",
+            qText: '__________ drives a bus.',
+            options: 'Driver, Pilot, Captain'
           },
           {
-            qText: "Who is the backbone of our country?",
-            options: "Farmer, Lawyer, Scientist, Police",
+            qText: 'Who is the backbone of our country?',
+            options: 'Farmer, Lawyer, Scientist, Police'
           },
           {
-            qText: "Sherlock Holmes is a famous _________ in stories.",
-            options: "Detective, Actor , Teacher, Police",
-          },
-        ],
-      },
+            qText: 'Sherlock Holmes is a famous _________ in stories.',
+            options: 'Detective, Actor , Teacher, Police'
+          }
+        ]
+      }
     },
     {
-      label: "Profession - MCQ - 2",
-      id: "mcq-2",
-      type: "mcq",
+      label: 'Profession - MCQ - 2',
+      id: 'mcq-2',
+      type: 'mcq',
       data: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: "Where can we buy a bouquet ?",
-            options: "florists, toy shop, bakery",
+            qText: 'Where can we buy a bouquet ?',
+            options: 'florists, toy shop, bakery'
           },
           {
-            qText: "Where can we buy a book ?",
-            options: "book stall, chemist, green grocers",
+            qText: 'Where can we buy a book ?',
+            options: 'book stall, chemist, green grocers'
           },
           {
-            qText: "Where can we buy a plane ticket ?",
-            options: "travel agency, book stall, dairy",
+            qText: 'Where can we buy a plane ticket ?',
+            options: 'travel agency, book stall, dairy'
           },
           {
             qText:
-              "Whom would your father approach when he has to get his car repaired?",
-            options: "mechanic, cobbler, plumber",
+              'Whom would your father approach when he has to get his car repaired?',
+            options: 'mechanic, cobbler, plumber'
           },
           {
             qText:
-              "Whom would your father approach if there is a leaking pipe?",
-            options: "plumber, mechanic, cobbler, carpenter",
-          },
-        ],
-      },
+              'Whom would your father approach if there is a leaking pipe?',
+            options: 'plumber, mechanic, cobbler, carpenter'
+          }
+        ]
+      }
     },
     //Newly added
     {
-      label: "Common Occupations-1",
-      type: "passage",
-      id: "common-occupations-1-reading",
+      label: 'Common Occupations-1',
+      type: 'passage',
+      id: 'common-occupations-1-reading',
       data: {
-        title: "Common Occupations-1",
+        title: 'Common Occupations-1',
         text: `# 1. Teacher
 A teacher helps us acquire knowledge. A good teacher has a very important role in a student's life. They lay foundation of their values, knowledge and principles. We must always respect our teachers.
 # 2. Engineer
@@ -198,15 +203,15 @@ A tailor sews clothes. They can make shirts, pants, suits, salwar, uniforms, jea
 # 14. Weaver
 A weaver is an expert in weaving. There are two types of weavers. Handweavers do weaving by hand. As a result, they have control over the quality of the final product. The second type of weaver is the operator. They operate the weaving machines in factories.
 # 15. Goldsmith
-A goldsmith is a person who specializes in working with gold and other precious metals. They mainly specialize in making jewelry and other decoratives. They do this by cutting, melting, beating and polishing the precious metals and stones.`,
-      },
+A goldsmith is a person who specializes in working with gold and other precious metals. They mainly specialize in making jewelry and other decoratives. They do this by cutting, melting, beating and polishing the precious metals and stones.`
+      }
     },
     {
-      label: "Common Occupations-2",
-      type: "passage",
-      id: "common-occupations-2-reading",
+      label: 'Common Occupations-2',
+      type: 'passage',
+      id: 'common-occupations-2-reading',
       data: {
-        title: "Common Occupations-2",
+        title: 'Common Occupations-2',
         text: `# 1. Nurse
 A nurse provides care to the patients in the hospitals. They help them get rid of their pain and discomfort. They also educate them about their health condition and what they can do to get better. They also educate them on how to stay healthy.
 # 2. Singer
@@ -236,62 +241,62 @@ A driver is skilled in driving. They drive public vehicles like cabs, buses, tru
 # 14. Salesman
 A salesman is also called a sales representative. They basically sell services or products to businesses or customers. They can be door-to-door sellers or freelancers.
 # 15. Blacksmith
-A blacksmith is a person who makes different things out of scrap metals like iron or steel. They do this by hammering, melting, shaping, etc.`,
-      },
+A blacksmith is a person who makes different things out of scrap metals like iron or steel. They do this by hammering, melting, shaping, etc.`
+      }
     },
     {
-      id: "match",
-      label: "Match the following",
-      type: "match",
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
       commonData: {
-        title: "Match the pairs",
+        title: 'Match the pairs'
       },
 
       data: [
         `Doctor, Hospital
-          Shopkeeper, Shop
-          Fisherman, Sea
-          Driver, Vehicles
-          Teacher, School`,
+Shopkeeper, Shop
+Fisherman, Sea
+Driver, Vehicles
+Teacher, School`,
 
         `Blacksmith, Scrap
-          Salesman, Sells
-          Writer, Books
-          Baker, Bakery
-          Electrician, Wires`,
+Salesman, Sells
+Writer, Books
+Baker, Bakery
+Electrician, Wires`,
 
         `Carpenter, Wood
-          Cobbler, Shoes
-          Police, Safety
-          Shepherd, Flock
-          Plumber, Pipes`,
+Cobbler, Shoes
+Police, Safety
+Shepherd, Flock
+Plumber, Pipes`,
 
         `Nurse, Hospital
-          Singer, Melody
-          Goldsmith, Gold
-          Barber, Haircut
-          Tailor, Clothes`,
+Singer, Melody
+Goldsmith, Gold
+Barber, Haircut
+Tailor, Clothes`,
 
         `Engineer, Software
-          Mechanic, Machines
-          Photographer, Camera
-          Shephard, Sheep
-          Fisherman, Sea shore`,
+Mechanic, Machines
+Photographer, Camera
+Shephard, Sheep
+Fisherman, Sea shore`,
 
         `Weaver, Weaving
-          Gardner, Lawns
-          Potter, Clay
-          Farmer, Field
-          Dancer, Performance`,
-      ],
+Gardner, Lawns
+Potter, Clay
+Farmer, Field
+Dancer, Performance`
+      ]
     },
     {
-      label: "True or False",
-      id: "tf",
-      type: "classifySentence",
+      label: 'True or False',
+      id: 'tf',
+      type: 'classifySentence',
       commonData: {
-        title: "State whether these statements are true or false.",
-        types: ["True", "False"],
+        title: 'State whether these statements are true or false.',
+        types: ['True', 'False']
       },
       data: [
         [
@@ -300,7 +305,7 @@ Shepherd is one of the oldest occupations.
 A singer has a melodious voice.`,
           `Dancers work in hospitals.
 Shopkeeper helps the patients.
-An actor is an expert in dancing.`,
+An actor is an expert in dancing.`
         ],
         [
           `A farmer is the most important unit of agriculture.
@@ -308,7 +313,7 @@ We have no threat of robbery if we have a watchman.
 A potter makes pottery on a spinning wheel.`,
           `Gardner takes care of the law.
 A weaver sews our clothes as per our demands.
-Goldsmith makes things out of scrap.`,
+Goldsmith makes things out of scrap.`
         ],
         [
           `A driver is a person who drives cars.
@@ -316,7 +321,7 @@ An electrician is an expert of wires and electricity.
 A nurse takes care of patients in the hospital.`,
           `A salesman helps us in shops.
 A writer is a person who helps us in completing our homework.
-Police protects the theives.`,
+Police protects the theives.`
         ],
         [
           `Blacksmith moulds the scrap into usable products.
@@ -324,63 +329,63 @@ A tailor sews our clothes as per our demands.
 Barber styles our hair.`,
           `A carpenter works with shoes.
 A baker serves people at a restaurant.
-A plumber helps to repair vehicles.`,
-        ],
-      ],
+A plumber helps to repair vehicles.`
+        ]
+      ]
     },
     {
-      label: "Multiple Choice Questions",
-      id: "mcq-3",
-      type: "mcq",
+      label: 'Multiple Choice Questions',
+      id: 'mcq-3',
+      type: 'mcq',
       data: {
-        title: "Choose the correct answer.",
+        title: 'Choose the correct answer.',
         questions: [
           {
-            qText: "Who assists patients in the hospital?",
-            options: "Nurse, Teacher, Watchman",
+            qText: 'Who assists patients in the hospital?',
+            options: 'Nurse, Teacher, Watchman'
           },
           {
-            qText: "Who is an expert in jewelry-making?",
-            options: "Goldsmith, Blacksmith, Cobbler",
+            qText: 'Who is an expert in jewelry-making?',
+            options: 'Goldsmith, Blacksmith, Cobbler'
           },
           {
-            qText: "Who is skilled with the wooden frameworks?",
-            options: `Carpenter, Blacksmith, Cobbler`,
+            qText: 'Who is skilled with the wooden frameworks?',
+            options: `Carpenter, Blacksmith, Cobbler`
           },
           {
-            qText: "Who makes cakes and pastries?",
-            options: "Baker, Nurse, Teacher",
+            qText: 'Who makes cakes and pastries?',
+            options: 'Baker, Nurse, Teacher'
           },
           {
-            qText: "Who maintains law and order?",
-            options: "Police, Conductor, Salesman",
-          },
-        ],
-      },
+            qText: 'Who maintains law and order?',
+            options: 'Police, Conductor, Salesman'
+          }
+        ]
+      }
     },
     {
-      id: "jumbled-words",
-      type: "sequence",
-      label: "Jumbled Words",
+      id: 'jumbled-words',
+      type: 'sequence',
+      label: 'Jumbled Words',
       commonData: {
-        title: "Identify these occupations.",
+        title: 'Identify these occupations.'
       },
       data: [
-        "Police, Doctor, Driver, Tailor, Barber",
-        "Weaver, Baker, Nurse, Writer, Actor",
-      ],
+        'Police, Doctor, Driver, Tailor, Barber',
+        'Weaver, Baker, Nurse, Writer, Actor'
+      ]
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "drag-and-drop",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-and-drop',
       commonData: {
         isPractice: false,
-        title: "Drag the correct option in each blank to form an alliteration.",
+        title: 'Drag the correct option in each blank to form an alliteration.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 80,
-        },
+          fontSize: '1rem',
+          dashWidth: 80
+        }
       },
       data: [
         `A *teacher* works in schools.
@@ -411,28 +416,28 @@ A *tailor* sews clothes.`,
 A *plumber* can fix running and leaking taps.
 A *driver* drives vehicles.
 A *carpenter* makes furniture.
-A *shopkeeper* has a shop.`,
-      ],
+A *shopkeeper* has a shop.`
+      ]
     },
     {
-      id: "fillup",
-      label: "Fill up with options",
-      type: "fillup",
+      id: 'fillup',
+      label: 'Fill up with options',
+      type: 'fillup',
       data: {
         text: `A *blacksmith (goldsmith)* works with scrap.
 A *doctor (nurse)* prescribes medicines.
 A *teacher (dancer)* teaches values.
 A *shopkeeper (salesman)* sells products in a shop.
 An *electrician (plumber)* deals with wires.`,
-        title: "Tap on each blank to view options.",
-      },
+        title: 'Tap on each blank to view options.'
+      }
     },
     {
-      type: "rightOne",
-      label: "Correct Spelling",
-      id: "correct-spelling",
+      type: 'rightOne',
+      label: 'Correct Spelling',
+      id: 'correct-spelling',
       commonData: {
-        title: "Identify the correct spelling.",
+        title: 'Identify the correct spelling.'
       },
       data: [
         `Police, Poliece
@@ -463,114 +468,114 @@ Nurse, Nusze`,
 Tailor, Taylor
 Weaver, Weavar
 Gardner, Gardnar
-Potter, Pottar`,
-      ],
+Potter, Pottar`
+      ]
     },
     {
-      id: "wordsearch",
+      id: 'wordsearch',
       editable: true,
-      type: "wordsearch",
-      label: "WordSearch - occupations-1",
+      type: 'wordsearch',
+      label: 'WordSearch - occupations-1',
       data: {
-        title: "Find the given words from the table.",
+        title: 'Find the given words from the table.',
         words: [
           {
-            word: ["P", "L", "U", "M", "B", "E", "R"],
-            marker: [6, 0, 6, 6],
+            word: ['P', 'L', 'U', 'M', 'B', 'E', 'R'],
+            marker: [6, 0, 6, 6]
           },
           {
-            word: ["C", "O", "B", "B", "L", "E", "R"],
-            marker: [0, 6, 6, 6],
+            word: ['C', 'O', 'B', 'B', 'L', 'E', 'R'],
+            marker: [0, 6, 6, 6]
           },
           {
-            word: ["S", "I", "N", "G", "E", "R"],
-            marker: [1, 1, 6, 6],
+            word: ['S', 'I', 'N', 'G', 'E', 'R'],
+            marker: [1, 1, 6, 6]
           },
           {
-            word: ["B", "A", "R", "B", "E", "R"],
-            marker: [3, 1, 8, 6],
+            word: ['B', 'A', 'R', 'B', 'E', 'R'],
+            marker: [3, 1, 8, 6]
           },
           {
-            word: ["F", "A", "R", "M", "E", "R"],
-            marker: [8, 4, 8, 9],
+            word: ['F', 'A', 'R', 'M', 'E', 'R'],
+            marker: [8, 4, 8, 9]
           },
           {
-            word: ["B", "L", "A", "C", "K", "S", "M", "I", "T", "H"],
-            marker: [0, 9, 0, 0],
+            word: ['B', 'L', 'A', 'C', 'K', 'S', 'M', 'I', 'T', 'H'],
+            marker: [0, 9, 0, 0]
           },
           {
-            word: ["G", "A", "R", "D", "E", "N", "E", "R"],
-            marker: [1, 9, 8, 9],
-          },
+            word: ['G', 'A', 'R', 'D', 'E', 'N', 'E', 'R'],
+            marker: [1, 9, 8, 9]
+          }
         ],
         table: [
-          ["H", "Q", "G", "K", "N", "Y", "P", "S", "G"],
-          ["T", "S", "W", "B", "Z", "H", "L", "V", "O"],
-          ["I", "E", "I", "Y", "A", "W", "U", "L", "E"],
-          ["M", "O", "L", "N", "H", "R", "M", "Q", "W"],
-          ["S", "E", "Y", "R", "G", "I", "B", "V", "F"],
-          ["K", "Z", "R", "N", "M", "E", "E", "E", "A"],
-          ["C", "O", "B", "B", "L", "E", "R", "J", "R"],
-          ["A", "L", "O", "V", "E", "M", "S", "Z", "M"],
-          ["L", "O", "V", "K", "R", "E", "K", "O", "E"],
-          ["B", "G", "A", "R", "D", "E", "N", "E", "R"],
+          ['H', 'Q', 'G', 'K', 'N', 'Y', 'P', 'S', 'G'],
+          ['T', 'S', 'W', 'B', 'Z', 'H', 'L', 'V', 'O'],
+          ['I', 'E', 'I', 'Y', 'A', 'W', 'U', 'L', 'E'],
+          ['M', 'O', 'L', 'N', 'H', 'R', 'M', 'Q', 'W'],
+          ['S', 'E', 'Y', 'R', 'G', 'I', 'B', 'V', 'F'],
+          ['K', 'Z', 'R', 'N', 'M', 'E', 'E', 'E', 'A'],
+          ['C', 'O', 'B', 'B', 'L', 'E', 'R', 'J', 'R'],
+          ['A', 'L', 'O', 'V', 'E', 'M', 'S', 'Z', 'M'],
+          ['L', 'O', 'V', 'K', 'R', 'E', 'K', 'O', 'E'],
+          ['B', 'G', 'A', 'R', 'D', 'E', 'N', 'E', 'R']
         ],
-        lang: "en",
-        showWords: true,
-      },
+        lang: 'en',
+        showWords: true
+      }
     },
     {
-      id: "wordsearch-2",
+      id: 'wordsearch-2',
       editable: true,
-      type: "wordsearch",
-      label: "WordSearch - occupations-2",
+      type: 'wordsearch',
+      label: 'WordSearch - occupations-2',
       data: {
-        title: "Find the given words from the table.",
+        title: 'Find the given words from the table.',
         words: [
           {
-            word: ["S", "A", "L", "E", "S", "M", "A", "N"],
-            marker: [8, 0, 8, 7],
+            word: ['S', 'A', 'L', 'E', 'S', 'M', 'A', 'N'],
+            marker: [8, 0, 8, 7]
           },
           {
-            word: ["C", "A", "R", "P", "E", "N", "T", "E", "R"],
-            marker: [1, 3, 9, 3],
+            word: ['C', 'A', 'R', 'P', 'E', 'N', 'T', 'E', 'R'],
+            marker: [1, 3, 9, 3]
           },
           {
-            word: ["B", "A", "K", "E", "R"],
-            marker: [1, 2, 5, 6],
+            word: ['B', 'A', 'K', 'E', 'R'],
+            marker: [1, 2, 5, 6]
           },
           {
-            word: ["T", "E", "A", "C", "H", "E", "R"],
-            marker: [0, 8, 6, 8],
+            word: ['T', 'E', 'A', 'C', 'H', 'E', 'R'],
+            marker: [0, 8, 6, 8]
           },
           {
-            word: ["D", "O", "C", "T", "O", "R"],
-            marker: [0, 0, 0, 5],
+            word: ['D', 'O', 'C', 'T', 'O', 'R'],
+            marker: [0, 0, 0, 5]
           },
           {
-            word: ["D", "R", "I", "V", "E", "R"],
-            marker: [0, 0, 5, 0],
+            word: ['D', 'R', 'I', 'V', 'E', 'R'],
+            marker: [0, 0, 5, 0]
           },
           {
-            word: ["W", "E", "A", "V", "E", "R"],
-            marker: [4, 9, 9, 9],
-          },
+            word: ['W', 'E', 'A', 'V', 'E', 'R'],
+            marker: [4, 9, 9, 9]
+          }
         ],
         table: [
-          ["D", "R", "I", "V", "E", "R", "H", "L", "S", "S"],
-          ["O", "T", "E", "Q", "K", "I", "S", "E", "A", "J"],
-          ["C", "B", "X", "L", "L", "C", "S", "C", "L", "N"],
-          ["T", "C", "A", "R", "P", "E", "N", "T", "E", "R"],
-          ["O", "P", "E", "K", "F", "Y", "I", "V", "S", "O"],
-          ["R", "R", "G", "N", "E", "C", "B", "N", "M", "Q"],
-          ["V", "W", "D", "J", "R", "R", "I", "A", "A", "H"],
-          ["J", "Y", "R", "T", "H", "M", "S", "M", "N", "F"],
-          ["T", "E", "A", "C", "H", "E", "R", "E", "N", "L"],
-          ["R", "N", "X", "K", "W", "E", "A", "V", "E", "R"],
+          ['D', 'R', 'I', 'V', 'E', 'R', 'H', 'L', 'S', 'S'],
+          ['O', 'T', 'E', 'Q', 'K', 'I', 'S', 'E', 'A', 'J'],
+          ['C', 'B', 'X', 'L', 'L', 'C', 'S', 'C', 'L', 'N'],
+          ['T', 'C', 'A', 'R', 'P', 'E', 'N', 'T', 'E', 'R'],
+          ['O', 'P', 'E', 'K', 'F', 'Y', 'I', 'V', 'S', 'O'],
+          ['R', 'R', 'G', 'N', 'E', 'C', 'B', 'N', 'M', 'Q'],
+          ['V', 'W', 'D', 'J', 'R', 'R', 'I', 'A', 'A', 'H'],
+          ['J', 'Y', 'R', 'T', 'H', 'M', 'S', 'M', 'N', 'F'],
+          ['T', 'E', 'A', 'C', 'H', 'E', 'R', 'E', 'N', 'L'],
+          ['R', 'N', 'X', 'K', 'W', 'E', 'A', 'V', 'E', 'R']
         ],
-        lang: "en",
-        showWords: true,
-      },
-    },
-  ],
+        lang: 'en',
+        showWords: true
+      }
+    }
+  ]
 };

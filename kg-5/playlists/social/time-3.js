@@ -101,20 +101,20 @@ P.M stands for *post meridiem*.
       }
     },
     /*
-    {
-      id: 'timefill-1',
-      label: 'Fill in the blanks -2',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `The time difference between India and Washington D.C is *9 (8)*hours behind.
-          The time difference between India and Japan is *3(2)* hours ahead.
-          The time difference between India and Sweden is *3 (4)* hours behind. 
-          The time difference between India and Australia is *4(5)* hours ahead.
-          The time difference between India and London is *4(6)* hours behind.`
-      }
-    },
-    */
+{
+id: 'timefill-1',
+label: 'Fill in the blanks -2',
+type: 'fillup',
+data: {
+title: 'Click the blanks and fill it with the right word.',
+text: `The time difference between India and Washington D.C is *9 (8)*hours behind.
+The time difference between India and Japan is *3(2)* hours ahead.
+The time difference between India and Sweden is *3 (4)* hours behind. 
+The time difference between India and Australia is *4(5)* hours ahead.
+The time difference between India and London is *4(6)* hours behind.`
+}
+},
+*/
     {
       label: 'True or False',
       id: 'timeTF',

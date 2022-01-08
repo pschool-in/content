@@ -39,10 +39,10 @@ Mecca Masjid  -   Hyderabad, Telangana`
       type: 'match',
       data: {
         text: `Badrinath Temple, Uttarakhand
-              Jama Masjid, New Delhi
-              Kashi Vishwanath Temple, Varanasi 
-              Golden Temple, Amritsar
-              Jagannath Temple, Puri`,
+Jama Masjid, New Delhi
+Kashi Vishwanath Temple, Varanasi 
+Golden Temple, Amritsar
+Jagannath Temple, Puri`,
         title: 'Match the following with its correct one'
       }
     },
@@ -88,10 +88,10 @@ Mecca Masjid  -   Hyderabad, Telangana`
           dashWidth: 80
         },
         text: `Jama masjid is sitauted at *New Delhi*.
-        Somnath Temple is situated in *Gujarat*.
-        *Amarnath Temple* is located in Jammu & Kashmir.
-        Ramanathaswamy Temple is situated in *Rameswaram*.
-        *Mecca Masjid* is located in Telangana.`
+Somnath Temple is situated in *Gujarat*.
+*Amarnath Temple* is located in Jammu & Kashmir.
+Ramanathaswamy Temple is situated in *Rameswaram*.
+*Mecca Masjid* is located in Telangana.`
       }
     },
     {
@@ -104,13 +104,13 @@ Mecca Masjid  -   Hyderabad, Telangana`
           {
             name: 'True',
             text: `Ranganathaswamy Temple is located in Srirangam.
-            Mecca Masjid is located in Hyderabad.
-             Kashi Vishwanath Temple is dedicated to the deity Lord Shiva.`
+Mecca Masjid is located in Hyderabad.
+Kashi Vishwanath Temple is dedicated to the deity Lord Shiva.`
           },
           {
             name: 'False',
             text: `Golden temple is located in the Andaman Islands.
-            Somnath Temple is situated in Kerala.`
+Somnath Temple is situated in Kerala.`
           }
         ]
       }
@@ -141,10 +141,10 @@ West Bengal - Durga Puja`
       type: 'match',
       data: {
         text: `Andhra Pradesh, Ugadi
-               Gujarat, Makar Sankranti
-               Karnataka, Dussehra
-               Kerala, Onam
-               Punjab, Lohri`,
+Gujarat, Makar Sankranti
+Karnataka, Dussehra
+Kerala, Onam
+Punjab, Lohri`,
         title: 'Match the following with its correct one'
       }
     },
@@ -192,10 +192,10 @@ West Bengal - Durga Puja`
           dashWidth: 80
         },
         text: `The  famous festival of Kerala is *Onam*.
-        The  famous festival of  Punjab  is *Lohri*.
-        The  famous festival of Andhra Pradesh is *Ugadi*.
-        The  famous festival of Karnataka is *Dussehra*.
-        The  famous festival of Gujarat is *Makar Sankranti*.`
+The  famous festival of  Punjab  is *Lohri*.
+The  famous festival of Andhra Pradesh is *Ugadi*.
+The  famous festival of Karnataka is *Dussehra*.
+The  famous festival of Gujarat is *Makar Sankranti*.`
       }
     },
     {
@@ -208,13 +208,13 @@ West Bengal - Durga Puja`
           {
             name: 'True',
             text: `Pongal is the famous festival celebrated at Tamil Nadu.
-            Lohri is the famous festival celebrated at Punjab.
-            Makar Sankranti is the famous festival celebrated at Gujarat.`
+Lohri is the famous festival celebrated at Punjab.
+Makar Sankranti is the famous festival celebrated at Gujarat.`
           },
           {
             name: 'False',
             text: `Saga Dawa is famous festival celebrated at Kerala.
-            Durga Puja is the famous festival celebrated at Tripura.`
+Durga Puja is the famous festival celebrated at Tripura.`
           }
         ]
       }
@@ -245,10 +245,10 @@ Tamil Nadu - Bharatnatyam`
       type: 'match',
       data: {
         text: `Andhra Pradesh, Kuchipudi
-              Gujarat, Dandiya Raas
-              Kerala,  kathakali 
-              Manipur, Manipuri
-              Odisha, Odissi`,
+Gujarat, Dandiya Raas
+Kerala,  kathakali 
+Manipur, Manipuri
+Odisha, Odissi`,
         title: 'Match the following with its correct one'
       }
     },
@@ -294,10 +294,10 @@ Tamil Nadu - Bharatnatyam`
           dashWidth: 80
         },
         text: `The famous state dance of *Manipur*is Manipuri.
-        The famous state dance of *Kerala* is Mohiniyattam.
-        The famous state dance of *Punjab * is Bhangra.
-        The famous state dance of *Andhra Pradesh* is Kuchipudi.
-        The famous state dance of *Odisha* is Odissi.`
+The famous state dance of *Kerala* is Mohiniyattam.
+The famous state dance of *Punjab * is Bhangra.
+The famous state dance of *Andhra Pradesh* is Kuchipudi.
+The famous state dance of *Odisha* is Odissi.`
       }
     },
     {
@@ -310,13 +310,13 @@ Tamil Nadu - Bharatnatyam`
           {
             name: 'True',
             text: `Dandiya Raas is the famous state dance of Gujarat.
-            Manipuri is the famous state dance of Manipur.
-            Bharatnatyam is the famous dance of Tamil Nadu.`
+Manipuri is the famous state dance of Manipur.
+Bharatnatyam is the famous dance of Tamil Nadu.`
           },
           {
             name: 'False',
             text: `Kumi is the famous dance of Punjab.
-            Kuchipudi is the famous dance of Goa.`
+Kuchipudi is the famous dance of Goa.`
           }
         ]
       }

@@ -1,15 +1,15 @@
 export default {
-  id: "computer-4",
-  label: "Computer-2",
-  pdf: "",
+  id: 'computer-4',
+  label: 'Computer-2',
+  pdf: '',
   lockAfter: 4,
   list: [
     {
-      label: "Evolution of Computer",
-      type: "passage",
-      id: "evolution-computer",
+      label: 'Evolution of Computer',
+      type: 'passage',
+      id: 'evolution-computer',
       data: {
-        title: "Evolution of Computer",
+        title: 'Evolution of Computer',
         text: `# Evolution to computers
 The first use of the word "computer" was recorded in 1613, referring to a person who carried out calculations, or computations.
 1. Tally stick: A tally stick was an ancient memory aid device to record and document numbers, quantities, or even messages
@@ -27,103 +27,103 @@ There are five generations of computers.
 2. Second-generation (1959 - 1964): Transistors replaced vacuum tubes. It allowed computers to become smaller, faster, cheaper, more energy-efficient, and more reliable. Second-generation computers used assembly languages. These were also the first computers that stored their instructions in their memory. Examples: IBM 1920, 1BM 1401, etc
 3. Third-generation (1965 - 1970): The development of the integrated circuit increased the speed and efficiency of computers. Computers for the first time became accessible to a mass audience.
 4. Fourth-generation (1971 - today): The microprocessor brought the fourth generation of computers. These small computers became more powerful. The concept of the Internet was introduced. 
-5. Fifth-generation (Today to future): Based on Artificial Intelligence (AI). It is still in development. `,
-      },
+5. Fifth-generation (Today to future): Based on Artificial Intelligence (AI). It is still in development. `
+      }
     },
     {
-      label: "True or False",
-      id: "tf",
-      type: "classifySentence",
+      label: 'True or False',
+      id: 'tf',
+      type: 'classifySentence',
       data: {
-        title: "Classify the below sentences as true and false",
+        title: 'Classify the below sentences as true and false',
         types: [
           {
-            name: "True",
+            name: 'True',
             text: `A tally stick was an ancient memory aid device.
 An abacus is a mechanical device used to aid an individual in performing mathematical calculations.
-The Jacquard loom is a mechanical loom.`,
+The Jacquard loom is a mechanical loom.`
           },
           {
-            name: "False",
+            name: 'False',
             text: `We use first-generation computers nowadays.
-AI is used in fourth-generation computers.`,
-          },
-        ],
-      },
+AI is used in fourth-generation computers.`
+          }
+        ]
+      }
     },
     {
-      id: "match",
-      label: "Match the following",
-      type: "match",
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
       data: {
         text: `UNIVAC, first-generation
 IBM 1920, second-generation
 Internet, fourth-generation
 AI, fifth-generation`,
-        title: "Match the following",
-      },
+        title: 'Match the following'
+      }
     },
     {
-      label: "Choose the correct Answer(s)",
-      id: "mcq",
-      type: "mcq",
+      label: 'Choose the correct Answer(s)',
+      id: 'mcq',
+      type: 'mcq',
       data: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions',
         questions: [
           {
             qText:
-              "Vacuum tubes are used in _____________ generation computers.",
-            options: "first, second, third, fourth",
+              'Vacuum tubes are used in _____________ generation computers.',
+            options: 'first, second, third, fourth'
           },
           {
-            qText: "First-generation computer uses ______________ language.",
-            options: "machine, assembly, java",
+            qText: 'First-generation computer uses ______________ language.',
+            options: 'machine, assembly, java'
           },
           {
-            qText: "The concept of IC increased computers ________________.",
-            options: "*speed, *accuracy, size, all",
+            qText: 'The concept of IC increased computers ________________.',
+            options: '*speed, *accuracy, size, all'
           },
           {
-            qText: "Primitive language is used to command __________________.",
-            options: "ENIVAC, EDAC, EDVAC",
-          },
-        ],
-      },
+            qText: 'Primitive language is used to command __________________.',
+            options: 'ENIVAC, EDAC, EDVAC'
+          }
+        ]
+      }
     },
     {
-      id: "fillup",
-      label: "Computer- Fill Up",
-      type: "fillup",
+      id: 'fillup',
+      label: 'Computer- Fill Up',
+      type: 'fillup',
       data: {
-        title: "Click the blanks and fill it with the right word.",
+        title: 'Click the blanks and fill it with the right word.',
         text: `The *first (second)* computers used vacuum tubes and were very expensive.
 *Transistors (Capacitors)*replaced vacuum tubes.
 The development of the integrated circuit increased the *speed (time)* and efficiency of computers. 
 The microprocessor brought the *fourth (fifth)* generation of computers. 
-Second-generation computers used *assembly (operating)* languages. `,
-      },
+Second-generation computers used *assembly (operating)* languages. `
+      }
     },
     {
-      label: "Name the following",
-      type: "matchByDragDrop",
-      id: "name-them",
+      label: 'Name the following',
+      type: 'matchByDragDrop',
+      id: 'name-them',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `An ancient memory aid device to record and document numbers, quantities, or even messages is called *tally stick*
 A mechanical device used to aid an individual in performing mathematical calculations is called *abacus*
 An automatic loom controlled by punched cards is called *jacquard loom*
-A mechanical calculator is called *arithmometer*`,
-      },
+A mechanical calculator is called *arithmometer*`
+      }
     },
     {
-      label: "Who invented it ?",
-      type: "completeWord",
-      id: "fill-up2",
+      label: 'Who invented it ?',
+      type: 'completeWord',
+      id: 'fill-up2',
       data: {
         text: `Who invented Napier's bones?|JOHN NAPIER|J___ N__I_R
 Who invented Slide rule? |WILLIAM OUGHTRED| W_____M O__HT__D
@@ -131,39 +131,39 @@ Who invented Difference engine? |CHARLES BABBAGE| CH____S B__B__E
 Who invented Pascaline? |BLAISE PASCAL| B____E P____L
 Who invented Stepped Reckoner? |GOTTFRIED WILHELM LEIBNIZ| G_T___IED W__H__M L___N_Z
 Who invented Jacquard loom? |JOSEPH MARIE JACQUARD| JO___H M___E JA____D
-Who invented Arithmometer? |THOMAS DE COLMAR| TH___S D_ C____R`,
-      },
+Who invented Arithmometer? |THOMAS DE COLMAR| TH___S D_ C____R`
+      }
     },
     {
-      id: "fillup-3",
-      label: "What does it stand for ?",
-      type: "fillup",
+      id: 'fillup-3',
+      label: 'What does it stand for ?',
+      type: 'fillup',
       data: {
-        title: "Click the blanks and fill it with the right word.",
+        title: 'Click the blanks and fill it with the right word.',
         text: `AI - *Artificial (Automatic)* Intelligence
 IC - *Integrated (Internet)* Circuit
-CPU - Central *Processing (Programing)* Unit`,
-      },
+CPU - Central *Processing (Programing)* Unit`
+      }
     },
     {
-      id: "match-2",
-      label: "Match the following",
-      type: "match",
+      id: 'match-2',
+      label: 'Match the following',
+      type: 'match',
       data: {
         text: `first, 1946
 second, 1959
 third, 1965
 fourth, 1971
 fifth, today`,
-        title: "Match the following",
-      },
+        title: 'Match the following'
+      }
     },
     {
-      label: "Common Shortcuts",
-      type: "passage",
-      id: "evolution-computer-2",
+      label: 'Common Shortcuts',
+      type: 'passage',
+      id: 'evolution-computer-2',
       data: {
-        title: "Common Shortcuts",
+        title: 'Common Shortcuts',
         text: `# Shortcuts
 1. Alt + F - File menu options in the current program.
 2. Alt + E - Edits options in the current program.
@@ -182,39 +182,39 @@ fifth, today`,
 15. Shift + Home - Highlight from the current position to the beginning of the line.
 16. Shift + End - Highlight from the current position to the end of the line.
 17. Ctrl + (Left arrow) - Move one word to the left at a time.
-18. Ctrl + (Right arrow) - Move one word to the right at a time.`,
-      },
+18. Ctrl + (Right arrow) - Move one word to the right at a time.`
+      }
     },
     {
-      id: "match-3",
-      label: "Match the following",
-      type: "match",
+      id: 'match-3',
+      label: 'Match the following',
+      type: 'match',
       data: {
         text: `F1,  help 
 Ctrl + A , Select all 
 Ctrl + X , Cut
 Ctrl + C, Copy
 Ctrl + V, Paste`,
-        title: "Match the following",
-      },
+        title: 'Match the following'
+      }
     },
     {
-      label: "Answer in one word",
-      type: "matchByDragDrop",
-      id: "fill-up3",
+      label: 'Answer in one word',
+      type: 'matchByDragDrop',
+      id: 'fill-up3',
       data: {
         isPractice: false,
-        title: "Drag and drop the given words at the right blanks.",
+        title: 'Drag and drop the given words at the right blanks.',
         styles: {
-          fontSize: "1.3rem",
-          dashWidth: 80,
+          fontSize: '1.3rem',
+          dashWidth: 80
         },
         text: `*Alt + F* is the shorcut for File menu options in the current program.
 *Alt + E* opens Edit options in the current program.
 *Home* shorcut takes the user to the beginning of the current line.
 *End* button take you to the end of the current line.
-*Ctrl + End* shortcut takes you to the end of a document.`,
-      },
-    },
-  ],
+*Ctrl + End* shortcut takes you to the end of a document.`
+      }
+    }
+  ]
 };

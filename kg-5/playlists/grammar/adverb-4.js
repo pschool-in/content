@@ -222,17 +222,17 @@ The turtle moves *slowly (slow, fast)*.
 The teacher *clearly (clear, elaborate)* explained the topic.
 The dog runs *quickly (quick, slowly)*.`
       ]
-    }, /*
-    {
-      type: 'selectWord',
-      label: 'Select all Adverbs of Place and Time',
-      id: 'multi-select-word-2',
-      commonData: {
-        title: 'Select all adverbs of place and time in the below sentences.',
-        multiSelect: true
-      },
-      data: [
-        `My cat eats *under* the sofa. It goes there *whenever* it wants to eat.
+    } /*
+{
+type: 'selectWord',
+label: 'Select all Adverbs of Place and Time',
+id: 'multi-select-word-2',
+commonData: {
+title: 'Select all adverbs of place and time in the below sentences.',
+multiSelect: true
+},
+data: [
+`My cat eats *under* the sofa. It goes there *whenever* it wants to eat.
 I will clean my house *tomorrow*. I am very tired *now*.
 The children are playing *outside*. They have been playing *since* evening.
 I am studying in this school *since* fourth grade. The school bus runs *in* the city.
@@ -245,7 +245,7 @@ We are meeting *behind* the school *next week*. We will play cricket *there*.
 The car is moving *backwards*. I will move *aside* *when* it will come closer.
 I *always* eat *in* the kitchen. I go to the school *afterwards*.`,
 
-        `I met Ram *yesterday*. I came to know that he lives *across* the street.
+`I met Ram *yesterday*. I came to know that he lives *across* the street.
 I completed my homework *last night*. I won't be punished *in* the school today.
 She is going *towards* the library. But it is closed *now*.
 Do you know *where* does he live? I need my book by *tonight*.
@@ -257,8 +257,8 @@ The clouds are *up* in the sky. It will probably rain *tonight*.
 We looked *around* but we couldn't find the dog. It may be sleeping.
 My brother *never* helps me. He is *always* at his friend's house.
 *Sometimes*, my Dad comes home *early*. Then we walk *around* the street at night.`
-      ]
-    },*/
+]
+},*/,
     {
       type: 'selectWord',
       label: 'Select the Adverb of Time',
@@ -268,7 +268,7 @@ My brother *never* helps me. He is *always* at his friend's house.
         printTitle: 'Underline the adverb of time in the below sentences.'
       },
       data: [
-          `I will clean my room *tomorrow*.
+        `I will clean my room *tomorrow*.
 I saw you *yesterday*, at the restaurant.
 My uncle lived in London for a *year*.
 I *often* eat sea food.
@@ -279,7 +279,7 @@ My sister *rarely* lies.
 I *frequently* visit my grandma's house.
 I go to the playground *occasionally*.`,
 
-          `I *normally* listen to the rock music.
+        `I *normally* listen to the rock music.
 *Often*, I go for morning walks.
 I go to the canteen *regularly*.
 I *sometimes* sleep very late.
@@ -290,7 +290,7 @@ I will call you *later*.
 She *often* falls asleep during class.
 *Generally*, I don't like green vegetables.`,
 
-          `I was sleeping *then*.
+        `I was sleeping *then*.
 *Now* I am going to his party.
 I waited for a *few* minutes.
 She said she would be sleeping for a *while*.

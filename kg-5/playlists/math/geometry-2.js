@@ -19,7 +19,7 @@ export default {
       id: 'draw-triangle',
       data: {
         text: `Draw a triangle whose sides are 4, 3, 3 cm. | triangle | 3, 3
-        Draw a triangle whose sides are 4, 3.6, 3.2 cm. | triangle | 3.6, 3.2     
+Draw a triangle whose sides are 4, 3.6, 3.2 cm. | triangle | 3.6, 3.2     
 Draw a triangle whose all sides are equal. | triangle | 4, 4
 Draw a triangle whose sides are 4, 3, 2 cm. | triangle | 2, 3
 Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
@@ -31,10 +31,10 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
       id: 'triangle-angle',
       data: {
         text: `Draw a triangle whose angles are 45, 45, 90 degrees. | triangleAngle | 45, 45, 90
-        Draw a triangle whose all angles are equal. | triangleAngle | 60, 60, 60
-        Draw a triangle whose angles are 30, 60, 90 degrees. | triangleAngle | 30, 60, 90
-        Draw a triangle whose two angles are 110, 40 degrees. | triangleAngle | 30, 40, 110
-        Draw a triangle whose two angles are 50 degrees. | triangleAngle | 50, 50, 80`
+Draw a triangle whose all angles are equal. | triangleAngle | 60, 60, 60
+Draw a triangle whose angles are 30, 60, 90 degrees. | triangleAngle | 30, 60, 90
+Draw a triangle whose two angles are 110, 40 degrees. | triangleAngle | 30, 40, 110
+Draw a triangle whose two angles are 50 degrees. | triangleAngle | 50, 50, 80`
       }
     },
     {
@@ -43,10 +43,10 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
       id: 'parallelogram',
       data: {
         text: `Draw a parallelogram of sides 3 and 4 cm, with one of its angle being 60 degree. | parallelogram | 3, 4, 60
-        Draw a parallelogram of sides 3 and 3 cm, with one of its angle being 90 degree. | parallelogram | 3, 3, 90
-        Draw a parallelogram of sides 3 and 2 cm, with one of its angle being 110 degree. | parallelogram | 3, 2, 110
-        Draw a parallelogram of sides 3 and 4 cm, with one of its angle being 75 degree. | parallelogram | 3, 4, 75
-        Draw a parallelogram of sides 2 and 3.6 cm, with one of its angle being 60 degree. | parallelogram | 2, 3.6, 60`
+Draw a parallelogram of sides 3 and 3 cm, with one of its angle being 90 degree. | parallelogram | 3, 3, 90
+Draw a parallelogram of sides 3 and 2 cm, with one of its angle being 110 degree. | parallelogram | 3, 2, 110
+Draw a parallelogram of sides 3 and 4 cm, with one of its angle being 75 degree. | parallelogram | 3, 4, 75
+Draw a parallelogram of sides 2 and 3.6 cm, with one of its angle being 60 degree. | parallelogram | 2, 3.6, 60`
       }
     },
     {
@@ -58,15 +58,15 @@ Draw a triangle whose sides are 4, 2.8, 3.2 cm. | triangle | 2.8, 3.2 `
         type: 'custom',
         types: ['rectangle', 'parallelogram', 'quadrilateral'],
         text: `M 5 5 H 80 V 60 H 5 Z | 0
-        M 20 20 H 90 L 80 90 H 10 Z | 1
-        M 20 5 H 80 L 90 80 H 10 Z | 2
-        M 20 5 H 80 V 90 H 20 Z | 0
-        M 20 20 H 90 L 80 50 H 10 Z | 1
-        M 5 30 L 90 5 L 70 90 H 5 Z | 2
-        M 20 20 H 80 V 80 H 20 Z | 0
-        M 30 5 H 95 L 70 70 H 5 Z | 1
-        M 5 25 L 95 5 V 95 L 5 75 Z | 2
-        M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
+M 20 20 H 90 L 80 90 H 10 Z | 1
+M 20 5 H 80 L 90 80 H 10 Z | 2
+M 20 5 H 80 V 90 H 20 Z | 0
+M 20 20 H 90 L 80 50 H 10 Z | 1
+M 5 30 L 90 5 L 70 90 H 5 Z | 2
+M 20 20 H 80 V 80 H 20 Z | 0
+M 30 5 H 95 L 70 70 H 5 Z | 1
+M 5 25 L 95 5 V 95 L 5 75 Z | 2
+M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
       }
     },
     {
