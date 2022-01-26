@@ -46,7 +46,7 @@ A sanctuary is a protected area which is reserved for the conservation of animal
       id: 'classify-2',
       type: 'group',
       data: {
-        title: 'Classify the below animals',
+        title: 'Classify the below plants',
         types: [
           {
             name: 'Endangered',

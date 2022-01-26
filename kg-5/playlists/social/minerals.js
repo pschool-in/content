@@ -9,7 +9,7 @@ export default {
       data: {
         title: 'Wealth under the Ground',
         text: `Lot of things we use are extracted from ground and they are generally known as minerals. The activity of extracting minerals from earth is known as mining.
-Minerals are of two kinds, namely metallic and non-metalic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metalic minerals.
+Minerals are of two kinds, namely metallic and non-metallic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metallic minerals.
 India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts.
 Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc.
 Copper was the first  metal used by human beings. It is widely used in electrical equipments.

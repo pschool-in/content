@@ -3,6 +3,95 @@ export default {
   id: 'picture',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Animals',
+      id: 'drag-animal',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `cat | Cat
+dog | Dog
+goat| Goat
+cow| Cow
+donkey| Donkey
+horse| Horse`,
+
+        `pig| Pig
+elephant| Elephant
+lion | Lion
+monkey| Monkey
+hippo| Hippo
+rhino| Rhino`,
+
+        `fox| Fox
+crocodile| Crocodile
+zebra| Zebra
+bear| Bear
+camel| Camel
+shark| Shark`,
+
+        `whale| Whale
+dolphin| Dolphin
+tiger| Tiger
+sheep| Sheep
+fish| Fish
+frog| Frog`,
+
+        `crab| Crab
+snake| Snake
+bull | Bull
+tortoise| Tortoise
+rat| Rat
+ant| Ant`,
+
+        `bat| Bat
+buffalo| Buffalo
+butterfly| Butterfly
+cheetah| Cheetah
+bee | Bee
+goldfish | Goldfish`,
+
+        `spider | Spider
+panda | Panda
+giraffe| Giraffe
+kangaroo| Kangaroo`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Birds',
+      id: 'drag-birds',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `crow|Crow
+dove|Dove
+duck|Duck
+hen|Hen
+chick| Chick
+parrot|Parrot`,
+
+        `peacock|Peacock
+penguin|Penguin
+sparrow|Sparrow
+crane| Crane`,
+
+        `eagle| Eagle
+flamingo| Flamingo
+kingfisher| Kingfisher
+myna| Myna
+ostrich| Ostrich
+owl| Owl`,
+
+        `rooster| Rooster
+vulture| Vulture
+woodpecker| Woodpecker
+koel | Koel`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'animals',
       label: 'Animals',
@@ -189,95 +278,6 @@ R, rooster
 V, vulture
 W, woodpecker
 K, koel`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Animals - Drag & Drop',
-      id: 'dragDrop-animal',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `cat | Cat
-dog | Dog
-goat| Goat
-cow| Cow
-donkey| Donkey
-horse| Horse`,
-
-        `pig| Pig
-elephant| Elephant
-lion | Lion
-monkey| Monkey
-hippo| Hippo
-rhino| Rhino`,
-
-        `fox| Fox
-crocodile| Crocodile
-zebra| Zebra
-bear| Bear
-camel| Camel
-shark| Shark`,
-
-        `whale| Whale
-dolphin| Dolphin
-tiger| Tiger
-sheep| Sheep
-fish| Fish
-frog| Frog`,
-
-        `crab| Crab
-snake| Snake
-bull | Bull
-tortoise| Tortoise
-rat| Rat
-ant| Ant`,
-
-        `bat| Bat
-buffalo| Buffalo
-butterfly| Butterfly
-cheetah| Cheetah
-bee | Bee
-goldfish | Goldfish`,
-
-        `spider | Spider
-panda | Panda
-giraffe| Giraffe
-kangaroo| Kangaroo`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Birds - Drag & Drop',
-      id: 'dragDrop-birds',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `crow|Crow
-dove|Dove
-duck|Duck
-hen|Hen
-chick| Chick
-parrot|Parrot`,
-
-        `peacock|Peacock
-penguin|Penguin
-sparrow|Sparrow
-crane| Crane`,
-
-        `eagle| Eagle
-flamingo| Flamingo
-kingfisher| Kingfisher
-myna| Myna
-ostrich| Ostrich
-owl| Owl`,
-
-        `rooster| Rooster
-vulture| Vulture
-woodpecker| Woodpecker
-koel | Koel`
       ]
     }
   ]

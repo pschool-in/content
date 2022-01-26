@@ -20,7 +20,7 @@ There are many children who do not get enough food to eat. Such children suffer 
 6. have thin and light hair
 Malnourished children can become healthy if they receive sufficient quantity of nutritious food.
 # Anaemia
-Some fruits and green vegetables contain iron. Lack of iron leads to a condition called anaemia. A person suffering from anaemia has low haemoglobin content in the blood. Haemoglobin is a substance in the blood that carries oxygen. When the body is deprived of oxygen, it is not able to get enough energy from food to work and play. Anemic person feels tired easily and falls sick often. Spinach and other green leafy vegetables, fruits such as apple, guava and banana, pulses, jaggery, egg, meat and liver are all rich sources of iron.
+Some fruits and green vegetables contain iron. Lack of iron leads to a condition called anaemia. A person suffering from anaemia has low haemoglobin content in the blood. Haemoglobin is a substance in the blood that carries oxygen. When the body is deprived of oxygen, it is not able to get enough energy from food to work and play. Anaemic person feels tired easily and falls sick often. Spinach and other green leafy vegetables, fruits such as apple, guava and banana, pulses, jaggery, egg, meat and liver are all rich sources of iron.
 # Rickets
 Rickets is caused by the deficiency of Vitamin D in the diet. A person with rickets becomes bow legged because their bones become soft and can bend easily. Vitamin D along with minerals like calcium and phosphorous make the bones and teeth hard and strong. Milk and its products contain calcium. Vitamin D is also called the sunshine vitamin because it is produced in the body when the skin is exposed to sunlight.
 # Scurvy

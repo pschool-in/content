@@ -44,7 +44,7 @@ export default {
           {
             word: 'windpipe',
             marker: { x: 6, y: 0 },
-            hint: 'Air moves down trough it into the lungs',
+            hint: 'Air moves down through it into the lungs',
             direction: 'down'
           },
           {

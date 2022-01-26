@@ -118,10 +118,10 @@ That book is *very (never)* nice.
 The tea is *extremely (so)* hot.
 This book is *quite (quiet)* interesting.
 He was *just (only)* leaving.
-She has *almost (very)* completed her HW.
+She has *almost (very)* completed her homework.
 You are walking *fast (almost)* enough.`,
 
-        `You *hardly (smartly)* tried.
+        `You *hardly (smartly)* tried and that is why you failed.
 He is walking *too (much)* slowly.
 She has *almost (utmost)* finished her work.
 You are running fast *enough (much)*.
@@ -151,15 +151,16 @@ I was crossing the street and my mom was *anxiously* looking at me. I *happily* 
 We had to move the sofa across the room. So we moved it *quickly*, but *awkwardly* in front of the guests.
 He *calmly* explained the lesson to me. I don't have any doubts now. I will *calmly* write the test today.
 He is *eagerly* waiting for his job letter. He has worked very hard for this.
-My teacher has *faithfully* worked for my school. She will be awarded and will continue to work *respectfully*.
+My teacher has *faithfully* worked for my school. She will be awarded and will continue to work *respectfully*.`,
+
+        `He ate all the chocolate *greedily*. But my friend *gently* tapped me on my shoulder and *politely* offered me his cake.
 Although I was explaining very *politely*, Shina *rudely* answered back. I will not talk to her unless she *respectfully* apologizes.
 The man in the street was *badly* hurt. I *quickly* called the hospital. The man was soon treated *carefully* and *efficiently*.
-He ate all the chocolate *greedily*. But my friend *gently* tapped me on my shoulder and *politely* offered me his cake.`,
-
-        `I was at the railway station yesterday. The announcement asked the people to move away from the tracks. Then a bullet train passed by very *quickly*.
+I was at the railway station yesterday. The announcement asked the people to move away from the tracks. Then a bullet train passed by very *quickly*.
 There were many children in the park. They were playing *happily*. After 7 pm, they *sadly* went to their homes.
-We are going to the jungle. We may see many wild animals there. My mom asked my dad to drive *carefully*.
-I am at a party with my family. My mom asked me to talk to everyone *politely* and *respectfully*.
+We are going to the jungle. We may see many wild animals there. My mom asked my dad to drive *carefully*.`,
+
+        `I am at a party with my family. My mom asked me to talk to everyone *politely* and *respectfully*.
 Stop talking so *noisily* in the library. It might disturb other readers. The sounds echo *loudly* in the hall.
 My father can drive the car *easily*. But he yells *angrily* when the traffic irritates him.
 Our school *suddenly* announced a trip. We all got very excited. Everyone started making plans *excitedly*.
@@ -175,9 +176,9 @@ She was dressed *smartly* for the party. She also danced *beautifully*. Everyone
 He scored well in exams. He told his parents *proudly*. They decided to celebrate by going to a restaurant.
 The teacher checked the answers *carefully*. I answered many questions *correctly* and scored well.
 I *energetically* did my exercise in the morning. I was feeling fresh all day long. I did all my work *efficiently*.
-The teacher yelled at us *angrily*. The class *immediately* started doing their homework.
-I *gladly* told my parents that I got selected for the sports team. They *excitedly* hugged me. My mom said she'll make pizza for me.
-I got hurt. So I *rapidly* put a gel on the wound. I am doing my tasks *carefully* now.`
+The teacher yelled at us *angrily*. The class *immediately* started doing their work.
+I *gladly* told my parents that I got selected for the sports team. They *excitedly* hugged me.
+I got hurt. So I *gently* put a gel on the wound. I am doing my tasks *carefully* now.`
       ]
     },
     {
@@ -195,7 +196,7 @@ The entry is *through (thorough)* the window.
 Do you take the bus *everyday (never)*?
 Did you submit your project *yet (still)*?
 We go to a restaurant *weekly (once)*.
-Monkeys climb on *top (bottom)* of the tree.
+Monkeys climbed on *top (bottom)* of the tree.
 There are lots of plants *around (round)* us.
 Are you coming *tomorrow (yesterday)*?`,
 
@@ -270,7 +271,7 @@ My brother *never* helps me. He is *always* at his friend's house.
       data: [
         `I will clean my room *tomorrow*.
 I saw you *yesterday*, at the restaurant.
-My uncle lived in London for a *year*.
+My uncle lived in London for an *year*.
 I *often* eat sea food.
 Karan *never* drinks milk.
 I am *seldom* late.

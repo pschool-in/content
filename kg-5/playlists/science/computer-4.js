@@ -121,20 +121,6 @@ A mechanical calculator is called *arithmometer*`
       }
     },
     {
-      label: 'Who invented it ?',
-      type: 'completeWord',
-      id: 'fill-up2',
-      data: {
-        text: `Who invented Napier's bones?|JOHN NAPIER|J___ N__I_R
-Who invented Slide rule? |WILLIAM OUGHTRED| W_____M O__HT__D
-Who invented Difference engine? |CHARLES BABBAGE| CH____S B__B__E
-Who invented Pascaline? |BLAISE PASCAL| B____E P____L
-Who invented Stepped Reckoner? |GOTTFRIED WILHELM LEIBNIZ| G_T___IED W__H__M L___N_Z
-Who invented Jacquard loom? |JOSEPH MARIE JACQUARD| JO___H M___E JA____D
-Who invented Arithmometer? |THOMAS DE COLMAR| TH___S D_ C____R`
-      }
-    },
-    {
       id: 'fillup-3',
       label: 'What does it stand for ?',
       type: 'fillup',
@@ -142,7 +128,7 @@ Who invented Arithmometer? |THOMAS DE COLMAR| TH___S D_ C____R`
         title: 'Click the blanks and fill it with the right word.',
         text: `AI - *Artificial (Automatic)* Intelligence
 IC - *Integrated (Internet)* Circuit
-CPU - Central *Processing (Programing)* Unit`
+CPU - Central *Processing (Programming)* Unit`
       }
     },
     {
@@ -209,9 +195,9 @@ Ctrl + V, Paste`,
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `*Alt + F* is the shorcut for File menu options in the current program.
+        text: `*Alt + F* is the shortcut for File menu options in the current program.
 *Alt + E* opens Edit options in the current program.
-*Home* shorcut takes the user to the beginning of the current line.
+*Home* shortcut takes the user to the beginning of the current line.
 *End* button take you to the end of the current line.
 *Ctrl + End* shortcut takes you to the end of a document.`
       }

@@ -243,6 +243,27 @@ rest, relax`
         text:
           'train, house, table, chair, candle, shelf, apple, grapes, banana, cherry'
       }
+    },
+    {
+      type: 'selectWord',
+      label: 'Select the silent letter in a word.',
+      id: 'silent-letter',
+      commonData: {
+        title: `Select the silent letter in the given words.`,
+        type: 'word'
+      },
+      data: [
+        `clim*b*, dou*b*t, lis*t*en, ma*t*ch, *h*our, sc*h*ool, *k*nee, *k*now, ans*w*er, t*w*o`,
+        `com*b*, dum*b*, of*t*en, wa*t*ch, w*h*at, w*h*en, *k*nife, *k*night, *w*rite, s*w*ord`,
+        `lam*b*, lim*b*, cas*t*le, bu*t*cher, w*h*ere, g*h*ost,  *k*nob, *k*nock,  *w*hole, *w*rap`,
+        `bom*b*, num*b*, fas*t*en, *h*onest, w*h*y,  *k*not,  *w*rist, *w*rinkle, wa*l*k, pa*l*m`,
+        `de*b*t, thum*b*, r*h*ythm, sc*h*eme,  *w*reck, ec*h*o, cou*l*d, ha*l*f,  s*c*ience, s*c*issors`,
+        `lik*e*, lov*e*,  b*u*ild, g*u*ess, ta*l*k, ca*l*m, autum*n*, colum*n*, i*s*land, han*d*some`,
+        `mak*e*, ag*e*, g*u*est, g*u*ide, ali*g*n, si*g*n,  mus*c*le,  a*l*mond,  hym*n*, fri*d*ge`,
+        `chang*e*, breath*e*, g*u*itar, whis*t*le, *w*rong, plum*b*er, su*b*tle, wom*b*,  g*u*ard, shou*l*d`,
+        `hat*e*, cloth*e*s, forei*g*n, resi*g*n, fo*l*k, cha*l*k, bri*d*ge, e*d*ge, anc*h*or, ca*l*f`,
+        `assi*g*n, desi*g*n, s*c*ene, s*c*ent, ba*d*ge, ju*d*ge, wou*l*d, c*h*aos, c*h*orus, tom*b*`
+      ]
     }
   ]
 };

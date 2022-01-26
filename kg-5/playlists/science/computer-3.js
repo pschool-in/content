@@ -16,7 +16,7 @@ A computer is an advanced electronic device that performs both arithmetic and lo
 2. Mouse:  It is used to pick items on the screen. When the mouse moves, the pointer also moves.
 3. Keyboard: It has keys that we use to type numbers and letters. It helps in feeding information to the CPU. 
 4. Monitor:  It displays words or pictures processed by a computer. It acts as a display screen.
-5. Speaker:  It lets you hear the sounds from a computer. Each notification has different tones.
+5. Speaker:  It lets you to hear the sounds from a computer. Each notification has different tones.
 6. Storage devices: It helps to store data. It is one of the core functions of the computer.
 # Types of storage
 1. Primary storage: these are also known as main memory. It includes RAM, ROM, Cache, etc
@@ -205,7 +205,7 @@ The *right* mouse button is used to invoke the shortcut menu.`
         title: 'Click the blanks and fill it with the right word.',
         text: `RAM - *Random (Read)* Access Memory
 ROM - *Read (Random)* Only Memory
-CPU - Central *Processing (Programing)* Unit`
+CPU - Central *Processing (Programming)* Unit`
       }
     },
     {

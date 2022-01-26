@@ -66,8 +66,8 @@ red nine balls: incorrect`
               options: 'small round, round small'
             },
             {
-              qText: `It's a _____ song.`,
-              options: 'beautiful old, old beautiful'
+              qText: `It's _____ song.`,
+              options: 'a beautiful old, an old beautiful'
             },
             {
               qText: `It's a ___ village.`,
@@ -82,8 +82,9 @@ red nine balls: incorrect`
               options: 'cute Swiss, Swiss cute'
             },
             {
-              qText: 'There are two _____ lamps.',
-              options: 'big glass, glass big'
+              qText: 'There are  _____ lamps.',
+              options:
+                'two big glass, two glass big, big too glass, glass two big'
             },
             {
               qText: 'It is a ______ bug.',
@@ -209,20 +210,21 @@ Ram and Mahesh went to the market to buy ten large, fresh, red apples.
 Mani left his small, white, striped shirt at home.`,
 
           `The principal said that we could go on a tropical, long vacation.
-Does the Indian, young actor win a lot of awards?
-The white, comfortable sofa was very expensive.`
+Does the Indian young actor win a lot of awards?
+The white comfortable sofa was very expensive.`
         ],
         [
-          `That big, black car goes really fast.
-A round, black ball
-Five, little children`,
+          `That big black car goes really fast.
+This hard black ball is really heavy.
+The farmer had five little children.`,
 
-          `little, five children.
-Full, three boxes.
-two red, square tables`
+          `The poor man had little five children.
+My uncle bought full three boxes of fruits.
+I gave her red six roses.`
         ]
       ]
     },
+    /*
     {
       type: 'selectWord',
       label: 'Identify Adjectives',
@@ -248,6 +250,7 @@ She said to herself, how *pretty* Thumbelina is!
 Later, she picked up Thumbelina and hopped back into the wetlands.`
       ]
     },
+    */
     {
       label: 'Appropriate Adjective',
       type: 'matchByDragDrop',

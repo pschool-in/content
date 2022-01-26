@@ -13,7 +13,7 @@ export default {
 # How is sound produced?
 Sound is produced when an object vibrates on being struck. For example, the sheet of the drum or strings of guitar vibrate when we strike them and they produce sound. When we speak, the air inside our mouth strikes the voice box present in our throat. The voice box vibrates and produces sound. We hear this sound through our ears.
 Too much of sounds can create noise pollution. If our ears get exposed to heavy sounds for a long time, then it loses its hearing ability. `,
-        title: 'Light and Sound'
+        title: 'Sound'
       }
     },
     {
@@ -63,6 +63,37 @@ We cannot hear any sound in the dark.
 The sound of the loudspeaker is a soft sound.`
           }
         ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Fill in the blanks with the given words.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 80
+        },
+        text: `Unpleasant sound is called *noise* and it *irritates* us. 
+Too much of sound can cause noise *pollution*.
+Sound is a form of *energy* and it is caused by *vibration*.`
+      }
+    },
+    {
+      type: 'rightOne',
+      id: 'right-spell',
+      label: 'Correct Spelling',
+      data: {
+        title: 'Select with word with correct spelling.',
+        fontSize: '1.3rem',
+        noCaps: true,
+        text: `pollution, pollusion, polution
+noise, noice, nois
+vibration, vaibration, viberation
+pleasant, plesent, pleasent
+chirping, cherping, chiriping`
       }
     }
   ]

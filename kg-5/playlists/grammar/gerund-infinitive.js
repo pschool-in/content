@@ -9,57 +9,43 @@ export default {
       id: 'the-gerund-reading',
       data: {
         title: 'The Gerund',
-        text: `The gerund is that form of the verb which ends in -ing and acts as a noun and verb. Therefore gerund is also called a Verb-noun. Gerund might be present either at the beginning, middle, or at the end of the sentence. 
-
-For example 
-1. "Swimming" is a very good exercise. 
-2. I like "reading" poetry. 
-3. I like "watching" TV. 
-
-# Uses of gerund:
-A gerund can be used as a
-
-# The subject of the verb
-Examples are
-1. Walking is good exercise for health.
-2. Reading books increase your knowledge.
-3. Working hard makes you successful.
-
-# The object of the verb
-Examples are
-1. He dislikes sleeping long.
-2. I hate telling lies.
-3. Stop writing now.
-
-# Object of preposition
-Examples are
-1. She is fond of dancing.
-2. I am tired of waiting.
-3. My father is addicted to drinking.
-
-# Complement of the verb
-Examples are
-1. My aim in life is becoming a writer.
-2. What I hate is drinking.
-3. Her favorite hobby is dancing.`
-      }
-    },
-    {
-      label: 'Infinitive',
-      type: 'passage',
-      id: 'infinitive-reading',
-      data: {
-        title: 'Infinitive',
-        text: `An infinitive is a verb that functions as a noun, adjective, or adverb to express an opinion, purpose of an object or action or answers the questions, who, what, or why. The infinitive usually begins with the word "to" and is followed by the base form of the verb.
-Some examples of infinitive include
-1. to read
-2. to run
-3. to jump
-4. to play
-5. to sing
-6. to laugh
-7. to eat
-8. to go`
+        text: [
+          `A verb form that ends with '-ing' are usually called as gerund. They can play the role of both verb and noun. It might be present either at the beginning, middle, or at the end of the sentence. For eg:`,
+          {
+            type: 'html',
+            text: `<b>Swimming</b> is a good exercise. 
+I like <b>reading</b> poetry. 
+He is good at <b>dancing</b>. `
+          },
+          `# As Subject`,
+          {
+            type: 'html',
+            text: `<b>Speaking</b> in mother tongue should be encouraged. 
+<b>Reading</b> books increase your knowledge.
+<b>Working</b> hard makes you successful. `
+          },
+          `# As Object of Verb`,
+          {
+            type: 'html',
+            text: `He dislikes <b>sleeping</b> long.
+I hate <b>telling</b> lies.
+Stop <b>writing</b> now.`
+          },
+          `# As Object of Preposition`,
+          {
+            type: 'html',
+            text: `She is fond of <b>dancing</b>.
+I am tired of <b>waiting</b>.
+His uncle is addicted to <b>drinking</b>.`
+          },
+          `# As Complement of Verb`,
+          {
+            type: 'html',
+            text: `My aim in life is becoming a <b>writer</b>.
+What I hate is <b>travelling</b>.
+Her favorite hobby is <b>dancing</b>.`
+          }
+        ]
       }
     },
     {
@@ -67,40 +53,40 @@ Some examples of infinitive include
       label: 'Identify-Gerund',
       id: 'select-word',
       commonData: {
-        title: 'Identify the gerund in each sentence'
+        title: 'Identify the gerund in the below text.'
       },
       data: [
-        `Gaurav avoids *driving* on highways as much as possible.
+        `She likes *painting*.
+        Gaurav avoids *driving* fast.
 Grandma enjoyed *meeting* new people.
 Kavitha has developed an interest in *cooking*.
 My mother says *eating* fresh vegetables are good for health. 
-She likes *painting*.
-My mom is always been afraid of *flying*.
+My mom is afraid of *flying* in aeroplane.
 *Swimming* is a good exercise.
-My brother gave up *smoking* a few years ago.
+My uncle gave up *smoking* a few years ago.
 What about *going* to the museum tomorrow?
 My father was happy *seeing* his mom after a long time.`,
 
         `He enjoys *playing* football.
-Vihaan's most favorite free-time activity is *restoring* vintage bikes.
+Shiyam works in *restoring* vintage bikes.
 Mahita is fond of *spending* long hours at the library.
 Aadhya loved *listening* to grandpa's childhood memories.
 The AC stopped *working* in the middle of the night.
 My sister is fond of *reading* novels.
 We had fun *skiing* in the snow.
-It's no use *taking* a cab now, as we are late already.
+It's no use *taking* a cab now, as we are already late.
 I couldn't stop *laughing* at the joke.
 I considered *moving* to Mumbai last year.`,
 
         `Is the exhibition worth *visiting*?
 I don't mind *getting* up early.
 Did you miss *watching* TV?
-Dentists recommend *cleaning* teeth twice a day.
+Dentists recommend *brushing* teeth twice a day.
 He was so noisy, I asked him to stop *talking*.
 She delayed *going* to the hospital.
 I miss *going* to school.
 My car needs *washing*. Could you do that for me?
-I spend my free time *collecting* old stamps.
+I am *collecting* old stamps.
 She denied *having* an ice cream at night.`
       ]
     },
@@ -117,17 +103,42 @@ She denied *having* an ice cream at night.`
         }
       },
       data: [
-        `*Developing* the new software is taking longer than expected.
+        `*Developing* good habits take lot of time.
 *Reading* motivational stories keep Amit busy in the afternoon.
-Studying and *completing* the assignment made Tarun tired and hungry.
-*Sunbathing* helps the body absorb vitamin D.
+*Completing* the assignment made Tarun tired and hungry.
+*Bathing* helps to keep our body clean.
 *Singing* in front of the crowd made Neha a bit nervous.`,
-        `*Keeping* the school premises neat and tidy is the primary job of the administrative department.
+        `She is *keeping* the school premises neat and tidy.
 I suggested *discussing* the matter in the next meeting.
 Mrs.Sharma is keen on *setting* up a restaurant nearby her place.
-Before *leaving*, Mrs.Reddy said goodbye to each of us.
+Before *leaving*, he said goodbye to each of us.
 Not only *living* in the city is hectic, but it is expensive too.`
       ]
+    },
+    {
+      label: 'Infinitive',
+      type: 'passage',
+      id: 'infinitive-reading',
+      data: {
+        title: 'Infinitive',
+        text: [
+          `An infinitive is a verb that functions as a noun, adjective, or adverb. It usually begins with the word "to" and is followed by the base form of the verb. Eg:`,
+          {
+            type: 'html',
+            text: `She plans <b>to write</b> a poem.
+          They are going <b>to run</b> around the ground.
+          The dog was not hungry enough <b>to eat</b>.`
+          },
+          `# Negative infinite phrase
+        They are formed by placing 'not to' in front of the base verb.`,
+          {
+            type: 'html',
+            text: `My mom asked me not <b>to eat</b> the candy.
+          I will try <b>not to be late</b>.
+          We were warned <b>not to go</b> near the edge of the cliff.`
+          }
+        ]
+      }
     },
     {
       id: 'fill-up',
@@ -151,22 +162,22 @@ They practised *speaking (speak)* Sanskrit.`,
         `My mom has promised *to take (take)* us to the park this weekend.
 Mahesh recommended *writing (write)* down my own notes.
 Richa said she needed *to borrow (borrow)* some money from Deepthi.
-Mrs. Naidu didn't like *making (make)* promises that she knew she couldn't keep. 
+Savitha didn't like *making (make)* promises that she knew she couldn't keep. 
 Sam decided *to take (take)* the test online.
 Priya hates *studying (study)*.
-We stopped *buying (to buy)* newspapers from the bus station.
+We stopped *buying (to buy)* newspapers as we were not reading it.
 Mihir denied *breaking (break)* the porcelain cup.
 We were very excited *boarding (board)* the plane for the first time.
 She wanted *to buy (buy)* expensive sandals.`,
 
-        `I can't stand *waiting (wait)* in queues.
+        `I don't like *waiting (wait)* in queues.
 Jatin likes *working (work)* in Canada.
 I forgot *to buy (buying)* milk. 
 Taman gave up *smoking (smoke)* years ago.
 My cousin offered *to take (take)* us to the airport.
-It appears *to be (be)* drizzling.
+It appears *to be (is)* drizzling.
 We are *planning (to plan)* to visit our village this weekend.
-It tends *to rain (raining)* a lot in Kerala.
+It *rains (raining)* a lot in Kerala.
 Tanish completed *painting (paint)* his flat.
 *Cooking (To cook)* is my father's favorite pass time.`,
 
@@ -178,8 +189,8 @@ I tried *to understand (understand)* but I just couldn't.
 My mom chose *to work (work)* in this school.
 My brother postponed *doing (do)* his homework.
 My cousin would be *arriving (arrive)* tomorrow from Delhi.
-I remember *going (go)* to my first movie when I was 13.
-Would you mind *passing (pass)* the salt from the table?`
+I remember *going (go)* to my first movie when I was seven.
+Would you mind *passing (pass)* the salt ?`
       ]
     }
   ]

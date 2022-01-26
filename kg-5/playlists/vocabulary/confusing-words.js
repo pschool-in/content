@@ -41,7 +41,7 @@ text: `<b>by</b> -  one does something<br>
           {
             type: 'html',
             text: `<b>thorough</b> - an adjective that describes an act undertaken with great attention to detail.<br>
-<b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' It also means 'during'.`
+<b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' `
           },
           `# borrow vs burrow`,
           {

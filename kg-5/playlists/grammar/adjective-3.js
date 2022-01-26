@@ -148,7 +148,7 @@ I have a *little (few)* money left to buy the ice cream from the shop.`
       label: 'Positive vs Negative',
       id: 'classify-positive-negative',
       commonData: {
-        title: 'Classify the below sentences as positive and negative.',
+        title: 'Classify the below words as positive and negative.',
         types: ['Positive', 'Negative']
       },
       data: [
@@ -162,7 +162,7 @@ I have a *little (few)* money left to buy the ice cream from the shop.`
       label: 'Match - Adjectives and Nouns',
       id: 'match-1',
       commonData: {
-        title: 'Match the following adjectives with appropriate nouns.'
+        title: 'Match the following adjectives with the most appropriate nouns.'
       },
       data: [
         `cheerful, boy
@@ -252,7 +252,7 @@ There is a *black* board in my classroom.
 There is a *tall* mango tree in my garden.`,
 
         `She is an *intelligent* student in the class.
-I bought an *orange* chair from the market.
+I bought an *wooden* chair from the market.
 We live in a *big* city.
 Ram is a *funny* guy.
 She has a *black* cat.
@@ -266,7 +266,7 @@ Our teacher is very *kind*.`,
 
         `My brother was *lucky* to survive the floods.
 I am *afraid* to stay home alone.
-I went to the shop to pick up *red* apples.
+I went to the shop to pick up *fresh* apples.
 The *bright* sun rose in the morning.
 My mom was baking a *chocolate* cake for the party.`
       ]
@@ -285,13 +285,13 @@ He ate only *half* of his breakfast.
 Do you have *any* money?
 I read the *whole* book.
 *Many* students were present for the seminar today.
-I took *some* notebooks from the school library.
+I took *some* books from the school library.
 I have finished *most* of my homework.
 Mannu has *little* interest in singing.
 My sister ate the *whole* banana.`,
 
-        `Can I have *some* ice cream today after dinner?
-I don't need *any* help with my homework today.
+        `Can I have *some* ice cream  after dinner?
+I don't need *any* help with my homework.
 There are *many* theatres in my city. You can watch a movie anywhere you want.
 I don't have *much* time for completing my science project.
 I have got very *little* water left in my water bottle.
@@ -301,7 +301,8 @@ There is very *little* space left in my bag for carrying the tiffin box.
 Do you have *any* extra pencils?
 My rose plant has not grown *much* as expected.`
       ]
-    },
+    }
+    /*
     {
       type: 'selectWord',
       label: 'Identify the Adjectives',
@@ -330,6 +331,6 @@ and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for th
 She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix
 and made *round* parathas with lots of butter and served hot.`
       ]
-    }
+    }*/
   ]
 };

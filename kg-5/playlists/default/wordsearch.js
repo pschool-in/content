@@ -159,8 +159,8 @@ export default {
             marker: [2, 4, 6, 8]
           },
           {
-            word: ['P', 'E', 'A', 'R', 'S'],
-            marker: [7, 0, 7, 4]
+            word: ['P', 'E', 'A', 'R'],
+            marker: [7, 0, 7, 3]
           },
           {
             word: ['P', 'A', 'P', 'A', 'Y', 'A'],

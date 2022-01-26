@@ -30,11 +30,30 @@ He went to the market by <b>himself</b>.`
       }
     },
     {
+      label: 'Emphatic Pronoun',
+      type: 'passage',
+      id: 'notes-2',
+      data: {
+        title: 'Emphatic Pronouns',
+        text: [
+          `They are used to emphasize the subject. So usually they follow the subject.
+This is very similar to a reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
+          {
+            type: 'html',
+            text: `She <b>herself</b> cooked the food.<br>
+I <b>myself</b> saw him.<br>
+He <b>himself</b> cut the cake.`
+          }
+        ]
+      }
+    },
+    {
       label: 'Reflexive Pronoun or Not ',
       id: 'drag-and-drop',
       type: 'group',
       data: {
         title: 'Drag and drop the given words in the right boxes.',
+        printTitle: 'Rewrite the below words in the right boxes.',
         types: [
           {
             name: 'Reflexive pronoun',
@@ -109,24 +128,6 @@ I made lunch all by *myself*.
 She hurt *herself* while using the fork.
 Did you learn French *yourself*?`
       ]
-    },
-    {
-      label: 'Emphatic Pronoun',
-      type: 'passage',
-      id: 'notes-2',
-      data: {
-        title: 'Emphatic Pronouns',
-        text: [
-          `They are used to emphasize the subject. So usually they follow the subject.
-This is very similar to a reflexive pronoun. But the difference is, if we remove the emphatic pronoun, the sentence will still be meaningful.`,
-          {
-            type: 'html',
-            text: `She <b>herself</b> cooked the food.<br>
-I <b>myself</b> saw him.<br>
-He <b>himself</b> cut the cake.`
-          }
-        ]
-      }
     },
     {
       id: 'fill-up-2',
@@ -248,7 +249,8 @@ Prateek is very lazy. *He* copied *his* friend's project instead of doing *it* *
       label: 'Type in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and type the right pronoun to complete the passage.`,
+        title: `Click on the blanks and type the right pronoun.`,
+        printTitle: 'Fill in the blanks with the right pronoun.',
         noOptions: true
       },
       data: [

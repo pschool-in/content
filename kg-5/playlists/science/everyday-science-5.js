@@ -89,7 +89,7 @@ Burning of papers`
       data: {
         text: `Used Mobile, e-waste
 Vegetable waste , organic
-Paper, recycleable
+Paper, recyclable
 Rusting, irreversible
 Freezing, reversible`,
         fontSize: '1rem',

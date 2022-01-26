@@ -9,8 +9,11 @@ export default {
           dashWidth: 70,
           fontSize: '1rem'
         },
-        text:
-          'Shivaji assumed the tittle of *chhatrapati*in 1647.\n  Akbar started a new relegion called *Din-i-ilahi*\n  Maharana Pratap was a *great* king.\n  Gandhi ji used the method of *Non-violence*to oppose the british rule..\n  Kadambini Ganguly was one of the first female doctors in the whole of *British empire*',
+        text: `Shivaji assumed the title of *chhatrapati*in 1647.
+  Akbar started a new religion called *Din-i-ilahi*
+  Maharana Pratap was a *great* king.
+  Gandhiji used the method of *Non-violence*to oppose the british rule.
+  Kadambini Ganguly was one of the first female doctors in the whole of *British empire*`,
         title: 'Drag and drop the words at proper places.'
       },
 
@@ -68,8 +71,12 @@ Shivaji,  Maratha Empire`,
     },
     {
       data: {
-        text:
-          'Father of our Nation, Gandhi ji\nTemple built by Rajaraja chola, Kadambini Temple\nCapital of Magadha, Patliputra\nImportant part of blood, red blood cells\nAbility to do work, energy\nMoving air is called ,wind',
+        text: `Father of our Nation, Gandhiji
+Temple built by Rajaraja chola, Kadambini Temple
+Capital of Magadha, Patliputra
+Important part of blood, red blood cells
+Ability to do work, energy
+Moving air is called ,wind`,
         title: 'Match with correct answer'
       },
 
@@ -82,7 +89,7 @@ Shivaji,  Maratha Empire`,
         questions: [
           {
             options: '1000, 100',
-            qText: 'To covert km to m ,multiplyed by ________.'
+            qText: 'To covert km to m ,multiply the value by ________.'
           },
           {
             options: 'pie, Bar graph',
@@ -95,11 +102,11 @@ Shivaji,  Maratha Empire`,
           {
             options: 'Rectangle, Square',
             qText:
-              'The perimeter of a _______ is the sum of the length of iots four sides.'
+              'The perimeter of a _______ is the sum of the length of its four sides.'
           },
           {
             options: '24, 42',
-            qText: 'How many hours are their in a day______.'
+            qText: 'How many hours are there in a day______.'
           },
           {
             options: '8, 9',
@@ -137,26 +144,33 @@ Shivaji,  Maratha Empire`,
           dashWidth: 70,
           fontSize: '1rem'
         },
-        text:
-          'The volume of liquid that a container can hold is called its*volume*.\nPie chart is used to compare *data*\n2/3 of year in months = *8 months*\nIt is day or night at 2:00 am? *Night*\nThe *Perimeter*of figure is sum of length of its side.\n*4 * hours in 240 minutes.\n1/2,1/4,1/5 are called *improper*fraction\nHow many 250 g are their in 1 kg *4*\nWhat is the area of rectangle that covers 10 unit square *10*',
+        text: `The quantity of liquid that a container can hold is called its *volume*.
+Pie chart is used to compare *data*
+2/3 of year in months = *8 months*
+It is day or night at 2:00 am? *Night*
+The *Perimeter* of figure is sum of length of its side.
+1/2,1/4,1/5 are called *improper*fraction
+How many 250g are there in 1 kg *4*
+What is the area of rectangle that covers 10 unit square *10*`,
         title: 'choose the correct option'
       },
 
       id: 'fillup-2',
-      label: 'Fill up by drag - Template',
+      label: 'Fill up by drag',
       type: 'matchByDragDrop'
     },
     {
       data: {
-        text: '750m+250m,1 km\nQuater hour,15 minutes\n1000mL,1L\n500 cm,5m',
+        text: `750m + 250m,1 km
+        quarter an hour,15 minutes
+1000mL,1L
+500 cm,5m`,
         title: 'Match with correct choice'
       },
 
       id: 'match-6',
-      label: 'Match - Template',
+      label: 'Match ',
       type: 'match'
     }
-  ],
-  owner_id: 'pratik.jha@intelisa.in',
-  time_stamp: 1615801546533
+  ]
 };

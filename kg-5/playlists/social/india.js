@@ -434,7 +434,7 @@ Manipur, Imphal`
       data: {
         title: 'Match states with their capitals.',
         fontSize: '1rem',
-        text: `Telengana , Hyderabad
+        text: `Telangana , Hyderabad
 Karnataka , Bengaluru
 Kerala , Thiruvananthapuram
 Tamil Nadu , Chennai

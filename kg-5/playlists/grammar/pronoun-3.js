@@ -116,14 +116,14 @@ That dress belongs to you.`
         printTitle: `Fill up with the right pronoun.`
       },
       data: [
-        `This is my laptop. It's *mine (me)*.
-You have a new toy. It is *yours (us)*.
-The water bottle belongs to her. It is *hers (mine)*.
-He has a new phone. It is *his (her)*.
-You have a cap. It is *yours (hers)*.
+        `This laptop is *mine (me)*.
+I don't think this toy is *yours (us)*.
+This beautiful water bottle is *hers (mine)*.
+The new phone on the table is *his (her)*.
+I took the cap from you, so it is *yours (hers)*.
 This was not my mistake. It was *yours (us)*.
 My room is bigger than *yours (us)*.
-Is this dress *hers (us)*?
+These dresses are not *mine (him)*?
 I have a new watch. It is *mine (me)*.
 We have new remote cars. They are *ours (yours)*.`,
 
@@ -155,11 +155,9 @@ This dog is *ours*.
 I own the bike. It is *mine*.
 Is this box *yours*?
 This farm is *ours*.
-The cricket bat is *mine*.
-Look at *his* hat! It is so huge.`,
+The cricket bat is *mine*.`,
 
-        `Chandan has a small puppy. It is *his* puppy.
-The house at the corner is *theirs*.
+        `The house at the corner is *theirs*.
 Are you sure this is *yours*?
 Who owns this bat? Is it *yours*?
 This dog is *ours*.
@@ -179,16 +177,16 @@ This bangle is *hers*.`
         multiSelect: true
       },
       data: [
-        `*She* tries to steal everyone's chocolates. *She* lies and says *they* are *hers*.
-*Me* and my sister go swimming. *Those* swimming glasses are *ours*.
+        `*She* tries to steal everyone's chocolates. *She* lies that *they* are *hers*.
+*Me* and my sister are going to swimming class. *Those* swimming glasses are *ours*.
 The book is kept on the table. *It* is *ours*.
-*I* borrowed *this* paper from Vidya. *This* is *hers*.
-Sheena gave me *this* napkin. *This* is *hers*.`,
+*I* borrowed this paper from Vidya. *She* knew *it*. *I* will return *it* to *her* tomorrow.
+Sheena gave *me* this pen. *It* is green is color`,
 
         `Rahul is my best friend. *We* go to school together. *This* bag is *his*.
-*I* like my mother's Kurti. *I* borrowed *this* for a party. *It* is *hers*.
-*That* house is *theirs*. *It* is not in a good condition. *They* need to repair *it*.
-*I* said to my friend, "What is *mine*, is *yours*. *He* was very happy to hear *this*.
+*I* like my mother's Kurti. *I* borrowed *this* for a party.
+That house is *theirs*. *It* is not in good condition. *They* need to repair *it*.
+*He* was very happy to hear *this*.
 My parents taught *me*, "What is rightfully *yours* will surely be *yours*.`
       ]
     },

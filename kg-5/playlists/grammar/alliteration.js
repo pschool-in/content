@@ -9,16 +9,42 @@ export default {
       id: 'alliteration-reading',
       data: {
         title: 'Alliteration',
-        text: `It is generally used in poetry. It is a style of writing in which a series of words have the same consonant sound. Examples of alliteration are;
-1. The boy bounced the ball in the basket. ("boy bounced the ball" is alliteration)
-2. A big brown bear bumped into our boxes. ("big brown bear bumped" is the alliteration)
-3. My neighbour is normally noisy. ("neighbour is normally noisy" is the alliteration)`
+        text: [
+          `It is generally used in poetry. It is a style of writing in which a series of words have the same consonant sound. Eg:`,
+          {
+            type: 'html',
+            text: `The <b>boy bounced the ball</b> in the basket.<br>
+A <b>big brown bear bumped</b> into our boxes.<br>
+My <b>neighbour is normally noisy</b>.`
+          }
+        ]
       }
     },
+    /*
+    {
+      id: '200',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify these sentences as true or false.',
+        types: [
+          {
+            name: 'True',
+            text: `Alliteration is a poetic technique.
+Alliteration has a series of same sound words.`
+          },
+          {
+            name: 'False',
+            text: `Alliteration is not a poetic technique.
+Alliteration is a series of vowels.`
+          }
+        ]
+      }
+    },*/
     {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: '100',
+      id: 'drag-drop',
       commonData: {
         isPractice: false,
         title: 'Drag the correct option in each blank to form an alliteration.',
@@ -59,32 +85,13 @@ Sheep should sleep in a *shed*.
 How much wood *would* a woodpecker peck?`
       ]
     },
-    {
-      id: '200',
-      label: 'True or False',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify these sentences as true or false.',
-        types: [
-          {
-            name: 'True',
-            text: `Alliteration is a poetic technique.
-Alliteration has a series of same sound words.`
-          },
-          {
-            name: 'False',
-            text: `Alliteration is not a poetic technique.
-Alliteration is a series of vowels.`
-          }
-        ]
-      }
-    },
+
     {
       label: 'True or False',
-      id: '300',
+      id: 'true-false',
       type: 'classifySentence',
       commonData: {
-        title: 'True or False: The below sentence has alliteration.',
+        title: 'True or False: The below text has alliteration.',
         types: ['True', 'False']
       },
       data: [
@@ -119,7 +126,7 @@ He plays a guitar when he's bored.`
     {
       type: 'selectWord',
       label: 'Identify the alliteration',
-      id: '400',
+      id: 'select-words',
       commonData: {
         title: 'Select the alliteration in the sentences.',
         multiSelect: true

@@ -4,6 +4,156 @@ export default {
   img: 'social',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Land Forms',
+      id: 'land-forms',
+      data: {
+        title: 'Drag the names and drop on the images.',
+        text: `desert | Desert
+        forest | Forest
+        grassland | Grassland
+        ocean | Ocean
+        polar | Polar Region
+        valley | Valley`
+      }
+    },
+    {
+      id: 'atmosphere-layers',
+      label: 'Layers of Atmosphere',
+      type: 'dragAndDrop',
+      data: {
+        img: 'atmosphere-layers.jpg',
+        title: 'Layers of Atmosphere',
+        width: 350,
+        height: 350,
+        wordWidth: 80,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Troposphere',
+            x: 10,
+            y: 240
+          },
+          {
+            word: 'Stratosphere',
+            x: 20,
+            y: 170
+          },
+          {
+            word: 'Mesosphere',
+            x: 20,
+            y: 130
+          },
+          {
+            word: 'Thermosphere',
+            x: 20,
+            y: 70
+          },
+          {
+            word: 'Exosphere',
+            x: 20,
+            y: 10
+          },
+          {
+            word: 'Ozone Layer',
+            x: 150,
+            y: 250
+          }
+        ]
+      }
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Road Signs',
+      id: 'road-signs',
+      commonData: {
+        title: 'Drag the names and drop on the images.',
+        path: 'img/social/road-sign'
+      },
+      data: [
+        `2-way-traffic | 2 Way Traffic
+        one-way | One Way
+        give-way | Give Way
+        no-left-turn | No Left Turn
+        no-overtaking | No Overtaking
+        no-u-turn | No U-Turn`,
+
+        `narrow-bridge | Narrow Bridge
+        no-parking | No Parking
+        no-right-turn | No Right Turn
+        t-junction | T-Junction
+        u-turn| U-Turn
+        zebra-crossing| Zebra Crossing`,
+
+        `bicycle-crossing | Bicycle Crossing
+        horn-prohibited | Horn Prohibited
+        max-speed | Maximum Speed
+        men-at-work | Men at Work
+        parking | Parking
+        railroad | Rail Road`
+      ]
+    },
+    {
+      id: 'latitude',
+      label: 'Latitude',
+      type: 'dragAndDrop',
+      data: {
+        img: 'latitude.jpg',
+        title: 'Latitude',
+        width: 350,
+        height: 344,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Equator',
+            x: 270,
+            y: 160
+          },
+          {
+            word: 'Tropic of Cancer',
+            x: 270,
+            y: 115
+          },
+          {
+            word: 'Tropic of Capricorn',
+            x: 270,
+            y: 200
+          },
+          {
+            word: 'Arctic Circle',
+            x: 240,
+            y: 45
+          },
+          {
+            word: 'Antarctic Circle',
+            x: 230,
+            y: 270
+          },
+          {
+            word: 'North Pole',
+            x: 110,
+            y: 15
+          },
+          {
+            word: 'South Pole',
+            x: 110,
+            y: 310
+          },
+          {
+            word: 'Northern Hemisphere',
+            x: 90,
+            y: 80
+          },
+          {
+            word: 'Southern Hemisphere',
+            x: 90,
+            y: 250
+          }
+        ]
+      }
+    },
+    {
       label: 'People and Workplace',
       type: 'matchByDragDrop',
       id: '3-people-workplace',
@@ -577,7 +727,7 @@ Evergreen, Bamboo`
       data: {
         title: `Wealth under the Ground`,
         text: `Lot of things we use are extracted from ground and they are generally known as minerals. The activity of extracting minerals from earth is known as mining. 
-        Minerals are of two kinds, namely metallic and non-metalic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metalic minerals.
+        Minerals are of two kinds, namely metallic and non-metallic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metallic minerals.
         India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts.
         Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc. 
         Copper was the first  metal used by human beings. It is widely used in electrical equipments .
@@ -697,7 +847,7 @@ Evergreen, Bamboo`
         If any bad smell come from food items, then we should not eat it. If the color of food item changes or any fungal growth, then we should not eat it.             
         We follow different methods to keep food items safe for some time. Mother keeps all green vegetables and tomato in fridge, so that they are good for some time. But she keeps onion and potato in open space as open air helps them to be good for some time.          
         Mother makes pickle from mango and lemon which we can have with food for a couple of months. She adds lot of salt and oil which prevents spoiling. If I put my hands into it, or if I add some water to it, then it will spoil fast.      
-        Industries uses preservatives to keep food items ediable for a long time. Mango is a seasonal fruit. But we can get bottled mango juice around the year. Eating preserved food is generally not considered healthy.`
+        Industries uses preservatives to keep food items edible for a long time. Mango is a seasonal fruit. But we can get bottled mango juice around the year. Eating preserved food is generally not considered healthy.`
       }
     },
     {

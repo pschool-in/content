@@ -44,7 +44,7 @@ A butterfly has to go through various stages of growth, unlike other animals. Th
         text: `Cat, Kitten
 Dog, Puppy
 Butterfly, Caterpillar
-Goat, Lamb
+Goat, Kid
 Lion, Cub
 Horse, Foal`,
 
@@ -168,7 +168,9 @@ The changes in an animal's behaviour to adjust with its habitat is called adapta
 Changes in the physical features of the animal are called structural adaptations. Changes in the functions of the animal‛s body are called physiological adaptations. Changes in the activities of the animal are behavioural adaptations.
 # Structure of Insects
 Insects have three main body regions. They are:
-The main visible parts on the head are the large compound eyes, the antennae (feelers) and the mouth parts. The thorax is the middle region of the body. Abdomen The abdomen is the last part of the insect body. `
+The main visible parts on the head are the large compound eyes, the antennae (feelers) and the mouth parts. The thorax is the middle region of the body. 
+# Abdomen 
+The abdomen is the last part of the insect body. `
       }
     },
     {
@@ -196,7 +198,7 @@ The main visible parts on the head are the large compound eyes, the antennae (fe
       type: 'group',
       data: {
         title:
-          'Classify the below animals on the basis of their nocturnal behaviour..',
+          'Classify the below animals on the basis of their nocturnal behaviour .',
         types: [
           {
             name: 'Nocturnal',

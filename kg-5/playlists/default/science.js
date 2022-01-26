@@ -4,6 +4,137 @@ export default {
   img: 'science',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Identify Organs ',
+      id: 'drag-drop-organs',
+      data: {
+        title: 'Drag the organ names and drop on the images.',
+        text: `brain | Brain
+        heart | Heart
+        kidney | Kidney
+        liver | Liver
+        lungs | Lungs
+        stomach | Stomach`
+      }
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Types of Teeth',
+      id: 'drag-drop-teeth',
+      data: {
+        title: 'Drag the names and drop on the images.',
+        text: `incisor | Incisor
+        canine | Canine
+        premolar | Premolar
+        molar | Molar`
+      }
+    },
+    {
+      id: 'filtration',
+      label: 'Filtration',
+      type: 'dragAndDrop',
+      data: {
+        img: 'filtration.jpg',
+        title: 'Filtration',
+        width: 350,
+        height: 317,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Beaker',
+            x: 50,
+            y: 40
+          },
+          {
+            word: 'Filter Paper',
+            x: 240,
+            y: 120
+          },
+          {
+            word: 'Residue',
+            x: 20,
+            y: 140
+          },
+          {
+            word: 'Funnel',
+            x: 210,
+            y: 170
+          },
+          {
+            word: 'Conical Flask',
+            x: 240,
+            y: 250
+          },
+          {
+            word: 'Filtrate',
+            x: 10,
+            y: 280
+          }
+        ]
+      }
+    },
+    {
+      id: 'parts-mouth',
+      label: 'Parts of Open Mouth',
+      type: 'dragAndDrop',
+      data: {
+        img: 'open-mouth.jpg',
+        title: 'Parts of Open Mouth',
+        width: 350,
+        height: 329,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Molar',
+            x: 0,
+            y: 130
+          },
+          {
+            word: 'Premolar',
+            x: 20,
+            y: 230
+          },
+          {
+            word: 'Canine',
+            x: 30,
+            y: 270
+          },
+          {
+            word: 'Incisor',
+            x: 60,
+            y: 300
+          },
+          {
+            word: 'Hard Palate',
+            x: 270,
+            y: 80
+          },
+          {
+            word: 'Soft Palate',
+            x: 280,
+            y: 110
+          },
+          {
+            word: 'Uvula',
+            x: 40,
+            y: 55
+          },
+          {
+            word: 'Tongue',
+            x: 290,
+            y: 220
+          },
+          {
+            word: 'Gum',
+            x: 270,
+            y: 280
+          }
+        ]
+      }
+    },
+    {
       label: 'Force - Reading',
       type: 'passage',
       id: '3-force-passage',
@@ -57,7 +188,7 @@ export default {
         types: [
           {
             name: 'Push',
-            text: `kicking a ball, Switching on light, peddling cycle `
+            text: `kicking a ball, Switching on light, pedalling cycle `
           },
           {
             name: 'Pull',
@@ -104,7 +235,7 @@ If you *cool* water to a temparature of *0 °C*, it *freezes* to form ice.`
       type: 'group',
       id: '3-summer-winter',
       data: {
-        label: 'Summer vs Winter',
+        title: 'Summer vs Winter',
         types: [
           {
             name: 'Summer',

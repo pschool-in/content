@@ -418,7 +418,7 @@ const dragdrop = {
       label: 'Drag and Drop',
       id: 'dragDropImgLabel',
       data: {
-        title: 'Drag and Drop the name on the images.',
+        title: 'Drag the names and drop on the images.',
         text: `apple | Apple
         orange | Orange
         pineapple | Pineapple

@@ -3,6 +3,81 @@ export default {
   id: 'picture-2',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Fruits',
+      id: 'dragdrop-fruits',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `apple | Apple 
+grapes | Grapes
+banana | Banana
+cherry | Cherry
+avocado | Avocado
+strawberry | Strawberry`,
+
+        `guava | Guava
+jackfruit | Jackfruit
+mango | Mango
+orange | Orange
+papaya | Papaya
+pineapple | Pineapple`,
+
+        `watermelon | Watermelon
+pomegranate| Pomegranate
+fig| Fig
+custard-apple| Custard Apple
+plum| Plum
+dates| Dates
+muskmelon| Muskmelon`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Vegetables',
+      id: 'drag-vegetables',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `carrot | Carrot
+beetroot | Beetroot
+onion | Onion
+tomato | Tomato
+potato | Potato
+cabbage | Cabbage`,
+
+        `corn | Corn
+cucumber |Cucumber
+garlic|Garlic
+ginger|Ginger
+cauliflower| Cauliflower
+pumpkin| Pumpkin`,
+
+        `almond| Almond
+beans| Beans
+bitter-gourd| Bitter Gourd
+brinjal| Brinjal
+capsicum| Capsicum
+cashewnut| Cashewnut`,
+
+        `chilli| Chilli
+coconut | Coconut
+corianderleaf | Coriander Leaf
+curryleaf | Curry Leaf
+drumstick| Drumstick
+greenpeas| Green Peas`,
+
+        `ladies-finger | Ladies Finger
+mintleaf| Mintleaf
+peanut| Peanut
+radish| Radish
+spinach | Spinach
+vegetables | Vegetables`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'fruits',
       label: 'Fruits',
@@ -148,81 +223,6 @@ G, greenpeas
 R, radish
 S, spinach
 V, vegetables`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Fruits - Drag & Drop',
-      id: 'dragdrop-fruits',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `apple | Apple 
-grapes | Grapes
-banana | Banana
-cherry | Cherry
-avocado | Avocado
-strawberry | Strawberry`,
-
-        `guava | Guava
-jackfruit | Jackfruit
-mango | Mango
-orange | Orange
-papaya | Papaya
-pineapple | Pineapple`,
-
-        `watermelon | Watermelon
-pomegranate| Pomegranate
-fig| Fig
-custard-apple| Custard Apple
-plum| Plum
-dates| Dates
-muskmelon| Muskmelon`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Vegetables - Drag & Drop',
-      id: 'dragDrop-vegetables',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `carrot | Carrot
-beetroot | Beetroot
-onion | Onion
-tomato | Tomato
-potato | Potato
-cabbage | Cabbage`,
-
-        `corn | Corn
-cucumber |Cucumber
-garlic|Garlic
-ginger|Ginger
-cauliflower| Cauliflower
-pumpkin| Pumpkin`,
-
-        `almond| Almond
-beans| Beans
-bitter-gourd| Bitter Gourd
-brinjal| Brinjal
-capsicum| Capsicum
-cashewnut| Cashewnut`,
-
-        `chilli| Chilli
-coconut | Coconut
-corianderleaf | Coriander Leaf
-curryleaf | Curry Leaf
-drumstick| Drumstick
-greenpeas| Green Peas`,
-
-        `ladies-finger | Ladies Finger
-mintleaf| Mintleaf
-peanut| Peanut
-radish| Radish
-spinach | Spinach
-vegetables | Vegetables`
       ]
     }
   ]

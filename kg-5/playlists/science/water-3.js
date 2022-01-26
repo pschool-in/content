@@ -72,11 +72,11 @@ Hold the tube with your left hand and move it up and down into a bucket of water
           },
           {
             qText:
-              ' Only _____ of the water in the entire Earth is freshwater.',
+              ' Only _____ of the water in the entire Earth is fresh water.',
             options: '3%,0.3%,30%'
           },
           {
-            qText: 'By __________ water, we can kill its germs.',
+            qText: 'By __________ water, we can kill the germs present in it.',
             options: 'boiling,cooling,filtering'
           },
           {
@@ -120,6 +120,7 @@ Hold the tube with your left hand and move it up and down into a bucket of water
       label: 'Odd one out',
       data: {
         title: 'Odd one out',
+        printTitle: 'Underline the odd one',
         fontSize: '1.3rem',
         noCaps: true,
         text: `Hill,Lake,Pond, Sea
@@ -160,6 +161,7 @@ We should bathe in shower to save water.`
       type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
+        printTitle: 'Fill in the blanks.',
         text: `Drinking water is known as *potable (pot)* water.
 Water that collects in the low lying areas is called *lake (sea)*.
 It is our *responsibility (work)* to keep the public water resources clean.
@@ -169,37 +171,106 @@ The largest source of water on the earth is *ocean (sea)*.
       }
     },
     {
-      label: 'Choose the correct option',
-      type: 'mcq',
-      id: 'mcq-2',
+      label: 'Experiments with Water',
+      type: 'passage',
+      id: 'notes-more',
       data: {
-        title: 'Choose the correct option.',
-        questions: [
+        title: 'Experiments with Water',
+        text: [
+          `Add a spoon of salt in a cup of water and stir it with the spoon. Observe what happens. Repeat the same experiment using sand instead of salt. Observe the difference.
+          # What mix with water? 
+          We can find salt dissolves in water. The added salt is not visible in the water. But sand doesn't dissolve in water. We can see them at the bottom of the cup.
+          Substances like salt, sugar, detergent dissolve in water. But oil, turmeric powder, sand, sawdust doesn't dissolve in water.
+          # Floats vs Sinks
+          Matters that don't mix with water either floats on the surface of water or sink and settle at the bottom. If it is heavier than water than it sinks. If it is lighter than water than it floats.
+          Things like coin, rock, sand, marble sink in water. Things like wood, sponge, apple, paper, eraser floats in water.
+# New Words!
+1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
+2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
+3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
+4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
+# Do you know?
+1. Sea water is unfit for drinking because its saline.
+2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
+3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
+4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
+5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
+        ]
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the given words at the right blanks.',
+        styles: {
+          fontSize: '1.3rem',
+          dashWidth: 80
+        },
+        text: `Salt and sugar *dissolve* in water.
+Mixture obtained after dissolving a substance in water is called *solution*.
+Some micro-organisms can cause *diseases* if they enter our body.
+Things that float in water are *lighter*.
+Things that sink in water are *heavier*.
+*Alum* is swirled in muddy water to clean it.`
+      }
+    },
+    {
+      label: 'Classify: Dissolve',
+      id: 'group-dissolve',
+      type: 'group',
+      data: {
+        title: 'Identify what will dissolve in water.',
+        types: [
           {
-            qText: ' We need water to _____ our face.',
-            options: 'wash, dry, paint'
+            name: 'Dissolve',
+            text: 'Salt, Sugar, Detergent, Alum'
           },
           {
-            qText: ' We need water to _____ our teeth.',
-            options: 'brush, rinse, colour'
-          },
-          {
-            qText: ' We need water to _____ our food.',
-            options: 'cook, water, waste'
-          },
-          {
-            qText: 'We need water to _____ our vessels.',
-            options: 'clean, paint, colour'
-          },
-          {
-            qText: 'Plants need water to ______.',
-            options: 'grow, flow, dry'
-          },
-          {
-            qText: 'We need water to ______ a boat.',
-            options: 'row, sow, tow'
+            name: 'Do not dissolve',
+            text: 'Sand, Sawdust, Oil, Turmeric powder'
           }
         ]
+      }
+    },
+    {
+      label: 'Sink Vs Float',
+      id: 'sink-float',
+      type: 'group',
+      data: {
+        title: 'Identify what will sink and float in water.',
+        types: [
+          {
+            name: 'Sink',
+            text: 'Sand, Turmeric powder, Mud, Stone'
+          },
+          {
+            name: 'Float',
+            text: 'Leaves, Wood, Pencil, Flower, Paper'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      data: {
+        isPractice: false,
+        title: 'Drag and drop the words at proper place.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 120
+        },
+        text: `We need water to 
+1. *wash* our face
+2. *brush* our teeth
+3. *cook* our food
+4. *clean* the kitchen vessels
+5. *grow* plants
+6. *row* a bot`
       }
     },
     {
@@ -211,7 +282,7 @@ The largest source of water on the earth is *ocean (sea)*.
         types: [
           {
             name: 'Needs water',
-            text: 'Plant, Water coloring, Boating, Dough, Washing'
+            text: 'Planting, Water coloring, Boating, Washing'
           },
           {
             name: "Doesn't need water",
@@ -236,6 +307,7 @@ The largest source of water on the earth is *ocean (sea)*.
       data: {
         title:
           'Sort the water bodies based on their size. (Largest should come at the top)',
+        printTitle: 'Order the below water bodies based on the size',
         text: 'ocean, sea, river, lake, pond, water tank'
       }
     },
@@ -251,7 +323,8 @@ Typhoid, Unclean water
 Well, Ground water`,
         title: 'Match the following'
       }
-    },
+    }
+    /*
     {
       id: 'notes-2',
       label: 'Our need For Water',
@@ -551,6 +624,6 @@ Water takes the *shape (size, taste)* of the container it is kept in.`,
           ['', '', 'A', 'R', 'C', 'T', 'I', 'C']
         ]
       }
-    }
+    }*/
   ]
 };

@@ -53,7 +53,7 @@ It tells us about, to whom something or someone belongs to.`,
             name: 'Demonstrative Adjective',
             text: `What is the cost of *these* books?
 Give me *that* pen.
-*This* is my last performance on stage.
+*This* is my latest performance on stage.
 *These* shoes are too expensive.`
           },
           {
@@ -71,13 +71,13 @@ This is my sister. *Her* name is Tanvi.`
       label: 'Classify Adjective-2',
       type: 'classifySentence',
       data: {
-        title: 'Identify the underlined adjective and state its kind.',
+        title: 'What is the type of the underlined adjective?',
         types: [
           {
             name: 'Adjective of Number',
-            text: `I have *twenty five* students in my class.
+            text: `I have *twenty* students in my class.
 I have learned *six* chapters from Science for the exam.
-Meena has *two* dogs in her house.
+Meena has *four* dogs in her house.
 They have *two* carpets at the centre of the hall.`
           },
           {
@@ -138,7 +138,7 @@ They have *two* carpets at the centre of the hall.`
       label: 'Fill in the blanks.',
       type: 'fillup',
       commonData: {
-        title: `Click on the blank and select the appropriate adjective.`
+        title: `select the appropriate adjective.`
       },
       data: [
         `*Those (This)* sheep are running away.
@@ -146,7 +146,7 @@ They have *two* carpets at the centre of the hall.`
 *These (That)* dancers are very talented.
 *This (These)* fruit is very sour than lemon.
 *Those (This)* farmers are using biofertilizers for farming.
-*This (Those)* time I won't fail my final examination for sure!
+*This (Those)* time I won't fail in Maths!
 *These (That)* mangoes are rotting in the box faster than expected.
 *This (Those)* shirt is too small for me.
 *Those (That)* jeans are not very comfortable for mountain hiking.
@@ -159,7 +159,7 @@ We will clean *this (those)* room.
 Who completed *this (those)* science project?
 Could you please pass me *that (those)* water bottle?
 I want *those (that)* big flower pots for Diwali celebrations.
-*Those (That)* birds are flying South as a part of migration.
+*Those (That)* birds are flying South. They are migrating.
 My dad presented *that (those)* book on my birthday.
 *These (That)* clothes are wet due to sudden drizzling in the afternoon.`,
 
@@ -212,7 +212,7 @@ I washed my face with *cold (dirty)* water after playing.
 I wore my *warm (hot)* mittens in the snow while skiing.
 My mom helped me make *delicious (raw)* sweets for Diwali.
 My *furry (curly)* cat made me sneeze.
-The *untidy (neat)* man lived on the streets near my area.
+The *untidy (neat)* man lived on the street near my area.
 Sangeeta is a *bright (tall)* student who does her work on time.
 Students are *happy (lazy)* when lunchtime begins in school.
 Mumbai has *huge (deep)* skyscrapers when compared to other cities.`
@@ -245,7 +245,7 @@ slow, tortoise
 calm, water
 salted, peanuts`,
 
-        `high, mountain
+        `tall, mountain
 deep, sea
 sharp, knife
 old, man
@@ -258,7 +258,7 @@ round, table`
       id: 'drag-drop',
       commonData: {
         isPractice: false,
-        title: 'Fill in the blanks by moving the words given at the bottom.',
+        title: 'Fill in the blanks from the words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -275,7 +275,7 @@ A rabbit has *long* ears.`,
 There is a *huge* tree in my garden.
 Yesterday was a *windy* day in my town.
 I have a *blue* phone in my bag.
-The cheetah is the *fastest* mammal on the land.`,
+Cheetah is the *fastest* mammal on the land.`,
 
         `An octopus has eight *long* arms.
 My dog has a *fluffy* tail.
@@ -283,17 +283,17 @@ I found a *green* pencil on my teacher's desk.
 This is a *beautiful* house in my colony.
 My puppy is very *playful* around children.`,
 
-        `My brother spends *most* of his time watching you-tube videos.
-Add *a little* more salt to the curry to make it tastier.
+        `My brother spends *most* of his time watching youtube videos.
+Add a *little* more salt to the curry to make it tastier.
 Are there *any* sweets left in the kitchen?
 I want to drink *some* coffee after I finish my work.
-We had *a lot of* fun during the summer holidays.`,
+We had a *lot of* fun during the summer holidays.`,
 
         `I had *enough* of your advice! Please stop!
 There were *not many* people present for Diwali pooja due to Covid.
 *Many* people lost their lives during Tsunami in 2004.
 These days *most* people sleep with their mobiles beside their pillows.
-The chocolate cake had *a lot of* cream over it.`
+The chocolate cake had a *lot of* cream over it.`
       ]
     },
     {
@@ -305,8 +305,8 @@ The chocolate cake had *a lot of* cream over it.`
       },
       data: [
         `The tree is too *tall* to climb.
-Sita got *good* marks in the exam. She is very happy.
-The gold ring is *expensive*.
+Sita got *good* marks in the exam.
+The ring is *expensive*.
 Tarun is wearing a *red* shirt.
 The elephant is a *large* animal.
 Ruchi has *curly* hair.
@@ -326,12 +326,12 @@ The students danced to the *loud* music.
 My garden is filled with *green* grass.`,
 
         `My sister likes *soft* music.
-*Colorful* butterflies fly by my window every morning.
+*Colorful* butterflies fly by my window.
 The *white* car is my uncle's.
 *Fast* driving is dangerous.
 *Cold* weather makes me lazy.
-Rahul baked a *delicious* apple pie.
-My dad bought a *big* refrigerator yesterday.
+Rahul baked a *delicious* cake.
+My dad bought a *big* refrigerator.
 Riyaan has a *beautiful* garden in his house.
 My grandparents live in a *brick* house.`
       ]
@@ -344,14 +344,9 @@ My grandparents live in a *brick* house.`
         title: `Click on the blanks and fill the right option.`
       },
       data: [
-        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. 
-One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. 
-He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare.
-He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
+        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare. He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
 
-        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. 
-One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! 
-He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
+        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
       ]
     },
     {
@@ -360,7 +355,7 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
       id: 'multi-select-word',
       commonData: {
         isPractice: false,
-        title: 'Select the adjectives in the passage.',
+        title: 'Identify the adjectives in the passage.',
         multiSelect: true,
         isPassage: true,
         styles: {
@@ -369,17 +364,11 @@ He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* 
         }
       },
       data: [
-        `Trees are found everywhere. Some trees are *big* and some are trees *small*. 
-Some trees have *broad* leaves while some have *narrow* leaves. 
-Some trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
+        `Trees are found everywhere. *Some* trees are *big* and some are *small*. *Some* trees have *broad* leaves while some have *narrow* leaves. *Some* trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
 
-        `My cousin, Ram has a *large* farm. On that farm, there are many plants and animals. 
-The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
-Ram sells *fresh* fruits and vegetables in the *big* market every Sunday.`,
+        `My cousin, Ram has a *large* farm. On that farm, there are *many* plants and animals. The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. Ram sells *fresh* fruits and vegetables in the *big* market *every* Sunday.`,
 
-        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in different boxes. 
-There are *forty* mangoes in *large* box and *fifteen* mangoes in *small* box.
-He sells these fruits in a *big* supermarket.`
+        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in *different* boxes. There are *forty* mangoes in the *large* box and *fifteen* mangoes in the *small* box. He send them to the *nearby* city through an *old* lorry.`
       ]
     }
   ]

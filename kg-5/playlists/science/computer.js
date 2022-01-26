@@ -12,7 +12,7 @@ export default {
           {
             qText:
               'The shortcut key to perform a slide show or run a presentation is ________.',
-            options: 'Ctrl+S, F5'
+            options: 'F5, Ctrl + S, F1, Ctrl + C'
           },
           {
             qText:

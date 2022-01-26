@@ -195,7 +195,7 @@ There are two main types of environment. It includes physical environment and bi
 3. Natural environment has lot of economic values. Plants and animals in our environment are useful to us in a number of ways. These economically important animals are raised in farms.
 # Farms
 Farming is the activity of growing crops and raising livestock. It is a part of agriculture.An area of land with fields and sturctures devoted to growing crops or raising domestic animals or both as a business is called farm.
-1. Diary farm: Type of agriculture that focuses on extraction of milk and preparation of various milk products like cheese, butter, curd, ghee etc.
+1. Dairy farm: Type of agriculture that focuses on extraction of milk and preparation of various milk products like cheese, butter, curd, ghee etc.
 2. Poultry farms: In poultry farms avian species are reared and bred for the purpose of egg, meat or both. Poultry birds grown for meat are called broilers. Layers are the female fowls grown for egg production.
 3. Apiculture: Rearing of honey bee for honey is known as apiculture. It is also called bee keeping. In this technique honey bees are reared in a specially designed wooden box.
 # Uses of Dairy Farming:
@@ -225,14 +225,14 @@ Vermiculture or Vermicomposting is a method of transforming organic wastes such 
       }
     },
     {
-      label: 'Diary farm vs Poultry farm',
+      label: 'Dairy farm vs Poultry farm',
       id: 'classify-3',
       type: 'group',
       data: {
         title: 'Classify the animals based on the environment they belong',
         types: [
           {
-            name: 'Diary farm',
+            name: 'Dairy farm',
             text: 'Cows, Buffalo, Goat, Sheeps, Camels'
           },
           {

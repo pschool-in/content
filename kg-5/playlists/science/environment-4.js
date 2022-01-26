@@ -24,10 +24,10 @@ We need to make sure that our environment does not get dirty and polluted, and t
 3. Recycle: make new things out of scarp. It also helps in conservation of resources.
 # Waste Separation
 1. Biodegradable: left over food, vegetable waste etc.
-2. Recycleable: paper waste, glass waste, aluminum waste etc.
-3. Non-recycleable: plastic wrap, wax boxes etc.
+2. Recyclable: paper waste, glass waste, aluminum waste etc.
+3. Non-recyclable: plastic wrap, wax boxes etc.
 # Environment friendly materials
-Micro-organisms can decompose some waster materials and make it beneficiary for the soil. Such materials are called environment friendly materials.`
+Micro-organisms can decompose some waste materials and make it beneficiary for the soil. Such materials are called environment friendly materials.`
       }
     },
     {
@@ -174,7 +174,7 @@ Plant a tree.`
             text: `Use disposable plates and cups.
 Buying single use items.
 Using pesticides.
-Leaving water running.
+Not closing the tap after use.
 Throwing out recyclables.
 Putting non-recyclable items in the recycling bin.
 Throwing out electronics.`
@@ -304,7 +304,7 @@ Throwing out electronics.`
           ['B', 'N', 'G', 'B', 'N', 'T', 'X', 'R']
         ],
         lang: 'en',
-        showWords: false
+        showWords: true
       }
     },
     {

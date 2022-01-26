@@ -9,11 +9,32 @@ export default {
       id: 'modals-1-reading',
       data: {
         title: 'Modals-1',
-        text: `A modal is a verb that combines with another verb. It indicates mood or tense. For example, 'can' and 'may' are modals. They can be used in a sentence as;
-1. I can write a letter without making any mistakes.
-2. He can run 100 meters in one go.
-3. I may be a bit late on Saturday.
-4. We may have a holiday on Tuesday.`
+        text: [
+          `A modal is a helping verb that express certain conditions such as a possibility, ncessity, and permission. Some of the common modals are:
+        can, could, may, shall, should, must, may, might, ought`,
+          {
+            type: 'html',
+            text: `She <b>can</b> swim well.<br>
+<b>Could</b> I borrow your bicycle?<br>
+I <b>will</b> go to my grandma's house.<br>
+<b>Would</b> you like to read my speech?<br>
+When <b>shall</b> we see you again?<br>
+We <b>should</b> respect our elders.<br>
+We <b>must</b> wake up early.<br>
+She <b>might</b> like the new play.<br>
+This book <b>ought</b> to be very useful.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'jumbled-words',
+      type: 'sequence',
+      label: 'Jumbled Words',
+      data: {
+        title: 'Connect these letters to form a modal verb',
+        printTitle: 'Find the modal verbs',
+        text: 'Can, Could, May, Might, Must, Shall, Should, Will, Ought, Would'
       }
     },
     {
@@ -24,26 +45,39 @@ export default {
         title: `Click on each blank for options.`
       },
       data: [
-        `I *can (may)* swim across the river.
+        `*May (Might)* I come in?
+I *can (may)* swim. I learned it from my brother.
 It *may (can)* rain tomorrow.
+He *may (can)* be at home.
+They *can (may)* speak English.
+He *cannot (couldn't)* ride a bike.
+*May (Can)* God bess you!`,
+
+        `I *can (may)* dance well.
+You *must (can)* bring your book. Otherwise we cannot do it.
+I *may (can)* be absent on Tuesday.
+I *cannot (may not)* dance well.
+I *must (shall)* go now as my mom is waiting.
+*Can (Must)* I borrow your pen?`
+        /*
+        `I *can (may)* swim across the river.
+
 *Can (May)* you lift this box?
 *May (Can)* I come in?
 He *can (may)* work late.
-He *may (can)* be at home.
+
 I *cannot (cann't)* go to the party.
 She *may not (mayn't)* be able to come.
 We *cannot (cann't)* dance without the teacher's permission.
 Books *may not (mayn't)* be available at the store.`,
 
-        `They *can (may)* speak English.
-He *cannot (cann't)* ride a bike.
+        `
 *May (Can)* you have a joyful weekend.
 How *may (May)* I help you?
 We *may not (cannot)* have to leave.
-*May (Can)* I come in?
-*May (Can)* God bess you!
+
 Susan *may (can)* be upset because she fell down.
-I *can (may)* dance well.
+
 He *can (may)* write 50 words in a minute.`,
 
         `She *can (may)* eat 2 apples at a time.
@@ -51,6 +85,7 @@ I *may (can)* be absent on Tuesday.
 *May (Can)* I borrow your pen?
 He *can (may)* keep this phone in his pocket.
 I *can (may)* not eat almonds because I'm allergic.`
+*/
       ]
     },
     {
@@ -58,54 +93,63 @@ I *can (may)* not eat almonds because I'm allergic.`
       type: 'selectWord',
       id: 'select-word-1',
       commonData: {
-        title: `Tap on the modal verb in the below sentences.`
+        title: `Tap on the modal verb in the below sentences.`,
+        printTitle: `Read the below text and underline the modal verbs.`
       },
       data: [
-        `I *can* speak 3 different languages.
+        `I *can* speak three languages.
 *May* I ask what you're doing?
-I told my sister that she *cannot* sleep without brushing her teeth.
-I *may not* be able to come to the party.
+I *may* not be able to come to the party.
 I *cannot* go to the party.
 She *may* not come.
 He *can* swim very fast.
+You *must* study today.
+She *will* not come.  
 You *may* came first if you try hard.
 My parents *may* not come to the meeting.`,
 
-        `I *can* ride my bicycle without support wheels.
-He *may* be angry with me.
-My dad *may* give me a surprise.
-My mom *can* cook chinese food.
-All of my friends *can* ride bicycles.
-Reena *can* sing very well.
+        `The Prime Minister *will* hoist the flag.
+I *would* like to have some chocolate.
+*Shall* I close the door?
+All the children *should* go to bed early.
+*May* God bless you.
+I *might* go to the party.
 *May* I borrow your water bottle?
 We *may* go to Udaipur this summer.
 I *can* sleep in just 5 minutes.
 My mom *may* tell me stories.`,
 
-        `He *can* be very annoying sometimes.
-Raj *may* take a half day leave today.
+        `I *can* ride my bicycle without support wheels.
+He *may* be angry with me.
+My dad *may* gave me a surprise.
+*Can* I borrow your notebook?
+If we had more chocolates, we *could* eat more.
+We *must* not steal from anyone.
+We *ought* to practice more.
+My mom *can* cook chinese.
+All of my friends *can* ride bicycles.
+Reena *can* sing very well.`,
+
+        `I *can* play cricket well.
+*May* I go to the bathroom?
+I *ought* to go out today.
+He *can* be very annoying sometimes.
+Raj *may* take an half day leave today.
 Mihir *can* stand on one leg for 10 minutes.
 Boys *cannot* have long hair in school.
-Girls *may* form a separate team.`
+Girls *may* form a separate team.`,
+
+        `I *might* fall asleep in maths class.
+There *shall* be showers of blessings.
+We *should* respect our elders.
+*Would* you like to watch a movie?
+*May* I have your attention, please?
+The girls *will* participate in racing.
+He *can* run 200 meters in just 2 minutes.
+We *shall* go to play in the evening.
+We *should* go to school everday.
+*Shall* I open the door?`
       ]
-    },
-    {
-      label: 'Modals-2',
-      type: 'passage',
-      id: 'modals-2-reading',
-      data: {
-        title: 'Modals-2',
-        text: `The verbs can, could, may, might, will, would, shall, should, must, and ought are called modal verbs, or simply modals. A few examples are;
-1. She can swim very well.
-2. Could I borrow your bicycle?
-3. I will go to my grandma's place tomorrow.
-4. Would you like to read my speech?
-5. When shall we see you again?
-6. We should respect our elders.
-7. We must wake up early.
-8. She might like the new play.
-9. This book ought to be very useful.`
-      }
     },
     {
       type: 'group',
@@ -133,64 +177,16 @@ Girls *may* form a separate team.`
         }
       },
       data: [
-        `*Can* you lift this box?
-He said I *could* go.
-*May* I go?
-It *might* rain tomorrow.`,
+        `The box is heavy. You *cannot* lift it.
+I *will* help you if I can.
+You *shall* leave now.
+I give permission. You *may* go to the party.
+You *should* bring your book without fail.`,
 
         `*Shall* we go to the party?
-We *should* obey our parents.
-I *will* sleep in the evening.
-You *must* improve your spellings.`
-      ]
-    },
-    {
-      id: 'jumbled-words',
-      type: 'sequence',
-      label: 'Jumbled Words',
-      commonData: {
-        title: 'Connect these letters to form a modal.'
-      },
-      data: [
-        'Can, Could, May, Might, Must',
-        'Shall, Should, Will, Ought, Would'
-      ]
-    },
-    {
-      type: 'selectWord',
-      label: 'Select Word',
-      id: 'select-word-2',
-      commonData: {
-        title: 'Select the modal verbs in the below sentences.'
-      },
-      data: [
-        `The Prime Minister *will* hoist the flag.
-I *would* like to have some chocolate.
-*Shall* I close the door?
-All the children *should* go to bed early.
-*May* God bless you.
-I *might* go to the party.
-*Can* I borrow your notebook?
-If we had more chocolates, we *could* eat more.
-We *must* not steal from anyone.
-We *ought* to practice more.`,
-
-        `I *might* fall asleep in maths class.
-There *shall* be showers of blessings.
-We *should* respect our elders.
-*Would* you like to watch a movie?
-*May* I have your attention, please?
-The girls *will* participate in racing.
-He *can* run 200 meters in just 2 minutes.
-We *shall* go to play in the evening.
-We *should* go to school everday.
-*Shall* I open the door?`,
-
-        `I *can* play cricket well.
-*May* I go to the bathroom?
-You *must* study today.
-She *will* not come.
-I *ought* to go out today.`
+*Will* you listen to me?
+*May* I come in?
+*Would* you like to have some coffee?`
       ]
     }
   ]

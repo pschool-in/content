@@ -4,6 +4,64 @@ export default {
   lockAfter: 4,
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Fruits',
+      id: 'drag-fruits',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `star-fruit | Star fruit
+dragon-fruit | Dragon fruit
+sugarcane | Sugarcane
+peach | Peach
+sweet-potato | Sweet potato
+jamun | Jamun`,
+
+        `pear | Pear
+water-chestnut | Water chestnut
+jujube | Jujube
+sapotta | Sapotta
+tapioca | Tapioca
+blueberry | Blueberry
+passion-fruit | Passion fruit`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Vegetables',
+      id: 'drag-vegetables',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `chickpea | Chickpea
+mustard-greens | Mustard greens
+turmeric | Turmeric
+turnip | Turnip
+fenugreek | Fenugreek
+tamarind | Tamarind`,
+
+        `elephant-yam | Elephant Yam
+ashgourd | Ashgourd
+broad-beans | Broad beans
+snake-gourd | Snake gourd
+banana-flower | Banana flower
+cluster-beans | Cluster beans`,
+
+        `kohlrabi | Kohlrabi
+spring-onion | Spring onion
+banana-stem | Banana stem
+drumstick-leaves | Drumstick leaves
+raw-banana | Raw banana`,
+
+        `tulsi | Tulsi
+bottlegourd | Bottlegourd
+ivygourd | Ivygourd
+ridgegourd | Ridgegourd`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'fruits',
       label: 'Fruits',
@@ -115,64 +173,6 @@ R, raw-banana
 T, tulsi 
 B, bottlegourd 
 I, ivygourd`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Fruits - Drag & Drop',
-      id: 'dragDrop-fruits',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `star-fruit | Star fruit
-dragon-fruit | Dragon fruit
-sugarcane | Sugarcane
-peach | Peach
-sweet-potato | Sweet potato
-jamun | Jamun`,
-
-        `pear | Pear
-water-chestnut | Water chestnut
-jujube | Jujube
-sapotta | Sapotta
-tapioca | Tapioca
-blueberry | Blueberry
-passion-fruit | Passion fruit`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Vegetables - Drag & Drop',
-      id: 'dragDrop-vegetables',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `chickpea | Chickpea
-mustard-greens | Mustard greens
-turmeric | Turmeric
-turnip | Turnip
-fenugreek | Fenugreek
-tamarind | Tamarind`,
-
-        `elephant-yam | Elephant Yam
-ashgourd | Ashgourd
-broad-beans | Broad beans
-snake-gourd | Snake gourd
-banana-flower | Banana flower
-cluster-beans | Cluster beans`,
-
-        `kohlrabi | Kohlrabi
-spring-onion | Spring onion
-banana-stem | Banana stem
-drumstick-leaves | Drumstick leaves
-raw-banana | Raw banana`,
-
-        `tulsi | Tulsi
-bottlegourd | Bottlegourd
-ivygourd | Ivygourd
-ridgegourd | Ridgegourd`
       ]
     }
   ]

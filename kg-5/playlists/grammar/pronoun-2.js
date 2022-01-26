@@ -79,7 +79,7 @@ On Wednesday, *they* will go to the market.
 Meera thinks that *she* is very intelligent.
 *They* are studying together.
 *He* is teaching science in the school.
-Priya was shy at first but *she* is running very fast.
+Priya was slow in the beginning but now *she* is running very fast.
 Did *you* water the plants?
 *She* likes to dance.
 My brother would like *those*, please.`,
@@ -126,6 +126,7 @@ Raju told everyone *that* the party is tomorrow.
       id: 'group-personal-pronoun',
       data: {
         title: 'Drag and drop the given words in the right boxes.',
+        printTitle: 'Rewrite the below pronouns in the right boxes.',
         types: [
           {
             name: 'Personal Pronoun',
@@ -155,7 +156,7 @@ Siya and Me, We`,
         `Pencil, It
 Ram and Shaam, They
 Richa, She
-Rony, He
+Ravi, He
 Me and Raj, Us`,
 
         `Pen, It
@@ -228,35 +229,6 @@ The girls are sleeping.`
       ]
     },
     {
-      label: 'True or False',
-      id: 'true-false-2',
-      type: 'classifySentence',
-      commonData: {
-        title: 'True or False: The below sentence has a demonstrative pronoun.',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `These are very yummy.
-This is the most comfortable pillow.
-Those belong to Sakshi.`,
-
-          `It is a flower.
-She has my book.
-My name is Rani.`
-        ],
-        [
-          `Do you like this?
-These are my friends.
-My mom gifted me that.`,
-
-          `My father is very good.
-The teacher went to school.
-I forgot to eat.`
-        ]
-      ]
-    },
-    {
       id: 'fill-up-1',
       label: 'I and Me',
       type: 'fillup',
@@ -277,7 +249,7 @@ This is a photo of *me* and my sister.
 Parish invited Abhi and *me* for his birthday party.
 Please have breakfast with *me*.`,
 
-        `Can *I* have chocolate?
+        `Can *I* have a chocolate?
 Everybody is happy for *me*.
 Will you help *me* with my homework? 
 Dad dropped *me* at school today.
@@ -407,14 +379,43 @@ Throw <b>those</b> away.`
         text: `I bought *that (these, those)* tool yesterday.
 I like *these (this, that)* books.
 *That (Those, These)* is my mom's phone.
-None of *these (such, this) * answers are correct.
+None of *these (such, this) * answers is correct.
 *This (These, Those)* was my father's ring.
 *This (These, Such)* is mine.
-There is no end to *this (them, such)*.
+There is no end to *this (them, such)* story.
 Are *those (them, this)* your books?
 *These (Them, Such)* are looking nice.
 *That (Them, Those)* was such a good experience.`
       }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false-2',
+      type: 'classifySentence',
+      commonData: {
+        title: 'True or False: The below sentence has a demonstrative pronoun.',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `These apples are very yummy.
+This is the most comfortable pillow.
+Those belong to Sakshi.`,
+
+          `It is a flower.
+She has my book.
+My name is Rani.`
+        ],
+        [
+          `Do you like this?
+These are my friends.
+My mom gifted me that.`,
+
+          `My father is very good.
+The teacher went to the school.
+I forgot to eat breakfast.`
+        ]
+      ]
     }
   ]
 };

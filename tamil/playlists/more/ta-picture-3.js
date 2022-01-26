@@ -200,7 +200,7 @@ teacher, ஆசிரியர்
 nurse, செவிலியர்
 chef, சமையல்காரர்
 doctor, மருத்துவர்
-police, காவல்
+police, காவலர் 
 fisherman, மீனவர்
 sailor, மாலுமி
 weaver, நெசவாளர்
@@ -257,7 +257,7 @@ glasses, மூக்குகண்ணாடி`,
 
         `clock, கடிகாரம் 
 watch, கைக்கடிகாரம்
-flower-pot, பூத்தொட்டி
+flower-pot, பூந்தொட்டி 
 umbrella, குடை
 door, கதவு
 window, ஜன்னல்
@@ -567,7 +567,7 @@ glasses| மூக்குகண்ணாடி|மூ______`,
 
         `clock| கடிகாரம் | க____ 
 watch| கைக்கடிகாரம் |கை______
-flower-pot| பூத்தொட்டி| பூ____
+flower-pot| பூந்தொட்டி | பூ____
 umbrella| குடை| __
 door| கதவு| ___
 window| ஜன்னல்| ஜ___

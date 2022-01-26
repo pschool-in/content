@@ -33,6 +33,7 @@ export default {
       type: 'group',
       data: {
         title: 'Drag and drop the given words in the right boxes.',
+        printTitle: 'Rewrite the below pronouns in the right boxes.',
         types: [
           {
             name: 'Interrogative',
@@ -72,8 +73,7 @@ Whose are, these folders?`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title:
-          'Click on the blank and fill in the correct interrogative pronoun.'
+        title: 'Fill in the blanks'
       },
       data: [
         `*Why (What)* is the flight late?
@@ -169,10 +169,10 @@ We saw the President *himself*.`
     },
     {
       id: 'fillup-2',
-      label: 'Fill in the blanks - 2',
+      label: 'Choose the right option',
       type: 'fillup',
       commonData: {
-        title: 'Click on the blank and fill in the right pronoun.'
+        title: 'Choose the right pronoun.'
       },
       data: [
         `*Her(His)* name is Sita.
@@ -190,7 +190,7 @@ Is that present for *me (I)*?`,
 *We (Us)* live in a small house.
 *She (He)* is a smart girl.
 This is my book. Give it to *me (I)*.
-I can tell *that (those)* he is tensed.
+I can tell *that (those)* who lie by lookin at them.
 *This (Those)* is my favorite place for the morning walk.
 We bought *ourselves (themselves)* some French fries before the match.
 When I woke up, I found *myself(itself)* on the sofa.
@@ -271,7 +271,7 @@ He met the President *himself*.`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: 'Click on the blank and fill in the right pronoun.'
+        title: 'Choose the right pronoun.'
       },
       data: [
         `He *himself (herself)* attended the class.
@@ -320,8 +320,7 @@ Which & Whose, Interrogative`
       id: 'drag-drop',
       commonData: {
         isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
+        title: 'Fill in the blanks with words given at the bottom.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -352,7 +351,7 @@ There is no end to *this*.`
       label: 'Type in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and type the right pronoun to complete the sentence.`,
+        title: 'Fill in the blanks with the right pronoun.',
         noOptions: true
       },
       data: [

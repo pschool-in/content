@@ -204,7 +204,7 @@ The government moves people from the affected areas to a safer place, temporaril
       }
     },
     {
-      label: 'Fiil by drag',
+      label: 'Fill by drag',
       type: 'matchByDragDrop',
       id: 'fillup-3',
       data: {
@@ -257,7 +257,8 @@ We should ignore the manufcture and expiry date in mineral water bottles.`
           }
         ]
       }
-    },
+    }
+    /*
     {
       id: 'wordsearch',
       type: 'wordsearch',
@@ -372,6 +373,6 @@ We should ignore the manufcture and expiry date in mineral water bottles.`
         ],
         lang: 'en'
       }
-    }
+    }*/
   ]
 };

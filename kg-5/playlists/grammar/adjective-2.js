@@ -130,7 +130,7 @@ steep, hill`,
 
         `leather, belt
 naughty, kid
-Porcelain, cup
+plastic, cup
 sour, grapes
 brown, bear
 red, rose`
@@ -195,9 +195,9 @@ thick, thin`
         title: `Fill in the blanks with the appropriate adjective.`
       },
       data: [
-        `The elephant is a *large (small)* animal.
-The peacock is a *beautiful (ugly)* bird.
-The rat is a *small (big)* animal.
+        `Elephant is a *large (small)* animal.
+Peacock is a *beautiful (ugly)* bird.
+Rat is a *small (big)* animal.
 He is a *tall (wide)* man.
 The sky is *blue(long)*.
 She is wearing a *pink (tall)* shirt.
@@ -230,12 +230,7 @@ These bananas are *sweet (sour)*.`
           fontSize: '1rem',
           dashWidth: 70
         },
-        text: `Sita was a *young* girl. She lived in a *small* village in Karnataka. 
-One day, on a *cloudy* morning, she went for a walk into the nearby fields.
-She was wearing a *white* frock and a red ribbon. After some time, she came across a hut. 
-It was a small hut but was *warm* inside. Sita was feeling *tired*. 
-So, she went inside the hut and slept on the cot.
-Soon a *loud* bang on the door woke her up!`
+        text: `Sita was a *young* girl. She lived in a *small* village in Karnataka. One day, on a *cloudy* morning, she went for a walk into the nearby fields. She was wearing a *white* frock and a red ribbon. After some time, she came across a hut. It was a small hut but was *warm* inside. Sita was feeling *tired*. So, she went inside the hut and slept on the cot. Soon a *loud* bang on the door woke her up!`
       }
     },
     {
@@ -252,13 +247,13 @@ Soon a *loud* bang on the door woke her up!`
         }
       },
       data: [
-        `The rat is "small" but the dog is *big*.
-The coconut trees are "tall" but apple trees are *short*.
-The ladybug is "beautiful" but the cockroach is *ugly*.
+        `A rat is "small" but a dog is *big*.
+The coconut trees are "tall" but the apple trees are *short*.
+A ladybug is "beautiful" but a cockroach is *ugly*.
 Coffee is "hot" but ice cream is *cold*.
-The hair is "black" but the teeth are *white*.`,
+Our hair is "black" but our teeth are *white*.`,
 
-        `The rabbit is "fast" but the tortoise is *slow*.
+        `A rabbit is "fast" but a tortoise is *slow*.
 Summer is "hot" but winter is *cold*.
 The school bag is "heavy" but the lunch bag is *light*.
 Saritha's car is "old" but the car tires are *new*.
@@ -266,7 +261,7 @@ The bed is "hard" but the pillows are *soft*.`,
 
         `The bicycle is "cheap" but the car is *expensive*.
 Meera's dad is "tall" but her uncle is *short*.
-Sunflower is "big" but rose is *small*.
+A sunflower is "big" but a rose is *small*.
 Cooking is "hard" but eating is *easy*.
 Sita's brother is "strong" but her sister is *weak*.`
       ]

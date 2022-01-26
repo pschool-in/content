@@ -102,7 +102,7 @@ Lead is one of the heaviest metals.`
       label: 'Fill up',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and choose the right option.`
+        title: `Fill in the blank from the given options.`
       },
       data: [
         `Vijay is the *tallest (tall, taller)* boy in the class.
@@ -236,7 +236,7 @@ Jeevana is the smartest girl in the class.`
       id: 'drag-drop',
       commonData: {
         isPractice: false,
-        title: 'Drag and drop the appropriate adjective in the sentence.',
+        title: 'Fill in the blanks using the right words.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80

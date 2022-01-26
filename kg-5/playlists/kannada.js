@@ -6,10 +6,12 @@ export default {
   list: [
     {
       type: 'tracing',
-      id: 'kannada-vowels',
+      id: 'vowels',
       label: 'Vowels - writing',
+      pageBreakAfter: true,
       data: {
         type: 'custom',
+        lineType: 2,
         source: [
           {
             id: 'ಅ',
@@ -151,11 +153,12 @@ export default {
       }
     },
     {
-      id: 'kannada-consonants',
+      id: 'consonants',
       label: 'Consonants - writing',
       type: 'tracing',
       data: {
         type: 'custom',
+        lineType: 3,
         source: [
           {
             id: 'ಕ',

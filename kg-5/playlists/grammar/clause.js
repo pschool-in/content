@@ -9,7 +9,8 @@ export default {
       id: 'clauses-reading',
       data: {
         title: 'Clauses',
-        text: `A clause is a group of words that consists of a subject and a verb. A clause may form part of a sentence or it may be a complete sentence in itself. For example:
+        text: [
+          `A clause is a group of words that consists of a subject and a verb, but still not a complete sentence. Eg:
 1. "I see you".
 2. "She ran away".
 3. "They sang beautifully".
@@ -33,6 +34,7 @@ For example:
 1. After we finished the game
 2. Although we finished the game. 
 3. Before we finish the game.`
+        ]
       }
     },
     {

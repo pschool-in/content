@@ -259,7 +259,7 @@ blackboard | கரும்பலகை
 microscope | நுண்ணோக்கி
 needle | ஊசி
 plough | கலப்பை
-saw | இரம்பம்
+saw | ரம்பம்
 spade | மண்வெட்டி`
         },
         {

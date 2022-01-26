@@ -1,5 +1,4 @@
 /*
-import writing from '../playlists/ta-writing';
 import picture from '../playlists/ta-picture';
 import picture2 from '../playlists/ta-picture-2';
 import grammar from '../playlists/ta-grammar';
@@ -28,6 +27,11 @@ import thirukkural from '../playlists/default/thirukkural.js';
 import barathi from '../playlists/default/barathi.js';
 import sound from '../playlists/default/ta-sound.js';
 
+import sound1 from '../playlists/default/ta-sound-1.js';
+import sound2 from '../playlists/more/ta-sound-2.js';
+import letter2 from '../playlists/more/ta-letter-2.js';
+import hindi from '../../hindi/playlists/default/hi-letter.js';
+
 /*
 ta-kid-poems, ta-la-words, ta-na-words, ta-ra-words
 ta-poems, thirukkural-2
@@ -52,7 +56,11 @@ export default {
     wordsearch,
     crossword,
     thirukkural,
-    barathi
+    barathi,
+    sound1,
+    sound2,
+    letter2,
+    hindi
   ]
 };
 

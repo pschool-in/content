@@ -68,7 +68,8 @@ Sunny is as *free* as a bird. He can go wherever he wants.`
       label: 'Find Me',
       id: 'select-word',
       commonData: {
-        title: 'Identify the simile in the sentence.',
+        title: 'Click on the words that form the simile.',
+        printTitle: 'Read the below text and underline the simile',
         multiSelect: true
       },
       data: [
@@ -133,29 +134,28 @@ The light in my room was *as* *bright* *as* *the* *sun*.`
       label: 'Match the following',
       type: 'match',
       commonData: {
-        title: 'Match each simile with its meaning.'
+        title: 'Match the related words that form a simile'
       },
       data: [
-        `smart as a fox, to be very smart
-quick as a cat, to be very fast
-tough as nails, to be very strong
-cry like a baby, to cry a lot
-as clear as crystal, to be very clear`,
+        `as smart,  as a fox
+as quick, as a cat
+tough as nails
+cry like a baby
+as clear,  as crystal`,
 
-        `run like the wind, to run fast
-slither like a snake, to move quickly and fast
-drink like a fish, to drink a lot of water
-fight like a lion, to fight very hard
-hard as a rock, to be sturdy and strong`
+        `run, like the wind
+slither,like a snake
+drink, like a fish
+fight, like a lion
+hard, as a rock`
       ]
     },
     {
-      label: 'Simile or Not a simile',
+      label: 'Has a Simile?',
       id: 'classify-sentence',
       type: 'classifySentence',
       commonData: {
-        title:
-          'Classify whether the given sentence is a simile or not a simile',
+        title: 'Classify whether the given sentence has a simile or not.',
         types: ['Simile', 'Not a simile']
       },
       data: [

@@ -43,7 +43,7 @@ That boy was *very* smart.
 She is *very* kind.
 I am *rather* busy.
 The game went *horribly* wrong.
-Is your tea hot *enough?*
+Is your tea hot *enough*?
 It was *too* cold.`,
 
         `My bag isn't big *enough*.
@@ -91,7 +91,7 @@ I play cricket *occasionally*.
 We *rarely* watch movies.`,
 
         `We have our exams *twice* a year.
-I eat meals *three times* a day.
+I eat meals *trice* a day.
 I spoke to him *once*.
 I drink a glass of water *every* hour.
 I take a bath *daily*.`
@@ -119,6 +119,7 @@ I take a bath *daily*.`
         [`Soon, Today, Generally, Ever`, `Walk, Talk, Dance, Speak`]
       ]
     },
+    /*
     {
       type: 'selectWord',
       label: 'Select the adverbs of degree',
@@ -130,7 +131,7 @@ I take a bath *daily*.`
       },
       data: [
         `She was *considerably* sick. Yet she *bravely* appeared in the exam. Everyone praised her.
-She gained a lot of weight *enormously*. She was *very* thin last year. And she got *very* fat this year.
+She gained weight *enormously*. She was *very* thin last year. And she got *very* fat this year.
 The guests were *pretty* loud. I could *hardly* study. So I decided to do it later.
 The teacher *completely* agreed with my answer. I was *extremely* happy. My enemies got *very* jealous.
 I was *immensely* tired after the program. My mom made *so* much food. But I was *quite* tired so I slept.
@@ -212,7 +213,7 @@ I *always* study very hard to get good grades. My dad *always* takes me to anoth
 Even though they have to get up *early*, they *rarely* go to bed on time. They *generally* watch TV at night.
 The teacher said that she'll clear my doubt *later*. I can come back in *sometime*.`
       ]
-    },
+    },*/
     {
       label: 'Classify Adverb Type',
       type: 'classifySentence',

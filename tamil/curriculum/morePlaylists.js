@@ -5,7 +5,7 @@ const more = [
   },
   {
     label: 'எழுத்துக்கள் - 2',
-    id: 'ta-writing-2'
+    id: 'ta-letter-2'
   },
   {
     label: 'வார்த்தை - 2',

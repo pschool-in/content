@@ -31,7 +31,7 @@ export default {
           `# cereal vs serial`,
           {
             type: 'html',
-            text: `<b>cereal</b> -  ediable grains like rice<br>
+            text: `<b>cereal</b> -  edible grains like rice<br>
 <b>serial</b> - something arranged one after the other`
           },
           `# pole vs poll`,

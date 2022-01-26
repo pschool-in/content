@@ -164,7 +164,7 @@ Bats like to build their shelters in densely populated areas.`
       id: 'reading-2',
       data: {
         title: 'Animals & their habits',
-        text: `Animal life can be broadly undertood on the basis of the following:
+        text: `Animal life can be broadly understood on the basis of the following:
 1. Habitat of animals
 2. Undestanding the food procurement by animals
 3. Identifying the eating habits of the animals
@@ -269,7 +269,7 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
         title: 'Classify the below animals on the basis of their habitat.',
         types: [
           {
-            name: 'Freswater',
+            name: 'Freshwater',
             text: 'mussel, fish, crab'
           },
           {
@@ -316,7 +316,7 @@ Frogs, Fresh water`,
     },
     {
       id: 'match-3',
-      label: 'Match the animals with the food they eat',
+      label: 'Animals and Foods',
       type: 'match',
       data: {
         text: `Honey Bee, honey
@@ -324,7 +324,7 @@ Leopard, flesh
 Hen, grain
 Spider, insect
 Goat, plant`,
-        title: 'Match the animals with their living places'
+        title: 'Match the animals with the food they eat.'
       }
     },
     {
@@ -365,9 +365,9 @@ I have wings but I am not a bird. Who am I?|BUTTERFLY|B_T___F__`
         text: `It has strong, sharp, curved beak to catch prey and tear its flesh.|EAGLE|E__L_
 Fish-eating birds have spear-like beaks designed for stabbing fish.|KINGFISHER|K_NG____E_
 The hooked, sharp beak helps to collect and eat the grains.|PARROT|P__R__
-Strong chisel beak is used to make hole in the trees and catch small insects.|WOODPECKER| W__D__K__
+Strong chisel beak is used to make hole in the trees and catch small insects.|WOODPECKER| W__D___K__
 Short, conical beak which helps to crack open the shells and extract the inner nut or seed.|SPARROW|S__R__W
-Flat beak that helps to grip plant and insect from water.|D___`
+Flat beak that helps to grip plant and insect from water.|DOVE | D___`
       }
     },
     {
@@ -499,8 +499,8 @@ Animals can make their own food.`
         text: `# Body structure of reptiles 
 Reptiles have scales instead of hair or feathers. Reptiles are considered to be ancestors of birds and mammals. Dinosaurs are well known reptiles that became extinct. Reptiles include snakes, lizards, turtles, alligators and crocodiles. Snakes are reptiles that are without limbs. Reptiles shed and replace their scales throughout their lifetime.
 # Body structure of insects
-The common insects we see around us are bees, houseflies, mosquitos and beetles. All insects have three main parts in their body which are called head, thorax and abdomen.
-The head contains two eyes, mouth and two hairy parts that are called antennae. The torax is the part of the body that bears wings and legs. The abdomen is the part of the body that consits of the heart and stomach.
+The common insects we see around us are bees, houseflies, mosquitoes and beetles. All insects have three main parts in their body which are called head, thorax and abdomen.
+The head contains two eyes, mouth and two hairy parts that are called antennae. The thorax is the part of the body that bears wings and legs. The abdomen is the part of the body that consists of the heart and stomach.
 # Body structure of fish
 There are many different kinds of fish but all of them have some things in common. They breathe through organs called gills. They have fins in place of arms and legs. They are often covered by scales. The shape of their body helps them swim freely.
 # Body structure of birds

@@ -4,6 +4,98 @@ export default {
   lockAfter: 2,
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Nature',
+      id: 'drag-nature',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `sun |Sun
+moon|Moon 
+rain|Rain 
+star|Star 
+milk|Milk
+bird|Bird 
+fruits|Fruits `,
+
+        `leaf|Leaf 
+world|World
+nest |Nest 
+dew | Dew
+waterfall |Waterfall 
+rainbow |Rainbow `
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Body Parts',
+      id: 'drag-bodyparts',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `ear |Ear
+eye |Eye
+foot |Foot
+hair|Hair`,
+
+        `hand|Hand
+mouth|Mouth
+nose| Nose
+tooth|Tooth`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Flowers',
+      id: 'drag-flowers',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `rose | Rose
+lotus | Lotus
+sunflower | Sunflower
+marigold | Marigold`,
+
+        `hibiscus | Hibiscus
+jasmine | Jasmine
+tulip | Tulip
+zinnia | Zinnia`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Others',
+      id: 'drag-others',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `bell | Bell
+brush| Brush
+bone| Bone
+radio | Radio
+box | Box
+coin | Coin`,
+
+        `top | Top
+balloon | Balloon
+stick | Stick
+ring| Ring
+drums| Drum
+food| Food `,
+
+        `king| King
+kite| Kite
+ladder| Ladder
+wheel| Wheel
+park | Park
+garden | Garden`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'nature',
       label: 'Nature',
@@ -195,98 +287,6 @@ W, wheel`,
         `B, balloon
 P, park
 G, garden`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Nature - Drag & Drop',
-      id: 'dragDrop-nature',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `sun |Sun
-moon|Moon 
-rain|Rain 
-star|Star 
-milk|Milk
-bird|Bird 
-fruits|Fruits `,
-
-        `leaf|Leaf 
-world|World
-nest |Nest 
-dew | Dew
-waterfall |Waterfall 
-rainbow |Rainbow `
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Body Parts - Drag & Drop',
-      id: 'dragDrop-bodyparts',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `ear |Ear
-eye |Eye
-foot |Foot
-hair|Hair`,
-
-        `hand|Hand
-mouth|Mouth
-nose| Nose
-tooth|Tooth`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Flowers - Drag & Drop',
-      id: 'dragDrop-flowers',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `rose | Rose
-lotus | Lotus
-sunflower | Sunflower
-marigold | Marigold`,
-
-        `hibiscus | Hibiscus
-jasmine | Jasmine
-tulip | Tulip
-zinnia | Zinnia`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Others - Drag & Drop',
-      id: 'dragDrop-others',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `bell | Bell
-brush| Brush
-bone| Bone
-radio | Radio
-box | Box
-coin | Coin`,
-
-        `top | Top
-balloon | Balloon
-stick | Stick
-ring| Ring
-drums| Drum
-food| Food `,
-
-        `king| King
-kite| Kite
-ladder| Ladder
-wheel| Wheel
-park | Park
-garden | Garden`
       ]
     }
   ]

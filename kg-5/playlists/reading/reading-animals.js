@@ -243,7 +243,7 @@ Do you know that cats belong to the same family *as (has)*tigers?`,
         title: 'Find the given words from the table.',
         lang: 'en',
         table: [
-          ['W', 'K', 'P', 'C', 'H', 'Q', 'T', 'H', 'K'],
+          ['W', 'K', 'P', 'D', 'H', 'Q', 'T', 'H', 'K'],
           ['M', 'H', 'M', 'A', 'I', 'K', 'C', 'Y', 'O'],
           ['R', 'K', 'I', 'T', 'T', 'E', 'N', 'S', 'R'],
           ['R', 'L', 'L', 'S', 'U', 'H', 'B', 'I', 'Q'],

@@ -138,14 +138,70 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Subject Verb Agreement',
-    id: 'sentence-4',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Questions',
     id: 'questions',
     grade: 'g2, g3'
+  },
+  {
+    label: 'Naming Word',
+    id: 'noun-1',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Proper and Common Noun',
+    id: 'noun-2',
+    grade: 'g1, g2, g3, g4'
+  },
+  {
+    label: 'Introduction to Pronoun',
+    id: 'pronoun-1',
+    grade: 'g1, g2, g3, g4, g5'
+  },
+  {
+    label: 'Personal and Demonstrative Pronoun',
+    id: 'pronoun-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Article - Introduction',
+    id: 'article-1',
+    grade: 'g1, g2, g3, g4, g5'
+  },
+  {
+    label: 'Definite and Indefinite Article',
+    id: 'article-2',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'No Article Rules',
+    id: 'article-3',
+    grade: 'g2, g3, g4, g5'
+  },
+  {
+    label: 'Describing Words',
+    id: 'adjective-1',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Adjective - Introduction',
+    id: 'adjective-2',
+    grade: 'g1, g2, g3, g4'
+  },
+  {
+    label: 'Joining Word',
+    id: 'conjunction-1',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Conjunction',
+    id: 'conjunction-2',
+    grade: 'g3, g4, g5'
+  },
+
+  {
+    label: 'Subject Verb Agreement',
+    id: 'sentence-4',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Facts and Opinions',
@@ -168,16 +224,7 @@ const grammar = [
     id: 'parts-of-speech-3',
     grade: 'g2, g3, g4'
   },*/
-  {
-    label: 'Naming Word',
-    id: 'noun-1',
-    grade: 'g1, g2, g3'
-  },
-  {
-    label: 'Proper and Common Noun',
-    id: 'noun-2',
-    grade: 'g1, g2, g3, g4'
-  },
+
   {
     label: 'Types of Noun',
     id: 'noun-3',
@@ -229,16 +276,6 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Joining Word',
-    id: 'conjunction-1',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Conjunction',
-    id: 'conjunction-2',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Conjunction Pairs',
     id: 'conjunction-4',
     grade: 'g3, g4, g5'
@@ -257,6 +294,11 @@ const grammar = [
     label: 'Phrase',
     id: 'phrase',
     grade: 'g5'
+  },
+  {
+    label: 'Proverbs',
+    id: 'proverb',
+    grade: 'g4, g5'
   },
   {
     label: 'Introduction to Adverb',
@@ -289,21 +331,7 @@ const grammar = [
     id: 'alliteration',
     grade: 'g3, g4, g5'
   },
-  {
-    label: 'Article - Introduction',
-    id: 'article-1',
-    grade: 'g1, g2, g3, g4, g5'
-  },
-  {
-    label: 'Definite and Indefinite Article',
-    id: 'article-2',
-    grade: 'g2, g3, g4, g5'
-  },
-  {
-    label: 'No Article Rules',
-    id: 'article-3',
-    grade: 'g2, g3, g4, g5'
-  },
+
   {
     label: 'Advanced Article',
     id: 'article-4',
@@ -313,26 +341,6 @@ const grammar = [
     label: 'Punctuation',
     id: 'punctuation',
     grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Modal',
-    id: 'modal',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Clause',
-    id: 'clause',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Describing Words',
-    id: 'adjective-1',
-    grade: 'g1, g2, g3'
-  },
-  {
-    label: 'Adjective - Introduction',
-    id: 'adjective-2',
-    grade: 'g1, g2, g3, g4'
   },
   {
     label: 'Adjective of Quality and Quantity ',
@@ -350,36 +358,11 @@ const grammar = [
     grade: 'g4, g5'
   },
   {
-    label: 'Simile',
-    id: 'simile',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Idiom',
-    id: 'idiom',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Gerund and Infinitive',
-    id: 'gerund-infinitive',
-    grade: 'g3, g4, g5'
-  },
-  {
     label: 'Action Word',
     id: 'verb-1',
     grade: 'g3, g4, g5'
   },
 
-  {
-    label: 'Introduction to Pronoun',
-    id: 'pronoun-1',
-    grade: 'g1, g2, g3, g4, g5'
-  },
-  {
-    label: 'Personal and Demonstrative Pronoun',
-    id: 'pronoun-2',
-    grade: 'g2, g3, g4, g5'
-  },
   {
     label: 'Possessive pronoun',
     id: 'pronoun-3',
@@ -393,6 +376,33 @@ const grammar = [
   {
     label: 'Interrogative Pronoun',
     id: 'pronoun-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Modal',
+    id: 'modal',
+    grade: 'g3, g4, g5'
+  },
+  /*
+  {
+    label: 'Clause',
+    id: 'clause',
+    grade: 'g3, g4, g5'
+  },
+  */
+  {
+    label: 'Simile',
+    id: 'simile',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Idiom',
+    id: 'idiom',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Gerund and Infinitive',
+    id: 'gerund-infinitive',
     grade: 'g3, g4, g5'
   }
 ];
@@ -990,7 +1000,7 @@ const science = [
     grade: 'g4, g5'
   },
   {
-    label: 'Measuurement',
+    label: 'Measurement',
     id: 'measurement-4',
     grade: 'g4, g5'
   },

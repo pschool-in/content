@@ -294,7 +294,7 @@ Why are *those* girls laughing?`,
           {
             type: 'html',
             text: `<b>will </b> -  to refer a future event<br>
-<b>would</b> -  to refer to a future event that may occur under specific conditions <br>`
+<b>would</b> -  to refer to a future event that may occur under specific conditions`
           },
           `# much vs many`,
           {

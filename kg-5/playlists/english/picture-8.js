@@ -4,6 +4,76 @@ export default {
   lockAfter: 4,
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Gadgets',
+      id: 'drag-gadgets',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `camera |Camera
+headphone|Headphone
+pendrive|Pendrive
+remote|Remote
+smartphone|Smartphone`,
+
+        `speaker|Speaker
+tablet|Tablet
+torch|Torch
+web-camera | Web Camera`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Others',
+      id: 'drag-others',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `knight | Knight
+chariot | Chariot
+horse-carriage | Horse Carriage
+yarn-ball | Yarn Ball
+bow | Bow
+arrow | Arrow`,
+
+        `fountain | Fountain
+pouch | Pouch
+trolley | Trolley
+whistle |Whistle
+twig | Twig
+palanquin | Palanquin`,
+
+        `medicine | Medicine
+conch| Conch
+toothbrush | Toothbrush
+chocolate | Chocolate
+toothpaste | Toothpaste`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Flowers',
+      id: 'drag-flowers',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `daffodil | Daffodil
+gulmohar | Gulmohar
+lily | Lily
+pansy | Pansy
+poppy | Poppy`,
+
+        `daisy | Daisy
+jasmine | Jasmine
+magnolia | Magnolia
+periwinkle | Periwinkle
+water-lily | Water Lily`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'gadgets',
       label: 'Gadgets',
@@ -144,76 +214,6 @@ M, magnolia
 D, daisy 
 P, periwinkle 
 W, water-lily `
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Gadgets - Drag & Drop',
-      id: 'dragDrop-gadgets',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `camera |Camera
-headphone|Headphone
-pendrive|Pendrive
-remote|Remote
-smartphone|Smartphone`,
-
-        `speaker|Speaker
-tablet|Tablet
-torch|Torch
-web-camera | Web Camera`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Others - Drag & Drop',
-      id: 'dragDrop-others',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `knight | Knight
-chariot | Chariot
-horse-carriage | Horse Carriage
-yarn-ball | Yarn Ball
-bow | Bow
-arrow | Arrow`,
-
-        `fountain | Fountain
-pouch | Pouch
-trolley | Trolley
-whistle |Whistle
-twig | Twig
-palanquin | Palanquin`,
-
-        `medicine | Medicine
-conch| Conch
-toothbrush | Toothbrush
-chocolate | Chocolate
-toothpaste | Toothpaste`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Flowers - Drag & Drop',
-      id: 'dragDrop-flowers',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `daffodil | Daffodil
-gulmohar | Gulmohar
-lily | Lily
-pansy | Pansy
-poppy | Poppy`,
-
-        `daisy | Daisy
-jasmine | Jasmine
-magnolia | Magnolia
-periwinkle | Periwinkle
-water-lily | Water Lily`
       ]
     }
   ]

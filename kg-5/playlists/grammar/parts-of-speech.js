@@ -103,11 +103,11 @@ He ran *fast*.
 Masons build houses *wonderfully*.`
         ],
         [
-          `There was *calm* after the heavy rain.
-The dog *barks* loudly.
+          `The dog *barks* loudly.
 I have *done* my work.
 She *paints* the wall pink.`,
-          `Ramya is a *good* singer.
+          `There was *calm* after the heavy rain.
+          Ramya is a *good* singer.
 John is my *best* friend.
 There was calm after the *heavy* rain.`,
           `Climb up the ladder *carefully*.

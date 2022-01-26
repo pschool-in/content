@@ -3,6 +3,72 @@ export default {
   id: 'picture-7',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Vehicles',
+      id: 'drag-vehicles',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `aeroplane | Aeroplane
+boat | Boat
+bus | Bus
+car | Car
+cycle | Cycle
+helicoptor | Helicopter`,
+
+        `motorbike | Motorbike
+ship | Ship
+tractor | Tractor
+lorry| Lorry
+train | Train
+ambulance| Ambulance`,
+
+        `auto| Auto
+cart| Cart
+excavator| Excavator
+fire-engine| Fire Engine`,
+
+        `van| Van
+bulldozer | Bulldozer
+rocket | Rocket
+submarine | Submarine`
+      ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Jobs',
+      id: 'drag-jobs',
+      commonData: {
+        title: 'Drag the names and drop on the images.'
+      },
+      data: [
+        `astronaut | Astronaut
+clown | Clown
+fisherman | Fisherman
+postman | Postman
+teacher | Teacher
+blacksmith | Blacksmith`,
+
+        `cobbler | Cobbler
+goldsmith | Goldsmith
+potter | Potter
+weaver | Weaver
+carpenter | Carpenter
+diver | Diver`,
+
+        `nurse | Nurse
+sailor | Sailor
+chef | Chef
+doctor | Doctor`,
+
+        `police | Police
+soldier | Soldier
+barber | Barber
+washerman | Washerman`
+      ]
+    },
+    {
       type: 'completeWord',
       id: 'vehicles',
       label: 'Vehicles',
@@ -138,72 +204,6 @@ P, police`,
 C, carpenter 
 B, barber 
 W, washerman`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Vehicles - Drag & Drop',
-      id: 'dragDrop-vehicles',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `aeroplane | Aeroplane
-boat | Boat
-bus | Bus
-car | Car
-cycle | Cycle
-helicoptor | Helicopter`,
-
-        `motorbike | Motorbike
-ship | Ship
-tractor | Tractor
-lorry| Lorry
-train | Train
-ambulance| Ambulance`,
-
-        `auto| Auto
-cart| Cart
-excavator| Excavator
-fire-engine| Fire Engine`,
-
-        `van| Van
-bulldozer | Bulldozer
-rocket | Rocket
-submarine | Submarine`
-      ]
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Jobs - Drag & Drop',
-      id: 'dragDrop-jobs',
-      commonData: {
-        title: 'Drag and Drop the name on the images.'
-      },
-      data: [
-        `astronaut | Astronaut
-clown | Clown
-fisherman | Fisherman
-postman | Postman
-teacher | Teacher
-blacksmith | Blacksmith`,
-
-        `cobbler | Cobbler
-goldsmith | Goldsmith
-potter | Potter
-weaver | Weaver
-carpenter | Carpenter
-diver | Diver`,
-
-        `nurse | Nurse
-sailor | Sailor
-chef | Chef
-doctor | Doctor`,
-
-        `police | Police
-soldier | Soldier
-barber | Barber
-washerman | Washerman`
       ]
     }
   ]
