@@ -85,12 +85,6 @@ Many minerals are formed in the form of crystals. They are very hard and can be 
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `*Basalt* is a fine grained and glassy igneous rock.
 *Minerals* are underground natural resources.
 Precious metals like gold, silver and platinum are used to make *jewellery*.

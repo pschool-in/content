@@ -826,7 +826,7 @@ This helps them to *store (shore)* food.`,
           },
           {
             qText: 'Dolphins _____ on the water.',
-            options: 'hop, swin, dance'
+            options: 'hop, swim, dance'
           },
           {
             qText: 'Dolphins are very _____ .',
@@ -834,7 +834,7 @@ This helps them to *store (shore)* food.`,
           },
           {
             qText: 'Dolphins are attentive while _____ .',
-            options: 'sleping, eating, swimming'
+            options: 'sleeping, eating, swimming'
           },
           {
             qText: 'Dolphins babies are called _____ .',

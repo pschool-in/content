@@ -11,17 +11,17 @@ export default {
         title: 'Subtraction: Drag and Drop the words on the right boxes.',
         width: 260,
         height: 214,
-        wordWidth: 70,
-        fontSize: '1.2rem',
+        wordWidth: 100,
+        fontSize: '1.1rem',
         words: [
           {
             word: 'subtrahend',
             x: 100,
-            y: 30
+            y: 0
           },
           {
             word: 'equals',
-            x: 150,
+            x: 160,
             y: 180
           },
           {
@@ -36,7 +36,7 @@ export default {
           },
           {
             word: 'subtraction sign',
-            x: 20,
+            x: 10,
             y: 180
           }
         ]
@@ -81,12 +81,12 @@ export default {
         title: 'Division: Drag and Drop the words on the right boxes.',
         width: 163,
         height: 143,
-        wordWidth: 60,
+        wordWidth: 80,
         fontSize: '1.2rem',
         words: [
           {
             word: 'Divisor',
-            x: -60,
+            x: -80,
             y: 50
           },
           {
@@ -97,7 +97,7 @@ export default {
           {
             word: 'Quotient',
             x: 160,
-            y: 20
+            y: 5
           },
           {
             word: 'Remainder',

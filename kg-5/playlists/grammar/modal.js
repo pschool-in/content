@@ -168,14 +168,6 @@ We *should* go to school everday.
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'drag-and-drop-2',
-      commonData: {
-        isPractice: false,
-        title: 'Drag the correct answer in each blank.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `The box is heavy. You *cannot* lift it.
 I *will* help you if I can.

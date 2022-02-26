@@ -18,6 +18,22 @@ export default {
       }
     },
     {
+      type: 'dragDropImgLabel',
+      label: 'Monuments in India',
+      id: 'monuments',
+      data: {
+        onlyBigScreen: true,
+        title: 'Drag the names and drop on the images.',
+        path: 'img/social/monument',
+        text: `charminar | Charminar
+indiagate | India Gate
+qutub-minor | Qutub Minor
+redfort | Red Fort
+tajmahal |Taj Mahal
+tanjore | Tanjore`
+      }
+    },
+    {
       id: 'atmosphere-layers',
       label: 'Layers of Atmosphere',
       type: 'dragAndDrop',
@@ -27,7 +43,8 @@ export default {
         width: 350,
         height: 350,
         wordWidth: 80,
-        fontSize: '1.2rem',
+        color: '#d16aef',
+        fontSize: '0.9rem',
         words: [
           {
             word: 'Troposphere',
@@ -66,6 +83,7 @@ export default {
       type: 'dragDropImgLabel',
       label: 'Road Signs',
       id: 'road-signs',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.',
         path: 'img/social/road-sign'
@@ -102,8 +120,9 @@ export default {
         title: 'Latitude',
         width: 350,
         height: 344,
-        wordWidth: 70,
-        fontSize: '1.2rem',
+        wordWidth: 90,
+        fontSize: '0.9rem',
+        color: '#d16aef',
         words: [
           {
             word: 'Equator',
@@ -158,12 +177,6 @@ export default {
       type: 'matchByDragDrop',
       id: '3-people-workplace',
       data: {
-        isPractice: false,
-        title: 'Drag and drop to match People and workplace.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Doctor → *Hospital*
 Teacher → *School*
 Cashier → *Bank* 
@@ -177,7 +190,6 @@ Photographer → *Studio*`
       type: 'match',
       id: '3-people-tools',
       data: {
-        isPractice: false,
         title: 'Match People and the Tools they use.',
         fontSize: '1rem',
         text: `Doctor, Stethoscope

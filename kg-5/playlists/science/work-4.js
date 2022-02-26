@@ -115,12 +115,6 @@ We need to apply force to do work.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Energy is defined as *capacity* for doing work. Energy must be *transferred* to an object in order to do work.
 Renewable sources of energy are *replaced* naturally over a period of time.
 The escalator moves by using *electricity* as energy.`
@@ -247,12 +241,6 @@ Wedge, Knife`
       type: 'matchByDragDrop',
       id: 'drag-drop-lever',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `*Lever* is cassified into three types.
 *Load* is the object on which the force is applied.
 *Effort* is the force we apply on the lever.

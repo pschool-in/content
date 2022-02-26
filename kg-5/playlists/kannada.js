@@ -12,6 +12,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'ಅ',
@@ -159,6 +160,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 3,
+        yGuides: [95, 250],
         source: [
           {
             id: 'ಕ',

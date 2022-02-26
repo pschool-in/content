@@ -199,15 +199,6 @@ My sister is in *the (-)* classroom.    `
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `There is *an* apple in the fruit basket, please have it.
 Bill Gates is *the* richest man in the world.

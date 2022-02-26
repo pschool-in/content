@@ -102,12 +102,6 @@ Micro-organisms can decompose some waste materials and make it beneficiary for t
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Things that can be decomposed or broken down by microorganisms are *biodegradable*.
 Picking up the waste is called *Waste collection*.
 *Compost* makes the soil fertile.

@@ -296,12 +296,6 @@ opaque, metal`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `We see the world around us with the help of *light*.
 The objects that give off light are called light *sources*.
 Light usually get *reflected* from mirror. 

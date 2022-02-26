@@ -75,16 +75,10 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `08 March is the International *Women’s Day*.
-1 May is the International *Labour Day*.
+1 May is the International *Labour Day*.
 *24 January* is the International Day of Education.
-*21 February* is the International Mother Language Day.
+*21 February* is the International Mother Language Day.
 *05 June* is the World Environment Day.`
       }
     },
@@ -184,12 +178,6 @@ Leaning Tower of Pisa, Italy`,
       type: 'matchByDragDrop',
       id: 'drag-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Eiffel Tower* is situated in Paris.
 *Taj Mahal* is situated in Agra.
 *Statue of Liberty* is situated in New York.

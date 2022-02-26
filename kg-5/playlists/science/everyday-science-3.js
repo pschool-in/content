@@ -155,12 +155,6 @@ We can use the induction stove, even without electricity.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Science is the study of the *natural* world around us.
 A refrigerator is also known *fridge*. It works on the principle of *cooling*
 Kids should never play with *knives*.

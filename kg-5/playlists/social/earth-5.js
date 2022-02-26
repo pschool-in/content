@@ -299,7 +299,7 @@ World’s largest coffee producer - *Brazil*
 Only continent to have all climatic types - *N.America*
 Largest fresh water lake - *Lake Superior*
 World’s longest river - *Nile*
-World’s largest dessert - *Sahara*`
+World’s largest desert - *Sahara*`
       }
     },
     {

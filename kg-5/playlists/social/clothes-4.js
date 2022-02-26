@@ -90,12 +90,7 @@ Hats`
       type: 'matchByDragDrop',
       id: 'fun-fact',
       data: {
-        isPractice: false,
         title: 'Guess what would they wear in the following surroundings',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Soldiers wear *khaki* clothes in deserts.
 Soldiers wear *green* clothes in jungles.              
 Soldiers wear *white* clothes in The Himalayas`
@@ -106,12 +101,7 @@ Soldiers wear *white* clothes in The Himalayas`
       type: 'matchByDragDrop',
       id: 'drag-drop-1',
       data: {
-        isPractice: false,
         title: 'Guess who are they!',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `I wear a white coat and examine patients. - *Doctor*
 I wear blue clothes and put out fires. - *Firefighter*
 You always see me in khaki clothes. I go wherever there is a fight. - *Police*
@@ -137,12 +127,8 @@ Silk, Silkworm`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Guess when you wears what!',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `What do we wear to protect our feet - *Shoes*
 What do we wear to keep ourselves dry in rain - *Raincoat*
 What do we wear when we go to bed - *Pyjamas*
@@ -157,12 +143,6 @@ What do we wear to protect our hands from cold - *Gloves*`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Clothes *protect* us from heat, cold and rain.
 We wear *cotton* clothes in summer.
 Woollen clothes keeps us *warm*.
@@ -214,12 +194,6 @@ In case of unavailability of detergent, one can also use soap nuts, washing soda
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Gandhiji always wore clothes made of *khadi* yarn.
 It is unsafe to wear *nylon* clothes while cooking or burning crackers.
 People prefer wearing *cotton* clothes in summer.
@@ -290,12 +264,6 @@ Raincoat, Rain`,
       type: 'matchByDragDrop',
       id: 'drag-drop-6',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.1rem',
-          dashWidth: 80
-        },
         text: `Cloth or fabric is made by intertwining *threads* together. 
 Intertwining threads together is called *weaving*.
 The wad of *cotton* is twisted into a long wick.
@@ -339,12 +307,6 @@ Sarees from some states of India have special significance and great popularity 
       type: 'matchByDragDrop',
       id: 'drag-drop-9',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Paithan and Yeolla are famous for *paithani*
 Goa is famous for *shell jewellery*.
 Banaras/ Varanasi is famous for * silk sarees*.
@@ -357,12 +319,6 @@ Kolkata is famous for *tant bengali sarees*.`
       type: 'fillup',
       id: 'drag-drop-7',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Mumbai (Goa)* is famous worldwide for its textile mills.
 Wanting things you do not need is *want (desire)*, not necessity.
 It is cold. Put on your *coat (umbrella)*.
@@ -374,12 +330,7 @@ It is snowy. Put on your *gloves (skirt)*.`
       type: 'fillup',
       id: 'drag-drop-8',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `It is sunny. Put on your *sunglasses (boots)*.
 I take my *umbrella (skirt)* on a rainy day.
 I wear my *hat (boot)* on sunny day.

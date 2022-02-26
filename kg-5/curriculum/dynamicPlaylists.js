@@ -505,7 +505,7 @@ const math = [
   },
   {
     label: 'Math - Shapes',
-    id: 'kg-math-2',
+    id: 'shapes',
     grade: 'kg'
   },
   {
@@ -529,13 +529,8 @@ const math = [
     grade: 'kg, g1, g2'
   },
   {
-    label: 'Math Maze - 2',
-    id: 'math-maze-2',
-    grade: 'kg, g1, g2'
-  },
-  {
     label: 'Maze - Multiples',
-    id: 'math-maze-3',
+    id: 'math-maze-2',
     grade: 'g1,g2,g3'
   },
   {
@@ -895,17 +890,27 @@ const science = [
   // new addition
   {
     label: 'Animals',
+    id: 'animals',
+    grade: 'g2, g3'
+  },
+  {
+    label: 'Domestic Animals',
     id: 'animals-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Animals 2',
+    label: 'Life of Animals',
     id: 'animals-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Reproduction in Animals',
+    label: 'Adaptation in Animals',
     id: 'animals-5',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Food Chain',
+    id: 'food-chain',
     grade: 'g3, g4, g5'
   },
   {
@@ -934,7 +939,7 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Evolution of Computer',
+    label: 'Computer: Input Devices',
     id: 'computer-4',
     grade: 'g3, g4, g5'
   },
@@ -946,11 +951,6 @@ const science = [
   {
     label: 'Science Misc - 4',
     id: 'science-4',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Computers',
-    id: 'computer',
     grade: 'g3, g4, g5'
   },
   // missing playlist
@@ -986,7 +986,7 @@ const science = [
   },
   {
     label: 'Sound',
-    id: 'sound',
+    id: 'sound-science',
     grade: 'g3, g4, g5'
   },
   {
@@ -1332,6 +1332,11 @@ const general = [
     grade: 'kg, g1'
   },
   {
+    label: 'Easy Patterns',
+    id: 'pattern-kid',
+    grade: 'kg, g1, g2'
+  },
+  {
     label: 'Complete the Pattern',
     id: 'pattern',
     grade: 'kg, g1, g2'
@@ -1538,18 +1543,12 @@ const english = [
     label: 'Dictation: More Images',
     id: 'word-sound-8',
     grade: 'kg, g1, g2, g3'
-  }
-  /*
-  {
-    label: 'Picture Match',
-    id: 'match-picture',
-    grade: 'kg, g1, g2, g3'
   },
   {
-    label: 'Picture Match - 2',
-    id: 'match-picture-2',
+    label: 'Phonics',
+    id: 'phonics',
     grade: 'kg, g1, g2, g3'
-  }*/
+  }
 ];
 
 const gk = [

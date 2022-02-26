@@ -36,7 +36,7 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
         img: 'worldContinents.jpg',
         title: 'Drag and drop the continents at appropriate places.',
         width: 352,
-        //  height: 260,
+        height: 260,
         wordWidth: 75,
         words: [
           {

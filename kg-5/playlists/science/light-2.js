@@ -57,12 +57,6 @@ Shadow is formed when light passes through objects.`
       id: 'fillup',
       type: 'fillup',
       data: {
-        isPractice: false,
-        title: 'Click the blanks and fill it with the right word.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `The *sun (moon)* is the most powerful source of light. 
 A shadow is formed on the *opposite (same)* side of the source of light.
 We cannot see anything in a *dark (lit)* room.`

@@ -86,17 +86,11 @@ topsoil, fertile`,
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
-        text: `The topmost layer of soil - *topsoil*
-The layer of soil beneath topsoil - *subsoil*
-The compacted and cemented layer made of rocks - *parent rock*
-The wearing away of topsoil - soil *erosion*
-The prevention of loss of topsoil - soil *conservation*`
+        text: `The topmost layer of soil is called *topsoil*.
+The layer of soil beneath topsoil is *subsoil*.
+The compacted and cemented layer made of rocks is called *parent rock*.
+The wearing away of topsoil is called soil *erosion*.
+The prevention of loss of topsoil is called soil *conservation*.`
       }
     },
     {
@@ -104,12 +98,6 @@ The prevention of loss of topsoil - soil *conservation*`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Natural process of wearing away of topsoil is called soil *erosion*.
 Rocks like basalt and limestone are seen in *parent rock* layer.
 Topsoil is black or dark *brown* in colour.

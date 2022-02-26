@@ -93,11 +93,6 @@ Information, Technology`,
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          dashWidth: 100
-        },
         text: `Moon is a *natural* satellite. It *revolves* around the Earth.
 There is no *gravity* in space.
 Satellites are send through a *rocket*. They are helpful in studying *weather*.`

@@ -54,7 +54,7 @@ Draw a parallelogram of sides 2 and 3.6 cm, with one of its angle being 60 degre
       label: 'Four Sides',
       id: 'four-sides',
       data: {
-        qText: 'Classify the below shape using the morst accurate name.',
+        qText: 'Classify the below shape using the most accurate name.',
         type: 'custom',
         types: ['rectangle', 'parallelogram', 'quadrilateral'],
         text: `M 5 5 H 80 V 60 H 5 Z | 0

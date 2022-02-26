@@ -93,8 +93,6 @@ _____ is a mixture of several gases.|AIR| _I_`
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80

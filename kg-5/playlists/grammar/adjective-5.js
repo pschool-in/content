@@ -292,14 +292,6 @@ Please wear a *clean* shirt before you go out.`
       label: 'Appropriate Adjective - 2',
       type: 'matchByDragDrop',
       id: 'right-word-2',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks by moving the words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `The mangoes are *sweet*.
 The lion has *sharp* claws.
@@ -318,14 +310,6 @@ This is a *sweet* mango.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks by moving the words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `Kavitha answers all the questions correctly. She is an *intelligent* girl. 
 These are *costly* chairs made of teak wood.

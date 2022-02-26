@@ -585,7 +585,7 @@ export default {
               x: 2,
               y: 5
             },
-            hint: 'known as the ship of the dessert',
+            hint: 'known as the ship of the desert',
             direction: 'across'
           },
           {

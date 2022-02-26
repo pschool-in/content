@@ -46,12 +46,7 @@ Alliteration is a series of vowels.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       commonData: {
-        isPractice: false,
-        title: 'Drag the correct option in each blank to form an alliteration.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        title: 'Drag the correct option in each blank to form an alliteration.'
       },
       data: [
         `The boy *bounced* the ball.

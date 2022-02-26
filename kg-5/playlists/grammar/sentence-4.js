@@ -140,12 +140,7 @@ I, put, my, clothes, in, an, almirah`
       id: 'fill-up',
       lockAfter: 1,
       commonData: {
-        isPractice: false,
-        title: 'Drag and drop: Fill the blanks with the appropriate word.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `We were on a road trip to *Kolkata*. On day three, we *crossed* over into Bengal in our *trusted* old car. My *siblings* and I were tired and irritable and my mother was nursing a *headache*. Distracted, my father drove on. We found ourselves in a quaint, *picturesque* village at the *foothills* of a mountain.`,

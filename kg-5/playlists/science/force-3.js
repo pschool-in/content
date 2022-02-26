@@ -19,12 +19,6 @@ When two objects touch each other, a special type of force develops between them
       id: 'fillup-drag',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `We push or *pull* things to *move* them. A push or pull is called *force*.
 Force can change the *shape* of an object.
 Friction slows down *movements*. A wet floor is slippery because there is very little *friction*.`
@@ -210,12 +204,7 @@ eraser, erasor, erasar `
       id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `A *force* is needed to make a stationary object move. 
 The force applied with the help of muscle is called *muscular* force.
 The reason for the fruits to fall from the tree is *gravitation*.

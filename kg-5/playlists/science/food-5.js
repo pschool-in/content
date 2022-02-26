@@ -237,12 +237,7 @@ Deficiency due to iodine is called as beriberi.`
       label: 'Fill in the Blanks',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1rem',
         text: `Night Blindness is caused by the lack of *vitamin-A*.
 Marasmus is a *protein* deficiency disease.
 Bad smell from the food item is due to *spoilage*.
@@ -274,12 +269,6 @@ It is important to avoid excessive use of fertilizers to protect the crops as ov
       type: 'matchByDragDrop',
       id: 'fillup-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Improved seeds* can resist pest attacks.
 Crops were traditionally watered through *canal*.
 *Sprinkle* irrigation is a process that sprays water directly on plants.
@@ -292,12 +281,6 @@ Natural and *chemical* are two kinds of fertilizers.
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The process through which the water and nutrients are directly delivered to the plant's roots. *Drip irrigation*
 The great increase in the production of food grains. *Green revolution*
 Another name for natural fertilizers. *Manures*
@@ -309,12 +292,6 @@ Crops are grown from March to June. *Summer crops*`
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `A Beverage crop- *MAIZE*
 A crop that grows in the temperate zone- *WHEAT*
 A crop which is grown extensively in Coimbatore- *COTTON*
@@ -418,12 +395,6 @@ Milk products are made and preserved for a whole year.`
       type: 'matchByDragDrop',
       id: 'drag-drop-6',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Microorganisms grow fast in the presence of air and *moisture*.
 A *fungus* is a type of micro-organism.
 Mango pulp and *milk* are foodstuffs that spoil quickly.
@@ -436,12 +407,6 @@ Food spoiled from micro-organisms can cause *diseases*.
       type: 'matchByDragDrop',
       id: 'drag-drop-21 ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Food is dried to prevent water content. *Drying*
 Food is rapidly frozen. *Freezing*
 Food is placed in an airtight container. *Canning*
@@ -502,12 +467,6 @@ The food pyramid was created to encourage people to eat healthily. The requireme
       type: 'matchByDragDrop',
       id: 'drag-drop-8',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Obesity is caused by *excessive fat* in the body.
 Grains are preserved by *drying*.
 In *kwashiorkor*, the child develops an enlarged belly.
@@ -533,12 +492,6 @@ Goitre, Iodine`,
       type: 'matchByDragDrop',
       id: 'drag-drop-9',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Diseases caused due to abnormalities in genes are called *Hereditary diseases*
 Diseases which are caused due to a lack of essential nutrients in the body are called *Deficiency diseases*
 Diseases which are caused due to micro-organisms are called *Infectious diseases*

@@ -2,6 +2,7 @@ const reading = {
   label: 'Stories',
   id: 'reading',
   img: 'reading',
+  lockAfter: 5,
   pdf: 'stories.pdf',
   list: [
     {

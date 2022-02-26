@@ -289,12 +289,7 @@ export default {
       id: 'numbername1020',
 
       data: {
-        isPractice: false,
-        title: 'Drag and drop the numbers at proper name.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1.6rem',
         text: `Fifteen : *15*
 Twenty : *20*
 Eighteen : *18*

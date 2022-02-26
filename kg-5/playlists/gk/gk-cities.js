@@ -75,16 +75,10 @@ Nagpur, Orange city`
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Ahmedabad* city is Manchester of India.
 *Udaipur* city is the City of Lakes in India.
-*Varanasi* city is the City of light in India.
-*Nagpur* city is Orange city of India.
+*Varanasi* city is the City of light in India.
+*Nagpur* city is Orange city of India.
 *Calicut* city is the City of spices in India.`
       }
     },

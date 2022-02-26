@@ -48,7 +48,7 @@ Stagnant water is breeding ground for mosquitoes that result in Malaria and Deng
 Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.
 # Experiment
 Let us assemble a Simple Pump`,
-          { type: 'img', src: 'img/science/waterPumpExperiment.png' },
+          { type: 'img', src: 'science/waterPumpExperiment.png' },
           `# Materials needed
 A hollow tube - PVC, metal or even a long papaya stem
 # Procedure
@@ -203,12 +203,6 @@ The largest source of water on the earth is *ocean (sea)*.
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Salt and sugar *dissolve* in water.
 Mixture obtained after dissolving a substance in water is called *solution*.
 Some micro-organisms can cause *diseases* if they enter our body.
@@ -258,12 +252,6 @@ Things that sink in water are *heavier*.
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 120
-        },
         text: `We need water to 
 1. *wash* our face
 2. *brush* our teeth

@@ -45,8 +45,6 @@ A very strong wind is called gale. Gale is stronger than storm.`
       id: 'drag-drop',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -156,8 +154,6 @@ We need air for our body to function properly. It also makes us feel fresh and l
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80

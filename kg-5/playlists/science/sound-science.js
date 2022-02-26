@@ -1,5 +1,5 @@
 export default {
-  id: 'sound',
+  id: 'sound-science',
   label: 'Sound',
   lockAfter: 4,
   // music and instruments can be added here
@@ -70,12 +70,6 @@ The sound of the loudspeaker is a soft sound.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Fill in the blanks with the given words.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Unpleasant sound is called *noise* and it *irritates* us. 
 Too much of sound can cause noise *pollution*.
 Sound is a form of *energy* and it is caused by *vibration*.`

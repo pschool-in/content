@@ -215,13 +215,9 @@ Fuel these days *costs* *an* *arm* *and* *a* *leg*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-1',
       data: {
-        isPractice: false,
         title:
           'Fill up the blanks in the sentence with appropriate expression.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Try not to mention baldness while he is here: it's a *sore spot* for him.
 Refusing to lend him money now would give him a taste of his own *medicine* as he never lent you any.
 Losing my job was initially a *bitter* pill to swallow.

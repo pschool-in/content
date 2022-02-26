@@ -36,12 +36,7 @@ Some more phrases that represent examples of similes are:
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
       commonData: {
-        isPractice: false,
-        title: 'Put the words given in the bottom at the right place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `Shhh! You must be as *quiet* as a mouse! The baby is asleep. 

@@ -131,7 +131,7 @@ const math = {
       type: 'quickArithmetic',
       id: 'multiplication',
       label: 'Multiplication',
-      data: { type: 'mul~xx~x' }
+      data: { type: 'mul~x0~x' }
     },
     {
       type: 'quickArithmetic',

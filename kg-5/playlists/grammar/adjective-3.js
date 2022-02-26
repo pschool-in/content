@@ -235,14 +235,6 @@ danger, unsafe`
       label: 'Drag and drop',
       type: 'matchByDragDrop',
       id: 'drag-and-drop-1',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks by moving the words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `He is a *short* boy.
 She wore a *cotton* dress.

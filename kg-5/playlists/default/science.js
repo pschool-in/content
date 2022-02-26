@@ -75,6 +75,52 @@ export default {
       }
     },
     {
+      id: 'guess-animal',
+      label: 'Guess the Animals',
+      type: 'dragAndDrop',
+      data: {
+        img: 'guess-animal.jpg',
+        title: 'Guess the Animals',
+        onlyBigScreen: true,
+        width: 700,
+        height: 382,
+        wordWidth: 70,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'Snail',
+            x: 410,
+            y: 255
+          },
+          {
+            word: 'Parrot',
+            x: 50,
+            y: 235
+          },
+          {
+            word: 'Crocodile',
+            x: 600,
+            y: 350
+          },
+          {
+            word: 'Dragonfly',
+            x: 170,
+            y: 235
+          },
+          {
+            word: 'Tiger',
+            x: 350,
+            y: 160
+          },
+          {
+            word: 'Fish',
+            x: 490,
+            y: 350
+          }
+        ]
+      }
+    },
+    {
       id: 'parts-mouth',
       label: 'Parts of Open Mouth',
       type: 'dragAndDrop',
@@ -83,8 +129,8 @@ export default {
         title: 'Parts of Open Mouth',
         width: 350,
         height: 329,
-        wordWidth: 70,
-        fontSize: '1.2rem',
+        wordWidth: 100,
+        fontSize: '1rem',
         words: [
           {
             word: 'Molar',
@@ -202,10 +248,7 @@ export default {
       type: 'matchByDragDrop',
       id: '3-water-ice-vapor',
       data: {
-        isPractice: false,
-        title: 'Drag and drop to complete the below sentences.',
         styles: {
-          fontSize: '1rem',
           dashWidth: 60
         },
         text: `If you *heat* water to a temperature of *100 °C*, it *evaporates* to form water vapour.
@@ -312,12 +355,7 @@ If you *cool* water to a temparature of *0 °C*, it *freezes* to form ice.`
       id: '4-solor-system-fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        dashWidth: 70,
         text: `*Sun* is the center of solar system.
         *Jupiter* is the biggest planet.
         *Saturn* has a big ring around it.
@@ -331,12 +369,7 @@ If you *cool* water to a temparature of *0 °C*, it *freezes* to form ice.`
       id: '4-air-fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        dashWidth: 80,
         text: `We inhale *oxygen* and exhale *carbon-dioxide*.
 The air present in Earth, is majorly made up of *nitrogen*.
 Air has *weight* but it doesn't have *shape*.`
@@ -347,12 +380,7 @@ Air has *weight* but it doesn't have *shape*.`
       id: '4-plants-fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the plant parts at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 50
-        },
+        dashWidth: 50,
         text: `The *root* absorbs water from the soil and helps hold the plant in the soil.
 The *leaf* uses the sun and air to make food for the plant.
 The *stem* helps the plant to stand straight.

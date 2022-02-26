@@ -115,12 +115,6 @@ Roof top harvesting method is used in agriculture field.`
       type: 'matchByDragDrop',
       id: 'drag-drop-water',
       data: {
-        isPractice: false,
-        title: 'Drag and drop to complete the below sentences.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
         text: `If you *heat* water to a temperature of *100 °C*, it *vapourize* to form water vapour.
 If you *cool* water to a temperature of *0 °C*, it *freezes* to form ice.
 Ice *melts* when we keep it in *room* temperature. `

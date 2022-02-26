@@ -102,13 +102,9 @@ A penny saved, is a penny earned`
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
       commonData: {
-        isPractice: false,
         title:
-          'Drag and drop the words at correct places to make a complete proverb',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+          'Drag and drop the words at correct places to make a complete proverb.',
+        fontSize: '1rem'
       },
       data: [
         `A watched pot never *boils*.

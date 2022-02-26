@@ -36,55 +36,18 @@ Root is responsible for absorbing water and other minerals from the soil. The st
       }
     },
     {
-      id: 'parts-plants',
       type: 'dragAndDrop',
       label: 'Parts of Plant',
       data: {
-        img: 'plant',
-        title: 'Parts of Plant',
-        width: 249,
-        height: 235,
-        wordWidth: 50,
-        words: [
-          {
-            word: 'roots',
-            x: 4,
-            y: 139
-          },
-          {
-            word: 'stem',
-            x: 190,
-            y: 10
-          },
-          {
-            word: 'leaves',
-            x: 197,
-            y: 78
-          },
-          {
-            word: 'flower',
-            x: 18,
-            y: 16
-          },
-          {
-            word: 'bud',
-            x: 4,
-            y: 88
-          }
-        ]
-      }
+        type: 'plant'
+      },
+      id: 'plant'
     },
     {
       label: 'Plants Function',
       id: 'drag-drop-function',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the plant parts at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 50
-        },
         text: `The *root* absorbs water from the soil and helps to hold the plant in the soil. 
 The *leaf* uses the sun and air to make food for the plant. 
 The *stem* helps the plant to stand straight. 
@@ -213,14 +176,6 @@ Plants can move from one place to another.`
       label: 'Drag and Drop Blanks ',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words ',
-        printTitle: 'Fill in the blanks',
-        printHideOptions: true,
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
         text: `*Flower* is the most attractive part of a plant.
 *Seed* helps in growing new plant.
 *Stem* helps the plant to stand straight.
@@ -379,14 +334,14 @@ The hard part inside the fruit is called seed. Most plants grow from seeds.`
       }
     },
     {
-      label: 'Dessert vs Mountain vs Plain',
+      label: 'Desert vs Mountain vs Plain',
       id: 'classify-5',
       type: 'group',
       data: {
         title: 'Classify the below plants into their respective type',
         types: [
           {
-            name: 'Dessert',
+            name: 'Desert',
             text: 'opuntia, aloe vera, cactus, date palm'
           },
           {
@@ -549,7 +504,7 @@ Mountain trees leaves are called frond`
       commonData: {
         title: 'connect the letter to create word'
       },
-      data: [`Plant, leaf, bud, flower, root, dessert, mountain, seed`]
+      data: [`Plant, leaf, bud, flower, root, desert, mountain, seed`]
     },
     {
       type: 'rightOne',

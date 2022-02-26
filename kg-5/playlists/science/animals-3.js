@@ -4,612 +4,247 @@ export default {
   lockAfter: 4,
   list: [
     {
+      label: 'Domestic Animals - Notes',
+      type: 'passage',
+      id: 'notes',
+      data: {
+        title: 'Domestic Animals',
+        text: `People love to keep animals. The dog guards our house. People like to keep cats, too. Cows, buffaloes and goats give us milk. Some people keep hens. We get meat, milk and eggs from animals.
+Bullocks help with farm work. Hitched to a cart, they can draw heavy burdens, too. Horses and donkeys too, are used to carry burdens.
+We look after the animals we keep. We feed them. We take care of them when they are ill. The animals we keep become very dear to us.`
+      }
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      data: {
+        text: `The dog *guards* our house.
+Cows, buffaloes and goats give us *milk*.
+Bullocks help with *farm* work.
+Horses and donkeys are used to carry *weights*.
+Hen gives us *egg*.
+Goat gives us *meat*.`
+      }
+    },
+    {
+      label: 'Uninvited Guests - Notes',
+      type: 'passage',
+      id: 'uninvited-notes',
+      data: {
+        title: 'Uninvited Guests',
+        text: `Some animals enter our houses even though we don't want them.
+Mice and rats destroy stored grain, besides gnawing other things in the house.
+Mosquitoes and bedbugs suck our blood.
+Spiders make cobwebs in the house. Flies, gnats and cockroaches are a nuisance too.`
+      }
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag-drop',
+      data: {
+        text: `Bedbugs suck our *blood*.
+Spiders make *cobwebs* in the house.
+Rats destroy stored *grains*.
+Though we can see *lizards* in our house, they are not our *pet* animals. They are *uninvited* guests.`
+      }
+    },
+    {
+      id: 'match-uninvited',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `Spider, Cobweb
+Rats, Gnaw things
+Mosquito, Suck Blood
+Snake, Poison
+Dog, Friendly`
+      }
+    },
+    {
+      label: 'So Many Kinds of Animals - notes',
+      type: 'passage',
+      id: 'notes-kind-of-animals',
+      data: {
+        title: 'So many kinds of Animals',
+        text: `The crow is black. The buffalo too is black. A swan is white. But the peacock has many different colours.
+The horse and the bullock are large in size. The goat and the dog are of medium size. The mouse and the squirrel are small. The earthworm and the cockroach are smaller still. Gnats and ants are very tiny, indeed!
+A squirrel is a small animal. It climbs up a tree quickly and runs along its branch.  
+An elephant's body is bulky. Its legs are heavy. So it cannot run at great speed.  
+A deer has thin legs, so it can run very fast. A frog's hind legs are long. So it can easily hop, jump, and leap.  
+Birds have only two legs. They have two wings to fly with. Their body is covered with feathers. Different birds have different flying ability. An eagle can soar high into the sky and stay in the air for a long time. But a hen does not fly high, and comes down soon.`
+      }
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word',
+      label: 'Find the Animal',
+      data: {
+        title: 'Find the animal based on the hint.',
+        text: `My legs are thin, so I can run fast. | DEER | ____
+I am huge and I cannot run fast. | ELEPHANT | E_______
+I am a bird of many colours. | PEACOCK | P______
+We are tiny animals and we move in a line.| ANTS | A__S
+My hind legs are long. So I can easily hop. | FROG | ____
+I can fly too high for a long time. | EAGLE | E____
+I make cobwebs in your house. | SPIDER | S_____`
+      }
+    },
+    {
+      label: 'Not a bird! - notes',
+      type: 'passage',
+      id: 'notes-insect',
+      data: {
+        title: 'Not a bird!',
+        text: `Butterflies have wings and they can fly. Still we don't call them birds. They are insects. They are smaller than birds and they have six legs. 
+Animals which have six legs are called insects. So, butterflies are insects.
+Mosquitoes, houseflies and cockroaches are insects, too.
+Bats have wings but they don't have feathers on their body. Bats give birth to young ones. Young ones feed on their mother's milk.
+Bats are not birds like the crow, sparrow etc. They are included in the group of the cow, deer, mouse etc.
+We have seen that animals around us can be grouped in different ways. We formed these groups using our everyday observations. However, when scientists classify animals, they look at more important characteristics.`
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `Butterflies have six legs.
+Bats are not birds.`
+          },
+          {
+            name: 'False',
+            text: `Butterflies are not insects.
+Bats have feathers.
+Cows are always black or white in color.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the Right Answer',
+      id: 'mcq-types',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText: 'Who classify animals?',
+            options: 'Scientists, Teachers, Doctors'
+          },
+          {
+            qText:
+              'Which of the following animal is not used to carry weights?',
+            options: 'dog, bullock, horse, donkey'
+          },
+          {
+            qText: 'All insects have _____.',
+            options: '6 legs, 4 legs, 8 legs'
+          },
+          {
+            qText: 'Which animal can live both in land and water?',
+            options: 'Crocodile, Cockroach, Butterfly, Bat'
+          },
+          {
+            qText: 'Which is the biggest animal?',
+            options: 'Whale, Elephant, Giraffe, Shark'
+          }
+        ]
+      }
+    },
+    {
       label: 'Animal Shelters - Reading',
       type: 'passage',
       id: 'reading',
       data: {
         title: 'Animal Shelters',
-        text: `Why do we need houses?
-1. We live in houses to protect ourselves from very cold weather, gusty winds, scorching sun, heavy rains as they can cause us great discomfort.
-2. A house also protects us from thefts.
-3. It protects the people living close to the forests from wild animals.
-Do you know, like us animals also need shelters to protect themselves? Some animals build a shelter for themselves while others find them ready in the surroundings.
-# Animals who build shelters for themselves
+        text: `House is a safe place where one is protected from any danger. A place where one is protected from the sun, rain, wind, etc. A house also protects us from thefts.
+Do you know, like us, animals also need shelters to protect themselves? Some animals build a shelter for themselves while others find them ready in the surroundings.
+# Build House
 Birds build nests as they are afraid of the animals that eat eggs. Nests protect the young birds as they are too weak to protect themselves. Nests are made up of grass, straw, and twigs. They may even contain cotton, wool, and pieces of thread and string.
-# Animals that found ready shelters in the surroundings
+Some birds don't make nests. Instead they make holes and make it their house. Eg: Parrot, Woodpecker.
+# Tailor Bird
+It is smaller than a sparrow. It selects a plant with bigger leaves and builds its nest by stitching the leaves together. It uses a fine tendril to stitch them together. This little nest is big enough for the little tailor bird.
+# Honeycomb
+Some insects also build their own shelters. For eg, honey bees build their honeycombs on trees or under the roof of an overhanging cliff.
+# Rats
+Rats and mice live underground in fields. They dig into the soil and make holes and burrows to live in.
+# Find House
 Some animals do not make any efforts to build a shelter. They simply look around for a safe place. Some live in small hollows on high cliffs or live near our houses. They find shelter in gaps in walls.
 # Fun Fact
-It is believed that a cobra lives in an anthill. But anthills are built by ants, not by a cobra. The cobras live in holes.`
+It is believed that a cobra lives in an anthill. But anthills are built by ants, not by a cobra. The cobras live in holes.
+For domestic animals, we build their shelters. `
       }
     },
     {
-      label: 'Build shelter themselves Vs find ready-shelters',
+      label: 'Build House vs Find House',
       id: 'classify',
       type: 'group',
       data: {
-        title: 'Classify the below animals based on building habits',
+        title: 'Classify the below animals based on their shelter.',
         types: [
           {
-            name: 'Build shelter themselves',
-            text: 'Birds, Honey bees, Rats, Mice'
+            name: 'Build House',
+            text: 'Crow, Honey bees, Rats, Mice, Ants, Spider'
           },
           {
-            name: 'Find ready shelters',
+            name: 'Find House',
             text: 'Doves, Tiger, Bats, Cobra'
           }
         ]
       }
     },
     {
-      label: 'Domestic Animals Vs Wild Animals',
-      id: 'classify-2',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below animals on the basis of their domestic nature',
-        types: [
-          {
-            name: 'Domestic',
-            text: 'Cow, Horse, Hens, Cat'
-          },
-          {
-            name: 'Wild',
-            text: 'Lion, Hyena, Leopard, Bat'
-          }
-        ]
-      }
-    },
-    {
       id: 'match',
-      label: 'Animals & their shelters - Match the following',
+      label: 'Match the following',
       type: 'match',
-      data: {
-        text: `Bird, Nest
+      data: [
+        `House, Shelter
+Coop, Bird
+Stable, Horse
+Shed, Cow
+Parrot, Tree holes`,
+
+        `Bird, Nest
 Honey Bee, Honeycomb
 Rat, Hole
 Leopard, Cave
-Bat, Dark Cavern
-Lion, Den`,
-        title: 'Match the shelter name'
-      }
+Bat, Old Building
+Lion, Den`
+      ]
     },
     {
-      label: 'Drag and Drop - Animals Shelters',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'drag-drop',
+      id: 'drag-drop-shelter',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Birds* use grass, straw, twigs and even cotton and wool, to build their *nests*.
-Weaverbird uses *thorny* trees to build their nest.
 Tailorbird selects a plant with *big* leaves and builds its nest by *stitching* the leaves together.
 Tigers and hyenas live in *caves*.
-*Bats* live in tall trees or look for shelter in old, deserted, tumble-down buildings.`
-      }
-    },
-    {
-      id: 'fillup',
-      label: 'Animal Shelter - Fill Up',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `A cat lies outside a hole to catch *rat (rabbit)*.
-A cow lives in *shed (den)*.
-The shelter for hens is called *chicken coop (nest)*.
-A stable is built for a *horse (dog)*.
-A cobra lives in *hole (anthill)*.`
-      }
-    },
-    {
-      label: 'Animal Shelters - True or False',
-      id: 'tru-false',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'True',
-            text: `The young birds are too weak to defend themselves and the nest keeps the young ones safe.
-Animals that eat eggs find it difficult to reach the nest.
-Rats and mice dig into the soil and make holes and burrows to live in.`
-          },
-          {
-            name: 'False',
-            text: `Anthills are built by cobras as their shelters.
-Doves and pigeons make their shelters and live in caves.
-Bats like to build their shelters in densely populated areas.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Choose the best Answer - Animal Shelter',
-      id: 'mcq',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: ' Birds build their nests to ___________.',
-            options:
-              'Protect their eggs from other animals, Protect young birds as they are too weak to defend themselves, Have a safe place for laying their eggs, * All'
-          },
-          {
-            qText: 'Rats and Mice mostly build their shelters in ___________',
-            options: 'Muddy houses, Cemented houses, Forests, Stable'
-          },
-          {
-            qText: 'Which of the following lives in Caves?',
-            options: 'Hyenas, Doves, Rabbit, Cow'
-          },
-          {
-            qText: 'Which of the following is not the use of a house?',
-            options:
-              'Store wild animals, Protect from the scorching sun, Avoid heavy rains, Be away from gusty winds'
-          },
-          {
-            qText: 'Which of the following does not live in a stable?',
-            options: 'Tiger, Cow, Horse, Donkey'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Animals & their habits - Reading',
-      type: 'passage',
-      id: 'reading-2',
-      data: {
-        title: 'Animals & their habits',
-        text: `Animal life can be broadly understood on the basis of the following:
-1. Habitat of animals
-2. Undestanding the food procurement by animals
-3. Identifying the eating habits of the animals
-4. Knowing the mouthparts of the birds and insects
-5. By realising the importance of food chain and food web in the environment.
-# Animals in different environment
-The living place of an animal or a plant is called habitat. The basic needs such as food, water, shelter and place to breed are found in a habitat. Animals that live on land are called terrestrial animals. E.g., Ants, Cats and Lion. While, Animals that live in water are called aquatic animals. E.g., Fish, Dolphin and Crab.
-# How do animals get their foods?
-Animals cannot make their own food. They depend on plants or other plant-eating animals for their food. Some animals can even consume both plants and animals.
-# Identification on the basis of eating habits
-Animals that eat only plants are called herbivorous animals or herbivores (Plant eaters). Flesh eating animals are called carnivorous animals or carnivores. Some animals eat both plants and the flesh of other animals. These animals are called omnivorous animals or omnivores.
-# Mouthparts of animals
-Mouth parts are different parts of the mouth that are adapted based on the nature of food that the animal eats. It is difficult to identify them sometimes.
-# Food chain and food web
-A food chain gives us information on how living things are related with one another by the food they eat. For example, grass is eaten by deer. The deer is eaten by the tiger.
-A Food web is an interconnection of multiple food chains. Transfer of energy between organisms of different energy sources occurs through food web.`
-      }
-    },
-    {
-      label: 'Wings Vs No-Wings',
-      id: 'classify-3',
-      type: 'group',
-      data: {
-        title: 'Classify the below animals based on wings',
-        types: [
-          {
-            name: 'Wings',
-            text: 'Sparrow, Dragonfly, Parrot, Penguin, Butterfly, Bat'
-          },
-          {
-            name: 'No-Wings',
-            text: 'Snail, Tortoise, Fish, Tiger'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Terrestrial Vs Aquatic',
-      id: 'classify-4',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below animals on whether they live on land or water.',
-        types: [
-          {
-            name: 'Terrestrial',
-            text: 'Bison, Tiger, Horse, Cow, Fox, Bear, Deer, Tortoise'
-          },
-          {
-            name: 'Aquatic',
-            text: 'Fish, Octopus, Seahorse, Jellyfish, Starfish, Mussel'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Herbivore Vs Carnivore Vs Omnivore',
-      id: 'classify-5',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below animals on the basis of their eating habits.',
-        types: [
-          {
-            name: 'Herbivore',
-            text: 'Cow, Buffalo, Goat, Elephant, Zebra'
-          },
-          {
-            name: 'Carnivore',
-            text: 'Lion, Leopard, Cheetah, Seal, Crocodile'
-          },
-          {
-            name: 'Omnivore',
-            text: 'Human, Bear, Hen, Fox, Crow'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Plain Vs Forest',
-      id: 'classify-6',
-      type: 'group',
-      data: {
-        title: 'Classify the below animals on the basis of their habitat.',
-        types: [
-          {
-            name: 'Plain',
-            text: 'cow, camel, hen, goat, sheep'
-          },
-          {
-            name: 'Forest',
-            text: 'fox, bear, bison, deer'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Freshwater Vs Marine',
-      id: 'classify-7',
-      type: 'group',
-      data: {
-        title: 'Classify the below animals on the basis of their habitat.',
-        types: [
-          {
-            name: 'Freshwater',
-            text: 'mussel, fish, crab'
-          },
-          {
-            name: 'Marine',
-            text: 'seahorse, jellyfish, starfish, shark'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Arboreal Vs Aerial Vs Amphibian',
-      id: 'classify-8',
-      type: 'group',
-      data: {
-        title: 'Classify the below animals on the basis of their habitat.',
-        types: [
-          {
-            name: 'Arboreal',
-            text: 'monkey, squirrel'
-          },
-          {
-            name: 'Aerial',
-            text: 'crow, dove, parrot'
-          },
-          {
-            name: 'Amphibian',
-            text: 'toad, frog'
-          }
-        ]
-      }
-    },
-    {
-      id: 'match-2',
-      label: 'Match the animals with their living places',
-      type: 'match',
-      data: {
-        text: `Tiger, Forest
-Polar Bear, Polar region
-Whale, Salt water
-Camel, Desert
-Frogs, Fresh water`,
-        title: 'Match the animals with their living places'
-      }
-    },
-    {
-      id: 'match-3',
-      label: 'Animals and Foods',
-      type: 'match',
-      data: {
-        text: `Honey Bee, honey
-Leopard, flesh
-Hen, grain
-Spider, insect
-Goat, plant`,
-        title: 'Match the animals with the food they eat.'
-      }
-    },
-    {
-      label: 'Drag and Drop - Animals & their Shelters',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-3',
-      data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `A lion lives in a *den*.
-Birds live and lay their eggs in the *nest*.
-An *earthworm* is found in soil.
-We can find a number if fishes in a *pond*.
-Spider like to weave a *web* and honeybee likes to live in a *honeycomb*.`
-      }
-    },
-    {
-      label: 'Who am I?',
-      type: 'completeWord',
-      id: 'drag-drop-4',
-      data: {
-        text: `I have 8 arms and I live in the sea. Who am I ?|OCTOPUS| O__O__S
-I am a bird but I cannot fly. I can swim very well. Who am I?|PENGUIN|P__G__N
-I am the largest animal in the sea. Who am I?|WHALE| W__L_
-I do not have any legs. I like to crawl. Who am I?|SNAKE| S__K_
-I have wings but I am not a bird. Who am I?|BUTTERFLY|B_T___F__`
-      }
-    },
-    {
-      label: 'Birds and Beaks',
-      type: 'completeWord',
-      id: 'drag-drop-5',
-      data: {
-        text: `It has strong, sharp, curved beak to catch prey and tear its flesh.|EAGLE|E__L_
-Fish-eating birds have spear-like beaks designed for stabbing fish.|KINGFISHER|K_NG____E_
-The hooked, sharp beak helps to collect and eat the grains.|PARROT|P__R__
-Strong chisel beak is used to make hole in the trees and catch small insects.|WOODPECKER| W__D___K__
-Short, conical beak which helps to crack open the shells and extract the inner nut or seed.|SPARROW|S__R__W
-Flat beak that helps to grip plant and insect from water.|DOVE | D___`
-      }
-    },
-    {
-      id: 'fillup-2',
-      label: 'Animal Shelter - Fill Up-2',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Animals that live on trees are known as *arboreal (aerial)* animals.
-*Dove (Monkey)* is an example of aerial animal.
-*Toad (fish)* lives on both land and water.
-Crow flies in the sky, so it is an *aerial (arboreal)* animal.
-Squirrel and monkey are the examples of *arboreal (aquatic)* animals.`
-      }
-    },
-    {
-      label: 'Who am I?',
-      type: 'completeWord',
-      id: 'drag-drop-animals',
-      data: {
-        text: `I am the king of the forest. I eat animals like deer, zebra and giraffe. Who am I?|LION| L___
-I suck blood from animals. But males of my family feed on plant juices. Who am I?|FEMALE MOSQUITO| F___L_ M__QU___
-I eat cereals, small insects, earthworms etc. I live on land. Who am I?|HEN| _E_
-I eat small insects that fall in my web. Who am I?|SPIDER| S__D__`
-      }
-    },
-    {
-      label: 'Steps in Sexual Reproduction',
-      type: 'sorting',
-      id: 'sorting',
-      commonData: {
-        title: 'Arrange in correct order',
-        multiple: true,
-        fontSize: '2rem'
-      },
-      data: [
-        `Pre-fertilization, Fertilization, Post-fertilization, Embryo formation`
-      ]
-    },
-    {
-      label: 'Animal Food Habit - True or False',
-      id: 'true-false-3',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'True',
-            text: `Flesh eating animals are called carnivorous animals or carnivores.
-Herbivores have sharp, straight edged, flat front teeth called incisors.
-Animals that hunt other animals are called predators.`
-          },
-          {
-            name: 'False',
-            text: `The mosquitoes do not have a needle like structure to suck blood.
-Animals that need both land and water to live are called aquatic animals.
-Animals can make their own food.`
-          }
-        ]
-      }
-    },
-    {
-      id: 'word-connect',
-      type: 'sequence',
-      label: 'Words related to Animal world',
-      commonData: {
-        title: 'connect the letter to create word'
-      },
-      data: [
-        `NECTAR , DOVE , INCISORS , CANINES , PREY`,
-        `SPORE, ZYGOTE, LARVA, EMBRYO, HYDRA`
-      ]
-    },
-    {
-      label: 'Choose the best Answer - Animal food habit',
-      id: 'mcq-2',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: ' Bear, man, crow and hen are examples of ___________.',
-            options: 'Omnivores, Herbivores, Carnivores, Amphibians'
-          },
-          {
-            qText:
-              'The butterfly has a tube like structure called _________ to suck nectar from flowers.',
-            options: 'proboscis, Canines, Incisors, None of the above'
-          },
-          {
-            qText:
-              'A __________ usually starts with plants and ends with carnivores or omnivores.',
-            options: 'food chain, Food Web, connection, hunt'
-          },
-          {
-            qText: 'Which of the animals given below suck their food?',
-            options: 'Butterfly, bear, leopard, frog'
-          },
-          {
-            qText: 'Which of the following us an example of carnivore?',
-            options: 'Tiger, cow, horse, buffalo'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Food chain - Right order',
-      type: 'sorting',
-      id: 'sorting-2',
-      commonData: {
-        title: 'Arrange in right order as a food chain',
-        multiple: true,
-        fontSize: '2rem'
-      },
-      data: [
-        `Leaves, Caterpillar, Hen, Hawk`,
-        `Grass, Grasshopper, rat, owl`,
-        `Flower, Flies, Frog, Snake, Eagle`,
-        `Carrot, Rabbit, Fox, Lion`,
-        `Tree, Deer, Lion`
-      ]
-    },
-    {
-      label: 'Body structure of animals  - Reading',
-      type: 'passage',
-      id: 'passage',
-      data: {
-        title: 'Body structure of animals ',
-        text: `# Body structure of reptiles 
-Reptiles have scales instead of hair or feathers. Reptiles are considered to be ancestors of birds and mammals. Dinosaurs are well known reptiles that became extinct. Reptiles include snakes, lizards, turtles, alligators and crocodiles. Snakes are reptiles that are without limbs. Reptiles shed and replace their scales throughout their lifetime.
-# Body structure of insects
-The common insects we see around us are bees, houseflies, mosquitoes and beetles. All insects have three main parts in their body which are called head, thorax and abdomen.
-The head contains two eyes, mouth and two hairy parts that are called antennae. The thorax is the part of the body that bears wings and legs. The abdomen is the part of the body that consists of the heart and stomach.
-# Body structure of fish
-There are many different kinds of fish but all of them have some things in common. They breathe through organs called gills. They have fins in place of arms and legs. They are often covered by scales. The shape of their body helps them swim freely.
-# Body structure of birds
-All birds have wings but not all of them can fly. All birds also have feathers, Birds are the only living animals that have feathers. Birds are able to fly because of their body structure and feathers. Flying birds are strong but light. Their powerful chest muscles help them flap their wings. Their bodies are narrow towards the ends. Every bird has two legs, two feet and a bill or beak.
-# Feathers
-Feathers protect birds from water, heat and cold. At least once a year, birds shed their old feathers and grow new ones. This is called molting. Birds mainly have three types of feathers. The flight feathers help them to fly and are found on the wings and tail. The body feathers are usually coloured and they cover the entire body. The down feathers are soft, fluffy and always seen close to the body of a bird. It keeps them warm.
-# Feet and Claws
-All birds have two feet and four toes. They help the bird to walk, wade through water and catch food. The woodpecker has two toes in the front and two at the back. Their claws are long and curved. This helps them to climb up trees. Duck has three toes that are webbed and a little toe at the back. These help them to swim. The vulture has four toes with very sharp claws. These help them to catch prey. The sparrow has three toes in the front and one at the back so that they can hold on to the branches tightly. Cranes have long legs and four toes that are spread wide so that they can walk near banks of rivers and lakes to eat fish.
-# Nesting Habits
-Birds bulid nests to lay eggs and protect their babies. They use grass, straw, twigs and leaves to build their nests. Tailorbird uses its beak to stitch leaves to build the nest. Different birds build different kinds of nest in trees, but there are some birds like a peacock or a duck who build their nests on the ground.`
-      }
-    },
-    {
-      id: 'match-4',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Snake, limbless
-Gills, fish
-Antennae, insects
-Feathers, birds
-Dinosaur, extinct`,
-        title: 'Match the following'
-      }
-    },
-    {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'fillup-4',
-      data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `Reptiles have *scales* instead of hair or feathers.
-All insects have three main parts in their body which are called head, *thorax* and abdomen.
-All birds have *wings* but not all of them can fly.
-Feathers *protect* birds from water, heat and cold.`
-      }
-    },
-    {
-      label: 'Who am I?',
-      type: 'completeWord',
-      id: 'drag-drop-birds',
-      data: {
-        text: `I have 2 toes in front and 2 at the back. My claws are long and curved. Who am I?|WOODPECKER|W__D__C___
-I have webbed feet with a little toe at the back. Who am I?|DUCK|D___
-I have 4 toes with very sharp claws to catch prey. Who am I?|VULTURE|V__T__E
-I have 3 toes in front and one at back to hold on to the branches. Who am I?|SPARROW|S__R__w`
-      }
-    },
-    {
-      id: 'fillup-6',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Tailorbird uses its *beak (claws)* to stitch leaves to build the nest.
-Birds mainly have *three (four)* types of feathers
-Reptiles are considered to be ancestors of *birds (insects)* and mammals.
-All birds have two feet and *four (six)* toes.`
+*Bats* live in tall trees or in old, deserted buildings.`
       }
     },
     {
       label: 'True or False',
-      id: 'true-false-5',
+      id: 'true-false-shelter',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
         types: [
           {
             name: 'True',
-            text: `Reptiles have scales instead of hair.
-Birds are strong but light.`
+            text: `Every human being needs a house.
+A house protects us from theives.
+Honey bees build their own shelter.`
           },
           {
             name: 'False',
-            text: `Sparrow uses beak to stitch its nest.
-Crane has webbed feet.
-Fish breathes through lungs.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Choose the best Answer - Animal food habit',
-      id: 'mcq-4',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: `How many parts are there in an insect's body?`,
-            options: '3, 4, 5'
-          },
-          {
-            qText: 'What do fishes have in place of arms and legs?',
-            options: 'fins, scales, gills'
-          },
-          {
-            qText: `Which part of the insect's body bears wings?`,
-            options: 'thorax, head, abdomen'
-          },
-          {
-            qText:
-              'What is the process through which birds shed their feathers and grow new ones called?',
-            options: 'molting, malting, melting'
+            text: `Anthills are built by snakes as their shelters.
+Doves and pigeons make their shelters and live in caves.
+Bats build nests in old buildings.`
           }
         ]
       }

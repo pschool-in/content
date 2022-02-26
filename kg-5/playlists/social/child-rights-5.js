@@ -89,12 +89,6 @@ Self-confidence`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Honesty* is the best policy.
 The best relationship is *friendship*.
 We show *hospitality* to our guests.
@@ -147,12 +141,6 @@ Harmony, India`
       type: 'fillup',
       id: 'fillup2 ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Wake up *early (late)* in the morning
 Brush your *teeth (hair)*.
 Wear *clean (dirty)* clothes.
@@ -265,12 +253,6 @@ Numeracy is the first step towards making one educated.`
       type: 'matchByDragDrop',
       id: 'drag-drop2 ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Education* is very important for every individual.
 Every child has the *right* to have free and compulsory education.
 Education should be *affordable* to common people.
@@ -326,12 +308,6 @@ Samagra Shiksha, 2018 `
       type: 'matchByDragDrop',
       id: 'drag-drop3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `I am white when I am dirty and black when I am clean. Who am I? - *blackboard*
 I am tall when I am young and I am short when I am old. Who am I? - *pencil*
 I am wet when I am drying. Who am I? - *towel*

@@ -63,12 +63,7 @@ Arms help us to run.`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Ears* help us to hear different sounds.
 *Nose* helps us to smell.
 *Mouth* helps us to eat food.

@@ -86,12 +86,6 @@ Jammu & Kashmir, Kashmiri`,
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `People in Mizoram speak *Mizo*.
 People in Tamil Nadu speak *Tamil*.
 People in Odisha speak *Odia*.

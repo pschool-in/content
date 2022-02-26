@@ -10,6 +10,7 @@ export default {
       label: 'Telugu Common Vowels',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         lineType: 3,
         source: [
           {
@@ -154,6 +155,7 @@ export default {
       label: 'Telugu Common Consonents',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         lineType: 3,
         source: [
           {

@@ -94,14 +94,6 @@ She denied *having* an ice cream at night.`
       label: 'Fill up',
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks by moving the words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `*Developing* good habits take lot of time.
 *Reading* motivational stories keep Amit busy in the afternoon.

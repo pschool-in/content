@@ -212,14 +212,6 @@ Has he submitted the assignment?`
       type: 'matchByDragDrop',
       id: 'fill-up',
       lockAfter: 1,
-      commonData: {
-        isPractice: false,
-        title: 'Drag and drop the sentence types at right places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `What an amazing experience! *Exclamatory*
 Give me my notebook back. *Imperative*

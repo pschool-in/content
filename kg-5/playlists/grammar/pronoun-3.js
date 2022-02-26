@@ -46,12 +46,8 @@ This cat is <b>ours</b>.`
       type: 'matchByDragDrop',
       id: 'drag-and-drop-1',
       commonData: {
-        isPractice: false,
         title: 'Choose the right possessive pronoun.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `I have a new crayon box. It is *mine*.

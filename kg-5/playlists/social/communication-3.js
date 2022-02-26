@@ -56,12 +56,6 @@ radio, mass`,
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Communication has become more *easier* and faster.
 Communication can be divided into *personal* communication and mass communication.
 Urgent letters can be sent by *speed post*.
@@ -100,12 +94,6 @@ Urgent letters can be sent by *speed post*.
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The fastest means of communication - *telephone*
 We need it for instant sharing of pictures and videos - *internet*
 Save paper by using - *e-books*

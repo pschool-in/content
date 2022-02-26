@@ -98,8 +98,6 @@ mountain, land`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -158,7 +156,7 @@ Body size of all the animals vary. For example elephants and giraffes are big si
 # Different Colors
 Different animals, birds, and insects will have different color patterns in their body. For example, peacock has colorful feathers; five-colored parrot Brett; tiger is found in both orange and white; crows in black and pigeons in grey.
 # Different ways of the Birds
-Birds have two legs and two wings. Their body is covered with feathers. Most of the birds can fly. But some birds like penguin and ostrish cannot fly. For example, an eagle can fly higher than pigeons.
+Birds have two legs and two wings. Their body is covered with feathers. Most of the birds can fly. But some birds like penguin and ostrich cannot fly. For example, an eagle can fly higher than pigeons.
 # Different ways of the Animals
 Animals have four legs and each animals move in a different way. Some run very fast, some move very slowly. For example, cheetah is the fastest land animal and the tortoise is the slowest. Some reptiles move at normal speed and some very fast. Most of the reptiles crawl and have scales on their body. For example, snakes move much faster when compared to crocodiles on land. Moreover, some have short legs and some have no legs at all. For example, snakes don't have legs, and lizards have small legs.
 # Different ways of the Insects
@@ -237,8 +235,6 @@ Snake, Crawl`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
         styles: {
           fontSize: '1rem',
           dashWidth: 80
@@ -510,12 +506,6 @@ Fox – Fungi - Human`
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Amoeba is a *unicellular* organism.
 *Ecology* is the science that deals with the relationship between biotic factors and their physical environment.
 Plants prepare their own food and the process is called *photosynthesis*.

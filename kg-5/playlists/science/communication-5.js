@@ -90,12 +90,6 @@ Satellites are traditional means of communication.`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The exchange of information over significant distances by electronic means is called *telecommunication*
 The act of transferring information from one place, person, or group to another is called *communication*
 Artificial satellites for communication in India is *INSAT*
@@ -108,12 +102,6 @@ Means of communication that reach large numbers of people is called *mass media*
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `We get all sorts of information through television channels and the *internet*.
 Every communication involves at least one *sender*, a message and a recipient.
 *Mass media* help in the successful implementation of government schemes.

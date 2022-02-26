@@ -239,12 +239,6 @@ Junk food is good for health.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the preservative methods at appropriate places.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The process of mixing fruits and vegetables with oil and salt is called *pickling*.
 Keeping food in the fridge to preserve them for a short time is called *refrigerating*.
 Removing the water content of the food is called *drying*.
@@ -369,12 +363,6 @@ It is the turn of porters and truck-drivers to put in their labour. Transport co
       type: 'matchByDragDrop',
       id: 'fillup-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Singhadas and makhanas are obtained from *freshwater* plants.
 If a machine is not available, *bullocks* do the threshing.
 The tiny peaks on our tongue are called *taste buds*.
@@ -387,12 +375,6 @@ When the soil becomes *hot* and humid the crop is sown.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The process of gathering of ripened crop.  *Harvesting*
 To blow through grain in order to remove the outer covering. *Winnowing*
 Process of moving foodstuffs from warehouses to consumers through trucks. *Transporting*

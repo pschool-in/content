@@ -104,12 +104,6 @@ Soil is required to grow plants. Soil provides plants with water and minerals th
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `*Diamond* is the hardest rock.
 Rotten plants and animals are called *humus*.
 Potter uses *clayey* soil to make pots.
@@ -122,7 +116,7 @@ Potter uses *clayey* soil to make pots.
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `*Sandy (Clayey)*soil cannot hold much water.
+        text: `*Sandy (Clay)* soil cannot hold much water.
 The tiny grains that makeup rocks are called *minerals (sand)*.
 *Chalk (Granite)* is a soft rock that breaks easily.
 When rocks break up, *soil (minerals)* is formed.

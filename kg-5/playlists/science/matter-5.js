@@ -112,12 +112,6 @@ All solids sink in water.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Furniture is a *household* goods.
 All matters are made up of *molecules*.
 Molecules are made up of *atoms*.
@@ -218,12 +212,6 @@ Spinning, Combing, Ginning, Weaving `
       type: 'matchByDragDrop',
       id: 'drag-drop-fibres',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Cotton grows well in *black* soil. The process of separating seeds is called *ginning*. Short fibres and other impurities are removed by the process of *combing*. The process of making yarn is called *spinning*. Two sets of yarns are linked together through the process of *weaving*.`
       }
     },
@@ -531,12 +519,7 @@ Maize is commonly used as fodder for cattles.`
       type: 'matchByDragDrop',
       id: 'drag-drop-grains',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Grain is a small, hard, dry *seed* and they are protected by a *husk*. Two main types of commercial grain crops are cereals and *legumes*. 
 Some of the common wheat products are bread, *cake* and pasta.
 In many *tropical* countries, maize is the main food that people eat.`

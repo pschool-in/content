@@ -89,14 +89,6 @@ Sometimes, shadows are long and sometimes they are short. It depends on the posi
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `A *shadow* is formed when an object blocks the path of light.
 Transparent objects do not form shadows because light *pass* through them.

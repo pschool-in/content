@@ -94,12 +94,6 @@ Roger Federer, Tennis`,
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*PT Usha* is associated with Athletics.
 *PV Sindhu* is associated with Badminton sport. 
 *Abhinav Bindra* is associated with Shooting sport.

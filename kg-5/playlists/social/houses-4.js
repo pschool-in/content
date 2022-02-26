@@ -175,7 +175,7 @@ Apartments are widely seen in *urban (rural)* areas.
           },
           {
             qText: 'Stilt houses are found in ___________ ',
-            options: 'marshy region, dessert region, mountain region, plains'
+            options: 'marshy region, desert region, mountain region, plains'
           },
           {
             qText: '__________ help to build the Kutcha house.',

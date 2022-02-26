@@ -26,8 +26,7 @@ export default {
       type: 'dragAndDrop',
       label: 'Parts of Plant',
       data: {
-        type: 'plant',
-        isPractice: false
+        type: 'plant'
       },
       id: 'plant'
     },
@@ -135,12 +134,7 @@ Bird, Nest`
       label: 'The Five Senses',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop to complete the below sentences.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 50
-        },
+        dashWidth: 50,
         text: `We *smell* with our nose.
 We *see* with our eyes.
 We *hear* with our ears.
@@ -214,30 +208,7 @@ Iceland, Penguin`
           },
           {
             name: 'Night',
-            text: 'stargazing, sleeping, eating dinner'
-          }
-        ]
-      }
-    },
-    {
-      id: 'day-night',
-      label: 'Day or Night',
-      type: 'classifySentence',
-      data: {
-        title:
-          'Classify the activities based on the time of day they are done.',
-        types: [
-          {
-            name: 'Day',
-            text: `Having breakfast.
-Going to school.
-Reading.`
-          },
-          {
-            name: 'Night',
-            text: `Going to bed.
-Having dinner.
-Stargazing.`
+            text: 'star watching, sleeping, eating dinner'
           }
         ]
       }

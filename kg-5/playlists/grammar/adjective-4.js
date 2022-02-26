@@ -256,14 +256,6 @@ round, table`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks from the words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `The *naughty* boy was sent out of the music class by his teacher.
 Walking is a *healthy* exercise for everyone.
@@ -354,14 +346,9 @@ My grandparents live in a *brick* house.`
       type: 'selectWord',
       id: 'multi-select-word',
       commonData: {
-        isPractice: false,
         title: 'Identify the adjectives in the passage.',
         multiSelect: true,
-        isPassage: true,
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        isPassage: true
       },
       data: [
         `Trees are found everywhere. *Some* trees are *big* and some are *small*. *Some* trees have *broad* leaves while some have *narrow* leaves. *Some* trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,

@@ -52,12 +52,6 @@ Time is usually measured in seconds, minutes, hours, days, months and years. The
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `A minute contains *60* seconds.
 Thermometer is used to measure the *temperature*.
 If you measure how much water a glass can hold, then you are measuring its *volume*.
@@ -103,12 +97,7 @@ time, seconds`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Measurement of something from end to end - *length*
 Measurement of the quantity of matter an object contains - *mass*
 Measurement of space that an object occupies - *volume*

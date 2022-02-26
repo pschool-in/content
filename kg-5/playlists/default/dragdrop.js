@@ -349,7 +349,7 @@ const dragdrop = {
         width: 380,
         height: 276,
         wordWidth: 60,
-        fontSize: '1.2rem',
+        fontSize: '0.9rem',
         words: [
           {
             word: 'seat',

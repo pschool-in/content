@@ -234,14 +234,6 @@ Jeevana is the smartest girl in the class.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks using the right words.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `The lion is a *big* animal.
 A Rhinoceros is *bigger* than a lion.

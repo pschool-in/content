@@ -223,13 +223,8 @@ These bananas are *sweet (sour)*.`
       type: 'matchByDragDrop',
       id: 'fill-up-story',
       data: {
-        isPractice: false,
         title:
           'Complete the story by filling the blanks with suitable adjectives.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
         text: `Sita was a *young* girl. She lived in a *small* village in Karnataka. One day, on a *cloudy* morning, she went for a walk into the nearby fields. She was wearing a *white* frock and a red ribbon. After some time, she came across a hut. It was a small hut but was *warm* inside. Sita was feeling *tired*. So, she went inside the hut and slept on the cot. Soon a *loud* bang on the door woke her up!`
       }
     },
@@ -238,13 +233,8 @@ These bananas are *sweet (sour)*.`
       type: 'matchByDragDrop',
       id: 'fillup-opposites',
       commonData: {
-        isPractice: false,
         title:
-          'Fill in the blanks with the adjectives that are opposite in the meaning to those who are put in quotation marks.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+          'Fill in the blanks with the adjectives that are opposite in the meaning to those who are put in quotation marks.'
       },
       data: [
         `A rat is "small" but a dog is *big*.

@@ -44,12 +44,6 @@ not only, but also`
       type: 'matchByDragDrop',
       id: 'fill-up-story',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at the right blanks.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
         text: `Either dad *or* mom will come to pick me.
 I am *both* tired *and* hungry.
 I have no idea *whether* she will like the dress or not.

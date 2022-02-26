@@ -111,12 +111,6 @@ fixed shape, solid`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `*Mass* is a measure of how much matter is in an object.
 *Volume* is the space occupied by an object.
 *Liquid* has no fixed shape but has fixed volume.
@@ -149,12 +143,6 @@ Air filled ball goes down. It is because air has mass.`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `*Water* from ocean and rivers *evaporate* and form clouds.
 Clouds are in *gas* state. They get cooled by breeze and fall as *rain*.
 If we put water in *freezer*, it becomes *ice*.`
@@ -284,12 +272,6 @@ All solid matters can be used as a fuel.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Cars run on *petrol*.
 *LPG* is used for cooking.
 Oven uses *electrical* energy.
@@ -302,12 +284,6 @@ Substances that give lot of heat on burning is called *fuel*.
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Fuel gives *heat* energy on burning.
 An example for solid is *stone*.
 An example for liquid is *water*.

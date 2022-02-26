@@ -295,15 +295,6 @@ My grandfather was *the* village chief.
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `What's *the* capital of your country?
 I always have an *egg* for breakfast.

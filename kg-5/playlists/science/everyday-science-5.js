@@ -134,12 +134,6 @@ Freezing, reversible`,
       type: 'matchByDragDrop',
       id: 'fillup',
       data: {
-        isPractice: false,
-        title: 'Drag and drop to complete the below sentences.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
         text: `Most of the physical changes are *reversible* changes.
 Most of the chemical changes are *irreversible* changes.
 Wastes from house and apartments are called *household* wastes.

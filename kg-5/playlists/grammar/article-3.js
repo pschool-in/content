@@ -345,15 +345,6 @@ He is best player in the team.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `I saw *a* colorful kite hanging on our mango tree.
 Subrat is the *tallest* boy in the class.

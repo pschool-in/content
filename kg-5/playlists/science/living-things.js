@@ -75,12 +75,6 @@ They do not grow with time.`
       id: 'fillup-drag',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Living things need *air* to breathe.
 Living things need *water* to drink.
 Living things need *food* to eat and grow.

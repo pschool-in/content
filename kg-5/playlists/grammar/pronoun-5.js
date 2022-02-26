@@ -318,14 +318,6 @@ Which & Whose, Interrogative`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Fill in the blanks with words given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
       data: [
         `I *myself* did it.
 *Whose* purse is this?

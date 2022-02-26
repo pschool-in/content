@@ -29,7 +29,6 @@ import reading from '../playlists/default/reading.js';
 import sudoku from '../playlists/default/sudoku.js';
 import clock from '../playlists/default/clock.js';
 import games from '../playlists/default/games.js';
-import phonics from '../playlists/default/phonics.js';
 
 let mainMenu = {
   label: 'Showcase',
@@ -37,7 +36,6 @@ let mainMenu = {
   list: [
     fun,
     alphabets,
-    //phonics,
     reading,
     grammar,
     vocabulary,

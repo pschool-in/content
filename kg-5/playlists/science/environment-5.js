@@ -135,12 +135,6 @@ Sand, Lithosphere`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `For the existence of living things, it is important that *environmental balance* is maintained.
 Biosphere is also known as *the zone of life*.
 One *living thing* can be a part of a number of food chains.
@@ -259,12 +253,6 @@ Earthworms, Fertilizer`,
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The term Green Revolution is associated with *food grains*.
 The term Blue Revolution is associated with *fish*.
 The term Silver Revolution is associated with *eggs*.

@@ -24,8 +24,6 @@ export default {
       type: 'matchByDragDrop',
       id: 'digestion',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -43,8 +41,6 @@ The digestive *juices* in the stomach bring about some digestive processes.`
       type: 'matchByDragDrop',
       id: 'small-intestine',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -62,8 +58,6 @@ The remaining substances pass into the *large* intestine.`
       type: 'matchByDragDrop',
       id: 'large-intestine',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -79,8 +73,6 @@ Later, they are expelled from the body through the *anus*.`
       type: 'matchByDragDrop',
       id: 'ailmentry-canal',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -95,8 +87,6 @@ The *shape* of this tube is not the same in all its parts.`
       type: 'matchByDragDrop',
       id: 'respiration',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -114,8 +104,6 @@ When the diaphragm moves *upwards*,air in the lungs is pushed out.`
       type: 'matchByDragDrop',
       id: 'gases',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -130,8 +118,6 @@ When we *exhale*, the carbon dioxide is also given out with the air.`
       type: 'matchByDragDrop',
       id: 'nervous-system',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80

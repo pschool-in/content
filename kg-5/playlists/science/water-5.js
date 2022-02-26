@@ -118,12 +118,7 @@ Aedes mosquito breeds in stagnant water and it causes Dengue fever. Similarly, p
       label: 'Fill in the blanks - Water',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1rem',
         text: `The accumulated underground water comes out in the form of *springs*.
 The process of changing water into water vapour by the heat of the Sun is called *evaporation*.
 Rain water forms *streams* which join together to form rivers.
@@ -208,12 +203,6 @@ The government moves people from the affected areas to a safer place, temporaril
       type: 'matchByDragDrop',
       id: 'fillup-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Mineral* water is available in sealed bottles.
 *Sewage* water is polluted water.
 *Waste water* should be treated before merging with rivers.

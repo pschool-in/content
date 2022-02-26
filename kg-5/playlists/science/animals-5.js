@@ -1,298 +1,329 @@
 export default {
   id: 'animals-5',
-  label: 'Animals 5',
+  label: 'Adaptation in Animals',
   lockAfter: 4,
   list: [
     {
-      label: 'Conservation of Animals- Reading',
-      type: 'passage',
-      id: 'reading',
-      data: {
-        title: 'Conservation of Animals',
-        text: `Due to increasing exploitation of animals, it is important to understand reproduction in animals, extinction of animals and the ways to preserve them.
-# Reproduction in Animals
-Reproduction is the biological process by which an organism gives rise to a new organism. There are two types of reproduction in animals: sexual reproduction and asexual reproduction.              
-Sexual reproduction consists of the following stages:
-1. Pre-fertilization 
-2. Fertilization 
-3. Post-fertilization              
-Animals in which embryo develops outside the body are called oviparous animals, ex: Butterfly and Frogs. Animals in which the embryo develops inside the body are called viviparous animals. Humans, cows, deer and dogs are some examples.
-The type of reproduction in which only a single parent, gets divided into two new offspring, is known as asexual reproduction. There are four primary ways of asexual reproduction in animals: Fission, Budding, Fragmentation and Spore formation.
-# Conservation of Animals
-A National park is an area which is strictly reserved for the betterment of the wild life. The national parks cover an area of 100 – 500 square kilometers. In these areas, private ownership rights are not allowed.              
-A sanctuary is a protected area which is reserved for the conservation of animals only. Harvesting of timber, collection of forest products and private ownership rights are allowed here.`
-      }
-    },
-    {
-      label: 'Oviparous Vs Viviparous',
-      id: 'classify',
-      type: 'group',
-      data: {
-        title: 'Classify the below animals on whether they lay eggs or not',
-        types: [
-          {
-            name: 'Oviparous',
-            text: 'Duck, Frog, Sparrow, Butterfly, Eagle'
-          },
-          {
-            name: 'Viviparous',
-            text: 'Human, Deer, Lion, Tiger, Elephant'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Endangered Vs Not Endangered',
-      id: 'classify-2',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants',
-        types: [
-          {
-            name: 'Endangered',
-            text:
-              'Umbrella Tree, Malabar Lily, Rafflesia Flower, Indian Mallo, Musli Plant'
-          },
-          {
-            name: 'Not Endangered',
-            text: 'Lotus, Rose, Marigold, Jasmine, Water Lily'
-          }
-        ]
-      }
-    },
-    {
-      label: 'National Parks Vs Wildlife Sanctuaries',
-      id: 'classify-3',
-      type: 'group',
-      data: {
-        title: 'Classify as per National Parks Vs Wildlife Sanctuaries',
-        types: [
-          {
-            name: 'National Park',
-            text: 'Jim Corbett, Gir Forest, Kaziranga, Sundarban, Periyar'
-          },
-          {
-            name: 'Wildlife Santuary',
-            text: 'Kalakkad, Mudumalai, Mundanthrai, Anaimalai, Vedanthangal'
-          }
-        ]
-      }
-    },
-    {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Black, confirmed extinct
-Red, endangered species
-White, rare species
-Green, formerly endangered`,
-        title: 'Match the with appropriate choice'
-      }
-    },
-    {
-      label: 'Choose the best Answer - Animal Facts',
-      id: 'mcq',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText:
-              ' Which of the following location has Viralimalai Bird Sanctury?',
-            options: 'Trichi, Mumbai, Patna, Dehradun'
-          },
-          {
-            qText:
-              'Which of the following is not associated with asexual reproduction?',
-            options: 'Zygote, Fission, Budding, Fragmentation'
-          },
-          {
-            qText: '_____ is not a Viviparous animal.',
-            options: 'Crow, Tiger, Zebra, Cow'
-          },
-          {
-            qText: '______ is the first stage of butterfly formation.',
-            options: 'Egg, Zygote, Pupa, Larva'
-          },
-          {
-            qText: 'The fusion of gametes (sex cells) is known as _________.',
-            options: 'Fertilisation, Ovulation, Fission, Fragmentation'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Drag and Drop - Animals facts',
-      type: 'matchByDragDrop',
-      id: 'drag-drop',
-      data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `Reproduction in animals are of two types, *sexual* and asexual. 
-Pupa is also known as *Chrysalis*.
-*Fission* is the process of reproduction in flatworms.
-Budding takes place in animals like *Hydras* and corals.
-*Asiatic Lion* is an example of endangered animal.`
-      }
-    },
-    {
-      id: 'fillup',
-      label: 'Animal Facts - Fill Up',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Project Tiger was initiated in India in *1972 (1975)* to protect the Bengal Tiger.
-In the Red Data Book, *Red (Black)* color is used to denote endangered species.
-*Kaziranga (Gir)* national park is famous for one horned Rhino.
-*Blue Cross (Red Data Book)* of India was founded by Captain V. Sundaram of Chennai.
-*Amoeba (Sea Stars)* reproduces through Fission.`
-      }
-    },
-    {
-      label: 'Animal Facts ',
-      id: 'classify-sentence',
-      type: 'classifySentence',
-      data: {
-        title:
-          'Classify the below sentence as characteristics of oviparous or viviparous.',
-        types: [
-          {
-            name: 'Oviparous',
-            text: `The development of the embryo takes place outside the animal.
-They produce their young ones by laying eggs.
-The embryo receives the nutrients from the egg yolk. `
-          },
-          {
-            name: 'Viviparous',
-            text: `The development of the embryo takes place inside the animal.
-They directly give birth to the young ones.
-The embryo receives the nutrients from the mother.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Animal Facts - True or False',
-      id: 'true-false',
-      type: 'classifySentence',
-      data: {
-        title: 'Classify the below sentences as true and false',
-        types: [
-          {
-            name: 'True',
-            text: `The third stage of butterfly growth is pupa.
-Dogs are an example of Vivparous animals.
-Endangered species have population less than 50 or less than 250 for the past three years.`
-          },
-          {
-            name: 'False',
-            text: `Rafflesia Flower is not an endangered species.
-Sea Anemone reproduces through budding process.
-UNESCO has declared Gir National Park as a World Heritage Site.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Animal Senses - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'notes',
       data: {
-        title: 'Animal Senses',
-        text: `# Animal Senses
-We know that human beings have five senses. All animals have similar senses too but most of them have a particular sense that is well developed to match their specific survival needs. Moles, that live in the underground where it is dark have little use for good eyesight. They rely on a well developed sense of touch to find food. A spider relies on its eyesight to catch prey. Shark relies on its superior sense of smell to follow the scent of a fish. It can detect even a small amount of blood in a large volume of water.
-# Hearing 
-A humpback whale communicates with beeps and calls that sound like a song. Other whales can hear the songs miles away. Male humpbacks repeat long songs that probably attract females and warn other males to keep away. Bats and whales find their way around by listening for echoes that bounce off objects. Birds have an acute sense of hearing too. Their ears are small openings in the skull protected by feathers. Birds are able to hear much sharper sounds than humans can. Ants do not have organs of hearing, but they have sensors on their feet and knees to pick up vibrations passing through leaves or the ground. Snakes do not have external ears but their inner ear is well developed . They can hear only low frequency sound or vibrations which travel through the bones to their inner ear.
-# Taste
-Butterflies, bees and houseflies taste with their feet. Before laying eggs on a plant, a butterfly walks on the leaf to make sure it is edible for the caterpillar. A fly can feel with its mouth parts, its antennae and its feet. A male moth's feathery antennae can detect special floating chemicals given off by the female moth even if she is two or three kilometers away. A shark has a group of taste buds all around the inside of its mouth and also on the front of its snout. A snake's tongue has no taste buds. The forked tongue is able to collect smells from two places at once and the stronger smell gives the snake a sense of direction. Smells and tastes are then separated in two pits, called the Jacobson's organs on the roof of the mouth. Ants also have a well developed sense of taste and can distinguish sour, sweet, bitter and salty taste.
-# Smell
-Dogs have an excellent sense of smell. A bloodhound's ability to smell helps people to track escaped prisoners or lost children. Bloodhounds can  follow a scent that is nearly four days old. The membrane that detects odours is much bigger and much more sensitive in a bloodhound's nose than in a human nose. A male silkworm moth can sniff out a possible mate 11kms away but can not smell anything else. Eel use their sense of smell to hunt rather than sight. The ant's most highly developed sense is that of smell, which helps it to recognise its nest mates, follow trails laid down by its nest mates and find food. Most birds have a poor sense of smell and taste.
-# Touch 
-Nocturnal animals tend to have a well developed sense of touch. This sense gives animals information about their surroundings. Animals also use the sense of touch to communicate and find food. Touch receptors are seen in the whiskers of cats. A whisker helps the cat to find its way in the dark. Mice have long whiskers that can sense an enemy approaching. A bird's tongue, palate and bill are most sensitive to the sense of touch. These structures contain nerve endings that respond to touch by sending a signal to the brain.
-# Sight
-Birds have a keen sense of sight. Their eyes are large and produce large, sharp images especially helpful during flight. Birds of prey have the best distance vision in the animal kingdom. A bald eagle can spot a mouse in a field from high up in the sky. An eagle's eyesight is four to eight times sharper than that of a person with perfect vision. Nocturnal creatures have the best night vision. They include cats, mice, bats, owls and moths. They have larger eyes than animals that are active during the day. Their large eyes pick up the faintest light. Most bony fish have good eyesight and can see in colour. Some birds like duck and heron have a transparent membrane that covers the eyes when they dive underwater. This allows them to see underwater. Most insects have compound eyes, it helps them to see in all directions at once. Snakes appear to have a fixed stare because their eyes have no lids, instead a transparent protective membrane covers the eye. Snakes do not have very good eyesight but make up for it with an excellent sense of hearing and smell.`
+        title: 'Adaptation in Animals',
+        text: `Adaptation is the most essential factor of all living beings. The changes in an animal's behaviour to adjust with its habitat is called adaptation. If an organism fails to adapt to the particular environment, its survival is difficult.
+All animals have special body parts to live in a particular place at a particular time. 
+For example, giraffes have developed very long necks because of their environmental demands. Tigers and Zebras have lines so they can hide themselves. Camels have broad feet to walk in the desert. Fish have gills to breathe in the water and fins to swim.
+There are three basic types of adaptations seen in animals. They are,
+# Structural adaptations
+Changes in the physical features of the animal are called structural adaptations. For example, polar bears living in cold climate have physical adaptations, such as thick fur and short ears to reduce heat loss.
+# Physiological adaptations
+Changes in the functions of the animal's body are called physiological adaptations. E.g. Dog shivers to generate more heat when it is cold and pants when it is hot.
+# Behavioural adaptations
+Changes in the activities of the animal are behavioural adaptations. Birds migrate to avoid adverse conditions.
+Porcupines have thorns on their body to fight against their enemies. Alligators have sensitive skin which can feel even small vibrations in water.`
       }
     },
     {
-      id: 'match-2',
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-adapt',
+      data: [
+        `Thick fur in polar bears is a *structural* adaptation.
+        Dogs panting is a *physiological* adaptation.
+        Birds migrating is a *behavioural* adaptation.
+        Fish have *gills* to breathe in the water and *fins* to swim.`,
+
+        `*Camels* have broad feet.
+        *Porcupines* have thorns on their body.
+        *Alligators* have sensitive skin.
+        *Birds* move from one place to another to avoid unfavourable climate.
+        *Zebras* have stripes on their body.`
+      ]
+    },
+    {
+      id: 'match-adaptation',
       label: 'Match the following',
       type: 'match',
       data: {
-        text: `shark, taste
-birds, sight
-bat, echoes
-dog, smell
-mice, touch`,
-        title: 'Match with appropriate choice'
-      }
-    },
-    {
-      label: 'Choose the best Answer - Animal Senses',
-      id: 'mcq-2',
-      type: 'mcq',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: ' How do bats find their way?',
-            options: 'echoes, music, sounds of animals'
-          },
-          {
-            qText: 'Where are the taste buds of butterflies located?',
-            options: 'feet, tongue, wings'
-          },
-          {
-            qText: `Which type of sense is present on a cat's whisker?`,
-            options: 'touch, smell, sight'
-          },
-          {
-            qText: 'What helps the snakes to stare?',
-            options: 'transparent membrane, lids, lashes'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'fillup-2',
-      data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `The animals that are active at night are called *nocturnal* animals.
-Shark has taste buds in its mouth as well as on its *snout*.
-Ants multi sensory organs are called *antennae*.
-Humpback whale communicates with *beeps* and calls that sound like a song.`
+        text: `Thorns, Porcupines
+        Alligators, Sensitive skin
+        Polar Bear, Short ears
+        Giraffe, long neck
+        Camels, broad feet`
       }
     },
     {
       label: 'True or False',
-      id: 'true-false-2',
+      id: 'true-false-adopt',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
         types: [
           {
             name: 'True',
-            text: `Snakes have a fixed stare because their eyes do not have lids.
-Birds of prey have excellent eyesight.`
+            text: `Polar bear has short ears.
+            Dog shivers to generate more heat.
+            Adaptations can be classified into three basic types.
+            If an organism fails to adapt to the particular environment, its survival is difficult.`
           },
           {
             name: 'False',
-            text: `Moles have excellent eyesight.
-Snake's tongue helps to sense smell.
-Most bony fish have good eyesight but can not see colours.`
+            text: `Fish have gills to swin.
+            Alligators have thick skins and cannot feel the vibrations in water.`
           }
         ]
+      }
+    },
+    {
+      label: 'Choose the Right Answer',
+      id: 'mcq-adapt',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText:
+              'Dogs keeping its tongue out and panting is a _______ adaptation.',
+            options: 'physiological, behavioural, structural'
+          },
+          {
+            qText:
+              'Porcupines have thorns on their body to fight against their enemies. It is a _______ adaptation.',
+            options: 'structural, physiological, behavioural'
+          },
+          {
+            qText: 'Why do polar bears have short ears?',
+            options: `To keep the body heat within the body.
+            To avoid insects from entering the ears.
+            To protect themselves from cold weather.`
+          },
+          {
+            qText: 'Which of the following can travel long distance?',
+            options: 'Birds, Tiger, Deer, Fish'
+          },
+          {
+            qText: 'Alligators have sensitive skin which can ______  in water.',
+            options: `feel even small vibrations
+            see even small objects
+            feel even far away animals`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Structure of Insects - Notes',
+      type: 'passage',
+      id: 'notes-2',
+      data: {
+        title: 'Structure of Insects',
+        text: `Insects have three main body regions. They are head, thorax and abdomen. All parts of the insect are inside an exoskeleton.
+        # Head
+        The main visible parts on the head are the large compound eyes, the antennae (feelers) and the mouth parts.
+        # Thorax
+        The thorax is the middle region of the body. It bears three pairs of legs and two pairs of wings.
+        # Abdomen
+        The abdomen is the last part of the insect body. Abdomen of most of the insects have clear segmentation.
+        # Many types of Insects
+        Insects have differences in structures like wings, legs, antennae and mouthparts. The legs are modified for walking, jumping, digging or swimming.
+        Most of the insects have wings which can be folded flat over their body. Eg: bug
+        There are some insects which cannot fold their wings. Eg: dragonfly. Some insects are wingless. eg: ant, silverfish
+        The compound eyes of insects are made up of small units called ommatidia.
+        Insects use the antennae to smell and feel the surface.`
+      }
+    },
+    {
+      id: 'drag-drop',
+      label: 'Parts of an Insect',
+      type: 'dragAndDrop',
+      data: {
+        img: 'insect.jpg',
+        title: 'Parts of an Insect',
+        width: 350,
+        height: 371,
+        wordWidth: 70,
+        words: [
+          {
+            word: 'antenna',
+            x: 50,
+            y: 30
+          },
+          {
+            word: 'simple eye',
+            x: 130,
+            y: 70
+          },
+          {
+            word: 'compound eye',
+            x: 230,
+            y: 60
+          },
+          {
+            word: 'front wing',
+            x: 260,
+            y: 120
+          },
+          {
+            word: 'hind wing',
+            x: 260,
+            y: 270
+          },
+          {
+            word: 'leg',
+            x: 200,
+            y: 310
+          },
+          {
+            word: 'abdomen',
+            x: 10,
+            y: 245
+          },
+          {
+            word: 'thorax',
+            x: 10,
+            y: 170
+          },
+          {
+            word: 'head',
+            x: 10,
+            y: 130
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the Right Answer',
+      id: 'mcq-insects',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText: 'Which body part in insects is usually segmented?',
+            options: 'abdomen, thorax, head, wings'
+          },
+          {
+            qText: 'The wings are connected to the body at ____.',
+            options: 'thorax, abdomen, legs'
+          },
+          {
+            qText: `Which insect doesn't have foldable wings?`,
+            options: 'dragonfly, housefly, bug'
+          },
+          {
+            qText:
+              'What is the body part that connects the head and the abdomen?',
+            options: 'thorax, ribs, legs, wings'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-insect',
+      data: {
+        text: `Like any insects, butterfly has *three* body parts. It has *four* wings and *six* legs, attched to the *throax*. It uses its two *antennae* to smell.`
+      }
+    },
+    {
+      label: 'True or False',
+      id: 'true-false-insect',
+      type: 'classifySentence',
+      data: {
+        types: [
+          {
+            name: 'True',
+            text: `The legs and wings are attached to thorax.
+            All parts of an insect are inside an exoskeleton.`
+          },
+          {
+            name: 'False',
+            text: `All insects can fly.
+            The thorax region is segmented.
+            Insects use the antennae to drink water.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Special Senses - Notes',
+      type: 'passage',
+      id: 'notes-special-senses',
+      data: {
+        title: 'Special senses',
+        text: `Some animals have well developed special senses. These special senses help the animals experience the world around them.
+Ants have sense of sight, smell, taste and touch. Ants have organs of smell and taste in their antennae. They feel the vibrations in the ground through their feet.
+Place a few sugar cubes in a plate. After sometime, you can see some ants visiting the plate.
+Adding sugar to your cat's food is of no use, because cats cannot taste sweetness.
+Most snakes have poor eyesight. Snakes use their tongue to smell their surrounding.
+Bats have a good sense of hearing. They use sound navigation. They produce ultrasonic sound which helps the bats find their way at night and find out the objects on their path. This is called 'Echolocation'.
+Vampire bats feed on the blood of their prey. Vampire bats have heat-detecting noses which allow them to find their prey.
+# Nocturnal animals
+Some animals sleep in the day time and are very active at night. A good example is cat at your home. Such animals are called Nocturnal animals. Eg: owl, bat, mouse, firefly, moth 
+Animals that are active during day time are known as diurnal animals. Eg: hen, horse, camel
+Lions are active both during day and night.
+Nocturnal creatures generally have highly developed senses of hearing, smell, and specially adapted eyesight.`
+      }
+    },
+    {
+      label: 'Choose the Right Answer',
+      id: 'mcq-sense',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText: 'Bats have good sense of _______.',
+            options: 'hearing, smelling, seeing'
+          },
+          {
+            qText: 'Snakes uses their ______ to smell their surrounding.',
+            options: 'tongue, nose, ears, eyes'
+          },
+          {
+            qText: 'For what purposes, an ant uses its antennae?',
+            options: `* To smell
+            * To taste
+            To feel the vibrations in the ground`
+          },
+          {
+            qText: 'Which animal is active both day and night?',
+            options: 'lion, cow, owl'
+          },
+          {
+            qText: 'Which animal produce ultrasonic sound?',
+            options: 'Bat, Owl, Vampire'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Nocturnal Animal',
+      id: 'classify-1',
+      type: 'group',
+      data: {
+        title: 'Classify the below animals.',
+        types: [
+          {
+            name: 'Nocturnal',
+            text: 'Owl, Bat, Mouse, Cat, Cockroach'
+          },
+          {
+            name: `not a Nocturnal`,
+            text: 'Horse, Cow, Donkey, Hen, Eagle'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Parental Care - Notes',
+      type: 'passage',
+      id: 'notes-4',
+      data: {
+        title: 'Parental Care',
+        text: `Efforts taken by the adult to take care of their young ones is called Parental care.
+Parental care increases the survival rate and improves the quality of young one. It also increases the reproductive success of animals.
+# Kangaroo
+Kangaroo is best known for parental care. Female kangaroo carries its baby in its pouch. The pouch provides a safe place for the young ones to stay until they grow large enough to survive outside on their own.
+# Cow
+Cow gives milk and protects its calf from the enemies. Mother and calf communicate with each other through a sound. Calves respond to the calls from their own mother by calling back.
+# Human beings
+Humans promote and support the physical, emotional, social and intellectual development of their child. The human infant or baby is completely helpless at birth. Mother takes good care of the baby by feeding, helping to sleep and making comfortable with clothes etc. Through proper parenting the child is taught whatever needed to live successfully in the society.`
       }
     }
   ]

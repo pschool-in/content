@@ -199,13 +199,7 @@ You ride your bike by herself.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       commonData: {
-        isPractice: false,
-        title:
-          'Fill in the blanks by dragging the options given at the bottom.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `He ordered *himself* a sandwich.

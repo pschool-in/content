@@ -10,6 +10,12 @@ export default {
       data: {}
     },
     {
+      type: 'memoryFindPair',
+      id: 'find-pair-2',
+      label: 'Find Pairs - 2',
+      data: { isBig: true }
+    },
+    {
       type: 'rememberShapeColor',
       id: 'remember-shape-color',
       label: 'Remember Shape & Color',

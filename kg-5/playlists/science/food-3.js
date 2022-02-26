@@ -116,12 +116,6 @@ Fibre and water
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
         text: `Food rich in proteins are called *body-building* food.
 Food helps in proper *functioning* of our body.
 A *balanced diet* is necessary for the proper growth and development of our body.
@@ -318,12 +312,7 @@ There is no difference in the food habit of a tiger and a vulture.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The main sources of our *food* are plants and animals.
 The *roots* absorb water and minerals from the soil.
 A plant needs *sunlight* to prepare food.
@@ -463,12 +452,7 @@ A combustible substance is something that can burn.  Fuel is a combustible subst
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `We boil water to kill *bacteria*.
 *Cooking* makes food soft, tasty and easy to digest.
 The material that is burnt to produce heat is known as *fuel*.
@@ -495,12 +479,7 @@ Crock pot, Baking`
       type: 'matchByDragDrop',
       id: 'drag-drop-6',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The process by which foodstuffs become tastier and easier to digest is *heating*.
 Foods which we eat mostly without cooking are *fruits*.
 A device that uses the energy of direct sunlight to cook, is *Solar cooker*.

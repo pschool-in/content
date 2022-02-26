@@ -248,6 +248,7 @@ rest, relax`
       type: 'selectWord',
       label: 'Select the silent letter in a word.',
       id: 'silent-letter',
+      lockAfter: 2,
       commonData: {
         title: `Select the silent letter in the given words.`,
         type: 'word'

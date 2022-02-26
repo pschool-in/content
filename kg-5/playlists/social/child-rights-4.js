@@ -74,12 +74,6 @@ All children of age 6- 14 years should be employed.`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Every *citizen* of the country can enjoy the rights and do duties. 
 *Children* also have special rights. 
 Children have the right to have *healthy food* for growth and development. 
@@ -166,12 +160,6 @@ Starving children.`
       type: 'matchByDragDrop',
       id: 'drag-drop2 ',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Survival* - the state or fact of continuing to live.
 *Development* - the process in which someone or something grows and becomes more advanced.
 *Protect* - keep safe from harm or injury. 

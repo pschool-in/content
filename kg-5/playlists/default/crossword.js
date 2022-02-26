@@ -558,7 +558,6 @@ export default {
       type: 'crossword',
       label: 'Simple Crosswords',
       id: 'simple',
-      commonData: {},
       data: [
         {
           words: [

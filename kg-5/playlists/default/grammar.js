@@ -28,8 +28,20 @@ singer, a, an`
       type: 'sequence',
       label: 'Order Sentence',
       id: 'order-sentence',
-      data: {
-        text: `we are happy
+      lockAfter: 2,
+      data: [
+        `keep quiet
+sit down
+stand up
+please come in
+thank you
+this is pencil
+these are mangoes
+that is car
+those are buses
+it is hot`,
+
+        `we are happy
 it is dark
 dog is hungry
 they are coming
@@ -38,17 +50,33 @@ I live in Mumbai
 please come in line
 we are watching TV
 they are playing cricket
-I am reading poems`
-      }
-    },
-    {
-      type: 'sequence',
-      label: 'Order Sentence - 2',
-      id: 'order-sentence-2',
-      data: {
-        text: `we have holiday tomorrow
+I am reading poems`,
+
+        `I have  a pet
+it is raining
+the sun is bright
+I am hungry
+my sister is angry
+Siva has four pens
+I have no pens
+coloring is my hobby
+this chair is broken
+she is laughing loudly`,
+
+        `what is your name
+how old are you
+can I help you
+how are you feeling
+what is the matter
+what is your favorite snack
+where is the restroom
+can you help me
+where is your mother
+can you drive a car`,
+
+        `we have holiday tomorrow
 I am drinking water
-I am going to chennai
+I am going to Chennai
 I am sitting in sofa
 Siva is sleeping in bed
 the cat is drinking milk
@@ -56,7 +84,7 @@ I am thinking of icecream
 sun rises in the east
 I am playing with my friends
 I have not done my homework`
-      }
+      ]
     },
     {
       type: 'selectWord',
@@ -318,6 +346,24 @@ The lion lives *in (on, near) * the forest.
 We go to school *by (on, to) * bus. 
 The sun is *above (below, over) * the clouds. 
 Be careful *with (in, on) * the glasses.`
+      }
+    },
+    {
+      type: 'match',
+      label: 'Match Subjects and Predicates',
+      id: 'subject-predicate',
+      data: {
+        title: 'Match Subjects and Predicates.',
+        onlyBigScreen: true,
+        text: `The two year old girl, cried when her mom took her toy.
+        The baby calf, mooed at its mother.
+        The crank old man, fussed at the bus driver.
+        The large Christmas tree, was decorated with ornaments.
+        The tiny wooden sailboat, rocked back and forth in the water.
+        The playful chimpanzee, swung from the jungle vines.
+        The cheerful pilot, welcomed passengers onto the plane.
+        The humongous spider, spun its web by my back door.
+        The patient teacher, taught her students how to multiply.`
       }
     }
   ]

@@ -73,19 +73,38 @@ export default {
     {
       id: 'match',
       type: 'match',
-      label: 'North India - States & Capitals',
-      data: {
+      label: 'States & Capitals',
+      commonData: {
         title: 'Match states with their capitals.',
-        fontSize: '0.8rem',
-        text: `Punjab, Chandigarh
+        fontSize: '1.1rem'
+      },
+      data: [
+        `Punjab, Chandigarh
 Himachal Pradesh, Shimla
 Rajasthan, Jaipur
 Uttar Pradesh, Lucknow
 Uttarakhand, Dehradun
-Gujarat, Gandhinagar
-Madhya Pradesh, Bhopal
-Chhattisgarh, Raipur`
-      }
+Gujarat, Gandhinagar`,
+
+        `Madhya Pradesh, Bhopal
+Chhattisgarh, Raipur
+Odisha, Bhubaneswar
+Jharkhand, Ranchi
+Bihar, Patna
+West Bengal, Kolkata`,
+
+        `Sikkim, Gangtok
+Assam, Dispur
+Arunachal Pradesh, Itanagar
+Manipur, Imphal
+Telangana , Hyderabad`,
+
+        `Karnataka , Bengaluru
+Kerala , Thiruvananthapuram
+Tamil Nadu , Chennai
+Goa , Panaji
+Maharashtra , Mumbai`
+      ]
     },
     {
       id: 'drag-drop-2',
@@ -306,23 +325,6 @@ Chhattisgarh, Raipur`
       }
     },
     {
-      id: 'match-2',
-      type: 'match',
-      label: 'East India - States & Capitals',
-      data: {
-        title: 'Match states with their capitals.',
-        fontSize: '0.8rem',
-        text: `Odisha, Bhubaneswar
-Jharkhand, Ranchi
-Bihar, Patna
-West Bengal, Kolkata
-Sikkim, Gangtok
-Assam, Dispur
-Arunachal Pradesh, Itanagar
-Manipur, Imphal`
-      }
-    },
-    {
       id: 'classify',
       label: 'Neighboring Countries',
       type: 'group',
@@ -386,7 +388,7 @@ Manipur, Imphal`
         printTitle: 'Mark the below states on the map.',
         width: 342,
         height: 368,
-        wordWidth: 100,
+        wordWidth: 70,
         isPractice: false,
         words: [
           {
@@ -425,21 +427,6 @@ Manipur, Imphal`
             y: 40
           }
         ]
-      }
-    },
-    {
-      id: 'match-7',
-      type: 'match',
-      label: 'South India - States & Capitals',
-      data: {
-        title: 'Match states with their capitals.',
-        fontSize: '1rem',
-        text: `Telangana , Hyderabad
-Karnataka , Bengaluru
-Kerala , Thiruvananthapuram
-Tamil Nadu , Chennai
-Goa , Panaji
-Maharashtra , Mumbai`
       }
     },
     {
@@ -494,19 +481,28 @@ Maharashtra , Mumbai`
       }
     },
     {
-      id: 'match-8',
+      id: 'match-2',
       type: 'match',
-      label: 'South India - Languages',
-      data: {
+      label: 'State and Languages',
+      commonData: {
         title: 'Match the states with the language spoken.',
-        fontSize: '1rem',
-        text: `Andhra Pradhesh , Telugu
+        fontSize: '1.1rem'
+      },
+      data: [
+        `Andhra Pradhesh , Telugu
 Karnataka , Kannada
 Kerala , Malayalam
 Tamil Nadu , Tamil
 Goa , Konkani
-Maharashtra , Marathi`
-      }
+Maharashtra , Marathi`,
+
+        `Gujarat, Gujarati
+Haryana, Hindi
+Odisha, Odia
+West Bengal, Bengali
+Assam, Assamese
+Telangana, Telugu`
+      ]
     },
     {
       id: 'mcq-4',

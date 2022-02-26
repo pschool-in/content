@@ -82,12 +82,6 @@ Mrs.Kiran Bedi, First woman IPS officer of India`,
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Jawaharlal Nehru*  is the first Prime Minister of India.
 *Mrs.Kiran Bedi* is the first woman IPS officer of India.
 *Rakesh Sharma* is India’s first man to go in Space.
@@ -97,7 +91,7 @@ Mrs.Kiran Bedi, First woman IPS officer of India`,
     },
     {
       label: 'True or False',
-      id: 'TF -1',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -105,7 +99,7 @@ Mrs.Kiran Bedi, First woman IPS officer of India`,
           {
             name: 'True',
             text: `Sardar Vallabhai Patel is the first Home Minister of India
-Apsara is the first Nuclear Reactor in India.
+Apsara is the first Nuclear Reactor in India.
 Rabindranath Tagore is the first Indian to win Nobel Prize.`
           },
           {
@@ -185,15 +179,9 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
       type: 'matchByDragDrop',
       id: 'drag-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `5 September is * Teachers Day*.
-*12 January* is the National Youth Day.
-28 February is the *National Science Day*.
+        text: `5 September is * Teachers Day*.
+*12 January* is the National Youth Day.
+28 February is the *National Science Day*.
 *26 January* is the Republic Day.
 7 December is the *Indian Armed Force Flag Day*.`
       }

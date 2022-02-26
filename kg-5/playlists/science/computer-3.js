@@ -1,67 +1,63 @@
 export default {
   id: 'computer-3',
-  label: 'Computer',
+  label: 'Introduction to Computer',
   pdf: '',
   lockAfter: 4,
   list: [
     {
-      label: 'Computer',
+      label: 'Notes',
       type: 'passage',
       id: 'intro-computer',
       data: {
         title: 'Introduction to Computer',
-        text: `# Introduction to computers
-A computer is an advanced electronic device that performs both arithmetic and logical operations.
-1. CPU: It is the brain of the computer. It is the central processing unit. It helps in executing the instructions given by the user.   
-2. Mouse:  It is used to pick items on the screen. When the mouse moves, the pointer also moves.
-3. Keyboard: It has keys that we use to type numbers and letters. It helps in feeding information to the CPU. 
-4. Monitor:  It displays words or pictures processed by a computer. It acts as a display screen.
-5. Speaker:  It lets you to hear the sounds from a computer. Each notification has different tones.
-6. Storage devices: It helps to store data. It is one of the core functions of the computer.
-# Types of storage
-1. Primary storage: these are also known as main memory. It includes RAM, ROM, Cache, etc
-2. Secondary storage: The CPU cannot access the secondary storage directly. The computer's input or output channels are required to access it. Example: Hard disk
-3. Tertiary storage: these are usually very slow and used to store data that is not used frequently. Examples: magnetic tape, optical disc, etc
-4. Off-line storage: it is also known as disconnected storage. It is not under the control of the CPU. It must be inserted or connected by a human operator for the computer to access it. Examples: floppy disc, memory card, etc.
+        text: `A computer is an advanced electronic device. There are different types of computers and it can be used at home, office, laboratory etc.
 # Uses of computer
-1. type document
-2. listen to music
-3. use the internet
+At home we can use a computer to
+1. type documents
+2. draw pictures
+3. browse the internet 
 4. send an e-mail
 5. play games
-6. draw a picture
-7. watch movies
+7. watch videos
 8. chat with a friend
-# Starting the computer
-1. Plugin the computer and all the attached devices.
-2. Switch on your UPS to provide an uninterrupted power supply to your computer.
-3. Press the power button of the CPU to boot up the computer.
-# Shutting down the computer
-1. To turn off the computer click on the start button.
-2. Then click shut down in the lower right corner of the start button.
-# Different keys on the keyboard
-Alphabetical keys: There are 26 alphabetical keys on the keyboard.
-Numerical keys: There are 10 numerical keys on the keyboard.
-Special keys: There are various special keys used to perform different functions.
-# Different Special keys
-Capslock: This key is used when we want to type a capital letter.
-Enter key: It is used to finish a line and move to the next line on the page.
-Shift key: It is a modifier key present on both sides of the keyboard. It is used to type capital letters and other alternate 'upper' characters.
-# Different buttons on the mouse 
-Left mouse button: It is used to point to any menu tool, icon, or for selection of text. We can select multiple entities using this button.
-Scroll button: It is used to scroll the page up and down.
-Right mouse button: It is used to invoke the shortcut menu.
-# Advantages of Computer
-1. It is much faster when compared to human beings.
-2. It can perform all calculations accurately.
-3. It can store large amounts of data.
-4. It is more reliable than humans.
-5. It can perform a variety of operations on the same set of data.
-# Limitations of Computer
-1. It has no IQ level.
-2. It works on electricity.
-3. It cannot think by itself.
-4. It is unable to make its own decisions.`
+And we can do many more things using a computer.
+Below are some of the important characteristics of a computer.
+# Speed
+A computer can do lot of tasks in few seconds.
+# Accuracy
+Computers give correct output for every correct input. It doesn't make mistakes like humans.
+# Diligence
+A computer works for hours without any break. It won't get tired quickly.
+# Versatility
+A computer performs different types of work at the same time. It is commonly known as multi-tasking.
+# Storage
+A computer can store lot of data.
+# Human vs Computer
+Computers don't have feelings and cannot take any decision on its own. It can work only based on the input.`
+      }
+    },
+    {
+      label: 'Human vs Computer',
+      id: 'true-false-human-computer',
+      type: 'classifySentence',
+      data: {
+        title: 'Read the sentence and identify who it represents.',
+        types: [
+          {
+            name: 'Human',
+            text: `I can take my own decision.
+            I have feelings.
+            I can work without electricity or battery.`
+          },
+          {
+            name: 'Computer',
+            text: `I can work for many hours without getting tired.
+            I can do lot of works within few seconds.
+            I never make mistakes in calculation.
+            I can store billions of data.
+            I can work on different tasks at the same time without getting confusion.`
+          }
+        ]
       }
     },
     {
@@ -69,155 +65,137 @@ Right mouse button: It is used to invoke the shortcut menu.
       id: 'true-false',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
         types: [
           {
             name: 'True',
-            text: `A computer is an electronic device.
-A memory card is a storage device.
-Off-line storage requires human assistance`
+            text: `We can watch movies using a computer.
+            Computers can do lot of work without getting tired.`
           },
           {
             name: 'False',
-            text: `ROM is a secondary storage device.
-Monitor feeds information to the CPU.
-Tertiary storage is connected to the CPU directly.`
+            text: `Computers are used only in laboratory.
+            We cannot listen to songs from a computer.
+            Computers are slow in doing calculation.`
           }
         ]
       }
     },
     {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
+      label: 'Parts of Computer - Notes',
+      type: 'passage',
+      id: 'notes-parts',
       data: {
-        text: `Monitor, display
-Keyboard, type
-Processing, CPU
-Storage, hard disc
-Mouse, point`,
-        title: 'Match the following'
+        title: 'Parts of Computer',
+        text: `The working of a computer can be explained in three steps.
+        1. It takes input from an input device.
+        2. It does the work by processing the input.
+        3. It gives the output through the output device.
+        # Input devices
+        Keyboard, Mouse, Web camera, Microphone, Scanner, Joystick
+        # Output devices
+        Monitor, Printer, Speakers
+        # Parts of CPU
+        CPU is a complex machine present inside the computer and not visible to our eyes.
+        `
       }
     },
     {
-      label: 'Choose the best Answer',
+      label: 'Multiple Choice Questions',
       id: 'mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'What is a cursor?',
-            options:
-              'a pointer on the screen, noise from the speaker, ink in a printer'
+            qText: 'We give instructions to a computer through ______.',
+            options: 'input devices, CPU, hard disk, output devices'
           },
           {
-            qText: 'Which is not a storage device?',
-            options: 'Scanner, DVD, Hard disc'
+            qText: 'Which of the following is not a character of a computer?',
+            options: `It can think on their own and correct our mistakes.
+            It can do lot of work without getting tired.
+            It can store lot of data.
+            It can work on multiple tasks at the same time.`
           },
           {
-            qText: 'What is the use of a joystick?',
-            options: 'to play games, to enter data, to listen to music'
+            qText: 'Which of the following is not an input device?',
+            options: 'Speaker, Microphone, Keyboard, Web Camera'
           },
           {
-            qText: 'Keyborad is used to __________________.',
-            options: 'enter data, produce output, see characters'
+            qText: 'What we cannot do using a computer?',
+            options: 'Cooking Food, Taking Photo, Playing Song, Drawing Images'
+          },
+          {
+            qText: 'We can give text input to a computer through a ______.',
+            options: 'keyboard, mouse, scanner, printer'
           }
         ]
       }
     },
     {
-      id: 'fillup',
-      label: 'Computer- Fill Up',
-      type: 'fillup',
+      label: 'Input vs Output Devices',
+      id: 'classify',
+      type: 'group',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `The *control (memory)* unit controls everything that happens inside the computer.
-CPU is the *brain (heart)* of the computer.
-Off-line storage is also known as *disconnected (connected)* storage.
-The CPU *cannot (can)* access the secondary memory directly.
-RAM is an example of *primary (secondary)* storage.`
-      }
-    },
-    {
-      label: 'Strength or Limitation',
-      id: 'strength-limitation',
-      type: 'classifySentence',
-      data: {
-        title:
-          'Classify the below sentences as strength or limitation of computer',
+        title: 'Classify the below devices.',
         types: [
           {
-            name: 'Strength',
-            text: `The computer can store large amounts of data.
-The computer is more reliable than humans.
-The computer can perform a variety of operations on the same set of data.`
+            name: 'Input',
+            text: 'Keyboard, Mouse, Web camera, Microphone, Scanner'
           },
           {
-            name: 'Limitation',
-            text: `It works on electricity.
-It is unable to make its own decisions.`
+            name: 'Output',
+            text: 'Monitor, Printer, Speakers'
           }
         ]
       }
     },
     {
-      label: 'Name the following',
-      type: 'matchByDragDrop',
-      id: 'name-them',
+      label: 'Types of Computer - Notes',
+      type: 'passage',
+      id: 'notes-types',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `A high-speed access area in memory unit is called *cache*
-A tape  with data encoded on the magnetic strip is called *magnetic tape*
-A device that stores data in digital format is called *optical disc*
-A portable, soft magnetic disc with slow access is called *floppy*`
+        title: 'Types of Computer',
+        text: `There are many types of computers based on their size, shape and how they work.
+        # Desktop
+        A desktop computer is big in size. It is kept at a fixed place. It works on electricity. Different parts like CPU, monitor, keyboard, mouse, speaker are connected through wires.
+        # Laptop
+        It is a small computer and can be placed on one's lap, and hence got its name. It works on batteries and light to carry. So we can easily carry it anywhere. The CPU, monitor, keyboard, and mouse are all in-built. The screen can be folded when not in use.
+        # Smartphone
+        It is also a computer, also known by the name mobile phone. We can make phone calls, chat with others, take photo, play games, send email etc. It comes with a large display which also takes user input through touches.
+        # Tablet
+        In terms of size and operation, it comes between smartphone and laptop. It has big screen but cannot be carried freely like smartphone. But it is very light weight when compared to laptop.`
       }
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'fill-up2',
+      label: 'True or False',
+      id: 'true-false-2',
+      type: 'classifySentence',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `The *capslock* key is used when we want to type a capital letter.
-*Enter* key is used to finish a line and move to the next line on the page.
-The *shift* key is a modifier key present on both sides of the keyboard.
-The *left* mouse button is used to point to any menu tool, icon, or for the selection of text. 
-The *scroll* button is used to scroll the page up and down.
-The *right* mouse button is used to invoke the shortcut menu.`
+        title: 'Classify the below sentences as true and false',
+        types: [
+          {
+            name: 'True',
+            text: `We can easily carry a laptop.
+            Smartphones work on batteries.`
+          },
+          {
+            name: 'False',
+            text: `We can easily carry a desktop.
+            Desktop computers work on batteries.
+            All data stored in computer are lost once we shutdown.`
+          }
+        ]
       }
     },
     {
-      id: 'fillup-3',
-      label: 'What does it stand for ?',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `RAM - *Random (Read)* Access Memory
-ROM - *Read (Random)* Only Memory
-CPU - Central *Processing (Programming)* Unit`
-      }
-    },
-    {
-      label: 'Strating the Computer',
+      label: 'Arrange by Size',
       type: 'sorting',
+      id: 'sort-size',
       data: {
-        title:
-          'Arrange the steps in starting the computer in the correct order.',
-        text:
-          'plugin computer, switch on UPS, press power button on CPU, boot up '
-      },
-      id: 'sort'
+        title: 'Rearrange the below from the smallest to the biggest.',
+        text: 'Smartphone, Tablet, Laptop, Desktop'
+      }
     }
   ]
 };

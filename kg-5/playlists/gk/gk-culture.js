@@ -81,12 +81,6 @@ Jagannath Temple, Puri`,
       type: 'matchByDragDrop',
       id: 'drag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Jama masjid is sitauted at *New Delhi*.
 Somnath Temple is situated in *Gujarat*.
 *Amarnath Temple* is located in Jammu & Kashmir.
@@ -185,17 +179,11 @@ Punjab, Lohri`,
       type: 'matchByDragDrop',
       id: 'drag-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The  famous festival of Kerala is *Onam*.
-The  famous festival of  Punjab  is *Lohri*.
+The  famous festival of  Punjab  is *Lohri*.
 The  famous festival of Andhra Pradesh is *Ugadi*.
-The  famous festival of Karnataka is *Dussehra*.
-The  famous festival of Gujarat is *Makar Sankranti*.`
+The  famous festival of Karnataka is *Dussehra*.
+The  famous festival of Gujarat is *Makar Sankranti*.`
       }
     },
     {
@@ -287,16 +275,10 @@ Odisha, Odissi`,
       type: 'matchByDragDrop',
       id: 'drag-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The famous state dance of *Manipur*is Manipuri.
 The famous state dance of *Kerala* is Mohiniyattam.
-The famous state dance of *Punjab * is Bhangra.
-The famous state dance of *Andhra Pradesh* is Kuchipudi.
+The famous state dance of *Punjab* is Bhangra.
+The famous state dance of *Andhra Pradesh* is Kuchipudi.
 The famous state dance of *Odisha* is Odissi.`
       }
     },

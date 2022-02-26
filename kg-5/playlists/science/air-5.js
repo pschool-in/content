@@ -315,12 +315,6 @@ The causative organism of Whooping cough is ____________.|BORDETALLA PERTUSIS|B_
       type: 'completeWord',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `___________ is the land on Earth.| LITHOSPHERE| L___O__E_R_
 ___________ is the air on Earth.|ATMOSPHERE|AT___P__R_
 ___________ is the water on Earth.|HYDROSPHERE|H____S___R_
@@ -333,8 +327,6 @@ ___________ is the day to day conditions of atmosphere.|WEATHER| W__T_E_`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -374,8 +366,6 @@ Monsoon winds move in the same direction throughout the year with the rotation o
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
@@ -390,8 +380,6 @@ Monsoon winds move in the same direction throughout the year with the rotation o
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
           dashWidth: 80
