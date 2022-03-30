@@ -486,7 +486,6 @@ export default {
     },
     {
       id: '1632590530696',
-      editable: true,
       type: 'maze',
       label: 'Solve the Maze',
       data: {

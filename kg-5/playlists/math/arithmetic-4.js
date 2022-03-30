@@ -70,7 +70,7 @@ export default {
           type: 'misc~xx+x0-x0'
         },
         {
-          type: 'misc~xx-x0+x0'
+          type: 'misc~1xx-x0+x0'
         },
         {
           type: 'misc~xx-x0-x0'

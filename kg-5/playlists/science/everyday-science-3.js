@@ -106,7 +106,6 @@ This is made from coriander seed powder. One tablespoon of powder is mixed to tw
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `Gas Stove, Kettle, Mixer, Fridge
 Idli, Juice, Tea, Coffee
 Sleep, Cough, Cold, Fever

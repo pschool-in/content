@@ -266,7 +266,7 @@ Later, she picked up Thumbelina and hopped back into the wetlands.`
         `An ostrich lays the *biggest* eggs!
 The clown in the circus wore *colorful* clothes.
 I have an *orange* Persian cat.
-Our neighbors have a *beautiful* garden.
+Our neighbours have a *beautiful* garden.
 Puja's school is on a *wide* road.`,
 
         `Did you know that giraffes have *blue* tongues?

@@ -25,7 +25,7 @@ The immediate help that can be given to an injured person before further treatme
 2. Then place ice cubes over the affected area.
 3. In case of itching use calamine lotion.
 # If someone faints
-1. When someone faints quickly lie them on the ground with their head at a lower level that the body.
+1. When someone faints, quickly lie them on the ground with their head at a lower level than the body.
 2. Do not crowd around the person and allow fresh air to enter.
 3. Sprinkle cold water on the person's face.
 # For a nose bleed

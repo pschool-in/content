@@ -116,8 +116,7 @@ A, T, R, F
 I, L, P, N
 U, V, W, X
 E, F, N, D
-O, G, H, P`,
-        noCaps: true
+O, G, H, P`
       }
     }
   ]

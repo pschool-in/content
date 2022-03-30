@@ -1,9 +1,9 @@
 export default {
   id: 'lifeskills-5',
-  label: 'Life Skills - 5',
+  label: 'Our Emotional World',
   list: [
     {
-      label: 'Our Emotional World - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'emotionalworld',
       data: {
@@ -13,13 +13,12 @@ export default {
 If someone does something wrong, we get angry; however, we must not lose our temper. It is natural to desire something but we must not be greedy for it. If we think properly, we can control our emotions. Emotional adjustment involves coping with your emotions, being able to control them and expressing them in a reasonable manner.
 When we learn to cope with our emotions, our personality becomes balanced, our ability to understand others increases and we can overcome adverse conditions. Then we become free from faults such as blaming others unnecessarily, calling them names and not being able to tolerate their success. We become happy and our ability to relate to others improves. We learn not to be stubborn.
 # Anger
-Anger is an emotion just like happiness or sadness. All of us get angry about something at some point of time. We get angry if something does not happen according to our wishes, or if we are insulted. Similarly, we also get angry if we see someone being ill-treated. If we get angry very often, or if we cannot control our anger, it can have adverse effects on our body and mind. We become short-tempered and stubborn. Our attitude of co-operation and understanding decreases and we hurt others. We face consequences such as headaches, loss of sleep and dullness.
-# flaws
-People’s likes and dislikes and capabilities can be different. We may be good at some subject, art or sport and just as bad at another. We must know our flaws as well as our talents, so that we can improve upon them. Just because we are unable to do something, it does not mean that we stop trying to excel at what we can do.
+Anger is an emotion just like happiness or sadness. All of us get angry about something at some point of time. We get angry if something does not happen according to our wishes, or if we are insulted. Similarly, we also get angry if we see someone being ill-treated. If we get angry very often, or if we cannot control our anger, it can have adverse effects on our body and mind. We become short-tempered and stubborn. Our attitude of co-operation and understanding decreases and we hurt others. We face consequences such as headache, loss of sleep and dullness.
+# Flaws
+People’s likes and dislikes and capabilities can be different. We may be good at some subject, art or sport and bad at another. We must know our flaws as well as our talents, so that we can improve upon them. Just because we are unable to do something, it does not mean that we stop trying to excel at what we can do.
 # We can change
 No person is entirely good or entirely bad. We must always think about the good qualities or virtues in our friends first. We must help each other to get rid of our flaws. If we speak about our flaws as openly as we speak about our talents, it will be to our advantage.
-Neha talks the most in her group. Her friends began to avoid her since they never got a chance to speak. Neha realized this. Then, she began to watch out how much she spoke. She told her friends herself,
-“Stop me if I talk too much.” Gradually, Neha began to listen to others and brought about a change in her own behaviour.
+Neha talks the most in her group. Her friends began to avoid her since they never got a chance to speak. Neha realized this. Then, she began to watch out how much she spoke. She told her friends herself, 'Stop me if I talk too much'. Gradually, Neha began to listen to others and brought about a change in her own behaviour.
 # Recap
 1. Emotions must be expressed. There must be a balance between our thoughts and emotions.
 2. Anger must be controlled, otherwise it can have adverse effects on our mind and body.
@@ -106,16 +105,16 @@ Excited, Enthusiatic`,
             options: 'manage, control, stop'
           },
           {
-            qText: 'We should always think about our friends __________ first.',
-            options: 'virtues, iniquity, sin, dream'
+            qText: 'We should know our own ____.',
+            options: 'flaws, anger, greedy'
           },
           {
             qText:
-              'Too much of _____, will have adverse effects on mental health.',
+              'Too much of _____ will have adverse effects on mental health.',
             options: 'anger, joy, selfishness'
           },
           {
-            qText: 'We can have our desires, but we should not be ______.',
+            qText: 'We can have desires, but we should not be ______.',
             options: 'greedy, unsatisfied, discontent, ascetic'
           },
           {
@@ -127,70 +126,24 @@ Excited, Enthusiatic`,
       }
     },
     {
-      label: 'Fill in the blanks -1',
+      label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'emotionalworlddrag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `We must know our talents and also our *flaws*.
 Handling *emotions* in the right way will help us lead a happy life.
 We should try to *correct* our flaws.
-Being *stubborn* always, will lead to problems. 
-headaches
+If we are *stubborn* always, our friends will avoid us. 
 If we don't control our anger, it may lead to *headache*.`
       }
     },
-    /*
-{
-id: 'emotionalworldfill-1',
-label: 'Fill in the blanks -2',
-type: 'fillup',
-data: {
-title: 'Click the blanks and fill it with the right word.',
-text: `If you get angry, then you should not revert in a *bad (good)* way to others.
-We should help each other to get rid of the *flaws(talent)*.
-Sometimes being *patient (impatient)* in life is the best emotional intelligence.
-*Society (Food)*influences one’s emotion.
-*Hunger (Anger)* is not a type of emotion.`
-}
-},*/
-    /*
-{
-label: 'True or False',
-id: 'emotionalworldTF',
-type: 'classifySentence',
-data: {
-title: 'Classify the below sentences as true and false',
-types: [
-{
-name: 'True',
-text: `Ram used to sing a song, whenever he felt happy.
-Rahim’s parents were so happy, because she won the swimming race.
-Robert was so happy yesterday, because he scored cent percent in all subjects. 
-`
-},
-{
-name: 'False',
-text: `Alex is a chess champion, but chess is a boring game for him.
-During festival, people are lethargic.
-Not having a sense of lack-luster is a good quality.`
-}
-]
-}
-},*/
     {
-      label: 'Growth and personality development - Reading',
+      label: 'Growth and Development - Notes',
       type: 'passage',
       id: 'personality',
       data: {
-        title: 'Growth and personality development',
-        text: `#Growth and development
-All living things have the ability to grow. Humans have slow growth and development from birth to adulthood. Infants cannot do any activity by themselves. Slowly they get the coordination and control of the movements. They grow in weight and height slowly till adulthood. A balanced diet and regular exercise are the major factors that support growth and development for humans.          
+        title: 'Growth and Development',
+        text: `All living things have the ability to grow. Humans have slow growth and development from birth to adulthood. Infants cannot do any activity by themselves. Slowly they get the co-ordination and control of the movements. They grow in weight and height slowly till adulthood. A balanced diet and regular exercise are the major factors that support growth and development for humans.          
 # Skills development          
 When we grow, our physical strength increases. At the same time, learning and practicing new skills rapidly leads to personality development. Animals learn from their mother how to protect themselves from their enemies, weather, etc. They learn and begin to live independently. Animals learn only a limited number of skills in their life, however, humans learn more things throughout their life. Developing skills helps one to live independently and enrich life.           
 # Heredity          
@@ -226,8 +179,7 @@ text: 'Skipping, Cycling, Playing games'
 Physical growth, Development
 Imbalanced diet, Malnutrition
 Good Values, Good character
-Infants, Slow co-ordination`,
-        title: 'Match the following with its correct one'
+Infants, Slow co-ordination`
       }
     },
     {
@@ -243,7 +195,7 @@ Infants, Slow co-ordination`,
             options: 'Animals, Human, Alien, Trees'
           },
           {
-            qText: '__________ learn more things throughout their life.',
+            qText: '__________ learns lot of things throughout their life.',
             options: 'Human, Alien, Animals, Trees'
           },
           {
@@ -257,23 +209,17 @@ Infants, Slow co-ordination`,
           },
           {
             qText:
-              '______________ have slow development and controlling the co-ordination movement.',
+              '________ have slow development in having co-ordination movement.',
             options: 'Infants, Adults, Plants, None of the above'
           }
         ]
       }
     },
     {
-      label: 'Fill in the blanks -1',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'personalitydrag-1',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Learning new *skills* make us better.
 *Infants* learn the various skills slowly.
 We learn many skills from our parents and *teachers*.
@@ -283,10 +229,9 @@ Passing on features from *ancestors* is called heredity.`
     },
     {
       id: 'personalityfill-1',
-      label: 'Fill in the blanks -2',
+      label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
         text: `We have physical body growth until we reach *18 (25)* years.
 Learning many skills will help one to be less *dependent (independent)* on others.
 Doing *regular (irregular)* exercises helps to keep the body fit.
@@ -296,7 +241,7 @@ It is more important to reflect the *good (bad)* values in our behavior.`
     },
     {
       label: 'True or False',
-      id: 'personalityTF',
+      id: 'true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -310,7 +255,7 @@ Lack of physical activity and exercise affect the overall growth adversely.`
           {
             name: 'False',
             text: `Food is not required for physical and mental growth.
-Infants feed themselves.`
+Infants don't need the help of their parents.`
           }
         ]
       }
@@ -359,73 +304,6 @@ Infants feed themselves.`
         ],
         lang: 'en',
         showWords: true
-      }
-    },
-    {
-      id: 'crossword',
-      type: 'crossword',
-      label: 'Crossword - Personality development',
-      data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
-        words: [
-          {
-            word: 'Hunting',
-            marker: {
-              x: 0,
-              y: 0
-            },
-            hint: 'Animals do this for their survival',
-            direction: 'across'
-          },
-          {
-            word: 'Skipping',
-            marker: {
-              x: 0,
-              y: 7
-            },
-            hint: 'Activity done with the rope',
-            direction: 'across'
-          },
-          {
-            word: 'Cycling',
-            marker: {
-              x: 7,
-              y: 1
-            },
-            hint: 'Two - wheel Vehicle',
-            direction: 'down'
-          },
-          {
-            word: 'Heredity',
-            marker: {
-              x: 0,
-              y: 2
-            },
-            hint:
-              'Transmission of the physical and genetic qualities from family',
-            direction: 'across'
-          },
-          {
-            word: 'Sports',
-            marker: {
-              x: 0,
-              y: 4
-            },
-            hint: 'Games in ground',
-            direction: 'across'
-          }
-        ],
-        table: [
-          ['H', 'U', 'N', 'T', 'I', 'N', 'G', ''],
-          ['', '', '', '', '', '', '', 'C'],
-          ['H', 'E', 'R', 'E', 'D', 'I', 'T', 'Y'],
-          ['', '', '', '', '', '', '', 'C'],
-          ['S', 'P', 'O', 'R', 'T', 'S', '', 'L'],
-          ['', '', '', '', '', '', '', 'I'],
-          ['', '', '', '', '', '', '', 'N'],
-          ['S', 'K', 'I', 'P', 'P', 'I', 'N', 'G']
-        ],
-        lang: 'en'
       }
     }
   ]

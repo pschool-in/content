@@ -60,7 +60,7 @@ Alternate sources of energy and fuel are being considered.  Chief among them are
       type: 'group',
       id: 'classify',
       data: {
-        label: 'Minerals vs Non-minerals',
+        title: 'Minerals vs Non-minerals',
         types: [
           {
             name: 'Minerals',

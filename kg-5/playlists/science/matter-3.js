@@ -18,7 +18,7 @@ The space occupied by an object is called its volume.
 # Three states of Matter
 Solid, liquid and gas are the three states of matter. 
 Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
-Liquid does not have fixed shape. It takes the shape of it container. eg: milk, honey, water, juice, oil, petrol.
+Liquid does not have fixed shape. It takes the shape of its container. eg: milk, honey, water, juice, oil, petrol.
 Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind.`
       }
     },
@@ -34,7 +34,7 @@ Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), 
             options: `space, mass, weight, matter`
           },
           {
-            qText: 'How many states of matters are there?',
+            qText: 'How many states of matter are there?',
             options: `three, four, five, two`
           },
           {
@@ -262,7 +262,7 @@ Fuels are mainly used for cooking and transportation.`
           {
             name: 'False',
             text: `Electrical energy cannot be used as fuel.
-All solid matters can be used as a fuel.`
+All solid matter can be used as a fuel.`
           }
         ]
       }

@@ -203,7 +203,58 @@ M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
       type: 'dragAndDrop',
       label: 'Parts of Circle',
       data: {
-        type: 'circle'
+        width: 400,
+        height: 500,
+        wordWidth: 90,
+        title: 'Parts of Circle',
+        svg: {
+          props: {
+            stroke: 'purple',
+            fill: 'none',
+            strokeLinejoin: 'round'
+          },
+          paths: [
+            'M 310 250 A 150 150 0 1 1 310 249',
+            'M 160 250 L 250 370 M 30 176 L 290 324 M 58 140 262 140',
+            {
+              d: 'M 216 389 A 150 150 0 0 1 94 385',
+              stroke: 'blue',
+              strokeWidth: 4
+            },
+            {
+              d: 'M 160 250 L 271 150 A 150 150 0 0 1 310 260 L 160 250',
+              stroke: 'gray',
+              strokeWidth: 3,
+              fill: 'orange'
+            },
+            {
+              d: 'M 81 377 A 150 150 0 0 1 23 189 L 81 377 ',
+              stroke: 'gray',
+              strokeWidth: 3,
+              fill: 'pink'
+            },
+            {
+              d: 'M 20 160 L 150 80',
+              stroke: 'gray',
+              strokeWidth: 3
+            },
+            {
+              d: `M 160 400 L 160 450 M 40 300 L 40 400 M 270 310 L 300 360 M 227 340 L 227 420 M 160 250 L 160 290 M 270 200 320 150 M 230 140 270 80 M 30 155 L 40 80 M 160 100 L 200 50`,
+              stroke: 'black'
+            }
+          ]
+        },
+        words: [
+          { word: 'arc', x: 100, y: 450 },
+          { word: 'circumference', x: 157, y: 28 },
+          { word: 'diameter', x: 270, y: 360 },
+          { word: 'center', x: 95, y: 290 },
+          { word: 'segment', x: 4, y: 400 },
+          { word: 'radius', x: 193, y: 420 },
+          { word: 'chord', x: 228, y: 60 },
+          { word: 'tangent', x: 10, y: 60 },
+          { word: 'sector', x: 278, y: 127 }
+        ]
       },
       id: '1100'
     }

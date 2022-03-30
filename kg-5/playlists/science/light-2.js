@@ -8,7 +8,7 @@ export default {
       data: {
         title: 'Light and Shadow',
         text: `# Light
-Light comes from different sources called light sources; our main natural light source is the sun. Other sources include fire, stars and man-made light sources such as light-bulbs and torches. Thanks to light, we see life in glorious colors.
+Light comes from different sources called light sources; our main natural light source is the Sun. Other sources include fire, moon and man-made light sources such as light-bulbs and torches. Thanks to light, we see the world in glorious colors.
 # Shadow
 A shadow is the dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
       },
@@ -47,6 +47,7 @@ A candle is an artificial source of light.`
           {
             name: 'False',
             text: `We do not need light to see objects.
+Shadows have fixed size.
 Shadow is formed when light passes through objects.`
           }
         ]
@@ -79,7 +80,9 @@ We cannot see anything in a *dark (lit)* room.`
           },
           {
             qText: 'What is a shadow?',
-            options: `dark shape made when light is blocked by an object, dark reflection of the object in mirror, dark image in absence of light `
+            options: `A dark shape formed when light is blocked by an object.
+            A dark reflection of the object in mirror.
+            A dark image in the absence of light. `
           }
         ]
       }

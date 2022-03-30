@@ -74,8 +74,7 @@ export default {
           ['', 'O', 'N', '', '', '', '', '', 'S', ''],
           ['', 'N', 'G', '', '', '', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-nicknames',
@@ -144,8 +143,7 @@ export default {
           ['', '', 'L', 'U', 'C', 'K', 'N', 'O', 'W'],
           ['G', 'O', 'A', '', '', '', 'E', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-capitals',
@@ -202,8 +200,7 @@ export default {
           ['S', 'R', 'I', 'N', 'A', 'G', 'A', 'R', ''],
           ['', '', 'K', 'O', 'L', 'K', 'A', 'T', 'A']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-comics',

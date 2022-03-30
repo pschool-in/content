@@ -39,7 +39,18 @@ Root is responsible for absorbing water and other minerals from the soil. The st
       type: 'dragAndDrop',
       label: 'Parts of Plant',
       data: {
-        type: 'plant'
+        img: 'parts_plant.jpg',
+        fontSize: '1.2rem',
+        width: 249,
+        height: 235,
+        wordWidth: 50,
+        words: [
+          { word: 'roots', x: 4, y: 139 },
+          { word: 'stem', x: 190, y: 10 },
+          { word: 'leaves', x: 197, y: 78 },
+          { word: 'flower', x: 18, y: 16 },
+          { word: 'bud', x: 4, y: 88 }
+        ]
       },
       id: 'plant'
     },
@@ -247,338 +258,154 @@ Plants can move from one place to another.`
       }
     },
     {
-      label: 'Plants - Reading',
+      label: 'Plants as Food - Notes',
       type: 'passage',
-      id: 'reading-2',
+      id: 'plants-as-food-notes',
       data: {
-        title: 'Plants',
-        text: `Like our body a plant also has many parts. The main parts of a plant include root, stem, leaf, flower, fruit and seed. Each part has a set of jobs to do to keep the plant healthy.
-Roots are found below the soil and it holds the plant firmly in its position. It absorbs the water and minerals from the soil. Sometimes it also stores food. Roots are of two main types: tap root and ﬁbrous root.
-The stem is the part that stays above the ground. A stem usually bears leaves, flowers and fruits. It distributes the water and minerals from the root to the leaves and flowers. The stem is the support system of the plant.
-The leaves grow out of the side of the stem. Their main function is to make food for the plant by the process known as photosynthesis. Also they help in removing any excess water via stomata and this process is known as transpiration.
-Flowers are the reproductive part of a plant. The flower has both female parts, called the pistil, and male parts, called the staemens. They work together to fertilize the plant and produce seeds.
-The fruit is a fleshy or dry ripened part of a plant, enclosing the seed or seeds.
-The hard part inside the fruit is called seed. Most plants grow from seeds.`
+        title: 'Plants as Food',
+        text: `Humans and other animals often use plants as food. Plants we eat are edible. Edible parts of some plants include leaves, stems and roots. We also eat fruits produced by plants.
+        # Roots as food
+        Many plants store excess food in their roots. They have thick and swollen roots. Eg: Carrot, Beetroot, Tapioca
+        # Stems as food
+        In some plants the stem stores the excess food in it. Eg: sugarcane, potato, onion, ginger. Though some of them grow underground, they are not roots. 
+        # Leaves as food
+        We eat the leaves of plants like cabbage, coriander,moringa.
+        # Flowers as food
+        Many flowers are used as food. Eg: banana flower, Cauliflower, clove.
+        # Seeds as food.
+        Grains are seeds.  Pulses, cereals, fenugreek are the commonly eaten seeds.`
       }
     },
+
     {
-      label: 'Terrestrial vs Aquatic-1',
-      id: 'terrestrial-aquatic',
-      type: 'group',
+      label: 'Roots - Notes',
+      type: 'passage',
+      id: 'notes-2',
       data: {
-        title: 'Classify the below plants based on the habitat they belong',
-        types: [
-          {
-            name: 'Terrestrial',
-            text: 'sunflower, rose, daffodils, poison ivy'
-          },
-          {
-            name: 'Aquatic',
-            text: 'lotus, water lily, duckweed, watercress'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Terrestrial vs Aquatic-2',
-      id: 'classify-2',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on the habitat they belong',
-        types: [
-          {
-            name: 'Terrestrial',
-            text: ' tulip, cactus, papaya, pineapple, apricot'
-          },
-          {
-            name: 'Aquatic',
-            text: 'water hyacinth, hydrilla, vallisneria'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Free floating vs Fixed rooted',
-      id: 'classify-3',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants into their respective type',
-        types: [
-          {
-            name: 'Free floating',
-            text: 'duckweed, mosquito fern, water hyacinth, pistia'
-          },
-          {
-            name: 'Fixed rooted',
-            text: 'lotus, watershield, water lily'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Fixed rooted vs Submerged',
-      id: 'classify-4',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants into their respective type',
-        types: [
-          {
-            name: 'Fixed rooted',
-            text: 'lotus, watershield, water lily'
-          },
-          {
-            name: 'Submerged',
-            text: 'vallisneria, hydrilla, pondweed'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Desert vs Mountain vs Plain',
-      id: 'classify-5',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants into their respective type',
-        types: [
-          {
-            name: 'Desert',
-            text: 'opuntia, aloe vera, cactus, date palm'
-          },
-          {
-            name: 'Mountain',
-            text: 'pine, maple, cedar, oak, deodar'
-          },
-          {
-            name: 'Plain',
-            text: 'mango, banyan, teak'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Cold climate vs Hot climate',
-      id: 'classify-6',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on the climate they grow in',
-        types: [
-          {
-            name: 'Cold climate',
-            text:
-              'beet, carrot, turnip, radish, kale, spinach, pea, onion, lettuce, potatoes'
-          },
-          {
-            name: 'Hot climate',
-            text:
-              'lily, rose, chrysanthemum, bougainvillea, brinjal, chilli, cucumber, tomato'
-          }
-        ]
-      }
-    },
-    {
-      label: 'One seed vs Many seeds vs Seedless',
-      id: 'classify-7',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below fruits based on the number of seeds they produce',
-        types: [
-          {
-            name: 'One seed',
-            text: 'avocado, mango, cherry, apricot'
-          },
-          {
-            name: 'Many seeds',
-            text:
-              'guava, watermelon, strawberry, figs, jackfruit, tomato, pomegranate'
-          },
-          {
-            name: 'Seedless',
-            text: 'pineapple, banana'
-          }
-        ]
-      }
-    },
-    {
-      label: ' Tap root vs Fibrous root',
-      id: 'classify-8',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below plants based on the type of root system the contain.',
-        types: [
-          {
-            name: 'Tap root',
-            text: 'beet root, carrot, parsnip, parsley'
-          },
-          {
-            name: 'Fibrous root',
-            text: 'rice, wheat, barley, oats, rye, millet'
-          }
-        ]
-      }
-    },
-    {
-      label: ' Weak vs Strong',
-      id: 'classify-9',
-      type: 'group',
-      data: {
-        title:
-          'Classify the below plants based on the type of stem the contain',
-        types: [
-          {
-            name: 'Weak',
-            text: 'watermelon, grapes, pumpkin, bean, cucumber'
-          },
-          {
-            name: 'Strong',
-            text: 'neem, banyan, mango, deodar'
-          }
-        ]
-      }
-    },
-    {
-      id: 'match-4',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Root, Absorption
-Stem, Support
-Leaf, Photosynthesis
-Flower, Reproduction
-Seed, Germination`,
-        title: 'Match the plant parts with their function'
-      }
-    },
-    {
-      id: 'plant-fillup',
-      label: 'Plants - Fill in the Blanks ',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `*Fibrous (tap)* roots are developed from the base of the stem.
-Avecinnia plants have roots *above (below)* the ground.
-Trees such as peepal and banyan have very strong and thick stem called *trunk (wood)*.
-The loss of water in the form of gas happens through the tiny pores in the leaves is called *transpiration (evaporation)*.`
-      }
-    },
-    {
-      id: 'plant-fillup-2',
-      label: 'Plants - Fill in the Blanks ',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `The soft and brightly colored part of a flower is called *petal (tepal)*.
-The green part that lies under the petal and supports it is called *sepal (petal)*.
-The middle of the flower has two parts called the *stamen (style)* and pistil.
-The natural home of a plant is called its *habitat (niche)*.
-Plants make suitable adjustment with their surroundings to meet their requirements. This is known as *adaptation (evolution)*.`
+        title: 'Roots',
+        text: `Root is a part of the plant that usually grows under the soil. Roots can be of different shapes and sizes. They are of two main types: taproot and fibrous root.
+        # Taproot
+        Taproot has one main, thick root. It grows from the radicle and goes deep into the soil. Many small thin roots grow out from the main root. Plants such as carrot, beetroot, turnip, mango and neem have taproots. 
+        # Fibrous Root
+        A fibrous root consists of many thin roots of different sizes. They grow from the base of the stem and all of them are bunched together. They do not go deep into the soil. Plants such as grass, paddy, wheat and onion have fibrous roots. Coconut and palm tree have fibrous root.
+        In some plants, roots store food. Eg: Carrot, Beetroot, Radish`
       }
     },
     {
       label: 'True or False',
-      id: 'true-false-5',
+      id: 'roots-true-false',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
         types: [
           {
             name: 'True',
-            text: `Deserts get very less rainfall and experience high temperature.
-Leaves are changed to spines to reduce the loss of water.
-Needle like leaves help them to survive in cold conditions like snow.
-Plants in plains need to adapt to both dry conditions and extreme temperatures`
+            text: `Grass has fibrous root.
+            Taproot usually grow very deep.
+            Neem and mango trees have tap root.
+            Palm and coconut trees have fibrous root.`
           },
           {
             name: 'False',
-            text: `Banyan, Peepal and Tamarind trees live less than hundred years.
-Mountain trees leaves are called frond`
+            text: `All trees have tap root.
+            Fibrous root has one main root.`
           }
         ]
       }
     },
     {
-      id: 'words',
-      type: 'sequence',
-      label: 'Words related to plants',
-      commonData: {
-        title: 'connect the letter to create word'
-      },
-      data: [`Plant, leaf, bud, flower, root, desert, mountain, seed`]
-    },
-    {
-      type: 'rightOne',
-      id: 'odd-one',
-      label: 'Odd one out',
+      label: ' Tap root vs Fibrous root',
+      id: 'roots-classify',
+      type: 'group',
       data: {
-        title: 'Odd one out',
-        fontSize: '1.3rem',
-        noCaps: true,
-        text: `Tomato, Carrot, Radish, Beetroot
-Turmeric,Cabbage,  Greens,  Spinach
-Neem,  Aloe vera,  Datepalm,  Opuntia
-Mango, Apple, Orange, Papaya
-Opuntia, Hydrilla,  Water hyacinth, Vallisneria`
+        types: [
+          {
+            name: 'Tap root',
+            text: 'Beetroot, Carrot, Neem, Banyan, Mango'
+          },
+          {
+            name: 'Fibrous root',
+            text: 'Paddy, Wheat, Grass, Palm, Coconut'
+          }
+        ]
       }
     },
     {
-      id: 'match-7',
-      label: 'Match the following',
-      type: 'match',
+      label: 'Stem - Notes',
+      type: 'passage',
+      id: 'stem-notes',
       data: {
-        text: `Deserts, Cactus
-Mountains, Pine
-Plains, Teak
-Coastal areas, Coconut
-Trees, Neem`,
-        title: 'Match plants to the parts we eat'
+        title: 'Stem',
+        text: `Stem is the main part of the shoot system. It grows towards the sunlight. It looks green when it is young. Branches, leaves, buds, flowers and fruits grow from the stem.
+Herbs such as coriander and mint have a thin and weak stem. Trees such as peepal and banyan have very strong and thick stem called trunk. As trees grow older, their trunks grow wider.
+# Functions of the Stem
+1. It supports the whole plant.
+2. It transports food from leaf and water from root to various parts of the plant.
+3. Some stems store excess food in them. E.g., Potato, Onion.`
       }
     },
     {
-      label: 'Plants - Choose the best Answer',
+      label: 'Fill in the Blanks',
+      id: 'stem-fillup',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Stem is the main part of the *shoot* system. It grows towards the *sunlight*. Herbs like coriander have a *weak* stem. Banyan tree has a *strong* stem and it is called *trunk*.`
+      }
+    },
+    {
+      label: 'Fruits and Seeds - Notes',
+      type: 'passage',
+      id: 'fruits-notes',
+      data: {
+        title: 'Fruits and Seeds',
+        text: `Fruit is the fleshy part of the plant. The fruits are developed from the flowers. Most fruits have seeds. Some fruits have only one seed. Eg: Apricot, Mango, Coconut, Peach.
+Some fruits have many seeds. Eg: Papaya, Watermelon, Orange
+Some fruits are seedless. Eg: Pineapple, Banana`
+      }
+    },
+    {
+      label: ' Single vs Multiple Seeds',
+      id: 'seeds-classify',
+      type: 'group',
+      data: {
+        types: [
+          {
+            name: 'Single Seed',
+            text: 'Mango, Coconut, Cherry, Date'
+          },
+          {
+            name: 'Multiple Seeds',
+            text: 'Papaya, Watermelon, Orange, Apple'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Choose the best Answer',
       id: 'mcq-plants',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText:
-              ' Which part of the plant absorbs water and nutrients for the plants?',
-            options: 'Roots, Leaves, Stem'
-          },
-          {
-            qText:
-              ' Which part of the plant transports food from leaf and water from root to various parts of the plant?',
-            options: 'Stem, Flower, Fruit'
-          },
-          {
-            qText:
-              ' The plant that grows in deserts and needs very little water is called ______',
-            options: 'Cactus, Rose, Marigold'
-          },
-          {
-            qText:
-              ' ______ are the colourful part of a flower which attracts insects and birds.',
-            options: 'Petals, Pistils, Stamens'
-          },
-          {
-            qText:
-              ' The leaves carries out transpiration through tiny pores called ______.',
-            options: 'stomata, petiole, lamina'
-          },
-          {
-            qText:
-              ' Primary function of the ______ is to hold up buds, flowers, leaves, and fruits to the plant.',
-            options: 'stem, root, branch'
-          },
-          {
-            qText: ' Which of the following fruits that do not have seeds?',
+            qText: 'Which of the following fruits do not have seeds?',
             options: 'Pineapple, Papaya, Apricot'
           },
           {
-            qText:
-              'The plants that grow in water bodies like ponds and lakes are called ______ plants.',
-            options: 'aquatic, terrestrial, coastal'
+            qText: 'Which of the following is not part of shoot system?',
+            options: 'Root, Stem, Seed, Flower'
+          },
+          {
+            qText: `Which of the following doesn't have fibrous root?`,
+            options: 'Radish, Paddy, Grass, Wheat'
+          },
+          {
+            qText: 'Which fruit has exactly one seed?',
+            options: 'Cherry, Apple, Banana, Orange'
+          },
+          {
+            qText: 'Which part of the plant supports the whole plant?',
+            options: 'Stem, Branch, Leaf, Fruit'
           }
         ]
       }

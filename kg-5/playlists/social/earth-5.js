@@ -10,8 +10,7 @@ export default {
       id: 'reading',
       data: {
         title: 'Earth',
-        text: `# Origin of Earth.
-Millions of years ago an explosion called 'The Big Bang' occurred. Numerous stars and celestial bodies came into existence by that massive explosion. These celestial bodies together called the Universe or Cosmos. 
+        text: `Millions of years ago an explosion called 'The Big Bang' occurred. Numerous stars and celestial bodies came into existence by that massive explosion. These celestial bodies together called the Universe or Cosmos. 
 1. Universe: The Universe is a vast expanse of space. The Universe consists of billions of galaxies, stars, planets, comets, asteroids, meteoroids and natural satellites.
 2. Galaxy: Galaxy has a huge cluster of stars. Our galaxy is called ‘Milky way’. There are billions of galaxies in the Universe.
 3. Solar System : It consists of the sun, the planets, their moons, dwarf planets,asteroids and comets. These objects are bound by Earth's gravitational force.
@@ -83,7 +82,8 @@ There are 5 continents and 7 oceans.`
 Blue planet - *Earth*
 Ringed planet - *Saturn*
 Smallest planet - *Mercury*
-Largest planet - *Neptune*`
+Hottest planet - *Venus*
+Largest planet - *Jupiter*`
       }
     },
     {
@@ -111,29 +111,28 @@ Second largest continent - *Africa*`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'The distance between the earth and the sun is ___________.',
-            options: '150 million kilometre, 50km, 1500km'
+            qText: 'The distance between the earth and the sun is ______.',
+            options: '150 million kilometre, 50 km, 1500 km'
           },
           {
-            qText: '_____________ is caused due to revolution of the Earth.',
-            options: 'season, day, night'
+            qText: '______ is caused due to revolution of the Earth.',
+            options: 'Season, Day, Night'
           },
           {
-            qText: 'The continent which is covered by ice is _____________.',
+            qText: 'The continent which is covered by ice is _______.',
             options: 'Antarctica, Australia, Asia'
           },
           {
-            qText: 'The biggest continent is ______________.',
+            qText: 'The biggest continent is _______.',
             options: 'Asia, Africa, Australia'
           },
           {
-            qText: '_____________ is described as Red Planet. ',
+            qText: '_______ is described as Red Planet. ',
             options: 'Mars, Venus, Mercury'
           },
           {
-            qText:
-              '____________ Percentage of our earth is covered by salt water ',
-            options: '97%, 71%, 81%'
+            qText: '_____ Percentage of our earth is covered by salt water ',
+            options: ' 71 %, 97 %, 81 %'
           }
         ]
       }
@@ -164,12 +163,12 @@ Second largest continent - *Africa*`
       type: 'passage',
       id: 'reading-2',
       data: {
-        title: 'World',
+        title: 'More about our World',
         text: `# Asia
-1. It is the largest continents.
+1. It is the largest continent.
 2. China and India has the highest population both in Asia and the World.
 3. Highest point on earth is in Asia
-4. Asia is the birth point of many great ancient civilization.
+4. Asia is the birth place of many great ancient civilization.
 5. Major countries in Asia: India, Japan,Singapore, Malaysia, Saudi Arabia, Sri Lanka, Nepal, Pakistan, Maldives,Philippines, Afghanistan, Thailand and Indonesia.
 # India
 1. Land of unity in diversity.
@@ -178,9 +177,9 @@ Second largest continent - *Africa*`
 4. Monuments in India:  India Gate in Delhi, Sanchi Stuba near Bhopal, Gateway of India in Mumbai, St George Fort and Taj Mahal in Agra.
 # Africa
 1. Africa is the second largest continent.
-2. The world's longest river the Nile and the world's largest desert the Sahara, are in Africa.
-3. More than 50% of the world's gold and diamonds come from the mineral rich continent of Africa.
-4. Also called The Dark Continent.
+2. The world's longest river, the Nile and the world's largest desert, the Sahara, are in Africa.
+3. More than 50% of the world's gold and diamond come from this mineral rich continent.
+4. Also called the Dark Continent.
 # North America
 1. North America is the third largest continent by area.
 2. The largest fresh water lake, Lake Superior is located in this continent.
@@ -189,7 +188,7 @@ Second largest continent - *Africa*`
 5. Major countries in North America: Canada, Mexico, Nicaragua, Honduras, Cuba, Guatemala, Panama and Costa Rica.
 # South America
 1. The world's largest river is in South America.
-2. Brazil a country in South America is one of the largest coffee producer in the world.
+2. Brazil, a country in South America is one of the largest coffee producers in the world.
 3. The Andes is one of the longest mountain range in South America.
 4. One of the highest volcanoes of the world, Mt. Cotopaxi is found in this continent.
 5. Major countries in South America: Argentina, Bolivia, Brazil, Colombia, Ecuador, Paraguay, Peru, Uruguay and Venezuela.
@@ -233,7 +232,7 @@ Australia, Tasmania `,
       type: 'match',
       data: {
         text: `Taj Mahal, India
-The Great Wall of China, China
+The Great Wall, China
 Petra, Jordan
 Machu Picchu, Peru
 Colosseum, Rome`,
@@ -263,16 +262,11 @@ Lake Superior is in Africa.`
       }
     },
     {
-      label: 'Choose the correct answer',
+      label: 'Fill up',
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The Great Wall of *China* is the man made structure that can be seen from space.
 Seven continents of the world were joined together as a single huge landmass called *Pangaea*.
 Taj Mahal is situated in Agra on the banks of river *Yamuna*.
@@ -293,13 +287,11 @@ The world's smallest country, the *Vatican City*, is in Europe.`
         },
         text: `Highest volcano - *Mt. Cotopaxi*
 Smallest country - *Vatican City*
-World’s biggest lake - *Caspian sea*
 White continent - *Antarctica*
-World’s largest coffee producer - *Brazil*
+World's largest coffee producer - *Brazil*
 Only continent to have all climatic types - *N.America*
-Largest fresh water lake - *Lake Superior*
-World’s longest river - *Nile*
-World’s largest desert - *Sahara*`
+World's longest river - *Nile*
+World's largest desert - *Sahara*`
       }
     },
     {
@@ -310,7 +302,7 @@ World’s largest desert - *Sahara*`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'The continent which is covered by ice is _____________.',
+            qText: 'The continent which is covered by ice is _______.',
             options: 'Antarctica, Australia, Asia'
           },
           {
@@ -323,7 +315,7 @@ World’s largest desert - *Sahara*`
           },
           {
             qText: '____________ is the longest river in the world.',
-            options: 'Nile, Kaveri, Ganga'
+            options: 'Nile, Amazon, Kaveri, Ganga'
           },
           {
             qText: 'Penguins are found in __________',

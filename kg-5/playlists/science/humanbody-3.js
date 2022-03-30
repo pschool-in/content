@@ -402,7 +402,7 @@ When we work, we need to have co-ordination in all the tasks. Difficulties may a
 # Disability
 If any organ does not function well, we may face difficulties in doing our work. We must not give up in the face of difficulties. They can be overcome.
 # Overcoming Disability
-Some disabilities can be corrected by medical treatment. In some matters, we can take the help of other people. Often, some special devices can be used to overcome the disability.
+Some disabilities can be corrected by medical treatment. In some matter, we can take the help of other people. Often, some special devices can be used to overcome the disability.
 1. If we cannot see well, we can use spectacles.
 2. If we cannot see at all, we can make use of sounds, or feel with our hands to get things done.
 3. A person who cannot hear well, can use a hearing aid.

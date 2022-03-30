@@ -29,7 +29,7 @@ A natural event such as an earthquake or flood that causes great damage and loss
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Rain that falls at times other than in the rainy season is called *untimely* rain.
+        text: `Rain the comes in non-rainy season is called *untimely* rain.
 *Hailstorms* can injure people as well as animals.
 Sometimes *flood* waters enter areas where people are living.
 One should go to a place at a *height* till floods recede.

@@ -6,7 +6,7 @@ export default {
     {
       id: 'reading',
       type: 'passage',
-      label: 'Stone Age - Notes',
+      label: 'Notes',
       data: {
         title: 'Stone Age',
         text: `In the beginning, humans were not aware of metals. They took several years to discover metals. Our lives today are their gifts. The Stone Age is the period in which Stones were used as weapons.
@@ -33,7 +33,6 @@ Early humans used weapons to protect themselves from animals. They used torches 
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -96,12 +95,6 @@ Quartzite was used to produce fire.`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `The time before metals were discovered is knowns as *Stone* age.
 New stone age was also known as *Neolithic* age.
 *Pottery* was also one of the greatest inventions by Stone Age people.
@@ -130,7 +123,6 @@ Numismatics is the study and collecting of coins and the history behind the coin
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {

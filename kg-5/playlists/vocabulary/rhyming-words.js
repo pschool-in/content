@@ -8,12 +8,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop',
       commonData: {
-        isPractice: false,
-        title: 'Drag and drop the rhyming words at the right boxes.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 100
-        }
+        fontSize: '1.3rem',
+        dashWidth: 100
       },
       data: [
         `boat, coat, *goat*

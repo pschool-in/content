@@ -52,6 +52,13 @@ let mainMenu = {
       label: 'Tamil',
       id: 'tamil',
       img: 'tamil',
+      dynamic: true
+    },
+    /*
+    {
+      label: 'Tamil',
+      id: 'tamil',
+      img: 'tamil',
       alt: 'tamil icon',
       desc: 'Tamil group',
       separateApp: {
@@ -59,7 +66,14 @@ let mainMenu = {
         label: 'www.palagutamil.in'
       },
       dynamic: true
+    },*/
+    {
+      label: 'Hindi',
+      id: 'hindi',
+      img: 'hindi',
+      dynamic: true
     },
+    /*
     {
       label: 'Hindi',
       id: 'hindi',
@@ -71,7 +85,7 @@ let mainMenu = {
         label: 'hi.pschool.in'
       },
       dynamic: true
-    },
+    },*/
     {
       label: 'Telugu',
       id: 'telugu',
@@ -100,6 +114,13 @@ let mainMenu = {
       label: 'Bengali',
       id: 'bengali',
       img: 'bengali',
+      dynamic: true
+    }
+    /*
+    {
+      label: 'Bengali',
+      id: 'bengali',
+      img: 'bengali',
       alt: 'bengali icon',
       desc: 'bengali group',
       separateApp: {
@@ -108,6 +129,7 @@ let mainMenu = {
       },
       dynamic: true
     }
+    */
   ]
 };
 //Rethna: The below code is used to detect the number of activites

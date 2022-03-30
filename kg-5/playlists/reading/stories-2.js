@@ -263,7 +263,7 @@ But the other frog was deaf, and tried hard and came out.`
       data: {
         title: 'Tenali Raman and Two Thieves',
         text: `One summer night, when Tenali Raman and his wife were about to sleep, he heard a rustling sound of leaves from outside. There was not even a light breeze blowing at that time, so he presumed that some thieves were hiding in the bushes. He figured out that they must be planning to rob his house in the night.
-He thought of a plan and said to his wife, “My dear, I think that some notorious thieves are hiding in our neighborhood. So, let’s hide all the jewelry and money that we have in the well.
+He thought of a plan and said to his wife, “My dear, I think that some notorious thieves are hiding in our neighborhood. So, let’s hide all the jewellery and money that we have in the well.
 A little later, Tenali Raman and his wife came out of the house carrying a big trunk and dropped it into the well. Then, they went back inside their house and pretended to be asleep. The thieves waited for a while and then started drawing water from the well.
 They wanted to empty the water in the well and get the treasure. The thieves kept drawing out water, the entire night. Towards dawn, they managed to pull out the trunk, and when they opened it, they were extremely shocked and disappointed to see only some big stones in it.
 They understood that Tenali Raman planned to outsmart them. Just then, Tenali Raman came out of his house and said, “Thank you friends, for watering my plants. I must pay you for your labor.”

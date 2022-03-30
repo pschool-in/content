@@ -284,7 +284,6 @@ Maharashtra , Mumbai`
       label: 'Biggest, Longest, Largest - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -329,7 +328,6 @@ Maharashtra , Mumbai`
       label: 'Neighboring Countries',
       type: 'group',
       data: {
-        editable: true,
         title: 'Group the below countries as neighboring or not.',
         types: [
           {
@@ -348,7 +346,6 @@ Maharashtra , Mumbai`
       label: 'India - MCQ',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {

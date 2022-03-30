@@ -518,7 +518,7 @@ tiger|ಹು,ಲಿ |_,ಲಿ |ಹು, ಹ, ರು, ಇ`
       label: 'Parts of Face ',
       type: 'dragAndDrop',
       data: {
-        img: 'face',
+        img: 'parts_face.jpg',
         title: 'Parts of Face',
         width: 250,
         height: 296,
@@ -569,7 +569,6 @@ tiger|ಹು,ಲಿ |_,ಲಿ |ಹು, ಹ, ರು, ಇ`
         text: 'ಉ ಗು ರು, ಕ ಮ ಲ, ಚ ರ ಕ, ಫ ಲ ಕ, ಧ ನು ಸ್ಸು',
         title: 'Connect the blocks to form meaningful word.'
       },
-      editable: true,
       id: 'jumbled-word',
       label: 'Jumbled Word',
       type: 'sequence'
@@ -579,7 +578,6 @@ tiger|ಹು,ಲಿ |_,ಲಿ |ಹು, ಹ, ರು, ಇ`
         text: 'ಭಾನುವಾರ, ಸೋಮವಾರ, ಮಂಗಳವಾರ, ಬುಧವಾರ, ಗುರುವಾರ, ಶುಕ್ರವಾರ, ಶನಿವಾರ ',
         title: 'Sort the days of the week in order'
       },
-      editable: true,
       id: 'sort-days',
       label: 'Days of the week',
       type: 'sorting'
@@ -630,7 +628,6 @@ tiger|ಹು,ಲಿ |_,ಲಿ |ಹು, ಹ, ರು, ಇ`
           }
         ]
       },
-      editable: true,
       id: 'wordsearch',
       label: 'WordSearch',
       type: 'wordsearch'

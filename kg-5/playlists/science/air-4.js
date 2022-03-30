@@ -72,7 +72,6 @@ At heights air is denser.`
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `biosphere, atmosphere, stratosphere
 xenon, oxygen, nitrogen, carbon dioxide`
       }

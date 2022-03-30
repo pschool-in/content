@@ -197,7 +197,6 @@ D, 500`
       commonData: {
         title: `Pick the biggest number.`,
         printTitle: 'Circle the biggest number.',
-        noCaps: true,
         fontSize: '1.3rem'
       },
       data: [
@@ -239,7 +238,6 @@ CD, XC, C, CL`
       commonData: {
         title: `Pick the smallest roman number.`,
         printTitle: 'Circle the smallest number.',
-        noCaps: true,
         fontSize: '1.3rem'
       },
       data: [

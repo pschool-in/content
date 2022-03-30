@@ -24,12 +24,6 @@ Gir National Park in Gujarat has Asiatic Lions. This is the only forest in India
       type: 'matchByDragDrop',
       id: '600',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Vendanthangal* Sanctuary is famous for migrating birds.
 *Gir* forest is famous for lions.
 *Kaziranga* National Park in Assam, is the home of one-horned rhinoceros.

@@ -9,7 +9,6 @@ export default {
       type: 'passage',
       label: 'Passage',
       data: {
-        editable: true,
         title: 'Air - Introduction',
         text: `Air is a natural resource. We cannot live without it. It is present around us. It has no definite shape and colour. Air has weight and it occupies space. We cannot see air but it can be felt. Air can flow everywhere.
 Push an empty cup upside down into the water. Slowly turn the cup. You can see air bubbles coming out of the cup.
@@ -108,7 +107,6 @@ We release oxygen during breathing.`
       label: 'Choose the correct answer',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -195,8 +193,8 @@ We do not require air to function properly.`
       data: {
         text: `The process by which we breathe in air through our nose.| INHALATION| I_H__A_I__
 The process by which we breathe out air through the nose.|EXHALATION| E_H__A_I__
-Inhalation and exhalation are together called _____________.|BREATHING| B___T___G
-The process by which we breathe continuously is caleed ______________.|RESPIRATION|R__P_R___O_`
+Inhalation and exhalation are together called ________.|BREATHING| B___T___G
+The process by which we breathe continuously is called ________.|RESPIRATION|R__P_R___O_`
       }
     }
   ]

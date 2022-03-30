@@ -158,7 +158,7 @@ He asked his friend to keep his iron balance for some time.`
         img: {
           url: 'story/26_well_dispute.jpg'
         },
-        text: `Once there was a complaint at King Akbar's court. Two neighbors shared their garden. In that garden, there was a well that was possessed by Iqbal Khan. His neighbor, who was a farmer wanted to buy the well for irrigation purposes. Therefore, they signed an agreement between them, after which the farmer-owned the well.
+        text: `Once there was a complaint at King Akbar's court. Two neighbours shared their garden. In that garden, there was a well that was possessed by Iqbal Khan. His neighbor, who was a farmer wanted to buy the well for irrigation purposes. Therefore, they signed an agreement between them, after which the farmer-owned the well.
 Even after selling the well to the farmer, Iqbal continued to fetch water from the well. Angered by this, the farmer had come to get justice from King Akbar. King Akbar asked Iqbal the reason for fetching water from the well even after selling it to the farmer. Iqbal replied that he sold only the well to the farmer but not the water inside it.
 King Akbar wanted Birbal, who was present in the court listening to the problem, to solve the dispute. Birbal came forward and gave a solution. He said, "Iqbal, You say that you have sold only the well to the farmer. And you claim that the water is yours. Then how come you can keep your water inside another person's well without paying rent?"
 Iqbal's trickery was countered. The farmer got justice and Birbal was fairly rewarded.`

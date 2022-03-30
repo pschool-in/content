@@ -12,34 +12,34 @@ export default {
         text: `Hydrosphere is the total amount of water present on a planet. The hydrosphere includes water that is present on the surface of the planet, underground, and in the air. Therefore, a planet’s hydrosphere can be in the form of liquid, vapour, or solid in the form of ice.
 Hydrosphere covers about 71% of the planet Earth. This includes water in liquid and frozen forms. 97% of our Earth's water is salt water and only 3% is fresh water. Water can be found in ground, lakes, rivers and also frozen as ice in the form of glaciers and icebergs.
 # Importance of Hydrosphere
-We need water to carry out many activities in our daily lives. We need water to drink, take bath, cook food etc. Animals and plants also need water for their survival. If there is no water, it cannot evaporate and form clouds. So there will not be any rain.
+We need water to carry out many activities in our daily life. We need water to drink, take bath, cook food etc. Animals and plants also need water for their survival. If there is no water, it cannot evaporate and form clouds. So there will not be any rain.
 # Oceans
 Oceans are vast water bodies that usually separate continents from one another. The water is salty in nature. There are five oceans on earth. They are: Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean.
-#  Sea
+# Sea
 Seas are also vast water bodies but smaller than oceans in size. They are partly closed by land and opens up to the ocean. Sea water is salty in nature. 
 Example: Arabian Sea, Bay of Bengal, Dead Sea. There is no aquatic life in Dead Sea because it is too salty.
 # Rivers
 Rivers are large streams that flow over the land. Rivers are fresh water bodies which generally begin at mountainous areas. They usually drain in oceans or seas.
-Some of the longest flowing rivers in India are the Ganges, Yamuna, Godavari, Krishna and Cauvery.
+Some of the longest flowing rivers in India are the Ganges, Yamuna, Godavari, Krishna, Kaveri.
 # Lakes
 A lake is a water body surrounded by land on all sides. Lakes can have salt or fresh water.
 Vembanad Lake is the largest lake in India which is present in Kerala, near the Arabian Sea. Wular Lake is the largest fresh water lake in India. 
 # Gulf
 A gulf is a large area of an ocean or a sea that is surrounded by land. Example: Gulf of kutch.
 # Bay
-A bay is a body of water, which is partially enclosed by land. It has a wide mouthed opening of land, and is joined to the sea or other large water bodies.  Example: Bay of Bengal.
+A bay is a body of water, which is partially enclosed by land. It has a wide mouthed opening of land, and is joined to the sea or other large water bodies. Example: Bay of Bengal.
 # Lagoon
 A stretch of salt water separated from the sea by a low sand bank.
 Example: Lake Chilika in Odisha.
 # Strait
 A strait is a narrow stretch of water which joins two larger water bodies. Example: Palk Strait joining the Bay of Bengal and the Indian Ocean.
 # Waterfall:
-Waterfall forms when a river flows from a great height.
+Waterfall forms when a stream, or river flows from a great height.
 # Water Cycle
-Rivers, lakes and ponds get water through rain. Different parts of the land get different amount of rains due to various geographical reasons. In India, Chirapunchi receives the maximum amount of rainfall.
+Rivers, lakes and ponds get water through rain. Different parts of the land get different amount of rain due to various geographical reasons. In India, Chirapunchi receives the maximum amount of rainfall.
 # Preserving Water
-We should be very careful about how we use the water. We have the choice to conserve water resources or pollute them further. Water pollution is a common phenomenon around us. We throw garbage, join sewage to rivers and so on, making river water  contaminated and not fit for use. This, increases the scarcity of  water for household use.
-It is incredible that a wide variety of earth’s  living organisms exist within the oceans.  Earth is made up of land, water and air. Water is necessary for all life forms. Only 3% of the water is found in ground, lakes, ponds, streams and  rivers .`
+We should be very careful about how we use the water. We have the choice to conserve water resources or pollute them further. Water pollution is a common phenomenon around us. We throw garbage, join sewage to rivers and so on, making river water contaminated and not fit for use. This increases the scarcity of water for household use.
+It is incredible that a wide variety of earth’s living organisms exist within the oceans. Earth is made up of land, water and air. Water is necessary for all life forms. Only 3% of the water is found in ground, lakes, ponds, streams and rivers .`
       }
       /*
 Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in India.*/
@@ -88,7 +88,6 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -121,17 +120,17 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
               'Water pollution, Evaporation, Animals that drinks water, Fishes'
           },
           {
-            qText: 'Living things cannot be found in ______.',
+            qText: 'Living things are not found in ______.',
             options: 'Dead Sea, Arabian Sea, Indian Ocean'
           },
           {
             qText:
               'Hydrosphere is the total amount of __________ present on Earth.',
-            options: 'Water, Air, Land, Plants'
+            options: 'water, air, land, plants'
           },
           {
             qText:
-              'Water body that is surrounded by land on all side is called _______',
+              'Water body that is surrounded by land on all sides is called _______',
             options: 'Gulf, Lake, Bay, River'
           },
           {

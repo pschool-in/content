@@ -287,9 +287,9 @@ export default {
       label: 'Number Name (10-20)',
       type: 'matchByDragDrop',
       id: 'numbername1020',
-
       data: {
         fontSize: '1.6rem',
+        title: 'Drag and drop the numbers at right places.',
         text: `Fifteen : *15*
 Twenty : *20*
 Eighteen : *18*

@@ -5,7 +5,7 @@ export default {
   lockAfter: 4,
   list: [
     {
-      label: 'What is Time? - Reading',
+      label: 'What is Time?',
       type: 'passage',
       id: 'whatistime',
       data: {
@@ -81,7 +81,7 @@ Sometimes, old statues, coins, shards of pottery, old objects, etc. are found wh
       }
     },
     {
-      label: 'Fill in the blanks -1',
+      label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'timedrag-1',
       data: {
@@ -125,7 +125,7 @@ The time difference between India and London is *4(6)* hours behind.`
           {
             name: 'True',
             text: `Time is majorly divided into past, present and future.
-Historical buildings help us to understand the history, that has happened in the past.
+Historical buildings help us to understand the history.
 “The train may come late” is future tense.`
           },
           {
@@ -182,92 +182,6 @@ Historical buildings help us to understand the history, that has happened in the
         ],
         lang: 'en',
         showWords: true
-      }
-    },
-    {
-      id: 'crossword',
-      type: 'crossword',
-      label: 'Crossword - Measurement of Time',
-      data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
-        words: [
-          {
-            word: 'LeapYear',
-            marker: {
-              x: 0,
-              y: 0
-            },
-            hint: 'the year with 366 days',
-            direction: 'across'
-          },
-          {
-            word: 'february ',
-            marker: {
-              x: 9,
-              y: 0
-            },
-            hint: 'the month that may have 29 days',
-            direction: 'down'
-          },
-          {
-            word: 'December',
-            marker: {
-              x: 2,
-              y: 6
-            },
-            hint: 'the month we celebrate Christmas',
-            direction: 'across'
-          },
-          {
-            word: 'Monuments',
-            marker: {
-              x: 0,
-              y: 1
-            },
-            hint: 'very old buildings that talks history',
-            direction: 'down'
-          },
-          {
-            word: 'Hourglass',
-            marker: {
-              x: 1,
-              y: 9
-            },
-            hint: 'Ancient method to measure time',
-            direction: 'across'
-          },
-          {
-            word: 'Minute',
-            marker: {
-              x: 0,
-              y: 1
-            },
-            hint: '60 seconds',
-            direction: 'across'
-          },
-          {
-            word: 'June',
-            marker: {
-              x: 5,
-              y: 3
-            },
-            hint: 'the first of the two months that start with the same letter',
-            direction: 'down'
-          }
-        ],
-        table: [
-          ['L', 'E', 'A', 'P', 'Y', 'E', 'A', 'R', '', 'F'],
-          ['M', 'I', 'N', 'U', 'T', 'E', '', '', '', 'E'],
-          ['O', '', '', '', '', '', '', '', '', 'B'],
-          ['N', '', '', '', '', 'J', '', '', '', 'R'],
-          ['U', '', '', '', '', 'U', '', '', '', 'U'],
-          ['M', '', '', '', '', 'N', '', '', '', 'A'],
-          ['E', '', 'D', 'E', 'C', 'E', 'M', 'B', 'E', 'R'],
-          ['N', '', '', '', '', '', '', '', '', 'Y'],
-          ['T', '', '', '', '', '', '', '', '', ''],
-          ['S', 'H', 'O', 'U', 'R', 'G', 'L', 'A', 'S', 'S']
-        ],
-        lang: 'en'
       }
     }
   ]

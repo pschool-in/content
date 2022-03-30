@@ -26,7 +26,6 @@ Venus is called Earth‛s twin. Mars is described as the Red planet. Earth is ca
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -61,7 +60,6 @@ Venus is called Earth‛s twin. Mars is described as the Red planet. Earth is ca
       id: 'truefalse',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as True or False.',
         types: [
           {
             name: 'True',
@@ -72,7 +70,7 @@ Uranus and Neptune are frozen planets because they are far away from the sun.`
             name: 'False',
             text: `Jupiter is the biggest planet in the whole universe.
 The size of the universe can be measured.
-We get day and night, due to the movement of Earth around the Sun.`
+We get day and night, due to the movement of the Earth around the Sun.`
           }
         ]
       }
@@ -105,12 +103,6 @@ Biggest Planet, Jupiter`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Life is possible only on the *Earth* because of the presence of land, air and *water*.
 Solar System was a cloud of dust and gas known as Solar *Nebula*.
 A *galaxy* is a huge cluster of stars.

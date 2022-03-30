@@ -189,7 +189,6 @@ jar| jars| ja__`
       label: 'Cat or Cats',
       type: 'fillup',
       data: {
-        editable: true,
         title: 'Click on the blanks and pick the write word. (cat or cats).',
         text:
           'I saw a *cat* on the window. Suddenly, few more *cats* came from the street. One of the *cats*, was black in color. The oldest *cat* was slow in moving. Two *cats* were fighting. There was too much of noise. A gray-colored *cat* was scratching the window. I suddenly woke up and it was a bad dream. It was full of *cats*.',

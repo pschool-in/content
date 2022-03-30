@@ -516,7 +516,7 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
       label: 'Parts of Face',
       type: 'dragAndDrop',
       data: {
-        img: 'face',
+        img: 'parts_face.jpg',
         title: 'Parts of Face',
         width: 250,
         height: 296,
@@ -579,7 +579,6 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
         title: 'Match colors',
         rightImgType: 'colors'
       },
-      editable: true,
       id: 'match-colors',
       label: 'Colors',
       type: 'match'
@@ -590,7 +589,6 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
           'ఆదివారము, సోమవారం, మంగళవారం, బుధవారం, గురువారం, శుక్రవారం, శనివారం',
         title: 'Days of the week'
       },
-      editable: true,
       id: 'sort',
       label: 'Days of the week',
       type: 'sorting'
@@ -641,7 +639,6 @@ hen|కో,డి |_,డి |కో, ఐ, నె, ఎ`
           }
         ]
       },
-      editable: true,
       id: 'wordsearch',
       label: 'WordSearch - Telugu',
       type: 'wordsearch'

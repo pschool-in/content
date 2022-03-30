@@ -1,11 +1,11 @@
 export default {
   id: 'family-5',
-  label: 'Family-5',
+  label: 'Family Values',
   pdf: '',
   lockAfter: 4,
   list: [
     {
-      label: 'Family Values - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'reading',
       data: {
@@ -27,7 +27,7 @@ Gender equality means considering boys and girls as equally capable in all aspec
 4. A tolerant attitude makes it easy to preserve diversity.
 5. Men and women are equal. It is not right to discriminate between them.
 # Rules
-Our society works according to certain rules. We make the rules ourselves. We follow these rules because they are meant for the common good. Sometimes laws have to be made to abolish unjust customs. In our country, customs such as sati and child marriage were abolished by making laws that banned them.
+Our society works according to certain rules. We make the rules ourselves. We follow these rules because they are meant for the common good. Sometimes laws have to be made to abolish unjust customs. In our country, customs such as child labour and child marriage were abolished by making laws that banned them.
 # Points to remember
 1. Everyone has a responsibility to solve problems in civic life.
 2. Problems can be solved if everyone co-operates.
@@ -38,22 +38,15 @@ Our society works according to certain rules. We make the rules ourselves. We fo
       }
     },
     {
-      label: 'Rules',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
-        text: `Prohibition against loudspeakers in *public* places after 10 o’clock at night.
-Free primary education for boys and *girls*.
-Prohibition against dumping *garbage* in the river.
-Protection against domestic violence for *women*.
-*Ban* on child labour.
-Ban on felling trees, *hunting* and poaching.`
+        text: `Boys and girls should have equal rights. It is called *equality*.
+If we are *honest*, people will trust us.
+Everyone should be given an opportunity to share their *opinion*. 
+Doing a work together is *team work*.
+Children are protected from child labour though *laws*, and whoever employs children at work will be *punished*.`
       }
     },
     {
@@ -65,31 +58,16 @@ Ban on felling trees, *hunting* and poaching.`
         types: [
           {
             name: 'Good',
-            text: `Co-operating in community.
-Following rules.
+            text: `Sharing work with others in the family.
+Following rules while walking on the road.
 Treating girls and boys equally.`
           },
           {
             name: 'Bad',
-            text: `Cheating on a test paper.
-Not including your friend in your football team as she is a girl.
-Deprive girls of good food or to prevent them from going to school.`
+            text: `Kids avoiding work given by the parents.
+Not including your friend in your football team as she is a girl.`
           }
         ]
-      }
-    },
-    {
-      id: 'fillup',
-      label: 'Value - Fill Up',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Honesty is our *strength (weakness)*.
-Everyone needs *honesty (tolerance)* in public life.
-*Tolerance (Diversity)* has a special significance in our country.
-By developing a sense of equality, everyone gets to learn and make *progress (rules)*
-Our society works according to certain *rules (agenda)*.
-The Constitution of Independent India abolished *untouchability (sati)* .`
       }
     },
     {
@@ -103,14 +81,13 @@ The Constitution of Independent India abolished *untouchability (sati)* .`
           {
             name: 'Honest',
             text: `Arya borrowed a pencil from Mina. After she finished using it, she returned it.
-Jerry took the bag she found in a rickshaw to a police station.
-Renu accepted that she had broken her mother’s vase.`
+Jerry found a purse in the park, and hand it over to the police station.
+Renu accepted that she had broken the flower vase.`
           },
           {
             name: 'Dishonest',
-            text: `Sheri fell from her bicycle. However, she told her mother,“Naira pushed me off the bicycle”.
-Anjana found a lost toy and kept it for herself.
-Vignesh broke a plate and blamed it on the cat.`
+            text: `Selvi fell from her bicycle. However, she told her mother, 'Ravi pushed me off the bicycle'.
+Anjana found a toy in the garden and kept it for herself.`
           }
         ]
       }
@@ -124,26 +101,30 @@ Vignesh broke a plate and blamed it on the cat.`
         questions: [
           {
             qText: ' You meet a boy who has lost his way. What will you do?',
-            options:
-              'Take him to the nearby police station, Leave him with a stranger, Do not pay attention to the crying boy'
+            options: `Take him to the nearby police station.
+Leave him with a stranger.
+Do not pay attention to the crying boy.`
           },
           {
             qText:
               'While on a trip, you realize that our friend has forgotten her tiffin at home. What will you do?',
-            options:
-              'Share your tiffin with her, Let her starve, Ask her to go back by herself.'
+            options: `Share your tiffin with her.
+Let her starve.
+Ask her to go back by herself.`
           },
           {
             qText:
               'Your teacher is punishing your friend for a mistake that you committed. What will you do?',
-            options:
-              'Accept your mistake, Let your friend get punished, Blame it on someone you don’t like.'
+            options: `Accept your mistake. 
+Let your friend get punished. 
+Blame it on someone you don’t like.`
           },
           {
             qText:
               'Your friend tripped and fell while you were playing. What will you do?',
-            options:
-              'Help her get up, Laugh at her, Keep playing and don’t pay attention to her'
+            options: `Help her get up. 
+Laugh at her. 
+Keep playing and don't pay attention to her.`
           }
         ]
       }

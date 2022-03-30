@@ -143,8 +143,9 @@ export default {
       lockAfter: 2,
       commonData: {
         title:
-          'Fill the sequence by moving the numbers to the respective boxes',
-        styles: { fontSize: '1.5rem', dashWidth: 40 }
+          'Complete the sequence by moving the numbers to the respective boxes',
+        fontSize: '1.5rem',
+        dashWidth: 40
       },
       data: [
         `5, 10, 15, *20*, *25*, *30*

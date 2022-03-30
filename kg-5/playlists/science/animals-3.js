@@ -43,12 +43,18 @@ Spiders make cobwebs in the house. Flies, gnats and cockroaches are a nuisance t
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
-      data: {
-        text: `Bedbugs suck our *blood*.
-Spiders make *cobwebs* in the house.
-Rats destroy stored *grains*.
-Though we can see *lizards* in our house, they are not our *pet* animals. They are *uninvited* guests.`
-      }
+      data: [
+        `Bedbugs suck our *blood*.
+        Spiders make *cobwebs* in the house.
+        Rats destroy stored *grains*.
+        Though we can see *lizards* in our house, they are not our *pet* animals. They are *uninvited* guests.`,
+
+        `Birds have *two (three)* wings.
+        *Ox (Dog)* is used as a draft animal.
+        Rats and mice *trouble (help)* us.
+        Bedbugs suck *blood (sweat)* from our body
+        *Kangaroos (Monkey)* have a special pouch in their body, to carry their young ones.`
+      ]
     },
     {
       id: 'match-uninvited',
@@ -115,12 +121,16 @@ We have seen that animals around us can be grouped in different ways. We formed 
           {
             name: 'True',
             text: `Butterflies have six legs.
+            Fishes have fins, scales in their body.
+            Eagle flies higher than the pigeon.
+Spiders are insects with eight legs.
 Bats are not birds.`
           },
           {
             name: 'False',
             text: `Butterflies are not insects.
 Bats have feathers.
+Dogs have scales in their body.
 Cows are always black or white in color.`
           }
         ]

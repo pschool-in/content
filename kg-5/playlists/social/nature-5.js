@@ -10,7 +10,7 @@ export default {
       id: 'reading',
       data: {
         title: 'Environment and Us',
-        text: `The population of the world is now close to six hundred crores. Man is developing new technology to meet the needs of all these people, and is using up more and more land and water resources for this purpose. There are inter-relationships between all living and non-living things in the environment. Different kinds of plants, animals and micro-organisms are found in different regions. The balance between the cycles of the various gases in the atmosphere, the water cycle and food chains has been maintained for thousands of years. Pollution is a major thread to the environment. We should make efforts to stop the degradation of the environmental balance caused by human intervention. Eg: Devrais, National Parks and Sanctuaries are created for the conservation of plants and animals.`
+        text: `The population of the world is now close to six hundred crores. Man is developing new technology to meet the needs of all these people, and is using up more and more land and water resources for this purpose. There are inter-relationships between all living and non-living things in the environment. Different kinds of plants, animals and micro-organisms are found in different regions. The balance between the cycles of the various gases in the atmosphere, the water cycle and food chains has been maintained for thousands of years. Pollution is a major threat to the environment. We should make efforts to stop the degradation of the environmental balance caused by human intervention. Eg: Devrais, National Parks and Sanctuaries are created for the conservation of plants and animals.`
       }
     },
     {
@@ -18,12 +18,6 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `An area which is reserved for the purpose of protecting and conserving the biodiversity of a region - *Biodiversity park*
 Reserved areas for the protection and conservation of wildlife - *National park*
 Certain forest areas reserved for the protection and conservation
@@ -37,7 +31,7 @@ Jungle reserved for God - *Devrais*`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the belowthe activities based on if they cause pollution or not. ',
+          'Classify the below activities based on if they cause pollution or not. ',
         types: [
           {
             name: 'Yes',
@@ -67,7 +61,7 @@ Using alternate energy source.`
 Man is developing new technology to meet the *needs (greed)* of all these people.
 There are *inter-relationships (balance)* between all living and non-living things in the environment.
 The *balance (harmony)* between the cycles of the various gases in the atmosphere, the water cycle and food chains is termed environmental balance.
-*Pollution (Man)* is a major thread to the environment.
+*Pollution (Man)* is a major threat to the environment.
 We *should (should not)* make efforts to stop the degradation of the environmental balance caused by human intervention.`
       }
     },
@@ -76,12 +70,6 @@ We *should (should not)* make efforts to stop the degradation of the environment
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Extinct bird - *Dodo*
 Extinct animal - *Dinosaur*
 Endangered animal - *Red panda*

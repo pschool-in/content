@@ -48,7 +48,7 @@ Stagnant water is breeding ground for mosquitoes that result in Malaria and Deng
 Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.
 # Experiment
 Let us assemble a Simple Pump`,
-          { type: 'img', src: 'science/waterPumpExperiment.png' },
+          { type: 'img', src: 'science/waterPumpExperiment.jpg' },
           `# Materials needed
 A hollow tube - PVC, metal or even a long papaya stem
 # Procedure
@@ -308,8 +308,7 @@ Things that sink in water are *heavier*.
 River, Fresh Water
 Dengue, Mosquito
 Typhoid, Unclean water
-Well, Ground water`,
-        title: 'Match the following'
+Well, Ground water`
       }
     }
     /*

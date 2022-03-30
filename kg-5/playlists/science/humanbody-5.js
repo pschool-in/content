@@ -219,10 +219,10 @@ Kidney, excretion `,
         title: 'Based on the below clue, connect letters and form the word.',
         printTitle: 'Form the word using the letters.',
         type: 'clue',
-        text: `An organ that secretes a certain substance.|gland| 
-An organ that helps in circulation of blood.|heart|
-An organ that helps in digestion of food.|stomach| 
-An organ that helps to remove waste from our body.|kidney| `
+        text: `An organ that secretes a certain substance.|gland
+An organ that helps in circulation of blood.|heart
+An organ that helps in digestion of food.|stomach
+An organ that helps to remove waste from our body.|kidney `
       }
     },
     {
@@ -299,8 +299,8 @@ Blood vessels consist of arteries, veins and *capillaries (lymph)*.`
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The volume of blood in human adults is *4-5 (6-7)*litres.
-*Spinal cord (Vertebra)* is along a tube like structure which extends from the brain.
-The brain loses the ability to function when it does not get oxygen for more than *4 (5)* minutes.
+*Spinal cord (Vertebra)* is a long a tube like structure which extends from the brain.
+The brain loses the ability to function when it does not get oxygen for more than *4 (10)* minutes.
 Enough sleep and healthy food increases the efficiency of our *brain (kidney)*.`
       }
     },
@@ -497,7 +497,6 @@ Part of brain also known as vital knot.|HIND BRAIN`
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `Lung, Mouth,  Buccal cavity,  Pharynx  
 Stomach, Nostrils, Nasal cavity,  Pharynx   
 Kidney, Mouth,  Esophagus,  Stomach

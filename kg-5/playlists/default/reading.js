@@ -203,8 +203,8 @@ const reading = {
         img: {
           url: 'story/13_donkey.jpg'
         },
-        text: `One day a farmer’s donkey fell down into a well. The animal cried for hours as the farmer tried to figure out what to do. Finally, he decided the animal was old and the well needed to be covered up anyway it just wasn’t worth to retrieve the donkey. He invited all his neighbors to come over and help him. They all grabbed a shovel and began to shovel dirt into the well. At first, the donkey realized what was happening and cried horribly. Then, to everyone’s amazement, he kept quiet.
-          A few shovel loads later, the farmer finally looked down the well and was astonished at what he saw. With every shovel of dirt that fell on his back, the donkey was doing something amazing. He would shake it off and take a step up. As the farmer’s neighbors continued to shovel dirt on top of the animal, he would shake it off and take a step up.
+        text: `One day a farmer’s donkey fell down into a well. The animal cried for hours as the farmer tried to figure out what to do. Finally, he decided the animal was old and the well needed to be covered up anyway it just wasn’t worth to retrieve the donkey. He invited all his neighbours to come over and help him. They all grabbed a shovel and began to shovel dirt into the well. At first, the donkey realized what was happening and cried horribly. Then, to everyone’s amazement, he kept quiet.
+          A few shovel loads later, the farmer finally looked down the well and was astonished at what he saw. With every shovel of dirt that fell on his back, the donkey was doing something amazing. He would shake it off and take a step up. As the farmer’s neighbours continued to shovel dirt on top of the animal, he would shake it off and take a step up.
           Pretty soon, everyone was amazed as the donkey stepped up over the edge of the well and trotted off!`,
         moral:
           'Moral: Life is going to shovel dirt on you, all kinds of dirt. The trick is to not to get bogged down by it. We can get out of the deepest wells by not stopping. And by never giving up! Shake it off and take a step up!'

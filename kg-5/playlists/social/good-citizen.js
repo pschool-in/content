@@ -66,7 +66,6 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
       label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
-        editable: true,
         title: 'Multiple Choice Questions',
         questions: [
           {
@@ -93,6 +92,10 @@ Sambhar Salt Lake in Rajasthan is one of the important inland salt water lake in
             options: `Showing respect to different religions and languages.
 Have different types of foods from various cultural background.
 Learn atleast four different languages.`
+          },
+          {
+            qText: 'Which of the following is disciplinary value?',
+            options: 'punctualily, love, mercy, peace '
           }
         ]
       }
@@ -155,11 +158,6 @@ Cultural, Tolerance`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the words at proper places.',
-        styles: {
-          dashWidth: 80
-        },
         text: `We show *love* to all living beings. Help the poor with *generosity*. *honesty* is the best policy. The best relationship is *friendship*. 
 We show *hospitality* to our guests. We show *mercy* to those who suffer. Always speak the *truth*. We must maintain *peace* in public.`
       }
@@ -193,6 +191,28 @@ National Symbol, Tricolor Flag
 Environment, Tree
 Different Languages, Harmony
 Education, Empowerment`
+      }
+    },
+    {
+      label: 'Affect or Enrich',
+      id: 'affect-enrich',
+      type: 'classifySentence',
+      data: {
+        title: 'State whether these actions affect or enrich our good values.',
+        types: [
+          {
+            name: 'Affect',
+            text: `Breaking the queue.
+Spitting and dumping garbage anywhere.
+Polluting land and water.`
+          },
+          {
+            name: 'Enrich',
+            text: `Trying our best in our goal
+Accepting people of other language and religion
+Developing self-confidence`
+          }
+        ]
       }
     },
     {

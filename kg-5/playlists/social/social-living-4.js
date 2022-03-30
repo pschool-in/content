@@ -15,14 +15,14 @@ Each family may have a different number of people. This number does not remain t
 # Migration
 Sometimes, children in a family go to other places for their education. Also, some members take up jobs or occupations in other places. Moving from one place to another to live there is called migration. Thus due to migration, marriages, births and deaths, the number of people in a family goes on changing. It is not only in our family that we see these changes. They occur in the entire society.
 # Migration in Birds
-Many birds migrate in search of food and shelter. Every year they migrate from one place to another at a fixed time. Some birds fly far away, while others do not go very far. Birds fly in a flock. Even though they stay together in a flock, they do not have families or neighbors like human beings!
+Many birds migrate in search of food and shelter. Every year they migrate from one place to another at a fixed time. Some birds fly far away, while others do not go very far. Birds fly in a flock. Even though they stay together in a flock, they do not have families or neighbours like human beings!
 # Staying in Touch
 When a member of the family goes far away for some reason, he stays in touch with the family through letters, telephone calls and now, the internet. These modern means of communication have brought the world closer together.
 # Changing Family System
 From ancient times to the present, the nature of a family has undergone many changes. When a man took up agriculture for his livelihood he settled down in one place. A lot of people are required to do the work needed in agriculture. Therefore, many relations stayed together and formed a big family. As the family grew, it became impossible to feed everyone through farming alone. Trade and other new occupations developed. Cities began to grow. People began to migrate to places where they could find work. Big families were scattered into many small families.
 In recent years, the number of people going to other States and countries for work and education has increased greatly. Many families have one of their members living abroad or in another city in our own country. Therefore, the family system is also changing.
 # Neighborhood
-Apart from our family, we also have daily contact with our neighbors. We live in the same locality. We need each other’s help to solve problems of garbage, security, water and electricity. In times of need, it is our neighbors who help us till our relatives can reach us. Due to the help we give each other, our relations with our neighbors become friends.
+Apart from our family, we also have daily contact with our neighbours. We live in the same locality. We need each other’s help to solve problems of garbage, security, water and electricity. In times of need, it is our neighbours who help us till our relatives can reach us. Due to the help we give each other, our relations with our neighbours become friends.
 Friendly and harmonious relations make for joyful community life.`
       }
     },
@@ -52,16 +52,10 @@ As we migrate, we see the disparity in our country.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The *number* of people in a family does not remain the same.
 As we migrate, we see the *diversity* in our country. 
 Just as our family changes, so do the other families in our *neighborhood*.
-Because of the help we offer each other, our relations with our neighbors become *friendly*. 
+Because of the help we offer each other, our relations with our neighbours become *friendly*. 
 Friendly and harmonious relations make for joyful *community life*.`
       }
     },

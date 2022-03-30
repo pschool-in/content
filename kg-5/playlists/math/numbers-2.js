@@ -10,7 +10,6 @@ export default {
       commonData: {
         title: 'Select the Biggest Number',
         fontSize: '2.5rem',
-        noCaps: true,
         type: 'math',
         probType: 'biggest'
       },
@@ -58,7 +57,6 @@ export default {
       commonData: {
         title: 'Select the Smallest Number',
         fontSize: '2.5rem',
-        noCaps: true,
         type: 'math',
         probType: 'smallest'
       },
@@ -106,7 +104,6 @@ export default {
       commonData: {
         title: 'Rearrange the numbers in ascending order.',
         fontSize: '2rem',
-        noCaps: true,
         type: 'math',
         probType: 'ascending'
       },
@@ -154,7 +151,6 @@ export default {
       commonData: {
         title: 'Rearrange the numbers in descending order.',
         fontSize: '2rem',
-        noCaps: true,
         type: 'math',
         probType: 'descending'
       },

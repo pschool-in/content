@@ -185,7 +185,6 @@ Why are you sad? Is there anything I *can* do for you?`,
     {
       label: 'Classify Helping vs Main Verb',
       type: 'classifySentence',
-      editable: true,
       commonData: {
         title: 'Classify the underlined word as main or helping verb.',
         types: ['Main Verb', 'Helping Verb']

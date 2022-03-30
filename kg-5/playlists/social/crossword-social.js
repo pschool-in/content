@@ -90,8 +90,7 @@ export default {
           ['', '', '', 'L', 'A', 'M', 'B', ''],
           ['', 'M', 'U', 'L', 'E', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-beach',
@@ -161,8 +160,7 @@ export default {
           ['', '', 'S', 'H', 'O', 'V', 'E', 'L'],
           ['', '', 'H', '', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-fast-food',
@@ -230,8 +228,7 @@ export default {
           ['', '', '', 'T', 'O', 'M', 'A', 'T', 'O'],
           ['', '', '', 'S', 'T', 'R', 'A', 'W', 'G']
         ]
-      },
-      editable: true
+      }
     }
   ]
 };

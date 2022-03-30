@@ -186,7 +186,6 @@ Magnet attracts things that are made up of iron and plastic.`
       data: {
         title: 'Select the word with the correct spelling.',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `accident, accidant, acidant
 surface, sarface, surfase, sarfase
 different, differant, diferant, diferent

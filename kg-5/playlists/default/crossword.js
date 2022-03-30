@@ -763,7 +763,273 @@ export default {
           ],
           title: 'Crossword - grade 5'
         }
+        // new addition
       ]
     }
+    /*
+    {
+      id: '1645739854400',
+      editable: true,
+      type: 'crossword',
+      label: 'human body',
+      data: {
+        title: '',
+        words: [
+          {
+            word: 'pupil',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Black spot in the eye',
+            direction: 'across'
+          },
+          {
+            word: 'skin',
+            marker: {
+              x: 9,
+              y: 4
+            },
+            hint: 'Organ that covers our body',
+            direction: 'across2'
+          },
+          {
+            word: 'brain',
+            marker: {
+              x: 6,
+              y: 0
+            },
+            hint: 'This holds our memories',
+            direction: 'down'
+          },
+          {
+            word: 'nerves',
+            marker: {
+              x: 0,
+              y: 9
+            },
+            hint: 'These act like "wires" sending signals around our body',
+            direction: 'across'
+          },
+          {
+            word: 'eyes',
+            marker: {
+              x: 1,
+              y: 9
+            },
+            hint: 'We need these to see',
+            direction: 'down2'
+          },
+          {
+            word: 'senses',
+            marker: {
+              x: 4,
+              y: 2
+            },
+            hint: 'Sight, sound, smell, taste, and touch',
+            direction: 'down'
+          },
+          {
+            word: 'tendons',
+            marker: {
+              x: 3,
+              y: 6
+            },
+            hint: 'These connect muscles to bones',
+            direction: 'across'
+          },
+          {
+            word: 'tongue',
+            marker: {
+              x: 3,
+              y: 6
+            },
+            hint: 'What we use to taste with',
+            direction: 'down2'
+          },
+          {
+            word: 'ears',
+            marker: {
+              x: 7,
+              y: 2
+            },
+            hint: 'It has an outer, a middle, and an inner',
+            direction: 'across2'
+          },
+          {
+            word: 'eardrum',
+            marker: {
+              x: 3,
+              y: 8
+            },
+            hint: 'This thin membrane vibrates when sound hits it',
+            direction: 'across'
+          },
+          {
+            word: 'bones',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'The skeleton is made up of ______',
+            direction: 'down'
+          },
+          {
+            word: 'femur',
+            marker: {
+              x: 2,
+              y: 1
+            },
+            hint: 'longest bone in the human body',
+            direction: 'across'
+          },
+          {
+            word: 'stapes ',
+            marker: {
+              x: 4,
+              y: 7
+            },
+            hint:
+              '_____ is the smallest bone in the human body present in middle ear',
+            direction: 'across'
+          },
+          {
+            word: 'spine',
+            marker: {
+              x: 9,
+              y: 4
+            },
+            hint: 'it made of 33 bones in your back',
+            direction: 'down2'
+          },
+          {
+            word: 'nose',
+            marker: {
+              x: 1,
+              y: 4
+            },
+            hint: 'organ that senses smell',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['P', 'U', 'P', 'I', 'L', '', 'B', '', '', 'E'],
+          ['B', '', 'F', 'E', 'M', 'U', 'R', '', '', 'N'],
+          ['O', '', '', 'U', 'S', 'R', 'A', 'E', '', 'I'],
+          ['N', '', '', 'G', 'E', '', 'I', '', '', 'P'],
+          ['E', 'N', '', 'N', 'N', '', 'N', 'I', 'K', 'S'],
+          ['S', 'O', '', 'O', 'S', '', '', '', '', ''],
+          ['', 'S', '', 'T', 'E', 'N', 'D', 'O', 'N', 'S'],
+          ['', 'E', '', '', 'S', 'T', 'A', 'P', 'E', 'S'],
+          ['', 'Y', '', 'E', 'A', 'R', 'D', 'R', 'U', 'M'],
+          ['N', 'E', 'R', 'V', 'E', 'S', '', '', '', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1647495295287',
+      editable: true,
+      type: 'crossword',
+      label: 'inventions',
+      data: {
+        title: 'Discoveries & Inventions',
+        words: [
+          {
+            word: 'telephone',
+            marker: {
+              x: 0,
+              y: 0
+            },
+            hint: 'Alexander Graham Bell invented this ___',
+            direction: 'across'
+          },
+          {
+            word: 'marconi',
+            marker: {
+              x: 0,
+              y: 1
+            },
+            hint: 'pioneer of radio transformation',
+            direction: 'down'
+          },
+          {
+            word: 'Einstein',
+            marker: {
+              x: 8,
+              y: 0
+            },
+            hint: '______ came up with the Theory of relativity',
+            direction: 'down'
+          },
+          {
+            word: 'Airplane',
+            marker: {
+              x: 3,
+              y: 7
+            },
+            hint: 'The Wright Brothers invented _________',
+            direction: 'down2'
+          },
+          {
+            word: 'newton',
+            marker: {
+              x: 7,
+              y: 0
+            },
+            hint: 'Who discovered universal gravitation?',
+            direction: 'down'
+          },
+          {
+            word: 'fire',
+            marker: {
+              x: 4,
+              y: 6
+            },
+            hint: 'What was the greatest discovery of early humans?\n',
+            direction: 'across'
+          },
+          {
+            word: 'charles',
+            marker: {
+              x: 1,
+              y: 7
+            },
+            hint: 'father of computer _____ Babbage',
+            direction: 'across'
+          },
+          {
+            word: 'Edison',
+            marker: {
+              x: 1,
+              y: 0
+            },
+            hint: 'Electric light bulb was invented by Thomas Alva ____',
+            direction: 'down'
+          },
+          {
+            word: 'bill',
+            marker: {
+              x: 5,
+              y: 1
+            },
+            hint: '____Gates is the founder of Microsoft.',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['T', 'E', 'L', 'E', 'P', 'H', 'O', 'N', 'E'],
+          ['M', 'D', '', 'N', '', 'B', '', 'E', 'I'],
+          ['A', 'I', '', 'A', '', 'I', '', 'W', 'N'],
+          ['R', 'S', '', 'L', '', 'L', '', 'T', 'S'],
+          ['C', 'O', '', 'P', '', 'L', '', 'O', 'T'],
+          ['O', 'N', '', 'R', '', '', '', 'N', 'E'],
+          ['N', '', '', 'I', 'F', 'I', 'R', 'E', 'I'],
+          ['I', 'C', 'H', 'A', 'R', 'L', 'E', 'S', 'N']
+        ],
+        lang: 'en'
+      }
+    }
+    */
   ]
 };

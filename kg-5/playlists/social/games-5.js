@@ -9,11 +9,11 @@ export default {
       type: 'passage',
       data: {
         text: `# Traditional games
-People in India have enjoyed playing traditional games such as kabbadi, kho-kho, gilli-danda, wrestling, boat racing, shatranj, pachisi, etc for thousands of years. Similarly, there are some forms of martial arts, like kalaripayatu, thang-ta and thoda that are a part of India's proud and ancient culture.
+People in India have enjoyed playing traditional games such as kabaddi, kho-kho, gilli-danda, wrestling, boat racing, shatranj, pachisi, etc for thousands of years. Similarly, there are some forms of martial arts, like kalaripayatu, thang-ta and thoda that are a part of India's proud and ancient culture.
 # Martial arts of India
 Martial arts are a form of mock fights that have been developed into a form of art by people who practise them. It also improves a person's physical and mental strength.
 Thang-ta: It is the traditional martial art from Manipur. It is a fight against one or more opponents using a sword and a spear. Both men and women practice this martial arts form. It teaches breathing techniques, meditation and involves rituals.
-Kalaripayattu: It is one of the oldest art forms in the world. A kalaripayattu demonstration includes physical exercises and mock fights both armed and unarmed. It is a silent combat and women practice it too. It is very similsr to Karate and Kung fu, the martial art forms of Japan and China.
+Kalaripayattu: It is one of the oldest art forms in the world. A kalaripayattu demonstration includes physical exercises and mock fights both armed and unarmed. It is a silent combat and women practice it too. It is very similar to Karate and Kung fu, the martial art forms of Japan and China.
 Thoda: It is the martial arts from Himachal Pradesh. It uses a bow and arrow. The name thoda comes from the round piece of wood that is fixed to the head of the arrow to prevent injuries while fighting. The archers aim at the leg of the opponent, below the knee.
 # Traditional sports of India
 Boat race: Snake boat race is held as a part of Onam celebration in parts of Kerala. The boats used in this thrilling contest of Vallamkali, are kite-tailed and shaped like a swan.
@@ -86,7 +86,7 @@ Karate is the martial art form of *Japan*.
           },
           {
             qText: 'What is another name for wrestling?',
-            options: 'kusthi, akada, kabadi'
+            options: 'kushti, akada, kabaddi'
           },
           {
             qText: 'Which game is an ancient form of cricket?',

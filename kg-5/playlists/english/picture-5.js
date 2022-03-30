@@ -86,7 +86,7 @@ turkey | Turkey`,
         `hawk | Hawk
 cardinal | Cardinal
 parakeet | Parakeet
-macow | Macaw`
+macaw | Macaw`
       ]
     },
     {
@@ -172,7 +172,7 @@ turkey | TURKEY | _URKEY
 hawk | HAWK | _AWK
 cardinal | CARDINAL | _ARDINAL
 parakeet | PARAKEET | _ARAKEET
-macow | MACAW | _ACAW`
+macaw | MACAW | _ACAW`
       ]
     },
     {
@@ -252,7 +252,7 @@ T, turkey
 H, hawk 
 C, cardinal 
 P, parakeet 
-M, macow `
+M, macaw `
       ]
     }
   ]

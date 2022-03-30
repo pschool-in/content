@@ -3,7 +3,7 @@ export default {
   id: 'satellites',
   list: [
     {
-      label: 'Satellites - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'notes',
       data: {
@@ -15,10 +15,12 @@ Man-made satellites helps us in many ways.
 3. They are helpful in information and communication technology. 
 4. They are helpful in studying the resources in ocean. 
 In India, ISRO is responsible for sending rockets and satellites to space. ISRO stands for Indian Space Research Organization. Usually rockets are launched from Sriharikota in Andhra Pradesh. 
-There are some man-made satellites, in which human beings live, to conduct scientific experiments. They are called space stations. Life in space station is very different from Earth, because there is no gravity in space. So people will keep floating in the space.`
+There are some man-made satellites, in which human beings live, to conduct scientific experiments. They are called space stations. Life in space station is very different from Earth, because there is no gravity in space. So people will keep floating in the space.
+We watch different TV channels. Where do they come from?
+We talk to far away people through a mobile phone. How is it possible?
+These are possible because of the artificial satellites that orbit around the Earth at a height.`
       }
     },
-
     {
       label: 'Satellites - MCQ',
       id: 'mcq',

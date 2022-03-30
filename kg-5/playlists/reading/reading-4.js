@@ -12,7 +12,7 @@ export default {
         author: `Viswanath Vaidyanathan`,
         text: `Ever since she was little, Aruna was curious about how things work. She loved breaking and fixing things to learn more about them. Radios, bicycles, clocks - whatever she could see, Aruna had to open it.
 Sometimes, she was able to put the things back together properly. Other times, they did not work when she was finished with them. Aruna's parents would be amused when they found her busy looking at gears, springs, and wires.
-They would bring her broken things from they find the neighborhood. She would work on them and fix them. The neighbors began to call her 'Miss Fix-it'. When Aruna got older, she went to an engineering college. Her lifelong love of exploring things helped in her studies. She graduated with excellent grades.
+They would bring her broken things from they find the neighborhood. She would work on them and fix them. The neighbours began to call her 'Miss Fix-it'. When Aruna got older, she went to an engineering college. Her lifelong love of exploring things helped in her studies. She graduated with excellent grades.
 Now, Aruna works as a toy designer. That makes her quite happy. Whenever she has an idea for a new toy, she creates a design and builds a model in her laboratory. Aruna likes having a job that is fun and makes children happy. 
 We should also learn from Aruna's curiosity.`
       }

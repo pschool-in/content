@@ -62,12 +62,6 @@ Handling glassware and sharp items is more important because it causes injuries 
       type: 'fillup',
       id: 'fillup',
       data: {
-        isPractice: false,
-        title: 'Click the blanks and fill it with the right word.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Do not touch the electrical appliances like an iron box when they are switched *on (off)*.
 After cooking, we should *close (open)* the valve of the cylinder.
 Always use the sharp items in the *presence (absence)* of an adult.
@@ -202,12 +196,6 @@ Child line service was established across India under the Ministry of Women and 
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The National Child Labour Projects (NCLP) was established to rehab the *child labour*. 
 The Indian penal code 1860 is for punishing the people involved in *child trafficking*.
 If a stranger secretly asks you to touch their body part unnecessarily, then it is *unsafe*.
@@ -298,7 +286,6 @@ If a stranger secretly touching the children’s private parts then it is *bad (
     },
     {
       id: 'wordsearch',
-      editable: true,
       type: 'wordsearch',
       label: 'WordSearch - Safety ',
       data: {

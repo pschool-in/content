@@ -8,7 +8,7 @@ export default {
       label: 'Parts of Face',
       type: 'dragAndDrop',
       data: {
-        img: 'face',
+        img: 'parts_face.jpg',
         title: 'Parts of Face',
         width: 250,
         height: 296,
@@ -47,7 +47,7 @@ export default {
       id: 'parts-plant',
       label: 'Parts of Plant',
       data: {
-        img: 'plant',
+        img: 'parts_plant.jpg',
         width: 249,
         height: 235,
         wordWidth: 50,
@@ -65,7 +65,7 @@ export default {
       id: 'parts-dog',
       label: 'Parts of Dog',
       data: {
-        img: 'dog',
+        img: 'parts_dog.jpg',
         width: 250,
         height: 271,
         wordWidth: 50,
@@ -85,7 +85,7 @@ export default {
       id: 'parts-body',
       label: 'Parts of Human',
       data: {
-        img: 'human',
+        img: 'parts_boy.jpg',
         width: 250,
         height: 354,
         wordWidth: 70,

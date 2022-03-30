@@ -62,7 +62,6 @@ const vocabulary = {
       label: 'Fill up',
       type: 'fillup',
       data: {
-        editable: true,
         title: 'Click on the blanks and fill it with the right word.',
         text: `Students have *access (excess)* to the library on holidays.
           My friends eat to *excess(access)*.
@@ -165,8 +164,7 @@ bat, all, ball, call
 pick, cook, look, book
 week, seed, feed, weed
 send, well, sell, tell
-fan, fun, bun, gun`,
-        noCaps: true
+fan, fun, bun, gun`
       }
     },
     {

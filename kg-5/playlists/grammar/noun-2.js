@@ -108,7 +108,7 @@ All the *bananas* are eaten.
 George is a clever *boy.*
 They are playing on the *ground.*`,
 
-        `Our new *neighbors* are very friendly.
+        `Our new *neighbours* are very friendly.
 I like to play *games.*
 Jina has posted a *letter.*
 These *pictures* are beautifully drawn.

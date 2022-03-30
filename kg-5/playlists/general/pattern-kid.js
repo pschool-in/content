@@ -524,7 +524,7 @@ export default {
         height: 5,
         allowDiagonal: true,
         cellSize: 40,
-        title: 'Repeat the pattern on the right side.',
+        title: 'Repeat the pattern below.',
         refs: 'size_7_5'
       }
     },
@@ -539,7 +539,7 @@ export default {
         cellSize: 40,
         allowDiagonal: true,
         patternType: 'mirror',
-        title: 'Draw the mirror image on the right side.',
+        title: 'Draw the mirror image below.',
         refs: 'size_7_5'
       }
     }

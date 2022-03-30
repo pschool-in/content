@@ -323,7 +323,7 @@ export default {
       label: `Thirsty Crow`,
       data: {
         title: `Thirsty Crow`,
-        disType: 'highlight',
+        displayType: 'highlight',
         audio: 'kg-5/reading/thirsty-crow.mp3',
         audioOffsets4: [3.5, 7.2, 11, 14.4, 18, 21.4, 24.8, 28, 100],
         audioOffsets: [

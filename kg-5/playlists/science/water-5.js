@@ -8,7 +8,6 @@ export default {
       id: 'reading',
       type: 'passage',
       label: 'Water Management',
-      editable: true,
       data: {
         title: 'Water',
         text: [

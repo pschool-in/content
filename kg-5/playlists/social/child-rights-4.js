@@ -13,7 +13,7 @@ export default {
         text: `# Citizen
 A citizen is a person who is a member of a country. A citizen enjoys the rights given to him/her by the country.
 # Constitution
-There are rules that all citizens of the country have to follow. The constitution of India sets these rules. The set of rules of a country is known as the constitution. The constitution lays down certain rules to help the country work together smoothly. The Indian constitution is the lengthiest in the world. The original document was handwritten. If a foreigner stays in India for 12 years, they can get Indian citizenship.
+There are rules that all citizens of the country have to follow. The constitution of India sets these rules. The set of rules of a country is known as the constitution. The constitution lays down certain rules to help the country work together smoothly. The Indian constitution is the longest in the world. The original document was handwritten. If a foreigner stays in India for 12 years, they can get Indian citizenship.
 # Child Rights
 All over the world, there are different policies and rights. Children have certain rights to ensure that every child is treated the same. These are practiced to create a healthy environment for the children to live in. All over the world, there are many countries which have agreed to make some basic rights for children. India is one of them.
 The four major child rights are: 
@@ -40,11 +40,10 @@ Children have the right to participate in matters related to them. This includes
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
         text: `WASH stands for Water, Sanitation and *Hygiene (Health)*.
 There are *different (same)* rights for children of all age groups.
 Children have certain rights to ensure that every child is treated the *same (different)*. 
-The Indian constitution is the *lengthiest (shortest)* in the world. 
+The Indian constitution is the *longest (shortest)* in the world. 
 If a foreigner stays in India for *12 (5)* years, they can get Indian citizenship.`
       }
     },
@@ -58,7 +57,7 @@ If a foreigner stays in India for *12 (5)* years, they can get Indian citizenshi
           {
             name: 'True',
             text: `The child has the basic right to get polio drops.
-Hitting children is wrong.
+Beating children is wrong.
 Children should be aware of bad touch.`
           },
           {
@@ -83,11 +82,10 @@ Children have the right to *participate* in the matters related to them.`
       }
     },
     {
-      label: 'Choose the correct Answer(s)',
+      label: 'Choose the correct Answer',
       id: 'mcq',
       type: 'mcq',
       data: {
-        title: 'Multiple Choice Questions',
         questions: [
           {
             qText: ' Which of the following is against Indian law?',
@@ -99,7 +97,7 @@ Children have the right to *participate* in the matters related to them.`
             options: 'children, senior citizens, men, women '
           },
           {
-            qText: 'What is the set of rules of a country called?',
+            qText: 'What is the set of rules set by a country called?',
             options: 'constitution, textbook, storybook, rule book '
           },
           {
@@ -147,7 +145,7 @@ Do not allow anyone to touch the children inappropriately.`
           },
           {
             name: 'Wrong',
-            text: `Hitting children.
+            text: `Beating children.
 Child labour.
 Not allowing children to go to school.
 Starving children.`

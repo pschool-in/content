@@ -439,7 +439,7 @@ export default {
       label: 'Parts of Face ',
       type: 'dragAndDrop',
       data: {
-        img: 'face',
+        img: 'parts_face.jpg',
         title: 'Parts of Face ',
         width: 250,
         height: 296,
@@ -520,7 +520,6 @@ tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
         text: 'ഉ ര ല്, ഊ ഞ്ഞാ ല്‍, ഒ ട്ട കം, ക പ്പ ല്‍, ഘ ടി കാ രം',
         title: 'Connect the blocks to form meaningful word.'
       },
-      editable: true,
       id: 'jumbled-word',
       label: 'Jumbled Word',
       type: 'sequence'
@@ -531,7 +530,6 @@ tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
           'ഞായറാഴ്ച , തിങ്കളാഴ്ച, ചൊവ്വാഴ്ച , ബുധനാഴ്ച , വ്യാഴാഴ്ച , വെള്ളിയാഴ്ച , ശനിയാഴ്ച ',
         title: 'Sort the days of the week'
       },
-      editable: true,
       id: 'days-of-week',
       label: 'Days of the week',
       type: 'sorting'
@@ -582,7 +580,6 @@ tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
           }
         ]
       },
-      editable: true,
       id: 'wordsearch',
       label: 'WordSearch',
       type: 'wordsearch'

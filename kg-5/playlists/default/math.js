@@ -171,7 +171,6 @@ const math = {
       data: {
         title: 'Click on the Biggest Number.',
         fontSize: '2.5',
-        noCaps: true,
         type: 'math',
         probType: 'biggest',
         pattern: 'xx'
@@ -184,7 +183,6 @@ const math = {
       data: {
         title: 'Click on the Smallest Number.',
         fontSize: '2.5',
-        noCaps: true,
         type: 'math',
         probType: 'smallest',
         pattern: 'xxx'
@@ -197,7 +195,6 @@ const math = {
       data: {
         title: 'Rearrange the numbers in ascending order.',
         fontSize: '2rem',
-        noCaps: true,
         type: 'math',
         probType: 'ascending',
         pattern: 'xx'
@@ -210,7 +207,6 @@ const math = {
       data: {
         title: 'Rearrange the numbers in descending order.',
         fontSize: '2rem',
-        noCaps: true,
         type: 'math',
         probType: 'descending',
         pattern: 'xx'

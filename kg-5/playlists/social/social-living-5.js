@@ -43,12 +43,6 @@ Every school looks the same.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `We must use facilities *responsibly*.
 The school is our *world* outside our house.
 The *community* has a role in the development of a school.

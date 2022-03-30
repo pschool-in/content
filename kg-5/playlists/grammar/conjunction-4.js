@@ -76,7 +76,7 @@ I don't know whether she'll come *or (and, but)* not.`,
         `I will either eat *or (nor, and)* sleep.
 She can *both (either, neither)* draw and paint.
 You can go by train *or (but, because)* bus.
-Our neighbors are good *and (so, or)* friendly.
+Our neighbours are good *and (so, or)* friendly.
 My dad won't come *but (or, because)* my mom will.
 She is *so (or, very)* tall that she can touch the ventilator.
 She ran fast *and (but, or)* won the race.

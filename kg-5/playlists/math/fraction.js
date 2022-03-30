@@ -164,7 +164,6 @@ Three-seventh, 3/7`
       lockAfter: 1,
       commonData: {
         title: `Pick the biggest fraction`,
-        noCaps: true,
         fontSize: '1.3rem'
       },
       data: [
@@ -200,7 +199,6 @@ Three-seventh, 3/7`
       lockAfter: 1,
       commonData: {
         title: `Pick the smallest fraction`,
-        noCaps: true,
         fontSize: '1.3rem'
       },
       data: [

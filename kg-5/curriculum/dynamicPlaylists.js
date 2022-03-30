@@ -742,10 +742,56 @@ const science = [
     grade: 'g1, g2'
   },
   {
+    label: 'Our Food',
+    id: 'our-food',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'Plants around Us',
+    id: 'plants-2',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'About Our Environment ',
+    id: 'environment-2',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'Materials',
+    id: 'materials-2',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'Animals',
+    id: 'animals',
+    grade: 'g2, g3'
+  },
+  {
+    label: 'Day and Night',
+    id: 'day-night',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Human Body 2',
+    id: 'humanbody-2',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Living Things',
+    id: 'living-things',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Light 2',
+    id: 'light-2',
+    grade: 'g1, g2'
+  },
+  {
     label: 'Seasons',
     id: 'seasons',
     grade: 'g2, g3'
   },
+
   {
     label: 'States of Matter',
     id: 'matter-3',
@@ -869,30 +915,10 @@ const science = [
   {
     label: 'Solar System',
     id: 'solar-system',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Solar System - 2',
-    id: 'solar-system-4',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Solar System - 3',
-    id: 'solar-system-5',
-    grade: 'g4, g5'
-  },
-  {
-    label: 'Satellites',
-    id: 'satellites',
-    grade: 'g4, g5'
+    grade: 'g3, g4, g5'
   },
 
   // new addition
-  {
-    label: 'Animals',
-    id: 'animals',
-    grade: 'g2, g3'
-  },
   {
     label: 'Domestic Animals',
     id: 'animals-3',
@@ -918,21 +944,22 @@ const science = [
     id: 'environment-3',
     grade: 'g3, g4, g5'
   },
-  {
-    label: 'Green Environment',
-    id: 'environment-4',
-    grade: 'g3, g4, g5'
-  },
+  /*
+  Need to remove this
   {
     label: 'Our Environment',
     id: 'environment-5',
     grade: 'g3, g4, g5'
   },
+  */
+  /*
+  Need to review this
   {
     label: 'Communication and Mass media',
     id: 'communication-5',
     grade: 'g4, g5'
   },
+  */
   {
     label: 'Introduction to Computers',
     id: 'computer-3',
@@ -948,52 +975,26 @@ const science = [
     id: 'computer-5',
     grade: 'g3, g4, g5'
   },
+  /*
   {
     label: 'Science Misc - 4',
     id: 'science-4',
     grade: 'g3, g4, g5'
   },
+  */
   // missing playlist
-  {
-    label: 'Human Body 2',
-    id: 'humanbody-2',
-    grade: 'g2, g3, g4, g5'
-  },
-  {
-    label: 'Living Things',
-    id: 'living-things',
-    grade: 'g1, g2, g3, g4, g5'
-  },
-  {
-    label: 'Light 2',
-    id: 'light-2',
-    grade: 'g2, g3, g4, g5'
-  },
-  {
-    label: 'Materials',
-    id: 'materials-2',
-    grade: 'g2, g3, g4, g5'
-  },
-  {
-    label: 'Rock',
-    id: 'rock-3',
-    grade: 'g3, g4, g5'
-  },
+
   {
     label: 'Light',
     id: 'light-3',
-    grade: 'g3, g4, g5'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'Sound',
     id: 'sound-science',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Solar System 2',
-    id: 'solar-system-3',
-    grade: 'g3, g4, g5'
-  },
+    grade: 'g2, g3, g4, g5'
+  }
+  /*
   {
     label: 'Pollution',
     id: 'pollution-4',
@@ -1004,37 +1005,50 @@ const science = [
     id: 'measurement-4',
     grade: 'g4, g5'
   },
-  {
-    label: 'Rock 2',
-    id: 'rock-5',
-    grade: 'g5'
-  },
+
   {
     label: 'Diseases',
     id: 'diseases-5',
     grade: 'g5'
   },
-  {
-    label: 'Soil',
-    id: 'soil-5',
-    grade: 'g5'
-  },
+
   {
     label: 'Science Crosswords',
     id: 'crossword-science',
     grade: 'g3, g4, g5'
   }
+  */
 ];
 
 const social = [
   {
-    label: 'India',
-    id: 'india',
-    grade: 'g3, g4, g5'
+    label: 'My Country - India',
+    id: 'india-2',
+    grade: 'g1, g2'
   },
   {
-    label: 'Profession',
-    id: 'profession',
+    label: 'Transport',
+    id: 'transport',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'People and Jobs',
+    id: 'people-jobs',
+    grade: 'g1, g2'
+  },
+  {
+    label: 'About Us',
+    id: 'about-us',
+    grade: 'g2, g3'
+  },
+  {
+    label: 'People, Jobs, Tools',
+    id: 'people-jobs-3',
+    grade: 'g2, g3, g4'
+  },
+  {
+    label: 'India',
+    id: 'india',
     grade: 'g3, g4, g5'
   },
   {
@@ -1049,8 +1063,13 @@ const social = [
   },
   {
     label: 'Transportation',
-    id: 'transportation',
-    grade: 'g3, g4'
+    id: 'transport-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Green Environment',
+    id: 'environment-4',
+    grade: 'g3, g4, g5'
   },
   {
     label: 'Health',
@@ -1069,12 +1088,12 @@ const social = [
   },
   {
     label: 'Child Rights',
-    id: 'rights-4',
+    id: 'child-rights-4',
     grade: 'g3, g4, g5'
   },
   {
     label: 'Child Rights-2',
-    id: 'rights-5',
+    id: 'child-rights-5',
     grade: 'g3, g4, g5'
   },
   {
@@ -1117,9 +1136,15 @@ const social = [
     id: 'food-facts',
     grade: 'g4, g5'
   },
+
   {
-    label: 'People and Jobs',
-    id: 'people-jobs',
+    label: 'Types of Jobs',
+    id: 'people-jobs-4',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Agriculture',
+    id: 'agriculture',
     grade: 'g3, g4, g5'
   },
   {
@@ -1138,16 +1163,6 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'About Us',
-    id: 'about-us',
-    grade: 'g2, g3'
-  },
-  {
-    label: 'Transport',
-    id: 'transport',
-    grade: 'g2, g3'
-  },
-  {
     label: 'Houses',
     id: 'houses-4',
     grade: 'g3, g4, g5'
@@ -1161,7 +1176,7 @@ const social = [
   },
   {
     label: 'Directions and Maps',
-    id: 'maps-4',
+    id: 'maps-3',
     grade: 'g3, g4, g5'
   },
   {
@@ -1176,40 +1191,32 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Family',
+    label: 'My Family',
     id: 'family-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Family - 2',
+    label: 'Family Values',
     id: 'family-5',
     grade: 'g3, g4, g5'
   },
-  {
-    label: 'Job',
-    id: 'job-3',
-    grade: 'g3, g4, g5'
-  },
-  {
-    label: 'Job 2',
-    id: 'job-5',
-    grade: 'g3, g4, g5'
-  },
+
   {
     label: 'Understanding Time',
     id: 'time-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Life Skills - 2',
+    label: 'My Upbringing',
     id: 'lifeskills-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Life Skills - 3',
+    label: 'Our Emotional World',
     id: 'lifeskills-5',
     grade: 'g3, g4, g5'
-  },
+  }
+  /*
   {
     label: 'Nature ',
     id: 'nature-4',
@@ -1260,12 +1267,6 @@ const social = [
     id: 'disaster-management-5',
     grade: 'g3, g4, g5'
   },
-  /*
-  {
-    label: 'Government',
-    id: 'government-5',
-    grade: 'g3, g4, g5'
-  },*/
   {
     label: 'India - 5',
     id: 'india-5',
@@ -1296,7 +1297,23 @@ const social = [
     label: 'Social Crosswords',
     id: 'crossword-social',
     grade: 'g3, g4, g5'
-  }
+  },
+  //moved from science
+  {
+    label: 'Rock',
+    id: 'rock-3',
+    grade: 'g3, g4, g5'
+  },
+  {
+    label: 'Rock 2',
+    id: 'rock-5',
+    grade: 'g5'
+  },
+  {
+    label: 'Soil',
+    id: 'soil-5',
+    grade: 'g5'
+  }*/
 ];
 
 const general = [
@@ -1621,13 +1638,44 @@ const gk = [
 ];
 
 export default {
-  vocabulary,
-  grammar,
-  reading,
-  english,
-  math,
-  science,
-  social,
-  gk,
-  general
+  id: 'more-playlists',
+  label: 'More Playlists',
+  list: [
+    {
+      id: 'vocabulary',
+      list: vocabulary
+    },
+    {
+      id: 'grammar',
+      list: grammar
+    },
+    {
+      id: 'reading',
+      list: reading
+    },
+    {
+      id: 'english',
+      list: english
+    },
+    {
+      id: 'math',
+      list: math
+    },
+    {
+      id: 'science',
+      list: science
+    },
+    {
+      id: 'social',
+      list: social
+    },
+    {
+      id: 'gk',
+      list: gk
+    },
+    {
+      id: 'general',
+      list: general
+    }
+  ]
 };

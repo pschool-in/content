@@ -11,6 +11,7 @@ export default {
       data: {
         title: 'Communication and Mass media',
         text: `# Communication
+       
 Communication is simply the act of transferring information from one place, person, or group to another. Every communication involves at least a sender, a message and a recipient. Artificial satellites are used in modern methods of communication. The signals are delivered very quickly from one point to another. In India, we use artificial satellites for communication. These satellites are called the Indian National Satellites (INSAT).
 # Audio-visual communication
 We cannot see each other when we talk over the telephone. New communication technology has now made this possible on a mobile phone, to see the person we are talking to.
@@ -25,7 +26,7 @@ It is the means of communication that reaches large numbers of people in a short
 4. People can be forewarned about natural disasters like storms, tsunamis, floods, etc.
 5. They build awareness about health, educational facilities, good things happening in society, etc.
 6. They help in the successful implementation of government schemes launched for the benefit of people.
-7. Awareness can be raised about matters related to food, clothes, shelter, education and health. This improves people’s way of life.
+7. Awareness can be raised about matter related to food, clothes, shelter, education and health. This improves people’s way of life.
 8. Mass media helps in the expansion of trade and industry.
 # Disadvantages
 1. Excessive use of the television, computer or mobile phones causes disorders of the eyes, ears and back. Psychological disorders and isolation, etc. are also possible.

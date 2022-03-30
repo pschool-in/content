@@ -113,7 +113,7 @@ All solids sink in water.`
       id: 'drag-drop',
       data: {
         text: `Furniture is a *household* goods.
-All matters are made up of *molecules*.
+All matter are made up of *molecules*.
 Molecules are made up of *atoms*.
 Salt is *soluble* in water, but sand is *insoluble* in water.`
       }

@@ -9,7 +9,7 @@ export default {
       data: [
         {
           title:
-            'Connect the odd numbers and help the boy to get the schoolbag.',
+            'Connect the odd numbers from 1 to 37 and help the boy to get the schoolbag.',
           start: 'boy',
           target: 'schoolbag',
           color: '#c05252',
@@ -99,7 +99,8 @@ export default {
       label: 'Connect Even Numbers',
       data: [
         {
-          title: 'Connect the even numbers and help the girl to get the book.',
+          title:
+            'Connect the even numbers from 2 to 38 and help the girl to get the book.',
           start: 'girl',
           target: 'book',
           color: '#c05252',
@@ -112,7 +113,7 @@ export default {
             y: 0
           },
           size: 50,
-          fills: `99,41,15,34,36,40
+          fills: `99,41,15,34,36,38
 87,59,71,32,31,35
 91,77,49,30,28,26
 6,8,10,9,11,24
@@ -146,7 +147,7 @@ export default {
         44,43,36,34,55,26
         42,40,38,35,22,24
         13,23,33,17,20,19`,
-          table: `0,0,1,1,0,0
+          table: `0,0,1,1,1,0
 0,1,1,0,0,0
 1,1,0,1,1,1
 1,0,1,1,0,1
@@ -155,7 +156,7 @@ export default {
         },
         {
           title:
-            'Connect the even numbers from 50 to 80 and help the elephant to get the watermelon.',
+            'Connect the even numbers from 50 to 92 and help the elephant to get the watermelon.',
           start: 'elephant',
           target: 'watermelon',
           color: '#c05252',
@@ -265,7 +266,7 @@ export default {
   65,66,45,40,22,20
   60,55,50,52,10,15
   59,54,49,51,5,1`,
-          table: `0,0,1,1,0,0
+          table: `0,0,1,1,1,0
   0,1,1,0,0,0
   1,1,0,1,1,1
   1,0,1,1,0,1
@@ -330,7 +331,7 @@ export default {
         },
         {
           title:
-            'Connect the multiples of eight and help the girl to get the cycle.',
+            'Connect the multiples of 8 and help the girl to get the cycle.',
           start: 'girl',
           target: 'cycle',
           color: '#c05252',
@@ -357,8 +358,7 @@ export default {
   0,1,1,1,0,0`
         },
         {
-          title:
-            'Connect the multiples of nine and help the dog to get the bone.',
+          title: 'Connect the multiples of 9 and help the dog to get the bone.',
           start: 'dog',
           target: 'bone',
           color: '#c05252',
@@ -386,7 +386,7 @@ export default {
         },
         {
           title:
-            'Connect the multiples of ten and help the boy to get the calculator.',
+            'Connect the multiples of 10 and help the boy to get the calculator.',
           start: 'boy',
           target: 'calculator',
           color: '#c05252',
@@ -399,9 +399,9 @@ export default {
             y: 0
           },
           size: 50,
-          fills: `230,235,245,160,150,140
-  220,225,195,170,135,130
-  210,200,190,180,125,120
+          fills: `220,235,245,150,140,130
+  210,225,195,160,135,120
+  200,190,180,170,125,110
   92,82,72,65,90,100
   20,30,40,55,80,85
   10,15,50,60,70,75`,

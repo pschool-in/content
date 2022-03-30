@@ -1,6 +1,6 @@
 export default {
   id: 'lifeskills-4',
-  label: 'Life Skills - 4',
+  label: 'My Upbringing',
   pdf: '',
   lockAfter: 4,
   list: [
@@ -11,13 +11,13 @@ type: 'passage',
 id: 'myupbringing',
 data: {
 title: 'My Upbringing',
-text: `Our parents, teachers, relatives, friends, neighbors play an important role in our upbringing. They teach us moral values in childhood, which help to shape our character. Upbringing includes our basic disciplines, economic values, moral codes, entertainment, social behavior, respecting elders, doing good for the environment, etc.
+text: `Our parents, teachers, relatives, friends, neighbours play an important role in our upbringing. They teach us moral values in childhood, which help to shape our character. Upbringing includes our basic disciplines, economic values, moral codes, entertainment, social behavior, respecting elders, doing good for the environment, etc.
 Upbringing includes many things we learn in childhood as well as while growing up. These together make up our upbringing in the later stages of life. Moreover, we also learn through many observations and exposures in our day-to-day life. Quite often, we learn from our conscious efforts too. Upbringing in our society teaches us everything that we need in our life.          
 Mostly people get influenced very easily. Hence, many people adapt good qualities. Sometimes we learn multiple things through various experiences in our life. This multitude of things is often contributed by the rich diversity, that sustains in our environment.`
 }
 },*/
     {
-      label: 'My Upbringing - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'myupbringing',
       data: {
@@ -31,7 +31,7 @@ Our close relatives like our grandparents, uncles and aunts also have great affe
 Our neighbours too can influence our upbringing. If people from another place happen to be our neighbours, we naturally get to know about their food and festivals which may be different from ours. This is how we become familiar with diversity.
 Many of our neighbours know us from our childhood. They too feel affectionate towards us. We learn some good habits from our neighbours too. Our neighbours also influence our upbringing.
 # Self Learning
-Everything that we learn is not ‘taught’ to us by somebody. We pick up many things through observation and through exposure. How do our friends speak? What clothes do they wear? What games do they play? How do they study? We pick up many of these things unconsciously. Many times, we also begin to behave like our friends.
+Everything that we learn is not 'taught' to us by somebody. We pick up many things through observation and through exposure. How do our friends speak? What clothes do they wear? What games do they play? How do they study? We pick up many of these things unconsciously. Many times, we also behave like our friends.
 # Recap
 1. The many things we learn as we grow up, together make our upbringing.
 2. Our parents and close relatives play an important part in our upbringing.
@@ -39,7 +39,7 @@ Everything that we learn is not ‘taught’ to us by somebody. We pick up many 
 4. We learn from the conscious efforts taken to make us good people.
 5. We also learn through observation and exposure.
 # A Lion Cub's Upbringing
-A lion cub is not able to hunt as soon as it is born. It is taught how to hunt by its mother and other lionesses in the pride. These cubs are quite helpless for about the first two weeks. They do not even open their eyes. Therefore, their mother keeps them hidden away from others. When the cubs are about eight weeks of age, they are introduced to the other members of the pride. All the lionesses take care of the cubs. A cub is pampered by all of them until it is three months old. Then, it begins to learn how to hunt. It takes two to three years for a cub to become adept at hunting.`
+A lion cub is not able to hunt as soon as it is born. It is taught how to hunt by its mother and other lionesses in the pride. These cubs are quite helpless for about the first two weeks. They do not even open their eyes. Therefore, their mother keeps them hidden. When the cubs are about eight weeks of age, they are introduced to the other members of the pride. All the lionesses take care of the cubs. A cub is pampered by all of them until it is three months old. Then, it begins to learn how to hunt. It takes two to three years for a cub to become adept at hunting.`
       }
     },
     {
@@ -55,7 +55,7 @@ A lion cub is not able to hunt as soon as it is born. It is taught how to hunt b
           },
           {
             qText: 'Who plays an important role in our upbringing?',
-            options: 'Teachers, Parents, Relatives, *All the above'
+            options: 'Teachers, Parents, Relatives, *All of the above'
           },
           {
             qText:
@@ -71,7 +71,7 @@ You dress is looking great.`
           },
           {
             qText: 'Lion cubs start to learn hunting after _______.',
-            options: '3 months, 2 weeks, 2'
+            options: '3 months, 2 weeks, 3 years'
           }
         ]
       }
@@ -95,30 +95,10 @@ You dress is looking great.`
       }
     },
     {
-      id: 'myupbringingmatch',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Do not litter, in public
-Share things, with everyone
-Don’t harm, our environment
-Save, energy
-Help, the poor`,
-        title: 'Match the following with its correct one'
-      }
-    },
-
-    {
-      label: 'Fill in the blanks -1',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      id: 'myupbringingdrag-1',
+      id: 'drag-drop',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Every *life* has value.
 *Honesty* is the best policy.
 *Cleanliness* is next to godliness.
@@ -127,14 +107,14 @@ Reuse, reduce, *recycle*.
       }
     },
     {
-      id: 'myupbringingfill-1',
-      label: 'Fill in the blanks -2',
+      id: 'fillup',
+      label: 'Fill in the blanks',
       type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Do not *harm (help)* others.
 Be *kind (unkind)* to animals.
-*Treat (Do not treat)* every home as your home.
+We learn to walk after *one (two)* years.
 A *friend (enemy)* in need is a friend indeed.
 Making others *smile (cry)* is a good conduct.`
       }
@@ -156,7 +136,7 @@ We learn more things through exposure.`
             name: 'False',
             text: `We are not influenced by others.
 We learn everything from others. We cannot learn anything on our own.
-We are not learning good habits from neighbors.`
+We are not learning good habits from neighbours.`
           }
         ]
       }
@@ -164,7 +144,7 @@ We are not learning good habits from neighbors.`
     {
       id: 'wordsearch',
       type: 'wordsearch',
-      label: 'WordSearch - Upbringing',
+      label: 'WordSearch',
       data: {
         title: 'Find the given words from the table.',
         words: [
@@ -205,72 +185,6 @@ We are not learning good habits from neighbors.`
         ],
         lang: 'en',
         showWords: true
-      }
-    },
-    {
-      id: 'crossword',
-      type: 'crossword',
-      label: 'Crossword - Upbringing',
-      data: {
-        title: 'Solve the crossword. Please click on a cell to view the hint.',
-        words: [
-          {
-            word: 'BadWords',
-            marker: {
-              x: 0,
-              y: 0
-            },
-            hint: 'Should not talk to others',
-            direction: 'across'
-          },
-          {
-            word: 'Sharing',
-            marker: {
-              x: 7,
-              y: 0
-            },
-            hint: 'Always should do this with others',
-            direction: 'down'
-          },
-          {
-            word: 'Litter',
-            marker: {
-              x: 2,
-              y: 3
-            },
-            hint: 'Should not do in public',
-            direction: 'across'
-          },
-          {
-            word: 'Helping',
-            marker: {
-              x: 1,
-              y: 6
-            },
-            hint: 'Always should do for others',
-            direction: 'across'
-          },
-          {
-            word: 'Honesty',
-            marker: {
-              x: 0,
-              y: 1
-            },
-            hint: 'It is the best policy',
-            direction: 'down'
-          }
-        ],
-        table: [
-          ['B', 'A', 'D', 'W', 'O', 'R', 'D', 'S'],
-          ['H', '', '', '', '', '', '', 'H'],
-          ['O', '', '', '', '', '', '', 'A'],
-          ['N', '', 'L', 'I', 'T', 'T', 'E', 'R'],
-          ['E', '', '', '', '', '', '', 'I'],
-          ['S', '', '', '', '', '', '', 'N'],
-          ['T', 'H', 'E', 'L', 'P', 'I', 'N', 'G'],
-          ['Y', '', '', '', '', '', '', '']
-        ],
-        lang: 'en'
       }
     }
   ]

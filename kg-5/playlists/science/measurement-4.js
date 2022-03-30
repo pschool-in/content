@@ -8,8 +8,7 @@ export default {
       label: 'Measurement',
       type: 'passage',
       data: {
-        text: `# Measurement
-Measurement is the process of finding out the size or quantity of anything around us by comparing it with a standard time. Length, mass, volume, temperature and time are some of the basic things we measure daily.
+        text: `Measurement is the process of finding out the size or quantity of anything around us by comparing it with a standard time. Length, mass, volume, temperature and time are some of the basic things we measure daily.
 # Measurement of Length
 Length of something means its measurement from end to end. In early days, when there were no rulers, people used their body parts to measure the length. They measured length in terms of hand span, foot span, cubit or paces. But the length of body parts are different for different people, so these method never gave accurate results.
 The standard unit of measuring length is metre(m). The smaller unit of length is centimetre(cm). To measure long distances on roads we use a bigger unit called kilometre(km). We use a ruler to measure the length of objects such as a pencil, a thread, a book, etc. To measure bigger lengths such as the length of a cloth we use a  measuring rod or a measuring tape.
@@ -21,7 +20,7 @@ Volume or capacity of an object is the measurement of space occupied by it. The 
 Temperature of an object is the measurement of how hot or cold an object is. Temperature is commonly measured in degree Celsius or degree Fahrenheit. Temperature of a body is measured using an instrument called thermometer. 
 # Measurement of Time
 Time is usually measured in seconds, minutes, hours, days, months and years. There are 60 seconds in a minute, 60 minutes in an hour and 24 hours in a day. In earlier times when there were no clocks, movements of the sun and the moon were used to know the estimated time of the day. Then sundials were designed. After sundials came the sand clock. Later, pendulum clocks were used.`,
-        title: 'Means of Measurement'
+        title: 'Measurement'
       }
     },
     {
@@ -98,11 +97,11 @@ time, seconds`,
       id: 'drag-drop-2',
       data: {
         fontSize: '1rem',
-        text: `Measurement of something from end to end - *length*
-Measurement of the quantity of matter an object contains - *mass*
-Measurement of space that an object occupies - *volume*
-Measurement of how hot or cold a body is - *temperature*
-Measurement of interval between two events - *time*`
+        text: `Distance between two points is measured as *length*.
+        Amount of matter present in a thing is measured as *mass*.
+        The space occupied by an object is measured as *volume*.
+        The hotness or coldness is measured as *temperature*.
+        The duration of any process is measured as *time*.`
       }
     }
   ]

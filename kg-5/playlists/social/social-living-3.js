@@ -46,12 +46,6 @@ School is not for everyone.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Personal and public *hygiene* helps to keep us healthy.
 Issues arising in community life should be *resolved* amicably.
 *Each child* must have the opportunity to attend school.
@@ -93,7 +87,7 @@ In the olden days in our country, students used to go to their teacher’s *hous
       data: {
         title: 'Our Community Life',
         text: `# Community
-We like the company of other people. At home, we live with our parents. We also have neighbors. We miss our friends if we can’t meet them. We miss even our pets when they are not around. People like to live in groups. Living in the company of our family, neighbors and other people means living in a community. In a community, we get companions. We feel secure in their company. We help them and they, too, help us. This is known as co-operation. Mutual co-operation is the greatest benefit of community life. Rules are needed to build this co-operation.
+We like the company of other people. At home, we live with our parents. We also have neighbours. We miss our friends if we can’t meet them. We miss even our pets when they are not around. People like to live in groups. Living in the company of our family, neighbours and other people means living in a community. In a community, we get companions. We feel secure in their company. We help them and they, too, help us. This is known as co-operation. Mutual co-operation is the greatest benefit of community life. Rules are needed to build this co-operation.
 Our daily needs are fulfilled in a community. Education and health facilities for everyone can be developed in a community. Goods have to be produced to satisfy needs. This is called the production of goods. The process of reaching those goods to people is called service. Production and service are both necessary to satisfy needs. Many people contribute to this. One person cannot produce everything; neither can he give all services by himself. Community life is interdependent.
 # Rules in a Community
 Before playing any game, we must first understand its rules. The rules of the game are the same for everybody. Every player has to follow the rules. Only then does the game go on smoothly. Similarly, to make sure that community life also goes on smoothly, we must follow the rules. Games have an important place in our lives. We imbibe the qualities of cooperation and unity through games. Participation, determination and passion are more important in games than winning or losing.`
@@ -104,12 +98,6 @@ Before playing any game, we must first understand its rules. The rules of the ga
       type: 'matchByDragDrop',
       id: 'drag-drop3',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `People like to live in a *community*.
 Mutual *co-operation* is the greatest benefit of community life.
 Our daily *needs* are fulfilled in community life.
@@ -160,7 +148,7 @@ sports, healthy`
         questions: [
           {
             qText: ' With whom do we live at home?',
-            options: 'family, friends, neighbors'
+            options: 'family, friends, neighbours'
           },
           {
             qText: 'When do we feel secure?',

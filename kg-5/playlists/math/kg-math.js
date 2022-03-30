@@ -62,7 +62,6 @@ export default {
       data: {
         title: 'Click on the Biggest Number.',
         fontSize: '2.5',
-        noCaps: true,
         type: 'math',
         probType: 'biggest',
         pattern: 'x'
@@ -75,7 +74,6 @@ export default {
       data: {
         title: 'Click on the Smallest Number.',
         fontSize: '2.5',
-        noCaps: true,
         type: 'math',
         probType: 'smallest',
         pattern: 'x'

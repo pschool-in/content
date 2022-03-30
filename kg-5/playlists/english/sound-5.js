@@ -48,7 +48,7 @@ export default {
         {
           audioOffset: 20,
           text:
-            'swallow, blue-jay|blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow|macaw'
+            'swallow, blue-jay|blue jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
         }
       ]
     },
@@ -104,7 +104,7 @@ export default {
         {
           audioOffset: 20,
           words:
-            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macow'
+            'swallow, blue-jay, seagull, canary, goose, turkey, hawk, cardinal, parakeet, macaw'
         }
       ]
     }

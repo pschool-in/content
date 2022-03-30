@@ -183,7 +183,7 @@ He gave me *a* call in *the* evening.`
       data: [
         `Meera is *an* intelligent student.
 Dad wants me to wear *a* cap.
-Reema has *a* jewelry box.
+Reema has *a* jewellery box.
 We put up *a* Christmas tree for the holidays.
 Grandma read *a* story to all my friends.
 I saw *an* ostrich in the zoo.

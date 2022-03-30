@@ -12,24 +12,24 @@ export default {
         title: 'Cleanliness',
         text: `Maintaining cleanliness is a must have discipline for every human being. We should not forget brushing teeth, taking bath, wearing clean clothes etc.
 # Germs
-Germs are micro-organisms that affects our body. They are found in all the places. If we do not maintain cleanliness, the germs will infect us and cause many diseases to us.
+Germs are micro-organisms that affect our body. They are found in all the places. If we do not maintain cleanliness, the germs will infect us and cause many diseases to us.
 # Hand Washing
 It is important to wash our hands, before and after having the food.
 # Steps of hand washing
-1. Wet your hands.
-2. Apply enough soap.
-3. Rub the palms.
-4. Rub the back of each hand together.
-5. Rub both hands holding all fingers.
-6. Rub the back of the fingers.
-7. Rub the tip of the fingers.
-8. Rub the thumbs and the ends of the wrists.
-9. Rinse both hands properly with enough water.
+1. Wet your hands
+2. Apply enough soap
+3. Rub the palms
+4. Rub the back of each hand together
+5. Rub both hands holding all fingers
+6. Rub the back of the fingers
+7. Rub the tip of the fingers
+8. Rub the thumbs and the ends of the wrists
+9. Rinse both hands properly with enough water
 # Benefits of hand washing
-1. Kills or removes germs.
-2. Lowers the risk of diseases like Diarrhoea.
-3. Prevents eye infections.
-4. Reduces the risk of respiratory infections.`
+1. Kills or removes germs
+2. Lowers the risk of diseases like Diarrhoea
+3. Prevents eye infections
+4. Reduces the risk of respiratory infections`
       }
     },
     {
@@ -38,7 +38,7 @@ It is important to wash our hands, before and after having the food.
       id: 'used-not-used',
       data: {
         title:
-          'Classify the given materials based on if they are used to clean your body',
+          'Classify the given materials based on, if they are used to clean your body',
         types: [
           {
             name: 'Used',
@@ -83,7 +83,7 @@ Just wash your hands quickly in water before a meal.`
 Apply enough soap.
 Rub palms and its backside.
 Rub the tip of fingers.
-Rinse both bands with enough water.`
+Rinse both hands with enough water.`
       }
     },
     {
@@ -97,9 +97,9 @@ Rinse both bands with enough water.`
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `*Germs* are microorganisms that affect our bodies.
+        text: `*Germs* are micro organisms that affect our bodies.
 It is important to wash our hands to keep ourselves *healthy*. 
-Washing hand *kills* or removes germs.
+Washing hand, *kills* or removes germs.
 Washing hands *prevents* eye infections.
 Apply enough *soap* while washing hands.`
       }
@@ -135,7 +135,7 @@ Apply enough *soap* while washing hands.`
       }
     },
     {
-      label: 'Personal Hyygeine',
+      label: 'Personal Hygeine',
       type: 'passage',
       id: 'personal-hygenine',
       data: {
@@ -151,18 +151,16 @@ In the world, nearly one billion people have no access to a toilet at all and th
 1. It causes waterborne diseases.
 2. Leads to spread of diseases caused by insect carrier.
 3. Leads to pollution.
-# How to wash out intestinal worms?
-Use the toilet and avoid open defecation. Wash our hands after using the toilet. These will help us to have a healthy life.
 # Importance of Bathing
-1. Cleanses the body.
-2. Removes dirt and odor.
-3. Protects oneself from infection.
-4. Improves blood circulation.
+1. Cleanses the body
+2. Removes dirt and odor
+3. Protects oneself from infection
+4. Improves blood circulation
 # Safety measures in Bathroom
 1. Do not play with water or run around in the bathroom. You may get hurt.
 2. Do not touch sharp objects such as blades, razors and scissors kept in the bathroom.
 3. Use hot water under the supervision of an adult only.
-4. Do not leave a soap bar on the floor. Someone may slip due to it.
+4. Do not leave a soap bar on the floor. Someone may slip on it.
 5. Do not leave the bathroom floor wet. Dry the floor using a wiper before you leave.
 6. Do not touch electric switches with wet hands. You may get hurt with an electric shock.`
       }
@@ -266,25 +264,19 @@ Consult a doctor if you have pain in ear.
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Consult a doctor when you feel any itching, *skin (nose)* injury or infection.
+        text: `If you get itchy eyes, wash your eyes with *cold (hot)* water.
 If the nose is blocked due to cold it is better to use *steam (ice)* to clear it.
-A dirty *tongue (nose)* may cause disease and bad breath.
-Watch television from a minimum distance of *6 (2)* feet.
-Do not listen to music at *higher (lower)* volume when using Earphones or Headphones.`
+A dirty *tongue (nose)* may cause bad breath.
+Watch television from a minimum distance of *6 (2, 4)* feet.
+Do not listen to music at *higher (lower)* volume when using earphones or headphones.
+Our finger tips are protected by *nails (skin, nail polish)*.`
       }
     },
     {
-      label: 'Fill in the blanks',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop4',
       data: {
-        isPractice: false,
-        title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Do not clean your *nose* by inserting any object into it.
 Do not rub your *eyes* with your fist.
 Dry your *ears* after taking bath.
@@ -305,7 +297,7 @@ A dirty *tongue* may cause disease and bad breath.`
           },
           {
             qText: 'How can we clear our nose if it is blocked due to cold?',
-            options: 'using steam, using hot water, using cold water.'
+            options: 'using steam, using hot water, using cold water'
           },
           {
             qText: 'Which of the following activities can harm our eyes?',
@@ -399,7 +391,9 @@ Helping people is very honorable, and there are plenty of ways by which we can h
 6. Open doors for the disabled.
 7. Making way for them.
 8. Help them to cross the road.
-9. Treat them as normal people.`
+9. Treat them as normal people.
+Braille is a reading and writing method for the visually challenged person. It has a raised pattern that can be read with the fingers.
+We do not use the word handicapped or disabled. We use differently-abled.`
       }
     },
     {
@@ -433,9 +427,9 @@ Someone touching your private parts.`
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `Some cannot use any one or more of the five senses, such people are called *Differently-abled*.
-Some touches are *good* or safe, like when we shake hands. 
-Some touches are *bad* or unsafe, like when we hit someone.
+        text: `Some cannot use any one or more of the five senses, such people are called *differently-abled*.
+Some touches are *good* and safe, like when we shake hands. 
+Some touches are *bad* and unsafe, like when we hit someone.
 If you do not like any touch or if it makes you sad, angry or scared, tell them to *STOP*!`
       }
     },
@@ -492,15 +486,13 @@ If you do not like any touch or if it makes you sad, angry or scared, tell them 
 Global Hand Washing Day is observed on October 15.
 World Toilet Day is observed on November 19.
 National Deworming Day is observed on February 10.
-Sulabh International Museum of Toilets is in Delhi, India. It exhibits different toilet models from 50 countries across the world – spanning from 3000 BC till the 20th century.
+Sulabh International Museum of Toilets is in Delhi, India. It exhibits different toilet models from 50 countries across the world - spanning from 3000 BC till the 20th century.
 World Health Day is observed on April 7.
 The fruits of the Soapberry tree are Saponin-rich and used as a soap substitute.
 A condition known as digital eye strain is common among people working at computers all day. This condition leads to dry eyes, eye strain, blurred vision and headache.
-Noise levels are measured in decibels (dB).
-Any sound over 85dB can be harmful to us.
-If someone abuses you or hurts you, you can call 1098 and get help.
-Braille is a reading and writing method for the visually challenged person. It has a raised pattern that can be read with the fingers.
-We do not use the word handicapped or disabled. We use differently-abled.`
+Noise levels are measured in decibels .
+Any sound over 85 decibel can be harmful to us.
+If someone abuses you or hurts you, you can call 1098 and get help.`
       }
     },
     {
@@ -511,7 +503,7 @@ We do not use the word handicapped or disabled. We use differently-abled.`
         title: 'Click the blanks and fill it with the right word.',
         text: `A condition known as digital eye strain is common among people working at *computers (books)* all day. 
 Noise levels are measured in *decibels (joules)*.
-Any sound over *85 (15)*dB can be harmful to us.
+Any sound over *85 (15)* dB can be harmful to us.
 If someone abuses you or hurts you, you can call *1098 (1908)* and get help.
 Braille is a reading and writing method for the *visually (physically)* challenged person.`
       }
@@ -521,7 +513,6 @@ Braille is a reading and writing method for the *visually (physically)* challeng
       id: 'true-false3',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true or false',
         types: [
           {
             name: 'True',

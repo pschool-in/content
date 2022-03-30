@@ -1,182 +1,58 @@
 export default {
-  label: 'Plants 4',
+  label: 'Plants Habitat',
   id: 'plants-4',
   lockAfter: 4,
   list: [
     {
-      label: 'Plants-2 - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'reading',
       data: {
-        title: 'Some more details on Plants',
-        text: `All living things need food. Photosynthesis is a process by which plants make their food using chlorophyll, water, carbon dioxide in the presence of sunlight.Plants are also referred as primary producers since they prepare food for themselves. Stems and branches of the plant take the prepared food from the leaves to other parts of the plants. Extra food is stored as starch in roots, stems, leaves ,fruits and in flowers.
-Plants are classiﬁed in many ways based on stems, life span, seeds, ﬂower and colour. Based on the production of flowers, plants are classified into flowering and nonflowering plants. Based on the period of life cycle plants are classified into Annuals, Biennials and Perennials.
-Based on the colour present in the plant, they are classified into Green and Nongreen plants.`
+        title: 'Habitat',
+        text: `Plants grow almost everywhere on the Earth. They grow both in land and water. The plants adapt to their surroundings and hence have special characteristics based on their habitat. The natural home of a plant is called its habitat. Plants make suitable adjustment with their surroundings to meet their requirements. This is known as adaptation.
+        # Terrestrial Plants
+        The plants that grow on the land are called terrestrial plants. Land forms can be further divided into desert, plain, mountain and forest.
+        # Desert Plants
+        These plants grow in hot, dry and sandy places. Deserts get very less rainfall and experience high temperature. Hence, there is scarcity of water. 
+        1. Leaves are changed to spines to reduce the loss of water.
+        2. The stem is green and fleshy. They store water and produce food.
+        3. These plants have a long root that goes deep into the soil.
+        4. Eg: Catcus, Opuntia, Date Palm and Aloe vera
+        # Plants on Mountain
+        These plants grow in cold and freezing places.
+        1. These trees are conical in shape. This shape allows snow to slide from the trees easily.
+        2. Needle like leaves help them to survive in cold conditions like snow.
+        3. These trees do not shed leaves.
+        4. They have cones instead of flowers. These cones protect the seeds during harsh winter. Eg: Pine tree, Redwood tree
+        # Plants in Plains
+        Plants in plains need to adapt to both dry conditions and extreme temperatures.
+        1. They grow in warmer climate and usually shed their leaves in winter to protect themselves from cold.
+        2. They have flat and broad leaves.
+        3. They have thick and woody stem. Eg: Mango, Banyan, Teak.
+        # Do you know?
+        Banyan, Peepal and Tamarind trees live more than hundred years.
+        # Plants in Coastal Areas
+        1. They are tall and mostly straight.
+        2. The leaves are called frond.
+        3. The frond look like feathers meant for protection from wind.
+        4. These plants are tolerant to saline (salt) water. E.g., Coconut tree, Casuarina`
       }
     },
     {
-      label: ' Flowering vs Non flowering',
-      id: 'classify',
+      label: 'Desert vs Plain',
+      id: 'desert-plain',
       type: 'group',
       data: {
-        title:
-          'Classify the below plants based on whether they produce flowers',
         types: [
           {
-            name: 'Flowering',
-            text:
-              'sunflower, rose, daffodils, tulip, cactus, neem, paddy, mango'
+            name: 'Desert',
+            text: 'Aloe Vera, Cactus, Date Palm'
           },
           {
-            name: 'Non-flowering',
-            text: 'algae, fungi, ferns, moses'
+            name: 'Plain',
+            text: 'Mango, Banyan, Teak'
           }
         ]
-      }
-    },
-    {
-      label: 'Green vs Non green',
-      id: 'classify-2',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on colour',
-        types: [
-          {
-            name: 'Green',
-            text: 'paddy, rice, grass, moss, conifer, algae'
-          },
-          {
-            name: 'Non-Green',
-            text: 'mushroom, moulds, bracket fungi, yeast'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Winter vs Summer',
-      id: 'winter-summer',
-      type: 'group',
-      data: {
-        title: 'Classify the below flowers based on the season they bloom',
-        types: [
-          {
-            name: 'Winter',
-            text: 'december, winter jasmine, tuberose, pansy'
-          },
-          {
-            name: 'Summer',
-            text: 'jasmine, sunflower, rose, marigold, bougainvillea, daisy'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Autumn vs Spring',
-      id: 'classify-3',
-      type: 'group',
-      data: {
-        title: 'Classify the below flowers based on the season they bloom',
-        types: [
-          {
-            name: 'Autumn',
-            text: 'dahlia, saffron, hibiscus, chrysanthemum'
-          },
-          {
-            name: 'Spring',
-            text: 'tulip, pansy, daffodil, prime rose'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Root vs Stem',
-      id: 'classify-4',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on their edible part',
-        types: [
-          {
-            name: 'Root',
-            text: 'carrot, beetroot, tapioca'
-          },
-          {
-            name: 'Stem',
-            text: 'onion, turmeric, sugarcane'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Leaf vs Flower',
-      id: 'classify-5',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on their edible part',
-        types: [
-          {
-            name: 'Leaf',
-            text: 'coriander, cabbage, moringa'
-          },
-          {
-            name: 'Flower',
-            text: 'banana flower, cauliflower, cloves'
-          }
-        ]
-      }
-    },
-    {
-      label: 'Fruits vs Grains',
-      id: 'classify-6',
-      type: 'group',
-      data: {
-        title: 'Classify the below plants based on their edible part',
-        types: [
-          {
-            name: 'Fruits',
-            text: 'watermelon, grapes, pumpkin, tomato, mango'
-          },
-          {
-            name: 'Grains',
-            text: 'rice, pulses, fenugreek'
-          }
-        ]
-      }
-    },
-    {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Pine, 400 years
-Banyan, 300 years
-Oak, 1500 years
-Apple, 30 years`,
-        title: 'Match the trees with their life span'
-      }
-    },
-    {
-      id: 'fillup',
-      label: 'Plants - Fill in the Blanks ',
-      type: 'fillup',
-      data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `*Veins (lamina)* are branch out from the midrib.
-*Petiole (sepal)*joins the leaf to the main stem.
-*Stomata (leaf)* are used to exchange gases.
-*Chlorophyll (anthocyanin)* is the green pigment in plants`
-      }
-    },
-    {
-      type: 'rightOne',
-      id: 'odd-one',
-      label: 'Odd one out',
-      data: {
-        title: 'Odd one out',
-        fontSize: '1.3rem',
-        noCaps: true,
-        text: `Tulip, December, Tuberose 
-Rose,Saffron, Dahlia 
-Rose, Boat lily, Crotons`
       }
     },
     {
@@ -184,111 +60,311 @@ Rose, Boat lily, Crotons`
       id: 'true-false',
       type: 'classifySentence',
       data: {
-        title: 'Classify the below sentences as true and false',
         types: [
           {
             name: 'True',
-            text: `Plants bearing flowers are flowering plants.
-Tomato is a fruit.
-Cycas is an exotic plant`
+            text: `Plants in coastal areas are tolerant to saline water.
+            Trees in cold places do not shed leaves in autumn.
+            Mountains are much colder than plains.
+            Banyan tree can live for more than 100 years.`
           },
           {
             name: 'False',
-            text: `Rose is an autumn flower.
-Cauliflower is an edible leaf`
+            text: `Teak is an example of desert plant.
+            A desert plant can easily survive in a mountain.
+            Banana tree can live for more than 100 years.`
           }
         ]
       }
     },
     {
-      id: 'drag-drop',
-      label: 'Plants - Answer in one word ',
-      type: 'matchByDragDrop',
+      label: 'Aquatic Plants - Notes',
+      type: 'passage',
+      id: 'aquatic-notes',
       data: {
-        title: 'Click the blanks and fill it with the right word.',
-        text: `Green pigment in plant that help in tapping light - *chlorophyll*
-Process by which plants make food - *photosynthesis*
-Part of plant that helps in exchange of gases - *stomata*
-Leaves loose water by this process - *transpiration*`
+        title: 'Aquatic Plants',
+        text: `The plants that grow in water bodies like pond, lake and sea are called water plants or aquatic plants. They are classified into three types.
+        # Free floating plants
+        These are found on the surface of the water. They freely float with the help of spongy body filled with air. They have poorly developed roots. Eg: Water hyacinth, Pistia.
+        # Fixed rooted plants
+        These plants have root that are fixed in the bottom of the water bodies. These plants have air tubes in their stem to help them float. Their leaves are broad and coated with wax to make them water proof. Eg: Water lily, Lotus.
+        # Submerged plants
+        These plants are completely submerged in the water. Their stem is thin and leaves are very small. There is no opening on the leaf surface. They breathe through stem. Eg: Vallisneria, Hydrilla.`
       }
     },
     {
-      label: 'Flower vs Leaf',
-      id: 'flower-leaf',
+      label: 'Terrestrial vs Aquatic',
+      id: 'aquatic-group',
       type: 'group',
       data: {
-        title: 'Identify whether the mentioned parts belong to flower or leaf',
         types: [
           {
-            name: 'Leaf',
-            text: 'apex, veins, midrib, blade, petiole'
+            name: 'Terrestrial',
+            text: ' Tulip, Rose, Papaya, Pineapple, Tulsi'
           },
           {
-            name: 'Flower',
-            text: 'petal, stalk, sepal, pistil, stamen'
+            name: 'Aquatic',
+            text:
+              'Lotus, Water Lily,  Water Hyacinth, Pistia, Vallisneria, Hydrilla'
           }
         ]
-      }
-    },
-    {
-      id: 'match-2',
-      label: 'Match the following',
-      type: 'match',
-      data: {
-        text: `Roots, Beetroot
-Flowers, Clove
-Fruits, Banana
-Grains, Rice
-Leaves, Cabbage
-Stem, Sugarcane`,
-        title: 'Match parts and their food'
       }
     },
     {
       label: 'Plants - Choose the best Answer',
-      id: 'mcq-plants',
+      id: 'habitat-mcq',
       type: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: ' ______ are the food factories of the plants',
-            options: 'Leaves, Stem, Roots'
+            qText:
+              'The plants that grow in water bodies like ponds and lakes are called ______ plants.',
+            options: 'aquatic, terrestrial, coastal'
           },
           {
             qText:
-              'The presence of a substance called ______ makes a leaf green.',
-            options: 'chlorophyll, stomata, veins'
+              'Plants make suitable adjustment with their surroundings to meet their requirements. It is known as ________.',
+            options: 'adaptation, habitat, photosynthesis'
           },
           {
-            qText:
-              ' The ______ on the leaf take water from the stem and pass it to all parts of the leaf.',
-            options: 'veins, nodes, petiole'
+            qText: 'Trees like teak, banyan and mango usually grow in ______.',
+            options: 'plains, deserts, coastal areas, mountains'
           },
           {
-            qText:
-              ' Process of making own food by the plants is called as _____',
-            options: 'Photosynthesis, Reproduction, Development'
+            qText: 'Which habitat has varying climate?',
+            options: 'Plain, Mountain, Desert, Coastal'
           },
           {
-            qText: 'The excess of food formed is stored as _____',
-            options: 'starch, sugar, salt'
+            qText: 'Which habitat gets strong winds?',
+            options: 'Coastal, Mountain, Plain, Desert'
           },
           {
-            qText:
-              'The region of the stem where leaves are born are called ______ ',
-            options: 'nodes, internodes, midrib'
-          },
-          {
-            qText: 'The non-flowering plants are also called as the ______.',
-            options: 'gymnosperms, angiosperms, heterotrophs'
-          },
-          {
-            qText:
-              '______ are leaves that protect the ﬂower while it is still a bud.',
-            options: 'Sepals, Petals, Pistils'
+            qText: 'Which aquatic plant breathe through stem?',
+            options:
+              'Submerged plants, Free floating plants, fixed rooted plants'
           }
         ]
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill Up',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Mountain plants have *cones (cylinders)* instead of flowers. Their needle like leaves help them to survive in *cold (hot, rainy)* condition.
+        Banyan tree can live for more than *100 (1000)* years. 
+        The trees in *plains (deserts, mountains)* shed their leaves once in a year.
+        Potato is a food stored in the *stem (root)* of the plant.
+        The trees in cold regions are *conical (spherical, cylindrical)* in shape. This shape allows snow to *slide(stay) *.
+        The free floating plants have a *spongy (rigid, rough)* body filled with *air (water, minerals)*.
+        In fixed rooted plants, the leaves are *broad (narrow)* and coated with *wax (gum, paste)* to make them water proof.`
+      }
+    },
+    {
+      id: 'drag-drop',
+      label: 'Fill up by drag and drop',
+      type: 'matchByDragDrop',
+      data: [
+        `Plants *adapt* to their surroundings and hence have special characteristics based on their *habitat*.
+        Deserts get very less *rainfall* and experience high *temperature*. Hence, there is *scarcity* of water.`,
+
+        `The leaves of coastal areas are called *frond* and they protect from *wind*. These plants can grow in *saline* condition.
+        Usually the trees in plains have *broad* leaves and *thick* stem.`,
+
+        `*Pistia* is an example of free floating plant. They have poorly developed *root*.
+        *Lotus* is an example of fixed rooted plant. They have a long *stem*.
+        *Hydrilla* is an example of submerged plants. They *breathe* through stem.`
+      ]
+    },
+    {
+      id: 'match-habitat',
+      label: 'Match Plants and Habitat',
+      type: 'match',
+      commonData: {
+        title: 'Match plants with their habitat.'
+      },
+      data: [
+        `Desert, Cactus
+        Mountain, Pine
+        Plain, Teak
+        Coastal, Coconut
+        Aquatic, Lotus`,
+
+        ` Plain, Neem
+        Coastal, Casuarina
+        Aquatic, Pistia
+        Desert, Date Palm
+        Mountain, Redwood Tree`,
+
+        `Submerged in water, Hydrilla
+        Fixed rooted, Lotus
+        floating plant, Water hyacinth
+        Needle like leaves, Pine
+        Desert, Aloe vera`
+      ]
+    },
+    {
+      label: 'Leaf - Notes',
+      type: 'passage',
+      id: 'leaf-parts-notes',
+      data: {
+        title: 'Parts of a Leaf',
+        text: `Leaves are of different shapes and sizes and have different parts.
+        The broad flat part of the leaf is called blade. The tip of the leaf is called apex. The midrib runs along the center of the leaf. Veins branch out from the midrib. They are the framework of hollow tubes that carry water and minerals. Petiole joins the leaf to the main stem.
+        Stomata are tiny openings or pores mostly found at the base of the leaves. Air enters and leaves the plant through these openings. Stomata helps the plants to breathe. Stomata are used to exchange gases.`
+      }
+    },
+    {
+      id: 'parts-of-leaf',
+      label: 'Parts of a Leaf',
+      type: 'dragAndDrop',
+      data: {
+        img: 'parts-of-leaf.jpg',
+        title: 'Parts of a Leaf',
+        width: 350,
+        height: 333,
+        wordWidth: 60,
+        fontSize: '1.2rem',
+        words: [
+          {
+            word: 'apex',
+            x: 270,
+            y: 20
+          },
+          {
+            word: 'veins',
+            x: 270,
+            y: 70
+          },
+          {
+            word: 'midrib',
+            x: 270,
+            y: 120
+          },
+          {
+            word: 'blade',
+            x: 270,
+            y: 170
+          },
+          {
+            word: 'petiole',
+            x: 100,
+            y: 285
+          }
+        ]
+      }
+    },
+    {
+      id: 'drag-drop-leaf',
+      label: 'Fill up by drag and drop',
+      type: 'matchByDragDrop',
+      data: {
+        text: `The broad flat part of the leaf is called *blade*. The tip of the leaf is called *apex*. The *midrib* runs along the center of the leaf. From the midrib we can see lot of branches called *veins*.They are the framework of hollow tubes that carry water and *minerals*. The leaf is joint to the main stem through *petiole*.`
+      }
+    },
+    {
+      label: 'Exotic Plants - Notes',
+      type: 'passage',
+      id: 'exotic-plants-notes',
+      data: {
+        title: 'Exotic Plants',
+        text: `The plants that are growing outside its native area either purposefully or accidentally are called exotic plants.
+        Most of these plants are brought to new areas for decoration purposes.
+        Eg: Crotons, Fern, Cycas, Travelers palm, Boat lily, Aloevera`
+      }
+    },
+    {
+      label: 'Food Factory - Notes',
+      type: 'passage',
+      id: 'food-factory-notes',
+      data: {
+        title: 'Food Factory',
+        text: `Plants produce their own food with the help of chlorophyll, a pigment present in leaves. Humans and animals depend on plants for their food either directly or indirectly.
+        Most of the plants are able to make their own food through a process called photosynthesis. 'Photo' means 'light'. 'synthesis' means 'to make'.
+        Photosynthesis is a process by which plants make their food using chlorophyll, water, carbon dioxide in the presence of sunlight.
+        Water is absorbed by the roots and is passed to the leaves through the tubes. Carbon dioxide in the air passes through small pores in the leaves.
+        A green pigment in the leaves help them to trap sunlight. This pigment is called chlorophyll. Most leaves are green in colour because of this green pigment.
+        Through photosynthesis plants produce the food and release oxygen into the air.
+        As plants prepare food for themselves and also for other living things, they are called primary producers.
+        Without primary producers, living things that are not capable of producing their own food and will not be able to live.
+        Plants like cactus do not have leaves. Their food is made in their green stems.`
+      }
+    },
+    {
+      id: 'leaf-fillup',
+      label: 'Fill Up',
+      type: 'fillup',
+      data: {
+        title: 'Click the blanks and fill it with the right word.',
+        text: `Plants are called *primary (secondary)* producers.
+        'Photo' means *light (sound, water)*.
+        Plants like cactus do not have *leaf (stem, root)*.
+        *Petiole (Apex)* joins the leaf to the main stem.
+        In cactus plant, food is made by green *stem (leaf)*.
+        *Stomata (Petiole)* are tiny openings or pores mostly found at the *base (top, corner)* of the leaves.`
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      id: 'mcq-leaf',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText: 'Leaves are green in color due to _______.',
+            options: 'chlorophyll, photosynthesis, sunlight'
+          },
+          {
+            qText: 'What is one of the effects of photosynthesis?',
+            options: `Carbon-dioxide is converted to oxygen.
+            Oxygen is converted to carbon-dioxide.
+            Oxygen in converted to nitrogen.`
+          },
+          {
+            qText:
+              'What will be the effect if there are no plants on the Earth?',
+            options: `Animal life doesn't exist.
+            Animal life will be very difficult.
+           Only meat eating animals will live.`
+          },
+          {
+            qText:
+              'Which of the following is not an ingredients in photosynthesis?',
+            options: `nitrogen, water, carbon-dioxide, sunlight`
+          },
+          {
+            qText: 'When does photosynthesis happen?',
+            options: `Only during day time. 
+            Both day and night.
+            Only during night.
+            Only in the evening.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'match-leaf',
+      label: 'Match the Following',
+      type: 'match',
+      data: {
+        fontSize: '1rem',
+        text: `green pigment, chlorophyll
+        plants, primary producers
+        food preparation, photosynthesis
+        stomata, plants breathe
+        tip of leaf, apex`
+      }
+    },
+    {
+      label: 'Non-Green Plants - Notes',
+      type: 'passage',
+      id: 'non-green-notes',
+      data: {
+        title: 'Non-Green Plants',
+        text: `Plant that lacks chlorophyll pigment and looks not green are called non-green plants. They cannot prepare their food. These plants depend on other organism for their food and living place.
+         Eg: mushroom, bread moulds, bracket fungi`
       }
     }
   ]

@@ -419,7 +419,6 @@ Sesame, Oil`,
       data: {
         title: 'Odd one out',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `Dog, Cow, Sheep, Hen
 Rice, Pizza, Donut, Bread
 Fish, Milk, Butter, Yoghurt

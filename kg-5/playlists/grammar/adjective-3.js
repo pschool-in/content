@@ -315,7 +315,7 @@ The *four* friends walk to the nearby woods for a picnic. They spot an *old* tre
 Swapna sits on a *small* bench and watches the squirrels running up and down.
 This is my grandmother's house. There is a *pretty* garden in front of her house.
 There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
-Every year we distribute these *tasty* mangoes to all our neighbors.`,
+Every year we distribute these *tasty* mangoes to all our neighbours.`,
 
         `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
 She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil

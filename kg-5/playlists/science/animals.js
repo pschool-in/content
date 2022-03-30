@@ -27,7 +27,10 @@ goat, elephant, bat, lions, rat
 Not every birds can fly. Big birds like ostrich, emu, penguin cannot fly.
 Though bat can fly, it is not a bird. Bat give birth to young ones and don't lay eggs.
 Some animals like snail and tortoise move very slowly. Some animals like deer, cheetah can move very fast.
-Some animals like dinosaur lived thousands of years ago, but got extinct now. You cannot find a real dinosaur now. But you can find their skeletons in a museum.`
+Some animals like dinosaur lived thousands of years ago, but got extinct now. You cannot find a real dinosaur now. But you can find their skeletons in a museum.
+
+Each bird's nest looks different. Birds use sticks, thorns, cotton and fibre to build their nests. Some birds such as the woodpecker, owl and parrot live in the holes in the tree trunks called hollows.
+The cuckoo does not build a nest. It lays its eggs in the nests of other birds. `
         ]
       }
     },
@@ -179,6 +182,39 @@ Zebra, 4 Legs
 Spider, 8 Legs
 Snake, No Legs`,
         title: 'Match the animals and the number of legs they have.'
+      }
+    },
+    {
+      id: 'match-2',
+      label: 'Match the following',
+      type: 'match',
+      data: {
+        text: `slowest, snail
+tallest, giraffe
+fastest, cheetah
+biggest, elephant
+smallest, virus`
+      }
+    },
+    {
+      id: 'fillup',
+      label: 'Fill Up',
+      type: 'fillup',
+      data: {
+        text: `Elephants have *trunk (stripe)*. *Tusks (Trunks)* are modified form of teeth. They have *small (large)* eyes and *large (small)* ears.`
+      }
+    },
+    {
+      label: 'Find the Animals',
+      type: 'completeWord',
+      id: 'drag-drop-3',
+      data: {
+        title: 'Find the Animal',
+        text: `I live in trees and jumb between branches. I like bananas. Who am I? | MONKEY
+        I have sharp teeth. I am the king of the jungle. Who am I? | LION  
+        I have no legs. But I slither on the ground and trees. Who am I? | SNAKE   
+        I am not a bird, but I can fly. I collect nectar from flowers and make honey. Who am I? | BEE | ___
+        I have big ears and a long trunk. Who am I? | ELEPHANT`
       }
     }
   ]

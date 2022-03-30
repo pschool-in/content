@@ -492,10 +492,10 @@ Goitre, Iodine`,
       type: 'matchByDragDrop',
       id: 'drag-drop-9',
       data: {
-        text: `Diseases caused due to abnormalities in genes are called *Hereditary diseases*
-Diseases which are caused due to a lack of essential nutrients in the body are called *Deficiency diseases*
-Diseases which are caused due to micro-organisms are called *Infectious diseases*
-Diseases which are caused due to the malfunction of the body organs are called *Physiological diseases*`
+        text: `Diseases caused due to abnormalities in genes are called *Hereditary* diseases.
+Diseases which are caused due to a lack of essential nutrients in the body are called *Deficiency* diseases.
+Diseases which are caused due to micro-organisms are called *Infectious* diseases.
+Diseases which are caused due to the malfunction of the body organs are called *Physiological* diseases.`
       }
     },
     {

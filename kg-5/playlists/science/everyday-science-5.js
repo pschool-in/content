@@ -53,7 +53,6 @@ We need to learn how to reduce, reuse and recycle wastes. The following practice
       data: {
         title: 'Pick the odd one out',
         fontSize: '1.3rem',
-        noCaps: true,
         text: `Cooking, Melting, Freezing, Boiling
 Boiling, Burning, Cooking, Rusting of iron
 Chemicals, Vegetables, Flowers, Fruits

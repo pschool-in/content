@@ -4,53 +4,50 @@ export default {
   lockAfter: 4,
   list: [
     {
-      type: 'slides',
-      id: 'tools',
-      label: 'Tools',
-      commonData: {
-        audio: 'kg-5/tools.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text:
-            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
-        },
-        {
-          audioOffset: 16,
-          text:
-            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel'
-        },
-        {
-          audioOffset: 32,
-          text: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
-        }
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'Identify Tools',
-      id: 'pick-tool',
-      commonData: {
-        title: 'Listen to the sound and click on the right picture.',
-        type: 'image',
-        audio: 'kg-5/tools.mp3'
-      },
-      data: [
-        {
-          words:
-            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
-        },
-        {
-          audioOffset: 16,
-          words:
-            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer, trowel'
-        },
-        {
-          audioOffset: 32,
-          words: 'walkie-talkie, awl, compass, easel, hacksaw, scalpel'
-        }
-      ]
+      id: 'slide-what-we-do',
+      type: 'slides2',
+      label: `What We Do?`,
+      data: {
+        title: `What We Do?`,
+        displayType: 'steps',
+        images: 'inline',
+        steps: [
+          {
+            text:
+              'I am a teacher. I am fond of children. I like to teach lessons and good values.',
+            img: 'teacher'
+          },
+          {
+            text:
+              'I am a policeman. I protect public places and keep people safe.',
+            img: 'police'
+          },
+          {
+            text: 'I am a doctor. I help sick people get well.',
+            img: 'doctor'
+          },
+          {
+            text:
+              'I am a nurse. I care for the needs of sick people. I tie bandages and give injections.',
+            img: 'nurse'
+          },
+          {
+            text:
+              'I am a shopkeeper. I measure and count goods and sell them in my shop.',
+            img: 'shopkeeper'
+          },
+          {
+            text:
+              'I am a postman. I collect letters from the postbox and deliver them to the correct address.',
+            img: 'postman'
+          },
+          {
+            text:
+              'I am a milkman. I care for cows and buffaloes. I supply milk to people.',
+            img: 'milkman'
+          }
+        ]
+      }
     },
     {
       label: 'People and Jobs - Match',
@@ -63,8 +60,12 @@ export default {
           fontSize: '1rem',
           dashWidth: 60
         },
-        text:
-          'A *fireman* puts out fire. \n A *butcher* cuts meat and sell. \n A *policeman* prevents crime. \n A *veterinary doctor* looks after sick animal. \n A *postman* delivers letter to our house. \n A *tailor* makes clothes'
+        text: `A *fireman* puts out fire.
+          A *butcher* cuts meat and sell.
+          A *policeman* prevents crime.
+          A *veterinary doctor* looks after sick animal.
+          A *postman* delivers letter to our house.
+          A *tailor* makes clothes`
       }
     },
     {
@@ -78,8 +79,12 @@ export default {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text:
-          'Doctor → *Hospital* \n  Teacher → *School* \n Cashier → *Bank* \n Chef → *Restaurant* \n Lawyer → *Court* \n  Photographer → *Studio*'
+        text: `Doctor → *Hospital* 
+  Teacher → *School* 
+ Cashier → *Bank* 
+ Chef → *Restaurant* 
+ Lawyer → *Court* 
+  Photographer → *Studio*`
       }
     },
     {
@@ -93,8 +98,13 @@ export default {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text:
-          'Doctor → *Stethoscope* \n  Painter → *Brush* \n Fisherman → *Net*  \n Photographer → *Camera* \n Butcher → *Knife* \n  Farmer → *Plough* \n  Woodcutter → *Axe*'
+        text: `Doctor → *Stethoscope* 
+  Painter → *Brush* 
+ Fisherman → *Net*  
+ Photographer → *Camera* 
+ Butcher → *Knife* 
+  Farmer → *Plough* 
+  Woodcutter → *Axe*`
       }
     },
     {
@@ -168,6 +178,7 @@ export default {
       }
     },
     //Newly added
+    /*
     {
       label: 'Common Occupations-1',
       type: 'passage',
@@ -203,7 +214,7 @@ A tailor sews clothes. They can make shirts, pants, suits, salwar, uniforms, jea
 # 14. Weaver
 A weaver is an expert in weaving. There are two types of weavers. Handweavers do weaving by hand. As a result, they have control over the quality of the final product. The second type of weaver is the operator. They operate the weaving machines in factories.
 # 15. Goldsmith
-A goldsmith is a person who specializes in working with gold and other precious metals. They mainly specialize in making jewelry and other decoratives. They do this by cutting, melting, beating and polishing the precious metals and stones.`
+A goldsmith is a person who specializes in working with gold and other precious metals. They mainly specialize in making jewellery and other decoratives. They do this by cutting, melting, beating and polishing the precious metals and stones.`
       }
     },
     {
@@ -244,236 +255,10 @@ A salesman is also called a sales representative. They basically sell services o
 A blacksmith is a person who makes different things out of scrap metals like iron or steel. They do this by hammering, melting, shaping, etc.`
       }
     },
-    {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
-      commonData: {
-        title: 'Match the pairs'
-      },
+    */
 
-      data: [
-        `Doctor, Hospital
-Shopkeeper, Shop
-Fisherman, Sea
-Driver, Vehicles
-Teacher, School`,
-
-        `Blacksmith, Scrap
-Salesman, Sells
-Writer, Books
-Baker, Bakery
-Electrician, Wires`,
-
-        `Carpenter, Wood
-Cobbler, Shoes
-Police, Safety
-Shepherd, Flock
-Plumber, Pipes`,
-
-        `Nurse, Hospital
-Singer, Melody
-Goldsmith, Gold
-Barber, Haircut
-Tailor, Clothes`,
-
-        `Engineer, Software
-Mechanic, Machines
-Photographer, Camera
-Shephard, Sheep
-Fisherman, Sea shore`,
-
-        `Weaver, Weaving
-Gardner, Lawns
-Potter, Clay
-Farmer, Field
-Dancer, Performance`
-      ]
-    },
-    {
-      label: 'True or False',
-      id: 'tf',
-      type: 'classifySentence',
-      commonData: {
-        title: 'State whether these statements are true or false.',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `A cobbler is a person who repairs shoes.
-Shepherd is one of the oldest occupations.
-A singer has a melodious voice.`,
-          `Dancers work in hospitals.
-Shopkeeper helps the patients.
-An actor is an expert in dancing.`
-        ],
-        [
-          `A farmer is the most important unit of agriculture.
-We have no threat of robbery if we have a watchman.
-A potter makes pottery on a spinning wheel.`,
-          `Gardner takes care of the law.
-A weaver sews our clothes as per our demands.
-Goldsmith makes things out of scrap.`
-        ],
-        [
-          `A driver is a person who drives cars.
-An electrician is an expert of wires and electricity.
-A nurse takes care of patients in the hospital.`,
-          `A salesman helps us in shops.
-A writer is a person who helps us in completing our homework.
-Police protects the theives.`
-        ],
-        [
-          `Blacksmith moulds the scrap into usable products.
-A tailor sews our clothes as per our demands.
-Barber styles our hair.`,
-          `A carpenter works with shoes.
-A baker serves people at a restaurant.
-A plumber helps to repair vehicles.`
-        ]
-      ]
-    },
-    {
-      label: 'Multiple Choice Questions',
-      id: 'mcq-3',
-      type: 'mcq',
-      data: {
-        title: 'Choose the correct answer.',
-        questions: [
-          {
-            qText: 'Who assists patients in the hospital?',
-            options: 'Nurse, Teacher, Watchman'
-          },
-          {
-            qText: 'Who is an expert in jewelry-making?',
-            options: 'Goldsmith, Blacksmith, Cobbler'
-          },
-          {
-            qText: 'Who is skilled with the wooden frameworks?',
-            options: `Carpenter, Blacksmith, Cobbler`
-          },
-          {
-            qText: 'Who makes cakes and pastries?',
-            options: 'Baker, Nurse, Teacher'
-          },
-          {
-            qText: 'Who maintains law and order?',
-            options: 'Police, Conductor, Salesman'
-          }
-        ]
-      }
-    },
-    {
-      id: 'jumbled-words',
-      type: 'sequence',
-      label: 'Jumbled Words',
-      commonData: {
-        title: 'Identify these occupations.'
-      },
-      data: [
-        'Police, Doctor, Driver, Tailor, Barber',
-        'Weaver, Baker, Nurse, Writer, Actor'
-      ]
-    },
-    {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-and-drop',
-      commonData: {
-        isPractice: false,
-        title: 'Drag the correct option in each blank to form an alliteration.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
-      },
-      data: [
-        `A *teacher* works in schools.
-A *singer* has a melodious voice.
-A *writer* is very creative.
-A *barber* styles our hair.
-A *salesman* sells products and services.`,
-
-        `An *electrician* is an expert of electricity.
-A *nurse* takes care of the patients.
-A *doctor* takes care of our health.
-A *policeman* punishes the culprit.
-A *dancer* is an entertainer.`,
-
-        `A *blacksmith* works with the metals.
-A *farmer* works in agriculture.
-An *actor* works in Tv shows and movies.
-A *cobbler* repairs shoes.
-A *baker* makes cakes and pastries.`,
-
-        `A *weaver* works in clothing industries.
-A *potter* makes things of clay.
-A *photographer* can work in many areas, including wildlife.
-A *fisherman* catches fish and collects shells.
-A *tailor* sews clothes.`,
-
-        `A *shephard* has a lot of sheep.
-A *plumber* can fix running and leaking taps.
-A *driver* drives vehicles.
-A *carpenter* makes furniture.
-A *shopkeeper* has a shop.`
-      ]
-    },
-    {
-      id: 'fillup',
-      label: 'Fill up with options',
-      type: 'fillup',
-      data: {
-        text: `A *blacksmith (goldsmith)* works with scrap.
-A *doctor (nurse)* prescribes medicines.
-A *teacher (dancer)* teaches values.
-A *shopkeeper (salesman)* sells products in a shop.
-An *electrician (plumber)* deals with wires.`,
-        title: 'Tap on each blank to view options.'
-      }
-    },
-    {
-      type: 'rightOne',
-      label: 'Correct Spelling',
-      id: 'correct-spelling',
-      commonData: {
-        title: 'Identify the correct spelling.'
-      },
-      data: [
-        `Police, Poliece
-Dancer, Danser
-Barber, Barbar
-Writer, Riter
-Cobbler, Cobblar`,
-
-        `Electrician, Electricean
-Salesman, Saleman
-Blacksmith, Blacksmit
-Singer, Singur
-Dancer, Dancur`,
-
-        `Doctor, Docter
-Shopkeeper, Shopkeper
-Fisherman, Fishman
-Driver, Driiver
-Teacher, Teecher`,
-
-        `Baker, Bakeir
-Carpenter, Carpent
-Shepherd, Shefard
-Plumber, Pumber
-Nurse, Nusze`,
-
-        `Goldsmith, Goldsmit
-Tailor, Taylor
-Weaver, Weavar
-Gardner, Gardnar
-Potter, Pottar`
-      ]
-    },
     {
       id: 'wordsearch',
-      editable: true,
       type: 'wordsearch',
       label: 'WordSearch - occupations-1',
       data: {
@@ -526,7 +311,6 @@ Potter, Pottar`
     },
     {
       id: 'wordsearch-2',
-      editable: true,
       type: 'wordsearch',
       label: 'WordSearch - occupations-2',
       data: {

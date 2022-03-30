@@ -87,8 +87,7 @@ export default {
           ['N', 'E', 'R', 'V', 'E', 'T', '', '', ''],
           ['', '', '', '', '', 'H', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-diseases',
@@ -146,8 +145,7 @@ export default {
           ['I', 'I', '', 'A', '', '', ''],
           ['D', 'O', '', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-food-health',
@@ -218,8 +216,7 @@ export default {
           ['V', '', '', '', 'L', 'E', ''],
           ['Y', '', '', '', 'I', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-solar-system',
@@ -294,8 +291,7 @@ export default {
           ['', 'S', 'U', 'N', '', '', '', '', 'T'],
           ['', '', 'M', 'E', 'R', 'C', 'U', 'R', 'Y']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-young-ones',
@@ -376,8 +372,7 @@ export default {
           ['L', '', '', 'E', '', '', '', ''],
           ['F', 'A', 'W', 'N', '', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-dental-health',
@@ -446,8 +441,7 @@ export default {
           ['E', '', 'Y', '', 'S', '', '', 'E'],
           ['S', '', '', '', 'T', '', '', '']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-insects',
@@ -537,8 +531,7 @@ export default {
           ['', '', 'Y', '', 'T', '', '', '', '', 'Y'],
           ['', '', '', 'M', 'O', 'L', 'T', 'I', 'N', 'G']
         ]
-      },
-      editable: true
+      }
     },
     {
       id: 'crossword-fruits',
@@ -606,8 +599,7 @@ export default {
           ['', 'E', 'L', 'E', 'M', 'O', 'N', '', 'G', ''],
           ['', '', '', '', 'G', 'R', 'A', 'P', 'E', 'S']
         ]
-      },
-      editable: true
+      }
     }
   ]
 };
