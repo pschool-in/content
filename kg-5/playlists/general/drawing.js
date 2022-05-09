@@ -6,7 +6,7 @@ export default {
       id: 'simple',
       label: 'Basic Drawing',
       type: 'tracing',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         type: 'custom',
         noPicker: true

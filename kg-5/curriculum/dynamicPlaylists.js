@@ -95,11 +95,6 @@ const vocabulary = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Compound Words',
-    id: 'compound-word',
-    grade: 'g2, g3, g4'
-  },
-  {
     label: 'Words and Meaning',
     id: 'words-meaning',
     grade: 'g1, g2, g3'
@@ -343,7 +338,7 @@ const grammar = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Adjective of Quality and Quantity ',
+    label: 'Adjective of Quality and Quantity',
     id: 'adjective-3',
     grade: 'g2, g3, g4, g5'
   },
@@ -803,7 +798,7 @@ const science = [
     grade: 'g2, g3, g4'
   },
   {
-    label: 'Matter and Materials 2',
+    label: 'Properties of Matter',
     id: 'matter-5',
     grade: 'g2, g3, g4'
   },
@@ -828,12 +823,12 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Plants - 2',
+    label: 'Plants Habitat',
     id: 'plants-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Plants - 3',
+    label: 'Reproduction in Plants',
     id: 'plants-5',
     grade: 'g3, g4, g5'
   },
@@ -848,7 +843,7 @@ const science = [
     grade: 'g4, g5'
   },
   {
-    label: 'Food - 5',
+    label: 'Food Preservatives',
     id: 'food-5',
     grade: 'g4, g5'
   },
@@ -898,17 +893,17 @@ const science = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body 3',
+    label: 'Human Body',
     id: 'humanbody-3',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body 4',
+    label: 'Human Body - 2',
     id: 'humanbody-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Human Body 5',
+    label: 'Human Body - 3',
     id: 'humanbody-5',
     grade: 'g3, g4, g5'
   },
@@ -1077,12 +1072,12 @@ const social = [
     grade: 'g3, g4'
   },
   {
-    label: 'Health - 2',
+    label: 'Health: Home Remedies',
     id: 'health-4',
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Health - 3',
+    label: 'Health: Diseases and Prevention',
     id: 'health-5',
     grade: 'g3, g4, g5'
   },
@@ -1092,7 +1087,7 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Child Rights-2',
+    label: 'Educational Rights',
     id: 'child-rights-5',
     grade: 'g3, g4, g5'
   },
@@ -1180,7 +1175,7 @@ const social = [
     grade: 'g3, g4, g5'
   },
   {
-    label: 'Maps 3',
+    label: 'Maps: Signs and Symbols',
     id: 'maps-5',
     grade: 'g3, g4, g5'
   },

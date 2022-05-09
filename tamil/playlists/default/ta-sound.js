@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை',
   id: 'ta-sound',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

@@ -1,6 +1,7 @@
 export default {
   label: 'Types of Noun',
   id: 'noun-3',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

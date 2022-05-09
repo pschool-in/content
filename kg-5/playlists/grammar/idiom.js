@@ -2,6 +2,7 @@ export default {
   id: 'idiom',
   label: 'Idioms',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -36,6 +37,7 @@ Some commonly used idioms and their meanings are given below:
       label: 'Identify the meanings',
       id: 'mcq-idioms',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title:
           'Identify the correct meanings of the idioms from the options given below'
@@ -179,6 +181,7 @@ Some commonly used idioms and their meanings are given below:
       type: 'selectWord',
       label: 'Identify the Idioms',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the idioms from the sentence',
         printTitle: 'Read the below text and underline the idiom',

@@ -2,7 +2,7 @@ export default {
   id: 'computer-3',
   label: 'Introduction to Computer',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',

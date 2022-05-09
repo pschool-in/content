@@ -24,7 +24,7 @@ export default {
       id: 'match',
       type: 'match',
       label: 'Match ',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'Match the compound words'
       },
@@ -104,7 +104,7 @@ post, card`
       id: 'match-2',
       type: 'match',
       label: 'Match - 2',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'Match the compound words'
       },
@@ -184,7 +184,7 @@ wall, paper`
       id: 'match-3',
       type: 'match',
       label: 'Match - 3',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'Match the compound words'
       },
@@ -336,6 +336,7 @@ sun, glasses`
       label: 'Pick right word',
       id: 'complete',
       type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct block to make a compound word.',
@@ -457,6 +458,7 @@ play, back, front`
       label: 'Pick right word',
       id: 'complete-2',
       type: 'completePuzzle',
+      lockAfter: 2,
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct block to make a compound word.',

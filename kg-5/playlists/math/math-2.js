@@ -23,7 +23,7 @@ export default {
       label: 'Odd vs Even Numbers',
       type: 'group',
       id: 'group',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title:
           'Classify the below numbers as Odd and Even. Drag and drop them in the right boxes',
@@ -42,7 +42,7 @@ export default {
       type: 'match',
       label: 'Match Multiply',
       id: 'match-multiply',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Match Multiply'
       },
@@ -92,7 +92,7 @@ export default {
       type: 'match',
       label: 'Match Division',
       id: 'match-divide',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Match Division'
       },
@@ -140,7 +140,7 @@ export default {
       label: 'Number Sequence',
       type: 'matchByDragDrop',
       id: 'complete',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title:
           'Complete the sequence by moving the numbers to the respective boxes',
@@ -165,7 +165,7 @@ export default {
       label: 'Fill Up',
       type: 'fillup',
       id: 'fillup',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and fill it with right option'
       },

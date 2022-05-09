@@ -25,6 +25,7 @@ The <b>books</b> are very helpful.<br>
       type: 'group',
       label: 'Classify Naming word or Not',
       id: 'classify',
+      lockAfter: 1,
       commonData: {
         title: 'Drop the words given at the botton in the right boxes.',
         types: ['Naming word', 'Not a Naming word']
@@ -41,6 +42,7 @@ The <b>books</b> are very helpful.<br>
       type: 'selectWord',
       label: 'Select the Naming word',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the naming words in the below sentences.'
       },

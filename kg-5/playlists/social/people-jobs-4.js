@@ -1,6 +1,7 @@
 export default {
   id: 'people-jobs-4',
   label: 'Types of Jobs',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

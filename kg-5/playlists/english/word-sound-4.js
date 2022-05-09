@@ -1,6 +1,7 @@
 export default {
   label: 'House and Other 2',
   id: 'word-sound-4',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -44,7 +45,6 @@ export default {
       type: 'rightOne',
       label: 'Identify House',
       id: 'sound-house',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the household item.',
         type: 'words',
@@ -75,7 +75,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Dress',
       id: 'sound-dress',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the clothing item.',
         type: 'words',
@@ -96,7 +95,6 @@ export default {
       type: 'rightOne',
       label: 'Identify School',
       id: 'sound-school',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
@@ -117,7 +115,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Kitchen',
       id: 'sound-kitchen',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
@@ -148,7 +145,6 @@ export default {
       type: 'dictation',
       label: 'Dictation-House',
       id: 'dictation-house',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/house-dress-1.mp3'
@@ -178,7 +174,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Dress',
       id: 'dictation-dress',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/house-dress-1.mp3'
@@ -198,7 +193,6 @@ export default {
       type: 'dictation',
       label: 'Dictation School',
       id: 'dictation-school',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/school-kitchen-1.mp3'
@@ -218,7 +212,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Kitchen',
       id: 'dictation-kitchen',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/school-kitchen-1.mp3'

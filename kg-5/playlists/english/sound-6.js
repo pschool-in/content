@@ -1,6 +1,7 @@
 export default {
   label: 'More Fruits and Vegetables',
   id: 'sound-6',
+  lockAfter: 0,
   list: [
     {
       type: 'slides',

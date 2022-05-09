@@ -2,7 +2,7 @@ export default {
   label: 'Food and Hygiene',
   id: 'food-4',
   pdf: 'food-4.pdf',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Cooking - Reading',

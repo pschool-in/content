@@ -2,6 +2,7 @@ export default {
   id: 'article-4',
   label: 'Article-4',
   pdf: '',
+  lockAfter: 4,
   list: [
     {
       label: 'Article - Quantifiers',
@@ -22,6 +23,7 @@ There is a little chance of rain today. So please bring an umbrella.`
       id: 'fill-up',
       label: 'Fill up',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Choose the appropriate option to complete the sentence.`
       },
@@ -53,7 +55,7 @@ There are *a few (few)* tables in the auditorium which are vacant.`
       id: 'fillup-2',
       label: 'Fill in the Blanks',
       type: 'fillup',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct Article.',
         options: 'a, an, the'
@@ -108,7 +110,7 @@ Are you coming to *the* library tomorrow?`
       id: 'fillup-small-passage',
       label: 'Small Passage - Fill Up',
       type: 'fillup',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct Article.',
         options: 'a, an, the'

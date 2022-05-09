@@ -1,6 +1,7 @@
 export default {
   label: 'Vehicles and Jobs 2',
   id: 'word-sound-7',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -30,7 +31,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Vehicles',
       id: 'sound-vehicles',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the vehicle.',
         type: 'words',
@@ -53,7 +53,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Jobs',
       id: 'sound-job',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'words',
@@ -76,7 +75,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Vehicles',
       id: 'dictation-vehicles',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/vehicles-jobs-1.mp3'
@@ -98,7 +96,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Jobs',
       id: 'dictation-job',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/vehicles-jobs-1.mp3'

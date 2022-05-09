@@ -2,7 +2,7 @@ export default {
   id: 'time-3',
   label: 'Understanding Time',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'What is Time?',

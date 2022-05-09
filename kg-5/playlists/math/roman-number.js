@@ -149,6 +149,7 @@ M - 1000`
       type: 'match',
       id: 'match',
       label: 'Match Equals',
+      lockAfter: 1,
       commonData: {
         title: 'Match Roman and Decimal.'
       },
@@ -194,6 +195,7 @@ D, 500`
       type: 'rightOne',
       label: 'Biggest Number',
       id: 'biggest',
+      lockAfter: 1,
       commonData: {
         title: `Pick the biggest number.`,
         printTitle: 'Circle the biggest number.',
@@ -235,6 +237,7 @@ CD, XC, C, CL`
       type: 'rightOne',
       label: 'Smallest Roman Number',
       id: 'smallest',
+      lockAfter: 1,
       commonData: {
         title: `Pick the smallest roman number.`,
         printTitle: 'Circle the smallest number.',
@@ -276,6 +279,7 @@ XC, DL, C, M`
       label: 'Ascending Order',
       type: 'sorting',
       id: 'ascending',
+      lockAfter: 1,
       commonData: {
         title:
           'Ascending Order: Drag and drop and reorder the numbers. The smallest number should come at the top.',
@@ -320,6 +324,7 @@ LIX, C, DL, CM, CML`
       label: 'Descending Order',
       type: 'sorting',
       id: 'descending',
+      lockAfter: 1,
       commonData: {
         title:
           'Descending Order: Drag and drop and reorder the numbers. The biggest number should come at the top.',
@@ -363,6 +368,7 @@ CDL, XC, LV, L, XL`
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Numbers',
+      lockAfter: 1,
       commonData: {
         title: 'Convert Roman numbers to Decimal numbers',
         type: 'word-problem',

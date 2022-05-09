@@ -11,6 +11,7 @@ export default {
         type: 'custom',
         audio: 'hi/hi-letters.mp3',
         lineType: 2,
+        repeatCount: 12,
         source: [
           {
             id: 'अ',
@@ -167,8 +168,7 @@ export default {
             width: 205,
             audio: 22
           }
-        ],
-        repeatCount: 1
+        ]
       }
     },
     {
@@ -179,6 +179,7 @@ export default {
         type: 'custom',
         lineType: 2,
         audio: 'hi/hi-letters.mp3',
+        repeatCount: 12,
         source: [
           {
             id: 'क',

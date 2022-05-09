@@ -1,12 +1,13 @@
 export default {
   label: 'Data Handling -3',
   id: 'information-3',
+  lockAfter: 2,
   list: [
     // for class 2 students
     {
       type: 'informationProcessing',
       id: 'bar-chart-2',
-      lockAfter: 2,
+      lockAfter: 1,
       label: 'Bar Chart',
       data: [
         {
@@ -76,7 +77,7 @@ export default {
     {
       type: 'informationProcessing',
       id: 'tally-chart-2',
-      lockAfter: 2,
+      lockAfter: 1,
       label: 'Tally Chart',
       data: [
         {

@@ -1,6 +1,7 @@
 export default {
   label: 'Living Things',
   id: 'living-things',
+  lockAfter: 2,
   list: [
     {
       label: 'Living Things - Reading',

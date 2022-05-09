@@ -1,12 +1,13 @@
 export default {
   label: 'Animal Related Words',
   id: 'animal-words',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'match-sounds',
       type: 'match',
       label: 'Match Sounds ',
+      lockAfter: 2,
       commonData: {
         title: 'Match the animals with the sounds they make.'
       },
@@ -43,6 +44,7 @@ sparrow, tweet`
       id: 'match-place',
       type: 'match',
       label: 'Match Animals and their home',
+      lockAfter: 2,
       commonData: {
         title: 'Match the animals with their home.'
       },

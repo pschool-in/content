@@ -2,6 +2,7 @@ export default {
   label: 'வார்த்தை',
   id: 'ta-word',
   img: 'word',
+  lang: 'ta',
   list: [
     {
       id: '2-letter-words',

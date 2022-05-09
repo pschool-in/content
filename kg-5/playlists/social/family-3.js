@@ -2,7 +2,7 @@ export default {
   id: 'family-3',
   label: 'My Family My Home',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

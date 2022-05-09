@@ -6,7 +6,7 @@ export default {
       type: 'match',
       id: 'match',
       label: 'Match Equals',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Match Equals',
         allowFrac: true
@@ -41,7 +41,7 @@ export default {
       type: 'numberInput',
       id: 'conversion',
       label: 'Convert Units',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Convert units as requested',
         type: 'conversion',

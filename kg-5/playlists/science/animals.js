@@ -1,6 +1,7 @@
 export default {
   id: 'animals',
   label: 'Animal',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -38,6 +39,7 @@ The cuckoo does not build a nest. It lays its eggs in the nests of other birds. 
       label: 'True or False',
       id: 'truefalse',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the below sentences as True or False.',
         types: ['True', 'False']

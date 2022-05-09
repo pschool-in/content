@@ -7,6 +7,7 @@ export default {
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
+      lockAfter: 1,
       commonData: {
         fontSize: '1.3rem',
         dashWidth: 100
@@ -31,6 +32,7 @@ right, bright, *light*`
       id: 'match',
       type: 'match',
       label: 'Match Rhyming Words',
+      lockAfter: 1,
       commonData: {
         title: 'Match the rhyming words.'
       },
@@ -61,6 +63,7 @@ soon, moon`
       type: 'rightOne',
       id: 'odd-one',
       label: 'Odd One Out',
+      lockAfter: 1,
       commonData: {
         title: "Pick the word that doesn't rhyme."
       },
@@ -83,6 +86,7 @@ plate, grade, blade, fade`
       label: 'Pick the rhyming word',
       id: 'complete',
       type: 'completePuzzle',
+      lockAfter: 1,
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the correct block to make the words rhyme.',
@@ -108,6 +112,7 @@ gold, bold, bone`
       id: 'match-2',
       type: 'match',
       label: 'Match Rhyming Words - 2',
+      lockAfter: 2,
       commonData: {
         title: 'Match the rhyming words.'
       },

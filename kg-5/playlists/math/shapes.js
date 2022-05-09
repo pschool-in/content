@@ -118,7 +118,7 @@ export default {
       type: 'rightOne',
       label: 'Identify Shapes',
       id: 'pick-shape',
-      lockAfter: 2,
+      lockAfter: 0,
       commonData: {
         title: 'Listen to the sound and click on the shape.',
         type: 'image',
@@ -155,6 +155,7 @@ M 10 75 H 130 V 10 L 190 100 L 130 190 V 125 H 10 Z`
       type: 'dragDropImgLabel',
       label: 'Match Shapes',
       id: 'land-forms',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.',
         images: 'svg'
@@ -185,6 +186,7 @@ M 98 24 C 224 -45 224 80 98 192 M 98 192 C -26 80 -26 -45 98 24 | Heart`
       type: 'completeWord',
       id: 'complete-word-1',
       label: 'Find First Letter',
+      lockAfter: 1,
       commonData: {
         images: 'svg'
       },

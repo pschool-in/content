@@ -1,12 +1,13 @@
 export default {
   label: 'More Images',
   id: 'picture-8',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'Gadgets',
       id: 'drag-gadgets',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -27,6 +28,7 @@ web-camera | Web Camera`
       type: 'dragDropImgLabel',
       label: 'Others',
       id: 'drag-others',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -56,6 +58,7 @@ toothpaste | Toothpaste`
       type: 'dragDropImgLabel',
       label: 'Flowers',
       id: 'drag-flowers',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -143,7 +146,6 @@ water-lily | WATER-LILY | _ATER-LILY`
       type: 'match',
       id: 'match-gadgets',
       label: 'Match Gadgets',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -166,7 +168,6 @@ W, web-camera`
       type: 'match',
       id: 'match-others',
       label: 'Match Others',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -197,7 +198,6 @@ T, toothpaste`
       type: 'match',
       id: 'match-flowers',
       label: 'Match Flowers',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

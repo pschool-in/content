@@ -5,6 +5,7 @@ export default {
     {
       type: 'sudoku',
       id: '6x6-difficult',
+      lockAfter: 3,
       label: 'Sudoku (6 x 6) Difficult',
       commonData: { type: '6x6-numbers', title: 'Sudoku (6 x 6)' },
       data: [

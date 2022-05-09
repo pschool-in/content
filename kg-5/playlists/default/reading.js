@@ -1,4 +1,4 @@
-const reading = {
+export default {
   label: 'Stories',
   id: 'reading',
   img: 'reading',
@@ -452,5 +452,3 @@ const reading = {
     }
   ]
 };
-
-export default reading;

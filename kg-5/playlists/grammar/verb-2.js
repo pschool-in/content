@@ -6,6 +6,7 @@ export default {
       label: 'Clue Me In!',
       type: 'matchByDragDrop',
       id: 'right-word',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at the right blanks.',
         styles: {

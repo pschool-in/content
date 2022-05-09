@@ -2,7 +2,7 @@ export default {
   id: 'lifeskills-4',
   label: 'My Upbringing',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     /*
 {

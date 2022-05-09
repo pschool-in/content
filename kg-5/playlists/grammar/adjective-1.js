@@ -34,6 +34,7 @@ I saw a <b>cute</b> puppy.`
       id: 'find-word',
       type: 'sequence',
       label: 'Find the Word',
+      lockAfter: 1,
       commonData: {
         title: 'Identify these describing words.'
       },
@@ -47,6 +48,7 @@ I saw a <b>cute</b> puppy.`
       type: 'group',
       label: 'Naming word vs Describing word',
       id: '100',
+      lockAfter: 1,
       commonData: {
         title:
           'Identify the adjectives from the group of words and add them into the appropriate box.',
@@ -73,6 +75,7 @@ I saw a <b>cute</b> puppy.`
       type: 'selectWord',
       label: 'Select the Describing Word',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the adjective in the below sentences.'
       },
@@ -104,6 +107,7 @@ The *hungry* baby was crying for his bottle.`
       id: 'match',
       label: 'Match the Pairs',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the describing word with the related naming word.'
       },

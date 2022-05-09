@@ -1,7 +1,7 @@
 export default {
   id: 'light-3',
   label: 'Light',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       id: 'notes',

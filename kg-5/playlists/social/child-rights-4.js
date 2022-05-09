@@ -2,7 +2,7 @@ export default {
   id: 'child-rights-4',
   label: 'Child Rights',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Rights and Duties of Children',

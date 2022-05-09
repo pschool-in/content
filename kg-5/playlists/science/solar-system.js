@@ -1,6 +1,7 @@
 export default {
   label: 'Solar System',
   id: 'solar-system',
+  lockAfter: 3,
   list: [
     {
       label: 'Heavenly Bodies - Notes',

@@ -1,6 +1,7 @@
 export default {
   label: 'House and Other',
   id: 'sound-4',
+  lockAfter: 0,
   list: [
     {
       type: 'slides',
@@ -99,7 +100,6 @@ export default {
       type: 'rightOne',
       label: 'Identify House',
       id: 'pick-house',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the household item.',
         type: 'image',
@@ -130,7 +130,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Dress',
       id: 'pick-dress',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the clothing item.',
         type: 'image',
@@ -151,7 +150,6 @@ export default {
       type: 'rightOne',
       label: 'Identify School',
       id: 'pick-school',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',
@@ -172,7 +170,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Kitchen',
       id: 'pick-kitchen',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',

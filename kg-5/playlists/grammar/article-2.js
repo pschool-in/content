@@ -1,6 +1,7 @@
 export default {
   label: 'Definite and Indefinite Article',
   id: 'article-2',
+  lockAfter: 3,
   list: [
     {
       label: 'Definite and Indefinite Article',

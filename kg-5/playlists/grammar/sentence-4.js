@@ -6,6 +6,7 @@ export default {
       label: 'Right match',
       id: 'complete',
       type: 'completePuzzle',
+      lockAfter: 1,
       commonData: {
         type: 'rightOpen',
         title: 'Choose the puzzle piece that completes the sentence.',
@@ -46,6 +47,7 @@ Snowfalls| are common in America| is common in America`
       id: 'match',
       label: 'Match the following',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the pairs to form correct sentences.'
       },

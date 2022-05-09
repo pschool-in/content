@@ -1,6 +1,7 @@
 export default {
   id: 'noun-4',
   label: 'Abstract and Concrete Noun',
+  lockAfter: 4,
   list: [
     {
       label: 'Noun - 4',
@@ -25,6 +26,7 @@ Some more examples of concrete nouns are:
       type: 'group',
       label: 'Concrete vs Abstract',
       id: 'classify-concrete-abstract',
+      lockAfter: 1,
       commonData: {
         title: 'Classify these nouns as concrete or abstract.',
         types: ['Concrete', 'Abstract']

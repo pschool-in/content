@@ -2,7 +2,7 @@ export default {
   id: 'humanbody-3',
   label: 'Humanbody-3',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Sense Organs',
@@ -217,8 +217,8 @@ The doctor puts her fingers on our *wrist* to feel your *pulse*.`
         text: `# Parts of our Body
 1. Head: The head is covered with hair. Below the forehead are two eyes, with eyebrows and eyelashes. On the sides are the ears. In front is the nose. Below the nose, is the mouth and chin. The part that joins the head to the torso is the neck.
 2. Torso: The chest, abdomen and back together make up the torso. The part where the arm is joined to the torso is called the shoulder. The leg is joined to the torso at the hip-joint.      
-3. Arm: The arm has three parts – upper arm, forearm and hand. The fingers are part of the hand. The upper arm and forearm are joined at the elbow. The forearm and hand are joined at the wrist.       
-4. Leg: The leg, has three parts – thigh, shank and foot. Toes are part of the foot. The thigh and shank are joined at the knee. The shank and foot are joined at the ankle.        
+3. Arm: The arm has three parts - upper arm, forearm and hand. The fingers are part of the hand. The upper arm and forearm are joined at the elbow. The forearm and hand are joined at the wrist.       
+4. Leg: The leg, has three parts - thigh, shank and foot. Toes are part of the foot. The thigh and shank are joined at the knee. The shank and foot are joined at the ankle.        
 # Organ         
 A part of the body that is used for a particular purpose is called organ. Organs are further classified as internal and external organs.       
 # Body Movement        
@@ -274,7 +274,7 @@ The leg is joined to the torso at the *hip-joint*.`
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `The arm has three parts – upper arm, forearm and *hand*. 
+        text: `The arm has three parts - upper arm, forearm and *hand*. 
 The *fingers* are part of the hand. 
 The upper arm and forearm are joined at the *elbow*. 
 The forearm and hand are joined at the *wrist*.`
@@ -291,7 +291,7 @@ The forearm and hand are joined at the *wrist*.`
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `The leg has three parts – thigh, *shank* and foot.
+        text: `The leg has three parts - thigh, *shank* and foot.
 *Toes* are part of the foot. 
 The thigh and shank are joined at the *knee*. 
 The shank and foot are joined at the *ankle*.`

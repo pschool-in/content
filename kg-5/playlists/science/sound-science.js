@@ -1,7 +1,7 @@
 export default {
   id: 'sound-science',
   label: 'Sound',
-  lockAfter: 4,
+  lockAfter: 2,
   // music and instruments can be added here
   list: [
     {

@@ -1,6 +1,7 @@
 export default {
   label: 'More Animals and Birds',
   id: 'sound-5',
+  lockAfter: 1,
   list: [
     {
       type: 'slides',

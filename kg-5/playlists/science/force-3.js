@@ -1,7 +1,7 @@
 export default {
   label: 'Force',
   id: 'force-3',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Force - Reading',

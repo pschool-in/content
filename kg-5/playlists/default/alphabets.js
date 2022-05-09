@@ -26,13 +26,13 @@ export default {
       type: 'tracing',
       id: 'cursive-small',
       label: 'Cursive Letters',
-      data: { type: 'cursive' }
+      data: { type: 'cursive', repeatCount: 12 }
     },
     {
       type: 'tracing',
       id: 'cursive-capital',
       label: 'Capital Cursive Letters',
-      data: { type: 'cursiveCapital' }
+      data: { type: 'cursiveCapital', repeatCount: 12 }
     },
     {
       type: 'rightOne',
@@ -172,20 +172,5 @@ export default {
         }
       ]
     }
-
-    /*
-    {
-      type: 'tracing',
-      id: 'hindi-vowels',
-      label: 'Hindi Common Vowels',
-      data: { type: 'hindiVowels' }
-    },
-    {
-      type: 'tracing',
-      id: 'hindi-common-consonants',
-      label: 'Hindi Common Consonants',
-      data: { type: 'hindiConsonants' }
-    }
-   */
   ]
 };

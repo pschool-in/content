@@ -1,6 +1,7 @@
 export default {
   label: 'Animals and Birds',
   id: 'sound',
+  lockAfter: 2,
   list: [
     {
       type: 'slides',
@@ -26,7 +27,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Animal Sound',
       id: 'find-animal-sound',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and select the right animal.',
         type: 'image',
@@ -98,7 +98,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Animals',
       id: 'pick-animal',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the animal.',
         type: 'image',
@@ -131,7 +130,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Birds',
       id: 'pick-bird',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the bird.',
         type: 'image',

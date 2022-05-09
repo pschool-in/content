@@ -1,6 +1,7 @@
 export default {
   label: 'Forests in India',
   id: 'forests-india',
+  lockAfter: 1,
   list: [
     {
       label: 'Types of Forests in India - Reading',

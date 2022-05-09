@@ -1,7 +1,7 @@
 export default {
   label: 'Geometry',
   id: 'geometry',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Quick Notes',
@@ -39,6 +39,7 @@ If one half of the figure is the mirror image of the other half, then we can say
       type: 'geometry',
       label: 'Draw Lines',
       id: 'lines',
+      lockAfter: 1,
       data: [
         `Draw a line of length 4 cm. | line | 4
 Draw a line of length 2.6 cm. | line | 2.6

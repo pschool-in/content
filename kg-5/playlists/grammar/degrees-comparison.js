@@ -38,6 +38,7 @@ heavy, heavier, heaviest`
       label: 'Identify the Degree of Comparison.',
       type: 'classifySentence',
       id: 'classify',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the degree of comparison.',
         types: ['Positive', 'Comparative', 'Superlative']
@@ -101,6 +102,7 @@ Lead is one of the heaviest metals.`
       id: 'fillup',
       label: 'Fill up',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Fill in the blank from the given options.`
       },
@@ -154,6 +156,7 @@ Mani is the *fastest (fast, faster)* boy in our class.`
       label: 'Identify the Degree of Comparison-2.',
       type: 'classifySentence',
       id: 'classify-2',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the degree of comparison.',
         types: ['Positive', 'Comparative', 'Superlative']
@@ -234,6 +237,7 @@ Jeevana is the smartest girl in the class.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
+      lockAfter: 1,
       data: [
         `The lion is a *big* animal.
 A Rhinoceros is *bigger* than a lion.

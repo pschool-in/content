@@ -1,6 +1,7 @@
 export default {
   label: 'GK Sports',
   id: 'gk-sports',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

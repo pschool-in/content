@@ -1,12 +1,13 @@
 export default {
   label: 'Time Based Problems',
   id: 'time',
-  //word problems for class 1 students
+  lockAfter: 3,
   list: [
     {
       type: 'clock',
       id: 'write-time',
       label: 'AM or PM',
+      lockAfter: 1,
       commonData: {
         type: 'AMorPM'
       },
@@ -34,6 +35,7 @@ Jacob is swimming on a hot afternoon. | 2:30 | PM`
       type: 'clock',
       id: 'write-time-2',
       label: 'Word Problems - Set the clock',
+      lockAfter: 1,
       commonData: {
         type: 'wordProblem',
         title: 'Find the answer for the below question and set the clock.'
@@ -46,14 +48,14 @@ Now the time is 8:00. What will be the time after 3 hours? | 8:00 | 11:00
 Now the time is 12:30. What will be the time after two and half hours? | 12:30 | 3:00`,
 
         `It will take 25 minutes to reach school. If I start at 6:15, when will I reach? | 6:15 | 6:40
-The 2 and quarter hour show starts at 4:00. When will the show end? | 4:00 | 6:15
+The two-and-quarter hour show starts at 4:00. When will the show end? | 4:00 | 6:15
 Now the time is 6:40. What was the time 90 minutes ago? | 6:40 | 5:10
 Now the time is 7:50. What will be the time after 100 minutes? | 7:50 | 9:30
 Now the time is 4:40. What will be the time after 55 minutes? | 4:40 | 5:35`,
 
         `Mom is going to prepare dinner now and the clock shows 7:50. It will take 50 minutes to prepare. When will the dinner get ready? | 7:50 | 8:40
 Now the time is 7:00. I need to write 3 pages as homework. It will take 20 minutes to write a page. By what time, will I complete the homework? | 7:00 | 8:00
-Now the time is 6:30. I am going to water the plants and clean the vessels. Watering the plants needs 15 minutes. Cleaning the vessels need 20 minutes. By what time will I complete the tasks? | 6:30 | 7:05
+Now the time is 6:30. I am going to water the plants and clean the vessels. Watering the plants needs 15 minutes. Cleaning the vessels needs 20 minutes. By what time will I complete the tasks? | 6:30 | 7:05
 I need to run 5 rounds around the ground. Each round will take 4 minutes. If I start at 6:40, when will I complete it? | 6:40 | 7:00`,
 
         `The train was scheduled to arrive at 5:10 p.m. However, it was delayed for 25 minutes. What time was it when the train arrived? | 5:10 | 5:35
@@ -71,7 +73,7 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
       type: 'numberInput',
       id: 'conversion',
       label: 'Convert Units',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Convert units as requested',
         type: 'conversion',
@@ -88,14 +90,14 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
         `30^days = ?^weeks ?^days, 4, 2
 4^years 1^month = ?^months, 49
 5^days 17^hours = ?^hours, 137
-?^hours = 2 half hours, 1 
+?^hours = 120^minutes, 2 
 349^seconds = ?^minutes ?^seconds, 5, 49`,
 
         `2^hours 47^minutes = ?^minutes, 167
 4^hours 30^minutes = ?^minutes, 270
 300^minutes = ?^hours, 5
 300^seconds = ?^minutes, 5
-?0^hours 20^minutes = 200^minutes, 3`
+?^hours 20^minutes = 200^minutes, 3`
       ]
     },
     {
@@ -131,7 +133,7 @@ I left home at 9:30 am and reached theatre at 9:45 am and after 20 minutes the m
             options: `Sheela, Ravi, Both will take same time`
           },
           {
-            qText: `2 hour movie started at 10:30 am. By what time the movie gets over?`,
+            qText: `2-hour movie started at 10:30 am. By what time the movie gets over?`,
             options: `12:30 pm, 12:30 am, 12:00 am, 12:00 pm`
           },
           {

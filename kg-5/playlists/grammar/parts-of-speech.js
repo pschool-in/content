@@ -1,6 +1,7 @@
 export default {
   label: 'Parts of Speech',
   id: 'parts-of-speech',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -39,6 +40,7 @@ Do you know that the same word can perform different functions in different sent
       type: 'group',
       label: 'Noun vs Verb',
       id: 'classify-noun-verb',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the below words in the respective boxes.',
         printTitle:

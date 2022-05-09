@@ -6,7 +6,7 @@ export default {
       label: 'Fill Up',
       type: 'picturePuzzle',
       id: 'evaluate',
-      lockAfter: 3,
+      lockAfter: 2,
       commonData: {
         type: 1
       },
@@ -269,7 +269,7 @@ export default {
       label: 'Find the Value',
       type: 'picturePuzzle',
       id: 'value',
-      lockAfter: 3,
+      lockAfter: 2,
       commonData: {
         type: 2
       },

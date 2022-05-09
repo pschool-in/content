@@ -2,7 +2,7 @@ export default {
   id: 'computer-4',
   label: 'Input Devices',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Input Devices',

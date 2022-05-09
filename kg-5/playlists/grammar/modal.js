@@ -2,6 +2,7 @@ export default {
   id: 'modal',
   label: 'Modals',
   pdf: '',
+  lockAfter: 2,
   list: [
     {
       label: 'Modals-1',
@@ -41,6 +42,7 @@ This book <b>ought</b> to be very useful.`
       id: 'fillup',
       label: 'Fill up with options',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Click on each blank for options.`
       },
@@ -92,6 +94,7 @@ I *can (may)* not eat almonds because I'm allergic.`
       label: 'Select the word',
       type: 'selectWord',
       id: 'select-word-1',
+      lockAfter: 1,
       commonData: {
         title: `Tap on the modal verb in the below sentences.`,
         printTitle: `Read the below text and underline the modal verbs.`

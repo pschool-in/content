@@ -45,6 +45,7 @@ Alliteration is a series of vowels.`
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'drag-drop',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the correct option in each blank to form an alliteration.'
       },
@@ -84,6 +85,7 @@ How much wood *would* a woodpecker peck?`
     {
       label: 'True or False',
       id: 'true-false',
+      lockAfter: 1,
       type: 'classifySentence',
       commonData: {
         title: 'True or False: The below text has alliteration.',
@@ -122,6 +124,7 @@ He plays a guitar when he's bored.`
       type: 'selectWord',
       label: 'Identify the alliteration',
       id: 'select-words',
+      lockAfter: 1,
       commonData: {
         title: 'Select the alliteration in the sentences.',
         multiSelect: true

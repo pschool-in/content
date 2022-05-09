@@ -1,7 +1,7 @@
 export default {
   label: 'Simple Reading',
   id: 'simple-reading',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       id: 'sandwich',

@@ -2,6 +2,7 @@ export default {
   id: 'adverb-4',
   label: 'Adverb of Place, Time and Manner',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Types of Adverb',
@@ -42,6 +43,7 @@ The kids are <b>downstairs</b>.`
       type: 'group',
       label: 'Classify the Adverbs',
       id: 'group',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the given Adverbs',
         types: ['Adverb of Time', 'Adverb of Place']
@@ -55,6 +57,7 @@ The kids are <b>downstairs</b>.`
       label: 'Identify Adverb Type',
       type: 'classifySentence',
       id: 'classify',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the type of adverb present in the below sentence.',
         types: ['Manner', 'Time', 'Place']

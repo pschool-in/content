@@ -1,6 +1,7 @@
 export default {
   label: 'About Us',
   id: 'about-us',
+  lockAfter: 1,
   list: [
     {
       label: 'Pick the correct option.',

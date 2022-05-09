@@ -1,7 +1,7 @@
 export default {
   label: 'Transportation ',
   id: 'transport-4',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

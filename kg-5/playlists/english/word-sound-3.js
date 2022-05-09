@@ -1,6 +1,7 @@
 export default {
   label: 'Nature and Others 2',
   id: 'word-sound-3',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -43,7 +44,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Nature',
       id: 'sound-nature',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the element of nature.',
         type: 'words',
@@ -89,7 +89,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Pictures',
       id: 'sound-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
@@ -110,7 +109,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Nature',
       id: 'dictation-nature',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/nature-body-flowers-1.mp3'
@@ -153,7 +151,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Others',
       id: 'dictation-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/other-1.mp3'

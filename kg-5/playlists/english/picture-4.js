@@ -1,12 +1,13 @@
 export default {
   label: 'House and Other',
   id: 'picture-4',
-  lockAfter: 2,
+  lockAfter: 1,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'House',
       id: 'drag-house',
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -251,7 +252,6 @@ crayons | CRAYONS | _RAYONS`
       type: 'completeWord',
       id: 'kitchen',
       label: 'Kitchen',
-      lockAfter: 2,
       commonData: {
         images: 'custom',
         title: 'Find the missing letter and complete the word'
@@ -298,7 +298,6 @@ soup | SOUP | _OUP`
       type: 'match',
       id: 'match-house',
       label: 'Match House',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -345,7 +344,6 @@ W, washing-machine `
       type: 'match',
       id: 'match-dress',
       label: 'Match Dress',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -370,7 +368,6 @@ T, trousers`
       type: 'match',
       id: 'match-school',
       label: 'Match School',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -395,7 +392,6 @@ C, crayons `
       type: 'match',
       id: 'match-kitchen',
       label: 'Match Kitchen',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

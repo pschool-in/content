@@ -2,6 +2,7 @@ export default {
   id: 'pronoun-4',
   label: 'Reflexive and Emphatic Pronoun',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -70,6 +71,7 @@ He <b>himself</b> cut the cake.`
       id: 'match',
       label: 'Match the following',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the pronouns with the correct reflexive pronouns.'
       },
@@ -91,6 +93,7 @@ me, myself`
       type: 'selectWord',
       label: 'Select the reflexive pronoun',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the reflexive and emphatic pronouns.'
       },

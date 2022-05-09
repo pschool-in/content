@@ -1,7 +1,7 @@
 export default {
   label: 'Food Chain',
   id: 'food-chain',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',

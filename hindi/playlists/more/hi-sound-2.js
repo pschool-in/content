@@ -2,6 +2,7 @@ export default {
   label: 'ध्वनि',
   id: 'hi-sound-2',
   img: 'sound',
+  lang: 'hi',
   list: [
     {
       type: 'slides',

@@ -2,7 +2,7 @@ export default {
   id: 'air-3',
   label: 'Air',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'notes',

@@ -1,7 +1,7 @@
 export default {
   id: 'environment-4',
   label: 'Green Environment',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',
@@ -26,7 +26,7 @@ export default {
         # The 3 R's
         The three R's stand for Reduce, Reuse, Recycle
         # Reduce 
-        It means to make or use less materials. This is to make, buy and use things that create less waste. It is the best thing to do first and it is easy to ask yourself – How can I make less waste? Some examples are given below.
+        It means to make or use less materials. This is to make, buy and use things that create less waste. It is the best thing to do first and it is easy to ask yourself - How can I make less waste? Some examples are given below.
         1. You can buy a refill pen and change the refill only when the ink is used up.
         2. While shopping with your parents, you can carry a cloth bag. In this way you can avoid buying plastic carry bags.
         3. Turn off lights and fans when you leave a room.

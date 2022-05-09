@@ -36,6 +36,7 @@ Deepa is reading <b>so</b> quickly.`
       type: 'selectWord',
       label: 'Select the Adverb',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the adverb in the below sentence.',
         printTitle: 'Underline the adverb in the below sentences.'
@@ -79,6 +80,7 @@ Please come *forward* and answer.`
       label: 'Classify Modifier',
       type: 'classifySentence',
       id: 'classify3',
+      lockAfter: 1,
       commonData: {
         title: 'What does the underlined adverb modify?',
         types: ['Verb', 'Adjective', 'Adverb']
@@ -129,6 +131,7 @@ He writes *quite* slowly.`
       type: 'group',
       label: 'Adverb vs Adjective',
       id: 'drag-and-drop',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the below words.',
         types: ['Adjective', 'Adverb']
@@ -151,6 +154,7 @@ He writes *quite* slowly.`
       type: 'completeWord',
       label: 'Complete the word',
       id: 'complete-2',
+      lockAfter: 1,
       commonData: {
         title: 'Form the adverb from the root word.'
       },

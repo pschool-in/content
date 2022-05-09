@@ -2,7 +2,7 @@ export default {
   id: 'maps-3',
   label: 'Directions and Maps ',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Directions and Maps - Reading',

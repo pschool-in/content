@@ -32,6 +32,7 @@ I like Ravi <b>but</b> I hate his brother.`
       id: 'fill-up',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Choose the correct joining word. Click on each blank for options.`
       },
@@ -62,6 +63,7 @@ She plays *and (but)* walks in the park.`
     {
       type: 'selectWord',
       label: 'Indentify the joining word.',
+      lockAfter: 1,
       id: 'select-word',
       commonData: {
         title: 'Select the joining words in these sentences.'
@@ -102,6 +104,7 @@ I like reading books *and* eating vegetables.`
     {
       label: 'True or False',
       id: 'true-false',
+      lockAfter: 1,
       type: 'classifySentence',
       commonData: {
         title: 'True or False: The below sentence has a joining word.',
@@ -142,6 +145,7 @@ We have a blackboard in the class.`
     {
       label: 'Right match',
       id: 'complete',
+      lockAfter: 1,
       type: 'completePuzzle',
       commonData: {
         type: 'rightOpen',

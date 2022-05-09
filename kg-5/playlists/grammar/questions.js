@@ -1,6 +1,7 @@
 export default {
   label: 'Questions',
   id: 'questions',
+  lockAfter: 2,
   pdf: 'questions-1.pdf',
   notes:
     'mcq: Find the right question for the given statement. One more activity on fill by drag drop',

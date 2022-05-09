@@ -1,6 +1,7 @@
 export default {
   label: 'Nature and Others',
   id: 'sound-3',
+  lockAfter: 0,
   list: [
     {
       type: 'slides',

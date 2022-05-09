@@ -2,7 +2,7 @@ export default {
   id: 'day-night',
   label: 'Day and Night',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'notes',

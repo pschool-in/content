@@ -1,7 +1,7 @@
 export default {
   label: 'Kindergarten English',
   id: 'letters-2',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       type: 'tracing',

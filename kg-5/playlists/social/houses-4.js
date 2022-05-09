@@ -2,7 +2,7 @@ export default {
   id: 'houses-4',
   label: 'Houses ',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

@@ -1,7 +1,7 @@
 export default {
   id: 'proverb',
   label: 'Proverb',
-  pdf: '',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',
@@ -74,6 +74,7 @@ Let bygones be bygones.`
       id: 'match',
       label: 'Match the following',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the beginning of the proverb with the correct ending'
       },
@@ -101,6 +102,7 @@ A penny saved, is a penny earned`
       label: 'Complete the proverbs',
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
+      lockAfter: 1,
       commonData: {
         title:
           'Drag and drop the words at correct places to make a complete proverb.',

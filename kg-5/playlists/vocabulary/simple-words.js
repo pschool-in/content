@@ -24,7 +24,7 @@ export default {
       id: 'jumble',
       type: 'sequence',
       label: '3 letter word',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'Connect the blocks to form meaningful word.',
         printTitle: 'Form the word using the letters.'

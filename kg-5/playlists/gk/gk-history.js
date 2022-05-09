@@ -1,6 +1,7 @@
 export default {
   label: 'GK History',
   id: 'gk-history',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

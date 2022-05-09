@@ -1,7 +1,7 @@
 export default {
   label: 'Science for Kids',
   id: 'kids-science',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Domestic vs Wild Animals',

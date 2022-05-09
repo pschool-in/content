@@ -27,6 +27,7 @@ For example, child, parent, student, etc.`
       type: 'group',
       label: 'Common vs Neuter Gender',
       id: 'classify-common-neuter',
+      lockAfter: 1,
       commonData: {
         title: 'Classify these nouns as common or neuter gender.',
         types: ['Common', 'Neuter']
@@ -43,6 +44,7 @@ For example, child, parent, student, etc.`
       type: 'selectWord',
       label: 'Select All Nouns',
       id: 'select-word-multi',
+      lockAfter: 1,
       commonData: {
         title:
           'Select all the common and neuter gender nouns in the below text.',
@@ -76,6 +78,7 @@ This is my *video game*.`
       type: 'selectWord',
       label: 'Select the words as Requested',
       id: 'multi-select-word-1',
+      lockAfter: 1,
       commonData: {
         multiSelect: true
       },

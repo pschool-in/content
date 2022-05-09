@@ -22,6 +22,7 @@ The words climbs, plays, eats, runs, drinks are known as action words.`
       id: 'jumbled-words',
       type: 'sequence',
       label: 'Identify',
+      lockAfter: 1,
       commonData: {
         title: 'Join the letters to form an action word'
       },
@@ -36,6 +37,7 @@ The words climbs, plays, eats, runs, drinks are known as action words.`
       type: 'rightOne',
       id: 'odd-one',
       label: 'Odd One Out',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the action words in the group'
       },
@@ -69,6 +71,7 @@ throw, bat, pen, pencil`
       type: 'selectWord',
       label: 'Pick out',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the action word in the given sentence.'
       },

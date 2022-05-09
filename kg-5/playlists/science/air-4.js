@@ -1,8 +1,8 @@
 export default {
   id: 'air-4',
-  label: 'Air',
+  label: 'Air We Breathe',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Air Atmosphere - Reading',

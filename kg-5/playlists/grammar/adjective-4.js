@@ -2,6 +2,7 @@ export default {
   id: 'adjective-4',
   label: 'More on Adjective',
   pdf: '',
+  lockAfter: 4,
   list: [
     {
       label: 'Notes',

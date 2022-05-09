@@ -2,7 +2,7 @@ export default {
   id: 'earth-5',
   label: 'Earth',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Our Earth - Reading',
@@ -201,7 +201,7 @@ Second largest continent - *Africa*`
 2. The world's smallest country, the Vatican City, is in Europe.
 3. The Volga is one of the longest rivers in Europe.
 4. Finland, in Europe, is called the 'Land of Lakes'.
-5. Major countries in Europe: France, Spain, United Kingdom, Germany, Norway, Austria, Greece, Spain, Portugal and Italy.
+5. Major countries in Europe: France, United Kingdom, Germany, Norway, Austria, Greece, Spain, Portugal and Italy.
 # Australia
 1. Australia is an Island continent covered with unique landscapes and natural wonders.
 2. The Great Barrier Reef, the pride and joy of Australia is made up of nearly 2,500 individual reefs and visible from space.

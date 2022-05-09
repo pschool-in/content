@@ -6,6 +6,7 @@ export default {
       type: 'classifySentence',
       label: 'Identify Parts of Speech',
       id: 'identify-type',
+      lockAfter: 2,
       commonData: {
         title: 'Identify the parts of speech of the underlined word.'
       },
@@ -222,6 +223,7 @@ Both *he* and Vikram are booksellers.`
       label: 'Hunt the Adverb!',
       type: 'matchByDragDrop',
       id: 'collective-noun',
+      lockAfter: 2,
       commonData: {
         title: 'Choose the most appropriate adverb.',
         styles: {

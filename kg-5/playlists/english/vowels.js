@@ -6,6 +6,7 @@ export default {
       id: 'connect-vowels',
       type: 'maze',
       label: 'Connect the Vowels',
+      lockAfter: 1,
       data: [
         {
           title: 'Connect the vowels and help the monkey to get the banana.',
@@ -121,6 +122,7 @@ U,B,C,D,F,G`,
       id: 'connect-consonants',
       type: 'maze',
       label: 'Connect the Consonants',
+      lockAfter: 1,
       data: [
         {
           title: 'Connect the consonants and help the fox to get the grapes.',

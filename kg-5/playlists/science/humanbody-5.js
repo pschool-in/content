@@ -2,7 +2,7 @@ export default {
   id: 'humanbody-5',
   label: 'Humanbody-5',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Internal Organs - Reading',

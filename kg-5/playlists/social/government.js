@@ -1,6 +1,7 @@
 export default {
   label: 'Our Government',
   id: 'government',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

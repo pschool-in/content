@@ -1,6 +1,7 @@
 export default {
   label: 'GK World',
   id: 'gk-world',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -11,22 +12,22 @@ export default {
         text: [
           {
             type: 'hilight',
-            text: `24 January - International Day of Education
-21 February - International Mother Language Day 
+            text: `24 January - International Day of Education
+21 February - International Mother Language Day
 03 March - World Wildlife Day
-08 March - International Women’s Day 
-1 May - International Labour Day
-07 April -  World Health Day 
+08 March - International Women’s Day 
+1 May - International Labour Day
+07 April -  World Health Day
 05 June  -  World Environment Day`
           },
           {
             type: 'hilight',
-            text: `21 June - International Day of Yoga 
-08 September - International Literacy Day 
-21 September - International Day of Peace 
+            text: `21 June - International Day of Yoga
+08 September - International Literacy Day 
+21 September - International Day of Peace 
 27 September - World Tourism Day
-05 October - World Teachers' Day 
-24 October - United Nations Day`
+05 October - World Teachers' Day 
+24 October - United Nations Day`
           }
         ]
       }
@@ -38,7 +39,7 @@ export default {
       data: {
         text: `27 September, World Tourism Day
 05 October, World Teachers' Day
-24 October, United Nations Day
+24 October, United Nations Day
 07 April, World Health Day
 03 March, World Wildlife Day`,
         title: 'Match the following with its correct one'
@@ -97,8 +98,8 @@ export default {
           },
           {
             name: 'False',
-            text: `24 October is world students day.
-1 May is the International Dance Day.`
+            text: `24 October is world students day.
+1 May is the International Dance Day.`
           }
         ]
       }
@@ -113,7 +114,7 @@ export default {
           {
             type: 'hilight',
             text: `Taj Mahal - Agra
-Statue of Liberty -  New York
+Statue of Liberty -  New York
 The Colosseum - Rome
 Eiffel Tower - Paris
 Leaning Tower of Pisa - Italy
@@ -136,7 +137,7 @@ Angkor Wat - Cambodia`
       type: 'match',
       data: {
         text: `Taj Mahal, Agra
-Statue of Liberty, New York
+Statue of Liberty, New York
 The Colosseum, Rome
 Eiffel Tower, Paris
 Leaning Tower of Pisa, Italy`,

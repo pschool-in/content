@@ -1,7 +1,7 @@
 export default {
   id: 'article-1',
   label: 'Article - Introduction',
-  pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Articles',

@@ -1,6 +1,7 @@
 export default {
   label: 'More Animals and Birds 2',
   id: 'word-sound-5',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -63,7 +64,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Birds',
       id: 'sound-bird',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the bird.',
         type: 'words',
@@ -86,7 +86,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Animals',
       id: 'dictation-animal',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/animals-2.mp3'
@@ -118,7 +117,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Birds',
       id: 'dictation-bird',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/birds-2.mp3'

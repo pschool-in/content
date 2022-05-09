@@ -1,6 +1,7 @@
 export default {
   label: 'Fruits and Vegetables',
   id: 'sound-2',
+  lockAfter: 1,
   list: [
     {
       type: 'slides',
@@ -26,6 +27,7 @@ export default {
       type: 'slides',
       id: 'vegetables',
       label: 'Vegetables',
+      lockAfter: 0,
       commonData: {
         audio: 'kg-5/vegetables-1.mp3'
       },
@@ -74,7 +76,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Vegetables',
       id: 'pick-vegetables',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the vegetable.',
         type: 'image',

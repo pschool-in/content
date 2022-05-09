@@ -1,6 +1,7 @@
 export default {
   label: 'More Images 2',
   id: 'word-sound-8',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -50,7 +51,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Pictures',
       id: 'sound-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the word.',
         type: 'words',
@@ -98,7 +98,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Others',
       id: 'dictation-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/gadget-other-flowers-2.mp3'

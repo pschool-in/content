@@ -29,6 +29,7 @@ Wow! I really like it!`
       id: 'mcq',
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      lockAfter: 1,
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -62,7 +63,7 @@ Wow! I really like it!`
       type: 'classifySentence',
       label: 'True or False',
       id: 'sentence-type',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'State whether the following statements are true or false.',
         types: ['True', 'False']
@@ -90,7 +91,7 @@ Sentences are of 5 types.
       type: 'classifySentence',
       label: 'Classify Sentence Type',
       id: 'sentence-type-2',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Classify the below sentences.',
         types: ['Declarative', 'Imperative', 'Interrogative']

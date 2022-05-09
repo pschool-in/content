@@ -2,7 +2,7 @@ export default {
   id: 'agriculture',
   label: 'Agriculture',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 1,
   list: [
     {
       label: 'Agriculture- Reading',

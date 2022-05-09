@@ -1,7 +1,7 @@
 export default {
   label: 'Early Humans',
   id: 'early-humans',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

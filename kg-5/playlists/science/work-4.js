@@ -1,7 +1,7 @@
 export default {
   id: 'work-4',
   label: 'Work',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'notes',

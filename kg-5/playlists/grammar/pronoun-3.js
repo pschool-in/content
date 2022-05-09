@@ -2,6 +2,7 @@ export default {
   id: 'pronoun-3',
   label: 'Possessive Pronoun',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -45,6 +46,7 @@ This cat is <b>ours</b>.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-and-drop-1',
+      lockAfter: 2,
       commonData: {
         title: 'Choose the right possessive pronoun.',
         fontSize: '1rem'

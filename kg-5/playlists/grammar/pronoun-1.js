@@ -1,7 +1,7 @@
 export default {
   label: 'Introduction to Pronoun',
   id: 'pronoun-1',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       id: 'reading',
@@ -27,6 +27,7 @@ Some of the commonly used pronouns are:`,
       id: 'fillup',
       label: 'Fill Up',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         options: 'He, She, It, They'
       },
@@ -65,6 +66,7 @@ Congratulations! *You* are such a good dancer.
       type: 'selectWord',
       label: 'Select the Pronoun',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the pronoun in the below sentence.',
         multiSelect: true

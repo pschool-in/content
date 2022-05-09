@@ -2,6 +2,7 @@ export default {
   id: 'pronoun-2',
   label: 'Personal Pronouns',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -54,6 +55,7 @@ plural: they, them`
       type: 'group',
       label: 'Pronoun or Not',
       id: 'pronoun-or-not',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the given words in the right boxes.',
         types: ['Pronoun', 'Not a Pronoun']
@@ -68,6 +70,7 @@ plural: they, them`
       type: 'selectWord',
       label: 'Select the Pronoun',
       id: '800',
+      lockAfter: 1,
       commonData: {
         title: 'Select the pronoun in the below sentence.',
         printTitle: 'Underline the pronouns in the below sentences.'
@@ -143,6 +146,7 @@ Raju told everyone *that* the party is tomorrow.
       id: 'match',
       label: 'Match the pairs',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the naming words with the correct pronoun.'
       },
@@ -182,6 +186,7 @@ You and I, We`
       label: 'True or False',
       id: 'true-false',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title: 'True or False: The below sentences have personal pronoun.',
         types: ['True', 'False']

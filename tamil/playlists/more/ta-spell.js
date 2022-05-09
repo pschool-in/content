@@ -2,6 +2,7 @@ export default {
   id: 'ta-spell',
   label: 'எழுத்துப்பிழை',
   img: 'word',
+  lang: 'ta',
   list: [
     {
       id: 'correct-spelling',

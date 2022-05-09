@@ -1,6 +1,7 @@
 export default {
   label: 'GK India',
   id: 'gk-india',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

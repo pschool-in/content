@@ -6,6 +6,7 @@ export default {
       type: 'dragDropImgLabel',
       label: 'Animals',
       id: 'drag-animal',
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -62,6 +63,7 @@ kangaroo| Kangaroo`
       type: 'dragDropImgLabel',
       label: 'Birds',
       id: 'drag-birds',
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -95,7 +97,7 @@ koel | Koel`
       type: 'completeWord',
       id: 'animals',
       label: 'Animals',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         images: 'animals',
         title: 'Find the missing letter and complete the word'
@@ -183,7 +185,7 @@ koel | KOEL | _OEL`
       type: 'match',
       id: 'match-animals',
       label: 'Match Animals',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -249,6 +251,7 @@ G, garden-lizard`
       type: 'match',
       id: 'match-birds',
       label: 'Match Birds',
+      lockAfter: 2,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

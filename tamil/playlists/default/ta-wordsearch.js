@@ -2,7 +2,9 @@ export default {
   label: 'வார்த்தை தேடல்',
   id: 'ta-wordsearch',
   img: 'wordsearch',
+  lang: 'ta',
   list: [
+    /*
     {
       id: 'animals',
       type: 'wordsearch',
@@ -10,7 +12,7 @@ export default {
       data: {
         slug: 'விலங்குகள்'
       }
-    },
+    },*/
     {
       id: 'vehicles',
       type: 'wordsearch',

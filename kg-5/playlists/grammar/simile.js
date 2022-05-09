@@ -2,6 +2,7 @@ export default {
   id: 'simile',
   label: 'Simile',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -35,6 +36,7 @@ Some more phrases that represent examples of similes are:
       label: 'Sentences with Simile',
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
+      lockAfter: 1,
       commonData: {
         fontSize: '1rem'
       },
@@ -62,6 +64,7 @@ Sunny is as *free* as a bird. He can go wherever he wants.`
       type: 'selectWord',
       label: 'Find Me',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the words that form the simile.',
         printTitle: 'Read the below text and underline the simile',

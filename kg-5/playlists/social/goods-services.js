@@ -1,6 +1,7 @@
 export default {
   label: 'Goods and Services',
   id: 'goods-services',
+  lockAfter: 1,
   list: [
     {
       label: 'Goods and Services - Passage',

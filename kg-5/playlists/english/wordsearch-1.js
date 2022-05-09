@@ -1,6 +1,7 @@
 export default {
   label: 'Word Search',
   id: 'wordsearch-1',
+  lockAfter: 3,
   list: [
     {
       id: '100',

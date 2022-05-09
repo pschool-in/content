@@ -1,7 +1,7 @@
 export default {
   id: 'adverb-5',
   label: 'Adverb of Degree and Frequency',
-  pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -31,6 +31,7 @@ I was <b>really</b> excited.`
       type: 'selectWord',
       label: 'Select the Adverb of Degree',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the adverb of degree in each sentence.'
       },
@@ -62,6 +63,7 @@ He drove the car *very* fast.`
       type: 'selectWord',
       label: 'Select the Adverb of Frequency',
       id: 'select-word-2',
+      lockAfter: 1,
       commonData: {
         title: 'Select the adverb of frequency in the below sentences.'
       },

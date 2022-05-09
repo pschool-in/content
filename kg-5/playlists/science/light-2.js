@@ -1,6 +1,7 @@
 export default {
   label: 'Light',
   id: 'light-2',
+  lockAfter: 2,
   list: [
     {
       label: 'Light and Shadow - Reading',

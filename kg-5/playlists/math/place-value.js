@@ -6,7 +6,7 @@ export default {
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Number',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Write the Number',
         type: 'word-problem'
@@ -53,7 +53,7 @@ Fifty thousand, three hundred and five | 50305`
       type: 'numberInput',
       id: 'place-value',
       label: 'Place Value',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Find the Place Value',
         type: 'word-problem'
@@ -88,7 +88,7 @@ What is the place value of 7 in 65967? | 1`
       type: 'numberInput',
       id: 'write-number',
       label: 'Questions',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Write as requested. (No number should be repeated.)',
         type: 'word-problem'
@@ -123,7 +123,7 @@ Write the smallest 5 digit number using 9, 6, 3, 0 and 8. | 30689`
       type: 'numberInput',
       id: 'write-number-2',
       label: 'Write the Number - 2',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title:
           'Write as requested. (All numbers should be used. No number should be repeated more than 2 times.)',
@@ -159,7 +159,7 @@ Write the biggest 5 digit number using 6, 7 and 8. | 88776`
       type: 'numberInput',
       id: 'find-number',
       label: 'Find the Number',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Write as requested.',
         type: 'word-problem'

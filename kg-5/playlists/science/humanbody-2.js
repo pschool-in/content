@@ -1,6 +1,7 @@
 export default {
   label: 'Human Body',
   id: 'humanbody-2',
+  lockAfter: 2,
   list: [
     {
       label: 'Bones and Joints',

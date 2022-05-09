@@ -1,7 +1,7 @@
 export default {
   id: 'materials-2',
   label: 'Materials',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Choose the best Answer',

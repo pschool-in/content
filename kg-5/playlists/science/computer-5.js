@@ -2,7 +2,7 @@ export default {
   id: 'computer-5',
   label: 'Computer System',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Computer System',

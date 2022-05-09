@@ -2,7 +2,7 @@ export default {
   id: 'matter-5',
   label: 'Matter and Materials',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       id: 'notes',

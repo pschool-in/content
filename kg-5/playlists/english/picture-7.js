@@ -6,6 +6,7 @@ export default {
       type: 'dragDropImgLabel',
       label: 'Vehicles',
       id: 'drag-vehicles',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -39,6 +40,7 @@ submarine | Submarine`
       type: 'dragDropImgLabel',
       label: 'Jobs',
       id: 'drag-jobs',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -138,7 +140,7 @@ washerman | WASHERMAN | _ASHERMAN`
       type: 'match',
       id: 'match-vehicles',
       label: 'Match Vehicles',
-      lockAfter: 4,
+      lockAfter: 1,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -174,7 +176,7 @@ S, submarine`
       type: 'match',
       id: 'match-jobs',
       label: 'Match Jobs',
-      lockAfter: 4,
+      lockAfter: 1,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

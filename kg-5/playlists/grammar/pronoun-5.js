@@ -2,6 +2,7 @@ export default {
   id: 'pronoun-5',
   label: 'Interrogative Pronoun',
   pdf: '',
+  lockAfter: 4,
   list: [
     {
       label: 'Notes',
@@ -50,6 +51,7 @@ export default {
       id: 'match',
       label: 'Match the Sentence',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the Sentence',
         fontSize: '1rem'
@@ -72,6 +74,7 @@ Whose are, these folders?`
       id: 'fillup-1',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: 'Fill in the blanks'
       },

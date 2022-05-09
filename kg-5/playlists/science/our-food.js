@@ -1,12 +1,13 @@
 export default {
   label: 'Our Food',
   id: 'our-food',
-  lockAfter: 4,
+  lockAfter: 1,
   list: [
     {
       label: 'Healthy vs Unhealthy Foods',
       type: 'group',
       id: 'healthy-unhealthy',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the foods in the right boxes.',
         imageType: 'custom',
@@ -51,6 +52,7 @@ Avoid uncovered food as it may contain dust and germs.`
       label: 'Drag and Drop',
       id: 'drag-drop',
       type: 'matchByDragDrop',
+      lockAfter: 1,
       data: [
         `Wash *hands* before and after eating.
 Sit *together* to eat.

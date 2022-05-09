@@ -1,6 +1,7 @@
 export default {
   label: 'Phonics',
   id: 'phonics',
+  lockAfter: 2,
   list: [
     {
       label: 'Phonics Collection - 1',

@@ -2,7 +2,7 @@ export default {
   id: 'matter-3',
   label: 'States of Matter',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       id: 'notes',

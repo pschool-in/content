@@ -276,6 +276,7 @@ export default {
       type: 'completePattern',
       label: 'Repeat the pattern',
       id: 'complete-pattern',
+      lockAfter: 2,
       commonData: {
         type: 'aside',
         width: 6,

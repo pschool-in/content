@@ -188,7 +188,6 @@ garden | GARDEN | _ARDEN`
       type: 'match',
       id: 'match-nature',
       label: 'Match Nature',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -216,7 +215,6 @@ R, rainbow`
       type: 'match',
       id: 'match-bodyparts',
       label: 'Match Body Parts',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -238,7 +236,6 @@ N, nose`
       type: 'match',
       id: 'match-flower',
       label: 'Match Flower',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -260,7 +257,6 @@ Z, zinnia`
       type: 'match',
       id: 'match-other',
       label: 'Match Other',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

@@ -48,6 +48,7 @@ Down the road ran <b>the little boy</b>.`
       label: 'Find Subject',
       type: 'selectWord',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the word(s) in the sentence, which forms the subject.',
         multiSelect: true
@@ -92,6 +93,7 @@ Down the road ran <b>the little boy</b>.`
       label: 'Find Predicate',
       type: 'selectWord',
       id: 'select-word-2',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the words in the sentence, which forms the predicate.',
         multiSelect: true
@@ -124,7 +126,7 @@ My aunt *works in this hospital.*`
       label: 'Right Predicate',
       id: 'complete-2',
       type: 'completePuzzle',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         type: 'rightOpen',
         title: 'Match the right part that goes with the subject.',
@@ -165,7 +167,7 @@ The kitchen in our house | is empty. | are empty.`
       type: 'sequence',
       label: 'Find the Sentence',
       id: 'find-sentence',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         printTitle: 'Rewrite the words and form proper sentence.'
       },
@@ -216,7 +218,7 @@ John hid the chocolate`
       type: 'classifySentence',
       label: 'Classify Sentence Type',
       id: 'sentence-type',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Classify the below sentences.',
         types: ['Declarative', 'Imperative', 'Interrogative']

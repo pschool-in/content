@@ -1,7 +1,7 @@
 export default {
   id: 'conjunction-2',
   label: 'Conjunction',
-  pdf: '',
+  lockAfter: 4,
   list: [
     {
       label: 'Notes',
@@ -65,6 +65,7 @@ We're going to the park in the evening, <b>so</b> I'll take a nap in the noon.`
       type: 'selectWord',
       label: 'Indentify the conjunction.',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the conjunction in the below sentence.'
       },

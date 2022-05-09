@@ -1,6 +1,7 @@
 export default {
   label: 'Seasons',
   id: 'seasons',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

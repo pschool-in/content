@@ -1,6 +1,7 @@
 export default {
   label: 'Food Facts',
   id: 'food-facts',
+  lockAfter: 2,
   list: [
     {
       label: 'Food and its Life-time - Reading',

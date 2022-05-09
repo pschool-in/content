@@ -1,6 +1,7 @@
 export default {
   label: 'Mixed Math',
   id: 'mixed-math',
+  lockAfter: 4,
   list: [
     {
       type: 'dominos',

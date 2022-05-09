@@ -1,11 +1,13 @@
 export default {
   label: 'More Animals and Birds',
   id: 'picture-5',
+  lockAfter: 4,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'Animals',
       id: 'drag-animals',
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -60,6 +62,7 @@ starfish | Starfish`
       type: 'dragDropImgLabel',
       label: 'Birds',
       id: 'drag-birds',
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -179,7 +182,7 @@ macaw | MACAW | _ACAW`
       type: 'match',
       id: 'match-animals',
       label: 'Match Animals',
-      lockAfter: 4,
+      lockAfter: 1,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -226,7 +229,7 @@ S, starfish `
       type: 'match',
       id: 'match-birds',
       label: 'Match Birds',
-      lockAfter: 4,
+      lockAfter: 1,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

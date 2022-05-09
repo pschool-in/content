@@ -1,6 +1,7 @@
 export default {
   label: 'World Countries',
   id: 'countries',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -162,7 +163,6 @@ United Arab Emirates, Abu Dhabi`
       type: 'completeWord',
       label: 'Write the Capital',
       id: 'write-capital',
-      lockAfter: 2,
       commonData: {
         title: 'Type the capital of the given country.'
       },
@@ -210,7 +210,6 @@ Indonesia| Jakarta`
       type: 'completeWord',
       label: 'Write the Country',
       id: 'write-country',
-      lockAfter: 2,
       commonData: {
         title: 'Type the country which has the given capital.'
       },

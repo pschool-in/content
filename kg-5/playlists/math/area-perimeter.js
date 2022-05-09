@@ -5,7 +5,7 @@ export default {
     {
       id: 'area',
       type: 'areaGraph',
-      lockAfter: 2,
+      lockAfter: 1,
       label: 'Area under the Shape',
       commonData: {
         title: 'Calculate the Area under the closed boundary.'
@@ -265,7 +265,7 @@ export default {
     {
       id: 'perimeter',
       type: 'areaGraph',
-      lockAfter: 2,
+      lockAfter: 1,
       label: 'Perimeter under the Shape',
       commonData: {
         title: 'Calculate the perimeter of the closed boundary.',

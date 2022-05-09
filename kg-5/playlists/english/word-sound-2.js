@@ -1,6 +1,7 @@
 export default {
   label: 'Fruits and Vegetables 2',
   id: 'word-sound-2',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -30,7 +31,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Fruits',
       id: 'sound-fruits',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the fruit.',
         type: 'words',
@@ -53,7 +53,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Vegetables',
       id: 'sound-vegetables',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the vegetable.',
         type: 'words',
@@ -81,7 +80,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Fruits',
       id: 'dictation-fruits',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/fruits-1.mp3'
@@ -103,7 +101,6 @@ export default {
       type: 'dictation',
       label: 'Dictation Vegetables',
       id: 'dictation-vegetables',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and type the word.',
         audio: 'kg-5/vegetables-1.mp3'

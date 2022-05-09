@@ -42,10 +42,10 @@ Some phrases play the role of an adverb. Eg:
       id: 'match',
       label: 'Match the Pairs',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the related pairs'
       },
-
       data: [
         `a street, filled with mud
 a man, of great wealth
@@ -71,6 +71,7 @@ a country, with many mountains`
       id: 'mcq',
       label: 'One instead of Many!',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title: 'Which one word will replace the underlined phrase.'
       },

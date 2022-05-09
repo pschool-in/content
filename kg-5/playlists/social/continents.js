@@ -1,7 +1,7 @@
 export default {
   label: 'Continents',
   id: 'continents',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

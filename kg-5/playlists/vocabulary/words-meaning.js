@@ -1,7 +1,7 @@
 export default {
   label: 'Words and meaning',
   id: 'words-meaning',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -83,6 +83,7 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       label: 'Match word and meaning',
       type: 'matchByDragDrop',
       id: 'match-meaning',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
         styles: {
@@ -120,6 +121,7 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       label: 'Fillup from options',
       type: 'matchByDragDrop',
       id: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
         styles: {

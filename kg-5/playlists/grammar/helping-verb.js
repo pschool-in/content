@@ -1,7 +1,7 @@
 export default {
   label: 'Helping Verb',
   id: 'helping-verb',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

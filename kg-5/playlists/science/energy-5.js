@@ -1,7 +1,7 @@
 export default {
   id: 'energy-5',
   label: 'Energy',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       id: 'notes',

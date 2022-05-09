@@ -2,6 +2,7 @@ export default {
   id: 'adjective-3',
   label: 'Adjective of Quality and Quantity',
   pdf: '',
+  lockAfter: 4,
   list: [
     {
       label: 'Notes',
@@ -44,6 +45,7 @@ It is a special type of adjective of quantity. It tells us how many.`,
       label: 'Classify Adjective Type',
       id: 'classify',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the underlined adjective.',
         types: ['Adjective of Quality', 'Adjective of Quantity']
@@ -77,6 +79,7 @@ We spent a *few* hours planning for the birthday party.
       id: 'fillup',
       label: 'Fill in the Blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Select the appropriate adjective.`
       },
@@ -119,6 +122,7 @@ I have a *little (few)* money left to buy the ice cream from the shop.`
       type: 'group',
       label: 'Adjectives vs Non-adjectives',
       id: '100',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words in the right boxes.',
         printTitle: 'Rewrite the words on the right boxes.',

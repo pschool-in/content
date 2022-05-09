@@ -6,6 +6,7 @@ export default {
       id: 'odd-numbers',
       type: 'maze',
       label: 'Connect Odd Numbers',
+      lockAfter: 1,
       data: [
         {
           title:
@@ -97,6 +98,7 @@ export default {
       id: 'even-numbers',
       type: 'maze',
       label: 'Connect Even Numbers',
+      lockAfter: 1,
       data: [
         {
           title:
@@ -188,6 +190,7 @@ export default {
       id: 'multiples',
       type: 'maze',
       label: 'Connect the Multiples',
+      lockAfter: 2,
       data: [
         {
           title:

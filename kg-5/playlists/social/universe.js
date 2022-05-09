@@ -1,7 +1,7 @@
 export default {
   label: 'Universe',
   id: 'universe',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

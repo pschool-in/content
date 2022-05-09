@@ -1,6 +1,7 @@
 export default {
   id: 'arithmetic-5',
   label: 'Arithmetic - 5',
+  lockAfter: 0,
   list: [
     {
       id: 'subtract-dnd',

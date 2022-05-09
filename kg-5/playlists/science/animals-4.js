@@ -1,7 +1,7 @@
 export default {
   id: 'animals-4',
   label: 'Life of Animals',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Habitat - Notes',

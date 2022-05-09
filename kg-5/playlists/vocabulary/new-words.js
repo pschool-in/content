@@ -6,6 +6,7 @@ export default {
       id: 'mcq',
       label: 'We Mean the Same!',
       type: 'mcq',
+      lockAfter: 2,
       commonData: {
         title: 'Guess the meaning of the underlined word.'
       },

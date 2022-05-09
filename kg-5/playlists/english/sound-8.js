@@ -1,6 +1,7 @@
 export default {
   label: 'More Images',
   id: 'sound-8',
+  lockAfter: 0,
   list: [
     {
       type: 'slides',
@@ -63,7 +64,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Pictures',
       id: 'pick-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',

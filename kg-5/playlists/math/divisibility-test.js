@@ -1,7 +1,7 @@
 export default {
   label: 'Divisibility Test',
   id: 'divisibility-test',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'notes',

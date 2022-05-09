@@ -12,6 +12,7 @@ export default {
         title:
           'Fill in the blanks with the most appropriate word. The root word is given within the brackets.'
       },
+      lockAfter: 2,
       data: [
         `The children *happily* played in the park all day.(happy)
 Our school captain is an outstanding *dancer*.(dance)

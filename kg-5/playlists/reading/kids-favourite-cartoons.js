@@ -2,7 +2,7 @@ export default {
   label: 'Kids Favourite Cartoons',
   id: 'kids-favourite-cartoons',
   pdf: 'kids-favourite-cartoons.pdf',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       label: 'Shin Chan',

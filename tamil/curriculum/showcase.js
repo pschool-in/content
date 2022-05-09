@@ -74,9 +74,7 @@ export default {
           Array.isArray(item.data) ? accu + item.data.length : accu + 1,
         0
       );
-      console.log(playlist.label, count);
       total += count;
     }
   });
-  console.log('total activities', total);
   */

@@ -2,6 +2,7 @@ export default {
   id: 'conjunction-4',
   label: 'Conjunction Pairs',
   pdf: '',
+  lockAfter: 4,
   list: [
     {
       id: 'notes',
@@ -55,6 +56,7 @@ Not only it was raining *but also* the power went off.`
       id: 'fill-up-option',
       label: 'Fillup with options',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Click on the blanks and fill it with the correct options.`
       },
@@ -91,6 +93,7 @@ I slept *and (but, or)* skipped my homework.`
       id: 'fill-up',
       label: 'Fill Up on Passage',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Click on the blanks and fill it with the correct options.`
       },

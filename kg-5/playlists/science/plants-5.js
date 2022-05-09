@@ -1,7 +1,7 @@
 export default {
   label: 'Reproduction in Plants',
   id: 'plants-5',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',
@@ -43,6 +43,7 @@ After fertilization, the ovary grows into a fruit and other parts of the flower 
       id: 'drag-drop',
       label: 'Fill up by drag and drop',
       type: 'matchByDragDrop',
+      lockAfter: 2,
       data: [
         `New plants coming from seed is *sexual* reproduction. New plants coming from roots is *asexual* reproduction. 
         *Sepal* is usually green in color.

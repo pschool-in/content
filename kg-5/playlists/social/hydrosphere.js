@@ -1,7 +1,7 @@
 export default {
   label: 'Hydrosphere',
   id: 'hydrosphere',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',

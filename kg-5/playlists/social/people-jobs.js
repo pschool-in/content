@@ -1,7 +1,7 @@
 export default {
   label: 'People and Jobs',
   id: 'people-jobs',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       id: 'slide-what-we-do',

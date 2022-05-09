@@ -6,7 +6,7 @@ export default {
       type: 'sequence',
       label: 'Find the Sentence',
       id: 'find-sentence',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         printTitle: 'Rewrite the words and form proper sentence.'
       },
@@ -71,7 +71,7 @@ little girls are singing songs`
       type: 'sequence',
       label: 'Find the Sentence -2',
       id: 'find-sentence-2',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         printTitle: 'Rewrite the words and form proper sentence.'
       },
@@ -125,6 +125,7 @@ police investigated the criminals`
       label: 'Statement vs Order',
       id: 'statement-order',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the type of below sentences.',
         types: ['Statement', 'Order']
@@ -175,6 +176,7 @@ Turn off the TV.`
       label: 'True or False',
       id: 'true-false',
       type: 'classifySentence',
+      lockAfter: 1,
       data: [
         {
           title:

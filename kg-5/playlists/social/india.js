@@ -2,7 +2,7 @@ export default {
   label: 'India',
   id: 'india',
   pdf: 'india.pdf',
-  lockAfter: 6,
+  lockAfter: 3,
   list: [
     {
       id: 'drag-drop',
@@ -74,6 +74,7 @@ export default {
       id: 'match',
       type: 'match',
       label: 'States & Capitals',
+      lockAfter: 1,
       commonData: {
         title: 'Match states with their capitals.',
         fontSize: '1.1rem'

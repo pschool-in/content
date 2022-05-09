@@ -1,6 +1,7 @@
 export default {
   label: 'Minerals - under our feet',
   id: 'minerals',
+  lockAfter: 1,
   list: [
     {
       label: 'Wealth under the Ground - Reading',

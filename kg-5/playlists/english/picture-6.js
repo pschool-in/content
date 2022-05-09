@@ -7,6 +7,7 @@ export default {
       type: 'dragDropImgLabel',
       label: 'Fruits',
       id: 'drag-fruits',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -31,6 +32,7 @@ passion-fruit | Passion fruit`
       type: 'dragDropImgLabel',
       label: 'Vegetables',
       id: 'drag-vegetables',
+      lockAfter: 0,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -65,6 +67,7 @@ ridgegourd | Ridgegourd`
       type: 'completeWord',
       id: 'fruits',
       label: 'Fruits',
+      lockAfter: 1,
       commonData: {
         images: 'fruits',
         title: 'Find the missing letter and complete the word'
@@ -91,6 +94,7 @@ passion-fruit | PASSION-FRUIT | _ASSION-FRUIT`
       type: 'completeWord',
       id: 'vegetables',
       label: 'Vegetables',
+      lockAfter: 0,
       commonData: {
         images: 'vegetables',
         title: 'Find the missing letter and complete the word'

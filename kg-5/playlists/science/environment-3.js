@@ -1,7 +1,7 @@
 export default {
   id: 'environment-3',
   label: 'Environment',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       id: 'notes',

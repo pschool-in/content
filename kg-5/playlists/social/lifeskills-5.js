@@ -1,6 +1,7 @@
 export default {
   id: 'lifeskills-5',
   label: 'Our Emotional World',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -89,7 +90,7 @@ text: 'Determined, Ambitious, Empowered, Mighty'
 Angry, Irritated
 Sad, Crying
 Jumbled, Confused
-Excited, Enthusiatic`,
+Excited, Enthusiastic`,
         title: 'Match the following.'
       }
     },
@@ -118,8 +119,7 @@ Excited, Enthusiatic`,
             options: 'greedy, unsatisfied, discontent, ascetic'
           },
           {
-            qText:
-              'We should understand our friends _______ and act accordingly.',
+            qText: `We should understand our friend's _______ and act accordingly.`,
             options: 'emotions, hunger, tiredness, money'
           }
         ]

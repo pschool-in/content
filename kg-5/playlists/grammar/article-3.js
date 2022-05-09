@@ -1,7 +1,7 @@
 export default {
   id: 'article-3',
   label: 'No Article Rules',
-  pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Reading',
@@ -103,7 +103,7 @@ envelope, an, a`
       label: 'Pick the Right Word',
       id: 'complete-2',
       type: 'completePuzzle',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         type: 'rightOpen',
         title: 'Drag and drop the right word to match the article.',
@@ -177,7 +177,7 @@ I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats 
       id: 'fillup-2',
       label: 'Fill in the Blanks',
       type: 'fillup',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct Article.',
         options: 'a, an, the'
@@ -222,6 +222,7 @@ She is eating *a* chocolate pastry.`
       id: 'no-article',
       label: 'No Article - Fill up',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Click on the blanks and pick the correct Article. Select ' - ' for no article.`,
         options: '-, a, an'
@@ -265,6 +266,7 @@ My brother does not like *-* chicken.`
       label: 'Classify Article Type',
       id: 'classify-article-type',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title:
           'Select whether the sentence has a definite,indefinite or no article.',
@@ -301,6 +303,7 @@ Men are always fond of cricket.`
       label: 'Correct or Incorrect',
       id: 'classify-correct',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title: 'Check whether the article usage is correct in the sentence.',
         types: ['Correct', 'Incorrect']
@@ -345,6 +348,7 @@ He is best player in the team.`
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop',
+      lockAfter: 1,
       data: [
         `I saw *a* colorful kite hanging on our mango tree.
 Subrat is the *tallest* boy in the class.

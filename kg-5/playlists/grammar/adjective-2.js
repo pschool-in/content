@@ -2,6 +2,7 @@ export default {
   id: 'adjective-2',
   label: 'Adjective',
   pdf: '',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',
@@ -34,6 +35,7 @@ The food is <b>tasty</b>.
       type: 'group',
       label: 'Adjective or Not',
       id: 'group',
+      lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words in the right boxes.',
         types: ['Adjective', 'Not an adjective']
@@ -65,6 +67,7 @@ The food is <b>tasty</b>.
       type: 'selectWord',
       label: 'Select the Adjective',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Select the adjective in the sentence.'
       },
@@ -96,6 +99,7 @@ I lost my *gold* bracelet.`
       id: 'match',
       label: 'Match - Adjectives and Nouns',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the following adjectives with appropriate nouns.'
       },
@@ -140,6 +144,7 @@ red, rose`
       id: 'match-opposites',
       label: 'Match Opposites',
       type: 'match',
+      lockAfter: 1,
       commonData: {
         title: 'Match the adjectives with their opposites.'
       },
@@ -191,6 +196,7 @@ thick, thin`
       id: 'fillup',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Fill in the blanks with the appropriate adjective.`
       },
@@ -222,6 +228,7 @@ These bananas are *sweet (sour)*.`
       label: 'Complete the story',
       type: 'matchByDragDrop',
       id: 'fill-up-story',
+      lockAfter: 1,
       data: {
         title:
           'Complete the story by filling the blanks with suitable adjectives.',
@@ -232,6 +239,7 @@ These bananas are *sweet (sour)*.`
       label: 'Adjective - Opposite',
       type: 'matchByDragDrop',
       id: 'fillup-opposites',
+      lockAfter: 1,
       commonData: {
         title:
           'Fill in the blanks with the adjectives that are opposite in the meaning to those who are put in quotation marks.'

@@ -1,6 +1,7 @@
 export default {
   label: 'Math - 1',
   id: 'math-1',
+  lockAfter: 3,
   list: [
     {
       type: 'sequence',

@@ -6,7 +6,7 @@ export default {
       type: 'whatNext',
       id: 'letters',
       label: 'Letters',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         type: 'letters'
       },
@@ -53,7 +53,7 @@ export default {
       type: 'whatNext',
       id: 'color',
       label: 'Color Based',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         type: 'colorBased'
       },
@@ -608,7 +608,7 @@ export default {
       type: 'whatNext',
       id: 'rotation',
       label: 'Rotation',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'What comes next ? (based on rotation)',
         type: 'rotationBased'

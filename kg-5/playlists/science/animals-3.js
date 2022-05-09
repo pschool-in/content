@@ -1,7 +1,7 @@
 export default {
   id: 'animals-3',
   label: 'Animals',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Domestic Animals - Notes',

@@ -1,6 +1,7 @@
 export default {
   label: 'My Country - India',
   id: 'india-2',
+  lockAfter: 2,
   list: [
     {
       label: 'Notes',

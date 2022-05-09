@@ -1,6 +1,7 @@
 export default {
   label: 'GK Culture',
   id: 'gk-culture',
+  lockAfter: 3,
   list: [
     {
       id: 'reading',

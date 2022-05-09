@@ -6,6 +6,7 @@ export default {
       type: 'selectWord',
       label: 'Select Proper Noun',
       id: 'select-proper',
+      lockAfter: 2,
       commonData: {
         title: 'Select the proper noun in the below sentence.',
         printTitle: 'Underline the proper noun in the below sentences.'

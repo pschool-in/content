@@ -1,7 +1,7 @@
 export default {
   label: 'Reading Passages',
   id: 'passages',
-  lockAfter: 3,
+  lockAfter: 2,
   list: [
     {
       id: '100',
@@ -9,8 +9,8 @@ export default {
       label: 'Pure thoughts',
       data: {
         title: 'Pure thoughts',
-        text: `Just as a dash of pure light that strikes through the sky, thoughts on purity occupied my mind. The white color on our flag reminds me once again about the purity that must rule our thoughts, our land, the world and the entire universe. To recollect – Do we breathe in pure air every day? - Do we drink pure water every day? - Do we leave our dear ones pure space to live? The word 'pure' now has a meaning that has grown enormous and it leaves every nook and corner of a human mind with too many questions.  
-Purity in thoughts, deeds, words, dialogues, workplace, living space, footsteps, and pathways. Purity has become a demanding need of the hour. Everywhere we go we are encountered with something impure. Love for a sophisticated and materialistic life has left us impure. Though we don't do things wantedly, the result glares at us – with our own deeds we have triggered nature's alarm bell. It is time to wake up with broadened shoulders and thoughts to embrace and welcome purity everywhere. Let us not leave behind something impure to make us live pure.`
+        text: `Just as a dash of pure light that strikes through the sky, thoughts on purity occupied my mind. The white color on our flag reminds me once again about the purity that must rule our thoughts, our land, the world and the entire universe. To recollect - Do we breathe in pure air every day? - Do we drink pure water every day? - Do we leave our dear ones pure space to live? The word 'pure' now has a meaning that has grown enormous and it leaves every nook and corner of a human mind with too many questions.  
+Purity in thoughts, deeds, words, dialogues, workplace, living space, footsteps, and pathways. Purity has become a demanding need of the hour. Everywhere we go we are encountered with something impure. Love for a sophisticated and materialistic life has left us impure. Though we don't do things wantedly, the result glares at us - with our own deeds we have triggered nature's alarm bell. It is time to wake up with broadened shoulders and thoughts to embrace and welcome purity everywhere. Let us not leave behind something impure to make us live pure.`
       }
     },
     {
@@ -20,7 +20,7 @@ Purity in thoughts, deeds, words, dialogues, workplace, living space, footsteps,
       data: {
         title: 'An interpretation',
         text: `Look at the familiar doll of three wise monkeys. What do they tell us? Don't speak unclean words, don't see unclean situations, don't hear unclean dialogues. Cleanliness is the need of the hour. Every one of us strives our level best to keep ourselves clean, to wear clean clothes, and to live in a clean space. Yet, knowingly or unknowingly we leave the space around us unclean. That is something 100% true.  
-In today's context, the doll of three wise monkeys impart more significance. The sophisticated lifestyle that we all enjoy prevents us to spare some seconds thinking about the future. For a secure future, we insure our lives.  Do we tend to insure and ensure a clean space for our future generation to live a healthy life? Sophisticated machines and technology may make our life comfortable and happy. Yet, think about this – will they assure us and our children a healthy space with pure air to breathe, pure water to drink, and pure food to eat? Unlike loads of money to spend, let us take an oath to give our children a cleaner world to play, live and be happy.`
+In today's context, the doll of three wise monkeys impart more significance. The sophisticated lifestyle that we all enjoy prevents us to spare some seconds thinking about the future. For a secure future, we insure our lives.  Do we tend to insure and ensure a clean space for our future generation to live a healthy life? Sophisticated machines and technology may make our life comfortable and happy. Yet, think about this - will they assure us and our children a healthy space with pure air to breathe, pure water to drink, and pure food to eat? Unlike loads of money to spend, let us take an oath to give our children a cleaner world to play, live and be happy.`
       }
     },
     {
@@ -45,10 +45,10 @@ Spinner dolphins may differ in body size, shape, and color patterns. But, in gen
 According to Wikipedia, a flower is a reproductive structure, found in plants. The four main parts of a flower are the calyx, corolla, stamen, and pistil. The parts of a flower are arranged in a circular pattern called a whorl.  The calyx is the outer whorl of sepals. The calyx is green in color, and in some plants, it looks like a petal. As a collective unit, the sepals form a calyx, and the petals form the Corolla. 
 The Corolla is the inner whorl of petals. The petals are thin, soft, and colorful to attract insects for pollination. A whorl of stamens consists of a bunch of filaments. Each filament is topped by an anther, in which pollen grains are produced. The pollen contains the male gametes. The pistil is the female part of the flower. The pistil has the carpel, which is the female reproductive organ. The sticky tip of the pistil is called stigma and it receives the pollen grains. 
 The floral structure of every plant is different from the other. The main parts of a flower are described by its position and not by its function. Surprisingly, all the flowers do not have all the four main parts of a flower. Sometimes, some parts are modified for some specific function. The floral formula is used by botanists to represent the structure of a flower. Specific letters, symbols, and numerals are used to describe the structure of a flower. 
-Ca – calyx
-Co – corolla
-A – androecium
-G – gynoecium
+Ca - calyx
+Co - corolla
+A - androecium
+G - gynoecium
 Many flowers are used as symbols with specific meanings. Red roses are considered symbols of love, beauty, and passion. Daisies are considered symbols of innocence. Lilies are considered symbols for resurrection and life. 
 Jasmine is also considered a symbol of love. Orchids are symbols of perfection, and sunflowers are considered as a symbol of infatuation. In Hinduism, Lotus is considered a symbol of fertility, purity, and creation. `
       }

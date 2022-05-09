@@ -2,7 +2,7 @@ export default {
   id: 'child-rights-5',
   label: 'Child Rights-2',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Educational Rights ',
@@ -78,7 +78,8 @@ Education is provided in schools through *teachers*.`
           },
           {
             qText: `What is the purpose of education?`,
-            options: 'Overall development, '
+            options:
+              'Overall development, understanding science and maths, learning to read and write'
           },
           {
             qText:

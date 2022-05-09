@@ -1,6 +1,7 @@
 export default {
   label: 'Road Manners',
   id: 'road-manners',
+  lockAfter: 3,
   list: [
     {
       label: 'Road Manners - Reading',

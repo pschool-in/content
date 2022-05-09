@@ -1,6 +1,7 @@
 export default {
   label: 'Festivals',
   id: 'festivals',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',

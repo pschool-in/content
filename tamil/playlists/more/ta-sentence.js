@@ -2,6 +2,7 @@ export default {
   label: 'வாக்கியம்',
   id: 'ta-sentence',
   img: 'sentence',
+  lang: 'ta',
   list: [
     {
       id: 'jumbled-sentence',

@@ -1,11 +1,13 @@
 export default {
   id: 'people-jobs-3',
   label: 'People, Jobs, Tools',
+  lockAfter: 2,
   list: [
     {
       type: 'slides',
       id: 'tools-slide',
       label: 'Tools',
+      lockAfter: 1,
       commonData: {
         audio: 'kg-5/tools.mp3'
       },
@@ -31,6 +33,7 @@ export default {
       type: 'dragDropImgLabel',
       label: 'Drag and Drop - Tools',
       id: 'drag-nature',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -66,7 +69,7 @@ scalpel | Scalpel`
       type: 'rightOne',
       label: 'Identify the Tools',
       id: 'pick-nature',
-      lockAfter: 2,
+      lockAfter: 1,
       commonData: {
         title: 'Listen to the sound and click on the element of nature.',
         type: 'image',

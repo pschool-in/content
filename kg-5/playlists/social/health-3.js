@@ -2,7 +2,7 @@ export default {
   id: 'health-3',
   label: 'Health',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Cleanliness',

@@ -1,6 +1,7 @@
 export default {
   label: 'Vehicles and Jobs',
   id: 'sound-7',
+  lockAfter: 1,
   list: [
     {
       type: 'slides',
@@ -69,7 +70,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Jobs',
       id: 'pick-job',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',

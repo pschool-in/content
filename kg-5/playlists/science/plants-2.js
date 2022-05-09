@@ -1,12 +1,13 @@
 export default {
   label: 'Plants around Us',
   id: 'plants-2',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'Match the Leaves',
       id: 'dragdrop-leaves',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },

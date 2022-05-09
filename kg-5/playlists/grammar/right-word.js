@@ -1,7 +1,7 @@
 export default {
   label: 'Right Word',
   id: 'right-word',
-  lockAfter: 5,
+  lockAfter: 3,
   list: [
     {
       id: 'reading',

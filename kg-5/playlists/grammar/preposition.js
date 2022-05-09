@@ -1,7 +1,7 @@
 export default {
   label: 'Preposition',
   id: 'preposition',
-  lockAfter: 7,
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -62,7 +62,7 @@ Use 'before' to talk about the past with reference to another time in the past.
     {
       label: 'Find Preposition',
       type: 'selectWord',
-      lockAfter: 3,
+      lockAfter: 2,
       commonData: {
         title: 'Select the preposition in these sentences.'
       },
@@ -148,6 +148,7 @@ Death valley is 86 meters *below* the sea level.`
       id: 'time-in-at-on',
       label: 'Preposition of Time : in, at, on',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: 'Click on the blanks and pick the correct preposition.',
         options: 'at, in, on'

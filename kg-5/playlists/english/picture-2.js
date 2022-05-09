@@ -1,11 +1,13 @@
 export default {
   label: 'Fruits and Vegetables',
   id: 'picture-2',
+  lockAfter: 2,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'Fruits',
       id: 'dragdrop-fruits',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -37,6 +39,7 @@ muskmelon| Muskmelon`
       type: 'dragDropImgLabel',
       label: 'Vegetables',
       id: 'drag-vegetables',
+      lockAfter: 1,
       commonData: {
         title: 'Drag the names and drop on the images.'
       },
@@ -81,7 +84,6 @@ vegetables | Vegetables`
       type: 'completeWord',
       id: 'fruits',
       label: 'Fruits',
-      lockAfter: 1,
       commonData: {
         images: 'fruits',
         title: 'Find the missing letter and complete the word'
@@ -113,7 +115,6 @@ muskmelon| MUSKMELON | _USKMELON`
       type: 'completeWord',
       id: 'vegetables',
       label: 'Vegetables',
-      lockAfter: 1,
       commonData: {
         images: 'vegetables',
         title: 'Find the missing letter and complete the word'
@@ -157,7 +158,6 @@ vegetables | VEGETABLES | _EGETABLES`
       type: 'match',
       id: 'match-fruits',
       label: 'Match Fruits',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',
@@ -191,7 +191,6 @@ M, muskmelon`
       type: 'match',
       id: 'match-vegetables',
       label: 'Match Vegetables',
-      lockAfter: 4,
       commonData: {
         title: 'Connect image with its first letter.',
         rightImgType: 'custom',

@@ -1,7 +1,7 @@
 export default {
   label: 'Geometry',
   id: 'geometry-2',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Quick Notes',

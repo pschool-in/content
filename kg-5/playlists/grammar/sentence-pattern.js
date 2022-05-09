@@ -1,6 +1,7 @@
 export default {
   label: 'Sentence Pattern',
   id: 'sentence-pattern',
+  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -58,6 +59,7 @@ She got <b>into the car</b>.`
       label: 'Classify Component',
       type: 'classifySentence',
       id: 'classify',
+      lockAfter: 1,
       commonData: {
         title: `Classify the underlined word as 'subject', 'verb' or 'object'.`,
         types: ['Subject', 'Verb', 'Object']
@@ -96,6 +98,7 @@ The police arrested *the thief*.`
       label: 'Classify Pattern',
       type: 'classifySentence',
       id: 'classify2',
+      lockAfter: 1,
       commonData: {
         title: 'Classify the sentence pattern.',
         types: ['S + V', 'S + V + O', 'S + V + C']

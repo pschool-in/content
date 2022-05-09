@@ -2,6 +2,7 @@ export default {
   id: 'punctuation',
   label: 'Punctuation',
   pdf: '',
+  lockAfter: 5,
   list: [
     {
       label: 'Exclamation mark',
@@ -20,6 +21,7 @@ export default {
       id: '100',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title:
           'Choose the correct punctuation. Click on each blank for options.',
@@ -84,6 +86,7 @@ We also use periods in front of abbreviations. For example,
       id: '400',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title:
           'Choose the correct punctuation. Click on each blank for options.',

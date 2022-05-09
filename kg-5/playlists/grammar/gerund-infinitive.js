@@ -2,6 +2,7 @@ export default {
   id: 'gerund-infinitive',
   label: ' Gerund and Infinitive',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'The Gerund',
@@ -52,6 +53,7 @@ Her favorite hobby is <b>dancing</b>.`
       type: 'selectWord',
       label: 'Identify-Gerund',
       id: 'select-word',
+      lockAfter: 1,
       commonData: {
         title: 'Identify the gerund in the below text.'
       },
@@ -94,6 +96,7 @@ She denied *having* an ice cream at night.`
       label: 'Fill up',
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
+      lockAfter: 1,
       data: [
         `*Developing* good habits take lot of time.
 *Reading* motivational stories keep Amit busy in the afternoon.

@@ -1,7 +1,7 @@
 export default {
   label: 'Plants ',
   id: 'plants-3',
-  lockAfter: 4,
+  lockAfter: 3,
   pdf: 'plants.pdf',
   list: [
     {

@@ -32,7 +32,7 @@ Strawberries are better than oranges.`
       type: 'classifySentence',
       label: 'Fact Vs Opinion',
       id: 'fact-opinion',
-      lockAfter: 3,
+      lockAfter: 1,
       commonData: {
         title: 'Classify the below sentences as Facts and Opinions',
         types: ['Fact', 'Opinion']

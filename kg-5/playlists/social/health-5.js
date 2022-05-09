@@ -2,7 +2,7 @@ export default {
   id: 'health-5',
   label: 'Health-3',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Infectious Diseases and Prevention',

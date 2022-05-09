@@ -2,7 +2,7 @@ export default {
   id: 'maps-5',
   label: 'Maps',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Signs and Symbols',

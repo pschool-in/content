@@ -2,6 +2,7 @@ export default {
   id: 'adjective-5',
   label: 'Order of Adjective',
   pdf: '',
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',
@@ -47,6 +48,7 @@ red nine balls: incorrect`
       label: 'Select the Right Option',
       id: 'mcq',
       type: 'mcq',
+      lockAfter: 1,
       commonData: {
         title: 'Choose the right option.'
       },
@@ -198,6 +200,7 @@ red nine balls: incorrect`
       label: 'True or False',
       id: '500',
       type: 'classifySentence',
+      lockAfter: 1,
       commonData: {
         title:
           'True or False: The order of adjective is correct in the below sentence.',
@@ -255,6 +258,7 @@ Later, she picked up Thumbelina and hopped back into the wetlands.`
       label: 'Appropriate Adjective',
       type: 'matchByDragDrop',
       id: 'right-word',
+      lockAfter: 1,
       commonData: {
         title: 'Put the adjectives given in the bottom at the right place.',
         styles: {

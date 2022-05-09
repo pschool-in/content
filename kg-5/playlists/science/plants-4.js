@@ -1,7 +1,7 @@
 export default {
   label: 'Plants Habitat',
   id: 'plants-4',
-  lockAfter: 4,
+  lockAfter: 3,
   list: [
     {
       label: 'Notes',

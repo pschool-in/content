@@ -2,7 +2,7 @@ export default {
   id: 'health-4',
   label: 'Health-2',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Home Remedies',

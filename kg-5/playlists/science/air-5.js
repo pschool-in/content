@@ -1,17 +1,16 @@
 export default {
   id: 'air-5',
-  label: 'Air-5',
+  label: 'Atmosphere',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
-      label: 'Air - Reading',
+      label: 'Notes',
       type: 'passage',
       id: 'reading',
       data: {
-        title: 'Air',
-        text: `# Atmosphere
-Atmosphere is the layer of gas that surrounds Earth. Atmosphere is divided into five different layers:
+        title: 'Atmosphere',
+        text: `Atmosphere is the layer of gas that surrounds Earth. Atmosphere is divided into five different layers:
 1. Troposphere: It is the lowest and densest layer. It extends up to 10km from sea. 
 2. Stratosphere: It is the region above troposphere. It extends up to 50km. There is no water vapour in this layer. The temperature is around -500C.
 3. Mesosphere: It is the region above stratosphere. It extends to a height of about 85km. The temperature is around -1100C. Most of the meteors burn in this layer.

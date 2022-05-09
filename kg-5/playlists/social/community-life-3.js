@@ -124,7 +124,7 @@ Institutions formed by the cooperation of the people are called *co-operatives.*
       data: {
         title: 'Local Government',
         text: `# Panchayat
-Ours is a vast country. It has towns and villages. Therefore, many panchayats must exist. Village Panchayat is the root of the Panchayat Raj system. It provides the basic facilities for the village people. The 73rd Constitutional Amendment Act was passed by the Parliament in April 1993. The Amendment‛s salient feature is the three-tier system of Panchayat Raj. Panchayats have been set up in every village with 500 people and above.
+Ours is a vast country. It has towns and villages. Therefore, many panchayats must exist. Village Panchayat is the root of the Panchayat Raj system. It provides the basic facilities for the village people. The 73rd Constitutional Amendment Act was passed by the Parliament in April 1993. The Amendment's salient feature is the three-tier system of Panchayat Raj. Panchayats have been set up in every village with 500 people and above.
 # Members 
 There is a President (head of the Panchayat) and a Vice President along with ward members (6-15). Village people select the president and members through the election. There is one election every five years.
 # Duties 

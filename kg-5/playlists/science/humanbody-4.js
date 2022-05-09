@@ -2,7 +2,7 @@ export default {
   id: 'humanbody-4',
   label: 'Humanbody-4',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 2,
   list: [
     {
       label: 'Digestive System - Reading',
