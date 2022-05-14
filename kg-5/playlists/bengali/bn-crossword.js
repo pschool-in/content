@@ -7,12 +7,11 @@ export default {
       id: 'crossword',
       type: 'crossword',
       label: 'শব্দজব্দ',
-      lockAfter: 6,
+      lockAfter: 3,
       commonData: {
         title:
           'শব্দজব্দটি সমাধান করুন। ইঙ্গিতটি দেখতে দয়া করে একটি ঘরে ক্লিক করুন।',
-        lang: 'bn',
-        
+        lang: 'bn'
       },
       data: [
         {

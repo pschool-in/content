@@ -2,11 +2,13 @@ export default {
   label: 'வாக்கியம்',
   id: 'ta-sentence',
   img: 'sentence',
+  lockAfter: 2,
   list: [
     {
       id: 'jumbled-sentence',
       type: 'sequence',
       label: 'வாக்கியம் அமை',
+      lockAfter: 2,
       commonData: {
         title: 'வார்த்தைகளை இணைத்து வாக்கியம் அமை',
         lang: 'ta',
@@ -108,6 +110,7 @@ export default {
       id: 'match',
       type: 'match',
       label: 'பழமொழிகள் ',
+      lockAfter: 2,
       commonData: {
         title: 'பழமொழிகள்',
         fontSize: '1rem'
@@ -150,7 +153,6 @@ export default {
 தன் கையே, தனக்குதவி`
       ]
     },
-
     {
       label: 'பழமொழிகள் பூர்த்தி செய்க',
       type: 'matchByDragDrop',

@@ -2,6 +2,7 @@ export default {
   label: 'ध्वनि',
   id: 'hi-sound',
   img: 'sound',
+  lockAfter: 2,
   list: [
     {
       type: 'slides',
@@ -14,48 +15,48 @@ export default {
         {
           audioOffset: 0,
           text: `cat| बिल्ली
-          dog| कुत्ता
-          goat|बकरी
-          sheep|भेड़
-          horse|घोड़ा
-          pig|सूअर
-          elephant|हाथी
-          lion|शेर
-          monkey|बंदर
-          tiger|बाघ`
+dog| कुत्ता
+goat|बकरी
+sheep|भेड़
+horse|घोड़ा
+pig|सूअर
+elephant|हाथी
+lion|शेर
+monkey|बंदर
+tiger|बाघ`
         },
         {
           audioOffset: 20,
           text: `hippo|जलहस्ती
-          rhino| गैंडा
-          fox|लोमड़ी
-          crocodile|मगरमच्छ
-          zebra|ज़ेबरा
-          bear|भालू
-          camel|ऊंट
-          shark| हाँगर
-          dragonfly|व्याध-पतंग
-          fish|मछली`
+rhino| गैंडा
+fox|लोमड़ी
+crocodile|मगरमच्छ
+zebra|ज़ेबरा
+bear|भालू
+camel|ऊंट
+shark| हाँगर
+dragonfly|व्याध-पतंग
+fish|मछली`
         },
         {
           audioOffset: 40,
           text: `frog| मेंढक
-          crab|केकड़ा
-          snake|साँप
-          squirrel|गिलहरी
-          tortoise|कछुआ
-          rat|चूहा
-          winged-termites|दीमक`
+crab|केकड़ा
+snake|साँप
+squirrel|गिलहरी
+tortoise|कछुआ
+rat|चूहा
+winged-termites|दीमक`
         },
         {
           audioOffset: 54,
           text: `ant|चींटी
-          fly|मक्खी
-          bat|चमगादड़
-          buffalo|भैंस
-          butterfly|तितली
-          cow|गाय
-          donkey|गधा`
+fly|मक्खी
+bat|चमगादड़
+buffalo|भैंस
+butterfly|तितली
+cow|गाय
+donkey|गधा`
         }
       ]
     },
@@ -70,25 +71,25 @@ export default {
         {
           audioOffset: 0,
           text: `crow|कौआ
-          dove| कबूतर
-          duck| बतख़
-          hen| मुर्गी
-          parrot| तोता
-          peacock| मोर
-          sparrow|गौरैया
-          chick|चूज़ा`
+dove| कबूतर
+duck| बतख़
+hen| मुर्गी
+parrot| तोता
+peacock| मोर
+sparrow|गौरैया
+chick|चूज़ा`
         },
         {
           audioOffset: 16,
           text: `crane| सारस
-          eagle| चील
-          flamingo| मराल
-          kingfisher| नीलकंठ
-          myna| मैना
-          ostrich| शुतुरमुर्ग 
-          owl| उल्लू
-          rooster| मुर्गा
-          vulture | गिद्ध`
+eagle| चील
+flamingo| मराल
+kingfisher| नीलकंठ
+myna| मैना
+ostrich| शुतुरमुर्ग 
+owl| उल्लू
+rooster| मुर्गा
+vulture | गिद्ध`
         }
       ]
     },
@@ -103,40 +104,40 @@ export default {
         {
           audioOffset: 0,
           text: `apple| सेब
-          grapes| अंगूर
-          banana| केला
-          strawberry| झरबेर
-          guava| अमरूद
-          jackfruit| कटहल
-          mango| आम
-          orange| संतरा
-          papaya| पपीता
-          pineapple| अनानास`
+grapes| अंगूर
+banana| केला
+strawberry| झरबेर
+guava| अमरूद
+jackfruit| कटहल
+mango| आम
+orange| संतरा
+papaya| पपीता
+pineapple| अनानास`
         },
         {
           audioOffset: 20,
           text: `pomegranate| अनार
-          watermelon| तरबूज
-          fig| अंजीर
-          custard-apple| शरीफा
-          plum| आलूबुखारा
-          dates| खजूर
-          muskmelon| खरबूज
-          star-fruit| कमरख
-          dragon-fruit| पिताया 
-          passion-fruit| कृष्णा फल`
+watermelon| तरबूज
+fig| अंजीर
+custard-apple| शरीफा
+plum| आलूबुखारा
+dates| खजूर
+muskmelon| खरबूज
+star-fruit| कमरख
+dragon-fruit| पिताया 
+passion-fruit| कृष्णा फल`
         },
         {
           audioOffset: 40,
           text: `sugarcane|ईख
-          peach|सतालू
-          sweet-potato|शकरकंद
-          jamun|जामुन
-          pear|नाशपाती
-          water-chestnut|सिंघाड़ा
-          jujube| बेर
-          sapotta| चीकू
-          blueberry |नीलबदरी`
+peach|सतालू
+sweet-potato|शकरकंद
+jamun|जामुन
+pear|नाशपाती
+water-chestnut|सिंघाड़ा
+jujube| बेर
+sapotta| चीकू
+blueberry |नीलबदरी`
         }
       ]
     },
@@ -151,28 +152,28 @@ export default {
         {
           audioOffset: 0,
           text: `carrot| गाजर
-          beetroot| चुकंदर
-          onion| प्याज़
-          tomato| टमाटर
-          potato| आलू
-          cabbage| पत्तागोभी
-          cauliflower| फूलगोभी
-          corn| भुट्टा
-          cucumber| खीरा
-          garlic| लहसुन`
+beetroot| चुकंदर
+onion| प्याज़
+tomato| टमाटर
+potato| आलू
+cabbage| पत्तागोभी
+cauliflower| फूलगोभी
+corn| भुट्टा
+cucumber| खीरा
+garlic| लहसुन`
         },
         {
           audioOffset: 20,
           text: `ginger| अदरक
-          pumpkin| कद्दू
-          almond| बादाम
-          beans| फलि
-          bitter-gourd| करेला
-          brinjal| बैंगन
-          capsicum| शिमला मिर्च
-          cashewnut| काजू
-          chilli| हरी मिर्च
-          coconut| नारियल`
+pumpkin| कद्दू
+almond| बादाम
+beans| फलि
+bitter-gourd| करेला
+brinjal| बैंगन
+capsicum| शिमला मिर्च
+cashewnut| काजू
+chilli| हरी मिर्च
+coconut| नारियल`
         }
       ]
     },
@@ -187,37 +188,37 @@ export default {
         {
           audioOffset: 0,
           text: `man| आदमी
-          woman| औरत
-          boy| लड़का
-          girl| लड़की
-          house| मकान
-          grandfather| दादा
-          table| मेज
-          bed| बिस्तर
-          candle| मोमबत्ती
-          chair| कुर्सी`
+woman| औरत
+boy| लड़का
+girl| लड़की
+house| मकान
+grandfather| दादा
+table| मेज
+bed| बिस्तर
+candle| मोमबत्ती
+chair| कुर्सी`
         },
         {
           audioOffset: 20,
           text: `shelf| अलमारी
-          baby| बच्चा
-          ball| गेंद
-          glasses| ऐनक
-          clock| दीवार घड़ी
-          watch| घडी
-          flower-pot|गमला
-          umbrella|छतरी
-          door| दरवाजा
-          broom| झाड़ू`
+baby| बच्चा
+ball| गेंद
+glasses| ऐनक
+clock| दीवार घड़ी
+watch| घडी
+flower-pot|गमला
+umbrella|छतरी
+door| दरवाजा
+broom| झाड़ू`
         },
         {
           audioOffset: 40,
           text: `window|खिड़की
-          bucket|बाल्टी
-          soap|साबुन
-          pillow|तकिया
-          basket|टोकरी
-          dustbin|कचरे का डिब्बा`
+bucket|बाल्टी
+soap|साबुन
+pillow|तकिया
+basket|टोकरी
+dustbin|कचरे का डिब्बा`
         }
       ]
     },
@@ -229,13 +230,13 @@ export default {
         audio: 'hi/hi-house-dress-1.mp3',
         audioOffset: 52,
         text: `shoe|जूता
-        sock|मौज़ा
-        pyjama|पजामा
-        gloves|दस्ताने
-        scarf|दुपट्टा
-        shirt|कमीज
-        hat|टोपी
-        trousers|पतलून`
+sock|मौज़ा
+pyjama|पजामा
+gloves|दस्ताने
+scarf|दुपट्टा
+shirt|कमीज
+hat|टोपी
+trousers|पतलून`
       }
     },
     {
@@ -249,33 +250,33 @@ export default {
         {
           audioOffset: 0,
           text: `stove| चूल्हा
-          fork| कांटा
-          knife| छुरी
-          pan| कड़ाही
-          spoon | चम्मच 
-          pot| मटका
-          butter| मक्खन
-          plate|थाली
-          tap|नल
-          lid|ढक्कन`
+fork| कांटा
+knife| छुरी
+pan| कड़ाही
+spoon | चम्मच 
+pot| मटका
+butter| मक्खन
+plate|थाली
+tap|नल
+lid|ढक्कन`
         },
         {
           audioOffset: 20,
           text: `cheese|पनीर
-          lollipop|टिकीया
-          sugar|चीनी
-          bowl|कटोरा
-          meat|मांस
-          salt|नमक`
+lollipop|टिकीया
+sugar|चीनी
+bowl|कटोरा
+meat|मांस
+salt|नमक`
         },
         {
           audioOffset: 32,
           text: ` sweets|मिठाइयाँ
-          bread|रोटी
-          juice|रस
-          flour|आटा
-          lentils|दाल
-          rice|चावल`
+bread|रोटी
+juice|रस
+flour|आटा
+lentils|दाल
+rice|चावल`
         }
       ]
     },
@@ -287,13 +288,13 @@ export default {
         audio: 'hi/hi-kitchen-body-1.mp3',
         audioOffset: 44,
         text: `ear| कान
-        eye| आँख
-        foot| पैर
-        hair| बाल
-        hand|  हाथ
-        mouth| मुँह
-        nose| नाक
-        tooth| दांत`
+eye| आँख
+foot| पैर
+hair| बाल
+hand|  हाथ
+mouth| मुँह
+nose| नाक
+tooth| दांत`
       }
     },
     {
@@ -307,21 +308,21 @@ export default {
         {
           audioOffset: 0,
           text: `sun| सूर्य
-          moon| चांद
-          rain| बारिश
-          star| तारा
-          milk| दूध
-          bird|पक्षी`
+moon| चांद
+rain| बारिश
+star| तारा
+milk| दूध
+bird|पक्षी`
         },
         {
           audioOffset: 12,
           text: `fruits|फल
-          leaf|पत्ता
-          world|दुनिया
-          nest|घोंसला
-          dew |ओस
-          waterfall|झरना
-          rainbow|इंद्रधनुष`
+leaf|पत्ता
+world|दुनिया
+nest|घोंसला
+dew |ओस
+waterfall|झरना
+rainbow|इंद्रधनुष`
         }
       ]
     },
@@ -336,23 +337,23 @@ export default {
         {
           audioOffset: 26,
           text: `ring| अंगूठी
-          brush| कूंचा
-          bone| हड्डी
-          bell| घंटी
-          conch| शंख
-          drums| ढोल
-          five| पांच`
+brush| कूंचा
+bone| हड्डी
+bell| घंटी
+conch| शंख
+drums| ढोल
+five| पांच`
         },
         {
           audioOffset: 40,
           text: `food| खाना
-          king| राजा
-          kite| पतंग
-          ladder| सीढ़ी
-          ladoo| लड्डू
-          rishi| ऋषि मुनि
-          wheel| चक्का
-          whistle| सीटी`
+king| राजा
+kite| पतंग
+ladder| सीढ़ी
+ladoo| लड्डू
+rishi| ऋषि मुनि
+wheel| चक्का
+whistle| सीटी`
         }
       ]
     },

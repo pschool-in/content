@@ -2,11 +2,13 @@ export default {
   label: 'வார்த்தை',
   id: 'ta-word',
   img: 'word',
+  lockAfter: 4,
   list: [
     {
       id: '2-letter-words',
       type: 'sequence',
       label: 'ஈரெழுத்து சொற்கள்',
+      lockAfter: 2,
       commonData: {
         title: 'எழுத்துக்களை சேர்த்து வார்த்தை அமைக்கவும்.',
         lang: 'ta'
@@ -25,6 +27,7 @@ export default {
       id: '3-letter-words',
       type: 'sequence',
       label: 'மூன்றெழுத்து சொற்கள்',
+      lockAfter: 2,
       commonData: {
         title: 'எழுத்துக்களை சேர்த்து வார்த்தை அமைக்கவும்.',
         lang: 'ta'
@@ -49,6 +52,7 @@ export default {
       id: '3-letter-words-2',
       type: 'sequence',
       label: 'மூன்றெழுத்து சொற்கள் - 2',
+      lockAfter: 2,
       commonData: {
         title: 'எழுத்துக்களை சேர்த்து வார்த்தை அமைக்கவும்.',
         lang: 'ta'
@@ -71,6 +75,7 @@ export default {
       id: '4-letter-words',
       type: 'sequence',
       label: 'நான்கு எழுத்து  சொற்கள்',
+      lockAfter: 2,
       commonData: {
         title: 'எழுத்துக்களை சேர்த்து வார்த்தை அமைக்கவும்.',
         lang: 'ta'

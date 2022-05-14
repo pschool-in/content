@@ -2,7 +2,57 @@ export default {
   label: 'ஓசை',
   id: 'ta-sound',
   img: 'sound',
+  lockAfter: 2,
   list: [
+    {
+      type: 'slides',
+      id: 'fruits',
+      label: 'பழங்கள் ',
+      commonData: {
+        title: 'பழங்கள்  : படமும் ஒலியும்',
+        audio: 'ta/ta-fruits.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          text: `grapes | திராட்சை
+banana | வாழைப்பழம்
+guava | கொய்யா
+jackfruit | பலாப்பழம்
+mango | மாம்பழம்
+papaya | பப்பாளி`
+        },
+        {
+          audioOffset: 12,
+          text: `pineapple | அன்னாசி
+pomegranate | மாதுளை
+watermelon | தர்பூசணி
+fig | அத்திப்பழம்
+custard-apple | சீத்தாப்பழம்
+dates | பேரிச்சை`
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'பழங்கள் - தேர்வு செய்க',
+      id: 'pick-fruit',
+      commonData: {
+        title: 'ஒலியை கேட்டு தேர்வு செய்க.',
+        type: 'image',
+        audio: 'ta/ta-fruits.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'grapes, banana, guava, jackfruit, mango, papaya'
+        },
+        {
+          audioOffset: 12,
+          words: 'pineapple, pomegranate, watermelon, fig, custard-apple, dates'
+        }
+      ]
+    },
     {
       type: 'slides',
       id: 'animals',
@@ -104,35 +154,6 @@ ostrich | நெருப்புக்கோழி
 owl | ஆந்தை
 rooster | சேவல்
 woodpecker | மரங்கொத்தி`
-        }
-      ]
-    },
-    {
-      type: 'slides',
-      id: 'fruits',
-      label: 'பழங்கள் ',
-      commonData: {
-        title: 'பழங்கள்  : படமும் ஒலியும்',
-        audio: 'ta/ta-fruits.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          text: `grapes | திராட்சை
-banana | வாழைப்பழம்
-guava | கொய்யா
-jackfruit | பலாப்பழம்
-mango | மாம்பழம்
-papaya | பப்பாளி`
-        },
-        {
-          audioOffset: 12,
-          text: `pineapple | அன்னாசி
-pomegranate | மாதுளை
-watermelon | தர்பூசணி
-fig | அத்திப்பழம்
-custard-apple | சீத்தாப்பழம்
-dates | பேரிச்சை`
         }
       ]
     },
@@ -393,26 +414,6 @@ watch | கைக்கடிகாரம்`
           audioOffset: 16,
           words:
             'chick,crane, eagle, kingfisher, myna, ostrich, owl, rooster, woodpecker'
-        }
-      ]
-    },
-    {
-      type: 'rightOne',
-      label: 'பழங்கள் - தேர்வு செய்க',
-      id: 'pick-fruit',
-      commonData: {
-        title: 'ஒலியை கேட்டு தேர்வு செய்க.',
-        type: 'image',
-        audio: 'ta/ta-fruits.mp3'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          words: 'grapes, banana, guava, jackfruit, mango, papaya'
-        },
-        {
-          audioOffset: 12,
-          words: 'pineapple, pomegranate, watermelon, fig, custard-apple, dates'
         }
       ]
     },

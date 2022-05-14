@@ -2,11 +2,13 @@ export default {
   label: 'शब्द',
   id: 'hi-word-5',
   img: 'word',
+  lockAfter: 2,
   list: [
     {
       type: 'match',
       label: 'विलोम शब्द',
       id: 'antonyms',
+      lockAfter: 2,
       commonData: {
         title: 'विलोम शब्द का मिलान करें'
       },
@@ -40,33 +42,33 @@ export default {
       ]
     },
     {
-          type: 'match',
-          label: 'शब्दार्थ',
-          id: 'meanings',
-          lockAfter:2,
-          commonData: {
-            title: 'शब्द को उसके अर्थ के साथ मिलाइए'
-          },
-          data: [
-            `कामयाब, सफल 
+      type: 'match',
+      label: 'शब्दार्थ',
+      id: 'meanings',
+      lockAfter: 2,
+      commonData: {
+        title: 'शब्द को उसके अर्थ के साथ मिलाइए'
+      },
+      data: [
+        `कामयाब, सफल 
             खामोशी, चुप्पी 
             ज़ख्मी, घायल 
             सहमकर, डरकर 
             कार्यालय, दफ्तर `,
-    
-            `शानदार, लाजवाब 
+
+        `शानदार, लाजवाब 
             अधीर, बेचैन 
             इम्तिहान, परीक्षा 
             इनाम, पुरुस्कार
             फटाफट, जल्दी-जल्दी`,
-    
-            `भिन्न, अलग 
+
+        `भिन्न, अलग 
             भयभीत, डरा हुआ 
             अदृश्य, गायब 
             आरम्भ, शुरू 
             सबक, पाठ `
-          ]
-        }, 
+      ]
+    },
     {
       type: 'match',
       label: 'समानार्थी शब्द',
@@ -94,7 +96,7 @@ export default {
       type: 'fillupOptions',
       id: 'fillup',
       label: 'श्रुतिसमभिन्नार्थक शब्द ',
-      lockAfter:1,
+      lockAfter: 1,
       commonData: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।।'
       },
@@ -131,7 +133,6 @@ export default {
     },
     {
       type: 'matchByDragDrop',
-      lockAfter: 2,
       id: 'fillup-2',
       label: 'अनेक शब्दों के लिए एक शब्द ',
       commonData: {
@@ -167,7 +168,6 @@ export default {
     },
     {
       label: 'अनेक शब्दों के लिए एक शब्द',
-      locked: 'true',
       type: 'matchByDragDrop',
       id: 'one-word-sub',
       data: {

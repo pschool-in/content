@@ -2,6 +2,7 @@ export default {
   label: 'பாரதி',
   id: 'barathi',
   img: 'barathi',
+  lockAfter: 4,
   list: [
     {
       id: 'notes',
@@ -299,6 +300,7 @@ export default {
       id: 'match',
       type: 'match',
       label: 'பொருத்துக',
+      lockAfter: 2,
       commonData: {
         title: 'பொருத்துக',
         fontSize: '1rem'
@@ -330,6 +332,7 @@ export default {
       label: 'கோடிட்ட இடங்களை நிரப்புக ',
       type: 'matchByDragDrop',
       id: 'match-2',
+      lockAfter: 2,
       commonData: {
         isPractice: false,
         title: 'கோடிட்ட இடங்களை நிரப்புக ',

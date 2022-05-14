@@ -2,6 +2,7 @@ export default {
   label: 'குறுக்கெழுத்து',
   id: 'ta-crossword',
   img: 'crossword',
+  lockAfter: 2,
   list: [
     {
       id: 'crossword',

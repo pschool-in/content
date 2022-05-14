@@ -2,6 +2,7 @@ export default {
   label: 'மீண்டும் படம்',
   id: 'ta-picture-4',
   img: 'image',
+  lockAfter: 1,
   list: [
     {
       type: 'connectLetters',
@@ -343,6 +344,7 @@ trident, திரிசூலம்`
       type: 'completeWord',
       label: 'விலங்குகள்',
       id: 'animals2',
+      lockAfter: 4,
       commonData: {
         images: 'custom',
         lang: 'ta',

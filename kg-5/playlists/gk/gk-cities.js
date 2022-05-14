@@ -1,6 +1,7 @@
 export default {
   label: 'GK Cities',
   id: 'gk-cities',
+  lockAfter: 1,
   list: [
     {
       id: 'reading',
@@ -12,7 +13,7 @@ export default {
           {
             type: 'hilight',
             text: `Jaipur - Pink city
-Varanasi - City of light
+Varanasi - City of light
 Ahmedabad - Manchester Of India
 Calicut - City of spices
 Nagpur - Orange city`
@@ -48,11 +49,11 @@ Nagpur, Orange city`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'Which city is called the Sandalwood city of India?',
+            qText: 'Which city is called the Sandalwood city of India?',
             options: 'Mysore, Delhi, Bengaluru'
           },
           {
-            qText: 'Which city is called the City of Lakes in India?',
+            qText: 'Which city is called the City of Lakes in India?',
             options: 'Udaipur, Jaipur, Madurai'
           },
           {
@@ -91,9 +92,9 @@ Nagpur, Orange city`
         types: [
           {
             name: 'True',
-            text: `Ahmedabad is known as Manchester of India.
-Calicut is known as the City of spices in India.
-Udaipur is known as City of Lakes.`
+            text: `Ahmedabad is known as Manchester of India.
+Calicut is known as the City of spices in India.
+Udaipur is known as City of Lakes.`
           },
           {
             name: 'False',

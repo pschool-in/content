@@ -2,11 +2,13 @@ export default {
   label: 'चित्र-2',
   id: 'hi-picture-3',
   img: 'image',
+  lockAfter: 3,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'फल',
       id: 'dragdrop-fruits',
+      lockAfter: 2,
       commonData: {
         title: 'छवियों पर नाम खींचें और छोड़ें।'
       },
@@ -49,6 +51,7 @@ dragon-fruit| पिताया`
       type: 'dragDropImgLabel',
       label: 'सब्जियां',
       id: 'dragdrop-vegetables',
+      lockAfter: 2,
       commonData: {
         title: 'छवियों पर नाम खींचें और छोड़ें।'
       },
@@ -110,6 +113,7 @@ ridgegourd|तुरई`
       type: 'dragDropImgLabel',
       label: 'फूल',
       id: 'dragdrop-flowers',
+      lockAfter: 2,
       commonData: {
         title: 'छवियों पर नाम खींचें और छोड़ें।'
       },
@@ -479,48 +483,48 @@ rainbow|इंद्रधनुष`
       },
       data: [
         `ring| अंगूठी
-                bone| हड्डी
-                bell| घंटी
-                conch| शंख 
-                drums| ढोल`,
+bone| हड्डी
+bell| घंटी
+conch| शंख 
+drums| ढोल`,
 
         `five| पांच
-                food| खाना	
-                king|  राजा
-                kite| पतंग`,
+food| खाना	
+king|  राजा
+kite| पतंग`,
 
         `ladder| सीढ़ी 
-                rishi|  ऋषि	
-                wheel| चक्का
-                whistle| सीटी	`,
+rishi|  ऋषि	
+wheel| चक्का
+whistle| सीटी	`,
 
         `bow| धनुष
-                arrow| बाण
-                chariot| रथ 
-                damaru| डमरू
-                hexagon| षटकोण
-                coin|सिक्का`,
+arrow| बाण
+chariot| रथ 
+damaru| डमरू
+hexagon| षटकोण
+coin|सिक्का`,
 
         `warrior| योद्धा
-                park| बाग
-                garden| उद्यान  
-                pouch| थैली
-                trident| त्रिशूल
-                box|डिब्बा `,
+park| बाग
+garden| उद्यान  
+pouch| थैली
+trident| त्रिशूल
+box|डिब्बा `,
 
         `vegetables| सब्ज़ियाँ
-                dhol|ढोल
-                palanquin|पालकी
-                medicine|दवा
-                balloon|गुब्बारा
-                yagna| यज्ञ`,
+dhol|ढोल
+palanquin|पालकी
+medicine|दवा
+balloon|गुब्बारा
+yagna| यज्ञ`,
 
         `touch-me-not| छुई मुई
-                stick| डंडा
-                yarn-ball| ऊन
-                trolley| ठेला
-                top| लट्टू
-                twig| टहनी`
+stick| डंडा
+yarn-ball| ऊन
+trolley| ठेला
+top| लट्टू
+twig| टहनी`
       ]
     }
   ]

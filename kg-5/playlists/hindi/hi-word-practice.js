@@ -2,11 +2,12 @@ export default {
   label: 'शब्द',
   id: 'hi-word-practice',
   img: 'word',
+  lockAfter: 3,
   list: [
     {
       id: 'jumbled-hi-1',
       label: 'शब्द गठन क-घ',
-      lockAfter: 8,
+      lockAfter: 3,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -30,7 +31,7 @@ export default {
     {
       id: 'jumbled-hi-2',
       label: 'शब्द गठन च-झ',
-      lockAfter: 8,
+      lockAfter: 3,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -54,7 +55,7 @@ export default {
     {
       id: 'jumbled-hi-3',
       label: 'शब्द गठन ट-ढ',
-      lockAfter: 8,
+      lockAfter: 3,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -78,7 +79,6 @@ export default {
     {
       id: 'jumbled-hi-4',
       label: 'शब्द गठन त-न',
-      lockAfter: 8,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -104,7 +104,6 @@ export default {
     {
       id: 'jumbled-hi-5',
       label: 'शब्द गठन प-म',
-      lockAfter: 8,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -129,7 +128,6 @@ export default {
     {
       id: 'jumbled-hi-6',
       label: 'शब्द गठन य-स',
-      lockAfter: 8,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -178,7 +176,6 @@ export default {
     {
       id: 'jumbled-0',
       label: 'शब्द गठन',
-      lockAfter: 6,
       type: 'sequence',
       commonData: {
         title: 'अर्थपूर्ण शब्द बनाने के लिए अक्षरों को जोड़ें',
@@ -199,7 +196,6 @@ export default {
     {
       type: 'match',
       label: 'विलोम शब्द',
-      lockAfter: 20,
       id: 'antonyms',
       commonData: {
         title: 'विलोम शब्द का मिलान करें '
@@ -490,7 +486,6 @@ export default {
     {
       type: 'match',
       label: 'समानार्थी शब्द',
-      lockAfter: 20,
       id: 'synonyms',
       commonData: {
         title: 'समानार्थी शब्द का मिलान करें'

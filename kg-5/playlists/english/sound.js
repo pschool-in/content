@@ -7,6 +7,7 @@ export default {
       type: 'slides',
       id: 'animal-sound',
       label: 'Animal Sounds',
+      lockAfter: 1,
       commonData: {
         audio: 'kg-5/animal-sounds.mp3'
       },
@@ -27,6 +28,7 @@ export default {
       type: 'rightOne',
       label: 'Identify Animal Sound',
       id: 'find-animal-sound',
+      lockAfter: 1,
       commonData: {
         title: 'Listen to the sound and select the right animal.',
         type: 'image',

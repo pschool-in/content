@@ -2,6 +2,7 @@ export default {
   label: 'शब्द',
   id: 'hi-word-4',
   img: 'word',
+  lockAfter: 4,
   list: [
     {
       type: 'match',
@@ -233,8 +234,6 @@ export default {
       type: 'rightOne',
       id: 'onewordmanymeanings-2',
       label: 'असंगत का चयन करें',
-      // locked: 'true',
-      lockAfter: 1,
       commonData: {
         title: 'असंगत का चयन करें',
         fontSize: '1.3rem',
@@ -259,7 +258,6 @@ export default {
       type: 'fillupOptions',
       id: 'fillup-2',
       label: 'समूहवाची शब्द ',
-      lockAfter: 4,
       commonData: {
         title: 'नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।।'
       },
@@ -297,7 +295,6 @@ export default {
     },
     {
       label: 'सही उत्तर का चयन करें।',
-      lockAfter: 1,
       id: 'hi-collectivewords',
       type: 'mcq',
       commonData: {
@@ -356,7 +353,6 @@ export default {
     },
     {
       label: 'रिक्त स्थान भरें। ',
-      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-collectivewords-3',
       data: {
@@ -376,7 +372,6 @@ export default {
     },
     {
       label: 'रिक्त स्थान भरें। ',
-      locked: 'true',
       type: 'matchByDragDrop',
       id: 'hi-collectivewords-4',
       data: {

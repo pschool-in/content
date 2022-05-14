@@ -2,7 +2,7 @@ export default {
   id: 'gk-crossword',
   label: 'Crosswords',
   pdf: '',
-  lockAfter: 4,
+  lockAfter: 1,
   list: [
     {
       id: 'crossword-sports',

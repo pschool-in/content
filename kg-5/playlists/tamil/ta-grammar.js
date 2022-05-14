@@ -2,6 +2,7 @@ export default {
   label: 'இலக்கணம்',
   id: 'ta-grammar',
   img: 'langGrammar',
+  lockAfter: 4,
   list: [
     {
       id: 'reading-letters',
@@ -31,6 +32,7 @@ export default {
       label: 'குறில்-நெடில்',
       type: 'group',
       id: 'group-letters',
+      lockAfter: 2,
       commonData: {
         title: 'குறில், நெடில் வகைப்படுத்துக ',
         types: ['குறில்', 'நெடில்']
@@ -51,6 +53,7 @@ export default {
       label: 'குறில்-நெடில்',
       type: 'group',
       id: 'group-words',
+      lockAfter: 2,
       commonData: {
         title: 'குறில், நெடில் வகைப்படுத்துக',
         types: ['குறில்', 'நெடில்']
@@ -77,7 +80,7 @@ export default {
       id: 'match-compound',
       type: 'match',
       label: 'இணைக்க ',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'புதிய சொற்களை உருவாக்குக'
       },

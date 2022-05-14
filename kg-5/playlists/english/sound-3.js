@@ -67,7 +67,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Nature',
       id: 'pick-nature',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the element of nature.',
         type: 'image',
@@ -113,7 +112,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Pictures',
       id: 'pick-other',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the picture.',
         type: 'image',

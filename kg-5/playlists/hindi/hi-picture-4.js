@@ -2,11 +2,13 @@ export default {
   label: 'चित्र-3',
   id: 'hi-picture-4',
   img: 'image',
+  lockAfter: 3,
   list: [
     {
       type: 'connectLetters',
       label: 'जुडिये-फल',
       id: 'connect-fruits',
+      lockAfter: 2,
       commonData: {
         title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
         printTitle: 'Form the word using the letters.',
@@ -15,44 +17,45 @@ export default {
       },
       data: [
         `apple, सेब 
-    grapes, अंगूर 
-    banana, केला 
-    guava, अमरूद 
-    jackfruit, कटहल`,
+grapes, अंगूर 
+banana, केला 
+guava, अमरूद 
+jackfruit, कटहल`,
 
         `mango, आम 	
-    orange, संतरा 
-    papaya,  पपीता 
-    pineapple, अननास 
-    pomegranate, अनार`,
+orange, संतरा 
+papaya,  पपीता 
+pineapple, अननास 
+pomegranate, अनार`,
 
         `watermelon, तरबूज 
-    fig, अंजीर
-    custard-apple, शरीफा
-    plum, आलूबुखारा 	
-    dates, खजूर
-    muskmelon, खरबूजा`,
+fig, अंजीर
+custard-apple, शरीफा
+plum, आलूबुखारा 	
+dates, खजूर
+muskmelon, खरबूजा`,
 
         `sapotta, चीकू
-    jamun, जामुन
-    coconut, नारियल
-    pear, नाशपाती
-    tamarind, इमली
-    sugarcane, ईख`,
+jamun, जामुन
+coconut, नारियल
+pear, नाशपाती
+tamarind, इमली
+sugarcane, ईख`,
 
         `water-chestnut, सिंघाड़ा
-    blueberry, नीलबदरी
-    peach, सतालू
-    jujube, बेर
-    passion-fruit, कृष्णा फल
-    star-fruit, कमरख
-    dragon-fruit, पिताया`
+blueberry, नीलबदरी
+peach, सतालू
+jujube, बेर
+passion-fruit, कृष्णा फल
+star-fruit, कमरख
+dragon-fruit, पिताया`
       ]
     },
     {
       type: 'connectLetters',
       label: 'जुडिये-सब्जियां',
       id: 'connectvegetables',
+      lockAfter: 2,
       commonData: {
         title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
         printTitle: 'Form the word using the letters.',
@@ -61,62 +64,63 @@ export default {
       },
       data: [
         `carrot, गाजर 
-    beetroot, चुकंदर 
-    onion, प्याज़   
-    tomato, टमाटर 
-    potato, आलू`,
+beetroot, चुकंदर 
+onion, प्याज़   
+tomato, टमाटर 
+potato, आलू`,
 
         `cabbage, पत्ता गोभी 
-    cauliflower, गोभी 	
-    corn, भुट्टा 
-    cucumber, खीरा
-    garlic, लहसुन`,
+cauliflower, गोभी 	
+corn, भुट्टा 
+cucumber, खीरा
+garlic, लहसुन`,
 
         `ginger, अदरक 	  
-    pumpkin, कद्दू  
-    almond,  बादाम
-    beans, फलियां
-    bitter-gourd, करेला`,
+pumpkin, कद्दू  
+almond,  बादाम
+beans, फलियां
+bitter-gourd, करेला`,
 
         `brinjal, बैंगन 
-    capsicum, शिमला मिर्च
-    cashewnut, काजू 
-    chilli, मिर्च
-    coconut, नारियल`,
+capsicum, शिमला मिर्च
+cashewnut, काजू 
+chilli, मिर्च
+coconut, नारियल`,
 
         `corianderleaf, धनिया पत्ते
-    curryleaf, करी पत्ता
-    drumstick, सहजन		
-    greenpeas, मटर 
-    ladies-finger, भिन्डी`,
+curryleaf, करी पत्ता
+drumstick, सहजन		
+greenpeas, मटर 
+ladies-finger, भिन्डी`,
 
         `mintleaf, पुदीना 
-    peanut, मूंगफली
-    radish, मूली
-    spinach, पालक
-    tulsi,तुलसी
-    bottlegourd,लौकी`,
+peanut, मूंगफली
+radish, मूली
+spinach, पालक
+tulsi,तुलसी
+bottlegourd,लौकी`,
 
         `turnip, शलगम
-    chickpea, चना
-    fenugreek, हरी मेथी
-    mustard-greens, सरसों पत्ता
-    turmeric, हल्दी
-    sweet-potato, शकरकंद`,
+chickpea, चना
+fenugreek, हरी मेथी
+mustard-greens, सरसों पत्ता
+turmeric, हल्दी
+sweet-potato, शकरकंद`,
 
         `ashgourd, रखिया
-    broad-beans, सेम फली
-    snake-gourd, चिचिण्डा
-    cluster-beans, गँवार फली
-    kohlrabi, बन्द गोभी
-    ivygourd, कुंदरू
-    ridgegourd, तुरई`
+broad-beans, सेम फली
+snake-gourd, चिचिण्डा
+cluster-beans, गँवार फली
+kohlrabi, बन्द गोभी
+ivygourd, कुंदरू
+ridgegourd, तुरई`
       ]
     },
     {
       type: 'connectLetters',
       label: 'जुडिये-फूल',
       id: 'connectflowers',
+      lockAfter: 2,
       commonData: {
         title: 'अक्षरों को मिलाकर एक शब्द बनाएँ।',
         printTitle: 'Form the word using the letters.',
@@ -125,23 +129,23 @@ export default {
       },
       data: [
         `rose, गुलाब 
-    lotus, कमल	
-    sunflower, सूरजमुखी 	
-    marigold, गेंदा 
-    hibiscus, गुडहल 	
-    jasmine, चमेली`,
+lotus, कमल	
+sunflower, सूरजमुखी 	
+marigold, गेंदा 
+hibiscus, गुडहल 	
+jasmine, चमेली`,
 
         `daisy, गुलबहार
-    periwinkle, सदाबहार
-    water-lily, नीलकमल
-    gulmohar, गुलमोहर
-    poppy, खसखस
-    pansy, बनफूल`,
+periwinkle, सदाबहार
+water-lily, नीलकमल
+gulmohar, गुलमोहर
+poppy, खसखस
+pansy, बनफूल`,
 
         `mogra, मोगरा
-    lily, कुमुदनी
-    magnolia, चम्पा
-    daffodil, नरगिस`
+lily, कुमुदनी
+magnolia, चम्पा
+daffodil, नरगिस`
       ]
     },
     {
@@ -156,81 +160,81 @@ export default {
       },
       data: [
         `cat, बिल्ली 
-    dog, कुत्ता 
-    goat, बकरी 
-    sheep, भेड् 
-    horse, घोडा `,
+dog, कुत्ता 
+goat, बकरी 
+sheep, भेड् 
+horse, घोडा `,
 
         `pig, सूअर 
-    elephant, हाथी  
-    lion, शेर   
-    monkey, बंदर  
-    tiger, बाघ`,
+elephant, हाथी  
+lion, शेर   
+monkey, बंदर  
+tiger, बाघ`,
 
         `hippo, जलहस्ती	 
-    rhino, गैंडा
-    fox, लोमड़ी 
-    crocodile, मगरमच्छ 	  
-    bear, भालू 	
-    camel, ऊंट`,
+rhino, गैंडा
+fox, लोमड़ी 
+crocodile, मगरमच्छ 	  
+bear, भालू 	
+camel, ऊंट`,
 
         `fish, मछली 
-    frog, मेंढक 
-    crab, केकड़ा 
-    snake, साँप   
-    squirrel, गिलहरी`,
+frog, मेंढक 
+crab, केकड़ा 
+snake, साँप   
+squirrel, गिलहरी`,
 
         `tortoise, कछुआ
-    rat, चूहा 
-    ant, चींटी 
-    fly, मक्खी
-    bat, चमगादड़ `,
+rat, चूहा 
+ant, चींटी 
+fly, मक्खी
+bat, चमगादड़ `,
 
         `buffalo, भैंस
-    butterfly, तितली
-    cow, गाय
-    donkey, गधा  
-    leopard, तेंदुआ`,
+butterfly, तितली
+cow, गाय
+donkey, गधा  
+leopard, तेंदुआ`,
 
         `mongoose, नेवला
-    mosquito, मच्छर 
-    wolf, भेड़िया
-    cockroach, तिलचट्टा 	
-    lizard, छिपकली 
-    rabbit, खरगोश`,
+mosquito, मच्छर 
+wolf, भेड़िया
+cockroach, तिलचट्टा 	
+lizard, छिपकली 
+rabbit, खरगोश`,
 
         `zebra, जेबरा
-    shark, हाँगर
-    dragonfly, व्याध पतंग
-    winged-termites, दीमक
-    kangaroo, कंगेरू
-    garden-lizard, उद्यान छिपकली`,
+shark, हाँगर
+dragonfly, व्याध पतंग
+winged-termites, दीमक
+kangaroo, कंगेरू
+garden-lizard, उद्यान छिपकली`,
 
         `alligator, घड़ियाल
-    baboon, लंगूर
-    antelope, बारहसिंगा
-    boar, जंगली सूअर
-    bison, जंगली भैसा
-    bull, सांड`,
+baboon, लंगूर
+antelope, बारहसिंगा
+boar, जंगली सूअर
+bison, जंगली भैसा
+bull, सांड`,
 
         `bug, खटमल
-    cricket, झिंगुर
-    chameleon, गिरगिट
-    hyena, लकड़बग्घा
-    jackal, सियार
-    polarbear, ध्रुवीय भालू`,
+cricket, झिंगुर
+chameleon, गिरगिट
+hyena, लकड़बग्घा
+jackal, सियार
+polarbear, ध्रुवीय भालू`,
 
         `porcupine, साही
-    prawn, झींगे
-    python, अजगर
-    bee, मधुमक्खी
-    goldfish, सुनहरी मछली`,
+prawn, झींगे
+python, अजगर
+bee, मधुमक्खी
+goldfish, सुनहरी मछली`,
 
         `seahorse, समुद्री घोड़े
-    mole, छछूँदर
-    spider, मकड़ी
-    caterpillar, इल्ली
-    earthworm, केंचुआ`
+mole, छछूँदर
+spider, मकड़ी
+caterpillar, इल्ली
+earthworm, केंचुआ`
       ]
     },
     {
@@ -245,35 +249,35 @@ export default {
       },
       data: [
         `crow, कौवा 
-    dove, कबूतर 
-    duck, बतख़ 
-    hen, मुर्गी 
-    parrot, तोता `,
+dove, कबूतर 
+duck, बतख़ 
+hen, मुर्गी 
+parrot, तोता `,
 
         `peacock, मोर  
-    sparrow, गौरेया
-    chick, चूज़ा
-    crane, सारस
-    vulture, गिद्ध`,
+sparrow, गौरेया
+chick, चूज़ा
+crane, सारस
+vulture, गिद्ध`,
 
         `flamingo, मराल 
-    kingfisher, नीलकंठ	
-    myna, मैना 
-    ostrich, शुतुरमुर्ग 
-    owl, उल्लू
-    rooster, मुर्गा`,
+kingfisher, नीलकंठ	
+myna, मैना 
+ostrich, शुतुरमुर्ग 
+owl, उल्लू
+rooster, मुर्गा`,
 
         `woodpecker, कठफोड़वा
-    eagle, चील
-    cuckoo, कोयल
-    swan, हंस
-    pheasant, तीतर
-    falcon, बाज़`,
+eagle, चील
+cuckoo, कोयल
+swan, हंस
+pheasant, तीतर
+falcon, बाज़`,
 
         `bulbul, बुलबुल
-    spotted-dove, चित्तीदार कबूतर
-    seagull, सामुद्रिक चिड़िया
-    hawk, बाज`
+spotted-dove, चित्तीदार कबूतर
+seagull, सामुद्रिक चिड़िया
+hawk, बाज`
       ]
     },
     {
@@ -288,14 +292,14 @@ export default {
       },
       data: [
         `ear, कान 	          
-    hand, हाथ
-    mouth, मुंह 	
-    nose, नाक`,
+hand, हाथ
+mouth, मुंह 	
+nose, नाक`,
 
         `tooth, दांत 
-    eye, आंख 
-    foot, पैर 
-    hair, बाल`
+eye, आंख 
+foot, पैर 
+hair, बाल`
       ]
     },
     {
@@ -310,29 +314,29 @@ export default {
       },
       data: [
         `house, मकान
-    table, मेज	
-    bed, बिस्तर
-    candle, मोमबत्ती
-    chair, कुर्सी`,
+table, मेज	
+bed, बिस्तर
+candle, मोमबत्ती
+chair, कुर्सी`,
 
         `baby, बच्चा
-    boy, लड़का
-    girl, लड़की	
-    man, आदमी `,
+boy, लड़का
+girl, लड़की	
+man, आदमी `,
 
         `shelf, अलमारी
-    ball, गेंद
-    glasses, ऐनक
-    clock, घड़ी 
-    door, दरवाजा
-    broom, झाड़ू`,
+ball, गेंद
+glasses, ऐनक
+clock, घड़ी 
+door, दरवाजा
+broom, झाड़ू`,
 
         `window, खिड़की
-    bucket, बाल्टी
-    soap, साबुन
-    pillow, तकिया
-    basket, टोकरी
-    dustbin, कचरे का डिब्बा`
+bucket, बाल्टी
+soap, साबुन
+pillow, तकिया
+basket, टोकरी
+dustbin, कचरे का डिब्बा`
       ]
     },
     {
@@ -347,12 +351,12 @@ export default {
       },
       data: [
         `eraser, रबड़	
-    pen, कलम
-    ruler, पेमाना`,
+pen, कलम
+ruler, पेमाना`,
 
         `scissors, कैंची
-    book, किताब 	
-    crayons, चित्रांकनी`
+book, किताब 	
+crayons, चित्रांकनी`
       ]
     },
     {
@@ -367,14 +371,14 @@ export default {
       },
       data: [
         `shoe, जूता
-      sock, मौज़ा
-      pyjama, पजामा
-      gloves, दस्ताने`,
+sock, मौज़ा
+pyjama, पजामा
+gloves, दस्ताने`,
 
         `scarf, दुपट्टा
-      shirt, कमीज
-      hat, टोपी
-      trousers, पतलून`
+shirt, कमीज
+hat, टोपी
+trousers, पतलून`
       ]
     },
     {
@@ -389,23 +393,23 @@ export default {
       },
       data: [
         `astronaut, अंतरिक्ष यात्री
-      fisherman, मछुआरा
-      postman, डाकिया
-      teacher, शिक्षक
-      blacksmith, लोहार`,
+fisherman, मछुआरा
+postman, डाकिया
+teacher, शिक्षक
+blacksmith, लोहार`,
 
         `cobbler, मोची
-      goldsmith, सुनार
-      potter, कुम्हार
-      weaver, जुलाहा
-      carpenter, बढ़ई
-      nurse, दाई`,
+goldsmith, सुनार
+potter, कुम्हार
+weaver, जुलाहा
+carpenter, बढ़ई
+nurse, दाई`,
 
         `chef, बावर्ची
-      doctor, चिकित्सक
-      soldier, सैनिक
-      barber, नाई
-      washerman, धोबी`
+doctor, चिकित्सक
+soldier, सैनिक
+barber, नाई
+washerman, धोबी`
       ]
     },
     {
@@ -420,30 +424,30 @@ export default {
       },
       data: [
         `stove, चूल्हा	 
-    fork, कांटा
-    knife, छुरी	
-    pan, कड़ाही	
-    spoon, चम्मच`,
+fork, कांटा
+knife, छुरी	
+pan, कड़ाही	
+spoon, चम्मच`,
 
         `pot, मटका
-    butter, मक्खन
-    lid, ढक्कन
-    tap, नल
-    plate, थाली`,
+butter, मक्खन
+lid, ढक्कन
+tap, नल
+plate, थाली`,
 
         `sugar, चीनी
-    bowl, कटोरा
-    meat, मांस
-    salt, नमक
-    sweets, मिठाइयाँ`,
+bowl, कटोरा
+meat, मांस
+salt, नमक
+sweets, मिठाइयाँ`,
 
         `bread, रोटी
-    juice, रस
-    flour, आटा
-    lentils, दाल
-    rice, चावल
-    cheese, पनीर
-    lollipop, टिकीया`
+juice, रस
+flour, आटा
+lentils, दाल
+rice, चावल
+cheese, पनीर
+lollipop, टिकीया`
       ]
     },
     {
@@ -458,25 +462,25 @@ export default {
       },
       data: [
         `axe, कुल्हाडी
-    balance, तराज़ू
-    blackboard, श्यामपट
-    microscope, सूक्ष्मदर्शी
-    needle, सुई
-    flute, बांसुरी`,
+balance, तराज़ू
+blackboard, श्यामपट
+microscope, सूक्ष्मदर्शी
+needle, सुई
+flute, बांसुरी`,
 
         `plough, हल
-    saw, आरा	
-    spade, कुदाली
-    telescope, दूरबीन
-    trowel, करनी
-    tabla, तबला`,
+saw, आरा	
+spade, कुदाली
+telescope, दूरबीन
+trowel, करनी
+tabla, तबला`,
 
         `awl, सूआ 
-    easel, चित्रफलक 	 
-    hacksaw, लोहा-आरी
-    scalpel, छुरी 
-    screw, पेंच
-    screwdriver, पेंचकस`
+easel, चित्रफलक 	 
+hacksaw, लोहा-आरी
+scalpel, छुरी 
+screw, पेंच
+screwdriver, पेंचकस`
       ]
     },
     {
@@ -502,7 +506,7 @@ leaf, पत्ता
 world, दुनिया`,
 
         `nest, घोंसला
-        dew , ओस
+dew , ओस
 waterfall, झरना
 rainbow, इंद्रधनुष`
       ]
@@ -519,49 +523,49 @@ rainbow, इंद्रधनुष`
       },
       data: [
         `ring, अंगूठी
-                bone, हड्डी
-                bell, घंटी
-                conch, शंख 
-                drums, ढोल`,
+bone, हड्डी
+bell, घंटी
+conch, शंख 
+drums, ढोल`,
 
         `five, पांच
-                food, खाना	
-                king,  राजा
-                kite, पतंग`,
+food, खाना	
+king,  राजा
+kite, पतंग`,
 
         `ladder, सीढ़ी 
-                leaf, पत्ता 
-                rishi,  ऋषि	
-                wheel, चक्का
-                whistle, सीटी`,
+leaf, पत्ता 
+rishi,  ऋषि	
+wheel, चक्का
+whistle, सीटी`,
 
         `bow, धनुष
-                arrow, बाण
-                chariot, रथ 
-                damaru, डमरू
-                hexagon, षटकोण
-                coin, सिक्का`,
+arrow, बाण
+chariot, रथ 
+damaru, डमरू
+hexagon, षटकोण
+coin, सिक्का`,
 
         `warrior, योद्धा
-                park, बाग
-                garden, उद्यान  
-                pouch, थैली
-                trident, त्रिशूल
-                box, डिब्बा `,
+park, बाग
+garden, उद्यान  
+pouch, थैली
+trident, त्रिशूल
+box, डिब्बा `,
 
         `vegetables, सब्ज़ियाँ
-                dhol, ढोल
-                palanquin, पालकी
-                medicine, दवा
-                balloon, गुब्बारा
-                yagna, यज्ञ`,
+dhol, ढोल
+palanquin, पालकी
+medicine, दवा
+balloon, गुब्बारा
+yagna, यज्ञ`,
 
         `touch-me-not, छुई मुई
-                stick, डंडा
-                yarn-ball, ऊन
-                trolley, ठेला
-                top, लट्टू
-                twig, टहनी`
+stick, डंडा
+yarn-ball, ऊन
+trolley, ठेला
+top, लट्टू
+twig, टहनी`
       ]
     },
     {
@@ -863,14 +867,14 @@ hair| बाल`
       },
       data: [
         `shoe|जूता
-  sock|मौज़ा| _ज़ा
-  pyjama|पजामा
-  gloves|दस्ताने`,
+sock|मौज़ा| _ज़ा
+pyjama|पजामा
+gloves|दस्ताने`,
 
         `scarf|दुपट्टा
-  shirt|कमीज
-  hat|टोपी
-  trousers|पतलून`
+shirt|कमीज
+hat|टोपी
+trousers|पतलून`
       ]
     },
     {
@@ -884,23 +888,23 @@ hair| बाल`
       },
       data: [
         `astronaut|अंतरिक्ष यात्री| अं___ __
-  fisherman|मछुआरा
-  postman|डाकिया
-  teacher|शिक्षक
-  blacksmith|लोहार`,
+fisherman|मछुआरा
+postman|डाकिया
+teacher|शिक्षक
+blacksmith|लोहार`,
 
         `cobbler|मोची
-  goldsmith|सुनार
-  potter|कुम्हार
-  weaver|जुलाहा
-  carpenter|बढ़ई
-  nurse|दाई`,
+goldsmith|सुनार
+potter|कुम्हार
+weaver|जुलाहा
+carpenter|बढ़ई
+nurse|दाई`,
 
         `chef|बावर्ची| __र्ची
-  doctor|चिकित्सक
-  soldier|सैनिक
-  barber|नाई
-  washerman|धोबी`
+doctor|चिकित्सक
+soldier|सैनिक
+barber|नाई
+washerman|धोबी`
       ]
     },
     {
@@ -950,15 +954,15 @@ dustbin|कचरे का डिब्बा| क__ का डि__`
       },
       data: [
         `eraser| रबड़| __ड़	
-            pen| कलम
-            ruler| मापन
-            schoolbag| बस्ता
-            calculator| गणना यंत्र| ग__ __`,
+pen| कलम
+ruler| मापन
+schoolbag| बस्ता
+calculator| गणना यंत्र| ग__ __`,
 
         `scissors| कैंची| कैं_
-            book| किताब 	
-            crayons| चित्रांकनी| _त्रां__
-            ink|स्याही`
+book| किताब 	
+crayons| चित्रांकनी| _त्रां__
+ink|स्याही`
       ]
     },
     {
@@ -1068,47 +1072,47 @@ rainbow|इंद्रधनुष`
       },
       data: [
         `ring| अंगूठी
-            bone| हड्डी
-            bell| घंटी
-            conch| शंख 
-            drums| ढोल`,
+bone| हड्डी
+bell| घंटी
+conch| शंख 
+drums| ढोल`,
 
         `five| पांच
-            food| खाना	
-            king|  राजा
-            kite| पतंग`,
+food| खाना	
+king|  राजा
+kite| पतंग`,
 
         `ladder| सीढ़ी 
-            rishi|  ऋषि	
-            wheel| चक्का
-            whistle| सीटी`,
+rishi|  ऋषि	
+wheel| चक्का
+whistle| सीटी`,
 
         `bow| धनुष
-            arrow| बाण
-            chariot| रथ 
-            damaru| डमरू
-            hexagon| षटकोण
-            coin|सिक्का`,
+arrow| बाण
+chariot| रथ 
+damaru| डमरू
+hexagon| षटकोण
+coin|सिक्का`,
 
         `warrior| योद्धा
-            park| बाग
-            garden| उद्यान  
-            pouch| थैली
-            trident| त्रिशूल
-            box|डिब्बा `,
+park| बाग
+garden| उद्यान  
+pouch| थैली
+trident| त्रिशूल
+box|डिब्बा `,
 
         `  dhol|ढोल
-            palanquin|पालकी
-            medicine|दवा
-            balloon|गुब्बारा
-            yagna| यज्ञ`,
+palanquin|पालकी
+medicine|दवा
+balloon|गुब्बारा
+yagna| यज्ञ`,
 
         `touch-me-not| छुई मुई| छु_ __
-            stick| डंडा
-            yarn-ball| ऊन
-            trolley| ठेला
-            top| लट्टू
-            twig| टहनी`
+stick| डंडा
+yarn-ball| ऊन
+trolley| ठेला
+top| लट्टू
+twig| टहनी`
       ]
     }
   ]

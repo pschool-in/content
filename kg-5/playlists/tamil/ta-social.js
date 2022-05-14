@@ -2,7 +2,7 @@ export default {
   label: 'சமூகம்',
   id: 'ta-social',
   img: 'social',
-
+  lockAfter: 2,
   list: [
     {
       id: 'direction',

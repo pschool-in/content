@@ -1,11 +1,13 @@
 export default {
   label: 'Helping Verb',
   id: 'helping-verb-2',
+  lockAfter: 1,
   list: [
     {
       id: 'fill-up',
       label: 'Fill in the blanks',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         title: `Click on the blanks and type the right helping verb.`,
         noOptions: true

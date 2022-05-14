@@ -2,7 +2,7 @@ export default {
   label: 'ধ্বনি',
   id: 'bn-sound',
   img: 'sound',
-  lockAfter: 7,
+  lockAfter: 2,
   list: [
     {
       type: 'slides',
@@ -15,23 +15,23 @@ export default {
         {
           audioOffset: 0,
           text: `apple | আপেল
-  grapes | আঙুর
-  banana | কলা
-  guava | পেয়ারা
-  jackfruit | কাঁঠাল 
-  mango | আম
-  orange | কমলা লেবু
-  papaya | পেঁপে `
+grapes | আঙুর
+banana | কলা
+guava | পেয়ারা
+jackfruit | কাঁঠাল 
+mango | আম
+orange | কমলা লেবু
+papaya | পেঁপে `
         },
         {
           audioOffset: 16,
           text: `pineapple | আনারস
-  pomegranate | ডালিম
-  watermelon | তরমুজ
-  fig | ডুমুর
-  custard-apple | আতা
-  dates | খেজুর
-  muskmelon | খরবুজ`
+pomegranate | ডালিম
+watermelon | তরমুজ
+fig | ডুমুর
+custard-apple | আতা
+dates | খেজুর
+muskmelon | খরবুজ`
         }
       ]
     },
@@ -43,11 +43,11 @@ export default {
         audio: 'bn/bn-flowers-bodyParts-kitchen.mp3',
         audioOffset: 0,
         text: `rose | গোলাপ
-  lotus | পদ্ম 
-  sunflower | সূর্যমুখী 
-  marigold | গাঁদা 
-  hibiscus | জবা
-  jasmine | জুঁই `
+lotus | পদ্ম 
+sunflower | সূর্যমুখী 
+marigold | গাঁদা 
+hibiscus | জবা
+jasmine | জুঁই `
       }
     },
     {
@@ -61,38 +61,38 @@ export default {
         {
           audioOffset: 0,
           text: `carrot | গাজর
-  beetroot | বিট
-  onion | পেঁয়াজ 
-  tomato | টমেটো
-  potato | আলু
-  cabbage | বাঁধাকপি
-  cauliflower | ফুলকপি
-  corn | ভুট্টা
-  cucumber | শসা
-  garlic | রসুন`
+beetroot | বিট
+onion | পেঁয়াজ 
+tomato | টমেটো
+potato | আলু
+cabbage | বাঁধাকপি
+cauliflower | ফুলকপি
+corn | ভুট্টা
+cucumber | শসা
+garlic | রসুন`
         },
         {
           audioOffset: 20,
           text: `ginger | আদা
-  pumpkin | কুমড়
-  almond | বাদাম
-  bitter-gourd | করলা
-  brinjal | বেগুন
-  cashewnut | কাজুবাদাম
-  chilli | লঙ্কা
-  coconut | নারকেল
-  corianderleaf | ধনেপাতা
-  curryleaf | কারিপাতা`
+pumpkin | কুমড়
+almond | বাদাম
+bitter-gourd | করলা
+brinjal | বেগুন
+cashewnut | কাজুবাদাম
+chilli | লঙ্কা
+coconut | নারকেল
+corianderleaf | ধনেপাতা
+curryleaf | কারিপাতা`
         },
         {
           audioOffset: 40,
           text: `drumstick | সজনেডাঁটা
-  greenpeas | মটরশুটি
-  ladies-finger | ভিন্ডি
-  mintleaf | পুদিনা
-  peanut | চিনাবাদাম
-  radish | মূলো
-  spinach | পালং শাক`
+greenpeas | মটরশুটি
+ladies-finger | ভিন্ডি
+mintleaf | পুদিনা
+peanut | চিনাবাদাম
+radish | মূলো
+spinach | পালং শাক`
         }
       ]
     },
@@ -100,7 +100,6 @@ export default {
       type: 'rightOne',
       label: 'শব্দ শুনে শনাক্ত করুন - ফল, ফুল, শাকসবজি',
       id: 'pick-word-fruitveg',
-      lockAfter: 4,
       commonData: {
         title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
         type: 'image'
@@ -154,59 +153,59 @@ export default {
         {
           audioOffset: 0,
           text: `cat | বিড়াল
-  dog | কুকুর
-  goat | ছাগল
-  sheep | ভেড়া
-  horse | ঘোড়া
-  pig | শূকর
-  elephant | হাতি
-  lion | সিংহ
-  monkey | বাঁদর
-  tiger | বাঘ`
+dog | কুকুর
+goat | ছাগল
+sheep | ভেড়া
+horse | ঘোড়া
+pig | শূকর
+elephant | হাতি
+lion | সিংহ
+monkey | বাঁদর
+tiger | বাঘ`
         },
         {
           audioOffset: 20,
           text: `hippo | জলহস্তী
-            rhino | গণ্ডার
-  fox | শিয়াল
-  crocodile | কুমির
-  bear | ভালুক
-  camel | উট
-  shark | হাঙ্গর
-  whale | তিমি মাছ
-  dolphin | শুশুক 
-  dragonfly | ফড়িং`
+rhino | গণ্ডার
+fox | শিয়াল
+crocodile | কুমির
+bear | ভালুক
+camel | উট
+shark | হাঙ্গর
+whale | তিমি মাছ
+dolphin | শুশুক 
+dragonfly | ফড়িং`
         },
         {
           audioOffset: 40,
           text: `fish | মাছ
-  frog | ব্যাঙ
-  crab | কাঁকড়া
-  snake | সাপ
-  squirrel | কাঠবিড়ালি
-  tortoise | কচ্ছপ
-  rat | ইঁদুর
-  winged-termites | উইপোকা
-  ant | পিঁপড়ে
-  fly | মাছি`
+frog | ব্যাঙ
+crab | কাঁকড়া
+snake | সাপ
+squirrel | কাঠবিড়ালি
+tortoise | কচ্ছপ
+rat | ইঁদুর
+winged-termites | উইপোকা
+ant | পিঁপড়ে
+fly | মাছি`
         },
         {
           audioOffset: 60,
           text: `bat | বাদুড়
-  buffalo | মোষ
-  butterfly | প্রজাপতি
-  cheetah | চিতাবাঘ
-  cow | গরু
-  donkey | গাধা`
+buffalo | মোষ
+butterfly | প্রজাপতি
+cheetah | চিতাবাঘ
+cow | গরু
+donkey | গাধা`
         },
         {
           audioOffset: 72,
           text: `mongoose | বেজি
-  mosquito | মশা
-  wolf | নেকড়ে বাঘ
-  cockroach | আরশোলা
-  lizard | টিকটিকি
-  rabbit | খরগোশ`
+mosquito | মশা
+wolf | নেকড়ে বাঘ
+cockroach | আরশোলা
+lizard | টিকটিকি
+rabbit | খরগোশ`
         }
       ]
     },
@@ -221,24 +220,24 @@ export default {
         {
           audioOffset: 0,
           text: `crow | কাক 
-              dove |  পায়রা
-   duck| হাঁস 
-   hen| মুরগি
-   parrot| টিয়া পাখি
-   peacock| ময়ূর
-   sparrow| চড়ুই, চড়াই
-   chick| মুরগিছানা
-  crane| সারস পাখি`
+dove |  পায়রা
+duck| হাঁস 
+hen| মুরগি
+parrot| টিয়া পাখি
+peacock| ময়ূর
+sparrow| চড়ুই, চড়াই
+chick| মুরগিছানা
+crane| সারস পাখি`
         },
         {
           audioOffset: 18,
           text: `kingfisher|মাছরাঙ্গা
-   myna|মায়না
-   ostrich| উটপাখি
-   owl| পেঁচা
-   rooster| মোরগ
-   vulture| শকুন
-   woodpecker | কাঠঠোকরা `
+myna|মায়না
+ostrich| উটপাখি
+owl| পেঁচা
+rooster| মোরগ
+vulture| শকুন
+woodpecker | কাঠঠোকরা `
         }
       ]
     },
@@ -246,7 +245,6 @@ export default {
       type: 'rightOne',
       label: 'শব্দ শুনে শনাক্ত করুন - পশু, পাখি',
       id: 'pick-word-animalbird',
-      lockAfter: 4,
       commonData: {
         title: 'শব্দ শুনুন এবং সঠিক ছবিতে ক্লিক করুন',
         type: 'image'
@@ -299,13 +297,13 @@ export default {
         audio: 'bn/bn-flowers-bodyParts-kitchen.mp3',
         audioOffset: 12,
         text: `ear | কান
-  eye | চোখ
-  foot | পা
-  hair | চুল
-  hand | হাত
-  mouth | মুখ
-  nose | নাক
-  tooth | দাঁত `
+eye | চোখ
+foot | পা
+hair | চুল
+hand | হাত
+mouth | মুখ
+nose | নাক
+tooth | দাঁত `
       }
     },
     {
@@ -316,12 +314,12 @@ export default {
         audio: 'bn/bn-flowers-bodyParts-kitchen.mp3',
         audioOffset: 28,
         text: `stove | চুলা
-  fork | কাঁটাচামচ 
-  knife | ছুরি
-  pan | চাটু
-  spoon | চামচ
-  pot | পাত্র
-  butter | মাখন`
+fork | কাঁটাচামচ 
+knife | ছুরি
+pan | চাটু
+spoon | চামচ
+pot | পাত্র
+butter | মাখন`
       }
     },
 
@@ -333,15 +331,15 @@ export default {
         audio: 'bn/bn-vehicles.mp3',
         audioOffset: 0,
         text: `aeroplane | বিমান
-            boat | নৌকা
-            bus | বাস
-            car | কার
-            ship | জাহাজ
-            train | রেল গাড়ি
-            auto | অটো
-  cart | গোরুর গাড়ি
-  excavator | খননকারী যন্ত্র
-  fire-engine | দমকল`
+boat | নৌকা
+bus | বাস
+car | কার
+ship | জাহাজ
+train | রেল গাড়ি
+auto | অটো
+cart | গোরুর গাড়ি
+excavator | খননকারী যন্ত্র
+fire-engine | দমকল`
       }
     },
     {
@@ -355,59 +353,59 @@ export default {
         {
           audioOffset: 0,
           text: `house | ঘর
-  table | টেবিল
-  bed | বিছানা
-  candle | মোমবাতি
-  chair | কেদারা
-  shelf | তাক
-  baby | বাচ্চা
-  boy | ছেলে
-  girl | মেয়ে`
+table | টেবিল
+bed | বিছানা
+candle | মোমবাতি
+chair | কেদারা
+shelf | তাক
+baby | বাচ্চা
+boy | ছেলে
+girl | মেয়ে`
         },
         {
           audioOffset: 18,
           text: `man | পুরুষ
-  woman| মহিলা
-  glasses | চশমা
-  clock | ঘড়ি
-  watch | হাতঘড়ি
-  pen | কলম
-  scissors | কাঁচি 
-  waterbottle | জলের বোতল
-  book | বই
-  color-pencils | রঙ পেন্সিল`
+woman| মহিলা
+glasses | চশমা
+clock | ঘড়ি
+watch | হাতঘড়ি
+pen | কলম
+scissors | কাঁচি 
+waterbottle | জলের বোতল
+book | বই
+color-pencils | রঙ পেন্সিল`
         },
         {
           audioOffset: 38,
           text: `sun | সূর্য 
-  moon | চাঁদ
-  rain | বৃষ্টি 
-  star | তারা
-  milk | দুধ
-  ring | আংটি
-  bone | হাড়
-  bell | ঘণ্টা
-  bird | পাখি
-  conch | শঙ্খ`
+moon | চাঁদ
+rain | বৃষ্টি 
+star | তারা
+milk | দুধ
+ring | আংটি
+bone | হাড়
+bell | ঘণ্টা
+bird | পাখি
+conch | শঙ্খ`
         },
         {
           audioOffset: 58,
           text: `drums | ঢাক
-  five | পাঁচ 
-  food | খাবার
-  fruits | ফল
-  king | রাজা
-  kite | ঘুড়ি
-  ladder | মই`
+five | পাঁচ 
+food | খাবার
+fruits | ফল
+king | রাজা
+kite | ঘুড়ি
+ladder | মই`
         },
         {
           audioOffset: 72,
           text: `ladoo | লাড্ডু
-  leaf | পাতা
-  rishi | ঋষি
-  wheel | চাকা
-  whistle | বাঁশি 
-  world | পৃথিবী`
+leaf | পাতা
+rishi | ঋষি
+wheel | চাকা
+whistle | বাঁশি 
+world | পৃথিবী`
         }
       ]
     },

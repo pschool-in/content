@@ -8,6 +8,7 @@ export default {
       id: 'notes',
       type: 'passage',
       label: `தேர்வு செய்யப் பட்டவை `,
+      lockAfter: 2,
       commonData: {
         title: ''
       },
@@ -338,6 +339,7 @@ export default {
       id: 'sort3',
       label: 'வரிசை படுத்துக',
       type: 'sorting',
+      lockAfter: 2,
       commonData: {
         title: 'திருக்குறளை அடையாளம் கண்டு வார்த்தைகளை வரிசை படுத்துக',
         multiple: true
@@ -381,6 +383,7 @@ export default {
       label: 'சரியான விடையை தேர்ந்தெடு',
       type: 'matchByDragDrop',
       id: 'match-4',
+      lockAfter: 2,
       commonData: {
         isPractice: false,
         title: 'சரியான விடையை தேர்ந்தெடு',

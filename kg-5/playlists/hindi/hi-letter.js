@@ -2,6 +2,7 @@ export default {
   label: 'वर्ण',
   id: 'hi-letter',
   img: 'writing',
+  lockAfter: 1,
   list: [
     {
       id: 'vowels-writing',
@@ -559,7 +560,7 @@ export default {
     {
       type: 'group',
       label: 'स्वर बनाम व्यंजन ',
-      lockAfter: 4,
+      lockAfter: 2,
       id: 'classify-letter-type-hi',
       commonData: {
         title: 'व्यंजन और स्वर सही बॉक्स में डालें ',
@@ -591,7 +592,7 @@ export default {
       id: 'compound-7',
       type: 'match',
       label: 'व्यंजन और स्वर संयोजन (क - घ)',
-      lockAfter: 4,
+      lockAfter: 2,
       commonData: {
         title: 'सही अक्षर का मिलान करें',
         fontSize: '2rem'

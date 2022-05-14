@@ -1,5 +1,5 @@
 export default {
-  id: 'tamil',
+  id: 'tamil-more',
   label: 'More Tamil',
   type: 'curriculumList',
   list: [

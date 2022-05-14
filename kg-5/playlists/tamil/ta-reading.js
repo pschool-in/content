@@ -2,6 +2,7 @@ export default {
   label: 'கதை',
   id: 'ta-reading',
   img: 'reading',
+  lockAfter: 4,
   list: [
     {
       id: '100',

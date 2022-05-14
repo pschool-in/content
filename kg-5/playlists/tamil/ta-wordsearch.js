@@ -2,6 +2,7 @@ export default {
   label: 'வார்த்தை தேடல்',
   id: 'ta-wordsearch',
   img: 'wordsearch',
+  lockAfter: 4,
   list: [
     {
       id: 'animals',

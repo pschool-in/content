@@ -47,7 +47,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Fruits',
       id: 'pick-fruits',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the fruit.',
         type: 'image',
@@ -70,7 +69,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Vegetables',
       id: 'pick-vegetables',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the vegetable.',
         type: 'image',

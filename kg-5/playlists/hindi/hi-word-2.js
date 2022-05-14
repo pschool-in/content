@@ -2,6 +2,7 @@ export default {
   label: 'शब्द',
   id: 'hi-word-2',
   img: 'word',
+  lockAfter: 2,
   list: [
     {
       id: 'jumbled-hi-1',
@@ -101,7 +102,6 @@ export default {
       type: 'match',
       label: 'रंग',
       id: 'colours',
-      lockAfter: 2,
       commonData: {
         title: 'निम्नलिखित को मिलाएं'
       },
@@ -139,7 +139,6 @@ Sunday, रविवार`,
       type: 'match',
       label: 'शब्दार्थ',
       id: 'meanings',
-      lockAfter: 2,
       commonData: {
         title: 'शब्द को उसके अर्थ के साथ मिलाइए'
       },
@@ -242,7 +241,6 @@ Sunday, रविवार`,
     },
     {
       label: 'अनेक शब्दों के लिए एक शब्द',
-      lockAfter: 4,
       type: 'matchByDragDrop',
       id: 'one-word-sub',
       commonData: {
@@ -294,7 +292,6 @@ Sunday, रविवार`,
     },
     {
       label: 'पहेलियाँ',
-      lockAfter: 3,
       type: 'matchByDragDrop',
       id: 'riddles',
       commonData: {

@@ -2,6 +2,7 @@ export default {
   label: 'ध्वनि',
   id: 'hi-sound-2',
   img: 'sound',
+  lockAfter: 2,
   list: [
     {
       type: 'slides',
@@ -14,42 +15,42 @@ export default {
         {
           audioOffset: 0,
           text: `kangaroo|कंगेरू
-          leopard|तेंदुआ
-          mongoose|नेवला
-          mosquito|मच्छर
-          wolf|भेड़िया
-          cockroach|तिलचट्टा
-          garden-lizard|उद्यान छिपकली
-          lizard|छिपकली
-          rabbit|खरगोश
-          alligator|घड़ियाल`
+leopard|तेंदुआ
+mongoose|नेवला
+mosquito|मच्छर
+wolf|भेड़िया
+cockroach|तिलचट्टा
+garden-lizard|उद्यान छिपकली
+lizard|छिपकली
+rabbit|खरगोश
+alligator|घड़ियाल`
         },
         {
           audioOffset: 20,
           text: `boar|जंगली सूअर
-          cricket| झिंगुर
-          hyena|लकड़बग्धा
-          polarbear| ध्रुवीय भालू
-          antelope|बारहसिंगा
-          bug| खटमल
-          jackal| सियार
-          prawn|  झींगे
-          baboon| लंगूर
-          bull| सांड`
+cricket| झिंगुर
+hyena|लकड़बग्धा
+polarbear| ध्रुवीय भालू
+antelope|बारहसिंगा
+bug| खटमल
+jackal| सियार
+prawn|  झींगे
+baboon| लंगूर
+bull| सांड`
         },
         {
           audioOffset: 40,
           text: `python|अजगर
-          bison|जंगली सांड
-          chameleon|गिरगिट
-          porcupine|साही
-          bee|मधुमक्खी
-          goldfish|सुनहरी मछली
-          seahorse|समुद्री घोड़े
-          mole|छछूँदर
-          spider|मकड़ी
-          caterpillar|इल्ली
-          earthworm|केंचुआ`
+bison|जंगली सांड
+chameleon|गिरगिट
+porcupine|साही
+bee|मधुमक्खी
+goldfish|सुनहरी मछली
+seahorse|समुद्री घोड़े
+mole|छछूँदर
+spider|मकड़ी
+caterpillar|इल्ली
+earthworm|केंचुआ`
         }
       ]
     },
@@ -61,14 +62,14 @@ export default {
         audio: 'hi/hi-birds-vegetables-2.mp3',
         audioOffset: 0,
         text: `woodpecker|कठफोड़वा
-          cuckoo|कोयल
-          pheasant|तीतर
-          falcon|बाज़
-          swan| हंस
-          bulbul|बुलबुल
-          spotted-dove| चित्तीदार कबूतर
-          seagull|सामुद्रिक चिड़िया
-          hawk|बाज`
+cuckoo|कोयल
+pheasant|तीतर
+falcon|बाज़
+swan| हंस
+bulbul|बुलबुल
+spotted-dove| चित्तीदार कबूतर
+seagull|सामुद्रिक चिड़िया
+hawk|बाज`
       }
     },
     {
@@ -82,36 +83,36 @@ export default {
         {
           audioOffset: 18,
           text: `corianderleaf| धनिया पत्ता
-          curryleaf| करी पत्ता
-          drumstick| सेहजन
-          greenpeas| मटर
-          ladies-finger| भिन्डी
-          mintleaf| पुदीना
-          peanut| मूंगफली
-          radish| मूली
-          spinach| पालक
-          chickpea|चना`
+curryleaf| करी पत्ता
+drumstick| सेहजन
+greenpeas| मटर
+ladies-finger| भिन्डी
+mintleaf| पुदीना
+peanut| मूंगफली
+radish| मूली
+spinach| पालक
+chickpea|चना`
         },
         {
           audioOffset: 38,
           text: `mustard-greens|सरसों का पत्ता
-          turmeric|हल्दी
-          turnip| शलगम
-          fenugreek| हरी मेथी
-          tamarind|इमली
-          ashgourd|रखिया
-          broad-beans|सेम फली
-          snake-gourd|चिचिण्डा
-          cluster-beans|गँवार फली
-          kohlrabi|बन्द-गोभी`
+turmeric|हल्दी
+turnip| शलगम
+fenugreek| हरी मेथी
+tamarind|इमली
+ashgourd|रखिया
+broad-beans|सेम फली
+snake-gourd|चिचिण्डा
+cluster-beans|गँवार फली
+kohlrabi|बन्द-गोभी`
         },
         {
           audioOffset: 58,
           text: `tulsi|तुलसी
-          bottlegourd|लौकी
-          ivygourd|कुंदरू
-          ridgegourd|तुरई 
-          vegetables|सब्जियां`
+bottlegourd|लौकी
+ivygourd|कुंदरू
+ridgegourd|तुरई 
+vegetables|सब्जियां`
         }
       ]
     },
@@ -126,23 +127,23 @@ export default {
         {
           audioOffset: 0,
           text: `rose | गुलाब
-          lotus | कमल
-          sunflower | सूर्यमुखी
-          marigold | गेंदा
-          hibiscus | गुडहल
-          mogra| मोगरा
-          daffodil| नरगिस
-          gulmohar|गुलमोहर
-          lily|कुमुदनी
-          pansy|बनफूल`
+lotus | कमल
+sunflower | सूर्यमुखी
+marigold | गेंदा
+hibiscus | गुडहल
+mogra| मोगरा
+daffodil| नरगिस
+gulmohar|गुलमोहर
+lily|कुमुदनी
+pansy|बनफूल`
         },
         {
           audioOffset: 20,
           text: `poppy|खसखस
-          daisy|गुलबहार
-          magnolia|चम्पा
-          periwinkle| सदाबहार
-          water-lily|नीलकमल`
+daisy|गुलबहार
+magnolia|चम्पा
+periwinkle| सदाबहार
+water-lily|नीलकमल`
         }
       ]
     },
@@ -157,23 +158,23 @@ export default {
         {
           audioOffset: 30,
           text: `aeroplane| हवाईजहाज
-          boat| नाव
-          bus| बस
-          car| गाड़ी
-          cycle| साइकिल
-          helicoptor| घिरनीदार विमान
-          ship| समुंद्रीजहाज
-          tractor| ट्रैक्टर
-          train| रेलगाडी
-          ambulance| रोगीवाहन`
+boat| नाव
+bus| बस
+car| गाड़ी
+cycle| साइकिल
+helicoptor| घिरनीदार विमान
+ship| समुंद्रीजहाज
+tractor| ट्रैक्टर
+train| रेलगाडी
+ambulance| रोगीवाहन`
         },
         {
           audioOffset: 50,
           text: `auto| रिक्शा
-          cart| हाथगाडी
-          excavator| खोदक मशीन
-          fire-engine| दमकल
-          lorry| लारी`
+cart| हाथगाडी
+excavator| खोदक मशीन
+fire-engine| दमकल
+lorry| लारी`
         }
       ]
     },
@@ -188,21 +189,21 @@ export default {
         {
           audioOffset: 60,
           text: `eraser| रबड़
-          pen| कलम
-          pencil| पेंसिल
-          sharpener| चोखा करने वाला
-          ruler| पेमाना
-          schoolbag| बस्ता`
+pen| कलम
+pencil| पेंसिल
+sharpener| चोखा करने वाला
+ruler| पेमाना
+schoolbag| बस्ता`
         },
         {
           audioOffset: 72,
           text: `scissors| कैंची
-          waterbottle| पानी की बोतल
-          calculator| गणना यंत्र
-          book| किताब
-          color-pencils | रंग पेंसिल
-          crayons|चित्रांकनी
-          ink|स्याही`
+waterbottle| पानी की बोतल
+calculator| गणना यंत्र
+book| किताब
+color-pencils | रंग पेंसिल
+crayons|चित्रांकनी
+ink|स्याही`
         }
       ]
     },
@@ -217,36 +218,36 @@ export default {
         {
           audioOffset: 0,
           text: `axe| कुल्हाडी
-          balance| तराज़ू
-          blackboard | श्यामपट
-          hose | रबर का पाइप
-          microscope| सूक्ष्मदर्शी
-          needle | सुई
-          oven | कुठला
-          plier| प्‍लास
-          plough | हल
-          saw| आरा`
+balance| तराज़ू
+blackboard | श्यामपट
+hose | रबर का पाइप
+microscope| सूक्ष्मदर्शी
+needle | सुई
+oven | कुठला
+plier| प्‍लास
+plough | हल
+saw| आरा`
         },
         {
           audioOffset: 20,
           text: `spade| कुदाल
-          stethoscope |परिश्रावक
-          telescope| दूरबीन
-          test-tube | परखनली
-          thermometer| तापमान-यंत्र
-          trowel| करनी
-          awl | सूआ
-          compass| दिशा सूचक यंत्र
-          easel| चित्रफलक
-          hacksaw| लोहा-आरी`
+stethoscope |परिश्रावक
+telescope| दूरबीन
+test-tube | परखनली
+thermometer| तापमान-यंत्र
+trowel| करनी
+awl | सूआ
+compass| दिशा सूचक यंत्र
+easel| चित्रफलक
+hacksaw| लोहा-आरी`
         },
         {
           audioOffset: 40,
           text: `scalpel| छुरी
-          screw|पेंच
-          screwdriver|पेंचकस
-          flute|बांसुरी
-          tabla|तबला`
+screw|पेंच
+screwdriver|पेंचकस
+flute|बांसुरी
+tabla|तबला`
         }
       ]
     },
@@ -261,24 +262,24 @@ export default {
         {
           audioOffset: 50,
           text: `astronaut|अंतरिक्ष यात्री
-          fisherman|मछुआरा
-          postman|डाकिया
-          teacher|शिक्षक
-          blacksmith|लोहार
-          cobbler|मोची
-          goldsmith|सुनार
-          potter|कुम्हार
-          weaver|जुलाहा
-          carpenter|बढ़ई`
+fisherman|मछुआरा
+postman|डाकिया
+teacher|शिक्षक
+blacksmith|लोहार
+cobbler|मोची
+goldsmith|सुनार
+potter|कुम्हार
+weaver|जुलाहा
+carpenter|बढ़ई`
         },
         {
           audioOffset: 70,
           text: `nurse|दाई
-          chef|बावर्ची
-          doctor|चिकित्सक
-          soldier|सैनिक
-          barber|नाई
-          washerman|धोबी`
+chef|बावर्ची
+doctor|चिकित्सक
+soldier|सैनिक
+barber|नाई
+washerman|धोबी`
         }
       ]
     },
@@ -293,36 +294,36 @@ export default {
         {
           audioOffset: 0,
           text: `bullock-cart|बैलगाड़ी
-          warrior|योद्धा
-          knight|क्षत्रिय
-          chariot|रथ
-          park|बाग
-          garden|उद्यान 
-          horse-carriage|घोड़ागाड़ी
-          touch-me-not|छुई मुई
-          yagna|यज्ञ
-          yarn-ball |ऊन`
+warrior|योद्धा
+knight|क्षत्रिय
+chariot|रथ
+park|बाग
+garden|उद्यान 
+horse-carriage|घोड़ागाड़ी
+touch-me-not|छुई मुई
+yagna|यज्ञ
+yarn-ball |ऊन`
         },
         {
           audioOffset: 20,
           text: `bow| धनुष 
-          arrow| बाण
-          pouch|थैली
-          top|लट्टू 
-          hexagon|षटकोण
-          trident|त्रिशूल
-          damaru|डमरू
-          stick|डंडा
-          twig| टहनी
-          dhol|ढोल`
+arrow| बाण
+pouch|थैली
+top|लट्टू 
+hexagon|षटकोण
+trident|त्रिशूल
+damaru|डमरू
+stick|डंडा
+twig| टहनी
+dhol|ढोल`
         },
         {
           audioOffset: 40,
           text: `palanquin|पालकी
-          medicine|दवा
-          balloon|गुब्बारा
-          box|डिब्बा
-          coin|सिक्का`
+medicine|दवा
+balloon|गुब्बारा
+box|डिब्बा
+coin|सिक्का`
         }
       ]
     },

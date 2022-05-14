@@ -2,6 +2,7 @@ export default {
   label: 'திருக்குறள்',
   id: 'thirukkural',
   img: 'thirukkural',
+  lockAfter: 2,
   list: [
     {
       id: 'notes',
@@ -10,6 +11,7 @@ export default {
       commonData: {
         title: ''
       },
+      lockAfter: 2,
       data: [
         [
           `# கடவுள் வாழ்த்து`,
@@ -348,6 +350,7 @@ export default {
       id: 'sort',
       label: 'வரிசை படுத்துக',
       type: 'sorting',
+      lockAfter: 2,
       commonData: {
         title: 'திருக்குறளை அடையாளம் கண்டு வார்த்தைகளை வரிசை படுத்துக ',
         multiple: true

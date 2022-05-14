@@ -7,11 +7,23 @@ export default {
       type: 'rightOne',
       label: 'ஓசை - வார்த்தை',
       id: 'sound',
+      lockAfter: 2,
       commonData: {
         title: 'ஓசை கேட்டு வார்த்தைகளை அடையாளம் காண்க.',
         type: 'words'
       },
       data: [
+        {
+          audioOffset: 0,
+          audio: 'ta/ta-fruits.mp3',
+          words: 'திராட்சை, வாழைப்பழம், கொய்யா, பலாப்பழம், மாம்பழம், பப்பாளி'
+        },
+        {
+          audioOffset: 12,
+          audio: 'ta/ta-fruits.mp3',
+          words:
+            'அன்னாசி, மாதுளை, தர்பூசணி, அத்திப்பழம், சீத்தாப்பழம், பேரிச்சை'
+        },
         {
           audioOffset: 2,
           audio: 'ta/ta-animals.mp3',
@@ -51,17 +63,6 @@ export default {
           audio: 'ta/ta-birds.mp3',
           words:
             'கோழிக்குஞ்சு, கொக்கு, கழுகு, மீன் கொத்தி, மைனா, நெருப்புக்கோழி, ஆந்தை, சேவல், மரங்கொத்தி'
-        },
-        {
-          audioOffset: 0,
-          audio: 'ta/ta-fruits.mp3',
-          words: 'திராட்சை, வாழைப்பழம், கொய்யா, பலாப்பழம், மாம்பழம், பப்பாளி'
-        },
-        {
-          audioOffset: 12,
-          audio: 'ta/ta-fruits.mp3',
-          words:
-            'அன்னாசி, மாதுளை, தர்பூசணி, அத்திப்பழம், சீத்தாப்பழம், பேரிச்சை'
         },
         {
           audioOffset: 0,

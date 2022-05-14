@@ -2,11 +2,13 @@ export default {
   label: 'படம்',
   id: 'ta-picture-2',
   img: 'image',
+  lockAfter: 1,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'விலங்குகள்',
       id: 'dragDrop-animal',
+      lockAfter: 2,
       commonData: {
         title: 'விலங்குகளின் படங்களுடன் பெயரைப் பொருத்துக'
       },
@@ -87,6 +89,7 @@ macaw| பஞ்சவர்ணக்கிளி`
       type: 'dragDropImgLabel',
       label: 'பழங்கள்',
       id: 'dragDropImgLabel2',
+      lockAfter: 2,
       commonData: {
         title: 'பழங்களின் படங்களுடன் பெய ரைப் பொருத்துக'
       },

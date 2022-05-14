@@ -2,6 +2,7 @@ export default {
   label: 'அறிவியல்',
   id: 'ta-science',
   img: 'science',
+  lockAfter: 2,
   list: [
     {
       type: 'dragAndDrop',

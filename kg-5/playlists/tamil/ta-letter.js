@@ -2,7 +2,7 @@ export default {
   label: 'எழுத்து',
   id: 'ta-letter',
   img: 'writing',
-  lockAfter: 10,
+  lockAfter: 4,
   list: [
     {
       id: 'vowels-writing',
@@ -501,6 +501,7 @@ export default {
       label: 'அடுத்தது என்ன?',
       id: 'what-next-tamil',
       type: 'whatNext',
+      lockAfter: 2,
       commonData: {
         type: 'letters',
         title: 'அடுத்த எழுத்தைக் கண்டுபிடி'
@@ -549,6 +550,7 @@ export default {
       id: 'match',
       type: 'match',
       label: 'உயிர் மெய்: பொருத்துக',
+      lockAfter: 2,
       commonData: {
         big: true,
         title: 'உயிர் மெய்: பொருத்துக'

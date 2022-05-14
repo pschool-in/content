@@ -2,11 +2,13 @@ export default {
   id: 'ta-spell',
   label: 'எழுத்துப்பிழை',
   img: 'word',
+  lockAfter: 2,
   list: [
     {
       id: 'correct-spelling',
       type: 'rightOne',
       label: 'எழுத்துப்பிழை',
+      lockAfter: 2,
       commonData: {
         title: 'சரியான வார்த்தையை தேர்வு செய்க'
       },
@@ -83,6 +85,7 @@ export default {
       id: 'la-sound',
       label: 'ல,ள,ழ வேறுபாடுகள்',
       type: 'fillupOptions',
+      lockAfter: 2,
       commonData: {
         title: 'சரியான விடையை தேர்ந்தெடு'
       },

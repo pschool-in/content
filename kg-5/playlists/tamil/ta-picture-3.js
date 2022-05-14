@@ -2,7 +2,60 @@ export default {
   label: 'மீண்டும் படம்',
   id: 'ta-picture-3',
   img: 'image',
+  lockAfter: 2,
   list: [
+    {
+      type: 'connectLetters',
+      label: 'பழங்கள்',
+      id: 'connect-fruits',
+      commonData: {
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'ta',
+        fontSize: '1rem'
+      },
+      data: [
+        `apple, ஆப்பிள்
+grapes, திராட்சை
+banana, வாழைப்பழம்
+guava, கொய்யாப்பழம்
+jackfruit, பலாப்பழம் 
+mango, மாம்பழம்`,
+
+        `orange, ஆரஞ்சு
+papaya, பப்பாளி
+pineapple, அன்னாசி
+pomegranate, மாதுளை 
+watermelon, தர்பூசணி 
+sugarcane, கரும்பு`
+      ]
+    },
+    {
+      type: 'completeWord',
+      label: 'பழங்கள்',
+      id: 'fruits1',
+      commonData: {
+        images: 'custom',
+        lang: 'ta',
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
+      },
+      data: [
+        `apple| ஆப்பிள்| ஆ___
+grapes| திராட்சை | தி___ 
+banana| வாழைப்பழம் | வா_____
+guava| கொய்யாப்பழம் | கொ______
+jackfruit| பலாப்பழம் | ப_____
+mango| மாம்பழம் | மா____`,
+
+        `orange| ஆரஞ்சு| ஆ___
+papaya| பப்பாளி | ப___
+pineapple| அன்னாசி | அ___
+pomegranate| மாதுளை | ___
+watermelon| தர்பூசணி | த____
+sugarcane| கரும்பு | க___`
+      ]
+    },
     {
       type: 'connectLetters',
       label: 'விலங்குகள்',
@@ -79,33 +132,7 @@ myna, மைனா
 owl, ஆந்தை`
       ]
     },
-    {
-      type: 'connectLetters',
-      label: 'பழங்கள்',
-      id: 'connect-fruits',
-      commonData: {
-        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
-        printTitle: 'Form the word using the letters.',
-        type: 'image',
-        lang: 'ta',
-        fontSize: '1rem'
-      },
-      data: [
-        `apple, ஆப்பிள்
-grapes, திராட்சை
-banana, வாழைப்பழம்
-guava, கொய்யாப்பழம்
-jackfruit, பலாப்பழம் 
-mango, மாம்பழம்`,
 
-        `orange, ஆரஞ்சு
-papaya, பப்பாளி
-pineapple, அன்னாசி
-pomegranate, மாதுளை 
-watermelon, தர்பூசணி 
-sugarcane, கரும்பு`
-      ]
-    },
     {
       type: 'connectLetters',
       label: 'காய்கறிகள்',
@@ -400,31 +427,6 @@ koel| குயில்| ___
 eagle| கழுகு| ___
 myna| மைனா| __
 owl| ஆந்தை| ___`
-      ]
-    },
-    {
-      type: 'completeWord',
-      label: 'பழங்கள்',
-      id: 'fruits1',
-      commonData: {
-        images: 'custom',
-        lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
-      },
-      data: [
-        `apple| ஆப்பிள்| ஆ___
-grapes| திராட்சை | தி___ 
-banana| வாழைப்பழம் | வா_____
-guava| கொய்யாப்பழம் | கொ______
-jackfruit| பலாப்பழம் | ப_____
-mango| மாம்பழம் | மா____`,
-
-        `orange| ஆரஞ்சு| ஆ___
-papaya| பப்பாளி | ப___
-pineapple| அன்னாசி | அ___
-pomegranate| மாதுளை | ___
-watermelon| தர்பூசணி | த____
-sugarcane| கரும்பு | க___`
       ]
     },
     {

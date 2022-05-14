@@ -47,7 +47,6 @@ export default {
       type: 'rightOne',
       label: 'Identify Vehicles',
       id: 'pick-vehicles',
-      lockAfter: 2,
       commonData: {
         title: 'Listen to the sound and click on the vehicle.',
         type: 'image',
