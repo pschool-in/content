@@ -57,7 +57,7 @@ export default {
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillupsentence',
       label: 'वाक्य के भेद',
       lockAfter: 2,
@@ -77,8 +77,7 @@ export default {
 तुम पढ़कर सो जाना। *सरल वाक्य (मिश्रित वाक्य, संयुक्त वाक्य)*
 अंकित की कलम छूटी और गिर गई। *संयुक्त वाक्य (सरल वाक्य, मिश्रित वाक्य)*`,
 
-        `
-वह मोहन है जो हँसकर बोला। *मिश्रित वाक्य (सरल वाक्य, संयुक्त वाक्य)*
+        `वह मोहन है जो हँसकर बोला। *मिश्रित वाक्य (सरल वाक्य, संयुक्त वाक्य)*
 निधि रात भर पढ़ती है ताकि परीक्षा देने की तैयारी कर सके। *संयुक्त वाक्य (सरल वाक्य, मिश्रित वाक्य)*
 जैसे ही सूरज पढ़-लिख गया, वह अधिकारी बन गया। *मिश्रित वाक्य (सरल वाक्य, संयुक्त वाक्य)*
 अभिलाषा रोते हुए बेहोश हो गई। *सरल वाक्य (मिश्रित वाक्य, संयुक्त वाक्य)*
@@ -92,7 +91,7 @@ export default {
       ]
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillupsentence-2',
       label: 'वाक्य के प्रकार की पहचान करें',
       lockAfter: 2,
@@ -158,7 +157,7 @@ export default {
     },
     {
       label: 'वर्तमान काल',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'presenttense',
       commonData: {
         title: 'सही विकल्प चुनकर रिक्त स्थानों की पूर्ति कीजिए।'
@@ -180,7 +179,7 @@ export default {
     },
     {
       label: 'भूतकाल',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'pasttense',
       commonData: {
         title: 'सही विकल्प चुनकर रिक्त स्थानों की पूर्ति कीजिए।'
@@ -201,7 +200,7 @@ export default {
     },
     {
       label: 'भविष्यकाल',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'futuretense',
       commonData: {
         title: 'सही विकल्प चुनकर रिक्त स्थानों की पूर्ति कीजिए।'

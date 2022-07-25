@@ -7,7 +7,7 @@ export default {
       type: 'tracing',
       label: 'Capital Letters',
       id: 'capital-letters',
-      data: { type: 'capitalLetters' }
+      data: { type: 'capitalLetters', audio: '/kg-5/english.mp3' }
     },
     /*{ type: "motorSkills", label: "Motor Skills" },*/
     {
@@ -26,13 +26,13 @@ export default {
       type: 'tracing',
       id: 'cursive-small',
       label: 'Cursive Letters',
-      data: { type: 'cursive', repeatCount: 12 }
+      data: { type: 'cursive' }
     },
     {
       type: 'tracing',
       id: 'cursive-capital',
       label: 'Capital Cursive Letters',
-      data: { type: 'cursiveCapital', repeatCount: 12 }
+      data: { type: 'cursiveCapital' }
     },
     {
       type: 'rightOne',

@@ -6,6 +6,12 @@ export default {
     fontSize: '0.9rem'
   },
   moreActivities: 'tamil-more',
+  appLink: {
+    label:
+      'Download Palagu Tamil app from Google Play Store. It is completely Free!',
+    androidLink:
+      'https://play.google.com/store/apps/details?id=app.pschool.tamil'
+  },
   list: [
     {
       id: 'ta-letter',

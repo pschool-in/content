@@ -18,7 +18,7 @@ Rabindranath Tagore - First Indian to win Nobel Prize
 C.V Raman  - First Indian to get Nobel prize award in Physics
 Dr. Rajendra Prasad - First President of India
 Sarvepalli Radhakrishnan - First Vice-President of India
-Sardar Vallabhai Patel - First Home Minister of India`
+Sardar Vallabhbhai Patel - First Home Minister of India`
           },
           {
             type: 'hilight',
@@ -26,7 +26,7 @@ Sardar Vallabhai Patel - First Home Minister of India`
 Rakesh Sharma - India’s first man to go in Space
 Mrs. Kiran Bedi -  First woman IPS officer of India
 Mrs. Indira Gandhi - First woman Prime Minister of India
-Kalpana Chawala - First Indian woman to go in space
+Kalpana Chawla - First Indian woman to go in space
 Pratibha Devisingh Patil - First woman president of India`
           }
         ]
@@ -64,16 +64,16 @@ Mrs.Kiran Bedi, First woman IPS officer of India`,
           {
             qText: 'Who is the first President of India?',
             options:
-              'Dr. Rajendra Prasad, Sardar Vallabhai Patel, Sarvepalli Radhakrishnan '
+              'Dr. Rajendra Prasad, Sardar Vallabhbhai Patel, Sarvepalli Radhakrishnan '
           },
           {
             qText: 'Who is the first Vice-President of India?',
             options:
-              'Sarvepalli Radhakrishnan, Dr.Rajendra Prasad, Sardar Vallabhai Patel'
+              'Sarvepalli Radhakrishnan, Dr.Rajendra Prasad, Sardar Vallabhbhai Patel'
           },
           {
             qText: 'Who is the first Home Minister of India?',
-            options: 'Sardar Vallabhai Patel, Dr. Rajendra Prasad, C.V Raman'
+            options: 'Sardar Vallabhbhai Patel, Dr. Rajendra Prasad, C.V Raman'
           }
         ]
       }
@@ -87,7 +87,7 @@ Mrs.Kiran Bedi, First woman IPS officer of India`,
 *Mrs.Kiran Bedi* is the first woman IPS officer of India.
 *Rakesh Sharma* is India’s first man to go in Space.
 *Pratibha Devisingh Patil* is the first woman president of India.
-*Kalpana Chawala* is the first Indian woman to go in space.`
+*Kalpana Chawla* is the first Indian woman to go in space.`
       }
     },
     {

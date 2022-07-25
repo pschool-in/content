@@ -358,7 +358,7 @@ export default {
       //person-verb - class-5 content ref-bhasapath-v
       id: 'person-verb',
       label: 'পুরুষ - ক্রিয়া',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'শূন্যস্থান পূরণ করুন.'
       },
@@ -439,7 +439,7 @@ export default {
       // for class v and above - ref class v bhasapath
       id: 'bn-verbtype',
       label: 'সমাপিকা ও অসমাপিকা ক্রিয়া',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'সমাপিকা ও অসমাপিকা ক্রিয়া নির্ধারণ করুন'
       },

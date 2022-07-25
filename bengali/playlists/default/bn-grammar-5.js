@@ -43,7 +43,7 @@ export default {
         মহা + আনন্দ = , মহানন্দ,  মহানান্দ
         প্রথা + আগত = , প্রথাগত,  প্রথিগত
         কল্পনা + আলোক = , কল্পনালোক,  কল্পলোক`,
-        
+
         // ই+ই=ঈ
         `মণি + ইন্দ্র = , মণীন্দ্র, মণিন্দ্র
         গিরি + ইন্দ্র = , গিরীন্দ্র, গিরিন্দ্র
@@ -362,7 +362,7 @@ export default {
       //person-verb - class-5 content ref-bhasapath-v
       id: 'person-verb',
       label: 'পুরুষ - ক্রিয়া',
-      type: 'fillupOptions',
+      type: 'fillup',
       lockAfter: 6,
       commonData: {
         title: 'শূন্যস্থান পূরণ করুন.'
@@ -445,7 +445,7 @@ export default {
       id: 'bn-verbtype',
       label: 'সমাপিকা ও অসমাপিকা ক্রিয়া',
       lockAfter: 2,
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'সমাপিকা ও অসমাপিকা ক্রিয়া নির্ধারণ করুন'
       },

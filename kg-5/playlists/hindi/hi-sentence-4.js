@@ -31,7 +31,7 @@ export default {
       ]
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup10',
       label: 'है,हूँ,हो का प्रयोग',
       data: {

@@ -669,6 +669,16 @@ const math = [
     grade: 'g4, g5'
   },
   {
+    label: 'Missing Workout - 2',
+    id: 'missing-workout-2',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Missing Workout - 3',
+    id: 'missing-workout',
+    grade: 'g5'
+  },
+  {
     label: 'Area and Perimeter',
     id: 'area-perimeter',
     grade: 'g4, g5'
@@ -717,6 +727,11 @@ const math = [
     label: 'Roman Number System',
     id: 'roman-number',
     grade: 'g4, g5'
+  },
+  {
+    label: 'Factors',
+    id: 'factors',
+    grade: 'g5'
   },
   {
     label: 'Decimal Arithmetic',

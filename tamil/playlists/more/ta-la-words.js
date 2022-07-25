@@ -19,7 +19,7 @@ export default {
     {
       id: 'to-two-too',
       label: 'to, two, vs too',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: [
         {
           title: 'அலை - அழை',

@@ -472,7 +472,7 @@ export default {
     {
       id: 'fillup3',
       label: 'கோடிட்ட இடங்களை நிரப்புக ',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         lang: 'ta',

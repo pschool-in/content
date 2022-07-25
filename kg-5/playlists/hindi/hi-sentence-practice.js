@@ -129,7 +129,7 @@ export default {
       ]
     }
     //     {
-    //       type: 'fillupOptions',
+    //       type: 'fillup',
     //       id: 'fillup',
     //       label: 'खाली स्थान भरो',
     //       commonData: {

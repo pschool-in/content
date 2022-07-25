@@ -121,7 +121,7 @@ export default {
     },
     {
       label: 'खाली स्थान में उचित सर्वनाम लिखिए।',
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'pronoun',
       data: {
         title: 'दिए गए शब्दों में से सही सर्वनाम चुनकर वाक्य पूरी करो।',

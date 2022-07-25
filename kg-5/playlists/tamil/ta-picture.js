@@ -28,7 +28,7 @@ sugarcane| கரும்பு`
       ]
     },
     {
-      type: '',
+      type: 'completeWord',
       label: 'நிரப்புக: பழங்கள்',
       id: 'fruits1',
       commonData: {

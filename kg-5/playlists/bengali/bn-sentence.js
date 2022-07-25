@@ -210,7 +210,7 @@ export default {
       // class iv and above
       id: 'fillup-2',
       label: 'বাক্য - পুরুষ - ক্রিয়া',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'শূন্যস্থান পূরণ করুন.'
       },
@@ -288,7 +288,7 @@ export default {
       // for Class v and above.
       id: 'fillup',
       label: 'বাক্য - সমোচ্চারিত ভিন্নার্থক শব্দ',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'শূন্যস্থান পূরণ করুন.'
       },

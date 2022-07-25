@@ -140,7 +140,7 @@ export const templates = [
   },
   {
     label: 'Fillup with Options - Template',
-    type: 'fillupOptions',
+    type: 'fillup',
     id: 'fillup-fixed-options',
 
     data: {
@@ -158,7 +158,7 @@ export const templates = [
   },
   /* {
       label: "Fillup (Variable options) Template",
-      type: "fillupOptions",
+      type: "fillup",
       
       data: {
        

@@ -286,7 +286,7 @@ spade | மண்வெட்டி`
         {
           audioOffset: 16,
           text: `telescope | தொலைநோக்கி
-testtube | சோதனை குழாய்
+test-tube | சோதனை குழாய்
 thermometer | வெப்பமானி
 trowel | கரணை
 compass | திசைகாட்டி`
@@ -506,7 +506,7 @@ watch | கைக்கடிகாரம்`
         },
         {
           audioOffset: 16,
-          words: 'telescope, testtube, thermometer, trowel, compass'
+          words: 'telescope, test-tube, thermometer, trowel, compass'
         }
       ]
     },

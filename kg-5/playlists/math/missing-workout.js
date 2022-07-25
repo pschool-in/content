@@ -10,14 +10,16 @@ export default {
       data: [
         { pattern: 'aa + aa', missing: [4, 5] },
         { pattern: 'xx + xx', missing: [4, 5] },
-        { pattern: 'bb + bb', missing: [4, 5] },
+        { pattern: 'aa + aa', missingRow: [2] },
+        { pattern: 'bb + bb', missing: [4, 5, 6] },
+        { pattern: 'xx + xx', missing: [2] },
+        { pattern: 'bb + bb', missing: [2] },
+        { pattern: 'aa + aa', missing: [0, 1, 2, 3] },
         { pattern: 'xx + xx', missing: [0, 1, 2, 3] },
-        { pattern: 'xx + xx + xx', missing: [4, 5] },
-        { pattern: 'xx + xx + xx', missing: [4, 5] },
-        { pattern: 'xxx + xxx', missing: [0, 1, 2, 3] },
-        { pattern: 'xxx + xxx + xxx', missing: [6, 7, 8] }
+        { pattern: 'bb + bb', missing: [0, 1, 2, 3] }
       ]
     },
+
     {
       type: 'missingWorkout',
       id: 'subtraction',
@@ -25,10 +27,12 @@ export default {
       lockAfter: 1,
       data: [
         { pattern: 'bb - aa', missing: [4] },
+        { pattern: 'bb - aa', missingRow: [2] },
+        { pattern: '99 - xx', missingRow: [2] },
+        { pattern: '100 - xx', missingRow: [2] },
         { pattern: 'bb - aa', missing: [0, 1, 2, 3] },
         { pattern: 'xbb - aa', missing: [1, 2, 3] },
-        { pattern: 'xaa - bb', missing: [1, 2, 3] },
-        { pattern: 'xxx - xxx', missing: [0, 1, 2, 3] }
+        { pattern: 'xaa - bb', missing: [1, 2, 3] }
       ]
     },
     {
@@ -37,9 +41,11 @@ export default {
       label: 'Multiplication',
       lockAfter: 1,
       data: [
-        { pattern: 'xx * x', missing: [3, 4] },
-        { pattern: 'xxx * x', missing: [4, 5] },
-        { pattern: 'xxx * x', missing: [3] }
+        { pattern: 'x0 * x', missingRow: [2] },
+        { pattern: 'aa * a', missingRow: [2] },
+        { pattern: 'xx * x', missingRow: [2] },
+        { pattern: 'bb * b', missingRow: [2] },
+        { pattern: 'aa * a', missingRow: [1] }
       ]
     }
   ]

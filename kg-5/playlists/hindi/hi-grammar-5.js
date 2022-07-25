@@ -234,7 +234,7 @@ export default {
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillupverb',
       label: 'क्रिया के प्रकार को पहचानें।',
       commonData: {
@@ -513,7 +513,7 @@ export default {
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'filluptenses',
       label: 'काल की पहचान करें।',
       commonData: {
@@ -761,7 +761,7 @@ export default {
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillupsingular-plural',
       label: 'सही विकल्प चुनें।',
       commonData: {
@@ -927,7 +927,7 @@ export default {
       }
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillupwords',
       label: 'सही विकल्प चुनें।',
       commonData: {

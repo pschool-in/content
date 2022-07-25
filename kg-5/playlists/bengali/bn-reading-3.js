@@ -20,7 +20,7 @@ export default {
     {
       id: '400-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `পথে হঠাৎ ভয়ংকর এক *ভালুকের(বাঘের)* সামনে পড়ল দুজন বন্ধু।
@@ -44,7 +44,7 @@ export default {
     {
       id: '500-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `খরগোশ খুব *জোরে(ধীরে)* ছোটে।
@@ -69,7 +69,7 @@ export default {
     {
       id: '100-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `গ্রীষ্মের এক চমৎকার দিনে *ঘাসফড়িং(পিঁপড়ে)* তার ভায়োলিনটি নিয়ে গান গাইছিলো।
@@ -96,7 +96,7 @@ export default {
     {
       id: '1400-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `প্রথমে শহরের *ইঁদুর(বিড়াল)* এলো গ্রামে। 
@@ -122,7 +122,7 @@ export default {
     {
       id: '1800-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `এক *ধনী(দরিদ্র)* ব্যবসায়ী ছিল। 
@@ -146,7 +146,7 @@ export default {
     {
       id: '2000-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `একদা এক বাঘের গলায় *হাড়(মাংস)* ফুটেছিল।
@@ -170,7 +170,7 @@ export default {
     {
       id: '2100-1',
       label: 'গল্প পড়ে শূন্যস্থান পূরণ',
-      type: 'fillupOptions',
+      type: 'fillup',
       data: {
         title: 'গল্প পড়ে শূন্যস্থান পূরণ করুন',
         text: `তিন প্রতিবেশী তাদের *ফসল(খাবার)* নিয়ে সমস্যায় পড়েছিল। 

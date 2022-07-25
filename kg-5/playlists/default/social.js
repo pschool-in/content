@@ -623,7 +623,7 @@ Maharashtra, Marathi`
           },
           {
             qText: `Who is the head of the government?`,
-            options: `President, Prime Minister, Chief Minister , Governer`
+            options: `President, Prime Minister, Chief Minister , Governor`
           },
           {
             qText: `The Prime Minster is elected by __________.`,
@@ -631,7 +631,7 @@ Maharashtra, Marathi`
           },
           {
             qText: `We are a democratic country because ________.`,
-            options: `we select our representive, we select our Governer, we select our President`
+            options: `we select our representative, we select our Governor, we select our President`
           },
           {
             qText: `Who can vote in election?`,

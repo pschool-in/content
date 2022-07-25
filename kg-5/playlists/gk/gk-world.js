@@ -165,7 +165,7 @@ Leaning Tower of Pisa, Italy`,
           },
           {
             qText: 'Pyramid is located at ____________.',
-            options: 'Egypt, Tokoyo, Berlin'
+            options: 'Egypt, Tokyo, Berlin'
           },
           {
             qText: 'Stonehenge is located at _________________.',

@@ -84,7 +84,7 @@ export default {
     {
       id: 'la-sound',
       label: 'ல,ள,ழ வேறுபாடுகள்',
-      type: 'fillupOptions',
+      type: 'fillup',
       lockAfter: 2,
       commonData: {
         title: 'சரியான விடையை தேர்ந்தெடு'
@@ -134,7 +134,7 @@ export default {
     {
       id: 'ra-sound',
       label: 'ர, ற வேறுபாடுகள்',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'சரியான விடையை தேர்ந்தெடு'
       },
@@ -155,7 +155,7 @@ export default {
     {
       id: 'na-sound',
       label: 'ந, ன, ண வேறுபாடுகள்',
-      type: 'fillupOptions',
+      type: 'fillup',
       commonData: {
         title: 'சரியான விடையை தேர்ந்தெடு'
       },

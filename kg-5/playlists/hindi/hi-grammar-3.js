@@ -340,7 +340,7 @@ export default {
       ]
     },
     {
-      type: 'fillupOptions',
+      type: 'fillup',
       id: 'fillup',
       label: 'सही विकल्प चुनें।',
       commonData: {
