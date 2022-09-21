@@ -265,7 +265,11 @@ M 5 5 V 95 H 95 V 75 H 25 V 5 Z | 1`
       locked: true,
       type: 'match',
       data: {
-        text: 'Tri, Three\nQuad, Four\nPenta, Five\nHexa, Six\nPoly, Many',
+        text: `Tri, Three
+Quad, Four
+Penta, Five
+Hexa, Six
+Poly, Many`,
         title: 'Match the prefix with their meaning.'
       }
     },

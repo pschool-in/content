@@ -271,7 +271,7 @@ CYLINDER | _YLINDER`,
               'M 123 27 L 293 29 L 291 205'
             ],
             audio: 24,
-            width: 250
+            width: 300
           },
           {
             id: 'pyramid',
@@ -302,7 +302,7 @@ CYLINDER | _YLINDER`,
               'M 274 153 C 167 208 63 126 73 35 '
             ],
             audio: 30,
-            width: 240
+            width: 280
           },
           {
             id: 'star',
@@ -312,13 +312,13 @@ CYLINDER | _YLINDER`,
               'M 233 277 L 31 102'
             ],
             audio: 28,
-            width: 250
+            width: 280
           },
           {
             id: 'arrow',
             paths: [
-              'M 10 90 H 190 V 10 L 290 125',
-              'M 290 125 L 190 240 V 160 H 10 L 10 90'
+              'M 10 90 L 190 90 L 190 10 L 290 125',
+              'M 290 125 L 190 240 L 190 160 L 10 160 L 10 90'
             ],
             audio: 32,
             width: 300

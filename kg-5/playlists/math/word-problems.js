@@ -22,7 +22,7 @@ Gary played a car game and scored 453 points in first round and 523 points in se
 An animal care society tested 365 pet animals. 128 were found to have diseases. Find the number of healthy pet animals remaining.
 In sports day function, 674 students participated. Out of them 345 were boys. Find the number of girls who participated.`,
           `There are 127 pencils in a box. How many pencils will be there in total in 9 boxes?
-A basket of eggs contains 12 eggs. How many eggs will be there in 17 baskets?`,
+A basket has 12 eggs. How many eggs will be there in 17 baskets?`,
 
           `Nila has 36 potatoes. She puts 6 potatoes in a basket. How many baskets will she need to put all the potatoes?
 Jonah has  275 coins. One pencil cost 5 coins. How many pencils can Jonah buy?`
@@ -83,7 +83,7 @@ An animal care society tested 365 pet animals. 165 were found to have diseases. 
 
         `In sports day function, 645 students participated. Out of them 345 were boys. Find the number of girls who participated. | 300
 There are 200 pencils in a box. How many pencils will be there in total in 9 boxes? | 1800
-A basket of eggs contains 12 eggs. How many eggs will be there in 8 baskets? | 96
+A basket has 12 eggs. How many eggs will be there in 8 baskets? | 96
 Nila has 42 potatoes. She puts 6 potatoes in a basket. How many baskets will she need to put all the potatoes? | 7
 Jonah has  300 coins. One pencil cost 10 coins. How many pencils can Jonah buy? | 30`,
 

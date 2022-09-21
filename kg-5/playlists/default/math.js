@@ -233,6 +233,122 @@ const math = {
     },
     {
       type: 'informationProcessing',
+      id: 'picto',
+      label: 'Pictographs',
+      commonData: {
+        type: 'pictograph'
+      },
+      data: [
+        {
+          title: 'Everyday few apples were plucked from an apple tree. ',
+          labels:
+            'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday',
+          values: '5, 4, 2, 7, 1, 9, 0',
+          image: 'apple',
+          questions: [
+            {
+              qText: 'On which day, less number of apples were plucked?',
+              options: 'Sunday, Friday, Wednesday'
+            },
+            {
+              qText: 'How many apples were plucked on Tuesday?',
+              type: 'number',
+              value: 4
+            },
+            {
+              qText: 'On which day, more number of apples were plucked?',
+              options: 'Saturday, Friday, Monday'
+            },
+            {
+              qText: 'How many apples were plucked on Tuesday and Wednesday?',
+              type: 'number',
+              value: 6
+            },
+            {
+              qText: 'How many apples were plucked in total?',
+              type: 'number',
+              value: 28
+            },
+            {
+              qText: 'True or False: Atleast one apple was plucked everyday.',
+              options: 'False, True'
+            }
+          ]
+        },
+        {
+          title: 'Ravi went to the zoo and counted the animals he saw.',
+          labels: 'Lion, Elephant, Bear, Zebra, Giraffe',
+          values: '6, 4, 7, 6, 2',
+          image: ['lion', 'elephant', 'bear', 'zebra', 'giraffe'],
+          questions: [
+            {
+              qText: 'Which of the following animals was more in number?',
+              options: 'Zebra, Giraffe, Elephant'
+            },
+            {
+              qText: 'How many elephants did he count?',
+              type: 'number',
+              value: 4
+            },
+            {
+              qText: 'How many plant eating animals did he count ?',
+              type: 'number',
+              value: 12
+            },
+            {
+              qText: 'How many animals did he count in total?',
+              type: 'number',
+              value: 25
+            },
+            {
+              qText: 'Which two animals were equal in number?',
+              options: 'Lion and Zebra, Lion and Tiger, Zebra and Bear'
+            }
+          ]
+        },
+        {
+          title:
+            'Ramya got bored and counted the different types of vehicles in the parking area.',
+          labels: 'Cycle, Motorbike, Car, Auto, Van, Tractor',
+          values: '6, 8, 5, 3, 4, 2',
+          image: ['cycle', 'motorbike', 'car', 'auto', 'van', 'tractor'],
+          questions: [
+            {
+              qText: 'How many cars were found?',
+              type: 'number',
+              value: 5
+            },
+            {
+              qText: 'How many two-wheelers were found?',
+              type: 'number',
+              value: 14
+            },
+            {
+              qText: "How many vehicles that don't need fuel were found?",
+              type: 'number',
+              value: 6
+            },
+            {
+              qText:
+                'True or False: The number of cars is more than the combined count of tractors and vans.',
+              options: 'False, True'
+            },
+            {
+              qText: 'How many different types of vehicles were parked?',
+              type: 'number',
+              value: 6
+            },
+            {
+              qText: 'What is the total count of vehicles?',
+              type: 'number',
+              value: 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: 'informationProcessing',
       id: 'bar',
       label: 'Bar Chart',
       data: {

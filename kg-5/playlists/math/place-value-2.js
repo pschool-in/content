@@ -3,6 +3,51 @@ export default {
   id: 'place-value-2',
   list: [
     {
+      label: 'Find the Number',
+      type: 'placeValueAbacus',
+      id: 'abacus-placevalue',
+      lockAfter: 1,
+      commonData: {},
+      data: [
+        {
+          pattern: 'aaaa'
+        },
+        {
+          pattern: 'xxxx'
+        },
+        {
+          pattern: 'bbbb'
+        },
+        {
+          pattern: 'aaaaa'
+        },
+        {
+          pattern: 'xxxxx'
+        },
+        {
+          pattern: 'bbbbb'
+        },
+        {
+          pattern: 'aaaaaa'
+        },
+        {
+          pattern: 'xxxxxx'
+        },
+        {
+          pattern: 'bbbbbb'
+        },
+        {
+          pattern: 'aaaaaaa'
+        },
+        {
+          pattern: 'xxxxxxx'
+        },
+        {
+          pattern: 'bbbbbbb'
+        }
+      ]
+    },
+    {
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Number',
@@ -70,6 +115,35 @@ What is the place value of 1 in 653313? | 10
 What is the place value of 6 in 9874576? | 1
 What is the place value of 5 in 1599466? | 100000
 What is the place value of 6 in 9877655? | 100`
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'find-number',
+      label: 'Find the Number',
+      lockAfter: 1,
+      commonData: {
+        title: 'Write as requested.',
+        type: 'word-problem'
+      },
+      data: [
+        `Write the smallest 4 digit number. | 1000
+Write the biggest 4 digit number. | 9999
+Write the biggest 3 digit number without repeating any numbers. | 987
+Write the biggest 4 digit number without repeating any numbers. | 9876
+Write the biggest 4 digit number that begins with 4. | 4999`,
+
+        `Write the biggest 4 digit number that ends with 7. | 9997
+Write the biggest 5 digit number. | 99999
+Write the smallest 5 digit number. | 10000
+Write the biggest 4 digit number that ends with 0. | 9990
+Write the smallest 5 digit number that begins with 6. | 60000`,
+
+        `Write the biggest 5 digit number that begins with 5. | 59999
+Write the smallest 5 digit number that ends with 9. | 10009
+Write the biggest 5 digit number that ends with 6. | 99996
+Write the biggest 4 digit number that begins with 3. | 3999
+Write the smallest 4 digit number that ends with 7. | 1007`
       ]
     }
   ]

@@ -9,8 +9,11 @@ export default {
       id: 'notes',
       data: {
         title: 'Quick Notes',
-        text:
-          'A triangle has three sides and three angles. If we add the three angles in a triangle we will get 180 degree. This is true for all triangles. If we know two angles, then we can find the third angle by subtracting from 180.\nA quadrilateral has four sides and four angles. If we add the four angles we get 360 degree. In a rectangle all angles are 90 degree.\nA parallelogram is a special type of quadrilateral, where the opposite sides are of equal length and opposite angles are equal.\nIf we break a straight line at a point, then the angle formed by the point is 180 degree. If we join two lines at an angle of 180 degree, then it will look like one single line.\nA complete rotatation of a line about a point gives 360 degree. '
+        text: `A triangle has three sides and three angles. If we add the three angles in a triangle we will get 180 degree. This is true for all triangles. If we know two angles, then we can find the third angle by subtracting from 180.
+A quadrilateral has four sides and four angles. If we add the four angles we get 360 degree. In a rectangle all angles are 90 degree.
+A parallelogram is a special type of quadrilateral, where the opposite sides are of equal length and opposite angles are equal.
+If we break a straight line at a point, then the angle formed by the point is 180 degree. If we join two lines at an angle of 180 degree, then it will look like one single line.
+A complete rotatation of a line about a point gives 360 degree.`
       }
     },
     {

@@ -151,7 +151,7 @@ In schools, universities and some other buildings, you may have seen aconcrete s
 Blind people can read and write by using their sense of touch. This system of writing is called Braille. Braille characters make use of raised dots created on paper. Each character has a fixed number and arrangement of dots. A blind person can read the paper by feeling these raised dots. However, all of the books written in the ordinary script are not available in Braille. Blind persons can listen to the stories if they are read out.
 People who cannot hear use sign language. They are also taught how to lip-read to follow what other people are saying. They can follow other people’s speech if they speak slowly and clearly. Special signed news programs are broadcast on television for people who cannot hear.
 # More to know
-Sudha Chandran is an expert Bharatnatyam dancer. She lost a leg in an accident. However, even with an artificial leg, she continues to dance and act with great determination.
+Sudha Chandran is an expert Bharatanatyam dancer. She lost a leg in an accident. However, even with an artificial leg, she continues to dance and act with great determination.
 Ravindra Jain is blind. He has composed music for many movies and television programs. He has also received many awards for his music.
 Sharath Gayakwad is disabled in one hand. However, he has made the country famous worldwide in swimming competitions.`
       }
@@ -185,7 +185,7 @@ People who cannot hear use *sign language*. `
           fontSize: '1.3rem',
           dashWidth: 80
         },
-        text: `*Sudha Chandran* is an expert Bharatnatyam dancer. She lost a leg in an accident. However, even with an artificial leg, she continues to dance and act with great determination.
+        text: `*Sudha Chandran* is an expert Bharatanatyam dancer. She lost a leg in an accident. However, even with an artificial leg, she continues to dance and act with great determination.
 *Ravindra Jain* is blind. He has composed music for many movies and television programs. He has also received many awards for his music.
 *Sharath Gayakwad* is disabled in one hand. However, he has made the country famous worldwide in swimming competitions.`
       }

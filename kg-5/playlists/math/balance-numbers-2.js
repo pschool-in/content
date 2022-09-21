@@ -4,7 +4,7 @@ export default {
   list: [
     {
       type: 'balance',
-      label: 'Balance the number',
+      label: 'Balance the Numbers',
       id: 'balance',
       lockAfter: 2,
       data: [

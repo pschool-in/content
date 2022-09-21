@@ -223,7 +223,7 @@ Kerala -  kathakali
 Manipur - Manipuri
 Odisha - Odissi
 Punjab - Bhangra
-Tamil Nadu - Bharatnatyam`
+Tamil Nadu - Bharatanatyam`
           }
         ]
       }
@@ -250,7 +250,7 @@ Odisha, Odissi`,
         questions: [
           {
             qText: '_________ is the famous state dance of Tamil Nadu.',
-            options: 'Bharatnatyam, kaligopal, Gaur Maria'
+            options: 'Bharatanatyam, kaligopal, Gaur Maria'
           },
           {
             qText: '__________ is the famous state dance of Punjab.',
@@ -294,11 +294,11 @@ The famous state dance of *Odisha* is Odissi.`
             name: 'True',
             text: `Dandiya Raas is the famous state dance of Gujarat.
 Manipuri is the famous state dance of Manipur.
-Bharatnatyam is the famous dance of Tamil Nadu.`
+Bharatanatyam is the famous dance of Tamil Nadu.`
           },
           {
             name: 'False',
-            text: `Kumi is the famous dance of Punjab.
+            text: `Kummi is the famous dance of Punjab.
 Kuchipudi is the famous dance of Goa.`
           }
         ]

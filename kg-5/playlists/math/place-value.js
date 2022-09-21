@@ -171,23 +171,17 @@ Write the smallest 2 digit number that ends with 9. | 19
 Write the smallest 3 digit number. | 100
 Write the smallest 3 digit number that ends with 7. | 107`,
 
-        `Write the smallest 3 digit number that begins with 5. | 500
-Write the biggest 4 digit number. | 9999
-Write the biggest 3 digit number without repeating any numbers. | 987
-Write the biggest 4 digit number without repeating any numbers. | 9876
-Write the biggest 4 digit number that begins with 4. | 4999`,
+        `Write the biggest 2 digit number that begins with 5. | 59
+Write the biggest 3 digit number that ends with 2. | 992
+Write the smallest 2 digit number that doesn't have a 9. | 88
+Write the smallest 3 digit number that ends with 5. | 105
+Write the biggest 3 digit number that ends with 0. | 107`,
 
-        `Write the biggest 4 digit number that ends with 7. | 9997
-Write the biggest 5 digit number. | 99999
-Write the smallest 5 digit number. | 10000
-Write the biggest 4 digit number that ends with 0. | 9990
-Write the smallest 5 digit number that begins with 6. | 60000`,
-
-        `Write the biggest 5 digit number that begins with 5. | 59999
-Write the smallest 5 digit number that ends with 9. | 10009
-Write the biggest 5 digit number that ends with 6. | 99996
-Write the biggest 4 digit number that begins with 3. | 3999
-Write the smallest 4 digit number that ends with 7. | 1007`
+        `Write the smallest 3 digit number that begins with 9. | 900
+Write the smallest 3 digit number that begins with 5. | 500
+Write the biggest 2 digit even number. | 98
+Write the smallest 3 digit odd number. | 101
+write the smallest 2 digt odd number that begins with 6. | 61`
       ]
     }
   ]

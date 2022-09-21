@@ -152,38 +152,38 @@ export default {
       data: {
         words: [
           {
-            word: 'hyderbad',
+            word: 'hyderabad',
             marker: { x: 0, y: 1 },
             hint: 'It is the capital of Telengana',
             direction: 'across'
           },
           {
             word: 'jaipur',
-            marker: { x: 6, y: 0 },
+            marker: { x: 7, y: 0 },
             hint: 'It is the capital of Rajasthan',
             direction: 'down'
           },
           {
             word: 'mumbai',
-            marker: { x: 1, y: 2 },
+            marker: { x: 2, y: 2 },
             hint: 'It is the capital of Maharashtra',
             direction: 'across'
           },
           {
             word: 'Bhopal',
-            marker: { x: 4, y: 2 },
+            marker: { x: 5, y: 2 },
             hint: 'It is the capital of Madhya Pradesh',
             direction: 'down'
           },
           {
             word: 'kolkata',
-            marker: { x: 2, y: 7 },
+            marker: { x: 3, y: 7 },
             hint: 'It is the capital of West Bengal',
             direction: 'across'
           },
           {
             word: 'srinagar',
-            marker: { x: 0, y: 6 },
+            marker: { x: 1, y: 6 },
             hint: 'It is the capital of Jammu and Kashmir',
             direction: 'across'
           }
@@ -191,14 +191,14 @@ export default {
         title: 'Solve the crossword. Please click on a cell to view the hint.',
         lang: 'en',
         table: [
-          ['', '', '', '', '', '', 'J', '', ''],
-          ['H', 'Y', 'D', 'E', 'R', 'B', 'A', 'D', ''],
-          ['', 'M', 'U', 'M', 'B', 'A', 'I', '', ''],
-          ['', '', '', '', 'H', '', 'P', '', ''],
-          ['', '', '', '', 'O', '', 'U', '', ''],
-          ['', '', '', '', 'P', '', 'R', '', ''],
-          ['S', 'R', 'I', 'N', 'A', 'G', 'A', 'R', ''],
-          ['', '', 'K', 'O', 'L', 'K', 'A', 'T', 'A']
+          ['', '', '', '', '', '', '', 'J', '', ''],
+          ['H', 'Y', 'D', 'E', 'R', 'A', 'B', 'A', 'D', ''],
+          ['', '', 'M', 'U', 'M', 'B', 'A', 'I', '', ''],
+          ['', '', '', '', '', 'H', '', 'P', '', ''],
+          ['', '', '', '', '', 'O', '', 'U', '', ''],
+          ['', '', '', '', '', 'P', '', 'R', '', ''],
+          ['', 'S', 'R', 'I', 'N', 'A', 'G', 'A', 'R', ''],
+          ['', '', '', 'K', 'O', 'L', 'K', 'A', 'T', 'A']
         ]
       }
     },

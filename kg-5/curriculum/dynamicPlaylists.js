@@ -742,7 +742,39 @@ const math = [
     label: 'Decimal Arithmetic - 2',
     id: 'decimal-arithmetic-2',
     grade: 'g4, g5'
+  },
+  {
+    label: 'Ratio',
+    id: 'ratio',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Algebra',
+    id: 'algebra',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Profit and Loss',
+    id: 'profit-loss',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Grade - 6: Word Problems',
+    id: 'word-problems-new',
+    grade: 'g5'
   }
+  /*
+  {
+    label: 'Percentage',
+    id: 'percentage',
+    grade: 'g4, g5'
+  },
+  {
+    label: 'Area of Closed Region',
+    id: 'area',
+    grade: 'g4, g5'
+  },
+  */
 ];
 
 const science = [
@@ -1366,7 +1398,7 @@ const general = [
   {
     label: 'Complete the Pattern',
     id: 'pattern',
-    grade: 'kg, g1, g2'
+    grade: 'g2, g3, g4, g5'
   },
   {
     label: 'What Comes Next?',
@@ -1647,6 +1679,117 @@ const gk = [
   }
 ];
 
+const mathSc = [
+  {
+    id: 'numbers-sc',
+    label: 'Numbers Basics',
+    img: 'numbers',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'numbers-3-sc',
+    label: 'Numbers',
+    img: 'numbers',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'numbers-6-sc',
+    label: 'Numbers',
+    img: 'numbers',
+    grade: 'g6, g7, g8'
+  },
+  {
+    id: 'arithmetic-sc',
+    label: 'Arithmetic',
+    img: 'quickMath',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'arithmetic-3-sc',
+    label: 'Arithmetic',
+    img: 'quickMath',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'arithmetic-6-sc',
+    label: 'Arithmetic',
+    img: 'quickMath',
+    grade: 'g6, g7, g8'
+  },
+  {
+    id: 'games-sc',
+    label: 'Games',
+    img: 'brain',
+    grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'place-value-basic',
+    label: 'Place Value',
+    img: 'abacus',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'numberline',
+    label: 'Number Line',
+    img: 'numberline',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'numberline-6-sc',
+    label: 'Number Line',
+    img: 'numberline',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'clock-sc',
+    label: 'Time',
+    img: 'clock',
+    grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'fraction-sc',
+    label: 'Fraction',
+    img: 'fraction',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'fraction-3-sc',
+    label: 'Fraction',
+    img: 'fraction',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'math-puzzle-sc',
+    label: 'Puzzle',
+    img: 'puzzle',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'math-puzzle-3-sc',
+    label: 'Puzzle',
+    img: 'puzzle',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'math-puzzle-6-sc',
+    label: 'Puzzle',
+    img: 'puzzle',
+    grade: 'g6, g7, g8'
+  },
+  {
+    id: 'geometry-sc',
+    label: 'Geometry',
+    img: 'protractor',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'money-sc',
+    label: 'Money',
+    img: 'money',
+    grade: 'kg, g1, g2'
+  }
+];
+
 export default {
   id: 'more-playlists',
   label: 'More Playlists',
@@ -1686,6 +1829,10 @@ export default {
     {
       id: 'general',
       list: general
+    },
+    {
+      id: 'test',
+      list: mathSc
     }
   ]
 };
