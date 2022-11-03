@@ -493,6 +493,11 @@ const reading = [
 ];
 
 const math = [
+  /*{
+    label: 'Math Showcase',
+    id: 'maths-sc',
+    grade: 'kg'
+  },*/
   {
     label: 'KG Math',
     id: 'kg-math',
@@ -513,11 +518,13 @@ const math = [
     id: 'mixed-math-2',
     grade: 'g2, g3'
   },
+  { label: 'Basic Numbers', id: 'kg-numbers', grade: 'kg, g1' },
   {
     label: 'Numbers',
     id: 'numbers',
     grade: 'kg, g1'
   },
+  { label: 'Number Names', id: 'number-names', grade: 'kg, g1, g2' },
   {
     label: 'Math Maze',
     id: 'math-maze',
@@ -762,7 +769,68 @@ const math = [
     label: 'Grade - 6: Word Problems',
     id: 'word-problems-new',
     grade: 'g5'
+  },
+  {
+    label: 'Fraction Arithmetic',
+    id: 'fraction-arithmetic',
+    grade: 'g5, g6, g7'
+  },
+  {
+    label: 'Fraction Arithmetic - 2',
+    id: 'fraction-arithmetic-2',
+    grade: 'g6, g7, g8'
+  },
+  {
+    label: 'Negative Numbers',
+    id: 'negative-numbers',
+    grade: 'g5, g6, g7, g8'
+  },
+  {
+    label: 'Prime Numbers',
+    id: 'prime-numbers',
+    grade: 'g5, g6, g7, g8'
+  },
+  {
+    label: 'Square Numbers',
+    id: 'square-numbers',
+    grade: 'g5, g6, g7, g8'
+  },
+  {
+    label: 'Exponents and Powers',
+    id: 'exponents-powers',
+    grade: 'g6, g7, g8'
+  },
+  {
+    label: 'Algebraic Expression',
+    id: 'algebraic-expression',
+    grade: 'g6, g7, g8'
+  },
+  {
+    label: 'Equation and Inequality',
+    id: 'equation-inequality',
+    grade: 'g6, g7, g8'
+  },
+  {
+    label: 'Number Line - 1',
+    id: 'numberline',
+    grade: 'g1, g2, g3'
+  },
+  {
+    label: 'Number Line - 2',
+    id: 'numberline-4',
+    grade: 'g4, g5, g6'
+  },
+  {
+    label: 'Number Line - 3',
+    id: 'numberline-6',
+    grade: 'g5, g6, g7, g8'
+  },
+  {
+    label: 'Class 6: Misc Exercise - 1',
+    id: 'math-6-1',
+    grade: 'g6, g7, g8'
   }
+
   /*
   {
     label: 'Percentage',

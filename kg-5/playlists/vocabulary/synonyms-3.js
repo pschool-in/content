@@ -1,7 +1,6 @@
 export default {
   label: 'Synonyms Collection - 3',
   id: 'synonyms-3',
-  lockAfter: 2,
   defs: {
     data: [
       `lift, raise
@@ -174,7 +173,6 @@ explore − search`
       type: 'match',
       label: 'Match Synonyms',
       id: 'match',
-      lockAfter: 4,
       commonData: {
         title: 'Match Synonyms'
       },
@@ -256,7 +254,6 @@ explore − search`
       type: 'connectLetters',
       label: 'Pick the word',
       id: 'connect-letters',
-      lockAfter: 2,
       commonData: {
         title:
           'Connect the letters from left to right to form the synonym for the below word.',

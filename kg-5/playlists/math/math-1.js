@@ -1,13 +1,11 @@
 export default {
   label: 'Math - 1',
   id: 'math-1',
-  lockAfter: 3,
   list: [
     {
       type: 'sequence',
       label: 'Number Order',
       id: 'connect',
-      lockAfter: 2,
       commonData: {
         title: 'Connect the numbers in ascending order'
       },
@@ -74,7 +72,6 @@ export default {
       type: 'match',
       label: 'Match Addition',
       id: 'match',
-      lockAfter: 2,
       commonData: {
         title: 'Match Addition'
       },
@@ -119,7 +116,6 @@ export default {
       type: 'match',
       label: 'Match Subtraction',
       id: 'match-2',
-      lockAfter: 2,
       commonData: {
         title: 'Match Subtraction'
       },
@@ -164,7 +160,6 @@ export default {
       type: 'match',
       label: 'Match Multiply',
       id: 'match-3',
-      lockAfter: 2,
       commonData: {
         title: 'Match Multiply'
       },
@@ -205,7 +200,6 @@ export default {
       type: 'match',
       label: 'Match Numbers',
       id: 'match-4',
-      lockAfter: 2,
       commonData: {
         title: 'Match Numbers'
       },
@@ -250,7 +244,6 @@ twelve, 12`
       label: 'Fill Up',
       type: 'fillup',
       id: 'fillup',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the blanks and fill it with right option'
       },
@@ -300,7 +293,6 @@ twelve, 12`
       label: 'Drag and drop numbers',
       type: 'matchByDragDrop',
       id: 'drag',
-      lockAfter: 2,
       commonData: {
         title: 'Fill the blanks by dragging the numbers.',
         styles: { fontSize: '1.5rem', dashWidth: 40 }

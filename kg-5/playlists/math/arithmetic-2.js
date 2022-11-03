@@ -6,7 +6,6 @@ export default {
       id: 'after-number',
       type: 'quickArithmetic',
       label: 'After Number ',
-      lockAfter: 2,
       commonData: {
         title: 'Write the after number.',
         count: 10
@@ -33,7 +32,6 @@ export default {
       id: 'before-number',
       type: 'quickArithmetic',
       label: 'Before Number ',
-      lockAfter: 2,
       commonData: {
         title: 'Write the before number.',
         count: 10
@@ -60,7 +58,6 @@ export default {
       id: 'addition',
       type: 'quickArithmetic',
       label: 'Add the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Add the Numbers'
@@ -102,7 +99,6 @@ export default {
       id: 'subtract',
       type: 'quickArithmetic',
       label: 'Subtract the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Subtract the Numbers'
@@ -145,7 +141,6 @@ export default {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Multiply'

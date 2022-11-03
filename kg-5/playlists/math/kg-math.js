@@ -1,7 +1,6 @@
 export default {
   label: 'Kindergarten Math',
   id: 'kg-math',
-  lockAfter: 4,
   list: [
     {
       type: 'tracing',

@@ -1,7 +1,6 @@
 export default {
   id: 'arithmetic-5',
   label: 'Arithmetic - 5',
-  lockAfter: 0,
   list: [
     {
       id: 'subtract-dnd',
@@ -112,7 +111,6 @@ export default {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Multiply'
@@ -148,7 +146,6 @@ export default {
       id: 'divide',
       type: 'quickArithmetic',
       label: 'Division',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Division'
@@ -190,7 +187,6 @@ export default {
       id: 'evaluate',
       type: 'quickArithmetic',
       label: 'Evaluate',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Evaluate'
@@ -232,7 +228,6 @@ export default {
       id: 'fillup',
       type: 'quickArithmetic',
       label: 'Fill Up',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Fill in the blanks.',
@@ -275,7 +270,6 @@ export default {
       id: 'fillup-2',
       type: 'quickArithmetic',
       label: 'Fill Up - 2',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Fill in the blanks.',

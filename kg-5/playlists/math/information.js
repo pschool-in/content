@@ -5,7 +5,6 @@ export default {
     {
       type: 'informationProcessing',
       id: 'bar',
-      lockAfter: 1,
       label: 'Bar Chart',
       data: [
         {
@@ -144,7 +143,6 @@ export default {
       type: 'informationProcessing',
       id: 'pie',
       label: 'Pie Chart',
-      lockAfter: 1,
       data: [
         {
           title:
@@ -251,7 +249,6 @@ export default {
     {
       type: 'informationProcessing',
       id: 'tally',
-      lockAfter: 1,
       label: 'Tally Chart',
       data: [
         {
@@ -359,7 +356,6 @@ export default {
       // from the class 5 text book
       type: 'informationProcessing',
       id: 'chart-5',
-      lockAfter: 1,
       label: 'More Problems',
       data: [
         {

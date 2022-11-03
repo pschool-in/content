@@ -6,7 +6,6 @@ export default {
       type: 'connectLetters',
       id: 'animals',
       label: 'Animals',
-      lockAfter: 1,
       commonData: {
         title:
           'Connect the letters from left to right to form the word that represents the image.',
@@ -24,7 +23,6 @@ export default {
       type: 'connectLetters',
       id: 'birds',
       label: 'Birds',
-      lockAfter: 1,
       commonData: {
         title:
           'Connect the letters from left to right to form the word that represents the image.',
@@ -39,7 +37,6 @@ export default {
       type: 'connectLetters',
       id: 'fruits',
       label: 'Fruits',
-      lockAfter: 1,
       commonData: {
         title:
           'Connect the letters from left to right to form the word that represents the image.',
@@ -55,7 +52,6 @@ export default {
       type: 'connectLetters',
       id: 'vegetables',
       label: 'Vegetables',
-      lockAfter: 1,
       commonData: {
         title:
           'Connect the letters from left to right to form the word that represents the image.',

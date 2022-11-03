@@ -6,7 +6,6 @@ export default {
       id: 'addition',
       type: 'quickArithmetic',
       label: 'Add the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -41,7 +40,6 @@ export default {
       id: 'subtraction',
       type: 'quickArithmetic',
       label: 'Subtract the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -76,7 +74,6 @@ export default {
       type: 'compare',
       id: 'compare',
       label: 'Compare Numbers',
-      lockAfter: 3,
       commonData: {
         fontSize: '2.5rem',
         type: 'math',
@@ -122,7 +119,6 @@ export default {
       id: 'addition-2',
       type: 'quickArithmetic',
       label: 'Addition',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -151,7 +147,6 @@ export default {
       id: 'subtraction-2',
       type: 'quickArithmetic',
       label: 'Subtraction',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,

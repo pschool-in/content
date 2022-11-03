@@ -1,7 +1,6 @@
 export default {
   label: 'Math Workouts',
   id: 'math-workout',
-  lockAfter: 0,
   list: [
     {
       type: 'workouts',

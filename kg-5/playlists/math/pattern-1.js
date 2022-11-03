@@ -7,7 +7,6 @@ export default {
       type: 'whatNext',
       id: 'number-1',
       label: 'Number Pattern -1',
-      lockAfter: 2,
       commonData: {
         type: 'letters'
       },
@@ -61,7 +60,6 @@ export default {
       type: 'whatNext',
       id: 'number-2',
       label: 'Number Pattern -2',
-      lockAfter: 2,
       commonData: {
         type: 'letters'
       },

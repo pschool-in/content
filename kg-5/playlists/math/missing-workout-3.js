@@ -6,7 +6,6 @@ export default {
       type: 'missingWorkout',
       id: 'addition',
       label: 'New Addition',
-      lockAfter: 1,
       data: [
         {
           pattern: 'xxx + xxx + xxx',
@@ -50,7 +49,6 @@ export default {
       type: 'missingWorkout',
       id: 'subtraction',
       label: 'Subtraction',
-      lockAfter: 1,
       data: [
         { pattern: 'bbb - aaa', missingRow: [2] },
         { pattern: 'bbbb - aaaa', missingRow: [2] },
@@ -73,7 +71,6 @@ export default {
       type: 'missingWorkout',
       id: 'multiplication',
       label: 'Multiplication',
-      lockAfter: 1,
       data: [
         { pattern: 'aaa * aaa', missingRow: [5] },
         { pattern: 'aaa * aaa', missingRow: [4, 5] },

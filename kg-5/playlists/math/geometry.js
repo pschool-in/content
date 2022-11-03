@@ -1,7 +1,7 @@
 export default {
   label: 'Geometry',
   id: 'geometry',
-  lockAfter: 3,
+  lockAfter: 5,
   list: [
     {
       label: 'Quick Notes',
@@ -27,7 +27,7 @@ The area of a rectangle is calculated by multiplying its width and height. A rea
 If we split a rectangle diagonally, we get two right triangles. So the area of right triangle is half the area of rectangle.
 # Polygon
 A pentagon has 5 sides. 'penta' means five. 
-A hexagon has 6 sides. 'Hexa' means six. Any closed shape with a fixed number of sides is called a polygon. 'Poly' means 'many'. Triangle, quadrilateral, pentagon, hexagen etc comes under polygon.
+A hexagon has 6 sides. 'Hexa' means six. Any closed shape with a fixed number of sides is called a polygon. 'Poly' means 'many'. Triangle, quadrilateral, pentagon, hexagon etc comes under polygon.
 # Closed and Open Figure
 The ends of a figure can be closed or open. For example, straight lines and curves are open figures. Circle, triangle, square etc are closed figures.
 # Symmetric Figure
@@ -39,7 +39,6 @@ If one half of the figure is the mirror image of the other half, then we can say
       type: 'geometry',
       label: 'Draw Lines',
       id: 'lines',
-      lockAfter: 1,
       data: [
         `Draw a line of length 4 cm. | line | 4
 Draw a line of length 2.6 cm. | line | 2.6
@@ -122,7 +121,6 @@ Draw a rectangle of sides 4 and 1 cm. | rect | 4,1`
       type: 'geometry',
       label: 'Angle',
       id: '700',
-      lockAfter: 1,
       data: [
         `Make an angle of 60 degree. | angle | 60
 Make an angle of 180 degree. | angle | 180
@@ -152,7 +150,7 @@ Make an angle of 250 degree. | angle | 250`
         type: 'custom',
         types: ['closed', 'open'],
         text: `M 36 16 C 69 -12 93 32 33 82 C -16 45 -1 -27 36 16 | 0
-M 20 5 H 80 L 90 80 H 10 Z | 1
+M 20 5 H 80 L 90 80 H 10 Z | 0
 M 30 30 L 30 0 A 30 30 270 1 1 0 30 | 1
 M 42 0 L 51 28 L 80 28 L 56 45 L 66 72 L 42 55 L 18 72 L 28 45 L 4 28 L 33 28 L 42 0 Z | 0
 M 5 5 L 95 95 | 1
@@ -309,7 +307,6 @@ Poly, Many`,
     {
       type: 'geometry',
       label: 'Mixed Activity',
-      lockAfter: 1,
       id: 'misc',
       data: [
         `Draw a line of length 4 cm. | line | 4

@@ -1,7 +1,6 @@
 export default {
   label: 'Synonyms Collection - 2',
   id: 'synonyms-2',
-  lockAfter: 2,
   defs: {
     data: [
       `magnify, expand
@@ -172,7 +171,6 @@ soon − shortly`
       type: 'match',
       label: 'Match Synonyms',
       id: 'match',
-      lockAfter: 4,
       commonData: {
         title: 'Match Synonyms'
       },
@@ -254,7 +252,6 @@ soon − shortly`
       type: 'connectLetters',
       label: 'Pick the word',
       id: 'connect-letters',
-      lockAfter: 2,
       commonData: {
         title:
           'Connect the letters from left to right to form the synonym for the below word.',

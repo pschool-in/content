@@ -1,7 +1,6 @@
 export default {
   label: '5 Letter Words',
   id: '5-letter-words',
-  lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -23,7 +22,6 @@ export default {
       id: 'jumble',
       type: 'sequence',
       label: 'Form Words',
-      lockAfter: 4,
       commonData: {
         title: 'Connect the blocks to form meaningful word.',
         printTitle: 'Form the word using the letters.'

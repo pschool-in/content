@@ -7,7 +7,6 @@ export default {
       type: 'clock',
       id: 'write-time',
       label: 'AM or PM',
-      lockAfter: 1,
       commonData: {
         type: 'AMorPM'
       },
@@ -35,7 +34,6 @@ Jacob is swimming on a hot afternoon. | 2:30 | PM`
       type: 'clock',
       id: 'write-time-2',
       label: 'Word Problems - Set the clock',
-      lockAfter: 1,
       commonData: {
         type: 'wordProblem',
         title: 'Find the answer for the below question and set the clock.'
@@ -73,7 +71,6 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
       type: 'numberInput',
       id: 'conversion',
       label: 'Convert Units',
-      lockAfter: 1,
       commonData: {
         title: 'Convert units as requested',
         type: 'conversion',
@@ -81,30 +78,29 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
         allowFrac: true
       },
       data: [
-        `1^hour = ?^minutes, 60
-3^hours = ?^minutes, 180
-1^hour = ?^seconds, 3600
-1^minute = ?^seconds, 60
-3^minutes = ?^seconds, 180`,
+        `1 ^hour = ? ^minutes, 60
+3 ^hours = ? ^minutes, 180
+1 ^hour = ? ^seconds, 3600
+1 ^minute = ? ^seconds, 60
+3 ^minutes = ? ^seconds, 180`,
 
-        `30^days = ?^weeks ?^days, 4, 2
-4^years 1^month = ?^months, 49
-5^days 17^hours = ?^hours, 137
-?^hours = 120^minutes, 2 
-349^seconds = ?^minutes ?^seconds, 5, 49`,
+        `30 ^days = ?^weeks ?^days, 4, 2
+4 ^years 1 ^month = ?^months, 49
+5 ^days 17 ^hours = ?^hours, 137
+? ^hours = 120 ^minutes, 2 
+349 ^seconds = ? ^minutes ? ^seconds, 5, 49`,
 
-        `2^hours 47^minutes = ?^minutes, 167
-4^hours 30^minutes = ?^minutes, 270
-300^minutes = ?^hours, 5
-300^seconds = ?^minutes, 5
-?^hours 20^minutes = 200^minutes, 3`
+        `2 ^hours 47 ^minutes = ? ^minutes, 167
+4 ^hours 30 ^minutes = ? ^minutes, 270
+300 ^minutes = ? ^hours, 5
+300 ^seconds = ? ^minutes, 5
+? ^hours 20 ^minutes = 200 ^minutes, 3`
       ]
     },
     {
       type: 'numberInput',
       id: 'word-prob-1-3',
       label: 'Answer the Word Problem -3',
-      lockAfter: 2,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'

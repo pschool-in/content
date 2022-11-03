@@ -6,7 +6,6 @@ export default {
       id: 'addition',
       type: 'quickArithmetic',
       label: 'Addition',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Decimal Addition',
@@ -34,7 +33,6 @@ export default {
       id: 'subtract',
       type: 'quickArithmetic',
       label: 'Subtraction',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Decimal Subtraction',
@@ -65,7 +63,6 @@ export default {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Multiply',
@@ -93,7 +90,6 @@ export default {
       id: 'divide',
       type: 'quickArithmetic',
       label: 'Divide',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Divide',
@@ -121,7 +117,6 @@ export default {
       id: 'addition-2',
       type: 'quickArithmetic',
       label: 'Fill Up',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Fill Up',
@@ -150,7 +145,6 @@ export default {
       id: 'subtract-2',
       type: 'quickArithmetic',
       label: 'Fill Up - 2',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Fill Up',
@@ -182,7 +176,6 @@ export default {
       id: 'multiply-2',
       type: 'quickArithmetic',
       label: 'Fill Up - 3',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Fill Up',
@@ -211,7 +204,6 @@ export default {
       id: 'divide-2',
       type: 'quickArithmetic',
       label: 'Fill Up - 4',
-      lockAfter: 1,
       commonData: {
         count: 10,
         title: 'Fill Up',

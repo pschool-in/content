@@ -6,7 +6,6 @@ export default {
       id: 'connect-ascending',
       type: 'maze',
       label: 'Connect Numbers: Asending Order',
-      lockAfter: 2,
       data: [
         {
           title:
@@ -351,7 +350,6 @@ export default {
       id: 'connect-descending',
       type: 'maze',
       label: 'Connect Numbers: Desending Order',
-      lockAfter: 2,
       data: [
         {
           title:

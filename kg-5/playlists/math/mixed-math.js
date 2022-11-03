@@ -1,7 +1,6 @@
 export default {
   label: 'Mixed Math',
   id: 'mixed-math',
-  lockAfter: 4,
   list: [
     {
       type: 'dominos',
@@ -52,7 +51,6 @@ export default {
       label: 'Find the Value',
       type: 'picturePuzzle',
       id: 'value',
-      lockAfter: 2,
       commonData: {
         type: 1
       },

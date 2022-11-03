@@ -6,7 +6,6 @@ export default {
       type: 'balance',
       label: 'Balance the number',
       id: 'balance',
-      lockAfter: 2,
       data: [
         {
           left: 'x,x',

@@ -1,7 +1,6 @@
 export default {
   label: 'Mixed Math 2',
   id: 'mixed-math-2',
-  lockAfter: 1,
   list: [
     {
       label: 'Count Arithmetic - Multiply',
@@ -31,7 +30,6 @@ export default {
       label: 'Find the Value',
       type: 'picturePuzzle',
       id: 'value',
-      lockAfter: 1,
       commonData: {
         type: 2
       },

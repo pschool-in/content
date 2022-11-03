@@ -6,7 +6,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword Big',
       id: 'mathcross-big-20',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -137,7 +136,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword',
       id: 'mathcross-50',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -308,7 +306,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword 2',
       id: 'mathcross-50-2',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -479,7 +476,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword 3',
       id: 'mathcross-50-3',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -810,7 +806,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword - Big',
       id: 'mathcrossword-big-50',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -1062,7 +1057,6 @@ export default {
       type: 'balance',
       label: 'Balance the number',
       id: 'balance',
-      lockAfter: 2,
       data: [
         {
           left: '1x, x',

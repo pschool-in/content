@@ -1,7 +1,7 @@
 export default {
   label: 'Confusing Words',
   id: 'confusing-words',
-  lockAfter: 3,
+  lockAfter: 7,
   list: [
     {
       id: 'reading',

@@ -1,7 +1,7 @@
 export default {
   label: 'Geometry',
   id: 'geometry-2',
-  lockAfter: 3,
+  lockAfter: 5,
   list: [
     {
       label: 'Quick Notes',
@@ -117,7 +117,6 @@ M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
       type: 'geometryType',
       label: 'Missing angle',
       id: 'missing-angle',
-      lockAfter: 1,
       commonData: {
         qText: 'Find the missing angle.',
         units: 'degree',
@@ -139,7 +138,6 @@ M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
       type: 'geometryType',
       label: 'Missing angle - 2',
       id: 'missing-angle-2',
-      lockAfter: 1,
       commonData: {
         qText: 'Find the missing angle.',
         units: 'degree',
@@ -156,6 +154,30 @@ M 5 50 L 95 5 L 50 50 L 95 95 Z | 2`
           list: [280, 210, 130, 190, 160]
         }
       ]
+    },
+    {
+      type: 'geometry',
+      label: 'Draw Cone',
+      id: 'cone',
+      data: {
+        text: `Draw a cone of radius 2 cm and height 5 cm. | cone | 2, 5
+Draw a cone of radius 1.6 cm and height 3 cm. | cone | 1.6, 3
+Draw a cone of radius 1 cm and height 4 cm. | cone | 1, 4
+Draw a cone of diameter 3.6 cm and height 4 cm. | cone | 1.8, 4
+Draw a cone of diameter 2.8 cm and height 3.8 cm. | cone | 1.4, 3.8`
+      }
+    },
+    {
+      type: 'geometry',
+      label: 'Draw Cylinder',
+      id: 'cylinder',
+      data: {
+        text: `Draw a cylinder of radius 2 cm and height 5 cm. | cylinder | 2, 5
+Draw a cylinder of radius 1.6 cm and height 3 cm. | cylinder | 1.6, 3
+Draw a cylinder of radius 1 cm and height 4 cm. | cylinder | 1, 4
+Draw a cylinder of diameter 3.6 cm and height 4 cm. | cylinder | 1.8, 4
+Draw a cylinder of diameter 2.8 cm and height 3.8 cm. | cylinder | 1.4, 3.8`
+      }
     },
     {
       type: 'geometryType',

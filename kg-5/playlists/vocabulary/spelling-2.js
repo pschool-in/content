@@ -16,7 +16,6 @@ export default {
       type: 'rightOne',
       label: 'Correct Spelling',
       id: 'spelling',
-      lockAfter: 2,
       commonData: {
         title: 'Pick the Correct Spelling',
         noCaps: true

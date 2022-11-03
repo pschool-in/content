@@ -65,7 +65,6 @@ export default {
       id: 'mcq',
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      lockAfter: 1,
       commonData: {
         title: 'Multiple Choice Questions',
         hasFraction: true
@@ -76,18 +75,18 @@ export default {
             {
               qText:
                 "A rectangle has an area of 8 square centimeters. Which of the following could be the rectangle's length and width?",
-              options: `4^cm and 4^cm
-2^cm and 6^cm
-* 1^cm and 8^cm
-* 2^cm and 4^cm`
+              options: `4  ^cm and 4  ^cm
+2 ^cm and 6 ^cm
+* 1 ^cm and 8 ^cm
+* 2 ^cm and 4 ^cm`
             },
             {
               qText:
                 "A rectangle has an area of 15 square centimeters. Which of the following could be the rectangle's length and width?",
-              options: ` * 1^cm and 15^cm
-2^cm and 7^cm
-* 3^cm and 5^cm
-4^cm and 4^cm`
+              options: ` * 1 ^cm and 15 ^cm
+2 ^cm and 7 ^cm
+* 3 ^cm and 5 ^cm
+4 ^cm and 4 ^cm`
             },
             {
               qText: 'Which of the following are factor pairs for 12?',
@@ -146,13 +145,13 @@ export default {
           {
             name: 'True',
             text: `2 is the only even number, that is also a prime number.
-            Non-prime numbers are called composite numbers.
-            47 is a prime number.`
+Non-prime numbers are called composite numbers.
+47 is a prime number.`
           },
           {
             name: 'False',
             text: `Prime numbers are always divisible by 2.
-            49 is a prime number.`
+49 is a prime number.`
           }
         ]
       }
@@ -161,7 +160,6 @@ export default {
       type: 'numberInput',
       id: 'word-prob-2',
       label: 'Factor Pairs',
-      lockAfter: 1,
       data: {
         title: 'Answer the word problem.',
         type: 'word-problem',

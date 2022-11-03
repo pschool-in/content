@@ -5,7 +5,6 @@ export default {
     {
       id: 'area',
       type: 'areaGraph',
-      lockAfter: 1,
       label: 'Area under the Shape',
       commonData: {
         title: 'Calculate the Area under the closed boundary.'
@@ -265,7 +264,6 @@ export default {
     {
       id: 'perimeter',
       type: 'areaGraph',
-      lockAfter: 1,
       label: 'Perimeter under the Shape',
       commonData: {
         title: 'Calculate the perimeter of the closed boundary.',
@@ -476,7 +474,6 @@ export default {
     {
       id: 'area-2',
       type: 'areaGraph',
-      lockAfter: 1,
       label: 'Area under the Shape',
       commonData: {
         title: 'Calculate the Area of the filled region.',
@@ -621,7 +618,6 @@ export default {
       type: 'numberInput',
       id: 'table',
       label: 'Find the Missing Value',
-      lockAfter: 1,
       commonData: {
         type: 'word-problem'
       },
@@ -694,29 +690,28 @@ export default {
       type: 'numberInput',
       id: 'word-problem',
       label: 'Word Problems',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problems.',
         type: 'word-problem'
       },
       data: [
-        `The area of a square is 25^sq.m. What is the length of its side? | ?0 ^m | 5
-The perimeter of a square is 36^cm. What is the length of its side? | ?0 ^cm | 9
-The area of a square is 1^sq.m. What is its perimeter? | ?0 ^m | 4
+        `The area of a square is 25 ^sq.m. What is the length of its side? | ?0 ^m | 5
+The perimeter of a square is 36 ^cm. What is the length of its side? | ?0 ^cm | 9
+The area of a square is 1 ^sq.m. What is its perimeter? | ?0 ^m | 4
 The area and the perimeter of a square are equal in value. What is the length of its side? | ?0 ^cm | 4
-The length of a rectangle is 2^m. Its width is twice its length. What is its area? | ?0 ^sq.m | 8`,
+The length of a rectangle is 2 ^m. Its width is twice its length. What is its area? | ?0 ^sq.m | 8`,
 
-        `A square of side 6^cm, is diagonally cut into two triangles. What is the area of one triangle? | ?0 ^sq.cm | 18
-The sides of a triangle are of length 3^cm, 4^m and 5^cm. What is its perimeter? | ?0 ^cm | 12
-The perimeter of a rectangle is 50^m. Its width is 15^m. What is its length? | ?0 ^m | 10
-The area of a square is 144^sq.cm. What is the length of its side? | ?0 ^cm | 12
-The area of a square is 100^sq.cm. What is its perimeter? | ?0 ^cm | 40`,
+        `A square of side 6 ^cm, is diagonally cut into two triangles. What is the area of one triangle? | ?0 ^sq.cm | 18
+The sides of a triangle are of length 3 ^cm, 4 ^m and 5 ^cm. What is its perimeter? | ?0 ^cm | 12
+The perimeter of a rectangle is 50 ^m. Its width is 15 ^m. What is its length? | ?0 ^m | 10
+The area of a square is 144 ^sq.cm. What is the length of its side? | ?0 ^cm | 12
+The area of a square is 100 ^sq.cm. What is its perimeter? | ?0 ^cm | 40`,
 
-        `Each side of a hexagon is of length 10^m. What is its perimeter? | ?0 ^m | 60
-Each side of a hexagon is of length 2^m. What is its perimeter? | ?0 ^cm | 1200 
-All sides of a pentagon are of equal length. Its perimeter is 45^m. What is the length of its sides? | ?0 ^m | 9
-Each side of a pentagon is of length 11^m. What is its perimeter? | ?0 ^m | 55
-A square whose sides are 10^m is broken into two rectangles of equal size. What is the perimeter of one rectangle? | ?0 ^m | 30`
+        `Each side of a hexagon is of length 10 ^m. What is its perimeter? | ?0 ^m | 60
+Each side of a hexagon is of length 2 ^m. What is its perimeter? | ?0 ^cm | 1200 
+All sides of a pentagon are of equal length. Its perimeter is 45 ^m. What is the length of its sides? | ?0 ^m | 9
+Each side of a pentagon is of length 11 ^m. What is its perimeter? | ?0 ^m | 55
+A square whose sides are 10 ^m is broken into two rectangles of equal size. What is the perimeter of one rectangle? | ?0 ^m | 30`
       ]
     }
   ]

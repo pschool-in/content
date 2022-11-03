@@ -7,7 +7,6 @@ export default {
       type: 'numberInput',
       id: 'word-prob-1-1',
       label: 'Answer the Word Problem -1',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'
@@ -39,7 +38,6 @@ Gopal took his 4 cows for grazing. Each cow eats 2 baskets of grass. How many ba
       type: 'numberInput',
       id: 'word-prob-1-2',
       label: 'Answer the Word Problem -2',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'
@@ -70,7 +68,6 @@ Raghu loves to eat sweets. One day he ate 4 ladoos, 5 rasgullas and 10 gulab jam
       type: 'numberInput',
       id: 'word-prob-1-3',
       label: 'Answer the Word Problem -3',
-      lockAfter: 0,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'

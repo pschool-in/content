@@ -6,7 +6,6 @@ export default {
       type: 'fraction',
       id: 'fraction',
       label: 'Create Fraction',
-      lockAfter: 1,
       data: [
         {
           type: 'circle'
@@ -26,7 +25,6 @@ export default {
       type: 'fraction',
       id: 'fraction-read',
       label: 'Read Fraction',
-      lockAfter: 1,
       commonData: { probType: 'read' },
       data: [
         {
@@ -47,7 +45,6 @@ export default {
       type: 'compare',
       id: 'compare',
       label: 'Compare Fractions',
-      lockAfter: 1,
       commonData: {
         fontSize: '2.5rem',
         type: 'math',
@@ -103,7 +100,6 @@ export default {
       type: 'match',
       id: 'match-names',
       label: 'Match Fractions and Names',
-      lockAfter: 1,
       commonData: {
         title: 'Match Fractions and Names',
         allowFrac: true
@@ -126,7 +122,6 @@ Three-seventh, 3/7`
       type: 'match',
       id: 'match',
       label: 'Match Equals',
-      lockAfter: 1,
       commonData: {
         title: 'Match Equals',
         allowFrac: true
@@ -161,7 +156,6 @@ Three-seventh, 3/7`
       type: 'rightOne',
       label: 'Biggest Fraction',
       id: 'biggest',
-      lockAfter: 1,
       commonData: {
         title: `Pick the biggest fraction`,
         fontSize: '1.3rem'
@@ -196,7 +190,6 @@ Three-seventh, 3/7`
       type: 'rightOne',
       label: 'Smallest Fraction',
       id: 'smallest',
-      lockAfter: 1,
       commonData: {
         title: `Pick the smallest fraction`,
         fontSize: '1.3rem'
@@ -231,7 +224,6 @@ Three-seventh, 3/7`
       label: 'Ascending Order',
       type: 'sorting',
       id: 'ascending',
-      lockAfter: 1,
       commonData: {
         title:
           'Drag and drop and arrange the numbers. The smallest fraction should come at the top.',
@@ -263,7 +255,6 @@ Three-seventh, 3/7`
       label: 'Descending Order',
       type: 'sorting',
       id: 'descending',
-      lockAfter: 1,
       commonData: {
         title:
           'Drag and drop and arrange the numbers. The biggest fraction should come at the top.',

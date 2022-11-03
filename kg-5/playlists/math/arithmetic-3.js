@@ -6,7 +6,6 @@ export default {
       id: 'after-number',
       type: 'quickArithmetic',
       label: 'After Number ',
-      lockAfter: 2,
       commonData: {
         title: 'Write the after number.',
         count: 10,
@@ -34,7 +33,6 @@ export default {
       id: 'before-number',
       type: 'quickArithmetic',
       label: 'Before Number ',
-      lockAfter: 2,
       commonData: {
         title: 'Write the before number.',
         count: 10,
@@ -62,7 +60,6 @@ export default {
       id: 'addition',
       type: 'quickArithmetic',
       label: 'Add the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Add the Numbers'
@@ -104,7 +101,6 @@ export default {
       id: 'subtract',
       type: 'quickArithmetic',
       label: 'Subtract the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Subtract the Numbers'
@@ -147,7 +143,6 @@ export default {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Multiply'
@@ -174,7 +169,6 @@ export default {
       id: 'divide',
       type: 'quickArithmetic',
       label: 'Division',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Division'
@@ -201,7 +195,6 @@ export default {
       id: 'evaluate',
       type: 'quickArithmetic',
       label: 'Evaluate',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Evaluate'
@@ -243,7 +236,6 @@ export default {
       id: 'fillup',
       type: 'quickArithmetic',
       label: 'Fill Up',
-      lockAfter: 2,
       commonData: {
         count: 10,
         title: 'Fill in the blanks.',
@@ -286,7 +278,6 @@ export default {
       id: 'fillup-2',
       type: 'quickArithmetic',
       label: 'Fill Up - 2',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: true,

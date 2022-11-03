@@ -1,7 +1,6 @@
 export default {
   label: 'Antonyms Collection - 3',
   id: 'antonyms-3',
-  lockAfter: 2,
   defs: {
     data: [
       `enemy, friend
@@ -180,7 +179,6 @@ virtue × vice`
     {
       type: 'match',
       label: 'Match Antonyms',
-      lockAfter: 4,
       id: 'match',
       commonData: {
         title: 'Match Antonyms'
@@ -263,7 +261,6 @@ virtue × vice`
       type: 'connectLetters',
       label: 'Pick the word',
       id: 'connect-letters',
-      lockAfter: 2,
       commonData: {
         title:
           'Connect the letters from left to right to form the antonym for the below word.',

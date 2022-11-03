@@ -6,7 +6,6 @@ export default {
       label: 'Find the Number',
       type: 'placeValueAbacus',
       id: 'abacus-placevalue',
-      lockAfter: 1,
       commonData: {},
       data: [
         {
@@ -51,7 +50,6 @@ export default {
       type: 'numberInput',
       id: 'number-names',
       label: 'Write the Number',
-      lockAfter: 1,
       commonData: {
         title: 'Write the Number',
         type: 'word-problem'
@@ -86,7 +84,6 @@ Nine crore and ninety nine thousand | 90099000`
       type: 'numberInput',
       id: 'place-value',
       label: 'Place Value',
-      lockAfter: 1,
       commonData: {
         title: 'Find the Place Value',
         type: 'word-problem'
@@ -121,7 +118,6 @@ What is the place value of 6 in 9877655? | 100`
       type: 'numberInput',
       id: 'find-number',
       label: 'Find the Number',
-      lockAfter: 1,
       commonData: {
         title: 'Write as requested.',
         type: 'word-problem'

@@ -1,7 +1,6 @@
 export default {
   label: 'Prefix - Suffix',
   id: 'prefix-suffix',
-  lockAfter: 4,
   list: [
     {
       id: 'reading',
@@ -116,7 +115,6 @@ export default {
       type: 'match',
       label: 'Match Prefix',
       id: 'match-prefix',
-      lockAfter: 2,
       commonData: {
         title: 'Match Prefix with the word.'
       },
@@ -196,7 +194,6 @@ mis, use`
       type: 'match',
       label: 'Match Prefix - 2',
       id: 'match-prefix-2',
-      lockAfter: 2,
       commonData: {
         title: 'Match Prefix with the word.'
       },
@@ -262,7 +259,6 @@ un, zip`
       label: 'Choose Right Prefix',
       id: 'complete-prefix',
       type: 'completePuzzle',
-      lockAfter: 2,
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct prefix.',
@@ -386,7 +382,6 @@ come, over, re`
       label: 'Choose Right Prefix - 2',
       id: 'complete-prefix-2',
       type: 'completePuzzle',
-      lockAfter: 2,
       commonData: {
         type: 'leftOpen',
         title: 'Drag and drop the correct prefix.',
@@ -473,7 +468,6 @@ safe, un, re`
       type: 'rightOne',
       label: 'Not a Prefix',
       id: 'non-prefix',
-      lockAfter: 2,
       commonData: {
         title:
           'Which of the following word is usually not considered as having a prefix',

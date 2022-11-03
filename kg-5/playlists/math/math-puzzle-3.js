@@ -6,7 +6,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword',
       id: 'mathcrossword-20',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -102,7 +101,6 @@ export default {
       type: 'mathCrossword',
       label: 'Math Crossword - 2',
       id: 'mathcross-2',
-      lockAfter: 2,
       commonData: {
         title: 'Click on the empty cells and fill it with the correct value.'
       },
@@ -193,7 +191,6 @@ export default {
       type: 'balance',
       label: 'Balance the number',
       id: 'balance',
-      lockAfter: 2,
       data: [
         {
           left: 'x,x',

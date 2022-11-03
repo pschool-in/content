@@ -6,7 +6,6 @@ export default {
       type: 'compare',
       id: 'compare',
       label: 'Compare Numbers',
-      lockAfter: 3,
       commonData: {
         fontSize: '2.5rem',
         type: 'math',
@@ -52,7 +51,6 @@ export default {
       type: 'rightOne',
       id: 'biggest',
       label: 'Biggest Number',
-      lockAfter: 3,
       commonData: {
         title: 'Select the Biggest Number',
         fontSize: '2.5rem',
@@ -87,7 +85,6 @@ export default {
       type: 'rightOne',
       id: 'smallest',
       label: 'Smallest Number',
-      lockAfter: 3,
       commonData: {
         title: 'Select the Smallest Number',
         fontSize: '2.5rem',
@@ -122,7 +119,6 @@ export default {
       type: 'sorting',
       id: 'ascending',
       label: 'Ascending Order',
-      lockAfter: 3,
       commonData: {
         title: 'Rearrange the numbers in ascending order.',
         fontSize: '2rem',
@@ -157,7 +153,6 @@ export default {
       type: 'sorting',
       id: 'descending',
       label: 'Descending Order',
-      lockAfter: 3,
       commonData: {
         title: 'Rearrange the numbers in descending order.',
         fontSize: '2rem',

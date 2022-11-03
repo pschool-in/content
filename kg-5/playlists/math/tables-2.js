@@ -6,7 +6,6 @@ export default {
       type: 'match',
       label: 'Tables',
       id: 'match',
-      lockAfter: 3,
       commonData: {
         title: 'Tables - Match the following'
       },
@@ -80,6 +79,172 @@ export default {
 10 × 10 =, 100
 10 × 11 =, 110
 10 × 12 =, 120`
+      ]
+    },
+    {
+      id: 'multiply',
+      type: 'quickArithmetic',
+      label: 'Multiply',
+      commonData: {
+        count: 10,
+        title: 'Multiply'
+      },
+      data: [
+        {
+          type: 'mul~x~6'
+        },
+        {
+          type: 'mul~x~7'
+        },
+        {
+          type: 'mul~x~8'
+        },
+        {
+          type: 'mul~x~9'
+        },
+        {
+          type: 'mul~x~10'
+        }
+      ]
+    },
+    {
+      label: 'Group the Multiples',
+      type: 'group',
+      id: 'group',
+      commonData: {
+        fontSize: '1.5rem'
+      },
+      data: [
+        {
+          title: 'Multiples of 6 or Not',
+          types: [
+            {
+              name: 'Multiples of 6',
+              text: '6, 12, 18, 24, 30, 36'
+            },
+            {
+              name: 'Not',
+              text: '5, 9, 15, 21, 38, 44'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 7 or Not',
+          types: [
+            {
+              name: 'Multiples of 7',
+              text: '7, 14, 21, 28, 35, 42'
+            },
+            {
+              name: 'Not',
+              text: '6, 17, 16, 27, 19, 26'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 8 or Not',
+          types: [
+            {
+              name: 'Multiples of 8',
+              text: '8, 16, 24, 32, 40, 48'
+            },
+            {
+              name: 'Not',
+              text: '12, 20, 22, 36, 46, 30'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 9 or Not',
+          types: [
+            {
+              name: 'Multiples of 9',
+              text: '9, 18, 27, 36, 45, 54'
+            },
+            {
+              name: 'Not',
+              text: '6, 19, 29, 26, 46, 35'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 10 or Not',
+          types: [
+            {
+              name: 'Multiples of 10',
+              text: '10, 20, 30, 40, 50, 60'
+            },
+            {
+              name: 'Not',
+              text: '15, 24, 32, 25, 44,45'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 6 or Not',
+          types: [
+            {
+              name: 'Multiples of 6',
+              text: '42, 48, 54, 60, 66, 72'
+            },
+            {
+              name: 'Not',
+              text: '44, 50, 56, 76, 64, 68'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 7 or Not',
+          types: [
+            {
+              name: 'Multiples of 7',
+              text: '49, 56, 63, 70, 77, 84'
+            },
+            {
+              name: 'Not',
+              text: '47, 74, 59, 66, 54, 39'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 8 or Not',
+          types: [
+            {
+              name: 'Multiples of 8',
+              text: '56, 64, 72, 80, 88, 96'
+            },
+            {
+              name: 'Not',
+              text: '94, 60, 68, 78, 84, 86'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 9 or Not',
+          types: [
+            {
+              name: 'Multiples of 9',
+              text: '63, 72, 81, 90, 99, 108'
+            },
+            {
+              name: 'Not',
+              text: '56, 65, 79, 95, 92, 88'
+            }
+          ]
+        },
+        {
+          title: 'Multiples of 10 or Not',
+          types: [
+            {
+              name: 'Multiples of 10',
+              text: '70, 80, 90, 100, 110, 120'
+            },
+            {
+              name: 'Not',
+              text: '75, 105, 108, 85, 95, 64'
+            }
+          ]
+        }
       ]
     }
   ]

@@ -40,7 +40,7 @@ export default {
       label: 'Match the following',
       data: {
         title:
-          'From the fractions given below, pair off the equivalent fractionss',
+          'From the fractions given below, pair off the equivalent fractions',
         allowFrac: true,
         text: `2/3, 18/27
 5/7, 10/14

@@ -6,7 +6,6 @@ export default {
       id: 'addition',
       type: 'quickArithmetic',
       label: 'Add the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -41,7 +40,6 @@ export default {
       id: 'subtraction',
       type: 'quickArithmetic',
       label: 'Subtract the Numbers',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -76,7 +74,6 @@ export default {
       id: 'sub-2',
       type: 'quickArithmetic',
       label: 'Subtract the Numbers - 2',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -120,7 +117,6 @@ export default {
       id: 'addition-2',
       type: 'quickArithmetic',
       label: 'Addition',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -149,7 +145,6 @@ export default {
       id: 'subtraction-2',
       type: 'quickArithmetic',
       label: 'Subtraction',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -178,7 +173,6 @@ export default {
       id: 'sub-3',
       type: 'quickArithmetic',
       label: 'Fill in the Blanks',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: true,
@@ -222,7 +216,6 @@ export default {
       id: 'sub-4',
       type: 'quickArithmetic',
       label: 'Fill in the Blanks - 2',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: false,
@@ -269,7 +262,6 @@ export default {
       id: 'sub-5',
       type: 'quickArithmetic',
       label: 'Fill in the Blanks - 3',
-      lockAfter: 2,
       commonData: {
         count: 10,
         isReverse: true,

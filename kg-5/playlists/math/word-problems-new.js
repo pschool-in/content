@@ -7,7 +7,6 @@ export default {
       type: 'numberInput',
       id: 'word-prob-factors',
       label: 'Word Problems on Factors',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'
@@ -73,7 +72,6 @@ With a 200 gm paneer packet we can get 20 equal sizes of small paneer cubes. If 
       type: 'numberInput',
       id: 'word-prob-misc-ka',
       label: 'Miscellaneous Word Problems ',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
         type: 'word-problem'
@@ -104,7 +102,6 @@ Ananya has a cow which yields 8 litres of milk in a day. The selling price of on
       type: 'numberInput',
       id: 'word-prob-length',
       label: 'Word Problems on Length',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
         type: 'word-problem'
@@ -143,7 +140,6 @@ The height of a table is 1m 25 cm and the height of a stool is 50 cm less than t
       type: 'numberInput',
       id: 'word-prob-area',
       label: 'Word Problems on Area and boundary',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
         type: 'word-problem'
@@ -199,7 +195,6 @@ Perimeter of a square is 80 cm. What is the area of the square? | ?0 square cm |
       type: 'numberInput',
       id: 'word-prob-weightvol',
       label: 'Word Problems on Weight and Volume',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem',
         type: 'word-problem'
@@ -253,7 +248,6 @@ A worker enters the factory at 7 : 45 a.m. He finishes his work and leaves the f
       type: 'numberInput',
       id: 'word-prob-fraction',
       label: 'Word Problems on Fraction',
-      lockAfter: 10,
       commonData: {
         title: 'Answer the word problem in simplified fraction.',
         type: 'word-problem'

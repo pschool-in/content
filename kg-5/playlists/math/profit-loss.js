@@ -34,7 +34,6 @@ Kadhar bought a jackfruit for ₹ 200 and sold it for ₹ 180.`
       type: 'numberInput',
       id: 'table',
       label: 'Find the Missing',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'
@@ -121,7 +120,6 @@ C P | profit or loss| S P
       type: 'numberInput',
       id: 'word-prob-2',
       label: 'Word Problem with Steps',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'

@@ -6,7 +6,6 @@ export default {
       type: 'numberInput',
       id: 'improper-mixed',
       label: 'Improper to Mixed',
-      lockAfter: 1,
       commonData: {
         title: 'Convert the below improper fraction to mixed fraction.',
         type: 'improperToMixed'
@@ -21,7 +20,6 @@ export default {
       type: 'numberInput',
       id: 'mixed-improper',
       label: 'Mixed to Improper',
-      lockAfter: 1,
       commonData: {
         title: 'Convert the below mixed fraction into improper fraction.',
         type: 'mixedToImproper'
@@ -36,7 +34,6 @@ export default {
       type: 'numberInput',
       id: 'simple-fraction',
       label: 'Simple Fraction',
-      lockAfter: 1,
       commonData: {
         title: 'Write the fraction in the lowest term.',
         type: 'simpleFraction'
@@ -51,7 +48,6 @@ export default {
       type: 'numberInput',
       id: 'equal-fraction',
       label: 'Equal Fractions',
-      lockAfter: 1,
       commonData: {
         title: 'Fill in the empty boxes to form equal fractions.'
       },
@@ -74,7 +70,6 @@ export default {
       type: 'numberInput',
       id: 'frac-decimal',
       label: 'Fraction to Decimal',
-      lockAfter: 1,
       commonData: {
         title: 'Write the decimal equivalent of the faction.',
         type: 'fracToDeci'
@@ -90,7 +85,6 @@ export default {
       type: 'numberInput',
       id: 'decimal-frac',
       label: 'Decimal to Fraction',
-      lockAfter: 1,
       commonData: {
         title: 'Write the fraction equivalent of the decimal number.',
         type: 'deciToFrac'
@@ -105,7 +99,6 @@ export default {
       id: 'mcq',
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      lockAfter: 1,
       commonData: {
         title: 'Multiple Choice Questions',
         hasFraction: true
@@ -204,7 +197,6 @@ export default {
       type: 'numberInput',
       id: 'word-prob',
       label: 'Answer the word problem.',
-      lockAfter: 1,
       commonData: {
         title: 'Answer the word problem.',
         type: 'word-problem'
