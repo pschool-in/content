@@ -36,7 +36,7 @@ rabbit| முயல்`,
         `antelope| மான்
 bear| கரடி
 fish| மீன்
-frog| தளைவ
+frog| தவளை
 snake| பாம்பு
 squirrel| அணில்`,
 
