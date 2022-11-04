@@ -493,11 +493,11 @@ const reading = [
 ];
 
 const math = [
-  /*{
+  {
     label: 'Math Showcase',
     id: 'maths-sc',
-    grade: 'kg'
-  },*/
+    grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
+  },
   {
     label: 'KG Math',
     id: 'kg-math',
@@ -1747,6 +1747,7 @@ const gk = [
   }
 ];
 
+/*
 const mathSc = [
   {
     id: 'numbers-sc',
@@ -1785,10 +1786,16 @@ const mathSc = [
     grade: 'g6, g7, g8'
   },
   {
-    id: 'games-sc',
-    label: 'Games',
-    img: 'brain',
-    grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
+    id: 'shapes',
+    label: 'Shapes',
+    img: 'shapes',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'area-perimeter',
+    label: 'Shapes',
+    img: 'shapes',
+    grade: 'g3, g4, g5, g6, g7, g8'
   },
   {
     id: 'place-value-basic',
@@ -1797,21 +1804,39 @@ const mathSc = [
     grade: 'kg, g1, g2'
   },
   {
+    id: 'place-value-2',
+    label: 'Place Value',
+    img: 'abacus',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
     id: 'numberline',
     label: 'Number Line',
     img: 'numberline',
-    grade: 'kg, g1, g2'
+    grade: 'kg, g1, g2, g3'
   },
   {
-    id: 'numberline-6-sc',
+    id: 'numberline-4',
     label: 'Number Line',
     img: 'numberline',
-    grade: 'g3, g4, g5, g6, g7, g8'
+    grade: 'g4, g5'
+  },
+  {
+    id: 'numberline-6',
+    label: 'Number Line',
+    img: 'numberline',
+    grade: 'g6, g7, g8'
   },
   {
     id: 'clock-sc',
     label: 'Time',
     img: 'clock',
+    grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'games-sc',
+    label: 'Games',
+    img: 'brain',
     grade: 'kg, g1, g2, g3, g4, g5, g6, g7, g8'
   },
   {
@@ -1825,6 +1850,12 @@ const mathSc = [
     label: 'Fraction',
     img: 'fraction',
     grade: 'g3, g4, g5'
+  },
+  {
+    id: 'fraction-2',
+    label: 'Fraction',
+    img: 'fraction',
+    grade: 'g6, g7, g8'
   },
   {
     id: 'math-puzzle-sc',
@@ -1845,18 +1876,121 @@ const mathSc = [
     grade: 'g6, g7, g8'
   },
   {
+    id: 'quick-math-3',
+    label: 'Quick Math',
+    img: 'quick',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'quick-math-4',
+    label: 'Quick Math',
+    img: 'quick',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'quick-math-5',
+    label: 'Quick Math',
+    img: 'quick',
+    grade: 'g6, g7, g8'
+  },
+  {
+    id: 'measurement',
+    label: 'Measurement',
+    img: 'scale',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'algebra',
+    label: 'Algebra',
+    img: 'algebra',
+    grade: 'g6, g7, g8'
+  },
+  {
     id: 'geometry-sc',
     label: 'Geometry',
     img: 'protractor',
     grade: 'kg, g1, g2'
   },
   {
+    id: 'geometry',
+    label: 'Geometry',
+    img: 'protractor',
+    grade: 'g3, g4, g5'
+  },
+  {
+    id: 'geometry-2',
+    label: 'Geometry',
+    img: 'protractor',
+    grade: 'g6, g7, g8'
+  },
+  {
     id: 'money-sc',
     label: 'Money',
     img: 'money',
     grade: 'kg, g1, g2'
+  },
+  {
+    id: 'money',
+    label: 'Money',
+    img: 'money',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'information-3',
+    label: 'Chart',
+    img: 'chart',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'information',
+    label: 'Chart',
+    img: 'chart',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    label: 'Patterns',
+    id: 'pattern-kid',
+    img: 'pattern',
+    grade: 'kg, g1, g2'
+  },
+  {
+    label: 'Patterns',
+    id: 'pattern',
+    img: 'pattern',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'word-problems-1',
+    label: 'Word Problems',
+    img: 'word-problem',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'word-problems',
+    label: 'Word Problems',
+    img: 'word-problem',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'sudoku-sc',
+    label: 'Sudoku',
+    img: 'sudoku',
+    grade: 'kg, g1, g2'
+  },
+  {
+    id: 'sudoku-3-sc',
+    label: 'Sudoku',
+    img: 'sudoku',
+    grade: 'g3, g4, g5, g6, g7, g8'
+  },
+  {
+    id: 'math-workout',
+    label: 'Workouts',
+    img: 'solution-steps',
+    grade: 'g3, g4, g5, g6, g7, g8'
   }
 ];
+*/
 
 export default {
   id: 'more-playlists',
@@ -1882,6 +2016,11 @@ export default {
       id: 'math',
       list: math
     },
+    /*
+    {
+      id: 'math-sc',
+      list: mathSc
+    },*/
     {
       id: 'science',
       list: science
@@ -1897,10 +2036,6 @@ export default {
     {
       id: 'general',
       list: general
-    },
-    {
-      id: 'test',
-      list: mathSc
     }
   ]
 };

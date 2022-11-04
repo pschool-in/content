@@ -5,6 +5,11 @@ export default {
   style: {
     fontSize: '0.9rem'
   },
+  appLink: {
+    label: 'Download PSchool Math app from Play Store dedicated for Maths.',
+    androidLink:
+      'https://play.google.com/store/apps/details?id=app.pschool.math'
+  },
   gradeFilter: [
     {
       value: 'kg',

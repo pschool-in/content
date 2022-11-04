@@ -352,17 +352,6 @@ trident| திரிசூலம்`
     },
     {
       type: 'completeWord',
-      label: 'விலங்குகள்',
-      id: 'animals',
-      commonData: {
-        images: 'custom',
-        lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
-      },
-      data: []
-    },
-    {
-      type: 'completeWord',
       label: 'பறவைகள்',
       id: 'birds',
       data: {
