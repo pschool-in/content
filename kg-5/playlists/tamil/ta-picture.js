@@ -60,7 +60,6 @@ bat| வௌவால்
 garden-lizard| ஓணான்`
       ]
     },
-
     {
       type: 'dragDropImgLabel',
       label: 'பறவைகள்',
