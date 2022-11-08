@@ -178,7 +178,7 @@ kudam, குடம்
 cup, கோப்பை
 bowl, கிண்ணம்`,
 
-        `almond, பாதாம்
+`almond, பாதாம்
 cashewnut, முந்திரி
 rice,அரிசி
 salt, உப்பு
