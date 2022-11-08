@@ -51,7 +51,7 @@ tractor, இழுவை இயந்திரம்
 cart, கட்டை வண்டி
 fire-engine, தீயணைப்பு வாகனம்
 lorry, சரக்குந்து
-rocket, ஏவுகனை
+rocket, ஏவுகணை 
 submarine, நீர்மூழ்கிக்கப்பல்
 bullock-cart, மாட்டுவண்டி
 horse-carriage, குதிரைவண்டி`,
@@ -85,8 +85,9 @@ laptop, மடிக்கணினி`,
           saw, ரம்பம்
           microscope, நுண்ணோக்கி
           plier, இடுக்கி
-          Plough, கலப்பை
-          spade, மண்வெட்டி
+          Plough, கலப்பை`,
+
+          `spade, மண்வெட்டி
           trowel, கரணை
 awl, குத்தூசி
 compass, திசைகாட்டி
@@ -160,7 +161,7 @@ cart, கட்டை வண்டி`,
 
         `fire-engine, தீயணைப்பு வாகனம்
 lorry, சரக்குந்து
-rocket, ஏவுகனை
+rocket, ஏவுகணை 
 submarine, நீர்மூழ்கிக்கப்பல்
 bullock-cart, மாட்டுவண்டி
 horse-carriage, குதிரைவண்டி`

@@ -49,9 +49,19 @@ juice, பழச்சாறு
 sweets,இனிப்பு
 bread, ரொட்டி
 soup, சூப்
-laddu, லட்டு
+ladoo, லட்டு
 murukku, முறுக்கு
 adirasam, அதிரசம்`,
+
+          `lollipop, மிட்டாய்
+butter, வெண்ணெய்
+meat, இறைச்சி
+chicken, கோழிக்கறி
+cheese, பாலாடைக்கட்டி
+ellumittai, எள்ளுமிட்டாய்
+kadalai-mittai, கடலைமிட்டாய்
+soft-drink, குளிர்பானம்
+ice-cream, பனிக்கூழ்`,
 
           `malli, மள்ளி
 seeragam, சீரகம்
@@ -135,7 +145,7 @@ sweets,இனிப்பு`,
 
         `bread, ரொட்டி
 soup, சூப்
-laddu, லட்டு
+ladoo, லட்டு
 murukku, முறுக்கு
 adirasam, அதிரசம்`,
 

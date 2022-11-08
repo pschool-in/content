@@ -70,7 +70,7 @@ thumbaipoo, தும்பைப்பூ
 vaadamalli, வாடாமல்லி
 veepampoo, வேப்பம்பூ
 bougainvillea, காகிதப்பூ
-mangolia, செண்பகப்பூ
+magnolia, செண்பகப்பூ
 periwinkle, நித்தியகல்யாணிப்பூ`,
           `# உடல் உறுப்புகள்`,
           `ear, காது
@@ -172,7 +172,7 @@ thumbaipoo, தும்பைப்பூ`,
         `vaadamalli, வாடாமல்லி
 veepampoo, வேப்பம்பூ
 bougainvillea, காகிதப்பூ
-mangolia, செண்பகப்பூ
+magnolia, செண்பகப்பூ
 periwinkle, நித்தியகல்யாணிப்பூ`
       ]
     },

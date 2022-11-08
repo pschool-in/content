@@ -32,7 +32,7 @@ ball, பந்து`,
 glasses, மூக்கு கண்ணாடி
 clock, கடிகாரம்
 watch, கைக்கடிகாரம்
-flower-pot, பூத்தொட்டி
+flower-pot, பூந்தொட்டி
 broom, துடைப்பம்
 shelf, அலமாரி
 air-conditioner, குளிரூட்டி
@@ -123,7 +123,7 @@ glasses, மூக்கு கண்ணாடி
 clock, கடிகாரம்`,
 
         `watch, கைக்கடிகாரம்
-flower-pot, பூத்தொட்டி
+flower-pot, பூந்தொட்டி
 broom, துடைப்பம்
 shelf, அலமாரி
 air-conditioner, குளிரூட்டி`,
