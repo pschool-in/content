@@ -74,25 +74,6 @@ kidney| சிறுநீரகம்`
       ]
     },
     {
-      type: 'dragDropImgLabel',
-      label: 'உணவு',
-      id: 'drag-drop-cereals',
-      commonData: {
-        title: 'படங்களுடன் பெயரைப் பொருத்துக'
-      },
-      data: [
-    `almond| பாதாம்
-cashewnut| முந்திரி
-rice|அரிசி
-salt| உப்பு`,
-
-        `flour| மாவு
-wheat| கோதுமை
-paddy| நெல்
-pepper| மிளகு`
-  ]
-},
-    {
       id: 'match-words',
       type: 'match',
       label: 'பொருத்துக : இன்னும் சில சொற்கள்',
@@ -136,8 +117,8 @@ pepper| மிளகு`
 கி, twig
 ம, medicine
 யா, yagna`,
-          `
-          நூ, yarn-ball
+          
+`நூ, yarn-ball
           மு, rishi
           ப, toothbrush
           தி, trident`,
@@ -146,7 +127,6 @@ pepper| மிளகு`
 சு, pouch
 ப, toothpaste
 த, water-tower`
-    
       ]
     },
     {
@@ -168,26 +148,6 @@ pepper| மிளகு`
 
       ]
     },
-    {
-      id: 'match-food',
-      type: 'match',
-      label: 'பொருத்துக : உணவு',
-      commonData: {
-        title: 'படத்தையும் அதன் முதல் எழுத்தையும் பொருத்துக ',
-        rightImgType: 'custom',
-        big: true
-      },
-      data: [
-    `பா, almond
-    மு, cashewnut
-    அ, rice
-    உ, salt`,
-
-        `மா, flour 
-        கோ, wheat
-நெ, paddy
-மி, pepper`]
-      },
       {
         type: 'completeWord',
         label: 'நிரப்புக: சொற்கள்',
@@ -261,28 +221,6 @@ pepper| மிளகு`
       liver| கல்லீரல்| _ல்லீரல்| க,வ,ச,ப
       kidney| சிறுநீரகம்| _றுநீரகம்| சி,கி,மி,நி`  
     ]
-  },
-
-{
-      type: 'completeWord',
-      label: 'நிரப்புக: உணவு',
-      id: 'complete-cereals',
-      commonData: {
-        images: 'custom',
-        lang: 'ta',
-        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
-      },
-      data: [
-      `almond| பாதாம்| _தாம்| பா,மா,தா,கா
-      cashewnut| முந்திரி| _ந்திரி| மு, பு, நு, சு 
-      rice|அரிசி|_ரிசி|அ,ம,ப,த
-      salt| உப்பு| _ப்பு| உ,ம,ப,அ`,
-      
-      `flour| மாவு| _வு| மா,பா,தா,கா
-    paddy| நெல்| _ல்| நெ,தே, தெ, சே
-    wheat| கோதுமை| _துமை| கோ, தோ ,நோ ,போ
-    pepper| மிளகு| மிளகு| மி,நி,சி,தி`
-      ]
-    }
+  }
     ]
 };
