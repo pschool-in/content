@@ -140,7 +140,7 @@ bear| கரடி | ___ `,
     {
       type: 'connectLetters',
       label: 'எழுத்துக்களை இணைக்கவும்',
-      id: 'connect-fruits',
+      id: 'connect-words',
       commonData: {
         title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
         printTitle: 'Form the word using the letters.',
