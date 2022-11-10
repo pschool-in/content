@@ -7,6 +7,38 @@ export default {
       id: 'more',
       list: [
         {
+          label: 'ஓசை: விலங்குகளும் பறவைகளும',
+          id: 'ta-sound'
+        },
+        {
+          label: 'ஓசை: உணவு வகைகள்',
+          id: 'ta-sound-2'
+        },
+        {
+          label: 'ஓசை: இயற்கை',
+          id: 'ta-sound-3'
+        },
+        {
+          label: 'ஓசை: நம் வீடு',
+          id: 'ta-sound-4'
+        },
+        {
+          label: 'ஓசை: விலங்குகளும் பறவைகளும - 2',
+          id: 'ta-sound-5'
+        },
+        {
+          label: 'ஓசை: உணவு வகைகள் - 2',
+          id: 'ta-sound-6'
+        },
+        {
+          label: 'ஓசை: மனிதன் - வேலை - கருவி',
+          id: 'ta-sound-7'
+        },
+        {
+          label: 'ஓசை: இன்னும் சில சொற்கள்',
+          id: 'ta-sound-8'
+        },
+        {
           label: 'விலங்குகளும் பறவைகளும',
           id: 'ta-picture'
         },
@@ -39,12 +71,36 @@ export default {
           id: 'ta-picture-8'
         },
         {
-          label: 'மீண்டும் படம்',
-          id: 'ta-picture-2'
+          label: 'எழுதுக: விலங்குகளும் பறவைகளும',
+          id: 'ta-pic-words'
         },
         {
-          label: 'மீண்டும் படம் 2',
-          id: 'ta-picture-3'
+          label: 'எழுதுக: உணவு வகைகள்',
+          id: 'ta-pic-words-2'
+        },
+        {
+          label: 'எழுதுக: இயற்கை',
+          id: 'ta-pic-words-3'
+        },
+        {
+          label: 'எழுதுக: நம் வீடு',
+          id: 'ta-pic-words-4'
+        },
+        {
+          label: 'எழுதுக: விலங்குகளும் பறவைகளும - 2',
+          id: 'ta-pic-words-5'
+        },
+        {
+          label: 'எழுதுக: உணவு வகைகள் - 2',
+          id: 'ta-pic-words-6'
+        },
+        {
+          label: 'எழுதுக: மனிதன் - வேலை - கருவி',
+          id: 'ta-pic-words-7'
+        },
+        {
+          label: 'எழுதுக: இன்னும் சில சொற்கள்',
+          id: 'ta-pic-words-8'
         },
         {
           label: 'எழுத்துக்கள் - 2',

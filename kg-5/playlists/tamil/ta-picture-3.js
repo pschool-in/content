@@ -164,7 +164,7 @@ beard| தாடி`
       ]
     },
     {
-      id: 'match-bodyparts',
+      id: 'match-flowers',
       type: 'match',
       label: 'பூக்கள் - பொருத்துக',
       commonData: {
@@ -202,10 +202,8 @@ beard| தாடி`
 கா, bougainvillea
 செ, magnolia
 நி,periwinkle`
-
       ]
     },
-
 
     {
       id: 'match-bodyparts',
@@ -229,7 +227,6 @@ beard| தாடி`
                 நெ, forehead
                 மீ, mustache
                 தா, beard`
-
       ]
     },
     {
@@ -343,6 +340,5 @@ beard| தாடி`
     beard| தாடி| _டி| தா,கா,வா,பா`
       ]
     }
-
   ]
 };

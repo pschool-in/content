@@ -1,6 +1,6 @@
 export default {
   label: 'எழுதுக:  உணவு வகைகள் - 2',
-  id: 'ta-pic-words-2',
+  id: 'ta-pic-words-6',
   img: 'sound',
   list: [
     {
