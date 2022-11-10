@@ -129,6 +129,141 @@ export default {
             'மல்லி,  சீரகம்,  சோம்பு,  பட்டாணி,  மொச்சை,  உளுந்து,  பாசிப்பருப்பு,  துவரம்பருப்பு,  கடலைப்பருப்பு,  கொண்டைக்கடலை'
         }
       ]
+    },
+    {
+      type: 'completeWord',
+      label: 'நிரப்புக',
+      id: 'complete-words',
+      commonData: {
+        images: 'custom',
+        lang: 'ta',
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
+      },
+      data: [
+    `sweet-potato|  சர்க்கரைவள்ளிக்கிழங்கு|_____________
+    jamun| நாவல்பழம்|______
+    pear| பேரிக்காய்|_____
+    wood-apple| விளாம்பழம்|______
+    jujube| இலந்தைப்பழம்|________`,
+    
+    `sapotta| சப்போட்டா|_____
+    tapioca| மரவள்ளிக்கிழங்கு|__________
+    fig| அத்திப்பழம்|_______
+    pears| பேரிக்காய்|_____
+    muskmelon| முலாம்பழம்|______`,
+    `capsicum| குடைமிளகாய்|______
+    cucumber| வெள்ளரிக்காய்|_______
+    corn| மக்காச்சோளம்|_______
+    broad-beans| அவரைக்காய்|______
+    ridgegourd| பீர்க்கங்காய்|_______
+    ivygourd| கோவைக்காய்|_____`,
+    
+    `kohlrabi| நூல்கோல்|____
+    snake-gourd| புடலங்காய்|______
+    spring-onion| வெங்காயத்தாள்|_______
+    banana-stem| வாழைத்தண்டு|______
+    cluster-beans| கொத்தவரங்காய்|________
+    beans| பீன்ஸ்|___`,
+    
+              `fenugreek| வெந்தயக்கீரை|_______
+    drumstick-leaves| முருங்கைக்கீரை|_______
+    greenpeas| பச்சைபட்டாணி|_______
+    peanut| வேர்க்கடலை|______
+    tulsi| துளசி|___`,
+
+    `pajji| பஜ்ஜி|___
+    fruits| பழங்கள்|_____
+    vegetables| காய்கறிகள்|______
+    juice| பழச்சாறு|_____
+    sweets|இனிப்பு|____
+    bread| ரொட்டி|___`,
+    
+    `soup| சூப்|__
+    laddu| லட்டு|___
+    murukku| முறுக்கு|____
+    adirasam| அதிரசம்|_____
+    malli| மல்லி|___`,
+    
+              `sombu| சோம்பு|___
+    pattani| பட்டாணி|____
+    mochai| மொச்சை|___
+    urad-dhal| உளுந்து|____
+    seeragam| சீரகம்|____`,
+    
+    `moong-dhal| பாசிப்பருப்பு|_______
+    toor-dhal| துவரம்பருப்பு|________
+    kadalai-paruppu| கடலைப்பருப்பு|________
+    chickpea| கொண்டைக்கடலை|_______`
+  ]
+},    
+{
+      type: 'connectLetters',
+      label: 'எழுத்துக்களை இணைக்கவும்',
+      id: 'connect-words',
+      commonData: {
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'ta',
+        fontSize: '1rem'
+      },
+      data: [
+    `sweet-potato,  சர்க்கரைவள்ளி கிழங்கு
+    jamun, நாவல் பழம்
+    pear, பேரிக்காய்
+    wood-apple, விளாம்பழம்
+    jujube, இலந்தைப்பழம்`,
+    
+    `sapotta, சப்போட்டா
+    tapioca, மரவள்ளிக்கிழங்கு
+    fig, அத்திப்பழம்
+    pears, பேரிக்காய்
+    muskmelon, முலாம்பழம்`,
+
+    `capsicum, குடைமிளகாய்
+    cucumber, வெள்ளரிக்காய்
+    corn, மக்காச்சோளம்
+    broad-beans, அவரைக்காய்
+    ridgegourd, பீர்க்கங்காய்
+    ivygourd, கோவைக்காய்`,
+    
+    `kohlrabi, நூல்கோல்
+    snake-gourd, புடலங்காய்
+    spring-onion, வெங்காயத்தாள்
+    banana-stem, வாழைத்தண்டு
+    cluster-beans, கொத்தவரங்காய்
+    beans, பீன்ஸ்`,
+    
+              `fenugreek, வெந்தயக்கீரை
+    drumstick-leaves, முருங்கைக்கீரை
+    greenpeas, பச்சை பட்டாணி
+    peanut, வேர்க்கடலை
+    tulsi, துளசி`,
+
+    `pajji, பஜ்ஜி
+    fruits, பழங்கள்
+    vegetables, காய்கறிகள்
+    juice, பழச்சாறு
+    sweets,இனிப்பு
+    bread, ரொட்டி`,
+    
+    `soup, சூப்
+    laddu, லட்டு
+    murukku, முறுக்கு
+    adirasam, அதிரசம்
+    malli, மல்லி`,
+    
+              `sombu, சோம்பு
+    pattani, பட்டாணி
+    mochai, மொச்சை
+    urad-dhal, உளுந்து
+    seeragam, சீரகம்`,
+    
+    `moong-dhal, பாசிப்பருப்பு
+    toor-dhal, துவரம்பருப்பு
+    kadalai-paruppu, கடலைப்பருப்பு
+    chickpea, கொண்டைக்கடலை`
+  ]
     }
   ]
 };

@@ -91,6 +91,116 @@ export default {
             'மீன் கொத்தி,  கோழிக்குஞ்சு,  நெருப்புக்கோழி,  மரங்கொத்தி,  சிட்டுக்குருவி,  பருந்து,  அன்னப்பறவை,  மணிப்புறா,  வான்கோழி,  பஞ்சவர்ணக்கிளி'
         }
       ]
+    },
+    {
+      type: 'completeWord',
+      label: 'நிரப்புக',
+      id: 'complete-words',
+      commonData: {
+        images: 'custom',
+        lang: 'ta',
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
+      },
+      data: [
+        `sheep| செம்மறி ஆடு|______
+        hippo| நீர்யானை|____
+        giraffe| ஒட்டகச்சிவிங்கி|_________
+        rhino| காண்டாமிருகம்|_______
+        crocodile| முதலை|___
+        wolf| ஓநாய்|___`,
+
+        `zebra| வரிக்குதிரை|______
+        hyena| கழுதைப்புலி|______
+        |porcupine| முள்ளம்பன்றி|_______
+        polarbear| பனிக்கரடி|______
+        boar| காட்டுப்பன்றி|_______
+          python| மலைப்பாம்பு|______`,
+
+        ` bison| காட்டெருமை|_____
+        chameleon| பச்சோந்தி|_____
+        shark| சுறாமீன்|____
+        whale| திமிங்கிலம்|______
+        goldfish| தங்கமீன்|_____
+        ladybug| பொன்வண்டு|_____`,
+
+        ` seahorse| கடற்குதிரை|______
+        butterfly| வண்ணத்துப்பூச்சி|_________
+          cockroach| கரப்பான்பூச்சி|________
+          mongoose| கீரிப்பிள்ளை|______
+          hamster| வெள்ளெலி|____`,
+
+        `caterpillar| கம்பளிப்பூச்சி|________
+          starfish| நட்சத்திரமீன்|________
+          hedgehog| முள்ளெலி|____
+          stingray| திருக்கைமீன்|______`,
+          `kingfisher| மீன்கொத்தி|_____
+          chick| கோழிக்குஞ்சு|______
+          ostrich| நெருப்புக்கோழி|_______
+          woodpecker| மரங்கொத்தி|______
+          sparrow| சிட்டுக்குருவி|_______
+          falcon| பருந்து|____`,
+  
+          `swan| அன்னப்பறவை|_______
+          spotted-dove| மணிப்புறா|_____
+          turkey| வான்கோழி|____
+          macaw| பஞ்சவர்ணக்கிளி|_________`,
+      ]
+    },
+    {
+      type: 'connectLetters',
+      label: 'எழுத்துக்களை இணைக்கவும்',
+      id: 'connect-words',
+      commonData: {
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'ta',
+        fontSize: '1rem'
+      },
+      data: [
+        `sheep, செம்மறி ஆடு
+        hippo, நீர்யானை
+        giraffe, ஒட்டகச்சிவிங்கி
+        rhino, காண்டாமிருகம்
+        crocodile, முதலை
+        wolf, ஓநாய்`,
+
+        `zebra, வரிக்குதிரை
+        hyena, கழுதைப் புலி
+        porcupine, முள்ளம்பன்றி
+        polarbear, பனிக்கரடி
+        boar, காட்டுப் பன்றி
+          python, மலைப்பாம்பு`,
+
+        ` bison, காட்டெருமை
+        chameleon, பச்சோந்தி
+        shark, சுறாமீன்
+        whale, திமிங்கிலம்
+        goldfish, தங்கமீன்
+        ladybug, பொன்வண்டு`,
+
+        ` seahorse, கடற்குதிரை
+        butterfly, வண்ணத்துப்பூச்சி
+          cockroach, கரப்பான் பூச்சி
+          mongoose, கீரிப்பிள்ளை
+          hamster, வெள்ளெலி`,
+
+        `caterpillar, கம்பளிப்பூச்சி
+          starfish, நட்சத்திர மீன்
+          hedgehog, முள்ளெலி
+          stingray, திருக்கை மீன்`,
+          `kingfisher, மீன்கொத்தி
+          chick, கோழிக்குஞ்சு
+          ostrich, நெருப்புக்கோழி
+          woodpecker, மரங்கொத்தி
+          sparrow, சிட்டுக்குருவி
+          falcon, பருந்து`,
+  
+          `swan, அன்னப்பறவை
+          spotted-dove, மணிப்புறா
+          turkey, வான்கோழி
+          macaw, பஞ்சவர்ணக்கிளி`
+      ]
     }
   ]
 };

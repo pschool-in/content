@@ -168,6 +168,204 @@ export default {
             'மண்வெட்டி,  கரணை,  குத்தூசி,  திசைகாட்டி,  திருகு,  திருப்புளி,  தொலைநோக்கி,  சோதனை குழாய்'
         }
       ]
+    },
+    {
+      type: 'completeWord',
+      label: 'நிரப்புக',
+      id: 'complete-words',
+      commonData: {
+        images: 'custom',
+        lang: 'ta',
+        title: 'விடுபட்ட எழுத்தை தேர்வு செய்க'
+      },
+      data: [
+        `postman| தபால்காரர்|______
+        teacher| ஆசிரியர்|_____
+        nurse| செவிலியர்|_____
+        chef| சமையல்காரர்|_______
+        doctor| மருத்துவர்|______
+        police| காவலர்|____`,
+
+        `fisherman| மீனவர்|____
+        sailor| மாலுமி|___
+        carpenter| தச்சர்|____
+        weaver| நெசவாளர்|_____
+        soldier| சிப்பாய்|____
+        astronaut| விண்வெளிவீரர்|_______`,
+
+        `clown| கோமாளி|___
+        barber| முடிதிருத்துபவர்|_________
+        washerman| சலவைதொழிலாளர்|_________
+        blacksmith| கொல்லன்|____
+        cobbler| செருப்புதைப்பவர்|_________
+        potter| குயவன்|____`,
+
+        `diver| நீர்மூழ்கிவீரர்|________
+        milkman| பால்காரர்|_____
+        shopkeeper| கடைக்காரர்|______
+        warrior| போர்வீரர்|_____
+        goldsmith| பொற்கொல்லர்|______`
+
+        `bus| பேருந்து|____
+        car| மகிழுந்து|_____
+        cycle| மிதிவண்டி|_____
+        aeroplane| விமானம்|____
+        boat| படகு|___
+        ship| கப்பல்|____`,
+
+        `train| தொடர்வண்டி|______
+        palanquin| பல்லக்கு|_____
+        chariot| தேர்|__
+        ambulance| அவசரஊர்தி|_______
+        tractor| இழுவைஇயந்திரம்|_________
+        cart| கட்டைவண்டி|______`,
+
+        `fire-engine| தீயணைப்புவாகனம்|_________
+        lorry| சரக்குந்து|______
+        rocket| ஏவுகனை|____
+        submarine| நீர்மூழ்கிக்கப்பல்|__________
+        bullock-cart| மாட்டுவண்டி|______
+        horse-carriage| குதிரைவண்டி|______`
+        ` veenai| வீணை|__
+                  conch| சங்கு|___
+                  drums| முரசு|___
+                  dhol| மத்தளம்|_____
+                  flute| புல்லாங்குழல்|_______`,
+
+        `tabla| தபேலா|___
+                  violin| வயலின்|____
+                  yazl| யாழ்|__
+                  damaru| உடுக்கை|____
+                  nadaswaram| நாதசுவரம்|______`,
+
+                  `camera| புகைப்படக்கருவி|_________
+        smartphone| கைபேசி|___
+        speaker| ஒலிப்பெருக்கி|_______
+        tv| தொலைக்காட்சி|______
+        computer| கணினி|___
+        laptop| மடிக்கணினி|______`,
+
+        `balance| தராசு|___
+                  blackboard| கரும்பலகை|______
+                  hose| குழாய்|___
+                  needle| ஊசி|__
+                  axe| கோடரி|___
+                  thermometer| வெப்பமானி|_____`,
+
+        `saw| ரம்பம்|____
+                  microscope| நுண்ணோக்கி|_____
+                  plier| இடுக்கி|____
+                  Plough| கலப்பை|____
+                  spade| மண்வெட்டி|_____
+                  trowel| கரணை|___`,
+
+        `awl| குத்தூசி|____
+        compass| திசைகாட்டி|_____
+        screw| திருகு|___
+        screwdriver| திருப்புளி|_____
+        telescope| தொலைநோக்கி|_____
+        test-tube| சோதனைக்குழாய்|_______`
+      ]
+    },
+    {
+      type: 'connectLetters',
+      label: 'எழுத்துக்களை இணைக்கவும்',
+      id: 'connect-words',
+      commonData: {
+        title: 'எழுத்துக்களை இணைத்து சொல் உருவாக்குக ',
+        printTitle: 'Form the word using the letters.',
+        type: 'image',
+        lang: 'ta',
+        fontSize: '1rem'
+      },
+      data: [
+        `postman, தபால்காரர்
+        teacher, ஆசிரியர்
+        nurse, செவிலியர்
+        chef, சமையல்காரர்
+        doctor, மருத்துவர்
+        police, காவலர்`,
+
+        `fisherman, மீனவர்
+        sailor, மாலுமி
+        carpenter, தச்சர்
+        weaver, நெசவாளர்
+        soldier, சிப்பாய்
+        astronaut, விண்வெளி வீரர்`,
+
+        `clown, கோமாளி
+        barber, முடிதிருத்துபவர்
+        washerman, சலவைதொழிலாளர்
+        blacksmith, கொல்லன்
+        cobbler, செருப்புதைப்பவர்
+        potter, குயவன்`,
+
+        `diver, நீர்மூழ்கிவீரர்
+        milkman, பால்காரர்
+        shopkeeper, கடைக்காரர்
+        warrior, போர்வீரர்
+        goldsmith, பொற்கொல்லர்`
+
+        `bus, பேருந்து
+        car, மகிழுந்து
+        cycle, மிதிவண்டி
+        aeroplane, விமானம்
+        boat, படகு
+        ship, கப்பல்`,
+
+        `train, தொடர்வண்டி
+        palanquin, பல்லக்கு
+        chariot, தேர்
+        ambulance, அவசர ஊர்தி
+        tractor, இழுவை இயந்திரம்
+        cart, கட்டை வண்டி`,
+
+        `fire-engine, தீயணைப்பு வாகனம்
+        lorry, சரக்குந்து
+        rocket, ஏவுகனை
+        submarine, நீர்மூழ்கிக்கப்பல்
+        bullock-cart, மாட்டுவண்டி
+        horse-carriage, குதிரைவண்டி`
+
+        ` veenai, வீணை
+                  conch, சங்கு
+                  drums, முரசு
+                  dhol, மத்தளம்
+                  flute, புல்லாங்குழல்`,
+
+        `tabla, தபேலா
+                  violin, வயலின்
+                  yazl, யாழ்
+                  damaru, உடுக்கை
+                  nadaswaram, நாதசுவரம்`,
+                  `camera, புகைப்பட கருவி
+        smartphone, கைபேசி
+        speaker, ஒலிபெருக்கி
+        tv, தொலைக்காட்சி
+        computer, கணினி
+        laptop, மடிக்கணினி`,
+
+        `balance, தராசு
+                  blackboard, கரும்பலகை
+                  hose, குழாய்
+                  needle, ஊசி
+                  axe, கோடரி
+                  thermometer, வெப்பமானி`,
+
+        `saw, ரம்பம்
+                  microscope, நுண்ணோக்கி
+                  plier, இடுக்கி
+                  Plough, கலப்பை
+                  spade, மண்வெட்டி
+                  trowel, கரணை`,
+
+        `awl, குத்தூசி
+        compass, திசைகாட்டி
+        screw, திருகு
+        screwdriver, திருப்புளி
+        telescope, தொலைநோக்கி
+        test-tube, சோதனை குழாய்`
+      ]
     }
   ]
 };
