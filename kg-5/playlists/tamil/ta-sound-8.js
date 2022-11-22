@@ -14,52 +14,52 @@ export default {
       data: [
         {
           text: `ring| மோதிரம்
-          bell| மணி
-          kolam| கோலம்
-          balloon| பலூன்
-          five| ஐந்து
-          king| அரசன்
-          kite| பட்டம்
-          ladder| ஏணி
-          rooftile| ஓடு
-          wheel| சக்கரம்`
+bell| மணி
+kolam| கோலம்
+balloon| பலூன்
+five| ஐந்து
+king| அரசன்
+kite| பட்டம்
+ladder| ஏணி
+rooftile| ஓடு
+wheel| சக்கரம்`
         },
         {
           audioOffset: 20,
           text: `park| பூங்கா
-          garden| தோட்டம்
-          auvai| ஔவை
-          bow| வில்
-          arrow| அம்பு
-          top| பம்பரம்
-          stick| குச்சி
-          whistle| ஊதல்
-          box| பெட்டி
-          coin| நாணயம்`
+garden| தோட்டம்
+auvai| ஔவை
+bow| வில்
+arrow| அம்பு
+top| பம்பரம்
+stick| குச்சி
+whistle| ஊதல்
+box| பெட்டி
+coin| நாணயம்`
         },
         {
           audioOffset: 40,
           text: `brick| செங்கல்
-          sculpture | சிற்பம்
-          clay-lamp| அகல்விளக்கு
-          salangai| சலங்கை
-          fountain| நீரூற்று
-          brush| தூரிகை
-          hexagon| அறுகோணம்
-          twig| கிளை
-          medicine| மருந்து`
+sculpture | சிற்பம்
+clay-lamp| அகல்விளக்கு
+salangai| சலங்கை
+fountain| நீரூற்று
+brush| தூரிகை
+hexagon| அறுகோணம்
+twig| கிளை
+medicine| மருந்து`
         },
         {
           audioOffset: 58,
           text: `yagna| யாகம்
-            yarn-ball| நூல் கண்டு
-            rishi| முனிவர்
-            pouch| சுருக்குப்பை
-            trident| திரிசூலம்
-            radio| வானொலி
-            toothbrush| பற்குச்சி
-            toothpaste| பற்பசை
-            water-tower| தண்ணீர் தொட்டி`
+yarn-ball| நூல் கண்டு
+rishi| முனிவர்
+pouch| சுருக்குப்பை
+trident| திரிசூலம்
+radio| வானொலி
+toothbrush| பற்குச்சி
+toothpaste| பற்பசை
+water-tower| தண்ணீர் தொட்டி`
         }
       ]
     },
@@ -72,11 +72,11 @@ export default {
         audio: 'ta/ta-others-organs.mp3',
         audioOffset: 76,
         text: `heart| இதயம்
-        brain| மூளை
-        lungs| நுரையீரல்
-        stomach| வயிறு
-        liver| கல்லீரல்
-        kidney| சிறுநீரகம்`
+brain| மூளை
+lungs| நுரையீரல்
+stomach| வயிறு
+liver| கல்லீரல்
+kidney| சிறுநீரகம்`
       }
     },
     {

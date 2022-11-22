@@ -121,8 +121,7 @@ const dragdrop = {
           { word: 'mouse', x: 30, y: 215 },
           { word: 'keyboard', x: 140, y: 230 },
           { word: 'printer', x: 225, y: 72 }
-        ],
-        
+        ]
       }
     },
     {
@@ -177,6 +176,28 @@ const dragdrop = {
             x: 260,
             y: 360
           }
+        ]
+      }
+    },
+    {
+      type: 'dragAndDrop',
+      id: 'rainbow',
+      label: 'Rainbow',
+      data: {
+        img: 'rainbow.jpg',
+        fontSize: '1.4rem',
+        title: 'Match the colors of a rainbow.',
+        width: 350,
+        height: 350,
+        wordWidth: 80,
+        words: [
+          { word: 'red', x: 50, y: 40 },
+          { word: 'orange', x: 35, y: 320 },
+          { word: 'yellow', x: 240, y: 30 },
+          { word: 'green', x: 250, y: 140 },
+          { word: 'blue', x: 250, y: 180 },
+          { word: 'indigo', x: 250, y: 230 },
+          { word: 'violet', x: 250, y: 300 }
         ]
       }
     },

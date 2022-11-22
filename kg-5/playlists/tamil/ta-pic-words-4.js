@@ -188,15 +188,15 @@ export default {
       },
       data: [
         `house| வீடு|__
-        table| மேசை|__
-        bed| கட்டில்|____
-        chair| நாற்காலி|____
-        umbrella| குடை|__
-        door| கதவு|___`,
+table| மேசை|__
+bed| கட்டில்|____
+chair| நாற்காலி|____
+umbrella| குடை|__
+door| கதவு|___`,
 
         `window| ஜன்னல்|____
-        toilet| கழிப்பறை|_____
-        baby| குழந்தை|____
+toilet| கழிப்பறை|_____
+baby| குழந்தை|____
 boy| சிறுவன்|____
 girl| சிறுமி|___
 man| ஆண்|__`,
@@ -220,54 +220,53 @@ pillow| தலையணை|____
 basket| கூடை|__
 dustbin| குப்பைத்தொட்டி|_______
 handbag| கைப்பை|___`,
-` vetti| வேட்டி|___
+        ` vetti| வேட்டி|___
 saree| சேலை|__
 shirt| சட்டை|___
 hat| தொப்பி|___`,
 
-`trousers| கால்சட்டை|_____
+        `trousers| கால்சட்டை|_____
 shoe| காலணி|___
 sock|காலுறை|___
 coat| மேலங்கி|____`,
 
-`pen| பேனா|__
+        `pen| பேனா|__
 pencil| எழுதுகோல்|_____
 ruler| அளவுகோல்|_____
 eraser| அழிப்பான்|_____
 book| புத்தகம்|_____
 ink| மை|_`,
 
-`schoolbag| புத்தகப்பை|______
+        `schoolbag| புத்தகப்பை|______
 scissors| கத்தரிக்கோல்|_______
 waterbottle| தண்ணீர்குடுவை|_______
 calculator| கணிப்பான்|_____
-globe| பூகோளம்|____`
+globe| பூகோளம்|____`,
 
-`clay-stove| அடுப்பு|____
-          pot| பானை|__
-          ladle| கரண்டி|____
-          sembu| செம்பு|___
-          knife|கத்தி|___
-          plate| தட்டு|___`,
+        `clay-stove| அடுப்பு|____
+pot| பானை|__
+ladle| கரண்டி|____
+sembu| செம்பு|___
+knife|கத்தி|___
+plate| தட்டு|___`,
 
         `lid| மூடி|__
-          kudam| குடம்|___
-          cup| கோப்பை|___
-          bowl| கிண்ணம்|____
-          ammi | அம்மி|___
-          stone-grinder| ஆட்டுக்கல்|______`,
+kudam| குடம்|___
+cup| கோப்பை|___
+bowl| கிண்ணம்|____
+ammi | அம்மி|___
+stone-grinder| ஆட்டுக்கல்|______`,
 
         `arivaal| அரிவாள்|____
-          arivaal-manai| அரிவாள்மனை|______
-          anjarai-petti| அஞ்சறைப்பெட்டி|________
-          dosaikal| தோசைக்கல்|_____
-          tap| குழாய்|___`,
+arivaal-manai| அரிவாள்மனை|______
+anjarai-petti| அஞ்சறைப்பெட்டி|________
+dosaikal| தோசைக்கல்|_____
+tap| குழாய்|___`,
 
         `stove| எரிவாயுஅடுப்பு|________
-          fork| முள் கரண்டி|______
-          pan| வாணலி|___
-          fridge| குளிர்சாதன பெட்டி|__________`
-
+fork| முள் கரண்டி|______
+pan| வாணலி|___
+fridge| குளிர்சாதன பெட்டி|__________`
       ]
     },
     {
@@ -283,15 +282,15 @@ globe| பூகோளம்|____`
       },
       data: [
         `house, வீடு
-        table, மேசை
-        bed, கட்டில்
-        chair, நாற்காலி
-        umbrella, குடை
-        door, கதவு`,
+table, மேசை
+bed, கட்டில்
+chair, நாற்காலி
+umbrella, குடை
+door, கதவு`,
 
         `window, ஜன்னல்
-        toilet, கழிப்பறை
-        baby, குழந்தை
+toilet, கழிப்பறை
+baby, குழந்தை
 boy, சிறுவன்
 girl, சிறுமி
 man, ஆண்`,
@@ -315,53 +314,53 @@ pillow, தலையணை
 basket, கூடை
 dustbin, குப்பை தொட்டி
 handbag, கைப்பை`,
-` vetti, வேட்டி
+        ` vetti, வேட்டி
 saree, சேலை
 shirt, சட்டை
 hat, தொப்பி`,
 
-`trousers, கால்சட்டை
+        `trousers, கால்சட்டை
 shoe, காலணி
 sock,காலுறை
 coat, மேலங்கி`,
 
-`pen, பேனா
+        `pen, பேனா
 pencil, எழுதுகோல்
 ruler, அளவுகோல்
 eraser, அழிப்பான்
 book, புத்தகம்
 ink, மை`,
 
-`schoolbag, புத்தகப்பை
+        `schoolbag, புத்தகப்பை
 scissors, கத்தரிக்கோல்
 waterbottle, தண்ணீர் குடுவை
 calculator, கணிப்பான்
-globe, பூகோளம்`
+globe, பூகோளம்`,
 
-`clay-stove, அடுப்பு
-          pot, பானை
-          ladle, கரண்டி
-          sembu, செம்பு
-          knife,கத்தி
-          plate, தட்டு`,
+        `clay-stove, அடுப்பு
+pot, பானை
+ladle, கரண்டி
+sembu, செம்பு
+knife,கத்தி
+plate, தட்டு`,
 
         `lid, மூடி
-          kudam, குடம்
-          cup, கோப்பை
-          bowl, கிண்ணம்
-          ammi , அம்மி
-          stone-grinder, ஆட்டுக்கல்`,
+kudam, குடம்
+cup, கோப்பை
+bowl, கிண்ணம்
+ammi , அம்மி
+stone-grinder, ஆட்டுக்கல்`,
 
         `arivaal, அரிவாள்
-          arivaal-manai, அரிவாள்மனை
-          anjarai-petti, அஞ்சறைப்பெட்டி
-          dosaikal, தோசைக்கல்
-          tap, குழாய்`,
+arivaal-manai, அரிவாள்மனை
+anjarai-petti, அஞ்சறைப்பெட்டி
+dosaikal, தோசைக்கல்
+tap, குழாய்`,
 
         `stove, எரிவாயு அடுப்பு
-          fork, முள் கரண்டி
-          pan, வாணலி
-          fridge, குளிர்சாதன பெட்டி`
+fork, முள் கரண்டி
+pan, வாணலி
+fridge, குளிர்சாதன பெட்டி`
       ]
     }
   ]

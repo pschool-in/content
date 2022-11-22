@@ -28,21 +28,21 @@ polar, துருவம்
 valley, பள்ளத்தாக்கு
 volcano, எரிமலை`,
 
-          `banyan,    ஆலமரம்
-palm-tree, பனைமரம்
-coconut-tree, தென்னைமரம்
-banana-tree, வாழைமரம்
-bamboo-tree, மூங்கில்மரம்
+          `banyan tree, ஆலமரம்
+palm tree, பனைமரம்
+coconut tree, தென்னைமரம்
+banana tree, வாழைமரம்
+bamboo tree, மூங்கில்மரம்
 rainbow, வானவில்
 waterfall, அருவி
 dew, பனித்துளி`,
 
-          `bananaleaf, வாழையிலை
-neemleaf, வேப்பிலை
-mangoleaf, மாவிலை
-coconutleaf, தென்னோலை
+          `banana leaf, வாழையிலை
+neem leaf, வேப்பிலை
+mango leaf, மாவிலை
+coconut leaf, தென்னோலை
 touch-me-not, தொட்டாற் சிணுங்கி
-bone, எலும்பு துண்டு
+bone, எலும்பு
 pebbles, கூழாங்கற்கள்`,
 
           `# பூக்கள்  `,
@@ -52,23 +52,8 @@ sunflower, சூரியகாந்தி
 hibiscus, செம்பருத்தி
 mogra, குண்டு மல்லி
 jasmine, முல்லை
-water-lily, அல்லி
+water lily, அல்லி
 marigold, சாமந்தி
-december, டிசம்பர்
-sangupoo, சங்குப்பூ`,
-          `aavarampoo, ஆவாரம்பூ
-erukkampoo, எருக்கம்பூ
-idlipoo, இட்லிப்பூ
-kanagamaram, கனகாம்பரம்
-kurinchipoo, குறிஞ்சிப்பூ
-nandiyaavattampoo, நந்தியாவட்டம்
-pichipoo, பிச்சிப்பூ
-poosanipoo, பூசணிப்பூ`,
-
-          `poovarasampoo, பூவரசம்பூ
-thumbaipoo, தும்பைப்பூ
-vaadamalli, வாடாமல்லி
-veepampoo, வேப்பம்பூ
 bougainvillea, காகிதப்பூ
 magnolia, செண்பகப்பூ
 periwinkle, நித்தியகல்யாணிப்பூ`,
@@ -116,23 +101,23 @@ ocean, கடல்
 valley, பள்ளத்தாக்கு`,
 
         `polar, துருவம்
-        dew, பனித்துளி
 volcano, எரிமலை
 rainbow, வானவில்
-waterfall, அருவி`,
+waterfall, அருவி
+dew, பனித்துளி`,
 
-        `banyan,    ஆலமரம்
-palm-tree, பனைமரம்
-coconut-tree, தென்னைமரம்
-banana-tree, வாழைமரம்
-bamboo-tree, மூங்கில்மரம்
+        `banyan tree, ஆலமரம்
+palm tree, பனைமரம்
+coconut tree, தென்னைமரம்
+banana tree, வாழைமரம்
+bamboo tree, மூங்கில்மரம்
 touch-me-not, தொட்டாற் சிணுங்கி`,
 
-        `bananaleaf, வாழையிலை
-neemleaf, வேப்பிலை
-mangoleaf, மாவிலை
-coconutleaf, தென்னோலை
-bone, எலும்பு துண்டு
+        `banana leaf, வாழையிலை
+neem leaf, வேப்பிலை
+mango leaf, மாவிலை
+coconut leaf, தென்னோலை
+bone, எலும்பு
 pebbles, கூழாங்கற்கள்`
       ]
     },
@@ -152,25 +137,8 @@ hibiscus, செம்பருத்தி
 mogra, குண்டு மல்லி`,
 
         `jasmine, முல்லை
-water-lily, அல்லி
+water lily, அல்லி
 marigold, சாமந்தி
-december, டிசம்பர்
-sangupoo, சங்குப்பூ`,
-
-        `aavarampoo, ஆவாரம்பூ
-erukkampoo, எருக்கம்பூ
-idlipoo, இட்லிப்பூ
-kanagamaram, கனகாம்பரம்
-kurinchipoo, குறிஞ்சிப்பூ`,
-
-        `nandiyaavattampoo, நந்தியாவட்டம்
-pichipoo, பிச்சிப்பூ
-poosanipoo, பூசணிப்பூ
-poovarasampoo, பூவரசம்பூ
-thumbaipoo, தும்பைப்பூ`,
-
-        `vaadamalli, வாடாமல்லி
-veepampoo, வேப்பம்பூ
 bougainvillea, காகிதப்பூ
 magnolia, செண்பகப்பூ
 periwinkle, நித்தியகல்யாணிப்பூ`

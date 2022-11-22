@@ -153,72 +153,72 @@ export default {
       },
       data: [
         `jackfruit| பலாப்பழம்|______
-        mango| மாம்பழம்|_____
-        banana| வாழைப்பழம்|______
-        guava| கொய்யாப்பழம்|_______
-        grapes| திராட்சை|____
-        orange| ஆரஞ்சு|____`,
-    
-    ` papaya| பப்பாளி|____
-    pineapple| அன்னாசிப்பழம்|________ 
-    watermelon| தர்பூசணி|_____
-    sugarcane| கரும்பு|____
-    gooseberry| நெல்லிக்காய்|______`,
-    
-    `apple| ஆப்பிள்|____
-    pomegranate| மாதுளை|___
-    lemon| எலுமிச்சம்|______
-    custard-apple| சீதாப்பழம்|______
-    dates| பேரிச்சம்பழம்|________`,
+mango| மாம்பழம்|_____
+banana| வாழைப்பழம்|______
+guava| கொய்யாப்பழம்|_______
+grapes| திராட்சை|____
+orange| ஆரஞ்சு|____`,
 
-    `onion| வெங்காயம்|_____
-    tomato| தக்காளி|____
-    brinjal| கத்திரி|____
-    raw-banana| வாழைக்காய்|_____
-    garlic| பூண்டு|___
-    ginger| இஞ்சி|___`,
+        ` papaya| பப்பாளி|____
+pineapple| அன்னாசிப்பழம்|________ 
+watermelon| தர்பூசணி|_____
+sugarcane| கரும்பு|____
+gooseberry| நெல்லிக்காய்|______`,
 
-    `radish| முள்ளங்கி|_____
-    bitter-gourd| பாகற்காய்|_____
-    banana-flower| வாழைப்பூ|____
-    bottlegourd|சுரைக்காய்|_____
-    carrot| காரட்|___
-    beetroot| பீட்ரூட்|____`,
+        `apple| ஆப்பிள்|____
+pomegranate| மாதுளை|___
+lemon| எலுமிச்சம்|______
+custard-apple| சீதாப்பழம்|______
+dates| பேரிச்சம்பழம்|________`,
 
-    `cabbage| முட்டைகோசு|_____
-    potato| உருளைக்கிழங்கு|________
-    coconut| தேங்காய்|____
-    ladies-finger| வெண்டைக்காய்|______
-    drumstick| முருங்கைக்காய்|_______
-    tamarind| புளி|__`,
+        `onion| வெங்காயம்|_____
+tomato| தக்காளி|____
+brinjal| கத்திரி|____
+raw-banana| வாழைக்காய்|_____
+garlic| பூண்டு|___
+ginger| இஞ்சி|___`,
+
+        `radish| முள்ளங்கி|_____
+bitter-gourd| பாகற்காய்|_____
+banana-flower| வாழைப்பூ|____
+bottlegourd|சுரைக்காய்|_____
+carrot| காரட்|___
+beetroot| பீட்ரூட்|____`,
+
+        `cabbage| முட்டைகோசு|_____
+potato| உருளைக்கிழங்கு|________
+coconut| தேங்காய்|____
+ladies-finger| வெண்டைக்காய்|______
+drumstick| முருங்கைக்காய்|_______
+tamarind| புளி|__`,
 
         `mushroom| காளான்|___
-        elephant-yam| சேனைக்கிழங்கு|_______
-        chilli| பச்சைமிளகாய்|_______
-    curryleaf| கருவேப்பிலை|______
-    corianderleaf| கொத்தமல்லி|______`,
+elephant-yam| சேனைக்கிழங்கு|_______
+chilli| பச்சைமிளகாய்|_______
+curryleaf| கருவேப்பிலை|______
+corianderleaf| கொத்தமல்லி|______`,
 
-    `mintleaf| புதினா|___
-    spinach| கீரை|__
-    turmeric| மஞ்சள்|____
-    pumpkin| பரங்கிக்காய்|_______
-    ashgourd| பூசணிக்காய்|______`,
+        `mintleaf| புதினா|___
+spinach| கீரை|__
+turmeric| மஞ்சள்|____
+pumpkin| பரங்கிக்காய்|_______
+ashgourd| பூசணிக்காய்|______`,
 
-    `food| உணவு|___
-    milk| பால்|__
-    idly| இட்லி|___
-    dosai| தோசை|__
-    pongal| பொங்கல்|____
-    vadai| வடை|__`,
+        `food| உணவு|___
+milk| பால்|__
+idly| இட்லி|___
+dosai| தோசை|__
+pongal| பொங்கல்|____
+vadai| வடை|__`,
 
-    `puttu-rice| புட்டு|___
-    idiyappam| இடியாப்பம்|______
-    porotta| புரோட்டா|____
-    egg| முட்டை|___
-    almond| பாதாம்|___
-cashewnut| முந்திரி|____`,    
+        `puttu-rice| புட்டு|___
+idiyappam| இடியாப்பம்|______
+porotta| புரோட்டா|____
+egg| முட்டை|___
+almond| பாதாம்|___
+cashewnut| முந்திரி|____`,
 
-`rice|அரிசி|___
+        `rice|அரிசி|___
 salt| உப்பு|___
 flour| மாவு|__
 wheat| கோதுமை|___
@@ -239,78 +239,77 @@ pepper| மிளகு|___`
       },
       data: [
         `jackfruit, பலாப்பழம்
-        mango, மாம்பழம்
-        banana, வாழைப்பழம்
-        guava, கொய்யாப்பழம்
-        grapes, திராட்சை
-        orange, ஆரஞ்சு`,
-    
-    ` papaya, பப்பாளி
-    pineapple, அன்னாசிப்பழம் 
-    watermelon, தர்பூசணி
-    sugarcane, கரும்பு
-    gooseberry, நெல்லிக்காய்`,
-    
-    `apple, ஆப்பிள்
-    pomegranate, மாதுளை
-    lemon, எலுமிச்சம்
-    custard-apple, சீதாப்பழம்
-    dates, பேரிச்சம்பழம்`,
+mango, மாம்பழம்
+banana, வாழைப்பழம்
+guava, கொய்யாப்பழம்
+grapes, திராட்சை
+orange, ஆரஞ்சு`,
+
+        ` papaya, பப்பாளி
+pineapple, அன்னாசிப்பழம் 
+watermelon, தர்பூசணி
+sugarcane, கரும்பு
+gooseberry, நெல்லிக்காய்`,
+
+        `apple, ஆப்பிள்
+pomegranate, மாதுளை
+lemon, எலுமிச்சம்
+custard-apple, சீதாப்பழம்
+dates, பேரிச்சம்பழம்`,
 
         `onion, வெங்காயம்
-        tomato, தக்காளி
-        brinjal, கத்திரி
-        raw-banana, வாழைக்காய்
-        garlic, பூண்டு
-        ginger, இஞ்சி`,
-    
+tomato, தக்காளி
+brinjal, கத்திரி
+raw-banana, வாழைக்காய்
+garlic, பூண்டு
+ginger, இஞ்சி`,
+
         `radish, முள்ளங்கி
-        bitter-gourd, பாகற்காய்
-        banana-flower, வாழைப்பூ
-        bottlegourd,சுரைக்காய்
-        carrot, காரட்
-        beetroot, பீட்ரூட்`,
-    
+bitter-gourd, பாகற்காய்
+banana-flower, வாழைப்பூ
+bottlegourd,சுரைக்காய்
+carrot, காரட்
+beetroot, பீட்ரூட்`,
+
         `cabbage, முட்டைகோசு
-        potato, உருளைக்கிழங்கு
-        coconut, தேங்காய்
-        ladies-finger, வெண்டைக்காய்
-        drumstick, முருங்கைக்காய்
-        tamarind, புளி`,
-    
-            `mushroom, காளான்
-            elephant-yam, சேனைக்கிழங்கு
-            chilli, பச்சைமிளகாய்
-        curryleaf, கருவேப்பிலை
-        corianderleaf, கொத்தமல்லி`,
-    
+potato, உருளைக்கிழங்கு
+coconut, தேங்காய்
+ladies-finger, வெண்டைக்காய்
+drumstick, முருங்கைக்காய்
+tamarind, புளி`,
+
+        `mushroom, காளான்
+elephant-yam, சேனைக்கிழங்கு
+chilli, பச்சைமிளகாய்
+curryleaf, கருவேப்பிலை
+corianderleaf, கொத்தமல்லி`,
+
         `mintleaf, புதினா
-        spinach, கீரை
-        turmeric, மஞ்சள்
-        pumpkin, பரங்கிக்காய்
-        ashgourd, பூசணிக்காய்`,      
-      
+spinach, கீரை
+turmeric, மஞ்சள்
+pumpkin, பரங்கிக்காய்
+ashgourd, பூசணிக்காய்`,
+
         `food, உணவு
-        milk, பால்
-        idly, இட்லி
-        dosai, தோசை
-        pongal, பொங்கல்
-        vadai, வடை`,
+milk, பால்
+idly, இட்லி
+dosai, தோசை
+pongal, பொங்கல்
+vadai, வடை`,
 
         `puttu-rice, புட்டு
-        idiyappam, இடியாப்பம்
-        porotta, புரோட்டா
-        egg, முட்டை
-        almond, பாதாம்
-cashewnut, முந்திரி`,    
-   
-`rice,அரிசி
+idiyappam, இடியாப்பம்
+porotta, புரோட்டா
+egg, முட்டை
+almond, பாதாம்
+cashewnut, முந்திரி`,
+
+        `rice,அரிசி
 salt, உப்பு
 flour, மாவு
 wheat, கோதுமை
 paddy, நெல்
 pepper, மிளகு`
-
       ]
     }
   ]

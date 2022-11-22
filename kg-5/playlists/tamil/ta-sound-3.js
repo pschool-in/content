@@ -14,47 +14,47 @@ export default {
       data: [
         {
           text: `sun| சூரியன்
-          moon| நிலா
-          rain| மழை
-          star| நட்சத்திரம்
-          leaf| இலை
-          bird| பறவை
-          nest| கூடு
-          stone| கல்
-          tree| மரம்
-          world| உலகம்`
+moon| நிலா
+rain| மழை
+star| நட்சத்திரம்
+leaf| இலை
+bird| பறவை
+nest| கூடு
+stone| கல்
+tree| மரம்
+world| உலகம்`
         },
         {
           audioOffset: 20,
           text: `forest| காடு
-          desert| பாலைவனம்
-          river| ஆறு
-          grassland| புல்வெளி
-          ocean| கடல்
-          polar| துருவம்
-          valley| பள்ளத்தாக்கு
-          volcano| எரிமலை`
+desert| பாலைவனம்
+river| ஆறு
+grassland| புல்வெளி
+ocean| கடல்
+polar| துருவம்
+valley| பள்ளத்தாக்கு
+volcano| எரிமலை`
         },
         {
           audioOffset: 36,
           text: `banyan| ஆலமரம்
-          palm-tree| பனைமரம்
-          coconut-tree| தென்னைமரம்
-          banana-tree| வாழைமரம்
-          bamboo-tree| மூங்கில்மரம்
-          rainbow| வானவில்
-          waterfall| அருவி
-          dew| பனித்துளி`
+palm-tree| பனைமரம்
+coconut-tree| தென்னைமரம்
+banana-tree| வாழைமரம்
+bamboo-tree| மூங்கில்மரம்
+rainbow| வானவில்
+waterfall| அருவி
+dew| பனித்துளி`
         },
         {
           audioOffset: 52,
           text: `bananaleaf| வாழையிலை
-            neemleaf| வேப்பிலை
-            mangoleaf| மாவிலை
-            coconutleaf| தென்னோலை
-            touch-me-not| தொட்டாற் சிணுங்கி
-            bone| எலும்பு துண்டு
-            pebbles| கூழாங்கற்கள்`
+neemleaf| வேப்பிலை
+mangoleaf| மாவிலை
+coconutleaf| தென்னோலை
+touch-me-not| தொட்டாற் சிணுங்கி
+bone| எலும்பு துண்டு
+pebbles| கூழாங்கற்கள்`
         }
       ]
     },
@@ -69,36 +69,36 @@ export default {
       data: [
         {
           text: `rose| ரோஜா
-          lotus| தாமரை
-          sunflower| சூரியகாந்தி
-          hibiscus| செம்பருத்தி
-          mogra| குண்டு மல்லி
-          jasmine| முல்லை
-          water-lily| அல்லி
-          marigold| சாமந்தி
-          december| டிசம்பர்
-          sangupoo| சங்குப்பூ`
+lotus| தாமரை
+sunflower| சூரியகாந்தி
+hibiscus| செம்பருத்தி
+mogra| குண்டு மல்லி
+jasmine| முல்லை
+water-lily| அல்லி
+marigold| சாமந்தி
+december| டிசம்பர்
+sangupoo| சங்குப்பூ`
         },
         {
           audioOffset: 20,
           text: `aavarampoo| ஆவாரம்பூ
-          erukkampoo| எருக்கம்பூ
-          idlipoo| இட்லிப்பூ
-          kanagamaram| கனகாம்பரம்
-          kurinchipoo| குறிஞ்சிப்பூ
-          nandiyaavattampoo| நந்தியாவட்டம்
-          pichipoo| பிச்சிப்பூ
-          poosanipoo| பூசணிப்பூ`
+erukkampoo| எருக்கம்பூ
+idlipoo| இட்லிப்பூ
+kanagamaram| கனகாம்பரம்
+kurinchipoo| குறிஞ்சிப்பூ
+nandiyaavattampoo| நந்தியாவட்டம்
+pichipoo| பிச்சிப்பூ
+poosanipoo| பூசணிப்பூ`
         },
         {
           audioOffset: 36,
           text: `poovarasampoo| பூவரசம்பூ
-            thumbaipoo| தும்பைப்பூ
-            vaadamalli| வாடாமல்லி
-            veepampoo| வேப்பம்பூ
-            bougainvillea| காகிதப்பூ
-            magnolia| செண்பகப்பூ
-            periwinkle| நித்தியகல்யாணிப்பூ`
+thumbaipoo| தும்பைப்பூ
+vaadamalli| வாடாமல்லி
+veepampoo| வேப்பம்பூ
+bougainvillea| காகிதப்பூ
+magnolia| செண்பகப்பூ
+periwinkle| நித்தியகல்யாணிப்பூ`
         }
       ]
     },
@@ -114,19 +114,19 @@ export default {
         {
           audioOffset: 50,
           text: `ear| காது
-          eye| கண்
-          foot| பாதம்
-          hair| முடி
-          hand| கை
-          mouth| வாய்`
+eye| கண்
+foot| பாதம்
+hair| முடி
+hand| கை
+mouth| வாய்`
         },
         {
           audioOffset: 62,
           text: `nose| மூக்கு
-          tooth| பல்
-          forehead| நெற்றி
-          mustache| மீசை
-          beard| தாடி`
+tooth| பல்
+forehead| நெற்றி
+mustache| மீசை
+beard| தாடி`
         }
       ]
     },

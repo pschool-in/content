@@ -1590,6 +1590,33 @@ export default {
           audioOffset: 48
         }
       ]
+    },
+    {
+      type: 'rightOne',
+      label: 'எழுத்துக்களை அடையாளம் காண்க - 2',
+      id: 'sound-mixed-letters-2',
+      commonData: {
+        title: 'ஓசை கேட்டு எழுத்துக்களை அடையாளம் காண்க.',
+        type: 'letters',
+        audio: 'ta/ta-uyirmei-4.mp3'
+      },
+      data: [
+        {
+          words: `ழ , ழா, ழி, ழீ, ழு, ழூ, ழெ, ழே, ழை, ழொ, ழோ, ழௌ`
+        },
+        {
+          words: `ள, ளா, ளி, ளீ, ளு, ளூ, ளெ, ளே, ளை, ளொ, ளோ, ளௌ`,
+          audioOffset: 24
+        },
+        {
+          words: `ற, றா, றி, றீ, று, றூ, றெ, றே, றை, றொ, றோ, றௌ`,
+          audioOffset: 48
+        },
+        {
+          words: `ன, னா, னி, னீ, னு, னூ, னெ, னே, னை, னொ, னோ, னௌ`,
+          audioOffset: 72
+        }
+      ]
     }
   ]
 };

@@ -109,55 +109,56 @@ export default {
       },
       data: [
         `ring| மோதிரம்|____
-        bell| மணி|__
-        kolam| கோலம்|___
-        balloon| பலூன்|___
-        five| ஐந்து|___
-        king| அரசன்|____`,
-    
-            `kite| பட்டம்|____
-        ladder| ஏணி|__
-        rooftile| ஓடு|__
-        wheel| சக்கரம்|_____
-        park| பூங்கா|___
-        garden| தோட்டம்|____`,
-    
-            `auvai| ஔவை|__
-        bow| வில்|__
-        arrow| அம்பு|___
-        top| பம்பரம்|_____
-        stick| குச்சி|___
-        whistle| ஊதல்|___`,
-    
-            `box| பெட்டி|___
-        coin| நாணயம்|____
-        brick| செங்கல்|____
-        sculpture | சிற்பம்|____
-        clay-lamp| அகல்விளக்கு|_______
-        salangai| சலங்கை|____`,
-    
-            `fountain| நீரூற்று|____
-        brush| தூரிகை|___
-        hexagon| அறுகோணம்|_____
-        twig| கிளை|__
-        medicine| மருந்து|____
-        yagna| யாகம்|___`,
-    
-            `yarn-ball| நூல்கண்டு|_____
-        rishi| முனிவர்|____
-        pouch| சுருக்குப்பை|______
-        trident| திரிசூலம்|_____`,
-    
-            `radio| வானொலி|___
-        toothbrush| பற்குச்சி|_____
-        toothpaste| பற்பசை|____
-        water-tower| தண்ணீர்தொட்டி|_______`
+bell| மணி|__
+kolam| கோலம்|___
+balloon| பலூன்|___
+five| ஐந்து|___
+king| அரசன்|____`,
+
+        `kite| பட்டம்|____
+ladder| ஏணி|__
+rooftile| ஓடு|__
+wheel| சக்கரம்|_____
+park| பூங்கா|___
+garden| தோட்டம்|____`,
+
+        `auvai| ஔவை|__
+bow| வில்|__
+arrow| அம்பு|___
+top| பம்பரம்|_____
+stick| குச்சி|___
+whistle| ஊதல்|___`,
+
+        `box| பெட்டி|___
+coin| நாணயம்|____
+brick| செங்கல்|____
+sculpture | சிற்பம்|____
+clay-lamp| அகல்விளக்கு|_______
+salangai| சலங்கை|____`,
+
+        `fountain| நீரூற்று|____
+brush| தூரிகை|___
+hexagon| அறுகோணம்|_____
+twig| கிளை|__
+medicine| மருந்து|____
+yagna| யாகம்|___`,
+
+        `yarn-ball| நூல்கண்டு|_____
+rishi| முனிவர்|____
+pouch| சுருக்குப்பை|______
+trident| திரிசூலம்|_____`,
+
+        `radio| வானொலி|___
+toothbrush| பற்குச்சி|_____
+toothpaste| பற்பசை|____
+water-tower| தண்ணீர்தொட்டி|_______`,
+
         `heart| இதயம்|____
-        brain| மூளை|__
-        lungs| நுரையீரல்|_____
-        stomach| வயிறு|___
-        liver| கல்லீரல்|_____
-        kidney| சிறுநீரகம்|______`
+brain| மூளை|__
+lungs| நுரையீரல்|_____
+stomach| வயிறு|___
+liver| கல்லீரல்|_____
+kidney| சிறுநீரகம்|______`
       ]
     },
     {
@@ -173,55 +174,56 @@ export default {
       },
       data: [
         `ring, மோதிரம்
-    bell, மணி
-    kolam, கோலம்
-    balloon, பலூன்
-    five, ஐந்து
-    king, அரசன்`,
+bell, மணி
+kolam, கோலம்
+balloon, பலூன்
+five, ஐந்து
+king, அரசன்`,
 
         `kite, பட்டம்
-    ladder, ஏணி
-    rooftile, ஓடு
-    wheel, சக்கரம்
-    park, பூங்கா
-    garden, தோட்டம்`,
+ladder, ஏணி
+rooftile, ஓடு
+wheel, சக்கரம்
+park, பூங்கா
+garden, தோட்டம்`,
 
         `auvai, ஔவை
-    bow, வில்
-    arrow, அம்பு
-    top, பம்பரம்
-    stick, குச்சி
-    whistle, ஊதல்`,
+bow, வில்
+arrow, அம்பு
+top, பம்பரம்
+stick, குச்சி
+whistle, ஊதல்`,
 
         `box, பெட்டி
-    coin, நாணயம்
-    brick, செங்கல்
-    sculpture , சிற்பம்
-    clay-lamp, அகல்விளக்கு
-    salangai, சலங்கை`,
+coin, நாணயம்
+brick, செங்கல்
+sculpture , சிற்பம்
+clay-lamp, அகல்விளக்கு
+salangai, சலங்கை`,
 
         `fountain, நீரூற்று
-    brush, தூரிகை
-    hexagon, அறுகோணம்
-    twig, கிளை
-    medicine, மருந்து
-    yagna, யாகம்`,
+brush, தூரிகை
+hexagon, அறுகோணம்
+twig, கிளை
+medicine, மருந்து
+yagna, யாகம்`,
 
         `yarn-ball, நூல் கண்டு
-    rishi, முனிவர்
-    pouch, சுருக்குப்பை
-    trident, திரிசூலம்`,
+rishi, முனிவர்
+pouch, சுருக்குப்பை
+trident, திரிசூலம்`,
 
         `radio, வானொலி
-    toothbrush, பற்குச்சி
-    toothpaste, பற்பசை
-    water-tower, தண்ணீர் தொட்டி`
-    `heart, இதயம்
-    brain, மூளை
-    lungs, நுரையீரல்
-    stomach, வயிறு
-    liver, கல்லீரல்
-    kidney, சிறுநீரகம்`         
+toothbrush, பற்குச்சி
+toothpaste, பற்பசை
+water-tower, தண்ணீர் தொட்டி`,
+
+        `heart, இதயம்
+brain, மூளை
+lungs, நுரையீரல்
+stomach, வயிறு
+liver, கல்லீரல்
+kidney, சிறுநீரகம்`
       ]
     }
   ]
