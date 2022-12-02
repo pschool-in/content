@@ -30,7 +30,7 @@ export default {
           `# காய்கள்  `,
           `onion, வெங்காயம்
           tomato, தக்காளி
-          brinjal, கத்திரி
+          brinjal, 
           raw-banana, வாழைக்காய்
           garlic, பூண்டு
           ginger, இஞ்சி

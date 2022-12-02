@@ -1,5 +1,5 @@
 export default {
-  label: 'ஓசை: விலங்குகளும் பறவைகளும் - 2',
+  label: 'ஓசை: விsலங்குகளும் பறவைகளும் - 2',
   id: 'ta-sound-5',
   img: 'sound',
   list: [
