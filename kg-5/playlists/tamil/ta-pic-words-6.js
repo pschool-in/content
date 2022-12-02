@@ -208,8 +208,8 @@ export default {
         fontSize: '1rem'
       },
       data: [
-    `sweet-potato,  சர்க்கரைவள்ளி கிழங்கு
-    jamun, நாவல் பழம்
+    `sweet-potato,  சர்க்கரைவள்ளிக்கிழங்கு
+    jamun, நாவல்பழம்
     pear, பேரிக்காய்
     wood-apple, விளாம்பழம்
     jujube, இலந்தைப்பழம்`,
@@ -236,7 +236,7 @@ export default {
     
               `fenugreek, வெந்தயக்கீரை
     drumstick-leaves, முருங்கைக்கீரை
-    greenpeas, பச்சை பட்டாணி
+    greenpeas, பச்சைபட்டாணி
     peanut, வேர்க்கடலை
     tulsi, துளசி`,
 

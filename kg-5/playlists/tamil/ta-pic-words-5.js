@@ -158,7 +158,7 @@ export default {
         fontSize: '1rem'
       },
       data: [
-        `sheep, செம்மறி ஆடு
+        `sheep, செம்மறிஆடு
         hippo, நீர்யானை
         giraffe, ஒட்டகச்சிவிங்கி
         rhino, காண்டாமிருகம்
@@ -166,7 +166,7 @@ export default {
         wolf, ஓநாய்`,
 
         `zebra, வரிக்குதிரை
-        hyena, கழுதைப் புலி
+        hyena, கழுதைப்புலி
         porcupine, முள்ளம்பன்றி
         polarbear, பனிக்கரடி
         boar, காட்டுப் பன்றி
@@ -181,14 +181,14 @@ export default {
 
         ` seahorse, கடற்குதிரை
         butterfly, வண்ணத்துப்பூச்சி
-          cockroach, கரப்பான் பூச்சி
+          cockroach, கரப்பான்பூச்சி
           mongoose, கீரிப்பிள்ளை
           hamster, வெள்ளெலி`,
 
         `caterpillar, கம்பளிப்பூச்சி
-          starfish, நட்சத்திர மீன்
+          starfish, நட்சத்திரமீன்
           hedgehog, முள்ளெலி
-          stingray, திருக்கை மீன்`,
+          stingray, திருக்கைமீன்`,
           `kingfisher, மீன்கொத்தி
           chick, கோழிக்குஞ்சு
           ostrich, நெருப்புக்கோழி

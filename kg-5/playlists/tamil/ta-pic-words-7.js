@@ -291,14 +291,14 @@ export default {
         carpenter, தச்சர்
         weaver, நெசவாளர்
         soldier, சிப்பாய்
-        astronaut, விண்வெளி வீரர்`,
+        astronaut, விண்வெளிவீரர்`,
 
         `clown, கோமாளி
         barber, முடிதிருத்துபவர்
-        washerman, சலவைதொழிலாளர்
-        blacksmith, கொல்லன்
+        washerman, சலவைத்தொழிலாளர்
+        blacksmith, கொல்லர்
         cobbler, செருப்புதைப்பவர்
-        potter, குயவன்`,
+        potter, குயவர்`,
 
         `diver, நீர்மூழ்கிவீரர்
         milkman, பால்காரர்
@@ -316,11 +316,11 @@ export default {
         `train, தொடர்வண்டி
         palanquin, பல்லக்கு
         chariot, தேர்
-        ambulance, அவசர ஊர்தி
-        tractor, இழுவை இயந்திரம்
-        cart, கட்டை வண்டி`,
+        ambulance, அவசரஊர்தி
+        tractor, இழுவைஇயந்திரம்
+        cart, கட்டைவண்டி`,
 
-        `fire-engine, தீயணைப்பு வாகனம்
+        `fire-engine, தீயணைப்புவாகனம்
         lorry, சரக்குந்து
         rocket, ஏவுகனை
         submarine, நீர்மூழ்கிக்கப்பல்
@@ -338,7 +338,7 @@ export default {
                   yazl, யாழ்
                   damaru, உடுக்கை
                   nadaswaram, நாதசுவரம்`,
-                  `camera, புகைப்பட கருவி
+                  `camera, புகைப்படக்கருவி
         smartphone, கைபேசி
         speaker, ஒலிபெருக்கி
         tv, தொலைக்காட்சி
@@ -364,7 +364,7 @@ export default {
         screw, திருகு
         screwdriver, திருப்புளி
         telescope, தொலைநோக்கி
-        test-tube, சோதனை குழாய்`
+        test-tube, சோதனைக்குழாய்`
       ]
     }
   ]
