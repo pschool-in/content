@@ -39,7 +39,7 @@ export default {
           id: 'ta-sound-8'
         },
         {
-          label: 'விலங்குகளும் பறவைகளும',
+          label: 'விலங்குகளும் பறவைகளும்',
           id: 'ta-picture'
         },
         {
@@ -55,7 +55,7 @@ export default {
           id: 'ta-picture-4'
         },
         {
-          label: 'விலங்குகளும் பறவைகளும - 2',
+          label: 'விலங்குகளும் பறவைகளும் - 2',
           id: 'ta-picture-5'
         },
         {
@@ -71,7 +71,7 @@ export default {
           id: 'ta-picture-8'
         },
         {
-          label: 'எழுதுக: விலங்குகளும் பறவைகளும',
+          label: 'எழுதுக: விலங்குகளும் பறவைகளும்',
           id: 'ta-pic-words'
         },
         {
@@ -87,7 +87,7 @@ export default {
           id: 'ta-pic-words-4'
         },
         {
-          label: 'எழுதுக: விலங்குகளும் பறவைகளும - 2',
+          label: 'எழுதுக: விலங்குகளும் பறவைகளும் - 2',
           id: 'ta-pic-words-5'
         },
         {
@@ -127,7 +127,7 @@ export default {
           id: 'ta-sentence'
         },
         {
-          label: 'விலங்குகளும் பறவைகளும',
+          label: 'விலங்குகளும் பறவைகளும்',
           id: 'ta-en'
         },
         {
@@ -143,20 +143,32 @@ export default {
           id: 'ta-en-4'
         },
         {
-          label: 'விலங்குகளும் பறவைகளும - 2',
-          id: 'ta-en-5'
-        },
-        {
-          label: 'உணவு வகைகள் - 2',
-          id: 'ta-en-6'
-        },
-        {
           label: 'மனிதன் - வேலை - கருவி',
           id: 'ta-en-7'
         },
         {
           label: 'இன்னும் சில சொற்கள்',
           id: 'ta-en-8'
+        },
+        {
+          label: 'இணையான ஆங்கில சொற்கள்',
+          id: 'ta-en-5'
+        },
+        {
+          label: 'இணையான ஆங்கில சொற்கள் - 2',
+          id: 'ta-en-6'
+        },
+        {
+          label: 'வண்ணங்கள்',
+          id: 'ta-colors'
+        },
+        {
+          label: 'எண்கள்',
+          id: 'ta-numbers'
+        },
+        {
+          label: 'எண்கள் - 2',
+          id: 'ta-numbers-2'
         },
         {
           label: 'திருக்குறள் - 2',

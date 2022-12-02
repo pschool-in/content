@@ -171,86 +171,86 @@ export default {
       },
       data: [
         `sun| சூரியன்|____
-              moon| நிலா|__
-              rain| மழை|__
-              star| நட்சத்திரம்|_______
-              leaf| இலை|__
-              bird| பறவை|___`,
+moon| நிலா|__
+rain| மழை|__
+star| நட்சத்திரம்|_______
+leaf| இலை|__
+bird| பறவை|___`,
 
         `nest| கூடு|__
-              stone| கல்|__
-              tree| மரம்|___
-              world| உலகம்|____
-              forest| காடு|__
-              desert| பாலைவனம்|_____`,
+stone| கல்|__
+tree| மரம்|___
+world| உலகம்|____
+forest| காடு|__
+desert| பாலைவனம்|_____`,
 
         `river| ஆறு|__
-        grassland| புல்வெளி|____
-        ocean| கடல்|___
-        polar| துருவம்|____
-        valley| பள்ளத்தாக்கு|_______
-        volcano| எரிமலை|____`,
+grassland| புல்வெளி|____
+ocean| கடல்|___
+polar| துருவம்|____
+valley| பள்ளத்தாக்கு|_______
+volcano| எரிமலை|____`,
 
         `banyan|    ஆலமரம்|_____
-        palm-tree| பனைமரம்|_____
-        coconut-tree| தென்னைமரம்|______
-        banana-tree| வாழைமரம்|_____
-        bamboo-tree| மூங்கில்மரம்|_______
-        rainbow| வானவில்|____`,
+palm-tree| பனைமரம்|_____
+coconut-tree| தென்னைமரம்|______
+banana-tree| வாழைமரம்|_____
+bamboo-tree| மூங்கில்மரம்|_______
+rainbow| வானவில்|____`,
 
         `waterfall| அருவி|___
-        dew| பனித்துளி|_____
-        bananaleaf| வாழையிலை|____
-        neemleaf| வேப்பிலை|____
-        mangoleaf| மாவிலை|___
-        coconutleaf| தென்னோலை|____`,
+dew| பனித்துளி|_____
+bananaleaf| வாழையிலை|____
+neemleaf| வேப்பிலை|____
+mangoleaf| மாவிலை|___
+coconutleaf| தென்னோலை|____`,
 
         `touch-me-not| தொட்டாற்சிணுங்கி|________
-        bone| எலும்புத்துண்டு|________
-        pebbles| கூழாங்கற்கள்|________`,
-        
+bone| எலும்புத்துண்டு|________
+pebbles| கூழாங்கற்கள்|________`,
+
         `rose| ரோஜா|__
-        lotus| தாமரை|___
-        sunflower| சூரியகாந்தி|______
-        hibiscus| செம்பருத்தி|______
-        mogra| குண்டுமல்லி|_______
-        jasmine| முல்லை|___`,
+lotus| தாமரை|___
+sunflower| சூரியகாந்தி|______
+hibiscus| செம்பருத்தி|______
+mogra| குண்டுமல்லி|_______
+jasmine| முல்லை|___`,
 
         `water-lily| அல்லி|___
-        marigold| சாமந்தி|____
-        december| டிசம்பர்|_____
-        sangupoo| சங்குப்பூ|_____
-        aavarampoo| ஆவாரம்பூ|_____
-        erukkampoo| எருக்கம்பூ|______`,
+marigold| சாமந்தி|____
+december| டிசம்பர்|_____
+sangupoo| சங்குப்பூ|_____
+aavarampoo| ஆவாரம்பூ|_____
+erukkampoo| எருக்கம்பூ|______`,
 
         `idlipoo| இட்லிப்பூ|_____
-        kanagamaram| கனகாம்பரம்|_______
-        kurinchipoo| குறிஞ்சிப்பூ|______
-        nandiyaavattampoo| நந்தியாவட்டம்|________
-        pichipoo| பிச்சிப்பூ|_____
-        poosanipoo| பூசணிப்பூ|_____`,
+kanagamaram| கனகாம்பரம்|_______
+kurinchipoo| குறிஞ்சிப்பூ|______
+nandiyaavattampoo| நந்தியாவட்டம்|________
+pichipoo| பிச்சிப்பூ|_____
+poosanipoo| பூசணிப்பூ|_____`,
 
         `poovarasampoo| பூவரசம்பூ|______
-        thumbaipoo| தும்பைப்பூ|_____
-        vaadamalli| வாடாமல்லி|_____
-        veepampoo| வேப்பம்பூ|_____`,
+thumbaipoo| தும்பைப்பூ|_____
+vaadamalli| வாடாமல்லி|_____
+veepampoo| வேப்பம்பூ|_____`,
 
         `bougainvillea| காகிதப்பூ|_____
-        magnolia| செண்பகப்பூ|______
-        periwinkle| நித்தியகல்யாணி|________`,
+magnolia| செண்பகப்பூ|______
+periwinkle| நித்தியகல்யாணி|________`,
 
         `ear| காது|__
-        eye| கண்|__
-        foot| பாதம்|___
-        hair| முடி|__
-        hand| கை|_
-        mouth| வாய்|__`,
-        
-                `nose| மூக்கு|___
-        tooth| பல்|__
-        forehead| நெற்றி|___
-        mustache| மீசை|__
-        beard| தாடி|__`
+eye| கண்|__
+foot| பாதம்|___
+hair| முடி|__
+hand| கை|_
+mouth| வாய்|__`,
+
+        `nose| மூக்கு|___
+tooth| பல்|__
+forehead| நெற்றி|___
+mustache| மீசை|__
+beard| தாடி|__`
       ]
     },
     {
@@ -266,87 +266,87 @@ export default {
       },
       data: [
         `sun, சூரியன்
-        moon, நிலா
-        rain, மழை
-        star, நட்சத்திரம்
-        leaf, இலை
-        bird, பறவை`,
+moon, நிலா
+rain, மழை
+star, நட்சத்திரம்
+leaf, இலை
+bird, பறவை`,
 
-  `nest, கூடு
-        stone, கல்
-        tree, மரம்
-        world, உலகம்
-        forest, காடு
-        desert, பாலைவனம்`,
+        `nest, கூடு
+stone, கல்
+tree, மரம்
+world, உலகம்
+forest, காடு
+desert, பாலைவனம்`,
 
-  `river, ஆறு
-  grassland, புல்வெளி
-  ocean, கடல்
-  polar, துருவம்
-  valley, பள்ளத்தாக்கு
-  volcano, எரிமலை`,
+        `river, ஆறு
+grassland, புல்வெளி
+ocean, கடல்
+polar, துருவம்
+valley, பள்ளத்தாக்கு
+volcano, எரிமலை`,
 
-  `banyan,    ஆலமரம்
-  palm-tree, பனைமரம்
-  coconut-tree, தென்னைமரம்
-  banana-tree, வாழைமரம்
-  bamboo-tree, மூங்கில்மரம்
-  rainbow, வானவில்`,
+        `banyan,    ஆலமரம்
+palm-tree, பனைமரம்
+coconut-tree, தென்னைமரம்
+banana-tree, வாழைமரம்
+bamboo-tree, மூங்கில்மரம்
+rainbow, வானவில்`,
 
-  `waterfall, அருவி
-  dew, பனித்துளி
-  bananaleaf, வாழையிலை
-  neemleaf, வேப்பிலை
-  mangoleaf, மாவிலை
-  coconutleaf, தென்னோலை`,
+        `waterfall, அருவி
+dew, பனித்துளி
+bananaleaf, வாழையிலை
+neemleaf, வேப்பிலை
+mangoleaf, மாவிலை
+coconutleaf, தென்னோலை`,
 
-  `touch-me-not, தொட்டாற்சிணுங்கி
-  bone, எலும்புத்துண்டு
-  pebbles, கூழாங்கற்கள்`,
+        `touch-me-not, தொட்டாற்சிணுங்கி
+bone, எலும்பு துண்டு
+pebbles, கூழாங்கற்கள்`,
 
-  `rose, ரோஜா
-  lotus, தாமரை
-  sunflower, சூரியகாந்தி
-  hibiscus, செம்பருத்தி
-  mogra, குண்டுமல்லி
-  jasmine, முல்லை`,
+        `rose, ரோஜா
+lotus, தாமரை
+sunflower, சூரியகாந்தி
+hibiscus, செம்பருத்தி
+mogra, குண்டுமல்லி
+jasmine, முல்லை`,
 
-  `water-lily, அல்லி
-  marigold, சாமந்தி
-  december, டிசம்பர்
-  sangupoo, சங்குப்பூ
-  aavarampoo, ஆவாரம்பூ
-  erukkampoo, எருக்கம்பூ`,
+        `water-lily, அல்லி
+marigold, சாமந்தி
+december, டிசம்பர்
+sangupoo, சங்குப்பூ
+aavarampoo, ஆவாரம்பூ
+erukkampoo, எருக்கம்பூ`,
 
-  `idlipoo, இட்லிப்பூ
-  kanagamaram, கனகாம்பரம்
-  kurinchipoo, குறிஞ்சிப்பூ
-  nandiyaavattampoo, நந்தியாவட்டம்
-  pichipoo, பிச்சிப்பூ
-  poosanipoo, பூசணிப்பூ`,
+        `idlipoo, இட்லிப்பூ
+kanagamaram, கனகாம்பரம்
+kurinchipoo, குறிஞ்சிப்பூ
+nandiyaavattampoo, நந்தியாவட்டம்
+pichipoo, பிச்சிப்பூ
+poosanipoo, பூசணிப்பூ`,
 
-  `poovarasampoo, பூவரசம்பூ
-  thumbaipoo, தும்பைப்பூ
-  vaadamalli, வாடாமல்லி
-  veepampoo, வேப்பம்பூ`,
+        `poovarasampoo, பூவரசம்பூ
+thumbaipoo, தும்பைப்பூ
+vaadamalli, வாடாமல்லி
+veepampoo, வேப்பம்பூ`,
 
-  `bougainvillea, காகிதப்பூ
-  magnolia, செண்பகப்பூ
-  periwinkle, நித்தியகல்யாணி`,
+        `bougainvillea, காகிதப்பூ
+magnolia, செண்பகப்பூ
+periwinkle, நித்தியகல்யாணி`,
 
-  `ear, காது
-  eye, கண்
-  foot, பாதம்
-  hair, முடி
-  hand, கை
-  mouth, வாய்`,
-  
-          `nose, மூக்கு
-  tooth, பல்
-  forehead, நெற்றி
-  mustache, மீசை
-  beard, தாடி`
-        ]
+        `ear, காது
+eye, கண்
+foot, பாதம்
+hair, முடி
+hand, கை
+mouth, வாய்`,
+
+        `nose, மூக்கு
+tooth, பல்
+forehead, நெற்றி
+mustache, மீசை
+beard, தாடி`
+      ]
     }
   ]
 };

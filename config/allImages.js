@@ -157,7 +157,7 @@ const allImages = {
     'tapioca',
     'blueberry',
     'wood-apple',
-    'goose-berry',
+    'gooseberry',
     'lemon'
   ],
   vegetables: [

@@ -14,44 +14,44 @@ export default {
       data: [
         {
           text: `baby| குழந்தை
-            boy| சிறுவன்
-            girl| சிறுமி
-            man| ஆண்
-            woman| பெண்
-            grandfather| தாத்தா
-            grandma| பாட்டி`
+boy| சிறுவன்
+girl| சிறுமி
+man| ஆண்
+woman| பெண்
+grandfather| தாத்தா
+grandma| பாட்டி`
         },
         {
           audioOffset: 14,
           text: `bucket| வாளி
-          ball| பந்து
-          house| வீடு
-          table| மேசை
-          bed| கட்டில்
-          chair| நாற்காலி
-          umbrella| குடை
-          door| கதவு 
-          window| ஜன்னல்
-          toilet| கழிப்பறை `
+ball| பந்து
+house| வீடு
+table| மேசை
+bed| கட்டில்
+chair| நாற்காலி
+umbrella| குடை
+door| கதவு 
+window| ஜன்னல்
+toilet| கழிப்பறை `
         },
 
         {
           audioOffset: 34,
           text: `candle| மெழுகுவர்த்தி
-          glasses| மூக்கு கண்ணாடி
-          clock| கடிகாரம்
-          watch| கைக்கடிகாரம்
-          flower-pot| பூந்தொட்டி 
-          broom| துடைப்பம்`
+glasses| மூக்கு கண்ணாடி
+clock| கடிகாரம்
+watch| கைக்கடிகாரம்
+flower-pot| பூந்தொட்டி 
+broom| துடைப்பம்`
         },
         {
           audioOffset: 46,
           text: `shelf| அலமாரி
-          air-conditioner| குளிரூட்டி
-          pillow|தலையணை
-          basket| கூடை
-          dustbin| குப்பை தொட்டி
-          handbag| கைப்பை`
+air-conditioner| குளிரூட்டி
+pillow|தலையணை
+basket| கூடை
+dustbin| குப்பை தொட்டி
+handbag| கைப்பை`
         }
       ]
     },
@@ -64,12 +64,12 @@ export default {
         audioOffset: 58,
         title: 'ஆடைகள் : படமும் ஒலியும்',
         text: ` vetti| வேட்டி
-        saree| சேலை
-        shirt| சட்டை
-        hat| தொப்பி
-        trousers| கால்சட்டை
-        shoe| காலணி
-        sock|காலுறை
+saree| சேலை
+shirt| சட்டை
+hat| தொப்பி
+trousers| கால்சட்டை
+shoe| காலணி
+sock|காலுறை
 coat| மேலங்கி`
       }
     },
@@ -85,19 +85,19 @@ coat| மேலங்கி`
         {
           audioOffset: 74,
           text: `pen| பேனா
-          pencil| எழுதுகோல்
-          ruler| அளவுகோல்
-          eraser| அழிப்பான்
-          book| புத்தகம்
-          ink| மை`
+pencil| எழுதுகோல்
+ruler| அளவுகோல்
+eraser| அழிப்பான்
+book| புத்தகம்
+ink| மை`
         },
         {
           audioOffset: 86,
           text: `schoolbag| புத்தகப்பை
-          scissors| கத்தரிக்கோல்
-          waterbottle| தண்ணீர் குடுவை
-          calculator| கணிப்பான்
-          globe| பூகோளம்`
+scissors| கத்தரிக்கோல்
+waterbottle| தண்ணீர் குடுவை
+calculator| கணிப்பான்
+globe| பூகோளம்`
         }
       ]
     },
@@ -112,32 +112,32 @@ coat| மேலங்கி`
       data: [
         {
           text: `clay-stove| அடுப்பு
-            pot| பானை
-            ladle| கரண்டி
-            sembu| செம்பு
-            knife|கத்தி
-            plate| தட்டு
-            lid| மூடி
-            kudam| குடம்`
+pot| பானை
+ladle| கரண்டி
+sembu| செம்பு
+knife|கத்தி
+plate| தட்டு
+lid| மூடி
+kudam| குடம்`
         },
         {
           audioOffset: 16,
           text: `cup| கோப்பை
-            bowl| கிண்ணம்
-            ammi | அம்மி
-          stone-grinder| ஆட்டுக்கல்
-          arivaal| அரிவாள்
-          arivaal-manai| அரிவாள்மனை
-          anjarai-petti| அஞ்சறைப்பெட்டி`
+bowl| கிண்ணம்
+ammi | அம்மி
+stone-grinder| ஆட்டுக்கல்
+arivaal| அரிவாள்
+arivaal-manai| அரிவாள்மனை
+anjarai-petti| அஞ்சறைப்பெட்டி`
         },
         {
           audioOffset: 30,
           text: `dosaikal| தோசைக்கல்
-            tap| குழாய்
-            stove| எரிவாயு அடுப்பு
-            fork| முள் கரண்டி
-            pan| வாணலி
-            fridge| குளிர்சாதன பெட்டி`
+tap| குழாய்
+stove| எரிவாயு அடுப்பு
+fork| முள் கரண்டி
+pan| வாணலி
+fridge| குளிர்சாதன பெட்டி`
         }
       ]
     },

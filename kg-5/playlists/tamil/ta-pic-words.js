@@ -79,62 +79,62 @@ export default {
       },
       data: [
         `cat| பூனை | __ 
-  dog| நாய் | __
-  goat| ஆடு | __
-  horse| குதிரை | ___
-  cow|  பசு| __
-  pig| பன்றி | ___
-  buffalo| எருமை| ___
-  donkey| கழுதை | ___
-  bull| காளை | __ 
-  camel| ஒட்டகம் | _____`,
+dog| நாய் | __
+goat| ஆடு | __
+horse| குதிரை | ___
+cow|  பசு| __
+pig| பன்றி | ___
+buffalo| எருமை| ___
+donkey| கழுதை | ___
+bull| காளை | __ 
+camel| ஒட்டகம் | _____`,
 
         `elephant| யானை | __
-  lion| சிங்கம் | ____
-  monkey| குரங்கு | ____
-  tiger| புலி| __
-  kangaroo| கங்காரு| ____
-  leopard| சிறுத்தை| ____
-  fox| நரி | __
-  rabbit| முயல்| ___
+lion| சிங்கம் | ____
+monkey| குரங்கு | ____
+tiger| புலி| __
+kangaroo| கங்காரு| ____
+leopard| சிறுத்தை| ____
+fox| நரி | __
+rabbit| முயல்| ___
 antelope| மான்| __
 bear| கரடி | ___ `,
 
         `fish| மீன் | __
-  frog| தவளை | ___
-  snake| பாம்பு | ___
-  squirrel| அணில் | ___
-  tortoise| ஆமை | __
-  rat| எலி| __
-  fly| ஈ| _ 
-  ant| எறும்பு | ____
-  lizard| பல்லி| ___
-  crab| நண்டு | ___`,
+frog| தவளை | ___
+snake| பாம்பு | ___
+squirrel| அணில் | ___
+tortoise| ஆமை | __
+rat| எலி| __
+fly| ஈ| _ 
+ant| எறும்பு | ____
+lizard| பல்லி| ___
+crab| நண்டு | ___`,
 
         `mosquito| கொசு | __
-  dragonfly| தட்டான்| ____
-  earthworm| மண்புழு| ____
-  bug| வண்டு| ___
-  prawn| இறால்| ___
-  bee| தேனீ| __
-  spider| சிலந்தி| ____
-  winged-termites| ஈசல் | ___
-  bat| வௌவால் |___ 
-  garden-lizard| ஓணான்| ___`,
+dragonfly| தட்டான்| ____
+earthworm| மண்புழு| ____
+bug| வண்டு| ___
+prawn| இறால்| ___
+bee| தேனீ| __
+spider| சிலந்தி| ____
+winged-termites| ஈசல் | ___
+bat| வௌவால் |___ 
+garden-lizard| ஓணான்| ___`,
 
         `crow| காகம் | ___
-  dove| புறா | __
-  duck| வாத்து | ___
-  hen| கோழி | __
-  parrot| கிளி | __
-  peacock| மயில் | ___`,
+dove| புறா | __
+duck| வாத்து | ___
+hen| கோழி | __
+parrot| கிளி | __
+peacock| மயில் | ___`,
 
         `crane| கொக்கு| ___
-  rooster| சேவல்| ___
-  koel| குயில்| ___
-  eagle| கழுகு| ___
-  myna| மைனா| __
-  owl| ஆந்தை| ___`
+rooster| சேவல்| ___
+koel| குயில்| ___
+eagle| கழுகு| ___
+myna| மைனா| __
+owl| ஆந்தை| ___`
       ]
     },
     {
@@ -150,61 +150,61 @@ bear| கரடி | ___ `,
       },
       data: [
         `cat, பூனை
-  dog, நாய்
-  goat, ஆடு
-  horse, குதிரை
-  cow,  பசு
-  pig, பன்றி
-  buffalo, எருமை
-  donkey, கழுதை
-  bull, காளை
-  camel, ஒட்டகம்`,
+dog, நாய்
+goat, ஆடு
+horse, குதிரை
+cow,  பசு
+pig, பன்றி
+buffalo, எருமை
+donkey, கழுதை
+bull, காளை
+camel, ஒட்டகம்`,
 
         `elephant, யானை
-  lion, சிங்கம் 
-  monkey, குரங்கு 
-  tiger, புலி
-  kangaroo, கங்காரு
-  leopard, சிறுத்தை
-  fox, நரி
-  rabbit, முயல்
+lion, சிங்கம் 
+monkey, குரங்கு 
+tiger, புலி
+kangaroo, கங்காரு
+leopard, சிறுத்தை
+fox, நரி
+rabbit, முயல்
 antelope, மான்
 bear, கரடி`,
 
         `fish, மீன்
-  frog, தவளை
-  snake, பாம்பு
-  squirrel, அணில்
-  tortoise, ஆமை
-  rat, எலி
-  ant, எறும்பு
-  lizard, பல்லி
-  crab, நண்டு`,
+frog, தவளை
+snake, பாம்பு
+squirrel, அணில்
+tortoise, ஆமை
+rat, எலி
+ant, எறும்பு
+lizard, பல்லி
+crab, நண்டு`,
 
         `mosquito, கொசு
-  dragonfly, தட்டான்
-  earthworm, மண்புழு
-  bug, வண்டு
-  prawn, இறால்
-  bee, தேனீ
-  spider, சிலந்தி
-  winged-termites, ஈசல்
-  bat, வௌவால்
-  garden-lizard, ஓணான்`,
+dragonfly, தட்டான்
+earthworm, மண்புழு
+bug, வண்டு
+prawn, இறால்
+bee, தேனீ
+spider, சிலந்தி
+winged-termites, ஈசல்
+bat, வௌவால்
+garden-lizard, ஓணான்`,
 
         `crow, காகம்
-  dove, புறா
-  duck, வாத்து
-  hen, கோழி
-  parrot, கிளி
-  peacock, மயில்`,
+dove, புறா
+duck, வாத்து
+hen, கோழி
+parrot, கிளி
+peacock, மயில்`,
 
         `crane, கொக்கு
-  rooster, சேவல்
-  koel, குயில்
-  eagle, கழுகு
-  myna, மைனா
-  owl, ஆந்தை`
+rooster, சேவல்
+koel, குயில்
+eagle, கழுகு
+myna, மைனா
+owl, ஆந்தை`
       ]
     },
     {

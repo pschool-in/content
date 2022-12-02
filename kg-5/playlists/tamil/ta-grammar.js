@@ -720,19 +720,19 @@ export default {
       ]
     }
     /*
-    {
-      type: 'dictation',
-      label: 'Dictation - Tamil',
-      id: 'dictation-animals',
-      data: {
-        title: 'Listen to the sound and type the word',
-        audio: 'ta/ta-animals.mp3',
-        audioOffset: 2,
-        lang: 'ta',
-        words:
-          'நாய், ஆடு, செம்மறி ஆடு, குதிரை, பன்றி, யானை, சிங்கம், குரங்கு, புலி'
-      }
-    }*/
+{
+type: 'dictation',
+label: 'Dictation - Tamil',
+id: 'dictation-animals',
+data: {
+title: 'Listen to the sound and type the word',
+audio: 'ta/ta-animals.mp3',
+audioOffset: 2,
+lang: 'ta',
+words:
+'நாய், ஆடு, செம்மறி ஆடு, குதிரை, பன்றி, யானை, சிங்கம், குரங்கு, புலி'
+}
+}*/
     /*
 'நீர்யானை, காண்டாமிருகம், நரி, முதலை, வரிக்குதிரை, கரடி, ஒட்டகம், சுறாமீன், திமிங்கிலம், தட்டான்',
 'மீன், தவளை, நண்டு, பாம்பு, அணில், ஆமை, எலி, ஈசல், எறும்பு, ஈ',

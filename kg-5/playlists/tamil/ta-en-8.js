@@ -11,18 +11,16 @@ export default {
         text: [
           `ring, மோதிரம்
 bell, மணி
-kolam, கோலம்
 balloon, பலூன்
 five, ஐந்து
 king, அரசன்
 kite, பட்டம்
 ladder, ஏணி
-rooftile, ஓடு
+roof tile, ஓடு
 wheel, சக்கரம்`,
 
           `park, பூங்கா
 garden, தோட்டம்
-auvai, ஔவை
 bow, வில்
 arrow, அம்பு
 top, பம்பரம்
@@ -31,27 +29,22 @@ whistle, ஊதல்
 box, பெட்டி
 coin, நாணயம்`,
 
-          `
-brick, செங்கல்
+          `brick, செங்கல்
 sculpture , சிற்பம்
-clay-lamp, அகல்விளக்கு
-salangai, சலங்கை
+clay lamp, அகல்விளக்கு
 fountain, நீரூற்று
 brush, தூரிகை
 hexagon, அறுகோணம்
 twig, கிளை
-medicine, மருந்து
-`,
+medicine, மருந்து`,
 
-          `yagna, யாகம்
-yarn-ball, நூல் கண்டு
-rishi, முனிவர்
+          `yarn ball, நூல் கண்டு
 pouch, சுருக்குப்பை
 trident, திரிசூலம்
 radio, வானொலி
 toothbrush, பற்குச்சி
 toothpaste, பற்பசை
-water-tower, தண்ணீர் தொட்டி`,
+water tower, தண்ணீர் தொட்டி`,
 
           `# உடல் உறுப்புகள்`,
 
@@ -75,48 +68,42 @@ kidney, சிறுநீரகம்`
       data: [
         `ring, மோதிரம்
 bell, மணி
-kolam, கோலம்
 balloon, பலூன்
-five, ஐந்து`,
+five, ஐந்து
+king, அரசன்`,
 
-        `king, அரசன்
-kite, பட்டம்
+        `kite, பட்டம்
 ladder, ஏணி
-rooftile, ஓடு
-wheel, சக்கரம்`,
+roof tile, ஓடு
+wheel, சக்கரம்
+park, பூங்கா`,
 
-        `park, பூங்கா
-garden, தோட்டம்
-auvai, ஔவை
+        `garden, தோட்டம்
 bow, வில்
-arrow, அம்பு`,
+arrow, அம்பு
+top, பம்பரம்
+stick, குச்சி`,
 
-        `top, பம்பரம்
-stick, குச்சி
-whistle, ஊதல்
+        `whistle, ஊதல்
 box, பெட்டி
-coin, நாணயம்`,
-
-        `brick, செங்கல்
+coin, நாணயம்
+brick, செங்கல்
 sculpture , சிற்பம்
-clay-lamp, அகல்விளக்கு
-salangai, சலங்கை
-fountain, நீரூற்று
-brush, தூரிகை`,
+clay lamp, அகல்விளக்கு`,
 
-        `hexagon, அறுகோணம்
+        `fountain, நீரூற்று
+brush, தூரிகை
+hexagon, அறுகோணம்
 twig, கிளை
 medicine, மருந்து
-yagna, யாகம்
-yarn-ball, நூல் கண்டு
-rishi, முனிவர்`,
+yarn ball, நூல் கண்டு`,
 
         `pouch, சுருக்குப்பை
 trident, திரிசூலம்
 radio, வானொலி
 toothbrush, பற்குச்சி
 toothpaste, பற்பசை
-water-tower, தண்ணீர் தொட்டி`
+water tower, தண்ணீர் தொட்டி`
       ]
     },
     {
@@ -178,7 +165,7 @@ kudam, குடம்
 cup, கோப்பை
 bowl, கிண்ணம்`,
 
-`almond, பாதாம்
+        `almond, பாதாம்
 cashewnut, முந்திரி
 rice,அரிசி
 salt, உப்பு
