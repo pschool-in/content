@@ -158,7 +158,7 @@ macaw| பஞ்சவர்ணக்கிளி|_________`
         fontSize: '1rem'
       },
       data: [
-        `sheep, செம்மறி ஆடு
+        `sheep, செம்மறிஆடு
 hippo, நீர்யானை
 giraffe, ஒட்டகச்சிவிங்கி
 rhino, காண்டாமிருகம்
@@ -181,7 +181,7 @@ ladybug, பொன்வண்டு`,
 
         ` seahorse, கடற்குதிரை
 butterfly, வண்ணத்துப்பூச்சி
-cockroach, கரப்பான் பூச்சி
+cockroach, கரப்பான்பூச்சி
 mongoose, கீரிப்பிள்ளை
 hamster, வெள்ளெலி`,
 
