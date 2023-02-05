@@ -323,6 +323,7 @@ const allImages = {
     'shelf',
     'baby',
     'ball',
+    'teddy',
     'glasses',
     'clock',
     'watch',

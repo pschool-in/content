@@ -18,41 +18,109 @@ import games from '../playlists/default/games';
 import fun from '../playlists/default/fun.js';
 import alphabets from '../playlists/default/alphabets.js';
 import grammar from '../playlists/default/grammar.js';
+import grammar3 from '../playlists/default/grammar-3-sc.js';
+import grammar6 from '../playlists/default/grammar-6-sc.js';
 import vocabulary from '../playlists/default/vocabulary.js';
+import vocabulary3 from '../playlists/default/vocabulary-3-sc.js';
+import vocabulary6 from '../playlists/default/vocabulary-6-sc.js';
 import math from '../playlists/default/math.js';
+import math3 from '../playlists/default/math-3-sc.js';
+import math6 from '../playlists/default/math-6-sc.js';
 import science from '../playlists/default/science.js';
+import science3 from '../playlists/default/science-3-sc.js';
 import social from '../playlists/default/social.js';
-import dragdrop from '../playlists/default/dragdrop.js';
+import sound from '../playlists/default/sound-sc.js';
+import picture from '../playlists/default/picture-sc.js';
+
 import wordsearch from '../playlists/default/wordsearch.js';
 import crossword from '../playlists/default/crossword.js';
 import reading from '../playlists/default/reading.js';
+import readingKg from '../playlists/default/reading-sc.js';
 import sudoku from '../playlists/default/sudoku.js';
+import sudoku4 from '../playlists/default/sudoku-4-sc.js';
 import clock from '../playlists/default/clock.js';
+import clock4 from '../playlists/default/clock-4-sc.js';
 import games from '../playlists/default/games.js';
+import gk3 from '../playlists/default/gk-3.js';
+import gk6 from '../playlists/default/gk-6.js';
 
 let mainMenu = {
   label: 'Showcase',
   style: {},
+  type: 'curriculumIcon',
+  grades: [
+    {
+      id: 'kg',
+      label: 'Kindergarten'
+    },
+    {
+      id: 'g1',
+      label: 'Class 1'
+    },
+    {
+      id: 'g2',
+      label: 'Class 2'
+    },
+    {
+      id: 'g3',
+      label: 'Class 3'
+    },
+    {
+      id: 'g4',
+      label: 'Class 4',
+      default: true
+    },
+    {
+      id: 'g5',
+      label: 'Class 5'
+    },
+    {
+      id: 'g6',
+      label: 'Class 6'
+    },
+    {
+      id: 'g7',
+      label: 'Class 7'
+    },
+    {
+      id: 'g8',
+      label: 'Class 8'
+    }
+  ],
   list: [
     fun,
     alphabets,
-    reading,
     grammar,
+    grammar3,
+    grammar6,
     vocabulary,
+    vocabulary3,
+    vocabulary6,
+    reading,
+    readingKg,
     math,
+    math3,
+    math6,
     clock,
+    clock4,
+    picture,
+    sound,
     science,
+    science3,
     social,
-    dragdrop,
     sudoku,
+    sudoku4,
     wordsearch,
     crossword,
     games,
+    gk3,
+    gk6,
     {
       label: 'Tamil',
       id: 'tamil',
       img: 'tamil',
-      dynamic: true
+      dynamic: true,
+      grade: '0-8'
     },
     /*
     {
@@ -71,6 +139,7 @@ let mainMenu = {
       label: 'Hindi',
       id: 'hindi',
       img: 'hindi',
+      grade: '0-8',
       dynamic: true
     },
     /*
@@ -92,6 +161,7 @@ let mainMenu = {
       img: 'telugu',
       alt: 'telugu icon',
       desc: 'Telugu group',
+      grade: '0-8',
       dynamic: true
     },
     {
@@ -100,6 +170,7 @@ let mainMenu = {
       img: 'kannada',
       alt: 'kannada icon',
       desc: 'Kannada group',
+      grade: '0-8',
       dynamic: true
     },
     {
@@ -108,12 +179,14 @@ let mainMenu = {
       img: 'malayalam',
       alt: 'malayalam icon',
       desc: 'Malayalam group',
+      grade: '0-8',
       dynamic: true
     },
     {
       label: 'Bengali',
       id: 'bengali',
       img: 'bengali',
+      grade: '0-8',
       dynamic: true
     }
     /*

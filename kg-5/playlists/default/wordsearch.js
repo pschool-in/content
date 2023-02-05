@@ -2,6 +2,7 @@ export default {
   label: 'Word Search',
   id: 'wordsearch',
   img: 'wordsearch',
+  grade: '0-5',
   list: [
     {
       type: 'wordsearch',
@@ -21,13 +22,13 @@ export default {
         lang: 'en',
         desc: 'Find the days of the week.',
         table: `SATURDAYT
-      UEHQSXBOU
-      NMONDAYVE
-      DDFRIDAYS
-      AGZHXJJFD
-      YAGPMKQGA
-      DTHURSDAY
-      WEDNESDAY`
+UEHQSXBOU
+NMONDAYVE
+DDFRIDAYS
+AGZHXJJFD
+YAGPMKQGA
+DTHURSDAY
+WEDNESDAY`
       }
     },
     {
@@ -53,15 +54,15 @@ export default {
         lang: 'en',
         desc: 'Find the months of the year.',
         table: `NOVEMBER
-        DCMSJUNE
-        ATAEUADO
-        PORPLUEJ
-        RBCTYGCA
-        IEHEYUEN
-        LROMUSMU
-        XDZBETBA
-        MAYEUXER
-        FEBRUARY`
+DCMSJUNE
+ATAEUADO
+PORPLUEJ
+RBCTYGCA
+IEHEYUEN
+LROMUSMU
+XDZBETBA
+MAYEUXER
+FEBRUARY`
       }
     },
     {
@@ -83,14 +84,14 @@ export default {
         lang: 'en',
         desc: 'Identify all planets in solar system',
         table: `QMFMCPVVN
-      FNEPTUNES
-      GNBRMSJNA
-      ENOTCUGUT
-      MARSPUDSU
-      TPRIUURXR
-      CRTTHUOYN
-      TESYHTNSL
-      RAURANUSS`
+FNEPTUNES
+GNBRMSJNA
+ENOTCUGUT
+MARSPUDSU
+TPRIUURXR
+CRTTHUOYN
+TESYHTNSL
+RAURANUSS`
       }
     },
     {
@@ -116,15 +117,15 @@ export default {
         lang: 'en',
         desc: 'Find the animals given at the bottom.',
         table: `LWOLFCQL
-      CCBCYSOC
-      VFEAHJXW
-      GOATWDNL
-      RDRLIONH
-      ZEFMCGLZ
-      MEMONKEY
-      ZRBQUMCR
-      HJDRMLGU
-      PANDAEHX`
+CCBCYSOC
+VFEAHJXW
+GOATWDNL
+RDRLIONH
+ZEFMCGLZ
+MEMONKEY
+ZRBQUMCR
+HJDRMLGU
+PANDAEHX`
       }
     },
     {
@@ -212,14 +213,14 @@ export default {
         lang: 'en',
         desc: 'Find the jobs given at the bottom.',
         table: `NXCTAILOR
-      UPOEEZPZU
-      ROFARMERD
-      SLGCZVDIO
-      EIPHGNRQC
-      SCIENTIST
-      SEORXYVLO
-      PILOTKEJR
-      MDZPKTRZB`
+UPOEEZPZU
+ROFARMERD
+SLGCZVDIO
+EIPHGNRQC
+SCIENTIST
+SEORXYVLO
+PILOTKEJR
+MDZPKTRZB`
       }
     },
     {
@@ -242,13 +243,13 @@ export default {
         lang: 'en',
         desc: 'Find the colors given at the bottom.',
         table: `NLYELLOW
-      PGWHENMX
-      VUDHJDFW
-      IORXIVGB
-      ODEPRTRL
-      LNDBLUEA
-      EVXXEEEC
-      TRJRPINK`
+PGWHENMX
+VUDHJDFW
+IORXIVGB
+ODEPRTRL
+LNDBLUEA
+EVXXEEEC
+TRJRPINK`
       }
     },
     {
@@ -273,14 +274,14 @@ export default {
         lang: 'en',
         desc: 'Find the vehicles given at the bottom.',
         table: `VWSBUSCKA
-      AKTFBOATE
-      NTWAAKRNR
-      LBICYCLEO
-      PWMEHCFSP
-      JTRAINBHL
-      AOTRUCKIA
-      TRACTORPN
-      CQEDKXOEE`
+AKTFBOATE
+NTWAAKRNR
+LBICYCLEO
+PWMEHCFSP
+JTRAINBHL
+AOTRUCKIA
+TRACTORPN
+CQEDKXOEE`
       }
     },
     {

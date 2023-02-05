@@ -158,7 +158,7 @@ export default {
       data: {
         title: 'Fill in the boxes and complete the solution',
         type: 'word-problem',
-        fracFontSize: '1rem',
+        fontSize: '1.5rem',
         list: [
           `Find the value of m.
 4(m + 3) = 18

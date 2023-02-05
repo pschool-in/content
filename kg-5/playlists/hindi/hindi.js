@@ -55,7 +55,7 @@ export default {
     {
       id: 'hi-wordsearch',
       label: 'शब्द खोज',
-      img: 'wordsearch'
+      img: 'wordsearch.png'
     },
     {
       id: 'hi-crossword',

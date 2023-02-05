@@ -45,7 +45,7 @@ export default {
     {
       id: 'bn-sukumar-poem',
       label: 'সুকুমার রায়',
-      img: 'bnSukumar'
+      img: 'bn-sukumar'
     },
     {
       id: 'bn-wordsearch',

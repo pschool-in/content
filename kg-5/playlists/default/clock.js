@@ -2,6 +2,7 @@ export default {
   label: 'Clock',
   id: 'clock',
   img: 'clock',
+  grade: '0-3',
   list: [
     {
       type: 'clock',
@@ -38,6 +39,31 @@ export default {
       id: 'write-time-5mins',
       label: 'Write Time - Minutes',
       data: { type: 'clockReadTime' }
+    },
+    {
+      type: 'wordle',
+      id: 'wordle',
+      label: 'Wordle',
+      data: [
+        { word: 'SOUND' },
+        { word: 'MOUTH' },
+        { word: 'CROWD' },
+        { word: 'QUIET' },
+        { word: 'GREAT' }
+      ]
+    },
+    {
+      type: 'fourColor',
+      id: 'fourColor',
+      label: 'Four Color Game',
+      data: [
+        `133
+        021
+        012
+        023`,
+
+        ''
+      ]
     }
   ]
 };

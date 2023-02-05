@@ -149,7 +149,7 @@ jujube| இலந்தைப்பழம்|________`,
         `sapotta| சப்போட்டா|_____
 tapioca| மரவள்ளிக்கிழங்கு|__________
 fig| அத்திப்பழம்|_______
-pears| பேரிக்காய்|_____
+pear| பேரிக்காய்|_____
 muskmelon| முலாம்பழம்|______`,
         `capsicum| குடைமிளகாய்|______
 cucumber| வெள்ளரிக்காய்|_______
@@ -179,7 +179,7 @@ sweets|இனிப்பு|____
 bread| ரொட்டி|___`,
 
         `soup| சூப்|__
-laddu| லட்டு|___
+ladoo| லட்டு|___
 murukku| முறுக்கு|____
 adirasam| அதிரசம்|_____
 malli| மல்லி|___`,
@@ -208,16 +208,16 @@ chickpea| கொண்டைக்கடலை|_______`
         fontSize: '1rem'
       },
       data: [
-        `sweet-potato,  சர்க்கரைவள்ளி கிழங்கு
-jamun, நாவல் பழம்
+        `sweet-potato,  சர்க்கரைவள்ளி
+jamun, நாவல்பழம்
 pear, பேரிக்காய்
 wood-apple, விளாம்பழம்
 jujube, இலந்தைப்பழம்`,
 
         `sapotta, சப்போட்டா
-tapioca, மரவள்ளிக்கிழங்கு
+tapioca, மரவள்ளி
 fig, அத்திப்பழம்
-pears, பேரிக்காய்
+pear, பேரிக்காய்
 muskmelon, முலாம்பழம்`,
 
         `capsicum, குடைமிளகாய்
@@ -236,7 +236,7 @@ beans, பீன்ஸ்`,
 
         `fenugreek, வெந்தயக்கீரை
 drumstick-leaves, முருங்கைக்கீரை
-greenpeas, பச்சை பட்டாணி
+greenpeas, பச்சைபட்டாணி
 peanut, வேர்க்கடலை
 tulsi, துளசி`,
 
@@ -248,7 +248,7 @@ sweets,இனிப்பு
 bread, ரொட்டி`,
 
         `soup, சூப்
-laddu, லட்டு
+ladoo, லட்டு
 murukku, முறுக்கு
 adirasam, அதிரசம்
 malli, மல்லி`,

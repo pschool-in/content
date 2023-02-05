@@ -2,7 +2,40 @@ export default {
   label: 'Social',
   id: 'social',
   img: 'social',
+  grade: '3-5',
   list: [
+    {
+      type: 'dragDropImgLabel',
+      label: 'Road Signs',
+      id: 'road-signs',
+      lockAfter: 1,
+      commonData: {
+        title: 'Drag the names and drop on the images.',
+        path: 'img/social/road-sign'
+      },
+      data: [
+        `2-way-traffic | 2 Way Traffic
+one-way | One Way
+give-way | Give Way
+no-left-turn | No Left Turn
+no-overtaking | No Overtaking
+no-u-turn | No U-Turn`,
+
+        `narrow-bridge | Narrow Bridge
+no-parking | No Parking
+no-right-turn | No Right Turn
+t-junction | T-Junction
+u-turn| U-Turn
+zebra-crossing| Zebra Crossing`,
+
+        `bicycle-crossing | Bicycle Crossing
+horn-prohibited | Horn Prohibited
+max-speed | Maximum Speed
+men-at-work | Men at Work
+parking | Parking
+railroad | Rail Road`
+      ]
+    },
     {
       type: 'dragDropImgLabel',
       label: 'Land Forms',
@@ -10,11 +43,11 @@ export default {
       data: {
         title: 'Drag the names and drop on the images.',
         text: `desert | Desert
-        forest | Forest
-        grassland | Grassland
-        ocean | Ocean
-        polar | Polar Region
-        valley | Valley`
+forest | Forest
+grassland | Grassland
+ocean | Ocean
+polar | Polar Region
+valley | Valley`
       }
     },
     {
@@ -78,38 +111,6 @@ tanjore | Tanjore`
           }
         ]
       }
-    },
-    {
-      type: 'dragDropImgLabel',
-      label: 'Road Signs',
-      id: 'road-signs',
-      lockAfter: 1,
-      commonData: {
-        title: 'Drag the names and drop on the images.',
-        path: 'img/social/road-sign'
-      },
-      data: [
-        `2-way-traffic | 2 Way Traffic
-        one-way | One Way
-        give-way | Give Way
-        no-left-turn | No Left Turn
-        no-overtaking | No Overtaking
-        no-u-turn | No U-Turn`,
-
-        `narrow-bridge | Narrow Bridge
-        no-parking | No Parking
-        no-right-turn | No Right Turn
-        t-junction | T-Junction
-        u-turn| U-Turn
-        zebra-crossing| Zebra Crossing`,
-
-        `bicycle-crossing | Bicycle Crossing
-        horn-prohibited | Horn Prohibited
-        max-speed | Maximum Speed
-        men-at-work | Men at Work
-        parking | Parking
-        railroad | Rail Road`
-      ]
     },
     {
       id: 'latitude',
@@ -263,12 +264,12 @@ Woodcutter, Axe`
       data: {
         title: `Road Manners`,
         text: `Zebra Crossing is the black and white lines on the road. It is the safest place to cross the road. They are also known as pedestrian crossing. Pedestrians are people who walks on the road. 
-        At zebra crossing, we have to wait for green signal to cross the road. At some places, traffic police will help you to cross the road.
-        Apart from zebra crossings, subways and footbridges are provided on big roads, where there is heavy traffic. These are present only in big cities and towns. At small towns and villages, it is our responsibility to cross the road with care.
-        We should not rush to cross the road. We have to wait till the road is clear. We have to be patient for our own safety. Never cross the road at a corner or curve, because we cannot see the approaching vehicle.
-        We have to cross road by walking and should not run. If we run, we may fall. 
-        We have to follow some good habits when travelling in bus. Always follow the queue while entering or leaving the bus. Don't rush or push other people while getting into the bus. While waiting for bus, stand on the pavement and don't block the road. Do not play at the bus stop. Never board or alight from the bus when it is moving. Shouting and making noise is definitely bad manners, and it will distract the driver. If you are sitting in window seat, do not put any part of your body outside. If you are travelling by standing always hold the handrail.
-        It is always cool to have good manners. We can feel proud about ourself, and others also will have high opinion on us.`
+At zebra crossing, we have to wait for green signal to cross the road. At some places, traffic police will help you to cross the road.
+Apart from zebra crossings, subways and footbridges are provided on big roads, where there is heavy traffic. These are present only in big cities and towns. At small towns and villages, it is our responsibility to cross the road with care.
+We should not rush to cross the road. We have to wait till the road is clear. We have to be patient for our own safety. Never cross the road at a corner or curve, because we cannot see the approaching vehicle.
+We have to cross road by walking and should not run. If we run, we may fall. 
+We have to follow some good habits when travelling in bus. Always follow the queue while entering or leaving the bus. Don't rush or push other people while getting into the bus. While waiting for bus, stand on the pavement and don't block the road. Do not play at the bus stop. Never board or alight from the bus when it is moving. Shouting and making noise is definitely bad manners, and it will distract the driver. If you are sitting in window seat, do not put any part of your body outside. If you are travelling by standing always hold the handrail.
+It is always cool to have good manners. We can feel proud about ourself, and others also will have high opinion on us.`
       }
     },
     {
@@ -455,10 +456,10 @@ Maharashtra, Marathi`
       data: {
         title: 'Goods and Services',
         text: `We, human beings cannot live alone, on our own. We interact with many people and do transations and get our requirements done. For example, we cannot produce the food we eat on our own. We go to a store and buy different items, and come home and cook. Here the items what we bought from the store are known as 'goods'.
-        If we don't have time to cook on our own, then we go to a restaurant, where our ordered food will be delivered by a waiter. Here, what the restaurant provides is 'service'.
-        Why the food is not usually considered as 'goods' and rather considered as 'service'? Because, apart from the food, they also provide good atmosphere, tables and chairs for us to sit, waiter to take orders, and a chef to cook. If we buy service, we usually don't have to worry about internal workings and the service provider will take care of it.
-        Doctor, police, lawyer, Carpenter provides service to us. They don't sell anything to us. But their service is very important when we are in need. All kinds of stores, say super market,  provision stores, medicals, stationery stores etc sells 'goods' to us.
-        With little bit of thinking, we can figure out whether something is 'goods' or 'service'.`
+If we don't have time to cook on our own, then we go to a restaurant, where our ordered food will be delivered by a waiter. Here, what the restaurant provides is 'service'.
+Why the food is not usually considered as 'goods' and rather considered as 'service'? Because, apart from the food, they also provide good atmosphere, tables and chairs for us to sit, waiter to take orders, and a chef to cook. If we buy service, we usually don't have to worry about internal workings and the service provider will take care of it.
+Doctor, police, lawyer, Carpenter provides service to us. They don't sell anything to us. But their service is very important when we are in need. All kinds of stores, say super market,  provision stores, medicals, stationery stores etc sells 'goods' to us.
+With little bit of thinking, we can figure out whether something is 'goods' or 'service'.`
       }
     },
     {
@@ -603,11 +604,11 @@ Maharashtra, Marathi`
       data: {
         title: `Our Government`,
         text: `We need different facilities like roads, water, electricity, transport, schools and hostipals. A lot of people have to work together to provide these facilities. And we have lot of rules to follow for the facilities to work properly. Government makes common rules into laws. It is the responsibility of the government to make laws and ensure the laws are followed by people. The service what the government provides is known as governance.
-        India follows a democratic form of governance. It means, the people of the country cast their vote and select their representatives. There are different levels of governance. India is the largest democratic country in the world.
-        At country level, we select our Member of Parliament (MP), who goes to Parliament present in New Delhi to represent us. The selected MPs again vote among themselves and elect the Prime Minister. And the elected Prime Minister will pick other ministers.
-        Though the President is considered as the head of the government, Prime Minister is the most important person in running the government.
-        At state level, the people vote for their Member of Legislative Assembly (MLA), who goes to the Assembly present in their state capital to represent them. Just like how MPs select the Prime Minister of the country, MLAs select the Cheif Minister of the state.
-        We also have Local Body election to select our representative at locality level. Children are not allowed to vote. Only people who are above 18 years are allowed to vote. `
+India follows a democratic form of governance. It means, the people of the country cast their vote and select their representatives. There are different levels of governance. India is the largest democratic country in the world.
+At country level, we select our Member of Parliament (MP), who goes to Parliament present in New Delhi to represent us. The selected MPs again vote among themselves and elect the Prime Minister. And the elected Prime Minister will pick other ministers.
+Though the President is considered as the head of the government, Prime Minister is the most important person in running the government.
+At state level, the people vote for their Member of Legislative Assembly (MLA), who goes to the Assembly present in their state capital to represent them. Just like how MPs select the Prime Minister of the country, MLAs select the Cheif Minister of the state.
+We also have Local Body election to select our representative at locality level. Children are not allowed to vote. Only people who are above 18 years are allowed to vote. `
       }
     },
     {
@@ -666,23 +667,23 @@ Maharashtra, Marathi`
       data: {
         title: `Types of Forests in India`,
         text: `Plants and trees that grows naturally in a region of land is known as vegetation. Forests are large area of land, covered by naturally grown plants and trees. 
-        Vegetation in India is not uniform. Climate, soil and rainfall influence the growth of plants. 
-        Indian forests are broadly classified into five types. They are 
-        1. Evergreen Forests
-        2. Monsoon Forests
-        3. Mangrove Forests 
-        4. Thorn Forests
-        5. Himalayan Forests
-        # Evergreen Forests
-        These forests are found in the areas of the Western Ghats, the eastern parts of Himalayas and the Andaman and Nicobar Islands. These forests get lots of rain. Bamboo, Rosewood and Sandalwood are common trees here.
-        # Monsoon Forests
-        Peninsular India and the northern parts of India are covered by monsoon forests. These forests get moderate rains. The trees shed their leaves during summer because of less rainfall. 
-        # Mangrove Forests
-        These are seen in the Indian coastal line, in the Ganga delta and Brahmaputra region, in some backwater areas and salt marshes.  The roots of the trees of most forests are found usually under the ground. But salt water trees like Avicennia, have aerial roots which are above the water in  order to survive in the salt water. These prevent soil erosion  and prevent fertile soil from being washed away into the ocean. 
-        # Thorn Forests 
-        They are found in the areas which receive less than 50 cm rainfall. Parts of the Deccan Plateau and Rajasthan have thorny trees like Acacia, Babul and Palmyra.
-        # Himalayan Forests
-        You can find trees like  Pine, Cedar, Oak,  Walnut and Apple. We can also see some on these trees in Nilgiris and Kodi Hills.`
+Vegetation in India is not uniform. Climate, soil and rainfall influence the growth of plants. 
+Indian forests are broadly classified into five types. They are 
+1. Evergreen Forests
+2. Monsoon Forests
+3. Mangrove Forests 
+4. Thorn Forests
+5. Himalayan Forests
+# Evergreen Forests
+These forests are found in the areas of the Western Ghats, the eastern parts of Himalayas and the Andaman and Nicobar Islands. These forests get lots of rain. Bamboo, Rosewood and Sandalwood are common trees here.
+# Monsoon Forests
+Peninsular India and the northern parts of India are covered by monsoon forests. These forests get moderate rains. The trees shed their leaves during summer because of less rainfall. 
+# Mangrove Forests
+These are seen in the Indian coastal line, in the Ganga delta and Brahmaputra region, in some backwater areas and salt marshes.  The roots of the trees of most forests are found usually under the ground. But salt water trees like Avicennia, have aerial roots which are above the water in  order to survive in the salt water. These prevent soil erosion  and prevent fertile soil from being washed away into the ocean. 
+# Thorn Forests 
+They are found in the areas which receive less than 50 cm rainfall. Parts of the Deccan Plateau and Rajasthan have thorny trees like Acacia, Babul and Palmyra.
+# Himalayan Forests
+You can find trees like  Pine, Cedar, Oak,  Walnut and Apple. We can also see some on these trees in Nilgiris and Kodi Hills.`
       }
     },
     {
@@ -739,16 +740,16 @@ Evergreen, Bamboo`
       data: {
         title: `Wealth under the Ground`,
         text: `Lot of things we use are extracted from ground and they are generally known as minerals. The activity of extracting minerals from earth is known as mining. 
-        Minerals are of two kinds, namely metallic and non-metallic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metallic minerals.
-        India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts.
-        Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc. 
-        Copper was the first  metal used by human beings. It is widely used in electrical equipments .
-        Coal is primarily used as fuel and also used in generating electricity.
-        Petroleum is a natural resource. The by-products of petroleum are petrol, diesel and kerosene. They are mainly used as fuel and generating energy. In India petroleum is found under sea near Mumbai. But we majorly import petroleum from other countries.
-        Indians love gold ornaments and objects made of gold. India majorly imports gold.
-        # Conserving our minerals
-        Our minerals are being consumed so rapidly that there is a danger of their running out. We must save them and use them wisely. 
-        Alternate sources of energy and fuel are being considered.  Chief among them are solar and wind energy. This aims at conserving the available mineral resources from being rapidly depleted. `
+Minerals are of two kinds, namely metallic and non-metallic. Iron, copper and gold are the important metallic minerals. Petroleum and coal are the important non-metallic minerals.
+India is rich in mineral wealth. Iron ore are present in large quantity and India is a major exporter of Iron. It is used in industries, and making machine parts.
+Aluminium is light-weight in nature, and it is extracted from Bauxite ore. Aluminium is used in making aircraft, vessels, etc. 
+Copper was the first  metal used by human beings. It is widely used in electrical equipments .
+Coal is primarily used as fuel and also used in generating electricity.
+Petroleum is a natural resource. The by-products of petroleum are petrol, diesel and kerosene. They are mainly used as fuel and generating energy. In India petroleum is found under sea near Mumbai. But we majorly import petroleum from other countries.
+Indians love gold ornaments and objects made of gold. India majorly imports gold.
+# Conserving our minerals
+Our minerals are being consumed so rapidly that there is a danger of their running out. We must save them and use them wisely. 
+Alternate sources of energy and fuel are being considered.  Chief among them are solar and wind energy. This aims at conserving the available mineral resources from being rapidly depleted. `
       }
     },
     {
@@ -810,12 +811,12 @@ Evergreen, Bamboo`
       data: {
         title: `The Story of a Seed`,
         text: `I am a small bajra seed. I want to tell you my story. It is not my story alone, it is also to story of my farmer and his family. I refer my farmer as my master.
-        I was born in a small village in Gujarat. Each year, my master kept aside some seeds from a good crop. That way our bajra family went on from one generation to another. Good seeds were stored in dried gourd coated with mud. Later, my master made a strong wooden box to store us. He put in neem leaves to protect us from insects. This was how I ended up in this wooden box.
-        Over the years, many changes took place in the village. Some places could get water from the canal. They said the canal brought water from far away – where a dam had been built on a big river. Then electricity came. Switch on the button and there was light! People found that only one or two crops, like wheat and cotton, got better prices in the market. So most farmers began to grow only these. So my master never used me on field.
-        My master got old and his son took over the farming activity. He used an electric motor to pump water from ground. He also bought a tractor to plough the field. The tractor could do in a day, what the bullocks would take many days to do. Master's son made good money. 
-        After twenty years, again there were many changes. Without cows and baffaloes, there was no cow dung, to be used in the fields as fertilizer. So the son bought expensive fertilizer. The new seeds were easily affected by harmful insects. Pesticides had to be sprayed on the crops to keep away the insects. To meet all these expenses, loans had to be taken from the bank.
-        Due to pumping, the ground water also depleted. Whatever little profit was made, was used to repay the loan.
-        And today is my last day. My master's family is selling the old things which they consider as useless. They are going to dispose me of my home. The seed box is going to be used as a toolbox for keeping mechanical tools, screws, nuts and bolts.`
+I was born in a small village in Gujarat. Each year, my master kept aside some seeds from a good crop. That way our bajra family went on from one generation to another. Good seeds were stored in dried gourd coated with mud. Later, my master made a strong wooden box to store us. He put in neem leaves to protect us from insects. This was how I ended up in this wooden box.
+Over the years, many changes took place in the village. Some places could get water from the canal. They said the canal brought water from far away – where a dam had been built on a big river. Then electricity came. Switch on the button and there was light! People found that only one or two crops, like wheat and cotton, got better prices in the market. So most farmers began to grow only these. So my master never used me on field.
+My master got old and his son took over the farming activity. He used an electric motor to pump water from ground. He also bought a tractor to plough the field. The tractor could do in a day, what the bullocks would take many days to do. Master's son made good money. 
+After twenty years, again there were many changes. Without cows and baffaloes, there was no cow dung, to be used in the fields as fertilizer. So the son bought expensive fertilizer. The new seeds were easily affected by harmful insects. Pesticides had to be sprayed on the crops to keep away the insects. To meet all these expenses, loans had to be taken from the bank.
+Due to pumping, the ground water also depleted. Whatever little profit was made, was used to repay the loan.
+And today is my last day. My master's family is selling the old things which they consider as useless. They are going to dispose me of my home. The seed box is going to be used as a toolbox for keeping mechanical tools, screws, nuts and bolts.`
       }
     },
     {
@@ -855,11 +856,11 @@ Evergreen, Bamboo`
       data: {
         title: `Food and its Life-time`,
         text: `My mother asked me to buy a pack of bread from nearby store. I went to the store, bought the bread and gave the money. Before leaving the store I got alert and thought that, I need to check something. I checked the expiry date printed on the packet. And the date was two days before today. I informed the store owner and he asked sorry, and gave me a new packet of bread.
-        I know that all packed food items come printed with manufactured and expiry date. Food items will get spoiled after some time. Even the food prepared by mother also get spoiled after some time.
-        If any bad smell come from food items, then we should not eat it. If the color of food item changes or any fungal growth, then we should not eat it.             
-        We follow different methods to keep food items safe for some time. Mother keeps all green vegetables and tomato in fridge, so that they are good for some time. But she keeps onion and potato in open space as open air helps them to be good for some time.          
-        Mother makes pickle from mango and lemon which we can have with food for a couple of months. She adds lot of salt and oil which prevents spoiling. If I put my hands into it, or if I add some water to it, then it will spoil fast.      
-        Industries uses preservatives to keep food items edible for a long time. Mango is a seasonal fruit. But we can get bottled mango juice around the year. Eating preserved food is generally not considered healthy.`
+I know that all packed food items come printed with manufactured and expiry date. Food items will get spoiled after some time. Even the food prepared by mother also get spoiled after some time.
+If any bad smell come from food items, then we should not eat it. If the color of food item changes or any fungal growth, then we should not eat it.             
+We follow different methods to keep food items safe for some time. Mother keeps all green vegetables and tomato in fridge, so that they are good for some time. But she keeps onion and potato in open space as open air helps them to be good for some time.          
+Mother makes pickle from mango and lemon which we can have with food for a couple of months. She adds lot of salt and oil which prevents spoiling. If I put my hands into it, or if I add some water to it, then it will spoil fast.      
+Industries uses preservatives to keep food items edible for a long time. Mango is a seasonal fruit. But we can get bottled mango juice around the year. Eating preserved food is generally not considered healthy.`
       }
     },
     {

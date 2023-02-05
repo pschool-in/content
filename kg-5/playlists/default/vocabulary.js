@@ -1,270 +1,253 @@
-const vocabulary = {
+export default {
   label: 'Vocabulary',
   id: 'vocabulary',
   img: 'vocabulary',
+  grade: '0-2',
   list: [
     {
       type: 'sequence',
       id: '3-letter-word',
       label: 'Three Letter Words',
-      data: {
-        text: `COW, KEY, BED, FAT, SAD, SUN, MAP, PAY, RUN, PEN, MAY, HIT, ANT, BAG, SIT`
-      }
+      data: [
+        'ice, air, fan, pen, his, lip, jar, ant, pet, hit',
+        'jam, man, cat, van, fat, age, red, can, win, pig',
+        'pay, yes, map, egg, box, hen, fin, boy, sun, see',
+        'cow, oil, big, run'
+      ]
     },
     {
       type: 'sequence',
       id: '4-letter-word',
       label: 'Four Letter Words',
-      data: {
-        text: `HOME, TIME, ROAD, KIND, GOLD, LION, GOAT, MILK, BIKE, LOVE, DUCK, STAR, FISH, HAND, BIRD`
-      }
+      data: [
+        'baby, dear, duck, long, look, four, fish, hand, bird',
+        'love, luck, made, same, star, wire, wise, blue, from',
+        'wish, with, wood, word, year, your, nine, fast, park',
+        'book, fire, five, salt, boat, head, home, page, pain'
+      ]
     },
     {
       label: 'Plural Form',
       id: 'plural',
       type: 'completePuzzle',
-      data: {
+      commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the correct plural form.',
-        text: `woman, women, womans
-        ox, oxen, oxes
-        tomato, tomatoes, tomatos
-        onion, onions,	oniones
-        boy, boys,	boies
-        story, stories,	storys
-        key, keys,	keies
-        party, parties, partys
-        mouse, mice, mouses
-        house, houses, home`
-      }
-    },
-    {
-      label: 'Prefix: dis- vs un-',
-      id: 'prefix',
-      type: 'completePuzzle',
-      data: {
-        type: 'leftOpen',
-        title: 'Drag and drop the correct prefix.',
-        text: `kind, un, dis
-        appear, dis, un
-        agree, dis, un
-        fit, un, dis
-        obey, dis, un
-        fair, un, dis
-        honest, dis, un
-        loyal, dis, un
-        happy, un, dis
-        well, un, dis`
-      }
-    },
-    {
-      id: '200',
-      label: 'Fill up',
-      type: 'fillup',
-      data: {
-        title: 'Click on the blanks and fill it with the right word.',
-        text: `Students have *access (excess)* to the library on holidays.
-          My friends eat to *excess(access)*.
-          In the forest, I saw a small house *among (between)* the trees.
-          There was a big stone *between(among)* the two wheels.
-          His hair was so soft. It was just *like (as)* silk.
-          She is working *as (like)* a doctor.
-          They got a set of 12 *knives (knifes)* and forks for their wedding.`
-      }
-    },
-    /* {
-      type: "sequence",
-      id: "order-5-letter-words",
-      label: "Order Word (5 letter words)",
-      data: {
-        text: `SMILE, DREAM, SUGAR, WORLD, MONTH, MUSIC, WATER, MOUTH, LAUGH, TIGER, MOVIE, MONEY, HOUSE,WOMAN, AFTER`,
+        title: 'Drag and drop the correct plural form.'
       },
-    },*/
-    {
-      type: 'sequence',
-      id: 'order-6-letter-words',
-      label: 'Order Word (6 letter words)',
-      data: {
-        text: `MOTHER, ADJUST, ADVICE, ACTION, FATHER, SIMPLE, GROUND, BRIDGE, DESIGN, SINGLE`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'complete-word-fruits',
-      label: 'Complete Word - Fruits',
-      data: {
-        images: 'fruits',
-        title: 'Fill in the missing letters.',
-        text: `apple | APPLE | A_P_E
-grapes | GRAPES | _R_P_S
-banana | BANANA | _A_A_A
-cherry | CHERRY | C_E_R_
-avocado | AVOCADO | A_O_A_O
-strawberry | STRAWBERRY | S_RA_B_R_Y`
-      }
-    },
-    {
-      type: 'completeWord',
-      id: 'complete-word-animals',
-      label: 'Complete Word - Animals',
-      data: {
-        images: 'animals',
-        text: `cat | CAT | C__
-dog | DOG | __G
-elephant | ELEPHANT | E_E_H_N_
-goat | GOAT | ___T
-horse | HORSE | _O__E
-lion | LION | ___N
-monkey | MONKEY | M__K__
-pig | PIG | __G
-rhino | RHINO | R___O
-tiger | TIGER | _I_E_`
-      }
+      data: [
+        `dog, dogs, doges
+cat, cats, cates
+tiger, tigers, tigeres
+girl, girls, girles
+fan, fans, fanes`,
+
+        `story, stories, storys
+city, cities, citys
+fox, foxes, foxs
+dress, dresses, dress
+bench, benches, benchs`,
+
+        `leaf, leaves, leafs
+man, men, mans
+mango, mangoes, mangos
+potato, potatoes, potatos
+child, children, childs`
+      ]
     },
     {
       type: 'completeWord',
       id: 'complete-word',
       label: 'Complete Word - Hint',
-      data: {
-        text: `A small vehicle that moves in water | BOAT | B__T
+      data: [
+        `A small vehicle that moves in water | BOAT | B__T
 The tool of a wood cutter | AXE | A_E
-A living thing that can fly | BIRD | B__D
+The liquid food we get from cows | MILK | ___K
+A flower that flots in water | LOTUS | ____S
+A living thing that can fly | BIRD | B__D`,
+
+        `The place we live in | HOUSE | H____
+A device that shows time | CLOCK | C___K
+A big fruit whose outside is green and inside is yellow. | JACKFRUIT | ____FRU__
 A wild animal with stripes | TIGER | _I_E_
-The only home for man | EARTH | E_R_H`
-      }
+The only home for man | EARTH | E_R_H`,
+
+        `An animal that lives in trees. | MONKEY | M____Y
+A bird that flies high. | EAGLE | __G_E
+We need this to make sweets. | SUGAR | S____
+A big fruit whose inside is red. | WATERMELON | _____M___N
+The tall animal | GIRAFFE | G______`
+      ]
     },
     {
       type: 'rightOne',
       label: 'Pick Correct Spelling',
       id: 'correct-spelling',
-      data: {
-        text: `CAT, KAT
-APPLE, APLE
-BOX, BOK
-CAN, CAAN
-BALL, BAL
-EGG, EG
-GRAPES,	GRAPS
-HOME,	HOM
-ICE,	ICC
-ZEBRA,	ZIBRA`
-      }
-    },
-    {
-      type: 'rightOne',
-      label: 'Odd one out',
-      id: 'odd-one-out',
-      data: {
-        title: `Pick the word that does not rhyme with others.`,
-        text: `ball, bat, cat, rat
-fan, face, place, race
-pet, hot, not, pot
-sun, soon, moon, noon
-bat, all, ball, call
-pick, cook, look, book
-week, seed, feed, weed
-send, well, sell, tell
-fan, fun, bun, gun`
-      }
-    },
-    {
-      type: 'rightOne',
-      label: 'Pick Correct Spelling - 2',
-      id: 'correct-spelling-2',
-      data: {
-        text: `class, clas 
-cold, kold
-memory, memary 
-butter, buter
+      commonData: {
+        title: 'Identify the correct spelling.'
+      },
+      data: [
+        `cat, kat
+dog, dag
+goat, gote
+sheep, sheap
+cow, cov
+fox, fex, focx
+fly, fli
+apple, aple
+box, bok
+can, caan`,
+
+        `ball, bal
+egg, eg
+grapes,graps
+home,hom
+ice,icc
+zebra,zibra
+class, clas
+cold, kold, colt
 sugar, suger
-water, watar
-once, onse
-cattle, catle
-wheat, wheet
-meals, meels`
-      }
+water, watar`,
+
+        `why, whi
+train, trein
+bus, bas
+orange, arange
+boat, bot
+cycle, cicle
+call, cal
+first, farst
+many, mani
+write, rite`
+      ]
     },
     {
-      type: 'rightOne',
-      label: 'Pick Correct Spelling - 3',
-      id: 'correct-spelling-3',
-      data: {
-        text: `absence, abcense
-queue, que
-column, colum
-extreme, extreem
-almost, allmost
-beginning, begining
-surprise, suprise
-calendar, calender
-vehicle, vehical
-difference, diffrence`
-      }
+      label: 'Rhyming Words',
+      type: 'matchByDragDrop',
+      id: 'rhyme',
+      commonData: {
+        fontSize: '1.3rem',
+        dashWidth: 100
+      },
+      data: [
+        `bat, cat, *rat*
+face, place, *race*
+hot, not, *pot*
+soon, moon, *noon*
+all, ball, *call*
+cook, look, *book*`,
+
+        `boat, coat, *goat*
+park, dark, *shark*
+hand, band, *stand*
+bright, right, *light*
+gave, cave, *save*
+face, race, *place*`,
+
+        `cub, club, *rub*
+cap, map, *tap*
+bun, run, *sun*
+but, nut, *hut*
+cook, look, *book*
+right, bright, *light*`
+      ]
     },
     {
       type: 'match',
       label: 'Match Antonyms',
       id: 'antonyms',
-      data: {
-        title: 'Match words with opposite meaning.',
-        text: `yes, no
+      commonData: {
+        title: 'Match words with opposite meaning.'
+      },
+      data: [
+        `yes, no
 you, I
 yesterday, tomorrow
 young, old
-early, late 
-cry, laugh `
-      }
+early, late
+cry, laugh`,
+
+        `fail, pass
+many, few
+poor, rich
+speed, slow
+cruel, kind
+above, below`,
+
+        `left, right
+always, never
+bottom, top
+careful, careless
+warm, cool
+east, west`
+      ]
     },
     {
       type: 'match',
       label: 'Match Synonyms',
       id: 'synonyms',
-      data: {
-        title: 'Match words with same meaning.',
-        text: `huge, large
+      commonData: {
+        title: 'Match words with same meaning.'
+      },
+      data: [
+        `huge, large
 quick, fast
 ill, sick
 friendly, kind
 silent, quiet
-speak, talk
-rest, relax`
-      }
+speak, talk`,
+
+        `bad, evil
+difficult, hard
+begin, start
+come, arrive
+end, finish
+wrong, incorrect`,
+
+        `below, under
+money, cash
+child, kid
+chill, cool
+leave, exit
+cost,price`
+      ]
     },
     {
-      type: 'connectLetters',
-      label: 'Connect Letters to form word',
-      id: 'connect-letters',
-      data: {
-        title: 'Connect the blocks from left to right to form meaningful word.',
-        printTitle: 'Form the word using the letters.',
-        type: 'image',
-        text:
-          'train, house, table, chair, candle, shelf, apple, grapes, banana, cherry'
-      }
-    },
-    {
-      type: 'selectWord',
-      label: 'Select the silent letter in a word.',
-      id: 'silent-letter',
-      lockAfter: 2,
-      commonData: {
-        title: `Select the silent letter in the given words.`,
-        type: 'word'
-      },
+      id: 'confusing-words',
+      label: 'Confusing Words',
+      type: 'fillup',
       data: [
-        `clim*b*, dou*b*t, lis*t*en, ma*t*ch, *h*our, sc*h*ool, *k*nee, *k*now, ans*w*er, t*w*o`,
-        `com*b*, dum*b*, of*t*en, wa*t*ch, w*h*at, w*h*en, *k*nife, *k*night, *w*rite, s*w*ord`,
-        `lam*b*, lim*b*, cas*t*le, bu*t*cher, w*h*ere, g*h*ost,  *k*nob, *k*nock,  *w*hole, *w*rap`,
-        `bom*b*, num*b*, fas*t*en, *h*onest, w*h*y,  *k*not,  *w*rist, *w*rinkle, wa*l*k, pa*l*m`,
-        `de*b*t, thum*b*, r*h*ythm, sc*h*eme,  *w*reck, ec*h*o, cou*l*d, ha*l*f,  s*c*ience, s*c*issors`,
-        `lik*e*, lov*e*,  b*u*ild, g*u*ess, ta*l*k, ca*l*m, autum*n*, colum*n*, i*s*land, han*d*some`,
-        `mak*e*, ag*e*, g*u*est, g*u*ide, ali*g*n, si*g*n,  mus*c*le,  a*l*mond,  hym*n*, fri*d*ge`,
-        `chang*e*, breath*e*, g*u*itar, whis*t*le, *w*rong, plum*b*er, su*b*tle, wom*b*,  g*u*ard, shou*l*d`,
-        `hat*e*, cloth*e*s, forei*g*n, resi*g*n, fo*l*k, cha*l*k, bri*d*ge, e*d*ge, anc*h*or, ca*l*f`,
-        `assi*g*n, desi*g*n, s*c*ene, s*c*ent, ba*d*ge, ju*d*ge, wou*l*d, c*h*aos, c*h*orus, tom*b*`
+        {
+          title: 'To, Two, and Too',
+          text: `It is never *too* late to learn.
+I am going *to* read a story.
+Suresh ran *two* kilometers.
+This gift is *too* expensive.
+Can I have *two* tickets?
+Sita started *to* laugh.`,
+          options: 'to, two, too'
+        },
+        {
+          title: 'By, Buy, and Bye',
+          text: `*Bye* for now! I will catch you later.
+Where can I *buy* a ticket?
+This book is written *by* an Indian author.
+Should I *buy* a black car or a white car?
+The bike was driven *by* Smith.
+*Bye*, see you tomorrow.`,
+          options: 'by, buy, bye'
+        },
+        {
+          title: 'Here vs Hear',
+          text: `There is no one *here*.
+Can you *hear* the dog barking?
+When your uncle gets *here*, tell him to wait.
+The bears won't *hear* us if we're quiet.
+Kids, where are you? We're *here*.
+Who put the keys *here* ?
+I can't *hear* you. You're mumbling.`,
+          options: 'here, hear'
+        }
       ]
     }
   ]
 };
-
-export default vocabulary;

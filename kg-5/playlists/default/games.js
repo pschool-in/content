@@ -2,6 +2,7 @@ export default {
   label: 'Games',
   id: 'games',
   img: 'brain',
+  grade: '0-5',
   list: [
     {
       type: 'memoryFindPair',

@@ -102,9 +102,9 @@ export default {
     {
       type: 'numberInput',
       id: 'add',
-      label: 'Add the Arithmetic Expressions',
+      label: 'Add the Algebraic Expressions',
       commonData: {
-        title: 'Add the Arithmetic Expressions',
+        title: 'Add the Algebraic Expressions',
         type: 'word-problem',
         isSentence: false,
         answerBox: false,
@@ -218,9 +218,9 @@ export default {
     {
       type: 'numberInput',
       id: 'subtract',
-      label: 'Subtract the Arithmetic Expressions',
+      label: 'Subtract the Algebraic Expressions',
       commonData: {
-        title: 'Subtract the Arithmetic Expressions',
+        title: 'Subtract the Algebraic Expressions',
         type: 'word-problem',
         isSentence: false,
         answerBox: false,

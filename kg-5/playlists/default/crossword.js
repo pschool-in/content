@@ -2,6 +2,7 @@ export default {
   label: 'Crossword',
   id: 'crossword',
   img: 'crossword',
+  grade: '3-8',
   list: [
     {
       id: 'animals',
