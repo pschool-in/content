@@ -7,24 +7,24 @@ export default {
   },
   list: [
     {
-      id: 'html',
+      id: 'html5-intro',
       label: 'HTML',
       img: 'html'
     },
     {
-      id: 'css',
+      id: 'css-intro',
       label: 'CSS',
       img: 'css'
+    },
+    {
+      id: 'js-intro',
+      label: 'JavaScript',
+      img: 'js'
     },
     {
       id: 'svg',
       label: 'SVG',
       img: 'svg'
-    },
-    {
-      id: 'javascript',
-      label: 'JavaScript',
-      img: 'js'
     },
     {
       id: 'data-structure',
@@ -45,16 +45,6 @@ export default {
       id: 'reduxjs',
       label: 'ReduxJS',
       img: 'redux'
-    },
-    {
-      id: 'algorithm',
-      label: 'Algorithm',
-      img: 'algorithm'
-    },
-    {
-      id: 'algorithm',
-      label: 'Algorithm',
-      img: 'algorithm'
     },
     {
       id: 'cli',
