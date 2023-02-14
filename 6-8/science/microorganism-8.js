@@ -183,3 +183,20 @@ export default {
               text: `Air makes us feel dull.
   We do not require air to function properly.`
             }
+          ]
+        }
+      },
+      {
+        label: 'Complete Word - Breathing',
+        type: 'completeWord',
+        id: 'drag-drop-3',
+        data: {
+          text: `The process by which we breathe in air through our nose.| INHALATION| I_H__A_I__
+  The process by which we breathe out air through the nose.|EXHALATION| E_H__A_I__
+  Inhalation and exhalation are together called ________.|BREATHING| B___T___G
+  The process by which we breathe continuously is called ________.|RESPIRATION|R__P_R___O_`
+        }
+      }
+    ]
+  };
+  
