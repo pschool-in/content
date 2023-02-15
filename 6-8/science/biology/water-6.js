@@ -71,6 +71,16 @@ export default {
         }
       },
       {
+        label: 'Water Cycle',
+        type: 'sorting',
+        data: {
+          title:
+            'Arrange the processes occuring in water cycle in correct order',
+          text: 'Evapouration, Condensation, Sublimation, Precipitation'
+        },
+        id: 'sorting'
+      },
+      {
         id: 'evapouration-condensation',
         label: 'Evapouration or Condensation',
         type: 'classifySentence',
@@ -127,17 +137,6 @@ export default {
           Excessive rains may cause *floods* while lack of it for long periods may cause *droughts*.`
         }
       },
-      {
-        label: 'Water Cycle',
-        type: 'sorting',
-        data: {
-          title:
-            'Arrange the processes occuring in water cycle in correct order',
-          text: 'Evapouration, Condensation, Sublimation, Precipitation'
-        },
-        id: 'sorting'
-      },
-      
   {
     type: 'completeWord',
     id: 'complete-word',

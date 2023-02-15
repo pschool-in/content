@@ -85,7 +85,7 @@ export default {
       },
       {
         id: 'oxygen-carbon-dioxide',
-        label: 'Smoke or Dust',
+        label: 'Oxygen or Carbon dioxide',
         type: 'classifySentence',
         data: {
           title: 'Classify which component of air is used in the given process.',
