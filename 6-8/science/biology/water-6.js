@@ -254,6 +254,41 @@ export default {
             }
           ]
         }
+      }, 
+      {
+        id: 'water-cyle',
+        label: 'Water Cycle',
+        type: 'dragAndDrop',
+        data: {
+          img: 'water-cycle.jpg',
+          title: 'Water Cycle',
+          width: 400,
+          height: 218,
+          wordWidth: 80,
+          fontSize: '1.2rem',
+          words: [
+            {
+              word: 'collection',
+              x: 20,
+              y: 190
+            },
+            {
+              word: 'precipitation',
+              x: 10,
+              y: 80
+            },
+            {
+              word: 'evaporation',
+              x: 300,
+              y: 100
+            },
+            {
+              word: 'condensation',
+              x: 160,
+              y: 5
+            }
+          ]
+        }
       }
     ]
   };

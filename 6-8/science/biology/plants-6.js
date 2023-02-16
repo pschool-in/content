@@ -35,8 +35,7 @@ export default {
             dashWidth: 80
           },
           text: `The prominent line in the middle of the leaf is called *midrib*.
-          If the venation is a netlike 
-          design in both sides of midrib, then it is called *reticulate* venation.
+          If the venation is a netlike design in both sides of midrib, then it is called *reticulate* venation.
           The main root of the plant is called *tap root*.
           The smaller roots seen on a plant is called *fibrous root*.`
         }
@@ -159,7 +158,7 @@ export default {
       {
         label: 'Leaf',
         type: 'matchByDragDrop',
-        id: 'match-drag-drop-3',
+        id: 'match-drag-drop-4',
         data: {
           styles: {
             fontSize: '1rem',
@@ -205,6 +204,82 @@ export default {
               word: 'VEINS',
               display: '___N_',
               hint: 'The lines on a leaf'
+            }
+          ]
+        }
+      },
+      {
+        id: 'stem-root',
+        label: 'Stem or Root',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify based on the functions performed by the plant part.',
+          types: [
+            {
+              name: 'Stem',
+              text: `Holds the plant upright.
+              Bears leaves, branches, buds, flowers and fruits.
+              Conduct water to the leaves.`
+            },
+            {
+              name: 'Root',
+              text: `Absorbs water and minerals.
+              Anchors the plant into the soil.`
+            }
+          ]
+        }
+      },
+      {
+        id: 'flower',
+        label: 'Parts of a Flower',
+        type: 'dragAndDrop',
+        data: {
+          img: 'flower.jpg',
+          title: 'Parts of a Flower',
+          width: 380,
+          height: 336,
+          wordWidth: 50,
+          fontSize: '1.2rem',
+          words: [
+            {
+              word: 'petal',
+              x: 30,
+              y: 100
+            },
+            {
+              word: 'stigma',
+              x: 50,
+              y: 40
+            },
+            {
+              word: 'style',
+              x: 30,
+              y: 170
+            },
+            {
+              word: 'sepal',
+              x: 40,
+              y: 250
+            },
+            {
+              word: 'ovary',
+              x: 100,
+              y: 300
+            },
+            {
+              word: 'receptacle',
+              x: 280,
+              y: 290
+            },
+            {
+              word: 'anther',
+              x: 280,
+              y: 20
+            },
+            {
+              word: 'filament',
+              x: 320,
+              y: 200
             }
           ]
         }
