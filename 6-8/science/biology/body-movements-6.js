@@ -285,6 +285,46 @@ export default {
           Snake, Slither`,
           title: 'Match animals with their type of locomotion'
         }
+      },
+      {
+        id: 'skeleton',
+        label: 'Skeletal System',
+        type: 'dragAndDrop',
+        data: {
+          img: 'skeleton.jpg',
+          title: 'Skeletal System',
+          width: 350,
+          height: 448,
+          wordWidth: 70,
+          fontSize: '1.2rem',
+          words: [
+            {
+              word: 'vertebrae',
+              x: 70,
+              y: 160
+            },
+            {
+              word: 'pelvis',
+              x: 70,
+              y: 200
+            },
+            {
+              word: 'skull',
+              x: 60,
+              y: 30
+            },
+            {
+              word: 'ribs',
+              x: 60,
+              y: 110
+            },
+            {
+              word: 'femur',
+              x: 70,
+              y: 300
+            }
+          ]
+        }
       }
     ]
   };

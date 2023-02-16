@@ -35,8 +35,7 @@ export default {
             dashWidth: 80
           },
           text: `The prominent line in the middle of the leaf is called *midrib*.
-          If the venation is a netlike 
-          design in both sides of midrib, then it is called *reticulate* venation.
+          If the venation is a netlike design in both sides of midrib, then it is called *reticulate* venation.
           The main root of the plant is called *tap root*.
           The smaller roots seen on a plant is called *fibrous root*.`
         }
@@ -153,6 +152,135 @@ export default {
                 qText: 'What is the design made by veins in the leaf called?',
                 options: `Leaf venation, Leaf petiole, Veins`
               }
+          ]
+        }
+      },
+      {
+        label: 'Leaf',
+        type: 'matchByDragDrop',
+        id: 'match-drag-drop-4',
+        data: {
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `Leaves are attached to the stem by a structure called *petiole*. 
+          The broad green part of the leaf is called *lamina*. 
+          The lines on a leaf are called *veins*. 
+          The prominent line in the middle of the leaf is a *midrib*.
+          The design made by the veins in a leaf is called the leaf *venation*.
+          Water comes out of eaves in the form of vapour by a process called *transpiration*.`
+        }
+      },
+      {
+        type: 'completeWord',
+        id: 'complete-word',
+        label: 'Plants',
+    
+        data: {
+          title: 'Find the word',
+          questions: [
+            {
+              word: 'TRANSPIRATION',
+              display: 'T___S________',
+              hint: 'The process by which plants loose water'
+            },
+            {
+              word: 'PHOTOSYNTHESIS',
+              display: 'P____S_____S__',
+              hint: 'The process by which plants make food'
+            },
+            {
+              word: 'PETIOLE',
+              display: 'P______',
+              hint: 'The part of leaf that attaches it to the stem'
+            },
+            {
+              word: 'STEM',
+              display: 'S___',
+              hint: 'The part that holds the plant upright'
+            },
+            {
+              word: 'VEINS',
+              display: '___N_',
+              hint: 'The lines on a leaf'
+            }
+          ]
+        }
+      },
+      {
+        id: 'stem-root',
+        label: 'Stem or Root',
+        type: 'classifySentence',
+        data: {
+          title: 'Classify based on the functions performed by the plant part.',
+          types: [
+            {
+              name: 'Stem',
+              text: `Holds the plant upright.
+              Bears leaves, branches, buds, flowers and fruits.
+              Conduct water to the leaves.`
+            },
+            {
+              name: 'Root',
+              text: `Absorbs water and minerals.
+              Anchors the plant into the soil.`
+            }
+          ]
+        }
+      },
+      {
+        id: 'flower',
+        label: 'Parts of a Flower',
+        type: 'dragAndDrop',
+        data: {
+          img: 'flower.jpg',
+          title: 'Parts of a Flower',
+          width: 380,
+          height: 336,
+          wordWidth: 50,
+          fontSize: '1.2rem',
+          words: [
+            {
+              word: 'petal',
+              x: 30,
+              y: 100
+            },
+            {
+              word: 'stigma',
+              x: 50,
+              y: 40
+            },
+            {
+              word: 'style',
+              x: 30,
+              y: 170
+            },
+            {
+              word: 'sepal',
+              x: 40,
+              y: 250
+            },
+            {
+              word: 'ovary',
+              x: 100,
+              y: 300
+            },
+            {
+              word: 'receptacle',
+              x: 280,
+              y: 290
+            },
+            {
+              word: 'anther',
+              x: 280,
+              y: 20
+            },
+            {
+              word: 'filament',
+              x: 320,
+              y: 200
+            }
           ]
         }
       }

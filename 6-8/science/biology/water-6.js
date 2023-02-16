@@ -168,7 +168,6 @@ export default {
       ]
     }
   },
-  
   {
     type: 'completeWord',
     id: 'complete-word-2',
@@ -228,6 +227,66 @@ export default {
                 qText: 'Which process leads to loss of water from plants?',
                 options: `Transpiration, Respiration, Evapouration `
               }
+          ]
+        }
+      },
+      {
+        id: 'yes-no',
+        label: 'Yes or No',
+        type: 'classifySentence',
+        data: {
+          title: 'Does the following activities help in the conservation of water?',
+          types: [
+            {
+              name: 'Yes',
+              text: ` Take five minutes or less for showers.
+              Use plants that require less water.
+              Turn off sink faucet while scrubbing dishes and pots.
+              Install new toilets that use less than 1.6 gallons per flush.
+              Turn off water while brushing teeth.`
+            },
+            {
+              name: 'No',
+              text: `Taking long showers.
+              Leaky pipes.
+              Letting water running while brushing teeth.
+              Ignoring faulty faucets.`
+            }
+          ]
+        }
+      }, 
+      {
+        id: 'water-cyle',
+        label: 'Water Cycle',
+        type: 'dragAndDrop',
+        data: {
+          img: 'water-cycle.jpg',
+          title: 'Water Cycle',
+          width: 400,
+          height: 218,
+          wordWidth: 80,
+          fontSize: '1.2rem',
+          words: [
+            {
+              word: 'collection',
+              x: 20,
+              y: 190
+            },
+            {
+              word: 'precipitation',
+              x: 10,
+              y: 80
+            },
+            {
+              word: 'evaporation',
+              x: 300,
+              y: 100
+            },
+            {
+              word: 'condensation',
+              x: 160,
+              y: 5
+            }
           ]
         }
       }
