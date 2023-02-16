@@ -155,6 +155,59 @@ export default {
               }
           ]
         }
+      },
+      {
+        label: 'Leaf',
+        type: 'matchByDragDrop',
+        id: 'match-drag-drop-3',
+        data: {
+          styles: {
+            fontSize: '1rem',
+            dashWidth: 80
+          },
+          text: `Leaves are attached to the stem by a structure called *petiole*. 
+          The broad green part of the leaf is called *lamina*. 
+          The lines on a leaf are called *veins*. 
+          The prominent line in the middle of the leaf is a *midrib*.
+          The design made by the veins in a leaf is called the leaf *venation*.
+          Water comes out of eaves in the form of vapour by a process called *transpiration*.`
+        }
+      },
+      {
+        type: 'completeWord',
+        id: 'complete-word',
+        label: 'Plants',
+    
+        data: {
+          title: 'Find the word',
+          questions: [
+            {
+              word: 'TRANSPIRATION',
+              display: 'T___S________',
+              hint: 'The process by which plants loose water'
+            },
+            {
+              word: 'PHOTOSYNTHESIS',
+              display: 'P____S_____S__',
+              hint: 'The process by which plants make food'
+            },
+            {
+              word: 'PETIOLE',
+              display: 'P______',
+              hint: 'The part of leaf that attaches it to the stem'
+            },
+            {
+              word: 'STEM',
+              display: 'S___',
+              hint: 'The part that holds the plant upright'
+            },
+            {
+              word: 'VEINS',
+              display: '___N_',
+              hint: 'The lines on a leaf'
+            }
+          ]
+        }
       }
     ]
   };
