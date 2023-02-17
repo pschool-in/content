@@ -60,30 +60,30 @@ export default {
               }
             },
             data: [ 
-              `*orator* - One who makes a powerful public speech 
-              *tragedy* - A play that ends in death
-              * simultaneous* -Happening at the same time 
+              `*tragedy* - A play that ends in death
+              *simultaneous* -Happening at the same time 
               *manuscript* - A piece of writing before it is published
               *biography* - The life history of a person written by another
-              *amateur*- One who plays for pleasure`,
+              *fortnight* - A period of two weeks`,
              
-              `*botany* - The science of plant life
-               *zoology* - Science of the life of animals 
-                *autobiography*- The life history of a person written by himself
-                  *audience*- An assembly of listeners
-                  *catalogue* - A list of books`,
+              `*amateur*- One who plays for pleasure
+              *anniversary* - The yearly return of a date 
+              *audience*- An assembly of listeners
+              *orator* - One who makes a powerful public speech 
+              *catalogue* - A list of books`,
 
-                 ` *century* -A period of hundred years 
-                  *anniversary* - The yearly return of a date 
-                  *fortnight* - A period of two weeks
-                  * theist* - One who believes in the existence of God
-                  *contemporary* - A person who lives at the same time as an other`,
+              `*century* -A period of hundred years 
+              *botany* - The science of plant life
+              *dictatorship* - Government carried on by an absolute ruler 
+              *theist* - One who believes in the existence of God
+              *contemporary* - A person who lives at the same time as an other`,
 
-                  ` * monarchy* - Government by a king
-                  *democracy* - Government formed by the representatives of the people
-                  *dictatorship* - Government carried on by an absolute ruler
-                  *illegal* - Contrary to law
-                  *spokesman* - One who speaks for others`
+              `*autobiography*- The life history of a person written by himself
+              *monarchy* - Government by a king
+              *democracy* - Government formed by the representatives of the people
+              *zoology* - Science of the life of animals 
+              *illegal* - Contrary to law
+              *spokesman* - One who speaks for others`
             ]
           },
           {
@@ -99,30 +99,29 @@ export default {
               }
             },
             data: [
-              `*orator ()*  One who makes a powerful public speech 
-              *spokesman ()* One who speaks for others
-              * theist ()* One who believes in the existence of God
-              *audience ()* An assembly of listeners 
-              *amateur ()* One who plays for pleasure`,
-             
-              `*botany ()* The science of plant life
-                  *zoology ()* Science of the life of animals 
-                  *biography ()* The life history of a person written by another
-                  *autobiography ()* The life history of a person written by himself
-                  *manuscript ()* A piece of writing before it is published
-                  *catalogue ()* A list of books`,
+              `Living standards have improved over the last *century*
+The bank celebrates its 100th *anniversary* in December
+They were also allowed to report to police once every *fortnight*
+We've spent the last *fortnight* in Spain
+There will be *simultaneous* transmission of the concert on TV and radio
+The telephone and the gramophone were *contemporary*`,
 
-                 ` *century ()* A period of hundred years 
-                  *anniversary ()* The yearly return of a date 
-                  *fortnight ()* A period of two weeks
-                  * simultaneous ()* Happening at the same time 
-                  *contemporary ()* A person who lives at the same time as an other`,
+ `The *monarchy* in England plays an important role in British culture.
+ A free press is fundamental to *democracy*
+*Dictatorship* stands for the denial of individual freedom.
+It's *illegal* to drive through a red light.
+I prefer comedy to *tragedy*`,
 
-                  ` * monarchy ()*  Government by a king
-                  *democracy ()* Government formed by the representatives of the people
-                  *dictatorship ()* Government carried on by an absolute ruler
-                  *illegal ()* Contrary to law
-                  *tragedy ()* A play that ends in death`
+`As a *fatalist*, the woman refused to believe that luck
+An *atheist* is a person who believes that there is no God.
+The professor donated his books to the *library*.
+A *cemetery* is the land used for burials
+At the audition, the actors were asked to perform *extempore*`,
+
+`A *pessimist* is someone who thinks that bad things are going to happen
+An *optimist* is someone who is hopeful about the future
+When I first went to New York, it all felt very *alien* to me`
+
   ]
         },
           {
@@ -220,29 +219,32 @@ export default {
                 }
               },
               data: [
-                `*honorary ()* Performing work without pay 
-                *illiterate ()* One who does not know how to read and write
-                *orphan ()* A child whose parents are dead
-                *widower ()* A man whose wife is dead
-                *widow ()* A woman whose husband is dead`,
-                
-                `*fatalist ()* One who believes in fate
-                  * atheist ()* One who does not believe in the existence of God
-                    *library ()* A room containing many books
-                    *cemetry ()* A place for burial of dead bodies
-                    *extempore ()* Done without any preparation`,
-                    `
-                  *pessimist ()* One who takes a dark view of things
-                   *optimist ()* One who takes a bright view of things
-                   *alien ()* One who resides in a country of which he is not a citizen
-                   *cannibal ()* One who eats human flesh
-                  *vegetarian ()* One who lives on vegetables or plant food`,
-                 
-                  `*thermometer ()* An instrument for measuring temperature
-                    *mortal ()* Subject to death
-                    * parasite ()* That which lives on another
-                    *fatal ()* Resulting in death
-                    *panacea ()* A cure of all diseases`
+                `He was awarded an *honorary* degree
+                She received an *honorary* degree from Harvard.
+                His father was an *illiterate* farm worker.
+                A large percentage of the population is *illiterate*
+                He was an *orphan* and lived with his uncle`,
+
+                `If your wife dies, they call you a *widower*
+                A *widow* pursues her dream of becoming a singer.
+                As a *fatalist*, the woman refused to believe that luck
+                An *atheist* is a person who believes that there is no God.
+                The professor donated his books to the *library*`,
+
+                `The *cemetery* is surrounded by indigenous plants and trees.
+                A *cemetery* is the land used for burials
+                At the audition, the actors were asked to perform *extempore*
+                A *pessimist* is someone who thinks that bad things are going to happen
+                An *optimist* is someone who is hopeful about the future`,
+
+                `When I first went to New York, it all felt very *alien* to me.
+                 I have heard the *cannibal* tribe in stories.
+                *vegetarians* are people who don't eat meat, poultry, or seafood.
+                The *thermometer* shows the temperature in Celsius and Fahrenheit.
+                He received a *mortal* wound soon after the battle began.
+                Many diseases are caused by *parasites*
+                Technology is not a *panacea* for all our problems.
+                 Hepatitis is a potentially *fatal* disease.`
     ]
           },
             {
@@ -343,30 +345,31 @@ export default {
                     }
                   },
                   data: [
-                   ` *invincible ()* That which cannot be conquered
-                    *audible  ()* Loud enough to be heard
-                    *inaudible ()* Not distinct enough to be heard
-                    *edible ()* Fit to be eaten
-                    *inedible ()* Unfit for human consumption`,
-                    
-                    `*eligible ()* Fit to be chosen or selected
-                        *ineligible ()* Not having the qualities of being chosen
-                        *legible ()* Writing that is easy to read
-                        *illegible ()* Writing that is easy to decipher
-                        *ineffaceable ()* That which cannot be rubbed out or blotted out`,
-    
-                        `*literate ()* Able to read
-                        *illiterate ()* Unable to read
-                        *legitimate ()* Born of married parents
-                        *illegitimate ()* Born of unmarried parents
-                        *incorrigible ()* Incapable of being redeemed from evil, i.e., beyond correction`,
-    
-                        `*cosmopolitan ()* of or from all parts of the world
-                        *migrate ()* To move from one country to another
-                        *expatriate ()* To banish from one's country
-                        *repatriate ()* To send back a person to his own country
-                        *Emigrant ()* One who leaves his country to settle in another
-                        *immigrant ()* One who comes into a foreign country to settle there`
+                   ` They took an *invincible* lead in the chase for the championship.
+                   The shot was clearly *audible* in the silence.
+                    The noise of the wind made her cries *inaudible*
+                   Unfortunately some poisonous mushrooms look like *edible* mushrooms.
+                   *Edible* wild herbs kept us from dying of starvation`,
+
+                   `These chemicals make the fruit *inedible*
+                   Only 40% of *eligible* voters cast their ballots.
+                   Temporary workers are *ineligible* for the pension scheme.
+                    Her handwriting was clearly *legible*
+                   Your handwriting is so *illegible* that nobody can read it`,
+
+                    `There is an *ineffaceable* mark on my skirt.
+                    Both parents were *literate* in English.
+                   His father was an *illiterate* farm worker.
+                    Some players see injuring their opponent as a *legitimate* tactic.
+                   The election was dismissed as *illegitimate* by the opposition`,
+
+                   `Everyone makes mistakes, but few are* incorrigible*
+                   London has always been a *cosmopolitan* city.
+                   People *migrate* to find work.
+                   The writer is an *expatriate* artist living in Singapore.
+                   an agreement between the countries enables companies to* repatriate* their profits freely.
+                   Many teachers are clueless about the needs of *immigrant*  students.
+                   The *emigrant* found his livelihood almost immediately on arrival `
         ]
               },
         ]
