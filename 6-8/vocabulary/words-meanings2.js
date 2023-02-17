@@ -61,31 +61,70 @@ export default {
             },
             data: [ 
               `*orator* - One who makes a powerful public speech 
-              *spokesman* - One who speaks for others
-              * theist* - One who believes in the existence of God
-              *audience*- An assembly of listeners 
+              *tragedy* - A play that ends in death
+              * simultaneous* -Happening at the same time 
+              *manuscript* - A piece of writing before it is published
+              *biography* - The life history of a person written by another
               *amateur*- One who plays for pleasure`,
              
               `*botany* - The science of plant life
-                  *zoology* - Science of the life of animals 
-                  *biography* - The life history of a person written by another
-                  *autobiography*- The life history of a person written by himself
-                  *manuscript* - A piece of writing before it is published
+               *zoology* - Science of the life of animals 
+                *autobiography*- The life history of a person written by himself
+                  *audience*- An assembly of listeners
                   *catalogue* - A list of books`,
 
                  ` *century* -A period of hundred years 
                   *anniversary* - The yearly return of a date 
                   *fortnight* - A period of two weeks
-                  * simultaneous* -Happening at the same time 
+                  * theist* - One who believes in the existence of God
                   *contemporary* - A person who lives at the same time as an other`,
 
                   ` * monarchy* - Government by a king
                   *democracy* - Government formed by the representatives of the people
                   *dictatorship* - Government carried on by an absolute ruler
                   *illegal* - Contrary to law
-                  *tragedy* - A play that ends in death`
+                  *spokesman* - One who speaks for others`
             ]
           },
+          {
+            label: 'Fillup - Words',
+            type: 'fillup',
+            id: 'meaning1',
+            lockAfter: 1,
+            commonData: {
+              title: 'Drag and drop the words at appropriate places',
+              styles: {
+                fontSize: '1rem',
+                dashWidth: 70
+              }
+            },
+            data: [
+              `*orator ()*  One who makes a powerful public speech 
+              *spokesman ()* One who speaks for others
+              * theist ()* One who believes in the existence of God
+              *audience ()* An assembly of listeners 
+              *amateur ()* One who plays for pleasure`,
+             
+              `*botany ()* The science of plant life
+                  *zoology ()* Science of the life of animals 
+                  *biography ()* The life history of a person written by another
+                  *autobiography ()* The life history of a person written by himself
+                  *manuscript ()* A piece of writing before it is published
+                  *catalogue ()* A list of books`,
+
+                 ` *century ()* A period of hundred years 
+                  *anniversary ()* The yearly return of a date 
+                  *fortnight ()* A period of two weeks
+                  * simultaneous ()* Happening at the same time 
+                  *contemporary ()* A person who lives at the same time as an other`,
+
+                  ` * monarchy ()*  Government by a king
+                  *democracy ()* Government formed by the representatives of the people
+                  *dictatorship ()* Government carried on by an absolute ruler
+                  *illegal ()* Contrary to law
+                  *tragedy ()* A play that ends in death`
+  ]
+        },
           {
             id: 'reading',
             type: 'passage',
@@ -107,7 +146,7 @@ export default {
                 text:`<b>fatalist</b> - One who believes in fate<br>
                 <b> atheist</b> -One who does not believe in the existence of God <br>
                   <b>library</b> - A room containing many books <br>
-                  <b>cemetry</b> - A place for burial of dead bodies <br>
+                  <b>cemetery</b> - A place for burial of dead bodies <br>
                   <b>extempore</b> - Done without any preparation <hr>`
                 },
                 {
@@ -166,9 +205,46 @@ export default {
                   * parasite* - That which lives on another
                   *fatal* - Resulting in death
                   *panacea* -A cure of all diseases`
-
               ]
             },
+            {
+              label: 'Fillup - Words',
+              type: 'fillup',
+              id: 'meanings2',
+              lockAfter: 1,
+              commonData: {
+                title: 'Drag and drop the words at appropriate places',
+                styles: {
+                  fontSize: '1rem',
+                  dashWidth: 70
+                }
+              },
+              data: [
+                `*honorary ()* Performing work without pay 
+                *illiterate ()* One who does not know how to read and write
+                *orphan ()* A child whose parents are dead
+                *widower ()* A man whose wife is dead
+                *widow ()* A woman whose husband is dead`,
+                
+                `*fatalist ()* One who believes in fate
+                  * atheist ()* One who does not believe in the existence of God
+                    *library ()* A room containing many books
+                    *cemetry ()* A place for burial of dead bodies
+                    *extempore ()* Done without any preparation`,
+                    `
+                  *pessimist ()* One who takes a dark view of things
+                   *optimist ()* One who takes a bright view of things
+                   *alien ()* One who resides in a country of which he is not a citizen
+                   *cannibal ()* One who eats human flesh
+                  *vegetarian ()* One who lives on vegetables or plant food`,
+                 
+                  `*thermometer ()* An instrument for measuring temperature
+                    *mortal ()* Subject to death
+                    * parasite ()* That which lives on another
+                    *fatal ()* Resulting in death
+                    *panacea ()* A cure of all diseases`
+    ]
+          },
             {
               id: 'reading',
               type: 'passage',
@@ -253,6 +329,45 @@ export default {
                     *immigrant*-One who comes into a foreign country to settle there`
   
                 ]
+              },
+              {
+                  label: 'Fillup - Words',
+                  type: 'fillup',
+                  id: 'meanings3',
+                  lockAfter: 1,
+                  commonData: {
+                    title: 'Drag and drop the words at appropriate places',
+                    styles: {
+                      fontSize: '1rem',
+                      dashWidth: 70
+                    }
+                  },
+                  data: [
+                   ` *invincible ()* That which cannot be conquered
+                    *audible  ()* Loud enough to be heard
+                    *inaudible ()* Not distinct enough to be heard
+                    *edible ()* Fit to be eaten
+                    *inedible ()* Unfit for human consumption`,
+                    
+                    `*eligible ()* Fit to be chosen or selected
+                        *ineligible ()* Not having the qualities of being chosen
+                        *legible ()* Writing that is easy to read
+                        *illegible ()* Writing that is easy to decipher
+                        *ineffaceable ()* That which cannot be rubbed out or blotted out`,
+    
+                        `*literate ()* Able to read
+                        *illiterate ()* Unable to read
+                        *legitimate ()* Born of married parents
+                        *illegitimate ()* Born of unmarried parents
+                        *incorrigible ()* Incapable of being redeemed from evil, i.e., beyond correction`,
+    
+                        `*cosmopolitan ()* of or from all parts of the world
+                        *migrate ()* To move from one country to another
+                        *expatriate ()* To banish from one's country
+                        *repatriate ()* To send back a person to his own country
+                        *Emigrant ()* One who leaves his country to settle in another
+                        *immigrant ()* One who comes into a foreign country to settle there`
+        ]
               },
         ]
       };
