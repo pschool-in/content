@@ -134,7 +134,7 @@ The room with the yellow door is *mine*.`,
       type: 'fillup',
       data: {
         title: 'he vs his',
-        text: `This is Mr Sharma, *he* is a writer.
+        text: `This is Mr. Sharma, *he* is a writer.
 *His* leather shoes need to be polished.
 Ankit is my friend, *he* loves ice cream.
 My father is always busy with *his* work.
@@ -194,7 +194,7 @@ The spacecraft fired *its* rockets.`,
       type: 'fillup',
       data: {
         title: "Fill in the blanks with who's and whose.",
-        text: `He is an artist *whose* work I really admire.
+        text: `He is an artist *whose* work I admire.
 *Who's* that man in the white shirt?
 *Who's* the prime minister of India?
 *Whose* keys are on the table?
@@ -210,7 +210,7 @@ I want someone *who's* loyal to me.`,
         title: "Fill in the blanks with the right word: there, their, they're",
         text: `The kids went to visit *their* grandparents.
 *They're* all eating cake together.
-What do you see over *there* ?
+What do you see over *there*?
 Tomorrow, *they're* having a party.
 The library book is over *there*.
 The students handed in *their* homework.`,

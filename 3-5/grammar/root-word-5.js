@@ -18,15 +18,15 @@ export default {
 Our school captain is an outstanding *dancer*.(dance)
 The king prayed for *wisdom* to rule his country well.(wise)
 Prepare for your *dictation* exam tomorrow.(dictate)
-Tomorrow is the last date for *payment* of the phone bill.(pay)`,
+Tomorrow is the last date for the *payment* of the phone bill.(pay)`,
 
         `She is slowly gaining *strength* after her long illness.  (strong)
 Have the clothes *dried*?  (dry)
-The students were *relieved* that exams were cancelled!  (relief)
+The students were *relieved* that the exams were cancelled!  (relief)
 This is the *prettiest* house I have ever seen!  (pretty)
 The poor *homeless* man was finally able to find a job with a kind farmer.(home)`,
 
-        `The firemen who arrived late, *helpessly* watched the fire raze the building to the ground.  (help)
+        `The firemen who arrived late, *helplessly* watched the fire raze the building to the ground.  (help)
 My mother was *unwell* last night.(well)
 Tom and Jerry is the *funniest* cartoon!(funny)
 The sunrise is one of the most *beautiful* scenes! (beauty)
@@ -36,10 +36,10 @@ The dishonest worker *disappeared* with the money.(appear)`,
 Sandra is a *sensible* girl.(sense)
 I am a *resident* of India.(reside)
 With committed teaching, they will soon develop *literacy*.(literate)
-This kind of irresposible *behaviour* should not be tolerated.(behave)`,
+This kind of irresponsible *behaviour* should not be tolerated.(behave)`,
 
         `The *inhuman* treatment of the prisoners was condemned by the whole world.(human)
-That boy is frequently *irregular* to school.(regular)
+That boy is frequently *irregular* in school.(regular)
 The performance remains *satisfactory*. (satisfy)
 It is *unnatural* to domesticate a tiger!  (nature)
 The *judgement* came as a great surprise.(judge)`,
