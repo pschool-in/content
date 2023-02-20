@@ -39,7 +39,7 @@ The dog jumped into the *well*.`
       type: 'classifySentence',
       id: 'classify',
       commonData: {
-        title: 'Indentify the parts of speech of the underlined word.'
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {
@@ -138,7 +138,7 @@ He eats very *little*.`
               name: 'Noun',
               text: `My daughter was an actor in a *play*.
 She wrote, directed and starred in a *play*.
-The *play* is based on real life events.`
+The *play* is based on real-life events.`
             },
             {
               name: 'Verb',
@@ -220,7 +220,7 @@ He came *straight* home from work.`
       type: 'classifySentence',
       id: 'classify-2',
       commonData: {
-        title: 'Indentify the parts of speech of the underlined word.'
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {
@@ -373,7 +373,7 @@ She likes everyone *except* you.`
 Poverty is *less* of a problem now than it used to be.
 The red jacket is *less* expensive.
 The population of India is *less* than China.
-Train is *less* riskier than a plane.
+The train is *less* riskier than a plane.
 Water in rivers is *less* than that in the oceans.`
             },
             {
@@ -438,7 +438,7 @@ My son comes to visit me *once* every fortnight.`
       type: 'classifySentence',
       id: 'classify-3',
       commonData: {
-        title: 'Indentify the parts of speech of the underlined word.'
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {
@@ -448,7 +448,7 @@ My son comes to visit me *once* every fortnight.`
               name: 'Adjective',
               text: `Have you got *any* books?
 *Any* movies you can suggest?
-You can find water bottle in almost *any* shop.`
+You can find water bottles in almost *any* shop.`
             },
             {
               name: 'Adverb',
@@ -470,7 +470,7 @@ She immediately left *as* I came.
             {
               name: 'Adverb',
               text: `She called *as* fast *as* she could.
-The room was *as* warm *as* sun.
+The room was *as* warm *as* the sun.
 Rahul is *as* smart *as* Sheena.`
             }
           ]
@@ -534,7 +534,7 @@ Monkeys can climb *up* very fast.`
               name: 'Adjective',
               text: `Your room is *such* a mess.
 She is *such* a pretty girl.
-Mauli is *such* liar.`
+Mauli is *such* a liar.`
             },
             {
               name: 'Pronoun',
@@ -629,7 +629,7 @@ She is my favorite *one*.`
       type: 'classifySentence',
       id: 'classify-4',
       commonData: {
-        title: 'Indentify the parts of speech of the underlined word.'
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {
@@ -834,7 +834,7 @@ This is *why* I prefer the train.`
       type: 'classifySentence',
       id: 'classify-5',
       commonData: {
-        title: 'Indentify the parts of speech of the underlined word.'
+        title: 'Identify the parts of speech of the underlined word.'
       },
       data: [
         {
@@ -905,7 +905,7 @@ She is running so *that* she can lose weight.`
             {
               name: 'Noun',
               text: `We must be aware of our *rights*.
-All the citizens have the *right* to information.`
+All citizens have the *right* to information.`
             },
             {
               name: 'Adjective',
@@ -960,7 +960,7 @@ If I run faster, I can jump *over* this wall.`
             {
               name: 'Preposition',
               text: `I haven’t slept *since* yesterday.
-We shouldn’t use mobile in the dark *since* it is harmful for the eyes.`
+We shouldn’t use mobile in the dark *since* it is harmful to the eyes.`
             },
             {
               name: 'Adverb',
@@ -1000,7 +1000,7 @@ I have *back* pain.`
             {
               name: 'Adverb',
               text: `I will come *back* soon.
-She’s going *back* to her farm house.`
+She’s going *back* to her farmhouse.`
             },
             {
               name: 'Adjective',

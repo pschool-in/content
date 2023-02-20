@@ -53,8 +53,8 @@ Beggars can't be choosers.
 All good things must come to an end.
 When it rains it pours.
 Make hay while the sun shines.
-Hope for the best, prepare for the worst.
-When the going gets tough, the tough gets going.
+Hope for the best, and prepare for the worst.
+When the going gets tough, the tough get going.
 # Collection-4
 You can lead a horse to water, but you can't make it drink.
 A single swallow cannot make a summer.
@@ -105,7 +105,7 @@ A penny saved, is a penny earned`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag and drop the words at correct places to make a complete proverb.',
+          'Drag and drop the words at the correct places to make a complete proverb.',
         fontSize: '1rem'
       },
       data: [
@@ -145,9 +145,9 @@ Don't blow your own *trumpet*.
 A friend in need is a friend *indeed*.`,
 
         `Make hay while the sun *shines*.
-Hope for the *best*, prepare for the worst.
+Hope for the *best*, and prepare for the worst.
 Two wrongs don't make a *right*.
-When the going gets *tough*, the tough gets going.
+When the going gets *tough*, the tough get going.
 All that glitters is not *gold*.`,
 
         `A single swallow cannot make a *summer*.

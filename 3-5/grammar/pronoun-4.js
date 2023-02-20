@@ -102,7 +102,7 @@ me, myself`
 Did you write the poem *yourself*?
 I *myself* carried the heavy box.
 My brother and I looked at *ourselves* in the mirror.
-I introduced *myself* to my neighbours.
+I introduced *myself* to my neighbors.
 Let's clean the room *ourselves*.
 Can you tell me about *yourself*?
 Amrita *herself* baked this cake.
@@ -260,7 +260,7 @@ I will make tea by *myself*.
 The village *itself* is very small.
 Ishaan studies in the new school now. This was *his* old school.
 I borrowed this dress from Alia. This is *hers*.
-My new neighbours have a dog. This dog is *theirs*.`,
+My new neighbors have a dog. This dog is *theirs*.`,
 
         `Why are you using my pencil? Where is *yours*?
 Ram and Shyaam are good boys. *They* are also very smart.

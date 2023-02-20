@@ -226,7 +226,7 @@ He likes cake.
 She is going to school.`,
 
           `My dad is a good person.
-The phone fell down.
+The phone fell.
 Ravi is eating.
 The phone is ringing.
 The girls are sleeping.`
@@ -244,17 +244,17 @@ The girls are sleeping.`
       },
       data: [
         `*I (Me)* went to the library. 
-*I (Me)* really want that ice cream. 
+*I (Me)* want that ice cream. 
 You and *I* are good friends.
 Is that present for *me*?
 Will you play with *me* tomorrow?
 *I (Me)* am going to the movie tonight.
 My mom and *I* love burgers.
 This is a photo of *me* and my sister.
-Parish invited Abhi and *me* for his birthday party.
+Parish invited Abhi and *me* to his birthday party.
 Please have breakfast with *me*.`,
 
-        `Can *I* have a chocolate?
+        `Can *I* have a bar of chocolate?
 Everybody is happy for *me*.
 Will you help *me* with my homework? 
 Dad dropped *me* at school today.
@@ -284,10 +284,10 @@ She gave *me* some coins.`
       data: [
         `*We (Us)* are going to Delhi on Friday.
 Can *we* go to the park tomorrow?
-The movie really scared *us*. 
+The movie scared *us*. 
 *We (Us)* live in a big house.
 The dog is barking at *us*.
-She cannot come with *us* to the school today.
+She cannot come with *us* to school today.
 Can you drop *us* at the station?
 After *we* eat, let's go for a walk.
 *We (Us)* had ice cream after dinner.

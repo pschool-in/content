@@ -68,7 +68,7 @@ The *picture* is on the *wall*.
 This *stick* is made of *wood*.
 She rang the *bell*.
 Our *house* is in the *city*.
-There are many red *bricks* on *roadside*.
+There are many red *bricks* on the *roadside*.
 I forgot my *phone* at *home*.
 That *car* was very fast.
 This is my *video game*.`
@@ -85,8 +85,8 @@ This is my *video game*.`
       data: [
         {
           title: 'Identify the neuter gender nouns in the below text.',
-          text: `I have my exams from tomorrow. I need to buy new *pens* and *pencils*.
-I have borrowed a *book* from the library. I will return it next week.
+          text: `I have my exams tomorrow. I need to buy new *pens* and *pencils*.
+I borrowed a *book* from the library. I will return it next week.
 This *restaurant* opened last week. The *food* here is very good.
 I am not a great *fan* of movies. I like watching shows.
 My dad gifted me a *mobile* for my 18th birthday. I love it.
@@ -109,7 +109,7 @@ My *friend* wants to become a *musician*. She is very talented.`
           title: 'Identify the masculine gender nouns in the below text.',
           text: `The *king* was a very wealthy *man*. The people of the village still remember him.
 My *father* is a very hard-working person. He takes care of everyone.
-The *cock* makes *rooster* sound in the morning. All villagers wake up by hearing that.
+The *cock* makes a *rooster* sound in the morning. All villagers wake up by hearing that.
 *Fox* is a very cunning animal. He plays tricks on everyone.
 The *boys* in my class are good at sports. They win all the games.
 There are forty *men* in the garden. The rest of them are women.`
@@ -117,7 +117,7 @@ There are forty *men* in the garden. The rest of them are women.`
         {
           title: 'Identify the feminine gender nouns in the below text.',
           text: `There are many *cows* in the neighborhood. They eat plants outside our house.
-*Hens* live in farms. They lay eggs that hatch into chicks.
+*Hens* live on farms. They lay eggs that hatch into chicks.
 My *mother* is very caring. She cooks delicious food for me.
 My friend's *sister* is a dancer. She's practicing for a function.
 The *queen* is the king's *wife*. Sometimes they ruled the kingdom.
@@ -185,7 +185,7 @@ gentleman, lady`
       id: 'same-basket',
       lockAfter: 1,
       commonData: {
-        title: 'Drag and drop words, so that nouns of same group are together.',
+        title: 'Drag and drop words, so that nouns of the same group are together.',
         styles: {
           fontSize: '1rem',
           dashWidth: 70

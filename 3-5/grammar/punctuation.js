@@ -36,7 +36,7 @@ Have you completed your homework *? (., !)*`,
 
         `What a beautiful day *! (., ?)*
 How old are you *? (., !)*
-Alas *! (., ?)* My holidays are cancelled.
+Alas *! (., ?)* My holidays are canceled.
 My name is Sheena *. (?, !)*
 Oh my God *! (., ?)*`,
 
@@ -252,7 +252,7 @@ Not’ng`
 3. Yours truly, Shaan
 We also put commas in between the series of words. For example:
 1. I like eating grapes, cabbage, and noodles.
-2. I have a pencil, crayons, and eraser in my box.
+2. I have a pencil, crayons, and an eraser in my box.
 3. He bought new clothes, shoes, and a bag.`
       }
     },
@@ -267,9 +267,9 @@ We also put commas in between the series of words. For example:
       },
       data: [
         `I have my exams from November *, (., ?)* 21.
-He likes cricket, kho-kho, and hockey *. (!, ?)*.
+He likes cricket, kho-kho, and hockey *. (!, ?)*
 January 31 *, (., ?)* 2024.
-May i come in *? (., !)*
+May I come in *? (., !)*
 She carries lunch *, (., ?)* bottle, and bag to school.`,
 
         `He will eat *, (., ?)* play, and complete his homework.
@@ -359,7 +359,7 @@ A full stop can always be replaced by a question mark.`
         [
           `Exclamation marks are used to show strong feelings.
 A question mark is used at the end of a sentence.
-Name of a person always starts with a capital letter.`,
+The name of a person always starts with a capital letter.`,
 
           `Full stop and period are different punctuation marks.
 The last word of a sentence should start with a capital letter.

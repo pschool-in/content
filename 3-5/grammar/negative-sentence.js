@@ -24,7 +24,7 @@ The jug is empty.`
           `The first sentence is known as a negative sentence and the second sentence is known as a positive sentence.
 # some vs any
 We use 'some' in positive statements and 'any' in negative statements.
-We use 'some' when we request for something or offer something.`,
+We use 'some' when we request something or offer something.`,
           {
             type: 'hilight',
             text: `Can I borrow some money?
@@ -33,7 +33,7 @@ Would you like some tea?`
           `We use 'any' when asking a question.`,
           { type: 'hilight', text: 'Do you have any pens?' },
           `# Contractions
-In everyday speech and informal writing we use contractions.
+In everyday speech and informal writing, we use contractions.
 "are not" becomes "aren't"
 "is not" becomes "isn't"
 "I am" becomes "I'm"
@@ -75,7 +75,7 @@ It isn't sunny.`
       type: 'group',
       id: 'classify-2',
       data: {
-        title: 'Classify the below words as negative and non negative.',
+        title: 'Classify the below words as negative and non-negative.',
         types: [
           {
             name: 'Negative',
@@ -102,7 +102,7 @@ There is *some* juice in the fridge.
 I want to wash my hair. Is there *any* shampoo?
 He has *some* money in his wallet.
 Today, we don't have *any* homework.
-I have *some* fruits.
+I have *some* fruit.
 She doesn't have *any* brothers.`,
         options: 'any, some'
       }

@@ -65,7 +65,7 @@ Lucknow is the *capital* of Uttar Pradesh.`
               text: `Heera has a *cute* little kitten.
 *None* of the stores in our neighborhood are open before ten am.
 Surya’s cousin is a *well-known* author.
-The view from the mountain top was *breathtaking*!`
+The view from the top of the mountain was *breathtaking*!`
             },
             {
               name: 'Verb',

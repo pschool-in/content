@@ -73,7 +73,7 @@ He’s staying in London *until* the end of the month.
 I haven’t met him *in* months.
 It was the worst storm *in* decades.
 He loves music *since* childhood.
-I will be home *from* morning walk soon.
+I will be home *from* the morning walk soon.
 No one was allowed to use any written materials *during* the exam. 
 I have known him *since* our school days.
 I have known him *for* a long time.`,
@@ -95,7 +95,7 @@ Mani bought a bag *of* rice yesterday.
 Who is that little girl *with* curly hair?
 We are living *in* Chennai.
 Please don't mix the juice *with* water.
-She will be going *for* a meeting now.
+She will be going *to* a meeting now.
 Some birds flew *over* the bridge.
 I must complete my work *before* dinner.`,
 
@@ -107,7 +107,7 @@ It is always hot *in* summer.
 I have my birthday *on* 15th May.
 We go to bed *at* night.
 The movie starts at two *in* the afternoon.
-Autumn season begins *in* September.
+The autumn season begins *in* September.
 My friends came to my house *on* my birthday.`,
 
         `Christmas comes *on* 25th December.
@@ -155,14 +155,14 @@ Death valley is 86 meters *below* the sea level.`
       },
       data: [
         `Mamta has a meeting *in* the afternoon.
-We will go to movie *on* Sunday evening.
+We will go to a movie *on* Sunday evening.
 We get up early *in* the morning.
 Anita had breakfast *at* 8 am.
 It is always hot *in* summer.
 I have my birthday *on* 15th May.
 We go to bed *at* night.
 The movie starts at two *in* the afternoon.
-Autumn season begins *in* September.
+The autumn season begins *in* September.
 I will be ready *in* ten minutes.`,
 
         `Christmas is celebrated *on* 25th December.
@@ -284,7 +284,7 @@ No one can paint *like* her.
 Do it *as* I taught you.
 He works *as* a hotel manager.
 I'm not sure. It tastes *like* fish.
-It is exactly the same  *as* the one I bought.
+It is the same  *as* the one I bought.
 It is very hot. It is *like* being in an oven.
 He is known *as* one of the greatest actors in the country.`,
         options: 'as, like'
@@ -302,7 +302,7 @@ Our school is *between* the park and the police station.
 The thief disappeared *among* the crowd.
 The four friends shared the pizza *among* themselves.
 I have to choose *between* tennis and cricket. I am confused because I like both games.
-I had to sit *between* the two students I don't know.
+I had to sit *between* two students I don't know.
 Choose *between* strawberry and chocolate. Which one do you like?
 It rains a lot *between* October and December.
 The distance *between* my house and school is 2 km.`,
@@ -362,7 +362,6 @@ Let's go *into* the swimming pool.
 The carpet *under* my feet is very hard.`,
 
         `Mom held the umbrella *over* both of us.
-He keep the books *into* the cupboard.
 Rafi moved the table *into* the dining room.
 We slept *under* the open sky.
 A helicopter dropped flowers *over* the city.

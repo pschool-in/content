@@ -68,7 +68,7 @@ My cousins love cricket. These balls are *theirs*.`,
 That book is *mine*. He thought it was *his*.
 We bought many toffees yesterday. All of them are *ours*.
 That pen is not mine. It may be *yours*.
-They go to the village in the car. It is *theirs*.`,
+They go to the village by car. It is *theirs*.`,
 
         `Varun kept his bag on the table. It is *his*.
 Sheena likes games. That board is *hers*.
@@ -131,7 +131,7 @@ Sangamitra has a doll. It is *hers (ours)*.
 Mannu and I have many dolls. They are *ours (yours)*.
 Uncle and Aunt have a car. It is *theirs (mine)*.
 This lunch box belongs to him. It is *his (hers)*.
-Meera has boots. They are *hers (his)*.
+Meera wears boots. They are *hers (his)*.
 Abhi has a diary. It is *his (yours)*.
 My parents have a boat. It is *theirs (yours)*.
 Pooja and Saanvi have a kitchen set. It is *theirs (us)*`

@@ -197,7 +197,7 @@ I like *paneer*. But *mom* says that *market* food is unhealthy. So, she will ma
 I got a new *bicycle* on my birthday. I don't know how to ride. My *mom* will teach me in the *evening*.
 My *brother* is an *artist*. He works in *Mumbai*. He's planning to display his *drawings* at a *fare*.
 *Samir* is a naughty *boy*. He never listens to *teachers*. The *principal* has called his *parents*.
-I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* within the *sand*.
+I have never been to a *beach*. My *friends* tell me that there are a lot of *shells* in the *sand*.
 My *uncle* goes to the *office* every day. But my *father* goes to his *factory* daily. He is a *businessman*.
 *Cats* are domestic *animals*. We can *pet* them. *Cats* are of very different types and *colors*.`,
 
