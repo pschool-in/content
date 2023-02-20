@@ -48,7 +48,7 @@ We're going to the park in the evening, <b>so</b> I'll take a nap in the noon.`
       label: 'Classify',
       type: 'group',
       data: {
-        title: 'Classify the given words as conjunction or not.',
+        title: 'Classify the given words as a conjunction or not.',
         types: [
           {
             name: 'Conjunction',
@@ -128,7 +128,7 @@ Please bring a paper *and* a pencil.`,
       label: 'So vs Because',
       type: 'fillup',
       commonData: {
-        title: 'Click on the blanks and fill it with the correct options.',
+        title: 'Click on the blanks and fill in the correct options.',
         options: 'so, because'
       },
       data: [
@@ -171,7 +171,7 @@ My mom quit her job *so* she is looking for a new job.`
       label: 'Fill in the Blanks',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and fill it with the correct options.`
+        title: `Click on the blanks and fill in the correct options.`
       },
       data: [
         `Pink *and (or, but)* yellow are my favorite colors.
@@ -208,7 +208,7 @@ He was ill *so (but, and)* he did not go to school.`
       data: [
         [
           `We wake up early and see the sunrise.
-I love school but I hate maths class.
+I love school but I hate maths classes.
 I completed my homework so I went to play.
 I can play or watch a movie.`,
 
@@ -276,7 +276,7 @@ I love pizza, but not chips, so not chips`,
 Ram, and Shaam, so Shaam
 I read stories, and novels, but novels
 She is tired, but her homework is left, so her homework is left
-He goes for running, or cycling, but cycling
+He goes running, or cycling, but cycling
 I woke up early, so helped my mom, but helped my mom
 I will go to Delhi, or Mumbai, so Mumbai
 Cats, and dogs are pets, or dogs are pets

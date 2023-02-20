@@ -56,7 +56,7 @@ The sound of bells *was (were)* heard all over the village.
 The girls *are (was)* doing a good job, teaching the young children to write.
 The house *is (are)* being thoroughly cleaned today.`,
 
-        `My father and I *are (am)* going for a movie.
+        `My father and I *are (am)* going to a movie.
 There *is (are)* a lot of food in the fridge.
 A large audience *was (were)* present at the concert.
 The girls *were (was)* eagerly waiting to receive their gifts.

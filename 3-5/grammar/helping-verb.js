@@ -21,7 +21,7 @@ export default {
           `# Have verbs`,
           {
             type: 'html',
-            text: `They can be used both main verb and helping verb. If used as a main verb, then it indicates possession. eg: <i> I have a cycle.</i><br> We use <b>have</b> helping verb to make <b>perfect tense</b>.`
+            text: `They can be used as both main verbs and helping verbs. If used as a main verb, then it indicates possession. eg: <i> I have a cycle.</i><br> We use <b>have</b> helping verb to make <b>perfect tense</b>.`
           },
           {
             type: 'sitewords',
@@ -137,7 +137,7 @@ I *have* heard that story before.
 She *has* a new bicycle.
 We don't *have* tuition on Sundays.
 Just one person in the crowd *has* seen the accident.
-Do you *have* exam tomorrow?
+Do you *have* an exam tomorrow?
 Siva *has* watered the plant.
 John and Akbar *have* been waiting for you.
 He *has* some oranges.`,
@@ -152,14 +152,14 @@ He *has* some oranges.`,
         title: "Fill in the blank with 'do' or 'does'.",
         text: `She *does* not revise her lesson today.
 Where *do* you work?
-*Does* Kumar drink milk everyday?
+*Does* Kumar drink milk every day?
 Please *do* your homework.
 What *does* your brother do?
 Siva and Ramya *do* not like coffee.
 John *does* come early for the game.
 Why are you expecting me to *do* the homework on a Sunday?
 Why mom *does* all the work?
-*do* you want to dance?`,
+*Do* you want to dance?`,
         options: 'do, does'
       }
     },
@@ -186,7 +186,7 @@ Why are you sad? Is there anything I *can* do for you?`,
       label: 'Classify Helping vs Main Verb',
       type: 'classifySentence',
       commonData: {
-        title: 'Classify the underlined word as main or helping verb.',
+        title: 'Classify the underlined word as the main or helping verb.',
         types: ['Main Verb', 'Helping Verb']
       },
       data: [
@@ -210,7 +210,7 @@ Please *do* your homework.
 I *have* five mangoes.`,
           `I *have* never seen a lion before.
 I *do* trust you but close the book next to you while writing the exam.
-You *should* definitely see this movie.
+You *should* see this movie.
 We *are* having breakfast.
 I *can't* run fast.`
         ],

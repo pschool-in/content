@@ -203,7 +203,7 @@ red nine balls: incorrect`
       lockAfter: 1,
       commonData: {
         title:
-          'True or False: The order of adjective is correct in the below sentence.',
+          'True or False: The order of adjectives is correct in the below sentence.',
         types: ['True', 'False']
       },
       data: [
@@ -217,12 +217,12 @@ Does the Indian young actor win a lot of awards?
 The white comfortable sofa was very expensive.`
         ],
         [
-          `That big black car goes really fast.
+          `That big black car goes very fast.
 This hard black ball is really heavy.
 The farmer had five little children.`,
 
           `The poor man had little five children.
-My uncle bought full three boxes of fruits.
+My uncle bought full three boxes of fruit.
 I gave her red six roses.`
         ]
       ]
@@ -270,7 +270,7 @@ Later, she picked up Thumbelina and hopped back into the wetlands.`
         `An ostrich lays the *biggest* eggs!
 The clown in the circus wore *colorful* clothes.
 I have an *orange* Persian cat.
-Our neighbours have a *beautiful* garden.
+Our neighbors have a *beautiful* garden.
 Puja's school is on a *wide* road.`,
 
         `Did you know that giraffes have *blue* tongues?
@@ -329,7 +329,7 @@ I bought *twelve* oranges from the supermarket yesterday.`,
 
         `We learned an *Italian* recipe in the cooking class today.
 Aditya has *four* books on his shelf which he borrowed from the library.
-Bhavya wore a *traditional* dress for Diwali celebrations in the society.
+Bhavya wore a *traditional* dress for Diwali celebrations in her society.
 Mahesh was very *gentle* while cleaning his laptop.
 Mihira is a *naughty* girl in her class.`
       ]

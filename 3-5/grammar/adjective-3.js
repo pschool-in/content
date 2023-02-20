@@ -95,8 +95,8 @@ Did you take *any (many)* money from the purse?
 *Many(Much)* people attended the Republic day parade in Delhi on 26th January.
 We don't have *much (many)* time for the wedding preparation.`,
 
-        `There are *few (little)* chairs in the hall.
-I bought *few (little)* tomatoes from the market.
+        `There are *a few (little)* chairs in the hall.
+I bought *a few (little)* tomatoes from the market.
 There is *some (any)* juice left in the fridge.
 Do you want *some (any)* tea?
 I can give you *some (many)* money if you need it.
@@ -104,17 +104,17 @@ Do you have *any(some)* brothers or sisters?
 My brother bought *some (any)* pencils from the shop.
 I had *some (any)* rice for lunch today.
 My dad showed *much (many)* patience while dealing with the office staff.
-There are *few (little)* dogs in the park near my home.`,
+There are *a few (little)* dogs in the park near my home.`,
 
         `Don't eat so *many (some)* sweets, it's not good for your health.
 I have *little (any)* interest in dancing.
 There was *little (few)* traffic near the school.
 There is *little (few)* space left in the car.
 I have *less (fewer)* than an hour to complete my homework.
-There are a *few (little)* trees in my backyard which we can climb.
-There have been *few (little)* problems with my new laptop recently.
+There are a *few (little)* trees in my backyard that we can climb.
+There have been *a few (little)* problems with my new laptop recently.
 We need a *little (few)* information regarding the new school in our locality.
-We have *little (few)* time left to catch the train to Bangalore.
+We have a *little (few)* time left to catch the train to Bangalore.
 I have a *little (few)* money left to buy the ice cream from the shop.`
       ]
     },
@@ -248,7 +248,7 @@ There is a *black* board in my classroom.
 There is a *tall* mango tree in my garden.`,
 
         `She is an *intelligent* student in the class.
-I bought an *wooden* chair from the market.
+I bought a *wooden* chair from the market.
 We live in a *big* city.
 Ram is a *funny* guy.
 She has a *black* cat.
@@ -286,7 +286,7 @@ I have finished *most* of my homework.
 Mannu has *little* interest in singing.
 My sister ate the *whole* banana.`,
 
-        `Can I have *some* ice cream  after dinner?
+        `Can I have *some* ice cream after dinner?
 I don't need *any* help with my homework.
 There are *many* theatres in my city. You can watch a movie anywhere you want.
 I don't have *much* time for completing my science project.
@@ -319,10 +319,10 @@ The *four* friends walk to the nearby woods for a picnic. They spot an *old* tre
 Swapna sits on a *small* bench and watches the squirrels running up and down.
 This is my grandmother's house. There is a *pretty* garden in front of her house.
 There are *pink* and *red* roses near the gate. There is also a *big* mango tree behind the house.
-Every year we distribute these *tasty* mangoes to all our neighbours.`,
+Every year we distribute these *tasty* mangoes to all our neighbors.`,
 
         `My mom is making aloo paratha for lunch. She picked up the *big* bag of flour with her *small* hands.
-She added the flour into the *red* bowl. She mixed some *warm* water, *white* salt, and some oil
+She added the flour to the *red* bowl. She mixed some *warm* water, *white* salt, and some oil
 and kneaded it into a *soft* dough. Then she cooked *tasty* aloo stuffing for the paratha.
 She made *small*, *round* balls of the dough and flattened it and then stuffed the aloo mix
 and made *round* parathas with lots of butter and served hot.`

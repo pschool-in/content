@@ -14,7 +14,7 @@ export default {
           `The usage of articles before words like 'few' or 'little' changes the meaning of the sentence.
 I have a few candies, so I am not sharing them with you.
 I have a few candies and I can share them with you.
-There is little chance for rain today. So no need to bring an umbrella.
+There is little chance of rain today. So no need to bring an umbrella.
 There is a little chance of rain today. So please bring an umbrella.`
         ]
       }
@@ -29,11 +29,11 @@ There is a little chance of rain today. So please bring an umbrella.`
       },
       data: [
         `The road is empty. There are only *a few (few)* cars on the road.
-I am very busy. I have *little (a little)* time to see the email.
+I am very busy. I have *a little (little)* time to see the email.
 I'd like to have coffee with *a little (little)* sugar in it.
 Anand can speak German because he lived in Berlin for *a few (few)* years.
 You look amazing! It seems like you have lost *a little (little)* weight.
-My mother saves *little (a little)* money every month for her expenses.
+My mother saves *a little (little)* money every month for her expenses.
 I have *a few (few)* good friends. I am not alone.
 Vihaan gave us *a few (few)* apples from his garden for us to eat.
 We stayed *a few (few)* days in Chennai and visited the beach.
@@ -121,7 +121,7 @@ Are you coming to *the* library tomorrow?`
 One day *a* man came to *the* village with *an* elephant. He took *the* children for *a* ride on *the* elephant. *The (An, A)* children enjoyed *the* ride and had lots of fun.`,
 
         `Abhi and his dad went fishing one day. Abhi took *the* fishing rod and his dad took some worms.
-They got on *a* small boat and set for a sail. Abhi's dad drove *the* boat.
+They got on *a* small boat and set for sail. Abhi's dad drove *the* boat.
 He knows where to find *the* fish. Abhi liked *the* boat ride.
 Abhi put *a* worm on *the* hook of *the* fishing rod and put it in water.
 He felt *the* pole pull but when he reeled back *the* rod it was not *a* fish but *an* old can.`,
@@ -131,14 +131,14 @@ Ram boarded *the* plane and found his seat and buckled his seat belt.
 *The(An, A)* plane's engines rumbled and roared! *The(An, A)* plane moved faster and faster and then - whoosh!
 On *the* ground, cars and houses looked like toys. Ram had great fun on this trip.`,
 
-        `*One day *a* hunter set *a* net to catch *the* birds. He placed grains and rice over *the* net.
+        `One day *a* hunter set *a* net to catch *the* birds. He placed grains and rice over *the* net.
 After some time *a* flock of pigeons started eating *the* grains and got caught in *the* net.
 They tried to free themselves but could not. Then their leader asked them to fly together up in *the* sky.
 So, they flew along with *the* net and reached their friend's home. Their friend was *a* mouse.
 *The(An, A)* mouse cut *the* net and freed the pigeons.`,
 
         `Once upon *a* time, there lived two friends. One day they were crossing *the* jungle.
-After some time they found *a* giant bear coming towards them.
+After some time they found *a* giant bear coming toward them.
 Then, one of *the* friends quickly climbed *the* tree but *the* other friend did not know how to climb *a* tree. So he lay on *the* ground holding his breath. *The* bear approached *the* friend and sniffed him.
 After some time *the* bear left thinking *the* man was dead.`
       ]
@@ -156,7 +156,7 @@ After some time *the* bear left thinking *the* man was dead.`
 This is my best friend *-* Vamshi.
 My mother is *a* doctor.
 My brother is *an* author.
-Cow is *a* domestic animal.
+A cow is *a* domestic animal.
 Riyaan wanted *a* new watch for his birthday.
 All students must obey *the* rules of the school.
 My mom is *an* MBA graduate.
@@ -169,7 +169,7 @@ My son wants to be *a* scientist.
 Do you have *a* passport?
 My grandmother is as wise as *an* owl.
 We have *an* exam tomorrow.
-My parents waited *an* hour in the railway station.
+My parents waited *an* hour at the railway station.
 I don't like *-* dogs, but I like my sister's dog.
 Sumitra's father is *an* advocate.
 Ravi met with *an* accident yesterday.`,
@@ -187,7 +187,7 @@ The children found *an* egg in the bird's nest.
 
         `Pandas and * - (a)* tigers are both endangered animals.
 *The (-)* school is closed today.
-May I have your *- (the)* phone number.
+May I have your *- (the)* phone number?
 * - (The)* Milk is good for your health.
 Let's go and play *- (a)* cricket.
 Chess is *an (-)* indoor game.

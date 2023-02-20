@@ -76,10 +76,10 @@ Sometimes he behaves like a fool.`
         ],
         [
           `The national currency of India is Rupee.
-Sun sets in the west.
+The sun sets in the west.
 Tomatoes are fruits.
 Water covers 70% of our Earth.
-Kangaroos can't walk backwards.`,
+Kangaroos can't walk backward.`,
 
           `The doll is pretty in a yellow dress.
 It may rain heavily today.
@@ -105,7 +105,7 @@ Rainbow is more beautiful than the sunset.`
 Spider has eight legs.
 Owls can't move their eyeballs.
 Virat Kohli is a cricketer.
-Taj Mahal is located in Agra.`,
+The Taj Mahal is located in Agra.`,
           `Pizza is delicious in that shop.
 The uniform of that school is not good. 
 I think Geetha was not happy with her birthday gift.
@@ -117,7 +117,7 @@ Kids like to read storybooks.`
 Diwali is called the Festival of Lights.
 The young one of a deer is called a fawn.
 Ganga is the largest river in India.
-Telephone was invented by Alexander Graham bell.`,
+The telephone was invented by Alexander Graham bell.`,
 
           `Roses are beautiful flowers.
 I think Sheep are not smart animals.

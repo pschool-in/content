@@ -54,7 +54,7 @@ mobile, a, an
 hospital, a, an`,
 
         `guitar, a, an
-pony tail, a, an
+ponytail, a, an
 apple, an, a
 pencil, a, an
 elastic, an, a
@@ -113,7 +113,7 @@ envelope, an, a`
       },
       data: [
         `an, eagle, crow
-an, honour, dishonour
+an, honor, dishonor
 an, apron, coat
 a, lamp, inkpot
 an, egg, chick
@@ -140,7 +140,7 @@ an, exam, paper
 an, English book, science book
 a, young, old
 an, octopus, shark
-a, dictionary, aeroplane
+a, dictionary, airplane
 an, option, student
 a, trophy, animal
 an, ambulance, lorry`
@@ -158,7 +158,7 @@ an, ambulance, lorry`
       data: [
         `I live in Hyderabad. It is *a* big city. *The* Charminar is *a* famous monument in our city.
 *The* Birla Planetarium is *the* most frequently visited place by many students every year.
-Nehru Zoological park is *a* famous zoo in Hyderabad which consists of different kinds of animals.
+Nehru Zoological park is *a* famous zoo in Hyderabad that consists of different kinds of animals.
 My neighborhood is *a* very nice place. There is *a* big supermarket at *the* end of *the* road.
 There is also *a* small park near my home. Also, we have *a* health center in *the* colony.
 In addition, there is *a* preschool where my little sister studies.
@@ -167,7 +167,7 @@ I have *a* dog and *a* parrot for pets. *The* dog is always quiet but *the* parr
         `Once upon *a* time *a* woman had *an* only son whose name was Aladdin.
 One day as he was looking for wild figs out in *the* desert, he came across *a* dungeon.
 Aladdin went into *the* dungeon and found *a* magic lamp.
-When Aladdin rubbed *the* magic lamp *a* Genie arrived and asked him to wish for something.
+When Aladdin rubbed *the* magic lamp, Genie arrived and asked him to wish for something.
 *A* dog is *a* pet animal and is *the* most obedient animal. There are different kinds of dogs in *the* world.
 Kids love to play with dogs in *the* playground. It is *a* very playful animal.
 I feed *the* parrot with *a* lot of fresh vegetables and fruits. *The* dog eats pedigree and curd rice.`
@@ -244,7 +244,7 @@ A teacher is *an* important person in everyone's life.`,
 I saw *a* movie last night.
 They are staying at *a* hostel.
 Ram played with *-* determination.
-*-* penguins live in the South Pole.
+*-* penguins live at the South Pole.
 I could see *-* clouds in the sky.
 There was *-* milk on the table.
 I gave it to *-* Jhonny.
@@ -256,7 +256,7 @@ He is good at *-* cricket.
 People will travel to *-* Mars soon.
 I do not like *-* basketball.
 Shall we play *a* game of chess?
-My grandma was sick. We took her to *-* hospital. Now she is good.
+My grandma was sick. We took her to *the* hospital. Now she is good.
 We saw *an* elephant in the zoo.
 Do you eat *-* rice every day?
 My brother does not like *-* chicken.`
@@ -360,7 +360,7 @@ My brother is an *MBA* graduate and is working at Deloitte.`,
 It might rain today! Please carry an *umbrella*.
 I met a *European* tourist in Agra last year.
 Ram uses *the* internet a lot these days!
-Mrs. Sunitha Bhan is an *English* teacher in my son's school.`,
+Mrs. Sunitha Bhan is an *English* teacher at my son's school.`,
 
         `The fourth standard students went on *a* field trip to the zoo.
 I quickly ate *the* cookies kept on my kitchen table.
