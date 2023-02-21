@@ -15,34 +15,34 @@ import clock from '../playlists/default/clock';
 import games from '../playlists/default/games';
 */
 
-import fun from '../playlists/default/fun.js';
-import alphabets from '../playlists/default/alphabets.js';
-import grammar from '../playlists/default/grammar.js';
-import grammar3 from '../playlists/default/grammar-3-sc.js';
-import grammar6 from '../playlists/default/grammar-6-sc.js';
-import vocabulary from '../playlists/default/vocabulary.js';
-import vocabulary3 from '../playlists/default/vocabulary-3-sc.js';
-import vocabulary6 from '../playlists/default/vocabulary-6-sc.js';
-import math from '../playlists/default/math.js';
-import math3 from '../playlists/default/math-3-sc.js';
-import math6 from '../playlists/default/math-6-sc.js';
-import science from '../playlists/default/science.js';
-import science3 from '../playlists/default/science-3-sc.js';
-import social from '../playlists/default/social.js';
-import sound from '../playlists/default/sound-sc.js';
-import picture from '../playlists/default/picture-sc.js';
+import fun from '../3-5/default/fun.js';
+import alphabets from '../3-5/default/alphabets.js';
+import grammar from '../3-5/default/grammar.js';
+import grammar3 from '../3-5/default/grammar-3-sc.js';
+import grammar6 from '../3-5/default/grammar-6-sc.js';
+import vocabulary from '../3-5/default/vocabulary.js';
+import vocabulary3 from '../3-5/default/vocabulary-3-sc.js';
+import vocabulary6 from '../3-5/default/vocabulary-6-sc.js';
+import math from '../3-5/default/math.js';
+import math3 from '../3-5/default/math-3-sc.js';
+import math6 from '../3-5/default/math-6-sc.js';
+import science from '../3-5/default/science.js';
+import science3 from '../3-5/default/science-3-sc.js';
+import social from '../3-5/default/social.js';
+import sound from '../3-5/default/sound-sc.js';
+import picture from '../3-5/default/picture-sc.js';
 
-import wordsearch from '../playlists/default/wordsearch.js';
-import crossword from '../playlists/default/crossword.js';
-import reading from '../playlists/default/reading.js';
-import readingKg from '../playlists/default/reading-sc.js';
-import sudoku from '../playlists/default/sudoku.js';
-import sudoku4 from '../playlists/default/sudoku-4-sc.js';
-import clock from '../playlists/default/clock.js';
-import clock4 from '../playlists/default/clock-4-sc.js';
-import games from '../playlists/default/games.js';
-import gk3 from '../playlists/default/gk-3.js';
-import gk6 from '../playlists/default/gk-6.js';
+import wordsearch from '../3-5/default/wordsearch.js';
+import crossword from '../3-5/default/crossword.js';
+import reading from '../3-5/default/reading.js';
+import readingKg from '../3-5/default/reading-sc.js';
+import sudoku from '../3-5/default/sudoku.js';
+import sudoku4 from '../3-5/default/sudoku-4-sc.js';
+import clock from '../3-5/default/clock.js';
+import clock4 from '../3-5/default/clock-4-sc.js';
+import games from '../3-5/default/games.js';
+import gk3 from '../3-5/default/gk-3.js';
+import gk6 from '../3-5/default/gk-6.js';
 
 let mainMenu = {
   label: 'Showcase',

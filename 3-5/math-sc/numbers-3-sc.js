@@ -267,7 +267,7 @@ export default {
       label: 'Biggest Number',
       commonData: {
         title: 'Click on the Biggest Number.',
-        fontSize: '2.5',
+        fontSize: '2.5rem',
         type: 'math',
         probType: 'biggest'
       },
@@ -313,7 +313,7 @@ export default {
       label: 'Smallest Number',
       commonData: {
         title: 'Click on the Smallest Number.',
-        fontSize: '2.5',
+        fontSize: '2.5rem',
         type: 'math',
         probType: 'smallest'
       },

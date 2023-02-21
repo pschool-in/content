@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: உணவு வகைகள் - 2',
   id: 'ta-sound-6',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

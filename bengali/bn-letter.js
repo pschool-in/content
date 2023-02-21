@@ -790,7 +790,7 @@ export default {
         isPractice: false,
         title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
         styles: {
-          fontSize: '1.1 rem',
+          fontSize: '1.1rem',
           dashWidth: 80
         },
         text: `খোকা তে "খ" এর সাথে যোগ করো "* ো*" কার 

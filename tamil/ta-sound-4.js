@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: நம் வீடு',
   id: 'ta-sound-4',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

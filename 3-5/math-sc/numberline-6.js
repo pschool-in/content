@@ -186,7 +186,8 @@ export default {
       appLockAfter: 10,
       commonData: {
         type: 'read',
-        title: 'What does the below numberline represents? Fill in the blanks'
+        title: 'What does the below numberline represents? Fill in the blanks',
+        allowNegative: true
       },
       data: [
         {

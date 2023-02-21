@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: இயற்கை',
   id: 'ta-sound-3',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

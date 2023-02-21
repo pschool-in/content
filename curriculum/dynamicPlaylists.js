@@ -1,6 +1,7 @@
 export default {
   id: 'more-playlists',
   label: 'More Playlists',
+  type: 'curriculumList',
   grades: [
     {
       id: 'kg',
@@ -892,7 +893,7 @@ export default {
         },
         {
           label: 'Missing Workout - 3',
-          id: 'missing-workout',
+          id: 'missing-workout-3',
           grade: '5-5'
         },
         {
@@ -1033,6 +1034,11 @@ export default {
         {
           label: 'Prime Numbers',
           id: 'prime-numbers',
+          grade: '5-8'
+        },
+        {
+          label: 'Composite Numbers',
+          id: 'composite-numbers',
           grade: '5-8'
         },
         {
@@ -1751,6 +1757,11 @@ export default {
           label: 'General Knowledge Crosswords',
           id: 'gk-crossword',
           grade: '3-5'
+        },
+        {
+          label: 'Technical Words',
+          id: 'tech-words',
+          grade: '6-8'
         }
       ]
     },

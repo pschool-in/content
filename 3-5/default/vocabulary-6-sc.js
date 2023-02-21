@@ -262,6 +262,23 @@ separate, seperate
 embarrass, embarass
 imitate, immitate`
       ]
+    },
+    {
+      type: 'wordle',
+      id: 'wordle',
+      label: 'Wordle',
+      data: [
+        { word: 'SOUND' },
+        { word: 'MOUTH' },
+        { word: 'CROWD' },
+        { word: 'QUIET' },
+        { word: 'GREAT' },
+        { word: 'EIGHT' },
+        { word: 'TASTE' },
+        { word: 'ACTOR' },
+        { word: 'CLOSE' },
+        { word: 'DREAM' }
+      ]
     }
   ]
 };

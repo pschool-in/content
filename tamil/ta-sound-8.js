@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: இன்னும் சில சொற்கள்',
   id: 'ta-sound-8',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

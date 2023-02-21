@@ -8,13 +8,20 @@ export default {
       type: 'memoryFindPair',
       id: 'find-pair',
       label: 'Find Pairs',
-      data: {}
+      data: [{}, { isBig: true }]
     },
     {
-      type: 'memoryFindPair',
-      id: 'find-pair-2',
-      label: 'Find Pairs - 2',
-      data: { isBig: true }
+      type: 'fourColor',
+      id: 'fourColor',
+      label: 'Four Color Game',
+      data: [
+        `133
+        021
+        012
+        023`,
+
+        ''
+      ]
     },
     {
       type: 'rememberShapeColor',

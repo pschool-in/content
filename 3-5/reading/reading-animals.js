@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Dogs',
         text: [
-          { type: 'img', src: 'dog.jpg' },
+          { type: 'img', src: 'dog.jpg', width: 120, height: 120 },
           `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They have pointed teeth and live for 10-13 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
         ]
       }
@@ -77,7 +77,7 @@ The baby dogs *are (is)* called puppies.`,
       data: {
         title: 'Cats',
         text: [
-          { type: 'img', src: 'cat.jpg' },
+          { type: 'img', src: 'cat.jpg', width: 120, height: 120 },
           `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remaining tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Do you know that cats belong to the same family as tigers?`
         ]
       }
@@ -142,7 +142,11 @@ Do you know that cats belong to the same family *as (has)*tigers?`,
       label: 'Polar Bears',
       data: {
         title: 'Polar Bears',
-        text: `Polar bears live in very cold areas, covered in snow. They look the same as normal bears, only they are white and bigger. They have a thick layer of fat on their body. It protects them from the cold. Polar bears can weigh equal to 10 humans. They’re very strong and powerful. An amazing thing about polar bears is that they look white. But in reality, their skin is black. It is covered with a lot of white fur.`
+        text: [
+          { type: 'img', src: 'polarbear.jpg', width: 120, height: 120 },
+          `Polar bears live in very cold areas, covered in snow. They look the same as normal bears, only they are white and bigger. They have a thick layer of fat on their body. It protects them from the cold. 
+          Polar bears can weigh equal to 10 humans. They’re very strong and powerful. An amazing thing about polar bears is that they look white. But in reality, their skin is black. It is covered with a lot of white fur.`
+        ]
       }
     },
     {
@@ -208,7 +212,7 @@ It is covered with a lot of white fur.`,
       data: {
         title: 'Horses',
         text: [
-          { type: 'img', src: 'horse.jpg' },
+          { type: 'img', src: 'horse.jpg', width: 120, height: 120 },
           `Horses can almost see in all directions without turning their necks. They run very fast. Horse racing is a very popular sport. Horseshoes are attached under their feet. It helps them run faster. Horses eat grass, hay, grains, and solid food. They're also domesticated on farms. They are useful for different farming activities.`
         ]
       }
@@ -275,7 +279,7 @@ They are useful for different *farming (harming)* activities.`,
       data: {
         title: 'Tigers',
         text: [
-          { type: 'img', src: 'tiger.jpg' },
+          { type: 'img', src: 'tiger.jpg', width: 120, height: 120 },
           `Tigers are the largest animals in the cat family. They have vertical strips over their body. They’re usually orange, black and white. But some tigers are just white and black. Tiger babies are called cubs. Tigers’ eyesights are 6 times better than humans. Do you know that tigers is that they can survive without food for 2 weeks? They are predators, which means that they hunt their prey. They only eat flesh, which means they're carnivores.`
         ]
       }
@@ -342,7 +346,7 @@ They only eat flesh, which means they're *carnivores (herbivores)*.`,
       data: {
         title: 'Rabbits',
         text: [
-          { type: 'img', src: 'rabbit.jpg' },
+          { type: 'img', src: 'rabbit.jpg', width: 120, height: 120 },
           `Rabbits love eating carrots and hay. They chew 120 times in a minute. It helps them to digest food easily.  Do you know how many times humans should chew their food?`,
           `Rabbits have a few things in common with other animals. Just like horses, they can see in almost all directions without turning their heads. Just like cats, they like to keep themselves tidy.`,
           `Rabbits live in burrows. They're also called bunnies. Do you know that sometimes rabbits eat their own poop?`
@@ -413,7 +417,7 @@ Do you know that sometimes rabbits eat their own poop?`,
       data: {
         title: 'Dolphins',
         text: [
-          { type: 'img', src: 'dolphin.jpg' },
+          { type: 'img', src: 'dolphin.jpg', width: 120, height: 120 },
           `Dolphins are very playful and intelligent. Just like whales, they breathe air from a blowhole on their back. They swim very fast. They jump out of the water to breathe and it looks like they’re hopping on the water. Dolphin baabies are called calves. Dolphins are very attentive even while they’re asleep. Some dolphins have two stomachs. This helps them to store food.`
         ]
       }
@@ -480,7 +484,7 @@ This helps them to *store (shore)* food.`,
       data: {
         title: 'Monkeys',
         text: [
-          { type: 'img', src: 'monkey.jpg' },
+          { type: 'img', src: 'monkey.jpg', width: 120, height: 120 },
           `Monkey babies are called 'infants'. Monkeys can be easily seen in India. We usually find them on top of buildings and trees. Their favorite food is bananas. They eat it just like humans, by removing the peels in the same manner. Do you know that monkeys’ families are our ancestors? Their hands and legs are very similar to humans. A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
         ]
       }
@@ -546,7 +550,11 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
       label: 'Bees',
       data: {
         title: 'Bees',
-        text: `Bees live in beehives where they produce honey. Baby bees are called broods. The beehive consists of a queen bee and worker bees. They feed on flower nectar. The lifespan of worker bees is usually around one year. But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
+        text: [
+          { type: 'img', src: 'bee.jpg', width: 120, height: 120 },
+          `Bees live in beehives where they produce honey. Baby bees are called broods. The beehive consists of a queen bee and worker bees. They feed on flower nectar. The lifespan of worker bees is usually around one year. 
+          But the lifespan of an adult queen bee is around 2 to 5 years. Only the worker bees can sting. It is usually advised not to tease the bees. This is because the worker bees can sting us. Stings cause a lot of pain.`
+        ]
       }
     },
     {
@@ -612,7 +620,7 @@ Stings cause a lot of pain.`,
       data: {
         title: 'Pigs',
         text: [
-          { type: 'img', src: 'pig.jpg' },
+          { type: 'img', src: 'pig.jpg', width: 120, height: 120 },
           `Pigs have small eyes, large ears, and a flat snout. Snouts give them an excellent sense of smell. They make an ‘oink’ sound and usually like to stay in mud and dirt. They’re one of the most populous mammals. Do you know that the stiff hair on pigs’ bodies is called bristles? Those bristles were very commonly used to make paintbrushes and shoe brushes.`
         ]
       }
@@ -677,7 +685,7 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoes
       data: {
         title: 'Lions',
         text: [
-          { type: 'img', src: 'lion.jpg' },
+          { type: 'img', src: 'lion.jpg', width: 120, height: 120 },
           `Lions are very powerful and strong. They look like a very big cat with hair all around their face. Lions live together in caves or dens. Baby lions are called cubs. They usually roar at night. The sound of their roar can be heard 8kms away. They eat by hunting their prey, which means they're predators. Do you know that lions can eat up to 30kgs in one meal?`
         ]
       }
@@ -743,7 +751,7 @@ Do you know that lions can eat up to 30kgs in one meal?`,
       data: {
         title: 'Sharks',
         text: [
-          { type: 'img', src: 'shark.jpg' },
+          { type: 'img', src: 'shark.jpg', width: 120, height: 120 },
           `Sharks are predators. It means that they hunt other fishes as their food. A baby shark is called a pup. Sharks have an overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
         ]
       }
@@ -809,7 +817,7 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
       data: {
         title: 'Snakes',
         text: [
-          { type: 'img', src: 'snake.jpg' },
+          { type: 'img', src: 'snake.jpg', width: 120, height: 120 },
           `A fascinating fact about snakes is that they don’t have legs. They move by creeping. They are reptiles. Snake babies are called snakelets. People are generally scared of snakes. This is because they’re poisonous. But, not all snakes are poisonous. Their food is usually frogs and small animals. Snakes can swallow their food without chewing. They shed their skin 3 to 6 times per year. Do you know that some snakes can fly?`
         ]
       }
@@ -878,9 +886,12 @@ Do you know that some snakes can *fly (run)*?`,
       label: 'Dinosaurs',
       data: {
         title: 'Dinosaurs',
-        text: `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But based on bones and skeletons from the past, scientists assumed their body structure. They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
+        text: [
+          { type: 'img', src: 'dinosaur.jpg', width: 120, height: 120 },
+          `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But based on bones and skeletons from the past, scientists assumed their body structure. They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
 We still have no idea what sounds dinosaurs used to make. Based on their body sizes, scientists have also assumed their voices. We can hear their voices in a lot of movies made about dinosaurs. For example, the Jurassic Park series, Jurassic World, Godzilla, etc.       
 Apart from being diverse in their body structures, the species were also different in their eating habits. Some were herbivores, some were carnivores and some were omnivores. It has been found that dinosaurs became extinct about 65 million years ago. A meteor from space hit the earth. It led to the death of the species.`
+        ]
       }
     },
     {

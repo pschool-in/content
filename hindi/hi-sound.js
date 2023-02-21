@@ -3,6 +3,7 @@ export default {
   id: 'hi-sound',
   img: 'sound',
   lockAfter: 2,
+  lang: 'hi',
   list: [
     {
       type: 'slides',

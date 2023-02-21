@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: விலங்குகளும் பறவைகளும் - 2',
   id: 'ta-sound-5',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

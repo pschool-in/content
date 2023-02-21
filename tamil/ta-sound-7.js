@@ -2,6 +2,7 @@ export default {
   label: 'ஓசை: வேலை, கருவி',
   id: 'ta-sound-7',
   img: 'sound',
+  lang: 'ta',
   list: [
     {
       type: 'slides',

@@ -136,7 +136,7 @@ export default {
       label: 'Biggest Number',
       data: {
         title: 'Click on the Biggest Number.',
-        fontSize: '2.5',
+        fontSize: '2.5rem',
         type: 'math',
         probType: 'biggest',
         pattern: 'x'
@@ -148,7 +148,7 @@ export default {
       label: 'Smallest Number',
       data: {
         title: 'Click on the Smallest Number.',
-        fontSize: '2.5',
+        fontSize: '2.5rem',
         type: 'math',
         probType: 'smallest',
         pattern: 'x'

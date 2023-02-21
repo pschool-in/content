@@ -104,7 +104,7 @@ const math = {
       label: 'Biggest Number',
       commonData: {
         title: 'Click on the Biggest Number.',
-        fontSize: '1.5',
+        fontSize: '1.5rem',
         type: 'math',
         probType: 'biggest'
       },
@@ -121,7 +121,7 @@ const math = {
       label: 'Smallest Number',
       commonData: {
         title: 'Click on the Smallest Number.',
-        fontSize: '1.5',
+        fontSize: '1.5rem',
         type: 'math',
         probType: 'smallest',
         pattern: 'xxx'

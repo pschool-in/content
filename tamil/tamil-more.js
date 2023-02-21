@@ -179,10 +179,6 @@ export default {
           id: 'thirukkural-3'
         },
         {
-          label: 'மீண்டும் படம் 3',
-          id: 'ta-picture-4'
-        },
-        {
           label: 'திருக்குறள் - 4',
           id: 'thirukkural-4'
         },
