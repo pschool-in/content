@@ -130,8 +130,7 @@ Water evaporates into air from oceans, rivers and lakes but not from the soil.`
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `Most of the water that falls on the land as rain and snow sooner or later goes back to the *oceans*.
-Snow in the mountains *melts* into water which flows down the mountains in the form of streams and *rivers*.
+        text: `Snow in the mountains *melts* into water.
 A part of the *rainwater* gets absorbed by the ground and seems to disappear in the soil.
 *Groundwater* is brought back to the air by the process of evaporation and transpiration. 
 Excessive rains may cause *floods* while lack of it for long periods may cause *droughts*.`

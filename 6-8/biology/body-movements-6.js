@@ -173,8 +173,7 @@ Slithers - *Snake*`
 A combination of bones and cartilages forms the *skeleton* of the body.
 The bones at the elbow are joined by a *hinge* joint.
 The contraction of the *muscles* pulls the bones during movement.
-The *bones* are moved by alternate contractions and relaxations of two sets of muscles.
-The bone joints are of various kinds depending on the *nature* of joints and *direction* of movement they allow.`
+The *bones* are moved by two sets of muscles.`
       }
     },
     {
@@ -215,10 +214,8 @@ The Gait of Animals is a book written by the ancient Greek philosopher Aristotle
           dashWidth: 80
         },
         text: `Snakes have a long *backbone*.
-Strong muscles and light bones work together to help the *birds* fly.  *Fish* swim by forming loops alternately on two sides of the body.
+Strong muscles and light bones work together to help the *birds* fly.
 *Snakes* slither on the ground by looping sideways. 
-The body and legs of *cockroaches* have hard coverings forming an outer skeleton. 
-*Earthworms* move by alternate extension and contraction of the body using muscles. 
 Tiny *bristles* on the underside of the body of the earthworm help in gripping the ground.
 *Snails* move with the help of a muscular foot.`
       }
