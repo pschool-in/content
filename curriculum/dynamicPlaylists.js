@@ -96,6 +96,21 @@ export default {
           grade: '3-5'
         },
         {
+          label: 'Antonyms Collection 4',
+          id: 'antonyms-4',
+          grade: '6-8'
+        },
+        {
+          label: 'Antonyms Collection 5',
+          id: 'antonyms-5',
+          grade: '6-8'
+        },
+        {
+          label: 'Antonyms Collection 6',
+          id: 'antonyms-6',
+          grade: '6-8'
+        },
+        {
           label: 'Synonyms Collection 1',
           id: 'synonyms-1',
           grade: '2-5'
@@ -143,7 +158,12 @@ export default {
         {
           label: 'Words and Meaning',
           id: 'words-meaning',
-          grade: '1-3'
+          grade: '3-5'
+        },
+        {
+          label: 'Words and Meaning - 2',
+          id: 'words-meaning-2',
+          grade: '6-8'
         },
         {
           label: 'Crossword',
@@ -1362,7 +1382,7 @@ export default {
           label: 'Sound',
           id: 'sound-science',
           grade: '2-5'
-        }
+        },
         /*
         {
           label: 'Pollution',
@@ -1387,6 +1407,84 @@ export default {
           grade: '3-5'
         }
         */
+        //physics
+        {
+          label: 'Motion and Measurement of Distances',
+          id: 'motion-6',
+          grade: '6'
+        },
+        {
+          label: 'Motion and Time',
+          id: 'motion-7',
+          grade: '7'
+        },
+        {
+          label: 'Force & Pressure',
+          id: 'force-8',
+          grade: '8'
+        },
+        {
+          label: 'Light - 8',
+          id: 'light-8',
+          grade: '8'
+        },
+        //biology
+        {
+          label: 'Source & Components of Food',
+          id: 'food-6',
+          grade: '6'
+        },
+        {
+          label: 'Water - 6',
+          id: 'water-6',
+          grade: '6'
+        },
+        {
+          label: 'Plants - 6',
+          id: 'plants-6',
+          grade: '6'
+        },
+        {
+          label: 'Body movements - 6',
+          id: 'body-movements-6',
+          grade: '6'
+        },
+        {
+          label: 'Living Organisms - 6',
+          id: 'living-organisms-6',
+          grade: '6'
+        },
+        {
+          label: 'Garbage - 6',
+          id: 'garbage-6',
+          grade: '6'
+        },
+        //chemistry
+        {
+          label: 'Materials - 6',
+          id: 'materials-6',
+          grade: '6'
+        },
+        {
+          label: 'Subtances - 6',
+          id: 'substances-6',
+          grade: '6'
+        },
+        {
+          label: 'Changes - 6',
+          id: 'changes-6',
+          grade: '6'
+        },
+        {
+          label: 'Air - 6',
+          id: 'air-6',
+          grade: '6'
+        },
+        {
+          label: 'Fabric - 6',
+          id: 'fabric-6',
+          grade: '6'
+        }
       ]
     },
     {

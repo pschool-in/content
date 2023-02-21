@@ -98,13 +98,13 @@ To study more about the speed, we can plot a graph between time and distance. Ti
       },
       data: [
         `The distance moved by an object in a unit time is called its *speed*.
-        To calculate the speed we need to divide the *kilometre* covered  by the *hours* travelled.
-        For *uniform* motion, the object should travel at a constant speed.
-        In olden times, we had *pendulum* clocks and nowadays we have *quartz* clocks.`,
+To calculate the speed we need to divide the *kilometre* covered  by the *hours* travelled.
+For *uniform* motion, the object should travel at a constant speed.
+In olden times, we had *pendulum* clocks and nowadays we have *quartz* clocks.`,
 
         `The *time-period* of a pendulum is *constant*. The metallic ball of a pendulum is called *bob*.
-        The distance travelled by a vehicle is measured by *odometer* and the speed is measured by *speedometer*.
-        While drawing the distance-time graph, distance is marked along the *y-axis*, and time is marked along the *x-axis*.`
+The distance travelled by a vehicle is measured by *odometer* and the speed is measured by *speedometer*.
+While drawing the distance-time graph, distance is marked along the *y-axis*, and time is marked along the *x-axis*.`
       ]
     },
     {
@@ -128,7 +128,7 @@ To study more about the speed, we can plot a graph between time and distance. Ti
     },
     {
       label: 'True or False',
-      id: 'true-false',
+      id: 'true-false-2',
       type: 'classifySentence',
       data: {
         title: 'Classify the below sentences as true and false',
@@ -136,15 +136,15 @@ To study more about the speed, we can plot a graph between time and distance. Ti
           {
             name: 'True',
             text: `A graph drawn between distance and time, gives more information about the speed.
-            The time period of a pendulum will remain the same even if the pendulum slows down.
-            A decade means 10 years.
-            Quartz clocks are more accurate than the pendulum clocks.`
+The time period of a pendulum will remain the same even if the pendulum slows down.
+A decade means 10 years.
+Quartz clocks are more accurate than the pendulum clocks.`
           },
           {
             name: 'False',
             text: `Speed is always measured as km per hr.
-            It is possible to make a clock at home.
-            All cars move at the same speed.`
+It is possible to make a clock at home.
+All cars move at the same speed.`
           }
         ]
       }
@@ -155,11 +155,11 @@ To study more about the speed, we can plot a graph between time and distance. Ti
       id: 'complete-word',
       data: {
         text: `The device to measure the distance travelled. | ODOMETER | ___M____
-        In olden days most of the clocks work with the help of a _____. | PENDULUM | _______M
-        The metallic ball of a pendulum is called ___. | BOB | ___
-        The motion of a pendulum is an example for ______ motion. | PERIODIC | _______C
-        The device to measure speed. | SPEEDOMETER | ______M____
-        The latest clocks are called ______ clocks. |QUARTZ | _____Z`
+In olden days most of the clocks work with the help of a _____. | PENDULUM | _______M
+The metallic ball of a pendulum is called ___. | BOB | ___
+The motion of a pendulum is an example for ______ motion. | PERIODIC | _______C
+The device to measure speed. | SPEEDOMETER | ______M____
+The latest clocks are called ______ clocks. |QUARTZ | _____Z`
       }
     },
     {
@@ -190,8 +190,8 @@ The latest clocks work based on *quartz (pendulum)*.`
           {
             qText: 'While travelling by car, if we increase the speed,',
             options: `the travel time decreases.
-            the trave time increases.
-            the travel time remains the same.`
+the trave time increases.
+the travel time remains the same.`
           },
           {
             qText: 'Which of the following shows real time?',
@@ -204,8 +204,8 @@ The latest clocks work based on *quartz (pendulum)*.`
           {
             qText: `Which of the following doesn't remain the same in a pendulum?`,
             options: `Displacement of the bob
-            Length of the pendulum
-            Time Period of a pendulum`
+Length of the pendulum
+Time Period of a pendulum`
           },
           {
             qText: `Which of the following vehicle usually doesn't have an odometer?`,

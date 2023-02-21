@@ -226,8 +226,8 @@ The atmospheric air extends up to many kilometres above the surface of the earth
           {
             qText: 'How do we calculate pressure?',
             options: `Dividing force by the area
-            Multiplying force and area
-            Adding force and area`
+Multiplying force and area
+Adding force and area`
           },
           {
             qText: 'What type of strap is good for a shoulder bag?',
@@ -237,35 +237,35 @@ The atmospheric air extends up to many kilometres above the surface of the earth
             qText:
               'An ink filler is able to suck ink from the bottle due to _____.',
             options: `atmospheric pressure
-            the nature of ink
-            muscular force
-            gravitational force`
+the nature of ink
+muscular force
+gravitational force`
           },
           {
             qText: `What is the reason for strong winds?`,
             options: `Difference in air pressure
-            Heavy rain
-            Difference in climate`
+Heavy rain
+Difference in climate`
           },
           {
             qText: `It is possible to run a nail into a wood because `,
             options: `large force acts on small area
-            small force acts on large area
-            the wood is weak and the nail is strong`
+small force acts on large area
+the wood is weak and the nail is strong`
           }
         ]
       }
     },
     {
-      id: 'fillup',
+      id: 'fillup-2',
       label: 'Fill Up',
       type: 'fillup',
       data: {
         text: `Atmospheric pressure *decreases (increases)* as we move up in space.
-        The pressure inside the balloon is *greater (lesser)* than the pressure outside the balloon.
-        Tools meant for cutting purpose should have *sharp (strong)* edges.
-        Cyclones are caused due to differences in *air pressure (temperature)*.
-        Pressure increases if the area on which the force acts *decreases (increases)*.`
+The pressure inside the balloon is *greater (lesser)* than the pressure outside the balloon.
+Tools meant for cutting purpose should have *sharp (strong)* edges.
+Cyclones are caused due to differences in *air pressure (temperature)*.
+Pressure increases if the area on which the force acts *decreases (increases)*.`
       }
     },
     {
@@ -278,15 +278,15 @@ The atmospheric air extends up to many kilometres above the surface of the earth
           {
             name: 'True',
             text: `Magnetic force is a non-contact force.
-            Gravitational Forces are always attractive.
-            Atmospheric pressure is balanced by our body pressure.`
+Gravitational Forces are always attractive.
+Atmospheric pressure is balanced by our body pressure.`
           },
           {
             name: 'False',
             text: `Weak people cannot apply muscular force.
-            Magnetic forces are always attractive.
-            Gravitation is present only on the Earth.
-            Liquid doesn't exert pressure.`
+Magnetic forces are always attractive.
+Gravitation is present only on the Earth.
+Liquid doesn't exert pressure.`
           }
         ]
       }

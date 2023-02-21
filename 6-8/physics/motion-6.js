@@ -233,12 +233,12 @@ SI units are followed only in India.`
           {
             name: 'Rotational',
             text: `Giant wheel in a theme park.
-            Hands of a clock. `
+Hands of a clock. `
           },
           {
             name: 'Periodic',
             text: `Swing in the garden.
-            Seasaw in the garden.`
+Seasaw in the garden.`
           }
         ]
       }
