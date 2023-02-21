@@ -184,7 +184,7 @@ He gave me *a* call in *the* evening.`
       data: [
         `Meera is *an* intelligent student.
 Dad wants me to wear *a* cap.
-Reema has *a* jewellery box.
+Reema has *a* jewelry box.
 We put up *a* Christmas tree for the holidays.
 Grandma read *a* story to all my friends.
 I saw *an* ostrich in the zoo.
@@ -209,7 +209,7 @@ This is *a* ball.
 I saw *an* old car.
 We have *a* red car.
 Saanvi is *an* honest girl.
-Do you like *an* apple?
+Would you like *an* apple?
 He can ride *a* bicycle.
 Sudheer is *a* doctor.
 My sister is *a* painter.
@@ -269,7 +269,7 @@ The church on *the* corner is open.
 Are you coming to *the* party next Saturday?
 I bought *a* new TV set yesterday.
 I think *the* man over there is very ill.
-I watched *the* video you had sent me.
+I watched *the* video you sent me.
 She was wearing *an* ugly dress when she met him.
 She is *a* nice girl.
 Do you want to go to *the* restaurant where we first met?

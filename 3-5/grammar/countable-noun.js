@@ -27,7 +27,7 @@ Uncountable nouns cannot be counted.`,
           `If the singular noun ends with -s, -ss, -sh, -ch, -x or -z, then add '-es' to make it plural.`,
           {
             type: 'sitewords',
-            text: 'buses, glasses, dresses,dishes, branches, taxes',
+            text: 'buses, glasses, dresses, dishes, branches, taxes',
             width: 100
           },
           `If the noun ends with -f or -fe, the f is often changed to -ve before adding the -s to form the plural version.`,
@@ -154,7 +154,7 @@ tooth| teeth| t___h`
         types: [
           {
             name: 'Countable',
-            text: `There are a few chinese *restaurants* in the city.
+            text: `There are a few Chinese *restaurants* in the city.
 Priya took many *pictures* on her vacation.
 Many *books* are kept on the table.
 The *beds* we have are very old.
@@ -164,7 +164,7 @@ My *phone* is not working properly.`
             name: 'Uncountable',
             text: `Do you have a *water* bottle?
 I like *butter* on my bread slice.
-The police needs *information* about the thief.
+The police need *information* about the thief.
 Her *intelligence* is undoubtful.
 The *milk* is in the bottle.`
           }
@@ -189,9 +189,9 @@ jar| jars| ja__`
       label: 'Cat or Cats',
       type: 'fillup',
       data: {
-        title: 'Click on the blanks and pick the write word. (cat or cats).',
+        title: 'Click on the blanks and pick the right word. (cat or cats).',
         text:
-          'I saw a *cat* on the window. Suddenly, few more *cats* came from the street. One of the *cats*, was black in color. The oldest *cat* was slow in moving. Two *cats* were fighting. There was too much of noise. A gray-colored *cat* was scratching the window. I suddenly woke up and it was a bad dream. It was full of *cats*.',
+          'I saw a *cat* on the window. Suddenly, a few more *cats* came from the street. One of the *cats*, was black in color. The oldest *cat* was slow in moving. Two *cats* were fighting. There was too much of noise. A gray-colored *cat* was scratching the window. I suddenly woke up and it was a bad dream. It was full of *cats*.',
         options: 'cat, cats'
       }
     },
@@ -251,7 +251,7 @@ The *roads* of this city are very busy.`
         [
           `The policemen caught the notorious *thief*.
 The queen anxiously awaited the *prince's* return.
-The *buffalo* had a ring in its nose.
+The *buffalo* had a ring on its nose.
 May I have another *ice cream* please?`,
 
           `*Ships* sail on the sea.

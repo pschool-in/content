@@ -135,7 +135,7 @@ Have they taken permission from them?`
       id: 'match-pair',
       data: {
         lang: 'en',
-        title: 'Match the pronouns that have same meaning.',
+        title: 'Match the pronouns that have the same meaning.',
         text: `I, Me
 He, Him
 She, Her

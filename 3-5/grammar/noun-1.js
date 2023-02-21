@@ -27,7 +27,7 @@ The <b>books</b> are very helpful.<br>
       id: 'classify',
       lockAfter: 1,
       commonData: {
-        title: 'Drop the words given at the botton in the right boxes.',
+        title: 'Drop the words given at the bottom in the right boxes.',
         types: ['Naming word', 'Not a Naming word']
       },
       data: [
@@ -82,7 +82,7 @@ I love *balloons*.`
       id: 'same-basket',
       lockAfter: 1,
       commonData: {
-        title: 'Drag and drop words, so that nouns of same group are together.',
+        title: 'Drag and drop words, so that nouns of the same group are together.',
         styles: {
           fontSize: '1.5rem',
           dashWidth: 70

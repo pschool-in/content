@@ -53,7 +53,7 @@ I am listening to you
 she can read
 towels are above the table
 Rani is afraid of snakes
-she fell down again`,
+she fell again`,
 
         `please stand opposite to me
 clean your nails frequently
@@ -73,7 +73,7 @@ little girls are singing songs`
       id: 'find-sentence-2',
       lockAfter: 1,
       commonData: {
-        printTitle: 'Rewrite the words and form proper sentence.'
+        printTitle: 'Rewrite the words and form a proper sentence.'
       },
       data: [
         `I haven't learned cycling
@@ -90,7 +90,7 @@ Angel vanished into thin air`,
         `my battery is dead
 summer holidays are always special
 Kim lost her favorite box
-the diagram is really nice
+the diagram is nice
 father made a wonderful cake
 Priya learned to ride a horse
 the video will be recorded
@@ -109,7 +109,7 @@ pack only the necessary things
 the living room is arranged neatly
 Lisa speaks proudly of herself`,
 
-        `vehicle is parked near theater
+        `vehicle is parked near the theater
 her father is very kind
 the road is very narrow
 keep the pebbles safe
@@ -191,7 +191,7 @@ She is a brave girl.`
             {
               name: 'False',
               text: `Are you playing games?
-What a pleasant weather!
+What pleasant weather!
 Stop the car!`
             }
           ]

@@ -131,11 +131,11 @@ Ostrich is the *largest (large, larger )* bird.`,
 
         `Taj Mahal is a *famous(more famous)* monument in India.
 Bheem is the *bravest(braver, brave)* boy among his friends.
-Diamond is a *costly(costlier,costliest)* stone.
+Diamond is a *costly(costlier, costliest)* stone.
 Taj Mahal is *more (most)* famous than Qutub Minar.
 Bheem is *braver(brave, bravest)* than Kalia.
 The Pacific Ocean is *deeper (deep, deepest)* than the Arctic ocean.
-Diamond is *costlier(costly,costliest)* than ruby.
+Diamond is *costlier(costly, costliest)* than ruby.
 Taj Mahal is one of the *most (more)* famous monuments in India.
 Bheem is a *brave (braver, bravest)* boy in Dholakpur.
 Diamond is the *costliest(costly,costlier)* stone.`,
@@ -144,7 +144,7 @@ Diamond is the *costliest(costly,costlier)* stone.`,
 Lead is one of the *heaviest (heavy, heavier)* metals.
 Mani can run *faster (fast, fastest)* than Gopal.
 Mumbai is a *busy (busiest, busier)* city.
-Mani can run *fast (faster,fastest)*.
+Mani can run *fast (faster, fastest)*.
 Lead is *heavier (heavy, heaviest)* than iron.
 A pen is *mightier (might, mightiest)* than a sword.
 Lead is a *heavy (heavier, heaviest)* metal.
@@ -178,7 +178,7 @@ Which is the highest mountain in the world?`
         ],
         [
           `Her hair is short.
-She walks slow.
+She walks slowly.
 Gold is a precious metal.`,
 
           `The earth is larger than the moon.
@@ -241,7 +241,7 @@ Jeevana is the smartest girl in the class.`
       data: [
         `The lion is a *big* animal.
 A Rhinoceros is *bigger* than a lion.
-The elephant is the *biggest* of three animals.
+The elephant is the *biggest* of the three animals.
 I am a *lazy* person in my family.
 My brother is *lazier* than me.
 My dad is the *laziest* among all three.`,
@@ -250,7 +250,7 @@ My dad is the *laziest* among all three.`,
 Geeta is *cleverer* than Suhani. 
 Sita is the *cleverest* of all three.
 English exam was *difficult* this year.
-The social exam was *more* difficult than English.
+The social exam was *more* difficult than the English exam.
 Math exam was the *most* difficult of all subjects.`,
 
         `Krishna is a *tall* boy.

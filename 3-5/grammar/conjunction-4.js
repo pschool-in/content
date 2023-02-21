@@ -45,7 +45,7 @@ not only, but also`
       type: 'matchByDragDrop',
       id: 'fill-up-story',
       data: {
-        text: `Either dad *or* mom will come to pick me.
+        text: `Either dad *or* mom will come to pick me up.
 I am *both* tired *and* hungry.
 I have no idea *whether* she will like the dress or not.
 The coffee was *neither* hot *nor* cold.
@@ -72,19 +72,19 @@ Not only he lied, *but also (and, so)* shouted at me.
 I can both sing *and (or, for)* dance.
 She will *either (neither, but)* stay or leave.
 I can *neither (either, only)* study nor concentrate on sports.
-*Not only (Both, So)* my friend is intelligent, but also helps me in studies.
+*Not only (Both, So)* my friend is intelligent, but also helps me in my studies.
 I don't know whether she'll come *or (and, but)* not.`,
 
         `I will either eat *or (nor, and)* sleep.
 She can *both (either, neither)* draw and paint.
 You can go by train *or (but, because)* bus.
-Our neighbours are good *and (so, or)* friendly.
+Our neighbors are good *and (so, or)* friendly.
 My dad won't come *but (or, because)* my mom will.
 She is *so (or, very)* tall that she can touch the ventilator.
 She ran fast *and (but, or)* won the race.
 She left *because (if, and)* they were laughing.
 The teacher entered *and (but, because)* the students stood up.
-He got hurt *because (if, so)* he fell down.
+He got hurt *because (if, so)* he fell.
 I will either wash clothes *or (nor, and)* do the dishes.
 I slept *and (but, or)* skipped my homework.`
       ]
@@ -95,7 +95,7 @@ I slept *and (but, or)* skipped my homework.`
       type: 'fillup',
       lockAfter: 1,
       commonData: {
-        title: `Click on the blanks and fill it with the correct options.`
+        title: `Click on the blanks and fill in the correct options.`
       },
       data: [
         `I take my dog for a walk every evening. I put on its leash *and (but)* walk out of the door. Next, I take it to the park *and (but)* we walk. *But (And)* it tries to unleash *and (but)* run across the park. People ask me to unleash it *but (and)* it may bite someone. After our walk, I take off his leash.`,
@@ -223,7 +223,7 @@ I slept *and (but, or)* skipped my homework.`
       label: 'Fill Up on Passage - 2',
       type: 'fillup',
       commonData: {
-        title: `Click on the blanks and fill it with the correct options.`
+        title: `Click on the blanks and fill in the correct options.`
       },
       data: [
         `All of my friends are going to Richa's party. *But (So)* she has not invited me. *So (And)* we have decided that *neither (either)* me *nor (or)* my best friend will go. I bought a present for her, *but (or)* now I'll give it to my best friend.`,

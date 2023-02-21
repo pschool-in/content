@@ -11,7 +11,7 @@ export default {
       data: {
         title: 'Modals-1',
         text: [
-          `A modal is a helping verb that express certain conditions such as a possibility, ncessity, and permission. Some of the common modals are:
+          `A modal is a helping verb that expresses certain conditions such as a possibility, necessity, and permission. Some of the common modals are:
         can, could, may, shall, should, must, may, might, ought`,
           {
             type: 'html',
@@ -53,10 +53,10 @@ It *may (can)* rain tomorrow.
 He *may (can)* be at home.
 They *can (may)* speak English.
 He *cannot (couldn't)* ride a bike.
-*May (Can)* God bess you!`,
+*May (Can)* God bless you!`,
 
         `I *can (may)* dance well.
-You *must (can)* bring your book. Otherwise we cannot do it.
+You *must (can)* bring your book. Otherwise, we cannot do it.
 I *may (can)* be absent on Tuesday.
 I *cannot (may not)* dance well.
 I *must (shall)* go now as my mom is waiting.
@@ -78,7 +78,7 @@ Books *may not (mayn't)* be available at the store.`,
 How *may (May)* I help you?
 We *may not (cannot)* have to leave.
 
-Susan *may (can)* be upset because she fell down.
+Susan *may (can)* be upset because she fell.
 
 He *can (may)* write 50 words in a minute.`,
 
@@ -108,7 +108,7 @@ She *may* not come.
 He *can* swim very fast.
 You *must* study today.
 She *will* not come.  
-You *may* came first if you try hard.
+You *may* come first if you try hard.
 My parents *may* not come to the meeting.`,
 
         `The Prime Minister *will* hoist the flag.
@@ -129,7 +129,7 @@ My dad *may* gave me a surprise.
 If we had more chocolates, we *could* eat more.
 We *must* not steal from anyone.
 We *ought* to practice more.
-My mom *can* cook chinese.
+My mom *can* cook Chinese.
 All of my friends *can* ride bicycles.
 Reena *can* sing very well.`,
 
@@ -137,7 +137,7 @@ Reena *can* sing very well.`,
 *May* I go to the bathroom?
 I *ought* to go out today.
 He *can* be very annoying sometimes.
-Raj *may* take an half day leave today.
+Raj *may* take a half day leave today.
 Mihir *can* stand on one leg for 10 minutes.
 Boys *cannot* have long hair in school.
 Girls *may* form a separate team.`,
@@ -150,7 +150,7 @@ We *should* respect our elders.
 The girls *will* participate in racing.
 He *can* run 200 meters in just 2 minutes.
 We *shall* go to play in the evening.
-We *should* go to school everday.
+We *should* go to school everyday.
 *Shall* I open the door?`
       ]
     },

@@ -20,9 +20,9 @@ The teacher spoke <b>to the parents</b>.`
 Some phrases play the role of a noun. It can be the subject or object in a sentence. eg:
 1. A little boy
 2. The happy puppy
-3. The house an the corner
+3. The house on the corner
 4. A shart pencil with an eraser
-5. your old clothes`,
+5. Your old clothes`,
           `# Adjective Phrase
 Some phrases play the role of an adjective. Eg:
 1. tired and hungry
@@ -54,7 +54,7 @@ a team, of strong players
 the tops, of the mountains`,
 
         `a group, of evil thieves
-a dress, of nice colour
+a dress, of nice color
 a dinner, of many dishes
 a cow, with spots
 a tree, of many fruits`,

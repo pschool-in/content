@@ -191,7 +191,7 @@ I see a man standing outside *with* a red suitcase.`,
       type: 'fillup',
       data: {
         title: 'into vs inside',
-        text: `"Come *into* my parlour," said the spider to the fly.
+        text: `"Come *into* my parlor," said the spider to the fly.
 I was not permitted to look *inside* the trunk.
 Shruthi dived *into* the pool.
 Aakash angrily threw the letter *into* the fire.
@@ -224,7 +224,7 @@ The mother bird kept flying around, *until* she found food for her chicks.`,
           {
             type: 'html',
             text: `<b>over</b> - used when crossing from one side to the other<br>
-<b>onto </b> - refers to direction or movement to a position on a surface`
+<b>onto </b> - refers to the direction or movement to a position on a surface`
           },
           `# through vs throughout`,
           {
@@ -345,9 +345,9 @@ Nisha is writing an essay *about* her school trip to Mysore.`,
       type: 'fillup',
       data: {
         title: 'aside vs away',
-        text: `Naina gave *away* her story books to the little girl next door.
+        text: `Naina gave *away* her storybooks to the little girl next door.
 Diana put *aside* her corrections to have a cup of tea.
-My neighbour will be *away* for three months.
+My neighbor will be *away* for three months.
 Let me put *aside* my project and take a short nap.
 The mouse ran *away* from the cat.`,
         options: 'aside, away'
@@ -359,7 +359,7 @@ The mouse ran *away* from the cat.`,
       type: 'fillup',
       data: {
         title: 'along vs among',
-        text: `There is honour *among* thieves!
+        text: `There is honor *among* thieves!
 The children walked *along* the beach, collecting shells.
 The boy ran *along* the wall and had a bad fall.
 The two friends strolled *among* the crowds in the market. 

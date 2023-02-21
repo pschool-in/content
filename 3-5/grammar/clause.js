@@ -156,7 +156,7 @@ The teacher *who lives next door to Raj* is Mrs. Iyer.`
             name: 'Independent Clause',
             text: `*We went for a walk* after the rain stopped. 
 Until the sun sets *I will stay out and play*. 
-Because the heavy rains knocked out the power, *school will be closed on Friday*.
+Because the heavy rains knocked out the power, *the school will be closed on Friday*.
 *The movie was good* although it was too long. 
 Though he didn't receive formal schooling, *he is clever and smart*.
 *Our dog will run away* if the gate is left open.`

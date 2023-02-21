@@ -172,7 +172,7 @@ He lied to everyone. When we asked him, he *foolishly* denied it. So, everyone d
 My dad tried to give him instructions *calmly*. But he was driving *carelessly*. We were very scared.
 Harsh *patiently* waited for his mother to arrive. They *happily* headed home together and had lunch.`,
 
-        `Raj fell down. We helped him to sit on the chair *comfortably*. I ran *quickly* and told my teacher.
+        `Raj fell. We helped him to sit on the chair *comfortably*. I ran *quickly* and told my teacher.
 I fought with my friend. We were shouting *loudly*. His mom told us to talk *nicely* with each other.
 I was *hardly* able to focus on my homework. Then my friend explained it to me very *easily*. I can *simply* solve it now.
 She was dressed *smartly* for the party. She also danced *beautifully*. Everyone clapped and praised her.
@@ -199,7 +199,7 @@ The entry is *through (thorough)* the window.
 Do you take the bus *everyday (never)*?
 Did you submit your project *yet (still)*?
 We go to a restaurant *weekly (once)*.
-Monkeys climbed on *top (bottom)* of the tree.
+Monkeys climbed on the *top (bottom)* of the tree.
 There are lots of plants *around (round)* us.
 Are you coming *tomorrow (yesterday)*?`,
 
@@ -216,12 +216,12 @@ She stays with her grandma *all (few)* days.`,
 
         `He kept on lecturing us for *hours (hour)*.
 She lives *down (under)* the road.
-She went to the church *yesterday (tomorrow)*.
+She went to church *yesterday (tomorrow)*.
 *Tomorrow (Yesterday)*, I will clean my house.
 She visits her grandparents *weekly (week)*.
-Richa completed her homework *independently (independence, freedom)* .
+Richa completed her homework *independently (independence, freedom)*.
 The girl walked *smartly (smart, confident)*.
-The old lady feeds *kindly (kind, gentle)* to the street animals.
+The old lady *kindly (kind, gentle)* feeds the street animals.
 The turtle moves *slowly (slow, fast)*.
 The teacher *clearly (clear, elaborate)* explained the topic.
 The dog runs *quickly (quick, slowly)*.`
@@ -240,23 +240,23 @@ data: [
 I will clean my house *tomorrow*. I am very tired *now*.
 The children are playing *outside*. They have been playing *since* evening.
 I am studying in this school *since* fourth grade. The school bus runs *in* the city.
-We rowed the boat towards *north*, *where* the waves were not high.
+We rowed the boat towards the *north*, *where* the waves were not high.
 She came running *to* me *when* she saw a dog. I laughed.
 I had my lunch over *there* *yesterday*. I will eat *here* *today*.
 He *never* drinks milk. But he eats everything *at* my house.
 We are meeting *behind* the school *next week*. We will play cricket *there*.
 *Since* she moved *across* the street, we have become friends. We play together *every day*.
-The car is moving *backwards*. I will move *aside* *when* it will come closer.
+The car is moving *backward*. I will move *aside* *when* it will come closer.
 I *always* eat *in* the kitchen. I go to the school *afterwards*.`,
 
 `I met Ram *yesterday*. I came to know that he lives *across* the street.
-I completed my homework *last night*. I won't be punished *in* the school today.
+I completed my homework *last night*. I won't be punished *in* school today.
 She is going *towards* the library. But it is closed *now*.
 Do you know *where* does he live? I need my book by *tonight*.
 I am taking my dog for a walk *now*. It loves to go *near* the park.
 I will be *here* *tomorrow* also. We can meet *here* only.
 My sister likes to play *indoor* games. But she went to play cricket *yesterday* evening.
-I will go to the school *next week*. I am *overseas* *right now*.
+I will go to school *next week*. I am *overseas* *right now*.
 The clouds are *up* in the sky. It will probably rain *tonight*.
 We looked *around* but we couldn't find the dog. It may be sleeping.
 My brother *never* helps me. He is *always* at his friend's house.
@@ -274,8 +274,8 @@ My brother *never* helps me. He is *always* at his friend's house.
       data: [
         `I will clean my room *tomorrow*.
 I saw you *yesterday*, at the restaurant.
-My uncle lived in London for an *year*.
-I *often* eat sea food.
+My uncle lived in London for a*year*.
+I *often* eat seafood.
 Karan *never* drinks milk.
 I am *seldom* late.
 We should *always* respect our elders.
@@ -283,13 +283,13 @@ My sister *rarely* lies.
 I *frequently* visit my grandma's house.
 I go to the playground *occasionally*.`,
 
-        `I *normally* listen to the rock music.
+        `I *normally* listen to rock music.
 *Often*, I go for morning walks.
 I go to the canteen *regularly*.
 I *sometimes* sleep very late.
-My brother *usually* enjoy being with his friends.
+My brother *usually* enjoys being with his friends.
 I haven't met him *yet*.
-Do you *still* work in that company?
+Do you *still* work for that company?
 I will call you *later*.
 She *often* falls asleep during class.
 *Generally*, I don't like green vegetables.`,

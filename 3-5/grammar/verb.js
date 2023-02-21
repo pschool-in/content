@@ -65,7 +65,7 @@ Sita was watching some cartoons.
 He was a famous actor.`,
           `Ramya will go to the movie tomorrow.
 I will not do this mistake again.
-In future, the temperature will increase due to global warming.`
+In the future, the temperature will increase due to global warming.`
         ],
         [
           `The sun rises in the east.
@@ -101,13 +101,13 @@ I will see you later.`
       data: [
         `Mangoes and bananas *are (is) * available in summer.
 Ravi *helps (help) * his mother to fetch water every day.
-There *are (is) * lot of toys on the roof.
+There *are (is) * a lot of toys on the roof.
 The latest news *is (are) * not encouraging.
 Ramya *wants (want) * to be a teacher.
 My cousins *live (lives)* in Chennai.
 Sarah *listens (listen)* to music all the time.
 One of the dogs *barks (bark)* all night long.
-Sarath and Raj *are (is)* the best players in the team.
+Sarath and Raj *are (is)* the best players on the team.
 The quality of the candles *is (are) * poor.`,
 
         `This book *is (are)* a work of fiction.

@@ -27,7 +27,7 @@ We went to *Ooty* for vacation.
 *Mt. Everest* is the tallest peak in the world.
 *Earth* is a planet.
 *Google* is a search engine.
-A boy threw a ball on *Wilson.*
+A boy threw a ball at *Wilson.*
 Her friend is *Daniel.*
 I am lucky to have *John* as a friend.
 *India* is a democratic country.
@@ -62,7 +62,7 @@ Cards are shuffled by *Tina.*
 *Alladin* went into the cave to find the hidden treasure.
 The guide received me and *Jack* and showed us around the city.
 Our neighbor's dog was barking all night. But its name is *Peace.*
-The most famous play writer in the world is *William Shakesphere.*
+The most famous play writer in the world is *William Shakespaere.*
 *Mahabharata* is considered the largest epic book. 
 *Sita* is a great dancer.`
       ]
@@ -79,13 +79,13 @@ The most famous play writer in the world is *William Shakesphere.*
         `She is watching *TV.*
 He is my *brother.*
 His *father* is cooking.
-They are playing in *garden.*
+They are playing in the *garden.*
 The *car* is moving fast.
 We saw *birds* flying.
 He is eating *ice-cream.*
 I like to play *football.*
 We have no *homework* today.
-She goes to *market.*`,
+She goes to the *market.*`,
 
         `I am working in the *garden*.
 We must eat plenty of *vegetables*.
@@ -109,7 +109,7 @@ All the *bananas* are eaten.
 George is a clever *boy.*
 They are playing on the *ground.*`,
 
-        `Our new *neighbours* are very friendly.
+        `Our new *neighbors* are very friendly.
 I like to play *games.*
 Jina has posted a *letter.*
 These *pictures* are beautifully drawn.

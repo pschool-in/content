@@ -79,7 +79,7 @@ This is my sister. *Her* name is Tanvi.`
             text: `I have *twenty* students in my class.
 I have learned *six* chapters from Science for the exam.
 Meena has *four* dogs in her house.
-They have *two* carpets at the centre of the hall.`
+They have *two* carpets at the center of the hall.`
           },
           {
             name: 'Interrogative adjective',
@@ -161,7 +161,7 @@ Who completed *this (those)* science project?
 Could you please pass me *that (those)* water bottle?
 I want *those (that)* big flower pots for Diwali celebrations.
 *Those (That)* birds are flying South. They are migrating.
-My dad presented *that (those)* book on my birthday.
+My dad presented me *that (those)* book on my birthday.
 *These (That)* clothes are wet due to sudden drizzling in the afternoon.`,
 
         `Manisha is wearing a *beautiful (tall)* dress.
@@ -187,7 +187,7 @@ Paddy fields are very *green (blue)*.
 The *black (blue)* soil is rich in nutrients.`,
 
         `In the morning, the *heavy (plump)* snow was covering the ground.
-Suresh is a *lazy (smart)* boy and always fails in the exam.
+Suresh is a *lazy (smart)* boy and always fails the exam.
 The *rich (poor)* man has got a lot of money.
 The sums are *difficult (easy)* to solve in the given time.
 The ball is *round (rectangle)* in shape.
@@ -337,9 +337,9 @@ My grandparents live in a *brick* house.`
         title: `Click on the blanks and fill the right option.`
       },
       data: [
-        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. He was a slow walker and he had just reached a *huge (black)* cabbage, when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare. He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
+        `Once upon a time, an *old (new)* porcupine lived in a *large (tall)* wood with his sons. One day, one of the porcupines went into the *deep (long)* jungle to fetch some *fresh (spoiled)* vegetables. He was a slow walker and he had just reached a *huge (black)* cabbage when from behind the *green (stale)* leaves, out popped a *big (stripped)* hare. He said, I hope you are quicker at eating, or will it take a year to finish the cabbage! The porcupine paid little attention to the hare's words and left from there.`,
 
-        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! He knew, he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
+        `Once upon a time, there lived a *beautiful (new)* stag. Like all other stags, he had *long (brief)*, *slender (round)* legs. One day he was grazing peacefully on *tender (stern)* shoots. Suddenly, he heard the howling of *dangerous (pretty)* wolves! He knew he had to escape. So he started running. Suddenly his *large (fluffy)* antlers got stuck in the low-hanging branch and he was unable to escape. Finally, the wolves caught the stag.`
       ]
     },
     {
@@ -356,7 +356,7 @@ My grandparents live in a *brick* house.`
 
         `My cousin, Ram has a *large* farm. On that farm, there are *many* plants and animals. The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. Ram sells *fresh* fruits and vegetables in the *big* market *every* Sunday.`,
 
-        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in *different* boxes. There are *forty* mangoes in the *large* box and *fifteen* mangoes in the *small* box. He send them to the *nearby* city through an *old* lorry.`
+        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in *different* boxes. There are *forty* mangoes in the *large* box and *fifteen* mangoes in the *small* box. He sends them to the *nearby* city through an *old* lorry.`
       ]
     }
   ]

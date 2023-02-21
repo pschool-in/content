@@ -71,7 +71,7 @@ Please come *forward* and answer.
 He answered all questions *correctly*.
 I brush my teeth *twice*.
 Our teacher is *always* punctual.
-Dheena is *often* late for the Maths class.
+Dheena is *often* late for Maths class.
 I *always* read comic books.
 Please come *forward* and answer.`
       ]

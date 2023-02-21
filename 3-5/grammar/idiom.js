@@ -12,21 +12,21 @@ export default {
         title: 'Idioms',
         text: `An idiom is an expression, a word, or a phrase that doesn't mean exactly what the words say. For example "it's raining cats and dogs", doesn't mean that cats and dogs are falling from the sky, but it is a metaphorical expression that means 'it is raining heavily'. 
 Some commonly used idioms and their meanings are given below:
-1. piece of cake - something is very easy to do
+1. piece of cake - something that is very easy to do
 2. call names - to tease someone by using unpleasant names
 3. apple of one's eye - highly valuable 
 4. crocodile tears - acting like showing pity
 5. a feather in one's cap - an honor 
 6. a man of letters - an educated man
 7. black sheep - a member who doesn't fit in the group
-8. copycat - copying the behaviour of someone
+8. copycat - copying the behavior of someone
 9. early bird - a person who gets up, arrives or acts before the usual time.
 # Examples sentences:
 1. I know how to draw an elephant. It is a piece of cake.
 2. Ramya was upset because some kids in her school called her names.
 3. I am the apple of my mom's eye.
 4. He shed crocodile tears in front of the teachers. 
-5. Winning the inter school competition was a feather in Selvi's cap.
+5. Winning the inter-school competition was a feather in Selvi's cap.
 6. Selvam is a farmer but he is a man of letters.
 7. Rohit was the black sheep in his family. He became a painter, whereas other family members were teachers.
 8. You are such a copycat! Please do something on your own.
@@ -47,11 +47,11 @@ Some commonly used idioms and their meanings are given below:
           questions: [
             {
               qText: 'Once in a blue moon',
-              options: `an event that doesn't happens often, an event that happens regularly, an event that happens frequently`
+              options: `an event that doesn't happen often, an event that happens regularly, an event that happens frequently`
             },
             {
               qText: 'A piece of cake',
-              options: 'very easy, very difficult, its impossible'
+              options: 'very easy, very difficult, it is impossible'
             },
             {
               qText: 'Break a leg',
@@ -64,7 +64,7 @@ Some commonly used idioms and their meanings are given below:
             {
               qText: 'Back to square one',
               options:
-                'to start from beginning, stop working, completed the task '
+                'to start from the beginning, stop working, completed the task '
             }
           ]
         },
@@ -87,7 +87,7 @@ Some commonly used idioms and their meanings are given below:
             {
               qText: 'Cross your fingers',
               options:
-                'to hope something happens like you wished, to tell prayers, working hard'
+                'to hope something happens as you wished, to tell prayers, working hard'
             },
             {
               qText: 'Hit the books',
@@ -201,14 +201,14 @@ Tarun gets everything from his parents on a *silver* *platter*.
 We need *all* *hands* *on* *deck* if we want the event to be a success.`,
 
         `I can't turn my back on my brother, he is my own *flesh* *and* *blood*.
-Please *keep* *an* *eye* on my baby brother, I'll be back in sometime.
+Please *keep* *an* *eye* on my baby brother, I'll be back after some time.
 Sanjay knows all the math tables *by* *heart*. 
 I am just *pulling* *your* *leg*, don't take it personally.
 Swetha has a *sweet* *tooth*. She always eats ice cream after food.`,
 
         `Ronaldo scored several *hat* *tricks* last season.
 Good job! You *pulled* *your* *socks* *up* and studied all day and excelled in the exam.
-Jessey went from *rags* *to* *riches* after he won a lottery.
+Jessey went from *rags* *to* *riches* after he won the lottery.
 The English test was *a* *piece* *of* *cake*. 
 Fuel these days *costs* *an* *arm* *and* *a* *leg*.`
       ]

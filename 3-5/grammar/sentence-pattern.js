@@ -76,7 +76,7 @@ They *are working*.
 Sheela *is listening*.`,
 
           `Radha makes *a doll*.
-Hema eats *banana*.
+Hema eats a *banana*.
 The man rides *the horse*.`
         ],
         [
@@ -164,7 +164,7 @@ He made his son a doctor`,
 Sathya invited the guests last week.
 The manager threw the old chair away.`,
 
-          `The judge sent the thief to the prison.
+          `The judge sent the thief to prison.
 The teacher gave me some candies.
 Grandma told me a story.
 My uncle showed us the city.`

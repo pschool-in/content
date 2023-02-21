@@ -11,7 +11,7 @@ export default {
       data: {
         title: 'The Gerund',
         text: [
-          `A verb form that ends with '-ing' are usually called as gerund. They can play the role of both verb and noun. It might be present either at the beginning, middle, or at the end of the sentence. For eg:`,
+          `A verb form that ends with '-ing' is usually called a gerund. They can play the role of both verbs and nouns. It might be present either at the beginning, middle or end of the sentence. For eg:`,
           {
             type: 'html',
             text: `<b>Swimming</b> is a good exercise. 
@@ -43,7 +43,7 @@ His uncle is addicted to <b>drinking</b>.`
           {
             type: 'html',
             text: `My aim in life is becoming a <b>writer</b>.
-What I hate is <b>travelling</b>.
+What I hate is <b>traveling</b>.
 Her favorite hobby is <b>dancing</b>.`
           }
         ]
@@ -62,9 +62,9 @@ Her favorite hobby is <b>dancing</b>.`
         Gaurav avoids *driving* fast.
 Grandma enjoyed *meeting* new people.
 Kavitha has developed an interest in *cooking*.
-My mother says *eating* fresh vegetables are good for health. 
-My mom is afraid of *flying* in aeroplane.
-*Swimming* is a good exercise.
+My mother says that *eating* fresh vegetables are good for your health. 
+My mom is afraid of *flying* in an airplane.
+*Swimming* is good exercise.
 My uncle gave up *smoking* a few years ago.
 What about *going* to the museum tomorrow?
 My father was happy *seeing* his mom after a long time.`,
@@ -98,12 +98,12 @@ She denied *having* an ice cream at night.`
       id: 'drag-and-drop',
       lockAfter: 1,
       data: [
-        `*Developing* good habits take lot of time.
+        `*Developing* good habits take a lot of time.
 *Reading* motivational stories keep Amit busy in the afternoon.
 *Completing* the assignment made Tarun tired and hungry.
 *Bathing* helps to keep our body clean.
 *Singing* in front of the crowd made Neha a bit nervous.`,
-        `She is *keeping* the school premises neat and tidy.
+        `She is *keeping* the school premises neat.
 I suggested *discussing* the matter in the next meeting.
 Mrs.Sharma is keen on *setting* up a restaurant nearby her place.
 Before *leaving*, he said goodbye to each of us.
@@ -147,22 +147,22 @@ Not only *living* in the city is hectic, but it is expensive too.`
 Bhavya dreams about *studying (to study)* at Harvard University.
 Tired after work, my mother didn't like *cooking (cook)* her dinner.
 Few people could afford *to buy (buy)* a house as big as that.
-Arun admitted *leaving (leave)* the last question unanswered.
+Arun admitted to *leaving (leave)* the last question unanswered.
 I offered *to help (help)* my friend.
-He admitted *stealing (steal)* the money from the purse.
+He admitted to *stealing (steal)* the money from the purse.
 I would love *to come (coming)* with you to Hyderabad.
 At last, I managed *to finish (finish)* my work for the day.
 They practised *speaking (speak)* Sanskrit.`,
 
         `My mom has promised *to take (take)* us to the park this weekend.
-Mahesh recommended *writing (write)* down my own notes.
+Mahesh recommended *writing (write)* down my notes.
 Richa said she needed *to borrow (borrow)* some money from Deepthi.
 Savitha didn't like *making (make)* promises that she knew she couldn't keep. 
 Sam decided *to take (take)* the test online.
 Priya hates *studying (study)*.
-We stopped *buying (to buy)* newspapers as we were not reading it.
+We stopped *buying (to buy)* newspapers as we were not reading them.
 Mihir denied *breaking (break)* the porcelain cup.
-We were very excited *boarding (board)* the plane for the first time.
+We were very excited about *boarding (board)* the plane for the first time.
 She wanted *to buy (buy)* expensive sandals.`,
 
         `I don't like *waiting (wait)* in queues.
@@ -178,10 +178,10 @@ Tanish completed *painting (paint)* his flat.
 
         `Tanvi refused *to help (help)* in the completion of the project.
 Everybody enjoyed *dancing (dance)* to Bollywood beats.
-Manish admitted *eating (to eat)* my chocolate cake.
+Manish admitted to *eating (to eat)* my chocolate cake.
 My mother demanded *to see (see)* the hotel manager.
 I tried *to understand (understand)* but I just couldn't.
-My mom chose *to work (work)* in this school.
+My mom chose *to work (work)* at this school.
 My brother postponed *doing (do)* his homework.
 My cousin would be *arriving (arrive)* tomorrow from Delhi.
 I remember *going (go)* to my first movie when I was seven.

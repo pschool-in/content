@@ -140,11 +140,11 @@ Whose voice was that?`
             },
             {
               name: 'Emphatic pronoun',
-              text: `She herself did it.
-You yourself can find your talent.
-I myself will cook the dinner.
-She herself baked a cake.
-He himself did it.`
+              text: `She did it herself.
+You can find your talent yourself.
+I will cook dinner myself.
+She baked a cake herself.
+He did it himself.`
             }
           ]
         },
@@ -193,7 +193,7 @@ Is that present for *me (I)*?`,
 *We (Us)* live in a small house.
 *She (He)* is a smart girl.
 This is my book. Give it to *me (I)*.
-I can tell *that (those)* who lie by lookin at them.
+I can tell *that (those)* who lie by looking at them.
 *This (Those)* is my favorite place for the morning walk.
 We bought *ourselves (themselves)* some French fries before the match.
 When I woke up, I found *myself(itself)* on the sofa.
@@ -205,7 +205,7 @@ Kumar and his brother enjoy watching action films. This movie is for *them (they
 Do you like movies? Please join *us (them) * at the theatre. 
 I will meet Sangeetha tomorrow. I am meeting *her (him)* for the first time. 
 You left *your (yours)* textbooks on the table. 
-I want to know *who (whom)* is going to play a villain. 
+I want to know *who (whom)* is going to play the villain. 
 Please eat whatever you want. The choice is *yours (your)*. 
 Rekha told *him (his)* about the celebration next week. `,
 
@@ -239,7 +239,7 @@ What is *mine* is *yours*.`,
 I blame *myself* for being late.`,
 
           `She *herself* informed me.
-The city *itself* is usually dry.`
+The City *itself* is usually dry.`
         ],
         [
           `The house across the street is *theirs*.
@@ -325,7 +325,7 @@ Which & Whose, Interrogative`
         `I *myself* did it.
 *Whose* purse is this?
 That table is *ours*.
-None of *these* options are right.
+None of *these* options is right.
 *You* must stop lying now.`,
 
         `*That* is an amazing shop.

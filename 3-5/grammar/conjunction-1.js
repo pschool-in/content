@@ -43,7 +43,7 @@ I know Richa, *but (and)* I don't know her friend.
 Rahul got ready, *but (and)* he forgot his watch.
 I will eat lunch *and (but)* watch TV.
 My mom is cooking *and (but)* helping me with HW.
-I like chocolates, *but (and)* I'm not allowed to eat.
+I like chocolates, *but (and)* I'm not allowed to eat them.
 My dad is working, *but (and)* he doesn't want to.
 This is good, *but (and)* it could be better.
 My sister is yawning, *but (and)* not sleeping.`,
@@ -81,20 +81,20 @@ I can read *and* write well.
 Her mom scolds her *but* she never listens.`,
 
         `The cat eats fish *and* drinks milk.
-The pencil is new *but* not sharped.
+The pencil is new *but* not sharp.
 I bought the cake *and* candles.
 The sofa is soft *but* very small.
-The table is big *and* have drawers.
+The table is big *and* has drawers.
 Mom switched on the lamp *but* it wasn't working.
 Put your toys away *and* go to sleep.
 I have a chair *but* I need one more.
-Sheep gives us wool *and* it is used in winters.
+Sheep gives us wool *and* it is used in winter.
 I throw the stick *but* my dog never runs to get it.`,
 
         `Kate likes to play football *and* cricket.
 Kate likes to play football *but* she does not like cricket.
 Kate likes to play football *or* cricket
-Neha is friend with all the boys *and* girls in the class.
+Neha is friends with all the boys *and* girls in the class.
 We burn crackers *and* eat sweets on Diwali.
 We have a dog *but* I also want a cat.
 Mohan is a smart boy *but* he is not good at sports.
@@ -114,7 +114,7 @@ I like reading books *and* eating vegetables.`
         [
           `Brush your teeth and put on your pajamas.
 She likes football but I like cricket.
-I will go to the school and meet my friends.
+I will go to school and meet my friends.
 I don't want to eat dal and rice.`,
 
           `My name is Raj.

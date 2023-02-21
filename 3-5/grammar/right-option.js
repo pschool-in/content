@@ -28,7 +28,7 @@ Let's go play when *you're* ready.`,
         title: "Fill in the blanks with the right word: there, their, they're",
         text: `The kids went to visit *their* grandparents.
 *They're* all eating cake together.
-What do you see over *there* ?
+What do you see over *there*?
 Tomorrow, *they're* having a party.
 The library book is over *there*.
 The students handed in *their* homework.`,
@@ -57,7 +57,7 @@ The spacecraft fired *its* rockets.`,
       type: 'fillup',
       data: {
         title: "Fill in the blanks with who's and whose.",
-        text: `He is an artist *whose* work I really admire.
+        text: `He is an artist *whose* work I admire.
 *Who's* that man in the white shirt?
 *Who's* the prime minister of India?
 *Whose* keys are on the table?
@@ -106,7 +106,7 @@ Can you *hear* the dog barking?
 When your uncle gets *here*, tell him to wait.
 The bears won't *hear* us if we're quiet.
 Kids, where are you? We're *here*.
-Who put the keys *here* ?
+Who put the keys *here*?
 I can't *hear* you. You're mumbling.`,
         options: 'here, hear'
       }
@@ -118,7 +118,7 @@ I can't *hear* you. You're mumbling.`,
       data: {
         title: 'Fill in the blanks with either than or then.',
         text: `He can run faster *than* I can.
-First buy bread and butter *then* eat them.
+First, buy bread and butter *then* eat them.
 Nothing worse *than* a familiar enemy.
 First think, and *then* speak.
 Peter is smarter *than* Mathew.`,

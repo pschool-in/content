@@ -14,7 +14,7 @@ For example:
 What is that noise?
 In this sentence, the word noise is a concrete noun because we can hear it.
 Another example is; 
-You need the patience to read a book. 
+You need patience to read a book. 
 In this sentence, patience is an abstract noun because it is not physically present. On the other hand, the book is a concrete noun because we can see, touch, and feel it.
 Some more examples of concrete nouns are:
 1. Shruti put her feet on the table.
@@ -65,11 +65,11 @@ He should be praised for his *honesty*.`,
 
         `I value your *opinion*.
 Many families in this small town are living in *poverty*.
-She has *power* to help others.
+She has the *power* to help others.
 Parents should treat children with *compassion*.
 She has the *skill* to climb this tree.
 The musical concert was a *success*.
-I have *energy* to play one more game.
+I have the *energy* to play one more game.
 Let's give Tom a *surprise* by visiting his house.
 The *depth* of the well is twenty feet.
 Do you know, when is his *birthday*?`,
@@ -87,7 +87,7 @@ The rat stood *calm* in front of a cat.`,
 
         `Geeta is *famous* for her long hair.
 Mohan won the game with great *luck*.
-*Wastage* of food angers the nanny.
+*Wastage* of food anger the nanny.
 Dove is the symbol of *peace*.
 My grandma is full of *wisdom*.
 We have a *holiday* next week.
@@ -110,7 +110,7 @@ You can have some *ice cream* after dinner.
 The loud *noise* made my mom upset.
 You have good *friends*.
 Seema loves her new *dog*.
-My throat is swollen due to *cold water*.
+My throat is swollen due to the *cold water*.
 My father bought me a new *book*.
 My skin is very *dry* due to winter.
 This is my favorite *sweater*.
@@ -188,13 +188,13 @@ I had a brilliant *idea*. We decided to study together for *exams*. `
       },
       data: [
         `Do you know that a *pearl* is not man-made? It is obtained from *oysters* found in the *ocean*.
-A bunch of *bananas* were on the *tree*. A *monkey* climbed and ate them all.
-The *crocodiles* live in the *ocean*. It is a very dangerous *animal*.
+A bunch of *bananas* was on the *tree*. A *monkey* climbed and ate them all.
+*Crocodiles* live in the *ocean*. It is a very dangerous *animal*.
 My *mother* is a *teacher*. She teaches science.
 We should take a *shower* every day. It helps us stay clean and tidy.
 Someone stole my dad's *wallet* on the *train*. The *police* will try to catch the *thief*.
 I love everything that is *sweet*. I like *chocolates*, *cakes* and *sweets*.
-My *brother* likes reading *newspaper*. He knows about almost everything that is going on.`
+My *brother* likes reading the *newspaper*. He knows about almost everything that is going on.`
       ]
     }
     // old

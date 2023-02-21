@@ -15,7 +15,7 @@ export default {
             type: 'html',
             text: `The <b>boy bounced the ball</b> in the basket.<br>
 A <b>big brown bear bumped</b> into our boxes.<br>
-My <b>neighbour is normally noisy</b>.`
+My <b>neighbor is normally noisy</b>.`
           }
         ]
       }
@@ -53,7 +53,7 @@ Alliteration is a series of vowels.`
         `The boy *bounced* the ball.
 Helen happily *helped* her housemaid.
 The wind was *whistling* through the window.
-The parrot landed on pirate's *purple* parcel.
+The parrot landed on the pirate's *purple* parcel.
 Peter *put* his painting on the wall.`,
 
         `Elise’s *easter* eggs were delicious.
@@ -71,7 +71,7 @@ How many feet of *fruit* did freaky Fred find?`,
         `Ayush's aunt Anjali *ate* all apples.
 Dhanju's *dog* Dan dropped the ball.
 Fatima's father *fried* french fries.
-Granny *guided* the guard to grocery.
+Granny *guided* the guard to the grocery.
 Honeybees have *huge* honeycombs.`,
 
         `Jane is *jogging* joyfully.
@@ -94,7 +94,7 @@ How much wood *would* a woodpecker peck?`
       data: [
         [
           `The sheriff put his shiny star-shaped batch.
-I sometimes hear sounds of someone saying something.
+I sometimes hear the sounds of someone saying something.
 I cannot bear to see a bear.
 Dan's dog dug a ditch.
 Sameer had six straws.`,
@@ -107,7 +107,7 @@ My mother loves me very much.`
         ],
         [
           `Shaam sells seashells by the seashore.
-The  lazy lion looked like a lump.
+The lazy lion looked like a lump.
 A tree toad loved a she-toad.
 Silly Sally swiftly shooed seven silly sheep.
 A tutor tried to tutor two tooters to toot.`,
@@ -115,8 +115,8 @@ A tutor tried to tutor two tooters to toot.`,
           `My father works at an MNC.
 My pet's name is bony.
 She likes her milk cold.
-The bollywood is full of actors and singers.
-He plays a guitar when he's bored.`
+Bollywood is full of actors and singers.
+He plays the guitar when he's bored.`
         ]
       ]
     },
@@ -138,7 +138,7 @@ I kept the apples in the *big* *blue* *bowl*.
 *My* *mother* *makes* *marvelous* *melon* cakes.
 *Four* *friends* *finshed* their homework.
 *Betty* *bought* *butter* from the market.
-The *cat* *climbed* *carefully* but still fell down.
+The *cat* *climbed* *carefully* but still fell.
 *Sakshi* *stopped* *staring* when *someone* called her name.`,
 
         `*Dani's* *dog* *drank* from the pot.

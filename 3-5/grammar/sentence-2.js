@@ -123,7 +123,7 @@ Do you play carrom?`
         ],
         [
           `The sun rises in the east.
-Leaves are green in color.
+The leaves are green in color.
 Today is a holiday.`,
           `Please join us for dinner.
 Complete the homework by tomorrow.
@@ -185,7 +185,7 @@ Are you an Indian?`
           `Julie is a really smart girl.
 New Delhi is the capital of India.
 Flowers in the garden are well maintained.
-Mother had gone to office.`,
+Mother had gone to the office.`,
           `Be careful while crossing the road.
 Help each other. 
 Everybody, look at him.`,
@@ -245,7 +245,7 @@ Clean your room. *Imperative*`
       id: 'find-sentence',
       lockAfter: 2,
       commonData: {
-        printTitle: 'Rewrite the words and form proper sentence.'
+        printTitle: 'Rewrite the words and form a proper sentence.'
       },
       data: [
         `the report was sent yesterday
@@ -270,7 +270,7 @@ children are solving sudoku
 some books are damaged`,
 
         `Eskimos live in the igloos
-I like to learn guitar
+I like to learn the guitar
 cats live longer than dogs
 these mangoes are sweet
 Fathima bought a torchlight

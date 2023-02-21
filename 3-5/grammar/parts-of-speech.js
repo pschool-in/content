@@ -10,11 +10,11 @@ export default {
       data: {
         title: 'Parts of Speech',
         text: [
-          `A sentence is made up of words. Each word does a function to make the sentence meaningful. How the word functions in a sentence, can be classified into eight types. These types are known as parts of speech.
+          `A sentence is made up of words. Each word function to make the sentence meaningful. How the word functions in a sentence, can be classified into eight types. These types are known as parts of speech.
 # Noun
 A noun is the name of a person, place, thing, animal, or idea. eg: man, John, Africa, honesty, monkey.
 # Pronoun
-A pronoun is is used in place of a noun. eg: he, she, it, they.
+A pronoun is used in place of a noun. eg: he, she, it, they.
 # Verb
 A verb expresses action or being. eg: sing, work, wait, are, be.
 # Adjective
@@ -44,7 +44,7 @@ Do you know that the same word can perform different functions in different sent
       commonData: {
         title: 'Drag and drop the below words in the respective boxes.',
         printTitle:
-          'Rewrite the words given at the bottom at approprate boxes.',
+          'Rewrite the words given at the bottom at appropriate boxes.',
         types: ['Noun', 'Verb']
       },
       data: [
@@ -69,7 +69,7 @@ Do you know that the same word can perform different functions in different sent
       data: {
         title: 'Drag and drop: Adjective vs Preposition.',
         printTitle:
-          'Rewrite the words given at the bottom at approprate boxes.',
+          'Rewrite the words given at the bottom at appropriate boxes.',
         types: [
           {
             name: 'Adjective',
@@ -88,7 +88,7 @@ Do you know that the same word can perform different functions in different sent
       id: 'classify-between3',
       lockAfter: 1,
       commonData: {
-        title: 'Classify the underlined word as verb or adjective or adverb.',
+        title: 'Classify the underlined word as a verb or adjective or adverb.',
         types: ['Verb', 'Adjective', 'Adverb']
       },
       data: [

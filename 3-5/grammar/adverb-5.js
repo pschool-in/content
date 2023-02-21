@@ -51,7 +51,7 @@ It was *too* cold.`,
 Can I eat the chocolate *too*?
 She worked *quickly*.
 I *almost* stumbled on the rock.
-She reached on the top *so* quickly.
+She reached the top *so* quickly.
 The team played *spectacularly*.
 It's not big *enough*.
 I was *too* tired to get up this morning.
@@ -93,7 +93,7 @@ I play cricket *occasionally*.
 We *rarely* watch movies.`,
 
         `We have our exams *twice* a year.
-I eat meals *trice* a day.
+I eat meals *thrice* a day.
 I spoke to him *once*.
 I drink a glass of water *every* hour.
 I take a bath *daily*.`
@@ -138,7 +138,7 @@ The guests were *pretty* loud. I could *hardly* study. So I decided to do it lat
 The teacher *completely* agreed with my answer. I was *extremely* happy. My enemies got *very* jealous.
 I was *immensely* tired after the program. My mom made *so* much food. But I was *quite* tired so I slept.
 That man *somewhat* looked like my uncle. I *almost* got confused. Then I realized he was *just* similar to him.
-We live in the same street and go to the same school. But, I *barely* talk to him. He's *quite* irritating.
+We live on the same street and go to the same school. But, I *barely* talk to him. He's *quite* irritating.
 She made fun of me. I am *deeply* hurt. She is *very* bad and rude. She *almost* made me cry.`,
 
         `It's *very* cold outside. I would *rather* stay inside a blanket. It is *extremely* cold.
@@ -184,7 +184,7 @@ I *occasionally* play tennis. I don't like it much. But my dad likes it. He play
 We *usually* go shopping on Sundays. My brother *never* comes with so. And he *rarely* likes what we bring for him.
 I go to school *regularly*. I *rarely* miss my classes. I also love meeting my friends *every day*.
 We have exams *annually*. We also have practice tests *monthly* for preparation. *Sometimes* we have *weekly* tests too.
-I *always* drink milk in the morning. It is very good for health. We all should drink milk *regularly*.
+I *always* drink milk in the morning. It is very good for your health. We all should drink milk *regularly*.
 I *generally* wake up early in the morning. But on weekdays, I *sometimes* take a nap after coming from school.
 I was *continuously* watching TV for 1 hour. My mom told me to get up.`,
 
@@ -197,7 +197,7 @@ How *often* do you watch a movie? I watch one *twice* in a month, *sometimes* on
 Jane is *never* late for class. She *always* comes on time. She *rarely* falls sick.
 I am *next* in line. *Now* I'll be able to measure my weight. I hope I have gained some.`,
 
-        `He hits the ball really hard. It got lost *twice*. No one will *ever* play with him *again*.
+        `He hits the ball very hard. It got lost *twice*. No one will *ever* play with him *again*.
 They have *four* cars. *Each* person in the house drives their vehicle. They *rarely* go out in one car.
 Ravi *never* tells lie. But *today* he blamed the wrong student. We will *never* trust him *again*.
 She missed her bus *again*. As *usual*, her father has to drop her at school. This has become her *daily* thing.
@@ -213,7 +213,7 @@ It *never* snows where I live. So, I have *never* seen snowfall and *never* made
 Did you *ever* travel to a foreign country? I want to go to America *someday*. It's *always* snowing there in winter.
 I *always* study very hard to get good grades. My dad *always* takes me to another city for holidays *each* time I score good marks.
 Even though they have to get up *early*, they *rarely* go to bed on time. They *generally* watch TV at night.
-The teacher said that she'll clear my doubt *later*. I can come back in *sometime*.`
+The teacher said that she'll clear my doubt *later*. I can come back after *sometime*.`
       ]
     },*/
     {
@@ -271,9 +271,9 @@ This job is *quite* interesting.`
         title: `Choose the correct adverb of frequency.`
       },
       data: [
-        `We go on a vacation *annually (annual, once)*.
+        `We go on vacation *annually (annual, once)*.
 He is *often (offten, twice)* late for class.
-We should brush our teeth *twice (two, twise)* in a day.
+We should brush our teeth *twice (two, twise)* a day.
 I *usually (usual, general)* wake up late on holidays.
 Ram is *never (not, nor)* late for work.
 I *often (more, usual)* travel on weekends.

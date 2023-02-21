@@ -169,7 +169,7 @@ The kitchen in our house | is empty. | are empty.`
       id: 'find-sentence',
       lockAfter: 1,
       commonData: {
-        printTitle: 'Rewrite the words and form proper sentence.'
+        printTitle: 'Rewrite the words and form a proper sentence.'
       },
       data: [
         `the report was sent yesterday
@@ -194,7 +194,7 @@ children are solving sudoku
 some books are damaged`,
 
         `Eskimos live in the igloos
-I like to learn guitar
+I like to learn the guitar
 cats live longer than dogs
 these mangoes are sweet
 Fathima bought a torchlight
@@ -245,7 +245,7 @@ Father came to school yesterday.`,
 Stop feeding the dog from the table.
 Please consider my opinion. `,
           `When is the English hour?
-Why have you scored less marks?
+Why have you scored fewer marks?
 Which is your place in the classroom?`
         ],
         [

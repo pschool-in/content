@@ -86,7 +86,7 @@ dog, a, an
 owl, an, a
 bench, a, an
 ballon, a, an
-aeroplane, an, a
+airplane, an, a
 engine, an, a
 kite, a, an`,
 
@@ -106,7 +106,7 @@ rose, a, an
 frog, a, an
 door, a, an
 pear, a, an
-omelette, an, a
+omelet, an, a
 shoe, a, an
 horse, a, an
 accident, an, a
