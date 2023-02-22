@@ -229,8 +229,7 @@ Other gases,0.1%`,
 The plants and animals that live in water use oxygen that is dissolved in water. Plants and animals living in the soil use air trapped in small air pockets in the soil. When it rains heavily these air pockets get filled with water. Then the organisms come out for oxygen.
 
 # How is oxygen in the atmosphere replaced?
-Plants produce oxygen during photosynthesis. Plants also
-consume oxygen for respiration, but they produce more of it than they consume. The balance of oxygen and carbon dioxide in the atmosphere is maintained through respiration in plants and animals and by the photosynthesis in plants. This shows the interdependence of plants and animals. `,
+Plants produce oxygen during photosynthesis. Plants also consume oxygen for respiration, but they produce more of it than they consume. The balance of oxygen and carbon dioxide in the atmosphere is maintained through respiration in plants and animals and by the photosynthesis in plants. This shows the interdependence of plants and animals. `,
         title: 'Oxygen'
       }
     },
@@ -243,8 +242,7 @@ consume oxygen for respiration, but they produce more of it than they consume. T
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `The *wind* makes the windmill rotate. 
-The *windmill* is used to draw water from tubewells and to run flour mills. 
+        text: `The *wind* makes the windmill rotate.  
 Windmills are used to generate *electricity*. 
 Air helps in the *movements* of sailing yachts, gliders, parachutes and aeroplanes. 
 Birds, bats and insects can fly due to the presence of *air*. 

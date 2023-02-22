@@ -75,7 +75,7 @@ Cow dung to biogas.`
     },
     {
       id: 'reversible-irreversible',
-      label: 'Recycle or Reuse',
+      label: 'Reversible or Irreversible',
       type: 'classifySentence',
       data: {
         title: 'Classify based on the reversiblity of the process.',
@@ -127,7 +127,7 @@ Cooking of food is a reversible change.`
           dashWidth: 80
         },
         text: `Procces that can be reversed - *Reversible*
-Process that cannot be reversed - *Irreversibled*
+Process that cannot be reversed - *Irreversible*
 Change in iron on heating - *Expansion*
 Change in ice or candle on heating - *Melting*
 Change of water into vapour - *Evapouration*`

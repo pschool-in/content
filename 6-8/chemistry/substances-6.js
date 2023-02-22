@@ -11,12 +11,11 @@ export default {
         text: `# Methods of separation
 Handpicking, winnowing, sieving, sedimentation, decantation and filtration are some of the methods of separating substances from their mixtures.
 # Handpicking
-Handpicking is used for separating slightly larger sized impurities like peices of dirt, stone and husk from wheat, rice or pulses. The quantity of such impurities is usually not very large.
+Handpicking is used for separating slightly larger sized impurities like pieces of dirt, stone and husk from wheat, rice or pulses. The quantity of such impurities is usually not very large.
 # Threshing
 The process used to separate grain from stalks is called threshing. The stalks are beaten to free the grains. Machines and bullocks are sometimes used for the process.
 # Winnowing
-Winnowing is used to separate heavier and lighter components of a mixture by wind or by blowing air. It is commonly used by farmers to separtae lighter husk particles from heavier seeds of grain. The husk particles are carried away by the wind. The seeds of grain get
-separated and form a heap.
+Winnowing is used to separate heavier and lighter components of a mixture by wind or by blowing air. It is commonly used by farmers to separate lighter husk particles from heavier seeds of grain. The husk particles are carried away by the wind. The seeds of grain get separated and form a heap.
 # Sieving
 Sieving allows the fine flour particles to pass through the holes of the sieve while the bigger impurities remain on the sieve.
 # Sedimentaion, Decantation and Filtration
@@ -30,7 +29,7 @@ Some mixtures require more than one separation method to completely separate the
 # Saturated solution
 A saturated solution is one in which no more of that substance can be dissolved. More of a substance can be dissolved in a solution by heating it.
 # Can water dissolve any amount of a substance?
-Water dissolves different amount of soluble substances in it.`,
+Water dissolves different amounts of soluble substances in it.`,
         title: 'Separation of Substances'
       }
     },
@@ -46,7 +45,6 @@ Water dissolves different amount of soluble substances in it.`,
         text: `Husk and stones could be separated from grains by *handpicking*.
 Husk is separated from heavier seeds of grain by *winnowing*.
 Difference in the size of particles in a mixture is utilised to separate them by the process of *sieving* and filtration.
-In a mixture of sand and water, the heavier sand particles settle down at the bottom and the water can be separated by *decantation*.
 *Filtration* can be used to separate components of a mixture of an insoluble solid and a liquid.`
       }
     },
@@ -73,9 +71,9 @@ Water dissolves different amount of *soluble (insoluble)* substances in it.`
           dashWidth: 80
         },
         text: `The method of separating seeds of paddy from its stalks is called: *threshing*
-When milk, cooled after boiling, is poured onto a piece of cloth the cream is left behind on it. This process of separating cream from milk is an example of: *filteration*
+The process of separating cream from milk is an example of: *filteration*
 Salt is obtained from seawater by the process of: *evapouration*
-Impurities settled at the bottom when muddy water was kept overnight in a bucket. The clear water was then poured off from the top. The process of separation used in this example is called: *decantation*`
+The process of separation of clear water from a settled mixture is called: *decantation*`
       }
     },
     {
