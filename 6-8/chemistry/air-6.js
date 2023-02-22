@@ -18,7 +18,7 @@ Air is a mixture of nitrogen, oxygen, carbon dioxide, water vapour and a few oth
 The presence of water vapour in air is important for the water cycle in nature. The presence of water vapour in air is mainly due evapouration and condensation.
 
 # Oxygen
-Oxygen is the companent of air which supports burning. Oxygen is essential for life to exist.
+Oxygen is the component of air which supports burning. Oxygen is essential for life to exist.
 
 # Nitrogen
 The major component of air is nitrogen. It is also the component of air that does not support burning.
