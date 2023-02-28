@@ -9,9 +9,6 @@ export default {
       label: 'Tenali Raman and the Horse',
       data: {
         title: 'Tenali Raman and the Horse',
-        img: {
-          url: 'story/16_horse.png'
-        },
         text: `Once, the King wanted to expand his army. So, he needed more horses. He decided to give one horse to each person in his kingdom to take care of. He also gave everyone a good supply of straw to feed the horse. Everyone except Tenali Rama was not happy with this plan. He shut his horse in one room and every day at exactly nine o’clock, he gave the horse very little straw through the window. He gave the remaining straw to his cows that became fat and healthy.
 At the end of a year, the king wanted to see all his horses. All the people who were given horses to take care of brought their horses for inspection. But, Tenali Raman did not bring his horse. On being questioned, he answered that his horse had become so strong that he could not bring it to the court. The king was surprised on hearing this. He said, “Alright, I will send my chief inspector to your house tomorrow morning at nine to inspect the horse there.” Tenali agreed.
 The next morning, the chief inspector went to Tenali’s house. He had a long beard. Tenali took him to the room where the horse was kept and asked him to look through the window. When the inspector peeped through the window, naturally his beard went in through the window first. Seeing the beard, the horse thought that it must be straw that was being given to him at the fixed time. It caught hold of the beard in his teeth and pulled. The inspector shouted in pain and tried to pull his beard back. But the horse knew that this was the only food he would get all day and pulled with all his might till the inspector lost his beard.
@@ -140,7 +137,7 @@ Tenali drank all the milk himself.`
       data: {
         title: 'Who will Bell the Cat',
         img: {
-          url: 'story/18_cat_with_bell.png'
+          url: 'story/18_cat_with_bell.jpg'
         },
         text: `Once, a huge number of mice lived in a grocer’s shop. They ate the fresh and tasty wheat, rice, bread, cheese, and biscuits that were kept in the shop. They were having a great time and living easy, comfortable lives, growing fatter day by day.
 But, the grocer was concerned about the loss that he was suffering, because of the damage done to his stock by the mice. So, he thought of a solution and bought a big, fat cat to keep in his shop.

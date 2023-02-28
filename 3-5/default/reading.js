@@ -8,6 +8,42 @@ export default {
   list: [
     {
       id: '100',
+      type: 'slides2',
+      label: `A Thirsty Crow`,
+      data: {
+        title: `A Thirsty Crow`,
+        displayType: 'steps',
+        autoPlay: false,
+        audio: 'kg-5/reading/thirsty-crow.mp3',
+        images: 'img/story/crow',
+        audioOffsets: [
+          5.5, 8.5, 12, 15.5, 20, 23.5, 26.5, 30.5, 36.5, 38.5, 42, 44, 49, 54,
+          57, 58.5, 64
+        ],
+        imageArr: [1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 1],
+        steps: [
+          `One hot day, a thirsty crow flew all over the fields looking for water. 
+For a long time, he could not find any. 
+He felt very weak, almost lost all hope.
+Suddenly, he saw a water jug below the tree. 
+He flew straight down to see if there was any water inside. 
+Yes, he could see some water inside the jug!
+The crow tried to push his head into the jug. 
+Sadly, he found that the neck of the jug was too narrow. 
+Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
+The crow thought hard for a while. 
+Then, looking around it, he saw some pebbles. 
+He suddenly had a good idea. 
+He started picking up the pebbles one by one, dropping each into the jug. 
+As more and more pebbles filled the jug, the water level kept rising. 
+Soon it was high enough for the crow to drink. 
+His plan had worked! 
+The crow drank the water happily and flew in the sky singing his favorite song.`
+        ]
+      }
+    } /*
+    {
+      id: '100',
       type: 'passage',
       label: 'A Thirsty Crow',
       data: {
@@ -22,6 +58,7 @@ The crow thought hard for a while. Then, looking around it, he saw some pebbles.
         moral: 'Moral: Think smart, you may find a solution to any problem.'
       }
     },
+    */,
     {
       id: '200',
       type: 'passage',
@@ -233,9 +270,6 @@ Hearing this, the thieves fell at Tenali’s feet asking for forgiveness. They p
       label: 'Tenali Raman and the Horse',
       data: {
         title: 'Tenali Raman and the Horse',
-        img: {
-          url: 'story/16_horse.png'
-        },
         text: `Once, the King wanted to expand his army. So, he needed more horses. He decided to give one horse to each person in his kingdom to take care of. He also gave everyone a good supply of straw to feed the horse. Everyone except Tenali Rama was not happy with this plan. He shut his horse in one room and everyday at exactly nine o’clock he gave the horse very little straw through the window. He gave the remaining straw to his cows that became fat and healthy.
 At the end of a year, the king wanted to see all his horses. All the people who were given horses to take care of  brought their horses for inspection. But, Tenali Rama did not bring his horse. On being questioned, he answered that his horse had become so strong that he could not bring it to the court. The king was surprised on hearing this. He said, “Alright, I will send my chief inspector to your house tomorrow morning at nine to inspect the horse there.” Tenali agreed.
 The next morning, the chief inspector went to Tenali’s house. He had a long beard. Tenali took him to the room where the horse was kept and asked him to look through the window. When the inspector peeped through the window, naturally his beard went in through the window first. Seeing the beard, the horse thought that it must be straw that was being given to him at the fixed time. It caught hold of the beard in his teeth and pulled. The inspector shouted in pain and tried to pull his beard back. But the horse knew that this was the only food he would get all day and pulled with all his might till the inspector lost his beard.
