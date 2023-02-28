@@ -41,12 +41,10 @@ In knitting, a single yarn is used to make a piece of fabric. Socks and many oth
           dashWidth: 80
         },
         text: `Fabrics are made from *yarns*, which in turn are made from *fibres*.
-Fibres are either *natural* or synthetic. 
-Cotton, wool, silk and jute are some *natural* fibres. Nylon and polyester are some examples of *synthetic* fibres.
+Cotton, wool, silk and jute are some *natural* fibres. 
+Nylon and polyester are some examples of *synthetic* fibres.
 Fibres like cotton and jute are obtained from *plants*.
-Wool and silk are obtained from *animals*.
-The process of making yarn from fibres is called *spinning*.
-Fabric from yarns is made by *weaving* and knitting.`
+Wool and silk are obtained from *animals*.`
       }
     },
     {

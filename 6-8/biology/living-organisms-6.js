@@ -13,8 +13,8 @@ Organisms of various kinds are seen in each habitat be it cold, hot, dry or humi
 
 # Habitat and Adaptation
 In the sea, plants and animals are surrounded by saline or salty water. These organisms use air dissolved in water. In a desert, very little water is available, it is very hot during the day and very cold at night. The animals and plants live on desert soil and breathe air from the surroundings. 
-The presence of specific features or certain habits, which enable an organism to live naturally in a place is called *adaptation*. Adaptation of organisms differ depending on their place of dwelling. The place where organisms live is called *habitat*. The plants and animals that live on land are said to live in *terrestrial habitats*.The habitat of plants and animals that live in water are called *aquatic habitats*.
-The organisms, both plants and animals, living in a habitat are its *biotic components*. The non-living things such as rocks, soil, air and water in the habitat constitute its *abiotic components*. Abiotic factors like air, water, light and heat are important for all living organisms.
+The presence of specific features or certain habits, which enable an organism to live naturally in a place is called adaptation. Adaptation of organisms differ depending on their place of dwelling. The place where organisms live is called habitat. The plants and animals that live on land are said to live in terrestrial habitats. The habitat of plants and animals that live in water are called aquatic habitats.
+The organisms, both plants and animals, living in a habitat are its biotic components. The non-living things such as rocks, soil, air and water in the habitat constitute its abiotic components. Abiotic factors like air, water, light and heat are important for all living organisms.
 
 # Characteristics of Organisms
 
@@ -22,7 +22,7 @@ The organisms, both plants and animals, living in a habitat are its *biotic comp
 2. All living organisms show growth.
 3. All living organisms respire.
 4. All living organisms respond to stimuli. Changes in our surroundings that makes us respond to them, are called stimuli.
-5. All living organisms excrete. he process of getting rid of wastes by organisms is known as excretion.
+5. All living organisms excrete. The process of getting rid of wastes by organisms is known as excretion.
 6. All living organisms reproduce. Living things produce more of their own kind through reproduction.
 7. All living organisms show some kind of movement. Plants are generally anchored in soil so they do not move from one place to another. However, various substances like water, minerals and the food synthesised by them move from one part of the plant to other. `,
         title: 'Living Organisms'
