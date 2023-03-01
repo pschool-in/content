@@ -49,7 +49,7 @@ A newborn baby is as *weak* as a kitten. He can't even hold his head up.`,
 
         `Suresh is a very polite student. He is as *sweet* as pie!
 The soldier was as *tough* as nails. He survived in the forest for days.
-Madhu is as *clever* as a fox. she is sly!
+Madhu is as *clever* as a fox. She is sly!
 My grandmother is as *old* as the hills. She is 97 now!
 Jaswanth's as *strong* as an ox. He moved the table all by himself.`,
 
