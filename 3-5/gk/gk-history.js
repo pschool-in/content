@@ -13,7 +13,7 @@ export default {
           {
             type: 'hilight',
             text: `Aryabhatta - First Satellite
-Apsara - First Nuclear Reactor
+Apsara - First Nuclear Reactor
 Rabindranath Tagore - First Indian to win Nobel Prize
 C.V Raman  - First Indian to get Nobel prize award in Physics
 Dr. Rajendra Prasad - First President of India
@@ -24,7 +24,7 @@ Sardar Vallabhbhai Patel - First Home Minister of India`
             type: 'hilight',
             text: `Jawaharlal Nehru - First Prime Minister of India
 Rakesh Sharma - India’s first man to go in Space
-Mrs. Kiran Bedi -  First woman IPS officer of India
+Mrs. Kiran Bedi -  First woman IPS officer of India
 Mrs. Indira Gandhi - First woman Prime Minister of India
 Kalpana Chawla - First Indian woman to go in space
 Pratibha Devisingh Patil - First woman president of India`
@@ -120,18 +120,18 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
         text: [
           {
             type: 'hilight',
-            text: `12 January   - National Youth Day 
-26 January  - Republic Day 
-28 February  - National Science Day 
-15 August - Independence Day
-5 September  - Teachers Day `
+            text: `12 January   - National Youth Day 
+26 January  - Republic Day 
+28 February  - National Science Day 
+15 August - Independence Day
+5 September  - Teachers Day `
           },
           {
             type: 'hilight',
-            text: `14 November  - Children’s Day
-7 December  - Indian Armed Force Flag Day
-2 October  - Gandhi Jayanthi
-29 August - National Sports Day `
+            text: `14 November  - Children’s Day
+7 December  - Indian Armed Force Flag Day
+2 October  - Gandhi Jayanthi
+29 August - National Sports Day `
           }
         ]
       }
@@ -141,10 +141,10 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
       label: 'Match the following',
       type: 'match',
       data: {
-        text: `12 January, National Youth Day
+        text: `12 January, National Youth Day
 26 January, Republic Day
 28 February, National Science Day
-15 August, Independence Day
+15 August, Independence Day
 5 September, Teachers Day`,
         title: 'Match the following with its correct one'
       }
@@ -158,11 +158,11 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
         questions: [
           {
             qText: 'When is the Children’s Day?',
-            options: '14 November, 15 August, 12 June'
+            options: '14 November, 15 August, 12 June'
           },
           {
             qText: 'When is the Indian Armed Force Flag Day?',
-            options: '7 December, 28 February, 29 August'
+            options: '7 December, 28 February, 29 August'
           },
           {
             qText: 'When is the Gandhi Jayanthi? ',
@@ -170,7 +170,7 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
           },
           {
             qText: 'When is the National Sports Day?',
-            options: '29 August, 30 August, 31 August'
+            options: '29 August, 30 August, 31 August'
           }
         ]
       }
@@ -196,14 +196,14 @@ Mrs.Indira Gandhi is the second woman Prime Minister of India.`
         types: [
           {
             name: 'True',
-            text: `15 August is the Independence Day.
+            text: `15 August is the Independence Day.
 26 January is the Republic Day.
-29 August is the National Sports Day.`
+29 August is the National Sports Day.`
           },
           {
             name: 'False',
             text: `2 October is Mahaveer Jayanthi.
-12 January is World Dinosaurs Day.`
+12 January is World Dinosaurs Day.`
           }
         ]
       }

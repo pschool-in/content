@@ -17,33 +17,27 @@ export default {
         {
           steps: [
             {
-              text:
-                'Mahatma Gandhi is called the father of our nation. He led the country in our Freedom Struggle.',
+              text: 'Mahatma Gandhi is called the father of our nation. He led the country in our Freedom Struggle.',
               img: 'MahatmaGandhi'
             },
             {
-              text:
-                'Jawaharlal Nehru was a freedom fighter and the first Prime Minister of India.',
+              text: 'Jawaharlal Nehru was a freedom fighter and the first Prime Minister of India.',
               img: 'Nehru'
             },
             {
-              text:
-                'Sardar Vallabhbhai Patel was a freedom fighter and the first Home Minister of India. He is known as Iron Man of India.',
+              text: 'Sardar Vallabhbhai Patel was a freedom fighter and the first Home Minister of India. He is known as Iron Man of India.',
               img: 'VallabhbhaiPatel'
             },
             {
-              text:
-                'Ambedkar was the first law minister of India. He headed the committee that wrote the constitution of India.',
+              text: 'Ambedkar was the first law minister of India. He headed the committee that wrote the constitution of India.',
               img: 'Ambedkar'
             },
             {
-              text:
-                'Rajendra Prasad was a freedom fighter and the first President of India.',
+              text: 'Rajendra Prasad was a freedom fighter and the first President of India.',
               img: 'RajendraPrasad'
             },
             {
-              text:
-                'Subhas Chandra Bose is widely called as Netaji. He was a freedom fighter and found Indian National Army before independence.',
+              text: 'Subhas Chandra Bose is widely called as Netaji. He was a freedom fighter and found Indian National Army before independence.',
               img: 'SubhasChandraBose'
             }
           ]
@@ -51,33 +45,27 @@ export default {
         {
           steps: [
             {
-              text:
-                'Abdul Kalam was an aerospace scientist. He is known as Missile Man of India. ',
+              text: 'Abdul Kalam was an aerospace scientist. He is known as Missile Man of India. ',
               img: 'Kalam'
             },
             {
-              text:
-                'Rabindranath Tagore was a famous bengali poet. He is the author of our National Anthem.',
+              text: 'Rabindranath Tagore was a famous bengali poet. He is the author of our National Anthem.',
               img: 'Tagore'
             },
             {
-              text:
-                'Swami Vivekananda was a social reformer and philosopher. His birthday (12th Jan) is celebrated as National Youth Day.',
+              text: 'Swami Vivekananda was a social reformer and philosopher. His birthday (12th Jan) is celebrated as National Youth Day.',
               img: 'SwamiVivekananda'
             },
             {
-              text:
-                'Mother Teresa founded the Missionaries of Charity and helped the homeless and sick people. She was given the Nobel Prize for Peace.',
+              text: 'Mother Teresa founded the Missionaries of Charity and helped the homeless and sick people. She was given the Nobel Prize for Peace.',
               img: 'MotherTeresa'
             },
             {
-              text:
-                'Atal Bihari Vajpayee was a former Prime Minister of India.',
+              text: 'Atal Bihari Vajpayee was a former Prime Minister of India.',
               img: 'Vajpayee'
             },
             {
-              text:
-                'Indira Gandhi was the first Woman Prime Minister of India.',
+              text: 'Indira Gandhi was the first Woman Prime Minister of India.',
               img: 'IndiraGandhi'
             }
           ]
@@ -85,33 +73,27 @@ export default {
         {
           steps: [
             {
-              text:
-                'Vikram Sarabhai is an Astronomer and regarded as the Father of Indian Space Program.',
+              text: 'Vikram Sarabhai is an Astronomer and regarded as the Father of Indian Space Program.',
               img: 'VikramSarabhai'
             },
             {
-              text:
-                'Sir C.V. Raman was an Indian Physicist who studied on light scattering. He won the Nobel Prize in Physics in 1930.',
+              text: 'Sir C.V. Raman was an Indian Physicist who studied on light scattering. He won the Nobel Prize in Physics in 1930.',
               img: 'CVRaman'
             },
             {
-              text:
-                'Bhagat Singh was a hero of the Indian Freedom movement. He was an Indian socialist and a revolutionary.',
+              text: 'Bhagat Singh was a hero of the Indian Freedom movement. He was an Indian socialist and a revolutionary.',
               img: 'BhagatSingh'
             },
             {
-              text:
-                'Dhyan Chand was one of the greatest Indian hockey player. His birthday, 29th August, is celebrated as National Sports Day. He helped India earn 3 Olympic gold medals.',
+              text: 'Dhyan Chand was one of the greatest Indian hockey player. His birthday, 29th August, is celebrated as National Sports Day. He helped India earn 3 Olympic gold medals.',
               img: 'DhyanChand'
             },
             {
-              text:
-                'C. Subramaniya Bharathi was a Tamil poet, freedom fighter,social reformer and a journalist.',
+              text: 'C. Subramaniya Bharathi was a Tamil poet, freedom fighter,social reformer and a journalist.',
               img: 'Bharathi'
             },
             {
-              text:
-                'Srinivasa Ramanujam is considered to be one of the most talented mathematicians in recent history. His birthday December 22, is celebrated as National Mathematics Day.',
+              text: 'Srinivasa Ramanujam is considered to be one of the most talented mathematicians in recent history. His birthday December 22, is celebrated as National Mathematics Day.',
               img: 'Ramanujam'
             }
           ]
@@ -121,7 +103,7 @@ export default {
     {
       type: 'dragDropImgLabel',
       label: 'Drag and Drop',
-      id: 'drag-fruits',
+      id: 'drag-drop-leaders',
       commonData: {
         title: 'Drag the names and drop on the images.',
         path: 'img/social/leaders'

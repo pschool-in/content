@@ -134,10 +134,11 @@ The light in my room was *as* *bright* *as* *the* *sun*.`
       commonData: {
         title: 'Match the related words that form a simile'
       },
-      data: [`as smart,  as a fox
+      data: [
+        `as smart,  as a fox
 as quick, as a cat
-tough as nails
-cry like a baby
+as tough, as nails
+cry like, a baby
 as clear,  as crystal`,
 
         `run, like the wind

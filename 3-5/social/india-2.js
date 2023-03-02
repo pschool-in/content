@@ -103,67 +103,56 @@ Ashoka Chakra, 24 Spokes`
         {
           steps: [
             {
-              text:
-                'Mahatma Gandhi is called the father of our nation. He led the country in our Freedom Struggle.',
-              img: 'Mahatma Gandhi'
+              text: 'Mahatma Gandhi is called the father of our nation. He led the country in our Freedom Struggle.',
+              img: 'MahatmaGandhi'
             },
             {
-              text:
-                'Jawaharlal Nehru was a freedom fighter and the first Prime Minister of India.',
-              img: 'Jawaharlal Nehru'
+              text: 'Jawaharlal Nehru was a freedom fighter and the first Prime Minister of India.',
+              img: 'Nehru'
             },
             {
-              text:
-                'Sardar Vallabhbhai Patel was a freedom fighter and the first Home Minister of India. He is known as Iron Man of India.',
-              img: 'Sardar Vallabhbhai Patel'
+              text: 'Sardar Vallabhbhai Patel was a freedom fighter and the first Home Minister of India. He is known as Iron Man of India.',
+              img: 'VallabhbhaiPatel'
             },
             {
-              text:
-                'Ambedkar was the first law minister of India. He headed the committee that wrote the constitution of India.',
+              text: 'Ambedkar was the first law minister of India. He headed the committee that wrote the constitution of India.',
               img: 'Ambedkar'
             },
             {
-              text:
-                'Rajendra Prasad was a freedom fighter and the first President of India.',
-              img: 'Rajendra Prasad'
+              text: 'Rajendra Prasad was a freedom fighter and the first President of India.',
+              img: 'RajendraPrasad'
             },
             {
-              text:
-                'Subhas Chandra Bose is widely called as Netaji. He was a freedom fighter and found Indian National Army before independence.',
-              img: 'Subhas Chandra Bose'
+              text: 'Subhas Chandra Bose is widely called as Netaji. He was a freedom fighter and found Indian National Army before independence.',
+              img: 'SubhasChandraBose'
             }
           ]
         },
         {
           steps: [
             {
-              text:
-                'Abdul Kalam was an aerospace scientist. He is known as Missile Man of India. ',
-              img: 'Abdul Kalam'
+              text: 'Abdul Kalam was an aerospace scientist. He is known as Missile Man of India. ',
+              img: 'Kalam'
             },
             {
-              text:
-                'Rabindranath Tagore was a famous bengali poet. He is the author of our National Anthem.',
-              img: 'Rabindranath Tagore'
+              text: 'Rabindranath Tagore was a famous bengali poet. He is the author of our National Anthem.',
+              img: 'Tagore'
             },
             {
-              text:
-                'Swami Vivekananda was a social reformer and philosopher. His birthday (12th Jan) is celebrated as National Youth Day.',
-              img: 'Swami Vivekananda'
+              text: 'Swami Vivekananda was a social reformer and philosopher. His birthday (12th Jan) is celebrated as National Youth Day.',
+              img: 'SwamiVivekananda'
             },
             {
-              text:
-                'Mother Teresa founded the Missionaries of Charity and helped the homeless and sick people. She was given the Noble Prize for Peace.',
-              img: 'Mother Teresa'
+              text: 'Mother Teresa founded the Missionaries of Charity and helped the homeless and sick people. She was given the Noble Prize for Peace.',
+              img: 'MotherTeresa'
             },
             {
-              text:
-                'Atal Bihari Vajpayee was a former Prime Minister of India.',
-              img: 'Atal Bihari Vajpayee'
+              text: 'Atal Bihari Vajpayee was a former Prime Minister of India.',
+              img: 'Vajpayee'
             },
             {
               text: 'Indira Gandhi was the first lady Prime Minister of India.',
-              img: 'Indira Gandhi'
+              img: 'IndiraGandhi'
             }
           ]
         }
@@ -172,25 +161,25 @@ Ashoka Chakra, 24 Spokes`
     {
       type: 'dragDropImgLabel',
       label: 'Drag and Drop',
-      id: 'drag-fruits',
+      id: 'drag-drop-leaders',
       commonData: {
         title: 'Drag the names and drop on the images.',
         path: 'img/social/leaders'
       },
       data: [
-        `Mahatma Gandhi
-Jawaharlal Nehru
-Sardar Vallabhbhai Patel
-Ambedkar
-Rajendra Prasad
-Subhas Chandra Bose`,
+        `MahatmaGandhi | Mahatma Gandhi
+Nehru | Jawaharlal Nehru
+VallabhbhaiPatel | Sardar Vallabhbhai Patel
+Ambedkar | Ambedkar
+RajendraPrasad | Rajendra Prasad
+SubhasChandraBose | Subhas Chandra Bose`,
 
-        `Abdul Kalam
-Rabindranath Tagore
-Swami Vivekananda
-Mother Teresa
-Atal Bihari Vajpayee
-Indira Gandhi`
+        `Kalam | Abdul Kalam
+Tagore | Rabindranath Tagore
+SwamiVivekananda | Swami Vivekananda
+MotherTeresa | Mother Teresa
+Vajpayee | Atal Bihari Vajpayee
+IndiraGandhi | Indira Gandhi`
       ]
     },
     {
@@ -198,35 +187,31 @@ Indira Gandhi`
       id: 'mcq',
       type: 'mcq',
       commonData: {
-        optionImages: 'img/social/leaders'
+        optionImages: 'social/leaders'
       },
       data: [
         {
           questions: [
             {
               qText: 'Who was given the Nobel Prize for Peace?',
-              options:
-                'Mother Teresa, Atal Bihari Vajpayee, Swami Vivekananda, Rabindranath Tagore'
+              options: 'MotherTeresa, Vajpayee, SwamiVivekananda, Tagore'
             },
             {
               qText: 'Whose birthday is celebrated as National Youth Day?',
-              options:
-                'Swami Vivekananda, Sardar Vallabhbhai Patel, Ambedkar, Jawaharlal Nehru'
+              options: 'SwamiVivekananda, VallabhbhaiPatel, Ambedkar, Nehru'
             },
             {
               qText: 'Who is called the father of our nation?',
               options:
-                'Mahatma Gandhi, Jawaharlal Nehru, Subhas Chandra Bose, Sardar Vallabhbhai Patel'
+                'MahatmaGandhi, Nehru, SubhasChandraBose, VallabhbhaiPatel'
             },
             {
               qText: 'Who was the first President of India?',
-              options:
-                'Rajendra Prasad, Abdul Kalam, Atal Bihari Vajpayee, Jawaharlal Nehru'
+              options: 'RajendraPrasad, Kalam, Vajpayee, Nehru'
             },
             {
               qText: 'Who was the first Prime Minister of India?',
-              options:
-                'Jawaharlal Nehru, Subhas Chandra Bose, Sardar Vallabhbhai Patel, Atal Bihari Vajpayee'
+              options: 'Nehru, SubhasChandraBose, VallabhbhaiPatel, Vajpayee'
             }
           ]
         },
@@ -234,29 +219,25 @@ Indira Gandhi`
           questions: [
             {
               qText: 'Who is called the Missile Man of India?',
-              options:
-                'Abdul Kalam, Atal Bihari Vajpayee, Mother Teresa, Jawaharlal Nehru'
+              options: 'Kalam, Vajpayee, MotherTeresa, Nehru'
             },
             {
               qText: 'Who is called the Iron Man of India?',
-              options:
-                'Sardar Vallabhbhai Patel, Atal Bihari Vajpayee, Ambedkar, Rajendra Prasad'
+              options: 'VallabhbhaiPatel, Vajpayee, Ambedkar, RajendraPrasad'
             },
             {
               qText:
                 'Who headed the committee that wrote the constitution of India?',
-              options:
-                'Ambedkar, Mother Teresa, Indira Gandhi, Jawaharlal Nehru'
+              options: 'Ambedkar, MotherTeresa, IndiraGandhi, Nehru'
             },
             {
               qText: 'Who is called the Netaji?',
               options:
-                'Subhas Chandra Bose, Indira Gandhi, Ambedkar, Rajendra Prasad'
+                'SubhasChandraBose, IndiraGandhi, Ambedkar, RajendraPrasad'
             },
             {
               qText: 'Who wrote our National Anthem?',
-              options:
-                'Rabindranath Tagore, Mother Teresa, Indira Gandhi, Jawaharlal Nehru'
+              options: 'Tagore, MotherTeresa, IndiraGandhi, Nehru'
             }
           ]
         }
