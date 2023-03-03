@@ -38,7 +38,7 @@ Determiners include the following:
       },
     },
     {
-      id: "fill-up",
+      id: "fill-up-12",
       label: "Complete the Paragraph",
       type: "fillup",
       commonData: {
@@ -51,7 +51,7 @@ Determiners include the following:
       ],
     },
     {
-      id: "fill-up",
+      id: "fill-up-11",
       label: "Articles as Determiners",
       type: "fillup",
       commonData: {
@@ -66,7 +66,7 @@ Determiners include the following:
       ],
     },
     {
-      id: "fill-up",
+      id: "fill-up-10",
       label: "Demonstrative Determiners",
       type: "fillup",
       commonData: {
@@ -94,7 +94,7 @@ I lost *my (their)* pet dog, Holly. Have you seen it? It has a scar on *its (his
         title:
           "Fill in the blanks using suitable possessive adjectives. Some nouns have been given in brackets for reference.",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `This is *their* house. (Mrs and Mr Mehta's)
 I thought *my* water bottle was Lost. (I)
@@ -134,7 +134,7 @@ There was *a good deal of* moisture in the room.`,
         noOptions: true,
         title: "Fill in the blanks using a few, very few or little.",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `Only *a few* villages have remained the same with the arrival of the internet. But *little* change has come to my village in the past decade, even with the arrival of the internet. Most of the time there is no electricity.`,
 
@@ -149,7 +149,6 @@ There was *a good deal of* moisture in the room.`,
         noOptions: true,
         title: "Fill in the blanks using some or any.",
       },
-      lockAfter: 2,
       data: [
         `Ashly: Do you have *any* money on you, Tom?
 Tom: I have *some* money. What do you want to buy?
@@ -218,7 +217,7 @@ As there is *a* shortage of essential medicines, please send them immediately to
         noOptions: true,
         title: "Use suitable determiners and fill in the blanks.",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `Ricky: Is this *your* first visit to *the* city?
 Ben: No, it is *my* second trip. I was here a few years ago.
@@ -240,7 +239,7 @@ Ben: He lives near *the* International Airport.`,
         title:
           "Fill in the blanks using the following determiners. (the, a, more, few, most, some, all, such, this, what)",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `*What* kind of pencil do you use? Do you use *a* pencil made of wood? Have you wondered why *most* pencils have six sides and a *few* pencils are rounded? *Most* pencils are made of wood. They can make *more* six-sided pencils out of one piece of wood than rounded pencils.`,
 
@@ -256,7 +255,7 @@ Ben: He lives near *the* International Airport.`,
         title:
           "Fill in the blanks using the following determiners. (the, this, a, that, a few, a, some, every, the, any, an,)",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `There are *a few* girls who have not brought their costumes for the play.
 We have *every* document you asked for.
@@ -282,7 +281,7 @@ Mihika forgot to bring *her* spectacles to work.`,
         title:
           "Fill in the blanks with 'few, a few, the few, little, a little, the little'",
       },
-      lockAfter: 2,
+      lockAfter: 1,
       data: [
         `He has only *a few* friends.
 *The few* friends he has are really faithful to him.
