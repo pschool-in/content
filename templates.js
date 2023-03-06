@@ -142,7 +142,6 @@ export const templates = [
     label: 'Fillup with Options - Template',
     type: 'fillup',
     id: 'fillup-fixed-options',
-
     data: {
       title: `Fill in the blanks with proper article`,
       text: `Picasso was *an* artist.
@@ -267,6 +266,14 @@ export const templates = [
   Sometimes he behave like a fool.`
         }
       ]
+    }
+  },
+  {
+    label: 'Wordle',
+    type: 'wordle',
+    id: 'wordle',
+    data: {
+      text: 'APPLE'
     }
   }
 ];
