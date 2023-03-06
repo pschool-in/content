@@ -51,11 +51,11 @@ Adverbial Phrases replace the adverb with a phrase that acts as an adverb. Adver
             text: `<b>Example</b> - I met Priya <b>before she started her new job</b>`,
           },
           `# Order of adverbials
-If there is more than one adverbial after a verb, then their order will be:-`,
+If there is more than one adverbial after a verb, then their order will be:-
+adverbs of manner -> place -> frequency -> time -> purpose`,
           {
             type: "html",
-            text: `<b>adverbs of manner</b> -> <b>place</b> -> <b>frequency</b> -> <b>time</b> -> <b>purpose</b>
-  <b>Example</b>- He prayed <b>fervently</b> (manner) <b>at the church</b> (place) <b>yesterday</b> (time).`,
+            text: `<b>Example</b>- He prayed <b>fervently</b> (manner) <b>at the church</b> (place) <b>yesterday</b> (time).`,
           },
         ],
       },
@@ -148,6 +148,7 @@ My uncle is moving to Stockholm soon.`,
       lockAfter: 1,
       commonData: {
         title: "Identify the adverbial clause in the sentence",
+        multiSelect: true,
       },
       data: [
         `*After the crop is harvested*, it is sold in the market.
@@ -179,6 +180,7 @@ He does not work *as hard as you think*.`,
       lockAfter: 1,
       commonData: {
         title: "Identify the adverbial phrase in the sentence.",
+        multiSelect: true,
       },
       data: [
         `We have to finish this assignment *before the holidays*.
@@ -248,46 +250,54 @@ He does not work *as hard as you think*.`,
       ],
     },
     {
+      id: "yes-no-2",
+      label: "Order of Adjectives",
+      type: "classifySentence",
+      data: {
+        title: "Is the order of adverbs correct in the following sentences?",
+        types: [
+          {
+            name: "Yes",
+            text: ` He prayed fervently at the church yesterday.
+Priya swims enthusiastically in the pool every morning before dawn to stay fit.
+You start off slowly in the beginning.
+She plays the piano really well. I've heard her.`,
+          },
+          {
+            name: "No",
+            text: `He frevently prayed yesterday at the church.
+Priya enthusiastically swims every morning in the pool to stay fit before dawn.
+You start off in the begening slowly.
+She plays very well the piano. I've heard her.`,
+          },
+        ],
+      },
+    },
+    {
+      id: "phrase-clause",
       label: "Phrase or Clause",
       type: "classifySentence",
-      id: "phrase-clause",
-      commonData: {
+      data: {
         title:
           "Classify the following sentences based on the presence of adverbial phrases or adverbial clauses.",
-        types: ["Phrase", "Clause"],
-      },
-      data: [
-        `She stood on the bridge.
+        types: [
+          {
+            name: "Phrase",
+            text: ` She stood on the bridge.
 I buy at least two dresses every month.
 She goes on holiday twice a year.
 Tina bought a lovely gift for her husband.
 Rahul saved money to buy a car.`,
-
-        `After the crop is harvested, it is sold in the market.
+          },
+          {
+            name: "Clause",
+            text: `After the crop is harvested, it is sold in the market.
 Don't disturb her when she is singing.
 I will follow you wherever you go.
 She has hidden the box where it cannot be found.`,
-      ],
-    },
-    {
-      label: "Order of Adverbs",
-      type: "classifySentence",
-      id: "yes-no-2",
-      commonData: {
-        title: "Is the order of adverbs correct in the following sentences?",
-        types: ["Yes", "No"],
+          },
+        ],
       },
-      data: [
-        `He prayed fervently at the church yesterday.
-Priya swims enthusiastically in the pool every morning before dawn to stay fit.
-You start off slowly in the beginning.
-She plays the piano really well. I've heard her.`,
-
-        `He frevently prayed yesterday at the church.
-Priya enthusiastically swims every morning in the pool to stay fit before dawn.
-You start off in the begening slowly.
-She plays very well the piano. I've heard her.`,
-      ],
     },
   ],
 };
