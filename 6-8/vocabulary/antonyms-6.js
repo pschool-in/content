@@ -25,7 +25,7 @@ boisterous, quiet
 deteriorate, upgrade`,
 
       `drastic, mild
-consent, modern
+consent, dissent
 primitive, soothe
 provoke, fickle
 propel, retreat
@@ -118,7 +118,7 @@ deteriorat e× upgrade`
           {
             type: 'hilight',
             text: `drastic × mild
-consent × modern
+consent × dissent
 primitive × soothe
 provoke × fickle
 propel × retreat

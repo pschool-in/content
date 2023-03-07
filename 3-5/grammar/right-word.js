@@ -251,9 +251,9 @@ This is the school *where* my sisters studied.`,
       type: 'fillup',
       data: {
         title: 'this vs those',
-        text: `*This* is the house that my father built.
-*Those* horses belong to the zamindar.
-*This* blue pen is mine.
+        text: `*This (Those)* is the house that my father built.
+*Those (This)* horses belong to the zamindar.
+*This (Those)* blue pen is mine.
 Please water *those* plants before they die!
 Why are *those* girls laughing?`,
         options: 'this, those'

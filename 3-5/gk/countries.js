@@ -188,7 +188,7 @@ Bahrain| Manama
 Belgium| Brussels
 Czech Republic| Prague
 Portugal| Lisbon
-South Africa| Cape Town`,
+South Africa| CapeTown`,
 
         `Russia| Moscow
 Saudi Arabia| Riyadh

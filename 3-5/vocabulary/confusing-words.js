@@ -130,7 +130,7 @@ I can't *hear* you. You're mumbling.`,
       data: {
         title: 'thorough vs through',
         text: `The doctor made a *thorough* study of the lab reports and pronounced the patient fit.
-Shilpa searched *thoroughly*, but couldn't find the letter.
+Shilpa searched *thoroughly (throughly)*, but couldn't find the letter.
 The tiger walked stealthily *through* the forest, stalking its prey.
 When you are *through* eating, don't forget to take your medicine.
 *Through (Thorough)* the dentist appointment, I kept my eyes closed!`,
