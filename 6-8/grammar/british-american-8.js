@@ -30,12 +30,12 @@ a) Most words ending in -our in British English are spelled without the u in Ame
             type: "html",
             text: `humo<b>u</b>r/humor, behavio<b>u</b>r/behavior, etc.`,
           },
-          `    b) Most words ending in -re in British English are spelled with -er in American English`,
+          `b) Most words ending in -re in British English are spelled with -er in American English`,
           {
             type: "html",
             text: `cent<b>re</b>/cent<b>er</b>, lit<b>re</b>/lit<b>er</b>, etc.`,
           },
-          `    c) Many British English verbs ending in -ise are spelled with -ize in American English `,
+          `c) Many British English verbs ending in -ise are spelled with -ize in American English `,
           {
             type: "html",
             text: `reali<b>s</b>e/reali<b>z</b>e, organi<b>s</b>e/organi<b>z</b>e, etc.`,
@@ -59,7 +59,7 @@ anyplace, anywhere
 fall, autumn
 bill, bank note`,
 
-        `attorney,barrister/solicitor
+        `attorney,barrister
 cookie, biscuit
 hood, bonnet
 trunk, boot`,
@@ -88,7 +88,7 @@ vacuum cleaner, hoover`,
 
         `sick, ill
 intermission, interval
-sweater, jumper/pullover
+sweater, jumper
 pitcher, jug
 elevator, lift`,
 
@@ -99,7 +99,7 @@ highway, main road`,
 
         `corn, maize
 diaper, nappy
-vicious/mean, nasty
+vicious, nasty
 noplace, nowhere
 optometrist, optician`,
 
@@ -121,7 +121,6 @@ store, shop
 wrench, spanner`,
 
         `faculty, staff 
-dessert, sweet
 candy, sweets
 faucet, tap
 cab, taxi`,
