@@ -1,5 +1,5 @@
 export default {
-  id: 'tenses-8',
+  id: 'tense-8',
   label: 'Tenses',
   lockAfter: 3,
   list: [

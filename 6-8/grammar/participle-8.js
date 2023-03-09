@@ -1,20 +1,20 @@
 export default {
-  id: "participles-8",
-  label: "Participles",
+  id: 'participle-8',
+  label: 'Participles',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "The Participles",
+        title: 'The Participles',
         text: [
           `# Participle
 A participle is a word that is formed from a verb and takes the nature of both a verb and an adjective.`,
           {
-            type: "html",
-            text: `Example - <b>Looking</b> at the snake, Maria screamed and sprang up out of his chair.`,
+            type: 'html',
+            text: `Example - <b>Looking</b> at the snake, Maria screamed and sprang up out of his chair.`
           },
           `In this sentence, 'looking' is the present participle (look+ing) which qualifies the noun 'Maria.' Hence it acts like an adjective. It is formed from a verb and also denotes the action of looking. Hence it acts as a verb too.
 1. Present Participle: It is formed by adding 'ing' to the original form of the main verb.
@@ -24,41 +24,41 @@ e.g.Having walked continuously, I am fully exhausted now.
 Having lost his wallet, he had to ask others for help.
 3. Past Participle: The third form of the verb is called a past participle.
 e.g. Frozen, loaded etc.
-Since the participle is a verb-adjective it must be attached to some noun or pronoun. It must always have a proper subject of reference.`,
-        ],
-      },
+Since the participle is a verb-adjective it must be attached to some noun or pronoun. It must always have a proper subject of reference.`
+        ]
+      }
     },
     {
-      id: "present-past",
-      label: "Present or Past",
-      type: "classifySentence",
+      id: 'present-past',
+      label: 'Present or Past',
+      type: 'classifySentence',
       data: {
         title:
-          "Classify the participle in the sentence as a present participle or past participle",
+          'Classify the participle in the sentence as a present participle or past participle',
         types: [
           {
-            name: "Present",
+            name: 'Present',
             text: `*Being* fully satisfied, they did not want to eat anymore.
 Reem felt quite ashamed on *getting* scolded by her favorite aunt.
-*Deluding* yourself, you can be happy for a short period in your life.`,
+*Deluding* yourself, you can be happy for a short period in your life.`
           },
           {
-            name: "Past",
+            name: 'Past',
             text: `Extremely *fascinated* by the view, Ram decided to settle there.
 Jake has a habit of keeping her things well *organised* all the time.
-Niki was highly *irritated* as Jake kept poking him.`,
-          },
-        ],
-      },
+Niki was highly *irritated* as Jake kept poking him.`
+          }
+        ]
+      }
     },
     {
-      id: "fillup-1",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fillup-1',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks in the following choosing the best alternative",
+          'Fill in the blanks in the following choosing the best alternative'
       },
       lockAfter: 1,
       data: [
@@ -72,15 +72,15 @@ I saw a woman *cross (having crossed, to cross, crossing)* the road.`,
 *Hit (Being hit, Having hit, Hitting)* by an arrow, the bird fell dead.
 I found him *drinking (drink, to drink, having drunk)*.
 The marriage *have been fixed (fixed, fixing, to fix)*, no change is possible now.
-You better *leave (to leave, leaving, having left) before Tarun arrives.`,
-      ],
+You better *leave (to leave, leaving, having left) before Tarun arrives.`
+      ]
     },
     {
-      id: "fill-up-2",
-      label: "Participles",
-      type: "fillup",
+      id: 'fill-up-2',
+      label: 'Participles',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using a suitable form of the participle of the verbs given in brackets.`,
+        title: `Fill in the blanks using a suitable form of the participle of the verbs given in brackets.`
       },
       data: [
         `Everybody worships the *risisng* (rise) idol Niki.
@@ -100,8 +100,8 @@ The rain came *pouring* (pour) down.
         `*Seeing* (See) the Principal, the students ran away. .
 *Having worked* (Work) hard, my sister got good marks.
 *Starving* (Starve) is better than *begging*(beg).
-*Reaching* (Reach) home, I asked my mother to make tea.`,
-      ],
-    },
-  ],
+*Reaching* (Reach) home, I asked my mother to make tea.`
+      ]
+    }
+  ]
 };

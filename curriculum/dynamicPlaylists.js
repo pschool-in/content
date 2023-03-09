@@ -468,7 +468,117 @@ export default {
           label: 'Gerund and Infinitive',
           id: 'gerund-infinitive',
           grade: '3-8'
+        },
+        // New addition for 6th to 8th
+
+        {
+          label: 'Determiners',
+          id: 'determiner-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Preposition',
+          id: 'preposition-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Sentence Analysis',
+          id: 'complement-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Auxillary Verbs',
+          id: 'auxiliary-verb-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Modals',
+          id: 'adverb-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Linking Verbs',
+          id: 'verb-8',
+          grade: '7-8'
+        },
+
+        {
+          label: 'Conjunction',
+          id: 'conjunction-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Clauses',
+          id: 'clause-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Participles',
+          id: 'participle-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Tenses',
+          id: 'tense-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Conditionals',
+          id: 'conditional-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Active and Passive Voice',
+          id: 'voice-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Direct and Indirect Speech',
+          id: 'speech-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Affixation',
+          id: 'affixation-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Homophones, Homographs, Homonyms',
+          id: 'homonyms-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Idioms',
+          id: 'idiom-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Punctuation',
+          id: 'punctuation-8',
+          grade: '7-8'
+        },
+        {
+          label: 'British and American English',
+          id: 'british-american-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Infinitives',
+          id: 'infinitive-8',
+          grade: '7-8'
+        },
+        {
+          label: 'Gerund',
+          id: 'gerund-8',
+          grade: '7-8'
         }
+        /*
+        {
+          label: '8th Misc Activities - 1',
+          id: 'misc-grammar-8-1',
+          grade: '7-8'
+        }
+        */
       ]
     },
     {

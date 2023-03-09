@@ -1,67 +1,67 @@
 export default {
-  id: "conjunctions-8",
-  label: "Conjunctions",
+  id: 'conjunction-8',
+  label: 'Conjunctions',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Conjunctions",
+        title: 'Conjunctions',
         text: [
           `# Conjunctions
 Conjunctions are used to join words, two sentences or two clauses. `,
           {
-            type: "html",
-            text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`,
+            type: 'html',
+            text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`
           },
           `# Coordinating Conjunctions
 The coordinating conjunctions are used to connect words, phrases and clauses of equal ranks. The coordinating conjunctions include: and, but, or, nor, for, yet, so, etc.
 1. And: It is used to combine two words, sentences or ideas.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I like to drink tea <b>and</b> coffee.`,
+            type: 'html',
+            text: `<b>Examples</b> - I like to drink tea <b>and</b> coffee.`
           },
           `2. But: It is used to connect to contrast ideas.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I am dancing, <b>but</b> she is singing.`,
+            type: 'html',
+            text: `<b>Examples</b> - I am dancing, <b>but</b> she is singing.`
           },
           `3. Or: It is used to express a choice between two things.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - You can eat it with a fork <b>or</b> a spoon.`,
+            type: 'html',
+            text: `<b>Examples</b> - You can eat it with a fork <b>or</b> a spoon.`
           },
           `4. Nor: It is used to combine two words or ideas both of which are to be negated.`,
           {
-            type: "html",
-            text: `<b>Examples</b> -  Roy is drinking neither tea <b>nor</b> coffee.`,
+            type: 'html',
+            text: `<b>Examples</b> -  Roy is drinking neither tea <b>nor</b> coffee.`
           },
           `6. Yet: It is used to express that something has not happened but you expect it to happen.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I am not very comfortable doing it <b>yet</b> I will try doing it.`,
+            type: 'html',
+            text: `<b>Examples</b> - I am not very comfortable doing it <b>yet</b> I will try doing it.`
           },
           `7. So: It is used as a conjunction of result or consequence.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`
+          }
+        ]
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fillup-drag",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
       lockAfter: 1,
       commonData: {
-        title: "Drag and drop the words at appropriate places",
+        title: 'Drag and drop the words at appropriate places',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 70,
-        },
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
       data: [
         `Joshua is intelligent *and* Jun is stupid.
@@ -75,17 +75,17 @@ My sister did not collect the clothes from the dry cleaner *nor* did she buy the
 
         `Niki had a lot of sweets to an extent that he could become sick, *yet* he says he can have more.
 The teacher did not ask for Mahira *but* Mahir.
-I met my friend at old street, *and* from there, we went to the light house together.`,
-      ],
+I met my friend at old street, *and* from there, we went to the light house together.`
+      ]
     },
     {
-      id: "fillup-1",
-      label: "Coordinating Conjunctions",
-      type: "fillup",
+      id: 'fillup-1',
+      label: 'Coordinating Conjunctions',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks using an appropriate coordinating conjunction.",
+          'Fill in the blanks using an appropriate coordinating conjunction.'
       },
       lockAfter: 2,
       data: [
@@ -105,8 +105,8 @@ Ritwik owns both a car *and* a motorbike.`,
 You should pay your fee before the due date *or* else you will have to pay the fine.
 There is no demand *for* this kind of mobiles, *so* we can't place an order now.
 He was angry, *yet* he said nothing.
-We can either walk *or* take a bus.`,
-      ],
-    },
-  ],
+We can either walk *or* take a bus.`
+      ]
+    }
+  ]
 };
