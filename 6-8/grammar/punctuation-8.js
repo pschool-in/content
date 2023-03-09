@@ -37,7 +37,7 @@ The game started out as an organized game of tag, but it ended up a free*- (—)
         `We know one thing for sure *— (-)* something unexpected is coming our way.
 Many children *— (-)* living in orphanages *— (-)* do not know what love feels like.
 She wore a charcoal*- (—)*gray rain jacket.
-People *— (-)* both young and old *—* were advised to take vaccinations at the earliest.`,
+People *— (-)* both young and old *— (-)* were advised to take vaccinations at the earliest.`,
 
         `The mathematician*— (-)*philosopher has won the Nobel Prize this year.
 I like vanilla*- (—)*flavored ice cream.
@@ -46,7 +46,7 @@ A lot has changed since last year *— (-)* probably for the better.`,
 
         `Teresa preferred the red*- (-)*embroidered lace dress.
 The Chennai*— (-)*Mumbai flight will leave at 10:00 a.m.
-Dinesh *— (-)* the boy from Thanjavur *—* has arrived.
+Dinesh *— (-)* the boy from Thanjavur *— (-)* has arrived.
 The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`,
       ],
     },
