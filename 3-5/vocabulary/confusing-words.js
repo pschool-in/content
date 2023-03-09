@@ -1,14 +1,14 @@
 export default {
-  label: 'Confusing Words',
-  id: 'confusing-words',
+  label: "Confusing Words",
+  id: "confusing-words",
   lockAfter: 7,
   list: [
     {
-      id: 'reading',
-      type: 'passage',
-      label: 'Reading',
+      id: "reading",
+      type: "passage",
+      label: "Reading",
       data: {
-        title: 'Confusing Words',
+        title: "Confusing Words",
         text: [
           /*
 `# to, two vs too`,
@@ -27,54 +27,54 @@ text: `<b>by</b> -  one does something<br>
 },*/
           `# here vs hear`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>here</b> - to point a place near to you <br>
-<b>hear </b> - what ear does`
+<b>hear </b> - what ear does`,
           },
           `# past vs passed`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>past</b> - an earlier period of time<br>
-<b>passed </b> - gone ahead; being successful at a test`
+<b>passed </b> - gone ahead; being successful at a test`,
           },
           `# thorough vs through`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>thorough</b> - an adjective that describes an act undertaken with great attention to detail.<br>
-<b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' `
+<b>through</b> -  a preposition explaining that a thing  has passed 'from one end to the other.' `,
           },
           `# borrow vs burrow`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>burrow</b> -  a tunnel or a hole that has been dug by an animal
-<b>borrow</b> - receive something from somebody, expecting to return it<br>`
+<b>borrow</b> - receive something from somebody, expecting to return it<br>`,
           },
           `# heal vs heel`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>heal</b> - to get well from sickness<br>
-<b>heel</b> - the part of foot or shoe that touches the ground`
+<b>heel</b> - the part of foot or shoe that touches the ground`,
           },
           `# dear vs deer`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>dear</b> - liked or valued high<br>
-<b>deer</b> - an animal`
+<b>deer</b> - an animal`,
           },
           `# lose vs loose`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>lose</b> -  fail to win or retain <br>
-<b>loose </b> - not tight or contained`
+<b>loose </b> - not tight or contained`,
           },
           `# lie vs lay`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>lie</b> -  to speak falsely; to be in resting position <br>
-<b>lay </b> - to put something or someone in a particular position`
-          }
-        ]
-      }
+<b>lay </b> - to put something or someone in a particular position`,
+          },
+        ],
+      },
     },
     /*
 {
@@ -108,97 +108,97 @@ options: 'by, buy, bye'
 }
 },*/
     {
-      id: 'here-hear',
-      label: 'here vs hear',
-      type: 'fillup',
+      id: "here-hear",
+      label: "here vs hear",
+      type: "fillup",
       data: {
-        title: 'Here vs Hear',
+        title: "Here vs Hear",
         text: `There is no one *here*.
 Can you *hear* the dog barking?
 When your uncle gets *here*, tell him to wait.
 The bears won't *hear* us if we're quiet.
 Kids, where are you? We're *here*.
-Who put the keys *here* ?
+Who put the keys *here*?
 I can't *hear* you. You're mumbling.`,
-        options: 'here, hear'
-      }
+        options: "here, hear",
+      },
     },
     {
-      id: 'thorough-through',
-      label: 'thorough vs through',
-      type: 'fillup',
+      id: "thorough-through",
+      label: "thorough vs through",
+      type: "fillup",
       data: {
-        title: 'thorough vs through',
+        title: "thorough vs through",
         text: `The doctor made a *thorough* study of the lab reports and pronounced the patient fit.
 Shilpa searched *thoroughly (throughly)*, but couldn't find the letter.
 The tiger walked stealthily *through* the forest, stalking its prey.
 When you are *through* eating, don't forget to take your medicine.
 *Through (Thorough)* the dentist appointment, I kept my eyes closed!`,
-        options: 'thorough, through'
-      }
+        options: "thorough, through",
+      },
     },
     {
-      id: 'borrow-burrow',
-      label: 'borrow vs burrow',
-      type: 'fillup',
+      id: "borrow-burrow",
+      label: "borrow vs burrow",
+      type: "fillup",
       data: {
-        title: 'borrow vs burrow',
+        title: "borrow vs burrow",
         text: `Meena was forced to *borrow* ten rupees from Sarita for her bus fare.
 Moles *burrow* under the soil.
 The chipmunk retreated into its *burrow* to feed the babies.
 May I *borrow* your pen, please?
 Sujit had to *borrow* a compass during the Math exam.`,
-        options: 'borrow, burrow'
-      }
+        options: "borrow, burrow",
+      },
     },
     {
-      id: 'past-passed',
-      label: 'past vs passed',
-      type: 'fillup',
+      id: "past-passed",
+      label: "past vs passed",
+      type: "fillup",
       data: {
-        title: 'past vs passed',
+        title: "past vs passed",
         text: `We read about the *past* in history books.
 Have you *passed* the examination?
 Ten years have *passed* away since he met.
 You walked *past* the hospital.
 A bus *passed* by just a moment ago.`,
-        options: 'past, passed'
-      }
+        options: "past, passed",
+      },
     },
     {
-      id: 'heal-heel',
-      label: 'heal vs heel',
-      type: 'fillup',
+      id: "heal-heel",
+      label: "heal vs heel",
+      type: "fillup",
       data: {
-        title: 'heal vs heel',
+        title: "heal vs heel",
         text: `Your wound will *heal* soon.
 A stone was digging into my *heel*.
 Her concern is to *heal* sick people.
 The *heel* of my shoe is broken.
 The girl turned on her *heel*.`,
-        options: 'heal, heel'
-      }
+        options: "heal, heel",
+      },
     },
     {
-      id: 'dear-deer',
-      label: 'dear vs deer',
-      type: 'fillup',
+      id: "dear-deer",
+      label: "dear vs deer",
+      type: "fillup",
       data: {
-        title: 'dear vs deer',
+        title: "dear vs deer",
         text: `We saw a herd of *deer* today.
 He is a very *dear* friend.
 The dogs went after the wounded *deer*.
 My son is very *dear* to me.
 The hunter hit at a *deer* with his gun.`,
-        options: 'dear, deer'
-      }
+        options: "dear, deer",
+      },
     },
     {
-      id: 'lose-loose',
-      label: 'lose vs loose',
-      type: 'fillup',
+      id: "lose-loose",
+      label: "lose vs loose",
+      type: "fillup",
       data: {
-        title: 'Lose vs Loose',
+        title: "Lose vs Loose",
         text: `Ben has a *loose* tooth.
 The hamster is so cute. Don't *lose* her now.
 There are *loose* papers in the bag.
@@ -206,22 +206,22 @@ Don't *lose* your temper!
 Our mothers *lose* their car keys a lot of times.
 The boy is wearing *loose* pants.
 The dog is *loose* in the neighborhood.`,
-        options: 'loose, lose'
-      }
+        options: "loose, lose",
+      },
     },
     {
-      id: 'lie-lay',
-      label: 'lie vs lay',
-      type: 'fillup',
+      id: "lie-lay",
+      label: "lie vs lay",
+      type: "fillup",
       data: {
-        title: 'lie vs lay',
+        title: "lie vs lay",
         text: `I am unwell. I am going to *lie* down for some time.
 Monica and her friend *lay* their keys on the shelf.
 They *lie* on the ground and look at the stars.
 Please *lay* the bag on the table.
 Today we will *lay* the carpet in the hall`,
-        options: 'lie, lay'
-      }
-    }
-  ]
+        options: "lie, lay",
+      },
+    },
+  ],
 };
