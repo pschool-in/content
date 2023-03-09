@@ -1,275 +1,275 @@
 export default {
-  label: 'Confusing Words',
-  id: 'confusing-words-2',
+  label: "Confusing Words",
+  id: "confusing-words-2",
   lockAfter: 7,
   list: [
     {
-      id: 'reading',
-      type: 'passage',
-      label: 'Reading',
+      id: "reading",
+      type: "passage",
+      label: "Reading",
       data: {
-        title: 'Confusing Words',
+        title: "Confusing Words",
         text: [
           `# fewer vs less`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>fewer</b> -  a small amount of things that can be counted<br>
-<b>less</b> - a small amount of things that cannot be counted`
+<b>less</b> - a small amount of things that cannot be counted`,
           },
           `# accept vs except`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>accept</b> -  when someone agrees to take something offered <br>
-<b>except</b> - when someone or something is not included`
+<b>except</b> - when someone or something is not included`,
           },
           `# affect vs effect`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>affect</b> -  the cause of an action<br>
-<b>effect</b> - the result of an action`
+<b>effect</b> - the result of an action`,
           },
           `# cereal vs serial`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>cereal</b> -  edible grains like rice<br>
-<b>serial</b> - something arranged one after the other`
+<b>serial</b> - something arranged one after the other`,
           },
           `# pole vs poll`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>pole</b> - A long cylindrical piece of wood or metal <br>
-<b>poll </b> - A process where people vote for a person or idea`
+<b>poll </b> - A process where people vote for a person or idea`,
           },
           `# sight vs site`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>sight</b> -  seeing ability<br>
-<b>site</b> - used to refer a place`
+<b>site</b> - used to refer a place`,
           },
           `# allowed vs aloud`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>allowed</b> - giving permission to do something<br>
-<b>aloud</b> - a voice which can be heard louder`
+<b>aloud</b> - a voice which can be heard louder`,
           },
           `# desert vs dessert`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>desert</b> - a large dry area with little rain and few plants<br>
-<b>dessert</b> - something sweet eaten after the main part of a meal`
+<b>dessert</b> - something sweet eaten after the main part of a meal`,
           },
           `# birth vs berth`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>birth</b> - the state of being born<br>
-<b>berth</b> - a place to sleep in a train or bus`
+<b>berth</b> - a place to sleep in a train or bus`,
           },
           `# bear vs bare`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>bear</b> - an animal; to tolerate something<br>
-<b>bare</b> - uncovered eg: bare foot`
+<b>bare</b> - uncovered eg: bare foot`,
           },
           `# dye vs die`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>dye</b> - to colour a substance<br>
-<b>die</b> - to stop living`
+<b>die</b> - to stop living`,
           },
           `# peak vs peek`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>peak</b> - highest point<br>
-<b>peek</b> - look at something quickly without being noticed`
-          }
-        ]
-      }
+<b>peek</b> - look at something quickly without being noticed`,
+          },
+        ],
+      },
     },
     {
-      id: 'fewer-less',
-      label: 'fewer vs less',
-      type: 'fillup',
+      id: "fewer-less",
+      label: "fewer vs less",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either fewer or less.',
-        printTitle: 'fewer vs less',
+        title: "Fill in the blanks with either fewer or less.",
+        printTitle: "fewer vs less",
         text: `Rohan drinks *less* water than he used to.
 There are *fewer* shops open on Sundays.
 I have *less* time to complete this task.
 I prefer eating *less* salt.
 We have *fewer* customers this year than last.`,
-        options: 'fewer, less'
-      }
+        options: "fewer, less",
+      },
     },
     {
-      id: 'accept-except',
-      label: 'accept vs except',
-      type: 'fillup',
+      id: "accept-except",
+      label: "accept vs except",
+      type: "fillup",
       data: {
-        title: 'Click on the blanks and select the correct word.',
-        printTitle: 'accept vs except',
+        title: "Click on the blanks and select the correct word.",
+        printTitle: "accept vs except",
         text: `Please *accept* our invitation for lunch.
 All the players *except* the bowler wore caps.
 Priya will *accept* the award for the best singer.
 Rahul does not like to *accept* help from anyone.
 We all passed our exam *except* Tina.
 Will you *accept* our dinner invitation?
-*except* for Sam, we all like going swimming.
+*Except (Accept)* for Sam, we all like going swimming.
 Please *accept* this gift as a token of my appreciation.
 All the students scored an A on the math quiz,  *except* for Bradley.
 Mitchell wanted to go, *except* his mother couldn't leave.
 Thank you, I will *accept* your offer.
 Everyone *except* Ben has blue eyes.`,
-        options: 'accept, except'
-      }
+        options: "accept, except",
+      },
     },
     {
-      id: 'affect-effect',
-      label: 'affect vs effect',
-      type: 'fillup',
+      id: "affect-effect",
+      label: "affect vs effect",
+      type: "fillup",
       data: {
-        title: ' Fill in the blanks with either affect or effect.',
-        printTitle: 'affect vs effect',
+        title: " Fill in the blanks with either affect or effect.",
+        printTitle: "affect vs effect",
         text: `Smoking will *affect* the health.
 The *effect* of the tsunami was devastating.
 Tom's opinion will not *affect* my decision.
 The heavy rainfall will *affect* the crop.
 Air pollution has a bad *effect* on children.`,
-        options: 'affect, effect'
-      }
+        options: "affect, effect",
+      },
     },
     {
-      id: 'cereal-serial',
-      label: 'cereal vs serial',
-      type: 'fillup',
+      id: "cereal-serial",
+      label: "cereal vs serial",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either cereal or serial.',
-        printTitle: 'cereal vs serial',
+        title: "Fill in the blanks with either cereal or serial.",
+        printTitle: "cereal vs serial",
         text: `What is your favourite TV *serial*?
 My favourite *cereal* is Corn.
 What *cereal* do you like for breakfast?
 A new *serial* is starting on television from tomorrow.
 Drought has spoiled this year's *cereal* crop.`,
-        options: 'cereal, serial'
-      }
+        options: "cereal, serial",
+      },
     },
     {
-      id: '1400',
-      label: 'pole vs poll',
-      type: 'fillup',
+      id: "1400",
+      label: "pole vs poll",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either pole or poll.',
-        printTitle: 'pole vs poll',
+        title: "Fill in the blanks with either pole or poll.",
+        printTitle: "pole vs poll",
         text: `The result of the *poll* has been declared.
 Every morning the flag is raised on its *pole*.
 We are conducting a *poll* among teachers.
 BJP won the election with 70% of the *poll*.
 They flew to Europe via the North *Pole*.`,
-        options: 'pole, poll'
-      }
+        options: "pole, poll",
+      },
     },
     {
-      id: '1500',
-      label: 'site vs sight',
-      type: 'fillup',
+      id: "1500",
+      label: "site vs sight",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either site or sight.',
-        printTitle: 'site vs sight',
+        title: "Fill in the blanks with either site or sight.",
+        printTitle: "site vs sight",
         text: `A *site* has been chosen for the new school.
-Don’t judge anyone at first *sight*.
+Don't judge anyone at first *sight*.
 There are two shops on the *site*.
 The students cleaned up their camping *site*.
 She lost her *sight* in an accident.`,
-        options: 'site, sight'
-      }
+        options: "site, sight",
+      },
     },
     {
-      id: '1800',
-      label: 'allowed vs aloud',
-      type: 'fillup',
+      id: "1800",
+      label: "allowed vs aloud",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either allowed or aloud.',
-        printTitle: 'allowed vs aloud',
+        title: "Fill in the blanks with either allowed or aloud.",
+        printTitle: "allowed vs aloud",
         text: `Please read this story *aloud*.
 He was not *allowed* to write the exam.
 Smoking is not *allowed* in the park.
 The pain made him cry *aloud*.
 Swimming is not *allowed* at this beach.`,
-        options: 'allowed, aloud'
-      }
+        options: "allowed, aloud",
+      },
     },
     {
-      id: '1900',
-      label: 'desert vs dessert',
-      type: 'fillup',
+      id: "1900",
+      label: "desert vs dessert",
+      type: "fillup",
       data: {
-        title: 'Fill in the blanks with either desert or dessert.',
-        printTitle: 'desert vs dessert',
+        title: "Fill in the blanks with either desert or dessert.",
+        printTitle: "desert vs dessert",
         text: `Plants in the *desert* do not need a lot of water.
 We had chocolate cake for *dessert*.
 Nobody likes to live in the *desert*.
 They were lost in the *desert* for two days.
 My favorite kind of *dessert* is Strawberry ice cream.`,
-        options: 'desert, dessert'
-      }
+        options: "desert, dessert",
+      },
     },
 
     {
-      id: 'birth-berth',
-      label: 'birth vs berth',
-      type: 'fillup',
+      id: "birth-berth",
+      label: "birth vs berth",
+      type: "fillup",
       data: {
-        title: 'Birth or Berth.',
-        printTitle: 'birth vs berth',
+        title: "Birth or Berth.",
+        printTitle: "birth vs berth",
         text: `Mrs. Karthini gave *birth* to a baby girl.
 I need a copy of my *birth* certificate.
 They got *berth* in Rajdhani Express.
 Ramesh is Indian by *birth*.
 Roshini slept on the *berth* allotted to her.`,
-        options: 'birth, berth'
-      }
+        options: "birth, berth",
+      },
     },
     {
-      id: 'bear-bare',
-      label: 'bear vs bare',
-      type: 'fillup',
+      id: "bear-bare",
+      label: "bear vs bare",
+      type: "fillup",
       data: {
-        title: 'Bear vs Bare',
+        title: "Bear vs Bare",
         text: `I can't *bear* the suspense.
 He attached him with his *bare* hands.
 He is so rude that nobody can *bear* him.
 Don't walk in your *bare* feet.
 We saw *bear* in the zoo.
 I have to *bear* this pain.`,
-        options: 'bear, bare'
-      }
+        options: "bear, bare",
+      },
     },
     {
-      id: 'dye-die',
-      label: 'dye vs die',
-      type: 'fillup',
+      id: "dye-die",
+      label: "dye vs die",
+      type: "fillup",
       data: {
-        title: 'Dye vs Die',
+        title: "Dye vs Die",
         text: `How did the dinosaurs *die*?
 You can *dye* your hair black.
 Wash the *dye* out with shampoo.
 She feels so sick and she thinks she might *die*.
 Please *dye* these shoes.`,
-        options: 'dye, die'
-      }
+        options: "dye, die",
+      },
     },
     {
-      id: 'peak-peek',
-      label: 'peak vs peek',
-      type: 'fillup',
+      id: "peak-peek",
+      label: "peak vs peek",
+      type: "fillup",
       data: {
-        title: 'Peak vs Peek',
+        title: "Peak vs Peek",
         text: `I took a quick *peek* inside.
 He is at the *peak* of her career.
 Prices reach a *peak* during October.
 Shut your eyes and don't *peek*.
 We could see the *peak* of the mountain.`,
-        options: 'peak, peek'
-      }
-    }
-  ]
+        options: "peak, peek",
+      },
+    },
+  ],
 };
