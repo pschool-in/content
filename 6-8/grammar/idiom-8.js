@@ -1,14 +1,14 @@
 export default {
-  id: 'idiom-8',
-  label: 'Idioms',
+  id: "idiom-8",
+  label: "Idioms",
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
-      type: 'passage',
-      id: 'passage',
+      label: "Notes",
+      type: "passage",
+      id: "passage",
       data: {
-        title: 'Idioms',
+        title: "Idioms",
         text: [
           `Examples of some idioms are given below: 
 1. Eat humble pie - to apologize humbly; to yeild under humiliating circumstances
@@ -20,103 +20,103 @@ export default {
 7. Won his laurels - acquired distinction or glory
 8. Turned a deaf ear - disregarded
 9. By hook or by crook - by any means; by fair means or foul
-10. Strained every nerve - used his atmost efforts `
-        ]
-      }
+10. Strained every nerve - used his atmost efforts `,
+        ],
+      },
     },
     {
-      id: 'mcq',
-      label: 'Choose the correct option',
-      type: 'mcq',
+      id: "mcq",
+      label: "Choose the correct option",
+      type: "mcq",
       data: {
-        title: 'Choose the correct meaning of the following Idioms.',
+        title: "Choose the correct meaning of the following Idioms.",
         questions: [
           {
-            qText: 'To have a dig at',
-            options: `To criticise someone, To sow seeds in a pot, To praise someone`
+            qText: "To have a dig at",
+            options: `To criticise someone, To sow seeds in a pot, To praise someone`,
           },
           {
-            qText: 'By fits and starts',
-            options: `Irregularly, Annoyingly, Angrily, Feverishly`
+            qText: "By fits and starts",
+            options: `Irregularly, Annoyingly, Angrily, Feverishly`,
           },
           {
-            qText: 'To come to light',
-            options: `To reveal, To lighten, To show hidden anger, To erase differences`
+            qText: "To come to light",
+            options: `To reveal, To lighten, To show hidden anger, To erase differences`,
           },
           {
-            qText: 'To brush up',
-            options: `Renew, To remove dust, To wash with soap, To hide`
+            qText: "To brush up",
+            options: `Renew, To remove dust, To wash with soap, To hide`,
           },
           {
-            qText: 'To smell a rat means',
-            options: `To suspect a trick, To detect bad smell, To misunderstand, To see the hidden meaning`
+            qText: "To smell a rat means",
+            options: `To suspect a trick, To detect bad smell, To misunderstand, To see the hidden meaning`,
           },
           {
             qText: "'Achilles heel' means",
-            options: `A fatal weakness, A big hill, A folk dance`
+            options: `A fatal weakness, A big hill, A folk dance`,
           },
           {
             qText: "'Salad days' means",
-            options: `Days of one's youthful inexperience, Days of one's old age experiences, Days of abstaining from vices`
+            options: `Days of one's youthful inexperience, Days of one's old age experiences, Days of abstaining from vices`,
           },
           {
             qText: "'At one's fingertips' means",
-            options: `Readily available knowledge, To take revenge, Matter of shame, Balancing on fingers`
+            options: `Readily available knowledge, To take revenge, Matter of shame, Balancing on fingers`,
           },
           {
             qText: "'Break the ice' means",
-            options: `Removing the initial hesitation, Removing the dust, Clearing the dew, Insulting someone`
+            options: `Removing the initial hesitation, Removing the dust, Clearing the dew, Insulting someone`,
           },
           {
             qText: "'To chew the cud' correctly means",
-            options: `To meditate, To contrive against someone, To die on duty, To inculcate virtues`
+            options: `To meditate, To contrive against someone, To die on duty, To inculcate virtues`,
           },
           {
             qText: "'To pull through' means",
-            options: `To recover, To pull with strength, To use a lot of energy, To control`
+            options: `To recover, To pull with strength, To use a lot of energy, To control`,
           },
           {
-            qText: 'A fish out of water ',
-            options: `In want of a house, Determined to live, In a strange situation`
+            qText: "A fish out of water ",
+            options: `In a strange situation, In want of a house, Determined to live`,
           },
           {
             qText: "'A wild goose chase' is",
-            options: `A useless enterprise, A violent chase, A pleasurable hunt, A harsh gesture`
+            options: `A useless enterprise, A violent chase, A pleasurable hunt, A harsh gesture`,
           },
           {
-            qText: 'Make hay while the sun shines',
-            options: `Be active during the day, Be merry during the summer, Make maximum use of a given opportunity`
+            qText: "Make hay while the sun shines",
+            options: `Make maximum use of a given opportunity, Be active during the day, Be merry during the summer`,
           },
           {
-            qText: 'To bank upon',
-            options: `To depend, To hope, To harness, To invest`
-          }
-        ]
-      }
+            qText: "To bank upon",
+            options: `To depend, To hope, To harness, To invest`,
+          },
+        ],
+      },
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'fillup-drag',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "fillup-drag",
       lockAfter: 1,
       commonData: {
-        title: 'Complete the sentences using suitable idioms.',
+        title: "Complete the sentences using suitable idioms.",
         styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+          fontSize: "1rem",
+          dashWidth: 70,
+        },
       },
       data: [
         `I was feeling a bit *under the weather*.
 It was her chance to speak and she was *getting cold feet*.
 My younger brother is *the apple of my eye*.
-In order *to set the record straight*, the umpires checked the camera to review the previous shot.
+In order *to set the record straight*, the umpires checked the camera.
 None of us understood that he was trying *to kill two birds with a stone* when he joined the military forces.`,
 
         `My brother seems to have been *snowed under* for the last few weeks.
 Gareema just *broke my bubble* when he said that he was a part of it.
 Talking to my mom about my grades made me feel like I was *walking on eggshells*.
-Danny had been putting off discussing the financial management of the company but decided *to bite the bullet* and talk to Sid today.`,
+Danny decided *to bite the bullet* and talk to the manager today about the financial situation.`,
 
         `They were finding it really difficult to *make two ends meet*.
 Jerry's parents seem to be *at loggerheads* over something or the other all the time.
@@ -137,13 +137,13 @@ Vikram sensed that there were multiple *clouds on the horizon*.
 Me catching a cold was *a blessing in disguise*.`,
 
         `Umar looked *blue in the face* after the marathon.
-We decided to *cut the long story short* and tell them what actually happened at the mall.
+We decided to *cut the long story short* and tell them what actually happened.
 Cooking has never been Ron's *cup of tea*.
 She was just *beating a dead horse* in thinking she could change his mind.
 *Speak of the devil*! Here he comes.`,
 
         `The police had warned us to *let sleeping dogs lie* and move ahead with our lives.
-Ameer just let the *cat out of the bag* by revealing the gender of the baby.
+Ameer just let the *cat out of the bag* by announcing that he is dropping out of college.
 We had to identify the *elephant in the room* before we made a decision.
 The teacher asked us to quote the findings *in a nutshell*.
 Every word of what you say is worth its *weight in gold*.`,
@@ -160,7 +160,7 @@ My cousin and I are always like *two peas in a pod*.
 As a detective, you are always obliged to learn which way *the wind blows* and then make a statement.`,
 
         `Harry *hit the nail on the head* with his decision to buy this piece of land.
-If you ask politely, you may be able to *catch more flies with honey than you can with vinegar*.
+If you ask politely, you may be able to catch more flies with honey *than you can with vinegar*.
 The court decided to let the guy *off the hook* as there was no evidence proving his crime.
 Learning a language is like *riding a bicycle*; you will never forget it.
 When he understood he had no way out of the problem, *he blamed his tools*.`,
@@ -193,19 +193,19 @@ Comparing a doctor's profession to a teacher's profession is like *comparing app
 *Pigs would fly* if you cooked.`,
 
         `It is better we don't dig more into this case; *curiosity killed the cat*.
-Having my best friend is *the best of both worlds*.
+Having my best friend is the best of *both worlds*.
 Susan did not realise she would be *burning bridges* when she took up the job.
 He has to *sell the whole nine yards* if he wants to buy that house.
-For her, *grass is always greener on the other side*.`,
+For her, grass is always greener *on the other side*.`,
 
         `Do not worry about it. *Every dog has his day*. Today, it is his.
-She started *counting her chickens before they hatched*. That will only disappoint her; I hope she understands.
+She started counting her chickens *before they hatched*. That will only disappoint her; I hope she understands.
 Everything *went down in flames* when we lost the lottery.
 She was just *adding fuel to the fire* telling Tom's mom about his health.`,
 
         `My mom was finding it hard to *wrap her head around the fact* that I am getting married tomorrow.
 The police *cut the mustard* in finding the gang that robbed the bank.
-He did not know he was *jumping off the frying pan into the fire* when he decided to speak about the problems at work.
+He did not know he was jumping off the frying pan *into the fire* when he decided to speak about the problems at work.
 There is no use *crying over spilt milk*; you just have to move on with your life.`,
 
         `Everyone thinks he is crazy, but he sure has *a method to his madness*.
@@ -216,7 +216,7 @@ My great grandmother is surprisingly *fit as a fiddle*.`,
 
         `My mom always asks to believe everyone with *a pinch of salt*.
 Rasheeda was a constant *pain in the neck*.
-The smartphone is the *best thing since sliced bread*.
+The smartphone is the best thing since *sliced bread*.
 You will not understand unless you *walk in their shoes*.
 The communication trainer conducted an activity to *break the ice*.`,
 
@@ -227,31 +227,31 @@ We met each other only *once in a blue moon*.
 He did not know he was *barking up the wrong tree*.`,
 
         `Rocky finally had the *ball in his court*.
-Mephistopheles speaking about going to heaven is like *the devil quoting the Bible*.
-Haven't you heard *the devil's in the details*?
+Mephistopheles speaking about going to heaven is like *the devil* quoting the Bible.
+Haven't you heard the devil's *in the details*?
 My father told me not to worry about the competition as there would be other *fish in the sea*.
-You will require a *snowball's chance in hell* to clear this exam.`,
+You will require a snowball's chance *in hell* to clear this exam.`,
 
         `For all we know, this will not end *until the fat lady sings*.
 The children were *bouncing off the walls* the moment they heard about going to an amusement park this weekend.
 I don't know about the others, but I feel that your decision *is as right as rain*.
 My cousins have been *bent out of shape* after my uncle passed away.`,
 
-        `Do not be worried about your current situation; after all, *every cloud has a silver lining*.
-We had no idea why he was *playing the devil's advocate* when he knew what had happened.
-I know there are decisions to be made about the selling of the house but we will *cross that bridge when we get to it*.`,
+        `Do not be worried about your current situation; after all, every cloud has a *silver lining*.
+We had no idea why he was playing the *devil's advocate* when he knew what had happened.
+I know there are decisions to be made about the selling of the house but we will cross that bridge when *we get to it*.`,
 
         `James *threw caution to the wind* in trying to save me from the accident.
 I would like to give *a penny for your thoughts*.
-My mom thinks that my brother is *biting off more than he can chew* by taking up a night job and a day job.
+My mom thinks that my brother is biting off more *than he can chew* by taking up a night job and a day job.
 People are known to always *judge a book by its cover*.`,
 
         `Reem did not really think she was *raining on someones parade* when she announced about her new job.
 The doctors said that Manu had escaped serious injuries by *the skin of his teeth*.
-Rounak's parents think that he is *putting all his eggs in one basket*.
+Rounak's parents think that he is putting all his eggs *in one basket*.
 We decided to *put the case on ice* until we had some clue of what had happened.
-It is not at all that you have *the cake and eat it too*.`
-      ]
-    }
-  ]
+It is not at all that you have *the cake and eat it too*.`,
+      ],
+    },
+  ],
 };

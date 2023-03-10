@@ -121,7 +121,7 @@ Ben is crazy. Zen is *crazier* than Ben. But Ron is the *craziest* of them all.`
 
         `Rabab is thin. Her sister Rehab is *thinner*. But Rhea is the *thinnest* of them.
 Kartik did badly in his entrance test. Hemant did *worse* than him. Sachin did the *worst*.
-Sangita draws sketches as beautifully as Sanchi does. Sanjay does so *more beautifully* than his sister. But their mother can draw pictures the *most beautiful*.`,
+Sangita draws sketches as good as Sanchi does. Sanjay does *better* than his sister. But their mother can draw pictures the *best*.`,
 
         `Shilpa is tall.	Sheena is *taller* than Shilpa.	Samira is the *tallest* of all the girls.
 She is pretty. Reem is *prettier* than her sister. Riya is the *prettiest* of them.
