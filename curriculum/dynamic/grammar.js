@@ -193,80 +193,80 @@ export default {
     {
       label: 'Adverb of Place, Time and Manner',
       id: 'adverb-4',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Adverb of Degree and Frequency',
       id: 'adverb-5',
-      grade: '4-8'
+      grade: '4-5'
     },
     {
       label: 'Degrees of Comparison',
       id: 'degrees-comparison',
-      grade: '4-8'
+      grade: '4-5'
     },
     {
       label: 'Sentence Pattern',
       id: 'sentence-pattern',
-      grade: '4-8'
+      grade: '4-5'
     },
     // New Playlists
     {
       label: 'Alliteration',
       id: 'alliteration',
-      grade: '3-8'
+      grade: '3-5'
     },
 
     {
       label: 'Advanced Article',
       id: 'article-4',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Punctuation',
       id: 'punctuation',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Adjective of Quality and Quantity',
       id: 'adjective-3',
-      grade: '2-8'
+      grade: '2-5'
     },
     {
       label: 'More on Adjective',
       id: 'adjective-4',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Order of Adjective',
       id: 'adjective-5',
-      grade: '4-8'
+      grade: '4-5'
     },
     {
       label: 'Action Word',
       id: 'verb-1',
-      grade: '3-8'
+      grade: '3-5'
     },
 
     {
       label: 'Possessive pronoun',
       id: 'pronoun-3',
-      grade: '2-8'
+      grade: '2-5'
     },
     {
       label: 'Reflexive Pronoun',
       id: 'pronoun-4',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Interrogative Pronoun',
       id: 'pronoun-5',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Modal',
       id: 'modal',
-      grade: '3-8'
+      grade: '3-5'
     },
     /*
       {
@@ -278,17 +278,17 @@ export default {
     {
       label: 'Simile',
       id: 'simile',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Idiom',
       id: 'idiom',
-      grade: '3-8'
+      grade: '3-5'
     },
     {
       label: 'Gerund and Infinitive',
       id: 'gerund-infinitive',
-      grade: '3-8'
+      grade: '3-5'
     },
     // New addition for 6th to 8th
 
@@ -313,8 +313,13 @@ export default {
       grade: '7-8'
     },
     {
-      label: 'Modals',
+      label: 'Adverb and Adverbial',
       id: 'adverb-8',
+      grade: '7-8'
+    },
+    {
+      label: 'Modals',
+      id: 'modal-8',
       grade: '7-8'
     },
     {
@@ -322,7 +327,6 @@ export default {
       id: 'verb-8',
       grade: '7-8'
     },
-
     {
       label: 'Conjunction',
       id: 'conjunction-8',
