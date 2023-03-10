@@ -75,8 +75,8 @@ Meenu spoke *very (much)* slowly.
 Kapil complete his homework *quietly (quiet)*.`,
 
         `They could not find him *anywhere (nowhere)*. 
-Sonu runs *faster (fastly)* than harsh. 
-It was *too (very)* cold to drink cold drink. 
+Sonu runs *faster (fastly)* than Harsh. 
+It was *too (very)* cold to drink. 
 I seldom or *never (ever)* refused the offer. 
 Geeta gave up her marketing job four years *ago (since)*.`,
       ],
@@ -187,13 +187,13 @@ He does not work *as hard as you think*.`,
 We will meet *in the afternoon*.
 Raghu hit the ball *with great power*.
 The boy answered *in a proud manner*.
-The man lives *next door*`,
+The man lives *next door*.`,
 
         `She stood *on the bridge*.
 I buy at least two dresses *every month*.
 She goes on holiday *twice a year*.
 Tina bought a lovely gift *for her husband*.
-Rahul saved money to *buy a car*`,
+Rahul saved money to *buy a car*.`,
       ],
     },
     {
@@ -231,11 +231,6 @@ Rahul saved money to *buy a car*.`,
 Don't disturb her *when she is singing*.
 I will follow you *wherever you go*.
 She has hidden the box *where it cannot be found*.`,
-
-        `Rina learned English *so that she could get a better job*.
-Ashwin called Sophie *so that he could get directions*.
-A new club was formed *in order to discuss politics*. 
-He is so kind-hearted *that everybody loves him*.`,
 
         `I will help you *because you are my true friend*.
 Rahul did not call Tina *because he felt guilty*.

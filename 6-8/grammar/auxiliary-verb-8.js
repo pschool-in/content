@@ -26,7 +26,7 @@ Auxiliary verbs fall into three basic groups:
           `3. other auxiliary verbs with the characteristics of modals: Some words do not always behave as modals. Such phrases are called semi-modals.`,
           {
             type: "html",
-            text: `Examples include, <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`,
+            text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`,
           },
         ],
       },
@@ -40,10 +40,10 @@ Auxiliary verbs fall into three basic groups:
       },
       data: [
         `*May (Can)* you have a long life! Sweetheart.
-Numair *could (may)* speak two languages when he was eigt.
+Numair *could (may)* speak two languages when he was eight.
 You *should (would)* watch Kriti's latest movies.
 *Shall (Will)* we go on a long drive today?
-You *might (may)* want to try this recipie once you taste it.`,
+You *might (may)* want to try this recipe once you taste it.`,
 
         `*Will (Should)* you, please stop gossiping about Abdu.
 He has lost your watch and he *dare (must)* not to tell you.
@@ -66,10 +66,10 @@ You *ought to (dare to)* consult a Dentist.`,
 Charlie *has* a blanket.
 Mike *had* an injury, but now he's fine.
 I *had* rabbits when I was 8 years old.
-Tina *has* a ear infection.`,
+Tina *has* an ear infection.`,
 
         `India *has* many states.
-My dad *had* a white coat which he used to wear.
+My dad *had* a white coat that he used to wear.
 The lion *has* sharp claws.
 Niya *had* broken her leg a few months ago.
 Natalie *has* a sweet smile.`,
@@ -101,7 +101,7 @@ I *am* playing with toy trucks.`,
 *Are* you going somewhere?
 Sunny *is* mowing the lawn.
 I *am* doing my homework.
-The duckd *are* in the pond.`,
+The ducks *are* in the pond.`,
 
         `Tom and Saira *are* enacting Romeo and Juliet on stage.
 Thunder *is* rumbling.
@@ -120,7 +120,7 @@ I *am* studying for a teaching eligibility exam.`,
           {
             name: "Yes",
             text: `Can you please help me?
-Will you be able to finish the work by tommorow?
+Will you be able to finish the work by tomorrow?
 You might regret doing this the next day.
 He said I can use his mobile at any time.
 Will you pick me up on Sunday also?`,
@@ -131,7 +131,7 @@ Will you pick me up on Sunday also?`,
 Do not wash the car. The paint is still wet.
 I am certain that they have left already.
 I am sure he is over seventy.
-It was not necessary to meet him but i met him.`,
+It was not necessary to meet him but I met him.`,
           },
         ],
       },
@@ -149,7 +149,7 @@ It was not necessary to meet him but i met him.`,
       data: [
         `*Will* Shaleen come with me to the hospital?
 It *could* be what you wished for. 
-*Should* I submit all the documents on monday?
+*Should* I submit all the documents on Monday?
 There *might* be some problem with the computer software.
 All students *must* wear their uniforms every day.`,
 
@@ -162,7 +162,7 @@ Everyone *must* follow traffic rules to ensure the safety of all.`,
         `You *might* get tickets for the concert if you are lucky.
 Rahul *will* not like this for sure.
 Amrita said that she *would* be on leave the next day.
-*Should* everyone fill the scolarship forms?
+*Should* everyone fill out the scholarship forms?
 Fathima *can* finish this in an hour.`,
       ],
     },

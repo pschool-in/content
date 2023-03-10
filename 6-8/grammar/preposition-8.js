@@ -1,14 +1,14 @@
 export default {
-  id: 'preposition-8',
-  label: 'Prepositions',
+  id: "preposition-8",
+  label: "Prepositions",
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
-      type: 'passage',
-      id: 'passage',
+      label: "Notes",
+      type: "passage",
+      id: "passage",
       data: {
-        title: 'Preposition',
+        title: "Preposition",
         text: [
           `# Prepositions
 A preposition is a word that joins nouns, pronouns or phrases to other words in a sentence. It usually shows the relationship of those words or phrases with other words in the sentence about space, time or reason. A preposition usually comes before a noun. When a preposition is not followed by a noun, it is often called a  stranded preposition.
@@ -16,40 +16,40 @@ A stranded preposition comes at the end of a sentence when its  object is a rela
 Prepositions can be categorized into three based on their form:
 1. Simple Prepositions: Single-word prepositions are called simple prepositions.`,
           {
-            type: 'html',
-            text: `Some examples are <b>in</b>, <b>on</b>, <b>at</b>, <b>by</b>, <b>from</b>, <b>about</b>, <b>over</b>, <b>under</b>, <b>through</b>, <b>till</b>, <b>up</b>, <b>off</b>, <b>of</b>, <b>for</b>, <b>to</b>, etc.`
+            type: "html",
+            text: `Some examples are <b>in</b>, <b>on</b>, <b>at</b>, <b>by</b>, <b>from</b>, <b>about</b>, <b>over</b>, <b>under</b>, <b>through</b>, <b>till</b>, <b>up</b>, <b>off</b>, <b>of</b>, <b>for</b>, <b>to</b>, etc.`,
           },
           `2. Compound Prepositions: When two or more words are combined to form one single preposition, we have a compound preposition.`,
           {
-            type: 'html',
-            text: `Some examples of compound prepositions are <b>into</b>, <b>across</b>, <b>without</b>, <b>within</b>, <b>inside</b>, <b>outside</b>, <b>beneath</b>, <b>below</b>, <b>behind</b>,  <b>between</b>, etc.`
+            type: "html",
+            text: `Some examples of compound prepositions are <b>into</b>, <b>across</b>, <b>without</b>, <b>within</b>, <b>inside</b>, <b>outside</b>, <b>beneath</b>, <b>below</b>, <b>behind</b>,  <b>between</b>, etc.`,
           },
           `3. Complex or Phrase Prepositions: When a group of words does the work of a single preposition, it is called a complex or phrase preposition.`,
           {
-            type: 'html',
-            text: `Some two-word complex prepositions are <b>along with</b>, <b>according to</b>, <b>apart from</b>, <b>because of</b>, <b>contrary to</b>, <b>regardless of</b>, <b>prior to</b>, <b>due to</b>, <b>except for</b>, etc.`
+            type: "html",
+            text: `Some two-word complex prepositions are <b>along with</b>, <b>according to</b>, <b>apart from</b>, <b>because of</b>, <b>contrary to</b>, <b>regardless of</b>, <b>prior to</b>, <b>due to</b>, <b>except for</b>, etc.`,
           },
           `# Collocation
 Certain nouns, adjectives and verbs are generally used with specific prepositions in such a way that these have become fixed ways of using these words. We often refer to such combinations as collocations. `,
           {
-            type: 'html',
-            text: `Some examples are <b>fondness for</b>, <b>participation in</b>, <b>afraid of</b>, <b>find out</b>, <b>care for</b>, etc.`
+            type: "html",
+            text: `Some examples are <b>fondness for</b>, <b>participation in</b>, <b>afraid of</b>, <b>find out</b>, <b>care for</b>, etc.`,
           },
           `# Prepositional Phrase
 A prepositional phrase can have the functions of an adjective or an adverb.
 Look at the lady in the blue dress. (modifying the noun lady)
 Please take the pen next to the telephone. (modifying the noun pen)
 The poor man sat beside the fence. (Sat where? Beside the fence.)
-I go for dance classes after school. (Go when? After school.)`
-        ]
-      }
+I go for dance classes after school. (Go when? After school.)`,
+        ],
+      },
     },
     {
-      id: 'fill-up',
-      label: 'Fill in the blanks',
-      type: 'fillup',
+      id: "fill-up",
+      label: "Fill in the blanks",
+      type: "fillup",
       commonData: {
-        title: `Fill in the blanks in the following sentences with Prepositions.`
+        title: `Fill in the blanks in the following sentences with Prepositions.`,
       },
       data: [
         `Mark often reads *during (while)* meals.
@@ -74,16 +74,16 @@ I have not seen her *for (since)* the last nine months.
 You must travel by the train to reach *on (in)* time. 
 I have been going to this cafeteria *for (since)* a long time. 
 He is struggling *from (with)* migraine.
-We drove *along (through)* the coastline.`
-      ]
+We drove *along (through)* the coastline.`,
+      ],
     },
     {
-      id: 'fillup-2',
-      label: 'Preposition of Place',
-      type: 'fillup',
+      id: "fillup-2",
+      label: "Preposition of Place",
+      type: "fillup",
       commonData: {
         noOptions: true,
-        title: 'Fill in the blanks using prepositions of place.'
+        title: "Fill in the blanks using prepositions of place.",
       },
       lockAfter: 1,
       data: [
@@ -97,21 +97,21 @@ Have you looked *under* the bed?`,
 
         `We waited *in* the reception hall for two hours.
 The painting *on* the roof of the church are incredible.
-I live in *Kerala *in* a town called Alappuzha.
+I live *in* Kerala *in* a town called Alappuzha.
 The soup is *on* the table.
 Meet me *at* the cafeteria next to the station. 
 Place the book *on* the table. 
-Jack is *in* a meeting now.`
-      ]
+Jack is *in* a meeting now.`,
+      ],
     },
     {
-      id: 'fillup-3',
-      label: 'Preposition of Time',
-      type: 'fillup',
+      id: "fillup-3",
+      label: "Preposition of Time",
+      type: "fillup",
       commonData: {
         noOptions: true,
         title:
-          'Fill in the blanks using a few, very few or little.Fill in the blanks using prepositions of time.'
+          "Fill in the blanks using a few, very few or little.Fill in the blanks using prepositions of time.",
       },
       lockAfter: 1,
       data: [
@@ -126,17 +126,17 @@ We had a holiday *on* 18 April.
 We reached *in* time to catch the train.
 India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. 
-*During* World War I, many civilians lost their lives`
-      ]
+*During* World War I, many civilians lost their lives`,
+      ],
     },
     {
-      id: 'fillup-4',
-      label: 'Preposition of Direction, Cause and Purpose',
-      type: 'fillup',
+      id: "fillup-4",
+      label: "Preposition of Direction, Cause and Purpose",
+      type: "fillup",
       commonData: {
         noOptions: true,
         title:
-          'Fill in the blanks using prepositions of direction, cause and purpose.'
+          "Fill in the blanks using prepositions of direction, cause and purpose.",
       },
       data: [
         `Before the competition, James swam *across* the river and back to build up stamina.
@@ -146,15 +146,15 @@ We need to start preparations *for* Sports Day.`,
         `He won't succeed *with* hard work alone.
 I need money *for* the rent.
 When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting ‘Eureka!’
-A flying saucer just flew *over* that building.`
-      ]
+A flying saucer just flew *over* that building.`,
+      ],
     },
     {
-      id: 'fill-up-1',
-      label: 'Prepositional Phrases',
-      type: 'fillup',
+      id: "fill-up-1",
+      label: "Prepositional Phrases",
+      type: "fillup",
       commonData: {
-        title: `Complete the following sentences using appropriate prepositional phrases`
+        title: `Complete the following sentences using appropriate prepositional phrases`,
       },
       data: [
         `I would rather have chocholate milkshake *instead of (instead from)* cold coffee.
@@ -167,17 +167,17 @@ Renuka solved the problem *by means of (by means)* a new device developed by the
 Can you help Riya *in any way (any way)*?
 Mary didn't allow cancer to discourage her. *On the contrary (By the contrary)*, she began to work twice as hard.
 *In general (By general)*, we are impressed with Ankita's performance.
-I am seeing him in August *or rather (rather)* in September.`
-      ]
+I am seeing him in August *or rather (rather)* in September.`,
+      ],
     },
 
     {
-      id: 'fillup-5',
-      label: 'Complete the passage',
-      type: 'fillup',
+      id: "fillup-5",
+      label: "Complete the passage",
+      type: "fillup",
       commonData: {
         noOptions: true,
-        title: 'Complete the passage using appropriate prepositions'
+        title: "Complete the passage using appropriate prepositions",
       },
       lockAfter: 2,
       data: [
@@ -187,17 +187,17 @@ I am seeing him in August *or rather (rather)* in September.`
 
         `Now take a look *at* the last column, which totals up all the summer gains *from* first grade *to* sixth grade. The reading scores of the poor kids go up *by* 0.19 points. When it comes to reading skills, poor kids learn nothing when school is not *in* session. The reading scores of the rich kids, by contrast, go up *by* a whopping 60.99 points. Virtually all of the advantage that wealthy students have over poor students is the result of differences in the way privileged kids learn *while* they are not *in* school.`,
 
-        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`
-      ]
+        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`,
+      ],
     },
     {
-      id: 'fillup-6',
-      label: 'Fill up using Prepositions',
-      type: 'fillup',
+      id: "fillup-6",
+      label: "Fill up using Prepositions",
+      type: "fillup",
       commonData: {
         noOptions: true,
         title:
-          'Fill in the blanks using the given prepositions. (among, across, near, along, between, behind, by, toward, opposite, within)'
+          "Fill in the blanks using the given prepositions. (among, across, near, along, between, behind, by, toward, opposite, within)",
       },
       lockAfter: 2,
       data: [
@@ -211,8 +211,8 @@ Place a check mark *within* the box.`,
 The park is *near* her house.
 There is a deer *between* the two trees.
 There is a purple flower *among* the weeds.
-The garage is *opposite* the house.`
-      ]
-    }
-  ]
+The garage is *opposite* the house.`,
+      ],
+    },
+  ],
 };
