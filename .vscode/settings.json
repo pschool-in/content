@@ -18,7 +18,7 @@
     "editor.suggest.insertMode": "replace"
   },
   "workbench.colorCustomizations": {
-    "titleBar.inactiveBackground":"#dee200",
+    "titleBar.inactiveBackground": "#dee200",
     "titleBar.inactiveForeground": "#ffffff"
   }
 }
