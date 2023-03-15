@@ -31,6 +31,40 @@ under, preposition
 chair, object
 cat, subject`,
         },
+        {
+          title: "Match words and roles: My brother came home late.",
+          text: `my, pronoun
+home, noun
+late, adverb`,
+        },
+        {
+          title: "Match words and roles: Can you pick up Dan on your way home?",
+          text: `pick, verb
+Dan, noun
+and, conjunction
+on, preposition
+your, pronoun`,
+        },
+        {
+          title: "Match words and roles: Is that with all the fees or not?",
+          text: `is, verb
+that, pronoun
+with, preposition
+all, adjective
+fees, noun
+or, conjunction
+not, adverb`,
+        },
+
+        {
+          title: "Match words and roles: Yesterday, we went to the cinema",
+          text: `yesterday, adverb
+we, pronoun
+went, verb
+to, preposition
+the, article
+cinema, noun`,
+        },
       ],
     },
     {
@@ -702,6 +736,266 @@ cat, subject`,
             {
               name: "Preposition",
               text: `All *save* Ravi were present.`,
+            },
+            {
+              name: "Noun",
+              text: `You have a good tea-*set*.`,
+            },
+            {
+              name: "Verb",
+              text: `Please *set* right the office.`,
+            },
+            {
+              name: "Adjective",
+              text: ` I went to him with a *set* purpose.`,
+            },
+            {
+              name: "Noun",
+              text: `The long and *short* of the matter is that I do not see eye to eye with you.`,
+            },
+            {
+              name: "Adjective",
+              text: `I know *short* hand.`,
+            },
+            {
+              name: "Adverb",
+              text: `We fell *short* of money.`,
+            },
+            {
+              name: "Adverb",
+              text: `He left this place one week *since*.`,
+            },
+            {
+              name: "Preposition",
+              text: `He has been here *since* last Tuesday.`,
+            },
+            {
+              name: "Conjunction",
+              text: `*Since* he is ill, he cannot attend the meeting.`,
+            },
+            {
+              name: "Verb",
+              text: `The train *slows* down as it reaches the platform.`,
+            },
+            {
+              name: "Adjective",
+              text: `*Slow* and steady wins the race.`,
+            },
+            {
+              name: "Adverb",
+              text: `In summer clocks generally go *slow*.`,
+            },
+            {
+              name: "Noun",
+              text: `I have heard the *sound* of the bugle.`,
+            },
+            {
+              name: "Verb",
+              text: `Please *sound* the bugle.`,
+            },
+            {
+              name: "Adjective",
+              text: `He has followed a *sound* policy.`,
+            },
+            {
+              name: "Adverb",
+              text: ` I have reached home safe and *sound*.`,
+            },
+            {
+              name: "Noun",
+              text: `A *spring* has sprouted up in our neighbourhood.`,
+            },
+            {
+              name: "Verb",
+              text: `The dog *sprang* upon the table.`,
+            },
+            {
+              name: "Adjective",
+              text: `The *spring* water sometimes cures skin diseases.`,
+            },
+            {
+              name: "Noun",
+              text: `He came in the *still* of night.`,
+            },
+            {
+              name: "Verb",
+              text: `The presence of the Headmaster alone could *still* the angry students.`,
+            },
+            {
+              name: "Adjective",
+              text: `*Still* waters are very deep.`,
+            },
+            {
+              name: "Adverb",
+              text: `He is *still* here.`,
+            },
+            {
+              name: "Conjunction",
+              text: `He is dead tired, *still* he goes on walking.`,
+            },
+            {
+              name: "Pronoun",
+              text: `The picture *that* we saw was very interesting.`,
+            },
+            {
+              name: "Adjective",
+              text: `*That* boy is very naughty.`,
+            },
+            {
+              name: "Adverb",
+              text: `He can do *that* much work today.`,
+            },
+            {
+              name: "Conjunction",
+              text: `He said *that* he would do it.`,
+            },
+            {
+              name: "Preposition",
+              text: `I have no other book *than* this.`,
+            },
+            {
+              name: "Conjunction",
+              text: `He is much stronger *than* I am.`,
+            },
+            {
+              name: "Noun",
+              text: `They have lived happily since *then*.`,
+            },
+            {
+              name: "Adjective",
+              text: `The *then* Viceroy was very noble.`,
+            },
+            {
+              name: "Adverb",
+              text: `I had gone out *then*.`,
+            },
+            {
+              name: "Conjunction",
+              text: `You do not act upon my advice, *then* how can I guide you?`,
+            },
+            {
+              name: "Noun",
+              text: `A shopkeeper's money box is called a *till*.`,
+            },
+            {
+              name: "Verb",
+              text: `The farmer is *tilling* the land.`,
+            },
+            {
+              name: "Preposition",
+              text: `He did not turn up *till* yesterday.`,
+            },
+            {
+              name: "Conjunction",
+              text: `I will wait here *till* he returns.`,
+            },
+            {
+              name: "Noun",
+              text: `*Time* and tide waits for none.`,
+            },
+            {
+              name: "Verb",
+              text: `*Time* your watch to the clock tower.`,
+            },
+            {
+              name: "Adjective",
+              text: `Terrorists are planting *time* bombs.`,
+            },
+            {
+              name: "Adverb",
+              text: `Your debt is *time* barred now.`,
+            },
+            {
+              name: "Noun",
+              text: `I have seen many *ups* and downs in life.`,
+            },
+            {
+              name: "Adjective",
+              text: `He travelled by the *up* train.`,
+            },
+            {
+              name: "Adverb",
+              text: `Wake him *up*, please.`,
+            },
+            {
+              name: "Noun",
+              text: `This *wall* is made of stone.`,
+            },
+            {
+              name: "Verb",
+              text: `The city has been *walled* to defend it properly.`,
+            },
+            {
+              name: "Adjective",
+              text: `This is a *wall* clock.`,
+            },
+            {
+              name: "Noun",
+              text: `This *watch* is of Swiss make.`,
+            },
+            {
+              name: "Verb",
+              text: `I am *watching* your movements.`,
+            },
+            {
+              name: "Adjective",
+              text: `Have you a *watch* dog.`,
+            },
+            {
+              name: "Noun",
+              text: `*Water* serves us in many ways.`,
+            },
+            {
+              name: "Verb",
+              text: `*Water* the plants, please.`,
+            },
+            {
+              name: "Adjective",
+              text: `The picture is drawn in *water* colour.`,
+            },
+            {
+              name: "Noun",
+              text: `The deeper the *well*, the cooler the water.`,
+            },
+            {
+              name: "Verb",
+              text: `Tears *welled* up in the eyes of the old lady.`,
+            },
+            {
+              name: "Adjective",
+              text: `The *well* water is better than the spring water.`,
+            },
+            {
+              name: "Adverb",
+              text: `He always does *well* in the examination.`,
+            },
+            {
+              name: "Interjection",
+              text: `*Well* done!`,
+            },
+            {
+              name: "Noun",
+              text: `Let us wait for him for a *while*.`,
+            },
+            {
+              name: "Verb",
+              text: `Do not *while* away your time.`,
+            },
+            {
+              name: "Conjunction",
+              text: `I was sleeping, *while* he was busy in his work.`,
+            },
+            {
+              name: "Noun",
+              text: `Right your *wrongs*.`,
+            },
+            {
+              name: "Verb",
+              text: `He has *wronged* me too much.`,
+            },
+            {
+              name: "Adjective",
+              text: `They adopted a *wrong* policy.`,
             },
           ],
         },
