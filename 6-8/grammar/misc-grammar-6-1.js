@@ -38,6 +38,18 @@ home, noun
 late, adverb`,
         },
         {
+          title: "Match words and roles: My cat has big blue eyes.",
+          text: `my, pronoun
+cat, noun
+blue, adjective`,
+        },
+        {
+          title: "Match words and roles: John runs very quickly.",
+          text: `John, noun
+runs, verb
+quickly, adverb`,
+        },
+        {
           title: "Match words and roles: Can you pick up Dan on your way home?",
           text: `pick, verb
 Dan, noun
@@ -55,7 +67,6 @@ fees, noun
 or, conjunction
 not, adverb`,
         },
-
         {
           title: "Match words and roles: Yesterday, we went to the cinema",
           text: `yesterday, adverb
@@ -64,6 +75,110 @@ went, verb
 to, preposition
 the, article
 cinema, noun`,
+        },
+        {
+          title: "Match words and roles: The old man always walks with a limp.",
+          text: `old, adjective
+man, noun
+always, adverb
+walks, verb
+with, preposition`,
+        },
+        {
+          title:
+            "Match words and roles: John had luckily received two free tickets.",
+          text: `John, noun
+luckily, adverb
+received, verb
+two, adjective`,
+        },
+        {
+          title: "Match words and roles: My cat eats quickly.",
+          text: `my, pronoun
+cat, noun
+eats, verb
+quickly, adverb`,
+        },
+        {
+          title: "Match words and roles: Tom is really smart.",
+          text: `Tom, noun
+really, adverb
+smart, adjective`,
+        },
+        {
+          title:
+            "Match words and roles: Good students don't use the internet to cheat.",
+          text: `good, adjective
+students, noun
+don't, adverb
+use, verb
+the, article`,
+        },
+        {
+          title:
+            "Match words and roles: A little boy suddenly came running to me.",
+          text: `a, article
+little, adjective
+boy, noun
+running, verb
+me, pronoun`,
+        },
+        {
+          title:
+            "Match words and roles: My dog is quite naughty and likes to hew things up.",
+          text: `my, pronoun
+dog, noun
+quite, determiner
+naughty, adjective
+and, conjunction
+chew, verb`,
+        },
+        {
+          title: "Match words and roles: I walk to the store",
+          text: `I, pronoun
+walk, verb
+to, preposition
+the, article
+store, noun`,
+        },
+        {
+          title:
+            "Match words and roles: I walk to the store since the weather is sunny",
+          text: `I, pronoun
+walk, verb
+to, preposition
+the, article
+store, noun
+since, conjunction
+sunny, adjective`,
+        },
+        {
+          title:
+            "Match words and roles: My parents are traveling to Japan next month.",
+          text: `my, pronoun
+traveling, verb
+to, preposition
+Japan, noun`,
+        },
+        {
+          title:
+            "Match words and roles: The old lady was taking in a quiet voice.",
+          text: `The, article
+old, adjective
+lady, noun
+talking, verb`,
+        },
+        {
+          title:
+            "Match words and roles: Nora always makes delicious cakes and cookies for me.",
+          text: `Nora, proper noun
+always, adverb
+makes, verb
+delicious, adjective
+cakes, common noun
+and, conjunction
+for, preposition
+me, pronoun`,
         },
       ],
     },
