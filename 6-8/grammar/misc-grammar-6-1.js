@@ -106,6 +106,33 @@ really, adverb
 smart, adjective`,
         },
         {
+          title: "Match words and roles: She loves animals.",
+          text: `She, pronoun
+loves, verb
+animals, noun`,
+        },
+        {
+          title: "Match words and roles: Tara speaks good English.",
+          text: `Tara, noun
+speaks, verb          
+good, adjective`,
+        },
+        {
+          title: "Match words and roles: Tara speaks English well.",
+          text: `Tara, noun
+speaks, verb          
+well, adverb`,
+        },
+        {
+          title: "Match words and roles: She ran to the station quickly.",
+          text: `she, pronoun
+ran, verb
+to, preposition
+the, determiner
+station, noun
+quickly, adverb`,
+        },
+        {
           title:
             "Match words and roles: Good students don't use the internet to cheat.",
           text: `good, adjective
@@ -169,6 +196,13 @@ lady, noun
 talking, verb`,
         },
         {
+          title: "Match words and roles: She likes big snakes but I hate them.",
+          text: `she, pronoun
+likes, verb
+big, adjective
+but, conjunction`,
+        },
+        {
           title:
             "Match words and roles: Nora always makes delicious cakes and cookies for me.",
           text: `Nora, proper noun
@@ -179,6 +213,27 @@ cakes, common noun
 and, conjunction
 for, preposition
 me, pronoun`,
+        },
+        {
+          title:
+            "Match words and roles: She and my younger brother walk to school slowly.",
+          text: `she, pronoun
+and, conjunction
+my, determiner
+younger, adjective
+brother, noun
+walk, verb
+to, preposition
+slowly, adverb`,
+        },
+        {
+          title:
+            "Match words and roles: Wow, his monkeys really jump so high up.",
+          text: `wow, interjection
+his, pronoun
+so, adverb
+jump, verb
+high, adjective`,
         },
       ],
     },
