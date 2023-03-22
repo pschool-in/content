@@ -23,12 +23,7 @@ export default {
         ''
       ]
     },
-    {
-      type: 'rememberShapeColor',
-      id: 'remember-shape-color',
-      label: 'Remember Shape & Color',
-      data: {}
-    },
+
     {
       type: 'pattern',
       id: 'pattern',
@@ -66,6 +61,12 @@ export default {
           '2467840345'
         ]
       }
+    },
+    {
+      type: 'rememberShapeColor',
+      id: 'remember-shape-color',
+      label: 'Remember Shape & Color',
+      data: {}
     },
     {
       type: 'memoryFindOrder',
