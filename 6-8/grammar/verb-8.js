@@ -43,13 +43,13 @@ The child *looks* happy.`,
 Ben *is* the Vice Principal of a Girls High School.
 The teacher *was* absent today.
 My parents *were* tired after the long journey.
-Kenny *seems to be* a great man.`,
+Kenny *seems* to be a great man.`,
 
         `All it took was one wrong word to make the situation *turn* ugly.
 Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
 The dirty dog *smells* badly because his nose is clogged.
-William,s mom *is* a doctor.`,
+William's mom *is* a doctor.`,
       ],
     },
     {
