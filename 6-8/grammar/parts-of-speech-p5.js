@@ -1,6 +1,6 @@
 export default {
-  id: "misc-grammar-6-1",
-  label: "Misc Grammar 6",
+  id: "parts-of-speech-p5",
+  label: "Parts of Speech - Practice 5",
   lockAfter: 3,
   list: [
     {
