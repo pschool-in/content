@@ -88,36 +88,12 @@ high, adjective`,
     },
     {
       id: "direct-indirect",
-      label: "Find my speech - back",
+      label: "Find my speech",
       type: "classifySentence",
       commonData: {
         title: "Identify the parts of speech for the underlined word",
       },
       data: [
-        {
-          types: [
-            {
-              name: "Verb",
-              text: `The tribesmen are *nearing* the city.`,
-            },
-            {
-              name: "Adjective",
-              text: `He is my *near* relative.
-The end of the street is *near*.
-The two words are *near* synonyms.`,
-            },
-            {
-              name: "Adverb",
-              text: `Come *near*, please.
-I am *near* sighted.`,
-            },
-            {
-              name: "Preposition",
-              text: `He lives *near* our house.
-The voyage was *near* completion.`,
-            },
-          ],
-        },
         {
           types: [
             {
