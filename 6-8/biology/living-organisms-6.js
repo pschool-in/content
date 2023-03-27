@@ -1,12 +1,12 @@
 export default {
-  id: 'living-organisms-6',
-  label: 'Living Organisms',
+  id: "living-organisms-6",
+  label: "Living Organisms",
   lockAfter: 4,
   list: [
     {
-      id: 'notes',
-      label: 'The Living Organisms: Characteristics and Habitats - Reading',
-      type: 'passage',
+      id: "notes",
+      label: "The Living Organisms: Characteristics and Habitats - Reading",
+      type: "passage",
       data: {
         text: `# Organism and their Surroundings
 Organisms of various kinds are seen in each habitat be it cold, hot, dry or humid. At a desert we can see camels, the mountains has goats and yak, on the beach there are crabs and some creatures like ants are seen in all these different locations. The kinds of plants found in the different regions are also different from one another.
@@ -25,111 +25,120 @@ The organisms, both plants and animals, living in a habitat are its biotic compo
 5. All living organisms excrete. The process of getting rid of wastes by organisms is known as excretion.
 6. All living organisms reproduce. Living things produce more of their own kind through reproduction.
 7. All living organisms show some kind of movement. Plants are generally anchored in soil so they do not move from one place to another. However, various substances like water, minerals and the food synthesised by them move from one part of the plant to other. `,
-        title: 'Living Organisms'
-      }
+        title: "Living Organisms",
+      },
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'match-drag-drop-1',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "match-drag-drop-1",
       data: {
         styles: {
-          fontSize: '1rem',
-          dashWidth: 80
+          fontSize: "1rem",
+          dashWidth: 80,
         },
         text: `The presence of specific features, which enable a plant or an animal to live in a particular habitat, is called *adaptation*.
 The habitats of the plants and animals that live on land are called *teresstrial* habitat.
 The habitats of plants and animals that live in water are called *aquatic* habitat.
 Soil, water and air are the *abiotic* factors of a habitat.
-Changes in our surroundings that make us respond to them, are called *stimuli*.`
-      }
+Changes in our surroundings that make us respond to them, are called *stimuli*.`,
+      },
     },
     {
-      id: 'fillup',
-      label: 'Fill Up',
-      type: 'fillup',
+      id: "fillup",
+      label: "Fill Up",
+      type: "fillup",
       data: {
-        title: 'Click the blanks and fill it with the right word.',
+        title: "Click the blanks and fill it with the right word.",
         text: `The surroundings where plants and animals live, is called their *habitat (surrounding)*.
 The presence of specific features and habits, which enable a plant or an animal to live in a particular habitat, is called *adaptation (characteristic)*.
 There is a *wide variety (same types)* of organisms present in different habitats.
 Plants, animals and microorganisms together constitute *biotic (abiotic)* components.
 Rocks, soil, air, water, light and temperature are some of the *abiotic (biotic)* components of our surroundings.
-Living things have certain common characteristics — they *need (do not need)* food, they *respire (do not respire)* and excrete, *respond (do not respond)* to their environment, reproduce, grow and show movement.`
-      }
+Living things have certain common characteristics — they *need (do not need)* food, they *respire (do not respire)* and excrete, *respond (do not respond)* to their environment, reproduce, grow and show movement.`,
+      },
     },
     {
-      id: 'yes-no',
-      label: 'Yes or No',
-      type: 'classifySentence',
+      id: "yes-no",
+      label: "Yes or No",
+      type: "classifySentence",
       data: {
         title:
-          'Classify if the given features are characteristics of a living organism.',
+          "Classify if the given features are characteristics of a living organism.",
         types: [
           {
-            name: 'Yes',
+            name: "Yes",
             text: `They respire and excrete.
 They need food for survival.
 They reproduce.
-They show growth.`
+They show growth.`,
           },
           {
-            name: 'No',
+            name: "No",
             text: `They cannot move.
 They do not respond to stimuli.
-They do not breathe.`
-          }
-        ]
-      }
+They do not breathe.`,
+          },
+        ],
+      },
     },
     {
-      id: 'match',
-      label: 'Match the following',
-      type: 'match',
+      id: "match",
+      label: "Match the following",
+      type: "match",
       data: {
         text: `Camel, Desert
 Lion, Grassland
 Octopus, Ocean
 Snow leopard, Mountain
 Frog, pond`,
-        title: 'Match the animal to their respective habitat.'
-      }
+        title: "Match the animal to their respective habitat.",
+      },
     },
     {
-      id: 'mcq-2',
-      label: 'Multiple Choice Questions - MCQ',
-      type: 'mcq',
+      id: "mcq-2",
+      label: "Multiple Choice Questions - MCQ",
+      type: "mcq",
       data: {
-        title: 'Multiple Choice Questions',
+        title: "Multiple Choice Questions",
         questions: [
           {
-            qText: 'Who collect garbage in garbage trucks?',
-            options: `Safai karamcharis, Saf karamcharis, Safai charis`
+            qText: "Which of the following is a non-living thing?",
+            options: `Bus, Plants, Animals`,
           },
           {
-            qText: 'What is done with the usefull garbage?',
-            options: `Use to make compost, Dumped in landfill, Disposed in water bodies.`
+            qText: "Which is not a characteristic of a living organism?",
+            options: `They do not move from one place to another.
+They respie, repoduce and excrete.
+The need food to survive.`,
           },
           {
-            qText: 'What to plastics give out on burning?',
-            options: `Harmfull gases, Oxygen`
+            qText: "Which of the following statements is incorrect?",
+            options: `Plants do not move therefore they are considered as non living things, Goat have strong hooves so that they can climb mountains, Lion is a predator that feeds on prey like deer`,
           },
           {
-            qText:
-              'When plastic enters a sewer system what damage can it cause?',
-            options: `It can block drains, Allow water to pass freely `
+            qText: "Which of the following is an adaptation of a desert plant?",
+            options: `They have long roots, Leaf undergoes photosynthesis, They do not store water `,
           },
           {
-            qText: 'What can be used to substitute plastic carry bags?',
-            options: `Jute or cotton carry bags, Polythene bags, Disposable plastics`
-          }
-        ]
-      }
+            qText: "Which of the following is an adaptation of a deer?",
+            options: `They have long ears to hear movements of predators, They have thick fur all over their body, They have gills`,
+          },
+          {
+            qText: "Which of the following is not a predator?",
+            options: `Deer, Lion, Fox`,
+          },
+          {
+            qText: "Which of the following is not a prey?",
+            options: `Fox, Rabbit, Goat`,
+          },
+        ],
+      },
     },
     {
-      id: 'notes-2',
-      label: 'Different Habitats and Their Adaptations - Reading',
-      type: 'passage',
+      id: "notes-2",
+      label: "Different Habitats and Their Adaptations - Reading",
+      type: "passage",
       data: {
         text: `# Desert
 The body structure of a camel helps it to survive in desert conditions. Camels have long legs which help to keep their bodies away from the heat of the sand. They excrete small amount of urine, their dung is dry and they do not sweat. Since camels lose very little water from their bodies, they can live for many days without water. The desrt animals like rats and snakes that do not have long legs that a camel has stay away from the intense heat during the day by staying in burrows deep in the sand. These animals come out only during the night, when it is cooler. Desert plants lose very little water through transpiration. The leaves in desert plants are either absent, very small, or they are in the form of spines. This helps in reducing loss of water from the leaves through transpiration. The leaf-like structure you see in a cactus is its stem. Photosynthesis in these plants is usually carried out by the stems. The stem is also covered with a thick waxy layer, which helps to retain water in the tissues of cacti. Most desert plants have roots that go very deep into the soil for absorbing water.
@@ -145,108 +154,108 @@ The body structure of a fish is streamlined which help them to swim. They have s
 
 # Ponds and lakes
 In terrestrial plants, roots normally play a very important role in the absorption of nutrients and water from the soil. However, in aquatic plants, roots are much reduced in size and their main function is to hold the plant in place. The stems of these plants are long, hollow and light. The stems grow up to the surface of water while the leaves and flowers, float on the surface of water. Some aquatic plants are submerged in water. All parts of such plants are under water. Some of these plants have narrow and thin ribbon-like leaves. These can bend in the flowing water. In some submerged plants, leaves are often highly divided, through which the water can easily flow without damaging them. Frogs usually live in ponds. Frogs can stay both inside the water as well as move on land. They have strong back legs that help them in leaping and catching their prey. They have webbed feet which help them swim in water. `,
-        title: 'Different Habitats and Their Adaptations'
-      }
+        title: "Different Habitats and Their Adaptations",
+      },
     },
     {
-      label: 'Ponds and Lakes',
-      type: 'matchByDragDrop',
-      id: 'pond-lake',
+      label: "Ponds and Lakes",
+      type: "matchByDragDrop",
+      id: "pond-lake",
       data: {
         styles: {
-          fontSize: '1rem',
-          dashWidth: 80
+          fontSize: "1rem",
+          dashWidth: 80,
         },
         text: `In aquatic plants, *roots* are much reduced in size and their main function is to hold the plant in place.
 The stems of these plants are long, hollow and *light*. 
 The *stems* grow up to the surface of water while the leaves and *flowers*, float on the surface of water. 
 Some aquatic plants are *submerged* in water. 
 *Frogs* usually live in ponds. 
-Frogs have *webbed* feet which help them swim in water.`
-      }
+Frogs have *webbed* feet which help them swim in water.`,
+      },
     },
     {
-      id: 'fillup-oceans',
-      label: 'Oceans',
-      type: 'fillup',
+      id: "fillup-oceans",
+      label: "Oceans",
+      type: "fillup",
       data: {
-        title: 'Click the blanks and fill it with the right word.',
+        title: "Click the blanks and fill it with the right word.",
         text: `The body structure of a fish is streamlined which help them to *swim (catch prey)*.
 Fishes have slippery scales on their bodies which *protect (give shape to)* the fish and also help in movement. 
 *Gills (Lungs)* help to use oxygen dissolved in water. 
 There are some sea animals like squids and octopus, which *do not have (have)* this streamlined shape. 
 Dolphins and whales *do not have (have)* gills. 
-Dolphins breathe in air through *nostrils (gills)* or blowholes that are located on the upper parts of their heads.`
-      }
+Dolphins breathe in air through *nostrils (gills)* or blowholes that are located on the upper parts of their heads.`,
+      },
     },
     {
-      id: 'camel-fish',
-      label: 'Camel or Fish',
-      type: 'classifySentence',
+      id: "camel-fish",
+      label: "Camel or Fish",
+      type: "classifySentence",
       data: {
-        title: 'Classify the characters given as adaptations of fish or camel.',
+        title: "Classify the characters given as adaptations of fish or camel.",
         types: [
           {
-            name: 'Camel',
+            name: "Camel",
             text: `Have long legs.
 Excrete small amount of urine
 Their dung is dry.
 They do not sweat.
-They can live for many days without water.`
+They can live for many days without water.`,
           },
           {
-            name: 'Fish',
+            name: "Fish",
             text: `Have gills.
 They have streamlined body.
 They have flat tails.
-They have scales on their body.`
-          }
-        ]
-      }
+They have scales on their body.`,
+          },
+        ],
+      },
     },
     {
-      id: 'mountain-desert',
-      label: 'Mountain or Desert',
-      type: 'classifySentence',
+      id: "mountain-desert",
+      label: "Mountain or Desert",
+      type: "classifySentence",
       data: {
         title:
-          'Classify the characters given as adaptations of mountain or desert plants and animals.',
+          "Classify the characters given as adaptations of mountain or desert plants and animals.",
         types: [
           {
-            name: 'Mountain',
+            name: "Mountain",
             text: `Animals have thick fur. 
 Trees are cone shaped.
-Goats have strong hooves.`
+Goats have strong hooves.`,
           },
           {
-            name: 'Desert',
+            name: "Desert",
             text: ` Plants have spines.
 Photosynthesis is carried out by stem.
-Some animals come out only at night.`
-          }
-        ]
-      }
+Some animals come out only at night.`,
+          },
+        ],
+      },
     },
     {
-      id: 'true-false',
-      label: 'True or False',
-      type: 'classifySentence',
+      id: "true-false",
+      label: "True or False",
+      type: "classifySentence",
       data: {
-        title: 'True or False',
+        title: "True or False",
         types: [
           {
-            name: 'True',
+            name: "True",
             text: `Frogs can live on land and water.
 Dolphins do not have gills.
-Camels do not sweat.`
+Camels do not sweat.`,
           },
           {
-            name: 'False',
+            name: "False",
             text: `Octopus have gills.
-Snow leopards have strong hooves.`
-          }
-        ]
-      }
-    }
-  ]
+Snow leopards have strong hooves.`,
+          },
+        ],
+      },
+    },
+  ],
 };
