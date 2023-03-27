@@ -106,10 +106,12 @@ export default {
           label: 'எழுத்துக்கள் - 2',
           id: 'ta-letter-2'
         },
+        /*
         {
           label: 'வார்த்தை - 2',
           id: 'ta-word-2'
         },
+        */
         {
           label: 'எழுத்துப்பிழை',
           id: 'ta-spell'
