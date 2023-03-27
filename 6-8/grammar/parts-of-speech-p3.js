@@ -88,7 +88,7 @@ with, preposition`,
     },
     {
       id: "direct-indirect",
-      label: "Find my speech - back",
+      label: "Find my speech",
       type: "classifySentence",
       commonData: {
         title: "Identify the parts of speech for the underlined word",
