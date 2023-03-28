@@ -1,32 +1,39 @@
 export default {
-  id: 'infinitive-8',
-  label: 'Infinitives',
+  id: "infinitive-8",
+  label: "Infinitives",
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
-      type: 'passage',
-      id: 'passage',
+      label: "Notes",
+      type: "passage",
+      id: "passage",
       data: {
-        title: 'Infinitives',
+        title: "Infinitives",
         text: [
-          `A gerund is a word ending with 'ing' and has the force of a noun and a verb. It is also known as a verbal noun. A word that is not limited by the person or number of the subject is known as an Infinitive. It is a kind of verb having certain features of a noun. So it is also treated as a verb-noun.`,
+          `A gerund is a word ending with 'ing' and has the force of a noun and a verb. It is also known as a verbal noun. A word that is not limited by the person or number of the subject is known as an Infinitive. It is a kind of verb having certain features of a noun. So it is also treated as a verb-noun.
+Infinitive = to + the base form of the verb, e.g., to sing, to dance, to run.`,
           {
-            type: 'html',
+            type: "html",
             text: `<b>Example</b> - <b>To advise others</b> is easy.<br>
-<b>To learn</b> English is difficult.`
-          }
-        ]
-      }
+<b>To learn</b> English is difficult.`,
+          },
+          `Infinitives don't have to stand alone. Infinitives can work with other words to form an infinitive phrase. To put it simply, infinitive phrases use additional words to modify or further describe the main infinitive.`,
+          {
+            type: "html",
+            text: `<b>Example</b> - My boss <b>told me to pay attention</b>, but I wasn't listening.<br>
+I <b>need you to get me out of here</b>.`,
+          },
+        ],
+      },
     },
     {
-      type: 'selectWord',
-      label: 'Identify Infinitives',
-      id: 'select-word',
+      type: "selectWord",
+      label: "Identify Infinitives",
+      id: "select-word",
       lockAfter: 1,
       commonData: {
-        title: 'Identify the Infinitives from the following sentences.',
-        multiSelect: true
+        title: "Identify the Infinitives from the following sentences.",
+        multiSelect: true,
       },
       data: [
         `I love *to speak* English.
@@ -79,16 +86,16 @@ You *might tell* me the truth.`,
         `You *can* wait here.
 She *could explain* the poem to me.
 He *did* it well.
-He *must return* the money.`
-      ]
+He *must return* the money.`,
+      ],
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-drop',
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "drag-drop",
       lockAfter: 1,
       commonData: {
-        title: 'Fill in the blanks using the most suitable words.'
+        title: "Fill in the blanks using the most suitable words.",
       },
       data: [
         `You *should* do your work.
@@ -106,17 +113,17 @@ You *might* tell me the truth.`,
         `You *can* wait here.
 She *could* explain the poem to me.
 He *did* it well.
-He *must* return the money.`
-      ]
+He *must* return the money.`,
+      ],
     },
     {
-      label: 'Correct or Incorrect',
-      type: 'classifySentence',
-      id: 'correct-incorrect',
+      label: "Correct or Incorrect",
+      type: "classifySentence",
+      id: "correct-incorrect",
       commonData: {
         title:
-          'Classify the following sentences based on the correct usage of Infinitives.',
-        types: ['Correct', 'Incorrect']
+          "Classify the following sentences based on the correct usage of Infinitives.",
+        types: ["Correct", "Incorrect"],
       },
       data: [
         [
@@ -128,7 +135,7 @@ He did no more than laugh.`,
           `I expect Madhavi to carefully read the letter.
 She tried to clearly explain the situation.
 He did nothing but to laugh.
-He did no more than to laugh.`
+He did no more than to laugh.`,
         ],
         [
           `I went there personally to see the situation.
@@ -139,7 +146,7 @@ It lies in my power to succeed or to fail.`,
           `I went there to personally see the situation.
 I request you to kindly grant my application.
 He helped me to progress and to prosper.
-It lies in my power to succeed or fail.`
+It lies in my power to succeed or fail.`,
         ],
         [
           `We are advised to rejoice and to weep with others.
@@ -152,9 +159,9 @@ He has no paper to write on.`,
 I should have liked to have gone.
 He seemed to enjoy his stay in Mumbai.
 I gave him a pen to write.
-He has no paper to write.`
-        ]
-      ]
-    }
-  ]
+He has no paper to write.`,
+        ],
+      ],
+    },
+  ],
 };
