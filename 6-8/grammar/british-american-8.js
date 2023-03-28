@@ -14,26 +14,69 @@ export default {
 1. Pronunciation: British English and American sound noticeably different. The most obvious difference is the way the letter r is pronounced. In British English, when r comes after a vowel in the same syllable (as in car, hard, or market), the r is not pronounced. In American English, the r is pronounced.
 2. Vocabulary: There are many differences between American and British English vocabulary. Here are 10 common words in American English followed by their British English equivalents:
 American - British
-a)  elevator - lift
-b)  garbage - rubbish
-c)  vacation - holiday
-d)  truck - lorry
-e)  sweater - jumper
-f)  cookie - biscuit
-g)  french fries - chips
-h)  line - queue
-i)  parking lot - car park
-j)  silverware - cutlery
+antenna - aerial; mad - angry
+anyplace - anywhere; fall - autumn
+bill - bank note; attorney - barrister
+cookie - biscuit; hood - bonnet
+trunk - boot; movies - cinema
+patrolman - constable; stove - cooker
+crib - cot; wreck - crash
+intersection - crossroads; drapes - curtains
+thumbtack - drawing pin; generator - dynamo
+movie - film; apartment - flat
+overpass - flyover; yard - garden
+boiler - grill; purse - handbag
+billboard - hoarding; vacation - holiday
+vacuum cleaner - hoover; sick - ill
+intermission - interval; sweater - jumper
+pitcher - jug; elevator - lift
+truck - lorry; baggage - luggage
+raincoat - mackintosh; highway - main road
+corn - maize; diaper - nappy
+vicious - nasty; noplace - nowhere
+optometrist - optician; sidewalk - pavement
+peek - peep; mail - post
+mailbox - postbox; mailman - postman
+baby carriage - pram; restroom - public toilet
+blow-out - puncture; line - queue
+traffic circle - roundabout; eraser - rubber
+Scotch tape - cellotape; store - shop
+wrench - spanner; faculty - staff 
+candy - sweets; faucet - tap
+cab - taxi; dish-towel - tea-towel
+semester - term; schedule - timetable
+can - tin; flashlight - torch
+pants - trousers; vest - waistcoat
+closet - wardrobe; windshield - windscreen
+fender - wing; zipper - zip 
 3. Spelling: Below are three rules you can follow.
 a) Most words ending in -our in British English are spelled without the u in American English `,
           {
             type: "html",
-            text: `humo<b>u</b>r/humor, behavio<b>u</b>r/behavior, etc.`,
+            text: `arbo<b>u</b>r/arbor; ardo<b>u</b>r/arbor <br>
+armo<b>u</b>r/armor; behavio<b>u</b>r/behavior <br>
+cando<b>u</b>r/candor; clamo<b>u</b>r/clamor <br>
+colo<b>u</b>r/color; demeano<b>u</b>r/demeanor <br>
+endeavo<b>u</b>r/endeavor; favo<b>u</b>r/favor <br>
+flavo<b>u</b>r/flavor; harbo<b>u</b>r/habor <br>
+hono<b>u</b>r/honor; humo<b>u</b>r/humor <br>
+labo<b>u</b>r/labor; neighbo<b>u</b>r/neighbor <br>
+odo<b>u</b>r/odor; parlo<b>u</b>r/parlor <br>
+ranco<b>u</b>r/rancor; rigo<b>u</b>r/rigor <br>
+rumo<b>u</b>r/rumor; savio<b>u</b>r/savior <br>
+savo<b>u</b>r/savor; splendo<b>u</b>r/splendor <br>
+tumo<b>u</b>r/tumor; valo<b>u</b>r/valor <br>
+vigo<b>u</b>r/vigor`,
           },
           `b) Most words ending in -re in British English are spelled with -er in American English`,
           {
             type: "html",
-            text: `cent<b>re</b>/cent<b>er</b>, lit<b>re</b>/lit<b>er</b>, etc.`,
+            text: `calib<b>re</b>/calib<b>er</b>; cent<b>re</b>/cent<b>er</b> <br>
+fib<b>re</b>/fib<b>er</b>; lit<b>re</b>/lit<b>er</b> <br>
+lust<b>re</b>/lust<b>er</b>; meag<b>re</b>/meag<b>er</b> <br>
+met<b>re</b>/met<b>er</b>; sab<b>re</b>/sab<b>er</b> <br>
+scept<b>re</b>/scept<b>er</b>; sepulch<b>re</b>/sepulch<b>er</b> <br>
+somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`,
           },
           `c) Many British English verbs ending in -ise are spelled with -ize in American English `,
           {
@@ -59,62 +102,49 @@ anyplace, anywhere
 fall, autumn
 bill, bank note`,
 
-        `attorney,barrister
-cookie, biscuit
+        `cookie, biscuit
 hood, bonnet
-trunk, boot`,
+trunk, boot
+movies, cinema
+patrolman, constable`,
 
-        `the movies, the cinema
-patrolman, constable
-stove, cooker
+        `stove, cooker
 crib, cot
-wreck, crash`,
-
-        `intersection, crossroads
+wreck, crash
 drapes, curtains
-thumbtack, drawing pin
-generator, dynamo`,
+movie, film`,
 
-        `movie, film
-apartment, flat
+        `apartment, flat
 overpass, flyover
-yard, garden`,
-
-        `boiler, grill
-purse, handbag
-billboard, hoarding
-vacation, holiday
-vacuum cleaner, hoover`,
+yard, garden
+boiler, grill
+purse, handbag`,
 
         `sick, ill
-intermission, interval
 sweater, jumper
 pitcher, jug
-elevator, lift`,
+elevator, lift
+truck, lorry`,
 
-        `truck, lorry
-baggage, luggage
+        `baggage, luggage
 raincoat, mackintosh
-highway, main road`,
+highway, main road
+corn, maize
+diaper, nappy`,
 
-        `corn, maize
-diaper, nappy
-vicious, nasty
+        `vicious, nasty
 noplace, nowhere
-optometrist, optician`,
-
-        `sidewalk, pavement
+optometrist, optician
 peek, peep
-mail, post
-mailbox, postbox
-mailman, postman`,
+mail, post`,
 
-        `baby carriage, pram
+        `mailbox, postbox
+mailman, postman
+baby carriage, pram
 restroom, public toilet
-blow-out, puncture
-line, queue`,
+blow-out, puncture`,
 
-        `traffic circle, roundabout
+        `line, queue
 eraser, rubber
 Scotch tape, cellotape
 store, shop
@@ -123,20 +153,102 @@ wrench, spanner`,
         `faculty, staff 
 candy, sweets
 faucet, tap
-cab, taxi`,
+cab, taxi
+dish-towel, tea-towel`,
 
-        `dish-towel, tea-towel
-semester, term
+        `semester, term
 schedule, timetable
 can, tin
-flashlight, torch`,
+flashlight, torch
+zipper, zip`,
 
         `pants, trousers
 vest, waistcoat
 closet, wardrobe
 windshield, windscreen
-fender, wing
-zipper, zip `,
+fender, wing`,
+
+        `attorney, barrister
+intersection, crossroads
+traffic circle, roundabout
+thumbtack, drawing pin
+generator, dynamo`,
+
+        `sidewalk, pavement
+billboard, hoarding
+intermission, interval
+vacation, holiday
+vacuum cleaner, hoover`,
+      ],
+    },
+    {
+      label: "British or American",
+      id: "british-american",
+      type: "group",
+      commonData: {
+        title: "Classify the below words as American or British English",
+      },
+      data: [
+        {
+          types: [
+            {
+              name: "American",
+              text: "antenna, mad, anyplace, fall, bill",
+            },
+            {
+              name: "British",
+              text: "aerial, angry, anywhere, autumn, bank note",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "attorney, cookie, hood, trunk, movies",
+            },
+            {
+              name: "British",
+              text: "barrister, biscuit, bonnet, boot, cinema",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "patrolman, stove, crib, wreck",
+            },
+            {
+              name: "British",
+              text: "constable, cooker, cot, crash",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "intersection, drapes, thumbtack, generator",
+            },
+            {
+              name: "British",
+              text: "crossroads, curtains, drawing pin, dynamo",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "movie, apartment, overpass, yard",
+            },
+            {
+              name: "British",
+              text: "film, flat, flyover, garden",
+            },
+          ],
+        },
       ],
     },
     {
@@ -353,6 +465,130 @@ cosy, cozy
 doughnut, donut
 draught, draft
 gaol, jail`,
+      ],
+    },
+    {
+      type: "rightOne",
+      label: "British English",
+      id: "biggest",
+      commonData: {
+        title: `Pick the british spelling.`,
+        printTitle: "Circle the british spelling.",
+        fontSize: "1.3rem",
+      },
+      data: [
+        `arbour, arbor
+ardour, ardor
+armour, armor
+behaviour, behavior
+candour, candor
+clamour, clamor
+colour, color
+demeanour, demeanor
+endeavour, endeavor
+favour, favor`,
+
+        `flavour, flavor
+harbour, habor
+honour, honor
+humour, humor
+labour, labor
+neighbour, neighbor
+odour, odor
+parlour, parlor
+rancour, rancor
+rigour, rigor`,
+
+        `rumour, rumor
+saviour, savior
+savour, savor
+splendour, splendor
+tumour, tumor
+valour, valor
+vigour, vigor
+calibre, caliber
+centre, center
+fibre, fiber`,
+
+        `litre, liter
+lustre, luster
+meagre, meager
+metre, meter
+sabre, saber
+sceptre, scepter
+sepulchre, sepulcher
+sombre, somber
+theatre, theater`,
+      ],
+    },
+    {
+      label: "British or American",
+      id: "british-american",
+      type: "group",
+      commonData: {
+        title: "Classify the below spellings as American or British English",
+      },
+      data: [
+        {
+          types: [
+            {
+              name: "American",
+              text: "arbor, ardor, armor, behavior, candor",
+            },
+            {
+              name: "British",
+              text: "arbour, ardour, armour, behaviour, candour",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "clamor, color, demeanor, endeavor, favor",
+            },
+            {
+              name: "British",
+              text: "clamour, colour, demeanour, endeavour, favour",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "flavor, habor, honor, humor",
+            },
+            {
+              name: "British",
+              text: "flavour, harbour, honour, humour",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "rumor, savior, savor, splendor, tumor",
+            },
+            {
+              name: "British",
+              text: "rumour, saviour, savour, splendour, tumour",
+            },
+          ],
+        },
+        {
+          types: [
+            {
+              name: "American",
+              text: "liter, luster, meager, meter, saber",
+            },
+            {
+              name: "British",
+              text: "litre, lustre, meagre, metre, sabre",
+            },
+          ],
+        },
       ],
     },
   ],
