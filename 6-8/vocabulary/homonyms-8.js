@@ -19,299 +19,84 @@ Homonyms may be used to refer to either homophones or homographs.`,
     },
     {
       type: "completeWord",
-      label: "Write the Homophone",
       id: "complete-word",
-      commonData: {
-        lang: "en",
-        title: "Type the homophone of the given word.",
-      },
+      label: "Complete the Homophones ",
       data: [
-        {
-          word: "THIER",
-          display: "T____",
-          hint: "there",
-        },
-        {
-          word: "TWO",
-          display: "T__",
-          hint: "to, too ",
-        },
-        {
-          word: "BYE",
-          display: "B__",
-          hint: "by, buy ",
-        },
-        {
-          word: "EYE",
-          display: "E__",
-          hint: "I",
-        },
-        {
-          word: "SEA",
-          display: "S__",
-          hint: "see",
-        },
-        {
-          word: "DEER",
-          display: "D___",
-          hint: "dear",
-        },
-        {
-          word: "BEAR",
-          display: "B___",
-          hint: "bare",
-        },
-        {
-          word: "HARE",
-          display: "H___",
-          hint: "hair",
-        },
-        {
-          word: "HEAR",
-          display: "H___",
-          hint: "here",
-        },
-        {
-          word: "HEIR",
-          display: "H___",
-          hint: "air",
-        },
-        {
-          word: "WEAR",
-          display: "W___",
-          hint: "where",
-        },
-        {
-          word: "PARE",
-          display: "P___",
-          hint: "pair, pear ",
-        },
-        {
-          word: "FARE",
-          display: "F___",
-          hint: "fair ",
-        },
-        {
-          word: "RITE",
-          display: "R___",
-          hint: "right, write",
-        },
-        {
-          word: "CITE",
-          display: "C___",
-          hint: "sight, site",
-        },
-        {
-          word: "STEEL",
-          display: "S____",
-          hint: "steal",
-        },
-        {
-          word: "PLANE",
-          display: "P____",
-          hint: "plain",
-        },
-        {
-          word: "SAIL",
-          display: "S___",
-          hint: "sale",
-        },
-        {
-          word: "BRAKE",
-          display: "B____",
-          hint: "break",
-        },
-        {
-          word: "KNOW",
-          display: "K___",
-          hint: "no",
-        },
-        {
-          word: "WEAK",
-          display: "W___",
-          hint: "week",
-        },
-        {
-          word: "ADD",
-          display: "A__",
-          hint: "ad ",
-        },
-        {
-          word: "MEAT",
-          display: "M___",
-          hint: "meet",
-        },
-        {
-          word: "CELL",
-          display: "C___",
-          hint: "sell",
-        },
-        {
-          word: "GRATE",
-          display: "G____",
-          hint: "great",
-        },
-        {
-          word: "PEACE",
-          display: "P____",
-          hint: "piece",
-        },
-        {
-          word: "ATE",
-          display: "A__",
-          hint: "eight",
-        },
-        {
-          word: "ONE",
-          display: "O__",
-          hint: "won",
-        },
-        {
-          word: "FLOUR",
-          display: "F____",
-          hint: "flower",
-        },
-        {
-          word: "FORE",
-          display: "F___",
-          hint: "for, four",
-        },
-        {
-          word: "HOUR",
-          display: "H___",
-          hint: "our",
-        },
-        {
-          word: "WEIGHT",
-          display: "W_____",
-          hint: "wait ",
-        },
-        {
-          word: "KNIGHT",
-          display: "K_____",
-          hint: "night ",
-        },
-        {
-          word: "MAIL",
-          display: "M___",
-          hint: "male",
-        },
-        {
-          word: "SUN",
-          display: "S__",
-          hint: "son",
-        },
-        {
-          word: "BORED",
-          display: "B____",
-          hint: "board",
-        },
-        {
-          word: "WHOLE",
-          display: "W____",
-          hint: "hole",
-        },
-        {
-          word: "SUITE",
-          display: "S____",
-          hint: "sweet",
-        },
-        {
-          word: "TAIL",
-          display: "T___",
-          hint: "tail",
-        },
+        `there |THEIR 
+to, too |TWO
+it's |ITS
+you're |YOUR 
+who's |WHOSE 
+by, buy |BYE`,
+
+        `I |EYE
+see |SEA
+dear |DEER
+bare |BEAR
+hair |HARE`,
+
+        `here |HEAR
+air |HEIR
+where |WEAR
+pair, pear |PARE
+fair |FARE`,
+
+        `right, write |RITE 
+sight, site |CITE
+steal |STEEL
+plain |PLANE
+sale |SAIL`,
+
+        `break |BRAKE
+know |NO| __
+week |WEAK
+add |AD| __
+meet |MEAT`,
+
+        `sell |CELL
+great |GRATE
+piece |PEACE
+eight |ATE
+one |WON`,
+
+        `flower |FLOUR
+for, four |FORE
+our |HOUR
+wait |WEIGHT
+night |KNIGHT`,
+
+        `male |MAIL
+son |SUN
+board |BORED
+hole |WHOLE
+sweet |SUITE
+tail |TALE`,
       ],
     },
     {
       type: "completeWord",
-      label: "Write the Homograph",
-      id: "complete-word-1",
-      commonData: {
-        lang: "en",
-        title: "Type the homograph of the given meanings.",
-      },
+      id: "complete-word",
+      label: "Find the Homograph",
       data: [
-        {
-          word: "MINUTE",
-          display: "M_____",
-          hint: "the noun meaning “60 seconds”; the adjective meaning “very small” ",
-        },
-        {
-          word: "BASS",
-          display: "B___",
-          hint: "the fish; the instrument",
-        },
-        {
-          word: "POLISH",
-          display: "P_____",
-          hint: "from Poland; to make something shiny",
-        },
-        {
-          word: "BOW",
-          display: "B__",
-          hint: "the noun referring to a ribbon tied in a decorative way; the verb meaning to bend reverently",
-        },
-        {
-          word: "CLOSE",
-          display: "C____",
-          hint: "the adjective meaning “nearby”; the verb meaning “to shut” ",
-        },
-        {
-          word: "LEAD",
-          display: "L___",
-          hint: "the metal; the verb meaning “to act as a leader”",
-        },
-        {
-          word: "BEAR",
-          display: "B___",
-          hint: "the animal; the verb meaning “to carry” ",
-        },
-        {
-          word: "RING",
-          display: "R___",
-          hint: "a circle; a type of jewelry; what a phone does",
-        },
-        {
-          word: "FAN",
-          display: "F__",
-          hint: "the appliance that makes wind; an admirer/appreciator",
-        },
-        {
-          word: "BAND",
-          display: "B___",
-          hint: "music group; a ring or strap ",
-        },
-        {
-          word: "BAT",
-          display: "B__",
-          hint: "the animal; a baseball bat",
-        },
-        {
-          word: "KIND",
-          display: "K___",
-          hint: "the adjective meaning “nice”; the noun meaning “type”",
-        },
-        {
-          word: "PART",
-          display: "P___",
-          hint: "a component of something; a line in one’s hair; the verb meaning “to separate” ",
-        },
-        {
-          word: "PARK",
-          display: "P___",
-          hint: "a noun meaning an outdoor space; a verb meaning what you do to a car",
-        },
-        {
-          word: "CLASS",
-          display: "C____",
-          hint: "lesson; category; classiness",
-        },
-        {
-          word: "FAIR",
-          display: "F___",
-          hint: "equitable or according to the rules; a carnival",
-        },
+        `the noun meaning “60 seconds”; the adjective meaning “very small” |MINUTE
+the fish; the instrument |BASS
+from Poland; to make something shiny |POLISH
+the noun referring to a ribbon tied in a decorative way; the verb meaning to bend reverently |BOW`,
+
+        `the adjective meaning “nearby”; the verb meaning “to shut” |CLOSE
+the metal; the verb meaning “to act as a leader” |LEAD
+the animal; the verb meaning “to carry” |BEAR
+a circle; a type of jewelry; what a phone does |RING
+the appliance that makes wind; an admirer/appreciator |FAN `,
+
+        `music group; a ring or strap |BAND
+the animal; a baseball bat |BAT 
+the adjective meaning “nice”; the noun meaning “type” |KIND
+a component of something; a line in one,s hair; the verb meaning “to separate” |PART`,
+
+        `a noun meaning an outdoor space; a verb meaning what you do to a car |PARK
+lesson; category; classiness |CLASS
+equitable or according to the rules; a carnival |FAIR`,
       ],
     },
     {

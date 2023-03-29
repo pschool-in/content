@@ -23,6 +23,64 @@ Infinitive = to + the base form of the verb, e.g., to sing, to dance, to run.`,
             text: `<b>Example</b> - My boss <b>told me to pay attention</b>, but I wasn't listening.<br>
 I <b>need you to get me out of here</b>.`,
           },
+          `# Use of Infinitive 
+1. As the subject of the a verb`,
+          {
+            type: "html",
+            text: `<b>Example</b> - <b>It is easy to advise</b> others.<br>
+<b>To advise others</b> is easy.`,
+          },
+          `2. As the object of a transitive verb`,
+          {
+            type: "html",
+            text: `<b>Example</b> - I wish <b>to become a poet</b>.`,
+          },
+          `3. As the complement of a verb`,
+          {
+            type: "html",
+            text: `<b>Example</b> - Our greatest pleasure is ,b>to help the poor</b>.`,
+          },
+          `4. As the object of a preposition`,
+          {
+            type: "html",
+            text: `<b>Example</b> - I had no choice <b>but to give up my hope</b>.`,
+          },
+          `5. As an object complement`,
+          {
+            type: "html",
+            text: `<b>Example</b> - I noticed Madhavi <b>smile at me</b>.`,
+          },
+          `6. To qualify a verb to express purpose`,
+          {
+            type: "html",
+            text: `<b>Example</b> - I read books <b>to increase my knowledge</b>.`,
+          },
+          `7. To qualify an adjective`,
+          {
+            type: "html",
+            text: `<b>Example</b> - It is hard <b>to please Padma</b>. `,
+          },
+          `8. To qualify a noun`,
+          {
+            type: "html",
+            text: `<b>Example</b> - It is not the time <b>to sleep</b>.`,
+          },
+          `9. To qualify a sentence`,
+          {
+            type: "html",
+            text: `<b>Example</b> - <b>To tell the truth</b>, we have no problem with you.`,
+          },
+          `Infinitives are of two types: bare infinitive and split infinitive. Bare Infinitives can be replaced by 'to' Infinitives.`,
+          {
+            type: "html",
+            text: `<b>Example</b> - I can <b>teach</b>. => I am <b>able to teach</b>.`,
+          },
+          `It is generally treated wrong to split an Infinitive in the middle. The adverb can be used either before 'to' or after the Infinitive.`,
+          {
+            type: "html",
+            text: `I expect Madhavi to carefully read the letter. => <b>Incorrect</b><br>
+I expect Madhavi to read the letter carefully.=> <b>Correct</b>`,
+          },
         ],
       },
     },
@@ -98,22 +156,22 @@ He *must return* the money.`,
         title: "Fill in the blanks using the most suitable words.",
       },
       data: [
-        `You *should* do your work.
-He *can* win this match.
-You *must* abide by law.
+        `You *should do* your work.
+He *can win* this match.
+You *must abide* by law.
 You *ought to* respect your elders.
-I *shall* go there.`,
+I *shall go* there.`,
 
-        `You *should* know that.
-She *will* pay the money.
-They *would* help me.
-You *may* do it tomorrow.
-You *might* tell me the truth.`,
+        `You *should know* that.
+She *will pay* the money.
+They *would help* me.
+You *may do* it tomorrow.
+You *might tell* me the truth.`,
 
-        `You *can* wait here.
-She *could* explain the poem to me.
+        `You *can wait* here.
+She *could explain* the poem to me.
 He *did* it well.
-He *must* return the money.`,
+He *must return* the money.`,
       ],
     },
     {
@@ -161,6 +219,83 @@ He seemed to enjoy his stay in Mumbai.
 I gave him a pen to write.
 He has no paper to write.`,
         ],
+      ],
+    },
+    {
+      id: "mcq",
+      label: "Multiple Choice Questions",
+      type: "mcq",
+      commonData: {
+        title: "Multiple Choice Questions",
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText:
+                "Which of the following is the correct usage of infinitive?",
+              options:
+                "He knows how to read and write English, He knows to read and write English",
+            },
+            {
+              qText:
+                "Which of the following is the correct usage of infinitive?",
+              options:
+                "My father taught him how to drive a car, My father taught him to drive a car",
+            },
+            {
+              qText:
+                "Which of the following is the correct usage of infinitive?",
+              options:
+                "Rekha was punished for coming late, Rekha was punished to coming late",
+            },
+            {
+              qText:
+                "Which of the following is the correct usage of infinitive?",
+              options:
+                "The student was made to write an essay by me, The student was made by me to write an essay",
+            },
+            {
+              qText:
+                "Which of the following is the correct usage of infinitive?",
+              options: "I was let go by him, I was by him let go",
+            },
+          ],
+        },
+        {
+          questions: [
+            {
+              qText:
+                "Which of the following is the incorrect usage of infinitive?",
+              options:
+                "That way to behave is dangerous, That is a dangerous way to behave",
+            },
+            {
+              qText:
+                "Which of the following is the incorrect usage of infinitive?",
+              options:
+                "It is important to be patient for Jake to his little brother, It is important for Jake to be patient to his little brother",
+            },
+            {
+              qText:
+                "Which of the following is the incorrect usage of infinitive?",
+              options:
+                "To do this is the right thing, This is the right thing to do",
+            },
+            {
+              qText:
+                "Which of the following is the incorrect usage of infinitive?",
+              options:
+                "When to press the button tell me, Tell me when to press the button",
+            },
+            {
+              qText:
+                "Which of the following is the incorrect usage of infinitive?",
+              options:
+                "I request you to kindly grant my application, I request you kindly to grant my application.",
+            },
+          ],
+        },
       ],
     },
   ],
