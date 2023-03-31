@@ -4,11 +4,11 @@ export default {
   list: [
     {
       type: 'match',
-      label: 'Match Colors and Names',
+      label: 'நிறங்களை பொருத்துக ',
       id: 'match-color-names',
       lockAfter: 2,
       commonData: {
-        title: 'Match Colors and Names'
+        title: 'நிறங்களை பொருத்துக '
       },
       data: [
         {

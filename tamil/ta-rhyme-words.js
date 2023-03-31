@@ -10,7 +10,7 @@ export default {
       type: 'completePuzzle',
       commonData: {
         type: 'rightOpen',
-        title: 'சரியான வார்த்தையை பொருத்துக ',
+        title: 'ஒத்த ஓசையுள்ள வார்த்தையை பொருத்துக ',
         leftWidth: 120,
         rightWidth: 200,
         fontSize: '1.4rem'
