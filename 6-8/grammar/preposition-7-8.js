@@ -1,8 +1,228 @@
 export default {
-  id: "preposition-8",
+  id: "preposition-7-8",
   label: "Prepositions",
   lockAfter: 3,
   list: [
+    {
+      label: "Notes",
+      type: "passage",
+      id: "preposition",
+      data: {
+        title: "Preposition",
+        text: [
+          `A word used to show the relation between a noun or a pronoun with some other word in the sentence is called a preposition. Prepositions can be categorized into the following.`,
+          {
+            type: "html",
+            text: `1. Preposition of time: The prepositions of time include <b>on</b>, <b>in</b>, <b>at</b>, <b>by</b>, <b>until</b>, <b>during</b>, <b>for</b>, <b>between</b>, <b>since</b>, <b>before</b>, etc.<br>
+  2. Preposition of place: These include <b>on</b>, <b>under</b>, <b>in</b>, <b>at</b>, <b>above</b>, <b>below</b>, <b>among</b>, <b>behind</b>, etc.<br>
+  3. Preposition of direction and movements: These prepositions include <b>to</b>, <b>towards</b>, <b>along</b>, <b>through</b>, <b>across</b>, <b>onto</b>, etc.<br>
+  4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`,
+          },
+        ],
+      },
+    },
+    {
+      label: "Fill in the blanks",
+      type: "matchByDragDrop",
+      id: "drag-drop-preposition",
+      lockAfter: 1,
+      data: [
+        `The baby is sleeping *in* the bed.
+Television is kept *on* the table.
+Mother came *into* the room after an hour.
+Vishnu goes *to* the temple on Saturday.
+Ice cream is made *from* milk and cream.`,
+
+        `He is a professor *of* Mathematics.
+The artist is insulted *by* the music director.
+Farmer is familiar *with* the agricultural problems.
+This piece of land was a dispute *among* the four boys.
+The two children were not ready to distribute the money *between* them.`,
+
+        `A poet knows *about* the figures of speech well.
+Rohan is sitting *beside* his mother at the party.
+I came *across*  very good news.
+The patient had died *before* the surgery was carried out.
+I couldn't attend the meeting *due to* my sickness.`,
+
+        `*Despite* my warnings to him, he went to the circus.
+Say it *in* a few words.
+Police caught and beat the thief *in front of* the whole crowd.
+I purchased a book *in addition to* the perfumes for my younger brother.
+Players have a strong zeal *for* the final game.`,
+
+        `This book is very useful *to* me.
+I request you to think *over* the matter again.
+He wore a golden ring *on* his finger.
+Please speak *in* English.
+He has no chance *of* winning.`,
+
+        `He goes *for* a morning walk.
+I need a dictionary *of* Spanish.
+There is a coat *on* a hook.
+The lines were printed *in* italics.`,
+      ],
+    },
+    {
+      label: "Choose the Correct Answer",
+      id: "mcq-preposition",
+      type: "mcq",
+      commonData: {
+        title: "Choose the most appropriate option.",
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: "Agra is very famous ___ the Taj Mahal.",
+              options: "for, to, in, by",
+            },
+            {
+              qText: "Indians have strong faith __ God.",
+              options: "in, to, on, into",
+            },
+            {
+              qText: "I help those who are junior __ me.",
+              options: "to, than, in, for",
+            },
+            {
+              qText: "Manish was surprised __ my coming there.",
+              options: "at, by, for, on",
+            },
+            {
+              qText: `I felt very sorry ___ the poor and hungry boy.`,
+              options: "for, to, with, from",
+            },
+          ],
+        },
+        {
+          questions: [
+            {
+              qText: "When will you bring a gift ___ me?",
+              options: "for, with, to, by",
+            },
+            {
+              qText: "I don't know much _____ it.",
+              options: "about, upon, over, with",
+            },
+            {
+              qText: "Go and sit __ your place, please.",
+              options: "at, to, in, on",
+            },
+            {
+              qText: "__ which month does the session begin?",
+              options: "In, On, At, Within",
+            },
+            {
+              qText: "She purchased it ____ Surat Bazar.",
+              options: "from, on, for, to",
+            },
+          ],
+        },
+        {
+          questions: [
+            {
+              qText: "He deals ____ diamonds.",
+              options: "in, at, with, of",
+            },
+            {
+              qText: "One must not deviate _____ the path of truth and virtue.",
+              options: "from, to, with, out",
+            },
+            {
+              qText: "Eventually, I persuaded her to comply ____ my requests.",
+              options: "with, as, at, from",
+            },
+            {
+              qText: "There is no cure ___ AIDS yet.",
+              options: "for, of, by, with",
+            },
+            {
+              qText: "She is keen __ going abroad.",
+              options: "on, at, with, none",
+            },
+          ],
+        },
+        {
+          questions: [
+            {
+              qText: "This article makes several allusions __ the Vedas.",
+              options: "to, at, with, of",
+            },
+            {
+              qText: "He was anxious __ contact his wife.",
+              options: "to, about, of, at",
+            },
+            {
+              qText: "She has no aptitude ___ music or dance.",
+              options: "for, to, with, None of these",
+            },
+            {
+              qText: "Peter kept the books __ the shelf.",
+              options: "on, at, in, none of these",
+            },
+            {
+              qText: "He was brought __ by his grandmother.",
+              options: "up, about, out, in",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "fillup-preposition",
+      label: "Complete the passage",
+      type: "fillup",
+      commonData: {
+        noOptions: true,
+        title: "Complete the passage using appropriate prepositions",
+      },
+      lockAfter: 2,
+      data: [
+        `A galaxy is a system *of* stars, stellar remnants, gas, dust, dark matter etc bound *with* one another gravitationally. Galaxies range *in* size. They range *from* dwarfs to giants. Many galaxies are thought *to* have black holes at their active centers.`,
+
+        `My neighbor said she wanted to ask me *for* a small favor. Little did I know what was *in* the store *for* me when I agreed to feed her cat. *After* my neighbor left *on* her trip, I walked *across* the street to her house. Once I got inside the house, I was overwhelmed *by* the stench *of* cat urine.`,
+
+        `I looked *around* the house and couldn't believe what I saw. My eyes fell *on* two salad dressing containers sitting *on* a table *beside* the couch, which was completely covered *with* dirty laundry, except *for* this one worn area *by* the table.`,
+
+        `The volume *on* the TV was turned up all the way. *In* disbelief and despite my better judgment, I walked *toward* the restroom. *Around* the base *of* the tub I saw these red velvety mushrooms coming up *between* the tub and tile floor.`,
+
+        `This filth was *beyond* anything I'd ever seen *in* my life. *Within* two minutes the cat was fed and I was out *of* there. Since she returned *from* her trip, I have never been available to watch her cat again.`,
+      ],
+    },
+    {
+      id: "fill-up-option",
+      label: "Fill in the blanks",
+      type: "fillup",
+      commonData: {
+        title: `Fill in the blanks using suitable prepositions.`,
+      },
+      data: [
+        `Vegetarians abstain *from (with)* eating meat.
+Good food is absolutely essential *for (to, with)* our health.
+The jury absolved him *of (off, from)* the crime.
+They wed *on (during/from)* the 3rd of December.
+Our garden abounds *with (in)* roses.`,
+
+        `Tulips abound *in (with)* the Netherlands.
+He was arrested for his abusive treatment *of(with, to)* the dog.
+Canoes were provided *for (to, with)* transportation.
+My daughter accompanied me *on (by, with)* the trip.
+Place the bolster *between (with, by)* the two cushions.`,
+
+        `Cloth is sold *by (with, as)* the meter.
+Do not shout *while (during, by)* others are reading.
+I promise to return the book *by (until, on)* Monday
+He did not fulfill his promise *until (by, after)* it was too late.
+The ship sailed *towards (in, for)* the West.`,
+
+        `The young man was employed *as (like)* my father's secretary.
+The secret was kept away *from (on, by)* his own family.
+Tom came first in his class *as (like)* everyone expected.
+He orders his friends about, *as if (as)* they were his servants.
+This plan will go *against (by)* your interests.`,
+      ],
+    },
     {
       label: "Notes",
       type: "passage",
@@ -55,9 +275,9 @@ I go for dance classes after school. (Go when? After school.)`,
         `Mark often reads *during (while)* meals.
 Do not shout *while (during)* others are writing. 
 I promise to return the book *by (until)* Monday. 
-He did not fulfil his promise *until (by)* it was too late. 
+He did not fulfill his promise *until (by)* it was too late. 
 Many think Jackson looks *like (as)* Park Jihoon.
-Rishi was employed *as (like)* my brothers's secretary.
+Rishi was employed *as (like)* my brother's secretary.
 Tony spends money freely *as if (as)* it grew on trees.`,
 
         `Jake came first in his class *as (like)* everyone expected.
@@ -71,7 +291,7 @@ You will receive the payment *within (during)* 30 days of joining.`,
 
         `In the absence of professional experience, you will be *at (in)* a disadvantage here. 
 I have not seen her *for (since)* the last nine months. 
-You must travel by the train to reach *on (in)* time. 
+You must travel by train to reach *on (in)* time. 
 I have been going to this cafeteria *for (since)* a long time. 
 He is struggling *from (with)* migraine.
 We drove *along (through)* the coastline.`,
@@ -96,7 +316,7 @@ The jewels are kept *in* a box.
 Have you looked *under* the bed?`,
 
         `We waited *in* the reception hall for two hours.
-The painting *on* the roof of the church are incredible.
+The painting *on* the roof of the church is incredible.
 I live *in* Kerala *in* a town called Alappuzha.
 The soup is *on* the table.
 Meet me *at* the cafeteria next to the station. 
@@ -126,7 +346,7 @@ We had a holiday *on* 18 April.
 We reached *in* time to catch the train.
 India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. 
-*During* World War I, many civilians lost their lives`,
+*During* World War I, many civilians lost their lives.`,
       ],
     },
     {
@@ -144,7 +364,7 @@ He climbed *up* a tree to get *over* the wall and *into* the orchard.
 We need to start preparations *for* Sports Day.`,
 
         `He won't succeed *with* hard work alone.
-I need money *for* the rent.
+I need the money *for* the rent.
 When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting ‘Eureka!’
 A flying saucer just flew *over* that building.`,
       ],
@@ -157,8 +377,8 @@ A flying saucer just flew *over* that building.`,
         title: `Complete the following sentences using appropriate prepositional phrases`,
       },
       data: [
-        `I would rather have chocholate milkshake *instead of (instead from)* cold coffee.
-*In spite (Despite)* of the sand strom, we went out.
+        `I would rather have a chocolate milkshake *instead of (instead from)* cold coffee.
+*In spite (Despite)* of the sand storm, we went out.
 *In case of (In case)* fire, break the glass to escape.
 I am standing here *on behalf of (on behalf)* my colleagues.
 Renuka solved the problem *by means of (by means)* a new device developed by the engineers at her company.`,
@@ -170,7 +390,6 @@ Mary didn't allow cancer to discourage her. *On the contrary (By the contrary)*,
 I am seeing him in August *or rather (rather)* in September.`,
       ],
     },
-
     {
       id: "fillup-5",
       label: "Complete the passage",
@@ -205,7 +424,7 @@ I am seeing him in August *or rather (rather)* in September.`,
 We will stop at many attractions *along* the way.
 The kids are hiding *behind* the tree.
 Walk *toward* the garage and then turn left.
-Place a check mark *within* the box.`,
+Place a checkmark *within* the box.`,
 
         `The gas station is *by* the grocery store.
 The park is *near* her house.
