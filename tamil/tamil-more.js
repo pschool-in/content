@@ -7,7 +7,7 @@ export default {
       id: 'more',
       list: [
         {
-          label: 'ஓசை: விலங்குகளும் பறவைகளும',
+          label: 'ஓசை: விலங்குகளும் பறவைகளும்',
           id: 'ta-sound'
         },
         {
@@ -23,7 +23,7 @@ export default {
           id: 'ta-sound-4'
         },
         {
-          label: 'ஓசை: விலங்குகளும் பறவைகளும - 2',
+          label: 'ஓசை: விலங்குகளும் பறவைகளும் - 2',
           id: 'ta-sound-5'
         },
         {

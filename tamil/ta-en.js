@@ -9,63 +9,63 @@ export default {
       data: {
         title: `விலங்குகள்  `,
         text: [
-          `cat, பூனை
-dog, நாய்
-goat, ஆடு
-horse, குதிரை
-cow, பசு
-pig, பன்றி
-buffalo, எருமை
-donkey, கழுதை
-bull, காளை
-camel, ஒட்டகம்`,
+          `cat — பூனை
+dog — நாய்
+goat — ஆடு
+horse — குதிரை
+cow — பசு
+pig — பன்றி
+buffalo — எருமை
+donkey — கழுதை
+bull — காளை
+camel — ஒட்டகம்`,
 
-          `elephant, யானை
-monkey, குரங்கு
-lion, சிங்கம்
-tiger, புலி
-kangaroo, கங்காரு
-leopard, சிறுத்தை
-fox, நரி
-rabbit, முயல்
-antelope, மான்
-bear, கரடி`,
+          `elephant — யானை
+monkey — குரங்கு
+lion — சிங்கம்
+tiger — புலி
+kangaroo — கங்காரு
+leopard — சிறுத்தை
+fox — நரி
+rabbit — முயல்
+antelope — மான்
+bear — கரடி`,
 
-          `fish, மீன்
-frog, தவளை
-snake, பாம்பு
-squirrel, அணில்
-tortoise, ஆமை
-rat, எலி
-fly, ஈ
-ant, எறும்பு
-lizard, பல்லி
-crab, நண்டு`,
+          `fish — மீன்
+frog — தவளை
+snake — பாம்பு
+squirrel — அணில்
+tortoise — ஆமை
+rat — எலி
+fly — ஈ
+ant — எறும்பு
+lizard — பல்லி
+crab — நண்டு`,
 
-          `mosquito, கொசு
-dragonfly, தட்டான்
-earthworm, மண்புழு
-bug, வண்டு
-prawn, இறால்
-bee, தேனீ
-spider, சிலந்தி
-winged termites, ஈசல்
-bat, வௌவால்
-garden lizard, ஓணான்`,
+          `mosquito — கொசு
+dragonfly — தட்டான்
+earthworm — மண்புழு
+bug — வண்டு
+prawn — இறால்
+bee — தேனீ
+spider — சிலந்தி
+winged termites — ஈசல்
+bat — வௌவால்
+garden lizard — ஓணான்`,
 
           `# பறவைகள் `,
-          `crow, காகம்
-dove, புறா
-duck, வாத்து
-hen, கோழி
-parrot, கிளி
-peacock, மயில்
-crane, கொக்கு
-rooster, சேவல்
-cuckoo, குயில்
-eagle, கழுகு
-myna, மைனா
-owl, ஆந்தை`
+          `crow — காகம்
+dove — புறா
+duck — வாத்து
+hen — கோழி
+parrot — கிளி
+peacock — மயில்
+crane — கொக்கு
+rooster — சேவல்
+cuckoo — குயில்
+eagle — கழுகு
+myna — மைனா
+owl — ஆந்தை`
         ]
       }
     },
@@ -158,47 +158,47 @@ owl, ஆந்தை`
       data: {
         title: `விலங்குகள் `,
         text: [
-          `sheep, செம்மறி ஆடு
-hippo, நீர்யானை
-giraffe, ஒட்டகச்சிவிங்கி
-rhino, காண்டாமிருகம்
-crocodile, முதலை
-wolf, ஓநாய்
-zebra, வரிக்குதிரை
-hyena, கழுதைப் புலி
-porcupine, முள்ளம்பன்றி
-polar bear, பனிக்கரடி`,
+          `sheep — செம்மறி ஆடு
+hippo — நீர்யானை
+giraffe — ஒட்டகச்சிவிங்கி
+rhino — காண்டாமிருகம்
+crocodile — முதலை
+wolf — ஓநாய்
+zebra — வரிக்குதிரை
+hyena — கழுதைப் புலி
+porcupine — முள்ளம்பன்றி
+polar bear — பனிக்கரடி`,
 
-          `boar, காட்டுப் பன்றி
-python, மலைப்பாம்பு
-bison, காட்டெருமை
-chameleon, பச்சோந்தி
-shark, சுறாமீன்
-whale, திமிங்கிலம்
-goldfish, தங்கமீன்
-ladybug, பொன்வண்டு
-seahorse, கடற்குதிரை`,
+          `boar — காட்டுப் பன்றி
+python — மலைப்பாம்பு
+bison — காட்டெருமை
+chameleon — பச்சோந்தி
+shark — சுறாமீன்
+whale — திமிங்கிலம்
+goldfish — தங்கமீன்
+ladybug — பொன்வண்டு
+seahorse — கடற்குதிரை`,
 
-          `butterfly, வண்ணத்துப்பூச்சி
-cockroach, கரப்பான் பூச்சி
-mongoose, கீரிப்பிள்ளை
-hamster, வெள்ளெலி
-caterpillar, கம்பளிப்பூச்சி
-starfish, நட்சத்திர மீன்
-hedgehog, முள்ளெலி
-stingray, திருக்கை மீன்`,
+          `butterfly — வண்ணத்துப்பூச்சி
+cockroach — கரப்பான் பூச்சி
+mongoose — கீரிப்பிள்ளை
+hamster — வெள்ளெலி
+caterpillar — கம்பளிப்பூச்சி
+starfish — நட்சத்திர மீன்
+hedgehog — முள்ளெலி
+stingray — திருக்கை மீன்`,
 
           `# பறவைகள் `,
-          `kingfisher, மீன் கொத்தி
-chick, கோழிக்குஞ்சு
-ostrich, நெருப்புக்கோழி
-woodpecker, மரங்கொத்தி
-sparrow, சிட்டுக்குருவி
-falcon, பருந்து
-swan, அன்னப்பறவை
-spotted dove, மணிப்புறா
-turkey, வான்கோழி
-macaw, பஞ்சவர்ணக்கிளி`
+          `kingfisher — மீன் கொத்தி
+chick — கோழிக்குஞ்சு
+ostrich — நெருப்புக்கோழி
+woodpecker — மரங்கொத்தி
+sparrow — சிட்டுக்குருவி
+falcon — பருந்து
+swan — அன்னப்பறவை
+spotted dove — மணிப்புறா
+turkey — வான்கோழி
+macaw — பஞ்சவர்ணக்கிளி`
         ]
       }
     },

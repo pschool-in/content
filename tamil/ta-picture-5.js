@@ -86,18 +86,18 @@ macaw| பஞ்சவர்ணக்கிளி`
         `ஓ, wolf
 வ, zebra
 க, hyena
-மு, |porcupine
+மு, porcupine
 ப, polarbear`,
 
         `கா, boar
 ம, python
-கா, bison
 ப, chameleon
 சு, shark`,
 
         `தி, whale
 த, goldfish
 பொ, ladybug
+கா, bison
 க, seahorse`,
 
         `வ, butterfly
