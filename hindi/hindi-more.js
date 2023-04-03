@@ -73,6 +73,14 @@ export default {
         {
           label: 'व्याकरण अधिक अभ्यास',
           id: 'hi-grammar-practice'
+        },
+        {
+          label: 'English to Hindi',
+          id: 'hi-en'
+        },
+        {
+          label: 'English to Hindi - 2',
+          id: 'hi-en-2'
         }
       ]
     }
