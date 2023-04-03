@@ -10,18 +10,103 @@ export default {
       data: {
         title: "Noun",
         text: [
-          `Nouns are words used to refer to objects, places and living things. Some nouns also refer to feelings and emotions. Nouns can be divided into several categories:
+          `Nouns are words used to refer to objects, places and living things. Some nouns also refer to feelings and emotions. Nouns can be classified in different ways.
 1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event.
 2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter.
 3. Collective Noun: Used for a collection of people or things.
 4. Abstract Noun: Describes a concept, feeling or emotion.
 5. Countable Noun: Anything that can be counted with numbers is called countable nouns.
-6. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.
-7. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
-8. Plural Noun: A noun that is having more than one person, place, thing, or animal is called a plural noun.
-9. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
-10. Feminine Noun: A noun that refers to the 'female' is called a feminine noun. The word feminine means female, so all the words with female gender, be it a person's name, an animal's name or a bird's name, it is all said to be feminine.
-11. Common Gender Noun: A noun that belongs to both males and females.`,
+6. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`,
+        ],
+      },
+    },
+    {
+      id: "fill-up",
+      label: "Fill up",
+      type: "fillup",
+      commonData: {
+        title: `Fill in the blanks with the most appropriate form of words.`,
+      },
+      data: [
+        `A cat *likes (like)* to drink milk.
+A *patrol (staff)* of police was having a grand party on the lawn.
+The teacher *told (tells)* us to maintain silence.
+John *loves (love)* to read American stories.
+Gangtok is the capital of *Sikkim (sikkim)*.`,
+
+        `A Royal Bengal tiger *looks (look)* great.
+A *team (group)* of players was playing cricket.
+*Cherries (Cherry's)* are red in color.
+*Eggs (Egg)* were broken by Rahul.
+London is the home for the *London Eye (london eye)*.`,
+      ],
+    },
+    {
+      id: "classify-sentence",
+      label: "Identify-2",
+      type: "Countable vs Uncountable",
+      data: {
+        title:
+          "Identify whether the underlined nouns are countable or uncountable.",
+        types: [
+          {
+            name: "Countable",
+            text: `Toyota is having a *car* sale tomorrow.
+Many *trees* were cut down last year.
+*Students* work hard for their exams.
+Vatsal loves to eat *sweets*.
+He bought tasty *mangoes* from the market.
+There are several ways to solve a *question*.
+My mom loves to chop *vegetables*.`,
+          },
+          {
+            name: "Uncountable",
+            text: `Parth bought *rice and pulse* from a supermarket.
+Goat *milk* is very healthy.
+*Water* is a renewable resource.`,
+          },
+        ],
+      },
+    },
+    {
+      label: "Notes",
+      type: "passage",
+      id: "collective-noun",
+      data: {
+        title: "Collective Noun",
+        text: [
+          `# List of Collective Nouns
+# Collective Nouns for Animals
+Collective noun for bees - Swarm
+Collective noun for fish - Shoal or School
+Collective noun for sheep - Herd
+Collective noun for ships - Fleet
+Collective noun for birds - Flock
+Collective noun for lions - Pride
+Collective noun for wolves - Pack
+Collective noun for ants - Colony
+# Collective Nouns for People
+Collective noun for actors - Troupe, Company or Cast
+Collective noun for soldiers - Army
+Collective noun for musicians - Band
+Collective noun for warriors - Troop
+Collective noun for directors - Board
+Collective noun for sailors - Crew
+Collective noun for singers - Choir
+Collective noun for dancers - Group
+Collective noun for thieves - Pack
+Collective noun for players - Team
+Collective noun for delegates - Delegation
+Collective noun for judges - Panel or Bench
+# Collective Nouns for Objects/Things
+Collective noun for cards - Deck/Pack
+Collective noun for cigarettes - Packet
+Collective noun for mountains - Range
+Collective noun for apples - Bushel
+Collective noun for bananas - Comb
+Collective noun for grapes - Bunch
+Collective noun for flowers - Bunch or Bouquet
+Collective noun for trees - Grove or Forest`,
         ],
       },
     },
@@ -80,50 +165,18 @@ a *shower* of rain`,
       ],
     },
     {
-      id: "fill-up",
-      label: "Fill up",
-      type: "fillup",
-      commonData: {
-        title: `Fill in the blanks with the most appropriate form of words.`,
-      },
-      data: [
-        `A cat *likes (like)* to drink milk.
-A *patrol (staff)* of police was having a grand party on the lawn.
-The teacher *told (tells)* us to maintain silence.
-John *loves (love)* to read American stories.
-Gangtok is the capital of *Sikkim (sikkim)*.`,
-
-        `A Royal Bengal tiger *looks (look)* great.
-A *team (group)* of players was playing cricket.
-*Cherries (Cherry's)* are red in color.
-*Eggs (Egg)* were broken by Rahul.
-London is the home for the *London Eye (london eye)*.`,
-      ],
-    },
-    {
-      id: "classify-sentence",
-      label: "Identify-2",
-      type: "Countable vs Uncountable",
+      label: "Notes",
+      type: "passage",
+      id: "noun-2",
       data: {
-        title:
-          "Identify whether the underlined nouns are countable or uncountable.",
-        types: [
-          {
-            name: "Countable",
-            text: `Toyota is having a *car* sale tomorrow.
-Many *trees* were cut down last year.
-*Students* work hard for their exams.
-Vatsal loves to eat *sweets*.
-He bought tasty *mangoes* from the market.
-There are several ways to solve a *question*.
-My mom loves to chop *vegetables*.`,
-          },
-          {
-            name: "Uncountable",
-            text: `Parth bought *rice and pulse* from a supermarket.
-Goat *milk* is very healthy.
-*Water* is a renewable resource.`,
-          },
+        title: "Noun",
+        text: [
+          `=> Nouns can also be classified as:
+1. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
+2. Plural Noun: A noun that is having more than one person, place, thing, or animal is called a plural noun.
+3. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
+4. Feminine Noun: A noun that refers to the 'female' is called a feminine noun. The word feminine means female, so all the words with female gender, be it a person's name, an animal's name or a bird's name, it is all said to be feminine.
+5. Common Gender Noun: A noun that belongs to both males and females.`,
         ],
       },
     },
@@ -132,46 +185,36 @@ Goat *milk* is very healthy.
       label: "Match the following",
       type: "match",
       commonData: {
-        title: "Match the masculine gender with corresponding feminine gender.",
+        title:
+          "Match the masculine gender with the corresponding feminine gender.",
       },
       data: [
-        `Heir, Heiress
-Host, Hostess
-Manager, Manageress
-Peer, Peeress
-God, Goddess`,
-
-        `Priest, Priestess
-Shepherd, Shepherdess
+        `Host, Hostess
+God, Goddess
 Lion, Lioness
 Waiter, Waitress
-Conductor, Conductress`,
+Duke, Duchess`,
 
-        `Duke, Duchess
-Emperor, Empress
+        `Emperor, Empress
 Governor, Governess
-Hunter, Huntress
-Master, Mistress`,
+Master, Mistress
+Prince, Princess
+Tiger, Tigress`,
 
-        `Prince, Princess
-Tiger, Tigress
-Hunter, Huntress
-Traitor, Traitress
-Bachelor, Maid`,
-
-        `Brother, Sister
+        `Bachelor, Maid
+Brother, Sister
 Gentleman, Lady
 King, Queen
-Monk, Nun
-Lord, Lady`,
+Monk, Nun`,
 
-        `Nephew, Niece
+        `Lord, Lady
+Nephew, Niece
 Son, Daughter
 Uncle, Aunt
-Wizard, Witch
-Buck, Doe`,
+Wizard, Witch`,
 
-        `Bull, Cow
+        `Buck, Doe
+Bull, Cow
 Cock, Hen
 Drake, Duck
 Fox, Vixen`,
