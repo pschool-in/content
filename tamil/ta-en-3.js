@@ -9,66 +9,66 @@ export default {
       data: {
         title: `இயற்கை`,
         text: [
-          `sun, சூரியன்
-moon, நிலா
-rain, மழை
-star, நட்சத்திரம்
-leaf, இலை
-bird, பறவை
-nest, கூடு
-stone, கல்
-tree, மரம்
-world, உலகம்`,
-          `forest, காடு
-desert, பாலைவனம்
-river, ஆறு
-grassland, புல்வெளி
-ocean, கடல்
-polar, துருவம்
-valley, பள்ளத்தாக்கு
-volcano, எரிமலை`,
+          `sun — சூரியன்
+moon — நிலா
+rain — மழை
+star — நட்சத்திரம்
+leaf — இலை
+bird — பறவை
+nest — கூடு
+stone — கல்
+tree — மரம்
+world — உலகம்`,
+          `forest — காடு
+desert — பாலைவனம்
+river — ஆறு
+grassland — புல்வெளி
+ocean — கடல்
+polar — துருவம்
+valley — பள்ளத்தாக்கு
+volcano — எரிமலை`,
 
-          `banyan tree, ஆலமரம்
-palm tree, பனைமரம்
-coconut tree, தென்னைமரம்
-banana tree, வாழைமரம்
-bamboo tree, மூங்கில்மரம்
-rainbow, வானவில்
-waterfall, அருவி
-dew, பனித்துளி`,
+          `banyan tree — ஆலமரம்
+palm tree — பனைமரம்
+coconut tree — தென்னைமரம்
+banana tree — வாழைமரம்
+bamboo tree — மூங்கில்மரம்
+rainbow — வானவில்
+waterfall — அருவி
+dew — பனித்துளி`,
 
-          `banana leaf, வாழையிலை
-neem leaf, வேப்பிலை
-mango leaf, மாவிலை
-coconut leaf, தென்னோலை
-touch-me-not, தொட்டாற் சிணுங்கி
-bone, எலும்பு
-pebbles, கூழாங்கற்கள்`,
+          `banana leaf — வாழையிலை
+neem leaf — வேப்பிலை
+mango leaf — மாவிலை
+coconut leaf — தென்னோலை
+touch-me-not — தொட்டாற் சிணுங்கி
+bone — எலும்பு
+pebbles — கூழாங்கற்கள்`,
 
           `# பூக்கள்  `,
-          `rose, ரோஜா
-lotus, தாமரை
-sunflower, சூரியகாந்தி
-hibiscus, செம்பருத்தி
-mogra, குண்டு மல்லி
-jasmine, முல்லை
-water lily, அல்லி
-marigold, சாமந்தி
-bougainvillea, காகிதப்பூ
-magnolia, செண்பகப்பூ
-periwinkle, நித்தியகல்யாணிப்பூ`,
+          `rose — ரோஜா
+lotus — தாமரை
+sunflower — சூரியகாந்தி
+hibiscus — செம்பருத்தி
+mogra — குண்டு மல்லி
+jasmine — முல்லை
+water lily — அல்லி
+marigold — சாமந்தி
+bougainvillea — காகிதப்பூ
+magnolia — செண்பகப்பூ
+periwinkle — நித்தியகல்யாணிப்பூ`,
           `# உடல் உறுப்புகள்`,
-          `ear, காது
-eye, கண்
-foot, பாதம்
-hair, முடி
-hand, கை
-mouth, வாய்
-nose, மூக்கு
-tooth, பல்
-forehead, நெற்றி
-mustache, மீசை
-beard, தாடி`
+          `ear — காது
+eye — கண்
+foot — பாதம்
+hair — முடி
+hand — கை
+mouth — வாய்
+nose — மூக்கு
+tooth — பல்
+forehead — நெற்றி
+mustache — மீசை
+beard — தாடி`
         ]
       }
     },

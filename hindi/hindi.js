@@ -1,6 +1,6 @@
 export default {
   id: 'hindi',
-  label: 'Hindi ',
+  label: 'Practice Hindi ',
   type: 'curriculumIcon',
   style: {
     fontSize: '0.9rem'

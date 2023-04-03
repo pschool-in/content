@@ -8,7 +8,7 @@ export default {
       label: `குறிப்புகள்`,
       data: {
         text: [
-          `rope —  கயிறு 
+          `rope — கயிறு 
 vessel —  பாத்திரம் 
 thief —  திருடன் 
 theft —  திருட்டு 
