@@ -1,14 +1,14 @@
 export default {
-  id: "british-american-8",
-  label: "British and American English",
+  id: 'british-american-8',
+  label: 'British and American English',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "British and American English",
+        title: 'British and American English',
         text: [
           `# British and American English
 1. Pronunciation: British English and American sound noticeably different. The most obvious difference is the way the letter r is pronounced. In British English, when r comes after a vowel in the same syllable (as in car, hard, or market), the r is not pronounced. In American English, the r is pronounced.
@@ -52,7 +52,7 @@ fender - wing; zipper - zip
 3. Spelling: Below are three rules you can follow.
 a) Most words ending in -our in British English are spelled without the u in American English `,
           {
-            type: "html",
+            type: 'html',
             text: `arbo<b>u</b>r/arbor; ardo<b>u</b>r/arbor <br>
 armo<b>u</b>r/armor; behavio<b>u</b>r/behavior <br>
 cando<b>u</b>r/candor; clamo<b>u</b>r/clamor <br>
@@ -66,34 +66,34 @@ ranco<b>u</b>r/rancor; rigo<b>u</b>r/rigor <br>
 rumo<b>u</b>r/rumor; savio<b>u</b>r/savior <br>
 savo<b>u</b>r/savor; splendo<b>u</b>r/splendor <br>
 tumo<b>u</b>r/tumor; valo<b>u</b>r/valor <br>
-vigo<b>u</b>r/vigor`,
+vigo<b>u</b>r/vigor`
           },
           `b) Most words ending in -re in British English are spelled with -er in American English`,
           {
-            type: "html",
+            type: 'html',
             text: `calib<b>re</b>/calib<b>er</b>; cent<b>re</b>/cent<b>er</b> <br>
 fib<b>re</b>/fib<b>er</b>; lit<b>re</b>/lit<b>er</b> <br>
 lust<b>re</b>/lust<b>er</b>; meag<b>re</b>/meag<b>er</b> <br>
 met<b>re</b>/met<b>er</b>; sab<b>re</b>/sab<b>er</b> <br>
 scept<b>re</b>/scept<b>er</b>; sepulch<b>re</b>/sepulch<b>er</b> <br>
-somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`,
+somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`
           },
           `c) Many British English verbs ending in -ise are spelled with -ize in American English `,
           {
-            type: "html",
-            text: `reali<b>s</b>e/reali<b>z</b>e, organi<b>s</b>e/organi<b>z</b>e, etc.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `reali<b>s</b>e/reali<b>z</b>e, organi<b>s</b>e/organi<b>z</b>e, etc.`
+          }
+        ]
+      }
     },
     {
-      id: "match",
-      label: "Match the following",
-      type: "match",
+      id: 'match',
+      label: 'Match the following',
+      type: 'match',
       lockAfter: 1,
       commonData: {
         title:
-          "Match the word used in American English with it British English alternative.",
+          'Match the word used in American English with it British English alternative.'
       },
       data: [
         `antenna, aerial
@@ -178,85 +178,85 @@ generator, dynamo`,
 billboard, hoarding
 intermission, interval
 vacation, holiday
-vacuum cleaner, hoover`,
-      ],
+vacuum cleaner, hoover`
+      ]
     },
     {
-      label: "British or American",
-      id: "british-american",
-      type: "group",
+      label: 'British or American',
+      id: 'british-american',
+      type: 'group',
       commonData: {
-        title: "Classify the below words as American or British English",
+        title: 'Classify the below words as American or British English'
       },
       data: [
         {
           types: [
             {
-              name: "American",
-              text: "antenna, mad, anyplace, fall, bill",
+              name: 'American',
+              text: 'antenna, mad, anyplace, fall, bill'
             },
             {
-              name: "British",
-              text: "aerial, angry, anywhere, autumn, bank note",
-            },
-          ],
+              name: 'British',
+              text: 'aerial, angry, anywhere, autumn, bank note'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "attorney, cookie, hood, trunk, movies",
+              name: 'American',
+              text: 'attorney, cookie, hood, trunk, movies'
             },
             {
-              name: "British",
-              text: "barrister, biscuit, bonnet, boot, cinema",
-            },
-          ],
+              name: 'British',
+              text: 'barrister, biscuit, bonnet, boot, cinema'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "patrolman, stove, crib, wreck",
+              name: 'American',
+              text: 'patrolman, stove, crib, wreck'
             },
             {
-              name: "British",
-              text: "constable, cooker, cot, crash",
-            },
-          ],
+              name: 'British',
+              text: 'constable, cooker, cot, crash'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "intersection, drapes, thumbtack, generator",
+              name: 'American',
+              text: 'intersection, drapes, thumbtack, generator'
             },
             {
-              name: "British",
-              text: "crossroads, curtains, drawing pin, dynamo",
-            },
-          ],
+              name: 'British',
+              text: 'crossroads, curtains, drawing pin, dynamo'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "movie, apartment, overpass, yard",
+              name: 'American',
+              text: 'movie, apartment, overpass, yard'
             },
             {
-              name: "British",
-              text: "film, flat, flyover, garden",
-            },
-          ],
-        },
-      ],
+              name: 'British',
+              text: 'film, flat, flyover, garden'
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "fill-up",
-      label: "American English",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'American English',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using words in American English`,
+        title: `Fill in the blanks using words in American English`
       },
       data: [
         `I'd like to hang the *drapes (curtains)* tonight. Do you have time?
@@ -272,15 +272,15 @@ Could you hand me the *flashlight (torch)* so I can take a look in the closet?`,
         `Peter wore a pair of slim fitting *pants (trousers)* to the party.
 She opened the *tap (spigot)* and watered the garden.
 Have you ever worn a *vest (waistcoat)* with a suit?
-I'll pick up the *mail (post)* on the way home from work.`,
-      ],
+I'll pick up the *mail (post)* on the way home from work.`
+      ]
     },
     {
-      id: "fill-up-2",
-      label: "British English",
-      type: "fillup",
+      id: 'fill-up-2',
+      label: 'British English',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using words in British English`,
+        title: `Fill in the blanks using words in British English`
       },
       data: [
         `We need to find a *public toilet (restroom)* soon.
@@ -297,15 +297,15 @@ Get on *queue (line)* and I'll get us something to eat.`,
 Look at the *schedule (time table)* and see when the train leaves.
 The car has a dent in the *wing (fender)*.
 Choose a *jumper (sweater)* from the *wardrobe (closet)* and let's get going.
-The lights have gone out, and we'll need a *torch (flashlight)*.`,
-      ],
+The lights have gone out, and we'll need a *torch (flashlight)*.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage-2",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage-2',
       data: {
-        title: "British and American English Grammar",
+        title: 'British and American English Grammar',
         text: [
           `# Grammar Rules
 1. Collective nouns are singular in American English Grammar. British English usually treats collective nouns as plural nouns, so the verb must agree with the plural form. 
@@ -347,18 +347,18 @@ British English: She drank quickly.
 8. In American English grammar, the word “well” is only used as an adverb to mean “good.”
 However, in British English, the word “well” can also be used to mean “very.”
 British English: I'm well sleepy.
-American English: I'm very sleepy.`,
-        ],
-      },
+American English: I'm very sleepy.`
+        ]
+      }
     },
     {
-      label: "British or American",
-      type: "classifySentence",
-      id: "british-american",
+      label: 'British or American',
+      type: 'classifySentence',
+      id: 'british-american',
       commonData: {
         title:
-          "Classify the sentences as British English or American English based on the grammar usage.",
-        types: ["British", "American"],
+          'Classify the sentences as British English or American English based on the grammar usage.',
+        types: ['British', 'American']
       },
       data: [
         [
@@ -370,7 +370,7 @@ I have gone to the store.`,
           `The staff is taking the day off.
 The committee is making the decision today.
 He ate his lunch.
-I went to the store.`,
+I went to the store.`
         ],
         [
           `He appealed against the decision.
@@ -381,17 +381,17 @@ I'm well sleepy.`,
           `He appealed the decision.
 I have a dog.
 My job has gotten better.
-I'm very sleepy.`,
-        ],
-      ],
+I'm very sleepy.`
+        ]
+      ]
     },
     {
-      id: "spelling",
-      label: "Spelling",
-      type: "match",
+      id: 'spelling',
+      label: 'Spelling',
+      type: 'match',
       lockAfter: 1,
       commonData: {
-        title: "Match the British spelling with the American counterpart.",
+        title: 'Match the British spelling with the American counterpart.'
       },
       data: [
         `aeon, eon
@@ -464,17 +464,17 @@ sulphur, sulfur`,
 cosy, cozy
 doughnut, donut
 draught, draft
-gaol, jail`,
-      ],
+gaol, jail`
+      ]
     },
     {
-      type: "rightOne",
-      label: "British English",
-      id: "biggest",
+      type: 'rightOne',
+      label: 'British English',
+      id: 'biggest',
       commonData: {
         title: `Pick the british spelling.`,
-        printTitle: "Circle the british spelling.",
-        fontSize: "1.3rem",
+        printTitle: 'Circle the british spelling.',
+        fontSize: '1.3rem'
       },
       data: [
         `arbour, arbor
@@ -518,78 +518,78 @@ sabre, saber
 sceptre, scepter
 sepulchre, sepulcher
 sombre, somber
-theatre, theater`,
-      ],
+theatre, theater`
+      ]
     },
     {
-      label: "British or American",
-      id: "british-american",
-      type: "group",
+      label: 'British or American',
+      id: 'british-american',
+      type: 'group',
       commonData: {
-        title: "Classify the below spellings as American or British English",
+        title: 'Classify the below spellings as American or British English'
       },
       data: [
         {
           types: [
             {
-              name: "American",
-              text: "arbor, ardor, armor, behavior, candor",
+              name: 'American',
+              text: 'arbor, ardor, armor, behavior, candor'
             },
             {
-              name: "British",
-              text: "arbour, ardour, armour, behaviour, candour",
-            },
-          ],
+              name: 'British',
+              text: 'arbour, ardour, armour, behaviour, candour'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "clamor, color, demeanor, endeavor, favor",
+              name: 'American',
+              text: 'clamor, color, demeanor, endeavor, favor'
             },
             {
-              name: "British",
-              text: "clamour, colour, demeanour, endeavour, favour",
-            },
-          ],
+              name: 'British',
+              text: 'clamour, colour, demeanour, endeavour, favour'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "flavor, habor, honor, humor",
+              name: 'American',
+              text: 'flavor, habor, honor, humor'
             },
             {
-              name: "British",
-              text: "flavour, harbour, honour, humour",
-            },
-          ],
+              name: 'British',
+              text: 'flavour, harbour, honour, humour'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "rumor, savior, savor, splendor, tumor",
+              name: 'American',
+              text: 'rumor, savior, savor, splendor, tumor'
             },
             {
-              name: "British",
-              text: "rumour, saviour, savour, splendour, tumour",
-            },
-          ],
+              name: 'British',
+              text: 'rumour, saviour, savour, splendour, tumour'
+            }
+          ]
         },
         {
           types: [
             {
-              name: "American",
-              text: "liter, luster, meager, meter, saber",
+              name: 'American',
+              text: 'liter, luster, meager, meter, saber'
             },
             {
-              name: "British",
-              text: "litre, lustre, meagre, metre, sabre",
-            },
-          ],
-        },
-      ],
-    },
-  ],
+              name: 'British',
+              text: 'litre, lustre, meagre, metre, sabre'
+            }
+          ]
+        }
+      ]
+    }
+  ]
 };

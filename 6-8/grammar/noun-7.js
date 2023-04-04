@@ -1,14 +1,14 @@
 export default {
-  id: "noun-7",
-  label: "Noun",
+  id: 'noun-7',
+  label: 'Noun',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "noun",
+      label: 'Notes',
+      type: 'passage',
+      id: 'noun',
       data: {
-        title: "Noun",
+        title: 'Noun',
         text: [
           `Nouns are words used to refer to objects, places and living things. Some nouns also refer to feelings and emotions. Nouns can be classified in different ways.
 1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event.
@@ -16,16 +16,16 @@ export default {
 3. Collective Noun: Used for a collection of people or things.
 4. Abstract Noun: Describes a concept, feeling or emotion.
 5. Countable Noun: Anything that can be counted with numbers is called countable nouns.
-6. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`,
-        ],
-      },
+6. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`
+        ]
+      }
     },
     {
-      id: "fill-up",
-      label: "Fill up",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'Fill up',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with the most appropriate form of words.`,
+        title: `Fill in the blanks with the most appropriate form of words.`
       },
       data: [
         `A cat *likes (like)* to drink milk.
@@ -38,42 +38,42 @@ Gangtok is the capital of *Sikkim (sikkim)*.`,
 A *team (group)* of players was playing cricket.
 *Cherries (Cherry's)* are red in color.
 *Eggs (Egg)* were broken by Rahul.
-London is the home for the *London Eye (london eye)*.`,
-      ],
+London is the home for the *London Eye (london eye)*.`
+      ]
     },
     {
-      id: "classify-sentence",
-      label: "Countable vs Uncountable",
-      type: "classifySentence",
+      id: 'classify-sentence',
+      label: 'Countable vs Uncountable',
+      type: 'classifySentence',
       data: {
         title:
-          "Identify whether the underlined nouns are countable or uncountable.",
+          'Identify whether the underlined nouns are countable or uncountable.',
         types: [
           {
-            name: "Countable",
+            name: 'Countable',
             text: `My aunt is having a *car* sale tomorrow.
 Many *trees* were cut down last year.
 *Students* work hard for their exams.
 Vatsal loves to eat *sweets*.
 He bought tasty *mangoes* from the market.
 There are several ways to solve a *question*.
-My mom loves to chop *vegetables*.`,
+My mom loves to chop *vegetables*.`
           },
           {
-            name: "Uncountable",
+            name: 'Uncountable',
             text: `Parth bought *rice and pulse* from a supermarket.
 Goat *milk* is very healthy.
-*Water* is a renewable resource.`,
-          },
-        ],
-      },
+*Water* is a renewable resource.`
+          }
+        ]
+      }
     },
     {
-      type: "selectWord",
-      label: "Identify Abstract Noun",
-      id: "abstractnoun",
+      type: 'selectWord',
+      label: 'Identify Abstract Noun',
+      id: 'abstractnoun',
       commonData: {
-        title: "Identify the abstract noun from the following sentences.",
+        title: 'Identify the abstract noun from the following sentences.'
       },
       data: [
         `His wife resented his *devotion* to his job.
@@ -89,16 +89,16 @@ We were frightened by her ominous *prediction*.`,
 
         `That was a splendid *performance*.
 His *happiness* knew no bounds.
-There is some *misunderstanding* between the two brothers.`,
-      ],
+There is some *misunderstanding* between the two brothers.`
+      ]
     },
     {
-      label: "Countable or Uncountable",
-      type: "classifySentence",
-      id: "countable-uncountable",
+      label: 'Countable or Uncountable',
+      type: 'classifySentence',
+      id: 'countable-uncountable',
       commonData: {
-        title: "Classify the underlined noun as countable or uncountable.",
-        types: ["Countable", "Uncountable"],
+        title: 'Classify the underlined noun as countable or uncountable.',
+        types: ['Countable', 'Uncountable']
       },
       data: [
         [
@@ -109,7 +109,7 @@ The *waiters* in this restaurant are very professional.`,
 
           `I don't like *milk*.
 I prefer *tea*.
-My mother uses *butter* to prepare cakes.`,
+My mother uses *butter* to prepare cakes.`
         ],
         [
           `My father drinks two big *glasses* of water every morning.
@@ -119,7 +119,7 @@ I bought three *bottles* of mineral water for our picnic.`,
 
           `We need some *glue* to fix this vase.
 The *bread* my mother prepares is delicious.
-I'd like some *juice* please!`,
+I'd like some *juice* please!`
         ],
         [
           `Successful *candidates* will join the camp later this year.
@@ -127,16 +127,16 @@ The *exercises* on this website are interesting.
 I met some nice *people* when I was walking along the beach.`,
 
           `A rise in *oil* prices is inevitable since there is more and more world demand for energy.
-Dehydrated babies must drink a lot of *water*.`,
-        ],
-      ],
+Dehydrated babies must drink a lot of *water*.`
+        ]
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "collective-noun",
+      label: 'Notes',
+      type: 'passage',
+      id: 'collective-noun',
       data: {
-        title: "Collective Noun",
+        title: 'Collective Noun',
         text: [
           `# List of Collective Nouns
 # Collective Nouns for Animals
@@ -169,14 +169,14 @@ Collective noun for apples - Bushel
 Collective noun for bananas - Comb
 Collective noun for grapes - Bunch
 Collective noun for flowers - Bunch or Bouquet
-Collective noun for trees - Grove or Forest`,
-        ],
-      },
+Collective noun for trees - Grove or Forest`
+        ]
+      }
     },
     {
-      label: "Collective Noun",
-      type: "matchByDragDrop",
-      id: "drag-drop-collective",
+      label: 'Collective Noun',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-collective',
       lockAfter: 1,
       data: [
         `an *army* of soldiers
@@ -224,13 +224,13 @@ a *harvest* of wheat`,
 a *pack* of cards
 a *library* of books
 a *loaf* of bread
-a *shower* of rain`,
-      ],
+a *shower* of rain`
+      ]
     },
     {
-      label: "Collective Noun",
-      type: "matchByDragDrop",
-      id: "drag-drop-collective-2",
+      label: 'Collective Noun',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-collective-2',
       lockAfter: 1,
       data: [
         `The captain guided the *team* to play better.
@@ -255,13 +255,13 @@ The entire medical *staff* got infected by the Coronavirus.`,
 The *troupe* performed the Macbeth drama.
 The Andaman and Nicobar Islands comprise a *group* of 573 islands.
 The *jury* passed a unanimous decision.
-A *cloud* of dust swirled up during the storm.`,
-      ],
+A *cloud* of dust swirled up during the storm.`
+      ]
     },
     {
-      type: "completeWord",
-      id: "complete-word",
-      label: "Complete Word - Collective Noun",
+      type: 'completeWord',
+      id: 'complete-word',
+      label: 'Complete Word - Collective Noun',
       data: [
         `A number of people listening to a lecture/concert | AUDIENCE
 A group of people who sing in the church or public platforms | CHOIR
@@ -279,15 +279,15 @@ A number of lions | PRIDE`,
 A group of bacteria | CULTURE
 A group of penguins | COLONY
 A group of fish | SCHOOL
-A number of cards | DECK`,
-      ],
+A number of cards | DECK`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "noun-2",
+      label: 'Notes',
+      type: 'passage',
+      id: 'noun-2',
       data: {
-        title: "Noun",
+        title: 'Noun',
         text: [
           `=> Nouns can also be classified as:
 1. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
@@ -304,17 +304,17 @@ Fireman =>	Firefighter
 Chairman => Chairperson
 Stewardess, Steward	=> Flight attendant
 Actor, actress	=> Actor
-Common man	=> Common person`,
-        ],
-      },
+Common man	=> Common person`
+        ]
+      }
     },
     {
-      id: "masculine-feminine",
-      label: "Match the following",
-      type: "match",
+      id: 'masculine-feminine',
+      label: 'Match the following',
+      type: 'match',
       commonData: {
         title:
-          "Match the masculine gender with the corresponding feminine gender.",
+          'Match the masculine gender with the corresponding feminine gender.'
       },
       data: [
         `Host, Hostess
@@ -349,14 +349,14 @@ Fox, Vixen`,
 
         `Hart, Roe
 Horse, Mare
-Peacock, Peahen`,
-      ],
+Peacock, Peahen`
+      ]
     },
     {
-      type: "completeWord",
-      id: "complete-word",
-      label: "Complete Word - Gender",
-      title: "Change the words from feminine to masculine.",
+      type: 'completeWord',
+      id: 'complete-word',
+      label: 'Complete Word - Gender',
+      title: 'Change the words from feminine to masculine.',
       data: [
         `girl | BOY
 mother | FATHER
@@ -374,36 +374,36 @@ aunt | UNCLE`,
 actress | ACTOR
 heroine | HERO
 bride | GROOM
-headmistress | HEADMASTER`,
-      ],
+headmistress | HEADMASTER`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "plural",
+      label: 'Notes',
+      type: 'passage',
+      id: 'plural',
       data: {
-        title: "Making Plurals",
+        title: 'Making Plurals',
         text: [
           `There are some rules for changing a singular noun to plural form.
 1. The plural of most nouns is formed when -s are added to them.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Ball - Ball<b>s</b><br>
 Book - Book<b>s</b><br>
 Car - Car<b>s</b><br>
-Ear - Ear<b>s</b>`,
+Ear - Ear<b>s</b>`
           },
           `2. Nouns ending in -ch,-s,-sh,-ss, and -x form plural if -es is added to them.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> -Ben<b>ch</b> - Bench<b>es</b><br>
 Bru<b>sh</b> - Brush<b>es</b><br>
 Bo<b>x</b> - Box<b>es</b><br>
-Cla<b>ss</b> - Class<b>es</b>`,
+Cla<b>ss</b> - Class<b>es</b>`
           },
           `3. Most of the nouns ending with -o form their plural when -es is added to their singular.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Buffal<b>o</b> - Buffalo<b>es</b><br>
 Carg<b>o</b> - Cargo<b>es</b><br>
 Her<b>o</b> - Hero<b>es</b><br>
@@ -411,11 +411,11 @@ Her<b>o</b> - Hero<b>es</b><br>
 Dynam<b>o</b>- Dynam<b>os</b><br>
 Mement<b>o</b>- Mement<b>os</b><br>
 Phot<b>o</b>- Phot<b>os</b><br>
-Pian<b>o</b>- Pian<b>os</b>`,
+Pian<b>o</b>- Pian<b>os</b>`
           },
           `4. If the noun ends with -f or -fe, its plural is formed by adding -ves to its singular.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Cal<b>f</b> - cal<b>ves</b><br>
 El<b>f</b> - El<b>ves</b><br>
 Hal<b>f</b> - Hal<b>ves</b><br>
@@ -423,11 +423,11 @@ Hal<b>f</b> - Hal<b>ves</b><br>
 Chie<b>f</b> - Chief<b>s</b><br>
 Clif<b>f</b> - Cliff<b>s</b><br>
 Roo<b>f</b> - Roof<b>s</b><br>
-Proo<b>f</b> - Proof<b>s</b>`,
+Proo<b>f</b> - Proof<b>s</b>`
           },
           `5. If a noun ends with -y and has a consonant before it, to make it plural we add -ies in place of -y.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Arm<b>y</b> - Arm<b>ies</b><br>
 Bab<b>y</b> - Bab<b>ies</b><br>
 Cit<b>y</b> - Cit<b>ies</b><br>
@@ -435,66 +435,66 @@ Cit<b>y</b> - Cit<b>ies</b><br>
 Da<b>y</b> - Day<b>s</b><br>
 Ke<b>y</b> - Key<b>s</b><br>
 Monke<b>y</b> - Monkey<b>s</b><br>
-Valle<b>y</b> - Valley<b>s</b>.`,
+Valle<b>y</b> - Valley<b>s</b>.`
           },
           `6. Some nouns are formed plural by changing the vowels inside them.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - F<b>oo</b>t - F<b>ee</b>t<br>
 G<b>oo</b>se - G<b>ee</b>se<br>
 M<b>a</b>n - M<b>e</b>n<br>
 T<b>oo</b>th - T<b>ee</b>th<br>
-Wom<b>a</b>n - Wom<b>e</b>n`,
+Wom<b>a</b>n - Wom<b>e</b>n`
           },
           `7. Some nouns don't follow any rules. We need to keep in mind their singular as well as the plural form.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Child - <b>Children</b><br>
 Mouse - <b>Mice</b><br>
 Louse - <b>Lice</b><br>
-Ox - <b>Oxen</b>`,
+Ox - <b>Oxen</b>`
           },
           `8. Some nouns do not differ in their singular and plural.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Deer - <b>Deer</b><br>
 Fish - <b>Fish</b><br>
 Hundred - <b>Hundred</b><br>
 Sheep - <b>sheep</b><br>
-Score - <b>Score</b>`,
+Score - <b>Score</b>`
           },
           `9. A noun consisting of 2 or more words, forms its plural by adding -s to its principal word.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Brother in law - Brother<b>s</b> in law<br>
 Commander in chief - Commander<b>s</b> in chief<br>
-Foot Man - Foot M<b>e</b>n`,
+Foot Man - Foot M<b>e</b>n`
           },
           `10. Name of certain apparel/clothing is used as plural.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - Aryan's <b>trousers</b> are new.<br>
 Her <b>shorts</b> are dirty.<br>
-Only white <b>socks</b> are allowed on Saturday in school.<br>`,
+Only white <b>socks</b> are allowed on Saturday in school.<br>`
           },
           `11. Name of some subjects sound plural but they are singular.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b> - <b>Mathematics</b> is a tough subject.<br>
 <b>Politics</b> is a gloomy subject.<br>
-<b>Economics</b> is a subject that deals with the operations of the financial system.<br>`,
-          },
-        ],
-      },
+<b>Economics</b> is a subject that deals with the operations of the financial system.<br>`
+          }
+        ]
+      }
     },
     {
-      id: "fill-up-plural",
-      label: "Plurals",
-      type: "fillup",
+      id: 'fill-up-plural',
+      label: 'Plurals',
+      type: 'fillup',
       lockAfter: 1,
       commonData: {
         title: `Fill in the blanks correctly using plural forms of words given in the bracket.`,
-        noOptions: true,
+        noOptions: true
       },
       data: [
         `The *maid-servants* washed the dishes in the house. (maid-servant)
@@ -504,17 +504,17 @@ The passer-by was attacked by armed *men*. (man)`,
 
         `The *geese* killed the *mice* in the field. (goose, mouse)
 These *pizzas* were prepared in the hotel. (pizza)
-The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)`,
-      ],
+The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)`
+      ]
     },
     {
-      id: "fill-up-singularplural",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-singularplural',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       lockAfter: 1,
       commonData: {
         title: `Fill in the blanks correctly using singular or plural forms of words given in the bracket.`,
-        noOptions: true,
+        noOptions: true
       },
       data: [
         `This music player needs ten *batteries*.(battery)
@@ -527,16 +527,16 @@ Some kings had many *wives*. (wife)`,
 He is wearing a nice pair of *jeans*. (jeans)
 Sana got three *dresses* as her birthday present. (dress)
 There are five *boxes* filled with sweets. (box)
-This year John topped *Physics* exam. (physics)`,
-      ],
+This year John topped *Physics* exam. (physics)`
+      ]
     },
     {
-      label: "Correct or Incorrect",
-      type: "classifySentence",
-      id: "correct-incorrect-noun",
+      label: 'Correct or Incorrect',
+      type: 'classifySentence',
+      id: 'correct-incorrect-noun',
       commonData: {
-        title: "Classify the sentences as correct or incorrect.",
-        types: ["Correct", "Incorrect"],
+        title: 'Classify the sentences as correct or incorrect.',
+        types: ['Correct', 'Incorrect']
       },
       data: [
         [
@@ -546,7 +546,7 @@ My aunt was an airplane stewardess once.`,
 
           `The girl looks very much like his mother. 
 The mistress gave his maidservant a present. 
-My aunt was an airplane steward once.`,
+My aunt was an airplane steward once.`
         ],
         [
           `This actress played the part of the heroine in the movie. 
@@ -555,43 +555,43 @@ Ms. Lee is our headmistress.`,
 
           `This actress played the part of the hero in the movie. 
 This girl is the groom.
-Ms. Lee is our headmaster.`,
-        ],
-      ],
+Ms. Lee is our headmaster.`
+        ]
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "case",
+      label: 'Notes',
+      type: 'passage',
+      id: 'case',
       data: {
-        title: "Case of Nouns",
+        title: 'Case of Nouns',
         text: [
           `1. Nominative Case: When a noun is used as the subject of the verb, it is called the nominative case.`,
           {
-            type: "html",
-            text: `<b>Example</b> - <b>Karan</b> won the match.`,
+            type: 'html',
+            text: `<b>Example</b> - <b>Karan</b> won the match.`
           },
           `2. Objective Case: When the noun is used as an object of the verb, it is called the objective case.`,
           {
-            type: "html",
-            text: `<b>Example</b> - Chetan Bhagat writes <b>novels</b>. (The word novel is the object of verb writes)`,
+            type: 'html',
+            text: `<b>Example</b> - Chetan Bhagat writes <b>novels</b>. (The word novel is the object of verb writes)`
           },
           `3. Possessive Case: When the noun shows possession, it is called the possessive case.`,
           {
-            type: "html",
-            text: `<b>Example</b> - <b>Pari's</b> book is kept on the bed.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `<b>Example</b> - <b>Pari's</b> book is kept on the bed.`
+          }
+        ]
+      }
     },
     {
-      label: "Identify Case of Noun",
-      type: "classifySentence",
-      id: "identify-case",
+      label: 'Identify Case of Noun',
+      type: 'classifySentence',
+      id: 'identify-case',
       commonData: {
         title:
-          "Given below are a few sentences, identify the case of the noun for them.",
-        types: ["Possessive", "Nominative", "Objective"],
+          'Given below are a few sentences, identify the case of the noun for them.',
+        types: ['Possessive', 'Nominative', 'Objective']
       },
       data: [
         [
@@ -604,7 +604,7 @@ The *mother* teaches the child in the morning.`,
 
           `The mother teaches the *child* in the morning.
 Chetan Bhagat writes *novels*.
-The teacher punished the *boy*.`,
+The teacher punished the *boy*.`
         ],
         [
           `*Student's* ID card lost.
@@ -616,9 +616,9 @@ The *lawyer* will talk to the judge later.`,
 
           `The plate is on the *table.
 Gagan has lost his *wallet*.
-The river flows into the *sea*.`,
-        ],
-      ],
-    },
-  ],
+The river flows into the *sea*.`
+        ]
+      ]
+    }
+  ]
 };

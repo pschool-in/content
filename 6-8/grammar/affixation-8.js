@@ -1,47 +1,47 @@
 export default {
-  id: "affixation-8",
-  label: "Affixation",
+  id: 'affixation-8',
+  label: 'Affixation',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Affixation",
+        title: 'Affixation',
         text: [
           `# Affixation
 An affix is a word element of English grammar used to alter the meaning or form of a word and comes in the form of either a prefix or a suffix. 
 # Affixation in Comparative and Superlative Degree
 1. Most comparative and superlative degrees are made by adding -er and -est. If the adjective ends in -e, only then -r and -st are added.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: sweet -> sweet<b>er</b> -> sweet<b>est</b>; safe -> saf<b>er</b> -> saf<b>est</b>; dark -> dark<b>er</b> -> dark<b>est</b>`,
+            type: 'html',
+            text: `<b>Examples</b>: sweet -> sweet<b>er</b> -> sweet<b>est</b>; safe -> saf<b>er</b> -> saf<b>est</b>; dark -> dark<b>er</b> -> dark<b>est</b>`
           },
           `2. Adjectives ending in y, drop the -y and take -ier and -iest.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: crazy -> craz<b>ier</b> -> craz<b>iest</b>; early  -> earl<b>ier</b> -> earl<b>iest</b>; happy -> happ<b><ier</b> -> happ<b>iest</b>`,
+            type: 'html',
+            text: `<b>Examples</b>: crazy -> craz<b>ier</b> -> craz<b>iest</b>; early  -> earl<b>ier</b> -> earl<b>iest</b>; happy -> happ<b><ier</b> -> happ<b>iest</b>`
           },
           `3. In some adjectives that have just one syllable, the last consonant is doubled.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: thin —> thi<b>nner</b> —> thi<b>nnest</b>; sad —> sa<b>dder</b> -> sa<b>ddest</b>; dim -> di<b>mmer</b> -> di<b>mmest</b>`,
+            type: 'html',
+            text: `<b>Examples</b>: thin —> thi<b>nner</b> —> thi<b>nnest</b>; sad —> sa<b>dder</b> -> sa<b>ddest</b>; dim -> di<b>mmer</b> -> di<b>mmest</b>`
           },
           `4. Adjectives that have more than two or three syllables take more and most to make comparative and superlative degrees. These include adjectives that end in -ed, -ful, -less, -ing, etc.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: excited -> <b>more</b> excited —> <b>most</b> excited; useful —> <b>more</b> useful -> <b>most</b> useful`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `<b>Examples</b>: excited -> <b>more</b> excited —> <b>most</b> excited; useful —> <b>more</b> useful -> <b>most</b> useful`
+          }
+        ]
+      }
     },
     {
-      id: "fill-up",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with the most appropriate degree of comparison in the following sentences.`,
+        title: `Fill in the blanks with the most appropriate degree of comparison in the following sentences.`
       },
       data: [
         `Athiya is *smarter (smartest)* than most of her friends.
@@ -54,17 +54,17 @@ The most recent movie was *excellent (excellenter)*.`,
 Woody is the *most watched (watched more)* series.
 Sreya is *happier (happy)* than Tina.
 Arhan is a *patient (patienter)* kid.
-These maths problems are *easy (easiest)*.`,
-      ],
+These maths problems are *easy (easiest)*.`
+      ]
     },
     {
-      id: "fillup-2",
-      label: "Degrees of Comparisson",
-      type: "fillup",
+      id: 'fillup-2',
+      label: 'Degrees of Comparisson',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the missing blanks with the most appropriate degree of comparison.",
+          'Fill in the missing blanks with the most appropriate degree of comparison.'
       },
       lockAfter: 2,
       data: [
@@ -101,17 +101,17 @@ Costly, *Costlier*, Costliest`,
         `Busy, Busier, *Busiest*
 *Cosy*, Cosier, Cosiest
 Little, *Less*, *Least*
-Many, *More*, Most`,
-      ],
+Many, *More*, Most`
+      ]
     },
     {
-      id: "fillup-1",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fillup-1',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks with the most appropriate degree of comparison in the following sentences.",
+          'Fill in the blanks with the most appropriate degree of comparison in the following sentences.'
       },
       lockAfter: 2,
       data: [
@@ -129,8 +129,8 @@ Sam is intelligent.	Sam is *more intelligent* than Tina. Sam is the *most intell
 
         `He is smart. He is *smarter* than Geetha. He is the *smartest* among them.
 Rinita has a big house.	Rinita has a *bigger* house than Seena.	Roshini has the *biggest* house among them.
-My friend, Bindhu looks happy. Bindhu looks *happier* than my other friends. Bindhu, looks the *happiest* while playing.`,
-      ],
-    },
-  ],
+My friend, Bindhu looks happy. Bindhu looks *happier* than my other friends. Bindhu, looks the *happiest* while playing.`
+      ]
+    }
+  ]
 };

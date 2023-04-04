@@ -1,40 +1,40 @@
 export default {
-  id: "verb-7-8",
-  label: "Verb",
+  id: 'verb-7',
+  label: 'Verb',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "verb",
+      label: 'Notes',
+      type: 'passage',
+      id: 'verb',
       data: {
-        title: "Verb",
+        title: 'Verb',
         text: [
           `The verb is a word that expresses some action, feeling or existence. It tells us something about the subject.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: Lions <b>roar</b>. (<b>action</b>); Boys <b>fly</b> kites. (<b>action</b>); I <b>feel</b> sorry. (<b>feeling</b>); Ashoka was a <b>great</b> king. (<b>existence</b>)`,
+            type: 'html',
+            text: `<b>Examples</b>: Lions <b>roar</b>. (<b>action</b>); Boys <b>fly</b> kites. (<b>action</b>); I <b>feel</b> sorry. (<b>feeling</b>); Ashoka was a <b>great</b> king. (<b>existence</b>)`
           },
           `Verbs are divided into two parts; Main Verbs and Helping Verbs.
 Main verbs are also of two kinds:
 
 1. Finite Verb: They change their forms according to the person and number of the subject and the tense also.`,
           {
-            type: "html",
-            text: `<b>Examples</b>: He <b>reads</b>. I <b>read</b>.`,
+            type: 'html',
+            text: `<b>Examples</b>: He <b>reads</b>. I <b>read</b>.`
           },
-          `2. Non-finite Verb: They do not change their forms according to the number, person or tense of the subject. The infinitives, gerunds and participles are called non-finite verbs.`,
-        ],
-      },
+          `2. Non-finite Verb: They do not change their forms according to the number, person or tense of the subject. The infinitives, gerunds and participles are called non-finite verbs.`
+        ]
+      }
     },
     {
-      id: "helping-verb",
-      label: "Helping Verbs",
-      type: "fillup",
+      id: 'helping-verb',
+      label: 'Helping Verbs',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks with the correct form of helping verbs (is/am/are).",
+          'Fill in the blanks with the correct form of helping verbs (is/am/are).'
       },
       lockAfter: 1,
       data: [
@@ -54,16 +54,16 @@ The children *are* studying for their exams.`,
 I *am* feeling very sleepy.
 The dog *is* barking at the stranger.
 The cats *are* fighting for food.
-*Are* you sure what you said is true?`,
-      ],
+*Are* you sure what you said is true?`
+      ]
     },
     {
-      id: "has-have-had",
-      label: "Has/Have/Had",
-      type: "fillup",
+      id: 'has-have-had',
+      label: 'Has/Have/Had',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Fill in the blanks using has/have/had.",
+        title: 'Fill in the blanks using has/have/had.'
       },
       lockAfter: 1,
       data: [
@@ -83,56 +83,56 @@ My sister *has* her final exam tomorrow.`,
 They do not *have* a bicycle.
 We *have* not visited the new park yet.
 Lady Macbeth *had* a lust for power.
-Rita *had* a seminar before.`,
-      ],
+Rita *had* a seminar before.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "regular-irregular-verb",
+      label: 'Notes',
+      type: 'passage',
+      id: 'regular-irregular-verb',
       data: {
-        title: "Verb",
+        title: 'Verb',
         text: [
           `Regular verbs from their past and past participle forms by adding -ed.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: walk-walk<b>ed</b>-walk<b>ed</b><br>
-dance-danc<b>ed</b>-danc<b>ed</b>`,
+dance-danc<b>ed</b>-danc<b>ed</b>`
           },
           `Irregular verbs form their past and past participle forms in different ways. There are mainly three types of irregular verbs.
 
 1. Verbs in which all the three forms are the same.`,
           {
-            type: "html",
-            text: `<b>Example</b>: put-<b>put</b>-<b>put</b>`,
+            type: 'html',
+            text: `<b>Example</b>: put-<b>put</b>-<b>put</b>`
           },
           `2. Verbs in which two of the three forms are the same.`,
           {
-            type: "html",
-            text: `<b>Example</b>: sit-<b>sat</b>-<b>sat</b>`,
+            type: 'html',
+            text: `<b>Example</b>: sit-<b>sat</b>-<b>sat</b>`
           },
           `3. Verbs in which all three forms are different.`,
           {
-            type: "html",
-            text: `<b>Example</b>: drink-<b>drank</b>-<b>drunk</b>`,
+            type: 'html',
+            text: `<b>Example</b>: drink-<b>drank</b>-<b>drunk</b>`
           },
           `=> Some verbs can be both regular and irregular.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: Burn-burn<b>t</b>-burn<b>t</b> (<b>irregular</b>); Burn-burn<b>ed</b>-burn<b>ed</b> (<b>regular</b>)<br>
-Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream<b>ed</b> (<b>regular</b>)`,
-          },
-        ],
-      },
+Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream<b>ed</b> (<b>regular</b>)`
+          }
+        ]
+      }
     },
     {
-      id: "irregular-verb",
-      label: "Irregular Verb",
-      type: "fillup",
+      id: 'irregular-verb',
+      label: 'Irregular Verb',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Find out the simple past form and the past participle form of the following irregular verbs.",
+          'Find out the simple past form and the past participle form of the following irregular verbs.'
       },
       lockAfter: 1,
       data: [
@@ -188,17 +188,16 @@ Steal - Stole - *Stolen*`,
 Bring - Brought - *Brought*
 Teach - *Taught* - Taught
 Put - Put - *Put*
-Shut - *Shut* - Shut`,
-      ],
+Shut - *Shut* - Shut`
+      ]
     },
     {
-      id: "irregular-verb-fillup",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'irregular-verb-fillup',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title:
-          "Fill in the blanks with the appropriate tense form of the verb.",
+        title: 'Fill in the blanks with the appropriate tense form of the verb.'
       },
       lockAfter: 1,
       data: [
@@ -208,36 +207,36 @@ Why is no one opening the door? Did you ring the bell? Yes, I *rang* it several 
         `I asked my sister to wake me at 6 a.m. But she did not *wake* me. I *woke* up at 8 a.m. and missed my bus. If she had *woken* me up I would have reached the school on time.
 I had cast my rod and was waiting for the fish to bite the bait. I reeled in the rod as soon as the fish *bit* on the bait. But in that short while the clever fish had already *bitten* off the bait from the hook and successfully escaped.`,
 
-        `The teacher suddenly asked me to speak in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.`,
-      ],
+        `The teacher suddenly asked me to speak in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "transitive-intransitive",
+      label: 'Notes',
+      type: 'passage',
+      id: 'transitive-intransitive',
       data: {
-        title: "Transitive and Intransitive Verb",
+        title: 'Transitive and Intransitive Verb',
         text: [
           `A transitive verb is a type of verb that needs an object to make complete sense of the action being performed by the subject.`,
           {
-            type: "html",
-            text: `<b>Example</b>: The teacher gave me a new notebook.`,
+            type: 'html',
+            text: `<b>Example</b>: The teacher gave me a new notebook.`
           },
           `An intransitive verb is a verb that does not necessarily require an object to make sense of the action being performed by the subject in a sentence or context.`,
           {
-            type: "html",
-            text: `<b>Example</b>: The baby is sleeping.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `<b>Example</b>: The baby is sleeping.`
+          }
+        ]
+      }
     },
     {
-      label: "Transitive or Intransitive",
-      type: "classifySentence",
-      id: "transitive-or-intransitive",
+      label: 'Transitive or Intransitive',
+      type: 'classifySentence',
+      id: 'transitive-or-intransitive',
       commonData: {
-        title: "Classify as a transitive or intransitive verb.",
-        types: ["Transitive", "Intransitive"],
+        title: 'Classify as a transitive or intransitive verb.',
+        types: ['Transitive', 'Intransitive']
       },
       data: [
         [
@@ -246,7 +245,7 @@ The children passed the books around.
 Can you bring me some mangoes?`,
 
           `Firoz laughed so hard.
-I studied in California.`,
+I studied in California.`
         ],
         [
           `Eliza found the kittens on the corner of the street.
@@ -254,16 +253,16 @@ Roshan met his best friend at the park.
 Javed loved his new bike.`,
 
           `Jack came home in the evening.
-The car stopped suddenly, in the middle of the road.`,
-        ],
-      ],
+The car stopped suddenly, in the middle of the road.`
+        ]
+      ]
     },
     {
-      id: "fillup",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fillup',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using appropriate forms of verbs.`,
+        title: `Fill in the blanks using appropriate forms of verbs.`
       },
       data: [
         `Riya *runs (run)* a mile every day.
@@ -288,70 +287,70 @@ The friends *drove (drive)* back from the trip.`,
 They *played (plays)* till late evening.
 Can you *swim (swam)* well?
 Cheetahs *run (ran)* very fast.
-My brother and I *talk (talks)* every day.`,
-      ],
+My brother and I *talk (talks)* every day.`
+      ]
     },
     {
-      label: "Multiple Choice Questions",
-      type: "mcq",
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
       data: {
-        title: "Identify the underlined part and choose the correct option.",
+        title: 'Identify the underlined part and choose the correct option.',
         questions: [
           {
             qText: `The storm *caught* the sailor.`,
-            options: `Transitive verb, Intransitive verb, Helping verb, Modals`,
+            options: `Transitive verb, Intransitive verb, Helping verb, Modals`
           },
           {
             qText: `His friend told him not to pluck *the flowers*.`,
-            options: `Object, Complement, Pronoun, Linker`,
+            options: `Object, Complement, Pronoun, Linker`
           },
           {
             qText: `According to me, she *should* work hard.`,
-            options: `Modals, Object, Complement, Auxiliary`,
+            options: `Modals, Object, Complement, Auxiliary`
           },
           {
             qText: `The gardener *trimmed* the plants in the garden.`,
-            options: `Transitive verb, Object, Complement, Intransitive verb`,
+            options: `Transitive verb, Object, Complement, Intransitive verb`
           },
           {
             qText: `The athlete *has* broken his own record.`,
-            options: `Helping verb, Transitive verb, Intransitive verb, Modal`,
-          },
-        ],
-      },
+            options: `Helping verb, Transitive verb, Intransitive verb, Modal`
+          }
+        ]
+      }
     },
     {
-      label: "Complete the paragraph",
-      type: "fillup",
-      id: "fillup",
+      label: 'Complete the paragraph',
+      type: 'fillup',
+      id: 'fillup',
       data: {
         noOptions: true,
         title: `Use the correct form of the verb given in the brackets to complete the following paragraph.`,
         text: `Mr Koch, the mathematics teacher *gave* (give) Albert the reference he *wanted* (want).
-Albert *got* (get) summoned to the head teacher's room. The head teacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`,
-      },
+Albert *got* (get) summoned to the head teacher's room. The head teacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
+      }
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "linking-verb",
+      label: 'Notes',
+      type: 'passage',
+      id: 'linking-verb',
       data: {
-        title: "Linking Verb",
+        title: 'Linking Verb',
         text: [
           `Linking verbs are verbs that don't show an action but rather describe the subject. While verbs like walk or jump represent an action, linking verbs like be or seem add more details to the subject, such as 'he seems nice' or 'she is an architect'.
 All basic forms of the 'to be' verb can be used as linking verbs to qualify the state of being of the subject.
 All forms of the verb 'to seem' are used as linking verbs.
-All forms of the verb 'to become' are used as linking verbs.`,
-        ],
-      },
+All forms of the verb 'to become' are used as linking verbs.`
+        ]
+      }
     },
     {
-      type: "selectWord",
-      label: "Linking Verb",
-      id: "select-word-2",
+      type: 'selectWord',
+      label: 'Linking Verb',
+      id: 'select-word-2',
       lockAfter: 1,
       commonData: {
-        title: "Identify linking verbs from the following sentence.",
+        title: 'Identify linking verbs from the following sentence.'
       },
       data: [
         `Neena *seems* to be very energetic today.
@@ -377,20 +376,20 @@ Kenny *seems* to be a great man.`,
 Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
 The dirty dog *smells* bad because his nose is clogged.
-William's mom *is* a doctor.`,
-      ],
+William's mom *is* a doctor.`
+      ]
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fillup-drag",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
       lockAfter: 1,
       commonData: {
-        title: "Fill in the blanks using linking verbs.",
+        title: 'Fill in the blanks using linking verbs.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 70,
-        },
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
       data: [
         `I *am* the class teacher of VII B.
@@ -428,171 +427,171 @@ William's mom *is* a doctor.`,
 Dmitri *lives* in Russia.
 The soup *tastes* delicious.
 The king's brother *became* a monk.
-The dirty dog *smells* bad.`,
-      ],
+The dirty dog *smells* bad.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "modal-auxiliaries",
+      label: 'Notes',
+      type: 'passage',
+      id: 'modal-auxiliaries',
       data: {
-        title: "Modal Auxiliaries",
+        title: 'Modal Auxiliaries',
         text: [
           `Modals are auxiliary verbs that express the mode of action denoted by the main verb.`,
           {
-            type: "html",
-            text: `The modal auxiliary includes <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>would</b>, <b>should</b>, <b>must</b>, <b>shall</b>, <b>will</b>, <b>need</b>, <b>dare</b>, <b>ought to</b>, <b>used to</b>, etc.`,
+            type: 'html',
+            text: `The modal auxiliary includes <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>would</b>, <b>should</b>, <b>must</b>, <b>shall</b>, <b>will</b>, <b>need</b>, <b>dare</b>, <b>ought to</b>, <b>used to</b>, etc.`
           },
           `# Uses of 'Can' 
 1. To express ability or power.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: He <b>can</b> read this language.<br>
-He <b>can</b> lift this heavy box.`,
+He <b>can</b> lift this heavy box.`
           },
           `2. To express permission.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: You <b>can</b> eat this chocolate.<br>
-She <b>can</b> never enter this house.`,
+She <b>can</b> never enter this house.`
           },
           `# Uses of 'Could'
 1. To show power or ability in past.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: She <b>could</b> dance well in her youth.<br>
-We <b>could</b> complete this task.`,
+We <b>could</b> complete this task.`
           },
           `2. To show possibility in past.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: She <b>could</b> buy a pen if she had money.<br>
-Ramu <b>could</b> play cricket if there had been no rain.`,
+Ramu <b>could</b> play cricket if there had been no rain.`
           },
           `3. To make a polite request.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>Could</b> you help me now?<br>
-<b>Could</b> they spare that meat?`,
+<b>Could</b> they spare that meat?`
           },
           `4. To show condition.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: If we had got up earlier, we <b>could</b> have completed this.<br>
-We <b>could</b> have seen the match if there had been an electricity supply.`,
+We <b>could</b> have seen the match if there had been an electricity supply.`
           },
           `# Uses of 'May'
 1. To express permission, possibility.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>May</b> I go there? 
-It <b>may</b> rain heavily.`,
+It <b>may</b> rain heavily.`
           },
           `2. To express wish, prayer.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>May</b> you live long!<br>
-<b>May</b> God bless you with fortune!`,
+<b>May</b> God bless you with fortune!`
           },
           `3. To express purpose.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: She works so that she <b>may</b> prosper.<br>
-We study so that we <b>may</b> pass the exam.`,
+We study so that we <b>may</b> pass the exam.`
           },
           `# Uses of 'Might'
 1. To show permission, possibility in the past.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: The leader told us that we <b>might</b> spend this amount.<br> 
-I <b>might</b> be sent to the hostel.`,
+I <b>might</b> be sent to the hostel.`
           },
           `2. To express purpose in the past.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: He wore a scarf so that he <b>might</b> not burn his skin.<br>
-We rushed so that we <b>might</b> not miss our train.`,
+We rushed so that we <b>might</b> not miss our train.`
           },
           `3. To make a request.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: If possible, you <b>might</b> bring me a glass of water.<br>
-Condition allowing, they <b>might</b> be seeking a favor from me.`,
+Condition allowing, they <b>might</b> be seeking a favor from me.`
           },
           `4. To make suggestions or criticism.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: They <b>might</b> look for other venues.<br>
-She <b>might</b> have picked other issues.`,
+She <b>might</b> have picked other issues.`
           },
           `3. To make a polite request.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>Could</b> you help me now?<br>
-<b>Could</b> they spare that meat?`,
+<b>Could</b> they spare that meat?`
           },
           `4. To show condition.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: If we had got up earlier, we <b>could</b> have completed this.<br>
-We <b>could</b> have seen the match if there had been an electricity supply.`,
+We <b>could</b> have seen the match if there had been an electricity supply.`
           },
           `# Uses of 'Would'
 1. To show past habit and unreal condition.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: He <b>would</b> rise at 5 o'Clock. 
-What <b>would</b> you like to have? Tea or coffee.`,
+What <b>would</b> you like to have? Tea or coffee.`
           },
           `2. To make a polite request.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>Would</b> you lend me your pen?<br>
-<b>Would</b> you give me your scooter?`,
+<b>Would</b> you give me your scooter?`
           },
           `# Uses of 'Should'
 1. To express duty and obligation.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: The police <b>should</b> protect us.<br>
-You <b>should</b> respect your parents.`,
+You <b>should</b> respect your parents.`
           },
           `2. To show advice, suggestion.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: They <b>should</b> follow the rules.<br> 
-You <b>should</b> take medicine.`,
+You <b>should</b> take medicine.`
           },
           `3. To express imagination.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>Should</b> you lose your money, go to ATM.<br>
-<b>Should</b> you forget the password, retry then.`,
+<b>Should</b> you forget the password, retry then.`
           },
           `4. To express probability, polite command.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: She <b>should</b> be in the library.<br> 
-You <b>should</b> play the game fairly.`,
+You <b>should</b> play the game fairly.`
           },
           `# Uses of 'Must'
 1. To show prohibition, compulsion.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: You <b>must</b> not touch this.<br>
-She <b>must</b> feel sorry for you.`,
+She <b>must</b> feel sorry for you.`
           },
           `2. To show necessity or obligation.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: Team <b>must</b> win the game.<br>
-You <b>must</b> pay your bill on time.`,
+You <b>must</b> pay your bill on time.`
           },
           `3. To show strong advice.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: Police <b>must</b> take care of emotions of the criminals.<br>
-Leaders <b>must</b> promise what is viable to them.`,
+Leaders <b>must</b> promise what is viable to them.`
           },
           `# Uses of 'Shall/Will'
 1. Shall is used for 1st person subject - I, We
@@ -601,149 +600,149 @@ But, to show the emphasis, they can be interchanged with each other. Therefore, 
 => Will 1st person subject-I, we
 => Shall 2nd and 3rd person subject - You, he, she, it, they.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: I <b>shall</b> go. (<b>Simple future</b>)<br>
 I <b>will</b> go. (<b>Determination</b>)<br>
 She <b>will</b> win. (<b>Simple future</b>)<br>
-She <b>shall</b> win. (<b>Emphasized act</b>)`,
+She <b>shall</b> win. (<b>Emphasized act</b>)`
           },
           `# Uses of 'Need'
 1. To express prohibition.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: <b>Need</b> I go there.<br>
-<b>Need</b> we plan in advance.`,
+<b>Need</b> we plan in advance.`
           },
           `# Uses of 'Dare'
 1. To express a negation with interrogation.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: How <b>dare</b> you touch my pen?<br>
-She <b>dare</b> not play tennis with me.`,
+She <b>dare</b> not play tennis with me.`
           },
           `## Uses of 'Used to'
 1. To express a past habit.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: She <b>used to</b> go to perform in movies or dramas.<br>
-I <b>used to</b> play cricket in 2005.`,
+I <b>used to</b> play cricket in 2005.`
           },
           `2. To express a habit of present that has its roots in the past.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Examples</b>: My grandfather is not <b>used to</b> sweets.<br>
-I am <b>used to</b> a life full of struggle.`,
-          },
-        ],
-      },
+I am <b>used to</b> a life full of struggle.`
+          }
+        ]
+      }
     },
     {
-      label: "Choose the Correct Answer",
-      id: "mcq-modal",
-      type: "mcq",
+      label: 'Choose the Correct Answer',
+      id: 'mcq-modal',
+      type: 'mcq',
       commonData: {
-        title: "Choose the most suitable answer to fill in the blank.",
+        title: 'Choose the most suitable answer to fill in the blank.'
       },
       data: [
         {
           questions: [
             {
-              qText: "You are late. You ____ hurry.",
-              options: "must, will, may, can",
+              qText: 'You are late. You ____ hurry.',
+              options: 'must, will, may, can'
             },
             {
-              qText: "“____ I have a piece of cake, please?” I asked.",
-              options: "May, Will, Must, Shall",
+              qText: '“____ I have a piece of cake, please?” I asked.',
+              options: 'May, Will, Must, Shall'
             },
             {
-              qText: "The little boy ___ speak very well.",
-              options: "can, shall, need, would",
+              qText: 'The little boy ___ speak very well.',
+              options: 'can, shall, need, would'
             },
             {
               qText:
                 "We didn't have a car before. Now that we have a car, we ___ drive to many places.",
-              options: "can, need, may, might",
+              options: 'can, need, may, might'
             },
             {
               qText: `You ______ keep the scissors away from the baby.`,
-              options: "should, will, need, may",
-            },
-          ],
+              options: 'should, will, need, may'
+            }
+          ]
         },
         {
           questions: [
             {
-              qText: "You _____ go home if you have completed your work.",
-              options: "may, shall, need, might",
+              qText: 'You _____ go home if you have completed your work.',
+              options: 'may, shall, need, might'
             },
             {
-              qText: "That plug is faulty. You _____ touch it.",
-              options: "mustn't, needn't, couldn't, won't",
+              qText: 'That plug is faulty. You _____ touch it.',
+              options: "mustn't, needn't, couldn't, won't"
             },
             {
-              qText: "That man ____ be Mr Bo. Mr Bo is overseas.",
-              options: "can't, shan't, needn't, won't",
+              qText: 'That man ____ be Mr Bo. Mr Bo is overseas.',
+              options: "can't, shan't, needn't, won't"
             },
             {
               qText: "Don't listen to everything he says. He ___ be wrong.",
-              options: "can, shall, must, need",
+              options: 'can, shall, must, need'
             },
             {
-              qText: "I wish I _____ be as intelligent as Einstein.",
-              options: "could, must, should, shall",
-            },
-          ],
+              qText: 'I wish I _____ be as intelligent as Einstein.',
+              options: 'could, must, should, shall'
+            }
+          ]
         },
         {
           questions: [
             {
-              qText: "We ______ bring any money because admission is free.",
-              options: "needn't, mustn't, couldn't, can't",
+              qText: 'We ______ bring any money because admission is free.',
+              options: "needn't, mustn't, couldn't, can't"
             },
             {
-              qText: "This ____ be your book. It has your name on it.",
-              options: "must, can, shall, need",
+              qText: 'This ____ be your book. It has your name on it.',
+              options: 'must, can, shall, need'
             },
             {
-              qText: "You ______ sleep early so you can wake up early.",
-              options: "should, might, will, need",
+              qText: 'You ______ sleep early so you can wake up early.',
+              options: 'should, might, will, need'
             },
             {
-              qText: "He ___ run very fast. He wins competitions easily.",
-              options: "can, would, shall, may",
+              qText: 'He ___ run very fast. He wins competitions easily.',
+              options: 'can, would, shall, may'
             },
             {
               qText:
-                "Please lower your voices so that the baby ___ not  be awakened.",
-              options: "may, ought, must, could",
-            },
-          ],
+                'Please lower your voices so that the baby ___ not  be awakened.',
+              options: 'may, ought, must, could'
+            }
+          ]
         },
         {
           questions: [
             {
               qText:
-                "The dog _____ have eaten the food! I saw it near the food a while ago.",
-              options: "must, ought, can, shall",
+                'The dog _____ have eaten the food! I saw it near the food a while ago.',
+              options: 'must, ought, can, shall'
             },
             {
-              qText: "You ______ to knock before you enter.",
-              options: "ought, shall, may, would",
+              qText: 'You ______ to knock before you enter.',
+              options: 'ought, shall, may, would'
             },
             {
-              qText: "She ___ most certainly help you if you ask her.",
-              options: "will, could, ought, may",
-            },
-          ],
-        },
-      ],
+              qText: 'She ___ most certainly help you if you ask her.',
+              options: 'will, could, ought, may'
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "fill-up-option",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-option',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using suitable modals.`,
+        title: `Fill in the blanks using suitable modals.`
       },
       data: [
         `My teacher *can (must)* speak four languages.
@@ -761,17 +760,17 @@ I *could (must)* be late as I have a lot on my plate.`,
         `Leonard *can (may)* easily solve the problem.
 It *might (should)* rain tomorrow.
 *May (might)* all your wishes come true in life.
-I *could (might)* not be any happier.`,
-      ],
+I *could (might)* not be any happier.`
+      ]
     },
     {
-      id: "fill-up-modal",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-modal',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Use appropriate modals of probability, permission, obligation etc to fill in the blanks.",
+          'Use appropriate modals of probability, permission, obligation etc to fill in the blanks.'
       },
       lockAfter: 1,
       data: [
@@ -785,17 +784,17 @@ I am not the right person to give you permission to go. You *may* ask the Manage
 *May* I request you show me this file?
 It is raining cats and dogs. This *can* cause floods in many areas.
 He is not in his cabin. You *can* check if he is there in the lobby.
-*Could* I, please, make a call from your phone?`,
-      ],
+*Could* I, please, make a call from your phone?`
+      ]
     },
     {
-      id: "fill-up-modal-2",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-modal-2',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Use appropriate modals of desire, determination, necessity, prohibition etc to fill in the blanks.",
+          'Use appropriate modals of desire, determination, necessity, prohibition etc to fill in the blanks.'
       },
       lockAfter: 1,
       data: [
@@ -809,15 +808,15 @@ Let whatever hardships may come our way. One day, we *will* overcome.`,
 He *would* never allow anybody to wear them.
 Sheveta is a little snobbish and naughty girl. We *need* not prank at her. She will get angry.
 Don't challenge me. If I try, she *shall* come and talk to me politely.
-*Would* you like to try your hand at chess, madam?`,
-      ],
+*Would* you like to try your hand at chess, madam?`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Modals",
+        title: 'Modals',
         text: [
           `# Modals
 Auxiliary verbs provide additional and specific meanings to the main verb. Usually used to indicate probability/possibility, ability, permission, obligation/advice, offers, etc
@@ -828,50 +827,50 @@ Auxiliary verbs provide additional and specific meanings to the main verb. Usual
 5. need/needn't - As a modal verb, it is commonly used in negative sentences. It indicates something unnecessary
 There are two modals that serve as the main verb as well.`,
           {
-            type: "html",
-            text: `They are: <b>dare</b> and <b>need</b>.`,
+            type: 'html',
+            text: `They are: <b>dare</b> and <b>need</b>.`
           },
           `Verbs used after modals are always in their original form.
 Conditional sentences, frequently use modal auxiliaries. `,
           {
-            type: "html",
-            text: `The modals which are most commonly used are <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>must</b>, <b>should</b>, <b>will</b>, and <b>would</b>.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `The modals which are most commonly used are <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>must</b>, <b>should</b>, <b>will</b>, and <b>would</b>.`
+          }
+        ]
+      }
     },
     {
-      id: "will-shall",
-      label: "Will or Shall",
-      type: "fillup",
+      id: 'will-shall',
+      label: 'Will or Shall',
+      type: 'fillup',
       title: `Read the short paragraph. Fill in the blanks with a, an or the.`,
       data: [
         `They said that they *will (shall)* go to the park in the evening.
 The warden thinks that I *shall (will)* finish the project soon.
 The doctor *will (shall)* visit the patient at the alloted time.
 My mother promised me that she *will (shall)* buy me a new dress.
-The meeting *shall (will)* start at 10 am.`,
-      ],
+The meeting *shall (will)* start at 10 am.`
+      ]
     },
     {
-      id: "would-should",
-      label: "Would or Should",
-      type: "fillup",
+      id: 'would-should',
+      label: 'Would or Should',
+      type: 'fillup',
       title: `Fill in the blanks using would or should.`,
       data: [
         `She *would (should)* sing her son to sleep every night.
 We *should (would)* start preparing for the exams immediately.
 I *would (should)* go for a red dress for the party.
 I *would (should)* rather walk than a ride home.
-One *should (would)* be kind to people.`,
-      ],
+One *should (would)* be kind to people.`
+      ]
     },
     {
-      id: "fillup-1",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fillup-1',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       noOptions: true,
-      title: "Fill in the blanks with suitable auxiliary verbs.",
+      title: 'Fill in the blanks with suitable auxiliary verbs.',
       data: [
         `All *will* go well if you are prepared.
 They *will* lose their confidence if reproached constantly.
@@ -880,18 +879,18 @@ You *should* exercise regularly.
 He felt that he *ought* to visit his village soon.
 There *might* be red ants in those bushes.
 Everyone *must* be in their seats before noon.
-I *need* a beautiful garden.`,
-      ],
+I *need* a beautiful garden.`
+      ]
     },
     {
-      label: "Conditionals",
-      type: "matchByDragDrop",
+      label: 'Conditionals',
+      type: 'matchByDragDrop',
       title: `Complete the conditional sentences using suitable modals.`,
-      id: "fillup-drag-drop-3",
+      id: 'fillup-drag-drop-3',
       data: {
         styles: {
-          fontSize: "1rem",
-          dashWidth: 80,
+          fontSize: '1rem',
+          dashWidth: 80
         },
         text: `If he *can* help, he does. 
 If I *may* help, ask me.
@@ -899,155 +898,155 @@ If we *must* help, we do.
 If you *should* need help, please ask us.
 If he *will* help, he'll do a good job.
 If I *could* leave work early today, I'd be very grateful.
-If she *would* work harder, she'd succeed. `,
-      },
+If she *would* work harder, she'd succeed. `
+      }
     },
     {
-      id: "mcq-modal-auxiliary",
-      label: "Choose the correct option",
-      type: "mcq",
+      id: 'mcq-modal-auxiliary',
+      label: 'Choose the correct option',
+      type: 'mcq',
       data: {
-        title: "Fill in the blanks by choosing the correct modal auxiliary.",
+        title: 'Fill in the blanks by choosing the correct modal auxiliary.',
         questions: [
           {
             qText:
               "If I hadn't worked hard, I _____ never have been able to pass the examination.",
-            options: `would, will, won't, would'nt`,
+            options: `would, will, won't, would'nt`
           },
           {
-            qText: "_______ I help myself to some hot coffee?",
-            options: `Should, Cannot, Will, May`,
-          },
-          {
-            qText:
-              "I ____ immediately make out from her accent that she was from France.",
-            options: `could, would, should, can`,
+            qText: '_______ I help myself to some hot coffee?',
+            options: `Should, Cannot, Will, May`
           },
           {
             qText:
-              "He ________ have negotiated with the landlord before the agreement was finalised.",
-            options: `ought to, need, may, can`,
+              'I ____ immediately make out from her accent that she was from France.',
+            options: `could, would, should, can`
           },
           {
             qText:
-              "________ it be better if we go by car instead of taking the bus?",
-            options: `Wouldn't, Mustn't, Can't, Should`,
+              'He ________ have negotiated with the landlord before the agreement was finalised.',
+            options: `ought to, need, may, can`
           },
           {
             qText:
-              "Veena cannot join us as she ______ pick up her son from school.",
-            options: `needs to, ought to, will, might`,
+              '________ it be better if we go by car instead of taking the bus?',
+            options: `Wouldn't, Mustn't, Can't, Should`
           },
           {
-            qText: "You _______ spend more time with your children.",
-            options: `ought to, will, would, need`,
+            qText:
+              'Veena cannot join us as she ______ pick up her son from school.',
+            options: `needs to, ought to, will, might`
           },
           {
-            qText: "This _______ feel much better if you do some exercise.",
-            options: `will, must, should, can`,
+            qText: 'You _______ spend more time with your children.',
+            options: `ought to, will, would, need`
           },
           {
-            qText: "He ________ have informed me before going there.",
-            options: `should, ought, must, can`,
+            qText: 'This _______ feel much better if you do some exercise.',
+            options: `will, must, should, can`
           },
-        ],
-      },
+          {
+            qText: 'He ________ have informed me before going there.',
+            options: `should, ought, must, can`
+          }
+        ]
+      }
     },
     {
-      id: "mcq-2",
-      label: "Correct Choice",
-      type: "mcq",
+      id: 'mcq-2',
+      label: 'Correct Choice',
+      type: 'mcq',
       data: {
         title:
-          "Pick out the correct sentence from among the four sentences in each of the following examples.",
+          'Pick out the correct sentence from among the four sentences in each of the following examples.',
         questions: [
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `I could pass the exam. But I did not appear for it, I was able to pass the exam. But I could not appear for it, I was able to pass the exam. But I did not appeared for it, I was able to pass the exam. But I did not appear for it`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `I could pass the exam. But I did not appear for it, I was able to pass the exam. But I could not appear for it, I was able to pass the exam. But I did not appeared for it, I was able to pass the exam. But I did not appear for it`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `Nobody knows his whereabouts. He might be there in Doha, Nobody knows his whereabouts. He may was there in Doha, Nobody knew his whereabouts. He may be there in Doha, Nobody knews his where abouts. He is there in Doha`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `Nobody knows his whereabouts. He might be there in Doha, Nobody knows his whereabouts. He may was there in Doha, Nobody knew his whereabouts. He may be there in Doha, Nobody knews his where abouts. He is there in Doha`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `The drug addicts must not be tortured but should be rehabilitated, The drug addicts may not be tortured but should be rehabilitated, The drug addicts can not be tortured but must be rehabilitated, The drug addicts should not be tortured but might be rehabilitated`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `The drug addicts must not be tortured but should be rehabilitated, The drug addicts may not be tortured but should be rehabilitated, The drug addicts can not be tortured but must be rehabilitated, The drug addicts should not be tortured but might be rehabilitated`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `You ought to help the blind to cross the road, You must to help the blind to cross the road, You ought to help the blind to crossing the road, You should help the blinds to cross the road`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `You ought to help the blind to cross the road, You must to help the blind to cross the road, You ought to help the blind to crossing the road, You should help the blinds to cross the road`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `You need not worry at all. I will take care of your luggage, You need not worry at all. I am take care of your luggage, You need to not worry at all. I will taking care of your luggage, You need not worry at all. I will be take care of your luggage`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `You need not worry at all. I will take care of your luggage, You need not worry at all. I am take care of your luggage, You need to not worry at all. I will taking care of your luggage, You need not worry at all. I will be take care of your luggage`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `Everyone should follow the path shown by his or her parents and teachers, Everyone may be follow the path shown by their parents and teachers, Every should be follow the path shown by his or her parents and teachers, Everyone might follow the path shown by his or her parents and teachers`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `Everyone should follow the path shown by his or her parents and teachers, Everyone may be follow the path shown by their parents and teachers, Every should be follow the path shown by his or her parents and teachers, Everyone might follow the path shown by his or her parents and teachers`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `Abhi can achieve his goal if has strong determination, Abhi can achieve his goal if they have strong determination, Abhi may achieve his goal if he had strong determination, Abhi can achieve his goal but he has strong determination`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `Abhi can achieve his goal if has strong determination, Abhi can achieve his goal if they have strong determination, Abhi may achieve his goal if he had strong determination, Abhi can achieve his goal but he has strong determination`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `This seems to be difficult. But I will make this happen, This seemed to be difficult. But I may make this happen, This seems to be difficult. But I shall make this happen, This seemed to be difficult. But I should make this happen`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `This seems to be difficult. But I will make this happen, This seemed to be difficult. But I may make this happen, This seems to be difficult. But I shall make this happen, This seemed to be difficult. But I should make this happen`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `One should not be too careful about what is good or what is bad, One should not too careful about what is good or what is bad, One may not be too careful about what is good or what is bad, One will not be too careful about what is good or what is bad`,
+              'Pick the correct sentences from the four sentences given below.',
+            options: `One should not be too careful about what is good or what is bad, One should not too careful about what is good or what is bad, One may not be too careful about what is good or what is bad, One will not be too careful about what is good or what is bad`
           },
           {
             qText:
-              "Pick the correct sentences from the four sentences given below.",
-            options: `He must pass the exam in the first attempt, He might be pass the exam in the first attempt, He must be pass the exam in the first attempt, He should be pass the exam in the first attempt`,
-          },
-        ],
-      },
+              'Pick the correct sentences from the four sentences given below.',
+            options: `He must pass the exam in the first attempt, He might be pass the exam in the first attempt, He must be pass the exam in the first attempt, He should be pass the exam in the first attempt`
+          }
+        ]
+      }
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "auxiliary-verb",
+      label: 'Notes',
+      type: 'passage',
+      id: 'auxiliary-verb',
       data: {
-        title: "Auxiliary Verb",
+        title: 'Auxiliary Verb',
         text: [
           `# Auxiliary Verb
 Auxiliary verbs have no meaning on their own. They are necessary because they help the main verb to form the grammatical structure of a sentence. The main functions of auxiliary verbs are to form questions, short answers, question tags and to avoid repetition.
 Auxiliary verbs fall into three basic groups:
 1. primary or main auxiliary verbs: The primary auxiliary verbs are called so because they are the most used in forming tenses, negatives and questions. `,
           {
-            type: "html",
-            text: `These are forms of the verbs <b>be</b>, <b>have</b> and <b>do</b>.`,
+            type: 'html',
+            text: `These are forms of the verbs <b>be</b>, <b>have</b> and <b>do</b>.`
           },
           `2. modals or modal auxiliary verbs: Modal auxiliary verbs are also helping verbs. They are used before main verbs to express a range of meanings such as ability, possibility, certainty, suggestion, permission, obligation and so on. In almost all cases, the modal verb does not change according to the subject of the sentence. This means that the modal verb need not agree with the subject in number and person.`,
           {
-            type: "html",
-            text: `Examples include <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>shall</b>, <b>should</b>, <b>will</b>, <b>would</b>, <b>must</b>, etc.`,
+            type: 'html',
+            text: `Examples include <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>shall</b>, <b>should</b>, <b>will</b>, <b>would</b>, <b>must</b>, etc.`
           },
           `3. other auxiliary verbs with the characteristics of modals: Some words do not always behave as modals. Such phrases are called semi-modals.`,
           {
-            type: "html",
-            text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`
+          }
+        ]
+      }
     },
     {
-      id: "fill-up-aux",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-aux',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with the most suitable option`,
+        title: `Fill in the blanks with the most suitable option`
       },
       data: [
         `*May (Can)* you have a long life! Sweetheart.
@@ -1060,16 +1059,16 @@ You *might (may)* want to try this recipe once you taste it.`,
 He has lost your watch and he *dare (must)* not to tell you.
 I *used to (need to)* play cricket daily in the morning when I was ten.
 Liya *may (should)* go to the museum whenever she likes.
-You *ought to (dare to)* consult a Dentist.`,
-      ],
+You *ought to (dare to)* consult a Dentist.`
+      ]
     },
     {
-      id: "had-has",
-      label: "Has or Had",
-      type: "fillup",
+      id: 'had-has',
+      label: 'Has or Had',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Fill in the blanks using has or had.",
+        title: 'Fill in the blanks using has or had.'
       },
       lockAfter: 2,
       data: [
@@ -1089,16 +1088,16 @@ Natalie *has* a sweet smile.`,
 Her grandparents *had* passed away a long time ago.
 William Shakespeare *has* written many plays.
 *Has* the baby fallen asleep?
-Renu *has* a purple dress.`,
-      ],
+Renu *has* a purple dress.`
+      ]
     },
     {
-      id: "am-is-are",
-      label: "Am, Is or Are",
-      type: "fillup",
+      id: 'am-is-are',
+      label: 'Am, Is or Are',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Fill in the blanks using is, am and are.",
+        title: 'Fill in the blanks using is, am and are.'
       },
       lockAfter: 2,
       data: [
@@ -1118,43 +1117,43 @@ The ducks *are* in the pond.`,
 Thunder *is* rumbling.
 People *are* jogging in the park nearby.
 Mike *is* coming back from New York.
-I *am* studying for a teaching eligibility exam.`,
-      ],
+I *am* studying for a teaching eligibility exam.`
+      ]
     },
     {
-      id: "yes-no",
-      label: "Yes or No",
-      type: "classifySentence",
+      id: 'yes-no',
+      label: 'Yes or No',
+      type: 'classifySentence',
       data: {
-        title: "Do the following sentences contain modal auxiliary verbs?",
+        title: 'Do the following sentences contain modal auxiliary verbs?',
         types: [
           {
-            name: "Yes",
+            name: 'Yes',
             text: `Can you please help me?
 Will you be able to finish the work by tomorrow?
 You might regret doing this the next day.
 He said I can use his mobile at any time.
-Will you pick me up on Sunday also?`,
+Will you pick me up on Sunday also?`
           },
           {
-            name: "No",
+            name: 'No',
             text: `My sister was able to read the alphabet when she was 18 months old.
 Do not wash the car. The paint is still wet.
 I am certain that they have left already.
 I am sure he is over seventy.
-It was not necessary to meet him but I met him.`,
-          },
-        ],
-      },
+It was not necessary to meet him but I met him.`
+          }
+        ]
+      }
     },
     {
-      id: "modal",
-      label: "Modal Auxiliary Verbs",
-      type: "fillup",
+      id: 'modal',
+      label: 'Modal Auxiliary Verbs',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Complete the following sentences using suitable modal auxiliary verbs.",
+          'Complete the following sentences using suitable modal auxiliary verbs.'
       },
       lockAfter: 2,
       data: [
@@ -1174,72 +1173,72 @@ Everyone *must* follow traffic rules to ensure the safety of all.`,
 Rahul *will* not like this for sure.
 Amrita said that she *would* be on leave the next day.
 *Should* everyone fill out the scholarship forms?
-Fathima *can* finish this in an hour.`,
-      ],
+Fathima *can* finish this in an hour.`
+      ]
     },
     {
-      id: "mcq-modal-1",
-      label: "Choose the correct alternative",
-      type: "mcq",
+      id: 'mcq-modal-1',
+      label: 'Choose the correct alternative',
+      type: 'mcq',
       data: {
-        title: "Choose the correct alternative",
+        title: 'Choose the correct alternative',
         questions: [
           {
-            qText: "I do not think I _____ be able to go.",
-            options: `shall, should, can`,
+            qText: 'I do not think I _____ be able to go.',
+            options: `shall, should, can`
           },
           {
-            qText: "He ____ not pay unless he is compelled",
-            options: `will, shall, dare`,
+            qText: 'He ____ not pay unless he is compelled',
+            options: `will, shall, dare`
           },
           {
-            qText: "You _____ be punctual.",
-            options: `should, would, ought`,
+            qText: 'You _____ be punctual.',
+            options: `should, would, ought`
           },
           {
-            qText: "I wish you _____ tell me earlier.",
-            options: `would, should, must `,
+            qText: 'I wish you _____ tell me earlier.',
+            options: `would, should, must `
           },
           {
-            qText: "_____ I assist you?",
-            options: `Shall, Will, Would`,
+            qText: '_____ I assist you?',
+            options: `Shall, Will, Would`
           },
           {
-            qText: "_____ you please help me with this?",
-            options: `Would, Should, Shall`,
+            qText: '_____ you please help me with this?',
+            options: `Would, Should, Shall`
           },
           {
-            qText: "You ______ to pay your debts.",
-            options: `ought, should, must`,
+            qText: 'You ______ to pay your debts.',
+            options: `ought, should, must`
           },
           {
-            qText: "He said I ___ use his telephone at any time.",
-            options: `might, could, can`,
+            qText: 'He said I ___ use his telephone at any time.',
+            options: `might, could, can`
           },
           {
-            qText: "If you ______ see him, give him my regards",
-            options: `should, would, shall`,
+            qText: 'If you ______ see him, give him my regards',
+            options: `should, would, shall`
           },
           {
             qText:
-              "He ____ not ask for a raise, for the fear of losing his job.",
-            options: `dare, need, would`,
-          },
-        ],
-      },
+              'He ____ not ask for a raise, for the fear of losing his job.',
+            options: `dare, need, would`
+          }
+        ]
+      }
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "participle",
+      label: 'Notes',
+      type: 'passage',
+      id: 'participle',
       data: {
-        title: "The Participles",
+        title: 'The Participles',
         text: [
           `# Participle
 A participle is a word that is formed from a verb and takes the nature of both a verb and an adjective.`,
           {
-            type: "html",
-            text: `Example - <b>Looking</b> at the snake, Maria screamed and sprang up out of his chair.`,
+            type: 'html',
+            text: `Example - <b>Looking</b> at the snake, Maria screamed and sprang up out of his chair.`
           },
           `In this sentence, 'looking' is the present participle (look+ing) which qualifies the noun 'Maria.' Hence it acts like an adjective. It is formed from a verb and also denotes the action of looking. Hence it acts as a verb too.
 1. Present Participle: It is formed by adding 'ing' to the original form of the main verb.
@@ -1249,40 +1248,40 @@ e.g.Having walked continuously, I am fully exhausted now.
 Having lost his wallet, he had to ask others for help.
 3. Past Participle: The third form of the verb is called a past participle.
 e.g. Frozen, loaded etc.
-Since the participle is a verb-adjective it must be attached to some noun or pronoun. It must always have a proper subject of reference.`,
-        ],
-      },
+Since the participle is a verb-adjective it must be attached to some noun or pronoun. It must always have a proper subject of reference.`
+        ]
+      }
     },
     {
-      id: "present-past",
-      label: "Present or Past",
-      type: "classifySentence",
+      id: 'present-past',
+      label: 'Present or Past',
+      type: 'classifySentence',
       data: {
         title:
-          "Classify the participle in the sentence as a present participle or past participle",
+          'Classify the participle in the sentence as a present participle or past participle',
         types: [
           {
-            name: "Present",
+            name: 'Present',
             text: `*Being* fully satisfied, they did not want to eat anymore.
 Reem felt quite ashamed on *getting* scolded by her favorite aunt.
-*Deluding* yourself, you can be happy for a short period in your life.`,
+*Deluding* yourself, you can be happy for a short period in your life.`
           },
           {
-            name: "Past",
+            name: 'Past',
             text: `Extremely *fascinated* by the view, Ram decided to settle there.
 Jake has a habit of keeping her things well *organised* all the time.
-Niki was highly *irritated* as Jake kept poking him.`,
-          },
-        ],
-      },
+Niki was highly *irritated* as Jake kept poking him.`
+          }
+        ]
+      }
     },
     {
-      id: "fillup-participle",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fillup-participle',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
         title:
-          "Fill in the blanks in the following choosing the best alternative",
+          'Fill in the blanks in the following choosing the best alternative'
       },
       lockAfter: 1,
       data: [
@@ -1296,16 +1295,16 @@ I saw a woman *cross (having crossed, to cross, crossing)* the road.`,
 *Hit (Being hit, Having hit, Hitting)* by an arrow, the bird fell dead.
 I found him *drinking (drink, to drink, having drunk)*.
 The marriage *have been fixed (fixed, fixing, to fix)*, no change is possible now.
-You better *leave (to leave, leaving, having left) before Tarun arrives.`,
-      ],
+You better *leave (to leave, leaving, having left) before Tarun arrives.`
+      ]
     },
     {
-      id: "fill-up-participle-2",
-      label: "Participles",
-      type: "fillup",
+      id: 'fill-up-participle-2',
+      label: 'Participles',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: `Fill in the blanks using a suitable form of the participle of the verbs given in brackets.`,
+        title: `Fill in the blanks using a suitable form of the participle of the verbs given in brackets.`
       },
       data: [
         `Everybody worships the *risisng* (rise) idol Niki.
@@ -1325,32 +1324,32 @@ The rain came *pouring* (pour) down.
         `*Seeing* (See) the Principal, the students ran away. .
 *Having worked* (Work) hard, my sister got good marks.
 *Starving* (Starve) is better than *begging*(beg).
-*Reaching* (Reach) home, I asked my mother to make tea.`,
-      ],
+*Reaching* (Reach) home, I asked my mother to make tea.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "gerund",
+      label: 'Notes',
+      type: 'passage',
+      id: 'gerund',
       data: {
-        title: "Gerund",
+        title: 'Gerund',
         text: [
           `A gerund is a word ending with 'ing' and has the force of a noun and a verb. It is also known as a verbal noun.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Example</b> - I learned <b>driving</b>.<br>
-I like <b>watching</b> television.`,
-          },
-        ],
-      },
+I like <b>watching</b> television.`
+          }
+        ]
+      }
     },
     {
-      type: "selectWord",
-      label: "Identify Gerund",
-      id: "select-word-gerund",
+      type: 'selectWord',
+      label: 'Identify Gerund',
+      id: 'select-word-gerund',
       lockAfter: 1,
       commonData: {
-        title: "Identify the Gerunds from the following sentences.",
+        title: 'Identify the Gerunds from the following sentences.'
       },
       data: [
         `*Swimming* is a good exercise.
@@ -1377,63 +1376,63 @@ What I want to do in life is *achieving* something useful for all.`,
 
         `I do not mind *having* a cup of tea.
 I enjoy *reading* English novels.
-Have you postponed *going* to Delhi?`,
-      ],
+Have you postponed *going* to Delhi?`
+      ]
     },
     {
-      id: "gerund-infinitive",
-      label: "Gerund or Infinitive",
-      type: "classifySentence",
+      id: 'gerund-infinitive',
+      label: 'Gerund or Infinitive',
+      type: 'classifySentence',
       data: {
         title:
-          "Classify the below sentences based on the use of Gerund or Infinitive.",
+          'Classify the below sentences based on the use of Gerund or Infinitive.',
         types: [
           {
-            name: "Gerund",
+            name: 'Gerund',
             text: `Teach me speaking.
 Advising is easier than practicing.
 Reading is easier than writing.
-Saving is earning.`,
+Saving is earning.`
           },
           {
-            name: "Infinitive",
+            name: 'Infinitive',
             text: ` Teach me to speak.
 To advise is easier than to.
 To read is easier than to write.
-To save is to earn.`,
-          },
-        ],
-      },
+To save is to earn.`
+          }
+        ]
+      }
     },
     {
-      id: "gerund-participle",
-      label: "Gerund or Participle",
-      type: "classifySentence",
+      id: 'gerund-participle',
+      label: 'Gerund or Participle',
+      type: 'classifySentence',
       data: {
         title:
-          "Classify the below sentences based on the use of Gerund or Participle.",
+          'Classify the below sentences based on the use of Gerund or Participle.',
         types: [
           {
-            name: "Gerund",
+            name: 'Gerund',
             text: `She is tired of writing.
 I was prevented from meeting Padma.
-Respecting our parents is our duty.`,
+Respecting our parents is our duty.`
           },
           {
-            name: "Participle",
+            name: 'Participle',
             text: ` Writing letters to her husband, she forgot everything.
 Meeting Padma for the first time, I thought she was quite gullible.
-Respecting my parents words, I never tried to slack again.`,
-          },
-        ],
-      },
+Respecting my parents words, I never tried to slack again.`
+          }
+        ]
+      }
     },
     {
-      id: "fill-up-gerund",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-gerund',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using gerunds.`,
+        title: `Fill in the blanks using gerunds.`
       },
       data: [
         `*Swimming (To swim)* is a good exercise.
@@ -1460,17 +1459,17 @@ What I want to do in life is *achieving (to acheive)* something useful for all.`
 
         `I do not mind *having (to have)* a cup of tea.
 I enjoy *reading (to read)* English novels.
-Have you postponed *going (to go)* to Delhi?`,
-      ],
+Have you postponed *going (to go)* to Delhi?`
+      ]
     },
     {
-      label: "Correct or Incorrect",
-      type: "classifySentence",
-      id: "correct-incorrect-gerund",
+      label: 'Correct or Incorrect',
+      type: 'classifySentence',
+      id: 'correct-incorrect-gerund',
       commonData: {
         title:
-          "Classify the following sentences based on the correct usage of Gerunds.",
-        types: ["Correct", "Incorrect"],
+          'Classify the following sentences based on the correct usage of Gerunds.',
+        types: ['Correct', 'Incorrect']
       },
       data: [
         [
@@ -1482,7 +1481,7 @@ I was shocked at Rajiv Gandhi being assassinated.`,
           `She insisted on me paying the money.
 Padma objected to Vijaya talking like that.
 I am sorry for him having spent life uselessly.
-I was shocked at Rajiv Gandhi's being assassinated.`,
+I was shocked at Rajiv Gandhi's being assassinated.`
         ],
         [
           `We were delighted at Mother Teresa being awarded Noble Peace Prize.
@@ -1494,7 +1493,7 @@ Playing chess is his passion.`,
 There is no chance of the snow's falling.
 There is possibility of the election's talking place.
 The playing chess is his passion.
-Playing of chess is his passion.`,
+Playing of chess is his passion.`
         ],
         [
           `I dislike cooking food and washing clothes.
@@ -1504,7 +1503,7 @@ He insisted on going there alone.`,
 
           `I dislike cooking food and the washing of clothes.
 Rapid reading a book is useless.
-He insisted to go there alone.`,
+He insisted to go there alone.`
         ],
         [
           `He prevented me from going here alone.
@@ -1513,7 +1512,7 @@ The reading of a book rapidly is useless.`,
 
           `He prevented me to go there alone.
 I dislike you going there.
-Rapid reading of book useless`,
+Rapid reading of book useless`
         ],
         [
           `I do not mind Ram's attending the party.
@@ -1522,99 +1521,99 @@ The party was handicapped by one of their best players being ill.`,
 
           `I do not mind Ram attending the party.
 He begged of my favour of granting him leave.
-The party was handicapped by one's of their best players being ill.`,
-        ],
-      ],
+The party was handicapped by one's of their best players being ill.`
+        ]
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "infinitive",
+      label: 'Notes',
+      type: 'passage',
+      id: 'infinitive',
       data: {
-        title: "Infinitives",
+        title: 'Infinitives',
         text: [
           `A gerund is a word ending with 'ing' and has the force of a noun and a verb. It is also known as a verbal noun. A word that is not limited by the person or number of the subject is known as an Infinitive. It is a kind of verb having certain features of a noun. So it is also treated as a verb-noun.
 Infinitive = to + the base form of the verb, e.g., to sing, to dance, to run.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Example</b> - <b>To advise others</b> is easy.<br>
-<b>To learn</b> English is difficult.`,
+<b>To learn</b> English is difficult.`
           },
           `Infinitives don't have to stand alone. Infinitives can work with other words to form an infinitive phrase. To put it simply, infinitive phrases use additional words to modify or further describe the main infinitive.`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Example</b> - My boss <b>told me to pay attention</b>, but I wasn't listening.<br>
-I <b>need you to get me out of here</b>.`,
+I <b>need you to get me out of here</b>.`
           },
           `# Use of Infinitive 
 1. As the subject of the a verb`,
           {
-            type: "html",
+            type: 'html',
             text: `<b>Example</b> - <b>It is easy to advise</b> others.<br>
-<b>To advise others</b> is easy.`,
+<b>To advise others</b> is easy.`
           },
           `2. As the object of a transitive verb`,
           {
-            type: "html",
-            text: `<b>Example</b> - I wish <b>to become a poet</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - I wish <b>to become a poet</b>.`
           },
           `3. As the complement of a verb`,
           {
-            type: "html",
-            text: `<b>Example</b> - Our greatest pleasure is ,b>to help the poor</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - Our greatest pleasure is ,b>to help the poor</b>.`
           },
           `4. As the object of a preposition`,
           {
-            type: "html",
-            text: `<b>Example</b> - I had no choice <b>but to give up my hope</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - I had no choice <b>but to give up my hope</b>.`
           },
           `5. As an object complement`,
           {
-            type: "html",
-            text: `<b>Example</b> - I noticed Madhavi <b>smile at me</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - I noticed Madhavi <b>smile at me</b>.`
           },
           `6. To qualify a verb to express purpose`,
           {
-            type: "html",
-            text: `<b>Example</b> - I read books <b>to increase my knowledge</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - I read books <b>to increase my knowledge</b>.`
           },
           `7. To qualify an adjective`,
           {
-            type: "html",
-            text: `<b>Example</b> - It is hard <b>to please Padma</b>. `,
+            type: 'html',
+            text: `<b>Example</b> - It is hard <b>to please Padma</b>. `
           },
           `8. To qualify a noun`,
           {
-            type: "html",
-            text: `<b>Example</b> - It is not the time <b>to sleep</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - It is not the time <b>to sleep</b>.`
           },
           `9. To qualify a sentence`,
           {
-            type: "html",
-            text: `<b>Example</b> - <b>To tell the truth</b>, we have no problem with you.`,
+            type: 'html',
+            text: `<b>Example</b> - <b>To tell the truth</b>, we have no problem with you.`
           },
           `Infinitives are of two types: bare infinitive and split infinitive. Bare Infinitives can be replaced by 'to' Infinitives.`,
           {
-            type: "html",
-            text: `<b>Example</b> - I can <b>teach</b>. => I am <b>able to teach</b>.`,
+            type: 'html',
+            text: `<b>Example</b> - I can <b>teach</b>. => I am <b>able to teach</b>.`
           },
           `It is generally treated wrong to split an Infinitive in the middle. The adverb can be used either before 'to' or after the Infinitive.`,
           {
-            type: "html",
+            type: 'html',
             text: `I expect Madhavi to carefully read the letter. => <b>Incorrect</b><br>
-I expect Madhavi to read the letter carefully.=> <b>Correct</b>`,
-          },
-        ],
-      },
+I expect Madhavi to read the letter carefully.=> <b>Correct</b>`
+          }
+        ]
+      }
     },
     {
-      type: "selectWord",
-      label: "Identify Infinitives",
-      id: "select-word-infinitive",
+      type: 'selectWord',
+      label: 'Identify Infinitives',
+      id: 'select-word-infinitive',
       lockAfter: 1,
       commonData: {
-        title: "Identify the Infinitives from the following sentences.",
-        multiSelect: true,
+        title: 'Identify the Infinitives from the following sentences.',
+        multiSelect: true
       },
       data: [
         `I love *to speak* English.
@@ -1667,16 +1666,16 @@ You *might tell* me the truth.`,
         `You *can* wait here.
 She *could explain* the poem to me.
 He *did* it well.
-He *must return* the money.`,
-      ],
+He *must return* the money.`
+      ]
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "drag-drop-infinitive",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-infinitive',
       lockAfter: 1,
       commonData: {
-        title: "Fill in the blanks using the most suitable words.",
+        title: 'Fill in the blanks using the most suitable words.'
       },
       data: [
         `You *should do* your work.
@@ -1694,17 +1693,17 @@ You *might tell* me the truth.`,
         `You *can wait* here.
 She *could explain* the poem to me.
 He *did* it well.
-He *must return* the money.`,
-      ],
+He *must return* the money.`
+      ]
     },
     {
-      label: "Correct or Incorrect",
-      type: "classifySentence",
-      id: "correct-incorrect-infinitive",
+      label: 'Correct or Incorrect',
+      type: 'classifySentence',
+      id: 'correct-incorrect-infinitive',
       commonData: {
         title:
-          "Classify the following sentences based on the correct usage of Infinitives.",
-        types: ["Correct", "Incorrect"],
+          'Classify the following sentences based on the correct usage of Infinitives.',
+        types: ['Correct', 'Incorrect']
       },
       data: [
         [
@@ -1716,7 +1715,7 @@ He did no more than laugh.`,
           `I expect Madhavi to carefully read the letter.
 She tried to clearly explain the situation.
 He did nothing but to laugh.
-He did no more than to laugh.`,
+He did no more than to laugh.`
         ],
         [
           `I went there personally to see the situation.
@@ -1727,7 +1726,7 @@ It lies in my power to succeed or to fail.`,
           `I went there to personally see the situation.
 I request you to kindly grant my application.
 He helped me to progress and to prosper.
-It lies in my power to succeed or fail.`,
+It lies in my power to succeed or fail.`
         ],
         [
           `We are advised to rejoice and to weep with others.
@@ -1740,86 +1739,86 @@ He has no paper to write on.`,
 I should have liked to have gone.
 He seemed to enjoy his stay in Mumbai.
 I gave him a pen to write.
-He has no paper to write.`,
-        ],
-      ],
+He has no paper to write.`
+        ]
+      ]
     },
     {
-      id: "mcq-infinitive",
-      label: "Multiple Choice Questions",
-      type: "mcq",
+      id: 'mcq-infinitive',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
       commonData: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions'
       },
       data: [
         {
           questions: [
             {
               qText:
-                "Which of the following is the correct usage of infinitive?",
+                'Which of the following is the correct usage of infinitive?',
               options:
-                "He knows how to read and write English, He knows to read and write English",
+                'He knows how to read and write English, He knows to read and write English'
             },
             {
               qText:
-                "Which of the following is the correct usage of infinitive?",
+                'Which of the following is the correct usage of infinitive?',
               options:
-                "My father taught him how to drive a car, My father taught him to drive a car",
+                'My father taught him how to drive a car, My father taught him to drive a car'
             },
             {
               qText:
-                "Which of the following is the correct usage of infinitive?",
+                'Which of the following is the correct usage of infinitive?',
               options:
-                "Rekha was punished for coming late, Rekha was punished to coming late",
+                'Rekha was punished for coming late, Rekha was punished to coming late'
             },
             {
               qText:
-                "Which of the following is the correct usage of infinitive?",
+                'Which of the following is the correct usage of infinitive?',
               options:
-                "The student was made to write an essay by me, The student was made by me to write an essay",
+                'The student was made to write an essay by me, The student was made by me to write an essay'
             },
             {
               qText:
-                "Which of the following is the correct usage of infinitive?",
-              options: "I was let go by him, I was by him let go",
-            },
-          ],
+                'Which of the following is the correct usage of infinitive?',
+              options: 'I was let go by him, I was by him let go'
+            }
+          ]
         },
         {
           questions: [
             {
               qText:
-                "Which of the following is the incorrect usage of infinitive?",
+                'Which of the following is the incorrect usage of infinitive?',
               options:
-                "That way to behave is dangerous, That is a dangerous way to behave",
+                'That way to behave is dangerous, That is a dangerous way to behave'
             },
             {
               qText:
-                "Which of the following is the incorrect usage of infinitive?",
+                'Which of the following is the incorrect usage of infinitive?',
               options:
-                "It is important to be patient for Jake to his little brother, It is important for Jake to be patient to his little brother",
+                'It is important to be patient for Jake to his little brother, It is important for Jake to be patient to his little brother'
             },
             {
               qText:
-                "Which of the following is the incorrect usage of infinitive?",
+                'Which of the following is the incorrect usage of infinitive?',
               options:
-                "To do this is the right thing, This is the right thing to do",
+                'To do this is the right thing, This is the right thing to do'
             },
             {
               qText:
-                "Which of the following is the incorrect usage of infinitive?",
+                'Which of the following is the incorrect usage of infinitive?',
               options:
-                "When to press the button tell me, Tell me when to press the button",
+                'When to press the button tell me, Tell me when to press the button'
             },
             {
               qText:
-                "Which of the following is the incorrect usage of infinitive?",
+                'Which of the following is the incorrect usage of infinitive?',
               options:
-                "I request you to kindly grant my application, I request you kindly to grant my application.",
-            },
-          ],
-        },
-      ],
-    },
-  ],
+                'I request you to kindly grant my application, I request you kindly to grant my application.'
+            }
+          ]
+        }
+      ]
+    }
+  ]
 };

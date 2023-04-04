@@ -1,14 +1,14 @@
 export default {
-  id: "idiom-8",
-  label: "Idioms",
+  id: 'idiom-8',
+  label: 'Idioms',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Idioms",
+        title: 'Idioms',
         text: [
           `Examples of some idioms are given below: 
 1. Eat humble pie - to apologize humbly; to yeild under humiliating circumstances
@@ -20,91 +20,91 @@ export default {
 7. Won his laurels - acquired distinction or glory
 8. Turned a deaf ear - disregarded
 9. By hook or by crook - by any means; by fair means or foul
-10. Strained every nerve - used his atmost efforts `,
-        ],
-      },
+10. Strained every nerve - used his atmost efforts `
+        ]
+      }
     },
     {
-      id: "mcq",
-      label: "Choose the correct option",
-      type: "mcq",
+      id: 'mcq',
+      label: 'Choose the correct option',
+      type: 'mcq',
       data: {
-        title: "Choose the correct meaning of the following Idioms.",
+        title: 'Choose the correct meaning of the following Idioms.',
         questions: [
           {
-            qText: "To have a dig at",
-            options: `To criticise someone, To sow seeds in a pot, To praise someone`,
+            qText: 'To have a dig at',
+            options: `To criticise someone, To sow seeds in a pot, To praise someone`
           },
           {
-            qText: "By fits and starts",
-            options: `Irregularly, Annoyingly, Angrily, Feverishly`,
+            qText: 'By fits and starts',
+            options: `Irregularly, Annoyingly, Angrily, Feverishly`
           },
           {
-            qText: "To come to light",
-            options: `To reveal, To lighten, To show hidden anger, To erase differences`,
+            qText: 'To come to light',
+            options: `To reveal, To lighten, To show hidden anger, To erase differences`
           },
           {
-            qText: "To brush up",
-            options: `Renew, To remove dust, To wash with soap, To hide`,
+            qText: 'To brush up',
+            options: `Renew, To remove dust, To wash with soap, To hide`
           },
           {
-            qText: "To smell a rat means",
-            options: `To suspect a trick, To detect bad smell, To misunderstand, To see the hidden meaning`,
+            qText: 'To smell a rat means',
+            options: `To suspect a trick, To detect bad smell, To misunderstand, To see the hidden meaning`
           },
           {
             qText: "'Achilles heel' means",
-            options: `A fatal weakness, A big hill, A folk dance`,
+            options: `A fatal weakness, A big hill, A folk dance`
           },
           {
             qText: "'Salad days' means",
-            options: `Days of one's youthful inexperience, Days of one's old age experiences, Days of abstaining from vices`,
+            options: `Days of one's youthful inexperience, Days of one's old age experiences, Days of abstaining from vices`
           },
           {
             qText: "'At one's fingertips' means",
-            options: `Readily available knowledge, To take revenge, Matter of shame, Balancing on fingers`,
+            options: `Readily available knowledge, To take revenge, Matter of shame, Balancing on fingers`
           },
           {
             qText: "'Break the ice' means",
-            options: `Removing the initial hesitation, Removing the dust, Clearing the dew, Insulting someone`,
+            options: `Removing the initial hesitation, Removing the dust, Clearing the dew, Insulting someone`
           },
           {
             qText: "'To chew the cud' correctly means",
-            options: `To meditate, To contrive against someone, To die on duty, To inculcate virtues`,
+            options: `To meditate, To contrive against someone, To die on duty, To inculcate virtues`
           },
           {
             qText: "'To pull through' means",
-            options: `To recover, To pull with strength, To use a lot of energy, To control`,
+            options: `To recover, To pull with strength, To use a lot of energy, To control`
           },
           {
-            qText: "A fish out of water ",
-            options: `In a strange situation, In want of a house, Determined to live`,
+            qText: 'A fish out of water ',
+            options: `In a strange situation, In want of a house, Determined to live`
           },
           {
             qText: "'A wild goose chase' is",
-            options: `A useless enterprise, A violent chase, A pleasurable hunt, A harsh gesture`,
+            options: `A useless enterprise, A violent chase, A pleasurable hunt, A harsh gesture`
           },
           {
-            qText: "Make hay while the sun shines",
-            options: `Make maximum use of a given opportunity, Be active during the day, Be merry during the summer`,
+            qText: 'Make hay while the sun shines',
+            options: `Make maximum use of a given opportunity, Be active during the day, Be merry during the summer`
           },
           {
-            qText: "To bank upon",
-            options: `To depend, To hope, To harness, To invest`,
-          },
-        ],
-      },
+            qText: 'To bank upon',
+            options: `To depend, To hope, To harness, To invest`
+          }
+        ]
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fillup-drag",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
       lockAfter: 1,
       commonData: {
-        title: "Complete the sentences using suitable idioms.",
+        title: 'Complete the sentences using suitable idioms.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 70,
-        },
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
       data: [
         `I was feeling a bit *under the weather*.
@@ -250,8 +250,8 @@ People are known to always *judge a book by its cover*.`,
 The doctors said that Manu had escaped serious injuries by *the skin of his teeth*.
 Rounak's parents think that he is putting all his eggs *in one basket*.
 We decided to *put the case on ice* until we had some clue of what had happened.
-It is not at all that you have *the cake and eat it too*.`,
-      ],
-    },
-  ],
+It is not at all that you have *the cake and eat it too*.`
+      ]
+    }
+  ]
 };

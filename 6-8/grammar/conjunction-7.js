@@ -1,47 +1,47 @@
 export default {
-  id: "conjunction-7-8",
-  label: "Conjunctions",
+  id: 'conjunction-7',
+  label: 'Conjunctions',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "conjunction",
+      label: 'Notes',
+      type: 'passage',
+      id: 'conjunction',
       data: {
-        title: "Conjunctions",
+        title: 'Conjunctions',
         text: [
           `# Conjunctions
 Conjunctions are used to join words, two sentences or two clauses. `,
           {
-            type: "html",
-            text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`,
+            type: 'html',
+            text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`
           },
           `A subordinating conjunction is a word used to combine an independent clause and a dependent clause in a sentence. They help in forming complex sentences.`,
           {
-            type: "html",
+            type: 'html',
             text: `Some subordinating conjunctions are <b>as long as</b>, <b>because</b>, <b>even if</b>, <b>if</b>, <b>unless</b>, <b>before</b>, <b>since</b>, <b>though</b>, etc.<br>
 <b>Examples</b>: <b>Unless</b> you submit all the supporting documents, your application will not be processed.<br>
 I was not able to go to the hospital <b>because</b> it was raining heavily.<br>
 <b>When</b> I reached the railway station, I found out that the train had already left.<br>
 <b>Although</b> we had parked in the parking lot, the traffic police issued us a parking ticket.<br>
-It is better to keep everything packed <b>as</b> you are not sure when you would be asked to come to Bangalore.`,
+It is better to keep everything packed <b>as</b> you are not sure when you would be asked to come to Bangalore.`
           },
           `# Rules
 1. Subordinating conjunctions can be used at the beginning or middle of a sentence according to the position of the dependent clause.
 2. When the subordinating conjunction appears at the beginning of a complex sentence, a comma is used after the dependent clause.
 3. When a subordinating conjunction is used in the middle of a sentence, there is no need for a comma to be used.
-4. A dependent clause with a subordinating conjunction cannot stand by itself as it does not make sense.`,
-        ],
-      },
+4. A dependent clause with a subordinating conjunction cannot stand by itself as it does not make sense.`
+        ]
+      }
     },
     {
-      type: "selectWord",
-      label: "Subordinating Conjunction",
-      id: "select-word",
+      type: 'selectWord',
+      label: 'Subordinating Conjunction',
+      id: 'select-word',
       lockAfter: 1,
       commonData: {
-        title: "Identify the subordinating conjunction.",
-        multiSelect: true,
+        title: 'Identify the subordinating conjunction.',
+        multiSelect: true
       },
       data: [
         `I will drink the milk *after* my brother drinks it.
@@ -96,20 +96,20 @@ She cared for the baby *as though* she were her mother.
 *As long as* electricity is supplied, the machine will run.
 She is the new captain *as long as* the previous captain recovers.
 *Whenever* I wanted to meet him, he didn't come.
-I keep myself in my mother's cap *whenever* I feel sad.`,
-      ],
+I keep myself in my mother's cap *whenever* I feel sad.`
+      ]
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fillup-drag",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
       lockAfter: 1,
       commonData: {
-        title: "Fill in the blanks with the most appropriate conjunction.",
+        title: 'Fill in the blanks with the most appropriate conjunction.',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 70,
-        },
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
       data: [
         `*As soon as* Deepa reached home, she called to let me know .
@@ -123,62 +123,62 @@ I keep myself in my mother's cap *whenever* I feel sad.`,
 
         `She knew that there was a nationwide lockdown today only *after* I told her about it.
 *When* you are done with it, let me know.
-I think this place will not feel the same ever again *since* they demolished the football gallery.`,
-      ],
+I think this place will not feel the same ever again *since* they demolished the football gallery.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Coordinating Conjunctions",
+        title: 'Coordinating Conjunctions',
         text: [
           `# Coordinating Conjunctions
 The coordinating conjunctions are used to connect words, phrases and clauses of equal ranks. The coordinating conjunctions include: and, but, or, nor, for, yet, so, etc.
 1. And: It is used to combine two words, sentences or ideas.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I like to drink tea <b>and</b> coffee.`,
+            type: 'html',
+            text: `<b>Examples</b> - I like to drink tea <b>and</b> coffee.`
           },
           `2. But: It is used to connect to contrast ideas.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I am dancing, <b>but</b> she is singing.`,
+            type: 'html',
+            text: `<b>Examples</b> - I am dancing, <b>but</b> she is singing.`
           },
           `3. Or: It is used to express a choice between two things.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - You can eat it with a fork <b>or</b> a spoon.`,
+            type: 'html',
+            text: `<b>Examples</b> - You can eat it with a fork <b>or</b> a spoon.`
           },
           `4. Nor: It is used to combine two words or ideas both of which are to be negated.`,
           {
-            type: "html",
-            text: `<b>Examples</b> -  Roy is drinking neither tea <b>nor</b> coffee.`,
+            type: 'html',
+            text: `<b>Examples</b> -  Roy is drinking neither tea <b>nor</b> coffee.`
           },
           `6. Yet: It is used to express that something has not happened but you expect it to happen.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - I am not very comfortable doing it <b>yet</b> I will try doing it.`,
+            type: 'html',
+            text: `<b>Examples</b> - I am not very comfortable doing it <b>yet</b> I will try doing it.`
           },
           `7. So: It is used as a conjunction of result or consequence.`,
           {
-            type: "html",
-            text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`,
-          },
-        ],
-      },
+            type: 'html',
+            text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`
+          }
+        ]
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "fillup-drag",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
       lockAfter: 1,
       commonData: {
-        title: "Drag and drop the words at appropriate places",
+        title: 'Drag and drop the words at appropriate places',
         styles: {
-          fontSize: "1rem",
-          dashWidth: 70,
-        },
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
       data: [
         `Joshua is intelligent *and* Jun is stupid.
@@ -192,17 +192,17 @@ My sister did not collect the clothes from the dry cleaner *nor* did she buy the
 
         `Niki had a lot of sweets to an extent that he could become sick, *yet* he says he can have more.
 The teacher did not ask for Mahira *but* Mahir.
-I met my friend at old street, *and* from there, we went to the light house together.`,
-      ],
+I met my friend at old street, *and* from there, we went to the light house together.`
+      ]
     },
     {
-      id: "fillup-1",
-      label: "Coordinating Conjunctions",
-      type: "fillup",
+      id: 'fillup-1',
+      label: 'Coordinating Conjunctions',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks using an appropriate coordinating conjunction.",
+          'Fill in the blanks using an appropriate coordinating conjunction.'
       },
       lockAfter: 2,
       data: [
@@ -222,8 +222,8 @@ Ritwik owns both a car *and* a motorbike.`,
 You should pay your fee before the due date *or* else you will have to pay the fine.
 There is no demand *for* this kind of mobile, *so* we can't place an order now.
 He was angry, *yet* he said nothing.
-We can either walk *or* take a bus.`,
-      ],
-    },
-  ],
+We can either walk *or* take a bus.`
+      ]
+    }
+  ]
 };

@@ -1,19 +1,19 @@
 export default {
-  id: "punctuation-8",
-  label: "Punctuation",
+  id: 'punctuation-8',
+  label: 'Punctuation',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Punctuation",
+        title: 'Punctuation',
         text: [
           `1. Hyphen: Depicted by '-' is used between two words that are parts of a name or a compound word.`,
           {
-            type: "html",
-            text: `For example, long<b>-</b>term, get<b>-</b>together`,
+            type: 'html',
+            text: `For example, long<b>-</b>term, get<b>-</b>together`
           },
           `2. Dash: A dash (—) is a punctuation mark that resembles a hyphen, but is longer. A dash is used to separate parts of a sentence and indicate a break. It indicates a longer pause than a comma and a semicolon.
 # Examples of hyphenated compound words
@@ -45,16 +45,16 @@ report card; rib cage; role model
 roller coaster; salad dressing; search engine
 slam dunk; sleeping bag; time capsule
 vacuum cleaner; vending machine; video game
-waiting room; washing machine; web page`,
-        ],
-      },
+waiting room; washing machine; web page`
+        ]
+      }
     },
     {
-      id: "fill-up",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks in the following sentences with suitable Punctuations.`,
+        title: `Fill in the blanks in the following sentences with suitable Punctuations.`
       },
       data: [
         `One*- (—)*fourth of the students in the class have parents from another country.
@@ -76,20 +76,20 @@ A lot has changed since last year *— (-)* probably for the better.`,
         `Teresa preferred the red*- (-)*embroidered lace dress.
 The Chennai*— (-)*Mumbai flight will leave at 10:00 a.m.
 Dinesh *— (-)* the boy from Thanjavur *— (-)* has arrived.
-The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`,
-      ],
+The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`
+      ]
     },
     {
-      label: "Pick the Right Word",
-      id: "complete-2",
-      type: "completePuzzle",
+      label: 'Pick the Right Word',
+      id: 'complete-2',
+      type: 'completePuzzle',
       lockAfter: 1,
       commonData: {
-        type: "rightOpen",
-        title: "Drag and drop the right word to match the article.",
-        printTitle: "Pick the right word that goes with the article.",
+        type: 'rightOpen',
+        title: 'Drag and drop the right word to match the article.',
+        printTitle: 'Pick the right word that goes with the article.',
         leftWidth: 75,
-        rightWidth: 245,
+        rightWidth: 245
       },
       data: [
         `check-, in, ing
@@ -112,62 +112,62 @@ strong-, arm, chair
 toss-, up, coin
 up-to-, date, me
 well-, being, done
-word-of-, mouth, devil`,
-      ],
+word-of-, mouth, devil`
+      ]
     },
     {
-      label: "Correct or Incorrect",
-      id: "correct-incorrect",
-      type: "classifySentence",
+      label: 'Correct or Incorrect',
+      id: 'correct-incorrect',
+      type: 'classifySentence',
       title:
-        "Classify the below sentences based on the correct usage of punctuation.",
+        'Classify the below sentences based on the correct usage of punctuation.',
       data: {
         types: [
           {
-            name: "Correct",
+            name: 'Correct',
             text: `We know one thing for sure — something unexpected is coming our way.
 Many children — living in orphanages — do not know what love feels like.
 She wore a charcoal-gray rain jacket.
-People — both young and old — were advised to take vaccinations at the earliest.`,
+People — both young and old — were advised to take vaccinations at the earliest.`
           },
           {
-            name: "Incorrect",
+            name: 'Incorrect',
             text: `Teresa preferred the red — embroidered lace dress.
 The Chennai-Mumbai flight will leave at 10:00 a.m.
 Dinesh-the boy from Thanjavur-has arrived.
-The majority of you scored between eighty — eight and ninety — nine percent on the test.`,
-          },
-        ],
-      },
+The majority of you scored between eighty — eight and ninety — nine percent on the test.`
+          }
+        ]
+      }
     },
     {
-      label: "Multiple Choice Questions",
-      type: "mcq",
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
       data: {
-        title: "Multiple Choice Questions",
+        title: 'Multiple Choice Questions',
         questions: [
           {
             qText: `The first word of every word is _________.`,
-            options: `capitalized, small case, noun`,
+            options: `capitalized, small case, noun`
           },
           {
             qText: `A _______ will be used to separate two sentences`,
-            options: `comma, full stop, apostrophe`,
+            options: `comma, full stop, apostrophe`
           },
           {
             qText: `We use a __________ to make short form`,
-            options: `apostrophe, question mark, dash`,
+            options: `apostrophe, question mark, dash`
           },
           {
             qText: `_______ is used to end an assertive sentence.`,
-            options: `Full Stop, Comma, Exclamation mark`,
+            options: `Full Stop, Comma, Exclamation mark`
           },
           {
             qText: `A ____ indicates a longer pause than a comma and a semicolon.`,
-            options: `dash, hyphen, colon`,
-          },
-        ],
-      },
-    },
-  ],
+            options: `dash, hyphen, colon`
+          }
+        ]
+      }
+    }
+  ]
 };

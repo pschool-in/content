@@ -1,30 +1,30 @@
 export default {
-  id: "preposition-7-8",
-  label: "Prepositions",
+  id: 'preposition-7',
+  label: 'Prepositions',
   lockAfter: 3,
   list: [
     {
-      label: "Notes",
-      type: "passage",
-      id: "preposition",
+      label: 'Notes',
+      type: 'passage',
+      id: 'preposition',
       data: {
-        title: "Preposition",
+        title: 'Preposition',
         text: [
           `A word used to show the relation between a noun or a pronoun with some other word in the sentence is called a preposition. Prepositions can be categorized into the following.`,
           {
-            type: "html",
+            type: 'html',
             text: `1. Preposition of time: The prepositions of time include <b>on</b>, <b>in</b>, <b>at</b>, <b>by</b>, <b>until</b>, <b>during</b>, <b>for</b>, <b>between</b>, <b>since</b>, <b>before</b>, etc.<br>
   2. Preposition of place: These include <b>on</b>, <b>under</b>, <b>in</b>, <b>at</b>, <b>above</b>, <b>below</b>, <b>among</b>, <b>behind</b>, etc.<br>
   3. Preposition of direction and movements: These prepositions include <b>to</b>, <b>towards</b>, <b>along</b>, <b>through</b>, <b>across</b>, <b>onto</b>, etc.<br>
-  4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`,
-          },
-        ],
-      },
+  4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`
+          }
+        ]
+      }
     },
     {
-      label: "Fill in the blanks",
-      type: "matchByDragDrop",
-      id: "drag-drop-preposition",
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-preposition',
       lockAfter: 1,
       data: [
         `The baby is sleeping *in* the bed.
@@ -60,122 +60,122 @@ He has no chance *of* winning.`,
         `He goes *for* a morning walk.
 I need a dictionary *of* Spanish.
 There is a coat *on* a hook.
-The lines were printed *in* italics.`,
-      ],
+The lines were printed *in* italics.`
+      ]
     },
     {
-      label: "Choose the Correct Answer",
-      id: "mcq-preposition",
-      type: "mcq",
+      label: 'Choose the Correct Answer',
+      id: 'mcq-preposition',
+      type: 'mcq',
       commonData: {
-        title: "Choose the most appropriate option.",
+        title: 'Choose the most appropriate option.'
       },
       data: [
         {
           questions: [
             {
-              qText: "Agra is very famous ___ the Taj Mahal.",
-              options: "for, to, in, by",
+              qText: 'Agra is very famous ___ the Taj Mahal.',
+              options: 'for, to, in, by'
             },
             {
-              qText: "Indians have strong faith __ God.",
-              options: "in, to, on, into",
+              qText: 'Indians have strong faith __ God.',
+              options: 'in, to, on, into'
             },
             {
-              qText: "I help those who are junior __ me.",
-              options: "to, than, in, for",
+              qText: 'I help those who are junior __ me.',
+              options: 'to, than, in, for'
             },
             {
-              qText: "Manish was surprised __ my coming there.",
-              options: "at, by, for, on",
+              qText: 'Manish was surprised __ my coming there.',
+              options: 'at, by, for, on'
             },
             {
               qText: `I felt very sorry ___ the poor and hungry boy.`,
-              options: "for, to, with, from",
-            },
-          ],
+              options: 'for, to, with, from'
+            }
+          ]
         },
         {
           questions: [
             {
-              qText: "When will you bring a gift ___ me?",
-              options: "for, with, to, by",
+              qText: 'When will you bring a gift ___ me?',
+              options: 'for, with, to, by'
             },
             {
               qText: "I don't know much _____ it.",
-              options: "about, upon, over, with",
+              options: 'about, upon, over, with'
             },
             {
-              qText: "Go and sit __ your place, please.",
-              options: "at, to, in, on",
+              qText: 'Go and sit __ your place, please.',
+              options: 'at, to, in, on'
             },
             {
-              qText: "__ which month does the session begin?",
-              options: "In, On, At, Within",
+              qText: '__ which month does the session begin?',
+              options: 'In, On, At, Within'
             },
             {
-              qText: "She purchased it ____ Surat Bazar.",
-              options: "from, on, for, to",
-            },
-          ],
+              qText: 'She purchased it ____ Surat Bazar.',
+              options: 'from, on, for, to'
+            }
+          ]
         },
         {
           questions: [
             {
-              qText: "He deals ____ diamonds.",
-              options: "in, at, with, of",
+              qText: 'He deals ____ diamonds.',
+              options: 'in, at, with, of'
             },
             {
-              qText: "One must not deviate _____ the path of truth and virtue.",
-              options: "from, to, with, out",
+              qText: 'One must not deviate _____ the path of truth and virtue.',
+              options: 'from, to, with, out'
             },
             {
-              qText: "Eventually, I persuaded her to comply ____ my requests.",
-              options: "with, as, at, from",
+              qText: 'Eventually, I persuaded her to comply ____ my requests.',
+              options: 'with, as, at, from'
             },
             {
-              qText: "There is no cure ___ AIDS yet.",
-              options: "for, of, by, with",
+              qText: 'There is no cure ___ AIDS yet.',
+              options: 'for, of, by, with'
             },
             {
-              qText: "She is keen __ going abroad.",
-              options: "on, at, with, none",
-            },
-          ],
+              qText: 'She is keen __ going abroad.',
+              options: 'on, at, with, none'
+            }
+          ]
         },
         {
           questions: [
             {
-              qText: "This article makes several allusions __ the Vedas.",
-              options: "to, at, with, of",
+              qText: 'This article makes several allusions __ the Vedas.',
+              options: 'to, at, with, of'
             },
             {
-              qText: "He was anxious __ contact his wife.",
-              options: "to, about, of, at",
+              qText: 'He was anxious __ contact his wife.',
+              options: 'to, about, of, at'
             },
             {
-              qText: "She has no aptitude ___ music or dance.",
-              options: "for, to, with, None of these",
+              qText: 'She has no aptitude ___ music or dance.',
+              options: 'for, to, with, None of these'
             },
             {
-              qText: "Peter kept the books __ the shelf.",
-              options: "on, at, in, none of these",
+              qText: 'Peter kept the books __ the shelf.',
+              options: 'on, at, in, none of these'
             },
             {
-              qText: "He was brought __ by his grandmother.",
-              options: "up, about, out, in",
-            },
-          ],
-        },
-      ],
+              qText: 'He was brought __ by his grandmother.',
+              options: 'up, about, out, in'
+            }
+          ]
+        }
+      ]
     },
     {
-      id: "fillup-preposition",
-      label: "Complete the passage",
-      type: "fillup",
+      id: 'fillup-preposition',
+      label: 'Complete the passage',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Complete the passage using appropriate prepositions",
+        title: 'Complete the passage using appropriate prepositions'
       },
       lockAfter: 2,
       data: [
@@ -187,15 +187,15 @@ The lines were printed *in* italics.`,
 
         `The volume *on* the TV was turned up all the way. *In* disbelief and despite my better judgment, I walked *toward* the restroom. *Around* the base *of* the tub I saw these red velvety mushrooms coming up *between* the tub and tile floor.`,
 
-        `This filth was *beyond* anything I'd ever seen *in* my life. *Within* two minutes the cat was fed and I was out *of* there. Since she returned *from* her trip, I have never been available to watch her cat again.`,
-      ],
+        `This filth was *beyond* anything I'd ever seen *in* my life. *Within* two minutes the cat was fed and I was out *of* there. Since she returned *from* her trip, I have never been available to watch her cat again.`
+      ]
     },
     {
-      id: "fill-up-option",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up-option',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using suitable prepositions.`,
+        title: `Fill in the blanks using suitable prepositions.`
       },
       data: [
         `Vegetarians abstain *from (with)* eating meat.
@@ -220,15 +220,15 @@ The ship sailed *towards (in, for)* the West.`,
 The secret was kept away *from (on, by)* his own family.
 Tom came first in his class *as (like)* everyone expected.
 He orders his friends about, *as if (as)* they were his servants.
-This plan will go *against (by)* your interests.`,
-      ],
+This plan will go *against (by)* your interests.`
+      ]
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "passage",
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage',
       data: {
-        title: "Preposition",
+        title: 'Preposition',
         text: [
           `# Prepositions
 A preposition is a word that joins nouns, pronouns or phrases to other words in a sentence. It usually shows the relationship of those words or phrases with other words in the sentence about space, time or reason. A preposition usually comes before a noun. When a preposition is not followed by a noun, it is often called a  stranded preposition.
@@ -236,40 +236,40 @@ A stranded preposition comes at the end of a sentence when its  object is a rela
 Prepositions can be categorized into three based on their form:
 1. Simple Prepositions: Single-word prepositions are called simple prepositions.`,
           {
-            type: "html",
-            text: `Some examples are <b>in</b>, <b>on</b>, <b>at</b>, <b>by</b>, <b>from</b>, <b>about</b>, <b>over</b>, <b>under</b>, <b>through</b>, <b>till</b>, <b>up</b>, <b>off</b>, <b>of</b>, <b>for</b>, <b>to</b>, etc.`,
+            type: 'html',
+            text: `Some examples are <b>in</b>, <b>on</b>, <b>at</b>, <b>by</b>, <b>from</b>, <b>about</b>, <b>over</b>, <b>under</b>, <b>through</b>, <b>till</b>, <b>up</b>, <b>off</b>, <b>of</b>, <b>for</b>, <b>to</b>, etc.`
           },
           `2. Compound Prepositions: When two or more words are combined to form one single preposition, we have a compound preposition.`,
           {
-            type: "html",
-            text: `Some examples of compound prepositions are <b>into</b>, <b>across</b>, <b>without</b>, <b>within</b>, <b>inside</b>, <b>outside</b>, <b>beneath</b>, <b>below</b>, <b>behind</b>,  <b>between</b>, etc.`,
+            type: 'html',
+            text: `Some examples of compound prepositions are <b>into</b>, <b>across</b>, <b>without</b>, <b>within</b>, <b>inside</b>, <b>outside</b>, <b>beneath</b>, <b>below</b>, <b>behind</b>,  <b>between</b>, etc.`
           },
           `3. Complex or Phrase Prepositions: When a group of words does the work of a single preposition, it is called a complex or phrase preposition.`,
           {
-            type: "html",
-            text: `Some two-word complex prepositions are <b>along with</b>, <b>according to</b>, <b>apart from</b>, <b>because of</b>, <b>contrary to</b>, <b>regardless of</b>, <b>prior to</b>, <b>due to</b>, <b>except for</b>, etc.`,
+            type: 'html',
+            text: `Some two-word complex prepositions are <b>along with</b>, <b>according to</b>, <b>apart from</b>, <b>because of</b>, <b>contrary to</b>, <b>regardless of</b>, <b>prior to</b>, <b>due to</b>, <b>except for</b>, etc.`
           },
           `# Collocation
 Certain nouns, adjectives and verbs are generally used with specific prepositions in such a way that these have become fixed ways of using these words. We often refer to such combinations as collocations. `,
           {
-            type: "html",
-            text: `Some examples are <b>fondness for</b>, <b>participation in</b>, <b>afraid of</b>, <b>find out</b>, <b>care for</b>, etc.`,
+            type: 'html',
+            text: `Some examples are <b>fondness for</b>, <b>participation in</b>, <b>afraid of</b>, <b>find out</b>, <b>care for</b>, etc.`
           },
           `# Prepositional Phrase
 A prepositional phrase can have the functions of an adjective or an adverb.
 Look at the lady in the blue dress. (modifying the noun lady)
 Please take the pen next to the telephone. (modifying the noun pen)
 The poor man sat beside the fence. (Sat where? Beside the fence.)
-I go for dance classes after school. (Go when? After school.)`,
-        ],
-      },
+I go for dance classes after school. (Go when? After school.)`
+        ]
+      }
     },
     {
-      id: "fill-up",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks in the following sentences with Prepositions.`,
+        title: `Fill in the blanks in the following sentences with Prepositions.`
       },
       data: [
         `Mark often reads *during (while)* meals.
@@ -294,16 +294,16 @@ I have not seen her *for (since)* the last nine months.
 You must travel by train to reach *on (in)* time. 
 I have been going to this cafeteria *for (since)* a long time. 
 He is struggling *from (with)* migraine.
-We drove *along (through)* the coastline.`,
-      ],
+We drove *along (through)* the coastline.`
+      ]
     },
     {
-      id: "fillup-2",
-      label: "Preposition of Place",
-      type: "fillup",
+      id: 'fillup-2',
+      label: 'Preposition of Place',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Fill in the blanks using prepositions of place.",
+        title: 'Fill in the blanks using prepositions of place.'
       },
       lockAfter: 1,
       data: [
@@ -321,17 +321,17 @@ I live *in* Kerala *in* a town called Alappuzha.
 The soup is *on* the table.
 Meet me *at* the cafeteria next to the station. 
 Place the book *on* the table. 
-Jack is *in* a meeting now.`,
-      ],
+Jack is *in* a meeting now.`
+      ]
     },
     {
-      id: "fillup-3",
-      label: "Preposition of Time",
-      type: "fillup",
+      id: 'fillup-3',
+      label: 'Preposition of Time',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks using a few, very few or little.Fill in the blanks using prepositions of time.",
+          'Fill in the blanks using a few, very few or little.Fill in the blanks using prepositions of time.'
       },
       lockAfter: 1,
       data: [
@@ -346,17 +346,17 @@ We had a holiday *on* 18 April.
 We reached *in* time to catch the train.
 India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. 
-*During* World War I, many civilians lost their lives.`,
-      ],
+*During* World War I, many civilians lost their lives.`
+      ]
     },
     {
-      id: "fillup-4",
-      label: "Preposition of Direction, Cause and Purpose",
-      type: "fillup",
+      id: 'fillup-4',
+      label: 'Preposition of Direction, Cause and Purpose',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks using prepositions of direction, cause and purpose.",
+          'Fill in the blanks using prepositions of direction, cause and purpose.'
       },
       data: [
         `Before the competition, James swam *across* the river and back to build up stamina.
@@ -366,15 +366,15 @@ We need to start preparations *for* Sports Day.`,
         `He won't succeed *with* hard work alone.
 I need the money *for* the rent.
 When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting ‘Eureka!’
-A flying saucer just flew *over* that building.`,
-      ],
+A flying saucer just flew *over* that building.`
+      ]
     },
     {
-      id: "fill-up-1",
-      label: "Prepositional Phrases",
-      type: "fillup",
+      id: 'fill-up-1',
+      label: 'Prepositional Phrases',
+      type: 'fillup',
       commonData: {
-        title: `Complete the following sentences using appropriate prepositional phrases`,
+        title: `Complete the following sentences using appropriate prepositional phrases`
       },
       data: [
         `I would rather have a chocolate milkshake *instead of (instead from)* cold coffee.
@@ -387,16 +387,16 @@ Renuka solved the problem *by means of (by means)* a new device developed by the
 Can you help Riya *in any way (any way)*?
 Mary didn't allow cancer to discourage her. *On the contrary (By the contrary)*, she began to work twice as hard.
 *In general (By general)*, we are impressed with Ankita's performance.
-I am seeing him in August *or rather (rather)* in September.`,
-      ],
+I am seeing him in August *or rather (rather)* in September.`
+      ]
     },
     {
-      id: "fillup-5",
-      label: "Complete the passage",
-      type: "fillup",
+      id: 'fillup-5',
+      label: 'Complete the passage',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Complete the passage using appropriate prepositions",
+        title: 'Complete the passage using appropriate prepositions'
       },
       lockAfter: 2,
       data: [
@@ -406,17 +406,17 @@ I am seeing him in August *or rather (rather)* in September.`,
 
         `Now take a look *at* the last column, which totals up all the summer gains *from* first grade *to* sixth grade. The reading scores of the poor kids go up *by* 0.19 points. When it comes to reading skills, poor kids learn nothing when school is not *in* session. The reading scores of the rich kids, by contrast, go up *by* a whopping 60.99 points. Virtually all of the advantage that wealthy students have over poor students is the result of differences in the way privileged kids learn *while* they are not *in* school.`,
 
-        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`,
-      ],
+        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`
+      ]
     },
     {
-      id: "fillup-6",
-      label: "Fill up using Prepositions",
-      type: "fillup",
+      id: 'fillup-6',
+      label: 'Fill up using Prepositions',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Fill in the blanks using the given prepositions. (among, across, near, along, between, behind, by, toward, opposite, within)",
+          'Fill in the blanks using the given prepositions. (among, across, near, along, between, behind, by, toward, opposite, within)'
       },
       lockAfter: 2,
       data: [
@@ -430,8 +430,8 @@ Place a checkmark *within* the box.`,
 The park is *near* her house.
 There is a deer *between* the two trees.
 There is a purple flower *among* the weeds.
-The garage is *opposite* the house.`,
-      ],
-    },
-  ],
+The garage is *opposite* the house.`
+      ]
+    }
+  ]
 };

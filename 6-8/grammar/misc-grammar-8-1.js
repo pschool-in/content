@@ -1,14 +1,14 @@
 export default {
-  id: "misc-grammar-8-1",
-  label: "Misc Grammar-8",
+  id: 'misc-grammar-8-1',
+  label: 'Misc Grammar-8',
   lockAfter: 3,
   list: [
     {
-      id: "fill-up",
-      label: "Fill in the blanks",
-      type: "fillup",
+      id: 'fill-up',
+      label: 'Fill in the blanks',
+      type: 'fillup',
       commonData: {
-        title: `Fill in the blanks using the most suitable words.`,
+        title: `Fill in the blanks using the most suitable words.`
       },
       data: [
         `Has she *brought (bring)* all the necessary documents for the verification?
@@ -33,16 +33,16 @@ The coach asked all *the (x)* players to get to their places.`,
 Aswathy *and (but)* Geetha *have (has)* been friends for more than twenty five years now.
 The pilot greeted *and (then)* wished everyone a safe *and (but)* happy flight.
 Shaun did not move as he was *terrified (terified)*.
-Sundar want to visit the Andaman and Nicobar Islands at least once in *his (their)* lifetime.`,
-      ],
+Sundar want to visit the Andaman and Nicobar Islands at least once in *his (their)* lifetime.`
+      ]
     },
     {
-      id: "fillup-para",
-      label: "Complete the Paragraphs",
-      type: "fillup",
+      id: 'fillup-para',
+      label: 'Complete the Paragraphs',
+      type: 'fillup',
       commonData: {
         noOptions: true,
-        title: "Complete the paragraphs using the most suitable words.",
+        title: 'Complete the paragraphs using the most suitable words.'
       },
       lockAfter: 1,
       data: [
@@ -59,16 +59,16 @@ Residents, Moti Colony`,
 
         `On May 20, 1818, the British explorer Sir Stamford Raffles, reported the finding of a giant flower *in* Sumatra. It was named Rafflesia *after* him. Measuring almost a metre across and *weighing* (weigh) up to eleven kilograms, the Rafflesia is *the* world's largest flower. It is *also* called 'Stinking Lily' *because* of the unpleasant smell it emits. *The* people who have been fortunate to see it, inform that they were overcome *by* its beauty.`,
 
-        `Our city was acutely short of water. In one of my classes, I stressed *upon* the need to conserve water. We *discussed* (discuss) ways of harvesting rainwater and making *use* of every drop that was available. *I* (me) was surprised to hear wise thoughts *expressed* (express) by an 11 year old boy. He told us that *when* he washed his face in the morning he didn't throw the water *away*. He caught it in a bowl and placed it *out* for the birds.`,
-      ],
+        `Our city was acutely short of water. In one of my classes, I stressed *upon* the need to conserve water. We *discussed* (discuss) ways of harvesting rainwater and making *use* of every drop that was available. *I* (me) was surprised to hear wise thoughts *expressed* (express) by an 11 year old boy. He told us that *when* he washed his face in the morning he didn't throw the water *away*. He caught it in a bowl and placed it *out* for the birds.`
+      ]
     },
     {
-      id: "sorting",
-      label: "Make Sentences",
-      type: "sorting",
+      id: 'sorting',
+      label: 'Make Sentences',
+      type: 'sorting',
       commonData: {
         title:
-          "Form meaningful sentences by arranging the words in the most suitable order.",
+          'Form meaningful sentences by arranging the words in the most suitable order.'
       },
       lockAfter: 1,
       data: [
@@ -181,17 +181,17 @@ performance.`,
 is why
 some trainers
 are best
-paid people.`,
-      ],
+paid people.`
+      ]
     },
     {
-      id: "fillup-conv",
-      label: "Conversation",
-      type: "fillup",
+      id: 'fillup-conv',
+      label: 'Conversation',
+      type: 'fillup',
       commonData: {
         noOptions: true,
         title:
-          "Read the conversation. Complete the paragraph given below based on it.",
+          'Read the conversation. Complete the paragraph given below based on it.'
       },
       lockAfter: 1,
       data: [
@@ -252,8 +252,8 @@ The daughter *thanked* her mother.
 Mother: Now, do not drive fast, dear.
 The mother *advised* her not to drive fast then.
 Daughter: I have to blow dry the car.
-But the daughter contradicted by saying *that* she *had* to blow dry the car.`,
-      ],
-    },
-  ],
+But the daughter contradicted by saying *that* she *had* to blow dry the car.`
+      ]
+    }
+  ]
 };
