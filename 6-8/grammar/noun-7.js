@@ -43,15 +43,15 @@ London is the home for the *London Eye (london eye)*.`,
     },
     {
       id: "classify-sentence",
-      label: "Identify-2",
-      type: "Countable vs Uncountable",
+      label: "Countable vs Uncountable",
+      type: "classifySentence",
       data: {
         title:
           "Identify whether the underlined nouns are countable or uncountable.",
         types: [
           {
             name: "Countable",
-            text: `Toyota is having a *car* sale tomorrow.
+            text: `My aunt is having a *car* sale tomorrow.
 Many *trees* were cut down last year.
 *Students* work hard for their exams.
 Vatsal loves to eat *sweets*.
@@ -67,6 +67,69 @@ Goat *milk* is very healthy.
           },
         ],
       },
+    },
+    {
+      type: "selectWord",
+      label: "Identify Abstract Noun",
+      id: "abstractnoun",
+      commonData: {
+        title: "Identify the abstract noun from the following sentences.",
+      },
+      data: [
+        `His wife resented his *devotion* to his job.
+If she had more *determination*, she could be a *success* at anything.
+The bad *weather* detained us for several hours.
+*Punishment* is not necessarily a deterrent.
+I finally overcame the *difficulty* of meeting people.`,
+
+        `The doctor's *dilemma* was whether he should tell the patient the *truth*.
+We must respect the *dignity* of the high court.
+She spoke with *confidence*.
+We were frightened by her ominous *prediction*.`,
+
+        `That was a splendid *performance*.
+His *happiness* knew no bounds.
+There is some *misunderstanding* between the two brothers.`,
+      ],
+    },
+    {
+      label: "Countable or Uncountable",
+      type: "classifySentence",
+      id: "countable-uncountable",
+      commonData: {
+        title: "Classify the underlined noun as countable or uncountable.",
+        types: ["Countable", "Uncountable"],
+      },
+      data: [
+        [
+          `The *children* are playing in the garden.
+*Scientists* say that the environment is threatened by pollution.
+There are a lot of *windows* in our classroom.
+The *waiters* in this restaurant are very professional.`,
+
+          `I don't like *milk*.
+I prefer *tea*.
+My mother uses *butter* to prepare cakes.`,
+        ],
+        [
+          `My father drinks two big *glasses* of water every morning.
+*Drivers* must be careful; the road is slippery.
+Some *policemen* are organizing road traffic to avoid any accidents.
+I bought three *bottles* of mineral water for our picnic.`,
+
+          `We need some *glue* to fix this vase.
+The *bread* my mother prepares is delicious.
+I'd like some *juice* please!`,
+        ],
+        [
+          `Successful *candidates* will join the camp later this year.
+The *exercises* on this website are interesting.
+I met some nice *people* when I was walking along the beach.`,
+
+          `A rise in *oil* prices is inevitable since there is more and more world demand for energy.
+Dehydrated babies must drink a lot of *water*.`,
+        ],
+      ],
     },
     {
       label: "Notes",
@@ -165,125 +228,6 @@ a *shower* of rain`,
       ],
     },
     {
-      label: "Notes",
-      type: "passage",
-      id: "noun-2",
-      data: {
-        title: "Noun",
-        text: [
-          `=> Nouns can also be classified as:
-1. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
-2. Plural Noun: A noun that is having more than one person, place, thing, or animal is called a plural noun.
-3. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
-4. Feminine Noun: A noun that refers to the 'female' is called a feminine noun. The word feminine means female, so all the words with female gender, be it a person's name, an animal's name or a bird's name, it is all said to be feminine.
-5. Common Gender Noun: A noun that belongs to both males and females.`,
-        ],
-      },
-    },
-    {
-      id: "masculine-feminine",
-      label: "Match the following",
-      type: "match",
-      commonData: {
-        title:
-          "Match the masculine gender with the corresponding feminine gender.",
-      },
-      data: [
-        `Host, Hostess
-God, Goddess
-Lion, Lioness
-Waiter, Waitress
-Duke, Duchess`,
-
-        `Emperor, Empress
-Governor, Governess
-Master, Mistress
-Prince, Princess
-Tiger, Tigress`,
-
-        `Bachelor, Maid
-Brother, Sister
-Gentleman, Lady
-King, Queen
-Monk, Nun`,
-
-        `Lord, Lady
-Nephew, Niece
-Son, Daughter
-Uncle, Aunt
-Wizard, Witch`,
-
-        `Buck, Doe
-Bull, Cow
-Cock, Hen
-Drake, Duck
-Fox, Vixen`,
-
-        `Hart, Roe
-Horse, Mare
-Peacock, Peahen`,
-      ],
-    },
-    {
-      label: "Choose the Correct Answer",
-      id: "mcq-gender",
-      type: "mcq",
-      commonData: {
-        title: "Choose the most appropriate option.",
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: "The opposite for Priest would be?",
-              options: "Priestess, Priestes, Priesting, Prieston",
-            },
-            {
-              qText: "The opposite for nun will be?",
-              options: "Monk, Honk, Priest, Mother",
-            },
-            {
-              qText: "The masculine for a mother would be?",
-              options: "Father, Player, Anchor, Brother",
-            },
-            {
-              qText: "The feminine for man-servant would be?",
-              options:
-                "Maid-servant, Madam-Servant, Pupil-servant, Bull-servant",
-            },
-            {
-              qText: `The feminine for wizard would be?`,
-              options: "Witch, Wonk, Witty, Wicht",
-            },
-          ],
-        },
-        {
-          questions: [
-            {
-              qText: "The masculine for madam would be?",
-              options: "Sir, Sir-Madam, Brother, Father",
-            },
-            {
-              qText: "The opposite for bull would be?",
-              options: "Cow, Beef, Buffalo, Goat",
-            },
-            {
-              qText: "The feminine for the prince would be?",
-              options: "Princess, Queen, Princes, Princees",
-            },
-            {
-              qText: "The opposite for vixen would be?",
-              options: "Fox, Peacock, Lion, Lamb",
-            },
-            {
-              qText: "Write the opposite for duchess?",
-              options: "Duke, Prince, King, Queen",
-            },
-          ],
-        },
-      ],
-    },
-    {
       label: "Collective Noun",
       type: "matchByDragDrop",
       id: "drag-drop-collective-2",
@@ -339,91 +283,98 @@ A number of cards | DECK`,
       ],
     },
     {
-      type: "selectWord",
-      label: "Identify Abstract Noun",
-      id: "abstractnoun",
+      label: "Notes",
+      type: "passage",
+      id: "noun-2",
+      data: {
+        title: "Noun",
+        text: [
+          `=> Nouns can also be classified as:
+1. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
+2. Plural Noun: A noun that is having more than one person, place, thing, or animal is called a plural noun.
+3. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
+4. Feminine Noun: A noun that refers to the 'female' is called a feminine noun. The word feminine means female, so all the words with female gender, be it a person's name, an animal's name or a bird's name, it is all said to be feminine.
+5. Common Gender Noun: A noun that belongs to both males and females.
+# Gender Nuetered Language
+With growing awareness, people are moving away from gendered terms and embracing gender-neutral language.
+Examples of gendered terms	and their gender-neutral terms:
+Mankind => Humankind 
+Policeman, policewoman =>	Police
+Fireman =>	Firefighter
+Chairman => Chairperson
+Stewardess, Steward	=> Flight attendant
+Actor, actress	=> Actor
+Common man	=> Common person`,
+        ],
+      },
+    },
+    {
+      id: "masculine-feminine",
+      label: "Match the following",
+      type: "match",
       commonData: {
-        title: "Identify the abstract noun from the following sentences.",
+        title:
+          "Match the masculine gender with the corresponding feminine gender.",
       },
       data: [
-        `His wife resented his *devotion* to his job.
-If she had more *determination*, she could be a *success* at anything.
-The bad *weather* detained us for several hours.
-*Punishment* is not necessarily a deterrent.
-I finally overcame the *difficulty* of meeting people.`,
+        `Host, Hostess
+God, Goddess
+Lion, Lioness
+Waiter, Waitress
+Duke, Duchess`,
 
-        `The doctor's *dilemma* was whether he should tell the patient the *truth*.
-We must respect the *dignity* of the high court.
-She spoke with *confidence*.
-We were frightened by her ominous *prediction*.`,
+        `Emperor, Empress
+Governor, Governess
+Master, Mistress
+Prince, Princess
+Tiger, Tigress`,
 
-        `That was a splendid *performance*.
-His *happiness* knew no bounds.
-There is some *misunderstanding* between the two brothers.`,
+        `Bachelor, Maid
+Brother, Sister
+Gentleman, Lady
+King, Queen
+Monk, Nun`,
+
+        `Lord, Lady
+Nephew, Niece
+Son, Daughter
+Uncle, Aunt
+Wizard, Witch`,
+
+        `Buck, Doe
+Bull, Cow
+Cock, Hen
+Drake, Duck
+Fox, Vixen`,
+
+        `Hart, Roe
+Horse, Mare
+Peacock, Peahen`,
       ],
     },
     {
       type: "completeWord",
       id: "complete-word",
       label: "Complete Word - Gender",
-      title: "Change the words in bold from feminine to masculine.",
+      title: "Change the words from feminine to masculine.",
       data: [
-        `The *girl* looks very much like her mother. | BOY
-The girl looks very much like her *mother*. | FATHER
-The mistress gave her *maidservant* a present. | MANSERVANT
-The *mistress* gave her maidservant a present. | MASTER
-The *nun* is talking to my grandmother. | MONK`,
+        `girl | BOY
+mother | FATHER
+maidservant | MANSERVANT
+mistress | MASTER
+nun | MONK`,
 
-        `The nun is talking to my *grandmother*. | GRANDFATHER
-My aunt was an airplane *stewardess* once. | STEWARD
-The *cow* was chased by the vixen. | BULL
-The cow was chased by the *vixen*. | FOX
-My maternal *aunt* is a spinster. | UNCLE`,
+        `grandmother | GRANDFATHER
+stewardess | STEWARD
+cow | BULL
+vixen | FOX
+aunt | UNCLE`,
 
-        `My *niece* has a pet tabby-cat. | NEPHEW
-This *actress* played the part of the heroine in the movie. | ACTOR
-This actress played the part of the *heroine* in the movie. | HERO
-This girl is the *bride*. | GROOM
-Ms. Lee is our *headmistress*. | HEADMASTER`,
-      ],
-    },
-    {
-      label: "Countable or Uncountable",
-      type: "classifySentence",
-      id: "countable-uncountable",
-      commonData: {
-        title: "Classify the underlined noun as countable or uncountable.",
-        types: ["Countable", "Uncountable"],
-      },
-      data: [
-        [
-          `The *children* are playing in the garden.
-*Scientists* say that the environment is threatened by pollution.
-There are a lot of *windows* in our classroom.
-The *waiters* in this restaurant are very professional.`,
-
-          `I don't like *milk*.
-I prefer *tea*.
-My mother uses *butter* to prepare cakes.`,
-        ],
-        [
-          `My father drinks two big *glasses* of water every morning.
-*Drivers* must be careful; the road is slippery.
-Some *policemen* are organizing road traffic to avoid any accidents.
-I bought three *bottles* of mineral water for our picnic.`,
-
-          `We need some *glue* to fix this vase.
-The *bread* my mother prepares is delicious.
-I'd like some *juice* please!`,
-        ],
-        [
-          `Successful *candidates* will join the camp later this year.
-The *exercises* on this website are interesting.
-I met some nice *people* when I was walking along the beach.`,
-
-          `A rise in *oil* prices is inevitable since there is more and more world demand for energy.
-Dehydrated babies must drink a lot of *water*.`,
-        ],
+        `niece | NEPHEW
+actress | ACTOR
+heroine | HERO
+bride | GROOM
+headmistress | HEADMASTER`,
       ],
     },
     {
@@ -531,7 +482,6 @@ Only white <b>socks</b> are allowed on Saturday in school.<br>`,
             type: "html",
             text: `<b>Examples</b> - <b>Mathematics</b> is a tough subject.<br>
 <b>Politics</b> is a gloomy subject.<br>
-Few laws of <b>physics</b> are written by Einstein.<br>
 <b>Economics</b> is a subject that deals with the operations of the financial system.<br>`,
           },
         ],
@@ -547,15 +497,12 @@ Few laws of <b>physics</b> are written by Einstein.<br>
         noOptions: true,
       },
       data: [
-        `The old man went to the doctor to get his wobbling *teeth* out. (tooth)
-The *theives* got scared of the howling of the *dogs* and ran away from the street. (thief, dog)
-The *maid-servants* washed the dishes in the house. (maid-servant)
-Riya's book was kept on the *shelves* in the living room. (shelf)
-These *cities* are famous for tulips. (city)`,
+        `The *maid-servants* washed the dishes in the house. (maid-servant)
+These *cities* are famous for tulips. (city)
+The man-servant is picking *flowers* from the pot. (flower)
+The passer-by was attacked by armed *men*. (man)`,
 
-        `The man-servant is picking *flowers* from the pot. (flower)
-The passer-by was attacked by an armed *men*. (man)
-The *geese* killed a *mice* in the field. (goose, mouse)
+        `The *geese* killed the *mice* in the field. (goose, mouse)
 These *pizzas* were prepared in the hotel. (pizza)
 The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)`,
       ],
@@ -580,7 +527,36 @@ Some kings had many *wives*. (wife)`,
 He is wearing a nice pair of *jeans*. (jeans)
 Sana got three *dresses* as her birthday present. (dress)
 There are five *boxes* filled with sweets. (box)
-This year John topped in *Physics* exam. (physics)`,
+This year John topped *Physics* exam. (physics)`,
+      ],
+    },
+    {
+      label: "Correct or Incorrect",
+      type: "classifySentence",
+      id: "correct-incorrect-noun",
+      commonData: {
+        title: "Classify the sentences as correct or incorrect.",
+        types: ["Correct", "Incorrect"],
+      },
+      data: [
+        [
+          `The girl looks very much like her mother. 
+The mistress gave her maidservant a present. 
+My aunt was an airplane stewardess once.`,
+
+          `The girl looks very much like his mother. 
+The mistress gave his maidservant a present. 
+My aunt was an airplane steward once.`,
+        ],
+        [
+          `This actress played the part of the heroine in the movie. 
+This girl is the bride.
+Ms. Lee is our headmistress.`,
+
+          `This actress played the part of the hero in the movie. 
+This girl is the groom.
+Ms. Lee is our headmaster.`,
+        ],
       ],
     },
     {
@@ -590,17 +566,17 @@ This year John topped in *Physics* exam. (physics)`,
       data: {
         title: "Case of Nouns",
         text: [
-          `1. Nominative Case: When a noun is used as the subject of the verb, it is said to be a nominative case.`,
+          `1. Nominative Case: When a noun is used as the subject of the verb, it is called the nominative case.`,
           {
             type: "html",
             text: `<b>Example</b> - <b>Karan</b> won the match.`,
           },
-          `2. Objective Case: When the noun is used as an object of the verb, is called the objective case.`,
+          `2. Objective Case: When the noun is used as an object of the verb, it is called the objective case.`,
           {
             type: "html",
             text: `<b>Example</b> - Chetan Bhagat writes <b>novels</b>. (The word novel is the object of verb writes)`,
           },
-          `3. The noun that shows possession/indicating to something is called possessive case.`,
+          `3. Possessive Case: When the noun shows possession, it is called the possessive case.`,
           {
             type: "html",
             text: `<b>Example</b> - <b>Pari's</b> book is kept on the bed.`,
@@ -622,7 +598,7 @@ This year John topped in *Physics* exam. (physics)`,
           `*Pari's* book is kept on the bed.
 The *farmer's* crops yielded a good profit.`,
 
-          ` *President* is going to Japan today.
+          `The *President* is going to Japan today.
 *Dessert* smells so good.
 The *mother* teaches the child in the morning.`,
 

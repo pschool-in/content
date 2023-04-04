@@ -1,10 +1,10 @@
 export default {
-  label: 'अंग्रेजी में हिंदी शब्दों के अर्थ',
-  id: 'hi-en-2',
+  label: "अंग्रेजी में हिंदी शब्दों के अर्थ",
+  id: "hi-en-2",
   list: [
     {
-      id: 'notes-animals',
-      type: 'passage',
+      id: "notes-animals",
+      type: "passage",
       label: `समानांतर अंग्रेजी`,
       data: {
         title: `जानवर`,
@@ -39,17 +39,17 @@ seahorse —  समुद्री घोड़े
 mole —  छछूँदर
 spider —  मकड़ी
 caterpillar —  इल्ली
-earthworm —  केंचुआ`
-        ]
-      }
+earthworm —  केंचुआ`,
+        ],
+      },
     },
     {
-      id: 'match-animals',
-      type: 'match',
-      label: 'जानवर - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-animals",
+      type: "match",
+      label: "जानवर - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'जानवर- अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "जानवर- अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `kangaroo, कंगेरू
@@ -87,19 +87,18 @@ seahorse, समुद्री घोड़े
 mole, छछूँदर
 spider, मकड़ी
 caterpillar, इल्ली
-earthworm, केंचुआ`
-      ]
+earthworm, केंचुआ`,
+      ],
     },
     {
-      id: 'notes-birds-flowers',
-      type: 'passage',
+      id: "notes-birds-flowers",
+      type: "passage",
       label: `समानांतर अंग्रेजी`,
       data: {
         title: `पक्षी और पुष्प`,
         text: [
           `# पक्षी
 woodpecker —  कठफोड़वा
-koel —  कोयल
 cuckoo —  कोयल
 pheasant —  तीतर
 falcon —  बाज़
@@ -124,21 +123,20 @@ poppy —  खसखस
 daisy —  गुलबहार
 magnolia —  चम्पा
 periwinkle —  सदाबहार
-water-lily —  नीलकमल`
-        ]
-      }
+water-lily —  नीलकमल`,
+        ],
+      },
     },
     {
-      id: 'match-bird',
-      type: 'match',
-      label: 'पक्षी - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-bird",
+      type: "match",
+      label: "पक्षी - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'पक्षी - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "पक्षी - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `woodpecker, कठफोड़वा
-koel, कोयल
 cuckoo, कोयल
 pheasant, तीतर
 falcon, बाज़`,
@@ -147,16 +145,16 @@ falcon, बाज़`,
 bulbul, बुलबुल
 spotted-dove, चित्तीदार कबूतर
 seagull, सामुद्रिक चिड़िया
-hawk, बाज`
-      ]
+hawk, बाज`,
+      ],
     },
     {
-      id: 'match-flower',
-      type: 'match',
-      label: 'पुष्प - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-flower",
+      type: "match",
+      label: "पुष्प - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'पुष्प - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "पुष्प - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `rose, गुलाब
@@ -175,12 +173,12 @@ pansy, बनफूल`,
 daisy, गुलबहार
 magnolia, चम्पा
 periwinkle, सदाबहार
-water-lily, नीलकमल`
-      ]
+water-lily, नीलकमल`,
+      ],
     },
     {
-      id: 'notes-vegetables',
-      type: 'passage',
+      id: "notes-vegetables",
+      type: "passage",
       label: `समानांतर अंग्रेजी`,
       data: {
         title: `सब्जि`,
@@ -210,17 +208,17 @@ tulsi —  तुलसी
 bottlegourd —  लौकी
 ivygourd —  कुंदरू
 ridgegourd —  तुरई
-vegetables —  सब्जियां`
-        ]
-      }
+vegetables —  सब्जियां`,
+        ],
+      },
     },
     {
-      id: 'match-vegetables',
-      type: 'match',
-      label: 'सब्जि - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-vegetables",
+      type: "match",
+      label: "सब्जि - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'सब्जि - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "सब्जि - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `corianderleaf, धनिया पत्ता
@@ -251,12 +249,12 @@ kohlrabi, बन्द-गोभी`,
 bottlegourd, लौकी
 ivygourd, कुंदरू
 ridgegourd, तुरई
-vegetables, सब्जियां`
-      ]
+vegetables, सब्जियां`,
+      ],
     },
     {
-      id: 'notes-vehicle-school',
-      type: 'passage',
+      id: "notes-vehicle-school",
+      type: "passage",
       label: `समानांतर अंग्रेजी`,
       data: {
         title: `वाहन और विद्यालय`,
@@ -291,17 +289,17 @@ calculator —  गणना यंत्र
 book —  किताब
 color-pencils —  रंग पेंसिल
 crayons —  चित्रांकनी
-ink —  स्याही`
-        ]
-      }
+ink —  स्याही`,
+        ],
+      },
     },
     {
-      id: 'match-vehicle',
-      type: 'match',
-      label: 'वाहन - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-vehicle",
+      type: "match",
+      label: "वाहन - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'वाहन - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "वाहन - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `aeroplane, हवाईजहाज
@@ -320,16 +318,16 @@ auto, रिक्शा
 cart, हाथगाडी
 excavator, खोदक मशीन
 fire-engine, दमकल
-lorry, लारी`
-      ]
+lorry, लारी`,
+      ],
     },
     {
-      id: 'match-school',
-      type: 'match',
-      label: 'विद्यालय - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-school",
+      type: "match",
+      label: "विद्यालय - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'विद्यालय - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "विद्यालय - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `eraser, रबड़
@@ -346,12 +344,12 @@ calculator, गणना यंत्र`,
         `book, किताब
 color-pencils, रंग पेंसिल
 crayons, चित्रांकनी
-ink, स्याही`
-      ]
+ink, स्याही`,
+      ],
     },
     {
-      id: 'notes-tools-jobs-others',
-      type: 'passage',
+      id: "notes-tools-jobs-others",
+      type: "passage",
       label: `समानांतर अंग्रेजी`,
       data: {
         title: `उपकरण, नौकरियां और अन्य`,
@@ -426,17 +424,17 @@ palanquin —  पालकी
 medicine —  दवा
 balloon —  गुब्बारा
 box —  डिब्बा
-coin —  सिक्का`
-        ]
-      }
+coin —  सिक्का`,
+        ],
+      },
     },
     {
-      id: 'match-tools',
-      type: 'match',
-      label: 'उपकरण - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-tools",
+      type: "match",
+      label: "उपकरण - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'उपकरण - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "उपकरण - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `axe, कुल्हाडी
@@ -467,16 +465,16 @@ hacksaw, लोहा-आरी`,
 screw, पेंच
 screwdriver, पेंचकस
 flute, बांसुरी
-tabla, तबला`
-      ]
+tabla, तबला`,
+      ],
     },
     {
-      id: 'match-jobs',
-      type: 'match',
-      label: 'नौकरियां - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-jobs",
+      type: "match",
+      label: "नौकरियां - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'नौकरियां - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "नौकरियां - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `astronaut, अंतरिक्ष यात्री
@@ -496,16 +494,16 @@ chef, बावर्ची
 doctor, चिकित्सक
 soldier, सैनिक
 barber, नाई
-washerman, धोबी`
-      ]
+washerman, धोबी`,
+      ],
     },
     {
-      id: 'match-others',
-      type: 'match',
-      label: 'अन्य - अंग्रेजी अर्थ के साथ मेल करें',
+      id: "match-others",
+      type: "match",
+      label: "अन्य - अंग्रेजी अर्थ के साथ मेल करें",
       commonData: {
-        title: 'अन्य - अंग्रेजी अर्थ के साथ मेल करें',
-        fontSize: '1rem'
+        title: "अन्य - अंग्रेजी अर्थ के साथ मेल करें",
+        fontSize: "1rem",
       },
       data: [
         `bullock-cart, बैलगाड़ी
@@ -536,8 +534,8 @@ dhol, ढोल`,
 medicine, दवा
 balloon, गुब्बारा
 box, डिब्बा
-coin, सिक्का`
-      ]
-    }
-  ]
+coin, सिक्का`,
+      ],
+    },
+  ],
 };
