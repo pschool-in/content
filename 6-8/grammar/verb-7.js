@@ -126,73 +126,143 @@ Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream
       }
     },
     {
-      label: 'Pick the Right Verb',
+      label: 'Simple Past',
       id: 'complete',
       type: 'completePuzzle',
       lockAfter: 1,
       commonData: {
         type: 'rightOpen',
         title:
-          'Drag and drop the simple past form and the past participle form of the following irregular verbs.',
+          'Drag and drop the simple past form of the following irregular verbs.',
         printTitle:
-          'Pick the simple past form and the past participle form of the following irregular verbs.',
+          'Pick the simple past form of the following irregular verbs.',
         leftWidth: 75,
         rightWidth: 245
       },
       data: [
-        `Seek - *Sought* - Sought
-Choose - Chose - *Chosen*
-Think - *Thought* - Thought
-Catch - Caught - *Caught*
-Wear - *Wore* - Worn`,
+        `Seek, Sought, Soght
+Choose, Chose, Chosen
+Think, Thought, Thoght
+Catch, Caught, Catched
+Wear, Wore, Worn`,
 
-        `Tear - Tore - *Torn*
-Bear - *Bore* - Borne
-Buy - Bought - *Bought*
-Fight - *Fought* - Fought
-Break - Broke - *Broken*`,
+        `Tear, Tore, Torn
+Bear, Bore, Borne
+Buy,  Bought, Buyed
+Fight, Fought, Fright
+Break, Broke, Broken`,
 
-        `Speak - *Spoke* - Spoken
-Take - Took - *Taken*
-Shake - *Shook* - Shaken
-Sink - Sank - *Sunk*
-Drink - *Drank* - Drunk`,
+        `Speak, Spoke, Spoken
+Take, Took, Taken
+Shake, Shook, Shaken
+Sink, Sank, Sunk
+Drink, Drank, Drunk`,
 
-        `Sing - Sang - *Sung*
-Ride - *Rode* - Ridden
-Write - Wrote - *Written*
-Get - *Got* - Gotten
-Strive - Strove - *Striven*`,
+        `Sing, Sang, Sung
+Ride, Rode, Ridden
+Write, Wrote, Written
+Get, Got, Gotten
+Strive, Strove, Striven`,
 
-        `Give - *Gave* - Given
-Arise - Arose - *Arisen*
-Know - *Knew* - Known
-Grow - Grew - *Grown*
-Lay - *Laid* - Laid`,
+        `Give, Gave, Given
+Arise, Arose, Arisen
+Know, Knew, Known
+Grow, Grew, Grown
+Lay, Laid, Laid`,
 
-        `Keep - Kept - *Kept*
-Cut - *Cut* - Cut
-Swing - Swung - *Swung*
-Draw - *Drew* - Drawn
-Rise - Rose - *Risen*`,
+        `Keep, Kept, Keped
+Cut, Cut, Cuted
+Swing, Swung, Swunged
+Draw, Drew, Drawn
+Rise, Rose, Risen`,
 
-        `Forgive - *Forgave* - Forgiven
-Forget - Forgot - *Forgotten*
-Bite - *Bit* - Bitten
-Hide - Hid - *Hidden*
-Ring - *Rang* - Rung`,
+        `Forgive, Forgave, Forgiven
+Forget, Forgot, Forgotten
+Bite, Bit, Bitten
+Hide, Hid, Hidden
+Ring, Rang, Rung`,
 
-        `Spring - Sprang - *Sprung*
-Begin - *Began* - Begun
-Mistake - Mistook - *Mistaken*
-Wake - *Woke* - Woken
-Steal - Stole - *Stolen*`,
+        `Spring, Sprang, Sprung
+Begin, Began, Begun
+Mistake, Mistook, Mistaken
+Wake, Woke, Woken
+Steal, Stole, Stolen`,
 
-        `Light - *Lit* - Lit
-Bring - Brought - *Brought*
-Teach - *Taught* - Taught
-Put - Put - *Put*
-Shut - *Shut* - Shut`
+        `Light, Lit, Light
+Bring, Brought, Bringed
+Teach, Taught, Teached
+Put, Put, Puted
+Shut, Shut, Shuted`
+      ]
+    },
+    {
+      label: 'Past Participle',
+      id: 'complete',
+      type: 'completePuzzle',
+      lockAfter: 1,
+      commonData: {
+        type: 'rightOpen',
+        title:
+          'Drag and drop the past participle form of the following irregular verbs.',
+        printTitle:
+          'Pick the past participle form of the following irregular verbs.',
+        leftWidth: 75,
+        rightWidth: 245
+      },
+      data: [
+        `Seek, Sought, Sight
+Choose, Chosen, Chose
+Think, Thought, Think
+Catch, Caught, Catch
+Wear, Worn, Wore`,
+
+        `Tear, Torn, Tore
+Bear, Borne, Bore
+Buy, Bought,  Bought
+Fight, Fought, Fought
+Break, Broken, Broke`,
+
+        `Speak, Spoken, Spoke
+Take, Taken, Took
+Shake, Shaken, Shook
+Sink, Sunk, Sank
+Drink, Drunk, Drank`,
+
+        `Sing, Sung, Sang
+Ride, Ridden, Rode
+Write, Written, Wrote
+Get, Gotten, Got
+Strive, Striven, Strove`,
+
+        `Give, Given, Gave
+Arise, Arisen, Arose
+Know, Known, Knew
+Grow, Grown, Grew
+Lay, Laid, Lay`,
+
+        `Keep, Kept, Keep
+Cut, Cut, Cuted
+Swing, Swung, Swunged
+Draw, Drawn, Drew
+Rise, Risen, Rose`,
+
+        `Forgive, Forgiven, Forgave
+Forget, Forgotten, Forgot
+Bite, Bitten, Bit
+Hide, Hidden, Hid
+Ring, Rung, Rang`,
+
+        `Spring, Sprung, Sprang
+Begin, Begun, Began
+Mistake, Mistaken, Mistook
+Wake, Woken, Woke
+Steal, Stolen, Stole`,
+
+        `Light, Lit, Lite
+Bring, Brought, Bring
+Teach, Taught, Teach
+Put, Put, Puted
+Shut, Shut, Shuted`
       ]
     },
     {
