@@ -126,6 +126,76 @@ Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream
       }
     },
     {
+      label: 'Pick the Right Verb',
+      id: 'complete',
+      type: 'completePuzzle',
+      lockAfter: 1,
+      commonData: {
+        type: 'rightOpen',
+        title:
+          'Drag and drop the simple past form and the past participle form of the following irregular verbs.',
+        printTitle:
+          'Pick the simple past form and the past participle form of the following irregular verbs.',
+        leftWidth: 75,
+        rightWidth: 245
+      },
+      data: [
+        `Seek - *Sought* - Sought
+Choose - Chose - *Chosen*
+Think - *Thought* - Thought
+Catch - Caught - *Caught*
+Wear - *Wore* - Worn`,
+
+        `Tear - Tore - *Torn*
+Bear - *Bore* - Borne
+Buy - Bought - *Bought*
+Fight - *Fought* - Fought
+Break - Broke - *Broken*`,
+
+        `Speak - *Spoke* - Spoken
+Take - Took - *Taken*
+Shake - *Shook* - Shaken
+Sink - Sank - *Sunk*
+Drink - *Drank* - Drunk`,
+
+        `Sing - Sang - *Sung*
+Ride - *Rode* - Ridden
+Write - Wrote - *Written*
+Get - *Got* - Gotten
+Strive - Strove - *Striven*`,
+
+        `Give - *Gave* - Given
+Arise - Arose - *Arisen*
+Know - *Knew* - Known
+Grow - Grew - *Grown*
+Lay - *Laid* - Laid`,
+
+        `Keep - Kept - *Kept*
+Cut - *Cut* - Cut
+Swing - Swung - *Swung*
+Draw - *Drew* - Drawn
+Rise - Rose - *Risen*`,
+
+        `Forgive - *Forgave* - Forgiven
+Forget - Forgot - *Forgotten*
+Bite - *Bit* - Bitten
+Hide - Hid - *Hidden*
+Ring - *Rang* - Rung`,
+
+        `Spring - Sprang - *Sprung*
+Begin - *Began* - Begun
+Mistake - Mistook - *Mistaken*
+Wake - *Woke* - Woken
+Steal - Stole - *Stolen*`,
+
+        `Light - *Lit* - Lit
+Bring - Brought - *Brought*
+Teach - *Taught* - Taught
+Put - Put - *Put*
+Shut - *Shut* - Shut`
+      ]
+    },
+    {
       id: 'irregular-verb',
       label: 'Irregular Verb',
       type: 'fillup',
@@ -398,7 +468,7 @@ This book on women and society *seems* to be interesting.
 The tree *was* cut.
 The child *looks* happy.`,
 
-        `My favorite food *is* pizza. 
+        `My favorite food *is* biriyani. 
 She *looks* pale. 
 He *was* a man on a mission.
 It *smelled* stinkier than a skunk. 
@@ -503,8 +573,7 @@ We study so that we <b>may</b> pass the exam.`
 1. To show permission, possibility in the past.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: The leader told us that we <b>might</b> spend this amount.<br> 
-I <b>might</b> be sent to the hostel.`
+            text: `<b>Example</b>: I <b>might</b> be sent to the hostel.`
           },
           `2. To express purpose in the past.`,
           {
@@ -516,13 +585,12 @@ We rushed so that we <b>might</b> not miss our train.`
           {
             type: 'html',
             text: `<b>Examples</b>: If possible, you <b>might</b> bring me a glass of water.<br>
-Condition allowing, they <b>might</b> be seeking a favor from me.`
+Condition allowing, they <b>might</b> be seeking favor from me.`
           },
           `4. To make suggestions or criticism.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: They <b>might</b> look for other venues.<br>
-She <b>might</b> have picked other issues.`
+            text: `<b>Example</b>: She <b>might</b> have picked other issues.`
           },
           `3. To make a polite request.`,
           {
