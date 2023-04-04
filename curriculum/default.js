@@ -45,6 +45,7 @@ import gk3 from '../3-5/default/gk-3.js';
 import gk6 from '../3-5/default/gk-6.js';
 
 let mainMenu = {
+  id: 'pschool',
   label: 'Showcase',
   style: {},
   type: 'curriculumIcon',

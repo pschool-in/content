@@ -9,7 +9,7 @@ import gk from './dynamic/gk.js';
 import general from './dynamic/general.js';
 
 export default {
-  id: 'more-playlists',
+  id: 'pschool-more',
   label: 'More Playlists',
   type: 'curriculumList',
   grades: [
