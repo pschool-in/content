@@ -22,7 +22,7 @@ Class-7
 3. Concrete and Abstract Noun - Differentiation between concrete and abstract noun
 4. Making plurals - Rules for making plurals
 
-<links>
+<https://www.learncbse.in/cbse-class-7-english-grammar-noun/#:~:text=Definition%3A%20A%20noun%20is%20a,place%20is%20called%20a%20noun.>
 
 ## adjective-7
 
@@ -61,6 +61,11 @@ Class-7
 10. Determiner of number - Expression of the quantity of the object
 11. Predeterminer, Central determiner and Post determiner - Order of Determiners
 
+<https://www.learncbse.in/cbse-class-7-english-grammar-articles/>
+<https://www.learncram.com/english-grammar/determiners-class-8/>
+<https://performdigi.com/determiners-for-class-8/>
+<http://www.flesl.net/Grammar/Grammar_Glossary/determiner.php#:~:text=Determiners%20are%20divided%20into%20three,%2C%E2%80%9D%E2%80%9Cseveral%E2%80%9D).>
+
 ## pronoun-7
 
 Label: Pronoun
@@ -84,6 +89,11 @@ Class-7
    Class-8
 2. Structure and function of prepositional phrase - Prepositional phrases provide information to modify a noun, verb, adjective, or adverb
 
+<https://grammary.in/preposition-exercises-for-class-8/>
+<https://www.englishgrammar.org/prepositional-phrases-exercise/>
+<https://lemongrad.com/preposition-exercises/>
+<https://www.learncbse.in/cbse-class-7-english-grammar-preposition/#:~:text=A%20preposition%20is%20a%20word,in%20spite%20of%20great%20care.>
+
 ## verb-7
 
 Label: Different types of Verb
@@ -98,6 +108,10 @@ Class-7
 4. Finite and Non Finite Verb - Agreement of verb with subject
 5. Modal Auxilaries - (can/could; may/must; shall/should; ought to/need to; will/would)
 
+<https://www.englishgrammar.org/regular-irregular-verbs/>
+<https://byjus.com/english/verbs-exercises/>
+<https://www.learncbse.in/cbse-class-7-english-grammar-modals/>
+
 # verb-8
 
 ## Outline
@@ -111,6 +125,14 @@ Class-8
 5. Modals - Modals in conditional sentences
 6. Infinitive - Defenition, Examples and Uses of Infinitives
 7. Gerund - Verbal noun
+
+<https://byjus.com/english/auxiliary-verbs-exercises/#:~:text=Some%20examples%20of%20auxiliary%20verbs,%2C%20will%2C%20should%2C%20etc.>
+<https://www.cbsetuts.com/cbse-class-8-english-grammar-modals/>
+<https://byjus.com/english/linking-verbs/>
+<https://performdigi.com/infinitive/>
+<https://performdigi.com/gerund/>
+<https://www.learncbse.in/cbse-class-8-english-grammar-participle/>
+<https://www.cbsetuts.com/cbse-class-8-english-grammar-modals/>
 
 ## sentence-7
 
@@ -136,6 +158,13 @@ Class-7
 13. Conditionals - (Clauses; Zero conditional; First conditional; Second conditional; Third conditional)
 14. Punctuation - (hyphen/dash)
 
+<https://byjus.com/english/conditional-sentences/>
+<https://www.englishgrammar101.com/module-14/additional-punctuation/lesson-4/hyphens>
+<https://www.studiestoday.com/useful-resources-english-cbse-class-8-english-grammar-relative-clauses-236908.html#:~:text=Relative%20clauses%20are%20non%2Dessential,sentence%20will%20still%20function%20grammatically.>
+<https://infinitylearn.com/surge/study-material/cbse-notes/class-7/english/cbse-class-7-english-grammar-subject-verb-agreement/#:~:text=Rules%20for%20Subject%2DVerb%20Agreement,'and'%20takes%20plural%20verb.&text=Nouns%20that%20are%20connected%20by,then%20the%20verb%20becomes%20singular.>
+
+<Cambridge publications grammar for all textbook>
+
 ## adverb-7
 
 Label: Adverb and Adverbials
@@ -153,6 +182,8 @@ Class-7
 6. Order of Adverbials - (adverbs of manner -> place -> frequency -> time -> purpose)
 7. Adverbial Phrases - (a group of words that functions as an adverb)
 
+<>
+
 ## conjunction-7
 
 Label: Conjunctions
@@ -165,6 +196,9 @@ Class-7
    Class-8
 1. Coordinating conjunctions - (for, and, nor, but, or, yet, and so)
 
+<https://byjus.com/english/coordinating-conjunctions/>
+<https://byjus.com/english/subordinating-conjunctions/>
+
 ## tenses-7
 
 Label: Forms of Tense
@@ -174,6 +208,9 @@ Label: Forms of Tense
 Class-7 and 8
 
 1. All forms of Present, Past and Future Tenses - (simple, continuous, perfect, perfect continous)
+
+<https://performdigi.com/present-tense-for-class-8/>
+<https://www.learncbse.in/cbse-class-8-english-grammar-tenses/>
 
 ## speech-7
 
@@ -190,6 +227,10 @@ Class-7
 4. Active and Passive Voice - (Voice and tenses)
 5. Direct and Indirect Speech - (Interchanging reported speech)
 6. Idioms (Examples)
+   <https://www.learncbse.in/cbse-class-8-english-grammar-active-and-passive-voice/>
+   <https://www.tiwariacademy.com/ncert-solutions/class-8/english/grammar/chapter-16/>
+   <https://byjus.com/english/direct-and-indirect-speech-exercises/>
+   <https://byjus.com/english/idioms-in-english/>
 
 ## vocabulary-7
 
@@ -201,6 +242,13 @@ Class-7
 
 1. Compound words - Formation of compound words
    Class-8
-1. British and American English - (Differences in vocabulary, spelling and grammar)
-1. Homophones, homographs and homonyms - (Defenition and Examples)
-1. Affixation - (suffix and prefix, degrees of comparisson)
+2. British and American English - (Differences in vocabulary, spelling and grammar)
+3. Homophones, homographs and homonyms - (Defenition and Examples)
+4. Affixation - (suffix and prefix, degrees of comparisson)
+   <https://www.learncram.com/english-grammar/degrees-of-comparison-exercises-for-class-8/>
+   <https://byjus.com/english/degrees-of-comparison/>
+   <https://www.dictionary.com/e/homograph-vs-homophone-vs-homonym/>
+   <https://www.fluentu.com/blog/english/american-english-grammar/>
+   <https://www.britannica.com/dictionary/eb/qa/what-are-the-differences-between-British-and-American-English#:~:text=The%20most%20significant%20differences%20between,pass%20over%20them%20for%20today.>
+   <https://www.thoughtco.com/american-english-to-british-english-4010264>
+   <https://www.fluentu.com/blog/english/american-english-grammar/>
