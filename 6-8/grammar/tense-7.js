@@ -1,5 +1,5 @@
 export default {
-  id: 'tense-8',
+  id: 'tense-7',
   label: 'Tenses',
   lockAfter: 3,
   list: [
@@ -22,13 +22,13 @@ Tense indicates the time when an action takes place.
           {
             type: 'html',
             text: `<b>Examples</b> - He <b>is drinking</b> tea.<br>
-            My father <b>is arriving</b> tomorrow.`
+My father <b>is arriving</b> tomorrow.`
           },
           `3. Present Perfect Tense: This form of tense is used to denote an action beginning at some point in the past and continuing up to the present movement or to indicate completed activities in the immediate past.`,
           {
             type: 'html',
             text: `<b>Examples</b> - He <b>has just finished</b> drinking his tea.<br>
-            He <b>has been</b> ill since last week`
+He <b>has been</b> ill since last week`
           },
           `4. Present Perfect Continous Tense: This indicates an action that began sometime in the past and is still continuing.`,
           {
@@ -60,7 +60,7 @@ Vaishak *does not (did not)* study social science on Wednesday.`
         title:
           'Complete the sentences in the present continuous tense by choosing the appropriate option.',
         text: `Kritika *is writing (writes)* content on women's equality. 
-Jack *is not playing (has not played)* in the ground.
+Jack *is not playing (has not played)* on the ground.
 Jeshni *is going (has gone)* to Poland next Monday.
 Sunny *is trying (tried)* to solve the mystery.
 Are they *going (went)* outside?`
@@ -135,7 +135,24 @@ Niki need your *support*. (support)`,
 Do you *like* reading? (like)
 It *does* not *work* on my hair. (work)
 Mickey *eats* all the fruits. (eat)
-Jay and Jake *likes* to travel together. (like)`
+Jay and Jake *likes* to travel together. (like)`,
+
+        `She *reads* (read) a book in the library.
+They *play* (play) soccer every weekend.
+I *like* (like) to eat pizza.
+He *is studying* (study) for his exam right now.
+We *are watching* (watch) a movie at home tonight.`,
+
+        `The teacher *is teaching* (teach) math to the students.
+My parents *are working* (work) hard every day.
+She *is listening* (listen) to music now.
+They *are traveling* (travel) to different countries every year.
+He *plays* (play) the guitar in a band.`,
+
+        `I *enjoy* (enjoy) spending time with my friends.
+The chef *is cooking* (cook) delicious meals at the restaurant.
+We *swim* (swim) in the pool on hot days.
+They *read* (read) the newspaper every morning.`
       ]
     },
     {
@@ -188,7 +205,25 @@ Columbus *discovered (discover)* America.`,
 Neha *borrowed (borrow)* ten thousand rupees from me. 
 When *did (will)* you *return (returned)* from Australia? 
 I *went (go)* to her house yesterday.
-A thief *broke (break)* into her office last Sunday.`
+A thief *broke (break)* into her office last Sunday.`,
+
+        `I *ate (eat)* breakfast at 7 am yesterday.
+Sarah *played (play)* soccer with her friends last weekend.
+We *went (go)* to the park yesterday afternoon.
+The movie *started (starts)* at 8 pm and ended at 10 pm last night.
+My parents *took (take)* me to the zoo last month.`,
+
+        `The teacher *explained (explains)* the lesson in class yesterday.
+Jack *studied (studies)* for his exam all night before the test.
+I *visited (visit)* my grandparents during the summer vacation.
+She *cleaned (cleans)* her room yesterday morning.
+The concert *was (is)* amazing last night.`,
+
+        `We *finished (finishes)* our project before the deadline.
+He *wrote (write)* a letter to his friend yesterday.
+The train *arrived (arrives)* at the station on time yesterday.
+The weather *was (is)* great on our trip last week.
+She *practiced (practises)* playing the guitar for an hour yesterday.`
       ]
     },
     {
@@ -209,7 +244,25 @@ The students *were saying (said)* their morning prayer when I reached their scho
 My mother *was cooking (had cooked)* when I returned home.
 My grandmother *was reading (had read)* the Gita when the guests arrived. 
 Mother *was making (had made)* breakfast for us when the school bus came.
-Renu saw that the baby *was crying (cried)* bitterly.`
+Renu saw that the baby *was crying (cried)* bitterly.`,
+
+        `I *was eating (had ate)* breakfast at 7 am yesterday when the phone rang.
+Sarah *was playing (had been playing)* soccer with her friends when it started raining.
+We *were walking (had been walking)* in the park yesterday afternoon when we saw a squirrel.
+The movie *was playing (had been playing)* when we arrived at the theater last night.
+My parents *were driving (had been driving)* to the zoo when they got lost.`,
+
+        `The teacher *was explaining (had been explaining)* the lesson in class when the fire alarm went off.
+Jack *was studying (had been studying)* for his exam when his friend called him.
+I *was visiting (visited)* my grandparents when the power went out.
+She *was cleaning (had been cleaning)* her room yesterday morning when her friend came over.
+The concert *was starting (started)* when we arrived at the venue.`,
+
+        `We *were working (had been working)* on our project all afternoon yesterday.
+He *was writing (wrote)* a letter to his friend when his sister interrupted him.
+The train *was leaving (had left)* the station when we arrived yesterday.
+The weather *was changing (had changed)* rapidly on our trip last week.
+She *was practicing (had to practice)* playing the guitar when her parents came home.`
       ]
     },
     {
@@ -228,9 +281,27 @@ He *had (have)* not *left (leave)* the place before his father permitted her.`,
 
         `*Had (Did)* the child *slept (sleep)* before his father returned from office? 
 The rain *had stopped (stops)* when we stepped out of our house.
-If you *had helped (helps)* him, he would have got first rank. 
+If you *had helped (helps)* him, he would have got the first rank. 
 The movie *had started (started)* when I reached the hall.
-If he *had boarded (boards)* a bus, he would have caught the train.`
+If he *had boarded (boards)* a bus, he would have caught the train.`,
+
+        `I *had eaten (ate)* breakfast by the time my friend arrived.
+Sarah *had finished (finished)* playing soccer with her friends before it started raining.
+We had already *walked (walk)* into the park before it closed yesterday.
+The movie had already *started (starts)* by the time we got to the theater last night.
+My parents *had visited (visited)* the zoo before, so they knew the way.`,
+
+        `The teacher *had explained (explained)* the lesson in class before the students arrived.
+Jack *had studied (studied)* for his exam all week before the test.
+I *had visited (visited)* my grandparents several times before they moved.
+She *had cleaned (cleaned)* her room yesterday morning before going out with her friends.
+The concert had already *ended (ends)* by the time we arrived at the venue.`,
+
+        `We *had finished (finished)* our project before the deadline, so we had time to review it.
+He had already *written (wrote)* a letter to his friend before receiving a reply.
+The train had already *left (been leaving)* the station by the time we arrived yesterday.
+The weather *had been (was)* great on our trip last week, but it changed suddenly.
+She *had practiced (practised)* playing the guitar for months before her recital.`
       ]
     },
     {
@@ -242,7 +313,7 @@ If he *had boarded (boards)* a bus, he would have caught the train.`
           'Complete the sentences in the past perfect continuous tense by choosing the appropriate option.',
         text: `He *had been studying (had studied)* hard since December. 
 Mariyam *had been fooling (has fooled)* her boyfriend for many years.
-How long *had (has)* the three neighbors *been quarreling (quarelled)* when a forth one joined them? 
+How long *had (has)* the three neighbors *been quarreling (quarelled)* when a fourth one joined them? 
 Heena *had been sleeping (has slept)* for five hours when Riyas knocked at her door. 
 Tenzing *had been trying (had tried)* to climb Everest for many years before he succeeded in his mission. `
       }
@@ -285,20 +356,30 @@ Babar has founded the Mughal Empire.`
         }
       },
       data: [
-        `We *were watching* FIFA all night. 
+        `I *went* to the store yesterday.
+She *finished* her homework before dinner.
+They *saw* a movie last night.
+He *played* soccer with his friends on Saturday.
+We *traveled* to Europe last summer.`,
+
+        `The teacher *explained* the lesson in class yesterday.
+We *visited* the museum last week.
+He *completed* his project before the deadline.
+She *received* an award for her performance in the play.
+They *went* on a road trip during the summer vacation.``We *were watching* FIFA all night. 
 I *went* out with my cousins. 
 Mary *was walking* towards the food truck. 
 The bus *left* a few minutes back. 
-The teacher *taught* us about bones. 
-We *drove* to Goa last week.`,
+The teacher *taught* us about bones.`,
 
-        `The actress *stood* next to the actor. 
+        `We *drove* to Goa last week.
+The actress *stood* next to the actor. 
 The thief *broke* into the house last night. 
 I *received* a trophy for the singing competition on the last day. 
-Preeti *was playing*  chess last night. 
-I *had seen* Priya before she came to school.`,
+Preeti *was playing*  chess last night. `,
 
-        `I *had watched* the movie last night. 
+        `I *had seen* Priya before she came to school
+I *had watched* the movie last night. 
 The opponent *played* well. 
 Andy *ate* all the biscuits. 
 Arathi *was mending* the roof when it started to rain. `
@@ -327,7 +408,7 @@ I am <b>going</b> to buy a car.`
           {
             type: 'html',
             text: `<b>Examples</b> - I <b>shall have completed</b> my work by then.<br>
-            By the end of the month, <b>I will have worked</b> here for 5 years.`
+By the end of the month, <b>I will have worked</b> here for 5 years.`
           },
           `4. Future Perfect Continuous Tense: It is used for actions that will be in progress over a while that will end in the future.`,
           {
@@ -363,25 +444,44 @@ You *will* find her crying bitterly.`
       commonData: {
         title:
           'Read the sentences and fill in the blanks with the correct form of tense.',
+        noOptions: 'true',
         styles: {
           fontSize: '1rem',
           dashWidth: 70
         }
       },
       data: [
-        `Vignesh *left* his native village yesterday.
-I *completed* the work.
-He tells me that he *has solved* all the sums.
-I *had informed* you about this pending work before.
-I *have known* you for many years.
-She *saw* a hippo in the circus.`,
+        `Vignesh *left* (leave) his native village yesterday. (simple past)
+I *completed* (complete) the work last week. (simple past)
+He tells me that he *has solved* (solve) all the sums. (past perfect)
+I *had informed* (inform) you about this pending work before. (past perfect)
+I *have known* (know) you for many years. (present perfect)
+She *saw* (see) a hippo in the circus. (simple past)`,
 
-        `He *has passed* in Hindi but failed in Social Studies.
-If you help me. I *will* reward you.
-It *has been raining* heavily for a week.
-The patient *had died* before the doctor arrived.
-He *will meet* me as soon as he returns.
-The teacher *punished* the boys because they were making a noise.`
+        `He *has passed* (pass) in Hindi but failed in Social Studies. (past perfect)
+If you help me. I *will* reward you. (simple future)
+It *has been raining* (rain) heavily for a week. (present perfect continuous)
+The patient *had died* (die) before the doctor arrived. (past perfect)
+He *will meet* (meet) me as soon as he returns. (simple future)
+The teacher *punished* (punish) the boys because they were making a noise. (simple past)`,
+
+        `Yesterday, I *went* (go) to the mall with my friends. (simple past)
+She *was studying* (study) for her exam all night. (past continuous)
+By the time I arrived, the party *had started* (start) already. (past perfect)
+He *wrote* (write) a letter to his friend yesterday. (simple past)
+We *were playing* (play) basketball in the park when it started raining. (past continuous)`,
+
+        `My parents *took* (take) me to the beach last weekend. (simple past)
+She *had finished* (finish) her project before the deadline. (past perfect)
+They *travelled* (travel) to Japan last year. (simple past)
+He *ran* (run) in the marathon yesterday. (simple past)
+The teacher *was explaining* (explain) the lesson in class when the fire alarm went off. (past continuous)`,
+
+        `I *met* (meet) my best friend ten years ago. (simple past)
+She *visited* (visit) her grandparents during the summer vacation. (simple past)
+We *were studying* (study) for the test all week. (past continuous)
+By the time we got to the theater, the movie *had started* (start) already. (past perfect)
+They *moved* (move) to a new city last month. (simple past)`
       ]
     },
     {
@@ -432,38 +532,32 @@ I shall break the lock open and get into the room.`
           `He passed in English.
 Light the lamp.
 When will you take the test?
-The teacher will give us a test in English next week.
 I have been ill for four days.`,
 
           `He is pass in English.	
 Burn the lamp.	
-When will you give the test?	
-The teacher will take our test in English next week.	
+When will you give the test?		
 I am ill for four days.`
         ],
         [
           `She made a speech.
 Our team scored two goals.
-I wish I were young again!
 He talks as if he were mad.
 What makes you laugh?`,
 
           `She gave a speech.	
 Our team made two goals.	
-I wish I was young again.	
 He talks as if he is mad.	
 What make you laugh?`
         ],
         [
           `I hung my coat on the peg.
 The murderer was hanged.
-Two and two make four.
 They came this morning.
 He was so thirsty that he drank all the milk.`,
 
           `I hanged my coat on the peg.	
 The murderer was hung.	
-Two and two makes four.	
 They have come this morning.	
 He was so thirsty that he drunk all the milk.`
         ],
@@ -471,14 +565,21 @@ He was so thirsty that he drunk all the milk.`
           `I fear he will fail.
 I looked into the bus, but saw none.
 He works hard lest he should fail.
-Our hen has laid ten eggs.
 He fell off the roof and was injured.`,
 
           `I hope he will fail.	
 I saw into the bus, but looked none.	
 He works hard lest he should not fail.	
-Our hen has given ten eggs.	
 He fell off the roof and injure.`
+        ],
+        [
+          `The teacher will give us a test in English next week.
+Two and two make four.
+Our hen has laid ten eggs.`,
+
+          `The teacher will take our test in English next week.
+Two and two makes four.
+Our hen has given ten eggs.		`
         ]
       ]
     }
