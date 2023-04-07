@@ -236,7 +236,7 @@ She *practiced (practises)* playing the guitar for an hour yesterday.`
       data: [
         `The toddler *was weeping (weeped)* in her room.
 Boys *were making (made)* so much noise in the classroom.
-Why *were (was)* you *giving (gave)* her an angry look ?
+Why *were (was)* you *giving (gave)* her an angry look?
 We saw the aeroplane while it *was taking (took)* off.
 The students *were saying (said)* their morning prayer when I reached their school.`,
 
@@ -444,7 +444,7 @@ You *will* find her crying bitterly.`
       commonData: {
         title:
           'Read the sentences and fill in the blanks with the correct form of tense.',
-        noOptions: 'true',
+        noOptions: true,
         styles: {
           fontSize: '1rem',
           dashWidth: 70
