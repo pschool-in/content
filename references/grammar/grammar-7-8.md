@@ -38,7 +38,8 @@ Class-7
 4. Adjectives with -ly - Formation of Adjectives by addition of -ly
 5. Participal Adjectives - Adjectives ending in -ing or -ed
 
-<links>
+<https://www.learncbse.in/cbse-class-7-english-grammar-adjective/>
+<https://performdigi.com/adjectives-for-class-7-with-types-exercises-quiz-and-worksheet/>
 
 ## articles-7
 
@@ -76,6 +77,9 @@ Class-7
 
 1. Pronouns of number, gender and case - (number: singular/plural; person: 1st person/2nd person/3rd person; gender: male/female/neuter; case: subject/object)
 2. Simple, Compound and Complex Pronouns - Pronouns used to form simple, compound and complex sentences
+
+<https://performdigi.com/pronouns-for-class-7/>
+<https://www.gingersoftware.com/content/grammar-rules/pronouns-2/>
 
 ## preposition-7
 
