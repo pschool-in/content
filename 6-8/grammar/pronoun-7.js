@@ -77,7 +77,7 @@ Example: The cat washed its tail by licking it.`
     },
     {
       id: 'fillup',
-      label: '### Pronouns of Place',
+      label: 'Pronouns of Place',
       type: 'fillup',
       noOptions: true,
       data: {

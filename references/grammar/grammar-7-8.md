@@ -166,7 +166,8 @@ Class-7
 <https://www.englishgrammar101.com/module-14/additional-punctuation/lesson-4/hyphens>
 <https://www.studiestoday.com/useful-resources-english-cbse-class-8-english-grammar-relative-clauses-236908.html#:~:text=Relative%20clauses%20are%20non%2Dessential,sentence%20will%20still%20function%20grammatically.>
 <https://infinitylearn.com/surge/study-material/cbse-notes/class-7/english/cbse-class-7-english-grammar-subject-verb-agreement/#:~:text=Rules%20for%20Subject%2DVerb%20Agreement,'and'%20takes%20plural%20verb.&text=Nouns%20that%20are%20connected%20by,then%20the%20verb%20becomes%20singular.>
-
+<https://byjus.com/english/phrases-and-clauses/>
+<https://performdigi.com/sentence-class-7/#:~:text=Sentence%20Definition%20for%20class%207,mark%2C%20or%20exclamatory%20mark>
 <Cambridge publications grammar for all textbook>
 
 ## adverb-7
@@ -186,7 +187,7 @@ Class-7
 6. Order of Adverbials - (adverbs of manner -> place -> frequency -> time -> purpose)
 7. Adverbial Phrases - (a group of words that functions as an adverb)
 
-<>
+<Cambridge publications grammar for all textbook>
 
 ## conjunction-7
 
