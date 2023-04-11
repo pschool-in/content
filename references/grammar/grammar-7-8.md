@@ -162,6 +162,15 @@ Class-7
 13. Conditionals - (Clauses; Zero conditional; First conditional; Second conditional; Third conditional)
 14. Punctuation - (hyphen/dash)
 
+Class-7
+
+1. Subordinating Conjunction - (links a dependent clause to an independent clause)
+   Class-8
+1. Coordinating conjunctions - (for, and, nor, but, or, yet, and so)
+
+<https://byjus.com/english/coordinating-conjunctions/>
+<https://byjus.com/english/subordinating-conjunctions/>
+
 <https://byjus.com/english/conditional-sentences/>
 <https://www.englishgrammar101.com/module-14/additional-punctuation/lesson-4/hyphens>
 <https://www.studiestoday.com/useful-resources-english-cbse-class-8-english-grammar-relative-clauses-236908.html#:~:text=Relative%20clauses%20are%20non%2Dessential,sentence%20will%20still%20function%20grammatically.>
@@ -188,21 +197,6 @@ Class-7
 7. Adverbial Phrases - (a group of words that functions as an adverb)
 
 <Cambridge publications grammar for all textbook>
-
-## conjunction-7
-
-Label: Conjunctions
-
-## Outline
-
-Class-7
-
-1. Subordinating Conjunction - (links a dependent clause to an independent clause)
-   Class-8
-1. Coordinating conjunctions - (for, and, nor, but, or, yet, and so)
-
-<https://byjus.com/english/coordinating-conjunctions/>
-<https://byjus.com/english/subordinating-conjunctions/>
 
 ## tenses-7
 
