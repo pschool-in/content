@@ -6,7 +6,7 @@ export default {
     {
       label: 'Notes',
       type: 'passage',
-      id: 'passage',
+      id: 'adjectives',
       data: {
         title: 'Adjectives',
         text: [
@@ -91,7 +91,7 @@ Participial adjectives are formed from the past participle (-ed) or present part
     {
       type: 'selectWord',
       label: 'Identify - Adjectives',
-      id: 'select-word-1',
+      id: 'select-word-adj',
       lockAfter: 1,
       commonData: {
         title: 'Identify the adjectives from the following sentences.'
@@ -129,7 +129,7 @@ A *few* people are allowed inside the room.`
       ]
     },
     {
-      id: 'fillup-2',
+      id: 'fillup-adj',
       label: 'Comparisson of Adjectives',
       type: 'fillup',
       commonData: {
@@ -152,21 +152,21 @@ Burj Khalifa is the *tallest* building in the world. (tall)`,
 
         `Are you feeling *better* now? (good)
 May was the *hottest* month of the year. (hot)
-Sheela is *taller* than her sister.(tall)
+Sheela is *taller* than her sister. (tall)
 Yogesh is the *wiser* of the two. (wise)
 You are the *most regular* boy in class. (regular)`,
 
-        `My brother is *taller* (tall) than me.
-This is *most interesting*  book I have ever read.(interesting)
-The red dress is *more expensive*  than the blue one.(expensive)
-John is the *happiest*  person I know.(happy)
-The cat is the *laziest*  animal in the house.(lazy)`,
+        `My brother is *taller*  than me. (tall)
+This is *most interesting*  book I have ever read. (interesting)
+The red dress is *more expensive*  than the blue one. (expensive)
+John is the *happiest*  person I know. (happy)
+The cat is the *laziest*  animal in the house. (lazy)`,
 
-        `The test was *more difficult* than I expected.(difficult)
-This pizza is *more delicious*  than the one we had last week.(delicious)
-That movie was *scarier*  than I thought it would be.(scary)
-This flower is *more beautiful*  than the one in my garden.(beautiful)
-The elephant is *the biggest*  animal in the zoo.(big)`
+        `The test was *more difficult* than I expected. (difficult)
+This pizza is *more delicious*  than the one we had last week. (delicious)
+That movie was *scarier*  than I thought it would be. (scary)
+This flower is *more beautiful*  than the one in my garden. (beautiful)
+The elephant is *the biggest*  animal in the zoo. (big)`
       ]
     },
     {
@@ -227,7 +227,7 @@ The firefighter is the bravest person I know.`
           `The coffee is hot and fresh.
 He is a generous person.
 The beach is relaxing.
-The art is creative.
+The Art is creative.
 The ice cream is sweet and creamy.`,
 
           `She is kinder to animals than anyone I know.

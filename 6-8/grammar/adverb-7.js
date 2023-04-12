@@ -121,11 +121,11 @@ I didn't go to the office *because* it was raining.`
       },
       lockAfter: 2,
       data: [
-        `The lady purchased the clothes from the market *quickly*.(quick)
+        `The lady purchased the clothes from the market *quickly*. (quick)
 The employees are working *very* hard these days.
-Harry writes *clearly*.(clear)
+Harry writes *clearly*. (clear)
 The author writes the story *very* well.
-She cooks *tasty* food.(taste)`,
+She cooks *tasty* food. (taste)`,
 
         `Stand *there* now. Come forward only when you are called by the teacher.
 My mother is *here*. She was late because of the traffic.
@@ -139,17 +139,17 @@ My cat follows me *everywhere* now.
 *Why* are you so happy?
 *Why* do you tell him everything?`,
 
-        `My elder brother *easily* (easy) passed the examinations this year.
-This dog has been treated *badly* (bad) by their owner.
-He behaved with everyone *nicely* (nice) at the party.
-I have done this work *beautifully* (Beautiful).
-The old woman prepared food *happily* (happy) for the guest.`,
+        `My elder brother *easily* passed the examinations this year. (easy)
+This dog has been treated *badly* by their owner. (bad)
+He behaved with everyone *nicely* at the party. (nice)
+I have done this work *beautifully*. (Beautiful)
+The old woman prepared food *happily* for the guest. (happy)`,
 
-        `He was driving the car *carefully* (careful) on the crowded road of the city.
-The cook has *easily* (easy) prepared the dinner for everyone.
-She *usually* (usual) comes here with an incomplete task.
-Doctor, the patient is serious. Please attend to her *immediately*(immediate) .
-He *loyally* (loyal) served his country.`
+        `He was driving the car *carefully* on the crowded road of the city. (careful)
+The cook has *easily* prepared the dinner for everyone. (easy)
+She *usually* comes here with an incomplete task. (usual)
+Doctor, the patient is serious. Please attend to her *immediately*. (immediate)
+He *loyally* served his country. (loyal)`
       ]
     },
     {
