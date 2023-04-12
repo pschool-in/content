@@ -231,19 +231,12 @@ Class-7
    <https://byjus.com/english/direct-and-indirect-speech-exercises/>
    <https://byjus.com/english/idioms-in-english/>
 
-## vocabulary-7
-
-Label: Improve your Vocabulary
-
-## Outline
-
 Class-7
 
 1. Compound words - Formation of compound words
    Class-8
 2. British and American English - (Differences in vocabulary, spelling and grammar)
-3. Homophones, homographs and homonyms - (Defenition and Examples)
-4. Affixation - (suffix and prefix, degrees of comparisson)
+3. Affixation - (suffix and prefix, degrees of comparisson)
    <https://www.learncram.com/english-grammar/degrees-of-comparison-exercises-for-class-8/>
    <https://byjus.com/english/degrees-of-comparison/>
    <https://www.dictionary.com/e/homograph-vs-homophone-vs-homonym/>
@@ -251,3 +244,5 @@ Class-7
    <https://www.britannica.com/dictionary/eb/qa/what-are-the-differences-between-British-and-American-English#:~:text=The%20most%20significant%20differences%20between,pass%20over%20them%20for%20today.>
    <https://www.thoughtco.com/american-english-to-british-english-4010264>
    <https://www.fluentu.com/blog/english/american-english-grammar/>
+
+   <https://www.grammarly.com/blog/open-and-closed-compound-words/#:~:text=Compound%20words%20occur%20when%20two,and%20up%2Dto%2Ddate.>
