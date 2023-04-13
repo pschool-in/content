@@ -990,7 +990,19 @@ You *might tell* me the truth.`,
         `You *can wait* here.
 She *could explain* the poem to me.
 He *did* it well.
-He *must return* the money.`
+He *must return* the money.`,
+
+        `*To learn* a new language is on my bucket list.
+I need *to buy* some groceries to make dinner tonight.
+She decided *to take* a nap after finishing her homework.
+It's important *to exercise* regularly for good health.
+My goal is *to read* 50 books this year.`,
+
+        `I would love *to travel* to Japan someday.
+*To become* a doctor, one must attend medical school.
+He promised *to call* his mother every week.
+I'm trying *to save* money to buy a new car.
+She loves *to sing* in the shower when no one is home.`
       ]
     },
     {
@@ -1037,6 +1049,24 @@ I should have liked to have gone.
 He seemed to enjoy his stay in Mumbai.
 I gave him a pen to write.
 He has no paper to write.`
+        ],
+        [
+          `I and my friends are planning to go to the beach next weekend.
+          I want to lie down and take a nap.
+          She needs to stop procrastinating and start studying. `,
+
+          `Me and my friends are planning to went to the beach next weekend.
+          I want to laid down and take a nap.
+          She needs to stopped procrastinating and start studying. `
+        ],
+        [
+          `He offered to give me a ride to the airport.
+          They decided to go to the concert last minute.
+          She wants to run a marathon next year. `,
+
+          `He offered to gave me a ride to the airport.
+          They decided to went to the concert last minute.
+          She wants to ran a marathon next year. `
         ]
       ]
     },
