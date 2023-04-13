@@ -14,9 +14,9 @@ export default {
           {
             type: 'html',
             text: `1. Preposition of time: The prepositions of time include <b>on</b>, <b>in</b>, <b>at</b>, <b>by</b>, <b>until</b>, <b>during</b>, <b>for</b>, <b>between</b>, <b>since</b>, <b>before</b>, etc.<br>
-  2. Preposition of place: These include <b>on</b>, <b>under</b>, <b>in</b>, <b>at</b>, <b>above</b>, <b>below</b>, <b>among</b>, <b>behind</b>, etc.<br>
-  3. Preposition of direction and movements: These prepositions include <b>to</b>, <b>towards</b>, <b>along</b>, <b>through</b>, <b>across</b>, <b>onto</b>, etc.<br>
-  4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`
+2. Preposition of place: These include <b>on</b>, <b>under</b>, <b>in</b>, <b>at</b>, <b>above</b>, <b>below</b>, <b>among</b>, <b>behind</b>, etc.<br>
+3. Preposition of direction and movements: These prepositions include <b>to</b>, <b>towards</b>, <b>along</b>, <b>through</b>, <b>across</b>, <b>onto</b>, etc.<br>
+4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`
           }
         ]
       }
@@ -166,6 +166,30 @@ The lines were printed *in* italics.`
               options: 'up, about, out, in'
             }
           ]
+        },
+        {
+          questions: [
+            {
+              qText: 'The cat is hiding _____ the couch.',
+              options: 'under, beside, on, in'
+            },
+            {
+              qText: 'She walked __ the store to buy some milk.',
+              options: 'to, on, in, at'
+            },
+            {
+              qText: 'I hung the picture __ the wall.',
+              options: 'on, in, beside, under'
+            },
+            {
+              qText: 'The ball rolled ____ the stairs.',
+              options: 'down, on, up , under'
+            },
+            {
+              qText: 'The cat is sleeping __ the sofa.',
+              options: 'on, in, beside, over'
+            }
+          ]
         }
       ]
     },
@@ -198,6 +222,12 @@ The lines were printed *in* italics.`
         title: `Fill in the blanks using suitable prepositions.`
       },
       data: [
+        `He was born *on (at)* June 5th.
+She went *to (by)* the park to meet her friends.
+The book is *on (over)* the table.
+The plane flew *above (over)* the clouds.
+They are going to the concert *with (for)* their parents.`,
+
         `Vegetarians abstain *from (with)* eating meat.
 Good food is absolutely essential *for (to, with)* our health.
 The jury absolved him *of (off, from)* the crime.
@@ -275,22 +305,24 @@ I go for dance classes after school. (Go when? After school.)`
         `Mark often reads *during (while)* meals.
 Do not shout *while (during)* others are writing. 
 I promise to return the book *by (until)* Monday. 
-He did not fulfill his promise *until (by)* it was too late. 
-Many think Jackson looks *like (as)* Park Jihoon.
-Rishi was employed *as (like)* my brother's secretary.
-Tony spends money freely *as if (as)* it grew on trees.`,
+He did not fulfill his promise *until (by)* it was too late.`,
 
-        `Jake came first in his class *as (like)* everyone expected.
-You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.
+        `Many think Jackson looks *like (as)* Park Jihoon.
+Rishi was employed *as (like)* my brother's secretary.
+Tony spends money freely *as if (as)* it grew on trees.
+Jake came first in his class *as (like)* everyone expected.`,
+
+        `You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.
 Jay orders his friends about, *as if (as)* they were his servants.
 This plan will go *against (by)* Ram's interests.
-There are many diseases caused *by (of)* dirt and filth. 
-Jessi was the main cause *of (by)* Ron's misery.
-Athiya went to Tokyo *at (in)* the age of 3. 
-You will receive the payment *within (during)* 30 days of joining.`,
+There are many diseases caused *by (of)* dirt and filth.`,
 
-        `In the absence of professional experience, you will be *at (in)* a disadvantage here. 
-I have not seen her *for (since)* the last nine months. 
+        `Jessi was the main cause *of (by)* Ron's misery.
+Athiya went to Tokyo *at (in)* the age of 3. 
+You will receive the payment *within (during)* 30 days of joining.
+In the absence of professional experience, you will be *at (in)* a disadvantage here.`,
+
+        `I have not seen her *for (since)* the last nine months. 
 You must travel by train to reach *on (in)* time. 
 I have been going to this cafeteria *for (since)* a long time. 
 He is struggling *from (with)* migraine.
@@ -310,18 +342,27 @@ We drove *along (through)* the coastline.`
         `Please wait *at* the reception desk.
 This is from the shop *on* the main road.
 Everybody gathered *at* 14, Park Street.
-There is a fence *around* the garden.
-We stood *at* the bus stop.
-The jewels are kept *in* a box.
-Have you looked *under* the bed?`,
+There is a fence *around* the garden.`,
 
-        `We waited *in* the reception hall for two hours.
-The painting *on* the roof of the church is incredible.
+        `We stood *at* the bus stop.
+The jewels are kept *in* a box.
+Have you looked *under* the bed?
+We waited *in* the reception hall for two hours.`,
+
+        `The painting *on* the roof of the church is incredible.
 I live *in* Kerala *in* a town called Alappuzha.
 The soup is *on* the table.
-Meet me *at* the cafeteria next to the station. 
-Place the book *on* the table. 
-Jack is *in* a meeting now.`
+Meet me *at* the cafeteria next to the station.`,
+
+        `Place the book *on* the table. 
+Jack is *in* a meeting now.
+The shoes are *under* the bed.
+The picture frame is hanging *on* the wall.`,
+
+        `The flower vase is *beside* the window.
+The TV is mounted *above* the fireplace.
+The pencil is *in* the drawer.
+The book is lying *on* the table.`
       ]
     },
     {
@@ -330,23 +371,34 @@ Jack is *in* a meeting now.`
       type: 'fillup',
       commonData: {
         noOptions: true,
-        title:
-          'Fill in the blanks using a few, very few or little.Fill in the blanks using prepositions of time.'
+        title: 'Fill in the blanks using prepositions of time.'
       },
       lockAfter: 1,
       data: [
         `Meet me *after* 4 o'clock.
 We will get the finished product *in* May.
 Will you visit us *at* Diwali?
-*During* summer, it becomes very hot and humid in the plains.
-What did you discuss *at* the meeting.`,
+*During* summer, it becomes very hot and humid in the plains.`,
 
-        `He has been living here *for* five years
+        `What did you discuss *at* the meeting
+He has been living here *for* five years
 We had a holiday *on* 18 April.
-We reached *in* time to catch the train.
-India got independence *on* 15th August 1947. 
+We reached *in* time to catch the train.`,
+
+        `India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. 
-*During* World War I, many civilians lost their lives.`
+*During* World War I, many civilians lost their lives.
+I wake up *at* 6 o'clock in the morning.`,
+
+        `We have a meeting *on* Monday.
+The concert starts *at* 7 p.m.
+We are going on vacation *during* the summer.
+My sister got married *in* 2010.`,
+
+        `We have to finish the project *before* the deadline.
+My brother will arrive *by* the end of the week.
+The flower event will take place *in* September.
+I was born *in* 1997.`
       ]
     },
     {
@@ -359,36 +411,47 @@ Try to come home *before* it starts raining.
           'Fill in the blanks using prepositions of direction, cause and purpose.'
       },
       data: [
+        `She walked *toward* the park.
+He drove the car *across* the bridge.
+She looked *up* at the sky.
+They forgave each other *for* the sake of their friendship.`,
+
+        `She cried *because* of the sad news of her pet's demise.
+She wrote a letter *to* her parents as she was missing them.
+They raised money *for* the charity fund for undernourished children.`,
+
+        `We went for a walk *along* the river.
+The cat tried to jump *over* the fence but tripped and fell.
+Sam and Rehan ran *around* the track all day.`,
+
         `Before the competition, James swam *across* the river and back to build up stamina.
 He climbed *up* a tree to get *over* the wall and *into* the orchard.
 We need to start preparations *for* Sports Day.`,
 
         `He won't succeed *with* hard work alone.
 I need the money *for* the rent.
-When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting ‘Eureka!’
+When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting 'Eureka!'
 A flying saucer just flew *over* that building.`
       ]
     },
     {
-      id: 'fill-up-1',
       label: 'Prepositional Phrases',
       type: 'fillup',
-      commonData: {
-        title: `Complete the following sentences using appropriate prepositional phrases`
-      },
-      data: [
-        `I would rather have a chocolate milkshake *instead of (instead from)* cold coffee.
+      id: 'fill-up-1',
+      data: {
+        title:
+          'Complete the following sentences using appropriate prepositional phrases',
+        text: `I would rather have a chocolate milkshake *instead of (instead from)* cold coffee.
 *In spite (Despite)* of the sand storm, we went out.
 *In case of (In case)* fire, break the glass to escape.
 I am standing here *on behalf of (on behalf)* my colleagues.
-Renuka solved the problem *by means of (by means)* a new device developed by the engineers at her company.`,
-
-        `*On the whole (By the whole)*, Meera had a happy childhood.
+Renuka solved the problem *by means of (by means)* a new device developed by the engineers at her company.
+*On the whole (By the whole)*, Meera had a happy childhood.
 Can you help Riya *in any way (any way)*?
 Mary didn't allow cancer to discourage her. *On the contrary (By the contrary)*, she began to work twice as hard.
 *In general (By general)*, we are impressed with Ankita's performance.
 I am seeing him in August *or rather (rather)* in September.`
-      ]
+      }
     },
     {
       id: 'fillup-5',
@@ -406,7 +469,9 @@ I am seeing him in August *or rather (rather)* in September.`
 
         `Now take a look *at* the last column, which totals up all the summer gains *from* first grade *to* sixth grade. The reading scores of the poor kids go up *by* 0.19 points. When it comes to reading skills, poor kids learn nothing when school is not *in* session. The reading scores of the rich kids, by contrast, go up *by* a whopping 60.99 points. Virtually all of the advantage that wealthy students have over poor students is the result of differences in the way privileged kids learn *while* they are not *in* school.`,
 
-        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`
+        `One very real possibility is that these are the educational consequences of the differences *in* parenting styles. Think back to Alex Williams, the nine-year-old whom Annette Lareau studied. His parents believe *in* concerted cultivation. He gets taken *to* museums and gets enrolled *in* special programs and goes *to* summer camp, where he takes classes. When he's bored *at* home, there are plenty of books to read, and his parents see it as their responsibility to keep him actively engaged *in* the world *around* him. It's hard to see how Alex would get better *at* reading and math *over* the summer.`,
+
+        `During the pandemic, many people have been spending more time *at* home than usual. They have been working *from* home, studying *from* home, and even socializing *from* home. As a result, some have been struggling with feelings *of* isolation and boredom. However, there are many activities that can be done *at* home *to* help combat these feelings. *For* example, people can exercise *at* home, cook meals *at* home, read books *at* home, *or* watch movies *at* home. Additionally, people can connect *with* friends and family through video calls *or* social media platforms. *Despite* the challenges *of* the pandemic, there are still many ways *to* stay engaged and connected *from* the comfort *of* one's own home.`
       ]
     },
     {
@@ -430,7 +495,25 @@ Place a checkmark *within* the box.`,
 The park is *near* her house.
 There is a deer *between* the two trees.
 There is a purple flower *among* the weeds.
-The garage is *opposite* the house.`
+The garage is *opposite* the house.`,
+
+        `*Among* all the applicants, Sarah was the most qualified for the job.
+The grocery store is located *near* my house.
+We walked *across* the bridge to get to the other side of the river.
+The path *along* the beach is perfect for a morning jog.
+The competition was *between* two strong candidates.`,
+
+        `John was hiding *behind* the door to scare his sister.
+I am heading *toward* the city center to meet my friends.
+The keys are somewhere *within* the house.
+*Among* the many options available, he chose the one that seemed most reasonable.
+The park is located *near* the city center, making it easily accessible.`,
+
+        `The river flows *along* the edge of the town, providing a picturesque view.
+The dividing line *between* the two countries was clearly marked on the map.
+She stood *behind* me in line, waiting for her turn to be served.
+The children ran *toward* the playground as soon as they saw it.
+The key to success lies *within* oneself; it cannot be found externally.`
       ]
     }
   ]

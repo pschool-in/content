@@ -29,18 +29,19 @@ All forms of the verb 'to become' are used as linking verbs.`
         `Neena *seems* to be very energetic today.
 The dish *smells* delicious.
 The dress you were wearing yesterday *looked* great on you.
-Divya and Meera *remained* best friends even after all the fights they have had in the past.
-The little boy *sounded* excited about the school trip.
-Geetha *is* the new marketing manager`,
+Divya and Meera *remained* best friends even after all the fights they have had in the past.`,
 
-        `I *am* the class teacher of VII B.
-Fathima and Hameeda *were* exhausted after cleaning every loft in the office.
-This book on women and society *seems* to be interesting.
+        `The little boy *sounded* excited about the school trip.
+Geetha *is* the new marketing manager
+I *am* the class teacher of VII B.
+Fathima and Hameeda *were* exhausted after cleaning every loft in the office.`,
+
+        `This book on women and society *seems* to be interesting.
 The tree *was* cut.
-The child *looks* happy.`,
+The child *looks* happy.
+Your brother *sounds* really cool.`,
 
-        `Your brother *sounds* really cool.
-Ben *is* the Vice Principal of a Girl's High School.
+        `Ben *is* the Vice Principal of a Girl's High School.
 The teacher *was* absent today.
 My parents *were* tired after the long journey.
 Kenny *seems* to be a great man.`,
@@ -334,27 +335,6 @@ Auxiliary verbs fall into three basic groups:
       }
     },
     {
-      id: 'fill-up-aux',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blanks with the most suitable option`
-      },
-      data: [
-        `*May (Can)* you have a long life! Sweetheart.
-Numair *could (may)* speak two languages when he was eight.
-You *should (would)* watch Kriti's latest movies.
-*Shall (Will)* we go on a long drive today?
-You *might (may)* want to try this recipe once you taste it.`,
-
-        `*Will (Should)* you, please stop gossiping about Abdu.
-He has lost your watch and he *dare (must)* not to tell you.
-I *used to (need to)* play cricket daily in the morning when I was ten.
-Liya *may (should)* go to the museum whenever she likes.
-You *ought to (dare to)* consult a Dentist.`
-      ]
-    },
-    {
       id: 'had-has',
       label: 'Has or Had',
       type: 'fillup',
@@ -380,7 +360,18 @@ Natalie *has* a sweet smile.`,
 Her grandparents *had* passed away a long time ago.
 William Shakespeare *has* written many plays.
 *Has* the baby fallen asleep?
-Renu *has* a purple dress.`
+Renu *has* a purple dress.`,
+
+        `He *has* a lot of experience in the field of finance.
+She *has* written three novels and a collection of short stories.
+The company *has* hired several new employees this month.
+Our team *has* won every game this season.`,
+
+        `She *had* a headache yesterday and stayed home from work.
+The train *had* already left the station by the time we arrived.
+He *had* finished his homework before his friends came over.
+The restaurant *had* run out of their most popular dish by the time we got there.
+She *had* been studying French for three years before she moved to France.`
       ]
     },
     {
@@ -409,7 +400,19 @@ The ducks *are* in the pond.`,
 Thunder *is* rumbling.
 People *are* jogging in the park nearby.
 Mike *is* coming back from New York.
-I *am* studying for a teaching eligibility exam.`
+I *am* studying for a teaching eligibility exam.`,
+
+        `I *am* a student at the university.
+She *is* an accomplished musician and composer.
+They *are* planning a trip to Europe next summer.
+He *is* always early for his appointments.
+We *are* working on a new project at the office.`,
+
+        `The weather *is* beautiful today.
+You *are* doing a great job with your studies.
+The book *is* on the shelf next to the window.
+They *are* listening to music in the living room.
+She *is* wearing a red dress to the party tonight.`
       ]
     },
     {
@@ -465,7 +468,19 @@ Everyone *must* follow traffic rules to ensure the safety of all.`,
 Rahul *will* not like this for sure.
 Amrita said that she *would* be on leave the next day.
 *Should* everyone fill out the scholarship forms?
-Fathima *can* finish this in an hour.`
+Fathima *can* finish this in an hour.`,
+
+        `*May* you have a long life! Sweetheart.
+Numair *could* speak two languages when he was eight.
+You *should* watch Kriti's latest movies.
+*Shall* we go on a long drive today?
+You *might* want to try this recipe once you taste it.`,
+
+        `*Will* you, please stop gossiping about Abdu.
+He has lost your watch and he *dare* not to tell you.
+I *used to* play cricket daily in the morning when I was ten.
+Liya *may* go to the museum whenever she likes.
+You *ought to* consult a Dentist.`
       ]
     },
     {
@@ -587,36 +602,26 @@ I saw a woman *cross (having crossed, to cross, crossing)* the road.`,
 *Hit (Being hit, Having hit, Hitting)* by an arrow, the bird fell dead.
 I found him *drinking (drink, to drink, having drunk)*.
 The marriage *have been fixed (fixed, fixing, to fix)*, no change is possible now.
-You better *leave (to leave, leaving, having left) before Tarun arrives.`
-      ]
-    },
-    {
-      id: 'fill-up-participle-2',
-      label: 'Participles',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title: `Fill in the blanks using a suitable form of the participle of the verbs given in brackets.`
-      },
-      data: [
-        `Everybody worships the *risisng* (rise) idol Niki.
-I saw the storm *approaching* (approach).
-The sun *having risen* (rise), the birds began to chirp in joy.
-*Hearing* (hear) a noise, I turned around.
-*Placing* (Place) the books on the table, Jake ran away.
-*Considering* (consider) the facts, he recieved scant justice.`,
+You better *leave (to leave, leaving, having left) before Tarun arrives.`,
 
-        `A *broken* (break) glass cannot hold water.
-The rain came *pouring* (pour) down.
-*Hit* (Hit) by an arrow in the chest, the bird fell down dead.
-*Having elected* (elect) him President, the people gave him their loyal support.
-*Having seen* (See) the film once, I do not want to see it again.
-*Having lost* (Lose) my book, I reported the matter to the teacher.`,
+        `Everybody worships the *risisng (rise)*  idol Niki.
+I saw the storm *approaching (approach)* .
+The sun *having risen (rise)* , the birds began to chirp in joy.
+*Hearing (Hear)*  a noise, I turned around.
+*Placing (Place)*  the books on the table, Jake ran away.
+*Considering (consider)*  the facts, he recieved scant justice.`,
 
-        `*Seeing* (See) the Principal, the students ran away. .
-*Having worked* (Work) hard, my sister got good marks.
-*Starving* (Starve) is better than *begging*(beg).
-*Reaching* (Reach) home, I asked my mother to make tea.`
+        `A *broken (break)*  glass cannot hold water.
+The rain came *pouring (pour)*  down.
+*Hit (Hiting)*  by an arrow in the chest, the bird fell down dead.
+*Having elected (elect)*  him President, the people gave him their loyal support.
+*Having seen (See)*  the film once, I do not want to see it again.
+*Having lost (Lose)*  my book, I reported the matter to the teacher.`,
+
+        `*Seeing See)* the Principal, the students ran away. .
+*Having worked (Work)*  hard, my sister got good marks.
+*Starving (Starve)*  is better than *begging*(beg).
+*Reaching (Reach)*  home, I asked my mother to make tea.`
       ]
     },
     {

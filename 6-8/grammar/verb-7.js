@@ -50,6 +50,18 @@ I *am* going to meet my granny today.
 India *is* a secular country.
 The children *are* studying for their exams.`,
 
+        `She *is* studying for her exam.
+I *am* feeling tired after a long day at work.
+They *are* planning a trip to Europe.
+He *is* the CEO of the company.
+We *are* going to the park this afternoon.`,
+
+        `The sky *is* blue on a clear day.
+You *are* my best friend.
+The flowers *are* blooming in the garden.
+I *am* not sure what to wear to the party.
+The children *are* playing in the yard.`,
+
         `The boy *is* very mischievous.
 I *am* feeling very sleepy.
 The dog *is* barking at the stranger.
@@ -78,6 +90,18 @@ All the members of the committee *have* arrived now.
 *Have* you seen my new scooter?
 Raj *had* to go back home.
 My sister *has* her final exam tomorrow.`,
+
+        `She *has* a lot of experience in her field.
+They *have* been friends since childhood.
+He *had* breakfast before leaving for work.
+We *have* a meeting at 2 p.m. today.
+The cat *has* caught a mouse.`,
+
+        `I *have* never been to Paris before.
+She *had* a headache last night.
+They *have* lived in this city for five years.
+He *has* forgotten his password again.
+We *had* a great time at the party last weekend.`,
 
         `I *have* a Husky.
 They do not *have* a bicycle.
@@ -349,7 +373,11 @@ Why is no one opening the door? Did you ring the bell? Yes, I *rang* it several 
         `I asked my sister to wake me at 6 a.m. But she did not *wake* me. I *woke* up at 8 a.m. and missed my bus. If she had *woken* me up I would have reached the school on time.
 I had cast my rod and was waiting for the fish to bite the bait. I reeled in the rod as soon as the fish *bit* on the bait. But in that short while the clever fish had already *bitten* off the bait from the hook and successfully escaped.`,
 
-        `The teacher suddenly asked me to speak in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.`
+        `The teacher suddenly asked me to speak in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.`,
+
+        `My mother asked me to water the plants in the garden while she was away. I *watered* the plants every day for a week until my mother returned. She was happy to see that the plants were healthy and thanked me for taking care of them. If I had not *watered* the plants, they would have withered away.`,
+
+        `The coach instructed the players, "Don't forget to wear your team uniform for the game." However, John *forgot* to bring his jersey to the match. If it wasn't for his teammate, Jake, who lent him an extra uniform, he would not have been able to play.`
       ]
     },
     {
@@ -396,6 +424,30 @@ Javed loved his new bike.`,
 
           `Jack came home in the evening.
 The car stopped suddenly, in the middle of the road.`
+        ],
+        [
+          `She read the book in one sitting. 
+  They baked a cake for the party.
+  He painted the fence white. `,
+
+          `The sun rose early this morning. 
+  The flowers bloomed in the garden. `
+        ],
+        [
+          `I opened the door to let the cat in. 
+  She played the piano beautifully.`,
+
+          `The children laughed and played in the park.
+  The dog barked loudly at the mailman. 
+The leaves fell from the trees in the autumn breeze. `
+        ],
+        [
+          `I am eating an apple. 
+  She painted the entire room. 
+  They bought a new car last week. `,
+
+          `The sun is shining brightly. 
+  They are running in the park. `
         ]
       ]
     },
@@ -429,7 +481,13 @@ The friends *drove (drive)* back from the trip.`,
 They *played (plays)* till late evening.
 Can you *swim (swam)* well?
 Cheetahs *run (ran)* very fast.
-My brother and I *talk (talks)* every day.`
+My brother and I *talk (talks)* every day.`,
+
+        `I *run (ran)* five miles every morning to stay in shape.
+They *studied (study)* for their exams all day yesterday.
+She *plays (play)* the piano beautifully.
+He *was watching (watch)* his favorite TV show when I called.
+We *are planning (plan)* to go on vacation next month.`
       ]
     },
     {
@@ -762,6 +820,26 @@ I am <b>used to</b> a life full of struggle.`
           questions: [
             {
               qText:
+                'Which modal verb indicates that something is necessary or required?',
+              options: 'must, ought, can, shall'
+            },
+            {
+              qText:
+                'Which of the following is a correct use of the modal verb "can"?',
+              options:
+                'They can`t come to the party tonight, I can like to play soccer, She can sings beautifully.'
+            },
+            {
+              qText:
+                'Which modal verb is used to express possibility or likelihood in the present or future?',
+              options: 'will, could, ought, may'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText:
                 'The dog _____ have eaten the food! I saw it near the food a while ago.',
               options: 'must, ought, can, shall'
             },
@@ -797,6 +875,18 @@ Sheldon *must (ought to)* study more if he wants to pass the test.
 My parents *shall (ought to)* arrive soon.
 I *could (must)* be late as I have a lot on my plate.`,
 
+        `She *could (should)* finish her project by the end of the week.
+We *must(should)* leave now if we want to catch the train.
+He *may (might)* be able to come to the party later tonight.
+They *will (would)* have to work on the weekend to meet the deadline.
+You *ought to (might)* be more careful when crossing the street.`,
+
+        `I am not sure if I *can (could)* come to the party tonight.
+They *might (may)* have already left for the airport by now.
+You *should (must)* take an umbrella with you, it might rain later.
+She *must (should)* finish her project by tomorrow.
+We *ought to (will)* start preparing for the exam as soon as possible.`,
+
         `Leonard *can (may)* easily solve the problem.
 It *might (should)* rain tomorrow.
 *May (might)* all your wishes come true in life.
@@ -817,14 +907,27 @@ I *could (might)* not be any happier.`
         `Everybody *must* fulfill his or her duties towards the country.
 The computer is not working. The supervisor *might* call an engineer, today.
 The work is completed. *May* I leave now?
-Sugandha sings so beautifully. She *must* have taken classes of music.
 I am not the right person to give you permission to go. You *may* ask the Manager.`,
 
         `Vibha is not home today. She *must* have gone for dance practice.
 *May* I request you show me this file?
 It is raining cats and dogs. This *can* cause floods in many areas.
+*Could* I, please, make a call from your phone?`,
+
+        `You *should* take your umbrella with you, it looks like it's going to rain.
+Students *must* not bring their phones to the exam.
+She *might* stay up late to finish her project tonight.
+I *might* have left my phone at home.`,
+
+        `You *must* take your medicine three times a day.
+He *might* be at the meeting, but I'm not sure.
+They *have* to clean up the kitchen before they go to bed.
+I *could* have lost my phone somewhere in the house.`,
+
+        `Sugandha sings so beautifully. She *must* have taken classes of music.
 He is not in his cabin. You *can* check if he is there in the lobby.
-*Could* I, please, make a call from your phone?`
+He *has* to be at work by 9 AM every day.
+She *can* leave work early if she finishes her tasks.`
       ]
     },
     {
@@ -840,15 +943,28 @@ He is not in his cabin. You *can* check if he is there in the lobby.
       data: [
         `I *would* like to go boating as well as diving.
 How *dare* he enter my room?
-Shipra applies sunscreen lotion every day so that she *may* not get her skin tanned.
 We focus on our studies so that we *may* not fail in our examinations.
 Let whatever hardships may come our way. One day, we *will* overcome.`,
 
         `His goggles are kept in the cupboard, but nobody *dares* to touch them.
-He *would* never allow anybody to wear them.
 Sheveta is a little snobbish and naughty girl. We *need* not prank at her. She will get angry.
 Don't challenge me. If I try, she *shall* come and talk to me politely.
-*Would* you like to try your hand at chess, madam?`
+*Would* you like to try your hand at chess, madam?`,
+
+        `You *should* come to the party with me.
+She *will* run five miles every day to prepare for the marathon.
+We *have* to finish this project by the end of the week.
+You *must* not park your car in this area.`,
+
+        `They *need* to take extra precautions when working with dangerous chemicals.
+Shipra applies sunscreen lotion every day so that she *may* not get her skin tanned.
+He *would* never allow anybody to wear them.
+You *must* not use your cell phone while driving.`,
+
+        `She *would* like to visit the museum this weekend.
+We *will* have to finish this project before the deadline.
+You *need* to submit your application by tomorrow.
+They *should* not smoke in this area.`
       ]
     }
   ]

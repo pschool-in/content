@@ -366,7 +366,9 @@ We *traveled* to Europe last summer.`,
 We *visited* the museum last week.
 He *completed* his project before the deadline.
 She *received* an award for her performance in the play.
-They *went* on a road trip during the summer vacation.``We *were watching* FIFA all night. 
+They *went* on a road trip during the summer vacation.`,
+
+        `We *were watching* FIFA all night. 
 I *went* out with my cousins. 
 Mary *was walking* towards the food truck. 
 The bus *left* a few minutes back. 

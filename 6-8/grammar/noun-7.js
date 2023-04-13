@@ -38,42 +38,34 @@ Gangtok is the capital of *Sikkim (sikkim)*.`,
 A *team (group)* of players was playing cricket.
 *Cherries (Cherry's)* are red in color.
 *Eggs (Egg)* were broken by Rahul.
-London is the home for the *London Eye (london eye)*.`
+London is the home for the *London Eye (london eye)*.`,
+
+        `I have a *bunch (cluster)* of key on the mat.
+Our *team (group)* lost the match.
+*Dhoni (dhoni)* is a famous cricketer.
+A *fish (Fish)* can stay alive just in water.
+The *theives (thiefs)* ran away with all the ornaments.`,
+
+        `A *mouse (mice)* scurried across the kitchen floor.
+An apple a day keeps the *doctor (Doctor)* away.
+The *children (child)* are laughing and playing together.
+*Apples (Apple)* are a good source of fiber and vitamins.
+My sister *bought (brings)* a new dress for the party.`,
+
+        `A *child (children)* is playing in the park alone.
+The *book (books)* on the table is mine.
+My car *needs (need)* an oil change.
+She *gave (gives)* me a beautiful flower as a gift.
+The concert was packed with enthusiastic *fans (fan)*.`
       ]
-    },
-    {
-      id: 'classify-sentence',
-      label: 'Countable vs Uncountable',
-      type: 'classifySentence',
-      data: {
-        title:
-          'Identify whether the underlined nouns are countable or uncountable.',
-        types: [
-          {
-            name: 'Countable',
-            text: `My aunt is having a *car* sale tomorrow.
-Many *trees* were cut down last year.
-*Students* work hard for their exams.
-Vatsal loves to eat *sweets*.
-He bought tasty *mangoes* from the market.
-There are several ways to solve a *question*.
-My mom loves to chop *vegetables*.`
-          },
-          {
-            name: 'Uncountable',
-            text: `Parth bought *rice and pulse* from a supermarket.
-Goat *milk* is very healthy.
-*Water* is a renewable resource.`
-          }
-        ]
-      }
     },
     {
       type: 'selectWord',
       label: 'Identify Abstract Noun',
       id: 'abstractnoun',
       commonData: {
-        title: 'Identify the abstract noun from the following sentences.'
+        title: 'Identify the abstract noun from the following sentences.',
+        multiSelect: true
       },
       data: [
         `His wife resented his *devotion* to his job.
@@ -83,13 +75,28 @@ The bad *weather* detained us for several hours.
 I finally overcame the *difficulty* of meeting people.`,
 
         `The doctor's *dilemma* was whether he should tell the patient the *truth*.
-We must respect the *dignity* of the high court.
+We must respect the *dignity* of the High court.
 She spoke with *confidence*.
-We were frightened by her ominous *prediction*.`,
+We were frightened by her ominous *prediction*
+That was a splendid *performance*.`,
 
-        `That was a splendid *performance*.
-His *happiness* knew no bounds.
-There is some *misunderstanding* between the two brothers.`
+        `His *happiness* knew no bounds.
+There is some *misunderstanding* between the two brothers.
+*Freedom* is a fundamental right that should be enjoyed by all human beings.
+*Justice* should be served to those who have been wronged.
+The *beauty* of nature can inspire a sense of *awe* and *wonder* in all of us.`,
+
+        `*Happiness* is often elusive, but can be found in the simplest of things.
+*Wisdom* is gained through experience and reflection.
+*Courage* is the willingness to face *fear* and *danger* in order to acheive a goal.
+*Patience* is a virtue that will serve you well in life.
+She felt a deep sense of *joy* when she saw her children playing *happily*.`,
+
+        `The *beauty* of the sunset took my breath away.
+The *power* of music can bring people together and lift their *spirits*.
+*Honesty* is the best policy.
+*Education* is the key to unlocking opportunities and improving one's life.
+The concept of *time* is difficult to grasp, as it is constantly changing.`
       ]
     },
     {
@@ -128,6 +135,22 @@ I met some nice *people* when I was walking along the beach.`,
 
           `A rise in *oil* prices is inevitable since there is more and more world demand for energy.
 Dehydrated babies must drink a lot of *water*.`
+        ],
+        [
+          `My aunt is having a *car* sale tomorrow.
+Many *trees* were cut down last year.
+*Students* work hard for their exams.
+Vatsal loves to eat *sweets*.`,
+
+          `Parth bought *rice and pulse* from a supermarket.`
+        ],
+        [
+          `He bought tasty *mangoes* from the market.
+There are several ways to solve a *question*.
+My mom loves to chop *vegetables*.`,
+
+          `Goat *milk* is very healthy.
+*Water* is a renewable resource.`
         ]
       ]
     },
@@ -255,7 +278,13 @@ The entire medical *staff* got infected by the Coronavirus.`,
 The *troupe* performed the Macbeth drama.
 The Andaman and Nicobar Islands comprise a *group* of 573 islands.
 The *jury* passed a unanimous decision.
-A *cloud* of dust swirled up during the storm.`
+A *cloud* of dust swirled up during the storm.`,
+
+        `The *herd* of cattle was grazing peacefully in the feild.
+The *team* of scientists worked tirelessly to find a cure for the disease.
+The *flock* of birds flew in a formation across the sky.
+The *swarm* of bees buzzed around the hive.
+The *group* of tourists took a guided tour of the ancient ruins.`
       ]
     },
     {
@@ -279,7 +308,19 @@ A number of lions | PRIDE`,
 A group of bacteria | CULTURE
 A group of penguins | COLONY
 A group of fish | SCHOOL
-A number of cards | DECK`
+A number of cards | DECK`,
+
+        `A large group of soldiers| ARMY
+A group of cow or sheep| HERD
+A large group of bees or mosquitoes | SWARM
+A group of people who are appointed to make decisions or take action on a particular issue| COMMITTEE
+A group of employees| STAFF `,
+
+        `A group of students who are taught together| CLASS
+A group of dogs or wolves| PACK
+A group of ships or vehicles| FLEET
+A large group of people gathered together in one place| CROWD
+A group of criminals| GANG`
       ]
     },
     {
@@ -374,7 +415,19 @@ aunt | UNCLE`,
 actress | ACTOR
 heroine | HERO
 bride | GROOM
-headmistress | HEADMASTER`
+headmistress | HEADMASTER`,
+
+        `princess| PRINCE
+wife| HUSBAND
+sister| BROTHER
+daughter| SON
+queen| KING`,
+
+        `madam| SIR
+lady| GENTLEMEN
+mare| STALLION
+ewe| RAM
+cow| BULL`
       ]
     },
     {
@@ -488,26 +541,6 @@ Only white <b>socks</b> are allowed on Saturday in school.<br>`
       }
     },
     {
-      id: 'fill-up-plural',
-      label: 'Plurals',
-      type: 'fillup',
-      lockAfter: 1,
-      commonData: {
-        title: `Fill in the blanks correctly using plural forms of words given in the bracket.`,
-        noOptions: true
-      },
-      data: [
-        `The *maid-servants* washed the dishes in the house. (maid-servant)
-These *cities* are famous for tulips. (city)
-The man-servant is picking *flowers* from the pot. (flower)
-The passer-by was attacked by armed *men*. (man)`,
-
-        `The *geese* killed the *mice* in the field. (goose, mouse)
-These *pizzas* were prepared in the hotel. (pizza)
-The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)`
-      ]
-    },
-    {
       id: 'fill-up-singularplural',
       label: 'Fill in the blanks',
       type: 'fillup',
@@ -527,7 +560,24 @@ Some kings had many *wives*. (wife)`,
 He is wearing a nice pair of *jeans*. (jeans)
 Sana got three *dresses* as her birthday present. (dress)
 There are five *boxes* filled with sweets. (box)
-This year John topped *Physics* exam. (physics)`
+This year John topped the *Physics* exam. (physics)`,
+
+        `The *maid-servant* washed the dishes in the house. (maid-servant)
+These *cities* are famous for tulips. (city)
+The man-servant is picking *flowers* from the pot. (flower)
+The passer-by was attacked by armed *men*. (man)`,
+
+        `The *children* were playing in the park for hours. (child)
+She received a *gift* from her parents on her birthday. (gift)
+The *books* on the shelf were all in alphabetical order. (book)
+I need to buy some new *shoes* for the upcoming event. (shoe)
+The *cars* in the parking lot were all different colors and models. (car)`,
+
+        `The goose killed the *mice* in the field. (mouse)
+These *pizzas* were prepared in the hotel. (pizza)
+The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)
+The *teachers* at the school were all highly qualified. (teacher)
+The *trees* in the park were all different shapes and sizes. (tree)`
       ]
     },
     {
@@ -539,6 +589,33 @@ This year John topped *Physics* exam. (physics)`
         types: ['Correct', 'Incorrect']
       },
       data: [
+        [
+          `The men are coming.
+The cats ate the fish.
+I saw a deer in the park.`,
+
+          `The man are coming.
+The cat's ate the fishes.
+I saw a deers in the park.`
+        ],
+        [
+          `I need to buy some furniture for my house.
+The children are playing in the park.
+The people in the room were talking loudly.`,
+
+          `I need to buy some furnitures for my house.
+The childrens are playing in the park.
+The peoples in the room were all talking loudly.`
+        ],
+        [
+          `The cars tires were all flat.
+The food at the restaurent were deliciuos.
+The dogs barking woke up all the neighbors.`,
+
+          `The car's tires were all flat.
+The foods at the restaurent were deliciuos.
+The dog's barking woke up all the neighbors.`
+        ],
         [
           `The girl looks very much like her mother. 
 The mistress gave her maidservant a present. 
@@ -594,6 +671,36 @@ Ms. Lee is our headmaster.`
         types: ['Possessive', 'Nominative', 'Objective']
       },
       data: [
+        [
+          `John's car is in the driveway.
+The teacher's lesson was informative`,
+
+          `John drove the car to work.
+The teacher explained the lesson clearly.`,
+
+          `The car hit a pothole on the way to work.
+The students understood the lesson.`
+        ],
+        [
+          `The cat's food bowl is empty.
+My sister's phone is ringing.`,
+
+          `My sister answered the phone.
+The cat meowed for more food.`,
+
+          `My sister hung up the phone.
+I filled the cat's food bowl.`
+        ],
+        [
+          `The company's profits are up this year.
+Her father's car is very fast.`,
+
+          `The company announced the profits at the meeting.
+He drove his father,s car to the store.`,
+
+          `The employees celebrated the profits.
+He parked his father's car in the parking lot.`
+        ],
         [
           `*Pari's* book is kept on the bed.
 The *farmer's* crops yielded a good profit.`,

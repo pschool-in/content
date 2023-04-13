@@ -800,14 +800,24 @@ Meena's hair dye turned the water *pink*. `,
         `After our disagreement on the first day of school, James became my friend* for life. 
 We painted the ceiling *blue*. 
 You are making me *sad*. 
-Preethi is a good *dancer*. 
-Dina named her parakeet *Odi*.`,
+Preethi is a good *dancer*. `,
 
-        `The gift Kareena gave her brother was a *hamster*. 
+        `Dina named her parakeet *Odi*.
+The gift Kareena gave her brother was a *hamster*. 
 Buck grew up in Oman and became an expert *horse rider* before reaching his 18th birthday. 
-I once considered Neena my fiercest *enemy*. 
-After reviewing the details of the case, the court pronounced the boy *not guilty*. 
-By the second month of the drought, the river had run *dry*.`
+I once considered Neena my fiercest *enemy*.`,
+
+        `After reviewing the details of the case, the court pronounced the boy *not guilty*. 
+By the second month of the drought, the river had run *dry*.
+She considers him *her best friend*. 
+The doctor declared her *healthy*. 
+He seemed *nervous* before the interview.`,
+
+        `We elected her *president of the club*. 
+The teacher found the essay *well-written*. 
+I think the party will be *a success*. 
+She made him feel *welcome*. 
+The chef deemed the dish *too salty*.`
       ]
     },
     {
@@ -906,13 +916,14 @@ An adverb phrase functions as an adverb in a sentence. For example: "He drove th
         `The director is the person *to whom you should write*.
 Marina did not make the same mistakes *that her sister did*.
 *If you want the minister to inaugurate the function*, you must plan early.
-I know the student *who stood first*.
-*Before I leave for London*, I want to meet you.
-*If I had enough money*, I would have bought that house.`,
+I know the student *who stood first*.`,
 
-        `*Whenever you may settle down*, do not forget your roots.
-I was not able to attend the function *because I was ill*.
-He always acts as *if he knows everything*.
+        `*Before I leave for London*, I want to meet you.
+*If I had enough money*, I would have bought that house.
+*Whenever you may settle down*, do not forget your roots.
+I was not able to attend the function *because I was ill*.`,
+
+        `He always acts as *if he knows everything*.
 *What I need now* is a cup of coffee.
 No one knew that *he was planning to resign*.
 *That he is the only boy in the group* does not qualify him to be the leader.`,
@@ -1443,12 +1454,6 @@ waiting room; washing machine; web page`
         title: `Fill in the blanks in the following sentences with suitable Punctuations.`
       },
       data: [
-        `One*- (—)*fourth of the students in the class have parents from another country.
-My work timings are from 8*— (-)*5.
-The trek will be organised from May 12*— (-)*15.
-We will have a get*- (—)*together next weekend to celebrate your birthday.
-The game started out as an organized game of tag, but it ended up a free*- (—)*for*- (—)*all.`,
-
         `We know one thing for sure *— (-)* something unexpected is coming our way.
 Many children *— (-)* living in orphanages *— (-)* do not know what love feels like.
 She wore a charcoal*- (—)*gray rain jacket.
@@ -1462,7 +1467,14 @@ A lot has changed since last year *— (-)* probably for the better.`,
         `Teresa preferred the red*- (-)*embroidered lace dress.
 The Chennai*— (-)*Mumbai flight will leave at 10:00 a.m.
 Dinesh *— (-)* the boy from Thanjavur *— (-)* has arrived.
-The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`
+The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`,
+
+        `One*- (—)*fourth of the students in the class have parents from another country.
+My work timings are from 8*— (-)*5.
+The trek will be organised from May 12*— (-)*15.`,
+
+        `We will have a get*- (—)*together next weekend to celebrate your birthday.
+The game started out as an organized game of tag, but it ended up a free*- (—)*for*- (—)*all.`
       ]
     },
     {
@@ -1481,13 +1493,14 @@ The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine 
         `check-, in, ing
 clean- cut, er
 editor-in-, chief, charge
-empty-, handed, space
-far-, fetched, away
-know-, how, where`,
+empty-, handed, space`,
 
-        ` life-, size, like
-merry-go-, round, around
-long-, distance, life
+        `far-, fetched, away
+know-, how, where
+life-, size, like
+merry-go-, round, around`,
+
+        `long-, distance, life
 long-, term, time
 one-, sided, time
 one-, dimensional, ce`,
@@ -1495,8 +1508,9 @@ one-, dimensional, ce`,
         `over-the-, counter, horizon
 run-, in, ning
 strong-, arm, chair
-toss-, up, coin
-up-to-, date, me
+toss-, up, coin`,
+
+        `up-to-, date, me
 well-, being, done
 word-of-, mouth, devil`
       ]
