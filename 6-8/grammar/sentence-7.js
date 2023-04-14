@@ -899,7 +899,22 @@ g) for imaginary conditions.`,
           `A phrase, on the other hand, is a group of words that does not contain a subject and a predicate, and it does not express a complete thought. Phrases can function as nouns, adjectives, or adverbs in a sentence.
 A noun phrase functions as a noun in a sentence. For example: "The big red ball."
 An adjective phrase functions as an adjective in a sentence. For example: "The girl with the curly hair."
-An adverb phrase functions as an adverb in a sentence. For example: "He drove the car very slowly."`
+An adverb phrase functions as an adverb in a sentence. For example: "He drove the car very slowly."`,
+          {
+            type: 'table',
+            title: ['Phrases', 'Clauses'],
+            text: [
+              `A phrase does not have a subject and predicate.
+A phrase is not complete, cannot make sense or convey meaning if it stands on its own.
+There are five types of phrases namely noun phrase, adverb phrase, adjective phrase and prepositional phrase.
+Example: There is an unidentified vehicle in front of our house.`,
+
+              `A clause has a subject and a predicate.
+In some cases, a clause can look complete, convey meaning and make sense when separated from the sentence.
+There are two types of clauses namely independent clause and dependent clause.
+Example: I am sick, so I am going to see the doctor.`
+            ]
+          }
         ]
       }
     },
