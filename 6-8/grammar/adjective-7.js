@@ -89,6 +89,36 @@ Participial adjectives are formed from the past participle (-ed) or present part
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-adj',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is not a kind of adjective?`,
+            options: `Adjective of Color, Adjective of Quantity, Adjective of Quality, Adjective of Number `
+          },
+          {
+            qText: `Which type of adjective is used to compare two things?`,
+            options: `Comparative, Positive, Superlative`
+          },
+          {
+            qText: `In the phrase "coffee mug", which word is acting as an adjective?`,
+            options: `Coffee, Mug, None of the above`
+          },
+          {
+            qText: `Which of the following is a participial adjective?`,
+            options: `Exciting, Quick, Beautiful, All of the above`
+          },
+          {
+            qText: `Which of the following adjectives cannot be used attributively?`,
+            options: `Afraid, Well, Intelligent, Beautiful`
+          }
+        ]
+      }
+    },
+    {
       type: 'selectWord',
       label: 'Identify - Adjectives',
       id: 'select-word-adj',

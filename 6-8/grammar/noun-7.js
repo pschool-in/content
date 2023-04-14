@@ -350,6 +350,28 @@ Common man	=> Common person`
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-n',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a collective noun?`,
+            options: `A noun that refers to a group of people or things, A noun that describes a concept or idea, A noun that refers to a specific individual or organization`
+          },
+          {
+            qText: `What is a countable noun?`,
+            options: `A noun that can be counted with numbers, A noun that cannot be counted, A noun that refers to a group of people or things, A noun that refers to a specific individual or organization`
+          },
+          {
+            qText: `In the phrase "coffee mug", which word is acting as an adjective?`,
+            options: `Coffee, Mug, None of the above`
+          }
+        ]
+      }
+    },
+    {
       id: 'masculine-feminine',
       label: 'Match the following',
       type: 'match',
@@ -536,6 +558,36 @@ Only white <b>socks</b> are allowed on Saturday in school.<br>`
             text: `<b>Examples</b> - <b>Mathematics</b> is a tough subject.<br>
 <b>Politics</b> is a gloomy subject.<br>
 <b>Economics</b> is a subject that deals with the operations of the financial system.<br>`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-noun',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is the rule for making plural nouns that end in -ch, -s, -sh, -ss, and -x?`,
+            options: `Add -es to the noun, Add -s to the noun, Add -ies to the noun, Add -ves to the noun `
+          },
+          {
+            qText: `What is the rule for making plural nouns that end in -f or -fe?`,
+            options: `Add -ves to the noun, Add -es to the noun, Add -s to the noun, Add -ies to the noun`
+          },
+          {
+            qText: `What is the rule for making plural nouns that end in -y and have a consonant before it?`,
+            options: `Add -ies to the noun, Change the vowels inside the noun, The singular and plural forms are the same`
+          },
+          {
+            qText: `What is the rule for making plural nouns that consist of 2 or more words?`,
+            options: `Add -s to the principal word of the phrase, Add -s to the entire phrase, Add -es to the last word of the phrase,  Change the vowels inside the phrase`
+          },
+          {
+            qText: `Which of the following is an example of a noun that does not differ in its singular and plural form?`,
+            options: `Sheep, Mouse, Belief, Valley`
           }
         ]
       }

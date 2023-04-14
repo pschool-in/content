@@ -131,6 +131,39 @@ export default {
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-art',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is not a type of article?`,
+            options: `All of the above are types of articles, A, An, The `
+          },
+          {
+            qText: `Which of the following is a definite article?`,
+            options: `The, A, An, None of the above.`
+          },
+          {
+            qText: `When is 'the' used before the name of rivers, seas, canals, oceans, valleys, deserts, and forests?`,
+            options: `Before the name of rivers/seas/canals/oceans/valleys/deserts/forests,
+            Before the name of a single mountain or hill,
+            Before the name of a musical instrument,
+            Before a proper noun/common noun/abstract noun/material noun to make them common nouns`
+          },
+          {
+            qText: `When do we use 'an' instead of 'a'?`,
+            options: `Before words beginning with a vowel but have a sound of a consonant, Before words beginning with consonants, Before words beginning with vowels, All of the above`
+          },
+          {
+            qText: `When should we omit the article?`,
+            options: `Before proper nouns, Before subjects and arts, When we use abstract nouns in a general sense, *All of the above`
+          }
+        ]
+      }
+    },
+    {
       id: 'a-an-the',
       label: 'Fill in the blanks',
       type: 'fillup',
@@ -351,6 +384,36 @@ The grammar rules for determiners are:
 2. They come before any modifiers (e.g. adjectives) used before the noun.
 3. They are required before a singular noun.
 4. They are optional before plural nouns.`
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-det',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is a specific determiner?`,
+            options: `this, a, any, another`
+          },
+          {
+            qText: `Which determiner is used to introduce a singular noun when we are talking about things in general?`,
+            options: `a, an, the, any`
+          },
+          {
+            qText: `Which determiner is used to talk about an additional person or thing?`,
+            options: `another, other, any, which`
+          },
+          {
+            qText: `Which type of determiner is used to identify or point to a particular person, event, or object?`,
+            options: `demonstratives, articles, quantifiers, possessive adjectives`
+          },
+          {
+            qText: `Which type of determiner is used to refer to a group or individual members of the group?`,
+            options: `distributives, demonstratives, articles, quantifiers`
+          }
         ]
       }
     },

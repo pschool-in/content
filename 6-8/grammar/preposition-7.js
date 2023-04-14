@@ -22,6 +22,32 @@ export default {
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-pre',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following prepositions is NOT a preposition of time?`,
+            options: `to, on, since, during `
+          },
+          {
+            qText: `Which preposition is used to indicate movement across something?`,
+            options: `through, in, behind, for`
+          },
+          {
+            qText: `Which preposition is used to indicate a purpose or source?`,
+            options: `for, on, under, above`
+          },
+          {
+            qText: `Which preposition is used to indicate a duration of time?`,
+            options: `until, in, at, behind`
+          }
+        ]
+      }
+    },
+    {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
       id: 'drag-drop-preposition',
@@ -291,6 +317,32 @@ Look at the lady in the blue dress. (modifying the noun lady)
 Please take the pen next to the telephone. (modifying the noun pen)
 The poor man sat beside the fence. (Sat where? Beside the fence.)
 I go for dance classes after school. (Go when? After school.)`
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-prepo',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a preposition?`,
+            options: `A word that shows the relationship between nouns, pronouns or phrases with other words in a sentence, A word that modifies verbs in a sentence, A word that stands alone in a sentence`
+          },
+          {
+            qText: `What is a stranded preposition?`,
+            options: `A preposition that is not followed by a noun, A preposition that stands alone in a sentence, A preposition that comes before a noun`
+          },
+          {
+            qText: `What is a collocation?`,
+            options: `A combination of nouns - adjectives and verbs used with specific prepositions, A preposition that comes at the end of a sentence, A preposition that modifies adverbs`
+          },
+          {
+            qText: `What function can a prepositional phrase have in a sentence?`,
+            options: `Modify nouns and pronouns, Modify verbs, *All of the above`
+          }
         ]
       }
     },
