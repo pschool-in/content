@@ -25,6 +25,28 @@ e) The Interrogative, the Imperative and the Exclamatory sentences are put as st
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-speech',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is a rule of Direct Speech?`,
+            options: `The Reported Speech is put within Inverted Commas (“ ”), The Reported Speech is not separated by a comma from the Reporting Verb, Inverted Commas are not used in Reported Speech. `
+          },
+          {
+            qText: `Which of the following is a rule of Indirect Speech?`,
+            options: `The comma separating the Reporting Verb from the Reported Speech is always used, Inverted Commas (“ ”) are used in Reported Speech, The Tense of the Reporting Verb is always changed`
+          },
+          {
+            qText: `What is the rule of changing tense while converting Direct Speech into Indirect Speech?`,
+            options: `The rule of Sequence of Tenses is followed, The tense of the verb in the Reported Speech is always changed, The tense of the Reporting Verb is always changed`
+          }
+        ]
+      }
+    },
+    {
       id: 'direct-indirect',
       label: 'Direct or Indirect',
       type: 'classifySentence',
@@ -199,6 +221,32 @@ Example - A mistake was made by me.
 4. Some vague and indefinite subjects like 'everyone', 'they', 'people', 'someone', 'somebody', 'everybody', 'anybody', etc. are dropped if they are the subjects of the active voice. If so, the preposition 'by' is also not used.
 5. The Tense of the Verb does not change.
 The following four types of sentences cannot be changed into passive voice: Present Perfect Continuous, Past Perfect Continuous, Future Continuous and Future Perfect Continuous.`
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-voice',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is the Active Voice?`,
+            options: `When the subject of a verb acts, When the object of a verb acts, When the object of a verb becomes the subject `
+          },
+          {
+            qText: `What is the Passive Voice?`,
+            options: `When the object of the active voice becomes the subject, When the object of a verb acts, When the subject of a verb acts`
+          },
+          {
+            qText: `What is the rule for changing a verb from the Active Voice to the Passive Voice?`,
+            options: `The object of the active verb is made the subject of the passive verb, The subject of the active verb is made the subject of the passive verb, The object of the active verb is made the object of some preposition`
+          },
+          {
+            qText: `What form of the verb 'to be' is used before the past participle form of the finite verb in the passive voice?`,
+            options: `has been, will be, could be`
+          }
         ]
       }
     },
@@ -796,6 +844,36 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-affix',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is an affix in English grammar?`,
+            options: `A word element used to alter the meaning or form of a word, A grammatical construction that changes the tense of a verb, A type of adverb used to modify a verb`
+          },
+          {
+            qText: `What are the two forms of affixes in English?`,
+            options: `Prefixes and suffixes, Adjectives and adverbs, Nouns and verbs, Conjunctions and prepositions`
+          },
+          {
+            qText: `How are most comparative and superlative degrees formed?`,
+            options: `By adding -er and -est, By adding -ed and -ing, By adding -ly, By adding -able and -ible`
+          },
+          {
+            qText: `What happens to adjectives ending in -y when forming comparative and superlative degrees?`,
+            options: `The -y is dropped and -er/-est is added, The -y is doubled, The -y is changed to -ly`
+          },
+          {
+            qText: `What happens to some adjectives with just one syllable when forming comparative and superlative degrees?`,
+            options: `The last consonant is doubled, The last vowel is doubled, The adjective is shortened, The adjective is lengthened`
+          }
+        ]
+      }
+    },
+    {
       id: 'fill-up-comparisson',
       label: 'Fill in the blanks',
       type: 'fillup',
@@ -992,6 +1070,28 @@ somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`
           {
             type: 'html',
             text: `reali<b>s</b>e/reali<b>z</b>e, organi<b>s</b>e/organi<b>z</b>e, etc.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-brt-ame',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is the most noticeable difference between the pronunciation of British and American English?`,
+            options: `The way the letter "r" is pronounced, The way the letter "t" is pronounced, The way the letter "a" is pronounced, The way the letter "o" is pronounced`
+          },
+          {
+            qText: `Which of the following words is an American English equivalent of the British English word "lift"?`,
+            options: `elevator, pickup, truck, ride`
+          },
+          {
+            qText: `Which of the following spelling rules is followed in American English for most words ending in -re in British English?`,
+            options: `They are spelled with -er, They are spelled without the u, They are spelled with -ize, They are spelled with -our`
           }
         ]
       }

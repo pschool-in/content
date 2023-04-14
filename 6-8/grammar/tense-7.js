@@ -584,6 +584,36 @@ Two and two makes four.
 Our hen has given ten eggs.		`
         ]
       ]
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-tense',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following tenses is used to describe actions that are happening now?`,
+            options: `Present Continuous Tense, Simple Past Tense, Past Continuous Tense`
+          },
+          {
+            qText: `Which of the following tenses is used to describe actions that were happening at a specific time in the past?`,
+            options: `Past Continuous Tense, Simple Present Tense, Present Continuous Tense`
+          },
+          {
+            qText: `Which of the following tenses is used to describe actions that happened at an unspecified time in the past or that started in the past and continue into the present?`,
+            options: `Present Perfect Tense, Past Perfect Tense, Future Perfect Tense, Simple Past Tense`
+          },
+          {
+            qText: `Which of the following tenses is used to describe actions that will be completed at a specific time in the future?`,
+            options: `Future Perfect Tense, Future Continuous Tense, Present Perfect Tense, Simple Future Tense`
+          },
+          {
+            qText: `Which of the following tenses is used to describe actions that were completed before another action in the past?`,
+            options: ` Past Perfect Tense, Present Perfect Tense, Simple Past Tense, Past Continuous Tense`
+          }
+        ]
+      }
     }
   ]
 };
