@@ -18,6 +18,36 @@ All forms of the verb 'to become' are used as linking verbs.`
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-linking',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is a characteristic of linking verbs?`,
+            options: `They add more details to the subject, They are always in the present tense, They are always followed by an object`
+          },
+          {
+            qText: `Which of the following is an example of a linking verb?`,
+            options: `They seem tired after the long journey, She ran a marathon, He cooked dinner for his family, The dog barked loudly`
+          },
+          {
+            qText: `Which of the following verbs can be used as a linking verb?`,
+            options: `to be, to jump, to sing, to eat`
+          },
+          {
+            qText: `Which of the following verbs can be used as a linking verb?`,
+            options: `to become, to dance, to run, to write`
+          },
+          {
+            qText: `What is the purpose of using a linking verb in a sentence?`,
+            options: `To add more details to the subject, To indicate the future tense, To indicate a negative statement, To show an action performed by the subject`
+          }
+        ]
+      }
+    },
+    {
       type: 'selectWord',
       label: 'Linking Verb',
       id: 'select-word-2',
@@ -128,6 +158,32 @@ Conditional sentences, frequently use modal auxiliaries. `,
           {
             type: 'html',
             text: `The modals which are most commonly used are <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>must</b>, <b>should</b>, <b>will</b>, and <b>would</b>.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-mdl',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is NOT a function of modal verbs?`,
+            options: ` Describing the action performed by the subject, Indicating permission/obligation/advice, Offering help or assistance, Indicating probability/possibility `
+          },
+          {
+            qText: `Which modal verb indicates obligation and probability?`,
+            options: `Should/Ought to, Must, May/Might, Will/Would`
+          },
+          {
+            qText: `Which modal verb indicates logical conclusion and necessity?`,
+            options: `must, shall, would, need`
+          },
+          {
+            qText: `Which two modal verbs can serve as the main verb as well?`,
+            options: `dare and need, should and must, may and can, will and would`
           }
         ]
       }
@@ -330,6 +386,36 @@ Auxiliary verbs fall into three basic groups:
           {
             type: 'html',
             text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-aux',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is the main function of auxiliary verbs?`,
+            options: `To form the grammatical structure of a sentence, To provide meaning to the main verb, To indicate an action or state of being`
+          },
+          {
+            qText: `Which group of auxiliary verbs are the most used in forming tenses, negatives, and questions?`,
+            options: `Primary or main auxiliary verbs, Modals or modal auxiliary verbs, Other auxiliary verbs with the characteristics of modals, All of the above`
+          },
+          {
+            qText: `Which of the following is an example of a modal auxiliary verb?`,
+            options: `might, be about to, have to, all the above`
+          },
+          {
+            qText: `What is a semi-modal?`,
+            options: `A word that sometimes behaves as a modal, A type of verb that indicates an action or state of being, A type of noun that names a person, place, or thing`
+          },
+          {
+            qText: `Which of the following is NOT a modal auxiliary verb?`,
+            options: `be, must, can, will`
           }
         ]
       }
@@ -560,6 +646,36 @@ Since the participle is a verb-adjective it must be attached to some noun or pro
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-prt',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a participle?`,
+            options: `A word that is formed from a verb and takes the nature of both a verb and an adjective, A word that is formed from an adjective and takes the nature of both an adjective and a verb`
+          },
+          {
+            qText: `What is the present participle?`,
+            options: `It is formed by adding 'ing' to the original form of the main verb, It shows that the action is complete, either at some time in the past or at present`
+          },
+          {
+            qText: `What is the perfect participle?`,
+            options: `It shows that the action is complete, either at some time in the past or at present, It is used as an adjective to describe the subject of the sentence`
+          },
+          {
+            qText: `What is the past participle?`,
+            options: `It is the third form of the verb and is used to form various tenses,  It is formed by adding 'ing' to the original form of the main verb`
+          },
+          {
+            qText: `What must a participle always be attached to?`,
+            options: `A noun or pronoun, A verb, An adjective`
+          }
+        ]
+      }
+    },
+    {
       id: 'present-past',
       label: 'Present or Past',
       type: 'classifySentence',
@@ -636,6 +752,28 @@ The rain came *pouring (pour)*  down.
             type: 'html',
             text: `<b>Example</b> - I learned <b>driving</b>.<br>
 I like <b>watching</b> television.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-ger',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a gerund?`,
+            options: `A word ending with -ing and has the force of a noun and a verb, A word ending with -ing and has the force of an adjective and a verb, A word ending with -ed and has the force of an adjective and a verb`
+          },
+          {
+            qText: `How is a gerund used in a sentence?`,
+            options: `As both a noun and a verb, As a verb only, As a noun only, As an adjective only`
+          },
+          {
+            qText: `What is another term for a gerund?`,
+            options: `Verbal noun, Adverb, Adjective, Pronoun`
           }
         ]
       }
@@ -899,6 +1037,28 @@ I <b>need you to get me out of here</b>.`
             type: 'html',
             text: `I expect Madhavi to carefully read the letter. => <b>Incorrect</b><br>
 I expect Madhavi to read the letter carefully.=> <b>Correct</b>`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-inf',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is an Infinitive?`,
+            options: ` A kind of verb with features of a noun, A word that describes a verb, A word that describes an adjective`
+          },
+          {
+            qText: `What is the structure of an Infinitive?`,
+            options: `to + base form of the verb, base form of the verb + ed, to + base form of the verb + ing`
+          },
+          {
+            qText: `In which of the following cases can Infinitives be used as the complement of a verb?`,
+            options: `As the object complement of a verb, As the subject of a verb, As the object of a transitive verb, As the object of a preposition`
           }
         ]
       }

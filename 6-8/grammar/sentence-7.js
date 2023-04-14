@@ -33,6 +33,48 @@ Example: Wow, what a beautiful sunset!`
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-sen',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which type of sentence consists of one independent clause with a subject and predicate?`,
+            options: `Simple sentence, Compound sentence, Complex sentence, Compound-complex sentence`
+          },
+          {
+            qText: `Which type of sentence consists of two or more independent clauses joined by a coordinating conjunction?`,
+            options: `Compound sentence, Complex sentence, Compound-complex sentence`
+          },
+          {
+            qText: `Which type of sentence consists of one independent clause and one or more dependent clauses?`,
+            options: `Complex sentence, Compound-complex sentence, Simple sentence`
+          },
+          {
+            qText: `Which type of sentence consists of two or more independent clauses and one or more dependent clauses?`,
+            options: `Compound-complex sentence, Simple sentence, Complex sentence`
+          },
+          {
+            qText: `Which type of sentence makes a statement and ends with a period?`,
+            options: `Declarative sentence, Interrogative sentence, Imperative sentence, Exclamatory sentence`
+          },
+          {
+            qText: `Which type of sentence asks a question and ends with a question mark?`,
+            options: `Interrogative sentence, Imperative sentence, Exclamatory sentence`
+          },
+          {
+            qText: `Which type of sentence gives a command or makes a request and can end with a period or an exclamation mark?`,
+            options: `Imperative sentence, Interrogative sentence, Exclamatory sentence`
+          },
+          {
+            qText: `Which type of sentence expresses strong emotion and ends with an exclamation mark?`,
+            options: `Exclamatory sentence, Declarative sentence, Interrogative sentence, Imperative sentence`
+          }
+        ]
+      }
+    },
+    {
       type: 'selectWord',
       label: 'Identify - Subject',
       id: 'select-word-1',
@@ -231,6 +273,36 @@ It is better to keep everything packed <b>as</b> you are not sure when you would
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-sub-conj',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a subordinating conjunction used for in a sentence?`,
+            options: `To combine an independent clause and a dependent clause, To separate two independent clauses, To modify a noun or pronoun`
+          },
+          {
+            qText: `Which of the following is NOT an example of a subordinating conjunction?`,
+            options: `And, Because, Unless, Before`
+          },
+          {
+            qText: `In which position of a sentence can subordinating conjunctions be used?`,
+            options: `Both at the beginning and in the middle of a sentence, Only at the beginning of a sentence, Only in the middle of a sentence`
+          },
+          {
+            qText: `When a subordinating conjunction appears at the beginning of a complex sentence, what punctuation mark should be used?`,
+            options: `A comma, A period, A question mark`
+          },
+          {
+            qText: `Can a dependent clause with a subordinating conjunction stand by itself as a sentence?`,
+            options: `never, always, Only if it is a long and complex clause, Only if it is a short and simple clause`
+          }
+        ]
+      }
+    },
+    {
       type: 'selectWord',
       label: 'Subordinating Conjunction',
       id: 'select-sub',
@@ -368,6 +440,44 @@ The coordinating conjunctions are used to connect words, phrases and clauses of 
           {
             type: 'html',
             text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-conj',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which type of conjunction is used to connect words, phrases, and clauses of equal ranks?`,
+            options: `Coordinating conjunctions, Subordinating conjunctions, Correlative conjunctions, Conjunctive adverbs`
+          },
+          {
+            qText: `Which coordinating conjunction is used to combine two contrasting ideas?`,
+            options: `But, And, Or, So`
+          },
+          {
+            qText: `Which coordinating conjunction is used to express a choice between two things?`,
+            options: `Or, And, But, So`
+          },
+          {
+            qText: `Which coordinating conjunction is used to combine two words or ideas, both of which are to be negated?`,
+            options: `Nor, But, Or, So`
+          },
+          {
+            qText: `Which coordinating conjunction is used as a conjunction of purpose or reason?`,
+            options: `For, Or, But, And`
+          },
+          {
+            qText: `Which coordinating conjunction is used to express that something has not happened, but you expect it to happen?`,
+            options: `Yet, But, Or, So`
+          },
+          {
+            qText: `Which coordinating conjunction is used as a conjunction of result or consequence?`,
+            options: `So, Or, But, And`
           }
         ]
       }
@@ -638,6 +748,28 @@ Either he or his friends were the culprit. `
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-sub-vrb',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following rules for subject-verb agreement is incorrect?`,
+            options: `Nouns connected by 'each' and 'every' take a plural verb with them, If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there', Two nouns or pronouns joined by 'and' takes a plural verb, When 'one of' is used with a plural noun, the verb after it is always singular`
+          },
+          {
+            qText: `Which of the following sentences has a subject-verb agreement error?`,
+            options: `Time and tide waits for no one, Every student in the class has their own book, There is many different types of fruit at the market, Neither the boys nor the girl are going to the party.`
+          },
+          {
+            qText: `Which of the following is NOT a coordinating conjunction?`,
+            options: `although, and, but, for`
+          }
+        ]
+      }
+    },
+    {
       label: 'Correct or Incorrect',
       type: 'classifySentence',
       id: 'correct-incorrect',
@@ -746,6 +878,28 @@ Sometimes, the verb in the predicate is an intransitive verb, but it is incomple
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-sub-o-v',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is the purpose of an object in a sentence?`,
+            options: `To complete the meaning of a transitive verb, To complete the meaning of an intransitive verb, To describe the subject of the sentence`
+          },
+          {
+            qText: `What is the difference between a direct object and an indirect object?`,
+            options: `A direct object receives the action of the verb, while an indirect object indicates to whom or for whom the action is done, A direct object indicates to whom or for whom the action is done, while an indirect object receives the action of the verb`
+          },
+          {
+            qText: `What is a complement in a sentence?`,
+            options: `A word or group of words required to complete the predicate of an intransitive verb, A verb that does not require an object to complete its meaning`
+          }
+        ]
+      }
+    },
+    {
       id: 'direct-indirect',
       label: 'Direct or Indirect',
       type: 'classifySentence',
@@ -779,6 +933,28 @@ I wish *you* good luck.`
         text: [
           `A complement is a word or word group that completes the predicate in a sentence. Subject complements follow a linking verb and provide additional information about the subject of the sentence. The subject complement is normally a noun or an adjective that defines or renames the subject in some way. Object complements follow and modify a direct object and provide additional information about it. An object complement can be a noun or adjective or any word acting as a noun or adjective.
 Subject complements and object complements fill out and complete our sentences. Object complements provide more detail about the object of a sentence, while subject complements provide information about the subject of a sentence.`
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-compl',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a complement in a sentence?`,
+            options: `A word or word group that completes the predicate in a sentence, A word or word group that completes the subject in a sentence`
+          },
+          {
+            qText: `What is a subject complement?`,
+            options: `A word or word group that defines or renames the subject in some way, A word or word group that completes the subject in a sentence`
+          },
+          {
+            qText: `What is an object complement?`,
+            options: `A word or word group that modifies the object in a sentence, A word or word group that modifies the verb in a sentence`
+          }
         ]
       }
     },
@@ -914,6 +1090,36 @@ In some cases, a clause can look complete, convey meaning and make sense when se
 There are two types of clauses namely independent clause and dependent clause.
 Example: I am sick, so I am going to see the doctor.`
             ]
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-cl-ph',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a clause?`,
+            options: `A group of words that contains a subject and a predicate, A complete thought that does not contain a subject and a predicate`
+          },
+          {
+            qText: `What is a phrase?`,
+            options: `A group of words that does not contain a subject and a predicate, A group of words that can function as a sentence on its own`
+          },
+          {
+            qText: `What is the function of a noun phrase in a sentence?`,
+            options: `noun, verb, adjective, adverb`
+          },
+          {
+            qText: `What is the function of an adjective phrase in a sentence?`,
+            options: `adjective, noun, verb, adverb`
+          },
+          {
+            qText: `What is the function of an adverb phrase in a sentence?`,
+            options: `adverb, adjective, noun, verb`
           }
         ]
       }

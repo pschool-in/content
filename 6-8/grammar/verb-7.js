@@ -28,6 +28,28 @@ Main verbs are also of two kinds:
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-vrb',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which type of verb changes its form according to the person and number of the subject and the tense also?`,
+            options: `Finite verb, Helping verb, Non-finite verb`
+          },
+          {
+            qText: `Which of the following is a non-finite verb?`,
+            options: `Running, runs, ran, run`
+          },
+          {
+            qText: `What is the difference between finite and non-finite verbs?`,
+            options: `Finite verbs change their form while non-finite verbs do not, Non-finite verbs change their form while finite verbs do not, Finite verbs do not express actions while non-finite verbs do, Non-finite verbs are used for singular subjects, while finite verbs are used for plural subjects.`
+          }
+        ]
+      }
+    },
+    {
       id: 'helping-verb',
       label: 'Helping Verbs',
       type: 'fillup',
@@ -145,6 +167,28 @@ dance-danc<b>ed</b>-danc<b>ed</b>`
             type: 'html',
             text: `<b>Examples</b>: Burn-burn<b>t</b>-burn<b>t</b> (<b>irregular</b>); Burn-burn<b>ed</b>-burn<b>ed</b> (<b>regular</b>)<br>
 Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream<b>ed</b> (<b>regular</b>)`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-reg-irr',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which type of verb forms its past and past participle forms by adding -ed?`,
+            options: ` Regular verbs, Irregular verbs, Both regular and irregular verbs, None of the above`
+          },
+          {
+            qText: `Which of the following is an example of a verb that can be both regular and irregular?`,
+            options: `Burn, sit, put, drink`
+          },
+          {
+            qText: `What is the past participle form of the irregular verb "dream" in the regular form?`,
+            options: `Dreamed, Dreamt, Dreamed or dreamt, None of the above`
           }
         ]
       }
@@ -396,6 +440,32 @@ I had cast my rod and was waiting for the fish to bite the bait. I reeled in the
           {
             type: 'html',
             text: `<b>Example</b>: The baby is sleeping.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-tra-int',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is a transitive verb?`,
+            options: `A verb that needs an object to make complete sense of the action being performed by the subject, A verb that does not require an object to make complete sense, A verb that expresses an action without a subject`
+          },
+          {
+            qText: `Which of the following is an example of a transitive verb?`,
+            options: `They ate candy, She laughed, He cried, The dog barked loudly`
+          },
+          {
+            qText: `What is an intransitive verb?`,
+            options: `A verb that does not necessarily require an object to make sense of the action being performed by the subject in a sentence or context, A verb that requires an object to make complete sense, A verb that does not express an action`
+          },
+          {
+            qText: `Which of the following is an example of an intransitive verb?`,
+            options: `The flowers bloomed, She cooked dinner, He kicked the ball, They sang a song`
           }
         ]
       }
@@ -730,6 +800,36 @@ I <b>used to</b> play cricket in 2005.`
             type: 'html',
             text: `<b>Examples</b>: My grandfather is not <b>used to</b> sweets.<br>
 I am <b>used to</b> a life full of struggle.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-mdl',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
+            options: `can, may, could, should `
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
+            options: `could, might, should, must`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
+            options: `must, shall, would, need`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
+            options: `would, shall, will, might`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
+            options: `must, need, may, need`
           }
         ]
       }

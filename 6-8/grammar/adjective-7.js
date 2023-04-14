@@ -10,7 +10,7 @@ export default {
       data: {
         title: 'Adjectives',
         text: [
-          `A word that is used with a noun or a pronoun to describe it (description may be of its type, place, number or amount) is known as an Adjective.`,
+          `A word that is used with a noun or a pronoun to describe it is known as an Adjective.`,
           {
             type: 'html',
             text: `<b>Examples</b>: Ramesh is <b>intelligent</b>.<br>
@@ -141,12 +141,12 @@ It was a *difficult* question, but I solved it.`,
 
         `This summer I wrote my grandmother *some* letters.
 I have *six* fingers on my right toe.
-Who was the *first* prime minister of India?
+Who was the *first* Prime Minister of India?
 The *sixth* boy on the last row is talkative.
-Is there *any* raspberry left in the fridge?`,
+Are there *any* apples left in the fridge?`,
 
         `She ate only *half* a slice of pizza.
-I got my offer letter from *five* companies.
+I got offer letters from *five* companies.
 I will finish this *whole* book today.
 Each *one* of us should eat healthy food.
 *Most* of the students have completed their project work.`,
@@ -160,7 +160,7 @@ A *few* people are allowed inside the room.`
     },
     {
       id: 'fillup-adj',
-      label: 'Comparisson of Adjectives',
+      label: 'Comparison of Adjectives',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -181,13 +181,13 @@ He is my *elder* brother. (old)
 Burj Khalifa is the *tallest* building in the world. (tall)`,
 
         `Are you feeling *better* now? (good)
-May was the *hottest* month of the year. (hot)
+May is the *hottest* month of the year. (hot)
 Sheela is *taller* than her sister. (tall)
 Yogesh is the *wiser* of the two. (wise)
 You are the *most regular* boy in class. (regular)`,
 
         `My brother is *taller*  than me. (tall)
-This is *most interesting*  book I have ever read. (interesting)
+This is the *most interesting*  book I have ever read. (interesting)
 The red dress is *more expensive*  than the blue one. (expensive)
 John is the *happiest*  person I know. (happy)
 The cat is the *laziest*  animal in the house. (lazy)`,
@@ -225,11 +225,11 @@ The giraffe is the tallest animal on earth.`
         ],
         [
           `He is a talented musician.
-The ocean is calm today.
+The sea is calm today.
 The puppy is playful.`,
 
-          `The small cake is cheaper than the large one.
-Her new phone is smarter than her old one.
+          `The vanilla cake is cheaper than the chocholate cake.
+Her new phone is better than her old one.
 He was braver than I thought he would be.
 I am happier when I am with my friends.`,
 
