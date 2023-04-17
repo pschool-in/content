@@ -466,7 +466,7 @@ The couple danced at their wedding reception.`
     {
       type: 'selectWord',
       label: 'Adverbial Clause',
-      id: 'select-word',
+      id: 'select-word-clause',
       lockAfter: 1,
       commonData: {
         title: 'Identify the adverbial clause in the sentence',
