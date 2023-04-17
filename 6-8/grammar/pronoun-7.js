@@ -58,6 +58,28 @@ Example: The cat washed its tail by licking it.`
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-pro',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which of the following is NOT a type of pronoun?`,
+            options: `Pronouns of Verb, Pronouns of Place, Pronouns of Time, Pronouns of Purpose `
+          },
+          {
+            qText: `Which of the following is an example of an indefinite pronoun?`,
+            options: `no one, he, she, they`
+          },
+          {
+            qText: `Which of the following is an example of a possessive pronoun?`,
+            options: `hers, his, them, we`
+          }
+        ]
+      }
+    },
+    {
       id: 'fillup',
       label: 'Fill in the blanks',
       type: 'fillup',

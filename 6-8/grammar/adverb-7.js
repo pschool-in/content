@@ -72,6 +72,36 @@ They include <b>why</b>, <b>how</b>, <b>where</b>, <b>when</b> etc.`
       }
     },
     {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-adv',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `Which type of adverb is used to reflect time?`,
+            options: `Adverbs of Time, Adverbs of Frequency, Adverbs of Manner, Adverbs of Place`
+          },
+          {
+            qText: `Which type of adverb is used to show how often an event takes place?`,
+            options: `Adverbs of Frequency, Adverbs of Manner, Adverbs of Place`
+          },
+          {
+            qText: `Which type of adverb is used to show how an event takes place?`,
+            options: `Adverbs of Manner, Adverbs of Place, Adverbs of Frequency `
+          },
+          {
+            qText: `Which type of adverb is used to show the place where an action took place?`,
+            options: `Adverbs of Place, Adverbs of Frequency, Adverbs of Manner `
+          },
+          {
+            qText: `Which type of adverb is used to show 'how much'?`,
+            options: `Adverbs of Quantity, Adverbs of Time, Adverbs of Frequency, Adverbs of Manner `
+          }
+        ]
+      }
+    },
+    {
       type: 'selectWord',
       label: 'Identify - Adverbs',
       id: 'select-word',
@@ -244,6 +274,36 @@ adverbs of manner -> place -> frequency -> time -> purpose`,
           {
             type: 'html',
             text: `<b>Example</b>- He prayed <b>fervently</b> (manner) <b>at the church</b> (place) <b>yesterday</b> (time).`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-adverb',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `What is an adverb?`,
+            options: `A word that modifies the meaning of a verb or an adjective or another adverb, A word that functions as a subject in a sentence, A word that functions as an object in a sentence, A word that functions as a predicate in a sentence`
+          },
+          {
+            qText: `Where are adverbs of manner, time and place usually placed in a sentence?`,
+            options: `After the verb or after the object if there is one, Before the verb, After the object, Before the subject`
+          },
+          {
+            qText: `With forms of the verb be, where is the adverb usually placed?`,
+            options: `After the verb, Before the subject, Before the verb, After the subject `
+          },
+          {
+            qText: `What are adverbial clauses?`,
+            options: `Dependent clauses that function as adverbs, Independent clauses that function as adverbs, Dependent clauses that function as adjectives `
+          },
+          {
+            qText: `How are adverbials ordered if there is more than one after a verb?`,
+            options: `Manner -> place -> frequency -> time -> purpose, Time -> frequency -> manner -> place -> purpose, Purpose -> place -> manner -> frequency -> time `
           }
         ]
       }
