@@ -417,7 +417,7 @@ Peacock, Peahen`
     },
     {
       type: 'completeWord',
-      id: 'complete-word',
+      id: 'complete-word-gender',
       label: 'Complete Word - Gender',
       title: 'Change the words from feminine to masculine.',
       data: [

@@ -1,6 +1,6 @@
 export default {
-  label: "Antonyms Collection - 4",
-  id: "antonyms-4",
+  label: 'Antonyms Collection - 4',
+  id: 'antonyms-4',
   defs: {
     data: [
       `fix, break
@@ -28,7 +28,6 @@ poised, anxious`,
 deposit, withdraw
 massive, miniature
 constant, unstable
-climax, letdown
 detach, link`,
 
       `pedestrian, motorist
@@ -71,159 +70,158 @@ common, uncommon
 attack, defend
 ability, inability
 imperfect, perfect
-flaw, perfection`,
-    ],
+flaw, perfection`
+    ]
   },
   list: [
     {
-      id: "reading",
-      type: "passage",
-      label: "Words List",
+      id: 'reading',
+      type: 'passage',
+      label: 'Words List',
       data: {
-        title: "Antonyms",
+        title: 'Antonyms',
         text: [
           //`Two words are said to be antonyms, if they have opposite meaning.`,
           {
-            type: "hilight",
+            type: 'hilight',
             text: `fix × break
 resist × yield
 lead × follow
 arrest × release
 concentrate × daydream
-appropriate × improper`,
+appropriate × improper`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `assist × prevent
 grim × pleasant
 support  ×  contradict
 steer × follow
 magnificient × ugly
 observe × glance
-scheduled × unplanned`,
+scheduled × unplanned`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `contain × exclude
 cling × detach
 predator × prey
 victory × failure
 trust × distrust
-poised × anxious`,
+poised × anxious`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `corrupt ×honest
 deposit × withdraw
 massive × miniature
 constant × unstable
-climax × letdown
-detach × link`,
+detach × link`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `pedestrian × motorist
 eligible × disqualified
 debate × agree
 criticize × praise
 havoc × peace
-excavate × bury`,
+excavate × bury`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `zig-zag × straight
 accomplish × giveup
 maximum × merest
 available × unavailable
 myth × truth
-soar × plummet`,
+soar × plummet`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `multiply × lessen
 misunderstand × grasp
 manual × automated
 impressive × insignificant
 gigantic × tiny
-minute × immense`,
+minute × immense`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `bravery × cowardice
 crooked × straight
 stain × purify
 ancestor × descendant
 exposure × cover,
-cruel × kind`,
+cruel × kind`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `written × oral
 master × servant
 haste × delay
 vague × clear
 punish × reward
-arrival × departure`,
+arrival × departure`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `attract × repel
 common × uncommon
 attack × defend
 ability × inability
 imperfect × perfect
-flaw × perfection`,
-          },
-        ],
-      },
+flaw × perfection`
+          }
+        ]
+      }
     },
     {
-      type: "match",
-      label: "Match Antonyms",
-      id: "match",
+      type: 'match',
+      label: 'Match Antonyms',
+      id: 'match',
       commonData: {
-        title: "Match Antonyms",
+        title: 'Match Antonyms'
       },
       data: [
         {
-          refs: "data~0",
+          refs: 'data~0'
         },
         {
-          refs: "data~1",
+          refs: 'data~1'
         },
         {
-          refs: "data~2",
+          refs: 'data~2'
         },
         {
-          refs: "data~3",
+          refs: 'data~3'
         },
         {
-          refs: "data~4",
+          refs: 'data~4'
         },
         {
-          refs: "data~5",
+          refs: 'data~5'
         },
         {
-          refs: "data~6",
+          refs: 'data~6'
         },
         {
-          refs: "data~7",
+          refs: 'data~7'
         },
         {
-          refs: "data~8",
+          refs: 'data~8'
         },
         {
-          refs: "data~9",
-        },
-      ],
+          refs: 'data~9'
+        }
+      ]
     },
     {
-      type: "completeWord",
-      label: "Write the Antonym",
-      id: "complete-word",
+      type: 'completeWord',
+      label: 'Write the Antonym',
+      id: 'complete-word',
       commonData: {
-        lang: "en",
-        title: "Type the antonym of the given word.",
+        lang: 'en',
+        title: 'Type the antonym of the given word.'
       },
       data: [
         `fix| break| _____
@@ -251,7 +249,6 @@ flaw × perfection`,
         deposit| withdraw| _i_h_r__
         massive| miniature| m__i__u_e
         constant| unstable| u_s__b_e
-        climax| letdown| l__d_wn
         detach| link| ____`,
 
         `pedestrian| motorist| m__o__s_
@@ -294,51 +291,51 @@ flaw × perfection`,
         attack| defend| _____d
         ability| inability| _n_b_l_t_
         imperfect| perfect| p_rf__t
-        flaw| perfection| pe___c___n`,
-      ],
+        flaw| perfection| pe___c___n`
+      ]
     },
 
     {
-      type: "connectLetters",
-      label: "Pick the word",
-      id: "connect-letters",
+      type: 'connectLetters',
+      label: 'Pick the word',
+      id: 'connect-letters',
       commonData: {
         title:
-          "Connect the letters from left to right to form the antonym for the below word.",
-        clueFont: "big",
+          'Connect the letters from left to right to form the antonym for the below word.',
+        clueFont: 'big'
       },
       data: [
         {
-          refs: "data~0",
+          refs: 'data~0'
         },
         {
-          refs: "data~1",
+          refs: 'data~1'
         },
         {
-          refs: "data~2",
+          refs: 'data~2'
         },
         {
-          refs: "data~3",
+          refs: 'data~3'
         },
         {
-          refs: "data~4",
+          refs: 'data~4'
         },
         {
-          refs: "data~5",
+          refs: 'data~5'
         },
         {
-          refs: "data~6",
+          refs: 'data~6'
         },
         {
-          refs: "data~7",
+          refs: 'data~7'
         },
         {
-          refs: "data~8",
+          refs: 'data~8'
         },
         {
-          refs: "data~9",
-        },
-      ],
-    },
-  ],
+          refs: 'data~9'
+        }
+      ]
+    }
+  ]
 };
