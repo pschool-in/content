@@ -237,7 +237,7 @@ Strive, Strove, Striven`,
 Arise, Arose, Arisen
 Know, Knew, Known
 Grow, Grew, Grown
-Lay, Laid, Laid`,
+Lay, Laid, Layed`,
 
         `Keep, Kept, Keped
 Cut, Cut, Cuted
@@ -266,7 +266,7 @@ Shut, Shut, Shuted`
     },
     {
       label: 'Past Participle',
-      id: 'complete',
+      id: 'complete-past',
       type: 'completePuzzle',
       lockAfter: 1,
       commonData: {
@@ -288,8 +288,8 @@ Wear, Worn, Wore`,
 
         `Tear, Torn, Tore
 Bear, Borne, Bore
-Buy, Bought,  Bought
-Fight, Fought, Fought
+Buy, Bought, Brought
+Fight, Fought, Fouht
 Break, Broken, Broke`,
 
         `Speak, Spoken, Spoke
