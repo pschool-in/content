@@ -563,6 +563,7 @@ We *are planning (plan)* to go on vacation next month.`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      id: 'mcq-tr',
       data: {
         title: 'Identify the underlined part and choose the correct option.',
         questions: [
@@ -597,7 +598,7 @@ We *are planning (plan)* to go on vacation next month.`
         noOptions: true,
         title: `Use the correct form of the verb given in the brackets to complete the following paragraph.`,
         text: `Mr Koch, the mathematics teacher *gave* (give) Albert the reference he *wanted* (want).
-Albert *got* (get) summoned to the head teacher's room. The head teacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
+Albert *got* (get) summoned to the head teacher's room. The headteacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
       }
     },
     {
@@ -788,7 +789,7 @@ She <b>shall</b> win. (<b>Emphasized act</b>)`
             text: `<b>Examples</b>: How <b>dare</b> you touch my pen?<br>
 She <b>dare</b> not play tennis with me.`
           },
-          `## Uses of 'Used to'
+          `# Uses of 'Used to'
 1. To express a past habit.`,
           {
             type: 'html',
@@ -926,8 +927,7 @@ I am <b>used to</b> a life full of struggle.`
             {
               qText:
                 'Which of the following is a correct use of the modal verb "can"?',
-              options:
-                'They can`t come to the party tonight, I can like to play soccer, She can sings beautifully.'
+              options: `They can't come to the party tonight, I can like to play soccer, She can sings beautifully.`
             },
             {
               qText:
