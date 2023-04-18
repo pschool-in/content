@@ -77,7 +77,7 @@ I finally overcame the *difficulty* of meeting people.`,
         `The doctor's *dilemma* was whether he should tell the patient the *truth*.
 We must respect the *dignity* of the High court.
 She spoke with *confidence*.
-We were frightened by her ominous *prediction*
+We were frightened by her ominous *prediction*.
 That was a splendid *performance*.`,
 
         `His *happiness* knew no bounds.
@@ -277,12 +277,13 @@ The entire medical *staff* got infected by the Coronavirus.`,
         `The Beatles is a famous *band*.
 The *troupe* performed the Macbeth drama.
 The Andaman and Nicobar Islands comprise a *group* of 573 islands.
-The *jury* passed a unanimous decision.
-A *cloud* of dust swirled up during the storm.`,
+The *jury* passed a unanimous decision.`,
 
-        `The *herd* of cattle was grazing peacefully in the feild.
-The *team* of scientists worked tirelessly to find a cure for the disease.
-The *flock* of birds flew in a formation across the sky.
+        `A *cloud* of dust swirled up during the storm.
+The *herd* of cattle was grazing peacefully in the feild.
+The *team* of scientists worked tirelessly to find a cure for the disease.`,
+
+        `The *flock* of birds flew in a formation across the sky.
 The *swarm* of bees buzzed around the hive.
 The *group* of tourists took a guided tour of the ancient ruins.`
       ]
@@ -614,7 +615,7 @@ Sana got three *dresses* as her birthday present. (dress)
 There are five *boxes* filled with sweets. (box)
 This year John topped the *Physics* exam. (physics)`,
 
-        `The *maid-servant* washed the dishes in the house. (maid-servant)
+        `The maid-*servant* washed the dishes in the house. (maid-servant)
 These *cities* are famous for tulips. (city)
 The man-servant is picking *flowers* from the pot. (flower)
 The passer-by was attacked by armed *men*. (man)`,
@@ -625,8 +626,8 @@ The *books* on the shelf were all in alphabetical order. (book)
 I need to buy some new *shoes* for the upcoming event. (shoe)
 The *cars* in the parking lot were all different colors and models. (car)`,
 
-        `The goose killed the *mice* in the field. (mouse)
-These *pizzas* were prepared in the hotel. (pizza)
+        `The goose killed all the *mice* in the field. (mouse)
+These *samosas* were prepared in the hotel. (samosa)
 The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)
 The *teachers* at the school were all highly qualified. (teacher)
 The *trees* in the park were all different shapes and sizes. (tree)`
@@ -660,11 +661,11 @@ The childrens are playing in the park.
 The peoples in the room were all talking loudly.`
         ],
         [
-          `The cars tires were all flat.
-The food at the restaurent were deliciuos.
+          `The car's tires were all flat.
+The food at the restaurant was delicious.
 The dogs barking woke up all the neighbors.`,
 
-          `The car's tires were all flat.
+          `The cars tires were all flat.
 The foods at the restaurent were deliciuos.
 The dog's barking woke up all the neighbors.`
         ],
@@ -748,34 +749,34 @@ I filled the cat's food bowl.`
 Her father's car is very fast.`,
 
           `The company announced the profits at the meeting.
-He drove his father,s car to the store.`,
+He drove his father's car to the store.`,
 
           `The employees celebrated the profits.
 He parked his father's car in the parking lot.`
         ],
         [
-          `*Pari's* book is kept on the bed.
-The *farmer's* crops yielded a good profit.`,
+          `Pari's book is kept on the bed.
+The farmer's crops yielded a good profit.`,
 
-          `The *President* is going to Japan today.
-*Dessert* smells so good.
-The *mother* teaches the child in the morning.`,
+          `The President is going to Japan today.
+Dessert smells so good.
+The mother teaches the child in the morning.`,
 
-          `The mother teaches the *child* in the morning.
-Chetan Bhagat writes *novels*.
-The teacher punished the *boy*.`
+          `The mother teaches the child in the morning.
+Chetan Bhagat writes novels.
+The teacher punished the boy.`
         ],
         [
-          `*Student's* ID card lost.
-*Uncle's* wallet was found by the police.
-This is my mother's *watch*.`,
+          `Student's ID card lost.
+Uncle's wallet was found by the police.
+This is my mother's watch.`,
 
-          `*Priyanka* is busy with school work.
-The *lawyer* will talk to the judge later.`,
+          `Priyanka is busy with school work.
+The lawyer will talk to the judge later.`,
 
-          `The plate is on the *table.
-Gagan has lost his *wallet*.
-The river flows into the *sea*.`
+          `The plate is on the table.
+Gagan has lost his wallet.
+The river flows into the sea.`
         ]
       ]
     }
