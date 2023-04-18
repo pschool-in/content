@@ -40,11 +40,11 @@ A *team (group)* of players was playing cricket.
 *Eggs (Egg)* were broken by Rahul.
 London is the home for the *London Eye (london eye)*.`,
 
-        `I have a *bunch (cluster)* of key on the mat.
+        `I have a *bunch (cluster)* of keys on the mat.
 Our *team (group)* lost the match.
 *Dhoni (dhoni)* is a famous cricketer.
 A *fish (Fish)* can stay alive just in water.
-The *theives (thiefs)* ran away with all the ornaments.`,
+The *thieves (thiefs)* ran away with all the ornaments.`,
 
         `A *mouse (mice)* scurried across the kitchen floor.
 An apple a day keeps the *doctor (Doctor)* away.
@@ -75,7 +75,7 @@ The bad *weather* detained us for several hours.
 I finally overcame the *difficulty* of meeting people.`,
 
         `The doctor's *dilemma* was whether he should tell the patient the *truth*.
-We must respect the *dignity* of the High court.
+We must respect the *dignity* of the High Court.
 She spoke with *confidence*.
 We were frightened by her ominous *prediction*.
 That was a splendid *performance*.`,
@@ -280,7 +280,7 @@ The Andaman and Nicobar Islands comprise a *group* of 573 islands.
 The *jury* passed a unanimous decision.`,
 
         `A *cloud* of dust swirled up during the storm.
-The *herd* of cattle was grazing peacefully in the feild.
+The *herd* of cattle was grazing peacefully in the field.
 The *team* of scientists worked tirelessly to find a cure for the disease.`,
 
         `The *flock* of birds flew in a formation across the sky.
