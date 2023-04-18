@@ -184,7 +184,7 @@ Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream
           },
           {
             qText: `Which of the following is an example of a verb that can be both regular and irregular?`,
-            options: `Burn, sit, put, drink`
+            options: `burn, sit, put, drink`
           },
           {
             qText: `What is the past participle form of the irregular verb "dream" in the regular form?`,
