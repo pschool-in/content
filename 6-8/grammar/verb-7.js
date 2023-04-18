@@ -1047,7 +1047,7 @@ We focus on our studies so that we *may* not fail in our examinations.
 Let whatever hardships may come our way. One day, we *will* overcome.`,
 
         `His goggles are kept in the cupboard, but nobody *dares* to touch them.
-Sheveta is a little snobbish and naughty girl. We *need* not prank at her. She will get angry.
+Sheveta is a little snobbish and naughty girl. We *need* not prank her. She will get angry.
 Don't challenge me. If I try, she *shall* come and talk to me politely.
 *Would* you like to try your hand at chess, madam?`,
 
@@ -1063,8 +1063,7 @@ You *must* not use your cell phone while driving.`,
 
         `She *would* like to visit the museum this weekend.
 We *will* have to finish this project before the deadline.
-You *need* to submit your application by tomorrow.
-They *should* not smoke in this area.`
+You *need* to submit your application by tomorrow.`
       ]
     }
   ]
