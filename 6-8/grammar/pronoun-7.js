@@ -98,7 +98,7 @@ Example: The cat washed its tail by licking it.`
       }
     },
     {
-      id: 'fillup',
+      id: 'fillup-2',
       label: 'Pronouns of Place',
       type: 'fillup',
       noOptions: true,
@@ -135,7 +135,7 @@ I'll call you *later* tonight.`
       }
     },
     {
-      id: 'fillup-2',
+      id: 'fillup-3',
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {

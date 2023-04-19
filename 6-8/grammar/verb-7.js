@@ -266,7 +266,7 @@ Shut, Shut, Shuted`
     },
     {
       label: 'Past Participle',
-      id: 'complete',
+      id: 'complete-2',
       type: 'completePuzzle',
       lockAfter: 1,
       commonData: {
@@ -592,7 +592,7 @@ We *are planning (plan)* to go on vacation next month.`
     {
       label: 'Complete the paragraph',
       type: 'fillup',
-      id: 'fillup',
+      id: 'fillup-2',
       data: {
         noOptions: true,
         title: `Use the correct form of the verb given in the brackets to complete the following paragraph.`,

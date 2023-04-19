@@ -405,7 +405,7 @@ You could go and play *after* you have done the dishes.`
     {
       label: 'Notes',
       type: 'passage',
-      id: 'passage',
+      id: 'passage-coord',
       data: {
         title: 'Coordinating Conjunctions',
         text: [
@@ -1242,7 +1242,7 @@ The researcher said that he had found the chemical compound.`
     {
       label: 'Clause or Phrase',
       type: 'classifySentence',
-      id: 'clause-phrase',
+      id: 'clause-phrase-2',
       lockAfter: 1,
       commonData: {
         title: 'Classify the following as a clause or phrase.',
@@ -1362,6 +1362,7 @@ He played the guitar beautifully`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq-phrase',
+      id: 'mcq-clause-2',
       data: {
         title:
           'Classify the underlined part of the following sentences as a clause or phrase.',
@@ -1624,7 +1625,7 @@ In old age, if people had no fire, they *would* eat their meat raw.`
     {
       label: 'Notes',
       type: 'passage',
-      id: 'passage',
+      id: 'passage-punctuation',
       data: {
         title: 'Punctuation',
         text: [
@@ -1738,7 +1739,7 @@ word-of-, mouth, devil`
     },
     {
       label: 'Correct or Incorrect',
-      id: 'correct-incorrect',
+      id: 'correct-incorrect-2',
       type: 'classifySentence',
       title:
         'Classify the below sentences based on the correct usage of punctuation.',
@@ -1764,6 +1765,7 @@ The majority of you scored between eighty — eight and ninety — nine percent 
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      id: 'mcq-last',
       data: {
         title: 'Multiple Choice Questions',
         questions: [

@@ -9,6 +9,7 @@ export default {
       label: 'Capital Letters',
       id: 'capital-letters',
       data: {
+        fourLines: true,
         source: [
           {
             id: 'A',
@@ -253,6 +254,7 @@ export default {
       label: 'Small Letters',
       id: 'small-letters',
       data: {
+        fourLines: true,
         audio: '/kg-5/english.mp3',
         source: [
           {
@@ -474,6 +476,7 @@ export default {
       id: 'numbers',
       label: 'Numbers',
       data: {
+        fourLines: true,
         source: [
           {
             id: '0',
@@ -558,6 +561,7 @@ export default {
       id: 'cursive-small',
       label: 'Cursive Letters',
       data: {
+        fourLines: true,
         source: [
           {
             id: 'a',
@@ -796,6 +800,7 @@ export default {
       id: 'cursive-capital',
       label: 'Capital Cursive Letters',
       data: {
+        fourLines: true,
         source: [
           {
             id: 'A',

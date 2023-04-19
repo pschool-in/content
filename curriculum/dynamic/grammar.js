@@ -291,115 +291,79 @@ export default {
       grade: '3-5'
     },
     // New addition for 6th to 8th
-
     {
-      label: 'Determiners',
-      id: 'determiner-8',
+      label: 'Noun',
+      id: 'noun-7',
       grade: '7-8'
     },
     {
       label: 'Preposition',
-      id: 'preposition-8',
+      id: 'preposition-7',
       grade: '7-8'
     },
     {
-      label: 'Sentence Analysis',
-      id: 'complement-8',
+      label: 'Different Types of Verbs',
+      id: 'verb-7',
       grade: '7-8'
     },
     {
-      label: 'Auxillary Verbs',
-      id: 'auxiliary-verb-8',
+      label: 'Adjectives',
+      id: 'adjective-7',
       grade: '7-8'
     },
     {
-      label: 'Adverb and Adverbial',
-      id: 'adverb-8',
+      label: 'Articles and Determiners',
+      id: 'article-7',
       grade: '7-8'
     },
     {
-      label: 'Modals',
-      id: 'modal-8',
+      label: 'Pronoun',
+      id: 'pronoun-7',
       grade: '7-8'
     },
     {
-      label: 'Linking Verbs',
+      label: 'More on Verbs',
       id: 'verb-8',
       grade: '7-8'
     },
     {
-      label: 'Conjunction',
-      id: 'conjunction-8',
+      label: 'Sentence Analysis',
+      id: 'sentence-7',
       grade: '7-8'
     },
     {
-      label: 'Clauses',
-      id: 'clause-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Participles',
-      id: 'participle-8',
+      label: 'Adverb and Adverbials',
+      id: 'adverb-7',
       grade: '7-8'
     },
     {
       label: 'Tenses',
-      id: 'tense-8',
+      id: 'tense-7',
       grade: '7-8'
     },
     {
-      label: 'Conditionals',
-      id: 'conditional-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Active and Passive Voice',
-      id: 'voice-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Direct and Indirect Speech',
-      id: 'speech-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Affixation',
-      id: 'affixation-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Homophones, Homographs, Homonyms',
-      id: 'homonyms-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Idioms',
-      id: 'idiom-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Punctuation',
-      id: 'punctuation-8',
-      grade: '7-8'
-    },
-    {
-      label: 'British and American English',
-      id: 'british-american-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Infinitives',
-      id: 'infinitive-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Gerund',
-      id: 'gerund-8',
+      label: 'Improve your Speech',
+      id: 'speech-7',
       grade: '7-8'
     },
     {
       label: '8th Misc Activities - 1',
       id: 'misc-grammar-8-1',
+      grade: '7-8'
+    },
+    {
+      label: 'Parts of Speech - Practice',
+      id: 'parts-of-speech-p3',
+      grade: '3-4'
+    },
+    {
+      label: 'Parts of Speech - Practice-2',
+      id: 'parts-of-speech-p5',
+      grade: '5-6'
+    },
+    {
+      label: 'Parts of Speech - Practice-3',
+      id: 'parts-of-speech-p7',
       grade: '7-8'
     }
   ]

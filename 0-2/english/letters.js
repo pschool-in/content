@@ -9,7 +9,7 @@ export default {
       id: 'write-A-E',
       data: {
         repeatCount: 3,
-        chars: 'ABCDE',
+        fourLines: true,
         source: [
           {
             id: 'A',
@@ -66,7 +66,7 @@ export default {
       id: 'write-F-J',
       data: {
         repeatCount: 3,
-        chars: 'FGHIJ',
+        fourLines: true,
         source: [
           {
             id: 'F',
@@ -126,7 +126,7 @@ export default {
       id: 'write-K-O',
       data: {
         repeatCount: 3,
-        chars: 'KLMNO',
+        fourLines: true,
         source: [
           {
             id: 'K',
@@ -183,7 +183,7 @@ export default {
       id: 'write-P-T',
       data: {
         repeatCount: 3,
-        chars: 'PQRST',
+        fourLines: true,
         source: [
           {
             id: 'P',
@@ -235,7 +235,7 @@ export default {
       id: 'write-U-Z',
       data: {
         repeatCount: 3,
-        chars: 'UVWXYZ',
+        fourLines: true,
         source: [
           {
             id: 'U',
