@@ -304,7 +304,7 @@ Some boys were helping the wounded man.
 Who did this?`
           },
           {
-            name: 'Pasive',
+            name: 'Passive',
             text: `Hari is helped by Rama.
 Savitri is loved by Sita.
 The wall is being built by the mason.
@@ -315,7 +315,7 @@ By whom was this done?`
       }
     },
     {
-      id: 'mcq',
+      id: 'mcq-2',
       label: 'Passive Voice',
       type: 'mcq',
       data: {
@@ -354,7 +354,7 @@ By whom was this done?`
       }
     },
     {
-      id: 'mcq-2',
+      id: 'mcq-3',
       label: 'Active Voice',
       type: 'mcq',
       data: {

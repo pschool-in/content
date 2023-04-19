@@ -7,6 +7,26 @@ Performdigi - https://performdigi.com/
 Learn CBSE - https://www.learncbse.in/
 Tiwari Academy - https://www.tiwariacademy.com/
 
+# 1. Noun
+
+## playlist id (playlist label)
+
+outline
+
+references
+
+## playlist id-2
+
+# 2. Preposition
+
+# 3. Different Types of Verbs
+
+# 4. Adjectives
+
+# 5. Articles and Determiners
+
+# 6. Pronoun
+
 # Playlists
 
 ## noun-7

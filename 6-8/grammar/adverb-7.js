@@ -466,7 +466,7 @@ The couple danced at their wedding reception.`
     {
       type: 'selectWord',
       label: 'Adverbial Clause',
-      id: 'select-word-clause',
+      id: 'select-word-2',
       lockAfter: 1,
       commonData: {
         title: 'Identify the adverbial clause in the sentence',
@@ -504,7 +504,7 @@ He does not work *as hard as you think*.`,
     {
       type: 'selectWord',
       label: 'Adverbial Phrase',
-      id: 'select-word-2',
+      id: 'select-word-3',
       lockAfter: 1,
       commonData: {
         title: 'Identify the adverbial phrase in the sentence.',
