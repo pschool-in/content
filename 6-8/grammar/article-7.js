@@ -143,14 +143,14 @@ export default {
           },
           {
             qText: `Which of the following is a definite article?`,
-            options: `The, A, An, None of the above.`
+            options: `The, A, An, None of the above`
           },
           {
-            qText: `When is 'the' used before the name of rivers, seas, canals, oceans, valleys, deserts, and forests?`,
-            options: `Before the name of rivers/seas/canals/oceans/valleys/deserts/forests,
-            Before the name of a single mountain or hill,
-            Before the name of a musical instrument,
-            Before a proper noun/common noun/abstract noun/material noun to make them common nouns`
+            qText: `When is 'the' used?`,
+            options: `Before the name of rivers, seas, canals, oceans, valleys, deserts, forests
+            Before the name of a single mountain or hill
+            Before the name of a musical instrument
+            Before a proper noun, common noun, abstract noun or material noun to make them common nouns`
           },
           {
             qText: `When do we use 'an' instead of 'a'?`,
@@ -184,17 +184,15 @@ Where is *the* Statue of Liberty situated?
 He belongs to *a* different school of thought.
 Do you know where *the* library is?`,
 
-        `She is *an* MSc in Chemistry.
-I am going to *the* club.
+        `I am going to *the* club.
 *The* Gomati is a famous river.
 Rashmi is *a* unique girl.
 I know how to play *the* violin.`,
 
-        `*The* life in the army is not so easy though it is full of pride and prestige.
-She was not in *the* mood for cutting jokes.
+        `She was not in *the* mood for cutting jokes.
 This is *an* honor for me.
 One cannot compare *an* orange with *an* apple.
-Each of them is *a* unique fruit.`,
+Durian is *a* unique fruit native to Southeast Asia.`,
 
         `I saw *a* bird in the tree.
 *An* apple *a* day keeps *the* doctor away.
@@ -214,15 +212,15 @@ Can you pass me *the* salt?`
       },
       lockAfter: 1,
       data: [
-        `Mr. Sheetal Das is my *x* neighbor. He is *a* businessman. He owns *a* spacious bungalow and *a* car. His house is well-furnished. It is equipped with all *the* comforts of life. I am, however, sad to see that he does not have very good relations with his *x* neighbors. Once he called *x* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The* children had of course denied it. He has *a* servant. This poor boy is not given enough food to eat. He never donates any money to any cause. I wonder why he behaves in such *an* ignoble manner. May God grant him *x* wisdom!`,
+        `Mr. Sheetal Das is my *x* neighbor. He is *a* businessman. He owns *a* spacious bungalow and *a* car. His house is well-furnished. It is equipped with all *the* comforts of life. I am, however, sad to see that he does not have very good relations with his *x* neighbors. Once he called *the* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The* children had of course denied it. He has *a* servant. This poor boy is not given enough food to eat. He never donates money to any cause. I wonder why he behaves in such *an* ignoble manner. May God grant him *x* wisdom!`,
 
         `My school owns *a* good library. It has two rooms. One of these rooms is called *the* reading room. Here, *the* students sit and study quietly. *The* other room is bigger. In one of its parts, there are several cupboards full of *x* books. Each cupboard has *a* special branch of knowledge hidden within *the* books. I am very fond of *the* cupboard which contains story books. *The* library has books suited to students of all age groups. *The* library is *a* great source of pleasure and knowledge. *A* school without *a* library is like *a* kitchen without *x* food.`,
 
-        `My favorite season is *the* Rainy season. In *x* India it is *a* very important season. *The* agriculture in *x* India depends largely on *the* water given by *the* rains. For me, it is *the* most colorful of all the* seasons. One can see a lot of greenery around oneself. *The* dark clouds are *a* great blessing and are eagerly awaited after *the* scorching summer heat. *The* best part of *the* season is that one gets a lot of unexpected holidays and off from *the* school due to *the* rains. It is *a* pleasure to go out in *the* rains and get wet in *the* water.`,
+        `My favorite season is *the* Rainy season. In *x* India it is *a* very important season. *The* agriculture in *x* India depends largely on *the* water given by *the* rains. For me, it is *the* most colorful of all *the* seasons. One can see a lot of greenery around oneself. *The* dark clouds are *a* great blessing and are eagerly awaited after *the* scorching summer heat. *The* best part of *the* season is that one gets a lot of unexpected holidays from school due to *the* rains. It is *a* pleasure to go out in *the* rain and get wet.`,
 
-        `*x* Examinations are always fearful. They are *a* great cause of fear, anxiety, tension and worry. *The* night before *the* examination is really painful. *The* students have no sleep. They stop eating *x* food. They want to read and revise everything. They are disturbed if someone tells them *an* important question. They at once study for its answer. They are irritated also if someone disturbs them. They pass *the* whole night in tension. They do not take anything in *the* morning. They go to *the* examination hall on *x* empty stomachs.`,
+        `*x* Examinations are always fearful. They are *a* great cause of fear, anxiety, tension and worry. *The* night before *the* examination is really painful. *The* students have no sleep. They stop eating *x* food. They want to read and revise everything. They are disturbed if someone tells them *an* important question. They at once study for its answer. They are irritated if someone disturbs them. They pass *the* whole night in tension. They do not take anything in *the* morning. They go to *the* examination hall on *x* empty stomachs.`,
 
-        `*The* scene at *a* Railway Platform is always enjoyable. It presents *a* picture of *x* mini India. Last Sunday I went to *the* city Railway station to see my uncle off. *The* platform was overcrowded. Passengers of all states like *x* Rajasthan, *x* Tamil Nadu, *x* Assam etc, could be seen. There were many stalls on *the* platform. Small children were running here and there. Coolies in *x* red dresses were going to and fro. Passengers were taking *x* tea. Some people were reading *x* newspapers. They were waiting for *the* train. Soon *the* train came. My uncle got *a* seat and *the* train started. I returned home.`
+        `*The* scene at *a* Railway Platform is always enjoyable. It presents *a* picture of *x* mini India. Last Sunday I went to *the* city Railway station to see my uncle off. *The* platform was overcrowded. There were many stalls on *the* platform. Small children were running here and there. Coolies in *x* red dresses were going to and fro. Passengers were taking *x* tea. Some people were reading *x* newspapers. They were waiting for *the* train. Soon *the* train came. My uncle got *a* seat and *the* train started. I returned home.`
       ]
     },
     {
@@ -233,12 +231,12 @@ Can you pass me *the* salt?`
         title: 'Choose the correct alternative',
         questions: [
           {
-            qText: 'When is `the` not used?',
-            options: `with proper noun, with mountain ranges, with rivers, with name of newspaper`
+            qText: 'When is "the" not used?',
+            options: `with proper noun, with mountain ranges, with rivers, with the name of a newspaper`
           },
           {
             qText:
-              'With which of the following words it is incorrect to use `the`?',
+              'With which of the following words it is incorrect to use "the"?',
             options: `Kolkata, Punjab, Deccan, USA`
           },
           {
@@ -251,22 +249,22 @@ Can you pass me *the* salt?`
             options: `Who invented the radio?, Riya can play a guitar, A cow is a pet animal`
           },
           {
-            qText: '`She is an MSc in Physics.`: Is this sentence correct?',
+            qText: '"She is an MSc in Physics.": Is this sentence correct?',
             options: `Yes, No`
           },
           {
             qText:
-              '`___ examinations are always fearful.`: Which of the following is the most suitable answer?',
+              '"___ examinations are always fearful.": Which of the following is the most suitable answer?',
             options: `x, A, An, The`
           },
           {
             qText:
-              '`A representative from each states including the Rajasthan, the Tamil Nadu and the Assam were gathered for the meeting.` : Is the above sentence correct?',
+              '"A representative from each state including the Rajasthan, the Tamil Nadu and the Assam were gathered for the meeting." : Is the above sentence correct?',
             options: `No, Yes`
           },
           {
             qText:
-              '`A representative from each states including the Rajasthan, the Tamil Nadu and the Assam were gathered for the meeting.` : What is the incorrect usage in the above sentence?',
+              '"A representative from each state including the Rajasthan, the Tamil Nadu and the Assam were gathered for the meeting." : What is the incorrect usage in the above sentence?',
             options: `Use of 'the' before the states, Use of 'A' before representative, Use of 'the' before meeting`
           }
         ]
@@ -429,20 +427,20 @@ The grammar rules for determiners are:
       lockAfter: 2,
       data: [
         `*Those* kids in the house over the road are being really noisy.
-*This* ring looks really good now I'm wearing it.
+*This* ring looks really good now that I'm wearing it.
 I want *that* book that's on the top shelf but I can't reach it.
 *This* headache I've had all day is really annoying me.
 Can you please go and take down *that* horrible picture that's hanging on the kitchen wall.`,
 
         `Can you see all *those* beautiful horses out in the fields?
-*These* gloves don't seem to really fit me properly.
-I'm really fed up with *this* phone as I just can't get the alarm to work.
-Everyone seems to have a Twitter account *these* days.
+*These* gloves don't seem to fit me properly.
+I'm fed up with *this* phone as I just can't get the alarm to work.
+Everyone seems to have a social media account *these* days.
 The house we looked at today was better than *those* three we saw last week.`,
 
         `*This* is the book that I was telling you about earlier.
 Can you hand me *those* scissors on the table?
-I really like *these* shoes, they are so comfortable.
+I like *these* shoes, they are so comfortable.
 *That* movie we watched last night was really good.
 *Those* cupcakes over there look delicious, I think I'll have one.`,
 
@@ -455,7 +453,7 @@ Who is that young woman? She is *your* assistant, I presume.`,
         `The boys were very noisy. She wanted *those* boys to go away.
 There is a tea shop across the street. Arya likes *that* tea shop.
 I don't know where Sruthy and Abishek live. Let's ask Kiara. She knows *their* address.
-I lost *my* pet dog, Holly. Have you seen it? It has a scar on *its* right ear.`
+I lost *my* pet dog, Holly. Have you seen my dog? It has a scar on *its* right ear.`
       ]
     },
     {
@@ -536,15 +534,15 @@ We don't have *much* money left after paying the school fees.`,
 
         `We ate *some* bread and butter for breakfast today.
 Petrol prices go up *each* year.
-I can speak *little* Hindi, I am not very fluent.
+I can speak a *little* Hindi, but I am not very fluent.
 We are expecting *several* guests tonight.
 *Many* people died in that calamity last year.`,
 
-        `Ravi spent *the whole of* last summer trying to fix his uncle's old bike.
+        `Ravi spent the *whole* of last summer trying to fix his uncle's old bike.
 I think there is *enough* food for all our guests.
-This bakery is very popular, *most of* the cookies are sold by lunchtime.
-*All of* our questions about the mystery were answered at the end of the play.
-There was *a good deal of* moisture in the room.`,
+This bakery is very popular, *most* of the cookies are sold by lunchtime.
+*All* of our questions about the mystery were answered at the end of the play.
+There was a good *deal* of moisture in the room.`,
 
         `Ashly: Do you have *any* money on you, Tom?
 Tom: I have *some* money. What do you want to buy?
@@ -648,9 +646,9 @@ Determiners include the following:
       data: [
         `Sam, Harry, Patrick and Henry are in *a (an, the)* beautiful city in Saudi Arabia. *The (A, An)* city is called Abha. They plan to take *a (an, the)* taxi from *the (a, an)* city to visit *the (a, an)* Red Sea. On their way, they will spend *an (a, the)* afternoon at Abha Palace Hotel.`,
 
-        `Their tour guide tells them, “It is *an (a,the)* ideal place for *a (an, the)* trek through *the (a, an)* Green Mountain. We can spot magnificent purple jacaranda trees. It is *a (an, the)* place where artists from all over *the (a, an)* country catch up to share their creativity. *The (A, An)* street is decorated with colorful peices of art and is illuminated at night to offer *a (the, an)* serene ambiance.`,
+        `Their tour guide tells them, “It is *an (a,the)* ideal place for *a (an, the)* trek through *the (a, an)* Green Mountain. We can spot magnificent purple Jacaranda trees. It is *a (an, the)* place where artists from all over *the (a, an)* country catch up to share their creativity. *The (A, An)* street is decorated with colorful pieces of art and is illuminated at night to offer *a (the, an)* serene ambiance.`,
 
-        `*x (the, a)* Dudhsagar Falls is *a (an, the)* four-tiered waterfall located on *the (a, x)* Mandovi River in *the (an, x)* Indian state of *x (a, the)* Goa. It is 60 km from Panaji by road and is located on *the (a, an)* Belgavi–Vasco Da Gama rail route about 46 km east of Madgaon and 80 km south of Belgavi. Dudhsagar Falls is amongst *x (the, an)* India's tallest waterfalls with *a (an, the)* height of 310 m and *an (a, x)* average width of 30 metres.`,
+        `*x (the, a)* Dudhsagar Falls is *a (an, the)* four-tiered waterfall located on *the (a, x)* Mandovi River in *the (an, x)* Indian state of *x (a, the)* Goa. It is 60 km from Panaji by road and is located on *the (a, an)* Belgavi-Vasco Da Gama rail route about 46 km east of Madgaon and 80 km south of Belgavi. Dudhsagar Falls is amongst *x (the, an)* India's tallest waterfalls with *a (an, the)* height of 310 m and *an (a, x)* average width of 30 metres.`,
 
         `*The (A, x)* falls are located in *the (x, a)* Bhagwan Mahaveer Sanctuary and Mollem National Park among *the (x, a)* Western Ghats. *The (x, a)* falls are a punctuation mark in *the (a, x)* journey of *the (a, x)* Mandovi River from *the (a, x)* Western Ghats to *x (the, a)* Panjim where it meets *the (a, x)* Arabian sea.`,
 
@@ -672,7 +670,7 @@ Determiners include the following:
 I thought *my* water bottle was Lost. (I)
 The college is famous for *its* education and placement. (College)
 I said to Mahira, 'I think *this* is your pencil.' (Mahira's)
-Please don't take those. Those are *my* color pencils, not yours. (I)`,
+Please don't take those. Those are *my* colored pencils, not yours. (I)`,
 
         `This is *his* car, isn't it? (Arman's)
 The Mehta brothers are wealthy. This is *their* estate. (Mehta brothers)
@@ -723,7 +721,7 @@ We bought this piece of land ten years ago. This is *our* plot. (we)`,
 
         `*Which* country does the football star Son Heungmin play for?
 *Whose* mother is she?
-*What* ice cream do you like better, chocolate or mintchoco?
+*What* ice cream do you like better, chocolate or mint choco?
 *Which* book are you reading now?
 *How* much noodles should we cook?`,
 
@@ -746,19 +744,15 @@ I wonder *whose* dog that is.
       type: 'fillup',
       commonData: {
         noOptions: true,
-        title:
-          'Read the short messages given below. Expand them into complete sentences, using appropriate determiners.'
+        title: 'Form complete sentences, using appropriate determiners.'
       },
       lockAfter: 2,
       data: [
-        `Interview postponed.
-New date not finalized yet. *The* interview for selection to *the* Officer category has been postponed. The new date for *the* interview has not yet been finalized.`,
+        `*The* interview for selection to *the* Officer category has been postponed. The new date for *the* interview has not yet been finalized.`,
 
-        `Exam starts on Monday. Five Admit Cards missing. Send immediately.
-*The* board examinations for Class X are scheduled to start on Monday. *The* admit cards of five of *the* students are missing. Please send *the* admit cards immediately.`,
+        `*The* board examinations for Class X are scheduled to start on Monday. *The* admit cards of five of *the* students are missing. Please send *the* admit cards immediately.`,
 
-        `Shortage of essential medicines. Send immediately.
-As there is *a* shortage of essential medicines, please send them immediately to the dispensary.`,
+        `As there is *a* shortage of essential medicines, please send them immediately to the dispensary.`,
 
         `Ricky: Is this *your* first visit to *the* city?
 Ben: No, it is *my* second trip. I was here a few years ago.
@@ -789,7 +783,7 @@ Ben: He lives near *the* International Airport.`
 
         `*The* sun was shining brightly in *the* clear blue sky. *The* birds were chirping merrily as they flew from tree to tree. *The* trees were swaying gently in *the* breeze, casting dappled shadows on *the* ground. It was *a* perfect day for *a* picnic.`,
 
-        `A *few* people were gathered around *the* entrance to *the* museum, waiting for it to open. They chatted excitedly amongst themselves, discussing *what* exhibits they wanted to see first. As *the* doors opened, they eagerly filed inside, ready to explore.`,
+        `A *few* people have gathered around *the* entrance to *the* museum, waiting for it to open. They chatted excitedly amongst themselves, discussing *what* exhibits they wanted to see first. As *the* doors opened, they eagerly filed inside, ready to explore.`,
 
         `All of *the* guests at *the* party were having *a* great time. They mingled and laughed, enjoying *the* delicious food and drinks. *The* music was playing and *the* atmosphere was festive.`
       ]
@@ -806,17 +800,16 @@ Ben: He lives near *the* International Airport.`
       lockAfter: 1,
       data: [
         `There are *a few* girls who have not brought their costumes for the play.
-We have *every* document you asked for.
-Ritika danced with *every* celebrity present in the function.
+Ritika danced with *every* celebrity present at the function.
 Can you sing *a* song for me?
 *This* story is really intriguing.
 Nobody understood anything *the* teacher taught.`,
 
-        `There are *some* books in the class.
+        `There are *some* books on the table that do not have names written on them.
 I just had *an* apple and *some* orange juice.
 Do you have *any* food left?
 Does Reem have *a* pet dog?
-*That* story you told me was very moving.
+*That* story you told me about the blind puppy was very moving.
 Mihika forgot to bring *her* spectacles to work.`,
 
         `*The* sky is blue.
@@ -861,9 +854,9 @@ He is very busy. He has *little* time to watch TV.
 The lady has *a few* ornaments to give.
 We dropped the idea to visit Delhi as we had *little* money.`,
 
-        `Only *a few* villages have remained the same with the arrival of the internet. But *little* change has come to my village in the past decade, even with the arrival of the internet. Most of the time there is no electricity.`,
+        `Only *a few* villages have remained the same with the arrival of the Internet. But *little* change has come to my village in the past decade, even with the arrival of the Internet. Most of the time there is no electricity.`,
 
-        `*Very few* villages have the facilities that the cities or towns have. The *few* villages with better road connectivity have facilities like running water and electricity. Only *a few* of those villages have access to the internet.`,
+        `*Very few* villages have the facilities that the cities or towns have. The *few* villages with better road connectivity have facilities like running water and electricity. Only *a few* of those villages have access to the Internet.`,
 
         `I went to the grocery store to buy some ingredients for dinner. When I arrived, I realized that I only had *a few* items left on my shopping list. I quickly picked up *a few* tomatoes, a head of lettuce, and some garlic. As I was browsing the aisles, I noticed that the *few* cans of soup that were left on the shelf were dented, so I decided not to buy them. Instead, I grabbed *a little* carton of chicken broth to use in my recipe. I also picked up the *little* bag of flour I needed to make bread. Although I didn't need much, I was grateful to have found everything on my list.`
       ]

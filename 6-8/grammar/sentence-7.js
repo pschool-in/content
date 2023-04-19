@@ -10,11 +10,11 @@ export default {
       data: {
         title: 'Sentence',
         text: [
-          `A sentence is a group of words that expresses a complete thought or idea. It must have a subject (who or what the sentence is about) and a predicate (what the subject is doing).
+          `A sentence is a group of words that expresses a complete thought or idea. It must have a subject and a predicate.
 => Sentences can be classified based on their structure. There are four types of sentences: simple, compound, complex, and compound-complex.
 1. Simple Sentence: A simple sentence consists of one independent clause, which has a subject and a predicate.
 Example: John is reading a book.
-2. Compound Sentence: A compound sentence consists of two or more independent clauses joined together with a coordinating conjunction (such as "and," "but," or "or").
+2. Compound Sentence: A compound sentence consists of two or more independent clauses joined together with a coordinating conjunction.
 Example: I wanted to go to the party, but I had to study for my exam.
 3. Complex Sentence: A complex sentence consists of one independent clause and one or more dependent clauses. A dependent clause cannot stand alone as a sentence and depends on the independent clause to make sense.
 Example: Because it was raining, we stayed inside.
@@ -98,7 +98,7 @@ Example: Wow, what a beautiful sunset!`
 
         `*She* plays the piano beautifully.
 *The car* ran out of gas.
-*They* ate pizza for dinner.
+*They* ate dosa for dinner.
 *The teacher* graded the tests.
 *The flowers* bloomed in the spring.`,
 
@@ -139,7 +139,7 @@ The cake *smells delicious*.`,
 
         `She *plays the piano beautifully*.
 The car *ran out of gas*.
-They *ate pizza for dinner*.
+They *ate dosa for dinner*.
 The teacher *graded the tests*.
 The flowers *bloomed in the spring*.`,
 
@@ -168,29 +168,29 @@ The book *was very interesting*.`
       lockAfter: 2,
       data: [
         `*Dogs* bark at night.
-*The sun* sets in the west.
-*The cow* gives us milk.
+The *sun* sets in the west.
+The *cow* gives us milk.
 *It* is cloudy today.`,
 
         `*Birds* fly in the air.
 *I* am in a hurry.
-*The Earth* orbits around the sun.
-*The capital* of Italy is Rome.`,
+The *Earth* orbits around the sun.
+The *capital* of Italy is Rome.`,
 
         `*Water* freezes at 0 degrees Celsius.
-*The human body* has 206 bones.
-*The tallest mountain* in the world is Mount Everest.
-*The first person* to walk on the moon was Neil Armstrong.`,
+The *human* body has 206 bones.
+The tallest *mountain* in the world is Mount Everest.
+The first *person* to walk on the moon was Neil Armstrong.`,
 
-        `*The heart* pumps blood throughout the body.
-*The Pacific* Ocean is the largest ocean in the world.
-*The human eye* can distinguish approximately 10 million different colors.
-*The Sahara Desert* is the largest hot desert in the world.`,
+        `The *heart* pumps blood throughout the body.
+The *Pacific* Ocean is the largest ocean in the world.
+The human *eye* can distinguish approximately 10 million different colors.
+The Sahara *Desert* is the largest hot desert in the world.`,
 
-        `*The Earth* is the third planet from the sun.
-*The moon* orbits around the Earth.
-*The capital* of France is Paris.
-*The Nile River* is the longest river in the world.`
+        `The E*arth* is the third planet from the sun.
+The *moon* orbits around the Earth.
+The *capital* of France is Paris.
+The Nile *River* is the longest river in the world.`
       ]
     },
     {
@@ -206,7 +206,7 @@ The book *was very interesting*.`
             name: 'Declarative',
             text: `The movie starts at 7 PM.
 She is a talented musician.
-The pizza tastes delicious.`
+The samosa tastes delicious.`
           },
           {
             name: 'Imperative',
@@ -248,8 +248,7 @@ Congratulations, you got the job!`
       data: {
         title: 'Conjunctions',
         text: [
-          `# Conjunctions
-Conjunctions are used to join words, two sentences or two clauses. `,
+          `Conjunctions are used to join words, two sentences or two clauses. `,
           {
             type: 'html',
             text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`
@@ -258,7 +257,7 @@ Conjunctions are used to join words, two sentences or two clauses. `,
           {
             type: 'html',
             text: `Some subordinating conjunctions are <b>as long as</b>, <b>because</b>, <b>even if</b>, <b>if</b>, <b>unless</b>, <b>before</b>, <b>since</b>, <b>though</b>, etc.<br>
-<b>Examples</b>: <b>Unless</b> you submit all the supporting documents, your application will not be processed.<br>
+Examples: <b>Unless</b> you submit all the supporting documents, your application will not be processed.<br>
 I was not able to go to the hospital <b>because</b> it was raining heavily.<br>
 <b>When</b> I reached the railway station, I found out that the train had already left.<br>
 <b>Although</b> we had parked in the parking lot, the traffic police issued us a parking ticket.<br>
@@ -321,50 +320,36 @@ You will not pass *unless* you study.
 She will not stop crying *unless* she meets her father.
 She walked faster *in order that* she could get the bus.`,
 
-        `I could get there, *if only*, tomorrow.
-*Though* she was intelligent, she failed.
-I am happy *although* I want to be more.
+        `*Though* she was intelligent, she failed.
 Wait here *till* I come.
-I was reading *while* eating.
+I was reading *while* eating breakfast.
 She told me *that* she was a poet.
 They know *that* you can be handy.
-She was talking *while* crossing.`,
+She was talking on the phone *while* crossing the road.`,
 
         `*Once* she was in England, she became arrogant.
-I take tea *once*  a day.
-*As* I left my home, I found a purse.
+I drink tea *once* a day.
+*As* I left my home, I found a purse at the door.
 He talks to me *as if* he were my boss.
 She behaves *as if* she were a dictator.
-She is weak *as* she was ill.
 He practiced for the exams *till* late.
-*Although* they are good at it, they did mistakes.`,
+*Although* they are good at basketball, they made mistakes.`,
 
-        `I was late to my work *even though* I helped the old lady.
-She may look beautiful *if* she uses this cream.
-You could go and play *after* you have done the dishes.
-*Now that* it is clear India is in the semifinal, we are celebrating.
+        `You could go and play *after* you have finished your homework.
+*Now that* India is in the semifinal, we are celebrating.
 Do not go *until* I come.
 I know the time *when* she was born.
-She is aware of *when* they could harm her.
 I can give you this book *on condition that* you will keep it safe.`,
 
         `You may go on leave *provided* the project is finished on time.
-She will marry you *provided* she is allowed to study further.
-She returned the phone *on the condition that* he would never irritate her.
 They are not ready to pay *until* they get the house.
-He showed anger *as though* he were the victim of it.
-She would die *rather than* beg.
-*Whenever* I wanted to meet him, he didn't come.
-I keep myself in my mother's cap *whenever* I feel sad.`,
+He showed anger *as though* he was the victim of it.
+*Whenever* I went to meet him, he walked past me.`,
 
-        `I will eat a pizza *because* I am hungry.
-I would live in Delhi *rather than* London.
+        `I will eat a roti *because* I am hungry.
+I would live in Delhi *rather than* in London.
 She cared for the baby *as though* she were her mother.
-*Now that* her marriage has been fixed she wanted to quit her job.
-*As long as* electricity is supplied, the machine will run.
-She is the new captain *as long as* the previous captain recovers.
-*Whenever* I wanted to meet him, he didn't come.
-I keep myself in my mother's cap *whenever* I feel sad.`
+*As long as* electricity is supplied, the machine will run.`
       ]
     },
     {
@@ -380,26 +365,26 @@ I keep myself in my mother's cap *whenever* I feel sad.`
         }
       },
       data: [
-        `*As soon as* Deepa reached home, she called to let me know .
-*Even though* she had paid all the bills, the system showed that she had some due payments to be done.
+        `*As soon as* Deepa reached home, she called to let me know.
 *If* you do not find it interesting, it is okay.
+*Unless* she finishes the work given, she cannot go home.
 *While* I was walking across the street, I saw that the shops were closed.`,
 
-        `*Unless* she finishes the work given, she cannot go home.
+        `*Even though* she had paid all the bills, the system showed that she had some due payments.
 *Before* you make a decision, just take a second opinion.
 *Though* he was tired, he agreed to help me out.`,
 
         `She knew that there was a nationwide lockdown today only *after* I told her about it.
-*When* you are done with it, let me know.
+*When* you are done with the work, let me know.
 I think this place will not feel the same ever again *since* they demolished the football gallery.`,
 
-        `I will eat a pizza *because* I am hungry.
-I would live in Delhi *rather than* London.
+        `I will eat a pastry *because* I am hungry.
+I would live in Delhi *rather than* in London.
 She cared for the baby *as though* she were her mother`,
 
-        `I was late to my work *even though* I helped the old lady.
-She may look beautiful *if* she uses this cream.
-You could go and play *after* you have done the dishes.`
+        `You could go and play *after* you have finished your homework.
+*As long as* electricity is supplied, the machine will run.        
+I drink tea *once* a day.`
       ]
     },
     {
@@ -409,8 +394,7 @@ You could go and play *after* you have done the dishes.`
       data: {
         title: 'Coordinating Conjunctions',
         text: [
-          `# Coordinating Conjunctions
-The coordinating conjunctions are used to connect words, phrases and clauses of equal ranks. The coordinating conjunctions include: and, but, or, nor, for, yet, so, etc.
+          `The coordinating conjunctions are used to connect words, phrases and clauses of equal ranks. The coordinating conjunctions include: and, but, or, nor, for, yet, so, etc.
 1. And: It is used to combine two words, sentences or ideas.`,
           {
             type: 'html',
@@ -419,7 +403,7 @@ The coordinating conjunctions are used to connect words, phrases and clauses of 
           `2. But: It is used to connect to contrast ideas.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I am dancing, <b>but</b> she is singing.`
+            text: `<b>Examples</b> - I love dancing, <b>but</b> she likes singing.`
           },
           `3. Or: It is used to express a choice between two things.`,
           {
@@ -495,18 +479,18 @@ The coordinating conjunctions are used to connect words, phrases and clauses of 
         }
       },
       data: [
-        `Joshua is intelligent *and* Jun is stupid.
+        `Joshua is intelligent *and* smart.
 Jake plays baseball well, *yet* his favorite sport is football.
 Jay is rich *but* stingy.
 Today is my birthday, *so* I want a new dress.`,
 
         `Do you want admission to Poland, *or* do you want to study in Canada?
-Sunoo *and* Jungwon planned to have lunch at the convineince store.
+Sunoo *and* Jungwon planned to have lunch at the convenience store.
 My sister did not collect the clothes from the dry cleaner *nor* did she buy the items on the grocery list.`,
 
         `Niki had a lot of sweets to an extent that he could become sick, *yet* he says he can have more.
 The teacher did not ask for Mahira *but* Mahir.
-I met my friend at old street, *and* from there, we went to the light house together.`,
+I met my friend at Old Street, *and* from there, we went to the lighthouse together.`,
 
         `I want to go to the beach, *but* it looks like it might rain.
 She wanted to buy the blue dress, *so* she asked the sales associate for a smaller size.
@@ -530,7 +514,7 @@ The concert tickets are sold out, *and* we can't find any online either.`
       data: [
         `Me *and* my friend Alka had dinner at the Ramees Hotel, *for* it was the last day before she moved to Dubai.
 See to it that you leave home early *so* you can reach the exam center in time.
-Meera reached home late, *yet* she looked very energetic.
+Meera reached home late from work, *yet* she looked very energetic.
 Do you like black olives *or* green olives?
 Jay is sure that he locked the door, *but* he cannot remember if he took the keys.`,
 
@@ -546,7 +530,7 @@ There is no demand *for* this kind of mobile, *so* we can't place an order now.
 He was angry, *yet* he said nothing.
 We can either walk *or* take a bus.`,
 
-        `I want to go to the beach, *and* I also want to visit the museum.
+        `I want to go to the beach, *and* also visit the museum.
 She likes to hike, *but* she hates camping.
 You can have cake *or* ice cream for dessert.
 I neither like *nor* dislike spicy food.
@@ -554,7 +538,7 @@ He is studying hard, *for* he wants to get into a good college.`,
 
         `It was raining, *so* we stayed inside all day.
 She is smart *yet* humble.
-I need to go grocery shopping, *and* I have to do laundry too.
+I need to go grocery shopping, *and* have to do laundry too.
 He didn't study for the exam, *so* he failed.
 She doesn't have a lot of experience, *yet* she's very confident.`
       ]
@@ -585,7 +569,7 @@ I can't decide what to wear, *so* I'm going to ask my friend for advice.`,
         `The sun was shining, *but* it was still a little chilly outside.
 She likes to cook, *and* she makes amazing Italian food.
 He was tired and hungry, *so* he decided to stop at a diner.
-I need to buy groceries, *but* I also need to do laundry.
+I need to buy groceries, *but* also need to do laundry.
 They went for a walk in the park, *and* they saw a lot of birds.`,
 
         `She was running late, *but* she still managed to catch the train.
@@ -655,7 +639,7 @@ She is studying Spanish, *and* she hopes to travel to Spain someday.`
       data: [
         `Although she had a lot of work to do,
 she decided to go to the gym,
-and she felt better afterwards.`,
+and she felt better afterward.`,
 
         `While the teacher was giving the lecture,
 the students were taking notes,
@@ -723,7 +707,7 @@ Example: One of my friends is sick.
 Examples: Each boy was given a prize.
 Every day is a battle here.
 4. If two nouns are connected by 'and' but are meant for one person or one idea then the verb becomes singular.
-Example: Time and tide waits for no one.
+Example: Time and tide wait for no one.
 5. When two subjects are joined by 'as well as, along with, together with, in addition to' then the verb agrees to the first subject.
 Examples: She as well as her friends is very pleasing.
 The boys together with the coach were practicing for the match.
@@ -756,7 +740,7 @@ Either he or his friends were the culprit. `
         questions: [
           {
             qText: `Which of the following rules for subject-verb agreement is incorrect?`,
-            options: `Nouns connected by 'each' and 'every' take a plural verb with them, If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there', Two nouns or pronouns joined by 'and' takes a plural verb, When 'one of' is used with a plural noun, the verb after it is always singular`
+            options: `Nouns connected by 'each' and 'every' takes a plural verb with them, If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there', Two nouns or pronouns joined by 'and' takes a plural verb, When 'one of' is used with a plural noun, the verb after it is always singular`
           },
           {
             qText: `Which of the following sentences has a subject-verb agreement error?`,
@@ -781,21 +765,21 @@ Either he or his friends were the culprit. `
         [
           `Birds are taking rest on the tree.
 Maya does not get up in the morning.
-The group of students are planning a trip.`,
+The group of students is planning a trip.`,
 
           `One of my sisters live in Ranchi.
 The group of students is planning a trip.`
         ],
         [
           `She loves chocolates very much.
-The players has stopped shouting.
+The players have stopped shouting.
 The dogs run in the park.`,
 
           `Chennai and Kolkata is beautiful cities.
 The dogs runs in the park.`
         ],
         [
-          `Mr Singh who was a poet and singer is no more.
+          `Mr. Singh who was a poet and singer is no more.
 You and not me are the wrong doer.
 The book on the table is interesting.`,
 
@@ -1081,13 +1065,13 @@ An adverb phrase functions as an adverb in a sentence. For example: "He drove th
             title: ['Phrases', 'Clauses'],
             text: [
               `A phrase does not have a subject and predicate.
-A phrase is not complete, cannot make sense or convey meaning if it stands on its own.
+A phrase is not complete, and cannot make sense or convey meaning if it stands on its own.
 There are five types of phrases namely noun phrase, adverb phrase, adjective phrase and prepositional phrase.
 Example: There is an unidentified vehicle in front of our house.`,
 
               `A clause has a subject and a predicate.
 In some cases, a clause can look complete, convey meaning and make sense when separated from the sentence.
-There are two types of clauses namely independent clause and dependent clause.
+There are two types of clauses namely independent clauses and dependent clauses.
 Example: I am sick, so I am going to see the doctor.`
             ]
           }
@@ -1226,7 +1210,7 @@ The researcher said that he had found the chemical compound.`
           },
           {
             qText: 'Kartika left the office _______________.',
-            options: `after finishing her work, finishing her work, at finishng her work`
+            options: `after finishing her work, finishing her work, at finishing her work`
           },
           {
             qText: 'Parvathi is a girl ______________________.',
@@ -1545,7 +1529,7 @@ Babies cry when they are hungry and sick.`
             text: `If you are focussed, you will achieve your goal.
 If you take some medicines, you will feel better.
 If you go out now, you will get wet in the rain.
-If you like animated movies, you will like Inside out.`
+If you like animated movies, you will like Inside Out.`
           }
         ]
       }
@@ -1560,7 +1544,7 @@ If you like animated movies, you will like Inside out.`
         types: [
           {
             name: 'Second',
-            text: `If I won the lottery, I would buy all the famous super cars.
+            text: `If I won the lottery, I would buy all the famous supercars.
 If I had a choice, I would never marry at all.
 If I had magical powers, I could change the world. 
 If I were a bird, I would happily fly around the world.`
@@ -1603,7 +1587,7 @@ The dog *will* bite you if you keep teasing it.
 If Alexander Bell had not been an inventor, today we *would* not be using telephones.
 If Wellington had lost the battle of Waterloo, Napolean Bonaparte *would* have been the president of France.`,
 
-        `Neil Armstrong *would* not have walked upon the moon unless the Americans had not developed space flight.
+        `Neil Armstrong *would* not have walked on the moon unless the Americans had not developed space flight.
 The other team *will* win if we lose hope.
 If you find problems difficult, you *should* keep trying and never give up.
 If Samar does not have an umbrella, he *will* get wet in the rain.
@@ -1617,7 +1601,7 @@ The ice *will* melt if one places it in the sun.`,
 
         `I *would* not ask any question unless I could ask the president of America the secret of his success.
 If the world were to end in five minutes, I *would* pray to God for mercy.
-If I found a diamond on the street, I *would* search for the owner of it.
+If I found a diamond on the street, I *would* search for its owner of it.
 If a cat is fed, it *will* not kill rats.
 In old age, if people had no fire, they *would* eat their meat raw.`
       ]

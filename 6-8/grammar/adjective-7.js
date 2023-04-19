@@ -74,7 +74,7 @@ Nouns can be used as adjectives to modify other nouns in a sentence. This type o
 5. <b>Tennis</b> shoes - In this phrase, "<b>tennis</b>" is used as an adjective to describe the type of shoes.`
           },
           `# Adjectives with -ly
-Adjectives with -ly are adjectives that are formed by adding -ly to a base adjective. These adjectives describe how something is done or how something is done.`,
+Adjectives with -ly are adjectives that are formed by adding -ly to a root word. These adjectives describe how something is done or how something is done.`,
           {
             type: 'html',
             text: `Examples: <b>Quickly</b>; <b>Carefully</b>; <b>Quietly</b>; <b>Happily</b>; <b>Lazily</b>`
@@ -154,7 +154,7 @@ Each *one* of us should eat healthy food.
         `Rohan made *several* calls from his mobile.
 *Many* students participated in the art competitions.
 May I have *three* coffee, please?
-There are *many* call centers of amazon across India
+There are *many* call centers across India
 A *few* people are allowed inside the room.`
       ]
     },
@@ -228,7 +228,7 @@ The giraffe is the tallest animal on earth.`
 The sea is calm today.
 The puppy is playful.`,
 
-          `The vanilla cake is cheaper than the chocholate cake.
+          `The vanilla cake is cheaper than the chocolate cake.
 Her new phone is better than her old one.
 He was braver than I thought he would be.
 I am happier when I am with my friends.`,
@@ -239,12 +239,12 @@ Usain Bolt is the fastest runner in the world.
 The blue whale is the biggest animal on earth.`
         ],
         [
-          `The pizza smells delicious.
+          `The biriyani smells delicious.
 She is a wonderful friend.
 The mountain is majestic.
 The rainbow is stunning.`,
 
-          `Her family is richer than mine.
+          `Her family is wealthier than mine.
 The weightlifter is stronger than the runner.
 The suitcase is heavier than I expected.
 The sun is brighter than the moon.`,
@@ -375,7 +375,7 @@ The *smartphone* charger cable is long.`
       noOptions: true,
       data: {
         title: 'Fill in the blanks with participal adjectives',
-        text: `The *excied* child opened the present. (excite)
+        text: `The *excited* child opened the present. (excite)
 The *blooming* flowers filled the room with fragrance. (bloom)
 The *racing* car sped down the highway. (race)
 The *falling* snowflakes covered the ground. (fall)

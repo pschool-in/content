@@ -184,7 +184,7 @@ Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream
           },
           {
             qText: `Which of the following is an example of a verb that can be both regular and irregular?`,
-            options: `Burn, sit, put, drink`
+            options: `burn, sit, put, drink`
           },
           {
             qText: `What is the past participle form of the irregular verb "dream" in the regular form?`,
@@ -237,7 +237,7 @@ Strive, Strove, Striven`,
 Arise, Arose, Arisen
 Know, Knew, Known
 Grow, Grew, Grown
-Lay, Laid, Laid`,
+Lay, Laid, Layed`,
 
         `Keep, Kept, Keped
 Cut, Cut, Cuted
@@ -266,7 +266,7 @@ Shut, Shut, Shuted`
     },
     {
       label: 'Past Participle',
-      id: 'complete-2',
+      id: 'complete-past',
       type: 'completePuzzle',
       lockAfter: 1,
       commonData: {
@@ -288,8 +288,8 @@ Wear, Worn, Wore`,
 
         `Tear, Torn, Tore
 Bear, Borne, Bore
-Buy, Bought,  Bought
-Fight, Fought, Fought
+Buy, Bought, Brought
+Fight, Fought, Fouht
 Break, Broken, Broke`,
 
         `Speak, Spoken, Spoke
@@ -563,6 +563,7 @@ We *are planning (plan)* to go on vacation next month.`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
+      id: 'mcq-tr',
       data: {
         title: 'Identify the underlined part and choose the correct option.',
         questions: [
@@ -597,7 +598,7 @@ We *are planning (plan)* to go on vacation next month.`
         noOptions: true,
         title: `Use the correct form of the verb given in the brackets to complete the following paragraph.`,
         text: `Mr Koch, the mathematics teacher *gave* (give) Albert the reference he *wanted* (want).
-Albert *got* (get) summoned to the head teacher's room. The head teacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
+Albert *got* (get) summoned to the head teacher's room. The headteacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
       }
     },
     {
@@ -788,7 +789,7 @@ She <b>shall</b> win. (<b>Emphasized act</b>)`
             text: `<b>Examples</b>: How <b>dare</b> you touch my pen?<br>
 She <b>dare</b> not play tennis with me.`
           },
-          `## Uses of 'Used to'
+          `# Uses of 'Used to'
 1. To express a past habit.`,
           {
             type: 'html',
@@ -926,8 +927,7 @@ I am <b>used to</b> a life full of struggle.`
             {
               qText:
                 'Which of the following is a correct use of the modal verb "can"?',
-              options:
-                'They can`t come to the party tonight, I can like to play soccer, She can sings beautifully.'
+              options: `They can't come to the party tonight, I can like to play soccer, She can sings beautifully.`
             },
             {
               qText:
@@ -1047,7 +1047,7 @@ We focus on our studies so that we *may* not fail in our examinations.
 Let whatever hardships may come our way. One day, we *will* overcome.`,
 
         `His goggles are kept in the cupboard, but nobody *dares* to touch them.
-Sheveta is a little snobbish and naughty girl. We *need* not prank at her. She will get angry.
+Sheveta is a little snobbish and naughty girl. We *need* not prank her. She will get angry.
 Don't challenge me. If I try, she *shall* come and talk to me politely.
 *Would* you like to try your hand at chess, madam?`,
 
@@ -1063,8 +1063,7 @@ You *must* not use your cell phone while driving.`,
 
         `She *would* like to visit the museum this weekend.
 We *will* have to finish this project before the deadline.
-You *need* to submit your application by tomorrow.
-They *should* not smoke in this area.`
+You *need* to submit your application by tomorrow.`
       ]
     }
   ]

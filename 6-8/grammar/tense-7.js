@@ -10,8 +10,7 @@ export default {
       data: {
         title: 'Tenses',
         text: [
-          `# Tenses
-Tense indicates the time when an action takes place.
+          `Tense indicates the time when an action takes place.
 # Present Tense
 1. Simple Present Tense: This form of tense is used to express habitual action, general truths and to express a future event that is part of a fixed timetable.`,
           {
@@ -48,7 +47,7 @@ He <b>has been</b> ill since last week`
         text: `Nimisha *loves (love)* to play indoor games. 
 Alka and Neha *do not (does not)* play chess together. 
 *Does (Do)* Manu sing a song?
-Shipra likes to *watch (watched)* a cricket match on television. 
+Shipra likes to *watch (watched)* cricket matches on television. 
 Vaishak *does not (did not)* study social science on Wednesday.`
       }
     },
@@ -74,7 +73,7 @@ Are they *going (went)* outside?`
         title:
           'Complete the sentences in the present perfect tense by choosing the appropriate option.',
         text: `Sruthy *has not gone (will not go)* to the office today.
-Priya *has visited (will visit)* the Taj Mahal in the noon.
+Priya *has visited (will visit)* the Taj Mahal.
 We *have decided (decided)* to go by bus to Mangalore.
 What *have (are)* they *decided (deciding)* about returning from Banglore?
 Vivan *has (is)* just *visited (visting)* Jodhpur.`
@@ -111,7 +110,7 @@ Mark is singing a Kpop song.`
             name: 'Past',
             text: `I finished working on it two days ago.
 We went to watch a movie last Sunday.
-Mark sang a Kpop song at the music festvial last week.`
+Mark sang a Kpop song at the music festival last week.`
           }
         ]
       }
@@ -129,13 +128,13 @@ Mark sang a Kpop song at the music festvial last week.`
 Does Priya *feel* better now? (feel)
 Siji *learns* everything quickly. (learn)
 Her friend *earns* money from online business. (earn)
-Niki need your *support*. (support)`,
+Niki needs your *support*. (support)`,
 
         `Do you *work* in the software industry? (work)
 Do you *like* reading? (like)
 It *does* not *work* on my hair. (work)
 Mickey *eats* all the fruits. (eat)
-Jay and Jake *likes* to travel together. (like)`,
+Jay and Jake *like* to travel together. (like)`,
 
         `She *reads* (read) a book in the library.
 They *play* (play) soccer every weekend.
@@ -223,7 +222,7 @@ The concert *was (is)* amazing last night.`,
 He *wrote (write)* a letter to his friend yesterday.
 The train *arrived (arrives)* at the station on time yesterday.
 The weather *was (is)* great on our trip last week.
-She *practiced (practises)* playing the guitar for an hour yesterday.`
+She *practiced (practices)* playing the guitar for an hour yesterday.`
       ]
     },
     {
@@ -234,10 +233,10 @@ She *practiced (practises)* playing the guitar for an hour yesterday.`
         title: `Complete the sentences in the past continuous tense by choosing the appropriate option.`
       },
       data: [
-        `The toddler *was weeping (weeped)* in her room.
+        `The toddler *was weeping (wept)* in her room.
 Boys *were making (made)* so much noise in the classroom.
 Why *were (was)* you *giving (gave)* her an angry look?
-We saw the aeroplane while it *was taking (took)* off.
+We saw the airplane while it *was taking (took)* off.
 The students *were saying (said)* their morning prayer when I reached their school.`,
 
         `I *was showering (had showered)* when the telephone bell rang.
@@ -313,7 +312,7 @@ She *had practiced (practised)* playing the guitar for months before her recital
           'Complete the sentences in the past perfect continuous tense by choosing the appropriate option.',
         text: `He *had been studying (had studied)* hard since December. 
 Mariyam *had been fooling (has fooled)* her boyfriend for many years.
-How long *had (has)* the three neighbors *been quarreling (quarelled)* when a fourth one joined them? 
+How long *had (has)* the three neighbors *been quarreling (quarreled)* when a fourth one joined them? 
 Heena *had been sleeping (has slept)* for five hours when Riyas knocked at her door. 
 Tenzing *had been trying (had tried)* to climb Everest for many years before he succeeded in his mission. `
       }
@@ -328,14 +327,14 @@ Tenzing *had been trying (had tried)* to climb Everest for many years before he 
           {
             name: 'Yes',
             text: `Rahul passed the Secondary School Examination in 2017.
-They left for Dubai yesterday noon.
+They left for Dubai yesterday at noon.
 Riya wrote a letter to her father last night.
 Babar founded the Mughal Empire.`
           },
           {
             name: 'No',
             text: `Rahul has passed the Secondary School Examination in 2017.
-They have left for Dubai yesterday noon.
+They had already left for Dubai yesterday at noon.
 Riya has written a letter to her father last night.
 Babar has founded the Mughal Empire.`
           }
@@ -434,7 +433,7 @@ The log of wood *will break* and they will fall into the ditch.
 They *will bind* his hand and foot and hold him fast.
 I *shall break* the lock open and get into the room.
 The gardener *will be* watering the plants.
-Mike *will have* really committed a blunder.
+Mike *will have* committed a blunder.
 You *will* find her crying bitterly.`
       }
     },
@@ -475,7 +474,7 @@ We *were playing* (play) basketball in the park when it started raining. (past c
 
         `My parents *took* (take) me to the beach last weekend. (simple past)
 She *had finished* (finish) her project before the deadline. (past perfect)
-They *travelled* (travel) to Japan last year. (simple past)
+They *traveled* (travel) to Japan last year. (simple past)
 He *ran* (run) in the marathon yesterday. (simple past)
 The teacher *was explaining* (explain) the lesson in class when the fire alarm went off. (past continuous)`,
 
@@ -496,9 +495,9 @@ They *moved* (move) to a new city last month. (simple past)`
           {
             name: 'Present',
             text: `Does Manu sing a song?
-Shipra likes to watch a cricket match on television. 
+Shipra likes to watch cricket matches on television. 
 Vaishak does not study social science on Wednesday.
-Nithi has been studying for exams since the morning. 
+Nithi has been studying for exams since morning. 
 Mark has been playing futsal with his friends for two hours.`
           },
           {
@@ -565,7 +564,7 @@ He was so thirsty that he drunk all the milk.`
         ],
         [
           `I fear he will fail.
-I looked into the bus, but saw none.
+I looked into the bus - but saw none.
 He works hard lest he should fail.
 He fell off the roof and was injured.`,
 

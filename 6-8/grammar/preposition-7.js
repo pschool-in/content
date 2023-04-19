@@ -104,10 +104,6 @@ The lines were printed *in* italics.`
               options: 'for, to, in, by'
             },
             {
-              qText: 'Indians have strong faith __ God.',
-              options: 'in, to, on, into'
-            },
-            {
               qText: 'I help those who are junior __ me.',
               options: 'to, than, in, for'
             },
@@ -427,13 +423,13 @@ The book is lying *on* the table.`
       },
       lockAfter: 1,
       data: [
-        `Meet me *after* 4 o'clock.
+        `Meet me *after* 4 o'clock. I am very busy till then.
 We will get the finished product *in* May.
 Will you visit us *at* Diwali?
 *During* summer, it becomes very hot and humid in the plains.`,
 
-        `What did you discuss *at* the meeting
-He has been living here *for* five years
+        `What did you discuss *at* the meeting?
+He has been living here *for* five years.
 We had a holiday *on* 18 April.
 We reached *in* time to catch the train.`,
 
@@ -546,8 +542,7 @@ Place a checkmark *within* the box.`,
         `The gas station is *by* the grocery store.
 The park is *near* her house.
 There is a deer *between* the two trees.
-There is a purple flower *among* the weeds.
-The garage is *opposite* the house.`,
+There is a purple flower *among* the weeds.`,
 
         `*Among* all the applicants, Sarah was the most qualified for the job.
 The grocery store is located *near* my house.
