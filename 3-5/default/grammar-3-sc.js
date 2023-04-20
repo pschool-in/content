@@ -166,6 +166,60 @@ Don't under-estimate your *strength*.`
           }
         ]
       }
+    },
+    {
+      label: 'Preposition',
+      id: 'mcq',
+      type: 'mcq',
+      data: {
+        questions: [
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/in',
+            options: 'in, on, at, above'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/on',
+            options: 'on, in, at, above'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/above',
+            options: 'above, at, on, in'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/behind',
+            options: 'behind, above, near, on'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/below',
+            options: 'below, behind, near, after'
+          },
+          {
+            qText: 'The ball is _____ the boxes.',
+            qImg: 'vocabulary/between',
+            options: 'between, among, before, below'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/in_front_of',
+            options: 'in front of, front, between, among'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/near',
+            options: 'near, next, in front of, front'
+          },
+          {
+            qText: 'The ball is _____ the box.',
+            qImg: 'vocabulary/next_to',
+            options: 'next to, above, in front of, between'
+          }
+        ]
+      }
     }
   ]
 };
