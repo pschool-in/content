@@ -80,21 +80,21 @@ Example - A mistake was made by me.
         noOptions: true
       },
       data: [
-        `She *was brought* up by her aunt. (bring) 
-Invitation cards *have been sent* to all her friends. (send) 
-You *will be invited* to the feast. (invite)
-The result *was declared* last Monday. (declare)`,
+        `She was *brought* up by her aunt. (bring) 
+Invitation cards have *been sent* to all her friends. (send) 
+You will *be invited* to the feast. (invite)
+The result was *declared* last Monday. (declare)`,
 
-        `They *were alarmed* at the report of the gun. (alarm) 
-We *were shocked* at his failure. (shock) 
-A mistake *was made* by me. (made)
-His work *has been done* by him. (do) `,
+        `They were *alarmed* at the report of the gun. (alarm) 
+We were *shocked* at his failure. (shock) 
+A mistake was *made* by me. (made)
+His work has *been done* by him. (do) `,
 
-        `The package *was delivered* by the postman. (deliver)
-The letter *was written* by the secretary. (write)
-The glass *was broken* by the child. (broke)
-The mistake *was made* by the employee. (make)
-The concert *was enjoyed* by the audience. (enjoy)`,
+        `The package was *delivered* by the postman. (deliver)
+The letter was *written* by the secretary. (write)
+The glass was *broken* by the child. (broke)
+The mistake was *made* by the employee. (make)
+The concert was *enjoyed* by the audience. (enjoy)`,
 
         `The game *was won* by the team. (win)
 The song *was sung* by the singer. (sing)
@@ -210,7 +210,7 @@ By whom was this done?`
     {
       id: 'fill-up-voice',
       label: 'Active and Passive Voice',
-      type: 'fillup-act-pass',
+      type: 'fillup',
       commonData: {
         title: `Complete the following sentences by putting the Verbs in the appropriate form.`,
         noOptions: true

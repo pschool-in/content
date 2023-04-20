@@ -139,7 +139,7 @@ export default {
         questions: [
           {
             qText: `Which of the following is not a type of article?`,
-            options: `All of the above are types of articles, A, An, The `
+            options: `A, An, The, *All of the above are types of articles `
           },
           {
             qText: `Which of the following is a definite article?`,
