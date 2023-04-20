@@ -5,6 +5,36 @@ export default {
   grade: '3-5',
   list: [
     {
+      type: 'dragDropImgLabel',
+      label: 'Emotions',
+      id: 'drag-emotions',
+      lockAfter: 2,
+      commonData: {
+        title: 'Drag the labels and drop on the images.',
+        path: 'img/vocabulary'
+      },
+      data: [
+        `happy | Happy
+mad | Mad
+sad| Sad
+shy| Shy
+tired| Tired
+sleepy| Sleepy`,
+
+        `confident | Confident
+confused | Confused
+disappointed | Disappointed
+disgusted | Disgusted
+embarrassed| Embarrassed
+frightened| Frightened`,
+
+        `guilty | Guilty
+stunned | Stunned
+surprised | Surprised
+suspicious | Suspicious`
+      ]
+    },
+    {
       type: 'sequence',
       id: '4-letter-word',
       label: 'Four Letter Words',
