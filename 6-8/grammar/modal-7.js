@@ -498,7 +498,7 @@ export default {
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq-mdl',
+      id: 'mcq-mdl-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
