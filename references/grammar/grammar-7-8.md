@@ -52,6 +52,14 @@ Class-7
 3. Transitive and Intransitive Verb - Differentiation of verb based on the requirement of an object to express a complete thought
 4. Finite and Non Finite Verb - Agreement of verb with subject
 
+Class-8
+
+1. True linking verbs - (Be, am, is, are, was, were, has been, any other form of the verb be, become, and seem.)
+2. Primary Auxillary Verb - (be, have, do)
+
+<https://byjus.com/english/auxiliary-verbs-exercises/#:~:text=Some%20examples%20of%20auxiliary%20verbs,%2C%20will%2C%20should%2C%20etc.>
+<https://byjus.com/english/linking-verbs/>
+
 <https://www.englishgrammar.org/regular-irregular-verbs/>
 <https://byjus.com/english/verbs-exercises/>
 
@@ -111,7 +119,9 @@ Class-7
 3. Interrogative Determiner - Modifying a noun or pronoun in a direct or indirect question
 4. Possessive Determiner - Possessive pronouns as determiners showing possession
 5. Specific and General Determiners - Determiners that indicate the specificity of the noun
+
    Class-8
+
 6. Articles as Determiners - Give information about 'which' and 'how many/much'
 7. Quantifiers - Expression of the quantity of the object
 8. Determiner of number - Expression of the quantity of the object
@@ -136,18 +146,6 @@ Class-7
 <https://www.gingersoftware.com/content/grammar-rules/pronouns-2/>
 
 # 7. More on Verbs
-
-## verb-8 (More on Verbs)
-
-## Outline
-
-Class-8
-
-1. True linking verbs - (Be, am, is, are, was, were, has been, any other form of the verb be, become, and seem.)
-2. Primary Auxillary Verb - (be, have, do)
-
-<https://byjus.com/english/auxiliary-verbs-exercises/#:~:text=Some%20examples%20of%20auxiliary%20verbs,%2C%20will%2C%20should%2C%20etc.>
-<https://byjus.com/english/linking-verbs/>
 
 ## gerund-8 (Gerund, Infinitive and Participle)
 
