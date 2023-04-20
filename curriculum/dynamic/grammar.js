@@ -302,33 +302,13 @@ export default {
       grade: '7-8'
     },
     {
-      label: 'Different Types of Verbs',
-      id: 'verb-7',
-      grade: '7-8'
-    },
-    {
       label: 'Adjectives',
       id: 'adjective-7',
       grade: '7-8'
     },
     {
-      label: 'Articles and Determiners',
-      id: 'article-7',
-      grade: '7-8'
-    },
-    {
       label: 'Pronoun',
       id: 'pronoun-7',
-      grade: '7-8'
-    },
-    {
-      label: 'More on Verbs',
-      id: 'verb-8',
-      grade: '7-8'
-    },
-    {
-      label: 'Sentence Analysis',
-      id: 'sentence-7',
       grade: '7-8'
     },
     {
@@ -342,10 +322,77 @@ export default {
       grade: '7-8'
     },
     {
-      label: 'Improve your Speech',
+      label: 'Different Types of Verbs',
+      id: 'verb-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Modals',
+      id: 'modal-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Articles',
+      id: 'article-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Different Types of Determiners',
+      id: 'determiner-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Gerund, Infinitive and Participle',
+      id: 'gerund-8',
+      grade: '7-8'
+    },
+    {
+      label: 'Types of Sentences',
+      id: 'sentence-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Subject Verb Agreement',
+      id: 'subject-verb-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Clauses and Phrases',
+      id: 'clause-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Conjunctions',
+      id: 'conjunction-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Active and Passive Voice',
+      id: 'voice-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Direct and Indirect Speech',
+      id: 'reported-speech-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Idioms',
+      id: 'idiom-7',
+      grade: '7-8'
+    },
+    {
+      label: 'Improve Your Speech',
       id: 'speech-7',
       grade: '7-8'
     },
+    {
+      label: 'British and American English',
+      id: 'british-american-8',
+      grade: '7-8'
+    },
+    //after
+
     {
       label: '8th Misc Activities - 1',
       id: 'misc-grammar-8-1',
