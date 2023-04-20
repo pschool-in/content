@@ -1,6 +1,6 @@
 export default {
   id: 'verb-7',
-  label: 'Verb',
+  label: 'Different Types of Verbs',
   lockAfter: 3,
   list: [
     {
@@ -604,203 +604,155 @@ Albert *got* (get) summoned to the head teacher's room. The headteacher told Alb
     {
       label: 'Notes',
       type: 'passage',
-      id: 'modal-auxiliaries',
+      id: 'linking-verb',
       data: {
-        title: 'Modal Auxiliaries',
+        title: 'Linking Verb',
         text: [
-          `Modals are auxiliary verbs that express the mode of action denoted by the main verb.`,
+          `Linking verbs are verbs that don't show an action but rather describe the subject. While verbs like walk or jump represent an action, linking verbs like 'be' or 'seem' add more details to the subject, such as "he seems nice" or "she is an architect".
+All basic forms of the 'to be' verb can be used as linking verbs to qualify the state of being of the subject.
+All forms of the verb 'to seem' are used as linking verbs.
+All forms of the verb 'to become' are used as linking verbs.`
+        ]
+      }
+    },
+    {
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      id: 'mcq-linking',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
           {
-            type: 'html',
-            text: `The modal auxiliary includes <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>would</b>, <b>should</b>, <b>must</b>, <b>shall</b>, <b>will</b>, <b>need</b>, <b>dare</b>, <b>ought to</b>, <b>used to</b>, etc.`
+            qText: `Which of the following is a characteristic of linking verbs?`,
+            options: `They add more details to the subject, They are always in the present tense, They are always followed by an object`
           },
-          `# Uses of 'Can' 
-1. To express ability or power.`,
           {
-            type: 'html',
-            text: `<b>Examples</b>: He <b>can</b> read this language.<br>
-He <b>can</b> lift this heavy box.`
+            qText: `Which of the following is an example of a linking verb?`,
+            options: `They seem tired after the long journey, She ran a marathon, He cooked dinner for his family, The dog barked loudly`
           },
-          `2. To express permission.`,
           {
-            type: 'html',
-            text: `<b>Examples</b>: You <b>can</b> eat this chocolate.<br>
-She <b>can</b> never enter this house.`
+            qText: `Which of the following verbs can be used as a linking verb?`,
+            options: `to be, to jump, to sing, to eat`
           },
-          `# Uses of 'Could'
-1. To show power or ability in past.`,
           {
-            type: 'html',
-            text: `<b>Examples</b>: She <b>could</b> dance well in her youth.<br>
-We <b>could</b> complete this task.`
+            qText: `Which of the following verbs can be used as a linking verb?`,
+            options: `to become, to dance, to run, to write`
           },
-          `2. To show possibility in past.`,
+          {
+            qText: `What is the purpose of using a linking verb in a sentence?`,
+            options: `To add more details to the subject, To indicate the future tense, To indicate a negative statement, To show an action performed by the subject`
+          }
+        ]
+      }
+    },
+    {
+      type: 'selectWord',
+      label: 'Linking Verb',
+      id: 'select-word-2',
+      lockAfter: 1,
+      commonData: {
+        title: 'Identify linking verbs from the following sentence.'
+      },
+      data: [
+        `Neena *seems* to be very energetic today.
+The dish *smells* delicious.
+The dress you were wearing yesterday *looked* great on you.
+Divya and Meera *remained* best friends even after all the fights they have had in the past.`,
+
+        `The little boy *sounded* excited about the school trip.
+Geetha *is* the new marketing manager
+I *am* the class teacher of VII B.
+Fathima and Hameeda *were* exhausted after cleaning every loft in the office.`,
+
+        `This book on women and society *seems* to be interesting.
+The tree *was* cut.
+The child *looks* happy.
+Your brother *sounds* really cool.`,
+
+        `Ben *is* the Vice Principal of a Girl's High School.
+The teacher *was* absent today.
+My parents *were* tired after the long journey.
+Kenny *seems* to be a great man.`,
+
+        `All it took was one wrong word to make the situation *turn* ugly.
+Based on the results of the experiment, her hypothesis *proved* true.
+My daughter *acts* shy around strangers.
+William's mom *is* a doctor.`
+      ]
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'fillup-drag',
+      lockAfter: 1,
+      commonData: {
+        title: 'Fill in the blanks using linking verbs.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 70
+        }
+      },
+      data: [
+        `I *am* the class teacher of VII B.
+Fathima and Hameeda *were* exhausted after cleaning every loft in the office.
+This book on women and society *seems* to be interesting.
+The tree *was* cut.
+The child *looks* happy.`,
+
+        `My favorite food *is* biriyani. 
+She *looks* pale. 
+He *was* a man on a mission.
+It *smelled* stinkier than a skunk. 
+The soda *tasted* like oranges. 
+It *seems* as if it might rain any moment.  `,
+
+        `Your brother *sounds* really cool.
+Ben *is* the Vice Principal of a Girl's High School.
+The teacher *was* absent today.
+My parents *were* tired after the long journey.
+Kenny *seems to be* a great man.`,
+
+        `The dirty dog *smells* bad.
+We *became* very scared after the bridge started to wobble.
+If you ask me, the friendly man's offer *seems* suspicious.
+The audience *grew* silent when the actors took the stage.
+This mushy bread *tastes* terrible.`,
+
+        `All it took was one wrong word to make the situation *turn* ugly.
+Based on the results of the experiment, her hypothesis *proved* true.
+My daughter *acts* shy around strangers.
+William's mom *is* a doctor.`,
+
+        `Jessica *sings* in a rock band.
+Dmitri *lives* in Russia.
+The soup *tastes* delicious.
+The king's brother *became* a monk.
+My grandfather *was* a mischievous boy when he was my age.`
+      ]
+    },
+    {
+      label: 'Notes',
+      type: 'passage',
+      id: 'auxiliary-verb',
+      data: {
+        title: 'Auxiliary Verb',
+        text: [
+          `Auxiliary verbs have no meaning on their own. They are necessary because they help the main verb to form the grammatical structure of a sentence. The main functions of auxiliary verbs are to form questions, short answers, question tags and to avoid repetition.
+Auxiliary verbs fall into three basic groups:
+1. Primary or Main Auxiliary verbs: The primary auxiliary verbs are called so because they are the most used in forming tenses, negatives and questions. `,
           {
             type: 'html',
-            text: `<b>Examples</b>: She <b>could</b> buy a pen if she had money.<br>
-Ramu <b>could</b> play cricket if there had been no rain.`
+            text: `These are forms of the verbs <b>be</b>, <b>have</b> and <b>do</b>.`
           },
-          `3. To make a polite request.`,
+          `2. Modals or Modal auxiliary verbs: Modal auxiliary verbs are also helping verbs. They are used before main verbs to express a range of meanings such as ability, possibility, certainty, suggestion, permission, obligation and so on. In almost all cases, the modal verb does not change according to the subject of the sentence. This means that the modal verb need not agree with the subject in number and person.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>Could</b> you help me now?<br>
-<b>Could</b> they spare that meat?`
+            text: `Examples include <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>shall</b>, <b>should</b>, <b>will</b>, <b>would</b>, <b>must</b>, etc.`
           },
-          `4. To show condition.`,
+          `3. Other Auxiliary verbs with the characteristics of Modals: Some words do not always behave as modals. Such phrases are called semi-modals.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: If we had got up earlier, we <b>could</b> have completed this.<br>
-We <b>could</b> have seen the match if there had been an electricity supply.`
-          },
-          `# Uses of 'May'
-1. To express permission, possibility.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>May</b> I go there? 
-It <b>may</b> rain heavily.`
-          },
-          `2. To express wish, prayer.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>May</b> you live long!<br>
-<b>May</b> God bless you with fortune!`
-          },
-          `3. To express purpose.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: She works so that she <b>may</b> prosper.<br>
-We study so that we <b>may</b> pass the exam.`
-          },
-          `# Uses of 'Might'
-1. To show permission, possibility in the past.`,
-          {
-            type: 'html',
-            text: `<b>Example</b>: I <b>might</b> be sent to the hostel.`
-          },
-          `2. To express purpose in the past.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: He wore a scarf so that he <b>might</b> not burn his skin.<br>
-We rushed so that we <b>might</b> not miss our train.`
-          },
-          `3. To make a request.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: If possible, you <b>might</b> bring me a glass of water.<br>
-Condition allowing, they <b>might</b> be seeking favor from me.`
-          },
-          `4. To make suggestions or criticism.`,
-          {
-            type: 'html',
-            text: `<b>Example</b>: She <b>might</b> have picked other issues.`
-          },
-          `3. To make a polite request.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>Could</b> you help me now?<br>
-<b>Could</b> they spare that meat?`
-          },
-          `4. To show condition.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: If we had got up earlier, we <b>could</b> have completed this.<br>
-We <b>could</b> have seen the match if there had been an electricity supply.`
-          },
-          `# Uses of 'Would'
-1. To show past habit and unreal condition.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: He <b>would</b> rise at 5 o'Clock. 
-What <b>would</b> you like to have? Tea or coffee.`
-          },
-          `2. To make a polite request.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>Would</b> you lend me your pen?<br>
-<b>Would</b> you give me your scooter?`
-          },
-          `# Uses of 'Should'
-1. To express duty and obligation.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: The police <b>should</b> protect us.<br>
-You <b>should</b> respect your parents.`
-          },
-          `2. To show advice, suggestion.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: They <b>should</b> follow the rules.<br> 
-You <b>should</b> take medicine.`
-          },
-          `3. To express imagination.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>Should</b> you lose your money, go to ATM.<br>
-<b>Should</b> you forget the password, retry then.`
-          },
-          `4. To express probability, polite command.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: She <b>should</b> be in the library.<br> 
-You <b>should</b> play the game fairly.`
-          },
-          `# Uses of 'Must'
-1. To show prohibition, compulsion.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: You <b>must</b> not touch this.<br>
-She <b>must</b> feel sorry for you.`
-          },
-          `2. To show necessity or obligation.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: Team <b>must</b> win the game.<br>
-You <b>must</b> pay your bill on time.`
-          },
-          `3. To show strong advice.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: Police <b>must</b> take care of emotions of the criminals.<br>
-Leaders <b>must</b> promise what is viable to them.`
-          },
-          `# Uses of 'Shall/Will'
-1. Shall is used for 1st person subject - I, We
-2. Will is used for 2nd and 3rd person subject - You, he, she, it, they.
-But, to show the emphasis, they can be interchanged with each other. Therefore, when one needs to show determination then the usage with the auxiliary would be:
-=> Will 1st person subject-I, we
-=> Shall 2nd and 3rd person subject - You, he, she, it, they.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: I <b>shall</b> go. (<b>Simple future</b>)<br>
-I <b>will</b> go. (<b>Determination</b>)<br>
-She <b>will</b> win. (<b>Simple future</b>)<br>
-She <b>shall</b> win. (<b>Emphasized act</b>)`
-          },
-          `# Uses of 'Need'
-1. To express prohibition.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: <b>Need</b> I go there.<br>
-<b>Need</b> we plan in advance.`
-          },
-          `# Uses of 'Dare'
-1. To express a negation with interrogation.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: How <b>dare</b> you touch my pen?<br>
-She <b>dare</b> not play tennis with me.`
-          },
-          `# Uses of 'Used to'
-1. To express a past habit.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: She <b>used to</b> go to perform in movies or dramas.<br>
-I <b>used to</b> play cricket in 2005.`
-          },
-          `2. To express a habit of present that has its roots in the past.`,
-          {
-            type: 'html',
-            text: `<b>Examples</b>: My grandfather is not <b>used to</b> sweets.<br>
-I am <b>used to</b> a life full of struggle.`
+            text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`
           }
         ]
       }
@@ -808,263 +760,232 @@ I am <b>used to</b> a life full of struggle.`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq-mdl',
+      id: 'mcq-aux',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
-            options: `can, may, could, should `
+            qText: `What is the main function of auxiliary verbs?`,
+            options: `To form the grammatical structure of a sentence, To provide meaning to the main verb, To indicate an action or state of being`
           },
           {
-            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
-            options: `could, might, should, must`
+            qText: `Which group of auxiliary verbs are the most used in forming tenses, negatives, and questions?`,
+            options: `Primary or main auxiliary verbs, Modals or modal auxiliary verbs, Other auxiliary verbs with the characteristics of modals, All of the above`
           },
           {
-            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
-            options: `must, shall, would, need`
+            qText: `Which of the following is an example of a modal auxiliary verb?`,
+            options: `might, be about to, have to, all the above`
           },
           {
-            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
-            options: `would, shall, will, might`
+            qText: `What is a semi-modal?`,
+            options: `A word that sometimes behaves as a modal, A type of verb that indicates an action or state of being, A type of noun that names a person, place, or thing`
           },
           {
-            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
-            options: `must, need, may, need`
+            qText: `Which of the following is NOT a modal auxiliary verb?`,
+            options: `be, must, can, will`
           }
         ]
       }
     },
     {
-      label: 'Choose the Correct Answer',
-      id: 'mcq-modal',
+      id: 'had-has',
+      label: 'Has or Had',
+      type: 'fillup',
+      commonData: {
+        noOptions: true,
+        title: 'Fill in the blanks using has or had.'
+      },
+      lockAfter: 2,
+      data: [
+        `Jake and Niki *had* a fight yesterday.
+Charlie *has* a blanket with white fur.
+Mike *had* an injury, but now he's fine.
+I *had* rabbits when I was 8 years old.
+Tina *has* an ear infection and therefore she will not come to practice today.`,
+
+        `India *has* many states.
+My dad *had* a white coat that he used to wear always. But we lost it during the move.
+The lion *has* sharp claws to catch its prey.
+Niya *had* broken her leg a few months ago.
+Natalie *has* such a sweet smile.`,
+
+        `The children *had* a lot of fun last night.
+Her grandparents *had* passed away a long time ago.
+William Shakespeare *has* written many plays.
+*Has* the baby fallen asleep?
+Renu *has* a purple dress which she frequently wears.`,
+
+        `He *has* a lot of experience in the field of finance.
+She *has* written three novels and a collection of short stories.
+The company *has* hired several new employees this month.
+Our team *has* won every game this season.`,
+
+        `She *had* a headache yesterday and stayed home from work.
+The train *had* already left the station by the time we arrived.
+He *had* finished his homework before his friends came over.
+The restaurant *had* run out of their most popular dish by the time we got there.
+She *had* been studying French for three years before she moved to France.`
+      ]
+    },
+    {
+      id: 'am-is-are',
+      label: 'Am, Is or Are',
+      type: 'fillup',
+      commonData: {
+        noOptions: true,
+        title: 'Fill in the blanks using is, am and are.'
+      },
+      lockAfter: 2,
+      data: [
+        `The children *are* playing cricket.
+Mahi *is* going to the market.
+The moon *is* shining brightly.
+Strong winds *are* blowing.
+I *am* playing with toy trucks.`,
+
+        `Richa *is* drawing a landscape.
+*Are* you going somewhere?
+Sunny *is* mowing the lawn.
+I *am* doing my homework.
+The ducks *are* in the pond.`,
+
+        `Tom and Saira *are* enacting Romeo and Juliet on stage.
+Thunder *is* rumbling.
+People *are* jogging in the park nearby.
+Mike *is* coming back from New York.
+I *am* studying for a teaching eligibility exam.`,
+
+        `I *am* a student at the university.
+She *is* an accomplished musician and composer.
+They *are* planning a trip to Europe next summer.
+He *is* always early for his appointments.
+We *are* working on a new project at the office.`,
+
+        `The weather *is* beautiful today.
+You *are* doing a great job with your studies.
+The book *is* on the shelf next to the window.
+They *are* listening to music in the living room.
+She *is* wearing a red dress to the party tonight.`
+      ]
+    },
+    {
+      id: 'yes-no',
+      label: 'Yes or No',
+      type: 'classifySentence',
+      data: {
+        title: 'Do the following sentences contain modal auxiliary verbs?',
+        types: [
+          {
+            name: 'Yes',
+            text: `Can you please help me?
+Will you be able to finish the work by tomorrow?
+You might regret doing this the next day.
+He said I can use his mobile at any time.
+Will you pick me up on Sunday also?`
+          },
+          {
+            name: 'No',
+            text: `My sister was able to read the alphabet when she was 18 months old.
+Do not wash the car. The paint is still wet.
+I am certain that they have left already.
+I am sure he is over seventy.
+It was not necessary to meet him but I met him.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'modal',
+      label: 'Modal Auxiliary Verbs',
+      type: 'fillup',
+      commonData: {
+        noOptions: true,
+        title:
+          'Complete the following sentences using suitable modal auxiliary verbs.'
+      },
+      lockAfter: 2,
+      data: [
+        `*Will* Shaleen come with me to the hospital?
+It *could* be what you wished for. 
+*Should* I submit all the documents on Monday?
+There *might* be some problem with the computer software.
+All students *must* wear their uniforms every day.`,
+
+        `*May* I come in?
+*Can* you help me with this math problem?
+My phone *would* be out of charge by the time we reached the destination.
+Roshini *could* not make it to the reception as she missed the flight.
+Everyone *must* follow traffic rules to ensure the safety of all.`,
+
+        `You *might* get tickets for the concert if you are lucky.
+Rahul *will* not like this for sure.
+Amrita said that she *would* be on leave the next day.
+*Should* everyone fill out the scholarship forms?
+Fathima *can* finish this in an hour.`,
+
+        `*May* you have a long life! Sweetheart.
+Numair *could* speak two languages when he was eight.
+You *should* watch Kriti's latest movies.
+*Shall* we go on a long drive today?
+You *might* want to try this recipe once you taste it.`,
+
+        `*Will* you, please stop gossiping about Abdu.
+He has lost your watch and he *dares* not to tell you.
+I *used to* play cricket daily in the morning when I was ten.
+Liya *may* go to the museum whenever she likes.
+You *ought to* consult a Dentist.`
+      ]
+    },
+    {
+      id: 'mcq-modal-1',
+      label: 'Choose the correct alternative',
       type: 'mcq',
-      commonData: {
-        title: 'Choose the most suitable answer to fill in the blank.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'You are late. You ____ hurry.',
-              options: 'must, will, may, can'
-            },
-            {
-              qText: '“____ I have a piece of cake, please?” I asked.',
-              options: 'May, Will, Must, Shall'
-            },
-            {
-              qText: 'The little boy ___ speak very well.',
-              options: 'can, shall, need, would'
-            },
-            {
-              qText:
-                "We didn't have a car before. Now that we have a car, we ___ drive to many places.",
-              options: 'can, need, may, might'
-            },
-            {
-              qText: `You ______ keep the scissors away from the baby.`,
-              options: 'should, will, need, may'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'You _____ go home if you have completed your work.',
-              options: 'may, shall, need, might'
-            },
-            {
-              qText: 'That plug is faulty. You _____ touch it.',
-              options: "mustn't, needn't, couldn't, won't"
-            },
-            {
-              qText: 'That man ____ be Mr Bo. Mr Bo is overseas.',
-              options: "can't, shan't, needn't, won't"
-            },
-            {
-              qText: "Don't listen to everything he says. He ___ be wrong.",
-              options: 'can, shall, must, need'
-            },
-            {
-              qText: 'I wish I _____ be as intelligent as Einstein.',
-              options: 'could, must, should, shall'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'We ______ bring any money because admission is free.',
-              options: "needn't, mustn't, couldn't, can't"
-            },
-            {
-              qText: 'This ____ be your book. It has your name on it.',
-              options: 'must, can, shall, need'
-            },
-            {
-              qText: 'You ______ sleep early so you can wake up early.',
-              options: 'should, might, will, need'
-            },
-            {
-              qText: 'He ___ run very fast. He wins competitions easily.',
-              options: 'can, would, shall, may'
-            },
-            {
-              qText:
-                'Please lower your voices so that the baby ___ not  be awakened.',
-              options: 'may, ought, must, could'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'Which modal verb indicates that something is necessary or required?',
-              options: 'must, ought, can, shall'
-            },
-            {
-              qText:
-                'Which of the following is a correct use of the modal verb "can"?',
-              options: `They can't come to the party tonight, I can like to play soccer, She can sings beautifully.`
-            },
-            {
-              qText:
-                'Which modal verb is used to express possibility or likelihood in the present or future?',
-              options: 'will, could, ought, may'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'The dog _____ have eaten the food! I saw it near the food a while ago.',
-              options: 'must, ought, can, shall'
-            },
-            {
-              qText: 'You ______ to knock before you enter.',
-              options: 'ought, shall, may, would'
-            },
-            {
-              qText: 'She ___ most certainly help you if you ask her.',
-              options: 'will, could, ought, may'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      id: 'fill-up-option',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blanks using suitable modals.`
-      },
-      data: [
-        `My teacher *can (must)* speak four languages.
-*May (Should)* I use your mobile to call my mother?
-You *must (could)* not speak loudly in the hospital.
-I *could (must)* use a little help in packing all these clothes.
-Madam *could (may)* you repeat what you said?`,
-
-        `I *might (can)* not be able to make it tonight.
-Sheldon *must (ought to)* study more if he wants to pass the test.
-*Can (May)* you come to the prom with me?
-My parents *shall (ought to)* arrive soon.
-I *could (must)* be late as I have a lot on my plate.`,
-
-        `She *could (should)* finish her project by the end of the week.
-We *must(should)* leave now if we want to catch the train.
-He *may (might)* be able to come to the party later tonight.
-They *will (would)* have to work on the weekend to meet the deadline.
-You *ought to (might)* be more careful when crossing the street.`,
-
-        `I am not sure if I *can (could)* come to the party tonight.
-They *might (may)* have already left for the airport by now.
-You *should (must)* take an umbrella with you, it might rain later.
-She *must (should)* finish her project by tomorrow.
-We *ought to (will)* start preparing for the exam as soon as possible.`,
-
-        `Leonard *can (may)* easily solve the problem.
-It *might (should)* rain tomorrow.
-*May (might)* all your wishes come true in life.
-I *could (might)* not be any happier.`
-      ]
-    },
-    {
-      id: 'fill-up-modal',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title:
-          'Use appropriate modals of probability, permission, obligation etc to fill in the blanks.'
-      },
-      lockAfter: 1,
-      data: [
-        `Everybody *must* fulfill his or her duties towards the country.
-The computer is not working. The supervisor *might* call an engineer, today.
-The work is completed. *May* I leave now?
-I am not the right person to give you permission to go. You *may* ask the Manager.`,
-
-        `Vibha is not home today. She *must* have gone for dance practice.
-*May* I request you show me this file?
-It is raining cats and dogs. This *can* cause floods in many areas.
-*Could* I, please, make a call from your phone?`,
-
-        `You *should* take your umbrella with you, it looks like it's going to rain.
-Students *must* not bring their phones to the exam.
-She *might* stay up late to finish her project tonight.
-I *might* have left my phone at home.`,
-
-        `You *must* take your medicine three times a day.
-He *might* be at the meeting, but I'm not sure.
-They *have* to clean up the kitchen before they go to bed.
-I *could* have lost my phone somewhere in the house.`,
-
-        `Sugandha sings so beautifully. She *must* have taken classes of music.
-He is not in his cabin. You *can* check if he is there in the lobby.
-He *has* to be at work by 9 AM every day.
-She *can* leave work early if she finishes her tasks.`
-      ]
-    },
-    {
-      id: 'fill-up-modal-2',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title:
-          'Use appropriate modals of desire, determination, necessity, prohibition etc to fill in the blanks.'
-      },
-      lockAfter: 1,
-      data: [
-        `I *would* like to go boating as well as diving.
-How *dare* he enter my room?
-We focus on our studies so that we *may* not fail in our examinations.
-Let whatever hardships may come our way. One day, we *will* overcome.`,
-
-        `His goggles are kept in the cupboard, but nobody *dares* to touch them.
-Sheveta is a little snobbish and naughty girl. We *need* not prank her. She will get angry.
-Don't challenge me. If I try, she *shall* come and talk to me politely.
-*Would* you like to try your hand at chess, madam?`,
-
-        `You *should* come to the party with me.
-She *will* run five miles every day to prepare for the marathon.
-We *have* to finish this project by the end of the week.
-You *must* not park your car in this area.`,
-
-        `They *need* to take extra precautions when working with dangerous chemicals.
-Shipra applies sunscreen lotion every day so that she *may* not get her skin tanned.
-He *would* never allow anybody to wear them.
-You *must* not use your cell phone while driving.`,
-
-        `She *would* like to visit the museum this weekend.
-We *will* have to finish this project before the deadline.
-You *need* to submit your application by tomorrow.`
-      ]
+      data: {
+        title: 'Choose the correct alternative',
+        questions: [
+          {
+            qText: 'I do not think I _____ be able to go.',
+            options: `shall, should, can`
+          },
+          {
+            qText: 'He ____ not pay unless he is compelled',
+            options: `will, shall, dare`
+          },
+          {
+            qText: 'You _____ be punctual.',
+            options: `should, would, ought`
+          },
+          {
+            qText: 'I wish you _____ tell me earlier.',
+            options: `would, should, must `
+          },
+          {
+            qText: '_____ I assist you?',
+            options: `Shall, Will, Would`
+          },
+          {
+            qText: '_____ you please help me with this?',
+            options: `Would, Should, Shall`
+          },
+          {
+            qText: 'You ______ to pay your debts.',
+            options: `ought, should, must`
+          },
+          {
+            qText: 'He said I ___ use his telephone at any time.',
+            options: `might, could, can`
+          },
+          {
+            qText: 'If you ______ see him, give him my regards.',
+            options: `should, would, shall`
+          },
+          {
+            qText:
+              'He ____ not ask for a raise, for the fear of losing his job.',
+            options: `dare, need, would`
+          }
+        ]
+      }
     }
   ]
 };
