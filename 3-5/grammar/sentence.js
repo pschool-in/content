@@ -11,6 +11,17 @@ export default {
         printTitle: 'Rewrite the words and form proper sentence.'
       },
       data: [
+        `we eat
+        I walk
+        she dances
+        he sings
+        it rains
+        boats sail
+        Siva runs
+        Ruby reads
+        the clock ticks
+        the dog barks`,
+
         `we are happy
 it is dark
 dog is hungry
