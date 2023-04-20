@@ -11,16 +11,16 @@ export default {
         title: 'Active and Passive Voice',
         text: [
           `Active Voice: When the Subject of a Verb acts, the Verb is said to be in the Active Voice.
-  Example - I made a mistake.
-  Passive Voice: When the object of the Active Voice becomes the Subject, the Verb is said to be in the Passive Voice.
-  Example - A mistake was made by me.
-  # Rules (Active to Passive)
-  1. The object of the Active Verb is made the Subject of the Passive Verb.
-  2. The Subject of the Active Verb is made the object of some Preposition.
-  3. The Verb of the Active Voice gets the Past Participle form of the Finite Verb and some form of the verb 'to be' will be used before it in the passive voice.
-  4. Some vague and indefinite subjects like 'everyone', 'they', 'people', 'someone', 'somebody', 'everybody', 'anybody', etc. are dropped if they are the subjects of the active voice. If so, the preposition 'by' is also not used.
-  5. The Tense of the Verb does not change.
-  => The following four types of sentences cannot be changed into passive voice: Present Perfect Continuous, Past Perfect Continuous, Future Continuous and Future Perfect Continuous.`
+Example - I made a mistake.
+Passive Voice: When the object of the Active Voice becomes the Subject, the Verb is said to be in the Passive Voice.
+Example - A mistake was made by me.
+# Rules (Active to Passive)
+1. The object of the Active Verb is made the Subject of the Passive Verb.
+2. The Subject of the Active Verb is made the object of some Preposition.
+3. The Verb of the Active Voice gets the Past Participle form of the Finite Verb and some form of the verb 'to be' will be used before it in the passive voice.
+4. Some vague and indefinite subjects like 'everyone', 'they', 'people', 'someone', 'somebody', 'everybody', 'anybody', etc. are dropped if they are the subjects of the active voice. If so, the preposition 'by' is also not used.
+5. The Tense of the Verb does not change.
+=> The following four types of sentences cannot be changed into passive voice: Present Perfect Continuous, Past Perfect Continuous, Future Continuous and Future Perfect Continuous.`
         ]
       }
     },
@@ -51,42 +51,64 @@ export default {
       }
     },
     {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `The object of the Active Verb becomes the subject of the Passive Verb.
+  The Subject of the Active Verb becomes the object of some Preposition.
+  The Verb of the Active Voice gets the Past Participle form of the Finite Verb and some form of the verb 'to be' will be used before it in the passive voice.`
+          },
+          {
+            name: 'False',
+            text: `Some vague and indefinite subjects are included in the passive voice.
+  The Tense of the Verb changes in the passive voice.`
+          }
+        ]
+      }
+    },
+    {
       id: 'fill-up-voice',
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Complete the following sentences putting the Verbs in the appropriate Passive Voice form.`,
+        title: `Complete the following sentences by putting the Verbs in the appropriate Passive Voice form.`,
         noOptions: true
       },
       data: [
         `She *was brought* up by her aunt. (bring) 
-  Invitation cards *have been sent* to all her friends. (send) 
-  You *will be invited* to the feast. (invite)
-  The result *was declared* last Monday. (declare)`,
+Invitation cards *have been sent* to all her friends. (send) 
+You *will be invited* to the feast. (invite)
+The result *was declared* last Monday. (declare)`,
 
         `They *were alarmed* at the report of the gun. (alarm) 
-  We *were shocked* at his failure. (shock) 
-  A mistake *was made* by me. (made)
-  His work *has been done* by him. (do) `,
+We *were shocked* at his failure. (shock) 
+A mistake *was made* by me. (made)
+His work *has been done* by him. (do) `,
 
         `The package *was delivered* by the postman. (deliver)
-  The letter *was written* by the secretary. (write)
-  The glass *was broken* by the child. (broke)
-  The mistake *was made* by the employee. (make)
-  The concert *was enjoyed* by the audience. (enjoy)`,
+The letter *was written* by the secretary. (write)
+The glass *was broken* by the child. (broke)
+The mistake *was made* by the employee. (make)
+The concert *was enjoyed* by the audience. (enjoy)`,
 
         `The game *was won* by the team. (win)
-  The song *was sung* by the singer. (sing)
-  The food *was cooked* by the chef. (cook)
-  The decision *was made* by the committee. (make)
-  The lesson *was taught* by the teacher. (teach)`,
+The song *was sung* by the singer. (sing)
+The food *was cooked* by the chef. (cook)
+The decision *was made* by the committee. (make)`,
 
-        `The garden *was tended* by the gardener. (tend)
-  The report *was prepared* by the analyst. (prepare)
-  The project *was completed* by the team. (complete)
-  The question *was answered* by the expert. (answer)
-  The medicine *was prescribed* by the doctor. (prescribe)
-  The contract *was signed* by the parties. (sign)`
+        `The lesson *was taught* by the teacher. (teach)
+The garden *was tended* by the gardener. (tend)
+The report *was prepared* by the analyst. (prepare)
+The project *was completed* by the team. (complete)`,
+
+        `The question *was answered* by the expert. (answer)
+The medicine *was prescribed* by the doctor. (prescribe)
+The contract *was signed* by the parties. (sign)`
       ]
     },
     {
@@ -99,18 +121,18 @@ export default {
           {
             name: 'Active',
             text: `Rama helps Hari.
-  Sita loves Savitri.
-  The mason is building the wall.
-  Some boys were helping the wounded man.
-  Who did this?`
+Sita loves Savitri.
+The mason is building the wall.
+Some boys were helping the wounded man.
+Who did this?`
           },
           {
             name: 'Passive',
             text: `Hari is helped by Rama.
-  Savitri is loved by Sita.
-  The wall is being built by the mason.
-  The wounded man was being helped by some boys.
-  By whom was this done?`
+Savitri is loved by Sita.
+The wall is being built by the mason.
+The wounded man was being helped by some boys.
+By whom was this done?`
           }
         ]
       }
@@ -184,6 +206,136 @@ export default {
           }
         ]
       }
+    },
+    {
+      id: 'fill-up-voice',
+      label: 'Active and Passive Voice',
+      type: 'fillup-act-pass',
+      commonData: {
+        title: `Complete the following sentences by putting the Verbs in the appropriate form.`,
+        noOptions: true
+      },
+      data: [
+        ` They built a new house last year.
+A new house *was* built by *them* last year.
+
+Someone stole my wallet.
+My wallet *was stolen* by someone.`,
+
+        ` The chef is cooking the meal.
+The meal is *being cooked* by the chef.
+
+The company will release a new product next month.
+A new product will *be released* by the company next month.`,
+
+        ` The teacher gave the students a homework assignment.
+A homework assignment *was given* to the students by the teacher.
+
+The storm destroyed the house.
+The house *was destroyed* by the storm.`,
+
+        ` The doctor prescribed a new medication for the patient.
+A new medication *was prescribed* for the patient by the doctor.
+
+The police caught the thief.
+The thief *was caught* by the police.`,
+
+        ` The company is redesigning their website.
+Their website is *being redesigned* by the company.
+
+The principal will announce the winner of the competition.
+The winner of the competition will *be announced* by the principal.`,
+
+        ` The company paid the employees last week.
+The employees *were paid* by the company last week.
+
+The students asked the teacher a question.
+The teacher *was asked* a question by the students.`,
+
+        ` The company is going to hire new employees.
+New employees *are going* to be hired by the company.
+
+The tornado damaged several buildings in the town.
+Several buildings in the town *were damaged* by the tornado.`,
+
+        ` The professor is grading the exams.
+The exams *are being* graded by the professor.
+
+The company made a huge profit last quarter.
+A huge profit *was made* by the company last quarter.`,
+
+        ` The waiter brought us our food.
+Our food *was brought* to us by the waiter.
+
+The thief stole my car last night.
+My car *was stolen* by the thief last night.`,
+
+        ` The company is launching a new advertising campaign.
+A new advertising campaign *is being* launched by the company.
+
+The teacher will give the students a quiz next week.
+A quiz will *be given* to the students by the teacher next week.`,
+
+        ` The company offered me a job.
+A job *was offered* to me by the company.
+
+The dog chased the cat up the tree.
+The cat *was* chased up the tree by the dog.`,
+
+        ` The company is training their new employees.
+The new employees *are being* trained by the company.
+
+The librarian checked out a book for me.
+A book *was* checked out for me by the librarian.`,
+
+        ` The company is upgrading their computer systems.
+Their computer systems *are being* upgraded by the company.
+
+The company will announce the new CEO next week.
+The new CEO will be announced *by* the company next week.`,
+
+        ` The company gave the employees a bonus.
+A bonus *was given* to the employees by the company.
+
+The workers are building a new factory.
+A new factory *is being* built by the workers.`,
+
+        ` The dog chased the cat.  
+The cat *was chased* by the dog.
+
+The teacher praised the students.  
+The students *were praised* by the teacher.`,
+
+        ` The storm destroyed the old building.  
+The old building *was destroyed* by the storm.
+
+The company will launch a new product next month.  
+A new product will *be launched* by the company next month.`,
+
+        ` The chef is preparing the meal.  
+The meal *is being* prepared by the chef.
+
+The kids are playing in the park.  
+The park *is being* played in by the kids.`,
+
+        ` The company hired a new employee.  
+A new employee *was hired* by the company.
+
+The teacher is teaching a lesson.  
+A lesson *is being* taught by the teacher.`,
+
+        ` The artist painted a beautiful picture.  
+A beautiful picture *was painted* by the artist.
+
+The singer will sing a new song.  
+A new song will *be sung* by the singer.`,
+
+        ` The waiter brought the food to the table.  
+The food *was* brought to the table by the waiter.
+
+The government introduced a new policy. 
+A new policy *was* introduced *by* the government.`
+      ]
     }
   ]
 };

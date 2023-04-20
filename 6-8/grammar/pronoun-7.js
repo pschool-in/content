@@ -80,6 +80,97 @@ Example: The cat washed its tail by licking it.`
       }
     },
     {
+      label: 'True or False',
+      type: 'classifySentence',
+      id: 'true-false',
+      commonData: {
+        title: 'Classify the following sentences as True or False',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `"I" is a first-person singular pronoun. 
+"She" is a third-person singular feminine pronoun. 
+"They" is a third-person plural pronoun. `,
+
+          `"He" is a first-person plural pronoun.
+"We" is a third-person plural pronoun. `
+        ],
+        [
+          `"You" is a second-person singular and plural pronoun.
+"Me" is an object pronoun.`,
+
+          `"It" is a first-person singular pronoun.
+"Them" is a possessive pronoun.
+"Her" is a third-person singular masculine pronoun. `
+        ],
+        [
+          `"Him" is a third-person singular masculine pronoun.
+"Them" is a third-person plural pronoun.
+"He" is a subjective pronoun. `,
+
+          `"Us" is a third-person plural pronoun.
+"She" is an object pronoun. `
+        ],
+        [
+          `"They" is a gender-neutral pronoun.`,
+
+          `"It" is a possessive pronoun.
+"You" is an indefinite pronoun.
+"Me" is a subjective pronoun.
+"Them" is a reflexive pronoun.`
+        ],
+        [
+          `"Her" is a possessive pronoun.
+"Him" is an object pronoun.
+"Them" is an objective pronoun.`,
+
+          `"Us" is a possessive pronoun.
+"She" is a possessive pronoun. `
+        ],
+        [
+          `Personal pronouns replace specific nouns in a sentence. `,
+
+          `"She" is a possessive pronoun.
+"He" is a reflexive pronoun.
+"They" is an indefinite pronoun.
+"It" is a subjective pronoun. `
+        ],
+        [
+          `"She" is a subjective pronoun.`,
+
+          `"You" is a reflexive pronoun.
+"Me" is a possessive pronoun.
+"Them" is a subjective pronoun.
+"Her" is a reflexive pronoun.`
+        ],
+        [
+          `The pronoun "I" is always capitalized.
+The pronoun "we" is always capitalized. 
+The pronoun "you" can be used to refer to a single person or a group of people.`,
+
+          `The pronoun "it" is always used to refer to a non-living thing.
+The pronoun "they" is only used to refer to a group of people. `
+        ],
+        [
+          `The pronoun "who" is always a subject pronoun.
+The pronoun "whom" is always an object pronoun.
+The pronoun "it" can be used as both a subject and an object pronoun. 
+The pronoun "them" can be used to refer to both people and things.`,
+
+          `The pronoun "me" can also be used as a subject pronoun.`
+        ],
+        [
+          `The pronoun "it" can also be used to refer to a baby whose gender is unknown. 
+The pronoun "he" can also be used as an object pronoun. 
+The pronoun "she" can also be used as a subject pronoun. `,
+
+          `The pronoun "it" can never be used to refer to a living thing.
+The pronoun "who" is only used to refer to people. `
+        ]
+      ]
+    },
+    {
       id: 'fillup',
       label: 'Fill in the blanks',
       type: 'fillup',
@@ -174,6 +265,56 @@ I bought a new phone, and *it* has a lot of great features.
 The waiter brought the menu, and *he* took our drink order.
 The city is crowded during rush hour, and *it* can be difficult to drive.
 I'm going on vacation next week, and *I* can't wait to relax.`
+      ]
+    },
+    {
+      label: 'Who, Which or Why',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      lockAfter: 1,
+      commonData: {
+        title: 'Fill in the blanks using prepositions (Who, Which or Why).'
+      },
+      data: [
+        `*Who* is the new CEO of the company?
+*Which* color do you prefer, red or blue?
+*Why* did you decide to quit your job?`,
+
+        `Do you know *who* won the election?
+Can you tell me *which* train goes to the city center?
+Can you explain *why* you are late for the meeting?`,
+
+        `Can you tell me *who* is in charge of this project?
+I can't decide *which* book to read first.
+I'm not sure *why* he didn't show up for the party.`,
+
+        `I wonder *who* is going to be the keynote speaker at the conference.
+*Which* team do you think will win the championship this year?
+*Why* do you think the company's sales have been declining?`,
+
+        `*Who* do you think will be the next President?
+The doctor recommended two treatments, but I'm not sure *which* one to choose.
+The teacher asked us to write an essay about "*Why* education is important".`,
+
+        `The police are looking for someone *who* witnessed the crime.
+The store offers two sizes, small and large. *Which* one would you like to buy?
+*Why* didn't you tell me about the change in plans earlier?`,
+
+        `*Who* do you think is the most talented musician of our time?
+*Which* of these paintings do you think is the most valuable?
+*Why* did you choose this restaurant over the other options?`,
+
+        `Can you guess *who* wrote this novel?
+I'm considering two job offers. One is in New York and the other is in San Francisco. *Which* one should I take?
+I don't understand *why* she is so upset about the situation.`,
+
+        `I'm trying to remember *who* recommended this restaurant to us.
+The movie theater is showing two films tonight. *Which* one do you want to see?
+Can you tell me *why* the project deadline was pushed back?`,
+
+        `*Who* was that person who just walked in the door?
+I have a few questions about the proposal. *Which* section should I focus on?
+*Why* do some people prefer to work from home rather than in an office?`
       ]
     },
     {
