@@ -119,6 +119,73 @@ Participial adjectives are formed from the past participle (-ed) or present part
       }
     },
     {
+      label: 'True or False',
+      type: 'classifySentence',
+      id: 'true-false',
+      commonData: {
+        title: 'Classify the following sentences as True or False',
+        types: ['True', 'False']
+      },
+      data: [
+        [
+          `Adjectives modify nouns or pronouns.
+Adjectives can be used to compare two or more nouns or pronouns. `,
+
+          `Adjectives have no comparative or superlative forms.
+Adjectives can be used to show possession.
+Adjectives are always placed before the noun they modify.`
+        ],
+        [
+          `Adjectives can be formed by adding suffixes to nouns or verbs. 
+Adjectives can be used as subject complements.
+Adjectives can be used to indicate color, size, or shape.
+Adjectives can be used to indicate emotion or attitude.`,
+
+          `Adjectives can be used to indicate purpose.`
+        ],
+        [
+          `Adjectives can be used to indicate age.
+Adjectives can be used to indicate temperature. 
+Adjectives can be used to indicate sound or texture.
+Adjectives can be used to indicate speed.`,
+
+          `Adjectives can be used to indicate time.`
+        ],
+        [
+          `Adjectives can be used to indicate origin.
+Adjectives can be used to indicate material. 
+Adjectives can be used to indicate quantity. 
+Adjectives can be used to indicate condition or state.`,
+
+          `Adjectives are only used to describe people, not things.`
+        ],
+        [
+          `Adjectives can be used to indicate shape. 
+Adjectives can be used to indicate taste or smell. 
+Adjectives can be used to indicate distance. `,
+
+          `Adjectives are always placed before the noun they modify
+Adjectives are never used in comparative or superlative forms.`
+        ],
+        [
+          `Adjectives can be used to indicate shape. 
+Adjectives can be used to indicate taste or smell. 
+Adjectives can be used to indicate distance. `,
+
+          `Adjectives are always singular and do not change form based on the number of the noun they modify.
+Adjectives cannot be used as adverbs`
+        ],
+        [
+          `Adjectives can be used to indicate complexity. 
+Adjectives can be used to indicate rarity. 
+Adjectives can be used to indicate danger.`,
+
+          `Adjectives can only modify nouns and not other parts of speech.
+Adjectives are never used in questions.`
+        ]
+      ]
+    },
+    {
       type: 'selectWord',
       label: 'Identify - Adjectives',
       id: 'select-word-adj',
