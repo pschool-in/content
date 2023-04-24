@@ -24,19 +24,19 @@ export default {
       type: 'sequence',
       label: '3 letter word',
       commonData: {
-        title: 'Connect the blocks to form meaningful word.',
+        title: 'Connect the blocks to form a meaningful word.',
         printTitle: 'Form the word using the letters.'
       },
       data: [
-        'rat, fly, bed, fox, hat, jug, big, map, red, run',
-        'man, cow, may, sad, bag, met, men, the, and, hug',
+        'rat | tar, fly, bed, fox, hat, jug, big, map, red, run',
+        'man, cow, may | yam, sad, bag, met, men, the, and, hug',
         'pig, she, bit, let, son, hen, day, cap, sit, one',
         'joy, hit, cat, mat, two, cry, old, sun, bad, hut',
         'tin, try, use, van, oil, bun, few, nut, has | ash, jar',
         'dig, him, ice, jam, jet, ran, fan, fat, dry, dip',
         'aim, spy, you, pin, her, pen, axe, set, key, sin',
-        'for, can, ape, cot, law, gun, had, ant, sky, ask',
-        'lap, pay, wet, wig, fur, lot, log, rug, run, pet'
+        'for, can, ape | pea, cot, law, gun, had, ant, sky, ask',
+        'lap, pay, wet, wig, fur, lot, log, rug, pet'
       ]
     }
   ]
