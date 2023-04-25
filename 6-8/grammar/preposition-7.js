@@ -61,7 +61,7 @@ Ice cream is made *from* milk and cream.`,
 
         `He is a professor *of* Mathematics.
 The artist is insulted *by* the music director.
-Farmer is familiar *with* the agricultural problems.
+A farmer is familiar *with* the agricultural problems.
 This piece of land was a dispute *among* the four boys.
 The two children were not ready to distribute the money *between* them.`,
 
@@ -282,8 +282,7 @@ This plan will go *against (by)* your interests.`
       data: {
         title: 'Preposition',
         text: [
-          `# Prepositions
-A preposition is a word that joins nouns, pronouns or phrases to other words in a sentence. It usually shows the relationship of those words or phrases with other words in the sentence about space, time or reason. A preposition usually comes before a noun. When a preposition is not followed by a noun, it is often called a  stranded preposition.
+          `A preposition usually comes before a noun. When a preposition is not followed by a noun, it is often called a  stranded preposition.
 A stranded preposition comes at the end of a sentence when its  object is a relative pronoun or an interrogative pronoun (words like  that, who, which, etc.)
 Prepositions can be categorized into three based on their form:
 1. Simple Prepositions: Single-word prepositions are called simple prepositions.`,
@@ -338,6 +337,10 @@ I go for dance classes after school. (Go when? After school.)`
           {
             qText: `What function can a prepositional phrase have in a sentence?`,
             options: `Modify nouns and pronouns, Modify verbs, *All of the above`
+          },
+          {
+            qText: `What are single-word prepositions called?`,
+            options: `Simple prepositions, Complex prepositions, One-word prepositions`
           }
         ]
       }

@@ -113,7 +113,7 @@ Participial adjectives are formed from the past participle (-ed) or present part
           },
           {
             qText: `Which of the following adjectives cannot be used attributively?`,
-            options: `Afraid, Well, Intelligent, Beautiful`
+            options: `Afraid, Intelligent, Beautiful`
           }
         ]
       }
@@ -136,52 +136,13 @@ Adjectives can be used to show possession.
 Adjectives are always placed before the noun they modify.`
         ],
         [
-          `Adjectives can be formed by adding suffixes to nouns or verbs. 
-Adjectives can be used as subject complements.
-Adjectives can be used to indicate color, size, or shape.
-Adjectives can be used to indicate emotion or attitude.`,
+          `Adjectives can be formed by adding suffixes to nouns or verbs.
+Adjectives can be used to indicate age. 
+`,
 
-          `Adjectives can be used to indicate purpose.`
-        ],
-        [
-          `Adjectives can be used to indicate age.
-Adjectives can be used to indicate temperature. 
-Adjectives can be used to indicate sound or texture.
-Adjectives can be used to indicate speed.`,
-
-          `Adjectives can be used to indicate time.`
-        ],
-        [
-          `Adjectives can be used to indicate origin.
-Adjectives can be used to indicate material. 
-Adjectives can be used to indicate quantity. 
-Adjectives can be used to indicate condition or state.`,
-
-          `Adjectives are only used to describe people, not things.`
-        ],
-        [
-          `Adjectives can be used to indicate shape. 
-Adjectives can be used to indicate taste or smell. 
-Adjectives can be used to indicate distance. `,
-
-          `Adjectives are always placed before the noun they modify
-Adjectives are never used in comparative or superlative forms.`
-        ],
-        [
-          `Adjectives can be used to indicate shape. 
-Adjectives can be used to indicate taste or smell. 
-Adjectives can be used to indicate distance. `,
-
-          `Adjectives are always singular and do not change form based on the number of the noun they modify.
-Adjectives cannot be used as adverbs`
-        ],
-        [
-          `Adjectives can be used to indicate complexity. 
-Adjectives can be used to indicate rarity. 
-Adjectives can be used to indicate danger.`,
-
-          `Adjectives can only modify nouns and not other parts of speech.
-Adjectives are never used in questions.`
+          `Adjectives can be used to indicate purpose.
+Adjectives can be used to indicate time.
+Adjectives are only used to describe people, not things.`
         ]
       ]
     },
@@ -191,11 +152,12 @@ Adjectives are never used in questions.`
       id: 'select-word-adj',
       lockAfter: 1,
       commonData: {
-        title: 'Identify the adjectives from the following sentences.'
+        title: 'Identify the adjectives from the following sentences.',
+        multiSelect: true
       },
       data: [
         `*Good* people are always welcomed everywhere.
-*Those* girls were preparing for the upcoming exam.
+*Those* girls were preparing for the *upcoming* exam.
 There were *several* mistakes in his essay.
 Gulliver did not get *sufficient* food.
 Parvati secured the *seventh* rank in the test.`,
@@ -206,22 +168,22 @@ Bill wrote *many* novels.
 *Some* people work at the factory as weavers.
 It was a *difficult* question, but I solved it.`,
 
-        `This summer I wrote my grandmother *some* letters.
-I have *six* fingers on my right toe.
+        `This Diwali I bought my grandmother *two* sarees.
+I have *six* fingers on my *right* toe.
 Who was the *first* Prime Minister of India?
-The *sixth* boy on the last row is talkative.
+The *sixth* boy on the *last* row is talkative.
 Are there *any* apples left in the fridge?`,
 
         `She ate only *half* a slice of pizza.
 I got offer letters from *five* companies.
 I will finish this *whole* book today.
-Each *one* of us should eat healthy food.
-*Most* of the students have completed their project work.`,
+Each *one* of us should eat *healthy* food.
+*Most* of the students have completed their *project* work.`,
 
         `Rohan made *several* calls from his mobile.
-*Many* students participated in the art competitions.
+*Many* students participated in the *art* competitions.
 May I have *three* coffee, please?
-There are *many* call centers across India
+There are *many* call centers across India.
 A *few* people are allowed inside the room.`
       ]
     },
@@ -361,9 +323,8 @@ The alphabet is the simplest thing to learn.`
     {
       id: 'nouns',
       label: 'Nouns as Adjectives',
-      type: 'fillup',
+      type: 'selectWord',
       commonData: {
-        noOptions: true,
         title:
           'Identify the nouns that are acting as adjectives from the following sentences.'
       },

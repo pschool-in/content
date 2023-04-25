@@ -64,8 +64,7 @@ They include <b>where</b>, <b>when</b>, <b>why</b>, <b>how</b>, <b>how much</b>,
           `8. Relative Adverbs: They are used to join two sentences or two clauses. Relative adverbs indicate their antecedents in the process of joining.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: e.g. This is the <b>way</b> to prepare a chart.<br>
-She let me know <b>how</b> to cook halwa.<br>
+            text: `<b>Example</b>: e.g. She let me know <b>how</b> to cook halwa.<br>
 They include <b>why</b>, <b>how</b>, <b>where</b>, <b>when</b> etc.`
           }
         ]
@@ -79,8 +78,11 @@ They include <b>why</b>, <b>how</b>, <b>where</b>, <b>when</b> etc.`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: `Which type of adverb is used to reflect time?`,
-            options: `Adverbs of Time, Adverbs of Frequency, Adverbs of Manner, Adverbs of Place`
+            qText: `What is an adverbial?`,
+            options: `A word or phrase that modifies a verb, adjective, or other adverb
+A type of noun
+A type of adjective
+A type of pronoun`
           },
           {
             qText: `Which type of adverb is used to show how often an event takes place?`,
@@ -91,12 +93,17 @@ They include <b>why</b>, <b>how</b>, <b>where</b>, <b>when</b> etc.`
             options: `Adverbs of Manner, Adverbs of Place, Adverbs of Frequency `
           },
           {
-            qText: `Which type of adverb is used to show the place where an action took place?`,
-            options: `Adverbs of Place, Adverbs of Frequency, Adverbs of Manner `
+            qText: `What does an adverbial answer?`,
+            options: `How is the action being performed?
+Who or what is performing the action?
+What is being performed?`
           },
           {
-            qText: `Which type of adverb is used to show 'how much'?`,
-            options: `Adverbs of Quantity, Adverbs of Time, Adverbs of Frequency, Adverbs of Manner `
+            qText: `What is a degree adverb?`,
+            options: `An adverb that describes the intensity of something
+An adverb that describes how something is done
+b) An adverb that describes when something is done
+c) An adverb that describes how often something is done`
           }
         ]
       }
@@ -122,7 +129,7 @@ Your friend messaged *again*.
 I did my homework *already*. Now, I am going out to play.
 I was *rather* busy. I didn't see your calls.`,
 
-        `He was late *so* he was punished.
+        `He was *so* late that he was punished.
 We looked for the lost puppy *everywhere*.
 We do *not* know her. She just tagged along with us for no reason.
 *How* long is the trip? I am tired of sitting in the car.
@@ -137,7 +144,7 @@ She let me know *how* to cook halwa.`,
         `Poorab is *perfectly* fine now.
 *When* do they visit the zoo?
 *How* can I help you?
-This is the *way* to prepare a chart.
+She let me know *how* to cook halwa.
 I didn't go to the office *because* it was raining.`
       ]
     },
@@ -228,9 +235,7 @@ Intense | intensely`
       data: {
         title: 'Types of Adverbs',
         text: [
-          `# Adverbs and Adverbials
-An adverb is a word that modifies the meaning of a verb or an adjective or another adverb.
-# Position of Adverbs
+          `# Position of Adverbs
 1. Adverbs of manner, time and place are usually placed after the verb, or after the object, if there is one.`,
           {
             type: 'html',

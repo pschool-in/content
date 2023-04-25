@@ -20,7 +20,7 @@ export default {
           `2. Pronouns of Time: These pronouns are used to indicate the time or duration of an action or event.`,
           {
             type: 'html',
-            text: `Examples: <b>now</b>, <b>then</b>, <b>soon</b>, <b>later</b>, <b>yesterday</b>, <b>today</b>, <b>tomorrow</b>, etc.`
+            text: `Examples: <b>when</b>, <b>while</b>, <b>until</b>, <b>after</b>, <b>before</b>, <b>since</b>, etc.`
           },
           `3. Pronouns of Direction: These pronouns are used to indicate the direction of movement of a person or thing.`,
           {
@@ -48,12 +48,12 @@ There are a few important rules for using pronouns.
 Example: We did a great job.
 2. Subject pronouns may also be used to rename the subject.
 Example: It was she who decided we should go to Hawaii.
-3. Indefinite pronouns don't have antecedents. They are capable of standing on their own.
+3. Indefinite pronouns are capable of standing on their own without referring to a specific noun.
 Example: No one likes the sound of fingernails on a chalkboard.
 4. Object pronouns are used as direct objects, indirect objects, and objects of prepositions. These include you, me, him, her, us, them, and it.
-Example: David talked to her about the mistakes she made.
+Examples: me, him, her, us, etc
 5. Possessive pronouns show ownership. They do not need apostrophes.
-Example: The cat washed its tail by licking it.`
+Examples: yours, his, ours, theirs, hers, mine, etc`
         ]
       }
     },
@@ -65,8 +65,8 @@ Example: The cat washed its tail by licking it.`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: `Which of the following is NOT a type of pronoun?`,
-            options: `Pronouns of Verb, Pronouns of Place, Pronouns of Time, Pronouns of Purpose `
+            qText: `Which of the following pronouns can be used to begin a sentence?`,
+            options: `Subject pronouns, Object pronouns, Possessive pronouns, Indefinite pronouns  `
           },
           {
             qText: `Which of the following is an example of an indefinite pronoun?`,
@@ -75,6 +75,14 @@ Example: The cat washed its tail by licking it.`
           {
             qText: `Which of the following is an example of a possessive pronoun?`,
             options: `hers, his, them, we`
+          },
+          {
+            qText: `Which pronoun is capable of standing on its own without an antecedent?`,
+            options: `Indefinite pronouns, Subject pronouns, Possessive pronouns, Object pronouns`
+          },
+          {
+            qText: `Do possessive pronouns require apostrophes?`,
+            options: `No, Yes, Sometimes, Always`
           }
         ]
       }
@@ -89,76 +97,12 @@ Example: The cat washed its tail by licking it.`
       },
       data: [
         [
-          `"I" is a first-person singular pronoun. 
-"She" is a third-person singular feminine pronoun. 
-"They" is a third-person plural pronoun. `,
-
-          `"He" is a first-person plural pronoun.
-"We" is a third-person plural pronoun. `
-        ],
-        [
-          `"You" is a second-person singular and plural pronoun.
-"Me" is an object pronoun.`,
-
-          `"It" is a first-person singular pronoun.
-"Them" is a possessive pronoun.
-"Her" is a third-person singular masculine pronoun. `
-        ],
-        [
-          `"Him" is a third-person singular masculine pronoun.
-"Them" is a third-person plural pronoun.
-"He" is a subjective pronoun. `,
-
-          `"Us" is a third-person plural pronoun.
-"She" is an object pronoun. `
-        ],
-        [
-          `"They" is a gender-neutral pronoun.`,
-
-          `"It" is a possessive pronoun.
-"You" is an indefinite pronoun.
-"Me" is a subjective pronoun.
-"Them" is a reflexive pronoun.`
-        ],
-        [
-          `"Her" is a possessive pronoun.
-"Him" is an object pronoun.
-"Them" is an objective pronoun.`,
-
-          `"Us" is a possessive pronoun.
-"She" is a possessive pronoun. `
-        ],
-        [
-          `Personal pronouns replace specific nouns in a sentence. `,
-
-          `"She" is a possessive pronoun.
-"He" is a reflexive pronoun.
-"They" is an indefinite pronoun.
-"It" is a subjective pronoun. `
-        ],
-        [
-          `"She" is a subjective pronoun.`,
-
-          `"You" is a reflexive pronoun.
-"Me" is a possessive pronoun.
-"Them" is a subjective pronoun.
-"Her" is a reflexive pronoun.`
-        ],
-        [
-          `The pronoun "I" is always capitalized.
-The pronoun "we" is always capitalized. 
+          `Personal pronouns replace specific nouns in a sentence. 
+The pronoun "I" is always capitalized.
 The pronoun "you" can be used to refer to a single person or a group of people.`,
 
           `The pronoun "it" is always used to refer to a non-living thing.
 The pronoun "they" is only used to refer to a group of people. `
-        ],
-        [
-          `The pronoun "who" is always a subject pronoun.
-The pronoun "whom" is always an object pronoun.
-The pronoun "it" can be used as both a subject and an object pronoun. 
-The pronoun "them" can be used to refer to both people and things.`,
-
-          `The pronoun "me" can also be used as a subject pronoun.`
         ],
         [
           `The pronoun "it" can also be used to refer to a baby whose gender is unknown. 
@@ -211,19 +155,18 @@ She lives in a remote village. *There* are no stores or restaurants there.`
       label: 'Pronouns of Time - Identify',
       type: 'selectWord',
       id: 'select-word',
-      multiSelect: true,
       data: {
         title: `Identify pronouns of time from the following sentences`,
-        text: `*Yesterday* was a busy day for me.
-*Tomorrow* is my best friend's birthday.
-I have a doctor's appointment *next week*.
-I can't meet you for lunch *today*. I have to work.
-We're going on vacation *next month*.
-I'll finish the project *soon*.
-The store is closed *now*. It opens at 9 am.
-I woke up *early* this morning.
-*Last year* was a difficult year for everyone.
-I'll call you *later* tonight.`
+        text: `Do you remember the day *when* we first met?
+*While* I was studying, my roommate was watching TV.
+*After* I finish this project, I plan to take a vacation.
+*Before* we leave, we should check the weather forecast.
+*Until* he apologized, she refused to speak to him.
+*Since* you started working here, the office has been much more organized.
+The time *when* we saw the shooting star was unforgettable.
+*While* I was living in New York, I never learned how to drive.
+*After* we finish dinner, let's go for a walk.
+*Before* she moved to London, she had never been abroad.`
       }
     },
     {
@@ -343,9 +286,8 @@ I have a few questions about the proposal. *Which* section should I focus on?
             options: `prepositions, adverbs, nouns, verbs`
           },
           {
-            qText:
-              'Possessive pronouns show ownership. They do not need ___________.',
-            options: `apostrophes, commas, semicolons`
+            qText: 'Possessive pronouns do not need apostrophes. True or False',
+            options: `True, False`
           }
         ]
       }

@@ -11,13 +11,37 @@ export default {
         title: 'Noun',
         text: [
           `Nouns are words used to refer to objects, places and living things. Some nouns also refer to feelings and emotions. Nouns can be classified in different ways.
-1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event. Eg: girl, school, pencil, city, bag, cat, driver, festival
-2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter. Eg: John, the Himalayas, the WHO, India
-3. Collective Noun: Used for a collection of people or things. Eg: bundle, basket, crew, team, pack
-4. Abstract Noun: Describes a concept, feeling or emotion. Eg: success, wealth, calm, fear, courage
-Nouns can also be classified as countable and uncountable nouns.
-1. Countable Noun: Anything that can be counted with numbers is called countable nouns. Eg: child, dog, egg, room, chair
-2. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun. Eg: sugar, oil, milk, rain, faith`
+1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event.`,
+          {
+            type: 'html',
+            text: `Eg: <b>girl</b>, <b>school</b>, <b>pencil</b>, <b>city</b>, <b>bag</b>, <b>cat</b>, <b>driver</b>, <b>festival</b>`
+          },
+          `2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter.`,
+          {
+            type: 'html',
+            text: `Eg: <b>John</b>, <b>the Himalayas</b>, <b>the WHO</b>, <b>India</b>`
+          },
+          `3. Collective Noun: Used for a collection of people or things.`,
+          {
+            type: 'html',
+            text: `Eg: <b>bundle</b>, <b>basket</b>, <b>crew</b>, <b>team</b>, <b>pack</b>`
+          },
+          `4. Abstract Noun: Describes a concept, feeling or emotion.`,
+          {
+            type: 'html',
+            text: ` Eg: <b>success</b>, <b>wealth</b>, <b>calm</b>, <b>fear</b>, <b>courage</b>`
+          },
+          `Nouns can also be classified as countable and uncountable nouns.
+1. Countable Noun: Anything that can be counted with numbers is called a countable noun.`,
+          {
+            type: 'html',
+            text: `Eg: <b>child</b>, <b>dog</b>, <b>egg</b>, <b>room</b>, <b>chair</b>`
+          },
+          `2. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`,
+          {
+            type: 'html',
+            text: ` Eg: <b>sugar</b>, <b>oil</b>, <b>milk</b>, <b>rain<b>, <b>faith</b>`
+          }
         ]
       }
     },
@@ -161,37 +185,47 @@ My mom loves to chop *vegetables*.`,
         title: 'Collective Noun',
         text: [
           `# List of Collective Nouns
-# Collective Nouns for Animals
-Collective noun for bees - Swarm
-Collective noun for fish - Shoal or School
-Collective noun for sheep - Herd
-Collective noun for ships - Fleet
-Collective noun for birds - Flock
-Collective noun for lions - Pride
-Collective noun for wolves - Pack
-Collective noun for ants - Colony
-# Collective Nouns for People
-Collective noun for actors - Troupe, Company or Cast
-Collective noun for soldiers - Army
-Collective noun for musicians - Band
-Collective noun for warriors - Troop
-Collective noun for directors - Board
-Collective noun for sailors - Crew
-Collective noun for singers - Choir
-Collective noun for dancers - Group
-Collective noun for thieves - Pack
-Collective noun for players - Team
-Collective noun for delegates - Delegation
-Collective noun for judges - Panel or Bench
-# Collective Nouns for Objects/Things
-Collective noun for cards - Deck/Pack
-Collective noun for cigarettes - Packet
-Collective noun for mountains - Range
-Collective noun for apples - Bushel
-Collective noun for bananas - Comb
-Collective noun for grapes - Bunch
-Collective noun for flowers - Bunch or Bouquet
-Collective noun for trees - Grove or Forest`
+# Collective Nouns for Animals`,
+          {
+            type: 'html',
+            text: ` <b>Swarm</b> of bees <br>  
+<b>Shoal or School</b> of fish <br>  
+<b>Herd</b> of sheep  <br> 
+<b>Fleet</b> of ships <br>  
+<b>Flock</b> of birds <br>  
+<b>Pride</b> of lions <br>  
+<b>Pack</b> of wolves <br>  
+<b>Colony</b> of ants   `
+          },
+          `# Collective Nouns for People`,
+          {
+            type: 'html',
+            text: `<b>Troupe, Company or Cast</b> of actors <br>    
+<b>Army</b>  of soldiers <br>   
+<b>Band</b>  of musicians <br>   
+<b>Troop</b>  of warriors <br>   
+<b>Board</b>  of directors <br>   
+<b>Crew</b>  of sailors <br>   
+<b>Choir</b>  of singers <br>   
+<b>Group</b>  of dancers <br>   
+<b>Pack</b>  of thieves <br>   
+<b>Team</b>  of players <br>   
+<b>Delegation</b>  of delegates <br>   
+<b>Panel or Bench</b>  of judges <br>`
+          },
+
+          `# Collective Nouns for Objects/Things`,
+          {
+            type: 'html',
+            text: `<b>Deck/Pack</b>  of cards <br>  
+<b>Packet</b>  of cigarettes <br>  
+<b>Range</b>  of mountains <br>  
+<b>Bushel</b>  of apples <br>  
+<b>Comb</b>  of bananas <br>  
+<b>Bunch</b>  of grapes <br>  
+<b>Bunch</b>  or Bouquet of flowers <br>  
+<b>Grove</b>  or Forest of trees`
+          }
         ]
       }
     },
@@ -201,10 +235,29 @@ Collective noun for trees - Grove or Forest`
       id: 'drag-drop-collective',
       lockAfter: 1,
       data: [
-        `an *army* of soldiers
-a *band* of musicians
-a *bevy* of ladies
-a *body* of directors`,
+        `a *flock* of sheep
+a *pride* of lions
+a *swarm* of bees
+a *zoo* of animals
+an *album* of photographs`,
+
+        `a *basket* of fruit
+a *bunch* of keys
+a *galaxy* of stars
+a *bundle* of sticks
+a *harvest* of wheat`,
+
+        `a *forest* of trees
+a *pack* of cards
+a *library* of books
+a *loaf* of bread
+a *shower* of rain`,
+
+        `an *army* of ants
+a *board* of chicken
+a *catch* of fish
+a *cloud* of insects
+a *flight* of birds`,
 
         `a *body* of men
 a *choir* of singers
@@ -224,29 +277,10 @@ a *patrol* of police
 a *staff* of employees
 a *team* of players`,
 
-        `an *army* of ants
-a *board* of chicken
-a *catch* of fish
-a *cloud* of insects
-a *flight* of birds`,
-
-        `a *flock* of sheep
-a *pride* of lions
-a *swarm* of bees
-a *zoo* of animals
-an *album* of photographs`,
-
-        `a *basket* of fruit
-a *bunch* of keys
-a *galaxy* of stars
-a *bundle* of sticks
-a *harvest* of wheat`,
-
-        `a *forest* of trees
-a *pack* of cards
-a *library* of books
-a *loaf* of bread
-a *shower* of rain`
+        `an *army* of soldiers
+a *band* of musicians
+a *bevy* of ladies
+a *body* of directors`
       ]
     },
     {
@@ -338,14 +372,17 @@ A group of criminals| GANG`
 5. Common Gender Noun: A noun that belongs to both males and females.
 # Gender Nuetered Language
 With growing awareness, people are moving away from gendered terms and embracing gender-neutral language.
-Examples of gendered terms	and their gender-neutral terms:
-Mankind => Humankind 
-Policeman, policewoman =>	Police
-Fireman =>	Firefighter
-Chairman => Chairperson
-Stewardess, Steward	=> Flight attendant
-Actor, actress	=> Actor
-Common man	=> Common person`
+Examples of gendered terms	and their gender-neutral terms:`,
+          {
+            type: 'html',
+            text: `Mankind => <b>Humankind</b>  <br>
+Policeman, policewoman =>	<b>Police</b> <br>
+Fireman =>	<b>Firefighter</b>  <br>
+Chairman => <b>Chairperson</b>  <br>
+Stewardess, Steward	=> <b>Flight attendant</b>  <br>
+Actor, actress	=> <b>Actor</b>  <br>
+Common man	=> <b>Common person</b> `
+          }
         ]
       }
     },
@@ -365,8 +402,22 @@ Common man	=> Common person`
             options: `A noun that can be counted with numbers, A noun that cannot be counted, A noun that refers to a group of people or things, A noun that refers to a specific individual or organization`
           },
           {
-            qText: `In the phrase "coffee mug", which word is acting as an adjective?`,
-            options: `Coffee, Mug, None of the above`
+            qText: `What is a singular noun?`,
+            options: `A noun that consists of only one person, animal, or thing.
+A noun that refers to both males and females.
+A noun that refers to a group of people or things.
+A noun that is not specific to any gender.`
+          },
+          {
+            qText: `Which of the following is an example of a plural noun?`,
+            options: `Trees, Desk, Cat, House`
+          },
+          {
+            qText: `What is a common gender noun?`,
+            options: `A noun that refers to both males and females.
+A noun that refers to the 'male'.
+A noun that refers to the 'female'.
+A noun that is not specific to any gender.`
           }
         ]
       }
