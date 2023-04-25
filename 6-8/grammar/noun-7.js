@@ -11,12 +11,13 @@ export default {
         title: 'Noun',
         text: [
           `Nouns are words used to refer to objects, places and living things. Some nouns also refer to feelings and emotions. Nouns can be classified in different ways.
-1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event.
-2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter.
-3. Collective Noun: Used for a collection of people or things.
-4. Abstract Noun: Describes a concept, feeling or emotion.
-5. Countable Noun: Anything that can be counted with numbers is called countable nouns.
-6. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`
+1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event. Eg: girl, school, pencil, city, bag, cat, driver, festival
+2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter. Eg: John, the Himalayas, the WHO, India
+3. Collective Noun: Used for a collection of people or things. Eg: bundle, basket, crew, team, pack
+4. Abstract Noun: Describes a concept, feeling or emotion. Eg: success, wealth, calm, fear, courage
+Nouns can also be classified as countable and uncountable nouns.
+1. Countable Noun: Anything that can be counted with numbers is called countable nouns. Eg: child, dog, egg, room, chair
+2. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun. Eg: sugar, oil, milk, rain, faith`
         ]
       }
     },
@@ -25,16 +26,15 @@ export default {
       label: 'Fill up',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with the most appropriate form of words.`
+        title: `Fill in the blanks with the right option.`
       },
       data: [
         `A cat *likes (like)* to drink milk.
 A *patrol (staff)* of police was having a grand party on the lawn.
 The teacher *told (tells)* us to maintain silence.
 John *loves (love)* to read American stories.
-Gangtok is the capital of *Sikkim (sikkim)*.`,
-
-        `A Royal Bengal tiger *looks (look)* great.
+Gangtok is the capital of *Sikkim (sikkim)*.
+A Royal Bengal tiger *looks (look)* great.
 A *team (group)* of players was playing cricket.
 *Cherries (Cherry's)* are red in color.
 *Eggs (Egg)* were broken by Rahul.
@@ -44,9 +44,8 @@ London is the home for the *London Eye (london eye)*.`,
 Our *team (group)* lost the match.
 *Dhoni (dhoni)* is a famous cricketer.
 A *fish (Fish)* can stay alive just in water.
-The *thieves (thiefs)* ran away with all the ornaments.`,
-
-        `A *mouse (mice)* scurried across the kitchen floor.
+The *thieves (thiefs)* ran away with all the ornaments.
+A *mouse (mice)* scurried across the kitchen floor.
 An apple a day keeps the *doctor (Doctor)* away.
 The *children (child)* are laughing and playing together.
 *Apples (Apple)* are a good source of fiber and vitamins.

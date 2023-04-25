@@ -134,7 +134,7 @@ My purse has been stolen.`
       id: 'make-sentence',
       commonData: {
         title:
-          'Convert the Passive Voice to Active Voice. Drag & Drop the words from the bottom and construct the sentence.',
+          'Convert the Active Voice to Passive Voice. Drag & Drop the words from the bottom and construct the sentence.',
         extras: 'is because of an the them us'
       },
       data: [
