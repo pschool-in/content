@@ -14,10 +14,10 @@ export default {
   1. The specific determiners are =>`,
           {
             type: 'html',
-            text: `· the definite article: <b>the</b><br>
-  · possessives: <b>my</b>, <b>your</b>, <b>his</b>, <b>her</b>, <b>its</b>, <b>our</b>, <b>their</b>, <b>whose</b><br>
-  · demonstratives: <b>this</b>, <b>that</b>, <b>these</b>, <b>those</b><br>
-  · interrogatives: <b>which</b>`
+            text: `a) the definite article: <b>the</b><br>
+b) possessives: <b>my</b>, <b>your</b>, <b>his</b>, <b>her</b>, <b>its</b>, <b>our</b>, <b>their</b>, <b>whose</b><br>
+c) demonstratives: <b>this</b>, <b>that</b>, <b>these</b>, <b>those</b><br>
+d) interrogatives: <b>which</b>`
           },
           `We use a specific determiner when we believe the listener/reader knows exactly what we are referring to.`,
           {
@@ -38,7 +38,7 @@ export default {
   With a full license, you are allowed to drive <b>any</b> car.<br>
   I like beef, lamb, pork - <b>any</b> meat.`
           },
-          ` => We use the general determiner 'another' to talk about an additional person or thing.`,
+          `=> We use the general determiner 'another' to talk about an additional person or thing.`,
           {
             type: 'html',
             text: `<b>Example</b>: Would you like <b>another</b> glass of wine?`
@@ -49,7 +49,7 @@ export default {
             text: `I spoke to John, Helen and a few <b>other</b> friends.`
           },
           `# Types of Determiners
-  1. Articles: Articles can be definite articles (the) or indefinite (a or an). 'The' is used when the speaker thinks that the listener already knows what is being referred to. Otherwise, 'a' (before consonants) or 'an' (before vowels) is used.`,
+1. Articles: Articles can be definite articles (the) or indefinite (a or an). 'The' is used when the speaker thinks that the listener already knows what is being referred to. Otherwise, 'a' (before consonants) or 'an' (before vowels) is used.`,
           {
             type: 'html',
             text: `<b>Examples</b>: I bought <b>a</b> nice present for my uncle.<br>
@@ -112,7 +112,7 @@ export default {
           `# Rules
   The grammar rules for determiners are:
   1. They always come before a noun.
-  2. They come before any modifiers (e.g. adjectives) used before the noun.
+  2. They come before any modifiers used before the noun.
   3. They are required before a singular noun.
   4. They are optional before plural nouns.`
         ]

@@ -238,6 +238,44 @@ I am <b>used to</b> a life full of struggle.`
       }
     },
     {
+      id: 'fill-up-option',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks using suitable modals.`
+      },
+      data: [
+        `My teacher *can (must)* speak four languages.
+*May (Should)* I use your mobile to call my mother?
+You *must (could)* not speak loudly in the hospital.
+I *could (must)* use a little help in packing all these clothes.
+Madam, *could (may)* you repeat what you said?`,
+
+        `I *might (can)* not be able to make it tonight.
+Sheldon *must (ought to)* study more if he wants to pass the test.
+*Can (May)* you come to the prom with me?
+My parents *shall (ought to)* arrive soon.
+I *could (must)* be late as I have a lot on my plate.`,
+
+        `She *could (should)* finish her project by the end of the week.
+We *must(should)* leave now if we want to catch the train.
+He *may (might)* be able to come to the party later tonight.
+They *will (would)* have to work on the weekend to meet the deadline.
+You *ought to (might)* be more careful when crossing the street.`,
+
+        `I am not sure if I *can (could)* come to the party tonight.
+They *might (may)* have already left for the airport by now.
+You *should (must)* take an umbrella with you, it might rain later.
+She *must (should)* finish her project by tomorrow.
+We *ought to (will)* start preparing for the exam as soon as possible.`,
+
+        `Leonard *can (may)* easily solve the problem.
+It *might (should)* rain tomorrow.
+*May (might)* all your wishes come true in life.
+I *could (might)* not be any happier.`
+      ]
+    },
+    {
       label: 'True or False',
       type: 'classifySentence',
       id: 'true-false',
@@ -270,6 +308,43 @@ Modal verbs can be used to express obligation or duty. `,
 
           `The modal verb "might" is used to express strong probability. `
         ]
+      ]
+    },
+    {
+      id: 'fill-up-modal',
+      label: 'Fill in the blanks',
+      type: 'fillup',
+      commonData: {
+        noOptions: true,
+        title:
+          'Use appropriate modals of probability, permission, obligation etc to fill in the blanks.'
+      },
+      lockAfter: 1,
+      data: [
+        `Everybody *must* fulfill his or her duties towards the country.
+The computer is not working. The supervisor *might* call an engineer, today.
+The work is completed. *May* I leave now?
+I am not the right person to give you permission to go. You *may* ask the Manager.`,
+
+        `Vibha is not home today. She *must* have gone for dance practice.
+*May* I request you show me this file?
+It is raining cats and dogs. This *can* cause floods in many areas.
+*Could* I, please, make a call from your phone?`,
+
+        `You *should* take your umbrella with you, it looks like it's going to rain.
+Students *must* not bring their phones to the exam.
+She *might* stay up late to finish her project tonight.
+I *might* have left my phone at home.`,
+
+        `You *must* take your medicine three times a day.
+He *might* be at the meeting, but I'm not sure.
+They *have* to clean up the kitchen before they go to bed.
+I *could* have lost my phone somewhere in the house.`,
+
+        `Sugandha sings so beautifully. She *must* have taken classes of music.
+He is not in his cabin. You *can* check if he is there in the lobby.
+He *has* to be at work by 9 AM every day.
+She *can* leave work early if she finishes her tasks.`
       ]
     },
     {
@@ -393,81 +468,6 @@ Modal verbs can be used to express obligation or duty. `,
       ]
     },
     {
-      id: 'fill-up-option',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blanks using suitable modals.`
-      },
-      data: [
-        `My teacher *can (must)* speak four languages.
-*May (Should)* I use your mobile to call my mother?
-You *must (could)* not speak loudly in the hospital.
-I *could (must)* use a little help in packing all these clothes.
-Madam *could (may)* you repeat what you said?`,
-
-        `I *might (can)* not be able to make it tonight.
-Sheldon *must (ought to)* study more if he wants to pass the test.
-*Can (May)* you come to the prom with me?
-My parents *shall (ought to)* arrive soon.
-I *could (must)* be late as I have a lot on my plate.`,
-
-        `She *could (should)* finish her project by the end of the week.
-We *must(should)* leave now if we want to catch the train.
-He *may (might)* be able to come to the party later tonight.
-They *will (would)* have to work on the weekend to meet the deadline.
-You *ought to (might)* be more careful when crossing the street.`,
-
-        `I am not sure if I *can (could)* come to the party tonight.
-They *might (may)* have already left for the airport by now.
-You *should (must)* take an umbrella with you, it might rain later.
-She *must (should)* finish her project by tomorrow.
-We *ought to (will)* start preparing for the exam as soon as possible.`,
-
-        `Leonard *can (may)* easily solve the problem.
-It *might (should)* rain tomorrow.
-*May (might)* all your wishes come true in life.
-I *could (might)* not be any happier.`
-      ]
-    },
-    {
-      id: 'fill-up-modal',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title:
-          'Use appropriate modals of probability, permission, obligation etc to fill in the blanks.'
-      },
-      lockAfter: 1,
-      data: [
-        `Everybody *must* fulfill his or her duties towards the country.
-The computer is not working. The supervisor *might* call an engineer, today.
-The work is completed. *May* I leave now?
-I am not the right person to give you permission to go. You *may* ask the Manager.`,
-
-        `Vibha is not home today. She *must* have gone for dance practice.
-*May* I request you show me this file?
-It is raining cats and dogs. This *can* cause floods in many areas.
-*Could* I, please, make a call from your phone?`,
-
-        `You *should* take your umbrella with you, it looks like it's going to rain.
-Students *must* not bring their phones to the exam.
-She *might* stay up late to finish her project tonight.
-I *might* have left my phone at home.`,
-
-        `You *must* take your medicine three times a day.
-He *might* be at the meeting, but I'm not sure.
-They *have* to clean up the kitchen before they go to bed.
-I *could* have lost my phone somewhere in the house.`,
-
-        `Sugandha sings so beautifully. She *must* have taken classes of music.
-He is not in his cabin. You *can* check if he is there in the lobby.
-He *has* to be at work by 9 AM every day.
-She *can* leave work early if she finishes her tasks.`
-      ]
-    },
-    {
       id: 'fill-up-modal-2',
       label: 'Fill in the blanks',
       type: 'fillup',
@@ -510,8 +510,7 @@ You *need* to submit your application by tomorrow.`
       data: {
         title: 'Modals',
         text: [
-          `Auxiliary verbs provide additional and specific meanings to the main verb. Usually used to indicate probability/possibility, ability, permission, obligation/advice, offers, etc
-1. should/ought to - indicate obligation, probability
+          `1. should/ought to - indicate obligation, probability
 2. must - indicate logical conclusion, necessity
 3. will/would - indicate willingness, likelihood, certainity, habits
 4. may/might/can/could - indicate possibility, future, plan, ability, permission, offer
@@ -542,7 +541,7 @@ Conditional sentences, frequently use modal auxiliaries. `,
             options: ` Describing the action performed by the subject
 Indicating permission, obligation or advice
 Offering help or assistance
-Indicating probability/possibility `
+Indicating probability or possibility `
           },
           {
             qText: `Which modal verb indicates obligation and probability?`,
@@ -563,7 +562,7 @@ Indicating probability/possibility `
       id: 'will-shall',
       label: 'Will or Shall',
       type: 'fillup',
-      title: `Read the short paragraph. Fill in the blanks with a, an or the.`,
+      title: `Fill in the blanks with the correct option`,
       data: {
         text: `They said that they *will (shall)* go to the park in the evening.
 The warden thinks that I *shall (will)* finish the project soon.

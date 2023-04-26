@@ -84,9 +84,9 @@ The flowers *are* blooming in the garden.
 I *am* not sure what to wear to the party.
 The children *are* playing in the yard.`,
 
-        `The boy *is* very mischievous.
+        `Niki *is* very mischievous.
 I *am* feeling very sleepy.
-The dog *is* barking at the stranger.
+The dog *is* barking at a stranger.
 The cats *are* fighting for food.
 *Are* you sure what you said is true?`
       ]
@@ -188,7 +188,15 @@ Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream
           },
           {
             qText: `What is the past participle form of the irregular verb "dream" in the regular form?`,
-            options: `Dreamed, Dreamt, Dreamed or dreamt, None of the above`
+            options: `Dreamed, Dreamt, Dreamed or dreamt`
+          },
+          {
+            qText: `Which of the following is an example of an irregular verb that has the same base form, past tense, and past participle?`,
+            options: `Run, Sing, Drink, Tell`
+          },
+          {
+            qText: `Which of the following is a correct past tense form of the verb "ride"?`,
+            options: `Ridden, rid, rided, riding`
           }
         ]
       }
@@ -466,6 +474,10 @@ I had cast my rod and was waiting for the fish to bite the bait. I reeled in the
           {
             qText: `Which of the following is an example of an intransitive verb?`,
             options: `The flowers bloomed, She cooked dinner, He kicked the ball, They sang a song`
+          },
+          {
+            qText: `Which of the following is an example of a transitive verb?`,
+            options: `I wrote a letter, The cat meowed, The child slept, The flowers bloomed`
           }
         ]
       }
@@ -533,7 +545,7 @@ The leaves fell from the trees in the autumn breeze. `
 The dogs *bark (barks)* all night.
 The cat *caught (catch)* the snake.
 We *play (plays)* in the park in the evenings.
-Mira *went (go)* school yesterday.`,
+Mira *went (go)* to school yesterday.`,
 
         `Sheema *wants (want)* to be a Police Officer when she grows up.
 Mahir *ran (run)* back to his mother.
@@ -674,8 +686,7 @@ The teacher *was* absent today.
 My parents *were* tired after the long journey.
 Kenny *seems* to be a great man.`,
 
-        `All it took was one wrong word to make the situation *turn* ugly.
-Based on the results of the experiment, her hypothesis *proved* true.
+        `Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
 William's mom *is* a doctor.`
       ]
@@ -774,7 +785,7 @@ Auxiliary verbs fall into three basic groups:
           },
           {
             qText: `Which of the following is an example of a modal auxiliary verb?`,
-            options: `might, be about to, have to, all the above`
+            options: `might, be about to, have to`
           },
           {
             qText: `What is a semi-modal?`,
@@ -897,9 +908,8 @@ It was not necessary to meet him but I met him.`
     {
       id: 'modal',
       label: 'Modal Auxiliary Verbs',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title:
           'Complete the following sentences using suitable modal auxiliary verbs.'
       },
@@ -931,7 +941,7 @@ You *might* want to try this recipe once you taste it.`,
 
         `*Will* you, please stop gossiping about Abdu.
 He has lost your watch and he *dares* not to tell you.
-I *used to* play cricket daily in the morning when I was ten.
+I *used to* play cricket daily when I was ten.
 Liya *may* go to the museum whenever she likes.
 You *ought to* consult a Dentist.`
       ]
@@ -948,7 +958,7 @@ You *ought to* consult a Dentist.`
             options: `shall, should, can`
           },
           {
-            qText: 'He ____ not pay unless he is compelled',
+            qText: 'He ____ not pay unless he is compelled.',
             options: `will, shall, dare`
           },
           {

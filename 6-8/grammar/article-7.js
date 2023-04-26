@@ -143,7 +143,7 @@ export default {
           },
           {
             qText: `Which of the following is a definite article?`,
-            options: `The, A, An, None of the above`
+            options: `The, A, An`
           },
           {
             qText: `When is 'the' used?`,
@@ -187,38 +187,6 @@ Before a proper noun, common noun, abstract noun or material noun to make them c
 "An" can only be used with plural nouns.
 "A" can only be used with countable nouns.
 "A" can be used with both countable and uncountable nouns.`
-        ],
-        [
-          `"The" is always used before a specific noun.
-"The" can be used with abstract nouns.`,
-
-          `"An" is always used before a vowel.
-"A" and "an" are interchangeable. 
-"A" and "an" are both definite articles.`
-        ],
-        [
-          `"The" can be used with superlative adjectives.
-"A" and "an" are both indefinite articles.
-"The" can be used before a proper noun.
-"The" can be used before a possessive pronoun.`,
-
-          `"A" can be used before an adjective.`
-        ],
-        [
-          `"The" can be used before a singular noun that represents a whole class of things.
-"An" can be used before an acronym.`,
-
-          `"An" can be used before an uncountable noun.
-"A" can be used before an uncountable noun. 
-"A" can be used before a singular noun that represents a whole class of things.`
-        ],
-        [
-          `"A" can be used before a proper noun.`,
-
-          `"The" is always used before a plural noun.
-"The" is always used before a common noun.
-"The" is always used before an adjective.
-"An" can be used before a noun that starts with a consonant sound.`
         ]
       ]
     },
