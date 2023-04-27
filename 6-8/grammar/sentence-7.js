@@ -21,13 +21,13 @@ Example: Because it was raining, we stayed inside.
 4. Compound-Complex Sentence: A compound-complex sentence consists of two or more independent clauses and one or more dependent clauses.
 Example: I wanted to go to the park, but it was raining, so I stayed home and read a book.
 => Sentences can also be classified based on their function. There are four types of sentences based on function: declarative, interrogative, imperative, and exclamatory.
-5. Declarative Sentence: A declarative sentence makes a statement and ends with a period.
+1. Declarative Sentence: A declarative sentence makes a statement and ends with a period.
 Example: She is a talented musician.
-6. Interrogative Sentence: An interrogative sentence asks a question and ends with a question mark.
+2. Interrogative Sentence: An interrogative sentence asks a question and ends with a question mark.
 Example: Have you finished your homework yet?
-7. Imperative Sentence: An imperative sentence gives a command or makes a request and can end with a period or an exclamation mark.
+3. Imperative Sentence: An imperative sentence gives a command or makes a request and can end with a period or an exclamation mark.
 Example: Don't forget to bring your passport.
-8. Exclamatory Sentence: An exclamatory sentence expresses strong emotion and ends with an exclamation mark.
+4. Exclamatory Sentence: An exclamatory sentence expresses strong emotion and ends with an exclamation mark.
 Example: Wow, what a beautiful sunset!`
         ]
       }
@@ -159,24 +159,13 @@ The book *was very interesting*.`
     {
       id: 'fillup-2',
       label: 'Fill in the blanks',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title:
           'Complete the following sentences by inserting a suitable subject'
       },
       lockAfter: 2,
       data: [
-        `*Dogs* bark at night.
-The *sun* sets in the west.
-The *cow* gives us milk.
-*It* is cloudy today.`,
-
-        `*Birds* fly in the air.
-*I* am in a hurry.
-The *Earth* orbits around the sun.
-The *capital* of Italy is Rome.`,
-
         `*Water* freezes at 0 degrees Celsius.
 The *human* body has 206 bones.
 The tallest *mountain* in the world is Mount Everest.
@@ -190,7 +179,17 @@ The Sahara *Desert* is the largest hot desert in the world.`,
         `The E*arth* is the third planet from the sun.
 The *moon* orbits around the Earth.
 The *capital* of France is Paris.
-The Nile *River* is the longest river in the world.`
+The Nile *River* is the longest river in the world.`,
+
+        `*Dogs* bark at night.
+The *sun* sets in the west.
+The *cow* gives us milk.
+*It* is cloudy today.`,
+
+        `*Birds* fly in the air.
+*I* am in a hurry.
+The *Earth* orbits around the sun.
+The *capital* of Italy is Rome.`
       ]
     },
     {
@@ -286,9 +285,8 @@ She is studying Spanish, *and* she hopes to travel to Spain someday.`
     {
       id: 'complex',
       label: 'Complex Sentences',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title:
           'Complete the following complex sentences using appropriate conjunctions.'
       },
