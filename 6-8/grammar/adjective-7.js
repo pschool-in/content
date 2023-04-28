@@ -10,80 +10,81 @@ export default {
       data: {
         title: 'Adjectives',
         text: [
-          `A word that is used with a noun or a pronoun to describe it is known as an Adjective.`,
+          `A word that is used to add more meaning to a noun or a pronoun is known as an Adjective.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: Ramesh is <b>intelligent</b>.<br>
-An <b>intelligent</b> boy won the quiz.<br>
-In both sentences, '<b>intelligent</b>' is used to describe the quality of nouns so it is an adjective in both sentences.<br>
-=> In the first sentence, '<b>intelligent</b>' is used as a part of the predicate, so it is called a <b>predicative adjective</b>.<br>
-In the second sentence, '<b>intelligent</b>' is used to describe the attribute of the noun, so it is called an <b>attributive adjective</b>.<br>
-=> Some adjectives like '<b>afraid</b>', '<b>well</b>' etc can be used only <b>predicatively</b>.`
+            text: `Eg: Ramesh is <i>intelligent</i>.<br>
+An <i>intelligent</i> boy won the quiz.<br><br>
+In both sentences, '<i>intelligent</i>' is used to describe the quality of nouns so it is an adjective in both sentences.<br><br>
+In the first sentence, '<i>intelligent</i>' is used as part of the predicate, so it is called a predicative adjective.<br><br>
+In the second sentence, '<i>intelligent</i>' is used in front of the noun, so it is called an attributive adjective.<br><br>
+Some adjectives like <i>afraid, well, ill, glad, alive</i>  can be used only predicatively.`
           },
-          `# Kinds of Adjectives
-Adjectives are of three kinds:
+          `# Types of Adjectives
+There are three common types:
 1. Adjective of Quantity: It shows how much of anything is described.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: She has <b>some</b> time.<br>
-Sheela has <b>little</b> patience.`
+            text: `Eg: She has <i>some</i> time.<br>
+Sheela has <i>little</i> patience.`
           },
           `2. Adjective of Number (Numeral Adjective): It shows how many persons or things are described. It also shows the order of any person or thing.`,
           {
             type: 'html',
-            text: `<b>Examples</b>:There are <b>three</b> halls in the palace.<br>
-<b>All</b> students will pass this year.`
+            text: `Eg:There are <i>three</i> halls in the palace.<br>
+<i>All</i> students will pass this year.`
           },
-          `3. Adjective of Quality: It shows the kind of quality of any person or thing. (ie.., it describes the attribute of any person or thing)`,
+          `3. Adjective of Quality: It shows the kind of quality of any person or thing. (i.e., it describes the attribute of any person or thing)`,
           {
             type: 'html',
-            text: `<b>Examples</b>: Sapna is an <b>honest</b> girl.<br>
-You are a <b>foolish</b> man.`
+            text: `Eg: Sapna is an <i>honest</i> girl.<br>
+You are a <i>foolish</i> man.`
           },
-          `# Comparisson of Adjectives
+          `# Comparison of Adjectives
 Here are some examples of adjectives in their different degrees of comparison:
 1. Positive: It is the simple form of the adjective that is used to describe a single thing.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: My sister is <b>beautiful</b>.<br>
-The dog is <b>cute</b>.<br>
-The flowers are <b>colorful</b>.`
+            text: `Eg: My sister is <i>beautiful</i>.<br>
+The dog is <i>cute</i>.<br>
+The flowers are <i>colorful</i>.`
           },
           `2. Comparative: It is used to compare two things. The comparative degree is formed by adding -er to the end of the adjective for short adjectives or by adding "more".`,
           {
             type: 'html',
-            text: `<b>Examples</b>:My sister is <b>more beautiful</b> than my mother.<br>
-The dog is <b>cuter</b> than the cat.<br>
-The flowers are <b>more colorful</b> than the leaves.`
+            text: `Eg: My sister is <i>more beautiful</i> than my mother.<br>
+The dog is <i>cuter</i> than the cat.<br>
+The flowers are <i>more colorful</i> than the leaves.`
           },
           `3. Superlative: It is used to compare more than two things. The superlative degree is formed by adding -est to the end of the adjective for short adjectives or by adding "most".`,
           {
             type: 'html',
-            text: `<b>Examples</b>: My sister is the <b>most beautiful</b> woman in the world.<br>
-The dog is the <b>cutest</b> animal in the park.<br>
-The flowers are the <b>most colorful</b> thing in the garden.`
+            text: `Eg: My sister is the <i>most beautiful</i> woman in the world.<br>
+The dog is the <i>cutest</i> animal in the park.<br>
+The flowers are the <i>most colorful</i> thing in the garden.`
           },
           `# Nouns as Adjectives
 Nouns can be used as adjectives to modify other nouns in a sentence. This type of adjective is called a noun adjunct or attributive noun. Nouns used as adjectives help to provide more information about the noun they modify.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: 1. <b>Football</b> player - In this phrase, "<b>football</b>" is used as an adjective to describe the type of player.<br>
-2. <b>Dog</b> food - In this phrase, "<b>dog</b>" is used as an adjective to describe the type of food.<br>
-3. <b>Coffee</b> mug - In this phrase, "<b>coffee</b>" is used as an adjective to describe the type of mug.<br>
-4. <b>Ocean</b> breeze - In this phrase, "<b>ocean</b>" is used as an adjective to describe the type of breeze.<br>
-5. <b>Tennis</b> shoes - In this phrase, "<b>tennis</b>" is used as an adjective to describe the type of shoes.`
+            text: `Eg: <i>football</i> player<br>
+            <i>dog</i> food<br>
+<i>coffee</i> mug<br>
+<i>sea</i> breeze<br>
+<i>Tennis</i> shoes<br><br>
+In the above examples, the highlighted nouns play the role of adjectives.`
           },
           `# Adjectives with -ly
-Adjectives with -ly are adjectives that are formed by adding -ly to a root word. These adjectives describe how something is done or how something is done.`,
+Adjectives can be formed by adding <i>-ly</i> to their root word. These adjectives describe how something is done.`,
           {
             type: 'html',
-            text: `Examples: <b>Quickly</b>; <b>Carefully</b>; <b>Quietly</b>; <b>Happily</b>; <b>Lazily</b>`
+            text: `Eg: <i>quickly</i>; <i>carefully</i>; <i>quietly</i>; <i>happily</i>; <i>lazily</i>`
           },
-          `# Participal Adjective
-Participial adjectives are formed from the past participle (-ed) or present participle (-ing) of a verb. They are used to provide more detail and add interest to a sentence.`,
+          `# Participial Adjective
+Participial adjectives are formed from the past participle (-ed) or present participle (-ing) of a verb.`,
           {
             type: 'html',
-            text: `Examples: <b>Bored</b>; <b>Amazed</b>; <b>Confused</b>; <b>Exciting</b>; <b>Exhausted</b>`
+            text: `Eg : <i>bored</i>; <i>amazed</i>; <i>confused</i>; <i>exciting</i>; <i>exhausted</i>`
           }
         ]
       }
@@ -96,7 +97,7 @@ Participial adjectives are formed from the past participle (-ed) or present part
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: `Which of the following is not a kind of adjective?`,
+            qText: `Which of the following is not a type of adjective?`,
             options: `Adjective of Color, Adjective of Quantity, Adjective of Quality, Adjective of Number `
           },
           {
@@ -105,11 +106,11 @@ Participial adjectives are formed from the past participle (-ed) or present part
           },
           {
             qText: `In the phrase "coffee mug", which word is acting as an adjective?`,
-            options: `Coffee, Mug, None of the above`
+            options: `Coffee, Mug, *None of the above`
           },
           {
             qText: `Which of the following is a participial adjective?`,
-            options: `Exciting, Quick, Beautiful, All of the above`
+            options: `Exciting, Quick, Beautiful, *All of the above`
           },
           {
             qText: `Which of the following adjectives cannot be used attributively?`,
@@ -122,29 +123,27 @@ Participial adjectives are formed from the past participle (-ed) or present part
       label: 'True or False',
       type: 'classifySentence',
       id: 'true-false',
-      commonData: {
+      data: {
         title: 'Classify the following sentences as True or False',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Adjectives modify nouns or pronouns.
-Adjectives can be used to compare two or more nouns or pronouns. `,
-
-          `Adjectives have no comparative or superlative forms.
+        types: [
+          {
+            name: 'True',
+            text: `Adjectives modify nouns or pronouns.
+Adjectives can be used to compare two or more nouns or pronouns.
+Adjectives can be formed by adding suffixes to nouns or verbs.
+Adjectives can be used to indicate age.`
+          },
+          {
+            name: 'False',
+            text: `Adjectives have no comparative or superlative forms.
 Adjectives can be used to show possession.
-Adjectives are always placed before the noun they modify.`
-        ],
-        [
-          `Adjectives can be formed by adding suffixes to nouns or verbs.
-Adjectives can be used to indicate age. 
-`,
-
-          `Adjectives can be used to indicate purpose.
+Adjectives are always placed before the nouns they modify.
+Adjectives can be used to indicate purpose.
 Adjectives can be used to indicate time.
 Adjectives are only used to describe people, not things.`
+          }
         ]
-      ]
+      }
     },
     {
       type: 'selectWord',
@@ -152,12 +151,11 @@ Adjectives are only used to describe people, not things.`
       id: 'select-word-adj',
       lockAfter: 1,
       commonData: {
-        title: 'Identify the adjectives from the following sentences.',
-        multiSelect: true
+        title: 'Identify the adjectives from the following sentences.'
       },
       data: [
         `*Good* people are always welcomed everywhere.
-*Those* girls were preparing for the *upcoming* exam.
+The girls were preparing for the *upcoming* exam.
 There were *several* mistakes in his essay.
 Gulliver did not get *sufficient* food.
 Parvati secured the *seventh* rank in the test.`,
@@ -169,21 +167,21 @@ Bill wrote *many* novels.
 It was a *difficult* question, but I solved it.`,
 
         `This Diwali I bought my grandmother *two* sarees.
-I have *six* fingers on my *right* toe.
+He walked *six* kilometer.
 Who was the *first* Prime Minister of India?
-The *sixth* boy on the *last* row is talkative.
+The students on the *last* row are talkative.
 Are there *any* apples left in the fridge?`,
 
         `She ate only *half* a slice of pizza.
-I got offer letters from *five* companies.
-I will finish this *whole* book today.
-Each *one* of us should eat *healthy* food.
-*Most* of the students have completed their *project* work.`,
+My uncle got job offer letters from *five* companies.
+I will finish the *whole* book today.
+We should eat *healthy* food.
+The students have completed their *project* work.`,
 
         `Rohan made *several* calls from his mobile.
-*Many* students participated in the *art* competitions.
+We participated in the *art* competitions.
 May I have *three* coffee, please?
-There are *many* call centers across India.
+There are *many* colleges across India.
 A *few* people are allowed inside the room.`
       ]
     },
@@ -213,7 +211,7 @@ Burj Khalifa is the *tallest* building in the world. (tall)`,
 May is the *hottest* month of the year. (hot)
 Sheela is *taller* than her sister. (tall)
 Yogesh is the *wiser* of the two. (wise)
-You are the *most regular* boy in class. (regular)`,
+You are the *most regular* boy in the class. (regular)`,
 
         `My brother is *taller*  than me. (tall)
 This is the *most interesting*  book I have ever read. (interesting)
@@ -225,7 +223,7 @@ The cat is the *laziest*  animal in the house. (lazy)`,
 This pizza is *more delicious*  than the one we had last week. (delicious)
 That movie was *scarier*  than I thought it would be. (scary)
 This flower is *more beautiful*  than the one in my garden. (beautiful)
-The elephant is *the biggest*  animal in the zoo. (big)`
+The elephant is the *biggest*  animal in the zoo. (big)`
       ]
     },
     {
@@ -264,12 +262,10 @@ I am happier when I am with my friends.`,
 
           `The Pacific Ocean is the largest ocean in the world.
 Losing his job was the saddest moment in his life.
-Usain Bolt is the fastest runner in the world.
 The blue whale is the biggest animal on earth.`
         ],
         [
           `The biriyani smells delicious.
-She is a wonderful friend.
 The mountain is majestic.
 The rainbow is stunning.`,
 
@@ -285,19 +281,15 @@ The firefighter is the bravest person I know.`
         [
           `The coffee is hot and fresh.
 He is a generous person.
-The beach is relaxing.
-The Art is creative.
 The ice cream is sweet and creamy.`,
 
           `She is kinder to animals than anyone I know.
 The new car is more modern than the old one.
-The math test was more difficult than the science test.
-Her new dress is more beautiful than the old one.`,
+The math test was more difficult than the science test.`,
 
           `Being with her makes me the happiest.
 Bill Gates is one of the richest people in the world.
 The elephant is the heaviest animal on land.
-The sun is the brightest star in our solar system.
 She is the kindest person I have ever met.`
         ],
         [
@@ -309,13 +301,24 @@ The movie is entertaining.`,
           `The streets are busier in the daytime.
 The instructions for this game are simpler than the ones for the other game.
 Eating vegetables is healthier than eating junk food.
-The Great Wall of China is longer than the Berlin Wall.
-His jokes are funnier than hers.`,
+`,
 
           `The newest technology is the most modern.
 Calculus is the most difficult subject in school.
-The Mona Lisa is one of the most beautiful paintings in the world.
-Times Square is one of the busiest places in New York City.
+The Mona Lisa is one of the most beautiful paintings in the world.`
+        ],
+        [
+          `She is a wonderful friend.
+          The beach is relaxing.
+Drawing is a creative work.`,
+
+          `Her new dress is more beautiful than the old one.
+          The Great Wall of China is longer than the Berlin Wall.
+          His jokes are funnier than hers.`,
+
+          `Usain Bolt is the fastest runner in the world.
+          The sun is not the brightest star in the Milky way.
+          Times Square is one of the busiest places in New York City.
 The alphabet is the simplest thing to learn.`
         ]
       ]
@@ -338,27 +341,27 @@ The *cake* icing is sweet.`,
 
         `The *classroom* chalkboard is green.
 The *coffee* mug is ceramic.
-The *language* course textbook is comprehensive.
+The *language* course is comprehensive.
 The *hiking* trail map is helpful.
 The *baby* toy is soft.`,
 
         `The *coffee* shop ambiance is cozy.
-The *science* experiment apparatus is precise.
-The *school bus* driver is experienced.
-The *movie* theater popcorn is buttery.
+The *science* apparatus present in our lab was broken.
+The *bus* driver is young but experienced.
+The *theater* popcorn is buttery and salty.
 The *wedding* invitation design is elegant.`,
 
         `The *travel* guidebook is informative.
-The *sports* team uniform is red and white.
-The *building* material is brick.
-The *art* museum exhibit is contemporary.
-The *winter* coat fabric is wool.`,
+The *sports* uniform is red and white.
+The *building* materials are brought from a nearby city.
+The *art* museum exhibits are contemporary.
+The *winter* fabrics are made of wool.`,
 
-        `The *software* program is user-friendly.
-The *photo* album pages are glossy.
-The *garden* tool shed is wooden.
-The *pet* food bowl is stainless steel.
-The *smartphone* charger cable is long.`
+        `The *software* program is easy to learn.
+The *photo* album is slightly damaged.
+The *garden* shed is made of wood.
+The *pet*  bowl is made of stainless steel.
+The *smartphone* charger is not working. We need to get a new one.`
       ]
     },
     {
@@ -375,7 +378,7 @@ The *smartphone* charger cable is long.`
           },
           {
             qText:
-              'The kind of quality of any person or thing is shown by __________________.',
+              'The nature of any person or thing is shown by __________________.',
             options: `Adjective of Quality, Adjective of Quantity, Adjective of Number`
           },
           {
@@ -385,13 +388,13 @@ The *smartphone* charger cable is long.`
           },
           {
             qText:
-              'When adjective is used as a part of the predicate, it is called a ______________.',
+              'When adjective is used not in front of the noun, it is called a ______________.',
             options: `predicative adjective, attributive adjective, demonstrative adjective`
           },
           {
             qText:
-              'When adjective is used to describe the attribute of the noun, it is called an ________________.',
-            options: `attributive adjective, predicative adjective, possessive adjective`
+              'When adjective is used in front of the noun, it is called  ________________.',
+            options: `an attributive adjective, a predicative adjective, a possessive adjective`
           }
         ]
       }
@@ -407,8 +410,7 @@ The *smartphone* charger cable is long.`
 The *blooming* flowers filled the room with fragrance. (bloom)
 The *racing* car sped down the highway. (race)
 The *falling* snowflakes covered the ground. (fall)
-The *determined* athlete won the race. (determine)
-The *crumbling* building was destroyed by the earthquake. (crumble)`
+The *determined* athlete won the race. (determine)`
       }
     }
   ]
