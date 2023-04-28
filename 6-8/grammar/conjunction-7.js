@@ -77,33 +77,34 @@ It is better to keep everything packed <b>as</b> you are not sure when you would
 *If* you work hard you will pass.
 *Though* he is poor, he is honest.
 *If only*, I would be a Prime Minister.
-We eat *in order that* we may live.
-You will not pass *unless* you study.
-She will not stop crying *unless* she meets her father.
-She walked faster *in order that* she could get the bus.`,
+We eat *in order that* we may live.`,
 
-        `*Though* she was intelligent, she failed.
-Wait here *till* I come.
-I was reading *while* eating breakfast.
+        `You will not pass *unless* you study.
+She will not stop crying *unless* she meets her father.
+She walked faster *in order that* she could get the bus.
+*Though* she was intelligent, she failed.
+Wait here *till* I come.`,
+
+        `I was reading *while* eating breakfast.
 She told me *that* she was a poet.
 They know *that* you can be handy.
-She was talking on the phone *while* crossing the road.`,
+She was talking on the phone *while* crossing the road.
+*Once* she was in England, she became arrogant.`,
 
-        `*Once* she was in England, she became arrogant.
-I drink tea *once* a day.
+        `I drink tea *once* a day.
 *As* I left my home, I found a purse at the door.
 He talks to me *as if* he were my boss.
 She behaves *as if* she were a dictator.
-He practiced for the exams *till* late.
-*Although* they are good at basketball, they made mistakes.`,
+He practiced for the exams *till* late.`,
 
-        `You could go and play *after* you have finished your homework.
+        `*Although* they are good at basketball, they made mistakes.
+You could go and play *after* you have finished your homework.
 *Now that* India is in the semifinal, we are celebrating.
 Do not go *until* I come.
-I know the time *when* she was born.
-I can give you this book *on condition that* you will keep it safe.`,
+I know the time *when* she was born.`,
 
-        `You may go on leave *provided* the project is finished on time.
+        `I can give you this book *on condition that* you will keep it safe.
+You may go on leave *provided* the project is finished on time.
 They are not ready to pay *until* they get the house.
 He showed anger *as though* he was the victim of it.
 *Whenever* I went to meet him, he walked past me.`,
@@ -252,44 +253,6 @@ Coordinating conjunctions can be used to connect more than two clauses. `,
 
           `Subordinating conjunctions can only connect one dependent clause to one independent clause. 
 Subordinating conjunctions cannot be used to introduce noun clauses. `
-        ],
-        [
-          `The coordinating conjunction "and" is used to add information. 
-The subordinating conjunction "because" is used to express cause and effect. 
-Coordinating conjunctions can also be used to join words and phrases. 
-Subordinating conjunctions can also be used to introduce adverbial clauses. `,
-
-          `Coordinating conjunctions cannot be used to connect phrases. `
-        ],
-        [
-          `Subordinating conjunctions are always followed by a comma. 
-Coordinating conjunctions can be used to show contrast. 
-Subordinating conjunctions can be used to show time. 
-Coordinating conjunctions can be used to show alternative choices. `,
-
-          `Coordinating conjunctions are always followed by a comma. `
-        ],
-        [
-          `Subordinating conjunctions can be used to show condition. `,
-
-          `Coordinating conjunctions are never used in the middle of a sentence. 
-Subordinating conjunctions are never used in the middle of a sentence. 
-Subordinating conjunctions are always used to connect two sentences. `
-        ],
-        [
-          `Coordinating conjunctions can be used to show emphasis. 
-Subordinating conjunctions can be used to show purpose. 
-Coordinating conjunctions are always used to connect clauses of equal importance. 
-Subordinating conjunctions are always used to connect clauses of unequal importance. `,
-
-          `Coordinating conjunctions are always used in pairs. `
-        ],
-        [
-          `Coordinating conjunctions are never used to connect a dependent clause and an independent clause. 
-Subordinating conjunctions are never used to connect two independent clauses. 
-Subordinating conjunctions can be used to create complex sentences. `,
-
-          `Coordinating conjunctions are always used to connect two sentences. `
         ]
       ]
     },
@@ -315,7 +278,7 @@ Today is my birthday, *so* I want a new dress.`,
 Sunoo *and* Jungwon planned to have lunch at the convenience store.
 My sister did not collect the clothes from the dry cleaner *nor* did she buy the items on the grocery list.`,
 
-        `Niki had a lot of sweets to an extent that he could become sick, *yet* he says he can have more.
+        `Niki had a lot of sweets to the extent that he could become sick, *yet* he says he can have more.
 The teacher did not ask for Mahira *but* Mahir.
 I met my friend at Old Street, *and* from there, we went to the lighthouse together.`,
 

@@ -83,6 +83,17 @@ Collective nouns, such as "team" or "family," always take singular verbs.`
           {
             qText: `Which of the following is NOT a coordinating conjunction?`,
             options: `although, and, but, for`
+          },
+          {
+            qText: `Choose the correct verb form to complete the sentence:
+            Every day, the students ___________ to school on time.`,
+            options: `come, comes, came, coming`
+          },
+          {
+            qText: `Which of the following sentences has a subject-verb agreement error?`,
+            options: `The cat and the dog is playing in the backyard.
+Several students from our class has passed the exam.
+Neither the teacher nor the students were happy with the test results.`
           }
         ]
       }
@@ -142,7 +153,6 @@ One of my favorite bands are playing tonight.`
       label: 'Fillup',
       type: 'fillup',
       id: 'verb',
-
       data: {
         noOptions: true,
         title: `Fill in the blanks in compliance with subject-verb agreement.`,
@@ -191,7 +201,8 @@ Sometimes, the verb in the predicate is an intransitive verb, but it is incomple
           {
             type: 'html',
             text: `<b>Example</b> - Jake appeared <b>unhappy</b>.`
-          }
+          },
+          `Object complements provide more detail about the object of a sentence, while subject complements provide information about the subject of a sentence.`
         ]
       }
     },
@@ -213,6 +224,26 @@ Sometimes, the verb in the predicate is an intransitive verb, but it is incomple
           {
             qText: `What is a complement in a sentence?`,
             options: `A word or group of words required to complete the predicate of an intransitive verb, A verb that does not require an object to complete its meaning`
+          },
+          {
+            qText: `What is a subject complement?`,
+            options: `A word or word group that defines or renames the subject in some way, A word or word group that completes the subject in a sentence`
+          },
+          {
+            qText: `What is an object complement?`,
+            options: `A word or word group that modifies the object in a sentence, A word or word group that modifies the verb in a sentence`
+          },
+          {
+            qText: `Which of the following is a subject complement?`,
+            options: `The sun is shining.
+The teacher gave her students a quiz.
+The children are playing in the park.
+She painted the room blue.`
+          },
+          {
+            qText: `Choose the correct complement to complete the sentence:
+            He seems _________ today.`,
+            options: `happy, happily, happiness, happiest`
           }
         ]
       }
@@ -238,40 +269,6 @@ John sold me *his car*`
 He gave *them* a bag full of money.
 My father bought *us* a new TV set.
 I wish *you* good luck.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Notes',
-      type: 'passage',
-      id: 'complemet',
-      data: {
-        title: 'Complements',
-        text: [
-          `A complement is a word or word group that completes the predicate in a sentence. Subject complements follow a linking verb and provide additional information about the subject of the sentence. The subject complement is normally a noun or an adjective that defines or renames the subject in some way. Object complements follow and modify a direct object and provide additional information about it. An object complement can be a noun or adjective or any word acting as a noun or adjective.
-Subject complements and object complements fill out and complete our sentences. Object complements provide more detail about the object of a sentence, while subject complements provide information about the subject of a sentence.`
-        ]
-      }
-    },
-    {
-      label: 'Multiple Choice Questions',
-      type: 'mcq',
-      id: 'mcq-compl',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: `What is a complement in a sentence?`,
-            options: `A word or word group that completes the predicate in a sentence, A word or word group that completes the subject in a sentence`
-          },
-          {
-            qText: `What is a subject complement?`,
-            options: `A word or word group that defines or renames the subject in some way, A word or word group that completes the subject in a sentence`
-          },
-          {
-            qText: `What is an object complement?`,
-            options: `A word or word group that modifies the object in a sentence, A word or word group that modifies the verb in a sentence`
           }
         ]
       }
@@ -358,36 +355,18 @@ What I said made my uncle angry.`
             text: `For example, long<b>-</b>term, get<b>-</b>together`
           },
           `2. Dash: A dash (—) is a punctuation mark that resembles a hyphen, but is longer. A dash is used to separate parts of a sentence and indicate a break. It indicates a longer pause than a comma and a semicolon.
-# Examples of hyphenated compound words
-check-in; clean-cut
-editor-in-chief; empty-handed; far-fetched
-father-in-law, mother-in-law, sister-in-law,etc.
-free-for-all; know-how; know-it-all
-life-size; merry-go-round
-long-distance; long-term
-mind-blowing; nitty-gritty
-one-sided; one-dimensional, two-dimensional, etc.
-over-the-counter
-run-in; runner-up
-strong-arm
-topsy-turvy; toss-up
-up-to-date
-well-being
-word-of-mouth
-# Examples of open compound words
-black eye; cell phone; close call
-common sense; cotton candy
-dining room; first aid
-full moon; French fry
-heart attack; high school; hot dog
-ice cream; life jacket; living room
-no one; peanut butter; post office
-prime minister; real estate; remote control
-report card; rib cage; role model
-roller coaster; salad dressing; search engine
-slam dunk; sleeping bag; time capsule
-vacuum cleaner; vending machine; video game
-waiting room; washing machine; web page`
+# Examples of hyphenated compound words`,
+          {
+            type: 'sitewords',
+            text: `check-in, clean-cut, editor-in-chief, empty-handed, far-fetched, father-in-law, mother-in-law, sister-in-law, free-for-all, know-how, know-it-all, life-size, merry-go-round, long-distance, long-term, mind-blowing, nitty-gritty, one-sided, one-dimensional, two-dimensional, over-the-counter, run-in, runner-up, strong-arm, topsy-turvy, toss-up, up-to-date, well-being, word-of-mouth`,
+            width: 90
+          },
+          `# Examples of open compound words`,
+          {
+            type: 'sitewords',
+            text: `black eye, cell phone, close call, common sense, cotton candy, dining room, first aid, full moon, French fry, heart attack, high school, hot dog, ice cream, life jacket, living room, no one, peanut butter, post office, prime minister, real estate, remote control, report card, rib cage, role model, roller coaster, salad dressing, search engine, slam dunk, sleeping bag, time capsule, vacuum cleaner, vending machine, video game, waiting room, washing machine, web page`,
+            width: 90
+          }
         ]
       }
     },
@@ -457,7 +436,7 @@ The game started out as an organized game of tag, but it ended up a free*- (—)
       },
       data: [
         `check-, in, ing
-clean- cut, er
+clean-, cut, er
 editor-in-, chief, charge
 empty-, handed, space`,
 

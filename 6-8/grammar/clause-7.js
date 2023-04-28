@@ -10,8 +10,7 @@ export default {
       data: {
         title: 'Clauses',
         text: [
-          `# Clauses
-  A group of words containing a subject and a finite verb is called a clause. It is formed when a subject and a predicate are combined to communicate an idea. 
+          `A group of words containing a subject and a finite verb is called a clause. It is formed when a subject and a predicate are combined to communicate an idea. 
   # Features of a clause
   1. A clause has a subject and a predicate.
   2. A clause has a finite verb.
@@ -337,7 +336,7 @@ export default {
     },
     {
       label: 'Multiple Choice Questions',
-      type: 'mcq-phrase',
+      type: 'mcq',
       id: 'mcq-clause-2',
       data: {
         title:
