@@ -177,13 +177,13 @@ My purse has been stolen.`
         "I don't like carrot," declared Mark. | Mark declared that he didn't like carrot
         "What's your favorite color?" asked Sita. | Sita asked what our favorite color was
         "I'm really tired," said Peter. | Peter said that he was really tired
-        "I liked the movie," said Ravi. | Ravi said that he liked the movie.`,
+        "I liked the movie," said Ravi. | Ravi said that he liked the movie`,
 
         `"I'll phone you tomorrow," he said. | he said he'd phone me the next day
         "My father works in a bank," Priya said. | Priya said that her father worked in a bank
         "The baby's sleeping!", she said. | She told that the baby is sleeping.
         "I've hurt my leg", he said. | He said that she'd hurt her leg.
-        "It was raining all day", she said. | She told me it had been raining all day.`
+        "It was raining all day", she said. | She told me it had been raining all day`
       ]
     }
   ]
