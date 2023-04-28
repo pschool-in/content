@@ -10,37 +10,37 @@ export default {
       data: {
         title: 'Pronoun',
         text: [
-          `A pronoun is defined as a word or phrase that is used as a substitution for a noun or noun phrase. Pronouns are short words and can do everything that nouns can do and are one of the building blocks of a sentence. Common pronouns are he, she, you, me, I, we, us, this, them, that, etc. A pronoun can act as a subject, direct object, indirect object, object of the preposition, etc. It takes the place of any person, place, animal or thing.
+          `A pronoun is defined as a word or phrase that is used as a substitution for a noun or noun phrase. Pronouns are short words and can do everything that nouns can do and are one of the building blocks of a sentence. Some common pronouns are <i>he, she, you, me, I, we, us, this, them, that </i>. A pronoun can act as a subject, direct object, indirect object, object of the preposition, etc. It takes the place of any person, place, animal or thing.
 # Types of Pronouns
 1. Pronouns of Place: These pronouns are used to indicate the place or position of a person, object, or thing.`,
           {
             type: 'html',
-            text: `Examples: <b>here</b>, <b>there</b>, <b>where</b>, <b>everywhere</b>, <b>nowhere</b>, <b>somewhere</b>, etc.`
+            text: `Eg: <b>here</i>, <b>there</i>, <b>where</i>, <b>everywhere</i>, <b>nowhere</i>, <b>somewhere</i>`
           },
           `2. Pronouns of Time: These pronouns are used to indicate the time or duration of an action or event.`,
           {
             type: 'html',
-            text: `Examples: <b>when</b>, <b>while</b>, <b>until</b>, <b>after</b>, <b>before</b>, <b>since</b>, etc.`
+            text: `Examples: <b>when</i>, <b>while</i>, <b>until</i>, <b>after</i>, <b>before</i>, <b>since</i>, etc.`
           },
           `3. Pronouns of Direction: These pronouns are used to indicate the direction of movement of a person or thing.`,
           {
             type: 'html',
-            text: `Examples: <b>up</b>, <b>down</b>, <b>forward</b>, <b>backward</b>, <b>left</b>, <b>right</b>, etc.`
+            text: `Examples: <b>up</i>, <b>down</i>, <b>forward</i>, <b>backward</i>, <b>left</i>, <b>right</i>, etc.`
           },
           `4. Pronouns of Cause: These pronouns are used to indicate the cause or reason behind an action or event.`,
           {
             type: 'html',
-            text: `Examples: <b>because</b>, <b>since</b>, <b>as</b>, etc.`
+            text: `Examples: <b>because</i>, <b>since</i>, <b>as</i>, etc.`
           },
           `5. Pronouns of Purpose: These pronouns are used to indicate the purpose or intention behind an action or event.`,
           {
             type: 'html',
-            text: `Examples: <b>to</b>, <b>in order to</b>, <b>so as to</b>, etc.`
+            text: `Examples: <b>to</i>, <b>in order to</i>, <b>so as to</i>, etc.`
           },
           `6. Pronouns of Source: These pronouns are used to indicate the source or origin of a person or thing.`,
           {
             type: 'html',
-            text: `Examples: <b>from</b>, <b>of</b>, <b>by</b>, etc.`
+            text: `Examples: <b>from</i>, <b>of</i>, <b>by</i>, etc.`
           },
           `# Pronoun Rules
 There are a few important rules for using pronouns.
