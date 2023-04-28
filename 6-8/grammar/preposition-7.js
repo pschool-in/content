@@ -10,13 +10,13 @@ export default {
       data: {
         title: 'Preposition',
         text: [
-          `A word used to show the relation between a noun or a pronoun with some other word in the sentence is called a preposition. Prepositions can be categorized into the following.`,
+          `A preposition is a word that shows the relationship between a noun or pronoun and other words in a sentence. It typically indicates the location, direction, time, or manner of an action or event. Prepositions can be classified into the following.`,
           {
             type: 'html',
-            text: `1. Preposition of time: The prepositions of time include <b>on</b>, <b>in</b>, <b>at</b>, <b>by</b>, <b>until</b>, <b>during</b>, <b>for</b>, <b>between</b>, <b>since</b>, <b>before</b>, etc.<br>
-2. Preposition of place: These include <b>on</b>, <b>under</b>, <b>in</b>, <b>at</b>, <b>above</b>, <b>below</b>, <b>among</b>, <b>behind</b>, etc.<br>
-3. Preposition of direction and movements: These prepositions include <b>to</b>, <b>towards</b>, <b>along</b>, <b>through</b>, <b>across</b>, <b>onto</b>, etc.<br>
-4. Preposition of purpose or source: These include <b>to</b>, <b>for</b>, <b>because of</b>, <b>owing to</b>, <b>due to</b>, <b>by courtesy of</b>, <b>for the benefit of</b>, <b>in favor of</b>, <b>in honor of</b>, <b>in the light of</b>, <b>on behalf of</b>, <b>thanks to</b>, <b>towards</b>, etc.`
+            text: `1. Preposition of time. Eg: <i>on</i>, <i>in</i>, <i>at</i>, <i>by</i>, <i>until</i>, <i>during</i>, <i>for</i>, <i>between</i>, <i>since</i>, <i>before</i><br><br>
+2. Preposition of place. Eg: <i>on</i>, <i>under</i>, <i>in</i>, <i>at</i>, <i>above</i>, <i>below</i>, <i>among</i>, <i>behind</i><br><br>
+3. Preposition of direction and movements. Eg: <i>to</i>, <i>towards</i>, <i>along</i>, <i>through</i>, <i>across</i>, <i>onto</i><br><br>
+4. Preposition of purpose or source. Eg: <i>to</i>, <i>for</i>, <i>because of</i>, <i>owing to</i>, <i>due to</i>, <i>by courtesy of</i>, <i>for the benefit of</i>, <i>in favor of</i>, <i>in honor of</i>, <i>in the light of</i>, <i>on behalf of</i>, <i>thanks to</i>, <i>towards</i>`
           }
         ]
       }
@@ -67,7 +67,7 @@ The two children were not ready to distribute the money *between* them.`,
 
         `A poet knows *about* the figures of speech well.
 Rohan is sitting *beside* his mother at the party.
-I came *across*  very good news.
+I came *across*  a very good news.
 The patient had died *before* the surgery was carried out.
 I couldn't attend the meeting *due to* my sickness.`,
 
@@ -86,7 +86,8 @@ He has no chance *of* winning.`,
         `He goes *for* a morning walk.
 I need a dictionary *of* Spanish.
 There is a coat *on* a hook.
-The lines were printed *in* italics.`
+The lines were printed *in* italics.
+There is confusion *among* the students.`
       ]
     },
     {
@@ -136,7 +137,7 @@ The lines were printed *in* italics.`
               options: 'In, On, At, Within'
             },
             {
-              qText: 'She purchased it ____ Surat Bazar.',
+              qText: 'She purchased it ____ the Surat Bazar.',
               options: 'from, on, for, to'
             }
           ]
@@ -144,7 +145,7 @@ The lines were printed *in* italics.`
         {
           questions: [
             {
-              qText: 'He deals ____ diamonds.',
+              qText: 'He is a rich man. He deals ____ diamonds.',
               options: 'in, at, with, of'
             },
             {
@@ -248,23 +249,21 @@ The lines were printed *in* italics.`
 She went *to (by)* the park to meet her friends.
 The book is *on (over)* the table.
 The plane flew *above (over)* the clouds.
-They are going to the concert *with (for)* their parents.`,
-
-        `Vegetarians abstain *from (with)* eating meat.
+They are going to the concert *with (for)* their parents.
+Vegetarians abstain *from (with)* eating meat.
 Good food is absolutely essential *for (to, with)* our health.
 The jury absolved him *of (off, from)* the crime.
 They wed *on (during/from)* the 3rd of December.
 Our garden abounds *with (in)* roses.`,
 
         `Tulips abound *in (with)* the Netherlands.
-He was arrested for his abusive treatment *of(with, to)* the dog.
+He was arrested for his abusive treatment *of(with, like)* the dog.
 Canoes were provided *for (to, with)* transportation.
 My daughter accompanied me *on (by, with)* the trip.
-Place the bolster *between (with, by)* the two cushions.`,
-
-        `Cloth is sold *by (with, as)* the meter.
+Place the bolster *between (with, by)* the two cushions.
+Cloth is sold *by (with, as)* the meter.
 Do not shout *while (during, by)* others are reading.
-I promise to return the book *by (until, on)* Monday
+I promise to return the book *by (until, on)* Monday.
 He did not fulfill his promise *until (by, after)* it was too late.
 The ship sailed *towards (in, for)* the West.`,
 
@@ -276,42 +275,45 @@ This plan will go *against (by)* your interests.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Simple, Compound, Complex - Notes',
       type: 'passage',
       id: 'passage',
       data: {
         title: 'Preposition',
         text: [
           `A preposition usually comes before a noun. When a preposition is not followed by a noun, it is often called a  stranded preposition.
-A stranded preposition comes at the end of a sentence when its  object is a relative pronoun or an interrogative pronoun (words like  that, who, which, etc.)
+A stranded preposition comes at the end of a sentence when its  object is a relative pronoun or an interrogative pronoun (words like that, who, which, etc.)
 Prepositions can be categorized into three based on their form:
 1. Simple Prepositions: Single-word prepositions are called simple prepositions.`,
           {
             type: 'html',
-            text: `Some examples are <b>in</b>, <b>on</b>, <b>at</b>, <b>by</b>, <b>from</b>, <b>about</b>, <b>over</b>, <b>under</b>, <b>through</b>, <b>till</b>, <b>up</b>, <b>off</b>, <b>of</b>, <b>for</b>, <b>to</b>, etc.`
+            text: `Eg: <i>in</i>, <i>on</i>, <i>at</i>, <i>by</i>, <i>from</i>, <i>about</i>, <i>over</i>, <i>under</i>, <i>through</i>, <i>till</i>, <i>up</i>, <i>off</i>, <i>of</i>, <i>for</i>, <i>to</i>`
           },
           `2. Compound Prepositions: When two or more words are combined to form one single preposition, we have a compound preposition.`,
           {
             type: 'html',
-            text: `Some examples of compound prepositions are <b>into</b>, <b>across</b>, <b>without</b>, <b>within</b>, <b>inside</b>, <b>outside</b>, <b>beneath</b>, <b>below</b>, <b>behind</b>,  <b>between</b>, etc.`
+            text: `Eg: <i>into</i>, <i>across</i>, <i>without</i>, <i>within</i>, <i>inside</i>, <i>outside</i>, <i>beneath</i>, <i>below</i>, <i>behind</i>,  <i>between</i>.`
           },
           `3. Complex or Phrase Prepositions: When a group of words does the work of a single preposition, it is called a complex or phrase preposition.`,
           {
             type: 'html',
-            text: `Some two-word complex prepositions are <b>along with</b>, <b>according to</b>, <b>apart from</b>, <b>because of</b>, <b>contrary to</b>, <b>regardless of</b>, <b>prior to</b>, <b>due to</b>, <b>except for</b>, etc.`
+            text: `Eg: <i>along with</i>, <i>according to</i>, <i>apart from</i>, <i>because of</i>, <i>contrary to</i>, <i>regardless of</i>, <i>prior to</i>, <i>due to</i>, <i>except for</i>.`
           },
           `# Collocation
 Certain nouns, adjectives and verbs are generally used with specific prepositions in such a way that these have become fixed ways of using these words. We often refer to such combinations as collocations. `,
           {
             type: 'html',
-            text: `Some examples are <b>fondness for</b>, <b>participation in</b>, <b>afraid of</b>, <b>find out</b>, <b>care for</b>, etc.`
+            text: `Some examples are <i>fondness for</i>, <i>participation in</i>, <i>afraid of</i>, <i>find out</i>, <i>care for</i>`
           },
-          `# Prepositional Phrase
-A prepositional phrase can have the functions of an adjective or an adverb.
-Look at the lady in the blue dress. (modifying the noun lady)
-Please take the pen next to the telephone. (modifying the noun pen)
-The poor man sat beside the fence. (Sat where? Beside the fence.)
-I go for dance classes after school. (Go when? After school.)`
+          `# Prepositional Phrase`,
+          {
+            type: 'html',
+            text: `A prepositional phrase can have the functions of an adjective or an adverb. It is a structure consisting of a preposition and its object.
+            Look at the lady <i>in the blue dress</i>. (modifying the noun lady)
+            Please take the pen <i>next to the telephone</i>. (modifying the noun pen)
+            The poor man sat <i>beside the fence</i>. (Sat where? Beside the fence.)
+            I go for dance classes <i>after school</i>. (Go when? After school.)`
+          }
         ]
       }
     },
@@ -324,15 +326,21 @@ I go for dance classes after school. (Go when? After school.)`
         questions: [
           {
             qText: `What is a preposition?`,
-            options: `A word that shows the relationship between nouns, pronouns or phrases with other words in a sentence, A word that modifies verbs in a sentence, A word that stands alone in a sentence`
+            options: `A word that shows the relationship between nouns, pronouns or phrases with other words in a sentence.
+A word that modifies verbs in a sentence.
+A word that stands alone in a sentence.`
           },
           {
             qText: `What is a stranded preposition?`,
-            options: `A preposition that is not followed by a noun, A preposition that stands alone in a sentence, A preposition that comes before a noun`
+            options: `A preposition that is not followed by a noun.
+A preposition that stands alone in a sentence.
+A preposition that comes before a noun.`
           },
           {
             qText: `What is a collocation?`,
-            options: `A combination of nouns - adjectives and verbs used with specific prepositions, A preposition that comes at the end of a sentence, A preposition that modifies adverbs`
+            options: `A combination of nouns - adjectives and verbs used with specific prepositions.
+A preposition that comes at the end of a sentence .
+A preposition that modifies adverbs.`
           },
           {
             qText: `What function can a prepositional phrase have in a sentence?`,
@@ -356,19 +364,17 @@ I go for dance classes after school. (Go when? After school.)`
         `Mark often reads *during (while)* meals.
 Do not shout *while (during)* others are writing. 
 I promise to return the book *by (until)* Monday. 
-He did not fulfill his promise *until (by)* it was too late.`,
-
-        `Many think Jackson looks *like (as)* Park Jihoon.
+He did not fulfill his promise *until (by)* it was too late.
+Many think Jackson looks *like (as)* Park.
 Rishi was employed *as (like)* my brother's secretary.
 Tony spends money freely *as if (as)* it grew on trees.
-Jake came first in his class *as (like)* everyone expected.`,
+Jake came first in his class *as (like)* everyone expected.
+You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.`,
 
-        `You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.
-Jay orders his friends about, *as if (as)* they were his servants.
+        `Jay orders his friends about, *as if (as)* they were his servants.
 This plan will go *against (by)* Ram's interests.
-There are many diseases caused *by (of)* dirt and filth.`,
-
-        `Jessi was the main cause *of (by)* Ron's misery.
+There are many diseases caused *by (of)* dirt and filth.
+Jessi was the main cause *of (by)* Ron's misery.
 Athiya went to Tokyo *at (in)* the age of 3. 
 You will receive the payment *within (during)* 30 days of joining.
 In the absence of professional experience, you will be *at (in)* a disadvantage here.`,
@@ -393,9 +399,8 @@ We drove *along (through)* the coastline.`
         `Please wait *at* the reception desk.
 This is from the shop *on* the main road.
 Everybody gathered *at* 14, Park Street.
-There is a fence *around* the garden.`,
-
-        `We stood *at* the bus stop.
+There is a fence *around* the garden.
+We stood *at* the bus stop.
 The jewels are kept *in* a box.
 Have you looked *under* the bed?
 We waited *in* the reception hall for two hours.`,
@@ -403,14 +408,13 @@ We waited *in* the reception hall for two hours.`,
         `The painting *on* the roof of the church is incredible.
 I live *in* Kerala *in* a town called Alappuzha.
 The soup is *on* the table.
-Meet me *at* the cafeteria next to the station.`,
+Meet me *at* the cafeteria next to the station.
+Place the book *on* the table. `,
 
-        `Place the book *on* the table. 
-Jack is *in* a meeting now.
+        `Jack is *in* a meeting now.
 The shoes are *under* the bed.
-The picture frame is hanging *on* the wall.`,
-
-        `The flower vase is *beside* the window.
+The picture frame is hanging *on* the wall.
+The flower vase is *beside* the window.
 The TV is mounted *above* the fireplace.
 The pencil is *in* the drawer.
 The book is lying *on* the table.`
@@ -429,9 +433,8 @@ The book is lying *on* the table.`
         `Meet me *after* 4 o'clock. I am very busy till then.
 We will get the finished product *in* May.
 Will you visit us *at* Diwali?
-*During* summer, it becomes very hot and humid in the plains.`,
-
-        `What did you discuss *at* the meeting?
+*During* summer, it becomes very hot and humid in the plains.
+What did you discuss *at* the meeting?
 He has been living here *for* five years.
 We had a holiday *on* 18 April.
 We reached *in* time to catch the train.`,
@@ -439,16 +442,15 @@ We reached *in* time to catch the train.`,
         `India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. 
 *During* World War I, many civilians lost their lives.
-I wake up *at* 6 o'clock in the morning.`,
+I wake up *at* 6 o'clock in the morning.
+We have to finish the project *before* the deadline.
+My brother will arrive *by* the end of the week.`,
 
         `We have a meeting *on* Monday.
 The concert starts *at* 7 p.m.
 We are going on vacation *during* the summer.
-My sister got married *in* 2010.`,
-
-        `We have to finish the project *before* the deadline.
-My brother will arrive *by* the end of the week.
-The flower event will take place *in* September.
+My sister got married *in* 2010.
+The flower show will take place *in* September.
 I was born *in* 1997.`
       ]
     },
@@ -465,17 +467,15 @@ I was born *in* 1997.`
         `She walked *toward* the park.
 He drove the car *across* the bridge.
 She looked *up* at the sky.
-They forgave each other *for* the sake of their friendship.`,
-
-        `She cried *because* of the sad news of her pet's demise.
+They forgave each other *for* the sake of their friendship.
+She cried *because* of the sad news of her pet's demise.
 She wrote a letter *to* her parents as she was missing them.
 They raised money *for* the charity fund for undernourished children.`,
 
         `We went for a walk *along* the river.
 The cat tried to jump *over* the fence but tripped and fell.
-Sam and Rehan ran *around* the track all day.`,
-
-        `Before the competition, James swam *across* the river and back to build up stamina.
+Sam and Rehan ran *around* the track all day.
+Before the competition, James swam *across* the river and back to build up stamina.
 He climbed *up* a tree to get *over* the wall and *into* the orchard.
 We need to start preparations *for* Sports Day.`,
 

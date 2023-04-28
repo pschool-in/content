@@ -78,7 +78,7 @@ My sister *bought (brings)* a new dress for the party.`,
         `A *child (children)* is playing in the park alone.
 The *book (books)* on the table is mine.
 My car *needs (need)* an oil change.
-She *gave (gives)* me a beautiful flower as a gift.
+She *gave (gives)* me a beautiful flower as a gift, yesterday.
 The concert was packed with enthusiastic *fans (fan)*.`
       ]
     },
@@ -87,39 +87,38 @@ The concert was packed with enthusiastic *fans (fan)*.`
       label: 'Identify Abstract Noun',
       id: 'abstractnoun',
       commonData: {
-        title: 'Identify the abstract noun from the following sentences.',
-        multiSelect: true
+        title: 'Identify the abstract noun from the following sentences.'
       },
       data: [
-        `His wife resented his *devotion* to his job.
-If she had more *determination*, she could be a *success* at anything.
-The bad *weather* detained us for several hours.
-*Punishment* is not necessarily a deterrent.
-I finally overcame the *difficulty* of meeting people.`,
+        `He is very *honest* in his work.
+As he is working hard, his *success* is not far away.
+The bad *weather* doesn't allow us to play.
+*Punishment* does not stop crimes, but it reduces them.
+I finally overcame the *difficulty* in speaking English.`,
 
-        `The doctor's *dilemma* was whether he should tell the patient the *truth*.
-We must respect the *dignity* of the High Court.
+        `She showed great *courage* in the face of danger.
+*Determination* is key to achieving your goals.
 She spoke with *confidence*.
-We were frightened by her ominous *prediction*.
+*Beauty* is in the eye of the beholder.
 That was a splendid *performance*.`,
 
         `His *happiness* knew no bounds.
 There is some *misunderstanding* between the two brothers.
 *Freedom* is a fundamental right that should be enjoyed by all human beings.
-*Justice* should be served to those who have been wronged.
-The *beauty* of nature can inspire a sense of *awe* and *wonder* in all of us.`,
+*Happiness* is a state of mind.
+The *beauty* of nature can inspire us positively.`,
 
         `*Happiness* is often elusive, but can be found in the simplest of things.
 *Wisdom* is gained through experience and reflection.
 *Courage* is the willingness to face *fear* and *danger* in order to acheive a goal.
 *Patience* is a virtue that will serve you well in life.
-She felt a deep sense of *joy* when she saw her children playing *happily*.`,
+She felt a deep sense of *joy* when she saw her children.`,
 
         `The *beauty* of the sunset took my breath away.
-The *power* of music can bring people together and lift their *spirits*.
+The *power* of music can bring people together.
 *Honesty* is the best policy.
-*Education* is the key to unlocking opportunities and improving one's life.
-The concept of *time* is difficult to grasp, as it is constantly changing.`
+*Education* is the key to improving one's life.
+Everyone changes with *time*.`
       ]
     },
     {
@@ -133,7 +132,7 @@ The concept of *time* is difficult to grasp, as it is constantly changing.`
       data: [
         [
           `The *children* are playing in the garden.
-*Scientists* say that the environment is threatened by pollution.
+*Scientists* say that pollution is a great threat to the environment.
 There are a lot of *windows* in our classroom.
 The *waiters* in this restaurant are very professional.`,
 
@@ -160,7 +159,7 @@ I met some nice *people* when I was walking along the beach.`,
 Dehydrated babies must drink a lot of *water*.`
         ],
         [
-          `My aunt is having a *car* sale tomorrow.
+          `My aunt is selling her *car* tomorrow.
 Many *trees* were cut down last year.
 *Students* work hard for their exams.
 Vatsal loves to eat *sweets*.`,
@@ -169,7 +168,7 @@ Vatsal loves to eat *sweets*.`,
         ],
         [
           `He bought tasty *mangoes* from the market.
-There are several ways to solve a *question*.
+There are several ways to solve a *problem*.
 My mom loves to chop *vegetables*.`,
 
           `Goat *milk* is very healthy.
@@ -178,59 +177,55 @@ My mom loves to chop *vegetables*.`,
       ]
     },
     {
-      label: 'Notes',
+      label: 'Collective Noun - Notes',
       type: 'passage',
       id: 'collective-noun',
       data: {
         title: 'Collective Noun',
         text: [
-          `# List of Collective Nouns
-# Collective Nouns for Animals`,
+          `# Collective Nouns for Animals`,
           {
             type: 'html',
-            text: ` <b>Swarm</b> of bees <br>  
-<b>Shoal or School</b> of fish <br>  
-<b>Herd</b> of sheep  <br> 
-<b>Fleet</b> of ships <br>  
-<b>Flock</b> of birds <br>  
-<b>Pride</b> of lions <br>  
-<b>Pack</b> of wolves <br>  
-<b>Colony</b> of ants   `
+            text: `a <b>swarm</b> of bees <br>  
+a <b>shoal/school</b> of fish <br>  
+a <b>herd</b> of sheep  <br> 
+a <b>fleet</b> of ships <br>  
+a <b>flock</b> of birds <br>  
+a <b>pride</b> of lions <br>  
+a <b>pack</b> of wolves <br>  
+a <b>colony</b> of ants   `
           },
           `# Collective Nouns for People`,
           {
             type: 'html',
-            text: `<b>Troupe, Company or Cast</b> of actors <br>    
-<b>Army</b>  of soldiers <br>   
-<b>Band</b>  of musicians <br>   
-<b>Troop</b>  of warriors <br>   
-<b>Board</b>  of directors <br>   
-<b>Crew</b>  of sailors <br>   
-<b>Choir</b>  of singers <br>   
-<b>Group</b>  of dancers <br>   
-<b>Pack</b>  of thieves <br>   
-<b>Team</b>  of players <br>   
-<b>Delegation</b>  of delegates <br>   
-<b>Panel or Bench</b>  of judges <br>`
+            text: `a <b>troupe/company/cast</b> of actors <br>    
+an <b>army</b>  of soldiers <br>   
+a <b>band</b>  of musicians <br>   
+a <b>troop</b>  of warriors <br>   
+a <b>board</b>  of directors <br>   
+a <b>crew</b>  of sailors <br>   
+a <b>choir</b>  of singers <br>   
+a <b>group</b>  of dancers <br>   
+a <b>pack</b>  of thieves <br>   
+a <b>team</b>  of players <br>   
+a <b>panel/bench</b>  of judges <br>`
           },
 
           `# Collective Nouns for Objects/Things`,
           {
             type: 'html',
-            text: `<b>Deck/Pack</b>  of cards <br>  
-<b>Packet</b>  of cigarettes <br>  
-<b>Range</b>  of mountains <br>  
-<b>Bushel</b>  of apples <br>  
-<b>Comb</b>  of bananas <br>  
-<b>Bunch</b>  of grapes <br>  
-<b>Bunch</b>  or Bouquet of flowers <br>  
-<b>Grove</b>  or Forest of trees`
+            text: `a <b>deck/pack</b>  of cards <br>  
+a <b>packet</b>  of cigarettes <br>  
+a <b>range</b>  of mountains <br>  
+a <b>bunch</b>  of grapes <br>  
+a <b>bouquet</b> of flowers <br>  
+a <b>grove</b> of trees`
           }
         ]
       }
     },
     {
-      label: 'Collective Noun',
+      label: 'Fillup with the right collective noun.',
       type: 'matchByDragDrop',
       id: 'drag-drop-collective',
       lockAfter: 1,
@@ -284,7 +279,7 @@ a *body* of directors`
       ]
     },
     {
-      label: 'Collective Noun',
+      label: 'Fill in the blanks.',
       type: 'matchByDragDrop',
       id: 'drag-drop-collective-2',
       lockAfter: 1,
@@ -310,13 +305,12 @@ The entire medical *staff* got infected by the Coronavirus.`,
         `The Beatles is a famous *band*.
 The *troupe* performed the Macbeth drama.
 The Andaman and Nicobar Islands comprise a *group* of 573 islands.
-The *jury* passed a unanimous decision.`,
+The *jury* passed a unanimous decision.
+A *cloud* of dust swirled up during the storm.`,
 
-        `A *cloud* of dust swirled up during the storm.
-The *herd* of cattle was grazing peacefully in the field.
-The *team* of scientists worked tirelessly to find a cure for the disease.`,
-
-        `The *flock* of birds flew in a formation across the sky.
+        `The *herd* of cattle was grazing peacefully in the field.
+The *team* of scientists worked tirelessly to find a cure for the disease.
+The *flock* of birds flew in a formation across the sky.
 The *swarm* of bees buzzed around the hive.
 The *group* of tourists took a guided tour of the ancient ruins.`
       ]
@@ -333,12 +327,12 @@ A collection of tools | SET
 A collection of poems | ANTHOLOGY`,
 
         `A collection of different types of books | LIBRARY
-A number of grapes or nuts on a bunch | CLUSTER
+A group of grapes or nuts on a bunch | CLUSTER
 A collection of ducks, chickens or fowls | POULTRY
 A number of directors of any institution | BOARD
 A number of lions | PRIDE`,
 
-        `A number of stars in the sky | CONSTELLATION
+        `A group of stars in the sky | CONSTELLATION
 A group of bacteria | CULTURE
 A group of penguins | COLONY
 A group of fish | SCHOOL
@@ -358,13 +352,13 @@ A group of criminals| GANG`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Types of Nouns - Notes',
       type: 'passage',
       id: 'noun-2',
       data: {
         title: 'Noun',
         text: [
-          `=> Nouns can also be classified as:
+          `Nouns can also be classified as:
 1. Singular Noun: A noun that consists of only one person, animal, or thing is called a singular noun.
 2. Plural Noun: A noun that is having more than one person, place, thing, or animal is called a plural noun.
 3. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
@@ -447,30 +441,28 @@ Tiger, Tigress`,
 Brother, Sister
 Gentleman, Lady
 King, Queen
-Monk, Nun`,
+Monk, Nun
+Horse, Mare`,
 
         `Lord, Lady
 Nephew, Niece
 Son, Daughter
 Uncle, Aunt
-Wizard, Witch`,
+Wizard, Witch
+Peacock, Peahen`,
 
         `Buck, Doe
 Bull, Cow
 Cock, Hen
 Drake, Duck
-Fox, Vixen`,
-
-        `Hart, Roe
-Horse, Mare
-Peacock, Peahen`
+Fox, Vixen`
       ]
     },
     {
       type: 'completeWord',
       id: 'complete-word-gender',
       label: 'Complete Word - Gender',
-      title: 'Change the words from feminine to masculine.',
+      title: 'Complete the masculine word for the given feminine word.',
       data: [
         `girl | BOY
 mother | FATHER
@@ -504,7 +496,7 @@ cow| BULL`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Making Plurals - Notes',
       type: 'passage',
       id: 'plural',
       data: {
@@ -678,7 +670,7 @@ The *cars* in the parking lot were all different colors and models. (car)`,
 
         `The goose killed all the *mice* in the field. (mouse)
 These *samosas* were prepared in the hotel. (samosa)
-The *commanders*-in-chief ordered the army for the attack. (commander-in-chief)
+The *commanders*-in-chief of different countries attended the meeting. (commander-in-chief)
 The *teachers* at the school were all highly qualified. (teacher)
 The *trees* in the park were all different shapes and sizes. (tree)`
       ]
@@ -740,7 +732,7 @@ Ms. Lee is our headmaster.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Noun Cases - Notes',
       type: 'passage',
       id: 'case',
       data: {
@@ -770,63 +762,63 @@ Ms. Lee is our headmaster.`
       id: 'identify-case',
       commonData: {
         title:
-          'Given below are a few sentences, identify the case of the noun for them.',
+          'Identify the case of the highlighted noun in the below sentence.',
         types: ['Possessive', 'Nominative', 'Objective']
       },
       data: [
         [
-          `John's car is in the driveway.
-The teacher's lesson was informative`,
+          `*John's* car is in the driveway.
+The *teacher's* lesson was informative.`,
 
-          `John drove the car to work.
-The teacher explained the lesson clearly.`,
+          `*John* drove the car to work.
+The *teacher* explained the lesson clearly.`,
 
-          `The car hit a pothole on the way to work.
-The students understood the lesson.`
+          `The car hit a *pothole* on the way to work.
+The students understood the *lesson*.`
         ],
         [
-          `The cat's food bowl is empty.
-My sister's phone is ringing.`,
+          `The *cat's* food bowl is empty.
+My *sister's* phone is ringing.`,
 
-          `My sister answered the phone.
-The cat meowed for more food.`,
+          `My *sister* answered the phone.
+The *cat* meowed for more food.`,
 
-          `My sister hung up the phone.
-I filled the cat's food bowl.`
+          `My sister hung up the *phone*.
+I filled the cat's food *bowl*.`
         ],
         [
-          `The company's profits are up this year.
-Her father's car is very fast.`,
+          `The *company's* profits are up this year.
+Her *father's* car is very fast.`,
 
-          `The company announced the profits at the meeting.
-He drove his father's car to the store.`,
+          `The *company* announced the profits at the meeting.
+*Jack* drove his father's car to the store.`,
 
-          `The employees celebrated the profits.
-He parked his father's car in the parking lot.`
+          `The employees celebrated the *profits*.
+He parked his father's *car* in the parking lot.`
         ],
         [
-          `Pari's book is kept on the bed.
-The farmer's crops yielded a good profit.`,
+          `*Pari's* book is kept on the bed.
+The *farmer's* crops yielded a good profit.`,
 
-          `The President is going to Japan today.
-Dessert smells so good.
-The mother teaches the child in the morning.`,
+          `The *President* is going to Japan today.
+*Dessert* smells so good.
+The *mother* teaches the child in the morning.`,
 
-          `The mother teaches the child in the morning.
-Chetan Bhagat writes novels.
-The teacher punished the boy.`
+          `The mother teaches the *child* in the morning.
+Chetan Bhagat writes *novels*.
+The teacher punished the *boy*.`
         ],
         [
-          `Student's ID card lost.
-Uncle's wallet was found by the police.
-This is my mother's watch.`,
+          `*Student's* ID card was lost.
+*Uncle's* wallet was found by the police.
+This is my *mother's* watch.`,
 
-          `Priyanka is busy with school work.
-The lawyer will talk to the judge later.`,
+          `*Priyanka* is busy with school work.
+The *lawyer* will talk to the judge later.`,
 
-          `The plate is on the table.
-Gagan has lost his wallet.
-The river flows into the sea.`
+          `The plate is on the *table*.
+Gagan has lost his *wallet*.
+The river flows into the *sea*.`
         ]
       ]
     }
