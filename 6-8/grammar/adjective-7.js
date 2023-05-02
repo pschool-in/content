@@ -106,11 +106,11 @@ Participial adjectives are formed from the past participle (-ed) or present part
           },
           {
             qText: `In the phrase "coffee mug", which word is acting as an adjective?`,
-            options: `Coffee, Mug, *None of the above`
+            options: `*Coffee, Mug, None of the above`
           },
           {
             qText: `Which of the following is a participial adjective?`,
-            options: `Exciting, Quick, Beautiful, *All of the above`
+            options: `*Exciting, Quick, Beautiful, All of the above`
           },
           {
             qText: `Which of the following adjectives cannot be used attributively?`,
@@ -167,9 +167,9 @@ Bill wrote *many* novels.
 It was a *difficult* question, but I solved it.`,
 
         `This Diwali I bought my grandmother *two* sarees.
-He walked *six* kilometer.
+He walked *six* kilometers.
 Who was the *first* Prime Minister of India?
-The students on the *last* row are talkative.
+The students in the *last* row are talkative.
 Are there *any* apples left in the fridge?`,
 
         `She ate only *half* a slice of pizza.
@@ -179,7 +179,7 @@ We should eat *healthy* food.
 The students have completed their *project* work.`,
 
         `Rohan made *several* calls from his mobile.
-We participated in the *art* competitions.
+We participated in the *art* competition.
 May I have *three* coffee, please?
 There are *many* colleges across India.
 A *few* people are allowed inside the room.`
@@ -187,7 +187,7 @@ A *few* people are allowed inside the room.`
     },
     {
       id: 'fillup-adj',
-      label: 'Comparison of Adjectives',
+      label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -300,8 +300,7 @@ The movie is entertaining.`,
 
           `The streets are busier in the daytime.
 The instructions for this game are simpler than the ones for the other game.
-Eating vegetables is healthier than eating junk food.
-`,
+Eating vegetables is healthier than eating junk food.`,
 
           `The newest technology is the most modern.
 Calculus is the most difficult subject in school.
@@ -317,7 +316,7 @@ Drawing is a creative work.`,
           His jokes are funnier than hers.`,
 
           `Usain Bolt is the fastest runner in the world.
-          The sun is not the brightest star in the Milky way.
+          The sun is not the brightest star in the Milky Way.
           Times Square is one of the busiest places in New York City.
 The alphabet is the simplest thing to learn.`
         ]
@@ -325,7 +324,7 @@ The alphabet is the simplest thing to learn.`
     },
     {
       id: 'nouns',
-      label: 'Nouns as Adjectives',
+      label: 'Identify',
       type: 'selectWord',
       commonData: {
         title:
@@ -388,12 +387,12 @@ The *smartphone* charger is not working. We need to get a new one.`
           },
           {
             qText:
-              'When adjective is used not in front of the noun, it is called a ______________.',
+              'When an adjective is used not in front of the noun, it is called a ______________.',
             options: `predicative adjective, attributive adjective, demonstrative adjective`
           },
           {
             qText:
-              'When adjective is used in front of the noun, it is called  ________________.',
+              'When an adjective is used in front of the noun, it is called  ________________.',
             options: `an attributive adjective, a predicative adjective, a possessive adjective`
           }
         ]
@@ -401,7 +400,7 @@ The *smartphone* charger is not working. We need to get a new one.`
     },
     {
       id: 'fillup-adj-2',
-      label: 'Participal Adjectives',
+      label: 'Fill in the blanks',
       type: 'fillup',
       noOptions: true,
       data: {

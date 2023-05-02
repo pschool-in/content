@@ -10,50 +10,65 @@ export default {
       data: {
         title: 'Pronoun',
         text: [
-          `A pronoun is defined as a word or phrase that is used as a substitution for a noun or noun phrase. Pronouns are short words and can do everything that nouns can do and are one of the building blocks of a sentence. Some common pronouns are <i>he, she, you, me, I, we, us, this, them, that </i>. A pronoun can act as a subject, direct object, indirect object, object of the preposition, etc. It takes the place of any person, place, animal or thing.
+          `A pronoun is defined as a word or phrase that is used as a substitution for a noun or a noun phrase. Pronouns are short words and can do everything that nouns can do and are one of the building blocks of a sentence. A pronoun can act as a subject, direct object or indirect object. It takes the place of any person, place, animal or thing.
 # Types of Pronouns
-1. Pronouns of Place: These pronouns are used to indicate the place or position of a person, object, or thing.`,
+1. Personal Pronouns: Personal pronouns are used in place of the person or people that we are talking about.`,
           {
             type: 'html',
-            text: `Eg: <b>here</i>, <b>there</i>, <b>where</i>, <b>everywhere</i>, <b>nowhere</i>, <b>somewhere</i>`
+            text: `Eg: <i>I</i> like ice cream.<br>
+<i>We</i> eat ice cream frequently `
           },
-          `2. Pronouns of Time: These pronouns are used to indicate the time or duration of an action or event.`,
+          `2. Reflexive and Emphatic Pronouns: Reflexive pronouns act as objects and usually show that the person who does the action of the verb is also the person who receives the action.
+When reflexive pronouns are used for emphasis, they are called emphatic pronouns.`,
           {
             type: 'html',
-            text: `Examples: <b>when</i>, <b>while</i>, <b>until</i>, <b>after</i>, <b>before</i>, <b>since</i>, etc.`
+            text: `Eg: I <i>myself</i> cut my hair.<br> 
+They <i>themselves</i> suggested this restaurant.`
           },
-          `3. Pronouns of Direction: These pronouns are used to indicate the direction of movement of a person or thing.`,
+          `3. Possessive Pronouns: Possessive pronouns are used to show possession of an item.`,
           {
             type: 'html',
-            text: `Examples: <b>up</i>, <b>down</i>, <b>forward</i>, <b>backward</i>, <b>left</i>, <b>right</i>, etc.`
+            text: `Eg: These are <i>my</i> spectacles. => These spectacles are <i>mine</i>.<br>
+Those are <i>your</i> slippers. => Those slippers are <i>yours</i>.`
           },
-          `4. Pronouns of Cause: These pronouns are used to indicate the cause or reason behind an action or event.`,
+          `4. Relative Pronouns: A relative pronoun relates a clause to a noun used earlier. The clause is usually a subordinate clause and it is introduced by the relative pronoun.`,
           {
             type: 'html',
-            text: `Examples: <b>because</i>, <b>since</i>, <b>as</i>, etc.`
+            text: `Eg: I like rasgulla, <i>which</i> is a popular sweet.<br>
+We are looking for a teacher <i>who</i> speaks Marathi.`
           },
-          `5. Pronouns of Purpose: These pronouns are used to indicate the purpose or intention behind an action or event.`,
+          `5. Interrogative Pronouns: Interrogative pronouns are used to ask questions.`,
           {
             type: 'html',
-            text: `Examples: <b>to</i>, <b>in order to</i>, <b>so as to</i>, etc.`
+            text: `Eg: <i>Who</i> is the culprit?<br>
+<i>Whom</i> should I ask?`
           },
-          `6. Pronouns of Source: These pronouns are used to indicate the source or origin of a person or thing.`,
+          `6. Indefinite Pronouns: Indefinite pronouns stand in place of an undefined person or thing.`,
           {
             type: 'html',
-            text: `Examples: <b>from</i>, <b>of</i>, <b>by</i>, etc.`
+            text: `Eg: <i>anybody</i>, <i>something</i>, <i>no one</i>, <i>somebody</i>, <i>anyone</i>, <i>few</i>, <i>many</i>, <i>nobody</i>.`
+          },
+          `7. Distributive Pronouns: Distributive pronouns refer to one thing at a time. They are always singular`,
+          {
+            type: 'html',
+            text: `Eg: <i>each</i>, <i>either</i>, <i>neither</i>.`
+          },
+          `8. Demonstrative Pronouns: Demonstrative pronouns are used to point out things they refer to.`,
+          {
+            type: 'html',
+            text: `Eg: <i>this</i>, <i>that</i>, <i>these</i>, <i>those</i>.`
           },
           `# Pronoun Rules
 There are a few important rules for using pronouns.
 1. Subject pronouns may be used to begin sentences.
-Example: We did a great job.
+Eg: We did a great job.
 2. Subject pronouns may also be used to rename the subject.
-Example: It was she who decided we should go to Hawaii.
+Eg: It was she who decided we should go to Hawaii.
 3. Indefinite pronouns are capable of standing on their own without referring to a specific noun.
-Example: No one likes the sound of fingernails on a chalkboard.
+Eg: No one likes the sound of fingernails on a chalkboard.
 4. Object pronouns are used as direct objects, indirect objects, and objects of prepositions. These include you, me, him, her, us, them, and it.
-Examples: me, him, her, us, etc
 5. Possessive pronouns show ownership. They do not need apostrophes.
-Examples: yours, his, ours, theirs, hers, mine, etc`
+Eg: yours, his, ours, theirs, hers, mine`
         ]
       }
     },
@@ -91,28 +106,27 @@ Examples: yours, his, ours, theirs, hers, mine, etc`
       label: 'True or False',
       type: 'classifySentence',
       id: 'true-false',
-      commonData: {
+      data: {
         title: 'Classify the following sentences as True or False',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Personal pronouns replace specific nouns in a sentence. 
+        types: [
+          {
+            name: 'True',
+            text: `Personal pronouns replace specific nouns in a sentence. 
 The pronoun "I" is always capitalized.
-The pronoun "you" can be used to refer to a single person or a group of people.`,
-
-          `The pronoun "it" is always used to refer to a non-living thing.
-The pronoun "they" is only used to refer to a group of people. `
-        ],
-        [
-          `The pronoun "it" can also be used to refer to a baby whose gender is unknown. 
+The pronoun "you" can be used to refer to a single person or a group of people.
+The pronoun "it" can also be used to refer to a baby whose gender is unknown. 
 The pronoun "he" can also be used as an object pronoun. 
-The pronoun "she" can also be used as a subject pronoun. `,
-
-          `The pronoun "it" can never be used to refer to a living thing.
-The pronoun "who" is only used to refer to people. `
+The pronoun "she" can also be used as a subject pronoun. `
+          },
+          {
+            name: 'False',
+            text: `The pronoun "it" is always used to refer to a non-living thing.
+The pronoun "they" is only used to refer to a group of people.
+The pronoun "it" can never be used to refer to a living thing.
+The pronoun "who" is only used to refer to people.`
+          }
         ]
-      ]
+      }
     },
     {
       id: 'fillup',
@@ -134,7 +148,7 @@ The pronoun "who" is only used to refer to people. `
     },
     {
       id: 'fillup-2',
-      label: 'Pronouns of Place',
+      label: 'Fill in the blanks - 2',
       type: 'fillup',
       noOptions: true,
       data: {
@@ -152,26 +166,26 @@ She lives in a remote village. *There* are no stores or restaurants there.`
       }
     },
     {
-      label: 'Pronouns of Time - Identify',
+      label: 'Indefinite Pronoun - Identify',
       type: 'selectWord',
       id: 'select-word',
       data: {
         title: `Identify pronouns of time from the following sentences`,
-        text: `Do you remember the day *when* we first met?
-*While* I was studying, my roommate was watching TV.
-*After* I finish this project, I plan to take a vacation.
-*Before* we leave, we should check the weather forecast.
-*Until* he apologized, she refused to speak to him.
-*Since* you started working here, the office has been much more organized.
-The time *when* we saw the shooting star was unforgettable.
-*While* I was living in New York, I never learned how to drive.
-*After* we finish dinner, let's go for a walk.
-*Before* she moved to London, she had never been abroad.`
+        text: `*Someone* left their umbrella in the office.
+*Nobody* wants to be left behind.
+*Anything* is possible if you put your mind to it.
+*Everyone* should have the opportunity to succeed.
+*Each* of us has a unique perspective on life.
+*Many* people enjoy traveling to new places.
+*Few* things are more rewarding than helping others.
+*Several* students failed the exam and will need to retake it.
+*Somebody* needs to take out the trash before it starts to smell.
+*Anybody* could have made that mistake, so don't beat yourself up over it.`
       }
     },
     {
       id: 'fillup-3',
-      label: 'Fill in the blanks',
+      label: 'Fill in the blanks - 3',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -186,7 +200,7 @@ The cat is hungry, so *it* is meowing loudly.
 The students finished their exams, and *they* all did well.`,
 
         `The car broke down on the highway, and *it* had to be towed.
-I gave my friend some advice, and *she* found it helpful.
+I gave my friend Riya some advice, and *she* found it helpful.
 The flowers in the garden are beautiful, and *they* smell so sweet.
 The teacher handed out the assignments, and *they* are due next week.
 The restaurant is busy tonight, and *it* is taking a while to get our food.`,
@@ -211,7 +225,7 @@ I'm going on vacation next week, and *I* can't wait to relax.`
       ]
     },
     {
-      label: 'Who, Which or Why',
+      label: 'Fill in the blanks - 4',
       type: 'matchByDragDrop',
       id: 'drag-drop',
       lockAfter: 1,
@@ -248,7 +262,7 @@ The store offers two sizes, small and large. *Which* one would you like to buy?
 *Why* did you choose this restaurant over the other options?`,
 
         `Can you guess *who* wrote this novel?
-I'm considering two job offers. One is in New York and the other is in San Francisco. *Which* one should I take?
+I'm considering two schools. One is in New York and the other is in San Francisco. *Which* one should I choose?
 I don't understand *why* she is so upset about the situation.`,
 
         `I'm trying to remember *who* recommended this restaurant to us.
