@@ -59,14 +59,15 @@ export default {
       label: 'Multiple Choice Questions',
       type: 'mcq',
       commonData: {
-        title: 'Multiple Choice Questions'
+        title:
+          'What is the meaning of the highlighted idiom in the below sentence?'
       },
       data: [
         {
           questions: [
             {
               qText:
-                'After he realized he was wrong, he had to eat humble pie and apologize to his coworker. What does "eat humble pie" mean?',
+                'After he realized he was wrong, he had *to eat humble pie* and apologize to his coworker. What does "eat humble pie" mean?',
               options: `To apologize humbly
                 To celebrate a victory
                 To boast about oneself`
@@ -179,6 +180,22 @@ A situation that is entirely positive.`
       ]
     },
     {
+      id: 'match-am-br',
+      label: 'Match the following',
+      type: 'match',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match the pairs that form a valid idiom'
+      },
+      data: [
+        `eat humble, pie
+        eat your, words
+        meet you, halfway
+        turned a, deaf ear
+        under the, weather`
+      ]
+    },
+    {
       label: 'Pick the Right Word',
       id: 'complete-1',
       type: 'completePuzzle',
@@ -187,10 +204,17 @@ A situation that is entirely positive.`
         type: 'rightOpen',
         title: 'Drag and drop the right set of words to complete the idiom.',
         printTitle: 'Pick the right set of words to complete the idiom',
-        leftWidth: 75,
-        rightWidth: 245
+        leftWidth: 125,
+        rightWidth: 195,
+        fontSize: '1rem'
       },
       data: [
+        `eat humble pie, to say sorry, to show respect
+        eat your words, to take back what you said, to keep promise
+        meet you half-way, come to compromise, cancel trip midway
+        turned a deaf ear, didn't listen, didn't respect
+        under the weather, feeling sick, feeling unhappy`,
+
         `Eat humble, pie, apple
         Eat your, words, promise
         Meet you, halfway, at home

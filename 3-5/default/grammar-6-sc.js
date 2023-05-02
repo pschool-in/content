@@ -160,7 +160,7 @@ The company released a new product. | a new product was released by the company 
     {
       type: 'makeSentence',
       label: 'Convert Direct Sentences to Indirect Sentences',
-      id: 'make-sentence',
+      id: 'convert-direct',
       commonData: {
         title:
           'Convert the given Direct Sentence to Indirect Sentence. Drag & Drop the words from the bottom and construct the sentence.',
