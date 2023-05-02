@@ -42,6 +42,18 @@ e) The Interrogative, the Imperative and the Exclamatory sentences are put as st
           {
             qText: `What is the rule of changing tense while converting Direct Speech into Indirect Speech?`,
             options: `The rule of Sequence of Tenses is followed, The tense of the verb in the Reported Speech is always changed, The tense of the Reporting Verb is always changed`
+          },
+          {
+            qText: `What is the difference between direct and indirect speech?`,
+            options: `Direct speech is when the speaker's exact words are repeated, while indirect speech is when the speaker's words are summarized or paraphrased.
+            Direct speech is used in formal contexts, while indirect speech is used in informal contexts.
+            Direct speech is always written with quotation marks, while indirect speech is not.`
+          },
+          {
+            qText: `Which of the following is true about reporting verbs used in indirect speech?`,
+            options: `Reporting verbs can be in any tense depending on the context.
+            Reporting verbs are always in the past tense.
+            Reporting verbs are not necessary in indirect speech.`
           }
         ]
       }
@@ -50,44 +62,26 @@ e) The Interrogative, the Imperative and the Exclamatory sentences are put as st
       label: 'True or False',
       type: 'classifySentence',
       id: 'true-false',
-      commonData: {
+      data: {
         title: 'Classify the following sentences as True or False',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Direct speech is always enclosed in inverted commas.
-  Reported speech is separated from the reporting verb by a comma.
-  In indirect speech, inverted commas are not used.`,
-
-          `The first word of reported speech begins with a small letter.
-  The comma separating the reporting verb from the reported speech is retained in indirect speech. `
-        ],
-        [
-          `In indirect speech, question marks and exclamation marks are not used.
-  Interrogative sentences are changed to statements in indirect speech.
-  Imperative sentences are changed to statements in indirect speech.
-  Exclamatory sentences are changed to statements in indirect speech.`,
-
-          `The tense of the reporting verb is always changed in indirect speech.`
-        ],
-        [
-          `If the reporting verb is in the past tense, the tense of the verb in reported speech is changed to past tense.
-  If the reported speech contains a universal truth, the tense is not changed in indirect speech.
-  Reported speech can be introduced by verbs like "ask", "inquire" and "query".
-Indirect speech can be introduced by the word "that".`,
-
-          `"Say" and "tell" are used interchangeably in direct and indirect speech.`
-        ],
-        [
-          `In indirect speech, pronouns are changed to reflect the perspective of the speaker.
-  Indirect speech is also known as reported speech or reported discourse.
-  In indirect speech, the tense of the verb is changed according to the reporting verb.
-In direct speech, the reported speech is usually introduced by a reporting verb.`,
-
-          `In direct speech, the tense of the verb is always changed to present tense.`
+        types: [
+          {
+            name: 'True',
+            text: `Direct speech is always enclosed in inverted commas.
+            In indirect speech, inverted commas are not used.
+            In indirect speech, question marks and exclamation marks are not used.
+  Interrogative sentences are changed to statements in indirect speech.`
+          },
+          {
+            name: 'False',
+            text: `The first word of reported speech begins with a small letter.
+            The comma separating the reporting verb from the reported speech is retained in indirect speech.
+            The tense of the reporting verb is always changed in indirect speech.
+            In direct speech, the tense of the verb is always changed to present tense.
+            "Say" and "tell" are used interchangeably in direct and indirect speech.`
+          }
         ]
-      ]
+      }
     },
     {
       id: 'direct-indirect',
@@ -102,8 +96,7 @@ In direct speech, the reported speech is usually introduced by a reporting verb.
 I say, “Mohan is a good boy.”	
 I say to Sham, “Ram is a student”.	
 He says to me, “The peon rings the bell.”	
-I shall say to him, “She will go to school.”
-I shall say, “Rita is a doctor.”`
+I shall say to him, “She will go to school.”`
           },
           {
             name: 'Indirect',
@@ -111,23 +104,22 @@ I shall say, “Rita is a doctor.”`
 I say that Mohan is a good boy.
 I tell Sham that Ram is a student.
 He tells me that the peon rings the bell.
-I shall tell him that she will go to school.
-I shall say that Rita is a doctor.`
+I shall tell him that she will go to school.`
           }
         ]
       }
     },
     {
       id: 'mcq',
-      label: 'Indirect Speech',
+      label: 'Multiple Choice Questions',
       type: 'mcq',
       data: {
         title:
           'Choose the correct form of Indirect Speech for the sentence given in Direct Speech.',
         questions: [
           {
-            qText: 'Rahul told to me, “When are you leaving?”',
-            options: `Rahul asked me when I was leaving, Rahul asked me when I will be leaving.`
+            qText: 'Rahul told me, “When are you leaving?”',
+            options: `Rahul asked me when I will be leaving, Rahul asked me when I was leaving`
           },
           {
             qText: '“Where do you live?” the stranger asked Aladdin.',
@@ -135,7 +127,7 @@ I shall say that Rita is a doctor.`
           },
           {
             qText: 'The teacher said to Shelly, “Why are you laughing?”',
-            options: `The teacher asked Shelly why he was laughing, The teacher asks Shelly why she is laughing`
+            options: `The teacher asks Shelly why she is laughing, The teacher asked Shelly why she was laughing`
           },
           {
             qText: "Dhronacharya said to Arjun, “Shoot the bird's eye.”",
@@ -151,10 +143,39 @@ I shall say that Rita is a doctor.`
           },
           {
             qText: 'Bruce said to me, “I shall do the work.”',
-            options: `Bruce said to me he would do the work, Bruce said he can do all the work`
+            options: `Bruce said to me that he would do the work, Bruce said he can do all the work`
           }
         ]
       }
+    },
+    {
+      type: 'makeSentence',
+      label: 'Convert to Indirect Speech',
+      id: 'make-sentence',
+      commonData: {
+        title:
+          'Convert the Direct Speech to Indirect Speech. Drag & Drop the words from the bottom and construct the sentence.',
+        extras: 'is because of an the them us'
+      },
+      data: [
+        `My mother said to me, “You were wrong.”|  my mother told me that I was wrong
+        Raj said, “Alas! My pet died.” | Raj exclaimed sadly that his pet died
+        Ruchi said, “I may go there.” | Ruchi said that she might go there
+        Bucky said to Steve, “Do you hear me?” | Bucky asked Steve if he heard him
+        The boy said, “Let me come in.” | the boy asked to let him come in`,
+
+        `Granny said to me, “May God bless you.” | granny prayed that God might bless me
+        "I am going to the store," said Mary. | Mary said that she was going to the store
+        "I have never been to Paris," said Tom. | Tom said that he had never been to Paris
+        "I want to be a doctor," said Sarah. | Sarah said that she wanted to be a doctor
+        "I am feeling sick," said Jack. | Jack said that he was feeling sick`,
+
+        `"I need a break," said Rachel. | Rachel said that she needed a break
+        "I am going to the beach," said Peter. | Peter said that he was going to the beach
+        "I am proud of you," said the mother. | the mother said that she was proud of the person
+        "I love playing tennis," she said. | she said that she loved playing tennis
+        "I'm sorry I'm late," she said. | she apologized for being late `
+      ]
     },
     {
       id: 'fillup-speech',
@@ -166,201 +187,123 @@ I shall say that Rita is a doctor.`
       },
       lockAfter: 1,
       data: [
-        `My mother told me that I was wrong.
-My mother said to me, “You *were* wrong.”
-
-Mr. Richard *requested* me to *wait there* till he returned.
-Mr. Richard said to me, “Please wait here till I return.”`,
-
-        `The captain *applauded* me, saying that I *had played* well.
-The captain said to me, “Bravo! You have played well.”
-
-Raj *exclaimed* sadly that his pet *died*.
-Raj said, “Alas! My pet died.”`,
-
-        `Ruchi said that she *might* go there.
-Ruchi said, “I may go there.”
-
-Bucky *asked* Steve if he *heard* him.
-Bucky said to Steve, “Do you hear me?”`,
-
-        `The boy asked to let *him* come in.
-The boy said, “Let me come in.”
-
-Granny *prayed* that God *might* bless me.
-Granny said to me, “May God bless you.”`,
-
-        `Mary said *that* she *was* going to the store.
-"I am going to the store," said Mary.`,
-
-        `Tom *said* that he *had* never been to Paris.
-"I have never been to Paris," said Tom.
-
-Sarah said *that* she *wanted* to be a doctor.
-"I want to be a doctor," said Sarah.`,
-
-        `Jack *said* that he *was* feeling sick.
-"I am feeling sick," said Jack.
-
-Rachel said that she *needed* a break.
-"I need a break," said Rachel.`,
-
-        `Peter *said* that he *was* going to the beach.
-"I am going to the beach," said Peter.
-
-Lisa said that she *couldn't* wait for the concert.
-"I can't wait for the concert," said Lisa.`,
-
-        `The teacher said that she *would* help with homework.
-"I will help you with your homework," said the teacher.
-
-David said that he *was* sorry for being late.
-"I am sorry for being late," said David.`,
-
-        `Jenny said that she *was* so happy for the *other* person.
-"I am so happy for you," said Jenny.
-
-James said that he *was* not feeling well.
-"I am not feeling well," said James.`,
-
-        `Emily said that she *wanted* to learn how to cook.
-"I want to learn how to cook," said Emily.
-
-Mark said that he *was* tired of the job.
-"I am tired of this job," said Mark.
-
-Michael said that he *was* excited about the game *tonight*.
-"I am excited about the game tonight," said Michael.`,
-
-        `Susan *said* that she *had* a headache.
-"I have a headache," said Susan.
-
-Alex said that he *was* not sure if he *could* make it.
-"I am not sure if I can make it," said Alex.`,
-
-        `The mother said that she *was* proud of the *person*.
-"I am proud of you," said the mother.
-
-Jane said that she *couldn't* believe she *passed* the test.
-"I can't believe I passed the test," said Jane.`,
-
-        ` "I love playing tennis," she said.
-She said that she *loved* playing tennis.
-
-"I am going to the store," he said.
-He said that he *was* going to the store.`,
+        `"I am tired," said James.
+James said that he *was* tired.
+"I am happy," said Lisa.
+Lisa said that she *was* happy.`,
 
         `"I do not like chocolate," she said.
 She said that she *did* not like chocolate.
-
 "I will be there at 2 pm," he said.
 He said that he *would* be there at 2 pm.`,
 
         `"I have a headache," she said.
 She said that she *had* a headache.
-
 "I saw a movie last night," he said.
 He said that he *had* seen a movie the *previous* night.`,
 
-        `"I'm sorry I'm late," she said.
-She *apologized* for being late.
+        `"I need to study for my exams," he said.
+He said that he *needed* to study for his exams.
+"I want to go on vacation," she said.
+She said that she *wanted* to go on vacation.`,
 
-"I need to study for my exams," he said.
-He said that he *needed* to study for his exams.`,
+        `"I have to leave now," he said.
+He said that he *had* to leave *then*.
+"I am excited about the party," she said.
+She said that she was *excited* about the party.`,
 
-        ` "I want to go on vacation," she said.
-She said that she *wanted* to go on vacation.
+        `"I am not feeling well," he said.
+He said that he *was* not feeling well.
+"I *do* not like spicy food," she said.
+She said that she *did* not like spicy food.`,
 
-"I have to leave now," he said.
-He said that he *had* to leave *then*.`,
+        `"I can't swim," he said.
+He said *that* he couldn't swim.
+"I want to buy a new car," she said.
+She said that she *wanted* to buy a new car.`,
 
-        `"I am excited about the party," she said.
-She said that she was *excited* about the party.
+        `"I am happy to be here," he said.
+He said that he was happy to be *there*.
+"I'm afraid of spiders," she said.
+She said that she *was* afraid of spiders.`,
 
-"I am not feeling well," he said.
-He said that he *was* not feeling well.`,
+        `"I love my job," he said.
+He said that he *loved* his job.
+"I need some help," she said.
+She said that she *needed* some help.`,
 
-        `"I *do* not like spicy food," she said.
-She said that she *did* not like spicy food.
+        `"I'm sorry for what I said," he said.
+He *apologized* for what he had said.
+"I can not eat gluten," she said.
+She said that she *could* not eat gluten.`,
 
-"I can't swim," he said.
-He said *that* he couldn't swim.`,
+        `"I have to go to the dentist," he said.
+He said that he *had* to go to the dentist.
+"I don't like horror movies," she said.
+She *said* that she didn't like horror movies.`,
 
-        `"I want to buy a new car," she said.
-She said that she *wanted* to buy a new car.
+        `"I am learning Spanish," he said.
+He said that he *was* learning Spanish.
+"I'm excited about the concert," she said.
+She said that she *was* excited about the concert.`,
 
-"I am happy to be here," he said.
-He said that he was happy to be *there*.`,
+        `"I do not have any money," he said.
+He said that he *did* not have any money.
+"I am going to the store," said Tom.
+Tom said that he *was* going to the store.`,
 
-        `"I'm afraid of spiders," she said.
-She said that she *was* afraid of spiders.
+        `"I love chocolate," said Mary.
+Mary said that she *loved* chocolate.
+"I will be there at 3 o'clock," said John.
+John said that he *would* be there at 3 o'clock.`,
 
-"I love my job," he said.
-He said that he *loved* his job.`,
+        `"I can not come to the party," said Jane.
+Jane said that she *could* not come to the party.
+"I have finished my homework," said Susan.
+Susan said that she *had* finished her homework.`,
 
-        `"I need some help," she said.
-She said that she *needed* some help.
+        `"I do not like Biriyani," said Mark.
+Mark said that he *did* not like Biriyani.
+"I am studying for my exam," said Emily.
+Emily said that she *was* studying for her exam.`,
 
-"I'm sorry for what I said," he said.
-He *apologized* for what he had said.`,
+        `"I want to go to the beach," said Peter.
+Peter said that he *wanted* to go to the beach.
+"I saw a movie last night," said Sarah.
+Sarah said that she *had* seen a movie last night.`,
 
-        `"I can not eat gluten," she said.
-She said that she *could* not eat gluten.
+        `Mr. Richard *requested* me to *wait there* till he returned.
+Mr. Richard said to me, “Please wait here till I return.
+The captain *applauded* me, saying that I *had played* well.
+The captain said to me, “Bravo! You have played well.”`,
 
-"I have to go to the dentist," he said.
-He said that he *had* to go to the dentist.`,
+        `Lisa said that she *couldn't* wait for the concert.
+"I can't wait for the concert," said Lisa.
+The teacher said that she *would* help with homework.
+"I will help you with your homework," said the teacher.`,
 
-        `"I don't like horror movies," she said.
-She *said* that she didn't like horror movies.
+        `David said that he *was* sorry for being late.
+"I am sorry for being late," said David.
+Jenny said that she *was* so happy for the *other* person.
+"I am so happy for you," said Jenny.`,
 
-"I am learning Spanish," he said.
-He said that he *was* learning Spanish.`,
+        `Emily said that she *wanted* to learn how to cook.
+"I want to learn how to cook," said Emily.
+Mark said that he *was* tired of the job.
+"I am tired of this job," said Mark.`,
 
-        `"I'm excited about the concert," she said.
-She said that she *was* excited about the concert.
+        `Michael said that he *was* excited about the game *tonight*.
+"I am excited about the game tonight," said Michael.
+Susan *said* that she *had* a headache.
+"I have a headache," said Susan.`,
 
-"I do not have any money," he said.
-He said that he *did* not have any money.`,
+        `Alex said that he *was* not sure if he *could* make it.
+"I am not sure if I can make it," said Alex.
+Jane said that she *couldn't* believe she *passed* the test.
+"I can't believe I passed the test," said Jane.`,
 
-        `"I am going to the store," said Tom.
-Tom said that he *was* going to the store.
-
-"I love chocolate," said Mary.
-Mary said that she *loved* chocolate.`,
-
-        `"I will be there at 3 o'clock," said John.
-John said that he *would* be there at 3 o'clock.
-
-"I can not come to the party," said Jane.
-Jane said that she *could* not come to the party.`,
-
-        `"I have finished my homework," said Susan.
-Susan said that she *had* finished her homework.
-
-"I do not like biriyani," said Mark.
-Mark said that he *did* not like biriyani.`,
-
-        `"I am studying for my exam," said Emily.
-Emily said that she *was* studying for her exam.
-
-"I want to go to the beach," said Peter.
-Peter said that he *wanted* to go to the beach.`,
-
-        `"I saw a movie last night," said Sarah.
-Sarah said that she *had* seen a movie last night.
-
-"I am tired," said James.
-James said that he *was* tired.`,
-
-        `"I am happy," said Lisa.
-Lisa said that she *was* happy.
-
-"I do not understand the assignment," said Alex.
-Alex said that he *did* not understand the assignment.`,
-
-        `"I'm sorry I'm late," said Tom.
-Tom *apologized* for being late.
-
+        `"I do not understand the assignment," said Alex.
+Alex said that he *did* not understand the assignment.
 "I'm going to visit my grandparents," said David.
 David said that he *was* going to visit his grandparents.`
       ]
