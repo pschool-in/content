@@ -54,8 +54,8 @@ valley | Valley`
       type: 'dragDropImgLabel',
       label: 'Monuments in India',
       id: 'monuments',
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         title: 'Drag the names and drop on the images.',
         path: 'img/social/monument',
         text: `charminar | Charminar

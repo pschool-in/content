@@ -7,8 +7,8 @@ export default {
       id: '100',
       type: 'typing',
       label: `Home Row - 1`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `aaa aaa aaa sss sss sss lll lll lll ;;; ;;; ;;;
 ddd ddd ddd fff fff fff kkk kkk kkk jjj jjj jjj
 aaa sss lll ;;; aaa sss lll ;;; aaa sss lll ;;;
@@ -25,8 +25,8 @@ ffdd ffdd ddss ddss ddss ssaa sasa aass jklk`
       id: '200',
       type: 'typing',
       label: `Home Row - 2`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `gghh gghh gghh ghgh ''' l;l; hjk hjk gghh
 fad fads lad lads lass alas salad salads dad dads lad lads salads alas
 ad add ads adds as ask asks la lad lads lass da dad dada dada sa sad salad
@@ -37,8 +37,8 @@ all fall falls alf alfa alfas fad fads salsa ska skald skalds flak flask flasks`
       id: '300',
       type: 'typing',
       label: `Upper Row`, // ER UI
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `deed frrf deer reed red deed frrf deer reed red deed frrf deer reed red
 free freed fred feed fed free freed fred feed fed free freed fred feed fed
 reef reef ref ref refer refer defer defer referred deferred refereed
@@ -56,8 +56,8 @@ reek reeked tried tire retire retired kirk june feud fuji deride juried`
       id: '400',
       type: 'typing',
       label: `Upper Row - 2`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `red deer feeder; feed freddie; red fire; free feed; fried deer; dier ride;
 eddie died; free ride; eddie fired fred; did eddie die; dier rider fried;
 edifier rider dude freed red fur deer; kidder eddie rudder fed red deer;
@@ -71,8 +71,8 @@ rude eddie kerr jeered duke kirk; kidder eddie rudder fed red deer;`
       id: '500',
       type: 'typing',
       label: `T, G & H`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `fg fg fg fgf fgt fg ft ft ft dfg dfgt dft dft
 frt frt frt frtg frtg frtg fgt fgt fgt
 dfrt dfrt dfrt dfrt dert dert dert dert
@@ -101,8 +101,8 @@ ruth tried the third free gift;`
       id: '600',
       type: 'typing',
       label: `W, S, L, O, Y`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `fff ddd sss www fff ddd sss www fff ddd sss www
 fds fds fdsw fdsw frf ded sws frf ded sws frf ded sws
 fdd fss ree rww rww rew rew rews rews dew dews
@@ -125,8 +125,8 @@ ill ill kill kill hill jill jill jill ilk ilk ilk oil oily joy joy lily lily jok
       id: '700',
       type: 'typing',
       label: `W, S, L, O, Y - 2`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `juj jyyj joy toy roy try fry juj jyyj joy toy roy try fry juj jyyj joy toy roy try fry fly why
 soy soil silly soul souls well wells yell yells swell swells wile wily while sty stye style stole
 wet wets jet jets jest jester yes let lets letters wet wets jet jets jest jester yes let lets letters
@@ -149,8 +149,8 @@ the rest of the rowdy lost yodellers followed terry out of the west forest; `
       id: '800',
       type: 'typing',
       label: `V, B, M, N`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `home, newest, mother. love, verify, west, justly, oven, bike
 home, newest, mother. love, verify, west, justly, oven, bike 
 fvf frfvf fbf frfbf rev vet fvf frfvf fbf frfbf rev vet
@@ -177,8 +177,8 @@ i rested in my house before playing two rounds of golf; would love to win; `
       id: '900',
       type: 'typing',
       label: `Exercise`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: ` ded dcd ded cdc dedcd dedcd decided deck decks decked check checks cheese chest
 cheek check checked creek creeks dice diced slice sliced twice nice mince minced
 type slowly with correct fingers; check the colours in the finger columns;
@@ -205,8 +205,8 @@ He bought forty five mind thrilling editions to review for his collection.`
       id: '1000',
       type: 'typing',
       label: `Exercise - 2`,
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `faf far fat fatter far farmer faf far fat fatter far farmer frame fame famine fade
 fan ran tan jan land hand band fan ran tan jan land hand band sand banner
 pot port pit put pop pup puppy pot port pit put pop pup puppy poppy pappy
@@ -227,8 +227,8 @@ If you enjoyed this typing course please tell others who would find it helpful.`
       id: '1100',
       type: 'typing',
       label: `Punctuation`, // ER UI
+      onlyBigScreen: true,
       data: {
-        onlyBigScreen: true,
         text: `For the question mark, hold down the left Shift key while you type the / key.
 For the exclamation mark, hold down the right Shift key while you type the 1 key.
 The colon is on the semi-colon key and needs the left Shift key held.

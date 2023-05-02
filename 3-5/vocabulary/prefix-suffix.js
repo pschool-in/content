@@ -13,15 +13,13 @@ export default {
           '# in- words',
           {
             type: 'sitewords',
-            text:
-              'inaccurate, incapable, incorrect, indefinite, injustice, insecure, invisible, independent, indecent,  inhuman, ineffective, indirectly, inequality, indoor',
+            text: 'inaccurate, incapable, incorrect, indefinite, injustice, insecure, invisible, independent, indecent,  inhuman, ineffective, indirectly, inequality, indoor',
             width: 120
           },
           '# ir- words',
           {
             type: 'sitewords',
-            text:
-              'irregular, irresponsible, irreplaceable, irrational, irresistable',
+            text: 'irregular, irresponsible, irreplaceable, irrational, irresistable',
             width: 120
           },
           '# il- words',
@@ -33,79 +31,68 @@ export default {
           '# dis- words',
           {
             type: 'sitewords',
-            text:
-              'disobey, disclose, disadvantage, dishonest, disagree, disappear, disapprove, discomfort, disloyal, disobedient, dislike, disappoint, disinvest, disable, discover, disjoint, distrust, disown',
+            text: 'disobey, disclose, disadvantage, dishonest, disagree, disappear, disapprove, discomfort, disloyal, disobedient, dislike, disappoint, disinvest, disable, discover, disjoint, distrust, disown',
             width: 120
           },
           '# un- words',
           {
             type: 'sitewords',
-            text:
-              'unkind, unhappy, unwell, unable, untrained, unfit, unfair, untidy, unlucky, unseen, unusual, unbound, unfold, unfortunate, unjust, unknown, unlikely, unqualified, unsatisfactory, unzip, unlock, unhook, untrue, unsafe, unclear,  uncooked, unpaid, unpack',
+            text: 'unkind, unhappy, unwell, unable, untrained, unfit, unfair, untidy, unlucky, unseen, unusual, unbound, unfold, unfortunate, unjust, unknown, unlikely, unqualified, unsatisfactory, unzip, unlock, unhook, untrue, unsafe, unclear,  uncooked, unpaid, unpack',
             width: 120
           },
           '# im- words',
           {
             type: 'sitewords',
-            text:
-              'immature, impatient, impolite, impossible, impure, imperfect, improve, improper, immaterial, imbalance, imprison',
+            text: 'immature, impatient, impolite, impossible, impure, imperfect, improve, improper, immaterial, imbalance, imprison',
             width: 120
           },
           '# mis- words',
           {
             type: 'sitewords',
-            text:
-              'misunderstand, mismatch, misbehave, mislead, misspell, mistreat, misfield, misfit, misgive,  misplace, misuse',
+            text: 'misunderstand, mismatch, misbehave, mislead, misspell, mistreat, misfield, misfit, misgive,  misplace, misuse',
             width: 120
           },
           '# de- words',
           {
             type: 'sitewords',
-            text:
-              'degrade, deactivate, dehydrate, depart, demoralize, dehumanize, desalinate, deselect, defame',
+            text: 'degrade, deactivate, dehydrate, depart, demoralize, dehumanize, desalinate, deselect, defame',
             width: 120
           },
           `Not all words starting with these letters are prefixes. The below words are not considered as having as a prefix.`,
           {
             type: 'sitewords',
-            text:
-              'increase, include, industry, initial, intelligent, incident, involve, irritate, irony, illness, illustrate, discord, discussion, discipline, disgust, uncle, understand, under, underline, image, important, immediate, imagine, misty, misery, mister, missile, mission, missed, delicious, develop, deliver, decline, destiny',
+            text: 'increase, include, industry, initial, intelligent, incident, involve, irritate, irony, illness, illustrate, discord, discussion, discipline, disgust, uncle, understand, under, underline, image, important, immediate, imagine, misty, misery, mister, missile, mission, missed, delicious, develop, deliver, decline, destiny',
             width: 120
           },
           `Prefix is not just used to create opposite words. It is used in other cases too. For example, 'pre' in the word 'prefix' itself is a prefix.`,
           '# pre- words',
           {
             type: 'sitewords',
-            text:
-              'prefix, preview, predetermine, preoccupied, preposition, predominant, predefined, precaution, preplan',
+            text: 'prefix, preview, predetermine, preoccupied, preposition, predominant, predefined, precaution, preplan',
             width: 120
           },
           '# re- words',
           {
             type: 'sitewords',
-            text:
-              'return, reunite, recall, rehabit, reorganize, recover, reconsider, republish, reproduce, recalculate, rediscover, refresh, recollect, redirect, reinvest, replay, review, refund, rename, rewrite, relocate, reaction, reload, remix, renew, recharge, rebuild, refill,  restore',
+            text: 'return, reunite, recall, rehabit, reorganize, recover, reconsider, republish, reproduce, recalculate, rediscover, refresh, recollect, redirect, reinvest, replay, review, refund, rename, rewrite, relocate, reaction, reload, remix, renew, recharge, rebuild, refill,  restore',
             width: 120
           },
           '# over- words',
           {
             type: 'sitewords',
-            text:
-              'overdue, overpower, overnight, overprice, overseas, overcome, overcoat, overcooked, overdo',
+            text: 'overdue, overpower, overnight, overprice, overseas, overcome, overcoat, overcooked, overdo',
             width: 120
           },
           '# other common prefixes',
           {
             type: 'sitewords',
-            text:
-              'extracurricular, homophone, microscope, triangle, tricycle, bicycle, unicycle',
+            text: 'extracurricular, homophone, microscope, triangle, tricycle, bicycle, unicycle',
             width: 120
           },
           `The following words are usually not considered as prefixes.`,
           {
             type: 'sitewords',
-            text:
-              'predict, preferable, presentation, president, precious, pressure, prepare, repeat, response, reasonable, revolution, replicate, delicious, develop, deliver, decline, destiny',
+            text: 'predict, preferable, presentation, president, precious, pressure, prepare, repeat, response, reasonable, revolution, replicate, delicious, develop, deliver, decline, destiny',
             width: 120
           }
         ]
@@ -542,71 +529,61 @@ discussion, discover, disable, dislike`
           '# -ful words',
           {
             type: 'sitewords',
-            text:
-              'playful, thankful, hopeful, handful, skilful, respectful, successful, unsuccessful, powerful, resourceful,  beautiful, wonderful, meaningful, thoughtful, eventful, stressful, colorful, doubtful, careful, helpful, harmful, useful',
+            text: 'playful, thankful, hopeful, handful, skilful, respectful, successful, unsuccessful, powerful, resourceful,  beautiful, wonderful, meaningful, thoughtful, eventful, stressful, colorful, doubtful, careful, helpful, harmful, useful',
             width: 120
           },
           '# -ous words',
           {
             type: 'sitewords',
-            text:
-              'famous, jealous, religious, rediculous, various, obvious, serious, curious, previous, numerous, generous, precious, dangerous, ferocious, injurious, continuous, suspicious, courageous, prestigious',
+            text: 'famous, jealous, religious, rediculous, various, obvious, serious, curious, previous, numerous, generous, precious, dangerous, ferocious, injurious, continuous, suspicious, courageous, prestigious',
             width: 120
           },
           '# -al words',
           {
             type: 'sitewords',
-            text:
-              'fictional, regional, musical, accidental, logical, national, official, personal, approval, cultural, festival, optional, seasonal, marginal, parental, habitual, financial, technical, emotional, individual, industrial, historical',
+            text: 'fictional, regional, musical, accidental, logical, national, official, personal, approval, cultural, festival, optional, seasonal, marginal, parental, habitual, financial, technical, emotional, individual, industrial, historical',
             width: 120
           },
           '# -ty words',
           {
             type: 'sitewords',
-            text:
-              'security, validity, quality, ability, society, reality, cruelty, thirsty, activity, priority, humanity, inability, sincerity, stupidity, difficulty, popularity, visibility, honesty, opportunity, nationality',
+            text: 'security, validity, quality, ability, society, reality, cruelty, thirsty, activity, priority, humanity, inability, sincerity, stupidity, difficulty, popularity, visibility, honesty, opportunity, nationality',
             width: 120
           },
           '# -ment words',
           {
             type: 'sitewords',
-            text:
-              'argument, achievement, encouragement, excitement, payment, movement, argument, judgment, basement, pavement, agreement, equipment, statement, treatment, placement, enjoyment, management, government, employment, retirement, attachment, development, environment, improvement, appointment',
+            text: 'argument, achievement, encouragement, excitement, payment, movement, argument, judgment, basement, pavement, agreement, equipment, statement, treatment, placement, enjoyment, management, government, employment, retirement, attachment, development, environment, improvement, appointment',
             width: 120
           },
           '# -ion words',
           {
             type: 'sitewords',
-            text:
-              'promotion, addition, election, relation, duration, rotation, donation, education, operation, direction, selection, pollution, animation, digestion, production, population, discussion, opposition, limitation, suggestion, correction, estimation, information, application, preparation',
+            text: 'promotion, addition, election, relation, duration, rotation, donation, education, operation, direction, selection, pollution, animation, digestion, production, population, discussion, opposition, limitation, suggestion, correction, estimation, information, application, preparation',
             width: 120
           },
           '# -ive words',
           {
             type: 'sitewords',
-            text:
-              'attentive, active, expensive, objective, exclusive, sensitive, intensive, talkative, respective, attractive, initiative, aggressive, productive, supportive, decorative, alternative, progressive',
+            text: 'attentive, active, expensive, objective, exclusive, sensitive, intensive, talkative, respective, attractive, initiative, aggressive, productive, supportive, decorative, alternative, progressive',
             width: 120
           },
           '# -less words',
           {
             type: 'sitewords',
-            text:
-              'meaningless, hopeless, homeless, mindless, endless, useless, jobless, ageless, wireless, homeless, careless, fearless, powerless, pointless, paperless, toothless, regardless, effortless',
+            text: 'meaningless, hopeless, homeless, mindless, endless, useless, jobless, ageless, wireless, homeless, careless, fearless, powerless, pointless, paperless, toothless, regardless, effortless',
             width: 120
           },
           '# -ly words',
           {
             type: 'sitewords',
-            text:
-              'softly, slowly, happily, crazily, madly, largely, monthly, heavily, readily, actually, directly, friendly, honestly, famously, generally, certainly, perfectly, naturally, frequently, originally, especially, relatively, immediately, accordingly, effectively',
+            text: 'softly, slowly, happily, crazily, madly, largely, monthly, heavily, readily, actually, directly, friendly, honestly, famously, generally, certainly, perfectly, naturally, frequently, originally, especially, relatively, immediately, accordingly, effectively',
             width: 120
           },
           '# -ship words',
           {
             type: 'sitewords',
-            text:
-              'friendship, membership, citizenship, hardship, leadership, fellowship, readership, ownership',
+            text: 'friendship, membership, citizenship, hardship, leadership, fellowship, readership, ownership',
             width: 120
           },
           '# -wards words',
@@ -618,8 +595,7 @@ discussion, discover, disable, dislike`
           '# -age words',
           {
             type: 'sitewords',
-            text:
-              'marriage, orphanage, outage, drainage, storage, teenage, mileage, encourage, percentage, discourage, pilgrimage',
+            text: 'marriage, orphanage, outage, drainage, storage, teenage, mileage, encourage, percentage, discourage, pilgrimage',
             width: 120
           },
           '# -wise words',
@@ -631,22 +607,19 @@ discussion, discover, disable, dislike`
           '# -ness words',
           {
             type: 'sitewords',
-            text:
-              'heaviness, highness, sickness, rudeness, happiness, fitness, illness, sadness, weakness, kindness, laziness, thickness, brightness',
+            text: 'heaviness, highness, sickness, rudeness, happiness, fitness, illness, sadness, weakness, kindness, laziness, thickness, brightness',
             width: 120
           },
           '# -ate words',
           {
             type: 'sitewords',
-            text:
-              'collaborate, mediate, create, eradicate, detonate, passionate, fortunate, approximate, negotiate, interrogate, congratulate, discriminate, differentiate, estimate',
+            text: 'collaborate, mediate, create, eradicate, detonate, passionate, fortunate, approximate, negotiate, interrogate, congratulate, discriminate, differentiate, estimate',
             width: 120
           },
           '# -cal words',
           {
             type: 'sitewords',
-            text:
-              'musical, technical, practical, logical, periodical, electrical, historical, grammatical',
+            text: 'musical, technical, practical, logical, periodical, electrical, historical, grammatical',
             width: 120
           }
         ]
@@ -1312,8 +1285,7 @@ attach, ment, ness`
           'There are many words that have both prefix and suffix. Find below some words list. Get familiar with them.',
           {
             type: 'sitewords',
-            text:
-              'deactivation,  deforestation,  disability,  disappointment,  discovering,  dishonestly,  disloyalty,  disqualified,  empowerment,  encouragement,  enjoyment,  fulfillment,  illegally,  immaturity,  immeasurable,  improvement,  investment,  irregularly,  irresponsible,  irreversible,  misbehavior,  misleading,  misspelling, overcoming,  overcooked,  precautious,  preplaning,  reappearance,  rearrangement,  recalled,  recollection,  recovering,  refreshment,  replacement,  representation,  reproductive,  returning,  unbelievable,  unbreakable,  understanding,  undoubtedly,  unfortunately,  unfriendly,  unhappiness,  unlikable,  unmistakeable,  unpredictable,  unproductive,  unselfishly,  unsuccessful,  unwilling',
+            text: 'deactivation,  deforestation,  disability,  disappointment,  discovering,  dishonestly,  disloyalty,  disqualified,  empowerment,  encouragement,  enjoyment,  fulfillment,  illegally,  immaturity,  immeasurable,  improvement,  investment,  irregularly,  irresponsible,  irreversible,  misbehavior,  misleading,  misspelling, overcoming,  overcooked,  precautious,  preplaning,  reappearance,  rearrangement,  recalled,  recollection,  recovering,  refreshment,  replacement,  representation,  reproductive,  returning,  unbelievable,  unbreakable,  understanding,  undoubtedly,  unfortunately,  unfriendly,  unhappiness,  unlikable,  unmistakeable,  unpredictable,  unproductive,  unselfishly,  unsuccessful,  unwilling',
             width: 120
           }
         ]
@@ -1354,7 +1326,7 @@ appear, re, de, ance, ness
 honest, dis, un, ly, ment
 product, re, ill, ive, ly`,
 
-        `present, re, de, ation, tive
+        `present, re, de, ation, ly
 break, un, dis, able, tion
 legal, il, un, ly, ty
 regular, ir, dis, ly, ed

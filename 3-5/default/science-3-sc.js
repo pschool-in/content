@@ -324,10 +324,10 @@ molar | Molar`
       id: 'guess-animal',
       label: 'Guess the Animals',
       type: 'dragAndDrop',
+      onlyBigScreen: true,
       data: {
         img: 'guess-animal.jpg',
         title: 'Guess the Animals',
-        onlyBigScreen: true,
         width: 700,
         height: 382,
         wordWidth: 70,

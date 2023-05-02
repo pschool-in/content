@@ -88,9 +88,9 @@ Be careful *with (in, on) * the glasses.`
       type: 'match',
       label: 'Match Subjects and Predicates',
       id: 'subject-predicate',
+      onlyBigScreen: true,
       data: {
         title: 'Match Subjects and Predicates.',
-        onlyBigScreen: true,
         text: `The two year old girl, cried when her mom took her toy.
 The baby calf, mooed at its mother.
 The crank old man, fussed at the bus driver.
@@ -139,22 +139,22 @@ My purse has been stolen.`
       },
       data: [
         `Jim wrote a letter. |  a letter was written by Jim
-        Lata sings lovely songs. | lovely songs are sung by Lata
-        Tom is building a house. | a house is being built by Tom
-        They will run a race. | a race will be run by them 
-        I am writing a letter. | a letter was being written by me`,
+Lata sings lovely songs. | lovely songs are sung by Lata
+Tom is building a house. | a house is being built by Tom
+They will run a race. | a race will be run by them 
+I am writing a letter. | a letter was being written by me`,
 
         `He ate an apple. | an apple was eaten by him
-        He is eating an apple. | an apple is being eaten by him
-        He eats an apple. | an apple is eaten by him
-        He helps me. | I am helped by him
-        He is helping me. | I am being helped by him`,
+He is eating an apple. | an apple is being eaten by him
+He eats an apple. | an apple is eaten by him
+He helps me. | I am helped by him
+He is helping me. | I am being helped by him`,
 
         `Mr John teaches poor people. | poor people are taught by Mr John
-        The doctor was examining him. | he was being examined by the doctor
-        Sita is planting new trees. | new trees are being planted by Sita
-        Our dog chased the cat. | the cat was chased by our dog
-        The company released a new product. | a new product was released by the company `
+The doctor was examining him. | he was being examined by the doctor
+Sita is planting new trees. | new trees are being planted by Sita
+Our dog chased the cat. | the cat was chased by our dog
+The company released a new product. | a new product was released by the company `
       ]
     },
     {
@@ -168,22 +168,22 @@ My purse has been stolen.`
       },
       data: [
         `"I am going to the store", said John. |  John said that he was going to the store
-        "I love ice-cream", exclaimed Sarah. | Sarah exclaimed that she loved ice-cream
-        "The concert starts at 7 PM," announced the event organizer. | the event organizer announced that the concert will start at 7PM
-        "I enjoy reading books," confessed Ruby. | Ruby confessed that she enjoyed reading books.
-        "I will be there on time," promised Emily. | Emily promised that she would be there on time`,
+"I love ice-cream", exclaimed Sarah. | Sarah exclaimed that she loved ice-cream
+"The concert starts at 7 PM," announced the event organizer. | the event organizer announced that the concert will start at 7PM
+"I enjoy reading books," confessed Ruby. | Ruby confessed that she enjoyed reading books.
+"I will be there on time," promised Emily. | Emily promised that she would be there on time`,
 
         `"I am sorry for being late," apologized Mike. | Mike apologized for being late
-        "I don't like carrot," declared Mark. | Mark declared that he didn't like carrot
-        "What's your favorite color?" asked Sita. | Sita asked what our favorite color was
-        "I'm really tired," said Peter. | Peter said that he was really tired
-        "I liked the movie," said Ravi. | Ravi said that he liked the movie`,
+"I don't like carrot," declared Mark. | Mark declared that he didn't like carrot
+"What's your favorite color?" asked Sita. | Sita asked what our favorite color was
+"I'm really tired," said Peter. | Peter said that he was really tired
+"I liked the movie," said Ravi. | Ravi said that he liked the movie`,
 
         `"I'll phone you tomorrow," he said. | he said he'd phone me the next day
-        "My father works in a bank," Priya said. | Priya said that her father worked in a bank
-        "The baby's sleeping!", she said. | She told that the baby is sleeping.
-        "I've hurt my leg", he said. | He said that she'd hurt her leg.
-        "It was raining all day", she said. | She told me it had been raining all day`
+"My father works in a bank," Priya said. | Priya said that her father worked in a bank
+"The baby's sleeping!", she said. | She told that the baby is sleeping.
+"I've hurt my leg", he said. | He said that she'd hurt her leg.
+"It was raining all day", she said. | She told me it had been raining all day`
       ]
     }
   ]
