@@ -31,13 +31,13 @@ export default {
           },
           `=> Compounds words can also be classified as the following:
 1. Compound nouns: These are nouns formed by combining two or more words.
-Examples: toothbrush, sunglasses, teapot, birthday.
+Eg: toothbrush, sunglasses, teapot, birthday.
 2. Compound adjectives: These are adjectives formed by combining two or more words.
-Examples: red-hot, well-known, high-speed, open-minded.
+Eg: red-hot, well-known, high-speed, open-minded.
 3. Compound verbs: These are verbs formed by combining two or more words.
-Examples: drive-in, break up, turn off, pick up.
+Eg: drive-in, break up, turn off, pick up.
 4. Compound prepositions: These are prepositions formed by combining two or more words.
-Examples: according to, because of, in spite of, out of.`
+Eg: according to, because of, in spite of, out of.`
         ]
       }
     },
@@ -82,7 +82,7 @@ I'm something you use to keep food fresh, but I'm not a fridge. What am I? |Tupp
 I'm something you can use to clean the floor, but I'm not a broom. What am I? |Dustpan| D___pan`
       ]
     },
-    {
+    /* {
       type: 'group',
       label: 'Closed or Open',
       id: 'closed-open',
@@ -141,6 +141,24 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
           `video game, waiting room, washing machine, web page.`
         ]
       ]
+    },*/
+    {
+      label: 'Closed or Open',
+      type: 'group',
+      id: 'closed-open',
+      data: {
+        title: 'Classify the following words as closed or open compound words',
+        types: [
+          {
+            name: 'Closed compound word',
+            text: 'toothbrush, sunglasses, teapot, birthday'
+          },
+          {
+            name: 'Open compound word',
+            text: 'book store, black eye, cell phone'
+          }
+        ]
+      }
     },
     {
       label: 'Noun or Adjective',
@@ -150,8 +168,8 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
         title: 'Classify the following as compound noun or compound adjective.',
         types: [
           {
-            name: 'Noun',
-            text: 'toothbrush, sunglasses, teapot, birthday'
+            name: 'Closed compound word',
+            text: 'anybody, everybody, nobody, somebody, anyone'
           },
           {
             name: 'Adjective',
@@ -191,22 +209,22 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
 1. Most comparative and superlative degrees are made by adding -er and -est. If the adjective ends in -e, only then -r and -st are added.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: sweet -> sweet<b>er</b> -> sweet<b>est</b>; safe -> saf<b>er</b> -> saf<b>est</b>; dark -> dark<b>er</b> -> dark<b>est</b>`
+            text: `Eg: sweet -> sweet<b>er</b> -> sweet<b>est</b>; safe -> saf<b>er</b> -> saf<b>est</b>; dark -> dark<b>er</b> -> dark<b>est</b>`
           },
           `2. Adjectives ending in y, drop the -y and take -ier and -iest.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: crazy -> craz<b>ier</b> -> craz<b>iest</b>; early  -> earl<b>ier</b> -> earl<b>iest</b>; happy -> happ<b><ier</b> -> happ<b>iest</b>`
+            text: `Eg: crazy -> craz<b>ier</b> -> craz<b>iest</b>; early  -> earl<b>ier</b> -> earl<b>iest</b>; happy -> happ<b><ier</b> -> happ<b>iest</b>`
           },
           `3. In some adjectives that have just one syllable, the last consonant is doubled.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: thin —> thi<b>nner</b> —> thi<b>nnest</b>; sad —> sa<b>dder</b> -> sa<b>ddest</b>; dim -> di<b>mmer</b> -> di<b>mmest</b>`
+            text: `Eg: thin —> thi<b>nner</b> —> thi<b>nnest</b>; sad —> sa<b>dder</b> -> sa<b>ddest</b>; dim -> di<b>mmer</b> -> di<b>mmest</b>`
           },
           `4. Adjectives that have more than two or three syllables take more and most to make comparative and superlative degrees. These include adjectives that end in -ed, -ful, -less, -ing, etc.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: excited -> <b>more</b> excited —> <b>most</b> excited; useful —> <b>more</b> useful -> <b>most</b> useful`
+            text: `Eg: excited -> <b>more</b> excited —> <b>most</b> excited; useful —> <b>more</b> useful -> <b>most</b> useful`
           }
         ]
       }
@@ -242,47 +260,8 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
       }
     },
     {
-      id: 'fill-up-comparisson',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blanks with the most appropriate degree of comparison in the following sentences.`
-      },
-      data: [
-        `Athiya is *smarter (smartest)* than most of her friends.
-Nobody is as *good (best)* as you.
-Priya was the *most elegant (more elegant)* of all.
-Harminder is *taller (tallest)* than her brother.
-The most recent movie was *excellent (excellenter)*.`,
-
-        `Mount Everest is the *highest (higher)* peak.
-Woody is the *most watched (watched more)* series.
-Sreya is *happier (happy)* than Tina.
-Arhan is a *patient (patienter)* kid.
-These maths problems are *easy (easiest)*.`,
-
-        `This flower is *prettier (pretty)* than that one.
-My sister is *more intelligent (intelligent)* than me.
-Who is the *tallest (most tall)* in your class?
-She is the *best (most good)* of all the singers in the competition.
-This is the *most expensive (expensive)* restaurant I have ever been to.`,
-
-        `My uncle's house is *bigger (big)* than mine.
-That was the *most surprising (most surprised)* news I had ever heard.
-This dress is *more beautiful (beautiful)* than the one I saw yesterday.
-The *best (better)* players in the team are my brother and John.
-The *best (good)* time to plant a tree was twenty years ago.`,
-
-        `This problem is *more complicated (complicated)* than I thought.
-This laptop is *faster (more fast)* than my old one.
-She is *shorter (short)* than him.
-She is *better (more good)* at singing than her sister.
-He is *more skilled (more skill)* at math than me.`
-      ]
-    },
-    {
       id: 'comparisson-2',
-      label: 'Degrees of Comparisson',
+      label: 'Fillup',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -328,8 +307,47 @@ Many, *More*, Most`
       ]
     },
     {
-      id: 'fillup-comp-2',
+      id: 'fill-up-comparisson',
       label: 'Fill in the blanks',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks with the most appropriate degree of comparison in the following sentences.`
+      },
+      data: [
+        `Athiya is *smarter (smartest)* than most of her friends.
+Nobody is as *good (best)* as you.
+Priya was the *most elegant (more elegant)* of all.
+Harminder is *taller (tallest)* than her brother.
+The most recent movie was *excellent (excellenter)*.`,
+
+        `Mount Everest is the *highest (higher)* peak.
+Woody is the *most watched (watched more)* series.
+Sreya is *happier (happy)* than Tina.
+Arhan is a *patient (patienter)* kid.
+These maths problems are *easy (easiest)*.`,
+
+        `This flower is *prettier (pretty)* than that one.
+My sister is *more intelligent (intelligent)* than me.
+Who is the *tallest (most tall)* in your class?
+She is the *best (most good)* of all the singers in the competition.
+This is the *most expensive (expensive)* restaurant I have ever been to.`,
+
+        `My uncle's house is *bigger (big)* than mine.
+That was the *most surprising (most surprised)* news I had ever heard.
+This dress is *more beautiful (beautiful)* than the one I saw yesterday.
+The *best (better)* players on the team are my brother and John.
+The *best (good)* time to plant a tree was twenty years ago.`,
+
+        `This problem is *more complicated (complicated)* than I thought.
+This laptop is *faster (more fast)* than my old one.
+She is *shorter (short)* than him.
+She is *better (more good)* at singing than her sister.
+He is *more skilled (more skill)* at math than me.`
+      ]
+    },
+    {
+      id: 'fillup-comp-2',
+      label: 'Fill in the blanks - 2',
       type: 'fillup',
       commonData: {
         noOptions: true,

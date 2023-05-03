@@ -17,13 +17,13 @@ export default {
 4. Turned a deaf ear: disregarded.
 5. Under the weather: feeling ill or unwell.
 6. Getting cold feet: feeling nervous or hesitant about something, usually a big decision or event.
-7. The apple of my eye refers to someone who is cherished above all others, often a loved one.
+7. The apple of my eye: refers to someone who is cherished above all others, often a loved one.
 8. Set the record straight: to clarify or correct any misunderstandings or misrepresentations.
 9. Trying to kill two birds with one stone: attempting to accomplish two things at the same time.
 10. Hang in there: to persevere or hold on during a difficult situation.
 11. Cut corners: to take shortcuts or reduce quality in order to save time or money.
 12. Call it a day: to stop working or end activity for the day.
-13. Better late than never: it is better to do something late than to never do it at all.
+13. Let the cat out of the bag : to reveal a secret or information that was meant to be kept confidential.
 14. A blessing in disguise: a seemingly negative event or situation that ultimately results in a positive outcome.
 15. Worth its weight in gold: something that is very valuable or useful.
 16. Stand strong and weather the storm: to persevere and endure through difficult times.
@@ -31,7 +31,7 @@ export default {
 18. Get your act together: to organize oneself and get one's life or behavior in order.
 19. Cost an arm and a leg: something that is extremely expensive.
 20. On top of the world: to feel extremely happy or successful.
-21. Time is money: that time is a valuable resource and should not be wasted.
+21. Judge a book by its cover: To form an opinion about something or someone based on their appearance or first impression.
 22. Out of hand: something that is out of control or has become too extreme.
 23. Off the hook: to escape or avoid punishment or blame.
 24. Riding a bicycle: doing something that is easy or comes naturally, often due to practice or experience.
@@ -40,7 +40,7 @@ export default {
 27. Get the show on the road: to begin or start a task or project.
 28. Miss the boat: to miss an opportunity or chance.
 29. Pulling his leg: joking with someone by telling a lie.
-30. No pain, no gain: nothing worth having comes without effort.
+30. Biting off more than he can chew: To take on more responsibilities or tasks than one can handle.
 31. See eye to eye: to agree or share the same opinion.
 32. Wear heart on one's sleeve: to openly express one's emotions or feelings.
 33. Burning bridges: to damage a relationship beyond repair.
@@ -67,113 +67,111 @@ export default {
           questions: [
             {
               qText:
-                'After he realized he was wrong, he had *to eat humble pie* and apologize to his coworker. What does "eat humble pie" mean?',
+                'After he realized he was wrong, he had to *eat humble pie*.',
               options: `To apologize humbly
-                To celebrate a victory
-                To boast about oneself`
+    To celebrate a victory
+    To boast about oneself`
             },
             {
               qText:
-                'He had to eat his words and take back what he said about her. What does "eat your words" mean?',
+                'As everybody was unhappy with his suggestion, he had to *eat his words*',
               options: `To take back what you have said
-                To repeat what you have said
-                To stand by what you have said`
+    To repeat what you have said
+    To stand by what you have said`
             },
             {
-              qText:
-                'We decided to meet halfway and compromise on the project. What does "meet you halfway" mean?',
+              qText: 'We decided to *meet halfway* on the project.',
               options: `To come to a compromise 
-                To agree completely 
-                To disagree`
+    To agree completely 
+    To disagree`
             },
             {
-              qText:
-                'Despite our warnings, he turned a deaf ear to our advice. What does "turned a deaf ear" mean?',
+              qText: 'Despite our warnings, he *turned a deaf ear* to us.',
               options: `Disregarded
-                Listened attentively
-                Followed closely`
+    Listened attentively
+    Followed closely`
             },
             {
-              qText: `She couldn't come to work today because she was feeling under the weather. What does "under the weather" mean?`,
+              qText: `She couldn't come to work today because she was feeling *under the weather*.`,
               options: `Feeling ill or unwell
-              Feeling happy and healthy
-              Feeling tired but well`
+  Feeling happy and healthy
+  Feeling tired but well`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `He was getting cold feet about his wedding and wasn't sure if he wanted to go through with it. What does "getting cold feet" mean?`,
+              qText: `He was *getting cold feet* about his performance in the youth festival.`,
               options: `Feeling nervous or hesitant about something
-              Feeling excited about something
-              Feeling confident about something`
+  Feeling excited about something
+  Feeling confident about something`
             },
             {
               qText:
-                'My daughter is the apple of my eye and I love her more than anything in the world. What does "the apple of my eye" mean?',
+                'Jack spends his evening with his daughter everyday. She is the *apple of his eye*.',
               options: `Someone who is cherished above all others
-              Someone who is disliked by others
-              Someone who is ignored by others`
+  Someone who is disliked by others
+  Someone who is ignored by others`
             },
             {
               qText:
-                'Let me set the record straight and tell you what really happened. What does "set the record straight" mean?',
+                'Let me *set the record straight* about what happened while you were gone.',
               options: `To clarify or correct any misunderstandings or misrepresentations
-              To make a false claim
-              To spread rumors`
+  To make a false claim
+  To spread rumors`
             },
             {
               qText:
-                'She was trying to kill two birds with one stone by finishing her homework and studying for her test at the same time. What does "trying to kill two birds with one stone" mean?',
+                'She was trying to *kill two birds with one stone* by trying to do everything at once.',
               options: `Attempting to accomplish two things at the same time
-              Attempting to accomplish one thing at a time
-             Attempting to accomplish three things at the same time`
+  Attempting to accomplish one thing at a time
+  Attempting to accomplish three things at the same time`
             },
             {
-              qText: `Even though it's tough, you have to hang in there and keep trying. What does "hang in there" mean?`,
+              qText: `Even though it's tough, you have to *hang in there*.`,
               options: `To persevere or hold on during a difficult situation
-              To give up easily
-              To avoid difficult situations`
+  To give up easily
+  To avoid difficult situations`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `The company cut corners on the production process, which resulted in a lower quality product. What does "cut corners" mean in this sentence?`,
+              qText: `The company *cut corners* on the production process, which resulted in a lower quality product.`,
               options: `Take shortcuts
-                Increase quality
+    Increase quality
 Reduce cost
 Improve efficiency`
             },
             {
-              qText: `We've been working for hours, let's call it a day and continue tomorrow. What does "call it a day" mean in this sentence?`,
+              qText: `We've been working for hours, let's *call it a day*.`,
               options: `Stop working for the day
-                Take a break
+    Take a break
 Quit working permanently
 Work overtime`
             },
             {
-              qText: `It took her years to finish her degree, but better late than never. What does "better late than never" mean in this sentence?`,
-              options: `It's better to do something late than to never do it at all.
-It's better to never do something at all than to do it late.
-It's better to finish something early than to do it late.
-It's better to never start something at all.`
-            },
-            {
-              qText: `Losing his job turned out to be a blessing in disguise because it led him to start his own successful business. What does "a blessing in disguise" mean in this sentence?`,
+              qText: `Losing his job turned out to be *a blessing in disguise*.`,
               options: `A situation that appears negative but ultimately results in a positive outcome.
 A situation that appears positive but ultimately results in a negative outcome.
 A situation that is entirely negative.
 A situation that is entirely positive.`
             },
             {
-              qText: `This tool is worth its weight in gold because it saves us so much time and effort. What does "worth its weight in gold" mean in this sentence?`,
+              qText: `This tool is *worth its weight in gold*. It saves us so much time and effort.`,
               options: `Something that is valuable or useful.
-                Something that is heavy and difficult to carry.
-                Something that is cheap and low quality.
-                Something that is unnecessary.`
+    Something that is heavy and difficult to carry.
+    Something that is cheap and low quality.
+    Something that is unnecessary.`
+            },
+            {
+              qText: `To *break the ice* at the party, I started talking about our shared love of hiking.`,
+              options: `To start a conversation in a difficult or awkward situation
+  To melt ice cubes in a drink.
+  To skate on a frozen lake.
+  To literally break a piece of ice.`
             }
           ]
         }
@@ -189,10 +187,40 @@ A situation that is entirely positive.`
       },
       data: [
         `eat humble, pie
-        eat your, words
-        meet you, halfway
-        turned a, deaf ear
-        under the, weather`
+eat your, words
+meet you, halfway
+turned a, deaf ear
+under the, weather`,
+
+        `getting cold, feet
+apple of, my eye 
+set the record, straight
+hang, in there
+cut, corners`,
+
+        `call it, a day
+a blessing, in disguise
+worth its weight, in gold
+a piece of, cake
+get your, act together`,
+
+        `cost an arm, and a leg
+on top of, the world
+out of, hand
+off the, hook
+riding a, bicycle`,
+
+        `not rocket, science
+spilled the, beans
+miss the, boat
+pulling his, leg
+see eye, to eye`,
+
+        `burning, bridges
+every dog has, his day
+go down, in flames
+adding fuel, to the fire
+break the, ice`
       ]
     },
     {
@@ -202,65 +230,41 @@ A situation that is entirely positive.`
       lockAfter: 1,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right set of words to complete the idiom.',
-        printTitle: 'Pick the right set of words to complete the idiom',
+        title: 'Drag and drop the right meaning of the idiom.',
+        printTitle: 'Pick the right meaning of the idiom',
         leftWidth: 125,
         rightWidth: 195,
         fontSize: '1rem'
       },
       data: [
         `eat humble pie, to say sorry, to show respect
-        eat your words, to take back what you said, to keep promise
-        meet you half-way, come to compromise, cancel trip midway
-        turned a deaf ear, didn't listen, didn't respect
-        under the weather, feeling sick, feeling unhappy`,
+eat your words, to take back what you said, to keep promise
+meet you half-way, come to compromise, cancel trip midway
+turned a deaf ear, didn't listen, didn't respect
+under the weather, feeling sick, feeling unhappy`,
 
-        `Eat humble, pie, apple
-        Eat your, words, promise
-        Meet you, halfway, at home
-        Turned a, deaf ear, page
-        Under the, weather, whether
-        Getting cold, feet, arm`,
+        `getting cold feet, feeling nervous, feeling cold
+the apple of my eye, cherished above all, irritating person
+set the record straight, to clarify, to acheive a record
+cut corners, to take shortcuts, cut corners of an item
+hang in there, to persevere, to hang a clothing item `,
 
-        `Apple of, my eye, my tree 
-        Set the record, straight, high
-        Trying to kill, two birds with one stone, two birds
-        Hang, in there, out there
-        Cut, corners, bread
-        Call it, a day, a night
-        Better late, than never, than early`,
+        `call it a day, to stop working, to start working
+worth its weight in gold, very valuable, made of gold
+stand strong and weather the storm, to endure, get rained on
+a piece of cake, effortless, eating desert
+cost an arm and a leg, extremely expensive, meet with an accident`,
 
-        `A blessing, in disguise, for me
-        Worth its weight, in gold, in silver
-        Stand strong and, weather the storm, stay in rain
-        A piece of, cake, bread
-        Get your, act together, books together
-        Cost an arm, and a leg, and elbow`,
+        `on top of the world, extremely happy, go to space
+out of hand, out of control, loose grip
+off the hook, to avoid punishment, catch a fish
+spilled the beans, to reveal a secret, to spill something
+get the show on the road, to begin a task, long drive`,
 
-        `On top of, the world, the house
-        Time is, money, wealth
-        Out of, hand, the house
-        Off the, hook, beat
-        Riding a, bicycle, truck
-        Not rocket, science, fuel`,
-
-        `Spilled the, beans, peas
-        Get the show, on the road, going
-        Miss the, boat, time
-        Pulling his, leg, hair
-        No pain, no gain, gain
-        See eye, to eye, to nose`,
-
-        `Wear heart on, one's sleeve, one's hand
-        Burning, bridges, towns
-        Grass is always greener, on the other side, in my garden
-        Every dog has, his day, his bone
-        Counting the chickens, before they hatch, after they hatch`,
-
-        `Go down, in flames, the stairs
-        Adding fuel, to the fire, to water
-        Walk in, someone's shoes, someone's place
-        Break the, ice, house`
+        `miss the boat, to miss an opportunity, reach late to an event
+go down in flames, to fail embarrassingly, to burn something
+walk in someone's shoes, to empathize, to wear someone else shoes
+break the ice, initiate a conversation, break ice block`
       ]
     },
     {
@@ -319,121 +323,172 @@ A situation that is entirely positive.`
       label: 'Multiple Choice Questions',
       type: 'mcq',
       commonData: {
-        title: 'Multiple Choice Questions'
+        title:
+          'What is the meaning of the highlighted idiom in the below sentence?'
       },
       data: [
         {
           questions: [
             {
               qText:
-                'The coach really put the team on their mettle before the big game. What does "put on their mettle" mean?',
+                'The coach really *put the team on their mettle* before the big game.',
               options: `Encouraged them to give their best effort
-              Forced them to sit out the game
-              Told them to take it easy and not try too hard`
+  Forced them to sit out the game
+  Told them to take it easy and not try too hard`
             },
             {
               qText:
-                'She was determined to win the competition by hook or by crook. What does "by hook or by crook" mean?',
+                'She was determined to win the competition *by hook or by crook*.',
               options: `By any means necessary
-              By playing fair and square
-              By following all the rules and regulations`
+  By playing fair and square
+  By following all the rules and regulations`
             },
             {
-              qText:
-                'He strained every nerve to finish the project on time. What does "strained every nerve" mean?',
+              qText: 'He *strained every nerve* to finish the project on time.',
               options: `Used his utmost efforts
-              Took a break and relaxed
-              Procrastinated and didn't do anything`
+  Took a break and relaxed
+  Procrastinated and didn't do anything`
             },
             {
-              qText: `The two politicians are at loggerheads over the new tax policy. What does "at loggerheads" mean?`,
+              qText: `The two politicians are *at loggerheads* over the new tax policy.`,
               options: `Strongly disagreeing or in conflict with each other
-              Indifferent to each other's opinions
-              In complete agreement with each other`
+  Indifferent to each other's opinions
+  In complete agreement with each other`
             },
             {
-              qText: `With the rise in prices, it's getting harder to make two ends meet. What does "make two ends meet" mean?`,
+              qText: `With the rise in prices, it's getting harder to *make two ends meet*.`,
               options: `Manage finances so that expenses don't exceed income
-              Spend money recklessly
-              Live beyond one's means`
+  Spend money recklessly
+  Live beyond one's means`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `Buying a new car would cost a pretty penny. What does "cost a pretty penny" mean?`,
+              qText: `Buying a new car would *cost a pretty penny*.`,
               options: `To be expensive or costly
-              To be average in price
-              To be inexpensive or cheap`
+  To be average in price
+  To be inexpensive or cheap`
             },
             {
               qText:
-                '"Break a leg!" the director said to the actor before the play. What does "break a leg" mean?',
+                '"*Break a leg*!" the director said to the actor before the play.',
               options: `To wish someone good luck before a performance or competition
-              To hope someone gets injured
-              To criticize someone's performance`
+  To hope someone gets injured
+  To criticize someone's performance`
             },
             {
               qText:
-                'She has been through thick and thin with her best friend. What does "through thick and thin" mean?',
+                'She has been *through thick and thin* with her best friend.',
               options: `To remain loyal and supportive through difficult or challenging times
-              To give up when things get tough
-              To only be there during the good times`
+  To give up when things get tough
+  To only be there during the good times`
             },
             {
-              qText: `He tried to steal his colleague's thunder by presenting the idea as his own. What does "steal someone's thunder" mean?`,
+              qText: `He tried to *steal his colleague's thunder* by presenting the idea as his own.`,
               options: `To take credit for someone else's idea or achievement
-              To give credit where credit is due
-              To ignore someone's contribution`
+  To give credit where credit is due
+  To ignore someone's contribution`
             },
             {
-              qText: `The politician kept beating around the bush when asked about his plans for the economy. What does "beating around the bush" mean?`,
+              qText: `The politician kept *beating around the bush* when asked about his plans for the economy.`,
               options: `To avoid discussing a topic directly or to speak indirectly
-              To talk openly and directly about a topic
-              To be confused about a topic`
+  To talk openly and directly about a topic
+  To be confused about a topic`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `The detective left no stone unturned in his search for the missing girl. What does the idiom "leave no stone unturned" mean in the sentence?`,
+              qText: `The detective *left no stone unturned* in his search for the missing girl.`,
               options: `The detective searched thoroughly for the girl.
-              The detective didn't search for the girl at all.
-              The detective ignored many leads.
+  The detective didn't search for the girl at all.
+  The detective ignored many leads.
 The detective searched for the girl only briefly.`
             },
             {
-              qText: `To cut the long story short, the team won the championship. What does the idiom "cut the long story short" mean in the sentence?`,
+              qText: `To *cut the long story short*, the team won the championship.`,
               options: `The speaker is summarizing the story.
-              The story is too short to tell.
-              The story is too complicated to understand.
-              The speaker is not interested in telling the whole story.`
+  The story is too short to tell.
+  The story is too complicated to understand.
+  The speaker is not interested in telling the whole story.`
             },
             {
-              qText: `Jazz music is not really my cup of tea. What does the idiom "cup of tea" mean in the sentence?`,
+              qText: `Jazz music is not really my *cup of tea*.`,
               options: `I don't like jazz music.
-              I have never tried jazz music.
-              I like to drink tea while listening to jazz music.
-              I prefer jazz music over other types of music.`
+  I have never tried jazz music.
+  I like to drink tea while listening to jazz music.
+  I prefer jazz music over other types of music.`
             },
             {
-              qText: `The manager kept talking about the issue, even though it had already been resolved. What does the idiom "beating a dead horse" mean in the sentence?`,
+              qText: `The manager was *beating a dead horse*, by talking about the faulty products`,
               options: `The manager was discussing an issue that had already been resolved.
-              The manager was hitting a horse.
-              The manager was trying to find a dead horse.
-              The manager was discussing a current issue.`
+  The manager was hitting a horse.
+  The manager was trying to find a dead horse.
+  The manager was discussing a current issue.`
             },
             {
-              qText: `The high crime rate in the city was the elephant in the room that nobody wanted to talk about. What does the idiom "the elephant in the room" mean in the sentence?`,
+              qText: `The high crime rate in the city was *the elephant in the room*.`,
               options: `The city had a large, obvious problem that nobody wanted to acknowledge.
-              The city had a large elephant population.
-              The city had a high crime rate that nobody wanted to talk about.
-              The city had an actual elephant causing problems.`
+  The city had a large elephant population.
+  The city had a high crime rate that nobody wanted to talk about.
+  The city had an actual elephant causing problems.`
             }
           ]
         }
+      ]
+    },
+    {
+      id: 'match-am-br-2',
+      label: 'Match the following',
+      type: 'match',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match the pairs that form a valid idiom'
+      },
+      data: [
+        `put me on, my mettle
+by hook or, by crook
+strained every, nerve
+make two ends, meet
+be at, loggerheads`,
+
+        `cost a, pretty penny
+break a, leg
+through thick, and thin
+beating around, the bush
+steal someone's, thunder`,
+
+        `stick to, his guns
+leave no, stone unturned
+cut the long, story short
+the elephant, in the room
+beating a, dead horse`,
+
+        `cup of, tea
+in a, nutshell
+blame one's, tools
+on thin, ice
+a cold, shoulder`,
+
+        `once bitten, twice shy
+when it rains, it pours
+come rain, or shine
+so far, so good
+get, wind of`,
+
+        `the drop of, a hat
+comparing apples, to oranges
+hear it from, the horse's mouth
+a monkey on, my back
+a wild, goose chase`,
+
+        `raining cats, and dogs
+once in a, blue moon
+ball in, his court
+not worth, his salt,`
       ]
     },
     {
@@ -443,58 +498,30 @@ The detective searched for the girl only briefly.`
       lockAfter: 1,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right set of words to complete the idiom.',
-        printTitle: 'Pick the right set of words to complete the idiom',
-        leftWidth: 75,
-        rightWidth: 245
+        title: 'Drag and drop the right meaning of the idiom.',
+        printTitle: 'Pick the right meaning of the idiom',
+        leftWidth: 125,
+        rightWidth: 195,
+        fontSize: '1rem'
       },
       data: [
-        `Put me on, my mettle, my kettle
-        By hook or, by crook, by creek
-        Strained every, nerve, hair
-        Make two ends, meet, set
-        Be at, loggerheads, home
-        Cost a, pretty penny, penny`,
+        ` by hook or by crook, by any means, buy a hook
+be at loggerheads, be in conflict, physical fight
+cost a pretty penny, costly, pretty coin
+break a leg, good luck, fractured leg
+leave no stone unturned, search thoroughly, under a stone`,
 
-        `Break a, leg, arm
-        Through thick, and thin, thin
-        Beating around, the bush, the sandbag
-        Steal someone's, thunder, lunch
-        Stick to, his guns, his friends
-        Leave no, stone unturned, stone turned`,
+        `cut the long story short, to summarize, leave something out
+on thin ice, in a risky situation, stand on ice
+a cold shoulder, to ignore, use an ice pack
+drop of a hat, without hesitation, drop a hat
+get wind of, find out something, mild breeze`,
 
-        `Cut the long, story short, story
-        Cup of, tea, lemonade
-        Beating a, dead horse, horse
-        The elephant, in the room, in the park 
-        In a, nutshell, shell
-        Blame one's, tools, fate`,
-
-        `On thin, ice, skin
-        A cold, shoulder, arm
-        Cannot make an omelet, without breaking some eggs, with eggs
-        Once bitten, twice shy, thrice shy
-        When it rains, it pours, it drizziles
-        Come rain, or shine, or strom`,
-
-        `So far, so good, so bad
-        Comparing apples, to oranges, to mangoes
-        Jumping off the frying pan, into the fire, into the stove
-        No use crying over, spilled milk, spoiled food
-        The drop of, a hat, a feather
-        Get, wind of, help`,
-
-        `Hear it from, the horse's mouth, the master
-        A monkey on, my back, in my house
-        A wild, goose chase, dog chase
-        Raining cats, and dogs, and monkeys
-        Once in a, blue moon, yaer
-        Barking up, the wrong tree, a tree`,
-
-        `Ball in, his court, the net
-        The devil, quoting the Bible, quotes
-        Devil's in, the details, the deeds
-        Not worth, his salt, salt`
+        `a monkey on my back, a burden, carry a monkey
+wild goose chase, hopeless pursuit, chase a goose
+raining cats and dogs, heavy rainstorm, crowded with pets
+once in a blue moon, rare even, happening regurarly
+not worth his salt, quite worthless, worthy of something`
       ]
     },
     {
@@ -505,7 +532,7 @@ The detective searched for the girl only briefly.`
         title: 'Idioms',
         text: [
           `Examples of some idioms are given below: 
-          1. Set his face against : sternly opposed.
+1. Set his face against : sternly opposed.
 2. Won his laurels : acquired distinction or glory.
 3. Broke my bubble : a realization or event that shatters one's confidence or optimism.
 4. Walking on eggshells : being cautious or careful with someone or something, often because they are sensitive or easily upset.
@@ -514,29 +541,26 @@ The detective searched for the girl only briefly.`
 7. Blue in the face : to talk or argue excessively without making any progress or achieving any results.
 8. Speak of the devil is an expression used when someone appears just after they have been mentioned.
 9. Let sleeping dogs lie : to leave a situation alone and not to provoke or stir up any trouble.
-10. Let the cat out of the bag : to reveal a secret or information that was meant to be kept confidential.
-11. Which way the wind blows : to be uncertain or unsure about something, often due to changing circumstances or opinions.
-12. Hit the nail on the head : to accurately identify or address a problem or issue.
-13. Pull the last straw : to reach a breaking point or a limit of tolerance.
-14. The ship has sailed : that an opportunity has passed and cannot be regained.
-15. It is always the darkest before dawn : that things often seem the bleakest just before they improve.
-16. Head in the clouds : to be unrealistic or dreamy, often to the point of ignoring practical considerations.
-17. It takes two to tango: both parties are responsible for a situation or problem.
-18. Pigs would fly: something that is impossible or unlikely to happen.
-19. Curiosity killed the cat: being too curious or prying can lead to harm.
-20. The best of both worlds: to have the advantages of two different things at the same time.
-21. Sell the whole nine yards: to give all the available information or effort.
-22. Wrap her head around the fact: to understand or accept a fact.
-23. Fit as a fiddle: to be in good physical health.
-24. Believe everyone with a pinch of salt: to be skeptical of what people say and not accept everything at face value.
-25. Pain in the neck: something or someone that is annoying or causes trouble.
-26. Raining on someone's parade: To spoil someone's plans or enthusiasm.
-27. Skin of his teeth: To barely escape a difficult or dangerous situation.
-28. Putting all his eggs in one basket: To risk everything on one plan or course of action.
-29. Every cloud has a silver lining: Every difficult or negative situation has apositive aspect.
-30. The devil's advocate: A person who argues against a certain point of view, not necessarily because they believe in it, but to provoke discussion and challenge assumptions.
-31. Judge a book by its cover: To form an opinion about something or someone based on their appearance or first impression.
-32. Biting off more than he can chew: To take on more responsibilities or tasks than one can handle.`
+10. Which way the wind blows : to be uncertain or unsure about something, often due to changing circumstances or opinions.
+11. Hit the nail on the head : to accurately identify or address a problem or issue.
+12. Pull the last straw : to reach a breaking point or a limit of tolerance.
+13. The ship has sailed : that an opportunity has passed and cannot be regained.
+14. It is always the darkest before dawn : that things often seem the bleakest just before they improve.
+15. Head in the clouds : to be unrealistic or dreamy, often to the point of ignoring practical considerations.
+16. It takes two to tango: both parties are responsible for a situation or problem.
+17. Pigs would fly: something that is impossible or unlikely to happen.
+18. Curiosity killed the cat: being too curious or prying can lead to harm.
+19. The best of both worlds: to have the advantages of two different things at the same time.
+20. Sell the whole nine yards: to give all the available information or effort.
+21. Wrap her head around the fact: to understand or accept a fact.
+22. Fit as a fiddle: to be in good physical health.
+23. Believe everyone with a pinch of salt: to be skeptical of what people say and not accept everything at face value.
+24. Pain in the neck: something or someone that is annoying or causes trouble.
+25. Raining on someone's parade: To spoil someone's plans or enthusiasm.
+26. Skin of his teeth: To barely escape a difficult or dangerous situation.
+27. Putting all his eggs in one basket: To risk everything on one plan or course of action.
+28. Every cloud has a silver lining: Every difficult or negative situation has apositive aspect.
+29. The devil's advocate: A person who argues against a certain point of view, not necessarily because they believe in it, but to provoke discussion and challenge assumptions.`
         ]
       }
     },
@@ -545,42 +569,43 @@ The detective searched for the girl only briefly.`
       label: 'Multiple Choice Questions',
       type: 'mcq',
       commonData: {
-        title: 'Multiple Choice Questions'
+        title:
+          'What is the meaning of the highlighted idiom in the below sentence?'
       },
       data: [
         {
           questions: [
             {
               qText:
-                'Despite our pleas, the boss has set his face against granting us any additional time off this year. What does "set his face against" mean in this sentence?',
+                'Despite our pleas, the boss has *set his face against* granting us any additional time off this year.',
               options: `He is sternly opposed to our request.
-              He has agreed to our request.
+  He has agreed to our request.
 He is indifferent to our request.`
             },
             {
               qText:
-                'After years of hard work, Tom finally won his laurels when he was awarded the Nobel Prize. What does "won his laurels" mean in this sentence?',
+                'After years of hard work, Tom finally *won his laurels*. ',
               options: `He achieved distinction or glory.
-              He lost his reputation.
-              He gained popularity.`
+  He lost his reputation.
+  He gained popularity.`
             },
             {
               qText:
-                'The negative feedback from the critics broke my bubble and made me realize that my novel was not as good as I thought it was. What does "broke my bubble" mean in this sentence?',
+                'The negative feedback from the critics *broke my bubble*.',
               options: `It shattered my confidence or optimism.
-              It made me feel happy.
-              It confirmed my expectations.`
+  It made me feel happy.
+  It confirmed my expectations.`
             },
             {
-              qText: `I have to be careful around my boss because he's easily offended, so I'm constantly walking on eggshells. What does "walking on eggshells" mean in this sentence?`,
+              qText: `My boss because is easily offended, so I'm constantly *walking on eggshells*.`,
               options: `Being cautious or careful with someone or something, often because they are sensitive or easily upset.
-              Being careless and impulsive.
+  Being careless and impulsive.
 Being comfortable and relaxed.`
             },
             {
-              qText: `The surgery was going to be painful, but John knew he had to bite the bullet and go through with it. What does "bite the bullet" mean in this sentence?`,
+              qText: `The surgery was going to be painful, but John knew he had to *bite the bullet* and go through with it.`,
               options: `To endure or face something difficult or unpleasant with courage and determination.
-              To avoid or postpone something difficult.
+  To avoid or postpone something difficult.
 To give up and accept defeat.`
             }
           ]
@@ -588,72 +613,105 @@ To give up and accept defeat.`
         {
           questions: [
             {
-              qText: `Despite the success of the company, there were some clouds on the horizon, including increasing competition and a changing market. What does "clouds on the horizon" mean in this sentence?`,
+              qText: `Despite the success of the company, there were *some clouds on the horizon*.`,
               options: `That there are potential problems or challenges ahead.
-              That the company is doing very well.
-              That the sky is overcast with clouds.`
+  That the company is doing very well.
+  That the sky is overcast with clouds.`
             },
             {
-              qText: `I've been trying to convince my friend to quit smoking for years, but he just argues with me until I'm blue in the face. What does "blue in the face" mean in this sentence?`,
+              qText: `I've been trying to convince my friend to quit smoking for years, but he just argues with me until I'm *blue in the face*. `,
               options: `To talk or argue excessively without making any progress or achieving any results.
-              To turn pale with fright.
-              To become angry and aggressive.`
+  To turn pale with fright.
+  To become angry and aggressive.`
             },
             {
               qText:
-                '"Speak of the devil," Sarah said as her friend walked into the room. What does "speak of the devil" mean in this sentence?',
+                '"*Speak of the devil*," Sarah said as her friend walked into the room.',
               options: `To talk about a person who is not present.
-              To talk about something that is not relevant.
-              To use bad language.`
+  To talk about something that is not relevant.
+  To use bad language.`
             },
             {
-              qText: `I know you want to confront your boss about the mistake he made, but it's better to let sleeping dogs lie and avoid causing any trouble. What does the idiom "let sleeping dogs lie" mean?`,
+              qText: `I know you want to confront your boss about the mistake he made, but it's better to *let sleeping dogs lie*.`,
               options: `To leave a situation alone and not provoke any trouble
-              To ignore a problem and hope it goes away
-              To create trouble and stir up conflict`
+  To ignore a problem and hope it goes away
+  To create trouble and stir up conflict`
             },
             {
-              qText: `After hours of discussion, the team finally hit the nail on the head and came up with a solution that satisfied everyone. What does the idiom "hit the nail on the head" mean?`,
+              qText: `After hours of discussion, the team finally *hit the nail on the head* and came up with a solution that satisfied everyone.`,
               options: `To accurately identify or address a problem or issue
-              To be unsure or uncertain about something
-              To fail to reach a goal or complete a task`
+  To be unsure or uncertain about something
+  To fail to reach a goal or complete a task`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `The argument between the two friends was not one-sided, and it takes two to tango, so they both need to apologize to each other. What does the idiom "it takes two to tango" mean?`,
+              qText: ` *It takes two to tango*, so they both need to apologize to each other.`,
               options: `Both parties are responsible for a situation or problem
-            A situation can only be resolved by one person
-              A situation can only be resolved by both parties working together`
+A situation can only be resolved by one person
+  A situation can only be resolved by both parties working together`
             },
             {
-              qText: `Losing my job was devastating, but every cloud has a silver lining, and I finally have the opportunity to start my own business. What does the idiom "every cloud has a silver lining" mean?`,
+              qText: `Losing my job was devastating, but *every cloud has a silver lining*.`,
               options: `Every difficult situation has a positive aspect
-              Every difficult situation is hopeless and without any positive outcome
-              Every difficult situation can be overcome by positive thinking`
+  Every difficult situation is hopeless and without any positive outcome
+  Every difficult situation can be overcome by positive thinking`
             },
             {
-              qText: `Sarah accidentally let the cat out of the bag about the surprise party and ruined the surprise. What does the idiom "let the cat out of the bag" mean in this sentence?`,
+              qText: `Sarah *let the cat out of the bag* before they could surprise her.`,
               options: `To reveal a secret or information that was meant to be kept confidential.
-              To catch a cat that has escaped.
-              To tease someone about a secret.`
+  To catch a cat that has escaped.
+  To tease someone about a secret.`
             },
             {
-              qText: `When Jane suggested that the issue was a lack of communication, she hit the nail on the head. What does the idiom "hit the nail on the head" mean in this sentence?`,
-              options: `To address a problem accurately.
-              To be physically injured.
-              To solve a problem easily.`
-            },
-            {
-              qText: `The constant bickering was enough to make John pull the last straw and quit his job. What does the idiom "pull the last straw" mean in this sentence?`,
+              qText: `The constant bickering was enough to make John *pull the last straw* and quit his job.`,
               options: `To reach a breaking point or a limit of tolerance.
-              To make a final decision.
-              To take on too much responsibility.`
+  To make a final decision.
+  To take on too much responsibility.`
             }
           ]
         }
+      ]
+    },
+    {
+      id: 'match-am-br-3',
+      label: 'Match the following',
+      type: 'match',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match the pairs that form a valid idiom'
+      },
+      data: [
+        `set his, face against
+won his, laurels
+broke my, bubble
+walking on, eggshells
+bite the, bullet`,
+
+        `clouds on the, horizon
+blue in the, face
+speak of the, devil
+let sleeping, dogs lie
+which way the, wind blows`,
+
+        `hit the nail, on the head
+pull the, last straw
+the ship, has sailed
+head in the, clouds
+it takes, two to tango`,
+
+        `pigs would, fly, dance
+curiosity killed, the cat
+the best of, both worlds
+sell the whole, nine yards
+wrap her head, around the fact`,
+
+        `fit as a, fiddle
+pain in the, neck
+skin of his, teeth
+the devil's, advocate`
       ]
     },
     {
@@ -663,46 +721,30 @@ To give up and accept defeat.`
       lockAfter: 1,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right set of words to complete the idiom.',
-        printTitle: 'Pick the right set of words to complete the idiom',
-        leftWidth: 75,
-        rightWidth: 245
+        title: 'Drag and drop the right meaning of the idiom.',
+        printTitle: 'Pick the right meaning of the idiom',
+        leftWidth: 125,
+        rightWidth: 195,
+        fontSize: '1rem'
       },
       data: [
-        `Set his, face against, face 
-        Won his, laurels, battle 
-        Broke my, bubble, pen 
-        Walking on, eggshells, flowerbed 
-        Bite the, bullet, apple 
-        Clouds on the, horizon, sky `,
+        `set his face against, sternly opposed, in alliance
+won his laurels, acquired glory, start a war
+walking on eggshells, being cautious, break eggs
+bite the bullet, to endure, to let go 
+clouds on the horizon, challenges ahead, end of line`,
 
-        `Blue in the, face, dark 
-        Speak of the, devil, glory 
-        Let sleeping, dogs lie, cats lie 
-        Let the cat, out of the bag, out 
-        Which way the, wind blows, duck goes 
-        Hit the nail, on the head, on the hammer `,
+        `which way the wind blows, to be uncertain, to live with it
+hit the nail on the head, address a problem, hit a nail
+pull the last straw, reach a breaking point, pick up a straw
+ship has sailed, opportunity has passed, missed a boat
+head in the clouds, dreamy, up in the sky`,
 
-        `Pull the, last straw, last string 
-        The ship, has sailed, has sung 
-        It is always the, darkest before dawn, brightest before dawn 
-        Head in the, clouds, sky 
-        It takes, two to tango, three to tango
-        Pigs would, fly, dance`,
-
-        `Curiosity killed, the cat, the dog
-        The best of, both worlds, the books
-        Sell the whole, nine yards, five yards
-        Wrap her head, around the fact, at the fact
-        Fit as a, fiddle, riddile
-        Believe everyone with, a pinch of salt, a pinch of sugar`,
-
-        `Pain in the, neck, leg
-        Raining on someone's, parade, garden
-        Skin of his, teeth, arm
-        Putting all his, eggs in one basket, eggs together
-        Every cloud has a, silver lining, golden lining
-        The devil's, advocate, house`
+        `pigs would fly, unlikely to happen, likely to happen
+wrap her head around the fact, accept a fact, decline a fact
+fit as a fiddle, in good health, very weak
+skin of his teeth, barely escape, unable to escape
+put all the eggs in one basket, risk everything, bundle together`
       ]
     }
   ]
