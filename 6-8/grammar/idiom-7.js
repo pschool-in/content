@@ -69,33 +69,33 @@ export default {
               qText:
                 'After he realized he was wrong, he had to *eat humble pie*.',
               options: `To apologize humbly
-    To celebrate a victory
-    To boast about oneself`
+To celebrate a victory
+To boast about oneself`
             },
             {
               qText:
                 'As everybody was unhappy with his suggestion, he had to *eat his words*',
               options: `To take back what you have said
-    To repeat what you have said
-    To stand by what you have said`
+To repeat what you have said
+To stand by what you have said`
             },
             {
               qText: 'We decided to *meet halfway* on the project.',
               options: `To come to a compromise 
-    To agree completely 
-    To disagree`
+To agree completely 
+To disagree`
             },
             {
               qText: 'Despite our warnings, he *turned a deaf ear* to us.',
               options: `Disregarded
-    Listened attentively
-    Followed closely`
+Listened attentively
+Followed closely`
             },
             {
               qText: `She couldn't come to work today because she was feeling *under the weather*.`,
               options: `Feeling ill or unwell
-  Feeling happy and healthy
-  Feeling tired but well`
+Feeling happy and healthy
+Feeling tired but well`
             }
           ]
         },
@@ -104,35 +104,35 @@ export default {
             {
               qText: `He was *getting cold feet* about his performance in the youth festival.`,
               options: `Feeling nervous or hesitant about something
-  Feeling excited about something
-  Feeling confident about something`
+Feeling excited about something
+Feeling confident about something`
             },
             {
               qText:
                 'Jack spends his evening with his daughter everyday. She is the *apple of his eye*.',
               options: `Someone who is cherished above all others
-  Someone who is disliked by others
-  Someone who is ignored by others`
+Someone who is disliked by others
+Someone who is ignored by others`
             },
             {
               qText:
                 'Let me *set the record straight* about what happened while you were gone.',
               options: `To clarify or correct any misunderstandings or misrepresentations
-  To make a false claim
-  To spread rumors`
+To make a false claim
+To spread rumors`
             },
             {
               qText:
                 'She was trying to *kill two birds with one stone* by trying to do everything at once.',
               options: `Attempting to accomplish two things at the same time
-  Attempting to accomplish one thing at a time
-  Attempting to accomplish three things at the same time`
+Attempting to accomplish one thing at a time
+Attempting to accomplish three things at the same time`
             },
             {
               qText: `Even though it's tough, you have to *hang in there*.`,
               options: `To persevere or hold on during a difficult situation
-  To give up easily
-  To avoid difficult situations`
+To give up easily
+To avoid difficult situations`
             }
           ]
         },
@@ -141,14 +141,14 @@ export default {
             {
               qText: `The company *cut corners* on the production process, which resulted in a lower quality product.`,
               options: `Take shortcuts
-    Increase quality
+Increase quality
 Reduce cost
 Improve efficiency`
             },
             {
               qText: `We've been working for hours, let's *call it a day*.`,
               options: `Stop working for the day
-    Take a break
+Take a break
 Quit working permanently
 Work overtime`
             },
@@ -162,16 +162,16 @@ A situation that is entirely positive.`
             {
               qText: `This tool is *worth its weight in gold*. It saves us so much time and effort.`,
               options: `Something that is valuable or useful.
-    Something that is heavy and difficult to carry.
-    Something that is cheap and low quality.
-    Something that is unnecessary.`
+Something that is heavy and difficult to carry.
+Something that is cheap and low quality.
+Something that is unnecessary.`
             },
             {
               qText: `To *break the ice* at the party, I started talking about our shared love of hiking.`,
               options: `To start a conversation in a difficult or awkward situation
-  To melt ice cubes in a drink.
-  To skate on a frozen lake.
-  To literally break a piece of ice.`
+To melt ice cubes in a drink.
+To skate on a frozen lake.
+To literally break a piece of ice.`
             }
           ]
         }
@@ -333,33 +333,33 @@ break the ice, initiate a conversation, break ice block`
               qText:
                 'The coach really *put the team on their mettle* before the big game.',
               options: `Encouraged them to give their best effort
-  Forced them to sit out the game
-  Told them to take it easy and not try too hard`
+Forced them to sit out the game
+Told them to take it easy and not try too hard`
             },
             {
               qText:
                 'She was determined to win the competition *by hook or by crook*.',
               options: `By any means necessary
-  By playing fair and square
-  By following all the rules and regulations`
+By playing fair and square
+By following all the rules and regulations`
             },
             {
               qText: 'He *strained every nerve* to finish the project on time.',
               options: `Used his utmost efforts
-  Took a break and relaxed
-  Procrastinated and didn't do anything`
+Took a break and relaxed
+Procrastinated and didn't do anything`
             },
             {
               qText: `The two politicians are *at loggerheads* over the new tax policy.`,
               options: `Strongly disagreeing or in conflict with each other
-  Indifferent to each other's opinions
-  In complete agreement with each other`
+Indifferent to each other's opinions
+In complete agreement with each other`
             },
             {
               qText: `With the rise in prices, it's getting harder to *make two ends meet*.`,
               options: `Manage finances so that expenses don't exceed income
-  Spend money recklessly
-  Live beyond one's means`
+Spend money recklessly
+Live beyond one's means`
             }
           ]
         },
@@ -368,34 +368,34 @@ break the ice, initiate a conversation, break ice block`
             {
               qText: `Buying a new car would *cost a pretty penny*.`,
               options: `To be expensive or costly
-  To be average in price
-  To be inexpensive or cheap`
+To be average in price
+To be inexpensive or cheap`
             },
             {
               qText:
                 '"*Break a leg*!" the director said to the actor before the play.',
               options: `To wish someone good luck before a performance or competition
-  To hope someone gets injured
-  To criticize someone's performance`
+To hope someone gets injured
+To criticize someone's performance`
             },
             {
               qText:
                 'She has been *through thick and thin* with her best friend.',
               options: `To remain loyal and supportive through difficult or challenging times
-  To give up when things get tough
-  To only be there during the good times`
+To give up when things get tough
+To only be there during the good times`
             },
             {
               qText: `He tried to *steal his colleague's thunder* by presenting the idea as his own.`,
               options: `To take credit for someone else's idea or achievement
-  To give credit where credit is due
-  To ignore someone's contribution`
+To give credit where credit is due
+To ignore someone's contribution`
             },
             {
               qText: `The politician kept *beating around the bush* when asked about his plans for the economy.`,
               options: `To avoid discussing a topic directly or to speak indirectly
-  To talk openly and directly about a topic
-  To be confused about a topic`
+To talk openly and directly about a topic
+To be confused about a topic`
             }
           ]
         },
@@ -404,37 +404,37 @@ break the ice, initiate a conversation, break ice block`
             {
               qText: `The detective *left no stone unturned* in his search for the missing girl.`,
               options: `The detective searched thoroughly for the girl.
-  The detective didn't search for the girl at all.
-  The detective ignored many leads.
+The detective didn't search for the girl at all.
+The detective ignored many leads.
 The detective searched for the girl only briefly.`
             },
             {
               qText: `To *cut the long story short*, the team won the championship.`,
               options: `The speaker is summarizing the story.
-  The story is too short to tell.
-  The story is too complicated to understand.
-  The speaker is not interested in telling the whole story.`
+The story is too short to tell.
+The story is too complicated to understand.
+The speaker is not interested in telling the whole story.`
             },
             {
               qText: `Jazz music is not really my *cup of tea*.`,
               options: `I don't like jazz music.
-  I have never tried jazz music.
-  I like to drink tea while listening to jazz music.
-  I prefer jazz music over other types of music.`
+I have never tried jazz music.
+I like to drink tea while listening to jazz music.
+I prefer jazz music over other types of music.`
             },
             {
               qText: `The manager was *beating a dead horse*, by talking about the faulty products`,
               options: `The manager was discussing an issue that had already been resolved.
-  The manager was hitting a horse.
-  The manager was trying to find a dead horse.
-  The manager was discussing a current issue.`
+The manager was hitting a horse.
+The manager was trying to find a dead horse.
+The manager was discussing a current issue.`
             },
             {
               qText: `The high crime rate in the city was *the elephant in the room*.`,
               options: `The city had a large, obvious problem that nobody wanted to acknowledge.
-  The city had a large elephant population.
-  The city had a high crime rate that nobody wanted to talk about.
-  The city had an actual elephant causing problems.`
+The city had a large elephant population.
+The city had a high crime rate that nobody wanted to talk about.
+The city had an actual elephant causing problems.`
             }
           ]
         }
@@ -579,33 +579,33 @@ not worth his salt, quite worthless, worthy of something`
               qText:
                 'Despite our pleas, the boss has *set his face against* granting us any additional time off this year.',
               options: `He is sternly opposed to our request.
-  He has agreed to our request.
+He has agreed to our request.
 He is indifferent to our request.`
             },
             {
               qText:
                 'After years of hard work, Tom finally *won his laurels*. ',
               options: `He achieved distinction or glory.
-  He lost his reputation.
-  He gained popularity.`
+He lost his reputation.
+He gained popularity.`
             },
             {
               qText:
                 'The negative feedback from the critics *broke my bubble*.',
               options: `It shattered my confidence or optimism.
-  It made me feel happy.
-  It confirmed my expectations.`
+It made me feel happy.
+It confirmed my expectations.`
             },
             {
               qText: `My boss because is easily offended, so I'm constantly *walking on eggshells*.`,
               options: `Being cautious or careful with someone or something, often because they are sensitive or easily upset.
-  Being careless and impulsive.
+Being careless and impulsive.
 Being comfortable and relaxed.`
             },
             {
               qText: `The surgery was going to be painful, but John knew he had to *bite the bullet* and go through with it.`,
               options: `To endure or face something difficult or unpleasant with courage and determination.
-  To avoid or postpone something difficult.
+To avoid or postpone something difficult.
 To give up and accept defeat.`
             }
           ]
@@ -615,33 +615,33 @@ To give up and accept defeat.`
             {
               qText: `Despite the success of the company, there were *some clouds on the horizon*.`,
               options: `That there are potential problems or challenges ahead.
-  That the company is doing very well.
-  That the sky is overcast with clouds.`
+That the company is doing very well.
+That the sky is overcast with clouds.`
             },
             {
               qText: `I've been trying to convince my friend to quit smoking for years, but he just argues with me until I'm *blue in the face*. `,
               options: `To talk or argue excessively without making any progress or achieving any results.
-  To turn pale with fright.
-  To become angry and aggressive.`
+To turn pale with fright.
+To become angry and aggressive.`
             },
             {
               qText:
                 '"*Speak of the devil*," Sarah said as her friend walked into the room.',
               options: `To talk about a person who is not present.
-  To talk about something that is not relevant.
-  To use bad language.`
+To talk about something that is not relevant.
+To use bad language.`
             },
             {
               qText: `I know you want to confront your boss about the mistake he made, but it's better to *let sleeping dogs lie*.`,
               options: `To leave a situation alone and not provoke any trouble
-  To ignore a problem and hope it goes away
-  To create trouble and stir up conflict`
+To ignore a problem and hope it goes away
+To create trouble and stir up conflict`
             },
             {
               qText: `After hours of discussion, the team finally *hit the nail on the head* and came up with a solution that satisfied everyone.`,
               options: `To accurately identify or address a problem or issue
-  To be unsure or uncertain about something
-  To fail to reach a goal or complete a task`
+To be unsure or uncertain about something
+To fail to reach a goal or complete a task`
             }
           ]
         },
@@ -651,25 +651,25 @@ To give up and accept defeat.`
               qText: ` *It takes two to tango*, so they both need to apologize to each other.`,
               options: `Both parties are responsible for a situation or problem
 A situation can only be resolved by one person
-  A situation can only be resolved by both parties working together`
+A situation can only be resolved by both parties working together`
             },
             {
               qText: `Losing my job was devastating, but *every cloud has a silver lining*.`,
               options: `Every difficult situation has a positive aspect
-  Every difficult situation is hopeless and without any positive outcome
-  Every difficult situation can be overcome by positive thinking`
+Every difficult situation is hopeless and without any positive outcome
+Every difficult situation can be overcome by positive thinking`
             },
             {
               qText: `Sarah *let the cat out of the bag* before they could surprise her.`,
               options: `To reveal a secret or information that was meant to be kept confidential.
-  To catch a cat that has escaped.
-  To tease someone about a secret.`
+To catch a cat that has escaped.
+To tease someone about a secret.`
             },
             {
               qText: `The constant bickering was enough to make John *pull the last straw* and quit his job.`,
               options: `To reach a breaking point or a limit of tolerance.
-  To make a final decision.
-  To take on too much responsibility.`
+To make a final decision.
+To take on too much responsibility.`
             }
           ]
         }

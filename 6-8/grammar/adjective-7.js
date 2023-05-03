@@ -68,7 +68,7 @@ Nouns can be used as adjectives to modify other nouns in a sentence. This type o
           {
             type: 'html',
             text: `Eg: <i>football</i> player<br>
-            <i>dog</i> food<br>
+<i>dog</i> food<br>
 <i>coffee</i> mug<br>
 <i>sea</i> breeze<br>
 <i>Tennis</i> shoes<br><br>
@@ -308,16 +308,16 @@ The Mona Lisa is one of the most beautiful paintings in the world.`
         ],
         [
           `She is a wonderful friend.
-          The beach is relaxing.
+The beach is relaxing.
 Drawing is a creative work.`,
 
           `Her new dress is more beautiful than the old one.
-          The Great Wall of China is longer than the Berlin Wall.
-          His jokes are funnier than hers.`,
+The Great Wall of China is longer than the Berlin Wall.
+His jokes are funnier than hers.`,
 
           `Usain Bolt is the fastest runner in the world.
-          The sun is not the brightest star in the Milky Way.
-          Times Square is one of the busiest places in New York City.
+The sun is not the brightest star in the Milky Way.
+Times Square is one of the busiest places in New York City.
 The alphabet is the simplest thing to learn.`
         ]
       ]
