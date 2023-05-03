@@ -15,117 +15,117 @@ export default {
 1. 'The' is used before a particular or specific person, place or thing.`,
           {
             type: 'html',
-            text: `<b>Example</b>: This is <b>the</b> boy who won the last match.`
+            text: `Eg: This is <i>the</i> boy who won the last match.`
           },
           `2. 'The' is used before common nouns which are names of things unique of their kind.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> Earth is our planet.`
+            text: `Eg: <i>The</i> Earth is our planet.`
           },
           `3. 'The' is used before the name of directions and dates of months.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> Sun sets in the West.`
+            text: `Eg: <i>The</i> Sun sets in the West.`
           },
           `4. 'The' is used before the name of rivers, seas, canals, oceans, valleys, deserts and forests.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> Atlantic Ocean`
+            text: `Eg: <i>The</i> Atlantic Ocean`
           },
           `5. 'The' is used before the names of mountain ranges.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> Himalayas`
+            text: `Eg: <i>The</i> Himalayas`
           },
           `6. 'The' is used before the superlative degrees of an adjective.`,
           {
             type: 'html',
-            text: `<b>Example</b>: You are <b>the</b> best boy in my class.`
+            text: `Eg: You are <i>the</i> best boy in my class.`
           },
           `7. 'The' is used before a whole class.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> cow is a pet animal.`
+            text: `Eg: <i>The</i> cow is a pet animal.`
           },
           `8. 'The' is used before names of races or nations.`,
           {
             type: 'html',
-            text: `<b>Example</b>: <b>The</b> English ruled over <b>the</b> Indians.`
+            text: `Eg: <i>The</i> English ruled over <i>the</i> Indians.`
           },
           `9. 'The' is used before names of newspapers, holy books, famous buildings, ships, and historical events.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: I read <b>the</b> Hindustan newspaper.<br>
-<b>The</b> Ramayana is a famous book.`
+            text: `Eg: I read <i>the</i> Hindustan newspaper.<br>
+<i>The</i> Ramayana is a famous book.`
           },
           `10. 'The' is used before proper nouns, common nouns, abstract nouns and material nouns to make them common nouns.`,
           {
             type: 'html',
-            text: `<b>Example</b>: Kalidas is <b>the</b> Shakespeare of India.`
+            text: `Eg: Kalidas is <i>the</i> Shakespeare of India.`
           },
           `11. 'The' is used before the name of musical instruments.`,
           {
             type: 'html',
-            text: `<b>Example</b>: Rani plays <b>the</b> guitar.`
+            text: `Eg: Rani plays <i>the</i> guitar.`
           },
           `12. 'The' is used before the name of inventions.`,
           {
             type: 'html',
-            text: `<b>Example</b>: Who invented <b>the</b> television?`
+            text: `Eg: Who invented <i>the</i> television?`
           },
           `13. 'The' is used before parts of the body.`,
           {
             type: 'html',
-            text: `<b>Example</b>: He got an injury in <b>the</b> head.`
+            text: `Eg: He got an injury in <i>the</i> head.`
           },
           `14. 'The' is used before political parties.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>The</b> Congress Party; <b>The</b> Bhartiya Janata Party.`
+            text: `Eg: <i>The</i> Congress Party; <i>The</i> Bhartiya Janata Party.`
           },
           `# Uses of 'A'
 1. 'A' is used before words beginning with consonants.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>a</b> piece of news, <b>a</b> patient, <b>a</b> cup`
+            text: `Eg: <i>a</i> piece of news, <i>a</i> patient, <i>a</i> cup`
           },
           `2. 'A' is used before words that begin with a vowel, but have a sound of a consonant.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>A</b> university, <b>A</b> European`
+            text: `Eg: <i>A</i> university, <i>A</i> European`
           },
           `# Uses of 'An'
 1. 'An' is used with words that begin with an alphabet (a, e, i, o, u).`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>an</b> orange, <b>an</b> egg, <b>an</b> octave`
+            text: `Eg: <i>an</i> orange, <i>an</i> egg, <i>an</i> octave`
           },
           `2. 'A/an' is used before the adjective, if the adjective comes with a noun.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>a</b> nice book, <b>an</b> intelligent boy, <b>a</b> good prize`
+            text: `Eg: <i>a</i> nice book, <i>an</i> intelligent boy, <i>a</i> good prize`
           },
           `3. 'An' is used before words beginning with consonants having vowel sounds.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>An</b> FIR, <b>An</b> MSc.`
+            text: `Eg: <i>An</i> FIR, <i>An</i> MSc.`
           },
           `# Omission of Article
 1. We should not use 'the' before proper nouns `,
           {
             type: 'html',
-            text: `<b>Examples</b>: Kolkata, Rashmi, Sunday and so on.
-=> Here are some <b>exceptions</b> to this rule: <b>The</b> Punjab, <b>The</b> USA, <b>The</b> Deccan - (<b>Group of states</b>)`
+            text: `Eg: <s>The</s> Kolkata, <s>The</s> Rashmi, <s>The</s> Sunday.<br><br>
+=> Here are some exceptions to this rule: <i>The</i> Punjab, <i>The</i> USA, <i>The</i> Deccan - (<i>Group of states</i>)`
           },
           `2. We should not use 'the' before subjects and arts.`,
           {
             type: 'html',
-            text: `<b>Example</b>: I don't like Science.`
+            text: `Eg: I don't like <s>the</s> Science.`
           },
           `3. When we use abstract nouns in a general sense, we omit 'the'.`,
           {
             type: 'html',
-            text: `<b>Example</b>: Health is wealth.`
+            text: `Eg: Health is <s>the</s> wealth.`
           }
         ]
       }
@@ -146,15 +146,15 @@ export default {
             options: `The, A, An`
           },
           {
-            qText: `When is 'the' used?`,
-            options: `Before the name of rivers, seas, canals, oceans, valleys, deserts, forests
-Before the name of a single mountain or hill
+            qText: `When is 'the' NOT used?`,
+            options: `Before subjects and arts
+Before the name of inventions
 Before the name of a musical instrument
 Before a proper noun, common noun, abstract noun or material noun to make them common nouns`
           },
           {
             qText: `When do we use 'an' instead of 'a'?`,
-            options: `Before words beginning with a vowel but have a sound of a consonant, Before words beginning with consonants, Before words beginning with vowels, All of the above`
+            options: `*Before words beginning with a vowel but have a sound of a consonant, Before words beginning with consonants, Before words beginning with vowels, All of the above`
           },
           {
             qText: `When should we omit the article?`,
@@ -164,35 +164,32 @@ Before a proper noun, common noun, abstract noun or material noun to make them c
       }
     },
     {
+      id: 'true-false',
       label: 'True or False',
       type: 'classifySentence',
-      id: 'true-false',
-      commonData: {
-        title: 'Classify the following sentences as True or False',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `"An" is used before words that start with a vowel sound.
-"A" is used before words that start with a consonant sound.
-"An" can be used before words that start with a silent "h". `,
-
-          `"The" is an indefinite article.
-"A" can be used before words that start with a silent "h". `
-        ],
-        [
-          `"The" can be used with both countable and uncountable nouns. `,
-
-          `"The" can only be used with singular nouns. 
-"An" can only be used with plural nouns.
-"A" can only be used with countable nouns.
-"A" can be used with both countable and uncountable nouns.`
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: ` "An" is used before words that start with a vowel sound.
+            "A" is used before words that start with a consonant sound.
+            "An" can be used before words that start with a silent "h".
+            "The" can be used with both countable and uncountable nouns. `
+          },
+          {
+            name: 'False',
+            text: `"The" is an indefinite article.
+            "A" can be used before words that start with a silent "h".
+            "The" can only be used with singular nouns. 
+"A" can only be used with countable nouns.`
+          }
         ]
-      ]
+      }
     },
     {
       id: 'fill-up-art',
-      label: 'Articles',
+      label: 'Filup',
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks with suitable articles.`
@@ -250,11 +247,6 @@ Where is *the* Statue of Liberty situated?
 He belongs to *a* different school of thought.
 Do you know where *the* library is?`,
 
-        `I am going to *the* club.
-*The* Gomati is a famous river.
-Rashmi is *a* unique girl.
-I know how to play *the* violin.`,
-
         `She was not in *the* mood for cutting jokes.
 This is *an* honor for me.
 One cannot compare *an* orange with *an* apple.
@@ -264,19 +256,28 @@ Durian is *a* unique fruit native to Southeast Asia.`,
 *An* apple *a* day keeps *the* doctor away.
 *The* sun rises in *the* east and sets in *the* west.
 I want to buy *a* car.
-Can you pass me *the* salt?`
+Can you pass me *the* salt?`,
+
+        `I am going to *the* club.
+*The* Gomati is a famous river.
+Rashmi is *a* unique girl.
+I know how to play *the* violin.`
       ]
     },
     {
       id: 'complete-para',
       label: 'Complete the paragraph ',
       type: 'fillup',
+      lockAfter: 1,
       commonData: {
         noOptions: true,
         title:
-          'Complete the paragraph using articles. Mark `x` wherever articles are not used.'
+          'Complete the paragraph using articles. Mark `x` wherever articles are not used.',
+        styles: {
+          fontSize: '1rem',
+          dashWidth: 70
+        }
       },
-      lockAfter: 1,
       data: [
         `Mr. Sheetal Das is my *x* neighbor. He is *a* businessman. He owns *a* spacious bungalow and *a* car. His house is well-furnished. It is equipped with all *the* comforts of life. I am, however, sad to see that he does not have very good relations with his *x* neighbors. Once he called *the* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The* children had of course denied it. He has *a* servant. This poor boy is not given enough food to eat. He never donates money to any cause. I wonder why he behaves in such *an* ignoble manner. May God grant him *x* wisdom!`,
 
@@ -301,30 +302,25 @@ Can you pass me *the* salt?`
       lockAfter: 1,
       data: [
         `Jay: Hey, did you see *the* news article about *the* new restaurant that opened downtown?
-Jake: No, I haven't seen it yet. Is it *a* fancy restaurant?`,
+Jake: No, I haven't seen it yet. Is it *a* fancy restaurant?
+Jay: Yeah, it looks pretty upscale. They have *a* menu with *a* lot of unique dishes, like *an* avocado and crab salad.
+Jake: Hmm, that sounds interesting. Do they have *a* website with *the* menu?
+Jay: Yeah, I think they do. Let me check on my *x* phone.`,
 
-        `Jay: Yeah, it looks pretty upscale. They have *a* menu with *a* lot of unique dishes, like *an* avocado and crab salad.
-Jake: Hmm, that sounds interesting. Do they have *a* website with *the* menu?`,
-
-        `Jay: Yeah, I think they do. Let me check on my *x* phone.
-Jake: Thanks. I want to see if they have *a* vegetarian option. I don't eat meat.`,
-
-        `Jay: Oh, I see. Yeah, they have *a* few vegetarian options. They have *a* roasted vegetable plate and *a* spinach salad.
-Jake: Perfect! Let's plan to go there for *x* lunch tomorrow.`,
-
-        `Jay: Sounds good to me. Should we make *a* reservation?
+        `Jake: Thanks. I want to see if they have *a* vegetarian option. I don't eat meat.
+Jay: Oh, I see. Yeah, they have *a* few vegetarian options. They have *a* roasted vegetable plate and *a* spinach salad.
+Jake: Perfect! Let's plan to go there for *x* lunch tomorrow.
+Jay: Sounds good to me. Should we make *a* reservation?
 Jake: Yeah, we should definitely make *a* reservation to make sure we get *a* table.`,
 
         `Amit: Hey, did you see *the* article in *the* newspaper today?
-Rahul: No, I haven't had *a* chance to read it yet. What was it about?`,
-
-        `Amit: It was *an* opinion piece about *the* upcoming election.
+Rahul: No, I haven't had *a* chance to read it yet. What was it about?
+Amit: It was *an* opinion piece about *the* upcoming election.
 Rahul: Oh, interesting. I'll have to take *a* look. Did they mention any specific candidates?`,
 
         `Amit: Yeah, they talked about *the* frontrunner and *the* issues they're focusing on.
-Rahul: Hmm, I wonder if they mentioned *the* controversy surrounding *the* candidate's past statements.`,
-
-        `Amit: They did touch on it briefly, but mostly focused on *the* candidate's current platform.
+Rahul: Hmm, I wonder if they mentioned *the* controversy surrounding *the* candidate's past statements.
+Amit: They did touch on it briefly, but mostly focused on *the* candidate's current platform.
 Rahul: Okay, got it. Thanks for *the* summary. I'll definitely check it out later.`
       ]
     },
