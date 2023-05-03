@@ -170,7 +170,7 @@ The company released a new product. | a new product was released by the company 
         `"I am going to the store", said John. |  John said that he was going to the store
 "I love ice-cream", exclaimed Sarah. | Sarah exclaimed that she loved ice-cream
 "The concert starts at 7 PM," announced the event organizer. | the event organizer announced that the concert will start at 7PM
-"I enjoy reading books," confessed Ruby. | Ruby confessed that she enjoyed reading books.
+"I enjoy reading books," confessed Ruby. | Ruby confessed that she enjoyed reading books
 "I will be there on time," promised Emily. | Emily promised that she would be there on time`,
 
         `"I am sorry for being late," apologized Mike. | Mike apologized for being late
@@ -181,8 +181,8 @@ The company released a new product. | a new product was released by the company 
 
         `"I'll phone you tomorrow," he said. | he said he'd phone me the next day
 "My father works in a bank," Priya said. | Priya said that her father worked in a bank
-"The baby's sleeping!", she said. | She told that the baby is sleeping.
-"I've hurt my leg", he said. | He said that she'd hurt her leg.
+"The baby's sleeping!", she said. | She told that the baby is sleeping
+"I've hurt my leg", he said. | He said that she'd hurt her leg
 "It was raining all day", she said. | She told me it had been raining all day`
       ]
     }
