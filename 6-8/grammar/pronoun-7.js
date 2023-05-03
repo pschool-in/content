@@ -114,9 +114,7 @@ Eg: yours, his, ours, theirs, hers, mine`
             text: `Personal pronouns replace specific nouns in a sentence. 
 The pronoun "I" is always capitalized.
 The pronoun "you" can be used to refer to a single person or a group of people.
-The pronoun "it" can also be used to refer to a baby whose gender is unknown. 
-The pronoun "he" can also be used as an object pronoun. 
-The pronoun "she" can also be used as a subject pronoun. `
+The pronoun "it" can also be used to refer to a baby whose gender is unknown.`
           },
           {
             name: 'False',
@@ -129,20 +127,93 @@ The pronoun "who" is only used to refer to people.`
       }
     },
     {
+      label: 'Possessive or Reflexive',
+      type: 'classifySentence',
+      id: 'possessive-reflexive',
+      data: {
+        title: 'Classify the underlined pronoun as Possessive or Reflexive',
+        types: [
+          {
+            name: 'Possessive',
+            text: `That toy on the shelf is *mine*.
+All of the houses in our neighborhood look the same, but *ours* is the only one with a satellite dish.
+Wendy and Ronald separated the french fries into two piles: the left one was *hers* and the right one was *his*.`
+          },
+          {
+            name: 'Reflexive',
+            text: `Ken looked at *himself* in the mirror.
+I like to cheer *myself* up with desserts.
+The silly clowns made fools of *themselves*.
+Are you talking to *yourself*?`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Relative or Demonstrative',
+      type: 'classifySentence',
+      id: 'relative-demonstrative',
+      data: {
+        title: 'Classify the underlined pronoun as Relative or Demonstrative',
+        types: [
+          {
+            name: 'Relative',
+            text: `I need to find a person *who* can read Swedish.
+She doesn't want to eat a meal *that* is too spicy.
+This book, *which* ends on a cliffhanger, is really exciting.
+The man *who* first saw the comet reported it as a UFO`
+          },
+          {
+            name: 'Demonstrative',
+            text: `*This* is my favorite shirt.
+I don't know what *that* is, but it definitely isn't friendly.
+I need you to fix *these*.
+*This* is the one I left in the car.
+Shall I take *those*?`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Interrogative or Indefinite',
+      type: 'classifySentence',
+      id: 'interrogative-indefinite',
+      data: {
+        title: 'Classify the underlined pronoun as Interrogative or Indefinite',
+        types: [
+          {
+            name: 'Interrogative',
+            text: `*Who* wrote this letter?
+*What* is an amphibian?
+*Which* is the correct answer?
+*Who* told you to do that?`
+          },
+          {
+            name: 'Indefinite',
+            text: `This note could have been written by *anybody*.
+*Someone* ate my lunch.
+The water splashed *everywhere*.
+*Somebody* must have seen the driver leave.
+I have *nothing* to declare except my genius.`
+          }
+        ]
+      }
+    },
+    {
       id: 'fillup',
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*What (Whose)* is your favorite color?
-*Which (What)* dress are you buying?
-*Whose (What)* cycle is that?
+*Which (When)* dress are you buying?
+*Whose (How)* cycle is that?
 *Whom (Whose)* has the team selected as their captain.
 *Which (Whose)* is your favorite comic?
 *Where (What)* is the Statue of Liberty situated?
 *Whom (Whose)* did you invite for dinner?
 *What (When)* has mom cooked for snacks?
-*When (How)* is your brother returning from Singapore?
+*When (What)* is your brother returning from Singapore?
 *How (What)* are you feeling today?`
       }
     },
@@ -150,9 +221,9 @@ The pronoun "who" is only used to refer to people.`
       id: 'fillup-2',
       label: 'Fill in the blanks - 2',
       type: 'fillup',
-      noOptions: true,
       data: {
-        title: 'Fill in the blanks with pronouns of place',
+        noOptions: true,
+        title: 'Fill in the blanks with pronouns',
         text: `She left her phone on the table. *It* is still there.
 I was born in New York, and *there* is a lot to do there.
 The movie theater is next to the park. *There* is a playground in the park.
@@ -170,17 +241,17 @@ She lives in a remote village. *There* are no stores or restaurants there.`
       type: 'selectWord',
       id: 'select-word',
       data: {
-        title: `Identify pronouns of time from the following sentences`,
+        title: `Identify indefinite pronouns from the following sentences`,
         text: `*Someone* left their umbrella in the office.
+Is there *anyone* who doesn't like ice cream?
 *Nobody* wants to be left behind.
+Can *everyone* sit down, please?
 *Anything* is possible if you put your mind to it.
+I found *everything* I was looking for.
 *Everyone* should have the opportunity to succeed.
+Allison had invited all of her cousins, but *none* had come yet.
 *Each* of us has a unique perspective on life.
-*Many* people enjoy traveling to new places.
-*Few* things are more rewarding than helping others.
-*Several* students failed the exam and will need to retake it.
-*Somebody* needs to take out the trash before it starts to smell.
-*Anybody* could have made that mistake, so don't beat yourself up over it.`
+Could *someone* tell me where to find a doctor?`
       }
     },
     {
@@ -193,6 +264,18 @@ She lives in a remote village. *There* are no stores or restaurants there.`
       },
       lockAfter: 2,
       data: [
+        `*She* is the girl I was talking to you about. 
+This is the place *where* I found my missing bag. 
+Did you do it *yourself*?
+We always help each *other* out. 
+Has *everyone* completed the work that was assigned for today?`,
+
+        `The designer *who* made your dress is waiting outside.
+The man *whose* bike was stolen has filed an FIR.
+The assault victim had nobody to *whom* to turn for help.
+I saw the dog *which* ate the cake.
+We did not know the tune *that* had been played.`,
+
         `I saw Jane yesterday, and *she* looked great.
 The package arrived this morning, and *it* was in good condition.
 John and Susan went to the party, but *they* didn't stay long.
@@ -211,7 +294,7 @@ The children are playing in the park, and *they* seem to be having a lot of fun.
 The movie is starting soon, so *we* should hurry to get our seats.
 I received a letter in the mail, and *it* was from an old friend.`,
 
-        `The weather is nice today, so *it* is a great day to go for a walk.
+        `I found my book in the garden, but I couldn't find *yours*.
 The book I'm reading is interesting, and *it* is hard to put down.
 My brother and I went to the game, but *he* left early because he wasn't feeling well.
 The store is having a sale, and *it* is a great opportunity to save money.
@@ -221,55 +304,58 @@ The dog is barking at the mailman, but *it* is friendly.`,
 I bought a new phone, and *it* has a lot of great features.
 The waiter brought the menu, and *he* took our drink order.
 The city is crowded during rush hour, and *it* can be difficult to drive.
-I'm going on vacation next week, and *I* can't wait to relax.`
+I'm going on vacation next week, and *I* can't wait to relax.`,
+
+        `Everything is funny as long as it is happening to *somebody* else.
+I don't know *anything* about music.
+Tommy and Jane hate each *other*.
+Mary has made this wall hanging *herself*.
+Michel sent *himself* a copy of e-mail.`
       ]
     },
     {
       label: 'Fill in the blanks - 4',
-      type: 'matchByDragDrop',
+      type: 'fillup',
       id: 'drag-drop',
       lockAfter: 1,
       commonData: {
-        title: 'Fill in the blanks using prepositions (Who, Which or Why).'
+        noOptions: true,
+        title: 'Fill in the blanks using Interrogative Pronouns'
       },
       data: [
         `*Who* is the new CEO of the company?
 *Which* color do you prefer, red or blue?
-*Why* did you decide to quit your job?`,
+*Why* did you decide to quit your job?
+Do you know *who* won the election?
+Can you tell me *which* train goes to the city center?`,
 
-        `Do you know *who* won the election?
-Can you tell me *which* train goes to the city center?
-Can you explain *why* you are late for the meeting?`,
-
-        `Can you tell me *who* is in charge of this project?
+        `Can you explain *why* you are late for the meeting?
+Can you tell me *who* is in charge of this project?
 I can't decide *which* book to read first.
-I'm not sure *why* he didn't show up for the party.`,
+I'm not sure *why* he didn't show up for the party.
+I wonder *who* is going to be the keynote speaker at the conference.`,
 
-        `I wonder *who* is going to be the keynote speaker at the conference.
-*Which* team do you think will win the championship this year?
-*Why* do you think the company's sales have been declining?`,
-
-        `*Who* do you think will be the next President?
+        `*Which* team do you think will win the championship this year?
+*Why* do you think the company's sales have been declining?
+*Who* do you think will be the next President?
 The doctor recommended two treatments, but I'm not sure *which* one to choose.
-The teacher asked us to write an essay about "*Why* education is important".`,
+The teacher asked us to write an essay about "*Why* education is important"`,
 
         `The police are looking for someone *who* witnessed the crime.
 The store offers two sizes, small and large. *Which* one would you like to buy?
-*Why* didn't you tell me about the change in plans earlier?`,
+*Why* didn't you tell me about the change in plans earlier?
+*Who* do you think is the most talented musician of our time?
+*Which* of these paintings do you think is the most valuable?`,
 
-        `*Who* do you think is the most talented musician of our time?
-*Which* of these paintings do you think is the most valuable?
-*Why* did you choose this restaurant over the other options?`,
-
-        `Can you guess *who* wrote this novel?
+        `*Why* did you choose this restaurant over the other options?
+Can you guess *who* wrote this novel?
 I'm considering two schools. One is in New York and the other is in San Francisco. *Which* one should I choose?
-I don't understand *why* she is so upset about the situation.`,
+I don't understand *why* she is so upset about the situation.
+I'm trying to remember *who* recommended this restaurant to us.`,
 
-        `I'm trying to remember *who* recommended this restaurant to us.
-The movie theater is showing two films tonight. *Which* one do you want to see?
-Can you tell me *why* the project deadline was pushed back?`,
-
-        `*Who* was that person who just walked in the door?
+        `The movie theater is showing two films tonight. *Which* one do you want to see?
+Can you tell me *why* the project deadline was pushed back?
+*Who* was that person who just walked in the door?
 I have a few questions about the proposal. *Which* section should I focus on?
 *Why* do some people prefer to work from home rather than in an office?`
       ]
