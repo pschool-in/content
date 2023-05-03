@@ -173,15 +173,15 @@ Before a proper noun, common noun, abstract noun or material noun to make them c
           {
             name: 'True',
             text: ` "An" is used before words that start with a vowel sound.
-            "A" is used before words that start with a consonant sound.
-            "An" can be used before words that start with a silent "h".
-            "The" can be used with both countable and uncountable nouns. `
+"A" is used before words that start with a consonant sound.
+"An" can be used before words that start with a silent "h".
+"The" can be used with both countable and uncountable nouns. `
           },
           {
             name: 'False',
             text: `"The" is an indefinite article.
-            "A" can be used before words that start with a silent "h".
-            "The" can only be used with singular nouns. 
+"A" can be used before words that start with a silent "h".
+"The" can only be used with singular nouns. 
 "A" can only be used with countable nouns.`
           }
         ]
