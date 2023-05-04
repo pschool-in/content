@@ -75,16 +75,16 @@ Nouns can be used as adjectives to modify other nouns in a sentence. This type o
 In the above examples, the highlighted nouns play the role of adjectives.`
           },
           `# Adjectives with -ly
-Adjectives can be formed by adding <i>-ly</i> to their root word. These adjectives describe how something is done.`,
+Adjectives can be formed by adding '-ly' to their root word. These adjectives describe how something is done.`,
           {
             type: 'html',
-            text: `Eg: <i>quickly</i>; <i>carefully</i>; <i>quietly</i>; <i>happily</i>; <i>lazily</i>`
+            text: `Eg: <i>quickly</i>, <i>carefully</i>, <i>quietly</i>, <i>happily</i>, <i>lazily</i>`
           },
           `# Participial Adjective
 Participial adjectives are formed from the past participle (-ed) or present participle (-ing) of a verb.`,
           {
             type: 'html',
-            text: `Eg : <i>bored</i>; <i>amazed</i>; <i>confused</i>; <i>exciting</i>; <i>exhausted</i>`
+            text: `Eg : <i>bored</i>, <i>amazed</i>, <i>confused</i>, <i>exciting</i>, <i>exhausted</i>`
           }
         ]
       }

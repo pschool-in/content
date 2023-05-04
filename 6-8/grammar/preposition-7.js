@@ -13,10 +13,10 @@ export default {
           `A preposition is a word that shows the relationship between a noun or pronoun and other words in a sentence. It typically indicates the location, direction, time, or manner of an action or event. Prepositions can be classified into the following.`,
           {
             type: 'html',
-            text: `1. Preposition of time. Eg: <i>on</i>, <i>in</i>, <i>at</i>, <i>by</i>, <i>until</i>, <i>during</i>, <i>for</i>, <i>between</i>, <i>since</i>, <i>before</i><br><br>
-2. Preposition of place. Eg: <i>on</i>, <i>under</i>, <i>in</i>, <i>at</i>, <i>above</i>, <i>below</i>, <i>among</i>, <i>behind</i><br><br>
-3. Preposition of direction and movements. Eg: <i>to</i>, <i>towards</i>, <i>along</i>, <i>through</i>, <i>across</i>, <i>onto</i><br><br>
-4. Preposition of purpose or source. Eg: <i>to</i>, <i>for</i>, <i>because of</i>, <i>owing to</i>, <i>due to</i>, <i>by courtesy of</i>, <i>for the benefit of</i>, <i>in favor of</i>, <i>in honor of</i>, <i>in the light of</i>, <i>on behalf of</i>, <i>thanks to</i>, <i>towards</i>`
+            text: `1. Preposition of time: It includes <i>on</i>, <i>in</i>, <i>at</i>, <i>by</i>, <i>until</i>, <i>during</i>, <i>for</i>, <i>between</i>, <i>since</i>, <i>before</i>.<br><br>
+2. Preposition of place: It includes <i>on</i>, <i>under</i>, <i>in</i>, <i>at</i>, <i>above</i>, <i>below</i>, <i>among</i>, <i>behind</i>.<br><br>
+3. Preposition of direction and movements: It includes <i>to</i>, <i>towards</i>, <i>along</i>, <i>through</i>, <i>across</i>, <i>onto</i>.<br><br>
+4. Preposition of purpose or source: It includes <i>to</i>, <i>for</i>, <i>because of</i>, <i>owing to</i>, <i>due to</i>, <i>by courtesy of</i>, <i>for the benefit of</i>, <i>in favor of</i>, <i>in honor of</i>, <i>in the light of</i>, <i>on behalf of</i>, <i>thanks to</i>, <i>towards</i>.`
           }
         ]
       }
@@ -249,8 +249,9 @@ There is confusion *among* the students.`
 She went *to (by)* the park to meet her friends.
 The book is *on (over)* the table.
 The plane flew *above (over)* the clouds.
-They are going to the concert *with (for)* their parents.
-Vegetarians abstain *from (with)* eating meat.
+They are going to the concert *with (for)* their parents.`,
+
+        `Vegetarians abstain *from (with)* eating meat.
 Good food is absolutely essential *for (to, with)* our health.
 The jury absolved him *of (off, from)* the crime.
 They wed *on (during/from)* the 3rd of December.
@@ -260,8 +261,9 @@ Our garden abounds *with (in)* roses.`,
 He was arrested for his abusive treatment *of(with, like)* the dog.
 Canoes were provided *for (to, with)* transportation.
 My daughter accompanied me *on (by, with)* the trip.
-Place the bolster *between (with, by)* the two cushions.
-Cloth is sold *by (with, as)* the meter.
+Place the bolster *between (with, by)* the two cushions.`,
+
+        `Cloth is sold *by (with, as)* the meter.
 Do not shout *while (during, by)* others are reading.
 I promise to return the book *by (until, on)* Monday.
 He did not fulfill his promise *until (by, after)* it was too late.
@@ -308,11 +310,11 @@ Certain nouns, adjectives and verbs are generally used with specific preposition
           `# Prepositional Phrase`,
           {
             type: 'html',
-            text: `A prepositional phrase can have the functions of an adjective or an adverb. It is a structure consisting of a preposition and its object.
-            Look at the lady <i>in the blue dress</i>. (modifying the noun lady)
-            Please take the pen <i>next to the telephone</i>. (modifying the noun pen)
-            The poor man sat <i>beside the fence</i>. (Sat where? Beside the fence.)
-            I go for dance classes <i>after school</i>. (Go when? After school.)`
+            text: `A prepositional phrase can have the functions of an adjective or an adverb. It is a structure consisting of a preposition and its object.<br><br>
+            Look at the lady <i>in the blue dress</i>. (modifying the noun lady)<br>
+            Please take the pen <i>next to the telephone</i>. (modifying the noun pen)<br>
+            The poor man sat <i>beside the fence</i>. (Sat where? Beside the fence)<br>
+            I go for dance classes <i>after school</i>. (Go when? After school)<br>`
           }
         ]
       }
@@ -365,24 +367,24 @@ A preposition that modifies adverbs.`
 Do not shout *while (during)* others are writing. 
 I promise to return the book *by (until)* Monday. 
 He did not fulfill his promise *until (by)* it was too late.
-Many think Jackson looks *like (as)* Park.
-Rishi was employed *as (like)* my brother's secretary.
+Many think Jackson looks *like (as)* Park.`,
+
+        `Rishi was employed *as (like)* my brother's secretary.
 Tony spends money freely *as if (as)* it grew on trees.
 Jake came first in his class *as (like)* everyone expected.
-You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.`,
+You are free to keep the book *until (by)* Tuesday, but I must have it back *by (until)* Wednesday.
+Jay orders his friends about, *as if (as)* they were his servants.`,
 
-        `Jay orders his friends about, *as if (as)* they were his servants.
-This plan will go *against (by)* Ram's interests.
+        `This plan will go *against (by)* Ram's interests.
 There are many diseases caused *by (of)* dirt and filth.
 Jessi was the main cause *of (by)* Ron's misery.
 Athiya went to Tokyo *at (in)* the age of 3. 
-You will receive the payment *within (during)* 30 days of joining.
-In the absence of professional experience, you will be *at (in)* a disadvantage here.`,
+You will receive the payment *within (during)* 30 days of joining.`,
 
-        `I have not seen her *for (since)* the last nine months. 
+        `In the absence of professional experience, you will be *at (in)* a disadvantage here.
+I have not seen her *for (since)* the last nine months. 
 You must travel by train to reach *on (in)* time. 
 I have been going to this cafeteria *for (since)* a long time. 
-He is struggling *from (with)* migraine.
 We drove *along (through)* the coastline.`
       ]
     },
@@ -400,20 +402,21 @@ We drove *along (through)* the coastline.`
 This is from the shop *on* the main road.
 Everybody gathered *at* 14, Park Street.
 There is a fence *around* the garden.
-We stood *at* the bus stop.
-The jewels are kept *in* a box.
+We stood *at* the bus stop.`,
+
+        `The jewels are kept *in* a box.
 Have you looked *under* the bed?
-We waited *in* the reception hall for two hours.`,
+We waited *in* the reception hall for two hours.
+The painting *on* the roof of the church is incredible.
+I live *in* Kerala *in* a town called Alappuzha.`,
 
-        `The painting *on* the roof of the church is incredible.
-I live *in* Kerala *in* a town called Alappuzha.
-The soup is *on* the table.
+        `The soup is *on* the table.
 Meet me *at* the cafeteria next to the station.
-Place the book *on* the table. `,
+Place the book *on* the table. 
+Jack is *in* a meeting now.
+The shoes are *under* the bed.`,
 
-        `Jack is *in* a meeting now.
-The shoes are *under* the bed.
-The picture frame is hanging *on* the wall.
+        `The picture frame is hanging *on* the wall.
 The flower vase is *beside* the window.
 The TV is mounted *above* the fireplace.
 The pencil is *in* the drawer.
@@ -434,20 +437,21 @@ The book is lying *on* the table.`
 We will get the finished product *in* May.
 Will you visit us *at* Diwali?
 *During* summer, it becomes very hot and humid in the plains.
-What did you discuss *at* the meeting?
-He has been living here *for* five years.
-We had a holiday *on* 18 April.
-We reached *in* time to catch the train.`,
+What did you discuss *at* the meeting?`,
 
-        `India got independence *on* 15th August 1947. 
-Try to come home *before* it starts raining. 
-*During* World War I, many civilians lost their lives.
+        `He has been living here *for* five years.
+We had a holiday *on* 18 April.
+We reached *in* time to catch the train.
+India got independence *on* 15th August 1947. 
+Try to come home *before* it starts raining. `,
+
+        `*During* World War I, many civilians lost their lives.
 I wake up *at* 6 o'clock in the morning.
 We have to finish the project *before* the deadline.
-My brother will arrive *by* the end of the week.`,
+My brother will arrive *by* the end of the week.
+We have a meeting *on* Monday.`,
 
-        `We have a meeting *on* Monday.
-The concert starts *at* 7 p.m.
+        `The concert starts *at* 7 p.m.
 We are going on vacation *during* the summer.
 My sister got married *in* 2010.
 The flower show will take place *in* September.
@@ -468,19 +472,20 @@ I was born *in* 1997.`
 He drove the car *across* the bridge.
 She looked *up* at the sky.
 They forgave each other *for* the sake of their friendship.
-She cried *because* of the sad news of her pet's demise.
-She wrote a letter *to* her parents as she was missing them.
-They raised money *for* the charity fund for undernourished children.`,
+She cried *because* of the sad news of her pet's demise.`,
 
-        `We went for a walk *along* the river.
+        `She wrote a letter *to* her parents as she was missing them.
+They raised money *for* the charity fund for undernourished children.
+We went for a walk *along* the river.
 The cat tried to jump *over* the fence but tripped and fell.
-Sam and Rehan ran *around* the track all day.
-Before the competition, James swam *across* the river and back to build up stamina.
-He climbed *up* a tree to get *over* the wall and *into* the orchard.
-We need to start preparations *for* Sports Day.`,
+Sam and Rehan ran *around* the track all day.`,
 
-        `He won't succeed *with* hard work alone.
-I need the money *for* the rent.
+        `Before the competition, James swam *across* the river and back to build up stamina.
+He climbed *up* a tree to get *over* the wall and *into* the orchard.
+We need to start preparations *for* Sports Day.
+He won't succeed *with* hard work alone.`,
+
+        `I need the money *for* the rent.
 When Archimedes discovered the law of buoyancy, he ran *through* the streets shouting 'Eureka!'
 A flying saucer just flew *over* that building.`
       ]
@@ -545,22 +550,22 @@ Place a checkmark *within* the box.`,
         `The gas station is *by* the grocery store.
 The park is *near* her house.
 There is a deer *between* the two trees.
-There is a purple flower *among* the weeds.`,
+There is a purple flower *among* the weeds.
+*Among* all the applicants, Sarah was the most qualified for the job.`,
 
-        `*Among* all the applicants, Sarah was the most qualified for the job.
-The grocery store is located *near* my house.
+        `The grocery store is located *near* my house.
 We walked *across* the bridge to get to the other side of the river.
 The path *along* the beach is perfect for a morning jog.
-The competition was *between* two strong candidates.`,
+The competition was *between* two strong candidates.
+John was hiding *behind* the door to scare his sister.`,
 
-        `John was hiding *behind* the door to scare his sister.
-I am heading *toward* the city center to meet my friends.
+        `I am heading *toward* the city center to meet my friends.
 The keys are somewhere *within* the house.
 *Among* the many options available, he chose the one that seemed most reasonable.
-The park is located *near* the city center, making it easily accessible.`,
+The park is located *near* the city center, making it easily accessible.
+The river flows *along* the edge of the town, providing a picturesque view.`,
 
-        `The river flows *along* the edge of the town, providing a picturesque view.
-The dividing line *between* the two countries was clearly marked on the map.
+        `The dividing line *between* the two countries was clearly marked on the map.
 She stood *behind* me in line, waiting for her turn to be served.
 The children ran *toward* the playground as soon as they saw it.
 The key to success lies *within* oneself; it cannot be found externally.`

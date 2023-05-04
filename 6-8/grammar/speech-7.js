@@ -45,7 +45,9 @@ Eg: according to, because of, in spite of, out of.`
       type: 'completeWord',
       id: 'complete-word-cmp',
       label: 'Complete Word - Compound Words',
-      title: 'Answer the riddles with compound words.',
+      commonData: {
+        title: `Answer the riddles with compound words.`
+      },
       data: [
         `I can be high or low, but I'm always full of energy. What am I? |Power surge| P____ surge
 I'm something you can hold in your hand, but I'm not solid. What am I?| Air pocket| A__ pocket
@@ -209,22 +211,29 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
 1. Most comparative and superlative degrees are made by adding -er and -est. If the adjective ends in -e, only then -r and -st are added.`,
           {
             type: 'html',
-            text: `Eg: sweet -> sweet<b>er</b> -> sweet<b>est</b>; safe -> saf<b>er</b> -> saf<b>est</b>; dark -> dark<b>er</b> -> dark<b>est</b>`
+            text: `Eg: sweet -> sweet<b>er</b> -> sweet<b>est</b><br> 
+            safe -> saf<b>er</b> -> saf<b>est</b><br>
+            dark -> dark<b>er</b> -> dark<b>est</b>`
           },
           `2. Adjectives ending in y, drop the -y and take -ier and -iest.`,
           {
             type: 'html',
-            text: `Eg: crazy -> craz<b>ier</b> -> craz<b>iest</b>; early  -> earl<b>ier</b> -> earl<b>iest</b>; happy -> happ<b><ier</b> -> happ<b>iest</b>`
+            text: `Eg: crazy -> craz<b>ier</b> -> craz<b>iest</b><br>
+            early  -> earl<b>ier</b> -> earl<b>iest</b><br>
+            happy -> happ<b>ier</b> -> happ<b>iest</b>`
           },
           `3. In some adjectives that have just one syllable, the last consonant is doubled.`,
           {
             type: 'html',
-            text: `Eg: thin —> thi<b>nner</b> —> thi<b>nnest</b>; sad —> sa<b>dder</b> -> sa<b>ddest</b>; dim -> di<b>mmer</b> -> di<b>mmest</b>`
+            text: `Eg: thin —> thi<b>nner</b> —> thi<b>nnest</b><br>
+            sad —> sa<b>dder</b> -> sa<b>ddest</b><br>
+            dim -> di<b>mmer</b> -> di<b>mmest</b>`
           },
           `4. Adjectives that have more than two or three syllables take more and most to make comparative and superlative degrees. These include adjectives that end in -ed, -ful, -less, -ing, etc.`,
           {
             type: 'html',
-            text: `Eg: excited -> <b>more</b> excited —> <b>most</b> excited; useful —> <b>more</b> useful -> <b>most</b> useful`
+            text: `Eg: excited -> <b>more</b> excited —> <b>most</b> excited<br>
+            useful —> <b>more</b> useful -> <b>most</b> useful`
           }
         ]
       }
@@ -270,40 +279,40 @@ I'm something you can use to clean the floor, but I'm not a broom. What am I? |D
       },
       lockAfter: 2,
       data: [
-        `Big, *Bigger*, Biggest
-Thin, Thinner, *Thinnest*
-Fat, *Fatter*, Fattest
-Dim, Dimmer, *Dimmest*
-Hot, *Hotter*, Hottest`,
+        `Big -> *Bigger* -> Biggest
+Thin -> Thinner -> *Thinnest*
+Fat -> *Fatter* -> Fattest
+Dim -> Dimmer -> *Dimmest*
+Hot -> *Hotter* -> Hottest`,
 
-        `Sad, Sadder, *Saddest*
-Slim, *Slimmer*, Slimmest
-Red, Redder, *Reddest*
-Bright, *Brighter*, Brightest
-Short, Shorter, *Shortest*
-Weak, *Weaker*, Weakest`,
+        `Sad -> Sadder -> *Saddest*
+Slim -> *Slimmer* -> Slimmest
+Red -> Redder -> *Reddest*
+Bright -> *Brighter* -> Brightest
+Short -> Shorter -> *Shortest*
+Weak -> *Weaker* -> Weakest`,
 
-        `Long, Longer, *Longest*
-Smart, *Smarter*, Smartest
-Cool, Cooler, *Coolest*
-Dark, *Darker*, Darkest
-Small, Smaller, *Smallest*`,
+        `Long -> Longer -> *Longest*
+Smart -> *Smarter* -> Smartest
+Cool -> Cooler -> *Coolest*
+Dark -> *Darker* -> Darkest
+Small -> Smaller -> *Smallest*`,
 
-        `Bold, *Bolder*, Boldest
-Humble, Humbler, *Humblest*
-Simple, *Simpler*, Simplest
-Fine, Finer, *Finest*
-Noble, *Nobler*, Noblest`,
+        `Bold -> *Bolder* -> Boldest
+Humble -> Humbler -> *Humblest*
+Simple -> *Simpler* -> Simplest
+Fine -> Finer -> *Finest*
+Noble -> *Nobler* -> Noblest`,
 
-        `Brave, Braver, *Bravest*
-Wealthy, *Wealthier*, Wealthiest
-*Healthy*, Healthier, Healthiest
-Costly, *Costlier*, Costliest`,
+        `Brave -> Braver -> *Bravest*
+Wealthy -> *Wealthier* -> Wealthiest
+*Healthy* -> Healthier -> Healthiest
+Costly -> *Costlier* -> Costliest`,
 
-        `Busy, Busier, *Busiest*
-*Cosy*, Cosier, Cosiest
-Little, *Less*, *Least*
-Many, *More*, Most`
+        `Busy -> Busier -> *Busiest*
+*Cosy* -> Cosier -> Cosiest
+Little -> *Less* -> *Least*
+Many -> *More* -> Most`
       ]
     },
     {
@@ -311,7 +320,7 @@ Many, *More*, Most`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title: `Fill in the blanks with the most appropriate degree of comparison in the following sentences.`
+        title: `Fill in the blanks with the most appropriate degree of comparison.`
       },
       data: [
         `Athiya is *smarter (smartest)* than most of her friends.
@@ -352,7 +361,7 @@ He is *more skilled (more skill)* at math than me.`
       commonData: {
         noOptions: true,
         title:
-          'Fill in the blanks with the most appropriate degree of comparison in the following sentences.'
+          'Fill in the blanks with the most appropriate degree of comparison.'
       },
       lockAfter: 2,
       data: [

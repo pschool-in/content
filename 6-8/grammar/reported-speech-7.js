@@ -190,9 +190,8 @@ I shall tell him that she will go to school.`
         `"I am tired," said James.
 James said that he *was* tired.
 "I am happy," said Lisa.
-Lisa said that she *was* happy.`,
-
-        `"I do not like chocolate," she said.
+Lisa said that she *was* happy.
+"I do not like chocolate," she said.
 She said that she *did* not like chocolate.
 "I will be there at 2 pm," he said.
 He said that he *would* be there at 2 pm.`,
@@ -200,9 +199,8 @@ He said that he *would* be there at 2 pm.`,
         `"I have a headache," she said.
 She said that she *had* a headache.
 "I saw a movie last night," he said.
-He said that he *had* seen a movie the *previous* night.`,
-
-        `"I need to study for my exams," he said.
+He said that he *had* seen a movie the *previous* night.
+"I need to study for my exams," he said.
 He said that he *needed* to study for his exams.
 "I want to go on vacation," she said.
 She said that she *wanted* to go on vacation.`,
@@ -210,9 +208,8 @@ She said that she *wanted* to go on vacation.`,
         `"I have to leave now," he said.
 He said that he *had* to leave *then*.
 "I am excited about the party," she said.
-She said that she was *excited* about the party.`,
-
-        `"I am not feeling well," he said.
+She said that she was *excited* about the party.
+"I am not feeling well," he said.
 He said that he *was* not feeling well.
 "I *do* not like spicy food," she said.
 She said that she *did* not like spicy food.`,
@@ -220,9 +217,8 @@ She said that she *did* not like spicy food.`,
         `"I can't swim," he said.
 He said *that* he couldn't swim.
 "I want to buy a new car," she said.
-She said that she *wanted* to buy a new car.`,
-
-        `"I am happy to be here," he said.
+She said that she *wanted* to buy a new car.
+"I am happy to be here," he said.
 He said that he was happy to be *there*.
 "I'm afraid of spiders," she said.
 She said that she *was* afraid of spiders.`,
@@ -230,9 +226,8 @@ She said that she *was* afraid of spiders.`,
         `"I love my job," he said.
 He said that he *loved* his job.
 "I need some help," she said.
-She said that she *needed* some help.`,
-
-        `"I'm sorry for what I said," he said.
+She said that she *needed* some help.
+"I'm sorry for what I said," he said.
 He *apologized* for what he had said.
 "I can not eat gluten," she said.
 She said that she *could* not eat gluten.`,
@@ -240,9 +235,8 @@ She said that she *could* not eat gluten.`,
         `"I have to go to the dentist," he said.
 He said that he *had* to go to the dentist.
 "I don't like horror movies," she said.
-She *said* that she didn't like horror movies.`,
-
-        `"I am learning Spanish," he said.
+She *said* that she didn't like horror movies.
+"I am learning Spanish," he said.
 He said that he *was* learning Spanish.
 "I'm excited about the concert," she said.
 She said that she *was* excited about the concert.`,
@@ -250,9 +244,8 @@ She said that she *was* excited about the concert.`,
         `"I do not have any money," he said.
 He said that he *did* not have any money.
 "I am going to the store," said Tom.
-Tom said that he *was* going to the store.`,
-
-        `"I love chocolate," said Mary.
+Tom said that he *was* going to the store.
+"I love chocolate," said Mary.
 Mary said that she *loved* chocolate.
 "I will be there at 3 o'clock," said John.
 John said that he *would* be there at 3 o'clock.`,
@@ -260,9 +253,8 @@ John said that he *would* be there at 3 o'clock.`,
         `"I can not come to the party," said Jane.
 Jane said that she *could* not come to the party.
 "I have finished my homework," said Susan.
-Susan said that she *had* finished her homework.`,
-
-        `"I do not like Biriyani," said Mark.
+Susan said that she *had* finished her homework.
+"I do not like Biriyani," said Mark.
 Mark said that he *did* not like Biriyani.
 "I am studying for my exam," said Emily.
 Emily said that she *was* studying for her exam.`,
@@ -270,9 +262,8 @@ Emily said that she *was* studying for her exam.`,
         `"I want to go to the beach," said Peter.
 Peter said that he *wanted* to go to the beach.
 "I saw a movie last night," said Sarah.
-Sarah said that she *had* seen a movie last night.`,
-
-        `Mr. Richard *requested* me to *wait there* till he returned.
+Sarah said that she *had* seen a movie last night.
+Mr. Richard *requested* me to *wait there* till he returned.
 Mr. Richard said to me, “Please wait here till I return.
 The captain *applauded* me, saying that I *had played* well.
 The captain said to me, “Bravo! You have played well.”`,
@@ -280,9 +271,8 @@ The captain said to me, “Bravo! You have played well.”`,
         `Lisa said that she *couldn't* wait for the concert.
 "I can't wait for the concert," said Lisa.
 The teacher said that she *would* help with homework.
-"I will help you with your homework," said the teacher.`,
-
-        `David said that he *was* sorry for being late.
+"I will help you with your homework," said the teacher.
+David said that he *was* sorry for being late.
 "I am sorry for being late," said David.
 Jenny said that she *was* so happy for the *other* person.
 "I am so happy for you," said Jenny.`,
@@ -290,9 +280,8 @@ Jenny said that she *was* so happy for the *other* person.
         `Emily said that she *wanted* to learn how to cook.
 "I want to learn how to cook," said Emily.
 Mark said that he *was* tired of the job.
-"I am tired of this job," said Mark.`,
-
-        `Michael said that he *was* excited about the game *tonight*.
+"I am tired of this job," said Mark.
+Michael said that he *was* excited about the game *tonight*.
 "I am excited about the game tonight," said Michael.
 Susan *said* that she *had* a headache.
 "I have a headache," said Susan.`,
@@ -300,9 +289,8 @@ Susan *said* that she *had* a headache.
         `Alex said that he *was* not sure if he *could* make it.
 "I am not sure if I can make it," said Alex.
 Jane said that she *couldn't* believe she *passed* the test.
-"I can't believe I passed the test," said Jane.`,
-
-        `"I do not understand the assignment," said Alex.
+"I can't believe I passed the test," said Jane.
+"I do not understand the assignment," said Alex.
 Alex said that he *did* not understand the assignment.
 "I'm going to visit my grandparents," said David.
 David said that he *was* going to visit his grandparents.`

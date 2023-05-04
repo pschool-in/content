@@ -31,7 +31,7 @@ They <i>themselves</i> suggested this restaurant.`
             text: `Eg: These are <i>my</i> spectacles. => These spectacles are <i>mine</i>.<br>
 Those are <i>your</i> slippers. => Those slippers are <i>yours</i>.`
           },
-          `4. Relative Pronouns: A relative pronoun relates a clause to a noun used earlier. The clause is usually a subordinate clause and it is introduced by the relative pronoun.`,
+          `4. Relative Pronouns: Relative pronoun relates a clause to a noun used earlier. The clause is usually a subordinate clause and it is introduced by the relative pronoun.`,
           {
             type: 'html',
             text: `Eg: I like rasgulla, <i>which</i> is a popular sweet.<br>

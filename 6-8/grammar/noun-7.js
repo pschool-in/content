@@ -14,33 +14,33 @@ export default {
 1. Common Noun: A common noun is a general, ordinary name of a person, place, animal, thing or event.`,
           {
             type: 'html',
-            text: `Eg: <b>girl</b>, <b>school</b>, <b>pencil</b>, <b>city</b>, <b>bag</b>, <b>cat</b>, <b>driver</b>, <b>festival</b>`
+            text: `Eg: <i>girl</i>, <i>school</i>, <i>pencil</i>, <i>city</i>, <i>bag</i>, <i>cat</i>, <i>driver</i>, <i>festival</i>`
           },
-          `2. Proper Noun: A name used for an individual person, place, or organization, spelled with an initial capital letter.`,
+          `2. Proper Noun: A proper noun is a name used for an individual person, place, or organization, spelled with an initial capital letter.`,
           {
             type: 'html',
-            text: `Eg: <b>John</b>, <b>the Himalayas</b>, <b>the WHO</b>, <b>India</b>`
+            text: `Eg: <i>John</i>, <i>the Himalayas</i>, <i>the WHO</i>, <i>India</i>`
           },
-          `3. Collective Noun: Used for a collection of people or things.`,
+          `3. Collective Noun: A collective noun is used to describe a collection of people or things.`,
           {
             type: 'html',
-            text: `Eg: <b>bundle</b>, <b>basket</b>, <b>crew</b>, <b>team</b>, <b>pack</b>`
+            text: `Eg: <i>bundle</i>, <i>basket</i>, <i>crew</i>, <i>team</i>, <i>pack</i>`
           },
-          `4. Abstract Noun: Describes a concept, feeling or emotion.`,
+          `4. Abstract Noun: An abstract noun describes a concept, feeling or emotion.`,
           {
             type: 'html',
-            text: ` Eg: <b>success</b>, <b>wealth</b>, <b>calm</b>, <b>fear</b>, <b>courage</b>`
+            text: ` Eg: <i>success</i>, <i>wealth</i>, <i>calm</i>, <i>fear</i>, <i>courage</i>`
           },
           `Nouns can also be classified as countable and uncountable nouns.
 1. Countable Noun: Anything that can be counted with numbers is called a countable noun.`,
           {
             type: 'html',
-            text: `Eg: <b>child</b>, <b>dog</b>, <b>egg</b>, <b>room</b>, <b>chair</b>`
+            text: `Eg: <i>child</i>, <i>dog</i>, <i>egg</i>, <i>room</i>, <i>chair</i>`
           },
           `2. Uncountable Noun: Anything that cannot be counted is known as an uncountable noun.`,
           {
             type: 'html',
-            text: ` Eg: <b>sugar</b>, <b>oil</b>, <b>milk</b>, <b>rain<b>, <b>faith</b>`
+            text: ` Eg: <i>sugar</i>, <i>oil</i>, <i>milk</i>, <i>rain<i>, <i>faith</i>`
           }
         ]
       }
@@ -186,40 +186,40 @@ My mom loves to chop *vegetables*.`,
           `# Collective Nouns for Animals`,
           {
             type: 'html',
-            text: `a <b>swarm</b> of bees <br>  
-a <b>shoal/school</b> of fish <br>  
-a <b>herd</b> of sheep  <br> 
-a <b>fleet</b> of ships <br>  
-a <b>flock</b> of birds <br>  
-a <b>pride</b> of lions <br>  
-a <b>pack</b> of wolves <br>  
-a <b>colony</b> of ants   `
+            text: `a <i>swarm</i> of bees <br>  
+a <i>shoal/school</i> of fish <br>  
+a <i>herd</i> of sheep  <br> 
+a <i>fleet</i> of ships <br>  
+a <i>flock</i> of birds <br>  
+a <i>pride</i> of lions <br>  
+a <i>pack</i> of wolves <br>  
+a <i>colony</i> of ants   `
           },
           `# Collective Nouns for People`,
           {
             type: 'html',
-            text: `a <b>troupe/company/cast</b> of actors <br>    
-an <b>army</b>  of soldiers <br>   
-a <b>band</b>  of musicians <br>   
-a <b>troop</b>  of warriors <br>   
-a <b>board</b>  of directors <br>   
-a <b>crew</b>  of sailors <br>   
-a <b>choir</b>  of singers <br>   
-a <b>group</b>  of dancers <br>   
-a <b>pack</b>  of thieves <br>   
-a <b>team</b>  of players <br>   
-a <b>panel/bench</b>  of judges <br>`
+            text: `a <i>troupe/company/cast</i> of actors <br>    
+an <i>army</i>  of soldiers <br>   
+a <i>band</i>  of musicians <br>   
+a <i>troop</i>  of warriors <br>   
+a <i>board</i>  of directors <br>   
+a <i>crew</i>  of sailors <br>   
+a <i>choir</i>  of singers <br>   
+a <i>group</i>  of dancers <br>   
+a <i>pack</i>  of thieves <br>   
+a <i>team</i>  of players <br>   
+a <i>panel/bench</i>  of judges <br>`
           },
 
           `# Collective Nouns for Objects/Things`,
           {
             type: 'html',
-            text: `a <b>deck/pack</b>  of cards <br>  
-a <b>packet</b>  of cigarettes <br>  
-a <b>range</b>  of mountains <br>  
-a <b>bunch</b>  of grapes <br>  
-a <b>bouquet</b> of flowers <br>  
-a <b>grove</b> of trees`
+            text: `a <i>deck/pack</i>  of cards <br>  
+a <i>packet</i>  of cigarettes <br>  
+a <i>range</i>  of mountains <br>  
+a <i>bunch</i>  of grapes <br>  
+a <i>bouquet</i> of flowers <br>  
+a <i>grove</i> of trees`
           }
         ]
       }
@@ -369,13 +369,13 @@ With growing awareness, people are moving away from gendered terms and embracing
 Examples of gendered terms	and their gender-neutral terms:`,
           {
             type: 'html',
-            text: `Mankind => <b>Humankind</b>  <br>
-Policeman, policewoman =>	<b>Police</b> <br>
-Fireman =>	<b>Firefighter</b>  <br>
-Chairman => <b>Chairperson</b>  <br>
-Stewardess, Steward	=> <b>Flight attendant</b>  <br>
-Actor, actress	=> <b>Actor</b>  <br>
-Common man	=> <b>Common person</b> `
+            text: `Mankind => <i>Humankind</i>  <br>
+Policeman, policewoman =>	<i>Police</i> <br>
+Fireman =>	<i>Firefighter</i>  <br>
+Chairman => <i>Chairperson</i>  <br>
+Stewardess, Steward	=> <i>Flight attendant</i>  <br>
+Actor, actress	=> <i>Actor</i>  <br>
+Common man	=> <i>Common person</i> `
           }
         ]
       }
@@ -462,7 +462,9 @@ Fox, Vixen`
       type: 'completeWord',
       id: 'complete-word-gender',
       label: 'Complete Word - Gender',
-      title: 'Complete the masculine word for the given feminine word.',
+      commonData: {
+        title: 'Complete the masculine word for the given feminine word.'
+      },
       data: [
         `girl | BOY
 mother | FATHER
@@ -506,7 +508,7 @@ cow| BULL`
 1. The plural of most nouns is formed when -s are added to them.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Ball - Ball<b>s</b><br>
+            text: `Eg - Ball - Ball<b>s</b><br>
 Book - Book<b>s</b><br>
 Car - Car<b>s</b><br>
 Ear - Ear<b>s</b>`
@@ -514,7 +516,7 @@ Ear - Ear<b>s</b>`
           `2. Nouns ending in -ch,-s,-sh,-ss, and -x form plural if -es is added to them.`,
           {
             type: 'html',
-            text: `<b>Examples</b> -Ben<b>ch</b> - Bench<b>es</b><br>
+            text: `Eg -Ben<b>ch</b> - Bench<b>es</b><br>
 Bru<b>sh</b> - Brush<b>es</b><br>
 Bo<b>x</b> - Box<b>es</b><br>
 Cla<b>ss</b> - Class<b>es</b>`
@@ -522,22 +524,22 @@ Cla<b>ss</b> - Class<b>es</b>`
           `3. Most of the nouns ending with -o form their plural when -es is added to their singular.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Buffal<b>o</b> - Buffalo<b>es</b><br>
+            text: `Eg - Buffal<b>o</b> - Buffalo<b>es</b><br>
 Carg<b>o</b> - Cargo<b>es</b><br>
 Her<b>o</b> - Hero<b>es</b><br>
-<b>Exemptions</b>: Bambo<b>o</b>- Bambo<b>os</b><br>
-Dynam<b>o</b>- Dynam<b>os</b><br>
-Mement<b>o</b>- Mement<b>os</b><br>
-Phot<b>o</b>- Phot<b>os</b><br>
-Pian<b>o</b>- Pian<b>os</b>`
+<i>Exemptions</i>: Bambo<b>o</b> - Bambo<b>os</b><br>
+Dynam<b>o</b> - Dynam<b>os</b><br>
+Mement<b>o</b> - Mement<b>os</b><br>
+Phot<b>o</b> - Phot<b>os</b><br>
+Pian<b>o</b> - Pian<b>os</b>`
           },
           `4. If the noun ends with -f or -fe, its plural is formed by adding -ves to its singular.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Cal<b>f</b> - cal<b>ves</b><br>
+            text: `Eg - Cal<b>f</b> - cal<b>ves</b><br>
 El<b>f</b> - El<b>ves</b><br>
 Hal<b>f</b> - Hal<b>ves</b><br>
-<b>Exemptions</b>: Belie<b>f</b> - Belief<b>s</b><br>
+<i>Exemptions</i>: Belie<b>f</b> - Belief<b>s</b><br>
 Chie<b>f</b> - Chief<b>s</b><br>
 Clif<b>f</b> - Cliff<b>s</b><br>
 Roo<b>f</b> - Roof<b>s</b><br>
@@ -546,10 +548,10 @@ Proo<b>f</b> - Proof<b>s</b>`
           `5. If a noun ends with -y and has a consonant before it, to make it plural we add -ies in place of -y.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Arm<b>y</b> - Arm<b>ies</b><br>
+            text: `Eg - Arm<b>y</b> - Arm<b>ies</b><br>
 Bab<b>y</b> - Bab<b>ies</b><br>
 Cit<b>y</b> - Cit<b>ies</b><br>
-<b>Exemptions</b>: Bo<b>y</b> - Boy<b>s</b><br>
+<i>Exemptions</i>: Bo<b>y</b> - Boy<b>s</b><br>
 Da<b>y</b> - Day<b>s</b><br>
 Ke<b>y</b> - Key<b>s</b><br>
 Monke<b>y</b> - Monkey<b>s</b><br>
@@ -558,7 +560,7 @@ Valle<b>y</b> - Valley<b>s</b>.`
           `6. Some nouns are formed plural by changing the vowels inside them.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - F<b>oo</b>t - F<b>ee</b>t<br>
+            text: `Eg - F<b>oo</b>t - F<b>ee</b>t<br>
 G<b>oo</b>se - G<b>ee</b>se<br>
 M<b>a</b>n - M<b>e</b>n<br>
 T<b>oo</b>th - T<b>ee</b>th<br>
@@ -567,40 +569,40 @@ Wom<b>a</b>n - Wom<b>e</b>n`
           `7. Some nouns don't follow any rules. We need to keep in mind their singular as well as the plural form.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Child - <b>Children</b><br>
-Mouse - <b>Mice</b><br>
-Louse - <b>Lice</b><br>
-Ox - <b>Oxen</b>`
+            text: `Eg - Child - <i>Children</i><br>
+Mouse - <i>Mice</i><br>
+Louse - <i>Lice</i><br>
+Ox - <i>Oxen</i>`
           },
           `8. Some nouns do not differ in their singular and plural.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Deer - <b>Deer</b><br>
-Fish - <b>Fish</b><br>
-Hundred - <b>Hundred</b><br>
-Sheep - <b>sheep</b><br>
-Score - <b>Score</b>`
+            text: `Eg - Deer - <i>Deer</i><br>
+Fish - <i>Fish</i><br>
+Hundred - <i>Hundred</i><br>
+Sheep - <i>sheep</i><br>
+Score - <i>Score</i>`
           },
           `9. A noun consisting of 2 or more words, forms its plural by adding -s to its principal word.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Brother in law - Brother<b>s</b> in law<br>
+            text: `Eg - Brother in law - Brother<b>s</b> in law<br>
 Commander in chief - Commander<b>s</b> in chief<br>
 Foot Man - Foot M<b>e</b>n`
           },
           `10. Name of certain apparel/clothing is used as plural.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - Aryan's <b>trousers</b> are new.<br>
-Her <b>shorts</b> are dirty.<br>
-Only white <b>socks</b> are allowed on Saturday in school.<br>`
+            text: `Eg - Aryan's <i>trousers</i> are new.<br>
+Her <i>shorts</i> are dirty.<br>
+Only white <i>socks</i> are allowed on Saturday in school.<br>`
           },
           `11. Name of some subjects sound plural but they are singular.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>Mathematics</b> is a tough subject.<br>
-<b>Politics</b> is a gloomy subject.<br>
-<b>Economics</b> is a subject that deals with the operations of the financial system.<br>`
+            text: `Eg - <i>Mathematics</i> is a tough subject.<br>
+<i>Politics</i> is a gloomy subject.<br>
+<i>Economics</i> is a subject that deals with the operations of the financial system.<br>`
           }
         ]
       }
@@ -741,17 +743,17 @@ Ms. Lee is our headmaster.`
           `1. Nominative Case: When a noun is used as the subject of the verb, it is called the nominative case.`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>Karan</b> won the match.`
+            text: `Eg - <i>Karan</i> won the match.`
           },
           `2. Objective Case: When the noun is used as an object of the verb, it is called the objective case.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Chetan Bhagat writes <b>novels</b>. (The word novel is the object of verb writes)`
+            text: `Eg - Chetan Bhagat writes <i>novels</i>. (The word novel is the object of verb writes)`
           },
           `3. Possessive Case: When the noun shows possession, it is called the possessive case.`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>Pari's</b> book is kept on the bed.`
+            text: `Eg - <i>Pari's</i> book is kept on the bed.`
           }
         ]
       }

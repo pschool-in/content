@@ -11,9 +11,9 @@ export default {
         title: 'Active and Passive Voice',
         text: [
           `Active Voice: In active voice, the subject of the sentence performs the action denoted by the verb. 
-Example - I made a mistake.
+Eg - I made a mistake.
 Passive Voice: In passive voice, the subject of the sentence receives the action denoted by the verb. 
-Example - A mistake was made by me.
+Eg - A mistake was made by me.
 # Rules
 To change a sentence from active voice to passive voice, follow these steps:
 1. Make the object of the active verb the subject of the passive verb.
@@ -247,9 +247,8 @@ The singer will sing a new song. | a new song will be sung by the singer `
         ` The company will release a new product next month.
 A new product will *be released* by the company next month
 The teacher gave the students a homework assignment.
-A homework assignment *was given* to the students by the teacher.`,
-
-        ` The doctor prescribed a new medication for the patient.
+A homework assignment *was given* to the students by the teacher.
+The doctor prescribed a new medication for the patient.
 A new medication *was prescribed* for the patient by the doctor.
 The company is redesigning its website.
 Their website is *being redesigned* by the company.`,
@@ -257,9 +256,8 @@ Their website is *being redesigned* by the company.`,
         `The principal will announce the winner of the competition.
 The winner of the competition will *be announced* by the principal
 The company paid the employees last week.
-The employees *were paid* by the company last week..`,
-
-        `The company is going to hire new employees.
+The employees *were paid* by the company last week.
+The company is going to hire new employees.
 New employees *are going* to be hired by the company.
 The tornado damaged several buildings in the town.
 Several buildings in the town *were damaged* by the tornado.`,
@@ -267,9 +265,8 @@ Several buildings in the town *were damaged* by the tornado.`,
         ` The company made a huge profit last quarter.
 A huge profit *was made* by the company last quarter.
 The company is launching a new advertising campaign.
-A new advertising campaign *is being* launched by the company.`,
-
-        `The teacher will give the students a quiz next week.
+A new advertising campaign *is being* launched by the company.
+The teacher will give the students a quiz next week.
 A quiz will *be given* to the students by the teacher next week.
 The company is training its new employees.
 The new employees *are being* trained by the company.`,
@@ -277,9 +274,8 @@ The new employees *are being* trained by the company.`,
         `The librarian checked out a book for me.
 A book *was* checked out for me by the librarian.
 The company is upgrading its computer systems.
-Their computer systems *are being* upgraded by the company.`,
-
-        `The company will announce the new CEO next week.
+Their computer systems *are being* upgraded by the company.
+The company will announce the new CEO next week.
 The new CEO will be announced *by* the company next week.
 The company gave the employees a bonus.
 A bonus *was given* to the employees by the company.`,
@@ -287,9 +283,8 @@ A bonus *was given* to the employees by the company.`,
         `The workers are building a new factory.
 A new factory *is being* built by the workers.
 The storm destroyed the old building.  
-The old building *was destroyed* by the storm.`,
-
-        `The company will launch a new product next month.  
+The old building *was destroyed* by the storm.
+The company will launch a new product next month.  
 A new product will *be launched* by the company next month.
 The teacher is teaching a lesson.  
 A lesson *is being* taught by the teacher.`,

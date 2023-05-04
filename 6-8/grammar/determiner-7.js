@@ -113,7 +113,7 @@ The grammar rules for determiners are:
       type: 'fillup',
       commonData: {
         noOptions: true,
-        title: 'Form complete sentences, using appropriate determiners.'
+        title: 'Complete the conversation, using appropriate determiners.'
       },
       lockAfter: 2,
       data: [
@@ -387,7 +387,9 @@ This bakery is very popular, *most (many)* of the cookies are sold by lunchtime.
       type: 'completeWord',
       id: 'complete-word',
       label: 'Complete Word',
-      title: 'Complete the ordinal forms of the numbers given below.',
+      commonData: {
+        title: 'Complete the ordinal forms of the numbers given below.'
+      },
       data: [
         `one| first
 two| second
