@@ -11,13 +11,13 @@ export default {
         title: 'Clauses',
         text: [
           `A group of words containing a subject and a finite verb is called a clause. It is formed when a subject and a predicate are combined to communicate an idea. 
-  # Features of a clause
-  1. A clause has a subject and a predicate.
-  2. A clause has a finite verb.
-  3. The subject may be both implicit and explicit.
-  # Subordinate Clause 
-  Subordinate clauses are introduced by a subordinating conjunction (because, though, however, before) or relative pronouns (who, what, which) that function as subordinating conjunctions. They are mainly of four types.
-  1. Noun/Nominal Clause: When a subordinate clause performs the function of a standard noun in a sentence, it is known as a noun clause or nominal clause. It can be the subject or the object of a transitive verb, subject complements, delayed subjects or appositives.`,
+# Features of a clause
+1. A clause has a subject and a predicate.
+2. A clause has a finite verb.
+3. The subject may be both implicit and explicit.
+# Subordinate Clause 
+Subordinate clauses are introduced by a subordinating conjunction (because, though, however, before) or relative pronouns (who, what, which) that function as subordinating conjunctions. They are mainly of four types.
+1. Noun/Nominal Clause: When a subordinate clause performs the function of a standard noun in a sentence, it is known as a noun clause or nominal clause. It can be the subject or the object of a transitive verb, subject complements, delayed subjects or appositives.`,
           {
             type: 'html',
             text: `<b>Example</b> - Rahima said <b>that she wanted to become an author</b>.`
@@ -33,37 +33,37 @@ export default {
             text: `<b>Example</b> - Hari <b>came to meet me at the station</b> as I was leaving.`
           },
           `Adverb clauses can be of various kinds, depending on their functions. (Adverb clause of time, place, reason, result, condition, concession, manner and degree)
-  4. Conditional/If Clause: They are used
-  a) to express cause-effect relationships for physical conditions.
-  b) to suggest habitual actions.
-  c) to show real conditions.
-  d) to show actions when certain conditions are fulfilled.
-  e) to show willingness and likelihood/probability.
-  f) for unreal conditions.
-  g) for imaginary conditions.`,
+4. Conditional/If Clause: They are used
+a) to express cause-effect relationships for physical conditions.
+b) to suggest habitual actions.
+c) to show real conditions.
+d) to show actions when certain conditions are fulfilled.
+e) to show willingness and likelihood/probability.
+f) for unreal conditions.
+g) for imaginary conditions.`,
           {
             type: 'html',
             text: `<b>Example</b> - <b>If you see dark clouds in the sky</b>, you can expect rain.<br>
-  <b>Unless you tell me your problems</b>, I cannot help.<br>
-  <b>If I had come to the party</b>, I could have met my friend.`
+<b>Unless you tell me your problems</b>, I cannot help.<br>
+<b>If I had come to the party</b>, I could have met my friend.`
           },
           `A phrase, on the other hand, is a group of words that does not contain a subject and a predicate, and it does not express a complete thought. Phrases can function as nouns, adjectives, or adverbs in a sentence.
-  A noun phrase functions as a noun in a sentence. For example: "The big red ball."
-  An adjective phrase functions as an adjective in a sentence. For example: "The girl with the curly hair."
-  An adverb phrase functions as an adverb in a sentence. For example: "He drove the car very slowly."`,
+A noun phrase functions as a noun in a sentence. For example: "The big red ball."
+An adjective phrase functions as an adjective in a sentence. For example: "The girl with the curly hair."
+An adverb phrase functions as an adverb in a sentence. For example: "He drove the car very slowly."`,
           {
             type: 'table',
             title: ['Phrases', 'Clauses'],
             text: [
               `A phrase does not have a subject and predicate.
-  A phrase is not complete, and cannot make sense or convey meaning if it stands on its own.
-  There are five types of phrases namely noun phrase, adverb phrase, adjective phrase and prepositional phrase.
-  Example: There is an unidentified vehicle in front of our house.`,
+A phrase is not complete, and cannot make sense or convey meaning if it stands on its own.
+There are five types of phrases namely noun phrase, adverb phrase, adjective phrase and prepositional phrase.
+Example: There is an unidentified vehicle in front of our house.`,
 
               `A clause has a subject and a predicate.
-  In some cases, a clause can look complete, convey meaning and make sense when separated from the sentence.
-  There are two types of clauses namely independent clauses and dependent clauses.
-  Example: I am sick, so I am going to see the doctor.`
+In some cases, a clause can look complete, convey meaning and make sense when separated from the sentence.
+There are two types of clauses namely independent clauses and dependent clauses.
+Example: I am sick, so I am going to see the doctor.`
             ]
           }
         ]
@@ -110,28 +110,28 @@ export default {
       },
       data: [
         `The director is the person *to whom you should write*.
-  Marina did not make the same mistakes *that her sister did*.
-  *If you want the minister to inaugurate the function*, you must plan early.
-  I know the student *who stood first*.`,
+Marina did not make the same mistakes *that her sister did*.
+*If you want the minister to inaugurate the function*, you must plan early.
+I know the student *who stood first*.`,
 
         `*Before I leave for London*, I want to meet you.
-  *If I had enough money*, I would have bought that house.
-  *Whenever you may settle down*, do not forget your roots.
-  I was not able to attend the function *because I was ill*.`,
+*If I had enough money*, I would have bought that house.
+*Whenever you may settle down*, do not forget your roots.
+I was not able to attend the function *because I was ill*.`,
 
         `He always acts as *if he knows everything*.
-  *What I need now* is a cup of coffee.
-  No one knew that *he was planning to resign*.
-  *That he is the only boy in the group* does not qualify him to be the leader.`,
+*What I need now* is a cup of coffee.
+No one knew that *he was planning to resign*.
+*That he is the only boy in the group* does not qualify him to be the leader.`,
 
         `The bus *that you have been waiting for* has arrived.
-  I know the person *who wrote that article*.
-  This is the reason *why I don't like traveling*.
-  *If you see dark clouds in the sky*, you can expect rain.`,
+I know the person *who wrote that article*.
+This is the reason *why I don't like traveling*.
+*If you see dark clouds in the sky*, you can expect rain.`,
 
         `*Unless you tell me your problems*, I cannot help.
-  *If I had come to the party*, I could have met my friend.
-  *If you exercise daily*, you will reduce weight faster.`
+*If I had come to the party*, I could have met my friend.
+*If you exercise daily*, you will reduce weight faster.`
       ]
     },
     {
@@ -145,16 +145,16 @@ export default {
           {
             name: 'Adjective',
             text: ` The director is the person to whom you should write.
-  The bus that you have been waiting for has arrived.
-  I know the person who wrote that article.
-  This is the reason why I don't like traveling.`
+The bus that you have been waiting for has arrived.
+I know the person who wrote that article.
+This is the reason why I don't like traveling.`
           },
           {
             name: 'Conditional',
             text: `If you see dark clouds in the sky, you can expect rain.
-  Unless you tell me your problems, I cannot help.
-  If I had come to the party, I could have met my friend.
-  If you exercise daily, you will reduce weight faster.`
+Unless you tell me your problems, I cannot help.
+If I had come to the party, I could have met my friend.
+If you exercise daily, you will reduce weight faster.`
           }
         ]
       }
@@ -170,16 +170,16 @@ export default {
           {
             name: 'Adverb',
             text: `Before I leave for London, I want to meet you.
-  Whenever you may settle down, do not forget your roots.
-  I was not able to attend the function because I was ill.
-  He always acts as if he knows everything.`
+Whenever you may settle down, do not forget your roots.
+I was not able to attend the function because I was ill.
+He always acts as if he knows everything.`
           },
           {
             name: 'Noun',
             text: `What I need now is a cup of coffee.
-  No one knew that he was planning to resign.
-  That he is the only boy in the group does not qualify him to be the leader.
-  The researcher said that he had found the chemical compound.`
+No one knew that he was planning to resign.
+That he is the only boy in the group does not qualify him to be the leader.
+The researcher said that he had found the chemical compound.`
           }
         ]
       }
@@ -226,48 +226,48 @@ export default {
       data: [
         [
           `She sang a song.
-  If it rains, we'll stay inside.
-  He ate his lunch quickly.`,
+If it rains, we'll stay inside.
+He ate his lunch quickly.`,
 
           `The tall building
-  Walking in the park
-  A beautiful sunset`
+Walking in the park
+A beautiful sunset`
         ],
         [
           `Because he was late, he missed the bus.
-  The book that she was reading was very interesting.
-  They will go to the beach if the weather is nice.`,
+The book that she was reading was very interesting.
+They will go to the beach if the weather is nice.`,
 
           `By the river
-  Singing a song
-  A boy with red hair`
+Singing a song
+A boy with red hair`
         ],
         [
           `I like to play soccer when I have free time.
-  After the movie ended, we went home.
-  She runs every morning before work.`,
+After the movie ended, we went home.
+She runs every morning before work.`,
 
           `Running fast
-  The girl in the red dress
-  To the store`
+The girl in the red dress
+To the store`
         ],
         [
           `Since he is allergic to peanuts, he cannot eat them.
-  My sister, who is a doctor, gave me some medical advice.
-  Unless you study, you won't pass the test.`,
+My sister, who is a doctor, gave me some medical advice.
+Unless you study, you won't pass the test.`,
 
           `A cup of coffee
-  Sleeping soundly
-  On the table`
+Sleeping soundly
+On the table`
         ],
         [
           `The teacher explained the lesson clearly.
-  When the bell rang, the students went to their classes.
-  She is going to the store to buy some milk.`,
+When the bell rang, the students went to their classes.
+She is going to the store to buy some milk.`,
 
           `The woman with the long hair
-  A very tall building
-  Laughing out loud`
+A very tall building
+Laughing out loud`
         ]
       ]
     },
@@ -284,53 +284,53 @@ export default {
       data: [
         [
           `The red bicycle
-  Running late for class`,
+Running late for class`,
 
           `The man with the hat
-  Running quickly to catch the bus`,
+Running quickly to catch the bus`,
 
           `He walked slowly down the street
-  She spoke very quietly to avoid waking up the baby`
+She spoke very quietly to avoid waking up the baby`
         ],
         [
           `A glass of water
-  My favorite movie of all time`,
+My favorite movie of all time`,
 
           `The house on the hill
-  The tall, dark, and handsome man`,
+The tall, dark, and handsome man`,
 
           `The bird chirped loudly in the morning
-  The car drove through the tunnel quickly`
+The car drove through the tunnel quickly`
         ],
         [
           `The book on the shelf
-  Playing with her toy car`,
+Playing with her toy car`,
 
           `The woman in the red dress
-  The cute and cuddly puppy`,
+The cute and cuddly puppy`,
 
           `She danced gracefully across the stage
-  The athlete ran tirelessly for hours`
+The athlete ran tirelessly for hours`
         ],
         [
           `The sound of the waves crashing on the shore
-  A trip to the beach`,
+A trip to the beach`,
 
           `The book with the torn cover
-  A delicious slice of pizza`,
+A delicious slice of pizza`,
 
           `He ate the pizza hungrily after his long day at work
-  The sun set peacefully over the horizon`
+The sun set peacefully over the horizon`
         ],
         [
           `The girl with the curly hair
-  The smell of freshly baked cookies`,
+The smell of freshly baked cookies`,
 
           `The girl with the bright smile
-  The warm and cozy blanket`,
+The warm and cozy blanket`,
 
           `The cat slept soundly on the bed
-  He played the guitar beautifully`
+He played the guitar beautifully`
         ]
       ]
     },
@@ -393,7 +393,7 @@ export default {
         title: 'Relative Clauses',
         text: [
           `Relative clauses are non-essential parts of a sentence. They may add meaning, but if they are removed, the sentence will still function grammatically.
-  1. A defining clause tells us which specific person or thing we are talking about in a larger group of people or things.`,
+1. A defining clause tells us which specific person or thing we are talking about in a larger group of people or things.`,
           {
             type: 'html',
             text: `<b>Example</b> - The woman <b>who visited me in the hospital</b> was very kind.`
@@ -414,13 +414,13 @@ export default {
         title: `Identify the relative clauses from the following sentences.`,
         multiSelect: true,
         text: `The woman *who visited me in the hospital* was very kind.
-  The umbrella *that I bought last week* is already broken.
-  The man *who stole my backpack* has been arrested.
-  The weather *that we had this summer* was beautiful.
-  The farmer, *whose name was Ram*, sold us five pounds of cherries.
-  Elephants, *which are the largest land mammals*, live in herds of ten or more.
-  The author, *who graduated from the same university as I did*, gave a wonderful motivation speech.
-  My mother, *who is fifty*, lives in Dubai.`
+The umbrella *that I bought last week* is already broken.
+The man *who stole my backpack* has been arrested.
+The weather *that we had this summer* was beautiful.
+The farmer, *whose name was Ram*, sold us five pounds of cherries.
+Elephants, *which are the largest land mammals*, live in herds of ten or more.
+The author, *who graduated from the same university as I did*, gave a wonderful motivation speech.
+My mother, *who is fifty*, lives in Dubai.`
       }
     },
     {
@@ -434,16 +434,16 @@ export default {
           {
             name: 'Defining',
             text: ` The woman who visited me in the hospital was very kind.
-  The umbrella that I bought last week is already broken.
-  The man who stole my backpack has been arrested.
-  The weather that we had this summer was beautiful.`
+The umbrella that I bought last week is already broken.
+The man who stole my backpack has been arrested.
+The weather that we had this summer was beautiful.`
           },
           {
             name: 'Non-defining',
             text: `The farmer, whose name was Ram, sold us five pounds of cherries.
-  Elephants, which are the largest land mammals, live in herds of ten or more.
-  The author, who graduated from the same university as I did, gave a wonderful motivation speech.
-  My mother, who is fifty, lives in Dubai.`
+Elephants, which are the largest land mammals, live in herds of ten or more.
+The author, who graduated from the same university as I did, gave a wonderful motivation speech.
+My mother, who is fifty, lives in Dubai.`
           }
         ]
       }
@@ -456,7 +456,7 @@ export default {
         title: 'Conditionals',
         text: [
           `Conditional sentences express conditions that are required to be followed in order to achieve the desired results. 
-  1. Conditional Clauses: Conditional clauses begin with if or unless and express a condition.`,
+1. Conditional Clauses: Conditional clauses begin with if or unless and express a condition.`,
           {
             type: 'html',
             text: `<b>Examples</b> - <b>If you would have studied well</b>, you could have passed the examination easily.`
@@ -511,16 +511,16 @@ export default {
           {
             name: 'Zero',
             text: `If you eat fast food every day, you get sick.
-  When you smoke, your lungs are affected.
-  The lawn gets wet when it rains.
-  Babies cry when they are hungry and sick.`
+When you smoke, your lungs are affected.
+The lawn gets wet when it rains.
+Babies cry when they are hungry and sick.`
           },
           {
             name: 'First',
             text: `If you are focussed, you will achieve your goal.
-  If you take some medicines, you will feel better.
-  If you go out now, you will get wet in the rain.
-  If you like animated movies, you will like Inside Out.`
+If you take some medicines, you will feel better.
+If you go out now, you will get wet in the rain.
+If you like animated movies, you will like Inside Out.`
           }
         ]
       }
@@ -536,16 +536,16 @@ export default {
           {
             name: 'Second',
             text: `If I won the lottery, I would buy all the famous supercars.
-  If I had a choice, I would never marry at all.
-  If I had magical powers, I could change the world. 
-  If I were a bird, I would happily fly around the world.`
+If I had a choice, I would never marry at all.
+If I had magical powers, I could change the world. 
+If I were a bird, I would happily fly around the world.`
           },
           {
             name: 'Third',
             text: `If my parents had not consented to the surgery, my life would have been different.
-  If she had not gone home, she would have been happier.
-  If I had been there, I would have surely helped you in one way or another.
-  If Amrit had been with me, he would have known how to make me feel better.`
+If she had not gone home, she would have been happier.
+If I had been there, I would have surely helped you in one way or another.
+If Amrit had been with me, he would have known how to make me feel better.`
           }
         ]
       }
@@ -561,40 +561,40 @@ export default {
       lockAfter: 2,
       data: [
         `If I were the Prime Minister, I *would* start community kitchens all over the country.
-  If I were you, I *would* not marry him.
-  I *would* not have failed, if I had studied harder.
-  If you do not stop smoking, you *will* develop cancer.
-  If I were a doctor, I *would* treat poor people for free.`,
+If I were you, I *would* not marry him.
+I *would* not have failed, if I had studied harder.
+If you do not stop smoking, you *will* develop cancer.
+If I were a doctor, I *would* treat poor people for free.`,
 
         `If he had asked me, I *would* have told him.
-  If I were a millionaire, I *would* help the poor and the needy.
-  If they had brought him in time, he *could* have been saved.
-  If he behaved more politely, he *would* not be in trouble.
-  If she earned a handsome salary, she *could* lead a better life.`,
+If I were a millionaire, I *would* help the poor and the needy.
+If they had brought him in time, he *could* have been saved.
+If he behaved more politely, he *would* not be in trouble.
+If she earned a handsome salary, she *could* lead a better life.`,
 
         `If it rains, I *will* wear a raincoat.
-  You *will* not get good marks unless you study hard for the examination.
-  The dog *will* bite you if you keep teasing it.
-  If Alexander Bell had not been an inventor, today we *would* not be using telephones.
-  If Wellington had lost the battle of Waterloo, Napolean Bonaparte *would* have been the president of France.`,
+You *will* not get good marks unless you study hard for the examination.
+The dog *will* bite you if you keep teasing it.
+If Alexander Bell had not been an inventor, today we *would* not be using telephones.
+If Wellington had lost the battle of Waterloo, Napolean Bonaparte *would* have been the president of France.`,
 
         `Neil Armstrong *would* not have walked on the moon unless the Americans had not developed space flight.
-  The other team *will* win if we lose hope.
-  If you find problems difficult, you *should* keep trying and never give up.
-  If Samar does not have an umbrella, he *will* get wet in the rain.
-  If John Kennedy had not gone to Dallas, he *would* not have been assassinated.`,
+The other team *will* win if we lose hope.
+If you find problems difficult, you *should* keep trying and never give up.
+If Samar does not have an umbrella, he *will* get wet in the rain.
+If John Kennedy had not gone to Dallas, he *would* not have been assassinated.`,
 
         `If Madame Curie had been a housewife, she *would* not have discovered radium.
-  If I won a million rupees, I *would* buy a bungalow and a car.
-  If I were accidentally locked out of my house, I *would* call my friend for help.
-  If the poles of two magnets are opposite, they *will* repel each other.
-  The ice *will* melt if one places it in the sun.`,
+If I won a million rupees, I *would* buy a bungalow and a car.
+If I were accidentally locked out of my house, I *would* call my friend for help.
+If the poles of two magnets are opposite, they *will* repel each other.
+The ice *will* melt if one places it in the sun.`,
 
         `I *would* not ask any question unless I could ask the president of America the secret of his success.
-  If the world were to end in five minutes, I *would* pray to God for mercy.
-  If I found a diamond on the street, I *would* search for its owner of it.
-  If a cat is fed, it *will* not kill rats.
-  In old age, if people had no fire, they *would* eat their meat raw.`
+If the world were to end in five minutes, I *would* pray to God for mercy.
+If I found a diamond on the street, I *would* search for its owner of it.
+If a cat is fed, it *will* not kill rats.
+In old age, if people had no fire, they *would* eat their meat raw.`
       ]
     }
   ]
