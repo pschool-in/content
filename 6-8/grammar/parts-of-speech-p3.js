@@ -10,38 +10,44 @@ export default {
       lockAfter: 1,
       data: [
         {
-          title: 'Match words and roles: What is your name?',
-          text: `what, pronoun
-is, verb
-your, adjective
-name, noun`
-        },
-        {
-          title: 'Match words and roles: Ramya is singing a beautiful song.',
-          text: `Ramya, proper noun
-is singing, verb
-a beautiful, adjective
-song, common noun`
-        },
-        {
-          title: 'Match words and roles: The cat is sleeping under the chair.',
-          text: `is, helping verb
-sleeping, main verb
-under, preposition
-chair, object
-cat, subject`
-        },
-        {
-          title: 'Match words and roles: My brother came home late.',
-          text: `my, pronoun
-home, noun
-late, adverb`
-        },
-        {
-          title: 'Match words and roles: My cat has big blue eyes.',
-          text: `my, pronoun
-cat, noun
-blue, adjective`
+          arr: [
+            {
+              title: 'Match words and roles: What is your name?',
+              text: `what, pronoun
+    is, verb
+    your, adjective
+    name, noun`
+            },
+            {
+              title:
+                'Match words and roles: Ramya is singing a beautiful song.',
+              text: `Ramya, proper noun
+    is singing, verb
+    a beautiful, adjective
+    song, common noun`
+            },
+            {
+              title:
+                'Match words and roles: The cat is sleeping under the chair.',
+              text: `is, helping verb
+    sleeping, main verb
+    under, preposition
+    chair, object
+    cat, subject`
+            },
+            {
+              title: 'Match words and roles: My brother came home late.',
+              text: `my, pronoun
+    home, noun
+    late, adverb`
+            },
+            {
+              title: 'Match words and roles: My cat has big blue eyes.',
+              text: `my, pronoun
+    cat, noun
+    blue, adjective`
+            }
+          ]
         },
         {
           title: 'Match words and roles: John runs very quickly.',
