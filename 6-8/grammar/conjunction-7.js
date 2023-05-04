@@ -13,17 +13,17 @@ export default {
           `Conjunctions are used to join words, two sentences or two clauses. `,
           {
             type: 'html',
-            text: `Some commonly used conjunction are: <b>and</b>, <b>but</b>, <b>or</b>, <b>for</b>, <b>so</b>, etc.`
+            text: `Some commonly used conjunction are: <i>and</i>, <i>but</i>, <i>or</i>, <i>for</i>, <i>so</i>, etc.`
           },
           `A subordinating conjunction is a word used to combine an independent clause and a dependent clause in a sentence. They help in forming complex sentences.`,
           {
             type: 'html',
-            text: `Some subordinating conjunctions are <b>as long as</b>, <b>because</b>, <b>even if</b>, <b>if</b>, <b>unless</b>, <b>before</b>, <b>since</b>, <b>though</b>, etc.<br>
-Examples: <b>Unless</b> you submit all the supporting documents, your application will not be processed.<br>
-I was not able to go to the hospital <b>because</b> it was raining heavily.<br>
-<b>When</b> I reached the railway station, I found out that the train had already left.<br>
-<b>Although</b> we had parked in the parking lot, the traffic police issued us a parking ticket.<br>
-It is better to keep everything packed <b>as</b> you are not sure when you would be asked to come to Bangalore.`
+            text: `Some subordinating conjunctions are <i>as long as</i>, <i>because</i>, <i>even if</i>, <i>if</i>, <i>unless</i>, <i>before</i>, <i>since</i>, <i>though</i><br><br>
+Eg: <i>Unless</i> you submit all the supporting documents, your application will not be processed.<br>
+I was not able to go to the hospital <i>because</i> it was raining heavily.<br>
+<i>When</i> I reached the railway station, I found out that the train had already left.<br>
+<i>Although</i> we had parked in the parking lot, the traffic police issued us a parking ticket.<br>
+It is better to keep everything packed <i>as</i> you are not sure when you would be asked to come to Bangalore.`
           },
           `# Rules
 1. Subordinating conjunctions can be used at the beginning or middle of a sentence according to the position of the dependent clause.
@@ -58,7 +58,7 @@ It is better to keep everything packed <b>as</b> you are not sure when you would
           },
           {
             qText: `Can a dependent clause with a subordinating conjunction stand by itself as a sentence?`,
-            options: `never, always, Only if it is a long and complex clause, Only if it is a short and simple clause`
+            options: `*never, always, Only if it is a long and complex clause, Only if it is a short and simple clause`
           }
         ]
       }
@@ -131,21 +131,19 @@ She cared for the baby *as though* she were her mother.
         `*As soon as* Deepa reached home, she called to let me know.
 *If* you do not find it interesting, it is okay.
 *Unless* she finishes the work given, she cannot go home.
-*While* I was walking across the street, I saw that the shops were closed.`,
+*While* I was walking across the street, I saw that the shops were closed.
+*Even though* she had paid all the bills, the system showed that she had some due payments.`,
 
-        `*Even though* she had paid all the bills, the system showed that she had some due payments.
-*Before* you make a decision, just take a second opinion.
-*Though* he was tired, he agreed to help me out.`,
-
-        `She knew that there was a nationwide lockdown today only *after* I told her about it.
+        `*Before* you make a decision, just take a second opinion.
+*Though* he was tired, he agreed to help me out.
+She knew that there was a nationwide lockdown today only *after* I told her about it.
 *When* you are done with the work, let me know.
 I think this place will not feel the same ever again *since* they demolished the football gallery.`,
 
         `I will eat a pastry *because* I am hungry.
 I would live in Delhi *rather than* in London.
-She cared for the baby *as though* she were her mother`,
-
-        `You could go and play *after* you have finished your homework.
+She cared for the baby *as though* she were her mother
+You could go and play *after* you have finished your homework.
 *As long as* electricity is supplied, the machine will run.        
 I drink tea *once* a day.`
       ]
@@ -161,32 +159,32 @@ I drink tea *once* a day.`
 1. And: It is used to combine two words, sentences or ideas.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I like to drink tea <b>and</b> coffee.`
+            text: `Eg - I like to drink tea <i>and</i> coffee.`
           },
           `2. But: It is used to connect to contrast ideas.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I love dancing, <b>but</b> she likes singing.`
+            text: `Eg - I love dancing, <i>but</i> she likes singing.`
           },
           `3. Or: It is used to express a choice between two things.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - You can eat it with a fork <b>or</b> a spoon.`
+            text: `Eg - You can eat it with a fork <i>or</i> a spoon.`
           },
           `4. Nor: It is used to combine two words or ideas both of which are to be negated.`,
           {
             type: 'html',
-            text: `<b>Examples</b> -  Roy is drinking neither tea <b>nor</b> coffee.`
+            text: `Eg -  Roy is drinking neither tea <i>nor</i> coffee.`
           },
           `6. Yet: It is used to express that something has not happened but you expect it to happen.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I am not very comfortable doing it <b>yet</b> I will try doing it.`
+            text: `Eg - I am not very comfortable doing it <i>yet</i> I will try doing it.`
           },
           `7. So: It is used as a conjunction of result or consequence.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - All the rooms in the hotel were occupied, <b>so</b> I had to shift here.`
+            text: `Eg - All the rooms in the hotel were occupied, <i>so</i> I had to shift here.`
           }
         ]
       }
@@ -233,28 +231,25 @@ I drink tea *once* a day.`
       label: 'True or False',
       type: 'classifySentence',
       id: 'true-false',
-      commonData: {
+      data: {
         title: 'Classify the following sentences as True or False',
-        types: ['True', 'False']
-      },
-      data: [
-        [
-          `Coordinating conjunctions connect two independent clauses. 
-Subordinating conjunctions connect a dependent clause to an independent clause. 
-The coordinating conjunctions are: and, but, or, nor, for, yet, and so. `,
-
-          `Coordinating conjunctions always come at the beginning of a sentence. 
-Subordinating conjunctions always come at the beginning of a sentence. `
-        ],
-        [
-          `Coordinating conjunctions are used to show the relationship between two ideas. 
+        types: [
+          {
+            name: 'True',
+            text: `Coordinating conjunctions are used to show the relationship between two ideas. 
 Subordinating conjunctions are used to show the relationship between a dependent clause and an independent clause. 
-Coordinating conjunctions can be used to connect more than two clauses. `,
-
-          `Subordinating conjunctions can only connect one dependent clause to one independent clause. 
-Subordinating conjunctions cannot be used to introduce noun clauses. `
+Coordinating conjunctions can be used to connect more than two clauses.
+The coordinating conjunctions are: and, but, or, nor, for, yet, and so. `
+          },
+          {
+            name: 'False',
+            text: `Subordinating conjunctions can only connect one dependent clause to one independent clause. 
+Subordinating conjunctions cannot be used to introduce noun clauses. 
+Coordinating conjunctions always come at the beginning of a sentence. 
+Subordinating conjunctions always come at the beginning of a sentence.`
+          }
         ]
-      ]
+      }
     },
     {
       label: 'Fill in the blanks',
@@ -272,21 +267,19 @@ Subordinating conjunctions cannot be used to introduce noun clauses. `
         `Joshua is intelligent *and* smart.
 Jake plays baseball well, *yet* his favorite sport is football.
 Jay is rich *but* stingy.
-Today is my birthday, *so* I want a new dress.`,
+Today is my birthday, *so* I want a new dress.
+Do you want admission to Poland, *or* do you want to study in Canada?`,
 
-        `Do you want admission to Poland, *or* do you want to study in Canada?
-Sunoo *and* Jungwon planned to have lunch at the convenience store.
-My sister did not collect the clothes from the dry cleaner *nor* did she buy the items on the grocery list.`,
-
-        `Niki had a lot of sweets to the extent that he could become sick, *yet* he says he can have more.
+        `Sunoo *and* Jungwon planned to have lunch at the convenience store.
+My sister did not collect the clothes from the dry cleaner *nor* did she buy the items on the grocery list.
+Niki had a lot of sweets to the extent that he could become sick, *yet* he says he can have more.
 The teacher did not ask for Mahira *but* Mahir.
 I met my friend at Old Street, *and* from there, we went to the lighthouse together.`,
 
         `I want to go to the beach, *but* it looks like it might rain.
 She wanted to buy the blue dress, *so* she asked the sales associate for a smaller size.
-He enjoys hiking, camping, *and* fishing in the mountains.`,
-
-        `She studied hard for the exam, *yet* she still didn't do well.
+He enjoys hiking, camping, *and* fishing in the mountains.
+She studied hard for the exam, *yet* she still didn't do well.
 We can go to the park *or* the museum for our field trip.
 The concert tickets are sold out, *and* we can't find any online either.`
       ]
