@@ -12,83 +12,250 @@ export default {
         {
           arr: [
             {
-              title: 'Match words and roles: What is your name?',
-              text: `what, pronoun
-    is, verb
-    your, adjective
-    name, noun`
+              title:
+                'Match words and roles: The dog is running through the park.',
+              text: `is, helping verb
+running, main verb
+through, preposition
+park, object
+dog, subject`
             },
             {
               title:
-                'Match words and roles: Ramya is singing a beautiful song.',
-              text: `Ramya, proper noun
-    is singing, verb
-    a beautiful, adjective
-    song, common noun`
+                'Match words and roles: The child is playing with her toys on the floor.',
+              text: `is, helping verb
+playing, main verb
+with, preposition
+toys, object
+child, subject`
             },
             {
               title:
                 'Match words and roles: The cat is sleeping under the chair.',
               text: `is, helping verb
-    sleeping, main verb
-    under, preposition
-    chair, object
-    cat, subject`
+sleeping, main verb
+under, preposition
+chair, object
+cat, subject`
             },
             {
-              title: 'Match words and roles: My brother came home late.',
-              text: `my, pronoun
-    home, noun
-    late, adverb`
+              title:
+                'Match words and roles: The bird is flying over the trees.',
+              text: `is, helping verb
+flying, main verb
+over, preposition
+trees, object
+bird, subject`
             },
             {
-              title: 'Match words and roles: My cat has big blue eyes.',
-              text: `my, pronoun
-    cat, noun
-    blue, adjective`
+              title:
+                'Match words and roles: The dog is barking at the mailman.',
+              text: `is, helping verb
+barking, main verb
+at, preposition
+mailman, object
+dog, subject`
             }
           ]
         },
         {
-          title: 'Match words and roles: John runs very quickly.',
-          text: `John, noun
-runs, verb
-quickly, adverb`
-        },
-        {
-          title: 'Match words and roles: Can you pick up Dan on your way home?',
-          text: `pick, verb
+          arr: [
+            {
+              title: 'Match words and roles: The book is lying on the table.',
+              text: `is, helping verb
+lying, main verb
+on, preposition
+table, object
+book, subject`
+            },
+            {
+              title:
+                'Match words and roles: Can you pick up Dan on your way home?',
+              text: `pick, verb
 Dan, noun
 and, conjunction
 on, preposition
 your, pronoun`
-        },
-        {
-          title: 'Match words and roles: Is that with all the fees or not?',
-          text: `is, verb
+            },
+            {
+              title: 'Match words and roles: Is that with all the fees or not?',
+              text: `is, verb
 that, pronoun
 with, preposition
 all, adjective
 fees, noun
 or, conjunction
 not, adverb`
-        },
-        {
-          title: 'Match words and roles: Yesterday, we went to the cinema.',
-          text: `yesterday, adverb
+            },
+            {
+              title: 'Match words and roles: Yesterday, we went to the cinema.',
+              text: `yesterday, adverb
 we, pronoun
 went, verb
 to, preposition
 the, article
 cinema, noun`
-        },
-        {
-          title: 'Match words and roles: The old man always walks with a limp.',
-          text: `old, adjective
+            },
+            {
+              title:
+                'Match words and roles: The old man always walks with a limp.',
+              text: `old, adjective
 man, noun
 always, adverb
 walks, verb
 with, preposition`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              title:
+                'Match words and roles: The waiter is serving food to the customers. ',
+              text: `is, helping verb
+serving, main verb
+to, preposition
+customers, object
+waiter, subject`
+            },
+            {
+              title: 'Match words and roles: The boat is sailing on the lake.',
+              text: `is, helping verb
+sailing, main verb
+on, preposition
+lake, object
+boat, subject`
+            },
+            {
+              title: 'Match words and roles: The house is located on the hill.',
+              text: `is, helping verb
+located, main verb
+on, preposition
+hill, object
+house, subject`
+            },
+            {
+              title:
+                'Match words and roles: The picture is hanging on the wall.',
+              text: `is, helping verb
+hanging, main verb
+on, preposition
+wall, object
+picture, subject`
+            },
+            {
+              title:
+                'Match words and roles: The cat is chasing a mouse in the garden.',
+              text: `is, helping verb
+chasing, main verb
+in, preposition
+garden, object
+cat, subject`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              title:
+                'Match words and roles: Her cat is always sleeping in the sun.',
+              text: `her, pronoun
+cat, noun
+always, adverb
+sleeping, verb
+in, preposition
+the, determiner`
+            },
+            {
+              title:
+                'Match words and roles: Our garden is very beautiful in the spring.',
+              text: `our, pronoun
+garden, noun
+very, adverb
+beautiful, adjective
+in, preposition
+the, determiner`
+            },
+            {
+              title:
+                'Match words and roles: His car is a classic and always turns heads.',
+              text: `his, pronoun
+car, noun
+a, determiner
+classic, adjective
+and, conjunction
+always, adverb
+turns, verb`
+            },
+            {
+              title:
+                'Match words and roles: My sister is very talented and can play multiple instruments.',
+              text: `my, pronoun
+sister, noun
+very, adverb
+talented, adjective
+and, conjunction
+play, verb`
+            },
+            {
+              title:
+                'Match words and roles: The weather is really hot and humid today.',
+              text: `the, determiner
+weather, noun
+really, adverb
+hot, adjective
+and, conjunction
+humid, adjective`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              title:
+                'Match words and roles: The old woman walks slowly with a cane.',
+              text: `old, adjective
+woman, noun
+slowly, adverb
+walks, verb
+with, preposition`
+            },
+            {
+              title:
+                'Match words and roles: The hungry dog eagerly devours his food.',
+              text: `hungry, adjective
+dog, noun
+eagerly, adverb
+devours, verb
+his, possessive pronoun`
+            },
+            {
+              title:
+                'Match words and roles: The curious cat watches the birds from the window.',
+              text: `curious, adjective
+cat, noun
+watches, verb
+the, definite article
+birds, noun`
+            },
+            {
+              title:
+                'Match words and roles: The students are writing an essay for their English class.',
+              text: `   are, helping verb
+writing, main verb
+for, preposition
+English class, object
+students, subject`
+            },
+            {
+              title: 'Match words and roles: The girl is swimming in the pool.',
+              text: `is, helping verb
+swimming, main verb
+in, preposition
+pool, object
+girl, subject`
+            }
+          ]
         }
       ]
     },
@@ -136,7 +303,7 @@ Fear held him *back* from bungee jumping.`
               name: 'Adjective',
               text: `The *above* mistakes are very common in maths.
 Please reply to the *above* address.
-Analyse the *above* sentences and correct the errors.`
+Analyze the *above* sentences and correct the errors.`
             },
             {
               name: 'Adverb',
@@ -317,7 +484,7 @@ Genesis is the first *book* of the Bible.`
               text: `Get your seat *booked* in the train.
 I want to *book* a hotel room for tomorrow night.
 The police *booked* him for driving too fast.
-He was really *booking*, until he passed the speed trap.
+He was really *booking* until he passed the speed trap.
 The top three students had a bet on which one was going to *book* their intellectual property class.`
             }
           ]
@@ -358,13 +525,13 @@ She is very old *but* still energetic.`
               text: `I am always at your beck and *call*.
 I received several phone *calls* today.
 I paid a *call* to a dear friend of mine.
-I had to yeild to the *call* of the wind.`
+I had to yield to the *call* of the wind.`
             },
             {
               name: 'Verb',
               text: `*Call* in the doctor.
 That person is hurt, *call* for help.
-We could always *call* on a friend.
+We could always *call* a friend.
 This job *calls* for patience.
 Why didn't you *call* me in the morning?`
             },
@@ -420,7 +587,7 @@ He took his time to look *about*`
               name: 'Noun',
               text: `The Hindus burn their *dead*.
 Have respect for the *dead*.
-I found myself lost in an unknown street at the *dead* of night.`
+I found myself lost in an unknown street in the *dead* of night.`
             },
             {
               name: 'Adjective',
@@ -443,7 +610,7 @@ He hit the target *dead* in the center.`
               name: 'Noun',
               text: `Many a ship has sunk in the *deep* sea.
 Many creatures of the *deep* are still to be discovered.
-Russell is a safe pair of hand in the *deep*.`
+Russell is a safe pair of hands in the *deep*.`
             },
             {
               name: 'Adjective',
@@ -451,8 +618,8 @@ Russell is a safe pair of hand in the *deep*.`
 I just meant to help out a little, but now I'm *deep* into it.
 That cyclist's *deep* chest allows him to draw more air.
 That's a very *deep* shade of blue.
-He is feilding at *deep* mis wicket.
-I have never treked this *deep* into the forest.`
+He is fielding at *deep* mid-wicket.
+I have never trekked this *deep* into the forest.`
             },
             {
               name: 'Adverb',
@@ -478,7 +645,7 @@ Two *down* and three more to go. I will be probably done by noon.`
             },
             {
               name: 'Adverb',
-              text: `Sit *down* please.
+              text: `Sit *down*, please.
 The cat jumped *down* from the table.
 His house is farther *down* the road.
 The computer has been shut *down*`
@@ -531,7 +698,7 @@ We need to *even* this playing field, the west goal is too low.`
 Clear out those rocks. The surface must be *even*.
 Despite her fear, she spoke in an *even* voice.
 The distribution of food must be *even* among students.
-Four, fourteen and fourty are *even* numbers.`
+Four, fourteen and forty are *even* numbers.`
             },
             {
               name: 'Adverb',

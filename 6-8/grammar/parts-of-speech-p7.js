@@ -10,51 +10,60 @@ export default {
       lockAfter: 1,
       data: [
         {
-          title: 'Match words and roles: I walk to the store',
-          text: `I, pronoun
-walk, verb
-to, preposition
-the, article
-store, noun`
-        },
-        {
-          title:
-            'Match words and roles: I walk to the store since the weather is sunny',
-          text: `I, pronoun
+          arr: [
+            {
+              title: `Match words and roles: Responsible drivers don't text while driving.`,
+              text: `responsible, adjective
+drivers, noun
+don't, adverb
+text, verb
+while, conjunction`
+            },
+            {
+              title:
+                'Match words and roles: I walk to the store since the weather is sunny.',
+              text: `I, pronoun
 walk, verb
 to, preposition
 the, article
 store, noun
 since, conjunction
 sunny, adjective`
+            },
+            {
+              title:
+                'Match words and roles: The girl is reading a book in the library.',
+              text: `is, helping verb
+reading, main verb
+in, preposition
+library, object
+girl, subject`
+            },
+            {
+              title: `Match words and roles: Honest people don't lie to their friends.`,
+              text: `honest, adjective
+people, noun
+don't, adverb
+lie, verb
+their, article`
+            },
+            {
+              title:
+                'Match words and roles: The sun is shining brightly in the sky.',
+              text: `is, helping verb
+shining, main verb
+in, preposition
+sky, object
+sun, subject`
+            }
+          ]
         },
         {
-          title:
-            'Match words and roles: My parents are traveling to Japan next month.',
-          text: `my, pronoun
-traveling, verb
-to, preposition
-Japan, noun`
-        },
-        {
-          title:
-            'Match words and roles: The old lady was taking in a quiet voice.',
-          text: `The, article
-old, adjective
-lady, noun
-talking, verb`
-        },
-        {
-          title: 'Match words and roles: She likes big snakes but I hate them.',
-          text: `she, pronoun
-likes, verb
-big, adjective
-but, conjunction`
-        },
-        {
-          title:
-            'Match words and roles: Nora always makes delicious cakes and cookies for me.',
-          text: `Nora, proper noun
+          arr: [
+            {
+              title:
+                'Match words and roles: Nora always makes delicious cakes and cookies for me.',
+              text: `Nora, proper noun
 always, adverb
 makes, verb
 delicious, adjective
@@ -62,11 +71,11 @@ cakes, common noun
 and, conjunction
 for, preposition
 me, pronoun`
-        },
-        {
-          title:
-            'Match words and roles: She and my younger brother walk to school slowly.',
-          text: `she, pronoun
+            },
+            {
+              title:
+                'Match words and roles: She and my younger brother walk to school slowly.',
+              text: `she, pronoun
 and, conjunction
 my, determiner
 younger, adjective
@@ -74,15 +83,178 @@ brother, noun
 walk, verb
 to, preposition
 slowly, adverb`
+            },
+            {
+              title:
+                'Match words and roles: The music is playing loudly in the room.',
+              text: `is, helping verb
+playing, main verb
+in, preposition
+room, object
+music, subject`
+            },
+            {
+              title:
+                'Match words and roles: The students are studying for their exams in the library.',
+              text: `are, helping verb
+studying, main verb
+for, preposition
+exams, object
+students, subject`
+            },
+            {
+              title:
+                'Match words and roles: The chef is cooking a delicious meal in the kitchen.',
+              text: `is, helping verb
+cooking, main verb
+in, preposition
+kitchen, object
+chef, subject`
+            }
+          ]
         },
         {
-          title:
-            'Match words and roles: Wow, his monkeys really jump so high up.',
-          text: `wow, interjection
-his, pronoun
-so, adverb
-jump, verb
-high, adjective`
+          arr: [
+            {
+              title:
+                'Match words and roles: The baby is crawling towards his toys on the floor.',
+              text: `is, helping verb
+crawling, main verb
+towards, preposition
+toys, object
+baby, subject`
+            },
+            {
+              title:
+                'Match words and roles: The sun is setting over the horizon.',
+              text: `is, helping verb
+setting, main verb
+over, preposition
+horizon, object
+sun, subject`
+            },
+            {
+              title:
+                'Match words and roles: The athlete is running towards the finish line.',
+              text: `is, helping verb
+running, main verb
+towards, preposition
+finish line, object
+athlete, subject`
+            },
+            {
+              title:
+                'Match words and roles: The child is laughing at the funny clown.',
+              text: `is, helping verb
+laughing, main verb
+at, preposition
+clown, object
+child, subject`
+            },
+            {
+              title:
+                'Match words and roles: The teacher is explaining a difficult concept to her students.',
+              text: `is, helping verb
+explaining, main verb
+to, preposition
+students, object
+teacher, subject`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              title: 'Match words and roles: The tall tree sways in the wind.',
+              text: `tall, adjective
+tree, noun
+in, preposition
+the, article
+sways, verb`
+            },
+            {
+              title:
+                'Match words and roles: The little girl carefully colors in her coloring book.',
+              text: `little, adjective
+girl, noun
+carefully, adverb
+colors, verb
+in, preposition`
+            },
+            {
+              title:
+                'Match words and roles: The brave knight fearlessly battles the dragon.',
+              text: `brave, adjective
+knight, noun
+fearlessly, adverb
+battles, verb
+the, article`
+            },
+            {
+              title: `Match words and roles: Happy dogs don't bite people.`,
+              text: `happy, adjective
+dogs, noun
+don't, adverb
+bite, verb
+the, article`
+            },
+            {
+              title: `Match words and roles: Skilled chefs don't need a recipe to cook a delicious meal.`,
+              text: `skilled, adjective
+chefs, noun
+don't, adverb
+need, verb
+a, article`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              title: `Match words and roles: She drives to work because she doesn't like taking the bus.`,
+              text: `She, pronoun
+drives, verb
+to, preposition
+work, noun
+because, conjunction
+the, article`
+            },
+            {
+              title:
+                'Match words and roles: He reads books during his free time because he enjoys learning new things.',
+              text: `He, pronoun
+reads, verb
+books, noun
+during, preposition
+because, conjunction`
+            },
+            {
+              title: 'Match words and roles: The dog is sleeping on the mat.',
+              text: `is, helping verb
+sleeping, main verb
+on, preposition
+mat, object
+dog, subject`
+            },
+            {
+              title:
+                'Match words and roles: The boy is playing soccer in the field.',
+              text: `is, helping verb
+playing, main verb
+in, preposition
+field, object
+boy, subject`
+            },
+            {
+              title:
+                'Match words and roles: The woman is cooking dinner in the kitchen.',
+              text: `is, helping verb
+cooking, main verb
+in, preposition
+kitchen, object
+woman, subject`
+            }
+          ]
         }
       ]
     },
@@ -160,7 +332,7 @@ He threw it *out* the door.`
             {
               name: 'Noun',
               text: `The *past* of our country was very very glorious.
-During the *past* year I travelled all around Europe.`
+During the *past* year I traveled all around Europe.`
             },
             {
               name: 'Adjective',
@@ -189,7 +361,7 @@ He took notes with a *pen*.`
             },
             {
               name: 'Verb',
-              text: ` I have *penned* a few line in reply.`
+              text: ` I have *penned* a few lines in reply.`
             },
             {
               name: 'Adjectives',
@@ -247,12 +419,12 @@ The baker sold us a *round* dozen.`
             },
             {
               name: 'Adverb',
-              text: `With great difficulty I brought him *round* to my views.`
+              text: `With great difficulty, I brought him *round* to my views.`
             },
             {
               name: 'Preposition',
               text: `The man-made moon went *round* the earth.
-I look *round* the room quick to make sure it's neat looking.`
+I look *round* the room quickly to make sure it's neat looking.`
             }
           ]
         },
@@ -276,7 +448,7 @@ He has *saddled* himself with a houseful of relatives.`
             {
               name: 'Noun',
               text: `The goaltender made a great *save*.
-The giant wrestler continued to beat down his smaller opponent, until several wrestlers ran in for the save.`
+The giant wrestler continued to beat down his smaller opponent until several wrestlers ran in for the save.`
             },
             {
               name: 'Verb',
@@ -334,7 +506,7 @@ His speech fell *short* of what was expected.`
             {
               name: 'Adverb',
               text: `He left this place one week *since*.
-I had seen his previously, but hadn't seen him *since*.`
+I had seen him previously, but hadn't seen him *since*.`
             },
             {
               name: 'Preposition',
@@ -390,7 +562,7 @@ He was safe and *sound* hiding in the panic room during the cyclone.`
           types: [
             {
               name: 'Noun',
-              text: `A *spring* has sprouted up in our neighbourhood.`
+              text: `A *spring* has sprouted up in our neighborhood.`
             },
             {
               name: 'Verb',
@@ -551,7 +723,7 @@ It's *time* to sleep.`
             },
             {
               name: 'Adjective',
-              text: `He travelled by the *up* train.
+              text: `He traveled by the *up* train.
 If you are *up* for a trip, let's go.
 What is *up* with that project at headquarters?`
             },
@@ -600,7 +772,7 @@ The *watch* stopped the travelers at the city gates.`
             {
               name: 'Verb',
               text: `I am *watching* your movements.
-*Watch* your head, the ceilings too low here.
+*Watch* your head, the ceilings are too low here.
 You should *watch* him closely. He has a reputation for lying.
 *Watching* the clock will not make time go faster.`
             },
@@ -625,7 +797,7 @@ I need to *water* the cattle.`
             },
             {
               name: 'Adjective',
-              text: `The picture is drawn in *water* colour.`
+              text: `The picture is drawn in *water* color.`
             }
           ]
         },
@@ -638,7 +810,7 @@ I need to *water* the cattle.`
             {
               name: 'Verb',
               text: `Tears *welled* up in the eyes of the old lady.
-Blood *welled* from the wound so the first responders were on there heels to help the victim.`
+Blood *welled* from the wound so the first responders were on their heels to help the victim.`
             },
             {
               name: 'Adjective',
