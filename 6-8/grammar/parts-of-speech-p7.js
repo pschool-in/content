@@ -12,7 +12,7 @@ export default {
         {
           arr: [
             {
-              title: `Match words and roles: Responsible drivers don't text while driving.`,
+              stmt: `Responsible drivers don't text while driving.`,
               text: `responsible, adjective
 drivers, noun
 don't, adverb
@@ -20,8 +20,7 @@ text, verb
 while, conjunction`
             },
             {
-              title:
-                'Match words and roles: I walk to the store since the weather is sunny.',
+              stmt: 'I walk to the store since the weather is sunny.',
               text: `I, pronoun
 walk, verb
 to, preposition
@@ -31,8 +30,7 @@ since, conjunction
 sunny, adjective`
             },
             {
-              title:
-                'Match words and roles: The girl is reading a book in the library.',
+              stmt: 'The girl is reading a book in the library.',
               text: `is, helping verb
 reading, main verb
 in, preposition
@@ -40,7 +38,7 @@ library, object
 girl, subject`
             },
             {
-              title: `Match words and roles: Honest people don't lie to their friends.`,
+              stmt: `Honest people don't lie to their friends.`,
               text: `honest, adjective
 people, noun
 don't, adverb
@@ -48,8 +46,7 @@ lie, verb
 their, article`
             },
             {
-              title:
-                'Match words and roles: The sun is shining brightly in the sky.',
+              stmt: 'The sun is shining brightly in the sky.',
               text: `is, helping verb
 shining, main verb
 in, preposition
@@ -61,8 +58,7 @@ sun, subject`
         {
           arr: [
             {
-              title:
-                'Match words and roles: Nora always makes delicious cakes and cookies for me.',
+              stmt: 'Nora always makes delicious cakes and cookies for me.',
               text: `Nora, proper noun
 always, adverb
 makes, verb
@@ -73,8 +69,7 @@ for, preposition
 me, pronoun`
             },
             {
-              title:
-                'Match words and roles: She and my younger brother walk to school slowly.',
+              stmt: 'She and my younger brother walk to school slowly.',
               text: `she, pronoun
 and, conjunction
 my, determiner
@@ -85,8 +80,7 @@ to, preposition
 slowly, adverb`
             },
             {
-              title:
-                'Match words and roles: The music is playing loudly in the room.',
+              stmt: 'The music is playing loudly in the room.',
               text: `is, helping verb
 playing, main verb
 in, preposition
@@ -94,8 +88,7 @@ room, object
 music, subject`
             },
             {
-              title:
-                'Match words and roles: The students are studying for their exams in the library.',
+              stmt: 'The students are studying for their exams in the library.',
               text: `are, helping verb
 studying, main verb
 for, preposition
@@ -103,8 +96,7 @@ exams, object
 students, subject`
             },
             {
-              title:
-                'Match words and roles: The chef is cooking a delicious meal in the kitchen.',
+              stmt: 'The chef is cooking a delicious meal in the kitchen.',
               text: `is, helping verb
 cooking, main verb
 in, preposition
@@ -116,8 +108,7 @@ chef, subject`
         {
           arr: [
             {
-              title:
-                'Match words and roles: The baby is crawling towards his toys on the floor.',
+              stmt: 'The baby is crawling towards his toys on the floor.',
               text: `is, helping verb
 crawling, main verb
 towards, preposition
@@ -125,8 +116,7 @@ toys, object
 baby, subject`
             },
             {
-              title:
-                'Match words and roles: The sun is setting over the horizon.',
+              stmt: 'The sun is setting over the horizon.',
               text: `is, helping verb
 setting, main verb
 over, preposition
@@ -134,8 +124,7 @@ horizon, object
 sun, subject`
             },
             {
-              title:
-                'Match words and roles: The athlete is running towards the finish line.',
+              stmt: 'The athlete is running towards the finish line.',
               text: `is, helping verb
 running, main verb
 towards, preposition
@@ -143,8 +132,7 @@ finish line, object
 athlete, subject`
             },
             {
-              title:
-                'Match words and roles: The child is laughing at the funny clown.',
+              stmt: 'The child is laughing at the funny clown.',
               text: `is, helping verb
 laughing, main verb
 at, preposition
@@ -152,8 +140,7 @@ clown, object
 child, subject`
             },
             {
-              title:
-                'Match words and roles: The teacher is explaining a difficult concept to her students.',
+              stmt: 'The teacher is explaining a difficult concept to her students.',
               text: `is, helping verb
 explaining, main verb
 to, preposition
@@ -165,7 +152,7 @@ teacher, subject`
         {
           arr: [
             {
-              title: 'Match words and roles: The tall tree sways in the wind.',
+              stmt: 'The tall tree sways in the wind.',
               text: `tall, adjective
 tree, noun
 in, preposition
@@ -173,8 +160,7 @@ the, article
 sways, verb`
             },
             {
-              title:
-                'Match words and roles: The little girl carefully colors in her coloring book.',
+              stmt: 'The little girl carefully colors in her coloring book.',
               text: `little, adjective
 girl, noun
 carefully, adverb
@@ -182,8 +168,7 @@ colors, verb
 in, preposition`
             },
             {
-              title:
-                'Match words and roles: The brave knight fearlessly battles the dragon.',
+              stmt: 'The brave knight fearlessly battles the dragon.',
               text: `brave, adjective
 knight, noun
 fearlessly, adverb
@@ -191,7 +176,7 @@ battles, verb
 the, article`
             },
             {
-              title: `Match words and roles: Happy dogs don't bite people.`,
+              stmt: `Happy dogs don't bite people.`,
               text: `happy, adjective
 dogs, noun
 don't, adverb
@@ -199,7 +184,7 @@ bite, verb
 the, article`
             },
             {
-              title: `Match words and roles: Skilled chefs don't need a recipe to cook a delicious meal.`,
+              stmt: `Skilled chefs don't need a recipe to cook a delicious meal.`,
               text: `skilled, adjective
 chefs, noun
 don't, adverb
@@ -211,7 +196,7 @@ a, article`
         {
           arr: [
             {
-              title: `Match words and roles: She drives to work because she doesn't like taking the bus.`,
+              stmt: `She drives to work because she doesn't like taking the bus.`,
               text: `She, pronoun
 drives, verb
 to, preposition
@@ -220,8 +205,7 @@ because, conjunction
 the, article`
             },
             {
-              title:
-                'Match words and roles: He reads books during his free time because he enjoys learning new things.',
+              stmt: 'He reads books during his free time because he enjoys learning new things.',
               text: `He, pronoun
 reads, verb
 books, noun
@@ -229,7 +213,7 @@ during, preposition
 because, conjunction`
             },
             {
-              title: 'Match words and roles: The dog is sleeping on the mat.',
+              stmt: 'The dog is sleeping on the mat.',
               text: `is, helping verb
 sleeping, main verb
 on, preposition
@@ -237,8 +221,7 @@ mat, object
 dog, subject`
             },
             {
-              title:
-                'Match words and roles: The boy is playing soccer in the field.',
+              stmt: 'The boy is playing soccer in the field.',
               text: `is, helping verb
 playing, main verb
 in, preposition
@@ -246,8 +229,7 @@ field, object
 boy, subject`
             },
             {
-              title:
-                'Match words and roles: The woman is cooking dinner in the kitchen.',
+              stmt: 'The woman is cooking dinner in the kitchen.',
               text: `is, helping verb
 cooking, main verb
 in, preposition

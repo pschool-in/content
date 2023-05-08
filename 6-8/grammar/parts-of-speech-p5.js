@@ -12,244 +12,226 @@ export default {
         {
           arr: [
             {
-              title:
-                'Match words and roles: The car is parked beside the sidewalk.',
+              stmt: ' The car is parked beside the sidewalk.',
               text: `is, helping verb
-parked, main verb
-beside, preposition
-sidewalk, object
-car, subject`
+  parked, main verb
+  beside, preposition
+  sidewalk, object
+  car, subject`
             },
             {
-              title: 'Match words and roles: The fish is swimming in the pond.',
+              stmt: ' The fish is swimming in the pond.',
               text: `is, helping verb
-swimming, main verb
-in, preposition
-pond, object
-fish, subject`
+  swimming, main verb
+  in, preposition
+  pond, object
+  fish, subject`
             },
             {
-              title:
-                'Match words and roles: The children are playing in the park.',
+              stmt: ' The children are playing in the park.',
               text: `are, helping verb
-playing, main verb
-in, preposition
-park, object
-children, subject`
+  playing, main verb
+  in, preposition
+  park, object
+  children, subject`
             },
             {
-              title: 'Match words and roles: The book is on the shelf.',
+              stmt: ' The book is on the shelf.',
               text: `is, helping verb
-on, preposition
-shelf, object
-book, subject`
+  on, preposition
+  shelf, object
+  book, subject`
             },
             {
-              title:
-                'Match words and roles: The teacher is explaining the lesson to the students.',
+              stmt: ' The teacher is explaining the lesson to the students.',
               text: `is, helping verb
-explaining, main verb
-to, preposition
-students, object
-teacher, subject`
+  explaining, main verb
+  to, preposition
+  students, object
+  teacher, subject`
             }
           ]
         },
         {
           arr: [
             {
-              title: 'Match words and roles: The boy is running on the track.',
+              stmt: ' The boy is running on the track.',
               text: `is, helping verb
-running, main verb
-on, preposition
-track, object
-boy, subject`
+  running, main verb
+  on, preposition
+  track, object
+  boy, subject`
             },
             {
-              title: 'Match words and roles: She ran to the station quickly.',
+              stmt: ' She ran to the station quickly.',
               text: `she, pronoun
-ran, verb
-to, preposition
-the, determiner
-station, noun
-quickly, adverb`
+  ran, verb
+  to, preposition
+  the, determiner
+  station, noun
+  quickly, adverb`
             },
             {
-              title:
-                "Match words and roles: Good students don't use the internet to cheat.",
+              stmt: " Good students don't use the internet to cheat.",
               text: `good, adjective
-students, noun
-don't, adverb
-use, verb
-the, article`
+  students, noun
+  don't, adverb
+  use, verb
+  the, article`
             },
             {
-              title:
-                'Match words and roles: A little boy suddenly came running to me.',
+              stmt: ' A little boy suddenly came running to me.',
               text: `a, article
-little, adjective
-boy, noun
-running, verb
-me, pronoun`
+  little, adjective
+  boy, noun
+  running, verb
+  me, pronoun`
             },
             {
-              title:
-                'Match words and roles: My dog is quite naughty and likes to chew things up.',
+              stmt: ' My dog is quite naughty and likes to chew things up.',
               text: `my, pronoun
-dog, noun
-quite, determiner
-naughty, adjective
-and, conjunction
-chew, verb`
+  dog, noun
+  quite, determiner
+  naughty, adjective
+  and, conjunction
+  chew, verb`
             }
           ]
         },
         {
           arr: [
             {
-              title: 'Match words and roles: The plane is flying in the sky.',
+              stmt: ' The plane is flying in the sky.',
               text: `is, helping verb
-flying, main verb
-in, preposition
-sky, object
-plane, subject`
+  flying, main verb
+  in, preposition
+  sky, object
+  plane, subject`
             },
             {
-              title:
-                'Match words and roles: The fluffy cat purrs loudly while being petted.',
+              stmt: ' The fluffy cat purrs loudly while being petted.',
               text: `fluffy, adjective
-cat, noun
-loudly, adverb
-purrs, verb
-while, conjunction`
+  cat, noun
+  loudly, adverb
+  purrs, verb
+  while, conjunction`
             },
             {
-              title: 'Match words and roles: The book is lying on the table.',
+              stmt: ' The book is lying on the table.',
               text: `is, helping verb
-lying, main verb
-on, preposition
-table, object
-book, subject`
+  lying, main verb
+  on, preposition
+  table, object
+  book, subject`
             },
             {
-              title:
-                'Match words and roles: The child is playing with her toys on the carpet.',
+              stmt: ' The child is playing with her toys on the carpet.',
               text: `is, helping verb
-playing, main verb
-with, preposition
-toys, object
-child, subject`
+  playing, main verb
+  with, preposition
+  toys, object
+  child, subject`
             },
             {
-              title:
-                'Match words and roles: The birds are chirping in the trees outside.',
+              stmt: ' The birds are chirping in the trees outside.',
               text: `are, helping verb
-chirping, main verb
-in, preposition
-trees, object
-birds, subject`
+  chirping, main verb
+  in, preposition
+  trees, object
+  birds, subject`
             }
           ]
         },
         {
           arr: [
             {
-              title:
-                'Match words and roles: The book was incredibly interesting and kept me hooked till the end.',
+              stmt: ' The book was incredibly interesting and kept me hooked till the end.',
               text: `   the, determiner
-book, noun
-incredibly, adverb
-interesting, adjective
-and, conjunction
-kept, verb`
+  book, noun
+  incredibly, adverb
+  interesting, adjective
+  and, conjunction
+  kept, verb`
             },
             {
-              title:
-                'Match words and roles: His painting was exceptionally beautiful and full of vivid colors.',
+              stmt: ' His painting was exceptionally beautiful and full of vivid colors.',
               text: `   his, pronoun
-painting, noun
-exceptionally, adverb
-beautiful, adjective
-and, conjunction
-full, adjective`
+  painting, noun
+  exceptionally, adverb
+  beautiful, adjective
+  and, conjunction
+  full, adjective`
             },
             {
-              title:
-                'Match words and roles: Can you please tell me where the nearest gas station is?',
+              stmt: ' Can you please tell me where the nearest gas station is?',
               text: `is, verb 
-nearest, adjective 
-gas station, noun 
-where, adverb 
-the,  article`
+  nearest, adjective 
+  gas station, noun 
+  where, adverb 
+  the,  article`
             },
             {
-              title:
-                'Match words and roles: The young boy often sings with a beautiful voice.',
+              stmt: ' The young boy often sings with a beautiful voice.',
               text: `young, adjective
-boy, noun
-often, adverb
-sings, verb
-with, preposition`
+  boy, noun
+  often, adverb
+  sings, verb
+  with, preposition`
             },
             {
-              title:
-                'Match words and roles: The stray dog always barks at strangers.',
+              stmt: ' The stray dog always barks at strangers.',
               text: `stray, adjective
-dog, noun
-always, adverb
-barks, verb
-at, preposition`
+  dog, noun
+  always, adverb
+  barks, verb
+  at, preposition`
             }
           ]
         },
         {
           arr: [
             {
-              title:
-                'Match words and roles: The playful kitten chases the shiny ball across the room.',
+              stmt: ' The playful kitten chases the shiny ball across the room.',
               text: `playful, adjective
-kitten, noun
-chases, verb
-ball, noun
-across, preposition`
+  kitten, noun
+  chases, verb
+  ball, noun
+  across, preposition`
             },
             {
-              title:
-                'Match words and roles: The tired hiker slowly climbs up the steep mountain trail.',
+              stmt: ' The tired hiker slowly climbs up the steep mountain trail.',
               text: `tired, adjective
-hiker, noun
-slowly, adverb
-climbs, verb
-steep, adjective`
+  hiker, noun
+  slowly, adverb
+  climbs, verb
+  steep, adjective`
             },
             {
-              title:
-                'Match words and roles: Could you please bring me a glass of water from the kitchen?',
+              stmt: ' Could you please bring me a glass of water from the kitchen?',
               text: `bring, verb
-me, pronoun
-glass, noun
-of, preposition
-the, article`
+  me, pronoun
+  glass, noun
+  of, preposition
+  the, article`
             },
             {
-              title: `Match words and roles: I need to buy some vegetables and fruits for tonight's dinner.`,
+              stmt: ` I need to buy some vegetables and fruits for tonight's dinner.`,
               text: `buy, verb
-some, pronoun
-vegetables, noun
-and, conjunction
-for, preposition
-tonight's, adjective`
+  some, pronoun
+  vegetables, noun
+  and, conjunction
+  for, preposition
+  tonight's, adjective`
             },
             {
-              title:
-                'Match words and roles: Would you mind passing me the salt and pepper, please?',
+              stmt: ' Would you mind passing me the salt and pepper, please?',
               text: `you, pronoun
-passing, verb
-me, pronoun
-the, article
-salt, noun
-and, conjunction
-please, adverb`
+  passing, verb
+  me, pronoun
+  the, article
+  salt, noun
+  and, conjunction
+  please, adverb`
             }
           ]
         }
@@ -268,13 +250,13 @@ please, adverb`
             {
               name: 'Noun',
               text: `The *evil* that man do lives after them.
-The *evils* of the society include treason.`
+  The *evils* of the society include treason.`
             },
             {
               name: 'Adjective',
               text: `He has fallen on *evil* days.
-I will not fall for her *evil* plans anymore.
-Durian has an *evil* smell.`
+  I will not fall for her *evil* plans anymore.
+  Durian has an *evil* smell.`
             }
           ]
         },
@@ -287,12 +269,12 @@ Durian has an *evil* smell.`
             {
               name: 'Preposition',
               text: `All *except* Ravi were present.
-There was nothing in the cupboard *except* a tin of beans.`
+  There was nothing in the cupboard *except* a tin of beans.`
             },
             {
               name: 'Conjunction',
               text: `I shall help you, *except* that I do not give you my word.
-You look a bit like my sister, *except* she has longer hair.`
+  You look a bit like my sister, *except* she has longer hair.`
             }
           ]
         },
@@ -301,17 +283,17 @@ You look a bit like my sister, *except* she has longer hair.`
             {
               name: 'Noun',
               text: ` An *express* runs from Amritsar to Delhi.
-I took the *express* into town.`
+  I took the *express* into town.`
             },
             {
               name: 'Verb',
               text: `I have *expressed* my views
-Words cannot *express* a mother's love for her child.`
+  Words cannot *express* a mother's love for her child.`
             },
             {
               name: 'Adjective',
               text: `I will catch the *express* train.
-I gave him *express* instructions not to begin until I arrived, but he ignored me.`
+  I gave him *express* instructions not to begin until I arrived, but he ignored me.`
             },
             {
               name: 'Adverb',
@@ -324,14 +306,14 @@ I gave him *express* instructions not to begin until I arrived, but he ignored m
             {
               name: 'Noun',
               text: `The *fair* is in full swing.
-When will you learn to distinguish between the *fair* and the foul?`
+  When will you learn to distinguish between the *fair* and the foul?`
             },
             {
               name: 'Adjective',
               text: `I need *fair* deal and no favor.
-Monday's child is *fair* of the face.
-She had *fair* hair and blue eyes.
-The patient was in a *fair* condition after some treatment.`
+  Monday's child is *fair* of the face.
+  She had *fair* hair and blue eyes.
+  The patient was in a *fair* condition after some treatment.`
             },
             {
               name: 'Adverb',
@@ -352,16 +334,16 @@ The patient was in a *fair* condition after some treatment.`
             {
               name: 'Adjective',
               text: `He traveled by a *fast* train.
-I am going to buy a *fast* car.
-All the washing has come out pink. That red T-shirt was not *fast*.
-There must be something wrong with the wall clock. It is always *fast*.`
+  I am going to buy a *fast* car.
+  All the washing has come out pink. That red T-shirt was not *fast*.
+  There must be something wrong with the wall clock. It is always *fast*.`
             },
             {
               name: 'Adverb',
               text: `He ran *fast* and caught the train.
-Hold this rope as *fast* as you can.
-He is *fast* asleep.
-The horsemen came *fast* on our heels.`
+  Hold this rope as *fast* as you can.
+  He is *fast* asleep.
+  The horsemen came *fast* on our heels.`
             }
           ]
         },
@@ -370,7 +352,7 @@ The horsemen came *fast* on our heels.`
             {
               name: 'Noun',
               text: ` I paid my *fine* for speeding.
-Make sure to pay the due without a *fine*.`
+  Make sure to pay the due without a *fine*.`
             },
             {
               name: 'Verb',
@@ -379,8 +361,8 @@ Make sure to pay the due without a *fine*.`
             {
               name: 'Adjective',
               text: `What a *fine* weather it is!
-It is *fine* to talk informally to someone as old as you.
-Niki is a *fine* looking gentleman.`
+  It is *fine* to talk informally to someone as old as you.
+  Niki is a *fine* looking gentleman.`
             },
             {
               name: 'Adverb',
@@ -393,17 +375,17 @@ Niki is a *fine* looking gentleman.`
             {
               name: 'Noun',
               text: `There is no *fire* in the hearth.
-We sat around the *fire* singing songs and telling stories.
-There was a *fire* at the school last night and the whole place burned down.
-The *fire* was laid and needed to be lit.
-The *fire* from the enemy guns kept us from attacking.`
+  We sat around the *fire* singing songs and telling stories.
+  There was a *fire* at the school last night and the whole place burned down.
+  The *fire* was laid and needed to be lit.
+  The *fire* from the enemy guns kept us from attacking.`
             },
             {
               name: 'Verb',
               text: `The gun was *fired*.
-If you *fire* the pottery at too high a temperature, it may crack.
-She should *fire* the employee that stole from the company.
-He answered the questions the reporters *fired* at him.`
+  If you *fire* the pottery at too high a temperature, it may crack.
+  She should *fire* the employee that stole from the company.
+  He answered the questions the reporters *fired* at him.`
             },
             {
               name: 'Adjective',
@@ -420,14 +402,14 @@ He answered the questions the reporters *fired* at him.`
             {
               name: 'Adjective',
               text: `I have a *free* pass for the show.
-He was given *free* rein to do whatever he wanted.
-In the above question 'x' is the *free* variable.
-We had a wholesome, filling meal, *free* of meat.`
+  He was given *free* rein to do whatever he wanted.
+  In the above question 'x' is the *free* variable.
+  We had a wholesome, filling meal, *free* of meat.`
             },
             {
               name: 'Adverb',
               text: `The bird was set *free*.
-I got this bike *free* of cost.`
+  I got this bike *free* of cost.`
             }
           ]
         },
@@ -440,10 +422,10 @@ I got this bike *free* of cost.`
             {
               name: 'Adjective',
               text: `He is a *good* boy.
-The bread is still *good*.
-The food was very *good*
-Eat a *good* dinner so you will be ready for the big game tomorrow.
-Carrots are *good* for your health and eyes as well.`
+  The bread is still *good*.
+  The food was very *good*
+  Eat a *good* dinner so you will be ready for the big game tomorrow.
+  Carrots are *good* for your health and eyes as well.`
             },
             {
               name: 'Adverb',
@@ -456,18 +438,18 @@ Carrots are *good* for your health and eyes as well.`
             {
               name: 'Noun',
               text: `Never do things by *halves*.
-Three-quarters minus a quarter is a *half*`
+  Three-quarters minus a quarter is a *half*`
             },
             {
               name: 'Adjective',
               text: `*Half* a loaf is better than no bread.
-I just have a *half* hour of work left.
-*Half* knowledge on any subject can prove to be hazardous.`
+  I just have a *half* hour of work left.
+  *Half* knowledge on any subject can prove to be hazardous.`
             },
             {
               name: 'Adverb',
               text: `Well begun is *half* done.
-She helped me *half*-heartedly.`
+  She helped me *half*-heartedly.`
             }
           ]
         },
@@ -476,16 +458,16 @@ She helped me *half*-heartedly.`
             {
               name: 'Noun',
               text: `I have no *house* to live in.
-This is my *house* and my family's ancestral home.
-They set up a *house* in a posh apartment.
-The pilot took charge of the wheel *house* until the ship was moored.
-After her swan song, there wasn't a dry eye in the *house*.
-The current Queen is from the *House* of Windsor.`
+  This is my *house* and my family's ancestral home.
+  They set up a *house* in a posh apartment.
+  The pilot took charge of the wheel *house* until the ship was moored.
+  After her swan song, there wasn't a dry eye in the *house*.
+  The current Queen is from the *House* of Windsor.`
             },
             {
               name: 'Verb',
               text: `The library was *housed* in an old building.
-The car is *housed* in the garage.`
+  The car is *housed* in the garage.`
             },
             {
               name: 'Adjective',
@@ -502,7 +484,7 @@ The car is *housed* in the garage.`
             {
               name: 'Noun',
               text: `*Iron* is a useful metal.
-His golf club is made of pure *iron*`
+  His golf club is made of pure *iron*`
             },
             {
               name: 'Verb',
@@ -511,7 +493,7 @@ His golf club is made of pure *iron*`
             {
               name: 'Adjective',
               text: `Sardar Patel was an *iron* man.
-She had an *iron* will.`
+  She had an *iron* will.`
             }
           ]
         },
@@ -524,19 +506,19 @@ She had an *iron* will.`
             {
               name: 'Verb',
               text: `The meeting will *last* for two hours.
-Summer seems to *last* longer each year.
-I don't know how much longer we can *last* without reinforcements in this cold weather.`
+  Summer seems to *last* longer each year.
+  I don't know how much longer we can *last* without reinforcements in this cold weather.`
             },
             {
               name: 'Adjective',
               text: `This bank is on its *last* leg.
-The *last* person I want to meet is Helen.
-The *last* thing to do is to ask for help.`
+  The *last* person I want to meet is Helen.
+  The *last* thing to do is to ask for help.`
             },
             {
               name: 'Adverb',
               text: `He came *last* of all.
-*Last* but not least is a performance by the eighth graders. `
+  *Last* but not least is a performance by the eighth graders. `
             }
           ]
         },
@@ -545,24 +527,24 @@ The *last* thing to do is to ask for help.`
             {
               name: 'Noun',
               text: `There is no *light* in the hall.
-As you can see, this spacious dining room gets a lot of *light* in the mornings.
-Can you throw any *light* on this problem?`
+  As you can see, this spacious dining room gets a lot of *light* in the mornings.
+  Can you throw any *light* on this problem?`
             },
             {
               name: 'Verb',
               text: `Please *light* the lamp.
-I *lit* upon a rare book in a second-hand bookseller.
-The cat fell out of the window but luckily *lit* on its feet.`
+  I *lit* upon a rare book in a second-hand bookseller.
+  The cat fell out of the window but luckily *lit* on its feet.`
             },
             {
               name: 'Adjective',
               text: `Give only *light* food to the patient.
-This artist clearly had a *light*, flowing touch.`
+  This artist clearly had a *light*, flowing touch.`
             },
             {
               name: 'Adverb',
               text: `*Light* come, *light* go.
-I prefer to travel *light*.`
+  I prefer to travel *light*.`
             }
           ]
         },
@@ -571,7 +553,7 @@ I prefer to travel *light*.`
             {
               name: 'Noun',
               text: `I do not know your *likes* and dislikes.
-Tell me your *likes* and dislikes.`
+  Tell me your *likes* and dislikes.`
             },
             {
               name: 'Adverb',
@@ -584,17 +566,17 @@ Tell me your *likes* and dislikes.`
             {
               name: 'Verb',
               text: `I *like* this apple.
-I *like* to go to the dentist every six months.`
+  I *like* to go to the dentist every six months.`
             },
             {
               name: 'Adjective',
               text: `*Like* father, *like* son.
-My friend and I have *like* minds.`
+  My friend and I have *like* minds.`
             },
             {
               name: 'Preposition',
               text: `He works *like* a bee.
-These hamburgers taste *like* leather.`
+  These hamburgers taste *like* leather.`
             }
           ]
         },
@@ -603,24 +585,24 @@ These hamburgers taste *like* leather.`
             {
               name: 'Noun',
               text: `What is the *long* and short of this matter?
-Every uptick made the *longs* cheer.`
+  Every uptick made the *longs* cheer.`
             },
             {
               name: 'Verb',
               text: `I *long* to have a watch.
-She *longed* for him to come back.`
+  She *longed* for him to come back.`
             },
             {
               name: 'Adjective',
               text: `It is a *long* story.
-It's a *long* way from the Earth to the Moon.
-The pyramids of Egypt have been around for a *long* time.`
+  It's a *long* way from the Earth to the Moon.
+  The pyramids of Egypt have been around for a *long* time.`
             },
             {
               name: 'Adverb',
               text: `May you live *long*.
-Will this interview take *long*?
-How *long* is it until the next bus arrives?`
+  Will this interview take *long*?
+  How *long* is it until the next bus arrives?`
             }
           ]
         },
@@ -629,8 +611,8 @@ How *long* is it until the next bus arrives?`
             {
               name: 'Noun',
               text: `Our *master* is absent today.
-Mark Twain was a *master* of fiction.
-The band couldn't find the *master*, so they re-recorded their tracks.`
+  Mark Twain was a *master* of fiction.
+  The band couldn't find the *master*, so they re-recorded their tracks.`
             },
             {
               name: 'Verb',
@@ -651,7 +633,7 @@ The band couldn't find the *master*, so they re-recorded their tracks.`
             {
               name: 'Pronoun',
               text: `*Much* of the work has already been done.
-From those to whom *much* has been given *much* is expected.`
+  From those to whom *much* has been given *much* is expected.`
             },
             {
               name: 'Determiner',
@@ -664,7 +646,7 @@ From those to whom *much* has been given *much* is expected.`
             {
               name: 'Adverb',
               text: `He has worked *much* today.
-I don't like fish *much*.`
+  I don't like fish *much*.`
             }
           ]
         },
@@ -677,17 +659,17 @@ I don't like fish *much*.`
             {
               name: 'Verb',
               text: `What do you *mean* to say?
-I'm afraid I don't understand what you *mean*.
-didn't *mean* to knock your tooth out.
-Don't be angry, she *meant* well.`
+  I'm afraid I don't understand what you *mean*.
+  didn't *mean* to knock your tooth out.
+  Don't be angry, she *meant* well.`
             },
             {
               name: 'Adjective',
               text: `Is he not a *mean* fellow?
-It was *mean* to steal the girl's piggy bank, but he just had to get uptown and he had no cash of his own.
-It must have been a *mean* typhoon that leveled this town.
-Watch out for her, she's *mean*.
-He's so *mean*. I've never seen him spend so much as five pounds on presents for his children.`
+  It was *mean* to steal the girl's piggy bank, but he just had to get uptown and he had no cash of his own.
+  It must have been a *mean* typhoon that leveled this town.
+  Watch out for her, she's *mean*.
+  He's so *mean*. I've never seen him spend so much as five pounds on presents for his children.`
             }
           ]
         },
@@ -704,8 +686,8 @@ He's so *mean*. I've never seen him spend so much as five pounds on presents for
             {
               name: 'Verb',
               text: `Diamonds are *mined* in South Africa.
-We had to slow our advance after the enemy *mined* the road ahead of us.
-Crater of Diamonds State Park is the only place in the world where visitors can *mine* their own diamonds.`
+  We had to slow our advance after the enemy *mined* the road ahead of us.
+  Crater of Diamonds State Park is the only place in the world where visitors can *mine* their own diamonds.`
             }
           ]
         }
