@@ -215,9 +215,9 @@ A basketball bounced on *the (a)* court.`,
 
         `The lion roared in *the (-)* zoo enclosure.
 An artist painted *a (the)* beautiful landscape.
-*The (a)* coffee shop was bustling with activity.
-*A (an)* frog hopped into the pond.
-*The (a)* newspaper reported on the latest news.`,
+*The (A)* coffee shop was bustling with activity.
+*A (An)* frog hopped into the pond.
+*The (A)* newspaper reported on the latest news.`,
 
         `*An (a)* actor was memorizing their lines for the play.
 The chef cooked *a (-)* delicious meal.
@@ -364,7 +364,7 @@ Rahul: Okay, got it. Thanks for *the (a, an, -)* summary. I'll definitely check 
           {
             qText:
               '"___ examinations are always fearful.": Which of the following is the most suitable answer?',
-            options: `x, A, An, The`
+            options: `No article, A, An, The`
           },
           {
             qText:

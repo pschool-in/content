@@ -311,6 +311,7 @@ export default {
       id: 'pronoun-7',
       grade: '7-8'
     },
+    /*
     {
       label: 'Adverb and Adverbials',
       id: 'adverb-7',
@@ -330,7 +331,7 @@ export default {
       label: 'Modals',
       id: 'modal-7',
       grade: '7-8'
-    },
+    },*/
     {
       label: 'Articles',
       id: 'article-7',
@@ -341,6 +342,7 @@ export default {
       id: 'determiner-7',
       grade: '7-8'
     },
+    /*
     {
       label: 'Gerund, Infinitive and Participle',
       id: 'gerund-8',
@@ -366,6 +368,7 @@ export default {
       id: 'conjunction-7',
       grade: '7-8'
     },
+    */
     {
       label: 'Active and Passive Voice',
       id: 'voice-7',
@@ -386,18 +389,18 @@ export default {
       id: 'speech-7',
       grade: '7-8'
     },
+    /*
     {
       label: 'British and American English',
       id: 'british-american-8',
       grade: '7-8'
     },
-    //after
-
     {
       label: '8th Misc Activities - 1',
       id: 'misc-grammar-8-1',
       grade: '7-8'
     },
+     */
     {
       label: 'Parts of Speech - Practice',
       id: 'parts-of-speech-p3',

@@ -100,9 +100,8 @@ The grammar rules for determiners are:
         `Ricky: Is this *your* first visit to *the* city?
 Ben: No, it is *my* second trip. I was here a few years ago.
 Ricky: Do you like *the* city?
-Ben: It's all right for *a* short visit but I wouldn't want to live here. I don't like big cities.`,
-
-        `Ricky: I think you're right. Life in *a* big city is always hard.
+Ben: It's all right for *a* short visit but I wouldn't want to live here. I don't like big cities.
+Ricky: I think you're right. Life in *a* big city is always hard.
 Ben: My brother says *the* same thing. He has been living in *the* city for a long time now.
 Ricky: In which part of *the* city does your brother live?
 Ben: He lives near *the* International Airport.`,
@@ -110,9 +109,8 @@ Ben: He lives near *the* International Airport.`,
         `Reem: *Why* did you reach so late? You were supposed to reach here *an* hour ago.
 Riya: *The* bus broke down in *an* isolated area, so we had trouble finding help.
 Reem: I was so worried. *Why* were you unreachable?
-Riya: *The* place *where* we got stranded had no network coverage.`,
-
-        `Ashly: Do you have *any* money on you, Tom?
+Riya: *The* place *where* we got stranded had no network coverage.
+Ashly: Do you have *any* money on you, Tom?
 Tom: I have *some* money. What do you want to buy?
 Ashly: I want to buy *some* souvenirs from that shop.
 Tom: Here are *some* coins. Will these be enough?`

@@ -23,6 +23,130 @@ export default {
         ]
       }
     },
+    /*
+    {
+      id: '1683436320509',
+      authored: true,
+      label: 'My Drag and Drop',
+      type: 'dragAndDrop',
+      data: {
+        height: 400,
+        svg: {
+          paths: [
+            {
+              d: 'M 242 18 H 303 V 52 H 242 V 18 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 121 18 H 182 V 52 H 121 V 18 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 11 17 H 72 V 51 H 11 V 17 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 238 195 H 299 V 229 H 238 V 195 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 111 197 H 172 V 231 H 111 V 197 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 11 198 H 72 V 232 H 11 V 198 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 240 106 H 301 V 140 H 240 V 106 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 116 108 H 177 V 142 H 116 V 108 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 12 106 H 73 V 140 H 12 V 106 ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 42 149 L 42 172 L 48 172 L 39 187 L 31 172 L 37 172 L 37 149 L 37 149 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 276 58 L 276 81 L 282 81 L 273 96 L 265 81 L 271 81 L 271 58 L 271 58 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 187 211 H 210 V 205 L 225 214 L 210 222 V 216 H 187 V 216 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 77 213 H 100 V 207 L 115 216 L 100 224 V 218 H 77 V 218 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 188 34 H 211 V 28 L 226 37 L 211 45 V 39 H 188 V 39 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            },
+            {
+              d: 'M 76 35 H 99 V 29 L 114 38 L 99 46 V 40 H 76 V 40 Z ',
+              fill: 'none',
+              stroke: '#0d3756',
+              type: 'path'
+            }
+          ],
+          props: {
+            fill: 'none',
+            stroke: 'black',
+            strokeWidth: 1
+          },
+          texts: [
+            { str: '100', x: 100, y: 200 },
+            { str: '105', x: 150, y: 200 }
+          ]
+        },
+
+        width: 400,
+        words: [
+          { word: 'roots | root', x: 4, y: 139 },
+          { word: 'stem', x: 190, y: 10 },
+          { word: 'leaves | leaf', x: 197, y: 78 },
+          { word: 'flower', x: 18, y: 16 },
+          { word: 'bud', x: 4, y: 88 }
+        ],
+        wordWidth: '70'
+      }
+    },
+    */
     {
       type: 'dragAndDrop',
       id: 'parts-plant',
@@ -33,10 +157,11 @@ export default {
         width: 249,
         height: 235,
         wordWidth: 50,
+        noOptions: true,
         words: [
-          { word: 'roots', x: 4, y: 139 },
+          { word: 'roots | root', x: 4, y: 139 },
           { word: 'stem', x: 190, y: 10 },
-          { word: 'leaves', x: 197, y: 78 },
+          { word: 'leaves | leaf', x: 197, y: 78 },
           { word: 'flower', x: 18, y: 16 },
           { word: 'bud', x: 4, y: 88 }
         ]
