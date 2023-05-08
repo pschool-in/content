@@ -215,11 +215,11 @@ A basketball bounced on *the (a)* court.`,
 
         `The lion roared in *the (x)* zoo enclosure.
 An artist painted *a (the)* beautiful landscape.
-*The (a)* coffee shop was bustling with activity.
-*A (an)* frog hopped into the pond.
-*The (a)* newspaper reported on the latest news.`,
+*The (A)* coffee shop was bustling with activity.
+*A (An)* frog hopped into the pond.
+*The (A)* newspaper reported on the latest news.`,
 
-        `*An (a)* actor was memorizing their lines for the play.
+        `*An (A)* actor was memorizing their lines for the play.
 The chef cooked *a (x)* delicious meal.
 A scientist conducted *an (the)* experiment.
 The flower bloomed in *the (a)* garden.
@@ -356,7 +356,7 @@ Rahul: Okay, got it. Thanks for *the* summary. I'll definitely check it out late
           {
             qText:
               '"___ examinations are always fearful.": Which of the following is the most suitable answer?',
-            options: `x, A, An, The`
+            options: `No article, A, An, The`
           },
           {
             qText:

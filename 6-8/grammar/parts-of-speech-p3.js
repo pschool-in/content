@@ -8,7 +8,219 @@ export default {
       label: 'Match the following',
       type: 'match',
       lockAfter: 1,
+      commonData: {
+        title: 'Match the word and its role in the given sentence.'
+      },
       data: [
+        {
+          arr: [
+            {
+              stmt: 'He won the first prize.',
+              text: `he, pronoun
+              won, verb
+              the, article
+              first, adjective
+              prize, noun`
+            },
+            {
+              stmt: 'Ravi and John are friends.',
+              text: `John, proper noun
+              friends, common noun
+              and, conjunction
+              are, verb`
+            },
+            {
+              stmt: 'Gopal has two brothers.',
+              text: `Gopal, proper noun
+              has, verb
+              two, adjective
+              brothers, common noun`
+            },
+            {
+              stmt: 'Sita is a good girl.',
+              text: `Sita, proper noun
+              is, verb
+              a, article
+              good, adjective
+              girl, common noun`
+            },
+            {
+              stmt: 'They are reading books.',
+              text: `they, pronoun
+              are, helping verb
+              reading, main verb
+              books, noun`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              stmt: 'The sun is bright.',
+              text: `the, article
+              sun, noun
+              is, verb
+              bright, adjective`
+            },
+            {
+              stmt: 'The sky is blue.',
+              text: `the, article
+              sky, noun
+              is, verb
+              blue, adjective`
+            },
+            {
+              stmt: 'I have a red ball.',
+              text: `I , pronoun
+              have, verb
+              a, article
+              red, adjective
+              ball, noun`
+            },
+            {
+              stmt: 'I see a bird in the tree.',
+              text: `I,pronoun
+              see, verb
+              tree, noun,
+              in, preposition
+              the, article`
+            },
+            {
+              stmt: 'I have a new pencil.',
+              text: `I, pronoun
+              have, verb
+              a, article
+              new, adjective
+              pencil, noun`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              stmt: 'Wow! It is a beautiful dress.',
+              text: `wow, interjection
+              it, pronoun
+              is, verb
+              a, article
+              beautiful, adjective
+              dress, noun`
+            },
+            {
+              stmt: 'Hurray! We won the match.',
+              text: `hurray, interjection
+              we, pronoun
+              won, verb
+              the, article
+              match, noun`
+            },
+            {
+              stmt: 'Ouch! That really hurt badly.',
+              text: `ouch, interjection
+              that, pronoun
+              badly, adverb
+              hurt, verb`
+            },
+            {
+              stmt: 'The turtle moves slowly.',
+              text: `the, article
+              turtle, noun
+              moves, verb
+              slowly, adverb`
+            },
+            {
+              stmt: 'The spider has eight legs.',
+              text: `the, article
+              spider, noun
+              has, verb
+              eight, adjective`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              stmt: 'Ruby is painting beautifully.',
+              text: `Ruby, noun
+              is, helping verb
+              painting, main verb
+              beautifully, adverb`
+            },
+            {
+              stmt: 'The students are writing neatly.',
+              text: `the, article
+              students, noun
+              are, helping verb
+              writing, main verb
+              neatly, adverb`
+            },
+            {
+              stmt: 'Our dad is driving carefully.',
+              text: `our, adjective
+              dad, noun
+              is, helping verb
+              driving, main verb
+              carefully, adverb`
+            },
+            {
+              stmt: 'We are cooking together.',
+              text: `we, pronoun
+              are, helping verb
+              cooking, main verb
+              together, adverb`
+            },
+            {
+              stmt: 'It is raining heavily.',
+              text: `it, pronoun
+              is, helping verb
+              raining, main verb
+              heavily, adverb`
+            }
+          ]
+        },
+        {
+          arr: [
+            {
+              stmt: 'I can swim in the pool.',
+              text: `I, pronoun
+              can, helping verb
+              swim, main verb
+              in, preposition
+              pool, noun`
+            },
+            {
+              stmt: 'We have a white cat.',
+              text: `we, pronoun
+              have, verb
+              a, article
+              white, adjective
+              cat, noun`
+            },
+            {
+              stmt: 'I can sing a song.',
+              text: `I, pronoun
+              can, helping verb
+              sing, main verb
+              a, article
+              song, noun`
+            },
+            {
+              stmt: 'The storm brings rain and thunder.',
+              text: `the, article
+              storm, noun
+              brings, verb
+              and, conjunction`
+            },
+            {
+              stmt: 'My friend shares his toys.',
+              text: `my, adjective
+              shares, verb
+              his, pronoun
+              toys, plural noun
+              friend, singular noun`
+            }
+          ]
+        },
         {
           arr: [
             {
