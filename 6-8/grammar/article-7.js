@@ -195,32 +195,32 @@ Before a proper noun, common noun, abstract noun or material noun to make them c
         title: `Fill in the blanks with suitable articles.`
       },
       data: [
-        `*The (an)* dog barked at *the (x)* mailman.
-*A (x)* cat jumped onto *the (an)* windowsill.
+        `*The (an)* dog barked at *the (-)* mailman.
+*A (-)* cat jumped onto *the (an)* windowsill.
 *An (A)* apple *a (the)* day keeps *the (a)* doctor away.
-*The (x)* car honked loudly in traffic.
-*A (x)* bird flew into *the (an)* tree.`,
+*The (-)* car honked loudly in traffic.
+*A (-)* bird flew into *the (an)* tree.`,
 
         `*The (A)* ocean is vast and mysterious.
 *A (An)* spider crawled across the ceiling.
-The book on *the (x)* shelf caught my eye.
+The book on *the (-)* shelf caught my eye.
 *An (a)* umbrella is useful on *a (the)* rainy day.
 *The (A)* sun rose over the mountains.`,
 
-        `A guitar player strummed *a (x)* melody.
-The airplane flew *x (the)* overhead.
+        `A guitar player strummed *a (-)* melody.
+The airplane flew *- (the)* overhead.
 *An (A)* elephant trumpeted in the distance.
-The waiter brought us *x (the)* menus to peruse.
+The waiter brought us *- (the)* menus to peruse.
 A basketball bounced on *the (a)* court.`,
 
-        `The lion roared in *the (x)* zoo enclosure.
+        `The lion roared in *the (-)* zoo enclosure.
 An artist painted *a (the)* beautiful landscape.
 *The (a)* coffee shop was bustling with activity.
 *A (an)* frog hopped into the pond.
 *The (a)* newspaper reported on the latest news.`,
 
         `*An (a)* actor was memorizing their lines for the play.
-The chef cooked *a (x)* delicious meal.
+The chef cooked *a (-)* delicious meal.
 A scientist conducted *an (the)* experiment.
 The flower bloomed in *the (a)* garden.
 *An (A)* athlete was training hard for the competition.`
@@ -270,24 +270,33 @@ I know how to play *the* violin.`
       type: 'fillup',
       lockAfter: 1,
       commonData: {
-        noOptions: true,
         title:
-          'Complete the paragraph using articles. Mark `x` wherever articles are not used.',
+          'Complete the paragraph using articles. Mark `-` wherever articles are not used.',
         styles: {
           fontSize: '1rem',
           dashWidth: 70
         }
       },
       data: [
-        `Mr. Sheetal Das is my *x* neighbor. He is *a* businessman. He owns *a* spacious bungalow and *a* car. His house is well-furnished. It is equipped with all *the* comforts of life. I am, however, sad to see that he does not have very good relations with his *x* neighbors. Once he called *the* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The* children had of course denied it. He has *a* servant. This poor boy is not given enough food to eat. He never donates money to any cause. I wonder why he behaves in such *an* ignoble manner. May God grant him *x* wisdom!`,
+        `Mr. Sheetal Das is my *- (a, an, the)* neighbor. He is *a (-, an, the)* businessman. He owns *a (-, an, the)* spacious bungalow and *a (-, an, the)* car. His house is well-furnished. It is equipped with all *the (a, an, -)* comforts of life. I am, however, sad to see that he does not have very good relations with his *- (a, an, the)* neighbors. Once he called *the (a, an, -)* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The (A, An, -)* children had of course denied it. He has *a (-, an, the)* servant. This poor boy is not given enough food to eat. He never donates money to any cause. I wonder why he behaves in such *an (a,the, -)* ignoble manner. May God grant him *- (a, an, the)* wisdom!`,
 
-        `My school owns *a* good library. It has two rooms. One of these rooms is called *the* reading room. Here, *the* students sit and study quietly. *The* other room is bigger. In one of its parts, there are several cupboards full of *x* books. Each cupboard has *a* special branch of knowledge hidden within *the* books. I am very fond of *the* cupboard which contains story books. *The* library has books suited to students of all age groups. *The* library is *a* great source of pleasure and knowledge. *A* school without *a* library is like *a* kitchen without *x* food.`,
+        `My school owns *a (-, an, the)* good library. It has two rooms. One of these rooms is called *the (a, an, -)* reading room. Here, *the (a, an, -)* students sit and study quietly. *The (A, An, -)* other room is bigger. In one of its parts, there are several cupboards full of *- (a, an, the)* books. Each cupboard has *a (-, an, the)* special branch of knowledge hidden within *the (a, an, -)* books. I am very fond of *the (a, an, -)* cupboard which contains story books. *The (A, An, -)* library has books suited to students of all age groups. *The (A, An, -)* library is *a (-, an, the)* great source of pleasure and knowledge. *A (-, An, The)* school without *a (-, an, the)* library is like *a (-, an, the)* kitchen without *- (a, an, the)* food.`,
 
-        `My favorite season is *the* Rainy season. In *x* India it is *a* very important season. *The* agriculture in *x* India depends largely on *the* water given by *the* rains. For me, it is *the* most colorful of all *the* seasons. One can see a lot of greenery around oneself. *The* dark clouds are *a* great blessing and are eagerly awaited after *the* scorching summer heat. *The* best part of *the* season is that one gets a lot of unexpected holidays from school due to *the* rains. It is *a* pleasure to go out in *the* rain and get wet.`,
+        `My favorite season is *the (a, an, -)* Rainy season. In *- (a, an, the)* India it is *a (-, an, the)* very important season. *The (A, An, -)* agriculture in *- (a, an, the)* India depends largely on *the (a, an, -)* water given by *the (a, an, -)* rains. For me, it is *the (a, an, -)* most colorful of all *the (a, an, -)* seasons. One can see a lot of greenery around oneself. *The (A, An, -)* dark clouds are *a (-, an, the)* great blessing and are eagerly awaited after *the (a, an, -)* scorching summer heat. *The (A, An, -)* best part of *the (a, an, -)* season is that one gets a lot of unexpected holidays from school due to *the (a, an, -)* rains. It is *a (-, an, the)* pleasure to go out in *the (a, an, -)* rain and get wet.`,
 
-        `*x* Examinations are always fearful. They are *a* great cause of fear, anxiety, tension and worry. *The* night before *the* examination is really painful. *The* students have no sleep. They stop eating *x* food. They want to read and revise everything. They are disturbed if someone tells them *an* important question. They at once study for its answer. They are irritated if someone disturbs them. They pass *the* whole night in tension. They do not take anything in *the* morning. They go to *the* examination hall on *x* empty stomachs.`,
+        `*- (A, An, The)* Examinations are always fearful. They are *a (-, an, the)* great cause of fear, anxiety, tension and worry. *The (A, An, -)* night before *the (a, an, -)* examination is really painful. *The (A, An, -)* students have no sleep. They stop eating *- (a, an, the)* food. They want to read and revise everything. They are disturbed if someone tells them *an (a, the, -)* important question. They at once study for its answer. They are irritated if someone disturbs them. They pass *the (a, an, -)* whole night in tension. They do not take anything in *the (a, an, -)* morning. They go to *the (a, an, -)* examination hall on *- (a, an, the)* empty stomachs.`,
 
-        `*The* scene at *a* Railway Platform is always enjoyable. It presents *a* picture of *x* mini India. Last Sunday I went to *the* city Railway station to see my uncle off. *The* platform was overcrowded. There were many stalls on *the* platform. Small children were running here and there. Coolies in *x* red dresses were going to and fro. Passengers were taking *x* tea. Some people were reading *x* newspapers. They were waiting for *the* train. Soon *the* train came. My uncle got *a* seat and *the* train started. I returned home.`
+        `*The (A, An, -)* scene at *a (-, an, the)* Railway Platform is always enjoyable. It presents *a (-, an, the)* picture of *- (a, an, the)* mini India. Last Sunday I went to *the (a, an, -)* city Railway station to see my uncle off. *The (A, An, -)* platform was overcrowded. There were many stalls on *the (a, an, -)* platform. Small children were running here and there. Coolies in *- (a, an, the)* red dresses were going to and fro. Passengers were taking *- (a, an, the)* tea. Some people were reading *- (a, an, the)* newspapers. They were waiting for *the (a, an, -)* train. Soon *the (a, an, -)* train came. My uncle got *a (-, an, the)* seat and *the (a, an, -)* train started. I returned home.`,
+
+        `Sam, Harry, Patrick and Henry are in *a (an, the)* beautiful city in Saudi Arabia. *The (A, An)* city is called Abha. They plan to take *a (an, the)* taxi from *the (a, an)* city to visit *the (a, an)* Red Sea. On their way, they will spend *an (a, the)* afternoon at Abha Palace Hotel.`,
+
+        `Their tour guide tells them, “It is *an (a,the)* ideal place for *a (an, the)* trek through *the (a, an)* Green Mountain. We can spot magnificent purple Jacaranda trees. It is *a (an, the)* place where artists from all over *the (a, an)* country catch up to share their creativity. *The (A, An)* street is decorated with colorful pieces of art and is illuminated at night to offer *a (the, an)* serene ambiance.`,
+
+        `*- (the, a)* Dudhsagar Falls is *a (an, the)* four-tiered waterfall located on *the (a, -)* Mandovi River in *the (an, -)* Indian state of *- (a, the)* Goa. It is 60 km from Panaji by road and is located on *the (a, an)* Belgavi-Vasco Da Gama rail route about 46 km east of Madgaon and 80 km south of Belgavi. Dudhsagar Falls is amongst *- (the, an)* India's tallest waterfalls with *a (an, the)* height of 310 m and *an (a, -)* average width of 30 metres.`,
+
+        `*The (A, -)* falls are located in *the (-, a)* Bhagwan Mahaveer Sanctuary and Mollem National Park among *the (-, a)* Western Ghats. *The (-, a)* falls are a punctuation mark in *the (a, -)* journey of *the (a, -)* Mandovi River from *the (a, -)* Western Ghats to *- (the, a)* Panjim where it meets *the (a, -)* Arabian sea.`,
+
+        `*The (-, an)* area is surrounded by deciduous forests with rich biodiversity. This waterfall is also known as *- (the, a)* Tambdi Surla to some of the local people. *The (a, -)* falls are not particularly spectacular during *the (a, -)* dry season but during *the (-, a)* monsoon season, however, *the (a, -)* falls are fed by rains and form *a (-, an)* huge force of water.`
       ]
     },
     {
@@ -295,33 +304,32 @@ I know how to play *the* violin.`
       label: 'Complete the Conversation ',
       type: 'fillup',
       commonData: {
-        noOptions: true,
         title:
-          'Complete the conversations using articles. Mark `x` wherever articles are not used.'
+          'Complete the conversations using articles. Mark `-` wherever articles are not used.'
       },
       lockAfter: 1,
       data: [
-        `Jay: Hey, did you see *the* news article about *the* new restaurant that opened downtown?
-Jake: No, I haven't seen it yet. Is it *a* fancy restaurant?
-Jay: Yeah, it looks pretty upscale. They have *a* menu with *a* lot of unique dishes, like *an* avocado and crab salad.
-Jake: Hmm, that sounds interesting. Do they have *a* website with *the* menu?
-Jay: Yeah, I think they do. Let me check on my *x* phone.`,
+        `Jay: Hey, did you see *the (a, an, -)* news article about *the (a, an, -)* new restaurant that opened downtown?
+Jake: No, I haven't seen it yet. Is it *a (an, the, -)* fancy restaurant?
+Jay: Yeah, it looks pretty upscale. They have *a (an, the, -)* menu with *a (an, the, -)* lot of unique dishes, like *an (a, the, -)* avocado and crab salad.
+Jake: Hmm, that sounds interesting. Do they have *a (an, the, -)* website with *the (a, an, -)* menu?
+Jay: Yeah, I think they do. Let me check on my *- (an, the, a)* phone.`,
 
-        `Jake: Thanks. I want to see if they have *a* vegetarian option. I don't eat meat.
-Jay: Oh, I see. Yeah, they have *a* few vegetarian options. They have *a* roasted vegetable plate and *a* spinach salad.
-Jake: Perfect! Let's plan to go there for *x* lunch tomorrow.
-Jay: Sounds good to me. Should we make *a* reservation?
-Jake: Yeah, we should definitely make *a* reservation to make sure we get *a* table.`,
+        `Jake: Thanks. I want to see if they have *a (an, the, -)* vegetarian option. I don't eat meat.
+Jay: Oh, I see. Yeah, they have *a (an, the, -)* few vegetarian options. They have *a (an, the, -)* roasted vegetable plate and *a (an, the, -)* spinach salad.
+Jake: Perfect! Let's plan to go there for *- (an, the, a)* lunch tomorrow.
+Jay: Sounds good to me. Should we make *a (an, the, -)* reservation?
+Jake: Yeah, we should definitely make *a (an, the, -)* reservation to make sure we get *a (an, the, -)* table.`,
 
-        `Amit: Hey, did you see *the* article in *the* newspaper today?
-Rahul: No, I haven't had *a* chance to read it yet. What was it about?
-Amit: It was *an* opinion piece about *the* upcoming election.
-Rahul: Oh, interesting. I'll have to take *a* look. Did they mention any specific candidates?`,
+        `Amit: Hey, did you see *the (a, an, -)* article in *the (a, an, -)* newspaper today?
+Rahul: No, I haven't had *a (an, the, -)* chance to read it yet. What was it about?
+Amit: It was *an (a, the, -)* opinion piece about *the (a, an, -)* upcoming election.
+Rahul: Oh, interesting. I'll have to take *a (an, the, -)* look. Did they mention any specific candidates?`,
 
-        `Amit: Yeah, they talked about *the* frontrunner and *the* issues they're focusing on.
-Rahul: Hmm, I wonder if they mentioned *the* controversy surrounding *the* candidate's past statements.
-Amit: They did touch on it briefly, but mostly focused on *the* candidate's current platform.
-Rahul: Okay, got it. Thanks for *the* summary. I'll definitely check it out later.`
+        `Amit: Yeah, they talked about *the (a, an, -)* frontrunner and *the (a, an, -)* issues they're focusing on.
+Rahul: Hmm, I wonder if they mentioned *the (a, an, -)* controversy surrounding *the (a, an, -)* candidate's past statements.
+Amit: They did touch on it briefly, but mostly focused on *the (a, an, -)* candidate's current platform.
+Rahul: Okay, got it. Thanks for *the (a, an, -)* summary. I'll definitely check it out later.`
       ]
     },
     {

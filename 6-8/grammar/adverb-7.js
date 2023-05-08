@@ -15,57 +15,57 @@ export default {
 1. Adverbs of Time: They are used to reflect time.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: I went there <b>early</b>.<br>
-She will come <b>tomorrow</b>.<br>
-They include <b>ago</b>, <b>after</b>, <b>already</b>, <b>late</b>, <b>afterward</b>, <b>early</b>, <b>immediately</b>, <b>now</b>, <b>soon</b>, <b>then</b>, <b>shortly</b>, <b>quickly</b>, <b>recently</b>, <b>today</b>, <b>tonight</b>, <b>tomorrow</b>, <b>yesterday</b> etc.`
+            text: `Eg: I went there <i>early</i>.<br>
+She will come <i>tomorrow</i>.<br><br>
+They include <i>ago</i>, <i>after</i>, <i>already</i>, <i>late</i>, <i>afterward</i>, <i>early</i>, <i>immediately</i>, <i>now</i>, <i>soon</i>, <i>then</i>, <i>shortly</i>, <i>quickly</i>, <i>recently</i>, <i>today</i>, <i>tonight</i>, <i>tomorrow</i>, <i>yesterday</i>.`
           },
           `2. Adverbs of Frequency: They are used to show how often an event takes place.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: I have seen him <b>once</b>.<br>
-You <b>always</b> make a noise.<br>
-They include <b>seldom</b>, <b>often</b>, <b>never</b>, <b>ever</b>, <b>again</b>, <b>once</b>, <b>twice</b>, <b>thrice</b>, <b>always</b>, <b>frequently</b>, <b>usually</b> etc.`
+            text: `Eg: I have seen him <i>once</i>.<br>
+You <i>always</i> make a noise.<br><br>
+They include <i>seldom</i>, <i>often</i>, <i>never</i>, <i>ever</i>, <i>again</i>, <i>once</i>, <i>twice</i>, <i>thrice</i>, <i>always</i>, <i>frequently</i>, <i>usually</i>.`
           },
           `3. Adverbs of Manner: They are used to show how or in what manner an event takes place.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: I shall go there <b>certainly</b>.<br>
-Read the facts <b>carefully</b>.<br>
-They include <b>peacefully</b>, <b>quickly</b>, <b>certainly</b>, <b>loudly</b>, <b>well</b>, <b>carefully</b>, <b>gladly</b>, <b>so</b>, <b>thus</b>, <b>badly</b>, <b>fast</b> etc.`
+            text: `Eg: I shall go there <i>certainly</i>.<br>
+Read the facts <i>carefully</i>.<br><br>
+They include <i>peacefully</i>, <i>quickly</i>, <i>certainly</i>, <i>loudly</i>, <i>well</i>, <i>carefully</i>, <i>gladly</i>, <i>so</i>, <i>thus</i>, <i>badly</i>, <i>fast</i>.`
           },
           `4. Adverbs of Place: They are used to show the place where an action took place.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: God is present <b>everywhere</b>.<br>
-You may come <b>forward</b>.<br>
-They include <b>near</b>, <b>far</b>, <b>away</b>, <b>anywhere</b>, <b>here</b>, <b>there</b>, <b>somewhere</b>, <b>nowhere</b>, <b>forward</b>, <b>backward</b>, <b>in</b>, <b>up</b>, <b>out</b>, <b>down</b>, <b>above</b>, <b>below</b>, <b>inside</b>, <b>outside</b>, <b>within</b>, <b>without</b>, <b>everywhere</b> etc.`
+            text: `Eg: God is present <i>everywhere</i>.<br>
+You may come <i>forward</i>.<br><br>
+They include <i>near</i>, <i>far</i>, <i>away</i>, <i>anywhere</i>, <i>here</i>, <i>there</i>, <i>somewhere</i>, <i>nowhere</i>, <i>forward</i>, <i>backward</i>, <i>in</i>, <i>up</i>, <i>out</i>, <i>down</i>, <i>above</i>, <i>below</i>, <i>inside</i>, <i>outside</i>, <i>within</i>, <i>without</i>, <i>everywhere</i>.`
           },
           `5. Adverbs of Quantity/Extent/Degree: They are used to show 'how much'. `,
           {
             type: 'html',
-            text: `<b>Examples</b>: Your dress is <b>fantastically</b> awesome.<br>
-Poorab is <b>perfectly</b> fine now.<br>
-They include <b>partly</b>, <b>fully</b>, <b>pretty</b>, <b>as</b>, <b>almost</b>, <b>very</b>, <b>more</b>, <b>much</b>, <b>so</b>, <b>enough</b>, <b>any</b>, <b>none</b>, <b>too</b>, <b>rather</b>, <b>little</b>, <b>quite</b>, <b>wholly</b>, <b>perfectly</b> etc.`
+            text: `Eg: He <i>barely</i> passed his exams because he didn't study enough.<br>
+I <i>always</i> enjoy spending time with my family.<br><br>
+They include <i>partly</i>, <i>fully</i>, <i>pretty</i>, <i>as</i>, <i>almost</i>, <i>very</i>, <i>more</i>, <i>much</i>, <i>so</i>, <i>enough</i>, <i>any</i>, <i>none</i>, <i>too</i>, <i>rather</i>, <i>little</i>, <i>quite</i>, <i>wholly</i>, <i>perfectly</i>.`
           },
           `6. Adverbs of Reason: They are used to show a reason for any action.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: He was late <b>so</b> he was punished.<br>
-I didn't go to the office <b>because</b> it was raining.<br>
-They include <b>hence</b>, <b>therefore</b>, <b>because</b>, <b>since</b>, <b>on account of</b>, <b>as a result</b>, <b>consequently</b>, <b>thereby</b> etc.`
+            text: `Eg: He was late <i>so</i> he was punished.<br>
+I didn't go to the office <i>because</i> it was raining.<br><br>
+They include <i>hence</i>, <i>therefore</i>, <i>because</i>, <i>since</i>, <i>on account of</i>, <i>as a result</i>, <i>consequently</i>, <i>thereby</i>.`
           },
           `7. Interrogative Adverbs: They show a sense of question.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: <b>When</b> do they visit the zoo?<br>
-<b>How</b> can I help you?<br>
-They include <b>where</b>, <b>when</b>, <b>why</b>, <b>how</b>, <b>how much</b>, <b>how far</b>, <b>how long</b>, <b>how many</b>, <b>how often</b>, etc.`
+            text: `Eg: <i>When</i> do they visit the zoo?<br>
+<i>How</i> can I help you?<br><br>
+They include <i>where</i>, <i>when</i>, <i>why</i>, <i>how</i>, <i>how much</i>, <i>how far</i>, <i>how long</i>, <i>how many</i>, <i>how often</i>.`
           },
-          `8. Relative Adverbs: They are used to join two sentences or two clauses. Relative adverbs indicate their antecedents in the process of joining.`,
+          `8. Relative Adverbs: They serve as a bridge between two sentences or clauses. They also give more information about the antecedent (the noun or pronoun that the clause modifies).`,
           {
             type: 'html',
-            text: `<b>Example</b>: e.g. She let me know <b>how</b> to cook halwa.<br>
-They include <b>why</b>, <b>how</b>, <b>where</b>, <b>when</b> etc.`
+            text: `Eg: e.g. She let me know <i>how</i> to cook halwa.<br><br>
+They include <i>why</i>, <i>how</i>, <i>where</i>, <i>when</i>.`
           }
         ]
       }
@@ -102,8 +102,8 @@ What is being performed?`
             qText: `What is a degree adverb?`,
             options: `An adverb that describes the intensity of something
 An adverb that describes how something is done
-b) An adverb that describes when something is done
-c) An adverb that describes how often something is done`
+An adverb that describes when something is done
+An adverb that describes how often something is done`
           }
         ]
       }
@@ -123,15 +123,15 @@ The baby slept *soundly* while the other kids went out to play.
 The soldiers fought the war *valiantly*.
 Joey *always* tries his best to achieve his goal.`,
 
-        `*Surely* you are mistaken. Ravi would never steal anything.
+        `*Surely* you are mistaken. Ravi will not steal anything.
 The movie is to end *soon*.
 Your friend messaged *again*.
-I did my homework *already*. Now, I am going out to play.
+I am going out to play. I did my homework *already*.
 I was *rather* busy. I didn't see your calls.`,
 
         `He was *so* late that he was punished.
 We looked for the lost puppy *everywhere*.
-We do *not* know her. She just tagged along with us for no reason.
+She *hardly* ever exercises, which is why she feels tired all the time.
 *How* long is the trip? I am tired of sitting in the car.
 Monica *seldom* visits here.`,
 
@@ -139,7 +139,7 @@ Monica *seldom* visits here.`,
 She will come *tomorrow*. There were no seats available on the flight to Mumbai today.
 I have seen him *once*.
 You *always* make a noise.
-She let me know *how* to cook halwa.`,
+He *completely* forgot about the meeting and missed it.`,
 
         `Poorab is *perfectly* fine now.
 *When* do they visit the zoo?
@@ -164,36 +164,39 @@ Harry writes *clearly*. (clear)
 The author writes the story *very* well.
 She cooks *tasty* food. (taste)`,
 
-        `Stand *there* now. Come forward only when you are called by the teacher.
-My mother is *here*. She was late because of the traffic.
-My cat follows me *everywhere* now.
-*When* do they visit the zoo?
-*How* can I help you?`,
-
-        `*When* did the ship reach there?
-*How* did he manage to escape from there?
-*Where* were you going today?
-*Why* are you so happy?
-*Why* do you tell him everything?`,
-
         `My elder brother *easily* passed the examinations this year. (easy)
 This dog has been treated *badly* by their owner. (bad)
-He behaved with everyone *nicely* at the party. (nice)
-I have done this work *beautifully*. (Beautiful)
+The party was *incredibly* loud and went on until the early hours of the morning. (incredible)
+I have done this work *beautifully*. (beautiful)
 The old woman prepared food *happily* for the guest. (happy)`,
 
         `He was driving the car *carefully* on the crowded road of the city. (careful)
 The cook has *easily* prepared the dinner for everyone. (easy)
 She *usually* comes here with an incomplete task. (usual)
 Doctor, the patient is serious. Please attend to her *immediately*. (immediate)
-He *loyally* served his country. (loyal)`
+He *loyally* served his country. (loyal)`,
+
+        `The teacher spoke very *loudly* to get the attention of the students in the back of the classroom. (loud)
+He *completely* forgot about the meeting and missed it. (complete)
+He *barely* passed his exams because he didn't study enough. (bare)
+She *hardly* ever exercises, which is why she feels tired all the time. (hard)
+She *occasionally* goes to the gym, but usually prefers to exercise at home. (occasion)`,
+
+        `Stand *there* now. Come forward only when you are called by the teacher.
+My mother is *here*. She was late because of the traffic.
+My cat follows me *everywhere* now.
+*When* do they visit the zoo?
+*How* can I help you?`
       ]
     },
     {
       type: 'completeWord',
       id: 'complete-word',
       label: 'Complete Word - Adjective to Adverb',
-      title: 'Convert the given adjectives into corresponding adverbs.',
+      commonData: {
+        title: 'Convert the given adjectives into corresponding adverbs.'
+      },
+      lockAfter: 2,
       data: [
         `cheap| cheaply
 quick| quickly
@@ -233,52 +236,51 @@ Intense | intensely`
       type: 'passage',
       id: 'passage',
       data: {
-        title: 'Types of Adverbs',
+        title: 'Position of Adverbs',
         text: [
-          `# Position of Adverbs
-1. Adverbs of manner, time and place are usually placed after the verb, or after the object, if there is one.`,
+          `1. Adverbs of manner, time and place are usually placed after the verb, or after the object, if there is one.`,
           {
             type: 'html',
-            text: `<b>Example</b> - The tiger attacked the deer <b>ferociously</b>.`
+            text: `Eg - The tiger attacked the deer <i>ferociously</i>.`
           },
           `2. Adverbs of frequency are placed between the subject and the verb or between the auxiliary and main verb.`,
           {
             type: 'html',
-            text: `<b>Example</b> - She <b>never</b> gets up before eight o'clock.`
+            text: `Eg - She <i>never</i> gets up before eight o'clock.`
           },
           `3. With forms of the verb be, the adverb is placed after the verb.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I am <b>usually</b> at the theatre on Saturdays.`
+            text: `Eg - I am <i>usually</i> at the theatre on Saturdays.`
           },
           `4. With the auxiliaries 'have to' and 'used to' the adverb is put before them.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I <b>often</b> have to accompany my parents to family functions.`
+            text: `Eg - I <i>often</i> have to accompany my parents to family functions.`
           },
           `# Adverbials
 Adverbials are words or word groups that do the work of an adverb. `,
           {
             type: 'html',
-            text: `<b>Example</b> - The boy <b>fought heroically</b>.`
+            text: `Eg - The boy <i>fought heroically</i>.`
           },
           `The term adverbial refers to a word, phrase or clause that functions like an adverb. Besides adverbs themselves, adverbials include adverb phrases and adverb clauses. 
 Adverbial Phrases replace the adverb with a phrase that acts as an adverb. Adverbial phrases can be classified into those of time, manner, place, frequency and purpose. `,
           {
             type: 'html',
-            text: `For example, the adverb <b>politely</b> can be replaced with the adverbial phrase <b>in a polite manner</b>.`
+            text: `For example, the adverb <i>politely</i> can be replaced with the adverbial phrase <i>in a polite manner</i>.`
           },
-          `Adverbials can also be clauses, containing a subject and a main verb. An adverbial clause is a dependent clause that does the work of an adverb. Usually, a subordinating conjunction (because, since, after, before, so that, etc.) introduces an adverbial clause.`,
+          `Adverbials can also be clauses, containing a subject and a main verb. An adverbial clause is a dependent clause that does the work of an adverb. Usually, a subordinating conjunction introduces an adverbial clause.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I met Priya <b>before she started her new job</b>`
+            text: `Eg - I met Priya <i>before she started her new job</i>`
           },
           `# Order of adverbials
-If there is more than one adverbial after a verb, then their order will be:-
+If there is more than one adverbial after a verb, then their order will be :-
 adverbs of manner -> place -> frequency -> time -> purpose`,
           {
             type: 'html',
-            text: `<b>Example</b>- He prayed <b>fervently</b> (manner) <b>at the church</b> (place) <b>yesterday</b> (time).`
+            text: `Eg- He prayed <i>fervently</i> (manner) <i>at the church</i> (place) <i>yesterday</i> (time).`
           }
         ]
       }
@@ -315,7 +317,7 @@ adverbs of manner -> place -> frequency -> time -> purpose`,
     },
     {
       id: 'fill-up',
-      label: 'Adverbs',
+      label: 'Fillup',
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks with suitable words.`
@@ -337,16 +339,16 @@ Geeta gave up her marketing job four years *ago (since)*.`,
 The little boy walked *carefully (carefull)* across the bridge.
 She smiled *happily (happier)* when she received the gift.
 The athlete jumped *high (highly)* over the hurdle.
-The musician played the guitar *skillfully (with skill)*.`,
+The musician played the guitar *skillfully (with skills)*.`,
 
         `The car moved *slowly (slow)* through the heavy traffic.
 The detective examined the evidence *thoroughly (thorough)*.
-The bird flew *gracefully (with grace)* in the sky.
-The child ate the cake *greedily (with greed)*.
-The audience applauded *enthusiastically (with enthusiasm)* after the performance.`,
+The bird flew *gracefully (with grace's)* in the sky.
+The child ate the cake *greedily (greed)*.
+The audience applauded *enthusiastically (enthusiasm)* after the performance.`,
 
         `The soldier marched *bravely (braver)* toward the enemy.
-The painter mixed the colors *carefully (with care)* to get the right shade.
+The painter mixed the colors *carefully (care)* to get the right shade.
 The teacher explained the concept *simply (simpler)* for the students to understand.
 The dog barked *loudly (louder)* at the intruder.
 The comedian told the joke *humorously (humourfully)* and made everyone laugh.`
@@ -354,7 +356,7 @@ The comedian told the joke *humorously (humourfully)* and made everyone laugh.`
     },
     {
       id: 'fillup-1',
-      label: 'Adverbs from Adjectives',
+      label: 'Fillup - Adverbs from Adjectives',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -374,23 +376,23 @@ Intent ⇒ *Intently*
 Merry ⇒ *Merrily*
 Terrible ⇒ *Terribly*`,
 
-        `Aggressive - *Aggressively*
-Comfortable - *Comfortably*
-Confident - *Confidently*
-Dangerous - *Dangerously*
-Difficult - *Difficultly*`,
+        `Aggressive ⇒ *Aggressively*
+Comfortable ⇒ *Comfortably*
+Confident ⇒ *Confidently*
+Dangerous ⇒ *Dangerously*
+Difficult ⇒ *Difficultly*`,
 
-        `Easy - *Easily*
-Efficient - *Efficiently*
-Happy - *Happily*
-Intense - *Intensely*
-Irregular - *Irregularly*`,
+        `Easy ⇒ *Easily*
+Efficient ⇒ *Efficiently*
+Happy ⇒ *Happily*
+Intense ⇒ *Intensely*
+Irregular ⇒ *Irregularly*`,
 
-        `Pleasant - *Pleasantly*
-Quick - *Quickly*
-Sincere - *Sincerely*
-Tense - *Tensely*
-Wise - *Wisely*`
+        `Pleasant ⇒ *Pleasantly*
+Quick ⇒ *Quickly*
+Sincere ⇒ *Sincerely*
+Tense ⇒ *Tensely*
+Wise ⇒ *Wisely*`
       ]
     },
     {
@@ -419,13 +421,13 @@ He drives his car. `
           `The children play football in the garden.
 We went to the cinema yesterday.
 John almost fell off the bike.
-Her boyfriend will probably buy her some flowers.
+Her friend will probably buy her some flowers.
 My uncle is definitely moving to Stockholm soon.`,
 
           `The children play football. 
 We went to the cinema. 
 John fell off the bike. 
-Her boyfriend will buy her some flowers. 
+Her friend will buy her some flowers. 
 My uncle is moving to Stockholm soon.`
         ],
         [
@@ -470,7 +472,7 @@ The couple danced at their wedding reception.`
     },
     {
       type: 'selectWord',
-      label: 'Adverbial Clause',
+      label: 'Adverbial Clause - Identify',
       id: 'select-word-2',
       lockAfter: 1,
       commonData: {
@@ -481,34 +483,34 @@ The couple danced at their wedding reception.`
         `*After the crop is harvested*, it is sold in the market.
 Don't disturb her *when she is singing*.
 I will follow you *wherever you go*.
-She has hidden the box *where it cannot be found*.`,
+She has hidden the box *where it cannot be found*.
+Rina learned English *so that she could get a better job*.`,
 
-        `Rina learned English *so that she could get a better job*.
-Ashwin called Sophie *so that he could get directions*.
+        `Ashwin called Sophie *so that he could get directions*.
 A new club was formed *in order to discuss politics*. 
-He is so kind-hearted *that everybody loves him*.`,
+He is so kind-hearted *that everybody loves him*.
+I will help you *because you are my true friend*.
+Rahul did not call Tina *because he felt guilty*.`,
 
-        `I will help you *because you are my true friend*.
-Rahul did not call Tina *because he felt guilty*.
-*If you save money*, you can buy a bigger house.
+        `*If you save money*, you can buy a bigger house.
 *Unless you study harder*, you will fail.
-I will free you *on condition that you pay a fine*.`,
+I will free you *on condition that you pay a fine*.
+*Though he is not rich*, he gives to charity.
+*Although she tried very hard*, she had to give up.`,
 
-        `*Though he is not rich*, he gives to charity.
-*Although she tried very hard*, she had to give up.
-Tina is much younger *than she looks*.
-He does not work *as hard as you think*.`,
+        `Tina is much younger *than she looks*.
+He does not work *as hard as you think*.
+*Although it was raining*, he still went for a walk.
+*While she was studying*, her brother was watching TV.`,
 
-        `*Although it was raining*, he still went for a walk.
-*While she was studying*, her brother was watching TV.
-*Because she was tired*, she went to bed early.
+        `*Because she was tired*, she went to bed early.
 *Whenever he sees a dog*, he gets scared.
 *After we finish our homework*, we can play video games.`
       ]
     },
     {
       type: 'selectWord',
-      label: 'Adverbial Phrase',
+      label: 'Adverbial Phrase - Identify',
       id: 'select-word-3',
       lockAfter: 1,
       commonData: {
@@ -565,7 +567,7 @@ The man lives *next door*.`,
         `She stood *on the bridge*.
 I buy at least two dresses *every month*.
 She goes on holiday *twice a year*.
-Tina bought a lovely gift *for her husband*.
+Tina bought a lovely gift *for her friend*.
 Rahul saved money to *buy a car*.`,
 
         `She waited for the bus *at the bus stop*.
@@ -588,34 +590,61 @@ She danced *gracefully at the ball*.`
       ]
     },
     {
-      label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-2',
-      lockAfter: 1,
+      type: 'makeSentence',
+      label: 'Complete the Sentences',
+      id: 'make-sentence',
       commonData: {
-        title: 'Fill in the blanks using suitable adverbial clauses.'
+        title:
+          'Complete the sentences using suitable adverbial clauses. Drag & Drop the words from the bottom and construct the sentence.',
+        extras: 'is of an the them us was'
       },
       data: [
-        `*After the crop is harvested*, it is sold in the market.
+        `______________________, it is sold in the market. | after the crop is harvested
+Don't disturb her _____________________. | when she is singing
+I will follow you _________________. | wherever you go
+She has hidden the box ____________________. | where it cannot be found
+__________________, he gives to charity. | though he is not rich`,
+
+        `I will help you __________________. | because you are my true friend
+Rahul did not call Tina _________________. | because he felt guilty
+_______________, you can buy a bigger house. | if you save money
+_________________, you will fail. | unless you study harder
+I will free you __________________. | on condition that you pay a fine`,
+
+        `_____________________, she had to give up. | although she tried very hard
+Tina is much younger _____________. | than she looks.
+He does not work _______________________. |  as hard as you think`
+      ]
+    },
+    /*{
+label: 'Fill in the blanks - 2',
+type: 'matchByDragDrop',
+id: 'drag-drop-2',
+lockAfter: 1,
+commonData: {
+title: 'Fill in the blanks using suitable adverbial clauses.'
+},
+data: [
+`*After the crop is harvested*, it is sold in the market.
 Don't disturb her *when she is singing*.
 I will follow you *wherever you go*.
 She has hidden the box *where it cannot be found*.`,
 
-        `I will help you *because you are my true friend*.
+`I will help you *because you are my true friend*.
 Rahul did not call Tina *because he felt guilty*.
 *If you save money*, you can buy a bigger house.
 *Unless you study harder*, you will fail.
 I will free you *on condition that you pay a fine*.`,
 
-        `*Though he is not rich*, he gives to charity.
+`*Though he is not rich*, he gives to charity.
 *Although she tried very hard*, she had to give up.
 Tina is much younger *than she looks*.
 He does not work *as hard as you think*.`
-      ]
-    },
+]
+},*/
     {
       id: 'yes-no-2',
-      label: 'Order of Adjectives',
+      label: 'Yes or No',
       type: 'classifySentence',
       data: {
         title: 'Is the order of adverbs correct in the following sentences?',
@@ -636,6 +665,28 @@ She plays very well the piano. I've heard her.`
           }
         ]
       }
+    },
+    {
+      id: 'sorting',
+      label: 'Order of Adjectives',
+      type: 'sorting',
+      commonData: {
+        title:
+          'Arrange the words in the correct order and form meaningful sentences'
+      },
+      lockAfter: 1,
+      data: [
+        `He, prayed, fervently, at, the, church, yesterday.`,
+        `They, laughed, loudly, and, happily, at, the, funny, movie.`,
+        `You, start, off, slowly, in, the, beginning.`,
+        `She, plays, the, piano, really, well.`,
+        `She, sings, beautifully, in, the, church, choir, every, Sunday.`,
+        `He, ran, quickly, through, the, park, to, catch, the, bus.`,
+        `They, speak, English, fluently, and, confidently, in, public.`,
+        `She, worked, hard, all, day, yesterday, at, the, office.`,
+        `He, speaks, Spanish, very, well, and, with, great, enthusiasm.`,
+        `She, dances, gracefully, and, elegantly, on, the, stage. `
+      ]
     },
     {
       id: 'phrase-clause',
