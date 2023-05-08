@@ -230,7 +230,7 @@ The company offered me a job. | a job was offered to me by the company`,
 
         `The dog chased the cat up the tree. | the cat was chased up the tree by the dog
 The teacher praised the students. | the students were praised by the teacher
-The kids are playing in the park.  | the park is being played in by the kids.
+The kids are playing in the park.  | the park is being played in by the kids
 The company hired a new employee. | a new employee was hired by the company
 The singer will sing a new song. | a new song will be sung by the singer `
       ]
