@@ -195,7 +195,7 @@ Before a proper noun, common noun, abstract noun or material noun to make them c
         title: `Fill in the blanks with suitable articles.`
       },
       data: [
-        `*The (an)* dog barked at *the (-)* mailman.
+        `*The (An)* dog barked at *the (-)* mailman.
 *A (-)* cat jumped onto *the (an)* windowsill.
 *An (A)* apple *a (the)* day keeps *the (a)* doctor away.
 *The (-)* car honked loudly in traffic.
