@@ -3,6 +3,75 @@ export default {
   id: 'number-series',
   list: [
     {
+      id: '1683436320509',
+      authored: true,
+      label: 'My Drag and Drop',
+      type: 'dragAndDrop',
+      commonData: {
+        height: 400,
+        title: 'Complete the Sequence',
+        noOptions: true,
+        mathKeypad: true,
+        width: 400,
+        textStyle: {
+          width: 60
+        },
+        wordWidth: 60,
+        wordHeight: 32,
+        svg: {
+          paths: [
+            'M 11 17 H 72 V 51 H 11 V 17',
+            'M 121 18 H 182 V 52 H 121 V 18',
+            'M 242 18 H 303 V 52 H 242 V 18',
+            'M 42 136 L 42 159 L 48 159 L 39 174 L 31 159 L 37 159 L 37 136 L 37 136 Z',
+            'M 42 284 L 42 307 L 48 307 L 39 322 L 31 307 L 37 307 L 37 284 L 37 284 Z',
+            'M 276 58 L 276 81 L 282 81 L 273 96 L 265 81 L 271 81 L 271 58 L 271 58 Z',
+            'M 78 342 H 101 V 336 L 116 345 L 101 353 V 347 H 78 V 347 Z',
+            'M 189 341 H 212 V 335 L 227 344 L 212 352 V 346 H 189 V 346 Z',
+            'M 192 188 H 215 V 182 L 230 191 L 215 199 V 193 H 192 V 193 Z',
+            'M 78 190 H 101 V 184 L 116 193 L 101 201 V 195 H 78 V 195 Z',
+            'M 224 270 L 201 270 L 201 276 L 186 267 L 201 259 L 201 265 L 224 265 L 224 265 Z',
+            'M 113 270 L 90 270 L 90 276 L 75 267 L 90 259 L 90 265 L 113 265 L 113 265 Z',
+            'M 114 121 L 91 121 L 91 127 L 76 118 L 91 110 L 91 116 L 114 116 L 114 116 Z',
+            'M 227 120 L 204 120 L 204 126 L 189 117 L 204 109 L 204 115 L 227 115 L 227 115 Z',
+            'M 188 34 H 211 V 28 L 226 37 L 211 45 V 39 H 188 V 39 Z',
+            'M 76 35 H 99 V 29 L 114 38 L 99 46 V 40 H 76 V 40 Z',
+            'M 278 211 L 278 234 L 284 234 L 275 249 L 267 234 L 273 234 L 273 211 L 273 211 Z'
+          ],
+          props: {
+            fill: 'none',
+            stroke: '#0d3756',
+            strokeWidth: 1
+          }
+        }
+      },
+      data: [
+        {
+          texts: [
+            { str: '100', x: 11, y: 25 },
+            { str: '105', x: 121, y: 25 },
+            { str: '110', x: 242, y: 25 }
+          ],
+          words: [
+            { word: '115', x: 242, y: 100 },
+            { word: '120', x: 121, y: 100 },
+            { word: '125', x: 11, y: 100 },
+            { word: '130', x: 11, y: 175 },
+            { word: '135', x: 121, y: 175 },
+            { word: '140', x: 242, y: 175 },
+
+            { word: '145', x: 242, y: 250 },
+            { word: '150', x: 121, y: 250 },
+            { word: '155', x: 11, y: 250 },
+
+            { word: '160', x: 11, y: 325 },
+            { word: '165', x: 121, y: 325 },
+            { word: '170', x: 242, y: 325 }
+          ]
+        }
+      ]
+    },
+    {
       type: 'numberInput',
       id: 'series',
       label: 'Complete the Series',
