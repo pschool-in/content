@@ -36,8 +36,7 @@ a) We can use a singular noun with the indefinite article 'a' or 'an'.`,
           {
             type: 'html',
             text: `Eg: It's very easy. <i>Any</i> child can do it.<br>
-With a full license, you are allowed to drive <i>any</i> car.<br>
-I like beef, lamb, pork - <i>any</i> meat.`
+With a full license, you are allowed to drive <i>any</i> car.`
           },
           `c) We use the general determiner 'another' to talk about an additional person or thing.`,
           {
@@ -71,7 +70,7 @@ The grammar rules for determiners are:
           },
           {
             qText: `Which determiner is used to introduce a singular noun when we are talking about things in general?`,
-            options: `a, an, the, any`
+            options: `a, the, any`
           },
           {
             qText: `Which determiner is used to talk about an additional person or thing?`,
@@ -87,25 +86,6 @@ The grammar rules for determiners are:
           }
         ]
       }
-    },
-    {
-      id: 'fill-up-12',
-      label: 'Complete the Paragraph',
-      type: 'fillup',
-      commonData: {
-        title: `Write a, an or the where needed. Put X where none of them are needed.`
-      },
-      data: [
-        `Sam, Harry, Patrick and Henry are in *a (an, the)* beautiful city in Saudi Arabia. *The (A, An)* city is called Abha. They plan to take *a (an, the)* taxi from *the (a, an)* city to visit *the (a, an)* Red Sea. On their way, they will spend *an (a, the)* afternoon at Abha Palace Hotel.`,
-
-        `Their tour guide tells them, “It is *an (a,the)* ideal place for *a (an, the)* trek through *the (a, an)* Green Mountain. We can spot magnificent purple Jacaranda trees. It is *a (an, the)* place where artists from all over *the (a, an)* country catch up to share their creativity. *The (A, An)* street is decorated with colorful pieces of art and is illuminated at night to offer *a (the, an)* serene ambiance.`,
-
-        `*x (the, a)* Dudhsagar Falls is *a (an, the)* four-tiered waterfall located on *the (a, x)* Mandovi River in *the (an, x)* Indian state of *x (a, the)* Goa. It is 60 km from Panaji by road and is located on *the (a, an)* Belgavi-Vasco Da Gama rail route about 46 km east of Madgaon and 80 km south of Belgavi. Dudhsagar Falls is amongst *x (the, an)* India's tallest waterfalls with *a (an, the)* height of 310 m and *an (a, x)* average width of 30 metres.`,
-
-        `*The (A, x)* falls are located in *the (x, a)* Bhagwan Mahaveer Sanctuary and Mollem National Park among *the (x, a)* Western Ghats. *The (x, a)* falls are a punctuation mark in *the (a, x)* journey of *the (a, x)* Mandovi River from *the (a, x)* Western Ghats to *x (the, a)* Panjim where it meets *the (a, x)* Arabian sea.`,
-
-        `*The (x, an)* area is surrounded by deciduous forests with rich biodiversity. This waterfall is also known as *x (the, a)* Tambdi Surla to some of the local people. *The (a, x)* falls are not particularly spectacular during *the (a, x)* dry season but during *the (x, a)* monsoon season, however, *the (a, x)* falls are fed by rains and form *a (x, an)* huge force of water.`
-      ]
     },
     {
       id: 'fillup-5',
@@ -147,13 +127,13 @@ Tom: Here are *some* coins. Will these be enough?`
       data: [
         `*What (Which)* kind of pencil do you use? Do you use *a (the)* pencil made of wood? Have you wondered why *most (some)* pencils have six sides and a *few (some)* pencils are rounded? *Most (Many)* pencils are made of wood. They can make *more (some)* six-sided pencils out of one piece of wood than rounded pencils.`,
 
-        `It is convenient for *the (x)* users as well. The chances of *a (the)* six-sided pencil rolling off *a (the)* desk or *a (the)* table are fewer. So *such (some)* pencils break less as compared to rounded ones. *This (That)* way, *all (every)* six-sided pencil scores over *the (a)* rounded one.`,
+        `It is convenient for *the (-)* users as well. The chances of *a (the)* six-sided pencil rolling off *a (the)* desk or *a (the)* table are fewer. So *such (some)* pencils break less as compared to rounded ones. *This (That)* way, *all (every)* six-sided pencil scores over *the (a)* rounded one.`,
 
-        `*The (x)* sun was shining brightly in *the (a)* clear blue sky. *The (x)* birds were chirping merrily as they flew from tree to tree. *The (x)* trees were swaying gently in *the (a)* breeze, casting dappled shadows on *the (a)* ground. It was *a (the)* perfect day for *a (x)* picnic.`,
+        `*The (-)* sun was shining brightly in *the (a)* clear blue sky. *The (-)* birds were chirping merrily as they flew from tree to tree. *The (-)* trees were swaying gently in *the (a)* breeze, casting dappled shadows on *the (a)* ground. It was *a (the)* perfect day for *a (-)* picnic.`,
 
         `A *few (little)* people have gathered around *the (an)* entrance to *the (a)* museum, waiting for it to open. They chatted excitedly amongst themselves, discussing *what (which)* exhibits they wanted to see first. As *the (a)*doors opened, they eagerly filed inside, ready to explore.`,
 
-        `All of *the (x)* guests at *the (a)* party were having *a (the)* great time. They mingled and laughed, enjoying *the (x)* delicious food and drinks. *The (x)* music was playing and *the (x)* atmosphere was festive.`
+        `All of *the (-)* guests at *the (a)* party were having *a (the)* great time. They mingled and laughed, enjoying *the (-)* delicious food and drinks. *The (-)* music was playing and *the (-)* atmosphere was festive.`
       ]
     },
     {

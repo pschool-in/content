@@ -17,39 +17,39 @@ export default {
             {
               stmt: 'He won the first prize.',
               text: `he, pronoun
-              won, verb
-              the, article
-              first, adjective
-              prize, noun`
+won, verb
+the, article
+first, adjective
+prize, noun`
             },
             {
               stmt: 'Ravi and John are friends.',
               text: `John, proper noun
-              friends, common noun
-              and, conjunction
-              are, verb`
+friends, common noun
+and, conjunction
+are, verb`
             },
             {
               stmt: 'Gopal has two brothers.',
               text: `Gopal, proper noun
-              has, verb
-              two, adjective
-              brothers, common noun`
+has, verb
+two, adjective
+brothers, common noun`
             },
             {
               stmt: 'Sita is a good girl.',
               text: `Sita, proper noun
-              is, verb
-              a, article
-              good, adjective
-              girl, common noun`
+is, verb
+a, article
+good, adjective
+girl, common noun`
             },
             {
               stmt: 'They are reading books.',
               text: `they, pronoun
-              are, helping verb
-              reading, main verb
-              books, noun`
+are, helping verb
+reading, main verb
+books, noun`
             }
           ]
         },
@@ -58,40 +58,40 @@ export default {
             {
               stmt: 'The sun is bright.',
               text: `the, article
-              sun, noun
-              is, verb
-              bright, adjective`
+sun, noun
+is, verb
+bright, adjective`
             },
             {
               stmt: 'The sky is blue.',
               text: `the, article
-              sky, noun
-              is, verb
-              blue, adjective`
+sky, noun
+is, verb
+blue, adjective`
             },
             {
               stmt: 'I have a red ball.',
               text: `I , pronoun
-              have, verb
-              a, article
-              red, adjective
-              ball, noun`
+have, verb
+a, article
+red, adjective
+ball, noun`
             },
             {
               stmt: 'I see a bird in the tree.',
               text: `I,pronoun
-              see, verb
-              tree, noun,
-              in, preposition
-              the, article`
+see, verb
+tree, noun,
+in, preposition
+the, article`
             },
             {
               stmt: 'I have a new pencil.',
               text: `I, pronoun
-              have, verb
-              a, article
-              new, adjective
-              pencil, noun`
+have, verb
+a, article
+new, adjective
+pencil, noun`
             }
           ]
         },
@@ -100,40 +100,40 @@ export default {
             {
               stmt: 'Wow! It is a beautiful dress.',
               text: `wow, interjection
-              it, pronoun
-              is, verb
-              a, article
-              beautiful, adjective
-              dress, noun`
+it, pronoun
+is, verb
+a, article
+beautiful, adjective
+dress, noun`
             },
             {
               stmt: 'Hurray! We won the match.',
               text: `hurray, interjection
-              we, pronoun
-              won, verb
-              the, article
-              match, noun`
+we, pronoun
+won, verb
+the, article
+match, noun`
             },
             {
               stmt: 'Ouch! That really hurt badly.',
               text: `ouch, interjection
-              that, pronoun
-              badly, adverb
-              hurt, verb`
+that, pronoun
+badly, adverb
+hurt, verb`
             },
             {
               stmt: 'The turtle moves slowly.',
               text: `the, article
-              turtle, noun
-              moves, verb
-              slowly, adverb`
+turtle, noun
+moves, verb
+slowly, adverb`
             },
             {
               stmt: 'The spider has eight legs.',
               text: `the, article
-              spider, noun
-              has, verb
-              eight, adjective`
+spider, noun
+has, verb
+eight, adjective`
             }
           ]
         },
@@ -142,39 +142,39 @@ export default {
             {
               stmt: 'Ruby is painting beautifully.',
               text: `Ruby, noun
-              is, helping verb
-              painting, main verb
-              beautifully, adverb`
+is, helping verb
+painting, main verb
+beautifully, adverb`
             },
             {
               stmt: 'The students are writing neatly.',
               text: `the, article
-              students, noun
-              are, helping verb
-              writing, main verb
-              neatly, adverb`
+students, noun
+are, helping verb
+writing, main verb
+neatly, adverb`
             },
             {
               stmt: 'Our dad is driving carefully.',
               text: `our, adjective
-              dad, noun
-              is, helping verb
-              driving, main verb
-              carefully, adverb`
+dad, noun
+is, helping verb
+driving, main verb
+carefully, adverb`
             },
             {
               stmt: 'We are cooking together.',
               text: `we, pronoun
-              are, helping verb
-              cooking, main verb
-              together, adverb`
+are, helping verb
+cooking, main verb
+together, adverb`
             },
             {
               stmt: 'It is raining heavily.',
               text: `it, pronoun
-              is, helping verb
-              raining, main verb
-              heavily, adverb`
+is, helping verb
+raining, main verb
+heavily, adverb`
             }
           ]
         },
@@ -183,49 +183,48 @@ export default {
             {
               stmt: 'I can swim in the pool.',
               text: `I, pronoun
-              can, helping verb
-              swim, main verb
-              in, preposition
-              pool, noun`
+can, helping verb
+swim, main verb
+in, preposition
+pool, noun`
             },
             {
               stmt: 'We have a white cat.',
               text: `we, pronoun
-              have, verb
-              a, article
-              white, adjective
-              cat, noun`
+have, verb
+a, article
+white, adjective
+cat, noun`
             },
             {
               stmt: 'I can sing a song.',
               text: `I, pronoun
-              can, helping verb
-              sing, main verb
-              a, article
-              song, noun`
+can, helping verb
+sing, main verb
+a, article
+song, noun`
             },
             {
               stmt: 'The storm brings rain and thunder.',
               text: `the, article
-              storm, noun
-              brings, verb
-              and, conjunction`
+storm, noun
+brings, verb
+and, conjunction`
             },
             {
               stmt: 'My friend shares his toys.',
               text: `my, adjective
-              shares, verb
-              his, pronoun
-              toys, plural noun
-              friend, singular noun`
+shares, verb
+his, pronoun
+toys, plural noun
+friend, singular noun`
             }
           ]
         },
         {
           arr: [
             {
-              title:
-                'Match words and roles: The dog is running through the park.',
+              stmt: 'The dog is running through the park.',
               text: `is, helping verb
 running, main verb
 through, preposition
@@ -233,8 +232,7 @@ park, object
 dog, subject`
             },
             {
-              title:
-                'Match words and roles: The child is playing with her toys on the floor.',
+              stmt: 'The child is playing with her toys on the floor.',
               text: `is, helping verb
 playing, main verb
 with, preposition
@@ -242,8 +240,7 @@ toys, object
 child, subject`
             },
             {
-              title:
-                'Match words and roles: The cat is sleeping under the chair.',
+              stmt: 'The cat is sleeping under the chair.',
               text: `is, helping verb
 sleeping, main verb
 under, preposition
@@ -251,8 +248,7 @@ chair, object
 cat, subject`
             },
             {
-              title:
-                'Match words and roles: The bird is flying over the trees.',
+              stmt: 'The bird is flying over the trees.',
               text: `is, helping verb
 flying, main verb
 over, preposition
@@ -260,8 +256,7 @@ trees, object
 bird, subject`
             },
             {
-              title:
-                'Match words and roles: The dog is barking at the mailman.',
+              stmt: 'The dog is barking at the mailman.',
               text: `is, helping verb
 barking, main verb
 at, preposition
@@ -273,7 +268,7 @@ dog, subject`
         {
           arr: [
             {
-              title: 'Match words and roles: The book is lying on the table.',
+              stmt: 'The book is lying on the table.',
               text: `is, helping verb
 lying, main verb
 on, preposition
@@ -281,8 +276,7 @@ table, object
 book, subject`
             },
             {
-              title:
-                'Match words and roles: Can you pick up Dan on your way home?',
+              stmt: 'Can you pick up Dan on your way home?',
               text: `pick, verb
 Dan, noun
 and, conjunction
@@ -290,7 +284,7 @@ on, preposition
 your, pronoun`
             },
             {
-              title: 'Match words and roles: Is that with all the fees or not?',
+              stmt: 'Is that with all the fees or not?',
               text: `is, verb
 that, pronoun
 with, preposition
@@ -300,7 +294,7 @@ or, conjunction
 not, adverb`
             },
             {
-              title: 'Match words and roles: Yesterday, we went to the cinema.',
+              stmt: 'Yesterday, we went to the cinema.',
               text: `yesterday, adverb
 we, pronoun
 went, verb
@@ -309,8 +303,7 @@ the, article
 cinema, noun`
             },
             {
-              title:
-                'Match words and roles: The old man always walks with a limp.',
+              stmt: 'The old man always walks with a limp.',
               text: `old, adjective
 man, noun
 always, adverb
@@ -322,8 +315,7 @@ with, preposition`
         {
           arr: [
             {
-              title:
-                'Match words and roles: The waiter is serving food to the customers. ',
+              stmt: 'The waiter is serving food to the customers. ',
               text: `is, helping verb
 serving, main verb
 to, preposition
@@ -331,7 +323,7 @@ customers, object
 waiter, subject`
             },
             {
-              title: 'Match words and roles: The boat is sailing on the lake.',
+              stmt: 'The boat is sailing on the lake.',
               text: `is, helping verb
 sailing, main verb
 on, preposition
@@ -339,7 +331,7 @@ lake, object
 boat, subject`
             },
             {
-              title: 'Match words and roles: The house is located on the hill.',
+              stmt: 'The house is located on the hill.',
               text: `is, helping verb
 located, main verb
 on, preposition
@@ -347,8 +339,7 @@ hill, object
 house, subject`
             },
             {
-              title:
-                'Match words and roles: The picture is hanging on the wall.',
+              stmt: 'The picture is hanging on the wall.',
               text: `is, helping verb
 hanging, main verb
 on, preposition
@@ -356,8 +347,7 @@ wall, object
 picture, subject`
             },
             {
-              title:
-                'Match words and roles: The cat is chasing a mouse in the garden.',
+              stmt: 'The cat is chasing a mouse in the garden.',
               text: `is, helping verb
 chasing, main verb
 in, preposition
@@ -369,8 +359,7 @@ cat, subject`
         {
           arr: [
             {
-              title:
-                'Match words and roles: Her cat is always sleeping in the sun.',
+              stmt: 'Her cat is always sleeping in the sun.',
               text: `her, pronoun
 cat, noun
 always, adverb
@@ -379,8 +368,7 @@ in, preposition
 the, determiner`
             },
             {
-              title:
-                'Match words and roles: Our garden is very beautiful in the spring.',
+              stmt: 'Our garden is very beautiful in the spring.',
               text: `our, pronoun
 garden, noun
 very, adverb
@@ -389,8 +377,7 @@ in, preposition
 the, determiner`
             },
             {
-              title:
-                'Match words and roles: His car is a classic and always turns heads.',
+              stmt: 'His car is a classic and always turns heads.',
               text: `his, pronoun
 car, noun
 a, determiner
@@ -400,8 +387,7 @@ always, adverb
 turns, verb`
             },
             {
-              title:
-                'Match words and roles: My sister is very talented and can play multiple instruments.',
+              stmt: 'My sister is very talented and can play multiple instruments.',
               text: `my, pronoun
 sister, noun
 very, adverb
@@ -410,8 +396,7 @@ and, conjunction
 play, verb`
             },
             {
-              title:
-                'Match words and roles: The weather is really hot and humid today.',
+              stmt: 'The weather is really hot and humid today.',
               text: `the, determiner
 weather, noun
 really, adverb
@@ -424,8 +409,7 @@ humid, adjective`
         {
           arr: [
             {
-              title:
-                'Match words and roles: The old woman walks slowly with a cane.',
+              stmt: 'The old woman walks slowly with a cane.',
               text: `old, adjective
 woman, noun
 slowly, adverb
@@ -433,8 +417,7 @@ walks, verb
 with, preposition`
             },
             {
-              title:
-                'Match words and roles: The hungry dog eagerly devours his food.',
+              stmt: 'The hungry dog eagerly devours his food.',
               text: `hungry, adjective
 dog, noun
 eagerly, adverb
@@ -442,8 +425,7 @@ devours, verb
 his, possessive pronoun`
             },
             {
-              title:
-                'Match words and roles: The curious cat watches the birds from the window.',
+              stmt: 'The curious cat watches the birds from the window.',
               text: `curious, adjective
 cat, noun
 watches, verb
@@ -451,8 +433,7 @@ the, definite article
 birds, noun`
             },
             {
-              title:
-                'Match words and roles: The students are writing an essay for their English class.',
+              stmt: 'The students are writing an essay for their English class.',
               text: `   are, helping verb
 writing, main verb
 for, preposition
@@ -460,7 +441,7 @@ English class, object
 students, subject`
             },
             {
-              title: 'Match words and roles: The girl is swimming in the pool.',
+              stmt: 'The girl is swimming in the pool.',
               text: `is, helping verb
 swimming, main verb
 in, preposition
