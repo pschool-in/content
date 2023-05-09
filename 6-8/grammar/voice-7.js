@@ -84,9 +84,8 @@ The Tense of the Verb changes in the passive voice.`
         `She was *brought* up by her aunt. (bring) 
 Invitation cards have *been sent* to all her friends. (send) 
 You will *be invited* to the feast. (invite)
-The result was *declared* last Monday. (declare)`,
-
-        `They were *alarmed* at the report of the fire. (alarm) 
+The result was *declared* last Monday. (declare)
+They were *alarmed* at the report of the fire. (alarm) 
 We were *shocked* at his failure. (shock) 
 A mistake was *made* by me. (made)
 His work has *been done* by him. (do) `,
@@ -94,9 +93,8 @@ His work has *been done* by him. (do) `,
         `The package was *delivered* by the postman. (deliver)
 The letter was *written* by the secretary. (write)
 The glass was *broken* by the child. (broke)
-The concert was *enjoyed* by the audience. (enjoy)`,
-
-        `The game *was won* by the team. (win)
+The concert was *enjoyed* by the audience. (enjoy)
+The game *was won* by the team. (win)
 The song *was sung* by the singer. (sing)
 The food *was cooked* by the chef. (cook)
 The decision *was made* by the committee. (make)`,
@@ -104,9 +102,8 @@ The decision *was made* by the committee. (make)`,
         `The lesson *was taught* by the teacher. (teach)
 The garden *was tended* by the gardener. (tend)
 The report *was prepared* by the analyst. (prepare)
-The project *was completed* by the team. (complete)`,
-
-        `The question *was answered* by the expert. (answer)
+The project *was completed* by the team. (complete)
+The question *was answered* by the expert. (answer)
 The medicine *was prescribed* by the doctor. (prescribe)
 The contract *was signed* by the parties. (sign)
 The mistake was *made* by the employee. (make)`
