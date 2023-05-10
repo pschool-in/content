@@ -10,18 +10,73 @@ export default {
       data: {
         title: 'Active and Passive Voice',
         text: [
-          `Active Voice: In active voice, the subject of the sentence performs the action denoted by the verb. 
+          `Active Voice: In active voice, the subject performs the action. 
 Eg - I made a mistake.
-Passive Voice: In passive voice, the subject of the sentence receives the action denoted by the verb. 
+Passive Voice: In passive voice, the subject receives the action. 
 Eg - A mistake was made by me.
+The Subject dominates in Active Voice but the Object dominates in Passive Voice.
+Consider the following sentences :
+Lata sings a song.
+A song is sung by Lata.
+There is practically no difference in the meanings of these two sentences. These are two different ways of presenting the same thing. But in the first sentence the Subject performs the action while in the second sentence, the Subject of the Verb is acted upon.
+Thus, the voice shows whether the Subject of a Verb acts or is acted upon.
 # Rules
 To change a sentence from active voice to passive voice, follow these steps:
 1. Make the object of the active verb the subject of the passive verb.
 2. Make the subject of the active verb the object of a preposition in the passive voice.
-3. Use the past participle form of the finite verb in the passive voice, along with a form of the verb "to be."
+3. Use the past participle form of the finite verb in the passive voice, along with the form of the "be" verb. 
 4. If the subject in the active voice is a vague or indefinite pronoun, it can be dropped in the passive voice, along with the preposition "by."
 5. The tense of the verb remains the same.
-=> Passive voice cannot be formed for sentences that are in Present Perfect Continuous, Past Perfect Continuous, Future Continuous, and Future Perfect Continuous tenses.`
+=> Passive voice cannot be formed for sentences that are in Present Perfect Continuous, Past Perfect Continuous, Future Continuous, and Future Perfect Continuous tenses.`,
+          {
+            type: 'table',
+            title: ['Tense', 'Indefinite', 'Continuous', 'Perfect'],
+            text: [
+              `Present
+Present
+Present
+Present
+Past 
+Past
+Past
+Future
+Future
+Future`,
+
+              `is/am/are + verb in third form
+is seen
+am seen
+are seen
+was/were + verb in third form
+was seen
+were seen
+will/shall + be + verb in third form
+will be seen
+shall be seen`,
+
+              `is/am/are + being + verb in third form
+is being seen
+am being seen
+are being seen
+was/were + being + verb in third form
+was being seen
+were being seen
+no change
+no change
+no change`,
+
+              `has/have + been + verb in third form
+has been seen
+has been seen
+have been seen
+had + been + verb in third form
+had been seen
+had been seen
+will/shall + have been + verb in third form
+will have been seen
+shall have been seen`
+            ]
+          }
         ]
       }
     },
@@ -34,19 +89,27 @@ To change a sentence from active voice to passive voice, follow these steps:
         questions: [
           {
             qText: `What is the Active Voice?`,
-            options: `When the subject of a verb acts, When the object of a verb acts, When the object of a verb becomes the subject `
+            options: `When the subject of a verb acts.
+When the object of a verb acts.
+When the object of a verb becomes the subject. `
           },
           {
             qText: `What is the Passive Voice?`,
-            options: `When the object of the active voice becomes the subject, When the object of a verb acts, When the subject of a verb acts`
+            options: `When the object of the active voice becomes the subject.
+When the object of a verb acts.
+When the subject of a verb acts.`
           },
           {
             qText: `What is the rule for changing a verb from the Active Voice to the Passive Voice?`,
-            options: `The object of the active verb is made the subject of the passive verb, The subject of the active verb is made the subject of the passive verb, The object of the active verb is made the object of some preposition`
+            options: `The object of the active verb is made the subject of the passive verb.
+The subject of the active verb is made the subject of the passive verb.
+The object of the active verb is made the object of some preposition.`
           },
           {
-            qText: `What form of the verb 'to be' is used before the past participle form of the finite verb in the passive voice?`,
-            options: `has been, will be, could be`
+            qText: `What is the difference between active and passive voice?`,
+            options: `Active voice is used when the subject performs the action, while passive voice is used when the subject receives the action.
+Active voice is used when the subject receives the action, while passive voice is used when the subject performs the action.
+Active voice is only used in questions, while passive voice is used in statements.`
           }
         ]
       }
@@ -62,7 +125,7 @@ To change a sentence from active voice to passive voice, follow these steps:
             name: 'True',
             text: `The object of the Active Verb becomes the subject of the Passive Verb.
 The Subject of the Active Verb becomes the object of some Preposition.
-The Verb of the Active Voice gets the Past Participle form of the Finite Verb and some form of the verb 'to be' will be used before it in the passive voice.`
+Active voice is used when the subject performs the action, while passive voice is used when the subject receives the action.`
           },
           {
             name: 'False',
@@ -110,28 +173,81 @@ The mistake was *made* by the employee. (make)`
       ]
     },
     {
-      id: 'active-passive',
       label: 'Active or Passive',
       type: 'classifySentence',
-      data: {
+      id: 'active-passive',
+      commonData: {
         title: 'Classify the given sentences as Active or Passive Voice.',
-        types: [
-          {
-            name: 'Active',
-            text: `Rama helps Hari.
+        types: ['Active', 'Passive']
+      },
+      data: [
+        [
+          `Rama helps Hari.
 The mason is building the wall.
 Some boys were helping the wounded man.
-Who did this?`
-          },
-          {
-            name: 'Passive',
-            text: `Hari is helped by Rama.
+Who did this?`,
+
+          `Hari is helped by Rama.
 The wall is being built by the mason.
 The wounded man was being helped by some boys.
 By whom was this done?`
-          }
+        ],
+        [
+          `Sarah painted the portrait.
+The dog chased the cat.
+The teacher graded the exams.
+The singer performed a new song.`,
+
+          `The portrait was painted by Sarah.
+The cat was chased by the dog.
+The exams were graded by the teacher.
+A new song was performed by the singer.`
+        ],
+        [
+          `The company launched a new product.
+The children played in the park.
+I baked a cake for the party.
+John wrote a book about his travels.`,
+
+          `A new product was launched by the company.
+The park was played in by the children.
+A cake was baked by me for the party.
+A book about his travels was written by John.`
+        ],
+        [
+          `The storm damaged the roof of the house.
+The police caught the thief.
+The car hit the tree.
+The athlete won the race.`,
+
+          `The roof of the house was damaged by the storm.
+The thief was caught by the police.
+The tree was hit by the car.
+The race was won by the athlete.`
+        ],
+        [
+          `The students cleaned the classroom.
+The chef cooked the dinner.
+The lawyer defended the client.
+The doctor treated the patient.`,
+
+          `The classroom was cleaned by the students.
+The dinner was cooked by the chef.
+The client was defended by the lawyer.
+The patient was treated by the doctor.`
+        ],
+        [
+          `The musician played the guitar.
+The teacher taught the lesson.
+The company hired a new employee.
+The runner completed the marathon.`,
+
+          `The guitar was played by the musician.
+The lesson was taught by the teacher.
+A new employee was hired by the company.
+The marathon was completed by the runner.`
         ]
-      }
+      ]
     },
     {
       id: 'mcq-2',
@@ -143,31 +259,45 @@ By whom was this done?`
         questions: [
           {
             qText: 'All his friends laughed at him.',
-            options: `He was laughed at by all his friends, He is laughed at by all his friends, All his friends are laughing at him`
+            options: `He was laughed at by all his friends. 
+He is laughed at by all his friends.
+All his friends are laughing at him.`
           },
           {
             qText: 'They made him king.',
-            options: `He was made king, He is the king, He is made king`
+            options: `He was made king.
+He is the king.
+He is made king`
           },
           {
             qText: 'They use video for teaching the students.',
-            options: `Video is used for teaching the students, The students are taught by using video, Video was being used for teaching the students`
+            options: `Video is used for teaching the students.
+The students are taught by using video.
+Video was being used for teaching the students`
           },
           {
             qText: "One should keep one's promises.",
-            options: `Promises should be kept, One's promises should be kept by one, Promises are to be kept by one`
+            options: `Promises should be kept.
+One's promises should be kept by one.
+Promises are to be kept by one`
           },
           {
             qText: 'When will you return the book?',
-            options: `When will the book be returned, When are you going to return the book?, When was the book returned?`
+            options: `When will the book be returned.
+When are you going to return the book?
+When was the book returned?`
           },
           {
             qText: 'Someone has picked my pocket.',
-            options: `My pocket has been picked, My pocket was picked by someone, My pocket was picked`
+            options: `My pocket has been picked.
+My pocket was picked by someone.
+My pocket was picked`
           },
           {
             qText: 'Circumstances will oblige me to go.',
-            options: `I shall be obliged to go, I am obliged to go, Circumstances made me go`
+            options: `I shall be obliged to go.
+I am obliged to go.
+Circumstances made me go`
           }
         ]
       }
@@ -182,23 +312,33 @@ By whom was this done?`
         questions: [
           {
             qText: 'Admittance was refused to him by the guard.',
-            options: `The guard refused him admittance, He was refused admittance by the guard, The guard refused his entry`
+            options: `The guard refused him admittance.
+He was refused admittance by the guard.
+The guard refused his entry`
           },
           {
             qText: 'Grammar is taught to us by Mr. Noah.',
-            options: `Mr. Noah teaches us grammar, We are taught grammar by Mr. Noah, Mr. Noah taught us grammar`
+            options: `Mr. Noah teaches us grammar.
+We are taught grammar by Mr. Noah.
+Mr. Noah taught us grammar`
           },
           {
             qText: 'A ticket will be given to you by the manager.',
-            options: `The manager will give you a ticket, You will be given a ticket by the manager, Manager gave you a ticket`
+            options: `The manager will give you a ticket.
+You will be given a ticket by the manager.
+Manager gave you a ticket`
           },
           {
             qText: 'By whom was French taught to you.',
-            options: `Who taught you French?, Who were you taught french by?, By whom were you taught French?`
+            options: `Who taught you French?
+Who were you taught french by?
+By whom were you taught French?`
           },
           {
             qText: 'A chair was handed to her by him.',
-            options: `He handed her a chair, She was handed a chair, A chair was given to her`
+            options: `He handed her a chair.
+She was handed a chair.
+A chair was given to her.`
           }
         ]
       }
@@ -241,54 +381,54 @@ The singer will sing a new song. | a new song will be sung by the singer `
         noOptions: true
       },
       data: [
-        ` The company will release a new product next month.
-A new product will *be released* by the company next month
-The teacher gave the students a homework assignment.
-A homework assignment *was given* to the students by the teacher.
-The doctor prescribed a new medication for the patient.
-A new medication *was prescribed* for the patient by the doctor.
-The company is redesigning its website.
+        ` The company will *release* a new product next month.
+A new product will *be* released by the company next month
+The teacher *gave* the students a homework assignment.
+A homework assignment *was* given to the students by the teacher.
+The doctor *prescribed* a new medication for the patient.
+A new medication *was* prescribed for the patient by the doctor.
+The company *is* redesigning its website.
 Their website is *being redesigned* by the company.`,
 
-        `The principal will announce the winner of the competition.
+        `The principal *will* announce the winner of the competition.
 The winner of the competition will *be announced* by the principal
-The company paid the employees last week.
-The employees *were paid* by the company last week.
-The company is going to hire new employees.
+The company *paid* the employees last week.
+The employees *were* paid by the company last week.
+The company *is* going to hire new employees.
 New employees *are going* to be hired by the company.
-The tornado damaged several buildings in the town.
-Several buildings in the town *were damaged* by the tornado.`,
+The tornado *damaged* several buildings in the town.
+Several buildings in the town *were* damaged by the tornado.`,
 
-        ` The company made a huge profit last quarter.
-A huge profit *was made* by the company last quarter.
-The company is launching a new advertising campaign.
+        ` The company *made* a huge profit last quarter.
+A huge profit *was* made by the company last quarter.
+The company *is* launching a new advertising campaign.
 A new advertising campaign *is being* launched by the company.
-The teacher will give the students a quiz next week.
+The teacher *will* give the students a quiz next week.
 A quiz will *be given* to the students by the teacher next week.
-The company is training its new employees.
+The company *is* training its new employees.
 The new employees *are being* trained by the company.`,
 
-        `The librarian checked out a book for me.
+        `The librarian *checked* out a book for me.
 A book *was* checked out for me by the librarian.
-The company is upgrading its computer systems.
+The company *is* upgrading its computer systems.
 Their computer systems *are being* upgraded by the company.
-The company will announce the new CEO next week.
+The company *will* announce the new CEO next week.
 The new CEO will be announced *by* the company next week.
-The company gave the employees a bonus.
-A bonus *was given* to the employees by the company.`,
+The company *gave* the employees a bonus.
+A bonus *was* given to the employees by the company.`,
 
-        `The workers are building a new factory.
+        `The workers *are* building a new factory.
 A new factory *is being* built by the workers.
-The storm destroyed the old building.  
-The old building *was destroyed* by the storm.
-The company will launch a new product next month.  
+The storm *destroyed* the old building.  
+The old building *was* destroyed by the storm.
+The company *will* launch a new product next month.  
 A new product will *be launched* by the company next month.
-The teacher is teaching a lesson.  
+The teacher *is* teaching a lesson.  
 A lesson *is being* taught by the teacher.`,
 
-        ` The artist painted a beautiful picture.  
-A beautiful picture *was painted* by the artist.
-The waiter brought the food to the table.  
+        ` The artist *painted* a beautiful picture.  
+A beautiful picture *was* painted by the artist.
+The waiter *brought* the food to the table.  
 The food *was* brought to the table by the waiter.`
       ]
     }

@@ -10,7 +10,22 @@ export default {
       data: {
         title: 'Direct and Indirect Speech',
         text: [
-          `1. Direct Speech: 
+          `Direct and indirect speech, also known as reported speech, is the way of reporting what someone else said or thought. In direct speech, we quote the exact words of the speaker, while in indirect speech, we report what the speaker said without using their exact words.`,
+          {
+            type: 'html',
+            text: `Eg: Direct speech: <i>"I am going to the market."</i><br>
+Indirect speech: <i>She said that she was going to the market.</i><br><br>
+Direct speech: <i>"I will help you with your homework."</i><br>
+Indirect speech: <i>He promised to help me with my homework.</i><br><br>
+Direct speech: <i>"I love to read books."</i><br>
+Indirect speech: <i>She said that she loved to read books.</i><br><br>
+Direct speech: <i>"I saw a beautiful bird in the tree."</i><br>
+Indirect speech: <i>He told me that he had seen a beautiful bird in the tree.</i><br><br>
+Direct speech: <i>"I cannot come to the party tonight."</i><br>
+Indirect speech: <i>She said that she could not come to the party that night.</i>`
+          },
+          `# Rules          
+1. Direct Speech: 
 a) The Reported Speech is put within Inverted Commas. (“ ”)
 b) The First word of the Reported Speech begins with a capital Letter.
 c) The Reported Speech is separated by a comma (,) from the Reporting Verb.
@@ -37,23 +52,23 @@ e) The Interrogative, the Imperative and the Exclamatory sentences are put as st
           },
           {
             qText: `Which of the following is a rule of Indirect Speech?`,
-            options: `The comma separating the Reporting Verb from the Reported Speech is always used, Inverted Commas (“ ”) are used in Reported Speech, The Tense of the Reporting Verb is always changed`
+            options: `The comma separating the Reporting Verb from the Reported Speech is always used, Inverted Commas (“ ”) are used in Reported Speech, The Tense of the Verb is always changed`
           },
           {
             qText: `What is the rule of changing tense while converting Direct Speech into Indirect Speech?`,
-            options: `The rule of Sequence of Tenses is followed, The tense of the verb in the Reported Speech is always changed, The tense of the Reporting Verb is always changed`
+            options: `The rule of Sequence of Tenses is followed, The tense of the verb in the Reported Speech is always changed, The tense of the Verb is always changed`
           },
           {
             qText: `What is the difference between direct and indirect speech?`,
             options: `Direct speech is when the speaker's exact words are repeated, while indirect speech is when the speaker's words are summarized or paraphrased.
-            Direct speech is used in formal contexts, while indirect speech is used in informal contexts.
-            Direct speech is always written with quotation marks, while indirect speech is not.`
+Direct speech is used in formal contexts, while indirect speech is used in informal contexts.
+Direct speech is always written with quotation marks, while indirect speech is not.`
           },
           {
-            qText: `Which of the following is true about reporting verbs used in indirect speech?`,
-            options: `Reporting verbs can be in any tense depending on the context.
-            Reporting verbs are always in the past tense.
-            Reporting verbs are not necessary in indirect speech.`
+            qText: `Which of the following is true about verbs used in indirect speech?`,
+            options: `Verbs can be in any tense depending on the context.
+Verbs are always in the past tense.
+Verbs are not necessary in indirect speech.`
           }
         ]
       }
@@ -68,17 +83,16 @@ e) The Interrogative, the Imperative and the Exclamatory sentences are put as st
           {
             name: 'True',
             text: `Direct speech is always enclosed in inverted commas.
-            In indirect speech, inverted commas are not used.
-            In indirect speech, question marks and exclamation marks are not used.
-  Interrogative sentences are changed to statements in indirect speech.`
+In indirect speech, inverted commas are not used.
+In indirect speech, question marks and exclamation marks are not used.
+Interrogative sentences are changed to statements in indirect speech.`
           },
           {
             name: 'False',
             text: `The first word of reported speech begins with a small letter.
-            The comma separating the reporting verb from the reported speech is retained in indirect speech.
-            The tense of the reporting verb is always changed in indirect speech.
-            In direct speech, the tense of the verb is always changed to present tense.
-            "Say" and "tell" are used interchangeably in direct and indirect speech.`
+The comma separating the verb from the reported speech is retained in indirect speech.
+The tense of the verb is always changed in indirect speech.
+In direct speech, the tense of the verb is always changed to present tense.`
           }
         ]
       }
@@ -159,22 +173,22 @@ I shall tell him that she will go to school.`
       },
       data: [
         `My mother said to me, “You were wrong.”|  my mother told me that I was wrong
-        Raj said, “Alas! My pet died.” | Raj exclaimed sadly that his pet died
-        Ruchi said, “I may go there.” | Ruchi said that she might go there
-        Bucky said to Steve, “Do you hear me?” | Bucky asked Steve if he heard him
-        The boy said, “Let me come in.” | the boy asked to let him come in`,
+Raj said, “Alas! My pet died.” | Raj exclaimed sadly that his pet died
+Ruchi said, “I may go there.” | Ruchi said that she might go there
+Bucky said to Steve, “Do you hear me?” | Bucky asked Steve if he heard him
+The boy said, “Let me come in.” | the boy asked to let him come in`,
 
         `Granny said to me, “May God bless you.” | granny prayed that God might bless me
-        "I am going to the store," said Mary. | Mary said that she was going to the store
-        "I have never been to Paris," said Tom. | Tom said that he had never been to Paris
-        "I want to be a doctor," said Sarah. | Sarah said that she wanted to be a doctor
-        "I am feeling sick," said Jack. | Jack said that he was feeling sick`,
+"I am going to the store," said Mary. | Mary said that she was going to the store
+"I have never been to Paris," said Tom. | Tom said that he had never been to Paris
+"I want to be a doctor," said Sarah. | Sarah said that she wanted to be a doctor
+"I am feeling sick," said Jack. | Jack said that he was feeling sick`,
 
         `"I need a break," said Rachel. | Rachel said that she needed a break
-        "I am going to the beach," said Peter. | Peter said that he was going to the beach
-        "I am proud of you," said the mother. | the mother said that she was proud of the person
-        "I love playing tennis," she said. | she said that she loved playing tennis
-        "I'm sorry I'm late," she said. | she apologized for being late `
+"I am going to the beach," said Peter. | Peter said that he was going to the beach
+"I am proud of you," said the mother. | the mother said that she was proud of the person
+"I love playing tennis," she said. | she said that she loved playing tennis
+"I'm sorry I'm late," she said. | she apologized for being late `
       ]
     },
     {
@@ -183,7 +197,8 @@ I shall tell him that she will go to school.`
       type: 'fillup',
       commonData: {
         noOptions: true,
-        title: 'Fill in the blanks with suitable words.'
+        title:
+          'Fill in the blanks with suitable words. Use the context from direct speech to complete the indirect speech.'
       },
       lockAfter: 1,
       data: [
