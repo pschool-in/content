@@ -1037,6 +1037,7 @@ Fair musk-rose blooms and grand tales
       data: {
         title: 'The Road Not Taken',
         type: 'poem',
+        author: 'Robert Frost ',
         text: `Two roads diverged in a yellow wood,
 And sorry I could not travel both
 And be one traveller, long I stood
