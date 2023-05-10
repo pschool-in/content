@@ -71,7 +71,7 @@ export default {
       id: 'frac-decimal',
       label: 'Fraction to Decimal',
       commonData: {
-        title: 'Write the decimal equivalent of the faction.',
+        title: 'Write the decimal equivalent of the fraction.',
         type: 'fracToDeci'
       },
       data: [

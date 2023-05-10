@@ -96,7 +96,7 @@ export default {
         {
           pattern: 'misc~xxx+b',
           dynamicStart: true,
-          unit: 20
+          range: 20
         },
         {
           pattern: 'misc~xx+b',
@@ -166,7 +166,7 @@ export default {
         {
           pattern: 'misc~xxx-b',
           dynamicStart: true,
-          unit: 20
+          range: 20
         },
         {
           pattern: 'misc~xx-b',

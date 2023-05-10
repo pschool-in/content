@@ -49,6 +49,11 @@ let mainMenu = {
   label: 'Showcase',
   style: {},
   type: 'curriculumIcon',
+  appLink: {
+    label: 'Download PSchool app from Google Play Store.',
+    androidLink:
+      'https://play.google.com/store/apps/details?id=com.gotowisdom.pschool'
+  },
   grades: [
     {
       id: 'kg',
