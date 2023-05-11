@@ -178,11 +178,11 @@ There is confusion *among* the students.`
             },
             {
               qText: 'She has no aptitude ___ music or dance.',
-              options: 'for, to, with, None of these'
+              options: '*for, to, with, none of these'
             },
             {
               qText: 'Peter kept the books __ the shelf.',
-              options: 'on, at, in, none of these'
+              options: '*on, at, in, none of these'
             },
             {
               qText: 'He was brought __ by his grandmother.',
@@ -254,7 +254,7 @@ They are going to the concert *with (for)* their parents.`,
         `Vegetarians abstain *from (with)* eating meat.
 Good food is absolutely essential *for (to, with)* our health.
 The jury absolved him *of (off, from)* the crime.
-They wed *on (during/from)* the 3rd of December.
+They wed *on (during, from)* the 3rd of December.
 Our garden abounds *with (in)* roses.`,
 
         `Tulips abound *in (with)* the Netherlands.
@@ -267,7 +267,7 @@ Place the bolster *between (with, by)* the two cushions.`,
 Do not shout *while (during, by)* others are reading.
 I promise to return the book *by (until, on)* Monday.
 He did not fulfill his promise *until (by, after)* it was too late.
-The ship sailed *towards (in, for)* the West.`,
+The ship sailed *toward (in, for)* the West.`,
 
         `The young man was employed *as (like)* my father's secretary.
 The secret was kept away *from (on, by)* his own family.
@@ -311,10 +311,10 @@ Certain nouns, adjectives and verbs are generally used with specific preposition
           {
             type: 'html',
             text: `A prepositional phrase can have the functions of an adjective or an adverb. It is a structure consisting of a preposition and its object.<br><br>
-            Look at the lady <i>in the blue dress</i>. (modifying the noun lady)<br>
-            Please take the pen <i>next to the telephone</i>. (modifying the noun pen)<br>
-            The poor man sat <i>beside the fence</i>. (Sat where? Beside the fence)<br>
-            I go for dance classes <i>after school</i>. (Go when? After school)<br>`
+Look at the lady <i>in the blue dress</i>. (modifying the noun lady)<br>
+Please take the pen <i>next to the telephone</i>. (modifying the noun pen)<br>
+The poor man sat <i>beside the fence</i>. (Sat where? Beside the fence)<br>
+I go for dance classes <i>after school</i>. (Go when? After school)<br>`
           }
         ]
       }
@@ -426,9 +426,8 @@ The book is lying *on* the table.`
     {
       id: 'fillup-3',
       label: 'Preposition of Time',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title: 'Fill in the blanks using prepositions of time.'
       },
       lockAfter: 1,
@@ -436,11 +435,11 @@ The book is lying *on* the table.`
         `Meet me *after* 4 o'clock. I am very busy till then.
 We will get the finished product *in* May.
 Will you visit us *at* Diwali?
-*During* summer, it becomes very hot and humid in the plains.
-What did you discuss *at* the meeting?`,
+We had a holiday *on* 18 April.
+*During* summer, it becomes very hot and humid in the plains.`,
 
         `He has been living here *for* five years.
-We had a holiday *on* 18 April.
+What did you discuss *at* the meeting?
 We reached *in* time to catch the train.
 India got independence *on* 15th August 1947. 
 Try to come home *before* it starts raining. `,
@@ -448,22 +447,20 @@ Try to come home *before* it starts raining. `,
         `*During* World War I, many civilians lost their lives.
 I wake up *at* 6 o'clock in the morning.
 We have to finish the project *before* the deadline.
-My brother will arrive *by* the end of the week.
+The flower show will take place *in* September.
 We have a meeting *on* Monday.`,
 
         `The concert starts *at* 7 p.m.
 We are going on vacation *during* the summer.
 My sister got married *in* 2010.
-The flower show will take place *in* September.
-I was born *in* 1997.`
+My brother will arrive *by* the end of the week.`
       ]
     },
     {
       id: 'fillup-4',
       label: 'Preposition of Direction, Cause and Purpose',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title:
           'Fill in the blanks using prepositions of direction, cause and purpose.'
       },
@@ -533,24 +530,22 @@ I am seeing him in August *or rather (rather)* in September.`
     {
       id: 'fillup-6',
       label: 'Fill up using Prepositions',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
-        title:
-          'Fill in the blanks using the given prepositions. (among, across, near, along, between, behind, by, toward, opposite, within)'
+        title: 'Fill in the blanks using the given prepositions.'
       },
       lockAfter: 2,
       data: [
         `The post office is *across* the street from the grocery store.
 We will stop at many attractions *along* the way.
 The kids are hiding *behind* the tree.
-Walk *toward* the garage and then turn left.
+There is a purple flower *among* the weeds.
 Place a checkmark *within* the box.`,
 
         `The gas station is *by* the grocery store.
 The park is *near* her house.
 There is a deer *between* the two trees.
-There is a purple flower *among* the weeds.
+Walk *toward* the garage and then turn left.
 *Among* all the applicants, Sarah was the most qualified for the job.`,
 
         `The grocery store is located *near* my house.
