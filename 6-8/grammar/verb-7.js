@@ -13,7 +13,7 @@ export default {
           `The verb is a word that expresses some action, feeling or existence. It tells us something about the subject.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: Lions <b>roar</b>. (<b>action</b>); Boys <b>fly</b> kites. (<b>action</b>); I <b>feel</b> sorry. (<b>feeling</b>); Ashoka was a <b>great</b> king. (<b>existence</b>)`
+            text: `Eg: Lions <i>roar</i>. (<i>action</i>); Boys <i>fly</i> kites. (<i>action</i>); I <i>feel</i> sorry. (<i>feeling</i>); Ashoka was a <i>great</i> king. (<i>existence</i>)`
           },
           `Verbs are divided into two parts; Main Verbs and Helping Verbs.
 Main verbs are also of two kinds:
@@ -21,9 +21,14 @@ Main verbs are also of two kinds:
 1. Finite Verb: They change their forms according to the person and number of the subject and the tense also.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: He <b>reads</b>. I <b>read</b>.`
+            text: `Eg: He <i>reads</i>. I <i>read</i>.`
           },
-          `2. Non-finite Verb: They do not change their forms according to the number, person or tense of the subject. The infinitives, gerunds and participles are called non-finite verbs.`
+          `2. Non-finite Verb: They do not change their forms according to the number, person or tense of the subject. The infinitives, gerunds and participles are called non-finite verbs.`,
+          {
+            type: 'html',
+            text: `Eg: <i>To swim</i> in the ocean is my favorite activity. (<i>infinitive</i>)<br>
+She enjoys <i>running</i> every morning before work. (<i>gerund</i>)`
+          }
         ]
       }
     },
@@ -44,7 +49,18 @@ Main verbs are also of two kinds:
           },
           {
             qText: `What is the difference between finite and non-finite verbs?`,
-            options: `Finite verbs change their form while non-finite verbs do not, Non-finite verbs change their form while finite verbs do not, Finite verbs do not express actions while non-finite verbs do, Non-finite verbs are used for singular subjects, while finite verbs are used for plural subjects.`
+            options: `Finite verbs change their form while non-finite verbs do not.
+Non-finite verbs change their form while finite verbs do not.
+Finite verbs do not express actions while non-finite verbs do.
+Non-finite verbs are used for singular subjects, while finite verbs are used for plural subjects.`
+          },
+          {
+            qText: `What is the main verb in the following sentence: "She is studying for her exam."?`,
+            options: `studying, for, her, is`
+          },
+          {
+            qText: `What is the helping verb in the following sentence: "They have been waiting for an hour."?`,
+            options: `have, been, waiting, for`
           }
         ]
       }
@@ -54,41 +70,65 @@ Main verbs are also of two kinds:
       label: 'Helping Verbs',
       type: 'fillup',
       commonData: {
-        noOptions: true,
         title:
           'Fill in the blanks with the correct form of helping verbs (is/am/are).'
       },
       lockAfter: 1,
       data: [
-        `Priya *is* my sister.
-I *am* very interested in the new project.
-We *are* best friends.
-Vishnu *is* my friend since kindergarten.
-*Are* you happy here?`,
+        `Priya *is (am, are)* my sister.
+I *am (are, is)* very interested in the new project.
+We *are (is, am)* best friends.
+Vishnu *is (am, are)* my friend since kindergarten.
+*Are (Is, Am)* you happy here?
+*Is (Am, Are)* this your book?
+I *am (are, is)* going to meet my granny today.
+*Are (Is, Am)* you aware of this poem written by William Shakespeare?
+India *is (am, are)* a secular country.
+The children *are (is, am)* studying for their exams.`,
 
-        `*Is* this your book?
-I *am* going to meet my granny today.
-*Are* you aware of this poem written by William Shakespeare?
-India *is* a secular country.
-The children *are* studying for their exams.`,
+        `The sky *is (am, are)* blue on a clear day.
+You *are (is, am)* my best friend.
+The flowers *are (is, am)* blooming in the garden.
+I *am (are, is)* not sure what to wear to the party.
+The children *are (is, am)* playing in the yard.
+Niki *is (am, are)* very mischievous.
+I *am (are, is)* feeling very sleepy.
+The dog *is (am, are)* barking at a stranger.
+The cats *are (is, am)* fighting for food.
+*Are (Is, Am)* you sure what you said is true?`,
 
-        `She *is* studying for her exam.
-I *am* feeling tired after a long day at work.
-They *are* planning a trip to Europe.
-He *is* the CEO of the company.
-We *are* going to the park this afternoon.`,
+        `The children *are (am, is)* playing cricket.
+Mahi *is (am, are)* going to the market.
+The moon *is (am, are)* shining brightly.
+Strong winds *are (am, is)* blowing.
+I *am (is, are)* playing with toy trucks.
+Richa *is (am, are)* drawing a landscape.
+*Are (Am, Is)* you going somewhere?
+Sunny *is (am, are)* mowing the lawn.
+I *am (is, are)* doing my homework.
+The ducks *are (am, is)* in the pond.`,
 
-        `The sky *is* blue on a clear day.
-You *are* my best friend.
-The flowers *are* blooming in the garden.
-I *am* not sure what to wear to the party.
-The children *are* playing in the yard.`,
+        `Tom and Saira *are (am, is)* enacting Romeo and Juliet on stage.
+Thunder *is (am, are)* rumbling.
+People *are (am, is)* jogging in the park nearby.
+Mike *is (am, are)* coming back from New York.
+I *am (is, are)* studying for a teaching eligibility exam.
+I *am (is, are)* a student at the university.
+She *is (am, are)* an accomplished musician and composer.
+They *are (am, is)* planning a trip to Europe next summer.
+He *is (am, are)* always early for his appointments.
+We *are (am, is)* working on a new project at the office.`,
 
-        `Niki *is* very mischievous.
-I *am* feeling very sleepy.
-The dog *is* barking at a stranger.
-The cats *are* fighting for food.
-*Are* you sure what you said is true?`
+        `The weather *is (am, are)* beautiful today.
+You *are (am, is)*doing a great job with your studies.
+The book *is (am, are)* on the shelf next to the window.
+They *are (am, is)* listening to music in the living room.
+She *is (am, are)* wearing a red dress to the party tonight.
+She *is (am, are)* studying for her exam.
+I *am (are, is)* feeling tired after a long day at work.
+They *are (is, am)* planning a trip to Europe.
+He *is (am, are)* the CEO of the company.
+We *are (is, am)* going to the park this afternoon.`
       ]
     },
     {
@@ -96,40 +136,56 @@ The cats *are* fighting for food.
       label: 'Has/Have/Had',
       type: 'fillup',
       commonData: {
-        noOptions: true,
         title: 'Fill in the blanks using has/have/had.'
       },
       lockAfter: 1,
       data: [
-        `Beena *had* a meeting yesterday.
-Do you want to *have* an ice cream?
-The lion *has* a big mane.
-My parents *had* gone to a party a few days back.
-*Have* you seen Reem?`,
+        `Beena *had (has, have)* a meeting yesterday.
+Do you want to *have (has, had)* an ice cream?
+The lion *has (have)* a big mane.
+My parents *had (has, have)* gone to a party a few days back.
+*Have (Has)* you seen Reem?
+*Had (Has, Have)* he not moved to a new city he wouldn't be sick.
+All the members of the committee *have (had)* arrived now.
+*Have (Has)* you seen my new scooter?
+Raj *had (has, have)* to go back home.
+My sister *has (had)* her final exam tomorrow.`,
 
-        `*Had* he not moved to a new city he wouldn't be sick.
-All the members of the committee *have* arrived now.
-*Have* you seen my new scooter?
-Raj *had* to go back home.
-My sister *has* her final exam tomorrow.`,
+        `She *has (have)* a lot of experience in her field.
+They *have (has)* been friends since childhood.
+He *had (has, have)* breakfast before leaving for work.
+We *have (has)* a meeting at 2 p.m. today.
+The cat *has (have)* caught a mouse.
+I *have (has)* never been to Paris before.
+She *had (has, have)* a headache last night.
+They *have (has)* lived in this city for five years.
+He *has (have)* forgotten his password again.
+We *had (has, have)* a great time at the party last weekend.`,
 
-        `She *has* a lot of experience in her field.
-They *have* been friends since childhood.
-He *had* breakfast before leaving for work.
-We *have* a meeting at 2 p.m. today.
-The cat *has* caught a mouse.`,
+        `I *have (has)* a Husky.
+They do not *have (has, had)* a bicycle.
+We *have (has)* not visited the new park yet.
+Lady Macbeth *had (have)* a lust for power.
+Rita *had (have)* a seminar before.
+Jake and Niki *had (has)* a fight yesterday.
+Mike *had (has)* an injury, but now he's fine.
+I *had (has)* rabbits when I was 8 years old.
+Tina *has (had)* an ear infection and therefore she will not come to practice today.
+India *has (had)* many states.`,
 
-        `I *have* never been to Paris before.
-She *had* a headache last night.
-They *have* lived in this city for five years.
-He *has* forgotten his password again.
-We *had* a great time at the party last weekend.`,
+        `My dad *had (has)* a white coat that he used to wear always. But we lost it during the move.
+The lion *has (had)* sharp claws to catch its prey.
+Niya *had (has)* broken her leg a few months ago.
+The children *had (has)* a lot of fun last night.
+Her grandparents *had (has)* passed away a long time ago.
+The company *has (had)* hired several new employees this month.
+Our team *has (had)* won every game this season
+She *had (has)* a headache yesterday and stayed home from work.
+The train *had (has)* already left the station by the time we arrived.`,
 
-        `I *have* a Husky.
-They do not *have* a bicycle.
-We *have* not visited the new park yet.
-Lady Macbeth *had* a lust for power.
-Rita *had* a seminar before.`
+        `He *had (has)* finished his homework before his friends came over.
+The restaurant *had (has)* run out of their most popular dish by the time we got there.
+She *had (has)* been studying French for three years before she moved to France.`
       ]
     },
     {
@@ -142,7 +198,7 @@ Rita *had* a seminar before.`
           `Regular verbs from their past and past participle forms by adding -ed.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: walk-walk<b>ed</b>-walk<b>ed</b><br>
+            text: `Eg: walk-walk<b>ed</b>-walk<b>ed</b><br>
 dance-danc<b>ed</b>-danc<b>ed</b>`
           },
           `Irregular verbs form their past and past participle forms in different ways. There are mainly three types of irregular verbs.
@@ -150,23 +206,23 @@ dance-danc<b>ed</b>-danc<b>ed</b>`
 1. Verbs in which all the three forms are the same.`,
           {
             type: 'html',
-            text: `<b>Example</b>: put-<b>put</b>-<b>put</b>`
+            text: `Eg: put-<i>put</i>-<i>put</i>`
           },
           `2. Verbs in which two of the three forms are the same.`,
           {
             type: 'html',
-            text: `<b>Example</b>: sit-<b>sat</b>-<b>sat</b>`
+            text: `Eg: sit-<i>sat</i>-<i>sat</i>`
           },
           `3. Verbs in which all three forms are different.`,
           {
             type: 'html',
-            text: `<b>Example</b>: drink-<b>drank</b>-<b>drunk</b>`
+            text: `Eg: drink-<i>drank</i>-<i>drunk</i>`
           },
-          `=> Some verbs can be both regular and irregular.`,
+          `⇒ Some verbs can be both regular and irregular.`,
           {
             type: 'html',
-            text: `<b>Examples</b>: Burn-burn<b>t</b>-burn<b>t</b> (<b>irregular</b>); Burn-burn<b>ed</b>-burn<b>ed</b> (<b>regular</b>)<br>
-Dream-dream<b>t</b>-dream<b>t</b> (<b>irregular</b>); Dream-dream<b>ed</b>-dream<b>ed</b> (<b>regular</b>)`
+            text: `Eg: Burn-burn<b>t</b>-burn<b>t</b> (<i>irregular</i>); Burn-burn<b>ed</b>-burn<b>ed</b> (<i>regular</i>)<br>
+Dream-dream<b>t</b>-dream<b>t</b> (<i>irregular</i>); Dream-dream<b>ed</b>-dream<b>ed</b> (<i>regular</i>)`
           }
         ]
       }
@@ -354,82 +410,82 @@ Shut, Shut, Shuted`
       },
       lockAfter: 1,
       data: [
-        `Seek - *Sought* - Sought
-Choose - Chose - *Chosen*
-Think - *Thought* - Thought
-Catch - Caught - *Caught*
-Wear - *Wore* - Worn`,
+        `Seek ⇒ *Sought* ⇒ Sought
+Choose ⇒ Chose ⇒ *Chosen*
+Think ⇒ *Thought* ⇒ Thought
+Catch ⇒ Caught ⇒ *Caught*
+Wear ⇒ *Wore* ⇒ Worn`,
 
-        `Tear - Tore - *Torn*
-Bear - *Bore* - Borne
-Buy - Bought - *Bought*
-Fight - *Fought* - Fought
-Break - Broke - *Broken*`,
+        `Tear ⇒ Tore ⇒ *Torn*
+Bear ⇒ *Bore* ⇒ Borne
+Buy ⇒ Bought ⇒ *Bought*
+Fight ⇒ *Fought* ⇒ Fought
+Break ⇒ Broke ⇒ *Broken*`,
 
-        `Speak - *Spoke* - Spoken
-Take - Took - *Taken*
-Shake - *Shook* - Shaken
-Sink - Sank - *Sunk*
-Drink - *Drank* - Drunk`,
+        `Speak ⇒ *Spoke* ⇒ Spoken
+Take ⇒ Took ⇒ *Taken*
+Shake ⇒ *Shook* ⇒ Shaken
+Sink ⇒ Sank ⇒ *Sunk*
+Drink ⇒ *Drank* ⇒ Drunk`,
 
-        `Sing - Sang - *Sung*
-Ride - *Rode* - Ridden
-Write - Wrote - *Written*
-Get - *Got* - Gotten
-Strive - Strove - *Striven*`,
+        `Sing ⇒ Sang ⇒ *Sung*
+Ride ⇒ *Rode* ⇒ Ridden
+Write ⇒ Wrote ⇒ *Written*
+Get ⇒ *Got* ⇒ Gotten
+Strive ⇒ Strove ⇒ *Striven*`,
 
-        `Give - *Gave* - Given
-Arise - Arose - *Arisen*
-Know - *Knew* - Known
-Grow - Grew - *Grown*
-Lay - *Laid* - Laid`,
+        `Give ⇒ *Gave* ⇒ Given
+Arise ⇒ Arose ⇒ *Arisen*
+Know ⇒ *Knew* ⇒ Known
+Grow ⇒ Grew ⇒ *Grown*
+Lay ⇒ *Laid* ⇒ Laid`,
 
-        `Keep - Kept - *Kept*
-Cut - *Cut* - Cut
-Swing - Swung - *Swung*
-Draw - *Drew* - Drawn
-Rise - Rose - *Risen*`,
+        `Keep ⇒ Kept ⇒ *Kept*
+Cut ⇒ *Cut* ⇒ Cut
+Swing ⇒ Swung ⇒ *Swung*
+Draw ⇒ *Drew* ⇒ Drawn
+Rise ⇒ Rose ⇒ *Risen*`,
 
-        `Forgive - *Forgave* - Forgiven
-Forget - Forgot - *Forgotten*
-Bite - *Bit* - Bitten
-Hide - Hid - *Hidden*
-Ring - *Rang* - Rung`,
+        `Forgive ⇒ *Forgave* ⇒ Forgiven
+Forget ⇒ Forgot ⇒ *Forgotten*
+Bite ⇒ *Bit* ⇒ Bitten
+Hide ⇒ Hid ⇒ *Hidden*
+Ring ⇒ *Rang* ⇒ Rung`,
 
-        `Spring - Sprang - *Sprung*
-Begin - *Began* - Begun
-Mistake - Mistook - *Mistaken*
-Wake - *Woke* - Woken
-Steal - Stole - *Stolen*`,
+        `Spring ⇒ Sprang ⇒ *Sprung*
+Begin ⇒ *Began* ⇒ Begun
+Mistake ⇒ Mistook ⇒ *Mistaken*
+Wake ⇒ *Woke* ⇒ Woken
+Steal ⇒ Stole ⇒ *Stolen*`,
 
-        `Light - *Lit* - Lit
-Bring - Brought - *Brought*
-Teach - *Taught* - Taught
-Put - Put - *Put*
-Shut - *Shut* - Shut`
+        `Light ⇒ *Lit* ⇒ Lit
+Bring ⇒ Brought ⇒ *Brought*
+Teach ⇒ *Taught* ⇒ Taught
+Put ⇒ Put ⇒ *Put*
+Shut ⇒ *Shut* ⇒ Shut`
       ]
     },
     {
       id: 'irregular-verb-fillup',
       label: 'Fill in the blanks',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title: 'Fill in the blanks with the appropriate tense form of the verb.'
       },
       lockAfter: 1,
       data: [
-        `Our teacher said, "Please, do not forget to bring your workbook tomorrow." But Riya still *forgot* to bring her textbook the next day. I would have *forgotten* to bring it if Reem had not reminded me.
-Why is no one opening the door? Did you ring the bell? Yes, I *rang* it several times but no one came to the door.`,
+        `Our teacher said, "Please, do not *forget* to bring your workbook tomorrow." But Riya still *forgot* to bring her textbook the next day. I would have *forgotten* to bring it if Reem had not reminded me.
+Why is no one opening the door? Did you *ring* the bell? Yes, I *rang* it several times but no one came to the door.`,
 
         `I asked my sister to wake me at 6 a.m. But she did not *wake* me. I *woke* up at 8 a.m. and missed my bus. If she had *woken* me up I would have reached the school on time.
-I had cast my rod and was waiting for the fish to bite the bait. I reeled in the rod as soon as the fish *bit* on the bait. But in that short while the clever fish had already *bitten* off the bait from the hook and successfully escaped.`,
+I had cast my rod and was waiting for the fish to *bite* the bait. I reeled in the rod as soon as the fish *bit* on the bait. But in that short while the clever fish had already *bitten* off the bait from the hook and successfully escaped.`,
 
-        `The teacher suddenly asked me to speak in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.`,
+        `The teacher suddenly asked me to *speak* in the morning assembly. I started to panic but I managed to gather some courage and *spoke* about the "Ill effects of Technology" for five minutes. After I had *spoken*, my teacher called me aside and praised me for speaking well.
+The coach instructed the players, "Don't *forget* to wear your team uniform for the game." However, John *forgot* to bring his jersey to the match. If it wasn't for his teammate, Jake, who lent him an extra uniform, he would not have been able to play.`,
 
-        `My mother asked me to water the plants in the garden while she was away. I *watered* the plants every day for a week until my mother returned. She was happy to see that the plants were healthy and thanked me for taking care of them. If I had not *watered* the plants, they would have withered away.`,
-
-        `The coach instructed the players, "Don't forget to wear your team uniform for the game." However, John *forgot* to bring his jersey to the match. If it wasn't for his teammate, Jake, who lent him an extra uniform, he would not have been able to play.`
+        `Mr Koch, the mathematics teacher *gave* Albert the reference he *wanted*.
+Albert *got* summoned to the head teacher's room. The headteacher told Albert that his work *was* terrible and he *would* be punished if he *continued* the same way. 
+Albert was *tempted* to say a few words, then thought otherwise.`
       ]
     },
     {
@@ -442,12 +498,12 @@ I had cast my rod and was waiting for the fish to bite the bait. I reeled in the
           `A transitive verb is a type of verb that needs an object to make complete sense of the action being performed by the subject.`,
           {
             type: 'html',
-            text: `<b>Example</b>: The teacher gave me a new notebook.`
+            text: `Eg: The teacher gave me a new notebook.`
           },
           `An intransitive verb is a verb that does not necessarily require an object to make sense of the action being performed by the subject in a sentence or context.`,
           {
             type: 'html',
-            text: `<b>Example</b>: The baby is sleeping.`
+            text: `Eg: The baby is sleeping.`
           }
         ]
       }
@@ -509,27 +565,27 @@ The car stopped suddenly, in the middle of the road.`
         ],
         [
           `She read the book in one sitting. 
-  They baked a cake for the party.
-  He painted the fence white. `,
+They baked a cake for the party.
+He painted the fence white. `,
 
           `The sun rose early this morning. 
-  The flowers bloomed in the garden. `
+The flowers bloomed in the garden. `
         ],
         [
           `I opened the door to let the cat in. 
-  She played the piano beautifully.`,
+She played the piano beautifully.`,
 
           `The children laughed and played in the park.
-  The dog barked loudly at the mailman. 
+The dog barked loudly at the mailman. 
 The leaves fell from the trees in the autumn breeze. `
         ],
         [
           `I am eating an apple. 
-  She painted the entire room. 
-  They bought a new car last week. `,
+She painted the entire room. 
+They bought a new car last week. `,
 
           `The sun is shining brightly. 
-  They are running in the park. `
+They are running in the park. `
         ]
       ]
     },
@@ -603,17 +659,6 @@ We *are planning (plan)* to go on vacation next month.`
       }
     },
     {
-      label: 'Complete the paragraph',
-      type: 'fillup',
-      id: 'fillup-2',
-      data: {
-        noOptions: true,
-        title: `Use the correct form of the verb given in the brackets to complete the following paragraph.`,
-        text: `Mr Koch, the mathematics teacher *gave* (give) Albert the reference he *wanted* (want).
-Albert *got* (get) summoned to the head teacher's room. The headteacher told Albert that his work *was* (be) terrible and he *would* (will) be punished if he *continued* (continue) the same way. Albert was *tempted* (tempt) to say a few words, then thought otherwise.`
-      }
-    },
-    {
       label: 'Notes',
       type: 'passage',
       id: 'linking-verb',
@@ -621,9 +666,9 @@ Albert *got* (get) summoned to the head teacher's room. The headteacher told Alb
         title: 'Linking Verb',
         text: [
           `Linking verbs are verbs that don't show an action but rather describe the subject. While verbs like walk or jump represent an action, linking verbs like 'be' or 'seem' add more details to the subject, such as "he seems nice" or "she is an architect".
-All basic forms of the 'to be' verb can be used as linking verbs to qualify the state of being of the subject.
-All forms of the verb 'to seem' are used as linking verbs.
-All forms of the verb 'to become' are used as linking verbs.`
+All basic forms of the 'be' verb can be used as linking verbs to qualify the state of being of the subject.
+All forms of the verb 'seem' are used as linking verbs.
+All forms of the verb 'become' are used as linking verbs.`
         ]
       }
     },
@@ -669,24 +714,23 @@ All forms of the verb 'to become' are used as linking verbs.`
         `Neena *seems* to be very energetic today.
 The dish *smells* delicious.
 The dress you were wearing yesterday *looked* great on you.
-Divya and Meera *remained* best friends even after all the fights they have had in the past.`,
+Divya and Meera *remained* best friends even after all the fights they have had in the past.
+The little boy *sounded* excited about the school trip.`,
 
-        `The little boy *sounded* excited about the school trip.
-Geetha *is* the new marketing manager
+        `Geetha *is* the new marketing manager
 I *am* the class teacher of VII B.
-Fathima and Hameeda *were* exhausted after cleaning every loft in the office.`,
+Fathima and Hameeda *were* exhausted after cleaning every loft in the office.
+This book on women and society *seems* to be interesting.
+The tree *was* cut.`,
 
-        `This book on women and society *seems* to be interesting.
-The tree *was* cut.
-The child *looks* happy.
-Your brother *sounds* really cool.`,
-
-        `Ben *is* the Vice Principal of a Girl's High School.
+        `The child *looks* happy.
+Your brother *sounds* really cool.
+Ben *is* the Vice Principal of a Girl's High School.
 The teacher *was* absent today.
-My parents *were* tired after the long journey.
-Kenny *seems* to be a great man.`,
+My parents *were* tired after the long journey.`,
 
-        `Based on the results of the experiment, her hypothesis *proved* true.
+        `Kenny *seems* to be a great man.
+Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
 William's mom *is* a doctor.`
       ]
@@ -714,7 +758,6 @@ The child *looks* happy.`,
 She *looks* pale. 
 He *was* a man on a mission.
 It *smelled* stinkier than a skunk. 
-The soda *tasted* like oranges. 
 It *seems* as if it might rain any moment.  `,
 
         `Your brother *sounds* really cool.
@@ -732,6 +775,7 @@ This mushy bread *tastes* terrible.`,
         `All it took was one wrong word to make the situation *turn* ugly.
 Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
+The soda *tasted* like oranges. 
 William's mom *is* a doctor.`,
 
         `Jessica *sings* in a rock band.
@@ -753,17 +797,17 @@ Auxiliary verbs fall into three basic groups:
 1. Primary or Main Auxiliary verbs: The primary auxiliary verbs are called so because they are the most used in forming tenses, negatives and questions. `,
           {
             type: 'html',
-            text: `These are forms of the verbs <b>be</b>, <b>have</b> and <b>do</b>.`
+            text: `These are forms of the verbs <i>be</i>, <i>have</i> and <i>do</i>.`
           },
           `2. Modals or Modal auxiliary verbs: Modal auxiliary verbs are also helping verbs. They are used before main verbs to express a range of meanings such as ability, possibility, certainty, suggestion, permission, obligation and so on. In almost all cases, the modal verb does not change according to the subject of the sentence. This means that the modal verb need not agree with the subject in number and person.`,
           {
             type: 'html',
-            text: `Examples include <b>can</b>, <b>could</b>, <b>may</b>, <b>might</b>, <b>shall</b>, <b>should</b>, <b>will</b>, <b>would</b>, <b>must</b>, etc.`
+            text: `Examples include <i>can</i>, <i>could</i>, <i>may</i>, <i>might</i>, <i>shall</i>, <i>should</i>, <i>will</i>, <i>would</i>, <i>must</i>, etc.`
           },
           `3. Other Auxiliary verbs with the characteristics of Modals: Some words do not always behave as modals. Such phrases are called semi-modals.`,
           {
             type: 'html',
-            text: `Examples include <b>be about to</b>, <b>be able to</b>, <b>be likely to</b>, <b>had better</b>, <b>have to</b>, <b>ought to<b>, <b>used to</b>, <b>need to</b>, <b>dare</b> and <b>would rather</b>.`
+            text: `Examples include <i>be about to</i>, <i>be able to</i>, <i>be likely to</i>, <i>had better</i>, <i>have to</i>, <i>ought to<i>, <i>used to</i>, <i>need to</i>, <i>dare</i> and <i>would rather</i>.`
           }
         ]
       }
@@ -797,87 +841,6 @@ Auxiliary verbs fall into three basic groups:
           }
         ]
       }
-    },
-    {
-      id: 'had-has',
-      label: 'Has or Had',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title: 'Fill in the blanks using has or had.'
-      },
-      lockAfter: 2,
-      data: [
-        `Jake and Niki *had* a fight yesterday.
-Charlie *has* a blanket with white fur.
-Mike *had* an injury, but now he's fine.
-I *had* rabbits when I was 8 years old.
-Tina *has* an ear infection and therefore she will not come to practice today.`,
-
-        `India *has* many states.
-My dad *had* a white coat that he used to wear always. But we lost it during the move.
-The lion *has* sharp claws to catch its prey.
-Niya *had* broken her leg a few months ago.
-Natalie *has* such a sweet smile.`,
-
-        `The children *had* a lot of fun last night.
-Her grandparents *had* passed away a long time ago.
-William Shakespeare *has* written many plays.
-*Has* the baby fallen asleep?
-Renu *has* a purple dress which she frequently wears.`,
-
-        `He *has* a lot of experience in the field of finance.
-She *has* written three novels and a collection of short stories.
-The company *has* hired several new employees this month.
-Our team *has* won every game this season.`,
-
-        `She *had* a headache yesterday and stayed home from work.
-The train *had* already left the station by the time we arrived.
-He *had* finished his homework before his friends came over.
-The restaurant *had* run out of their most popular dish by the time we got there.
-She *had* been studying French for three years before she moved to France.`
-      ]
-    },
-    {
-      id: 'am-is-are',
-      label: 'Am, Is or Are',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title: 'Fill in the blanks using is, am and are.'
-      },
-      lockAfter: 2,
-      data: [
-        `The children *are* playing cricket.
-Mahi *is* going to the market.
-The moon *is* shining brightly.
-Strong winds *are* blowing.
-I *am* playing with toy trucks.`,
-
-        `Richa *is* drawing a landscape.
-*Are* you going somewhere?
-Sunny *is* mowing the lawn.
-I *am* doing my homework.
-The ducks *are* in the pond.`,
-
-        `Tom and Saira *are* enacting Romeo and Juliet on stage.
-Thunder *is* rumbling.
-People *are* jogging in the park nearby.
-Mike *is* coming back from New York.
-I *am* studying for a teaching eligibility exam.`,
-
-        `I *am* a student at the university.
-She *is* an accomplished musician and composer.
-They *are* planning a trip to Europe next summer.
-He *is* always early for his appointments.
-We *are* working on a new project at the office.`,
-
-        `The weather *is* beautiful today.
-You *are* doing a great job with your studies.
-The book *is* on the shelf next to the window.
-They *are* listening to music in the living room.
-She *is* wearing a red dress to the party tonight.`
-      ]
     },
     {
       id: 'yes-no',
