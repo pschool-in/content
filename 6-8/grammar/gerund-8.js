@@ -13,16 +13,16 @@ export default {
           `A participle is a word that is formed from a verb and takes the nature of both a verb and an adjective.`,
           {
             type: 'html',
-            text: `Example - <b>Looking</b> at the snake, Maria screamed and sprang up out of his chair.`
+            text: `Eg - <i>Looking</i> at the snake, Maria screamed and sprang up out of his chair.`
           },
           `In this sentence, 'looking' is the present participle (look+ing) which qualifies the noun 'Maria.' Hence it acts like an adjective. It is formed from a verb and also denotes the action of looking. Hence it acts as a verb too.
 1. Present Participle: It is formed by adding 'ing' to the original form of the main verb.
-e.g. Knowing, following etc.
+Eg: Knowing, following 
 2. Perfect Participle: It shows that the action is complete, either at some time in the past or at present.
-e.g.Having walked continuously, I am fully exhausted now.
+Eg: Having walked continuously, I am fully exhausted now.
 Having lost his wallet, he had to ask others for help.
 3. Past Participle: The third form of the verb is called a past participle.
-e.g. Frozen, loaded etc.
+Eg: Frozen, loaded 
 Since the participle is a verb-adjective it must be attached to some noun or pronoun. It must always have a proper subject of reference.`
         ]
       }
@@ -36,19 +36,23 @@ Since the participle is a verb-adjective it must be attached to some noun or pro
         questions: [
           {
             qText: `What is a participle?`,
-            options: `A word that is formed from a verb and takes the nature of both a verb and an adjective, A word that is formed from an adjective and takes the nature of both an adjective and a verb`
+            options: `A word that is formed from a verb and takes the nature of both a verb and an adjective.
+A word that is formed from an adjective and takes the nature of both an adjective and a verb.`
           },
           {
             qText: `What is the present participle?`,
-            options: `It is formed by adding 'ing' to the original form of the main verb, It shows that the action is complete, either at some time in the past or at present`
+            options: `It is formed by adding 'ing' to the original form of the main verb.
+It shows that the action is complete, either at some time in the past or at present.`
           },
           {
             qText: `What is the perfect participle?`,
-            options: `It shows that the action is complete, either at some time in the past or at present, It is used as an adjective to describe the subject of the sentence`
+            options: `It shows that the action is complete, either at some time in the past or at present.
+It is used as an adjective to describe the subject of the sentence.`
           },
           {
             qText: `What is the past participle?`,
-            options: `It is the third form of the verb and is used to form various tenses,  It is formed by adding 'ing' to the original form of the main verb`
+            options: `It is the third form of the verb and is used to form various tenses.
+It is formed by adding 'ing' to the original form of the main verb.`
           },
           {
             qText: `What must a participle always be attached to?`,
@@ -97,16 +101,13 @@ Everybody worships the *rising (rise, having risen, to rise)* idol Jake.
 I saw a woman *cross (having crossed, crossed)* the road.`,
 
         `A *broken (break, breaking, to break)* glass cannot hold water.
-*Hit (Being hitted, Having hit, Hitting)* by an arrow, the bird fell dead.
-I found him *drinking (drink, having drunk)*.
-The marriage *has been fixed (fixed, fixing, to fix)*, no change is possible now.`,
-
-        `You better *leave (to leave) before Tarun arrives.
+*Hit (Being hitted, Having hit, Hitting)* by an arrow, the bird fell.
+You better *leave (to leave) before Tarun arrives.
 I saw the storm *approaching (approach)*.
-*Hearing (Hear)* a noise, I turned around.
-*Considering (consider)* the facts, he received scant justice.`,
+*Hearing (Hear)* a noise, I turned around.`,
 
-        `The rain came *pouring (pour)* down.
+        `*Considering (consider)* the facts, he received scant justice.
+The rain came *pouring (pour)* down.
 *Having elected (elect)* him President, the people gave him their loyal support.
 *Having seen (See)* the film once, I do not want to see it again.
 *Having lost (Lose)* my book, I reported the matter to the teacher.`,
@@ -127,8 +128,8 @@ I saw the storm *approaching (approach)*.
           `A gerund is a word ending with 'ing' and has the force of a noun and a verb. It is also known as a verbal noun.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I learned <b>driving</b>.<br>
-I like <b>watching</b> television.`
+            text: `Eg - I learned <i>driving</i>.<br>
+I like <i>watching</i> television.`
           }
         ]
       }
@@ -142,11 +143,16 @@ I like <b>watching</b> television.`
         questions: [
           {
             qText: `What is a gerund?`,
-            options: `A word ending with -ing and has the force of a noun and a verb, A word ending with -ing and has the force of an adjective and a verb, A word ending with -ed and has the force of an adjective and a verb`
+            options: `A word ending with -ing and has the force of a noun and a verb.
+A word ending with -ing and has the force of an adjective and a verb.
+A word ending with -ed and has the force of an adjective and a verb`
           },
           {
             qText: `How is a gerund used in a sentence?`,
-            options: `As both a noun and a verb, As a verb only, As a noun only, As an adjective only`
+            options: `As both a noun and a verb.
+As a verb only.
+As a noun only.
+As an adjective only.`
           },
           {
             qText: `What is another term for a gerund?`,
@@ -207,17 +213,17 @@ Have you postponed *going* to Delhi?`
         types: [
           {
             name: 'Gerund',
-            text: `Teach me speaking.
-Advising is easier than practicing.
-Reading is easier than writing.
-Saving is earning.`
+            text: `Teach me *speaking*.
+*Advising* is easier than *practicing*.
+*Reading* is easier than *writing*.
+*Saving* is *earning*.`
           },
           {
             name: 'Infinitive',
-            text: ` Teach me to speak.
-To advise is easier than to.
-To read is easier than to write.
-To save is to earn.`
+            text: ` Teach me *to speak*.
+*To advise* is easier than to.
+*To read* is easier than to write.
+*To save* is to earn.`
           }
         ]
       }
@@ -232,18 +238,17 @@ To save is to earn.`
         types: [
           {
             name: 'Gerund',
-            text: `She is tired of writing.
-Meeting Padma for the first time, I thought she was quite gullible.
-Respecting my parent's words, I never tried to slack again.            
-I was prevented from meeting Padma.
-Respecting our parents is our duty.`
+            text: `She is tired of *writing*.
+*Meeting* Padma for the first time, I thought she was quite gullible.
+*Respecting* my parent's words, I never tried to slack again.            
+I was prevented from *meeting* Padma.
+*Respecting* our parents is our duty.`
           },
           {
             name: 'Participle',
-            text: `Writing letters to her husband, she forgot everything.
-The howling dog kept me awake all night.
-The broken vase lay on the floor. 
-The smiling girl waved goodbye. `
+            text: `The *howling* dog kept me awake all night.
+The *broken* vase lay on the floor. 
+The *smiling* girl waved goodbye. `
           }
         ]
       }
@@ -260,25 +265,23 @@ The smiling girl waved goodbye. `
 I learned *driving (to drive)*.
 I like *watching (to watch)* television.
 I am looking forward to *meeting (meet)* you.
-He was used to *driving (drive)* on the right when he was in London.`,
-
-        `*Writing (To write)* is my profession.
+He was used to *driving (drive)* on the right when he was in London.
+*Writing (To write)* is my profession.
 *Celebrating (To celebrate)* various festivals together is common among Indians.
-I enjoy *teaching (to teach)* English.
-*Walking (To walk)* is good exercise for health.
-*Reading (To read)* books increases our knowledge.`,
+I enjoy *teaching (to teach)* English.`,
 
-        `*Working (To work)* hard makes you successful.
+        `*Walking (To walk)* is good exercise for health.
+*Reading (To read)* books increases our knowledge.
+*Working (To work)* hard makes you successful.
 He dislikes *sleeping (to sleep)* long.
 She hates *worrying (to worry)* about the future.
 I prefer *studying (to study)* computer science.
-He is afraid of *telling (to tell)* the truth.`,
+He is afraid of *telling (to tell)* the truth.
+My aim in life is *becoming (to become)* a writer.`,
 
-        `My aim in life is *becoming (to become)* a writer.
-Her objective is *starting (to start)* a home for parentless children.
-What I want to do in life is *achieving (to acheive)* something useful for all.`,
-
-        `I do not mind *having (to have)* a cup of tea.
+        `Her objective is *starting (to start)* a home for parentless children.
+What I want to do in life is *achieving (to acheive)* something useful for all.
+I do not mind *having (to have)* a cup of tea.
 I enjoy *reading (to read)* English novels.
 Have you postponed *going (to go)* to Delhi?`
       ]
@@ -288,8 +291,7 @@ Have you postponed *going (to go)* to Delhi?`
       type: 'classifySentence',
       id: 'correct-incorrect-gerund',
       commonData: {
-        title:
-          'Classify the following sentences based on the correct usage of Gerunds.',
+        title: 'Classify the following sentences as correct or incorrect.',
         types: ['Correct', 'Incorrect']
       },
       data: [
@@ -310,7 +312,7 @@ There is no chance of snow falling.
 There is a possibility of the election taking place.
 Playing chess is his passion.`,
 
-          `We are delighted at Mother Teresa's be awarded Noble Peace Prize.
+          `We were delighted at Mother Teresa's be awarded Noble Peace Prize.
 There is no chance of the snow's falling.
 There is possibility of the election's talking place.
 The playing chess is his passion.
@@ -354,75 +356,76 @@ The match was handicapped by one's of their best players being ill.`
         title: 'Infinitives',
         text: [
           ` A word that is not limited by the person or number of the subject is known as an Infinitive. It is a kind of verb having certain features of a noun. So it is also treated as a verb-noun.
-Infinitive = 'to + the base form of the verb', e.g., to sing, to dance, to run.`,
+Infinitive = 'to + the base form of the verb'
+Eg: to sing, to dance, to run.`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>To advise others</b> is easy.<br>
-<b>To learn</b> English is difficult.`
+            text: `Eg - <i>To advise others</i> is easy.<br>
+<i>To learn</i> English is difficult.`
           },
           `Infinitive phrases use additional words to modify or further describe the main infinitive.`,
           {
             type: 'html',
-            text: `<b>Example</b> - My boss <b>told me to pay attention</b>, but I wasn't listening.<br>
-I <b>need you to get me out of here</b>.`
+            text: `Eg - My boss <i>told me to pay attention</i>, but I wasn't listening.<br>
+I <i>need you to get me out of here</i>.`
           },
           `# Use of Infinitive 
 1. As the subject of the a verb`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>It is easy to advise</b> others.<br>
-<b>To advise others</b> is easy.`
+            text: `Eg - <i>It is easy to advise</i> others.<br>
+<i>To advise others</i> is easy.`
           },
           `2. As the object of a transitive verb`,
           {
             type: 'html',
-            text: `<b>Example</b> - I wish <b>to become a poet</b>.`
+            text: `Eg - I wish <i>to become a poet</i>.`
           },
           `3. As the complement of a verb`,
           {
             type: 'html',
-            text: `<b>Example</b> - Our greatest pleasure is ,b>to help the poor</b>.`
+            text: `Eg - Our greatest pleasure is ,b>to help the poor</i>.`
           },
           `4. As the object of a preposition`,
           {
             type: 'html',
-            text: `<b>Example</b> - I had no choice <b>but to give up my hope</b>.`
+            text: `Eg - I had no choice <i>but to give up my hope</i>.`
           },
           `5. As an object complement`,
           {
             type: 'html',
-            text: `<b>Example</b> - I noticed Madhavi <b>smile at me</b>.`
+            text: `Eg - I noticed Madhavi <i>smile at me</i>.`
           },
           `6. To qualify a verb to express purpose`,
           {
             type: 'html',
-            text: `<b>Example</b> - I read books <b>to increase my knowledge</b>.`
+            text: `Eg - I read books <i>to increase my knowledge</i>.`
           },
           `7. To qualify an adjective`,
           {
             type: 'html',
-            text: `<b>Example</b> - It is hard <b>to please Padma</b>. `
+            text: `Eg - It is hard <i>to please Padma</i>. `
           },
           `8. To qualify a noun`,
           {
             type: 'html',
-            text: `<b>Example</b> - It is not the time <b>to sleep</b>.`
+            text: `Eg - It is not the time <i>to sleep</i>.`
           },
           `9. To qualify a sentence`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>To tell the truth</b>, we have no problem with you.`
+            text: `Eg - <i>To tell the truth</i>, we have no problem with you.`
           },
           `Infinitives are of two types: bare infinitive and split infinitive. Bare Infinitives can be replaced by 'to' Infinitives.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I can <b>teach</b>. => I am <b>able to teach</b>.`
+            text: `Eg - I can <i>teach</i>. => I am <i>able to teach</i>.`
           },
           `It is generally treated wrong to split an Infinitive in the middle. The adverb can be used either before 'to' or after the Infinitive.`,
           {
             type: 'html',
-            text: `I expect Madhavi to carefully read the letter. => <b>Incorrect</b><br>
-I expect Madhavi to read the letter carefully.=> <b>Correct</b>`
+            text: `I expect Madhavi to carefully read the letter. => <i>Incorrect</i><br>
+I expect Madhavi to read the letter carefully.=> <i>Correct</i>`
           }
         ]
       }
@@ -471,9 +474,8 @@ I expect Madhavi to read the letter carefully.=> <b>Correct</b>`
 She likes *to swim*.
 *To advise others* is easy.
 *To learn English* is difficult.
-*To please Padma* is hard.`,
-
-        `*It is easy to advise* others.
+*To please Padma* is hard.
+*It is easy to advise* others.
 *It is difficult to learn* English.
 *It is hard to please* Padma.
 I wish *to become a poet*.
@@ -483,9 +485,8 @@ He likes *to read books*.`,
 Our greatest pleasure is *to help the poor*.
 Her plan is *to settle in Australia*.
 I had no choice *but to give up hope*.
-We are *about to begin our work*.`,
-
-        `We heard him *speak to his father*.
+We are *about to begin our work*.
+We heard him *speak to his father*.
 We found her *open the door*.
 I noticed Madhavi *smile at me*.
 We have come *to see Madhavi*.
@@ -495,9 +496,8 @@ I read books *to increase my knowledge*.`,
 English is difficult *to learn*.
 It is not the time *to sleep*.
 I have the letters *to post*.
-She has a child *to look after*.`,
-
-        `*To tell the truth*, we have no problem with you.
+She has a child *to look after*.
+*To tell the truth*, we have no problem with you.
 *To explain bluntly*, we are in need of money.
 *To tell you frankly*, I am not able to help you.`
       ]
@@ -527,18 +527,7 @@ She loves *to sing* in the shower when no one is home.`,
 He *can win* this match.
 You *must abide* by the law.
 You *ought to* respect your elders.
-I *shall go* there.`,
-
-        `You *should know* that.
-She *will pay* the money.
-They *would help* me.
-You *may do* it tomorrow.
-You *might tell* me the truth.`,
-
-        `You *can wait* here.
-She *could explain* the poem to me.
-He *did* it well.
-He *must return* the money.`
+I *shall go* there.`
       ]
     },
     {
@@ -619,31 +608,32 @@ She wants to ran a marathon next year. `
             {
               qText:
                 'Which of the following is the correct usage of infinitive?',
-              options:
-                'He knows how to read and write English, He knows to read and write English'
+              options: `He knows how to read and write English.
+He knows to read and write English.`
             },
             {
               qText:
                 'Which of the following is the correct usage of infinitive?',
-              options:
-                'My father taught him how to drive a car, My father taught him to drive a car'
+              options: `My father taught him how to drive a car.
+My father taught him to drive a car.`
             },
             {
               qText:
                 'Which of the following is the correct usage of infinitive?',
-              options:
-                'Rekha was punished for coming late, Rekha was punished to coming late'
+              options: `Rekha was punished for coming late.
+Rekha was punished to coming late`
             },
             {
               qText:
                 'Which of the following is the correct usage of infinitive?',
-              options:
-                'The student was made to write an essay by me, The student was made by me to write an essay'
+              options: `The student was made to write an essay by me.
+The student was made by me to write an essay.`
             },
             {
               qText:
                 'Which of the following is the correct usage of infinitive?',
-              options: 'I was let go by him, I was by him let go'
+              options: `I was let go by him.
+I was by him let go`
             }
           ]
         },
@@ -652,32 +642,32 @@ She wants to ran a marathon next year. `
             {
               qText:
                 'Which of the following is the incorrect usage of infinitive?',
-              options:
-                'That way to behave is dangerous, That is a dangerous way to behave'
+              options: `That way to behave is dangerous.
+That is a dangerous way to behave.`
             },
             {
               qText:
                 'Which of the following is the incorrect usage of infinitive?',
-              options:
-                'It is important to be patient for Jake to his little brother, It is important for Jake to be patient to his little brother'
+              options: `It is important to be patient for Jake to his little brother.
+It is important for Jake to be patient to his little brother.`
             },
             {
               qText:
                 'Which of the following is the incorrect usage of infinitive?',
-              options:
-                'To do this is the right thing, This is the right thing to do'
+              options: `To do this is the right thing.
+This is the right thing to do.`
             },
             {
               qText:
                 'Which of the following is the incorrect usage of infinitive?',
-              options:
-                'When to press the button tell me, Tell me when to press the button'
+              options: `When to press the button tell me.
+Tell me when to press the button`
             },
             {
               qText:
                 'Which of the following is the incorrect usage of infinitive?',
-              options:
-                'I request you to kindly grant my application, I request you kindly to grant my application.'
+              options: `I request you to kindly grant my application.
+I request you kindly to grant my application.`
             }
           ]
         }

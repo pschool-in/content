@@ -15,24 +15,24 @@ export default {
 1. Simple Present Tense: This form of tense is used to express habitual action, general truths and to express a future event that is part of a fixed timetable.`,
           {
             type: 'html',
-            text: `<b>Example</b> - He <b>drinks</b> tea every day.`
+            text: `Eg- He <i>drinks</i> tea every day.`
           },
           `2. Present Continous Tense: It is used for an action going on at the time of speaking or an action arranged to take place shortly.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - He <b>is drinking</b> tea.<br>
-My father <b>is arriving</b> tomorrow.`
+            text: `Eg- He <i>is drinking</i> tea.<br>
+My father <i>is arriving</i> tomorrow.`
           },
           `3. Present Perfect Tense: This form of tense is used to denote an action beginning at some point in the past and continuing up to the present movement or to indicate completed activities in the immediate past.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - He <b>has just finished</b> drinking his tea.<br>
-He <b>has been</b> ill since last week`
+            text: `Eg- He <i>has just finished</i> drinking his tea.<br>
+He <i>has been</i> ill since last week`
           },
           `4. Present Perfect Continous Tense: This indicates an action that began sometime in the past and is still continuing.`,
           {
             type: 'html',
-            text: `<b>Example</b> - He <b>has been sleeping</b> for five hours.`
+            text: `Eg- He <i>has been sleeping</i> for five hours.`
           }
         ]
       }
@@ -164,23 +164,23 @@ They *read* (read) the newspaper every morning.`
           `1. Simple Past Tense: It is used to indicate an action completed in the past. It is also used to express past habits.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I <b>received</b> his letter a week ago.<br>
-She always <b>carried</b> an umbrella.`
+            text: `Eg- I <i>received</i> his letter a week ago.<br>
+She always <i>carried</i> an umbrella.`
           },
           `2. Past Continous Tense: It is used to indicate an action going on at some time in the past. The time of action may or may not be indicated.`,
           {
             type: 'html',
-            text: `<b>Example</b> - We <b>were listening</b> to the radio all evening.`
+            text: `Eg- We <i>were listening</i> to the radio all evening.`
           },
           `3. Past Perfect Tense: It indicates an action completed before a certain moment in the past.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I <b>had written</b> the letter before he arrived.`
+            text: `Eg- I <i>had written</i> the letter before he arrived.`
           },
           `4. Past Perfect Continuous Tense: It is used for an action that began before a certain point in the past and continued up to that time.`,
           {
             type: 'html',
-            text: `<b>Example</b> - At that time <b>he had been writing</b> a novel for two months.`
+            text: `Eg- At that time <i>he had been writing</i> a novel for two months.`
           }
         ]
       }
@@ -395,24 +395,24 @@ Arathi *was mending* the roof when it started to rain. `
           `1. Simple Future Tense: It is used to talk about things that we cannot control. We use this tense to talk about what we think or believe will happen in the future.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I <b>shall</b> be twenty next Saturday.<br>
-I am <b>going</b> to buy a car.`
+            text: `Eg- I <i>shall</i> be twenty next Saturday.<br>
+I am <i>going</i> to buy a car.`
           },
           `2. Future Continuous Tense: It indicates actions that will progress at a time in the future or planned things that are expected to happen in the future.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I <b>will be staying</b> there till next Sunday.`
+            text: `Eg- I <i>will be staying</i> there till next Sunday.`
           },
           `3. Future Perfect Tense: Is is used to talk about actions that will be completed by a certain time in the near future.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - I <b>shall have completed</b> my work by then.<br>
-By the end of the month, <b>I will have worked</b> here for 5 years.`
+            text: `Eg- I <i>shall have completed</i> my work by then.<br>
+By the end of the month, <i>I will have worked</i> here for 5 years.`
           },
           `4. Future Perfect Continuous Tense: It is used for actions that had been in progress over a while and will end in the future.`,
           {
             type: 'html',
-            text: `<b>Example</b> - I <b>will have been teaching</b> for twenty years next July.`
+            text: `Eg- I <i>will have been teaching</i> for twenty years next July.`
           }
         ]
       }
@@ -534,7 +534,7 @@ When will you take the test?
 I have been ill for four days.`,
 
           `He is pass in English.	
-When will you give the test?		
+When will you took the test?		
 I am ill for four days.`
         ],
         [
@@ -544,7 +544,7 @@ He talks as if he were mad.
 What makes you laugh?`,
 
           `She make a speech.	
-Our team made two goals.	
+Our team score two goals.	
 He talks as if he are mad.	
 What make you laugh?`
         ],
@@ -573,7 +573,7 @@ Our hen has laid ten eggs.`,
 
           `The teacher will take test in English next week.
 Two and two makes four.
-Our hen give ten eggs.`
+Our hen has lay ten eggs.`
         ]
       ]
     },

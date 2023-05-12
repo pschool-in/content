@@ -27,56 +27,7 @@ To change a sentence from active voice to passive voice, follow these steps:
 3. Use the past participle form of the finite verb in the passive voice, along with the form of the "be" verb. 
 4. If the subject in the active voice is a vague or indefinite pronoun, it can be dropped in the passive voice, along with the preposition "by."
 5. The tense of the verb remains the same.
-=> Passive voice cannot be formed for sentences that are in Present Perfect Continuous, Past Perfect Continuous, Future Continuous, and Future Perfect Continuous tenses.`,
-          {
-            type: 'table',
-            title: ['Tense', 'Indefinite', 'Continuous', 'Perfect'],
-            text: [
-              `Present
-Present
-Present
-Present
-Past 
-Past
-Past
-Future
-Future
-Future`,
-
-              `is/am/are + verb in third form
-is seen
-am seen
-are seen
-was/were + verb in third form
-was seen
-were seen
-will/shall + be + verb in third form
-will be seen
-shall be seen`,
-
-              `is/am/are + being + verb in third form
-is being seen
-am being seen
-are being seen
-was/were + being + verb in third form
-was being seen
-were being seen
-no change
-no change
-no change`,
-
-              `has/have + been + verb in third form
-has been seen
-has been seen
-have been seen
-had + been + verb in third form
-had been seen
-had been seen
-will/shall + have been + verb in third form
-will have been seen
-shall have been seen`
-            ]
-          }
+=> Passive voice cannot be formed for sentences that are in Present Perfect Continuous, Past Perfect Continuous, Future Continuous, and Future Perfect Continuous tenses.`
         ]
       }
     },
