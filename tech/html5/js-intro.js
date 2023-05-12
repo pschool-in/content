@@ -26,7 +26,7 @@ Javascript does not work in the backend.`
     {
       label: 'Multiple Choice Question',
       type: 'mcqAdvanced',
-      id: 'test',
+      id: 'mcq',
       commonData: {
         title: 'Multiple Choice Question'
       },
@@ -118,7 +118,7 @@ console.log(i)</code></pre>`,
     {
       label: 'Multiple Choice Question',
       type: 'mcqAdvanced',
-      id: 'test',
+      id: 'mcq-2',
       commonData: {
         title: 'Multiple Choice Question'
       },

@@ -10,6 +10,7 @@ export default {
       data: {
         title: `A House, A Home`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Lorriane M. Halli',
         text: `What is a house?
 It's brick and stone
@@ -78,6 +79,7 @@ A house is a place to live, while a home is a place to love
       data: {
         title: 'The Kite',
         type: 'poem',
+        lineGap: '5px',
         author: 'Harry Behn',
         text: `How bright on the blue
 Is a kite when it's new!
@@ -157,6 +159,7 @@ It magically frees itself and flies away`
       data: {
         title: 'The Quarrel',
         type: 'poem',
+        lineGap: '5px',
         author: 'Eleanor Farjeon',
         text: `I quarrelled with my brother
 I don't know what about,
@@ -229,6 +232,7 @@ The brother admitted he was wrong and the speaker was right`
       data: {
         title: 'Beauty',
         type: 'poem',
+        lineGap: '5px',
         author: 'E-Yeh-Shure',
         text: `Beauty is seen
 In the sunlight, 
@@ -364,6 +368,7 @@ The world is a cruel place for animals that are blind`
       data: {
         title: 'Where Do All the Teachers Go?',
         type: 'poem',
+        lineGap: '5px',
         author: 'Peter Dixon',
         text: `Where do all the teachers go
 When it's four o'clock?

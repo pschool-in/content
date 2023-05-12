@@ -1,6 +1,6 @@
 export default {
-  label: 'HTML - Intro',
-  id: 'html5-intro',
+  label: 'CSS - Intro',
+  id: 'css-intro',
   list: [
     {
       id: 'true-false',
