@@ -595,7 +595,7 @@ The poem doesn't provide an answer to this question`
           },
           {
             qText: `What does the poem suggest about teamwork?`,
-            options: ` Everyone has a role to play and should work together to achieve success
+            options: `*Everyone has a role to play and should work together to achieve success
 Teamwork is not important
 None of the above`
           }
@@ -788,7 +788,7 @@ And our village wakens to celebrate the rain.`
         questions: [
           {
             qText: `What is the poem about?`,
-            options: `. A river and its surroundings
+            options: `A river and its surroundings
 The life of village priests
 The monsoon season in India`
           },
@@ -863,8 +863,8 @@ Words can be forgotten easily.`
           },
           {
             qText: `What is the significance of the line, "Slant and curved the fall word-swords"?`,
-            options: `Words can be used as weapons.
-Words can cut deeper than physical violence.
+            options: `*Words can be used as weapons.
+*Words can cut deeper than physical violence.
 Words can be beautiful but dangerous.`
           },
           {
@@ -1172,8 +1172,8 @@ With indifference, neglect, and apathy`
           },
           {
             qText: `What is the significance of the line, "Let no one shame you or make you feel bad"?`,
-            options: ` It encourages people to stand up to bullies and negativity
-It suggests that people should not care about what others think
+            options: `*It encourages people to stand up to bullies and negativity
+*It suggests that people should not care about what others think
 It promotes the idea that shame and guilt are necessary for personal growth`
           }
         ]
