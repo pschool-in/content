@@ -10,6 +10,7 @@ export default {
       data: {
         title: `The Squirrel`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Mildred Bowers Armstrong',
         text: `He wore a question mark for tail,
 An overcoat of gray,
@@ -61,6 +62,7 @@ It had stripes`
       data: {
         title: 'The Rebel',
         type: 'poem',
+        lineGap: '5px',
         author: 'D. J. Enright',
         text: `When everybody has short hair,
 The rebel lets his hair grow long.
@@ -157,6 +159,7 @@ He also greets the rain.`
       data: {
         title: 'The Shed',
         type: 'poem',
+        lineGap: '5px',
         author: 'Frank Flynn',
         text: `There's a shed at the bottom of our garden
 With a spider's web hanging across the door,
@@ -236,6 +239,7 @@ Keep it locked forever`
       data: {
         title: 'Chivvy',
         type: 'poem',
+        lineGap: '5px',
         author: 'Michael Rosen',
         text: `Grown-ups say things like:
 Speak up
@@ -311,6 +315,7 @@ Keep your elbows on the table.`
       data: {
         title: 'Trees',
         type: 'poem',
+        lineGap: '5px',
         author: 'Shirley Bauer',
         text: `Trees are for birds.
 Trees are for children.
@@ -346,7 +351,7 @@ Flying kites that get caught in them.
           },
           {
             qText: `What purpose do trees serve in the summer?`,
-            options: `To provide shade from the sun.
+            options: `*To provide shade from the sun.
 To provide warmth in the cold weather.
 To keep the ground dry.
 None of the above.`
@@ -382,6 +387,7 @@ Doing homework.
       data: {
         title: `Dad and the Cat and the Tree`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Kit Wright',
         text: `This morning a cat got
 Stuck in our tree.
@@ -501,6 +507,7 @@ He asked a neighbor for help`
       data: {
         title: 'Garden Snake',
         type: 'poem',
+        lineGap: '5px',
         author: 'Muriel L. Sonne',
         text: `I saw a snake and ran away...
 Some snakes are dangerous, they say;
@@ -534,13 +541,6 @@ Because it is friendly to humans
 Because it is easy to catch and keep as a pet`
           },
           {
-            qText: `What does the speaker do when they see the snake wiggling in the grass?`,
-            options: ` They watch from a safe distance
-They try to catch the snake
-They run away again
-They approach the snake to get a closer look`
-          },
-          {
             qText: `What does the speaker tell themselves when they see the harmless garden snake?`,
             options: `"There's no mistake, it's just a harmless garden snake!"
 "I should ask my mother to come and see!"
@@ -564,6 +564,7 @@ Snakes are scary and should be killed`
       data: {
         title: 'Meadow Surprises',
         type: 'poem',
+        lineGap: '5px',
         author: 'Lois Brandt Philips',
         text: `Meadows have surprises,
 You can find them if you look;
@@ -644,6 +645,7 @@ Meadows are dangerous places to explore`
       data: {
         title: 'The Parts of Speech',
         type: 'poem',
+        lineGap: '5px',
         text: `Every name is called a noun,
 As field and fountain, street and town,
 
@@ -675,7 +677,7 @@ of these make up THE PARTS OF SPEECH.`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq-chivvy',
+      id: 'mcq-speech',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -721,6 +723,7 @@ A word that shows a relationship between things`
       data: {
         title: 'The Listeners',
         type: 'poem',
+        lineGap: '5px',
         author: 'Walter De La Mare',
         text: `'Is there anybody there?' said the Traveller,
 Knocking on the moonlit door;
@@ -815,6 +818,7 @@ Let him in the house`
       data: {
         title: `The Age of Chivalry`,
         type: 'poem',
+        lineGap: '5px',
         author: 'George Krokos',
         text: `Back in the days of old
 when knights were bold
@@ -900,6 +904,7 @@ Their technological innovations and advancements`
       data: {
         title: 'Sea Fever',
         type: 'poem',
+        lineGap: '5px',
         author: 'John Masefield',
         text: `I must go down to the seas again, to the lonely sea and the sky,
 And all I ask is a tall ship and a star to steer her by;
@@ -962,6 +967,7 @@ To continue sailing and exploring new places`
       data: {
         title: 'A Thing of Beauty',
         type: 'poem',
+        lineGap: '5px',
         author: 'John Keats ',
         text: `A thing of beauty is a joy forever
 Its loveliness increases, it will never
@@ -1037,6 +1043,7 @@ Fair musk-rose blooms and grand tales
       data: {
         title: 'The Road Not Taken',
         type: 'poem',
+        lineGap: '5px',
         author: 'Robert Frost ',
         text: `Two roads diverged in a yellow wood,
 And sorry I could not travel both
