@@ -400,7 +400,6 @@ play, verb`
               text: `the, determiner
 weather, noun
 really, adverb
-hot, adjective
 and, conjunction
 humid, adjective`
             }
@@ -427,10 +426,10 @@ his, possessive pronoun`
             {
               stmt: 'The curious cat watches the birds from the window.',
               text: `curious, adjective
-cat, noun
+cat, singular noun
 watches, verb
 the, definite article
-birds, noun`
+birds, plural noun`
             },
             {
               stmt: 'The students are writing an essay for their English class.',
