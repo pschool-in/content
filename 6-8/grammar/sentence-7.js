@@ -13,22 +13,22 @@ export default {
           `A sentence is a group of words that expresses a complete thought or idea. It must have a subject and a predicate.
 => Sentences can be classified based on their structure. There are four types of sentences: simple, compound, complex, and compound-complex.
 1. Simple Sentence: A simple sentence consists of one independent clause, which has a subject and a predicate.
-Example: John is reading a book.
+Eg: John is reading a book.
 2. Compound Sentence: A compound sentence consists of two or more independent clauses joined together with a coordinating conjunction.
-Example: I wanted to go to the party, but I had to study for my exam.
+Eg: I wanted to go to the party, but I had to study for my exam.
 3. Complex Sentence: A complex sentence consists of one independent clause and one or more dependent clauses. A dependent clause cannot stand alone as a sentence and depends on the independent clause to make sense.
-Example: Because it was raining, we stayed inside.
+Eg: Because it was raining, we stayed inside.
 4. Compound-Complex Sentence: A compound-complex sentence consists of two or more independent clauses and one or more dependent clauses.
-Example: I wanted to go to the park, but it was raining, so I stayed home and read a book.
+Eg: I wanted to go to the park, but it was raining, so I stayed home and read a book.
 => Sentences can also be classified based on their function. There are four types of sentences based on function: declarative, interrogative, imperative, and exclamatory.
 1. Declarative Sentence: A declarative sentence makes a statement and ends with a period.
-Example: She is a talented musician.
+Eg: She is a talented musician.
 2. Interrogative Sentence: An interrogative sentence asks a question and ends with a question mark.
-Example: Have you finished your homework yet?
+Eg: Have you finished your homework yet?
 3. Imperative Sentence: An imperative sentence gives a command or makes a request and can end with a period or an exclamation mark.
-Example: Don't forget to bring your passport.
+Eg: Don't forget to bring your passport.
 4. Exclamatory Sentence: An exclamatory sentence expresses strong emotion and ends with an exclamation mark.
-Example: Wow, what a beautiful sunset!`
+Eg: Wow, what a beautiful sunset!`
         ]
       }
     },
@@ -84,7 +84,7 @@ Example: Wow, what a beautiful sunset!`
         multiSelect: true
       },
       data: [
-        `The *dog* barked loudly.
+        `*The dog* barked loudly.
 *She* danced gracefully.
 *My mom* is a doctor.
 *They* went to the beach.
@@ -169,24 +169,23 @@ The book *was very interesting*.`
         `*Water* freezes at 0 degrees Celsius.
 The *human* body has 206 bones.
 The tallest *mountain* in the world is Mount Everest.
-The first *person* to walk on the moon was Neil Armstrong.`,
+The first *person* to walk on the moon was Neil Armstrong.
+The *heart* pumps blood throughout the body.`,
 
-        `The *heart* pumps blood throughout the body.
-The *Pacific* Ocean is the largest ocean in the world.
+        `The *Pacific* Ocean is the largest ocean in the world.
 The human *eye* can distinguish approximately 10 million different colors.
-The Sahara *Desert* is the largest hot desert in the world.`,
+The Sahara *Desert* is the largest hot desert in the world.
+The *Earth* is the third planet from the sun.
+The *moon* orbits around the Earth.`,
 
-        `The E*arth* is the third planet from the sun.
-The *moon* orbits around the Earth.
-The *capital* of France is Paris.
-The Nile *River* is the longest river in the world.`,
-
-        `*Dogs* bark at night.
+        `The *capital* of France is Paris.
+The Nile *River* is the longest river in the world.
+*Dogs* bark at night.
 The *sun* sets in the west.
-The *cow* gives us milk.
-*It* is cloudy today.`,
+The *cow* gives us milk.`,
 
-        `*Birds* fly in the air.
+        `*It* is cloudy today.
+*Birds* fly in the air.
 *I* am in a hurry.
 The *Earth* orbits around the sun.
 The *capital* of Italy is Rome.`
