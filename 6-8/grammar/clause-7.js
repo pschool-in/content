@@ -20,17 +20,17 @@ Subordinate clauses are introduced by a subordinating conjunction (because, thou
 1. Noun/Nominal Clause: When a subordinate clause performs the function of a standard noun in a sentence, it is known as a noun clause or nominal clause. It can be the subject or the object of a transitive verb, subject complements, delayed subjects or appositives.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Rahima said <b>that she wanted to become an author</b>.`
+            text: `Eg - Rahima said <i>that she wanted to become an author</i>.`
           },
           `2. Adjective/Relative Clause: An adjective clause does the work of an adjective and modifies the noun, pronoun, or noun equivalent in a main clause or a dependent clause.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Nisha, <b>who is my neighbor</b>, is an actress`
+            text: `Eg - Nisha, <i>who is my neighbor</i>, is an actress`
           },
           `3. Adverb Clause: When a verb is modified in the main clause and made to do the work of an adverb, it is called an adverb clause.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Hari <b>came to meet me at the station</b> as I was leaving.`
+            text: `Eg - Hari <i>came to meet me at the station</i> as I was leaving.`
           },
           `Adverb clauses can be of various kinds, depending on their functions. (Adverb clause of time, place, reason, result, condition, concession, manner and degree)
 4. Conditional/If Clause: They are used
@@ -43,9 +43,9 @@ f) for unreal conditions.
 g) for imaginary conditions.`,
           {
             type: 'html',
-            text: `<b>Example</b> - <b>If you see dark clouds in the sky</b>, you can expect rain.<br>
-<b>Unless you tell me your problems</b>, I cannot help.<br>
-<b>If I had come to the party</b>, I could have met my friend.`
+            text: `Eg - <i>If you see dark clouds in the sky</i>, you can expect rain.<br>
+<i>Unless you tell me your problems</i>, I cannot help.<br>
+<i>If I had come to the party</i>, I could have met my friend.`
           },
           `A phrase, on the other hand, is a group of words that does not contain a subject and a predicate, and it does not express a complete thought. Phrases can function as nouns, adjectives, or adverbs in a sentence.
 A noun phrase functions as a noun in a sentence. For example: "The big red ball."
@@ -58,47 +58,47 @@ An adverb phrase functions as an adverb in a sentence. For example: "He drove th
               `A phrase does not have a subject and predicate.
 A phrase is not complete, and cannot make sense or convey meaning if it stands on its own.
 There are five types of phrases namely noun phrase, adverb phrase, adjective phrase and prepositional phrase.
-Example: There is an unidentified vehicle in front of our house.`,
+Eg: There is an unidentified vehicle in front of our house.`,
 
               `A clause has a subject and a predicate.
 In some cases, a clause can look complete, convey meaning and make sense when separated from the sentence.
 There are two types of clauses namely independent clauses and dependent clauses.
-Example: I am sick, so I am going to see the doctor.`
+Eg: I am sick, so I am going to see the doctor.`
             ]
           }
         ]
       }
     },
-    {
-      label: 'Multiple Choice Questions',
-      type: 'mcq',
-      id: 'mcq-cl-ph',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: `What is a clause?`,
-            options: `A group of words that contains a subject and a predicate, A complete thought that does not contain a subject and a predicate`
-          },
-          {
-            qText: `What is a phrase?`,
-            options: `A group of words that does not contain a subject and a predicate, A group of words that can function as a sentence on its own`
-          },
-          {
-            qText: `What is the function of a noun phrase in a sentence?`,
-            options: `noun, verb, adjective, adverb`
-          },
-          {
-            qText: `What is the function of an adjective phrase in a sentence?`,
-            options: `adjective, noun, verb, adverb`
-          },
-          {
-            qText: `What is the function of an adverb phrase in a sentence?`,
-            options: `adverb, adjective, noun, verb`
-          }
-        ]
-      }
-    },
+    /*{
+label: 'Multiple Choice Questions',
+type: 'mcq',
+id: 'mcq-cl-ph',
+data: {
+title: 'Multiple Choice Questions',
+questions: [
+{
+qText: `What is a clause?`,
+options: `A group of words that contains a subject and a predicate, A complete thought that does not contain a subject and a predicate`
+},
+{
+qText: `What is a phrase?`,
+options: `A group of words that does not contain a subject and a predicate, A group of words that can function as a sentence on its own`
+},
+{
+qText: `What is the function of a noun phrase in a sentence?`,
+options: `noun, verb, adjective, adverb`
+},
+{
+qText: `What is the function of an adjective phrase in a sentence?`,
+options: `adjective, noun, verb, adverb`
+},
+{
+qText: `What is the function of an adverb phrase in a sentence?`,
+options: `adverb, adjective, noun, verb`
+}
+]
+}
+},*/
     {
       type: 'selectWord',
       label: 'Identify Subordinate Clause',
@@ -112,24 +112,22 @@ Example: I am sick, so I am going to see the doctor.`
         `The director is the person *to whom you should write*.
 Marina did not make the same mistakes *that her sister did*.
 *If you want the minister to inaugurate the function*, you must plan early.
-I know the student *who stood first*.`,
-
-        `*Before I leave for London*, I want to meet you.
+I know the student *who stood first*.
+*Before I leave for London*, I want to meet you.
 *If I had enough money*, I would have bought that house.
-*Whenever you may settle down*, do not forget your roots.
 I was not able to attend the function *because I was ill*.`,
 
-        `He always acts as *if he knows everything*.
+        `He always acts *as if he knows everything*.
 *What I need now* is a cup of coffee.
 No one knew that *he was planning to resign*.
-*That he is the only boy in the group* does not qualify him to be the leader.`,
-
-        `The bus *that you have been waiting for* has arrived.
+*That he is the only boy in the group* does not qualify him to be the leader.
+The bus *that you have been waiting for* has arrived.
 I know the person *who wrote that article*.
-This is the reason *why I don't like traveling*.
 *If you see dark clouds in the sky*, you can expect rain.`,
 
-        `*Unless you tell me your problems*, I cannot help.
+        `This is the reason *why I don't like traveling*.
+*Whenever you may settle down*, do not forget your roots.
+*Unless you tell me your problems*, I cannot help.
 *If I had come to the party*, I could have met my friend.
 *If you exercise daily*, you will reduce weight faster.`
       ]
@@ -144,17 +142,17 @@ This is the reason *why I don't like traveling*.
         types: [
           {
             name: 'Adjective',
-            text: ` The director is the person to whom you should write.
-The bus that you have been waiting for has arrived.
-I know the person who wrote that article.
-This is the reason why I don't like traveling.`
+            text: ` The director is the person to *whom you should write*.
+The book, *which was written by my favorite author*, is on the shelf.
+I know the person who *wrote that article*.
+The book *that I borrowed from the library* is due next week.`
           },
           {
             name: 'Conditional',
-            text: `If you see dark clouds in the sky, you can expect rain.
-Unless you tell me your problems, I cannot help.
-If I had come to the party, I could have met my friend.
-If you exercise daily, you will reduce weight faster.`
+            text: `*If you see dark clouds in the sky*, you can expect rain.
+*Unless you tell me your problems*, I cannot help.
+*If I had come to the party*, I could have met my friend.
+*If you exercise daily*, you will reduce weight faster.`
           }
         ]
       }
@@ -169,17 +167,17 @@ If you exercise daily, you will reduce weight faster.`
         types: [
           {
             name: 'Adverb',
-            text: `Before I leave for London, I want to meet you.
-Whenever you may settle down, do not forget your roots.
-I was not able to attend the function because I was ill.
-He always acts as if he knows everything.`
+            text: `*Before I leave for London*, I want to meet you.
+*Whenever you may settle down*, do not forget your roots.
+I was not able to attend the function *because I was ill*.
+He always acts *as if he knows everything*.`
           },
           {
             name: 'Noun',
-            text: `What I need now is a cup of coffee.
-No one knew that he was planning to resign.
-That he is the only boy in the group does not qualify him to be the leader.
-The researcher said that he had found the chemical compound.`
+            text: `*What I need now* is a cup of coffee.
+No one knew *that he was planning to resign*.
+*That he is the only boy in the group* does not qualify him to be the leader.
+The researcher said *that he had found the chemical compound*.`
           }
         ]
       }
@@ -284,9 +282,9 @@ Laughing out loud`
       data: [
         [
           `The red bicycle
-Running late for class`,
+The man with the hat`,
 
-          `The man with the hat
+          `The smell of freshly baked cookies
 Running quickly to catch the bus`,
 
           `He walked slowly down the street
@@ -396,12 +394,12 @@ He played the guitar beautifully`
 1. A defining clause tells us which specific person or thing we are talking about in a larger group of people or things.`,
           {
             type: 'html',
-            text: `<b>Example</b> - The woman <b>who visited me in the hospital</b> was very kind.`
+            text: `Eg - The woman <i>who visited me in the hospital</i> was very kind.`
           },
           `2. A non-defining clause gives us more information about the person or thing we are talking about.`,
           {
             type: 'html',
-            text: `<b>Example</b> - The farmer, <b>whose name was Ram</b>, sold us five pounds of cherries.`
+            text: `Eg - The farmer, <i>whose name was Ram</i>, sold us five pounds of cherries.`
           }
         ]
       }
@@ -459,43 +457,43 @@ My mother, who is fifty, lives in Dubai.`
 1. Conditional Clauses: Conditional clauses begin with if or unless and express a condition.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>If you would have studied well</b>, you could have passed the examination easily.`
+            text: `Eg - <i>If you would have studied well</i>, you could have passed the examination easily.`
           },
           `2. Zero Conditionals: A zero conditional sentence refers to a general truth. It denotes situations in which a particular thing or action always results in the other.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>If you don't water the plants</b>, they die.`
+            text: `Eg - <i>If you don't water the plants</i>, they die.`
           },
           {
             type: 'html',
-            text: `Babies cry <b>when they are hungry and sick</b>.`
+            text: `Babies cry <i>when they are hungry and sick</i>.`
           },
           `3. First Conditionals: First conditional sentences are those sentences that express a situation in which the result would be the one to most likely happen. This, however, is not the guaranteed outcome.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>If you take some medicines</b>, you will feel better.`
+            text: `Eg - <i>If you take some medicines</i>, you will feel better.`
           },
           {
             type: 'html',
-            text: `<b>If you go out now</b>, you will get wet in the rain.`
+            text: `<i>If you go out now</i>, you will get wet in the rain.`
           },
           `4. Second Conditionals: Second conditional sentences are sentences in which hypothetical situations or unrealistic events that are not likely to ever happen are mentioned.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>If I knew animation graphics</b>, I would create real-life animated characters.`
+            text: `Eg - <i>If I knew animation graphics</i>, I would create real-life animated characters.`
           },
           {
             type: 'html',
-            text: `<b>If I had a time travel machine</b>, I could go back to my past and change a few things.`
+            text: `<i>If I had a time travel machine</i>, I could go back to my past and change a few things.`
           },
           `5. Third Conditionals: Third conditional sentences express alternate circumstances in the present. This is used to indicate that the outcome would have been different if there was a change in the past event mentioned in the dependent clause.`,
           {
             type: 'html',
-            text: `<b>Examples</b> - <b>If you had not fought with me</b>, everything would have been fine.`
+            text: `Eg - <i>If you had not fought with me</i>, everything would have been fine.`
           },
           {
             type: 'html',
-            text: `<b>If the teacher had informed us earlier</b>, we could have finished it in time.`
+            text: `<i>If the teacher had informed us earlier</i>, we could have finished it in time.`
           }
         ]
       }

@@ -49,10 +49,10 @@ None of the above `
           },
           {
             qText: `What is a home?`,
-            options: `A place where you show your loved ones you're always caring
+            options: `*A place where you show your loved ones you're always caring
 A place with lots of doors
 A structure made of bricks and stones
-A place where you do unselfish acts`
+*A place where you do unselfish acts`
           },
           {
             qText: `What is a home primarily about?`,
@@ -306,6 +306,7 @@ None of the above`
       data: {
         title: 'All But Blind',
         type: 'poem',
+        lineGap: '5px',
         author: 'Walter De La Mare',
         text: `All but blind
 In his chambered hole
@@ -453,6 +454,7 @@ What subjects do they teach? Do they like their jobs? Are they happy?`
       data: {
         title: 'The Wonderful Words',
         type: 'poem',
+        lineGap: '5px',
         author: "Mary O'Neill",
         text: `Never let a thought shrivel and die 
 For want of a way to say it 
@@ -527,6 +529,7 @@ Because people are always looking for something new and interesting.`
       data: {
         title: 'Vocation',
         type: 'poem',
+        lineGap: '5px',
         author: 'Rabindranath Tagore',
         text: `When the gong sounds ten in the morning and
 I walk to school by our lane,
@@ -616,6 +619,7 @@ A small mouse with one pink ear`
       data: {
         title: 'The Man Who Thinks He Can',
         type: 'poem',
+        lineGap: '5px',
         author: 'Walter D. Wintle',
         text: `If you think you are beaten, you are
 If you think you dare not, you don't,
@@ -685,6 +689,7 @@ You will get a second chance`
       data: {
         title: 'Team Work',
         type: 'poem',
+        lineGap: '5px',
         author: 'Edgar A. Guest',
         text: `It's all very well to have courage and skill
 And it's fine to be counted a star,
@@ -763,6 +768,7 @@ Having courage and skill.`
       data: {
         title: 'From a Railway Carriage',
         type: 'poem',
+        lineGap: '5px',
         author: 'Robert Louis Stevenson',
         text: `Faster than fairies, faster than witches,
 Bridges and houses, hedges and ditches;
@@ -785,7 +791,7 @@ Each a glimpse and gone forever!`
     {
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      id: 'mcq-words',
+      id: 'mcq-railway',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -834,6 +840,7 @@ Sadness and regret`
       data: {
         title: 'A Tragic Story',
         type: 'poem',
+        lineGap: '5px',
         author: 'William Makepeace Thackeray',
         text: `There lived a sage in days of yore
 And he a handsome pigtail wore;
@@ -908,6 +915,7 @@ He cut it off`
       data: {
         title: 'See It Through',
         type: 'poem',
+        lineGap: '5px',
         author: 'Edgar Albert Guest',
         text: `When you're up against a trouble,
 Meet it squarely, face to face;
@@ -989,6 +997,7 @@ Run from it to save yourself`
       data: {
         title: 'Nothing Gold Can Stay',
         type: 'poem',
+        lineGap: '5px',
         author: 'Robert Frost ',
         text: `Nature's first green is gold,
 Her hardest hue to hold.
@@ -1031,9 +1040,9 @@ The inevitability of change and decay.`
           {
             qText: `What is the significance of the title "Nothing Gold Can Stay"?`,
             options: ` It emphasizes the impermanence of nature's beauty.
-b) It suggests that all good things must come to an end.
-c) It reflects the cyclical nature of life and death.
-d) It highlights the importance of cherishing precious moments.`
+It suggests that all good things must come to an end.
+It reflects the cyclical nature of life and death.
+It highlights the importance of cherishing precious moments.`
           },
           {
             qText: `What does the poet mean when he says "Her hardest hue to hold"?`,

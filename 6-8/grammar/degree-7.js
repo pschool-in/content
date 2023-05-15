@@ -51,7 +51,9 @@ useful —> <b>more</b> useful -> <b>most</b> useful`
         questions: [
           {
             qText: `What is an affix in English grammar?`,
-            options: `A word element used to alter the meaning or form of a word, A grammatical construction that changes the tense of a verb, A type of adverb used to modify a verb`
+            options: `A word element used to alter the meaning or form of a word.
+A grammatical construction that changes the tense of a verb.
+A type of adverb used to modify a verb`
           },
           {
             qText: `What are the two forms of affixes in English?`,
@@ -59,15 +61,23 @@ useful —> <b>more</b> useful -> <b>most</b> useful`
           },
           {
             qText: `How are most comparative and superlative degrees formed?`,
-            options: `By adding -er and -est, By adding -ed and -ing, By adding -ly, By adding -able and -ible`
+            options: `By adding -er and -est
+By adding -ed and -ing
+By adding -ly
+By adding -able and -ible`
           },
           {
             qText: `What happens to adjectives ending in -y when forming comparative and superlative degrees?`,
-            options: `The -y is dropped and -er/-est is added, The -y is doubled, The -y is changed to -ly`
+            options: `The -y is dropped and -er or -est is added
+The -y is doubled
+The -y is changed to -ly`
           },
           {
             qText: `What happens to some adjectives with just one syllable when forming comparative and superlative degrees?`,
-            options: `The last consonant is doubled, The last vowel is doubled, The adjective is shortened, The adjective is lengthened`
+            options: `The last consonant is doubled
+The last vowel is doubled
+The adjective is shortened
+The adjective is lengthened`
           }
         ]
       }
@@ -93,22 +103,22 @@ Hot -> *Hotter* -> Hottest`,
 Slim -> *Slimmer* -> Slimmest
 Red -> Redder -> *Reddest*
 Bright -> *Brighter* -> Brightest
-Short -> Shorter -> *Shortest*
-Weak -> *Weaker* -> Weakest`,
+Short -> Shorter -> *Shortest*`,
 
-        `Long -> Longer -> *Longest*
+        `Weak -> *Weaker* -> Weakest
+Long -> Longer -> *Longest*
 Smart -> *Smarter* -> Smartest
 Cool -> Cooler -> *Coolest*
-Dark -> *Darker* -> Darkest
-Small -> Smaller -> *Smallest*`,
+Dark -> *Darker* -> Darkest`,
 
-        `Bold -> *Bolder* -> Boldest
+        `Small -> Smaller -> *Smallest*
+Bold -> *Bolder* -> Boldest
 Humble -> Humbler -> *Humblest*
 Simple -> *Simpler* -> Simplest
-Fine -> Finer -> *Finest*
-Noble -> *Nobler* -> Noblest`,
+Fine -> Finer -> *Finest*`,
 
-        `Brave -> Braver -> *Bravest*
+        `Noble -> *Nobler* -> Noblest
+Brave -> Braver -> *Bravest*
 Wealthy -> *Wealthier* -> Wealthiest
 *Healthy* -> Healthier -> Healthiest
 Costly -> *Costlier* -> Costliest`,

@@ -13,33 +13,33 @@ export default {
           `Subject-verb agreement tells us about the ways a subject will agree to its verb. Generally, rules of tense are in the category of subject-verb agreement, but apart from these rules, there are some other rules by which a subject agrees to the verb.
 # Rules for Subject-Verb Agreement
 1. Two nouns or pronouns when joined by 'and' takes a plural verb.
-Example: You and I have done this.
+Eg: You and I have done this.
 2. When 'one of' is used with a plural noun, the verb after it is always singular,
-Example: One of my friends is sick.
+Eg: One of my friends is sick.
 3. Nouns that are connected by 'each' and 'every' takes a singular verb with them.
-Examples: Each boy was given a prize.
+Eg: Each boy was given a prize.
 Every day is a battle here.
 4. If two nouns are connected by 'and' but are meant for one person or one idea then the verb becomes singular.
-Example: Time and tide wait for no one.
+Eg: Time and tide wait for no one.
 5. When two subjects are joined by 'as well as, along with, together with, in addition to' then the verb agrees to the first subject.
-Examples: She as well as her friends is very pleasing.
+Eg: She as well as her friends is very pleasing.
 The boys together with the coach were practicing for the match.
 6. When two or more subjects are connected by 'or, nor, either or, neither nor' then the verb is singular.
-Example: Neither Ram nor Sham has eaten.
+Eg: Neither Ram nor Sham has eaten.
 7. If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there'.
-Examples: There is a pen.
+Eg: There is a pen.
 There were big rivers.
 8. Nouns, though plural but refer to the name of a book, country or province then the verb used is ‘singular’.
-Example: The United States is a powerful country.
+Eg: The United States is a powerful country.
 9. When plural nouns refer to a whole then it is taken to be singular and the verb is also singular.
-Example: Two thousand rupees is not a small amount.
+Eg: Two thousand rupees is not a small amount.
 10. The phrase 'a number of' takes a plural verb but the phrase 'the number of' takes a singular verb.
-Examples: A number of boys were absent.
+Eg: A number of boys were absent.
 The number of people there is not much.
 11. Few, a few, many, several/both are plural in form and they take plural verbs with them.
-Example: Few books are available to me.
+Eg: Few books are available to me.
 12. If two subjects with different numbers are joined by 'not only, but also, either or, neither nor' then the verb agrees to the subject nearer to it.
-Examples: Neither they nor that man goes to the park.
+Eg: Neither they nor that man goes to the park.
 Either he or his friends were the culprit. `
         ]
       }
@@ -74,11 +74,17 @@ Collective nouns, such as "team" or "family," always take singular verbs.`
         questions: [
           {
             qText: `Which of the following rules for subject-verb agreement is incorrect?`,
-            options: `Nouns connected by 'each' and 'every' takes a plural verb with them, If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there', Two nouns or pronouns joined by 'and' takes a plural verb, When 'one of' is used with a plural noun, the verb after it is always singular`
+            options: `Nouns connected by 'each' and 'every' takes a plural verb with them.
+If a sentence starts with introducing 'there' then the verb agrees to the number of the noun that comes after 'there'.
+Two nouns or pronouns joined by 'and' takes a plural verb.
+When 'one of' is used with a plural noun, the verb after it is always singular`
           },
           {
             qText: `Which of the following sentences has a subject-verb agreement error?`,
-            options: `Time and tide waits for no one, Every student in the class has their own book, There is many different types of fruit at the market, Neither the boys nor the girl are going to the party.`
+            options: `Time and tide waits for no one
+Every student in the class has their own book
+There is many different types of fruit at the market
+Neither the boys nor the girl are going to the party.`
           },
           {
             qText: `Which of the following is NOT a coordinating conjunction?`,
@@ -86,7 +92,7 @@ Collective nouns, such as "team" or "family," always take singular verbs.`
           },
           {
             qText: `Choose the correct verb form to complete the sentence:
-            Every day, the students ___________ to school on time.`,
+Every day, the students ___________ to school on time.`,
             options: `come, comes, came, coming`
           },
           {
@@ -113,7 +119,7 @@ Maya does not get up in the morning.
 The group of students is planning a trip.`,
 
           `One of my sisters live in Ranchi.
-The group of students is planning a trip.`
+The group of students are planning a trip.`
         ],
         [
           `She loves chocolates very much.
@@ -179,28 +185,25 @@ A number of migratory birds *are* coming to India during winter.`
 When we use a verb transitively, we need an object to make the meaning of the sentence complete. Transitive verbs need an object to complete their meaning. When an object consists of more than one word, we have the object word and its attributes just like we have attributes for the subject word.`,
           {
             type: 'html',
-            text: `<b>Example</b> -  The mother scolded the naughty <b>child</b>. (Here the <b>child</b> is the object word, and <b>naughty</b> are its attributes.)`
+            text: `Eg -  The mother scolded the naughty <i>child<i>. (Here the <i>child<i> is the object word, and <i>naughty<i> are its attributes.)`
           },
           `# Direct and Indirect Objects
 Very often, we require two objects with a transitive verb.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Priya gave <b>Reem</b> a <b>book</b>.`
+            text: `Eg - Priya gave <i>Reem<i> a <i>book<i>.`
           },
           `Here we have two objects of the verb gave. When we ask the question 'Priya gave what?' we get the answer a book, which is called the direct object of the verb. Now if we ask whom the book was given to, we get the answer, Reem. `,
           {
             type: 'html',
-            text: `The word <b>Reem</b> is then the indirect object of the verb '<b>gave</b>'.`
+            text: `The word <i>Reem<i> is then the indirect object of the verb '<i>gave<i>'.`
           },
           `# The Complement 
 Sometimes, the verb in the predicate is an intransitive verb, but it is incomplete by itself. It requires a noun, a pronoun, an adjective, etc. to complete the predicate. The word or group of words required to complete the predicate is called a complement. The complement of an intransitive verb describes the subject. It is therefore called the subject complement.`,
           {
             type: 'html',
-            text: `<b>Example</b> - Mother seems <b>agitated</b>.`
-          },
-          {
-            type: 'html',
-            text: `<b>Example</b> - Jake appeared <b>unhappy</b>.`
+            text: `Eg - Mother seems <i>agitated<i>.<br>
+Jake appeared <i>unhappy<i>.`
           },
           `Object complements provide more detail about the object of a sentence, while subject complements provide information about the subject of a sentence.`
         ]
@@ -242,7 +245,7 @@ She painted the room blue.`
           },
           {
             qText: `Choose the correct complement to complete the sentence:
-            He seems _________ today.`,
+He seems _________ today.`,
             options: `happy, happily, happiness, happiest`
           }
         ]
@@ -288,7 +291,7 @@ Shyla eventually became my best *friend*.
 Our neighbor's dogs are very *dangerous*. 
 Meena's hair dye turned the water *pink*. `,
 
-        `After our disagreement on the first day of school, James became my friend* for life. 
+        `After our disagreement on the first day of school, James became my *friend for life*. 
 We painted the ceiling *blue*. 
 You are making me *sad*. 
 Preethi is a good *dancer*. `,
@@ -321,23 +324,23 @@ The chef deemed the dish *too salty*.`
         types: [
           {
             name: 'Subject',
-            text: `Today is Monday.
-Preethi is a student.
-Your bike is amazing.
-She seems nice.
-We were exhausted after a day of tiring work.
-The chief guest was late to the meeting.
-I am irritated.`
+            text: `Today is *Monday*.
+Preethi is a *student*.
+Your bike is *amazing*.
+She seems *nice*.
+We were *exhausted* after a day of tiring work.
+The chief guest was *late to the meeting*.
+I am *irritated*.`
           },
           {
             name: 'Object',
-            text: `Mihika made her mom happy.
-I painted my nails pink.
-The company designated Tony the employee of the month.
-Making handmade gifts makes my mind stress-free.
-This makes the problem even more complicated.
-Leela and Naksh named their daughter Naitra. 
-What I said made my uncle angry.`
+            text: `Mihika made her mom *happy*.
+I painted my nails *pink*.
+The company designated Tony the *employee of the month*.
+Making handmade gifts makes my mind *stress-free*.
+This makes the problem even *more complicated*.
+Leela and Naksh named their daughter *Naitra*. 
+What I said made my uncle *angry*.`
           }
         ]
       }
@@ -371,7 +374,7 @@ What I said made my uncle angry.`
       }
     },
     {
-      id: 'true-false',
+      id: 'true-false-2',
       label: 'True or False',
       type: 'classifySentence',
       data: {
@@ -429,8 +432,9 @@ The game started out as an organized game of tag, but it ended up a free*- (—)
       lockAfter: 1,
       commonData: {
         type: 'rightOpen',
-        title: 'Drag and drop the right word to match the article.',
-        printTitle: 'Pick the right word that goes with the article.',
+        title:
+          'Drag and drop the right word to form a hyphenated compound word.',
+        printTitle: 'Pick the right word to form a hyphenated compound word.',
         leftWidth: 75,
         rightWidth: 245
       },

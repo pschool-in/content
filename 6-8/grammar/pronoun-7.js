@@ -257,60 +257,53 @@ Could *someone* tell me where to find a doctor?`
     {
       id: 'fillup-3',
       label: 'Fill in the blanks - 3',
-      type: 'fillup',
+      type: 'matchByDragDrop',
       commonData: {
-        noOptions: true,
         title: 'Fill in the blanks with suitable pronouns'
       },
       lockAfter: 2,
       data: [
         `*She* is the girl I was talking to you about. 
 This is the place *where* I found my missing bag. 
-Did you do it *yourself*?
-We always help each *other* out. 
+John and Susan went to the party, but *they* didn't stay long.
+The cat is hungry, so *it* is meowing loudly.
 Has *everyone* completed the work that was assigned for today?`,
 
         `The designer *who* made your dress is waiting outside.
-The man *whose* bike was stolen has filed an FIR.
+The teacher handed out the assignments, and *they* are due next week.
 The assault victim had nobody to *whom* to turn for help.
 I saw the dog *which* ate the cake.
 We did not know the tune *that* had been played.`,
 
         `I saw Jane yesterday, and *she* looked great.
 The package arrived this morning, and *it* was in good condition.
-John and Susan went to the party, but *they* didn't stay long.
-The cat is hungry, so *it* is meowing loudly.
+Did you do it *yourself*?
+We always help each *other* out. 
 The students finished their exams, and *they* all did well.`,
 
         `The car broke down on the highway, and *it* had to be towed.
 I gave my friend Riya some advice, and *she* found it helpful.
 The flowers in the garden are beautiful, and *they* smell so sweet.
-The teacher handed out the assignments, and *they* are due next week.
-The restaurant is busy tonight, and *it* is taking a while to get our food.`,
+The man *whose* bike was stolen has filed an FIR.
+The restaurant is busy tonight, and *it's* taking a while to get our food.`,
 
         `I called my parents this morning, and *they* were happy to hear from me.
 The concert is sold out, so *it* will be a packed house tonight.
-The children are playing in the park, and *they* seem to be having a lot of fun.
+I don't know *anything* about music.
 The movie is starting soon, so *we* should hurry to get our seats.
-I received a letter in the mail, and *it* was from an old friend.`,
+Tommy and Jane hate each *other*.`,
 
         `I found my book in the garden, but I couldn't find *yours*.
-The book I'm reading is interesting, and *it* is hard to put down.
+Mary has made this wall hanging *herself*.
 My brother and I went to the game, but *he* left early because he wasn't feeling well.
-The store is having a sale, and *it* is a great opportunity to save money.
+The children are playing in the park, and *they* seem to be having a lot of fun.
 The dog is barking at the mailman, but *it* is friendly.`,
 
         `The music in the club is too loud, and *it* is hard to hear anything.
-I bought a new phone, and *it* has a lot of great features.
+Everything is funny as long as it is happening to *somebody* else.
 The waiter brought the menu, and *he* took our drink order.
-The city is crowded during rush hour, and *it* can be difficult to drive.
-I'm going on vacation next week, and *I* can't wait to relax.`,
-
-        `Everything is funny as long as it is happening to *somebody* else.
-I don't know *anything* about music.
-Tommy and Jane hate each *other*.
-Mary has made this wall hanging *herself*.
-Michel sent *himself* a copy of e-mail.`
+Michel sent *himself* a copy of e-mail.
+I'm going on vacation next week, and *I* can't wait to relax.`
       ]
     },
     {

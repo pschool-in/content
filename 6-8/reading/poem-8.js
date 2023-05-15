@@ -10,6 +10,7 @@ export default {
       data: {
         title: `The Ant and the Cricket`,
         type: 'poem',
+        lineGap: '5px',
         text: `A silly young cricket, accustomed to sing
 Through the warm, sunny months of gay summer and spring,
 Began to complain when he found that, at home,
@@ -106,6 +107,7 @@ It's important to borrow money from friends`
       data: {
         title: `Betty at the Party`,
         type: 'poem',
+        lineGap: '5px',
         text: `'When I was at the party,' 
 Said Betty, aged just four, 
 'A little girl fell off her chair 
@@ -166,6 +168,7 @@ She was surprised`
       data: {
         title: `Geography Lesson`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Zulfikar Ghose',
         text: `When the jet sprang into the sky,
 it was clear why the city
@@ -243,6 +246,7 @@ The religious beliefs of people.`
       data: {
         title: 'The Last Bargain',
         type: 'poem',
+        lineGap: '5px',
         author: 'Rabindranath Tagore',
         text: `“Come and hire me,” I cried, while in the morning
 I was walking on the stone-paved road.
@@ -321,6 +325,7 @@ The old man`
       data: {
         title: 'The School Boy',
         type: 'poem',
+        lineGap: '5px',
         author: 'William Blake',
         text: `I love to rise in a summer morn,
 When the birds sing on every tree;
@@ -403,6 +408,7 @@ To allow their children to play outside.`
       data: {
         title: 'The One Furrow',
         type: 'poem',
+        lineGap: '5px',
         author: 'R.S. Thomas',
         text: `When I was young, I went to school
 With pencil and footrule
@@ -470,6 +476,7 @@ Farming is the best profession.`
       data: {
         title: 'The Poetry of Earth',
         type: 'poem',
+        lineGap: '5px',
         author: 'John Keats',
         text: `The poetry of earth is never dead:
 When all the birds are faint with the hot sun,
@@ -531,6 +538,7 @@ When it gets too hot in the afternoon`
       data: {
         title: `Be The Best`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Douglas Malloch',
         text: `Be The Best
 If you can't be a pine on the top of the hill,
@@ -587,7 +595,7 @@ The poem doesn't provide an answer to this question`
           },
           {
             qText: `What does the poem suggest about teamwork?`,
-            options: ` Everyone has a role to play and should work together to achieve success
+            options: `*Everyone has a role to play and should work together to achieve success
 Teamwork is not important
 None of the above`
           }
@@ -601,6 +609,7 @@ None of the above`
       data: {
         title: 'Trees are the Kindest Things I Know',
         type: 'poem',
+        lineGap: '5px',
         author: 'Harry Behn',
         text: `Trees are the kindest things I know,
 They do not harm, they simply grow.
@@ -666,6 +675,7 @@ They provide food for birds.`
       data: {
         title: 'Try Again',
         type: 'poem',
+        lineGap: '5px',
         author: 'W.E. Hickson',
         text: `'Tis a lesson you should heed,
 Try again;
@@ -738,6 +748,7 @@ Patience only delays success.`
       data: {
         title: 'The Little River',
         type: 'poem',
+        lineGap: '5px',
         author: 'Rabindranath Tagore',
         text: `Our little river, it meanders along;
 In summer, the water is only knee-deep,
@@ -777,7 +788,7 @@ And our village wakens to celebrate the rain.`
         questions: [
           {
             qText: `What is the poem about?`,
-            options: `. A river and its surroundings
+            options: `A river and its surroundings
 The life of village priests
 The monsoon season in India`
           },
@@ -813,6 +824,7 @@ The current becomes weak.`
       data: {
         title: 'Truth',
         type: 'poem',
+        lineGap: '5px',
         author: 'Barrie Wade',
         text: `Sticks and stones may break my bones,
 But words can also hurt me.
@@ -851,8 +863,8 @@ Words can be forgotten easily.`
           },
           {
             qText: `What is the significance of the line, "Slant and curved the fall word-swords"?`,
-            options: `Words can be used as weapons.
-Words can cut deeper than physical violence.
+            options: `*Words can be used as weapons.
+*Words can cut deeper than physical violence.
 Words can be beautiful but dangerous.`
           },
           {
@@ -877,6 +889,7 @@ Words that are used to defend oneself.`
       data: {
         title: `Golden Chain`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Helen Steiner Rice',
         text: `Friendship is a Golden chain,
 The links our friends so dear,
@@ -951,6 +964,7 @@ The comparison of words to sticks and stones`
       data: {
         title: 'Only A Dad',
         type: 'poem',
+        lineGap: '5px',
         author: 'Edgar Albert Guest',
         text: `Only a dad, with a tired face,
 Coming home from the daily race,
@@ -1024,6 +1038,7 @@ He doesn't do anything for them`
       data: {
         title: 'Good Books',
         type: 'poem',
+        lineGap: '5px',
         author: 'Edgar Guest ',
         text: `Good books are friendly things to own.
 If you are busy they will wait.
@@ -1100,6 +1115,7 @@ Ignore your problems`
       data: {
         title: 'Lessons in Life',
         type: 'poem',
+        lineGap: '5px',
         author: 'Bridgette Bryant & Daniel Ho',
         text: `Having a friend is like planting a flower
 Show love and kindness it one day will bloom
@@ -1156,8 +1172,8 @@ With indifference, neglect, and apathy`
           },
           {
             qText: `What is the significance of the line, "Let no one shame you or make you feel bad"?`,
-            options: ` It encourages people to stand up to bullies and negativity
-It suggests that people should not care about what others think
+            options: `*It encourages people to stand up to bullies and negativity
+*It suggests that people should not care about what others think
 It promotes the idea that shame and guilt are necessary for personal growth`
           }
         ]
@@ -1170,6 +1186,7 @@ It promotes the idea that shame and guilt are necessary for personal growth`
       data: {
         title: 'A Time to Talk',
         type: 'poem',
+        lineGap: '5px',
         author: 'Robert Frost',
         text: `When a friend calls to me from the road
 And slows his horse to a meaning walk,
@@ -1223,6 +1240,7 @@ The purpose is not stated.`
       data: {
         title: 'The Brook',
         type: 'poem',
+        lineGap: '5px',
         author: 'Alfred Lord Tennyson',
         text: `I come  from haunts of coot and hern,
 I make a sudden sally,
