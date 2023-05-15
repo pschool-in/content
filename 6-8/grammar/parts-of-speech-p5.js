@@ -158,7 +158,6 @@ export default {
               text: `   his, pronoun
   painting, noun
   exceptionally, adverb
-  beautiful, adjective
   and, conjunction
   full, adjective`
             },
@@ -203,8 +202,7 @@ export default {
               text: `tired, adjective
   hiker, noun
   slowly, adverb
-  climbs, verb
-  steep, adjective`
+  climbs, verb`
             },
             {
               stmt: ' Could you please bring me a glass of water from the kitchen?',
