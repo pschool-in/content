@@ -1,6 +1,6 @@
 export default {
-  label: 'Poems Collection',
-  id: 'poems-collection',
+  label: 'Poems Collection - 7',
+  id: 'poem-7',
   lockAfter: 2,
   list: [
     {

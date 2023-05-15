@@ -131,6 +131,16 @@ export default {
       label: 'New Words',
       id: 'new-words',
       grade: '3-5'
+    },
+    {
+      label: 'Homonyms',
+      id: 'homonyms-8',
+      grade: '6-8'
+    },
+    {
+      label: 'Compound Words - 7',
+      id: 'compound-word-7',
+      grade: '6-8'
     }
   ]
 };

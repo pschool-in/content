@@ -1,6 +1,6 @@
 export default {
   label: 'Linear Equation',
-  id: 'rational-numbers',
+  id: 'linear-eqn',
   list: [
     {
       label: 'Notes',

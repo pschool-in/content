@@ -1,5 +1,5 @@
 export default {
-  label: 'Number Series - Decimal',
+  label: 'Number Series',
   id: 'number-series-2',
   list: [
     {

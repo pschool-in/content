@@ -52,7 +52,7 @@ What would you multiply 8/21 , to get the product 1? Obviously by 21/8`,
     },
     {
       type: 'numberInput',
-      id: 'commutative',
+      id: 'mul-inverse',
       label: 'Multiplicative Inverse',
       data: {
         type: 'word-problem',

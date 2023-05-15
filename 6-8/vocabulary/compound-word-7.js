@@ -1,5 +1,5 @@
 export default {
-  id: 'word-formation-7',
+  id: 'compound-word-7',
   label: 'Compound Words',
   lockAfter: 3,
   list: [
