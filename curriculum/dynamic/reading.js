@@ -88,6 +88,21 @@ export default {
       label: 'Poems Collection - 4',
       id: 'poems-collection-4',
       grade: '3-5'
+    },
+    {
+      label: 'Poems Collection - 6',
+      id: 'poem-6',
+      grade: '6-8'
+    },
+    {
+      label: 'Poems Collection - 7',
+      id: 'poem-7',
+      grade: '6-8'
+    },
+    {
+      label: 'Poems Collection - 8',
+      id: 'poem-8',
+      grade: '6-8'
     }
   ]
 };

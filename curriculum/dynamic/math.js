@@ -252,11 +252,16 @@ export default {
     {
       label: 'Number Series',
       id: 'number-series',
-      grade: 'kg-2'
+      grade: 'kg-3'
     },
     {
       label: 'Number Series - 2',
       id: 'number-series-2',
+      grade: '2-5'
+    },
+    {
+      label: 'Number Series - 3',
+      id: 'number-series-3',
       grade: '5-8'
     },
     {
@@ -267,17 +272,17 @@ export default {
     {
       label: 'Factors',
       id: 'factors',
-      grade: '5-5'
+      grade: '5-8'
     },
     {
       label: 'Decimal Arithmetic',
       id: 'decimal-arithmetic',
-      grade: '4-5'
+      grade: '4-6'
     },
     {
       label: 'Decimal Arithmetic - 2',
       id: 'decimal-arithmetic-2',
-      grade: '4-5'
+      grade: '4-6'
     },
     {
       label: 'Decimal - Quick Math',
@@ -378,6 +383,21 @@ export default {
       label: 'Number Line - 3',
       id: 'numberline-6',
       grade: '5-8'
+    },
+    {
+      label: 'Integers',
+      id: 'integers',
+      grade: '5-7'
+    },
+    {
+      label: 'Rational Numbers',
+      id: 'rational-numbers',
+      grade: '7-8'
+    },
+    {
+      label: 'Linear Equation',
+      id: 'linear-eqn',
+      grade: '7-8'
     },
     {
       label: 'Class 6: Misc Exercise - 1',
