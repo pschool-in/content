@@ -530,6 +530,7 @@ Because people are always looking for something new and interesting.`
         title: 'Vocation',
         type: 'poem',
         lineGap: '5px',
+        poemOverflowOffset: 50,
         author: 'Rabindranath Tagore',
         text: `When the gong sounds ten in the morning and
 I walk to school by our lane,

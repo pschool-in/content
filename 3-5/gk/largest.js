@@ -44,7 +44,7 @@ Statue − Statue of Unity`
             text: `River − Nile
 Bone − Femur
 Railway − Trans-Siberian Railway
-Railway Platform − Gorakhpur 
+Railway Platform − Hubli 
 River Dam − Hirakud Dam
 Wall − Great Wall of China`
           },
@@ -97,7 +97,7 @@ Brightest Planet − Venus`
             },
             {
               qText: 'Where is the longest railway platform present?',
-              options: 'Gorakhpur, Jaipur, New Delhi, Siberia'
+              options: 'Hubli, Jaipur, New Delhi, Siberia'
             }
           ]
         },
@@ -220,7 +220,7 @@ Hardest Metal| tungsten
 Brightest Planet| venus
 Largest Forest is ______ Rain Forest. | Amazon
 Longest Human Bone| Femur
-Longest Railway Platform| Gorakhpur 
+Longest Railway Platform| Hubli 
 Smallest Country| Vatican City| _______ ____`
       ]
     },
@@ -251,7 +251,7 @@ City (population) − Mumbai`
 Dam − Hirakud
 Beach − Marina Beach
 Road − NH44 (Srinagar to Kanyakumari)
-Railway Platform − Gorakhpur
+Railway Platform − Hubli
 Coastline (state) − Gujarat
 Tunnel − Atal Tunnel`
           },
@@ -374,7 +374,7 @@ Longest Coastline, Gujarat`,
 Fresh water Lake, Wular
 Largest Desert, Thar
 Largest Port, Mumbai
-Longest Railway Platform, Gorakhpur`
+Longest Railway Platform, Hubli`
       ]
     },
     {
@@ -391,7 +391,7 @@ State with longest coastline| Gujarat
 Longest Dam| Hirakud
 Longest Beach| Marina
 Longest Road| NH 44| __ 44
-Longest Railway Platform| Gorakhpur`,
+Longest Railway Platform| Hubli`,
 
         `Largest Desert| Thar
 Largest State (area)| Rajasthan

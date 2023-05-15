@@ -258,7 +258,7 @@ Statue − Statue of Unity`
             text: `River − Nile
 Bone − Femur
 Railway − Trans-Siberian Railway
-Railway Platform − Gorakhpur 
+Railway Platform − Hubli, Karnataka 
 River Dam − Hirakud Dam
 Wall − Great Wall of China`
           },
@@ -311,7 +311,7 @@ Brightest Planet − Venus`
             },
             {
               qText: 'Where is the longest railway platform present?',
-              options: 'Gorakhpur, Jaipur, New Delhi, Siberia'
+              options: 'Hubli, Jaipur, New Delhi, Siberia'
             }
           ]
         },
@@ -437,7 +437,7 @@ Smallest Bird|	Humming Bird| _______ ____`,
         `Brightest Planet| venus
 Largest Forest is ______ Rain Forest. | Amazon
 Longest Human Bone| Femur
-Longest Railway Platform| Gorakhpur 
+Longest Railway Platform| Hubli 
 Smallest Country| Vatican City| _______ ____`
       ]
     }

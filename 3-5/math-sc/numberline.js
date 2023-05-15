@@ -100,7 +100,7 @@ export default {
         },
         {
           pattern: 'misc~xx+b',
-          range: 100,
+          range: 110,
           start: 0,
           minorLines: 10,
           labelGap: 10,
