@@ -10,9 +10,110 @@ export default {
       data: {
         title: 'Homophones, Homographs and Homonyms',
         text: [
-          `# Homophones, Homographs and Homonyms
-Homophones are words pronounced alike but different in meaning or derivation or spelling. These words may be spelled differently from each other (such as to, too, and two), or they may be spelled the same way (as in quail meaning ‘to cower’ and quail meaning a type of bird).
-Homographs are words that are spelled alike but are different in meaning or derivation or pronunciation. Sometimes these words sound different (as in the bow of a ship, and the bow that shoots arrows), and sometimes these words sound the same (as in quail meaning ‘to cower’ and quail meaning a type of bird).
+          `# Homophones
+Homophones are words pronounced alike but different in meaning or derivation or spelling. These words may be spelled differently from each other, or they may be spelled the same way.
+Eg: to, too, and two (spelled differently)
+quail meaning 'to cower' and a 'type of bird' (spelled same)
+# List of Homophones
+1. Their | There
+2. To | Too | Two
+3. It's | Its
+4. You're | Your
+5. Who's | Whose
+6. By | Buy | Bye
+7. I | Eye
+8. See | Sea
+9. Dear | Deer
+10. Bare | Bear
+11. Hair | Hare
+12. Here | Hear
+13. Air | Heir
+14. Where | Wear 
+15. Pair | Pear | Pare
+16. Fair | Fare
+17. Right | Write | Rite
+18. Sight | Site | Cite
+19. Steal | Steel
+20. Plain | Plane
+21. Sale | Sail
+22. Break | Brake
+23. Know | No 
+24. Week | Weak
+25. Add | Ad 
+26. Meet | Meat
+27. Sell | Cell
+28. Great | Grate
+29. Piece | Peace
+30. Eight | Ate
+31. One | Won
+32. Flower | Flour
+33. For | Four | Fore
+34. Our | Hour
+35. Wait | Weight
+36. Night | Knight
+37. Male | Mail
+38. Son | Sun
+39. Board | Bored
+40. Hole | Whole
+41. Sweet | Suite
+42. Tail | Tale
+# Homographs
+Homographs are words that are spelled alike but are different in meaning or derivation or pronunciation. Sometimes these words sound different, and sometimes these words sound the same.
+Eg: the bow of a ship and the bow that shoots arrows (sound different)
+quail meaning 'to cower' and a 'type of bird' (sound same)
+# List of Homographs
+1. Minute:
+- Noun meaning "60 seconds"
+- Adjective meaning "very small"
+2. Bass:
+- The fish
+- The instrument
+3. Polish:
+- From Poland
+- To make something shiny
+4. Bow:
+- Noun referring to a ribbon tied in a decorative way
+- Verb meaning to bend reverently
+5. Close:
+- Adjective meaning "nearby"
+- Verb meaning "to shut"
+6. Lead:
+- The metal
+- Verb meaning "to act as a leader"
+7. Bear:
+- The animal
+- Verb meaning "to carry"
+8. Ring:
+- A circle
+- A type of jewelry
+- What a phone does
+9. Fan:
+- The appliance that makes wind
+- An admirer/appreciator
+10. Band:
+- Music group
+- A ring or strap
+11. Bat:
+- The animal
+- A baseball bat
+12. Kind:
+- Adjective meaning "nice"
+- Noun meaning "type"
+13. Part:
+- A component of something
+- A line in one's hair
+- Verb meaning "to separate"
+14. Park:
+- Noun meaning an outdoor space
+- Verb meaning what you do to a car
+15. Class:
+- Lesson
+- Category
+- Classiness
+16. Fair:
+- Equitable or according to the rules
+- A carnival
+# Homonyms
 Homonyms may be used to refer to either homophones or homographs.`
         ]
       }
@@ -21,6 +122,9 @@ Homonyms may be used to refer to either homophones or homographs.`
       type: 'completeWord',
       id: 'complete-word',
       label: 'Complete the Homophones ',
+      commonData: {
+        title: `Find the homophones.`
+      },
       data: [
         `there |THEIR 
 to, too |TWO
@@ -36,8 +140,8 @@ bare |BEAR
 hair |HARE`,
 
         `here |HEAR
-air |HEIR
-where |WEAR
+air |HEIR| _E__
+where |WEAR| __A_
 pair, pear |PARE
 fair |FARE`,
 
@@ -77,24 +181,26 @@ tail |TALE`
       type: 'completeWord',
       id: 'complete-word-2',
       label: 'Find the Homograph',
+      commonData: {
+        title: `Find the homograph based on the meanings given below.`
+      },
       data: [
         `the noun meaning “60 seconds”; the adjective meaning “very small” |MINUTE
 the fish; the instrument |BASS
 from Poland; to make something shiny |POLISH
-the noun referring to a ribbon tied in a decorative way; the verb meaning to bend reverently |BOW`,
+the noun referring to a ribbon tied in a decorative way; the verb meaning to bend reverently |BOW
+the adjective meaning “nearby”; the verb meaning “to shut” |CLOSE
+the metal; the verb meaning “to act as a leader” |LEAD`,
 
-        `the adjective meaning “nearby”; the verb meaning “to shut” |CLOSE
-the metal; the verb meaning “to act as a leader” |LEAD
-the animal; the verb meaning “to carry” |BEAR
+        `the animal; the verb meaning “to carry” |BEAR
 a circle; a type of jewelry; what a phone does |RING
-the appliance that makes wind; an admirer/appreciator |FAN `,
-
-        `music group; a ring or strap |BAND
+the appliance that makes wind; an admirer/appreciator |FAN 
+music group; a ring or strap |BAND
 the animal; a baseball bat |BAT 
-the adjective meaning “nice”; the noun meaning “type” |KIND
-a component of something; a line in one,s hair; the verb meaning “to separate” |PART`,
+the adjective meaning “nice”; the noun meaning “type” |KIND`,
 
-        `a noun meaning an outdoor space; a verb meaning what you do to a car |PARK
+        `a component of something; a line in one's hair; the verb meaning “to separate” |PART
+a noun meaning an outdoor space; a verb meaning what you do to a car |PARK
 lesson; category; classiness |CLASS
 equitable or according to the rules; a carnival |FAIR`
       ]
@@ -142,29 +248,28 @@ Humans have hands. Dogs have *paws (pause)*.
           'Choose the correct meaning of the homograph based on its use in the sentence.',
         questions: [
           {
-            qText: 'I will be back in twenty minutes. (minute)',
+            qText: 'I will be back in twenty *minutes*.',
             options: `the noun meaning 60 seconds, the adjective meaning very small`
           },
           {
             qText:
-              'The bass you cooked for me was really fresh and delicious. (bass)',
+              'The *bass* you cooked for me was really fresh and delicious.',
             options: `the fish, the instrument`
           },
           {
-            qText:
-              "Jake polished his dad's shoes and made them shine. (polish)",
+            qText: "Jake *polished* his dad's shoes and made them shine.",
             options: `to make something shiny, from Poland`
           },
           {
-            qText: 'The kitten had a cute little bow on its neck. (bow)',
+            qText: 'The kitten had a cute little *bow* on its neck.',
             options: `the noun referring to a ribbon tied in a decorative way, the verb meaning to bend reverently`
           },
           {
-            qText: 'Please close the door when you you leave. (close)',
+            qText: 'Please *close* the door when you you leave.',
             options: `the verb meaning to shut, the adjective meaning nearby`
           },
           {
-            qText: 'Rohan lead his troup to the base camp. (lead)',
+            qText: 'Rohan *lead* his troup to the base camp.',
             options: `the verb meaning to act as a leader, the metal `
           }
         ]
