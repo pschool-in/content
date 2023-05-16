@@ -15,48 +15,48 @@ Homophones are words pronounced alike but different in meaning or derivation or 
 Eg: to, too, and two (spelled differently)
 quail meaning 'to cower' and a 'type of bird' (spelled same)
 # List of Homophones
-1. Their | There
-2. To | Too | Two
-3. It's | Its
-4. You're | Your
-5. Who's | Whose
-6. By | Buy | Bye
-7. I | Eye
-8. See | Sea
-9. Dear | Deer
-10. Bare | Bear
-11. Hair | Hare
-12. Here | Hear
-13. Air | Heir
-14. Where | Wear 
-15. Pair | Pear | Pare
-16. Fair | Fare
-17. Right | Write | Rite
-18. Sight | Site | Cite
-19. Steal | Steel
-20. Plain | Plane
-21. Sale | Sail
-22. Break | Brake
-23. Know | No 
-24. Week | Weak
-25. Add | Ad 
-26. Meet | Meat
-27. Sell | Cell
-28. Great | Grate
-29. Piece | Peace
-30. Eight | Ate
-31. One | Won
-32. Flower | Flour
-33. For | Four | Fore
-34. Our | Hour
-35. Wait | Weight
-36. Night | Knight
-37. Male | Mail
-38. Son | Sun
-39. Board | Bored
-40. Hole | Whole
-41. Sweet | Suite
-42. Tail | Tale
+1. Their, There
+2. To, Too, Two
+3. It's, Its
+4. You're, Your
+5. Who's, Whose
+6. By, Buy, Bye
+7. I, Eye
+8. See, Sea
+9. Dear, Deer
+10. Bare, Bear
+11. Hair, Hare
+12. Here, Hear
+13. Air, Heir
+14. Where, Wear 
+15. Pair, Pear, Pare
+16. Fair, Fare
+17. Right, Write, Rite
+18. Sight, Site, Cite
+19. Steal, Steel
+20. Plain, Plane
+21. Sale, Sail
+22. Break, Brake
+23. Know, No 
+24. Week, Weak
+25. Add, Ad 
+26. Meet, Meat
+27. Sell, Cell
+28. Great, Grate
+29. Piece, Peace
+30. Eight, Ate
+31. One, Won
+32. Flower, Flour
+33. For, Four, Fore
+34. Our, Hour
+35. Wait, Weight
+36. Night, Knight
+37. Male, Mail
+38. Son, Sun
+39. Board, Bored
+40. Hole, Whole
+41. Sweet, Suite
+42. Tail, Tale
 # Homographs
 Homographs are words that are spelled alike but are different in meaning or derivation or pronunciation. Sometimes these words sound different, and sometimes these words sound the same.
 Eg: the bow of a ship and the bow that shoots arrows (sound different)
