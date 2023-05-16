@@ -530,25 +530,32 @@ Because people are always looking for something new and interesting.`
         title: 'Vocation',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 50,
+        poemOverflowOffset: 20,
         author: 'Rabindranath Tagore',
-        text: `When the gong sounds ten in the morning and
-I walk to school by our lane,
-Every day I meet the hawker crying, "Bangles,
-crystal bangles!"
-There is nothing to hurry him on, there is no
-road he must take, no place he must go to no 
-time when he must come home.
-I wish I were a hawker, spending my day in 
-the road, crying."Bangles, crystal bangles!"
+        text: `When the gong sounds ten in the morning 
+and I walk to school by our lane,
+Every day I meet the hawker crying, 
+"Bangles, crystal bangles!"
 
-When at four in the afternoon I come back from
-the school,
-I can see through the gate of that house the
-gardener digging the ground.
-He does what he likes with his spade, he soils
-his clothes with dust, nobody takes him to
-task, if he gets baked in the sun or gets wet.
+There is nothing to hurry him on, 
+there is no road he must take, 
+no place he must go to no 
+time when he must come home.
+
+I wish I were a hawker, 
+spending my day in the road, 
+crying."Bangles, crystal bangles!"
+
+When at four in the afternoon 
+I come back from the school,
+I can see through the gate of that house 
+the gardener digging the ground.
+
+He does what he likes with his spade, 
+he soils his clothes with dust, 
+nobody takes him to task, 
+if he gets baked in the sun or gets wet.
+
 I wish I were a gardener digging away at the 
 garden with nobody to stop me from digging.
 
@@ -556,13 +563,15 @@ Just as it gets dark in the evening and my
 mother sends me to bed,
 I can see through my open window the 
 watchman walking up and down.
-The lane is dark and lonely, and the street-
-lamp stands like a giant with one red eye in
-its head.
+
+The lane is dark and lonely, 
+and the street-lamp stands like a giant 
+with one red eye in its head.
 
 The watchman swings his lantern and walks
 with his shadow at his side, and never once
 goes to bed in his life.
+
 I wish I were a watchman walking the street
 all night, chasing the shadows with my
 lantern.`
@@ -770,6 +779,7 @@ Having courage and skill.`
         title: 'From a Railway Carriage',
         type: 'poem',
         lineGap: '5px',
+        poemOverflowOffset: 20,
         author: 'Robert Louis Stevenson',
         text: `Faster than fairies, faster than witches,
 Bridges and houses, hedges and ditches;
