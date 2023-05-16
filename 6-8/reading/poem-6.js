@@ -530,7 +530,6 @@ Because people are always looking for something new and interesting.`
         title: 'Vocation',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Rabindranath Tagore',
         text: `When the gong sounds ten in the morning 
 and I walk to school by our lane,
@@ -779,7 +778,6 @@ Having courage and skill.`
         title: 'From a Railway Carriage',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Robert Louis Stevenson',
         text: `Faster than fairies, faster than witches,
 Bridges and houses, hedges and ditches;

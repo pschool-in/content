@@ -11,7 +11,6 @@ export default {
         title: `The Ant and the Cricket`,
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         text: `A silly young cricket, 
 accustomed to sing
 Through the warm, sunny months of 
@@ -249,7 +248,6 @@ The religious beliefs of people.`
         title: 'The Last Bargain',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Rabindranath Tagore',
         text: `"Come and hire me," I cried, 
 while in the morning
@@ -484,7 +482,6 @@ Farming is the best profession.`
         title: 'The Poetry of Earth',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'John Keats',
         text: `The poetry of earth is never dead:
 When all the birds are faint with the hot sun,
@@ -547,7 +544,6 @@ When it gets too hot in the afternoon`
         title: `Be The Best`,
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Douglas Malloch',
         text: `Be The Best
 If you can't be a pine on the top of the hill,
@@ -1125,7 +1121,6 @@ Ignore your problems`
         title: 'Lessons in Life',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Bridgette Bryant & Daniel Ho',
         text: `Having a friend is like planting a flower
 Show love and kindness it one day will bloom

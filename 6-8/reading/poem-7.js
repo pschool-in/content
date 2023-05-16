@@ -63,7 +63,6 @@ It had stripes`
         title: 'The Rebel',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'D. J. Enright',
         text: `When everybody has short hair,
 The rebel lets his hair grow long.
@@ -161,7 +160,6 @@ He also greets the rain.`
         title: 'The Shed',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Frank Flynn',
         text: `There's a shed at the bottom of our garden
 With a spider's web hanging across the door,
@@ -318,7 +316,6 @@ Keep your elbows on the table.`
         title: 'Trees',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Shirley Bauer',
         text: `Trees are for birds.
 Trees are for children.
@@ -728,7 +725,6 @@ A word that shows a relationship between things`
         title: 'The Listeners',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
         author: 'Walter De La Mare',
         text: `'Is there anybody there?' said the Traveller,
 Knocking on the moonlit door;
@@ -824,7 +820,7 @@ Let him in the house`
         title: `The Age of Chivalry`,
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
+        poemOverflowOffset: 100,
         author: 'George Krokos',
         text: `Back in the days of old
 when knights were bold
@@ -911,7 +907,7 @@ Their technological innovations and advancements`
         title: 'Sea Fever',
         type: 'poem',
         lineGap: '5px',
-        poemOverflowOffset: 20,
+        poemOverflowOffset: 100,
         author: 'John Masefield',
         text: `I must go down to the seas again, to the lonely sea and the sky,
 And all I ask is a tall ship and a star to steer her by;
