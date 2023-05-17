@@ -277,7 +277,7 @@ word-of-mouth, wordofmouth, word of mouth `
       },
       data: [
         `The ladybug crawled up the *sunflower* stem.
-The soccer team practiced on the 8grassy field*. 
+The soccer team practiced on the *grassy field*. 
 The *bookshelf* in the corner was filled with novels.
 The *ice cream* truck drove slowly down the neighborhood street.
 The *chocolate chip* cookie was delicious.`,

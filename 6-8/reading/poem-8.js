@@ -11,17 +11,21 @@ export default {
         title: `The Ant and the Cricket`,
         type: 'poem',
         lineGap: '5px',
-        text: `A silly young cricket, accustomed to sing
-Through the warm, sunny months of gay summer and spring,
-Began to complain when he found that, at home,
-His cupboard was empty, and winter was come.
+        text: `A silly young cricket, 
+accustomed to sing
+Through the warm, sunny months of 
+gay summer and spring,
+Began to complain when he found 
+that, at home,
+His cupboard was empty, 
+and winter was come.
 
 Not a crumb to be found
 On the snow-covered ground;
 Not a flower could he see,
 Not a leaf on a tree.
 
-“Oh! what will become,” says the cricket, “of me?”
+"Oh! what will become," says the cricket, "of me?"
 
 At last by starvation and famine made bold,
 All dripping with wet, and all trembling with cold,
@@ -35,24 +39,21 @@ He'd repay it tomorrow;
 
 If not, he must die of starvation and sorrow.
 
-Says the ant to the
-cricket, “I'm your servant
-and friend,
-But we ants never
-borrow; we ants never
-lend.
+Says the ant to the cricket, 
+"I'm your servant and friend,
+But we ants never borrow; 
+we ants never lend.
 But tell me, dear cricket,
 did you lay nothing by
-When the weather was
-warm?” Quoth the cricket,
-“Not I!
+When the weather was warm?" 
+Quoth the cricket, "Not I!
 
 My heart was so light
 That I sang day and night,
-For all nature looked gay.”
-“You sang, Sir, you say?
+For all nature looked gay."
+"You sang, Sir, you say?
 
-Go then,” says the ant, “and dance the winter away.”
+"Go then," says the ant, "and dance the winter away."
 
 Thus ending, he hastily lifted the wicket,
 And out of the door turned the poor little cricket.
@@ -248,32 +249,36 @@ The religious beliefs of people.`
         type: 'poem',
         lineGap: '5px',
         author: 'Rabindranath Tagore',
-        text: `“Come and hire me,” I cried, while in the morning
+        text: `"Come and hire me," I cried, 
+while in the morning
 I was walking on the stone-paved road.
 Sword in hand the King came in his chariot.
-He held my hand and said, “I will hire you with
-my power,”
-But his power counted for naught, and he went away in
-his chariot.
+He held my hand and said, 
+"I will hire you with my power,"
+But his power counted for naught, 
+and he went away in his chariot.
 
-In the heat of the mid-day the houses stood with
-shut doors.
+In the heat of the mid-day 
+the houses stood with shut doors.
 I wandered along the crooked lane.
 An old man came out with his bag of gold.
-He pondered and said, “I will hire you with my money.”
-He weighed his coins one by one, but I turned away.
+He pondered and said, 
+"I will hire you with my money."
+He weighed his coins one by one, 
+but I turned away.
 
-It was evening. The garden hedge was all aflower.
-The fair maid came out and said, “I will hire you with
-a smile.”
-Her smile paled and melted into tears, and she went
-back alone into the dark.
+It was evening. 
+The garden hedge was all a flower.
+The fair maid came out and said, 
+"I will hire you with a smile."
+Her smile paled and melted into tears, 
+and she went back alone into the dark.
 
-The sun glistened on the sand, and the sea waves broke
-waywardly.
+The sun glistened on the sand, 
+and the sea waves broke waywardly.
 A child sat playing with shells.
 He raised his head and seemed to know me and said,
-“I hire you with nothing.”
+"I hire you with nothing."
 From henceforward that bargain struck in child's play
 made me a free man.`
       }
@@ -1123,7 +1128,7 @@ Let's be aware as we walk on this planet
 Even the tiniest creature needs room.
 Lessons in life aren't always so simple
 Nothing you're given will ever come free
-Even the smallest of gifts deserves “thank you”
+Even the smallest of gifts deserves "thank you"
 
 I respect you and you respect
 I think of you and you think of me.
@@ -1133,7 +1138,7 @@ Know that you matter and you make a difference
 Let no one shame you or make you feel bad.
 Lessons in life aren't always so simple
 Nothing you are given will ever come free
-Even the smallest of gifts deserves “thank you”
+Even the smallest of gifts deserves "thank you"
 
 I respect you and you respect
 I think of you and you think of me.`

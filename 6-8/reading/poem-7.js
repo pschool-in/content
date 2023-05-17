@@ -322,17 +322,18 @@ Trees are for children.
 Trees are to make tree houses in.
 Trees are to swing swings on.
 Trees are for the wind to blow through.
-Trees are to hide behind in'Hide and Seek.'
+Trees are to hide behind in 'Hide and Seek.'
 Trees are to have tea parties under.
 Trees are for kites to get caught in.
 Trees are to make cool shade in summer.
 Trees are to make no shade in winter.
 Trees are for apples to grow on, and pears;
-Trees are to chop down and call, “TIMBER-R-R!”
+Trees are to chop down and call, 
+"TIMBER-R-R!"
 Trees make mothers say,
-“What a lovely picture to paint!”
+"What a lovely picture to paint!"
 Trees make fathers say,
-“What a lot of leaves to rake this fall !”`
+"What a lot of leaves to rake this fall!"`
       }
     },
     {
@@ -819,6 +820,7 @@ Let him in the house`
         title: `The Age of Chivalry`,
         type: 'poem',
         lineGap: '5px',
+        poemOverflowOffset: 100,
         author: 'George Krokos',
         text: `Back in the days of old
 when knights were bold
@@ -905,6 +907,7 @@ Their technological innovations and advancements`
         title: 'Sea Fever',
         type: 'poem',
         lineGap: '5px',
+        poemOverflowOffset: 100,
         author: 'John Masefield',
         text: `I must go down to the seas again, to the lonely sea and the sky,
 And all I ask is a tall ship and a star to steer her by;
