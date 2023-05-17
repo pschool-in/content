@@ -252,7 +252,7 @@ export default {
     {
       label: 'Number Series',
       id: 'number-series',
-      grade: 'kg-3'
+      grade: '0-3'
     },
     {
       label: 'Number Series - 2',

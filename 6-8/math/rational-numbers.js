@@ -58,7 +58,7 @@ What would you multiply 8/21 , to get the product 1? Obviously by 21/8`,
         type: 'word-problem',
         title: 'Write the multiplicative inverse of the below number.',
         isSentence: false,
-        firstLineFontSize: '2rem',
+        fontSize: '1.5rem',
         list: [
           `2/3 
 Ans = ?0/?1

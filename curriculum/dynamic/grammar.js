@@ -294,22 +294,22 @@ export default {
     {
       label: 'Noun',
       id: 'noun-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     {
       label: 'Preposition',
       id: 'preposition-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     {
       label: 'Adjectives',
       id: 'adjective-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     {
       label: 'Pronoun',
       id: 'pronoun-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     /*
     {
@@ -335,12 +335,12 @@ export default {
     {
       label: 'Articles',
       id: 'article-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     {
       label: 'Different Types of Determiners',
       id: 'determiner-7',
-      grade: '7-8'
+      grade: '6-8'
     },
     /*
     {
@@ -385,9 +385,9 @@ export default {
       grade: '7-8'
     },
     {
-      label: 'Improve Your Speech',
-      id: 'speech-7',
-      grade: '7-8'
+      label: 'Degrees of Comparrison',
+      id: 'degree-7',
+      grade: '6-8'
     },
     /*
     {

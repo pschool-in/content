@@ -33,11 +33,11 @@ export default {
         width: 249,
         height: 235,
         wordWidth: 50,
-        noOptions: true,
+        //noOptions: true,
         words: [
-          { word: 'roots | root', x: 4, y: 139 },
+          { word: 'roots', x: 4, y: 139 },
           { word: 'stem', x: 190, y: 10 },
-          { word: 'leaves | leaf', x: 197, y: 78 },
+          { word: 'leaf', x: 197, y: 78 },
           { word: 'flower', x: 18, y: 16 },
           { word: 'bud', x: 4, y: 88 }
         ]
