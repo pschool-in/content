@@ -9,7 +9,7 @@ export default {
       type: 'passage',
       data: {
         text: `# Dealing with garbage
-Safai karamcharis collect the garbage in trucks and take it to a low lying open area called landfill. The part of the garbage that can be reused is separated out from the one that cannot be used as such. The non-usefull component is separated out. It is then spread over the landfill and covered with a layer of soil. Once the landfill is completely full, it is converted to a park or playground. Useful components are used to make compost.
+Safai karamcharis collect the garbage in trucks and take it to a low lying open area called landfill. The part of the garbage that can be reused is separated out from the one that cannot be used as such. The non-useful component is separated out. It is then spread over the landfill and covered with a layer of soil. Once the landfill is completely full, it is converted to a park or playground. Useful components are used to make compost.
 
 # Vermicomposting
 The method of preparing compost with the help of redworms is called vermicomposting.
@@ -19,7 +19,7 @@ The method of preparing compost with the help of redworms is called vermicompost
 2. Spread vegetable waste.
 3. Sprinkle some water.
 4. Add redworms.
-5. Cover loosley with gunny bag, old cloth or grass.
+5. Cover loosely with gunny bag, old cloth or grass.
 6. Vermicompost ready within 3-4 weeks.
 
 # Redworms
@@ -29,10 +29,10 @@ Redworms do not have teeth. They have a structure called gizzard, which helps th
 The garbage can be sorted before it is disposed off. Things that can be recycled like paper and things that can be reused needs to be separated out to reduce the bulk of garbage.
 
 # Recycling of Paper
-Old newspapers, magazines, used envelopes, notebooks and any other paper materials can be recycled to obtain usefull products. The paper can be torn, made into a paste by submerging in water for a day and then spread on wire mesh and dried in the sun to form recycled paper.
+Old newspapers, magazines, used envelopes, notebooks and any other paper materials can be recycled to obtain useful products. The paper can be torn, made into a paste by submerging in water for a day and then spread on wire mesh and dried in the sun to form recycled paper.
 
 # Plastics
-Some plastics can be recycled but not all. Consuming food packed in reused plastic is harmfull for our health. All kind of plastics give out harmful gases, upon heating or burning. These gases may cause many health problems, including cancer, in humans. Stray animals may swallow plastics bags and sometimes die due to this. Plastics may enter sewer system and block drains. `,
+Some plastics can be recycled but not all. Consuming food packed in reused plastic is harmful for our health. All kind of plastics give out harmful gases, upon heating or burning. These gases may cause many health problems, including cancer, in humans. Stray animals may swallow plastics bags and sometimes die due to this. Plastics may enter sewer system and block drains. `,
         title: 'Garbage in, Garbage out'
       }
     },
@@ -126,7 +126,7 @@ Paper can be easily recycled.`
           },
           {
             name: 'False',
-            text: `Plastics pocess more benefits than harmfull effects.
+            text: `Plastics possess more benefits than harmful effects.
 Plastics are biodegradable.
 Plastics are not a hazard to health.`
           }
@@ -153,7 +153,7 @@ Earthworm used in vermicomposting -*Redworm*`
       type: 'sorting',
       data: {
         title: 'Arrange the steps in vermicomposting in correct order',
-        text: 'Spread a net at bottom of a pit, Spread vegetable waste, Sprinkle some water, Add redworms, Cover loosley, Leave for 3-4 weeks.'
+        text: 'Spread a net at bottom of a pit, Spread vegetable waste, Sprinkle some water, Add redworms, Cover loosely, Leave for 3-4 weeks.'
       },
       id: 'sorting'
     },
@@ -208,12 +208,12 @@ Earthworm used in vermicomposting -*Redworm*`
             options: `Safai karamcharis, Saf karamcharis, Safai charis`
           },
           {
-            qText: 'What is done with the usefull garbage?',
+            qText: 'What is done with the useful garbage?',
             options: `Use to make compost, Dumped in landfill, Disposed in water bodies.`
           },
           {
             qText: 'What to plastics give out on burning?',
-            options: `Harmfull gases, Oxygen`
+            options: `Harmful gases, Oxygen`
           },
           {
             qText:

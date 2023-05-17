@@ -47,7 +47,7 @@ Omnivore: *Bear*, Crow`
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `Milk, curd, paneer, ghree are all *animal* products.
+        text: `Milk, curd, paneer, ghee are all *animal* products.
 Spinach, cauliflower, carrot are *plant* products.
 Lions and tigers eat *other animals*.
 *Herbivores* eat plants and plant products.
@@ -109,7 +109,7 @@ If seeds have a small white structure growing out, then the seeds are said to be
       type: 'passage',
       data: {
         text: `# What do different food items contain?
-Every dish contains one or more ingredients which maybe plant or animal based. These ingredients contain some components that are needed by our body called nutreints. The major nutrients in our food are named carbohydrates, proteins, fats, vitamins and minerals. In addition, food contains dietary fibres and water which are also needed by our body.
+Every dish contains one or more ingredients which maybe plant or animal based. These ingredients contain some components that are needed by our body called nutrients. The major nutrients in our food are named carbohydrates, proteins, fats, vitamins and minerals. In addition, food contains dietary fibres and water which are also needed by our body.
 
 # Test for Carbohydrate
 First a dilute solution of iodine is prepared by adding a few drops of tinture iodine to a test tube half filled with water. Now take a small quantity of food item or a raw ingredient and add 2-3 drops of dilute iodine solution. A blue-black colour change indicates the presence of starch.
@@ -218,14 +218,14 @@ Lemon is rich in *Vitamin C*.`
     {
       label: 'Answer in one word',
       type: 'matchByDragDrop',
-      title: `Find the deficiency disorder from the sysmptoms displayed.`,
+      title: `Find the deficiency disorder from the symptoms displayed.`,
       id: 'fillup-drag-drop-3',
       data: {
         styles: {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `Poor visison, loss of vision in darkness - *night blindness*
+        text: `Poor vision, loss of vision in darkness - *night blindness*
 Weak muscles and very little energy to work - *beriberi*
 Bleeding gums, wounds take longer to heal - *scurvy*
 Bones become soft and bent - *rickets*

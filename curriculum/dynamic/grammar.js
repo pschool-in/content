@@ -404,17 +404,18 @@ export default {
     {
       label: 'Parts of Speech - Practice',
       id: 'parts-of-speech-p3',
-      grade: '3-4'
+      grade: '3-5'
     },
+    /*
     {
       label: 'Parts of Speech - Practice-2',
       id: 'parts-of-speech-p5',
       grade: '5-6'
-    },
+    },*/
     {
       label: 'Parts of Speech - Practice-3',
       id: 'parts-of-speech-p7',
-      grade: '7-8'
+      grade: '6-8'
     }
   ]
 };

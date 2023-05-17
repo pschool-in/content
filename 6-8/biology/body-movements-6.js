@@ -9,7 +9,7 @@ export default {
       type: 'passage',
       data: {
         text: `# Human body and its movements
-We are able to move some parts of our body easily in various directions, some can only be moved in a single direction and some parts cannot be moved at all. We are able to bend or rotatae our body in places where two parts of our body seem to be joined together like the elbow, shoulder or neck. These places are called joints. It is not one long bone from the upper arm to uor wrist. It is different bones joined together at the elbow. Similarly, there are many bones present in each part of the body. We can bend or move our body only at those points where bones meet. There are different types of jints in our body to help us carry out different movements and activites.
+We are able to move some parts of our body easily in various directions, some can only be moved in a single direction and some parts cannot be moved at all. We are able to bend or rotate our body in places where two parts of our body seem to be joined together like the elbow, shoulder or neck. These places are called joints. It is not one long bone from the upper arm to our wrist. It is different bones joined together at the elbow. Similarly, there are many bones present in each part of the body. We can bend or move our body only at those points where bones meet. There are different types of joints in our body to help us carry out different movements and activites.
 
 # Ball and socket joints
 When the rounded end of one bone fits into the cavity or hollow space of the other bone it forms the ball and socket joint. Such a joint allows movements in all directions.
@@ -24,11 +24,11 @@ Hinge joints only allow back and forth movements. The elbow has a hinge joint.
 Some joints between bones in our head are different from the other joints . The bones cannot move at these joints. Such joints are called fixed joints. The joint between the upper jaw and the rest of the head is a fixed joint.
 
 # Skeleton
-All the bones in our body form a framework that gives shape to our body. This frame work is called the skeleton. We can get an idea about the shape and number of bones in some parts of our body by feeling the. One away to know the shape better would be to look at X-ray images of the human body. When we are hurt, or have an accident, doctors use X-ray images to find out about any possible injuries that might have happened to the bones.
+All the bones in our body form a framework that gives shape to our body. This frame work is called the skeleton. We can get an idea about the shape and number of bones in some parts of our body by feeling them. One away to know the shape better would be to look at X-ray images of the human body. When we are hurt, or have an accident, doctors use X-ray images to find out about any possible injuries that might have happened to the bones.
 The skeleton is made  up of many bones, joints and cartilages.
 
 # Different types of bones
-1. Several small bones that formsthe framework of our hand are called *carples*.
+1. Several small bones that forms the framework of our hand are called *carples*.
 2.  Our rib bones are bent to join the chestbone and the backbone together to form a box. This is called the *rib cage*. There are 12 ribs on each side of the chest. They protect some important internal organs.
 3. The *back bone* is made up of many small bones called *vertebrae*. The back bone consits of 33 vertebrae. The rib cage is joined to these bones. 
 4. The are two prominent bones on the back where the shoulders lie. They are called *shoulder bones*.
@@ -39,7 +39,7 @@ The skeleton is made  up of many bones, joints and cartilages.
 Some parts of the skeleton are not as hard as the bones and can be bent. These are called cartilage. Our ear is composed of cartilage. Cartilages are also found in the joints of the body.
 
 # Musle movement
-The bone is covered by muscles. The muscle work together to move a bone. When you bent your hand, The muscle is bulged due to contaction. That is it beacme smaller in length. When contracted, the muscle becomes shorter, stiffer and thicker. It pulls the bone. Muscles work in pairs. When one of them contracts, the bone is pulled in that direction. The other muscle of the pair relaxes. To move the bone in the opposite direction, the relaxed muscle contracts to pull the bone towards its  original position, while the first relaxes. A muscle can only pull. It cannot push. Thus, two muscles have to work together to move a bone. `,
+The bone is covered by muscles. The muscle work together to move a bone. When you bent your hand, The muscle is bulged due to contaction. That is it became smaller in length. When contracted, the muscle becomes shorter, stiffer and thicker. It pulls the bone. Muscles work in pairs. When one of them contracts, the bone is pulled in that direction. The other muscle of the pair relaxes. To move the bone in the opposite direction, the relaxed muscle contracts to pull the bone towards its  original position, while the first relaxes. A muscle can only pull. It cannot push. Thus, two muscles have to work together to move a bone. `,
         title: 'Body Movements'
       }
     },
@@ -182,7 +182,7 @@ The *bones* are moved by two sets of muscles.`
       type: 'passage',
       data: {
         text: `# Gait of an earthworm
-The body of an earthworm is made up of many rings joined end to end. An earthworm does not have bones. It has muscles which help to extend and shorten the body. During movement, the earthworm first extends the front part of the body, keeping the rear portion fixed to the ground. Then it fixes the front end and releases the rear end. It then shortens the body and pulls the rear end forward. This makes it move forward by a small distance. Repeating this the earthworm moves throught the soil. Its body secretes a slimy susbstance to help the movement. Under its body, it has a large number of tiny bristles projecting out. The bristles are connected with muscles. The bristles help to get a good grip on the ground. The earthworm, actually, eats its way through the soil. Its body then throws away the undigested part of the material that it eats. This activity of an earthworm makes the soil more useful for plants.
+The body of an earthworm is made up of many rings joined end to end. An earthworm does not have bones. It has muscles which help to extend and shorten the body. During movement, the earthworm first extends the front part of the body, keeping the rear portion fixed to the ground. Then it fixes the front end and releases the rear end. It then shortens the body and pulls the rear end forward. This makes it move forward by a small distance. Repeating this the earthworm moves through the soil. Its body secretes a slimy susbstance to help the movement. Under its body, it has a large number of tiny bristles projecting out. The bristles are connected with muscles. The bristles help to get a good grip on the ground. The earthworm, actually, eats its way through the soil. Its body then throws away the undigested part of the material that it eats. This activity of an earthworm makes the soil more useful for plants.
 
 # Gait of a snail
 The snail has a rounded structure it carries on its back. This is called the shell and it is the outer skeleton of the snail, but is not made of bones. The shell is a single unit and does not help in moving from place to place. It has to be dragged along. A thick structure and the head of the snail may come out of an opening in the shell. The thick structure is its foot, made of strong muscles.

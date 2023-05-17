@@ -24,7 +24,6 @@ while, conjunction`
               text: `I, pronoun
 walk, verb
 to, preposition
-the, article
 store, noun
 since, conjunction
 sunny, adjective`
@@ -41,9 +40,9 @@ girl, subject`
               stmt: `Honest people don't lie to their friends.`,
               text: `honest, adjective
 people, noun
-don't, adverb
+to, preposition
 lie, verb
-their, article`
+their, determiner`
             },
             {
               stmt: 'The sun is shining brightly in the sky.',
@@ -63,8 +62,6 @@ sun, subject`
 always, adverb
 makes, verb
 delicious, adjective
-cakes, common noun
-and, conjunction
 for, preposition
 me, pronoun`
             },
@@ -75,8 +72,6 @@ and, conjunction
 my, determiner
 younger, adjective
 brother, noun
-walk, verb
-to, preposition
 slowly, adverb`
             },
             {
@@ -179,7 +174,7 @@ the, article`
               stmt: `Happy dogs don't bite people.`,
               text: `happy, adjective
 dogs, noun
-don't, adverb
+people, object
 bite, verb
 the, article`
             },
@@ -187,7 +182,7 @@ the, article`
               stmt: `Skilled chefs don't need a recipe to cook a delicious meal.`,
               text: `skilled, adjective
 chefs, noun
-don't, adverb
+meal, object
 need, verb
 a, article`
             }
@@ -252,8 +247,8 @@ woman, subject`
           types: [
             {
               name: 'Noun',
-              text: `My *need* is greater than yours.
-I have always tried to have few *needs* beyond food, clothing and shelter.`
+              text: `Our *need* increases with every passing year.
+We have *needs* beyond food, clothing and shelter.`
             },
             {
               name: 'Verb',
@@ -269,13 +264,12 @@ You *need* not go if you don't want to.`
               name: 'Adjective',
               text: `This is the *only* washerman here.
 He is the *only* doctor available right now.
-He is their *only* son, in fact, an *only* child`
+He is their *only* son, in fact, an *only* child.`
             },
             {
               name: 'Adverb',
-              text: `He *only* sleeps and does nothing.
-If there were *only* one more ticket.
-They left *only* moments ago. `
+              text: `He is *only* joking.
+              This phone is *only* available in Japan.`
             },
             {
               name: 'Conjunction',
@@ -286,15 +280,6 @@ I would enjoy running, *only* I have this broken leg.`
         },
         {
           types: [
-            {
-              name: 'Noun',
-              text: `I do not know the ins and *outs* of this matter.
-They wrote the law to give those organizations an *out*.`
-            },
-            {
-              name: 'Adjective',
-              text: `I have booked my luggage at the Railway *out* agency.`
-            },
             {
               name: 'Adverb',
               text: `Come *out*, please.
@@ -313,8 +298,8 @@ He threw it *out* the door.`
           types: [
             {
               name: 'Noun',
-              text: `The *past* of our country was very very glorious.
-During the *past* year I traveled all around Europe.`
+              text: `The *past* of our country was very glorious.
+Don't live in the *past*.`
             },
             {
               name: 'Adjective',
@@ -324,11 +309,6 @@ During the *past* year I traveled all around Europe.`
               name: 'Adverb',
               text: `The soldiers marched *past*.
 I watched him walk *past* me.`
-            },
-            {
-              name: 'Preposition',
-              text: `The old man is *past* eighty.
-The room *past* mine belongs to my brother.`
             }
           ]
         },
@@ -358,35 +338,20 @@ He took notes with a *pen*.`
               text: `He has every *right* to do so.`
             },
             {
-              name: 'Verb',
-              text: `Every wrong should be *righted*.
-We're on the side of *right* in this contest.
-You have no *right* to talk to me like that.
-The pharmacy is just on the *right* past the bookshop.
-The political *right* holds too much power.`
-            },
-            {
               name: 'Adjective',
               text: `This is my *right* arm.
-The kitchen counter formed a *right* angle with the back wall.
-I thought you'd make a mistake, but it seems you were *right* all along.
 Is this the *right* software for my computer?
-I'm Afraid he is no longer in his *right* mind.
-After the accident, her *right* leg was slightly shorter than her left.`
+I'm afraid he is no longer in his *right* mind.`
             },
             {
               name: 'Adverb',
               text: `He was *right* glad to see me.
-The arrow landed *right* in the middle of the target.`
+Turn *right* at the end of the street.`
             }
           ]
         },
         {
           types: [
-            {
-              name: 'Noun',
-              text: `The man-made moon has already made more than one hundred *rounds* of the earth.`
-            },
             {
               name: 'Verb',
               text: `All the thieves have been *rounded* up by the police.
@@ -395,36 +360,12 @@ Helen watched him until he *rounded* the corner.`
             {
               name: 'Adjective',
               text: `We sat at a *round* table to make conversation easier.
-The ancient Egyptians demonstrated that the Earth is round, not flat.
-The child's bed has *round* corners for safety.
-The baker sold us a *round* dozen.`
-            },
-            {
-              name: 'Adverb',
-              text: `With great difficulty, I brought him *round* to my views.`
-            },
-            {
-              name: 'Preposition',
-              text: `The man-made moon went *round* the earth.
-I look *round* the room quickly to make sure it's neat looking.`
+The ancient Egyptians demonstrated that the Earth is *round*, not flat.
+The child's bed has *round* corners for safety.`
             }
           ]
-        },
-        {
-          types: [
-            {
-              name: 'Noun',
-              text: `Put the *saddle* on the back of the horse.
-My bike needs a new *saddle*.
-Could you lower the *saddle* for me?`
-            },
-            {
-              name: 'Verb',
-              text: `I am *saddled* with great responsibility.
-He has *saddled* himself with a houseful of relatives.`
-            }
-          ]
-        },
+        }
+        /*
         {
           types: [
             {
@@ -463,6 +404,7 @@ I'm *set* against the idea of him dropping out of school.`
             }
           ]
         },
+        
         {
           types: [
             {
@@ -852,7 +794,7 @@ Some of your answers were correct, and some were *wrong*.
 It is *wrong* o lie.`
             }
           ]
-        }
+        }    */
       ]
     }
   ]

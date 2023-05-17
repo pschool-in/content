@@ -452,7 +452,7 @@ girl, subject`
       ]
     },
     {
-      id: 'direct-indirect',
+      id: 'find-speech',
       label: 'Find my speech',
       type: 'classifySentence',
       commonData: {
@@ -500,14 +500,12 @@ Analyze the *above* sentences and correct the errors.`
             {
               name: 'Adverb',
               text: `Please look *above* at the starlight sky.
-She stared up at the stars *above*.
-The heavens are *above*.`
+She stared up at the stars *above*.`
             },
             {
               name: 'Preposition',
-              text: `His dealings are *above* dishonesty.
-The birds were flying high *above* the trees.
-The moral law is *above* the civil.`
+              text: `The birds were flying high *above* the trees.
+Stars are present *above* the moon.`
             }
           ]
         },
@@ -520,14 +518,12 @@ The moral law is *above* the civil.`
             {
               name: 'Adjective',
               text: `The *advance* money has been returned.
-He made an *advance* payment on the prior shipment to show good faith
-The scouts found a site for an *advance* base.`
+He made an *advance* payment on the prior shipment to show good faith.`
             },
             {
               name: 'Verb',
               text: `Five hundred rupees were *advanced* as security.
-Merchants often *advance* money on a contract or on goods consigned to them.
-She *advanced* to the final stage of the dance competition.`
+Merchants often *advance* money on a contract or on goods consigned to them.`
             }
           ]
         },
@@ -545,7 +541,7 @@ They arrived soon *after* the bus left.`
             },
             {
               name: 'Preposition',
-              text: `He takes *after* his father.
+              text: `He takes the responsibility *after* his father.
 The policeman ran *after* the thief.`
             },
             {
@@ -554,7 +550,8 @@ The policeman ran *after* the thief.`
 We went away *after* they had left.`
             }
           ]
-        },
+        }
+        /*
         {
           types: [
             {
@@ -924,7 +921,7 @@ I am *near* sighted.`
 The voyage was *near* completion.`
             }
           ]
-        }
+        }*/
       ]
     }
   ]

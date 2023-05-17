@@ -50,7 +50,8 @@ let mainMenu = {
   style: {},
   type: 'curriculumIcon',
   appLink: {
-    label: 'Download PSchool app from Google Play Store.',
+    label:
+      'Download PSchool app from Google Play Store and practice offline. It has more activities too.',
     androidLink:
       'https://play.google.com/store/apps/details?id=com.gotowisdom.pschool'
   },

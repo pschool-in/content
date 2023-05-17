@@ -13,7 +13,7 @@ export default {
           'Find below some three-letter words. Get familiar with them.',
           {
             type: 'sitewords',
-            text: 'rat, fly, bed, fox, hat, jug, big, map, red, run, man, cow, may, sad, bag, met, men, the, and, hug, pig, she, bit, let, son, hen, day, cap, sit, one, joy, hit, cat, mat, two, cry, old, sun, bad, hut, tin, try, use, van, oil, bun, few, nut, has, jar, dig, him, ice, jam, jet, ran, fan, fat, dry, dip, aim, spy, you, pin, her, pen, axe, set, key, sin, for, can, ape, cot, law, gun, had, ant, sky, ask, lap, pay, wet, wig, fur, lot, log, rug, run, pet',
+            text: 'rat, fly, bed, fox, hat, jug, big, map, end, red, run, man, cow, may, sad, bag, met, men, the, and, hug, pig, she, bit, let, son, hen, day, cap, sit, one, joy, hit, cat, mat, two, cry, old, sun, bad, hut, tin, try, use, van, oil, bun, few, nut, has, jar, dig, him, ice, jam, jet, ran, fan, fat, dry, dip, aim, spy, you, pin, her, pen, axe, set, key, sin, for, can, ape, cot, law, gun, had, ant, sky, ask, lap, pay, wet, wig, fur, lot, log, rug, run, pet, den, dim, war, raw',
             width: 90
           }
         ]
@@ -28,7 +28,7 @@ export default {
         printTitle: 'Form the word using the letters.'
       },
       data: [
-        'rat | tar, fly, bed, fox, hat, jug, big, map, red, run',
+        'rat | art , fly, bed, fox, hat, jug, big, map, red, run',
         'man, cow, may | yam, sad, bag, met, men, the, and, hug',
         'pig, she, bit, let, son, hen, day, cap, sit, one',
         'joy, hit, cat, mat, two, cry, old, sun, bad, hut',
@@ -36,7 +36,8 @@ export default {
         'dig, him, ice, jam, jet, ran, fan, fat, dry, dip',
         'aim, spy, you, pin, her, pen, axe, set, key, sin',
         'for, can, ape | pea, cot, law, gun, had, ant, sky, ask',
-        'lap, pay, wet, wig, fur, lot, log, rug, pet'
+        'end | den, lap, pay, wet, wig, fur, lot, log, rug, pet',
+        'dim | mid, war | raw, '
       ]
     }
   ]
