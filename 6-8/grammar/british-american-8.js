@@ -10,46 +10,83 @@ export default {
       data: {
         title: 'British and American English',
         text: [
-          `# British and American English
-1. Pronunciation: British English and American sound noticeably different. The most obvious difference is the way the letter r is pronounced. In British English, when r comes after a vowel in the same syllable (as in car, hard, or market), the r is not pronounced. In American English, the r is pronounced.
-2. Vocabulary: There are many differences between American and British English vocabulary. Here are 10 common words in American English followed by their British English equivalents:
-American - British
-antenna - aerial; mad - angry
-anyplace - anywhere; fall - autumn
-bill - bank note; attorney - barrister
-cookie - biscuit; hood - bonnet
-trunk - boot; movies - cinema
-patrolman - constable; stove - cooker
-crib - cot; wreck - crash
-intersection - crossroads; drapes - curtains
-thumbtack - drawing pin; generator - dynamo
-movie - film; apartment - flat
-overpass - flyover; yard - garden
-boiler - grill; purse - handbag
-billboard - hoarding; vacation - holiday
-vacuum cleaner - hoover; sick - ill
-intermission - interval; sweater - jumper
-pitcher - jug; elevator - lift
-truck - lorry; baggage - luggage
-raincoat - mackintosh; highway - main road
-corn - maize; diaper - nappy
-vicious - nasty; noplace - nowhere
-optometrist - optician; sidewalk - pavement
-peek - peep; mail - post
-mailbox - postbox; mailman - postman
-baby carriage - pram; restroom - public toilet
-blow-out - puncture; line - queue
-traffic circle - roundabout; eraser - rubber
-Scotch tape - cellotape; store - shop
-wrench - spanner; faculty - staff 
-candy - sweets; faucet - tap
-cab - taxi; dish-towel - tea-towel
-semester - term; schedule - timetable
-can - tin; flashlight - torch
-pants - trousers; vest - waistcoat
-closet - wardrobe; windshield - windscreen
-fender - wing; zipper - zip 
-3. Spelling: Below are three rules you can follow.
+          `1. Pronunciation: British English and American sound noticeably different. The most obvious difference is the way the letter 'r' is pronounced. In British English, when 'r' comes after a vowel in the same syllable (as in car, hard, or market), the 'r' is not pronounced. In American English, the 'r' is pronounced.
+2. Vocabulary: There are many differences between American and British English vocabulary. Here are some common words in American English followed by their British English equivalents:`,
+          {
+            type: 'hilight',
+            text: `American - British
+antenna - aerial
+mad - angry
+anyplace - anywhere
+fall - autumn
+bill - bank note
+attorney - barrister
+cookie - biscuit
+hood - bonnet
+trunk - boot
+movies - cinema
+patrolman - constable
+stove - cooker
+crib - cot
+wreck - crash
+intersection - crossroads
+drapes - curtains
+thumbtack - drawing pin
+generator - dynamo
+movie - film
+apartment - flat
+overpass - flyover
+yard - garden
+boiler - grill
+purse - handbag
+billboard - hoarding
+vacation - holiday
+vacuum cleaner - hoover
+sick - ill
+intermission - interval
+sweater - jumper
+pitcher - jug
+elevator - lift
+truck - lorry
+baggage - luggage
+raincoat - mackintosh
+highway - main road
+corn - maize
+diaper - nappy
+vicious - nasty
+noplace - nowhere
+optometrist - optician
+sidewalk - pavement
+peek - peep
+mail - post
+mailbox - postbox
+mailman - postman
+baby carriage - pram
+restroom - public toilet
+blow-out - puncture
+line - queue
+traffic circle - roundabout
+eraser - rubber
+Scotch tape - cellotape
+store - shop
+wrench - spanner
+faculty - staff 
+candy - sweets
+faucet - tap
+cab - taxi
+dish-towel - tea-towel
+semester - term
+schedule - timetable
+can - tin
+flashlight - torch
+pants - trousers
+vest - waistcoat
+closet - wardrobe
+windshield - windscreen
+fender - wing
+zipper - zip `
+          },
+          `3. Spelling: Below are three rules you can follow.
 a) Most words ending in -our in British English are spelled without the u in American English `,
           {
             type: 'html',
@@ -95,7 +132,10 @@ somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`
         questions: [
           {
             qText: `What is the most noticeable difference between the pronunciation of British and American English?`,
-            options: `The way the letter "r" is pronounced, The way the letter "t" is pronounced, The way the letter "a" is pronounced, The way the letter "o" is pronounced`
+            options: `The way the letter "r" is pronounced.
+The way the letter "t" is pronounced.
+The way the letter "a" is pronounced.
+The way the letter "o" is pronounced`
           },
           {
             qText: `Which of the following words is an American English equivalent of the British English word "lift"?`,
@@ -103,7 +143,18 @@ somb<b>re</b>/somb<b>er</b>; theat<b>re</b>/theat<b>er</b>`
           },
           {
             qText: `Which of the following spelling rules is followed in American English for most words ending in -re in British English?`,
-            options: `They are spelled with -er, They are spelled without the u, They are spelled with -ize, They are spelled with -our`
+            options: `They are spelled with -er.
+They are spelled without the u.
+They are spelled with -ize.
+They are spelled with -our`
+          },
+          {
+            qText: `Which of the following words is spelled differently in British and American English?`,
+            options: `Colour, Neighbor, Theatre, *All of the above`
+          },
+          {
+            qText: `In American English, the term "apartment" is often used instead of _______.`,
+            options: `Flat, House, Bungalow, Condo`
           }
         ]
       }
@@ -275,7 +326,7 @@ vacuum cleaner, hoover`
     },
     {
       id: 'fill-up-am',
-      label: 'American English',
+      label: 'Fillup - Ameriacn English',
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks using words in American English`
@@ -284,14 +335,13 @@ vacuum cleaner, hoover`
         `I'd like to hang the *drapes (curtains)* tonight. Do you have time?
 We took the *elevator (lift)* to the 10th floor.
 Would you like to see a *movie (film)* tonight?
-Have you seen Tom's new *apartment (flat)* yet? It's very nice.`,
+Have you seen Tom's new *apartment (flat)* yet? It's very nice.
+I'll take the *garbage (rubbish)* out before I leave tomorrow morning.
+Take the second exit at the *traffic circle (roundabout)*.`,
 
-        `I'll take the *garbage (rubbish)* out before I leave tomorrow morning.
-Take the second exit at the *traffic circle (roundabout)*.
-Let's get have some *potato chips (crisps)* with lunch. 
-Could you hand me the *flashlight (torch)* so I can take a look in the closet?`,
-
-        `Peter wore a pair of slim fitting *pants (trousers)* to the party.
+        `Let's get have some *potato chips (crisps)* with lunch. 
+Could you hand me the *flashlight (torch)* so I can take a look in the closet?
+Peter wore a pair of slim fitting *pants (trousers)* to the party.
 She opened the *tap (spigot)* and watered the garden.
 Have you ever worn a *vest (waistcoat)* with a suit?
 I'll pick up the *mail (post)* on the way home from work.`
@@ -299,7 +349,7 @@ I'll pick up the *mail (post)* on the way home from work.`
     },
     {
       id: 'fill-up-2',
-      label: 'British English',
+      label: 'Fillup - British English',
       type: 'fillup',
       commonData: {
         title: `Fill in the blanks using words in British English`
@@ -308,14 +358,13 @@ I'll pick up the *mail (post)* on the way home from work.`
         `We need to find a *public toilet (restroom)* soon.
 Let's get the *pram (baby carriage)* and take a walk with Jennifer. 
 I'm afraid I had a *puncture (blow-out)* and had to get it fixed.
-Could you bring in that *tin (can)* of tuna over there?`,
+Could you bring in that *tin (can)* of tuna over there?
+She's very *mean (stingy)* with her money. Don't ask her for any help.
+I generally don't wear a suit with a *waistcoat (vest)*.`,
 
-        `She's very *mean (stingy)* with her money. Don't ask her for any help.
-I generally don't wear a suit with a *waistcoat (vest)*.
-We should ask a *constable (patrolman)* for help. 
-Get on *queue (line)* and I'll get us something to eat.`,
-
-        `Grab a *tea-towel (dish towel)* and clean that up.
+        `We should ask a *constable (patrolman)* for help. 
+Get on *queue (line)* and I'll get us something to eat.
+Grab a *tea-towel (dish towel)* and clean that up.
 Look at the *schedule (time table)* and see when the train leaves.
 The car has a dent in the *wing (fender)*.
 Choose a *jumper (sweater)* from the *wardrobe (closet)* and let's get going.
@@ -330,46 +379,63 @@ The lights have gone out, and we'll need a *torch (flashlight)*.`
         title: 'British and American English Grammar',
         text: [
           `# Grammar Rules
-1. Collective nouns are singular in American English Grammar. British English usually treats collective nouns as plural nouns, so the verb must agree with the plural form. 
-British English: The staff are taking the day off.
-American English: The staff is taking the day off.
-British English: The committee are making the decision today.
-American English: The committee is making the decision today.
-
-2. Americans don't use the present perfect tense much. However, British speakers sometimes use the present perfect tense instead of the simple past.
-American English: He ate his lunch.
-British English: He has eaten his lunch.
-American English: I went to the store.
-British English: I have gone to the store.
-
-3. Transitive and Intransitive verbs flip in American and British English.
-British English: He appealed against the decision. (Intransitive)
-American English: He appealed the decision. (Transitive)
-
-4. American English verbs simply need an “-ed” at the end in order to transform them into the past tense. However, British English often adds a “-t” at the end instead of the “-ed.”
-British English: learnt, dreamt, dwelt
-American English: learned, dreamed, dwelled
-
-5. The use of “have” vs “have got” varies in American and British English.
-British English: I have got a dog.
-American English: I have a dog.
-British English: My job has got better.
-American English: My job has gotten better.
-
-6. The usage of modal verbs differs between British and American English. For example, shall and shan’t are almost exclusively used by British speakers, as American speakers find these words extremely formal. Americans use will and won’t instead.
-British English: I shall go.
-American English: I will go.
-British English: I shan't attend.
-American English: I won't attend.
-
-7. American English changes the position of adverbs quite easily, sometimes placing them before the verb and sometimes after it. On the other hand, British speakers usually place the adverb after the verb.
-American English: She drank quickly./She quickly drank.
-British English: She drank quickly.
-
-8. In American English grammar, the word “well” is only used as an adverb to mean “good.”
-However, in British English, the word “well” can also be used to mean “very.”
-British English: I'm well sleepy.
-American English: I'm very sleepy.`
+1. Collective nouns are singular in American English Grammar. British English usually treats collective nouns as plural nouns, so the verb must agree with the plural form.`,
+          {
+            type: 'html',
+            text: `Eg: The staff <i>are</i> taking the day off. (<i>British English</i>)<br>
+The staff <i>is</i> taking the day off. (<i>American English</i>)<br>
+The committee <i>are</i> making the decision today. (<i>British English</i>)<br>
+The committee <i>is</i> making the decision today. (<i>American English</i>)`
+          },
+          `2. Americans don't use the present perfect tense much. However, British speakers sometimes use the present perfect tense instead of the simple past.`,
+          {
+            type: 'html',
+            text: `Eg: He <i>has eaten</i> his lunch. (<i>British English</i>)<br>
+He <i>ate</i> his lunch. (<i>American English</i>)<br>
+I <i>have gone</i> to the store. (<i>British English</i>)<br>
+I <i>went</i> to the store. (<i>American English</i>)`
+          },
+          `3. Transitive and Intransitive verbs flip in American and British English.`,
+          {
+            type: 'html',
+            text: `Eg: He appealed against the decision. => Intransitive (<i>British English</i>)<br>
+He appealed the decision. => Transitive (<i>American English</i>)`
+          },
+          `4. American English verbs simply need an "-ed" at the end in order to transform them into the past tense. However, British English often adds a "-t" at the end instead of the "-ed".`,
+          {
+            type: 'html',
+            text: `Eg: learn<b>t</b>, dream<b>t</b>, dwel<b>t</b>. (<i>British English</i>)<br>
+learn<b>ed</b>, dream<b>ed</b>, dwell<b>ed</b>. (<i>American English</i>)`
+          },
+          `5. The use of "have" vs "have got" varies in American and British English.`,
+          {
+            type: 'html',
+            text: `Eg: I <i>have got</i> a dog. (<i>British English</i>)<br>
+I <i>have</i> a dog. (<i>American English</i>)<br>
+My job <i>has got</i> better. (<i>British English</i>)<br>
+My job <i>has gotten</i> better. (<i>American English</i>)`
+          },
+          `6. The usage of modal verbs differs between British and American English. For example, shall and shan't are almost exclusively used by British speakers, as American speakers find these words extremely formal. Americans use will and won't instead.`,
+          {
+            type: 'html',
+            text: `Eg: I <i>shall</i> go. (<i>British English</i>)<br>
+I <i>will</i> go. (<i>American English</i>)<br>
+I <i>shan't</i> attend. (<i>British English</i>)<br>
+I <i>won't</i> attend. (<i>American English</i>)`
+          },
+          `7. American English changes the position of adverbs quite easily, sometimes placing them before the verb and sometimes after it. On the other hand, British speakers usually place the adverb after the verb.`,
+          {
+            type: 'html',
+            text: `Eg: She drank quickly. (<i>British English</i>)<br>
+She drank quickly; She quickly drank. (<i>American English</i>)`
+          },
+          `8. In American English grammar, the word "well" is only used as an adverb to mean "good".
+However, in British English, the word "well" can also be used to mean "very".`,
+          {
+            type: 'html',
+            text: `Eg: I'm <i>well</i> sleepy. (<i>British English</i>)<br>
+I'm <i>very</i> sleepy. (<i>American English</i>)`
+          }
         ]
       }
     },
@@ -436,7 +502,7 @@ I put my shopping bags in the trunk of the car.`
     },
     {
       id: 'spelling',
-      label: 'Spelling',
+      label: 'Match the following',
       type: 'match',
       lockAfter: 1,
       commonData: {
@@ -518,7 +584,7 @@ gaol, jail`
     },
     {
       type: 'rightOne',
-      label: 'British English',
+      label: 'Pick the right word',
       id: 'biggest',
       commonData: {
         title: `Pick the british spelling.`,
