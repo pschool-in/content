@@ -64,7 +64,7 @@ They include <i>where</i>, <i>when</i>, <i>why</i>, <i>how</i>, <i>how much</i>,
           `8. Relative Adverbs: They serve as a bridge between two sentences or clauses. They also give more information about the antecedent (the noun or pronoun that the clause modifies).`,
           {
             type: 'html',
-            text: `Eg: e.g. She let me know <i>how</i> to cook halwa.<br><br>
+            text: `Eg: She let me know <i>how</i> to cook halwa.<br><br>
 They include <i>why</i>, <i>how</i>, <i>where</i>, <i>when</i>.`
           }
         ]
@@ -216,19 +216,17 @@ economic| economically
 Loud | loudly
 Sad | sadly`,
 
-        `Careful | carefully
-Beautiful | beautifully
-Strong | strongly
-Brave | bravely
-Quiet | quietly
-Happy | happily`,
+        `careful | carefully
+beautiful | beautifully
+strong | strongly
+brave | bravely
+quiet | quietly`,
 
-        `Polite | politely
-Clear | clearly
-Kind | kindly
-Accurate | accurately
-Simple | simply
-Intense | intensely`
+        `polite | politely
+clear | clearly
+kind | kindly
+accurate | accurately
+intense | intensely`
       ]
     },
     {
@@ -427,8 +425,8 @@ My uncle is definitely moving to Stockholm soon.`,
           `The children play football. 
 We went to the cinema. 
 John fell off the bike. 
-Her friend will buy her some flowers. 
-My uncle is moving to Stockholm soon.`
+Her friend will buy her flowers. 
+My uncle is moving to Stockholm.`
         ],
         [
           `She sings beautifully.
@@ -438,8 +436,8 @@ The car drove dangerously fast on the highway.
 She quickly solved the math problem.`,
 
           `She sings. 
-He walked towards the door. 
-The car drove fast on the highway.
+He walked toward the door. 
+The car drove on the highway.
 She solved the math problem.`
         ],
         [
@@ -451,7 +449,7 @@ The baby slept peacefully through the night.`,
 
           `The dog barked at the mailman.
 He waited for his turn.
-She delivered the speech in front of the audience.
+She delivered the speech.
 The athlete performed at the Olympic Games.
 The baby slept through the night.`
         ],
@@ -462,10 +460,10 @@ The teacher explained the lesson clearly to the class.
 The boy ran happily towards his mother.
 The couple danced gracefully at their wedding reception.`,
 
-          `They crossed the street while holding hands.
-The train arrived early at the station.
+          `They crossed the street.
+The train arrived at the station.
 The teacher explained the lesson to the class.
-The boy ran towards his mother.
+The boy ran toward his mother.
 The couple danced at their wedding reception.`
         ]
       ]
@@ -484,26 +482,23 @@ The couple danced at their wedding reception.`
 Don't disturb her *when she is singing*.
 I will follow you *wherever you go*.
 She has hidden the box *where it cannot be found*.
-Rina learned English *so that she could get a better job*.`,
+Rina learned English *so that she could get a better job*.
+Ashwin called Sophie *so that he could get directions*.`,
 
-        `Ashwin called Sophie *so that he could get directions*.
-A new club was formed *in order to discuss politics*. 
+        `A new club was formed *in order to discuss politics*. 
 He is so kind-hearted *that everybody loves him*.
 I will help you *because you are my true friend*.
-Rahul did not call Tina *because he felt guilty*.`,
-
-        `*If you save money*, you can buy a bigger house.
-*Unless you study harder*, you will fail.
-I will free you *on condition that you pay a fine*.
+Rahul did not call Tina *because he felt guilty*.
+*If you save money*, you can buy a bigger house.
+*Unless you study harder*, you will fail.``I will free you *on condition that you pay a fine*.
 *Though he is not rich*, he gives to charity.
-*Although she tried very hard*, she had to give up.`,
+*Although she tried very hard*, she had to give up.
+Tina is much younger *than she looks*.
+He does not work *as hard as you think*.`,
 
-        `Tina is much younger *than she looks*.
-He does not work *as hard as you think*.
-*Although it was raining*, he still went for a walk.
-*While she was studying*, her brother was watching TV.`,
-
-        `*Because she was tired*, she went to bed early.
+        `*Although it was raining*, he still went for a walk.
+*While she was studying*, her brother was watching TV.
+*Because she was tired*, she went to bed early.
 *Whenever he sees a dog*, he gets scared.
 *After we finish our homework*, we can play video games.`
       ]
@@ -527,7 +522,7 @@ The man lives *next door*.`,
         `She stood *on the bridge*.
 I buy at least two dresses *every month*.
 She goes on holiday *twice a year*.
-Tina bought a lovely gift *for her husband*.
+Tina bought a lovely gift *for her friend*.
 Rahul saved money to *buy a car*.`,
 
         `*In the morning*, I like to have a cup of coffee.
@@ -612,7 +607,7 @@ _________________, you will fail. | unless you study harder
 I will free you __________________. | on condition that you pay a fine`,
 
         `_____________________, she had to give up. | although she tried very hard
-Tina is much younger _____________. | than she looks.
+Tina is much younger _____________. | than she looks
 He does not work _______________________. |  as hard as you think`
       ]
     },
@@ -698,18 +693,18 @@ She plays very well the piano. I've heard her.`
         types: [
           {
             name: 'Phrase',
-            text: ` She stood on the bridge.
-I buy at least two dresses every month.
-She goes on holiday twice a year.
-Tina bought a lovely gift for her husband.
-Rahul saved money to buy a car.`
+            text: ` She stood *on the bridge*.
+I buy at least two dresses *every month*.
+She goes on holiday *twice a year*.
+Tina bought a lovely gift *for her friend*.
+Rahul saved money *to buy a car*.`
           },
           {
             name: 'Clause',
-            text: `After the crop is harvested, it is sold in the market.
-Don't disturb her when she is singing.
-I will follow you wherever you go.
-She has hidden the box where it cannot be found.`
+            text: `*After the crop is harvested*, it is sold in the market.
+Don't disturb her *when she is singing*.
+I will follow you *wherever you go*.
+She has hidden the box *where it cannot be found*.`
           }
         ]
       }

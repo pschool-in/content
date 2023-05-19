@@ -275,7 +275,7 @@ She *was practicing (had to practice)* playing the guitar when her parents came 
 If she *had prepared (prepare)* for the examination she would not have failed.
 The bell *had gone (went)* before I reached the school. 
 The patient *had died (dies)* before the doctor arrived. 
-He *had (have)* not *left (leave)* the place before his father permitted her.`,
+He *had (have)* not *left (leave)* the place before his father permitted him.`,
 
         `*Had (Did)* the child *slept (sleep)* before his father returned from office? 
 The rain *had stopped (stops)* by the time we stepped out of our house.
