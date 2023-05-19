@@ -158,16 +158,18 @@ Bestowed or granted, usually as an honor or recognition.| CONFER`
       }
     },
     {
-      label: 'Fillup',
-      id: 'fillup-drag-2',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      data: {
-        text: `Mithali Raj's achievements in cricket have helped break down *traditional barriers* and challenge gender stereotypes.
-The Indian women's cricket team achieved a *resounding* victory over South Africa in the second T20 International.
-Mithali Raj's dedication and passion for cricket serve as an *inspiration* to young players.
-Many people were surprised to learn about Mithali Raj's journey and her ability to *surpass* male cricketers in her own right.
-The Padma Shri Award was *conferred* on Mithali Raj by the Government of India in recognition of her contributions to cricket.`
-      }
+      id: 'drag-drop',
+      data: [
+        `Mithali Raj's *achievements* in *cricket* have helped break down *traditional barriers* and challenge *gender* stereotypes.
+The Indian women's cricket team achieved a *resounding* victory over *South Africa* in the second T20 International.`,
+
+        `Mithali Raj's *dedication* and passion for cricket serve as an *inspiration* to *young* players.
+Many people were *surprised* to learn about Mithali Raj's *journey* and her ability to *surpass* male cricketers in her own right.`,
+
+        `The *Padma Shri* Award was *conferred* on Mithali Raj by the *Government* of India in recognition of her contributions to *cricket*.`
+      ]
     },
     {
       id: 'match-4',
@@ -237,16 +239,18 @@ Prominant, Notable`
       }
     },
     {
-      label: 'Fillup',
-      id: 'fillup-drag-3',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      data: {
-        text: `Usha Rani's dedication to kabaddi stemmed from her mother's *unfulfilled* dream of becoming an athlete.
-Despite facing various challenges, Usha Rani *practised* kabaddi every morning at the Kanteerava Stadium.
-Usha Rani's participation in national events showcases her *excellence* in kabaddi.
-E. S. Sumanth praises Usha Rani's raiding skills and her *prominent* role in the Indian kabaddi team.
-Usha Rani serves as an *inspiration* to her siblings and fellow sports persons.`
-      }
+      id: 'drag-drop-2',
+      data: [
+        `Usha Rani's dedication to *kabaddi* stemmed from her mother's *unfulfilled* dream of becoming an *athlete*.
+Despite facing various challenges, Usha Rani *practised* kabaddi every *morning* at the *Kanteerava* Stadium.`,
+
+        `Usha Rani's participation in *national* events showcases her *excellence* in kabaddi.
+*E.S. Sumanth* praises Usha Rani's *raiding* skills and her *prominent* role in the Indian kabaddi team.`,
+
+        `Usha Rani serves as an *inspiration* to her *siblings* and *fellow* sports persons.`
+      ]
     },
     {
       type: 'rightOne',
@@ -278,16 +282,18 @@ After joining Gopichand's badminton academy, Sindhu won several titles. She has 
       }
     },
     {
-      label: 'Fillup',
-      id: 'fillup-drag-4',
+      label: 'Drag and Drop',
       type: 'matchByDragDrop',
-      data: {
-        text: `P.V. Sindhu is renowned for her remarkable achievements in the sport of *badminton*.
-Sindhu's success at the 2016 Olympics earned her a *silver* medal.
-Pullela Gopichand's accomplishments served as *inspiration* for Sindhu to pursue badminton.
-Sindhu's dedication and never-say-die spirit are evident in her *commitment* to the coaching camps.
-Sindhu's consistent performances have earned her prestigious awards such as the Rajiv Gandhi Khel Ratna and the *Padma Shri*.`
-      }
+      id: 'drag-drop-3',
+      data: [
+        `*P.V. Sindhu* is renowned for her remarkable *achievements* in the sport of *badminton*.
+Sindhu's success at the *2016 Olympics* earned her a *silver* medal.`,
+
+        `*Pullela* Gopichand's accomplishments served as *inspiration* for *Sindhu* to pursue badminton.
+Sindhu's *dedication* and never-say-die spirit are *evident* in her *commitment* to the coaching camps.`,
+
+        `Sindhu's *consistent* performances have earned her *prestigious* awards such as the Rajiv Gandhi *Khel Ratna* and the *Padma Shri*.`
+      ]
     },
     {
       id: 'match-6',
