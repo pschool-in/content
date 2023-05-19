@@ -215,7 +215,7 @@ uno | UNO`
         {
           text: `indiagate | India Gate
 redfort | Red Fort
-qutub-minor | Qutub Minor 
+qutub-minor | Qutub Minar 
 tajmahal | Taj Mahal
 amber-palace | Amber Palace
 ajanta-caves | Ajanta Caves`
@@ -241,7 +241,7 @@ gateway-india | Gateway of India`
       data: [
         `indiagate | India Gate
 redfort | Red Fort
-qutub-minor | Qutub Minor 
+qutub-minor | Qutub Minar 
 tajmahal | Taj Mahal
 amber-palace | Amber Palace
 ajanta-caves | Ajanta Caves`,

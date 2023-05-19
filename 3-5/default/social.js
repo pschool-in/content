@@ -60,7 +60,7 @@ valley | Valley`
         path: 'img/social/monument',
         text: `charminar | Charminar
 indiagate | India Gate
-qutub-minor | Qutub Minor
+qutub-minor | Qutub Minar
 redfort | Red Fort
 tajmahal |Taj Mahal
 tanjore | Tanjore`
@@ -814,7 +814,7 @@ Alternate sources of energy and fuel are being considered.  Chief among them are
 I was born in a small village in Gujarat. Each year, my master kept aside some seeds from a good crop. That way our bajra family went on from one generation to another. Good seeds were stored in dried gourd coated with mud. Later, my master made a strong wooden box to store us. He put in neem leaves to protect us from insects. This was how I ended up in this wooden box.
 Over the years, many changes took place in the village. Some places could get water from the canal. They said the canal brought water from far away – where a dam had been built on a big river. Then electricity came. Switch on the button and there was light! People found that only one or two crops, like wheat and cotton, got better prices in the market. So most farmers began to grow only these. So my master never used me on field.
 My master got old and his son took over the farming activity. He used an electric motor to pump water from ground. He also bought a tractor to plough the field. The tractor could do in a day, what the bullocks would take many days to do. Master's son made good money. 
-After twenty years, again there were many changes. Without cows and baffaloes, there was no cow dung, to be used in the fields as fertilizer. So the son bought expensive fertilizer. The new seeds were easily affected by harmful insects. Pesticides had to be sprayed on the crops to keep away the insects. To meet all these expenses, loans had to be taken from the bank.
+After twenty years, again there were many changes. Without cows and buffaloes, there was no cow dung, to be used in the fields as fertilizer. So the son bought expensive fertilizer. The new seeds were easily affected by harmful insects. Pesticides had to be sprayed on the crops to keep away the insects. To meet all these expenses, loans had to be taken from the bank.
 Due to pumping, the ground water also depleted. Whatever little profit was made, was used to repay the loan.
 And today is my last day. My master's family is selling the old things which they consider as useless. They are going to dispose me of my home. The seed box is going to be used as a toolbox for keeping mechanical tools, screws, nuts and bolts.`
       }
