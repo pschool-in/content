@@ -96,11 +96,11 @@ play, pley`,
 
         `cost, cast
 seed, sead, ceed
-rain, rein, rein
+rain, rein, rien
 near, niar, nier
 skin, sken, scin
 team, teem, taem
-time, tim taime
+time, tim, taime
 song, sogn
 snow, sno, snou
 tree, tre, tere`,

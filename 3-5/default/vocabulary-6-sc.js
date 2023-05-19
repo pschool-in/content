@@ -114,9 +114,9 @@ very careful, cautious`
       label: 'Find the word',
       data: [
         'about, write, apple, actor, again, ahead, paint, right, small, cream', //alert
-        'argue, brown, empty, forty, human, party, rough, solve, smile, carry',
+        'argue, brown, empty, forty, human, party, rough, solve | loves, smile | slime, carry',
         'beach, buyer, crowd, enter, fresh, level, mount, place, scene, plant',
-        'bench, cycle, error, great, limit, sense, speak, dream'
+        'bench, cycle, error, great | grate, limit, sense, speak, dream'
       ]
     },
     {
@@ -149,7 +149,7 @@ very careful, cautious`
       label: 'Find the word-2',
       data: [
         'active, forget, silver, degree, bottle, minute, update, middle, twenty',
-        'afraid, future, single, device, repair, branch, mother, volume, recent, author',
+        'afraid, future, single, device, repair, branch, mother, volume, recent | center | centre, author',
         'animal, health, speech, report, bright, myself, window, select, damage',
         'anyone, lesson, street, driver, result, burden, normal, member, talent, follow'
       ]

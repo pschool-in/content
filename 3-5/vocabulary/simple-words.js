@@ -28,16 +28,15 @@ export default {
         printTitle: 'Form the word using the letters.'
       },
       data: [
-        'rat | art , fly, bed, fox, hat, jug, big, map, red, run',
-        'man, cow, may | yam, sad, bag, met, men, the, and, hug',
+        'rat | art , fly, bed, fox, hat, jug, big, map, red, run, dim | mid,',
+        'man, cow, may | yam, sad, bag, met, men, the, and, hug, war | raw, ',
         'pig, she, bit, let, son, hen, day, cap, sit, one',
         'joy, hit, cat, mat, two, cry, old, sun, bad, hut',
-        'tin, try, use, van, oil, bun, few, nut, has | ash, jar',
+        'tin, try, use | sue, van, oil, bun, few, nut, has | ash, jar',
         'dig, him, ice, jam, jet, ran, fan, fat, dry, dip',
         'aim, spy, you, pin, her, pen, axe, set, key, sin',
-        'for, can, ape | pea, cot, law, gun, had, ant, sky, ask',
-        'end | den, lap, pay, wet, wig, fur, lot, log, rug, pet',
-        'dim | mid, war | raw, '
+        'for, can, ape | pea, cot, law | awl, gun, had, ant | tan, sky, ask',
+        'end | den, lap, pay, wet, wig, fur, lot, log, rug, pet'
       ]
     }
   ]
