@@ -7,6 +7,7 @@ export default {
       id: 'turtle',
       type: 'passage',
       label: 'Sea Turtle',
+      style: 'big',
       data: {
         title: 'Sea Turtle',
         text: `Most of us have seen a tortoise in a zoo or a reptile park. However, not many would have seen its marine relative, the sea turtle. This is not surprising, since these reptiles spend almost their entire life in the sea.
@@ -79,7 +80,7 @@ Four of the sea turtle species mentioned above have  become *rare* (abundant) in
     },
     {
       id: 'match',
-      label: 'Match the following',
+      label: 'Match: Synonyms',
       type: 'match',
       data: {
         title: `Match the synonym pairs.`,
@@ -105,7 +106,7 @@ The female turtles lay eggs and go back to the *sea (see)*.`
     },
     {
       id: 'match-2',
-      label: 'Match the following',
+      label: 'Match: Antonyms',
       type: 'match',
       data: {
         title: `Match the antonym pairs.`,
@@ -118,6 +119,7 @@ Enourmous, Miniature`
     {
       id: 'mithali',
       type: 'passage',
+      style: 'big',
       label: 'Mithali Raj',
       data: {
         title: 'Mithali Raj',
@@ -201,6 +203,7 @@ degrade, conferred, bestowed, awarded, honored, recognized`
       id: 'usha',
       type: 'passage',
       label: 'Usha Rani',
+      style: 'big',
       data: {
         title: 'Usha Rani',
         text: `Usha Rani, cop-cum-kabadi champion rose from shanty town of Subedarpalaya in Yeshwanthpur near Bengaluru, in Karnataka. Armed with her mother's unfulfilled dream to become an athlete, she became determined and practised kabaddi at the Kanteerava Stadium every morning rain or shine. As a school child, she grew up watching Kabaddi at a club in front of her house and soon joined the club and started playing kabaddi at National level in sub-junior category.
@@ -268,6 +271,7 @@ aim, excellence, superiority, outstanding, greatness, mastery`
     {
       id: 'sindhu',
       type: 'passage',
+      style: 'big',
       label: 'P. V. Sindhu',
       data: {
         title: 'P. V. Sindhu',
