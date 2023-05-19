@@ -2,149 +2,71 @@ export default {
   label: 'Roman Number',
   id: 'roman-number',
   list: [
-    /*
-{
-label: 'Roman Numbers 1 to 50',
-type: 'passage',
-id: 'notes-1',
-data: {
-title: 'Quick Notes',
-text: `I - 1
-II - 2
-III - 3
-IV - 4
-V - 5
-VI - 6
-VII - 7
-VIII - 8
-IX - 9
-X - 10
-XI - 11
-XII - 12
-XIII - 13
-XIV - 14
-XV - 15
-XVI - 16
-XVII - 17
-XVIII - 18
-XIX - 19
-XX - 20
-XXI - 21
-XXII - 22
-XXIII - 23
-XXIV - 24
-XXV - 25
-XXVI - 26
-XXVII - 27
-XXVIII - 28
-XXIX - 29
-XXX - 30
-XXXI - 31
-XXXII - 32
-XXXIII - 33
-XXXIV - 34
-XXXV - 35
-XXXVI - 36
-XXXVII - 37
-XXXVIII - 38
-XXXIX - 39
-XL - 40
-XLI - 41
-XLII - 42
-XLIII - 43
-XLIV - 44
-XLV - 45
-XLVI - 46
-XLVII - 47
-XLVIII - 48
-XLIX - 49
-L - 50`
-}
-},
-{
-label: 'Roman Numbers 51 to 100',
-type: 'passage',
-id: 'notes-2',
-data: {
-title: 'Quick Notes',
-text: `LI - 51
-LII - 52
-LIII - 53
-LIV - 54
-LV - 55
-LVI - 56
-LVII - 57
-LVIII - 58
-LIX - 59
-LX - 60
-LXI - 61
-LXII - 62
-LXIII - 63
-LXIV - 64
-LXV - 65
-LXVI - 66
-LXVII - 67
-LXVIII - 68
-LXIX - 69
-LXX - 70
-LXXI - 71
-LXXII - 72
-LXXIII - 73
-LXXIV - 74
-LXXV - 75
-LXXVI - 76
-LXXVII - 77
-LXXVIII - 78
-LXXIX - 79
-LXXX - 80
-LXXXI - 81
-LXXXII - 82
-LXXXIII - 83
-LXXXIV - 84
-LXXXV - 85
-LXXXVI - 86
-LXXXVII - 87
-LXXXVIII - 88
-LXXXIX - 89
-XC - 90
-XCI - 91
-XCII - 92
-XCIII - 93
-XCIV - 94
-XCV - 95
-XCVI - 96
-XCVII - 97
-XCVIII - 98
-XCIX - 99
-C - 100`
-}
-},
-{
-label: 'Roman Numbers 100 to 1000',
-type: 'passage',
-id: 'notes-3',
-data: {
-title: 'Quick Notes',
-text: `CL  - 150
-CC - 200
-CCL - 250
-CCC - 300
-CCCL - 350
-CD - 400
-CDL - 450
-D - 500
-DL - 550
-DC - 600
-DCL - 650
-DCC - 700
-DCCL - 750
-DCCC - 800
-DCCCL - 850
-CM - 900
-CML - 950
-M - 1000`
-}
-},*/
+    {
+      label: 'Roman Numbers 1 to 50',
+      type: 'passage',
+      id: 'notes-1',
+      data: {
+        title: 'Quick Notes',
+        text: [
+          `Roman numerals represent a number system that uses letters to express numbers collectively. The ancient Romans used the letters I, V, X, L, C, D, and M to write numbers.
+The first 20 Roman Numbers are given below.`,
+          {
+            type: 'table',
+            text: [
+              `I — 1
+II — 2
+III — 3
+IV — 4
+V — 5
+VI — 6
+VII — 7
+VIII — 8
+IX — 9
+X — 10`,
+
+              `XI — 11
+XII — 12
+XIII — 13
+XIV — 14
+XV — 15
+XVI — 16
+XVII — 17
+XVIII — 18
+XIX — 19
+XX — 20`
+            ]
+          },
+          `Some more Roman numbers.`,
+          {
+            type: 'table',
+            text: [
+              `XXX — 30
+XL — 40
+L — 50
+LX — 60
+LXX — 70
+LXXX — 80
+XC — 90
+C — 100
+CC — 200
+CCC — 300`,
+
+              `CCCXXXIII — 333
+CCCLXXXVIII — 388
+CD — 400
+D — 500
+DCCC — 800
+CM — 900
+M — 1000
+MI — 1001
+MMM — 3000
+MMMCDXLIV — 3444`
+            ]
+          }
+        ]
+      }
+    },
     {
       type: 'match',
       id: 'match',
@@ -250,7 +172,7 @@ X, XXXI, XLIII, LXXX`,
         `XI, XXXVIII, XLIX, L
 XLI, L, LXX, XCVII
 LXXXV, XCV, CC, DC
-XLIX, XC, LXXX, XX
+XX, XLIX, XC, LXXX
 LI, LXX, XCVI, LXXXV`,
 
         `L, C, CML, D
@@ -298,10 +220,10 @@ XLI, LI, LXXIV, XCI, CL
 LXXXV, XCII, CL, D, CM`,
 
         `XCI, CL, DC, CM, M
-XLVI, LI, LXXI, XCI, CL
+XLVI, LIV, LXXI, XCI, CL
 LIV, LXXV, XCI, CL, DC
 XXIX, XL, LXXI, XCI, CL
-LXX, XCI, C, CL, DC`,
+LXX, XCI, C, CL, CD`,
 
         `LXVI, XCI, XCIX, CL, DC
 XL, XCIV, C, CCL, DCC
