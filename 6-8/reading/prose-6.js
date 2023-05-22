@@ -231,7 +231,7 @@ Important, well-known, or noticeable.|PROMINANT`
       type: 'match',
       data: {
         title: `Match the synonym pairs.`,
-        text: `Unfulfilled, Unacheived
+        text: `Unfulfilled, Unachieved
 Determined, Persistent
 Practise, Rehearse
 Source, Provider

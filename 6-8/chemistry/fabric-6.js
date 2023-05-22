@@ -15,10 +15,10 @@ There is a lot of variety in fabrics. The clothing material or fabric can be mad
 The thin strands of thread are made up of even thinner strands called fibre. Fabrics are made of yarns and yarns are further made of fibres. The fibres of fabrics such as cotton, jute, silk and wool are obtained from plants and animals. They are called natural fibres. Fibres made from chemical substances are called synthetic fibres.Polyster, nylon and acrylic are synthetic fibres.
 
 # Cotton 
-Cotton is obtained from friut of cotton plant. The fibres are usually picked by hand and then separated from the seeds by combing. This process is called ginning.
+Cotton is obtained from fruit of cotton plant. The fibres are usually picked by hand and then separated from the seeds by combing. This process is called ginning.
 
 # Jute
-Jute is obtained from sttem of jute plant. The stems are immersed in water for a few days and then the fibres are separated by hand.
+Jute is obtained from stem of jute plant. The stems are immersed in water for a few days and then the fibres are separated by hand.
 
 # Spinning Cotton Yarn
 The process of making yarn from fibres is called spinning. In this process , fibres from a mass of cotton wool are drawn out and twisted to form yarn. Some spinning devices include hand spindle or takli and charkha which was popularised by Mahatma Gandhi. Clothes made of homespun yarn are called khadi.
@@ -129,7 +129,7 @@ Rayon blouse`
             name: 'True',
             text: ` Yarn is made from fibres.
 The process of removing seed from cotton is called ginning.
-Weaving of yarn makes a peice of fabric.`
+Weaving of yarn makes a piece of fabric.`
           },
           {
             name: 'False',
@@ -153,7 +153,7 @@ Polyester is a natural fibre.`
         text: `The process of making yarn from fibres is called: *spinning*
 The process of arranging two sets of yarns together to make a fabric is called: *weaving*
 The process of removing seed from cotton is called: *ginning*
-The process by which a single yarn is used to make a peice of cloth is called: *knitting*`
+The process by which a single yarn is used to make a piece of cloth is called: *knitting*`
       }
     },
     {
@@ -194,7 +194,7 @@ Nylon, Synthetic`,
             options: `Spinning, Ginning, Knitting`
           },
           {
-            qText: 'Which process uses a single yarn to make a peice of cloth?',
+            qText: 'Which process uses a single yarn to make a piece of cloth?',
             options: `Knitting, Weaving, Ginning`
           },
           {

@@ -280,7 +280,7 @@ He is afraid of *telling (to tell)* the truth.
 My aim in life is *becoming (to become)* a writer.`,
 
         `Her objective is *starting (to start)* a home for parentless children.
-What I want to do in life is *achieving (to acheive)* something useful for all.
+What I want to do in life is *achieving (to achieve)* something useful for all.
 I do not mind *having (to have)* a cup of tea.
 I enjoy *reading (to read)* English novels.
 Have you postponed *going (to go)* to Delhi?`

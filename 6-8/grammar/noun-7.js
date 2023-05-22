@@ -110,7 +110,7 @@ The *beauty* of nature can inspire us positively.`,
 
         `*Happiness* is often elusive, but can be found in the simplest of things.
 *Wisdom* is gained through experience and reflection.
-*Courage* is the willingness to face *fear* and *danger* in order to acheive a goal.
+*Courage* is the willingness to face *fear* and *danger* in order to achieve a goal.
 *Patience* is a virtue that will serve you well in life.
 She felt a deep sense of *joy* when she saw her children.`,
 

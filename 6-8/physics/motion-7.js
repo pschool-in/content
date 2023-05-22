@@ -69,7 +69,7 @@ It is not possible to calculate the speed of a moving train.`
           `Time can be measured in seconds, minute, hour, day, week, month, year, decade, century.
 Time can be denoted as an absolute point of reference or interval. Clock and calendar show absolute time. A stop watch, count-down timer, sandclock shows time interval.
 # Working of a clock
-The working of clocks is rather complex. But all of them make use of some periodic motion. One of the most well-known periodic motions is that of a simple pendulum.
+The working of clocks is rather complex. But all of them make use of some periodic motion. One of the most well-known periodic motion is that of a simple pendulum.
 A simple pendulum consists of a small metallic ball or a piece of stone suspended from a rigid stand by a thread. The metallic ball is called the bob of the pendulum.
 When the bob of the pendulum is released after taking it slightly to one side, it begins to move to and fro.
 The to and fro motion of a simple pendulum is an example of a periodic or an oscillatory motion.
@@ -190,7 +190,7 @@ The latest clocks work based on *quartz (pendulum)*.`
           {
             qText: 'While travelling by car, if we increase the speed,',
             options: `the travel time decreases.
-the trave time increases.
+the travel time increases.
 the travel time remains the same.`
           },
           {

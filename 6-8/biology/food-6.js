@@ -112,10 +112,10 @@ If seeds have a small white structure growing out, then the seeds are said to be
 Every dish contains one or more ingredients which maybe plant or animal based. These ingredients contain some components that are needed by our body called nutrients. The major nutrients in our food are named carbohydrates, proteins, fats, vitamins and minerals. In addition, food contains dietary fibres and water which are also needed by our body.
 
 # Test for Carbohydrate
-First a dilute solution of iodine is prepared by adding a few drops of tinture iodine to a test tube half filled with water. Now take a small quantity of food item or a raw ingredient and add 2-3 drops of dilute iodine solution. A blue-black colour change indicates the presence of starch.
+First a dilute solution of iodine is prepared by adding a few drops of tincture iodine to a test tube half filled with water. Now take a small quantity of food item or a raw ingredient and add 2-3 drops of dilute iodine solution. A blue-black colour change indicates the presence of starch.
 
 # Test for Protein
-Copper sulphate solution is prepared by dissolving 2 grams of copper sulphate in 100 millilitre of water. Then dissolve 10 grams of caustic soda  in 100 ml of water. Take a small quantity of food item, grind to paste and add 10 drops of water to make a paste. To this add two drops of copper sulphate and ten drops of caustic soda. A violet colour indicates presence of protiens.
+Copper sulphate solution is prepared by dissolving 2 grams of copper sulphate in 100 millilitre of water. Then dissolve 10 grams of caustic soda  in 100 ml of water. Take a small quantity of food item, grind to paste and add 10 drops of water to make a paste. To this add two drops of copper sulphate and ten drops of caustic soda. A violet colour indicates presence of proteins.
 
 # Test for Fat
 Take a small quantity of a food item. Wrap it in a piece of paper and crush it. Take care that the paper does not tear. An oily patch on paper shows that the food item contains fat. The food items may sometimes contain a little water. Therefore, after you have rubbed an item on paper, let the paper dry for a while. If there were any water that may have come from food, it would dry up after some time. If no oily patch shows up after this, the food item does not contain any fat.
@@ -123,10 +123,10 @@ Take a small quantity of a food item. Wrap it in a piece of paper and crush it. 
 # What do various nutrients do for our body?
 Carbohydrates mainly provide energy to our body. Fats also give us energy. In fact, fats give much more energy as compared to the same amount of carbohydrates. Foods containing  fats and carbohydrates are also called ‘energy giving foods’. Proteins are needed for the growth and repair of our body. Proteins are often called ‘body building foods’. Vitamins help in protecting our body against diseases. Vitamins also help in keeping our eyes, bones, teeth and gums healthy. Minerals are needed by our body in small amounts. Besides these nutrients, our body needs dietary fibres and water. Roughage does not provide any nutrient to our body but helps our body get rid of undigested food. Water helps our body to absorb nutrients from food. It also helps in throwing out some wastes from body as urine and sweat.
 
-# Balance Diet
+# Balanced Diet
 For growth and maintenance of good health, our diet should have all the nutrients that our body needs, in right quantities.  The diet should also contain a good amount of roughage and water. Such a diet is called a balanced diet. It can be very harmful for us to eat too much of fat rich foods and we may end up suffering from a condition called obesity.
 
-# Deficency Diseases
+# Deficiency Diseases
 Diseases that occur due to lack of nutrients over a long period are called deficiency diseases. If a person does not get enough proteins in their food for a long time, they are likely to have stunted growth, swelling of face discolouration of hair, skin diseases and diarrhoea. If the diet is deficient in both carbohydrates and proteins for a long period of time, the growth may stop completely. Such a person becomes very lean and thin and so weak that he/she may not even be able to move. Deficiency of different vitamins and minerals may also result in certain diseases or disorders.`
       }
     },
@@ -242,7 +242,7 @@ Vitamin B1, Beriberi
 Vitamin C, Scurvy
 Vitamin D, Rickets
 Iodine, Goiter`,
-        title: 'Match the deficency to the disorder.'
+        title: 'Match the Deficiency to the disorder.'
       }
     }
   ]

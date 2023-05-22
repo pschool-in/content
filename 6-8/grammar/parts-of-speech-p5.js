@@ -331,7 +331,7 @@ export default {
             },
             {
               name: 'Adjective',
-              text: `He traveled by a *fast* train.
+              text: `He travelled by a *fast* train.
   I am going to buy a *fast* car.
   All the washing has come out pink. That red T-shirt was not *fast*.
   There must be something wrong with the wall clock. It is always *fast*.`

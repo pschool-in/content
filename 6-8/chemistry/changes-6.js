@@ -27,7 +27,7 @@ Iron structures are heated to fit them into wooden handle. Iron expands on heati
         },
         text: `On heating iron it *expands*.
 Cold water is used to *contract* iron.
-Water turns to vapour by the process of *evapouration*.
+Water turns to vapour by the process of *evaporation*.
 Souring of milk is an *irreversible* change.
 Streching of rubber band is a *reversible* change.`
       }
@@ -40,7 +40,7 @@ Streching of rubber band is a *reversible* change.`
         title: 'Click the blanks and fill it with the right word.',
         text: `Drying of clothes is an *reversible (irreversible)* process.
 Knitting of sweater from woollen yarn is an *reversible (irreversible)* process.
-The sawing of a peice of wood is an *irreversible (reversible)* process.
+The sawing of a piece of wood is an *irreversible (reversible)* process.
 The cooking of food is an *irreversible (reversible)* process.
 Ripening of mango is an *irreversible (reversible)* process.`
       }
@@ -88,7 +88,7 @@ Streching of rubber band.`
           },
           {
             name: 'Irreversible',
-            text: `The sawing of a peice of wood.
+            text: `The sawing of a piece of wood.
 The cooking of food.
 Ripening of mango.
 Souring of milk.`
@@ -130,7 +130,7 @@ Cooking of food is a reversible change.`
 Process that cannot be reversed - *Irreversible*
 Change in iron on heating - *Expansion*
 Change in ice or candle on heating - *Melting*
-Change of water into vapour - *Evapouration*`
+Change of water into vapour - *Evaporation*`
       }
     },
     {

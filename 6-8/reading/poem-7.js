@@ -1088,7 +1088,7 @@ A dream of a distant place`
           },
           {
             qText: `Why did the speaker choose the second road?`,
-            options: ` It was less traveled than the first road
+            options: ` It was less travelled than the first road
 The speaker had walked on it before
 It was easier to walk on
 It was more scenic than the first road`
@@ -1108,7 +1108,7 @@ They are unsure if it was the right ones`
           },
           {
             qText: `What is the message of the poem?`,
-            options: ` Sometimes it's better to take the road less traveled
+            options: ` Sometimes it's better to take the road less travelled
 Always choose the road that looks easiest
 It's important to always follow a map
 Two roads are always better than one`

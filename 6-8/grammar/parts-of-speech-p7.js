@@ -647,7 +647,7 @@ It's *time* to sleep.`
             },
             {
               name: 'Adjective',
-              text: `He traveled by the *up* train.
+              text: `He travelled by the *up* train.
 If you are *up* for a trip, let's go.
 What is *up* with that project at headquarters?`
             },

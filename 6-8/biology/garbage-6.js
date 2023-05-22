@@ -103,7 +103,7 @@ Aluminium cans`
           {
             name: 'Reuse',
             text: `Jute carrybags
-Handkercheif
+Handkerchief
 Steel mugs
 Cotton wipes
 Glass jars`

@@ -152,7 +152,7 @@ Gravity is not a property of the earth alone. Every object in the universe, whet
       data: {
         text: `Atleast *two (three)* objects must interact for a force to come into play.
 The *strength (direction)* of the force is expressed by its magnitude.
-Applying force can change the *shape (state, weight)* for an object.
+Applying force can change the *shape (state, weight)* of an object.
 The force applied by us is called *muscular (human)* force.
 *Frictional (Magnetic)* force is always opposite to the direction of motion.`
       }
@@ -208,7 +208,7 @@ Shoulder bags are provided with broad straps so that the weight is spread over t
 # Liquids and Gases
 Liquid and gases exert pressure on the walls of the container. When we blow a balloon, the air inside the balloon will be denser than the atmospheric air. As the air inside the balloon pushes the wall, the balloon will stretch. If we put a hole in a balloon, the air forces out.
 # Atmospheric Pressure
-The atmospheric air extends up to many kilometres above the surface of the earth. The pressure exerted by this air is known as atmospheric pressure. The force due to air in a column of the height of the atmosphere and area 15 cm × 15 cm (top area of our head) is nearly equal to the force of gravity on an object of mass 225 kg (2250N). The reason we are not crushed under this force of gravity is that the pressure inside our bodies is also equal to the atmospheric pressure and balances the pressure from outside.`
+The atmospheric air extends up to many kilometres above the surface of the earth. The pressure exerted by this air is known as atmospheric pressure. The force due to air in a column of the height of the atmosphere and area 15 cm × 15 cm (top area of our head) is nearly equal to the force of gravity on an object of mass 225 kg (2250N). The reason we are not crushed under this force of gravity is that the pressure inside our body is equal to the atmospheric pressure and balances the pressure from outside.`
         ]
       }
     },
