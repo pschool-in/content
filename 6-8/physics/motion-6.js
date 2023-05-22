@@ -92,7 +92,7 @@ Boats and ships are known as _____. | WATERWAYS | W____W___`
           },
           {
             qText: 'How fast a vehicle moves is defined by its ______.',
-            options: 'speed, wheel size, distance traveled, time taken'
+            options: 'speed, wheel size, distance travelled, time taken'
           }
         ]
       }
@@ -124,7 +124,7 @@ Measuring length is about the distance between two points or places. The two pla
 In ancient times, the length of a foot, the width of a finger, and the distance of a step were commonly used as different units of measurements. Even today, we can see flower sellers using their forearm as a unit of length for garlands in many towns of India. Unfortunately, all these measurement varies from people to people.
 For the sake of uniformity, scientists all over the world have accepted a set of standard units of measurement. The system of units now used is known as the International System of Units (SI units). The SI unit of length is a metre.
 Each metre (m) is divided into 100 equal divisions, called centimetre (cm). Each centimetre has ten equal divisions, called millimetre (mm). For measuring large distances, we use killometer(km), which is 1000 times the metre. Measuring the length of a curved line cannot be done using a scale.
-We can use a thread to measure the length of a curved line. Place the thread along the curve and them measure the length of the thread.`
+We can use a thread to measure the length of a curved line. Place the thread along the curve and then measure the length of the thread.`
       }
     },
     {

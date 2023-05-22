@@ -358,7 +358,7 @@ Babar has founded the Mughal Empire.`
 She *finished* her homework before dinner.
 They *saw* a movie last night.
 He *played* soccer with his friends on Saturday.
-We *traveled* to Europe last summer.`,
+We *travelled* to Europe last summer.`,
 
         `The teacher *explained* the lesson in class yesterday.
 We *visited* the museum last week.
@@ -472,7 +472,7 @@ We *were playing* (play) basketball in the park when it started raining. (past c
 
         `My parents *took* (take) me to the beach last weekend. (simple past)
 She *had finished* (finish) her project before the deadline. (past perfect)
-They *traveled* (travel) to Japan last year. (simple past)
+They *travelled* (travel) to Japan last year. (simple past)
 He *ran* (run) in the marathon yesterday. (simple past)
 The teacher *was explaining* (explain) the lesson in class when the fire alarm went off. (past continuous)`,
 

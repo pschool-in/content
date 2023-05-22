@@ -293,7 +293,7 @@ The mother bird kept flying around, *until* she found food for her chicks.`,
 The soldier’s horse skillfully jumped *over* the fence.
 Anjali’s cat was almost run *over* by a car!
 Farid climbed *onto* the roof to rescue his pet parrot which couldn’t fly.
-The lady in the blue saree has traveled all *over* the world.`,
+The lady in the blue saree has travelled all *over* the world.`,
         options: 'over, onto'
       }
     },

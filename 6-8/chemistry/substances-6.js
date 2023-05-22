@@ -20,7 +20,7 @@ Winnowing is used to separate heavier and lighter components of a mixture by win
 Sieving allows the fine flour particles to pass through the holes of the sieve while the bigger impurities remain on the sieve.
 # Sedimentaion, Decantation and Filtration
 When the heavier component in a mixture settles after water is added to it, the process is called sedimentation. Removal of water along with the dust is called decantation. Filtration can be used to separate components of a mixture of an insoluble solid and a liquid.
-# Evapouration
+# Evaporation
 The process of conversion of water into its vapour is called evaporation. The process of evaporation takes place continuously wherever water is present.
 # Condensation
 The process of conversion of water vapour into its liquid form is called condensation.
@@ -71,8 +71,8 @@ Water dissolves different amount of *soluble (insoluble)* substances in it.`
           dashWidth: 80
         },
         text: `The method of separating seeds of paddy from its stalks is called: *threshing*
-The process of separating cream from milk is an example of: *filteration*
-Salt is obtained from seawater by the process of: *evapouration*
+The process of separating cream from milk is an example of: *filtration*
+Salt is obtained from seawater by the process of: *evaporation*
 The process of separation of clear water from a settled mixture is called: *decantation*`
       }
     },
@@ -98,20 +98,20 @@ ORS made with a pinch of salt and sugar in a cup of water.`
       }
     },
     {
-      id: 'filteration-seiving',
-      label: 'Filteration or Seiving',
+      id: 'filtration-sieving',
+      label: 'Filtration or Sieving',
       type: 'classifySentence',
       data: {
         title: 'Classify based on the method of separation used.',
         types: [
           {
-            name: 'Filteration',
+            name: 'Filtration',
             text: `Air filter that removes impurites from air.
 Water filter that remove impurities from water.`
           },
           {
-            name: 'Seiving',
-            text: `Flour is passed through seive in baking processes.
+            name: 'Sieving',
+            text: `Flour is passed through sieve in baking processes.
 Cement is sifted before mixing.
 Tea leaves separated from tea using strainer.`
           }
@@ -133,7 +133,7 @@ Stones can be separated by handpicking.`
           {
             name: 'False',
             text: `A mixture of water and milk can be separarted by filterartion.
-Separation of sugar from tea can be done by filteration.
+Separation of sugar from tea can be done by filtration.
 Salt is obtained from sea water by decantation.`
           }
         ]
@@ -161,7 +161,7 @@ Coconut oil and water, Separating funnel`,
           {
             name: 'Handpicking',
             text: `Separating mixture of chillies and ladies finger.
-Separation stone from rice, pulses and wheat.
+Separation of stone from rice, pulses and wheat.
 Separating rotten potatoes from fresh ones.`
           },
           {
@@ -224,7 +224,7 @@ The process of conversion of water vapour into its liquid form is called *conden
           {
             qText:
               'A solid is dissolved in water. Which one of the following methods can be used to separate it?',
-            options: `Evaporation, Decantation, Distillation, Filteration`
+            options: `Evaporation, Decantation, Distillation, Filtration`
           },
           {
             qText:

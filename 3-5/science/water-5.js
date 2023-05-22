@@ -107,7 +107,7 @@ Aedes mosquito breeds in stagnant water and it causes Dengue fever. Similarly, p
           },
           {
             qText: 'Which of the following is not a desalination process?',
-            options: 'Filteration, Distillation, Reverse Osmosis'
+            options: 'Filtration, Distillation, Reverse Osmosis'
           }
         ]
       }

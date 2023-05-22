@@ -28,9 +28,9 @@ All the bones in our body form a framework that gives shape to our body. This fr
 The skeleton is made  up of many bones, joints and cartilages.
 
 # Different types of bones
-1. Several small bones that forms the framework of our hand are called *carples*.
+1. Several small bones that forms the framework of our hand are called *carpals*.
 2.  Our rib bones are bent to join the chestbone and the backbone together to form a box. This is called the *rib cage*. There are 12 ribs on each side of the chest. They protect some important internal organs.
-3. The *back bone* is made up of many small bones called *vertebrae*. The back bone consits of 33 vertebrae. The rib cage is joined to these bones. 
+3. The *back bone* is made up of many small bones called *vertebrae*. The back bone consists of 33 vertebrae. The rib cage is joined to these bones. 
 4. The are two prominent bones on the back where the shoulders lie. They are called *shoulder bones*.
 5. *Pelvic bones* enclose the portion of body below the stomach. This is the part you sit on. 
 6. The *skull* is made up of many bones joined together. It encloses and protects the brain.
@@ -38,8 +38,8 @@ The skeleton is made  up of many bones, joints and cartilages.
 # Cartilage
 Some parts of the skeleton are not as hard as the bones and can be bent. These are called cartilage. Our ear is composed of cartilage. Cartilages are also found in the joints of the body.
 
-# Musle movement
-The bone is covered by muscles. The muscle work together to move a bone. When you bent your hand, The muscle is bulged due to contaction. That is it became smaller in length. When contracted, the muscle becomes shorter, stiffer and thicker. It pulls the bone. Muscles work in pairs. When one of them contracts, the bone is pulled in that direction. The other muscle of the pair relaxes. To move the bone in the opposite direction, the relaxed muscle contracts to pull the bone towards its  original position, while the first relaxes. A muscle can only pull. It cannot push. Thus, two muscles have to work together to move a bone. `,
+# Muscle movement
+The bone is covered by muscles. The muscle work together to move a bone. When you bent your hand, The muscle is bulged due to contraction. That is it became smaller in length. When contracted, the muscle becomes shorter, stiffer and thicker. It pulls the bone. Muscles work in pairs. When one of them contracts, the bone is pulled in that direction. The other muscle of the pair relaxes. To move the bone in the opposite direction, the relaxed muscle contracts to pull the bone towards its  original position, while the first relaxes. A muscle can only pull. It cannot push. Thus, two muscles have to work together to move a bone. `,
         title: 'Body Movements'
       }
     },
@@ -155,7 +155,7 @@ Slithers - *Snake*`
           },
           {
             qText: 'What are the small joints in our hand called?',
-            options: `Carples, Tarples, Pattela`
+            options: `Carpals, Tarples, Pattela`
           }
         ]
       }

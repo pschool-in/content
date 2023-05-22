@@ -11,7 +11,7 @@ export default {
         text: `# Objects Around us.
 If we take a look around us we may find a large variety of objects. These objects are made up from a variety of materials. A given material could be used to make a large number of objects. It is also possible that a an object could be made of a single material or of many different types of materials. These materials may be glass, metal, plastics, wood, cotton, paper, mud or soil.
 # Properties of Materials.
-1. Appearence: Some materials have lustre like metals and are shiny in appearence while some are dull.
+1. Appearance: Some materials have lustre like metals and are shiny in appearance while some are dull.
 2. Hardness: Materials that are easily compressed are called soft while others which are difficult to compress are called hard.
 3. Solubility: Some materials readily dissolve in water. These are said to be soluble. Other materials that do not mix with water are said to be insoluble.
 4. Float or Sink: Some materials float on the surface of water while some others sink to the bottom.
@@ -54,7 +54,7 @@ The materials through which objects can be seen, but not clearly, are known as *
       label: 'Shiny or Dull',
       type: 'classifySentence',
       data: {
-        title: 'Classify the given materials based on their appearence.',
+        title: 'Classify the given materials based on their appearance.',
         types: [
           {
             name: 'Shiny',
@@ -109,7 +109,7 @@ Paper`
             text: `Chalk dissolves in water 
 Sand settles down in water
 Vinegar dissolves in water.
-A peice of wood floats on water.`
+A piece of wood floats on water.`
           },
           {
             name: 'False',

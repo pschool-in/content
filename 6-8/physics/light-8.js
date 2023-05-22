@@ -64,7 +64,7 @@ We could see multiple reflection in *hair dresser (stationery)* shop.`
           {
             name: 'True',
             text: `The incident and reflected ray always lie in the same plane.
-The angle is incidence is always equal to the angle of reflection.`
+The angle of incidence is always equal to the angle of reflection.`
           },
           {
             name: 'False',
@@ -123,8 +123,8 @@ natural sunlight`
         text: `Eye is one of the most important sense organs. Human eye is roughly spherical in shape. The outer coat of the eye is white. It is tough so that it can protect the interior of the eye from accidents. Its transparent front part is called cornea. Behind the cornea, we find a dark muscular structure called iris. In the iris, there is a small opening called the pupil. The size of the pupil is controlled by the iris. The iris is the part of eye which gives its distinctive colour. When we say that a person has green eyes, we refer actually to the colour of the iris. The iris controls the amount of light entering into the eye.
 Behind the pupil is a lens which is thicker in the center (convex lens). The lens focuses light on the back of the eye, on a layer called retina. The retina contains several nerve cells. Sensations felt by the nerve cells are then transmitted to the brain through the optic nerve.
 There are two kinds of cells.
-1. cones - which are sensitive to bright light and
-2. rods - which are sensitive to dim light.
+1. cones - which are sensitive to bright light
+2. rods - which are sensitive to dim light
 Cones sense colour. At the junction of the optic nerve and the retina, there are no sensory cells, so no vision is possible at the spot. This is called the blind spot.
 The impression of an image does not vanish immediately from the retina. It persists for about 1/16th of a second. So, if still images of a moving object are flashed on the eye at a rate faster than 16 per second, eye perceives this object as moving.
 Movies we see are a sequence of pictures shown usually at a rate of 24 picture per second.
@@ -245,7 +245,7 @@ There is no blind spot in front of our eyes.`
       id: 'complete-word',
       data: {
         text: `The transparent front part of our eye.| CORNEA| _____A
-The muscular struture of our eye |IRIS| ____
+The muscular structure of our eye |IRIS| ____
 In our eye, the opening inside the iris |PUPIL| _____
 The nature of lens in our eye |CONVEX|C_____
 In old age, eyesight becomes foggy due to ____. | CATARACT | C_______`
