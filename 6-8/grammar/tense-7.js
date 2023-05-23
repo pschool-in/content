@@ -39,7 +39,7 @@ He <i>has been</i> ill since last week`
     },
     {
       id: 'fillup',
-      label: 'Simple Present Tense',
+      label: 'Fillup: Simple Present Tense',
       type: 'fillup',
       data: {
         title:
@@ -53,7 +53,7 @@ Vaishak *does not (did not)* study social science on Wednesday.`
     },
     {
       id: 'fillup-1',
-      label: 'Present Continuous Tense',
+      label: 'Fillup: Present Continuous Tense',
       type: 'fillup',
       data: {
         title:
@@ -67,7 +67,7 @@ Are they *going (went)* outside?`
     },
     {
       id: 'fillup-2',
-      label: 'Present Perfect Tense',
+      label: 'Fillup: Present Perfect Tense',
       type: 'fillup',
       data: {
         title:
@@ -81,7 +81,7 @@ Vivan *has (is)* just *visited (visting)* Jodhpur.`
     },
     {
       id: 'fillup-3',
-      label: 'Present Perfect Continuous Tense',
+      label: 'Fillup: Present Perfect Continuous Tense',
       type: 'fillup',
       data: {
         title:
@@ -117,7 +117,7 @@ Mark sang a Kpop song at the music festival last week.`
     },
     {
       id: 'fill-up-4',
-      label: 'Present Tense',
+      label: 'Fillup: Present Tense',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -187,7 +187,7 @@ She always <i>carried</i> an umbrella.`
     },
     {
       id: 'fill-up-5',
-      label: 'Simple Past Tense',
+      label: 'Fillup: Simple Past Tense',
       type: 'fillup',
       commonData: {
         title: `Complete the sentences in the simple past tense by choosing the appropriate option.`
@@ -226,7 +226,7 @@ She *practiced (practices)* playing the guitar for an hour yesterday.`
     },
     {
       id: 'fill-up-6',
-      label: 'Past Continous Tense',
+      label: 'Fillup: Past Continous Tense',
       type: 'fillup',
       commonData: {
         title: `Complete the sentences in the past continuous tense by choosing the appropriate option.`
@@ -265,7 +265,7 @@ She *was practicing (had to practice)* playing the guitar when her parents came 
     },
     {
       id: 'fill-up-7',
-      label: 'Past Perfect Tense',
+      label: 'Fillup: Past Perfect Tense',
       type: 'fillup',
       commonData: {
         title: `Complete the sentences in the past perfect tense by choosing the appropriate option.`
@@ -304,7 +304,7 @@ She *had practiced (practiced)* playing the guitar for months before her recital
     },
     {
       id: 'fillup-8',
-      label: 'Past Perfect Continuous Tense',
+      label: 'Fillup: Past Perfect Continuous Tense',
       type: 'fillup',
       data: {
         title:
@@ -341,7 +341,7 @@ Babar has founded the Mughal Empire.`
       }
     },
     {
-      label: 'Past Tense',
+      label: 'Fillup: Past Tense',
       type: 'matchByDragDrop',
       id: 'fillup-drag',
       lockAfter: 1,
@@ -418,7 +418,7 @@ By the end of the month, <i>I will have worked</i> here for 5 years.`
       }
     },
     {
-      label: 'Future Tense',
+      label: 'Fillup: Future Tense',
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
@@ -436,7 +436,7 @@ You *will* find her crying bitterly.`
       }
     },
     {
-      label: 'Tenses',
+      label: 'Fillup: Tenses',
       type: 'fillup',
       id: 'fillup-drag-1',
       lockAfter: 1,
@@ -606,6 +606,184 @@ Our hen has lay ten eggs.`
           }
         ]
       }
+    },
+    {
+      label: 'Notes',
+      type: 'passage',
+      id: 'passage-4',
+      data: {
+        title: '12 Forms of Tense',
+        text: [
+          `# Examples 
+I-write`,
+          {
+            type: 'hilight',
+            text: `1. Simple Present: I write.
+2. Present Continuous: I am writing.
+3. Present Perfect: I have written.
+4. Present Perfect Continuous: I have been writing.
+5. Simple Past: I wrote.
+6. Past Continuous: I was writing.
+7. Past Perfect: I had written.
+8. Past Perfect Continuous: I had been writing.
+9. Simple Future: I will write.
+10. Future Continuous: I will be writing.
+11. Future Perfect: I will have written.
+12. Future Perfect Continuous: I will have been writing.`
+          },
+          `I-eat`,
+          {
+            type: 'hilight',
+            text: `1. Present simple: I eat.
+2. Present continuous: I am eating.
+3. Present perfect: I have eaten.
+4. Present perfect continuous: I have been eating.
+5. Past simple: I ate.
+6. Past continuous: I was eating.
+7. Past perfect: I had eaten.
+8. Past perfect continuous: I had been eating.
+9. Future simple: I will eat.
+10. Future continuous: I will be eating.
+11. Future perfect: I will have eaten.
+12. Future perfect continuous: I will have been eating.`
+          },
+          `I-walk`,
+          {
+            type: 'hilight',
+            text: `1. Present simple: I walk.
+2. Present continuous: I am walking.
+3. Present perfect: I have walked.
+4. Present perfect continuous: I have been walking.
+5. Past simple: I walked.
+6. Past continuous: I was walking.
+7. Past perfect: I had walked.
+8. Past perfect continuous: I had been walking.
+9. Future simple: I will walk.
+10. Future continuous: I will be walking.
+11. Future perfect: I will have walked.
+12. Future perfect continuous: I will have been walking.`
+          },
+          `He-drive-car`,
+          {
+            type: 'hilight',
+            text: `1. Simple Present: He drives a car.
+2. Simple Past: He drove a car.
+3. Simple Future: He will drive a car.
+4. Present Continuous: He is driving a car.
+5. Past Continuous: He was driving a car.
+6. Future Continuous: He will be driving a car.
+7. Present Perfect: He has driven a car.
+8. Past Perfect: He had driven a car.
+9. Future Perfect: He will have driven a car.
+10. Present Perfect Continuous: He has been driving a car.
+11. Past Perfect Continuous: He had been driving a car.
+12. Future Perfect Continuous: He will have been driving a car.`
+          },
+          `I-study-English`,
+          {
+            type: 'hilight',
+            text: `1. Simple Present: I study English.
+2. Simple Past: I studied English.
+3. Simple Future: I will study English.
+4. Present Continuous: I am studying English.
+5. Past Continuous: I was studying English.
+6. Future Continuous: I will be studying English.
+7. Present Perfect: I have studied English.
+8. Past Perfect: I had studied English.
+9. Future Perfect: I will have studied English.
+10. Present Perfect Continuous: I have been studying English.
+11. Past Perfect Continuous: I had been studying English.
+12. Future Perfect Continuous: I will have been studying English.`
+          }
+        ]
+      }
+    },
+    {
+      type: 'makeSentence',
+      label: 'Convert to Simple Past Tense',
+      id: 'make-sentence',
+      commonData: {
+        title:
+          'Convert the sentences in Simple Present Tense to Simple Past Tense. Drag & Drop the words from the bottom and construct the sentence.',
+        extras: 'is because of an the them us'
+      },
+      data: [
+        ` I eat dinner at 7 p.m. | I ate dinner at 7 p.m
+She walks to school every day. | she walked to school every day
+They study French for two hours. | they studied French for two hours
+We go to the beach on weekends. | we went to the beach on weekends
+He reads a book before bed. | he read a book before bed`,
+
+        `The train leaves at 9 a.m. | the train left at 9 a.m
+They play soccer every Saturday. | they played soccer every Saturday
+She teaches English at a university.| she taught English at a university
+It rains a lot in this region.| it rained a lot in this region
+I usually go shopping on Saturdays.| I usually went shopping on Saturdays `,
+
+        ` The dog barks at strangers.| the dog barked at strangers
+We often visit our grandparents during the holidays.| we often visited our grandparents during the holidays 
+It rains heavily in the summer.| it rained heavily in the summer
+She plays the piano beautifully. | she played the piano beautifully
+I have a cup of coffee in the morning. | I had a cup of coffee in the morning  `
+      ]
+    },
+    {
+      type: 'makeSentence',
+      label: 'Convert to Past Continuous Tense',
+      id: 'make-sentence-2',
+      commonData: {
+        title:
+          'Convert the sentences in Present Continuous Tense to Past Continuous Tense. Drag & Drop the words from the bottom and construct the sentence.',
+        extras: 'is had have an the been us'
+      },
+      data: [
+        ` I am studying for my exam. | I was studying for my exam
+She is working late tonight. | she was working late last night
+They are watching a movie. | they were watching a movie
+He is cooking dinner in the kitchen. | he was cooking dinner in the kitchen
+We are waiting for the bus. | we were waiting for the bus`,
+
+        `The children are playing in the park. | the children were playing in the park
+I am talking to my friend on the phone. | I was talking to my friend on the phone
+The company is developing a new product.| the company was developing a new product
+They are practicing for the concert.| they were practicing for the concert
+She is writing a letter to her grandmother.| she was writing a letter to her grandmother`,
+
+        `The kids are watching TV in the living room.| the kids were watching TV in the living room
+We are attending a conference this week.| we were attending a conference last week
+We are learning French at the language school.| we were learning French at the language school
+They are traveling to Europe next week. | they were traveling to Europe last week
+I am reading an interesting book. |  I was reading an interesting book `
+      ]
+    },
+    {
+      type: 'makeSentence',
+      label: 'Convert to Simple Future Tense',
+      id: 'make-sentence-3',
+      commonData: {
+        title:
+          'Convert the sentences in Past Tense to Simple Future Tense. Drag & Drop the words from the bottom and construct the sentence.',
+        extras: 'is yesterday last earlier for am'
+      },
+      data: [
+        `I visited my grandparents last week. | I will visit my grandparents next week
+They went to the beach yesterday. | they will go to the beach tomorrow
+She cooked dinner for us last night. | she will cook dinner for us tonight
+We watched a movie yesterday. | we will watch a movie tomorrow
+He completed his homework yesterday. | he will complete his homework tomorrow`,
+
+        `They finished the project last month. | they will finish the project next month
+She studied for her exam yesterday.| she will study for her exam tomorrow
+We traveled to Paris last year.| we will travel to Paris next year
+He bought a new car last week.| he will buy a new car next week
+They celebrated their anniversary last night.| they will celebrate their anniversary tonight `,
+
+        `We finished reading the book last night.| we will finish reading the book tonight
+He ran a marathon last month.| he will run a marathon next month
+They cleaned the house yesterday.| they will clean the house tomorrow
+We traveled to Europe last summer. | we will travel to Europe next summer
+They visited the museum earlier today. | they will visit the museum later today`
+      ]
     }
   ]
 };

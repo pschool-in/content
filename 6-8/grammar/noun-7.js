@@ -364,18 +364,27 @@ A group of criminals| GANG`
 3. Masculine Noun: A noun that refers to the 'male' is called a masculine noun. The word masculine means male, so all the words with male gender, be it a person's name, an animal's name, or a bird's name, it is all said to be masculine.
 4. Feminine Noun: A noun that refers to the 'female' is called a feminine noun. The word feminine means female, so all the words with female gender, be it a person's name, an animal's name or a bird's name, it is all said to be feminine.
 5. Common Gender Noun: A noun that belongs to both males and females.
-# Gender Nuetered Language
+# Gender Nueteral Language
 With growing awareness, people are moving away from gendered terms and embracing gender-neutral language.
 Examples of gendered terms	and their gender-neutral terms:`,
           {
             type: 'html',
-            text: `Mankind => <i>Humankind</i>  <br>
-Policeman, policewoman =>	<i>Police</i> <br>
-Fireman =>	<i>Firefighter</i>  <br>
-Chairman => <i>Chairperson</i>  <br>
-Stewardess, Steward	=> <i>Flight attendant</i>  <br>
-Actor, actress	=> <i>Actor</i>  <br>
-Common man	=> <i>Common person</i> `
+            text: `Mankind → <i>Humankind</i>  <br>
+Policeman, policewoman →	<i>Police</i> <br>
+Fireman →	<i>Firefighter</i>  <br>
+Chairman → <i>Chairperson</i>  <br>
+Stewardess, Steward	→ <i>Flight attendant</i>  <br>
+Actor, actress	→ <i>Actor</i>  <br>
+Boy/girl → <i>Child</i> <br>
+Sister/brother → <i>Sibling</i> <br>
+Mother/father → <i>Parent</i> <br>
+Grandma/grandpa → <i>Grandparent</i> <br>
+Waiter/waitress → <i>Server</i> <br>
+Maiden name → <i>Family name</i> <br>
+Ladies and gentlemen → <i>Folks, everyone</i> <br>
+The common man → <i>The average person</i> <br>
+Kinsmen → <i>Relatives</i> <br>
+Man up → <i>Toughen up</i>`
           }
         ]
       }
@@ -437,12 +446,12 @@ Master, Mistress
 Prince, Princess
 Tiger, Tigress`,
 
-        `Bachelor, Maid
+        `Bachelor,  Bachelorette
 Brother, Sister
 Gentleman, Lady
 King, Queen
 Monk, Nun
-Horse, Mare`,
+Stallion, Mare`,
 
         `Lord, Lady
 Nephew, Niece
