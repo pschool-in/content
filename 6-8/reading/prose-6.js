@@ -134,7 +134,7 @@ Now that I am inspired by her and my attitude has changed, I certainly will be h
     },
     {
       id: 'match-3',
-      label: 'Match the following',
+      label: 'Match: Synonym',
       type: 'match',
       data: {
         title: `Match the synonym pairs.`,
@@ -175,7 +175,7 @@ Many people were *surprised* to learn about Mithali Raj's *journey* and her abil
     },
     {
       id: 'match-4',
-      label: 'Match the following',
+      label: 'Match: Word Meaning',
       type: 'match',
       data: {
         title: `Match the word with its meaning.`,
@@ -229,7 +229,7 @@ Important, well-known, or noticeable.|PROMINANT`
     },
     {
       id: 'match-5',
-      label: 'Match the following',
+      label: 'Match: Synonym',
       type: 'match',
       data: {
         title: `Match the synonym pairs.`,
@@ -301,7 +301,7 @@ Sindhu's *dedication* and never-say-die spirit are *evident* in her *commitment*
     },
     {
       id: 'match-6',
-      label: 'Match the following',
+      label: 'Match: Word Meaning',
       type: 'match',
       data: {
         title: `Match the word with its meaning.`,

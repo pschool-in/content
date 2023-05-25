@@ -67,7 +67,7 @@ Non-finite verbs are used for singular subjects, while finite verbs are used for
     },
     {
       id: 'helping-verb',
-      label: 'Helping Verbs',
+      label: 'Fillup: Helping Verbs',
       type: 'fillup',
       commonData: {
         title:
@@ -133,7 +133,7 @@ We *are (is, am)* going to the park this afternoon.`
     },
     {
       id: 'has-have-had',
-      label: 'Has/Have/Had',
+      label: 'Fillup: Has/Have/Had',
       type: 'fillup',
       commonData: {
         title: 'Fill in the blanks using has/have/had.'
@@ -258,7 +258,7 @@ Dream-dream<b>t</b>-dream<b>t</b> (<i>irregular</i>); Dream-dream<b>ed</b>-dream
       }
     },
     {
-      label: 'Simple Past',
+      label: 'Puzzle: Simple Past',
       id: 'complete',
       type: 'completePuzzle',
       lockAfter: 1,
@@ -329,7 +329,7 @@ Shut, Shut, Shuted`
       ]
     },
     {
-      label: 'Past Participle',
+      label: 'Puzzle: Past Participle',
       id: 'complete-past',
       type: 'completePuzzle',
       lockAfter: 1,
@@ -401,7 +401,7 @@ Shut, Shut, Shuted`
     },
     {
       id: 'irregular-verb',
-      label: 'Irregular Verb',
+      label: 'Fillup: Irregular Verb',
       type: 'fillup',
       commonData: {
         noOptions: true,
@@ -485,7 +485,13 @@ The coach instructed the players, "Don't *forget* to wear your team uniform for 
 
         `Mr Koch, the mathematics teacher *gave* Albert the reference he *wanted*.
 Albert *got* summoned to the head teacher's room. The headteacher told Albert that his work *was* terrible and he *would* be punished if he *continued* the same way. 
-Albert was *tempted* to say a few words, then thought otherwise.`
+Albert was *tempted* to say a few words, then thought otherwise.`,
+
+        `John loves to *swim* in the pool every day. Yesterday, he *swam* laps for an hour and felt *exhausted* afterward. He has also *swum* competitively in several tournaments in the past. *Swimming* is not only a hobby for him but also a form of exercise. He *enjoys* the present moment while swimming, cherishes the memories of the past races, and relishes the satisfaction of having swum well in the past competitions.`,
+
+        `I *wake* up early every morning and start my day with a cup of coffee. Yesterday, I *woke* up late and rushed to catch the bus. Today, I have *woken* up feeling refreshed after a good night's sleep. I *eat* a healthy breakfast consisting of fruits and yogurt. Last week, I *ate* a delicious homemade biriyani for dinner. I have *eaten* at many different restaurants around the world.`,
+
+        `I *go* to work by car, but sometimes I prefer to walk. Last month, I *went* on a vacation to the beach and had a great time. I have *gone* on many adventures throughout my life. I read books to relax in the evenings. Yesterday, I *read* a captivating novel until late at night. I *have read* hundreds of books in my lifetime.`
       ]
     },
     {
@@ -704,7 +710,7 @@ All forms of the verb 'become' are used as linking verbs.`
     },
     {
       type: 'selectWord',
-      label: 'Linking Verb',
+      label: 'Identify: Linking Verb',
       id: 'select-word-2',
       lockAfter: 1,
       commonData: {
@@ -732,7 +738,14 @@ My parents *were* tired after the long journey.`,
         `Kenny *seems* to be a great man.
 Based on the results of the experiment, her hypothesis *proved* true.
 My daughter *acts* shy around strangers.
-William's mom *is* a doctor.`
+William's mom *is* a doctor.
+The house *appears* empty.`,
+
+        `The flower *smells* lovely.
+They *feel* tired. 
+The cake *looks* delicious.
+I *am* happy. 
+The dog *seems* friendly. `
       ]
     },
     {
@@ -870,7 +883,7 @@ It was not necessary to meet him but I met him.`
     },
     {
       id: 'modal',
-      label: 'Modal Auxiliary Verbs',
+      label: 'Fillup: Modal Auxiliary Verbs',
       type: 'matchByDragDrop',
       commonData: {
         title:
@@ -959,6 +972,34 @@ You *ought to* consult a Dentist.`
           }
         ]
       }
+    },
+    {
+      id: 'modal-2',
+      label: 'Complete: Paragraph',
+      type: 'matchByDragDrop',
+      commonData: {
+        title: 'Complete the paragraph using suitable modal auxiliary verbs.'
+      },
+      lockAfter: 2,
+      data: [
+        `I *could* have gone to the party last night, but I decided to stay home and study instead. I *should* have finished my assignment by now, but I procrastinated and *will* have to work on it tomorrow. I *might* go for a run in the morning if the weather is nice. I *must* remember to buy groceries on my way back from work. I *would* love to visit Paris someday and experience its rich culture. `,
+
+        `I *should* have studied harder for the exam, but I *might* have underestimated the difficulty level. Now, I *must* accept the consequences and strive to improve in the future. I *will* dedicate more time and effort to my studies so that I *can* achieve better results.`,
+
+        `I *should* have completed my assignment yesterday, but I *couldn't* find the necessary resources. Now, I *must* work extra hard to finish it by tomorrow. I *might* ask my teacher for an extension, but I *ought to* have a valid reason. If I *can't* get an extension, I *will* definitely have to prioritize my time and stay focused to meet the deadline.`,
+
+        `I *should* go to the gym today to work on my fitness goals. I *must* admit, I *haven't* been very active lately, so it's important for me to make an effort. I *could* also consider joining a fitness class or hiring a personal trainer for extra motivation. By incorporating regular exercise into my routine, I *will* be able to improve my overall health and feel more energized. Taking these steps will help me achieve my fitness objectives and lead a healthier lifestyle.`,
+
+        `Sarah *should* study for her upcoming exam. She *must* review all the key concepts and practice solving sample questions. She *could* ask her classmates for help if she doesn't understand something. Sarah *ought to* prioritize her studies and avoid distractions. She *might* need to sacrifice some leisure time to ensure she is fully prepared. By using effective study strategies, Sarah *can* increase her chances of success in the exam.`,
+
+        `I *should* wake up early tomorrow to catch my flight. I *must* pack my bags tonight and make sure I *have* all the necessary documents. I *might* need to call a taxi in the morning if there's no public transportation available. I *could* also ask a friend to give me a ride to the airport. I *will* definitely double-check the departure time before leaving the house. I *can't* afford to miss my flight.`,
+
+        `Tom *should* visit the doctor tomorrow to get his persistent cough checked out. He *might* be coming down with something more serious, so it's important for him to get a professional opinion. If necessary, the doctor *can* prescribe medication to help alleviate his symptoms. Tom *must* take care of his health and not ignore any warning signs.`,
+
+        `I *have* been moving across the globe; however, I feel I *may* not be doing so in the coming days. Recently I acquired a new office position that *would* demand most of my time. I *shall*, however, delegate most of my works. After a year or so, I *will* think of continuing with my travel business since I *might* have covered most of the work that I *need to* cover at the moment.`,
+
+        `Covid-19 *ought to* have been halted in its path at the end of November 2019 when it may have first appeared but the first reported case was in December 2019, to the WHO by Chinese authorities. Covid-19 *may* be the most destructive virus to surface since the Spanish flu of 1918. From my research the Covid-19 virus *must* have first cross-contaminated from animals to humans in a popular and busy chinese meat market. It *could* be an advanced version of influenza.`
+      ]
     }
   ]
 };
