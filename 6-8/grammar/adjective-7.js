@@ -265,14 +265,13 @@ The *smartphone* charger is not working. We need to get a new one.`
       id: 'fillup-adj-2',
       label: 'Fill in the blanks',
       type: 'fillup',
-      noOptions: true,
       data: {
-        title: 'Fill in the blanks with participal adjectives',
-        text: `The *excited* child opened the present. (excite)
-The *blooming* flowers filled the room with fragrance. (bloom)
-The *racing* car sped down the highway. (race)
-The *falling* snowflakes covered the ground. (fall)
-The *determined* athlete won the race. (determine)`
+        title: 'Fill in the blanks with participial adjectives',
+        text: `The *excited (excite)* child opened the present. 
+The *blooming (bloom)* flowers filled the room with fragrance. 
+The *racing (race)* car sped down the highway. 
+The *falling (fall)* snowflakes covered the ground. 
+The *determined (determine)* athlete won the race. `
       }
     }
   ]
