@@ -58,7 +58,7 @@ We <i>could</i> have seen the match if there had been an electricity supply.`
     },
     {
       id: 'can-could',
-      label: 'Can or Could',
+      label: 'Fillup: Can or Could',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using can or could.`,
@@ -148,7 +148,7 @@ Condition allowing, they <i>might</i> be seeking favor from me.`
     },
     {
       id: 'may-might-fillup',
-      label: 'May or Might',
+      label: 'Fillup: May or Might',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using may or might.`,
@@ -271,7 +271,7 @@ Leaders <i>must</i> promise what is viable to them.`
     },
     {
       id: 'would-should-must-fillup',
-      label: 'Would, Should or Must',
+      label: 'Fillup: Would, Should or Must',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using would, should or must.`,
@@ -387,7 +387,7 @@ I am <i>used to</i> a life full of struggle.`
     },
     {
       id: 'will-shall',
-      label: 'Will or Shall',
+      label: 'Fillup: Will or Shall',
       type: 'fillup',
       data: {
         title: `Fill in the blanks with the correct option`,
@@ -405,7 +405,7 @@ I *will (shall)* help you with your homework tonight.`
     },
     {
       id: 'need-dare-usd-to',
-      label: 'Need, Dare or Used to',
+      label: 'Fillup: Need, Dare or Used to',
       type: 'fillup',
       data: {
         title: `Fill in the blanks with the correct option`,
@@ -800,6 +800,31 @@ He should be pass the exam in the first attempt.`
           }
         ]
       }
+    },
+    {
+      id: 'fill-up-option-para',
+      label: 'Complete: Paragraph',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks using suitable modals.`
+      },
+      data: [
+        `If I *could (should)* turn back time, I *would (can)* definitely visit ancient civilizations like Egypt and Rome. The opportunity to witness their grandeur and understand their cultural heritage *would (must)* be absolutely fascinating. Moreover, if I *had (have)* the chance to explore these historical wonders, I *would (should)* eagerly immerse myself in their rich history, admiring the architectural marvels and unraveling the mysteries of the past. Alas, such a journey remains a mere dream for now, but the allure of these ancient civilizations continues to captivate my imagination.`,
+
+        `If I were to go to the beach tomorrow, I *would (can)* definitely take my sunscreen and sunglasses. The weather forecast suggests that it might be sunny, and I *wouldn't (shouldn't)* want to get sunburned. Plus, sunglasses *would (could)* protect my eyes from the bright sunlight. If the temperature rises above 30 degrees Celsius, I *might (may)* also consider bringing a hat to shield my face from the intense heat. Planning ahead and being prepared for different scenarios is essential when making decisions based on potential conditions.`,
+
+        `If I *had (have)* more time, I *would (should)* definitely travel to exotic destinations around the world. I *could (can)* explore the ancient ruins of Machu Picchu in Peru, or *maybe (can)* witness the breathtaking beauty of the Northern Lights in Iceland. With ample time on my hands, I *might (may)* even consider volunteering for a meaningful cause in a remote village. The possibilities are endless, and if circumstances were different, I *would (must)* eagerly embark on these incredible adventures.`,
+
+        `If I *could (can)* choose any superpower, I *would (shall)* want the ability to teleport. Imagine the convenience of instantly traveling to any destination in the blink of an eye. I *would (can)* never have to worry about long and tiring journeys or being stuck in traffic again. With this incredible power, I *could (must)* explore the world effortlessly, visiting exotic locations and experiencing different cultures. However, with great power comes great responsibility, and I *would (may)* use my teleportation ability wisely, ensuring I respect the laws of physics and the rights of others.`,
+
+        `If I were to win the lottery, I *would (shall)* travel around the world and experience different cultures. I *might (can)* visit exotic destinations like Bali or the Maldives, or explore historical sites like the Great Wall of China or the Pyramids of Egypt. I *could (need to)* indulge in gourmet cuisine, stay at luxurious hotels, and immerse myself in breathtaking landscapes. However, if I *didn't (can't)* win the lottery, I *would (may)* still find ways to satisfy my wanderlust by planning budget-friendly trips to nearby destinations or exploring hidden gems within my own country.`,
+
+        `If I *had (have)* more time, I *would (might)* definitely attend the music concert tomorrow. The opportunity to see my favorite band perform live is truly tempting. However, due to my hectic schedule, it seems unlikely that I *will (should)* be able to make it. If only I *could (might)* rearrange my commitments, I *would (shall)* gladly seize this chance to enjoy an unforgettable evening filled with captivating melodies and energetic performances.`,
+
+        `If I *had (have)* more time, I *would (will)* definitely visit my grandmother this weekend. I *should (must)* have planned ahead and made the necessary arrangements. However, if my schedule permits, I *will (may)* try my best to pay her a visit and spend some quality time together. I *might (could)* also bring her favorite book as a small gift. Although the circumstances are uncertain, I remain hopeful and determined to make it happen.`,
+
+        `If I *had (have)* known about the event earlier, I *would (shall)* have definitely attended it. The excitement of the occasion and the chance to connect with like-minded individuals *would (ought to)* have been incredible. However, since I *wasn't (musn't)* aware of it until now, I *cannot (couldn't)* change the past. Nevertheless, I *will (shall)* make sure to keep an eye out for future events and seize the opportunity to participate.`
+      ]
     }
   ]
 };
