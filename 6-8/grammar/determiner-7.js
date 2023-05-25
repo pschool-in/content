@@ -384,7 +384,7 @@ seventeen| seventeenth`,
         `eighteen| eighteenth
 ninteen| ninetieth
 twenty|	twentieth
-twenty four| twenty fourth
+twenty four| twenty fourth | t_____ ______
 twenty five| twenty fifth`,
 
         `twenty nine| twenty ninth

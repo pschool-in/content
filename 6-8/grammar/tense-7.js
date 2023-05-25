@@ -120,21 +120,24 @@ Mark sang a Kpop song at the music festival last week.`
       label: 'Fillup: Present Tense',
       type: 'fillup',
       commonData: {
-        noOptions: true,
-        title: `Fill in the blanks with the correct form of the present tense.`
+        noOptions: true
       },
       data: [
-        `Malthi *lives* in Delhi. (live)
-Does Priya *feel* better now? (feel)
-Siji *learns* everything quickly. (learn)
-Her friend *earns* money from online business. (earn)
-Niki needs your *support*. (support)`,
-
-        `Do you *work* in the software industry? (work)
-Do you *like* reading? (like)
-It *does* not *work* on my hair. (work)
-Mickey *is* not picky and *eats* all types of fruits. (eat)
-Jay and Jake *like* to travel together. (like)`,
+        {
+          title: `Fill in the blanks with the correct form of the present tense.`,
+          text: `Malthi *lives* in Delhi. (live)
+          Does Priya *feel* better now? (feel)
+          Siji *learns* everything quickly. (learn)
+          Her friend *earns* money from online business. (earn)
+          Niki needs your *support*. (support)`
+        },
+        {
+          text: `Do you *work* in the software industry? (work)
+        Do you *like* reading? (like)
+        It *does* not *work* on my hair. (work)
+        Mickey *is* not picky and *eats* all types of fruits. (eat)
+        Jay and Jake *like* to travel together. (like)`
+        },
 
         `She *reads* (read) a new novel every Saturday.
 They *play* (play) soccer every weekend.
