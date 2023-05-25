@@ -245,7 +245,7 @@ under the weather, feeling sick, feeling unhappy`,
 
         `getting cold feet, feeling nervous, feeling cold
 the apple of my eye, cherished above all, irritating person
-set the record straight, to clarify, to acheive a record
+set the record straight, to clarify, to achieve a record
 cut corners, to take shortcuts, cut corners of an item
 hang in there, to persevere, to hang a clothing item `,
 
