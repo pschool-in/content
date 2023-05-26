@@ -4,7 +4,7 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Modal Auxiliaries',
       type: 'passage',
       id: 'modal-auxiliaries',
       data: {
@@ -95,7 +95,7 @@ Modal verbs can never be used to express present ability. `
       }
     },
     {
-      label: 'Notes',
+      label: 'Uses of May and Might',
       type: 'passage',
       id: 'may-might',
       data: {
@@ -203,7 +203,7 @@ I *could (might)* not be any happier.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Uses of Would, Should and Must',
       type: 'passage',
       id: 'would-should-must',
       data: {
@@ -336,7 +336,7 @@ We *must (would, should)* follow the safety guidelines to prevent accidents.`
       }
     },
     {
-      label: 'Notes',
+      label: 'Uses of Shall/Will, Need, Dare and Used to',
       type: 'passage',
       id: 'modal-auxiliaries-2',
       data: {
@@ -438,37 +438,7 @@ I *need (used to)* a beautiful garden filled with roses.`
       }
     },
     {
-      label: 'Multiple Choice Questions',
-      type: 'mcq',
-      id: 'mcq-mdl',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
-            options: `can, may, could, should `
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
-            options: `could, might, should, must`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
-            options: `must, shall, would, need`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
-            options: `would, shall, will, might`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
-            options: `must, need, may, should`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Notes',
+      label: 'Modals',
       type: 'passage',
       id: 'passage',
       data: {
@@ -523,11 +493,31 @@ Indicating probability or possibility `
             qText:
               'Which of the following is a correct use of the modal verb "can"?',
             options: `They can't come to the party tonight, I can like to play soccer, She can sings beautifully.`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
+            options: `can, may, could, should `
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
+            options: `could, might, should, must`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
+            options: `must, shall, would, need`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
+            options: `would, shall, will, might`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
+            options: `must, need, may, should`
           }
         ]
       }
     },
-    {
+    /*{
       id: 'fill-up-modal',
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
@@ -582,7 +572,7 @@ He *might* be at the meeting, but I'm not sure.
 He is not in his cabin. You *can* check if he is there in the lobby.
 He *has* to be at work by 9 AM every day.`
       ]
-    },
+    },*/
     {
       label: 'Choose the Correct Answer',
       id: 'mcq-modal',
@@ -695,19 +685,18 @@ He *has* to be at work by 9 AM every day.`
       title: `Complete the conditional sentences using suitable modals.`,
       id: 'fillup-drag-drop-3',
       data: {
-        noOptions: true,
         styles: {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `If I see him, I *will* tell him you called. 
-If he had studied harder, he *would* have passed the exam
-If you had arrived earlier, we *could* have gone to the concert. 
-If I *could* leave work early today, I'd be very grateful.
-If she *would* work harder, she'd succeed.
-If it rains, I *will* stay at home.
-If I had more time, I *would* travel the world. 
-If she were taller, she *could* reach the top shelf.`
+        text: `If I see him, I *will (can)* tell him you called. 
+If he had studied harder, he *would (must)* have passed the exam
+If you had arrived earlier, we *could (can)* have gone to the concert. 
+If I *could (may)* leave work early today, I'd be very grateful.
+If she *would (could)* work harder, she'd succeed.
+If it rains, I *will (can)* stay at home.
+If I had more time, I *would (must)* travel the world. 
+If she were taller, she *could (can)* reach the top shelf.`
       }
     },
     {

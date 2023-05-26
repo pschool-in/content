@@ -84,8 +84,8 @@ Jack *is not playing (has not played)* on the ground.
 Jeshni *is going (has gone)* to Poland next Monday.
 Sunny *is trying (tried)* to solve the mystery.
 Are they *going (went)* outside?
-He *is studying* (study) for his exam right now.
-We *are watching (watch)*  a movie at home tonight.
+He *is studying (study)* for his exam right now.
+We *are watching (watch)* a movie at home tonight.
 The teacher *is teaching (teach)*  math to the students.
 She *is listening (listen)*  to music now.
 They are *traveling (travel)*  to different countries every year.`
@@ -320,8 +320,6 @@ By the end of the month, <i>I will have worked</i> here for 5 years.`
         },
         text: `I *shall reach* the station before the train leaves.
 The log of wood *will break* and they will fall into the ditch.
-The police *will bind* his hand and foot and hold him fast.
-I *shall break* the lock open and get into the room in case I get locked out.
 The gardener *will be* watering the plants at noon.
 Mike *will have* committed a blunder by the time we reach.
 You *will* find her crying bitterly.`
@@ -365,15 +363,15 @@ They *travelled (travel)* to Japan last year.
 He *ran (run)* in the marathon yesterday. 
 The teacher *was explaining (explain)* the lesson in class when the fire alarm went off.`,
 
-        `I *had eaten (ate)* breakfast by the time my friend arrived.
-Sarah *had finished (finished)* playing soccer with her friends before it started raining.
+        `I *had eaten (eat)* breakfast by the time my friend arrived.
+Sarah *had finished (finish)* playing soccer with her friends before it started raining.
 We had already *walked (walk)* out of the zoo before the monkey had escaped.
 The movie had already *started (starts)* by the time we got to the theater.
-My parents *had visited (visited)* the zoo before, so they knew the way.
-The teacher *had explained (explained)* the lesson before the test.
-Jack *had studied (studied)* for his exam all week.
-I *had visited (visited)* my grandparents several times before they moved to Durgapur.
-She *had cleaned (cleaned)* her room yesterday morning before going out with her friends.
+My parents *had visited (visit)* the zoo before, so they knew the way.
+The teacher *had explained (explain)* the lesson before the test.
+Jack *had studied (study)* for his exam all week.
+I *had visited (visit)* my grandparents several times before they moved to Durgapur.
+She *had cleaned (clean)* her room yesterday morning before going out with her friends.
 The concert had already *ended (ends)* by the time we arrived at the venue.`
       ]
     },
@@ -631,11 +629,11 @@ They celebrated their anniversary last night.| they will celebrate their anniver
           title:
             'Convert the sentences in Present Continuous Tense to Future Continuous Tense. Drag & Drop the words from the bottom and construct the sentence.',
           extras: 'is had have an the been us',
-          text: `I am watching a movie tonight. | I will be watching a movie tonight
-She is meeting her friends for dinner tomorrow.| she will be meeting her friends for dinner tomorrow
-They are traveling to Europe next month. | they will be traveling to Europe next month
-He is working on a new project next week.| he will be working on a new project next week
-We are studying for the exam this weekend.| we will be studying for the exam this weekend`
+          text: `I am watching a movie now. | I will be watching a movie later
+She is meeting her friends for dinner today.| she will be meeting her friends for dinner tonight
+They are traveling to Europe this year. | they will be traveling to Europe next year
+He is working on a new project this week.| he will be working on a new project next week
+We are studying for the exam this weekend.| we will be studying for the exam next weekend`
         },
         {
           title:
@@ -662,10 +660,10 @@ He practiced the piano for hours.| he had been practicing the piano for hours`
             'Convert the sentences in Simple Future Tense to Future Perfect Tense. Drag & Drop the words from the bottom and construct the sentence.',
           extras: 'is had have an the been us',
           text: `I will finish my work by 5 PM. | I will have finished my work by 5 PM
-She will have completed her degree by next year.| she will have completed her degree by next year
+She will complete her degree by next year.| she will have completed her degree by next year
 They will arrive at the airport before noon. | they will have arrived at the airport before noon
-We will have saved enough money for our vacation by July.| we will have saved enough money for our vacation by July
-He will have finished reading the book by tomorrow.| he will have finished reading the book by tomorrow`
+We will save enough money for our vacation by July.| we will have saved enough money for our vacation by July
+He will finish reading the book by tomorrow.| he will have finished reading the book by tomorrow`
         },
         {
           title:
@@ -684,18 +682,18 @@ We study English at the language school.| we are studying English at the languag
           text: `I was studying when the phone rang. | I had been studying when the phone rang
 She was cooking dinner when the power went out.| she had been cooking dinner when the power went out
 They were playing basketball when it started raining. | they had been playing basketball when it started raining
-We were waiting for the bus when it finally arrived.| we had been waiting for the bus when it finally arrived
-He was working on his assignment when the computer crashed.| he had been working on his assignment when the computer crashed.`
+We were waiting for the bus for an hour when it finally arrived.| we had been waiting for the bus for an hour when it finally arrived
+He was working on his assignment when the computer crashed.| he had been working on his assignment when the computer crashed`
         },
         {
           title:
             'Convert the sentences in Future Tense to Past Perfect Tense. Drag & Drop the words from the bottom and construct the sentence.',
           extras: 'is yesterday last earlier for am',
           text: `I will finish my work by 5 PM.| I had finished my work by 5 PM
-She will have completed her degree by next year.| she had completed her degree by the following year
+She will have completed her degree by next year.| she had completed her degree last year
 They will arrive at the airport before noon.| they had arrived at the airport before noon
 We will have saved enough money for our vacation by July. | we had saved enough money for our vacation by July
-He will have finished reading the book by tomorrow.| he had finished reading the book by the following day`
+He will have finished reading the book by tomorrow.| he had finished reading the book by yesterday`
         }
       ]
     }
