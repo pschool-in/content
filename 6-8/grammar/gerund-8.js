@@ -4,7 +4,7 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Participle',
       type: 'passage',
       id: 'participle',
       data: {
@@ -89,8 +89,7 @@ Niki was highly *irritated* as Jake kept poking him.`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        title:
-          'Fill in the blanks in the following choosing the best alternative'
+        title: 'Fill in the blanks with participles.'
       },
       lockAfter: 1,
       data: [
@@ -98,9 +97,8 @@ Niki was highly *irritated* as Jake kept poking him.`
 The sun *having risen (rise, to rise, rising)* the birds began to chirp.
 Everybody worships the *rising (rise, having risen, to rise)* idol Jake.
 *Placing (Place, Having place)* the books on the table Jay ran away.
-I saw a woman *cross (having crossed, crossed)* the road.`,
-
-        `A *broken (break, breaking, to break)* glass cannot hold water.
+I saw a woman *cross (having crossed, crossed)* the road.
+A *broken (break, breaking, to break)* glass cannot hold water.
 *Hit (Being hitted, Having hit, Hitting)* by an arrow, the bird fell.
 You better *leave (to leave) before Tarun arrives.
 I saw the storm *approaching (approach)*.
@@ -110,16 +108,15 @@ I saw the storm *approaching (approach)*.
 The rain came *pouring (pour)* down.
 *Having elected (elect)* him President, the people gave him their loyal support.
 *Having seen (See)* the film once, I do not want to see it again.
-*Having lost (Lose)* my book, I reported the matter to the teacher.`,
-
-        `*Seeing (See)* the Principal, the students ran away. 
+*Having lost (Lose)* my book, I reported the matter to the teacher.
+*Seeing (See)* the Principal, the students ran away. 
 *Having worked (Work)* hard, my sister got good marks.
 *Starving (Starve)* is better than *begging (beg)*.
 *Reaching (Reach)* home, I asked my mother to make tea.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Gerund',
       type: 'passage',
       id: 'gerund',
       data: {
@@ -182,9 +179,8 @@ As an adjective only.`
 I learned *driving*.
 I like *watching* television.
 He was used to *driving* on the right when he was in London.
-*Writing* is my profession.`,
-
-        `*Celebrating* various festivals together is common among Indians.
+*Writing* is my profession.
+*Celebrating* various festivals together is common among Indians.
 I enjoy *teaching* English.
 *Walking* is good exercise for health.
 *Reading* books increases our knowledge.
@@ -194,9 +190,8 @@ I enjoy *teaching* English.
 She hates *worrying* about the future.
 I prefer *studying* computer science.
 He is afraid of *telling* the truth.
-My aim in life is *becoming* a writer.`,
-
-        `Her objective is *starting* a home for parentless children.
+My aim in life is *becoming* a writer.
+Her objective is *starting* a home for parentless children.
 What I want to do in life is *achieving* something useful for all.
 I do not mind *having* a cup of tea.
 I enjoy *reading* English novels.
@@ -349,7 +344,7 @@ The match was handicapped by one's of their best players being ill.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Infinitive',
       type: 'passage',
       id: 'infinitive',
       data: {
@@ -384,7 +379,7 @@ I <i>need you to get me out of here</i>.`
           `3. As the complement of a verb`,
           {
             type: 'html',
-            text: `Eg - Our greatest pleasure is ,b>to help the poor</i>.`
+            text: `Eg - Our greatest pleasure is <i>to help the poor</i>.`
           },
           `4. As the object of a preposition`,
           {
@@ -419,13 +414,13 @@ I <i>need you to get me out of here</i>.`
           `Infinitives are of two types: bare infinitive and split infinitive. Bare Infinitives can be replaced by 'to' Infinitives.`,
           {
             type: 'html',
-            text: `Eg - I can <i>teach</i>. => I am <i>able to teach</i>.`
+            text: `Eg - I can <i>teach</i>. ⇒ I am <i>able to teach</i>.`
           },
           `It is generally treated wrong to split an Infinitive in the middle. The adverb can be used either before 'to' or after the Infinitive.`,
           {
             type: 'html',
-            text: `I expect Madhavi to carefully read the letter. => <i>Incorrect</i><br>
-I expect Madhavi to read the letter carefully.=> <i>Correct</i>`
+            text: `I expect Madhavi to carefully read the letter. ⇒ <i>Incorrect</i><br>
+I expect Madhavi to read the letter carefully.⇒ <i>Correct</i>`
           }
         ]
       }
@@ -470,7 +465,7 @@ I expect Madhavi to read the letter carefully.=> <i>Correct</i>`
         multiSelect: true
       },
       data: [
-        `I love *to speak* English.
+        `I love *to speak English*.
 She likes *to swim*.
 *To advise others* is easy.
 *To learn English* is difficult.
@@ -542,38 +537,23 @@ I *shall go* there.`
       data: [
         [
           `I expect Madhavi to read the letter carefully.
-She tried to explain clearly the situation.
+She tried to clearly explain the situation.
 He did nothing but laugh.
 He did no more than laugh.`,
 
           `I expect Madhavi to carefully read the letter.
-She tried to clearly explain the situation.
+          She tried to explain clearly the situation.
 He did nothing but to laugh.
 He did no more than to laugh.`
         ],
         [
           `I went there personally to see the situation.
-I request you kindly to grant my application.
 He helped me to progress and prosper.
 It lies in my power to succeed or to fail.`,
 
-          `I went there to personally see the situation.
-I request you to kindly grant my application.
+          `I went there personally see the situation.
 He helped me to progress and to prosper.
 It lies in my power to succeed or fail.`
-        ],
-        [
-          `We are advised to rejoice and to weep with others.
-I should have like to go.
-He seemed to have enjoyed his stay in Mumbai.
-I gave him a pen to write with.
-He has no paper to write on.`,
-
-          `We are advised to rejoice and weep with others.
-I should have liked to have gone.
-He seemed to enjoy his stay in Mumbai.
-I gave him a pen to write.
-He has no paper to write.`
         ],
         [
           `I and my friends are planning to go to the beach next weekend.
@@ -662,12 +642,6 @@ This is the right thing to do.`
                 'Which of the following is the incorrect usage of infinitive?',
               options: `When to press the button tell me.
 Tell me when to press the button`
-            },
-            {
-              qText:
-                'Which of the following is the incorrect usage of infinitive?',
-              options: `I request you to kindly grant my application.
-I request you kindly to grant my application.`
             }
           ]
         }
