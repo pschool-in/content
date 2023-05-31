@@ -364,7 +364,7 @@ This bakery is very popular, *most (many)* of the cookies are sold by lunchtime.
     {
       type: 'completeWord',
       id: 'complete-word',
-      label: 'Complete Word',
+      label: 'Write the Ordinal',
       commonData: {
         title: 'Complete the ordinal forms of the numbers given below.'
       },
@@ -382,14 +382,14 @@ sixteen| sixteenth
 seventeen| seventeenth`,
 
         `eighteen| eighteenth
-ninteen| ninetieth
+ninteen| nineteenth
 twenty|	twentieth
 twenty four| twenty fourth | t_____ ______
-twenty five| twenty fifth`,
+twenty five| twenty fifth| t_____ _____`,
 
-        `twenty nine| twenty ninth
+        `twenty nine| twenty ninth| t_____ _____
 thirty|	thirtieth
-thirty one|	thirty first
+thirty one|	thirty first| t_____ _____
 forty| fortieth
 fifty| fiftieth`,
 

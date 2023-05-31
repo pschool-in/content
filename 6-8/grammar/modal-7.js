@@ -4,7 +4,7 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Modal Auxiliaries',
       type: 'passage',
       id: 'modal-auxiliaries',
       data: {
@@ -58,7 +58,7 @@ We <i>could</i> have seen the match if there had been an electricity supply.`
     },
     {
       id: 'can-could',
-      label: 'Can or Could',
+      label: 'Fillup: Can or Could',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using can or could.`,
@@ -95,7 +95,7 @@ Modal verbs can never be used to express present ability. `
       }
     },
     {
-      label: 'Notes',
+      label: 'Uses of May and Might',
       type: 'passage',
       id: 'may-might',
       data: {
@@ -148,7 +148,7 @@ Condition allowing, they <i>might</i> be seeking favor from me.`
     },
     {
       id: 'may-might-fillup',
-      label: 'May or Might',
+      label: 'Fillup: May or Might',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using may or might.`,
@@ -203,7 +203,7 @@ I *could (might)* not be any happier.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Uses of Would, Should and Must',
       type: 'passage',
       id: 'would-should-must',
       data: {
@@ -271,7 +271,7 @@ Leaders <i>must</i> promise what is viable to them.`
     },
     {
       id: 'would-should-must-fillup',
-      label: 'Would, Should or Must',
+      label: 'Fillup: Would, Should or Must',
       type: 'fillup',
       data: {
         title: `Fill in the blanks using would, should or must.`,
@@ -336,7 +336,7 @@ We *must (would, should)* follow the safety guidelines to prevent accidents.`
       }
     },
     {
-      label: 'Notes',
+      label: 'Uses of Shall/Will, Need, Dare and Used to',
       type: 'passage',
       id: 'modal-auxiliaries-2',
       data: {
@@ -387,7 +387,7 @@ I am <i>used to</i> a life full of struggle.`
     },
     {
       id: 'will-shall',
-      label: 'Will or Shall',
+      label: 'Fillup: Will or Shall',
       type: 'fillup',
       data: {
         title: `Fill in the blanks with the correct option`,
@@ -405,7 +405,7 @@ I *will (shall)* help you with your homework tonight.`
     },
     {
       id: 'need-dare-usd-to',
-      label: 'Need, Dare or Used to',
+      label: 'Fillup: Need, Dare or Used to',
       type: 'fillup',
       data: {
         title: `Fill in the blanks with the correct option`,
@@ -438,37 +438,7 @@ I *need (used to)* a beautiful garden filled with roses.`
       }
     },
     {
-      label: 'Multiple Choice Questions',
-      type: 'mcq',
-      id: 'mcq-mdl',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
-            options: `can, may, could, should `
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
-            options: `could, might, should, must`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
-            options: `must, shall, would, need`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
-            options: `would, shall, will, might`
-          },
-          {
-            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
-            options: `must, need, may, should`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Notes',
+      label: 'Modals',
       type: 'passage',
       id: 'passage',
       data: {
@@ -523,11 +493,31 @@ Indicating probability or possibility `
             qText:
               'Which of the following is a correct use of the modal verb "can"?',
             options: `They can't come to the party tonight, I can like to play soccer, She can sings beautifully.`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs expresses the ability or power of the subject?`,
+            options: `can, may, could, should `
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express a polite request?`,
+            options: `could, might, should, must`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to show prohibition or compulsion?`,
+            options: `must, shall, would, need`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express past habit or unreal condition?`,
+            options: `would, shall, will, might`
+          },
+          {
+            qText: `Which of the following modal auxiliary verbs is used to express obligation or duty?`,
+            options: `must, need, may, should`
           }
         ]
       }
     },
-    {
+    /*{
       id: 'fill-up-modal',
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
@@ -582,7 +572,7 @@ He *might* be at the meeting, but I'm not sure.
 He is not in his cabin. You *can* check if he is there in the lobby.
 He *has* to be at work by 9 AM every day.`
       ]
-    },
+    },*/
     {
       label: 'Choose the Correct Answer',
       id: 'mcq-modal',
@@ -695,19 +685,18 @@ He *has* to be at work by 9 AM every day.`
       title: `Complete the conditional sentences using suitable modals.`,
       id: 'fillup-drag-drop-3',
       data: {
-        noOptions: true,
         styles: {
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `If I see him, I *will* tell him you called. 
-If he had studied harder, he *would* have passed the exam
-If you had arrived earlier, we *could* have gone to the concert. 
-If I *could* leave work early today, I'd be very grateful.
-If she *would* work harder, she'd succeed.
-If it rains, I *will* stay at home.
-If I had more time, I *would* travel the world. 
-If she were taller, she *could* reach the top shelf.`
+        text: `If I see him, I *will (can)* tell him you called. 
+If he had studied harder, he *would (must)* have passed the exam
+If you had arrived earlier, we *could (can)* have gone to the concert. 
+If I *could (may)* leave work early today, I'd be very grateful.
+If she *would (could)* work harder, she'd succeed.
+If it rains, I *will (can)* stay at home.
+If I had more time, I *would (must)* travel the world. 
+If she were taller, she *could (can)* reach the top shelf.`
       }
     },
     {
@@ -800,6 +789,31 @@ He should be pass the exam in the first attempt.`
           }
         ]
       }
+    },
+    {
+      id: 'fill-up-option-para',
+      label: 'Complete: Paragraph',
+      type: 'fillup',
+      commonData: {
+        title: `Fill in the blanks using suitable modals.`
+      },
+      data: [
+        `If I *could (should)* turn back time, I *would (can)* definitely visit ancient civilizations like Egypt and Rome. The opportunity to witness their grandeur and understand their cultural heritage *would (must)* be absolutely fascinating. Moreover, if I *had (have)* the chance to explore these historical wonders, I *would (should)* eagerly immerse myself in their rich history, admiring the architectural marvels and unraveling the mysteries of the past. Alas, such a journey remains a mere dream for now, but the allure of these ancient civilizations continues to captivate my imagination.`,
+
+        `If I were to go to the beach tomorrow, I *would (can)* definitely take my sunscreen and sunglasses. The weather forecast suggests that it might be sunny, and I *wouldn't (shouldn't)* want to get sunburned. Plus, sunglasses *would (could)* protect my eyes from the bright sunlight. If the temperature rises above 30 degrees Celsius, I *might (may)* also consider bringing a hat to shield my face from the intense heat. Planning ahead and being prepared for different scenarios is essential when making decisions based on potential conditions.`,
+
+        `If I *had (have)* more time, I *would (should)* definitely travel to exotic destinations around the world. I *could (can)* explore the ancient ruins of Machu Picchu in Peru, or *maybe (can)* witness the breathtaking beauty of the Northern Lights in Iceland. With ample time on my hands, I *might (may)* even consider volunteering for a meaningful cause in a remote village. The possibilities are endless, and if circumstances were different, I *would (must)* eagerly embark on these incredible adventures.`,
+
+        `If I *could (can)* choose any superpower, I *would (shall)* want the ability to teleport. Imagine the convenience of instantly traveling to any destination in the blink of an eye. I *would (can)* never have to worry about long and tiring journeys or being stuck in traffic again. With this incredible power, I *could (must)* explore the world effortlessly, visiting exotic locations and experiencing different cultures. However, with great power comes great responsibility, and I *would (may)* use my teleportation ability wisely, ensuring I respect the laws of physics and the rights of others.`,
+
+        `If I were to win the lottery, I *would (shall)* travel around the world and experience different cultures. I *might (can)* visit exotic destinations like Bali or the Maldives, or explore historical sites like the Great Wall of China or the Pyramids of Egypt. I *could (need to)* indulge in gourmet cuisine, stay at luxurious hotels, and immerse myself in breathtaking landscapes. However, if I *didn't (can't)* win the lottery, I *would (may)* still find ways to satisfy my wanderlust by planning budget-friendly trips to nearby destinations or exploring hidden gems within my own country.`,
+
+        `If I *had (have)* more time, I *would (might)* definitely attend the music concert tomorrow. The opportunity to see my favorite band perform live is truly tempting. However, due to my hectic schedule, it seems unlikely that I *will (should)* be able to make it. If only I *could (might)* rearrange my commitments, I *would (shall)* gladly seize this chance to enjoy an unforgettable evening filled with captivating melodies and energetic performances.`,
+
+        `If I *had (have)* more time, I *would (will)* definitely visit my grandmother this weekend. I *should (must)* have planned ahead and made the necessary arrangements. However, if my schedule permits, I *will (may)* try my best to pay her a visit and spend some quality time together. I *might (could)* also bring her favorite book as a small gift. Although the circumstances are uncertain, I remain hopeful and determined to make it happen.`,
+
+        `If I *had (have)* known about the event earlier, I *would (shall)* have definitely attended it. The excitement of the occasion and the chance to connect with like-minded individuals *would (ought to)* have been incredible. However, since I *wasn't (musn't)* aware of it until now, I *cannot (couldn't)* change the past. Nevertheless, I *will (shall)* make sure to keep an eye out for future events and seize the opportunity to participate.`
+      ]
     }
   ]
 };

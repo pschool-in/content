@@ -177,7 +177,7 @@ My mom loves to chop *vegetables*.`,
       ]
     },
     {
-      label: 'Collective Noun - Notes',
+      label: 'Collective Noun',
       type: 'passage',
       id: 'collective-noun',
       data: {
@@ -352,7 +352,7 @@ A group of criminals| GANG`
       ]
     },
     {
-      label: 'Types of Nouns - Notes',
+      label: 'Types of Nouns',
       type: 'passage',
       id: 'noun-2',
       data: {
@@ -450,8 +450,7 @@ Tiger, Tigress`,
 Brother, Sister
 Gentleman, Lady
 King, Queen
-Monk, Nun
-Stallion, Mare`,
+Monk, Nun`,
 
         `Lord, Lady
 Nephew, Niece
@@ -501,13 +500,12 @@ queen| KING`,
 
         `madam| SIR
 lady| GENTLEMEN
-mare| STALLION
 ewe| RAM
 cow| BULL`
       ]
     },
     {
-      label: 'Making Plurals - Notes',
+      label: 'Making Plurals',
       type: 'passage',
       id: 'plural',
       data: {
@@ -743,7 +741,7 @@ Ms. Lee is our headmaster.`
       ]
     },
     {
-      label: 'Noun Cases - Notes',
+      label: 'Noun Cases',
       type: 'passage',
       id: 'case',
       data: {

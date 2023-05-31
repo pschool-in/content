@@ -4,14 +4,14 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Types of Sentences',
       type: 'passage',
       id: 'passage',
       data: {
         title: 'Sentence',
         text: [
           `A sentence is a group of words that expresses a complete thought or idea. It must have a subject and a predicate.
-=> Sentences can be classified based on their structure. There are four types of sentences: simple, compound, complex, and compound-complex.
+⇒ Sentences can be classified based on their structure. There are four types of sentences: simple, compound, complex, and compound-complex.
 1. Simple Sentence: A simple sentence consists of one independent clause, which has a subject and a predicate.
 Eg: John is reading a book.
 2. Compound Sentence: A compound sentence consists of two or more independent clauses joined together with a coordinating conjunction.
@@ -20,7 +20,7 @@ Eg: I wanted to go to the party, but I had to study for my exam.
 Eg: Because it was raining, we stayed inside.
 4. Compound-Complex Sentence: A compound-complex sentence consists of two or more independent clauses and one or more dependent clauses.
 Eg: I wanted to go to the park, but it was raining, so I stayed home and read a book.
-=> Sentences can also be classified based on their function. There are four types of sentences based on function: declarative, interrogative, imperative, and exclamatory.
+⇒ Sentences can also be classified based on their function. There are four types of sentences based on function: declarative, interrogative, imperative, and exclamatory.
 1. Declarative Sentence: A declarative sentence makes a statement and ends with a period.
 Eg: She is a talented musician.
 2. Interrogative Sentence: An interrogative sentence asks a question and ends with a question mark.
@@ -88,9 +88,8 @@ Eg: Wow, what a beautiful sunset!`
 *She* danced gracefully.
 *My mom* is a doctor.
 *They* went to the beach.
-*The sun* sets in the west.`,
-
-        `*I* love to read books.
+*The sun* sets in the west.
+*I* love to read books.
 *The cat* chased the mouse.
 *John and Sarah* are friends.
 *The bird* sings sweetly.
@@ -100,9 +99,8 @@ Eg: Wow, what a beautiful sunset!`
 *The car* ran out of gas.
 *They* ate dosa for dinner.
 *The teacher* graded the tests.
-*The flowers* bloomed in the spring.`,
-
-        `*He* ran a marathon.
+*The flowers* bloomed in the spring.
+*He* ran a marathon.
 *The children* played in the park.
 *My favorite color* is blue.
 *She* wrote a letter to her friend.
@@ -112,7 +110,13 @@ Eg: Wow, what a beautiful sunset!`
 *The storm* caused damage to the house.
 *The baby* slept soundly.
 *She* cooked a delicious meal.
-*The book* was very interesting.`
+*The book* was very interesting.
+*Sarah* loves to read.
+*The cat* jumped on the table.
+*We* are going to the park.
+*The sun* shines brightly.
+*John and Emily* play tennis every weekend.
+*The car* needs a new battery.`
       ]
     },
     {
@@ -129,9 +133,8 @@ Eg: Wow, what a beautiful sunset!`
 She *danced gracefully*.
 My mom *is a doctor*.
 They *went to the beach*.
-The sun *sets in the west*.`,
-
-        `I *love to read books*.
+The sun *sets in the west*.
+I *love to read books*.
 The cat *chased the mouse*.
 John and Sarah *are friends*.
 The bird *sings sweetly*.
@@ -141,9 +144,8 @@ The cake *smells delicious*.`,
 The car *ran out of gas*.
 They *ate dosa for dinner*.
 The teacher *graded the tests*.
-The flowers *bloomed in the spring*.`,
-
-        `He *ran a marathon*.
+The flowers *bloomed in the spring*.
+He *ran a marathon*.
 The children *played in the park*.
 My favorite color *is blue*.
 She *wrote a letter to her friend*.
@@ -153,7 +155,12 @@ The movie *was very entertaining*.`,
 The storm *caused damage to the house*.
 The baby *slept soundly*.
 She *cooked a delicious meal*.
-The book *was very interesting*.`
+The book *was very interesting*.
+The car *needs a new battery*.
+The teacher *explained the lesson clearly*.
+The flowers *bloom in the spring*.
+My brother *is studying medicine*.
+The movie *received positive reviews.*`
       ]
     },
     {
@@ -241,49 +248,46 @@ Congratulations, you got the job!`
     },
     {
       id: 'compound',
-      label: 'Compound Sentences',
+      label: 'Fillup: Compound Sentences',
       type: 'fillup',
       commonData: {
-        noOptions: true,
         title:
           'Complete the following compound sentences using appropriate conjunctions.'
       },
       lockAfter: 2,
       data: [
-        `I love to swim, *but* I hate getting water in my eyes.
-She studies hard for her exams, *so* she always gets good grades.
-He was tired from working all day, *yet* he still went to the gym.
-They went to the beach for the weekend, *and* they had a great time.
-I want to go to the concert, *but* I don't have any money.`,
+        `I love to swim, *but (so, and, yet)* I hate getting water in my eyes.
+She studies hard for her exams, *so (but, and, yet)* she always gets good grades.
+He was tired from working all day, *yet (and, but, so)* he still went to the gym.
+They went to the beach for the weekend, *and (yet, but, so)* they had a great time.
+I want to go to the concert, *but (so, and, yet)* I don't have any money.
+She loves to read books, *and (yet, but, so)* she has a huge collection at home.
+The dog barked all night, *so (but, and, yet)* the neighbors complained.
+She was feeling sick, *but (so, and, yet)* she still went to work.
+He ate too much at dinner, *yet (and, but, so)* he still wanted dessert.
+I can't decide what to wear, *so (but, and, yet)* I'm going to ask my friend for advice.`,
 
-        `She loves to read books, *and* she has a huge collection at home.
-The dog barked all night, *so* the neighbors complained.
-She was feeling sick, *but* she still went to work.
-He ate too much at dinner, *yet* he still wanted dessert.
-I can't decide what to wear, *so* I'm going to ask my friend for advice.`,
+        `The sun was shining, *but (so, and, yet)* it was still a little chilly outside.
+She likes to cook, *and (yet, but, so)* she makes amazing Italian food.
+He was tired and hungry, *so (but, and, yet)* he decided to stop at a diner.
+I need to buy groceries, *but (so, and, yet)* also need to do laundry.
+They went for a walk in the park, *and (yet, but, so)* they saw a lot of birds.
+She was running late, *but (so, and, yet)* she still managed to catch the train.
+He loves to play basketball, *and (yet, but, so)* he's on the school team.
+I want to go to the party, *but (so, and, yet)* I have to work early tomorrow.
+She was cold, *so (but, and, yet)* she put on a sweater and a scarf.
+They went to the museum, *and (yet, but, so)* they learned a lot about history.`,
 
-        `The sun was shining, *but* it was still a little chilly outside.
-She likes to cook, *and* she makes amazing Italian food.
-He was tired and hungry, *so* he decided to stop at a diner.
-I need to buy groceries, *but* also need to do laundry.
-They went for a walk in the park, *and* they saw a lot of birds.`,
-
-        `She was running late, *but* she still managed to catch the train.
-He loves to play basketball, *and* he's on the school team.
-I want to go to the party, *but* I have to work early tomorrow.
-She was cold, *so* she put on a sweater and a scarf.
-They went to the museum, *and* they learned a lot about history.`,
-
-        `He didn't like the movie, *but* his friends thought it was great.
-She loves to dance, *so* she takes ballet classes twice a week.
-He wanted to go skiing, *but* there wasn't enough snow on the mountain.
-I like to drink coffee, *but* I always drink too much and can't sleep.
-She is studying Spanish, *and* she hopes to travel to Spain someday.`
+        `He didn't like the movie, *but (so, and, yet)* his friends thought it was great.
+She loves to dance, *so (but, and, yet)* she takes ballet classes twice a week.
+He wanted to go skiing, *but (so, and, yet)* there wasn't enough snow on the mountain.
+I like to drink coffee, *but (so, and, yet)* I always drink too much and can't sleep.
+She is studying Spanish, *and (yet, but, so)* she hopes to travel to Spain someday.`
       ]
     },
     {
       id: 'complex',
-      label: 'Complex Sentences',
+      label: 'Fillup: Complex Sentences',
       type: 'matchByDragDrop',
       commonData: {
         title:
@@ -324,7 +328,7 @@ She is studying Spanish, *and* she hopes to travel to Spain someday.`
     },
     {
       id: 'sorting',
-      label: 'Compound-Complex Sentences',
+      label: 'Arrange in the correct order',
       type: 'sorting',
       commonData: {
         title:
@@ -332,14 +336,6 @@ She is studying Spanish, *and* she hopes to travel to Spain someday.`
       },
       lockAfter: 1,
       data: [
-        `Although she had a lot of work to do,
-she decided to go to the gym,
-and she felt better afterward.`,
-
-        `While the teacher was giving the lecture,
-the students were taking notes,
-but some were still confused about the topic.`,
-
         `Because he wanted to save money,
 he decided to cook at home,
 and he invited his friends over to enjoy the meal,
