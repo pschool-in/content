@@ -160,22 +160,47 @@ One of my favorite bands are playing tonight.`
       type: 'fillup',
       id: 'verb',
       data: {
-        noOptions: true,
         title: `Fill in the blanks in compliance with subject-verb agreement.`,
-        text: `Many forms *have* been received.
-One of the thieves *has* been caught.
-Ramu and Shyamu *are* playing chess.
-Each man and each woman *was* rejoicing.
-The horse and cart *are* lost.
-Mahi as well as her teachers *is* very much concerned.
-My brothers along with my friend *were* coming to my house.
-Either of the two *is* suitable.
-Neither of the two girls *is* going to win the competition.
-A number of migratory birds *are* coming to India during winter.`
+        text: `Many forms *have (has)* been received.
+One of the thieves *has (have)* been caught.
+Ramu and Shyamu *are (is)* playing chess.
+Each man and each woman *was (were)* rejoicing.
+The horse and cart *are (is)* lost.
+Mahi as well as her teachers *is (are)* very much concerned.
+My brothers along with my friend *were (was)* coming to my house.
+Either of the two *is (are)* suitable.
+Neither of the two girls *is (are)* going to win the competition.
+A number of migratory birds *are (is)* coming to India during winter.`
       }
     },
     {
-      label: 'Notes',
+      id: 'fill-up-option-para',
+      label: 'Complete: Story',
+      type: 'fillup',
+      commonData: {
+        title: `Complete the short story in accordance with subject-verb agreement.`
+      },
+      data: [
+        `Once upon a time in the quaint village of Verboten, there *lived (lives)* a clever fox named Felix. Felix *was (were)* renowned for his cunning ways and loved to play tricks on the other *animals (animal)* in the forest. One sunny day, Felix decided to *organize (organized)* a game of hide-and-seek. He gathered all the *animals (animal)* and explained the rules.
+"The game *is (are)* simple," Felix said with a mischievous grin. "I will count to ten, and all of you will *find (found)* a hiding spot. Then, I will seek you out!"`,
+
+        `Excitement filled the air as the *animals (animal)* scurried off to find the perfect hiding place. Felix *closed (close)* his eyes and *began (begin)* to count, "One, two, three..." He made sure to enunciate each number clearly, so there *was (were)* no confusion.       
+Meanwhile, the *animals (animal)* frantically searched for hiding *spots (spot)*. The *rabbits (rabbit)* hopped into burrows, the birds flew high up into the *trees (tree)*, and the squirrels dashed behind *bushes (bush)*. They all *wanted (want)* to be the last one *found (find)* by Felix.`,
+
+        `As Felix *reached (reach)* the count of ten, he *opened (open)* his *eyes (eye)* and began his search. He *moved (move)* stealthily through the forest, his eyes darting from one hiding *spot (spots)* to another. The *animals (animal)* held their breath, trying to remain as still as possible.
+Felix found the *rabbits (rabbit)* first. Their twitching *noses (nose)* gave them away, and Felix *pounced (pounce)* on them with a triumphant laugh. "Gotcha!"`,
+
+        `Next, he spotted the *birds (bird)* perched on branches. Their *feathers (feather)* ruffled with nervousness, but Felix was quick to catch them too. "Found you!"
+Lastly, he *approached (approaches)* the *bushes (bush)* where the squirrels hid. He could hear their tiny *hearts (heart)* beating rapidly. Felix lunged forward, but the *squirrels (squirrel)* managed to scamper away just in time. "Oh no, you got away!" Felix exclaimed, slightly disappointed.
+The squirrels *giggled (giggle)* and shouted, "You almost caught us, Felix, but we're too fast for you!"`,
+
+        `Felix chuckled and *admitted (admits)* defeat. "Indeed, you are swift little *creatures (creature)*. Well done!"
+The *animals (animal)* emerged from their hiding spots, feeling both *relieved (relieve)* and exhilarated. They congratulated each *other (others)* on their clever hiding *places (place)* and thanked Felix for organizing such a thrilling game.
+And so, in the village of Verboten, the memory of *Felix's (felix)* hide-and-seek game lingered for *years (year)* to come. The *animals (animal)* learned that even though Felix was a formidable seeker, their *teamwork (teamworks)* and agility could outsmart him.`
+      ]
+    },
+    {
+      label: 'Object and Complement',
       type: 'passage',
       id: 'sentence-o-v',
       data: {
@@ -289,25 +314,19 @@ I wish *you* good luck.`
         `Priya is extremely *intelligent*.
 Shyla eventually became my best *friend*. 
 Our neighbor's dogs are very *dangerous*. 
-Meena's hair dye turned the water *pink*. `,
-
-        `After our disagreement on the first day of school, James became my *friend for life*. 
+Meena's hair dye turned the water *pink*. 
 We painted the ceiling *blue*. 
 You are making me *sad*. 
-Preethi is a good *dancer*. `,
-
-        `Dina named her parakeet *Odi*.
+Preethi is a good *dancer*. 
+Dina named her parakeet *Odi*.
 The gift Kareena gave her brother was a *hamster*. 
-Buck grew up in Oman and became an expert *horse rider* before reaching his 18th birthday. 
-I once considered Neena my fiercest *enemy*.`,
+Buck grew up in Oman and became an expert *horse rider* before reaching his 18th birthday.`,
 
-        `After reviewing the details of the case, the court pronounced the boy *not guilty*. 
+        `I once considered Neena my fiercest *enemy*.
+After reviewing the details of the case, the court pronounced the boy *not guilty*. 
 By the second month of the drought, the river had run *dry*.
-She considers him *her best friend*. 
 The doctor declared her *healthy*. 
-He seemed *nervous* before the interview.`,
-
-        `We elected her *president of the club*. 
+He seemed *nervous* before the interview.
 The teacher found the essay *well-written*. 
 I think the party will be *a success*. 
 She made him feel *welcome*. 
@@ -346,7 +365,7 @@ What I said made my uncle *angry*.`
       }
     },
     {
-      label: 'Notes',
+      label: 'Punctuation',
       type: 'passage',
       id: 'passage-punctuation',
       data: {
@@ -405,23 +424,20 @@ The colon is used to introduce a list, explanation, or example.`
         `We know one thing for sure *— (-)* something unexpected is coming our way.
 Many children *— (-)* living in orphanages *— (-)* do not know what love feels like.
 She wore a charcoal*- (—)*gray rain jacket.
-People *— (-)* both young and old *— (-)* were advised to take vaccinations at the earliest.`,
-
-        `The mathematician*— (-)*philosopher has won the Nobel Prize this year.
+People *— (-)* both young and old *— (-)* were advised to take vaccinations at the earliest.
+The mathematician*— (-)*philosopher has won the Nobel Prize this year.
 I like vanilla*- (—)*flavored ice cream.
 Molotov*— (-)*Ribbentrop Pact was officially declared null in 1941.
-A lot has changed since last year *— (-)* probably for the better.`,
+A lot has changed since last year *— (-)* probably for the better.
+Teresa preferred the red*- (-)*embroidered lace dress.
+The Chennai*— (-)*Mumbai flight will leave at 10:00 a.m.`,
 
-        `Teresa preferred the red*- (-)*embroidered lace dress.
-The Chennai*— (-)*Mumbai flight will leave at 10:00 a.m.
-Dinesh *— (-)* the boy from Thanjavur *— (-)* has arrived.
-The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.`,
-
-        `One*- (—)*fourth of the students in the class have parents from another country.
+        `Dinesh *— (-)* the boy from Thanjavur *— (-)* has arrived.
+The majority of you scored between eighty*- (—)*eight and ninety*- (—)*nine percent on the test.
+One*- (—)*fourth of the students in the class have parents from another country.
 My work timings are from 8*— (-)*5.
-The trek will be organised from May 12*— (-)*15.`,
-
-        `We will have a get*- (—)*together next weekend to celebrate your birthday.
+The trek will be organized from May 12*— (-)*15.
+We will have a get*- (—)*together next weekend to celebrate your birthday.
 The game started out as an organized game of tag, but it ended up a free*- (—)*for*- (—)*all.`
       ]
     },
@@ -442,24 +458,21 @@ The game started out as an organized game of tag, but it ended up a free*- (—)
         `check-, in, ing
 clean-, cut, er
 editor-in-, chief, charge
-empty-, handed, space`,
-
-        `far-, fetched, away
+empty-, handed, space
+far-, fetched, away
 know-, how, where
 life-, size, like
-merry-go-, round, around`,
+merry-go-, round, around
+long-, distance, life
+long-, term, time`,
 
-        `long-, distance, life
-long-, term, time
-one-, sided, time
-one-, dimensional, ce`,
-
-        `over-the-, counter, horizon
+        `one-, sided, time
+one-, dimensional, ce
+over-the-, counter, horizon
 run-, in, ning
 strong-, arm, chair
-toss-, up, coin`,
-
-        `up-to-, date, me
+toss-, up, coin
+up-to-, date, me
 well-, being, done
 word-of-, mouth, devil`
       ]
@@ -502,7 +515,7 @@ The majority of you scored between eighty — eight and ninety — nine percent 
           },
           {
             qText: `A _______ will be used to separate two sentences`,
-            options: `comma, full stop, apostrophe`
+            options: `comma, hyphen, apostrophe`
           },
           {
             qText: `We use a __________ to make short form`,
@@ -518,6 +531,33 @@ The majority of you scored between eighty — eight and ninety — nine percent 
           }
         ]
       }
+    },
+    {
+      id: 'fill-up-option',
+      label: 'Complete: Story',
+      type: 'fillup',
+      commonData: {
+        title: `Complete the short story using punctuation.`
+      },
+      data: [
+        `*Once (once)* upon a time*, (.)* in the bustling town of Punctuationville*, (.)* there lived a group of peculiar characters: Period*, (.)* Question Mark*, (.)* Exclamation Point*, (.)* Comma*, (.)* and Semicolon. Each had their own unique role in the town*, (.)* ensuring that sentences were properly constructed and communication flowed smoothly*. (?)*
+Period*, (.)* being the eldest and most respected*, (.)* was considered the leader of the town*. (?)* With a calm and steady demeanor*, (.)* Period brought a sense of closure to every sentence*. (?)* Whenever someone needed to end a thought or express a statement*, (.)* they would turn to Period for guidance.`,
+
+        `Question Mark*, (.)* on the other hand*, (.)* was known for their curiosity. *They (they)* constantly sought knowledge and encouraged others to do the same. Whenever someone had a burning question*, (.)* they would seek out Question Mark*, (.)* who would provide the necessary punctuation to make it clear*. (?)*
+Exclamation Point was the life of the party. With their vibrant and energetic personality*, (.)* they brought excitement and enthusiasm to any sentence they encountered. Whenever someone wanted to express joy*, (.)* surprise*, (.)* or intense emotions*, (.)* Exclamation Point was there to add a punch of exclamation.`,
+
+        `Comma was a master of organization. *They (they)* loved to separate and connect various elements within a sentence*. (?)* Whenever someone needed to list items*, (.)* create pauses*, (.)* or clarify relationships between words or phrases*, (.)* Comma was the go-to punctuation mark.
+Semicolon was an elusive and enigmatic character. They existed to connect two closely related independent clauses*. (?)* Whenever someone wanted to join two thoughts together without using a conjunction*, (.)* Semicolon would gracefully bridge the gap.`,
+
+        `The town of Punctuationville functioned harmoniously for years*, (.)* with each character fulfilling their role with precision and care*. (?)* The townspeople valued their punctuations and sought their guidance in times of communication uncertainty.
+One day*, (.)* a newcomer arrived in Punctuationville. This character called themselves *" (,,)*Ellipsis*" (,,)* and had a mysterious aura surrounding them. Ellipsis was a series of three dots*, (.)* representing an omission or a trailing thought*. (?)* The residents of Punctuationville were both intrigued and wary of this new punctuation mark.`,
+
+        `Ellipsis didn't fit into the established order of the town*, (.)* as their purpose was often to create suspense or indicate a pause. They introduced an element of ambiguity that had not been experienced before. Some residents found Ellipsis to be fascinating*, (.)* while others feared the disruption it could bring*. (?)*
+Period*, (.)* being the wise and impartial leader*, (.)* called for a town meeting to discuss the addition of Ellipsis to the community. Each punctuation mark had the opportunity to voice their thoughts and concerns. Period emphasized the importance of embracing change and adapting to new forms of expression.`,
+
+        `In the end*, (.)* the townspeople of Punctuationville decided to welcome Ellipsis into their community. They recognized that language and communication were constantly evolving*, (.)* and they needed to adapt to stay relevant. Ellipsis found its place among the other punctuations*, (.)* complementing their existing roles and adding a touch of intrigue to their sentences.
+And so*, (.)* Punctuationville continued to thrive*, (.)* with Period*, (.)* Question Mark*, (.)* Exclamation Point*, (.)* Comma*, (.)* Semicolon*, (.)* and Ellipsis working together to ensure effective communication for all. The residents of the town learned that punctuation was not just a set of rules but a way to convey meaning*, (.)* emotion*, (.)* and creativity. Together*, (.)* they celebrated the power of punctuation in shaping their stories and connecting their words.`
+      ]
     }
   ]
 };
