@@ -451,8 +451,8 @@ The game started out as an organized game of tag, but it ended up a free*- (—)
         title:
           'Drag and drop the right word to form a hyphenated compound word.',
         printTitle: 'Pick the right word to form a hyphenated compound word.',
-        leftWidth: 75,
-        rightWidth: 245
+        leftWidth: 160,
+        rightWidth: 160
       },
       data: [
         `check-, in, ing
@@ -467,7 +467,6 @@ long-, distance, life
 long-, term, time`,
 
         `one-, sided, time
-one-, dimensional, ce
 over-the-, counter, horizon
 run-, in, ning
 strong-, arm, chair
@@ -540,23 +539,23 @@ The majority of you scored between eighty — eight and ninety — nine percent 
         title: `Complete the short story using punctuation.`
       },
       data: [
-        `*Once (once)* upon a time*, (.)* in the bustling town of Punctuationville*, (.)* there lived a group of peculiar characters: Period*, (.)* Question Mark*, (.)* Exclamation Point*, (.)* Comma*, (.)* and Semicolon. Each had their own unique role in the town*, (.)* ensuring that sentences were properly constructed and communication flowed smoothly*. (?)*
-Period*, (.)* being the eldest and most respected*, (.)* was considered the leader of the town*. (?)* With a calm and steady demeanor*, (.)* Period brought a sense of closure to every sentence*. (?)* Whenever someone needed to end a thought or express a statement*, (.)* they would turn to Period for guidance.`,
+        `*Once (once)* upon a time * , (.) * in the bustling town of Punctuationville * , (.) * there lived a group of peculiar characters: Period * , (.) * Question Mark * , (.) * Exclamation Point * , (.) * Comma * , (.) * and Semicolon. Each had their own unique role in the town * , (.) * ensuring that sentences were properly constructed and communication flowed smoothly * . (?) *
+Period * , (.) * being the eldest and most respected * , (.) * was considered the leader of the town * . (?) * With a calm and steady demeanor * , (.) * Period brought a sense of closure to every sentence * . (?) * Whenever someone needed to end a thought or express a statement * , (.) * they would turn to Period for guidance.`,
 
-        `Question Mark*, (.)* on the other hand*, (.)* was known for their curiosity. *They (they)* constantly sought knowledge and encouraged others to do the same. Whenever someone had a burning question*, (.)* they would seek out Question Mark*, (.)* who would provide the necessary punctuation to make it clear*. (?)*
-Exclamation Point was the life of the party. With their vibrant and energetic personality*, (.)* they brought excitement and enthusiasm to any sentence they encountered. Whenever someone wanted to express joy*, (.)* surprise*, (.)* or intense emotions*, (.)* Exclamation Point was there to add a punch of exclamation.`,
+        `Question Mark * , (.) * on the other hand * , (.) * was known for their curiosity. *They (they)* constantly sought knowledge and encouraged others to do the same. Whenever someone had a burning question * , (.) * they would seek out Question Mark * , (.) * who would provide the necessary punctuation to make it clear * . (?) *
+Exclamation Point was the life of the party. With their vibrant and energetic personality * , (.) * they brought excitement and enthusiasm to any sentence they encountered. Whenever someone wanted to express joy * , (.) * surprise * , (.) * or intense emotions * , (.) * Exclamation Point was there to add a punch of exclamation.`,
 
-        `Comma was a master of organization. *They (they)* loved to separate and connect various elements within a sentence*. (?)* Whenever someone needed to list items*, (.)* create pauses*, (.)* or clarify relationships between words or phrases*, (.)* Comma was the go-to punctuation mark.
-Semicolon was an elusive and enigmatic character. They existed to connect two closely related independent clauses*. (?)* Whenever someone wanted to join two thoughts together without using a conjunction*, (.)* Semicolon would gracefully bridge the gap.`,
+        `Comma was a master of organization. *They (they)* loved to separate and connect various elements within a sentence * . (?) * Whenever someone needed to list items * , (.) * create pauses * , (.) * or clarify relationships between words or phrases * , (.) * Comma was the go-to punctuation mark.
+Semicolon was an elusive and enigmatic character. They existed to connect two closely related independent clauses * . (?) * Whenever someone wanted to join two thoughts together without using a conjunction * , (.) * Semicolon would gracefully bridge the gap.`,
 
-        `The town of Punctuationville functioned harmoniously for years*, (.)* with each character fulfilling their role with precision and care*. (?)* The townspeople valued their punctuations and sought their guidance in times of communication uncertainty.
-One day*, (.)* a newcomer arrived in Punctuationville. This character called themselves *" (,,)*Ellipsis*" (,,)* and had a mysterious aura surrounding them. Ellipsis was a series of three dots*, (.)* representing an omission or a trailing thought*. (?)* The residents of Punctuationville were both intrigued and wary of this new punctuation mark.`,
+        `The town of Punctuationville functioned harmoniously for years * , (.) * with each character fulfilling their role with precision and care * . (?) * The townspeople valued their punctuations and sought their guidance in times of communication uncertainty.
+One day * , (.) * a newcomer arrived in Punctuationville. This character called themselves * " (,,) * Ellipsis * " (,,) * and had a mysterious aura surrounding them. Ellipsis was a series of three dots * , (.) * representing an omission or a trailing thought * . (?) * The residents of Punctuationville were both intrigued and wary of this new punctuation mark.`,
 
-        `Ellipsis didn't fit into the established order of the town*, (.)* as their purpose was often to create suspense or indicate a pause. They introduced an element of ambiguity that had not been experienced before. Some residents found Ellipsis to be fascinating*, (.)* while others feared the disruption it could bring*. (?)*
-Period*, (.)* being the wise and impartial leader*, (.)* called for a town meeting to discuss the addition of Ellipsis to the community. Each punctuation mark had the opportunity to voice their thoughts and concerns. Period emphasized the importance of embracing change and adapting to new forms of expression.`,
+        `Ellipsis didn't fit into the established order of the town * , (.) * as their purpose was often to create suspense or indicate a pause. They introduced an element of ambiguity that had not been experienced before. Some residents found Ellipsis to be fascinating * , (.) * while others feared the disruption it could bring * . (?) *
+Period * , (.) * being the wise and impartial leader * , (.) * called for a town meeting to discuss the addition of Ellipsis to the community. Each punctuation mark had the opportunity to voice their thoughts and concerns. Period emphasized the importance of embracing change and adapting to new forms of expression.`,
 
-        `In the end*, (.)* the townspeople of Punctuationville decided to welcome Ellipsis into their community. They recognized that language and communication were constantly evolving*, (.)* and they needed to adapt to stay relevant. Ellipsis found its place among the other punctuations*, (.)* complementing their existing roles and adding a touch of intrigue to their sentences.
-And so*, (.)* Punctuationville continued to thrive*, (.)* with Period*, (.)* Question Mark*, (.)* Exclamation Point*, (.)* Comma*, (.)* Semicolon*, (.)* and Ellipsis working together to ensure effective communication for all. The residents of the town learned that punctuation was not just a set of rules but a way to convey meaning*, (.)* emotion*, (.)* and creativity. Together*, (.)* they celebrated the power of punctuation in shaping their stories and connecting their words.`
+        `In the end * , (.) * the townspeople of Punctuationville decided to welcome Ellipsis into their community. They recognized that language and communication were constantly evolving * , (.) * and they needed to adapt to stay relevant. Ellipsis found its place among the other punctuations * , (.) * complementing their existing roles and adding a touch of intrigue to their sentences.
+And so * , (.) * Punctuationville continued to thrive * , (.) * with Period * , (.) * Question Mark * , (.) * Exclamation Point * , (.) * Comma * , (.) * Semicolon * , (.) * and Ellipsis working together to ensure effective communication for all. The residents of the town learned that punctuation was not just a set of rules but a way to convey meaning * , (.) * emotion * , (.) * and creativity. Together * , (.) * they celebrated the power of punctuation in shaping their stories and connecting their words.`
       ]
     }
   ]
