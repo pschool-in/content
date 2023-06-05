@@ -4,7 +4,7 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Subordinating Conjunctions',
       type: 'passage',
       id: 'conjunction',
       data: {
@@ -65,7 +65,7 @@ It is better to keep everything packed <i>as</i> you are not sure when you would
     },
     {
       type: 'selectWord',
-      label: 'Subordinating Conjunction',
+      label: 'Identify: Subordinating Conjunction',
       id: 'select-sub',
       lockAfter: 1,
       commonData: {
@@ -77,9 +77,8 @@ It is better to keep everything packed <i>as</i> you are not sure when you would
 *If* you work hard you will pass.
 *Though* he is poor, he is honest.
 *If only*, I would be a Prime Minister.
-We eat *in order that* we may live.`,
-
-        `You will not pass *unless* you study.
+We eat *in order that* we may live.
+You will not pass *unless* you study.
 She will not stop crying *unless* she meets her father.
 She walked faster *in order that* she could get the bus.
 *Though* she was intelligent, she failed.
@@ -89,9 +88,8 @@ Wait here *till* I come.`,
 She told me *that* she was a poet.
 They know *that* you can be handy.
 She was talking on the phone *while* crossing the road.
-*Once* she was in England, she became arrogant.`,
-
-        `I drink tea *once* a day.
+*Once* she was in England, she became arrogant.
+I drink tea *once* a day.
 *As* I left my home, I found a purse at the door.
 He talks to me *as if* he were my boss.
 She behaves *as if* she were a dictator.
@@ -101,9 +99,8 @@ He practiced for the exams *till* late.`,
 You could go and play *after* you have finished your homework.
 *Now that* India is in the semifinal, we are celebrating.
 Do not go *until* I come.
-I know the time *when* she was born.`,
-
-        `I can give you this book *on condition that* you will keep it safe.
+I know the time *when* she was born.
+I can give you this book *on condition that* you will keep it safe.
 You may go on leave *provided* the project is finished on time.
 They are not ready to pay *until* they get the house.
 He showed anger *as though* he was the victim of it.
@@ -149,7 +146,7 @@ I drink tea *once* a day.`
       ]
     },
     {
-      label: 'Notes',
+      label: 'Coordinating Conjunctions',
       type: 'passage',
       id: 'passage-coord',
       data: {
@@ -252,78 +249,108 @@ Subordinating conjunctions always come at the beginning of a sentence.`
       }
     },
     {
+      id: 'fillup-cord',
+      label: 'Fillup: Coordinating Conjunctions',
+      type: 'fillup',
+      commonData: {
+        title:
+          'Fill in the blanks using an appropriate coordinating conjunction.'
+      },
+      lockAfter: 2,
+      data: [
+        `Me *and (for, but)* my friend Sita had dinner at the Ramees Hotel, *for (and, so)* it was the last day before she moved to Dubai.
+See to it that you leave home early *so (for, yet)* you can reach the exam center in time.
+Meera reached home late from work, *yet (so, for)* she looked very energetic.
+Do you like black olives *or (but, and)* green olives?
+John is sure that he locked the door, *but (nor, yet)* he cannot remember if he took the keys.
+Peter neither replied to my message *nor (yet, but)* called me back.
+I am very tired *for (so, and)* I have been working all day.
+He not only bought us a drink *but (yet, nor)* also gave us a lift in his car.
+They not only looted the shop *but (and, so)* also set fire to it.
+Abdul owns both a car *and (for, nor)* a motorbike.`,
+
+        `Ravi was ill *so (and, but)* he did not go to school.
+You should pay your fee before the due date *or (so, yet)* else you will have to pay the fine.
+There is no demand *for (so, nor)* this kind of mobile, *so (for, but)* we can't place an order now.
+He was angry, *yet (but, and)* he said nothing.
+We can either walk *or (nor, so)* take a bus.
+I want to go to the beach, *and (but, yet)* also visit the museum.
+She likes to hike, *but (and, so)* she hates camping.
+You can have cake *or (nor, yet)* ice cream for dessert.
+I neither like *nor (but, or)* dislike spicy food.
+He is studying hard, *for (or, so)* he wants to get into a good college.`,
+
+        `It was raining, *so (for, or)* we stayed inside all day.
+She is smart *yet (nor, or)* humble.
+I need to go grocery shopping, *and (so, but)* have to do laundry too.
+He didn't study for the exam, *so (for, nor)* he failed.
+She doesn't have a lot of experience, *yet (but, so)* she's very confident.
+I want to go to the beach, *but (yet, so)* it looks like it might rain.
+She wanted to buy the blue dress, *so (or, but)* she asked the sales associate for a smaller size.
+He enjoys hiking, camping, *and (nor, but)* fishing in the mountains.
+She studied hard for the exam, *yet (and, so)* she still didn't do well.
+The concert tickets are sold out, *and (so, or)* we can't find any online either.`,
+
+        `Arjun is intelligent *and (but, so)* smart.
+Gopal plays baseball well, *yet (so, or)* his favorite sport is football.
+Ashok is rich *but (and, so)* stingy.
+Today is my birthday, *so (for, or)* I want a new dress.
+Do you want admission to Poland, *or (nor, yet)* do you want to study in Canada?
+Rahim *and (yet, but)* Peter planned to have lunch at the convenience store.
+My sister did not collect the clothes from the dry cleaner *nor (or, so)* did she buy the items on the grocery list.
+Ravi had a lot of sweets to the extent that he could become sick, *yet (but, so)* he says he can have more.
+The teacher did not ask for Mahira *but (and, yet)* Mahir.
+We can go to the park *or (nor, for)* the museum for our field trip.`
+      ]
+    },
+    {
       label: 'Fill in the blanks',
       type: 'matchByDragDrop',
-      id: 'fillup-drag-conj',
+      id: 'fillup-drag-co',
       lockAfter: 1,
       commonData: {
-        title: 'Drag and drop the words at appropriate places',
+        title: 'Fill in the blanks with the most appropriate conjunction.',
         styles: {
           fontSize: '1rem',
           dashWidth: 70
         }
       },
       data: [
-        `Joshua is intelligent *and* smart.
-Jake plays baseball well, *yet* his favorite sport is football.
-Jay is rich *but* stingy.
-Today is my birthday, *so* I want a new dress.
-Do you want admission to Poland, *or* do you want to study in Canada?`,
+        `I want to go to the park, *but* it's raining outside.
+She likes to swim, *and* he enjoys playing soccer.
+I studied hard *for* the exam, yet I still failed.
+You can have the cake *either* now or later.
+She is *neither* tall nor short.`,
 
-        `Sunoo *and* Jungwon planned to have lunch at the convenience store.
-My sister did not collect the clothes from the dry cleaner *nor* did she buy the items on the grocery list.
-Niki had a lot of sweets to the extent that he could become sick, *yet* he says he can have more.
-The teacher did not ask for Mahira *but* Mahir.
-I met my friend at Old Street, *and* from there, we went to the lighthouse together.`,
+        `He is tall *and* athletic.
+I can lend you some money *as long as* you pay me back.
+We can go to the beach, *provided* that the weather is good.
+I'll have the salad, *whereas* my friend will order samosas.
+I went to the store *because* I needed to buy some groceries.`,
 
-        `I want to go to the beach, *but* it looks like it might rain.
-She wanted to buy the blue dress, *so* she asked the sales associate for a smaller size.
-He enjoys hiking, camping, *and* fishing in the mountains.
-She studied hard for the exam, *yet* she still didn't do well.
-We can go to the park *or* the museum for our field trip.
-The concert tickets are sold out, *and* we can't find any online either.`
-      ]
-    },
-    {
-      id: 'fillup-cord',
-      label: 'Coordinating Conjunctions',
-      type: 'fillup',
-      commonData: {
-        noOptions: true,
-        title:
-          'Fill in the blanks using an appropriate coordinating conjunction.'
-      },
-      lockAfter: 2,
-      data: [
-        `Me *and* my friend Alka had dinner at the Ramees Hotel, *for* it was the last day before she moved to Dubai.
-See to it that you leave home early *so* you can reach the exam center in time.
-Meera reached home late from work, *yet* she looked very energetic.
-Do you like black olives *or* green olives?
-Jay is sure that he locked the door, *but* he cannot remember if he took the keys.`,
+        `He likes to swim, *whereas* she prefers to hike.
+She stayed at home *since* she wasn't feeling well.
+We should leave early *in order to* avoid traffic.
+I can help you with your homework *whenever* you need assistance.
+He is not only intelligent *but* also kind-hearted.`,
 
-        `Vernon neither replied to my message *nor* called me back.
-I am very tired *for* I have been working all day.
-He not only bought us a drink *but* also gave us a lift in his car.
-They not only looted the shop *but* also set fire to it.
-Ritwik owns both a car *and* a motorbike.`,
+        `I couldn't go to the party *since* I had to work late.
+We can go to the movies *or* stay home and watch a film.
+She didn't eat the cake, *nor* did she have any ice cream.
+I will call you *when* I arrive at the airport.
+He bought the book, *yet* he never read it.`,
 
-        `Meenu was ill *so* he did not go to school.
-You should pay your fee before the due date *or* else you will have to pay the fine.
-There is no demand *for* this kind of mobile, *so* we can't place an order now.
-He was angry, *yet* he said nothing.
-We can either walk *or* take a bus.`,
+        `We can go to the concert, *or* we can stay home and relax.
+I didn't study for the test, *so* I failed.
+She plays both the piano *and* the guitar.
+I'll go to the gym, *provided* that I finish my work on time.
+He didn't like the movie *because* it was too long.`,
 
-        `I want to go to the beach, *and* also visit the museum.
-She likes to hike, *but* she hates camping.
-You can have cake *or* ice cream for dessert.
-I neither like *nor* dislike spicy food.
-He is studying hard, *for* he wants to get into a good college.`,
-
-        `It was raining, *so* we stayed inside all day.
-She is smart *yet* humble.
-I need to go grocery shopping, *and* have to do laundry too.
-He didn't study for the exam, *so* he failed.
-She doesn't have a lot of experience, *yet* she's very confident.`
+        `We can go hiking *as soon as* the rain stops.
+I'm tired, *but* I still need to finish my work.
+She is allergic to peanuts, *yet* she accidentally ate some.
+We can go to the beach, *or* we can go to the amusement park.
+He can choose *either* the blue shirt or the red one.`
       ]
     }
   ]

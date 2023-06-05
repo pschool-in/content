@@ -4,11 +4,11 @@ export default {
   lockAfter: 3,
   list: [
     {
-      label: 'Notes',
+      label: 'Clause',
       type: 'passage',
       id: 'clause-phrase',
       data: {
-        title: 'Clauses',
+        title: 'Clause',
         text: [
           `A group of words containing a subject and a finite verb is called a clause. It is formed when a subject and a predicate are combined to communicate an idea. 
 # Features of a clause
@@ -384,7 +384,7 @@ He played the guitar beautifully`
       }
     },
     {
-      label: 'Notes',
+      label: 'Relative Clause',
       type: 'passage',
       id: 'relative-clause',
       data: {
@@ -447,7 +447,7 @@ My mother, who is fifty, lives in Dubai.`
       }
     },
     {
-      label: 'Notes',
+      label: 'Conditional',
       type: 'passage',
       id: 'conditional-notes',
       data: {
@@ -553,46 +553,42 @@ If Amrit had been with me, he would have known how to make me feel better.`
       label: 'Fill in the blanks',
       type: 'fillup',
       commonData: {
-        noOptions: true,
         title: 'Fill in the missing blanks and complete the conditionals.'
       },
       lockAfter: 2,
       data: [
-        `If I were the Prime Minister, I *would* start community kitchens all over the country.
-If I were you, I *would* not marry him.
-I *would* not have failed, if I had studied harder.
-If you do not stop smoking, you *will* develop cancer.
-If I were a doctor, I *would* treat poor people for free.`,
+        `If I were the Prime Minister, I *would (will)* start community kitchens all over the country.
+If I were you, I *would (will)* not marry him.
+I *would (will)* not have failed, if I had studied harder.
+If you do not stop smoking, you *will (can)* develop cancer.
+If I were a doctor, I *would (will)* treat poor people for free.
+If he had asked me, I *would (will)* have told him.
+If I were a millionaire, I *would (will)* help the poor and the needy.
+If they had brought him in time, he *could (can)* have been saved.
+If he behaved more politely, he *would (will)* not be in trouble.
+If she earned a handsome salary, she *could (can)* lead a better life.`,
 
-        `If he had asked me, I *would* have told him.
-If I were a millionaire, I *would* help the poor and the needy.
-If they had brought him in time, he *could* have been saved.
-If he behaved more politely, he *would* not be in trouble.
-If she earned a handsome salary, she *could* lead a better life.`,
+        `If it rains, I *will (can)* wear a raincoat.
+You *will (can)* not get good marks unless you study hard for the examination.
+The dog *will (can)* bite you if you keep teasing it.
+If Alexander Bell had not been an inventor, today we *would (will)* not be using telephones.
+If Wellington had lost the battle of Waterloo, Napolean Bonaparte *would (will)* have been the president of France.
+Neil Armstrong *would (will)* not have walked on the moon unless the Americans had not developed space flight.
+The other team *will (can)* win if we lose hope.
+If you find problems difficult, you *should (could)* keep trying and never give up.
+If Samar does not have an umbrella, he *will (can)* get wet in the rain.
+If John Kennedy had not gone to Dallas, he *would (will)* not have been assassinated.`,
 
-        `If it rains, I *will* wear a raincoat.
-You *will* not get good marks unless you study hard for the examination.
-The dog *will* bite you if you keep teasing it.
-If Alexander Bell had not been an inventor, today we *would* not be using telephones.
-If Wellington had lost the battle of Waterloo, Napolean Bonaparte *would* have been the president of France.`,
-
-        `Neil Armstrong *would* not have walked on the moon unless the Americans had not developed space flight.
-The other team *will* win if we lose hope.
-If you find problems difficult, you *should* keep trying and never give up.
-If Samar does not have an umbrella, he *will* get wet in the rain.
-If John Kennedy had not gone to Dallas, he *would* not have been assassinated.`,
-
-        `If Madame Curie had been a housewife, she *would* not have discovered radium.
-If I won a million rupees, I *would* buy a bungalow and a car.
-If I were accidentally locked out of my house, I *would* call my friend for help.
-If the poles of two magnets are opposite, they *will* repel each other.
-The ice *will* melt if one places it in the sun.`,
-
-        `I *would* not ask any question unless I could ask the president of America the secret of his success.
-If the world were to end in five minutes, I *would* pray to God for mercy.
-If I found a diamond on the street, I *would* search for its owner of it.
-If a cat is fed, it *will* not kill rats.
-In old age, if people had no fire, they *would* eat their meat raw.`
+        `If Madame Curie had been a housewife, she *would (will)* not have discovered radium.
+If I won a million rupees, I *would (will)* buy a bungalow and a car.
+If I were accidentally locked out of my house, I *would (will)* call my friend for help.
+If the poles of two magnets are opposite, they *will (can)* repel each other.
+The ice *will (can)* melt if one places it in the sun.
+I *would (will)* not ask any question unless I could ask the president of America the secret of his success.
+If the world were to end in five minutes, I *would (will)* pray to God for mercy.
+If I found a diamond on the street, I *would (will)* search for its owner of it.
+If a cat is fed, it *will (can)* not kill rats.
+In old age, if people had no fire, they *would (will)* eat their meat raw.`
       ]
     }
   ]

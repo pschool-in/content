@@ -67,7 +67,7 @@ It is formed by adding 'ing' to the original form of the main verb.`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the participle in the sentence as a present participle or past participle',
+          'Determine whether the participle in the sentence is a present participle or past participle.',
         types: [
           {
             name: 'Present',
@@ -93,14 +93,14 @@ Niki was highly *irritated* as Jake kept poking him.`
       },
       lockAfter: 1,
       data: [
-        `Remya came *to see(for see, seeing, having seen)* you.
-The sun *having risen (rise, to rise, rising)* the birds began to chirp.
-Everybody worships the *rising (rise, having risen, to rise)* idol Jake.
+        `Remya came *to see (for see, seeing)* you.
+The sun *having risen (rise, to rise)* the birds began to chirp.
+Everybody worships the *rising (rise, to rise)* idol, Jake.
 *Placing (Place, Having place)* the books on the table Jay ran away.
 I saw a woman *cross (having crossed, crossed)* the road.
-A *broken (break, breaking, to break)* glass cannot hold water.
-*Hit (Being hitted, Having hit, Hitting)* by an arrow, the bird fell.
-You better *leave (to leave) before Tarun arrives.
+A *broken (break, to break)* glass cannot hold water.
+*Hit (Being hitted, Hitting)* by an arrow, the bird fell.
+You better *leave (to leave)* before Tarun arrives.
 I saw the storm *approaching (approach)*.
 *Hearing (Hear)* a noise, I turned around.`,
 
@@ -111,7 +111,6 @@ The rain came *pouring (pour)* down.
 *Having lost (Lose)* my book, I reported the matter to the teacher.
 *Seeing (See)* the Principal, the students ran away. 
 *Having worked (Work)* hard, my sister got good marks.
-*Starving (Starve)* is better than *begging (beg)*.
 *Reaching (Reach)* home, I asked my mother to make tea.`
       ]
     },
@@ -156,7 +155,7 @@ As an adjective only.`
             options: `Verbal noun, Adverb, Adjective, Pronoun`
           },
           {
-            qText: `A gerund is a verb form that acts as what part of speech?`,
+            qText: `What part of speech does a gerund act as?`,
             options: `Noun, Adverb, Adjective, Verb`
           },
           {
@@ -176,11 +175,10 @@ As an adjective only.`
       },
       data: [
         `*Swimming* is good exercise.
-I learned *driving*.
 I like *watching* television.
 He was used to *driving* on the right when he was in London.
 *Writing* is my profession.
-*Celebrating* various festivals together is common among Indians.
+*Celebrating* various festivals together are common among Indians.
 I enjoy *teaching* English.
 *Walking* is good exercise for health.
 *Reading* books increases our knowledge.
@@ -190,7 +188,6 @@ I enjoy *teaching* English.
 She hates *worrying* about the future.
 I prefer *studying* computer science.
 He is afraid of *telling* the truth.
-My aim in life is *becoming* a writer.
 Her objective is *starting* a home for parentless children.
 What I want to do in life is *achieving* something useful for all.
 I do not mind *having* a cup of tea.
@@ -204,7 +201,7 @@ Have you postponed *going* to Delhi?`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the below sentences based on the use of Gerund or Infinitive.',
+          'Classify the sentences below based on their use of Gerund or Infinitive.',
         types: [
           {
             name: 'Gerund',
@@ -229,7 +226,7 @@ Have you postponed *going* to Delhi?`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the below sentences based on the use of Gerund or Participle.',
+          'Classify the sentences below based on thier use of Gerund or Participle.',
         types: [
           {
             name: 'Gerund',
@@ -247,101 +244,6 @@ The *smiling* girl waved goodbye. `
           }
         ]
       }
-    },
-    {
-      id: 'fill-up-gerund',
-      label: 'Fill in the blanks',
-      type: 'fillup',
-      commonData: {
-        title: `Fill in the blanks using gerunds.`
-      },
-      data: [
-        `*Swimming (To swim)* is good exercise.
-I learned *driving (to drive)*.
-I like *watching (to watch)* television.
-I am looking forward to *meeting (meet)* you.
-He was used to *driving (drive)* on the right when he was in London.
-*Writing (To write)* is my profession.
-*Celebrating (To celebrate)* various festivals together is common among Indians.
-I enjoy *teaching (to teach)* English.`,
-
-        `*Walking (To walk)* is good exercise for health.
-*Reading (To read)* books increases our knowledge.
-*Working (To work)* hard makes you successful.
-He dislikes *sleeping (to sleep)* long.
-She hates *worrying (to worry)* about the future.
-I prefer *studying (to study)* computer science.
-He is afraid of *telling (to tell)* the truth.
-My aim in life is *becoming (to become)* a writer.`,
-
-        `Her objective is *starting (to start)* a home for parentless children.
-What I want to do in life is *achieving (to achieve)* something useful for all.
-I do not mind *having (to have)* a cup of tea.
-I enjoy *reading (to read)* English novels.
-Have you postponed *going (to go)* to Delhi?`
-      ]
-    },
-    {
-      label: 'Correct or Incorrect',
-      type: 'classifySentence',
-      id: 'correct-incorrect-gerund',
-      commonData: {
-        title: 'Classify the following sentences as correct or incorrect.',
-        types: ['Correct', 'Incorrect']
-      },
-      data: [
-        [
-          `She insisted on me paying the money.
-Padma objected to Vijaya talking like that.
-I am sorry for him having spent life uselessly.
-I was shocked at Rajiv Gandhi being assassinated.`,
-
-          `She insisted on I paying the money.
-Padma objective to Vijaya's talking like that.
-I am sorry for he having spent life uselessly.
-I was shocked Rajiv Gandhi's be assassinated.`
-        ],
-        [
-          `We were delighted at Mother Teresa being awarded Noble Peace Prize.
-There is no chance of snow falling.
-There is a possibility of the election taking place.
-Playing chess is his passion.`,
-
-          `We were delighted at Mother Teresa's be awarded Noble Peace Prize.
-There is no chance of the snow's falling.
-There is possibility of the election's talking place.
-The playing chess is his passion.
-Playing of chess is his passion.`
-        ],
-        [
-          `I dislike cooking food and washing clothes.
-The rapid reading of a book is useless.
-Reading a book rapidly is useless.
-He insisted on going there alone.`,
-
-          `I dislike cooking food and the washing of clothes.
-Rapid read a book is useless.
-He insists to went there alone.`
-        ],
-        [
-          `He prevented me from going here alone.
-I dislike your going there.
-The reading of a book rapidly is useless.`,
-
-          `He prevents me to went there alone.
-I dislike you go there.
-Rapid reads book is useless`
-        ],
-        [
-          `I do not mind Ram attending the party.
-He begged of me the favor of granting him leave.
-The match was handicapped by one of their best players being ill.`,
-
-          `I do not mind Ram's attending the party.
-He beg of my favour of granting him leave.
-The match was handicapped by one's of their best players being ill.`
-        ]
-      ]
     },
     {
       label: 'Infinitive',
@@ -499,30 +401,45 @@ She has a child *to look after*.
     },
     {
       label: 'Fill in the blanks',
-      type: 'matchByDragDrop',
+      type: 'fillup',
       id: 'drag-drop-infinitive',
       lockAfter: 1,
       commonData: {
         title: 'Fill in the blanks using the most suitable words.'
       },
       data: [
-        `*To learn* a new language is on my bucket list.
-I need *to buy* some groceries to make dinner tonight.
-She decided *to take* a nap after finishing her homework.
-It's important *to exercise* regularly for good health.
-My goal is *to read* 50 books this year.`,
+        `*Learning (To learn)* a new language is on my bucket list.
+I need *to buy (buy)* some groceries to make dinner tonight.
+She decided *to take (taking)* a nap after finishing her homework.
+Her objective is *to start (starting)* a home for parentless children.
+What I want to do in life is *to achieve (achieving)* something useful for all.
+I do not mind *having (to have)* a cup of tea.
+I enjoy *reading (to read)* English novels.
+Have you postponed *going (to go)* to Delhi?
+It's important *to exercise (exercising)* regularly for good health.
+My goal is *to read (read)* 50 books this year.`,
 
-        `I would love *to travel* to Japan someday.
-*To become* a doctor, one must attend medical school.
-He promised *to call* his mother every week.
-I'm trying *to save* money to buy a new car.
-She loves *to sing* in the shower when no one is home.`,
+        `*Swimming (To swim)* is good exercise.
+I learned *driving (to drive)*.
+I like *watching (to watch)* television.
+I am looking forward to *meeting (meet)* you.
+He was used to *driving (drive)* on the right when he was in London.
+*Writing (To write)* is my profession.
+*Celebrating (To celebrate)* various festivals together are common among Indians.
+I enjoy *teaching (to teach)* English.
+I would love *to travel (travel)* to Japan someday.
+*To become (becoming)* a doctor, one must attend medical school.`,
 
-        `You *should do* your work.
-He *can win* this match.
-You *must abide* by the law.
-You *ought to* respect your elders.
-I *shall go* there.`
+        `He promised *to call (calling)* his mother every week.
+*Walking (To walk)* is good exercise for health.
+*Reading (To read)* books increases our knowledge.
+*Working (To work)* hard makes you successful.
+He dislikes *sleeping (to sleep)* long.
+She hates *worrying (to worry)* about the future.
+I prefer *studying (to study)* computer science.
+He is afraid of *telling (to tell)* the truth.
+I'm trying *to save (saving)* money to buy a new car.
+She loves *to sing (singing)* in the shower when no one is home.`
       ]
     },
     {
@@ -531,7 +448,7 @@ I *shall go* there.`
       id: 'correct-incorrect-infinitive',
       commonData: {
         title:
-          'Classify the following sentences based on the correct usage of Infinitives.',
+          'Classify the following sentences based on the usage of grammar as correct or incorrect.',
         types: ['Correct', 'Incorrect']
       },
       data: [
@@ -541,111 +458,106 @@ She tried to clearly explain the situation.
 He did nothing but laugh.
 He did no more than laugh.`,
 
-          `I expect Madhavi to carefully read the letter.
-          She tried to explain clearly the situation.
-He did nothing but to laugh.
-He did no more than to laugh.`
+          `Your beautiful. 
+Do you know when your going? 
+Can I have you're coat? `
         ],
         [
-          `I went there personally to see the situation.
-He helped me to progress and prosper.
-It lies in my power to succeed or to fail.`,
+          `It was much hotter today than yesterday.
+Every boy must sign in when he arrives.
+Every girl must bring her own lunch.`,
 
-          `I went there personally see the situation.
-He helped me to progress and to prosper.
-It lies in my power to succeed or fail.`
+          `Their going to be here soon. 
+We should contact they're friend.  
+Can we use there house? `
         ],
         [
           `I and my friends are planning to go to the beach next weekend.
 I want to lie down and take a nap.
 She needs to stop procrastinating and start studying. `,
 
-          `Me and my friends are planning to went to the beach next weekend.
-I want to laid down and take a nap.
-She needs to stopped procrastinating and start studying. `
+          `He almost walked for the entire day.
+My mothers cabin is next to his' cabin.
+Its a cold day for October.`
         ],
         [
           `He offered to give me a ride to the airport.
 They decided to go to the concert last minute.
 She wants to run a marathon next year. `,
 
-          `He offered to gave me a ride to the airport.
-They decided to went to the concert last minute.
-She wants to ran a marathon next year. `
+          `These recipes is good for beginning chefs.
+At eight years old, my father gave me a pony for Christmas.
+The dad found the boy, and he was happy. `
+        ],
+        [
+          `For what reason did he come here?
+Their father went to school there.
+The rain had a good effect on the farmer's field.`,
+
+          `The dogs dish was full of bone's.
+Susan gave me a real nice bouquet of flowers.
+He was laying on the couch.`
         ]
       ]
     },
     {
-      id: 'mcq-infinitive',
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      commonData: {
-        title: 'Multiple Choice Questions'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText:
-                'Which of the following is the correct usage of infinitive?',
-              options: `He knows how to read and write English.
+      id: 'mcq-infinitive',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'Which of the following is the correct usage of infinitive?',
+            options: `He knows how to read and write English.
 He knows to read and write English.`
-            },
-            {
-              qText:
-                'Which of the following is the correct usage of infinitive?',
-              options: `My father taught him how to drive a car.
+          },
+          {
+            qText: 'Which of the following is the correct usage of infinitive?',
+            options: `My father taught him how to drive a car.
 My father taught him to drive a car.`
-            },
-            {
-              qText:
-                'Which of the following is the correct usage of infinitive?',
-              options: `Rekha was punished for coming late.
+          },
+          {
+            qText: 'Which of the following is the correct usage of infinitive?',
+            options: `Rekha was punished for coming late.
 Rekha was punished to coming late`
-            },
-            {
-              qText:
-                'Which of the following is the correct usage of infinitive?',
-              options: `The student was made to write an essay by me.
+          },
+          {
+            qText: 'Which of the following is the correct usage of infinitive?',
+            options: `The student was made to write an essay by me.
 The student was made by me to write an essay.`
-            },
-            {
-              qText:
-                'Which of the following is the correct usage of infinitive?',
-              options: `I was let go by him.
+          },
+          {
+            qText: 'Which of the following is the correct usage of infinitive?',
+            options: `I was let go by him.
 I was by him let go`
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'Which of the following is the incorrect usage of infinitive?',
-              options: `That way to behave is dangerous.
+          },
+          {
+            qText:
+              'Which of the following is the incorrect usage of infinitive?',
+            options: `That way to behave is dangerous.
 That is a dangerous way to behave.`
-            },
-            {
-              qText:
-                'Which of the following is the incorrect usage of infinitive?',
-              options: `It is important to be patient for Jake to his little brother.
+          },
+          {
+            qText:
+              'Which of the following is the incorrect usage of infinitive?',
+            options: `It is important to be patient for Jake to his little brother.
 It is important for Jake to be patient to his little brother.`
-            },
-            {
-              qText:
-                'Which of the following is the incorrect usage of infinitive?',
-              options: `To do this is the right thing.
+          },
+          {
+            qText:
+              'Which of the following is the incorrect usage of infinitive?',
+            options: `To do this is the right thing.
 This is the right thing to do.`
-            },
-            {
-              qText:
-                'Which of the following is the incorrect usage of infinitive?',
-              options: `When to press the button tell me.
+          },
+          {
+            qText:
+              'Which of the following is the incorrect usage of infinitive?',
+            options: `When to press the button tell me.
 Tell me when to press the button`
-            }
-          ]
-        }
-      ]
+          }
+        ]
+      }
     }
   ]
 };
