@@ -387,7 +387,10 @@ A median connects a vertex of a triangle to the mid-point of the opposite side. 
             text: `The line drawn from the vertex A to the line segment BC in such a way, the length is minimum is altitude. <br><br>
 In the above figure, AL is an altitude. <br><br>
 ∠ALB = ∠ALC = 90°`
-          }
+          },
+          `# Properties of Triangle
+Sum of the lengths of any two sides of a triangle is always greater than the length of the third side.
+`
         ]
       }
     },
@@ -418,8 +421,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            65, 115`
+𝑦 = ?1 °
+65, 115`
           },
           {
             svg: {
@@ -437,8 +440,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            80, 100`
+𝑦 = ?1 °
+80, 100`
           },
           {
             svg: {
@@ -456,8 +459,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            70, 110`
+𝑦 = ?1 °
+70, 110`
           },
           {
             svg: {
@@ -475,8 +478,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            55, 125`
+𝑦 = ?1 °
+55, 125`
           },
           {
             svg: {
@@ -494,8 +497,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            55, 125`
+𝑦 = ?1 °
+55, 125`
           },
           {
             svg: {
@@ -513,8 +516,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            80, 100`
+𝑦 = ?1 °
+80, 100`
           },
           {
             svg: {
@@ -532,8 +535,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            60, 60`
+𝑦 = ?1 °
+60, 60`
           },
           {
             svg: {
@@ -551,8 +554,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            80, 40`
+𝑦 = ?1 °
+80, 40`
           },
           {
             svg: {
@@ -570,8 +573,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            75, 55`
+𝑦 = ?1 °
+75, 55`
           },
           {
             svg: {
@@ -589,8 +592,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 °
-            90, 60`
+𝑦 = ?1 °
+90, 60`
           }
         ]
       }
@@ -621,7 +624,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            60`
+60`
           },
           {
             svg: {
@@ -637,7 +640,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            60`
+60`
           },
           {
             svg: {
@@ -653,7 +656,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            65`
+65`
           },
           {
             svg: {
@@ -668,7 +671,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            30`
+30`
           },
           {
             svg: {
@@ -684,8 +687,8 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 + 2𝑥 + 3𝑥 = ?0 ° 
-            𝑥 = ?1 ° 
-            180, 30`
+𝑥 = ?1 ° 
+180, 30`
           }
         ]
       }
@@ -714,7 +717,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            40`
+40`
           },
           {
             //2
@@ -730,7 +733,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            90`
+90`
           },
           {
             //3
@@ -746,7 +749,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-           50`
+50`
           },
           {
             //4
@@ -762,7 +765,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            40`
+40`
           },
           {
             //5
@@ -775,7 +778,7 @@ In the above figure, AL is an altitude. <br><br>
               texts: [{ str: '𝑥', x: 111, y: 34 }]
             },
             text: `𝑥 = ?0 ° 
-           45`
+45`
           },
           {
             //6
@@ -791,7 +794,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-           60`
+60`
           },
           {
             //7
@@ -807,7 +810,7 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-           60`
+60`
           },
           {
             //11
@@ -823,11 +826,91 @@ In the above figure, AL is an altitude. <br><br>
               ]
             },
             text: `𝑥 = ?0 ° 
-            𝑦 = ?1 ° 
-           45, 135`
+𝑦 = ?1 ° 
+45, 135`
+          }
+        ]
+      }
+    },
+    {
+      id: 'impossible-triangle',
+      label: 'Impossible Triangle',
+      type: 'classifySentence',
+      data: {
+        title:
+          'Is it possible to create a triangle with sides of the below given lengths?',
+        types: [
+          {
+            name: 'Possible',
+            text: `4 cm, 5 cm, 8 cm
+19 cm, 7 cm, 11 cm`
           },
-          
-         
+          {
+            name: 'Impossible',
+            text: `11 cm, 10 cm, 22 cm
+6 cm, 16 cm, 9 cm
+20 cm, 11 cm, 10 cm`
+          }
+        ]
+      }
+    },
+    {
+      id: 'type-angle',
+      label: 'Triangle Type (Angle)',
+      type: 'classifySentence',
+      data: {
+        title: 'By observing the triangle, classify it.',
+        svgBased: true,
+        types: [
+          {
+            name: 'Acute-angled',
+            list: [
+              `M 28 116 L 89 19 L 138 100 L 28 116`,
+              `M 4 66 L 134 35 L 109 139 L 4 66`
+            ]
+          },
+          {
+            name: 'Right-angled',
+            list: [
+              `M 119 110 L 118 11 L 22 109 L 119 110`,
+              `M 83 130 L 157 65 L 20 56 L 83 130 `
+            ]
+          },
+          {
+            name: 'Obtuse-angled',
+            list: [
+              `M 82 98 L 157 65 L 20 56 L 82 98 `,
+              `M 83 98 L 173 59 L 7 25 L 83 98`
+            ]
+          }
+        ]
+      }
+    },
+    {
+      id: 'type-side',
+      label: 'Triangle Type (Sides)',
+      type: 'classifySentence',
+      data: {
+        title: 'By observing the triangle, classify it.',
+        svgBased: true,
+        types: [
+          {
+            name: 'Equilateral',
+            list: [
+              `M 150 33 L 44 156 L 210 154 L 149 33 
+              6 cm | 66 | 58 | -60
+              6 cm | 173 | 62 | 59
+              6 cm | 111 | 160 `
+            ]
+          },
+          {
+            name: 'Isosceles',
+            list: []
+          },
+          {
+            name: 'Scalene',
+            list: []
+          }
         ]
       }
     }
