@@ -70,7 +70,7 @@ export default {
       data: {
         title: 'Read the passage and answer the questions',
         type: 'passage',
-        text: `A tortoise is a slow and steady creature. They carry a shell on their back. They have four small and thick feet. They have a small head and mouth. They live a very long life.`,
+        text: `A tortoise is a slow and steady creature. They carry a shell on their back. They have four small and thick feet. They have a small head and mouth. They live upto 150 years.`,
         image: 'tortoise',
         fontSize: '1.3rem',
         questions: [
@@ -94,36 +94,7 @@ export default {
         ]
       }
     },
-    {
-      type: 'informationProcessing',
-      id: 'panda',
-      label: 'Panda',
-      data: {
-        title: 'Read the passage and answer the questions',
-        type: 'passage',
-        text: `Pandas are black and white bears. They can climb very high in trees. Their favorite food is bamboo. They love to eat. They eat upto 12 hours a day.`,
-        image: 'panda',
-        fontSize: '1.3rem',
-        questions: [
-          {
-            qText: 'What colors are pandas?',
-            options: 'black and white, brown, white'
-          },
-          {
-            qText: "What is a panda's favorite food?",
-            options: 'bamboo, fish, berries'
-          },
-          {
-            qText: 'What is one unique skill that pandas have?',
-            options: 'climbing trees, swimming, running'
-          },
-          {
-            qText: 'How many hours a day do pandas spend eating?',
-            options: '12, 8, 4'
-          }
-        ]
-      }
-    },
+    /*
     {
       type: 'informationProcessing',
       id: 'jellyfish',
@@ -154,38 +125,7 @@ export default {
         ]
       }
     },
-    {
-      type: 'informationProcessing',
-      id: 'flamingo',
-      label: 'Flamingo',
-      data: {
-        title: 'Read the passage and answer the questions',
-        type: 'passage',
-        text: `Flamingos are tall and pink in color. Then have thin legs and long necks. They have large wings and a tiny tail. They love to eat snails and shrimp. They only eat 60 grams of food a day.`,
-        image: 'flamingo',
-        fontSize: '1.3rem',
-        questions: [
-          {
-            qText: 'What is the main color of flamingos?',
-            options: 'pink, blue, green, yellow'
-          },
-          {
-            qText: 'What type of food do flamingos prefer to eat?',
-            options:
-              'Snails and Shrimp, Grass and Leaves, Apples and Bananas, Fish and Meat'
-          },
-          {
-            qText: 'How much food does a flamingo consume daily?',
-            options: '60 grams, 100 grams, 500 grams, 1000 grams'
-          },
-          {
-            qText:
-              'Which of the following features are characteristic of flamingos?',
-            options: 'Thin legs, Short necks, Blue colour'
-          }
-        ]
-      }
-    },
+    */
     {
       type: 'informationProcessing',
       id: 'peacock',
@@ -250,7 +190,7 @@ export default {
           }
         ]
       }
-    },
+    } /*
     {
       type: 'informationProcessing',
       id: 'vulture',
@@ -313,6 +253,6 @@ export default {
           }
         ]
       }
-    }
+    }*/
   ]
 };

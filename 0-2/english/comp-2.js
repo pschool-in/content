@@ -282,6 +282,325 @@ Approached, Retreated
 Calm, Turbulent
 Best, Worst`
       }
+    },
+    {
+      id: 'water',
+      type: 'passage',
+      label: 'Water Park',
+      style: 'big',
+      data: {
+        title: 'Water Park',
+        text: `On the first day of summer, we went to the exciting new water park in town. Filled with pools, water slides, and playful sprinklers, it promised endless joy. Although the slides appeared intimidating at first, our fears dissolved after the exhilarating first ride.
+Our love for the water slides grew with each subsequent plunge. The sprinklers provided refreshing relief on scorching days, while one pool delighted us by generating its own waves. The wave pool became a hub for daring kids attempting to surf. Despite the bustling crowds of children and adults, pets were regrettably not allowed. 
+Our taste buds danced with delight at the snack bar's ice cream, alongside the tempting options of pop and donuts. 
+The water park had captured our hearts entirely.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-4',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What kind of attractions did the water park have?',
+            options: `Pools, water slides, and playful sprinklers.
+Roller coasters and ferris wheels.
+Bumper cars and merry-go-rounds.`
+          },
+          {
+            qText: 'What happened to the initial fear of the water slides?',
+            options: `It dissipated after the exhilarating first ride.
+It caused everyone to leave the water park.
+It remained throughout the day.`
+          },
+          {
+            qText: 'What did the wave pool at the water park offer?',
+            options: `Generating its own waves for surfing.
+A pool for diving competitions.
+A place to relax and sunbathe.`
+          },
+          {
+            qText: 'Were pets allowed at the water park?',
+            options: ` No, pets were not allowed.
+Only small pets were allowed.
+Pets were allowed with certain restrictions.`
+          },
+          {
+            qText: 'What kind of treats were available at the snack bar?',
+            options: `Ice cream, pop, and donuts.
+Hot dogs, hamburgers, and fries.
+Pizza, nachos, and pretzels.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-3',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Our fears *dissolved* after the exhilarating first ride.
+Our love for the water slides grew with each subsequent *plunge*.
+The water park was *bustling* with children and adults.
+One pool *delighted* us by generating its own waves.
+Our *taste buds* danced with delight at the snack bar's ice cream.`
+      }
+    },
+    {
+      id: 'water-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: `Exhilarating: Causing excitement and happiness
+Intimidating: Making someone feel nervous or scared
+Relief: Feeling of comfort or alleviation
+Daring: Brave and courageous
+Hub: Central point or gathering place
+Tempting: Attractive and enticing
+Captured: Ensnared or completely fascinated by something`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'water-word',
+      data: {
+        text: `Causing excitement and happiness.|EXHILARATING
+Making someone feel nervous or scared.|INTIMIDATING
+Feeling of comfort or alleviation.|RELIEF
+Brave and courageous.|DARING
+Central point or gathering place.|HUB
+Attractive and enticing.|TEMPTING
+Ensnared or completely fascinated by something.|CAPTURED`
+      }
+    },
+    {
+      id: 'match-5',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Endless, Infinite
+Exhilarating, Thrilling
+Intimidating, Daunting
+Relief, Alleviation
+Hub, Center`
+      }
+    },
+    {
+      id: 'match-6',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Endless, Limited
+Exhilarating, Dull
+Intimidating, Comforting
+Relief, Distress
+Hub, Periphery`
+      }
+    },
+    {
+      id: 'snowman',
+      type: 'passage',
+      label: 'Frosty',
+      style: 'big',
+      data: {
+        title: 'Frosty',
+        text: `Once upon a time, there was a little girl named Lily who loved playing in the snow. 
+One winter day, she built a snowman with a carrot for a nose, rocks for eyes, and a big smile made of coal. She named him Frosty. 
+Lily and Frosty became the best of friends. They danced and laughed in the snow all day long. But when the sun started to set, Frosty began to melt. 
+Lily felt sad. She gave Frosty a warm hug and whispered, "Don't worry, Frosty. I'll build you again next winter." And so, they said goodbye, looking forward to the next snowy adventure.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-5',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: "What did Lily use for Frosty's nose?",
+            options: `A carrot, A button, A twig`
+          },
+          {
+            qText: "What did Lily use for Frosty's eyes?",
+            options: `Rocks, Buttons, Twigs`
+          },
+          {
+            qText: 'What happened to Frosty when the sun started to set?',
+            options: `He began to melt, He grew bigger, He turned into a real person`
+          },
+          {
+            qText: "What was Frosty's smile made of?",
+            options: `Coal, Snowflakes, Buttons`
+          },
+          {
+            qText: 'What did Lily promise Frosty when he started melting?',
+            options: ` She would build him again next winter.
+She would find a way to keep him cool.
+She would give him a hat to protect him from the sun.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-4',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Lily built a *snowman* with a carrot for a nose.
+Frosty had a big smile made of *coal*.
+Lily and Frosty became the best of *friends*.
+Frosty started to *melt* when the sunset.
+Lily promised to build Frosty again next *winter*.`
+      }
+    },
+    {
+      id: 'snowman-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: `Winter: The season between fall and spring
+Snowman: A frozen figure made of snow
+Carrot: A vegetable that is orange and long
+Melting: Changing from solid to liquid due to heat
+Coal: A black material used for making fire`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'snowman-word',
+      data: {
+        text: `The season between fall and spring.|WINTER
+A frozen figure made of snow.|SNOWMAN
+A vegetable that is orange and long.|CARROT
+Changing from solid to liquid due to heat.|MELTING
+A black material used for making fire.|COAL`
+      }
+    },
+    {
+      id: 'puppy',
+      type: 'passage',
+      label: 'The Lost Puppy',
+      style: 'big',
+      data: {
+        title: 'The Lost Puppy',
+        text: `One sunny afternoon, a young boy named Alex was exploring a nearby park when he stumbled upon a tiny, abandoned puppy. Its caramel-colored fur was matted, and its sad eyes tugged at his heart. Alex gently scooped up the pup and vowed to find its rightful owner.
+He searched high and low, approaching everyone he encountered, hoping to reunite the puppy with its family. After what felt like an eternity, a woman with worried eyes said, "Oh, my goodness! That's my puppy, Daisy! I've been searching tirelessly for her!" Alex's face lit up with joy as he handed over the puppy.
+Overwhelmed with gratitude, the woman thanked Alex wholeheartedly and showered him with praise. Their chance encounter had not only brought Daisy back to her owner, but it had also created an unexpected friendship between Alex and the woman, proving that even in the smallest acts of kindness, great connections can be formed.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-6',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What did Alex find in the park?',
+            options: `A caramel-colored puppy, A shiny toy, A basket of flowers`
+          },
+          {
+            qText: 'How did the puppy look?',
+            options: `It had green eyes and fluffy fur.
+It had blue eyes and curly fur.
+It had brown eyes and sleek fur.`
+          },
+          {
+            qText: 'How did the woman react when she saw the puppy?',
+            options: `She was overjoyed and recognized it as her own
+She thought it was a different dog
+She was angry with Alex`
+          },
+          {
+            qText: 'What did Alex decide to do when he found the puppy?',
+            options: `Find its owner.
+Leave it in the park.
+Keep it for himself.`
+          },
+          {
+            qText: 'What did the encounter between Alex and the woman create?',
+            options: `An unexpected friendship
+A fight between them
+A sense of confusion`
+          }
+        ]
+      }
+    },
+    {
+      id: 'puppy-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: ` Tugged: To pull or tug with force
+Vowed: To promise or swear solemnly
+Encounter: To meet or come across unexpectedly
+Reunite: To bring together again
+Overwhelmed: Feeling a sense of being completely overcome or flooded
+Abandoned: To leave behind or forsake completely`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'puppy-word',
+      data: {
+        text: `To pull or tug with force.|TUGGED
+To promise or swear solemnly.|VOWED
+To meet or come across unexpectedly.|ENCOUNTER
+To bring together again.|REUNITE
+Feeling a sense of being completely overcome or flooded.|OVERWHELMED
+To leave behind or forsake completely.|ABANDONED`
+      }
+    },
+    {
+      id: 'match-7',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Tiny, Small
+Abandoned, Deserted
+Grateful, Thankful
+Encounter, Meet
+Joy, Happiness`
+      }
+    },
+    {
+      id: 'match-8',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Tiny, Enormous
+Abandoned, Cherished
+Unexpected, Predictable
+Tirelessly, Lazily`
+      }
     }
   ]
 };
