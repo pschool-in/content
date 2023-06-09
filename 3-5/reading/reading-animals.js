@@ -7,11 +7,16 @@ export default {
       id: 'dogs',
       type: 'passage',
       label: 'Dogs',
+      style: 'big',
       data: {
         title: 'Dogs',
         text: [
           { type: 'img', src: 'dog.jpg', width: 120, height: 120 },
-          `Do you know that dogs are known as man’s best friends? This is because a dog is fun and friendly. Dogs are domestic animals. They have pointed teeth and live for 10-13 years. Dogs love eating bones and they love to play. We can always play ‘fetch’ games with dogs. They move their tails rapidly whenever they want to play. The baby dogs are called puppies.`
+          `Dogs are wonderful pets and our loyal friends. 
+          They are domestic animals that bring joy to our lives. With their wagging tails and friendly nature, they always make us smile. 
+          Dogs have sharp teeth and live for about 10-13 years. They love to eat bones and playing 'fetch' is their favorite game. 
+          Baby dogs are called puppies, and they are super cute! Dogs are always there for us, ready to play and cuddle. 
+          They are the best companions anyone could ask for, and we are lucky to have them in our lives.`
         ]
       }
     },
@@ -20,15 +25,32 @@ export default {
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `Do you know *that (this)* dogs are known as man’s *best (worst)* friends? 
-This is *because (became)* a dog is fun and friendly. 
+        text: `Dogs are known as man's *best (worst)* friends? 
+        *Dogs (Cats)* are wonderful pets and our loyal friends. 
 Dogs are *domestic (wild)* animals. 
-They *live (life)* for 13-14 years. 
+Dogs live for *10-13 (5-10)* years. 
 Dogs love eating bones *and (hand)* they love to play. 
-We can *always (alway)* play ‘fetch’ games with dogs. 
-They move *their (there)* tails rapidly whenever they want to play. 
-The baby dogs *are (is)* called puppies.`,
+We can *always (alway)* play 'fetch' games with dogs. 
+Dogs move *their (there)* tails rapidly whenever they want to play. 
+The baby dogs are called *puppies (cubs)*.`,
         title: 'Tap on the blanks for options.'
+      }
+    },
+    {
+      id: 'dog-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: `Domestic: relating to or suitable for home or family life
+            Companions: people or animals who are friendly and provide company
+            Wagging: moving or swinging from side to side, as a dog's tail does
+            Sharp: having a fine or pointed edge or tip`
+          }
+        ]
       }
     },
     {
@@ -40,6 +62,29 @@ The baby dogs *are (is)* called puppies.`,
         text: 'Dog, Bone, Puppy, Play, Tail, Friend'
       }
     },
+    /*{
+      id: 'jumbled-words',
+      type: 'sequence',
+      label: 'Jumbled Words',
+      data: [
+        {
+          title: 'Relating to or suitable for home or family life.',
+          text: 'Domestic'
+        },
+        {
+          title: 'People or animals who are friendly and provide company.',
+          text: 'Companions'
+        },
+        {
+          title: "Moving or swinging from side to side, as a dog's tail does.",
+          text: 'Wagging'
+        },
+        {
+          title: 'Having a fine or pointed edge or tip.',
+          text: 'Sharp'
+        }
+      ]
+    },*/
     {
       id: 'mcq',
       label: 'Multiple Choice Questions',
@@ -49,10 +94,10 @@ The baby dogs *are (is)* called puppies.`,
         questions: [
           {
             qText: 'Dogs have _____ teeth.',
-            options: 'pointed, conical, yellow'
+            options: 'sharp, conical, yellow'
           },
           {
-            qText: 'A dog is a man’s _____ friend.',
+            qText: "A dog is a man's _____ friend.",
             options: 'best, worst, honest'
           },
           {
@@ -61,7 +106,7 @@ The baby dogs *are (is)* called puppies.`,
           },
           {
             qText: 'Dog babies are called _____ .',
-            options: 'puppies, pomerarians, parrots'
+            options: 'puppies, pomeranian, cubs'
           },
           {
             qText: 'Dogs are _____ .',
@@ -70,15 +115,33 @@ The baby dogs *are (is)* called puppies.`,
         ]
       }
     },
-    {
+    /*{
       id: 'cats',
       type: 'passage',
       label: 'Cats',
+      style: 'big',
       data: {
         title: 'Cats',
         text: [
           { type: 'img', src: 'cat.jpg', width: 120, height: 120 },
           `Cats are lazy. They also have whiskers around their nose. They spend 70% of their lives sleeping. But they also spend a lot of time cleaning themselves and remaining tidy. Cats love eating fish and milk. So if cats sneak into your house often, keep your milk and fish safe. Do you know that cats belong to the same family as tigers?`
+        ]
+      }
+    },*/
+    {
+      id: 'cats',
+      type: 'passage',
+      label: 'Cats',
+      style: 'big',
+      data: {
+        title: 'Cats',
+        text: [
+          { type: 'img', src: 'cat.jpg', width: 120, height: 120 },
+          `Cats, both domestic and wild, are fascinating creatures known for their unique characteristics. 
+          While they are often associated with laziness, spending up to 70% of their lives sleeping, cats also possess a strong sense of cleanliness. They meticulously groom themselves to maintain their tidiness and hygiene. 
+          With their whiskers surrounding their nose, cats possess an extraordinary sensory system, aiding them in navigating their surroundings with precision. 
+          Additionally, cats share a common ancestry with majestic creatures like tigers. So, it's no wonder that cats, with their love for fish and milk, may be tempted to sneak into our homes to secure these delectable treats. 
+          If you wish to protect your milk and fish, it's wise to keep them safely stored away.`
         ]
       }
     },
@@ -87,13 +150,13 @@ The baby dogs *are (is)* called puppies.`,
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `Cats *are (hour)* lazy. 
-They also *have (has)* whiskers *around (round)* their nose. 
-They *spend (spent)* 70% of their *lives (lifes)* sleeping. 
-But they also spend a lot of time cleaning *themselves (himself)* and remain tidy. 
+        text: `Cats are *lazy (active)* creatures. 
+Cats also have whiskers *around (round)* their nose. 
+Cats spend *70% (20%)* of *their (there)* lives sleeping. 
+Cats also spend a lot of time cleaning *themselves (himself)* and remaining tidy. 
 Cats *love (loves)* eating fish *and (hand)* milk. 
-So if cats sneak *into (onto)* your house often, keep *your (their)* milk and fish safe. 
-Do you know that cats belong to the same family *as (has)*tigers?`,
+If cats sneak *into (onto)* your house often, keep *your (their)* milk and fish safely stored away. 
+Cats belong to the same family as *tigers (dogs)*`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -140,6 +203,7 @@ Do you know that cats belong to the same family *as (has)*tigers?`,
       id: 'polar-bears',
       type: 'passage',
       label: 'Polar Bears',
+      style: 'big',
       data: {
         title: 'Polar Bears',
         text: [
@@ -155,14 +219,11 @@ Do you know that cats belong to the same family *as (has)*tigers?`,
       type: 'fillup',
       data: {
         text: `Polar *bears (bares)* live in very cold areas, *covered (hovered)* in snow. 
-They look *the (a)* same as normal bears, only they are white *and (hand)* bigger. 
-They have a *thick (rhuck)* layer of fat on *their (there)* body. 
-It protects them from the *cold (hold)*. 
-Polar bears *can (could)* weigh equal to 10 humans. 
-They’re *very (vary)* strong and powerful. 
-An amazing thing *about (of)* polar bears is that they look white *in (inn)* color. 
-But *in (under)* reality, *their (there)* skin is black. 
-It is covered with a lot of white fur.`,
+Polar bears look *the (a)* same as normal bears, only they are white *and (hand)* bigger. 
+Polar bears have a *thick (rhuck)* layer of fat on *their (there)* body. It protects them from the *cold (hold)*. 
+Polar bears can weigh equal to *10 (50)* humans. 
+Polar bears are *very (vary)* strong and powerful. 
+An amazing thing *about (of)* polar bears is that they look white *in (inn)* color. But *in (under)* reality, *their (there)* skin is black.`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -205,15 +266,32 @@ It is covered with a lot of white fur.`,
         ]
       }
     },
-    {
+    /*{
       id: 'horses',
       type: 'passage',
       label: 'Horses',
+      style: 'big',
       data: {
         title: 'Horses',
         text: [
           { type: 'img', src: 'horse.jpg', width: 120, height: 120 },
           `Horses can almost see in all directions without turning their necks. They run very fast. Horse racing is a very popular sport. Horseshoes are attached under their feet. It helps them run faster. Horses eat grass, hay, grains, and solid food. They're also domesticated on farms. They are useful for different farming activities.`
+        ]
+      }
+    },*/
+    {
+      id: 'horses',
+      type: 'passage',
+      label: 'Horses',
+      style: 'big',
+      data: {
+        title: 'Horses',
+        text: [
+          { type: 'img', src: 'horse.jpg', width: 120, height: 120 },
+          `The horse is a magnificent creature that gallops gracefully across vast meadows. They can almost see in all directions without turning their necks.
+          With its strong legs and flowing mane, it is a symbol of power and beauty. Horses come in different colors like brown, black, and white, and they have a long, swishing tail. They love to eat hay and grass and enjoy running and jumping. 
+          People ride horses for transportation and participate in exciting horse races. Horses also help humans by pulling heavy carts and plowing fields. They are loyal and friendly animals that can be our trusted companions. 
+          The horse truly is a remarkable and majestic animal.`
         ]
       }
     },
@@ -223,13 +301,11 @@ It is covered with a lot of white fur.`,
       type: 'fillup',
       data: {
         text: `Horses can *almost (utmost)* see in all directions without turning their necks. 
-They run *very (vary)* fast. 
+Horses run *very (vary)* fast. 
 Horse racing is *a (an)* very popular sport. 
-Horseshoes are attached *under (thunder)* their feet. 
-It helps them *run (running)* faster. 
 Horses *eat (heat)* grass, hay, grains, and solid food. 
-They're also domesticated in *farms (harms)*. 
-They are useful for different *farming (harming)* activities.`,
+Horses are domesticated on *farms (harms)*. 
+Horses are useful for different *farming (harming)* activities.`,
         title: 'Tap on the blanks for options.'
       }
     },
@@ -262,8 +338,8 @@ They are useful for different *farming (harming)* activities.`,
             options: 'running, sitting, climbing'
           },
           {
-            qText: '_____ are attached under Horse’s feet.',
-            options: 'Horseshoes, Shoes, Sandles'
+            qText: 'People ride horses for ___________.',
+            options: 'transportation, fun, free'
           },
           {
             qText: 'Horses can _____ in all directions.',
@@ -276,6 +352,7 @@ They are useful for different *farming (harming)* activities.`,
       id: 'tigers',
       type: 'passage',
       label: 'Tigers',
+      style: 'big',
       data: {
         title: 'Tigers',
         text: [
@@ -343,6 +420,7 @@ They only eat flesh, which means they're *carnivores (herbivores)*.`,
       id: 'rabbits',
       type: 'passage',
       label: 'Rabbits',
+      style: 'big',
       data: {
         title: 'Rabbits',
         text: [
@@ -414,6 +492,7 @@ Do you know that sometimes rabbits eat their own poop?`,
       id: 'dolphins',
       type: 'passage',
       label: 'Dolphins',
+      style: 'big',
       data: {
         title: 'Dolphins',
         text: [
@@ -481,6 +560,7 @@ This helps them to *store (shore)* food.`,
       id: 'monkeys',
       type: 'passage',
       label: 'Monkeys',
+      style: 'big',
       data: {
         title: 'Monkeys',
         text: [
@@ -548,6 +628,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
       id: 'bees',
       type: 'passage',
       label: 'Bees',
+      style: 'big',
       data: {
         title: 'Bees',
         text: [
@@ -617,6 +698,7 @@ Stings cause a lot of pain.`,
       id: 'pigs',
       type: 'passage',
       label: 'Pigs',
+      style: 'big',
       data: {
         title: 'Pigs',
         text: [
@@ -682,6 +764,7 @@ Those bristles were very commonly *used (abused)* to make paintbrushes and shoes
       id: 'lions',
       type: 'passage',
       label: 'Lions',
+      style: 'big',
       data: {
         title: 'Lions',
         text: [
@@ -748,6 +831,7 @@ Do you know that lions can eat up to 30kgs in one meal?`,
       id: 'sharks',
       type: 'passage',
       label: 'Sharks',
+      style: 'big',
       data: {
         title: 'Sharks',
         text: [
@@ -814,6 +898,7 @@ The horn-like *fin (thorn)* on their upper body is visible outside the water.`,
       id: 'snakes',
       type: 'passage',
       label: 'Snakes',
+      style: 'big',
       data: {
         title: 'Snakes',
         text: [
@@ -884,6 +969,7 @@ Do you know that some snakes can *fly (run)*?`,
       id: 'dinosaurs',
       type: 'passage',
       label: 'Dinosaurs',
+      style: 'big',
       data: {
         title: 'Dinosaurs',
         text: [
