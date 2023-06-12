@@ -20,7 +20,7 @@
 5. Milk
 6. Carrot
 7. Lion
-8. Bee
+8. Pineapple
 9. Rabbit
 10. Tiger
 
