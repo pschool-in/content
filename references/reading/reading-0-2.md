@@ -38,7 +38,7 @@
 2. Shark
 3. Slithery Snake
 4. Polar Bear
-5. Dinosaur
+5. Monkey
 
 # comp-3
 
@@ -51,7 +51,7 @@
 # comp-3-2
 
 1. Horse
-2. Monkey
+2. Dinosaur
 3. Snake
 4. Mongoose and the Hornbill
 5. Donkey and the Man
