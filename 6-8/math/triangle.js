@@ -4,156 +4,77 @@ export default {
   lockAfter: 5,
   list: [
     {
-      type: 'numberInput',
-      id: 'findx-parallel',
-      label: 'Perimeter of a Triangle',
+      label: 'Notes',
+      type: 'passage',
+      id: 'notes',
       data: {
-        title: 'Find the perimeter of the below Triangle.',
-        type: 'word-problem',
-        isSentence: false,
-        answerBox: false,
-        // fontSize: '2rem',
-        list: [
+        title: 'Line',
+        text: [
+          `A triangle is a simple closed curve made of three line segments. It has three vertices, three sides and three angles.`,
           {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
-              texts: [
-                { str: '7 cm', x: 73, y: 53, rot: -37 },
-                { str: '5 cm', x: 161, y: 62, rot: 57 },
-                { str: '9 cm', x: 92, y: 116 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-21`
+            type: 'svg',
+            width: 250,
+            height: 160,
+            paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
+            texts: [
+              { str: 'A', x: 137, y: 13 },
+              { str: 'B', x: 10, y: 110 },
+              { str: 'C', x: 191, y: 110 }
+            ]
           },
           {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 18 41 L 49 115 L 189 116 L 17 40'],
-              texts: [
-                { str: '6 cm', x: 7, y: 67, rot: 64 },
-                { str: '14 cm', x: 83, y: 53, rot: 26 },
-                { str: '10 cm', x: 89, y: 114 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-30`
+            type: 'html',
+            text: `Sides: <span class="ol">AB</span>, <span class="ol">BC</span>, <span class="ol">CA</span><br>
+Angles: ∠BAC, ∠ABC, ∠BCA <br>
+Vertices: A, B, C`
+          },
+          `Based on the sides, trianges are classified into Scalene, Isosceles & Equilateral triangles.
+Based on Angles, triangles are classified into acute-angled, obtuse-angled and right-angled triangle.
+# Medians of a Triangle
+`,
+          {
+            type: 'svg',
+            width: 250,
+            height: 160,
+            paths: [
+              'M 148 38 L 31 117 L 189 116 L 148 39 L 108 116',
+              'M 68 111 L 68 121 M 72 111 L 72 121 M 141 111 L 141 121 M 145 111 L 145 121'
+            ],
+            texts: [
+              { str: 'A', x: 137, y: 13 },
+              { str: 'B', x: 10, y: 110 },
+              { str: 'C', x: 191, y: 110 },
+              { str: 'D', x: 97, y: 113 }
+            ]
           },
           {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
-              texts: [
-                { str: '10 cm', x: 49, y: 56, rot: -60 },
-                { str: '12 cm', x: 135, y: 57, rot: 55 },
-                { str: '14 cm', x: 85, y: 143, rot: 6 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-36`
+            type: 'html',
+            text: `The line segment AD, joining the mid-point of <span class="ol">BC</span> to its opposite vertex A is called a median of a triangle.<br><br>
+|| represents the segments are of equal length.<br><br>
+A median connects a vertex of a triangle to the mid-point of the opposite side. A triangle has 3 medians.`
+          },
+          `# Altitudes of a Triangle`,
+          {
+            type: 'svg',
+            width: 250,
+            height: 160,
+            paths: ['M 148 38 L 31 117 L 189 116 L 148 39 L 147 116'],
+            texts: [
+              { str: 'A', x: 137, y: 13 },
+              { str: 'B', x: 10, y: 110 },
+              { str: 'C', x: 191, y: 110 },
+              { str: 'L', x: 136, y: 114 }
+            ]
           },
           {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 236 29 L 37 114 L 200 116 L 236 29'],
-              texts: [
-                { str: '5 cm', x: 207, y: 72, rot: 292 },
-                { str: '9 cm', x: 94, y: 113 },
-                { str: '13 cm', x: 89, y: 60, rot: -27 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-27`
+            type: 'html',
+            text: `The line drawn from the vertex A to the line segment BC in such a way, the length is minimum is altitude. <br><br>
+In the above figure, AL is an altitude. <br><br>
+∠ALB = ∠ALC = 90°`
           },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
-              texts: [
-                { str: '10 cm', x: 73, y: 53, rot: -37 },
-                { str: '6 cm', x: 161, y: 62, rot: 57 },
-                { str: '13 cm', x: 92, y: 116 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-29`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
-              texts: [
-                { str: '5 cm', x: 49, y: 56, rot: -60 },
-                { str: '7 cm', x: 135, y: 57, rot: 55 },
-                { str: '6 cm', x: 85, y: 143, rot: 6 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-18`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 18 41 L 49 115 L 189 116 L 17 40'],
-              texts: [
-                { str: '3.2 cm', x: 4, y: 73, rot: 64 },
-                { str: '5.2 cm', x: 83, y: 53, rot: 26 },
-                { str: '3.6 cm', x: 89, y: 114 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-12`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
-              texts: [
-                { str: '3.5 cm', x: 70, y: 53, rot: -37 },
-                { str: '2 cm', x: 161, y: 62, rot: 57 },
-                { str: '4.5 cm', x: 92, y: 116 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-10`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
-              texts: [
-                { str: '6.4 cm', x: 49, y: 56, rot: -60 },
-                { str: '7.2 cm', x: 135, y: 57, rot: 55 },
-                { str: '8.2 cm', x: 85, y: 143, rot: 6 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-21.8`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: ['M 236 29 L 37 114 L 200 116 L 236 29'],
-              texts: [
-                { str: '2.5 cm', x: 207, y: 72, rot: 292 },
-                { str: '4.5 cm', x: 94, y: 113 },
-                { str: '3.5 cm', x: 89, y: 60, rot: -27 }
-              ]
-            },
-            text: `Perimeter = ?0 cm 
-10.5`
-          }
+          `# Properties of Triangle
+Sum of the lengths of any two sides of a triangle is always greater than the length of the third side.
+`
         ]
       }
     },
@@ -316,81 +237,6 @@ export default {
             text: `Perimeter = ?0 m 
 1.6`
           }
-        ]
-      }
-    },
-    {
-      label: 'Notes',
-      type: 'passage',
-      id: 'notes',
-      data: {
-        title: 'Line',
-        text: [
-          `A triangle is a simple closed curve made of three line segments. It has three vertices, three sides and three angles.`,
-          {
-            type: 'svg',
-            width: 250,
-            height: 160,
-            paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
-            texts: [
-              { str: 'A', x: 137, y: 13 },
-              { str: 'B', x: 10, y: 110 },
-              { str: 'C', x: 191, y: 110 }
-            ]
-          },
-          {
-            type: 'html',
-            text: `Sides: <span class="ol">AB</span>, <span class="ol">BC</span>, <span class="ol">CA</span><br>
-Angles: ∠BAC, ∠ABC, ∠BCA <br>
-Vertices: A, B, C`
-          },
-          `Based on the sides, trianges are classified into Scalene, Isosceles & Equilateral triangles.
-Based on Angles, triangles are classified into acute-angled, obtuse-angled and right-angled triangle.
-# Medians of a Triangle
-`,
-          {
-            type: 'svg',
-            width: 250,
-            height: 160,
-            paths: [
-              'M 148 38 L 31 117 L 189 116 L 148 39 L 108 116',
-              'M 68 111 L 68 121 M 72 111 L 72 121 M 141 111 L 141 121 M 145 111 L 145 121'
-            ],
-            texts: [
-              { str: 'A', x: 137, y: 13 },
-              { str: 'B', x: 10, y: 110 },
-              { str: 'C', x: 191, y: 110 },
-              { str: 'D', x: 97, y: 113 }
-            ]
-          },
-          {
-            type: 'html',
-            text: `The line segment AD, joining the mid-point of <span class="ol">BC</span> to its opposite vertex A is called a median of a triangle.<br><br>
-|| represents the segments are of equal length.<br><br>
-A median connects a vertex of a triangle to the mid-point of the opposite side. A triangle has 3 medians.`
-          },
-          `# Altitudes of a Triangle`,
-          {
-            type: 'svg',
-            width: 250,
-            height: 160,
-            paths: ['M 148 38 L 31 117 L 189 116 L 148 39 L 147 116'],
-            texts: [
-              { str: 'A', x: 137, y: 13 },
-              { str: 'B', x: 10, y: 110 },
-              { str: 'C', x: 191, y: 110 },
-              { str: 'L', x: 136, y: 114 }
-            ]
-          },
-          {
-            type: 'html',
-            text: `The line drawn from the vertex A to the line segment BC in such a way, the length is minimum is altitude. <br><br>
-In the above figure, AL is an altitude. <br><br>
-∠ALB = ∠ALC = 90°`
-          },
-          `# Properties of Triangle
-Sum of the lengths of any two sides of a triangle is always greater than the length of the third side.
-`
         ]
       }
     },
@@ -898,18 +744,229 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
             name: 'Equilateral',
             list: [
               `M 150 33 L 44 156 L 210 154 L 149 33 
-              6 cm | 66 | 58 | -60
-              6 cm | 173 | 62 | 59
-              6 cm | 111 | 160 `
+6 cm | 65 | 83 | -51
+6 cm | 166 | 62 | 62
+6 cm | 111 | 155 `,
+
+              `M 185 29 L 40 47 L 135 155 L 184 28
+11 cm | 77 | 18 | -7
+11 cm | 52 | 87 | 47
+11 cm | 149 | 75 | 288`
             ]
           },
           {
             name: 'Isosceles',
-            list: []
+            list: [
+              `M 236 126 L 104 25 L 70 165 L 236 126 
+8 cm | 130 | 147 | -7
+8 cm | 152 | 50 | 38
+7 cm | 60 | 72 | -77 `,
+
+              `M 267 167 L 183 55 L 25 59 L 266 167 
+11 cm | 76 | 34
+11 cm | 200 | 76 | 58
+18 cm | 96 | 100 | 382 `
+            ]
           },
           {
             name: 'Scalene',
-            list: []
+            list: [
+              `M 267 167 L 183 55 L 25 59 L 266 167 
+7 cm | 73 | 37
+12 cm | 202 | 75 | 55
+17 cm | 114 | 108 | 380 `,
+
+              `M 215 162 L 212 38 L 56 50 L 215 162 
+4 cm | 118 | 20
+5 cm | 206 | 78 | 87
+7 cm | 108 | 101 | 395 `
+            ]
+          }
+        ]
+      }
+    },
+    {
+      label: 'Pythagoras Theorm',
+      type: 'passage',
+      id: 'notes',
+      data: {
+        title: 'Pythagoras Theorm',
+        text: [
+          `In a right-angled triangle, the side opposite to the right angle
+          is called the hypotenuse.The other two sides are known as the legs of the right-angled triangle. They are also known as base and perpendicular.`,
+          {
+            type: 'svg',
+            width: 340,
+            height: 200,
+            paths: ['M 68 33 L 333 179 L 68 179 Z M 68 163 L 83 163 L 83 179 '],
+            texts: [
+              { str: 'Hypotenuse', x: 149, y: 69, rot: 31 },
+              { str: 'Base', x: 146, y: 181 },
+              { str: 'Perpendicular', x: 6, y: 96, rot: -90 }
+            ]
+          },
+          {
+            type: 'html',
+            text: `Perpendicular<sup>2</sup> + Base<sup>2</sup> = Hypotenuse<sup>2</sup><br><br>
+            Pythagorean triples are set of three positive integers a, b and c which holds true for the condition<br>
+            a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup><br><br>`
+          },
+          `The smallest triples is [3,4,5]. Some other examples are 
+1. [5, 12, 13]
+2. [8, 15, 17],
+3. [7, 24, 25]`
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'findx-pythagorus',
+      label: 'Find 𝑥',
+      data: {
+        title: 'Find 𝑥 by applying the pythagorus theorm.',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        inputType: 'small',
+        // fontSize: '2rem',
+        list: [
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 68 33 L 191 176 L 68 179 Z M 68 163 L 83 163 L 83 179 '
+              ],
+              texts: [
+                { str: '𝑥', x: 138, y: 89, rot: 34 },
+                { str: '3 cm', x: 101, y: 180 },
+                { str: '4 cm', x: 40, y: 100, rot: -90 }
+              ]
+            },
+            text: `~𝑥~2 = ~3~2 + ~4~2
+            ~𝑥~2 = ?0 + ?1
+            ~𝑥~2 = ?2
+            𝑥 = ?3 cm
+9, 16, 25, 5`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 164 33 L 69 177 L 164 179 Z M 164 163 L 149 163 L 149 179'
+              ],
+              texts: [
+                { str: '𝑥', x: 97, y: 92, rot: -45 },
+                { str: '5 cm', x: 101, y: 180 },
+                { str: '12 cm', x: 154, y: 92, rot: 90 }
+              ]
+            },
+            text: `~𝑥~2 = ~12~2 + ~5~2
+            ~𝑥~2 = ?0 + ?1
+            ~𝑥~2 = ?2
+            𝑥 = ?3 cm
+144, 25, 169, 13`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 150,
+              paths: [
+                'M 201 23 L 32 117 L 203 115 Z M 203 99 L 188 99 L 188 115'
+              ],
+              texts: [
+                { str: '𝑥', x: 106, y: 47, rot: -45 },
+                { str: '15 cm', x: 106, y: 117 },
+                { str: '8 cm', x: 196, y: 52, rot: 88 }
+              ]
+            },
+            text: `~𝑥~2 = ~15~2 + ~8~2
+            ~𝑥~2 = ?0 + ?1
+            ~𝑥~2 = ?2
+            𝑥 = ?3 cm
+225, 64, 289, 17`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 68 33 L 191 176 L 68 179 Z M 68 163 L 83 163 L 83 179 '
+              ],
+              texts: [
+                { str: '𝑥', x: 138, y: 89, rot: 34 },
+                { str: '3 cm', x: 101, y: 180 },
+                { str: '5 cm', x: 40, y: 100, rot: -90 }
+              ]
+            },
+            text: `~𝑥~2 = ~5~2 - ~3~2
+            ~𝑥~2 = ?0 - ?1
+            ~𝑥~2 = ?2
+            𝑥 = ?3 cm
+    25, 9, 16, 4`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 164 33 L 69 177 L 164 179 Z M 164 163 L 149 163 L 149 179'
+              ],
+              texts: [
+                { str: '13 cm', x: 82, y: 92, rot: -54 },
+                { str: '5 cm', x: 101, y: 180 },
+                { str: '𝑥', x: 173, y: 92, rot: 90 }
+              ]
+            },
+            text: `~𝑥~2 = ~13~2 - ~5~2
+            ~𝑥~2 = ?0 - ?1
+            ~𝑥~2 = ?2
+            𝑥 = ?3 cm
+    169, 25, 144, 12`
+          }
+        ]
+      }
+    },
+    {
+      id: 'mcq',
+      label: 'Find the right option',
+      type: 'mcq',
+      data: {
+        title: 'Find the right option.',
+        questions: [
+          {
+            qText:
+              'The longest side in a right-angled triangle is called ________.',
+            options: `hypotenuse, base, perpendicular`
+          },
+          {
+            qText: 'Classify the below triangle.',
+            qImg: {
+              width: 300,
+              height: 150,
+              paths: ['M 49 21 L 262 81 L 131 83 L 49 21'],
+              texts: [
+                { str: '20 m', x: 135, y: 24, rot: 15 },
+                { str: '12 m', x: 161, y: 81 },
+                { str: '12 m', x: 61, y: 45, rot: 38 }
+              ]
+            },
+            options: `Isosceles , Obtused Angled, * Both`
+          },
+          {
+            qText: 'Pythagoras Theorm is applicable only to ________.',
+            options: `Right-angled triangle, Isosceles triangle, Acute-angled triangle`
+          },
+          {
+            qText: 'The number of medians in a triangle is ________.',
+            options: `three, two, one`
+          },
+          {
+            qText: 'In an Isosceles triangle ________.',
+            options: `two sides and two angles are equal
+            two sides are equal
+            two angles are equal`
           }
         ]
       }

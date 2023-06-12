@@ -472,6 +472,270 @@ export default {
       ]
     },
     {
+      type: 'numberInput',
+      id: 'find-peri-triangle',
+      label: 'Perimeter of a Triangle',
+      data: {
+        title: 'Find the perimeter of the below Triangle.',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        // fontSize: '2rem',
+        list: [
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
+              texts: [
+                { str: '7 cm', x: 73, y: 53, rot: -37 },
+                { str: '5 cm', x: 161, y: 62, rot: 57 },
+                { str: '9 cm', x: 92, y: 116 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+21`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 18 41 L 49 115 L 189 116 L 17 40'],
+              texts: [
+                { str: '6 cm', x: 7, y: 67, rot: 64 },
+                { str: '14 cm', x: 83, y: 53, rot: 26 },
+                { str: '10 cm', x: 89, y: 114 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+30`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
+              texts: [
+                { str: '10 cm', x: 49, y: 56, rot: -60 },
+                { str: '12 cm', x: 135, y: 57, rot: 55 },
+                { str: '14 cm', x: 85, y: 143, rot: 6 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+36`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 236 29 L 37 114 L 200 116 L 236 29'],
+              texts: [
+                { str: '5 cm', x: 207, y: 72, rot: 292 },
+                { str: '9 cm', x: 94, y: 113 },
+                { str: '13 cm', x: 89, y: 60, rot: -27 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+27`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
+              texts: [
+                { str: '10 cm', x: 73, y: 53, rot: -37 },
+                { str: '6 cm', x: 161, y: 62, rot: 57 },
+                { str: '13 cm', x: 92, y: 116 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+29`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
+              texts: [
+                { str: '5 cm', x: 49, y: 56, rot: -60 },
+                { str: '7 cm', x: 135, y: 57, rot: 55 },
+                { str: '6 cm', x: 85, y: 143, rot: 6 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+18`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 18 41 L 49 115 L 189 116 L 17 40'],
+              texts: [
+                { str: '3.2 cm', x: 4, y: 73, rot: 64 },
+                { str: '5.2 cm', x: 83, y: 53, rot: 26 },
+                { str: '3.6 cm', x: 89, y: 114 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+12`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 148 38 L 31 117 L 189 116 L 148 39'],
+              texts: [
+                { str: '3.5 cm', x: 70, y: 53, rot: -37 },
+                { str: '2 cm', x: 161, y: 62, rot: 57 },
+                { str: '4.5 cm', x: 92, y: 116 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+10`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 108 24 L 39 135 L 201 155 L 108 24'],
+              texts: [
+                { str: '6.4 cm', x: 49, y: 56, rot: -60 },
+                { str: '7.2 cm', x: 135, y: 57, rot: 55 },
+                { str: '8.2 cm', x: 85, y: 143, rot: 6 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+21.8`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: ['M 236 29 L 37 114 L 200 116 L 236 29'],
+              texts: [
+                { str: '2.5 cm', x: 207, y: 72, rot: 292 },
+                { str: '4.5 cm', x: 94, y: 113 },
+                { str: '3.5 cm', x: 89, y: 60, rot: -27 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+10.5`
+          }
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'perimeter',
+      label: 'Perimeter of Polygon',
+      data: {
+        title: 'Find the perimeter of the below Polygon.',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        list: [
+          {
+            svg: {
+              width: 300,
+              height: 200,
+              paths: ['M 37 33 L 250 32 L 253 180 L 147 180 L 36 91 Z'],
+              texts: [
+                { str: '10 m', x: 116, y: 30 },
+                { str: '5 m', x: 166, y: 157 },
+                { str: '5 m', x: 227, y: 80, rot: 270 },
+                { str: '8 m', x: 90, y: 112, rot: 45 },
+                { str: '2 m', x: 36, y: 44, rot: 90 }
+              ]
+            },
+            text: `Perimeter = ?0 m 
+  30`
+          },
+          {
+            svg: {
+              width: 300,
+              height: 200,
+              paths: ['M 37 33 L 193 34 L 282 93 L 200 157 L 40 156 Z'],
+              texts: [
+                { str: '8 cm', x: 116, y: 30 },
+                { str: '8 cm', x: 112, y: 132 },
+                { str: '6 cm', x: 205, y: 53, rot: 35 },
+                { str: '6 cm', x: 207, y: 113, rot: 320 },
+                { str: '8 cm', x: 31, y: 74, rot: 90 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+  36`
+          },
+          {
+            svg: {
+              width: 300,
+              height: 200,
+              paths: ['M 59 101 L 154 20 L 257 21 L 60 195 Z'],
+              texts: [
+                { str: '3 cm', x: 171, y: 17 },
+                { str: '3 cm', x: 51, y: 124, rot: 90 },
+                { str: '6 cm', x: 80, y: 42, rot: 320 },
+                { str: '9 cm', x: 148, y: 75, rot: 320 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+  21`
+          },
+          {
+            svg: {
+              width: 300,
+              height: 200,
+              paths: ['M 35 28 L 183 59 L 229 120 L 127 158 Z '],
+              texts: [
+                { str: '6 cm', x: 96, y: 22, rot: 13 },
+                { str: '7 cm', x: 160, y: 139, rot: 339 },
+                { str: '9 cm', x: 47, y: 75, rot: 53 },
+                { str: '5 cm', x: 190, y: 64, rot: 55 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+  27`
+          },
+          {
+            svg: {
+              width: 300,
+              height: 200,
+              paths: ['M 33 116 L 130 38 L 268 65 L 141 95 L 178 184 Z'],
+              texts: [
+                { str: '4 cm', x: 174, y: 29, rot: 13 },
+                { str: '6 cm', x: 180, y: 80, rot: 345 },
+                { str: '5 cm', x: 150, y: 120, rot: 65 },
+                { str: '6 cm', x: 70, y: 140, rot: 20 },
+                { str: '7 cm', x: 60, y: 55, rot: 325 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+  28`
+          },
+          {
+            svg: {
+              width: 300,
+              height: 250,
+              paths: [
+                'M 35 117 L 103 36 L 233 35 L 238 139 L 160 212 L 35 209 Z'
+              ],
+              texts: [
+                { str: '4 cm', x: 146, y: 32 },
+                { str: '4 cm', x: 208, y: 65, rot: 90 },
+                { str: '3 cm', x: 175, y: 150, rot: 315 },
+                { str: '4 cm', x: 70, y: 188 },
+                { str: '3 cm', x: 30, y: 140, rot: 90 },
+                { str: '3 cm', x: 50, y: 50, rot: 315 }
+              ]
+            },
+            text: `Perimeter = ?0 cm 
+  21`
+          }
+        ]
+      }
+    },
+    {
       id: 'area-2',
       type: 'areaGraph',
       label: 'Area under the Shape',
