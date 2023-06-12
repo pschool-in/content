@@ -70,7 +70,7 @@ export default {
       data: {
         title: 'Read the passage and answer the questions',
         type: 'passage',
-        text: `A tortoise is a slow and steady creature. They carry a shell on their back. They have four small and thick feet. They have a small head and mouth. They live a very long life.`,
+        text: `A tortoise is a slow and steady creature. They carry a shell on their back. They have four small and thick feet. They have a small head and mouth. They live upto 150 years.`,
         image: 'tortoise',
         fontSize: '1.3rem',
         questions: [
@@ -90,98 +90,6 @@ export default {
             qText: "How would you describe a tortoise's head and mouth?",
             options:
               'Small head and mouth, Small head and wide mouth, Large head and mouth'
-          }
-        ]
-      }
-    },
-    {
-      type: 'informationProcessing',
-      id: 'panda',
-      label: 'Panda',
-      data: {
-        title: 'Read the passage and answer the questions',
-        type: 'passage',
-        text: `Pandas are black and white bears. They can climb very high in trees. Their favorite food is bamboo. They love to eat. They eat upto 12 hours a day.`,
-        image: 'panda',
-        fontSize: '1.3rem',
-        questions: [
-          {
-            qText: 'What colors are pandas?',
-            options: 'black and white, brown, white'
-          },
-          {
-            qText: "What is a panda's favorite food?",
-            options: 'bamboo, fish, berries'
-          },
-          {
-            qText: 'What is one unique skill that pandas have?',
-            options: 'climbing trees, swimming, running'
-          },
-          {
-            qText: 'How many hours a day do pandas spend eating?',
-            options: '12, 8, 4'
-          }
-        ]
-      }
-    },
-    {
-      type: 'informationProcessing',
-      id: 'jellyfish',
-      label: 'Jellyfish',
-      data: {
-        title: 'Read the passage and answer the questions',
-        type: 'passage',
-        text: `Jellyfish is a sea animal. They can be clear or of different colours. They do not have a brain, eyes or heart. They have tentacles on their body. They use it to sting their prey.`,
-        image: 'jellyfish',
-        fontSize: '1.3rem',
-        questions: [
-          {
-            qText: 'What type of animal is a jellyfish?',
-            options: 'sea animal, land animal, flying animal'
-          },
-          {
-            qText: 'Which of the following body parts do jellyfish lack?',
-            options: 'brain, stomach, tentacles'
-          },
-          {
-            qText: 'How do jellyfish use their tentacles?',
-            options: 'for stinging prey, for breathing, for flying'
-          },
-          {
-            qText: 'Which part helps them to sting their prey?',
-            options: 'tentacles, fin, gills'
-          }
-        ]
-      }
-    },
-    {
-      type: 'informationProcessing',
-      id: 'flamingo',
-      label: 'Flamingo',
-      data: {
-        title: 'Read the passage and answer the questions',
-        type: 'passage',
-        text: `Flamingos are tall and pink in color. Then have thin legs and long necks. They have large wings and a tiny tail. They love to eat snails and shrimp. They only eat 60 grams of food a day.`,
-        image: 'flamingo',
-        fontSize: '1.3rem',
-        questions: [
-          {
-            qText: 'What is the main color of flamingos?',
-            options: 'pink, blue, green, yellow'
-          },
-          {
-            qText: 'What type of food do flamingos prefer to eat?',
-            options:
-              'Snails and Shrimp, Grass and Leaves, Apples and Bananas, Fish and Meat'
-          },
-          {
-            qText: 'How much food does a flamingo consume daily?',
-            options: '60 grams, 100 grams, 500 grams, 1000 grams'
-          },
-          {
-            qText:
-              'Which of the following features are characteristic of flamingos?',
-            options: 'Thin legs, Short necks, Blue colour'
           }
         ]
       }
@@ -253,63 +161,308 @@ export default {
     },
     {
       type: 'informationProcessing',
-      id: 'vulture',
-      label: 'Vulture',
+      id: 'duck',
+      label: 'Duck',
       data: {
         title: 'Read the passage and answer the questions',
         type: 'passage',
-        text: `Vulture is a large and heavy bird. They help in cleaning the environment. They feed on rotten and dead creatures. They have very good eye sight. They build their nests on very high places.`,
-        image: 'vulture',
+        text: `Ducks are birds that can swim. They have short neck and legs. They have webbed feet that helps them in swimming. They can live in freshwater and seawater. Their feathers are waterproof.`,
+        image: 'duck',
         fontSize: '1.3rem',
         questions: [
           {
-            qText: 'What type of creatures do vultures typically feed on?',
-            options: 'Rotten and dead creatures, insects, fish, small animals'
+            qText: 'Which feature of ducks helps them in swimming?',
+            options: 'webbed feet, short legs, long neck'
           },
           {
-            qText:
-              'What is one of the benefits of vultures in the environment?',
+            qText: 'Where can ducks live?',
             options:
-              'They clean the environment, They help in pollination, They spread diseases'
+              'Both in seawater and freshwater, Only in seawater, Only in freshwater'
           },
           {
-            qText:
-              'Which sense do vultures possess that helps them locate food?',
-            options: 'Very good eyesight, Good tastebuds, Good sense of smell'
+            qText: 'What is unique about the feathers of ducks?',
+            options:
+              'They are waterproof, They are made of fur, They are multicolored'
           },
           {
-            qText: 'Where do vultures typically build their nests?',
-            options: 'On very high places, On tree branches, In caves'
+            qText: 'What type of animals are ducks?',
+            options: 'birds, reptiles, insects'
           }
         ]
       }
     },
     {
       type: 'informationProcessing',
-      id: 'hornbill',
-      label: 'Hornbill',
+      id: 'hen',
+      label: 'Hen',
       data: {
         title: 'Read the passage and answer the questions',
         type: 'passage',
-        text: `Hornbills are bright colored birds. Hornbills are close relatives of Toucans. Hornbills have a long, yellow and curved beak. They have thin necks, broad wings and long tails. They have very short tongues. Their best friends are mongoose.`,
-        image: 'hornbill',
+        text: `Hens are domestic birds. They have wings but they cannot fly very high. Their body is covered with feathers. They have a red comb on their head. They eat food grains, seeds, bugs, herbs, and leaves.`,
+        image: 'hen',
         fontSize: '1.3rem',
         questions: [
           {
-            qText: 'What is the physical characteristic of hornbills?',
-            options: 'broad wings, short beak, thick neck, short tail'
+            qText: 'What is the main type of food that hens consume?',
+            options: 'grains, meat, fish'
           },
           {
-            qText: 'Which bird is a close relative of hornbills?',
-            options: 'Toucans, Parrots, Sparrows, Penguins'
+            qText: 'Which body part of a hen is typically red in color?',
+            options: 'comb, wing, beak'
           },
           {
-            qText: 'What color is the beak of hornbills?',
-            options: 'yellow, red green, blue'
+            qText: 'Can hens fly very high?',
+            options: 'no, yes, depends on their age'
           },
           {
-            qText: 'Who are the best friends of hornbills?',
-            options: 'Mongoose, Monkey, Elephant, Lion'
+            qText: 'What covers the body of a hen?',
+            options: 'feather, fur, scales'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'swan',
+      label: 'Swan',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Swans are graceful birds. They can swim and fly with great speed. They have long graceful necks. They eat insects and tadpoles. They are white in color and are gentle creatures.`,
+        image: 'swan',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'What is one characteristic of swans?',
+            options:
+              'They have long graceful necks, They eat grass and leaves, They are green in color'
+          },
+          {
+            qText: 'Which of the following is a food source for swans?',
+            options: 'insects, nectar, seeds'
+          },
+          {
+            qText: 'What color are swans?',
+            options: 'white, blue, brown'
+          },
+          {
+            qText: 'Which of the following activities can swans engage in?',
+            options: 'Swimming and flying, Hopping on one leg, Digging burrows'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'apple',
+      label: 'Apple',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Apple is a sweet and delicious fruit. It is a good disease-fighter and we can eat it every day. It is round in shape. They can be red, green or yellow in color. An apple a day keeps the doctor away. `,
+        image: 'apple',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'What is the primary characteristic of an apple?',
+            options: 'round shape, brown colour, bitter taste'
+          },
+          {
+            qText: 'How does consuming apples benefit our health?',
+            options:
+              'It helps fight diseases, It has no effect on our health, It increases the risk of diseases'
+          },
+          {
+            qText: 'Which of the following colors can apples come in?',
+            options: 'Red and yellow, Orange and black, White and brown'
+          },
+          {
+            qText: 'What is the popular saying associated with eating apples?',
+            options:
+              'An apple a day keeps the doctor away.,An apple a day keeps the energy low., An apple a day keeps the dentist away.'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'mango',
+      label: 'Mango',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Mango is the national fruit of India. It is a juicy and pulpy fruit. Ripe mangoes are eaten raw or in the form of juice, jam or milkshake. It is a rich source of vitamins and minerals. Mango is known as the king of fruits.`,
+        image: 'mango',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'What is the national fruit of India?',
+            options: 'Mango, Apple, Banana'
+          },
+          {
+            qText: 'What is the nickname given to mango?',
+            options: 'King of fruits, Queen of fruits, Prince of fruits'
+          },
+          {
+            qText:
+              'Which of the following is not a common form in which mangoes are consumed?',
+            options: 'cheese, raw, juice'
+          },
+          {
+            qText: 'What type of fruit is Mango?',
+            options: 'Juicy ans pulpy, Dry and bitter, Sour and itchy'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'grapes',
+      label: 'Grapes',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Grapes are very juicy and sweet fruit. Grapes are seen as bunches in which many small grapes are attached. They are eaten raw or in the form of juice. Eating grapes regularly during summer is good for our health. They can sometimes be sour in taste.`,
+        image: 'grapes',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'Which characteristic best describes grapes?',
+            options: 'Juicy and sweet, Crunchy and tart, Dry and bland'
+          },
+          {
+            qText: 'How are grapes typically found?',
+            options:
+              'In bunches with attached small grapes, In a single large grape cluster,  As individual fruits'
+          },
+          {
+            qText: 'What is one common way to consume grapes?',
+            options: 'Eating them raw, Mixing them in soups, Grilling them'
+          },
+          {
+            qText: 'What is a possible taste variation of grapes?',
+            options: 'Sourness, Saltiness,  Spiciness'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'pineapple',
+      label: 'Pineapple',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Pineapple is round and elongated in shape. The outer peel of pineapple is very tough. Raw pineapple is green in color. It turns yellow on ripening. It is full of nutrients.`,
+        image: 'pineapple',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'What shape is a pineapple?',
+            options: 'elongated, square, oval'
+          },
+          {
+            qText: 'What color is a raw pineapple?',
+            options: 'green, yellow, orange'
+          },
+          {
+            qText: 'What happens to the color of a pineapple when it ripens?',
+            options: 'it turns yellow, it reamins green, it turns red'
+          },
+          {
+            qText: 'Which part of the pineapple is tough?',
+            options: 'outer peel, inner flesh, seeds'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'orange',
+      label: 'Orange',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Oranges are round in shape. They are sweet and sour in taste. The color of orange is also called orange. They are rich in Vitamin C. They and eaten raw or in the form of juice.`,
+        image: 'orange',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'Which vitamin is abundantly found in oranges?',
+            options: ' Vitamin C, Vitamin B, Vitamin A'
+          },
+          {
+            qText: 'What is the shape of an orange?',
+            options: 'round, oval, square'
+          },
+          {
+            qText: 'What is the primary taste of oranges?',
+            options: 'sour, slty, bitter'
+          },
+          {
+            qText: 'What is the color of an orange fruit?',
+            options: 'orange, yellow, red'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'carrot',
+      label: 'Carrot',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Carrot is a vegetable. It is orange in color. It is the root of the plant. Eating carrots help in improving our eyesight. Carrots are the favorite food of rabbits.`,
+        image: 'carrot',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'What is the color of a carrot?',
+            options: 'orange, yellow, green'
+          },
+          {
+            qText: 'Which part of the plant is a carrot?',
+            options: 'root, stem, leaves'
+          },
+          {
+            qText: 'Eating carrots is believed to improve which sense?',
+            options: 'eyesight, hearing, speech'
+          },
+          {
+            qText:
+              'What animal is known to have carrots as their favorite food?',
+            options: 'rabbit, cat, dog'
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'milk',
+      label: 'Milk',
+      data: {
+        title: 'Read the passage and answer the questions',
+        type: 'passage',
+        text: `Milk gives us strength. It keeps us healthy and strong. It is mainly obtained from cows. Some people also drink milk obtained from buffaloes, goats, sheep or camels. Milk is used to make curd, cheese, tea, coffee or milkshakes.`,
+        image: 'milk',
+        fontSize: '1.3rem',
+        questions: [
+          {
+            qText: 'Which animal is the primary source of milk?',
+            options: 'cow, goat, sheep'
+          },
+          {
+            qText: 'What are some common dairy products made from milk?',
+            options: 'curd, chicken, jam'
+          },
+          {
+            qText: 'Which dairy product is commonly made from milk?',
+            options: 'cheese, tea, juice'
+          },
+          {
+            qText: 'Which of the following beverages can be made using milk?',
+            options: 'milkshake, cola, lemonade'
           }
         ]
       }
