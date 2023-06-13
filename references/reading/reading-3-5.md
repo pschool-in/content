@@ -10,8 +10,8 @@
 
 1. Horse
 2. Dinosaur
-3. Snake
-4. Mongoose and the Hornbill
+3. Busy Bee
+4. The Beauty of Friendship
 5. Donkey and the Man
 
 # comp-4
