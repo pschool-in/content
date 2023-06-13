@@ -20,7 +20,7 @@
 5. Milk
 6. Carrot
 7. Lion
-8. Bee
+8. Pineapple
 9. Rabbit
 10. Tiger
 
@@ -37,21 +37,5 @@
 1. Three Little Pigs
 2. Shark
 3. Slithery Snake
-4. Polar Bear
-5. Dinosaur
-
-# comp-3
-
-1. The Adventures of a Lunchbox
-2. Topsy-Turvy Triump
-3. A Journey of Discovery
-4. Panda
-5. Flamingo
-
-# comp-3-2
-
-1. Horse
-2. Monkey
-3. Snake
-4. Mongoose and the Hornbill
-5. Donkey and the Man
+4. Aurora
+5. Monkey
