@@ -1,6 +1,18 @@
 # comp-3
 
+1. The Adventures of a Lunchbox
+2. Topsy-Turvy Triump
+3. A Journey of Discovery
+4. Panda
+5. Flamingo
+
 # comp-3-2
+
+1. Horse
+2. Dinosaur
+3. Snake
+4. Mongoose and the Hornbill
+5. Donkey and the Man
 
 # comp-4
 
