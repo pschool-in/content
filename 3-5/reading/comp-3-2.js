@@ -4,64 +4,86 @@ export default {
   lockAfter: 2,
   list: [
     {
-      id: 'horse',
+      id: 'shark',
       type: 'passage',
-      label: 'Horse',
+      label: 'Shark',
       style: 'big',
       data: {
-        title: 'Horse',
-        text: `Horses are magnificent creatures that have been our loyal companions for centuries. They are large, strong animals with a graceful and elegant presence.
-Horses have a long history of working alongside humans. In the past, they were used for transportation, farming, and even in battles. Nowadays, they are mainly kept for recreational purposes such as horseback riding and racing. People of all ages enjoy spending time with horses, learning to ride and care for them.
-A horse has a powerful body with four sturdy legs that help it run swiftly. It has a beautiful mane flowing down its neck and a long tail that swishes from side to side. Horses come in various colors and patterns, such as brown, black, white, and even spotted coats.
-Riding a horse can be an exhilarating experience. It gives you a sense of freedom as you gallop through fields or trot along a forest trail. It's important to remember that horses are living beings and should always be treated with kindness and respect.`
+        title: 'Shark',
+        text: `In the vast ocean, amidst the shimmering waves, a sleek and powerful predator roams: the shark. 
+  Sharks are predators which means they hunt other fishes as their food. The shark is a master of the sea, embodying grace and efficiency in every movement. 
+  Swift and agile, the shark strikes with precision, its jaws snapping shut with a force that can rend through flesh and bone.
+  A baby shark is called a pup. Sharks have an overall 30,000 pointed teeth in their life span. Their skin is the thickest of all the animals. 
+  Sharks show their presence by swimming on the upper layer of water. The horn-like fin on their upper body is visible outside the water.`
       }
     },
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq-shark',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'What were horses primarily used for in the past?',
-            options: `Farming, Racing, Petting`
+            qText: 'Sharks are _____ .',
+            options: 'predators, preys, mammals'
           },
           {
-            qText: 'What is one characteristic of horses?',
-            options: ` Graceful and elegant presence, Small and fragile body, Slow movement`
+            qText: 'Sharks have _____ teeth.',
+            options: 'pointed, blunt, human-like'
           },
           {
-            qText:
-              'What are some recreational purposes for keeping horses today?',
-            options: `Horseback riding and racing
-Farming and petting
-Transportation and battles`
+            qText: 'A baby shark is called a _____ .',
+            options: 'pup, bub, baby'
           },
           {
-            qText: `Which of the following is NOT a common horse coat color?`,
-            options: `Purple, Brown, Black, White`
+            qText: 'Sharks move _____ their prey before attacking.',
+            options: 'around, away, forward'
           },
           {
-            qText:
-              'What should be the attitude towards horses when interacting with them?',
-            options: `Kindness and respect
-Indifference and neglect
-Fear and avoidance`
+            qText: 'Sharks are _____ .',
+            options: 'dangerous, friendly, non-friendly'
           }
         ]
       }
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag',
+      id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
-        text: `Horses are *elegant* creatures that have been our loyal *companions* for centuries. They are large, strong animals with a graceful and *powerful* presence. Riding a horse can be an exhilarating experience as you gallop through *fields* or trot along a forest trail. It's important to remember that horses should always be treated with kindness and *respect*.`
+        text: `Sharks are *predators*. 
+  It means that they hunt other *fishes* as their food.
+  A baby shark is called a *pup*.
+  Sharks have an overall *30,000* pointed teeth in their life span. 
+  Their skin is the thickest of all the *animals*. 
+  Sharks show their *presence* by swimming on the upper layer of water. 
+  The horn-like *fin* on their upper body is visible outside the water.`
       }
     },
     {
-      id: 'horse-g',
+      id: 'true-false-2',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: ` A baby shark is called a pup.
+  Swift and agile, the shark strikes with precision.`
+          },
+          {
+            name: 'False',
+            text: ` Sharks have 10,000 pointed teeth in their lifespan.
+  Sharks swim on the lower layer of water.
+  The skin of sharks is the thinnest of all animals.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'shark-g',
       type: 'passage',
       label: 'Glossary',
       data: {
@@ -69,11 +91,13 @@ Fear and avoidance`
         text: [
           {
             type: 'hilight',
-            text: `Battle: Armed conflicts between opposing forces. Horses were used in warfare throughout history, carrying soldiers and providing them with an advantage on the battlefield.
-Recreational: Activities done for enjoyment, relaxation, or fun. Horseback riding and racing are popular recreational activities that people of all ages enjoy.
-Mane: The long, thick hair that grows from the top of a horse's neck. It adds to the horse's beauty and can be styled in different ways.
-Trot: A gait in which a horse moves forward with two feet on the ground at the same time. It is a comfortable and steady pace.
-Gallop: A fast and powerful gait where a horse moves with all four feet off the ground in a jumping motion. It is the fastest gait of a horse.`
+            text: `Predator: An animal that hunts and feeds on other animals.
+  Efficiency: The ability to accomplish something with the least amount of wasted time, effort, or resources.
+  Agile: Quick and nimble in movement.
+  Precision: The quality of being accurate and exact.
+  Jaw: The mouth or oral cavity of an animal, especially one with sharp teeth.
+  Flesh: The soft muscular tissue of an animal or human body.
+  Bone: The hard, rigid connective tissue that forms the skeleton of vertebrates.`
           }
         ]
       }
@@ -81,53 +105,55 @@ Gallop: A fast and powerful gait where a horse moves with all four feet off the 
     {
       label: 'Complete Word',
       type: 'completeWord',
-      id: 'horse-word',
+      id: 'shark-word',
       data: {
-        text: `Armed conflicts between opposing forces. Horses were used in warfare throughout history, carrying soldiers and providing them with an advantage on the battlefield.|BATTLE
-Activities done for enjoyment, relaxation, or fun. Horseback riding and racing are popular recreational activities that people of all ages enjoy.|RECREATIONAL
-The long, thick hair that grows from the top of a horse's neck. It adds to the horse's beauty and can be styled in different ways.|MANE
-A gait in which a horse moves forward with two feet on the ground at the same time. It is a comfortable and steady pace.|TROT
-A fast and powerful gait where a horse moves with all four feet off the ground in a jumping motion. It is the fastest gait of a horse.|GALLOP`
+        text: `An animal that hunts and feeds on other animals.|PREDATOR
+  The ability to accomplish something with the least amount of wasted time, effort, or resources.|EFFICIENCY
+  Quick and nimble in movement.|AGILE
+  The quality of being accurate and exact.|PRECISION
+  The mouth or oral cavity of an animal, especially one with sharp teeth.|JAW
+  The soft muscular tissue of an animal or human body.|FLESH
+  The hard, rigid connective tissue that forms the skeleton of vertebrates.|BONE`
       }
     },
     {
-      id: 'match',
+      id: 'match-3',
       label: 'Match: Synonyms',
       type: 'match',
       data: {
         title: `Match the synonym pairs.`,
-        text: `Magnificent, Majestic
-Loyal, Faithful
-Companion, Friend
-Farming, Agriculture
-Recreational, Leisure`
+        text: `Predator, Hunter
+  Sleek, Smooth
+  Powerful, Strong
+  Swift, Quick
+  Agile, Nimble
+  Precision, Accuracy`
       }
     },
     {
-      id: 'match-2',
+      id: 'match-4',
       label: 'Match: Antonyms',
       type: 'match',
       data: {
         title: `Match the antonym pairs.`,
-        text: `Magnificent, Ordinary
-Loyal, Disloyal
-Companion, Enemies
-Working, Idle
-Recreational, Tedious`
+        text: `Predator, Prey
+  Sleek, Bulky
+  Swift, Sluggish
+  Agile, Rigid
+  Powerful, Feeble`
       }
     },
     {
-      id: 'dinosaur',
+      id: 'snake',
       type: 'passage',
-      label: 'Dinosaur',
+      label: 'Slithery Snake',
       style: 'big',
       data: {
-        title: 'Dinosaur',
-        text: `Dinosaurs lived on earth millions of years ago. No one knows what they looked like. But based on bones and skeletons from the past, scientists assumed their body structure. 
-They were of different sizes. Some were very small while some were very huge. Some of them even had wings to fly. Some also lived in the sea. 
-We still have no idea what sounds dinosaurs used to make. Based on their body sizes, scientists have also assumed their voices. We can hear their voices in a lot of movies made about dinosaurs.      
-Apart from being diverse in their body structures, the species were also different in their eating habits. Some were herbivores, some were carnivores and some were omnivores. 
-It has been found that dinosaurs became extinct about 65 million years ago. A meteor from space hit the Earth. It led to the death of the species.`
+        title: 'Slithery Snake',
+        text: `In the depths of a lush jungle, a slithery snake silently glided through the undergrowth. Its scaly body shimmered with shades of emerald, blending seamlessly with the surrounding foliage. With eyes as sharp as diamonds, the snake flicked its tongue, tasting the air for signs of prey.
+  Camouflaged and patient, it waited for the perfect moment to strike. With lightning speed, it coiled around its unsuspecting victim, squeezing tightly in its constricting embrace. The slithery snake was a master of stealth and strategy.
+  Though feared by many, the snake played a vital role in the ecosystem. It controlled rodent populations, maintaining balance in nature. 
+  With grace and serpentine elegance, the slithery snake navigated the jungle, a symbol of both danger and harmony.`
       }
     },
     {
@@ -138,42 +164,50 @@ It has been found that dinosaurs became extinct about 65 million years ago. A me
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'Dinosaurs died _____ years ago.',
-            options: '65 million, 65 billion, 65 thousand'
+            qText: "What color did the snake's scaly body shimmer with?",
+            options: `Emerald, Ruby, Sapphire`
           },
           {
-            qText: 'Dinosaurs _____ .',
-            options: 'laid eggs, gave birth, were infertile'
+            qText: 'What did the snake do to taste the air for signs of prey?',
+            options: `Flicked its tongue
+  Raised its head high
+  Swayed from side to side`
           },
           {
-            qText: 'There were _____ species of dinosaurs.',
-            options: 'many, only one, fifteen'
+            qText: 'How did the snake capture its prey?',
+            options: `It coiled around them and constricted tightly.
+  It pounced on them from above.
+  It trapped them in a web.`
           },
           {
-            qText: 'Dinosaurs became extinct because of _____ .',
-            options: 'meteor shower, draught, flood'
+            qText: 'What important role did the snake play in the ecosystem?',
+            options: ` Controlling rodent populations
+  Protecting bird nests
+  Producing oxygen`
           },
           {
-            qText: 'We are not sure about dinosaurs _____ .',
-            options: 'voices, bodies, wings'
+            qText: "How would you describe the snake's movement in the jungle?",
+            options: `Graceful and elegant
+  Hasty and impatient
+  Clumsy and slow`
           }
         ]
       }
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-dino',
+      id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
-        text: `Dinosaurs had diverse *structures* and sizes.
-Some dinosaurs were herbivores, which means they only ate *plants*.
-Scientists have assumed the body *assumed* of dinosaurs based on bones and skeletons.
-The meteor impact caused the dinosaurs to go *extinct*.
-Carnivores are animals that primarily eat *meat*.`
+        text: `The snake's *camouflaged* body blended perfectly with the leaves and bushes.
+  The snake waited *patiently* for the right moment to attack.
+  The snake's *constricting* embrace left its prey helpless.
+  The snake's role in the *ecosystem* is to control rodent populations.
+  With its *graceful* movements, the snake moved through the jungle effortlessly.`
       }
     },
     {
-      id: 'dino-g',
+      id: 'snake-g',
       type: 'passage',
       label: 'Glossary',
       data: {
@@ -181,15 +215,16 @@ Carnivores are animals that primarily eat *meat*.`
         text: [
           {
             type: 'hilight',
-            text: `Dinosaur: Prehistoric reptiles that lived millions of years ago.
-Skeleton: The rigid framework of bones that supports the body of an organism.
-Assume: To suppose or take for granted without evidence.
-Herbivores: Animals that primarily eat plants and vegetation.
-Carnivores: Animals that primarily eat other animals.
-Omnivores: Animals that eat both plants and other animals.
-Extinct: No longer in existence.
-Meteor: A small celestial body that enters Earth's atmosphere and may reach the ground as a meteorite.
-Species: A distinct type or category of organisms.`
+            text: `Slithery: Moving smoothly and sinuously, like a snake.
+  Glide: Moved effortlessly and smoothly.
+  Foliage: The leaves and branches of plants.
+  Camouflage: Blended or disguised to match the surroundings for concealment.
+  Constricting: Tightening or squeezing tightly.
+  Embrace: A tight hold or grip.
+  Stealth: The act of moving quietly and secretly to avoid detection.
+  Strategy: A plan of action designed to achieve a specific goal.
+  Rodent: A small mammal belonging to the order Rodentia, such as mice, rats, or squirrels.
+  Serpentine: Resembling or characteristic of a serpent, or snake-like.`
           }
         ]
       }
@@ -197,298 +232,60 @@ Species: A distinct type or category of organisms.`
     {
       label: 'Complete Word',
       type: 'completeWord',
-      id: 'dino-word',
+      id: 'snake-word',
       data: {
-        text: `Prehistoric reptiles that lived millions of years ago.|DINOSAUR
-The rigid framework of bones that supports the body of an organism.|SKELRTON
-To suppose or take for granted without evidence.|ASSUME
-Animals that primarily eat plants and vegetation.|HERBIVORES
-Animals that primarily eat other animals.|CARNIVORES
-Animals that eat both plants and other animals.|OMNIVORES
-No longer in existence.|EXTINCT
-A small celestial body that enters Earth's atmosphere and may reach the ground as a meteorite.|METEOR
-A distinct type or category of organisms.|SPECIES`
+        text: `Moving smoothly and sinuously, like a snake.|SLITHERY
+  Moved effortlessly and smoothly.|GLIDE
+  The leaves and branches of plants.|FOLIAGE
+  Blended or disguised to match the surroundings for concealment.|CAMOUFLAGE
+  Tightening or squeezing tightly.|CONSTRICTING
+  A tight hold or grip.|EMBRACE
+  The act of moving quietly and secretly to avoid detection.|STEALTH
+  A plan of action designed to achieve a specific goal.|STRATEGY
+  A small mammal belonging to the order Rodentia, such as mice, rats, or squirrels.|RODENT
+  Resembling or characteristic of a serpent, or snake-like.|SERPENTINE`
+      }
+    },
+    {
+      id: 'match-5',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Glide, Slid
+  Shimmer, Glisten
+  Camouflage, Disguise
+  Patient, Calm
+  Strike, Attack
+  Strategy, Tactic`
       }
     },
     {
       id: 'match-6',
-      label: 'Match: Synonyms',
-      type: 'match',
-      data: {
-        title: `Match the synonym pairs.`,
-        text: `Assumed, Speculated
-Huge, Enormous
-Voice, Sound
-Look, See
-Prehistoric, Ancient`
-      }
-    },
-    {
-      id: 'match-7',
       label: 'Match: Antonyms',
       type: 'match',
       data: {
         title: `Match the antonym pairs.`,
-        text: `Assumed, Verified
-Huge, Tiny
-Winged, Wingless
-Soft, Hard
-Prehistoric, Modern`
+        text: `Glide, Stumble
+  Shimmer, Dull
+  Strike, Retreat
+  Stealth, Noisy
+  Strategy, Chaos
+  Constrict, Relax`
       }
     },
+
     {
-      id: 'bee',
+      id: 'monkey',
       type: 'passage',
-      label: 'Busy Bee',
+      label: 'Monkey',
       style: 'big',
       data: {
-        title: 'Busy Bee',
-        text: `The busy bee is a small but remarkable insect that plays a vital role in our ecosystem. Bees are known for their hard work and industrious nature. They are constantly buzzing around, gathering nectar from flowers and pollinating plants as they go.
-Bees live in organized colonies called hives. Within the hive, each bee has a specific role to fulfill. The worker bees, which are all females, are responsible for gathering nectar, pollen, and water. They fly from flower to flower, collecting nectar using their long tongues. 
-Back at the hive, worker bees convert the nectar into honey. Honey serves as their main food source and is also stored for future use. These incredible insects can produce and store a substantial amount of honey, which not only sustains their colony but also provides us with a sweet treat.
-Unfortunately, bees face numerous challenges, including habitat loss, pesticide exposure, and diseases. It's important for us to protect and support these amazing creatures. Planting bee-friendly flowers, avoiding the use of harmful pesticides, and creating bee-friendly habitats can all contribute to their well-being.`
-      }
-    },
-    {
-      label: 'Choose the correct answer',
-      type: 'mcq',
-      id: 'mcq-4',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: 'What is the main role of bees in the ecosystem?',
-            options: `Pollinating plants, Building hives, Creating honey`
-          },
-          {
-            qText: 'Where do bees live?',
-            options: `Hives, Nests, Caves, Trees`
-          },
-          {
-            qText: 'What creature sought shelter on the mossy rock?',
-            options: `A snail, A beetle, An earthworm`
-          },
-          {
-            qText: `Which bees are responsible for gathering nectar, pollen, and water?`,
-            options: ` Worker bees, Drones, Male bees`
-          },
-          {
-            qText: 'How do bees collect nectar from flowers?',
-            options: `By using their long tongues
-By biting the flowers
-By sucking the flowers' petals`
-          },
-          {
-            qText: 'What do worker bees convert nectar into?',
-            options: `Honey, Royal Jelly, Wax`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Fillup',
-      id: 'fillup-drag-bee',
-      type: 'matchByDragDrop',
-      data: {
-        text: `Bees play a crucial role in *pollinating* plants by transferring pollen from flower to flower.
-The worker bees in a colony are incredibly *industrious*, constantly gathering nectar and pollen.
-Bees store their food, such as *honey*, in the *hive*.
-Bees are highly dependent on a healthy *habitat* to survive.
-It's important to avoid using harmful *pesticides* that can harm bees and other pollinators.`
-      }
-    },
-    {
-      id: 'bee-g',
-      type: 'passage',
-      label: 'Glossary',
-      data: {
-        title: 'Glossary',
-        text: [
-          {
-            type: 'hilight',
-            text: `Nectar: A sweet liquid produced by flowers, attracting insects for pollination.
-Pollinate: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.
-Hive: A structure where bees live and store honey, consisting of cells and compartments.
-Pollen: Fine powdery substance produced by the male reproductive organs of flowering plants.
-Honey: A sweet, sticky substance produced by bees from flower nectar, used as food and stored in hives.
-Pollination: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Complete Word',
-      type: 'completeWord',
-      id: 'bee-word',
-      data: {
-        text: `A sweet liquid produced by flowers, attracting insects for pollination.|NECTAR
-The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.|POLLINATE
-A structure where bees live and store honey, consisting of cells and compartments.|HIVE
-Fine powdery substance produced by the male reproductive organs of flowering plants.|POLLEN
-A sweet, sticky substance produced by bees from flower nectar, used as food and stored in hives.|HONEY
-The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.|POLLINATION`
-      }
-    },
-    {
-      id: 'match-8',
-      label: 'Match: Synonyms',
-      type: 'match',
-      data: {
-        title: `Match the synonym pairs.`,
-        text: `Small, Tiny
-Remarkable, Extraordinary
-Insect, Bug
-Gather, Collect
-Hard work, Diligent`
-      }
-    },
-    {
-      id: 'match-9',
-      label: 'Match: Antonyms',
-      type: 'match',
-      data: {
-        title: `Match the antonym pairs.`,
-        text: `Small, Large
-Remarkable, Ordinary
-Gather, Disperse
-Organized, Chaotic`
-      }
-    },
-    {
-      id: 'friends',
-      type: 'passage',
-      label: 'The Beauty of Friendship',
-      style: 'big',
-      data: {
-        title: 'The Beauty of Friendship',
-        text: `In the African savannah, a mongoose and a hornbill formed an incredible friendship. Despite being different species, they shared an unbreakable bond that amazed everyone.
-The mongoose was a small, agile mammal with excellent hunting skills. It would scurry through the grass, searching for prey like rodents and insects. The hornbill, a magnificent bird, soared through the sky, always on the lookout for food.
-One day, the mongoose found itself in danger, cornered by a venomous snake. The hornbill quickly intervened, using its beak to distract the snake and save the mongoose. Together, they defeated the snake and became inseparable friends.
-They explored the savannah, helping each other find food and stay safe. The mongoose dug up insects while the hornbill searched for fruits and seeds. They communicated through calls and chirps, a language unique to their friendship.
-Their bond went beyond survival. They spent time grooming each other, strengthening their connection. They played together, hopping and flying in joy. Their friendship showed that differences don't matter when it comes to true connection.
-The mongoose and hornbill taught us the beauty of friendship.`
-      }
-    },
-    {
-      label: 'Choose the correct answer',
-      type: 'mcq',
-      id: 'mcq-5',
-      data: {
-        title: 'Multiple Choice Questions',
-        questions: [
-          {
-            qText: 'What type of animal is the mongoose?',
-            options: `Mammal, Reptile, Insect`
-          },
-          {
-            qText:
-              'How did the hornbill help the mongoose when it was in danger?',
-            options: `It attacked the snake with its beak.
-It ignored the situation.
-It joined the snake in attacking the mongoose.`
-          },
-          {
-            qText:
-              'What did the mongoose and hornbill do to communicate with each other?',
-            options: `They used calls and chirps.
-They didn't communicate.
-They used their sense of smell.`
-          },
-          {
-            qText: `How did the mongoose and hornbill help each other find food?`,
-            options: `The mongoose dug up insects while the hornbill searched for fruits and seeds.
-The hornbill dug up insects.
-They didn't help each other.`
-          },
-          {
-            qText: "What did the mongoose and hornbill's friendship teach us?",
-            options: `True connection can bridge differences.
-Friends should always play together.
-Friendship is not important.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Fillup',
-      id: 'fillup-drag-friend',
-      type: 'matchByDragDrop',
-      data: {
-        text: `The mongoose and hornbill shared an *unbreakable* bond.
-The mongoose is known for its *agile* hunting skills.
-The hornbill soared through the sky, always on the *lookout* for food.
-The hornbill *intervened* when it saw the mongoose in danger.
-Their friendship went beyond *survival*, as they spent time grooming each other.`
-      }
-    },
-    {
-      id: 'friend-g',
-      type: 'passage',
-      label: 'Glossary',
-      data: {
-        title: 'Glossary',
-        text: [
-          {
-            type: 'hilight',
-            text: `Unbreakable: Impossible to break or separate.
-Prey: An animal that is hunted and eaten by another animal.
-Agile: Able to move quickly and easily.
-Magnificent: Extremely beautiful or impressive.
-Intervened: To come between or interrupt something.`
-          }
-        ]
-      }
-    },
-    {
-      label: 'Complete Word',
-      type: 'completeWord',
-      id: 'friend-word',
-      data: {
-        text: `Impossible to break or separate.|UNBREAKABLE
-An animal that is hunted and eaten by another animal.|PREY
-Able to move quickly and easily.|AGILE
-Extremely beautiful or impressive.|MAGNIFICENT
-To come between or interrupt something.|INTERVENED`
-      }
-    },
-    {
-      id: 'match-10',
-      label: 'Match: Synonyms',
-      type: 'match',
-      data: {
-        title: `Match the synonym pairs.`,
-        text: `Magnificent, Splendid
-Danger, Peril
-Explore, Discover
-Unique, Distinct
-Division, Separation`
-      }
-    },
-    {
-      id: 'match-11',
-      label: 'Match: Antonyms',
-      type: 'match',
-      data: {
-        title: `Match the antonym pairs.`,
-        text: ` Danger, Safety
-Explore, Avoid
-Unique, Common
-Division, Unity`
-      }
-    },
-    {
-      id: 'donkey',
-      type: 'passage',
-      label: 'Donkey and Man',
-      style: 'big',
-      data: {
-        title: 'Donkey and Man',
-        text: `In a small village, there was a man who owned a donkey. The donkey helped the man with his work and carried heavy loads. However, the donkey often felt tired and longed for a break.
-One hot day, they were walking together when the donkey saw a pond. Without thinking, the donkey ran towards it, leaving the man behind. The man became angry and tried to pull the donkey away, but the donkey refused to move and drank from the pond.
-After some time, the man realized his anger was pointless. He decided to rest and observe the donkey. To his surprise, the donkey seemed refreshed after drinking and ready to work again.
-The man approached the donkey with understanding. He promised to be kind and give the donkey breaks when needed. From that day on, they formed a deep bond based on compassion and empathy.
-They continued their journey together, working as a team. The man made sure to give the donkey regular breaks and take care of its well-being. In return, the donkey remained loyal and dedicated.
-The villagers noticed the strong partnership between the man and the donkey. They learned the importance of treating animals with kindness and understanding. The story became a timeless reminder of compassion for all creatures.`
+        title: 'Monkey',
+        text: `Monkey babies are called 'infants'. Monkeys can be easily seen in India. 
+  We usually find them on top of buildings and trees. Their favorite food is bananas. They eat it just like humans, by removing the peels in the same manner. 
+  Do you know that monkeys are our ancestors? Their hands and legs are very similar to humans. 
+  A few years ago, there used to be street plays, in which monkeys danced and did tricks.`
       }
     },
     {
@@ -499,33 +296,223 @@ The villagers noticed the strong partnership between the man and the donkey. The
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: "What was the man's relationship with the donkey?",
-            options: `Coworkers, Strangers, Friends`
+            qText: 'Monkeys babies are called _____ .',
+            options: 'infants, cubs, bugs'
           },
           {
-            qText: 'Why did the donkey run towards the pond?',
-            options: `It was thirsty and wanted to drink.
-It was scared of something nearby.
-It was trying to escape from the man.`
+            qText: 'Monkey are our _____ .',
+            options: 'ancestors, enemies, slaves'
           },
           {
-            qText: "How did the man initially react to the donkey's actions?",
-            options: `He scolded and tried to pull the donkey away.
-He ignored the donkey and continued walking.
-He felt happy for the donkey's enjoyment.`
+            qText: 'Monkeys love eating _____ .',
+            options: 'bananas, chocolates, apples'
           },
           {
-            qText: `What did the man realize after observing the donkey?`,
-            options: `He realized the donkey needed breaks and rest.
-He realized the donkey didn't like working with him.
-He realized the donkey needed more training.`
+            qText: 'Monkeys _____ from one tree to another.',
+            options: 'climb, hop, walk'
           },
           {
-            qText:
-              'What lesson did the villagers learn from the man and the donkey?',
-            options: `The significance of taking breaks when needed.
-The value of having animals as pets.
-The necessity of always being in control.`
+            qText: 'Monkeys did _____ in the past.',
+            options: 'street tricks, talking, theatre'
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-5',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Monkey babies are called *infants*.
+  Monkeys can be easily seen in *India*. 
+  We usually find them on top of buildings and on *trees*. 
+  Monkey's favorite food is *banana*. 
+  Monkeys eat bananas just like humans, by removing the *peels* in the same manner. 
+  *Monkeys* are our ancestors`
+      }
+    },
+    {
+      id: 'monkey-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: `Buildings: Man-made structures where monkeys can be found perching or climbing on.
+  Tree: Tall plants with a trunk and branches where monkeys often reside.
+  Peel: The outer covering or skin of a banana that monkeys remove before eating.
+  Ancestor: Referring to the theory of evolution, monkeys are considered to be distant relatives or predecessors of humans.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'monkey-word',
+      data: {
+        text: `Man-made structures where monkeys can be found perching or climbing on.| BUILDING
+  Tall plants with a trunk and branches where monkeys often reside.|TREE
+  The outer covering or skin of a banana that monkeys remove before eating.|PEEL
+  Referring to the theory of evolution, monkeys are considered to be distant relatives or predecessors of humans.|ANCESTOR`
+      }
+    },
+    {
+      id: 'panda',
+      type: 'passage',
+      label: 'Panda',
+      style: 'big',
+      data: {
+        title: 'Panda',
+        text: `Pandas are amazing animals! They are big, cuddly bears that live in a country called China. Pandas have a unique black and white fur that makes them look so cute and special. They have round faces with black patches around their eyes, which make them look like they're wearing masks. 
+    Pandas are very good at climbing trees, even though they are quite heavy. They have strong paws and sharp claws that help them grip onto branches. 
+    But do you know what pandas love to eat the most? Bamboo! They munch on bamboo all day long. It's their favorite food. 
+    Pandas are also known for being peaceful and calm animals. They spend most of their time relaxing and sleeping. Sometimes, they even roll around and play with each other. 
+    Sadly, pandas are an endangered species, which means there aren't many of them left in the world. That's why it's important for us to protect them and their habitats. 
+    Pandas are truly incredible creatures, and we should do our best to help them survive and thrive in the wild.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-5',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: "What feature makes pandas look like they're wearing masks?",
+            options: `Black patches around their eyes, Long tail, Sharp claws`
+          },
+          {
+            qText: 'What do pandas love to eat the most?',
+            options: `Bamboo, Fruits, Grass`
+          },
+          {
+            qText: 'What is one of the unique abilities of pandas?',
+            options: `Climbing trees, Burrowing underground, Swimming`
+          },
+          {
+            qText: `Why are pandas considered endangered?`,
+            options: `Their habitat is being destroyed.
+    They reproduce too quickly.
+    They have no natural predators.`
+          },
+          {
+            qText: 'What is an important role for humans in protecting pandas?',
+            options: `Supporting conservation efforts.
+    Selling panda products.
+    Adopting pandas as pets.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-2',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Pandas have a unique black and white *fur* that makes them look cute and special.
+    Pandas love to eat *bamboo*.
+    Pandas are known for being peaceful and calm *animals*.
+    Sadly, pandas are an *endangered* species.
+    It's important to protect pandas and their *habitats*.`
+      }
+    },
+    {
+      id: 'true-false',
+      label: 'True or False',
+      type: 'classifySentence',
+      data: {
+        title: 'True or False',
+        types: [
+          {
+            name: 'True',
+            text: `Pandas have black patches around their eyes. 
+    Pandas are an endangered species. `
+          },
+          {
+            name: 'False',
+            text: `Pandas are good at swimming.
+    Pandas spend most of their time eating bamboo.
+    Panda sleep for 12 hours a day.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'pand-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'hilight',
+            text: `Endangered: Animals that are at risk of becoming extinct.
+    Habitat: The natural home or environment of an animal.
+    Fur: The thick hair covering the body of an animal.
+    Bamboo: A type of plant that pandas eat.
+    Pand: Large, cuddly bears that live in China.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'panda-word',
+      data: {
+        text: `Animals that are at risk of becoming extinct.|ENDANGERED
+    The natural home or environment of an animal.|HABITAT
+    The thick hair covering the body of an animal.|FUR
+    A type of plant that pandas eat.|BAMBOO
+    Large, cuddly bears that live in China.|PANDA`
+      }
+    },
+    {
+      id: 'flamingo',
+      type: 'passage',
+      label: 'Flamingo',
+      style: 'big',
+      data: {
+        title: 'Flamingo',
+        text: `Flamingos are fascinating birds that live in different parts of the world. These beautiful creatures are known for their vibrant pink feathers and long, slender legs. Flamingos can be found in places like Africa, Asia, the Americas, and even parts of Europe. They love to live near lakes, lagoons, and other bodies of water where they can find their favorite food, such as shrimp and algae.
+    One of the most amazing things about flamingos is their unique way of standing. They balance on one leg while tucking the other leg up against their body. It may seem strange, but this position helps them conserve energy and stay balanced on uneven surfaces. Flamingos also use their long, curved beaks to catch food from the water. They filter out the small organisms they eat and swallow the water.
+    Did you know that flamingos love to socialize? They often gather in large groups called colonies or flocks. These flocks can sometimes include hundreds or even thousands of flamingos! When they gather together, they communicate with each other by making loud calls and performing special dances. It's a spectacular sight to see!
+    Flamingos are also excellent parents. They build nests out of mud and sticks, usually in shallow water. The female flamingo lays a single egg, and both the male and female take turns keeping it warm until it hatches. Once the chick is born, the parents feed it a special milk-like substance that they produce in their bodies.
+    Flamingos are truly remarkable creatures. Their bright pink feathers, graceful stance, and social behavior make them a favorite bird for many people. Next time you see a picture of a flamingo or spot one in a zoo, remember how incredible these birds are and all the unique things they can do!`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-6',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What color are flamingos known for?',
+            options: `Pink, Blue, Yellow`
+          },
+          {
+            qText: 'How do flamingos stand?',
+            options: `On one leg, On their wings, On all fours`
+          },
+          {
+            qText: 'What do flamingos eat?',
+            options: `Shrimp and algae, Nectar and pollen, Fish and insects`
+          },
+          {
+            qText: `Where do flamingos build their nests?`,
+            options: `On the ground, In caves, Underwater`
+          },
+          {
+            qText: 'How do flamingo parents take care of their eggs?',
+            options: `They sit on them all the time.
+    They throw them in the water.
+    They roll them around.`
           }
         ]
       }
@@ -535,15 +522,15 @@ The necessity of always being in control.`
       id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
-        text: `The donkey carried heavy *loads* for the man.
-The donkey wanted to rest near the *pond*.
-The man realized the importance of *compassion* and promised to be kind.
-The donkey felt *refreshed* after drinking from the pond.
-The villagers learned about the importance of treating animals with *kindness*.`
+        text: `Flamingos are known for their *vibrant* pink feathers.
+    Flamingos balance on one *leg* while tucking the other leg up against their body.
+    Flamingos use their long, curved *beaks* to catch food from the water.
+    Flamingos often gather in large *colonies* or flocks.
+    Female flamingos lay a single egg in their *nests*.`
       }
     },
     {
-      id: 'donkey-g',
+      id: 'flamingo-g',
       type: 'passage',
       label: 'Glossary',
       data: {
@@ -551,10 +538,11 @@ The villagers learned about the importance of treating animals with *kindness*.`
         text: [
           {
             type: 'hilight',
-            text: `Compassion: Feeling or showing concern and kindness towards others.
-Loyal: Faithful and devoted.
-Empathy: The ability to understand and share the feelings of others.
-Refreshed: Feeling revitalized or reenergized.`
+            text: `Colony: A group of animals or birds living together
+    Slender: Thin or slim in shape
+    Vibrant: Bright and intense in color
+    Nest: A structure built by birds to lay eggs and raise their young
+    Algae: Simple plants that grow in water or moist environments`
           }
         ]
       }
@@ -562,12 +550,13 @@ Refreshed: Feeling revitalized or reenergized.`
     {
       label: 'Complete Word',
       type: 'completeWord',
-      id: 'donkey-word',
+      id: 'flamingo-word',
       data: {
-        text: `Feeling or showing concern and kindness towards others.|COMPASSION
-Faithful and devoted.|LOYAL
-The ability to understand and share the feelings of others.|EMPATHY
-Feeling revitalized or reenergized.|REFRESHED`
+        text: `A group of animals or birds living together.|COLONY
+    Thin or slim in shape.|SLENDER
+    Bright and intense in color.|VIBRANT
+    A structure built by birds to lay eggs and raise their young.|NEST
+    Simple plants that grow in water or moist environments.|ALGAE`
       }
     }
   ]

@@ -1,4 +1,4 @@
-# comp-3
+# comp-3 (fiction, passages)
 
 1. The Adventures of a Lunchbox
 2. Topsy-Turvy Triump
@@ -6,7 +6,7 @@
 4. Panda
 5. Flamingo
 
-# comp-3-2
+# comp-3-2 (passages, fables)
 
 1. Horse
 2. Dinosaur
@@ -14,7 +14,7 @@
 4. The Beauty of Friendship
 5. Donkey and the Man
 
-# comp-4
+# comp-4 (cause and effect, fact and opinion)
 
 1. The Weather Report
 2. The Mystery of the Missing Lunchbox
@@ -22,4 +22,10 @@
 4. The Lost Key
 5. The Butterfly Effect
 
-# comp-4-2
+# comp-4-2 (conversations)
+
+1. Hobbies
+2. Catching Up
+3. Friends Forever
+4. A Day at School
+5. Grandma's Interview
