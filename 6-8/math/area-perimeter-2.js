@@ -265,7 +265,6 @@ export default {
         ]
       }
     },
-
     {
       id: 'mcq',
       label: 'Find the right option',
@@ -284,6 +283,58 @@ export default {
             qText:
               'Side length of square is the first multiple of 3. Find its perimeter.',
             options: `12 units, 24 units, 36 units, 9 units`
+          }
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'area-perimeter',
+      label: 'Find Area & Perimeter',
+      data: {
+        title:
+          'In the below figure, all lines are horizontal or vertical. Fill in the boxes.',
+        type: 'word-problem',
+        answerBox: false,
+        list: [
+          {
+            svg: {
+              width: 300,
+              height: 220,
+              paths: [
+                'M 39 25 L 272 25 L 273 106 L 156 106 L 157 171 L 40 170 L 40 24 '
+              ],
+              texts: [
+                { str: '20 km', x: 103, y: 24 },
+                { str: '10 km', x: 63, y: 145 },
+                { str: '10 km', x: 30, y: 54, rot: 90 },
+                { str: '5 km', x: 245, y: 45, rot: 90 }
+              ]
+            },
+            text: `Area = ?0 sq km
+            Perimeter = ?1 km
+            150, 60`
+          }
+        ]
+      }
+    },
+    {
+      type: 'classifySentence',
+      label: 'Perimeter or Area',
+      id: 'perimeter-or-area',
+      data: {
+        title: 'Read the word problem and find what needs to be found.',
+        types: [
+          {
+            name: 'Perimeter',
+            text: `Kumar is planning to put a fence around his garden with a wire. How much wire does he need to buy?
+            Priya ran one round on the jogging track around a park. Find the distance she ran.
+            Priya is colouring the border of a rangoli before her house. How long is the border?`
+          },
+          {
+            name: 'Area',
+            text: `David is measuring the floor in his drawing room to cover it with a carpet. How much square feet of carpet does he require?
+            Priya needs to plant her garden with rose plants covering a rectangle of sides 5 m and 7 m. She should leave a space of 1 m between each plant. Find the number of plants she can plant.`
           }
         ]
       }

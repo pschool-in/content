@@ -151,6 +151,26 @@ export default {
       label: 'Small Passage',
       id: 'small-passage-question',
       grade: '0-3'
+    },
+    {
+      label: 'Picture and Passage',
+      id: 'comp-1',
+      grade: '0-3'
+    },
+    {
+      label: 'Picture and Passage - 2',
+      id: 'comp-1-2',
+      grade: '0-3'
+    },
+    {
+      label: 'Fun Reading',
+      id: 'comp-2',
+      grade: '0-3'
+    },
+    {
+      label: 'Fun Reading - 2',
+      id: 'comp-2-2',
+      grade: '0-3'
     }
   ]
 };
