@@ -24,7 +24,7 @@
 9. Rabbit
 10. Tiger
 
-# comp-2
+# comp-2 (stories)
 
 1. The Dolphin Show
 2. Peter's Swimming Lesson
@@ -32,7 +32,7 @@
 4. Frosty
 5. Lost Puppy
 
-# comp-2-2
+# comp-2-2 (fables, passages)
 
 1. Three Little Pigs
 2. Shark
