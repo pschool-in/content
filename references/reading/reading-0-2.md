@@ -26,16 +26,8 @@
 
 # comp-2 (stories)
 
-1. The Dolphin Show
-2. Peter's Swimming Lesson
-3. Water park
-4. Frosty
-5. Lost Puppy
+1.
 
 # comp-2-2 (fables, passages)
 
-1. Three Little Pigs
-2. Shark
-3. Slithery Snake
-4. Aurora
-5. Monkey
+1.
