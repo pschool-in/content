@@ -1,6 +1,6 @@
 export default {
   label: 'Comprehension',
-  id: 'comprehension-4',
+  id: 'comp-4',
   lockAfter: 2,
   list: [
     {

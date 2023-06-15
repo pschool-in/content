@@ -8,6 +8,21 @@ export default {
       grade: '3-6'
     },
     {
+      label: 'Picture and Passage - 5',
+      id: 'comp-3',
+      grade: '2-5'
+    },
+    {
+      label: 'Picture and Passage - 6',
+      id: 'comp-3-2',
+      grade: '3-6'
+    },
+    {
+      label: 'Picture and Passage - 7',
+      id: 'comp-4',
+      grade: '3-6'
+    },
+    {
       label: 'Stories',
       id: 'stories',
       grade: '3-7'

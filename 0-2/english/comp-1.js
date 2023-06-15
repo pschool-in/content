@@ -1,6 +1,6 @@
 export default {
-  label: 'Small Passages',
-  id: 'small-passage-question',
+  label: 'Small Picture and Passage',
+  id: 'comp-1',
   list: [
     {
       type: 'informationProcessing',
