@@ -35,7 +35,7 @@ The mouse cut the net and one by one all the doves were free. They all thanked t
           },
           {
             qText: 'The leader asked all doves to fly up ________.',
-            options: 'together, using force, in different direction'
+            options: 'together, using force, in a different direction'
           },
           {
             qText:
@@ -71,12 +71,12 @@ The doves were trapped.`
     {
       id: '400',
       type: 'passage',
-      label: 'Birbal’s Wisdom',
+      label: "Birbal's Wisdom",
       data: {
         img: {
           url: 'story/08_ring.jpg'
         },
-        title: 'Birbal’s Wisdom',
+        title: "Birbal's Wisdom",
         text: `One day, Akbar lost his ring. When Birbal arrived in the court, Akbar told him “I have lost my ring. My father gave it to me as a gift. Please help me to find it.” Birbal said, ”Do not worry your Majesty, I will find your ring right now.”
 He said,  “Your Majesty the ring is here in this court itself, it is with one of the people present here. The person who has a straw in his beard has your ring.” One man who had the king’s ring was shocked and immediately moved his hand over his beard. Birbal noticed it. He immediately pointed towards the man and said,  “Please search this man. He has the king’s ring.”
 Akbar could not understand how Birbal managed to find the ring. Birbal explained that a guilty person is always scared.`,
@@ -104,7 +104,7 @@ Akbar could not understand how Birbal managed to find the ring. Birbal explained
               "Akbar's court, Akbar's garden, Birbal's court, Birbal's room"
           },
           {
-            qText: 'How much time did Birbal took to find the thief?',
+            qText: 'How much time did Birbal take to find the thief?',
             options: 'Few minutes, Few hours, Few days'
           },
           {
@@ -126,7 +126,7 @@ Akbar could not understand how Birbal managed to find the ring. Birbal explained
       data: {
         title: 'Order the sentences based on the story.',
         text: `Akbar lost his ring.
-He was very upset as it was his favourite ring.
+He was very upset as it was his favorite ring.
 Birbal said, "Don't worry. I will find it".
 He said, "The person who has straw in his beard has the ring".
 One person reacted and checked his beard and he was the thief.`
@@ -185,8 +185,8 @@ It kept a fox as umpire.`
       type: 'sorting',
       data: {
         title: 'Order the sentences based on the story.',
-        text: `The rabbit made fun on the turtle.
-The turtle challenged the rabbit for a race.
+        text: `The rabbit made fun of the turtle.
+The turtle challenged the rabbit to a race.
 The rabbit ran fast and reached halfway.
 It decided to take a small nap and didn't wake up on time.
 The turtle won the race`
@@ -251,7 +251,7 @@ Both the frogs gave up`
         text: `A group of frogs was traveling through the woods.
 Two frogs fell into a deep pit.
 They tried to jump out of the pit.
-The other frogs discouraged them that they could not come out.
+The other frogs discouraged them so that they could not come out.
 One frog believed them and gave up and fell deep into the pit.
 But the other frog was deaf, and tried hard and came out.`
       }
@@ -267,7 +267,7 @@ He thought of a plan and said to his wife, “My dear, I think that some notorio
 A little later, Tenali Raman and his wife came out of the house carrying a big trunk and dropped it into the well. Then, they went back inside their house and pretended to be asleep. The thieves waited for a while and then started drawing water from the well.
 They wanted to empty the water in the well and get the treasure. The thieves kept drawing out water, the entire night. Towards dawn, they managed to pull out the trunk, and when they opened it, they were extremely shocked and disappointed to see only some big stones in it.
 They understood that Tenali Raman planned to outsmart them. Just then, Tenali Raman came out of his house and said, “Thank you friends, for watering my plants. I must pay you for your labor.”
-Hearing this, the thieves fell at Tenali’s feet, asking for forgiveness. They promised not to steal or rob anyone ever again. Tenali decided to let them go.`,
+Hearing this, the thieves fell at Tenali's feet, asking for forgiveness. They promised not to steal or rob anyone ever again. Tenali decided to let them go.`,
         moral:
           'Moral - Keeping cool and using your wit during dire situations can help you to get out of them.'
       }
@@ -328,10 +328,10 @@ Call someone hopefully`
       data: {
         title: 'Order the sentences based on the story.',
         text: `One summer night, Tenali Raman and his wife spotted thieves hiding in the bush.
-They made a plan and shouted loudly about a plan.
+They made a plan and shouted about a plan.
 They dropped a big trunk into the well.
 The thieves tried to empty the well to get the trunk.
-And they were disappointed as the truck had only big stones.`
+And they were disappointed as the trunk had only big stones.`
       }
     }
   ]
