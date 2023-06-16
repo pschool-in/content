@@ -353,6 +353,196 @@ Remarkable, Ordinary
 Gather, Disperse
 Organized, Chaotic`
       }
+    },
+    {
+      id: 'vulture',
+      type: 'passage',
+      label: 'Vulture',
+      style: 'big',
+      data: {
+        title: 'Vulture',
+        text: `The vulture, often overlooked and misunderstood, plays a vital role in our ecosystem as nature's unassuming recycler. These magnificent birds, are known for their scavenging habits and distinct appearance. With a wingspan that can reach up to 10 feet and a bald head, vultures are uniquely adapted to their scavenger lifestyle.
+They possess excellent eyesight, allowing them to spot carcasses from great distances. Once they locate a meal, vultures use their powerful beaks to tear through tough animal hides, exposing the decaying flesh. Their bald heads are a practical adaptation, preventing bacteria-infested remains from sticking to their feathers.
+These scavengers serve a crucial ecological role by preventing the spread of disease. By efficiently disposing of animal carcasses, they reduce the risk of pathogens contaminating the environment. Their stomachs are highly acidic, enabling them to digest bacteria, viruses, and toxins that would prove fatal to other animals.
+Despite their vital contributions, vultures face numerous threats. Habitat loss, poisoning from toxic chemicals used in agriculture, and illegal wildlife trade have led to a decline in vulture populations worldwide. This decline is alarming, as it disrupts the balance of ecosystems and poses risks to human health.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-5',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What is the primary role of vultures in the ecosystem?',
+            options: `Scavenging and recycling
+Preying on small mammals
+Seed dispersal`
+          },
+          {
+            qText: 'How do vultures locate carcasses?',
+            options: `Excellent eyesight
+Echo-location
+Magnetic field detection`
+          },
+          {
+            qText: 'What is the purpose of vultures bald heads?',
+            options: `A practical adaptation to prevent bacteria-infested remains from sticking to their feathers
+Enhanced hearing capabilities
+Protection against predators`
+          },
+          {
+            qText: `What do vultures do to reduce the spread of disease?`,
+            options: `Dispose of animal carcasses efficiently
+Prey on insects that carry diseases
+Spread carcasses over a large area`
+          },
+          {
+            qText: 'What are the threats faced by vultures?',
+            options: `Climate change and habitat loss
+Overpopulation leading to resource scarcity
+Predation by larger birds of prey`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-vulture',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Vultures are *scavenging* birds that feed on carrion.
+Vultures excellent *eyesight* allows them to spot carcasses from great distances.
+With their powerful beaks, vultures can tear through tough animal hides and expose the *decaying* flesh.
+Vultures' stomachs are highly *acidic*, enabling them to digest bacteria, viruses, and toxins.
+The decline in vulture populations is a result of habitat *loss*, poisoning, and illegal wildlife *trade*.`
+      }
+    },
+    {
+      id: 'vulture-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Scavenging</b>: Act of finding and consuming dead animals.<br><br>
+<b>Eyesight</b>: Ability to see.<br><br>
+<b>Decaying</b>: Breaking down or rotting.<br><br>
+<b>Acidic</b>: Having a high level of acid.<br><br>`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'vulture-word',
+      data: {
+        text: `Act of finding and consuming dead animals.|SCAVENGING
+Ability to see.|EYESIGHT
+Breaking down or rotting.|DECAYING
+Having a high level of acid.|ACIDIC`
+      }
+    },
+    {
+      id: 'parrot',
+      type: 'passage',
+      label: 'Parrot',
+      style: 'big',
+      data: {
+        title: 'Parrot',
+        text: `Parrots are captivating creatures that have long held a special place in human society. With their vibrant plumage and impressive ability to mimic speech, they are both beautiful and intelligent companions. 
+One of the most striking features of parrots is their colorful appearance. With feathers ranging from brilliant blues and vibrant yellows to fiery reds and lush greens, parrots are nature's own vibrant palette.
+Another remarkable aspect of parrots is their ability to imitate sounds and human speech. Their vocal talents are unparalleled in the animal kingdom. Parrots can mimic various sounds, from the ringing of a telephone to the melody of a favorite song.
+Beyond their visual and vocal appeal, parrots are highly intelligent creatures. They possess a remarkable capacity for problem-solving and learning. Their intelligence enables them to adapt to their surroundings and form social bonds with humans. 
+Parrots thrive on mental stimulation, which is why they require engaging toys and regular interaction with their human caregivers. The bond between a parrot and its owner can be incredibly strong, creating a lifelong companionship.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-6',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What makes parrots captivating companions?',
+            options: `Their ability to mimic speech
+Their colorful appearance
+Their intelligence
+*All of the above`
+          },
+          {
+            qText: 'What is one of the most striking features of parrots?',
+            options: `Their vibrant plumage
+Their intelligence
+Their adaptability`
+          },
+          {
+            qText: "What is unique about parrots' vocal talents?",
+            options: `They can mimic various sounds
+They can speak multiple languages
+They have the loudest voice among birds`
+          },
+          {
+            qText: `What enables parrots to form social bonds with humans?`,
+            options: `Their intelligence, Their colorful appearance, Speech`
+          },
+          {
+            qText: 'What do parrots thrive on?',
+            options: `Mental stimulation
+Social interaction with other birds
+Solitary activities`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-parrot',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Parrots have the unique ability to *mimic* human speech.
+The intelligence of parrots is *unparalleled* in the animal kingdom.
+Parrots are known for their * problem-solving* skills, always finding clever solutions.
+Parrots require mental *stimulation* to stay engaged and entertained.
+The *companionship* between a parrot and its owner can be very strong.`
+      }
+    },
+    {
+      id: 'parrot-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Captivating</b>: Extremely interesting and attractive.<br><br>
+<b>Plumage</b>: The feathers or covering of a bird.<br><br>
+<b>Mimic</b>: Imitating or copying someone or something.<br><br>
+<b>Unparalleled</b>: Without equal or parallel; incomparable.<br><br>
+<b> Adapt</b>: Adjusting or changing to fit new circumstances.<br><br>
+<b>Remarkable</b>: Extraordinary; deserving attention or admiration.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'parrot-word',
+      data: {
+        text: `Extremely interesting and attractive.|CAPTIVATING
+The feathers or covering of a bird.|PLUMAGE
+Imitating or copying someone or something.|MIMIC
+Without equal or parallel; incomparable.|UNPARALLELED
+Adjusting or changing to fit new circumstances.|ADAPT
+Extraordinary; deserving attention or admiration.|REMARKABLE`
+      }
     }
   ]
 };
