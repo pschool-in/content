@@ -1,5 +1,5 @@
 export default {
-  label: 'Comprehension',
+  label: 'Fables',
   id: 'comp-4',
   lockAfter: 2,
   list: [
@@ -104,13 +104,13 @@ Raj fell fast asleep in the car, dreaming of visiting the dolphins *again* somed
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Amusement: Enjoyment or entertainment.
-Stunt: Actions or feats that require skill or daring.
-Mammals: Animals that give birth to live young and nurse them with milk.
-Social: Friendly and interactive with others.
-Playful: Lively and full of energy, enjoying fun and games.
-Trainer: A person who trains people or animals.`
+            type: 'html',
+            text: `<b>Amusement</b>: Enjoyment or entertainment.<br><br>
+<b>Stunt</b>: Actions or feats that require skill or daring.<br><br>
+<b>Mammals</b>: Animals that give birth to live young and nurse them with milk.<br><br>
+<b>Social</b>: Friendly and interactive with others.<br><br>
+<b>Playful</b>: Lively and full of energy, enjoying fun and games.<br><br>
+<b>Trainer</b>: A person who trains people or animals.`
           }
         ]
       }
@@ -237,12 +237,12 @@ It was the *best* day of Peter's life.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Approach: To come near or closer to someone or something
-Nervous: Feeling worried or uneasy
-Repeatedly: Doing something over and over again
-Exerted: Making an effort or applying force
-Resurfaced: Coming up to the surface again after being underwater`
+            type: 'html',
+            text: `<b>Approach</b>: To come near or closer to someone or something.<br><br>
+<b>Nervous</b>: Feeling worried or uneasy.<br><br>
+<b>Repeatedly</b>: Doing something over and over again.<br><br>
+<b>Exerted</b>: Making an effort or applying force.<br><br>
+<b>Resurfaced</b>: Coming up to the surface again after being underwater.`
           }
         ]
       }
@@ -342,13 +342,13 @@ A sense of confusion`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: ` Tugged: To pull or tug with force
-Vowed: To promise or swear solemnly
-Encounter: To meet or come across unexpectedly
-Reunite: To bring together again
-Overwhelmed: Feeling a sense of being completely overcome or flooded
-Abandoned: To leave behind or forsake completely`
+            type: 'html',
+            text: ` <b>Tugged</b>: To pull or tug with force.<br><br>
+<b>Vowed</b>: To promise or swear solemnly.<br><br>
+<b>Encounter</b>: To meet or come across unexpectedly.<br><br>
+<b>Reunite</b>: To bring together again.<br><br>
+<b>Overwhelmed</b>: Feeling a sense of being completely overcome or flooded.<br><br>
+<b>Abandoned</b>: To leave behind or forsake completely.`
           }
         ]
       }
@@ -389,6 +389,112 @@ Joy, Happiness`
 Abandoned, Cherished
 Unexpected, Predictable
 Tirelessly, Lazily`
+      }
+    },
+    {
+      id: 'wolf',
+      type: 'passage',
+      label: 'Shadow',
+      style: 'big',
+      data: {
+        title: 'Shadow',
+        text: `In a dense forest nestled between towering trees, a lone wolf roamed. His name was Shadow, and he possessed an unparalleled grace and a coat as black as the night sky. Shadow was known for his unwavering loyalty to his pack and his fierce protection of their territory.
+One cold winter night, a blizzard struck the forest, bringing chaos and freezing winds. Shadow's pack sought shelter, but one young wolf, Snow, was missing. Worried, Shadow ventured into the storm, his keen senses guiding him through the swirling snow.
+As Shadow pushed forward, his paws sinking into the snow with each step, he heard faint whimpers. Following the sound, he found Snow, shivering and weak. Without hesitation, Shadow nudged Snow gently, urging her to her feet. He guided her back to the safety of the pack, his warmth and strength shielding her from the storm.
+From that day forward, Shadow and Snow shared a bond unlike any other. They became inseparable, their bond a symbol of resilience and protection. Shadow's pack recognized his selflessness and welcomed Snow with open paws. 
+Years passed, and as the seasons changed, Shadow's fur turned silver, but his spirit remained fierce. He led his pack with wisdom and compassion, always protecting and guiding them through challenges.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-6',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What was the name of the lone wolf in the story?',
+            options: `Shadow, Storm, Snow`
+          },
+          {
+            qText: 'Why did Shadow venture into the blizzard?',
+            options: `To protect his pack
+To escape the cold
+To find food`
+          },
+          {
+            qText: 'Who was the young wolf that went missing in the blizzard?',
+            options: `Snow, Shadow, Storm`
+          },
+          {
+            qText: 'How did Shadow help Snow in the storm?',
+            options: ` He guided her back to safety
+He fought off other predators
+He built a shelter for her`
+          },
+          {
+            qText: 'How did Shadow lead his pack?',
+            options: `With wisdom and compassion
+By being independent
+By hiding from challenges`
+          }
+        ]
+      }
+    },
+    {
+      id: 'wolf-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Unparalleled</b>: Having no equal or rival; unmatched.<br><br>
+<b>Fierce</b>: Brave and aggressive.<br><br>
+<b>Resilience</b>: Ability to recover quickly from difficulties.<br><br>
+<b>Selflessness</b>: Absence of selfishness; concern for others.<br><br>
+<b>Compassion</b>: Showing a heartfelt concern or interest.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'wolf-word',
+      data: {
+        text: `Having no equal or rival; unmatched.|UNPARALLELED
+Brave and aggressive.|FIERCE
+Ability to recover quickly from difficulties.|RESILIENCE
+Absence of selfishness; concern for others.|SELFLESSNESS
+Showing a heartfelt concern or interest.|COMPASSION`
+      }
+    },
+    {
+      id: 'match-9',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Loyalty, Devotion
+Territory, Domain
+Keen, Sharp
+Unwavering, Steadfast
+Inseparable, Indivisible`
+      }
+    },
+    {
+      id: 'match-10',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Loyalty, Betrayal
+Territory, Wilderness
+Keen, Dull
+Unwavering, Fickle
+Inseparable, Detachable`
       }
     },
     {
@@ -462,14 +568,14 @@ The Arctic is known for its vast *tundra*, covered in snow and ice.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Arctic: Refers to the region surrounding the North Pole, characterized by cold temperatures and icy landscapes.
-Polar bear: A large bear species native to the Arctic, known for its white fur and ability to swim long distances.
-Tundra: A vast, flat, and treeless Arctic region, consisting of frozen soil and characterized by low temperatures.
-Ice floe: A large, flat piece of floating ice.
-Seal: A marine mammal that lives in the Arctic and Antarctic regions and is a common prey for polar bears.
-Selflessness: The act of putting the needs and well-being of others before oneself.
-Compassion: A feeling of deep sympathy and empathy for others, accompanied by a desire to help and alleviate their suffering.`
+            type: 'html',
+            text: `<b>Arctic</b>: Refers to the region surrounding the North Pole, characterized by cold temperatures and icy landscapes.<br><br>
+<b>Polar bear</b>: A large bear species native to the Arctic, known for its white fur and ability to swim long distances.<br><br>
+<b>Tundra</b>: A vast, flat, and treeless Arctic region, consisting of frozen soil and characterized by low temperatures.<br><br>
+<b>Ice floe</b>: A large, flat piece of floating ice.<br><br>
+<b>Seal</b>: A marine mammal that lives in the Arctic and Antarctic regions and is a common prey for polar bears.<br><br>
+<b>Selflessness</b>: The act of putting the needs and well-being of others before oneself.<br><br>
+<b>Compassion</b>: A feeling of deep sympathy and empathy for others, accompanied by a desire to help and alleviate their suffering.`
           }
         ]
       }

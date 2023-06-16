@@ -1,5 +1,5 @@
 export default {
-  label: 'Comprehension',
+  label: 'Fables',
   id: 'comprehension-6',
   lockAfter: 2,
   list: [

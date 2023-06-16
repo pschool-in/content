@@ -1,5 +1,5 @@
 export default {
-  label: 'Comprehension',
+  label: 'Tales',
   id: 'comp-3',
   lockAfter: 2,
   list: [
@@ -100,13 +100,13 @@ The three little pigs learned the value of hard work and *resilience*.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Stick: A material made from thin pieces of wood.
-Brick: A building material made from clay or concrete.
-Straw: Dried stalks of grain plants.
-Wolf: A carnivorous mammal known for its howl.
-Resilience: The ability to recover quickly from difficulties or setbacks.
-Hardwork: Diligent effort and determination put into achieving a goal.`
+            type: 'html',
+            text: `<b>Stick</b>: A material made from thin pieces of wood.<br><br>
+<b>Brick</b>: A building material made from clay or concrete.<br><br>
+<b>Straw</b>: Dried stalks of grain plants.<br><br>
+<b>Wolf</b>: A carnivorous mammal known for its howl.<br><br>
+<b>Resilience</b>: The ability to recover quickly from difficulties or setbacks.<br><br>
+<b>Hardwork</b>: Diligent effort and determination put into achieving a goal.`
           }
         ]
       }
@@ -223,14 +223,14 @@ Our *taste buds* danced with delight at the snack bar's ice cream.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Exhilarating: Causing excitement and happiness
-Intimidating: Making someone feel nervous or scared
-Relief: Feeling of comfort or alleviation
-Daring: Brave and courageous
-Hub: Central point or gathering place
-Tempting: Attractive and enticing
-Captured: Ensnared or completely fascinated by something`
+            type: 'html',
+            text: `<b>Exhilarating</b>: Causing excitement and happiness.<br><br>
+<b>Intimidating</b>: Making someone feel nervous or scared.<br><br>
+<b>Relief</b>: Feeling of comfort or alleviation.<br><br>
+<b>Daring</b>: Brave and courageous.<br><br>
+<b>Hub</b>: Central point or gathering place.<br><br>
+<b>Tempting</b>: Attractive and enticing.<br><br>
+<b>Captured</b>: Ensnared or completely fascinated by something.`
           }
         ]
       }
@@ -340,12 +340,12 @@ Lily promised to build Frosty again next *winter*.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Winter: The season between fall and spring
-Snowman: A frozen figure made of snow
-Carrot: A vegetable that is orange and long
-Melting: Changing from solid to liquid due to heat
-Coal: A black material used for making fire`
+            type: 'html',
+            text: `<b>Winter</b>: The season between fall and spring.<br><br>
+<b>Snowman</b>: A frozen figure made of snow.<br><br>
+<b>Carrot</b>: A vegetable that is orange and long.<br><br>
+<b>Melting</b>: Changing from solid to liquid due to heat.<br><br>
+<b>Coal</b>: A black material used for making fire.`
           }
         ]
       }
@@ -438,11 +438,11 @@ Their friendship went beyond *survival*, as they spent time grooming each other.
         text: [
           {
             type: 'hilight',
-            text: `Unbreakable: Impossible to break or separate.
-Prey: An animal that is hunted and eaten by another animal.
-Agile: Able to move quickly and easily.
-Magnificent: Extremely beautiful or impressive.
-Intervened: To come between or interrupt something.`
+            text: `<b>Unbreakable</b>: Impossible to break or separate.<br><br>
+<b>Prey</b>: An animal that is hunted and eaten by another animal.<br><br>
+<b>Agile</b>: Able to move quickly and easily.<br><br>
+<b>Magnificent</b>: Extremely beautiful or impressive.<br><br>
+<b>Intervened</b>: To come between or interrupt something.`
           }
         ]
       }
@@ -558,11 +558,11 @@ The villagers learned about the importance of treating animals with *kindness*.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Compassion: Feeling or showing concern and kindness towards others.
-Loyal: Faithful and devoted.
-Empathy: The ability to understand and share the feelings of others.
-Refreshed: Feeling revitalized or reenergized.`
+            type: 'html',
+            text: `<b>Compassion</b>: Feeling or showing concern and kindness towards others.<br><br>
+<b>Loyal</b>: Faithful and devoted.<br><br>
+<b>Empathy</b>: The ability to understand and share the feelings of others.<br><br>
+<b>Refreshed</b>: Feeling revitalized or reenergized.`
           }
         ]
       }

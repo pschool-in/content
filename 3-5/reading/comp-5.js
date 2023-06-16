@@ -1,5 +1,5 @@
 export default {
-  label: 'Comprehension',
+  label: 'Passage',
   id: 'comprehension-5',
   lockAfter: 2,
   list: [
@@ -68,12 +68,12 @@ Fear and avoidance`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Battle: Armed conflicts between opposing forces. Horses were used in warfare throughout history, carrying soldiers and providing them with an advantage on the battlefield.
-Recreational: Activities done for enjoyment, relaxation, or fun. Horseback riding and racing are popular recreational activities that people of all ages enjoy.
-Mane: The long, thick hair that grows from the top of a horse's neck. It adds to the horse's beauty and can be styled in different ways.
-Trot: A gait in which a horse moves forward with two feet on the ground at the same time. It is a comfortable and steady pace.
-Gallop: A fast and powerful gait where a horse moves with all four feet off the ground in a jumping motion. It is the fastest gait of a horse.`
+            type: 'html',
+            text: `<b>Battle</b>: Armed conflicts between opposing forces. Horses were used in warfare throughout history, carrying soldiers and providing them with an advantage on the battlefield.<br><br>
+<b>Recreational</b>: Activities done for enjoyment, relaxation, or fun. Horseback riding and racing are popular recreational activities that people of all ages enjoy.<br><br>
+<b>Mane</b>: The long, thick hair that grows from the top of a horse's neck. It adds to the horse's beauty and can be styled in different ways.<br><br>
+<b>Trot</b>: A gait in which a horse moves forward with two feet on the ground at the same time. It is a comfortable and steady pace.<br><br>
+<b>Gallop</b>: A fast and powerful gait where a horse moves with all four feet off the ground in a jumping motion. It is the fastest gait of a horse.`
           }
         ]
       }
@@ -180,16 +180,16 @@ Carnivores are animals that primarily eat *meat*.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Dinosaur: Prehistoric reptiles that lived millions of years ago.
-Skeleton: The rigid framework of bones that supports the body of an organism.
-Assume: To suppose or take for granted without evidence.
-Herbivores: Animals that primarily eat plants and vegetation.
-Carnivores: Animals that primarily eat other animals.
-Omnivores: Animals that eat both plants and other animals.
-Extinct: No longer in existence.
-Meteor: A small celestial body that enters Earth's atmosphere and may reach the ground as a meteorite.
-Species: A distinct type or category of organisms.`
+            type: 'html',
+            text: `<b>Dinosaur</b>: Prehistoric reptiles that lived millions of years ago.<br><br>
+<b>Skeleton</b>: The rigid framework of bones that supports the body of an organism.<br><br>
+<b>Assume</b>: To suppose or take for granted without evidence.<br><br>
+<b>Herbivores</b>: Animals that primarily eat plants and vegetation.<br><br>
+<b>Carnivores</b>: Animals that primarily eat other animals.<br><br>
+<b>Omnivores</b>: Animals that eat both plants and other animals.<br><br>
+<b>Extinct</b>: No longer in existence.<br><br>
+<b>Meteor</b>: A small celestial body that enters Earth's atmosphere and may reach the ground as a meteorite.<br><br>
+<b>Species</b>: A distinct type or category of organisms.`
           }
         ]
       }
@@ -305,13 +305,13 @@ It's important to avoid using harmful *pesticides* that can harm bees and other 
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Nectar: A sweet liquid produced by flowers, attracting insects for pollination.
-Pollinate: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.
-Hive: A structure where bees live and store honey, consisting of cells and compartments.
-Pollen: Fine powdery substance produced by the male reproductive organs of flowering plants.
-Honey: A sweet, sticky substance produced by bees from flower nectar, used as food and stored in hives.
-Pollination: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.`
+            type: 'html',
+            text: `<b>Nectar</b>: A sweet liquid produced by flowers, attracting insects for pollination.<br><br>
+<b>Pollinate</b>: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.<br><br>
+<b>Hive</b>: A structure where bees live and store honey, consisting of cells and compartments.<br><br>
+<b>Pollen</b>: Fine powdery substance produced by the male reproductive organs of flowering plants.<br><br>
+<b>Honey</b>: A sweet, sticky substance produced by bees from flower nectar, used as food and stored in hives.<br><br>
+<b>Pollination</b>: The transfer of pollen from the male reproductive organs to the female reproductive organs of plants, resulting in fertilization.`
           }
         ]
       }

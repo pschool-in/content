@@ -1,5 +1,5 @@
 export default {
-  label: 'Comprehension-2',
+  label: 'Fables',
   id: 'comprehension-4-2',
   lockAfter: 2,
   list: [
@@ -91,13 +91,13 @@ The plastic would be *transformed* into a new lunchbox through recycling.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Adorned: To decorate or add beauty to something.
-Array: A large number or variety of things.
-Plunge: To fall suddenly or quickly.
-Devastated: To feel extreme sadness or grief.
-Dispose: To get rid of or throw away.
-Transform: To change the form, appearance, or nature of something.`
+            type: 'html',
+            text: `<b>Adorned</b>: To decorate or add beauty to something.<br><br>
+<b>Array</b>: A large number or variety of things.<br><br>
+<b>Plunge</b>: To fall suddenly or quickly.<br><br>
+<b>Devastated</b>: To feel extreme sadness or grief.<br><br>
+<b>Dispose</b>: To get rid of or throw away.<br><br>
+<b>Transform</b>: To change the form, appearance, or nature of something.`
           }
         ]
       }
@@ -211,16 +211,16 @@ Accident, Mishap`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Baker: A person who bakes goods, such as bread, pastries, and cakes.
-Creativity: The ability to think imaginatively and come up with original ideas.
-Trolley: A wheeled cart or platform used for transporting items.
-Carpet: A floor covering made of thick woven fabric, typically used in homes or commercial spaces.
-Impact: The forceful collision or contact between two objects.
-Upside down: Reversed or inverted from the normal or expected position.
-Judges: Individuals responsible for evaluating and rating the cakes in a competition based on predetermined criteria.
-Topsy-turvy: A state of disarray or disorder, referring to the rearrangement of the cake layers.
-Visionary: Someone who has original and creative ideas, often associated with forward-thinking and innovation.`
+            type: 'html',
+            text: `<b>Baker</b>: A person who bakes goods, such as bread, pastries, and cakes.<br><br>
+<b>Creativity</b>: The ability to think imaginatively and come up with original ideas.<br><br>
+<b>Trolley</b>: A wheeled cart or platform used for transporting items.<br><br>
+<b>Carpet</b>: A floor covering made of thick woven fabric, typically used in homes or commercial spaces.<br><br>
+<b>Impact</b>: The forceful collision or contact between two objects.<br><br>
+<b>Upside down</b>: Reversed or inverted from the normal or expected position.<br><br>
+<b>Judges</b>: Individuals responsible for evaluating and rating the cakes in a competition based on predetermined criteria.<br><br>
+<b>Topsy-turvy</b>: A state of disarray or disorder, referring to the rearrangement of the cake layers.<br><br>
+<b>Visionary</b>: Someone who has original and creative ideas, often associated with forward-thinking and innovation.`
           }
         ]
       }
@@ -331,12 +331,12 @@ A cozy blanket for beetles.`
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: ` Mossy: Covered in or resembling moss.
-Marvel: To be amazed or astonished by something.
-Relishing: To take pleasure in or enjoy something greatly.
-Peculiarly: In a strange or unusual manner.
-Perspective: The way someone sees or understands something.`
+            type: 'html',
+            text: ` <b>Mossy</b>: Covered in or resembling moss.<br><br>
+<b>Marvel</b>: To be amazed or astonished by something.<br><br>
+<b>Relishing</b>: To take pleasure in or enjoy something greatly.<br><br>
+<b>Peculiarly</b>: In a strange or unusual manner.<br><br>
+<b>Perspective</b>: The way someone sees or understands something.`
           }
         ]
       }

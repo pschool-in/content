@@ -20,7 +20,7 @@
 2. Peter's Swimming Lesson
 3. Lost Puppy
 4. Aurora
-5.
+5. Shadow
 
 # comp-4-2
 
@@ -35,8 +35,8 @@
 1. Horse
 2. Dinosaur
 3. Busy Bee
-4.
-5.
+4. Vulture
+5. Parrot
 
 # comp-5-2 (conversations)
 
