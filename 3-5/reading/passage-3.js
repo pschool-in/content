@@ -1,6 +1,6 @@
 export default {
   label: 'Passage',
-  id: 'comp-3-2',
+  id: 'passage-3',
   lockAfter: 2,
   list: [
     {

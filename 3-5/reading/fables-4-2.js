@@ -1,6 +1,6 @@
 export default {
   label: 'Fables',
-  id: 'comprehension-4-2',
+  id: 'fables-4-2',
   lockAfter: 2,
   list: [
     {

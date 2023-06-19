@@ -1,6 +1,6 @@
 export default {
   label: 'Tales',
-  id: 'comp-3',
+  id: 'tales-3',
   lockAfter: 2,
   list: [
     {

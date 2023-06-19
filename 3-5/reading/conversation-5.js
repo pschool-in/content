@@ -1,6 +1,6 @@
 export default {
   label: "Let's Speak",
-  id: 'comprehension-5-2',
+  id: 'conversation-5',
   lockAfter: 2,
   list: [
     {
