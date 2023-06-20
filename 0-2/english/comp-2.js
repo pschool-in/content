@@ -1,6 +1,6 @@
 export default {
-  label: 'Reading Lessons',
-  id: 'reading-animals',
+  label: 'Picture and Passage',
+  id: 'comp-2',
   lockAfter: 3,
   list: [
     {

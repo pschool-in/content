@@ -41,7 +41,7 @@
 
 1. Cow
 2. Buffalo
-3. Dove
+3. Pigeon
 4. Lotus
 5. Train
 6. Grandfather
