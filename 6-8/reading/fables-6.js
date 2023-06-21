@@ -329,6 +329,223 @@ Treadmills, weights, and fitness classes, A place to exercise and work on your f
 Rows of seats and a giant screen, Where movies and stories come to be seen. Where am I? |MOVIE THEATER| M___E T__A___
 Shoppers flock to me, a bustling place, Clothes and shoes, a fashion chase. Sales and discounts, a shopper's dream, Where am I?|MALL`
       }
+    },
+    {
+      id: 'mouse',
+      type: 'passage',
+      label: 'The Frog and The Mouse',
+      style: 'big',
+      data: {
+        title: 'The Frog and The Mouse',
+        text: `A young Mouse in search of adventure was running along the bank of a pond where lived a Frog. When the Frog saw the Mouse, he swam to the bank and croaked:
+"Won't you pay me a visit? I can promise you a good time if you do."
+The Mouse did not need much coaxing, for he was very anxious to see the world and everything in it. But though he could swim a little, he did not dare risk going into the pond without some help.
+The Frog had a plan. He tied the Mouse's leg to his own with a tough reed. Then into the pond he jumped, dragging his foolish companion with him. The Mouse soon had enough of it and wanted to return to shore, but the treacherous Frog had other plans. He pulled the Mouse down under the water and drowned him. But before he could untie the reed that bound him to the dead Mouse, a Hawk came sailing over the pond. Seeing the body of the Mouse floating on the water, the Hawk swooped down, seized the Mouse and carried it off, with the Frog dangling from its leg. Thus at one swoop he had caught both meat and fish for his dinner.`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-6',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: "What was the Mouse's motivation for visiting the Frog?",
+            options: `He wanted to see the world and have an adventure.
+He needed help swimming in the pond.
+He was looking for a new friend.`
+          },
+          {
+            qText: 'How did the Frog convince the Mouse to come into the pond?',
+            options: `By promising him a good time.
+By challenging him to a swimming race.
+By offering him a tasty treat.`
+          },
+          {
+            qText:
+              "What did the Frog do to ensure that the Mouse wouldn't leave the pond?",
+            options: `He tied a reed around the Mouse's leg and his own.
+He asked the Mouse to stay with him as a friend.
+He threatened the Mouse with his sharp teeth.`
+          },
+          {
+            qText: `How did the Mouse meet its demise?`,
+            options: `It drowned in the pond.
+It was eaten by the Frog.
+It was caught by a Hawk.`
+          },
+          {
+            qText: 'What happened to the Frog after the Mouse drowned?',
+            options: `It was caught by a Hawk.
+It swam away to find another adventure.
+It continued to live in the pond.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-5',
+      type: 'matchByDragDrop',
+      data: {
+        text: `The Frog used *coaxing* to convince the Mouse to visit him.
+The Mouse realized too late that the Frog was *treacherous*.
+The Hawk *swooped* down and grabbed the Mouse.
+The Frog was left *dangling* from the Hawk's leg.
+The Hawk *seized* the Mouse and flew away.`
+      }
+    },
+    {
+      id: 'frog-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Coaxing </b>: To persuade someone gently or gradually.<br><br>
+<b>Treacherous</b>: Deceitful or unreliable.<br><br>
+<b>Swooped</b>: To make a sudden, downward movement.<br><br>
+<b>Dangling</b>: Hanging or swinging loosely.<br><br>
+<b>Seized</b>: To take hold of something quickly and forcefully.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'frog-word',
+      data: {
+        text: `To persuade someone gently or gradually.|COAXING
+Deceitful or unreliable.|TREACHEROUS
+To make a sudden, downward movement.|SWOOPED
+Hanging or swinging loosely.|DANGLING
+To take hold of something quickly and forcefully.|SEIZED`
+      }
+    },
+    {
+      id: 'match-7',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Coaxing, Persuasion
+Treacherous, Deceptive
+Dangling, Hanging
+Swooped, Dived`
+      }
+    },
+    {
+      id: 'match-8',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Coaxing, Dissuasion
+Treacherous, Trustworthy
+Dangling, Secure
+Swooped, Ascended`
+      }
+    },
+    {
+      id: 'eagle',
+      type: 'passage',
+      label: 'The Eagle and The Jackdaw',
+      style: 'big',
+      data: {
+        title: 'The Eagle and The Jackdaw',
+        text: `An Eagle, swooping down on powerful wings, seized a lamb in her talons and made off with it to her nest. A Jackdaw saw the deed, and his silly head was filled with the idea that he was big and strong enough to do as the Eagle had done. So with much rustling of feathers and a fierce air, he came down swiftly on the back of a large Ram. But when he tried to rise again he found that he could not get away, for his claws were tangled in the wool. And so far was he from carrying away the Ram, that the Ram hardly noticed he was there.
+The Shepherd saw the fluttering Jackdaw and at once guessed what had happened. Running up, he caught the bird and clipped its wings. That evening he gave the Jackdaw to his children.
+"What a funny bird this is!" they said laughing, "what do you call it, Father?"
+"That is a Jackdaw, my children. But if you should ask him, he would say he is an Eagle."`
+      }
+    },
+    {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'mcq-7',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: 'What did the Eagle seize in her talons?',
+            options: `A lamb, A ram, A Jackdaw, Feathers`
+          },
+          {
+            qText:
+              'Why did the Jackdaw believe he could do what the Eagle did?',
+            options: `He was big and strong like the Eagle.
+He had observed the Eagle doing it before.
+He had seen other Jackdaws do it successfully.`
+          },
+          {
+            qText:
+              'What happened when the Jackdaw landed on the back of the Ram?',
+            options: `The Jackdaw got tangled in the Ram's wool.
+The Ram ignored the presence of the Jackdaw.
+The Jackdaw easily carried away the Ram.`
+          },
+          {
+            qText: `How did the Shepherd react when he saw the Jackdaw tangled in the Ram's wool?`,
+            options: ` He caught the Jackdaw and clipped its wings.
+He ignored the situation and continued his work.
+He tried to help the Jackdaw untangle itself.`
+          },
+          {
+            qText:
+              'What did the Shepherd do with the Jackdaw after catching it?',
+            options: ` He gave it to his children.
+He released it back into the wild.
+He kept it as a pet.
+He sold it to someone else.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-6',
+      type: 'matchByDragDrop',
+      data: {
+        text: `The eagle captured the lamb in her *talons*.
+The jackdaw attempted to *swoop* down on the ram's back.
+The shepherd saw the *rustling* of feathers and realized what had happened.
+The jackdaw's claws got *tangled* in the wool of the ram.
+The shepherd *clipped* the bird's wings.`
+      }
+    },
+    {
+      id: 'frog-g',
+      type: 'passage',
+      label: 'Glossary',
+      data: {
+        title: 'Glossary',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Talons </b>: A bird's sharp, curved claws.<br><br>
+<b>Rustle</b>: A loud noise made by the movement of leaves, feathers, or paper.<br><br>
+<b>Deed</b>: A courageous or noble act.<br><br>
+<b>Fierce</b>: A brave and aggressive manner.<br><br>
+<b>Tangled</b>: Twisted or knotted together in a confused way.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'frog-word',
+      data: {
+        text: `A bird's sharp, curved claws.|TALONS
+A loud noise made by the movement of leaves, feathers, or paper.|RUSTLE
+A courageous or noble act.|DEED
+A brave and aggressive manner.|FIERCE
+Twisted or knotted together in a confused way.|TANGLED`
+      }
     }
   ]
 };

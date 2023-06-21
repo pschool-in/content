@@ -1,47 +1,47 @@
-# comp-3
+# tales-3
 
-1. Water Park
-2. Frosty
-3. Three Little Pigs
-4. The Beauty of Friendship
-5. Donkey and the Man
+1. Water Park - https://www.k5learning.com/reading-comprehension-worksheets/first-grade-1/childrens-stories/a-visit-to-the-water-park
+2. Frosty - https://www.bedtimeshortstories.com/snowman-short-story
+3. Three Little Pigs - https://worldstories.org.uk/reader/the-three-little-pigs/english/262
+4. The Beauty of Friendship - https://fascinatingafrica.com/the-hornbill-and-the-dwarf-mongoose/
+5. Donkey and the Man - https://www.zcos.in/english/comprehension/7
 
-# comp-3-2
+# passage-3
 
-1. Slithery Snake
-2. Monkey
-3. Shark
-4. Panda
-5. Flamingo
+1. Slithery Snake - https://en.wikipedia.org/wiki/Snake
+2. Monkey - reading-animals.js
+3. Shark - reading-animals.js
+4. Panda - https://en.wikipedia.org/wiki/Giant_panda
+5. Flamingo - https://a-z-animals.com/animals/flamingo/
 
-# comp-4
+# fables-4
 
-1. The Dolphin Show
-2. Peter's Swimming Lesson
-3. Lost Puppy
-4. Aurora
-5. Shadow
+1. The Dolphin Show - https://www.letsshareknowledge.com/wp-content/uploads/2015/02/dolphin-grade-2-comprehension-worksheet.pdf
+2. Peter's Swimming Lesson - https://www.letsshareknowledge.com/wp-content/uploads/2015/02/tracy-learns-to-swim-grade-2-comprehension-worksheet.pdf
+3. Lost Puppy - https://www.letsshareknowledge.com/wp-content/uploads/2015/03/alan-helps-dog-grade-2-comprehension-worksheet.pdf
+4. Aurora - https://www.letsshareknowledge.com/wp-content/uploads/2015/02/bears-grade-2-comprehension-worksheet.pdf
+5. Shadow - https://www.letsshareknowledge.com/wp-content/uploads/2015/02/peter-and-wolf-grade-2-comprehension-worksheet.pdf
 
-# comp-4-2
+# fables-4-2
 
-1. The Adventures of a Lunchbox
-2. Topsy-Turvy Triump
-3. A Journey of Discovery
-4. The Great Icecream Debate
-5. The Weather Report
+1. The Adventures of a Lunchbox - https://www.letsshareknowledge.com/wp-content/uploads/2015/02/lunch-box-grade-2-comprehension-worksheet.pdf
+2. Topsy-Turvy Triump - https://www.letsshareknowledge.com/wp-content/uploads/2015/03/gobos-cake-grade-2-comprehension-worksheet.pdf
+3. A Journey of Discovery - https://mindfulled.com/the-forest-a-short-story-about-perspective/
+4. The Great Icecream Debate - https://blog.williams-sonoma.com/the-great-ice-cream-debate/
+5. The Weather Report - https://arablelabs.medium.com/only-happy-when-it-rains-a-brief-history-of-weather-forecasting-3ce8c67a3e8b
 
-# comp-5
+# passage-5
 
-1. Horse
-2. Dinosaur
-3. Busy Bee
-4. Vulture
-5. Parrot
+1. Horse - https://www.firstcry.com/intelli/articles/essay-on-horse-for-children-10-lines-short-and-long-essay/
+2. Dinosaur - reading-animals.js
+3. Busy Bee - https://www.aplustopper.com/10-lines-on-honey-bee/
+4. Vulture - https://www.synctechlearn.com/2021/10/10-lines-on-vulture-in-english.html
+5. Parrot - https://www.vedantu.com/english/parrot-essay
 
-# comp-5-2 (conversations)
+# conversation-5
 
-1. Hobbies
-2. Catching Up
-3. Friends Forever
-4. A Day at School
-5. Grandma's Interview
+1. Hobbies - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
+2. Catching Up - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
+3. Friends Forever - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
+4. A Day at School - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
+5. Grandma's Interview - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
