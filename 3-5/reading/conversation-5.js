@@ -1,6 +1,6 @@
 export default {
-  label: 'Comprehension-2',
-  id: 'comprehension-5-2',
+  label: "Let's Speak",
+  id: 'conversation-5',
   lockAfter: 2,
   list: [
     {
@@ -280,12 +280,12 @@ The memories of their time together in the talent show will be *unforgettable* a
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
-            text: `Showcase: To display or exhibit something in order to demonstrate its qualities or features.
-Opportunity: Favorable circumstances or situations that offer possibilities for progress, development, or success.
-Cherish: To hold or treat something dear; to value or appreciate something greatly.
-Grateful: Feeling or expressing thanks or appreciation for something received or done.
-Memory: Recollections or impressions of past experiences that are stored in the mind.`
+            type: 'html',
+            text: `<b>Showcase</b>: To display or exhibit something in order to demonstrate its qualities or features.<br><br>
+<b>Opportunity</b>: Favorable circumstances or situations that offer possibilities for progress, development, or success.<br><br>
+<b>Cherish</b>: To hold or treat something dear; to value or appreciate something greatly.<br><br>
+<b>Grateful</b>: Feeling or expressing thanks or appreciation for something received or done.<br><br>
+<b>Memory</b>: Recollections or impressions of past experiences that are stored in the mind.`
           }
         ]
       }
