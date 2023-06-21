@@ -114,6 +114,7 @@ export default {
       label: 'Write Denomination',
       data: [
         {
+          showImg: true,
           format: 'xx0',
           denos: [100, 10]
         },

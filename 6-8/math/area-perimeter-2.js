@@ -339,20 +339,17 @@ export default {
         ]
       }
     },
-    {
-      type: 'balance',
-      label: 'Balance the Numbers',
-      id: 'balance',
-      data: [
-        [
-          `0.4, ?
-1
-0.6, 0.4, 0.2, 0.8`,
 
-          `0.5, ?
-1
-0.5, 0.4, 0.2, 0.8`
-        ]
+    {
+      type: 'missingWorkout',
+      id: 'addition-missingworkout',
+      label: 'Complete the Problem',
+      data: [
+        { pattern: 'aa.x0 + aa.x0', missingRow: [2] },
+        { pattern: 'bb - aa', missingRow: [2] },
+        { pattern: 'xx + 1x', missingRow: [2] },
+        { pattern: 'bx - 1x', missingRow: [2] },
+        { pattern: 'bb + aa', missingRow: [2] }
       ]
     }
   ]
