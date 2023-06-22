@@ -49,3 +49,11 @@
 8. Kangaroo - https://www.synctechlearn.com/2021/03/10-lines-on-kangaroo-in-english.html
 9. Camel - https://www.firstcry.com/intelli/articles/essay-on-camel-for-children-10-lines-short-and-long-essay/
 10. Squirrel - https://homeworkwala.com/10-lines-on-squirrel-in-english-for-class-2-3-4-5
+
+# conversation-2
+
+1. The Lost Kitten - https://galaxykids.ai/english-conversation-starters-for-kids-the-ultimate-compilation/
+2. The Magic Pen - https://galaxykids.ai/english-conversation-starters-for-kids-the-ultimate-compilation/
+3. The Clever Ant - https://www.twinkl.co.in/blog/35-english-conversation-class-topics-for-teaching
+4. The Magical Forest - https://www.twinkl.co.in/blog/35-english-conversation-class-topics-for-teaching
+5. The Mystery of the Missing Key - https://www.twinkl.co.in/blog/35-english-conversation-class-topics-for-teaching

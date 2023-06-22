@@ -45,3 +45,12 @@
 3. Friends Forever - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
 4. A Day at School - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
 5. Grandma's Interview - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html
+
+# stories-5
+
+1. The Eagle and The Jackdaw - https://read.gov/aesop/036.html
+2. The Wolf, the Kid, and the Goat - https://read.gov/aesop/137.html
+3. The Cat and the Old Rat - https://read.gov/aesop/134.html
+4. The Lark and Her Young Ones - https://read.gov/aesop/133.html
+5. The Bees and Wasps, and the Hornet - https://read.gov/aesop/132.html
+6. The Shepherd and the Lion - https://read.gov/aesop/131.html
