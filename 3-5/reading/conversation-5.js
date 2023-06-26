@@ -203,24 +203,6 @@ John: Absolutely! Friends forever!`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'What talent show are Peter and John talking about?',
-            options: `School talent show
-Community talent show
-National talent show`
-          },
-          {
-            qText: 'What talent is John planning to showcase?',
-            options: `Dancing, Singing, Acting`
-          },
-          {
-            qText: 'What talent is Peter planning to showcase?',
-            options: `Singing, Dancing, Acting`
-          },
-          {
-            qText: `What instrument has Peter been practicing with?`,
-            options: `Guitar, Piano, Drums`
-          },
-          {
             qText: `What is John's reaction to Peter's upcoming performance?`,
             options: `He is excited to see it
 He is nervous about it
@@ -265,11 +247,11 @@ Distant and cold`
       id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
-        text: `Peter and John are excited about the upcoming talent show because it's a great *opportunity* for them to showcase their skills.
-After *practicing* his dance moves, John feels confident about his performance in the talent show.
-The students practiced *playing* their instruments for weeks to prepare for the music concert.
-The audience's response to their performance was *fantastic*. They received a standing ovation.
-The memories of their time together in the talent show will be *unforgettable* and cherished by Peter and John.`
+        text: `Peter and John are *excited* about the upcoming talent show.
+After *practicing* his dance moves, John feels confident.
+The students practiced *playing* their instruments for weeks.
+The audience's response to their performance was *fantastic*.
+The memories of the talent show will be *unforgettable* and *cherished* by Peter and John.`
       }
     },
     {
