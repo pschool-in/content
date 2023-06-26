@@ -112,27 +112,125 @@ export default {
       type: 'denomination',
       id: 'denomination',
       label: 'Write Denomination',
+      commonData: {
+        showImg: true
+      },
       data: [
+        //kg-2
         {
-          showImg: true,
+          format: 'x',
+          denos: [2, 1]
+        },
+        {
+          format: 'x5',
+          denos: [10, 5]
+        },
+        {
+          format: 'x0x',
+          denos: [100, 1]
+        },
+        {
           format: 'xx0',
           denos: [100, 10]
+        },
+        {
+          format: 'x0',
+          denos: [20, 10]
+        },
+        {
+          format: '1x',
+          denos: [5, 2, 1]
+        },
+        //3-5
+        {
+          format: 'aa0',
+          denos: [100, 10]
+        },
+        {
+          format: 'xx',
+          denos: [10, 2, 1]
         },
         {
           format: 'xx5',
           denos: [100, 10, 5]
         },
         {
+          format: 'xx0',
+          denos: [200, 100, 10]
+        },
+        {
+          format: 'xx0',
+          denos: [100, 50, 10]
+        },
+        // 6-8
+        {
+          format: 'xx',
+          denos: [5, 2, 1]
+        },
+        {
+          format: 'xx00',
+          denos: [2000, 100]
+        },
+        {
+          format: 'ax00',
+          denos: [500, 100]
+        },
+        {
+          format: '1xx00',
+          denos: [2000, 500, 100]
+        },
+        {
+          format: 'xxxx',
+          denos: [2000, 100, 10, 1]
+        },
+        {
+          format: 'xxx',
+          denos: [100, 50, 10, 1]
+        },
+        {
+          format: 'xxx',
+          denos: [100, 10, 5, 1]
+        }
+      ]
+    },
+    {
+      type: 'denomination',
+      id: 'denomination-2',
+      label: 'Write Denomination',
+      data: [
+        //3-5
+        {
           format: 'xxx',
           denos: [100, 50, 10, 5, 1]
         },
         {
+          format: 'xxxx',
+          denos: [500, 100, 20, 10, 2, 1]
+        },
+        {
+          format: 'ax0x',
+          denos: [500, 100, 5, 2, 1]
+        },
+        {
           format: 'xxx',
           denos: [500, 100, 50, 20, 10, 5, 1]
         },
+        //6-8
         {
           format: 'xxxx',
           denos: [500, 100, 50, 20, 10, 5, 1]
+        },
+        {
+          format: '1xxx0',
+          denos: [2000, 200, 50, 20, 10]
+        },
+        {
+          format: 'xxxx',
+          denos: [2000, 100, 20, 10, 2, 1]
+        },
+        {
+          format: 'aaaab',
+          denos: [2000, 100, 20, 10, 5, 1]
         }
       ]
     }
