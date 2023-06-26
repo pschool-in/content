@@ -10,12 +10,17 @@ export default {
       style: 'big',
       data: {
         title: 'The Lost Kitten',
-        text: `Emily: Look, Sarah! I found a little kitten outside our gate.
-Sarah: Oh, it's so adorable! But it looks lost. We should find its owner.
-Emily: Yes, let's knock on our neighbors' doors and ask if it belongs to anyone.
-[After knocking on a few doors]
-Neighbor: That's my kitten! Thank you for finding her. She must have slipped out of the house.
-Emily: You're welcome! We're glad we could help.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Emily</b>: Look, Sarah! I found a little kitten outside our gate.<br>
+<b>Sarah</b>: Oh, it's so adorable! But it looks lost. We should find its owner.<br>
+<b>Emily</b>: Yes, let's knock on our neighbors' doors and ask if it belongs to anyone.<br><br>
+[After knocking on a few doors]<br><br>
+<b>Neighbor</b>: That's my kitten! Thank you for finding her. She must have slipped out of the house.<br>
+<b>Emily</b>: You're welcome! We're glad we could help.`
+          }
+        ]
       }
     },
     {
@@ -72,13 +77,18 @@ People who live close to each other.|NEIGHBOR`
       style: 'big',
       data: {
         title: 'The Magic Pencil',
-        text: `Alex: Hey, Lisa! Have you seen my pencil? It's special.
-Lisa: Special? What do you mean?
-Alex: Well, whenever I use it to draw, my drawings come to life!
-Lisa: That's amazing! Can I see it?
-[Alex hands over the pencil]
-Lisa: Wow, look at this flower! It looks so real. Can you draw a horse too?
-Alex: Sure, here you go. Be careful, it might run away!`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Alex</b>: Hey, Lisa! Have you seen my pencil? It's special.<br>
+<b>Lisa</b>: Special? What do you mean?<br>
+<b>Alex</b>: Well, whenever I use it to draw, my drawings come to life!<br>
+<b>Lisa</b>: That's amazing! Can I see it?<br><br>
+[Alex hands over the pencil]<br><br>
+<b>Lisa</b>: Wow, look at this flower! It looks so real. Can you draw a horse too?<br>
+<b>Alex</b>: Sure, here you go. Be careful, it might run away!`
+          }
+        ]
       }
     },
     {
@@ -133,11 +143,16 @@ One of a kind or without equal.|UNIQUE`
       style: 'big',
       data: {
         title: 'The Clever Ant',
-        text: `Mary: Hey, Priya, have you seen the ant hill in the garden?
-Priya: Yes, it's huge! But why is everyone gathering around it?
-Mary: There's an obstacle in their way. They're trying to figure out how to cross it.
-Priya: Oh, look! That ant just climbed on top of the obstacle and made a bridge with its body.
-Mary: Wow, that ant is so clever! The others can now walk across the bridge.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Mary</b>: Hey, Priya, have you seen the ant hill in the garden?<br>
+<b>Priya</b>: Yes, it's huge! But why is everyone gathering around it?<br>
+<b>Mary</b>: There's an obstacle in their way. They're trying to figure out how to cross it.<br>
+<b>Priya</b>: Oh, look! That ant just climbed on top of the obstacle and made a bridge with its body.<br>
+<b>Mary</b>: Wow, that ant is so clever! The others can now walk across the bridge.`
+          }
+        ]
       }
     },
     {
@@ -191,15 +206,20 @@ Quick-witted or intelligent.|CLEVER`
       style: 'big',
       data: {
         title: 'The Magical Forest',
-        text: `Peter: Lily, have you heard about the magical forest behind our school?
-Lily: No, really? What's so magical about it?
-Peter: Legend has it that if you enter the forest and make a wish, it comes true!
-Lily: That's incredible! Let's go and try it out after school.
-[In the forest]
-Lily: I wish for a pet puppy!
-Peter: And I wish for an endless supply of ice cream!
-[Suddenly, a cute puppy appears and an ice cream cart rolls by]
-Lily and Peter: It worked!`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Peter</b>: Lily, have you heard about the magical forest behind our school?<br>
+<b>Lily</b>: No, really? What's so magical about it?<br>
+<b>Peter</b>: Legend has it that if you enter the forest and make a wish, it comes true!<br>
+<b>Lily</b>: That's incredible! Let's go and try it out after school.<br><br>
+[In the forest]<br><br>
+<b>Lily</b>: I wish for a pet puppy!<br>
+<b>Peter</b>: And I wish for an endless supply of ice cream!<br><br>
+[Suddenly, a cute puppy appears and an ice cream cart rolls by]<br><br>
+<b>Lily and Peter</b>: It worked!`
+          }
+        ]
       }
     },
     {
@@ -249,13 +269,18 @@ Under the influence of magic or possessing magical qualities.|ENCHANTED`
       style: 'big',
       data: {
         title: 'The Mystery of the Missing Key',
-        text: `Meera: Mom, have you seen the key to my diary? I can't find it anywhere.
-Mom: I haven't touched it, dear. Did you check your room properly?
-Meera: Yes, I searched everywhere. Maybe it fell out of my bag at school.
-[The next day at school]
-Meera: Hi, Lily. Did you find a key yesterday? It's for my diary.
-Lily: Yes, I did! I found it near the library. I thought it looked important.
-Meera: Thank you so much, Lily. I was worried. Now my diary is safe again.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Meera</b>: Mom, have you seen the key to my diary? I can't find it anywhere.<br>
+<b>Mom</b>: I haven't touched it, dear. Did you check your room properly?<br>
+<b>Meera</b>: Yes, I searched everywhere. Maybe it fell out of my bag at school.<br><br>
+[The next day at school]<br><br>
+<b>Meera</b>: Hi, Lily. Did you find a key yesterday? It's for my diary.<br>
+<b>Lily</b>: Yes, I did! I found it near the library. I thought it looked important.<br>
+<b>Meera</b>: Thank you so much, Lily. I was worried. Now my diary is safe again.`
+          }
+        ]
       }
     },
     {
@@ -295,6 +320,186 @@ Her mom had it all along`
 A place where books are kept for borrowing or reference.|LIBRARY
 Having great value or significance.|IMPORTANT
 Feeling anxious or concerned about something.|WORRIED`
+      }
+    },
+    {
+      id: 'cafeteria',
+      type: 'passage',
+      label: 'At the School Cafeteria:',
+      data: {
+        title: 'At the School Cafeteria:',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Student A</b>: Hi, can I sit here?<br>
+<b>Student B</b>: Of course! This seat is free. What's your name?<br>
+<b>Emma</b>: My name is Emma. What's yours?<br>
+<b>Alex</b>: I'm Alex. Nice to meet you, Emma!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'hobbies',
+      type: 'passage',
+      label: 'Hobbies and Favourites',
+      data: {
+        title: 'Hobbies and Favourites',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Emma</b>: What do you like to do in your free time?<br>
+<b>Alex</b>: I love drawing and painting. What about you?<br>
+<b>Emma</b>: I enjoy playing soccer with my friends. It's a lot of fun!<br><br>
+<b>Emma</b>: What's your favorite animal?<br>
+<b>Alex</b>: I really like dolphins. They're so smart and playful. What about you?<br>
+<b>Emma</b>: I love elephants. They're big and gentle. They're my favorite!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'family',
+      type: 'passage',
+      label: 'Family',
+      data: {
+        title: 'Family',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Emma</b>: How many people are there in your family?<br>
+<b>Alex</b>: In my family, there are four people—my mom, dad, sister, and me. What about you?<br>
+<b>Emma</b>: I have a big family. I live with my parents, two brothers, and my grandparents.<br><br>
+<b>Emma</b>: Which season do you like the most?<br>
+<b>Alex</b>: I love spring because the weather is nice, and flowers bloom. What about you?<br>
+<b>Emma</b>: I enjoy summer because I can go swimming and play outside all day.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'weekend',
+      type: 'passage',
+      label: 'Weekend Plans',
+      data: {
+        title: 'Weekend Plans',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Emma</b>: What are you doing this weekend?<br>
+<b>Alex</b>: I'm going to the park with my family. We'll have a picnic and play games. How about you?<br>
+<b>Emma</b>: I'm going to visit my grandma. We'll bake cookies together and watch a movie.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'playground',
+      type: 'passage',
+      label: 'The School Playground',
+      data: {
+        title: 'The School Playground',
+        text: [
+          {
+            type: 'html',
+            text: `[The school playground on a sunny day.]<br><br>
+<b>Sarah</b>: (running towards Tim) Hi, Tim! Let's play on the swings!<br>
+<b>Tim</b>: Sure, Sarah! I love swinging high!<br>
+<b>Emma</b>: (approaching Sarah and Tim) Hi, guys! Can I join you?<br>
+<b>Sarah</b>: Of course, Emma! We're happy to have you here.<br><br>
+[Children playing on the swings.]<br><br>
+<b>Tim</b>: Look, Sarah! I can go higher than you!<br>
+<b>Sarah</b>: Oh no, you don't! I'll swing higher than anyone!<br>
+<b>Emma</b>: Wow, you guys are amazing! I'll try to swing higher too!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'slides',
+      type: 'passage',
+      label: 'Slide Race',
+      data: {
+        title: 'Slide Race',
+        text: [
+          {
+            type: 'html',
+            text: `[Children playing on the slide.]<br><br>
+<b>Jack</b>: (slyly) Hey, Sarah! Want to see who can slide down the fastest?<br>
+<b>Sarah</b>: (excitedly) Sure, Jack! Let's do it!<br><br>
+[They line up on the slides.]<br><br>
+<b>Jack</b>: Ready... Set... Go!<br><br>
+[They slide down, Sarah wins.]<br><br>
+<b>Sarah</b>: (cheering) I won, Jack! That was so much fun!<br>
+<b>Jack</b>: (grinning) You got me this time, Sarah. Let's play something else! `
+          }
+        ]
+      }
+    },
+    {
+      id: 'teacher',
+      type: 'passage',
+      label: 'Mrs. Johnson',
+      data: {
+        title: 'Mrs. Johnson',
+        text: [
+          {
+            type: 'html',
+            text: `[Children playing on the seesaw.]<br><br>
+<b>Emma</b>: (giggling) I love the seesaw! Who wants to join me?<br>
+<b>Sarah</b>: I'm in, Emma!<br>
+<b>Tim</b>: Count me in too! Let's go!<br><br>
+[They balance on the seesaw, laughing and having fun.]<br>
+[Mrs. Johnson approaches the children.]<br><br>
+<b>Mrs. Johnson</b>: Hi, everyone! Having a great time, I see.<br>
+<b>Sarah</b>: Yes, Mrs. Johnson! We're having a blast!<br>
+<b>Emma</b>: We played on the swings, slid down the slide, and now we're on the seesaw!<br>
+<b>Mrs. Johnson</b>: That's wonderful to hear. Remember to take turns and play safely, okay?<br>
+<b>Tim</b>: Yes, Mrs. Johnson! We'll be careful! `
+          }
+        ]
+      }
+    },
+    {
+      id: 'tag',
+      type: 'passage',
+      label: 'Game of Tag',
+      data: {
+        title: 'Game of Tag',
+        text: [
+          {
+            type: 'html',
+            text: `[Children playing together.]<br><br>
+<b>Sarah</b>: Let's play a game of tag, everyone!<br>       
+<b>Emma</b>: Oh, I love tag! I'll be the first to chase!<br>          
+<b>Jack</b>: (excitedly) Run, run, run!<br><br>    
+[They run around, chasing and laughing.]<br>
+[Playtime ends.]<br><br>
+<b>Sarah</b>: (catching her breath) Phew, that was so much fun!<br>
+<b>Tim</b>: We had a great time, Sarah. Thanks for playing with us, Emma!<br>
+<b>Emma</b>: Thank you both for being such good friends. I had a blast!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'classroom',
+      type: 'passage',
+      label: 'Back to the Classroom',
+      data: {
+        title: 'Back to the Classroom',
+        text: [
+          {
+            type: 'html',
+            text: `[Children walking back to the classroom.]<br><br>
+<b> Mrs. Johnson</b>: I hope you all had a fantastic time at the playground!<br>
+<b>Sarah</b>: Yes, Mrs. Johnson! We played and laughed so much!<br>
+<b>Tim</b>: Emma joined us too. We made a new friend!<br>
+<b>Mrs. Johnson</b>: That's lovely to hear. Remember, recess is a time for fun and friendship.<br>
+<b>Emma</b>: We'll always remember that, Mrs. Johnson!<br><br>
+[Children happily chatting while walking back to the classroom.]`
+          }
+        ]
       }
     }
   ]
