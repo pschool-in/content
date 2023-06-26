@@ -325,9 +325,9 @@ Feeling anxious or concerned about something.|WORRIED`
     {
       id: 'cafeteria',
       type: 'passage',
-      label: 'At the School Cafeteria:',
+      label: 'At the School Cafeteria',
       data: {
-        title: 'At the School Cafeteria:',
+        title: 'At the School Cafeteria',
         text: [
           {
             type: 'html',
