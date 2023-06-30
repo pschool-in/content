@@ -501,6 +501,27 @@ Feeling anxious or concerned about something.|WORRIED`
           }
         ]
       }
+    },
+    {
+      id: 'puzzle',
+      type: 'passage',
+      label: 'Puzzle',
+      data: {
+        title: 'Puzzle',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Mary</b>: "Excuse me, can you help me?"<br>
+<b>Nanny</b>: "Of course! What do you need help with?"<br>
+<b>Mary</b>: "I'm trying to build this puzzle, but I can't figure it out."<br>
+<b>Nanny</b>: "I'd be happy to assist you. Let's take a look at it together. Which piece are you having trouble with?"<br>
+<b>Mary</b>: "It's this corner piece. I don't know where it fits."<br>
+<b>Nanny</b>: "Hmm, let's examine the puzzle picture. Ah, I see where it goes. Right here in the top left corner. Can you find that spot?"<br>
+<b>Mary</b>: "Yes, I found it! Thank you so much!"<br>
+<b>Nanny</b>: "You're welcome. Remember, it's okay to ask for help when you need it. I'm here if you need assistance with anything else."`
+          }
+        ]
+      }
     }
   ]
 };

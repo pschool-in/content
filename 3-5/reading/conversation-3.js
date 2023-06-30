@@ -224,6 +224,104 @@ export default {
           }
         ]
       }
+    },
+    {
+      id: 'chores',
+      type: 'passage',
+      label: 'Chores',
+      data: {
+        title: 'Chores',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Mom</b>: "Alright, it's time to clean up your room, young lady."<br>
+<b>Priya</b>: "Do I have to? It's so boring!"<br>
+<b>Mom</b>: "Yes, you do. We all have responsibilities, and cleaning up after ourselves is one of them."<br>
+<b>Priya</b>: "But can't we do it later? I want to play with my toys!"<br>
+<b>Mom</b>: "I understand you want to play, but it's important to learn to take care of our things. Plus, a clean room will make it easier to find your toys next time."<br>
+<b>Priya</b>: (grumbling) "Fine, I'll clean up, but can we make it fun somehow?"<br>
+<b>Mom</b>: "Sure! We can turn on some music and make it a cleaning dance party!"<br>
+<b>Priya</b>: (excited) "Yay! Let's clean and dance at the same time!"<br>
+<b>Mom</b>: "That's the spirit! Let's get started!"`
+          }
+        ]
+      }
+    },
+    {
+      id: 'rules',
+      type: 'passage',
+      label: 'Rules',
+      data: {
+        title: 'Rules',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Peter</b>: Mom, I don't want to go to bed yet. Can I stay up a little longer? Please?<br>
+<b>Mom</b>: Sweetheart, it's already past your bedtime. You need your rest to grow big and strong.<br>
+<b>Peter</b>: But there's a really cool show on TV, and all my friends get to stay up late!<br>
+<b>Mom</b>: I understand that it seems unfair, but rules are there for a reason. We have to follow a routine to stay healthy and be ready for school tomorrow.<br>
+<b>Peter</b>: Fine, but can I at least have a cookie before bed?<br>
+<b>Mom</b>: No, it's too close to bedtime. We'll have cookies tomorrow as a special treat. Now, off to bed, young man!<br>
+<b>Peter</b>: Alright, but I'll remember this for negotiation next time!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'story',
+      type: 'passage',
+      label: 'Story Time',
+      data: {
+        title: 'Story Time',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Mary</b>: Grandma, can you tell me a story?<br>
+<b>Grandma</b>: Of course, my dear! What kind of story would you like to hear?<br>
+<b>Mary</b>: How about a story about when you were my age?<br>
+<b>Grandma</b>: Well, when I was your age, I loved playing outside with my friends. We would climb trees, build forts, and go on exciting adventures. We didn't have smartphones or tablets back then, but we had so much fun using our imagination. We would play hide-and-seek until the sun went down. Those were such wonderful times, full of laughter and joy.<br>
+<b>Mary</b>: Wow, Grandma! That sounds amazing. I wish I could have been there with you.<br>
+<b>Grandma</b>: I'm glad I can share those memories with you, my dear. Now, let's create our own adventures together!`
+          }
+        ]
+      }
+    },
+    {
+      id: 'wrinkles',
+      type: 'passage',
+      label: 'Wrinkles',
+      data: {
+        title: 'Wrinkles',
+        text: [
+          {
+            type: 'html',
+            text: `<b>Susie</b>: Grandpa, why do you have so many wrinkles on your face?<br>
+<b>Grandpa</b>: Well, my dear, each wrinkle tells a story. They are like lines that show the journey of my life. Some are from laughter and happiness, while others are from moments of worry and concern. Each wrinkle represents a lesson learned or an experience cherished. They are a map of my memories.<br>
+<b>Susie</b>: Can I have wrinkles too, Grandpa?<br>
+<b>Grandpa</b>: Of course, my sweet child. As you grow older, you will have your own set of wrinkles, each unique to you. Embrace them, for they will remind you of a life well-lived and the love you have shared with others.`
+          }
+        ]
+      }
+    },
+    {
+      id: 'lost',
+      type: 'passage',
+      label: 'Lost',
+      data: {
+        title: 'Lost',
+        text: [
+          {
+            type: 'html',
+            text: `<b>John</b>: Excuse me, can you help me? I'm feeling a bit lost and scared.<br>
+<b>Adult</b>: Of course, what's wrong? How can I help you?<br>
+<b>John</b>: I can't find my mom. We were at the park, and then I turned around, and she was gone.<br>
+<b>Adult</b>: Oh no, I understand how you must be feeling. Let's stay calm and look for her together. Can you remember any landmarks or what she was wearing?<br>
+<b>John</b>: She was wearing a red jacket, and we were near the big tree. I remember seeing a tall slide too.<br>
+<b>Adult</b>: Okay, let's go back to that tree and look around. We'll find your mom, don't worry. Stay close to me, and we'll ask for help if needed.<br>
+<b>John</b>: Thank you, uncle. I feel a little better now knowing you're here to help me.`
+          }
+        ]
+      }
     }
   ]
 };
