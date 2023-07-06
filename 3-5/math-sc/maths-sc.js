@@ -226,7 +226,7 @@ export default {
       grade: '6-8'
     },
     {
-      id: 'money-sc',
+      id: 'money-2',
       label: 'Money for Kids',
       img: 'money',
       grade: '0-2'
@@ -235,7 +235,13 @@ export default {
       id: 'money',
       label: 'Money',
       img: 'money',
-      grade: '3-8'
+      grade: '3-5'
+    },
+    {
+      id: 'money',
+      label: 'Money',
+      img: 'money',
+      grade: '6-8'
     },
     {
       id: 'information-3',

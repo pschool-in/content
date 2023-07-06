@@ -408,25 +408,33 @@ export default {
       ]
     },
     {
+      //from money
       type: 'denomination',
       id: 'denomination',
       label: 'Write Denomination',
+      commonData: {
+        showImg: true
+      },
       data: [
+        {
+          format: 'aa0',
+          denos: [100, 10]
+        },
+        {
+          format: 'xx',
+          denos: [10, 2, 1]
+        },
         {
           format: 'xx5',
           denos: [100, 10, 5]
         },
         {
-          format: 'xxx',
-          denos: [100, 50, 10, 5, 1]
+          format: 'xx0',
+          denos: [200, 100, 10]
         },
         {
-          format: 'xxx',
-          denos: [500, 100, 50, 20, 10, 5, 1]
-        },
-        {
-          format: 'xxxx',
-          denos: [500, 100, 50, 20, 10, 5, 1]
+          format: 'xx0',
+          denos: [100, 50, 10]
         }
       ]
     },

@@ -1,61 +1,104 @@
 export default {
-  label: 'Money',
-  id: 'money-sc',
+  label: 'Money - 2',
+  id: 'money-2',
   list: [
     {
-      type: 'denomination',
-      id: 'denomination',
-      label: 'Write Denomination',
+      type: 'counter',
+      id: 'count',
+      label: 'Count Money',
+      commonData: {
+        title: 'Count the total money.'
+      },
       data: [
+        //kg-2 - level 1
         {
-          format: 'x',
-          denos: [5, 1],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [1],
+          arr: [2, 5, 3, 6, 4, 8, 10, 7]
         },
         {
-          format: 'x',
-          denos: [5, 2, 1],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [2],
+          arr: [1, 3, 6, 4, 2, 5, 8, 10, 7]
         },
         {
-          format: 'x0',
-          denos: [50, 10],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [5],
+          arr: [2, 1, 5, 3, 6, 4, 7, 10, 9]
         },
         {
-          format: 'x0',
-          denos: [50, 5],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [10],
+          arr: [3, 2, 1, 6, 5, 4, 7, 10, 9]
         },
         {
-          format: 'x0',
-          denos: [20, 10],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [100],
+          arr: [2, 1, 5, 3, 6, 4, 9, 10, 7]
+        }
+      ]
+    },
+    {
+      type: 'counter',
+      id: 'count-2',
+      label: 'Count Money - 2',
+      commonData: {
+        title: 'Count the total money.'
+      },
+      data: [
+        //kg-2 - level 2
+        {
+          width: 80,
+          type: 'money',
+          rs: [2, 1],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
         },
         {
-          format: 'x0',
-          denos: [20, 5],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [5, 1],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
         },
         {
-          format: 'xx',
-          denos: [10, 1],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [1, 10],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
         },
         {
-          format: 'xx',
-          denos: [20, 5, 1],
-          count: 5
-        },
-        {
-          format: 'xx',
-          denos: [10, 5, 1],
-          count: 5
-        },
-        {
-          format: 'xx',
-          denos: [50, 10, 5, 2, 1],
-          count: 5
+          width: 80,
+          type: 'money',
+          rs: [100, 10],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
         }
       ]
     },
@@ -263,6 +306,80 @@ Price | Money Paid | Balance
 3 bananas = ₹ ?5
 28, 35, 42, 56, 63, 21`
           ]
+        }
+      ]
+    },
+    {
+      type: 'denomination',
+      id: 'denomination',
+      label: 'Write the Denomination',
+      commonData: {
+        showImg: true
+      },
+      data: [
+        {
+          format: 'x',
+          denos: [2, 1]
+        },
+        {
+          format: 'x5',
+          denos: [10, 5]
+        },
+        {
+          format: 'x0x',
+          denos: [100, 1]
+        },
+        {
+          format: 'xx0',
+          denos: [100, 10]
+        },
+        {
+          format: 'x0',
+          denos: [20, 10]
+        },
+        {
+          format: '1x',
+          denos: [5, 2, 1]
+        }
+      ]
+    },
+    {
+      //repeat of showcase
+      type: 'denomination',
+      id: 'calulate',
+      label: 'Calculate the total Money',
+      commonData: {
+        showImg: true,
+        calculateMoney: true
+      },
+      data: [
+        {
+          format: 'a',
+          denos: [2, 1]
+        },
+        {
+          format: 'a',
+          denos: [10, 5]
+        },
+        {
+          format: 'a',
+          denos: [100, 1]
+        },
+        {
+          format: 'a',
+          denos: [100, 10]
+        },
+        {
+          format: 'a',
+          denos: [20, 10]
+        },
+        {
+          format: 'a',
+          denos: [5, 2, 1]
+        },
+        {
+          format: 'a',
+          denos: [100, 10]
         }
       ]
     }

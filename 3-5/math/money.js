@@ -3,6 +3,83 @@ export default {
   id: 'money',
   list: [
     {
+      type: 'counter',
+      id: 'count',
+      label: 'Count the Total Money',
+      commonData: {
+        title: 'Count the total money.'
+      },
+      data: [
+        // 3-5 - level 1
+        {
+          width: 80,
+          type: 'money',
+          rs: [20],
+          arr: [3, 2, 1, 6, 5, 4, 7, 10, 9]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [50],
+          arr: [2, 1, 5, 3, 6, 4, 9, 10, 7]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [200],
+          arr: [3, 2, 1, 6, 5, 4, 7, 10, 9]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [500],
+          arr: [2, 1, 5, 3, 6, 4, 9, 10, 7]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [2000],
+          arr: [2, 1, 5, 3, 6, 4, 9, 10, 7]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [5, 2],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [5, 2, 1],
+          arr: [
+            [3, 4, 5],
+            [2, 3, 2],
+            [2, 5, 1],
+            [4, 2, 2],
+            [5, 3, 4]
+          ]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [20, 10],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        }
+      ]
+    },
+    {
       label: 'Simple Word Problems',
       type: 'mcq',
       id: 'word-problem',
@@ -109,6 +186,7 @@ export default {
       ]
     },
     {
+      //present in showcase
       type: 'denomination',
       id: 'denomination',
       label: 'Write Denomination',
@@ -116,32 +194,6 @@ export default {
         showImg: true
       },
       data: [
-        //kg-2
-        {
-          format: 'x',
-          denos: [2, 1]
-        },
-        {
-          format: 'x5',
-          denos: [10, 5]
-        },
-        {
-          format: 'x0x',
-          denos: [100, 1]
-        },
-        {
-          format: 'xx0',
-          denos: [100, 10]
-        },
-        {
-          format: 'x0',
-          denos: [20, 10]
-        },
-        {
-          format: '1x',
-          denos: [5, 2, 1]
-        },
-        //3-5
         {
           format: 'aa0',
           denos: [100, 10]
@@ -161,35 +213,77 @@ export default {
         {
           format: 'xx0',
           denos: [100, 50, 10]
-        },
-        // 6-8
+        }
+      ]
+    },
+    {
+      type: 'denomination',
+      id: 'denomination',
+      label: 'Calculate the total Money',
+      commonData: {
+        showImg: true,
+        calculateMoney: true
+      },
+      data: [
         {
-          format: 'xx',
+          format: 'a',
+          denos: [10, 2, 1]
+        },
+        {
+          format: 'a',
+          denos: [100, 10, 5]
+        },
+        {
+          format: 'a',
+          denos: [200, 100, 10]
+        },
+        {
+          format: 'a',
+          denos: [100, 50, 10]
+        },
+        {
+          format: 'b',
+          denos: [2, 1]
+        },
+        {
+          format: 'b',
+          denos: [10, 5]
+        },
+        {
+          format: 'b',
+          denos: [100, 1]
+        },
+        {
+          format: 'b',
+          denos: [100, 10]
+        },
+        {
+          format: 'b',
+          denos: [20, 10]
+        },
+        {
+          format: 'b',
           denos: [5, 2, 1]
         },
         {
-          format: 'xx00',
-          denos: [2000, 100]
+          format: 'b',
+          denos: [100, 10]
         },
         {
-          format: 'ax00',
-          denos: [500, 100]
+          format: 'b',
+          denos: [10, 2, 1]
         },
         {
-          format: '1xx00',
-          denos: [2000, 500, 100]
+          format: 'b',
+          denos: [100, 10, 5]
         },
         {
-          format: 'xxxx',
-          denos: [2000, 100, 10, 1]
+          format: 'b',
+          denos: [200, 100, 10]
         },
         {
-          format: 'xxx',
-          denos: [100, 50, 10, 1]
-        },
-        {
-          format: 'xxx',
-          denos: [100, 10, 5, 1]
+          format: 'b',
+          denos: [100, 50, 10]
         }
       ]
     },
@@ -198,7 +292,6 @@ export default {
       id: 'denomination-2',
       label: 'Write Denomination',
       data: [
-        //3-5
         {
           format: 'xxx',
           denos: [100, 50, 10, 5, 1]
@@ -214,25 +307,69 @@ export default {
         {
           format: 'xxx',
           denos: [500, 100, 50, 20, 10, 5, 1]
-        },
-        //6-8
+        }
+      ]
+    },
+
+    {
+      type: 'denomination',
+      id: 'calculate-2',
+      label: 'Calculate the total Money',
+      commonData: {
+        calculateMoney: true
+      },
+      data: [
+        //3-5
         {
-          format: 'xxxx',
+          format: 'a',
+          denos: [100, 50, 10, 5, 1]
+        },
+        {
+          format: 'a',
+          denos: [500, 100, 20, 10, 2, 1]
+        },
+        {
+          format: 'a',
+          denos: [500, 100, 5, 2, 1]
+        },
+        {
+          format: 'a',
           denos: [500, 100, 50, 20, 10, 5, 1]
         },
         {
-          format: '1xxx0',
-          denos: [2000, 200, 50, 20, 10]
+          format: 'x',
+          denos: [100, 50, 10, 5, 1]
         },
         {
-          format: 'xxxx',
-          denos: [2000, 100, 20, 10, 2, 1]
+          format: 'x',
+          denos: [500, 100, 20, 10, 2, 1]
         },
         {
-          format: 'aaaab',
-          denos: [2000, 100, 20, 10, 5, 1]
+          format: 'x',
+          denos: [500, 100, 5, 2, 1]
+        },
+        {
+          format: 'x',
+          denos: [500, 100, 50, 20, 10, 5, 1]
         }
+        //6-8
       ]
+    },
+    {
+      //activity book - g4
+      type: 'numberInput',
+      id: 'word-problem',
+      label: 'Word Problems',
+      data: {
+        type: 'word-problem',
+        title: 'Word Problems',
+        fontSize: '1.5rem',
+        text: `Cost of 2 pairs of socks is ₹ 60. What is the cost of 1 pair of socks? | 30
+        Cost of 6 tooth brushes is ₹ 180. What is the cost of 1 tooth brush? | 30
+        Cost of 4 pizza is ₹ 840. What is the cost of 1 pizza? | 410
+        Cost of 9 cricket balls is ₹ 810. What is the cost of 1 cricket ball? | 90
+        Cost of 4 shirts is ₹ 4096. What is the cost of 1 shirt? | 1024`
+      }
     }
   ]
 };

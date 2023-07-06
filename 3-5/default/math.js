@@ -71,6 +71,46 @@ const math = {
       ]
     },
     {
+      //from money-2
+      type: 'denomination',
+      id: 'calulate',
+      label: 'Calculate the total Money',
+      commonData: {
+        showImg: true,
+        calculateMoney: true
+      },
+      data: [
+        {
+          format: 'a',
+          denos: [2, 1]
+        },
+        {
+          format: 'a',
+          denos: [10, 5]
+        },
+        {
+          format: 'a',
+          denos: [100, 1]
+        },
+        {
+          format: 'a',
+          denos: [100, 10]
+        },
+        {
+          format: 'a',
+          denos: [20, 10]
+        },
+        {
+          format: 'a',
+          denos: [5, 2, 1]
+        },
+        {
+          format: 'a',
+          denos: [100, 10]
+        }
+      ]
+    },
+    {
       type: 'quickArithmetic',
       id: 'addition',
       label: 'Addition',

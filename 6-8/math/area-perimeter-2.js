@@ -23,7 +23,7 @@ export default {
               texts: [{ str: '10.5 m', x: 99, y: 26 }]
             },
             text: `Perimeter = ?0 m 
-  42`
+42`
           },
           {
             svg: {
@@ -36,7 +36,7 @@ export default {
               texts: [{ str: '7.5 m', x: 185, y: 100, rot: 65 }]
             },
             text: `Perimeter = ?0 m 
-  30`
+30`
           },
           {
             svg: {
@@ -52,7 +52,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 m 
-  32`
+32`
           },
           {
             svg: {
@@ -68,7 +68,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  28`
+28`
           },
           {
             svg: {
@@ -81,7 +81,7 @@ export default {
               texts: [{ str: '5.25 m', x: 35, y: 40, rot: 325 }]
             },
             text: `Perimeter = ?0 m 
-  21`
+21`
           },
           {
             svg: {
@@ -97,7 +97,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 m 
-  22`
+22`
           },
           {
             svg: {
@@ -113,7 +113,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 m 
-  19`
+19`
           },
           {
             svg: {
@@ -129,7 +129,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 m 
-  38`
+38`
           }
         ]
       }
@@ -155,9 +155,9 @@ export default {
               texts: [{ str: '5 m', x: 198, y: 70, rot: 71 }]
             },
             text: `No. of sides at the boundary = ?0
-            Length of each side = ?1 m
-            Perimeter = ?2 m
-            8, 5, 40`
+Length of each side = ?1 m
+Perimeter = ?2 m
+8, 5, 40`
           },
           {
             title:
@@ -170,9 +170,9 @@ export default {
               ]
             },
             text: `No. of sides at the boundary = ?0
-            Length of each side = ?1 cm
-            Perimeter = ?2 cm
-            10, 6, 60`
+Length of each side = ?1 cm
+Perimeter = ?2 cm
+10, 6, 60`
           },
           {
             title:
@@ -185,9 +185,9 @@ export default {
               ]
             },
             text: `No. of sides at the boundary = ?0
-            Length of each side = ?1 cm
-            Perimeter = ?2 cm
-            12, 4, 48`
+Length of each side = ?1 cm
+Perimeter = ?2 cm
+12, 4, 48`
           },
           {
             title:
@@ -200,9 +200,9 @@ export default {
               ]
             },
             text: `No. of sides at the boundary = ?0
-            Length of each side = ?1 cm
-            Perimeter = ?2 cm
-            8, 8, 64`
+Length of each side = ?1 cm
+Perimeter = ?2 cm
+8, 8, 64`
           },
           {
             title:
@@ -215,9 +215,9 @@ export default {
               ]
             },
             text: `No. of sides at the boundary = ?0
-            Length of each side = ?1 cm
-            Perimeter = ?2 cm
-            7, 6, 42`
+Length of each side = ?1 cm
+Perimeter = ?2 cm
+7, 6, 42`
           },
           {
             title:
@@ -232,13 +232,13 @@ export default {
               ]
             },
             text: `For the first figure,
-            No. of small square sides at the boundary = ?0
-            For the second figure,
-            No. of small square sides at the boundary = ?1
-            Difference in the no. of sides = ?2
-            Length of each side = ?3 cm
-            Difference in perimeter = ?4 cm
-            16, 10, 6, 2, 12`
+No. of small square sides at the boundary = ?0
+For the second figure,
+No. of small square sides at the boundary = ?1
+Difference in the no. of sides = ?2
+Length of each side = ?3 cm
+Difference in perimeter = ?4 cm
+16, 10, 6, 2, 12`
           },
           {
             title:
@@ -254,13 +254,13 @@ export default {
               ]
             },
             text: `For the first figure,
-            No. of small square sides at the boundary = ?0
-            For the second figure,
-            No. of small square sides at the boundary = ?1
-            Difference in the no. of sides = ?2
-            Length of each side = ?3 cm
-            Difference in perimeter = ?4 cm
-            16, 16, 0, 4, 0`
+No. of small square sides at the boundary = ?0
+For the second figure,
+No. of small square sides at the boundary = ?1
+Difference in the no. of sides = ?2
+Length of each side = ?3 cm
+Difference in perimeter = ?4 cm
+16, 16, 0, 4, 0`
           }
         ]
       }
@@ -275,9 +275,9 @@ export default {
           {
             qText: 'Perimeter of a regular pentagon = ',
             options: `5 x Length of a side
-            6 x Length of a side
-            4 x Length of a side
-            3 x Length of a side`
+6 x Length of a side
+4 x Length of a side
+3 x Length of a side`
           },
           {
             qText:
@@ -312,8 +312,8 @@ export default {
               ]
             },
             text: `Area = ?0 sq km
-            Perimeter = ?1 km
-            150, 60`
+Perimeter = ?1 km
+150, 60`
           }
         ]
       }
@@ -328,28 +328,167 @@ export default {
           {
             name: 'Perimeter',
             text: `Kumar is planning to put a fence around his garden with a wire. How much wire does he need to buy?
-            Priya ran one round on the jogging track around a park. Find the distance she ran.
-            Priya is colouring the border of a rangoli before her house. How long is the border?`
+Priya ran one round on the jogging track around a park. Find the distance she ran.
+Priya is colouring the border of a rangoli before her house. How long is the border?`
           },
           {
             name: 'Area',
             text: `David is measuring the floor in his drawing room to cover it with a carpet. How much square feet of carpet does he require?
-            Priya needs to plant her garden with rose plants covering a rectangle of sides 5 m and 7 m. She should leave a space of 1 m between each plant. Find the number of plants she can plant.`
+Priya needs to plant her garden with rose plants covering a rectangle of sides 5 m and 7 m. She should leave a space of 1 m between each plant. Find the number of plants she can plant.`
           }
         ]
       }
     },
 
+   
+
+    /*
     {
-      type: 'missingWorkout',
-      id: 'addition-missingworkout',
-      label: 'Complete the Problem',
+      //activity book
+      type: 'numberInput',
+      id: 'convert-paise',
+      label: 'Convert Money',
+      data: {
+        type: 'word-problem',
+        title: 'Round the given amounts to the nearest rupees',
+        fontSize: '1.5rem',
+        text: `6.40, 3.80, 4.90, 5.10, 2.60, 7.70, 1.20, 8.30, 35.10, 28.90, 67.40, 94.20, 64.80, 51.30, 49.70, 117.40, 437.20, 629.60, 358.30, 246.90` //activity book - page 5
+        `36.30 + 57.21
+        59.05 + 94.45
+        81.25 + 33.28
+        83.69 + 43.29
+        21.48 + 42.27` // activity book - page 11
+        `52.45 - 38.14
+        95.42 - 74.63
+        87.37 - 18.29
+        69.05 - 34.10
+        55.34 - 26.27
+        85.04 - 68.52``506.44 + 16.34 + 22.84
+        352.96 + 550.00 + 56.76
+        41.14 + 36.56 + 95.15
+        96.56 + 53.60 + 11.05
+        770.00 + 511.05 + 85.67
+        632.54 + 264.84 + 139.16`
+      }
+    },
+    */
+    {
+      type: 'makeSentence',
+      label: 'Numbers to Number Names',
+      id: 'convert-names',
+      commonData: {
+        title: 'Convert the given number to number name.',
+        fontSize: '2rem',
+        extras: 'one five seven nine forty eighty hundred thousand'
+      },
       data: [
-        { pattern: 'aa.x0 + aa.x0', missingRow: [2] },
-        { pattern: 'bb - aa', missingRow: [2] },
-        { pattern: 'xx + 1x', missingRow: [2] },
-        { pattern: 'bx - 1x', missingRow: [2] },
-        { pattern: 'bb + aa', missingRow: [2] }
+        `3010 |  three thousand and ten
+955 | nine hundred and fify five
+543 | five hundred and forty three
+1111 | one thousand one hundred and eleven
+2222 | two thousand two hundred and twenty two`,
+
+        `4343 | four thousand three hundred and forty three
+9509 | nine thousand five hundred and nine
+8305 | eight thousand three hundred and five
+7105 | seven thousand one hundred and five
+3999 | three thousand nine hundred and ninety nine`,
+
+        `14014 | fourteen thousand and forteen
+19034 | nineteen thousand and thirty four
+64340 | sixty four thousand three hundred and forty
+99999 | ninety nine thousand nine hundred and ninety nine 
+30303 | thirty thousand three hundred and three`,
+
+        `67,00,300 | sixty seven lakhs and three hundred
+53,04,050 | fifty three lakhs four thousand and fifty
+7,23,000 | seven lakh and twenty three thousand
+75,25,772 | seventy five lakhs twenty five thousand seven hundred and seventy two
+50,25,125 | fifty lakhs twenty five thousand one hundred and twenty five`,
+
+        `75,45,325 | seventy five lakhs forty five thousand three hundred and twenty five
+43,43,403 | forty three lakhs forty three thousand four hundred and three
+95,33,200 | ninety five lakhs thirty three thousand and two hundred
+23,45,320 | twenty three lakhs forty five thousand three hundred and twenty
+32,99,099 | thirty two lakhs ninety nine thousand and ninety nine`,
+
+        `4,25,00,000 | four crores and twenty five lakhs
+8,32,23,000 | eight crores thirty two lakhs and twenty three thousand
+2,00,50,000 | two crores and fifty thousand
+7,05,04,000 | seven crores five lakhs and four thousand
+32,40,00,500 | thirty two crores forty lakhs and five hundred.`
+      ]
+    },
+    {
+      type: 'counter',
+      id: 'count',
+      label: 'Count Objects',
+      data: {
+        type: 'linear',
+        level: 2
+        // width: 100,
+      }
+    },
+
+    {
+      type: 'counter',
+      id: 'count',
+      label: 'Count Objects',
+      data: [
+        {
+          width: 100,
+          type: 'money',
+          rs: [2000],
+          arr: [2, 5, 3, 6, 4, 8, 10, 7]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [20, 10],
+          arr: [
+            [2, 5],
+            [4, 2],
+            [5, 3],
+            [3, 4],
+            [2, 3]
+          ]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [2, 1],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [20, 10],
+          arr: [
+            [2, 5],
+            [4, 2],
+            [5, 3],
+            [3, 4],
+            [2, 3]
+          ]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [10, 5],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        }
       ]
     }
   ]
