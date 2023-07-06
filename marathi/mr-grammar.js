@@ -1,6 +1,6 @@
 export default {
   label: 'Grammar',
-  id: 'bn-grammar',
+  id: 'mr-grammar',
   img: 'langGrammar',
   list: []
 };

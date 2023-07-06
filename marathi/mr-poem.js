@@ -1,6 +1,6 @@
 export default {
   label: 'Poems',
-  id: 'mr-reading',
+  id: 'mr-poem',
   img: 'reading',
   list: [
     {

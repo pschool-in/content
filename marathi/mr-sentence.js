@@ -1,6 +1,6 @@
 export default {
   label: 'Sentence',
-  id: 'bn-sentence',
+  id: 'mr-sentence',
   img: 'sentence',
   list: []
 };

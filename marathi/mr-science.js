@@ -155,6 +155,7 @@ export default {
         ]
       }
     },
+    /*
     {
       id: 'water-cyle',
       label: 'जल - चक्र',
@@ -190,6 +191,7 @@ export default {
         ]
       }
     },
+    */
     {
       type: 'dragDropImgLabel',
       label: 'अवयव ओळखा ',
@@ -204,7 +206,7 @@ lungs | फुफ्फुसे
 stomach | पोट`
       }
     },
-    {
+    /*  {
       id: 'flower',
       label: 'फुलांचे भाग',
       type: 'dragAndDrop',
@@ -258,7 +260,7 @@ stomach | पोट`
           }
         ]
       }
-    },
+    }, */
     {
       type: 'dragAndDrop',
       id: 'rainbow',
