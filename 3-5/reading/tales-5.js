@@ -1,6 +1,6 @@
 export default {
   label: 'Bedtime Stories',
-  id: 'stories-5',
+  id: 'tales-5',
   pdf: 'stories.pdf',
   lockAfter: 3,
   list: [

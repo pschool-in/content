@@ -38,6 +38,42 @@
 4. Vulture - https://www.synctechlearn.com/2021/10/10-lines-on-vulture-in-english.html
 5. Parrot - https://www.vedantu.com/english/parrot-essay
 
+# conversation-3
+
+1. Ranger Rick - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+2. Day out with Mommy - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+3. Superheroes - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+4. Game Time - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+5. The Monkey that went to School - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+6. Monkey Circus - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+7. Superpowers - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+8. Bobby - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+9. Dream - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+10. Memories - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+11. Chores - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+12. Rules - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+13. Story Time - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+14. Wrinkles - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+15. Lost - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-3
+
+# conservation-4
+
+1. Grammar Class - https://performdigi.com/dialogue-writing-in-english/
+2. Career - https://performdigi.com/dialogue-writing-in-english/
+3. Ticket Reservation - https://performdigi.com/dialogue-writing-in-english/
+4. At the Gift Shop - https://performdigi.com/dialogue-writing-in-english/
+5. Educational Loan - https://performdigi.com/dialogue-writing-in-english/
+6. Train Ride - https://performdigi.com/dialogue-writing-in-english/
+7. At the Hospital - https://performdigi.com/dialogue-writing-in-english/
+8. At the Principal's Office - https://performdigi.com/dialogue-writing-in-english/
+9. Cat and Dog - https://performdigi.com/dialogue-writing-in-english/
+10. Coach - https://performdigi.com/dialogue-writing-in-english/
+11. Dream - https://performdigi.com/dialogue-writing-in-english/
+12. Importance of Sports - https://performdigi.com/dialogue-writing-in-english/
+13. A Day at the Park - https://performdigi.com/dialogue-writing-in-english/
+14. Parent-Teacher Meeting - https://performdigi.com/dialogue-writing-in-english/
+15. Meeting an Old Friend - https://performdigi.com/dialogue-writing-in-english/
+
 # conversation-5
 
 1. Hobbies - https://helenadailyenglish.com/basic-english-conversation-100-daily-topics-2.html

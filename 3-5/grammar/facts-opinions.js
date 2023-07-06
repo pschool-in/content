@@ -124,6 +124,94 @@ I think Sheep are not smart animals.
 Math is an easier subject than English.
 Animals should not be kept in a zoo.
 I think your handwriting is not legible.`
+        ],
+        [
+          `The Earth orbits around the Sun.
+Water boils at 100 degrees Celsius at sea level.
+The capital of France is Paris.
+The human body is composed of billions of cells.
+The Great Wall of China is visible from space.`,
+
+          `Biriyani is the most delicious food.
+The Beatles were the greatest band of all time.
+Summer is the best season.
+Action movies are more exciting than romantic comedies.
+Blue is the prettiest color.`
+        ],
+        [
+          `Oxygen is necessary for human survival.
+The Titanic sank on April 15, 1912.
+The speed of light in a vacuum is approximately 299,792 kilometers per second.
+The chemical formula for water is H2O.
+The Earth's atmosphere is composed primarily of nitrogen and oxygen.`,
+
+          `Traveling is a fulfilling and enriching experience.
+The internet has revolutionized the way we communicate.
+Exercise is essential for maintaining good health.
+Books are better than movies because they stimulate the imagination.
+The government should prioritize environmental protection.`
+        ]
+      ]
+    },
+    {
+      type: 'classifySentence',
+      label: 'Moods',
+      id: 'happy-sad-angry-excited',
+      lockAfter: 1,
+      commonData: {
+        title: 'Classify the below sentences based on the mood of the speaker',
+        types: ['Happy', 'Sad', 'Angry', 'Excited']
+      },
+      data: [
+        [
+          `I just got a promotion at work!
+Today is my birthday, and I feel so loved.`,
+          `I lost my beloved pet today. I miss them deeply.
+The news of the tragedy broke my heart.`,
+          `I can't believe someone stole my bike!
+This terrible customer service is making me furious.`,
+          `I'm thrilled about the upcoming concert of my favorite band.
+I got admission to my dream school! I'm ecstatic!`
+        ],
+        [
+          `I won the lottery! I can't believe it!
+I aced my exams! Time to celebrate!`,
+          `I failed my driving test. I'm so disappointed.
+I had an argument with my best friend, and it's making me sad.`,
+          `That person cut me off in the queue. How rude!
+I'm angry at myself for making such a foolish mistake.`,
+          `I'm so excited to start my new job next week.
+The new movie trailer looks amazing! I can't wait to see it.`
+        ],
+        [
+          `The sun is shining, and it's such a beautiful day.
+My best friend is coming to visit me this weekend.`,
+          `The ending of that movie was really sad.
+I'm feeling lonely tonight. I miss my family.`,
+          `The unfairness of the situation is making me really angry.
+I'm frustrated with the slow progress on this project.`,
+          `I won a trip to an exotic island! I'm jumping with joy!
+The roller coaster ride was exhilarating! I loved it.`
+        ],
+        [
+          `I received an unexpected gift from a dear friend.
+I'm going on vacation to my dream destination.`,
+          `The farewell party made me realize how much I'll miss everyone.
+I received a rejection letter from the job I really wanted.`,
+          `The constant noise from my neighbors is driving me crazy.
+I'm fed up with people who don't keep their promises.`,
+          `I just got tickets to watch the Bruno Mars concert! I'm bursting with happiness.
+I'm excited to meet my friends for a fun night out.`
+        ],
+        [
+          `My favorite team won the championship!
+I just finished reading an incredible book.`,
+          `The loss of a loved one is a difficult thing to cope with.
+Seeing others in pain makes me feel sad.`,
+          `The way he treated her was absolutely unacceptable.
+I'm outraged by the corruption in our government.`,
+          `The anticipation of my vacation is making me so excited.
+I'm enthusiastic about the new project I'm working on.`
         ]
       ]
     }

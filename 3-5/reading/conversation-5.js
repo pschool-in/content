@@ -10,19 +10,24 @@ export default {
       style: 'big',
       data: {
         title: 'Hobbies',
-        text: `Teacher: Good morning, class!
-Students: Good morning, teacher!
-Teacher: How are you all doing today?
-Students: We're doing well, thank you!
-Teacher: That's great to hear. Today, let's talk about our favorite hobbies. Can each of you share what you enjoy doing in your free time?
-Ravi: I like playing football. I often play with my friends in the park.
-Teacher: That sounds like a fun hobby, and it's a great way to stay active. Who else would like to share?
-Veena: I enjoy painting and drawing. I spend a lot of time creating colorful pictures.
-Teacher: Wonderful! Artistic hobbies like painting can be very relaxing and help you express your creativity. Anyone else?
-Sara: I love reading books. Whenever I have free time, I like to dive into different stories and adventures.
-Teacher: Reading is an excellent hobby. It allows you to explore new worlds and learn new things. Does anyone else have a favorite hobby to share?
-Abdul: I enjoy playing the piano. I take lessons and practice regularly. It's challenging but also rewarding.s
-Teacher: That's impressive! Playing a musical instrument can bring joy to both the player and those who listen. Thank you all for sharing your hobbies.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Teacher</b>: Good morning, class!<br>
+<b>Students</b>: Good morning, teacher!<br>
+<b>Teacher</b>: How are you all doing today?<br>
+<b>Students</b>: We're doing well, thank you!<br>
+<b>Teacher</b>: That's great to hear. Today, let's talk about our favorite hobbies. Can each of you share what you enjoy doing in your free time?<br>
+<b>Ravi</b>: I like playing football. I often play with my friends in the park.<br>
+<b>Teacher</b>: That sounds like a fun hobby, and it's a great way to stay active. Who else would like to share?<br>
+<b>Veena</b>: I enjoy painting and drawing. I spend a lot of time creating colorful pictures.<br>
+<b>Teacher</b>: Wonderful! Artistic hobbies like painting can be very relaxing and help you express your creativity. Anyone else?<br>
+<b>Sara</b>: I love reading books. Whenever I have free time, I like to dive into different stories and adventures.<br>
+<b>Teacher</b>: Reading is an excellent hobby. It allows you to explore new worlds and learn new things. Does anyone else have a favorite hobby to share?<br>
+<b>Abdul</b>: I enjoy playing the piano. I take lessons and practice regularly. It's challenging but also rewarding.<br>
+<b>Teacher</b>: That's impressive! Playing a musical instrument can bring joy to both the player and those who listen. Thank you all for sharing your hobbies.`
+          }
+        ]
       }
     },
     {
@@ -99,18 +104,23 @@ I have needles and yarn, and stitches to sew. Creating scarves and sweaters, war
       style: 'big',
       data: {
         title: 'Catching Up',
-        text: `Peter: Hey there! How was your day at school?
-John: Hi! It was good. We had a really fun math game today. How about you?
-Peter: Oh, that sounds interesting! My day was great too. We had an art class and painted some beautiful landscapes.
-John: That's awesome! I love art. What colors did you use?
-Peter: I used lots of different colors like green, blue, and yellow to create a sunny scene. It was so much fun!
-John: Wow, I bet it looks amazing! I can't wait to see it. By the way, have you finished reading the new storybook our teacher gave us?
-Peter: Not yet, but I started reading it yesterday. It's about a magical adventure with talking animals. I'm really enjoying it so far.
-John: That sounds like a fantastic book! I'll make sure to finish it too, so we can discuss it later. 
-Peter: Definitely! I can't wait to hear your thoughts. By the way, did you practice for the upcoming school play?
-John: Yes, I did! I have my lines memorized, and we had a rehearsal today. It's going to be so much fun performing on stage!
-Peter: That's great! I can't wait to watch you perform. You'll do an amazing job, I'm sure.
-John: Thanks for the encouragement! I'm a little nervous, but I'm also excited. We've been working hard to make it a great show.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Peter</b>: Hey there! How was your day at school?<br>
+<b>John</b>: Hi! It was good. We had a really fun math game today. How about you?<br>
+<b>Peter</b>: Oh, that sounds interesting! My day was great too. We had an art class and painted some beautiful landscapes.<br>
+<b>John</b>: That's awesome! I love art. What colors did you use?<br>
+<b>Peter</b>: I used lots of different colors like green, blue, and yellow to create a sunny scene. It was so much fun!<br>
+<b>John</b>: Wow, I bet it looks amazing! I can't wait to see it. By the way, have you finished reading the new storybook our teacher gave us?<br>
+<b>Peter</b>: Not yet, but I started reading it yesterday. It's about a magical adventure with talking animals. I'm really enjoying it so far.<br>
+<b>John</b>: That sounds like a fantastic book! I'll make sure to finish it too, so we can discuss it later.<br>
+<b>Peter</b>: Definitely! I can't wait to hear your thoughts. By the way, did you practice for the upcoming school play?<br>
+<b>John</b>: Yes, I did! I have my lines memorized, and we had a rehearsal today. It's going to be so much fun performing on stage!<br>
+<b>Peter</b>: That's great! I can't wait to watch you perform. You'll do an amazing job, I'm sure.<br>
+<b>John</b>: Thanks for the encouragement! I'm a little nervous, but I'm also excited. We've been working hard to make it a great show.`
+          }
+        ]
       }
     },
     {
@@ -183,16 +193,21 @@ Encouragement, Praise`
       style: 'big',
       data: {
         title: 'Friends Forever',
-        text: `Peter: Hey, have you heard about the upcoming talent show? 
-John: Yes, I have! I'm thinking of participating. I've been practicing my dance moves. What about you?
-Peter: That's awesome! I'm planning to sing a song. I've been practicing with my guitar at home.
-John: That's fantastic! I can't wait to see your performance. We'll both rock the stage!
-Peter: Absolutely! We'll give it our best shot and have a blast. It's going to be an unforgettable event.
-John: Definitely! I'm so glad we have these opportunities to showcase our talents and have fun together.
-Peter: Me too! Our class is the best. We're not only learning but also having so many wonderful experiences.
-John: You said it! We're making memories that we'll cherish for a long time. I'm grateful to have friends like you.
-Peter: Aww, same here! Friends make everything better. Let's always support each other and make more amazing memories.
-John: Absolutely! Friends forever!`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Peter</b>: Hey, have you heard about the upcoming talent show?<br> 
+<b>John</b>: Yes, I have! I'm thinking of participating. I've been practicing my dance moves. What about you?<br>
+<b>Peter</b>: That's awesome! I'm planning to sing a song. I've been practicing with my guitar at home.<br>
+<b>John</b>: That's fantastic! I can't wait to see your performance. We'll both rock the stage!<br>
+<b>Peter</b>: Absolutely! We'll give it our best shot and have a blast. It's going to be an unforgettable event.<br>
+<b>John</b>: Definitely! I'm so glad we have these opportunities to showcase our talents and have fun together.<br>
+<b>Peter</b>: Me too! Our class is the best. We're not only learning but also having so many wonderful experiences.<br>
+<b>John</b>: You said it! We're making memories that we'll cherish for a long time. I'm grateful to have friends like you.<br>
+<b>Peter</b>: Aww, same here! Friends make everything better. Let's always support each other and make more amazing memories.<br>
+<b>John</b>: Absolutely! Friends forever!`
+          }
+        ]
       }
     },
     {
@@ -317,19 +332,24 @@ Unforgettable, Forgettable`
       style: 'big',
       data: {
         title: 'A Day at School',
-        text: `Mom: How was your day at school?
-Child: It was great! We had a science experiment in class today. We mixed different colors to create new ones. It was so much fun!
-Dad: That sounds like a lot of fun! What colors did you mix, and what new colors did you create?
-Child: We mixed red and yellow to make orange, blue and yellow to make green, and red and blue to make purple. It was amazing to see how different colors can be combined to create new ones.
-Dad: That's wonderful! Science experiments are always exciting. Did you learn anything else interesting in class?
-Child: Yes, we also learned about animals and their habitats. We discussed different environments like the forest, ocean, and desert, and the animals that live in each of them. I even drew a picture of a lion in its natural habitat.
-Mom: That's fantastic! I'm glad you're learning about different animals and their habitats. It's important to understand and appreciate the diversity of nature. Is there anything else you'd like to share from your day?
-Child: Well, during recess, my friends and I played a game of soccer. We had a mini-tournament, and my team won! I scored two goals, and we all had a great time cheering each other on.
-Mom: Congratulations on your victory! Sports are a fantastic way to have fun and stay active. It's great to hear that you had a successful game and enjoyed playing with your friends. Do you have any homework or projects to work on tonight?
-Child: Yes, I have a math worksheet to complete, and I need to practice my spelling words. I'll get started on them right after dinner.
-Dad: That sounds like a plan. Remember, if you need any help with your homework, we're here for you. It's important to stay on top of your schoolwork. Afterward, we can spend some time together reading a story before bedtime. How does that sound?
-Child: That sounds wonderful! I love when we read together. Thank you, Mom and Dad!
-Mom: You're welcome, sweetheart. We're always here to support you and make sure you have a great day at school. Now let's get started on that homework so we can have some fun reading time later.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Mom</b>: How was your day at school?<br>
+<b>Child</b>: It was great! We had a science experiment in class today. We mixed different colors to create new ones. It was so much fun!<br>
+<b>Dad</b>: That sounds like a lot of fun! What colors did you mix, and what new colors did you create?<br>
+<b>Child</b>: We mixed red and yellow to make orange, blue and yellow to make green, and red and blue to make purple. It was amazing to see how different colors can be combined to create new ones.<br>
+<b>Dad</b>: That's wonderful! Science experiments are always exciting. Did you learn anything else interesting in class?<br>
+<b>Child</b>: Yes, we also learned about animals and their habitats. We discussed different environments like the forest, ocean, and desert, and the animals that live in each of them. I even drew a picture of a lion in its natural habitat.<br>
+<b>Mom</b>: That's fantastic! I'm glad you're learning about different animals and their habitats. It's important to understand and appreciate the diversity of nature. Is there anything else you'd like to share from your day?<br>
+<b>Child</b>: Well, during recess, my friends and I played a game of soccer. We had a mini-tournament, and my team won! I scored two goals, and we all had a great time cheering each other on.<br>
+<b>Mom</b>: Congratulations on your victory! Sports are a fantastic way to have fun and stay active. It's great to hear that you had a successful game and enjoyed playing with your friends. Do you have any homework or projects to work on tonight?<br>
+<b>Child</b>: Yes, I have a math worksheet to complete, and I need to practice my spelling words. I'll get started on them right after dinner.<br>
+<b>Dad</b>: That sounds like a plan. Remember, if you need any help with your homework, we're here for you. It's important to stay on top of your schoolwork. Afterward, we can spend some time together reading a story before bedtime. How does that sound?<br>
+<b>Child</b>: That sounds wonderful! I love when we read together. Thank you, Mom and Dad!<br>
+<b>Mom</b>: You're welcome, sweetheart. We're always here to support you and make sure you have a great day at school. Now let's get started on that homework so we can have some fun reading time later.`
+          }
+        ]
       }
     },
     {
@@ -401,24 +421,29 @@ Delicious, Tasty`
       style: 'big',
       data: {
         title: "Grandma's Interview",
-        text: `Child: Hi Grandma! How are you today?
-Grandma: Oh, hello, my dear! I'm doing well, thank you. How about you?
-Child: I'm good too, Grandma. I have a school assignment to interview a grandparent, and I thought it would be fun to interview you. Is that okay?
-Grandma: Of course, my sweet grandchild! I'd be delighted to help you with your assignment. What would you like to know?
-Child: Thank you, Grandma! First, can you tell me about your childhood? What was it like when you were my age?
-Grandma: Well, when I was your age, life was quite different compared to today. We didn't have fancy gadgets or technology like you do now. Instead, we spent a lot of time playing outdoors with our friends. We enjoyed games like hopscotch, marbles, and hide-and-seek. We had fewer toys, but we still had a lot of fun using our imagination.
-Child: That sounds exciting, Grandma! What was your favorite game to play?
-Grandma: Oh, there were so many! One of my favorites was playing with paper dolls. We used to cut out different characters from paper and create our own stories and adventures with them. It was like having our own little theater at home.
-Child: That sounds really fun, Grandma! Nowadays, I play video games and watch cartoons. Did you have any favorite books or TV shows when you were my age?
-Grandma: We didn't have as many TV shows back then, but we did have some classic cartoons like Mickey Mouse and Tom and Jerry. As for books, I loved reading adventure stories, especially ones with pirates and explorers. I remember being transported to different worlds through the pages of those books.
-Child: Wow, that's cool, Grandma! I also enjoy reading adventure stories. Did you have any special family traditions or celebrations when you were young?
-Grandma: Yes, we had several family traditions. One of my favorites was gathering together for Sunday dinners at my grandparents' house. The whole family would come together, and we would share a delicious meal and talk about our week. It was a time for laughter, storytelling, and bonding with my relatives.
-Child: That sounds lovely, Grandma. We have family dinners too, but not every Sunday. What about school, Grandma? Did you enjoy going to school?
-Grandma: Yes, I did! I always looked forward to going to school. We had wonderful teachers who taught us different subjects like math, science, and history. We had recess too, where we could play with our friends. One thing I really enjoyed was when the teacher would read stories aloud to the class. It was magical!
-Child: It sounds like you had a great time at school, Grandma. Is there any advice you can give me for my own school journey?
-Grandma: Absolutely, my dear! First and foremost, always be curious and eager to learn. Pay attention in class, ask questions, and don't be afraid to make mistakes. Remember to be kind to your classmates and help others when you can. And most importantly, believe in yourself and your abilities. With hard work and determination, you can achieve anything you set your mind to.
-Child: Thank you so much, Grandma, for sharing your experiences and advice with me. I really enjoyed talking with you.
-Grandma: You're very welcome, my dear. I had a wonderful time too. Remember, I'm always here for you whenever you need me.`
+        text: [
+          {
+            type: 'html',
+            text: `<b>Child</b>: Hi Grandma! How are you today?<br>
+<b>Grandma</b>: Oh, hello, my dear! I'm doing well, thank you. How about you?<br>
+<b>Child</b>: I'm good too, Grandma. I have a school assignment to interview a grandparent, and I thought it would be fun to interview you. Is that okay?<br>
+<b>Grandma</b>: Of course, my sweet grandchild! I'd be delighted to help you with your assignment. What would you like to know?<br>
+<b>Child</b>: Thank you, Grandma! First, can you tell me about your childhood? What was it like when you were my age?<br>
+<b>Grandma</b>: Well, when I was your age, life was quite different compared to today. We didn't have fancy gadgets or technology like you do now. Instead, we spent a lot of time playing outdoors with our friends. We enjoyed games like hopscotch, marbles, and hide-and-seek. We had fewer toys, but we still had a lot of fun using our imagination.<br>
+<b>Child</b>: That sounds exciting, Grandma! What was your favorite game to play?<br>
+<b>Grandma</b>: Oh, there were so many! One of my favorites was playing with paper dolls. We used to cut out different characters from paper and create our own stories and adventures with them. It was like having our own little theater at home.<br>
+<b>Child</b>: That sounds really fun, Grandma! Nowadays, I play video games and watch cartoons. Did you have any favorite books or TV shows when you were my age?<br>
+<b>Grandma</b>: We didn't have as many TV shows back then, but we did have some classic cartoons like Mickey Mouse and Tom and Jerry. As for books, I loved reading adventure stories, especially ones with pirates and explorers. I remember being transported to different worlds through the pages of those books.<br>
+<b>Child</b>: Wow, that's cool, Grandma! I also enjoy reading adventure stories. Did you have any special family traditions or celebrations when you were young?<br>
+<b>Grandma</b>: Yes, we had several family traditions. One of my favorites was gathering together for Sunday dinners at my grandparents' house. The whole family would come together, and we would share a delicious meal and talk about our week. It was a time for laughter, storytelling, and bonding with my relatives.<br>
+<b>Child</b>: That sounds lovely, Grandma. We have family dinners too, but not every Sunday. What about school, Grandma? Did you enjoy going to school?<br>
+<b>Grandma</b>: Yes, I did! I always looked forward to going to school. We had wonderful teachers who taught us different subjects like math, science, and history. We had recess too, where we could play with our friends. One thing I really enjoyed was when the teacher would read stories aloud to the class. It was magical!<br>
+<b>Child</b>: It sounds like you had a great time at school, Grandma. Is there any advice you can give me for my own school journey?<br>
+<b>Grandma</b>: Absolutely, my dear! First and foremost, always be curious and eager to learn. Pay attention in class, ask questions, and don't be afraid to make mistakes. Remember to be kind to your classmates and help others when you can. And most importantly, believe in yourself and your abilities. With hard work and determination, you can achieve anything you set your mind to.<br>
+<b>Child</b>: Thank you so much, Grandma, for sharing your experiences and advice with me. I really enjoyed talking with you.<br>
+<b>Grandma</b>: You're very welcome, my dear. I had a wonderful time too. Remember, I'm always here for you whenever you need me.`
+          }
+        ]
       }
     },
     {

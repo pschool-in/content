@@ -89,9 +89,11 @@ Be careful *with (in, on) * the glasses.`
       label: 'Match Subjects and Predicates',
       id: 'subject-predicate',
       onlyBigScreen: true,
-      data: {
-        title: 'Match Subjects and Predicates.',
-        text: `The two year old girl, cried when her mom took her toy.
+      commonData: {
+        title: 'Match Subjects and Predicates.'
+      },
+      data: [
+        `The two year old girl, cried when her mom took her toy.
 The baby calf, mooed at its mother.
 The crank old man, fussed at the bus driver.
 The large Christmas tree, was decorated with ornaments.
@@ -99,8 +101,118 @@ The tiny wooden sailboat, rocked back and forth in the water.
 The playful chimpanzee, swung from the jungle vines.
 The cheerful pilot, welcomed passengers onto the plane.
 The humongous spider, spun its web by my back door.
-The patient teacher, taught her students how to multiply.`
-      }
+The patient teacher, taught her students how to multiply.`,
+
+        `The energetic puppy, wagged its tail eagerly.
+The beautiful sunrise, painted the sky with vibrant colors.
+The curious child, explored the garden with excitement.
+The brave firefighter, rescued the cat from the burning building.
+The old oak tree, provided shade on hot summer days.
+The mischievous kitten, chased after a ball of yarn.
+The diligent student, studied late into the night for the exam.
+The talented musician, played the piano with great skill.
+The fluffy white clouds, drifted across the clear blue sky.
+The dedicated doctor, cared for patients with compassion.`,
+
+        `The colorful butterfly, fluttered among the flowers in the garden.
+The rusty bicycle, leaned against the garage wall.
+The experienced chef, prepared a delicious gourmet meal.
+The buzzing bee, collected nectar from the blossoms.
+The wise owl, hooted softly in the moonlight.
+The busy beekeeper, tended to the beehives with care.
+The majestic eagle, soared high above the mountains.
+The determined athlete, trained hard for the upcoming race.
+The shy child, hid behind their parent during the party.
+The sweet aroma, filled the kitchen as the cookies baked in the oven.`,
+
+        `The adventurous hiker, climbed to the top of the mountain.
+The playful kittens, pounced and wrestled with each other.
+The diligent worker, completed the project ahead of schedule.
+The fragrant flowers, bloomed in the garden during spring.
+The strong wind, blew the leaves off the trees.
+The friendly neighbors, greeted each other with smiles.
+The icy snow, covered the landscape in a winter blanket.
+The graceful ballerina, performed a stunning pirouette.
+The noisy construction, disrupted the peaceful neighborhood.
+The talented artist, painted a beautiful landscape on the canvas.`,
+
+        `The roaring thunder, shook the windows during the storm.
+The skilled carpenter, crafted a sturdy wooden table.
+The adorable baby, giggled and cooed in its crib.
+The persistent rain, soaked everyone at the outdoor event.
+The magnificent sunset, painted the sky with hues of orange and pink.
+The strict teacher, enforced the classroom rules with authority.
+The chirping birds, filled the air with their melodic songs.
+The tall skyscraper, stood tall in the city skyline.
+The clumsy waiter, spilled a tray of drinks at the restaurant.
+The full moon, illuminated the night sky with its soft glow.`,
+
+        `The sleepy cat, curled up on the cozy cushion.
+The noisy traffic, congested the city streets during rush hour.
+The athletic swimmer, glided through the water with ease.
+The fresh breeze, rustled the leaves on the trees.
+The skilled magician, amazed the audience with his tricks.
+The bustling market, offered a variety of goods for sale.
+The roaring lion, commanded attention in the zoo.
+The busy streets, buzzed with activity during the festival.
+The adorable toddler, took hesitant steps across the room.
+The delicious aroma, wafted from the kitchen as dinner cooked.`,
+
+        `The graceful ballerina, twirled across the stage.
+The mischievous puppy, chewed on a slipper.
+The talented artist, painted a breathtaking landscape.
+The exhausted marathon runner, crossed the finish line.
+The playful dolphin, leaped out of the water.
+The grumpy cat, hissed at the approaching dog.
+The noisy construction workers, hammered and drilled.
+The inquisitive child, asked numerous questions.
+The talented musician, played a soulful melody on the piano.
+The patient doctor, carefully examined the patient's symptoms.`,
+
+        `The majestic eagle, soared through the clear blue sky.
+The sleepy bear, found a cozy spot to hibernate.
+The hardworking bee, buzzed from flower to flower.
+The skilled carpenter, crafted a sturdy wooden table.
+The mischievous monkey, swung from branch to branch.
+The determined detective, solved the mysterious crime.
+The strong winds, howled through the night.
+The friendly neighbor, offered a helping hand.
+The careful driver, obeyed the traffic rules.
+The hungry lion, roared loudly in the jungle.`,
+
+        `The cheerful baby, giggled and cooed.
+The ancient ruins, stood as a testament to history.
+The dedicated teacher, inspired her students to learn.
+The delicate butterfly, landed on a fragrant flower.
+The busy ants, worked together to build their colony.
+The patient gardener, nurtured the plants with care.
+The powerful thunderstorm, shook the windows.
+The excited child, opened a present on their birthday.
+The skilled goalkeeper, made a spectacular save.
+The fluffy snowflakes, fell gently from the sky.`,
+
+        `The hungry cat, pounced on the mouse.
+The tall basketball player, dunked the ball.
+The fast cheetah, chased its prey.
+The old oak tree, stood tall in the forest.
+The powerful storm, raged across the city.
+The loud thunder, echoed through the valley.
+The cozy fireplace, crackled with warmth.
+The wise professor, lectured on philosophy.
+The rusty gate, creaked in the wind.
+The sweet aroma, filled the kitchen.`,
+
+        `The old book, sat on the dusty shelf.
+The tiny ant, carried a large crumb.
+The bright moon, illuminated the night sky.
+The playful dolphin, jumped out of the water.
+The cold wind, blew through the trees.
+The majestic mountain, stood tall against the horizon.
+The strong wind, knocked down the tree.
+The mischievous child, hid behind the couch.
+The soft pillow, provided comfort for sleeping.
+The beautiful rainbow, arched across the sky.`
+      ]
     },
     {
       type: 'classifySentence',
