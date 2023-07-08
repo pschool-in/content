@@ -31,3 +31,21 @@
 13. Trip to the Beach - https://www.tiwariacademy.com/ncert-solutions/class-7/english/grammar/chapter-22/
 14. At the Police Station - https://www.tiwariacademy.com/ncert-solutions/class-7/english/grammar/chapter-22/
 15. Dance Class - https://www.tiwariacademy.com/ncert-solutions/class-7/english/grammar/chapter-22/
+
+# conversation-7
+
+1. Hobbies - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+2. Curfew - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+3. Job Interview - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+4. Business Partners - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+5. Assignment - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+6. Strangers - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+7. Debate - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+8. Interview - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+9. Smartphone - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+10. Food Fair - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+11. Favorite Artist - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+12. Slumber Party - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+13. Game Night - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+14. Water Park - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+15. Choices - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
