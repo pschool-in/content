@@ -1,6 +1,6 @@
 export default {
   label: 'Crossword',
-  id: 'bn-crossword',
+  id: 'mr-crossword',
   img: 'crossword',
   list: []
 };

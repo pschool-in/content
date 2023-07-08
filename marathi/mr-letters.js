@@ -586,7 +586,7 @@ export default {
     {
       type: 'rightOne',
       label: 'Identify Letter',
-      id: 'sound',
+      id: 'sound-barakhadi',
       lockAfter: 3,
       commonData: {
         title: 'Identify Letter based on Sound',

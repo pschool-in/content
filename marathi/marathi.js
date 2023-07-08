@@ -16,7 +16,7 @@ export default {
     */
   list: [
     {
-      id: 'mr-letter',
+      id: 'mr-letters',
       label: 'अक्षरे',
       img: 'writing'
     },
