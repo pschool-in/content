@@ -294,6 +294,44 @@ Promoting racial division`
       }
     },
     {
+      id: 'alexander-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `Who is speaking in this statement?`,
+            options: `Alexander the Great, Napoleon Bonaparte, Genghis Khan, Julius Caesar`
+          },
+          {
+            qText: `What is the main idea expressed in this statement?`,
+            options: `The soldiers deserve the rewards for their hard work and bravery.
+The conquered territory will be divided among the soldiers.
+The commander promises to make his soldiers rich beyond their wildest dreams.`
+          },
+          {
+            qText: `What does the speaker promise to the soldiers?`,
+            options: `They will be appointed as governors of the conquered territory.
+They will receive a portion of the treasure from the conquered territory.
+They will have the option to return home with or without the commander.
+*All of the above.`
+          },
+          {
+            qText: `Who will govern the conquered territory?`,
+            options: `The soldiers, The existing rulers, The local population`
+          },
+          {
+            qText: `What does the speaker imply about those who choose to stay?`,
+            options: `They will be envied by those who return home.
+They will not receive any rewards.
+They will become the new commanders.
+They will be left behind when the army moves on.`
+          }
+        ]
+      }
+    },
+    {
       id: 'finest',
       type: 'passage',
       label: 'Their Finest Hour',
@@ -303,6 +341,40 @@ Promoting racial division`
         text: `What General Weygand called the Battle of France is over. I expect that the Battle of Britain is about to begin. Upon this battle depends the survival of Christian civilization. Upon it depends our own British life, and the long continuity of our institutions and our Empire. The whole fury and might of the enemy must very soon be turned on us.
 Hitler knows that he will have to break us in this Island or lose the war. If we can stand up to him, all Europe may be free and the life of the world may move forward into broad, sunlit uplands. But if we fail, then the whole world, including the United States, including all that we have known and cared for, will sink into the abyss of a new Dark Age made more sinister, and perhaps more protracted, by the lights of perverted science.
 Let us, therefore, brace ourselves to our duties, and so bear ourselves that if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'`
+      }
+    },
+    {
+      id: 'finest-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `Who is credited with the statement, "This was their finest hour"?`,
+            options: `Winston Churchill, Adolf Hitler, General Weygand, Franklin D. Roosevelt`
+          },
+          {
+            qText: `Which battle is referred to as the "Battle of France"?`,
+            options: `Battle of Dunkirk, Battle of Normandy, Battle of Stalingrad, The Battle of Britain`
+          },
+          {
+            qText: `According to the statement, what does the survival of Christian civilization depend on?`,
+            options: `The Battle of Britain, Battle of Dunkirk, Battle of Normandy, Battle of Stalingrad`
+          },
+          {
+            qText: `What did Hitler believe he needed to achieve in order to win the war?`,
+            options: `Break the British in their island
+Defeat the United States
+Conquer the Soviet Union`
+          },
+          {
+            qText: `What could happen if the British fail in the Battle of Britain, according to the statement?`,
+            options: `The world will enter a new Dark Age
+Europe will be free
+The United States will be defeated`
+          }
+        ]
       }
     },
     {
@@ -317,6 +389,47 @@ It is in vain, sir, to extenuate the matter. Gentlemen may cry, "Peace! Peace!" 
       }
     },
     {
+      id: 'death-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `According to the speech, the battle is not limited to the strong but also to the:`,
+            options: `Vigilant, Wealthy, Skilled`
+          },
+          {
+            qText: `The speaker states that it is too late to retire from the contest because:`,
+            options: `There is no other option but to fight
+The enemy is too powerful
+They have already lost the battle`
+          },
+          {
+            qText: `What does the speaker mean by saying, "Our chains are forged! Their clanking may be heard on the plains of Boston!"?`,
+            options: `The sound of slavery is evident
+They are bound by their decisions
+The enemy is approaching Boston`
+          },
+          {
+            qText: `The speaker believes that the war is:`,
+            options: `Inevitable, Avoidable, Unnecessary, Undesirable `
+          },
+          {
+            qText: `What is the speaker's stance on life and peace?`,
+            options: `Life is more valuable than peace
+Peace is more important than life
+Life and peace are equally important
+Life and peace are irrelevant in war`
+          },
+          {
+            qText: `According to the speaker, what is their preferred outcome?`,
+            options: `Liberty or death, Chains and slavery, Submission and retreat, Peace and tranquility`
+          }
+        ]
+      }
+    },
+    {
       id: 'mockingbird',
       type: 'passage',
       label: `To Kill a Mockingbird`,
@@ -327,6 +440,41 @@ It is in vain, sir, to extenuate the matter. Gentlemen may cry, "Peace! Peace!" 
       }
     },
     {
+      id: 'mockingbird-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `According to Atticus, what is a sin to kill?`,
+            options: `Mockingbirds, Blue jays, Birds`
+          },
+          {
+            qText: `Why does Atticus consider it a sin to kill a mockingbird?`,
+            options: `Mockingbirds provide beautiful music for us to enjoy
+Mockingbirds destroy gardens
+Mockingbirds nest in corn cribs
+Mockingbirds don't do anything useful`
+          },
+          {
+            qText: `Who does Scout ask about Atticus' statement?`,
+            options: `Miss Maudie, Jem, Boo Radley`
+          },
+          {
+            qText: `Which character in the passage supports Atticus' view on mockingbirds?`,
+            options: `Miss Maudie, Atticus, Scout, Jem`
+          },
+          {
+            qText: `What is the main message conveyed by Atticus and Miss Maudie regarding mockingbirds?`,
+            options: `Mockingbirds are a symbol of innocence and should be protected
+Mockingbirds are pests and need to be controlled
+Mockingbirds are intelligent creatures and should be studied`
+          }
+        ]
+      }
+    },
+    {
       id: 'women',
       type: 'passage',
       label: 'Little Women',
@@ -334,6 +482,48 @@ It is in vain, sir, to extenuate the matter. Gentlemen may cry, "Peace! Peace!" 
         title: 'Little Women',
         author: 'Louisa May Alcott',
         text: `There are many Beths in the world, shy and quiet, sitting in corners till needed, and living for others so cheerfully that no one sees the sacrifices till the little cricket on the hearth stops chirping, and the sweet, sunshiny presence vanishes, leaving silence and shadow behind.`
+      }
+    },
+    {
+      id: 'women-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `Who are the "Beths" mentioned in the passage?`,
+            options: `A community of shy and quiet people
+A family of sisters
+A cricket on the hearth`
+          },
+          {
+            qText: `What is the characteristic trait of the "Beths" mentioned in the passage?`,
+            options: `Shyness and quietness
+Excessive cheerfulness
+Independence and self-reliance
+Aggressiveness and assertiveness`
+          },
+          {
+            qText: `According to the passage, how do the "Beths" live their lives?`,
+            options: `They sacrifice their happiness for the sake of others
+They are constantly seeking attention from others
+They live in isolation, avoiding social interactions`
+          },
+          {
+            qText: `What event signals the unnoticed sacrifices of the "Beths"?' view on mockingbirds?`,
+            options: `The disappearance of a cricket's chirping
+The arrival of silence and shadow
+The departure of the "Beths" from their corners`
+          },
+          {
+            qText: `What effect does the absence of the "Beths" have on their surroundings?`,
+            options: `It creates an atmosphere of gloom and darkness
+It brings a sense of relief and tranquility
+It leads to increased social interactions
+It makes the little cricket chirp more loudly`
+          }
+        ]
       }
     },
     {
@@ -356,6 +546,43 @@ we shall have spring again.`
       }
     },
     {
+      id: 'lion-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `According to the poem, when will wrong be right?`,
+            options: `When Aslan comes in sight
+At the sound of his roar
+When he bares his teeth
+When he shakes his mane`
+          },
+          {
+            qText: `What happens when Aslan bares his teeth?`,
+            options: `Winter meets its death
+Spring arrives again
+Wrong becomes right
+Sorrows will be no more`
+          },
+          {
+            qText: `What is the significance of Aslan shaking his mane?`,
+            options: `Spring arrives again
+Sorrows will be no more
+Wrong becomes right
+Winter meets its death`
+          },
+          {
+            qText: `When will sorrows cease to exist?`,
+            options: `At the sound of Aslan's roar
+When Aslan bares his teeth
+When Aslan shakes his mane`
+          }
+        ]
+      }
+    },
+    {
       id: 'dune',
       type: 'passage',
       label: 'Dune',
@@ -363,6 +590,42 @@ we shall have spring again.`
         title: 'Dune',
         author: 'Frank Herbert',
         text: `"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain." `
+      }
+    },
+    {
+      id: 'dune-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `According to the quote, fear is described as:`,
+            options: `A mind-killer, A life-saver, A temporary emotion, A motivator`
+          },
+          {
+            qText: `What does fear bring, according to the author?`,
+            options: `Total obliteration, Enlightenment, Happiness, Safety`
+          },
+          {
+            qText: `How should one deal with fear?`,
+            options: `Embrace it fully, Ignore it completely, Analyze its path, Seek professional help`
+          },
+          {
+            qText: `What will happen when fear has passed?`,
+            options: `It will disappear completely
+It will resurface stronger
+It will change one's perception
+It will leave a lasting impact`
+          },
+          {
+            qText: `What does the author suggest about the person facing fear?`,
+            options: `They will gain clarity and understanding
+They will become more fearful
+They will become fearless
+They will lose their identity`
+          }
+        ]
       }
     },
     {
@@ -374,6 +637,46 @@ we shall have spring again.`
         author: 'Ray Bradbury',
         text: `"Everyone must leave something behind when he dies, my grandfather said. A child or a book or a painting or a house or a wall built or a pair of shoes made. Or a garden planted. Something your hand touched some way so your soul has somewhere to go when you die, and when people look at that tree or that flower you planted, you're there.
 It doesn't matter what you do, he said, so long as you change something from the way it was before you touched it into something that's like you after you take your hands away. The difference between the man who just cuts lawns and a real gardener is in the touching, he said. The lawn-cutter might just as well not have been there at all; the gardener will be there a lifetime."`
+      }
+    },
+    {
+      id: 'fahrenheit-mcq',
+      label: 'Multiple Choice Questions',
+      type: 'mcq',
+      data: {
+        title: 'Choose the correct option',
+        questions: [
+          {
+            qText: `What does the passage suggest about the significance of leaving something behind?`,
+            options: `*It ensures your soul has somewhere to go after death.
+*It allows people to remember you.
+It brings about positive change in the world.`
+          },
+          {
+            qText: `What distinguishes a real gardener from someone who just cuts lawns, according to the author?`,
+            options: `The impact they have on the things they touch.
+The variety of tools they use.
+The amount of time they spend gardening.
+The number of plants they grow.`
+          },
+          {
+            qText: `What does the passage suggest about the permanence of a gardener's presence?`,
+            options: `A gardener's presence can be felt long after they are gone.
+A gardener's presence is only appreciated by other gardeners.
+A gardener's presence is irrelevant in the grand scheme of things.
+A gardener's presence is fleeting and temporary.`
+          },
+          {
+            qText: `Which of the following examples is NOT mentioned in the passage as something someone could leave behind?`,
+            options: `A song composed, A pair of shoes made, A wall built, A garden planted`
+          },
+          {
+            qText: `According to the passage, what signifies that someone is still present even after their death?`,
+            options: `The physical places they touched or influenced
+The accomplishments they achieved in life
+The objects they owned`
+          }
+        ]
       }
     }
   ]
