@@ -49,3 +49,26 @@
 13. Game Night - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
 14. Water Park - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
 15. Choices - https://www.cbsesamplepapers.info/cbse/dialogue-writing-for-class-8
+
+# comp-8
+
+1. Nelson Mandela - https://leverageedu.com/blog/great-personalities/
+2. Abraham Lincoln - https://leverageedu.com/blog/great-personalities/
+3. Dr APJ Abdul Kalam - https://leverageedu.com/blog/great-personalities/
+4. Mahatma Gandhi - https://leverageedu.com/blog/great-personalities/
+5. Albert Einstein - https://leverageedu.com/blog/great-personalities/
+6. Sachin Tendulkar - https://leverageedu.com/blog/great-personalities/
+7. Thomas Alva Edison - https://leverageedu.com/blog/great-personalities/
+8. Kalpana Chawla - https://leverageedu.com/blog/great-personalities/
+9. Satyajit Ray - https://leverageedu.com/blog/great-personalities/
+10. Jawaharlal Nehru - https://en.wikipedia.org/wiki/Jawaharlal_Nehru
+11. Stephen Hawking - https://en.wikipedia.org/wiki/Stephen_Hawking
+12. Alexander Fleming - https://en.wikipedia.org/wiki/Alexander_Fleming
+13. MS Dhoni - https://en.wikipedia.org/wiki/MS_Dhoni
+14. Dhyan Chand - https://en.wikipedia.org/wiki/Dhyan_Chand
+15. Usain Bolt - https://en.wikipedia.org/wiki/Usain_Bolt
+16. Muhammad Ali - https://www.britannica.com/biography/Muhammad-Ali-boxer
+17. Shakespeare - https://www.britannica.com/biography/William-Shakespeare
+18. Elon Musk - https://www.britannica.com/biography/Elon-Musk
+19. Steve Jobs - https://www.britannica.com/biography/Steve-Jobs
+20. Ratan Tata - https://en.wikipedia.org/wiki/Ratan_Tata
