@@ -95,7 +95,7 @@ What is the place value of 7 in 57654498? | 1000000
 What is the place value of 9 in 73490000? | 10000
 What is the place value of 4 in 400000? | 100000`,
 
-        `What is the place value of 2 in 1272999? | 1000
+        `What is the place value of 2 in 1372999? | 1000
 What is the place value of 1 in 653313? | 10
 What is the place value of 6 in 9874576? | 1
 What is the place value of 5 in 1599466? | 100000
