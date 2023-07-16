@@ -611,32 +611,6 @@ Tina is much younger _____________. | than she looks
 He does not work _______________________. |  as hard as you think`
       ]
     },
-    /*{
-label: 'Fill in the blanks - 2',
-type: 'matchByDragDrop',
-id: 'drag-drop-2',
-lockAfter: 1,
-commonData: {
-title: 'Fill in the blanks using suitable adverbial clauses.'
-},
-data: [
-`*After the crop is harvested*, it is sold in the market.
-Don't disturb her *when she is singing*.
-I will follow you *wherever you go*.
-She has hidden the box *where it cannot be found*.`,
-
-`I will help you *because you are my true friend*.
-Rahul did not call Tina *because he felt guilty*.
-*If you save money*, you can buy a bigger house.
-*Unless you study harder*, you will fail.
-I will free you *on condition that you pay a fine*.`,
-
-`*Though he is not rich*, he gives to charity.
-*Although she tried very hard*, she had to give up.
-Tina is much younger *than she looks*.
-He does not work *as hard as you think*.`
-]
-},*/
     {
       id: 'yes-no-2',
       label: 'Yes or No',

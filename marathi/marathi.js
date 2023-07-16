@@ -64,6 +64,11 @@ export default {
       id: 'mr-crossword',
       label: 'शब्दकोड',
       img: 'crossword'
+    },
+    {
+      label: 'English Words',
+      id: 'mr-en',
+      img: 'translation'
     }
   ]
 };

@@ -6,6 +6,36 @@ export default {
     {
       id: 'more',
       list: [
+        /*
+        {
+          label: 'സ്വരം',
+          id: 'ml-sound-2'
+        },
+        {
+          label: 'സ്വരം-2',
+          id: 'ml-sound-3'
+        },
+        {
+          label: 'സ്വരം-3',
+          id: 'ml-sound-4'
+        },
+        {
+          label: 'സ്വരം-4',
+          id: 'ml-sound-5'
+        },
+        {
+          label: 'സ്വരം-5',
+          id: 'ml-sound-6'
+        },
+        {
+          label: 'സ്വരം-6',
+          id: 'ml-sound-7'
+        },
+        {
+          label: 'സ്വരം-7',
+          id: 'ml-sound-8'
+        },
+        */
         {
           label: 'ചിത്രം',
           id: 'ml-picture-2'
@@ -67,32 +97,32 @@ export default {
           id: 'ml-pic-word-8'
         },
         {
-          label: 'സ്വരം',
-          id: 'ml-sound-2'
+          label: 'English to Malayalam - 2',
+          id: 'ml-en-2'
         },
         {
-          label: 'സ്വരം-2',
-          id: 'ml-sound-3'
+          label: 'English to Malayalam - 3',
+          id: 'ml-en-3'
         },
         {
-          label: 'സ്വരം-3',
-          id: 'ml-sound-4'
+          label: 'English to Malayalam - 4',
+          id: 'ml-en-4'
         },
         {
-          label: 'സ്വരം-4',
-          id: 'ml-sound-5'
+          label: 'English to Malayalam - 5',
+          id: 'ml-en-5'
         },
         {
-          label: 'സ്വരം-5',
-          id: 'ml-sound-6'
+          label: 'English to Malayalam - 6',
+          id: 'ml-en-6'
         },
         {
-          label: 'സ്വരം-6',
-          id: 'ml-sound-7'
+          label: 'English to Malayalam - 7',
+          id: 'ml-en-7'
         },
         {
-          label: 'സ്വരം-7',
-          id: 'ml-sound-8'
+          label: 'English to Malayalam - 8',
+          id: 'ml-en-8'
         }
       ]
     }

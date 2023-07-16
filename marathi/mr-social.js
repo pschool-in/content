@@ -4,6 +4,123 @@ export default {
   img: 'social',
   list: [
     {
+      id: 'rivers',
+      label: 'Big Rivers',
+      type: 'dragAndDrop',
+      data: {
+        img: 'maharashtra-river.jpg',
+        title: 'Mark the big rivers in Maharashtra.',
+        width: 350,
+        height: 289,
+        wordWidth: 80,
+        words: [
+          {
+            word: 'Tapi',
+            x: 90,
+            y: 31
+          },
+          {
+            word: 'Gadavari',
+            x: 99,
+            y: 114
+          },
+          {
+            word: 'Wardha',
+            x: 233,
+            y: 58
+          },
+          {
+            word: 'Bhima',
+            x: 79,
+            y: 161
+          },
+          {
+            word: 'Krishna',
+            x: 53,
+            y: 206
+          }
+        ]
+      }
+    },
+    {
+      id: 'cities',
+      label: 'Cities',
+      type: 'dragAndDrop',
+      data: {
+        img: 'maharashtra.jpg',
+        title: 'Mark the different cities in Maharashtra.',
+        width: 350,
+        height: 289,
+        wordWidth: 80,
+        words: [
+          {
+            word: 'Nasik',
+            x: 41,
+            y: 44
+          },
+          {
+            word: 'Nagpur',
+            x: 242,
+            y: 32
+          },
+          {
+            word: 'Thane',
+            x: 12,
+            y: 102
+          },
+          {
+            word: 'Pune',
+            x: 38,
+            y: 149
+          },
+          {
+            word: 'Solapur',
+            x: 93,
+            y: 196
+          }
+        ]
+      }
+    },
+    {
+      id: 'neighbours',
+      label: 'Neighbouring States',
+      type: 'dragAndDrop',
+      data: {
+        img: 'maharashtra.jpg',
+        title: 'Mark the neighbouring states of Maharashtra.',
+        width: 350,
+        height: 289,
+        wordWidth: 80,
+        words: [
+          {
+            word: 'Gujarat',
+            x: 0,
+            y: 6
+          },
+          {
+            word: 'Madhya Pradesh',
+            x: 150,
+            y: 2
+          },
+          {
+            word: 'Chhatishgarh',
+            x: 300,
+            y: 72
+          },
+          {
+            word: 'Telangana',
+            x: 223,
+            y: 160
+          },
+          {
+            word: 'Karnataka',
+            x: 93,
+            y: 249
+          }
+        ]
+      }
+    },
+    {
       id: 'direction',
       label: 'दिशानिर्देश',
       type: 'dragAndDrop',

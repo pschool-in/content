@@ -1,6 +1,6 @@
 export default {
   label: 'Story',
-  id: 'ma-reading',
+  id: 'ml-reading',
   img: 'reading',
   list: [
     {

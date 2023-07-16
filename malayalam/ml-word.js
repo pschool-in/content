@@ -1,6 +1,6 @@
 export default {
   label: 'Word',
-  id: 'ma-word',
+  id: 'ml-word',
   img: 'word',
   list: [
     {

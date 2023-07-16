@@ -56,6 +56,11 @@ export default {
       id: 'ml-poem',
       label: 'കവിത',
       img: 'reading'
+    },
+    {
+      id: 'ml-en',
+      label: 'English',
+      img: 'translation'
     }
   ]
 };
