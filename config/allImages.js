@@ -34,6 +34,7 @@ const allImages = {
   squirrel
   tortoise
   rat
+  termite
   winged-termites
   ant
   fly
@@ -298,13 +299,19 @@ const allImages = {
   chariot
   tow-truck
   spaceship`,
-  house: `man
-  woman
-  boy
+
+  people: `boy
   girl
-  house
-  grandfather
+  man
+  woman
+  baby
+  mother
+  father
   grandma
+  grandfather`,
+
+
+  house: `house
   table
   bed
   mat
@@ -322,7 +329,6 @@ const allImages = {
   chair
   shelf
   switchboard
-  baby
   ball
   teddy
   glasses
@@ -496,6 +502,7 @@ const allImages = {
   tablet
   torch
   web-camera
+  radio
   tv
   laptop
   computer
@@ -520,7 +527,11 @@ const allImages = {
   cheek
   chin
   nails`,
-  tools: `axe
+  tools: `geometrybox
+  compass2
+  divider
+  protractor
+  axe
   balance
   blackboard
   hose
@@ -663,7 +674,6 @@ const allImages = {
   twig
   medicine
   balloon
-  radio
   toothbrush
   toothpaste
   box

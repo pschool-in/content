@@ -22,7 +22,7 @@ And now, here I am, ready to transform. My plastic will be recycled, allowing me
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -157,7 +157,7 @@ From that day forward, John's topsy-turvy cake became his signature creation, ea
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-4',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -286,7 +286,7 @@ From that day forward, Meera and Rahul continued their adventures, always ready 
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-4',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -394,7 +394,7 @@ But as the day went on, the weather changed unexpectedly. Dark clouds gathered i
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq',
+      id: 'mcq-4',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -457,7 +457,7 @@ Weather forecasts can sometimes be wrong.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag',
+      id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
         text: `The people of Sunnyville believed the weather report to be a *fact*.
@@ -495,7 +495,7 @@ In reality, there was no objective truth about which ice cream shop had the best
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-3',
+      id: 'mcq-5',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -572,7 +572,7 @@ Opinion, Veiwpoint`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-2',
+      id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
         text: `Some people believed that the Frosty Parlor had the *best* ice cream because it had a wide variety of flavors and used fresh *ingredients*.

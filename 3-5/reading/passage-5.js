@@ -19,7 +19,7 @@ Riding a horse can be an exhilarating experience. It gives you a sense of freedo
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -133,7 +133,7 @@ It has been found that dinosaurs became extinct about 65 million years ago. A me
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-4',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -252,7 +252,7 @@ Unfortunately, bees face numerous challenges, including habitat loss, pesticide 
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-4',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -370,7 +370,7 @@ Despite their vital contributions, vultures face numerous threats. Habitat loss,
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-5',
+      id: 'mcq-4',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -464,7 +464,7 @@ Parrots thrive on mental stimulation, which is why they require engaging toys an
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-6',
+      id: 'mcq-5',
       data: {
         title: 'Multiple Choice Questions',
         questions: [

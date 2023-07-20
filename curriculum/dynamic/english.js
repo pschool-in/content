@@ -171,6 +171,11 @@ export default {
       label: 'Fun Reading - 2',
       id: 'comp-2-2',
       grade: '0-3'
+    },
+    {
+      label: `Let's Speak - 2`,
+      id: 'conversation-2',
+      grade: '3-5'
     }
   ]
 };

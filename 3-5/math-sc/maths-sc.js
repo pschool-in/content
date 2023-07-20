@@ -238,7 +238,7 @@ export default {
       grade: '3-5'
     },
     {
-      id: 'money',
+      id: 'money-6',
       label: 'Money',
       img: 'money',
       grade: '6-8'

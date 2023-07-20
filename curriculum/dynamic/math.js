@@ -135,9 +135,24 @@ export default {
       grade: '3-5'
     },
     {
+      label: 'Basic Money',
+      id: 'money-2',
+      grade: '1-4'
+    },
+    {
       label: 'Money',
       id: 'money',
       grade: '4-5'
+    },
+    {
+      label: 'Money - 3',
+      id: 'money-6',
+      grade: '5-7'
+    },
+    {
+      label: 'Big Numbers',
+      id: 'big-num',
+      grade: '4-7'
     },
     {
       label: 'Fraction',
@@ -290,6 +305,11 @@ export default {
       grade: '5-8'
     },
     {
+      label: 'Arithmetic - 6',
+      id: 'arithmetic-6',
+      grade: '6-8'
+    },
+    {
       label: 'Percentage',
       id: 'percentage',
       grade: '4-6'
@@ -328,6 +348,26 @@ export default {
       label: 'Fraction Arithmetic - 2',
       id: 'fraction-arithmetic-2',
       grade: '6-8'
+    },
+    {
+      label: 'Area and Perimeter - 2',
+      id: 'area-perimeter-2',
+      grade: '5-8'
+    },
+    {
+      label: 'Triangle and Properties',
+      id: 'triangle',
+      grade: '6-8'
+    },
+    {
+      label: 'Lines and Angles',
+      id: 'angles',
+      grade: '6-8'
+    },
+    {
+      label: 'Decimal Numbers : Puzzles',
+      id: 'decimal-6',
+      grade: '6-7'
     },
     {
       label: 'Negative Numbers',

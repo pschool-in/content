@@ -18,7 +18,7 @@ The three little pigs learned the value of hard work and resilience. From that d
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -166,7 +166,7 @@ The water park had captured our hearts entirely.`
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-4',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -205,7 +205,7 @@ Pizza, nachos, and pretzels.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-3',
+      id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
         text: `Our fears *dissolved* after the exhilarating first ride.
@@ -291,7 +291,7 @@ Lily felt sad. She gave Frosty a warm hug and whispered, "Don't worry, Frosty. I
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-5',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -322,7 +322,7 @@ She would give him a hat to protect him from the sun.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-4',
+      id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
         text: `Lily built a *snowman* with a carrot for a nose.
@@ -380,7 +380,7 @@ The mongoose and hornbill taught us the beauty of friendship.`
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-5',
+      id: 'mcq-4',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -502,7 +502,7 @@ The villagers noticed the strong partnership between the man and the donkey. The
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-6',
+      id: 'mcq-5',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -540,7 +540,7 @@ The necessity of always being in control.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-3',
+      id: 'fillup-drag-5',
       type: 'matchByDragDrop',
       data: {
         text: `The donkey carried heavy *loads* for the man.

@@ -178,6 +178,35 @@ Write the biggest 2 digit even number. | 98
 Write the smallest 3 digit odd number. | 101
 write the smallest 2 digt odd number that begins with 6. | 61`
       ]
+    },
+    {
+      type: 'makeSentence',
+      label: 'Numbers to Number Names',
+      id: 'convert-names',
+      commonData: {
+        title: 'Convert the given number to number name.',
+        fontSize: '2rem',
+        extras: 'one five seven nine forty eighty hundred thousand'
+      },
+      data: [
+        `3010 |  three thousand and ten
+955 | nine hundred and fify five
+543 | five hundred and forty three
+1111 | one thousand one hundred and eleven
+2222 | two thousand two hundred and twenty two`,
+
+        `4343 | four thousand three hundred and forty three
+9509 | nine thousand five hundred and nine
+8305 | eight thousand three hundred and five
+7105 | seven thousand one hundred and five
+3999 | three thousand nine hundred and ninety nine`,
+
+        `14014 | fourteen thousand and forteen
+19034 | nineteen thousand and thirty four
+64340 | sixty four thousand three hundred and forty
+99999 | ninety nine thousand nine hundred and ninety nine 
+30303 | thirty thousand three hundred and three`
+      ]
     }
   ]
 };

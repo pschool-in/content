@@ -68,7 +68,51 @@ export default {
         {
           type: 'misc~(b-a)-(a-b)',
           fontSize: '1.3rem'
+        }
+      ]
+    },
+    {
+      id: 'multiply',
+      type: 'quickArithmetic',
+      label: 'Multiply',
+      lockAfter: 2,
+      commonData: {
+        title: 'Multiply',
+        allowNegative: true
+      },
+      data: [
+        {
+          type: 'misc~-a*-a',
+          fontSize: '1.3rem'
         },
+        {
+          type: 'misc~-a*b',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~-a*-a*-1',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~-a*b*-1',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~a*-b',
+          fontSize: '1.3rem'
+        }
+      ]
+    },
+    {
+      id: 'divide',
+      type: 'quickArithmetic',
+      label: 'Division',
+      lockAfter: 2,
+      commonData: {
+        title: 'Division',
+        allowNegative: true
+      },
+      data: [
         {
           type: 'misc~-aa/-a',
           fontSize: '1.3rem'
@@ -108,6 +152,38 @@ export default {
           type: 'misc~xx/8',
           decimal: true,
           decimalPointCount: 3
+        }
+      ]
+    },
+    {
+      id: 'evaluate-2',
+      type: 'quickArithmetic',
+      label: 'Evaluate',
+      lockAfter: 2,
+      commonData: {
+        title: 'Evaluate',
+        allowNegative: true
+      },
+      data: [
+        {
+          type: 'misc~a*-b/-1',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~b*a/-2',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~-a*b/-2',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~-a*b/-10',
+          fontSize: '1.3rem'
+        },
+        {
+          type: 'misc~a*b/-10',
+          fontSize: '1.3rem'
         }
       ]
     }

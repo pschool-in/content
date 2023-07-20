@@ -16,6 +16,16 @@ export default {
     },
     {
       type: 'counter',
+      id: 'count-linear',
+      label: 'Count Objects',
+      data: {
+        type: 'linear',
+        level: 2
+        // width: 100,
+      }
+    },
+    {
+      type: 'counter',
       id: 'count-10-100',
       label: 'Find Value - (10 - 100)',
       data: { level: 2 }

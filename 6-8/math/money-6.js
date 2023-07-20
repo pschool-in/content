@@ -3,6 +3,70 @@ export default {
   id: 'money-6',
   list: [
     {
+      type: 'counter',
+      id: 'count',
+      label: 'Count Money',
+      commonData: {
+        title: 'Calculate the total Money.'
+      },
+      data: [
+        {
+          width: 100,
+          type: 'money',
+          rs: [2000],
+          arr: [2, 5, 3, 6, 4, 8, 10, 7]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [20, 10],
+          arr: [
+            [2, 5],
+            [4, 2],
+            [5, 3],
+            [3, 4],
+            [2, 3]
+          ]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [2, 1],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        },
+        {
+          width: 100,
+          type: 'money',
+          rs: [20, 10],
+          arr: [
+            [2, 5],
+            [4, 2],
+            [5, 3],
+            [3, 4],
+            [2, 3]
+          ]
+        },
+        {
+          width: 80,
+          type: 'money',
+          rs: [10, 5],
+          arr: [
+            [3, 4],
+            [2, 3],
+            [2, 5],
+            [4, 2],
+            [5, 3]
+          ]
+        }
+      ]
+    },
+    {
       type: 'denomination',
       id: 'denomination',
       label: 'Write the Denomination',

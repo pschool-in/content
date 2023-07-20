@@ -117,7 +117,7 @@ Make an angle of 205 degree. | angle | 205`
     {
       label: 'Supplementary & Adjacent Angles',
       type: 'passage',
-      id: 'notes',
+      id: 'notes-2',
       data: {
         title: 'Supplementary Angles',
         text: [

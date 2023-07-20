@@ -8,21 +8,6 @@ export default {
       grade: '3-6'
     },
     {
-      label: 'Picture and Passage - 5',
-      id: 'comp-3',
-      grade: '2-5'
-    },
-    {
-      label: 'Picture and Passage - 6',
-      id: 'comp-3-2',
-      grade: '3-6'
-    },
-    {
-      label: 'Picture and Passage - 7',
-      id: 'comp-4',
-      grade: '3-6'
-    },
-    {
       label: 'Stories',
       id: 'stories',
       grade: '3-7'
@@ -42,12 +27,93 @@ export default {
       id: 'stories-4',
       grade: '3-7'
     },
+    //new additions start
     {
-      label: 'Animals',
-      id: 'reading-animals',
+      label: 'Tales',
+      id: 'tales-3',
       grade: '2-4'
     },
+    {
+      label: 'Bedtime Stories',
+      id: 'tales-5',
+      grade: '3-5'
+    },
+    {
+      label: 'Passages - 3',
+      id: 'passage-3',
+      grade: '3-5'
+    },
+    {
+      label: 'Passages - 5',
+      id: 'passage-5',
+      grade: '3-5'
+    },
+    {
+      label: 'Fiction',
+      id: 'fiction-4',
+      grade: '3-5'
+    },
+    {
+      label: 'Fiction - 2',
+      id: 'fiction-4-2',
+      grade: '3-5'
+    },
+    {
+      label: `Let's Speak - 3`,
+      id: 'conversation-3',
+      grade: '3-5'
+    },
+    {
+      label: `Let's Speak - 4`,
+      id: 'conversation-4',
+      grade: '3-5'
+    },
+    {
+      label: `Let's Speak - 5`,
+      id: 'conversation-5',
+      grade: '4-6'
+    },
+    /*
+    {
+      label: `Winter Wonderland`,
+      id: 'winter-5',
+      grade: '4-6'
+    },
+    */
+    //new additions end
 
+    // new higher class start
+    {
+      label: 'Fiction - 3',
+      id: 'fiction-6',
+      grade: '5-8'
+    },
+    {
+      label: `Let's Speak - 6`,
+      id: 'conversation-6',
+      grade: '5-8'
+    },
+    {
+      label: `Let's Speak - 7`,
+      id: 'conversation-7',
+      grade: '6-8'
+    },
+    {
+      label: `News Articles`,
+      id: 'news-7',
+      grade: '6-8'
+    },
+    {
+      label: `Great Thoughts`,
+      id: 'thoughts-8',
+      grade: '6-8'
+    },
+    {
+      label: `Great Personalities`,
+      id: 'comp-8',
+      grade: '6-8'
+    },
+    // new higher class end
     {
       label: 'Kids Favourite Cartoons',
       id: 'kids-favourite-cartoons',

@@ -541,7 +541,7 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
     },
     {
       type: 'numberInput',
-      id: 'variable-angle',
+      id: 'variable-angle-2',
       label: 'Isosceles Triangle - Unknown Angles',
       data: {
         title: 'Find the unknown angle(s).',
@@ -788,7 +788,7 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
     {
       label: 'Pythagoras Theorm',
       type: 'passage',
-      id: 'notes',
+      id: 'notes-pythagoras',
       data: {
         title: 'Pythagoras Theorm',
         text: [

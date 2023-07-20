@@ -518,7 +518,7 @@ The shepherd *clipped* the bird's wings.`
       }
     },
     {
-      id: 'frog-g',
+      id: 'frog-g-2',
       type: 'passage',
       label: 'Glossary',
       data: {
@@ -538,7 +538,7 @@ The shepherd *clipped* the bird's wings.`
     {
       label: 'Complete Word',
       type: 'completeWord',
-      id: 'frog-word',
+      id: 'frog-word-2',
       data: {
         text: `A bird's sharp, curved claws.|TALONS
 A loud noise made by the movement of leaves, feathers, or paper.|RUSTLE

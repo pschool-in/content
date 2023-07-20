@@ -19,7 +19,7 @@ Finally, he had his photograph taken with the dolphin. Raj fell fast asleep in t
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-2',
+      id: 'mcq',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -168,7 +168,7 @@ It was the best day of Peter's life, and it would always hold a special place in
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-peter',
+      id: 'mcq-2',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -299,7 +299,7 @@ Overwhelmed with gratitude, the woman thanked Alex wholeheartedly and showered h
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-6',
+      id: 'mcq-3',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -367,7 +367,7 @@ To leave behind or forsake completely.|ABANDONED`
       }
     },
     {
-      id: 'match-7',
+      id: 'match-5',
       label: 'Match: Synonyms',
       type: 'match',
       data: {
@@ -380,7 +380,7 @@ Joy, Happiness`
       }
     },
     {
-      id: 'match-8',
+      id: 'match-6',
       label: 'Match: Antonyms',
       type: 'match',
       data: {
@@ -408,7 +408,7 @@ Years passed, and as the seasons changed, Shadow's fur turned silver, but his sp
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-6',
+      id: 'mcq-4',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -472,7 +472,7 @@ Showing a heartfelt concern or interest.|COMPASSION`
       }
     },
     {
-      id: 'match-9',
+      id: 'match-7',
       label: 'Match: Synonyms',
       type: 'match',
       data: {
@@ -485,7 +485,7 @@ Inseparable, Indivisible`
       }
     },
     {
-      id: 'match-10',
+      id: 'match-8',
       label: 'Match: Antonyms',
       type: 'match',
       data: {
@@ -595,7 +595,7 @@ A feeling of deep sympathy and empathy for others, accompanied by a desire to he
       }
     },
     {
-      id: 'match-7',
+      id: 'match-9',
       label: 'Match: Synonyms',
       type: 'match',
       data: {
@@ -610,7 +610,7 @@ Powerful, Mighty`
       }
     },
     {
-      id: 'match-8',
+      id: 'match-10',
       label: 'Match: Antonyms',
       type: 'match',
       data: {

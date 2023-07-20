@@ -262,7 +262,7 @@ export default {
       ]
     },
     {
-      id: 'perimeter',
+      id: 'perimeter-2',
       type: 'areaGraph',
       label: 'Perimeter under the Shape',
       commonData: {
@@ -977,6 +977,27 @@ All sides of a pentagon are of equal length. Its perimeter is 45 ^m. What is the
 Each side of a pentagon is of length 11 ^m. What is its perimeter? | ?0 ^m | 55
 A square whose sides are 10 ^m is broken into two rectangles of equal size. What is the perimeter of one rectangle? | ?0 ^m | 30`
       ]
+    },
+    {
+      type: 'classifySentence',
+      label: 'Perimeter or Area',
+      id: 'perimeter-or-area',
+      data: {
+        title: 'Read the word problem and find what needs to be found.',
+        types: [
+          {
+            name: 'Perimeter',
+            text: `Kumar is planning to put a fence around his garden with a wire. How much wire does he need to buy?
+Priya ran one round on the jogging track around a park. Find the distance she ran.
+Priya is colouring the border of a rangoli before her house. How long is the border?`
+          },
+          {
+            name: 'Area',
+            text: `David is measuring the floor in his drawing room to cover it with a carpet. How much square feet of carpet does he require?
+Priya needs to plant her garden with rose plants covering a rectangle of sides 5 m and 7 m. She should leave a space of 1 m between each plant. Find the number of plants she can plant.`
+          }
+        ]
+      }
     }
   ]
 };

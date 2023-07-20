@@ -49,7 +49,7 @@ Sharks show their presence by swimming on the upper layer of water. The horn-lik
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-2',
+      id: 'fillup-drag',
       type: 'matchByDragDrop',
       data: {
         text: `Sharks are *predators*. 
@@ -196,7 +196,7 @@ Clumsy and slow`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-3',
+      id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
         text: `The snake's *camouflaged* body blended perfectly with the leaves and bushes.
@@ -320,7 +320,7 @@ A few years ago, there used to be street plays, in which monkeys danced and did 
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-5',
+      id: 'fillup-drag-3',
       type: 'matchByDragDrop',
       data: {
         text: `Monkey babies are called *infants*.
@@ -410,7 +410,7 @@ Adopting pandas as pets.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-2',
+      id: 'fillup-drag-4',
       type: 'matchByDragDrop',
       data: {
         text: `Pandas have a unique black and white *fur* that makes them look cute and special.
@@ -488,7 +488,7 @@ Flamingos are truly remarkable creatures. Their bright pink feathers, graceful s
     {
       label: 'Choose the correct answer',
       type: 'mcq',
-      id: 'mcq-6',
+      id: 'mcq-10',
       data: {
         title: 'Multiple Choice Questions',
         questions: [
@@ -519,7 +519,7 @@ They roll them around.`
     },
     {
       label: 'Fillup',
-      id: 'fillup-drag-3',
+      id: 'fillup-drag-5',
       type: 'matchByDragDrop',
       data: {
         text: `Flamingos are known for their *vibrant* pink feathers.

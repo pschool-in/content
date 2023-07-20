@@ -218,7 +218,7 @@ export default {
     },
     {
       type: 'denomination',
-      id: 'denomination',
+      id: 'denomination-2',
       label: 'Calculate the total Money',
       commonData: {
         showImg: true,
@@ -289,7 +289,7 @@ export default {
     },
     {
       type: 'denomination',
-      id: 'denomination-2',
+      id: 'denomination-3',
       label: 'Write Denomination',
       data: [
         {
@@ -358,7 +358,7 @@ export default {
     {
       //activity book - g4
       type: 'numberInput',
-      id: 'word-problem',
+      id: 'word-problem-2',
       label: 'Word Problems',
       data: {
         type: 'word-problem',
