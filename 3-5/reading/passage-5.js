@@ -167,7 +167,7 @@ It has been found that dinosaurs became extinct about 65 million years ago. A me
       data: {
         text: `Dinosaurs had diverse *structures* and sizes.
 Some dinosaurs were herbivores, which means they only ate *plants*.
-Scientists have assumed the body *assumed* of dinosaurs based on bones and skeletons.
+Scientists have *assumed* the body structure of dinosaurs based on bones and skeletons.
 The meteor impact caused the dinosaurs to go *extinct*.
 Carnivores are animals that primarily eat *meat*.`
       }
@@ -263,10 +263,6 @@ Unfortunately, bees face numerous challenges, including habitat loss, pesticide 
           {
             qText: 'Where do bees live?',
             options: `Hives, Nests, Caves, Trees`
-          },
-          {
-            qText: 'What creature sought shelter on the mossy rock?',
-            options: `A snail, A beetle, An earthworm`
           },
           {
             qText: `Which bees are responsible for gathering nectar, pollen, and water?`,

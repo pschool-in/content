@@ -56,7 +56,7 @@ export default {
         ]
       }
     },
-    {
+    /*{
       label: 'Who Said?',
       type: 'completeWord',
       id: 'hobby-word',
@@ -67,7 +67,7 @@ export default {
 "I love reading books. Whenever I have free time, I like to dive into different stories and adventures."|SARA
 "I enjoy playing the piano. I take lessons and practice regularly. It's challenging but also rewarding."|ABDUL`
       }
-    },
+    },*/
     {
       label: 'Word Matching',
       id: 'fillup-drag',
