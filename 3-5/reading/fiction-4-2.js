@@ -190,7 +190,7 @@ They were disappointed and discouraged John.`
         ]
       }
     },
-    {
+    /*{
       id: 'match-5',
       label: 'Match the following',
       type: 'match',
@@ -202,7 +202,7 @@ Impact, Collision
 Signature, Distinctive
 Accident, Mishap`
       }
-    },
+    },*/
     {
       id: 'cake-g',
       type: 'passage',

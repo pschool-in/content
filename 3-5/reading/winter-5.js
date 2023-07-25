@@ -361,7 +361,7 @@ In that moment, Mia understood that Christmas was not about expensive presents o
       type: 'completeWord',
       id: 'chirstmas-word',
       data: {
-        text: `Showing or expressing thanks and appreciation.| GRATIUDE
+        text: `Showing or expressing thanks and appreciation.| GRATITUDE
 Not excessively large, elaborate, or expensive.| MODEST
 Spreading or likely to spread from one person to another.|INFECTIOUS
 Hugging or holding tightly.|EMBRACED`
@@ -419,7 +419,7 @@ But a puddle on the floor!`
 <b>Sarah</b>: Cheers to that! *takes a bite* Mmm, it's absolutely divine. The combination of the crunchy graham cracker, melted chocolate, and gooey marshmallow is pure bliss.<br>
 <b>Emma</b>: I couldn't agree more. This is the perfect way to warm up and satisfy our sweet cravings. I'm so glad we decided to make s'mores tonight. Thanks for suggesting it, Sarah!<br>
 <b>Sarah</b>: You're welcome, Emma! It's always fun to share delicious treats and cozy moments with friends. Let's enjoy our s'mores and make more memories on this chilly night.<br>
-<b>Emma</b>: Absolutely! Here's to a night filled with laughter, warmth, and the magic of s'mores. Cheers, my friend!
+<b>Emma</b>: Absolutely! Here's to a night filled with laughter, warmth, and the magic of s'mores. Cheers, my friend!<br>
 <b>Sarah</b>: Cheers! And may our s'mores bring us joy and warmth throughout the winter season.`
           }
         ]
