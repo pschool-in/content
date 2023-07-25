@@ -235,7 +235,6 @@ Booming, Thunderous`
         text: `Grass, Hardcourt
 Top, Bottom
 Threat, Safety
-Points, Scores
 Booming, Feeble`
       }
     },

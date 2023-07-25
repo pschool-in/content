@@ -24,7 +24,7 @@ In addition to their milk-producing abilities, cows are also utilized for farmin
       label: 'Fill in the blanks',
       type: 'fillup',
       data: {
-        text: `Cows are *dommestic (wild)* animals found worldwide.
+        text: `Cows are *domestic (wild)* animals found worldwide.
 Cows are *herbivores (carnivores)*, consuming fresh grass and vegetables.
 Cows have the ability to *adapt (live)* to different environments.
 Cow's milk is highly *nutritious (sweet)* and offers numerous health benefits.

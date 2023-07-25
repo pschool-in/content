@@ -144,7 +144,7 @@ export default {
           },
           {
             qText: 'What is the primary taste of oranges?',
-            options: 'sour, slty, bitter'
+            options: 'sour, salty, bitter'
           },
           {
             qText: 'What is the color of an orange fruit?',
@@ -238,7 +238,7 @@ export default {
             options: 'dens, forests, pathways'
           },
           {
-            qText: 'A lions baby is called a _____ .',
+            qText: `A lion's baby is called a _____ .`,
             options: 'cub, calf, kitten'
           }
         ]

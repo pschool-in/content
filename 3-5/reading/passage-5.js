@@ -200,7 +200,7 @@ Carnivores are animals that primarily eat *meat*.`
       id: 'dino-word',
       data: {
         text: `Prehistoric reptiles that lived millions of years ago.|DINOSAUR
-The rigid framework of bones that supports the body of an organism.|SKELRTON
+The rigid framework of bones that supports the body of an organism.|SKELETON
 To suppose or take for granted without evidence.|ASSUME
 Animals that primarily eat plants and vegetation.|HERBIVORES
 Animals that primarily eat other animals.|CARNIVORES
