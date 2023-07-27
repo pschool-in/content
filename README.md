@@ -8,7 +8,7 @@ pschool (kg-5th)
 
 ```
 live: www.pschool.in
-test: pschpsch.netlify.app
+test: dev.pschool.in
 ```
 
 hindi
