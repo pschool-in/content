@@ -437,7 +437,7 @@ Their friendship went beyond *survival*, as they spent time grooming each other.
         title: 'Glossary',
         text: [
           {
-            type: 'hilight',
+            type: 'html',
             text: `<b>Unbreakable</b>: Impossible to break or separate.<br><br>
 <b>Prey</b>: An animal that is hunted and eaten by another animal.<br><br>
 <b>Agile</b>: Able to move quickly and easily.<br><br>

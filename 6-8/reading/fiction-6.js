@@ -286,7 +286,7 @@ The mice startled Sam.`
           },
           {
             name: 'Effect',
-            text: `am sneaked into the old abandoned house.
+            text: ` Sam sneaked into the old abandoned house.
 The sound startled the family of mice living in the attic.
 Sam was frightened and dashed towards the exit.`
           }

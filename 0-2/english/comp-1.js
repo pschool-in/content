@@ -310,7 +310,7 @@ export default {
           },
           {
             qText: 'What type of fruit is Mango?',
-            options: 'Juicy ans pulpy, Dry and bitter, Sour and itchy'
+            options: 'Juicy and pulpy, Dry and bitter, Sour and itchy'
           }
         ]
       }

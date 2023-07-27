@@ -442,7 +442,7 @@ Panda sleep for 12 hours a day.`
       }
     },
     {
-      id: 'pand-g',
+      id: 'panda-g',
       type: 'passage',
       label: 'Glossary',
       data: {
@@ -454,7 +454,7 @@ Panda sleep for 12 hours a day.`
 <b>Habitat</b>: The natural home or environment of an animal.<br><br>
 <b>Fur</b>: The thick hair covering the body of an animal.<br><br>
 <b>Bamboo</b>: A type of plant that pandas eat.<br><br>
-<b>Pand</b>: Large, cuddly bears that live in China.`
+<b>Panda</b>: Large, cuddly bears that live in China.`
           }
         ]
       }
@@ -481,8 +481,8 @@ Large, cuddly bears that live in China.|PANDA`
         text: `Flamingos are fascinating birds that live in different parts of the world. These beautiful creatures are known for their vibrant pink feathers and long, slender legs. Flamingos can be found in places like Africa, Asia, the Americas, and even parts of Europe. They love to live near lakes, lagoons, and other bodies of water where they can find their favorite food, such as shrimp and algae.
 One of the most amazing things about flamingos is their unique way of standing. They balance on one leg while tucking the other leg up against their body. It may seem strange, but this position helps them conserve energy and stay balanced on uneven surfaces. Flamingos also use their long, curved beaks to catch food from the water. They filter out the small organisms they eat and swallow the water.
 Did you know that flamingos love to socialize? They often gather in large groups called colonies or flocks. These flocks can sometimes include hundreds or even thousands of flamingos! When they gather together, they communicate with each other by making loud calls and performing special dances. It's a spectacular sight to see!
-Flamingos are also excellent parents. They build nests out of mud and sticks, usually in shallow water. The female flamingo lays a single egg, and both the male and female take turns keeping it warm until it hatches. Once the chick is born, the parents feed it a special milk-like substance that they produce in their bodies.
-Flamingos are truly remarkable creatures. Their bright pink feathers, graceful stance, and social behavior make them a favorite bird for many people. Next time you see a picture of a flamingo or spot one in a zoo, remember how incredible these birds are and all the unique things they can do!`
+Flamingos are also excellent parents. They build nests out of mud and sticks, usually in shallow water. The female flamingo lays a single egg, and both the male and female take turns keeping it warm until it hatches. 
+Flamingos are truly remarkable creatures. Their bright pink feathers, graceful stance, and social behavior make them a favorite bird for many people.`
       }
     },
     {

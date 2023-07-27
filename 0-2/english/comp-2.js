@@ -38,7 +38,7 @@ A young goat is called a *kid (cub)*.`
       id: 'goat-word',
       data: {
         text: `A young goat.|KID
-The sound produced by goats, similar to a human child.|BLAET
+The sound produced by goats, similar to a human child.|BLEAT
 A male goat.|BUCK
 A female goat.|DOE
 Food for goats, usually consisting of grass, leaves, and plants.|FODDER

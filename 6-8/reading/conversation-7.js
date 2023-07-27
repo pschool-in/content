@@ -106,17 +106,17 @@ export default {
           {
             type: 'html',
             text: ` <b>Teacher</b>: Good morning, Sarah! I noticed that you've completed the latest assignment. May I have a moment to discuss it with you?<br>
-<b>Sarah</b>: Good morning, Ms. Johnson! Sure, I'm ready to talk about it. What would you like to know?<br>
+<b>Sarah</b>: Good morning, Ma'am! Sure, I'm ready to talk about it. What would you like to know?<br>
 <b>Teacher</b>: Well, first of all, I want to commend you on your effort and thoroughness in completing the assignment. It's clear that you put in a lot of time and thought into it. I particularly enjoyed reading your analysis of the characters' motivations in the novel.<br>
-<b>Sarah</b>: Thank you, Ms. Johnson. I'm glad you liked it. I tried to delve deep into their actions and decisions to understand their underlying motives.<br>
+<b>Sarah</b>: Thank you, Ma'am. I'm glad you liked it. I tried to delve deep into their actions and decisions to understand their underlying motives.<br>
 <b>Teacher</b>: You certainly achieved that. Your analysis was insightful and supported by evidence from the text. However, I noticed a few instances where your arguments could have been strengthened with more examples or specific quotations. Providing concrete evidence would have made your points even more persuasive.<br>
-<b>Sarah</b>: I see what you mean, Ms. Johnson. I'll make a note of that for future assignments. I sometimes struggle with finding the right quotes to support my ideas.<br>
+<b>Sarah</b>: I see what you mean, Ma'am. I'll make a note of that for future assignments. I sometimes struggle with finding the right quotes to support my ideas.<br>
 <b>Teacher</b>: That's a common challenge, Sarah, but it's something you can work on. Remember to highlight key passages during your reading and jot down page numbers or quotes that you find relevant. This will make it easier for you to refer back to them when you're writing your analysis.<br>
-<b>Sarah</b>: That's a great suggestion, Ms. Johnson. I'll definitely start doing that. Is there anything else you would like me to improve upon in my future assignments?<br>
+<b>Sarah</b>: That's a great suggestion, Ma'am. I'll definitely start doing that. Is there anything else you would like me to improve upon in my future assignments?<br>
 <b>Teacher</b>: Overall, your writing style is impressive, but pay attention to minor grammatical errors and typos. Proofreading your work before submission will help you catch those mistakes. Additionally, I encourage you to explore alternative perspectives or counterarguments in your analysis. It will demonstrate a deeper understanding of the subject matter.<br>
-<b>Sarah</b>: Thank you for the feedback, Ms. Johnson. I appreciate your guidance and will take your suggestions into account for my next assignment.<br>
+<b>Sarah</b>: Thank you for the feedback, Ma'am. I appreciate your guidance and will take your suggestions into account for my next assignment.<br>
 <b>Teacher</b>: You're welcome, Sarah. I'm here to support your growth and help you become a stronger writer. Keep up the excellent work, and don't hesitate to reach out if you have any questions or need further assistance.<br>
-<b>Sarah</b>: Thank you, Ms. Johnson. I will. I look forward to improving my writing skills with your guidance.`
+<b>Sarah</b>: Thank you, Ma'am. I will. I look forward to improving my writing skills with your guidance.`
           }
         ]
       }
@@ -276,7 +276,7 @@ export default {
         ]
       }
     },
-    {
+    /* {
       id: 'slumber',
       type: 'passage',
       label: 'Slumber Party',
@@ -298,26 +298,26 @@ export default {
           }
         ]
       }
-    },
+    },*/
     {
       id: 'game',
       type: 'passage',
-      label: 'Game Night',
+      label: 'Game Challenge',
       data: {
-        title: 'Game Night',
+        title: 'Game Challenge',
         text: [
           {
             type: 'html',
-            text: ` <b>Arjun</b>: Hey, dude! I've been thinking, how about we plan a game night? It's been ages since we all got together and had some fun.<br>
+            text: ` <b>Arjun</b>: Hey, dude! I've been thinking, how about we plan a game challenge? It's been ages since we all got together and had some fun.<br>
 <b>Rahul</b>: That sounds awesome! Count me in. We could invite the whole gang. What games do you have in mind?<br>
 <b>Arjun</b>: Well, I thought we could start with some classic board games like Monopoly or Scrabble. They're always a hit and bring back great memories.<br>
 <b>Rahul</b>: Yeah, those are solid choices. We should also throw in some strategy games like Settlers of Catan or Risk. I know everyone enjoys a good challenge.<br>
 <b>Arjun</b>: Definitely! And how about some video games too? We could set up a gaming console and play some multiplayer games like FIFA or Mario Kart. That way, everyone can join in on the fun.<br>
-<b>Rahul</b>: Great idea! We could even organize a mini-tournament and see who comes out on top. It'll add some friendly competition to the night.<br>
+<b>Rahul</b>: Great idea! We could even organize a mini-tournament and see who comes out on top. It'll add some friendly competition.<br>
 <b>Arjun</b>: Awesome! I'll make sure to gather all the necessary equipment and snacks. We should also decide on a date and venue. Maybe we can set it up at my place?<br>
-<b>Rahul</b>: Sounds good to me. Let's check with the rest of the gang to find a suitable date that works for everyone. We don't want anyone to miss out on this epic game night.<br>
-<b>Arjun</b>: Agreed. Let's create a group chat and start brainstorming. I can't wait to reconnect with everyone and have an unforgettable game night. It's going to be a blast!<br>
-<b>Rahul</b>: Absolutely, man! This is going to be epic. Get ready for an epic battle of skills and laughter. Game night, here we come!`
+<b>Rahul</b>: Sounds good to me. Let's check with the rest of the gang to find a suitable date that works for everyone. We don't want anyone to miss out on this epic game challenge.<br>
+<b>Arjun</b>: Agreed. Let's create a group chat and start brainstorming. I can't wait to reconnect with everyone and have an unforgettable game challenge. It's going to be a blast!<br>
+<b>Rahul</b>: Absolutely, man! This is going to be epic. Get ready for an epic battle of skills and laughter.`
           }
         ]
       }
