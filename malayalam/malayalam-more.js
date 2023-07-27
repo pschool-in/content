@@ -65,6 +65,18 @@ export default {
           id: 'ml-picture-8'
         },
         {
+          label: 'ചിത്രം-8',
+          id: 'ml-picture-9'
+        },
+        {
+          label: 'ചിത്രം-9',
+          id: 'ml-picture-10'
+        },
+        {
+          label: 'ചിത്രം-10',
+          id: 'ml-picture-11'
+        },
+        {
           label: 'Find Word from Picture',
           id: 'ml-pic-word'
         },
@@ -97,6 +109,18 @@ export default {
           id: 'ml-pic-word-8'
         },
         {
+          label: 'Find Word from Picture - 9',
+          id: 'ml-pic-word-9'
+        },
+        {
+          label: 'Find Word from Picture - 10',
+          id: 'ml-pic-word-10'
+        },
+        {
+          label: 'Find Word from Picture - 11',
+          id: 'ml-pic-word-11'
+        },
+        {
           label: 'English to Malayalam - 2',
           id: 'ml-en-2'
         },
@@ -123,6 +147,18 @@ export default {
         {
           label: 'English to Malayalam - 8',
           id: 'ml-en-8'
+        },
+        {
+          label: 'English to Malayalam - 9',
+          id: 'ml-en-9'
+        },
+        {
+          label: 'English to Malayalam - 10',
+          id: 'ml-en-10'
+        },
+        {
+          label: 'English to Malayalam - 11',
+          id: 'ml-en-11'
         }
       ]
     }

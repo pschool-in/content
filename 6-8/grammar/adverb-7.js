@@ -490,7 +490,9 @@ He is so kind-hearted *that everybody loves him*.
 I will help you *because you are my true friend*.
 Rahul did not call Tina *because he felt guilty*.
 *If you save money*, you can buy a bigger house.
-*Unless you study harder*, you will fail.``I will free you *on condition that you pay a fine*.
+*Unless you study harder*, you will fail.`,
+
+        `I will free you *on condition that you pay a fine*.
 *Though he is not rich*, he gives to charity.
 *Although she tried very hard*, she had to give up.
 Tina is much younger *than she looks*.

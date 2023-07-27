@@ -649,7 +649,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 m 
-  30`
+30`
           },
           {
             svg: {
@@ -665,7 +665,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  36`
+36`
           },
           {
             svg: {
@@ -680,7 +680,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  21`
+21`
           },
           {
             svg: {
@@ -695,7 +695,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  27`
+27`
           },
           {
             svg: {
@@ -711,7 +711,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  28`
+28`
           },
           {
             svg: {
@@ -730,7 +730,7 @@ export default {
               ]
             },
             text: `Perimeter = ?0 cm 
-  21`
+21`
           }
         ]
       }
@@ -875,6 +875,65 @@ export default {
 
             8
           ]
+        ],
+        //from 4th std book
+        [
+          `1,1
+5,1
+5,2
+4,2
+4,3
+3, 4
+2, 3
+2, 2
+1, 2
+1, 1
+7`,
+
+          `0, 3
+1, 2
+5, 2
+6, 3
+5, 4
+1, 4
+0, 3
+10`,
+
+          [
+            `0, 5
+6, 5
+6, 6
+0, 6
+0, 5`,
+
+            `3, 5
+4, 4
+2, 2
+3, 1
+4, 2
+2, 4
+3, 5`,
+
+            10
+          ],
+
+          [
+            `0, 6
+6, 6
+4, 4
+4, 5
+1, 5
+0, 4
+0,6`,
+
+            `2, 5
+2, 0
+4, 0
+3, 1
+3, 5`,
+
+            12
+          ]
         ]
       ]
     },
@@ -966,7 +1025,7 @@ The area and the perimeter of a square are equal in value. What is the length of
 The length of a rectangle is 2 ^m. Its width is twice its length. What is its area? | ?0 ^sq.m | 8`,
 
         `A square of side 6 ^cm, is diagonally cut into two triangles. What is the area of one triangle? | ?0 ^sq.cm | 18
-The sides of a triangle are of length 3 ^cm, 4 ^m and 5 ^cm. What is its perimeter? | ?0 ^cm | 12
+The sides of a triangle are of length 3 ^cm, 4 ^cm and 5 ^cm. What is its perimeter? | ?0 ^cm | 12
 The perimeter of a rectangle is 50 ^m. Its width is 15 ^m. What is its length? | ?0 ^m | 10
 The area of a square is 144 ^sq.cm. What is the length of its side? | ?0 ^cm | 12
 The area of a square is 100 ^sq.cm. What is its perimeter? | ?0 ^cm | 40`,

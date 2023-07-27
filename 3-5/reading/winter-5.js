@@ -257,9 +257,9 @@ Multi-sport events like the Winter Olympic Games and the Winter Universiade serv
     {
       label: 'Riddles',
       type: 'completeWord',
-      id: 'winter-word',
+      id: 'winter-word-2',
       data: {
-        text: `I glide across frozen surfaces, with elegance and grace, Twirling and spinning at a rhythmic pace. I wear skates upon my feet, for me it's no hassle, Can you guess the sport? I'm a graceful ___________.| FIGURE SKATER|F_G_R_ S_A_ER.
+        text: `I glide across frozen surfaces, with elegance and grace, Twirling and spinning at a rhythmic pace. I wear skates upon my feet, for me it's no hassle, Can you guess the sport? I'm a graceful ___________.| FIGURE SKATER|F_G_R_ S_A_ER
 I slide down hills or icy tracks, with speed and thrill, On a sleek vehicle, designed for the chill. You can ride with friends or go solo, it's your choice, What am I? Listen closely, it's the sound of ___________.| SLEDDING|S___DING
 I'm an athlete on snow, gliding with finesse, Carving through slopes, in a display of impress. I use two boards strapped to my feet, left and right, Can you name the sport? It's called ___________.|SNOWBOARDING|S_O_B__RD__G
 I'm a team sport played on ice, with speed and precision, A puck and sticks, in a thrilling collision. Players on skates, battling for the goal, What's the sport I'm describing? It's ___________.|ICE HOCKEY|_C_ H_C_E_

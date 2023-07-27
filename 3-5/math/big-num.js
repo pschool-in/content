@@ -56,7 +56,7 @@ Thirty two crores forty lakhs and five hundred | 324000500`
 8,32,23,000 | eight crores thirty two lakhs and twenty three thousand
 2,00,50,000 | two crores and fifty thousand
 7,05,04,000 | seven crores five lakhs and four thousand
-32,40,00,500 | thirty two crores forty lakhs and five hundred.`
+32,40,00,500 | thirty two crores forty lakhs and five hundred`
       ]
     },
     {

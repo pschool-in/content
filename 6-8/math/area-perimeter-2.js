@@ -128,7 +128,7 @@ export default {
                 { str: '4 cm', x: 25, y: 65, rot: 35 }
               ]
             },
-            text: `Perimeter = ?0 m 
+            text: `Perimeter = ?0 cm 
 38`
           }
         ]

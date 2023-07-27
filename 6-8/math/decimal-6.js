@@ -13,12 +13,12 @@ export default {
         {
           left: '1.a,1.a',
           right: '?',
-          count: 10
+          count: 5
         },
         {
           left: 'a.5,a.5',
           right: '?',
-          count: 10
+          count: 5
         },
         {
           left: 'a.a,a.a',
@@ -39,7 +39,7 @@ export default {
         { left: 'a.a, 0.a, 0.a', right: 'a, ?', count: 10 },
         { left: '1.a, 1.a, 1.a', right: '1.a, ?', count: 10 },
         [
-          (`0.4, ?
+          `0.4, ?
     1
     0.6, 0.4, 0.2, 0.8`,
           `0.5, ?
@@ -53,7 +53,7 @@ export default {
     0.7, 0.2, 0.3, 0.4`,
           `1.5, ?
     2
-    1.5, 1.4, 0.2, 0.5`)
+    1.5, 1.4, 0.2, 0.5`
         ],
         [
           `?, ?

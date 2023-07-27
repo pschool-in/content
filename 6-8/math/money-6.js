@@ -51,8 +51,8 @@ export default {
             [3, 4],
             [2, 3]
           ]
-        },
-        {
+        }
+        /*  {
           width: 80,
           type: 'money',
           rs: [10, 5],
@@ -63,7 +63,7 @@ export default {
             [4, 2],
             [5, 3]
           ]
-        }
+        } */
       ]
     },
     {

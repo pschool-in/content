@@ -23,7 +23,15 @@ Big Numbers (big-num) - (place-value-2)
 
 Place Value - 2 (place-value-2)
 
-1. Find the number from abacus
+1. Find the number from the abacus
 2. Write numbers from number names
 3. Find the place value
 4. Find the biggest/smallest number based on a condition
+
+Area and Perimeter (area-perimeter)
+
+1. Find the area of rectangle, right triangle, other closed shapes in a grid
+2. Find the perimeter of triangle and polygon
+3. Calculate area and perimeter from sides
+4. Calculate sides from area or perimeter.
+5. Solve word problems. For the given situation find whether we need to calculate area or perimeter.

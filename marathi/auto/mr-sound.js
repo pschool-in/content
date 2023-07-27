@@ -1,1 +1,88 @@
-export default {"label":"Animals and Birds","id":"mr-sound","list":[{"type":"slides","label":"Animals","id":"animals","commonData":{"audio":"mr-picture.mp3"},"data":[["cat|मांजर","dog|कुत्रा","goat|शेळी","cow|गाय","donkey|गाढव","horse|घोडा","pig|डुक्कर","elephant|हत्ती","lion|सिंह","monkey|माकड"],["rhino|गेंडा","fox|कोल्हा","crocodile|मगर","bear|अस्वल","camel|उंट","whale|देवमासा","tiger|वाघ","sheep|मेंढ्या","fish|मासे","frog|बेडूक"],["crab|खेकडा","snake|साप","bull|बैल","tortoise|कासव","rat|उंदीर","ant|मुंगी","bat|वटवाघूळ"],["buffalo|म्हैस","butterfly|फुलपाखरू","bee|मधमाशी","goldfish|सोनेरी मासा","spider|कोळी"]]},{"type":"slides","label":"Birds","id":"birds","commonData":{"audio":"mr-picture.mp3"},"data":[["crow|कावळा","dove|पारवा","duck|बदक","hen|कोंबडी","parrot|पोपट","peacock|मोर","sparrow|चिमणी","eagle|गरुड"],["ostrich|शहामृग","owl|घुबड","rooster|कोंबडा","vulture|गिधाड","woodpecker|लाकूडपेकर"]]},{"type":"rightOne","label":"Select: Animals","id":"find-animals","commonData":{"title":"Listen to the sound and click on the image.","type":"image"},"data":[["cat","dog","goat","cow","donkey","horse","pig","elephant","lion","monkey"],["rhino","fox","crocodile","bear","camel","whale","tiger","sheep","fish","frog"],["crab","snake","bull","tortoise","rat","ant","bat"],["buffalo","butterfly","bee","goldfish","spider"]]},{"type":"rightOne","label":"Select: Birds","id":"find-birds","commonData":{"title":"Listen to the sound and click on the image.","type":"image"},"data":[["crow","dove","duck","hen","parrot","peacock","sparrow","eagle"],["ostrich","owl","rooster","vulture","woodpecker"]]}]}
+export default {
+  label: 'Animals and Birds',
+  id: 'mr-sound',
+  list: [
+    {
+      type: 'slides',
+      label: 'Animals',
+      id: 'animals',
+      commonData: { audio: 'mr/mr-animals.mp3' },
+      data: [
+        {
+          text: 'cat|मांजर\ndog|कुत्रा\ngoat|शेळी\ncow|गाय\ndonkey|गाढव\nhorse|घोडा\npig|डुक्कर\nelephant|हत्ती\nlion|सिंह\nmonkey|माकड',
+          audioOffset: 0
+        },
+        {
+          text: 'rhino|गेंडा\nfox|कोल्हा\ncrocodile|मगर\nbear|अस्वल\ncamel|उंट\nwhale|देवमासा\ntiger|वाघ\nsheep|मेंढ्या\nfish|मासे\nfrog|बेडूक',
+          audioOffset: 20
+        },
+        {
+          text: 'crab|खेकडा\nsnake|साप\nbull|बैल\ntortoise|कासव\nrat|उंदीर\nant|मुंगी\nbat|वटवाघूळ',
+          audioOffset: 40
+        },
+        {
+          text: 'buffalo|म्हैस\nbutterfly|फुलपाखरू\nbee|मधमाशी\ngoldfish|सोनेरी मासा\nspider|कोळी',
+          audioOffset: 54
+        }
+      ]
+    },
+    {
+      type: 'slides',
+      label: 'Birds',
+      id: 'birds',
+      commonData: { audio: 'mr/mr-birds.mp3' },
+      data: [
+        {
+          text: 'crow|कावळा\ndove|पारवा\nduck|बदक\nhen|कोंबडी\nparrot|पोपट\npeacock|मोर\nsparrow|चिमणी\neagle|गरुड',
+          audioOffset: 0
+        },
+        {
+          text: 'ostrich|शहामृग\nowl|घुबड\nrooster|कोंबडा\nvulture|गिधाड\nwoodpecker|लाकूडपेकर',
+          audioOffset: 16
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Select: Animals',
+      id: 'find-animals',
+      commonData: {
+        title: 'Listen to the sound and click on the image.',
+        type: 'image',
+        audio: 'mr/mr-animals.mp3'
+      },
+      data: [
+        {
+          words: 'cat,dog,goat,cow,donkey,horse,pig,elephant,lion,monkey',
+          audioOffset: 0
+        },
+        {
+          words: 'rhino,fox,crocodile,bear,camel,whale,tiger,sheep,fish,frog',
+          audioOffset: 20
+        },
+        {
+          words: 'crab,snake,bull,tortoise,rat,ant,bat,buffalo',
+          audioOffset: 40
+        },
+        { words: 'butterfly,bee,goldfish,spider', audioOffset: 56 }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Select: Birds',
+      id: 'find-birds',
+      commonData: {
+        title: 'Listen to the sound and click on the image.',
+        type: 'image',
+        audio: 'mr/mr-birds.mp3'
+      },
+      data: [
+        {
+          words: 'crow,dove,duck,hen,parrot,peacock,sparrow,eagle,ostrich',
+          audioOffset: 0
+        },
+        { words: 'owl,rooster,vulture,woodpecker', audioOffset: 18 }
+      ]
+    }
+  ]
+};

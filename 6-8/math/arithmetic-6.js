@@ -144,6 +144,7 @@ export default {
           decimal: true
         },
         {
+          title: 'Division (Round off to two decimal places)',
           type: 'misc~xxx/3',
           decimal: true,
           decimalPointCount: 2
@@ -175,15 +176,21 @@ export default {
         },
         {
           type: 'misc~-a*b/-2',
-          fontSize: '1.3rem'
+          fontSize: '1.3rem',
+          decimal: true,
+          decimalPointCount: 2
         },
         {
           type: 'misc~-a*b/-10',
-          fontSize: '1.3rem'
+          fontSize: '1.3rem',
+          decimal: true,
+          decimalPointCount: 2
         },
         {
           type: 'misc~a*b/-10',
-          fontSize: '1.3rem'
+          fontSize: '1.3rem',
+          decimal: true,
+          decimalPointCount: 2
         }
       ]
     }

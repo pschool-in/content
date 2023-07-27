@@ -73,13 +73,11 @@ export default {
       id: 'conversation-5',
       grade: '4-6'
     },
-    /*
     {
       label: `Winter Wonderland`,
       id: 'winter-5',
       grade: '4-6'
     },
-    */
     //new additions end
 
     // new higher class start
