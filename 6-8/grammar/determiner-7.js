@@ -366,7 +366,8 @@ This bakery is very popular, *most (many)* of the cookies are sold by lunchtime.
       id: 'complete-word',
       label: 'Write the Ordinal',
       commonData: {
-        title: 'Complete the ordinal forms of the numbers given below.'
+        title: 'Complete the ordinal forms of the numbers given below.',
+        hintFontSize: '2rem'
       },
       data: [
         `one| first

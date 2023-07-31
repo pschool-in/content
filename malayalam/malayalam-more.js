@@ -6,7 +6,6 @@ export default {
     {
       id: 'more',
       list: [
-        /*
         {
           label: 'സ്വരം',
           id: 'ml-sound-2'
@@ -35,7 +34,18 @@ export default {
           label: 'സ്വരം-7',
           id: 'ml-sound-8'
         },
-        */
+        {
+          label: 'സ്വരം-8',
+          id: 'ml-sound-9'
+        },
+        {
+          label: 'സ്വരം-9',
+          id: 'ml-sound-10'
+        },
+        {
+          label: 'സ്വരം-10',
+          id: 'ml-sound-11'
+        },
         {
           label: 'ചിത്രം',
           id: 'ml-picture-2'

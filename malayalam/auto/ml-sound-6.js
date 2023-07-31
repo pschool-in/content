@@ -1,6 +1,7 @@
 export default {
   label: 'കൂടുതൽ മൃഗങ്ങളും പക്ഷികളും',
   id: 'ml-sound-6',
+  lang: 'ml',
   list: [
     {
       type: 'slides',
@@ -31,10 +32,7 @@ export default {
       label: 'കൂടുതൽ പക്ഷികൾ',
       id: 'birds-2',
       data: {
-        0: {
-          text: 'hornbill|വേഴാമ്പൽ\npheasant|കൊറ്റി\nswan|ഹംസം\nspotted-dove|പുള്ളിപ്രാവ്\npelican|ഞാറപ്പക്ഷി\nrobin|വണ്ണാത്തിക്കിളി\nswallow|നാരാണപ്പക്ഷി\nseagull|കടൽകാക്ക\ngoose|വാത്ത്\nturkey|തുര്‍ക്കിക്കോഴി',
-          audioOffset: 0
-        },
+        audio: 'ml/ml-birds-2.mp3',
         text: 'hornbill|വേഴാമ്പൽ\npheasant|കൊറ്റി\nswan|ഹംസം\nspotted-dove|പുള്ളിപ്രാവ്\npelican|ഞാറപ്പക്ഷി\nrobin|വണ്ണാത്തിക്കിളി\nswallow|നാരാണപ്പക്ഷി\nseagull|കടൽകാക്ക\ngoose|വാത്ത്\nturkey|തുര്‍ക്കിക്കോഴി',
         audioOffset: 0
       }
@@ -72,11 +70,9 @@ export default {
       label: 'Select: കൂടുതൽ പക്ഷികൾ',
       id: 'find-birds-2',
       data: {
-        0: {
-          words:
-            'hornbill,pheasant,swan,spotted-dove,pelican,robin,swallow,seagull,goose,turkey',
-          audioOffset: 0
-        },
+        title: 'Listen to the sound and click on the image.',
+        type: 'image',
+        audio: 'ml/ml-birds-2.mp3',
         words:
           'hornbill,pheasant,swan,spotted-dove,pelican,robin,swallow,seagull,goose,turkey',
         audioOffset: 0

@@ -1,6 +1,6 @@
 export default {
-  label: "Antonyms Collection - 5",
-  id: "antonyms-5",
+  label: 'Antonyms Collection - 5',
+  id: 'antonyms-5',
   defs: {
     data: [
       `bicker, concur
@@ -71,158 +71,159 @@ coarse, fine
 foe, friend
 immaculate, dirty
 gratitude, ungratefulness
-gaunt, plump`,
-    ],
+gaunt, plump`
+    ]
   },
   list: [
     {
-      id: "reading",
-      type: "passage",
-      label: "Words List",
+      id: 'reading',
+      type: 'passage',
+      label: 'Words List',
       data: {
-        title: "Antonyms",
+        title: 'Antonyms',
         text: [
           //`Two words are said to be antonyms, if they have opposite meaning.`,
           {
-            type: "hilight",
+            type: 'hilight',
             text: `bicker× concur
 distress× pleasure
 captivity× freedom
 limp× stiff
 substantial× insignificant
-quench× parch`,
+quench× parch`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `fiasco× triumph
 utmost× minimal
 infamous× glorious
 inevitable× avoidable
 onset× conclusion
-concise× wordy`,
+concise× wordy`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `arrogant× modest
 offbeat× regular
 terminate× initiate
 generate× demolish
 conserve× squander
-crude× refined`,
+crude× refined`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `dominate× submit
 efficient× unproductive
 solitary× together
 fatigue× liveliness
 exhibit× conceal
-squash× expand`,
+squash× expand`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `agony× comfort
 myriad× scarcity
 gratify× disappoint
 cultivate× neglect
 admire× detest
-persist× quit`,
+persist× quit`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `absurd× sensible
 dainty× clumsy
 economise× waste
 frosty× sweltering
 yoke× release
-wilt× revive`,
+wilt× revive`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `vicious× cordial
 keen× reluctant
 subsequent× former
 justify× deny
 punishment× reward
-amnesty× punishment`,
+amnesty× punishment`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `anxiety× relief
 radical× conservative
 charity× unkindness
 abnormal× regular
 famous× anonymous
-diligent× lazy`,
+diligent× lazy`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `fantastic× sober
 preference× dislike
 furious× calm
 moderate× extreme
 mischievous× well-behaved
-militant× pacifist`,
+militant× pacifist`
           },
           {
-            type: "hilight",
+            type: 'hilight',
             text: `migrant× immovable
 coarse× fine
 foe× friend
 immaculate× dirty
 gratitude× ungratefulness
-gaunt× plump`,
-          },
-        ],
-      },
+gaunt× plump`
+          }
+        ]
+      }
     },
     {
-      type: "match",
-      label: "Match Antonyms",
-      id: "match",
+      type: 'match',
+      label: 'Match Antonyms',
+      id: 'match',
       commonData: {
-        title: "Match Antonyms",
+        title: 'Match Antonyms'
       },
       data: [
         {
-          refs: "data~0",
+          refs: 'data~0'
         },
         {
-          refs: "data~1",
+          refs: 'data~1'
         },
         {
-          refs: "data~2",
+          refs: 'data~2'
         },
         {
-          refs: "data~3",
+          refs: 'data~3'
         },
         {
-          refs: "data~4",
+          refs: 'data~4'
         },
         {
-          refs: "data~5",
+          refs: 'data~5'
         },
         {
-          refs: "data~6",
+          refs: 'data~6'
         },
         {
-          refs: "data~7",
+          refs: 'data~7'
         },
         {
-          refs: "data~8",
+          refs: 'data~8'
         },
         {
-          refs: "data~9",
-        },
-      ],
+          refs: 'data~9'
+        }
+      ]
     },
     {
-      type: "completeWord",
-      label: "Write the Antonym",
-      id: "complete-word",
+      type: 'completeWord',
+      label: 'Write the Antonym',
+      id: 'complete-word',
       commonData: {
-        lang: "en",
-        title: "Type the antonym of the given word.",
+        lang: 'en',
+        title: 'Type the antonym of the given word.',
+        hintFontSize: '2rem'
       },
       data: [
         `bicker| concur| co___r
@@ -293,50 +294,50 @@ gaunt× plump`,
       foe| friend| ______
       immaculate| dirty| _____
       gratitude| ungratefulness| u_g__te___n__s
-      gaunt| plump| p___p`,
-      ],
+      gaunt| plump| p___p`
+      ]
     },
     {
-      type: "connectLetters",
-      label: "Pick the word",
-      id: "connect-letters",
+      type: 'connectLetters',
+      label: 'Pick the word',
+      id: 'connect-letters',
       commonData: {
         title:
-          "Connect the letters from left to right to form the antonym for the below word.",
-        clueFont: "big",
+          'Connect the letters from left to right to form the antonym for the below word.',
+        clueFont: 'big'
       },
       data: [
         {
-          refs: "data~0",
+          refs: 'data~0'
         },
         {
-          refs: "data~1",
+          refs: 'data~1'
         },
         {
-          refs: "data~2",
+          refs: 'data~2'
         },
         {
-          refs: "data~3",
+          refs: 'data~3'
         },
         {
-          refs: "data~4",
+          refs: 'data~4'
         },
         {
-          refs: "data~5",
+          refs: 'data~5'
         },
         {
-          refs: "data~6",
+          refs: 'data~6'
         },
         {
-          refs: "data~7",
+          refs: 'data~7'
         },
         {
-          refs: "data~8",
+          refs: 'data~8'
         },
         {
-          refs: "data~9",
-        },
-      ],
-    },
-  ],
+          refs: 'data~9'
+        }
+      ]
+    }
+  ]
 };

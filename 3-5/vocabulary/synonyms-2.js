@@ -213,7 +213,8 @@ soon − shortly`
       id: 'complete-word',
       commonData: {
         lang: 'en',
-        title: 'Type the synonym of the given word.'
+        title: 'Type the synonym of the given word.',
+        hintFontSize: '2rem'
       },
       data: [
         {

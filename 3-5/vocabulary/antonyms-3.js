@@ -222,7 +222,8 @@ virtue × vice`
       id: 'complete-word',
       commonData: {
         lang: 'en',
-        title: 'Type the antonym of the given word.'
+        title: 'Type the antonym of the given word.',
+        hintFontSize: '2rem'
       },
       data: [
         {

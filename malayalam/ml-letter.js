@@ -4,48 +4,6 @@ export default {
   id: 'ml-letter',
   list: [
     {
-      type: 'completeWord',
-      label: 'Fill up: Animals',
-      id: 'fill-animals',
-      commonData: {
-        images: 'stockImgs',
-        title: 'Find the missing letters and complete the word.',
-        lang: 'ml'
-      },
-      data: [
-        `cat|പൂച്ച
-dog|നായ
-goat|ആട്
-cow|പശു
-donkey|കഴുത
-horse|കുതിര
-pig|പന്നി
-elephant|ആന
-lion|സിംഹം
-monkey|കുരങ്ങൻ`,
-
-        'rhino|കാണ്ടാമൃഗം|_ണ്ടാമൃഗം|കാ,ഷ,ഌ,ഞ\nfox|കുറുക്കൻ|_റുക്കൻ|കു,ന,ണ,ല\ncrocodile|മുതല|_തല|മു,ഌ,ന,ഞ\nzebra|സീബ്ര|_ബ്ര|സീ,ഫ,ഥ,ഷ\nbear|കരടി|_രടി|ക,ഷ,ഌ,ഋ\ncamel|ഒട്ടകം|_ട്ടകം|ഒ,ഫ,ല,ജ\nshark|സ്രാവ്|_രാവ്|സ്,ഋ,ഥ,ഌ\nwhale|തിമിംഗലം|_മിംഗലം|തി,ഥ,ഞ,ഷ\ndolphin|ഡോൾഫിൻ|_ൾഫിൻ|ഡോ,ഫ,ന,ണ\ntiger|കടുവ|_ടുവ|ക,ല,ണ,ജ',
-        'sheep|ആട്|_ട്|ആ,ഌ,ല,ണ\nfish|മത്സ്യം|_ത്സ്യം|മ,ഋ,ഌ,ഥ\nfrog|തവള|_വള|ത,ജ,ണ,ഞ\ncrab|ഞണ്ട്|_ണ്ട്|ഞ,ഥ,ണ,ഷ\nsnake|പാമ്പ്|_മ്പ്|പാ,ഥ,ഷ,ല\nbull|കാള|_ള|കാ,ന,ഋ,ഫ\ntortoise|ആമ|_മ|ആ,ഫ,ണ,ന\nrat|എലി|_ലി|എ,ജ,ഌ,ല\nant|ഉറുമ്പ്|_റുമ്പ്|ഉ,ഋ,ഷ,ണ\nbat|വവ്വാൽ|_വ്വാൽ|വ,ജ,ഫ,ഞ',
-        'buffalo|പോത്ത്|_ത്ത്|പോ,ല,ഥ,ജ\nbutterfly|ചിത്രശലഭം|_ത്രശലഭം|ചി,ഋ,ഫ,ജ\ncheetah|ചീറ്റ|_റ്റ|ചീ,ഷ,ല,ഫ\nbee|തേനീച്ച|_നീച്ച|തേ,ന,ഌ,ല\ngoldfish|സ്വർണ്ണമത്സ്യം|_വർണ്ണമത്സ്യം|സ്,ഫ,ഞ,ന\nspider|ചിലന്തി|_ലന്തി|ചി,ണ,ഋ,ജ\ngiraffe|ജിറാഫ്|_റാഫ്|ജി,ല,ഫ,ന\nkangaroo|കംഗാരു|_ഗാരു|കം,ഞ,ജ,ഥ'
-      ]
-    },
-    {
-      label: 'Fillup - Template',
-      type: 'fillup',
-      id: 'fillup',
-
-      data: {
-        noOptions: true,
-        lang: 'ml',
-        title: `Fill in the blanks with proper article`,
-        text: `horse - *കുതിര*
-        pig - *പന്നി*
-        elephant - *ആന*
-        lion - *സിംഹം*
-        monkey - *കുരങ്ങൻ*`
-      }
-    },
-    {
       type: 'tracing',
       id: 'vowels',
       label: 'Vowels - writing',

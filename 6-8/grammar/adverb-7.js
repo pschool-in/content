@@ -194,7 +194,8 @@ My cat follows me *everywhere* now.
       id: 'complete-word',
       label: 'Complete Word - Adjective to Adverb',
       commonData: {
-        title: 'Convert the given adjectives into corresponding adverbs.'
+        title: 'Convert the given adjectives into corresponding adverbs.',
+        hintFontSize: '2rem'
       },
       lockAfter: 2,
       data: [

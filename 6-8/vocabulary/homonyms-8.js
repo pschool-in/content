@@ -123,7 +123,8 @@ Homonyms may be used to refer to either homophones or homographs.`
       id: 'complete-word',
       label: 'Complete the Homophones ',
       commonData: {
-        title: `Find the homophones.`
+        title: `Find the homophones.`,
+        hintFontSize: '2rem'
       },
       data: [
         `there |THEIR 

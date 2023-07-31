@@ -164,7 +164,8 @@ United Arab Emirates, Abu Dhabi`
       label: 'Write the Capital',
       id: 'write-capital',
       commonData: {
-        title: 'Type the capital of the given country.'
+        title: 'Type the capital of the given country.',
+        hintFontSize: '2rem'
       },
       data: [
         `Australia| Canberra
@@ -211,7 +212,8 @@ Indonesia| Jakarta`
       label: 'Write the Country',
       id: 'write-country',
       commonData: {
-        title: 'Type the country which has the given capital.'
+        title: 'Type the country which has the given capital.',
+        hintFontSize: '2rem'
       },
       data: [
         `New Delhi| India

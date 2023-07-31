@@ -471,7 +471,8 @@ Fox, Vixen`
       id: 'complete-word-gender',
       label: 'Complete Word - Gender',
       commonData: {
-        title: 'Complete the masculine word for the given feminine word.'
+        title: 'Complete the masculine word for the given feminine word.',
+        hintFontSize: '2rem'
       },
       data: [
         `girl | BOY

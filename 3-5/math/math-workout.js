@@ -2,6 +2,18 @@ export default {
   label: 'Math Workouts',
   id: 'math-workout',
   list: [
+    /*
+    {
+      type: 'workouts',
+      id: 'decimal-to-binary',
+      label: 'Decimal To Binary',
+      data: {
+        type: 'decimalToBinary',
+        label: 'Decimal To Binary',
+        problem: 2020
+      }
+    },
+    */
     {
       type: 'workouts',
       id: 'decimal-to-binary',
@@ -114,6 +126,27 @@ export default {
       data: {
         type: 'divide',
         label: 'Divide',
+        samples: [
+          '1096/12',
+          '1298/12',
+          '2432/143',
+          '4321/24',
+          '6543/25',
+          '1525/15',
+          '1020/10',
+          '1850/18',
+          '2342/35',
+          '1234/11'
+        ]
+      }
+    },
+    {
+      type: 'workouts',
+      id: 'divideDecimal',
+      label: 'Divide Decimal',
+      data: {
+        type: 'divideDecimal',
+        label: 'Divide Decimal',
         samples: [
           '1096/12',
           '1298/12',
