@@ -19,12 +19,157 @@ export default {
           id: 'hi-picture-4'
         },
         {
+          label: 'चित्र-4',
+          id: 'hi-picture-5'
+        },
+        {
+          label: 'चित्र-5',
+          id: 'hi-picture-6'
+        },
+        {
+          label: 'चित्र-6',
+          id: 'hi-picture-7'
+        },
+        {
+          label: 'चित्र-7',
+          id: 'hi-picture-8'
+        },
+        {
+          label: 'चित्र-8',
+          id: 'hi-picture-9'
+        },
+        {
+          label: 'चित्र-9',
+          id: 'hi-picture-10'
+        },
+        {
+          label: 'चित्र-10',
+          id: 'hi-picture-11'
+        },
+        {
           label: 'ध्वनि',
           id: 'hi-sound-2'
         },
         {
           label: 'ध्वनि-2',
           id: 'hi-sound-3'
+        },
+        {
+          label: 'ध्वनि-3',
+          id: 'hi-sound-4'
+        },
+        {
+          label: 'ध्वनि-4',
+          id: 'hi-sound-5'
+        },
+        {
+          label: 'ध्वनि-5',
+          id: 'hi-sound-6'
+        },
+        {
+          label: 'ध्वनि-6',
+          id: 'hi-sound-7'
+        },
+        {
+          label: 'ध्वनि-7',
+          id: 'hi-sound-8'
+        },
+        {
+          label: 'ध्वनि-8',
+          id: 'hi-sound-9'
+        },
+        {
+          label: 'ध्वनि-9',
+          id: 'hi-sound-10'
+        },
+        {
+          label: 'ध्वनि-10',
+          id: 'hi-sound-11'
+        },
+
+        {
+          label: 'Find Word from Picture',
+          id: 'hi-pic-word'
+        },
+        {
+          label: 'Find Word from Picture - 2',
+          id: 'hi-pic-word-2'
+        },
+        {
+          label: 'Find Word from Picture - 3',
+          id: 'hi-pic-word-3'
+        },
+        {
+          label: 'Find Word from Picture - 4',
+          id: 'hi-pic-word-4'
+        },
+        {
+          label: 'Find Word from Picture - 5',
+          id: 'hi-pic-word-5'
+        },
+        {
+          label: 'Find Word from Picture - 6',
+          id: 'hi-pic-word-6'
+        },
+        {
+          label: 'Find Word from Picture - 7',
+          id: 'hi-pic-word-7'
+        },
+        {
+          label: 'Find Word from Picture - 8',
+          id: 'hi-pic-word-8'
+        },
+        {
+          label: 'Find Word from Picture - 9',
+          id: 'hi-pic-word-9'
+        },
+        {
+          label: 'Find Word from Picture - 10',
+          id: 'hi-pic-word-10'
+        },
+        {
+          label: 'Find Word from Picture - 11',
+          id: 'hi-pic-word-11'
+        },
+        {
+          label: 'English Words - 2',
+          id: 'hi-en-2'
+        },
+        {
+          label: 'English Words - 3',
+          id: 'hi-en-3'
+        },
+        {
+          label: 'English Words - 4',
+          id: 'hi-en-4'
+        },
+        {
+          label: 'English Words - 5',
+          id: 'hi-en-5'
+        },
+        {
+          label: 'English Words - 6',
+          id: 'hi-en-6'
+        },
+        {
+          label: 'English Words - 7',
+          id: 'hi-en-7'
+        },
+        {
+          label: 'English Words - 8',
+          id: 'hi-en-8'
+        },
+        {
+          label: 'English Words - 9',
+          id: 'hi-en-9'
+        },
+        {
+          label: 'English Words - 10',
+          id: 'hi-en-10'
+        },
+        {
+          label: 'English Words - 11',
+          id: 'hi-en-11'
         },
         {
           label: 'शब्द',

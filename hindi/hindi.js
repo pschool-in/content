@@ -72,6 +72,11 @@ export default {
       id: 'hi-poem',
       label: 'कविता',
       img: 'reading'
+    },
+    {
+      id: 'hi-en',
+      label: 'English',
+      img: 'translation'
     }
   ]
 };
