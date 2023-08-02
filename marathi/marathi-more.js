@@ -6,7 +6,6 @@ export default {
     {
       id: 'more',
       list: [
-        /*
         {
           id: 'mr-sound-2',
           label: 'आवाज - 2'
@@ -34,7 +33,19 @@ export default {
         {
           id: 'mr-sound-8',
           label: 'आवाज - 8'
-        },*/
+        },
+        {
+          id: 'mr-sound-9',
+          label: 'आवाज - 9'
+        },
+        {
+          id: 'mr-sound-10',
+          label: 'आवाज - 10'
+        },
+        {
+          id: 'mr-sound-11',
+          label: 'आवाज - 11'
+        },
         {
           label: 'चित्र - 2',
           id: 'mr-picture-2'
@@ -62,6 +73,18 @@ export default {
         {
           label: 'चित्र - 8',
           id: 'mr-picture-8'
+        },
+        {
+          label: 'चित्र - 9',
+          id: 'mr-picture-9'
+        },
+        {
+          label: 'चित्र - 10',
+          id: 'mr-picture-10'
+        },
+        {
+          label: 'चित्र - 11',
+          id: 'mr-picture-11'
         },
         {
           label: 'Find Word from Picture',
@@ -96,6 +119,18 @@ export default {
           id: 'mr-pic-word-8'
         },
         {
+          label: 'Find Word from Picture - 9',
+          id: 'mr-pic-word-9'
+        },
+        {
+          label: 'Find Word from Picture - 10',
+          id: 'mr-pic-word-10'
+        },
+        {
+          label: 'Find Word from Picture - 11',
+          id: 'mr-pic-word-11'
+        },
+        {
           label: 'English Words - 2',
           id: 'mr-en-2'
         },
@@ -122,6 +157,26 @@ export default {
         {
           label: 'English Words - 8',
           id: 'mr-en-8'
+        },
+        {
+          label: 'English Words - 9',
+          id: 'mr-en-9'
+        },
+        {
+          label: 'English Words - 10',
+          id: 'mr-en-9'
+        },
+        {
+          label: 'English Words - 11',
+          id: 'mr-en-9'
+        },
+        {
+          label: 'Numbers',
+          id: 'mr-numbers'
+        },
+        {
+          label: 'Colors',
+          id: 'mr-colors'
         }
         /*
         {
