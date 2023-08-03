@@ -7,83 +7,83 @@ export default {
       id: 'more',
       list: [
         {
-          label: 'चित्र',
+          label: 'चित्र: फल और सब्जियां',
           id: 'hi-picture-2'
         },
         {
-          label: 'चित्र-2',
+          label: 'चित्र: प्रकृति और अन्य',
           id: 'hi-picture-3'
         },
         {
-          label: 'चित्र-3',
+          label: 'चित्र: घर और अन्य',
           id: 'hi-picture-4'
         },
         {
-          label: 'चित्र-4',
+          label: 'चित्र: क्रिया और खेल',
           id: 'hi-picture-5'
         },
         {
-          label: 'चित्र-5',
+          label: 'चित्र: अधिक जानवर और पक्षी',
           id: 'hi-picture-6'
         },
         {
-          label: 'चित्र-6',
+          label: 'चित्र: अधिक फल और सब्जियाँ',
           id: 'hi-picture-7'
         },
         {
-          label: 'चित्र-7',
+          label: 'चित्र: वाहन और नौकरियाँ',
           id: 'hi-picture-8'
         },
         {
-          label: 'चित्र-8',
+          label: 'चित्र: अधिक छवियाँ',
           id: 'hi-picture-9'
         },
         {
-          label: 'चित्र-9',
+          label: 'चित्र: सामाजिक और विज्ञान',
           id: 'hi-picture-10'
         },
         {
-          label: 'चित्र-10',
-          id: 'hi-picture-11'
+          label: 'चित्र: उपकरण और संगीत वाद्ययंत्र',
+          id: 'hi-picture -11'
         },
         {
-          label: 'ध्वनि',
+          label: 'ध्वनि: फल और सब्जियां',
           id: 'hi-sound-2'
         },
         {
-          label: 'ध्वनि-2',
+          label: 'ध्वनि: प्रकृति और अन्य',
           id: 'hi-sound-3'
         },
         {
-          label: 'ध्वनि-3',
+          label: 'ध्वनि: घर और अन्य',
           id: 'hi-sound-4'
         },
         {
-          label: 'ध्वनि-4',
+          label: 'ध्वनि: क्रिया और खेल',
           id: 'hi-sound-5'
         },
         {
-          label: 'ध्वनि-5',
+          label: 'ध्वनि: अधिक जानवर और पक्षी',
           id: 'hi-sound-6'
         },
         {
-          label: 'ध्वनि-6',
+          label: 'ध्वनि: अधिक फल और सब्जियाँ',
           id: 'hi-sound-7'
         },
         {
-          label: 'ध्वनि-7',
+          label: 'ध्वनि: वाहन और नौकरियाँ',
           id: 'hi-sound-8'
         },
         {
-          label: 'ध्वनि-8',
+          label: 'ध्वनि: अधिक छवियाँ',
           id: 'hi-sound-9'
         },
         {
-          label: 'ध्वनि-9',
+          label: 'ध्वनि: सामाजिक और विज्ञान',
           id: 'hi-sound-10'
         },
         {
-          label: 'ध्वनि-10',
+          label: 'ध्वनि: उपकरण और संगीत वाद्ययंत्र',
           id: 'hi-sound-11'
         },
 
