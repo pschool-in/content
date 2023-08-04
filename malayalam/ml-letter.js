@@ -508,17 +508,17 @@ export default {
           words: 'ഖ, ഖാ, ഖി, ഖീ, ഖു, ഖൂ, ഖെ, ഖേ, ഖൊ, ഖോ, ഖൌ, ഖം, ഖഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-1.mp3',
           words: 'ഗ, ഗാ, ഗി, ഗീ, ഗു, ഗൂ, ഗെ, ഗേ, ഗൊ, ഗോ, ഗൌ, ഗം, ഗഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-1.mp3',
           words: 'ഘ, ഘാ, ഘി, ഘീ, ഘു, ഘൂ, ഘെ, ഘേ, ഘൊ, ഘോ, ഘൌ, ഘം, ഘഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-1.mp3',
           words: 'ച, ചാ, ചി, ചീ, ചു, ചൂ, ചെ, ചേ, ചൊ, ചോ, ചൌ, ചം, ചഃ'
         },
@@ -534,17 +534,17 @@ export default {
           words: 'ജ, ജാ, ജി, ജീ, ജു, ജൂ, ജെ, ജേ, ജൊ, ജോ, ജൌ, ജം, ജഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-2.mp3',
           words: 'ട, ടാ, ടി, ടീ, ടു, ടൂ, ടെ, ടേ, ടൊ, ടോ, ടൌ, ടം, ടഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-2.mp3',
           words: 'ഠ, ഠാ, ഠി, ഠീ, ഠു, ഠൂ, ഠെ, ഠേ, ഠൊ, ഠോ, ഠൌ, ഠം, ഠഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-2.mp3',
           words: 'ഡ, ഡാ, ഡി, ഡീ, ഡു, ഡൂ, ഡെ, ഡേ, ഡൊ, ഡോ, ഡൌ, ഡം, ഡഃ'
         },
@@ -560,17 +560,17 @@ export default {
           words: 'ണ, ണാ, ണി, ണീ, ണു, ണൂ, ണെ, ണേ, ണൊ, ണോ, ണൌ, ണം, ണഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-3.mp3',
           words: 'ത, താ, തി, തീ, തു, തൂ, തെ, തേ, തൊ, തോ, തൌ, തം, തഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-3.mp3',
           words: 'ഥ, ഥാ, ഥി, ഥീ, ഥു, ഥൂ, ഥെ, ഥേ, ഥൊ, ഥോ, ഥൌ, ഥം, ഥഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-3.mp3',
           words: 'ദ, ദാ, ദി, ദീ, ദു, ദൂ, ദെ, ദേ, ദൊ, ദോ, ദൌ, ദം, ദഃ'
         },
@@ -597,17 +597,17 @@ export default {
           words: 'ഫ, ഫാ, ഫി, ഫീ, ഫു, ഫൂ, ഫെ, ഫേ, ഫൊ, ഫോ, ഫൌ, ഫം, ഫഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-5.mp3',
           words: 'ബ, ബാ, ബി, ബീ, ബു, ബൂ, ബെ, ബേ, ബൊ, ബോ, ബൌ, ബം, ബഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-5.mp3',
           words: 'ഭ, ഭാ, ഭി, ഭീ, ഭു, ഭൂ, ഭെ, ഭേ, ഭൊ, ഭോ, ഭൌ, ഭം, ഭഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-5.mp3',
           words: 'മ, മാ, മി, മീ, മു, മൂ, മെ, മേ, മൊ, മോ, മൌ, മം, മഃ'
         },
@@ -623,17 +623,17 @@ export default {
           words: 'ര, രാ, രി, രീ, രു, രൂ, രെ, രേ, രൊ, രോ, രൌ, രം, രഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-6.mp3',
           words: 'ല, ലാ, ലി, ലീ, ലു, ലൂ, ലെ, ലേ, ലൊ, ലോ, ലൌ, ലം, ലഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-6.mp3',
           words: 'വ, വാ, വി, വീ, വു, വൂ, വെ, വേ, വൊ, വോ, വൌ, വം, വഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-6.mp3',
           words: 'ശ, ശാ, ശി, ശീ, ശു, ശൂ, ശെ, ശേ, ശൊ, ശോ, ശൌ, ശം, ശഃ'
         },
@@ -649,17 +649,17 @@ export default {
           words: 'ഹ, ഹാ, ഹി, ഹീ, ഹു, ഹൂ, ഹെ, ഹേ, ഹൊ, ഹോ, ഹൌ, ഹം, ഹഃ'
         },
         {
-          audioOffset: 50,
+          audioOffset: 52,
           audio: 'ml/ml-letter-7.mp3',
           words: 'ള, ളാ, ളി, ളീ, ളു, ളൂ, ളെ, ളേ, ളൊ, ളോ, ളൌ, ളം, ളഃ'
         },
         {
-          audioOffset: 74,
+          audioOffset: 78,
           audio: 'ml/ml-letter-7.mp3',
           words: 'ഴ, ഴാ, ഴി, ഴീ, ഴു, ഴൂ, ഴെ, ഴേ, ഴൊ, ഴോ, ഴൌ, ഴം, ഴഃ'
         },
         {
-          audioOffset: 98,
+          audioOffset: 104,
           audio: 'ml/ml-letter-7.mp3',
           words: 'റ, റാ, റി, റീ, റു, റൂ, റെ, റേ, റൊ, റോ, റൌ, റം, റഃ '
         }
