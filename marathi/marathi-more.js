@@ -8,82 +8,82 @@ export default {
       list: [
         {
           id: 'mr-sound-2',
-          label: 'आवाज - 2'
+          label: 'आवाज: फळे आणि भाज्या'
         },
         {
           id: 'mr-sound-3',
-          label: 'आवाज - 3'
+          label: 'आवाज: निसर्ग आणि इतर'
         },
         {
           id: 'mr-sound-4',
-          label: 'आवाज - 4'
+          label: 'आवाज: घर आणि इतर'
         },
         {
           id: 'mr-sound-5',
-          label: 'आवाज - 5'
+          label: 'आवाज: कृती आणि क्रीडा'
         },
         {
           id: 'mr-sound-6',
-          label: 'आवाज - 6'
+          label: 'आवाज: अधिक प्राणी आणि पक्षी'
         },
         {
           id: 'mr-sound-7',
-          label: 'आवाज - 7'
+          label: 'आवाज: अधिक फळे आणि भाज्या'
         },
         {
           id: 'mr-sound-8',
-          label: 'आवाज - 8'
+          label: 'आवाज: वाहने आणि नोकऱ्या'
         },
         {
           id: 'mr-sound-9',
-          label: 'आवाज - 9'
+          label: 'आवाज: अधिक प्रतिमा'
         },
         {
           id: 'mr-sound-10',
-          label: 'आवाज - 10'
+          label: 'आवाज: सामाजिक आणि विज्ञान'
         },
         {
           id: 'mr-sound-11',
-          label: 'आवाज - 11'
+          label: 'आवाज: साधने आणि संगीत वाद्ये'
         },
         {
-          label: 'चित्र - 2',
+          label: 'चित्र: फळे आणि भाज्या',
           id: 'mr-picture-2'
         },
         {
-          label: 'चित्र - 3',
+          label: 'चित्र: निसर्ग आणि इतर',
           id: 'mr-picture-3'
         },
         {
-          label: 'चित्र - 4',
+          label: 'चित्र: घर आणि इतर',
           id: 'mr-picture-4'
         },
         {
-          label: 'चित्र - 5',
+          label: 'चित्र: कृती आणि क्रीडा',
           id: 'mr-picture-5'
         },
         {
-          label: 'चित्र - 6',
+          label: 'चित्र: अधिक प्राणी आणि पक्षी',
           id: 'mr-picture-6'
         },
         {
-          label: 'चित्र - 7',
+          label: 'चित्र: अधिक फळे आणि भाज्या',
           id: 'mr-picture-7'
         },
         {
-          label: 'चित्र - 8',
+          label: 'चित्र: वाहने आणि नोकऱ्या',
           id: 'mr-picture-8'
         },
         {
-          label: 'चित्र - 9',
+          label: 'चित्र: अधिक प्रतिमा',
           id: 'mr-picture-9'
         },
         {
-          label: 'चित्र - 10',
+          label: 'चित्र: सामाजिक आणि विज्ञान',
           id: 'mr-picture-10'
         },
         {
-          label: 'चित्र - 11',
+          label: 'चित्र: साधने आणि संगीत वाद्ये',
           id: 'mr-picture-11'
         },
         {
