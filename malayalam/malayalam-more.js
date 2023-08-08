@@ -7,6 +7,10 @@ export default {
       id: 'more',
       list: [
         {
+          id: 'ml-letter-2',
+          label: 'അക്ഷരമാല'
+        },
+        {
           label: 'സ്വരം: പഴങ്ങളും പച്ചക്കറികളും',
           id: 'ml-sound-2'
         },
@@ -87,88 +91,100 @@ export default {
           id: 'ml-picture-11'
         },
         {
-          label: 'Find Word from Picture',
+          label: 'Find Word from Picture: Animals and Birds',
           id: 'ml-pic-word'
         },
         {
-          label: 'Find Word from Picture - 2',
+          label: 'Find Word from Picture: Fruits and Vegetables',
           id: 'ml-pic-word-2'
         },
         {
-          label: 'Find Word from Picture - 3',
+          label: 'Find Word from Picture: Nature and Others',
           id: 'ml-pic-word-3'
         },
         {
-          label: 'Find Word from Picture - 4',
+          label: 'Find Word from Picture: House and Others',
           id: 'ml-pic-word-4'
         },
         {
-          label: 'Find Word from Picture - 5',
+          label: 'Find Word from Picture: Action and Sports',
           id: 'ml-pic-word-5'
         },
         {
-          label: 'Find Word from Picture - 6',
+          label: 'Find Word from Picture: More Animals and Birds',
           id: 'ml-pic-word-6'
         },
         {
-          label: 'Find Word from Picture - 7',
+          label: 'Find Word from Picture: More Fruits and Vegetables',
           id: 'ml-pic-word-7'
         },
         {
-          label: 'Find Word from Picture - 8',
+          label: 'Find Word from Picture: Vehicles and Jobs',
           id: 'ml-pic-word-8'
         },
         {
-          label: 'Find Word from Picture - 9',
+          label: 'Find Word from Picture: More Images',
           id: 'ml-pic-word-9'
         },
         {
-          label: 'Find Word from Picture - 10',
+          label: 'Find Word from Picture: Social and Science',
           id: 'ml-pic-word-10'
         },
         {
-          label: 'Find Word from Picture - 11',
+          label: 'Find Word from Picture: Tools and Musical Instruments',
           id: 'ml-pic-word-11'
         },
         {
-          label: 'English to Malayalam - 2',
+          label: 'English to Malayalam: Fruits and Vegetables',
           id: 'ml-en-2'
         },
         {
-          label: 'English to Malayalam - 3',
+          label: 'English to Malayalam: Nature and Others',
           id: 'ml-en-3'
         },
         {
-          label: 'English to Malayalam - 4',
+          label: 'English to Malayalam: House and Others',
           id: 'ml-en-4'
         },
         {
-          label: 'English to Malayalam - 5',
+          label: 'English to Malayalam: Action and Sports',
           id: 'ml-en-5'
         },
         {
-          label: 'English to Malayalam - 6',
+          label: 'English to Malayalam: More Animals and Birds',
           id: 'ml-en-6'
         },
         {
-          label: 'English to Malayalam - 7',
+          label: 'English to Malayalam: More fruits and vegetables',
           id: 'ml-en-7'
         },
         {
-          label: 'English to Malayalam - 8',
+          label: 'English to Malayalam: Vehicles and Jobs',
           id: 'ml-en-8'
         },
         {
-          label: 'English to Malayalam - 9',
+          label: 'English to Malayalam: More Images',
           id: 'ml-en-9'
         },
         {
-          label: 'English to Malayalam - 10',
+          label: 'English to Malayalam: Social and Science',
           id: 'ml-en-10'
         },
         {
-          label: 'English to Malayalam - 11',
+          label: 'English to Malayalam: Tools and Musical Instruments',
           id: 'ml-en-11'
+        },
+        {
+          id: 'ml-word-2',
+          label: 'വാക്ക്'
+        },
+        {
+          label: 'അക്കം',
+          id: 'ml-numbers'
+        },
+        {
+          label: 'നിറം',
+          id: 'ml-colors'
         }
       ]
     }

@@ -87,87 +87,87 @@ export default {
           id: 'mr-picture-11'
         },
         {
-          label: 'Find Word from Picture',
+          label: 'Find Word from Picture: Animals and Birds',
           id: 'mr-pic-word'
         },
         {
-          label: 'Find Word from Picture - 2',
+          label: 'Find Word from Picture: Fruits and Vegetables',
           id: 'mr-pic-word-2'
         },
         {
-          label: 'Find Word from Picture - 3',
+          label: 'Find Word from Picture: Nature and Others',
           id: 'mr-pic-word-3'
         },
         {
-          label: 'Find Word from Picture - 4',
+          label: 'Find Word from Picture: House and Others',
           id: 'mr-pic-word-4'
         },
         {
-          label: 'Find Word from Picture - 5',
+          label: 'Find Word from Picture: Action and Sports',
           id: 'mr-pic-word-5'
         },
         {
-          label: 'Find Word from Picture - 6',
+          label: 'Find Word from Picture: More Animals and Birds',
           id: 'mr-pic-word-6'
         },
         {
-          label: 'Find Word from Picture - 7',
+          label: 'Find Word from Picture: More fruits and vegetables',
           id: 'mr-pic-word-7'
         },
         {
-          label: 'Find Word from Picture - 8',
+          label: 'Find Word from Picture: Vehicles and Jobs',
           id: 'mr-pic-word-8'
         },
         {
-          label: 'Find Word from Picture - 9',
+          label: 'Find Word from Picture: More Images',
           id: 'mr-pic-word-9'
         },
         {
-          label: 'Find Word from Picture - 10',
+          label: 'Find Word from Picture: Social and Science',
           id: 'mr-pic-word-10'
         },
         {
-          label: 'Find Word from Picture - 11',
+          label: 'Find Word from Picture: Tools and Musical Instruments',
           id: 'mr-pic-word-11'
         },
         {
-          label: 'English Words - 2',
+          label: 'English Words: Fruits and Vegetables',
           id: 'mr-en-2'
         },
         {
-          label: 'English Words - 3',
+          label: 'English Words: Nature and Others',
           id: 'mr-en-3'
         },
         {
-          label: 'English Words - 4',
+          label: 'English Words: House and Others',
           id: 'mr-en-4'
         },
         {
-          label: 'English Words - 5',
+          label: 'English Words: Action and Sports',
           id: 'mr-en-5'
         },
         {
-          label: 'English Words - 6',
+          label: 'English Words: More Animals and Birds',
           id: 'mr-en-6'
         },
         {
-          label: 'English Words - 7',
+          label: 'English Words: More Fruits and Vegetables',
           id: 'mr-en-7'
         },
         {
-          label: 'English Words - 8',
+          label: 'English Words: Vehicles and Jobs',
           id: 'mr-en-8'
         },
         {
-          label: 'English Words - 9',
+          label: 'English Words: More Images',
           id: 'mr-en-9'
         },
         {
-          label: 'English Words - 10',
+          label: 'English Words: Social and Science',
           id: 'mr-en-9'
         },
         {
-          label: 'English Words - 11',
+          label: 'English Words: Tools and Musical Instruments',
           id: 'mr-en-9'
         },
         {
