@@ -53,6 +53,11 @@ export default {
       img: 'wordsearch'
     },
     {
+      id: 'ml-crossword',
+      label: 'crossword',
+      img: 'crossword'
+    },
+    {
       id: 'ml-poem',
       label: 'കവിത',
       img: 'reading'
@@ -61,6 +66,11 @@ export default {
       id: 'ml-en',
       label: 'English',
       img: 'translation'
+    },
+    {
+      id: 'ml-gk',
+      label: 'General Knowledge',
+      img: 'gk'
     }
   ]
 };

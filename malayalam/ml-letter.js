@@ -511,202 +511,6 @@ export default {
       }
     },
     {
-      type: 'rightOne',
-      label: 'Identify Letter',
-      id: 'sound-letter',
-      lockAfter: 3,
-      commonData: {
-        title: 'Identify Letter based on Sound',
-        type: 'letters'
-      },
-      data: [
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-1.mp3',
-          words: 'ക, കാ, കി, കീ, കു, കൂ, കെ, കേ, കൊ, കോ, കൌ, കം, കഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-1.mp3',
-          words: 'ഖ, ഖാ, ഖി, ഖീ, ഖു, ഖൂ, ഖെ, ഖേ, ഖൊ, ഖോ, ഖൌ, ഖം, ഖഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-1.mp3',
-          words: 'ഗ, ഗാ, ഗി, ഗീ, ഗു, ഗൂ, ഗെ, ഗേ, ഗൊ, ഗോ, ഗൌ, ഗം, ഗഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-1.mp3',
-          words: 'ഘ, ഘാ, ഘി, ഘീ, ഘു, ഘൂ, ഘെ, ഘേ, ഘൊ, ഘോ, ഘൌ, ഘം, ഘഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-1.mp3',
-          words: 'ച, ചാ, ചി, ചീ, ചു, ചൂ, ചെ, ചേ, ചൊ, ചോ, ചൌ, ചം, ചഃ'
-        },
-        //2
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-2.mp3',
-          words: 'ഛ, ഛാ, ഛി, ഛീ, ഛു, ഛൂ, ഛെ, ഛേ, ഛൊ, ഛോ, ഛൌ, ഛം, ഛഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-2.mp3',
-          words: 'ജ, ജാ, ജി, ജീ, ജു, ജൂ, ജെ, ജേ, ജൊ, ജോ, ജൌ, ജം, ജഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-2.mp3',
-          words: 'ട, ടാ, ടി, ടീ, ടു, ടൂ, ടെ, ടേ, ടൊ, ടോ, ടൌ, ടം, ടഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-2.mp3',
-          words: 'ഠ, ഠാ, ഠി, ഠീ, ഠു, ഠൂ, ഠെ, ഠേ, ഠൊ, ഠോ, ഠൌ, ഠം, ഠഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-2.mp3',
-          words: 'ഡ, ഡാ, ഡി, ഡീ, ഡു, ഡൂ, ഡെ, ഡേ, ഡൊ, ഡോ, ഡൌ, ഡം, ഡഃ'
-        },
-        //3
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-3.mp3',
-          words: 'ഢ, ഢാ, ഢി, ഢീ, ഢു, ഢൂ, ഢെ, ഢേ, ഢൊ, ഢോ, ഢൌ, ഢം, ഢഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-3.mp3',
-          words: 'ണ, ണാ, ണി, ണീ, ണു, ണൂ, ണെ, ണേ, ണൊ, ണോ, ണൌ, ണം, ണഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-3.mp3',
-          words: 'ത, താ, തി, തീ, തു, തൂ, തെ, തേ, തൊ, തോ, തൌ, തം, തഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-3.mp3',
-          words: 'ഥ, ഥാ, ഥി, ഥീ, ഥു, ഥൂ, ഥെ, ഥേ, ഥൊ, ഥോ, ഥൌ, ഥം, ഥഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-3.mp3',
-          words: 'ദ, ദാ, ദി, ദീ, ദു, ദൂ, ദെ, ദേ, ദൊ, ദോ, ദൌ, ദം, ദഃ'
-        },
-        // 4
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-4.mp3',
-          words: 'ധ, ധാ, ധി, ധീ, ധു, ധൂ, ധെ, ധേ, ധൊ, ധോ, ധൌ, ധം, ധഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-4.mp3',
-          words: 'ന, നാ, നി, നീ, നു, നൂ, നെ, നേ, നൊ, നോ, നൌ, നം, നഃ'
-        },
-        //5
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-5.mp3',
-          words: 'പ, പാ, പി, പീ, പു, പൂ, പെ, പേ, പൊ, പോ, പൌ, പം, പഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-5.mp3',
-          words: 'ഫ, ഫാ, ഫി, ഫീ, ഫു, ഫൂ, ഫെ, ഫേ, ഫൊ, ഫോ, ഫൌ, ഫം, ഫഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-5.mp3',
-          words: 'ബ, ബാ, ബി, ബീ, ബു, ബൂ, ബെ, ബേ, ബൊ, ബോ, ബൌ, ബം, ബഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-5.mp3',
-          words: 'ഭ, ഭാ, ഭി, ഭീ, ഭു, ഭൂ, ഭെ, ഭേ, ഭൊ, ഭോ, ഭൌ, ഭം, ഭഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-5.mp3',
-          words: 'മ, മാ, മി, മീ, മു, മൂ, മെ, മേ, മൊ, മോ, മൌ, മം, മഃ'
-        },
-        //6
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-6.mp3',
-          words: 'യ, യാ, യി, യീ, യു, യൂ, യെ, യേ, യൊ, യോ, യൌ, യം, യഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-6.mp3',
-          words: 'ര, രാ, രി, രീ, രു, രൂ, രെ, രേ, രൊ, രോ, രൌ, രം, രഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-6.mp3',
-          words: 'ല, ലാ, ലി, ലീ, ലു, ലൂ, ലെ, ലേ, ലൊ, ലോ, ലൌ, ലം, ലഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-6.mp3',
-          words: 'വ, വാ, വി, വീ, വു, വൂ, വെ, വേ, വൊ, വോ, വൌ, വം, വഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-6.mp3',
-          words: 'ശ, ശാ, ശി, ശീ, ശു, ശൂ, ശെ, ശേ, ശൊ, ശോ, ശൌ, ശം, ശഃ'
-        },
-        //7
-        {
-          audioOffset: 0,
-          audio: 'ml/ml-letter-7.mp3',
-          words: 'സ, സാ, സി, സീ, സു, സൂ, സെ, സേ, സൊ, സോ, സൌ, സം, സഃ'
-        },
-        {
-          audioOffset: 26,
-          audio: 'ml/ml-letter-7.mp3',
-          words: 'ഹ, ഹാ, ഹി, ഹീ, ഹു, ഹൂ, ഹെ, ഹേ, ഹൊ, ഹോ, ഹൌ, ഹം, ഹഃ'
-        },
-        {
-          audioOffset: 52,
-          audio: 'ml/ml-letter-7.mp3',
-          words: 'ള, ളാ, ളി, ളീ, ളു, ളൂ, ളെ, ളേ, ളൊ, ളോ, ളൌ, ളം, ളഃ'
-        },
-        {
-          audioOffset: 78,
-          audio: 'ml/ml-letter-7.mp3',
-          words: 'ഴ, ഴാ, ഴി, ഴീ, ഴു, ഴൂ, ഴെ, ഴേ, ഴൊ, ഴോ, ഴൌ, ഴം, ഴഃ'
-        },
-        {
-          audioOffset: 104,
-          audio: 'ml/ml-letter-7.mp3',
-          words: 'റ, റാ, റി, റീ, റു, റൂ, റെ, റേ, റൊ, റോ, റൌ, റം, റഃ '
-        }
-      ]
-    },
-    {
-      type: 'completeWord',
-      label: 'Complete the word',
-      id: 'complete-word',
-      data: {
-        images: 'custom',
-        text: `car| കാ, ർ | _ , ർ | കാ, ക, ഫ, മ
-  peacock| മ,യി,ൽ | _,യി,ൽ | മ, കാ, ക, ഫ
-  onion|ഉ,ള്ളി |_,ള്ളി | ഉ, മ, ഒ, ച
-  camel|ഒ,ട്ട,കം |_,ട്ട,കം | ഒ, ഉ, മ, ച
-  jackfruit|ച,ക്ക |_,ക്ക | ച, ഉ, മ, ഒ
-  crab|ഞ,ണ്ട് |_,ണ്ട് | ഞ, ഉ, മ, ഒ
-  bell|മ,ണി |_,ണി | മ, ഉ, ഒ, ച
-  pen|പേ,ന |_,ന | പേ, ഉ, ഫ, ക
-  fruits|ഫ,ലം |_,ലം | ഫ, പേ, ഉ, ക
-  tiger|ക,ടു,വ |_,ടു,വ | ക, പേ, ഉ, ഫ`
-      }
-    },
-    {
       type: 'match',
       label: 'Match Animals',
       data: {
@@ -727,6 +531,125 @@ export default {
         big: true
       },
       id: 'match-flowers'
+    },
+    {
+      id: 'connect',
+      type: 'maze',
+      label: 'ബന്ധിപ്പിക്കുക',
+      data: [
+        {
+          title:
+            'സ്വരാക്ഷരങ്ങൾ ബന്ധിപ്പിച്ച് വാഴപ്പഴം ലഭിക്കാൻ കുരങ്ങിനെ സഹായിക്കുക.',
+          start: 'monkey',
+          target: 'banana',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 3,
+            y: 0
+          },
+          size: 50,
+          fills: `ക,ആ,ഒ,ഉ,ഖ,ഗ
+ഖ,ഒ,ഘ,ക,ച,ഗ
+ഘ,ആ,ഉ,ഇ,ഖ,ഗ
+ഛ,ഗ,ച,ഒ,ഘ,ഖ
+ഛ,ജ,ച,എ,ജ,ഘ
+ഇ,ഉ,ഒ,ആ,ച,ഛ`,
+          table: `0,1,1,1,0,0
+0,1,0,0,0,0
+0,1,1,1,0,0
+0,0,0,1,0,0
+0,0,0,1,0,0
+1,1,1,1,0,0`
+        },
+        {
+          title:
+            'സ്വരാക്ഷരങ്ങൾ ബന്ധിപ്പിച്ച് മുന്തിരിപ്പഴം ലഭിക്കാൻ കുറുക്കനെ സഹായിക്കുക.',
+          start: 'fox',
+          target: 'grapes',
+          color: '#c05252',
+          startPt: {
+            x: 5,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `ആ,ഛ,ച,ജ,ട,ഒ
+ഒ,ച,ക,ഖ,ഛ,ജ
+ഇ,ഗ,എ,ഉ,ഒ,ഛ
+ഉ,ച,എ,ജ,ഇ,ഗ
+ഒ,ആ,ഇ,ഘ,എ,ഉ
+ഠ,ഖ,ജ,ഘ,ട,ആ`,
+          table: `1,0,0,0,0,0
+1,0,0,0,0,0
+1,0,1,1,1,0
+1,0,1,0,1,0
+1,1,1,0,1,1
+0,0,0,0,0,1`
+        },
+        {
+          title:
+            'വ്യഞ്ജനാക്ഷരങ്ങൾ ബന്ധിപ്പിച്ച് അസ്ഥി ലഭിക്കാൻ നായയെ സഹായിക്കുക.',
+          start: 'dog',
+          target: 'bone',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 5,
+            y: 0
+          },
+          size: 50,
+          fills: `ഓ,ഔ,ഏ,ഉ,ന,ഡ
+ഓ,ഔ,ഏ,ഉ,ഠ,ഈ
+ഔ,ഏ,ഓ,ഉ,ഡ,ന
+ധ,ന,പ,ഓ,ഔ,പ
+ധ,ഉ,ത,ഏ,ഈ,ഡ
+ഠ,ഉ,ഠ,ഡ,ന,പ`,
+          table: `0,0,0,0,1,1
+0,0,0,0,1,0
+0,0,0,0,1,1
+1,1,1,0,0,1
+1,0,1,0,0,1
+1,0,1,1,1,1`
+        },
+        {
+          title:
+            'വ്യഞ്ജനാക്ഷരങ്ങൾ ബന്ധിപ്പിച്ച് വാഴപ്പഴം ലഭിക്കാൻ കുരങ്ങിനെ സഹായിക്കുക.',
+          start: 'monkey',
+          target: 'banana',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `ത,ഫ,ഠ,ഉ,ഋ,ഏ
+ഋ,ഏ,ഊ,ത,ഫ,അം
+ഠ,ത,ഫ,ഋ,ധ,ഏ
+ധ,ഋ,ത,മ,ഡ,ഏ
+ഡ,അം,ഔ,ഊ,ഐ,ഔ
+മ,ഔ,അം,ഊ,ഔ,ഐ`,
+          table: `1,1,1,1,0,0
+0,0,0,1,1,0
+1,1,1,0,1,0
+1,0,1,1,1,0
+1,0,0,0,0,0
+1,0,0,0,0,0`
+        }
+      ]
     }
   ]
 };

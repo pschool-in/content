@@ -22,10 +22,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `लाल, red
-पीला , yellow
-हरा ,  green
-नीला, blue 
-बैंगनी , purple`
+  पीला , yellow
+  हरा ,  green
+  नीला, blue 
+  बैंगनी , purple`
         },
         {
           commonPath: 'M 0 0 H 100 V 40 H 0 V 0',
@@ -42,10 +42,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `भुरा, brown
-काला, black
-सफ़ेद, white 
-गुलाबी , pink 
-धुमैला, grey`
+  काला, black
+  सफ़ेद, white 
+  गुलाबी , pink 
+  धुमैला, grey`
         },
         {
           commonPath: 'M 0 0 H 100 V 40 H 0 V 0',
@@ -78,10 +78,10 @@ export default {
           },
           rightImgType: 'svg',
           text: `नारंगी , orange
-भगवा , saffron
-आसमानी नीला , skyBlue 
-सुनहरा , gold
-चांदी , silver`
+  भगवा , saffron
+  आसमानी नीला , skyBlue 
+  सुनहरा , gold
+  चांदी , silver`
         }
       ]
     },
@@ -110,22 +110,22 @@ export default {
       },
       data: [
         `दूध, सफ़ेद
-रात, काला
-आसमान, नीला 
-टमाटर, लाल
-करी पत्ता, हरा`,
+  रात, काला
+  आसमान, नीला 
+  टमाटर, लाल
+  करी पत्ता, हरा`,
 
         `समुद्र, नीला 
-कौवा, काला
-हरी पत्ते, हरा
-बादल, सफेद
-नींबू, पीला`,
+  कौवा, काला
+  हरी पत्ते, हरा
+  बादल, सफेद
+  नींबू, पीला`,
 
         `बैंगन, बैंगनी
-स्याही, नीला
-मूंग, हरा
-कैरेट, नारंगी
-मूली, सफ़ेद`
+  स्याही, नीला
+  मूंग, हरा
+  कैरेट, नारंगी
+  मूली, सफ़ेद`
       ]
     },
     {
