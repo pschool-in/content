@@ -77,6 +77,11 @@ export default {
       id: 'hi-en',
       label: 'English',
       img: 'translation'
+    },
+    {
+      id: 'hi-gk',
+      label: 'सामान्य ज्ञान',
+      img: 'gk'
     }
   ]
 };
