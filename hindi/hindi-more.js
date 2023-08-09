@@ -44,7 +44,7 @@ export default {
         },
         {
           label: 'चित्र: उपकरण और संगीत वाद्ययंत्र',
-          id: 'hi-picture -11'
+          id: 'hi-picture-11'
         },
         {
           label: 'ध्वनि: फल और सब्जियां',
