@@ -20,7 +20,8 @@ export default {
               'M 12 171 C 16 233 62 207 92 174  C 149 89 210 211 115 216 ',
               'M 9 94 L 189 94 '
             ],
-            width: 190
+            width: 190,
+            audio: 0
           },
           {
             id: 'का',
@@ -32,7 +33,7 @@ export default {
               'M 9 94 L 233 95 '
             ],
             width: 235,
-            audio: 28
+            audio: 2
           },
           {
             id: 'कि',
@@ -44,7 +45,7 @@ export default {
               'M 9 94 L 233 95 '
             ],
             width: 235,
-            audio: 28
+            audio: 4
           },
           {
             id: 'की',
@@ -56,7 +57,7 @@ export default {
               'M 0 95 L 233 95'
             ],
             width: 235,
-            audio: 28
+            audio: 6
           },
           {
             id: 'कु',
@@ -68,7 +69,7 @@ export default {
               'M 9 94 L 189 94'
             ],
             width: 190,
-            audio: 28
+            audio: 8
           },
           {
             id: 'कू',
@@ -80,7 +81,7 @@ export default {
               'M 9 94 L 189 94'
             ],
             width: 190,
-            audio: 28
+            audio: 10
           },
           {
             id: 'के',
@@ -92,7 +93,7 @@ export default {
               'M 9 94 L 189 94'
             ],
             width: 190,
-            audio: 28
+            audio: 12
           },
           {
             id: 'कै',
@@ -105,7 +106,7 @@ export default {
               'M 9 94 L 189 94'
             ],
             width: 190,
-            audio: 28
+            audio: 14
           },
           {
             id: 'को',
@@ -118,7 +119,7 @@ export default {
               'M 9 94 L 233 95 '
             ],
             width: 235,
-            audio: 28
+            audio: 16
           },
           {
             id: 'कौ',
@@ -132,7 +133,7 @@ export default {
               'M 9 94 L 233 95 '
             ],
             width: 235,
-            audio: 28
+            audio: 18
           },
           {
             id: 'कं',
@@ -143,7 +144,8 @@ export default {
               'M 85 61 L 101 62',
               'M 9 94 L 189 94 '
             ],
-            width: 190
+            width: 190,
+            audio: 20
           },
           {
             id: 'कः',
@@ -155,7 +157,8 @@ export default {
               'M 203 181 L 202 197 ',
               'M 9 94 L 189 94 '
             ],
-            width: 190
+            width: 190,
+            audio: 22
           }
         ]
       }
@@ -179,7 +182,7 @@ export default {
               'M 15 94 L 165 94 '
             ],
             width: 165,
-            audio: 30
+            audio: 24
           },
           {
             id: 'खा',
@@ -192,7 +195,7 @@ export default {
               'M 15 94 L 185 94 '
             ],
             width: 185,
-            audio: 28
+            audio: 26
           },
           {
             id: 'खि',
@@ -218,7 +221,7 @@ export default {
               'M 15 94 L 219 95 '
             ],
             width: 219,
-            audio: 28
+            audio: 30
           },
           {
             id: 'खु',
@@ -231,7 +234,7 @@ export default {
               'M 15 94 L 190 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 32
           },
           {
             id: 'खू',
@@ -244,7 +247,7 @@ export default {
               'M 15 94 L 190 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 34
           },
           {
             id: 'खे',
@@ -257,7 +260,7 @@ export default {
               'M 15 94 L 190 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 36
           },
           {
             id: 'खै',
@@ -271,7 +274,7 @@ export default {
               'M 15 94 L 190 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 38
           },
           {
             id: 'खो',
@@ -285,7 +288,7 @@ export default {
               'M 15 94 L 185 94 '
             ],
             width: 185,
-            audio: 28
+            audio: 40
           },
           {
             id: 'खौ',
@@ -300,7 +303,7 @@ export default {
               'M 15 94 L 185 94 '
             ],
             width: 185,
-            audio: 28
+            audio: 42
           },
           {
             id: 'खं',
@@ -312,7 +315,8 @@ export default {
               'M 126 60 L 142 61 ',
               'M 15 94 L 165 94 '
             ],
-            width: 165
+            width: 165,
+            audio: 44
           },
           {
             id: 'खः',
@@ -325,7 +329,8 @@ export default {
               'M 166 133 L 165 149 ',
               'M 167 181 L 165 196 '
             ],
-            width: 165
+            width: 165,
+            audio: 46
           }
         ]
       }
@@ -347,7 +352,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 150,
-            audio: 30
+            audio: 48
           },
           {
             id: 'गा',
@@ -358,7 +363,7 @@ export default {
               'M 10 95 L 192 95 '
             ],
             width: 192,
-            audio: 28
+            audio: 50
           },
           {
             id: 'गि',
@@ -369,7 +374,7 @@ export default {
               'M 10 95 L 192 95 '
             ],
             width: 192,
-            audio: 28
+            audio: 52
           },
           {
             id: 'गी',
@@ -380,7 +385,7 @@ export default {
               'M 10 95 L 208 95 '
             ],
             width: 208,
-            audio: 28
+            audio: 54
           },
           {
             id: 'गु',
@@ -391,7 +396,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 56
           },
           {
             id: 'गू',
@@ -402,7 +407,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 58
           },
           {
             id: 'गे',
@@ -413,7 +418,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 60
           },
           {
             id: 'गै',
@@ -425,7 +430,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 190,
-            audio: 28
+            audio: 62
           },
           {
             id: 'गो',
@@ -437,7 +442,7 @@ export default {
               'M 10 95 L 192 95 '
             ],
             width: 185,
-            audio: 28
+            audio: 64
           },
           {
             id: 'गौ',
@@ -450,7 +455,7 @@ export default {
               'M 10 95 L 192 95 '
             ],
             width: 185,
-            audio: 28
+            audio: 66
           },
           {
             id: 'गं',
@@ -460,7 +465,8 @@ export default {
               'M 102 61 L 118 62',
               'M 10 95 L 150 95 '
             ],
-            width: 165
+            width: 165,
+            audio: 68
           },
           {
             id: 'गः',
@@ -471,7 +477,8 @@ export default {
               'M 161 197 L 160 180 ',
               'M 10 95 L 150 95 '
             ],
-            width: 165
+            width: 165,
+            audio: 70
           }
         ]
       }
@@ -493,7 +500,7 @@ export default {
               'M 8 95 L 148 95'
             ],
             width: 150,
-            audio: 30
+            audio: 72
           },
           {
             id: 'घा',
@@ -504,7 +511,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 28
+            audio: 74
           },
           {
             id: 'घि',
@@ -515,7 +522,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 192,
-            audio: 28
+            audio: 76
           },
           {
             id: 'घी',
@@ -526,7 +533,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 28
+            audio: 78
           },
           {
             id: 'घु',
@@ -537,7 +544,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 28
+            audio: 80
           },
           {
             id: 'घू',
@@ -548,7 +555,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 28
+            audio: 81
           },
           {
             id: 'घे',
@@ -559,7 +566,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 28
+            audio: 82
           },
           {
             id: 'घै',
@@ -571,7 +578,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 28
+            audio: 84
           },
           {
             id: 'घो',
@@ -583,7 +590,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 28
+            audio: 86
           },
           {
             id: 'घौ',
@@ -596,7 +603,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 28
+            audio: 88
           },
           {
             id: 'घं',
@@ -606,7 +613,8 @@ export default {
               'M 112 62 L 128 63  ',
               'M 8 95 L 160 95'
             ],
-            width: 165
+            width: 165,
+            audio: 90
           },
           {
             id: 'घः',
@@ -617,7 +625,8 @@ export default {
               'M 172 180 L 171 196 ',
               'M 8 95 L 160 95'
             ],
-            width: 165
+            width: 165,
+            audio: 92
           }
         ]
       }
@@ -639,7 +648,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 150,
-            audio: 30
+            audio: 94
           },
           {
             id: 'चा',
@@ -650,7 +659,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 28
+            audio: 96
           },
           {
             id: 'चि',
@@ -661,7 +670,7 @@ export default {
               'M 8 95 L 210 95 '
             ],
             width: 192,
-            audio: 28
+            audio: 98
           },
           {
             id: 'ची',
@@ -672,7 +681,7 @@ export default {
               'M 8 95 L 228 96 '
             ],
             width: 228,
-            audio: 28
+            audio: 100
           },
           {
             id: 'चु',
@@ -683,7 +692,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 28
+            audio: 102
           },
           {
             id: 'चू',
@@ -694,7 +703,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 28
+            audio: 104
           },
           {
             id: 'चे',
@@ -705,7 +714,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 28
+            audio: 106
           },
           {
             id: 'चै',
@@ -717,7 +726,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 28
+            audio: 108
           },
           {
             id: 'चो',
@@ -729,7 +738,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 185,
-            audio: 28
+            audio: 200
           },
           {
             id: 'चौ',
@@ -742,7 +751,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 185,
-            audio: 28
+            audio: 202
           },
           {
             id: 'चं',
@@ -752,7 +761,8 @@ export default {
               'M 112 62 L 128 63 ',
               'M 12 95 L 152 95 '
             ],
-            width: 165
+            width: 165,
+            audio: 204
           },
           {
             id: 'चः',
@@ -763,7 +773,8 @@ export default {
               'M 172 180 L 171 196 ',
               'M 12 95 L 152 95 '
             ],
-            width: 165
+            width: 165,
+            audio: 206
           }
         ]
       }
@@ -774,6 +785,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        audio: 'hi/hi-words.mp3',
         source: [
           {
             id: 'नल',
@@ -784,7 +796,8 @@ export default {
               'M 259 163 L 201 195 C 212 115 100 143 156 244',
               'M 0 95 L 284 95'
             ],
-            width: 285
+            width: 285,
+            audio: 0
           },
           {
             id: 'मग',
@@ -795,7 +808,8 @@ export default {
               'M 248 93 L 248 243',
               'M 0 96 L 268 96'
             ],
-            width: 268
+            width: 268,
+            audio: 2
           },
           {
             id: 'जप',
@@ -806,7 +820,8 @@ export default {
               'M 229 95 L 229 245',
               'M 15 95 L 255 96'
             ],
-            width: 255
+            width: 255,
+            audio: 4
           },
           {
             id: 'फल',
@@ -818,7 +833,8 @@ export default {
               'M 328 164 L 270 196 C 281 116 169 144 225 245',
               'M 0 95 L 348 95'
             ],
-            width: 349
+            width: 349,
+            audio: 6
           },
           {
             id: 'सच',
@@ -830,7 +846,8 @@ export default {
               'M 279 96 L 279 246 ',
               'M 12 95 L 309 95'
             ],
-            width: 309
+            width: 309,
+            audio: 8
           }
         ]
       }
@@ -841,6 +858,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        audio: 'hi/hi-words.mp3',
         source: [
           {
             id: 'आम',
@@ -854,7 +872,8 @@ export default {
               'M 315 95 L 315 245',
               'M 118 95 L 341 95 '
             ],
-            width: 341
+            width: 341,
+            audio: 10
           },
           {
             id: 'शत',
@@ -865,7 +884,8 @@ export default {
               'M 236 95 L 236 245',
               'M 0 95 L 264 95'
             ],
-            width: 265
+            width: 265,
+            audio: 12
           },
           {
             id: 'माला',
@@ -878,7 +898,8 @@ export default {
               'M 348 94 L 348 244 ',
               'M 0 96 L 372 94 '
             ],
-            width: 372
+            width: 372,
+            audio: 14
           },
           {
             id: 'बात',
@@ -891,7 +912,8 @@ export default {
               'M 261 95 L 261 245',
               'M 0 95 L 285 96 '
             ],
-            width: 285
+            width: 285,
+            audio: 16
           },
           {
             id: 'दान',
@@ -902,7 +924,8 @@ export default {
               'M 290 95 L 290 245 ',
               'M 0 95 L 320 95'
             ],
-            width: 320
+            width: 320,
+            audio: 18
           }
         ]
       }
@@ -910,6 +933,7 @@ export default {
     {
       id: 'words-3',
       label: 'Simple Words - 3',
+      audio: 'hi/hi-words.mp3',
       type: 'tracing',
       data: {
         type: 'custom',
@@ -925,7 +949,8 @@ export default {
               'M 319 96 L 319 246',
               'M 0 95 L 340 96 '
             ],
-            width: 340
+            width: 340,
+            audio: 20
           },
           {
             id: 'दिन',
@@ -936,7 +961,8 @@ export default {
               'M 318 95 L 318 245',
               'M 4 95 L 338 95'
             ],
-            width: 338
+            width: 338,
+            audio: 22
           },
           {
             id: 'रवि',
@@ -947,7 +973,8 @@ export default {
               'M 233 96 C 189 25 133 45 130 95 L 130 248',
               'M 0 95 L 260 97'
             ],
-            width: 260
+            width: 260,
+            audio: 24
           },
           {
             id: 'कवि',
@@ -959,7 +986,8 @@ export default {
               'M 301 94 L 301 244',
               'M 0 95 L 321 95'
             ],
-            width: 321
+            width: 321,
+            audio: 26
           },
           {
             id: 'तिल',
@@ -971,7 +999,8 @@ export default {
               'M 313 163 L 255 195 C 266 115 154 143 210 244',
               'M 0 95 L 339 95'
             ],
-            width: 339
+            width: 339,
+            audio: 28
           }
         ]
       }

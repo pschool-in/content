@@ -212,6 +212,10 @@ export default {
           id: 'hi-grammar-4'
         },
         {
+          label: 'वर्ण',
+          id: 'hi-letter-2'
+        },
+        {
           label: 'वर्ण अधिक अभ्यास',
           id: 'hi-letter-practice'
         },
@@ -226,14 +230,6 @@ export default {
         {
           label: 'व्याकरण अधिक अभ्यास',
           id: 'hi-grammar-practice'
-        },
-        {
-          label: 'English to Hindi',
-          id: 'hi-en'
-        },
-        {
-          label: 'English to Hindi - 2',
-          id: 'hi-en-2'
         }
       ]
     }
