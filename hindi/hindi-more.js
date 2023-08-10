@@ -180,6 +180,10 @@ export default {
           id: 'ml-colors'
         },
         {
+          label: 'Rhyming Words',
+          id: 'hi-rhyming-words'
+        },
+        {
           label: 'शब्द',
           id: 'hi-word-4'
         },
