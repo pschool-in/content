@@ -231,25 +231,25 @@ Ramanujam | श्रीनिवास रमानुजम`
           questions: [
             {
               qText: 'किसको शांति के लिए नोबेल पुरस्कार प्रदान किया गया था?',
-              options: 'मदर टेरेसा, वाजपेयी, स्वामी विवेकानंद, टैगोर'
+              options: 'MotherTeresa, Vajpayee, SwamiVivekananda, Tagore'
             },
             {
               qText:
                 'किसके जन्मदिन को राष्ट्रीय युवा दिवस के रूप में मनाया जाता है?',
-              options: 'स्वामी विवेकानंद, सरदार वल्लभभाई पटेल, अंबेडकर, नेहरू'
+              options: 'SwamiVivekananda, VallabhbhaiPatel, Ambedkar, Nehru'
             },
             {
               qText: "किसे 'राष्ट्रपिता' कहा जाता है?",
               options:
-                'महात्मा गांधी, नेहरू, सुभाष चंद्र बोस, सरदार वल्लभभाई पटेल'
+                'MahatmaGandhi, Nehru, SubhasChandraBose, VallabhbhaiPatel'
             },
             {
               qText: 'भारत के पहले राष्ट्रपति कौन थे?',
-              options: 'राजेंद्र प्रसाद, कलाम, वाजपेयी, नेहरू'
+              options: 'RajendraPrasad, Kalam, Vajpayee, Nehru'
             },
             {
               qText: 'भारत के पहले प्रधानमंत्री कौन थे?',
-              options: 'नेहरू, सुभाष चंद्र बोस, सरदार वल्लभभाई पटेल, वाजपेयी'
+              options: 'Nehru, SubhasChandraBose, VallabhbhaiPatel, Vajpayee'
             }
           ]
         },
@@ -257,23 +257,24 @@ Ramanujam | श्रीनिवास रमानुजम`
           questions: [
             {
               qText: "किसे 'भारतीय तोपगाँधी' कहा जाता है?",
-              options: 'कलाम, वाजपेयी, मदर टेरेसा, नेहरू'
+              options: 'Kalam, Vajpayee, MotherTeresa, Nehru'
             },
             {
               qText: "किसे 'भारतीय सर्वोंनत' कहा जाता है?",
-              options: 'सरदार वल्लभभाई पटेल, वाजपेयी, अंबेडकर, राजेंद्र प्रसाद'
+              options: 'VallabhbhaiPatel, Vajpayee, Ambedkar, RajendraPrasad'
             },
             {
               qText: 'भारत के संविधान को लिखने वाले समिति के अध्यक्ष कौन थे?',
-              options: 'अंबेडकर, मदर टेरेसा, इंदिरा गांधी, नेहरू'
+              options: 'Ambedkar, MotherTeresa, IndiraGandhi, Nehru'
             },
             {
               qText: "किसे 'नेताजी' कहा जाता है?",
-              options: 'सुभाष चंद्र बोस, इंदिरा गांधी, अंबेडकर, राजेंद्र प्रसाद'
+              options:
+                'SubhasChandraBose, IndiraGandhi, Ambedkar, RajendraPrasad'
             },
             {
               qText: "हमारे राष्ट्रीय गान 'वन्दे मातरम्' का लेखक कौन हैं?",
-              options: 'टैगोर, मदर टेरेसा, इंदिरा गांधी, नेहरू'
+              options: 'Tagore, MotherTeresa, IndiraGandhi, Nehru'
             }
           ]
         },
