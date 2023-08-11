@@ -526,7 +526,7 @@ export default {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
         words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
-        audio: 'hi/hi-letters.mp3'
+        audio: 'hi/hi-letter.mp3'
       }
     },
     {
