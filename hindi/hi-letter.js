@@ -541,19 +541,19 @@ export default {
       },
       data: [
         {
-          audioOffset: 28,
+          audioOffset: 26,
           words: 'क, ख, ग, घ, ङ, च, छ, ज, झ, ञ'
         },
         {
-          audioOffset: 48,
+          audioOffset: 46,
           words: 'ट, ठ, ड, ढ, ण, त, थ, द, ध, न'
         },
         {
-          audioOffset: 68,
+          audioOffset: 66,
           words: 'प, फ, ब, भ, म, य, र, ल'
         },
         {
-          audioOffset: 84,
+          audioOffset: 82,
           words: 'व, श, ष, स, ह'
         }
       ]
