@@ -7,6 +7,22 @@ export default {
       id: 'more',
       list: [
         {
+          label: 'Numbers',
+          id: 'mr-numbers'
+        },
+        {
+          label: 'Colors',
+          id: 'mr-colors'
+        },
+        {
+          label: 'व्याकरण - 2',
+          id: 'mr-grammar-2'
+        },
+        {
+          label: 'Colors',
+          id: 'mr-colors'
+        }
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },
@@ -170,14 +186,7 @@ export default {
           label: 'English Words: Tools and Musical Instruments',
           id: 'mr-en-9'
         },
-        {
-          label: 'Numbers',
-          id: 'mr-numbers'
-        },
-        {
-          label: 'Colors',
-          id: 'mr-colors'
-        }
+        
         /*
         {
           label: 'शब्द - 2',
