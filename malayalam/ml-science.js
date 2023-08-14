@@ -52,11 +52,11 @@ export default {
         imageType: 'animals',
         types: [
           {
-            name: 'വന്യമൃഗങ്ങൾ',
+            name: 'വളർത്തുമൃഗങ്ങൾ',
             text: 'cat, dog, goat, horse, pig, sheep'
           },
           {
-            name: 'വളർത്തുമൃഗങ്ങൾ',
+            name: 'വന്യമൃഗങ്ങൾ',
             text: 'elephant, lion, monkey, rhino, tiger, zebra'
           }
         ]
@@ -93,7 +93,7 @@ export default {
           { word: 'വേരുകൾ', x: 4, y: 139 },
           { word: 'തണ്ട്', x: 190, y: 10 },
           { word: 'ഇലകൾ', x: 197, y: 78 },
-          { word: 'പൂക്കൾ', x: 18, y: 16 },
+          { word: 'പൂവ് ', x: 18, y: 16 },
           { word: 'മൊട്ട്', x: 4, y: 88 }
         ]
       }
@@ -101,7 +101,7 @@ export default {
     {
       type: 'dragAndDrop',
       id: 'ml-parts-dog',
-      label: 'നായ ഭാഗം',
+      label: 'നായയുടെ ഭാഗങ്ങൾ',
       data: {
         img: 'parts_dog.jpg',
         title: 'നായയുടെ ഭാഗങ്ങൾ തിരിച്ചറിയുക',
