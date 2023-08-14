@@ -173,11 +173,11 @@ export default {
         },
         {
           label: 'गिनती',
-          id: 'ml-numbers'
+          id: 'hi-numbers'
         },
         {
           label: 'रंग',
-          id: 'ml-colors'
+          id: 'hi-colors'
         },
         {
           label: 'Rhyming Words',
