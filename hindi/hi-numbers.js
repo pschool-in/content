@@ -55,7 +55,7 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Connect letters and find the number.',
-        lang: 'mr'
+        lang: 'hi'
       },
       data: [
         'एक, दो, तीन, चार, पांच',

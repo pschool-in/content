@@ -19,6 +19,10 @@ export default {
           id: 'ml-numbers'
         },
         {
+          label: 'അക്കം-2',
+          id: 'ml-numbers-2'
+        },
+        {
           label: 'നിറം',
           id: 'ml-colors'
         },

@@ -11,6 +11,14 @@ export default {
           id: 'hi-numbers'
         },
         {
+          label: 'गिनती 2',
+          id: 'hi-numbers-2'
+        },
+        {
+          label: 'गिनती अधिक अभ्यास',
+          id: 'hi-numbers-practice'
+        },
+        {
           label: 'रंग',
           id: 'hi-colors'
         },
