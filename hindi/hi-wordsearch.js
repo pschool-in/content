@@ -175,7 +175,7 @@ export default {
           ['मै', 'ना', 'ल', 'इ', 'या', 'ख़']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -338,7 +338,7 @@ export default {
           ['च', 'डी', 'थ', 'र', 'भी', 'र']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -390,7 +390,7 @@ export default {
           ['रा', 'ञ', 'ज', 'य', 'पु', 'र']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -442,7 +442,7 @@ export default {
           ['छ', 'बु', 'आ', 'ण', 'फू', 'फा']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -650,7 +650,7 @@ export default {
           ['चं', 'ब', 'ल', 'ओ', 'झ', 'रा']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -700,7 +700,7 @@ export default {
           ['र', 'र', 'व', 'र', 'ड', 'ङ', 'ट', 'ऋ']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {
@@ -748,7 +748,7 @@ export default {
           ['गु', 'ला', 'ब', 'जा', 'मु', 'न']
         ],
         lang: 'hi',
-        showWords: false
+        showWords: true
       }
     },
     {

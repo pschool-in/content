@@ -933,10 +933,10 @@ export default {
     {
       id: 'words-3',
       label: 'Simple Words - 3',
-      audio: 'hi/hi-words.mp3',
       type: 'tracing',
       data: {
         type: 'custom',
+        audio: 'hi/hi-words.mp3',
         source: [
           {
             id: 'पिता',
@@ -1024,7 +1024,6 @@ export default {
         `ण् + य, ण्य
 त् + व, त्व
 थ् + य, थ्य
-प् + य, प्य
 ब् + ब, ब्ब`,
 
         `भ् + य, भ्य
@@ -1035,8 +1034,7 @@ export default {
         `च् + छ, च्छ
 स् + त, स्त
 म् + ब, म्ब
-क् + य, क्य 
-फ़् + त, फ़्त`,
+क् + य, क्य `,
 
         `ट् + ठ, ट्ठ
 ड् + ढ, ड्ढ
@@ -1064,7 +1062,7 @@ export default {
 ट् + र, ट्र`,
 
         `भ् + र, भ्र
-ट् + ट, टूट 
+प् + य, प्य
 क् + क, क्क 
 त् + त, त्त`
       ]

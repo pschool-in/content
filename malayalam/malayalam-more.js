@@ -11,6 +11,26 @@ export default {
           label: 'അക്ഷരമാല'
         },
         {
+          id: 'ml-word-2',
+          label: 'വാക്ക്'
+        },
+        {
+          label: 'അക്കം',
+          id: 'ml-numbers'
+        },
+        {
+          label: 'അക്കം-2',
+          id: 'ml-numbers-2'
+        },
+        {
+          label: 'നിറം',
+          id: 'ml-colors'
+        },
+        {
+          label: 'കേരളം',
+          id: 'ml-kerala'
+        },
+        {
           label: 'സ്വരം: പഴങ്ങളും പച്ചക്കറികളും',
           id: 'ml-sound-2'
         },
@@ -173,18 +193,6 @@ export default {
         {
           label: 'English to Malayalam: Tools and Musical Instruments',
           id: 'ml-en-11'
-        },
-        {
-          id: 'ml-word-2',
-          label: 'വാക്ക്'
-        },
-        {
-          label: 'അക്കം',
-          id: 'ml-numbers'
-        },
-        {
-          label: 'നിറം',
-          id: 'ml-colors'
         }
       ]
     }

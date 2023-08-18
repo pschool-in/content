@@ -92,7 +92,7 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Connect Letters and form the color name.',
-        lang: 'mr'
+        lang: 'ml'
       },
       data: [
         'ചുവപ്പ്, ഓറഞ്ച്, സ്വർണ്ണം, കറുപ്പ്, വെളുപ്പ്',
