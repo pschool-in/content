@@ -38,6 +38,11 @@ export default {
       img: 'langGrammar'
     },
     {
+      id: 'ml-sentence',
+      label: 'വാചകം',
+      img: 'sentence'
+    },
+    {
       id: 'ml-science',
       label: 'ശാസ്ത്രം',
       img: 'science'

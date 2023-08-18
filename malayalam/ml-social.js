@@ -311,9 +311,9 @@ export default {
     {
       id: 'story',
       type: 'slides2',
-      label: `ഒരു മാമ്പഴത്തിന്റെ കഥ`,
+      label: `ഒരു മാമ്പഴത്തിന്റ്റെ കഥ`,
       data: {
-        title: `ഒരു മാമ്പഴത്തിന്റെ കഥ`,
+        title: `ഒരു മാമ്പഴത്തിന്റ്റെ കഥ`,
         displayType: 'steps',
         autoPlay: false,
         audio: 'ml/ml-mango-story.mp3',
@@ -338,6 +338,7 @@ export default {
       data: {
         title: `ആരോഗ്യകരമായ ഭക്ഷണ ശീലങ്ങൾ`,
         displayType: 'steps',
+        autoPlay: false,
         audio: 'ml/ml-healthy-eating-habits.mp3',
         images: 'img/science/healthy-eating-habits',
         audioOffsets: [
@@ -355,8 +356,7 @@ export default {
 ഭക്ഷണം പാഴാക്കരുത്.
 ഭക്ഷണം കഴിക്കുന്നതിനോ പാചകം ചെയ്യുന്നതിനോ മുമ്പായി എല്ലായ്പ്പോഴും പഴങ്ങളും പച്ചക്കറികളും കഴുകുക.
 പഴകിയ ഭക്ഷണം നിങ്ങളെ രോഗിയാക്കുന്നു. അത് ഒഴിവാക്കുക.
-പൊടിയും അണുക്കളും അടങ്ങിയിരിക്കുന്നതിനാൽ മൂടി വയ്ക്കാത്ത ഭക്ഷണങ്ങൾ ഒഴിവാക്കുക.
-`
+പൊടിയും അണുക്കളും അടങ്ങിയിരിക്കുന്നതിനാൽ മൂടി വയ്ക്കാത്ത ഭക്ഷണങ്ങൾ ഒഴിവാക്കുക.`
         ]
       }
     },
