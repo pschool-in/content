@@ -230,6 +230,41 @@ How old are you?`
           }
         ]
       }
+    },
+    {
+      type: 'match',
+      label: 'Match Words',
+      id: 'match',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match the words that form a sentence.',
+        fontSize: '1.2rem'
+      },
+      data: [
+        `Sit , down
+        Keep , quiet
+        Thank , you
+        Well , done
+        Excuse , me`,
+
+        `Run , fast
+        Take , bath
+        Join , me
+        Look , around
+        Call , him`,
+
+        `walk , slowly
+        sit , upright
+        How , sad!
+        Good, job
+        Believe , me`,
+
+        `Be , calm
+        I , disagree
+        No , problem
+        Take,  care
+        What , happened?`
+      ]
     }
   ]
 };

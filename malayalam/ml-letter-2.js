@@ -10,7 +10,8 @@ export default {
       lockAfter: 3,
       commonData: {
         title: 'Identify Letter based on Sound',
-        type: 'letters'
+        type: 'letters',
+        fontSize: '2rem'
       },
       data: [
         {

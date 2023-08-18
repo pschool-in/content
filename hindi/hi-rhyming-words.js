@@ -1,6 +1,6 @@
 export default {
   label: 'Rhyming Words',
-  id: 'rhyming-words',
+  id: 'hi-rhyming-words',
   lockAfter: 4,
   list: [
     {
