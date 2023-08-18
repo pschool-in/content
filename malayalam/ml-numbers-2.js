@@ -1,6 +1,6 @@
 export default {
   label: 'Numbers',
-  id: 'ml-numbers',
+  id: 'ml-numbers-2',
   list: [
     {
       id: 'match',

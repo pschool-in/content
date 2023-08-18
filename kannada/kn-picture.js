@@ -1,6 +1,6 @@
 export default {
   label: 'படம்',
-  id: 'ka-picture',
+  id: 'kn-picture',
   img: 'image',
   list: [
     {
