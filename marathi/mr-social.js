@@ -318,6 +318,7 @@ valley | दरी`
       data: {
         title: `निरोगी खाण्याच्या सवयी`,
         displayType: 'steps',
+        autoPlay: false,
         audio: 'mr/mr-healthy-eating-habits.mp3',
         images: 'img/science/healthy-eating-habits',
         audioOffsets: [4, 7, 9, 11.5, 14.5, 19, 22.5, 27.5, 29.5, 35.5, 41, 47],
