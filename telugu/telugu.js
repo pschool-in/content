@@ -16,7 +16,7 @@ export default {
       */
   list: [
     {
-      id: 'te-letters',
+      id: 'te-letter',
       label: 'వర్ణమాల',
       img: 'writing'
     },

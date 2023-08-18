@@ -122,7 +122,7 @@ export default {
     {
       label: 'सर्वनाम',
       type: 'passage',
-      id: 'notes',
+      id: 'notes-more',
       style: 'big',
       data: {
         title: 'सर्वनाम',
@@ -193,7 +193,7 @@ export default {
       }
     },
     {
-      id: 'match',
+      id: 'match-more',
       label: 'जोड्या लावा ',
       type: 'match',
       data: {
@@ -371,7 +371,7 @@ export default {
     {
       label: 'विशेषणाचे प्रकार ओळखा',
       type: 'mcq',
-      id: 'mcq',
+      id: 'mcq-more',
       data: {
         title: 'खालील वाक्यांमधील अधोरेखित विशेषणाचे प्रकार ओळखा ',
         questions: [
@@ -406,8 +406,8 @@ export default {
         type: 'rightOpen',
         title: 'नामासोबत योग्य विशेषण जोडा',
         text: `कारले, कडू, गोड
-        कोल्हा, लबाड, साधा
-        मिरची, तिखट, गोड         
+कोल्हा, लबाड, साधा
+मिरची, तिखट, गोड         
 आकाश, निळे, हिरवे`
       }
     },
@@ -494,9 +494,9 @@ export default {
       }
     },
     {
-      type: 'selectWord',
+      type: 'matchByDragDrop',
       label: '  कथा पूर्ण करा ',
-      id: 'select-word-5',
+      id: 'drag-drop-4',
       data: {
         title: ' रिकाम्या जागेत योग्य क्रियापदे भरून कथा पूर्ण करा   ',
         text: `मारिया मैदानात खेळत *होती*. खेळता-खेळता तिने आकाशाकडे *पाहिले*. आकाशात काळे ढग दाटून *आले होते*. मारिया पळत-पळत घरी *गेली*. घरी जाताच ती अभ्यासाला *बसली*. `

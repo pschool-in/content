@@ -212,6 +212,29 @@ cost,price`
       ]
     },
     {
+      type: 'match',
+      label: 'Animals and Movements',
+      id: 'match-move',
+      lockAfter: 1,
+      commonData: {
+        title: 'Match animals and how them move.',
+        fontSize: '1.2rem'
+      },
+      data: [
+        `Birds fly
+Fishes swim
+Frogs leap
+Monkeys swing
+Dogs Run`,
+
+        `Ducks waddle
+Eagles swoop
+Snakes slither
+Snails	Crawl
+Horses	Gallop`
+      ]
+    },
+    {
       id: 'confusing-words',
       label: 'Confusing Words',
       type: 'fillup',

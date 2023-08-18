@@ -36,6 +36,11 @@ export default {
       img: 'word'
     },
     {
+      id: 'mr-sentence',
+      label: 'वाक्य',
+      img: 'sentence'
+    },
+    {
       id: 'mr-reading',
       label: 'वाचन',
       img: 'reading'

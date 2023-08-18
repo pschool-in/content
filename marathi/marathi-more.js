@@ -19,9 +19,13 @@ export default {
           id: 'mr-grammar-2'
         },
         {
-          label: 'Colors',
-          id: 'mr-colors'
-        }
+          label: 'काळ',
+          id: 'mr-tense'
+        },
+        {
+          label: 'म्हणी',
+          id: 'mr-proverb'
+        },
         {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
@@ -180,13 +184,13 @@ export default {
         },
         {
           label: 'English Words: Social and Science',
-          id: 'mr-en-9'
+          id: 'mr-en-10'
         },
         {
           label: 'English Words: Tools and Musical Instruments',
-          id: 'mr-en-9'
-        },
-        
+          id: 'mr-en-11'
+        }
+
         /*
         {
           label: 'शब्द - 2',
