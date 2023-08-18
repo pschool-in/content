@@ -286,35 +286,44 @@ export default {
       data: {
         title: `हम क्या कर रहे हैं? `,
         displayType: 'steps',
+        autoPlay: false,
+        audio: 'hi/hi-what-we-do.mp3',
         images: 'inline',
         steps: [
           {
             text: 'मैं एक शिक्षक हूँ। मुझे बच्चों का शौक है। मुझे पाठ और अच्छे मूल्य पढ़ाना पसंद है।',
-            img: 'teacher'
+            img: 'teacher',
+            audioOffset: 8
           },
           {
             text: 'मैं एक पुलिसकर्मी हूँ। मैं सार्वजनिक स्थानों की सुरक्षा करता हूँ और लोगों को सुरक्षित रखता हूँ।',
-            img: 'police'
+            img: 'police',
+            audioOffset: 16.2
           },
           {
             text: 'मैं एक डॉक्टर हूँ। मैं बीमार लोगों को ठीक होने में मदद करता हूँ।',
-            img: 'doctor'
+            img: 'doctor',
+            audioOffset: 22.5
           },
           {
             text: 'मैं एक नर्स हूँ। मैं बीमार लोगों की जरूरतों का ख्याल रखता हूँ। मैं पट्टियाँ बाँधता हूँ और इंजेक्शन लगाता हूँ।',
-            img: 'nurse'
+            img: 'nurse',
+            audioOffset: 32.5
           },
           {
             text: 'मैं एक दुकानदार हूँ। मैं सामान मापता और गिनता हूँ और उन्हें अपनी दुकान में बेचता हूँ।',
-            img: 'shopkeeper'
+            img: 'shopkeeper',
+            audioOffset: 40.5
           },
           {
             text: 'मैं एक डाकिया हूँ। मैं पोस्टबॉक्स से पत्र एकत्र करता हूँ और उन्हें सही पते पर पहुंचाता हूँ।',
-            img: 'postman'
+            img: 'postman',
+            audioOffset: 49
           },
           {
             text: 'मैं एक दूधवाला हूँ। मैं गाय-भैंसों की देखभाल करता हूँ। मैं लोगों को दूध प्रदान करता हूँ।',
-            img: 'milkman'
+            img: 'milkman',
+            audioOffset: 58
           }
         ]
       }
