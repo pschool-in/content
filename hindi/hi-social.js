@@ -289,41 +289,35 @@ export default {
         autoPlay: false,
         audio: 'hi/hi-what-we-do.mp3',
         images: 'inline',
+        audioOffsets: [8, 16.2, 22.5, 32.5, 40.5, 49, 58],
         steps: [
           {
             text: 'मैं एक शिक्षक हूँ। मुझे बच्चों का शौक है। मुझे पाठ और अच्छे मूल्य पढ़ाना पसंद है।',
-            img: 'teacher',
-            audioOffset: 8
+            img: 'teacher'
           },
           {
             text: 'मैं एक पुलिसकर्मी हूँ। मैं सार्वजनिक स्थानों की सुरक्षा करता हूँ और लोगों को सुरक्षित रखता हूँ।',
-            img: 'police',
-            audioOffset: 16.2
+            img: 'police'
           },
           {
             text: 'मैं एक डॉक्टर हूँ। मैं बीमार लोगों को ठीक होने में मदद करता हूँ।',
-            img: 'doctor',
-            audioOffset: 22.5
+            img: 'doctor'
           },
           {
             text: 'मैं एक नर्स हूँ। मैं बीमार लोगों की जरूरतों का ख्याल रखता हूँ। मैं पट्टियाँ बाँधता हूँ और इंजेक्शन लगाता हूँ।',
-            img: 'nurse',
-            audioOffset: 32.5
+            img: 'nurse'
           },
           {
             text: 'मैं एक दुकानदार हूँ। मैं सामान मापता और गिनता हूँ और उन्हें अपनी दुकान में बेचता हूँ।',
-            img: 'shopkeeper',
-            audioOffset: 40.5
+            img: 'shopkeeper'
           },
           {
             text: 'मैं एक डाकिया हूँ। मैं पोस्टबॉक्स से पत्र एकत्र करता हूँ और उन्हें सही पते पर पहुंचाता हूँ।',
-            img: 'postman',
-            audioOffset: 49
+            img: 'postman'
           },
           {
             text: 'मैं एक दूधवाला हूँ। मैं गाय-भैंसों की देखभाल करता हूँ। मैं लोगों को दूध प्रदान करता हूँ।',
-            img: 'milkman',
-            audioOffset: 58
+            img: 'milkman'
           }
         ]
       }

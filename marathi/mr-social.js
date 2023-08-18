@@ -347,42 +347,36 @@ valley | दरी`
         displayType: 'steps',
         autoPlay: false,
         audio: 'mr/mr-what-we-do.mp3',
+        audioOffsets: [9.5, 16.5, 21, 28.5, 34.5, 42, 48],
         images: 'inline',
         steps: [
           {
             text: 'मी एक शिक्षक आहे. मला मुलांची आवड आहे. मला मुलांना शिकवायला आणि चांगले संस्कार द्यायला आवडते.',
-            img: 'teacher',
-            audioOffset: `9.5`
+            img: 'teacher'
           },
           {
             text: 'मी पोलीस अधिकारी आहे. मी सार्वजनिक ठिकाणांचे रक्षण करतो आणि लोकांना सुरक्षित ठेवतो.',
-            img: 'police',
-            audioOffset: `16.5`
+            img: 'police'
           },
           {
             text: 'मी एक डॉक्टर आहे. मी आजारी लोकांना बरे होण्यास मदत करते.',
-            img: 'doctor',
-            audioOffset: `21`
+            img: 'doctor'
           },
           {
             text: 'मी एक नर्स आहे. मी आजारी लोकांच्या गरजा पूर्ण करते. मी बँडेज बांधते आणि इंजेक्शन देते.',
-            img: 'nurse',
-            audioOffset: `28.5`
+            img: 'nurse'
           },
           {
             text: 'मी एक दुकानदार आहे. मी मालाचे मोजमाप करतो आणि माझ्या दुकानात विकतो.',
-            img: 'shopkeeper',
-            audioOffset: `34.5`
+            img: 'shopkeeper'
           },
           {
             text: 'मी पोस्टमन आहे. मी पत्र पेटीतून पत्रे गोळा करतो आणि ती योग्य पत्त्यावर पोहोचवतो.',
-            img: 'postman',
-            audioOffset: `42`
+            img: 'postman'
           },
           {
             text: 'मी दूधवाला आहे. मी गाई-म्हशींचा सांभाळ करतो. मी लोकांना दूध पुरवतो.',
-            img: 'milkman',
-            audioOffset: `48`
+            img: 'milkman'
           }
         ]
       }
