@@ -45,18 +45,8 @@ export default {
     सत्तर, ७०
     अस्सी, ८०
     नब्बे, ९०
-    सौ, १००`
-      ]
-    },
-    {
-      id: 'match-2',
-      type: 'match',
-      label: 'Match Numbers - 2',
-      commonData: {
-        title: 'Match Numbers',
-        fontSize: '1.5rem'
-      },
-      data: [
+    सौ, १००`,
+
         `इक्कीस, २१ 
     बाईस, २२
     तेईस, २३
@@ -127,18 +117,8 @@ export default {
     चौवन, ५४
     चौसठ, ६४
     सैंतालीस, ७४
-    चौरासी, ८४`
-      ]
-    },
-    {
-      id: 'match-3',
-      type: 'match',
-      label: 'Match the Numbers',
-      commonData: {
-        title: 'Match the Numbers',
-        fontSize: '1.5rem'
-      },
-      data: [
+    चौरासी, ८४`,
+
         `एक सौ, १००
   दो सौ, २००
   तीन सौ, ३००
