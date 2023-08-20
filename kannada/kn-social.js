@@ -45,6 +45,74 @@ export default {
           ]
         }
       ]
+    },
+    {
+      id: 'direction',
+      label: 'ನಿರ್ದೇಶನ',
+      type: 'dragAndDrop',
+      data: {
+        width: 300,
+        height: 300,
+        wordWidth: 70,
+        title: 'ನಿರ್ದೇಶನ',
+        svg: {
+          props: {
+            stroke: 'purple',
+            fill: 'none',
+            strokeWidth: 3,
+            strokeLinejoin: 'round'
+          },
+          paths: [
+            'M 150 50 L 150 250 L 160 240 M 150 250 L 140 240 M 160 60 L 150 50 140 60',
+            'M 100 150 L 200 150 L 190 160 M 200 150 L 190 140 M 110 160 L 100 150 L 110 140'
+          ]
+        },
+        words: [
+          {
+            word: 'ಪೂರ್ವ',
+            x: 210,
+            y: 140
+          },
+          {
+            word: 'ಪಶ್ಚಿಮ',
+            x: 20,
+            y: 140
+          },
+          {
+            word: 'ಉತ್ತರ',
+            x: 120,
+            y: 20
+          },
+          {
+            word: 'ದಕ್ಷಿಣ',
+            x: 120,
+            y: 260
+          }
+        ]
+      }
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Land Forms',
+      id: 'land-forms',
+      data: {
+        title: 'Drag the names and drop on the images.',
+        text: `desert | ಮರುಭೂಮಿ
+forest | ಅರಣ್ಯ
+grassland | ಹುಲ್ಲುಗಾವಲು
+ocean | ಸಾಗರ
+polar | ಧ್ರುವೀಯ
+valley | ಕಣಿವೆ`
+      }
+    },
+    {
+      data: {
+        text: 'ಭಾನುವಾರ, ಸೋಮವಾರ, ಮಂಗಳವಾರ, ಬುಧವಾರ, ಗುರುವಾರ, ಶುಕ್ರವಾರ, ಶನಿವಾರ ',
+        title: 'Sort the days of the week in order'
+      },
+      id: 'sort-days',
+      label: 'Days of the week',
+      type: 'sorting'
     }
   ]
 };

@@ -14,15 +14,15 @@ export default {
           audioOffset: 0
         },
         {
-          text: 'hippo|ನೀರಾನೆ\nrhino|ಗೇಂಡಾಮೃಗ\nfox|ನರಿ\ncrocodile|ಮೊಸಳೆ\nzebra|ಹೇಸರಗತ್ತೆ\nbear|ಕರಡಿ\ncamel|ಒಂಟೆ\nshark|ಶಾರ್ಕ್\nwhale|ತಿಮಿಂಗಿಲ\ndolphin|ಡಾಲ್ಫಿನ್',
+          text: 'hippo|ನೀರಾನೆ\nrhino|ಗೇಂಡಾಮೃಗ\nfox|ನರಿ\ncrocodile|ಮೊಸಳೆ\nzebra|ಹೇಸರಗತ್ತೆ\nbear|ಕರಡಿ\ncamel|ಒಂಟೆ\nwhale|ತಿಮಿಂಗಿಲ\ntiger|ಹುಲಿ\nsheep|ಕುರಿ',
           audioOffset: 20
         },
         {
-          text: 'tiger|ಹುಲಿ\nsheep|ಕುರಿ\nfish|ಮೀನು\nfrog|ಕಪ್ಪೆ\ncrab|ಏಡಿ\nsnake|ಹಾವು\nbull|ಗೊಳಿ\ntortoise|ಆಮೆ\nrat|ಹೆಗ್ಗಣ\nant|ಇರುವೆ',
+          text: 'fish|ಮೀನು\nfrog|ಕಪ್ಪೆ\ncrab|ಏಡಿ\nsnake|ಹಾವು\nbull|ಗೊಳಿ\ntortoise|ಆಮೆ\nrat|ಹೆಗ್ಗಣ\nant|ಇರುವೆ\nbat|ಬಾವಲಿ\nbuffalo|ಎಮ್ಮೆ',
           audioOffset: 40
         },
         {
-          text: 'bat|ಬಾವಲಿ\nbuffalo|ಎಮ್ಮೆ\nbutterfly|ಚಿಟ್ಟೆ\ncheetah|ಚಿರತೆ\nbee|ಜೇನು ನೊಣ\ngoldfish|ಗೋಲ್ಡಫಿಷ್\nspider|ಜೇಡ\npanda|ಪಾಂಡಾ\ngiraffe|ಜಿರಾಫೆ\nkangaroo|ಕಾಂಗರೂ',
+          text: 'butterfly|ಚಿಟ್ಟೆ\ncheetah|ಚಿರತೆ\nbee|ಜೇನುನೊಣ\ngiraffe|ಜಿರಾಫೆ\nkangaroo|ಕಾಂಗರೂ',
           audioOffset: 60
         }
       ]
@@ -34,11 +34,11 @@ export default {
       commonData: { audio: 'kn/kn-birds.mp3' },
       data: [
         {
-          text: 'crow|ಕಾಗೆ\ndove|ಪಾರಿವಾಳ\nduck|ಬಾತುಕೋಳಿ\nhen|ಕೋಳಿ\nchick|ಮರಿಯನ್ನು\nparrot|ಗಿಣಿ\npeacock|ನವಿಲು\npenguin|ಪೆಂಗ್ವಿನ್\nsparrow|ಗುಬ್ಬಚ್ಚಿ\ncrane|ಕೊಕ್ಕರೆ',
+          text: 'crow|ಕಾಗೆ\ndove|ಪಾರಿವಾಳ\nduck|ಬಾತುಕೋಳಿ\nhen|ಕೋಳಿ\nchick|ಮರಿಯನ್ನು\nparrot|ಗಿಣಿ\npeacock|ನವಿಲು\nsparrow|ಗುಬ್ಬಚ್ಚಿ\ncrane|ಕೊಕ್ಕರೆ\neagle|ಹದ್ದು',
           audioOffset: 0
         },
         {
-          text: 'eagle|ಹದ್ದು\nflamingo|ರಾಜಹಂಸ\nkingfisher|ಮಿಂಚುಳ್ಳಿ\nmyna|ಗೊರವಂಕ\nostrich|ಉಷ್ಟ್ರಪಕ್ಷಿ\nowl|ಗೂಬೆ\nrooster|ರೂಸ್ಟರ್\nvulture|ರಣಹದ್ದು\nwoodpecker|ಮರಕುಟಿಗ\nkoel|ಕೋಯಲ್',
+          text: 'flamingo|ರಾಜಹಂಸ\nkingfisher|ಮಿಂಚುಳ್ಳಿ\nmyna|ಗೊರವಂಕ\nostrich|ಉಷ್ಟ್ರಪಕ್ಷಿ\nowl|ಗೂಬೆ\nrooster|ಹುಂಜ\nvulture|ರಣಹದ್ದು\nwoodpecker|ಮರಕುಟಿಗ\nkoel|ಕೋಯಲ್',
           audioOffset: 20
         }
       ]
@@ -58,19 +58,14 @@ export default {
           audioOffset: 0
         },
         {
-          words:
-            'hippo,rhino,fox,crocodile,zebra,bear,camel,shark,whale,dolphin',
+          words: 'hippo,rhino,fox,crocodile,zebra,bear,camel,whale,tiger,sheep',
           audioOffset: 20
         },
         {
-          words: 'tiger,sheep,fish,frog,crab,snake,bull,tortoise,rat,ant',
+          words: 'fish,frog,crab,snake,bull,tortoise,rat,ant,bat,buffalo',
           audioOffset: 40
         },
-        {
-          words:
-            'bat,buffalo,butterfly,cheetah,bee,goldfish,spider,panda,giraffe,kangaroo',
-          audioOffset: 60
-        }
+        { words: 'butterfly,cheetah,bee,giraffe,kangaroo', audioOffset: 60 }
       ]
     },
     {
@@ -84,13 +79,12 @@ export default {
       },
       data: [
         {
-          words:
-            'crow,dove,duck,hen,chick,parrot,peacock,penguin,sparrow,crane',
+          words: 'crow,dove,duck,hen,chick,parrot,peacock,sparrow,crane,eagle',
           audioOffset: 0
         },
         {
           words:
-            'eagle,flamingo,kingfisher,myna,ostrich,owl,rooster,vulture,woodpecker,koel',
+            'flamingo,kingfisher,myna,ostrich,owl,rooster,vulture,woodpecker,koel',
           audioOffset: 20
         }
       ]

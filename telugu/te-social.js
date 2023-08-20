@@ -55,6 +55,65 @@ export default {
       }
     },
     {
+      id: 'direction',
+      label: 'దిశలు',
+      type: 'dragAndDrop',
+      data: {
+        width: 300,
+        height: 300,
+        wordWidth: 70,
+        title: 'దిశలు',
+        svg: {
+          props: {
+            stroke: 'purple',
+            fill: 'none',
+            strokeWidth: 3,
+            strokeLinejoin: 'round'
+          },
+          paths: [
+            'M 150 50 L 150 250 L 160 240 M 150 250 L 140 240 M 160 60 L 150 50 140 60',
+            'M 100 150 L 200 150 L 190 160 M 200 150 L 190 140 M 110 160 L 100 150 L 110 140'
+          ]
+        },
+        words: [
+          {
+            word: 'తూర్పు',
+            x: 210,
+            y: 140
+          },
+          {
+            word: 'పడమర',
+            x: 20,
+            y: 140
+          },
+          {
+            word: 'ఉత్తరం',
+            x: 120,
+            y: 20
+          },
+          {
+            word: 'దక్షిణ',
+            x: 120,
+            y: 260
+          }
+        ]
+      }
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Land Forms',
+      id: 'land-forms',
+      data: {
+        title: 'Drag the names and drop on the images.',
+        text: `desert | ఎడారి
+forest | అడవి
+grassland | గడ్డి భూములు
+ocean | సముద్ర
+polar | ధ్రువ
+valley | లోయ`
+      }
+    },
+    {
       data: {
         text: 'ఆదివారము, సోమవారం, మంగళవారం, బుధవారం, గురువారం, శుక్రవారం, శనివారం',
         title: 'Days of the week'

@@ -9,7 +9,7 @@ export default {
       label: 'स्वर वर्ण',
       data: {
         type: 'custom',
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letter.mp3',
         lineType: 2,
         source: [
           {
@@ -178,29 +178,30 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letter.mp3',
         source: [
           {
             id: 'क',
             paths: [
               'M 93 95 L 93 245 ',
-              'M 92 174 Q 12 95 12 171 Q 12 248 92 174 ',
-              'M 94 172 C 150 114 224 169 115 216 ',
+              'M 93 173 C 75 121 15 121 12 171',
+              'M 12 171 C 16 233 62 207 92 174  C 149 89 210 211 115 216 ',
               'M 9 94 L 189 94 '
             ],
             width: 190,
-            audio: 28
+            audio: 26
           },
           {
             id: 'ख',
             paths: [
-              'M 43 95 Q 45 169 13 175 C 24 255 86 268 136 235 ',
-              'M 136 95 L 136 245 ',
-              'M 116 123 C 56 133 57 197 134 191 ',
+              'M 43 95 C 47 131 55 205 11 181 ',
+              'M 11 181 C 61 174 74 274 137 211 ',
+              'M 136 95 L 136 245',
+              'M 135 145  C 61 79 57 197  134 191',
               'M 15 94 L 165 94 '
             ],
             width: 165,
-            audio: 30
+            audio: 28
           },
           {
             id: 'ग',
@@ -210,17 +211,17 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 152,
-            audio: 32
+            audio: 30
           },
           {
             id: 'घ',
             paths: [
-              'M 53 96 C 17 103 8 159 69 158 C 9 165 11 261 120 213 ',
-              'M 120 97 L 120 247 ',
-              'M 8 95 L 148 95 '
+              'M 54 95 C 17 103 8 159 69 158 C 17 176 67 252 120 213 ',
+              'M 120 97 L 120 247',
+              'M 8 95 L 148 95'
             ],
             width: 150,
-            audio: 34
+            audio: 32
           },
           {
             id: 'ङ',
@@ -230,7 +231,7 @@ export default {
               'M 109 146 L 109 168 '
             ],
             width: 130,
-            audio: 36
+            audio: 34
           },
           {
             id: 'च',
@@ -240,7 +241,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 38
+            audio: 36
           },
           {
             id: 'छ',
@@ -250,7 +251,7 @@ export default {
               'M 14 95 L 154 95 '
             ],
             width: 155,
-            audio: 40
+            audio: 38
           },
           {
             id: 'ज',
@@ -260,7 +261,7 @@ export default {
               'M 15 95 L 155 95 '
             ],
             width: 155,
-            audio: 42
+            audio: 40
           },
           {
             id: 'झ',
@@ -271,7 +272,7 @@ export default {
               'M 11 95 L 181 95 '
             ],
             width: 182,
-            audio: 44
+            audio: 42
           },
           {
             id: 'ञ',
@@ -282,7 +283,7 @@ export default {
               'M 9 96 L 149 96 '
             ],
             width: 150,
-            audio: 46
+            audio: 44
           },
           {
             id: 'ट',
@@ -291,7 +292,7 @@ export default {
               'M 16 97 L 135 97 '
             ],
             width: 135,
-            audio: 48
+            audio: 46
           },
           {
             id: 'ठ',
@@ -301,7 +302,7 @@ export default {
               'M 13 95 L 150 95 '
             ],
             width: 150,
-            audio: 50
+            audio: 48
           },
           {
             id: 'ड',
@@ -310,7 +311,7 @@ export default {
               'M 9 94 L 120 94 '
             ],
             width: 120,
-            audio: 52
+            audio: 50
           },
           {
             id: 'ढ',
@@ -319,7 +320,7 @@ export default {
               'M 0 95 L 140 95 '
             ],
             width: 140,
-            audio: 54
+            audio: 52
           },
           {
             id: 'ण',
@@ -329,7 +330,7 @@ export default {
               'M 0 95 L 175 95 '
             ],
             width: 175,
-            audio: 56
+            audio: 54
           },
           {
             id: 'त',
@@ -339,7 +340,7 @@ export default {
               'M 0 95 L 170 95 '
             ],
             width: 170,
-            audio: 58
+            audio: 56
           },
           {
             id: 'थ',
@@ -349,7 +350,7 @@ export default {
               'M 72 97 L 140 97 '
             ],
             width: 140,
-            audio: 60
+            audio: 58
           },
           {
             id: 'द',
@@ -358,7 +359,7 @@ export default {
               'M 0 95 L 160 95'
             ],
             width: 160,
-            audio: 62
+            audio: 60
           },
           {
             id: 'ध',
@@ -368,7 +369,7 @@ export default {
               'M 80 95 L 160 95 '
             ],
             width: 160,
-            audio: 64
+            audio: 62
           },
           {
             id: 'न',
@@ -378,7 +379,7 @@ export default {
               'M 0 95 L 160 96 '
             ],
             width: 160,
-            audio: 66
+            audio: 64
           },
           {
             id: 'प',
@@ -388,7 +389,7 @@ export default {
               'M 0 95 L 150 95 '
             ],
             width: 150,
-            audio: 68
+            audio: 66
           },
           {
             id: 'फ',
@@ -399,7 +400,7 @@ export default {
               'M 0 95 L 210 95 '
             ],
             width: 210,
-            audio: 70
+            audio: 68
           },
           {
             id: 'ब',
@@ -410,7 +411,7 @@ export default {
               'M 0 95 L 140 95 '
             ],
             width: 140,
-            audio: 72
+            audio: 70
           },
           {
             id: 'भ',
@@ -420,7 +421,7 @@ export default {
               'M 83 95 L 150 95 '
             ],
             width: 150,
-            audio: 74
+            audio: 72
           },
           {
             id: 'म',
@@ -430,7 +431,7 @@ export default {
               'M 0 96 L 150 96 '
             ],
             width: 150,
-            audio: 76
+            audio: 74
           },
           {
             id: 'य',
@@ -440,7 +441,7 @@ export default {
               'M 0 95 L 140 95 '
             ],
             width: 140,
-            audio: 78
+            audio: 76
           },
           {
             id: 'र',
@@ -449,7 +450,7 @@ export default {
               'M 0 95 L 130 95 '
             ],
             width: 130,
-            audio: 80
+            audio: 78
           },
           {
             id: 'ल',
@@ -459,7 +460,7 @@ export default {
               'M 0 95 L 170 95 '
             ],
             width: 170,
-            audio: 82
+            audio: 80
           },
           {
             id: 'व',
@@ -469,7 +470,7 @@ export default {
               'M 0 95 L 125 95 '
             ],
             width: 125,
-            audio: 84
+            audio: 82
           },
           {
             id: 'श',
@@ -479,7 +480,7 @@ export default {
               'M 78 96 L 148 96 '
             ],
             width: 148,
-            audio: 86
+            audio: 84
           },
           {
             id: 'ष',
@@ -490,7 +491,7 @@ export default {
               'M 0 96 L 133 96 '
             ],
             width: 133,
-            audio: 88
+            audio: 86
           },
           {
             id: 'स',
@@ -501,7 +502,7 @@ export default {
               'M 0 97 L 170 97 '
             ],
             width: 170,
-            audio: 90
+            audio: 88
           },
           {
             id: 'ह',
@@ -511,7 +512,7 @@ export default {
               'M 0 95 L 130 95 '
             ],
             width: 130,
-            audio: 92
+            audio: 90
           }
         ]
       }
