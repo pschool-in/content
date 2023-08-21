@@ -314,11 +314,11 @@ export default {
     {
       type: 'group',
       label: 'വിഭക്ത്യുപസര്‍ഗ്ഗം vs ക്രിയാവിശേഷണം ',
-      id: 'classify-geneder-type',
+      id: 'classify-adverb-preposition',
       lockAfter: 2,
       commonData: {
         title: 'വിഭക്ത്യുപസര്‍ഗ്ഗംവും ക്രിയാവിശേഷണങ്ങളും വേർതിരിക്കുക',
-        fontSize: '2rem',
+        fontSize: '1rem',
         printTitle: 'വിഭക്ത്യുപസര്‍ഗ്ഗംവും ക്രിയാവിശേഷണങ്ങളും വേർതിരിക്കുക',
         types: ['വിഭക്ത്യുപസര്‍ഗ്ഗം', 'ക്രിയാവിശേഷണം']
       },
