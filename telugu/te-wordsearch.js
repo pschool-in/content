@@ -1,7 +1,7 @@
 export default {
   label: 'పద శోధన',
   lang: 'te',
-  id: 'te-word',
+  id: 'te-wordsearch',
   list: [
     {
       data: {
