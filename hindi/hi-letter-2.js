@@ -10,7 +10,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letters-2.mp3',
         source: [
           {
             id: 'क',
@@ -170,7 +170,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letters-2.mp3',
         source: [
           {
             id: 'ख',
@@ -342,7 +342,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letters-2.mp3',
         source: [
           {
             id: 'ग',
@@ -490,7 +490,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letters-2.mp3',
         source: [
           {
             id: 'घ',
@@ -638,7 +638,7 @@ export default {
       data: {
         type: 'custom',
         lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        audio: 'hi/hi-letters-2.mp3',
         source: [
           {
             id: 'च',
