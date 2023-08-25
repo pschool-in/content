@@ -297,6 +297,48 @@ The company released a new product. | a new product was released by the company 
 "I've hurt my leg", he said. | He said that she'd hurt her leg
 "It was raining all day", she said. | She told me it had been raining all day`
       ]
+    },
+    {
+      label: 'Irregular Verbs',
+      id: 'complete-prefix',
+      type: 'completePuzzle',
+      commonData: {
+        type: 'rightOpen',
+        fontSize: '1.2rem',
+        title: 'Drag and drop the past tense verb for the given word.',
+        printTitle: 'Underline the right option.',
+        leftWidth: 150,
+        rightWidth: 150
+      },
+      data: [
+        `hide, hid, hidden
+know, knew, known
+lie, lay, lain
+mistake, mistook, mistaken
+ride, rode, ridden
+ring, rang, rung
+rise, rose, risen
+see, saw, seen
+shake, shook, shaken
+show, showed, shown`,
+
+        `shrink, shrank, shrunk
+sing, sang, sung
+sink, sank, sunk
+speak, spoke, spoken
+spring, sprang, sprung
+steal, stole, stolen
+stink, stank, stunk
+swear, swore, sworn
+swim, swam, swum
+take, took, taken`,
+
+        `tear, tore, torn
+throw, threw, thrown
+wake, woke, woken
+wear, wore, worn
+write, wrote, written`
+      ]
     }
   ]
 };

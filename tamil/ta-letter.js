@@ -1617,6 +1617,52 @@ export default {
           audioOffset: 72
         }
       ]
+    },
+    {
+      type: 'slides',
+      id: 'slide-vowel',
+      label: 'slide: உயிர் எழுத்துக்கள்',
+      data: {
+        audio: 'ta/ta-letters.mp3',
+        title: 'உயிர் எழுத்துக்கள்',
+        type: 'text',
+        fontSize: '5rem',
+        text: `அ, ஆ, இ, ஈ, உ, ஊ, எ, ஏ, ஐ, ஒ, ஓ, ஔ`
+      }
+    },
+    {
+      type: 'slides',
+      id: 'slide-consonent',
+      label: 'slide: உயிர்மெய் எழுத்துக்கள்',
+      data: {
+        audio: 'ta/ta-letters.mp3',
+        title: 'உயிர்மெய் எழுத்துக்கள்',
+        type: 'text',
+        fontSize: '5rem',
+        audioOffset: 26,
+        text: `க, ங, ச, ஞ, ட, ண, த, ந, ப, ம, ய, ர, ல, வ, ழ, ள, ற, ன`
+      }
+    },
+    {
+      label: 'touch: உயிர் எழுத்துக்கள்',
+      type: 'phonics',
+      id: 'touch-vowel',
+      data: {
+        audio: 'ta/ta-letters.mp3',
+        title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.',
+        text: `அ, ஆ, இ, ஈ, உ, ஊ, எ, ஏ, ஐ, ஒ, ஓ, ஔ`
+      }
+    },
+    {
+      label: 'touch: உயிர்மெய் எழுத்துக்கள்',
+      type: 'phonics',
+      id: 'touch-consonent',
+      data: {
+        audio: 'ta/ta-letters.mp3',
+        audioOffset: 26,
+        title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.',
+        text: `க, ங, ச, ஞ, ட, ண, த, ந, ப, ம, ய, ர, ல, வ, ழ, ள, ற, ன`
+      }
     }
   ]
 };

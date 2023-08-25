@@ -650,6 +650,48 @@ export default {
 1,0,0,0,0,0`
         }
       ]
+    },
+    {
+      type: 'slides',
+      id: 'slide-vowel',
+      label: 'slide: Vowels',
+      data: {
+        audio: 'ml/ml-vowel.mp3',
+        title: 'Vowels',
+        type: 'text',
+        fontSize: '5rem',
+        text: `അ, ആ, ഇ, ഈ, ഉ, ഊ, ഋ, എ, ഏ, ഐ, ഒ, ഓ, ഔ, അം, അഃ`
+      }
+    },
+    {
+      type: 'slides',
+      id: 'slide-consonent',
+      label: 'slide: Consonents',
+      data: {
+        audio: 'ml/ml-consonent.mp3',
+        title: 'Consonents',
+        type: 'text',
+        fontSize: '5rem',
+        text: `ക, ഖ, ഗ, ഘ, ങ, ച, ഛ, ജ, ഝ, ഞ, ട, ഠ, ഡ, ഢ, ണ, ത, ഥ, ദ, ധ, ന, പ, ഫ, ബ, ഭ, മ, യ, ര, ല, വ, ശ, ഷ, സ, ഹ, ള, റ, ഴ`
+      }
+    },
+    {
+      label: 'touch: Vowels',
+      type: 'phonics',
+      id: 'touch-vowel',
+      data: {
+        audio: 'ml/ml-vowel.mp3',
+        text: `അ, ആ, ഇ, ഈ, ഉ, ഊ, ഋ, എ, ഏ, ഐ, ഒ, ഓ, ഔ, അം, അഃ`
+      }
+    },
+    {
+      label: 'touch: Consonents',
+      type: 'phonics',
+      id: 'touch-consonent',
+      data: {
+        audio: 'ml/ml-consonent.mp3',
+        text: `ക, ഖ, ഗ, ഘ, ങ, ച, ഛ, ജ, ഝ, ഞ, ട, ഠ, ഡ, ഢ, ണ, ത, ഥ, ദ, ധ, ന, പ, ഫ, ബ, ഭ, മ, യ, ര, ല, വ, ശ, ഷ, സ, ഹ, ള, റ, ഴ`
+      }
     }
   ]
 };

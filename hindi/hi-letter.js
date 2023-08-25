@@ -11,7 +11,7 @@ export default {
       data: {
         type: 'custom',
         audio: 'hi/hi-letters.mp3',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'अ',
@@ -178,7 +178,7 @@ export default {
       label: 'व्यंजन वर्ण',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters.mp3',
         source: [
           {
