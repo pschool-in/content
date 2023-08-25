@@ -48,7 +48,15 @@ export default {
         },
         {
           label: 'निबंध',
-          id: 'hi-essay'
+          id: 'hi-essay-3'
+        },
+        {
+          label: 'निबंध - 2',
+          id: 'hi-essay-5'
+        },
+        {
+          label: 'संभाषण',
+          id: 'conversation'
         },
         {
           label: 'व्याकरण',
