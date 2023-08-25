@@ -9,8 +9,8 @@ export default {
       label: 'स्वर वर्ण',
       data: {
         type: 'custom',
-        audio: 'hi/hi-letters.mp3',
-        lineType: 2,
+        audio: 'mr/mr-letters.mp3',
+        yGuides: [95, 250],
         source: [
           {
             id: 'अ',
@@ -87,7 +87,7 @@ export default {
               'M 6 95 L 191 96 '
             ],
             width: 205,
-            audio: 24
+            audio: 12
           },
           {
             id: 'ए',
@@ -97,7 +97,7 @@ export default {
               'M 15 94 L 135 94 '
             ],
             width: 140,
-            audio: 12
+            audio: 14
           },
           {
             id: 'ऐ',
@@ -108,7 +108,7 @@ export default {
               'M 105 95 Q 96 64 54 51 '
             ],
             width: 140,
-            audio: 14
+            audio: 16
           },
           {
             id: 'ओ',
@@ -123,7 +123,7 @@ export default {
               'M 183 93 Q 174 62 132 49 '
             ],
             width: 220,
-            audio: 16
+            audio: 18
           },
           {
             id: 'औ',
@@ -138,7 +138,7 @@ export default {
               'M 180 93 Q 149 72 113 64 '
             ],
             width: 220,
-            audio: 18
+            audio: 20
           },
           {
             id: 'अं',
@@ -151,7 +151,7 @@ export default {
               'M 127 66 L 148 66 '
             ],
             width: 170,
-            audio: 20
+            audio: 22
           },
           {
             id: 'अः',
@@ -165,7 +165,34 @@ export default {
               'M 186 201 L 186 219 '
             ],
             width: 205,
-            audio: 22
+            audio: 24
+          },
+          {
+            id: 'ॲ',
+            paths: [
+              'M 15 95 Q 95 95 93 143 Q 91 171 16 172 ',
+              'M 16 172 Q 89 171 91 206 Q 96 249 9 245 ',
+              'M 17 172 L 137 172 ',
+              'M 137 95 L 137 245 ',
+              'M 84 94 L 172 95 ',
+              'M 78 46 C 75 90 146 90 143 48 '
+            ],
+            width: 170,
+            audio: 26
+          },
+          {
+            id: 'ऑ',
+            paths: [
+              'M 15 95 Q 95 95 93 143 Q 91 171 16 172 ',
+              'M 16 172 Q 89 171 91 206 Q 96 249 9 245 ',
+              'M 17 172 L 137 172 ',
+              'M 137 95 L 137 245 ',
+              'M 184 96 L 184 246 ',
+              'M 84 94 L 219 95 ',
+              'M 123 46 C 120 90 191 90 188 48 '
+            ],
+            width: 220,
+            audio: 28
           }
         ],
         repeatCount: 1
@@ -177,8 +204,8 @@ export default {
       label: 'व्यंजन वर्ण',
       data: {
         type: 'custom',
-        lineType: 2,
-        audio: 'hi/hi-letters.mp3',
+        yGuides: [95, 250],
+        audio: 'mr/mr-letters.mp3',
         source: [
           {
             id: 'क',
@@ -189,7 +216,7 @@ export default {
               'M 9 94 L 189 94 '
             ],
             width: 190,
-            audio: 28
+            audio: 30
           },
           {
             id: 'ख',
@@ -201,7 +228,7 @@ export default {
               'M 15 94 L 165 94 '
             ],
             width: 165,
-            audio: 30
+            audio: 32
           },
           {
             id: 'ग',
@@ -211,7 +238,7 @@ export default {
               'M 10 95 L 150 95 '
             ],
             width: 152,
-            audio: 32
+            audio: 34
           },
           {
             id: 'घ',
@@ -221,7 +248,7 @@ export default {
               'M 8 95 L 148 95'
             ],
             width: 150,
-            audio: 34
+            audio: 36
           },
           {
             id: 'ङ',
@@ -231,7 +258,7 @@ export default {
               'M 109 146 L 109 168 '
             ],
             width: 130,
-            audio: 36
+            audio: 38
           },
           {
             id: 'च',
@@ -241,7 +268,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 38
+            audio: 40
           },
           {
             id: 'छ',
@@ -251,7 +278,7 @@ export default {
               'M 14 95 L 154 95 '
             ],
             width: 155,
-            audio: 40
+            audio: 42
           },
           {
             id: 'ज',
@@ -261,7 +288,7 @@ export default {
               'M 15 95 L 155 95 '
             ],
             width: 155,
-            audio: 42
+            audio: 44
           },
           {
             id: 'झ',
@@ -512,6 +539,39 @@ export default {
               'M 0 95 L 130 95 '
             ],
             width: 130,
+            audio: 92
+          },
+          {
+            id: 'ळ',
+            paths: [
+              'M 124 192 C 82 113 10 145 16 200  ',
+              'M 16 200 C 13 257 92 267 125 202 C 147 134 233 133 235 200',
+              'M 235 200 C 235 255 154 271 127 203',
+              'M 182 95 L 183 150',
+              'M 20 95 L 255 95 '
+            ],
+            width: 250,
+            audio: 92
+          },
+          {
+            id: 'क्ष',
+            paths: [
+              'M 159 157 C 44 154 21 94 87 97 C 134 103 96 143 58 166',
+              'M 58 166 C 19 191 7 249 61 251 C 106 250 141 201 97 196 C 75 199 77 222 122 251 ',
+              'M 160 95 L 157 249 ',
+              'M 131 94 L 207 95'
+            ],
+            width: 210,
+            audio: 92
+          },
+          {
+            id: 'ज्ञ',
+            paths: [
+              'M 105 147 L 46 146 C -1 144 1 184 43 187 C 97 196 26 257 15 233 C -1 212 21 197 33 210 Q 51 219 47 261',
+              'M 104 95 L 106 249',
+              'M 13 95 L 142 94 '
+            ],
+            width: 142,
             audio: 92
           }
         ]
@@ -852,6 +912,50 @@ export default {
   घ + अं, घं
   घ + अः, घः`
       ]
+    },
+    {
+      type: 'slides',
+      id: 'slide-vowel',
+      label: 'slide: Vowels',
+      data: {
+        audio: 'mr/mr-letters.mp3',
+        title: 'Vowels',
+        type: 'text',
+        fontSize: '5rem',
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः, ॲ, ऑ`
+      }
+    },
+    {
+      type: 'slides',
+      id: 'slide-consonent',
+      label: 'slide: Consonents',
+      data: {
+        audio: 'mr/mr-letters.mp3',
+        title: 'Consonents',
+        type: 'text',
+        audioOffset: 30,
+        fontSize: '5rem',
+        text: `क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ, ण, त, थ, द, ध, न, प, फ, ब, भ, म, य, र, ल, व, श, ष, स, ह, ळ, क्ष, ज्ञ`
+      }
+    },
+    {
+      label: 'touch: Vowels',
+      type: 'phonics',
+      id: 'touch-vowel',
+      data: {
+        audio: 'mr/mr-letters.mp3',
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः, ॲ, ऑ`
+      }
+    },
+    {
+      label: 'touch: Consonents',
+      type: 'phonics',
+      id: 'touch-consonent',
+      data: {
+        audio: 'mr/mr-letters.mp3',
+        audioOffset: 30,
+        text: `क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ, ण, त, थ, द, ध, न, प, फ, ब, भ, म, य, र, ल, व, श, ष, स, ह, ळ, क्ष, ज्ञ`
+      }
     }
   ]
 };
