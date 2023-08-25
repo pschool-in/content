@@ -59,6 +59,10 @@ export default {
           id: 'conversation'
         },
         {
+          label: 'पहेलियाँ',
+          id: 'hi-riddle'
+        },
+        {
           label: 'व्याकरण',
           id: 'hi-grammar-3'
         },
