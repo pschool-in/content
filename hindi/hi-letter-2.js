@@ -9,7 +9,7 @@ export default {
       label: 'क - बारहखड़ी',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters-2.mp3',
         source: [
           {
@@ -169,7 +169,7 @@ export default {
       label: 'ख - बारहखड़ी',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters-2.mp3',
         source: [
           {
@@ -341,7 +341,7 @@ export default {
       label: 'ग - बारहखड़ी',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters-2.mp3',
         source: [
           {
@@ -489,7 +489,7 @@ export default {
       label: 'घ - बारहखड़ी',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters-2.mp3',
         source: [
           {
@@ -637,7 +637,7 @@ export default {
       label: 'च - बारहखड़ी',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'hi/hi-letters-2.mp3',
         source: [
           {

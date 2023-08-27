@@ -11,7 +11,7 @@ export default {
       data: {
         type: 'custom',
         audio: 'ta/ta-letters.mp3',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'அ',
@@ -146,7 +146,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'க்',
@@ -332,7 +332,7 @@ export default {
       label: 'உயிர்-மெய்-எழுத்துக்கள்',
       data: {
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'ta/ta-letters.mp3',
         source: [
           {

@@ -234,7 +234,7 @@ export default {
       data: [
         `My name is Kannan. |  என் பெயர் கண்ணன்
 I am studying second standard. | நான் இரண்டாம் வகுப்பு படிக்கிறேன்
-My sister's name is Selve. | எனது தங்கையின் பெயர் செல்வி
+My sister's name is Selvi. | எனது தங்கையின் பெயர் செல்வி
 We go to school together. | நாங்கள் ஒன்றாக பள்ளிக்கு செல்வோம் 
 On our way to school, we saw a horse. | பள்ளி செல்லும் வழியில் ஒரு குதிரையை பார்த்தோம்`,
 

@@ -7,6 +7,14 @@ export default {
       id: 'more',
       list: [
         {
+          label: 'பழமொழிகள்',
+          id: 'ta-proverb'
+        },
+        {
+          label: 'ஓசை: விலங்குகளும் பறவைகளும்',
+          id: 'ta-riddle'
+        },
+        {
           label: 'ஓசை: விலங்குகளும் பறவைகளும்',
           id: 'ta-sound'
         },

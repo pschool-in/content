@@ -78,7 +78,11 @@ const allImages = {
   starfish
   earthworm
   hedgehog
-  stingray`,
+  stingray
+  scorpion
+centipede
+millipede
+salamander`,
 
   birds: `crow
   dove
@@ -119,7 +123,9 @@ const allImages = {
   hawk
   cardinal
   parakeet
-  macaw`,
+  macaw
+  tailorbird
+weaverbird`,
   fruits: `apple
   grapes
   banana
@@ -310,7 +316,6 @@ const allImages = {
   grandma
   grandfather`,
 
-
   house: `house
   table
   bed
@@ -355,12 +360,25 @@ const allImages = {
   handbag
   steps
   curtains
-  watertank`,
+  watertank 
+  flask
+  carpet
+  doormat
+  opener
+  walkingstick`,
+
   dress: `dress
   coat
   shoe
   sock
   boots
+  cap
+belt
+uniform
+raincoat
+karchief
+tie
+towel
   pyjama
   gloves
   scarf
@@ -371,7 +389,14 @@ const allImages = {
   hat
   trousers
   vetti
-  saree`,
+  saree
+  anklet
+bangle
+chain
+earring
+comb
+mirror
+kumkum`,
 
   school: `eraser
   pen
@@ -390,7 +415,12 @@ const allImages = {
   ink
   globe
   notebook
-  writingpad`,
+  writingpad
+  clip
+glue
+magnet
+stapler
+idcard`,
   kitchen: `stove
   fork
   knife
@@ -483,6 +513,7 @@ const allImages = {
   kadalai-paruppu
   malli
   pepper
+  mustard
   mochai
   moong-dhal
   pattani
@@ -506,9 +537,14 @@ const allImages = {
   tv
   laptop
   computer
-  keyboard`,
+  keyboard
+  printer
+telephone
+typewriter  `,
+
   bodyParts: `ear
   eye
+  face
   foot
   hair
   hand
@@ -532,6 +568,8 @@ const allImages = {
   divider
   protractor
   axe
+  hammar
+sewing-machine
   balance
   blackboard
   hose
@@ -612,6 +650,7 @@ const allImages = {
   star
   bird
   leaf
+  grass
   stone
   pebbles
   bone
@@ -682,7 +721,19 @@ const allImages = {
   queen
   statue
   alien
-  angel`,
+  angel
+  boomerang
+bouquet
+cage
+nandi
+shadow
+bharani
+gadha
+para
+scholor
+uri
+babywalker`,
+
   science: `heart
   brain
   lungs
@@ -739,7 +790,10 @@ const allImages = {
   lift
   petrolbunk
   footpath
-  pillar`
+  pillar
+  swimmingpool
+tunnel
+postbox`
 };
 
 export default allImages;

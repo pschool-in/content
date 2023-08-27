@@ -5,9 +5,10 @@ export default {
   list: [
     {
       type: 'passage',
-      label: 'Notes: प्राणी|Animals',
+      label: 'Notes: प्राणी',
       id: 'notes-animals',
       data: {
+        title: 'Notes',
         text: [
           'Cat — मांजर\nDog — कुत्रा\nGoat — शेळी\nCow — गाय\nDonkey — गाढव\nHorse — घोडा\nPig — डुक्कर\nElephant — हत्ती\nLion — सिंह\nMonkey — माकड',
           'Hippo — पाणघोडा\nRhino — गेंडा\nFox — कोल्हा\nCrocodile — मगर\nZebra — झेब्रा\nBear — अस्वल\nCamel — उंट\nShark — शार्क\nWhale — देवमासा\nDolphin — डॉल्फिन',
@@ -18,9 +19,10 @@ export default {
     },
     {
       type: 'passage',
-      label: 'Notes: पक्षी|Birds',
+      label: 'Notes: पक्षी',
       id: 'notes-birds',
       data: {
+        title: 'Notes',
         text: [
           'Crow — कावळा\nDove — पारवा\nDuck — बदक\nHen — कोंबडी\nChick — कोंबडीचे पिल्लू\nParrot — पोपट\nPeacock — मोर\nPenguin — पेंग्विन\nSparrow — चिमणी\nCrane — बगळा',
           'Eagle — गरुड\nFlamingo — रोहित पक्षी\nKingfisher — खंड्या\nMyna — साळुंखी\nOstrich — शहामृग\nOwl — घुबड\nRooster — कोंबडा\nVulture — गिधाड\nWoodpecker — सुतारपक्षी\nKoel — कोकिळा'
@@ -31,7 +33,7 @@ export default {
       id: 'match-animals',
       type: 'match',
       label: 'Match: प्राणी',
-      commonData: { title: 'Match:' },
+      commonData: { title: 'इंग्रजी शब्द त्याच्या समान मराठी शब्दाशी जुळवा.' },
       data: [
         'Cat,मांजर\nDog,कुत्रा\nGoat,शेळी\nCow,गाय\nDonkey,गाढव',
         'Horse,घोडा\nPig,डुक्कर\nElephant,हत्ती\nLion,सिंह\nMonkey,माकड',
@@ -47,7 +49,7 @@ export default {
       id: 'match-birds',
       type: 'match',
       label: 'Match: पक्षी',
-      commonData: { title: 'Match:' },
+      commonData: { title: 'इंग्रजी शब्द त्याच्या समान मराठी शब्दाशी जुळवा.' },
       data: [
         'Crow,कावळा\nDove,पारवा\nDuck,बदक\nHen,कोंबडी\nChick,कोंबडीचे पिल्लू',
         'Parrot,पोपट\nPeacock,मोर\nPenguin,पेंग्विन\nSparrow,चिमणी\nCrane,बगळा',
@@ -60,9 +62,9 @@ export default {
       type: 'sequence',
       label: 'Connect Letters: प्राणी',
       commonData: {
-        title: 'Connect Letters',
         type: 'clue',
         fontSize: '2rem',
+        title: 'अक्षरे जोडून दिलेल्या इंग्रजी शब्दासाठी मराठी शब्द तयार करा.',
         lang: 'mr'
       },
       data: [
@@ -77,9 +79,9 @@ export default {
       type: 'sequence',
       label: 'Connect Letters: पक्षी',
       commonData: {
-        title: 'Connect Letters',
         type: 'clue',
         fontSize: '2rem',
+        title: 'अक्षरे जोडून दिलेल्या इंग्रजी शब्दासाठी मराठी शब्द तयार करा.',
         lang: 'mr'
       },
       data: [
@@ -92,9 +94,8 @@ export default {
       type: 'completeWord',
       label: 'Complete the Word: प्राणी',
       commonData: {
-        title: 'Connect Letters',
-        type: 'clue',
         fontSize: '2rem',
+        title: 'दिलेल्या इंग्रजी शब्दासाठी मराठी शब्द लिहा.',
         lang: 'mr'
       },
       data: [
@@ -109,9 +110,8 @@ export default {
       type: 'completeWord',
       label: 'Complete the Word: पक्षी',
       commonData: {
-        title: 'Connect Letters',
-        type: 'clue',
         fontSize: '2rem',
+        title: 'दिलेल्या इंग्रजी शब्दासाठी मराठी शब्द लिहा.',
         lang: 'mr'
       },
       data: [

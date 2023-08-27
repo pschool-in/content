@@ -9,7 +9,7 @@ export default {
       label: 'Small Letters (a - e)',
       data: {
         repeatCount: 3,
-        fourLines: true,
+        yGuides: [20, 120, 220, 320],
         source: [
           {
             id: 'a',
@@ -104,7 +104,7 @@ export default {
           }
         ],
         repeatCount: 3,
-        fourLines: true
+        yGuides: [20, 120, 220, 320]
       }
     },
     {
@@ -152,7 +152,7 @@ export default {
           }
         ],
         repeatCount: 3,
-        fourLines: true
+        yGuides: [20, 120, 220, 320]
       }
     },
     {
@@ -206,7 +206,7 @@ export default {
           }
         ],
         repeatCount: 3,
-        fourLines: true
+        yGuides: [20, 120, 220, 320]
       }
     },
     {
@@ -266,7 +266,7 @@ export default {
           }
         ],
         repeatCount: 3,
-        fourLines: true
+        yGuides: [20, 120, 220, 320]
       }
     },
     {

@@ -1,14 +1,14 @@
 export default {
-  label: 'விடுகதை  ',
+  label: 'விடுகதைகள் ',
   id: 'ta-riddle',
   lockAfter: 2,
   list: [
     {
       id: 'story',
       type: 'slides2',
-      label: `விடுகதை `,
+      label: `விடுகதைகள் `,
       commonData: {
-        title: `விடுகதை`,
+        title: `விடுகதைகள்`,
         displayType: 'custom',
         autoPlay: false,
         substep: true

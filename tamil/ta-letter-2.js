@@ -10,7 +10,7 @@ export default {
       label: 'க வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters.mp3',
         source: [
@@ -148,7 +148,7 @@ export default {
       label: 'ச வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters.mp3',
         source: [
@@ -288,7 +288,7 @@ export default {
       label: 'ட வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters.mp3',
         source: [
@@ -414,7 +414,7 @@ export default {
       label: 'ண வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters.mp3',
         source: [
@@ -551,7 +551,7 @@ export default {
       label: 'த வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters.mp3',
         source: [
@@ -690,7 +690,7 @@ export default {
       label: 'ந வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters-2.mp3',
         source: [
@@ -842,7 +842,7 @@ export default {
       data: {
         repeatCount: 1,
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         audio: 'ta/tamil-mixed-letters-2.mp3',
         source: [
           {
@@ -967,7 +967,7 @@ export default {
       label: 'ம வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         audio: 'ta/tamil-mixed-letters-2.mp3',
         source: [
@@ -1107,7 +1107,7 @@ export default {
       label: 'ய வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         source: [
           {
@@ -1235,7 +1235,7 @@ export default {
       label: 'ர வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         source: [
           {
@@ -1363,7 +1363,7 @@ export default {
       label: 'ல வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         source: [
           {
@@ -1481,7 +1481,7 @@ export default {
       data: {
         repeatCount: 1,
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'வ',
@@ -1608,7 +1608,7 @@ export default {
       label: 'ழ வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         source: [
           {
@@ -1747,7 +1747,7 @@ export default {
       data: {
         repeatCount: 1,
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'ள',
@@ -1887,7 +1887,7 @@ export default {
       data: {
         repeatCount: 1,
         type: 'custom',
-        lineType: 2,
+        yGuides: [95, 250],
         source: [
           {
             id: 'ற',
@@ -2013,7 +2013,7 @@ export default {
       label: 'ன வரிசை : எழுதி பழகுக',
       data: {
         repeatCount: 1,
-        lineType: 2,
+        yGuides: [95, 250],
         type: 'custom',
         source: [
           {

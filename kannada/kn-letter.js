@@ -10,7 +10,6 @@ export default {
       pageBreakAfter: true,
       data: {
         type: 'custom',
-        lineType: 2,
         yGuides: [95, 250],
         audio: 'kn/kn-vowels.mp3',
         source: [
@@ -174,7 +173,6 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
-        lineType: 3,
         audio: 'kn/kn-consonents.mp3',
         yGuides: [95, 250],
         source: [
