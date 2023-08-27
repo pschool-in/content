@@ -31,6 +31,10 @@ export default {
           id: 'ml-kerala'
         },
         {
+          label: 'കടങ്കഥകൾ ',
+          id: 'ml-riddle'
+        },
+        {
           label: 'സ്വരം: പഴങ്ങളും പച്ചക്കറികളും',
           id: 'ml-sound-2'
         },

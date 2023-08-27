@@ -347,7 +347,7 @@ valley | दरी`
         displayType: 'steps',
         autoPlay: false,
         audio: 'mr/mr-what-we-do.mp3',
-        audioOffsets: [9.5, 16.5, 21, 28.5, 34.5, 42, 48],
+        audioOffsets: [13, 24, 32, 44, 53.5, 65, 75],
         images: 'inline',
         steps: [
           {
