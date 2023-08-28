@@ -27,6 +27,10 @@ export default {
           id: 'mr-proverb'
         },
         {
+          label: 'मराठी कोडी',
+          id: 'mr-riddle'
+        },
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },

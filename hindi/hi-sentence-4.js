@@ -204,6 +204,48 @@ export default {
 कमल भारत का राष्ट्रीय फूल है। उसे *पंकज* भी कहा जाता है। 
 अमावस की रात को बहुत अँधेरा होता है और उस *रात्रि* कोई बहार नहीं जाता।`
       }
+    },
+    {
+      type: 'makeSentence',
+      label: 'अंग्रेजी में अनुवाद करें',
+      id: 'make-sentence',
+      commonData: {
+        title: 'नीचे दिए गए हिंदी वाक्यों का अंग्रेजी में अनुवाद करें'
+      },
+      data: [
+        `आप कैसे हैं?|How are you
+मैं ठीक हूँ। |I am good
+आपका नाम क्या है?|What is your name
+मेरा नाम मीरा है।|My name is Meera 
+आप कहाँ से हैं?|Where are you from
+आप से मिलकर ख़ुशी हुई।|I am pleased to meet you
+तुम क्या कर रहे हो?|What are you doing 
+यह कितने का है?|How much does this cost 
+मैं बाज़ार जाना चाहता हूँ।|I want to go to the market
+मैं फोन करना चाहता हूं।|I want to make a phone call `,
+
+        `क्या आप अंग्रेज़ी बोलते हैं?|Do you speak English 
+मुझे समझ नहीं आया।|I did't understand
+मुझको मालूम नहीं।|I don't know
+मुझे दर्द हो रहा है। |I am in pain
+क्या मैं आपकी मदद कर सकता हुँ? |Can I help you 
+कितने बजे हैं?|What is the time
+आज अच्छा दिन है। |Today is a good day
+कल मैंने उसे देखा था।|I saw him, yesterday 
+मैं तुम्हारा हित चाहता हूँ।|I wish you well
+भगवान तुम्हारा भला करें।|May God bless you`,
+
+        `उसे हल्का बुखार है।|He has a mild fever
+मैंने वैसा ही किया जैसा मुझे कहा गया था।|I did as I was told
+मैं आज शाम को आपसे मिलूँगा।|I will see you this evening
+मुझे बहुत-सी बातें करनी है।|I have a lot to talk about
+संभल कर चलो।|Walk carefully
+शुरुआत अच्छी हुई है।|It's a good beginning
+मुझे उससे शिकायत है।|I have a complaint against him
+मैंने उससे बहुत कुछ कहा।|I said many things to him
+अपना तो सारा हिसाब बिगड़ गया।|All my calculations went wrong
+किसकी बारी है?|Whose turn is it`
+      ]
     }
   ]
 };

@@ -184,6 +184,48 @@ export default {
 हर रोज़ सुबह सूरज  उदय होता है और श्याम को *सूर्य * ढल  जाता है। 
 पक्षी दाना और फल खाते हैं और यह  *चिड़ियाँ* नदियों का जल पीते है। `
       }
+    },
+    {
+      type: 'makeSentence',
+      label: 'हिंदी में अनुवाद करें',
+      id: 'make-sentence',
+      commonData: {
+        title: 'नीचे दिए गए अंग्रेजी वाक्यों का हिंदी में अनुवाद करें'
+      },
+      data: [
+        `How are you?| आप कैसे हैं
+I am good. | मैं ठीक हूँ 
+What is your name?| आपका नाम क्या है
+My name is Meera. | मेरा नाम मीरा है
+Where are you from?| आप कहाँ से हैं
+I am pleased to meet you. | आप से मिलकर ख़ुशी हुई
+What are you doing?| तुम क्या कर रहे हो
+How much does this cost? | यह कितने का है
+I want to go to the market.| मैं बाज़ार जाना चाहता हूँ
+I want to make a phone call. | मैं फोन करना चाहता हूं`,
+
+        `Do you speak English?| क्या आप अंग्रेज़ी बोलते हैं
+I did't understand. | मुझे समझ नहीं आया
+I don't know.| मुझको मालूम नहीं
+I am in pain. | मुझे दर्द हो रहा है 
+Can I help you? | क्या मैं आपकी मदद कर सकता हुँ 
+What is the time?| कितने बजे हैं
+Today is a good day. |आज अच्छा दिन है 
+I saw him, yesterday.| कल मैंने उसे देखा था
+I wish you well.|मैं तुम्हारा हित चाहता हूँ
+May God bless you.|भगवान तुम्हारा भला करें`,
+
+        `He has a mild fever.|उसे हल्का बुखार है
+I did as I was told. |मैंने वैसा ही किया जैसा मुझे कहा गया था
+I will see you this evening.|मैं आज शाम को आपसे मिलूँगा
+I have a lot to talk about.|मुझे बहुत-सी बातें करनी है
+Walk carefully.|संभल कर चलो
+It's a good beginning.|शुरुआत अच्छी हुई है
+I have a complaint against him.|मुझे उससे शिकायत है
+I said many things to him.|मैंने उससे बहुत कुछ कहा
+All my calculations went wrong.|अपना तो सारा हिसाब बिगड़ गया
+Whose turn is it?|किसकी बारी है`
+      ]
     }
   ]
 };
