@@ -56,7 +56,7 @@ export default {
         },
         {
           label: 'संभाषण',
-          id: 'conversation'
+          id: 'hi-conversation'
         },
         {
           label: 'पहेलियाँ',
