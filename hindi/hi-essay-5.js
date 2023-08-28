@@ -1,6 +1,6 @@
 export default {
   label: 'निबंध',
-  id: 'hi-essay-3',
+  id: 'hi-essay-5',
   img: 'reading',
   lockAfter: 3,
   list: [
