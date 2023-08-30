@@ -31,6 +31,10 @@ export default {
           id: 'mr-riddle'
         },
         {
+          label: 'Word Practice',
+          id: 'mr-word-practice'
+        },
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },
