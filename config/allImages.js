@@ -207,7 +207,8 @@ weaverbird`,
   tulsi
   bottlegourd
   ivygourd
-  ridgegourd`,
+  ridgegourd
+  narthankai`,
   ediables: `food
   milk
   fruits
@@ -390,6 +391,7 @@ towel
   trousers
   vetti
   saree
+  hanger
   anklet
 bangle
 chain
@@ -416,6 +418,7 @@ kumkum`,
   globe
   notebook
   writingpad
+  literature
   clip
 glue
 magnet
@@ -588,6 +591,7 @@ sewing-machine
   thermometer
   trowel
   walkie-talkie
+  anvil
   awl
   compass
   easel
@@ -604,6 +608,7 @@ sewing-machine
   trumpet
   xylophone
   drums
+  cymbals
   yazl
   damaru
   dhol
@@ -657,6 +662,9 @@ sewing-machine
   web
   cloud
   lightning
+  morning
+night
+flock-birds
   shell
   world
   nest
@@ -685,6 +693,11 @@ sewing-machine
   auvai
   bell
   five
+  one
+oneself
+pandit
+saint
+stamp
   king
   kite
   ladder
@@ -716,6 +729,7 @@ sewing-machine
   toothbrush
   toothpaste
   box
+  flag
   kolam
   coin
   queen
@@ -730,7 +744,7 @@ shadow
 bharani
 gadha
 para
-scholor
+scholar
 uri
 babywalker`,
 
