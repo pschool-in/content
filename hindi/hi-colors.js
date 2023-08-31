@@ -92,7 +92,7 @@ export default {
       lockAfter: 2,
       commonData: {
         title: 'Connect Letters and form the color name.',
-        lang: 'mr'
+        lang: 'hi'
       },
       data: [
         'लाल, नारंगी, सुनहरा, काला, सफ़ेद',
