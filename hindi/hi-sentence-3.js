@@ -190,7 +190,8 @@ export default {
       label: 'हिंदी में अनुवाद करें',
       id: 'make-sentence',
       commonData: {
-        title: 'नीचे दिए गए अंग्रेजी वाक्यों का हिंदी में अनुवाद करें'
+        title: 'नीचे दिए गए अंग्रेजी वाक्यों का हिंदी में अनुवाद करें',
+        extras: ' '
       },
       data: [
         `How are you?| आप कैसे हैं

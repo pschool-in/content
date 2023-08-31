@@ -561,7 +561,7 @@ export default {
       label: 'सही शब्द ढूंढें',
       commonData: {
         title: 'सही शब्द ढूंढें',
-        fontSize: '2rem'
+        fontSize: '1rem'
       },
       data: [
         `ग + र + म, गरम 
@@ -594,7 +594,7 @@ export default {
 
         `ब + र + द, बरद 
 न + द + न, नदन 
-म + ल, मिल 
+मि + ल, मिल 
 ल + प + त, लपत 
 र + ग + न, रगन 
 र + थ + ब, रथब`,

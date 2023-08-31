@@ -131,6 +131,49 @@ export default {
 मी दररोज इंग्रजी बोलतो
 माझे वडील डॉक्टर आहेत`
       ]
+    },
+    {
+      type: 'makeSentence',
+      label: 'मराठीत भाषांतर करा',
+      id: 'make-sentence',
+      commonData: {
+        title: 'खालील इंग्रजी वाक्यांचे मराठीत भाषांतर करा',
+        extras: ' '
+      },
+      data: [
+        `My name is Rohan.| माझे नाव रोहन आहे
+I am studying second standard. | मी इयत्ता दुसरीत शिकत आहे
+My sister's name is Pooja. | माझ्या बहिणीचे नाव पूजा आहे
+We go to school together. | आम्ही एकत्र शाळेत जातो
+On our way to school, we saw a horse. |शाळेत जातांना आम्हाला एक घोडा दिसला
+There is a neem tree in our school. | आमच्या शाळेत कडुलिंबाचे झाड आहे
+The bus went fast.| बस वेगाने निघाली
+The bullock cart went slowly. | बैलगाडी हळू हळू चालते
+I have a red color shirt.| माझ्याकडे लाल रंगाचा शर्ट आहे
+Today, rain may come. | आज पाऊस येऊ शकतो`,
+
+        `My class teacher is a good person.| माझे वर्ग शिक्षक एक चांगले व्यक्ती आहेत
+Light came in through the window. | खिडकीतून उजेड आला
+I had a bad dream.| मला एक वाईट स्वप्न पडले
+My sister's hand writing is beautiful. | माझ्या बहिणीचे हस्ताक्षर सुंदर आहे
+I was sitting silently. | मी गप्प बसलो होतो 
+Mumbai is a big city.| मुंबई मोठे शहर आहे
+A farmer works in the field. |शेतकरी शेतात काम करतो
+There are sun, moon and stars in the sky.| आकाशात सूर्य, चंद्र आणि तारे आहेत
+Pineapple is a sweet and sour fruit.|अननस हे आंबट-गोड फळ आहे
+We should drink plenty of water every day.|आपण रोज भरपूर पाणी प्यायला हवे`,
+
+        `I have many friends.|माझे खूप सारे मित्र आहेत
+I like to play with my friends. |मला माझ्या मित्रांसोबत खेळायला आवडते
+I read a book at bedtime.|मी झोपण्यापूर्वी एक पुस्तक वाचतो
+I watch cartoons on tv.|मी टीव्हीवर कार्टून पाहतो
+I eat a lot of green vegetables.|मी भरपूर हिरव्या भाज्या खातो
+Girls love to play with dolls.|मुलींना बाहुल्यांसोबत खेळायला आवडते																							
+A bee makes honey.|मधमाशी मध बनवते
+How beautiful is the rainbow!|किती सुंदर आहे ते इंद्रधनुष्य
+A strong wind was blowing.|जोराचा वारा सुटला होता
+I am proud to be an Indian.|मला भारतीय असल्याचा अभिमान आहे`
+      ]
     }
   ]
 };

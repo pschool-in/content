@@ -31,6 +31,18 @@ export default {
           id: 'mr-riddle'
         },
         {
+          label: 'वाचन - 2',
+          id: 'mr-poem'
+        },
+        {
+          label: 'शब्द - 2',
+          id: 'mr-word-2'
+        },
+        {
+          label: 'शब्दांचा सराव',
+          id: 'mr-word-practice'
+        },
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },
@@ -194,17 +206,6 @@ export default {
           label: 'English Words: Tools and Musical Instruments',
           id: 'mr-en-11'
         }
-
-        /*
-        {
-          label: 'शब्द - 2',
-          id: 'mr-word-2'
-        },
-        {
-          label: 'वाचन - 2',
-          id: 'mr-poem'
-        }
-        */
       ]
     }
   ]
