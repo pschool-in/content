@@ -43,6 +43,10 @@ export default {
           id: 'hi-sentence-4'
         },
         {
+          label: 'Small Picture and Passage',
+          id: 'hi-reading'
+        },
+        {
           label: 'कहानियाँ 2',
           id: 'hi-reading-4'
         },
@@ -53,6 +57,10 @@ export default {
         {
           label: 'निबंध - 2',
           id: 'hi-essay-5'
+        },
+        {
+          label: 'गद्यांश',
+          id: 'hi-comp-3'
         },
         {
           label: 'संभाषण',
