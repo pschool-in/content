@@ -15,8 +15,8 @@ export default {
           id: 'hi-numbers-2'
         },
         {
-          label: 'गिनती अधिक अभ्यास',
-          id: 'hi-numbers-practice'
+          label: 'गिनती 3',
+          id: 'hi-numbers-3'
         },
         {
           label: 'रंग',
@@ -28,11 +28,23 @@ export default {
         },
         {
           label: 'शब्द',
-          id: 'hi-word-4'
+          id: 'hi-word'
         },
         {
           label: 'शब्द 2',
+          id: 'hi-word-3'
+        },
+        {
+          label: 'शब्द 3',
+          id: 'hi-word-4'
+        },
+        {
+          label: 'शब्द 4',
           id: 'hi-word-5'
+        },
+        {
+          label: 'शब्द 5',
+          id: 'hi-word-6'
         },
         {
           label: 'वाक्य',
@@ -72,11 +84,27 @@ export default {
         },
         {
           label: 'व्याकरण',
-          id: 'hi-grammar-3'
+          id: 'hi-grammar'
         },
         {
           label: 'व्याकरण 2',
+          id: 'hi-grammar-2'
+        },
+        {
+          label: 'व्याकरण 3',
+          id: 'hi-grammar-3'
+        },
+        {
+          label: 'व्याकरण 4',
           id: 'hi-grammar-4'
+        },
+        {
+          label: 'व्याकरण 5',
+          id: 'hi-grammar-6'
+        },
+        {
+          label: 'व्याकरण 6',
+          id: 'hi-grammar-7'
         },
         {
           label: 'वर्ण',
@@ -85,18 +113,6 @@ export default {
         {
           label: 'वर्ण अधिक अभ्यास',
           id: 'hi-letter-practice'
-        },
-        {
-          label: 'शब्द अधिक अभ्यास',
-          id: 'hi-word-practice'
-        },
-        {
-          label: 'वाक्य अधिक अभ्यास',
-          id: 'hi-sentence-practice'
-        },
-        {
-          label: 'व्याकरण अधिक अभ्यास',
-          id: 'hi-grammar-practice'
         },
         {
           label: 'चित्र: फल और सब्जियां',
@@ -263,6 +279,10 @@ export default {
           label: 'English Words: Tools and Musical Instruments',
           id: 'hi-en-11'
         }
+        /*{
+          label: 'वाक्य अधिक अभ्यास',
+          id: 'hi-sentence-practice'
+        },*/
       ]
     }
   ]
