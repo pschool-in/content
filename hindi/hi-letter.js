@@ -663,6 +663,56 @@ export default {
 घ + अं, घं
 घ + अः, घः`
       ]
+    },
+    {
+      type: 'slides',
+      id: 'slide-vowel',
+      label: 'slide: Vowels',
+      data: {
+        audio: 'hi/hi-letters.mp3',
+        title: 'Vowels',
+        type: 'text',
+        fontSize: '5rem',
+        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+      }
+    },
+    {
+      type: 'slides',
+      id: 'slide-consonent',
+      label: 'slide: Consonents',
+      data: {
+        audio: 'hi/hi-letters.mp3',
+        title: 'Consonents',
+        type: 'text',
+        audioOffset: 28,
+        fontSize: '5rem',
+        text: `क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ,, ट, ठ, ड, ढ, ण, त, थ, द, ध, न, प, फ, ब, भ, म, य, र, ल, व, श, ष, स, ह`
+      }
+    },
+    {
+      label: 'touch: Vowels',
+      type: 'phonics',
+      id: 'touch-vowel',
+      data: {
+        audio: 'hi/hi-letters.mp3',
+        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+      }
+    },
+    {
+      label: 'touch: Consonents',
+      type: 'phonics',
+      id: 'touch-consonent',
+      data: {
+        audio: 'hi/hi-letters.mp3',
+        audioOffset: 28,
+        text: `क, ख, ग, घ, ङ
+        च, छ ,ज, झ ,ञ
+         ट, ठ, ड, ढ, ण
+         त, थ, द, ध, न
+         प, फ, ब, भ, म
+         य, र, ल, व, श
+         ष, स, ह`
+      }
     }
   ]
 };
