@@ -97,6 +97,49 @@ export default {
 ഇന്ന് നീ എന്താണ് ചെയ്യുന്നത്
 എനിക്ക് നിനക്കായി എന്തുചെയ്യാൻ കഴിയൂം`
       ]
+    },
+    {
+      type: 'makeSentence',
+      label: 'മലയാളത്തിൽ വിവർത്തനം ചെയ്യുക',
+      id: 'make-sentence',
+      commonData: {
+        title: 'താഴെയുള്ള ഇംഗ്ലീഷ് വാക്യങ്ങൾ മലയാളത്തിലേക്ക് വിവർത്തനം ചെയ്യുക',
+        extras: ' '
+      },
+      data: [
+        `How is the weather today?| ഇന്നത്തെ കാലാവസ്ഥ എങ്ങനെയുണ്ട്
+My sister's name is Priya.| എന്റ്റെ സഹോദരിയുടെ പേര് പ്രിയ എന്നാണ് 
+What is your name?| എന്താണ് നിന്റ്റെ പേര്
+My name is Meera. | എന്റ്റെ പേര് മീര എന്നാണ് 
+Where are you from?| നീ എവിടെ നിന്ന് വരുന്നു
+I am pleased to meet you. | നിങ്ങളെ കണ്ടതില് സന്തോഷം
+What are you doing?| നീ എന്ത് ചെയ്യുന്നു
+How much does this cost? | ഇതിനു എന്ത് വില വരും
+I want to go to the market.|എനിക്ക് ചന്തയിൽ പോകണം
+I want to make a phone call. | എനിക്ക് ഒരു ഫോൺ കോൾ ചെയ്യണം`,
+
+        `Do you speak English?| നീ ഇംഗ്ലീഷ് സംസാരിക്കുമോ
+I did't understand what you just said. | നിങ്ങൾ ഇപ്പോൾ പറഞ്ഞത് എനിക്ക് മനസ്സിലായില്ല
+I don't know where he is?| അവൻ എവിടെയാണെന്ന് എനിക്കറിയില്ല
+Why didn't you go to school today? | നീ എന്ത് കൊണ്ട് ഇന്ന് സ്കൂളിൽ പോയില്ല
+Can I help you? | എനിക്ക് നിങ്ങളെ സഹായിക്കാനാകുമോ
+Thank you for helping me.| എന്നെ സഹായിച്ചതിന് നന്ദി
+Today is a good day. |ഇന്ന് നല്ല ദിവസമാണ് 
+I saw him, yesterday.| ഞാൻ ഇന്നലെ അവനെ കണ്ടു
+I wish you well.|ഞാൻ നിങ്ങൾക്ക് ആശംസകൾ നേരുന്നു
+May God bless you.|ദൈവം നിങ്ങളെ അനുഗ്രഹിക്കട്ടെ`,
+
+        `I love singing.|എനിക്ക് പാടുന്നത് ഇഷ്ടമാണ്
+I did as I was told. |ഞാൻ പറഞ്ഞത് പോലെ ചെയ്തു
+I will see you this evening.|ഇന്ന് വൈകുന്നേരം കാണാം
+I have a lot to talk about.|എനിക്ക് ഒരുപാട് സംസാരിക്കാനുണ്ട്
+Walk carefully on the bridge.|പാലത്തിലൂടെ ശ്രദ്ധയോടെ നടക്കുക
+I am studying in second standard.|ഞാൻ രണ്ടാം ക്ലാസ്സിൽ പഠിക്കുന്നു
+I have a complaint against him.|അദ്ദേഹത്തിനെതിരെ എനിക്ക് പരാതിയുണ്ട്
+I said many things to him.|ഞാൻ അവനോട് പലതും പറഞ്ഞു
+All my calculations went wrong.|എന്റ്റെ എല്ലാ കണക്കുകൂട്ടലുകളും തെറ്റി
+Has the school bus left?|സ്കൂൾ ബസ് പോയോ`
+      ]
     }
   ]
 };

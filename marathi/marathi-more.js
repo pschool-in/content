@@ -19,6 +19,10 @@ export default {
           id: 'mr-grammar-2'
         },
         {
+          label: 'व्याकरण - 3',
+          id: 'mr-grammar-3'
+        },
+        {
           label: 'काळ',
           id: 'mr-tense'
         },

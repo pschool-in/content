@@ -1,6 +1,6 @@
 export default {
   label: 'Small Picture and Passage',
-  id: 'comp-1',
+  id: 'hi-reading',
   list: [
     {
       type: 'informationProcessing',
