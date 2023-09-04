@@ -1,4 +1,4 @@
-export default {
+ export default {
   label: 'Story',
   id: 'mr-reading',
   img: 'reading',
