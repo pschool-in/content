@@ -673,7 +673,7 @@ export default {
         title: 'Vowels',
         type: 'text',
         fontSize: '5rem',
-        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः`
       }
     },
     {
@@ -695,7 +695,7 @@ export default {
       id: 'touch-vowel',
       data: {
         audio: 'hi/hi-letters.mp3',
-        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः`
       }
     },
     {
