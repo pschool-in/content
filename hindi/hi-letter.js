@@ -667,7 +667,7 @@ export default {
     {
       type: 'slides',
       id: 'slide-vowel',
-      label: 'slide: Vowels',
+      label: 'Slide: स्वर वर्ण',
       data: {
         audio: 'hi/hi-letters.mp3',
         title: 'Vowels',
@@ -679,7 +679,7 @@ export default {
     {
       type: 'slides',
       id: 'slide-consonent',
-      label: 'slide: Consonents',
+      label: 'Slide: व्यंजन वर्ण',
       data: {
         audio: 'hi/hi-letters.mp3',
         title: 'Consonents',
@@ -690,7 +690,7 @@ export default {
       }
     },
     {
-      label: 'touch: Vowels',
+      label: 'Touch: स्वर वर्ण',
       type: 'phonics',
       id: 'touch-vowel',
       data: {
@@ -699,7 +699,7 @@ export default {
       }
     },
     {
-      label: 'touch: Consonents',
+      label: 'Touch: व्यंजन वर्ण',
       type: 'phonics',
       id: 'touch-consonent',
       data: {
