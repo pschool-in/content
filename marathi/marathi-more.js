@@ -47,6 +47,10 @@ export default {
           id: 'mr-word-practice'
         },
         {
+          label: 'वाचन ',
+          id: 'mr-passage'
+        },
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },
