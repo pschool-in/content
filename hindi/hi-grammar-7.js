@@ -1,6 +1,6 @@
 export default {
-  label: 'व्याकरण',
-  id: 'hi-grammar-practice',
+  label: 'व्याकरण 7',
+  id: 'hi-grammar-7',
   img: 'langGrammar',
   lockAfter: 4,
   list: [

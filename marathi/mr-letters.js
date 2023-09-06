@@ -6,7 +6,7 @@ export default {
     {
       id: 'vowels-writing',
       type: 'tracing',
-      label: 'स्वर वर्ण',
+      label: 'स्वर',
       data: {
         type: 'custom',
         audio: 'mr/mr-letters.mp3',
@@ -201,7 +201,7 @@ export default {
     {
       id: 'consonants-writing',
       type: 'tracing',
-      label: 'व्यंजन वर्ण',
+      label: 'व्यंजन',
       data: {
         type: 'custom',
         yGuides: [95, 250],
@@ -579,10 +579,10 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'हिंदी स्वर वर्ण की पहचान करें',
+      label: 'मराठी स्वर ओळखा',
       id: 'sound',
       data: {
-        title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
+        title: 'आवाज ऐका आणि अक्षरावर क्लिक करा ',
         type: 'letters',
         words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
         audio: 'hi/hi-letters.mp3'
@@ -590,11 +590,11 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'हिंदी व्यंजन वर्ण की पहचान करें',
+      label: 'मराठी व्यंजने ओळखा ',
       id: 'sound-2',
       lockAfter: 3,
       commonData: {
-        title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
+        title: 'आवाज ऐका आणि अक्षरावर क्लिक करा ',
         type: 'letters',
         audio: 'hi/hi-letters.mp3'
       },
@@ -620,9 +620,9 @@ export default {
     {
       id: 'listen',
       type: 'slides2',
-      label: `Listening Activity`,
+      label: `ऐका आणि समजून घ्या `,
       data: {
-        title: `Listening Activity`,
+        title: `ऐका आणि समजून घ्या  `,
         displayType: 'steps',
         audio: 'mr/barakhadi.mp3',
         audioOffsets: [4, 8, 13, 17, 22, 26, 31, 35, 40, 44, 49, 53, 58],
@@ -646,11 +646,11 @@ export default {
     },
     {
       type: 'rightOne',
-      label: 'Identify Letter',
+      label: 'अक्षरे ओळखा',
       id: 'sound-barakhadi',
       lockAfter: 3,
       commonData: {
-        title: 'Identify Letter based on Sound',
+        title: 'आवाज ऐका आणि अक्षरे ओळखा ',
         type: 'letters'
       },
       data: [
@@ -841,10 +841,10 @@ export default {
       //Coumpound letters
       id: 'compound-7',
       type: 'match',
-      label: 'व्यंजन और स्वर संयोजन (क - घ)',
+      label: 'व्यंजन आणि स्वर संयोजन ',
       lockAfter: 2,
       commonData: {
-        title: 'सही अक्षर का मिलान करें',
+        title: 'योग्य अक्षरे जुळवा ',
         fontSize: '2rem'
       },
       data: [
@@ -916,10 +916,10 @@ export default {
     {
       type: 'slides',
       id: 'slide-vowel',
-      label: 'slide: Vowels',
+      label: 'Slide: स्वर ',
       data: {
         audio: 'mr/mr-letters.mp3',
-        title: 'Vowels',
+        title: 'स्वर ',
         type: 'text',
         fontSize: '5rem',
         text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः, ॲ, ऑ`
@@ -928,10 +928,10 @@ export default {
     {
       type: 'slides',
       id: 'slide-consonent',
-      label: 'slide: Consonents',
+      label: 'Slide: व्यंजन ',
       data: {
         audio: 'mr/mr-letters.mp3',
-        title: 'Consonents',
+        title: 'व्यंजन',
         type: 'text',
         audioOffset: 30,
         fontSize: '5rem',
@@ -939,18 +939,20 @@ export default {
       }
     },
     {
-      label: 'touch: Vowels',
+      label: 'Touch: स्वर',
       type: 'phonics',
       id: 'touch-vowel',
+      title: 'खालील बटणांवर क्लिक करा आणि आवाज ऐका ',
       data: {
         audio: 'mr/mr-letters.mp3',
         text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः, ॲ, ऑ`
       }
     },
     {
-      label: 'touch: Consonents',
+      label: 'Touch: व्यंजन ',
       type: 'phonics',
       id: 'touch-consonent',
+      title: 'खालील बटणांवर क्लिक करा आणि आवाज ऐका ',
       data: {
         audio: 'mr/mr-letters.mp3',
         audioOffset: 30,

@@ -1,13 +1,13 @@
 export default {
-  label: 'Numbers - 2',
+  label: 'गिनती 2',
   id: 'hi-numbers-2',
   list: [
     {
       id: 'match',
       type: 'match',
-      label: 'Match the Numbers',
+      label: 'संख्या का मिलान करें',
       commonData: {
-        title: 'Match the Numbers',
+        title: 'संख्या का मिलान करें',
         fontSize: '1.5rem'
       },
       data: [
@@ -39,10 +39,10 @@ export default {
     {
       id: 'connect',
       type: 'sequence',
-      label: 'Connect Letters',
+      label: 'अक्षर कनेक्ट करें',
       lockAfter: 2,
       commonData: {
-        title: 'Connect letters and find the number.',
+        title: 'अक्षरों को जोड़ें और संख्या ज्ञात करें।',
         lang: 'hi'
       },
       data: [
@@ -56,11 +56,11 @@ export default {
       ]
     },
     {
-      label: 'Arrange Numbers ',
+      label: 'संख्याएँ व्यवस्थित करें',
       type: 'sorting',
       id: 'sort',
       commonData: {
-        title: 'Arrange Numbers from the Smallest to the Biggest '
+        title: 'संख्याओं को छोटी से बड़ी तक व्यवस्थित करें'
       },
       data: [
         'एक सौ, दो सौ, तीन सौ, चार सौ, पाँच सौ',

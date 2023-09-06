@@ -88,7 +88,7 @@ export default {
               'M 6 95 L 191 96 '
             ],
             width: 205,
-            audio: 24
+            audio: 12
           },
           {
             id: 'ए',
@@ -98,7 +98,7 @@ export default {
               'M 15 94 L 135 94 '
             ],
             width: 140,
-            audio: 12
+            audio: 14
           },
           {
             id: 'ऐ',
@@ -109,7 +109,7 @@ export default {
               'M 105 95 Q 96 64 54 51 '
             ],
             width: 140,
-            audio: 14
+            audio: 16
           },
           {
             id: 'ओ',
@@ -124,7 +124,7 @@ export default {
               'M 183 93 Q 174 62 132 49 '
             ],
             width: 220,
-            audio: 16
+            audio: 18
           },
           {
             id: 'औ',
@@ -139,7 +139,7 @@ export default {
               'M 180 93 Q 149 72 113 64 '
             ],
             width: 220,
-            audio: 18
+            audio: 20
           },
           {
             id: 'अं',
@@ -152,7 +152,7 @@ export default {
               'M 127 66 L 148 66 '
             ],
             width: 170,
-            audio: 20
+            audio: 22
           },
           {
             id: 'अः',
@@ -166,7 +166,7 @@ export default {
               'M 186 201 L 186 219 '
             ],
             width: 205,
-            audio: 22
+            audio: 24
           }
         ],
         repeatCount: 1
@@ -525,7 +525,7 @@ export default {
       data: {
         title: 'ध्वनि सुनें और अक्षर पर क्लिक करें',
         type: 'letters',
-        words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
+        words: 'अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः',
         audio: 'hi/hi-letters.mp3'
       }
     },
@@ -667,19 +667,19 @@ export default {
     {
       type: 'slides',
       id: 'slide-vowel',
-      label: 'slide: Vowels',
+      label: 'Slide: स्वर वर्ण',
       data: {
         audio: 'hi/hi-letters.mp3',
         title: 'Vowels',
         type: 'text',
         fontSize: '5rem',
-        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः`
       }
     },
     {
       type: 'slides',
       id: 'slide-consonent',
-      label: 'slide: Consonents',
+      label: 'Slide: व्यंजन वर्ण',
       data: {
         audio: 'hi/hi-letters.mp3',
         title: 'Consonents',
@@ -690,16 +690,16 @@ export default {
       }
     },
     {
-      label: 'touch: Vowels',
+      label: 'Touch: स्वर वर्ण',
       type: 'phonics',
       id: 'touch-vowel',
       data: {
         audio: 'hi/hi-letters.mp3',
-        text: `अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ`
+        text: `अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः`
       }
     },
     {
-      label: 'touch: Consonents',
+      label: 'Touch: व्यंजन वर्ण',
       type: 'phonics',
       id: 'touch-consonent',
       data: {

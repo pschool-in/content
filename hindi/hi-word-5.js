@@ -1,5 +1,5 @@
 export default {
-  label: 'शब्द',
+  label: 'शब्द 5',
   id: 'hi-word-5',
   img: 'word',
   lockAfter: 2,
