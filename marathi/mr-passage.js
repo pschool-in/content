@@ -1,5 +1,5 @@
 export default {
-  label: 'Passage',
+  label: 'वाचन',
   id: 'mr-passage',
   list: [
     {
