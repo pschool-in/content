@@ -1,6 +1,6 @@
 export default {
   label: 'शब्द',
-  id: 'hi-word-practice',
+  id: 'hi-word',
   img: 'word',
   lockAfter: 3,
   list: [

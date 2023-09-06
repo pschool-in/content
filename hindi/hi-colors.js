@@ -1,14 +1,14 @@
 export default {
-  label: 'Colors',
+  label: 'रंग',
   id: 'hi-colors',
   list: [
     {
       type: 'match',
-      label: 'Match Colors',
+      label: 'रंगों का मिलान करें',
       id: 'match-color-names',
       lockAfter: 2,
       commonData: {
-        title: 'Match Colors'
+        title: 'रंगों का मिलान करें'
       },
       data: [
         {
@@ -88,10 +88,10 @@ export default {
     {
       id: 'connect',
       type: 'sequence',
-      label: 'Connect Letters',
+      label: 'अक्षर कनेक्ट करें',
       lockAfter: 2,
       commonData: {
-        title: 'Connect Letters and form the color name.',
+        title: 'अक्षरों को जोड़ें और रंग का नाम बनाएं।',
         lang: 'hi'
       },
       data: [
@@ -131,10 +131,10 @@ export default {
     {
       type: 'dragAndDrop',
       id: 'rainbow',
-      label: 'Rainbow ',
+      label: 'इंद्रधनुष',
       data: {
         img: 'rainbow.jpg',
-        title: 'Drag and Drop the colors of a rainbow.',
+        title: 'इंद्रधनुष के रंगों को खींचें और छोड़ें।',
         fontSize: '1rem',
         width: 350,
         height: 350,

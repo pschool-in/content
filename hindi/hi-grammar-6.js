@@ -1,5 +1,5 @@
 export default {
-  label: 'व्याकरण',
+  label: 'व्याकरण 6',
   id: 'hi-grammar-6',
   img: 'langGrammar',
   lockAfter: 4,

@@ -5,11 +5,11 @@ export default {
   list: [
     {
       type: 'match',
-      label: 'Match Words',
+      label: 'जोड्या लावा',
       id: 'match',
       lockAfter: 1,
       commonData: {
-        title: 'Match the words that form a sentence.',
+        title: 'वाक्य तयार करणारे शब्द जुळवा',
         fontSize: '1.2rem'
       },
       data: [
@@ -54,9 +54,12 @@ export default {
     },
     {
       type: 'sequence',
-      label: 'Order Sentence',
+      label: 'अर्थपूर्ण वाक्ये तयार करा ',
       id: 'order-sentence',
       lockAfter: 2,
+      commonData: {
+        title: `अर्थपूर्ण वाक्ये तयार करण्यासाठी ब्लॉक्स कनेक्ट करा`
+      },
       data: [
         `तू कोण आहेस
 तुझं नाव काय

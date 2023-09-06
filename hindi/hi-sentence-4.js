@@ -1,5 +1,5 @@
 export default {
-  label: 'वाक्य',
+  label: 'वाक्य 2',
   id: 'hi-sentence-4',
   img: 'sentence',
   lockAfter: 3,

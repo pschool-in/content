@@ -6,9 +6,9 @@ export default {
     {
       id: '2-letter',
       type: 'sequence',
-      label: '2 Letter word - Practice',
+      label: '2 अक्षरी शब्द ',
       commonData: {
-        title: 'Connect Letters to form Word',
+        title: 'अक्षरे जोडून शब्द तयार करा ',
         lang: 'mr'
       },
       data: [
@@ -27,9 +27,9 @@ export default {
     {
       id: '2-letter-3',
       type: 'sequence',
-      label: '2 Letter word - More Practice',
+      label: '2 अक्षरी शब्द - More Practice',
       commonData: {
-        title: 'Connect Letters to form Word',
+        title: 'अक्षरे जोडून शब्द तयार करा ',
         lang: 'mr'
       },
       data: [
@@ -45,9 +45,9 @@ export default {
     {
       id: '3-letter-2',
       type: 'sequence',
-      label: '3 Letter word - Practice',
+      label: '3 अक्षरी शब्द ',
       commonData: {
-        title: 'Connect Letters to form Word',
+        title: 'अक्षरे जोडून शब्द तयार करा ',
         lang: 'mr'
       },
       data: [
@@ -66,9 +66,9 @@ export default {
     {
       id: '3-letter-3',
       type: 'sequence',
-      label: '3 Letter word - More Practice',
+      label: '3 अक्षरी शब्द - More Practice',
       commonData: {
-        title: 'Connect Letters to form Word',
+        title: 'अक्षरे जोडून शब्द तयार करा ',
         lang: 'mr'
       },
       data: [
@@ -81,7 +81,7 @@ export default {
     },
     {
       type: 'match',
-      label: 'जोड्या लावा',
+      label: 'समानार्थी शब्दांच्या जोड्या लावा',
       id: 'synonyms',
       commonData: {
         title: 'समानार्थी शब्दांच्या योग्य जोड्या लावा'
@@ -174,10 +174,10 @@ export default {
     },
     {
       type: 'match',
-      label: 'Match Antonyms',
+      label: 'विरुद्धार्थी शब्दांच्या जोड्या लावा',
       id: 'antonyms',
       commonData: {
-        title: 'Match words with opposite meaning.'
+        title: 'विरुद्धार्थी शब्दांच्या योग्य जोड्या लावा '
       },
       data: [
         `फिकट, गडद

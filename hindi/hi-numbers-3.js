@@ -1,13 +1,13 @@
 export default {
-  label: 'Numbers - Practice',
-  id: 'hi-numbers-practice',
+  label: 'गिनती 3',
+  id: 'hi-numbers-3',
   list: [
     {
       id: 'match',
       type: 'match',
-      label: 'Match the Numbers',
+      label: 'संख्या का मिलान करें',
       commonData: {
-        title: 'Match the Numbers',
+        title: 'संख्या का मिलान करें',
         fontSize: '1.5rem'
       },
       data: [
