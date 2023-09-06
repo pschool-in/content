@@ -1,0 +1,1 @@
+export default {"label":"","id":"mr-picture-basic","lang":"mr","list":[]}

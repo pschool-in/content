@@ -1,0 +1,1 @@
+export default {"label":"","id":"mr-sound-basic","lang":"mr","list":[]}

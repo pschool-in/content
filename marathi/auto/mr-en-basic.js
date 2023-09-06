@@ -1,0 +1,1 @@
+export default {"label":"","id":"mr-en-basic","lang":"mr","list":[]}

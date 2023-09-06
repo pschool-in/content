@@ -1,0 +1,1 @@
+export default {"label":"","id":"ml-pic-word-basic","lang":"ml","list":[]}
