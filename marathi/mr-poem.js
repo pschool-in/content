@@ -10,6 +10,7 @@ export default {
       data: {
         title: 'अग्गोबाईऽऽ ढग्गोबाईऽऽऽ',
         type: 'poem',
+        lineGap: '5px',
         text: `अग्गोबाईऽऽ ढग्गोबाईऽऽऽ लागली कळ
 ढगाला उन्हाची केवढी झळ!
 थोडी न थोडकी, लागली फार!
@@ -31,6 +32,7 @@ export default {
       data: {
         title: 'बीज',
         type: 'poem',
+        lineGap: '5px',
         text: `इथं काय रुजतं?
 मातीखाली निजतं
 पाण्याने भिजतं,
@@ -57,6 +59,7 @@ export default {
       data: {
         title: 'वाचनपाठ १',
         type: 'poem',
+        lineGap: '5px',
         text: `काका घरी आला.
 काकी घरी आली.
 मामा घरी आला.
@@ -76,6 +79,7 @@ export default {
       data: {
         title: 'आई, मला दे ना !',
         type: 'poem',
+        lineGap: '5px',
         text: `आई, मला छोटीशी बंदूक देना !
 बंदूक घेईन । शिपाई होईन ।
 ऐटीत चालीन । एक दोन तीन ।।१।।
@@ -97,6 +101,7 @@ export default {
       data: {
         title: 'माझा घोडा',
         type: 'poem',
+        lineGap: '5px',
         text: `टपटप टपटप टाकित टापा चाले माझा घोडा
 पाठीवरती जीन मखमली पायि रुपेरी तोडा.
 उंच उभारी दोन्ही कान
@@ -120,6 +125,7 @@ export default {
       data: {
         title: 'असेकसे?',
         type: 'poem',
+        lineGap: '5px',
         text: `असे कसे? असे कसे?
 रात्रीचेच चांदणे दिसे !
 असे कसे? असे कसे?
@@ -137,6 +143,7 @@ export default {
       data: {
         title: 'लोठेबाबा',
         type: 'poem',
+        lineGap: '5px',
         text: `लोठेबाबा लोठेबाबा,
 झोपता किती?
 आठ तास दिवसा
@@ -158,6 +165,7 @@ export default {
       data: {
         title: 'गाडी आली गाडी आली',
         type: 'poem',
+        lineGap: '5px',
         text: `गाडी आली गाडी आली चला पळा रे
 गाडी थांबली गाडी थांबली धक्का मारा रे ।।धृ.।।
 गाडी आली कोकणातून, आंबे आणले भरून भरून
@@ -177,6 +185,7 @@ export default {
       data: {
         title: 'वेडं कोकरू',
         type: 'poem',
+        lineGap: '5px',
         text: `वेडं कोकरू खूप थकलं
 येताना घरी वाट चुकलं
 अंधार बघून भलतच भ्यालं
@@ -194,6 +203,7 @@ export default {
       data: {
         title: 'जंगलात ठरली मैफल',
         type: 'poem',
+        lineGap: '5px',
         text: `जंगलात ठरली नाचगाण्याची मैफल
 अस्वल म्हणालं, ही तर हत्तीची अक्कल.
 तबल्यावर होती कोल्होबाची साथ
@@ -215,6 +225,7 @@ export default {
       data: {
         title: 'ससा',
         type: 'poem',
+        lineGap: '5px',
         text: `ससा ससा, दिसतो कसा,
 कापूस पिंजून ठेवलाय जसा,
 लाल लाल डोळे छान,
@@ -230,6 +241,7 @@ export default {
       data: {
         title: 'येरे येरे पावसा',
         type: 'poem',
+        lineGap: '5px',
         text: `येरे येरे पावसा, तुला देतो पैसा
 पैसा झाला खोटा, पाऊस आला मोठा
 पाऊस पडला झिम झिम
@@ -248,6 +260,7 @@ export default {
       data: {
         title: 'चांदोबाचे गाणे',
         type: 'poem',
+        lineGap: '5px',
         text: `चांदोबा चांदोबा भागलास का?
 निंबोणीच्या झाडामागे लपलास का?
 निंबोणीचे झाड करवंदी
@@ -265,6 +278,7 @@ export default {
       data: {
         title: 'वारा',
         type: 'poem',
+        lineGap: '5px',
         text: `आभाळ वाजलं धडाडधूम
 वारा सुटला सू सू सुम
 वीज चमकली चक चक चक
@@ -284,6 +298,7 @@ export default {
       data: {
         title: 'कोण कोण येते',
         type: 'poem',
+        lineGap: '5px',
         text: `माझ्या या दारातून
 कोण कोण येते कोण कोण येते
 
@@ -310,6 +325,7 @@ export default {
       data: {
         title: 'एक होरी परी',
         type: 'poem',
+        lineGap: '5px',
         text: `एक होती परी खूप खूप गोरी
 एवढीशी होती पण छान छान भारी
 
@@ -338,6 +354,7 @@ export default {
       data: {
         title: 'घड्याळ',
         type: 'poem',
+        lineGap: '5px',
         text: `घड्याळा घड्याळा थांब थांब
 किती वाजले सांग सांग
 दोन तुझे काटे, लहान आणि मोठे
@@ -368,6 +385,7 @@ export default {
       data: {
         title: 'राणीची बाग',
         type: 'poem',
+        lineGap: '5px',
         text: `स्वप्नात पाहिली राणीची बाग
 हत्तीच्या पाठीवर बसलाय नाग
 हरणाबरोबर खेळत पत्ते
@@ -393,6 +411,7 @@ export default {
       data: {
         title: 'नाच रे मोरा',
         type: 'poem',
+        lineGap: '5px',
         text: `नाच रे मोरा, आंब्याच्या वनात नाच रे मोरा नाच
 
 काळा काळा कापूस पिंजला रे
@@ -427,6 +446,7 @@ export default {
       data: {
         title: 'फुलपाखरू!',
         type: 'poem',
+        lineGap: '5px',
         text: `छान किती दिसते । फुलपाखरू
 
 या वेलीवर । फुलांबरोबर

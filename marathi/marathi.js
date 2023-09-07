@@ -71,6 +71,11 @@ export default {
       img: 'crossword'
     },
     {
+      id: 'mr-gk',
+      label: 'सामान्य ज्ञान',
+      img: 'gk'
+    },
+    {
       label: 'English Words',
       id: 'mr-en',
       img: 'translation'

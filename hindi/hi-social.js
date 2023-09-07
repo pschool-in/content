@@ -417,7 +417,7 @@ export default {
       data: {
         title:
           'त्योहारों का वर्गीकरण इस आधार पर करें कि वे किस मौसम से जुड़े हैं?',
-        fontSize: '2rem',
+        fontSize: '1rem',
         types: [
           {
             name: 'वसंत',
@@ -437,7 +437,7 @@ export default {
       data: {
         title:
           'त्योहारों का वर्गीकरण इस आधार पर करें कि वे किस मौसम से जुड़े हैं?',
-        fontSize: '2rem',
+        fontSize: '1rem',
         types: [
           {
             name: 'वर्षा',
@@ -457,7 +457,7 @@ export default {
       data: {
         title:
           'त्योहारों का वर्गीकरण इस आधार पर करें कि वे किस मौसम से जुड़े हैं?',
-        fontSize: '2rem',
+        fontSize: '1rem',
         types: [
           {
             name: 'हेमंत',
