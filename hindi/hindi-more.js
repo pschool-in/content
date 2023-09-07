@@ -115,6 +115,10 @@ export default {
           id: 'hi-letter-practice'
         },
         {
+          id: 'hi-picture',
+          label: 'चित्र: जानवर और पक्षी'
+        },
+        {
           label: 'चित्र: फल और सब्जियां',
           id: 'hi-picture-2'
         },
@@ -153,6 +157,10 @@ export default {
         {
           label: 'चित्र: उपकरण और संगीत वाद्ययंत्र',
           id: 'hi-picture-11'
+        },
+        {
+          id: 'hi-sound',
+          label: 'ध्वनि: जानवर और पक्षी'
         },
         {
           label: 'ध्वनि: फल और सब्जियां',

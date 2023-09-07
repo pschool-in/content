@@ -21,12 +21,12 @@ export default {
       img: 'writing'
     },
     {
-      id: 'mr-sound',
+      id: 'mr-sound-basic',
       label: 'आवाज',
       img: 'sound'
     },
     {
-      id: 'mr-picture',
+      id: 'mr-picture-basic',
       label: 'चित्र',
       img: 'image'
     },

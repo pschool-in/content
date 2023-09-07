@@ -13,12 +13,12 @@ export default {
       img: 'writing'
     },
     {
-      id: 'ml-sound',
+      id: 'ml-sound-basic',
       label: 'സ്വരം',
       img: 'sound'
     },
     {
-      id: 'ml-picture',
+      id: 'ml-picture-basic',
       label: 'ചിത്രം',
       img: 'image'
     },

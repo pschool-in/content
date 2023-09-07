@@ -19,12 +19,12 @@ export default {
       img: 'writing'
     },
     {
-      id: 'hi-sound',
+      id: 'hi-sound-basic',
       label: 'ध्वनि',
       img: 'sound'
     },
     {
-      id: 'hi-picture',
+      id: 'hi-picture-basic',
       label: 'चित्र',
       img: 'image'
     },

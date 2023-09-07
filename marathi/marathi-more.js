@@ -51,6 +51,11 @@ export default {
           id: 'mr-passage'
         },
         {
+          id: 'mr-sound',
+          label: 'आवाज: प्राणी आणि पक्षी',
+          img: 'sound'
+        },
+        {
           id: 'mr-sound-2',
           label: 'आवाज: फळे आणि भाज्या'
         },
@@ -89,6 +94,11 @@ export default {
         {
           id: 'mr-sound-11',
           label: 'आवाज: साधने आणि संगीत वाद्ये'
+        },
+        {
+          id: 'mr-picture',
+          label: 'चित्र: प्राणी आणि पक्षी',
+          img: 'image'
         },
         {
           label: 'चित्र: फळे आणि भाज्या',
