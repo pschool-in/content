@@ -6,7 +6,7 @@ export default {
     {
       id: 'ws-1',
       type: 'wordsearch',
-      label: 'Animals',
+      label: 'प्राणी',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -45,7 +45,7 @@ export default {
     {
       id: 'ws-2',
       type: 'wordsearch',
-      label: 'Birds',
+      label: 'पक्षी',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -80,7 +80,7 @@ export default {
     {
       id: 'ws-3',
       type: 'wordsearch',
-      label: 'Fruits',
+      label: 'फळं',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -117,7 +117,7 @@ export default {
     {
       id: 'ws-4',
       type: 'wordsearch',
-      label: 'Vegetables',
+      label: 'भाज्या',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -155,7 +155,7 @@ export default {
     {
       id: 'ws-5',
       type: 'wordsearch',
-      label: 'Nature',
+      label: 'निसर्ग',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -250,7 +250,7 @@ export default {
           }
         ]
       },
-      label: 'WordSearch Marathi 1',
+      label: 'आपले नातेवाईक',
       type: 'wordsearch'
     },
     {
@@ -302,13 +302,13 @@ export default {
           }
         ]
       },
-      label: 'WordSearch Marathi 2',
+      label: 'आपले जग',
       type: 'wordsearch'
     },
     {
       id: 'ws-8',
       type: 'wordsearch',
-      label: 'WordSearch Marathi 3',
+      label: 'वाहतुकीची साधने व स्थानके',
       authored: true,
       data: {
         title: 'Find the given words from the table.',
@@ -423,7 +423,7 @@ export default {
           }
         ]
       },
-      label: 'WordSearch Marathi 4',
+      label: 'ओळखा पाहू',
       type: 'wordsearch'
     },
     {
@@ -486,7 +486,7 @@ export default {
           }
         ]
       },
-      label: 'WordSearch Marathi 5',
+      label: 'हे काय आहे?',
       type: 'wordsearch'
     }
   ]

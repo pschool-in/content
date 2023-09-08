@@ -83,7 +83,7 @@ export default {
           }
         ]
       },
-      label: 'Crossword Marathi 1',
+      label: 'कोडे सोडवा',
       type: 'crossword'
     },
     {
@@ -183,7 +183,7 @@ export default {
           }
         ]
       },
-      label: 'Crossword Marathi 2',
+      label: 'जरा डोके चालवा',
       type: 'crossword'
     },
     {
@@ -302,7 +302,7 @@ export default {
           }
         ]
       },
-      label: 'Crossword Marathi 3',
+      label: 'डोक्याला खुराक',
       type: 'crossword'
     },
     {
@@ -393,7 +393,7 @@ export default {
           }
         ]
       },
-      label: 'Crossword Marathi 4',
+      label: 'डोके लढवा कोडे सोडवा',
       type: 'crossword'
     },
     {
@@ -504,7 +504,7 @@ export default {
           }
         ]
       },
-      label: 'Crossword Marathi 5',
+      label: 'अवघड कोडे',
       type: 'crossword'
     }
   ]
