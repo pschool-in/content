@@ -2,6 +2,7 @@ export default {
   label: 'Word Search',
   id: 'mr-wordsearch',
   img: 'wordsearch',
+  lang: 'mr',
   list: [
     {
       id: 'ws-1',

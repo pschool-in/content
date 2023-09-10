@@ -2,6 +2,7 @@ export default {
   label: 'वर्ण-2',
   id: 'hi-letter-2',
   img: 'writing',
+  lang: 'hi',
   list: [
     {
       id: 'barakhadi-writing',
@@ -785,6 +786,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         audio: 'hi/hi-words.mp3',
         source: [
           {
@@ -858,6 +860,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         audio: 'hi/hi-words.mp3',
         source: [
           {
@@ -936,6 +939,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         audio: 'hi/hi-words.mp3',
         source: [
           {

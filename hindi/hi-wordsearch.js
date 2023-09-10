@@ -3,6 +3,7 @@ export default {
   lockAfter: 3,
   id: 'hi-wordsearch',
   img: 'wordsearch',
+  lang: 'hi',
   list: [
     {
       id: 'days',

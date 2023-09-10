@@ -3,6 +3,7 @@ export default {
   id: 'hi-letter',
   img: 'writing',
   lockAfter: 1,
+  lang: 'hi',
   list: [
     {
       id: 'vowels-writing',
@@ -680,14 +681,26 @@ export default {
       type: 'slides',
       id: 'slide-consonent',
       label: 'Slide: व्यंजन वर्ण',
-      data: {
+      commonData: {
         audio: 'hi/hi-letters.mp3',
         title: 'Consonents',
         type: 'text',
-        audioOffset: 28,
-        fontSize: '5rem',
-        text: `क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ,, ट, ठ, ड, ढ, ण, त, थ, द, ध, न, प, फ, ब, भ, म, य, र, ल, व, श, ष, स, ह`
-      }
+        fontSize: '5rem'
+      },
+      data: [
+        {
+          audioOffset: 28,
+          text: 'क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ'
+        },
+        {
+          audioOffset: 56,
+          text: 'ण, त, थ, द, ध, न, प, फ, ब, भ, म,'
+        },
+        {
+          audioOffset: 78,
+          text: 'य, र, ल, व, श, ष, स, ह'
+        }
+      ]
     },
     {
       label: 'Touch: स्वर वर्ण',

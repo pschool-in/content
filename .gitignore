@@ -5,6 +5,14 @@
 
 /printTemp
 
+/tamil/auto
+/telugu/auto
+/hindi/auto
+/marathi/auto
+/malayalam/auto
+/bengali/auto
+/kannada/auto
+
 # misc
 .DS_Store
 .env
@@ -19,3 +27,5 @@ yarn-error.log*
 
 bengali/.DS_Store
 hindi/.DS_Store
+
+

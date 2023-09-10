@@ -1,6 +1,7 @@
 export default {
   label: 'Word',
   id: 'ml-word-2',
+  lang: 'ml',
   list: [
     {
       type: 'match',

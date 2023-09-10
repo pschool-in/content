@@ -2,6 +2,7 @@ export default {
   label: 'वाक्य',
   id: 'hi-sentence-practice',
   img: 'sentence',
+  lang: 'hi',
   list: [
     {
       id: 'form-sentence',

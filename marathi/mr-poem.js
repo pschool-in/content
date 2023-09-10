@@ -2,6 +2,7 @@ export default {
   label: 'Poems',
   id: 'mr-poem',
   img: 'reading',
+  lang: 'mr',
   list: [
     {
       id: '100',

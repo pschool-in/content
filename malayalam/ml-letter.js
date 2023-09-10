@@ -667,13 +667,25 @@ export default {
       type: 'slides',
       id: 'slide-consonent',
       label: 'slide: Consonents',
-      data: {
+      commonData: {
         audio: 'ml/ml-consonent.mp3',
         title: 'Consonents',
         type: 'text',
-        fontSize: '5rem',
-        text: `ക, ഖ, ഗ, ഘ, ങ, ച, ഛ, ജ, ഝ, ഞ, ട, ഠ, ഡ, ഢ, ണ, ത, ഥ, ദ, ധ, ന, പ, ഫ, ബ, ഭ, മ, യ, ര, ല, വ, ശ, ഷ, സ, ഹ, ള, റ, ഴ`
-      }
+        fontSize: '5rem'
+      },
+      data: [
+        {
+          text: 'ക, ഖ, ഗ, ഘ, ങ, ച, ഛ, ജ, ഝ, ഞ, ട, ഠ, ഡ, ഢ, ണ'
+        },
+        {
+          audioOffset: 30,
+          text: ' ത, ഥ, ദ, ധ, ന, പ, ഫ, ബ, ഭ, മ'
+        },
+        {
+          audioOffset: 50,
+          text: 'യ, ര, ല, വ, ശ, ഷ, സ, ഹ, ള, റ, ഴ'
+        }
+      ]
     },
     {
       label: 'touch: Vowels',

@@ -151,7 +151,7 @@ Ashoka Chakra, 24 Spokes`
               img: 'Vajpayee'
             },
             {
-              text: 'Indira Gandhi was the first lady Prime Minister of India.',
+              text: 'Indira Gandhi was the first woman Prime Minister of India.',
               img: 'IndiraGandhi'
             }
           ]

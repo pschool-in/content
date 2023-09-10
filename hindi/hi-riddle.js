@@ -2,6 +2,7 @@ export default {
   label: 'पहेलियाँ',
   id: 'hi-riddle',
   lockAfter: 2,
+  lang: 'hi',
   list: [
     {
       id: 'story',

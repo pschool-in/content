@@ -2,6 +2,7 @@ export default {
   label: 'व्याकरण - 2',
   id: 'mr-grammar-2',
   img: 'langGrammar',
+  lang: 'mr',
   list: [
     {
       label: 'लिंग',

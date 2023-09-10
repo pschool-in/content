@@ -2,6 +2,7 @@ export default {
   label: 'व्याकरण',
   id: 'mr-grammar',
   img: 'langGrammar',
+  lang: 'mr',
   list: [
     {
       label: 'नाम',

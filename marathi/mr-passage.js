@@ -1,6 +1,7 @@
 export default {
   label: 'वाचन',
   id: 'mr-passage',
+  lang: 'mr',
   list: [
     {
       id: '100',

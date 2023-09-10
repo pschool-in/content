@@ -2,7 +2,7 @@ export default {
   label: 'व्याकरण 2',
   id: 'hi-grammar-2',
   img: 'langGrammar',
-  lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       id: 'partsofspeech-hi',

@@ -1,6 +1,7 @@
 export default {
   label: 'संभाषण',
   id: 'hi-conversation',
+  lang: 'hi',
   lockAfter: 2,
   list: [
     {

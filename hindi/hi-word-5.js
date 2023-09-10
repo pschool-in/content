@@ -3,6 +3,7 @@ export default {
   id: 'hi-word-5',
   img: 'word',
   lockAfter: 2,
+  lang: 'hi',
   list: [
     {
       type: 'match',

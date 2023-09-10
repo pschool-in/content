@@ -2,6 +2,7 @@ export default {
   label: 'Crossword',
   id: 'mr-crossword',
   img: 'crossword',
+  lang: 'mr',
   list: [
     {
       id: 'cw-1',

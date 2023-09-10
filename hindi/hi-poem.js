@@ -3,6 +3,7 @@ export default {
   id: 'hi-poem',
   img: 'reading',
   lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       id: '1700',

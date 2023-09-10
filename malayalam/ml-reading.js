@@ -2,6 +2,7 @@ export default {
   label: 'Story',
   id: 'ml-reading',
   img: 'reading',
+  lang: 'ml',
   list: [
     {
       id: '100',

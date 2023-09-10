@@ -3,6 +3,7 @@ export default {
   id: 'hi-word',
   img: 'word',
   lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       id: 'jumbled-hi-1',

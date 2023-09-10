@@ -3,6 +3,7 @@ export default {
   id: 'hi-social',
   img: 'social',
   lockAfter: 4,
+  lang: 'hi',
   list: [
     {
       label: 'शहर',

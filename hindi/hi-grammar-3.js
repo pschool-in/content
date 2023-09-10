@@ -2,7 +2,7 @@ export default {
   label: 'व्याकरण 3',
   id: 'hi-grammar-3',
   img: 'langGrammar',
-  lockAfter: 4,
+  lang: 'hi',
   list: [
     {
       id: 'homonyms-hi',

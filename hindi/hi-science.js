@@ -3,6 +3,7 @@ export default {
   id: 'hi-science',
   img: 'science',
   lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       id: 'parts-of-face',

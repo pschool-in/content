@@ -584,8 +584,8 @@ export default {
       data: {
         title: 'आवाज ऐका आणि अक्षरावर क्लिक करा ',
         type: 'letters',
-        words: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः, ऋ',
-        audio: 'hi/hi-letters.mp3'
+        words: 'अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ, अं, अः, ॲ, ऑ',
+        audio: 'mr/mr-letters.mp3'
       }
     },
     {
@@ -596,24 +596,20 @@ export default {
       commonData: {
         title: 'आवाज ऐका आणि अक्षरावर क्लिक करा ',
         type: 'letters',
-        audio: 'hi/hi-letters.mp3'
+        audio: 'mr/mr-letters.mp3'
       },
       data: [
         {
-          audioOffset: 28,
-          words: 'क, ख, ग, घ, ङ, च, छ, ज, झ, ञ'
+          audioOffset: 30,
+          words: 'क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ, ण'
         },
         {
-          audioOffset: 48,
-          words: 'ट, ठ, ड, ढ, ण, त, थ, द, ध, न'
+          audioOffset: 60,
+          words: ' त, थ, द, ध, न, प, फ, ब, भ, म,'
         },
         {
-          audioOffset: 68,
-          words: 'प, फ, ब, भ, म, य, र, ल'
-        },
-        {
-          audioOffset: 84,
-          words: 'व, श, ष, स, ह'
+          audioOffset: 80,
+          words: 'य, र, ल, व, श, ष, स, ह, ळ, क्ष, ज्ञ'
         }
       ]
     },
@@ -635,7 +631,7 @@ export default {
 क् + ई = की
 क् + उ = कु
 क् + ऊ = कू
-क् + ए = के
+क् + ए = के  
 क् + ऐ = कै
 क् + ओ = को
 क् + औ = कौ
@@ -929,14 +925,28 @@ export default {
       type: 'slides',
       id: 'slide-consonent',
       label: 'Slide: व्यंजन ',
-      data: {
+      commonData: {
         audio: 'mr/mr-letters.mp3',
         title: 'व्यंजन',
         type: 'text',
-        audioOffset: 30,
+
         fontSize: '5rem',
-        text: `क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ, ण, त, थ, द, ध, न, प, फ, ब, भ, म, य, र, ल, व, श, ष, स, ह, ळ, क्ष, ज्ञ`
-      }
+        text: ` `
+      },
+      data: [
+        {
+          audioOffset: 30,
+          text: 'क, ख, ग, घ, ङ, च, छ ,ज, झ ,ञ, ट, ठ, ड, ढ, ण'
+        },
+        {
+          audioOffset: 60,
+          text: ' त, थ, द, ध, न, प, फ, ब, भ, म,'
+        },
+        {
+          audioOffset: 80,
+          text: 'य, र, ल, व, श, ष, स, ह, ळ, क्ष, ज्ञ'
+        }
+      ]
     },
     {
       label: 'Touch: स्वर',

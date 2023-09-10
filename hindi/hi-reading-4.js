@@ -3,6 +3,7 @@ export default {
   id: 'hi-reading-4',
   img: 'reading',
   lockAfter: 4,
+  lang: 'hi',
   list: [
     {
       id: '1500',

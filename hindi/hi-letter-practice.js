@@ -3,6 +3,7 @@ export default {
   id: 'hi-letter-practice',
   img: 'writing',
   lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       //Coumpound letters

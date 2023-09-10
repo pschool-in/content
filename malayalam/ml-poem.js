@@ -2,6 +2,7 @@ export default {
   label: 'Poems',
   id: 'ml-poem',
   img: 'reading',
+  lang: 'ml',
   list: [
     {
       id: '100',

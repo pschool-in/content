@@ -2,6 +2,7 @@ export default {
   label: 'सामान्य ज्ञान',
   id: 'hi-gk',
   img: 'gk',
+  lang: 'hi',
   list: [
     {
       id: 'mcq',

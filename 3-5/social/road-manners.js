@@ -84,13 +84,11 @@ It is always *cool (boring)* to have good manners.`
         {
           steps: [
             {
-              text:
-                'If the road is too narrow for the traffic, then it will be made an one way road.',
+              text: 'If the road is too narrow for the traffic, then it will be made an one way road.',
               img: 'one-way'
             },
             {
-              text:
-                'To avoid confusion whether it is one-way or not, this sign says it is two way traffic.',
+              text: 'To avoid confusion whether it is one-way or not, this sign says it is two way traffic.',
               img: '2-way-traffic'
             },
             {
@@ -98,8 +96,7 @@ It is always *cool (boring)* to have good manners.`
               img: 'no-u-turn'
             },
             {
-              text:
-                'In most of the roads, U-turn is allowed. To avoid confusion, this sign is kept.',
+              text: 'In most of the roads, U-turn is allowed. To avoid confusion, this sign is kept.',
               img: 'u-turn'
             },
             {
@@ -107,23 +104,19 @@ It is always *cool (boring)* to have good manners.`
               img: 'no-parking'
             },
             {
-              text:
-                'We should park our vehicle only at places where parking is allowed.',
+              text: 'We should park our vehicle only at places where parking is allowed.',
               img: 'parking'
             },
             {
-              text:
-                'In some roads, left turn is not allowed as it may be a one way road.',
+              text: 'In some roads, left turn is not allowed as it may be a one way road.',
               img: 'no-left-turn'
             },
             {
-              text:
-                'In some roads, right turn is not allowed as it may be a one way road.',
+              text: 'In some roads, right turn is not allowed as it may be a one way road.',
               img: 'no-right-turn'
             },
             {
-              text:
-                'Different roads have different speed limit. Overspeeding is the cause of many accidents. This sign says, the maximum speed limit is 40 km/hr.',
+              text: 'Different roads have different speed limit. Overspeeding is the cause of many accidents. This sign says, the maximum speed limit is 40 km/hr.',
               img: 'max-speed'
             }
           ]
@@ -131,18 +124,15 @@ It is always *cool (boring)* to have good manners.`
         {
           steps: [
             {
-              text:
-                'This is the place where pedestrian crosses the road. People driving should slow down at zebra crossing.',
+              text: 'This is the place where pedestrians cross the road. People driving should slow down at zebra crossing.',
               img: 'zebra-crossing'
             },
             {
-              text:
-                'Roads need maintenance. We can see people working on the roads or near the roads. We have to slow down and be careful not to hurt anyone.',
+              text: 'Roads need maintenance. We can see people working on the roads or near the roads. We have to slow down and be careful not to hurt anyone.',
               img: 'men-at-work'
             },
             {
-              text:
-                'We can see this near Railway crossing. When train comes, the road will be blocked for traffic.',
+              text: 'We can see this near Railway crossing. When a train come, the road will be blocked for traffic.',
               img: 'railroad'
             },
             {
@@ -150,28 +140,23 @@ It is always *cool (boring)* to have good manners.`
               img: 't-junction'
             },
             {
-              text:
-                'In some cities bicycles have separate lanes and crossing area. It is to encourage people to use bicycle as it is healthy and pollution free.',
+              text: 'In some cities bicycles have separate lanes and crossing area. It is to encourage people to use bicycle as it is healthy and pollution free.',
               img: 'bicycle-crossing'
             },
             {
-              text:
-                'In some places overtaking is not allowed. It may be curved road or accident prone region.',
+              text: 'In some places overtaking is not allowed. It may be curved road or accident prone region.',
               img: 'no-overtaking'
             },
             {
-              text:
-                'While driving in hill stations, driving uphill is difficult than downhill. So we have give way for vehicles moving uphill.',
+              text: 'While driving in hill stations, driving uphill is difficult than downhill. So we have give way for vehicles moving uphill.',
               img: 'give-way'
             },
             {
-              text:
-                'Bridges are usually narrower than roads. So we have to slow down when crossing a bridge.',
+              text: 'Bridges are usually narrower than roads. So we have to slow down when crossing a bridge.',
               img: 'narrow-bridge'
             },
             {
-              text:
-                'To avoid noise pollution near hospitals, schools etc, horning is prohibited. ',
+              text: 'To avoid noise pollution near hospitals, schools etc, horning is prohibited. ',
               img: 'horn-prohibited'
             }
           ]

@@ -1,6 +1,7 @@
 export default {
   label: 'Small Picture and Passage',
   id: 'hi-reading',
+  lang: 'hi',
   list: [
     {
       type: 'informationProcessing',

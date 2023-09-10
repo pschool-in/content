@@ -3,6 +3,7 @@ export default {
   id: 'hi-sentence-4',
   img: 'sentence',
   lockAfter: 3,
+  lang: 'hi',
   list: [
     {
       id: 'form-sentence',

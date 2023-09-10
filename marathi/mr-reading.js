@@ -1,7 +1,8 @@
- export default {
+export default {
   label: 'Story',
   id: 'mr-reading',
   img: 'reading',
+  lang: 'mr',
   list: [
     {
       id: '100',

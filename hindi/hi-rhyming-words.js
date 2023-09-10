@@ -2,6 +2,7 @@ export default {
   label: 'Rhyming Words',
   id: 'hi-rhyming-words',
   lockAfter: 4,
+  lang: 'hi',
   list: [
     {
       label: 'खींचें और छोड़ें',

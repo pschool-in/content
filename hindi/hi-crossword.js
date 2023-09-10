@@ -3,6 +3,7 @@ export default {
   lockAfter: 3,
   id: 'hi-crossword',
   img: 'crossword',
+  lang: 'hi',
   list: [
     {
       id: 'days',
