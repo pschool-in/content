@@ -27,6 +27,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         audio: 'bn/bn-letters.mp3',
         source: [
           {
@@ -266,6 +267,7 @@ export default {
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [95, 250],
         audio: 'bn/bn-letters.mp3',
         source: [
           {
@@ -585,7 +587,6 @@ export default {
             audio: 84
           }
         ],
-        chars: [],
         repeatCount: 1
       }
     },
