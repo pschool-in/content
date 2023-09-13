@@ -1,15 +1,15 @@
 export default {
-  label: "Plants around Us",
-  id: "plants-2",
+  label: 'Plants around Us',
+  id: 'plants-2',
   lockAfter: 2,
   list: [
     {
-      type: "dragDropImgLabel",
-      label: "Match the Leaves",
-      id: "dragdrop-leaves",
+      type: 'dragDropImgLabel',
+      label: 'Match the Leaves',
+      id: 'dragdrop-leaves',
       lockAfter: 1,
       commonData: {
-        title: "Drag the names and drop on the images.",
+        title: 'Drag the names and drop on the images.'
       },
       data: [
         `bananaleaf | Banana leaf 
@@ -24,42 +24,42 @@ spinach | Spinach
 fenugreek | Fenugreek
 corianderleaf | Coriander leaf
 curryleaf | Curry leaf
-spring-onion | Onion Spring`,
-      ],
+spring-onion | Onion Spring`
+      ]
     },
     {
-      type: "sequence",
-      id: "fruits-jumbled",
-      label: "Find the Fruits",
+      type: 'sequence',
+      id: 'fruits-jumbled',
+      label: 'Find the Fruits',
       data: {
-        title: "Connect the letters and form a fruit.",
-        text: `grapes, banana, apple, orange, mango, papaya, fig, dates, cherry, plum`,
-      },
+        title: 'Connect the letters and form a fruit.',
+        text: `grapes, banana, apple, orange, mango, papaya, fig, dates, cherry, plum`
+      }
     },
     {
-      type: "sequence",
-      id: "vegetables-jumbled",
-      label: "Find the Vegetables",
+      type: 'sequence',
+      id: 'vegetables-jumbled',
+      label: 'Find the Vegetables',
       data: {
-        title: "Connect the letters and form a vegetable.",
-        text: `carrot, potato, corn, beans, onion, radish, pumpkin, brinjal, turnip, yam`,
-      },
+        title: 'Connect the letters and form a vegetable.',
+        text: `carrot, potato, corn, beans, onion, radish, pumpkin, brinjal, turnip, yam`
+      }
     },
     {
-      type: "sequence",
-      id: "flowers-jumbled",
-      label: "Find the Flowers",
+      type: 'sequence',
+      id: 'flowers-jumbled',
+      label: 'Find the Flowers',
       data: {
-        title: "Connect the letters and form a flower.",
-        text: `rose, lotus, tulip, lily, jasmine`,
-      },
+        title: 'Connect the letters and form a flower.',
+        text: `rose, lotus, tulip, lily, jasmine`
+      }
     },
     {
-      id: "notes",
-      type: "passage",
-      label: "Passage",
+      id: 'notes',
+      type: 'passage',
+      label: 'Passage',
       data: {
-        title: "Notes",
+        title: 'Notes',
         text: `Every plant has a root and a shoot system. The part of the plant that grows under the ground is called the root system. The part of the plant that grows above the ground is called the shoot system. It consists of stem, leaf, flower and fruit. 
 # Herbs
 Herbs are small plants with thin and soft stems. Most of them live for a few months. eg: mint, coriander, grass
@@ -75,24 +75,24 @@ Trees are big and tall plants.They have hard and thick stem called trunk. They l
 We get most of our foods from plants in the form of vegetables, fruits, cereals, pulses, spices and oils.
 Coconut oil is used both as cooking oil and hair oil.
 Many plants has medicinal value. Eg: eucalyptus, neem, tulsi.
-Plants are also used as cosmetics. Eg: henna, shikakai, aloe vera.`,
-      },
+Plants are also used as cosmetics. Eg: henna, shikakai, aloe vera.`
+      }
     },
     {
-      label: "Drag and Drop",
-      id: "drag-drop",
-      type: "matchByDragDrop",
+      label: 'Drag and Drop',
+      id: 'drag-drop',
+      type: 'matchByDragDrop',
       data: {
         text: `*Leaf* grows from the stem.
 *Flower* has special smell and colour.
 *Fruit* has seeds.
 *Stem* supports the plant.
-*Root* fixes the plant in the soil.`,
-      },
+*Root* fixes the plant in the soil.`
+      }
     },
     {
-      id: "match",
-      type: "match",
+      id: 'match',
+      type: 'match',
       data: [
         `Herb, Grass
 Shrub, Shoe Flower
@@ -109,64 +109,64 @@ Tree, Coconut`,
         `Henna, Hands
 Shikakai, Hair
 Aloe vera, Face
-Tulsi, Health`,
-      ],
+Tulsi, Health`
+      ]
     },
     {
-      id: "fillup",
-      label: "Fill Up",
-      type: "fillup",
+      id: 'fillup',
+      label: 'Fill Up',
+      type: 'fillup',
       data: {
         text: `The part of the plant that grows *above (below)* the soil is called shoot system, and *below (above)* the soil is called root system.
 The *leaves (stems)* are the green parts of the plant.
 Flowers grow from *buds (fruits)*.
-*Banana (Neem)* leaves are used as plates. *Neem (Banana)* leaves are used as medicines.`,
-      },
+*Banana (Neem)* leaves are used as plates. *Neem (Banana)* leaves are used as medicines.`
+      }
     },
     {
-      id: "story",
-      type: "slides2",
+      id: 'story',
+      type: 'slides2',
       label: `The Story of a Mango`,
       data: {
         title: `The Story of a Mango`,
-        displayType: "steps",
+        displayType: 'steps',
         autoPlay: false,
-        audio: "science/mango-story.mp3",
-        images: "img/science/mango-story",
-        audioOffsets: [3, 11, 14, 18, 22, 26, 30, 35],
+        audio: 'science/mango-story.mp3',
+        images: 'img/science/mango-story',
+        audioOffsets: [4.5, 12.5, 17.5, 23, 29, 35, 40.5, 46.5],
         steps: [
           `The farmer picks the mangoes from the tree.
-To avoid mangoes falling down and getting damaged, the farmer uses a net to pluck the mangoes.
+          The farmer uses a net to pluck the mangoes, to avoid getting damaged.
 The plucked mangoes are loaded in a truck.
 The truck moves the mangoes from the village to the city.
 A big merchant buys all the mangoes in the city.
-Many fruit sellers buy mangoes from merchants.
+Many fruit sellers buy mangoes from the merchant.
 Fruit sellers weigh the mangoes and pay the merchant.
-Finally, we buy the mango from the local fruit seller.`,
-        ],
-      },
+Finally, we buy the mangoes from the local fruit seller.`
+        ]
+      }
     },
     {
-      id: "tomato-plant",
-      type: "passage",
-      label: "Selvi and a Tomato Plant",
+      id: 'tomato-plant',
+      type: 'passage',
+      label: 'Selvi and a Tomato Plant',
       data: {
-        title: "Selvi and a Tomato Plant",
+        title: 'Selvi and a Tomato Plant',
         text: `Selvi went to a garden. She saw a yellow flower on the tomato plant. She went to pluck it. A bee came and said, 'Please, leave it for me. It is my food'.
 She saw a red tomato on the tomato plant. She went to pluck it. A parrot came and said, 'Please, leave it for me. It is my food'.
 She saw a green leaf on the tomato plant. A grasshopper came and said, 'Please don't pluck the leaf. It is my food'. 
-Watering the plant, Selvi said, 'You provide food for all of us. Thank you very much'.`,
-      },
+Watering the plant, Selvi said, 'You provide food for all of us. Thank you very much'.`
+      }
     },
     {
-      label: "Drag and Drop",
-      id: "drag-drop-2",
-      type: "matchByDragDrop",
+      label: 'Drag and Drop',
+      id: 'drag-drop-2',
+      type: 'matchByDragDrop',
       data: {
         text: `*Yellow* flower provides food for a *bee*.
 *Green* leaf is the food for a *grasshopper*.
-*Red* tomato is the food for a *parrot*.`,
-      },
-    },
-  ],
+*Red* tomato is the food for a *parrot*.`
+      }
+    }
+  ]
 };

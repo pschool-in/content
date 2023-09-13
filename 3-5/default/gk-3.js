@@ -15,6 +15,9 @@ export default {
       },
       data: [
         {
+          audio: 'gk/leaders.mp3',
+          audioOffsets: [10, 18, 30, 39.5, 46, 58],
+          autoPlay: false,
           steps: [
             {
               text: 'Mahatma Gandhi is called the father of our nation. He led the country in our Freedom Struggle.',
@@ -43,6 +46,9 @@ export default {
           ]
         },
         {
+          audio: 'gk/leaders-2.mp3',
+          audioOffsets: [8, 16.5, 28.5, 40.5, 46.5, 52],
+          autoPlay: false,
           steps: [
             {
               text: 'Abdul Kalam was an aerospace scientist. He is known as Missile Man of India. ',

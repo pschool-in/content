@@ -11,15 +11,16 @@ export default {
         title: `What We Do?`,
         displayType: 'steps',
         images: 'inline',
+        autoPlay: false,
+        audio: 'social/jobs-about.mp3',
+        audioOffsets: [10, 18, 24, 34, 42, 52, 61],
         steps: [
           {
-            text:
-              'I am a teacher. I am fond of children. I like to teach lessons and good values.',
+            text: 'I am a teacher. I am fond of children. I like to teach lessons and good values.',
             img: 'teacher'
           },
           {
-            text:
-              'I am a policeman. I protect public places and keep people safe.',
+            text: 'I am a policeman. I protect public places and keep people safe.',
             img: 'police'
           },
           {
@@ -27,23 +28,19 @@ export default {
             img: 'doctor'
           },
           {
-            text:
-              'I am a nurse. I care for the needs of sick people. I tie bandages and give injections.',
+            text: 'I am a nurse. I take care    the needs of sick people. I tie bandages and give injections.',
             img: 'nurse'
           },
           {
-            text:
-              'I am a shopkeeper. I measure and count goods and sell them in my shop.',
+            text: 'I am a shopkeeper. I measure and count goods and sell them in my shop.',
             img: 'shopkeeper'
           },
           {
-            text:
-              'I am a postman. I collect letters from the postbox and deliver them to the correct address.',
+            text: 'I am a postman. I collect letters from the postbox and deliver them to the correct address.',
             img: 'postman'
           },
           {
-            text:
-              'I am a milkman. I care for cows and buffaloes. I supply milk to people.',
+            text: 'I am a milkman. I care for cows and buffaloes. I supply milk to people.',
             img: 'milkman'
           }
         ]

@@ -286,6 +286,7 @@ weaverbird`,
   helicoptor
   motorbike
   ship
+  yacht
   tractor
   train
   ambulance
