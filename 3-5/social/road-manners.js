@@ -78,21 +78,24 @@ It is always *cool (boring)* to have good manners.`
       commonData: {
         title: `Road Signs`,
         displayType: 'steps',
-        images: 'img/social/road-sign'
+        images: 'img/social/road-sign',
+        autoPlay: false
       },
       data: [
         {
+          audio: 'social/road-sign.mp3',
+          audioOffsets: [8, 17.5, 22.5, 30, 38, 44, 51, 57, 72],
           steps: [
             {
-              text: 'If the road is too narrow for the traffic, then it will be made an one way road.',
+              text: 'If the road is too narrow for the traffic, then it will be made an one-way road.',
               img: 'one-way'
             },
             {
-              text: 'To avoid confusion whether it is one-way or not, this sign says it is two way traffic.',
+              text: 'To avoid confusion whether it is one-way or not, this sign says it is two-way traffic.',
               img: '2-way-traffic'
             },
             {
-              text: 'In some roads, taking U -turn is not allowed.',
+              text: 'In some roads, taking U-turn is not allowed.',
               img: 'no-u-turn'
             },
             {
@@ -108,11 +111,11 @@ It is always *cool (boring)* to have good manners.`
               img: 'parking'
             },
             {
-              text: 'In some roads, left turn is not allowed as it may be a one way road.',
+              text: 'In some roads, left turn is not allowed as it may be a one-way road.',
               img: 'no-left-turn'
             },
             {
-              text: 'In some roads, right turn is not allowed as it may be a one way road.',
+              text: 'In some roads, right turn is not allowed as it may be a one-way road.',
               img: 'no-right-turn'
             },
             {
@@ -122,17 +125,19 @@ It is always *cool (boring)* to have good manners.`
           ]
         },
         {
+          audio: 'social/road-sign-2.mp3',
+          audioOffsets: [9.5, 23, 32, 38.5, 53.5, 63, 76, 85, 94],
           steps: [
             {
               text: 'This is the place where pedestrians cross the road. People driving should slow down at zebra crossing.',
               img: 'zebra-crossing'
             },
             {
-              text: 'Roads need maintenance. We can see people working on the roads or near the roads. We have to slow down and be careful not to hurt anyone.',
+              text: 'Roads need maintenance. We can  see people working on the roads or near the roads. We have to slow down and be careful not to hurt anyone.',
               img: 'men-at-work'
             },
             {
-              text: 'We can see this near Railway crossing. When a train come, the road will be blocked for traffic.',
+              text: 'We can see this near Railway crossing. When a train comes, the road will be blocked for traffic.',
               img: 'railroad'
             },
             {
@@ -140,11 +145,11 @@ It is always *cool (boring)* to have good manners.`
               img: 't-junction'
             },
             {
-              text: 'In some cities bicycles have separate lanes and crossing area. It is to encourage people to use bicycle as it is healthy and pollution free.',
+              text: 'In some cities, bicycles have separate lanes and crossing area. It is to encourage people to use bicycle, as it is healthy and pollution free.',
               img: 'bicycle-crossing'
             },
             {
-              text: 'In some places overtaking is not allowed. It may be curved road or accident prone region.',
+              text: 'In some places, overtaking is not allowed. It may be curved road or accident prone region.',
               img: 'no-overtaking'
             },
             {

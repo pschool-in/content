@@ -303,10 +303,13 @@ export default {
       data: {
         title: `Healthy Food Habits`,
         displayType: 'steps',
+        autoPlay: false,
         images: 'img/science/healthy-eating-habits',
+        audio: 'science/eating-habits.mp3',
+        audioOffsets: [5, 9, 13, 16, 20, 26, 31, 35, 38, 46, 51, 57],
         steps: [
           `Wash hands before and after eating.
-Sit together to eat.
+Sit together and eat.
 Do not talk while eating.
 Chew your food well.
 Do not spill food while eating.

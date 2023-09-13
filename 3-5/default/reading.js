@@ -14,26 +14,32 @@ export default {
         title: `A Thirsty Crow`,
         displayType: 'steps',
         autoPlay: false,
-        audio: 'kg-5/reading/thirsty-crow.mp3',
+        audio: 'kg-5/reading/thirsty-crow.mp3  ',
         images: 'img/story/crow',
+
+        audioOffsets: [
+          8, 12, 17.5, 22, 28.5, 33.5, 38, 43.5, 51.5, 54.5, 58.5, 61.5, 68.5,
+          76, 81, 83.5, 91
+        ],
+        /*
         audioOffsets: [
           5.5, 8.5, 12, 15.5, 20, 23.5, 26.5, 30.5, 36.5, 38.5, 42, 44, 49, 54,
           57, 58.5, 64
-        ],
+        ],*/
         imageArr: [1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 1],
         steps: [
           `One hot day, a thirsty crow flew all over the fields looking for water. 
 For a long time, he could not find any. 
 He felt very weak, almost lost all hope.
-Suddenly, he saw a water jug below the tree. 
+Suddenly, he saw a water jug below the tree.  
 He flew straight down to see if there was any water inside. 
 Yes, he could see some water inside the jug!
 The crow tried to push his head into the jug. 
 Sadly, he found that the neck of the jug was too narrow. 
-Then he tried to push the jug to tilt for the water to flow out, but the jug was too heavy.
-The crow thought hard for a while. 
-Then, looking around it, he saw some pebbles. 
-He suddenly had a good idea. 
+Then he tried to push the jug for the water to flow out, but the jug was too heavy.
+The crow thought for a while. 
+He saw some pebbles around the jug. 
+He suddenly got an idea. 
 He started picking up the pebbles one by one, dropping each into the jug. 
 As more and more pebbles filled the jug, the water level kept rising. 
 Soon it was high enough for the crow to drink. 
