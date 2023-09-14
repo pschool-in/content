@@ -100,10 +100,14 @@ export default {
         },
         {
           label: 'व्याकरण 5',
-          id: 'hi-grammar-6'
+          id: 'hi-grammar-5'
         },
         {
           label: 'व्याकरण 6',
+          id: 'hi-grammar-6'
+        },
+        {
+          label: 'व्याकरण 7',
           id: 'hi-grammar-7'
         },
         {

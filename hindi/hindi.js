@@ -44,7 +44,7 @@ export default {
       img: 'reading'
     },
     {
-      id: 'hi-grammar-5',
+      id: 'hi-grammar-sc',
       label: 'व्याकरण',
       img: 'langGrammar'
     },
