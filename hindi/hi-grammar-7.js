@@ -296,7 +296,6 @@ export default {
         [`जाओ, बोलना, पढ़ना, घूमना, लिखना`, `आजकल, ध्यान, अंदर, बाहर, दूर`]
       ]
     },
-
     {
       label: 'हिंदी मुहावरे',
       id: 'hi-idioms',
@@ -337,7 +336,6 @@ export default {
             }
           ]
         },
-
         {
           questions: [
             {
@@ -370,7 +368,6 @@ export default {
             }
           ]
         },
-
         {
           questions: [
             {
@@ -403,7 +400,6 @@ export default {
             }
           ]
         },
-
         {
           questions: [
             {
@@ -434,7 +430,6 @@ export default {
             }
           ]
         },
-
         {
           questions: [
             {
@@ -458,7 +453,6 @@ export default {
         }
       ]
     },
-
     {
       label: 'काल की पहचान करें',
       id: 'hi-tense-2',

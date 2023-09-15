@@ -32,18 +32,22 @@ export default {
         },
         {
           label: 'शब्द 2',
-          id: 'hi-word-3'
+          id: 'hi-word-2'
         },
         {
           label: 'शब्द 3',
-          id: 'hi-word-4'
+          id: 'hi-word-3'
         },
         {
           label: 'शब्द 4',
-          id: 'hi-word-5'
+          id: 'hi-word-4'
         },
         {
           label: 'शब्द 5',
+          id: 'hi-word-5'
+        },
+        {
+          label: 'शब्द 6',
           id: 'hi-word-6'
         },
         {
@@ -53,6 +57,10 @@ export default {
         {
           label: 'वाक्य 2',
           id: 'hi-sentence-4'
+        },
+        {
+          label: 'वाक्य 3',
+          id: 'hi-sentence-5'
         },
         {
           label: 'Small Picture and Passage',
@@ -206,7 +214,6 @@ export default {
           label: 'ध्वनि: उपकरण और संगीत वाद्ययंत्र',
           id: 'hi-sound-11'
         },
-
         {
           label: 'Find Word from Picture: Animals and Birds',
           id: 'hi-pic-word'
@@ -291,10 +298,6 @@ export default {
           label: 'English Words: Tools and Musical Instruments',
           id: 'hi-en-11'
         }
-        /*{
-          label: 'वाक्य अधिक अभ्यास',
-          id: 'hi-sentence-practice'
-        },*/
       ]
     }
   ]
