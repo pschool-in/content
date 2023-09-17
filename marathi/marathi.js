@@ -6,14 +6,12 @@ export default {
     fontSize: '0.9rem'
   },
   moreActivities: 'marathi-more',
-  /*
-    appLink: {
-      label:
-        'Download Palagu Tamil app from Google Play Store. It is completely Free!',
-      androidLink:
-        'https://play.google.com/store/apps/details?id=app.pschool.tamil'
-    },
-    */
+  appLink: {
+    label:
+      'Download PSchool Marathi app from Google Play Store and practice offline. It is a completely FREE app.',
+    androidLink:
+      'https://play.google.com/store/apps/details?id=app.pschool.marathi'
+  },
   list: [
     {
       id: 'mr-letters',

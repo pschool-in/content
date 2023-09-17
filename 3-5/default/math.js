@@ -20,7 +20,7 @@ const math = {
       lockAfter: 1,
       commonData: {},
       data: [
-        { pattern: 'aa' },
+        { pattern: 'aa.a' },
         { pattern: 'xx' },
         { pattern: 'bb' },
         { pattern: 'aaa' },

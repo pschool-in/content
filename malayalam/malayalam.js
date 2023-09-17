@@ -5,6 +5,12 @@ export default {
   style: {
     fontSize: '0.9rem'
   },
+  appLink: {
+    label:
+      'Download PSchool Malayalam app from Google Play Store and practice offline. It is a completely FREE app.',
+    androidLink:
+      'https://play.google.com/store/apps/details?id=app.pschool.malayalam'
+  },
   moreActivities: 'malayalam-more',
   list: [
     {
