@@ -11,7 +11,7 @@ export default {
       data: {
         type: 'custom',
         yGuides: [95, 250],
-        audio: 'hi/hi-letters-2.mp3',
+        audio: 'hi/hi-barakhadi-1.mp3',
         source: [
           {
             id: 'क',
@@ -171,7 +171,7 @@ export default {
       data: {
         type: 'custom',
         yGuides: [95, 250],
-        audio: 'hi/hi-letters-2.mp3',
+        audio: 'hi/hi-barakhadi-1.mp3',
         source: [
           {
             id: 'ख',
@@ -343,7 +343,7 @@ export default {
       data: {
         type: 'custom',
         yGuides: [95, 250],
-        audio: 'hi/hi-letters-2.mp3',
+        audio: 'hi/hi-barakhadi-1.mp3',
         source: [
           {
             id: 'ग',
@@ -491,7 +491,7 @@ export default {
       data: {
         type: 'custom',
         yGuides: [95, 250],
-        audio: 'hi/hi-letters-2.mp3',
+        audio: 'hi/hi-barakhadi-1.mp3',
         source: [
           {
             id: 'घ',
@@ -639,7 +639,7 @@ export default {
       data: {
         type: 'custom',
         yGuides: [95, 250],
-        audio: 'hi/hi-letters-2.mp3',
+        audio: 'hi/hi-barakhadi-1.mp3',
         source: [
           {
             id: 'च',
@@ -779,6 +779,190 @@ export default {
           }
         ]
       }
+    },
+    {
+      type: 'rightOne',
+      label: 'अक्षरों को पहचानें',
+      id: 'sound-barakhadi',
+      lockAfter: 3,
+      commonData: {
+        title: 'ध्वनियाँ सुनें और अक्षरों को पहचानें',
+        type: 'letters'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-1.mp3',
+          words: 'क, का, कि, की, कु, कू, के, कै, को, कौ, कं, कः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-1.mp3',
+          words: 'ख, खा, खि, खी, खु, खू, खे, खै, खो, खौ, खं, खः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-1.mp3',
+          words: 'ग, गा, गि, गी, गु, गू, गे, गै, गो, गौ, गं, गः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-1.mp3',
+          words: 'घ, घा, घि, घी, घु, घू, घे, घै, घो, घौ, घं, घः'
+        },
+        {
+          audioOffset: 96,
+          audio: 'hi/hi-barakhadi-1.mp3',
+          words: 'च,चा,चि,ची,चु,चू,चे,चै,चो,चौ,चं,चः'
+        },
+        //2
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-2.mp3',
+          words: 'छ,छा,छि,छी,छु,छू,छे,छै,छो,छौ,छं,छः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-2.mp3',
+          words: 'ज,जा,जि,जी,जु,जू,जे,जै,जो,जौ,जं,जः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-2.mp3',
+          words: 'झ,झा,झि,झी,झु,झू,झे,झै,झो,झौ,झं,झः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-2.mp3',
+          words: 'ट,टा,टि,टी,टु,टू,टे,टै,टो,टौ,टं,टः'
+        },
+        {
+          audioOffset: 96,
+          audio: 'hi/hi-barakhadi-2.mp3',
+          words: 'ठ,ठा,ठि,ठी,ठु,ठू,ठे,ठै,ठो,ठौ,ठं,ठः'
+        },
+        //3
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-3.mp3',
+          words: 'ड,डा,डि,डी,डु,डू,डे,डै,डो,डौ,डं,डः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-3.mp3',
+          words: 'ढ,ढा,ढि,ढी,ढु,ढू,ढे,ढै,ढो,ढौ,ढं,ढः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-3.mp3',
+          words: 'ण,णा,णि,णी, णु,णू,णे,णै,णो,णौ,णं,णः'
+        },
+
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-3.mp3',
+          words: 'त,ता,ति,ती,तु,तू,ते,तै,तो,तौ,तं,तः'
+        },
+        {
+          audioOffset: 96,
+          audio: 'hi/hi-barakhadi-3.mp3',
+          words: 'थ,था,थि,थी,थु,थू,थे,थै,थो,थौ,थं,थः'
+        },
+        // 4
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-4.mp3',
+          words: 'द,दा,दि,दी,दु,दू,दे,दै,दो,दौ,दं,दः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-4.mp3',
+          words: 'ध,धा,धि,धी,धु,धू,धे,धै,धो,धौ,धं,धः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-4.mp3',
+          words: 'न,ना,नि,नी,नु,नू,ने,नै,नो,नौ,नं,नः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-4.mp3',
+          words: 'प,पा,पि,पी,पु,पू,पे,पै,पो,पौ,पं,पः'
+        },
+        {
+          audioOffset: 96,
+          audio: 'hi/hi-barakhadi-4.mp3',
+          words: 'फ,फा,फि,फी,फु,फू,फे,फै,फो,फौ,फं,फः'
+        },
+        //5
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-5.mp3',
+          words: 'ब,बा,बि,बी,बु,बू,बे,बै,बो,बौ,बं,बः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-5.mp3',
+          words: 'भ,भा,भि,भी,भु,भू,भे,भै,भो,भौ,भं,भः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-5.mp3',
+          words: 'म,मा,मि,मी,मु,मू,मे,मै,मो,मौ,मं,मः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-5.mp3',
+          words: 'य,या,यि,यी,यु,यू,ये,यै,यो,यौ,यं,यः'
+        },
+        {
+          audioOffset: 96,
+          audio: 'hi/hi-barakhadi-5.mp3',
+          words: 'र,रा,रि,री,रु,रू,रे,रै,रो,रौ,रं,रः'
+        },
+        //6
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-6.mp3',
+          words: 'ल,ला,लि,ली,लु,लू,ले,लै,लो,लौ,लं,लः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-6.mp3',
+          words: 'व,वा,वि,वी,वु,वू,वे,वै,वो,वौ,वं,वः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-6.mp3',
+          words: 'श,शा,शि,शी,शु,शू,शे,शै,शो,शौ,शं,शः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-6.mp3',
+          words: 'स,सा,सि,सी,सु,सू,से,सै,सो,सौ,सं,सः'
+        },
+        //7
+        {
+          audioOffset: 0,
+          audio: 'hi/hi-barakhadi-7.mp3',
+          words: 'ह,हा,हि,ही,हु,हू,हे,है,हो,हौ,हं,हः'
+        },
+        {
+          audioOffset: 24,
+          audio: 'hi/hi-barakhadi-7.mp3',
+          words: 'क्ष,क्षा,क्षि,क्षी,क्षु,क्षू,क्षे,क्षै,क्षो,क्षौ,क्षं,क्षः'
+        },
+        {
+          audioOffset: 48,
+          audio: 'hi/hi-barakhadi-7.mp3',
+          words: 'श्र,श्रा,श्रि,श्री,श्रु,श्रू,श्रे,श्रै,श्रो,श्रौ,श्रं,श्रः'
+        },
+        {
+          audioOffset: 72,
+          audio: 'hi/hi-barakhadi-7.mp3',
+          words: 'ज्ञ,ज्ञा,ज्ञि,ज्ञी,ज्ञु,ज्ञू,ज्ञे,ज्ञै,ज्ञो,ज्ञौ,ज्ञं,ज्ञः'
+        }
+      ]
     },
     {
       id: 'words',

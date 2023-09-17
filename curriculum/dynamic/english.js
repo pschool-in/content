@@ -23,123 +23,183 @@ export default {
       grade: '1-3'
     },
     {
+      label: 'Sound: Simple Words',
+      id: 'en-sound-basic',
+      grade: '0-1'
+    },
+    {
       label: 'Sound: Animals and Birds',
-      id: 'sound',
+      id: 'en-sound',
       grade: '0-1'
     },
     {
       label: 'Sound: Fruits and Vegetables',
-      id: 'sound-2',
+      id: 'en-sound-2',
       grade: '0-1'
     },
     {
-      label: 'Sound: Nature and Other',
-      id: 'sound-3',
+      label: 'Sound: Nature and Others',
+      id: 'en-sound-3',
       grade: '0-1'
     },
     {
-      label: 'Sound: House and Other',
-      id: 'sound-4',
+      label: 'Sound: House and Others',
+      id: 'en-sound-4',
+      grade: '0-1'
+    },
+    {
+      label: 'Sound: Action and Sports',
+      id: 'en-sound-5',
       grade: '0-1'
     },
     {
       label: 'Sound: More Animals and Birds',
-      id: 'sound-5',
+      id: 'en-sound-6',
       grade: '0-1'
     },
     {
       label: 'Sound: More Fruits and Vegetables',
-      id: 'sound-6',
+      id: 'en-sound-7',
       grade: '0-1'
     },
     {
       label: 'Sound: Vehicles and Jobs',
-      id: 'sound-7',
+      id: 'en-sound-8',
       grade: '0-1'
     },
     {
       label: 'Sound: More Images',
-      id: 'sound-8',
+      id: 'en-sound-9',
+      grade: '0-1'
+    },
+    {
+      label: 'Sound: Social and Science',
+      id: 'en-sound-10',
+      grade: '0-1'
+    },
+    {
+      label: 'Sound: Tools and Instuments',
+      id: 'en-sound-11',
+      grade: '0-1'
+    },
+    {
+      label: 'Simple Words',
+      id: 'en-picture-basic',
       grade: '0-1'
     },
     {
       label: 'Animals and Birds',
-      id: 'picture',
+      id: 'en-picture',
       grade: '0-1'
     },
     {
       label: 'Fruits and Vegetables',
-      id: 'picture-2',
+      id: 'en-picture-2',
       grade: '0-1'
     },
     {
-      label: 'Nature and Other',
-      id: 'picture-3',
+      label: 'Nature and Others',
+      id: 'en-picture-3',
       grade: '0-1'
     },
     {
-      label: 'House and Other',
-      id: 'picture-4',
+      label: 'House and Others',
+      id: 'en-picture-4',
+      grade: '0-1'
+    },
+    {
+      label: 'Action and Sports',
+      id: 'en-picture-5',
       grade: '0-1'
     },
     {
       label: 'More Animals and Birds',
-      id: 'picture-5',
-      grade: '1-2'
+      id: 'en-picture-6',
+      grade: '0-1'
     },
     {
       label: 'More Fruits and Vegetables',
-      id: 'picture-6',
-      grade: '1-2'
+      id: 'en-picture-7',
+      grade: '0-1'
     },
     {
       label: 'Vehicles and Jobs',
-      id: 'picture-7',
-      grade: '1-2'
+      id: 'en-picture-8',
+      grade: '0-1'
     },
     {
       label: 'More Images',
-      id: 'picture-8',
-      grade: '1-2'
+      id: 'en-picture-9',
+      grade: '0-1'
+    },
+    {
+      label: 'Social and Science',
+      id: 'en-picture-10',
+      grade: '0-1'
+    },
+    {
+      label: 'Tools and Music Instruments',
+      id: 'en-picture-11',
+      grade: '0-1'
+    },
+    {
+      label: 'Dictation: Simple Words',
+      id: 'en-pic-word-basic',
+      grade: '0-3'
     },
     {
       label: 'Dictation: Animals and Birds',
-      id: 'word-sound',
+      id: 'en-pic-word',
       grade: '0-3'
     },
     {
       label: 'Dictation: Fruits and Vegetables',
-      id: 'word-sound-2',
+      id: 'en-pic-word-2',
       grade: '0-3'
     },
     {
-      label: 'Dictation: Nature and Other',
-      id: 'word-sound-3',
+      label: 'Dictation: Nature and Others',
+      id: 'en-pic-word-3',
       grade: '0-3'
     },
     {
-      label: 'Dictation: House and Other',
-      id: 'word-sound-4',
+      label: 'Dictation: House and Others',
+      id: 'en-pic-word-4',
+      grade: '0-3'
+    },
+    {
+      label: 'Dictation: Action and Sports',
+      id: 'en-pic-word-5',
       grade: '0-3'
     },
     {
       label: 'Dictation: More Animals and Birds',
-      id: 'word-sound-5',
+      id: 'en-pic-word-6',
       grade: '0-3'
     },
     {
       label: 'Dictation: More Fruits and Vegetables',
-      id: 'word-sound-6',
+      id: 'en-pic-word-7',
       grade: '0-3'
     },
     {
       label: 'Dictation: Vehicles and Jobs',
-      id: 'word-sound-7',
+      id: 'en-pic-word-8',
       grade: '0-3'
     },
     {
       label: 'Dictation: More Images',
-      id: 'word-sound-8',
+      id: 'en-pic-word-9',
+      grade: '0-3'
+    },
+    {
+      label: 'Dictation: Social and Science',
+      id: 'en-pic-word-10',
+      grade: '0-3'
+    },
+    {
+      label: 'Dictation: Tools and Music Instruments',
+      id: 'en-pic-word-11',
       grade: '0-3'
     },
     {

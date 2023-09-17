@@ -29,12 +29,12 @@ export default {
       img: 'image'
     },
     {
-      id: 'hi-word-2',
+      id: 'hi-word-sc',
       label: 'शब्द',
       img: 'word'
     },
     {
-      id: 'hi-sentence-5',
+      id: 'hi-sentence-sc',
       label: 'वाक्य',
       img: 'sentence'
     },
@@ -44,7 +44,7 @@ export default {
       img: 'reading'
     },
     {
-      id: 'hi-grammar-5',
+      id: 'hi-grammar-sc',
       label: 'व्याकरण',
       img: 'langGrammar'
     },

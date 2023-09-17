@@ -14,12 +14,12 @@ export default {
     },
     {
       id: 'bn-sound',
-      label: 'ধ্বনি',
+      label: 'ধ্বনি: পশু এবং পাখি',
       img: 'sound'
     },
     {
       id: 'bn-picture',
-      label: 'ছবি',
+      label: 'ছবি: পশু এবং পাখি',
       img: 'image'
     },
     {
@@ -66,6 +66,11 @@ export default {
       id: 'bn-science',
       label: 'বিজ্ঞান',
       img: 'science'
+    },
+    {
+      id: 'bn-en',
+      label: 'English',
+      img: 'translation'
     }
   ]
 };
