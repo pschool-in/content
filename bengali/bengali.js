@@ -14,12 +14,12 @@ export default {
     },
     {
       id: 'bn-sound',
-      label: 'ধ্বনি: পশু এবং পাখি',
+      label: 'ধ্বনি',
       img: 'sound'
     },
     {
       id: 'bn-picture',
-      label: 'ছবি: পশু এবং পাখি',
+      label: 'ছবি',
       img: 'image'
     },
     {
