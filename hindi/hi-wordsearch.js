@@ -1033,6 +1033,102 @@ export default {
         showWords: false,
         isHint: true
       }
+    },
+    {
+      id: '1695011096972',
+      type: 'wordsearch',
+      label: 'पक्षी',
+      authored: true,
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          { word: ['क', 'बू', 'त', 'र'], marker: [2, 1, 5, 1], hint: 'pigeon' },
+          { word: ['सा', 'र', 'स'], marker: [5, 0, 5, 2], hint: 'crane' },
+          { word: ['मो', 'र'], marker: [0, 3, 1, 3], hint: 'peacock' },
+          { word: ['को', 'य', 'ल'], marker: [3, 4, 3, 6], hint: 'koel' },
+          { word: ['म', 'रा', 'ल'], marker: [1, 6, 3, 6], hint: 'flamingo' },
+          {
+            word: ['नी', 'ल', 'कं', 'ठ'],
+            marker: [7, 2, 7, 5],
+            hint: 'kingfisher'
+          },
+          {
+            word: ['शु', 'त', 'र', 'मु', 'र्ग'],
+            marker: [1, 1, 1, 5],
+            hint: 'ostrich'
+          },
+          { word: ['उ', 'ल्लू'], marker: [5, 4, 5, 5], hint: 'owl' },
+          { word: ['ब', 'त', 'ख़'], marker: [4, 0, 4, 2], hint: 'duck' },
+          { word: ['गौ', 'रै', 'या'], marker: [3, 7, 5, 7], hint: 'sparrow' }
+        ],
+        table: [
+          ['ड', 'ङ', 'प', 'ड', 'ब', 'सा', 'ड', 'ए'],
+          ['ढ', 'शु', 'क', 'बू', 'त', 'र', 'ई', 'ल'],
+          ['ण', 'त', 'द', 'आ', 'ख़', 'स', 'ङ', 'नी'],
+          ['मो', 'र', 'म', 'च', 'ज्ञ', 'य', 'आ', 'ल'],
+          ['ढ', 'मु', 'ह', 'को', 'ल', 'उ', 'भ', 'कं'],
+          ['त', 'र्ग', 'ओ', 'य', 'र', 'ल्लू', 'ब', 'ठ'],
+          ['थ', 'म', 'रा', 'ल', 'न', 'ष', 'ए', 'अ'],
+          ['छ', 'घ', 'ऊ', 'गौ', 'रै', 'या', 'भ', 'र']
+        ],
+        lang: 'hi',
+        showWords: false,
+        isHint: true
+      }
+    },
+    {
+      id: '1695011331751',
+      type: 'wordsearch',
+      label: 'नौकरी के लिए उपकरण',
+      authored: true,
+      data: {
+        title: 'Find the given words from the table.',
+        words: [
+          {
+            word: ['पें', 'च', 'क', 'स'],
+            marker: [3, 0, 3, 3],
+            hint: 'screwdriver'
+          },
+          {
+            word: ['वि', 'भा', 'ज', 'क'],
+            marker: [0, 2, 3, 2],
+            hint: 'divider'
+          },
+          { word: ['कु', 'ठ', 'ला'], marker: [4, 3, 6, 3], hint: 'oven' },
+          { word: ['कु', 'ल्हा', 'डी'], marker: [4, 3, 4, 5], hint: 'axe' },
+          {
+            word: ['दू', 'र', 'बी', 'न'],
+            marker: [0, 6, 3, 6],
+            hint: 'telescope'
+          },
+          {
+            word: ['प', 'र', 'ख', 'न', 'ली'],
+            marker: [7, 1, 7, 5],
+            hint: 'test tube'
+          },
+          { word: ['क', 'र', 'नी'], marker: [1, 5, 1, 7], hint: 'trowel' },
+          { word: ['छु', 'री'], marker: [5, 1, 6, 1], hint: 'scalpel' },
+          {
+            word: ['चि', 'त्र', 'फ', 'ल', 'क'],
+            marker: [2, 7, 6, 7],
+            hint: 'easel'
+          },
+          { word: ['ह', 'ल'], marker: [5, 6, 5, 7], hint: 'plough' }
+        ],
+        table: [
+          ['ठ', 'ध', 'अः', 'पें', 'ख', 'ग', 'र', 'अः'],
+          ['क्ष', 'ण', 'ल', 'च', 'ऐ', 'छु', 'री', 'प'],
+          ['वि', 'भा', 'ज', 'क', 'न', 'भ', 'द', 'र'],
+          ['उ', 'ई', 'प', 'स', 'कु', 'ठ', 'ला', 'ख'],
+          ['अ', 'न', 'ज', 'ङ', 'ल्हा', 'ट', 'य', 'न'],
+          ['ध', 'क', 'स', 'द', 'डी', 'ञ', 'ट', 'ली'],
+          ['दू', 'र', 'बी', 'न', 'ऊ', 'ह', 'झ', 'छ'],
+          ['भ', 'नी', 'चि', 'त्र', 'फ', 'ल', 'क', 'ठ']
+        ],
+        lang: 'hi',
+        showWords: false,
+        isHint: true
+      }
     }
   ]
 };
