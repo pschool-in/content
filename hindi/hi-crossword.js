@@ -36,7 +36,7 @@ export default {
             direction: 'down'
           },
           {
-            word: 'शुक्रवार ',
+            word: 'शुक्रवार',
             marker: { x: 6, y: 1 },
             hint: 'friday',
             direction: 'down'
@@ -60,10 +60,10 @@ export default {
         table: [
           ['', '', 'सो', '', '', '', ''],
           ['', '', 'म', '', '', '', 'शु'],
-          ['र', 'वि', 'वा', 'र', '', 'श', 'क्'],
-          ['', '', 'र', '', 'बु', 'नि', 'र'],
-          ['', '', '', '', 'ध', 'वा', 'वा'],
-          ['', '', 'गु', 'रु', 'वा', 'र', 'र'],
+          ['र', 'वि', 'वा', 'र', '', 'श', 'क्र'],
+          ['', '', 'र', '', 'बु', 'नि', 'वा'],
+          ['', '', '', '', 'ध', 'वा', 'र'],
+          ['', '', 'गु', 'रु', 'वा', 'र', ''],
           ['मं', 'ग', 'ल', 'वा', 'र', '', '']
         ]
       }
@@ -368,180 +368,300 @@ export default {
       }
     },
     {
-      id: 'house',
-      label: 'मकान',
+      id: '1695095096831',
       type: 'crossword',
+      label: 'मकान',
+      authored: true,
       data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
         words: [
           {
-            word: 'लड़का',
-            marker: { x: 2, y: 1 },
-            hint: 'boy',
-            direction: 'across'
-          },
-          {
-            word: 'लड़की',
-            marker: { x: 3, y: 0 },
-            hint: 'girl',
-            direction: 'down'
-          },
-          {
-            word: 'मकान',
-            marker: { x: 4, y: 0 },
-            hint: 'house',
-            direction: 'down'
-          },
-          {
-            word: 'अलमारी',
-            marker: { x: 2, y: 0 },
-            hint: 'shelf',
-            direction: 'down'
-          },
-          {
-            word: 'बिस्तर',
+            word: 'दरवाजा',
             marker: { x: 1, y: 1 },
-            hint: 'bed',
+            hint: 'door',
+            direction: 'across'
+          },
+          {
+            word: 'जाल',
+            marker: { x: 4, y: 1 },
+            hint: 'net',
             direction: 'down'
           },
           {
-            word: 'छतरी',
-            marker: { x: 0, y: 3 },
-            hint: 'umbrella',
+            word: 'रस्सी',
+            marker: { x: 2, y: 1 },
+            hint: 'rope',
+            direction: 'down'
+          },
+          {
+            word: 'गेंद',
+            marker: { x: 0, y: 1 },
+            hint: 'ball',
             direction: 'across'
           },
           {
-            word: 'औरत',
-            marker: { x: 0, y: 4 },
-            hint: 'woman',
+            word: 'दीवार घड़ी',
+            marker: { x: 3, y: 0 },
+            hint: 'clock',
+            direction: 'down'
+          },
+          {
+            word: 'घड़ी',
+            marker: { x: 3, y: 3 },
+            hint: 'watch',
             direction: 'across'
           },
           {
-            word: 'तकिया',
-            marker: { x: 2, y: 4 },
-            hint: 'pillow',
+            word: 'चायदानी',
+            marker: { x: 0, y: 5 },
+            hint: 'tea pot',
             direction: 'across'
+          },
+          {
+            word: 'मोमबत्ती',
+            marker: { x: 5, y: 0 },
+            hint: 'candle',
+            direction: 'down'
           }
         ],
-        title:
-          'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
-        lang: 'hi',
         table: [
-          ['', '', 'अ', 'ल', 'म'],
-          ['', 'बि', 'ल', 'ड़', 'का'],
-          ['', 'स्', 'मा', 'की', 'न'],
-          ['छ', 'त', 'री', '', ''],
-          ['औ', 'र', 'त', 'कि', 'या']
-        ]
+          ['', '', '', 'दी', '', 'मो'],
+          ['गें', 'द', 'र', 'वा', 'जा', 'म'],
+          ['', '', 'स्सी', 'र', 'ल', 'ब'],
+          ['', '', '', 'घ', 'ड़ी', 'त्ती'],
+          ['', '', '', 'ड़ी', '', ''],
+          ['चा', 'य', 'दा', 'नी', '', '']
+        ],
+        lang: 'hi'
       }
     },
     {
-      id: 'kitchen',
-      label: 'रसोईघर',
+      id: '1695095558148',
       type: 'crossword',
+      label: 'रसोईघर',
+      authored: true,
       data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
         words: [
           {
-            word: 'मटका',
-            marker: { x: 0, y: 0 },
-            hint: 'pot',
+            word: 'रसोईघर',
+            marker: { x: 1, y: 2 },
+            hint: 'kitchen',
             direction: 'across'
           },
           {
             word: 'मक्खन',
-            marker: { x: 0, y: 0 },
+            marker: { x: 2, y: 4 },
             hint: 'butter',
-            direction: 'down'
-          },
-          {
-            word: 'नल',
-            marker: { x: 0, y: 3 },
-            hint: 'tap',
             direction: 'across'
           },
           {
-            word: 'चावल',
-            marker: { x: 1, y: 1 },
-            hint: 'rice',
+            word: 'मटका',
+            marker: { x: 2, y: 4 },
+            hint: 'pot',
             direction: 'down'
           },
           {
-            word: 'नमक',
-            marker: { x: 2, y: 1 },
-            hint: 'salt',
+            word: 'कड़ाही',
+            marker: { x: 0, y: 0 },
+            hint: 'pan',
+            direction: 'down'
+          },
+          {
+            word: 'रस',
+            marker: { x: 5, y: 2 },
+            hint: 'juice',
+            direction: 'down'
+          },
+          {
+            word: 'मांस',
+            marker: { x: 4, y: 3 },
+            hint: 'meat',
             direction: 'across'
           },
           {
             word: 'कटोरा',
-            marker: { x: 4, y: 1 },
+            marker: { x: 0, y: 0 },
             hint: 'bowl',
+            direction: 'across'
+          },
+          {
+            word: 'करछुल',
+            marker: { x: 1, y: 1 },
+            hint: 'ladle',
             direction: 'down'
           },
           {
-            word: 'टिकीया',
+            word: 'दाल',
             marker: { x: 0, y: 4 },
-            hint: 'lollipop',
+            hint: 'lentils',
+            direction: 'across'
+          },
+          {
+            word: 'आटा',
+            marker: { x: 6, y: 0 },
+            hint: 'flour',
+            direction: 'down'
+          },
+          {
+            word: 'कांटा',
+            marker: { x: 5, y: 1 },
+            hint: 'fork',
             direction: 'across'
           }
         ],
-        title:
-          'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
-        lang: 'hi',
         table: [
-          ['म', 'ट', 'का', '', ''],
-          ['क्', 'चा', 'न', 'म', 'क'],
-          ['ख', 'व', '', '', 'टो'],
-          ['न', 'ल', '', '', 'रा'],
-          ['टि', 'की', 'या', '', '']
-        ]
+          ['क', 'टो', 'रा', '', '', '', 'आ'],
+          ['ड़ा', 'क', '', '', '', 'कां', 'टा'],
+          ['ही', 'र', 'सो', 'ई', 'घ', 'र', ''],
+          ['', 'छु', '', '', 'मां', 'स', ''],
+          ['दा', 'ल', 'म', 'क्ख', 'न', '', ''],
+          ['', '', 'ट', '', '', '', ''],
+          ['', '', 'का', '', '', '', '']
+        ],
+        lang: 'hi'
       }
     },
     {
-      id: 'tools',
-      label: 'उपकरण',
+      id: '1695095872359',
       type: 'crossword',
+      label: 'नौकरी के लिए उपकरण',
+      authored: true,
       data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
         words: [
           {
-            word: 'तबला',
-            marker: { x: 0, y: 3 },
-            hint: 'tabla',
+            word: 'विभाजक',
+            marker: { x: 0, y: 2 },
+            hint: 'divider',
             direction: 'across'
           },
           {
-            word: 'रबर ',
-            marker: { x: 1, y: 2 },
-            hint: 'rubber',
+            word: 'पेंचकस',
+            marker: { x: 3, y: 0 },
+            hint: 'screwdriver',
             direction: 'down'
           },
           {
-            word: 'कुठला',
+            word: 'पेंच',
             marker: { x: 2, y: 1 },
-            hint: 'oven',
+            hint: 'screw',
+            direction: 'across'
+          },
+          {
+            word: 'प्‍लास',
+            marker: { x: 2, y: 3 },
+            hint: 'plier',
+            direction: 'across'
+          },
+          {
+            word: 'करनी',
+            marker: { x: 3, y: 2 },
+            hint: 'trowel',
+            direction: 'across'
+          },
+          {
+            word: 'परखनली',
+            marker: { x: 4, y: 1 },
+            hint: 'test tube',
             direction: 'down'
+          },
+          {
+            word: 'दूरबीन',
+            marker: { x: 1, y: 4 },
+            hint: 'telescope',
+            direction: 'across'
+          },
+          {
+            word: 'कुदाल',
+            marker: { x: 5, y: 3 },
+            hint: 'spade',
+            direction: 'across'
           },
           {
             word: 'कुल्हाडी',
-            marker: { x: 2, y: 1 },
+            marker: { x: 5, y: 3 },
             hint: 'axe',
-            direction: 'across'
+            direction: 'down'
           },
           {
-            word: ' लोहाआरी',
-            marker: { x: 4, y: 0 },
-            hint: 'hacksaw',
+            word: 'हल',
+            marker: { x: 7, y: 2 },
+            hint: 'plough',
             direction: 'down'
           }
         ],
-        title:
-          'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
-        lang: 'hi',
         table: [
-          ['', '', '', '', 'लो', ''],
-          ['', '', 'कु', 'ल्', 'हा', 'डी'],
-          ['', 'र', 'ठ', '', 'आ', ''],
-          ['त', 'ब', 'ला', '', 'री', ''],
-          ['', 'र', '', '', '', '']
-        ]
+          ['', '', '', 'पें', '', '', '', ''],
+          ['', '', 'पें', 'च', 'प', '', '', ''],
+          ['वि', 'भा', 'ज', 'क', 'र', 'नी', '', 'ह'],
+          ['', '', 'प्‍ला', 'स', 'ख', 'कु', 'दा', 'ल'],
+          ['', 'दू', 'र', 'बी', 'न', 'ल्हा', '', ''],
+          ['', '', '', '', 'ली', 'डी', '', '']
+        ],
+        lang: 'hi'
+      }
+    },
+    {
+      id: '1695096305252',
+      type: 'crossword',
+      label: 'पक्षी',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'नीलकंठ',
+            marker: { x: 0, y: 2 },
+            hint: 'kingfisher',
+            direction: 'across'
+          },
+          {
+            word: 'मराल',
+            marker: { x: 1, y: 0 },
+            hint: 'flamingo',
+            direction: 'down'
+          },
+          {
+            word: 'कठफोड़वा',
+            marker: { x: 3, y: 1 },
+            hint: 'woodpecker',
+            direction: 'down'
+          },
+          {
+            word: 'मुर्गा',
+            marker: { x: 4, y: 3 },
+            hint: 'rooster',
+            direction: 'across'
+          },
+          {
+            word: 'शुतरमुर्ग',
+            marker: { x: 4, y: 0 },
+            hint: 'ostrich',
+            direction: 'down'
+          },
+          {
+            word: 'बतख़',
+            marker: { x: 0, y: 4 },
+            hint: 'duck',
+            direction: 'across'
+          },
+          {
+            word: 'कोयल',
+            marker: { x: 5, y: 0 },
+            hint: 'koel',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['', 'म', '', '', 'शु', 'को'],
+          ['', 'रा', '', 'क', 'त', 'य'],
+          ['नी', 'ल', 'कं', 'ठ', 'र', 'ल'],
+          ['', '', '', 'फो', 'मु', 'र्गा'],
+          ['ब', 'त', 'ख़', 'ड़', 'र्ग', ''],
+          ['', '', '', 'वा', '', '']
+        ],
+        lang: 'hi'
       }
     },
     {
@@ -555,12 +675,6 @@ export default {
             marker: { x: 1, y: 0 },
             hint: 'potter',
             direction: 'down'
-          },
-          {
-            word: 'लोहार',
-            marker: { x: 0, y: 2 },
-            hint: 'blacksmith',
-            direction: 'across'
           },
           {
             word: 'सुनार',
@@ -598,9 +712,9 @@ export default {
         lang: 'hi',
         table: [
           ['', 'कु', 'सु', 'डा', 'कि', 'या'],
-          ['', 'म्', 'ना', 'ब', '', ''],
-          ['लो', 'हा', 'र', 'ढ़', '', ''],
-          ['', 'र', 'दा', 'ई', '', ''],
+          ['', 'म्हा', 'ना', 'ब', '', ''],
+          ['', 'र', '', 'ढ़', '', ''],
+          ['', '', 'दा', 'ई', '', ''],
           ['म', 'छु', 'आ', 'रा', '', '']
         ]
       }
@@ -670,85 +784,11 @@ export default {
         ],
         table: [
           ['शे', '', '', 'शु', '', 'कु'],
-          ['र', '', '', 'तु', '', 'त्'],
-          ['', 'ची', 'ता', 'र', '', 'ता'],
+          ['र', '', '', 'तु', '', 'त्ता'],
+          ['', 'ची', 'ता', 'र', '', ''],
           ['', '', '', 'मु', 'म', ''],
-          ['लो', 'मड़ी', '', 'र्', 'छ', ''],
-          ['', '', '', 'ग', 'ली', '']
-        ],
-        lang: 'hi'
-      }
-    },
-    {
-      id: 'birds',
-      type: 'crossword',
-      label: 'पक्षी वर्ग पहेली',
-      data: {
-        title:
-          'पहेली हल करें। संकेत देखने के लिए कृपया किसी कक्ष पर क्लिक करें.',
-        words: [
-          {
-            word: 'कौआ ',
-            marker: {
-              x: 1,
-              y: 0
-            },
-            hint: 'कर्कश बोलने वाला काला पक्षी',
-            direction: 'across'
-          },
-          {
-            word: 'कोयल ',
-            marker: {
-              x: 5,
-              y: 0
-            },
-            hint: 'मीठा बोलने वाली काली पक्षी ',
-            direction: 'down'
-          },
-          {
-            word: 'तोता',
-            marker: {
-              x: 0,
-              y: 2
-            },
-            hint: 'आदमी की तरह बोलने वाला पक्षी',
-            direction: 'across'
-          },
-          {
-            word: 'मोर ',
-            marker: {
-              x: 3,
-              y: 2
-            },
-            hint: 'भारत का राष्ट्रीय पक्षी ',
-            direction: 'down'
-          },
-          {
-            word: 'उल्लू ',
-            marker: {
-              x: 0,
-              y: 4
-            },
-            hint: 'पक्षी जिसे रात में दिखता है',
-            direction: 'across'
-          },
-          {
-            word: 'बाज',
-            marker: {
-              x: 4,
-              y: 4
-            },
-            hint: 'झपट्टा मारने वाला पक्षी ',
-            direction: 'down'
-          }
-        ],
-        table: [
-          ['', 'कौ', 'आ', '', '', 'को'],
-          ['', '', '', '', '', 'य'],
-          ['तो', 'ता', '', 'मो', '', 'ल'],
-          ['', '', '', 'र', '', ''],
-          ['उ', 'ल्', 'लू', '', 'बा', ''],
-          ['', '', '', '', 'ज', '']
+          ['लो', 'मड़ी', '', 'र्ग', 'छ', ''],
+          ['', '', '', '', 'ली', '']
         ],
         lang: 'hi'
       }
@@ -820,8 +860,8 @@ export default {
           ['आ', 'म', '', '', '', 'अ'],
           ['', 'के', 'ला', '', '', 'ना'],
           ['त', '', 'ग', '', '', 'र'],
-          ['र', '', 'न्', '', '', ''],
-          ['बू', '', 'ना', '', '', ''],
+          ['र', '', 'न्ना', '', '', ''],
+          ['बू', '', '', '', '', ''],
           ['ज', '', '', 'अं', 'गू', 'र']
         ],
         lang: 'hi'
@@ -892,8 +932,8 @@ export default {
         ],
         table: [
           ['दि', '', 'ल', 'ख', 'न', 'ऊ'],
-          ['ल्', '', 'मुं', '', 'है', ''],
-          ['ली', '', 'ब', '', 'द', 'ज'],
+          ['ल्ली', '', 'मुं', '', 'है', ''],
+          ['', '', 'ब', '', 'द', 'ज'],
           ['', '', 'ई', '', 'रा', 'य'],
           ['को', 'ल', 'का', 'ता', 'बा', 'पु'],
           ['', '', '', '', 'द', 'र']
@@ -1040,8 +1080,8 @@ export default {
         ],
         table: [
           ['आ', 'ग', 'रा', '', '', 'दि'],
-          ['', 'मुं', 'ब', 'ई', '', 'ल्'],
-          ['', '', '', '', '', 'ली'],
+          ['', 'मुं', 'ब', 'ई', '', 'ल्ली'],
+          ['', '', '', '', '', ''],
           ['है', 'द', 'रा', 'बा', 'द', ''],
           ['', '', 'को', 'ल', 'का', 'ता'],
           ['', 'अ', 'मृ', 'त', 'स', 'र']
