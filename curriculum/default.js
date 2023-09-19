@@ -149,6 +149,13 @@ let mainMenu = {
       grade: '0-8',
       dynamic: true
     },
+    {
+      label: 'Marathi',
+      id: 'marathi',
+      img: 'marathi',
+      grade: '0-8',
+      dynamic: true
+    },
     /*
     {
       label: 'Hindi',

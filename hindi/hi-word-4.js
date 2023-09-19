@@ -261,7 +261,7 @@ export default {
     },
     {
       label: 'समूहवाची शब्द',
-      id: 'complete-prefix',
+      id: 'complete-prefix-2',
       type: 'completePuzzle',
       commonData: {
         type: 'rightOpen',
