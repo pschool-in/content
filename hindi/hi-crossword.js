@@ -1048,6 +1048,192 @@ export default {
         ],
         lang: 'hi'
       }
+    },
+    {
+      id: '1695014750378',
+      type: 'crossword',
+      label: 'शब्दार्थ',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'अभिलाषा',
+            marker: { x: 0, y: 1 },
+            hint: 'इच्छा',
+            direction: 'across'
+          },
+          {
+            word: 'अभिराम',
+            marker: { x: 1, y: 0 },
+            hint: 'सुंदर',
+            direction: 'down'
+          },
+          {
+            word: 'असाध्य',
+            marker: { x: 0, y: 1 },
+            hint: 'न ठीक होनेवाला',
+            direction: 'down'
+          },
+          {
+            word: 'अवधि',
+            marker: { x: 1, y: 0 },
+            hint: 'समय',
+            direction: 'across'
+          },
+          {
+            word: 'महिमा',
+            marker: { x: 1, y: 3 },
+            hint: 'महता',
+            direction: 'across'
+          },
+          {
+            word: 'राय',
+            marker: { x: 1, y: 2 },
+            hint: 'सलाह',
+            direction: 'across'
+          },
+          {
+            word: 'आवश्यकता',
+            marker: { x: 2, y: 4 },
+            hint: 'जरूरत',
+            direction: 'across'
+          },
+          {
+            word: 'कलसी',
+            marker: { x: 5, y: 4 },
+            hint: 'छोटा घड़ा',
+            direction: 'down'
+          },
+          {
+            word: 'लम्हा',
+            marker: { x: 5, y: 5 },
+            hint: 'पल',
+            direction: 'across'
+          },
+          {
+            word: 'निर्भीक',
+            marker: { x: 5, y: 2 },
+            hint: 'निडर',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['', 'अ', 'व', 'धि', '', '', ''],
+          ['अ', 'भि', 'ला', 'षा', '', '', ''],
+          ['सा', 'रा', 'य', '', '', 'नि', ''],
+          ['ध्य', 'म', 'हि', 'मा', '', 'र्भी', ''],
+          ['', '', 'आ', 'व', 'श्य', 'क', 'ता'],
+          ['', '', '', '', '', 'ल', 'म्हा'],
+          ['', '', '', '', '', 'सी', '']
+        ],
+        lang: 'hi'
+      }
+    },
+    {
+      id: '1695015351834',
+      type: 'crossword',
+      label: 'विलोम शब्द',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'उपकार',
+            marker: { x: 0, y: 1 },
+            hint: 'अपकार',
+            direction: 'across'
+          },
+          {
+            word: 'अकाम',
+            marker: { x: 2, y: 0 },
+            hint: 'सुकाम',
+            direction: 'down'
+          },
+          {
+            word: 'पराया',
+            marker: { x: 1, y: 1 },
+            hint: 'अपना',
+            direction: 'down'
+          },
+          {
+            word: 'रक्षक',
+            marker: { x: 3, y: 1 },
+            hint: 'भक्षक',
+            direction: 'across'
+          },
+          {
+            word: 'उष्ण',
+            marker: { x: 0, y: 1 },
+            hint: 'शीत',
+            direction: 'down'
+          },
+          {
+            word: 'साक्षर',
+            marker: { x: 4, y: 0 },
+            hint: 'निरक्षर',
+            direction: 'down'
+          },
+          {
+            word: 'मर्त्य',
+            marker: { x: 2, y: 2 },
+            hint: 'अमर',
+            direction: 'down'
+          },
+          {
+            word: 'कठिन',
+            marker: { x: 5, y: 1 },
+            hint: 'सरल',
+            direction: 'across'
+          },
+          {
+            word: 'कठोर',
+            marker: { x: 5, y: 1 },
+            hint: 'कोमल',
+            direction: 'down'
+          },
+          {
+            word: 'अमीर',
+            marker: { x: 3, y: 3 },
+            hint: 'गरीब',
+            direction: 'across'
+          },
+          {
+            word: 'कठिनाई',
+            marker: { x: 6, y: 0 },
+            hint: 'सरलता',
+            direction: 'down'
+          },
+          {
+            word: 'नारी',
+            marker: { x: 6, y: 2 },
+            hint: 'नर',
+            direction: 'across'
+          },
+          {
+            word: 'अच्छा',
+            marker: { x: 3, y: 3 },
+            hint: 'बुरा',
+            direction: 'down'
+          },
+          {
+            word: 'उदार',
+            marker: { x: 2, y: 5 },
+            hint: 'अनुदार',
+            direction: 'across'
+          }
+        ],
+        table: [
+          ['', '', 'अ', '', 'सा', '', 'क', ''],
+          ['उ', 'प', 'का', 'र', 'क्ष', 'क', 'ठि', 'न'],
+          ['ष्ण', 'रा', 'म', '', 'र', 'ठो', 'ना', 'री'],
+          ['', 'या', 'र्त्', 'अ', 'मी', 'र', 'ई', ''],
+          ['', '', 'त्य', 'च्छा', '', '', '', ''],
+          ['', '', 'उ', 'दा', 'र', '', '', ''],
+          ['', '', '', '', '', '', '', '']
+        ],
+        lang: 'hi'
+      }
     }
   ]
 };
