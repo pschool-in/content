@@ -1,7 +1,9 @@
 export default {
-  label: 'Simple Words',
+  label: 'Picture',
   id: 'en-picture-basic',
   lang: 'en',
+  img: 'image',
+  grade: '0-2',
   list: [
     {
       type: 'dragDropImgLabel',

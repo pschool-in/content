@@ -1,5 +1,5 @@
 export default {
-  label: 'Numbers',
+  label: 'Compare Numbers',
   id: 'numbers',
   list: [
     {

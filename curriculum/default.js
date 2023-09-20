@@ -29,8 +29,8 @@ import math6 from '../3-5/default/math-6-sc.js';
 import science from '../3-5/default/science.js';
 import science3 from '../3-5/default/science-3-sc.js';
 import social from '../3-5/default/social.js';
-import sound from '../3-5/default/sound-sc.js';
-import picture from '../3-5/default/picture-sc.js';
+import sound from '../3-5/default/en-sound-basic.js';
+import picture from '../3-5/default/en-picture-basic.js';
 
 import wordsearch from '../3-5/default/wordsearch.js';
 import crossword from '../3-5/default/crossword.js';

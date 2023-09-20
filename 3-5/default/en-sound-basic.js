@@ -1,7 +1,9 @@
 export default {
-  label: 'Simple Words',
+  label: 'Sound',
   id: 'en-sound-basic',
   lang: 'en',
+  img: 'sound',
+  grade: '0-2',
   list: [
     {
       type: 'slides',

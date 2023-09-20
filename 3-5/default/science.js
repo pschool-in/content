@@ -5,6 +5,49 @@ export default {
   grade: '0-2',
   list: [
     {
+      type: 'slides',
+      id: 'animal-sound',
+      label: 'Animal Sounds',
+      lockAfter: 1,
+      commonData: {
+        audio: 'kg-5/animal-sounds.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          audioWidth: 5,
+          text: 'cat, dog, cow, hen, sheep, horse, pig, donkey, rooster , duck'
+        },
+        {
+          audioOffset: 50,
+          audioWidth: 5,
+          text: 'goat, chick, frog, lion, monkey, tiger, elephant, bear, wolf'
+        }
+      ]
+    },
+    {
+      type: 'rightOne',
+      label: 'Identify Animal Sound',
+      id: 'find-animal-sound',
+      lockAfter: 1,
+      commonData: {
+        title: 'Listen to the sound and select the right animal.',
+        type: 'image',
+        audio: 'kg-5/animal-sounds.mp3'
+      },
+      data: [
+        {
+          audioWidth: 5,
+          words: 'cat, dog, cow, hen, sheep, horse, pig, donkey, rooster , duck'
+        },
+        {
+          audioOffset: 50,
+          audioWidth: 5,
+          words: 'goat, chick, frog, lion, monkey, tiger, elephant, bear, wolf'
+        }
+      ]
+    },
+    {
       label: 'Domestic vs Wild Animals',
       type: 'group',
       id: 'domestic-wild-animals',

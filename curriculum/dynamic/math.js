@@ -29,7 +29,7 @@ export default {
     },
     { label: 'Basic Numbers', id: 'kg-numbers', grade: '0-1' },
     {
-      label: 'Numbers',
+      label: 'Compare Numbers',
       id: 'numbers',
       grade: '0-1'
     },

@@ -23,11 +23,6 @@ export default {
       grade: '1-3'
     },
     {
-      label: 'Sound: Simple Words',
-      id: 'en-sound-basic',
-      grade: '0-1'
-    },
-    {
       label: 'Sound: Animals and Birds',
       id: 'en-sound',
       grade: '0-1'
@@ -145,62 +140,62 @@ export default {
     {
       label: 'Dictation: Simple Words',
       id: 'en-pic-word-basic',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Animals and Birds',
       id: 'en-pic-word',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Fruits and Vegetables',
       id: 'en-pic-word-2',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Nature and Others',
       id: 'en-pic-word-3',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: House and Others',
       id: 'en-pic-word-4',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Action and Sports',
       id: 'en-pic-word-5',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: More Animals and Birds',
       id: 'en-pic-word-6',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: More Fruits and Vegetables',
       id: 'en-pic-word-7',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Vehicles and Jobs',
       id: 'en-pic-word-8',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: More Images',
       id: 'en-pic-word-9',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Social and Science',
       id: 'en-pic-word-10',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Dictation: Tools and Music Instruments',
       id: 'en-pic-word-11',
-      grade: '0-3'
+      grade: '1-3'
     },
     {
       label: 'Phonics',
