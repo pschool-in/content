@@ -360,6 +360,111 @@ export default {
       }
     },
     {
+      type: 'informationProcessing',
+      id: 'pic',
+      label: 'पसंदीदा रंग',
+      data: {
+        title: 'छात्रों को अपने पसंदीदा रंग में आने के लिए कहा गया है।',
+        type: 'image',
+        image: 'math/dataHandling/infoPic.jpg',
+        questions: [
+          {
+            qText: 'सबसे अधिक पसंद किया जाने वाला रंग _______ है।',
+            options: 'नीला, हरा, लाल, पीला'
+          },
+          {
+            qText: 'सबसे कम पसंद किया जाने वाला रंग ______ है।',
+            options: 'लाल, नीला, हरा, पीला'
+          },
+          {
+            qText: 'कितने विद्यार्थियों को हरा रंग पसंद है?',
+            type: 'number',
+            value: 3
+          },
+          {
+            qText: 'कितने विद्यार्थियों को नीला रंग पसंद है?',
+            type: 'number',
+            value: 4
+          },
+          {
+            qText: 'कक्षा में कितने छात्र हैं?',
+            type: 'number',
+            value: 10
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'pic-2',
+      label: 'पिकनिक का दिन',
+      data: {
+        title:
+          'बच्चे फलों की पार्टी कर रहे हैं। वे अपने पसंदीदा फल खा रहे हैं.',
+        type: 'image',
+        image: 'math/dataHandling/infoPic-2.jpg',
+        questions: [
+          {
+            qText: 'कितने बच्चे है?',
+            type: 'number',
+            value: 13
+          },
+          {
+            qText: 'सबसे अधिक पसंद किया जाने वाला फल ______ है।',
+            options: 'केला, संतरा, सेब, अमरूद'
+          },
+          {
+            qText: 'सबसे कम पसंद किया जाने वाला फल ______ है।',
+            options: 'कीवी, अमरूद, सेब, संतरा'
+          },
+          {
+            qText:
+              'उन विद्यार्थियों की संख्या ज्ञात कीजिए जिन्हें सेब या कीवी पसंद है।',
+            type: 'number',
+            value: 4
+          },
+          {
+            qText:
+              'उन विद्यार्थियों की संख्या ज्ञात कीजिए जिन्हें अमरूद या केला पसंद है।',
+            type: 'number',
+            value: 8
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'pic-2',
+      label: 'परिवहन',
+      data: {
+        title: 'चित्र का अवलोकन करें और प्रश्नों के उत्तर दें।',
+        type: 'image',
+        image: 'math/dataHandling/infoPic-3.jpg',
+        questions: [
+          {
+            qText: 'कितने छात्र पैदल आ रहे हैं?',
+            type: 'number',
+            value: 8
+          },
+          {
+            qText: 'कितने छात्र बस से आ रहे हैं?',
+            type: 'number',
+            value: 12
+          },
+          {
+            qText: 'कितने छात्र ऑटो से आ रहे हैं?',
+            type: 'number',
+            value: 7
+          },
+          {
+            qText: 'कितने छात्र साइकिल से आ रहे हैं?',
+            type: 'number',
+            value: 5
+          }
+        ]
+      }
+    },
+    {
       id: 'seasons',
       type: 'passage',
       label: 'महीने और ऋतुएँ',
