@@ -221,17 +221,17 @@ cost,price`
         fontSize: '1.2rem'
       },
       data: [
-        `Birds fly
-Fishes swim
-Frogs leap
-Monkeys swing
-Dogs Run`,
+        `Birds, fly
+Fishes, swim
+Frogs, leap
+Monkeys, swing
+Dogs, Run`,
 
-        `Ducks waddle
-Eagles swoop
-Snakes slither
-Snails	Crawl
-Horses	Gallop`
+        `Ducks, waddle
+Eagles, swoop
+Snakes, slither
+Snails,	Crawl
+Horses,	Gallop`
       ]
     },
     {
