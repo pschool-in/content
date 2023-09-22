@@ -430,6 +430,16 @@ export default {
       grade: '5-7'
     },
     {
+      label: 'Place Value - Decimal',
+      id: 'place-value-7',
+      grade: '6-8'
+    },
+    {
+      label: 'Simple Interest',
+      id: 'simple-interest',
+      grade: '6-8'
+    },
+    {
       label: 'Rational Numbers',
       id: 'rational-numbers',
       grade: '7-8'

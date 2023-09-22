@@ -75,11 +75,13 @@ text: 'Connect the two overlapping points by drawing a line. This line is the pe
         title: `Principal and Amount`,
         displayType: 'custom',
         autoPlay: false,
+        fontSize: '2rem',
+        textAlign: 'center',
         steps: [
           `We can take a loan from the bank for buying house or car.
 The money borrowed from the bank as loan is called the Principal(P).
 After some time, we have to repay the Principal with Interest(I).
-The total money repaired is called Amount (A).`,
+The total money repaided is called Amount (A).`,
           [
             `Amount = Principal + Interest
 A = P + I `
@@ -115,7 +117,7 @@ A = P + I `
             {
               widths: '120, 120, 120',
               text: `Principal(P) | Interest(I) | Amount(A)
-₹ 1000 | ₹ ?0 | ₹ 150
+₹ 1000 | ₹ ?0 | ₹ 1150
 ₹ 2500 | ₹ ?1 | ₹ 3100
 ₹ 2000 | ₹ ?2 | ₹ 2550
 ₹ 5000 | ₹ ?3 | ₹ 6010
@@ -163,6 +165,50 @@ Amount to be paid is  ₹ 110`
             `P = Principal
 R = Rate of Interest
 T = Time for which interest is calculated.`
+          ],
+          [
+            [
+              `In some problems, Interest will be given, and we will be asked to find the Rate (R).`,
+
+              {
+                type: 'eqn',
+                text: 'We know, I = PRT/100'
+              },
+              {
+                type: 'eqn',
+                text: 'Let us multiply both sides by 100/PT'
+              },
+              {
+                type: 'eqn',
+                text: 'I × 100/PT = PRT/100 × 100/PT'
+              },
+              {
+                type: 'eqn',
+                text: 'We get R = I×100/PT'
+              }
+            ]
+          ],
+          [
+            [
+              `Similarly, Interest will be given, and we will be asked to find the Term (T).`,
+
+              {
+                type: 'eqn',
+                text: 'We know, I = PRT/100'
+              },
+              {
+                type: 'eqn',
+                text: 'Let us multiply both sides by 100/PR'
+              },
+              {
+                type: 'eqn',
+                text: 'I × 100/PR = PRT/100 × 100/PR'
+              },
+              {
+                type: 'eqn',
+                text: 'We get T = I×100/PR'
+              }
+            ]
           ]
         ]
       }
@@ -170,9 +216,9 @@ T = Time for which interest is calculated.`
     {
       type: 'numberInput',
       id: 'fraction-add',
-      label: 'Add: Like Fraction',
+      label: 'Word Problems',
       commonData: {
-        title: 'Add the fractions',
+        title: 'Word Problems',
         type: 'word-problem',
         fontSize: '1rem',
         isSentence: true,
@@ -207,7 +253,7 @@ I = 1120, R = ?
 We know that I = PRT/100
 R = 100×I/PT
 = 100×?0/?1×?2
-=?3 % per annum
+= ?3 % per annum
 1120, 4000,2, 14`,
 
             `In how many years will ₹ 25,000 invested at 8% per annum amount to  ₹ 33,000?
@@ -282,8 +328,9 @@ Amount = P + I = 20000 + ?4
 Interest gained by Kamla = 25000×10.5×?6/100 
 = ?7
 Amount = P + I = 25000 + ?8
+= ?9
 Kamal gets more money than Vimala.
-20000, 11.5, 5, 11500, 11500, 31500, 5, 13125, 38125`
+20000, 11.5, 5, 11500, 11500, 31500, 5, 13125, 13125, 38125`
           ]
         }
       ]
