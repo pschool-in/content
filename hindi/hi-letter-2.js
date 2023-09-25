@@ -556,7 +556,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 81
+            audio: 82
           },
           {
             id: 'घे',
@@ -567,7 +567,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 82
+            audio: 84
           },
           {
             id: 'घै',
@@ -579,7 +579,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 160,
-            audio: 84
+            audio: 86
           },
           {
             id: 'घो',
@@ -591,7 +591,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 86
+            audio: 88
           },
           {
             id: 'घौ',
@@ -604,7 +604,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 88
+            audio: 90
           },
           {
             id: 'घं',
@@ -615,7 +615,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 165,
-            audio: 90
+            audio: 92
           },
           {
             id: 'घः',
@@ -627,7 +627,7 @@ export default {
               'M 8 95 L 160 95'
             ],
             width: 165,
-            audio: 92
+            audio: 94
           }
         ]
       }
@@ -649,7 +649,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 150,
-            audio: 94
+            audio: 96
           },
           {
             id: 'चा',
@@ -660,7 +660,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 210,
-            audio: 96
+            audio: 98
           },
           {
             id: 'चि',
@@ -671,7 +671,7 @@ export default {
               'M 8 95 L 210 95 '
             ],
             width: 192,
-            audio: 98
+            audio: 100
           },
           {
             id: 'ची',
@@ -682,7 +682,7 @@ export default {
               'M 8 95 L 228 96 '
             ],
             width: 228,
-            audio: 100
+            audio: 102
           },
           {
             id: 'चु',
@@ -693,7 +693,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 102
+            audio: 104
           },
           {
             id: 'चू',
@@ -704,7 +704,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 104
+            audio: 106
           },
           {
             id: 'चे',
@@ -715,7 +715,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 106
+            audio: 108
           },
           {
             id: 'चै',
@@ -727,7 +727,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 152,
-            audio: 108
+            audio: 110
           },
           {
             id: 'चो',
@@ -739,7 +739,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 185,
-            audio: 200
+            audio: 112
           },
           {
             id: 'चौ',
@@ -752,7 +752,7 @@ export default {
               'M 8 95 L 210 95'
             ],
             width: 185,
-            audio: 202
+            audio: 114
           },
           {
             id: 'चं',
@@ -763,7 +763,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 165,
-            audio: 204
+            audio: 116
           },
           {
             id: 'चः',
@@ -775,7 +775,7 @@ export default {
               'M 12 95 L 152 95 '
             ],
             width: 165,
-            audio: 206
+            audio: 118
           }
         ]
       }
