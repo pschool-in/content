@@ -23,6 +23,77 @@ La Tomatina is a unique festival held in the town of Buñol, Spain, where partic
       }
     },
     {
+      label: 'Choose the correct answer',
+      type: 'mcq',
+      id: 'festivals-mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText:
+              'What is the legend associated with Diwali, the Festival of Lights in India?',
+            options: `  The return of Lord Rama after defeating Ravana
+The journey of Buddha to enlightenment
+The victory of Guru Gobind Singh over Mughals`
+          },
+          {
+            qText:
+              'Why do people set off firecrackers and decorate their homes with red during the Chinese New Year in China?',
+            options: `To ward off the mythical monster Nian
+To honor their ancestors
+To celebrate the harvest season`
+          },
+          {
+            qText: 'What is the legend associated with the Brazilian Carnival?',
+            options: `The tale of Peri and Iracema's forbidden love
+The historical events of European Christian festivals
+The adventures of a famous Brazilian explorer`
+          },
+          {
+            qText: `What is the symbolic significance of cherry blossoms during Japan's Hanami festival?`,
+            options: `They signify the fleeting nature of life and honor.
+They mark the beginning of the Japanese lunar calendar.
+They symbolize the arrival of spring.`
+          },
+          {
+            qText:
+              'How did La Tomatina, the tomato-throwing festival in Spain, supposedly originate?',
+            options: `Young people disrupted a parade by throwing tomatoes from a vegetable stand.
+It was an annual tomato-eating competition.
+Their opinions were not mentioned in the story
+It was a Roman tradition to celebrate a bountiful tomato harvest.`
+          }
+        ]
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Diwali is often celebrated by lighting *oil* lamps.
+According to the Chinese New Year legend, Nian was afraid of loud noises and the color *red*.
+Brazilian Carnival celebrates the legend of Peri and Iracema, symbolizing *unity* and joy.
+Hanami in Japan is associated with the samurai's *courage* and readiness to embrace death.
+La Tomatina is known for its *unconventional* tomato fight.`
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'festival-word',
+      data: {
+        text: `Banished or forced to leave one's home or country.|EXILE
+A supernatural, often malevolent being or spirit.|DEMON
+The state of being wealthy, successful, or thriving.|PROSPERITY
+Not allowed or prohibited by rules or laws.|FORBIDDEN
+A state of temporary existence or lasting only for a short time.|TRANSIENT
+To welcome with enthusiasm.|EMBRACE
+To cause disturbance or interruption.|DISRUPTED
+Unconventional and unusual in an interesting or amusing way|QUIRKY`
+      }
+    },
+    {
       id: 'pandora',
       type: 'passage',
       label: `Pandora's Box`,
@@ -33,6 +104,48 @@ However, Pandora's curiosity got the better of her, and she couldn't resist the 
 Frightened by what she had done, Pandora quickly closed the box, trapping one last thing inside: hope. Despite all the terrible things that had been unleashed, hope remained to give people a glimmer of light in their darkest moments.
 From that day on, humans faced all the challenges brought upon them by the released evils. But they also had hope to guide them through their struggles, reminding them that there was always a chance for a better tomorrow.
 And so, the story of Pandora's Box teaches us that curiosity is a powerful trait, but it is essential to be mindful of the consequences of our actions and to hold on to hope, even in difficult times.`
+      }
+    },
+    {
+      id: 'match-1',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `Curiosity, Inquisitiveness
+Sorrow, Grief
+Hope, Optimism
+Greed, Avarice
+Anger, Wrath`
+      }
+    },
+    {
+      id: 'match-2',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Curiosity, Apathy
+Sorrow, Joy
+Hope, Despair
+Greed, Generosity
+Anger, Calm`
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'pandora-word',
+      data: {
+        text: `The feeling of wanting to know or learn something.|CURIOSITY
+A ceremony where two people get married.|WEDDING
+An intense desire to do something, especially something wrong or unwise.|TEMPTATION
+A strong feeling of sadness or unhappiness.|SORROW
+A desire for more wealth, possessions, or power than one needs.|GREED
+A feeling of resentment or envy of someone else's possessions or qualities.|JEALOUSY
+A strong feeling of displeasure and rage.|ANGER
+Evil or morally wrong behavior.|WICKEDNESS
+The feeling that events will turn out for the best.|HOPE`
       }
     },
     {
@@ -50,6 +163,31 @@ As they traveled, Sun Wukong transformed from a rebellious and sometimes arrogan
 Finally, after facing numerous trials, they reached India and obtained the sacred scriptures. The journey back was filled with new adventures, but Sun Wukong remained faithful to his duty to protect the monk.
 In the end, Sun Wukong earned enlightenment and became a true hero and protector. He was granted the title "The Great Sage Equal to Heaven" for his bravery and wisdom.
 To this day, Sun Wukong is remembered as the Monkey King, an emblem of courage, strength, and the pursuit of knowledge. His story is a beloved part of Chinese mythology and is celebrated in various art forms, including literature, theater, and festivals.`
+      }
+    },
+    {
+      id: 'match-3',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: ` Perilous, Dangerous
+Compassionate, Kind-hearted
+Arrogant, Haughty
+Enlightenment, Wisdom
+Emblem, Symbol`
+      }
+    },
+    {
+      label: 'Fillup',
+      id: 'fillup-drag-2',
+      type: 'matchByDragDrop',
+      data: {
+        text: `Sun Wukong was initially *resistant* to the idea of protecting the monk.
+The journey to India was filled with *perilous* challenges and adventures.
+Sun Wukong's transformation from an *arrogant* monkey to a loyal friend was remarkable.
+The Monkey King's quest for knowledge led to his *enlightenment*.
+The Monkey King is considered an *emblem* of courage and strength.`
       }
     },
     {
@@ -75,6 +213,21 @@ To this day, Sun Wukong is remembered as the Monkey King, an emblem of courage, 
       }
     },
     {
+      label: 'Who am I?',
+      type: 'completeWord',
+      id: 'mythical-word',
+      data: {
+        text: ` A legendary horse-like creature with a single horn on its forehead, often associated with purity and magic.|UNICORN
+A mythical bird that is cyclically reborn from its ashes, symbolizing immortality.|PHOENIX
+A creature with the body of a lion and the head and wings of an eagle, symbolizing strength and courage.|GRIFFIN
+Half-human, half-fish beings often associated with the sea and maritime legends.|MERMAIDS
+A creature from Greek mythology with snakes for hair and the power to turn others into stone.|MEDUSA
+A legendary ape-like creature believed to inhabit the Himalayan mountains.|BIGFOOT
+Creatures with the upper body of a human and the lower body of a horse, often depicted as skilled warriors.|CENTAUR
+A mythical creature with the ability to transform into a wolf or a human-wolf hybrid during a full moon.|WEREWOLF `
+      }
+    },
+    {
       id: 'uroshima-taro',
       type: 'passage',
       label: 'The Story of Urashima Taro',
@@ -91,6 +244,33 @@ From that day on, Urashima Taro's fate became a mystery. Some say he transformed
       }
     },
     {
+      id: 'match-4',
+      label: 'Match: Synonyms',
+      type: 'match',
+      data: {
+        title: `Match the synonym pairs.`,
+        text: `
+Kindness, Compassion
+Splendor, Magnificence
+Desperation, Hopelessness
+Regret, Remorse
+Immortal, Eternal`
+      }
+    },
+    {
+      id: 'match-5',
+      label: 'Match: Antonyms',
+      type: 'match',
+      data: {
+        title: `Match the antonym pairs.`,
+        text: `Kindness, Cruelty
+Splendor, Mediocrity
+Desperation, Hopefulness
+Regret, Satisfaction
+Immortal, Mortal`
+      }
+    },
+    {
       id: 'maui',
       type: 'passage',
       label: 'How Maui Tamed the Sun',
@@ -104,6 +284,18 @@ He called upon the help of his brothers, who were hidden nearby. They all pulled
 The sun fought back, making the day scorchingly hot, but Maui and his brothers were determined. They continued pulling until the sun began to move more slowly, granting the people of Aotearoa longer and more comfortable days.
 From that day on, the sun traveled more leisurely across the sky, allowing people to finish their tasks and enjoy their lives. Maui's bravery and cleverness earned him great respect among his people, and he became known as a hero and a demigod of the land.
 The myth of "How Maui Tamed the Sun" is still told by the Māori people, passing down the tale of Maui's incredible feat and his enduring legacy as a protector and helper of humanity.`
+      }
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'maui-word',
+      data: {
+        text: `To loop or throw a rope around something and tighten it.|LASSOED
+A person with both human and divine qualities.|DEMIGOD
+Something handed down from the past, typically from one generation to another.|LEGACY
+Fixed points used to secure something in place.|ANCHOR
+Extremely hot or burning.|SCORCHING`
       }
     },
     {
@@ -133,6 +325,29 @@ Scientific Explanation: Antibiotics are effective against bacterial infections, 
 Scientific Explanation: While the Great Wall of China is an impressive architectural feat, it is not visible to the naked eye from space or the moon. It's challenging to see individual human-made structures from such distances.
 10. Myth: The tongue has specific taste zones for sweet, salty, bitter, and sour tastes.
 Scientific Explanation: Taste receptors for sweet, salty, bitter, and sour tastes are distributed throughout the tongue, not localized in specific zones. The taste sensation is a result of interaction between taste buds and taste receptors on the entire tongue surface.`
+      }
+    },
+    {
+      label: 'Myth or Science',
+      id: 'true-false',
+      type: 'classifySentence',
+      data: {
+        title: 'Classify the following as Myth or Science.',
+        types: [
+          {
+            name: 'Myth',
+            text: `Cracking knuckles can lead to arthritis.
+Swallowed gum stays in your stomach for seven years.
+Hair and nails continue to grow after death.
+The full moon influences human behavior. `
+          },
+          {
+            name: 'Science',
+            text: `Lightning can strike the same place multiple times.
+Sugar may affect mood, but it does not cause long-term hyperactivity.
+Antibiotics are effective against bacterial infections, not viral infections `
+          }
+        ]
       }
     },
     {

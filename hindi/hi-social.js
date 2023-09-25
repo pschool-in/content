@@ -434,7 +434,7 @@ export default {
     },
     {
       type: 'informationProcessing',
-      id: 'pic-2',
+      id: 'pic-3',
       label: 'परिवहन',
       data: {
         title: 'चित्र का अवलोकन करें और प्रश्नों के उत्तर दें।',
