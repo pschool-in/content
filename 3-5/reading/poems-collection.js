@@ -10,6 +10,7 @@ export default {
       data: {
         title: `Run Chicken Run`,
         type: 'poem',
+        lineGap: '5px',
         text: `Run chicken run.
 The farmer got the gun
 The wife has the oven
@@ -26,6 +27,7 @@ As my dinner with a bun.`
       data: {
         title: 'Friend',
         type: 'poem',
+        lineGap: '5px',
         author: 'Hannah',
         text: `You and I are friends
 You laugh, I laugh
@@ -44,6 +46,7 @@ I'm going to miss you buddy.`
       data: {
         title: 'Chameleons',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Chameleons on the neem tree
 They are red
@@ -62,6 +65,7 @@ And tell me now.`
       data: {
         title: 'Friends',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Make new friends
 But keep the old.
@@ -84,6 +88,7 @@ We will always be!`
       data: {
         title: 'My Puppy',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `My little puppy 
 lives near my door
@@ -105,6 +110,7 @@ to pick it for me.`
       data: {
         title: 'Kites',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Red kites, blue kites
 Flying by
@@ -128,6 +134,7 @@ Who flew nearby.`
       data: {
         title: 'Trees',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Trees short, Trees tall
 Trees large, trees small
@@ -151,6 +158,7 @@ to cool and clean the air. `
       data: {
         title: 'Sparrows',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Little, little, sparrows
 Flying here and there 
@@ -171,6 +179,7 @@ built near my window.`
       data: {
         title: 'Spider on the way',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `A cute small spider
 Walking on eight legs
@@ -190,6 +199,7 @@ The spider’s treat`
       data: {
         title: 'A Rainbow',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `On the evening sky
 When cool wind blow
