@@ -13,17 +13,34 @@ export default {
       },
       data: [
         {
-          words:
-            'am|a-m, an|a-n, as|a-s, at|a-t, be|b-e, he|h-e, me|m-e, we|w-e, if|i-f, in|i-n',
+          microLabel: 'a',
+          words: 'am|a-m, an|a-n, as|a-s, at|a-t',
           pos: 0
         },
         {
-          words:
-            'is|i-s, it|i-t, hi|h-i, of|o-f, on|o-n, or|o-r, ox|o-x, no|n-o, go|g-o, so|s-o',
+          microLabel: 'e',
+          words: 'be|b-e, he|h-e, me|m-e, we|w-e',
           pos: 10
         },
         {
-          words: 'to|t-o, do|d-o, up|u-p, us|u-s, by|b-y, my|m-y',
+          microLabel: 'i',
+          words: 'in|i-n, if|i-f, is|i-s, it|i-t, hi|h-i',
+          pos: 20
+        },
+        {
+          microLabel: 'o',
+          words:
+            'of|o-f, on|o-n, or|o-r, ox|o-x, no|n-o, go|g-o, so|s-o, to|t-o, do|d-o',
+          pos: 20
+        },
+        {
+          microLabel: 'u',
+          words: 'up|u-p, us|u-s',
+          pos: 20
+        },
+        {
+          microLabel: 'others',
+          words: 'by|b-y, my|m-y',
           pos: 20
         }
       ]
