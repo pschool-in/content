@@ -9,7 +9,7 @@ export default {
       id: 'phonics-6',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-13.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-14.mp3',
         breakWord: false
       },
       data: [
@@ -21,28 +21,28 @@ export default {
         {
           microLabel: 'cl',
           words: 'climb, clean, clock, clip, cloud, clap, club, clown',
-          pos: 10
+          pos: 5
         },
         {
           microLabel: 'fl',
           words: 'flower, flag, flute, fly, floor, flight, flame, flashlight',
-          pos: 20
+          pos: 13
         },
         {
           microLabel: 'gl',
           words: 'globe, glass, glad, glue, glitter, glow',
-          pos: 30
+          pos: 21
         },
         {
           microLabel: 'pl',
           words:
             'plant, pluck, plug, play, planet, plenty, plane, plus, plan, place',
-          pos: 40
+          pos: 27
         },
         {
           microLabel: 'sl',
           words: 'sleep, sled, slip, slipper, slam, sleeve, slide',
-          pos: 50
+          pos: 36
         }
       ]
     },
@@ -52,7 +52,7 @@ export default {
       id: 'phonics-7',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-14.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-15.mp3',
         breakWord: false
       },
       data: [
@@ -65,33 +65,33 @@ export default {
         {
           microLabel: 'cr',
           words: 'crab, crop, crown, cricket, cry, crayon',
-          pos: 10
+          pos: 9
         },
         {
           microLabel: 'dr',
           words: 'drum, drop, draw, dress, dream, dry',
-          pos: 20
+          pos: 15
         },
         {
           microLabel: 'fr',
           words: 'frog, friend, free, fry, from, friday, front',
-          pos: 30
+          pos: 21
         },
         {
           microLabel: 'gr',
           words: 'grass, grow, green, grey, grandma, great, grab, grasshopper',
-          pos: 40
+          pos: 28
         },
         {
           microLabel: 'pr',
           words:
             'prince, prize, present, proud, promise, pray, price, proper, print',
-          pos: 50
+          pos: 36
         },
         {
           microLabel: 'tr',
           words: 'truck, train, tree, trick, trip, trap, tricycle, try',
-          pos: 50
+          pos: 45
         }
       ]
     },
@@ -101,7 +101,7 @@ export default {
       id: 'phonics-8',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-15.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-16.mp3',
         breakWord: false
       },
       data: [
@@ -113,32 +113,32 @@ export default {
         {
           microLabel: 'sc',
           words: 'scarf, scan, scrub, scooter, scream',
-          pos: 10
+          pos: 6
         },
         {
           microLabel: 'sk',
           words: 'sky, skirt, skip, sketch, skin, skill',
-          pos: 20
+          pos: 11
         },
         {
           microLabel: 'sm',
           words: 'small, smell, smash, smile, smoke, smack, smooth, smear',
-          pos: 30
+          pos: 17
         },
         {
           microLabel: 'sn',
           words: 'snail, snake, snap, snore, sneaker, snag',
-          pos: 40
+          pos: 25
         },
         {
           microLabel: 'sp',
           words: 'spot, space, spin, sport, span',
-          pos: 50
+          pos: 31
         },
         {
           microLabel: 'st',
           words: 'star, stamp, stem, stick, stool, stone, step',
-          pos: 50
+          pos: 36
         }
       ]
     },
@@ -148,7 +148,7 @@ export default {
       id: 'phonics-9',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-16.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-17.mp3',
         breakWord: false
       },
       data: [
@@ -161,27 +161,27 @@ export default {
           microLabel: 'ch',
           words:
             'chair, chalk, chin, child, chat, chase, chain, church, chicks',
-          pos: 10
+          pos: 6
         },
         {
           microLabel: 'sh',
           words: 'she, shark, ship, shirt, shell, shore, sheep, short, shout',
-          pos: 20
+          pos: 15
         },
         {
           microLabel: 'Th',
           words: 'the, this, that, them, they',
-          pos: 30
+          pos: 24
         },
         {
           microLabel: 'th',
           words: 'thumb, thread, thirty, theater, throne',
-          pos: 40
+          pos: 29
         },
         {
           microLabel: 'wh',
           words: 'wheat, white, wheel, whale, whistle',
-          pos: 50
+          pos: 34
         }
       ]
     },
@@ -191,7 +191,7 @@ export default {
       id: 'phonics-10',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-17.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-18.mp3',
         breakWord: false
       },
       data: [
@@ -203,27 +203,27 @@ export default {
         {
           microLabel: 'mp',
           words: 'lamp, pump, hump, dump, bump',
-          pos: 10
+          pos: 9
         },
         {
           microLabel: 'sk',
           words: 'ask, risk, desk, task, mask, disk',
-          pos: 20
+          pos: 14
         },
         {
           microLabel: 'st',
           words: 'nest, fast, last, vest, rest, best, past, must, pest',
-          pos: 30
+          pos: 20
         },
         {
           microLabel: 'nt',
           words: 'tent, dent, sent, rent, bent',
-          pos: 40
+          pos: 29
         },
         {
           microLabel: 'ft',
           words: 'lift, gift, draft, soft, shift',
-          pos: 50
+          pos: 34
         }
       ]
     },
@@ -233,7 +233,7 @@ export default {
       id: 'phonics-11',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-18.mp3',
+        wordsAudio: 'kg-5/phonics/basic-phonics-19.mp3',
         breakWord: false
       },
       data: [
@@ -245,28 +245,28 @@ export default {
         {
           microLabel: 'lk',
           words: 'milk, silk, bulk',
-          pos: 10
+          pos: 5
         },
         {
           microLabel: 'nk',
           words: 'bank, sink, rank, blink, tank, monk',
-          pos: 20
+          pos: 8
         },
         {
           microLabel: 'ch',
           words:
             ' lunch, munch, fetch, crunch, match, ditch, catch, touch, such, hutch',
-          pos: 30
+          pos: 14
         },
         {
           microLabel: 'th',
           words: 'teeth, month, mouth, bath, cloth',
-          pos: 40
+          pos: 24
         },
         {
           microLabel: 'sh',
           words: 'dish, fish, smash, flash, wash',
-          pos: 50
+          pos: 29
         }
       ]
     }

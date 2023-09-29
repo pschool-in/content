@@ -20,28 +20,28 @@ export default {
         {
           microLabel: 'e',
           words: 'be|b-e, he|h-e, me|m-e, we|w-e',
-          pos: 10
+          pos: 4
         },
         {
           microLabel: 'i',
-          words: 'in|i-n, if|i-f, is|i-s, it|i-t, hi|h-i',
-          pos: 20
+          words: 'in|i-n, if|i-f, is|i-s, it|i-t',
+          pos: 8
         },
         {
           microLabel: 'o',
           words:
             'of|o-f, on|o-n, or|o-r, ox|o-x, no|n-o, go|g-o, so|s-o, to|t-o, do|d-o',
-          pos: 20
+          pos: 12
         },
         {
           microLabel: 'u',
           words: 'up|u-p, us|u-s',
-          pos: 20
+          pos: 21
         },
         {
           microLabel: 'others',
           words: 'by|b-y, my|m-y',
-          pos: 20
+          pos: 23
         }
       ]
     },
@@ -71,7 +71,7 @@ export default {
         },
         {
           words:
-            'sap|s-a-p, tap|t-a-p, bag|b-a-g, gag|-a-g, rag|r-a-g, tag|t-a-g, wag|w-a-g, bar|b-ar, car|c-ar, far|f-ar',
+            'sap|s-a-p, tap|t-a-p, bag|b-a-g, gag|g-a-g, rag|r-a-g, tag|t-a-g, wag|w-a-g, bar|b-ar, car|c-ar, far|f-ar',
           pos: 30
         },
         {
@@ -83,7 +83,18 @@ export default {
           words:
             'pig|p-i-g, wig|w-i-g, bid|b-i-d, hid|h-i-d, did|d-i-d, kid|k-i-d, lid|l-i-d, rid|r-i-d, bib|b-i-b, nib|n-i-b',
           pos: 50
-        },
+        }
+      ]
+    },
+    {
+      label: 'Three Letter Words 2',
+      type: 'phonics',
+      id: 'phonics-2-1',
+      commonData: {
+        type: 'words',
+        wordsAudio: 'kg-5/phonics/basic-phonics-10.mp3'
+      },
+      data: [
         {
           words:
             'rib|r-i-b, bit|b-i-t, fit|f-i-t, kit|k-i-t, lit|l-i-t, pit|p-i-t, sit|s-i-t, fix|f-i-x, mix|m-i-x, six|s-i-x',
@@ -127,33 +138,33 @@ export default {
       id: 'phonics-3',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-10.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-11.mp3'
       },
       data: [
         {
           microLabel: 'er',
-          text: 'after|af-ter, greater|gr-ea-ter, person|p-er-son, her|h-er, utter|uh-t-er',
+          text: 'after|a-f-t-er, greater|g-r-e-a-t-er, person|p-er-s-o-n, her|h-er, utter|u-h-t-er',
           words: 0
         },
         {
           microLabel: 'ir',
-          text: 'bird|b-ir-d, dirt|d-ir-t, shirt|sh-ir-t, skirt|sk-ir-t',
-          words: 10
+          text: 'bird|b-ir-d, dirt|d-ir-t, shirt|sh-ir-t, skirt|s-c-ir-t',
+          words: 6
         },
         {
           microLabel: 'or',
-          text: 'worm|w-or-m, work|w-or-k, worship|w-or-ship, world|w-or-l-d, story|s-t-or-ee',
-          words: 20
+          text: 'worm|w-or-m, work|w-or-k, worship|w-or-sh-i-p, world|w-or-l-d, story|s-t-or-ee',
+          words: 10
         },
         {
           microLabel: 'ur',
           text: 'burn|b-ur-n, church|ch-ur-ch, hurt|h-ur-t, turn|t-ur-n, nurse|n-ur-s, curb|c-ur-b, fur|f-ur',
-          words: 30
+          words: 15
         },
         {
           microLabel: 'ar',
           text: 'arm|ar-m, barn|b-ar-n, car|c-ar, dart|d-ar-t, jar|j-ar',
-          words: 40
+          words: 22
         }
       ]
     },
@@ -163,7 +174,7 @@ export default {
       id: 'phonics-4',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-11.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-12.mp3'
       },
       data: [
         {
@@ -175,7 +186,7 @@ export default {
         {
           microLabel: 'oy',
           words: 'boy|b-oy, toy|t-oy, joy|j-oy',
-          pos: 10
+          pos: 9
         }
       ]
     },
@@ -185,7 +196,7 @@ export default {
       id: 'phonics-5',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-12.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-13.mp3'
       },
       data: [
         {
@@ -198,12 +209,12 @@ export default {
           microLabel: 'ow',
           words:
             'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|cr-ow, grow|gr-ow, snow|s-n-ow',
-          pos: 10
+          pos: 7
         },
         {
           microLabel: 'ow',
           words: 'glow|gl-ow, frown|fr-ow-n, town|t-ow-n, crown|cr-ow-n',
-          pos: 20
+          pos: 17
         }
       ]
     }
