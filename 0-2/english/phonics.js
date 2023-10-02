@@ -53,6 +53,42 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Phonics Sound',
+      id: 'dictation',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-1.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'sun, us, set, sum, sit, sir, six, soft, small, seven'
+        },
+        {
+          audioOffset: 10,
+          words: 'at, an, am, and, act, ask, axe, ant, art, also'
+        },
+        {
+          audioOffset: 20,
+          words: 'to, too, ton, ten, top, tall, tail|t-ai-l, tank, toy, tub'
+        },
+        {
+          audioOffset: 30,
+          words: 'it, if, in, ink, idea, icon, index, item, india, intro'
+        },
+        {
+          audioOffset: 40,
+          words: 'pen, pet, put, pin, pig, pan, pain, park, perk, pink'
+        },
+        {
+          audioOffset: 50,
+          words: 'net, not, nil, nib, nut, nest, next, nano, neem, noon'
+        }
+      ]
+    },
+    {
       label: 'Phonics Collection - 2',
       type: 'phonics',
       id: 'phonics-2',
@@ -97,6 +133,42 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 2',
+      id: 'dictation-2',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-2.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'cat, cut, cup, cap, can, car, cow, come, care, card'
+        },
+        {
+          audioOffset: 10,
+          words: 'eat, end, ear, egg, easy, earn, else, emit, exam, exit'
+        },
+        {
+          audioOffset: 20,
+          words: 'hot, hat, hen, her, his, hit, hip, hand, hard, harm'
+        },
+        {
+          audioOffset: 30,
+          words: 'rat, red, rod, rip, run, ran, roar, road, rest, rent'
+        },
+        {
+          audioOffset: 40,
+          words: 'mat, mad, man, men, mix, met, map,  mug, milk, mail'
+        },
+        {
+          audioOffset: 50,
+          words: 'dog, dot, dad, dam, dark, den, desk, data, don, did'
+        }
+      ]
+    },
+    {
       label: 'Phonics Collection - 3',
       type: 'phonics',
       id: 'phonics-3',
@@ -134,6 +206,42 @@ export default {
           microLabel: 'b',
           text: 'bat, bad, bag, ban, box, bun, but, bed, bet, best',
           pos: 50
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 3',
+      id: 'dictation-3',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-3.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'go, get, got, gun, gap, grow, goat, green, give, gave'
+        },
+        {
+          audioOffset: 10,
+          words: 'on, ox, one, old, open, of, over, only, oral, oval'
+        },
+        {
+          audioOffset: 20,
+          words: 'up, us, upon, use, ugly, uber, unit, undo, user, ultra'
+        },
+        {
+          audioOffset: 30,
+          words: 'lot, leg, lap, let, lay, log, lie|l-ie, lake, lady, land'
+        },
+        {
+          audioOffset: 40,
+          words: 'fat, fan, far, for, few, fast, fox, fact, face, fail'
+        },
+        {
+          audioOffset: 50,
+          words: 'bat, bad, bag, ban, box, bun, but, bed, bet, best'
         }
       ]
     },
@@ -185,6 +293,42 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 4',
+      id: 'dictation-4',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-4.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'aim, pain, rain, grain, tail, fail, sail, paid, said, maid'
+        },
+        {
+          audioOffset: 10,
+          words: 'jam, jug, jar, jet, jump, jail, jaw, junk, joke, jeep'
+        },
+        {
+          audioOffset: 20,
+          words: 'coat, boat, oat, goat, goal, roar, load, loaf, loan, soap'
+        },
+        {
+          audioOffset: 30,
+          words: 'tie, die, lie, pie, alien, chief, brief, field, niece, movie'
+        },
+        {
+          audioOffset: 40,
+          words: 'see, bee, free, tree, seed, need, feed, meet, feet, feel'
+        },
+        {
+          audioOffset: 50,
+          words: 'for, more, born, horn, corn, sort, port, form, fork, force'
+        }
+      ]
+    },
+    {
       label: 'Phonics Collection - 5',
       type: 'phonics',
       id: 'phonics-5',
@@ -228,6 +372,43 @@ export default {
           words:
             'pool|p-OO-l, tool|t-OO-l, tooth|t-OO-th, moon|m-OO-n, proof|p-r-OO-f,  bloom|b-l-OO-m, broom|b-r-OO-m, fool|f-OO-l, room|r-OO-m, root|r-OO-t',
           pos: 50
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 5',
+      id: 'dictation-5',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-5.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'zoo, zip, zone, zoom, zen, zero, maze, crazy, eazy, lazy'
+        },
+        {
+          audioOffset: 10,
+          words: 'wet, win, was, worm, work, web, world, wage, wake, water'
+        },
+        {
+          audioOffset: 20,
+          words: 'ring, sing, king, wing, wrong, lung, song, angry, angle, long'
+        },
+        {
+          audioOffset: 30,
+          words: 'van, very, vote, vase, vast, verb, view, virus, value, video'
+        },
+        {
+          audioOffset: 40,
+          words: 'book, took, look, good, food, wool, cook, foot, blood, flood'
+        },
+        {
+          audioOffset: 50,
+          words:
+            'pool, tool, tooth, moon, proof,  bloom, broom, fool, room, root'
         }
       ]
     },
@@ -278,6 +459,44 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 6',
+      id: 'dictation-6',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-6.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'you, yes, youth, year, yoga, yield, your, yummy, yamuna, yell'
+        },
+        {
+          audioOffset: 10,
+          words: 'ox, six, mix, fix, tax, wax, box, hoax, axe, fox'
+        },
+        {
+          audioOffset: 20,
+          words: 'chop, chest, chain, chip, chat, chin, teach, rich, inch, each'
+        },
+        {
+          audioOffset: 30,
+          words: 'she, ship, shed, show, shout, shut, shop, shake, shark, sharp'
+        },
+        {
+          audioOffset: 40,
+          words:
+            'thin, think, thank, bath, path, myth, third, thief, cloth, health'
+        },
+        {
+          audioOffset: 50,
+          words:
+            'that, they, then, them, their, these, those, throw, birth, faith'
+        }
+      ]
+    },
+    {
       label: 'Phonics Collection - 7',
       type: 'phonics',
       id: 'phonics-7',
@@ -321,6 +540,44 @@ export default {
           words:
             'car|c-ar, jar|j-ar, bar|b-ar, far|f-ar, war|w-ar, harm|h-ar-m, arm|ar-m, art|ar-t, part|p-ar-t, park|p-ar-k ',
           pos: 50
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Phonics Collection - 7',
+      id: 'dictation-7',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-7.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'quiz, quick, quiet, queen, quest, quack, quilt, square, equal, liquid'
+        },
+        {
+          audioOffset: 10,
+          words: 'our, hour, loud, noun, four, foul, soup, about, found, count'
+        },
+        {
+          audioOffset: 20,
+          words: 'oil, boil, soil, coil, coin, join, point, noise, voice, moist'
+        },
+        {
+          audioOffset: 30,
+          words:
+            'blue, true, clue, fuel, glue, argue, cruel, guest, quest, value'
+        },
+        {
+          audioOffset: 40,
+          words: 'her, herd, herb, verb, germ, lier, over, very, term, user'
+        },
+        {
+          audioOffset: 50,
+          words: 'car, jar, bar, far, war, harm, arm, art, part, park '
         }
       ]
     }

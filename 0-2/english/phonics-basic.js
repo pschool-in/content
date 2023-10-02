@@ -51,7 +51,8 @@ export default {
       id: 'dictation-two',
       commonData: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/phonics/basic-phonics-8.mp3'
+        audio: 'kg-5/phonics/basic-phonics-8.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -112,10 +113,11 @@ export default {
     {
       type: 'dictation',
       label: 'Dictation: Three Letter Words',
-      id: 'dictation-two',
+      id: 'dictation-3',
       commonData: {
         title: 'Listen to the sound and type the word.',
-        audio: 'kg-5/phonics/basic-phonics-9.mp3'
+        audio: 'kg-5/phonics/basic-phonics-9.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -185,8 +187,48 @@ export default {
         },
         {
           words:
-            'pen|p-e-n, ten|t-e-n, beg|b-a-g, leg|l-e-g, peg|p-e-g bet|b-e-t, get|g-e-t, pet|p-e-t, let|l-e-t, wet|w-e-t',
+            'pen|p-e-n, ten|t-e-n, beg|b-a-g, leg|l-e-g, peg|p-e-g, bet|b-e-t, get|g-e-t, pet|p-e-t, let|l-e-t, wet|w-e-t',
           pos: 50
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Three Letter Words 2',
+      id: 'dictation-4',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-10.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'rib, bit, fit, kit, lit, pit, sit, fix, mix, six'
+        },
+        {
+          audioOffset: 10,
+          words: 'god, nod, pod, cod, rod, dog, fog, hog, log, cot'
+        },
+        {
+          audioOffset: 20,
+          words: 'dot, got, hot, lot, pot, not, rot, job, box, fox'
+        },
+        {
+          audioOffset: 30,
+          words: 'cub, dub, rub, tub, hub, bug, dug, hug, rug, tug'
+        },
+        {
+          audioOffset: 40,
+          words: 'jug, sun, fun, gun, run, but, cut, hut, nut, mud'
+        },
+        {
+          audioOffset: 50,
+          words: 'bud, pup, fed, bed, led, red, wed, den, hen, men'
+        },
+        {
+          audioOffset: 60,
+          words: 'pen, ten, beg, leg, peg, bet, get, pet, let, wet'
         }
       ]
     },
@@ -227,6 +269,32 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: R with AEIOU',
+      id: 'dictation-5',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-11.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'after, greater, person, her, utter, bird, dirt, shirt, skirt, worm'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'work, worship, world, story, burn, church, hurt, turn, nurse, curb'
+        },
+        {
+          audioOffset: 20,
+          words: 'fur, arm, barn, car, dart, jar'
+        }
+      ]
+    },
+    {
       label: 'Recognising AY and OY',
       type: 'phonics',
       id: 'phonics-4',
@@ -245,6 +313,26 @@ export default {
           microLabel: 'oy',
           words: 'boy|b-oy, toy|t-oy, joy|j-oy',
           pos: 9
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Recognising AY and OY',
+      id: 'dictation-6',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-12.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'bay, day, hay, may, pay, lay, ray, say, way'
+        },
+        {
+          audioOffset: 9,
+          words: 'boy, toy, joy'
         }
       ]
     },
@@ -273,6 +361,26 @@ export default {
           microLabel: 'ow',
           words: 'glow|gl-ow, frown|fr-ow-n, town|t-ow-n, crown|cr-ow-n',
           pos: 17
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Recognising AW and OW Sounds',
+      id: 'dictation-7',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-13.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'jaw, paw, law, raw, saw, hawk, cow, now, down, gown'
+        },
+        {
+          audioOffset: 10,
+          words: 'town, mow, row, crow, grow, snow, glow, frown, town, crown'
         }
       ]
     }

@@ -47,6 +47,42 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Initial Blends)',
+      id: 'dictation',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-14.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'black, blow, blanket, blue, block, climb, clean, clock, clip, cloud'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'clap, club, clown, flower, flag, flute, fly, floor, flight, flame'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'flashlight, globe, glass, glad, glue, glitter, glow, plant, pluck, plug'
+        },
+        {
+          audioOffset: 30,
+          words:
+            'play, planet, plenty, plane, plus, plan, place, sleep, sled, slip'
+        },
+        {
+          audioOffset: 40,
+          words: 'slipper, slam, sleeve, slide'
+        }
+      ]
+    },
+    {
       label: 'Blending Words (Initial Blends) 2',
       type: 'phonics',
       id: 'phonics-7',
@@ -92,6 +128,47 @@ export default {
           microLabel: 'tr',
           words: 'truck, train, tree, trick, trip, trap, tricycle, try',
           pos: 45
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Initial Blends) 2',
+      id: 'dictation-2',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-15.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'broom, bride, bridge, brave, brother, brick, breathe, brake, brown, crab'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'crop, crown, cricket, cry, crayon, drum, drop, draw, dress, dream'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'dry, frog, friend, free, fry, from, friday, front, grass, grow'
+        },
+        {
+          audioOffset: 30,
+          words:
+            'green, grey, grandma, great, grab, grasshopper, prince, prize, present, proud'
+        },
+        {
+          audioOffset: 40,
+          words:
+            'promise, pray, price, proper, print, truck, train, tree, trick, trip'
+        },
+        {
+          audioOffset: 50,
+          words: 'trap, tricycle, try'
         }
       ]
     },
@@ -143,6 +220,42 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Initial Blends) 3',
+      id: 'dictation-3',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-16.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'twig, twins, twenty, twist, twelve, tweet, scarf, scan, scrub, scooter'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'scream, sky, skirt, skip, sketch, skin, skill, small, smell, smash'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'smile, smoke, smack, smooth, smear, snail, snake, snap, snore, sneaker'
+        },
+        {
+          audioOffset: 30,
+          words:
+            'snag, spot, space, spin, sport, span, star, stamp, stem, stick'
+        },
+        {
+          audioOffset: 40,
+          words: 'stool, stone, step'
+        }
+      ]
+    },
+    {
       label: 'Blending Words (Initial Blends) 4',
       type: 'phonics',
       id: 'phonics-9',
@@ -182,6 +295,37 @@ export default {
           microLabel: 'wh',
           words: 'wheat, white, wheel, whale, whistle',
           pos: 34
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Initial Blends) 4',
+      id: 'dictation-4',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-17.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words:
+            'sweet, swim, swan, swings, sweeps, sweater, chair, chalk, chin, child'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'chat, chase, chain, church, chicks, she, shark, ship, shirt, shell'
+        },
+        {
+          audioOffset: 20,
+          words: 'shore, sheep, short, shout, the, this, that, them, they'
+        },
+        {
+          audioOffset: 30,
+          words:
+            'thumb, thread, thirty, theater, throne, wheat, white, wheel, whale, whistle'
         }
       ]
     },
@@ -228,6 +372,34 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Terminal Blends)',
+      id: 'dictation-5',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-18.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'hand, land, wind, band, send, bend, pond, mend, and, lamp'
+        },
+        {
+          audioOffset: 10,
+          words: 'pump, hump, dump, bump, ask, risk, desk, task, mask, disk'
+        },
+        {
+          audioOffset: 20,
+          words: 'nest, fast, last, vest, rest, best, past, must, pest, tent'
+        },
+        {
+          audioOffset: 30,
+          words: 'dent, sent, rent, bent, lift, gift, draft, soft, shift'
+        }
+      ]
+    },
+    {
       label: 'Blending Words (Terminal Blends) 2',
       type: 'phonics',
       id: 'phonics-11',
@@ -267,6 +439,36 @@ export default {
           microLabel: 'sh',
           words: 'dish, fish, smash, flash, wash',
           pos: 29
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Blending Words (Terminal Blends) 2',
+      id: 'dictation-6',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-19.mp3',
+        audioWidth: 1
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'belt, hilt, bolt, melt, salt, milk, silk, bulk, bank'
+        },
+        {
+          audioOffset: 10,
+          words:
+            'sink, rank, blink, tank, monk, lunch, munch, fetch, crunch, match'
+        },
+        {
+          audioOffset: 20,
+          words:
+            'ditch, catch, touch, such, hutch, teeth, month, mouth, bath, cloth'
+        },
+        {
+          audioOffset: 30,
+          words: 'dish, fish, smash, flash, wash'
         }
       ]
     }
