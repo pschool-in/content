@@ -9,7 +9,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic.jpg',
+        image: 'english/posters/01_lost_pet.jpg',
         questions: [
           {
             qText: 'What is the breed of the missing cat?',
@@ -43,7 +43,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/02_pool_rules.jpg',
         questions: [
           {
             qText: 'Is diving allowed in the pool?',
@@ -76,7 +76,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-3.jpg',
+        image: 'english/posters/03_school_offer.jpg',
         questions: [
           {
             qText: 'What is the discount rate offered in the sale?',
@@ -104,7 +104,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/04_school_menu.jpg',
         questions: [
           {
             qText: 'What is the above poster about?',
@@ -137,7 +137,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/05_fun_fest.jpg',
         questions: [
           {
             qText: 'Where is the fest taking place?',
@@ -169,7 +169,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/06_birthday.jpg',
         questions: [
           {
             qText: 'Whose birthday is it?',
@@ -201,7 +201,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/07_shoe_features.jpg',
         questions: [
           {
             qText: 'What is the Ad about?',
@@ -233,7 +233,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/08_todoList.jpg',
         questions: [
           {
             qText: 'Whom does the diary belong to?',
@@ -265,7 +265,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/09_course.jpg',
         questions: [
           {
             qText: 'What is the website mentioned in the poster?',
@@ -298,7 +298,7 @@ export default {
       data: {
         title: 'Observe the picture and answer the questions.',
         type: 'image',
-        image: 'math/dataHandling/infoPic-2.jpg',
+        image: 'english/posters/10_pottery.jpg',
         questions: [
           {
             qText: 'Where is the class held?',

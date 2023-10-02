@@ -128,7 +128,7 @@ So, 4:7 < 5:8
     },
     {
       type: 'numberInput',
-      id: 'wordproblem',
+      id: 'wordproblem-2',
       label: 'Ratios of Different Units',
       data: {
         title: 'Express the following ratio in simplest form.',
