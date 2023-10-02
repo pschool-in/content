@@ -46,6 +46,29 @@ export default {
       ]
     },
     {
+      type: 'dictation',
+      label: 'Dictation: Two Letter Words',
+      id: 'dictation-two',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-8.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'am, an, as, at, be, he, we, me, in, if'
+        },
+        {
+          audioOffset: 10,
+          words: 'is, it, of, on, or, ox, no, go, so, to'
+        },
+        {
+          audioOffset: 20,
+          words: 'do, up, us, by, my'
+        }
+      ]
+    },
+    {
       label: 'Three Letter Words',
       type: 'phonics',
       id: 'phonics-2',
@@ -83,6 +106,41 @@ export default {
           words:
             'pig|p-i-g, wig|w-i-g, bid|b-i-d, hid|h-i-d, did|d-i-d, kid|k-i-d, lid|l-i-d, rid|r-i-d, bib|b-i-b, nib|n-i-b',
           pos: 50
+        }
+      ]
+    },
+    {
+      type: 'dictation',
+      label: 'Dictation: Three Letter Words',
+      id: 'dictation-two',
+      commonData: {
+        title: 'Listen to the sound and type the word.',
+        audio: 'kg-5/phonics/basic-phonics-9.mp3'
+      },
+      data: [
+        {
+          audioOffset: 0,
+          words: 'bat, cat, mat, fat, hat, rat, sat, ban, can, man'
+        },
+        {
+          audioOffset: 10,
+          words: 'fan, pan, ran, van, dam, ram, ham, jam, bad, dad'
+        },
+        {
+          audioOffset: 20,
+          words: 'fad, had, mad, lad, pad, sad, cap, lap, map, rap'
+        },
+        {
+          audioOffset: 30,
+          words: 'sap, tap, bag, gag, rag, tag, wag, bar, car, far'
+        },
+        {
+          audioOffset: 40,
+          words: 'jar, bin, fin, pin, tin, sin, win, big, dig, fig'
+        },
+        {
+          audioOffset: 50,
+          words: 'pig, wig, bid, hid, did, kid, lid, rid, bib, nib'
         }
       ]
     },
