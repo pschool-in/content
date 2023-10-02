@@ -320,6 +320,12 @@ export default {
       grade: '4-6'
     },
     {
+      label: 'Ratio (Class 7)',
+      id: 'ratio-7',
+      grade: '6-8'
+    },
+
+    {
       label: 'Unit Rate',
       id: 'unit-rate',
       grade: '5-7'

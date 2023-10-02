@@ -149,6 +149,12 @@ export default {
       grade: '4-5'
     },
     {
+      label: 'Reading Posters',
+      id: 'poster-5',
+      grade: '3-5'
+    },
+
+    {
       label: 'Poems Collection',
       id: 'poems-collection',
       grade: '3-5'

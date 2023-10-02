@@ -91,7 +91,7 @@ A = P + I `
     },
     {
       type: 'numberInput',
-      id: 'table',
+      id: 'table-2',
       label: 'Fill the Missing Number',
       commonData: {
         title: 'Fill the Missing Number',
@@ -143,7 +143,7 @@ A = P + I `
       ]
     },
     {
-      id: 'notes',
+      id: 'notes-2',
       type: 'slides2',
       label: `Simple Interest`,
       data: {

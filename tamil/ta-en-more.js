@@ -1,6 +1,6 @@
 export default {
   label: 'இணையான ஆங்கிலம்',
-  id: 'ta-en-5',
+  id: 'ta-en-more',
   list: [
     {
       id: 'notes',

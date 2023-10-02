@@ -19,12 +19,12 @@ export default {
       img: 'writing'
     },
     {
-      id: 'ta-sound',
+      id: 'ta-sound-basic',
       label: 'ஓசை',
       img: 'sound'
     },
     {
-      id: 'ta-picture',
+      id: 'ta-picture-basic',
       label: 'படம்',
       img: 'image'
     },
@@ -72,6 +72,16 @@ export default {
       id: 'barathi',
       label: 'பாரதி',
       img: 'barathi'
+    },
+    {
+      id: 'ta-en-more',
+      label: 'English',
+      img: 'translation'
+    },
+    {
+      id: 'ta-gk',
+      label: 'பொது அறிவு',
+      img: 'gk'
     }
   ]
 };
