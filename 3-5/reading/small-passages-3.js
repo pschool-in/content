@@ -36,7 +36,7 @@ export default {
       label: 'Stars',
       data: {
         title: 'Stars',
-        text: `Look at the night sky. You can see little spots of light. What are they? They are Stars. Can you count the stars in the sky? No. This is because there are millions of stars are there in the sky. Stars are scattered in the sky. But, do you know, stars also appear in a group?  Every group of stars has a name. For centuries, stars guided sailors. In a rough sea, stars are better guides to reach the shore safely.`
+        text: `Look at the night sky. You can see little spots of light. What are they? They are Stars. Can you count the stars in the sky? No. This is because there are millions of stars in the sky. Stars are scattered in the sky. But, do you know, that stars also appear in a group?  Every group of stars has a name. For centuries, stars guided sailors. In a rough sea, stars are better guides to reach the shore safely.`
       }
     },
     {
@@ -54,7 +54,7 @@ export default {
       label: 'Clouds',
       data: {
         title: 'Clouds',
-        text: `Morning sky looks bright in the sunlight. It looks blue and clear. A small fluffy cloud sails across the sky. What are clouds? Clouds are formed from water. Sometimes, the bright sun hides behind those clouds. It will be wonderful if I can sail on the clouds in the sky. Just like we sail on the water, sailing on the clouds will also be thrilling. So, high up in the sky on the cloud. Yes, it is really thrilling...`
+        text: `Morning sky looks bright in the sunlight. It looks blue and clear. A small fluffy cloud sails across the sky. What are clouds? Clouds are formed from water. Sometimes, the bright sun hides behind those clouds. It will be wonderful if I can sail on the clouds in the sky. Just like we sail on the water, sailing on the clouds will also be thrilling. So, high up in the sky on the cloud. Yes, it is thrilling...`
       }
     },
     {
@@ -72,7 +72,7 @@ export default {
       label: 'Ant in my hair',
       data: {
         title: 'Ant in my hair',
-        text: `Sara always sat near the window in her class. It was a hot afternoon. Everyone was feeling sleepy.  The teacher was busy reading from the book. It was like a lullaby to Sara. Oh! What a day to spend like this. A little ant from the desk climbed on her and reached her neck. The little ant didn’t want to disturb Sara. But wanted to explore what is around her. In her drowsiness, Sara frowned. She felt something crawling down her nape. Her fingers caught it and it got crushed.`
+        text: `Sara always sat near the window in her class. It was a hot afternoon. Everyone was feeling sleepy.  The teacher was busy reading from the book. It was like a lullaby to Sara. Oh! What a day to spend like this. A little ant from the desk climbed on her and reached her neck. The little ant didn’t want to disturb Sara. But wanted to explore what was around her. In her drowsiness, Sara frowned. She felt something crawling down her nape. Her fingers caught it and it got crushed.`
       }
     },
     {
@@ -90,7 +90,7 @@ export default {
       label: 'Feelers in Insects',
       data: {
         title: 'Feelers in Insects',
-        text: `The most interesting part in an insect is its feelers. Most of the insects have feelers. The feelers are a pair of sense organs found at the front side of the head of an insect. The feelers have receivers to detect the smell in the air. Insects use their feelers to find the level of moisture in the air. Some flies use their feelers to measure the speed of the air when they are flying. Butterflies use their feelers to find out the direction to fly.`
+        text: `The most interesting part of an insect is its feelers. Most of the insects have feelers. The feelers are a pair of sense organs found at the front side of the head of an insect. The feelers have receivers to detect the smell in the air. Insects use their feelers to find the level of moisture in the air. Some flies use their feelers to measure the speed of the air when they are flying. Butterflies use their feelers to find out the direction to fly.`
       }
     }
   ]

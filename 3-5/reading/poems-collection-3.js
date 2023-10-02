@@ -10,6 +10,7 @@ export default {
       data: {
         title: `Listen`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Listen now dear
 What your heart 
@@ -29,6 +30,7 @@ And it is a must`
       data: {
         title: 'On the way',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `I am on the way
 My way to the land
@@ -54,6 +56,7 @@ And reach with a smile!`
       data: {
         title: 'On the street',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Bark, bark, bark
 All night they bark
@@ -76,6 +79,7 @@ To curl and sleep`
       data: {
         title: 'My day',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `It is my day
 To be happy today
@@ -96,6 +100,7 @@ Is our holiday.`
       data: {
         title: 'Swing',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `We all play
 Swinging every day
@@ -118,6 +123,7 @@ Completes another round`
       data: {
         title: 'A Butterfly',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `A colorful butterfly
 Flies in my garden
@@ -138,6 +144,7 @@ On a bed of leaves.`
       data: {
         title: 'A Visitor',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `On a day last week
 When a light rain

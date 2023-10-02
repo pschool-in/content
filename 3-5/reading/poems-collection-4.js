@@ -10,6 +10,7 @@ export default {
       data: {
         title: `Don't be Afraid of the Dark`,
         type: 'poem',
+        lineGap: '5px',
         author: `Ruskin Bond`,
         text: `Don't be afraid of the dark, little one,
 The earth must rest when the day is done,
@@ -29,6 +30,7 @@ But at night, late at night, the world is at peace.`
       data: {
         title: 'A Little Seed',
         type: 'poem',
+        lineGap: '5px',
         text: `A little seed for me to sow
 A little soil to make it grow
 A little hole, a little pat,
@@ -45,6 +47,7 @@ And then, a flower!`
       data: {
         title: 'Manners',
         type: 'poem',
+        lineGap: '5px',
         text: `We say 'Thank You'
 We say 'Please'
 We don't interrupt or tease
@@ -67,6 +70,7 @@ Just be kind.`
       data: {
         title: 'Sunflower',
         type: 'poem',
+        lineGap: '5px',
         author: `Nicolette Lennert`,
         text: `Sunflower, sunflower
 Turn toward the sky
@@ -81,10 +85,11 @@ The food they need`
     {
       id: '500',
       type: 'passage',
-      label: 'Dress like a doll',
+      label: 'My Senses',
       data: {
         title: 'My Senses',
         type: 'poem',
+        lineGap: '5px',
         text: `I can hear the birds sing,
 The dogs bark, the cat meow,
 I can hear the phone ring,

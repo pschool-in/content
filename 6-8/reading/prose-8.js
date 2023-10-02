@@ -1,6 +1,6 @@
 export default {
   label: 'Prose',
-  id: 'prose-7',
+  id: 'prose-8',
   lockAfter: 3,
   list: [
     {

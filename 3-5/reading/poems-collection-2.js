@@ -10,6 +10,7 @@ export default {
       data: {
         title: `Full Moon`,
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Look at the full moon
 That brings a boon
@@ -26,6 +27,7 @@ Bright and white`
       data: {
         title: 'My Earth',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Beautiful with blue sky
 Sun shines in the day
@@ -46,6 +48,7 @@ Must save every little thing.`
       data: {
         title: 'Thank You',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Now and then
 Learn to tell
@@ -63,6 +66,7 @@ Good and fair!`
       data: {
         title: 'Help',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Help her
 Help him
@@ -85,6 +89,7 @@ That is in need!`
       data: {
         title: 'Wash, Wash',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Wash, wash, wash
 Remember to wash
@@ -107,6 +112,7 @@ To get rid of dust.`
       data: {
         title: 'A Cup of Water',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Drink your cup of water
 every time you feel
@@ -122,6 +128,7 @@ builds life in you!`
       data: {
         title: 'Walk, Walk',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `It is your time
 To walk, walk, walk
@@ -139,6 +146,7 @@ And strong always`
       data: {
         title: 'On the wall',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `A cute little lizard
 Crawls on the wall
@@ -167,6 +175,7 @@ And we live with him.`
       data: {
         title: 'Smile',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `It takes only seconds
 To smile and smile
@@ -185,6 +194,7 @@ To be your best!`
       data: {
         title: 'On my stairs',
         type: 'poem',
+        lineGap: '5px',
         author: 'Kalai Selvi',
         text: `Hurry, hurry, hurry
 A line of ants on the way
