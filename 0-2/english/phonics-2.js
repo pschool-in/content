@@ -4,6 +4,28 @@ export default {
   lockAfter: 2,
   list: [
     {
+      label: 'அனைத்து எழுத்துக்கள் ',
+      type: 'phonics',
+      id: 'all-row',
+      onlyBigScreen: true,
+      data: {
+        audio: 'kg-5/phonics/basic-phonics-14.mp3',
+        audioWidth: 1,
+        audioOffset: 0,
+        padding: '0px',
+        fontSize: '1rem',
+        width: '100px',
+        //title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.',
+        text: `black, blow, blanket, blue, block, climb, clean
+         clock, clip, cloud, clap, club, clown, flower
+         flag, flute, fly, floor, flight, flame, flashlight
+        globe, glass, glad, glue, glitter, glow, plant
+         pluck, plug, play, planet, plenty, plane, plus
+         plan, place, sleep, sled, slip, slipper, slam
+         sleeve, slide`
+      }
+    },
+    {
       label: 'Blending Words (Initial Blends)',
       type: 'phonics',
       id: 'phonics-6',

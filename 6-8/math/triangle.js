@@ -706,7 +706,8 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
       type: 'classifySentence',
       data: {
         title: 'By observing the triangle, classify it.',
-        svgBased: true,
+        imageType: 'svg',
+        variableOptions: false,
         types: [
           {
             name: 'Acute-angled',
