@@ -4,7 +4,7 @@ export default {
   lockAfter: 2,
   list: [
     {
-      label: 'All characters ',
+      label: 'All Words',
       type: 'phonics',
       id: 'all-row',
       onlyBigScreen: true,
@@ -16,12 +16,15 @@ export default {
         fontSize: '1rem',
         width: '100px',
         //title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.',
-        text: `black, blow, blanket, blue, block, blur, blog, bless, blame, blind
-climb, clean, clock, clip, cloud, clap, club, clown, close, click
-flower, flag, flute, fly, floor, flight, flame, flash, flat, flood
-globe, glass, glad, glue, glitter, glow, glare, glove, glide, gloss
-plant, pluck, plug, play, planet, plenty, plane, plus, plan, place
-sleep, sled, slip, slipper, slam, sleeve, slide, slow, slate, slug`
+        text: `black, blow, blanket, blue, block, blur, blog
+bless, blame, blind, climb, clean, clock, clip
+cloud, clap, club, clown, close, click, flower
+flag, flute, fly, floor, flight, flame, flash
+flat, flood, globe, glass, glad, glue, glitter
+glow, glare, glove, glide, gloss, plant, pluck
+plug, play, planet, plenty, plane, plus, plan 
+place, sleep, sled, slip, slipper, slam, sleeve
+slide, slow, slate, slug`
       }
     },
     {

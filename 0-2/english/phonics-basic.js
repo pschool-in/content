@@ -340,12 +340,12 @@ export default {
         {
           microLabel: 'ow',
           words:
-            'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|cr-ow, grow|gr-ow, snow|s-n-ow',
+            'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|c-r-ow, grow|g-r-ow, snow|s-n-ow',
           pos: 10
         },
         {
           microLabel: 'ow',
-          words: 'glow|gl-ow, frown|fr-ow-n, town|t-ow-n, crown|cr-ow-n',
+          words: 'glow|g-l-ow, frown|f-r-ow-n, town|t-ow-n, crown|c-r-ow-n',
           pos: 20
         }
       ]
@@ -362,7 +362,7 @@ export default {
       data: [
         {
           audioOffset: 0,
-          words: 'jaw, paw, law, raw, saw, hawk, dawn, draw, lawn '
+          words: 'jaw, paw, law, raw, saw, hawk, dawn, draw, lawn, straw '
         },
         {
           audioOffset: 10,
