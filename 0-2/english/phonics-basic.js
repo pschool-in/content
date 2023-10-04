@@ -214,30 +214,32 @@ export default {
         {
           microLabel: 'er',
           words:
-            'after|a-f-t-er, greater|g-r-e-a-t-er, person|p-er-s-o-n, her|h-er, utter|u-t-t-er',
+            'after|a-f-t-er, greater|g-r-e-a-t-er, person|p-er-s-o-n, her|h-er, utter|u-t-t-er|u-h-t-er, river|r-i-v-er, faster|f-a-s-t-er, ferry| f-er-r-y, herd|h-er-d, term|t-er-m',
           pos: 0
         },
         {
           microLabel: 'ir',
-          words: 'bird|b-ir-d, dirt|d-ir-t, shirt|sh-ir-t, skirt|s-c-ir-t',
-          pos: 5
+          words:
+            'bird|b-ir-d, dirt|d-ir-t, shirt|sh-ir-t, skirt|s-c-ir-t, sir|s-ir, first|f-ir-s-t, stir|s-t-ir, circle|c-ir-c-l-e, girl|g-ir-l, circus|c-ir-c-u-s',
+          pos: 10
         },
         {
           microLabel: 'or',
           words:
-            'worm|w-or-m, work|w-or-k, worship|w-or-sh-i-p, world|w-or-l-d, story|s-t-or-y',
-          pos: 9
+            'worm|w-or-m, work|w-or-k, worship|w-or-sh-i-p, world|w-or-l-d, story|s-t-or-y|s-t-or-ee, born|b-or-n, corn|c-or-n, sore|s-or-e, torch|t-or-ch, actor|a-c-t-or',
+          pos: 20
         },
         {
           microLabel: 'ur',
           words:
-            'burn|b-ur-n, church|ch-ur-ch, hurt|h-ur-t, turn|t-ur-n, nurse|n-ur-s, curb|c-ur-b, fur|f-ur',
-          pos: 14
+            'burn|b-ur-n, church|ch-ur-ch, hurt|h-ur-t, turn|t-ur-n, nurse|n-ur-s, curb|c-ur-b, fur|f-ur, surf|s-ur-f, curl|c-ur-l, lurk|l-ur-c',
+          pos: 30
         },
         {
           microLabel: 'ar',
-          words: 'arm|ar-m, barn|b-ar-n, car|c-ar, dart|d-ar-t, jar|j-ar',
-          pos: 21
+          words:
+            'arm|ar-m, barn|b-ar-n, car|c-ar, dart|d-ar-t, jar|j-ar, far|f-ar, part|p-ar-t, hard|h-ar-d, near|n-e-ar, care|c-ar-e',
+          pos: 40
         }
       ]
     },
@@ -254,16 +256,25 @@ export default {
         {
           audioOffset: 0,
           words:
-            'after, greater, person, her, utter, bird, dirt, shirt, skirt, worm'
+            'after, greater, person, her, utter, river, faster, ferry, herd, term'
         },
         {
           audioOffset: 10,
           words:
-            'work, worship, world, story, burn, church, hurt, turn, nurse, curb'
+            'bird, dirt, shirt, skirt, sir, first, stir, circle, girl, circus'
         },
         {
           audioOffset: 20,
-          words: 'fur, arm, barn, car, dart, jar'
+          words:
+            'worm, work, worship, world, story, born, corn, sore, torch, actor'
+        },
+        {
+          audioOffset: 30,
+          words: 'burn, church, hurt, turn, nurse, curb, fur, surf, curl, lurk'
+        },
+        {
+          audioOffset: 40,
+          words: 'arm, barn, car, dart, jar, far, part, hard, near, care'
         }
       ]
     },
@@ -279,13 +290,14 @@ export default {
         {
           microLabel: 'ay',
           words:
-            'bay|b-ay, day|d-ay, hay|h-ay, may|m-ay, pay|p-ay, lay|l-ay, ray|r-ay, say|s-ay, way|w-ay',
+            'bay|b-ay, day|d-ay, hay|h-ay, may|m-ay, pay|p-ay, lay|l-ay, ray|r-ay, say|s-ay, way|w-ay, play|p-l-ay',
           pos: 0
         },
         {
           microLabel: 'oy',
-          words: 'boy|b-oy, toy|t-oy, joy|j-oy',
-          pos: 9
+          words:
+            'boy|b-oy, toy|t-oy, joy|j-oy, enjoy|e-n-j-oy, annoy|a-n-n-oy, employ|e-m-p-l-oy, loyal|l-oy-a-l, royal|r-oy-a-al, alloy|a-l-l-oy, deploy|d-e-p-l-oy',
+          pos: 10
         }
       ]
     },
@@ -301,11 +313,12 @@ export default {
       data: [
         {
           audioOffset: 0,
-          words: 'bay, day, hay, may, pay, lay, ray, say, way'
+          words: 'bay, day, hay, may, pay, lay, ray, say, way, play'
         },
         {
-          audioOffset: 9,
-          words: 'boy, toy, joy'
+          audioOffset: 10,
+          words:
+            'boy, toy, joy, enjoy, annoy, employ, loyal, royal, alloy, deploy'
         }
       ]
     },
@@ -321,19 +334,19 @@ export default {
         {
           microLabel: 'aw',
           words:
-            'jaw|j-aw, paw|p-aw, law|l-aw, raw|r-aw, saw|s-aw, hawk|h-aw-k',
+            'jaw|j-aw, paw|p-aw, law|l-aw, raw|r-aw, saw|s-aw, hawk|h-aw-k, dawn|d-aw-n, draw|d-r-aw, lawn|l-aw-n, straw|s-t-r-aw',
           pos: 0
         },
         {
           microLabel: 'ow',
           words:
             'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|cr-ow, grow|gr-ow, snow|s-n-ow',
-          pos: 7
+          pos: 10
         },
         {
           microLabel: 'ow',
           words: 'glow|gl-ow, frown|fr-ow-n, town|t-ow-n, crown|cr-ow-n',
-          pos: 17
+          pos: 20
         }
       ]
     },
@@ -349,11 +362,15 @@ export default {
       data: [
         {
           audioOffset: 0,
-          words: 'jaw, paw, law, raw, saw, hawk, cow, now, down, gown'
+          words: 'jaw, paw, law, raw, saw, hawk, dawn, draw, lawn '
         },
         {
           audioOffset: 10,
-          words: 'town, mow, row, crow, grow, snow, glow, frown, town, crown'
+          words: 'cow, now, down, gown, town, mow, row, crow, grow, snow'
+        },
+        {
+          audioOffset: 20,
+          words: 'glow, frown, town, crown'
         }
       ]
     }

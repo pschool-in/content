@@ -4,7 +4,7 @@ export default {
   lockAfter: 2,
   list: [
     {
-      label: 'அனைத்து எழுத்துக்கள் ',
+      label: 'All characters ',
       type: 'phonics',
       id: 'all-row',
       onlyBigScreen: true,
@@ -16,13 +16,12 @@ export default {
         fontSize: '1rem',
         width: '100px',
         //title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.',
-        text: `black, blow, blanket, blue, block, climb, clean
-         clock, clip, cloud, clap, club, clown, flower
-         flag, flute, fly, floor, flight, flame, flashlight
-        globe, glass, glad, glue, glitter, glow, plant
-         pluck, plug, play, planet, plenty, plane, plus
-         plan, place, sleep, sled, slip, slipper, slam
-         sleeve, slide`
+        text: `black, blow, blanket, blue, block, blur, blog, bless, blame, blind
+climb, clean, clock, clip, cloud, clap, club, clown, close, click
+flower, flag, flute, fly, floor, flight, flame, flash, flat, flood
+globe, glass, glad, glue, glitter, glow, glare, glove, glide, gloss
+plant, pluck, plug, play, planet, plenty, plane, plus, plan, place
+sleep, sled, slip, slipper, slam, sleeve, slide, slow, slate, slug`
       }
     },
     {
@@ -37,34 +36,39 @@ export default {
       data: [
         {
           microLabel: 'bl',
-          words: 'black, blow, blanket, blue, block',
+          words:
+            'black, blow, blanket, blue, block, blur, blog, bless, blame, blind',
           pos: 0
         },
         {
           microLabel: 'cl',
-          words: 'climb, clean, clock, clip, cloud, clap, club, clown',
-          pos: 5
+          words:
+            'climb, clean, clock, clip, cloud, clap, club, clown, close, click',
+          pos: 10
         },
         {
           microLabel: 'fl',
-          words: 'flower, flag, flute, fly, floor, flight, flame, flashlight',
-          pos: 13
+          words:
+            'flower, flag, flute, fly, floor, flight, flame, flash, flat, flood',
+          pos: 20
         },
         {
           microLabel: 'gl',
-          words: 'globe, glass, glad, glue, glitter, glow',
-          pos: 21
+          words:
+            'globe, glass, glad, glue, glitter, glow, glare, glove, glide, gloss',
+          pos: 30
         },
         {
           microLabel: 'pl',
           words:
             'plant, pluck, plug, play, planet, plenty, plane, plus, plan, place',
-          pos: 27
+          pos: 40
         },
         {
           microLabel: 'sl',
-          words: 'sleep, sled, slip, slipper, slam, sleeve, slide',
-          pos: 36
+          words:
+            'sleep, sled, slip, slipper, slam, sleeve, slide, slow, slate, slug',
+          pos: 50
         }
       ]
     },
@@ -81,26 +85,32 @@ export default {
         {
           audioOffset: 0,
           words:
-            'black, blow, blanket, blue, block, climb, clean, clock, clip, cloud'
+            'black, blow, blanket, blue, block, blur, blog, bless, blame, blind'
         },
         {
           audioOffset: 10,
           words:
-            'clap, club, clown, flower, flag, flute, fly, floor, flight, flame'
+            'climb, clean, clock, clip, cloud, clap, club, clown, close, click'
         },
         {
           audioOffset: 20,
           words:
-            'flashlight, globe, glass, glad, glue, glitter, glow, plant, pluck, plug'
+            'flower, flag, flute, fly, floor, flight, flame, flash, flat, flood'
         },
         {
           audioOffset: 30,
           words:
-            'play, planet, plenty, plane, plus, plan, place, sleep, sled, slip'
+            'globe, glass, glad, glue, glitter, glow, glare, glove, glide, gloss'
         },
         {
           audioOffset: 40,
-          words: 'slipper, slam, sleeve, slide'
+          words:
+            'plant, pluck, plug, play, planet, plenty, plane, plus, plan, place'
+        },
+        {
+          audioOffset: 50,
+          words:
+            'sleep, sled, slip, slipper, slam, sleeve, slide, slow, slate, slug'
         }
       ]
     },
@@ -117,39 +127,44 @@ export default {
         {
           microLabel: 'br',
           words:
-            'broom, bride, bridge, brave, brother, brick, breathe, brake, brown',
+            'broom, bride, bridge, brave, brother, brick, breathe, brake, brown, brag',
           pos: 0
         },
         {
           microLabel: 'cr',
-          words: 'crab, crop, crown, cricket, cry, crayon',
-          pos: 9
+          words:
+            'crab, crop, crown, cricket, cry, crayon, crawl, crane, crash, crowd',
+          pos: 10
         },
         {
           microLabel: 'dr',
-          words: 'drum, drop, draw, dress, dream, dry',
-          pos: 15
+          words:
+            'drum, drop, draw, dress, dream, dry, drink, drill, drain, drag',
+          pos: 20
         },
         {
           microLabel: 'fr',
-          words: 'frog, friend, free, fry, from, friday, front',
-          pos: 21
+          words:
+            'frog, friend, free, fry, from, friday, front, frame, fresh, freeze',
+          pos: 30
         },
         {
           microLabel: 'gr',
-          words: 'grass, grow, green, grey, grandma, great, grab, grasshopper',
-          pos: 28
+          words:
+            'grass, grow, green, grey, grandma, great, grab, grill, grape, graph',
+          pos: 40
         },
         {
           microLabel: 'pr',
           words:
-            'prince, prize, present, proud, promise, pray, price, proper, print',
-          pos: 36
+            'prince, prize, present, proud, promise, pray, price, proper, print, press',
+          pos: 50
         },
         {
           microLabel: 'tr',
-          words: 'truck, train, tree, trick, trip, trap, tricycle, try',
-          pos: 45
+          words:
+            'truck, train, tree, trick, trip, trap, tricycle, try, track, trash',
+          pos: 60
         }
       ]
     },
@@ -166,31 +181,37 @@ export default {
         {
           audioOffset: 0,
           words:
-            'broom, bride, bridge, brave, brother, brick, breathe, brake, brown, crab'
+            'broom, bride, bridge, brave, brother, brick, breathe, brake, brown, brag'
         },
         {
           audioOffset: 10,
           words:
-            'crop, crown, cricket, cry, crayon, drum, drop, draw, dress, dream'
+            'crab, crop, crown, cricket, cry, crayon, crawl, crane, crash, crowd'
         },
         {
           audioOffset: 20,
           words:
-            'dry, frog, friend, free, fry, from, friday, front, grass, grow'
+            'drum, drop, draw, dress, dream, dry, drink, drill, drain, drag'
         },
         {
           audioOffset: 30,
           words:
-            'green, grey, grandma, great, grab, grasshopper, prince, prize, present, proud'
+            'frog, friend, free, fry, from, friday, front, frame, fresh, freeze'
         },
         {
           audioOffset: 40,
           words:
-            'promise, pray, price, proper, print, truck, train, tree, trick, trip'
+            'grass, grow, green, grey, grandma, great, grab, grill, grape, graph'
         },
         {
           audioOffset: 50,
-          words: 'trap, tricycle, try'
+          words:
+            'prince, prize, present, proud, promise, pray, price, proper, print, press'
+        },
+        {
+          audioOffset: 60,
+          words:
+            'truck, train, tree, trick, trip, trap, tricycle, try, track, trash'
         }
       ]
     },
@@ -206,38 +227,45 @@ export default {
       data: [
         {
           microLabel: 'tw',
-          words: 'twig, twins, twenty, twist, twelve, tweet',
+          words:
+            'twig, twin, twenty, twist, twelve, tweet, twirl, twice, twitch, twine',
           pos: 0
         },
         {
           microLabel: 'sc',
-          words: 'scarf, scan, scrub, scooter, scream',
-          pos: 6
+          words:
+            'scarf, scan, scrub, scooter, scream, scale, scoop, scout, scare, scar',
+          pos: 10
         },
         {
           microLabel: 'sk',
-          words: 'sky, skirt, skip, sketch, skin, skill',
-          pos: 11
+          words:
+            'sky, skirt, skip, sketch, skin, skill, skate, skull, skunk, skim',
+          pos: 20
         },
         {
           microLabel: 'sm',
-          words: 'small, smell, smash, smile, smoke, smack, smooth, smear',
-          pos: 17
+          words:
+            'small, smell, smash, smile, smoke, smart, smooth, smear, smog, smirk',
+          pos: 30
         },
         {
           microLabel: 'sn',
-          words: 'snail, snake, snap, snore, sneaker, snag',
-          pos: 25
+          words:
+            'snail, snake, snap, snore, sneak, snag, sneeze, snip, sniff, snow',
+          pos: 40
         },
         {
           microLabel: 'sp',
-          words: 'spot, space, spin, sport, span',
-          pos: 31
+          words:
+            'spot, space, spin, sport, span, spoon, spare, spill, spiral, spy',
+          pos: 50
         },
         {
           microLabel: 'st',
-          words: 'star, stamp, stem, stick, stool, stone, step',
-          pos: 36
+          words:
+            'star, stamp, stem, stick, stool, stone, step, stop, stork, stump',
+          pos: 60
         }
       ]
     },
@@ -254,26 +282,37 @@ export default {
         {
           audioOffset: 0,
           words:
-            'twig, twins, twenty, twist, twelve, tweet, scarf, scan, scrub, scooter'
+            'twig, twin, twenty, twist, twelve, tweet, twirl, twice, twitch, twine'
         },
         {
           audioOffset: 10,
           words:
-            'scream, sky, skirt, skip, sketch, skin, skill, small, smell, smash'
+            'scarf, scan, scrub, scooter, scream, scale, scoop, scout, scare, scar'
         },
         {
           audioOffset: 20,
           words:
-            'smile, smoke, smack, smooth, smear, snail, snake, snap, snore, sneaker'
+            'sky, skirt, skip, sketch, skin, skill, skate, skull, skunk, skim'
         },
         {
           audioOffset: 30,
           words:
-            'snag, spot, space, spin, sport, span, star, stamp, stem, stick'
+            'small, smell, smash, smile, smoke, smart, smooth, smear, smog, smirk'
         },
         {
           audioOffset: 40,
-          words: 'stool, stone, step'
+          words:
+            'snail, snake, snap, snore, sneak, snag, sneeze, snip, sniff, snow'
+        },
+        {
+          audioOffset: 50,
+          words:
+            'spot, space, spin, sport, span, spoon, spare, spill, spiral, spy'
+        },
+        {
+          audioOffset: 60,
+          words:
+            'star, stamp, stem, stick, stool, stone, step, stop, stork, stump'
         }
       ]
     },
@@ -289,34 +328,39 @@ export default {
       data: [
         {
           microLabel: 'sw',
-          words: 'sweet, swim, swan, swings, sweeps, sweater',
+          words:
+            'sweet, swim, swan, swing, sweep, sweater, swirl, swoop, sway, switch',
           pos: 0
         },
         {
           microLabel: 'ch',
           words:
-            'chair, chalk, chin, child, chat, chase, chain, church, chicks',
-          pos: 6
+            'chair, chalk, chin, child, chat, chase, chain, church, chick, change',
+          pos: 10
         },
         {
           microLabel: 'sh',
-          words: 'she, shark, ship, shirt, shell, shore, sheep, short, shout',
-          pos: 15
+          words:
+            'she, shark, ship, shirt, shell, shore, sheep, short, shout, shape',
+          pos: 20
         },
         {
           microLabel: 'Th',
-          words: 'the, this, that, them, they',
-          pos: 24
+          words:
+            'the, this, that, them, they, than, then, these, though, those',
+          pos: 30
         },
         {
           microLabel: 'th',
-          words: 'thumb, thread, thirty, theater, throne',
-          pos: 29
+          words:
+            'thumb, thread, thirty, theater, throne, think, thing, thin, thank, thesis',
+          pos: 40
         },
         {
           microLabel: 'wh',
-          words: 'wheat, white, wheel, whale, whistle',
-          pos: 34
+          words:
+            'wheat, white, wheel, whale, whistle, what, where, when, which, whip',
+          pos: 50
         }
       ]
     },
@@ -333,21 +377,31 @@ export default {
         {
           audioOffset: 0,
           words:
-            'sweet, swim, swan, swings, sweeps, sweater, chair, chalk, chin, child'
+            'sweet, swim, swan, swing, sweep, sweater, swirl, swoop, sway, switch'
         },
         {
           audioOffset: 10,
           words:
-            'chat, chase, chain, church, chicks, she, shark, ship, shirt, shell'
+            'chair, chalk, chin, child, chat, chase, chain, church, chick, change'
         },
         {
           audioOffset: 20,
-          words: 'shore, sheep, short, shout, the, this, that, them, they'
+          words:
+            'she, shark, ship, shirt, shell, shore, sheep, short, shout, shape'
         },
         {
           audioOffset: 30,
+          words: 'the, this, that, them, they, than, then, these, though, those'
+        },
+        {
+          audioOffset: 40,
           words:
-            'thumb, thread, thirty, theater, throne, wheat, white, wheel, whale, whistle'
+            'thumb, thread, thirty, theater, throne, think, thing, thin, thank, thesis'
+        },
+        {
+          audioOffset: 50,
+          words:
+            'wheat, white, wheel, whale, whistle, what, where, when, which, whip'
         }
       ]
     },
@@ -363,33 +417,33 @@ export default {
       data: [
         {
           microLabel: 'nd',
-          words: 'hand, land, wind, band, send, bend, pond, mend, and',
+          words: 'hand, land, wind, band, send, bend, pond, mend, and, sand',
           pos: 0
         },
         {
           microLabel: 'mp',
-          words: 'lamp, pump, hump, dump, bump',
-          pos: 9
+          words: 'lamp, pump, hump, dump, bump, camp, damp, jump, pump, ramp',
+          pos: 10
         },
         {
           microLabel: 'sk',
-          words: 'ask, risk, desk, task, mask, disk',
-          pos: 14
-        },
-        {
-          microLabel: 'st',
-          words: 'nest, fast, last, vest, rest, best, past, must, pest',
+          words: 'ask, risk, desk, task, mask, disk, tusk, bask, husk, dusk',
           pos: 20
         },
         {
+          microLabel: 'st',
+          words: 'nest, fast, last, vest, rest, best, past, must, pest, test',
+          pos: 30
+        },
+        {
           microLabel: 'nt',
-          words: 'tent, dent, sent, rent, bent',
-          pos: 29
+          words: 'tent, dent, sent, rent, bent, bunt, hint, hunt, lent, lint',
+          pos: 40
         },
         {
           microLabel: 'ft',
-          words: 'lift, gift, draft, soft, shift',
-          pos: 34
+          words: 'lift, gift, draft, soft, shift, left, loft, raft, rift, sift',
+          pos: 50
         }
       ]
     },
@@ -405,19 +459,27 @@ export default {
       data: [
         {
           audioOffset: 0,
-          words: 'hand, land, wind, band, send, bend, pond, mend, and, lamp'
+          words: 'hand, land, wind, band, send, bend, pond, mend, and, sand'
         },
         {
           audioOffset: 10,
-          words: 'pump, hump, dump, bump, ask, risk, desk, task, mask, disk'
+          words: 'lamp, pump, hump, dump, bump, camp, damp, jump, pump, ramp'
         },
         {
           audioOffset: 20,
-          words: 'nest, fast, last, vest, rest, best, past, must, pest, tent'
+          words: 'ask, risk, desk, task, mask, disk, tusk, bask, husk, dusk'
         },
         {
           audioOffset: 30,
-          words: 'dent, sent, rent, bent, lift, gift, draft, soft, shift'
+          words: 'nest, fast, last, vest, rest, best, past, must, pest, test'
+        },
+        {
+          audioOffset: 40,
+          words: 'tent, dent, sent, rent, bent, bunt, hint, hunt, lent, lint'
+        },
+        {
+          audioOffset: 50,
+          words: 'lift, gift, draft, soft, shift, left, loft, raft, rift, sift'
         }
       ]
     },
@@ -433,34 +495,35 @@ export default {
       data: [
         {
           microLabel: 'lt',
-          words: 'belt, hilt, bolt, melt, salt',
+          words: 'belt, hilt, bolt, melt, salt, cult, felt, pelt, quilt, silt',
           pos: 0
         },
         {
-          microLabel: 'lk',
-          words: 'milk, silk, bulk',
-          pos: 5
-        },
-        {
           microLabel: 'nk',
-          words: 'bank, sink, rank, blink, tank, monk',
-          pos: 8
+          words: 'bank, sink, rank, blink, tank, monk, bunk, dunk, honk, junk',
+          pos: 10
         },
         {
           microLabel: 'ch',
           words:
             ' lunch, munch, fetch, crunch, match, ditch, catch, touch, such, hutch',
-          pos: 14
+          pos: 20
         },
         {
           microLabel: 'th',
-          words: 'teeth, month, mouth, bath, cloth',
-          pos: 24
+          words:
+            'teeth, month, mouth, bath, cloth, faith, math, truth, filth, forth',
+          pos: 30
         },
         {
           microLabel: 'sh',
-          words: 'dish, fish, smash, flash, wash',
-          pos: 29
+          words: 'dish, fish, smash, flash, wash, ash, mash, fresh, rush, hush',
+          pos: 40
+        },
+        {
+          microLabel: 'lk',
+          words: 'milk, silk, bulk, sulk',
+          pos: 50
         }
       ]
     },
@@ -476,21 +539,29 @@ export default {
       data: [
         {
           audioOffset: 0,
-          words: 'belt, hilt, bolt, melt, salt, milk, silk, bulk, bank'
+          words: 'belt, hilt, bolt, melt, salt, cult, felt, pelt, quilt, silt'
         },
         {
           audioOffset: 10,
-          words:
-            'sink, rank, blink, tank, monk, lunch, munch, fetch, crunch, match'
+          words: 'bank, sink, rank, blink, tank, monk, bunk, dunk, honk, junk'
         },
         {
           audioOffset: 20,
           words:
-            'ditch, catch, touch, such, hutch, teeth, month, mouth, bath, cloth'
+            'lunch, munch, fetch, crunch, match, ditch, catch, touch, such, hutch'
         },
         {
           audioOffset: 30,
-          words: 'dish, fish, smash, flash, wash'
+          words:
+            'teeth, month, mouth, bath, cloth, faith, math, truth, filth, forth'
+        },
+        {
+          audioOffset: 40,
+          words: 'dish, fish, smash, flash, wash, ash, mash, fresh, rush, hush'
+        },
+        {
+          audioOffset: 50,
+          words: 'milk, silk, bulk, sulk'
         }
       ]
     }
