@@ -105,6 +105,7 @@ export default {
       commonData: {
         audio: 'ta/ta-all-letters.mp3',
         audioWidth: 1,
+        lang: 'ta',
         title: 'எழுத்துக்களை தொட்டு ஓசையை கேளுங்கள்.'
       },
       data: [

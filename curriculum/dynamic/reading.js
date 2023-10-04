@@ -188,6 +188,16 @@ export default {
       label: 'Poems Collection - 8',
       id: 'poem-8',
       grade: '6-8'
+    },
+    {
+      label: 'Mythical World',
+      id: 'myths-7',
+      grade: '6-8'
+    },
+    {
+      label: 'Wonder Women',
+      id: 'women-8',
+      grade: '6-8'
     }
   ]
 };

@@ -7,6 +7,22 @@ export default {
       id: 'more',
       list: [
         {
+          label: 'உயிர்மெய் எழுத்துக்கள்',
+          id: 'ta-letter-mixed'
+        },
+        {
+          label: 'எழுதி பழகுக',
+          id: 'ta-letter-2'
+        },
+        {
+          label: 'வாசித்து பழகுக ',
+          id: 'ta-read-words'
+        },
+        {
+          label: 'வாசித்து பழகுக - 2',
+          id: 'ta-read-words-2'
+        },
+        {
           label: 'பழமொழிகள்',
           id: 'ta-proverb'
         },
@@ -226,10 +242,7 @@ export default {
           label: 'இணையான ஆங்கிலம்: கருவிகள்',
           id: 'ta-en-11'
         },
-        {
-          label: 'எழுத்துக்கள் - 2',
-          id: 'ta-letter-2'
-        },
+
         /*
         {
           label: 'வார்த்தை - 2',

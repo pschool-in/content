@@ -198,9 +198,19 @@ export default {
       grade: '1-3'
     },
     {
+      label: 'Basic Words - Phonics',
+      id: 'phonics-basic',
+      grade: '0-2'
+    },
+    {
       label: 'Phonics',
       id: 'phonics',
       grade: '0-3'
+    },
+    {
+      label: 'Phonics - More Words',
+      id: 'phonics-2',
+      grade: '1-3'
     },
     {
       label: 'Small Passage',
