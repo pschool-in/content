@@ -310,7 +310,7 @@ sun, glasses`
       }
     },
     {
-      label: 'Classify Nouns',
+      label: 'Classify Compound words',
       type: 'group',
       id: 'classify',
       data: {
