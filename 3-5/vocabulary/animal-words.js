@@ -147,11 +147,13 @@ wolf, pack`
 a *flock* of birds
 a *school* of fish
 a *pack* of wolves
-a * swarm* of bees
-a *choir* of singers
-a *troupe* of dancers`
+a *swarm* of bees
+a *pride* of lion
+a *troop* of monkeys`
       },
       id: 'collective-noun'
+      /*a *choir* of singers
+a *troupe* of dancers*/
     }
   ]
 };
