@@ -44,7 +44,7 @@ export default {
       id: 'complete-word',
       label: 'What am I?',
       data: [
-        `I'm something you use to write a note, With ink or graphite, I help you wrote. What am I?| PEN
+        `I'm something you use to write a note, With ink, I help you write. What am I?| PEN
 I'm a furry friend who likes to purr, I chase mice and might be a little fur. What am I?|CAT
 I'm worn on your head, for a walk or run, I protect your face and head from the hot sun. What am I?| HAT
 I'm a small insect that buzzes around, I can give you quite a painful sting, I'm found. What am I?| BEE
@@ -63,7 +63,7 @@ I'm what you do when you're tired. What am I?| NAP
 I'm a young human. What am I?| KID`,
 
         `I'm a part of your face above your nose. What am I?|LIP
-I'm what you use to write on paper. What am I?|PEN
+        I'm an insect, tiny and black, I can give you a painful attack. What am I?|ANT
 I'm what you find on your feet and the bottom of a chair. What am I?|LEG
 I'm a tool, I turn and screw, Handy in fixing things, it's true. What am I? |NUT
 I'm a furry pet, with a wagging tail, Love to fetch, and I'll never fail. What am I?|DOG`
