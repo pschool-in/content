@@ -240,7 +240,7 @@ export default {
         autoPlay: false,
         audio: 'hi/hi-mango-story.mp3',
         images: 'img/science/mango-story',
-        audioOffsets: [3.5, 12, 16, 20, 24.5, 29, 35, 40],
+        audioOffsets: [3.5, 13, 17, 21.5, 26.5, 31, 37.5, 42.5],
         steps: [
           `किसान पेड़ से आम तोड़ता है।
 आम को गिरने और खराब होने से बचाने के लिए किसान आम तोड़ने के लिए जाल का इस्तेमाल करते हैं।
@@ -334,8 +334,8 @@ export default {
         audio: 'hi/hi-thirsty-crow.mp3',
         images: 'img/story/crow',
         audioOffsets: [
-          6.5, 10, 16, 20.5, 26, 30, 34.5, 40, 49, 52, 57, 60, 64.5, 71.5, 76.5,
-          79.2, 86
+          7, 11, 17.5, 22.5, 28, 33, 37.5, 43.5, 53, 56, 61, 64, 68.5, 75.5,
+          80.5, 83, 90.5
         ],
         imageArr: [1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 1],
         steps: [
