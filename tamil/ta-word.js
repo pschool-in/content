@@ -10,24 +10,66 @@ export default {
       id: 'spell-words',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/tamilWords.mp3'
       },
       data: [
         {
-          words:
-            'அம்மா, அம்மி, அன்னம், ஆடு, ஆந்தை, ஆமை, இலை, இஞ்சி, இதயம், ஈட்டி',
+          text: 'அம்மா, அம்மி, அன்னம், ஆடு, ஆந்தை, ஆமை, இலை, இஞ்சி, இதயம், ஈட்டி',
           audioOffset: 0
         },
         {
-          words:
-            'உரல், உதடு, உடுக்கை, ஊதல், ஊசி, ஊஞ்சல், எலி,  எறும்பு,  எருமை, ஏணி',
+          text: 'உரல், உதடு, உடுக்கை, ஊதல், ஊசி, ஊஞ்சல், எலி,  எறும்பு,  எருமை, ஏணி',
           audioOffset: 20
         },
         {
-          words:
-            'ஏழு, ஐந்து , ஐவர், ஒட்டகம், ஒன்று, ஒன்பது, ஓடம், ஓநாய், ஓட்டம்',
+          text: 'ஏழு, ஐந்து , ஐவர், ஒட்டகம், ஒன்று, ஒன்பது, ஓடம், ஓநாய், ஓட்டம்',
           audioOffset: 40
         }
+      ]
+    },
+    {
+      type: 'classifySentence',
+      label: 'படம் சொல்லும் சொல்',
+      id: 'tense',
+      commonData: {
+        title: 'சரியான சொல்லைத் தேர்வு செய்க.',
+        variableOptions: true,
+        imageType: 'stockimg'
+      },
+      data: [
+        `house | வீடு , விடு 
+ship | கப்பல், காப்பல்
+man | ஆண், அண்
+woman | பெண், பென் 
+cloud | மேகம் , மெகம்
+tortoise | ஆமை , அமை 
+mosquito | கொசு, கெசு 
+ginger | இஞ்சி, இங்சி
+lotus | தாமரை , தமரை  
+squirrel | அணில் , அனில் `,
+
+        `rooster | சேவல் , செவல் 
+koel | குயில் , கூயில் 
+tiger | புலி, புளி 
+rat | எலி , எளி 
+turmeric | மஞ்சள் , மஞ்சல் 
+lizard | பல்லி, பள்ளி 
+frog | தவளை, தவலை 
+stone | கல் , கள் 
+bull | காளை, காலை 
+crocodile | முதலை, முதளை`,
+
+        `tree | மரம் , மறம் 
+fox | நரி , நறி 
+waterfall |அருவி , அறிவி 
+sleep | துாக்கம், துக்கம்
+veenai | வீணை, வீனை 
+clown | கோமாளி, கோமாலி 
+teacher | ஆசிரியர், ஆசிறியர் 
+farmer | விவசாயி, விவசாஇ 
+kolam | கோலம், கோளம் 
+king | அரசன், அறசன் `
       ]
     },
     {

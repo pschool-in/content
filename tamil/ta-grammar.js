@@ -200,25 +200,6 @@ export default {
       ]
     },
     {
-      type: 'classifySentence',
-      label: 'காலம்',
-      id: 'tense',
-      commonData: {
-        title: 'பின்வரும் வாக்கியம் எந்த காலத்தை குறிக்கும்.',
-        types: ['நிகழ் காலம்', 'இறந்த காலம்', 'எதிர் காலம்'],
-        variableOptions: true,
-        imageType: 'stockimg'
-      },
-      data: [
-        `tiger | புலி, புளி 
-        rat | எலி , எளி 
-        lizard | பல்லி, பள்ளி 
-        frog | தவளை, தவலை 
-        bull | காளை, காலை 
-        crocodile | முதலை, முதளை`
-      ]
-    },
-    {
       id: 'reading-word',
       type: 'passage',
       label: 'சொல்',

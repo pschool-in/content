@@ -11,6 +11,7 @@ export default {
         type: 'words',
         wordsAudio: 'ta/ta-people.mp3',
         audioOffset: 0,
+        lang: 'ta',
         text: 'சிறுவன், சிறுமி, ஆண், பெண், குழந்தை, அம்மா, அப்பா, தாத்தா, பாட்டி'
       }
     },
@@ -20,6 +21,7 @@ export default {
       id: 'house',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-house.mp3'
       },
       data: [
@@ -47,6 +49,7 @@ export default {
       id: 'dress',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-dress.mp3'
       },
       data: [
@@ -70,6 +73,7 @@ export default {
       id: 'school',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-school.mp3'
       },
       data: [
@@ -89,25 +93,7 @@ export default {
       id: 'kitchen',
       commonData: {
         type: 'words',
-        wordsAudio: 'ta/ta-kitchen.mp3'
-      },
-      data: [
-        {
-          text: 'கத்தி, கிண்ணம், வாணலி, பானை, கோப்பை, கரண்டி, தட்டு, மூடி, அடுப்பு, அரிவாள்',
-          audioOffset: 0
-        },
-        {
-          text: 'ஆட்டுக்கல், அம்மி, தோசைக்கல், குடம், செம்பு, குழாய்',
-          audioOffset: 24
-        }
-      ]
-    },
-    {
-      label: 'சமையலறை',
-      type: 'phonics',
-      id: 'kitchen',
-      commonData: {
-        type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-kitchen.mp3'
       },
       data: [
@@ -127,6 +113,7 @@ export default {
       id: 'eatables',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-eatables.mp3'
       },
       data: [
@@ -150,6 +137,7 @@ export default {
       id: 'actions',
       commonData: {
         type: 'words',
+        lang: 'ta',
         wordsAudio: 'ta/ta-actions.mp3'
       },
       data: [
