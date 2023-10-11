@@ -35,7 +35,7 @@ export default {
     },
     {
       id: 'ml-reading',
-      label: 'കഥകൾ',
+      label: 'പാഠം',
       img: 'reading'
     },
     {
