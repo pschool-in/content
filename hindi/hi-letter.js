@@ -694,7 +694,7 @@ export default {
         },
         {
           audioOffset: 56,
-          text: 'ण, त, थ, द, ध, न, प, फ, ब, भ, म,'
+          text: 'ण, त, थ, द, ध, न, प, फ, ब, भ, म'
         },
         {
           audioOffset: 78,

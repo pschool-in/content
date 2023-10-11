@@ -68,6 +68,24 @@ I'm what you find on your feet and the bottom of a chair. What am I?|LEG
 I'm a tool, I turn and screw, Handy in fixing things, it's true. What am I? |NUT
 I'm a furry pet, with a wagging tail, Love to fetch, and I'll never fail. What am I?|DOG`
       ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word',
+      label: 'What am I?',
+      data: [
+        `I help you write and I rhyme with den. What am I?| PEN
+I am a pet animal and I rhyme with bat. What am I?|CAT
+I am worn on your head and I rhyme with cat. What am I?| HAT
+I am an insect and I rhyme with see. What am I?| BEE
+I am colour and I rhyme with bed. What am I?| RED`,
+
+        `I am a drink and I rhyme with sea. What am I?|TEA
+I am a young human and I rhymee with lid. What am I?| KID
+I am a part of your face above your nose. What am I?|LIP
+I am a tool and I rhyme with hut. What am I? |NUT
+I am a pet and I rhyme with log. What am I?|DOG`
+      ]
     }
   ]
 };
