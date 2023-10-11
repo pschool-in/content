@@ -207,7 +207,7 @@ I want to go to the market.| मैं बाज़ार जाना चाह
 I want to make a phone call. | मैं फोन करना चाहता हूं`,
 
         `Do you speak English?| क्या आप अंग्रेज़ी बोलते हैं
-I did't understand. | मुझे समझ नहीं आया
+I didn't understand. | मुझे समझ नहीं आया
 I don't know.| मुझको मालूम नहीं
 I am in pain. | मुझे दर्द हो रहा है 
 Can I help you? | क्या मैं आपकी मदद कर सकता हुँ 

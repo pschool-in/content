@@ -280,7 +280,7 @@ export default {
 मैं फोन करना चाहता हूं।|I want to make a phone call `,
 
         `क्या आप अंग्रेज़ी बोलते हैं?|do you speak English 
-मुझे समझ नहीं आया।|I did't understand
+मुझे समझ नहीं आया।|I didn't understand
 मुझको मालूम नहीं।|I don't know
 मुझे दर्द हो रहा है। |I am in pain
 क्या मैं आपकी मदद कर सकता हुँ? |can I help you 
