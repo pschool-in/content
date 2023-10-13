@@ -61,8 +61,7 @@ export default {
               x: 0,
               y: 6
             },
-            hint:
-              'we get it from sea, white in color, added in small quantity while cooking',
+            hint: 'we get it from sea, white in color, added in small quantity while cooking',
             direction: 'down'
           },
           {
@@ -184,8 +183,7 @@ export default {
               x: 6,
               y: 0
             },
-            hint:
-              'The shortest distance between two points is a ________ line.',
+            hint: 'The shortest distance between two points is a ________ line.',
             direction: 'down'
           },
           {
@@ -194,8 +192,7 @@ export default {
               x: 2,
               y: 7
             },
-            hint:
-              'Numbers can be used as adjective. Smallest number divisible by 20 is ________.',
+            hint: 'Numbers can be used as adjective. Smallest number divisible by 20 is ________.',
             direction: 'across'
           },
           {
@@ -570,6 +567,403 @@ export default {
           ['', '', 'N', '', '', '', '', 'H'],
           ['', '', '', '', '', '', '', 'E'],
           ['', '', 'F', 'A', 'T', 'H', 'E', 'R']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1697165005777',
+      type: 'crossword',
+      label: 'Way with Words',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'lake',
+            marker: { x: 0, y: 1 },
+            hint: 'A large body of water surrounded by land.',
+            direction: 'across'
+          },
+          {
+            word: 'metropolis',
+            marker: { x: 3, y: 0 },
+            hint: 'A synonym for a "large city."',
+            direction: 'down'
+          },
+          {
+            word: 'atom',
+            marker: { x: 1, y: 4 },
+            hint: 'The basic unit of a chemical element.',
+            direction: 'across'
+          },
+          {
+            word: 'anxiety',
+            marker: { x: 5, y: 2 },
+            hint: 'A feeling of worry or unease.',
+            direction: 'down'
+          },
+          {
+            word: 'compound',
+            marker: { x: 4, y: 2 },
+            hint: 'A substance formed when two or more elements chemically combine.',
+            direction: 'down'
+          },
+          {
+            word: 'skin',
+            marker: { x: 1, y: 8 },
+            hint: 'The outer covering of an apple',
+            direction: 'across'
+          },
+          {
+            word: 'astronomer',
+            marker: { x: 0, y: 3 },
+            hint: 'A person who studies the stars and planets.',
+            direction: 'across'
+          },
+          {
+            word: 'million',
+            marker: { x: 3, y: 0 },
+            hint: 'A period of a thousand years.',
+            direction: 'across'
+          },
+          {
+            word: 'quake',
+            marker: { x: 2, y: 5 },
+            hint: 'A sudden, violent shaking of the ground. ',
+            direction: 'down'
+          },
+          {
+            word: 'berry',
+            marker: { x: 8, y: 2 },
+            hint: 'A small, sweet fruit often used in pies and jam',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['', '', '', 'M', 'I', 'L', 'L', 'I', 'O', 'N'],
+          ['L', 'A', 'K', 'E', '', '', '', '', '', ''],
+          ['', '', '', 'T', 'C', 'A', '', '', 'B', ''],
+          ['A', 'S', 'T', 'R', 'O', 'N', 'O', 'M', 'E', 'R'],
+          ['', 'A', 'T', 'O', 'M', 'X', '', '', 'R', ''],
+          ['', '', 'Q', 'P', 'P', 'I', '', '', 'R', ''],
+          ['', '', 'U', 'O', 'O', 'E', '', '', 'Y', ''],
+          ['', '', 'A', 'L', 'U', 'T', '', '', '', ''],
+          ['', 'S', 'K', 'I', 'N', 'Y', '', '', '', ''],
+          ['', '', 'E', 'S', 'D', '', '', '', '', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1697166658939',
+      type: 'crossword',
+      label: "Word Wizard's Challenge",
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'horse',
+            marker: { x: 1, y: 2 },
+            hint: 'A four-legged domestic animal',
+            direction: 'across'
+          },
+          {
+            word: 'quick',
+            marker: { x: 3, y: 0 },
+            hint: 'A synonym for "fast" ',
+            direction: 'across'
+          },
+          {
+            word: 'library',
+            marker: { x: 6, y: 1 },
+            hint: 'A place where books are borrowed',
+            direction: 'down'
+          },
+          {
+            word: 'ocean',
+            marker: { x: 3, y: 5 },
+            hint: 'A large body of water',
+            direction: 'across'
+          },
+          {
+            word: 'satellite',
+            marker: { x: 1, y: 1 },
+            hint: 'A celestial body that orbits the Earth',
+            direction: 'across'
+          },
+          {
+            word: 'banana',
+            marker: { x: 7, y: 3 },
+            hint: 'A tropical fruit with green or yellow skin',
+            direction: 'down'
+          },
+          {
+            word: 'bee',
+            marker: { x: 9, y: 0 },
+            hint: 'A small, buzzing insect',
+            direction: 'down'
+          },
+          {
+            word: 'icecream',
+            marker: { x: 1, y: 8 },
+            hint: 'A sweet, frozen dessert',
+            direction: 'across'
+          },
+          {
+            word: 'petition',
+            marker: { x: 0, y: 1 },
+            hint: 'A formal written request ',
+            direction: 'down'
+          },
+          {
+            word: 'owl',
+            marker: { x: 0, y: 7 },
+            hint: 'A nocturnal bird known for its hooting sound',
+            direction: 'across'
+          }
+        ],
+        table: [
+          ['', '', '', 'Q', 'U', 'I', 'C', 'K', '', 'B'],
+          ['P', 'S', 'A', 'T', 'E', 'L', 'L', 'I', 'T', 'E'],
+          ['E', 'H', 'O', 'R', 'S', 'E', 'I', '', '', 'E'],
+          ['T', '', '', '', '', '', 'B', 'B', '', ''],
+          ['I', '', '', '', '', '', 'R', 'A', '', ''],
+          ['T', '', '', 'O', 'C', 'E', 'A', 'N', '', ''],
+          ['I', '', '', '', '', '', 'R', 'A', '', ''],
+          ['O', 'W', 'L', '', '', '', 'Y', 'N', '', ''],
+          ['N', 'I', 'C', 'E', 'C', 'R', 'E', 'A', 'M', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1697168956665',
+      type: 'crossword',
+      label: 'Wordplay',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'phoenix',
+            marker: { x: 0, y: 0 },
+            hint: 'A legendary bird that is said to rise from its own ashes.',
+            direction: 'across'
+          },
+          {
+            word: 'pineapple',
+            marker: { x: 0, y: 0 },
+            hint: 'A tropical fruit known for its spiky skin and sweet, white flesh.',
+            direction: 'down'
+          },
+          {
+            word: 'orator',
+            marker: { x: 2, y: 0 },
+            hint: 'A person who is skilled in the art of writing or speaking.',
+            direction: 'down'
+          },
+          {
+            word: 'mosquito',
+            marker: { x: 1, y: 4 },
+            hint: 'A small, flying insect known for its annoying bites.',
+            direction: 'across'
+          },
+          {
+            word: 'atom',
+            marker: { x: 1, y: 1 },
+            hint: 'A fundamental building block of matter.',
+            direction: 'down'
+          },
+          {
+            word: 'crust',
+            marker: { x: 5, y: 2 },
+            hint: 'The outermost layer of the Earth.',
+            direction: 'down'
+          },
+          {
+            word: 'oatmeal',
+            marker: { x: 3, y: 6 },
+            hint: 'A popular breakfast item made from ground oats or wheat.',
+            direction: 'across'
+          },
+          {
+            word: 'wagon',
+            marker: { x: 4, y: 5 },
+            hint: 'A four-wheeled vehicle for transporting goods, typically pulled by horses.',
+            direction: 'down'
+          },
+          {
+            word: 'paint',
+            marker: { x: 7, y: 0 },
+            hint: 'A substance used to color objects, typically in liquid form.',
+            direction: 'down'
+          },
+          {
+            word: 'canal',
+            marker: { x: 9, y: 2 },
+            hint: 'A structure that allows ships to pass from one body of water to another at different levels.',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['P', 'H', 'O', 'E', 'N', 'I', 'X', 'P', '', ''],
+          ['I', 'A', 'R', '', '', '', '', 'A', '', ''],
+          ['N', 'T', 'A', '', '', 'C', '', 'I', '', 'C'],
+          ['E', 'O', 'T', '', '', 'R', '', 'N', '', 'A'],
+          ['A', 'M', 'O', 'S', 'Q', 'U', 'I', 'T', 'O', 'N'],
+          ['P', '', 'R', '', 'W', 'S', '', '', '', 'A'],
+          ['P', '', '', 'O', 'A', 'T', 'M', 'E', 'A', 'L'],
+          ['L', '', '', '', 'G', '', '', '', '', ''],
+          ['E', '', '', '', 'O', '', '', '', '', ''],
+          ['', '', '', '', 'N', '', '', '', '', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1697171149094',
+      type: 'crossword',
+      label: 'Language Crossword',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'message',
+            marker: { x: 5, y: 0 },
+            hint: 'A verbal or written communication',
+            direction: 'down'
+          },
+          {
+            word: 'grammar',
+            marker: { x: 0, y: 4 },
+            hint: 'The whole structure of a language',
+            direction: 'across'
+          },
+          {
+            word: 'advanced',
+            marker: { x: 2, y: 1 },
+            hint: 'A high level',
+            direction: 'down'
+          },
+          {
+            word: 'answer',
+            marker: { x: 3, y: 2 },
+            hint: 'A solution to a problem',
+            direction: 'across'
+          },
+          {
+            word: 'shout',
+            marker: { x: 5, y: 3 },
+            hint: 'Speak loudly',
+            direction: 'across'
+          },
+          {
+            word: 'sentence',
+            marker: { x: 1, y: 7 },
+            hint: 'A set of words making sense',
+            direction: 'across'
+          },
+          {
+            word: 'talk',
+            marker: { x: 1, y: 1 },
+            hint: 'Speak in order to give information',
+            direction: 'across'
+          },
+          {
+            word: 'joke',
+            marker: { x: 8, y: 4 },
+            hint: 'A thing that someone say is funny',
+            direction: 'down'
+          },
+          {
+            word: 'beginner',
+            marker: { x: 0, y: 2 },
+            hint: 'A person just starting to learn a skill',
+            direction: 'down'
+          }
+        ],
+        table: [
+          ['', '', '', '', '', 'M', '', '', '', ''],
+          ['', 'T', 'A', 'L', 'K', 'E', '', '', '', ''],
+          ['B', '', 'D', 'A', 'N', 'S', 'W', 'E', 'R', ''],
+          ['E', '', 'V', '', '', 'S', 'H', 'O', 'U', 'T'],
+          ['G', 'R', 'A', 'M', 'M', 'A', 'R', '', 'J', ''],
+          ['I', '', 'N', '', '', 'G', '', '', 'O', ''],
+          ['N', '', 'C', '', '', 'E', '', '', 'K', ''],
+          ['N', 'S', 'E', 'N', 'T', 'E', 'N', 'C', 'E', ''],
+          ['E', '', 'D', '', '', '', '', '', '', ''],
+          ['R', '', '', '', '', '', '', '', '', '']
+        ],
+        lang: 'en'
+      }
+    },
+    {
+      id: '1697172459481',
+      type: 'crossword',
+      label: 'Abbrevation',
+      authored: true,
+      data: {
+        title: 'Solve the crossword. Please click on a cell to view the hint.',
+        words: [
+          {
+            word: 'tomorrow',
+            marker: { x: 0, y: 0 },
+            hint: '2MORO',
+            direction: 'across'
+          },
+          { word: 'why', marker: { x: 7, y: 0 }, hint: 'Y', direction: 'down' },
+          {
+            word: 'TODAY',
+            marker: { x: 3, y: 2 },
+            hint: '2DAY',
+            direction: 'across'
+          },
+          {
+            word: 'THANKS',
+            marker: { x: 3, y: 2 },
+            hint: 'TNX',
+            direction: 'down'
+          },
+          {
+            word: 'PLEASE',
+            marker: { x: 0, y: 4 },
+            hint: 'PLS',
+            direction: 'across'
+          },
+          {
+            word: 'GREAT',
+            marker: { x: 2, y: 2 },
+            hint: 'GR8',
+            direction: 'down'
+          },
+          {
+            word: 'BEFORE',
+            marker: { x: 5, y: 3 },
+            hint: 'B4',
+            direction: 'down'
+          },
+          { word: 'YOU', marker: { x: 4, y: 1 }, hint: 'U', direction: 'down' },
+          {
+            word: 'LATER',
+            marker: { x: 2, y: 8 },
+            hint: 'LTR',
+            direction: 'across'
+          },
+          { word: 'SEE', marker: { x: 4, y: 4 }, hint: 'C', direction: 'down' }
+        ],
+        table: [
+          ['T', 'O', 'M', 'O', 'R', 'R', 'O', 'W'],
+          ['', '', '', '', 'Y', '', '', 'H'],
+          ['', '', 'G', 'T', 'O', 'D', 'A', 'Y'],
+          ['', '', 'R', 'H', 'U', 'B', '', ''],
+          ['P', 'L', 'E', 'A', 'S', 'E', '', ''],
+          ['', '', 'A', 'N', 'E', 'F', '', ''],
+          ['', '', 'T', 'K', 'E', 'O', '', ''],
+          ['', '', '', 'S', '', 'R', '', ''],
+          ['', '', 'L', 'A', 'T', 'E', 'R', '']
         ],
         lang: 'en'
       }
