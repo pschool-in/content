@@ -140,6 +140,11 @@ export default {
       grade: '1-4'
     },
     {
+      label: 'Financial Literacy',
+      id: 'money-4',
+      grade: '3-5'
+    },
+    {
       label: 'Money',
       id: 'money',
       grade: '4-5'
@@ -162,7 +167,7 @@ export default {
     {
       label: 'Fraction - 2',
       id: 'fraction-2',
-      grade: '3-5'
+      grade: '3-7'
     },
     {
       label: 'Measurement',
@@ -217,11 +222,6 @@ export default {
     {
       label: 'Picture Puzzle',
       id: 'picture-puzzle',
-      grade: '4-5'
-    },
-    {
-      label: 'Math Workout',
-      id: 'math-workout',
       grade: '4-5'
     },
     {
@@ -459,6 +459,11 @@ export default {
       label: 'Class 6: Misc Exercise - 1',
       id: 'math-6-1',
       grade: '6-8'
+    },
+    {
+      label: 'Math Workout',
+      id: 'math-workout',
+      grade: '4-8'
     }
 
     /*
