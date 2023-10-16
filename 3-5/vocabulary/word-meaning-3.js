@@ -405,6 +405,115 @@ The decay of fallen leaves on the forest floor contributes to nutrient recycling
       ]
     },
     {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `She has the *ability* to speak five different languages fluently.
+The sponge can quickly *absorb* all the spilled water on the floor.
+The prosecutor will *accuse* the suspect of theft during the trial.
+His decision to help the community was a selfless *act* of kindness.
+The children are very *active* and love playing outside.`,
+
+        `The *actual* number of attendees exceeded our expectations.
+They decided to *adopt* a rescue dog from the local shelter.
+Having prior experience in the field gave her a significant *advantage*.
+She sought *advice* from her mentor before making a major life decision.
+Her *ambition* was to become a successful entrepreneur and create jobs.`,
+
+        `The *ancient* ruins of the Mayan civilization are a popular tourist attraction.
+We should *approach* the problem with a fresh perspective.
+She needed to *arrange* the flowers in a vase for the centerpiece.
+The *Arctic* region is known for its extreme cold and harsh conditions.
+Her positive *attitude* and outlook on life were contagious.`,
+
+        `The colorful flowers in the garden *attract* butterflies and bees.
+The *average* temperature in this city in the summer is around 80 degrees.
+To maintain good health, it's essential to *avoid* sugary and processed foods.
+The explorer embarked on a *bold* journey to the uncharted wilderness.
+The river forms a natural *border* between the two countries.`,
+
+        `He gave a *brief* presentation on the company's financial performance.
+The sun's rays cast a *brilliant* light over the mountain peaks.
+The ship's anchor was attached to a thick steel *cable*.
+The photographer managed to *capture* the beauty of the sunset in his photo.
+It is *certain* that the sun will rise in the east tomorrow.`,
+
+        `The *chill* in the air made everyone reach for their jackets.
+His *clever* solution to the problem impressed everyone in the meeting.
+The *climate* in this region is characterized by hot summers and mild winters.
+The baby monkey would *cling* to its mother as they swung through the trees.
+We spent our vacation at a beautiful beach house on the *coast*.`,
+
+        `He decided to *confess* to his mistake and apologize to his friend.
+Before making a decision, I need to *consider* all the pros and cons of this job offer.
+The box *contains* a collection of rare vintage coins.
+Africa is the second-largest *continent* in the world by both land area and population.
+He used strong evidence to *convince* the jury of the defendant's guilt.`,
+
+        `He was labeled a *coward* for running away from the fight.
+The film *crew* worked tirelessly to capture the perfect shot.
+She *crumpled* the piece of paper and threw it into the trash can.
+It's a *custom* in some cultures to bow as a sign of respect.
+Without proper maintenance, the old house began to *decay* over time.`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-1',
+      label: 'Complete Word',
+      data: [
+        `The quality of having the means or skills to do something | Ability
+Take in a liquid | Absorb
+Blame for; make a claim of wrongdoing or misbehavior against | Accuse
+Behave in a certain manner | Act
+Characterized by energetic movement | Active
+Existing in act or fact | Actual
+Take into one's family | Adopt
+The quality of having a superior or more favorable position | Advantage
+A proposal for an appropriate course of action | Advice
+A strong drive for success | Ambition`,
+
+        `Belonging to times long past | Ancient
+Move towards | Approach
+Put into a proper or systematic order | Arrange
+Extremely cold | Arctic
+A complex mental state involving beliefs and feelings | Attitude
+Exert a force on | Attract
+An intermediate scale value regarded as normal or usual | Average
+Stay away from | Avoid
+Fearless and daring | Bold
+The boundary of a surface | Border`,
+
+        `Of short duration or distance | Brief
+Full of light; shining intensely | Brilliant
+A very strong thick rope made of twisted hemp or steel wire | Cable
+Seize as if by hunting, snaring, or trapping | Capture
+Established beyond doubt or question; definitely known | Certain
+Coldness due to a cold environment | Chill
+Mentally quick and resourceful | Clever
+The weather in some location averaged over a period of time | Climate
+Hold on tightly or tenaciously | Cling
+The shore of a sea or ocean | Coast`,
+
+        `Admit to a wrongdoing | Confess
+Think about carefully; weigh | Consider
+Hold or have within | Contain
+One of the large landmasses of the earth | Continent
+Make realize the truth or validity of something | Convince
+A person who shows fear or timidity | Coward
+An organized group of workers | Crew
+Gather something into small wrinkles or folds | Crumple
+Accepted or habitual practice | Custom
+The organic phenomenon of rotting | Decay`
+      ]
+    },
+    {
       id: 'meanings-2',
       type: 'slides2',
       label: `Word Meanings 2`,
@@ -806,604 +915,112 @@ The best method for controlling weeds is having a goat.`
       ]
     },
     {
-      id: 'meanings-3',
-      type: 'slides2',
-      label: `Word Meanings 3`,
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      lockAfter: 1,
       commonData: {
-        title: `Word Meanings 3`,
-        displayType: 'custom',
-        autoPlay: false,
-        substep: true
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
       },
       data: [
-        {
-          steps: [
-            [
-              'a state of ill-being due to affliction or misfortune',
-              {
-                type: 'title',
-                text: 'misery'
-              },
-              `The refugee's life was filled with misery as they struggled to find safety and stability.
-Human suffering, pain, misery, separation and bereavement are inevitable when wars are fought.`
-            ],
-            [
-              'wetness caused by water',
-              {
-                type: 'title',
-                text: 'moisture'
-              },
-              `The morning dew added a touch of moisture to the grass, glistening in the sunlight.
-To keep the skin hydrated, it's important to use a moisturizer that locks in moisture.`
-            ],
-            [
-              'a painting that is applied to a wall surface',
-              {
-                type: 'title',
-                text: 'mural'
-              },
-              `The artist spent weeks working on a stunning mural that covered an entire wall of the art gallery.
-The schoolchildren collaborated on a colorful mural to brighten up their classroom.`
-            ],
-            [
-              'be puzzling or bewildering to',
-              {
-                type: 'title',
-                text: 'mystify'
-              },
-              `The magician's tricks never failed to mystify the audience, leaving them in awe.
-The cryptic message in the old book continued to mystify researchers for years.`
-            ],
-            [
-              'a sweet liquid secretion that is attractive to pollinators',
-              {
-                type: 'title',
-                text: 'nectar'
-              },
-              `The sweet nectar of the flowers attracted a variety of colorful butterflies.
-The bees diligently collected nectar from the blossoms to make honey.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              `a child's room for a baby`,
-              {
-                type: 'title',
-                text: 'nursery'
-              },
-              `The nursery was decorated with soft pastel colors, creating a peaceful atmosphere for the baby.
-The childcare center provided a safe and nurturing environment for young children in the nursery.`
-            ],
-            [
-              `watch attentively`,
-              {
-                type: 'title',
-                text: 'observe'
-              },
-              `Birdwatchers often spend hours in the park to observe different bird species in their natural habitat.
-It's crucial to observe safety regulations when using equipment to prevent accidents.`
-            ],
-            [
-              'someone who offers resistance',
-              {
-                type: 'title',
-                text: 'opponent'
-              },
-              `In the boxing ring, the determined fighter faced a formidable opponent.
-The political opponent delivered a passionate speech in response to the proposed legislation.`
-            ],
-            [
-              'being directly across from each other',
-              {
-                type: 'title',
-                text: 'opposite'
-              },
-              `The restaurant was located on the opposite side of the street, requiring a brief walk to reach it.
-In terms of personality, the twins were complete opposites, one being outgoing and the other reserved.`
-            ],
-            [
-              'a severe or trying experience',
-              {
-                type: 'title',
-                text: 'ordeal'
-              },
-              `Surviving a plane crash in the wilderness was a harrowing ordeal for the passengers.
-He survived the ordeal and eventually wrote a book about it.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'the place where something begins',
-              {
-                type: 'title',
-                text: 'origin'
-              },
-              `The origin of the ancient artifact was traced back to a lost civilization.
-Understanding the origin of a word can provide insight into its meaning and usage.`
-            ],
-            [
-              'something that results',
-              {
-                type: 'title',
-                text: 'outcome'
-              },
-              `The outcome of the negotiation was a mutually beneficial agreement for both parties.
-The success of a project often depends on the effort put into achieving a favorable outcome.`
-            ],
-            [
-              'the act of moving from one state or place to the next',
-              {
-                type: 'title',
-                text: 'passage'
-              },
-              `The passage from childhood to adulthood is marked by significant changes and growth.
-The ship navigated through a narrow passage between two cliffs, leading to a hidden cove.`
-            ],
-            [
-              'an interest or pursuit that someone pursues regularly',
-              {
-                type: 'title',
-                text: 'pastime'
-              },
-              `Reading is a beloved pastime for many people, allowing them to escape into different worlds.
-Playing board games is a popular pastime for families, promoting quality time together.`
-            ],
-            [
-              'cease an action temporarily',
-              {
-                type: 'title',
-                text: 'pause'
-              },
-              `The music conductor signaled for a brief pause before the orchestra continued playing.
-Take a moment to pause and reflect on your goals before making a decision.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'get done',
-              {
-                type: 'title',
-                text: 'perform'
-              },
-              `The talented musician was set to perform a concert in front of a large audience.
-The surgical team worked tirelessly to perform a life-saving operation.`
-            ],
-            [
-              'dash violently or with great speed or impetuosity',
-              {
-                type: 'title',
-                text: 'plunge'
-              },
-              `The thrill-seekers decided to plunge into the icy waters of the mountain lake.
-The stock market experienced a sudden plunge in value, causing concern among investors.`
-            ],
-            [
-              'any animal that lives by preying on other animals',
-              {
-                type: 'title',
-                text: 'predator'
-              },
-              `Lions are known as fierce predators in the African savanna, hunting for their prey.
-The bird of prey is a skilled predator, soaring high in the sky in search of small animals.`
-            ],
-            [
-              'make a guess about what will happen in the future',
-              {
-                type: 'title',
-                text: 'predict'
-              },
-              `Meteorologists use advanced technology to predict the weather, helping people prepare for storms.
-Experts try to predict the economic trends based on various factors and data.`
-            ],
-            [
-              'keep from happening or arising; make impossible',
-              {
-                type: 'title',
-                text: 'prevent'
-              },
-              `Regular exercise and a healthy diet can help prevent many common health issues.
-The security measures in place are designed to prevent unauthorized access to the building.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'of first rank or importance or value',
-              {
-                type: 'title',
-                text: 'primary'
-              },
-              `Education is a primary focus in a child's development, setting the foundation for future success.
-The primary goal of the project was to reduce carbon emissions and promote sustainability.`
-            ],
-            [
-              'a special advantage or benefit not enjoyed by all',
-              {
-                type: 'title',
-                text: 'privilege'
-              },
-              `Having access to quality education is a privilege that not everyone in the world enjoys.
-Being able to travel and explore new cultures is a privilege that broadens one's perspective.`
-            ],
-            [
-              'a particular course of action intended to achieve a result',
-              {
-                type: 'title',
-                text: 'process'
-              },
-              `The manufacturing process involves multiple stages, from design to production.
-Cooking a meal requires following a specific process of chopping, seasoning, and cooking.`
-            ],
-            [
-              'especially good, remarkable, or superlative',
-              {
-                type: 'title',
-                text: 'rare'
-              },
-              `The rare gemstone found in the cave was one of the most valuable discoveries in years.
-A rare astronomical event, like a solar eclipse, is a captivating sight.`
-            ],
-            [
-              'a quantity considered as a proportion of another quantity',
-              {
-                type: 'title',
-                text: 'rate'
-              },
-              `The interest rate on the loan determines how much you'll pay in addition to the principal amount.
-The crime rate in the city has decreased significantly over the past decade.`
-            ],
-            [
-              'bring to mind',
-              {
-                type: 'title',
-                text: 'recall'
-              },
-              `She struggled to recall the name of the book she read years ago but could remember the plot.
-The car manufacturer issued a recall of a certain model due to a safety concern.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'have confidence or faith in',
-              {
-                type: 'title',
-                text: 'rely'
-              },
-              `In times of need, you can rely on your close friends to provide support.
-Businesses rely on customer feedback to improve their products and services.`
-            ],
-            [
-              'make or write a comment on',
-              {
-                type: 'title',
-                text: 'remark'
-              },
-              `His remark during the meeting sparked a thoughtful discussion among the team members.
-She made a humorous remark that lightened the mood in the room.`
-            ],
-            [
-              `someone who lives at a particular place for a long period`,
-              {
-                type: 'title',
-                text: 'resident'
-              },
-              `The resident of the neighborhood organized a community clean-up event to improve the area.
-A resident of the town for over 30 years, he had witnessed many changes over time.`
-            ],
-            [
-              'regard highly; think much of',
-              {
-                type: 'title',
-                text: 'respect'
-              },
-              `It's important to respect other people's opinions and values, even if they differ from your own.
-The teacher earned the respect of her students through her dedication and fairness.`
-            ],
-            [
-              'worthy of or requiring trust; held accountable',
-              {
-                type: 'title',
-                text: 'responsible'
-              },
-              `Being responsible for a project means taking ownership of its success or failure.
-Parents must teach their children to be responsible and accountable for their actions.`
-            ],
-            [
-              'change to the contrary',
-              {
-                type: 'title',
-                text: 'reverse'
-              },
-              `The company decided to reverse its previous decision and rehire the experienced employee.
-The movie's plot took an unexpected reverse in the final act, surprising the audience.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'cause to regain consciousness',
-              {
-                type: 'title',
-                text: 'revive'
-              },
-              `The quick administration of CPR helped to revive the unconscious swimmer at the pool.
-A good night's sleep can help you revive your energy and mental alertness.`
-            ],
-            [
-              'a source of danger',
-              {
-                type: 'title',
-                text: 'risk'
-              },
-              `Investing in the stock market carries a certain level of financial risk due to market fluctuations.
-Crossing a busy street without using the crosswalk is a dangerous risk to one's safety.`
-            ],
-            [
-              'cause to separate and go in different directions',
-              {
-                type: 'title',
-                text: 'scatter'
-              },
-              `The strong wind caused the leaves to scatter in all directions, creating a colorful spectacle.
-The children were told not to scatter their toys all over the living room.`
-            ],
-            [
-              'a list of times at which things are planned to occur',
-              {
-                type: 'title',
-                text: 'schedule'
-              },
-              `I have a busy schedule this week, with meetings and deadlines every day.
-The school's schedule includes classes in the morning and extracurricular activities in the afternoon.`
-            ],
-            [
-              'responsive to physical stimuli',
-              {
-                type: 'title',
-                text: 'sensitive'
-              },
-              `Some people have sensitive skin that may react to certain skincare products.
-It's crucial to be sensitive to the feelings of others and avoid hurtful comments.`
-            ],
-            [
-              'any action or gesture that encodes a message',
-              {
-                type: 'title',
-                text: 'signal'
-              },
-              `The traffic light changed from red to green, giving the signal for the cars to proceed.
-Nonverbal signals, like body language, can convey important messages in a conversation.`
-            ],
-            [
-              'a homogeneous mixture of two or more substances',
-              {
-                type: 'title',
-                text: 'solution'
-              },
-              `The scientist worked tirelessly to find a solution to the environmental problem.
-The solution to the puzzle required careful thought and creativity.`
-            ],
-            [
-              'make a mess of, destroy or ruin',
-              {
-                type: 'title',
-                text: 'spoil'
-              },
-              `Leaving food out in the sun can cause it to spoil quickly, making it unsafe to eat.
-It's important not to spoil children with excessive gifts, as it may lead to entitlement.`
-            ]
-          ]
-        }
+        `She signed the *deed* to her new house, officially transferring ownership.
+The brave knight stood ready to *defend* the kingdom against the approaching dragon.
+The *delicate* embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.
+A smartphone is a versatile *device* that allows you to communicate, browse the internet, and take photos.
+The *diagram* in the textbook illustrated the process of photosynthesis in plants.`,
+
+        `Our digestive system helps *digest* the food we eat, breaking it down into nutrients for our body.
+Vaccines have been crucial in preventing the spread of infectious *diseases* like polio and smallpox.
+The mountains in the *distant* horizon looked like a hazy silhouette against the setting sun.
+After a long day at work, she took a short *doze* on the couch to recharge.
+The boat began to *drift* along the gentle current of the river.`,
+
+        `Her *elegant* evening gown turned heads at the formal event.
+Accessible ramps and elevators *enable* people with disabilities to enter buildings easily.
+The detective carefully *examined* the crime scene for any clues that might solve the case.
+The adventurous couple decided to *explore* the dense Amazon rainforest during their vacation.
+She used a handheld *fan* to cool off during the hot summer day.`,
+
+        `The car accident had a *fatal* outcome, and several lives were tragically lost.
+The *fierce* storm brought strong winds and heavy rain, causing damage to homes and trees.
+The butterfly began to *flutter* its colorful wings as it took flight.
+Winning the lottery was an incredibly *fortunate* turn of events for the struggling family.
+The *frail* elderly woman needed assistance with daily tasks due to her weakened physical condition.`,
+
+        `She let out a *gasp* of surprise when she saw the breathtaking view from the mountaintop.
+The graceful swan seemed to *glide* effortlessly across the tranquil pond.
+In the geography class, students studied a *globe* to learn about the Earth's continents and oceans.
+The ballet dancer moved with remarkable *grace* and precision, captivating the audience.
+The *gradual* transition from day to night was marked by the slow dimming of the sky.`,
+
+        `He reached out to *grasp* the doorknob, but it slipped through his fingers.
+Her morning *habit* was to start the day with a cup of freshly brewed coffee.
+The *harsh* winter weather made it difficult to drive on icy roads
+Children often *imitate* their parents' behavior and speech patterns.
+Each *individual* in the group had a unique perspective on the issue.`,
+
+        `She was known for her *intelligent* problem-solving skills and insightful ideas.
+I *intend* to complete my degree in computer science within the next two years.
+The *journey* across the country by train provided breathtaking views of diverse landscapes.
+The company decided to *launch* its new product with a high-profile advertising campaign.
+The doctor advised him to *limit* his intake of sugary foods for the sake of his health.`,
+
+        `The treasure hunters used a map to *locate* the buried chest of gold.
+A *loyal* friend stands by you through both good times and bad, offering support and trust.
+The grand, *magnificent* palace was a testament to the wealth and power of the royal family.
+The nature reserve was home to a beautiful, serene *marsh* with diverse wildlife.
+Scientists followed a rigorous *method* of data collection and analysis in their research.`
       ]
     },
     {
-      id: 'meanings-4',
-      type: 'slides2',
-      label: `Word Meanings 4`,
-      commonData: {
-        title: `Word Meanings 4`,
-        displayType: 'custom',
-        autoPlay: false,
-        substep: true
-      },
+      type: 'completeWord',
+      id: 'complete-word-2',
+      label: 'Complete Word',
       data: [
-        {
-          steps: [
-            [
-              'die of food deprivation',
-              {
-                type: 'title',
-                text: 'starve'
-              },
-              `In times of famine, people may starve due to the scarcity of food.
-The decision to starve themselves in protest drew attention to the hunger strike.`
-            ],
-            [
-              'be a guiding or motivating force or drive',
-              {
-                type: 'title',
-                text: 'steer'
-              },
-              `Parents often steer their children toward positive life choices through guidance and support.
-As the captain of the ship, he had to steer the vessel safely through treacherous waters.`
-            ],
-            [
-              'strenuous effort',
-              {
-                type: 'title',
-                text: 'struggle'
-              },
-              `The journey to overcome addiction can be a long and challenging struggle.
-Despite the struggle, they persevered and achieved their goals.`
-            ],
-            [
-              'meant or adapted for an occasion or use',
-              {
-                type: 'title',
-                text: 'suitable'
-              },
-              `The formal attire was suitable for the wedding ceremony, adhering to the dress code.
-The spacious and well-lit room was suitable for hosting a productive business meeting.`
-            ],
-            [
-              'determining opinions by interviewing people',
-              {
-                type: 'title',
-                text: 'survey'
-              },
-              `Researchers conducted a survey to gather opinions from the public on environmental issues.
-The annual customer satisfaction survey revealed areas for improvement in the company's services.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              `moving very fast`,
-              {
-                type: 'title',
-                text: 'swift'
-              },
-              `The swift response of the firefighters prevented the wildfire from spreading further.
-The cheetah is known for its incredible swift speed in pursuit of prey.`
-            ],
-            [
-              `something visible that represents something invisible`,
-              {
-                type: 'title',
-                text: 'symbol'
-              },
-              `The dove is often seen as a symbol of peace and harmony in many cultures.
-The red heart is a common symbol of love and affection.`
-            ],
-            [
-              'natural abilities or qualities',
-              {
-                type: 'title',
-                text: 'talent'
-              },
-              `The young musician displayed a remarkable talent for playing the piano, captivating the audience.
-Her artistic talent shone through her beautifully painted landscapes.`
-            ],
-            [
-              'a belief that can guide behavior',
-              {
-                type: 'title',
-                text: 'theory'
-              },
-              `In science, a theory is a well-established explanation that has undergone extensive testing.
-The theory of relativity, formulated by Albert Einstein, revolutionized the field of physics.`
-            ],
-            [
-              'something that causes a sudden intense feeling',
-              {
-                type: 'title',
-                text: 'thrill'
-              },
-              `The roller coaster ride provided an adrenaline-pumping thrill as it sped down steep drops and sharp turns.
-Achieving a long-term goal can bring a deep sense of thrill and accomplishment.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'any possession that is highly valued by its owner',
-              {
-                type: 'title',
-                text: 'treasure'
-              },
-              `The pirate legend spoke of hidden treasure buried on a remote island.
-The old journal contained clues to a lost family treasure hidden in the attic.`
-            ],
-            [
-              'a successful ending of a struggle or contest',
-              {
-                type: 'title',
-                text: 'triumph'
-              },
-              `The athlete's hard work and determination led to a triumph in the championship race.
-The successful launch of the spacecraft was a triumph for the entire space agency.`
-            ],
-            [
-              'the quality that renders something desirable',
-              {
-                type: 'title',
-                text: 'value'
-              },
-              `Honesty and integrity are qualities highly valued in both personal and professional relationships.
-The antique vase had great value due to its historical significance and craftsmanship.`
-            ],
-            [
-              'the ability to see',
-              {
-                type: 'title',
-                text: 'vision'
-              },
-              `Good eyesight is essential for clear vision and the ability to see the world around us.
-The visionary leader had a grand vision for the future of the company.`
-            ],
-            [
-              'a person who performs work done by choice',
-              {
-                type: 'title',
-                text: 'volunteer'
-              },
-              `She decided to volunteer at the local animal shelter to help care for abandoned pets.
-Many volunteer firefighters responded to the emergency, bravely combating the blaze.`
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              'move or cause to move in a sinuous or circular course',
-              {
-                type: 'title',
-                text: 'wander'
-              },
-              `The hikers chose to wander through the forest, exploring its hidden trails and natural beauty.
-When you wander through the city streets, you may stumble upon charming shops and cafes.`
-            ],
-            [
-              'accumulated knowledge or erudition or enlightenment',
-              {
-                type: 'title',
-                text: 'wisdom'
-              },
-              `With age comes wisdom, as life experiences teach valuable lessons.
-Seeking advice from someone with wisdom can provide guidance in making important decisions.`
-            ],
-            [
-              'mental ability',
-              {
-                type: 'title',
-                text: 'wit'
-              },
-              `Her quick wit and sense of humor made her the life of the party.
-The stand-up comedian's clever wit had the audience in stitches.`
-            ],
-            [
-              'misery resulting from affliction',
-              {
-                type: 'title',
-                text: 'woe'
-              },
-              `The loss of a loved one brought deep woe and sorrow to the grieving family.
-Economic woe can result from financial instability and market downturns.`
-            ]
-          ]
-        }
+        `A legal document to effect a transfer of property | Deed
+Protect against a challenge or attack | Defend
+Developed with extreme subtlety | Delicate
+An instrumentality invented for a particular purpose | Device
+A drawing intended to explain how something works | Diagram
+Convert food into absorbable substances | Digest
+An impairment of health | Disease
+Separated in space or coming from far away | Distant
+A light fitful sleep | Doze
+Be in motion due to some air or water current | Drift`,
+
+        `Refined and tasteful in appearance, behavior, or style | Elegant
+Provide the means to perform some task | Enable
+Observe, check out, and look over carefully or inspect | Examine
+Travel to or penetrate into | Explore
+A device for creating a current of air by movement | Fan
+Bringing death | Fatal
+Marked by extreme and violent energy | Fierce
+Flap the wings rapidly or fly with flapping movements | Flutter
+Having unexpected good luck | Fortunate
+Physically weak | Frail`,
+
+        `A short labored intake of breath with the mouth open | Gasp
+Move smoothly and effortlessly | Glide
+An object with a spherical shape | Globe
+Elegance and beauty of movement or expression | Grace
+Proceeding in small stages | Gradual
+Hold firmly | Grasp
+An established custom | Habit
+Disagreeable to the senses | Harsh
+Reproduce someone's behavior or looks | Imitate
+Being or characteristic of a single thing or person | Individual`,
+
+        `Having the capacity for thought and reason to a high degree | Intelligent
+Have in mind as a purpose | Intend
+The act of traveling from one place to another | Journey
+Propel with force | Launch
+As far as something can go | Limit
+Determine the place of by searching or examining | Locate
+Steadfast in allegiance or duty | Loyal
+Characterized by grandeur | Magnificent
+Low|lying wet land with grassy vegetation | Marsh
+A way of doing something, especially a systematic way | Method`
       ]
     }
   ]
