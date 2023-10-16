@@ -81,7 +81,7 @@ The actual cost of the project was higher than the initial estimate.`
                 text: 'adopt'
               },
               `They decided to adopt a rescue dog from the local shelter.
-After years of trying to conceive, they chose to adopt a child. `
+We wouldn't be surprised to see more small businesses adopt this technology`
             ],
             [
               'the quality of having a superior or more favorable position',
@@ -295,7 +295,7 @@ Climate change is a global issue that affects us all.`
                 text: 'cling'
               },
               `The baby monkey would cling to its mother as they swung through the trees.
-The wet clothes seemed to cling to her body after she got caught in the rain.`
+Many people cling to their faith in times of grief and loss.`
             ],
             [
               'the shore of a sea or ocean',
@@ -313,7 +313,7 @@ The ship sailed along the picturesque coast as the sun set.`
                 text: 'confess'
               },
               `He decided to confess to his mistake and apologize to his friend.
-It took a lot of courage for her to confess her feelings to him.`
+Despite being asked repeatedly, she refused to confess.`
             ],
             [
               'think about carefully; weigh',
@@ -322,7 +322,7 @@ It took a lot of courage for her to confess her feelings to him.`
                 text: 'consider'
               },
               ` Before making a decision, I need to consider all the pros and cons of this job offer.
-Please consider my feelings when you choose the movie for our movie night.`
+Please consider my likes and dislikes when you choose the movie for the movie night.`
             ]
           ]
         },
@@ -799,7 +799,7 @@ We had to carefully navigate through the muddy marsh during our hike.`
                 text: 'method'
               },
               `Scientists followed a rigorous method of data collection and analysis in their research.
-Cooking with the sous vide method ensures perfectly tender and flavorful meals.`
+The best method for controlling weeds is having a goat.`
             ]
           ]
         }
@@ -825,7 +825,7 @@ Cooking with the sous vide method ensures perfectly tender and flavorful meals.`
                 text: 'misery'
               },
               `The refugee's life was filled with misery as they struggled to find safety and stability.
-Going through a breakup can bring a period of emotional misery and heartache.`
+Human suffering, pain, misery, separation and bereavement are inevitable when wars are fought.`
             ],
             [
               'wetness caused by water',
@@ -910,7 +910,7 @@ In terms of personality, the twins were complete opposites, one being outgoing a
                 text: 'ordeal'
               },
               `Surviving a plane crash in the wilderness was a harrowing ordeal for the passengers.
-Going through a divorce can be an emotionally challenging ordeal for both parties.`
+He survived the ordeal and eventually wrote a book about it.`
             ]
           ]
         },
@@ -1024,7 +1024,7 @@ The security measures in place are designed to prevent unauthorized access to th
 The primary goal of the project was to reduce carbon emissions and promote sustainability.`
             ],
             [
-              'a special advantage or benefit not enjoyed by al',
+              'a special advantage or benefit not enjoyed by all',
               {
                 type: 'title',
                 text: 'privilege'
