@@ -6,24 +6,157 @@ export default {
     {
       id: 'meanings',
       type: 'slides2',
+      label: `Test Activity`,
+      commonData: {
+        title: `Word Meanings`,
+        displayType: 'canvas',
+        autoPlay: false,
+        substep: false
+      },
+      data: [
+        {
+          config: {
+            fill: '#0d3756',
+            fontSize: 16
+          },
+          steps: [
+            [
+              {
+                type: 'title',
+                text: 'big',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                list: [
+                  {
+                    d: 'M 144 138 C 174 138 198 147 199 158 C 199 169 175 178 144 178 C 114 178 90 169 89 158 C 88 147 112 139 144 138 ',
+                    fill: '#81C784'
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                type: 'title',
+                text: 'great',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                list: [
+                  {
+                    d: 'M 178 36 C 203 36 224 44 225 55 C 225 65 204 73 178 73 C 153 73 132 65 131 55 C 130 45 151 37 178 36',
+                    fill: '#D4E157'
+                  },
+                  'M 153 138 L 176 72'
+                ]
+              }
+            ],
+            [
+              {
+                type: 'title',
+                text: 'large',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                text: [
+                  {
+                    d: 'M 70 87 C 95 87 115 94 116 102 C 116 110 96 116 70 116 C 45 116 24 110 23 102 C 22 94 43 87 70 87',
+                    fill: '#B2DFDB'
+                  },
+                  'M 101 145 L 74 117'
+                ]
+              }
+            ],
+            [
+              {
+                type: 'title',
+                text: 'huge',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                text: [
+                  {
+                    d: 'M 257 112 C 279 112 296 120 297 131 C 297 141 279 149 257 150 C 235 150 217 141 216 131 C 215 121 233 113 257 112',
+                    fill: '#D7CCC8'
+                  },
+                  'M 194 150 L 223 141'
+                ]
+              }
+            ],
+            [
+              {
+                type: 'title',
+                text: 'massive',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                text: [
+                  {
+                    d: 'M 221 200 C 250 200 273 208 275 217 C 275 226 251 234 221 234 C 191 234 168 227 167 217 C 166 208 189 201 221 200',
+                    fill: '#B0BEC5'
+                  },
+                  'M 170 175 L 183 205'
+                ]
+              }
+            ],
+            [
+              {
+                type: 'title',
+                text: 'mammoth',
+                x: 125,
+                y: 146
+              },
+              {
+                type: 'svg',
+                text: [
+                  {
+                    d: 'M 73 189 C 103 189 127 197 128 207 C 128 216 104 224 73 224 C 44 224 20 217 19 207 C 18 197 42 190 73 189',
+                    fill: '#F8BBD0'
+                  },
+                  'M 99 170 L 86 189'
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      id: 'meanings',
+      type: 'slides2',
       label: `Word Meanings`,
       commonData: {
         title: `Word Meanings`,
         displayType: 'custom',
-        autoPlay: false,
-        substep: true
+        autoPlay: false
+        //substep: true
       },
       data: [
         {
           steps: [
             [
-              'the quality of having the means or skills to do something',
               {
                 type: 'title',
                 text: 'ability'
               },
-              `She has the ability to speak five different languages fluently.
-His problem-solving ability is truly remarkable.`
+              '- the quality of having the means or skills to do something',
+
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+                She has the <i><b>ability</b></i> to speak five different languages fluently.<br><br>
+                His problem-solving <i><b>ability</b></i> is truly remarkable.`
+              }
             ],
             [
               'take in a liquid',

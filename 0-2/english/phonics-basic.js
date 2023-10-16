@@ -10,31 +10,6 @@ export default {
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-8.mp3',
-        lang: 'basic',
-        audioWidth: 1
-      },
-      data: [
-        {
-          text: 'am, an, as, at, be, he, me, we, in, if',
-          audioOffset: 0
-        },
-        {
-          text: 'is, it, of, on, or, ox, no, go, so, to',
-          audioOffset: 10
-        },
-        {
-          text: 'do, up, us, by, my',
-          audioOffset: 20
-        }
-      ]
-    },
-    {
-      label: 'Two Letter Words',
-      type: 'phonics',
-      id: 'phonics-1',
-      commonData: {
-        type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-8.mp3',
 
         audioWidth: 1
       },
@@ -74,43 +49,6 @@ export default {
         {
           audioOffset: 20,
           text: 'do, up, us, by, my'
-        }
-      ]
-    },
-    {
-      label: 'Three Letter Words',
-      type: 'phonics',
-      id: 'phonics-2',
-      commonData: {
-        type: 'words',
-        lang: 'basic',
-        audioWidth: 1,
-        wordsAudio: 'kg-5/phonics/basic-phonics-9.mp3'
-      },
-      data: [
-        {
-          text: 'bat, cat, mat, fat, hat, rat, sat, ban, can, man',
-          audioOffset: 0
-        },
-        {
-          text: 'fan, pan, ran, van, dam, ram, ham, jam, bad, dad',
-          audioOffset: 10
-        },
-        {
-          text: 'fad, had, mad, lad, pad, sad, cap, lap, map, rap',
-          audioOffset: 20
-        },
-        {
-          text: 'sap, tap, bag, gag, rag, tag, wag, bar, car, far',
-          audioOffset: 30
-        },
-        {
-          text: 'jar, bin, fin, pin, tin, sin, win, big, dig, fig',
-          audioOffset: 40
-        },
-        {
-          text: 'pig, wig, bid, hid, did, kid, lid, rid, bib, nib',
-          audioOffset: 50
         }
       ]
     },

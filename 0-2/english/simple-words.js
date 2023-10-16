@@ -6,21 +6,112 @@ export default {
     {
       id: 'reading-2',
       type: 'passage',
-      label: 'Words List',
+      label: '2 Letter Words',
       data: {
-        title: 'Words List',
+        title: '2 Letter Words',
+        text: [
+          {
+            type: 'sitewords',
+            text: 'am, an, as, at, be, he, me, we, in, if, is, it, of, on, or, ox, no, go, so, to, do, up, us, by, my',
+            width: 60
+          }
+        ]
+      }
+    },
+    {
+      label: 'Two Letter Words',
+      type: 'phonics',
+      id: 'phonics-1',
+      commonData: {
+        type: 'words',
+        wordsAudio: 'kg-5/phonics/basic-phonics-8.mp3',
+        lang: 'basic',
+        audioWidth: 1
+      },
+      data: [
+        {
+          text: 'am, an, as, at, be, he, me, we, in, if',
+          audioOffset: 0
+        },
+        {
+          text: 'is, it, of, on, or, ox, no, go, so, to',
+          audioOffset: 10
+        },
+        {
+          text: 'do, up, us, by, my',
+          audioOffset: 20
+        }
+      ]
+    },
+    {
+      id: 'jumble',
+      type: 'sequence',
+      label: 'Connect Letters',
+      commonData: {
+        title: 'Connect Letters.',
+        printTitle: 'Form the word using the letters.'
+      },
+      data: [
+        'am, an, as, at, be, he, me, we, in, if',
+        'is, it, of, on|no, or, ox, go, so, to',
+        'do, up, us, by, my'
+      ]
+    },
+    {
+      id: 'reading-2',
+      type: 'passage',
+      label: '3 Letter Words',
+      data: {
+        title: '3 Letter Words',
         text: [
           'Find below some three-letter words. Get familiar with them.',
           {
             type: 'sitewords',
-            text: 'rat, fly, bed, fox, hat, jug, big, map, end, red, run, man, cow, may, sad, bag, met, men, the, and, hug, pig, she, bit, let, son, hen, day, cap, sit, one, joy, hit, cat, mat, two, cry, old, sun, bad, hut, tin, try, use, van, oil, bun, few, nut, has, jar, dig, him, ice, jam, jet, ran, fan, fat, dry, dip, aim, spy, you, pin, her, pen, axe, set, key, sin, for, can, ape, cot, law, gun, had, ant, sky, ask, lap, pay, wet, wig, fur, lot, log, rug, run, pet, den, dim, war, raw',
+            text: 'bat, cat, mat, fat, hat, rat, sat, ban, can, man, fan, pan, ran, van, dam, ram, ham, jam, bad, dad, fad, had, mad, lad, pad, sad, cap, lap, map, rap, sap, tap, bag, gag, rag, tag, wag, bar, car, far, jar, bin, fin, pin, tin, sin, win, big, dig, fig, pig, wig, bid, hid, did, kid, lid, rid, bib, nib, fly, bed, fox, jug, end, red, run, cow, may, met, men, the, and, hug, she, bit, let, son, hen, day, sit, one, joy, hit, two, cry, old, sun, hut, try, use, oil, bun, few, nut, has, him, ice, jet, dry, dip, aim, spy, you, her, pen, axe, set, key, for, ape, cot, law, gun, ant, sky, ask, pay, wet, fur, lot, log, rug, pet, den, dim, war, raw',
             width: 90
           }
         ]
       }
     },
     {
-      id: 'jumble',
+      label: 'Three Letter Words',
+      type: 'phonics',
+      id: 'phonics-2',
+      commonData: {
+        type: 'words',
+        lang: 'basic',
+        audioWidth: 1,
+        wordsAudio: 'kg-5/phonics/basic-phonics-9.mp3'
+      },
+      data: [
+        {
+          text: 'bat, cat, mat, fat, hat, rat, sat, ban, can, man',
+          audioOffset: 0
+        },
+        {
+          text: 'fan, pan, ran, van, dam, ram, ham, jam, bad, dad',
+          audioOffset: 10
+        },
+        {
+          text: 'fad, had, mad, lad, pad, sad, cap, lap, map, rap',
+          audioOffset: 20
+        },
+        {
+          text: 'sap, tap, bag, gag, rag, tag, wag, bar, car, far',
+          audioOffset: 30
+        },
+        {
+          text: 'jar, bin, fin, pin, tin, sin, win, big, dig, fig',
+          audioOffset: 40
+        },
+        {
+          text: 'pig, wig, bid, hid, did, kid, lid, rid, bib, nib',
+          audioOffset: 50
+        }
+      ]
+    },
+    {
+      id: 'jumble-2',
       type: 'sequence',
       label: '3 letter word',
       commonData: {
@@ -39,6 +130,7 @@ export default {
         'end | den, lap, pay, wet, wig, fur, lot, log, rug, pet'
       ]
     },
+    //ref:
     {
       type: 'completeWord',
       id: 'complete-word',
