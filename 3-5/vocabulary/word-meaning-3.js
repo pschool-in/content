@@ -22,7 +22,6 @@ export default {
           steps: [
             [
               {
-                type: 'title',
                 text: 'big',
                 x: 125,
                 y: 146
@@ -39,10 +38,9 @@ export default {
             ],
             [
               {
-                type: 'title',
                 text: 'great',
-                x: 125,
-                y: 146
+                x: 153,
+                y: 39
               },
               {
                 type: 'svg',
@@ -57,14 +55,13 @@ export default {
             ],
             [
               {
-                type: 'title',
                 text: 'large',
-                x: 125,
-                y: 146
+                x: 43,
+                y: 85
               },
               {
                 type: 'svg',
-                text: [
+                list: [
                   {
                     d: 'M 70 87 C 95 87 115 94 116 102 C 116 110 96 116 70 116 C 45 116 24 110 23 102 C 22 94 43 87 70 87',
                     fill: '#B2DFDB'
@@ -75,14 +72,13 @@ export default {
             ],
             [
               {
-                type: 'title',
                 text: 'huge',
-                x: 125,
-                y: 146
+                x: 233,
+                y: 116
               },
               {
                 type: 'svg',
-                text: [
+                list: [
                   {
                     d: 'M 257 112 C 279 112 296 120 297 131 C 297 141 279 149 257 150 C 235 150 217 141 216 131 C 215 121 233 113 257 112',
                     fill: '#D7CCC8'
@@ -93,14 +89,13 @@ export default {
             ],
             [
               {
-                type: 'title',
                 text: 'massive',
-                x: 125,
-                y: 146
+                x: 194,
+                y: 201
               },
               {
                 type: 'svg',
-                text: [
+                list: [
                   {
                     d: 'M 221 200 C 250 200 273 208 275 217 C 275 226 251 234 221 234 C 191 234 168 227 167 217 C 166 208 189 201 221 200',
                     fill: '#B0BEC5'
@@ -111,14 +106,13 @@ export default {
             ],
             [
               {
-                type: 'title',
                 text: 'mammoth',
-                x: 125,
-                y: 146
+                x: 32,
+                y: 192
               },
               {
                 type: 'svg',
-                text: [
+                list: [
                   {
                     d: 'M 73 189 C 103 189 127 197 128 207 C 128 216 104 224 73 224 C 44 224 20 217 19 207 C 18 197 42 190 73 189',
                     fill: '#F8BBD0'
