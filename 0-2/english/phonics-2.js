@@ -34,7 +34,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-14.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
@@ -112,7 +113,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-15.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
@@ -199,7 +201,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-16.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
@@ -286,7 +289,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-17.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
@@ -364,7 +368,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-18.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
@@ -442,7 +447,8 @@ slide, slow, slate, slug`
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-19.mp3',
-        breakWord: false
+        breakWord: false,
+        audioWidth: 1
       },
       data: [
         {
