@@ -678,7 +678,7 @@ The <i><b>custom</b></i> of exchanging gifts during the holidays is widely pract
               {
                 type: 'html',
                 text: `Eg: <br><br>
-  Without proper maintenance, the old house began to <i><b>decay</b></i> over time.<br><br>
+Without proper maintenance, the old house began to <i><b>decay</b></i> over time.<br><br>
 The <i><b>decay</b></i> of fallen leaves on the forest floor contributes to nutrient recycling.`
               }
             ]
@@ -803,7 +803,7 @@ The organic phenomenon of rotting | Decay`
         title: `Word Meanings 2`,
         displayType: 'custom',
         autoPlay: false,
-        substep: true
+        substep: false
       },
       data: [
         {
@@ -817,7 +817,7 @@ The organic phenomenon of rotting | Decay`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              She signed the <i><b>deed</b></i> to her new house, officially transferring ownership.<br><br>
+She signed the <i><b>deed</b></i> to her new house, officially transferring ownership.<br><br>
 The property <i><b>deed</b></i> was carefully examined by the lawyers to ensure all legal requirements were met.`
               }
             ],
@@ -830,7 +830,7 @@ The property <i><b>deed</b></i> was carefully examined by the lawyers to ensure 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The brave knight stood ready to <i><b>defend</b></i> the kingdom against the approaching dragon.<br><br>
+The brave knight stood ready to <i><b>defend</b></i> the kingdom against the approaching dragon.<br><br>
 It's essential to <i><b>defend</b></i> your rights and speak up when you're being treated unfairly.`
               }
             ],
@@ -843,7 +843,7 @@ It's essential to <i><b>defend</b></i> your rights and speak up when you're bein
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The <i><b>delicate</b></i> embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.<br><br>
+The <i><b>delicate</b></i> embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.<br><br>
 Handling antique china requires a <i><b>delicate</b></i> touch to avoid any damage.`
               }
             ],
@@ -856,7 +856,7 @@ Handling antique china requires a <i><b>delicate</b></i> touch to avoid any dama
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              A smartphone is a versatile <i><b>device</b></i> that allows you to communicate, browse the internet, and take photos.<br><br>
+A smartphone is a versatile <i><b>device</b></i> that allows you to communicate, browse the internet, and take photos.<br><br>
 The scientist invented a groundbreaking <i><b>device</b></i> for detecting pollution in the air.`
               }
             ],
@@ -869,7 +869,7 @@ The scientist invented a groundbreaking <i><b>device</b></i> for detecting pollu
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The <i><b>diagram</b></i> in the textbook illustrated the process of photosynthesis in plants.<br><br>
+The <i><b>diagram</b></i> in the textbook illustrated the process of photosynthesis in plants.<br><br>
 The architect created a detailed <i><b>diagram</b></i> of the building's layout before construction began.`
               }
             ]
@@ -886,7 +886,7 @@ The architect created a detailed <i><b>diagram</b></i> of the building's layout 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              Our digestive system helps <i><b>digest</b></i> the food we eat, breaking it down into nutrients for our body.<br><br>
+Our digestive system helps <i><b>digest</b></i> the food we eat, breaking it down into nutrients for our body.<br><br>
 After eating, it's important to give your body time to <i><b>digest</b></i> the meal before engaging in vigorous exercise.`
               }
             ],
@@ -899,7 +899,7 @@ After eating, it's important to give your body time to <i><b>digest</b></i> the 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              Vaccines have been crucial in preventing the spread of infectious <i><b>diseases</b></i> like polio and smallpox.<br><br>
+Vaccines have been crucial in preventing the spread of infectious <i><b>diseases</b></i> like polio and smallpox.<br><br>
 Regular handwashing is an effective way to reduce the risk of contracting contagious <i><b>diseases</b></i>.`
               }
             ],
@@ -912,7 +912,7 @@ Regular handwashing is an effective way to reduce the risk of contracting contag
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The mountains in the <i><b>distant</b></i> horizon looked like a hazy silhouette against the setting sun.<br><br>
+The mountains in the <i><b>distant</b></i> horizon looked like a hazy silhouette against the setting sun.<br><br>
 We could hear the <i><b>distant</b></i> sound of fireworks from the nearby city.`
               }
             ],
@@ -925,7 +925,7 @@ We could hear the <i><b>distant</b></i> sound of fireworks from the nearby city.
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              After a long day at work, she took a short <i><b>doze</b></i> on the couch to recharge.<br><br>
+After a long day at work, she took a short <i><b>doze</b></i> on the couch to recharge.<br><br>
 The rhythmic sound of the rain outside made it easy to <i><b>doze</b></i> off during the afternoon.`
               }
             ],
@@ -938,7 +938,7 @@ The rhythmic sound of the rain outside made it easy to <i><b>doze</b></i> off du
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The boat began to <i><b>drift</b></i> along the gentle current of the river.<br><br>
+The boat began to <i><b>drift</b></i> along the gentle current of the river.<br><br>
 In a snowstorm, it's easy for a car to <i><b>drift</b></i> off the road if not driven carefully.`
               }
             ]
@@ -955,7 +955,7 @@ In a snowstorm, it's easy for a car to <i><b>drift</b></i> off the road if not d
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              Her <i><b>elegant</b></i> evening gown turned heads at the formal event.<br><br>
+Her <i><b>elegant</b></i> evening gown turned heads at the formal event.<br><br>
 The interior of the upscale restaurant was adorned with <i><b>elegant</b></i> decor and artwork.`
               }
             ],
@@ -968,7 +968,7 @@ The interior of the upscale restaurant was adorned with <i><b>elegant</b></i> de
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              Accessible ramps and elevators <i><b>enable</b></i> people with disabilities to enter buildings easily.<br><br>
+Accessible ramps and elevators <i><b>enable</b></i> people with disabilities to enter buildings easily.<br><br>
 Installing the latest software update will <i><b>enable</b></i> new features on your computer.`
               }
             ],
@@ -981,7 +981,7 @@ Installing the latest software update will <i><b>enable</b></i> new features on 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The detective carefully <i><b>examined</b></i> the crime scene for any clues that might solve the case.<br><br>
+The detective carefully <i><b>examined</b></i> the crime scene for any clues that might solve the case.<br><br>
 Before the test, students were given time to <i><b>examine</b></i> their notes and textbooks.`
               }
             ],
@@ -994,7 +994,7 @@ Before the test, students were given time to <i><b>examine</b></i> their notes a
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The adventurous couple decided to <i><b>explore</b></i> the dense Amazon rainforest during their vacation.<br><br>
+The adventurous couple decided to <i><b>explore</b></i> the dense Amazon rainforest during their vacation.<br><br>
 NASA's Mars rover is on a mission to <i><b>explore</b></i> the Red Planet and gather data about its surface.`
               }
             ],
@@ -1007,7 +1007,7 @@ NASA's Mars rover is on a mission to <i><b>explore</b></i> the Red Planet and ga
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              She used a handheld <i><b>fan</b></i> to cool off during the hot summer day.<br><br>
+She used a handheld <i><b>fan</b></i> to cool off during the hot summer day.<br><br>
 The enthusiastic soccer <i><b>fans</b></i> cheered loudly for their favorite team.`
               }
             ]
@@ -1024,7 +1024,7 @@ The enthusiastic soccer <i><b>fans</b></i> cheered loudly for their favorite tea
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The car accident had a <i><b>fatal</b></i> outcome, and several lives were tragically lost.<br><br>
+The car accident had a <i><b>fatal</b></i> outcome, and several lives were tragically lost.<br><br>
 Even a seemingly minor mistake in handling chemicals can have <i><b>fatal</b></i> consequences.`
               }
             ],
@@ -1037,7 +1037,7 @@ Even a seemingly minor mistake in handling chemicals can have <i><b>fatal</b></i
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The <i><b>fierce</b></i> storm brought strong winds and heavy rain, causing damage to homes and trees.<br><br>
+The <i><b>fierce</b></i> storm brought strong winds and heavy rain, causing damage to homes and trees.<br><br>
 The <i><b>fierce</b></i> competition between the two rival companies led to innovative product development.`
               }
             ],
@@ -1050,219 +1050,307 @@ The <i><b>fierce</b></i> competition between the two rival companies led to inno
               {
                 type: 'html',
                 text: `Eg: <br><br>
-              The butterfly began to <i><b>flutter</b></i> its colorful wings as it took flight.<br><br>
+The butterfly began to <i><b>flutter</b></i> its colorful wings as it took flight.<br><br>
 The pages of the book started to <i><b>flutter</b></i> in the breeze as the window was left open.`
               }
             ],
             [
-              'having unexpected good luck',
               {
                 type: 'title',
                 text: 'fortunate'
               },
-              `Winning the lottery was an incredibly fortunate turn of events for the struggling family.
-She considered herself fortunate to have a supportive and loving group of friends.`
+              '- having unexpected good luck',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Winning the lottery was an incredibly <i><b>fortunate</b></i> turn of events for the struggling family.<br><br>
+She considered herself <i><b>fortunate</b></i> to have a supportive and loving group of friends.`
+              }
             ],
             [
-              'physically weak',
               {
                 type: 'title',
                 text: 'frail'
               },
-              `The frail elderly woman needed assistance with daily tasks due to her weakened physical condition.
-The frail structure of the old bridge made it unsafe for heavy vehicles.`
+              '- physically weak',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>frail</b></i> elderly woman needed assistance with daily tasks due to her weakened physical condition.<br><br>
+The <i><b>frail</b></i> structure of the old bridge made it unsafe for heavy vehicles.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'a short labored intake of breath with the mouth open',
               {
                 type: 'title',
                 text: 'gasp'
               },
-              `She let out a gasp of surprise when she saw the breathtaking view from the mountaintop.
-The swimmer emerged from the water with a gasp, catching her breath after a long underwater dive.`
+              '- a short labored intake of breath with the mouth open',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She let out a <i><b>gasp</b></i> of surprise when she saw the breathtaking view from the mountaintop.<br><br>
+The swimmer emerged from the water with a <i><b>gasp</b></i>, catching her breath after a long underwater dive.`
+              }
             ],
             [
-              'move smoothly and effortlessly',
               {
                 type: 'title',
                 text: 'glide'
               },
-              `The graceful swan seemed to glide effortlessly across the tranquil pond.
-With the right technique, an ice skater can glide smoothly across the rink.`
+              '- move smoothly and effortlessly',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The graceful swan seemed to <i><b>glide</b></i> effortlessly across the tranquil pond.<br><br>
+With the right technique, an ice skater can <i><b>glide</b></i> smoothly across the rink.`
+              }
             ],
             [
-              'an object with a spherical shape',
               {
                 type: 'title',
                 text: 'globe'
               },
-              `In the geography class, students studied a globe to learn about the Earth's continents and oceans.
-The world leaders gathered around a large globe to discuss global issues.`
+              '- an object with a spherical shape',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+In the geography class, students studied a <i><b>globe</b></i> to learn about the Earth's continents and oceans.<br><br>
+The world leaders gathered around a large <i><b>globe</b></i> to discuss global issues.`
+              }
             ],
             [
-              'elegance and beauty of movement or expression',
               {
                 type: 'title',
                 text: 'grace'
               },
-              `The ballet dancer moved with remarkable grace and precision, captivating the audience.
-She accepted the award with grace and humility, thanking her supporters and team.`
+              '- elegance and beauty of movement or expression',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The ballet dancer moved with remarkable <i><b>grace</b></i> and precision, captivating the audience.<br><br>
+She accepted the award with <i><b>grace</b></i> and humility, thanking her supporters and team.`
+              }
             ],
             [
-              'proceeding in small stages',
               {
                 type: 'title',
                 text: 'gradual'
               },
-              `The gradual transition from day to night was marked by the slow dimming of the sky.
-Learning a new language often involves a gradual improvement in vocabulary and grammar skills.`
+              '- proceeding in small stages',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>gradual</b></i> transition from day to night was marked by the slow dimming of the sky.<br><br>
+Learning a new language often involves a <i><b>gradual</b></i> improvement in vocabulary and grammar skills.`
+              }
             ],
             [
-              'hold firmly',
               {
                 type: 'title',
                 text: 'grasp'
               },
-              `He reached out to grasp the doorknob, but it slipped through his fingers.
-The teacher helped her students grasp complex mathematical concepts through clear explanations.`
+              '- hold firmly',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+He reached out to <i><b>grasp</b></i> the doorknob, but it slipped through his fingers.<br><br>
+The teacher helped her students <i><b>grasp</b></i> complex mathematical concepts through clear explanations.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'an established custom',
               {
                 type: 'title',
                 text: 'habit'
               },
-              `Her morning habit was to start the day with a cup of freshly brewed coffee.
-Breaking a bad habit often requires commitment and self-discipline.`
+              '- an established custom',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Her morning <i><b>habit</b></i> was to start the day with a cup of freshly brewed coffee.<br><br>
+Breaking a bad <i><b>habit</b></i> often requires commitment and self-discipline.`
+              }
             ],
             [
-              'disagreeable to the senses',
               {
                 type: 'title',
                 text: 'harsh'
               },
-              `The harsh winter weather made it difficult to drive on icy roads.
-His harsh criticism of the team's performance upset some of the players.`
+              '- disagreeable to the senses',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>harsh</b></i> winter weather made it difficult to drive on icy roads.<br><br>
+His <i><b>harsh</b></i> criticism of the team's performance upset some of the players.`
+              }
             ],
             [
-              `reproduce someone's behavior or looks`,
               {
                 type: 'title',
                 text: 'imitate'
               },
-              `Children often imitate their parents' behavior and speech patterns.
-The talented impressionist comedian could flawlessly imitate various celebrities.`
+              `- reproduce someone's behavior or looks`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Children often <i><b>imitate</b></i> their parents' behavior and speech patterns.<br><br>
+The talented impressionist comedian could flawlessly <i><b>imitate</b></i> various celebrities.`
+              }
             ],
             [
-              'being or characteristic of a single thing or person',
               {
                 type: 'title',
                 text: 'individual'
               },
-              `Each individual in the group had a unique perspective on the issue.
-The company celebrated the achievements of every individual employee at the annual awards ceremony.`
+              '- being or characteristic of a single thing or person',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Each <i><b>individual</b></i> in the group had a unique perspective on the issue.<br><br>
+The company celebrated the achievements of every <i><b>individual</b></i> employee at the annual awards ceremony.`
+              }
             ],
             [
-              'having the capacity for thought and reason to a high degree',
               {
                 type: 'title',
                 text: 'intelligent'
               },
-              `She was known for her intelligent problem-solving skills and insightful ideas.
-Albert Einstein was regarded as one of the most intelligent scientists in history.`
+              '- having the capacity for thought and reason to a high degree',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She was known for her <i><b>intelligent</b></i> problem-solving skills and insightful ideas.<br><br>
+Albert Einstein was regarded as one of the most <i><b>intelligent</b></i> scientists in history.`
+              }
             ],
             [
-              'have in mind as a purpose',
               {
                 type: 'title',
                 text: 'intend'
               },
-              `I intend to complete my degree in computer science within the next two years.
-His actions clearly showed that he did not intend to cause any harm.`
+              '- have in mind as a purpose',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+I <i><b>intend</b></i> to complete my degree in computer science within the next two years.<br><br>
+His actions clearly showed that he did not <i><b>intend</b></i> to cause any harm.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'the act of traveling from one place to another',
               {
                 type: 'title',
                 text: 'journey'
               },
-              `The journey across the country by train provided breathtaking views of diverse landscapes.
-Life is a continuous journey, and every day brings new experiences.`
+              '- the act of traveling from one place to another',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>journey</b></i> across the country by train provided breathtaking views of diverse landscapes.<br><br>
+Life is a continuous <i><b>journey</b></i>, and every day brings new experiences.`
+              }
             ],
             [
-              'propel with force',
               {
                 type: 'title',
                 text: 'launch'
               },
-              `The company decided to launch its new product with a high-profile advertising campaign.
-The space agency prepared to launch the spacecraft into orbit.`
+              '- propel with force',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The company decided to <i><b>launch</b></i> its new product with a high-profile advertising campaign.<br><br>
+The space agency prepared to <i><b>launch</b></i> the spacecraft into orbit.`
+              }
             ],
             [
-              'as far as something can go',
               {
                 type: 'title',
                 text: 'limit'
               },
-              `There's a limit to how much weight the bridge can support before it becomes unsafe.
-The doctor advised him to limit his intake of sugary foods for the sake of his health.`
+              '- as far as something can go',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+There's a <i><b>limit</b></i> to how much weight the bridge can support before it becomes unsafe.<br><br>
+The doctor advised him to <i><b>limit</b></i> his intake of sugary foods for the sake of his health.`
+              }
             ],
             [
-              'determine the place of by searching or examining',
               {
                 type: 'title',
                 text: 'locate'
               },
-              `The treasure hunters used a map to locate the buried chest of gold.
-He needed to locate his misplaced car keys before he could leave for work.`
+              '- determine the place of by searching or examining',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The treasure hunters used a map to <i><b>locate</b></i> the buried chest of gold.<br><br>
+He needed to <i><b>locate</b></i> his misplaced car keys before he could leave for work.`
+              }
             ],
             [
-              'steadfast in allegiance or duty',
               {
                 type: 'title',
                 text: 'loyal'
               },
-              `A loyal friend stands by you through both good times and bad, offering support and trust.
-The dog's loyal devotion to its owner was evident in its unwavering affection.`
+              '- steadfast in allegiance or duty',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+A <i><b>loyal</b></i> friend stands by you through both good times and bad, offering support and trust.<br><br>
+The dog's <i><b>loyal</b></i> devotion to its owner was evident in its unwavering affection.`
+              }
             ],
             [
-              'characterized by grandeur',
               {
                 type: 'title',
                 text: 'magnificent'
               },
-              `The grand, magnificent palace was a testament to the wealth and power of the royal family.
-The sunset over the ocean painted a magnificent panorama of colors in the sky.`
+              '- characterized by grandeur',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The grand, <i><b>magnificent</b></i> palace was a testament to the wealth and power of the royal family.<br><br>
+The sunset over the ocean painted a <i><b>magnificent</b></i> panorama of colors in the sky.`
+              }
             ],
             [
-              'low-lying wet land with grassy vegetation',
               {
                 type: 'title',
                 text: 'marsh'
               },
-              `The nature reserve was home to a beautiful, serene marsh with diverse wildlife.
-We had to carefully navigate through the muddy marsh during our hike.`
+              '- low-lying wet land with grassy vegetation',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The nature reserve was home to a beautiful, serene <i><b>marsh</b></i> with diverse wildlife.<br><br>
+We had to carefully navigate through the muddy <i><b>marsh</b></i> during our hike.`
+              }
             ],
             [
-              'a way of doing something, especially a systematic way',
               {
                 type: 'title',
                 text: 'method'
               },
-              `Scientists followed a rigorous method of data collection and analysis in their research.
-The best method for controlling weeds is having a goat.`
+              '- a way of doing something, especially a systematic way',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Scientists followed a rigorous <i><b>method</b></i> of data collection and analysis in their research. <br><br>
+The best <i><b>method</b></i> for controlling weeds is having a goat.`
+              }
             ]
           ]
         }
