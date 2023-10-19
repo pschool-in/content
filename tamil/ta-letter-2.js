@@ -3,6 +3,7 @@ export default {
   id: 'ta-letter-2',
   img: 'writing',
   lockAfter: 3,
+  lang: 'ta',
   list: [
     {
       id: '100',
