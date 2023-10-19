@@ -11,394 +11,554 @@ export default {
         title: `Word Meanings`,
         displayType: 'custom',
         autoPlay: false,
-        substep: true
+        substep: false
       },
       data: [
         {
           steps: [
             [
-              'a state of ill-being due to affliction or misfortune',
               {
                 type: 'title',
                 text: 'misery'
               },
-              `The refugee's life was filled with misery as they struggled to find safety and stability.
-Human suffering, pain, misery, separation and bereavement are inevitable when wars are fought.`
+              '- a state of ill-being due to affliction or misfortune',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The refugee's life was filled with <i><b>misery</b></i> as they struggled to find safety and stability.<br><br>
+Human suffering, pain, <i><b>misery</b></i>, separation and bereavement are inevitable when wars are fought.`
+              }
             ],
             [
-              'wetness caused by water',
               {
                 type: 'title',
                 text: 'moisture'
               },
-              `The morning dew added a touch of moisture to the grass, glistening in the sunlight.
-To keep the skin hydrated, it's important to use a moisturizer that locks in moisture.`
+              '- wetness caused by water',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The morning dew added a touch of <i><b>moisture</b></i> to the grass, glistening in the sunlight.<br><br>
+To keep the skin hydrated, it's important to use a moisturizer that locks in <i><b>moisture</b></i>.`
+              }
             ],
             [
-              'a painting that is applied to a wall surface',
               {
                 type: 'title',
                 text: 'mural'
               },
-              `The artist spent weeks working on a stunning mural that covered an entire wall of the art gallery.
-The schoolchildren collaborated on a colorful mural to brighten up their classroom.`
+              '- a painting that is applied to a wall surface',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The artist spent weeks working on a stunning <i><b>mural</b></i> that covered an entire wall of the art gallery.<br><br>
+The school children collaborated on a colorful <i><b>mural</b></i> to brighten up their classroom.`
+              }
             ],
             [
-              'be puzzling or bewildering to',
               {
                 type: 'title',
                 text: 'mystify'
               },
-              `The magician's tricks never failed to mystify the audience, leaving them in awe.
-The cryptic message in the old book continued to mystify researchers for years.`
+              '- be puzzling or bewildering to',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The magician's tricks never failed to <i><b>mystify</b></i> the audience, leaving them in awe.<br><br>
+The cryptic message in the old book continued to <i><b>mystify</b></i> researchers for years.`
+              }
             ],
             [
-              'a sweet liquid secretion that is attractive to pollinators',
               {
                 type: 'title',
                 text: 'nectar'
               },
-              `The sweet nectar of the flowers attracted a variety of colorful butterflies.
-The bees diligently collected nectar from the blossoms to make honey.`
+              '- a sweet liquid secretion that is attractive to pollinators',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The sweet <i><b>nectar</b></i> of the flowers attracted a variety of colorful butterflies.<br><br>
+The bees diligently collected <i><b>nectar</b></i> from the blossoms to make honey.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              `a child's room for a baby`,
               {
                 type: 'title',
                 text: 'nursery'
               },
-              `The nursery was decorated with soft pastel colors, creating a peaceful atmosphere for the baby.
-The childcare center provided a safe and nurturing environment for young children in the nursery.`
+              `- a child's room for a baby`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>nursery</b></i> was decorated with soft pastel colors, creating a peaceful atmosphere for the baby.<br><br>
+The childcare center provided a safe and nurturing environment for young children in the <i><b>nursery</b></i>.`
+              }
             ],
             [
-              `watch attentively`,
               {
                 type: 'title',
                 text: 'observe'
               },
-              `Birdwatchers often spend hours in the park to observe different bird species in their natural habitat.
-It's crucial to observe safety regulations when using equipment to prevent accidents.`
+              `- watch attentively`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Birdwatchers often spend hours in the park to <i><b>observe</b></i> different bird species in their natural habitat.<br><br>
+It's crucial to <i><b>observe</b></i> safety regulations when using equipment to prevent accidents.`
+              }
             ],
             [
-              'someone who offers resistance',
               {
                 type: 'title',
                 text: 'opponent'
               },
-              `In the boxing ring, the determined fighter faced a formidable opponent.
-The political opponent delivered a passionate speech in response to the proposed legislation.`
+              '- someone who offers resistance',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+In the boxing ring, the determined fighter faced a formidable <i><b>opponent</b></i>.<br><br>
+The political <i><b>opponent</b></i> delivered a passionate speech in response to the proposed legislation.`
+              }
             ],
             [
-              'being directly across from each other',
               {
                 type: 'title',
                 text: 'opposite'
               },
-              `The restaurant was located on the opposite side of the street, requiring a brief walk to reach it.
-In terms of personality, the twins were complete opposites, one being outgoing and the other reserved.`
+              '- being directly across from each other',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The restaurant was located on the <i><b>opposite</b></i> side of the street, requiring a brief walk to reach it.<br><br>
+In terms of personality, the twins were complete <i><b>opposites</b></i>, one being outgoing and the other reserved.`
+              }
             ],
             [
-              'a severe or trying experience',
               {
                 type: 'title',
                 text: 'ordeal'
               },
-              `Surviving a plane crash in the wilderness was a harrowing ordeal for the passengers.
-He survived the ordeal and eventually wrote a book about it.`
+              '- a severe or trying experience',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Surviving a plane crash in the wilderness was a harrowing <i><b>ordeal</b></i> for the passengers.<br><br>
+He survived the <i><b>ordeal</b></i> and eventually wrote a book about it.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'the place where something begins',
               {
                 type: 'title',
                 text: 'origin'
               },
-              `The origin of the ancient artifact was traced back to a lost civilization.
-Understanding the origin of a word can provide insight into its meaning and usage.`
+              '- the place where something begins',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>origin</b></i> of the ancient artifact was traced back to a lost civilization.<br><br>
+Understanding the <i><b>origin</b></i> of a word can provide insight into its meaning and usage.`
+              }
             ],
             [
-              'something that results',
               {
                 type: 'title',
                 text: 'outcome'
               },
-              `The outcome of the negotiation was a mutually beneficial agreement for both parties.
-The success of a project often depends on the effort put into achieving a favorable outcome.`
+              '- something that results',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>outcome</b></i> of the negotiation was a mutually beneficial agreement for both parties.<br><br>
+The success of a project often depends on the effort put into achieving a favorable <i><b>outcome</b></i>.`
+              }
             ],
             [
-              'the act of moving from one state or place to the next',
               {
                 type: 'title',
                 text: 'passage'
               },
-              `The passage from childhood to adulthood is marked by significant changes and growth.
-The ship navigated through a narrow passage between two cliffs, leading to a hidden cove.`
+              '- the act of moving from one state or place to the next',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>passage</b></i> from childhood to adulthood is marked by significant changes and growth.<br><br>
+The ship navigated through a narrow <i><b>passage</b></i> between two cliffs, leading to a hidden cove.`
+              }
             ],
             [
-              'an interest or pursuit that someone pursues regularly',
               {
                 type: 'title',
                 text: 'pastime'
               },
-              `Reading is a beloved pastime for many people, allowing them to escape into different worlds.
-Playing board games is a popular pastime for families, promoting quality time together.`
+              '- an interest or pursuit that someone pursues regularly',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Reading is a beloved <i><b>pastime</b></i> for many people, allowing them to escape into different worlds.<br><br>
+Playing board games is a popular <i><b>pastime</b></i> for families, promoting quality time together.`
+              }
             ],
             [
-              'cease an action temporarily',
               {
                 type: 'title',
                 text: 'pause'
               },
-              `The music conductor signaled for a brief pause before the orchestra continued playing.
-Take a moment to pause and reflect on your goals before making a decision.`
+              '- cease an action temporarily',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The music conductor signaled for a brief <i><b>pause</b></i> before the orchestra continued playing.<br><br>
+Take a moment to <i><b>pause</b></i> and reflect on your goals before making a decision.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'get done',
               {
                 type: 'title',
                 text: 'perform'
               },
-              `The talented musician was set to perform a concert in front of a large audience.
-The surgical team worked tirelessly to perform a life-saving operation.`
+              '- get done',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The talented musician was set to <i><b>perform</b></i> a concert in front of a large audience.<br><br>
+The surgical team worked tirelessly to <i><b>perform</b></i> a life-saving operation.`
+              }
             ],
             [
-              'dash violently or with great speed or impetuosity',
               {
                 type: 'title',
                 text: 'plunge'
               },
-              `The thrill-seekers decided to plunge into the icy waters of the mountain lake.
-The stock market experienced a sudden plunge in value, causing concern among investors.`
+              '- dash violently or with great speed or impetuosity',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The thrill-seekers decided to <i><b>plunge</b></i> into the icy waters of the mountain lake.<br><br>
+The stock market experienced a sudden <i><b>plunge</b></i> in value, causing concern among investors.`
+              }
             ],
             [
-              'any animal that lives by preying on other animals',
               {
                 type: 'title',
                 text: 'predator'
               },
-              `Lions are known as fierce predators in the African savanna, hunting for their prey.
-The bird of prey is a skilled predator, soaring high in the sky in search of small animals.`
+              '- any animal that lives by preying on other animals',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Lions are known as fierce <i><b>predators</b></i> in the African savanna, hunting for their prey.<br><br>
+The bird of prey is a skilled <i><b>predator</b></i>, soaring high in the sky in search of small animals.`
+              }
             ],
             [
-              'make a guess about what will happen in the future',
               {
                 type: 'title',
                 text: 'predict'
               },
-              `Meteorologists use advanced technology to predict the weather, helping people prepare for storms.
-Experts try to predict the economic trends based on various factors and data.`
+              '- make a guess about what will happen in the future',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Meteorologists use advanced technology to <i><b>predict</b></i> the weather, helping people prepare for storms.<br><br>
+Experts try to <i><b>predict</b></i> the economic trends based on various factors and data.`
+              }
             ],
             [
-              'keep from happening or arising; make impossible',
               {
                 type: 'title',
                 text: 'prevent'
               },
-              `Regular exercise and a healthy diet can help prevent many common health issues.
-The security measures in place are designed to prevent unauthorized access to the building.`
+              '- keep from happening or arising; make impossible',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Regular exercise and a healthy diet can help <i><b>prevent</b></i> many common health issues.<br><br>
+The security measures in place are designed to <i><b>prevent</b></i> unauthorized access to the building.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'of first rank or importance or value',
               {
                 type: 'title',
                 text: 'primary'
               },
-              `Education is a primary focus in a child's development, setting the foundation for future success.
-The primary goal of the project was to reduce carbon emissions and promote sustainability.`
+              '- of first rank or importance or value',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Education is a <i><b>primary</b></i> focus in a child's development, setting the foundation for future success.<br><br>
+The <i><b>primary</b></i> goal of the project was to reduce carbon emissions and promote sustainability.`
+              }
             ],
             [
-              'a special advantage or benefit not enjoyed by all',
               {
                 type: 'title',
                 text: 'privilege'
               },
-              `Having access to quality education is a privilege that not everyone in the world enjoys.
-Being able to travel and explore new cultures is a privilege that broadens one's perspective.`
+              '- a special advantage or benefit not enjoyed by all',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Having access to quality education is a <i><b>privilege</b></i> that not everyone in the world enjoys.<br><br>
+Being able to travel and explore new cultures is a <i><b>privilege</b></i> that broadens one's perspective.`
+              }
             ],
             [
-              'a particular course of action intended to achieve a result',
               {
                 type: 'title',
                 text: 'process'
               },
-              `The manufacturing process involves multiple stages, from design to production.
-Cooking a meal requires following a specific process of chopping, seasoning, and cooking.`
+              '- a particular course of action intended to achieve a result',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The manufacturing <i><b>process</b></i> involves multiple stages, from design to production.<br><br>
+Cooking a meal requires following a specific <i><b>process</b></i> of chopping, seasoning, and cooking.`
+              }
             ],
             [
-              'especially good, remarkable, or superlative',
               {
                 type: 'title',
                 text: 'rare'
               },
-              `The rare gemstone found in the cave was one of the most valuable discoveries in years.
-A rare astronomical event, like a solar eclipse, is a captivating sight.`
+              '- especially good, remarkable, or superlative',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>rare</b></i> gemstone found in the cave was one of the most valuable discoveries in years.<br><br>
+A <i><b>rare</b></i> astronomical event, like a solar eclipse, is a captivating sight.`
+              }
             ],
             [
-              'a quantity considered as a proportion of another quantity',
               {
                 type: 'title',
                 text: 'rate'
               },
-              `The interest rate on the loan determines how much you'll pay in addition to the principal amount.
-The crime rate in the city has decreased significantly over the past decade.`
+              '- a quantity considered as a proportion of another quantity',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The interest <i><b>rate</b></i> on the loan determines how much you'll pay in addition to the principal amount.<br><br>
+The crime <i><b>rate</b></i> in the city has decreased significantly over the past decade.`
+              }
             ],
             [
-              'bring to mind',
               {
                 type: 'title',
                 text: 'recall'
               },
-              `She struggled to recall the name of the book she read years ago but could remember the plot.
-The car manufacturer issued a recall of a certain model due to a safety concern.`
+              '- bring to mind',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She struggled to <i><b>recall</b></i> the name of the book she read years ago but could remember the plot.<br><br>
+The car manufacturer issued a <i><b>recall</b></i> of a certain model due to a safety concern.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'have confidence or faith in',
               {
                 type: 'title',
                 text: 'rely'
               },
-              `In times of need, you can rely on your close friends to provide support.
-Businesses rely on customer feedback to improve their products and services.`
+              '- have confidence or faith in',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+In times of need, you can <i><b>rely</b></i> on your close friends to provide support.<br><br>
+Businesses <i><b>rely</b></i> on customer feedback to improve their products and services.`
+              }
             ],
             [
-              'make or write a comment on',
               {
                 type: 'title',
                 text: 'remark'
               },
-              `His remark during the meeting sparked a thoughtful discussion among the team members.
-She made a humorous remark that lightened the mood in the room.`
+              '- make or write a comment on',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+His <i><b>remark</b></i> during the meeting sparked a thoughtful discussion among the team members.<br><br>
+She made a humorous <i><b>remark</b></i> that lightened the mood in the room.`
+              }
             ],
             [
-              `someone who lives at a particular place for a long period`,
               {
                 type: 'title',
                 text: 'resident'
               },
-              `The resident of the neighborhood organized a community clean-up event to improve the area.
-A resident of the town for over 30 years, he had witnessed many changes over time.`
+              `- someone who lives at a particular place for a long period`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>resident</b></i> of the neighborhood organized a community clean-up event to improve the area.<br><br>
+A <i><b>resident</b></i> of the town for over 30 years, he had witnessed many changes over time.`
+              }
             ],
             [
-              'regard highly; think much of',
               {
                 type: 'title',
                 text: 'respect'
               },
-              `It's important to respect other people's opinions and values, even if they differ from your own.
-The teacher earned the respect of her students through her dedication and fairness.`
+              '- regard highly; think much of',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+It's important to <i><b>respect</b></i> other people's opinions and values, even if they differ from your own.<br><br>
+The teacher earned the <i><b>respect</b></i> of her students through her dedication and fairness.`
+              }
             ],
             [
-              'worthy of or requiring trust; held accountable',
               {
                 type: 'title',
                 text: 'responsible'
               },
-              `Being responsible for a project means taking ownership of its success or failure.
-Parents must teach their children to be responsible and accountable for their actions.`
+              '- worthy of or requiring trust; held accountable',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Being <i><b>responsible</b></i> for a project means taking ownership of its success or failure.<br><br>
+Parents must teach their children to be <i><b>responsible</b></i> and accountable for their actions.`
+              }
             ],
             [
-              'change to the contrary',
               {
                 type: 'title',
                 text: 'reverse'
               },
-              `The company decided to reverse its previous decision and rehire the experienced employee.
-The movie's plot took an unexpected reverse in the final act, surprising the audience.`
+              '- change to the contrary',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The company decided to <i><b>reverse</b></i> its previous decision and rehire the experienced employee.<br><br>
+The movie's plot took an unexpected <i><b>reverse</b></i> in the final act, surprising the audience.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'cause to regain consciousness',
               {
                 type: 'title',
                 text: 'revive'
               },
-              `The quick administration of CPR helped to revive the unconscious swimmer at the pool.
-A good night's sleep can help you revive your energy and mental alertness.`
+              '- cause to regain consciousness',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The quick administration of CPR helped to <i><b>revive</b></i> the unconscious swimmer at the pool.<br><br>
+A good night's sleep can help you <i><b>revive</b></i> your energy and mental alertness.`
+              }
             ],
             [
-              'a source of danger',
               {
                 type: 'title',
                 text: 'risk'
               },
-              `Investing in the stock market carries a certain level of financial risk due to market fluctuations.
-Crossing a busy street without using the crosswalk is a dangerous risk to one's safety.`
+              '- a source of danger',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Investing in the stock market carries a certain level of financial <i><b>risk</b></i> due to market fluctuations.<br><br>
+Crossing a busy street without using the crosswalk is a dangerous <i><b>risk</b></i> to one's safety.`
+              }
             ],
             [
-              'cause to separate and go in different directions',
               {
                 type: 'title',
                 text: 'scatter'
               },
-              `The strong wind caused the leaves to scatter in all directions, creating a colorful spectacle.
-The children were told not to scatter their toys all over the living room.`
+              '- cause to separate and go in different directions',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The strong wind caused the leaves to <i><b>scatter</b></i> in all directions, creating a colorful spectacle.<br><br>
+The children were told not to <i><b>scatter</b></i> their toys all over the living room.`
+              }
             ],
             [
-              'a list of times at which things are planned to occur',
               {
                 type: 'title',
                 text: 'schedule'
               },
-              `I have a busy schedule this week, with meetings and deadlines every day.
-The school's schedule includes classes in the morning and extracurricular activities in the afternoon.`
+              '- a list of times at which things are planned to occur',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+I have a busy <i><b>schedule</b></i> this week, with meetings and deadlines every day.<br><br>
+The school's <i><b>schedule</b></i> includes classes in the morning and extracurricular activities in the afternoon.`
+              }
             ],
             [
-              'responsive to physical stimuli',
               {
                 type: 'title',
                 text: 'sensitive'
               },
-              `Some people have sensitive skin that may react to certain skincare products.
-It's crucial to be sensitive to the feelings of others and avoid hurtful comments.`
+              '- responsive to physical stimuli',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Some people have <i><b>sensitive</b></i> skin that may react to certain skincare products.<br><br>
+It's crucial to be <i><b>sensitive</b></i> to the feelings of others and avoid hurtful comments.`
+              }
             ],
             [
-              'any action or gesture that encodes a message',
               {
                 type: 'title',
                 text: 'signal'
               },
-              `The traffic light changed from red to green, giving the signal for the cars to proceed.
-Nonverbal signals, like body language, can convey important messages in a conversation.`
+              '- any action or gesture that encodes a message',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The traffic light changed from red to green, giving the <i><b>signal</b></i> for the cars to proceed.<br><br>
+Nonverbal <i><b>signals</b></i>, like body language, can convey important messages in a conversation.`
+              }
             ],
             [
-              'a homogeneous mixture of two or more substances',
               {
                 type: 'title',
                 text: 'solution'
               },
-              `The scientist worked tirelessly to find a solution to the environmental problem.
-The solution to the puzzle required careful thought and creativity.`
+              '- a homogeneous mixture of two or more substances',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The scientist worked tirelessly to find a <i><b>solution</b></i> to the environmental problem.<br><br>
+The <i><b>solution</b></i> to the puzzle required careful thought and creativity.`
+              }
             ],
             [
-              'make a mess of, destroy or ruin',
               {
                 type: 'title',
                 text: 'spoil'
               },
-              `Leaving food out in the sun can cause it to spoil quickly, making it unsafe to eat.
-It's important not to spoil children with excessive gifts, as it may lead to entitlement.`
+              '- make a mess of, destroy or ruin',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Leaving food out in the sun can cause it to <i><b>spoil</b></i> quickly, making it unsafe to eat.<br><br>
+It's important not to <i><b>spoil</b></i> children with excessive gifts, as it may lead to entitlement.`
+              }
             ]
           ]
         }
@@ -521,193 +681,269 @@ Make a mess of, destroy or ruin | Spoil`
         title: `Word Meanings 2`,
         displayType: 'custom',
         autoPlay: false,
-        substep: true
+        substep: false
       },
       data: [
         {
           steps: [
             [
-              'die of food deprivation',
               {
                 type: 'title',
                 text: 'starve'
               },
-              `In times of famine, people may starve due to the scarcity of food.
-The decision to starve themselves in protest drew attention to the hunger strike.`
+              '- die of food deprivation',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+In times of famine, people may <i><b>starve</b></i> due to the scarcity of food.<br><br>
+The decision to <i><b>starve</b></i> themselves in protest drew attention to the hunger strike.`
+              }
             ],
             [
-              'be a guiding or motivating force or drive',
               {
                 type: 'title',
                 text: 'steer'
               },
-              `Parents often steer their children toward positive life choices through guidance and support.
-As the captain of the ship, he had to steer the vessel safely through treacherous waters.`
+              '- be a guiding or motivating force or drive',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Parents often <i><b>steer</b></i> their children toward positive life choices through guidance and support.<br><br>
+As the captain of the ship, he had to <i><b>steer</b></i> the vessel safely through treacherous waters.`
+              }
             ],
             [
-              'strenuous effort',
               {
                 type: 'title',
                 text: 'struggle'
               },
-              `The journey to overcome addiction can be a long and challenging struggle.
-Despite the struggle, they persevered and achieved their goals.`
+              '- strenuous effort',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The journey to overcome addiction can be a long and challenging <i><b>struggle</b></i>.<br><br>
+Despite the <i><b>struggle</b></i>, they persevered and achieved their goals.`
+              }
             ],
             [
-              'meant or adapted for an occasion or use',
               {
                 type: 'title',
                 text: 'suitable'
               },
-              `The formal attire was suitable for the wedding ceremony, adhering to the dress code.
-The spacious and well-lit room was suitable for hosting a productive business meeting.`
+              '- meant or adapted for an occasion or use',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The formal attire was <i><b>suitable</b></i> for the wedding ceremony, adhering to the dress code.<br><br>
+The spacious and well-lit room was <i><b>suitable</b></i> for hosting a productive business meeting.`
+              }
             ],
             [
-              'determining opinions by interviewing people',
               {
                 type: 'title',
                 text: 'survey'
               },
-              `Researchers conducted a survey to gather opinions from the public on environmental issues.
-The annual customer satisfaction survey revealed areas for improvement in the company's services.`
+              '- determining opinions by interviewing people',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Researchers conducted a <i><b>survey</b></i> to gather opinions from the public on environmental issues.<br><br>
+The annual customer satisfaction <i><b>survey</b></i> revealed areas for improvement in the company's services.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              `moving very fast`,
               {
                 type: 'title',
                 text: 'swift'
               },
-              `The swift response of the firefighters prevented the wildfire from spreading further.
-The cheetah is known for its incredible swift speed in pursuit of prey.`
+              `- moving very fast`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>swift</b></i> response of the firefighters prevented the wildfire from spreading further.<br><br>
+The cheetah is known for its incredible <i><b>swift</b></i> speed in pursuit of prey.`
+              }
             ],
             [
-              `something visible that represents something invisible`,
               {
                 type: 'title',
                 text: 'symbol'
               },
-              `The dove is often seen as a symbol of peace and harmony in many cultures.
-The red heart is a common symbol of love and affection.`
+              `- something visible that represents something invisible`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The dove is often seen as a <i><b>symbol</b></i> of peace and harmony in many cultures.<br><br>
+The red heart is a common <i><b>symbol</b></i> of love and affection.`
+              }
             ],
             [
-              'natural abilities or qualities',
               {
                 type: 'title',
                 text: 'talent'
               },
-              `The young musician displayed a remarkable talent for playing the piano, captivating the audience.
-Her artistic talent shone through her beautifully painted landscapes.`
+              '- natural abilities or qualities',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The young musician displayed a remarkable <i><b>talent</b></i> for playing the piano, captivating the audience.<br><br>
+Her artistic <i><b>talent</b></i> shone through her beautifully painted landscapes.`
+              }
             ],
             [
-              'a belief that can guide behavior',
               {
                 type: 'title',
                 text: 'theory'
               },
-              `In science, a theory is a well-established explanation that has undergone extensive testing.
-The theory of relativity, formulated by Albert Einstein, revolutionized the field of physics.`
+              '- a belief that can guide behavior',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+In science, a <i><b>theory</b></i> is a well-established explanation that has undergone extensive testing.<br><br>
+The <i><b>theory</b></i> of relativity, formulated by Albert Einstein, revolutionized the field of physics.`
+              }
             ],
             [
-              'something that causes a sudden intense feeling',
               {
                 type: 'title',
                 text: 'thrill'
               },
-              `The roller coaster ride provided an adrenaline-pumping thrill as it sped down steep drops and sharp turns.
-Achieving a long-term goal can bring a deep sense of thrill and accomplishment.`
+              '- something that causes a sudden intense feeling',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The roller coaster ride provided an adrenaline-pumping <i><b>thrill</b></i> as it sped down steep drops and sharp turns.<br><br>
+Achieving a long-term goal can bring a deep sense of <i><b>thrill</b></i> and accomplishment.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'any possession that is highly valued by its owner',
               {
                 type: 'title',
                 text: 'treasure'
               },
-              `The pirate legend spoke of hidden treasure buried on a remote island.
-The old journal contained clues to a lost family treasure hidden in the attic.`
+              '- any possession that is highly valued by its owner',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The pirate legend spoke of hidden <i><b>treasure</b></i> buried on a remote island.<br><br>
+The old journal contained clues to a lost family <i><b>treasure</b></i> hidden in the attic.`
+              }
             ],
             [
-              'a successful ending of a struggle or contest',
               {
                 type: 'title',
                 text: 'triumph'
               },
-              `The athlete's hard work and determination led to a triumph in the championship race.
-The successful launch of the spacecraft was a triumph for the entire space agency.`
+              '- a successful ending of a struggle or contest',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The athlete's hard work and determination led to a <i><b>triumph</b></i> in the championship race.<br><br>
+The successful launch of the spacecraft was a <i><b>triumph</b></i> for the entire space agency.`
+              }
             ],
             [
-              'the quality that renders something desirable',
               {
                 type: 'title',
                 text: 'value'
               },
-              `Honesty and integrity are qualities highly valued in both personal and professional relationships.
-The antique vase had great value due to its historical significance and craftsmanship.`
+              '- the quality that renders something desirable',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Honesty and integrity are qualities highly <i><b>valued</b></i> in both personal and professional relationships.<br><br>
+The antique vase had great <i><b>value</b></i> due to its historical significance and craftsmanship.`
+              }
             ],
             [
-              'the ability to see',
               {
                 type: 'title',
                 text: 'vision'
               },
-              `Good eyesight is essential for clear vision and the ability to see the world around us.
-The visionary leader had a grand vision for the future of the company.`
+              '- the ability to see',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Good eyesight is essential for clear <i><b>vision</b></i> and the ability to see the world around us.<br><br>
+The visionary leader had a grand <i><b>vision</b></i> for the future of the company.`
+              }
             ],
             [
-              'a person who performs work done by choice',
               {
                 type: 'title',
                 text: 'volunteer'
               },
-              `She decided to volunteer at the local animal shelter to help care for abandoned pets.
-Many volunteer firefighters responded to the emergency, bravely combating the blaze.`
+              '- a person who performs work done by choice',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She decided to <i><b>volunteer</b></i> at the local animal shelter to help care for abandoned pets.<br><br>
+Many <i><b>volunteer</b></i> firefighters responded to the emergency, bravely combating the blaze.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'move or cause to move in a sinuous or circular course',
               {
                 type: 'title',
                 text: 'wander'
               },
-              `The hikers chose to wander through the forest, exploring its hidden trails and natural beauty.
-When you wander through the city streets, you may stumble upon charming shops and cafes.`
+              '- move or cause to move in a sinuous or circular course',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The hikers chose to <i><b>wander</b></i> through the forest, exploring its hidden trails and natural beauty.<br><br>
+When you <i><b>wander</b></i> through the city streets, you may stumble upon charming shops and cafes.`
+              }
             ],
             [
-              'accumulated knowledge or erudition or enlightenment',
               {
                 type: 'title',
                 text: 'wisdom'
               },
-              `With age comes wisdom, as life experiences teach valuable lessons.
-Seeking advice from someone with wisdom can provide guidance in making important decisions.`
+              '- accumulated knowledge or erudition or enlightenment',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+With age comes <i><b>wisdom</b></i>, as life experiences teach valuable lessons.<br><br>
+Seeking advice from someone with <i><b>wisdom</b></i> can provide guidance in making important decisions.`
+              }
             ],
             [
-              'mental ability',
               {
                 type: 'title',
                 text: 'wit'
               },
-              `Her quick wit and sense of humor made her the life of the party.
-The stand-up comedian's clever wit had the audience in stitches.`
+              '- mental ability',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Her quick <i><b>wit</b></i> and sense of humor made her the life of the party.<br><br>
+The stand-up comedian's clever <i><b>wit</b></i> had the audience in stitches.`
+              }
             ],
             [
-              'misery resulting from affliction',
               {
                 type: 'title',
                 text: 'woe'
               },
-              `The loss of a loved one brought deep woe and sorrow to the grieving family.
-Economic woe can result from financial instability and market downturns.`
+              '- misery resulting from affliction',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The loss of a loved one brought deep <i><b>woe</b></i> and sorrow to the grieving family.<br><br>
+Economic <i><b>woe</b></i> can result from financial instability and market downturns.`
+              }
             ]
           ]
         }
