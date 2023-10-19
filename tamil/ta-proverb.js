@@ -116,7 +116,7 @@ export default {
               options: 'pot, plate, pan, bowl'
             },
             {
-              qText: 'கடுகு சிறுத்தாலும் காரம் போகுமா?',
+              qText: '______ சிறுத்தாலும் காரம் போகுமா?',
               options: 'mustard, rice, pattani, pepper'
             },
             {
