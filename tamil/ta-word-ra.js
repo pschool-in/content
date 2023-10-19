@@ -1,15 +1,14 @@
 export default {
   label: 'ர, ற வேறுபாடுகள்',
-  id: 'ta-words-ra',
+  id: 'ta-word-ra',
   list: [
     {
       id: 'reading',
       type: 'passage',
-      label: 'ர - வரிசை வார்த்தைகள் ',
+      label: 'ர - வரிசை சொற்கள் ',
       data: {
-        title: 'ர - வரிசை வார்த்தைகள் ',
+        title: 'ஈரெழுத்து சொற்கள்',
         text: [
-          `# ஈரெழுத்து சொற்கள் `,
           {
             type: 'sitewords',
             text: 'நரி, கீரை, பூரி, தேர், தாரை, ஒரு, வரி, இரு, யார், போர்',
@@ -42,11 +41,10 @@ export default {
     {
       id: 'reading',
       type: 'passage',
-      label: 'ற - வரிசை வார்த்தைகள் ',
+      label: 'ற - வரிசை சொற்கள் ',
       data: {
-        title: 'ற - வரிசை வார்த்தைகள் ',
+        title: 'ஈரெழுத்து சொற்கள் ',
         text: [
-          `# ஈரெழுத்து சொற்கள் `,
           {
             type: 'sitewords',
             text: 'புறா, உறி, ஏறு, எறி, சிறு, நூறு, ஆறு, வேறு, முறை',
@@ -74,6 +72,72 @@ export default {
           }
         ]
       }
+    },
+    {
+      type: 'classifySentence',
+      label: 'படம் சொல்லும் சொல்',
+      id: 'pick-word',
+      commonData: {
+        title: 'சரியான சொல்லைத் தேர்வு செய்க.',
+        variableOptions: true,
+        imageType: 'stockimg'
+      },
+      data: [
+        `bird | பறவை, பரவை
+chariot | தேர், தேற்
+puri | பூரி, பூறி
+spinach | கீரை, கீறை
+girl | சிறுமி, சிருமி
+bear | கரடி, கறடி
+horse | குதிரை, குதிறை
+climb | ஏறு, ஏரு
+dove | புறா, புரா
+throw | எறி, எரி`,
+
+        `buffalo | எருமை, எறுமை
+clock | நேரம் , நேறம்
+chair | நாற்காலி, நார்காலி
+cheetah | சிறுத்தை, சிருத்தை
+one | ஒன்று, ஒன்ரு
+night | இரவு, இறவு
+lotus | தாமரை, தாமறை
+uniform | சீருடை, சீறுடை
+ant | எறும்பு, எரும்பு
+quill | இறகு, இரகு`,
+
+        `murukku | முறுக்கு, முருக்கு
+ring | மோதிரம், மோதிறம்
+sculpture | சிற்பம், சிர்பம்
+grapes | திராட்சை, திறாட்சை
+fry | வறுவல், வருவல்
+monkey | குரங்கு, குறங்கு
+arivaal | அரிவாள், அறிவாள்
+sugarcane | கரும்பு, கறும்பு
+meat | இறைச்சி, இரைச்சி
+fountain | நீரூற்று, நீரூற்ரு`,
+
+        `wheel | சக்கரம், சக்கறம்
+watermelon | தர்பூசணி, தற்பூசணி
+tent-house | கூடாரம், கூடாறம்
+toothpaste | பற்பசை, பர்பசை
+bitter-gourd | பாகற்காய், பாகர்காய்
+fan | மின்விசிறி, மின்விசிரி
+volcano | எரிமலை, எறிமலை
+alien | கற்பனை, கர்பனை
+river | இயற்கை, இயர்கை
+top | பம்பரம், பம்பறம்`,
+
+        `adirasam | அதிரசம், அதிறசம்
+juice | பழச்சாறு, பழச்சாரு
+bus | பேருந்து , பேறுந்து
+hexagon | அறுகோணம், அருகோணம்
+map | வரைபடம், வறைபடம்
+notebook | குறிப்பேடு, குரிப்பேடு
+sun | சூரியன், சூறியன்
+kangaroo | கங்காரு, கங்காறு
+harbour | துறைமுகம், துரைமுகம்
+seashore | கடற்கரை, கடர்கறை`
+      ]
     }
   ]
 };

@@ -34,6 +34,11 @@ export default {
       img: 'word'
     },
     {
+      label: 'வாக்கியம்',
+      id: 'ta-sentence',
+      img: 'sentence'
+    },
+    {
       id: 'ta-reading',
       label: 'கதை',
       img: 'reading'

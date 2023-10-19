@@ -2,7 +2,6 @@ export default {
   label: 'New Words',
   id: 'new-words',
   list: [
-    //ref:E221 sentences created using chatGPT
     {
       id: 'mcq',
       label: 'We Mean the Same!',
@@ -83,6 +82,7 @@ export default {
             }
           ]
         },
+        //ref:E221 sentences created using chatGPT
         {
           questions: [
             {

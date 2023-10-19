@@ -23,6 +23,18 @@ export default {
           id: 'ta-read-words-2'
         },
         {
+          label: 'ல, ள, ழ வேறுபாடுகள்',
+          id: 'ta-word-la'
+        },
+        {
+          label: 'ந, ன, ண வேறுபாடுகள்',
+          id: 'ta-word-na'
+        },
+        {
+          label: 'ர, ற வேறுபாடுகள்',
+          id: 'ta-word-ra'
+        },
+        {
           label: 'பழமொழிகள்',
           id: 'ta-proverb'
         },
@@ -49,10 +61,6 @@ export default {
         {
           label: 'பாடல்கள்',
           id: 'ta-poems'
-        },
-        {
-          label: 'வாக்கியம்',
-          id: 'ta-sentence'
         },
         {
           label: 'வண்ணங்கள்',
