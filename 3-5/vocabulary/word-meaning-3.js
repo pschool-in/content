@@ -144,388 +144,543 @@ export default {
                 text: 'ability'
               },
               '- the quality of having the means or skills to do something',
-
               {
                 type: 'html',
                 text: `Eg: <br><br>
-                She has the <i><b>ability</b></i> to speak five different languages fluently.<br><br>
-                His problem-solving <i><b>ability</b></i> is truly remarkable.`
+She has the <i><b>ability</b></i> to speak five different languages fluently.<br><br>
+His problem-solving <i><b>ability</b></i> is truly remarkable.`
               }
             ],
             [
-              'take in a liquid',
               {
                 type: 'title',
                 text: 'absorb'
               },
-              `The sponge can quickly absorb all the spilled water on the floor.
-Plants absorb sunlight and convert it into energy through photosynthesis.`
+              '- take in a liquid',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The sponge can quickly <i><b>absorb</b></i> all the spilled water on the floor.<br><br>
+Plants <i><b>absorb</b></i> sunlight and convert it into energy through photosynthesis.`
+              }
             ],
             [
-              'blame for; make a claim of wrongdoing or misbehavior against',
               {
                 type: 'title',
                 text: 'accuse'
               },
-              `The prosecutor will accuse the suspect of theft during the trial.
-He didn't want to accuse anyone without concrete evidence.`
+              '- blame for; make a claim of wrongdoing or misbehavior against',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The prosecutor will <i><b>accuse</b></i> the suspect of theft during the trial.<br><br>
+He didn't want to <i><b>accuse</b></i> anyone without concrete evidence.`
+              }
             ],
             [
-              'behave in a certain manner',
               {
                 type: 'title',
                 text: 'act'
               },
-              `His decision to help the community was a selfless act of kindness.
-The actor's performance in the play was an act of brilliance.`
+              '- behave in a certain manner',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+His decision to help the community was a selfless <i><b>act</b></i> of kindness.<br><br>
+The actor's performance in the play was an <i><b>act</b></i> of brilliance.`
+              }
             ],
             [
-              'characterized by energetic movement',
               {
                 type: 'title',
                 text: 'active'
               },
-              `The children are very active and love playing outside.
-Leading a sedentary lifestyle can lead to health issues; it's essential to stay active.`
+              '- characterized by energetic movement',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The children are very <i><b>active</b></i> and love playing outside.<br><br>
+Leading a sedentary lifestyle can lead to health issues; it's essential to stay <i><b>active</b></i>.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'existing in act or fact',
               {
                 type: 'title',
                 text: 'actual'
               },
-              `The actual number of attendees exceeded our expectations.
-The actual cost of the project was higher than the initial estimate.`
+              '- existing in act or fact',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>actual</b></i> number of attendees exceeded our expectations.<br><br>
+The <i><b>actual</b></i> cost of the project was higher than the initial estimate.`
+              }
             ],
             [
-              `take into one's family`,
               {
                 type: 'title',
                 text: 'adopt'
               },
-              `They decided to adopt a rescue dog from the local shelter.
-We wouldn't be surprised to see more small businesses adopt this technology`
+              `- take into one's family`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+They decided to <i><b>adopt</b></i> a rescue dog from the local shelter.<br><br>
+We wouldn't be surprised to see more small businesses <i><b>adopt</b></i> this technology`
+              }
             ],
             [
-              'the quality of having a superior or more favorable position',
               {
                 type: 'title',
                 text: 'advantage'
               },
-              `Having prior experience in the field gave her a significant advantage.
-A good education can be a valuable advantage in one's career.`
+              '- the quality of having a superior or more favorable position',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Having prior experience in the field gave her a significant <i><b>advantage</b></i>.<br><br>
+A good education can be a valuable <i><b>advantage</b></i> in one's career.`
+              }
             ],
             [
-              'a proposal for an appropriate course of action',
               {
                 type: 'title',
                 text: 'advice'
               },
-              `She sought advice from her mentor before making a major life decision.
-The advice he received from the financial advisor helped him invest wisely.`
+              '- a proposal for an appropriate course of action',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She sought <i><b>advice</b></i> from her mentor before making a major life decision.<br><br>
+The <i><b>advice</b></i> he received from the financial advisor helped him invest wisely.`
+              }
             ],
             [
-              'a strong drive for success',
               {
                 type: 'title',
                 text: 'ambition'
               },
-              `Her ambition was to become a successful entrepreneur and create jobs.
-He pursued his academic goals with determination and ambition.`
+              '- a strong drive for success',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Her <i><b>ambition</b></i> was to become a successful entrepreneur and create jobs.<br><br>
+He pursued his academic goals with determination and <i><b>ambition</b></i>.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'belonging to times long past',
               {
                 type: 'title',
                 text: 'ancient'
               },
-              `The ancient ruins of the Mayan civilization are a popular tourist attraction.
-She had a collection of ancient books that were passed down through generations.`
+              '- belonging to times long past',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>ancient</b></i> ruins of the Mayan civilization are a popular tourist attraction.<br><br>
+She had a collection of <i><b>ancient</b></i> books that were passed down through generations.`
+              }
             ],
             [
-              'move towards',
               {
                 type: 'title',
                 text: 'approach'
               },
-              ` We should approach the problem with a fresh perspective.
-His diplomatic approach to international relations was praised by many.`
+              '- move towards',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+We should <i><b>approach</b></i> the problem with a fresh perspective.<br><br>
+His diplomatic <i><b>approach</b></i> to international relations was praised by many.`
+              }
             ],
             [
-              'put into a proper or systematic order',
               {
                 type: 'title',
                 text: 'arrange'
               },
-              `She needed to arrange the flowers in a vase for the centerpiece.
-The conference organizer had to arrange seating for hundreds of attendees.`
+              '- put into a proper or systematic order',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She needed to <i><b>arrange</b></i> the flowers in a vase for the centerpiece.<br><br>
+The conference organizer had to <i><b>arrange</b></i> seating for hundreds of attendees.`
+              }
             ],
             [
-              'extremely cold',
               {
                 type: 'title',
                 text: 'arctic'
               },
-              `The Arctic region is known for its extreme cold and harsh conditions.
-Polar bears are well adapted to the frigid waters of the Arctic.`
+              '- extremely cold',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>Arctic</b></i> region is known for its extreme cold and harsh conditions.<br><br>
+Polar bears are well adapted to the frigid waters of the <i><b>Arctic</b></i>.`
+              }
             ],
             [
-              'a complex mental state involving beliefs and feelings',
               {
                 type: 'title',
                 text: 'attitude'
               },
-              `Her positive attitude and outlook on life were contagious.
-The team's negative attitude affected their performance on the field.`
+              '- a complex mental state involving beliefs and feelings',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Her positive <i><b>attitude</b></i> and outlook on life were contagious.<br><br>
+The team's negative <i><b>attitude</b></i> affected their performance on the field.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'exert a force on',
               {
                 type: 'title',
                 text: 'attract'
               },
-              `The colorful flowers in the garden attract butterflies and bees.
-The company used a catchy slogan to attract more customers.`
+              '- exert a force on',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The colorful flowers in the garden <i><b>attract</b></i> butterflies and bees.<br><br>
+The company used a catchy slogan to <i><b>attract</b></i> more customers.`
+              }
             ],
             [
-              'an intermediate scale value regarded as normal or usual',
               {
                 type: 'title',
                 text: 'average'
               },
-              `The average temperature in this city in the summer is around 80 degrees.
-The students' test scores were slightly above the class average.`
+              '- an intermediate scale value regarded as normal or usual',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>average</b></i> temperature in this city in the summer is around 80 degrees.<br><br>
+The students' test scores were slightly above the class <i><b>average</b></i>.`
+              }
             ],
             [
-              'stay away from',
               {
                 type: 'title',
                 text: 'avoid'
               },
-              ` To maintain good health, it's essential to avoid sugary and processed foods.
-She decided to avoid taking the busy highway to work to save time.`
+              '- stay away from',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+To maintain good health, it's essential to <i><b>avoid</b></i> sugary and processed foods.<br><br>
+She decided to <i><b>avoid</b></i> taking the busy highway to work to save time.`
+              }
             ],
             [
-              'fearless and daring',
               {
                 type: 'title',
                 text: 'bold'
               },
-              ` The explorer embarked on a bold journey to the uncharted wilderness.
-Her bold fashion choices always turned heads.`
+              '- fearless and daring',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The explorer embarked on a <i><b>bold</b></i> journey to the uncharted wilderness.<br><br>
+Her <i><b>bold</b></i> fashion choices always turned heads.`
+              }
             ],
             [
-              'the boundary of a surface',
               {
                 type: 'title',
                 text: 'border'
               },
-              `  The river forms a natural border between the two countries.
-The intricate design along the border of the rug added to its beauty.`
+              '- the boundary of a surface',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The river forms a natural <i><b>border</b></i> between the two countries.<br><br>
+The intricate design along the <i><b>border</b></i> of the rug added to its beauty.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'of short duration or distance',
               {
                 type: 'title',
                 text: 'brief'
               },
-              `He gave a brief presentation on the company's financial performance.
-Please provide a brief summary of the book for the class.`
+              '- of short duration or distance',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+He gave a <i><b>brief</b></i> presentation on the company's financial performance.<br><br>
+Please provide a <i><b>brief</b></i> summary of the book for the class.`
+              }
             ],
             [
-              'full of light; shining intensely',
               {
                 type: 'title',
                 text: 'brilliant'
               },
-              `The sun's rays cast a brilliant light over the mountain peaks.
-Her performance on the piano was nothing short of brilliant.`
+              '- full of light; shining intensely',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The sun's rays cast a <i><b>brilliant</b></i> light over the mountain peaks.<br><br>
+Her performance on the piano was nothing short of <i><b>brilliant</b></i>.`
+              }
             ],
             [
-              'a very strong thick rope made of twisted hemp or steel wire',
               {
                 type: 'title',
                 text: 'cable'
               },
-              `The ship's anchor was attached to a thick steel cable.
-I need to call the cable company to fix our internet connection.`
+              '- a very strong thick rope made of twisted hemp or steel wire',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The ship's anchor was attached to a thick steel <i><b>cable</b></i>.<br><br>
+I need to call the <i><b>cable</b></i> company to fix our internet connection.`
+              }
             ],
             [
-              'seize as if by hunting, snaring, or trapping',
               {
                 type: 'title',
                 text: 'capture'
               },
-              `The photographer managed to capture the beauty of the sunset in his photo.
-The police were able to capture the suspect after a long chase.`
+              '- seize as if by hunting, snaring, or trapping',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The photographer managed to <i><b>capture</b></i> the beauty of the sunset in his photo.<br><br>
+The police were able to <i><b>capture</b></i> the suspect after a long chase.`
+              }
             ],
             [
-              'established beyond doubt or question; definitely known',
               {
                 type: 'title',
                 text: 'certain'
               },
-              `It is certain that the sun will rise in the east tomorrow.
-She was certain of her decision to change careers.`
+              '- established beyond doubt or question; definitely known',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+It is <i><b>certain</b></i> that the sun will rise in the east tomorrow.<br><br>
+She was <i><b>certain</b></i> of her decision to change careers.`
+              }
             ],
             [
-              'coldness due to a cold environment',
               {
                 type: 'title',
                 text: 'chill'
               },
-              ` The chill in the air made everyone reach for their jackets.
-We decided to stay in and enjoy a movie on the couch to escape the winter chill.`
+              '- coldness due to a cold environment',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>chill</b></i> in the air made everyone reach for their jackets.<br><br>
+We decided to stay in and enjoy a movie on the couch to escape the winter <i><b>chill</b></i>.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'mentally quick and resourceful',
               {
                 type: 'title',
                 text: 'clever'
               },
-              ` His clever solution to the problem impressed everyone in the meeting.
-She is known for her clever sense of humor and witty remarks.`
+              '- mentally quick and resourceful',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+His <i><b>clever</b></i> solution to the problem impressed everyone in the meeting.<br><br>
+She is known for her <i><b>clever</b></i> sense of humor and witty remarks.`
+              }
             ],
             [
-              'the weather in some location averaged over a period of time',
               {
                 type: 'title',
                 text: 'climate'
               },
-              `The climate in this region is characterized by hot summers and mild winters.
-Climate change is a global issue that affects us all.`
+              '- the weather in some location averaged over a period of time',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The <i><b>climate</b></i> in this region is characterized by hot summers and mild winters.<br><br>
+<i><b>Climate</b></i> change is a global issue that affects us all.`
+              }
             ],
             [
-              'hold on tightly or tenaciously',
               {
                 type: 'title',
                 text: 'cling'
               },
-              `The baby monkey would cling to its mother as they swung through the trees.
-Many people cling to their faith in times of grief and loss.`
+              '- hold on tightly or tenaciously',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The baby monkey would <i><b>cling</b></i> to its mother as they swung through the trees.<br><br>
+Many people <i><b>cling</b></i> to their faith in times of grief and loss.`
+              }
             ],
             [
-              'the shore of a sea or ocean',
               {
                 type: 'title',
                 text: 'coast'
               },
-              `We spent our vacation at a beautiful beach house on the coast.
-The ship sailed along the picturesque coast as the sun set.`
+              '- the shore of a sea or ocean',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+We spent our vacation at a beautiful beach house on the <i><b>coast</b></i>.<br><br>
+The ship sailed along the picturesque <i><b>coast</b></i> as the sun set.`
+              }
             ],
             [
-              'admit to a wrongdoing',
               {
                 type: 'title',
                 text: 'confess'
               },
-              `He decided to confess to his mistake and apologize to his friend.
-Despite being asked repeatedly, she refused to confess.`
+              '- admit to a wrongdoing',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+He decided to <i><b>confess</b></i> to his mistake and apologize to his friend.<br><br>
+Despite being asked repeatedly, she refused to <i><b>confess</b></i>.`
+              }
             ],
             [
-              'think about carefully; weigh',
               {
                 type: 'title',
                 text: 'consider'
               },
-              ` Before making a decision, I need to consider all the pros and cons of this job offer.
-Please consider my likes and dislikes when you choose the movie for the movie night.`
+              '- think about carefully; weigh',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Before making a decision, I need to <i><b>consider</b></i> all the pros and cons of this job offer.<br><br>
+Please <i><b>consider</b></i> my likes and dislikes when you choose the movie for the movie night.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'hold or have within',
               {
                 type: 'title',
                 text: 'contain'
               },
-              `  The box contains a collection of rare vintage coins.
-This book contains a wealth of information about ancient civilizations.`
+              '- hold or have within',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The box <i><b>contains</b></i> a collection of rare vintage coins.<br><br>
+This book <i><b>contains</b></i> a wealth of information about ancient civilizations.`
+              }
             ],
             [
-              'one of the large landmasses of the earth',
               {
                 type: 'title',
                 text: 'continent'
               },
-              `Africa is the second-largest continent in the world by both land area and population.
-The continents of Europe and Asia are connected by the Ural Mountains.`
+              '- one of the large landmasses of the earth',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+Africa is the second-largest <i><b>continent</b></i> in the world by both land area and population.<br><br>
+The <i><b>continents</b></i> of Europe and Asia are connected by the Ural Mountains.`
+              }
             ],
             [
-              'make realize the truth or validity of something',
               {
                 type: 'title',
                 text: 'convince'
               },
-              `  He used strong evidence to convince the jury of the defendant's guilt.
-She tried to convince her friends to join her in the charity event.`
+              'make realize the truth or validity of something',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+He used strong evidence to <i><b>convince</b></i> the jury of the defendant's guilt.<br><br>
+She tried to <i><b>convince</b></i> her friends to join her in the charity event.`
+              }
             ],
             [
-              'a person who shows fear or timidity',
               {
                 type: 'title',
                 text: 'coward'
               },
-              `He was labeled a coward for running away from the fight.
-Don't be a coward; stand up for what you believe in.`
+              '- a person who shows fear or timidity',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+He was labeled a <i><b>coward</b></i> for running away from the fight.<br><br>
+Don't be a <i><b>coward</b></i>; stand up for what you believe in.`
+              }
             ],
             [
-              'an organized group of workers',
               {
                 type: 'title',
                 text: 'crew'
               },
-              `The film crew worked tirelessly to capture the perfect shot.
-The flight crew made sure all passengers were comfortable during the long journey.`
+              '- an organized group of workers',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+The film <i><b>crew</b></i> worked tirelessly to capture the perfect shot.<br><br>
+The flight <i><b>crew</b></i> made sure all passengers were comfortable during the long journey.`
+              }
             ],
             [
-              'gather something into small wrinkles or folds',
               {
                 type: 'title',
                 text: 'crumple'
               },
-              `She crumpled the piece of paper and threw it into the trash can.
-The car's front end began to crumple upon impact with the tree.`
+              '- gather something into small wrinkles or folds',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+She <i><b>crumpled</b></i> the piece of paper and threw it into the trash can.<br><br>
+The car's front end began to <i><b>crumple</b></i> upon impact with the tree.`
+              }
             ],
             [
-              'accepted or habitual practice',
               {
                 type: 'title',
                 text: 'custom'
               },
-              ` It's a custom in some cultures to bow as a sign of respect.
-The custom of exchanging gifts during the holidays is widely practiced.`
+              '- accepted or habitual practice',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+It's a <i><b>custom</b></i> in some cultures to bow as a sign of respect.<br><br>
+The <i><b>custom</b></i> of exchanging gifts during the holidays is widely practiced.`
+              }
             ],
             [
-              'the organic phenomenon of rotting',
               {
                 type: 'title',
                 text: 'decay'
               },
-              `  Without proper maintenance, the old house began to decay over time.
-The decay of fallen leaves on the forest floor contributes to nutrient recycling.`
+              '- the organic phenomenon of rotting',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+  Without proper maintenance, the old house began to <i><b>decay</b></i> over time.<br><br>
+The <i><b>decay</b></i> of fallen leaves on the forest floor contributes to nutrient recycling.`
+              }
             ]
           ]
         }
@@ -654,178 +809,250 @@ The organic phenomenon of rotting | Decay`
         {
           steps: [
             [
-              'a legal document to effect a transfer of property',
               {
                 type: 'title',
                 text: 'deed'
               },
-              `She signed the deed to her new house, officially transferring ownership.
-The property deed was carefully examined by the lawyers to ensure all legal requirements were met.`
+              '- a legal document to effect a transfer of property',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              She signed the <i><b>deed</b></i> to her new house, officially transferring ownership.<br><br>
+The property <i><b>deed</b></i> was carefully examined by the lawyers to ensure all legal requirements were met.`
+              }
             ],
             [
-              'protect against a challenge or attack',
               {
                 type: 'title',
                 text: 'defend'
               },
-              `The brave knight stood ready to defend the kingdom against the approaching dragon.
-It's essential to defend your rights and speak up when you're being treated unfairly.`
+              '- protect against a challenge or attack',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The brave knight stood ready to <i><b>defend</b></i> the kingdom against the approaching dragon.<br><br>
+It's essential to <i><b>defend</b></i> your rights and speak up when you're being treated unfairly.`
+              }
             ],
             [
-              'developed with extreme subtlety',
               {
                 type: 'title',
                 text: 'delicate'
               },
-              `The delicate embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.
-Handling antique china requires a delicate touch to avoid any damage.`
+              '- developed with extreme subtlety',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The <i><b>delicate</b></i> embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.<br><br>
+Handling antique china requires a <i><b>delicate</b></i> touch to avoid any damage.`
+              }
             ],
             [
-              'an instrumentality invented for a particular purpose',
               {
                 type: 'title',
                 text: 'device'
               },
-              `A smartphone is a versatile device that allows you to communicate, browse the internet, and take photos.
-The scientist invented a groundbreaking device for detecting pollution in the air.`
+              '- an instrumentality invented for a particular purpose',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              A smartphone is a versatile <i><b>device</b></i> that allows you to communicate, browse the internet, and take photos.<br><br>
+The scientist invented a groundbreaking <i><b>device</b></i> for detecting pollution in the air.`
+              }
             ],
             [
-              'a drawing intended to explain how something works',
               {
                 type: 'title',
                 text: 'diagram'
               },
-              `The diagram in the textbook illustrated the process of photosynthesis in plants.
-The architect created a detailed diagram of the building's layout before construction began.`
+              ' - a drawing intended to explain how something works',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The <i><b>diagram</b></i> in the textbook illustrated the process of photosynthesis in plants.<br><br>
+The architect created a detailed <i><b>diagram</b></i> of the building's layout before construction began.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'convert food into absorbable substances',
               {
                 type: 'title',
                 text: 'digest'
               },
-              `Our digestive system helps digest the food we eat, breaking it down into nutrients for our body.
-After eating, it's important to give your body time to digest the meal before engaging in vigorous exercise.`
+              '- convert food into absorbable substances',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              Our digestive system helps <i><b>digest</b></i> the food we eat, breaking it down into nutrients for our body.<br><br>
+After eating, it's important to give your body time to <i><b>digest</b></i> the meal before engaging in vigorous exercise.`
+              }
             ],
             [
-              `an impairment of health`,
               {
                 type: 'title',
                 text: 'disease'
               },
-              `Vaccines have been crucial in preventing the spread of infectious diseases like polio and smallpox.
-Regular handwashing is an effective way to reduce the risk of contracting contagious diseases.`
+              `- an impairment of health`,
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              Vaccines have been crucial in preventing the spread of infectious <i><b>diseases</b></i> like polio and smallpox.<br><br>
+Regular handwashing is an effective way to reduce the risk of contracting contagious <i><b>diseases</b></i>.`
+              }
             ],
             [
-              'separated in space or coming from far away',
               {
                 type: 'title',
                 text: 'distant'
               },
-              `The mountains in the distant horizon looked like a hazy silhouette against the setting sun.
-We could hear the distant sound of fireworks from the nearby city.`
+              '- separated in space or coming from far away',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The mountains in the <i><b>distant</b></i> horizon looked like a hazy silhouette against the setting sun.<br><br>
+We could hear the <i><b>distant</b></i> sound of fireworks from the nearby city.`
+              }
             ],
             [
-              'a light fitful sleep',
               {
                 type: 'title',
                 text: 'doze'
               },
-              `After a long day at work, she took a short doze on the couch to recharge.
-The rhythmic sound of the rain outside made it easy to doze off during the afternoon.`
+              '- a light fitful sleep',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              After a long day at work, she took a short <i><b>doze</b></i> on the couch to recharge.<br><br>
+The rhythmic sound of the rain outside made it easy to <i><b>doze</b></i> off during the afternoon.`
+              }
             ],
             [
-              'be in motion due to some air or water current',
               {
                 type: 'title',
                 text: 'drift'
               },
-              `The boat began to drift along the gentle current of the river.
-In a snowstorm, it's easy for a car to drift off the road if not driven carefully.`
+              '- be in motion due to some air or water current',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The boat began to <i><b>drift</b></i> along the gentle current of the river.<br><br>
+In a snowstorm, it's easy for a car to <i><b>drift</b></i> off the road if not driven carefully.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'refined and tasteful in appearance, behavior, or style',
               {
                 type: 'title',
                 text: 'elegant'
               },
-              `Her elegant evening gown turned heads at the formal event.
-The interior of the upscale restaurant was adorned with elegant decor and artwork.`
+              '- refined and tasteful in appearance, behavior, or style',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              Her <i><b>elegant</b></i> evening gown turned heads at the formal event.<br><br>
+The interior of the upscale restaurant was adorned with <i><b>elegant</b></i> decor and artwork.`
+              }
             ],
             [
-              'provide the means to perform some task',
               {
                 type: 'title',
                 text: 'enable'
               },
-              `Accessible ramps and elevators enable people with disabilities to enter buildings easily.
-Installing the latest software update will enable new features on your computer.`
+              '- provide the means to perform some task',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              Accessible ramps and elevators <i><b>enable</b></i> people with disabilities to enter buildings easily.<br><br>
+Installing the latest software update will <i><b>enable</b></i> new features on your computer.`
+              }
             ],
             [
-              'observe, check out, and look over carefully or inspect',
               {
                 type: 'title',
                 text: 'examine'
               },
-              `The detective carefully examined the crime scene for any clues that might solve the case.
-Before the test, students were given time to examine their notes and textbooks.`
+              '- observe, check out, and look over carefully or inspect',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The detective carefully <i><b>examined</b></i> the crime scene for any clues that might solve the case.<br><br>
+Before the test, students were given time to <i><b>examine</b></i> their notes and textbooks.`
+              }
             ],
             [
-              'travel to or penetrate into',
               {
                 type: 'title',
                 text: 'explore'
               },
-              `The adventurous couple decided to explore the dense Amazon rainforest during their vacation.
-NASA's Mars rover is on a mission to explore the Red Planet and gather data about its surface.`
+              '- travel to or penetrate into',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The adventurous couple decided to <i><b>explore</b></i> the dense Amazon rainforest during their vacation.<br><br>
+NASA's Mars rover is on a mission to <i><b>explore</b></i> the Red Planet and gather data about its surface.`
+              }
             ],
             [
-              'a device for creating a current of air by movement',
               {
                 type: 'title',
                 text: 'fan'
               },
-              `She used a handheld fan to cool off during the hot summer day.
-The enthusiastic soccer fans cheered loudly for their favorite team.`
+              '- a device for creating a current of air by movement',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              She used a handheld <i><b>fan</b></i> to cool off during the hot summer day.<br><br>
+The enthusiastic soccer <i><b>fans</b></i> cheered loudly for their favorite team.`
+              }
             ]
           ]
         },
         {
           steps: [
             [
-              'bringing death',
               {
                 type: 'title',
                 text: 'fatal'
               },
-              `The car accident had a fatal outcome, and several lives were tragically lost.
-Even a seemingly minor mistake in handling chemicals can have fatal consequences.`
+              '- bringing death',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The car accident had a <i><b>fatal</b></i> outcome, and several lives were tragically lost.<br><br>
+Even a seemingly minor mistake in handling chemicals can have <i><b>fatal</b></i> consequences.`
+              }
             ],
             [
-              'marked by extreme and violent energy',
               {
                 type: 'title',
                 text: 'fierce'
               },
-              `The fierce storm brought strong winds and heavy rain, causing damage to homes and trees.
-The fierce competition between the two rival companies led to innovative product development.`
+              '- marked by extreme and violent energy',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The <i><b>fierce</b></i> storm brought strong winds and heavy rain, causing damage to homes and trees.<br><br>
+The <i><b>fierce</b></i> competition between the two rival companies led to innovative product development.`
+              }
             ],
             [
-              'flap the wings rapidly or fly with flapping movements',
               {
                 type: 'title',
                 text: 'flutter'
               },
-              `The butterfly began to flutter its colorful wings as it took flight.
-The pages of the book started to flutter in the breeze as the window was left open.`
+              '- flap the wings rapidly or fly with flapping movements',
+              {
+                type: 'html',
+                text: `Eg: <br><br>
+              The butterfly began to <i><b>flutter</b></i> its colorful wings as it took flight.<br><br>
+The pages of the book started to <i><b>flutter</b></i> in the breeze as the window was left open.`
+              }
             ],
             [
               'having unexpected good luck',

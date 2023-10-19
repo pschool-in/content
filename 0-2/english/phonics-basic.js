@@ -10,7 +10,6 @@ export default {
       commonData: {
         type: 'words',
         wordsAudio: 'kg-5/phonics/basic-phonics-8.mp3',
-
         audioWidth: 1
       },
       data: [
@@ -59,7 +58,8 @@ export default {
       commonData: {
         type: 'words',
         audioWidth: 1,
-        wordsAudio: 'kg-5/phonics/basic-phonics-9.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-9.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -130,7 +130,8 @@ export default {
       id: 'phonics-2-1',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-10.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-10.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -209,7 +210,8 @@ export default {
       id: 'phonics-3',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-11.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-11.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -277,7 +279,8 @@ export default {
       id: 'phonics-4',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-12.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-12.mp3',
+        audioWidth: 1
       },
       data: [
         {
@@ -318,7 +321,8 @@ export default {
       id: 'phonics-5',
       commonData: {
         type: 'words',
-        wordsAudio: 'kg-5/phonics/basic-phonics-13.mp3'
+        wordsAudio: 'kg-5/phonics/basic-phonics-13.mp3',
+        audioWidth: 1
       },
       data: [
         {
