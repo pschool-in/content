@@ -160,7 +160,10 @@ weaverbird`,
   blueberry
   wood-apple
   gooseberry
-  lemon`,
+  lemon
+  tender-coconut
+  palm-fruit
+  palm-root`,
   vegetables: `carrot
   beetroot
   onion
@@ -208,7 +211,8 @@ weaverbird`,
   bottlegourd
   ivygourd
   ridgegourd
-  narthankai`,
+  narthankai
+  turkey-berry`,
   ediables: `food
   milk
   fruits
@@ -239,9 +243,20 @@ weaverbird`,
   murukku
   pajji
   pongal
+  aapam
+  adai
+  chapati
+  puri
   porotta
   puttu-rice
   vadai
+  rasam
+  sambar
+  fry
+  kootu
+  poriyal
+  papad
+  payasam
   ladoo
   ellumittai
   kadalai-mittai`,
@@ -265,6 +280,7 @@ weaverbird`,
   water-lily
   aavarampoo
   bougainvillea
+  chrysanthemum
   december
   erukkampoo
   idlipoo
@@ -322,6 +338,7 @@ weaverbird`,
   table
   bed
   mat
+  toy
   mop
   mug
   lock
@@ -515,6 +532,8 @@ idcard`,
   lentils
   rice
   kadalai-paruppu
+  dried-chilli
+  dried-veg
   malli
   pepper
   mustard
@@ -656,6 +675,7 @@ sewing-machine
   star
   bird
   leaf
+  seed
   grass
   stone
   pebbles
