@@ -39,7 +39,7 @@ export default {
     },
 
     {
-      id: 'reading',
+      id: 'reading-2',
       type: 'passage',
       label: 'ற - வரிசை சொற்கள் ',
       data: {

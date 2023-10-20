@@ -4,7 +4,7 @@ export default {
   pdf: 'simple-words.pdf',
   list: [
     {
-      id: 'reading-2',
+      id: 'reading',
       type: 'passage',
       label: '2 Letter Words',
       data: {
@@ -163,7 +163,7 @@ I'm a furry pet, with a wagging tail, Love to fetch, and I'll never fail. What a
     },
     {
       type: 'completeWord',
-      id: 'complete-word',
+      id: 'complete-word-2',
       label: 'What am I?',
       data: [
         `I help you write and I rhyme with den. What am I?| PEN
