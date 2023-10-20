@@ -3,6 +3,7 @@ export default {
   id: 'word-meaning-4',
   lockAfter: 2,
   list: [
+    // ref: https://www.vocabulary.com sentences taken from chatGPT
     {
       id: 'meanings-3',
       type: 'slides2',
@@ -673,6 +674,7 @@ A homogeneous mixture of two or more substances | Solution
 Make a mess of, destroy or ruin | Spoil`
       ]
     },
+    // ref: https://www.vocabulary.com sentences taken from chatGPT
     {
       id: 'meanings-4',
       type: 'slides2',

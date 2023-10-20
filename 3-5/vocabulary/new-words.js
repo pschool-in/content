@@ -3,6 +3,57 @@ export default {
   id: 'new-words',
   list: [
     {
+      id: 'reading',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Synonyms',
+        text: [
+          `Two words are said to be synonyms, if they have similar meaning.`,
+          {
+            type: 'hilight',
+            text: `Mischievous - Naughty
+Enormous - Huge
+Dazzling - Shining
+Capsize - Sink
+Burgled - Robbed`
+          },
+          {
+            type: 'hilight',
+            text: `Broad - Wide
+Stunning - Amazing
+Invite - Ask
+Sighted - Saw
+Communicate - Talk`
+          },
+          {
+            type: 'hilight',
+            text: `Annoyed - Irritated
+Route - Way
+Live - Stay
+Favorite - Best
+Appear - Look`
+          },
+          {
+            type: 'hilight',
+            text: `Delicious - Tasty
+Ruined - Spoilt
+Extremely - Very
+Scurried - Ran
+Bewitching - Enchanting`
+          },
+          {
+            type: 'hilight',
+            text: `Meticulous - Careful and Precise
+Enthusiasm - Eagerness
+Agility - Quick
+Fragrant - Pleasant Smell
+Deafening - Extremely Loud`
+          }
+        ]
+      }
+    },
+    {
       id: 'mcq',
       label: 'We Mean the Same!',
       type: 'mcq',
@@ -135,6 +186,57 @@ export default {
           ]
         }
       ]
+    },
+    {
+      id: 'reading-2',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Antonyms',
+        text: [
+          `Two words are said to be antonyms, if they have opposite meaning.`,
+          {
+            type: 'hilight',
+            text: `Mischievous × Kind
+Enormous × Small
+Dazzling × Dull
+Capsize × Stabilize
+Burgled × Secure`
+          },
+          {
+            type: 'hilight',
+            text: `Broad × Narrow
+Stunning × Unimpressive
+Invite × Exclude
+Sighted × Lost sight of
+Communicate × Silence`
+          },
+          {
+            type: 'hilight',
+            text: `Annoyed × Pleased
+Shortest × Longest
+Live × Leave
+Favorite × Hated
+Appear × Disappear`
+          },
+          {
+            type: 'hilight',
+            text: `Delicious × Tasteless
+Ruined × Improved
+Hot × Cold
+Scurried × Stayed
+Bewitching × Ordinary`
+          },
+          {
+            type: 'hilight',
+            text: `Meticulous × Careless
+Enthusiasm × Apathy
+Agility × Clumsiness
+Fragrant × Stinking
+Deafening × Extremely Quiet`
+          }
+        ]
+      }
     },
     //ref:E221 sentences created using chatGPT
     {
@@ -269,6 +371,56 @@ export default {
           ]
         }
       ]
+    },
+    {
+      id: 'reading-3',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Substitutions',
+        text: [
+          {
+            type: 'hilight',
+            text: `Jack of all trades - Versatile
+Penchant for adventure - Adventurous
+Apple of my eye - Darling
+Eleventh-hour decision - Last minute
+Silver screen - Cinema`
+          },
+          {
+            type: 'hilight',
+            text: `Bookworm - Avid reader
+Cut to the chase - Shorten
+Déjà vu - Familiar
+Heart of gold - Kind-hearted
+Ball is in your court - Your responsibility`
+          },
+          {
+            type: 'hilight',
+            text: `Bitter pill to swallow - Unpleasant truth
+Chip on the shoulder - Pessimistic
+Silver lining - Positive outlook
+Last straw - Final provocation
+Busy bee - Hardworking`
+          },
+          {
+            type: 'hilight',
+            text: `Ace in the hole - Secret weapon
+Silver tongue - Persuasive
+Green-eyed monster - Jealousy
+Chip off the old block - Resembling
+Elephant in the room - Unaddressed issue`
+          },
+          {
+            type: 'hilight',
+            text: `Skeleton in the closet - Hidden secret
+Apple doesn't fall far from the tree - Strong resemblance
+Silver bullet solution - Effective remedy
+Silent as the grave - Absolute silence
+Wild goose chase - Fruitless pursuit`
+          }
+        ]
+      }
     },
     //ref:E220 sentences created using chatGPT
     {
@@ -409,6 +561,56 @@ export default {
           ]
         }
       ]
+    },
+    {
+      id: 'reading-4',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Word Meanings',
+        text: [
+          {
+            type: 'hilight',
+            text: `Apathy - Lack of interest or emotion.
+Hypothesis - A supposition or proposed explanation made on the basis of limited evidence.
+Ambiguous - Open to more than one interpretation; having a double meaning.
+Inevitable - Certain to happen; unavoidable.
+Innovate - Make changes in something established, especially by introducing new methods or ideas.`
+          },
+          {
+            type: 'hilight',
+            text: `Juxtapose - To place or deal with close together for contrasting effect.
+Nostalgia - A sentimental longing for the past, typically for a period with happy personal associations.
+Quarantine - A state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.
+Vivid - Producing powerful feelings or strong, clear images in the mind.
+Whimsical - Playfully quaint or fanciful, especially in an appealing and amusing way.`
+          },
+          {
+            type: 'hilight',
+            text: `Discrepancy - A lack of compatibility or similarity between two or more facts.
+Empathy - The ability to understand and share the feelings of another.
+Synchronize - Cause to occur or operate at the same time or rate.
+Exaggerate - Represent (something) as being larger, better, or worse than it really is.
+Oblivious - Not aware of or not concerned about what is happening around one.`
+          },
+          {
+            type: 'hilight',
+            text: `Diligent - Having or showing care and conscientiousness in one's work or duties.
+Tenacious - Tending to keep a firm hold of something; clinging or adhering closely.
+Alleviate - Make (suffering, deficiency, or a problem) less severe.
+Voracious - Wanting or devouring great quantities of food; having a very eager approach to an activity.
+Aid - Assistance or support.`
+          },
+          {
+            type: 'hilight',
+            text: `Eager - Showing keen interest or enthusiasm.
+Fragile - Easily broken or damaged.
+Harmony - A state of peaceful coexistence or agreement.
+Illuminate - To provide light or clarity.
+Loyal - Faithful and committed to a person, group, or cause.`
+          }
+        ]
+      }
     },
     //ref: https://www.vocabulary.com/lists/52473 sentences created using chatGPT
     {
