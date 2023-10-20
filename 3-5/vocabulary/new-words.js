@@ -40,13 +40,13 @@ Appear - Look`
 Ruined - Spoilt
 Extremely - Very
 Scurried - Ran
-Bewitching - Enchanting`
+Illusion - Fantasy`
           },
           {
             type: 'hilight',
             text: `Meticulous - Careful and Precise
 Enthusiasm - Eagerness
-Agility - Quick
+Agility - Speed
 Fragrant - Pleasant Smell
 Deafening - Extremely Loud`
           }
@@ -154,8 +154,9 @@ Deafening - Extremely Loud`
               options: 'ran, jumped, hid'
             },
             {
-              qText: 'The magician performed a *bewitching* trick.',
-              options: 'enchanting, evil, bad intentions'
+              qText:
+                'The video game is designed to give the *illusion* that you are in control of an airplane',
+              options: 'fantasy, reality, enchanting,'
             }
           ]
         },
@@ -173,11 +174,11 @@ Deafening - Extremely Loud`
             {
               qText:
                 'The athlete displayed remarkable *agility* during the competition.',
-              options: 'quick, slow, lazy'
+              options: 'speed, slow, lazy'
             },
             {
               qText: 'The garden was filled with *fragrant* flowers.',
-              options: 'pleasant smell, foul smell, stinking'
+              options: 'pleasant smelling, colourful, vibrant'
             },
             {
               qText: 'The music at the party was *deafening*.',
@@ -209,30 +210,22 @@ Burgled × Secure`
 Stunning × Unimpressive
 Invite × Exclude
 Sighted × Lost sight of
-Communicate × Silence`
+Hot × Cold`
           },
           {
             type: 'hilight',
             text: `Annoyed × Pleased
-Shortest × Longest
-Live × Leave
+Shortest × Roundabout
 Favorite × Hated
-Appear × Disappear`
-          },
-          {
-            type: 'hilight',
-            text: `Delicious × Tasteless
-Ruined × Improved
-Hot × Cold
-Scurried × Stayed
-Bewitching × Ordinary`
+Delicious × Tasteless
+Ruined × Improved`
           },
           {
             type: 'hilight',
             text: `Meticulous × Careless
 Enthusiasm × Apathy
-Agility × Clumsiness
-Fragrant × Stinking
+Agile × Clumsy
+Fragrant × Foul Smelling
 Deafening × Extremely Quiet`
           }
         ]
@@ -258,7 +251,7 @@ Deafening × Extremely Quiet`
               options: 'small, huge, colorful'
             },
             {
-              qText: `The white clothes are *dazzling* in the sun!`,
+              qText: `The white clothes are *dazzling*!`,
               options: 'dull, shining, huge'
             },
             {
@@ -266,7 +259,7 @@ Deafening × Extremely Quiet`
               options: 'stabilize, sink, rotate'
             },
             {
-              qText: 'The bank was *burgled* in broad daylight!',
+              qText: 'The bank was *burgled*.',
               options: 'secure, robbed, locked'
             }
           ]
@@ -282,16 +275,16 @@ Deafening × Extremely Quiet`
               options: 'unimpressive, amazing, dark'
             },
             {
-              qText: `Prem did not *invite* Arun to his party.`,
+              qText: `Prem did not *invite* Arun.`,
               options: 'exclude, call, come'
             },
             {
-              qText: 'We *sighted* three tiger cubs in the distance.',
+              qText: 'We *sighted* three tiger cubs.',
               options: 'lost sight of, saw, walked'
             },
             {
-              qText: 'The telephone is an instrument to *communicate*.',
-              options: 'silence, talk, travel'
+              qText: 'Her father likes his food extremely *hot*.',
+              options: 'cold, lukewarm, warm'
             }
           ]
         },
@@ -303,24 +296,12 @@ Deafening × Extremely Quiet`
             },
             {
               qText: 'Which is the *shortest* route to school?',
-              options: 'longest, transport, bus'
-            },
-            {
-              qText: 'This is where I *live*.',
-              options: 'leave, stay, play'
+              options: 'roundabout, transport, bus'
             },
             {
               qText: "Potato chips are Tanya's *favorite* snack.",
               options: 'hated, best, loved'
             },
-            {
-              qText: 'Metals like copper will *appear* dull if not polished.',
-              options: 'disappear, look, think'
-            }
-          ]
-        },
-        {
-          questions: [
             {
               qText: 'The food in this restaurant is very *delicious*!',
               options: 'tasteless, tasty, colorful'
@@ -328,19 +309,6 @@ Deafening × Extremely Quiet`
             {
               qText: 'The tailor has *ruined* my dress!',
               options: 'improved, spoilt, forgot'
-            },
-            {
-              qText: 'Her father likes his food extremely *hot*.',
-              options: 'cold, lukewarm, warm'
-            },
-            {
-              qText:
-                'As soon as he switched on the light, the cockroaches *scurried* away!',
-              options: 'stayed, ran, hid'
-            },
-            {
-              qText: 'The magician performed a *bewitching* trick.',
-              options: 'ordinary, enchanting, bad intentions'
             }
           ]
         },
@@ -356,207 +324,16 @@ Deafening × Extremely Quiet`
               options: 'apathy, ambitious, alarmed'
             },
             {
-              qText:
-                'The athlete displayed remarkable *agility* during the competition.',
-              options: 'clumsiness, quick, lazy'
+              qText: 'The athlete was *agile* during the competition.',
+              options: 'clumsy, quick, lazy'
             },
             {
               qText: 'The garden was filled with *fragrant* flowers.',
-              options: 'foul smell, pleasant smell, stinking'
+              options: 'foul smelling, colourless, dull'
             },
             {
               qText: 'The music at the party was *deafening*.',
               options: 'extremely quiet, extremely loud, defective'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      id: 'reading-3',
-      type: 'passage',
-      label: 'Words List',
-      data: {
-        title: 'Substitutions',
-        text: [
-          {
-            type: 'hilight',
-            text: `Jack of all trades - Versatile
-Penchant for adventure - Adventurous
-Apple of my eye - Darling
-Eleventh-hour decision - Last minute
-Silver screen - Cinema`
-          },
-          {
-            type: 'hilight',
-            text: `Bookworm - Avid reader
-Cut to the chase - Shorten
-Déjà vu - Familiar
-Heart of gold - Kind-hearted
-Ball is in your court - Your responsibility`
-          },
-          {
-            type: 'hilight',
-            text: `Bitter pill to swallow - Unpleasant truth
-Chip on the shoulder - Pessimistic
-Silver lining - Positive outlook
-Last straw - Final provocation
-Busy bee - Hardworking`
-          },
-          {
-            type: 'hilight',
-            text: `Ace in the hole - Secret weapon
-Silver tongue - Persuasive
-Green-eyed monster - Jealousy
-Chip off the old block - Resembling
-Elephant in the room - Unaddressed issue`
-          },
-          {
-            type: 'hilight',
-            text: `Skeleton in the closet - Hidden secret
-Apple doesn't fall far from the tree - Strong resemblance
-Silver bullet solution - Effective remedy
-Silent as the grave - Absolute silence
-Wild goose chase - Fruitless pursuit`
-          }
-        ]
-      }
-    },
-    //ref:E220 sentences created using chatGPT
-    {
-      id: 'mcq-3',
-      label: 'Substitutions!',
-      type: 'mcq',
-      commonData: {
-        title: 'Guess the substitute of the underlined word.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'He is a *jack of all trades*.',
-              options: 'versatile, dominant, clumsy '
-            },
-            {
-              qText:
-                'Her *penchant for adventure* led her to explore new places.',
-              options: 'adventurous, cowardly, stubborn'
-            },
-            {
-              qText: `The *apple of my eye* is my little daughter.`,
-              options: 'darling, apple, eye'
-            },
-            {
-              qText: 'His *eleventh-hour decision* surprised us all.',
-              options: 'last minute, late, early'
-            },
-            {
-              qText: 'The *silver screen* has always fascinated him.',
-              options: 'cinema, television, mobile'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'She is a *bookworm*, always engrossed in her reading.',
-              options: 'avid reader, lazy, caterpillar'
-            },
-            {
-              qText: 'We need to *cut to the chase* and get to the main point.',
-              options: 'shorten, explain, navigate'
-            },
-            {
-              qText: `His *déjà vu* experience made him feel like he'd been there before.`,
-              options: 'familiar, unfamiliar, mysterious'
-            },
-            {
-              qText: 'Her *heart of gold* is evident in her acts of kindness.',
-              options: 'kind-hearted, evil, strong-willed'
-            },
-            {
-              qText:
-                "The *ball is in your court* regarding the project's direction.",
-              options: 'your responsibility, goal, achievement'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'We had a *bitter pill to swallow* when we lost the game.',
-              options: 'unpleasant truth, tasting awful, medicine'
-            },
-            {
-              qText: 'His *chip on the shoulder* attitude creates conflicts.',
-              options: 'pessimistic, optimistic, lovely'
-            },
-            {
-              qText:
-                "She has a *silver lining* perspective on life's challenges.",
-              options: 'positive outlook, negative outlook, evil plans'
-            },
-            {
-              qText: 'The *last straw* was when he broke the vase.',
-              options: 'final provocation, final straw, fodder'
-            },
-            {
-              qText: 'She is a *busy bee*, always involved in multiple tasks.',
-              options: 'hardworking, lazy, inactive'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'His *ace in the hole* is his ability to solve problems.',
-              options: 'secret weapon, ace card, weakness'
-            },
-            {
-              qText: 'She has a *silver tongue* and can persuade anyone.',
-              options: 'persuasive, sweet, evil'
-            },
-            {
-              qText: 'The *green-eyed monster* can ruin relationships.',
-              options: 'jealousy, love, hatred'
-            },
-            {
-              qText:
-                'He has a *chip off the old block* personality, just like his father.',
-              options: 'resembling, opposite, similar'
-            },
-            {
-              qText:
-                'The *elephant in the room* was the topic no one wanted to discuss.',
-              options: 'unaddressed issue, elephant, enormous being'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'His *skeleton in the closet* was related to his family heirloom.',
-              options: 'hidden secret, hidden skeleton, murderer'
-            },
-            {
-              qText:
-                "The *apple doesn't fall far from the tree* in that family.",
-              options: 'strong resemblance, dissimilar, different'
-            },
-            {
-              qText:
-                "She has a *silver bullet solution* for the company's problems.",
-              options: 'effective remedy, gun, superpower'
-            },
-            {
-              qText: 'His *silent as the grave* reaction made everyone uneasy.',
-              options: 'absolute silence, death, unresponsiveness'
-            },
-            {
-              qText:
-                'The team had a *wild goose chase* trying to locate the missing documents.',
-              options: 'fruitless pursuit, wild race, competition'
             }
           ]
         }
@@ -626,31 +403,31 @@ Loyal - Faithful and committed to a person, group, or cause.`
             {
               qText:
                 "Her *apathy* towards the political situation was evident when she didn't vote in the election.",
-              options: `Lack of interest or emotion.
-Thinking from a different perspective.`
+              options: `Lack of interest or emotion
+Thinking from a different perspective`
             },
             {
               qText:
                 "The scientist's *hypothesis* was that the chemical reaction would yield a certain compound.",
-              options: `A supposition or proposed explanation made on the basis of limited evidence.
-A theory backed up by concrete evidence.`
+              options: `Proposed explanation made on the basis of limited evidence
+Theory backed up by concrete evidence`
             },
             {
               qText: `The *ambiguous* message left us unsure of what to do.`,
-              options: `Open to more than one interpretation; having a double meaning.
-Having only one meaning or definition.`
+              options: `Double meaning
+Single defenition`
             },
             {
               qText:
                 'With the dark clouds gathering, rain seemed *inevitable*.',
-              options: `Certain to happen; unavoidable.
-Unsure or possibility to occur.`
+              options: `Unavoidable
+Unsure`
             },
             {
               qText:
                 'The company decided to *innovate* its marketing strategy to attract a younger audience.',
-              options: `Make changes in something established, especially by introducing new methods or ideas.
-Discovery of something new or novel.`
+              options: `Make changes by introducing new methods or ideas to
+Discovering something new or novel in`
             }
           ]
         },
@@ -659,31 +436,31 @@ Discovery of something new or novel.`
             {
               qText:
                 'The artist liked to *juxtapose* bright colors next to dark ones in her paintings.',
-              options: `To place or deal with close together for contrasting effect.
-To replace existing effect with a contrasting effect.`
+              options: `To place 
+To replace `
             },
             {
               qText:
                 'Visiting her childhood home filled her with a sense of *nostalgia*.',
-              options: ` A sentimental longing for the past, typically for a period with happy personal associations.
-A feeling of deep resentment.`
+              options: ` A sentimental longing for the past
+Deep resentment `
             },
             {
               qText: `After returning from a trip abroad, they were required to undergo a 14-day *quarantine*.`,
-              options: `A state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.
-Imprisonment or capturing of animals affected by a contagious disease.`
+              options: `Period of isolation 
+Imprisonment of people affected by a contagious disease.`
             },
             {
               qText:
                 'The *vivid* description of the sunset made us feel like we were there.',
-              options: `Producing powerful feelings or strong, clear images in the mind.
+              options: `Powerful feelings in
 Very colorful and amusing.`
             },
             {
               qText:
                 'Her *whimsical* artwork often featured magical creatures.',
-              options: `Playfully quaint or fanciful, especially in an appealing and amusing way.
-Something that seems weird or strange.`
+              options: `Playfully quaint 
+Weird or strange.`
             }
           ]
         },
@@ -692,31 +469,31 @@ Something that seems weird or strange.`
             {
               qText:
                 'The report revealed a significant *discrepancy* between the estimated and actual costs.',
-              options: `A lack of compatibility or similarity between two or more facts.
-A lack of proof.`
+              options: `Lack of compatibility
+Lack of proof.`
             },
             {
               qText:
                 'His *empathy* for her situation made him a great counselor.',
-              options: `The ability to understand and share the feelings of another.
-The ability to foresee the future.`
+              options: `Ability to understand and share the feelings 
+Ability to foresee the future.`
             },
             {
               qText:
-                'The dancers needed to *synchronize* their movements to the music.',
-              options: `Cause to occur or operate at the same time or rate.
-A strong desire to improve.`
+                'The dancers needed to *synchronize* movements to the music.',
+              options: `Operate at the same time or rate their
+Have a strong desire to improve`
             },
             {
               qText:
                 'He tended to *exaggerate* his achievements, making them sound more remarkable than they were.',
-              options: `Represent (something) as being larger, better, or worse than it really is.
-To take ownership of someone else's work.`
+              options: `Represent being better than he really is at
+Take ownership of someone else's work as`
             },
             {
-              qText: `She was so *oblivious* to the noise that she didn't hear the fire alarm.`,
-              options: `Not aware of or not concerned about what is happening around one.
-Disregard a warning.`
+              qText: `She was so *oblivious to* the noise that she didn't hear the fire alarm.`,
+              options: `Not concerned about 
+Disregaring to a warning.`
             }
           ]
         },
@@ -725,31 +502,31 @@ Disregard a warning.`
             {
               qText:
                 'The *diligent* student consistently scored the highest grades in the class.',
-              options: `Having or showing care and conscientiousness in one's work or duties.
-Disregarding one's responsibilities.`
+              options: `Hardworking and conscientious 
+Disregard one's responsibilities.`
             },
             {
               qText:
                 'Her *tenacious* grip on the rope helped her climb the mountain.',
-              options: `Tending to keep a firm hold of something; clinging or adhering closely.
-Adhering to evil tricks.`
+              options: `firm hold or adhering 
+Adhering tricks`
             },
             {
               qText: 'The medication was prescribed to *alleviate* her pain.',
-              options: `Make (suffering, deficiency, or a problem) less severe.
-To cause more pain and suffering.`
+              options: `Make less severe
+To cause more suffering to`
             },
             {
               qText:
-                'His *voracious* appetite led him to try every dish on the menu.',
-              options: `Wanting or devouring great quantities of food; having a very eager approach to an activity.
-Being very fickle minded.`
+                'His *voracious appetite* led him to try every dish on the menu.',
+              options: `Wanting or devouring great quantities of food
+Being very fickle minded`
             },
             {
               qText:
                 'The humanitarian organization provided *aid* to the earthquake victims.',
               options: `Assistance or support.
-Denied assistance.`
+No assistance.`
             }
           ]
         },
@@ -758,32 +535,32 @@ Denied assistance.`
             {
               qText:
                 'The children were *eager* to open their Christmas presents.',
-              options: `Showing keen interest or enthusiasm.
-Uninterested or lacking enthusiasm.`
+              options: `Showing keen interest
+Lacking enthusiasm`
             },
             {
               qText:
                 'The antique vase is extremely *fragile*, so handle it with care.',
-              options: `Easily broken or damaged.
-Lightweight but strong.`
+              options: `Easy to broke
+Lightweight but strong`
             },
             {
               qText:
                 'The musical performance was a perfect example of *harmony*.',
-              options: `A state of peaceful coexistence or agreement.
-One dominating or overpowering the others.`
+              options: `A state of peaceful coexistence or agreement
+One dominating or overpowering the others`
             },
             {
               qText:
                 'The candles *illuminate* the room during the power outage.',
-              options: `To provide light or clarity.
-To set fire or arson.`
+              options: `Provide light or clarity to
+Set fire or arson to`
             },
             {
               qText:
                 'He remained *loyal* to his friends through thick and thin.',
-              options: `Faithful and committed to a person, group, or cause.
-Not ready to surrender or listen to anybody.`
+              options: `Faithful and committed 
+Not ready to surrender or listen to anybody`
             }
           ]
         }

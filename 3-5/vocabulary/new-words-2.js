@@ -4,6 +4,57 @@ export default {
   list: [
     //ref:E221 sentences created using chatGPT
     {
+      id: 'reading',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Synonyms',
+        text: [
+          `Two words are said to be synonyms, if they have similar meaning.`,
+          {
+            type: 'hilight',
+            text: `Creative - Innovative
+Enthusiasm - Eagerness
+Vivid - Colorful
+Melodious - Harmonious
+Intuition - Insight`
+          },
+          {
+            type: 'hilight',
+            text: `Culinary - Cooking
+Fascination - Obsession
+Peaceful - Calm
+Strategy - Plan
+Penchant - Liking`
+          },
+          {
+            type: 'hilight',
+            text: `Persistent - Continuous
+Powerful - Strong
+Dedication - Commitment
+Theory - Hypothesis
+Courage - Bravery`
+          },
+          {
+            type: 'hilight',
+            text: `Educational - Informative
+Eloquent - Articulate
+Fragrant - Pleasant-smelling
+Priceless - Invaluable
+Suspenseful - Thrilling`
+          },
+          {
+            type: 'hilight',
+            text: `Collaboration - Cooperation
+Profound - Deep          
+Significant - Major         
+Exquisite - Beautiful        
+Captivating - Fascinating`
+          }
+        ]
+      }
+    },
+    {
       id: 'mcq-1',
       label: 'We Mean the Same!',
       type: 'mcq',
@@ -132,6 +183,57 @@ export default {
           ]
         }
       ]
+    },
+    {
+      id: 'reading-2',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Antonyms',
+        text: [
+          `Two words are said to be antonyms, if they have opposite meaning.`,
+          {
+            type: 'hilight',
+            text: `Creative × Unimaginative
+Enthusiasm × Apathy
+Vivid × Dull
+Melodious × Discordant
+Intuition × Ignorance`
+          },
+          {
+            type: 'hilight',
+            text: `Culinary × Non-culinary
+Fascination × Disliking
+Peaceful × Turbulent
+Strategy × Disorder
+Penchant × Aversion`
+          },
+          {
+            type: 'hilight',
+            text: `Persistent × Sporadic
+Powerful × Weak
+Dedication × Neglect
+Theory × Fact
+Courage × Fear`
+          },
+          {
+            type: 'hilight',
+            text: `Educational × Misleading
+Eloquent × Inarticulate
+Fragrant × Foul-smelling
+Priceless × Worthless
+Suspenseful × Predictable`
+          },
+          {
+            type: 'hilight',
+            text: `Collaboration × Competition
+Profound × Superficial
+Significant × Minor
+Exquisite × Ugly
+Captivating × Uninteresting`
+          }
+        ]
+      }
     },
     //ref:E221 sentences created using chatGPT
     {
@@ -264,147 +366,47 @@ export default {
         }
       ]
     },
-    //ref:E220 sentences created using chatGPT
     {
-      id: 'mcq-3',
-      label: 'Substitutions!',
-      type: 'mcq',
-      commonData: {
-        title: 'Guess the substitute of the underlined word.'
-      },
-      data: [
-        {
-          questions: [
-            {
-              qText: 'He is a *solitary bird*.',
-              options: 'loner, hermit, avian'
-            },
-            {
-              qText:
-                'You have been quiet for a while, *a penny for your thoughts*.',
-              options: 'deep thinking, inexpensive gift, shared idea'
-            },
-            {
-              qText: 'His *walking on air* expression showed his happiness.',
-              options: 'ecstatic, flying, grounded'
-            },
-            {
-              qText: 'The situation turned into a *rat race* for promotion.',
-              options: 'competitive race, rodent chase, leisurely stroll'
-            },
-            {
-              qText: 'She has a *heart of stone* and rarely shows emotion.',
-              options: 'unempathetic, strong-willed, organ of music'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: `He always plays the *devil's advocate* in debates.`,
-              options: 'opposite side, troublemaker, religious advocate'
-            },
-            {
-              qText:
-                'Their *barking up the wrong tree* approach led to failure.',
-              options: 'misguided, canine companions, noisy protest'
-            },
-            {
-              qText: `The project's success was a *slam dunk* for the team.`,
-              options: 'easy win, basketball shot, noisy celebration'
-            },
-            {
-              qText:
-                'The sudden rain was a *blessing in disguise* for the farmers.',
-              options: 'hidden blessing, misfortune, divine intervention'
-            },
-            {
-              qText: 'His *chicken out* attitude made him avoid taking risks.',
-              options: 'back out, poultry enthusiast, brave approach'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'Her *break a leg* wish brought him good luck.',
-              options: 'good luck wish, leg injury, dance performance'
-            },
-            {
-              qText: 'He had to *bite the bullet* and face the consequences.',
-              options:
-                'accept pain or hardship, chew on a bullet, avoid the situation'
-            },
-            {
-              qText: 'The news came as a *bolt from the blue* for everyone.',
-              options: 'sudden surprise, lightning strike, cloudy sky'
-            },
-            {
-              qText:
-                'His *silver lining* perspective helped him through tough times.',
-              options: 'positive outlook, metallic paint, negative perspective'
-            },
-            {
-              qText:
-                'The *elephant in the room* was their relationship problems.',
-              options: 'unaddressed issue, large animal, a heavy room'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'She *spilled the beans* about the surprise party.',
-              options: 'revealed a secret, shared recipes, dropped some beans'
-            },
-            {
-              qText: 'His *ace up his sleeve* was his talent for art.',
-              options: 'hidden talent, poker trick, shirt with an ace'
-            },
-            {
-              qText: 'Their *twist of fate* brought them together.',
-              options: `unpredictable change, dance move, fate's message`
-            },
-            {
-              qText: 'The *feather in her cap* was her promotion at work.',
-              options: `significant achievement, fashionable hat, bird's nest`
-            },
-            {
-              qText:
-                'The party turned into a *cakewalk* with no issues at all.',
-              options: 'easy task, dessert buffet, cake decoration'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'He took the *bull by the horns* and confronted the issue.',
-              options:
-                'confronted a problem directly, rode a bull, played with horns'
-            },
-            {
-              qText: 'Her *cup of tea* is reading historical novels.',
-              options: 'favorite activity, choice of beverage, actual tea'
-            },
-            {
-              qText: 'The situation was like a *ship in the night* for them.',
-              options: 'missed opportunity, late-night sailing, perfect harmony'
-            },
-            {
-              qText:
-                'She always has a *butterflies in the stomach* feeling before exams.',
-              options: 'nervousness, actual butterflies, strong appetite'
-            },
-            {
-              qText:
-                'His constant *add fuel to the fire* behavior caused arguments.',
-              options: 'worsen a situation, fight with fire, help with firewood'
-            }
-          ]
-        }
-      ]
+      id: 'reading-4',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Word Meanings',
+        text: [
+          {
+            type: 'hilight',
+            text: `Vibrant - Bright and lively
+Patience - Ability to remain calm and understanding           
+Cooperation - Working together harmoniously         
+Persistent - Continuing or enduring            
+Generous - Willing to give and share`
+          },
+          {
+            type: 'hilight',
+            text: `Curiosity - Desire to learn and explore
+Reliable - Dependable and trustworthy           
+Celebration - Marking a special event with joy and festivity           
+Creativity - Imagination and originality            
+Honesty - Truthfulness and integrity`
+          },
+          {
+            type: 'hilight',
+            text: `Resilience - Ability to recover and adapt
+Optimistic - Positive and hopeful attitude          
+Efficiency - Achieving maximum productivity with minimal wasted effort           
+Gratitude - Thankfulness and appreciation            
+Peaceful - Calm and free from disturbance`
+          },
+          {
+            type: 'hilight',
+            text: `Adventure - Exciting and daring experience
+Persistence - Continued effort and determination
+Compassion - Sympathy and care for others
+Innovation - Introducing new and advanced ideas
+Kindness - Being friendly and considerate`
+          }
+        ]
+      }
     },
     //ref: https://www.vocabulary.com/lists/52473 sentences created using chatGPT
     {
