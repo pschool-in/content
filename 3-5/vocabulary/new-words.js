@@ -389,6 +389,114 @@ Loyal - Faithful and committed to a person, group, or cause.`
         ]
       }
     },
+    {
+      id: 'replace-words',
+      label: 'Replace the Words',
+      type: 'mcq',
+      commonData: {
+        title:
+          'Choose the word that can replace the underlined words or group of words in the sentences.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'That school was built *a hundred years ago*.',
+              options: 'Century, Decade, Era'
+            },
+            {
+              qText: 'She will return in *a few minutes*.',
+              options: 'Moments, Later, Time'
+            },
+            {
+              qText: "She's been working on this project *for two weeks*.",
+              options: 'Fortnight, Tonight, Weeks'
+            },
+            {
+              qText: "I haven't seen her in *a long time*.",
+              options: 'Ages, Lifetime, Time'
+            },
+            {
+              qText: "He's been working here *since he graduated*.",
+              options: 'Ever since, Longtime, Era'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'The car broke down in *the middle of nowhere*.',
+              options: 'A deserted area, Nowhere, Desert'
+            },
+            {
+              qText: 'We hiked to the *top of the mountain*.',
+              options: 'Summit, End point, Top point'
+            },
+            {
+              qText: 'She finished the task *in a matter of seconds*.',
+              options: 'Quickly, Agile, Today'
+            },
+            {
+              qText: 'The sunsets in this place are *absolutely breathtaking*.',
+              options: 'Stunning, Vivid, Dull'
+            },
+            {
+              qText: 'He spoke *without any hesitation*.',
+              options: 'Confidently, Nervously, Shivering'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: "She's living *in the heart of the city*.",
+              options: 'Downtown, City, Village'
+            },
+            {
+              qText: 'The spaceship traveled *to the edge of the universe*.',
+              options: 'Outermost space, End of the world, Inner Space'
+            },
+            {
+              qText: 'The cat sleeps *most of the day*.',
+              options: 'Often, Rarely, Many hours'
+            },
+            {
+              qText: 'He will arrive *in a moment*.',
+              options: 'Shortly, Quickly, Meantime'
+            },
+            {
+              qText: 'The treasure was hidden *underneath the ground*.',
+              options: 'Underground, Overhead, Beneath'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText:
+                'He arrived at the airport *well before the departure time*.',
+              options: 'Early, Late, Beforehand'
+            },
+            {
+              qText: 'The marathon runners trained *for many months*.',
+              options: 'Long, Months, Decade'
+            },
+            {
+              qText: 'The library is open *all day and night*.',
+              options: '24/7, 365 day, all round'
+            },
+            {
+              qText: 'He was at *the break of day* jogging in the park.',
+              options: 'Dawn, Dusk, Evening'
+            },
+            {
+              qText: 'The bakery makes delicious cakes *on a daily basis*.',
+              options: 'Daily, Monthly, Today'
+            }
+          ]
+        }
+      ]
+    },
     //ref: https://www.vocabulary.com/lists/52473 sentences created using chatGPT
     {
       id: 'mcq-4',

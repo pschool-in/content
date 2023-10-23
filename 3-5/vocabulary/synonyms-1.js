@@ -292,6 +292,65 @@ thick − fat`
           refs: 'data~9'
         }
       ]
+    },
+    {
+      type: 'rightOne',
+      id: 'odd-one',
+      label: 'Odd One Out',
+      lockAfter: 1,
+      commonData: {
+        title: 'Which word does not belong in the group of synonyms?'
+      },
+      data: [
+        `appropriate, amazing, incredible, unbelievable, improbable, astonishing
+crazy, anger, enrage, infuriate, arouse, nettle
+lunatic, angry, wrathful, furious, enraged, indignant
+ask, answer, reply, respond, retort, acknowledge
+reply, ask, question, inquire, query, interrogate`,
+
+        `pleasant, awful, dreadful, terrible, abominable, unpleasant
+ugly, bad, depraved, rotten, contaminated, sinful
+vivid, beautiful, gorgeous, dazzling, splendid, magnificent
+finish, begin, start, open, launch, initiate
+micro, big, enormous, huge, immense, gigantic`,
+
+        `frightened, brave, courageous, fearless, dauntless, intrepid
+build, break, fracture, wreck, crash, demolish
+dull, bright, sparkling, shimmering, radiant, vivid
+thunderous, calm, quiet, peaceful, unruffled, tranquil
+stay, come, approach, advance, near, arrive`,
+
+        `cozy, cool, chilly, cold, frosty, frigid
+straight, crooked, bent, twisted, zigzag, hooked
+frown, cry, weep, wail, sob, bawl
+stick, cut, slice, carve, cleave, slit
+certain, dangerous, perilous, hazardous, risky, uncertain`,
+
+        `lit, dark, shadowy, unlit, murky, gloomy
+decline, decide, determine, settle, choose, resolve
+negative, definite, certain, sure, positive, determined
+bitter, delicious, savory, delectable, appetizing, luscious
+forget, describe, portray, characterize, picture, narrate`,
+
+        `remake, destroy, ruin, demolish, raze, slay
+similar, difference, disagreement, inequity, contrast, dissimilarity
+undo, do, execute, enact, carry out, finish
+vivid, dull, unimaginative, lifeless, tedious, tiresome
+apathy, eager, keen, fervent, enthusiastic, involved`,
+
+        `begin, end, stop, finish, terminate, conclude
+avoid, enjoy, appreciate, delight in, be pleased, indulge in
+interrupt, explain, elaborate, clarify, define, interpret
+fair, just, impartial, unbiased, objective
+biased, fall, drop, descend, plunge, topple`,
+
+        `truth, false, fake, fraudulent, counterfeit, spurious
+steady, fast, quick, rapid, hasty, swiftly
+slim, fat, stout, corpulent, paunchy, plump
+brave, fear, fright, dread, terror, alarm
+skid, fly, soar, hover, flit, wing
+angry, funny, humorous, amusing, droll, laughable`
+      ]
     }
   ]
 };

@@ -202,33 +202,31 @@ Intuition × Ignorance`
           },
           {
             type: 'hilight',
-            text: `Culinary × Non-culinary
-Fascination × Disliking
+            text: `Fascination × Disliking
 Peaceful × Turbulent
 Strategy × Disorder
-Penchant × Aversion`
+Penchant × Aversion
+Persistent × Sporadic`
           },
           {
             type: 'hilight',
-            text: `Persistent × Sporadic
-Powerful × Weak
+            text: `Powerful × Weak
 Dedication × Neglect
 Theory × Fact
-Courage × Fear`
+Courage × Fear
+Eloquent × Inarticulate`
           },
           {
             type: 'hilight',
-            text: `Educational × Misleading
-Eloquent × Inarticulate
-Fragrant × Foul-smelling
+            text: `Fragrant × Foul-smelling
 Priceless × Worthless
-Suspenseful × Predictable`
+Suspenseful × Predictable
+Collaboration × Competition
+Profound × Superficial`
           },
           {
             type: 'hilight',
-            text: `Collaboration × Competition
-Profound × Superficial
-Significant × Minor
+            text: `Significant × Minor
 Exquisite × Ugly
 Captivating × Uninteresting`
           }
@@ -251,11 +249,11 @@ Captivating × Uninteresting`
               options: 'unimaginative, dull, ordinary'
             },
             {
-              qText: `The teacher's *enthusiasm* made the class exciting.`,
+              qText: `The teacher's *enthusiasm* made the class boring.`,
               options: 'apathy, indifference, disinterest'
             },
             {
-              qText: `The author's *vivid* descriptions brought the story to life.`,
+              qText: `The author's *vivid* descriptions made the story more gloomy.`,
               options: 'dull, lifeless, colorless'
             },
             {
@@ -263,17 +261,13 @@ Captivating × Uninteresting`
               options: 'discordant, noisy, unpleasant'
             },
             {
-              qText: `The detective's *intuition* helped solve the case.`,
+              qText: `The detective's *intuition* made it difficlut to solve the case.`,
               options: 'ignorance, blindness, confusion'
             }
           ]
         },
         {
           questions: [
-            {
-              qText: `The chef's *culinary* skills are unmatched.`,
-              options: 'non-culinary, non-cooking, non-food'
-            },
             {
               qText: 'She has a *fascination* for ancient history.',
               options: 'disliking, aversion, hatred'
@@ -283,27 +277,27 @@ Captivating × Uninteresting`
               options: 'turbulent, chaotic, noisy'
             },
             {
-              qText: `The company's *strategy* led to increased profits.`,
+              qText: `The company's *strategy* led to decreased profits.`,
               options: 'disorder, confusion, chaos'
             },
             {
               qText: 'The explorer had a *penchant* for adventure.',
               options: 'aversion, hatred, dislike'
+            },
+            {
+              qText: 'His *persistent* efforts paid off in the end.',
+              options: 'sporadic, occasional, infrequent'
             }
           ]
         },
         {
           questions: [
             {
-              qText: 'His *persistent* efforts paid off in the end.',
-              options: 'sporadic, occasional, infrequent'
-            },
-            {
               qText: 'The film had a *powerful* impact on the audience.',
               options: 'weak, feeble, ineffective'
             },
             {
-              qText: `The athlete's *dedication* to training was impressive.`,
+              qText: `The athlete's *dedication* to training cost him the match.`,
               options: 'neglect, indifference, laziness'
             },
             {
@@ -313,19 +307,15 @@ Captivating × Uninteresting`
             {
               qText: 'The mountain climbers showed great *courage*.',
               options: 'fear, cowardice, timidity'
+            },
+            {
+              qText: 'Her *eloquent* speech left the audience in awe.',
+              options: 'inarticulate, speechless, mute'
             }
           ]
         },
         {
           questions: [
-            {
-              qText: 'The conference was an *educational* experience.',
-              options: 'misleading, deceptive, uninformative'
-            },
-            {
-              qText: 'Her *eloquent* speech left the audience in awe.',
-              options: 'inarticulate, speechless, mute'
-            },
             {
               qText: 'The garden was filled with *fragrant* flowers.',
               options: 'foul-smelling, stinking, repugnant'
@@ -337,11 +327,7 @@ Captivating × Uninteresting`
             {
               qText: 'The novel had a *suspenseful* plot.',
               options: 'predictable, boring, uninteresting'
-            }
-          ]
-        },
-        {
-          questions: [
+            },
             {
               qText: `The team's *collaboration* led to success.`,
               options: 'competition, rivalry, disagreement'
@@ -349,7 +335,11 @@ Captivating × Uninteresting`
             {
               qText: 'She has a *profound* understanding of the topic.',
               options: 'superficial, shallow, trivial'
-            },
+            }
+          ]
+        },
+        {
+          questions: [
             {
               qText: 'The storm caused *significant* damage to the town.',
               options: 'minor, trivial, negligible'
@@ -441,7 +431,7 @@ Kindness - Being friendly and considerate`
             {
               qText:
                 'The *generous* donation helped the charity support many people.',
-              options: 'Willing to give and share, Selfish and stingy'
+              options: 'Williness to give and share, Selfish and stingy'
             }
           ]
         },
@@ -462,7 +452,7 @@ Kindness - Being friendly and considerate`
               qText:
                 'The *celebration* of the festival included music and dancing.',
               options:
-                'Marking a special event with joy and festivity, Quiet and somber observance'
+                'Special event with joy and festivity, Quiet and somber observance'
             },
             {
               qText: `The chef's *creativity* resulted in a unique and delicious dish.`,
@@ -486,13 +476,13 @@ Kindness - Being friendly and considerate`
             {
               qText: 'The *optimistic* outlook helped her overcome challenges.',
               options:
-                'Positive and hopeful attitude, Pessimistic and gloomy perspective'
+                'Positive and hopeful, Pessimistic and gloomy perspective'
             },
             {
               qText:
                 'The *efficiency* of the new process saved time and resources.',
               options:
-                'Achieving maximum productivity with minimal wasted effort, Ineffectiveness and wastefulness'
+                'Achievment of maximum productivity with minimal wasted effort, Ineffectiveness and wastefulness'
             },
             {
               qText: 'The *gratitude* of the recipients was heartwarming.',
@@ -526,41 +516,11 @@ Kindness - Being friendly and considerate`
               qText:
                 'The *innovation* in technology has transformed our lives.',
               options:
-                'Introducing new and advanced ideas, Stagnation and lack of progress'
+                'Introduction of new and advanced ideas, Stagnation and lack of progress'
             },
             {
               qText: 'The *kindness* of the stranger brightened her day.',
-              options: 'Being friendly and considerate, Rudeness and hostility'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'The *persistence* of the hiker paid off when he reached the summit.',
-              options: 'Continued effort and determination, Giving up easily'
-            },
-            {
-              qText:
-                'The *compassion* of the volunteers touched the hearts of many.',
-              options: 'Sympathy and care for others, Indifference and cruelty'
-            },
-            {
-              qText:
-                'The *innovation* in the tech industry leads to constant advancements.',
-              options:
-                'Introducing new and advanced ideas, Stagnation and lack of progress'
-            },
-            {
-              qText:
-                'The *kindness* of the neighbor helped during a difficult time.',
-              options: 'Being friendly and considerate, Rudeness and hostility'
-            },
-            {
-              qText:
-                'The *curiosity* of the child led to many questions and discoveries.',
-              options: 'Desire to learn and explore, Apathy and disinterest'
+              options: 'Friendly and considerate nature, Rudeness and hostility'
             }
           ]
         }
