@@ -340,56 +340,6 @@ Deafening × Extremely Quiet`
       ]
     },
     {
-      id: 'reading-4',
-      type: 'passage',
-      label: 'Words List',
-      data: {
-        title: 'Word Meanings',
-        text: [
-          {
-            type: 'hilight',
-            text: `Apathy - Lack of interest or emotion.
-Hypothesis - A supposition or proposed explanation made on the basis of limited evidence.
-Ambiguous - Open to more than one interpretation; having a double meaning.
-Inevitable - Certain to happen; unavoidable.
-Innovate - Make changes in something established, especially by introducing new methods or ideas.`
-          },
-          {
-            type: 'hilight',
-            text: `Juxtapose - To place or deal with close together for contrasting effect.
-Nostalgia - A sentimental longing for the past, typically for a period with happy personal associations.
-Quarantine - A state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.
-Vivid - Producing powerful feelings or strong, clear images in the mind.
-Whimsical - Playfully quaint or fanciful, especially in an appealing and amusing way.`
-          },
-          {
-            type: 'hilight',
-            text: `Discrepancy - A lack of compatibility or similarity between two or more facts.
-Empathy - The ability to understand and share the feelings of another.
-Synchronize - Cause to occur or operate at the same time or rate.
-Exaggerate - Represent (something) as being larger, better, or worse than it really is.
-Oblivious - Not aware of or not concerned about what is happening around one.`
-          },
-          {
-            type: 'hilight',
-            text: `Diligent - Having or showing care and conscientiousness in one's work or duties.
-Tenacious - Tending to keep a firm hold of something; clinging or adhering closely.
-Alleviate - Make (suffering, deficiency, or a problem) less severe.
-Voracious - Wanting or devouring great quantities of food; having a very eager approach to an activity.
-Aid - Assistance or support.`
-          },
-          {
-            type: 'hilight',
-            text: `Eager - Showing keen interest or enthusiasm.
-Fragile - Easily broken or damaged.
-Harmony - A state of peaceful coexistence or agreement.
-Illuminate - To provide light or clarity.
-Loyal - Faithful and committed to a person, group, or cause.`
-          }
-        ]
-      }
-    },
-    {
       id: 'replace-words',
       label: 'Replace the Words',
       type: 'mcq',
@@ -496,6 +446,56 @@ Loyal - Faithful and committed to a person, group, or cause.`
           ]
         }
       ]
+    },
+    {
+      id: 'reading-4',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Word Meanings',
+        text: [
+          {
+            type: 'hilight',
+            text: `Apathy - Lack of interest or emotion.
+Hypothesis - A supposition or proposed explanation made on the basis of limited evidence.
+Ambiguous - Open to more than one interpretation; having a double meaning.
+Inevitable - Certain to happen; unavoidable.
+Innovate - Make changes in something established, especially by introducing new methods or ideas.`
+          },
+          {
+            type: 'hilight',
+            text: `Juxtapose - To place or deal with close together for contrasting effect.
+Nostalgia - A sentimental longing for the past, typically for a period with happy personal associations.
+Quarantine - A state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.
+Vivid - Producing powerful feelings or strong, clear images in the mind.
+Whimsical - Playfully quaint or fanciful, especially in an appealing and amusing way.`
+          },
+          {
+            type: 'hilight',
+            text: `Discrepancy - A lack of compatibility or similarity between two or more facts.
+Empathy - The ability to understand and share the feelings of another.
+Synchronize - Cause to occur or operate at the same time or rate.
+Exaggerate - Represent (something) as being larger, better, or worse than it really is.
+Oblivious - Not aware of or not concerned about what is happening around one.`
+          },
+          {
+            type: 'hilight',
+            text: `Diligent - Having or showing care and conscientiousness in one's work or duties.
+Tenacious - Tending to keep a firm hold of something; clinging or adhering closely.
+Alleviate - Make (suffering, deficiency, or a problem) less severe.
+Voracious - Wanting or devouring great quantities of food; having a very eager approach to an activity.
+Aid - Assistance or support.`
+          },
+          {
+            type: 'hilight',
+            text: `Eager - Showing keen interest or enthusiasm.
+Fragile - Easily broken or damaged.
+Harmony - A state of peaceful coexistence or agreement.
+Illuminate - To provide light or clarity.
+Loyal - Faithful and committed to a person, group, or cause.`
+          }
+        ]
+      }
     },
     //ref: https://www.vocabulary.com/lists/52473 sentences created using chatGPT
     {

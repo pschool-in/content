@@ -357,6 +357,116 @@ Captivating × Uninteresting`
       ]
     },
     {
+      id: 'replace-words',
+      label: 'Replace the Words',
+      type: 'mcq',
+      commonData: {
+        title:
+          'Choose the word that can replace the underlined words or group of words in the sentences.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'The ancient castle stands *on top of the hill*.',
+              options: 'Hilltop, Atop, Over the hill'
+            },
+            {
+              qText: 'The old man told stories *from his youth*.',
+              options: 'Childhood, Ancient times, Senior years'
+            },
+            {
+              qText: "I've known him *for a lifetime*.",
+              options: 'Forever, Recently, Briefly'
+            },
+            {
+              qText: 'She found herself *in the middle of* a bustling city.',
+              options: 'Amidst, Isolated, Peaceful'
+            },
+            {
+              qText: 'The book was hidden *in the middle of the shelf*.',
+              options: 'Midway, Amidst, At the center'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'The concert was held *in the open air*.',
+              options: 'Outdoors, Under the sky, In the environment'
+            },
+            {
+              qText: 'They reached the *highest point of the trail*.',
+              options: 'Peak, Pinnacle, Apex'
+            },
+            {
+              qText: 'He solved the puzzle *with great ease*.',
+              options: 'Effortlessly, Smoothly, Gracefully'
+            },
+            {
+              qText: 'She had been studying *for a very long time*.',
+              options: 'Excessively, Hours on end, Years'
+            },
+            {
+              qText: 'She answered the question *without any hesitation*.',
+              options: 'Instantly, Unhesitatingly, Promptly'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'She sang *with all her heart*.',
+              options: 'Passionately, Half-heartedly, Silently'
+            },
+            {
+              qText: 'The cake tasted *like heaven*.',
+              options: 'Incredible, Terrible, Average'
+            },
+            {
+              qText: 'They traveled through the forest *for miles and miles*.',
+              options: 'Endlessly, Long distances, Many hours'
+            },
+            {
+              qText: 'The fireworks lit up the sky *at the break of day*.',
+              options: 'Dawn, Sunrise, Early morning'
+            },
+            {
+              qText: 'He practices meditation *on a daily basis*.',
+              options: 'Daily, Every day, Routinely'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText:
+                'She reached the destination *well before the expected time*.',
+              options: 'Early, Ahead of time, In advance'
+            },
+            {
+              qText:
+                'The team trained *for a considerable period* before the competition.',
+              options: 'Extensively, For an extended time, Over a long duration'
+            },
+            {
+              qText: 'The cafe is open *around the clock*.',
+              options: '24/7, At all hours, Continuously'
+            },
+            {
+              qText: 'The stars are visible *at the fall of night*.',
+              options: 'Nightfall, Sunset, Evening'
+            },
+            {
+              qText:
+                'The spaceship journeyed *to the far reaches of the galaxy*.',
+              options: 'Outer space, Distant galaxy, Cosmic expanse'
+            }
+          ]
+        }
+      ]
+    },
+    {
       id: 'reading-4',
       type: 'passage',
       label: 'Words List',
