@@ -4,7 +4,7 @@ export default {
   lockAfter: 2,
   list: [
     {
-      id: 'meanings-4',
+      id: 'meanings-1',
       type: 'slides2',
       label: `Word Meanings`,
       commonData: {
@@ -704,7 +704,152 @@ At the end of the trial, the judge will <i><b>conclude</b></i> the proceedings.`
               }
             ]
           ]
-        },
+        }
+      ]
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-1',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `The scientist's measurements were highly *accurate*, with minimal margin for error.
+The *address* of the company's headquarters is well-known in the business community.
+After years of hard work, they could finally *afford* their dream vacation.
+The lifeguard's job is to *alert* swimmers to potential dangers in the water.
+Scientists *analyze* data to draw meaningful conclusions from their research.`,
+
+        `Genealogy enthusiasts often research their *ancestors* to learn about their family history.
+The *annual* holiday parade is a beloved tradition in our town.
+The smile on her face made her happiness *apparent* to everyone in the room.
+It's important to choose *appropriate* clothing for different weather conditions.
+The *arena* was filled with excited fans cheering for their favorite sports team.`,
+
+        `The police had to *arrest* the suspect after a thorough investigation.
+Climbers often *ascend* steep mountains with great determination and skill.
+Volunteers *assist* in disaster relief efforts to provide support to affected communities.
+Despite the challenges, she was determined to *attempt* her dream of starting a business.
+The picturesque landscape of the countryside was incredibly *attractive*.`,
+
+        `The gymnast demonstrated incredible *balance* on the narrow beam.
+The wall served as a *barrier* to keep intruders out of the property.
+Regular exercise has many *benefits* for physical and mental health.
+It's important for journalists to avoid *bias* and report the news objectively.
+The strong *bond* between the two friends was evident in their unwavering support for each other.`,
+
+        `The meeting was *brief*, lasting only 15 minutes.
+The *bulk* of the project involved extensive research and data analysis.
+The new factory has the *capacity* to produce thousands of units per day.
+There are numerous *categories* of books in the library, including fiction, non-fiction, and reference.
+The *cease*-fire agreement brought a temporary cease to the conflict.`,
+
+        `Solving complex puzzles can be a great *challenge* for the mind.
+The internet is a powerful *channel* for sharing knowledge and connecting people worldwide.
+Honesty is a key *characteristic* of a trustworthy person.
+In your research paper, remember to *cite* your sources to give credit to the original authors.
+*Civil* rights movements have played a crucial role in achieving equality for all people.`,
+
+        `Can you *clarify* your instructions? I'm not sure what you mean.
+"To Kill a Mockingbird" is considered a *classic* novel of American literature.
+Our vacation plans *coincide* with the local festival, so we'll get to experience it.
+The old building was in such disrepair that it was in danger of *collapse*.
+My *colleague* and I have been collaborating on this project for several months.`,
+
+        `Students need to *calculate* the total sum of the numbers in this equation.
+She is *capable* of handling challenging tasks with ease.
+The animals were kept in *captivity* for research purposes.
+The children played *carefree* in the park, enjoying the sunny day.
+The historical artifact dates back to the 18th *century*.`,
+
+        `The hidden treasure was found in a secret *chamber* deep within the castle.
+The Earth follows a *circular* orbit around the Sun.
+She tried to *coax* her cat out of hiding with a treat.
+The newspaper has a regular *column* for opinion pieces.
+People use various forms of language to *communicate* with each other.`,
+
+        `The Olympic Games are a showcase of international *competition*.
+The puzzle is not *complete* without all the missing pieces.
+The chef had to *concentrate* the sauce to enhance its flavor.
+Environmental *concerns* have led to a push for sustainability.
+The meeting will *conclude* with a summary of the decisions made.`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-1',
+      label: 'Complete Word',
+      data: [
+        `Characterized by perfect conformity to fact or truth | ACCURATE
+The place where a person or organization can be found | ADDRESS
+Have the financial means to do something or buy something | AFFORD
+Warn or arouse to a sense of danger | ALERT
+Break down into components or essential features | ANALYZE
+Someone from whom you are descended | ANCESTOR
+Occurring every year | ANNUAL
+Clearly revealed to the mind or the senses or judgment | APPARENT
+Suitable for a particular person, place, or situation | APPROPRIATE
+A large structure for open|AIR sports or entertainments | ARENA`,
+
+        `Take into custody | ARREST
+Travel up | ASCEND
+Give help; be of service | ASSIST
+Make an effort | ATTEMPT
+Pleasing to the eye or mind | ATTRACTIVE
+A state of equilibrium or equipoise; equal distribution of weight | BALANCE
+A structure or object that impedes free movement | BARRIER
+Something that promotes well-being | BENEFIT
+A partiality that prevents objective consideration of an issue or situation | BIAS
+A connection that fastens things together | BOND`,
+
+        `Of short duration or distance | BRIEF
+The property resulting from being or relating to the greater in number of two parts; the main part | BULK
+The ability to perform or produce | CAPACITY
+A general concept that marks divisions or coordinations in a conceptual scheme | CATEGORY
+Put an end to a state or an activity | CEASE
+A demanding or stimulating situation | CHALLENGE
+A pathway through which information flows | CHANNEL
+A distinguishing quality or trait | CHARACTERISTIC
+To quote as an authority or example | CITE
+Of or relating to ordinary citizens and their concerns | CIVIL`,
+
+        `To make clear and understandable | CLARIFY
+Of the highest quality and lasting significance | CLASSIC
+To occur at the same time or place | COINCIDE
+To fall down or give way suddenly | COLLAPSE
+An associate or coworker, especially in a professional setting | COLLEAGUE
+Make a mathematical computation | CALCULATE
+Having ability | CAPABLE
+The state of being imprisoned | CAPTIVITY
+Without trouble or worry | CAREFREE
+A period of 100 years | CENTURY`,
+
+        `A natural or artificial enclosed space | CHAMBER
+Having a circular shape | CIRCULAR
+Influence or persuade by gentle and persistent urging | COAX
+A line of units following one after another | COLUMN
+Transfer to another | COMMUNICATE
+The act of contending with others for rewards or resources | COMPETITION
+Having all necessary qualities | COMPLETE
+Make denser, stronger, or purer | CONCENTRATE
+Something that interests you because it is important | CONCERN
+Bring to a close | CONCLUDE`
+      ]
+    },
+    {
+      id: 'meanings-2',
+      type: 'slides2',
+      label: `Word Meanings`,
+      commonData: {
+        title: `Word Meanings`,
+        displayType: 'custom',
+        autoPlay: false,
+        substep: false
+      },
+      data: [
         {
           steps: [
             [
@@ -1254,7 +1399,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- able to bend easily',
               {
                 type: 'html',
-                text: "Eg: <br><br> Yoga practitioners often have <i><b>flexible</b></i> bodies, allowing them to perform various poses with ease.<br><br> The gymnast's <i><b>flexible</b></i> movements impressed the judges."
+                text: `Eg: <br><br> 
+Yoga practitioners often have <i><b>flexible</b></i> bodies, allowing them to perform various poses with ease.<br><br> 
+The gymnast's <i><b>flexible</b></i> movements impressed the judges.`
               }
             ],
             [
@@ -1265,7 +1412,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- the concentration of attention or energy on something',
               {
                 type: 'html',
-                text: "Eg: <br><br> To succeed in your studies, you need to maintain a high level of <i><b>focus</b></i> and avoid distractions.<br><br> The photographer's <i><b>focus</b></i> was on capturing the perfect shot."
+                text: `Eg: <br><br> 
+To succeed in your studies, you need to maintain a high level of <i><b>focus</b></i> and avoid distractions.<br><br> 
+The photographer's <i><b>focus</b></i> was on capturing the perfect shot.`
               }
             ],
             [
@@ -1276,7 +1425,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- easily broken or damaged or destroyed',
               {
                 type: 'html',
-                text: "Eg: <br><br> Handle the glassware with care; it's <i><b>fragile</b></i> and can shatter easily.<br><br> The antique vase was beautiful but <i><b>fragile</b></i> and required delicate handling."
+                text: `Eg: <br><br> 
+Handle the glassware with care; it's <i><b>fragile</b></i> and can shatter easily.<br><br> 
+The antique vase was beautiful but <i><b>fragile</b></i> and required delicate handling.`
               }
             ],
             [
@@ -1287,7 +1438,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- marked by uncontrolled excitement or emotion',
               {
                 type: 'html',
-                text: 'Eg: <br><br> When they realized they were running late for the flight, they became <i><b>frantic</b></i> and rushed to the airport.<br><br> The news of the championship win sparked <i><b>frantic</b></i> celebrations in the city.'
+                text: `Eg: <br><br> 
+When they realized they were running late for the flight, they became <i><b>frantic</b></i> and rushed to the airport.<br><br> 
+The news of the championship win sparked <i><b>frantic</b></i> celebrations in the city.`
               }
             ],
             [
@@ -1298,7 +1451,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- coming at short intervals or habitually',
               {
                 type: 'html',
-                text: 'Eg: <br><br> The bus service provides <i><b>frequent</b></i> trips to and from the city center, making commuting convenient.<br><br> They had <i><b>frequent</b></i> meetings to discuss project progress.'
+                text: `Eg: <br><br> 
+The bus service provides <i><b>frequent</b></i> trips to and from the city center, making commuting convenient.<br><br> 
+They had <i><b>frequent</b></i> meetings to discuss project progress.`
               }
             ]
           ]
@@ -1313,7 +1468,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- a wilderness at the edge of a settled area of a country',
               {
                 type: 'html',
-                text: 'Eg: <br><br> Explorers once embarked on dangerous journeys to discover the <i><b>frontier</b></i> and expand their knowledge of the world.<br><br> The town was located near the <i><b>frontier</b></i>, where the untamed wilderness began.'
+                text: `Eg: <br><br> 
+Explorers once embarked on dangerous journeys to discover the <i><b>frontier</b></i> and expand their knowledge of the world.<br><br> 
+The town was located near the <i><b>frontier</b></i>, where the untamed wilderness began.`
               }
             ],
             [
@@ -1324,7 +1481,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- marked by extreme anger',
               {
                 type: 'html',
-                text: 'Eg: <br><br> His rude remarks left her <i><b>furious</b></i>, and she demanded an apology.<br><br> The unfair treatment of the employees led to a <i><b>furious</b></i> protest.'
+                text: `Eg: <br><br> 
+His rude remarks left her <i><b>furious</b></i>, and she demanded an apology.<br><br> 
+The unfair treatment of the employees led to a <i><b>furious</b></i> protest.`
               }
             ],
             [
@@ -1335,7 +1494,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- the trait of being willing to give your money or time',
               {
                 type: 'html',
-                text: 'Eg: <br><br> His <i><b>generosity</b></i> was evident when he donated a substantial amount to the charity.<br><br> She is known for her <i><b>generosity</b></i> in helping those in need.'
+                text: `Eg: <br><br> 
+His <i><b>generosity</b></i> was evident when he donated a substantial amount to the charity.<br><br> 
+She is known for her <i><b>generosity</b></i> in helping those in need.`
               }
             ],
             [
@@ -1346,7 +1507,9 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- precipitation of ice pellets',
               {
                 type: 'html',
-                text: 'Eg: <br><br> In severe weather, <i><b>hail</b></i> can cause damage to crops and vehicles.<br><br> The unexpected <i><b>hail</b></i> storm surprised the residents of the area.'
+                text: `Eg: <br><br> 
+In severe weather, <i><b>hail</b></i> can cause damage to crops and vehicles.<br><br> 
+The unexpected <i><b>hail</b></i> storm surprised the residents of the area.`
               }
             ],
             [
@@ -1357,809 +1520,108 @@ Before making a decision, it's important to carefully <i><b>evaluate</b></i> all
               '- something difficult to endure',
               {
                 type: 'html',
-                text: 'Eg: <br><br> The family faced financial <i><b>hardship</b></i> during the economic downturn and had to make sacrifices.<br><br> Overcoming personal <i><b>hardship</b></i> often leads to personal growth.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'heroic'
-              },
-              '- having qualities appropriate for brave figures',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The firefighter's <i><b>heroic</b></i> actions saved lives during the building fire.<br><br> The epic tale recounted the <i><b>heroic</b></i> deeds of a legendary warrior."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'host'
-              },
-              '- a person who invites guests to a social event',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>host</b></i> of the party greeted the guests with warmth and hospitality.<br><br> She was the <i><b>host</b></i> of the TV show, welcoming celebrities and experts.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'humble'
-              },
-              '- marked by meekness or modesty; not arrogant or prideful',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Despite his achievements, he remained <i><b>humble</b></i> and never boasted about his success.<br><br> The <i><b>humble</b></i> leader listened to the concerns of the people.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'impact'
-              },
-              '- the striking of one body against another',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>impact</b></i> of the collision between the two vehicles was significant, resulting in damage.<br><br> Climate change has a lasting <i><b>impact</b></i> on the environment.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'increase'
-              },
-              '- a process of becoming larger or longer or more numerous',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Regular exercise can lead to an <i><b>increase</b></i> in muscle strength and endurance.<br><br> The company experienced a steady <i><b>increase</b></i> in its customer base.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'indicate'
-              },
-              '- designate a place, direction, person, or thing',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Road signs are placed to <i><b>indicate</b></i> the right path for drivers to follow.<br><br> The compass needle <i><b>indicated</b></i> the direction of north.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'inspire'
-              },
-              '- serve as the inciting cause of',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The coach's motivational speech was meant to <i><b>inspire</b></i> the team to give their best performance.<br><br> The breathtaking sunset scene can <i><b>inspire</b></i> feelings of awe and wonder."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'instant'
-              },
-              '- a very short time',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> With modern technology, you can receive information almost in an <i><b>instant</b></i>.<br><br> The <i><b>instant</b></i> the clock struck midnight, fireworks lit up the sky.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'invisible'
-              },
-              '- impossible or nearly impossible to see',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Some microscopic organisms are <i><b>invisible</b></i> to the naked eye and can only be seen with a microscope.<br><br> The ninja moved with such stealth that he seemed <i><b>invisible</b></i> to his opponents.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'jagged'
-              },
-              '- having a sharply uneven surface or outline',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>jagged</b></i> rocks along the coast posed a danger to boats and swimmers.<br><br> His handwriting was so messy that it appeared <i><b>jagged</b></i> and difficult to read.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'lack'
-              },
-              '- the state of needing something that is absent or unavailable',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>lack</b></i> of rain in the region led to drought and water shortages.<br><br> The <i><b>lack</b></i> of proper equipment hindered the rescue mission.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'limb'
-              },
-              '- one of the jointed appendages of an animal',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> A spider has multiple <i><b>limbs</b></i> that it uses to move and capture prey.<br><br> The gecko can detach its <i><b>limbs</b></i> when threatened by a predator.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'limp'
-              },
-              '- walk impeded by some physical injury',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> After twisting his ankle, he had to <i><b>limp</b></i> for a few days until it healed.<br><br> The injured athlete continued to <i><b>limp</b></i> despite the pain.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'manufacture'
-              },
-              '- put together out of artificial or natural components',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The factory specializes in the <i><b>manufacture</b></i> of high-quality automobiles.<br><br> Skilled artisans <i><b>manufacture</b</i> beautiful pottery using traditional methods.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'master'
-              },
-              '- a person who has authority over others',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The martial arts <i><b>master</b></i> trained his students in discipline and self-defense.<br><br> The ship's <i><b>master</b></i> was responsible for navigating through treacherous waters."
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'mature'
-              },
-              '- having reached full natural growth or development',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The fruit is not ready to eat until it has <i><b>matured</b></i> and ripened.<br><br> A <i><b>mature</b></i> individual is expected to handle responsibilities and make informed decisions.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'meadow'
-              },
-              '- a field where grass or alfalfa is grown to be made into hay',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>meadow</b></i> was covered in wildflowers, creating a picturesque landscape.<br><br> The farmer harvested the grass in the <i><b>meadow</b></i> to make hay for the livestock.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'mistrust'
-              },
-              '- regard with suspicion',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The detective couldn't help but <i><b>mistrust</b></i> the shady character's alibi.<br><br> Years of betrayal had led to a deep <i><b>mistrust</b></i> between the two former friends."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'mock'
-              },
-              '- treat with contempt',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The bullies would often <i><b>mock</b></i> their classmates, causing emotional pain.<br><br> The comedian's job is to <i><b>mock</b></i> societal norms and behaviors for comedic effect."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'modest'
-              },
-              '- marked by simplicity; having a humble opinion of yourself',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Despite her wealth, she lived a <i><b>modest</b></i> life and donated to charity.<br><br> He was known for his <i><b>modest</b></i> and unassuming nature.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'noble'
-              },
-              '- of or belonging to hereditary aristocracy',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The castle belonged to a <i><b>noble</b></i> family that had a long history of ruling the region.<br><br> In the story, the <i><b>noble</b></i> knight valiantly protected the kingdom from invaders.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'orchard'
-              },
-              '- a small cultivated area where fruit trees are planted',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>orchard</b></i> was filled with apple, cherry, and pear trees, providing a bountiful harvest.<br><br> The farmer tended to the <i><b>orchard</b></i> throughout the year, ensuring healthy fruit production.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'outstanding'
-              },
-              '- of major significance or importance',
-              {
-                type: 'html',
-                text: "Eg: <br><br> Her <i><b>outstanding</b></i> achievements in science earned her numerous awards and recognition.<br><br> The student's <i><b>outstanding</b></i> essay on global issues impressed the teacher."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'peculiar'
-              },
-              '- beyond or deviating from the usual or expected',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The old house had a <i><b>peculiar</b></i> charm, with its unique architecture and design.<br><br> His <i><b>peculiar</b></i> behavior often puzzled his friends.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'peer'
-              },
-              '- look searchingly',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> She <i><b>peered</b></i> through the window, trying to see who was approaching the house.<br><br> The detective <i><b>peered</b></i> into the darkness, searching for any clues.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'permit'
-              },
-              '- allow the presence of or allow without opposing',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The school <i><b>permit</b></i> allows students to park their cars in the designated area.<br><br> The park <i><b>permit</b></i> grants visitors access to the protected natural area.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'plead'
-              },
-              '- appeal or request earnestly',
-              {
-                type: 'html',
-                text: "Eg: <br><br> The defendant's lawyer will <i><b>plead</b></i> for leniency during the sentencing phase of the trial.<br><br> The children would often <i><b>plead</b></i> with their parents to allow them to stay up later."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'plentiful'
-              },
-              '- existing in great number or quantity',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> In the forest, there was a <i><b>plentiful</b></i> supply of wild berries and mushrooms.<br><br> The region was known for its <i><b>plentiful</b></i> harvest of crops.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'practice'
-              },
-              '- carry out or practice; as of jobs and professions',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The musician would <i><b>practice</b></i> the piano for hours each day to perfect his skills.<br><br> Doctors and nurses <i><b>practice</b></i> their profession with dedication and care.'
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'predict'
-              },
-              '- tell in advance',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> Meteorologists use data to <i><b>predict</b></i> the weather and inform the public.<br><br> Economists often <i><b>predict</b></i> future trends in the stock market.'
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'queasy'
-              },
-              '- causing or able to cause nausea',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The rocky boat ride left some passengers feeling <i><b>queasy</b></i> and seasick.<br><br>
-The smell of spoiled food can make anyone feel <i><b>queasy</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'recent'
-              },
-              '- approximately the last 10,000 years',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-In the <i><b>recent</b></i> past, technological advancements have changed our lives dramatically.<br><br>
-The study of <i><b>recent</b></i> history helps us understand the events that shaped our world.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'recognize'
-              },
-              '- perceive to be something or something you can identify',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-I couldn't <i><b>recognize</b></i> her with her new hairstyle and glasses.<br><br>
-It's essential to <i><b>recognize</b></i> the signs of success and celebrate your achievements.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'reduce'
-              },
-              '- make smaller',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-To promote sustainability, it's important to <i><b>reduce</b></i> our energy consumption.<br><br>
-The chef decided to <i><b>reduce</b></i> the amount of sugar in the dessert recipe.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'release'
-              },
-              '- grant freedom to; free from confinement',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The authorities decided to <i><b>release</b></i> the political prisoners after years of incarceration.<br><br>
-The company will <i><b>release</b></i> a new product to the market next month.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'represent'
-              },
-              '- be a delegate or spokesperson for',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The elected officials <i><b>represent</b></i> the interests and concerns of their constituents.<br><br>
-The ambassador will <i><b>represent</b></i> our country at the international conference.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'request'
-              },
-              '- express the need or desire for; ask for',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-She decided to <i><b>request</b></i> a day off from work to attend her friend's wedding.<br><br>
-Please don't hesitate to <i><b>request</b></i> assistance if you need help.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'resist'
-              },
-              '- withstand the force of something',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The new building materials are designed to <i><b>resist</b></i> extreme weather conditions.<br><br>
-It's challenging to <i><b>resist</b></i> the aroma of freshly baked bread.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'response'
-              },
-              '- the speech act of continuing a conversational exchange',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Engaging in open and respectful <i><b>responses</b></i> is key to effective communication.<br><br>
-The audience's positive <i><b>response</b></i> to the performance was heartwarming.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'reveal'
-              },
-              '- make visible',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The detective worked tirelessly to <i><b>reveal</b></i> the identity of the mystery culprit.<br><br>
-The unveiling of the new art installation will <i><b>reveal</b></i> the artist's creative vision.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'routine'
-              },
-              '- an unvarying or habitual method or procedure',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Establishing a daily <i><b>routine</b></i> can improve productivity and time management.<br><br>
-The morning <i><b>routine</b></i> includes breakfast, exercise, and preparing for the day ahead.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'severe'
-              },
-              '- very harsh or strict, especially when dealing with others',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The judge handed down a <i><b>severe</b></i> sentence to the convicted criminal due to the nature of the crime.<br><br>
-Some coaches are known for their <i><b>severe</b></i> training methods to bring out the best in their athletes.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'shabby'
-              },
-              '- showing signs of wear and tear',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The old book had a <i><b>shabby</b></i> cover, but its contents were still valuable.<br><br>
-He decided to renovate his <i><b>shabby</b></i> apartment to make it more comfortable.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'shallow'
-              },
-              '- lacking physical depth',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The river was so <i><b>shallow</b></i> that you could easily wade across it.<br><br>
-Some people prefer <i><b>shallow</b></i> conversations, while others enjoy deep philosophical discussions.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'sole'
-              },
-              '- the underside of the foot',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Walking on the <i><b>sole</b></i> of your foot for too long can lead to discomfort and pain.<br><br>
-The shoes had a cushioned <i><b>sole</b></i> for added comfort during long walks.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'source'
-              },
-              '- the place where something begins',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The scientist is determined to find the <i><b>source</b></i> of the mysterious phenomenon.<br><br>
-Understanding the <i><b>source</b></i> of a problem is the first step in solving it.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'sturdy'
-              },
-              '- having rugged physical strength',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The old oak tree remained <i><b>sturdy</b></i> despite many years of exposure to the elements.<br><br>
-The <i><b>sturdy</b></i> construction of the bridge made it reliable for heavy traffic.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'surface'
-              },
-              '- the outer boundary of an artifact or a material layer',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The diver explored the <i><b>surface</b></i> of the crystal-clear lake to search for lost treasures.<br><br>
-The <i><b>surface</b></i> of the painting was coated with protective varnish.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'survive'
-              },
-              '- continue in existence after',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Some species have managed to <i><b>survive</b></i> in extreme environments through adaptation.<br><br>
-The company had to adapt to changing markets to <i><b>survive</b></i> and thrive.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'terror'
-              },
-              '- an overwhelming feeling of fear and anxiety',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The sudden loud noise caused a moment of <i><b>terror</b></i> among the audience.<br><br>
-The horror movie was filled with scenes designed to evoke <i><b>terror</b></i>.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'threat'
-              },
-              '- declaration of an intention to inflict harm on another',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The security team received information about a potential <i><b>threat</b></i> to the event's safety.<br><br>
-Online safety measures are essential to protect against cyber <i><b>threats</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'tidy'
-              },
-              '- marked by order and cleanliness in appearance or habits',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-She kept her workspace <i><b>tidy</b></i> to maintain an organized and productive environment.<br><br>
-A <i><b>tidy</b></i> appearance and personal hygiene are important in many professions.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'tour'
-              },
-              '- a route all the way around a particular place or area',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The guided <i><b>tour</b></i> of the historic city included visits to famous landmarks.<br><br>
-The band embarked on a world <i><b>tour</b></i> to connect with fans from different countries.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'tradition'
-              },
-              '- a specific practice of long standing',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The annual family gathering during the holidays is a cherished <i><b>tradition</b></i>.<br><br>
-The preservation of cultural <i><b>traditions</b></i> is essential for passing down heritage.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'tragic'
-              },
-              '- very sad, especially involving grief or death or destruction',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The earthquake's impact on the community was nothing short of <i><b>tragic</b></i>.<br><br>
-The story of the doomed lovers is one of the most <i><b>tragic</b></i> tales in literature.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'typical'
-              },
-              '- exhibiting the qualities that identify a group or kind',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The behavior of the <i><b>typical</b></i> teenager often involves seeking independence from parents.<br><br>
-The climate in this region is <i><b>typical</b></i> of tropical climates, with warm temperatures and high humidity.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'vacant'
-              },
-              '- not containing anyone or anything; unfilled or unoccupied',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The old, abandoned house had been <i><b>vacant</b></i> for years, with broken windows and overgrown gardens.<br><br>
-The <i><b>vacant</b></i> chair at the table served as a poignant reminder of the absent family member.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'valiant'
-              },
-              '- having or showing heroism or courage',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The <i><b>valiant</b></i> soldier received a medal for risking his life to save his comrades.<br><br>
-The <i><b>valiant</b></i> efforts of the firefighters helped rescue people from the burning building.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'variety'
-              },
-              '- a category of things distinguished by a common quality',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The garden displayed a <i><b>variety</b></i> of colorful flowers, each with its unique bloom.<br><br>
-The store offered a <i><b>variety</b></i> of products to cater to different customer preferences.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'vast'
-              },
-              '- unusually great in size or amount or extent or scope',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The desert extended for miles, creating a <i><b>vast</b></i> and arid landscape.<br><br>
-The professor had a <i><b>vast</b></i> knowledge of history and could discuss various eras in detail.`
-              }
-            ]
-          ]
-        },
-        {
-          steps: [
-            [
-              {
-                type: 'title',
-                text: 'venture'
-              },
-              '- an undertaking with an uncertain outcome',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Starting a new business is a risky <i><b>venture</b></i> with no guarantee of success.<br><br>
-The young explorer embarked on a <i><b>venture</b></i> into the uncharted jungle to discover new species.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'weary'
-              },
-              '- physically and mentally fatigued',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-After a long day at work, she felt <i><b>weary</b></i> and in need of rest.<br><br>
-The hikers were <i><b>weary</b></i> after the challenging ascent to the mountain's peak.`
+                text: `Eg: <br><br> 
+The family faced financial <i><b>hardship</b></i> during the economic downturn and had to make sacrifices.<br><br> 
+Overcoming personal <i><b>hardship</b></i> often leads to personal growth.`
               }
             ]
           ]
         }
+      ]
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `The similar-sounding words can easily *confuse* new language learners.
+We should *congratulate* the team on their remarkable victory.
+The project required a *considerable* amount of time and resources.
+After a fulfilling meal, he felt *content* and happy.
+Many people volunteered to *contribute* food and clothing to the charity.`,
+
+        `The *crafty* fox outwitted the hunters and escaped with the prize.
+Artists often *create* beautiful works of art that inspire and move people.
+The inventor will *demonstrate* the new technology at the product launch.
+The hikers began to *descend* the steep mountain trail as the sun set.
+His *desire* for adventure led him to explore remote places and cultures.`,
+
+        `Natural disasters like hurricanes can be highly *destructive* to communities.
+Children *develop* physically and intellectually as they grow into adulthood.
+Earthquakes and tsunamis are natural *disasters* that can have widespread devastation.
+The government decided to *disclose* classified information for public safety.
+The noisy construction outside the window would *distract* her from her work.`,
+
+        `Providing relief to those in *distress* is a humanitarian mission.
+The park becomes tranquil and serene at *dusk*, as the day transitions into night.
+The students were *eager* to learn and participate in the class discussion.
+Relaxing by the beach provides a sense of *ease* and tranquility.
+Comedians use humor to *entertain* their audiences and make them laugh.`,
+
+        `The purpose of education is to *enlighten* individuals and expand their horizons.
+The crowd's *enthusiasm* for the concert was evident through their cheers and applause.
+The company aims to *establish* itself as a leader in the tech industry.
+Teachers *evaluate* their students' progress through various assignments and tests.
+Yoga practitioners often have *flexible* bodies, allowing them to perform various poses with ease.`,
+
+        `To succeed in your studies, you need to maintain a high level of *focus* and avoid distractions.
+Handle the glassware with care; it's *fragile* and can shatter easily.
+When they realized they were running late for the flight, they became *frantic* and rushed to the airport.
+The bus service provides *frequent* trips to and from the city center, making commuting convenient.
+Explorers once embarked on dangerous journeys to discover the *frontier* and expand their knowledge of the world.`,
+
+        `His rude remarks left her *furious*, and she demanded an apology.
+His *generosity* was evident when he donated a substantial amount to the charity.
+In severe weather, *hail* can cause damage to crops and vehicles.
+The family faced financial *hardship* during the economic downturn and had to make sacrifices.`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-2',
+      label: 'Complete Word',
+      data: [
+        `Mistake one thing for another | CONFUSE
+Say something to someone that expresses praise | CONGRATULATE
+Large in number, amount, extent, or degree | CONSIDERABLE
+Satisfied or showing satisfaction with things as they are | CONTENT
+Give, provide, or supply something | CONTRIBUTE
+Marked by skill in deception | CRAFTY
+Bring into existence | CREATE
+Give an exhibition of to an interested audience | DEMONSTRATE
+Move downward and lower, but not necessarily all the way | DESCEND
+The feeling that accompanies an unsatisfied state | DESIRE
+Causing damage | DESTRUCTIVE`,
+
+        `Progress or evolve through a process of natural growth | DEVELOP
+An event resulting in great loss and misfortune | DISASTER
+Expose to view as by removing a cover | DISCLOSE
+Draw someone's attention away from something | DISTRACT
+A state of adversity | DISTRESS
+The time of day immediately following sunset | DUSK
+Having or showing keen interest or intense desire | EAGER
+Freedom from difficulty or hardship or effort | EASE
+Provide amusement for | ENTERTAIN
+Give someone greater knowledge and understanding about a subject or situation | ENLIGHTEN
+Intense and eager enjoyment, interest, or approval | ENTHUSIASM`,
+
+        `Set up (an organization, system, or set of rules) on a firm or permanent basis | ESTABLISH
+Assess or judge the value, importance, quality, or condition of something | EVALUATE
+Able to bend easily | FLEXIBLE
+The concentration of attention or energy on something | FOCUS
+Easily broken or damaged or destroyed | FRAGILE
+Marked by uncontrolled excitement or emotion | FRANTIC
+Coming at short intervals or habitually | FREQUENT
+A wilderness at the edge of a settled area of a country | FRONTIER
+Marked by extreme anger | FURIOUS
+The trait of being willing to give your money or time | GENEROSITY
+Precipitation of ice pellets | HAIL
+Something difficult to endure | HARDSHIP`
       ]
     }
   ]
