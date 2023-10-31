@@ -746,6 +746,388 @@ fit as a fiddle, in good health, very weak
 skin of his teeth, barely escape, unable to escape
 put all the eggs in one basket, risk everything, bundle together`
       ]
+    },
+    {
+      id: 'reading-sub',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Substitutions',
+        text: [
+          {
+            type: 'hilight',
+            text: `Jack of all trades - Versatile
+Penchant for adventure - Adventurous
+Apple of my eye - Darling
+Eleventh-hour decision - Last minute
+Silver screen - Cinema`
+          },
+          {
+            type: 'hilight',
+            text: `Bookworm - Avid reader
+Cut to the chase - Shorten
+Déjà vu - Familiar
+Heart of gold - Kind-hearted
+Ball is in your court - Your responsibility`
+          },
+          {
+            type: 'hilight',
+            text: `Bitter pill to swallow - Unpleasant truth
+Chip on the shoulder - Pessimistic
+Silver lining - Positive outlook
+Last straw - Final provocation
+Busy bee - Hardworking`
+          },
+          {
+            type: 'hilight',
+            text: `Ace in the hole - Secret weapon
+Silver tongue - Persuasive
+Green-eyed monster - Jealousy
+Chip off the old block - Resembling
+Elephant in the room - Unaddressed issue`
+          },
+          {
+            type: 'hilight',
+            text: `Skeleton in the closet - Hidden secret
+Apple doesn't fall far from the tree - Strong resemblance
+Silver bullet solution - Effective remedy
+Silent as the grave - Absolute silence
+Wild goose chase - Fruitless pursuit`
+          }
+        ]
+      }
+    },
+    //ref:E220 sentences created using chatGPT
+    {
+      id: 'mcq-sub',
+      label: 'Substitutions!',
+      type: 'mcq',
+      commonData: {
+        title: 'Guess the substitute of the underlined word.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'He is a *jack of all trades*.',
+              options: 'versatile, dominant, clumsy '
+            },
+            {
+              qText:
+                'Her *penchant for adventure* led her to explore new places.',
+              options: 'adventurous, cowardly, stubborn'
+            },
+            {
+              qText: `The *apple of my eye* is my little daughter.`,
+              options: 'darling, apple, eye'
+            },
+            {
+              qText: 'His *eleventh-hour decision* surprised us all.',
+              options: 'last minute, late, early'
+            },
+            {
+              qText: 'The *silver screen* has always fascinated him.',
+              options: 'cinema, television, mobile'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'She is a *bookworm*, always engrossed in her reading.',
+              options: 'avid reader, lazy, caterpillar'
+            },
+            {
+              qText: 'We need to *cut to the chase* and get to the main point.',
+              options: 'shorten, explain, navigate'
+            },
+            {
+              qText: `His *déjà vu* experience made him feel like he'd been there before.`,
+              options: 'familiar, unfamiliar, mysterious'
+            },
+            {
+              qText: 'Her *heart of gold* is evident in her acts of kindness.',
+              options: 'kind-hearted, evil, strong-willed'
+            },
+            {
+              qText:
+                "The *ball is in your court* regarding the project's direction.",
+              options: 'your responsibility, goal, achievement'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'We had a *bitter pill to swallow* when we lost the game.',
+              options: 'unpleasant truth, tasting awful, medicine'
+            },
+            {
+              qText: 'His *chip on the shoulder* attitude creates conflicts.',
+              options: 'pessimistic, optimistic, lovely'
+            },
+            {
+              qText:
+                "She has a *silver lining* perspective on life's challenges.",
+              options: 'positive outlook, negative outlook, evil plans'
+            },
+            {
+              qText: 'The *last straw* was when he broke the vase.',
+              options: 'final provocation, final straw, fodder'
+            },
+            {
+              qText: 'She is a *busy bee*, always involved in multiple tasks.',
+              options: 'hardworking, lazy, inactive'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'His *ace in the hole* is his ability to solve problems.',
+              options: 'secret weapon, ace card, weakness'
+            },
+            {
+              qText: 'She has a *silver tongue* and can persuade anyone.',
+              options: 'persuasive, sweet, evil'
+            },
+            {
+              qText: 'The *green-eyed monster* can ruin relationships.',
+              options: 'jealousy, love, hatred'
+            },
+            {
+              qText:
+                'He has a *chip off the old block* personality, just like his father.',
+              options: 'resembling, opposite, similar'
+            },
+            {
+              qText:
+                'The *elephant in the room* was the topic no one wanted to discuss.',
+              options: 'unaddressed issue, elephant, enormous being'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText:
+                'His *skeleton in the closet* was related to his family heirloom.',
+              options: 'hidden secret, hidden skeleton, murderer'
+            },
+            {
+              qText:
+                "The *apple doesn't fall far from the tree* in that family.",
+              options: 'strong resemblance, dissimilar, different'
+            },
+            {
+              qText:
+                "She has a *silver bullet solution* for the company's problems.",
+              options: 'effective remedy, gun, superpower'
+            },
+            {
+              qText: 'His *silent as the grave* reaction made everyone uneasy.',
+              options: 'absolute silence, death, unresponsiveness'
+            },
+            {
+              qText:
+                'The team had a *wild goose chase* trying to locate the missing documents.',
+              options: 'fruitless pursuit, wild race, competition'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'reading-sub-2',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Substitutions',
+        text: [
+          {
+            type: 'hilight',
+            text: `Solitary bird - Loner
+A penny for your thoughts - Shared idea
+Walking on air - Ecstatic
+Rat race - Competitive race
+Heart of stone - Unempathetic`
+          },
+          {
+            type: 'hilight',
+            text: `Devil's advocate - Opposite side
+Barking up the wrong tree - Misguided
+Slam dunk - Easy win
+Blessing in disguise - Hidden blessing
+Chicken out - Back out`
+          },
+          {
+            type: 'hilight',
+            text: `Break a leg - Good luck wish
+Bite the bullet - Accept pain or hardship  
+Bolt from the blue - Sudden surprise
+Silver lining - Positive outlook
+Elephant in the room - Unaddressed issue`
+          },
+          {
+            type: 'hilight',
+            text: `Spilled the beans - Revealed a secret
+Ace up his sleeve - Hidden talent
+Twist of fate - Unpredictable change
+Feather in her cap - Significant achievement
+Cakewalk - Easy task`
+          },
+          {
+            type: 'hilight',
+            text: `Bull by the horns - Confronted a problem directly
+Cup of tea - Favorite activity
+Ship in the night - Missed opportunity
+Butterflies in the stomach - Nervousness
+Add fuel to the fire - Worsen a situation`
+          }
+        ]
+      }
+    },
+    //ref:E220 sentences created using chatGPT
+    {
+      id: 'mcq-sub-2',
+      label: 'Substitutions!',
+      type: 'mcq',
+      commonData: {
+        title: 'Guess the substitute of the underlined word.'
+      },
+      data: [
+        {
+          questions: [
+            {
+              qText: 'He is a *solitary bird*.',
+              options: 'loner, hermit, avian'
+            },
+            {
+              qText:
+                'You have been quiet for a while, *a penny for your thoughts*.',
+              options: 'deep thinking, inexpensive gift, shared idea'
+            },
+            {
+              qText: 'His *walking on air* expression showed his happiness.',
+              options: 'ecstatic, flying, grounded'
+            },
+            {
+              qText: 'The situation turned into a *rat race* for promotion.',
+              options: 'competitive race, rodent chase, leisurely stroll'
+            },
+            {
+              qText: 'She has a *heart of stone* and rarely shows emotion.',
+              options: 'unempathetic, strong-willed, organ of music'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: `He always plays the *devil's advocate* in debates.`,
+              options: 'opposite side, troublemaker, religious advocate'
+            },
+            {
+              qText:
+                'Their *barking up the wrong tree* approach led to failure.',
+              options: 'misguided, canine companions, noisy protest'
+            },
+            {
+              qText: `The project's success was a *slam dunk* for the team.`,
+              options: 'easy win, basketball shot, noisy celebration'
+            },
+            {
+              qText:
+                'The sudden rain was a *blessing in disguise* for the farmers.',
+              options: 'hidden blessing, misfortune, divine intervention'
+            },
+            {
+              qText: 'His *chicken out* attitude made him avoid taking risks.',
+              options: 'back out, poultry enthusiast, brave approach'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'Her *break a leg* wish brought him good luck.',
+              options: 'good luck wish, leg injury, dance performance'
+            },
+            {
+              qText: 'He had to *bite the bullet* and face the consequences.',
+              options:
+                'accept pain or hardship, chew on a bullet, avoid the situation'
+            },
+            {
+              qText: 'The news came as a *bolt from the blue* for everyone.',
+              options: 'sudden surprise, lightning strike, cloudy sky'
+            },
+            {
+              qText:
+                'His *silver lining* perspective helped him through tough times.',
+              options: 'positive outlook, metallic paint, negative perspective'
+            },
+            {
+              qText:
+                'The *elephant in the room* was their relationship problems.',
+              options: 'unaddressed issue, large animal, a heavy room'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText: 'She *spilled the beans* about the surprise party.',
+              options: 'revealed a secret, shared recipes, dropped some beans'
+            },
+            {
+              qText: 'His *ace up his sleeve* was his talent for art.',
+              options: 'hidden talent, poker trick, shirt with an ace'
+            },
+            {
+              qText: 'Their *twist of fate* brought them together.',
+              options: `unpredictable change, dance move, fate's message`
+            },
+            {
+              qText: 'The *feather in her cap* was her promotion at work.',
+              options: `significant achievement, fashionable hat, bird's nest`
+            },
+            {
+              qText:
+                'The party turned into a *cakewalk* with no issues at all.',
+              options: 'easy task, dessert buffet, cake decoration'
+            }
+          ]
+        },
+        {
+          questions: [
+            {
+              qText:
+                'He took the *bull by the horns* and confronted the issue.',
+              options:
+                'confronted a problem directly, rode a bull, played with horns'
+            },
+            {
+              qText: 'Her *cup of tea* is reading historical novels.',
+              options: 'favorite activity, choice of beverage, actual tea'
+            },
+            {
+              qText: 'The situation was like a *ship in the night* for them.',
+              options: 'missed opportunity, late-night sailing, perfect harmony'
+            },
+            {
+              qText:
+                'She always has a *butterflies in the stomach* feeling before exams.',
+              options: 'nervousness, actual butterflies, strong appetite'
+            },
+            {
+              qText:
+                'His constant *add fuel to the fire* behavior caused arguments.',
+              options: 'worsen a situation, fight with fire, help with firewood'
+            }
+          ]
+        }
+      ]
     }
   ]
 };

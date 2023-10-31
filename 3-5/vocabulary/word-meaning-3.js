@@ -125,6 +125,7 @@ export default {
         }
       ]
     },
+    // ref: https://www.vocabulary.com sentences taken from chatGPT
     {
       id: 'meanings',
       type: 'slides2',
@@ -795,6 +796,7 @@ Accepted or habitual practice | Custom
 The organic phenomenon of rotting | Decay`
       ]
     },
+    // ref: https://www.vocabulary.com sentences taken from chatGPT
     {
       id: 'meanings-2',
       type: 'slides2',

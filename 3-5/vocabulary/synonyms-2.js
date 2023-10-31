@@ -290,6 +290,65 @@ soon − shortly`
           refs: 'data~9'
         }
       ]
+    },
+    {
+      type: 'rightOne',
+      id: 'odd-one',
+      label: 'Odd One Out',
+      lockAfter: 1,
+      commonData: {
+        title: 'Which word does not belong in the group of synonyms?'
+      },
+      data: [
+        `loose, get, acquire, obtain, secure, procure
+came, go, recede, depart, fade, disappear
+rotten, good, excellent, apt, marvelous, qualified
+worthless, great, noteworthy, worthy, distinguished, remarkable
+nice, improper, rude, coarse, indecent`,
+
+        `unhappy, happy, pleased, contented, satisfied, delighted
+like, hate, despise, loathe, detest, abhor
+lost, have, acquire, gain, maintain, believe
+injure, help, aid, assist, succor, encourage
+reveal, hide, conceal, camouflage, shroud, veil`,
+
+        `slow, hurry, hasten, urge, accelerate, bustle
+cure, hurt, damage, distress, afflict, pain
+thesis, idea, thought, concept, conception, notion
+usual, important, necessary, vital, critical, indispensable
+dull, interesting, fascinating, bright, intelligent`,
+
+        `give, keep, hold, maintain, sustain, support
+save, kill, slay, execute, assassinate, abolish
+active, lazy, indolent, slothful, idle, inactive
+macro, little, dinky, diminutive, miniature
+unsee, look, scrutinize, inspect, survey, study`,
+
+        `dislike, love, like, admire, esteem, fancy
+destroy, make, design, fabricate, manufacture, produce
+follow, mark, impress, effect, trace, imprint
+silent, say, tell, recount, narrate, explain, reveal
+stop, move, plod, go, creep, crawl`,
+
+        `ugly, neat, trim, dapper, smart
+old, new, novel, modern, current, recent
+new, old, aged, used, worn, dilapidated
+whole, part, portion, section, fraction, fragment
+plead, place, space, area, spot, plot, region, location, spot`,
+
+        `take, put, place, assign, keep, establish
+loud, quiet, tranquil, peaceful, calm, restful
+false, right, correct, accurate, factual, true
+walk, run, race, sprint, dash, rush
+fearless, scared, panicked, fearful, unnerved, insecure`,
+
+        `hide, show, display, exhibit, present, note
+dash, slow, unhurried, behind, tedious, slack
+start, stop, cease, halt, stay, pause
+talk, story, tale, yarn, account, narrative
+familiar, strange, odd, peculiar, unusual, unfamiliar
+throw, take, hold, catch, seize, grasp`
+      ]
     }
   ]
 };

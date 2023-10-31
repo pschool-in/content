@@ -292,6 +292,28 @@ explore − search`
           refs: 'data~9'
         }
       ]
+    },
+    {
+      type: 'rightOne',
+      id: 'odd-one',
+      label: 'Odd One Out',
+      lockAfter: 1,
+      commonData: {
+        title: 'Which word does not belong in the group of synonyms?'
+      },
+      data: [
+        `hide, tell, disclose, reveal, show, expose
+spill, think, consider, contemplate, reflect, mediate
+reolved, trouble, distress, anguish, anxiety
+untrue, true, accurate, right, proper, precise
+mesmerising, ugly, horrible, unpleasant, monstrous, terrifying`,
+
+        `good, bad, evil, immoral, wicked, rotten, contaminated
+ordinary, amazing, incredible, unbelievable, improbable, fabulous, wonderful
+few, many, numerous, abundant, countless, innumerable, myriad
+calm, angry, mad, furious, enraged, wrathful
+ask, answer, reply, respond, retort, acknowledge`
+      ]
     }
   ]
 };

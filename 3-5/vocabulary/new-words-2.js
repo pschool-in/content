@@ -4,6 +4,57 @@ export default {
   list: [
     //ref:E221 sentences created using chatGPT
     {
+      id: 'reading',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Synonyms',
+        text: [
+          `Two words are said to be synonyms, if they have similar meaning.`,
+          {
+            type: 'hilight',
+            text: `Creative - Innovative
+Enthusiasm - Eagerness
+Vivid - Colorful
+Melodious - Harmonious
+Intuition - Insight`
+          },
+          {
+            type: 'hilight',
+            text: `Culinary - Cooking
+Fascination - Obsession
+Peaceful - Calm
+Strategy - Plan
+Penchant - Liking`
+          },
+          {
+            type: 'hilight',
+            text: `Persistent - Continuous
+Powerful - Strong
+Dedication - Commitment
+Theory - Hypothesis
+Courage - Bravery`
+          },
+          {
+            type: 'hilight',
+            text: `Educational - Informative
+Eloquent - Articulate
+Fragrant - Pleasant-smelling
+Priceless - Invaluable
+Suspenseful - Thrilling`
+          },
+          {
+            type: 'hilight',
+            text: `Collaboration - Cooperation
+Profound - Deep          
+Significant - Major         
+Exquisite - Beautiful        
+Captivating - Fascinating`
+          }
+        ]
+      }
+    },
+    {
       id: 'mcq-1',
       label: 'We Mean the Same!',
       type: 'mcq',
@@ -133,6 +184,55 @@ export default {
         }
       ]
     },
+    {
+      id: 'reading-2',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Antonyms',
+        text: [
+          `Two words are said to be antonyms, if they have opposite meaning.`,
+          {
+            type: 'hilight',
+            text: `Creative × Unimaginative
+Enthusiasm × Apathy
+Vivid × Dull
+Melodious × Discordant
+Intuition × Ignorance`
+          },
+          {
+            type: 'hilight',
+            text: `Fascination × Disliking
+Peaceful × Turbulent
+Strategy × Disorder
+Penchant × Aversion
+Persistent × Sporadic`
+          },
+          {
+            type: 'hilight',
+            text: `Powerful × Weak
+Dedication × Neglect
+Theory × Fact
+Courage × Fear
+Eloquent × Inarticulate`
+          },
+          {
+            type: 'hilight',
+            text: `Fragrant × Foul-smelling
+Priceless × Worthless
+Suspenseful × Predictable
+Collaboration × Competition
+Profound × Superficial`
+          },
+          {
+            type: 'hilight',
+            text: `Significant × Minor
+Exquisite × Ugly
+Captivating × Uninteresting`
+          }
+        ]
+      }
+    },
     //ref:E221 sentences created using chatGPT
     {
       id: 'mcq-2',
@@ -149,11 +249,11 @@ export default {
               options: 'unimaginative, dull, ordinary'
             },
             {
-              qText: `The teacher's *enthusiasm* made the class exciting.`,
+              qText: `The teacher's *enthusiasm* made the class boring.`,
               options: 'apathy, indifference, disinterest'
             },
             {
-              qText: `The author's *vivid* descriptions brought the story to life.`,
+              qText: `The author's *vivid* descriptions made the story more gloomy.`,
               options: 'dull, lifeless, colorless'
             },
             {
@@ -161,17 +261,13 @@ export default {
               options: 'discordant, noisy, unpleasant'
             },
             {
-              qText: `The detective's *intuition* helped solve the case.`,
+              qText: `The detective's *intuition* made it difficlut to solve the case.`,
               options: 'ignorance, blindness, confusion'
             }
           ]
         },
         {
           questions: [
-            {
-              qText: `The chef's *culinary* skills are unmatched.`,
-              options: 'non-culinary, non-cooking, non-food'
-            },
             {
               qText: 'She has a *fascination* for ancient history.',
               options: 'disliking, aversion, hatred'
@@ -181,27 +277,27 @@ export default {
               options: 'turbulent, chaotic, noisy'
             },
             {
-              qText: `The company's *strategy* led to increased profits.`,
+              qText: `The company's *strategy* led to decreased profits.`,
               options: 'disorder, confusion, chaos'
             },
             {
               qText: 'The explorer had a *penchant* for adventure.',
               options: 'aversion, hatred, dislike'
+            },
+            {
+              qText: 'His *persistent* efforts paid off in the end.',
+              options: 'sporadic, occasional, infrequent'
             }
           ]
         },
         {
           questions: [
             {
-              qText: 'His *persistent* efforts paid off in the end.',
-              options: 'sporadic, occasional, infrequent'
-            },
-            {
               qText: 'The film had a *powerful* impact on the audience.',
               options: 'weak, feeble, ineffective'
             },
             {
-              qText: `The athlete's *dedication* to training was impressive.`,
+              qText: `The athlete's *dedication* to training cost him the match.`,
               options: 'neglect, indifference, laziness'
             },
             {
@@ -211,19 +307,15 @@ export default {
             {
               qText: 'The mountain climbers showed great *courage*.',
               options: 'fear, cowardice, timidity'
+            },
+            {
+              qText: 'Her *eloquent* speech left the audience in awe.',
+              options: 'inarticulate, speechless, mute'
             }
           ]
         },
         {
           questions: [
-            {
-              qText: 'The conference was an *educational* experience.',
-              options: 'misleading, deceptive, uninformative'
-            },
-            {
-              qText: 'Her *eloquent* speech left the audience in awe.',
-              options: 'inarticulate, speechless, mute'
-            },
             {
               qText: 'The garden was filled with *fragrant* flowers.',
               options: 'foul-smelling, stinking, repugnant'
@@ -235,11 +327,7 @@ export default {
             {
               qText: 'The novel had a *suspenseful* plot.',
               options: 'predictable, boring, uninteresting'
-            }
-          ]
-        },
-        {
-          questions: [
+            },
             {
               qText: `The team's *collaboration* led to success.`,
               options: 'competition, rivalry, disagreement'
@@ -247,7 +335,11 @@ export default {
             {
               qText: 'She has a *profound* understanding of the topic.',
               options: 'superficial, shallow, trivial'
-            },
+            }
+          ]
+        },
+        {
+          questions: [
             {
               qText: 'The storm caused *significant* damage to the town.',
               options: 'minor, trivial, negligible'
@@ -264,115 +356,84 @@ export default {
         }
       ]
     },
-    //ref:E220 sentences created using chatGPT
     {
-      id: 'mcq-3',
-      label: 'Substitutions!',
+      id: 'replace-words',
+      label: 'Replace the Words',
       type: 'mcq',
       commonData: {
-        title: 'Guess the substitute of the underlined word.'
+        title:
+          'Choose the word that can replace the underlined words or group of words in the sentences.'
       },
       data: [
         {
           questions: [
             {
-              qText: 'He is a *solitary bird*.',
-              options: 'loner, hermit, avian'
+              qText: 'The ancient castle stands *on top of the hill*.',
+              options: 'Hilltop, Atop, Over the hill'
             },
             {
-              qText:
-                'You have been quiet for a while, *a penny for your thoughts*.',
-              options: 'deep thinking, inexpensive gift, shared idea'
+              qText: 'The old man told stories *from his youth*.',
+              options: 'Childhood, Ancient times, Senior years'
             },
             {
-              qText: 'His *walking on air* expression showed his happiness.',
-              options: 'ecstatic, flying, grounded'
+              qText: "I've known him *for a lifetime*.",
+              options: 'Forever, Recently, Briefly'
             },
             {
-              qText: 'The situation turned into a *rat race* for promotion.',
-              options: 'competitive race, rodent chase, leisurely stroll'
+              qText: 'She found herself *in the middle of* a bustling city.',
+              options: 'Amidst, Isolated, Peaceful'
             },
             {
-              qText: 'She has a *heart of stone* and rarely shows emotion.',
-              options: 'unempathetic, strong-willed, organ of music'
+              qText: 'The book was hidden *in the middle of the shelf*.',
+              options: 'Midway, Amidst, At the center'
             }
           ]
         },
         {
           questions: [
             {
-              qText: `He always plays the *devil's advocate* in debates.`,
-              options: 'opposite side, troublemaker, religious advocate'
+              qText: 'The concert was held *in the open air*.',
+              options: 'Outdoors, Under the sky, In the environment'
             },
             {
-              qText:
-                'Their *barking up the wrong tree* approach led to failure.',
-              options: 'misguided, canine companions, noisy protest'
+              qText: 'They reached the *highest point of the trail*.',
+              options: 'Peak, Pinnacle, Apex'
             },
             {
-              qText: `The project's success was a *slam dunk* for the team.`,
-              options: 'easy win, basketball shot, noisy celebration'
+              qText: 'He solved the puzzle *with great ease*.',
+              options: 'Effortlessly, Smoothly, Gracefully'
             },
             {
-              qText:
-                'The sudden rain was a *blessing in disguise* for the farmers.',
-              options: 'hidden blessing, misfortune, divine intervention'
+              qText: 'She had been studying *for a very long time*.',
+              options: 'Excessively, Hours on end, Years'
             },
             {
-              qText: 'His *chicken out* attitude made him avoid taking risks.',
-              options: 'back out, poultry enthusiast, brave approach'
+              qText: 'She answered the question *without any hesitation*.',
+              options: 'Instantly, Unhesitatingly, Promptly'
             }
           ]
         },
         {
           questions: [
             {
-              qText: 'Her *break a leg* wish brought him good luck.',
-              options: 'good luck wish, leg injury, dance performance'
+              qText: 'She sang *with all her heart*.',
+              options: 'Passionately, Half-heartedly, Silently'
             },
             {
-              qText: 'He had to *bite the bullet* and face the consequences.',
-              options:
-                'accept pain or hardship, chew on a bullet, avoid the situation'
+              qText: 'The cake tasted *like heaven*.',
+              options: 'Incredible, Terrible, Average'
             },
             {
-              qText: 'The news came as a *bolt from the blue* for everyone.',
-              options: 'sudden surprise, lightning strike, cloudy sky'
+              qText: 'They traveled through the forest *for miles and miles*.',
+              options: 'Endlessly, Long distances, Many hours'
             },
             {
-              qText:
-                'His *silver lining* perspective helped him through tough times.',
-              options: 'positive outlook, metallic paint, negative perspective'
+              qText: 'The fireworks lit up the sky *at the break of day*.',
+              options: 'Dawn, Sunrise, Early morning'
             },
             {
-              qText:
-                'The *elephant in the room* was their relationship problems.',
-              options: 'unaddressed issue, large animal, a heavy room'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText: 'She *spilled the beans* about the surprise party.',
-              options: 'revealed a secret, shared recipes, dropped some beans'
-            },
-            {
-              qText: 'His *ace up his sleeve* was his talent for art.',
-              options: 'hidden talent, poker trick, shirt with an ace'
-            },
-            {
-              qText: 'Their *twist of fate* brought them together.',
-              options: `unpredictable change, dance move, fate's message`
-            },
-            {
-              qText: 'The *feather in her cap* was her promotion at work.',
-              options: `significant achievement, fashionable hat, bird's nest`
-            },
-            {
-              qText:
-                'The party turned into a *cakewalk* with no issues at all.',
-              options: 'easy task, dessert buffet, cake decoration'
+              qText: 'He practices meditation *on a daily basis*.',
+              options: 'Daily, Every day, Routinely'
             }
           ]
         },
@@ -380,31 +441,72 @@ export default {
           questions: [
             {
               qText:
-                'He took the *bull by the horns* and confronted the issue.',
-              options:
-                'confronted a problem directly, rode a bull, played with horns'
-            },
-            {
-              qText: 'Her *cup of tea* is reading historical novels.',
-              options: 'favorite activity, choice of beverage, actual tea'
-            },
-            {
-              qText: 'The situation was like a *ship in the night* for them.',
-              options: 'missed opportunity, late-night sailing, perfect harmony'
+                'She reached the destination *well before the expected time*.',
+              options: 'Early, Ahead of time, In advance'
             },
             {
               qText:
-                'She always has a *butterflies in the stomach* feeling before exams.',
-              options: 'nervousness, actual butterflies, strong appetite'
+                'The team trained *for a considerable period* before the competition.',
+              options: 'Extensively, For an extended time, Over a long duration'
+            },
+            {
+              qText: 'The cafe is open *around the clock*.',
+              options: '24/7, At all hours, Continuously'
+            },
+            {
+              qText: 'The stars are visible *at the fall of night*.',
+              options: 'Nightfall, Sunset, Evening'
             },
             {
               qText:
-                'His constant *add fuel to the fire* behavior caused arguments.',
-              options: 'worsen a situation, fight with fire, help with firewood'
+                'The spaceship journeyed *to the far reaches of the galaxy*.',
+              options: 'Outer space, Distant galaxy, Cosmic expanse'
             }
           ]
         }
       ]
+    },
+    {
+      id: 'reading-4',
+      type: 'passage',
+      label: 'Words List',
+      data: {
+        title: 'Word Meanings',
+        text: [
+          {
+            type: 'hilight',
+            text: `Vibrant - Bright and lively
+Patience - Ability to remain calm and understanding           
+Cooperation - Working together harmoniously         
+Persistent - Continuing or enduring            
+Generous - Willing to give and share`
+          },
+          {
+            type: 'hilight',
+            text: `Curiosity - Desire to learn and explore
+Reliable - Dependable and trustworthy           
+Celebration - Marking a special event with joy and festivity           
+Creativity - Imagination and originality            
+Honesty - Truthfulness and integrity`
+          },
+          {
+            type: 'hilight',
+            text: `Resilience - Ability to recover and adapt
+Optimistic - Positive and hopeful attitude          
+Efficiency - Achieving maximum productivity with minimal wasted effort           
+Gratitude - Thankfulness and appreciation            
+Peaceful - Calm and free from disturbance`
+          },
+          {
+            type: 'hilight',
+            text: `Adventure - Exciting and daring experience
+Persistence - Continued effort and determination
+Compassion - Sympathy and care for others
+Innovation - Introducing new and advanced ideas
+Kindness - Being friendly and considerate`
+          }
+        ]
+      }
     },
     //ref: https://www.vocabulary.com/lists/52473 sentences created using chatGPT
     {
@@ -439,7 +541,7 @@ export default {
             {
               qText:
                 'The *generous* donation helped the charity support many people.',
-              options: 'Willing to give and share, Selfish and stingy'
+              options: 'Williness to give and share, Selfish and stingy'
             }
           ]
         },
@@ -460,7 +562,7 @@ export default {
               qText:
                 'The *celebration* of the festival included music and dancing.',
               options:
-                'Marking a special event with joy and festivity, Quiet and somber observance'
+                'Special event with joy and festivity, Quiet and somber observance'
             },
             {
               qText: `The chef's *creativity* resulted in a unique and delicious dish.`,
@@ -484,13 +586,13 @@ export default {
             {
               qText: 'The *optimistic* outlook helped her overcome challenges.',
               options:
-                'Positive and hopeful attitude, Pessimistic and gloomy perspective'
+                'Positive and hopeful, Pessimistic and gloomy perspective'
             },
             {
               qText:
                 'The *efficiency* of the new process saved time and resources.',
               options:
-                'Achieving maximum productivity with minimal wasted effort, Ineffectiveness and wastefulness'
+                'Achievment of maximum productivity with minimal wasted effort, Ineffectiveness and wastefulness'
             },
             {
               qText: 'The *gratitude* of the recipients was heartwarming.',
@@ -524,41 +626,11 @@ export default {
               qText:
                 'The *innovation* in technology has transformed our lives.',
               options:
-                'Introducing new and advanced ideas, Stagnation and lack of progress'
+                'Introduction of new and advanced ideas, Stagnation and lack of progress'
             },
             {
               qText: 'The *kindness* of the stranger brightened her day.',
-              options: 'Being friendly and considerate, Rudeness and hostility'
-            }
-          ]
-        },
-        {
-          questions: [
-            {
-              qText:
-                'The *persistence* of the hiker paid off when he reached the summit.',
-              options: 'Continued effort and determination, Giving up easily'
-            },
-            {
-              qText:
-                'The *compassion* of the volunteers touched the hearts of many.',
-              options: 'Sympathy and care for others, Indifference and cruelty'
-            },
-            {
-              qText:
-                'The *innovation* in the tech industry leads to constant advancements.',
-              options:
-                'Introducing new and advanced ideas, Stagnation and lack of progress'
-            },
-            {
-              qText:
-                'The *kindness* of the neighbor helped during a difficult time.',
-              options: 'Being friendly and considerate, Rudeness and hostility'
-            },
-            {
-              qText:
-                'The *curiosity* of the child led to many questions and discoveries.',
-              options: 'Desire to learn and explore, Apathy and disinterest'
+              options: 'Friendly and considerate nature, Rudeness and hostility'
             }
           ]
         }
