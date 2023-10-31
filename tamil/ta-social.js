@@ -2,6 +2,7 @@ export default {
   label: 'சமூகம்',
   id: 'ta-social',
   img: 'social',
+  lang: 'ta',
   list: [
     {
       id: 'direction',

@@ -2,6 +2,7 @@ export default {
   label: 'பழமொழிகள் ',
   id: 'ta-proverb',
   lockAfter: 2,
+  lang: 'ta',
   list: [
     {
       id: 'notes',

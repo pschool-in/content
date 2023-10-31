@@ -3,6 +3,7 @@ export default {
   id: 'ta-science',
   img: 'science',
   lockAfter: 2,
+  lang: 'ta',
   list: [
     {
       type: 'dragAndDrop',

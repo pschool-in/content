@@ -2,6 +2,7 @@ export default {
   label: 'குறுக்கெழுத்து',
   id: 'ta-crossword',
   img: 'crossword',
+  lang: 'ta',
   lockAfter: 2,
   list: [
     {
@@ -348,11 +349,10 @@ export default {
     {
       id: 'misc',
       label: 'குறுக்கெழுத்து தொகுப்பு',
+      type: 'crossword',
       commonData: {
         lang: 'ta',
-
-        title: 'குறுக்கெழுத்து',
-        type: 'crossword'
+        title: 'குறுக்கெழுத்து'
       },
       data: [
         {

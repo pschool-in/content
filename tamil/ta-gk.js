@@ -2,6 +2,7 @@ export default {
   label: 'பொது அறிவு',
   id: 'ta-gk',
   img: 'gk',
+  lang: 'ta',
   list: [
     {
       id: 'mcq',

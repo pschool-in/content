@@ -290,7 +290,7 @@ export default {
         },
         {
           microLabel: 'oy',
-          text: 'boy|b-oy, toy|t-oy, joy|j-oy, enjoy|e-n-j-oy, annoy|a-n-n-oy, employ|e-m-p-l-oy, loyal|l-oy-a-l, royal|r-oy-a-al, alloy|a-l-l-oy, deploy|d-e-p-l-oy',
+          text: 'boy|b-oy, toy|t-oy, joy|j-oy, enjoy|e-n-j-oy, annoy|a-n-n-oy, employ|e-m-p-l-oy, loyal|l-oy-a-l, royal|r-oy-a-l, alloy|a-l-l-oy, deploy|d-e-p-l-oy',
           audioOffset: 10
         }
       ]
@@ -332,13 +332,12 @@ export default {
         },
         {
           microLabel: 'ow',
-          words:
-            'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|c-r-ow, grow|g-r-ow, snow|s-n-ow',
+          text: 'cow|c-ow, now|n-ow, down|d-ow-n, gown|g-ow-n, town|t-ow-n, mow|m-ow, row|r-ow, crow|c-r-ow, grow|g-r-ow, snow|s-n-ow',
           audioOffset: 10
         },
         {
           microLabel: 'ow',
-          words: 'glow|g-l-ow, frown|f-r-ow-n, town|t-ow-n, crown|c-r-ow-n',
+          text: 'glow|g-l-ow, frown|f-r-ow-n, town|t-ow-n, crown|c-r-ow-n',
           audioOffset: 20
         }
       ]

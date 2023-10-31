@@ -3,6 +3,7 @@ export default {
   id: 'thirukkural-3',
   img: 'thirukkural',
   lockAfter: 2,
+  lang: 'ta',
   list: [
     {
       id: 'notes',

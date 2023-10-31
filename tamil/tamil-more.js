@@ -47,10 +47,6 @@ export default {
           id: 'ta-spell'
         },
         {
-          label: 'எழுத்துப்பிழை - 1',
-          id: 'ta-spell-1'
-        },
-        {
           label: 'ஒத்த ஓசை சொற்கள்',
           id: 'ta-rhyme-words'
         },

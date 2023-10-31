@@ -3,6 +3,7 @@ export default {
   id: 'ta-wordsearch',
   img: 'wordsearch',
   lockAfter: 4,
+  lang: 'ta',
   list: [
     {
       id: 'animals',

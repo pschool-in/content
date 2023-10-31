@@ -3,6 +3,7 @@ export default {
   id: 'barathi',
   img: 'barathi',
   lockAfter: 4,
+  lang: 'ta',
   list: [
     {
       id: 'notes',
@@ -64,7 +65,7 @@ export default {
         text: [
           `அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
 இச்சகத்து ளோரெலாம் எதிர்த்து நின்ற போதினும்,
-அச்சமில்லை அச்சமில்லை அச்சமென்பதில்லையே
+அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
 துச்சமாக எண்ணி நம்மைத் தூறுசெய்த போதினும்
 அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
 பிச்சை வாங்கி உண்ணும் வாழ்க்கை பெற்று விட்ட போதிலும்
@@ -80,8 +81,9 @@ export default {
       label: `அச்சமில்லை - audio`,
       data: {
         title: `அச்சமில்லை`,
-        disType: 'highlight',
+        displayType: 'highlight',
         audio: 'ta/ta-barathi-achamillai.mp3',
+        fontSize: '1.1rem',
         audioOffsets: [3.5, 7.2, 11, 14.4, 18, 21.4, 24.8, 28, 100],
         steps: [
           `அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
@@ -200,25 +202,12 @@ export default {
       label: `தேடிச் சோறு - audio`,
       data: {
         title: `தேடிச் சோறுநிதந் தின்று`,
-        disType: 'highlight',
+        displayType: 'highlight',
+        fontSize: '1.1rem',
         audio: 'ta/ta-barathi-ninnai.mp3',
         audioOffsets: [
-          2.5,
-          5,
-          8,
-          10.5,
-          13.5,
-          16.5,
-          19,
-          22.5,
-          25,
-          28,
-          30.5,
-          33.5,
-          36,
-          38.5,
-          41,
-          44
+          2.5, 5, 8, 10.5, 13.5, 16.5, 19, 22.5, 25, 28, 30.5, 33.5, 36, 38.5,
+          41, 44
         ],
         steps: [
           `தேடிச் சோறுநிதந் தின்று - பல

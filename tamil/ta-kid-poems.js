@@ -3,6 +3,7 @@ export default {
   id: 'ta-kid-poems',
   img: 'reading',
   lockAfter: 4,
+  lang: 'ta',
   list: [
     {
       id: '100',

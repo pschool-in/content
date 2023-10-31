@@ -51,7 +51,7 @@ export default {
     },
     {
       type: 'numberInput',
-      id: 'table',
+      id: 'table-2',
       label: 'Convert Paise to Rupee',
       data: {
         type: 'word-problem',
@@ -98,7 +98,7 @@ export default {
     },
     {
       type: 'numberInput',
-      id: 'table',
+      id: 'table-3',
       label: 'Round off',
       commonData: {
         type: 'word-problem'
