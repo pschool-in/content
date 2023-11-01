@@ -57,23 +57,23 @@ Vanished - Disappeared`
           questions: [
             {
               qText: 'The young boy was *jovial* at the party.',
-              options: 'cheerful, gloomy, silent'
+              options: 'cheerful, gloomy, silent, upset'
             },
             {
               qText: 'The novel had a *captivating* storyline.',
-              options: 'engaging, boring, tiresome'
+              options: 'engaging, boring, tiresome, lazy'
             },
             {
               qText: 'She found the puzzle to be quite *challenging*.',
-              options: 'demanding, easy, uncomplicated'
+              options: 'demanding, easy, uncomplicated, trivial'
             },
             {
               qText: 'The artwork was truly *magnificent*.',
-              options: 'grand, mediocre, ordinary'
+              options: 'grand, mediocre, ordinary, worthless'
             },
             {
               qText: `The comedian's jokes were *hilarious*.`,
-              options: 'amusing, dull, humorless'
+              options: 'amusing, dull, humorless, boring'
             }
           ]
         },
@@ -81,23 +81,23 @@ Vanished - Disappeared`
           questions: [
             {
               qText: `The teacher's explanation was *comprehensive*.`,
-              options: 'thorough, incomplete, superficial'
+              options: 'thorough, incomplete, superficial, ordinary'
             },
             {
               qText: 'The forest was filled with *serene* beauty.',
-              options: 'peaceful, chaotic, turbulent'
+              options: 'peaceful, chaotic, turbulent, intriguing'
             },
             {
               qText: 'She had a *profound* understanding of the topic.',
-              options: 'deep, shallow, superficial'
+              options: 'deep, shallow, superficial, incomplete'
             },
             {
               qText: 'The project required *meticulous* attention to detail.',
-              options: 'careful, careless, sloppy'
+              options: 'careful, careless, sloppy, clumsy'
             },
             {
               qText: 'The performance was *exceptional*.',
-              options: 'outstanding, average, mediocre'
+              options: 'outstanding, average, mediocre, ordinary'
             }
           ]
         },
@@ -105,23 +105,23 @@ Vanished - Disappeared`
           questions: [
             {
               qText: 'The mountain view was *breathtaking*.',
-              options: 'stunning, unimpressive, ordinary'
+              options: 'stunning, unimpressive, ordinary, worthless'
             },
             {
               qText: 'His generosity was *commendable*.',
-              options: 'praiseworthy, blameworthy, reprehensible'
+              options: 'praiseworthy, blameworthy, reprehensible, irresponsible'
             },
             {
               qText: 'The novel had a *riveting* plot.',
-              options: 'engrossing, uninteresting, tedious'
+              options: 'engrossing, uninteresting, tedious, predictable'
             },
             {
               qText: 'The recipe produced *delicious* results.',
-              options: 'tasty, unappetizing, bland'
+              options: 'tasty, unappetizing, bland, bitter'
             },
             {
               qText: 'Her response was *prompt*.',
-              options: 'quick, delayed, sluggish'
+              options: 'quick, delayed, sluggish, irrelevant'
             }
           ]
         },
@@ -129,23 +129,23 @@ Vanished - Disappeared`
           questions: [
             {
               qText: `The movie's special effects were *spectacular*.`,
-              options: 'impressive, unremarkable, ordinary'
+              options: 'impressive, unremarkable, ordinary, ubiquitous'
             },
             {
               qText: 'His speech was *inspiring*.',
-              options: 'motivating, uninspiring, discouraging'
+              options: 'motivating, uninspiring, discouraging, demotivating'
             },
             {
               qText: 'The concert was *electrifying*.',
-              options: 'thrilling, dull, lifeless'
+              options: 'thrilling, dull, lifeless, ugly'
             },
             {
               qText: 'The solution was *innovative*.',
-              options: 'creative, conventional, unimaginative'
+              options: 'creative, conventional, unimaginative, repetative'
             },
             {
               qText: 'She *vanished* from the party without a trace.',
-              options: 'disappeared, appeared, emerged'
+              options: 'disappeared, appeared, emerged, forsee'
             }
           ]
         }
@@ -310,25 +310,25 @@ Innovative × Unimaginative`
             {
               qText:
                 'The painting was created *in the likeness of* a famous artist.',
-              options: 'Resembling, Contrasting, Ignoring'
+              options: 'resembling, contrasting, ignoring'
             },
             {
               qText: 'She will return in *a matter of moments*.',
-              options: 'Seconds, Hours, Days'
+              options: 'seconds, hours, days'
             },
             {
               qText:
                 "He's been studying this subject *for an extended fortnight*.",
-              options: 'Two weeks, Months, Years'
+              options: 'two weeks, months, years'
             },
             {
               qText:
                 "I haven't been to that city in *a considerable span of time*.",
-              options: 'Ages, Months, Moments'
+              options: 'ages, months, moments'
             },
             {
               qText: "He's been living in that house *since time immemorial*.",
-              options: 'Eternally, Indefinitely, Infinitely'
+              options: 'eternally, indefinitely, infinitely'
             }
           ]
         },
@@ -336,49 +336,49 @@ Innovative × Unimaginative`
           questions: [
             {
               qText: 'She made a decision *with great hesitation*.',
-              options: 'Reluctantly, Confidently, Excitedly'
+              options: 'reluctantly, confidently, excitedly'
             },
             {
               qText:
                 'The sunsets in this place are *unquestionably awe-inspiring*.',
-              options: 'Breathtaking, Majestic, Sublime'
+              options: 'breathtaking, majestic, sublime'
             },
             {
               qText: 'She completed the task *with lightning speed*.',
-              options: 'Rapidly, Hastily, Lethargically'
+              options: 'rapidly, hastily, lethargically'
             },
             {
               qText: 'The art in this gallery is *absolutely mesmerizing*.',
-              options: 'Enchanting, Ordinary, Unremarkable'
+              options: 'enchanting, ordinary, unremarkable'
             },
             {
               qText: 'He spoke *with unwavering confidence*.',
-              options: 'Firmly, Hesitantly, Unsteadily'
+              options: 'firmly, hesitantly, unsteadily'
             }
           ]
         },
         {
           questions: [
             {
-              qText: `The scientist's theory is highly intricate.`,
-              options: 'Complex, Complicated, Elaborate'
+              qText: "The scientist's theory is highly intricate.",
+              options: 'complex, complicated, elaborate'
             },
             {
               qText:
                 'The rocket journeyed *to the furthest reaches of the cosmos*.',
-              options: 'Outer space, Astral realm, Inner sanctum'
+              options: 'outer space, astral realm, inner sanctum'
             },
             {
               qText: 'The cat slumbers *for the majority of the day*.',
-              options: 'Extensively, Seldom, Occasionally'
+              options: 'extensively, seldom, occasionally'
             },
             {
               qText: 'He will appear *in a short while*.',
-              options: 'Shortly, Eventually, Never'
+              options: 'shortly, eventually, never'
             },
             {
               qText: 'The treasure was concealed *beneath the earth*.',
-              options: 'Underground, Aboveground, Subsurface'
+              options: 'underground, aboveground, subsurface'
             }
           ]
         },
@@ -386,23 +386,23 @@ Innovative × Unimaginative`
           questions: [
             {
               qText: 'He reached the venue *well in advance of the event*.',
-              options: 'Early, Late, Just in time'
+              options: 'early, late, just in time'
             },
             {
               qText: 'The athletes trained *for numerous seasons*.',
-              options: 'Extensively, Briefly, Forever'
+              options: 'extensively, briefly, forever'
             },
             {
               qText: 'The museum is accessible *around the clock*.',
-              options: '24/7, Part-time, On weekends'
+              options: '24/7, part-time, on weekends'
             },
             {
               qText: 'He started his journey *at the crack of dawn*.',
-              options: 'Early morning, Late night, Midday'
+              options: 'early morning, late night, midday'
             },
             {
-              qText: `The painting's are *exceptionally intricate*.`,
-              options: 'Detailed, Fine-grained, Elaborate'
+              qText: 'The paintings are *exceptionally intricate*.',
+              options: 'detailed, fine-grained, elaborate'
             }
           ]
         }
@@ -441,8 +441,7 @@ Avarice - Extreme greed`
           },
           {
             type: 'hilight',
-            text: `Perspicacity - Keen mental perception and understanding
-Rugged - Rough, uneven, and challenging
+            text: `Rugged - Rough, uneven, and challenging
 Reticence - Reserved behavior
 Revolutionized - Radically transformed and improved
 Assiduous - Hardworking, diligent, and persistent`
@@ -472,30 +471,30 @@ Intricate - Very detailed and complicated`
             {
               qText:
                 'His *acumen* in business allowed him to make strategic decisions that led to success.',
-              options: `Keen insight or shrewdness 
-Lack of knowledge or expertise`
+              options: `keen insight or shrewdness 
+lack of knowledge or expertise`
             },
             {
               qText:
                 "The candidate's persistence throughout the campaign impressed many voters.",
-              options: `Continued determination and effort 
-Frequent changes in direction`
+              options: `continued determination and effort 
+frequent changes in direction`
             },
             {
               qText: `The speaker's *eloquence* held the audience's attention for hours.`,
-              options: `Persuasive speaking 
-Lack of clear expression or articulation`
+              options: `persuasive speaking 
+lack of clear expression or articulation`
             },
             {
               qText:
                 'Her *assiduous* efforts in research resulted in groundbreaking discoveries.',
-              options: `Diligent, careful, and thorough 
-Lack of interest or enthusiasm`
+              options: `diligent, careful, and thorough 
+lack of interest or enthusiasm`
             },
             {
               qText: `The film's ambiguity left viewers debating its meaning for days.`,
-              options: `Uncertainty or vagueness in interpretation 
-Clear and unequivocal meaning`
+              options: `uncertainty or vagueness in interpretation 
+clear and unequivocal meaning`
             }
           ]
         },
@@ -504,30 +503,30 @@ Clear and unequivocal meaning`
             {
               qText:
                 'The team showed great *resilience* in the face of adversity.',
-              options: `Capacity to recover quickly 
-Fragility and vulnerability`
+              options: `capacity to recover quickly 
+fragility and vulnerability`
             },
             {
               qText:
                 'Her *languid* movements indicated her fatigue and lack of energy.',
-              options: `Slow and lacking energy 
-Quick, energetic, and active`
+              options: `slow and lacking energy 
+quick, energetic, and active`
             },
             {
               qText: `The singer's *haunting* voice left a lasting impression on the audience.`,
-              options: `Eerily beautiful and unforgettable
-Unpleasant and forgettable`
+              options: `eerily beautiful and unforgettable
+unpleasant and forgettable`
             },
             {
               qText: 'His *astute* observations revealed valuable insights.',
-              options: `Perceptive and sharp
-Oblivious and dull`
+              options: `perceptive and sharp
+oblivious and dull`
             },
             {
               qText:
                 "The politician's *candid* speech was refreshing in a world of empty promises.",
-              options: `Frank, honest, and straightforward
-Deceptive and insincere`
+              options: `frank, honest, and straightforward
+deceptive and insincere`
             }
           ]
         },
@@ -535,60 +534,55 @@ Deceptive and insincere`
           questions: [
             {
               qText: `The inventor's *innovative* design revolutionized the industry.`,
-              options: `New and creative
-Sticking to traditional and outdated methods`
+              options: `new and creative
+sticking to traditional and outdated methods`
             },
             {
               qText: 'His *euphoric* reaction to the news was contagious.',
-              options: `Intensely happy and elated
-Depressed and despondent`
+              options: `intensely happy and elated
+depressed and despondent`
             },
             {
               qText: `The novel's *prolixity* made it challenging to read due to its excessive length.`,
-              options: `Excessive wordiness 
-Conciseness and brevity`
+              options: `excessive wordiness 
+conciseness and brevity`
             },
             {
               qText: `The detective's *keen* instincts helped solve the case.`,
-              options: `Sharply perceptive and observant
-Dull and oblivious`
+              options: `sharply perceptive and observant
+dull and oblivious`
             },
             {
               qText:
                 "The CEO's *avarice* for wealth and power led to unethical business practices.",
-              options: `Extreme greed 
-Generosity and selflessness`
+              options: `extreme greed 
+generosity and selflessness`
             }
           ]
         },
         {
           questions: [
             {
-              qText: `The detective's *perspicacity* allowed her to notice subtle clues that others missed.`,
-              options: `Keen mental perception and understanding 
-Lack of attention to detail`
-            },
-            {
               qText: 'The hiker trekked through the *rugged* terrain.',
-              options: `Rough, uneven, and challenging
-Smooth and easy`
+              options: `rough, uneven, and challenging
+smooth and easy`
             },
             {
               qText:
                 'Her *reticence* in the meeting was interpreted as a lack of interest.',
-              options: `Reserved behavior
-Enthusiasm or clarity`
+              options: `reserved behavior
+enthusiasm or clarity`
             },
             {
               qText:
                 'The new technology *revolutionized* the way we communicate.',
-              options: `Radically transformed and improved
-Barely had an impact`
+              options: `radically transformed and improved
+barely had an impact`
             },
             {
               qText: 'Her *assiduous* work ethic earned her a promotion.',
-              options: `Hardworking, diligent, and persistent
-Lazy and apathetic`
+              options: `hardworking, diligent, and persistent
+lazy and apathetic`
             }
           ]
         },
@@ -596,30 +590,30 @@ Lazy and apathetic`
           questions: [
             {
               qText: 'The abandoned house had an *eerie* atmosphere.',
-              options: `Strange and frightening
-Warm and inviting`
+              options: `strange and frightening
+warm and inviting`
             },
             {
               qText:
                 'The *zenith* of his career was when he won the prestigious award.',
-              options: `Highest point
-Lowest point`
+              options: `highest point
+lowest point`
             },
             {
               qText: `The pianist's *virtuoso* performance amazed the audience.`,
-              options: `Highly skilled
-A person with no particular skill or talent`
+              options: `highly skilled
+a person with no particular skill or talent`
             },
             {
               qText:
                 'The *cacophony* of sounds in the busy marketplace was overwhelming.',
-              options: `Harsh mixture 
-Peaceful silence`
+              options: `harsh mixture 
+peaceful silence`
             },
             {
               qText: `The novel's *intricate* plot kept readers guessing until the end.`,
-              options: `Very detailed and complicated
-Simple and straightforward`
+              options: `very detailed and complicated
+simple and straightforward`
             }
           ]
         }

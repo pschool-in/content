@@ -57,23 +57,23 @@ Mundane - Ordinary`
           questions: [
             {
               qText: 'The child was *exuberant* at the playground.',
-              options: 'enthusiastic, gloomy, lethargic'
+              options: 'enthusiastic, gloomy, lethargic, lazy'
             },
             {
               qText: 'The novel had an *intriguing* storyline.',
-              options: 'fascinating, boring, tedious'
+              options: 'fascinating, boring, tedious, tiring'
             },
             {
               qText: 'She found the riddle to be *puzzling*.',
-              options: 'confusing, easy, straightforward'
+              options: 'confusing, easy, straightforward, misleading'
             },
             {
               qText: 'The artwork was truly *majestic*.',
-              options: 'awe-inspiring, mediocre, unimpressive'
+              options: 'awe-inspiring, mediocre, unimpressive, ordinary'
             },
             {
               qText: `The comedian's jokes were *hysterical*.`,
-              options: 'uproarious, dull, humorless'
+              options: 'uproarious, dull, humorless, boring'
             }
           ]
         },
@@ -81,23 +81,23 @@ Mundane - Ordinary`
           questions: [
             {
               qText: `The teacher's explanation was *thorough*.`,
-              options: 'comprehensive, incomplete, superficial'
+              options: 'comprehensive, incomplete, superficial, partial'
             },
             {
               qText: 'The garden was filled with *tranquil* beauty.',
-              options: 'peaceful, chaotic, turbulent'
+              options: 'peaceful, chaotic, turbulent, mystical'
             },
             {
               qText: 'She had a *proficient* understanding of the topic.',
-              options: 'competent, inept, amateurish'
+              options: 'competent, inept, amateurish, incomplete'
             },
             {
               qText: 'The project required *precise* attention to detail.',
-              options: 'exact, careless, sloppy'
+              options: 'exact, careless, sloppy, inept'
             },
             {
               qText: 'The performance was *outstanding*.',
-              options: 'exceptional, average, mediocre'
+              options: 'exceptional, average, mediocre, ordinary'
             }
           ]
         },
@@ -105,23 +105,23 @@ Mundane - Ordinary`
           questions: [
             {
               qText: 'The sunset view was *mesmerizing*.',
-              options: 'captivating, unimpressive, ordinary'
+              options: 'captivating, unimpressive, ordinary, mediocre'
             },
             {
               qText: 'His generosity was *admirable*.',
-              options: 'praiseworthy, blameworthy, reprehensible'
+              options: 'praiseworthy, blameworthy, reprehensible, irrelevent'
             },
             {
               qText: 'The film had a *compelling* plot.',
-              options: 'engrossing, uninteresting, tedious'
+              options: 'engrossing, uninteresting, tedious, predictable'
             },
             {
               qText: 'The dish produced *delightful* results.',
-              options: 'enjoyable, unappetizing, bland'
+              options: 'enjoyable, unappetizing, bland, palatable'
             },
             {
               qText: 'Her response was *swift*.',
-              options: 'quick, delayed, sluggish'
+              options: 'quick, delayed, sluggish, slow'
             }
           ]
         },
@@ -129,23 +129,23 @@ Mundane - Ordinary`
           questions: [
             {
               qText: `The documentary's visuals were *stunning*.`,
-              options: 'impressive, unremarkable, ordinary'
+              options: 'impressive, unremarkable, ordinary, dull'
             },
             {
               qText: 'His speech was *motivating*.',
-              options: 'inspiring, uninspiring, discouraging'
+              options: 'inspiring, uninspiring, discouraging, degrading'
             },
             {
               qText: 'The concert was *thrilling*.',
-              options: 'exciting, dull, lifeless'
+              options: 'exciting, dull, lifeless, worthless'
             },
             {
               qText: 'His behavior was *eccentric*.',
-              options: 'unconventional, conventional, ordinary'
+              options: 'unconventional, conventional, ordinary, sublime'
             },
             {
               qText: 'The novel had a *mundane* plot.',
-              options: 'ordinary, extraordinary, exceptional'
+              options: 'ordinary, extraordinary, exceptional, predictable'
             }
           ]
         }
@@ -304,24 +304,24 @@ Mundane × Extraordinary`
             {
               qText:
                 'The painting was created *in the likeness of* a famous artist.',
-              options: 'Resembling, Contrasting, Imitating'
+              options: 'resembling, contrasting, imitating'
             },
             {
               qText: 'She will return in *a matter of moments*.',
-              options: 'Seconds, Hours, Days'
+              options: 'seconds, hours, days'
             },
             {
               qText: 'She made a decision *with profound reluctance*.',
-              options: 'Grudgingly, Wholeheartedly, Joyfully'
+              options: 'grudgingly, wholeheartedly, joyfully'
             },
             {
               qText:
                 "I haven't been to that city in *a considerable span of time*.",
-              options: 'Ages, Months, Eons'
+              options: 'ages, months, eons'
             },
             {
               qText: "He's been living in that house *since time immemorial*.",
-              options: 'Eternally, Indefinitely, Perpetually'
+              options: 'eternally, indefinitely, perpetually'
             }
           ]
         },
@@ -329,24 +329,24 @@ Mundane × Extraordinary`
           questions: [
             {
               qText: 'The sunsets in this location are *undeniably sublime*.',
-              options: 'Exquisite, Grandiose, Mundane'
+              options: 'exquisite, grandiose, mundane'
             },
             {
               qText: 'She completed the task *with lightning celerity*.',
-              options: 'Rapidly, Tardily, Carelessly'
+              options: 'rapidly, tardily, carelessly'
             },
             {
               qText: 'The art in this exhibition is *positively enchanting*.',
-              options: 'Captivating, Ordinary, Uninspiring'
+              options: 'captivating, ordinary, uninspiring'
             },
             {
               qText: 'He spoke *with unwavering certainty*.',
-              options: 'Resolutely, Hesitantly, Unsteadily'
+              options: 'resolutely, hesitantly, unsteadily'
             },
             {
               qText:
                 'The sunsets in this place are *undeniably awe-inspiring*.',
-              options: 'Sublime, Majestic, Breathtaking'
+              options: 'sublime, majestic, breathtaking'
             }
           ]
         },
@@ -354,48 +354,48 @@ Mundane × Extraordinary`
           questions: [
             {
               qText: "I haven't visited that city *since antiquity*.",
-              options: 'Timelessly, Recently, Infrequently'
+              options: 'timelessly, recently, infrequently'
             },
             {
               qText: "He's been living in that mansion *for eons*.",
-              options: 'Indefinitely, Perpetually, Endlessly'
+              options: 'indefinitely, perpetually, endlessly'
             },
             {
               qText: 'She completed the task *at lightning velocity*.',
-              options: 'Expeditiously, Hesitatingly, Leisurely'
+              options: 'expeditiously, hesitatingly, leisurely'
             },
             {
               qText: 'The art in this museum is *totally captivating*.',
-              options: 'Enrapturing, Bland, Uninteresting'
+              options: 'enrapturing, bland, uninteresting'
             },
             {
               qText: `The project's success was the result of *an extended duration* of hard work.`,
-              options: 'Eons, Years, Months'
+              options: 'eons, years, months'
             }
           ]
         },
         {
           questions: [
             {
-              qText: 'The magical performance was *utterly captivating*. ',
-              options: 'Enrapturing, Dull, Ordinary'
+              qText: 'The magical performance was *utterly captivating*.',
+              options: 'enrapturing, dull, ordinary'
             },
             {
-              qText: 'She faced the challenges *with indomitable assurance*. ',
-              options: 'Resolutely, Hesitantly, Fearfully'
+              qText: 'She faced the challenges *with indomitable assurance*.',
+              options: 'resolutely, hesitantly, fearfully'
             },
             {
               qText:
                 'The architect designed a building with exceptionally convoluted details.',
-              options: 'Intricate, Simple, Plain'
+              options: 'intricate, simple, plain'
             },
             {
               qText: `The actor's performance was *in the manner of* a seasoned pro.`,
-              options: 'Emulating, Acting, Imitative'
+              options: 'emulating, acting, imitative'
             },
             {
-              qText: `She agreed to help *with profound enthusiasm*. `,
-              options: 'Eagerly, Grudgingly, Unwillingly'
+              qText: `She agreed to help *with profound enthusiasm*.`,
+              options: 'eagerly, grudgingly, unwillingly'
             }
           ]
         }
@@ -463,27 +463,27 @@ Peripatetic - Wandering and traveling`
           questions: [
             {
               qText: 'His *efficacious* treatment quickly cured the patient.',
-              options: 'Effective and successful, Ineffective and useless'
+              options: 'effective and successful, ineffective and useless'
             },
             {
               qText:
                 'Her *equivocal* response left us unsure of her intentions.',
-              options: 'Ambiguous and unclear, Clear and straightforward'
+              options: 'ambiguous and unclear, clear and straightforward'
             },
             {
               qText: `The scientist's *obfuscation* of the data made it difficult to understand.`,
               options:
-                'Intentional obscuring or confusion, Clarity and transparency'
+                'intentional obscuring or confusion, clarity and transparency'
             },
             {
               qText:
                 'His *ostentatious* display of wealth made others uncomfortable.',
-              options: 'Excessive and showy, Modest and unobtrusive'
+              options: 'excessive and showy, modest and unobtrusive'
             },
             {
               qText:
                 'The *ubiquity* of smartphones has transformed how we communicate.',
-              options: 'Widespread presence, Limited and scarce presence'
+              options: 'widespread presence, limited and scarce presence'
             }
           ]
         },
@@ -491,25 +491,25 @@ Peripatetic - Wandering and traveling`
           questions: [
             {
               qText: 'The *cacophonous* music in the club was unbearable.',
-              options: 'Harsh and discordant, Melodious and harmonious'
+              options: 'harsh and discordant, melodious and harmonious'
             },
             {
               qText: `The detective's *intrepid* pursuit of the criminal led to an arrest.`,
-              options: 'Fearless and courageous, Timid and fearful'
+              options: 'fearless and courageous, timid and fearful'
             },
             {
               qText:
                 'The *juxtaposition* of old and new architecture in the city was striking.',
-              options: 'Side-by-side placement, Complete separation'
+              options: 'side-by-side placement, complete separation'
             },
             {
               qText: 'His *acerbic* humor often offended people.',
-              options: 'Sharp and biting, Kind and gentle'
+              options: 'sharp and biting, kind and gentle'
             },
             {
               qText:
                 'Her *lucrative* investment in the company brought substantial profits.',
-              options: 'Highly profitable, Unprofitable and unsuccessful'
+              options: 'highly profitable, unprofitable and unsuccessful'
             }
           ]
         },
@@ -518,26 +518,26 @@ Peripatetic - Wandering and traveling`
             {
               qText:
                 "The mountain's *crystalline* waters were incredibly clear.",
-              options: 'Pure and transparent, Muddy and murky'
+              options: 'pure and transparent, muddy and murky'
             },
             {
               qText: `His *effulgent* smile brightened everyone's day.`,
-              options: 'Radiant and shining, Gloomy and dull'
+              options: 'radiant and shining, gloomy and dull'
             },
             {
               qText:
                 "The writer's *laconic* style was characterized by brevity.",
-              options: 'Brief and concise, Long-winded and verbose'
+              options: 'brief and concise, long-winded and verbose'
             },
             {
               qText: `The CEO's *autocratic* leadership style left little room for employee input.`,
               options:
-                'Authoritarian and controlling, Collaborative and democratic'
+                'authoritarian and controlling, collaborative and democratic'
             },
             {
               qText:
                 'His *ephemeral* fame faded quickly as a new star emerged.',
-              options: 'Short-lived and fleeting, Long-lasting and enduring'
+              options: 'short-lived and fleeting, long-lasting and enduring'
             }
           ]
         },
@@ -546,26 +546,26 @@ Peripatetic - Wandering and traveling`
             {
               qText:
                 'The *pervasive* influence of technology has impacted all industries.',
-              options: 'Widespread and prevalent, Limited and restricted'
+              options: 'widespread and prevalent, limited and restricted'
             },
             {
               qText:
                 'The *equanimity* with which he faced adversity was admirable.',
-              options: 'Calmness and composure, Panic and chaos'
+              options: 'calmness and composure, panic and chaos'
             },
             {
               qText:
                 'His *mellifluous* voice was perfect for radio broadcasting.',
-              options: 'Smooth and melodious, Grating and harsh'
+              options: 'smooth and melodious, grating and harsh'
             },
             {
               qText:
                 'The *serendipitous* discovery of the hidden treasure was a surprise.',
-              options: 'Accidental and fortunate, Planned and expected'
+              options: 'accidental and fortunate, planned and expected'
             },
             {
               qText: `The artist's *eclectic* style incorporated various influences.`,
-              options: 'Diverse and varied, Narrow and limited'
+              options: 'diverse and varied, narrow and limited'
             }
           ]
         },
@@ -574,24 +574,24 @@ Peripatetic - Wandering and traveling`
             {
               qText:
                 'Her *altruistic* acts of kindness endeared her to the community.',
-              options: 'Selfless and compassionate, Selfish and unkind'
+              options: 'selfless and compassionate, selfish and unkind'
             },
             {
               qText:
                 'The *quixotic* quest for utopia was noble but unrealistic.',
-              options: 'Idealistic and impractical, Realistic and achievable'
+              options: 'idealistic and impractical, realistic and achievable'
             },
             {
               qText: 'Her *lugubrious* expression revealed her sadness.',
-              options: 'Mournful and gloomy, Cheerful and happy'
+              options: 'mournful and gloomy, cheerful and happy'
             },
             {
               qText: `The company's *frugality* in spending led to financial stability.`,
-              options: 'Economical and thrifty nature, Extravagant and wasteful'
+              options: 'economical and thrifty nature, extravagant and wasteful'
             },
             {
               qText: `The explorer's *peripatetic* lifestyle led him to many places.`,
-              options: 'Wandering and traveling, Settled and stationary'
+              options: 'wandering and traveling, settled and stationary'
             }
           ]
         }

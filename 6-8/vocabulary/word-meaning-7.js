@@ -1212,7 +1212,275 @@ export default {
       ]
     },
     {
-      id: 'word-meanings-2',
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-3',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `When the ship was sinking, the crew had to *abandon* it and escape in lifeboats.
+The forest is home to an *abundant* variety of wildlife.
+The keycard provides *access* to the secure building.
+The spacious hall can *accommodate* a large audience for events.
+Over the years, he managed to *accumulate* a valuable collection of antique books.`,
+
+        `Some animals can *adapt* to different environments by changing their behavior.
+The glue will *adhere* the two pieces of wood together.
+The patient was in *agony* due to the severe injury.
+Pledging *allegiance* to the flag is a common practice in many countries.
+Her *ambition* is to become a world-renowned scientist.`,
+
+        `We have *ample* time to complete the project ahead of the deadline.
+The news of the accident caused great *anguish* to the family.
+We can *anticipate* a warm welcome from our friends when we visit.
+Waiting for exam results can be an *anxious* time for students.
+The store offers a wide range of *apparel* for all seasons.`,
+
+        `The charity made an *appeal* for donations to help those in need.
+He felt *apprehensive* about the outcome of the medical tests.
+The desert is known for its *arid* climate with very little rain.
+His *arrogant* behavior alienated his colleagues.
+The breathtaking natural beauty of the Grand Canyon fills visitors with *awe*.`,
+
+        `The desert landscape is *barren*, with little vegetation.
+The lighthouse serves as a maritime *beacon* to guide ships safely to the shore.
+Regular exercise is *beneficial* for your health.
+Making that public statement was a major *blunder* for the politician.
+The children were *boisterous* at the playground, laughing and playing games.`,
+
+        `The consumers decided to *boycott* the company's products due to ethical concerns.
+The heavy backpack was a significant *burden* for the hiker.
+The political *campaign* included rallies, speeches, and advertisements to win votes.
+The factory has the *capacity* to produce thousands of units in a day.
+In the sentence, the word 'Apple' begins with a *capital* 'A'.`,
+
+        `The history book presents events in a *chronological* order, starting with the earliest.
+Civic organizations often work to improve the well-being of the local community.
+The instructor's explanation provided *clarity* on the complex topic.
+The two companies decided to *collaborate* on a research project.
+The two cars *collided* at the intersection, causing significant damage.`,
+
+        `The teacher *commended* the student's hard work and dedication.
+The sports broadcast includes *commentary* from experts who analyze the game.
+The students formed a *compact* group to work on the project.
+Even in challenging situations, she maintained her *composure* and stayed calm.
+A good summary is *concise* and to the point, capturing the main ideas.`,
+
+        `She needed her parents' *consent* to go on the school trip.
+The *consequence* of not studying for the exam was a low grade.
+It's important to *conserve* our natural resources for future generations.
+Her bright red hat was quite *conspicuous* in the crowd.
+The sound of the waves crashing is a *constant* presence at the beach.`,
+
+        `Pollution can *contaminate* the air and water, causing health problems.
+To understand the meaning of a word, it's important to consider the *context* in which it is used.
+The river flows *continuous* from the mountains to the sea.
+The *controversy* over the new law led to heated debates.
+The location of the hotel is *convenient* for tourists, as it's close to major attractions.`,
+
+        `She had to *cope* with the loss of her beloved pet.
+The host extended a *cordial* welcome to the guests at the party.
+Farmers *cultivate* crops to ensure a successful harvest.
+Savings can grow *cumulative* over time with interest.`
+      ]
+    },
+    {
+      label: 'Fill in the blanks 2',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-4',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `He *declared* his intention to run for president.
+The *deluge* of rain flooded the streets.
+The forest was so *dense* that it was difficult to see through.
+Excessive farming can *deplete* the soil's nutrients.
+He made a *deposit* of money in the bank.`,
+
+        `The sign will *designate* the parking area.
+The *desperate* pleas for food and shelter came from the refugees.
+If the building is not maintained, it will *deteriorate* over time.
+The *dialogue* between the characters in the play was engaging.
+Her *diligent* work on the project paid off with a successful outcome.`,
+
+        `The rainfall is expected to *diminish* over the next few days.
+It's at the manager's discretion to grant permission for the project.
+The board members expressed their *dissent* over the proposed changes.
+When you add sugar to water, it will *dissolve* and become part of the solution.
+Each species of animal has its *distinct* characteristics.`,
+
+        `The *diversity* of plants in the rainforest is astonishing.
+She takes care of *domestic* chores like cooking and cleaning at home.
+The champion boxer was known to *dominate* his opponents in the ring.
+The government implemented *drastic* measures to reduce pollution.
+The *duration* of the movie is approximately two hours.`,
+
+        `Many people *dwell* in urban areas for work opportunities.
+Understanding the principles of *economy* is essential for financial success.
+The abandoned house had an *eerie* atmosphere, with strange sounds coming from within.
+The new policy had a significant *effect* on the economy.
+An *efficient* team can accomplish tasks quickly and with high quality.`,
+
+        `Her *elaborate* explanation left no room for confusion.
+She is *eligible* for the job because of her experience and qualifications.
+The solution to the puzzle seemed to *elude* everyone in the room.
+The unexpected *encounter* led to a meaningful conversation.
+The digital version of the book is *equivalent* to the printed copy.`,
+
+        `The crowd *erupted* in cheers when their team scored a goal.
+The award is a symbol of the *esteem* in which he is held by his peers.
+Over time, technology has *evolved* and become more advanced.
+The fisherman's story about the size of the fish he caught was clearly *exaggerated*.
+The athlete's hard work and dedication allowed him to *excel* in his sport.`,
+
+        `The bouncer was instructed to *exclude* unruly patrons from the club.
+The ocean's vast *expanse* seemed endless.
+The detective used his wit to *exploit* the weaknesses in the criminal's plan.
+Dinosaurs are *extinct* and have not roamed the Earth for millions of years.
+The dentist had to *extract* the damaged tooth to relieve the patient's pain.`,
+
+        `Time management is a crucial *factor* in achieving productivity.
+The *former* president of the company will speak at the event.
+Scientists need to *formulate* a hypothesis before conducting experiments.
+A short *fuse* can be used to light a fireworks display.
+Their efforts to repair the old car were *futile* as it couldn't be fixed.`,
+
+        `Solar panels can *generate* electricity from sunlight.
+Mystery is a popular *genre* in the world of literature.
+Polar bears are well adapted to their icy *habitat*.
+The storm made the road conditions *hazardous* for driving.
+The prank was a *hoax* designed to trick people.
+The negotiation took a *hostile* turn as both parties disagreed vehemently.`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-3',
+      label: 'Complete Word',
+      data: [
+        `Forsake; leave behind | ABANDON
+Present in great quantity | ABUNDANT
+The right to enter | ACCESS
+Have room for; hold without crowding | ACCOMMODATE
+Get or gather together | ACCUMULATE
+Make fit for, or change to suit a new purpose | ADAPT
+Stick to firmly | ADHERE
+Intense feelings of suffering; acute mental or physical pain | AGONY
+The act of binding yourself to a course of action | ALLEGIANCE
+A strong drive for success | AMBITION`,
+
+        `More than enough in size or scope or capacity | AMPLE
+Extreme distress of body or mind | ANGUISH
+Regard something as probable or likely | ANTICIPATE
+Causing or fraught with or showing nervousness | ANXIOUS
+Clothing in general | APPAREL
+Earnest or urgent request | APPEAL
+In fear or dread of possible evil or harm | APPREHENSIVE
+Lacking sufficient water or rainfall | ARID
+Having or showing feelings of unwarranted importance | ARROGANT
+An overwhelming feeling of wonder or admiration | AWE`,
+
+        `Completely wanting or lacking | BARREN
+A fire that can be seen from a distance | BEACON
+Promoting or enhancing well|being | BENEFICIAL
+An embarrassing mistake | BLUNDER
+Marked by exuberance and high spirits | BOISTEROUS
+Refusal to have commercial dealings with some organization | BOYCOTT
+Weight to be carried or borne | BURDEN
+Related operations aimed at achieving a particular goal | CAMPAIGN
+A large alphabetic character used in writing or printing | CAPITAL
+Relating to or arranged according to the order of time | CHRONOLOGICAL`,
+
+        `Of or relating or belonging to a city | CIVIC
+The quality of being coherent and easily understood | CLARITY
+Work together on a common enterprise or project | COLLABORATE
+Crash together with violent impact | COLLIDE
+Present as worthy of regard, kindness, or confidence | COMMEND
+A written explanation or criticism or illustration | COMMENTARY
+Closely and firmly united or packed together | COMPACT
+Steadiness of mind under stress | COMPOSURE
+Expressing much in few words | CONCISE
+Give an affirmative reply to; respond favorably to | CONSENT
+A phenomenon that is caused by some previous phenomenon | CONSEQUENCE`,
+
+        `Keep in safety and protect from harm, loss, or destruction | CONSERVE
+Obvious to the eye or mind | CONSPICUOUS
+Uninterrupted in time and indefinitely long continuing | CONSTANT
+Make impure | CONTAMINATE
+The set of facts or circumstances that surround a situation | CONTEXT
+Moving in time or space without interruption | CONTINUOUS
+A dispute where there is strong disagreement | CONTROVERSY
+Suited to your comfort or purpose or needs | CONVENIENT
+Come to terms with | COPE
+Politely warm and friendly | CORDIAL`,
+
+        `Adapt something wild to the environment | CULTIVATE
+Increasing by successive addition | CUMULATIVE
+State emphatically and authoritatively | DECLARE
+A heavy rain | DELUGE
+Having high compaction or concentration | DENSE
+Use up, as resources or materials | DEPLETE
+The act of putting something somewhere | DEPOSIT
+Design or destine | DESIGNATE
+A person who is frightened and in need of help | DESPERATE
+Become worse or disintegrate | DETERIORATE
+A conversation between two persons | DIALOGUE`,
+
+        `Quietly and steadily persevering in detail | DILIGENT
+Decrease in size, extent, or range | DIMINISH
+Power of making choices unconstrained by external agencies | DISCRETION
+A difference of opinion | DISSENT
+Pass into a solution | DISSOLVE
+Constituting a separate entity or part | DISTINCT
+Noticeable variety | DIVERSITY
+Of or relating to the home | DOMESTIC
+Be in control | DOMINATE
+Forceful and extreme and rigorous | DRASTIC`,
+
+        `The period of time during which something continues | DURATION
+Inhabit or live in | DWELL
+The system of production and distribution and consumption | ECONOMY
+Suggestive of the supernatural; mysterious | EERIE
+A phenomenon that is caused by some previous phenomenon | EFFECT
+Being effective without wasting time, effort, or expense | EFFICIENT
+Marked by complexity and richness of detail | ELABORATE
+Qualified for or allowed or worthy of being chosen | ELIGIBLE
+Escape, either physically or mentally | ELUDE
+Come together | ENCOUNTER`,
+
+        `Being essentially comparable to something | EQUIVALENT
+Start suddenly | ERUPT
+The condition of being honored | ESTEEM
+Undergo development | EVOLVE
+Enlarge beyond bounds or the truth | EXAGGERATE
+Distinguish oneself | EXCEL
+Prevent from entering; shut out | EXCLUDE
+A wide and open space or area, as of land, sea, or sky | EXPANSE
+Use or manipulate to one's advantage | EXPLOIT
+No longer in existence | EXTINCT`,
+
+        `Remove, usually with some force or effort | EXTRACT
+Anything that contributes causally to a result | FACTOR
+The first of two or the first mentioned of two | FORMER
+Prepare according to instructions | FORMULATE
+Any igniter used to initiate the burning of a propellant | FUSE
+Producing no result or effect | FUTILE
+Bring into existence | GENERATE
+A kind of literary or artistic work | GENRE
+The type of environment in which an organism normally lives | HABITAT
+Involving risk or danger | HAZARDOUS
+Something intended to deceive | HOAX
+Characterized by enmity or ill will | HOSTILE`
+      ]
+    },
+    {
+      id: 'word|meanings-2',
       type: 'slides2',
       label: 'Word Meanings',
       commonData: {
@@ -2372,6 +2640,267 @@ export default {
             ]
           ]
         }
+      ]
+    },
+    {
+      label: 'Fill in the blanks',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-2',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        `Can you pass me the lighter so I can *ignite* the campfire?
+The Grand Canyon's beauty is accentuated by its *immense* size.
+When the chef ran out of ingredients, he had to *improvise* to complete the dish.
+The *inept* handling of the crisis worsened the situation.
+*Inevitable* changes require us to adapt and evolve.`,
+
+        `Her leadership exerted a strong *influence* on the team's success.
+The smartphone's *ingenious* design left users impressed.
+The company's *innovation* revolutionized the technology industry.
+The aggressive behavior of the bullies was meant to *intimidate* the students.
+The atmosphere at the party was *jovial*, filled with laughter and dancing.`,
+
+        `She has a *knack* for quickly solving puzzles.
+The chef allows some *leeway* in ingredient choices for the recipe.
+The government's *legislation* aims to protect the environment.
+The weekend is a time of *leisure*, a moment to unwind and enjoy hobbies.
+The soldiers helped *liberate* the oppressed people from the tyrant's rule.`,
+
+        `The *likeness* between the twins is striking; they look almost identical.
+The aroma of fresh-baked bread continued to *linger* in the kitchen.
+The phrase 'take a seat' is a *literal* instruction to sit down.
+She absolutely *loathes* the taste of olives and refuses to eat anything with them.
+The advertisement was designed to *lure* customers into trying the new product.`,
+
+        `*Majority* of the class agreed with the teacher's decision.
+In the absence of a ladder, they created a *makeshift* one from wooden planks.
+The con artist tried to *manipulate* the victim into giving away personal information.
+The stunning architecture of the cathedral made visitors *marvel* at its beauty.
+The mountain range is home to *massive* glaciers and peaks.`,
+
+        `The *maximum* speed limit on this highway is 70 miles per hour.
+His *meager* savings wouldn't be enough to cover the medical expenses.
+He's a *mere* child; he doesn't have the strength to lift that heavy object.
+The *migration* of birds in the spring is a fascinating natural phenomenon.
+The comedian could *mimic* famous personalities with incredible accuracy.`,
+
+        `There are 60 *minutes* in an hour.
+The *monotonous* sound of the dripping faucet was irritating.
+They had to *negotiate* the terms of the contract before signing it.
+The lack of funds was a significant *obstacle* to completing the project.
+Some believe that a deity is *omniscient* and has complete knowledge of the universe.`,
+
+        `The *onset* of winter brings cold temperatures and snow.
+Her *outlandish* fashion sense always drew attention.
+The news of their victory would *overwhelm* them with joy.
+The artist's *painstaking* attention to detail is visible in every brushstroke.
+The comedy show included a hilarious *parody* of a popular movie.`,
+
+        `The dictator abused his power to *persecute* political dissidents.
+The stock prices started to *plummet* after the company's financial troubles were revealed.
+She *possesses* a vast collection of antique coins.
+Many charitable organizations work to alleviate *poverty* in underprivileged communities.
+The scientist made *precise* measurements to ensure the experiment's accuracy.`,
+
+        `He found himself in a *predicament* when his car broke down in the middle of nowhere.
+Meteorologists can *predict* the weather based on data and patterns.
+*Prejudice* can lead to unfair treatment of individuals based on their background.
+The team had an initial meeting to discuss the project's key points.
+The cave paintings are an example of *primitive* art from ancient times.
+`
+      ]
+    },
+    {
+      label: 'Fill in the blanks 2',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-5',
+      lockAfter: 1,
+      commonData: {
+        title:
+          'Drag the correct option in each blank to form meaningfull sentences.'
+      },
+      data: [
+        ` Safety is the top *priority* in any workplace.
+The Eiffel Tower is a *prominent* landmark in Paris.
+The engine's power can *propel* the boat at high speeds.
+The lawyer will *prosecute* the case in court to seek justice.
+With hard work and innovation, businesses can *prosper*.`,
+
+        `His comments were meant to *provoke* a thoughtful discussion.
+The police had to *pursue* the suspect through the crowded streets.
+The *quest* for the lost treasure led the adventurers to distant lands.
+She began to *recount* the thrilling story of her travels.
+The forest provided a *refuge* for the lost hikers during the storm.`,
+
+        `The additional troops were sent to *reinforce* the defense of the city.
+He was *reluctant* to join the team as he preferred working alone.
+After realizing his mistake, he felt deep *remorse* for his actions.
+The small village was *remote* and difficult to access.
+She remained *resolute* in her decision to pursue her dreams despite challenges.`,
+
+        `It was difficult to *restrain* the excited puppy from running all over the house.
+The army decided to *retaliate* after the enemy's attack.
+The lifeguard was able to *retrieve* the lost child from the water.
+The training program is known for its *rigorous* physical challenges.
+They enjoyed the peacefulness of *rural* life in the countryside.`,
+
+        `The brave coast guard crew worked to *salvage* the shipwreck survivors.
+The ancient temple served as a *sanctuary* for worshippers.
+The *siege* of the castle lasted for several weeks.
+His words had a *significant* impact on the audience.
+*Solar* panels on the roof convert sunlight into electricity.`,
+
+        `The soothing music helped to *soothe* her anxiety.
+The ship remained *stationary* in the calm waters.
+Smoke can *stifle* breathing and cause health problems.
+They *strive* to achieve excellence in their work.
+The manager is in charge, and the employees are *subordinate* to the manager's decisions.`,
+
+        `The *subsequent* chapters of the book continued the story.
+The *superior* craftsmanship of the jewelry made it highly sought after.
+Taking vitamins can be a helpful *supplement* to a balanced diet.
+The bees formed a *swarm* in the garden.
+The artist created a *tangible* sculpture that could be felt and touched.`,
+
+        `The company decided to *terminate* the contract due to non-compliance.
+The *terrain* in the mountainous region was challenging for hikers.
+*Trait* like honesty is valued in a person's character.
+The caterpillar will *transform* into a butterfly through metamorphosis.
+The trucks were used to *transport* goods from the warehouse to the stores.`,
+
+        `The mountain path is known to be *treacherous* and should be attempted with caution.
+The board members were *unanimous* in their decision to approve the new project.
+Each snowflake has a *unique* and intricate design.
+The classroom was chaotic, with *unruly* students not following instructions.
+The *urban* lifestyle often involves living in a bustling city.`,
+
+        `The tenants were asked to *vacate* the apartment by the end of the month.
+The jury reached a *verdict* of 'not guilty' in the criminal trial.
+The economy is on the *verge* of a major recession.
+The festival was a *vibrant* celebration of music, dance, and culture.
+Oxygen is *vital* for sustaining life and supporting bodily functions.`
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-2',
+      label: 'Complete Word',
+      data: [
+        `An expression whose meaning cannot be inferred from its words | IDIOM
+Cause to start burning | IGNITE
+Unusually great in size or amount or extent or scope | IMMENSE
+Manage in a makeshift way; do with whatever is at hand | IMPROVISE
+Generally incompetent and ineffectual | INEPT
+Incapable of being avoided or prevented | INEVITABLE
+A power to affect persons or events | INFLUENCE
+Showing inventiveness and skill | INGENIOUS
+The act of starting something for the first time | INNOVATION
+Compel or deter by or as if by threats | INTIMIDATE`,
+
+        `Full of or showing high-spirited merriment | JOVIAL
+A special way of doing something | KNACK
+A permissible difference | LEEWAY
+The act of making or enacting laws | LEGISLATION
+Time available for ease and relaxation | LEISURE
+Grant freedom to; free from confinement | LIBERATE
+Similarity in appearance or nature between persons or things | LIKENESS
+Remain present although waning or gradually dying | LINGER
+Limited to the explicit meaning of a word or text | LITERAL
+Dislike intensely; feel disgust toward | LOATHE`,
+
+        `Provoke someone to do something through persuasion | LURE
+The main part | MAJORITY
+Done or made using whatever is available | MAKESHIFT
+Influence or control shrewdly or deviously | MANIPULATE
+Be amazed at | MARVEL
+Containing a great quantity of matter | MASSIVE
+The greatest or most complete or best possible | MAXIMUM
+Deficient in amount or quality or extent | MEAGER
+Being nothing more than specified | MERE
+The movement of persons from one locality to another | MIGRATION`,
+
+        `Imitate, especially for satirical effect | MIMIC
+A unit of time equal to 60 seconds or 1/60th of an hour | MINUTE
+Sounded or spoken in a tone unvarying in pitch | MONOTONOUS
+Discuss the terms of an arrangement | NEGOTIATE
+Something that stands in the way and must be surmounted | OBSTACLE
+Knowing, seeing, or understanding everything | OMNISCIENT
+The beginning or early stages | ONSET
+A person disposed to take a favorable view of things | OPTIMIST
+Come into existence; take on form or shape | ORIGINATE
+Characterized by extreme care and great effort | PAINSTAKING`,
+
+        `Express the same message in different words | PARAPHRASE
+A composition that imitates or misrepresents a style | PARODY
+Cause to suffer | PERSECUTE
+Drop sharply | PLUMMET
+Have ownership of | POSSESS
+The state of having little or no money and possessions | POVERTY
+Sharply exact or accurate or delimited | PRECISE
+An unpleasant or difficult situation | PREDICAMENT
+Make a guess about what will happen in the future | PREDICT
+A partiality preventing objective consideration of an issue | PREJUDICE`,
+
+        `Preceding or in preparation for something more important | PRELIMINARY
+Characteristic of an earlier ancestral type | PRIMITIVE
+Status established in order of importance or urgency | PRIORITY
+Conspicuous in position or importance | PROMINENT
+Cause to move forward with force | PROPEL
+Conduct legal proceedings against a defendant | PROSECUTE
+Make steady progress | PROSPER
+Provide the needed stimulus for | PROVOKE
+Follow in an effort to capture | PURSUE
+The act of searching for something | QUEST`,
+
+        `Narrate or give a detailed account of | RECOUNT
+Something or someone turned to for assistance or security | REFUGE
+Strengthen and support | REINFORCE
+Not eager | RELUCTANT
+A feeling of deep regret, usually for some misdeed | REMORSE
+Located far away spatially | REMOTE
+Firm in purpose or belief | RESOLUTE
+Hold back | RESTRAIN
+Make a counterattack and return like for like | RETALIATE
+Get or find back; recover the use of | RETRIEVE`,
+
+        `Strict; allowing no deviation from a standard | RIGOROUS
+Living in or characteristic of farming or country life | RURAL
+Rescuing a ship or its crew from a shipwreck or a fire | SALVAGE
+A consecrated place where sacred objects are kept | SANCTUARY
+An action of an armed force that surrounds a fortified place | SIEGE
+Rich in implication | SIGNIFICANT
+Relating to the sun or utilizing the energies of the sun | SOLAR
+Cause to feel better | SOOTHE
+Not capable of being moved | STATIONARY
+Impair the respiration of or obstruct the air passage of | STIFLE`,
+
+        `Attempt by employing effort | STRIVE
+An assistant subject to the authority or control of another | SUBORDINATE
+Following in time or order | SUBSEQUENT
+Of high quality or performance | SUPERIOR
+An additional component that improves capability | SUPPLEMENT
+A group of many things in the air or on the ground | SWARM
+Perceptible by the senses, especially the sense of touch | TANGIBLE
+Bring to an end or halt | TERMINATE
+A piece of ground having specific characteristics | TERRAIN
+A distinguishing feature of your personal nature | TRAIT`,
+
+        `Change or alter in appearance or nature | TRANSFORM
+Move something or somebody around | TRANSPORT
+Dangerously unstable and unpredictable | TREACHEROUS
+In complete agreement | UNANIMOUS
+The single one of its kind | UNIQUE
+Unable to be governed or controlled | UNRULY
+Relating to a city or densely populated area | URBAN
+Leave behind empty; move out of | VACATE
+Findings of a jury on issues submitted to it for decision | VERDICT
+The limit beyond which something happens or changes | VERGE
+Vigorous and animated | VIBRANT
+Performing an essential function in the living body | VITAL`
       ]
     }
   ]
