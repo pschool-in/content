@@ -144,7 +144,7 @@ export default {
                 type: 'title',
                 text: 'ability'
               },
-              '- the quality of having the means or skills to do something',
+              '- having skills to do something',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -170,7 +170,7 @@ Plants <i><b>absorb</b></i> sunlight and convert it into energy through photosyn
                 type: 'title',
                 text: 'accuse'
               },
-              '- blame for; make a claim of wrongdoing or misbehavior against',
+              '- blame for wrongdoing or misbehavior',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -213,7 +213,7 @@ Leading a sedentary lifestyle can lead to health issues; it's essential to stay 
                 type: 'title',
                 text: 'actual'
               },
-              '- existing in act or fact',
+              '- fact',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -472,7 +472,7 @@ The police were able to <i><b>capture</b></i> the suspect after a long chase.`
                 type: 'title',
                 text: 'certain'
               },
-              '- established beyond doubt or question; definitely known',
+              '- definitely known',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -751,12 +751,12 @@ Without proper maintenance, the old house began to *decay* over time.`
       id: 'complete-word-1',
       label: 'Complete Word',
       data: [
-        `The quality of having the means or skills to do something | Ability
+        `Having the skills to do something | Ability
 Take in a liquid | Absorb
-Blame for; make a claim of wrongdoing or misbehavior against | Accuse
+Blame for wrongdoing or misbehavior | Accuse
 Behave in a certain manner | Act
 Characterized by energetic movement | Active
-Existing in act or fact | Actual
+Fact | Actual
 Take into one's family | Adopt
 The quality of having a superior or more favorable position | Advantage
 A proposal for an appropriate course of action | Advice
@@ -777,7 +777,7 @@ The boundary of a surface | Border`,
 Full of light; shining intensely | Brilliant
 A very strong thick rope made of twisted hemp or steel wire | Cable
 Seize as if by hunting, snaring, or trapping | Capture
-Established beyond doubt or question; definitely known | Certain
+Definitely known | Certain
 Coldness due to a cold environment | Chill
 Mentally quick and resourceful | Clever
 The weather in some location averaged over a period of time | Climate

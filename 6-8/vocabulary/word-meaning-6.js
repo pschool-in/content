@@ -320,8 +320,8 @@ export default {
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The rocky boat ride left some passengers feeling <i><b>queasy</b></i> and seasick.<br><br>
-The smell of spoiled food can make anyone feel <i><b>queasy</b></i>.`
+  The rocky boat ride left some passengers feeling <i><b>queasy</b></i> and seasick.<br><br>
+  The smell of spoiled food can make anyone feel <i><b>queasy</b></i>.`
               }
             ],
             [
@@ -333,8 +333,8 @@ The smell of spoiled food can make anyone feel <i><b>queasy</b></i>.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-In the <i><b>recent</b></i> past, technological advancements have changed our lives dramatically.<br><br>
-The study of <i><b>recent</b></i> history helps us understand the events that shaped our world.`
+  In the <i><b>recent</b></i> past, technological advancements have changed our lives dramatically.<br><br>
+  The study of <i><b>recent</b></i> history helps us understand the events that shaped our world.`
               }
             ],
             [
@@ -346,8 +346,8 @@ The study of <i><b>recent</b></i> history helps us understand the events that sh
               {
                 type: 'html',
                 text: `Eg: <br><br>
-I couldn't <i><b>recognize</b></i> her with her new hairstyle and glasses.<br><br>
-It's essential to <i><b>recognize</b></i> the signs of success and celebrate your achievements.`
+  I couldn't <i><b>recognize</b></i> her with her new hairstyle and glasses.<br><br>
+  It's essential to <i><b>recognize</b></i> the signs of success and celebrate your achievements.`
               }
             ],
             [
@@ -359,8 +359,8 @@ It's essential to <i><b>recognize</b></i> the signs of success and celebrate you
               {
                 type: 'html',
                 text: `Eg: <br><br>
-To promote sustainability, it's important to <i><b>reduce</b></i> our energy consumption.<br><br>
-The chef decided to <i><b>reduce</b></i> the amount of sugar in the dessert recipe.`
+  To promote sustainability, it's important to <i><b>reduce</b></i> our energy consumption.<br><br>
+  The chef decided to <i><b>reduce</b></i> the amount of sugar in the dessert recipe.`
               }
             ],
             [
@@ -372,8 +372,8 @@ The chef decided to <i><b>reduce</b></i> the amount of sugar in the dessert reci
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The authorities decided to <i><b>release</b></i> the political prisoners after years of incarceration.<br><br>
-The company will <i><b>release</b></i> a new product to the market next month.`
+  The authorities decided to <i><b>release</b></i> the political prisoners after years of incarceration.<br><br>
+  The company will <i><b>release</b></i> a new product to the market next month.`
               }
             ]
           ]
@@ -389,8 +389,8 @@ The company will <i><b>release</b></i> a new product to the market next month.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The elected officials <i><b>represent</b></i> the interests and concerns of their constituents.<br><br>
-The ambassador will <i><b>represent</b></i> our country at the international conference.`
+  The elected officials <i><b>represent</b></i> the interests and concerns of their constituents.<br><br>
+  The ambassador will <i><b>represent</b></i> our country at the international conference.`
               }
             ],
             [
@@ -402,8 +402,8 @@ The ambassador will <i><b>represent</b></i> our country at the international con
               {
                 type: 'html',
                 text: `Eg: <br><br>
-She decided to <i><b>request</b></i> a day off from work to attend her friend's wedding.<br><br>
-Please don't hesitate to <i><b>request</b></i> assistance if you need help.`
+  She decided to <i><b>request</b></i> a day off from work to attend her friend's wedding.<br><br>
+  Please don't hesitate to <i><b>request</b></i> assistance if you need help.`
               }
             ],
             [
@@ -415,8 +415,8 @@ Please don't hesitate to <i><b>request</b></i> assistance if you need help.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The new building materials are designed to <i><b>resist</b></i> extreme weather conditions.<br><br>
-It's challenging to <i><b>resist</b></i> the aroma of freshly baked bread.`
+  The new building materials are designed to <i><b>resist</b></i> extreme weather conditions.<br><br>
+  It's challenging to <i><b>resist</b></i> the aroma of freshly baked bread.`
               }
             ],
             [
@@ -428,8 +428,8 @@ It's challenging to <i><b>resist</b></i> the aroma of freshly baked bread.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Engaging in open and respectful <i><b>responses</b></i> is key to effective communication.<br><br>
-The audience's positive <i><b>response</b></i> to the performance was heartwarming.`
+  Engaging in open and respectful <i><b>responses</b></i> is key to effective communication.<br><br>
+  The audience's positive <i><b>response</b></i> to the performance was heartwarming.`
               }
             ],
             [
@@ -441,8 +441,8 @@ The audience's positive <i><b>response</b></i> to the performance was heartwarmi
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The detective worked tirelessly to <i><b>reveal</b></i> the identity of the mystery culprit.<br><br>
-The unveiling of the new art installation will <i><b>reveal</b></i> the artist's creative vision.`
+  The detective worked tirelessly to <i><b>reveal</b></i> the identity of the mystery culprit.<br><br>
+  The unveiling of the new art installation will <i><b>reveal</b></i> the artist's creative vision.`
               }
             ]
           ]
@@ -458,8 +458,8 @@ The unveiling of the new art installation will <i><b>reveal</b></i> the artist's
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Establishing a daily <i><b>routine</b></i> can improve productivity and time management.<br><br>
-The morning <i><b>routine</b></i> includes breakfast, exercise, and preparing for the day ahead.`
+  Establishing a daily <i><b>routine</b></i> can improve productivity and time management.<br><br>
+  The morning <i><b>routine</b></i> includes breakfast, exercise, and preparing for the day ahead.`
               }
             ],
             [
@@ -471,8 +471,8 @@ The morning <i><b>routine</b></i> includes breakfast, exercise, and preparing fo
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The judge handed down a <i><b>severe</b></i> sentence to the convicted criminal due to the nature of the crime.<br><br>
-Some coaches are known for their <i><b>severe</b></i> training methods to bring out the best in their athletes.`
+  The judge handed down a <i><b>severe</b></i> sentence to the convicted criminal due to the nature of the crime.<br><br>
+  Some coaches are known for their <i><b>severe</b></i> training methods to bring out the best in their athletes.`
               }
             ],
             [
@@ -484,8 +484,8 @@ Some coaches are known for their <i><b>severe</b></i> training methods to bring 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The old book had a <i><b>shabby</b></i> cover, but its contents were still valuable.<br><br>
-He decided to renovate his <i><b>shabby</b></i> apartment to make it more comfortable.`
+  The old book had a <i><b>shabby</b></i> cover, but its contents were still valuable.<br><br>
+  He decided to renovate his <i><b>shabby</b></i> apartment to make it more comfortable.`
               }
             ],
             [
@@ -497,8 +497,8 @@ He decided to renovate his <i><b>shabby</b></i> apartment to make it more comfor
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The river was so <i><b>shallow</b></i> that you could easily wade across it.<br><br>
-Some people prefer <i><b>shallow</b></i> conversations, while others enjoy deep philosophical discussions.`
+  The river was so <i><b>shallow</b></i> that you could easily wade across it.<br><br>
+  Some people prefer <i><b>shallow</b></i> conversations, while others enjoy deep philosophical discussions.`
               }
             ],
             [
@@ -510,8 +510,8 @@ Some people prefer <i><b>shallow</b></i> conversations, while others enjoy deep 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Walking on the <i><b>sole</b></i> of your foot for too long can lead to discomfort and pain.<br><br>
-The shoes had a cushioned <i><b>sole</b></i> for added comfort during long walks.`
+  Walking on the <i><b>sole</b></i> of your foot for too long can lead to discomfort and pain.<br><br>
+  The shoes had a cushioned <i><b>sole</b></i> for added comfort during long walks.`
               }
             ]
           ]
@@ -527,8 +527,8 @@ The shoes had a cushioned <i><b>sole</b></i> for added comfort during long walks
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The scientist is determined to find the <i><b>source</b></i> of the mysterious phenomenon.<br><br>
-Understanding the <i><b>source</b></i> of a problem is the first step in solving it.`
+  The scientist is determined to find the <i><b>source</b></i> of the mysterious phenomenon.<br><br>
+  Understanding the <i><b>source</b></i> of a problem is the first step in solving it.`
               }
             ],
             [
@@ -540,8 +540,8 @@ Understanding the <i><b>source</b></i> of a problem is the first step in solving
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The old oak tree remained <i><b>sturdy</b></i> despite many years of exposure to the elements.<br><br>
-The <i><b>sturdy</b></i> construction of the bridge made it reliable for heavy traffic.`
+  The old oak tree remained <i><b>sturdy</b></i> despite many years of exposure to the elements.<br><br>
+  The <i><b>sturdy</b></i> construction of the bridge made it reliable for heavy traffic.`
               }
             ],
             [
@@ -553,8 +553,8 @@ The <i><b>sturdy</b></i> construction of the bridge made it reliable for heavy t
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The diver explored the <i><b>surface</b></i> of the crystal-clear lake to search for lost treasures.<br><br>
-The <i><b>surface</b></i> of the painting was coated with protective varnish.`
+  The diver explored the <i><b>surface</b></i> of the crystal-clear lake to search for lost treasures.<br><br>
+  The <i><b>surface</b></i> of the painting was coated with protective varnish.`
               }
             ],
             [
@@ -566,8 +566,8 @@ The <i><b>surface</b></i> of the painting was coated with protective varnish.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Some species have managed to <i><b>survive</b></i> in extreme environments through adaptation.<br><br>
-The company had to adapt to changing markets to <i><b>survive</b></i> and thrive.`
+  Some species have managed to <i><b>survive</b></i> in extreme environments through adaptation.<br><br>
+  The company had to adapt to changing markets to <i><b>survive</b></i> and thrive.`
               }
             ],
             [
@@ -579,8 +579,8 @@ The company had to adapt to changing markets to <i><b>survive</b></i> and thrive
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The sudden loud noise caused a moment of <i><b>terror</b></i> among the audience.<br><br>
-The horror movie was filled with scenes designed to evoke <i><b>terror</b></i>.`
+  The sudden loud noise caused a moment of <i><b>terror</b></i> among the audience.<br><br>
+  The horror movie was filled with scenes designed to evoke <i><b>terror</b></i>.`
               }
             ]
           ]
@@ -596,8 +596,8 @@ The horror movie was filled with scenes designed to evoke <i><b>terror</b></i>.`
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The security team received information about a potential <i><b>threat</b></i> to the event's safety.<br><br>
-Online safety measures are essential to protect against cyber <i><b>threats</b></i>.`
+  The security team received information about a potential <i><b>threat</b></i> to the event's safety.<br><br>
+  Online safety measures are essential to protect against cyber <i><b>threats</b></i>.`
               }
             ],
             [
@@ -609,8 +609,8 @@ Online safety measures are essential to protect against cyber <i><b>threats</b><
               {
                 type: 'html',
                 text: `Eg: <br><br>
-She kept her workspace <i><b>tidy</b></i> to maintain an organized and productive environment.<br><br>
-A <i><b>tidy</b></i> appearance and personal hygiene are important in many professions.`
+  She kept her workspace <i><b>tidy</b></i> to maintain an organized and productive environment.<br><br>
+  A <i><b>tidy</b></i> appearance and personal hygiene are important in many professions.`
               }
             ],
             [
@@ -622,8 +622,8 @@ A <i><b>tidy</b></i> appearance and personal hygiene are important in many profe
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The guided <i><b>tour</b></i> of the historic city included visits to famous landmarks.<br><br>
-The band embarked on a world <i><b>tour</b></i> to connect with fans from different countries.`
+  The guided <i><b>tour</b></i> of the historic city included visits to famous landmarks.<br><br>
+  The band embarked on a world <i><b>tour</b></i> to connect with fans from different countries.`
               }
             ],
             [
@@ -635,8 +635,8 @@ The band embarked on a world <i><b>tour</b></i> to connect with fans from differ
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The annual family gathering during the holidays is a cherished <i><b>tradition</b></i>.<br><br>
-The preservation of cultural <i><b>traditions</b></i> is essential for passing down heritage.`
+  The annual family gathering during the holidays is a cherished <i><b>tradition</b></i>.<br><br>
+  The preservation of cultural <i><b>traditions</b></i> is essential for passing down heritage.`
               }
             ],
             [
@@ -648,8 +648,8 @@ The preservation of cultural <i><b>traditions</b></i> is essential for passing d
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The earthquake's impact on the community was nothing short of <i><b>tragic</b></i>.<br><br>
-The story of the doomed lovers is one of the most <i><b>tragic</b></i> tales in literature.`
+  The earthquake's impact on the community was nothing short of <i><b>tragic</b></i>.<br><br>
+  The story of the doomed lovers is one of the most <i><b>tragic</b></i> tales in literature.`
               }
             ]
           ]
@@ -665,8 +665,8 @@ The story of the doomed lovers is one of the most <i><b>tragic</b></i> tales in 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The behavior of the <i><b>typical</b></i> teenager often involves seeking independence from parents.<br><br>
-The climate in this region is <i><b>typical</b></i> of tropical climates, with warm temperatures and high humidity.`
+  The behavior of the <i><b>typical</b></i> teenager often involves seeking independence from parents.<br><br>
+  The climate in this region is <i><b>typical</b></i> of tropical climates, with warm temperatures and high humidity.`
               }
             ],
             [
@@ -678,8 +678,8 @@ The climate in this region is <i><b>typical</b></i> of tropical climates, with w
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The old, abandoned house had been <i><b>vacant</b></i> for years, with broken windows and overgrown gardens.<br><br>
-The <i><b>vacant</b></i> chair at the table served as a poignant reminder of the absent family member.`
+  The old, abandoned house had been <i><b>vacant</b></i> for years, with broken windows and overgrown gardens.<br><br>
+  The <i><b>vacant</b></i> chair at the table served as a poignant reminder of the absent family member.`
               }
             ],
             [
@@ -691,8 +691,8 @@ The <i><b>vacant</b></i> chair at the table served as a poignant reminder of the
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The <i><b>valiant</b></i> soldier received a medal for risking his life to save his comrades.<br><br>
-The <i><b>valiant</b></i> efforts of the firefighters helped rescue people from the burning building.`
+  The <i><b>valiant</b></i> soldier received a medal for risking his life to save his comrades.<br><br>
+  The <i><b>valiant</b></i> efforts of the firefighters helped rescue people from the burning building.`
               }
             ],
             [
@@ -704,8 +704,8 @@ The <i><b>valiant</b></i> efforts of the firefighters helped rescue people from 
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The garden displayed a <i><b>variety</b></i> of colorful flowers, each with its unique bloom.<br><br>
-The store offered a <i><b>variety</b></i> of products to cater to different customer preferences.`
+  The garden displayed a <i><b>variety</b></i> of colorful flowers, each with its unique bloom.<br><br>
+  The store offered a <i><b>variety</b></i> of products to cater to different customer preferences.`
               }
             ],
             [
@@ -717,8 +717,8 @@ The store offered a <i><b>variety</b></i> of products to cater to different cust
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The desert extended for miles, creating a <i><b>vast</b></i> and arid landscape.<br><br>
-The professor had a <i><b>vast</b></i> knowledge of history and could discuss various eras in detail.`
+  The desert extended for miles, creating a <i><b>vast</b></i> and arid landscape.<br><br>
+  The professor had a <i><b>vast</b></i> knowledge of history and could discuss various eras in detail.`
               }
             ]
           ]
@@ -734,8 +734,8 @@ The professor had a <i><b>vast</b></i> knowledge of history and could discuss va
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Starting a new business is a risky <i><b>venture</b></i> with no guarantee of success.<br><br>
-The young explorer embarked on a <i><b>venture</b></i> into the uncharted jungle to discover new species.`
+  Starting a new business is a risky <i><b>venture</b></i> with no guarantee of success.<br><br>
+  The young explorer embarked on a <i><b>venture</b></i> into the uncharted jungle to discover new species.`
               }
             ],
             [
@@ -747,8 +747,8 @@ The young explorer embarked on a <i><b>venture</b></i> into the uncharted jungle
               {
                 type: 'html',
                 text: `Eg: <br><br>
-After a long day at work, she felt <i><b>weary</b></i> and in need of rest.<br><br>
-The hikers were <i><b>weary</b></i> after the challenging ascent to the mountain's peak.`
+  After a long day at work, she felt <i><b>weary</b></i> and in need of rest.<br><br>
+  The hikers were <i><b>weary</b></i> after the challenging ascent to the mountain's peak.`
               }
             ]
           ]
@@ -766,72 +766,72 @@ The hikers were <i><b>weary</b></i> after the challenging ascent to the mountain
       },
       data: [
         `Road signs are placed to *indicate* the right path for drivers to follow.
-The coach's motivational speech was meant to *inspire* the team to give their best performance.
-With modern technology, you can receive information almost in an *instant*.
-Some microscopic organisms are *invisible* to the naked eye and can only be seen with a microscope.
-The *jagged* rocks along the coast posed a danger to boats and swimmers.
-The *lack* of rain in the region led to drought and water shortages.`,
+  The coach's motivational speech was meant to *inspire* the team to give their best performance.
+  With modern technology, you can receive information almost in an *instant*.
+  Some microscopic organisms are *invisible* to the naked eye and can only be seen with a microscope.
+  The *jagged* rocks along the coast posed a danger to boats and swimmers.
+  The *lack* of rain in the region led to drought and water shortages.`,
 
         `A spider has multiple *limbs* that it uses to move and capture prey.
-After twisting his ankle, he had to *limp* for a few days until it healed.
-The factory specializes in the *manufacture* of high-quality automobiles.
-The martial arts *master* trained his students in discipline and self-defense.
-The fruit is not ready to eat until it has *matured* and ripened.`,
+  After twisting his ankle, he had to *limp* for a few days until it healed.
+  The factory specializes in the *manufacture* of high-quality automobiles.
+  The martial arts *master* trained his students in discipline and self-defense.
+  The fruit is not ready to eat until it has *matured* and ripened.`,
 
         `The *meadow* was covered in wildflowers, creating a picturesque landscape.
-The detective couldn't help but *mistrust* the shady character's alibi.
-The bullies would often *mock* their classmates, causing emotional pain.
-Despite her wealth, she lived a *modest* life and donated to charity.
-The castle belonged to a *noble* family that had a long history of ruling the region.`,
+  The detective couldn't help but *mistrust* the shady character's alibi.
+  The bullies would often *mock* their classmates, causing emotional pain.
+  Despite her wealth, she lived a *modest* life and donated to charity.
+  The castle belonged to a *noble* family that had a long history of ruling the region.`,
 
         `The *orchard* was filled with apple, cherry, and pear trees, providing a bountiful harvest.
-Her *outstanding* achievements in science earned her numerous awards and recognition.
-The old house had a *peculiar* charm, with its unique architecture and design.
-She *peered* through the window, trying to see who was approaching the house.
-The school *permit* allows students to park their cars in the designated area.`,
+  Her *outstanding* achievements in science earned her numerous awards and recognition.
+  The old house had a *peculiar* charm, with its unique architecture and design.
+  She *peered* through the window, trying to see who was approaching the house.
+  The school *permit* allows students to park their cars in the designated area.`,
 
         `The defendant's lawyer will *plead* for leniency during the sentencing phase of the trial.
-In the forest, there was a *plentiful* supply of wild berries and mushrooms.
-The musician would *practice* the piano for hours each day to perfect his skills.
-Meteorologists use data to *predict* the weather and inform the public.
-The rocky boat ride left some passengers feeling *queasy* and seasick.`,
+  In the forest, there was a *plentiful* supply of wild berries and mushrooms.
+  The musician would *practice* the piano for hours each day to perfect his skills.
+  Meteorologists use data to *predict* the weather and inform the public.
+  The rocky boat ride left some passengers feeling *queasy* and seasick.`,
 
         `In the *recent* past, technological advancements have changed our lives dramatically.
-I couldn't *recognize* her with her new hairstyle and glasses.
-To promote sustainability, it's important to *reduce* our energy consumption.
-The authorities decided to *release* the political prisoners after years of incarceration.
-The elected officials *represent* the interests and concerns of their constituents.`,
+  I couldn't *recognize* her with her new hairstyle and glasses.
+  To promote sustainability, it's important to *reduce* our energy consumption.
+  The authorities decided to *release* the political prisoners after years of incarceration.
+  The elected officials *represent* the interests and concerns of their constituents.`,
 
         `She decided to *request* a day off from work to attend her friend's wedding.
-The new building materials are designed to *resist* extreme weather conditions.
-Engaging in open and respectful *responses* is key to effective communication.
-The detective worked tirelessly to *reveal* the identity of the mystery culprit.
-Establishing a daily *routine* can improve productivity and time management.`,
+  The new building materials are designed to *resist* extreme weather conditions.
+  Engaging in open and respectful *responses* is key to effective communication.
+  The detective worked tirelessly to *reveal* the identity of the mystery culprit.
+  Establishing a daily *routine* can improve productivity and time management.`,
 
         `The judge handed down a *severe* sentence to the convicted criminal due to the nature of the crime.
-The old book had a *shabby* cover, but its contents were still valuable.
-The river was so *shallow* that you could easily wade across it.
-Walking on the *sole* of your foot for too long can lead to discomfort and pain.
-The scientist is determined to find the *source* of the mysterious phenomenon.`,
+  The old book had a *shabby* cover, but its contents were still valuable.
+  The river was so *shallow* that you could easily wade across it.
+  Walking on the *sole* of your foot for too long can lead to discomfort and pain.
+  The scientist is determined to find the *source* of the mysterious phenomenon.`,
 
         `The old oak tree remained *sturdy* despite many years of exposure to the elements.
-The diver explored the *surface* of the crystal-clear lake to search for lost treasures.
-Some species have managed to *survive* in extreme environments through adaptation.
-The sudden loud noise caused a moment of *terror* among the audience.
-The security team received information about a potential *threat* to the event's safety.`,
+  The diver explored the *surface* of the crystal-clear lake to search for lost treasures.
+  Some species have managed to *survive* in extreme environments through adaptation.
+  The sudden loud noise caused a moment of *terror* among the audience.
+  The security team received information about a potential *threat* to the event's safety.`,
 
         `She kept her workspace *tidy* to maintain an organized and productive environment.
-The guided *tour* of the historic city included visits to famous landmarks.
-The annual family gathering during the holidays is a cherished *tradition*.
-The earthquake's impact on the community was nothing short of *tragic*.
-The behavior of the *typical* teenager often involves seeking independence from parents.`,
+  The guided *tour* of the historic city included visits to famous landmarks.
+  The annual family gathering during the holidays is a cherished *tradition*.
+  The earthquake's impact on the community was nothing short of *tragic*.
+  The behavior of the *typical* teenager often involves seeking independence from parents.`,
 
         `The old, abandoned house had been *vacant* for years, with broken windows and overgrown gardens.
-The *valiant* soldier received a medal for risking his life to save his comrades.
-The garden displayed a *variety* of colorful flowers, each with its unique bloom.
-The desert extended for miles, creating a *vast* and arid landscape.
-Starting a new business is a risky *venture* with no guarantee of success.
-After a long day at work, she felt *weary* and in need of rest.`
+  The *valiant* soldier received a medal for risking his life to save his comrades.
+  The garden displayed a *variety* of colorful flowers, each with its unique bloom.
+  The desert extended for miles, creating a *vast* and arid landscape.
+  Starting a new business is a risky *venture* with no guarantee of success.
+  After a long day at work, she felt *weary* and in need of rest.`
       ]
     },
     {
@@ -840,67 +840,67 @@ After a long day at work, she felt *weary* and in need of rest.`
       label: 'Complete Word',
       data: [
         `Designate a place, direction, person, or thing | INDICATE
-Serve as the inciting cause of | INSPIRE
-A very short time | INSTANT
-Impossible or nearly impossible to see | INVISIBLE
-Having a sharply uneven surface or outline | JAGGED
-The state of needing something that is absent or unavailable | LACK
-One of the jointed appendages of an animal | LIMB
-Walk impeded by some physical injury | LIMP
-Put together out of artificial or natural components | MANUFACTURE
-A person who has authority over others | MASTER`,
+  Serve as the inciting cause of | INSPIRE
+  A very short time | INSTANT
+  Impossible or nearly impossible to see | INVISIBLE
+  Having a sharply uneven surface or outline | JAGGED
+  The state of needing something that is absent or unavailable | LACK
+  One of the jointed appendages of an animal | LIMB
+  Walk impeded by some physical injury | LIMP
+  Put together out of artificial or natural components | MANUFACTURE
+  A person who has authority over others | MASTER`,
 
         `Having reached full natural growth or development | MATURE
-A field where grass or alfalfa is grown to be made into hay | MEADOW
-Regard with suspicion | MISTRUST
-Treat with contempt | MOCK
-Marked by simplicity; having a humble opinion of yourself | MODEST
-Of or belonging to hereditary aristocracy | NOBLE
-A small cultivated area where fruit trees are planted | ORCHARD
-Of major significance or importance | OUTSTANDING
-Beyond or deviating from the usual or expected | PECULIAR
-Look searchingly | PEER`,
+  A field where grass or alfalfa is grown to be made into hay | MEADOW
+  Regard with suspicion | MISTRUST
+  Treat with contempt | MOCK
+  Marked by simplicity; having a humble opinion of yourself | MODEST
+  Of or belonging to hereditary aristocracy | NOBLE
+  A small cultivated area where fruit trees are planted | ORCHARD
+  Of major significance or importance | OUTSTANDING
+  Beyond or deviating from the usual or expected | PECULIAR
+  Look searchingly | PEER`,
 
         `Allow the presence of or allow without opposing | PERMIT
-Appeal or request earnestly | PLEAD
-Existing in great number or quantity | PLENTIFUL
-Carry out or practice; as of jobs and professions | PRACTICE
-Tell in advance | PREDICT
-Causing or able to cause nausea | QUEASY
-Approximately the last 10,000 years | RECENT
-Perceive to be something or something you can identify | RECOGNIZE
-Make smaller | REDUCE
-Grant freedom to; free from confinement | RELEASE`,
+  Appeal or request earnestly | PLEAD
+  Existing in great number or quantity | PLENTIFUL
+  Carry out or practice; as of jobs and professions | PRACTICE
+  Tell in advance | PREDICT
+  Causing or able to cause nausea | QUEASY
+  Approximately the last 10,000 years | RECENT
+  Perceive to be something or something you can identify | RECOGNIZE
+  Make smaller | REDUCE
+  Grant freedom to; free from confinement | RELEASE`,
 
         `Be a delegate or spokesperson for | REPRESENT
-Express the need or desire for; ask for | REQUEST
-Withstand the force of something | RESIST
-The speech act of continuing a conversational exchange | RESPONSE
-Make visible | REVEAL
-An unvarying or habitual method or procedure | ROUTINE
-Very harsh or strict, especially when dealing with others | SEVERE
-Showing signs of wear and tear | SHABBY
-Lacking physical depth | SHALLOW
-The underside of the foot | SOLE`,
+  Express the need or desire for; ask for | REQUEST
+  Withstand the force of something | RESIST
+  The speech act of continuing a conversational exchange | RESPONSE
+  Make visible | REVEAL
+  An unvarying or habitual method or procedure | ROUTINE
+  Very harsh or strict, especially when dealing with others | SEVERE
+  Showing signs of wear and tear | SHABBY
+  Lacking physical depth | SHALLOW
+  The underside of the foot | SOLE`,
 
         `The place where something begins | SOURCE
-Having rugged physical strength | STURDY
-The outer boundary of an artifact or a material layer | SURFACE
-Continue in existence after | SURVIVE
-An overwhelming feeling of fear and anxiety | TERROR
-Declaration of an intention to inflict harm on another | THREAT
-Marked by order and cleanliness in appearance or habits | TIDY
-A route all the way around a particular place or area | TOUR
-A specific practice of long standing | TRADITION
-Very sad, especially involving grief or death or destruction | TRAGIC`,
+  Having rugged physical strength | STURDY
+  The outer boundary of an artifact or a material layer | SURFACE
+  Continue in existence after | SURVIVE
+  An overwhelming feeling of fear and anxiety | TERROR
+  Declaration of an intention to inflict harm on another | THREAT
+  Marked by order and cleanliness in appearance or habits | TIDY
+  A route all the way around a particular place or area | TOUR
+  A specific practice of long standing | TRADITION
+  Very sad, especially involving grief or death or destruction | TRAGIC`,
 
         `Exhibiting the qualities that identify a group or kind | TYPICAL
-Not containing anyone or anything; unfilled or unoccupied | VACANT
-Having or showing heroism or courage | VALIANT
-A category of things distinguished by a common quality | VARIETY
-Unusually great in size or amount or extent or scope | VAST
-An undertaking with an uncertain outcome | VENTURE
-Physically and mentally fatigued | WEARY`
+  Not containing anyone or anything; unfilled or unoccupied | VACANT
+  Having or showing heroism or courage | VALIANT
+  A category of things distinguished by a common quality | VARIETY
+  Unusually great in size or amount or extent or scope | VAST
+  An undertaking with an uncertain outcome | VENTURE
+  Physically and mentally fatigued | WEARY`
       ]
     }
   ]

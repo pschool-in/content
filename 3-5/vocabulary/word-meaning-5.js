@@ -34,12 +34,12 @@ A good dictionary provides <i><b>accurate</b></i> definitions and examples of wo
                 type: 'title',
                 text: 'address'
               },
-              '- the place where a person or organization can be found',
+              '- to speak or write to someone',
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The <i><b>address</b></i> of the company's headquarters is well-known in the business community.<br><br>
-Please provide your current <i><b>address</b></i> for shipping purposes.`
+    I will <i><b>address</b></i> the issue with the customer and find a solution.<br><br>
+    She <i><b>addressed</b></i> the audience with a heartfelt speech.`
               }
             ],
             [
@@ -73,7 +73,7 @@ An <i><b>alert</b></i> was issued to residents about an approaching storm.`
                 type: 'title',
                 text: 'analyze'
               },
-              '- break down into components or essential features',
+              '- carefully observe, investigate, or study something to gain a deeper understanding',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -90,7 +90,7 @@ The detective needed to <i><b>analyze</b></i> the evidence to solve the mystery.
                 type: 'title',
                 text: 'ancestor'
               },
-              '- someone from whom you are descended',
+              '- individuals to whom a person is related by blood or descent',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -116,7 +116,7 @@ The company holds its <i><b>annual</b></i> shareholders' meeting to discuss busi
                 type: 'title',
                 text: 'apparent'
               },
-              '- clearly revealed to the mind or the senses or judgment',
+              '- clear, obvious, easily seen or understood',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -142,7 +142,7 @@ Using <i><b>appropriate</b></i> language is essential in professional communicat
                 type: 'title',
                 text: 'arena'
               },
-              '- a large structure for open-air sports or entertainments',
+              '- a large stage for open-air sports or entertainments',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -242,7 +242,7 @@ Maintaining a <i><b>balance</b></i> between work and personal life is essential 
                 type: 'title',
                 text: 'barrier'
               },
-              '- a structure or object that impedes free movement',
+              '- a structure or object that blocks free movement',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -311,7 +311,7 @@ She provided a <i><b>brief</b></i> summary of the main points in the report.`
                 type: 'title',
                 text: 'bulk'
               },
-              '- the property resulting from being or relating to the greater in number of two parts; the main part',
+              '- indicates that something is large or takes up a significant part of something',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -337,7 +337,7 @@ A person's <i><b>capacity</b></i> to learn and adapt is remarkable.`
                 type: 'title',
                 text: 'category'
               },
-              '- a general concept that marks divisions or coordinations in a conceptual scheme',
+              '- a way to group or classify things that share certain characteristics or attributes',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -419,11 +419,11 @@ The author <i><b>cited</b></i> several historical documents to support the argum
                 type: 'title',
                 text: 'civil'
               },
-              '- of or relating to ordinary citizens and their concerns',
+              '- relating to ordinary citizens and their concerns',
               {
                 type: 'html',
                 text: `Eg: <br><br>
-Civil rights movements have played a crucial role in achieving equality for all people.<br><br>
+    <i><b>Civil</b></i> rights movements have played a crucial role in achieving equality for all people.<br><br>
 The dispute was resolved through <i><b>civil</b></i> negotiations rather than legal action.`
               }
             ]
@@ -449,7 +449,7 @@ The manager needed to <i><b>clarify</b></i> the company's new policy for the emp
                 type: 'title',
                 text: 'classic'
               },
-              '- of the highest quality and lasting significance',
+              '- something that has stood the test of time and remains relevant, valuable, or appreciated across generations',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -626,7 +626,7 @@ The soldiers marched in a straight <i><b>column</b></i>.`
                 type: 'title',
                 text: 'communicate'
               },
-              '- transfer to another',
+              '- convey or share information, thoughts, ideas, or feelings with someone else or a group of people',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -669,7 +669,7 @@ To succeed, you need a <i><b>complete</b></i> understanding of the subject.`
                 type: 'title',
                 text: 'concentrate'
               },
-              '- make denser, stronger, or purer',
+              '- make denser, stronger, or purer; giving full and undivided attention to something',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -718,7 +718,7 @@ At the end of the trial, the judge will <i><b>conclude</b></i> the proceedings.`
       },
       data: [
         `The scientist's measurements were highly *accurate*, with minimal margin for error.
-The *address* of the company's headquarters is well-known in the business community.
+I will *address* the issue with the customer and find a solution.
 After years of hard work, they could finally *afford* their dream vacation.
 The lifeguard's job is to *alert* swimmers to potential dangers in the water.
 Scientists *analyze* data to draw meaningful conclusions from their research.`,
@@ -784,15 +784,15 @@ The meeting will *conclude* with a summary of the decisions made.`
       label: 'Complete Word',
       data: [
         `Characterized by perfect conformity to fact or truth | ACCURATE
-The place where a person or organization can be found | ADDRESS
+To speak or write to someone | ADDRESS
 Have the financial means to do something or buy something | AFFORD
 Warn or arouse to a sense of danger | ALERT
-Break down into components or essential features | ANALYZE
-Someone from whom you are descended | ANCESTOR
+Carefully observe, investigate, or study something to gain a deeper understanding | ANALYZE
+Individuals to whom a person is related by blood or descent | ANCESTOR
 Occurring every year | ANNUAL
-Clearly revealed to the mind or the senses or judgment | APPARENT
+Clear, obvious, easily seen or understood | APPARENT
 Suitable for a particular person, place, or situation | APPROPRIATE
-A large structure for open|AIR sports or entertainments | ARENA`,
+A large stage for open|AIR sports or entertainments | ARENA`,
 
         `Take into custody | ARREST
 Travel up | ASCEND
@@ -800,24 +800,24 @@ Give help; be of service | ASSIST
 Make an effort | ATTEMPT
 Pleasing to the eye or mind | ATTRACTIVE
 A state of equilibrium or equipoise; equal distribution of weight | BALANCE
-A structure or object that impedes free movement | BARRIER
+A structure or object that blocks free movement | BARRIER
 Something that promotes well-being | BENEFIT
 A partiality that prevents objective consideration of an issue or situation | BIAS
 A connection that fastens things together | BOND`,
 
         `Of short duration or distance | BRIEF
-The property resulting from being or relating to the greater in number of two parts; the main part | BULK
+Indicates that something is large or takes up a significant part of something | BULK
 The ability to perform or produce | CAPACITY
-A general concept that marks divisions or coordinations in a conceptual scheme | CATEGORY
+A way to group or classify things that share certain characteristics or attributes | CATEGORY
 Put an end to a state or an activity | CEASE
 A demanding or stimulating situation | CHALLENGE
 A pathway through which information flows | CHANNEL
 A distinguishing quality or trait | CHARACTERISTIC
 To quote as an authority or example | CITE
-Of or relating to ordinary citizens and their concerns | CIVIL`,
+Relating to ordinary citizens and their concerns | CIVIL`,
 
         `To make clear and understandable | CLARIFY
-Of the highest quality and lasting significance | CLASSIC
+Something that has stood the test of time and remains relevant, valuable, or appreciated across generations | CLASSIC
 To occur at the same time or place | COINCIDE
 To fall down or give way suddenly | COLLAPSE
 An associate or coworker, especially in a professional setting | COLLEAGUE
@@ -831,10 +831,10 @@ A period of 100 years | CENTURY`,
 Having a circular shape | CIRCULAR
 Influence or persuade by gentle and persistent urging | COAX
 A line of units following one after another | COLUMN
-Transfer to another | COMMUNICATE
+Convey or share information, thoughts, ideas, or feelings with someone else or a group of people| COMMUNICATE
 The act of contending with others for rewards or resources | COMPETITION
 Having all necessary qualities | COMPLETE
-Make denser, stronger, or purer | CONCENTRATE
+Make denser, stronger, or purer; giving full and undivided attention to something | CONCENTRATE
 Something that interests you because it is important | CONCERN
 Bring to a close | CONCLUDE`
       ]
@@ -926,7 +926,7 @@ Each team member can <i><b>contribute</b></i> their unique skills to the project
                 type: 'title',
                 text: 'crafty'
               },
-              '- marked by skill in deception',
+              '- someone who is clever, cunning, or devious, often with an intent to deceive or manipulate others',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -1128,19 +1128,6 @@ The circus aims to <i><b>entertain</b></i> both children and adults with acrobat
         },
         {
           steps: [
-            [
-              {
-                type: 'title',
-                text: 'crafty'
-              },
-              '- marked by skill in deception',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The <i><b>crafty</b></i> fox outwitted the hunters and escaped with the prize.<br><br>
-She used her <i><b>crafty</b></i> negotiation skills to secure a better deal.`
-              }
-            ],
             [
               {
                 type: 'title',
@@ -1591,7 +1578,7 @@ Say something to someone that expresses praise | CONGRATULATE
 Large in number, amount, extent, or degree | CONSIDERABLE
 Satisfied or showing satisfaction with things as they are | CONTENT
 Give, provide, or supply something | CONTRIBUTE
-Marked by skill in deception | CRAFTY
+Someone who is clever, cunning, or devious, often with an intent to deceive or manipulate others | CRAFTY
 Bring into existence | CREATE
 Give an exhibition of to an interested audience | DEMONSTRATE
 Move downward and lower, but not necessarily all the way | DESCEND
