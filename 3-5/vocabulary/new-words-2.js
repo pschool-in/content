@@ -66,23 +66,23 @@ Captivating - Fascinating`
           questions: [
             {
               qText: `The artist's work is very *creative*.`,
-              options: 'innovative, boring, ordinary'
+              options: 'innovative, boring, ordinary, new'
             },
             {
               qText: `The teacher's *enthusiasm* made the class exciting.`,
-              options: 'eagerness, apathy, indifference'
+              options: 'eagerness, apathy, indifference, excited'
             },
             {
               qText: `The author's *vivid* descriptions brought the story to life.`,
-              options: 'colorful, dull, lifeless'
+              options: 'colorful, dull, lifeless, natural'
             },
             {
               qText: `The music at the party was *melodious*.`,
-              options: 'harmonious, discordant, noisy'
+              options: 'harmonious, discordant, noisy, loud'
             },
             {
               qText: `The detective's *intuition* helped solve the case.`,
-              options: 'insight, ignorance, blindness'
+              options: 'insight, ignorance, blindness, visionary'
             }
           ]
         },
@@ -90,23 +90,23 @@ Captivating - Fascinating`
           questions: [
             {
               qText: `The chef's *culinary* skills are unmatched.`,
-              options: 'cooking, painting, singing'
+              options: 'cooking, painting, singing, dancing'
             },
             {
               qText: 'She has a *fascination* for ancient history.',
-              options: 'obsession, disinterest, disliking'
+              options: 'obsession, disinterest, disliking, temptation'
             },
             {
               qText: 'The serene lake was a *peaceful* place to relax.',
-              options: 'calm, turbulent, chaotic'
+              options: 'calm, turbulent, chaotic, rumble'
             },
             {
               qText: `The company's *strategy* led to increased profits.`,
-              options: 'plan, confusion, disorder'
+              options: 'plan, confusion, disorder, choas'
             },
             {
               qText: 'The explorer had a *penchant* for adventure.',
-              options: 'liking, aversion, hatred'
+              options: 'liking, aversion, hatred, dislike'
             }
           ]
         },
@@ -114,23 +114,23 @@ Captivating - Fascinating`
           questions: [
             {
               qText: 'His *persistent* efforts paid off in the end.',
-              options: 'continuous, sporadic, occasional'
+              options: 'continuous, sporadic, occasional, temporary'
             },
             {
               qText: 'The film had a *powerful* impact on the audience.',
-              options: 'strong, weak, feeble'
+              options: 'strong, weak, feeble, agile'
             },
             {
               qText: `The athlete's *dedication* to training was impressive.`,
-              options: 'commitment, indifference, neglect'
+              options: 'commitment, indifference, neglect, ignore'
             },
             {
               qText: `The scientist's *theory* revolutionized the field.`,
-              options: 'hypothesis, fact, truth'
+              options: 'hypothesis, fact, truth, thesis'
             },
             {
               qText: 'The mountain climbers showed great *courage*.',
-              options: 'bravery, fear, cowardice'
+              options: 'bravery, fear, cowardice, fearless'
             }
           ]
         },
@@ -138,23 +138,23 @@ Captivating - Fascinating`
           questions: [
             {
               qText: 'The conference was an *educational* experience.',
-              options: 'informative, misleading, deceptive'
+              options: 'informative, misleading, deceptive, hypnotizing'
             },
             {
               qText: 'Her *eloquent* speech left the audience in awe.',
-              options: 'articulate, inarticulate, speechless'
+              options: 'articulate, inarticulate, speechless, elegant'
             },
             {
               qText: 'The garden was filled with *fragrant* flowers.',
-              options: 'pleasant-smelling, foul-smelling, stinking'
+              options: 'pleasant-smelling, stinking, colourful, sweet'
             },
             {
               qText: 'The museum displayed *priceless* artifacts.',
-              options: 'invaluable, worthless, cheap'
+              options: 'invaluable, worthless, cheap, expensive'
             },
             {
               qText: 'The novel had a *suspenseful* plot.',
-              options: 'thrilling, predictable, boring'
+              options: 'thrilling, predictable, boring, mystical'
             }
           ]
         },
@@ -162,23 +162,23 @@ Captivating - Fascinating`
           questions: [
             {
               qText: `The team's *collaboration* led to success.`,
-              options: 'cooperation, competition, rivalry'
+              options: 'cooperation, competition, rivalry, nemesis'
             },
             {
               qText: 'She has a *profound* understanding of the topic.',
-              options: 'deep, superficial, shallow'
+              options: 'deep, superficial, shallow, little'
             },
             {
               qText: 'The storm caused *significant* damage to the town.',
-              options: 'major, minor, trivial'
+              options: 'major, minor, trivial, little'
             },
             {
               qText: 'His *exquisite* taste in fashion was well-known.',
-              options: 'beautiful, ordinary, ugly'
+              options: 'beautiful, ordinary, ugly, deformed'
             },
             {
               qText: `The orchestra's performance was *captivating*.`,
-              options: 'fascinating, dull, uninteresting'
+              options: 'fascinating, dull, uninteresting, boring'
             }
           ]
         }
@@ -369,23 +369,23 @@ Captivating × Uninteresting`
           questions: [
             {
               qText: 'The ancient castle stands *on top of the hill*.',
-              options: 'Hilltop, Atop, Over the hill'
+              options: 'hilltop, atop, over the hill'
             },
             {
               qText: 'The old man told stories *from his youth*.',
-              options: 'Childhood, Ancient times, Senior years'
+              options: 'childhood, ancient times, senior years'
             },
             {
               qText: "I've known him *for a lifetime*.",
-              options: 'Forever, Recently, Briefly'
+              options: 'forever, recently, briefly'
             },
             {
               qText: 'She found herself *in the middle of* a bustling city.',
-              options: 'Amidst, Isolated, Peaceful'
+              options: 'amidst, isolated, peaceful'
             },
             {
               qText: 'The book was hidden *in the middle of the shelf*.',
-              options: 'Midway, Amidst, At the center'
+              options: 'midway, amidst, at the center'
             }
           ]
         },
@@ -393,23 +393,23 @@ Captivating × Uninteresting`
           questions: [
             {
               qText: 'The concert was held *in the open air*.',
-              options: 'Outdoors, Under the sky, In the environment'
+              options: 'outdoors, under the sky, in the environment'
             },
             {
               qText: 'They reached the *highest point of the trail*.',
-              options: 'Peak, Pinnacle, Apex'
+              options: 'peak, pinnacle, apex'
             },
             {
               qText: 'He solved the puzzle *with great ease*.',
-              options: 'Effortlessly, Smoothly, Gracefully'
+              options: 'effortlessly, smoothly, gracefully'
             },
             {
               qText: 'She had been studying *for a very long time*.',
-              options: 'Excessively, Hours on end, Years'
+              options: 'excessively, hours on end, years'
             },
             {
               qText: 'She answered the question *without any hesitation*.',
-              options: 'Instantly, Unhesitatingly, Promptly'
+              options: 'instantly, unhesitatingly, promptly'
             }
           ]
         },
@@ -417,23 +417,23 @@ Captivating × Uninteresting`
           questions: [
             {
               qText: 'She sang *with all her heart*.',
-              options: 'Passionately, Half-heartedly, Silently'
+              options: 'passionately, half-heartedly, silently'
             },
             {
               qText: 'The cake tasted *like heaven*.',
-              options: 'Incredible, Terrible, Average'
+              options: 'incredible, terrible, average'
             },
             {
               qText: 'They traveled through the forest *for miles and miles*.',
-              options: 'Endlessly, Long distances, Many hours'
+              options: 'endlessly, long distances, many hours'
             },
             {
               qText: 'The fireworks lit up the sky *at the break of day*.',
-              options: 'Dawn, Sunrise, Early morning'
+              options: 'dawn, sunrise, early morning'
             },
             {
               qText: 'He practices meditation *on a daily basis*.',
-              options: 'Daily, Every day, Routinely'
+              options: 'daily, every day, routinely'
             }
           ]
         },
@@ -442,25 +442,25 @@ Captivating × Uninteresting`
             {
               qText:
                 'She reached the destination *well before the expected time*.',
-              options: 'Early, Ahead of time, In advance'
+              options: 'early, ahead of time, in advance'
             },
             {
               qText:
                 'The team trained *for a considerable period* before the competition.',
-              options: 'Extensively, For an extended time, Over a long duration'
+              options: 'extensively, for an extended time, over a long duration'
             },
             {
               qText: 'The cafe is open *around the clock*.',
-              options: '24/7, At all hours, Continuously'
+              options: '24/7, at all hours, continuously'
             },
             {
               qText: 'The stars are visible *at the fall of night*.',
-              options: 'Nightfall, Sunset, Evening'
+              options: 'nightfall, sunset, evening'
             },
             {
               qText:
                 'The spaceship journeyed *to the far reaches of the galaxy*.',
-              options: 'Outer space, Distant galaxy, Cosmic expanse'
+              options: 'outer space, distant galaxy, cosmic expanse'
             }
           ]
         }
@@ -522,26 +522,26 @@ Kindness - Being friendly and considerate`
             {
               qText:
                 'The *vibrant* colors of the flowers brightened the garden.',
-              options: 'Bright and lively, Dull and lifeless'
+              options: 'bright and lively, dull and lifeless'
             },
             {
               qText: `The teacher's *patience* in explaining concepts is commendable.`,
               options:
-                'Ability to remain calm and understanding, Quick to anger'
+                'ability to remain calm and understanding, quick to anger'
             },
             {
               qText: `The team's *cooperation* led to a successful project completion.`,
               options:
-                'Working together harmoniously, Frequent conflicts and disagreements'
+                'working together harmoniously, frequent conflicts and disagreements'
             },
             {
               qText: `She had a *persistent* cough that wouldn't go away.`,
-              options: 'Continuing or enduring, Temporary and fleeting'
+              options: 'continuing or enduring, temporary and fleeting'
             },
             {
               qText:
                 'The *generous* donation helped the charity support many people.',
-              options: 'Williness to give and share, Selfish and stingy'
+              options: 'willingness to give and share, selfish and stingy'
             }
           ]
         },
@@ -550,28 +550,28 @@ Kindness - Being friendly and considerate`
             {
               qText:
                 'His *curiosity* about the world led him to explore new places.',
-              options: 'Desire to learn and explore, Apathy and disinterest'
+              options: 'desire to learn and explore, apathy and disinterest'
             },
             {
               qText:
                 'The *reliable* car never broke down during the long road trip.',
               options:
-                'Dependable and trustworthy, Unpredictable and unreliable'
+                'dependable and trustworthy, unpredictable and unreliable'
             },
             {
               qText:
                 'The *celebration* of the festival included music and dancing.',
               options:
-                'Special event with joy and festivity, Quiet and somber observance'
+                'special event with joy and festivity, quiet and somber observance'
             },
             {
               qText: `The chef's *creativity* resulted in a unique and delicious dish.`,
-              options: 'Imagination and originality, Lack of innovative ideas'
+              options: 'imagination and originality, lack of innovative ideas'
             },
             {
               qText:
                 'The *honesty* of the witness was crucial in the court case.',
-              options: 'Truthfulness and integrity, Deceit and dishonesty'
+              options: 'truthfulness and integrity, deceit and dishonesty'
             }
           ]
         },
@@ -581,27 +581,27 @@ Kindness - Being friendly and considerate`
               qText:
                 'The *resilience* of the community was tested during the disaster.',
               options:
-                'Ability to recover and adapt, Vulnerability and fragility'
+                'ability to recover and adapt, vulnerability and fragility'
             },
             {
               qText: 'The *optimistic* outlook helped her overcome challenges.',
               options:
-                'Positive and hopeful, Pessimistic and gloomy perspective'
+                'positive and hopeful, pessimistic and gloomy perspective'
             },
             {
               qText:
                 'The *efficiency* of the new process saved time and resources.',
               options:
-                'Achievment of maximum productivity with minimal wasted effort, Ineffectiveness and wastefulness'
+                'achievement of maximum productivity with minimal wasted effort, ineffectiveness and wastefulness'
             },
             {
               qText: 'The *gratitude* of the recipients was heartwarming.',
               options:
-                'Thankfulness and appreciation, Ingratitude and resentment'
+                'thankfulness and appreciation, ingratitude and resentment'
             },
             {
               qText: 'The *peaceful* atmosphere of the park was soothing.',
-              options: 'Calm and free from disturbance, Chaotic and noisy'
+              options: 'calm and free from disturbance, chaotic and noisy'
             }
           ]
         },
@@ -611,26 +611,26 @@ Kindness - Being friendly and considerate`
               qText:
                 'The *adventure* of traveling to exotic places was thrilling.',
               options:
-                'Exciting and daring experience, Boring and routine activities'
+                'exciting and daring experience, boring and routine activities'
             },
             {
               qText:
                 'The *persistence* of the scientist led to a groundbreaking discovery.',
-              options: 'Continued effort and determination, Giving up easily'
+              options: 'continued effort and determination, giving up easily'
             },
             {
               qText: 'The *compassion* of the nurse comforted the patients.',
-              options: 'Sympathy and care for others, Indifference and cruelty'
+              options: 'sympathy and care for others, indifference and cruelty'
             },
             {
               qText:
                 'The *innovation* in technology has transformed our lives.',
               options:
-                'Introduction of new and advanced ideas, Stagnation and lack of progress'
+                'introduction of new and advanced ideas, stagnation and lack of progress'
             },
             {
               qText: 'The *kindness* of the stranger brightened her day.',
-              options: 'Friendly and considerate nature, Rudeness and hostility'
+              options: 'friendly and considerate nature, rudeness and hostility'
             }
           ]
         }

@@ -27,7 +27,7 @@ export default {
                 type: 'html',
                 text: `Eg: <br><br>
 The refugee's life was filled with <i><b>misery</b></i> as they struggled to find safety and stability.<br><br>
-Human suffering, pain, <i><b>misery</b></i>, separation and bereavement are inevitable when wars are fought.`
+She couldn't hide her <i><b>misery</b></i> when her favorite book was lost.`
               }
             ],
             [
@@ -39,7 +39,7 @@ Human suffering, pain, <i><b>misery</b></i>, separation and bereavement are inev
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The morning dew added a touch of <i><b>moisture</b></i> to the grass, glistening in the sunlight.<br><br>
+    The <i><b>moisture</b></i> on the window indicated a humid day.<br><br>
 To keep the skin hydrated, it's important to use a moisturizer that locks in <i><b>moisture</b></i>.`
               }
             ],
@@ -53,7 +53,7 @@ To keep the skin hydrated, it's important to use a moisturizer that locks in <i>
                 type: 'html',
                 text: `Eg: <br><br>
 The artist spent weeks working on a stunning <i><b>mural</b></i> that covered an entire wall of the art gallery.<br><br>
-The school children collaborated on a colorful <i><b>mural</b></i> to brighten up their classroom.`
+The <i><b>mural</b></i> on the side of the building depicted a colorful jungle scene.`
               }
             ],
             [
@@ -65,7 +65,7 @@ The school children collaborated on a colorful <i><b>mural</b></i> to brighten u
               {
                 type: 'html',
                 text: `Eg: <br><br>
-The magician's tricks never failed to <i><b>mystify</b></i> the audience, leaving them in awe.<br><br>
+    The magician made the rabbit disappear. It <i><b>mystified</b></i> the audience.<br><br>
 The cryptic message in the old book continued to <i><b>mystify</b></i> researchers for years.`
               }
             ],
@@ -89,19 +89,6 @@ The bees diligently collected <i><b>nectar</b></i> from the blossoms to make hon
             [
               {
                 type: 'title',
-                text: 'nursery'
-              },
-              `- a child's room for a baby`,
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The <i><b>nursery</b></i> was decorated with soft pastel colors, creating a peaceful atmosphere for the baby.<br><br>
-The childcare center provided a safe and nurturing environment for young children in the <i><b>nursery</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
                 text: 'observe'
               },
               `- watch attentively`,
@@ -117,25 +104,12 @@ It's crucial to <i><b>observe</b></i> safety regulations when using equipment to
                 type: 'title',
                 text: 'opponent'
               },
-              '- someone who offers resistance',
+              '- the opposite team or a person with whom we compete',
               {
                 type: 'html',
                 text: `Eg: <br><br>
 In the boxing ring, the determined fighter faced a formidable <i><b>opponent</b></i>.<br><br>
 The political <i><b>opponent</b></i> delivered a passionate speech in response to the proposed legislation.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'opposite'
-              },
-              '- being directly across from each other',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The restaurant was located on the <i><b>opposite</b></i> side of the street, requiring a brief walk to reach it.<br><br>
-In terms of personality, the twins were complete <i><b>opposites</b></i>, one being outgoing and the other reserved.`
               }
             ],
             [
@@ -179,19 +153,6 @@ Understanding the <i><b>origin</b></i> of a word can provide insight into its me
                 text: `Eg: <br><br>
 The <i><b>outcome</b></i> of the negotiation was a mutually beneficial agreement for both parties.<br><br>
 The success of a project often depends on the effort put into achieving a favorable <i><b>outcome</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'passage'
-              },
-              '- the act of moving from one state or place to the next',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The <i><b>passage</b></i> from childhood to adulthood is marked by significant changes and growth.<br><br>
-The ship navigated through a narrow <i><b>passage</b></i> between two cliffs, leading to a hidden cove.`
               }
             ],
             [
@@ -247,7 +208,7 @@ The surgical team worked tirelessly to <i><b>perform</b></i> a life-saving opera
                 type: 'html',
                 text: `Eg: <br><br>
 The thrill-seekers decided to <i><b>plunge</b></i> into the icy waters of the mountain lake.<br><br>
-The stock market experienced a sudden <i><b>plunge</b></i> in value, causing concern among investors.`
+The village girls are not afraid to <i><b>plunge</b></i> into the well. They are great swimmers.`
               }
             ],
             [
@@ -268,7 +229,7 @@ The bird of prey is a skilled <i><b>predator</b></i>, soaring high in the sky in
                 type: 'title',
                 text: 'predict'
               },
-              '- make a guess about what will happen in the future',
+              '- say what happens in the future',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -281,7 +242,7 @@ Experts try to <i><b>predict</b></i> the economic trends based on various factor
                 type: 'title',
                 text: 'prevent'
               },
-              '- keep from happening or arising; make impossible',
+              '- stop something from happening',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -298,7 +259,7 @@ The security measures in place are designed to <i><b>prevent</b></i> unauthorize
                 type: 'title',
                 text: 'primary'
               },
-              '- of first rank or importance or value',
+              '- important',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -311,7 +272,7 @@ The <i><b>primary</b></i> goal of the project was to reduce carbon emissions and
                 type: 'title',
                 text: 'privilege'
               },
-              '- a special advantage or benefit not enjoyed by all',
+              '- an advantage enjoyed by somebody',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -324,7 +285,7 @@ Being able to travel and explore new cultures is a <i><b>privilege</b></i> that 
                 type: 'title',
                 text: 'process'
               },
-              '- a particular course of action intended to achieve a result',
+              '- a step by step action',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -337,7 +298,7 @@ Cooking a meal requires following a specific <i><b>process</b></i> of chopping, 
                 type: 'title',
                 text: 'rare'
               },
-              '- especially good, remarkable, or superlative',
+              '- difficult to find',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -348,22 +309,9 @@ A <i><b>rare</b></i> astronomical event, like a solar eclipse, is a captivating 
             [
               {
                 type: 'title',
-                text: 'rate'
-              },
-              '- a quantity considered as a proportion of another quantity',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The interest <i><b>rate</b></i> on the loan determines how much you'll pay in addition to the principal amount.<br><br>
-The crime <i><b>rate</b></i> in the city has decreased significantly over the past decade.`
-              }
-            ],
-            [
-              {
-                type: 'title',
                 text: 'recall'
               },
-              '- bring to mind',
+              '- think about a past event',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -576,20 +524,13 @@ It's important not to <i><b>spoil</b></i> children with excessive gifts, as it m
       },
       data: [
         `The refugee's life was filled with *misery* as they struggled to find safety and stability.
-The morning dew added a touch of *moisture* to the grass, glistening in the sunlight.
+The *moisture* on the window indicated a humid day.
 The artist spent weeks working on a stunning *mural* that covered an entire wall of the art gallery.
-The magician's tricks never failed to *mystify* the audience, leaving them in awe.
+The magician made the rabbit disappear. It *mystified* the audience.
 The sweet *nectar* of the flowers attracted a variety of colorful butterflies.`,
-
-        `The *nursery* was decorated with soft pastel colors, creating a peaceful atmosphere for the baby.
-Birdwatchers often spend hours in the park to *observe* different bird species in their natural habitat.
-In the boxing ring, the determined fighter faced a formidable *opponent*.
-The restaurant was located on the *opposite* side of the street, requiring a brief walk to reach it.
-Surviving a plane crash in the wilderness was a harrowing *ordeal* for the passengers.`,
 
         `The *origin* of the ancient artifact was traced back to a lost civilization.
 The *outcome* of the negotiation was a mutually beneficial agreement for both parties.
-The *passage* from childhood to adulthood is marked by significant changes and growth.
 Reading is a beloved *pastime* for many people, allowing them to escape into different worlds.
 The music conductor signaled for a brief *pause* before the orchestra continued playing.`,
 
@@ -602,8 +543,7 @@ Regular exercise and a healthy diet can help *prevent* many common health issues
         `Education is a *primary* focus in a child's development, setting the foundation for future success.
 Having access to quality education is a *privilege* that not everyone in the world enjoys.
 The manufacturing *process* involves multiple stages, from design to production.
-The *rare* gemstone found in the cave was one of the most valuable discoveries in years.
-The interest *rate* on the loan determines how much you'll pay in addition to the principal amount.`,
+The *rare* gemstone found in the cave was one of the most valuable discoveries in years.`,
 
         `She struggled to *recall* the name of the book she read years ago but could remember the plot.
 In times of need, you can *rely* on your close friends to provide support.
@@ -621,7 +561,11 @@ The strong wind caused the leaves to *scatter* in all directions, creating a col
 Some people have *sensitive* skin that may react to certain skincare products.
 The traffic light changed from red to green, giving the *signal* for the cars to proceed.
 The scientist worked tirelessly to find a *solution* to the environmental problem.
-Leaving food out in the sun can cause it to *spoil* quickly, making it unsafe to eat.`
+Leaving food out in the sun can cause it to *spoil* quickly, making it unsafe to eat.`,
+
+        `Birdwatchers often spend hours in the park to *observe* different bird species in their natural habitat.
+In the boxing ring, the determined fighter faced a formidable *opponent*.
+Surviving a plane crash in the wilderness was a harrowing *ordeal* for the passengers.`
       ]
     },
     {
@@ -634,29 +578,25 @@ Wetness caused by water | Moisture
 A painting that is applied to a wall surface | Mural
 Be puzzling or bewildering to | Mystify
 A sweet liquid secretion that is attractive to pollinators | Nectar
-A child's room for a baby | Nursery
 Watch attentively | Observe
-Someone who offers resistance | Opponent
-Being directly across from each other | Opposite
+The opposite team or a person with whom we compete  | Opponent
 A severe or trying experience | Ordeal`,
 
         `The place where something begins | Origin
 Something that results | Outcome
-The act of moving from one state or place to the next | Passage
 An interest or pursuit that someone pursues regularly | Pastime
 Cease an action temporarily | Pause
 Get done | Perform
 Dash violently or with great speed or impetuosity | Plunge
 Any animal that lives by preying on other animals | Predator
-Make a guess about what will happen in the future | Predict
-Keep from happening or arising; make impossible | Prevent`,
+Say what happens in the future. | Predict
+Stop something from happening | Prevent`,
 
-        `Of first rank or importance or value | Primary
-A special advantage or benefit not enjoyed by all | Privilege
-A particular course of action intended to achieve a result | Process
-Especially good, remarkable, or superlative | Rare
-A quantity considered as a proportion of another quantity | Rate
-Bring to mind | Recall
+        `Important | Primary
+An advantage enjoyed by somebody  | Privilege
+A step by step action | Process
+Difficult to find | Rare
+Think about a past event | Recall
 Have confidence or faith in | Rely
 Make or write a comment on | Remark
 Someone who lives at a particular place for a long period | Resident
