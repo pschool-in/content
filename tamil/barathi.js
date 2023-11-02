@@ -62,6 +62,7 @@ export default {
       data: {
         title: `அச்சமில்லை`,
         type: 'poem',
+        poemOverflowOffset: 75,
         text: [
           `அச்சமில்லை அச்சமில்லை அச்சமென்ப தில்லையே
 இச்சகத்து ளோரெலாம் எதிர்த்து நின்ற போதினும்,
@@ -274,6 +275,7 @@ export default {
       data: {
         title: `நல்லதோர் வீணை`,
         type: 'poem',
+        poemOverflowOffset: 100,
         text: [
           `நல்லதோர் வீணைசெய்தே-அதை
 நலங்கெடப் புழுதியில் எறிவதுண்டோ?

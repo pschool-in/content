@@ -112,7 +112,7 @@ export default {
         isPractice: false,
         words: [
           {
-            word: 'சென்னை ',
+            word: 'சென்னை',
             x: 210,
             y: 10
           },
@@ -127,12 +127,12 @@ export default {
             y: 200
           },
           {
-            word: 'கோயம்புத்தூர்  ',
+            word: 'கோயம்புத்தூர்',
             x: 20,
             y: 180
           },
           {
-            word: 'சேலம் ',
+            word: 'சேலம்',
             x: 100,
             y: 130
           }
@@ -162,12 +162,12 @@ export default {
             y: 230
           },
           {
-            word: 'ராமேஸ்வரம் ',
+            word: 'ராமேஸ்வரம்',
             x: 180,
             y: 300
           },
           {
-            word: 'கன்னியாகுமரி  ',
+            word: 'கன்னியாகுமரி',
             x: 80,
             y: 380
           },
@@ -259,7 +259,7 @@ export default {
             marker: [0, 0, 0, 4]
           },
           {
-            word: 'திருச்சி ',
+            word: 'திருச்சி',
             marker: [0, 4, 3, 4]
           },
           {
@@ -275,7 +275,7 @@ export default {
             marker: [4, 0, 6, 2]
           },
           {
-            word: 'நொய்யல் ',
+            word: 'நொய்யல்',
             marker: [7, 4, 4, 7]
           },
           {
