@@ -46,7 +46,7 @@ export default {
               '- the right to enter',
               {
                 type: 'html',
-                text: 'Eg: <br><br> The keycard provides <i><b>access</b></i> to the secure building.<br><br> The hiker had to find a way to gain <i><b>access</b></i> to the remote mountain region.'
+                text: 'Eg: <br><br> I need to <i><b>access</b></i> my email account to check for important messages.<br><br> The hiker had to find a way to gain <i><b>access</b></i> to the remote mountain region.'
               }
             ],
             [
@@ -172,7 +172,7 @@ export default {
                 type: 'title',
                 text: 'anxious'
               },
-              '- causing or fraught with or showing nervousness',
+              '- showing nervousness',
               {
                 type: 'html',
                 text: 'Eg: <br><br> Waiting for exam results can be an <i><b>anxious</b></i> time for students.<br><br> The upcoming presentation made her feel <i><b>anxious</b></i>.'
@@ -257,7 +257,7 @@ export default {
                 type: 'title',
                 text: 'barren'
               },
-              '- completely wanting or lacking',
+              '- completely lacking',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The desert landscape is <i><b>barren</b></i>, with little vegetation.<br><br> The <i><b>barren</b></i> field needed fertile soil for crops to grow.'
@@ -305,7 +305,7 @@ export default {
                 type: 'title',
                 text: 'boisterous'
               },
-              '- marked by exuberance and high spirits',
+              '- marked by high spirits',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The children were <i><b>boisterous</b></i> at the playground, laughing and playing games.<br><br> The party became <i><b>boisterous</b></i> as the night went on.'
@@ -316,7 +316,7 @@ export default {
                 type: 'title',
                 text: 'boycott'
               },
-              '- refusal to have commercial dealings with some organization',
+              '- intentionally and collectively refrain from supporting',
               {
                 type: 'html',
                 text: "Eg: <br><br> The consumers decided to <i><b>boycott</b></i> the company's products due to ethical concerns.<br><br> The <i><b>boycott</b></i> of the event was a statement against unfair practices."
@@ -362,34 +362,12 @@ export default {
             [
               {
                 type: 'title',
-                text: 'capital'
-              },
-              '- a large alphabetic character used in writing or printing',
-              {
-                type: 'html',
-                text: "Eg: <br><br> In the sentence, the word 'Apple' begins with a <i><b>capital</b></i> 'A'.<br><br> When writing a name, it's common to use a <i><b>capital</b></i> letter for the first letter."
-              }
-            ],
-            [
-              {
-                type: 'title',
                 text: 'chronological'
               },
               '- relating to or arranged according to the order of time',
               {
                 type: 'html',
                 text: "Eg: <br><br> The history book presents events in a <i><b>chronological</b></i> order, starting with the earliest.<br><br> The timeline provides a <i><b>chronological</b></i> view of the project's milestones."
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'civic'
-              },
-              '- of or relating or belonging to a city',
-              {
-                type: 'html',
-                text: "Eg: <br><br> <i><b>Civic</b></i> organizations often work to improve the well-being of the local community.<br><br> The mayor's duties include addressing <i><b>civic</b></i> matters and city development."
               }
             ]
           ]
@@ -401,7 +379,7 @@ export default {
                 type: 'title',
                 text: 'clarity'
               },
-              '- the quality of being coherent and easily understood',
+              '- the quality of being easily understood',
               {
                 type: 'html',
                 text: "Eg: <br><br> The instructor's explanation provided <i><b>clarity</b></i> on the complex topic.<br><br> A good presentation should strive for <i><b>clarity</b></i> to ensure the audience understands the content."
@@ -508,7 +486,7 @@ export default {
                 type: 'title',
                 text: 'consequence'
               },
-              '- a phenomenon that is caused by some previous phenomenon',
+              '- result of a specific cause or action',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The <i><b>consequence</b></i> of not studying for the exam was a low grade.<br><br> Environmental pollution has serious <i><b>consequences</b></i> for our planet.'
@@ -541,7 +519,7 @@ export default {
                 type: 'title',
                 text: 'constant'
               },
-              '- uninterrupted in time and indefinitely long continuing',
+              '- something that remains consistent and unvarying over time',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The sound of the waves crashing is a <i><b>constant</b></i> presence at the beach.<br><br> His <i><b>constant</b></i> dedication to his work led to success.'
@@ -578,7 +556,7 @@ export default {
                 type: 'title',
                 text: 'continuous'
               },
-              '- moving in time or space without interruption',
+              '- moving without interruption',
               {
                 type: 'html',
                 text: "Eg: <br><br> The river flows <i><b>continuous</b></i> from the mountains to the sea.<br><br> The film's <i><b>continuous</b></i> action kept the audience engaged."
@@ -637,7 +615,7 @@ export default {
                 type: 'title',
                 text: 'cultivate'
               },
-              '- adapt something wild to the environment',
+              '- to develop or nurture',
               {
                 type: 'html',
                 text: 'Eg: <br><br> Farmers <i><b>cultivate</b></i> crops to ensure a successful harvest.<br><br> Gardeners <i><b>cultivate</b></i> plants to thrive in specific conditions.'
@@ -692,7 +670,7 @@ export default {
       data: [
         `When the ship was sinking, the crew had to *abandon* it and escape in lifeboats.
 The forest is home to an *abundant* variety of wildlife.
-The keycard provides *access* to the secure building.
+I need to *access* my email account to check for important messages.
 The spacious hall can *accommodate* a large audience for events.
 Over the years, he managed to *accumulate* a valuable collection of antique books.`,
 
@@ -723,11 +701,9 @@ The children were *boisterous* at the playground, laughing and playing games.`,
         `The consumers decided to *boycott* the company's products due to ethical concerns.
 The heavy backpack was a significant *burden* for the hiker.
 The political *campaign* included rallies, speeches, and advertisements to win votes.
-The factory has the *capacity* to produce thousands of units in a day.
-In the sentence, the word 'Apple' begins with a *capital* 'A'.`,
+The factory has the *capacity* to produce thousands of units in a day.`,
 
         `The history book presents events in a *chronological* order, starting with the earliest.
-Civic organizations often work to improve the well-being of the local community.
 The instructor's explanation provided *clarity* on the complex topic.
 The two companies decided to *collaborate* on a research project.
 The two cars *collided* at the intersection, causing significant damage.`,
@@ -777,7 +753,7 @@ A strong drive for success | AMBITION`,
         `More than enough in size or scope or capacity | AMPLE
 Extreme distress of body or mind | ANGUISH
 Regard something as probable or likely | ANTICIPATE
-Causing or fraught with or showing nervousness | ANXIOUS
+Showing nervousness | ANXIOUS
 Clothing in general | APPAREL
 Earnest or urgent request | APPEAL
 In fear or dread of possible evil or harm | APPREHENSIVE
@@ -785,19 +761,17 @@ Lacking sufficient water or rainfall | ARID
 Having or showing feelings of unwarranted importance | ARROGANT
 An overwhelming feeling of wonder or admiration | AWE`,
 
-        `Completely wanting or lacking | BARREN
+        `Completely lacking | BARREN
 A fire that can be seen from a distance | BEACON
 Promoting or enhancing well|being | BENEFICIAL
 An embarrassing mistake | BLUNDER
-Marked by exuberance and high spirits | BOISTEROUS
-Refusal to have commercial dealings with some organization | BOYCOTT
+Marked by high spirits | BOISTEROUS
+Intentionally and collectively refrain from supporting | BOYCOTT
 Weight to be carried or borne | BURDEN
 Related operations aimed at achieving a particular goal | CAMPAIGN
-A large alphabetic character used in writing or printing | CAPITAL
 Relating to or arranged according to the order of time | CHRONOLOGICAL`,
 
-        `Of or relating or belonging to a city | CIVIC
-The quality of being coherent and easily understood | CLARITY
+        `The quality of being easily understood | CLARITY
 Work together on a common enterprise or project | COLLABORATE
 Crash together with violent impact | COLLIDE
 Present as worthy of regard, kindness, or confidence | COMMEND
@@ -806,20 +780,20 @@ Closely and firmly united or packed together | COMPACT
 Steadiness of mind under stress | COMPOSURE
 Expressing much in few words | CONCISE
 Give an affirmative reply to; respond favorably to | CONSENT
-A phenomenon that is caused by some previous phenomenon | CONSEQUENCE`,
+Result of a specific cause or action | CONSEQUENCE`,
 
         `Keep in safety and protect from harm, loss, or destruction | CONSERVE
 Obvious to the eye or mind | CONSPICUOUS
-Uninterrupted in time and indefinitely long continuing | CONSTANT
+Something that remains consistent and unvarying over time | CONSTANT
 Make impure | CONTAMINATE
 The set of facts or circumstances that surround a situation | CONTEXT
-Moving in time or space without interruption | CONTINUOUS
+Moving without interruption | CONTINUOUS
 A dispute where there is strong disagreement | CONTROVERSY
 Suited to your comfort or purpose or needs | CONVENIENT
 Come to terms with | COPE
 Politely warm and friendly | CORDIAL`,
 
-        `Adapt something wild to the environment | CULTIVATE
+        `To develop or nurture | CULTIVATE
 Increasing by successive addition | CUMULATIVE
 State emphatically and authoritatively | DECLARE
 A heavy rain | DELUGE`
@@ -950,7 +924,7 @@ A heavy rain | DELUGE`
                 type: 'title',
                 text: 'intimidate'
               },
-              '- compel or deter by or as if by threats',
+              '- to make another person afraid, anxious, or uneasy',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The aggressive behavior of the bullies was meant to <i><b>intimidate</b></i> the students.<br><br> A peaceful demonstration should not be used to <i><b>intimidate</b></i> others.'
@@ -1046,7 +1020,7 @@ A heavy rain | DELUGE`
                 type: 'title',
                 text: 'linger'
               },
-              '- remain present although waning or gradually dying',
+              '- remain present for an extended period of time',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The aroma of fresh-baked bread continued to <i><b>linger</b></i> in the kitchen.<br><br> Memories of that day still <i><b>linger</b></i> in my mind.'
@@ -1057,7 +1031,7 @@ A heavy rain | DELUGE`
                 type: 'title',
                 text: 'literal'
               },
-              '- limited to the explicit meaning of a word or text',
+              '- most straightforward and exact meaning of a word, phrase, or expression',
               {
                 type: 'html',
                 text: "Eg: <br><br> The phrase 'take a seat' is a <i><b>literal</b></i> instruction to sit down.<br><br> His interpretation of the poem was too <i><b>literal</b></i> and missed its deeper meaning."
@@ -1197,7 +1171,7 @@ A heavy rain | DELUGE`
                 type: 'title',
                 text: 'mimic'
               },
-              '- imitate, especially for satirical effect',
+              '- imitate someone',
               {
                 type: 'html',
                 text: "Eg: <br><br> The comedian could <i><b>mimic</b></i> famous personalities with incredible accuracy.<br><br> He decided to <i><b>mimic</b></i> the president's speech for comedic effect."
@@ -1245,7 +1219,7 @@ A heavy rain | DELUGE`
                 type: 'title',
                 text: 'obstacle'
               },
-              '- something that stands in the way and must be surmounted',
+              '- something that stands in the way and must be overcome',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The lack of funds was a significant <i><b>obstacle</b></i> to completing the project.<br><br> He viewed every challenge as an <i><b>obstacle</b></i> to overcome.'
@@ -1517,7 +1491,7 @@ Incapable of being avoided or prevented | INEVITABLE
 A power to affect persons or events | INFLUENCE
 Showing inventiveness and skill | INGENIOUS
 The act of starting something for the first time | INNOVATION
-Compel or deter by or as if by threats | INTIMIDATE`,
+To make another person afraid, anxious, or uneasy | INTIMIDATE`,
 
         `Full of or showing high-spirited merriment | JOVIAL
 A special way of doing something | KNACK
@@ -1526,8 +1500,8 @@ The act of making or enacting laws | LEGISLATION
 Time available for ease and relaxation | LEISURE
 Grant freedom to; free from confinement | LIBERATE
 Similarity in appearance or nature between persons or things | LIKENESS
-Remain present although waning or gradually dying | LINGER
-Limited to the explicit meaning of a word or text | LITERAL
+Remain present for an extended period of time | LINGER
+Most straightforward and exact meaning of a word, phrase, or expression | LITERAL
 Dislike intensely; feel disgust toward | LOATHE`,
 
         `Provoke someone to do something through persuasion | LURE
@@ -1541,11 +1515,11 @@ Deficient in amount or quality or extent | MEAGER
 Being nothing more than specified | MERE
 The movement of persons from one locality to another | MIGRATION`,
 
-        `Imitate, especially for satirical effect | MIMIC
+        `Imitate someone | MIMIC
 A unit of time equal to 60 seconds or 1/60th of an hour | MINUTE
 Sounded or spoken in a tone unvarying in pitch | MONOTONOUS
 Discuss the terms of an arrangement | NEGOTIATE
-Something that stands in the way and must be surmounted | OBSTACLE
+Something that stands in the way and must be overcome | OBSTACLE
 Knowing, seeing, or understanding everything | OMNISCIENT
 The beginning or early stages | ONSET
 A person disposed to take a favorable view of things | OPTIMIST

@@ -102,7 +102,7 @@ export default {
                 type: 'title',
                 text: 'diligent'
               },
-              '- quietly and steadily persevering in detail or exactness',
+              `- paying close attention to detail and being meticulous in one's work`,
               {
                 type: 'html',
                 text: 'Eg: <br><br> The <i><b>diligent</b></i> student consistently scored top grades.<br><br> Her <i><b>diligent</b></i> work on the project paid off with a successful outcome.'
@@ -128,7 +128,7 @@ export default {
                 type: 'title',
                 text: 'discretion'
               },
-              '- power of making choices unconstrained by external agencies',
+              `- ability to make choices and decisions based on one's own judgment`,
               {
                 type: 'html',
                 text: "Eg: <br><br> It's at the manager's <i><b>discretion</b></i> to grant permission for the project.<br><br> She used her <i><b>discretion</b></i> in handling the sensitive information."
@@ -268,7 +268,7 @@ export default {
                 type: 'title',
                 text: 'effect'
               },
-              '- a phenomenon that is caused by some previous phenomenon',
+              '- result or outcome of a specific cause or action',
               {
                 type: 'html',
                 text: "Eg: <br><br> The medicine had a positive <i><b>effect</b></i> on the patient's health.<br><br> The new policy had a significant <i><b>effect</b></i> on the economy."
@@ -506,17 +506,6 @@ export default {
             [
               {
                 type: 'title',
-                text: 'fuse'
-              },
-              '- any igniter used to initiate the burning of a propellant',
-              {
-                type: 'html',
-                text: 'Eg: <br><br> The <i><b>fuse</b></i> of the firecracker was lit, and it burst into colorful flames.<br><br> A short <i><b>fuse</b></i> can be used to light a fireworks display.'
-              }
-            ],
-            [
-              {
-                type: 'title',
                 text: 'futile'
               },
               '- producing no result or effect',
@@ -658,7 +647,6 @@ Time management is a crucial *factor* in achieving productivity.
 The *former* president of the company will speak at the event.`,
 
         `Scientists need to *formulate* a hypothesis before conducting experiments.
-A short *fuse* can be used to light a fireworks display.
 Their efforts to repair the old car were *futile* as it couldn't be fixed.
 Solar panels can *generate* electricity from sunlight.
 Mystery is a popular *genre* in the world of literature.`,
@@ -682,9 +670,9 @@ A person who is frightened and in need of help | DESPERATE
 Become worse or disintegrate | DETERIORATE
 A conversation between two persons | DIALOGUE`,
 
-        `Quietly and steadily persevering in detail | DILIGENT
+        `Paying close attention to detail and being meticulous in one's work | DILIGENT
 Decrease in size, extent, or range | DIMINISH
-Power of making choices unconstrained by external agencies | DISCRETION
+Ability to make choices and decisions based on one's own judgment | DISCRETION
 A difference of opinion | DISSENT
 Pass into a solution | DISSOLVE
 Constituting a separate entity or part | DISTINCT
@@ -697,7 +685,7 @@ Forceful and extreme and rigorous | DRASTIC`,
 Inhabit or live in | DWELL
 The system of production and distribution and consumption | ECONOMY
 Suggestive of the supernatural; mysterious | EERIE
-A phenomenon that is caused by some previous phenomenon | EFFECT
+Result or outcome of a specific cause or action | EFFECT
 Being effective without wasting time, effort, or expense | EFFICIENT
 Marked by complexity and richness of detail | ELABORATE
 Qualified for or allowed or worthy of being chosen | ELIGIBLE
@@ -719,7 +707,6 @@ No longer in existence | EXTINCT`,
 Anything that contributes causally to a result | FACTOR
 The first of two or the first mentioned of two | FORMER
 Prepare according to instructions | FORMULATE
-Any igniter used to initiate the burning of a propellant | FUSE
 Producing no result or effect | FUTILE
 Bring into existence | GENERATE
 A kind of literary or artistic work | GENRE
@@ -780,7 +767,7 @@ Characterized by enmity or ill will | HOSTILE`
                 type: 'title',
                 text: 'prominent'
               },
-              '- conspicuous in position or importance',
+              '- something or someone that is well-known',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The Eiffel Tower is a <i><b>prominent</b></i> landmark in Paris.<br><br> She is a <i><b>prominent</b></i> figure in the field of science.'
@@ -1009,7 +996,7 @@ Characterized by enmity or ill will | HOSTILE`
                 type: 'title',
                 text: 'salvage'
               },
-              '- rescuing a ship or its crew from a shipwreck or a fire',
+              '- process of saving, recovering, or reclaiming something that has been damaged, lost, or considered unusable',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The brave coast guard crew worked to <i><b>salvage</b></i> the shipwreck survivors.<br><br> Their efforts helped to <i><b>salvage</b></i> valuable cargo from the burning ship.'
@@ -1445,7 +1432,7 @@ Oxygen is *vital* for sustaining life and supporting bodily functions.`
         `Preceding or in preparation for something more important | PRELIMINARY
 Characteristic of an earlier ancestral type | PRIMITIVE
 Status established in order of importance or urgency | PRIORITY
-Conspicuous in position or importance | PROMINENT
+Something or someone that is well-known| PROMINENT
 Cause to move forward with force | PROPEL
 Conduct legal proceedings against a defendant | PROSECUTE
 Make steady progress | PROSPER
@@ -1466,7 +1453,7 @@ Get or find back; recover the use of | RETRIEVE`,
 
         `Strict; allowing no deviation from a standard | RIGOROUS
 Living in or characteristic of farming or country life | RURAL
-Rescuing a ship or its crew from a shipwreck or a fire | SALVAGE
+Process of saving, recovering, or reclaiming something that has been damaged, lost, or considered unusable | SALVAGE
 A consecrated place where sacred objects are kept | SANCTUARY
 An action of an armed force that surrounds a fortified place | SIEGE
 Rich in implication | SIGNIFICANT
