@@ -9,19 +9,19 @@ export default {
       type: 'passage',
       data: {
         text: `# Herbs, Shrubs and Trees
-The plants that we see around us can be classified into herbs, shrubs or trees based on the height of the plant, the nature of the stem and based on the point of branching. The plants which are short with green and tender stems are catergorized as herbs.They may not have many branches. Trees are very tall with thick and hard stem. For trees the branching points appear higher up on the thick and hardened stem. Shrubs have moderate height with a hard stem but branching points appear at the base of the stem.
+The plants that we see around us can be classified into herbs, shrubs or trees based on the height of the plant, the nature of the stem and based on the point of branching. The plants that are short with green and tender stems are categorized as herbs. They may not have many branches. Trees are very tall with thick and hard stems. For trees, the branching points appear higher up on the thick and hardened stem. Shrubs have moderate height with a hard stem but branching points appear at the base of the stem.
 
 # Stem
-Stem supports a plant and bear leaves, branches, buds, flowers and fruits.Plants with weak stems that cannot stand upright but spread on the ground are called creepers, while those that take support and climb up are called climbers. Stem helps in upward movement of water. The water and minerals go to the leaves and other plant parts attached to the stem.
+Stem supports a plant and bears leaves, branches, buds, flowers and fruits. Plants with weak stems that cannot stand upright but spread on the ground are called creepers, while those that take support and climb up are called climbers. Stem helps in the upward movement of water. The water and minerals go to the leaves and other plant parts attached to the stem.
 
 # Leaf
-Leaves are attached to the stem by a structure called petiole. The broad green part of the leaf is called lamina. The lines on a leaf are called veins. The prominent line in the middle of the leaf is a midrib. The design made by the veins in a leaf is called the leaf venation. If the design is net like on both sides of the midrib then the venation is said to be reticulate. If the design is parallel to one another as in grass, then the venation is called parallel venation. Water comes out of eaves in the form of vapour by a process called transpiration. Leaves prepare their food in the presence of sunlight and a green coloured substance present in them. For this, they also use water and carbon dioxide. This process is called photosynthesis. Oxygen is given out in this process. The food prepared by leaves ultimately gets stored in different parts of plant.
+Leaves are attached to the stem by a structure called the petiole. The broad green part of the leaf is called the lamina. The lines on a leaf are called veins. The prominent line in the middle of the leaf is a midrib. The design made by the veins in a leaf is called the leaf venation. If the design is net-like on both sides of the midrib then the venation is said to be reticulate. If the design is parallel to one another as in grass, then the venation is called parallel venation. Water comes out of eaves in the form of vapor by a process called transpiration. Leaves prepare their food in the presence of sunlight and a green-coloured substance present in them. For this, they also use water and carbon dioxide. This process is called photosynthesis. Oxygen is given out in this process. The food prepared by leaves ultimately gets stored in different parts of the plant.
 
 # Root
-Roots act as an anchor that hold the plant firmly to the soil. Different types of plants have different structure for roots as well. The two main type of roots are tap root and fibrous root. In a tap root system the main root is called tap root and the smaller roots are called lateral roots. In fibrous root system the plant lacks a main root and the roots seem similar. These are called fibrous roots. Roots of some plants such as carrot, radish, sweet potato, turnip and tapioca are edible.
+Roots act as an anchor that holds the plant firmly to the soil. Different types of plants have different structures for roots as well. The two main types of roots are tap roots and fibrous roots. In a tap root system, the main root is called tap root and the smaller roots are called lateral roots. In a fibrous root system, the plant lacks a main root and the roots seem similar. These are called fibrous roots. Roots of some plants such as carrots, radishes, sweet potatoes, turnips and tapioca are edible.
 
 # Flower
-The most prominent and colourful part of a flower are called petals. The small leaf like structures that are seen on a flower are called sepals. The innermost part of a flower is called the pistil. Stamens usually surround the pistil. Pistil contains the ovary, style and stigma. The ovary contains ovules. `,
+The most prominent and colorful parts of a flower are called petals. The small leaf-like structures that are seen on a flower are called sepals. The innermost part of a flower is called the pistil. Stamens usually surround the pistil. The pistil contains the ovary, style and stigma. The ovary contains ovules. `,
         title: 'Getting to know plants'
       }
     },
@@ -35,7 +35,7 @@ The most prominent and colourful part of a flower are called petals. The small l
           dashWidth: 80
         },
         text: `The prominent line in the middle of the leaf is called *midrib*.
-If the venation is a netlike design in both sides of midrib, then it is called *reticulate* venation.
+If the venation is a netlike design on both sides of the midrib, then it is called *reticulate* venation.
 The main root of the plant is called *tap root*.
 The smaller roots seen on a plant is called *fibrous root*.`
       }
@@ -49,10 +49,10 @@ The smaller roots seen on a plant is called *fibrous root*.`
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `The process by which plants loose water - *transpiration*
-The process by which plants make food - *photosysnthesis*
-The part of leaf that attaches it to the stem - *petiole*
-The part of pistil that contains ovules - *ovary*
+        text: `The process by which plants lose water - *transpiration*
+The process by which plants make food - *photosynthesis*
+The part of the leaf that attaches it to the stem - *petiole*
+The part of the pistil that contains ovules - *ovary*
 The prominent line in the leaf - *midrib*`
       }
     },
@@ -116,8 +116,8 @@ Clove is an edible seed.`
       type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
-        text: `*Veins (lamina)* are branch out from the midrib.
-*Petiole (sepal)*joins the leaf to the main stem.
+        text: `*Veins (lamina)* branch out from the midrib.
+*Petiole (sepal)* joins the leaf to the main stem.
 *Stomata (leaf)* are used to exchange gases.
 *Chlorophyll (anthocyanin)* is the green pigment in plants.
 The lines on a leaf are called *veins (lamina)*. 
@@ -139,7 +139,7 @@ The design made by the veins in a leaf is called the leaf *venation (veination)*
           },
           {
             qText:
-              'What are plants with weak stem that spread on the ground called?',
+              'What are plants with a weak stem that spread on the ground called?',
             options: `Creepers, Climbers, Shrubs`
           },
           {
@@ -172,7 +172,7 @@ The broad green part of the leaf is called *lamina*.
 The lines on a leaf are called *veins*. 
 The prominent line in the middle of the leaf is a *midrib*.
 The design made by the veins in a leaf is called the leaf *venation*.
-Water comes out of eaves in the form of vapour by a process called *transpiration*.`
+Water comes out of eaves in the form of vapor by a process called *transpiration*.`
       }
     },
     {
@@ -186,7 +186,7 @@ Water comes out of eaves in the form of vapour by a process called *transpiratio
           {
             word: 'TRANSPIRATION',
             display: 'T___S________',
-            hint: 'The process by which plants loose water'
+            hint: 'The process by which plants lose water'
           },
           {
             word: 'PHOTOSYNTHESIS',
@@ -196,7 +196,7 @@ Water comes out of eaves in the form of vapour by a process called *transpiratio
           {
             word: 'PETIOLE',
             display: 'P______',
-            hint: 'The part of leaf that attaches it to the stem'
+            hint: 'The part of the leaf that attaches it to the stem'
           },
           {
             word: 'STEM',
