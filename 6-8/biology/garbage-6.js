@@ -9,24 +9,24 @@ export default {
       type: 'passage',
       data: {
         text: `# Dealing with garbage
-Safai karamcharis collect the garbage in trucks and take it to a low lying open area called landfill. The part of the garbage that can be reused is separated out from the one that cannot be used as such. The non-useful component is separated out. It is then spread over the landfill and covered with a layer of soil. Once the landfill is completely full, it is converted to a park or playground. Useful components are used to make compost.
+Safai karamcharis collect the garbage in trucks and takes it to a low-lying open area called a landfill. The part of the garbage that can be reused is separated out from the one that cannot be used as such. The non-useful component is separated out. It is then spread over the landfill and covered with a layer of soil. Once the landfill is completely full, it is converted into a park or playground. Useful components are used to make compost.
 
 # Vermicomposting
 The method of preparing compost with the help of redworms is called vermicomposting.
 
 # Steps in vermicomposting
-1. Spread a net or sand at bottom of a pit.
+1. Spread a net or sand at the bottom of a pit.
 2. Spread vegetable waste.
 3. Sprinkle some water.
 4. Add redworms.
-5. Cover loosely with gunny bag, old cloth or grass.
+5. Cover loosely with a gunny bag, old cloth or grass.
 6. Vermicompost ready within 3-4 weeks.
 
 # Redworms
-Redworms do not have teeth. They have a structure called gizzard, which helps them in grinding their food. Powdered egg shells or sea shells could be mixed with the wastes. This would help redworms in grinding their food. A redworm can eat food equal to its own weight, in a day. Redworms do not survive in very hot or very cold surroundings. They also need moisture around them. If you take good care of your worms, in a month’s time their number will double.
+Redworms do not have teeth. They have a structure called a gizzard, which helps them in grinding their food. Powdered egg shells or sea shells could be mixed with the waste. This would help redworms in grinding their food. A redworm can eat food equal to its own weight, in a day. Redworms do not survive in very hot or very cold surroundings. They also need moisture around them. If you take good care of your worms, in a month's time their number will double.
 
 # Think and Throw
-The garbage can be sorted before it is disposed off. Things that can be recycled like paper and things that can be reused needs to be separated out to reduce the bulk of garbage.
+The garbage can be sorted before it is disposed off. Things that can be recycled like paper and things that can be reused need to be separated out to reduce the bulk of garbage.
 
 # Recycling of Paper
 Old newspapers, magazines, used envelopes, notebooks and any other paper materials can be recycled to obtain useful products. The paper can be torn, made into a paste by submerging in water for a day and then spread on wire mesh and dried in the sun to form recycled paper.
@@ -46,8 +46,8 @@ Some plastics can be recycled but not all. Consuming food packed in reused plast
           dashWidth: 80
         },
         text: `*Landfill* is an area where the garbage collected from a city or town is dumped. 
-The area  used as a landfill is later converted into a *park*.
-Converting plant and animal waste including that from kitchen, into manure, is called *composting*.
+The area used as a landfill is later converted into a *park*.
+Converting plant and animal waste including that from the kitchen, into manure, is called *composting*.
 The method of making compost from kitchen garbage using redworms is called *vermicomposting*.`
       }
     },
@@ -68,7 +68,7 @@ Converting plant and animal waste into manure is called *composting (vermicompos
       label: 'Yes or No',
       type: 'classifySentence',
       data: {
-        title: 'Can the suggested method reduce use of plastic?',
+        title: 'Can the suggested method reduce the use of plastic?',
         types: [
           {
             name: 'Yes',
@@ -80,7 +80,7 @@ Using tiffin and bottles made of steel.`
             name: 'No',
             text: `Using plastic containers to store food.
 Using plastic plates at a large party.
-Using plastic carry bags to dispose waste.`
+Using plastic carry bags to dispose of waste.`
           }
         ]
       }
@@ -98,11 +98,11 @@ Using plastic carry bags to dispose waste.`
 Cardboards
 Backpacks
 Batteries
-Aluminium cans`
+Aluminum cans`
           },
           {
             name: 'Reuse',
-            text: `Jute carrybags
+            text: `Jute carry bags
 Handkerchief
 Steel mugs
 Cotton wipes
@@ -144,7 +144,7 @@ Plastics are not a hazard to health.`
         },
         text: `Process by which plant and animals waste is converted to manure - *Composting*
 Structure that earthworms used to grind food - *Gizzard*
-Low lying open area uesd to dump garbage - *Landfill*
+Low-lying open area used to dump garbage - *Landfill*
 Earthworm used in vermicomposting -*Redworm*`
       }
     },
@@ -153,7 +153,7 @@ Earthworm used in vermicomposting -*Redworm*`
       type: 'sorting',
       data: {
         title: 'Arrange the steps in vermicomposting in correct order',
-        text: 'Spread a net at bottom of a pit, Spread vegetable waste, Sprinkle some water, Add redworms, Cover loosely, Leave for 3-4 weeks.'
+        text: 'Spread a net at the bottom of a pit, Spread vegetable waste, Sprinkle some water, Add redworms, Cover loosely, Leave for 3-4 weeks'
       },
       id: 'sorting'
     },
@@ -161,8 +161,8 @@ Earthworm used in vermicomposting -*Redworm*`
       label: 'Steps in recycling paper',
       type: 'sorting',
       data: {
-        title: 'Arrange the steps in recycling paper in correct order.',
-        text: 'Tear into bits, Submerge overnight in water, Pound to thick paste, Spread of wire mesh, Even it out, Wait till water drains, Remove from mesh, Dry in sunlight.'
+        title: 'Arrange the steps in recycling paper in the correct order.',
+        text: 'Tear into bits, Submerge overnight in water, Pound to thick paste, Spread of wire mesh, Even it out, Wait till water drains, Remove from mesh, Dry in sunlight'
       },
       id: 'sorting-2'
     },
@@ -187,11 +187,11 @@ Earthworm used in vermicomposting -*Redworm*`
           },
           {
             qText: 'Which of the following is the better alternative?',
-            options: `Using steel tiffin boxes and water bottles, Using Plastic containers and botteles.`
+            options: `Using steel tiffin boxes and water bottles, Using Plastic containers and bottles.`
           },
           {
             qText: 'Which of the following is the better alternative?',
-            options: `Using cotton bags to store vegetables, Using plastics bags to store vegetbles.`
+            options: `Using cotton bags to store vegetables, Using plastic bags to store vegetables.`
           }
         ]
       }
@@ -212,7 +212,7 @@ Earthworm used in vermicomposting -*Redworm*`
             options: `Use to make compost, Dumped in landfill, Disposed in water bodies.`
           },
           {
-            qText: 'What to plastics give out on burning?',
+            qText: 'What do plastics give out on burning?',
             options: `Harmful gases, Oxygen`
           },
           {

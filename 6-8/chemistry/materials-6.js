@@ -9,12 +9,12 @@ export default {
       type: 'passage',
       data: {
         text: `# Objects Around us.
-If we take a look around us we may find a large variety of objects. These objects are made up from a variety of materials. A given material could be used to make a large number of objects. It is also possible that a an object could be made of a single material or of many different types of materials. These materials may be glass, metal, plastics, wood, cotton, paper, mud or soil.
+If we take a look around us we may find a large variety of objects. These objects are made up of a variety of materials. A given material could be used to make a large number of objects. It is also possible that an object could be made of a single material or of many different types of materials. These materials may be glass, metal, plastics, wood, cotton, paper, mud or soil.
 # Properties of Materials.
-1. Appearance: Some materials have lustre like metals and are shiny in appearance while some are dull.
-2. Hardness: Materials that are easily compressed are called soft while others which are difficult to compress are called hard.
+1. Appearance: Some materials have luster-like metals and are shiny in appearance while some are dull.
+2. Hardness: Materials that are easily compressed are called soft while others that are difficult to compress are called hard.
 3. Solubility: Some materials readily dissolve in water. These are said to be soluble. Other materials that do not mix with water are said to be insoluble.
-4. Float or Sink: Some materials float on the surface of water while some others sink to the bottom.
+4. Float or Sink: Some materials float on the surface of the water while others sink to the bottom.
 5. Transparency: Some materials such as glass, are transparent and some others such as wood and metals are opaque. The materials through which objects can be seen, but not clearly, are known as translucent.
 Materials are grouped together based on similarities and differences in their properties. Things are grouped together for convenience and to study their properties.`,
         title: 'Sorting Materials into Groups'
@@ -33,7 +33,7 @@ Materials are grouped together based on similarities and differences in their pr
 Diamond is *hard* but chalk is *soft*.
 Sugar is *soluble* in water while oil is *insoluble*.
 Glass is *transparent* but wood is *opaque*.
-Leaf *floats* on the surface of water while a coin *sinks* to the bottom.`
+Leaf *floats* on the surface of the water while a coin *sinks* to the bottom.`
       }
     },
     {
@@ -45,7 +45,7 @@ Leaf *floats* on the surface of water while a coin *sinks* to the bottom.`
         text: `Materials that are easily compressed are called *soft (hard)* while others which are difficult to compress are called *hard (soft)*.
 Some materials readily dissolve in water. These are said to be *soluble (insoluble)*. 
 Materials that do not mix with water are said to be *insoluble (soluble)*.
-Some materials such as glass, are *transparent (transclusent)* and some others such as wood and metals are *opaque (transparent)*. 
+Some materials such as glass, are *transparent (translucent)* and some others such as wood and metals are *opaque (transparent)*. 
 The materials through which objects can be seen, but not clearly, are known as *translucent (trasparent)*.`
       }
     },
@@ -107,14 +107,14 @@ Paper`
           {
             name: 'True',
             text: `Chalk dissolves in water 
-Sand settles down in water
+Sand settles down in the water
 Vinegar dissolves in water.
 A piece of wood floats on water.`
           },
           {
             name: 'False',
             text: ` Stone is transparent, while glass is opaque 
-A notebook has lustre while eraser does not.
+A notebook has luster while an eraser does not.
 Sugar does not dissolve in water.
 Oil mixes with water.`
           }
@@ -153,7 +153,7 @@ Sand, Aluminium, Iron, Copper, Silver`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the given materials  based on if they float or sink in water.',
+          'Classify the given materials based on whether they float or sink in water.',
         types: [
           {
             name: 'Float',
@@ -205,7 +205,7 @@ Sawdust`
         types: [
           {
             name: 'Round',
-            text: `Basket ball
+            text: `Basketball
 Orange
 Globe
 Apple`
@@ -245,7 +245,7 @@ Matchbox`
           },
           {
             qText:
-              'Which of the following material is not  normally used in making of a pen?',
+              'Which of the following materials is not normally used in making a pen?',
             options: `Wood, Plastic, Metal`
           },
           {
