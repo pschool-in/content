@@ -3,6 +3,7 @@ export default {
   id: 'word-meaning-3',
   lockAfter: 2,
   list: [
+    /*
     {
       id: 'meanings',
       type: 'slides2',
@@ -125,6 +126,7 @@ export default {
         }
       ]
     },
+    */
     // ref: https://www.vocabulary.com sentences taken from chatGPT
     {
       id: 'meanings',

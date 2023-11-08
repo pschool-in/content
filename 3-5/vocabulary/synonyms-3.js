@@ -8,8 +8,8 @@ bag, sack
 bravery, courage
 grasp, absorb
 enlarge, grow
-honest, trustworthy
-important, essential`,
+honest, trustworthy`,
+      //important, essential
       `need, necessity
 opportunity, chance
 question, query

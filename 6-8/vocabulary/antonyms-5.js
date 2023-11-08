@@ -70,7 +70,7 @@ militant, pacifist`,
 coarse, fine
 foe, friend
 immaculate, dirty
-gratitude, ungratefulness
+jubilant, depressed
 gaunt, plump`
     ]
   },
@@ -85,93 +85,93 @@ gaunt, plump`
           //`Two words are said to be antonyms, if they have opposite meaning.`,
           {
             type: 'hilight',
-            text: `bicker× concur
-distress× pleasure
-captivity× freedom
-limp× stiff
-substantial× insignificant
-quench× parch`
+            text: `bicker × concur
+distress × pleasure
+captivity × freedom
+limp × stiff
+substantial × insignificant
+quench × parch`
           },
           {
             type: 'hilight',
-            text: `fiasco× triumph
-utmost× minimal
-infamous× glorious
-inevitable× avoidable
-onset× conclusion
-concise× wordy`
+            text: `fiasco × triumph
+utmost × minimal
+infamous × glorious
+inevitable × avoidable
+onset × conclusion
+concise × wordy`
           },
           {
             type: 'hilight',
-            text: `arrogant× modest
-offbeat× regular
-terminate× initiate
-generate× demolish
-conserve× squander
-crude× refined`
+            text: `arrogant × modest
+offbeat × regular
+terminate × initiate
+generate × demolish
+conserve × squander
+crude × refined`
           },
           {
             type: 'hilight',
-            text: `dominate× submit
-efficient× unproductive
-solitary× together
-fatigue× liveliness
-exhibit× conceal
-squash× expand`
+            text: `dominate × submit
+efficient × unproductive
+solitary × together
+fatigue × liveliness
+exhibit × conceal
+squash × expand`
           },
           {
             type: 'hilight',
-            text: `agony× comfort
-myriad× scarcity
-gratify× disappoint
-cultivate× neglect
-admire× detest
-persist× quit`
+            text: `agony × comfort
+myriad × scarcity
+gratify × disappoint
+cultivate × neglect
+admire × detest
+persist × quit`
           },
           {
             type: 'hilight',
-            text: `absurd× sensible
-dainty× clumsy
-economise× waste
-frosty× sweltering
-yoke× release
-wilt× revive`
+            text: `absurd × sensible
+dainty × clumsy
+economise × waste
+frosty × sweltering
+yoke × release
+wilt × revive`
           },
           {
             type: 'hilight',
-            text: `vicious× cordial
-keen× reluctant
-subsequent× former
-justify× deny
-punishment× reward
-amnesty× punishment`
+            text: `vicious × cordial
+keen × reluctant
+subsequent × former
+justify × deny
+punishment × reward
+amnesty × punishment`
           },
           {
             type: 'hilight',
-            text: `anxiety× relief
-radical× conservative
-charity× unkindness
-abnormal× regular
-famous× anonymous
-diligent× lazy`
+            text: `anxiety × relief
+radical × conservative
+charity × unkindness
+abnormal × regular
+famous × anonymous
+diligent × lazy`
           },
           {
             type: 'hilight',
-            text: `fantastic× sober
-preference× dislike
-furious× calm
-moderate× extreme
-mischievous× well-behaved
-militant× pacifist`
+            text: `fantastic × sober
+preference × dislike
+furious × calm
+moderate × extreme
+mischievous × well-behaved
+militant × pacifist`
           },
           {
             type: 'hilight',
-            text: `migrant× immovable
-coarse× fine
-foe× friend
-immaculate× dirty
-gratitude× ungratefulness
-gaunt× plump`
+            text: `migrant × immovable
+coarse × fine
+foe × friend
+immaculate × dirty
+gratitude × ungratefulness
+gaunt × plump`
           }
         ]
       }
@@ -226,6 +226,37 @@ gaunt× plump`
         hintFontSize: '2rem'
       },
       data: [
+        {
+          refs: 'data~0'
+        },
+        {
+          refs: 'data~1'
+        },
+        {
+          refs: 'data~2'
+        },
+        {
+          refs: 'data~3'
+        },
+        {
+          refs: 'data~4'
+        },
+        {
+          refs: 'data~5'
+        },
+        {
+          refs: 'data~6'
+        },
+        {
+          refs: 'data~7'
+        },
+        {
+          refs: 'data~8'
+        },
+        {
+          refs: 'data~9'
+        }
+        /*
         `bicker| concur| co___r
       distress| pleasure| pl__s___
       captivity| freedom| f__e__m
@@ -294,7 +325,7 @@ gaunt× plump`
       foe| friend| ______
       immaculate| dirty| _____
       gratitude| ungratefulness| u_g__te___n__s
-      gaunt| plump| p___p`
+      gaunt| plump| p___p` */
       ]
     },
     {

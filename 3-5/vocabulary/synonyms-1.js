@@ -8,8 +8,8 @@ quick, fast
 ill, sick
 friendly, kind
 silent, quiet
-speak, talk
-rest, relax`,
+speak, talk`,
+      //rest, relax
       `bad, evil
 difficult, hard
 begin, start

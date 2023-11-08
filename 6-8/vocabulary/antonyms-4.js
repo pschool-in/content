@@ -28,7 +28,8 @@ poised, anxious`,
 deposit, withdraw
 massive, miniature
 constant, unstable
-detach, link`,
+detach, link
+impartial, biased`,
 
       `pedestrian, motorist
 eligible, disqualified
@@ -225,6 +226,37 @@ flaw × perfection`
         hintFontSize: '2rem'
       },
       data: [
+        {
+          refs: 'data~0'
+        },
+        {
+          refs: 'data~1'
+        },
+        {
+          refs: 'data~2'
+        },
+        {
+          refs: 'data~3'
+        },
+        {
+          refs: 'data~4'
+        },
+        {
+          refs: 'data~5'
+        },
+        {
+          refs: 'data~6'
+        },
+        {
+          refs: 'data~7'
+        },
+        {
+          refs: 'data~8'
+        },
+        {
+          refs: 'data~9'
+        }
+        /*
         `fix| break| _____
         resist| yield| _____
         lead| follow| ______
@@ -293,6 +325,7 @@ flaw × perfection`
         ability| inability| _n_b_l_t_
         imperfect| perfect| p_rf__t
         flaw| perfection| pe___c___n`
+        */
       ]
     },
 
