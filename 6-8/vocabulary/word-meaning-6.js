@@ -32,7 +32,7 @@ export default {
                 type: 'title',
                 text: 'inspire'
               },
-              '- serve as the inciting cause of',
+              '- to motivate or encourage',
               {
                 type: 'html',
                 text: "Eg: <br><br> The coach's motivational speech was meant to <i><b>inspire</b></i> the team to give their best performance.<br><br> The breathtaking sunset scene can <i><b>inspire</b></i> feelings of awe and wonder."
@@ -80,7 +80,7 @@ export default {
                 type: 'title',
                 text: 'lack'
               },
-              '- the state of needing something that is absent or unavailable',
+              '- something that is absent or unavailable',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The <i><b>lack</b></i> of rain in the region led to drought and water shortages.<br><br> The <i><b>lack</b></i> of proper equipment hindered the rescue mission.'
@@ -102,7 +102,7 @@ export default {
                 type: 'title',
                 text: 'limp'
               },
-              '- walk impeded by some physical injury',
+              '- a slight or noticeable difficulty in walking',
               {
                 type: 'html',
                 text: 'Eg: <br><br> After twisting his ankle, he had to <i><b>limp</b></i> for a few days until it healed.<br><br> The injured athlete continued to <i><b>limp</b></i> despite the pain.'
@@ -113,7 +113,7 @@ export default {
                 type: 'title',
                 text: 'manufacture'
               },
-              '- put together out of artificial or natural components',
+              '- creation and assembly of physical products',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The factory specializes in the <i><b>manufacture</b></i> of high-quality automobiles.<br><br> Skilled artisans <i><b>manufacture</b</i> beautiful pottery using traditional methods.'
@@ -150,7 +150,7 @@ export default {
                 type: 'title',
                 text: 'meadow'
               },
-              '- a field where grass or alfalfa is grown to be made into hay',
+              '- a field where grass is grown to be made into hay',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The <i><b>meadow</b></i> was covered in wildflowers, creating a picturesque landscape.<br><br> The farmer harvested the grass in the <i><b>meadow</b></i> to make hay for the livestock.'
@@ -172,7 +172,7 @@ export default {
                 type: 'title',
                 text: 'mock'
               },
-              '- treat with contempt',
+              '- making fun of someone',
               {
                 type: 'html',
                 text: "Eg: <br><br> The bullies would often <i><b>mock</b></i> their classmates, causing emotional pain.<br><br> The comedian's job is to <i><b>mock</b></i> societal norms and behaviors for comedic effect."
@@ -198,7 +198,7 @@ export default {
                 type: 'title',
                 text: 'noble'
               },
-              '- of or belonging to hereditary aristocracy',
+              '- of high social rank',
               {
                 type: 'html',
                 text: 'Eg: <br><br> The castle belonged to a <i><b>noble</b></i> family that had a long history of ruling the region.<br><br> In the story, the <i><b>noble</b></i> knight valiantly protected the kingdom from invaders.'
@@ -329,7 +329,7 @@ The smell of spoiled food can make anyone feel <i><b>queasy</b></i>.`
                 type: 'title',
                 text: 'recent'
               },
-              '- approximately the last 10,000 years',
+              '- something that has occurred in the near past',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -342,7 +342,7 @@ The study of <i><b>recent</b></i> history helps us understand the events that sh
                 type: 'title',
                 text: 'recognize'
               },
-              '- perceive to be something or something you can identify',
+              '- something you can identify',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -385,7 +385,7 @@ The company will <i><b>release</b></i> a new product to the market next month.`
                 type: 'title',
                 text: 'represent'
               },
-              '- be a delegate or spokesperson for',
+              '- to act or perform in a role or capacity',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -424,7 +424,7 @@ It's challenging to <i><b>resist</b></i> the aroma of freshly baked bread.`
                 type: 'title',
                 text: 'response'
               },
-              '- the speech act of continuing a conversational exchange',
+              '- a reaction to or a reply to a question, statement, or request',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -454,7 +454,7 @@ The unveiling of the new art installation will <i><b>reveal</b></i> the artist's
                 type: 'title',
                 text: 'routine'
               },
-              '- an unvarying or habitual method or procedure',
+              '- habitual method or procedure',
               {
                 type: 'html',
                 text: `Eg: <br><br>
@@ -840,22 +840,22 @@ After a long day at work, she felt *weary* and in need of rest.`
       label: 'Complete Word',
       data: [
         `Designate a place, direction, person, or thing | INDICATE
-Serve as the inciting cause of | INSPIRE
+To motivate or encourage | INSPIRE
 A very short time | INSTANT
 Impossible or nearly impossible to see | INVISIBLE
 Having a sharply uneven surface or outline | JAGGED
-The state of needing something that is absent or unavailable | LACK
+Something that is absent or unavailable | LACK
 One of the jointed appendages of an animal | LIMB
-Walk impeded by some physical injury | LIMP
-Put together out of artificial or natural components | MANUFACTURE
+A slight or noticeable difficulty in walking | LIMP
+Creation and assembly of physical products | MANUFACTURE
 A person who has authority over others | MASTER`,
 
         `Having reached full natural growth or development | MATURE
-A field where grass or alfalfa is grown to be made into hay | MEADOW
+A field where grass is grown to be made into hay | MEADOW
 Regard with suspicion | MISTRUST
-Treat with contempt | MOCK
+Making fun of someone | MOCK
 Marked by simplicity; having a humble opinion of yourself | MODEST
-Of or belonging to hereditary aristocracy | NOBLE
+Of high social or hereditary rank | NOBLE
 A small cultivated area where fruit trees are planted | ORCHARD
 Of major significance or importance | OUTSTANDING
 Beyond or deviating from the usual or expected | PECULIAR
@@ -867,17 +867,17 @@ Existing in great number or quantity | PLENTIFUL
 Carry out or practice; as of jobs and professions | PRACTICE
 Tell in advance | PREDICT
 Causing or able to cause nausea | QUEASY
-Approximately the last 10,000 years | RECENT
-Perceive to be something or something you can identify | RECOGNIZE
+Something that has occurred in the near past | RECENT
+Something you can identify | RECOGNIZE
 Make smaller | REDUCE
 Grant freedom to; free from confinement | RELEASE`,
 
-        `Be a delegate or spokesperson for | REPRESENT
+        `To act or perform in a role or capacity| REPRESENT
 Express the need or desire for; ask for | REQUEST
 Withstand the force of something | RESIST
-The speech act of continuing a conversational exchange | RESPONSE
+A reaction to or a reply to a question, statement, or request | RESPONSE
 Make visible | REVEAL
-An unvarying or habitual method or procedure | ROUTINE
+Habitual method or procedure | ROUTINE
 Very harsh or strict, especially when dealing with others | SEVERE
 Showing signs of wear and tear | SHABBY
 Lacking physical depth | SHALLOW

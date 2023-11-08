@@ -586,8 +586,9 @@ Peripatetic - Wandering and traveling`
               options: 'mournful and gloomy, cheerful and happy'
             },
             {
-              qText: `The company's *frugality* in spending led to financial stability.`,
-              options: 'economical and thrifty nature, extravagant and wasteful'
+              qText:
+                'His *frugal* lifestyle allowed him to save money for the future.',
+              options: 'economical and thrifty, extravagant and wasteful'
             },
             {
               qText: `The explorer's *peripatetic* lifestyle led him to many places.`,
