@@ -70,13 +70,14 @@ monotonous, interesting`,
 flippant, respectful
 eternal, transient
 ecstasy, misery
-dormant, awake`,
-
-      `congested, clear
+dormant, awake
+congested, clear`
+      /*
+      `
 conflict, peace
-jubilant, depressed
-impartial, biased
-amateur, professional`
+
+gratitude, ungratefulness
+amateur, professional`*/
     ]
   },
   list: [
@@ -241,6 +242,38 @@ amateur × professional`
         hintFontSize: '2rem'
       },
       data: [
+        {
+          refs: 'data~0'
+        },
+        {
+          refs: 'data~1'
+        },
+        {
+          refs: 'data~2'
+        },
+        {
+          refs: 'data~3'
+        },
+        {
+          refs: 'data~4'
+        },
+        {
+          refs: 'data~5'
+        },
+        {
+          refs: 'data~6'
+        },
+        {
+          refs: 'data~7'
+        },
+        {
+          refs: 'data~8'
+        },
+        {
+          refs: 'data~9'
+        }
+
+        /*
         `murky| luminous| l___n__s
 nurture| neglect| n__l__t
 astute| ignorant| i__o__nt
@@ -314,7 +347,7 @@ dormant| awake| _____`,
 conflict| peace| _____
 jubilant| depressed| d___e___d
 impartial| biased| b_____
-amateur| professional| p___es_____l`
+amateur| professional| p___es_____l` */
       ]
     },
     {
