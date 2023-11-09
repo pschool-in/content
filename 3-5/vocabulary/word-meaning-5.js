@@ -1075,45 +1075,6 @@ The loss of a loved one can cause profound emotional <i><b>distress</b></i>.`
             [
               {
                 type: 'title',
-                text: 'dusk'
-              },
-              '- the time of day immediately following sunset',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The park becomes tranquil and serene at <i><b>dusk</b></i>, as the day transitions into night.<br><br>
-Many nocturnal animals become active at <i><b>dusk</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'eager'
-              },
-              '- having or showing keen interest or intense desire',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-The students were <i><b>eager</b></i> to learn and participate in the class discussion.<br><br>
-The young explorer was <i><b>eager</b></i> to embark on his first adventure.`
-              }
-            ],
-            [
-              {
-                type: 'title',
-                text: 'ease'
-              },
-              '- freedom from difficulty or hardship or effort',
-              {
-                type: 'html',
-                text: `Eg: <br><br>
-Relaxing by the beach provides a sense of <i><b>ease</b></i> and tranquility.<br><br>
-A well-organized workspace can enhance productivity and make tasks more <i><b>ease</b></i>.`
-              }
-            ],
-            [
-              {
-                type: 'title',
                 text: 'entertain'
               },
               '- provide amusement for',
@@ -1123,11 +1084,7 @@ A well-organized workspace can enhance productivity and make tasks more <i><b>ea
 Comedians use humor to <i><b>entertain</b></i> their audiences and make them laugh.<br><br>
 The circus aims to <i><b>entertain</b></i> both children and adults with acrobatics and performances.`
               }
-            ]
-          ]
-        },
-        {
-          steps: [
+            ],
             [
               {
                 type: 'title',
