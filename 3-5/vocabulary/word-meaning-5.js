@@ -792,7 +792,7 @@ Individuals to whom a person is related by blood or descent | ANCESTOR
 Occurring every year | ANNUAL
 Clear, obvious, easily seen or understood | APPARENT
 Suitable for a particular person, place, or situation | APPROPRIATE
-A large stage for open|AIR sports or entertainments | ARENA`,
+A large stage for open air sports or entertainments | ARENA`,
 
         `Take into custody | ARREST
 Travel up | ASCEND
