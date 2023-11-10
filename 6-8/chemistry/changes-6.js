@@ -12,7 +12,7 @@ export default {
 Some changes can be reversed and some cannot be reversed. Those changes which cannot be reversed are called irreversible changes.
 
 # Other ways to bring a change
-Iron structures are heated to fit them into wooden handle. Iron expands on heating. Metal rim is also mounted on wooden wheel with the same technique. Cold water is used to contract the metal and fit tightly onto the wheel. Water can be changed to vapour by heating. Candle melts on heating. A small quantity of curd is added to warm milk. The milk is stirred and is set aside for a few hours at a warm place. In a few hours, the milk changes into curd.  `,
+Iron structures are heated to fit them into wooden handles. Iron expands on heating. The metal rim is also mounted on a wooden wheel with the same technique. Cold water is used to contract the metal and fit tightly onto the wheel. Water can be changed to vapor by heating. Candle melts on heating. A small quantity of curd is added to warm milk. The milk is stirred and set aside for a few hours at a warm place. In a few hours, the milk changes into curd.  `,
         title: 'Changes Around Us'
       }
     },
@@ -27,9 +27,9 @@ Iron structures are heated to fit them into wooden handle. Iron expands on heati
         },
         text: `On heating iron it *expands*.
 Cold water is used to *contract* iron.
-Water turns to vapour by the process of *evaporation*.
+Water turns to vapor by the process of *evaporation*.
 Souring of milk is an *irreversible* change.
-Streching of rubber band is a *reversible* change.`
+Streching of a rubber band is a *reversible* change.`
       }
     },
     {
@@ -38,8 +38,8 @@ Streching of rubber band is a *reversible* change.`
       type: 'fillup',
       data: {
         title: 'Click the blanks and fill it with the right word.',
-        text: `Drying of clothes is an *reversible (irreversible)* process.
-Knitting of sweater from woollen yarn is an *reversible (irreversible)* process.
+        text: `Drying of clothes is a *reversible (irreversible)* process.
+Knitting a sweater from woolen yarn is a *reversible (irreversible)* process.
 The sawing of a piece of wood is an *irreversible (reversible)* process.
 The cooking of food is an *irreversible (reversible)* process.
 Ripening of mango is an *irreversible (reversible)* process.`
@@ -78,13 +78,13 @@ Cow dung to biogas.`
       label: 'Reversible or Irreversible',
       type: 'classifySentence',
       data: {
-        title: 'Classify based on the reversiblity of the process.',
+        title: 'Classify based on the reversibility of the process.',
         types: [
           {
             name: 'Reversible',
             text: ` Melting of ice into water.
 Drying of clothes.
-Streching of rubber band.`
+Streching of a rubber band.`
           },
           {
             name: 'Irreversible',
@@ -130,7 +130,7 @@ Cooking of food is a reversible change.`
 Process that cannot be reversed - *Irreversible*
 Change in iron on heating - *Expansion*
 Change in ice or candle on heating - *Melting*
-Change of water into vapour - *Evaporation*`
+Change of water into vapor - *Evaporation*`
       }
     },
     {
@@ -140,9 +140,9 @@ Change of water into vapour - *Evaporation*`
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `Souring of milk is an *irreversible (reversible)* process.
-Heating of milk  is an *reversible (irreversible)* process.
-Coiling of a string  is an *reversible (irreversible)* process.
-Streching of rubber band  is an *reversible (irreversible)* process.
+Heating of milk is a *reversible (irreversible)* process.
+Coiling of a string is a *reversible (irreversible)* process.
+Streching of rubber bands is a *reversible (irreversible)* process.
 Melting of ice cream  is an *reversible (irreversible)* process.`
       }
     },
@@ -160,10 +160,10 @@ Melting of ice cream  is an *reversible (irreversible)* process.`
           {
             qText:
               'A process in which an object becomes smaller or shrinks is called',
-            options: `Using contraction, chemical change, irreversible change, expansion`
+            options: `contraction, chemical change, irreversible change, expansion`
           },
           {
-            qText: 'Temperature at which a solid starts melting is called its',
+            qText: 'Temperature at which solid starts melting is called its',
             options: `melting point, boiling point, freezing point, slow change`
           },
           {
@@ -181,7 +181,7 @@ Melting of ice cream  is an *reversible (irreversible)* process.`
           },
           {
             qText: 'Which is not a sign of reversible change?',
-            options: `Change in property, Change in state, Change in size, Change in appearance`
+            options: `Change in property, Change in the state, Change in size, Change in appearance`
           }
         ]
       }
@@ -198,7 +198,7 @@ Melting of ice cream  is an *reversible (irreversible)* process.`
             options: `Wet clothes to dry clothes, Cow dung to biogas, Bud to flower, Raw egg to boiled egg`
           },
           {
-            qText: 'A process in which liquid changes into vapour is called',
+            qText: 'A process in which liquid changes into vapor is called',
             options: `evaporation, melting, freezing, contraction`
           },
           {
