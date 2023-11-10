@@ -114,12 +114,42 @@ export default {
     },
     {
       label: 'Words and Meaning',
-      id: 'words-meaning',
+      id: 'word-meaning',
       grade: '3-5'
     },
     {
-      label: 'Words and Meaning - 2',
-      id: 'words-meaning-2',
+      label: 'Words and Meaning - 3',
+      id: 'word-meaning-3',
+      grade: '4-6'
+    },
+    {
+      label: 'Words and Meaning - 4',
+      id: 'word-meaning-4',
+      grade: '5-7'
+    },
+    {
+      label: 'Words and Meaning - 5',
+      id: 'word-meaning-5',
+      grade: '6-8'
+    },
+    {
+      label: 'Words and Meaning - 6',
+      id: 'word-meaning-6',
+      grade: '6-8'
+    },
+    {
+      label: `Words and Meaning - 6 (Cont'd)`,
+      id: 'word-meaning-6-2',
+      grade: '6-8'
+    },
+    {
+      label: 'Words and Meaning - 7',
+      id: 'word-meaning-7',
+      grade: '6-8'
+    },
+    {
+      label: 'Words and Meaning - 8',
+      id: 'word-meaning-8',
       grade: '6-8'
     },
     {
@@ -128,13 +158,33 @@ export default {
       grade: '3-5'
     },
     {
+      label: 'Homonyms',
+      id: 'homonyms-8',
+      grade: '6-8'
+    },
+    {
       label: 'New Words',
       id: 'new-words',
       grade: '3-5'
     },
     {
-      label: 'Homonyms',
-      id: 'homonyms-8',
+      label: 'New Words - 2',
+      id: 'new-words-2',
+      grade: '4-6'
+    },
+    {
+      label: 'New Words - 3',
+      id: 'new-words-3',
+      grade: '5-8'
+    },
+    {
+      label: 'New Words - 4',
+      id: 'new-words-4',
+      grade: '6-8'
+    },
+    {
+      label: 'New Words - 5',
+      id: 'new-words-5',
       grade: '6-8'
     },
     {

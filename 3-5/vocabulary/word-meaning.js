@@ -1,6 +1,6 @@
 export default {
   label: 'Words and meaning',
-  id: 'words-meaning',
+  id: 'word-meaning',
   lockAfter: 2,
   list: [
     {
