@@ -522,7 +522,7 @@ export default {
               '- bring into existence',
               {
                 type: 'html',
-                text: 'Eg: <br><br> Solar panels can <i><bgenerate</b></i> electricity from sunlight.<br><br> The new software will <i><bgenerate</b></i> reports automatically.'
+                text: 'Eg: <br><br> Solar panels can <i><b>generate</b></i> electricity from sunlight.<br><br> The new software will <i><bgenerate</b></i> reports automatically.'
               }
             ],
             [

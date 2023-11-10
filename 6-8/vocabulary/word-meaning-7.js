@@ -763,7 +763,7 @@ An overwhelming feeling of wonder or admiration | AWE`,
 
         `Completely lacking | BARREN
 A fire that can be seen from a distance | BEACON
-Promoting or enhancing well|being | BENEFICIAL
+Promoting or enhancing well-being | BENEFICIAL
 An embarrassing mistake | BLUNDER
 Marked by high spirits | BOISTEROUS
 Intentionally and collectively refrain from supporting | BOYCOTT
