@@ -5,6 +5,26 @@ export default {
   grade: '0-2',
   list: [
     {
+      type: 'classifySentence',
+      label: 'Pick the right option',
+      id: 'tense',
+      commonData: {
+        title: 'Pick the right option that fills the blank',
+        variableOptions: true,
+        imageType: 'stockimg'
+      },
+      data: [
+        // 50 sentences (set of 10) for kg to 2nd
+        `pull | _____ the door. | Pull, Push
+giraffe | Giraffe has a _____ neck. | long, short
+pillow | The pillow is _____ in color. | blue, red`,
+
+        // 50 sentences (set of 10) for 3rd to 5th
+        `rain | It is _______. | raining, shining
+        bat2 | This is a ______ bat. | cricket, tennis`
+      ]
+    },
+    {
       type: 'sequence',
       id: '3-letter-word',
       label: 'Three Letter Words',
