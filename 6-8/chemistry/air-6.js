@@ -9,16 +9,16 @@ export default {
       type: 'passage',
       data: {
         text: `# Is air present everywhere around us?
-Air is found everywhere. We cannot see air, but we can feel it. Air in motion is called wind. Air occupies space. Air is present in water and soil. The envelope of air that surrounds the earth is known as atmosphere. Atmosphere is essential for life on earth.
+Air is found everywhere. We cannot see air, but we can feel it. Air in motion is called wind. Air occupies space. Air is present in water and soil. The envelope of air that surrounds the Earth is known as the atmosphere. The atmosphere is essential for life on Earth.
 
 # Composition of Air
-Air is a mixture of nitrogen, oxygen, carbon dioxide, water vapour and a few other gases. Some dust particles may also be present in it. Oxygen and nitrogen make upto 99% of air. The other 1% is constituted by carbon dioxide and a few other gases, water vapour, smoke and dust.
+Air is a mixture of nitrogen, oxygen, carbon dioxide, water vapor and a few other gases. Some dust particles may also be present in it. Oxygen and nitrogen make up to 99% of air. The other 1% is constituted by carbon dioxide and a few other gases, water vapor, smoke and dust.
 
-# Water vapour
-The presence of water vapour in air is important for the water cycle in nature. The presence of water vapour in air is mainly due evaporation and condensation.
+# Water vapor
+The presence of water vapor in the air is important for the water cycle in nature. The presence of water vapor in the air is mainly due to evaporation and condensation.
 
 # Oxygen
-Oxygen is the component of air which supports burning. Oxygen is essential for life to exist.
+Oxygen is the component of air that supports burning. Oxygen is essential for life to exist.
 
 # Nitrogen
 The major component of air is nitrogen. It is also the component of air that does not support burning.
@@ -27,7 +27,7 @@ The major component of air is nitrogen. It is also the component of air that doe
 Carbon dioxide makes up a small component of the air around us. Plant and animal matter also consumes oxygen on burning and produces mainly carbon dioxide and a few other gases. It is advisable not to burn dry leaves and discarded remains of the crop, which pollute our surroundings.
 
 # Dust and Smoke
-The burning of fuel also produces smoke. Smoke contains a few gases and fine dust particles and is often harmful. Dust particles are always present in air. We inhale air when we breathe through our nostrils. Fine hair and mucus are present inside the nose to prevent dust particles from getting into the respiratory system.`,
+The burning of fuel also produces smoke. Smoke contains a few gases and fine dust particles and is often harmful. Dust particles are always present in the air. We inhale air when we breathe through our nostrils. Fine hair and mucus are present inside the nose to prevent dust particles from getting into the respiratory system.`,
         title: 'Air'
       }
     },
@@ -45,7 +45,7 @@ We cannot see *air*, but we can *feel* it.
 Air in motion is called *wind*.
 Air occupies *space*.
 Air is present in *water* and soil.
-Air is a mixture of *nitrogen*, oxygen, carbon dioxide, water vapour and a few other gases. Some *dust* particles may also be present in it.`
+Air is a mixture of *nitrogen*, oxygen, carbon dioxide, water vapor and a few other gases. Some *dust* particles may also be present in it.`
       }
     },
     {
@@ -55,8 +55,8 @@ Air is a mixture of *nitrogen*, oxygen, carbon dioxide, water vapour and a few o
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `*Oxygen (Nitrogen)* supports burning and is necessary for living organisms.
-The envelope of air that surrounds the earth is known as *atmosphere (biosphere)*.
-Atmosphere is *essential (not essential)* for life on earth.
+The envelope of air that surrounds the Earth is known as the *atmosphere (biosphere)*.
+Atmosphere is *essential (not essential)* for life on Earth.
 Aquatic animals use dissolved air in *water (soil)* for respiration.
 Plants and animals *depend (do not depend)* on each other for exchange of oxygen and carbon dioxide from air.`
       }
@@ -113,12 +113,12 @@ Fire extinguisher`
         types: [
           {
             name: 'True',
-            text: `  Oxygen and Nitrogen make upto 99% of air.
+            text: `  Oxygen and Nitrogen make up to 99% of air.
 Plants and animals depend on each other for air.`
           },
           {
             name: 'False',
-            text: `Air has no impact on water cycle.
+            text: `Air has no impact on the water cycle.
 Nitrogen aids in burning.
 Carbon dioxide makes 70% of the atmosphere.`
           }
@@ -177,7 +177,7 @@ Other gases,0.1%`,
         questions: [
           {
             qText: 'What are the properties of air?',
-            options: `It occupies space, It is present everywhere around us, It has no colour and is transparent, *All of the above`
+            options: `It occupies space, It is present everywhere around us, It has no color and is transparent, *All of the above`
           },
           {
             qText: 'Moving air is called',
@@ -185,7 +185,7 @@ Other gases,0.1%`,
           },
           {
             qText: 'Which of the following is a property of oxygen?',
-            options: `colourless, tasteless, odourless, *all of these`
+            options: `colorless, tasteless, odorless, *all of these`
           },
           {
             qText: 'The composition of nitrogen gas in the atmosphere is',
@@ -201,16 +201,16 @@ Other gases,0.1%`,
           },
           {
             qText:
-              'The two gases which together make up about 99 per cent of the air are',
+              'The two gases which together make up about 99 percent of the air are',
             options: `nitrogen and oxygen, nitrogen and carbon dioxide, nitrogen and ozone, carbon dioxide and oxygen`
           },
           {
             qText: 'Mountaineers carry oxygen cylinder with them because',
-            options: `there is deficiency of oxygen on mountains at high altitude, oxygen is used for cooking, oxygen keeps them warm at low temperature, there is no oxygen on high mountains`
+            options: `oxygen is deficient in mountains at high altitude, oxygen is used for cooking, oxygen keeps them warm at low temperatures, there is no oxygen in high mountains`
           },
           {
             qText: 'Which components of air are harmful to living organisms?',
-            options: `Dust and smoke, Oxygen and carbon dioxide, Smoke and water vapour, Nitrogen and oxygen`
+            options: `Dust and smoke, Oxygen and carbon dioxide, Smoke and water vapor, Nitrogen and oxygen`
           },
           {
             qText:
@@ -229,7 +229,7 @@ Other gases,0.1%`,
 The plants and animals that live in water use oxygen that is dissolved in water. Plants and animals living in the soil use air trapped in small air pockets in the soil. When it rains heavily these air pockets get filled with water. Then the organisms come out for oxygen.
 
 # How is oxygen in the atmosphere replaced?
-Plants produce oxygen during photosynthesis. Plants also consume oxygen for respiration, but they produce more of it than they consume. The balance of oxygen and carbon dioxide in the atmosphere is maintained through respiration in plants and animals and by the photosynthesis in plants. This shows the interdependence of plants and animals. `,
+Plants produce oxygen during photosynthesis. Plants also consume oxygen for respiration, but they produce more of it than they consume. The balance of oxygen and carbon dioxide in the atmosphere is maintained through respiration in plants and animals and by photosynthesis in plants. This shows the interdependence of plants and animals. `,
         title: 'Oxygen'
       }
     },
@@ -244,10 +244,10 @@ Plants produce oxygen during photosynthesis. Plants also consume oxygen for resp
         },
         text: `The *wind* makes the windmill rotate.  
 Windmills are used to generate *electricity*. 
-Air helps in the *movements* of sailing yachts, gliders, parachutes and aeroplanes. 
+Air helps in the *movements* of sailing yachts, gliders, parachutes and airplanes. 
 Birds, bats and insects can fly due to the presence of *air*. 
 Air helps in the *dispersal* of seeds and pollen of flowers of several plants. 
-Air plays an important role in *water* cycle.`
+Air plays an important role in the *water* cycle.`
       }
     },
     {
@@ -258,7 +258,7 @@ Air plays an important role in *water* cycle.`
         title: 'Click the blanks and fill it with the right word.',
         text: `The plants and animals that live in water use oxygen that is *dissolved (dispersed)* in water. 
 Plants and animals living in the *soil (water)* use air trapped in small air pockets in the soil. 
-When it rains heavily the air pockets in soil get filled with *water (air)*.
+When it rains heavily the air pockets in the soil get filled with *water (air)*.
 When you heat water, the air dissolved in it *escapes (expands)*.`
       }
     }

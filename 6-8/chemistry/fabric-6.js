@@ -9,19 +9,19 @@ export default {
       type: 'passage',
       data: {
         text: `# Variety in Fabrics
-There is a lot of variety in fabrics. The clothing material or fabric can be made of cotton, jute, silk, wool, nylon or polyster.
+There is a lot of variety in fabrics. The clothing material or fabric can be made of cotton, jute, silk, wool, nylon or polyester.
 
 # Fibre
-The thin strands of thread are made up of even thinner strands called fibre. Fabrics are made of yarns and yarns are further made of fibres. The fibres of fabrics such as cotton, jute, silk and wool are obtained from plants and animals. They are called natural fibres. Fibres made from chemical substances are called synthetic fibres.Polyster, nylon and acrylic are synthetic fibres.
+The thin strands of thread are made up of even thinner strands called fiber. Fabrics are made of yarns and yarns are further made of fibers. The fibers of fabrics such as cotton, jute, silk and wool are obtained from plants and animals. They are called natural fibers. Fibers made from chemical substances are called synthetic fibers. Polyester, nylon and acrylic are synthetic fibers.
 
 # Cotton 
-Cotton is obtained from fruit of cotton plant. The fibres are usually picked by hand and then separated from the seeds by combing. This process is called ginning.
+Cotton is obtained from the fruit of a cotton plant. The fibers are usually picked by hand and then separated from the seeds by combing. This process is called ginning.
 
 # Jute
-Jute is obtained from stem of jute plant. The stems are immersed in water for a few days and then the fibres are separated by hand.
+Jute is obtained from the stem of the jute plant. The stems are immersed in water for a few days and then the fibers are separated by hand.
 
 # Spinning Cotton Yarn
-The process of making yarn from fibres is called spinning. In this process , fibres from a mass of cotton wool are drawn out and twisted to form yarn. Some spinning devices include hand spindle or takli and charkha which was popularised by Mahatma Gandhi. Clothes made of homespun yarn are called khadi.
+The process of making yarn from fibers is called spinning. In this process, fibers from a mass of cotton wool are drawn out and twisted to form yarn. Some spinning devices include hand spindle or takli and charkha which was popularised by Mahatma Gandhi. Clothes made of homespun yarn are called khadi.
 
 # Weaving
 The process of arranging two sets of yarns together to make a fabric is called weaving. Weaving of the fabric is done on looms which can be operated by power or by hand.
@@ -41,9 +41,9 @@ In knitting, a single yarn is used to make a piece of fabric. Socks and many oth
           dashWidth: 80
         },
         text: `Fabrics are made from *yarns*, which in turn are made from *fibres*.
-Cotton, wool, silk and jute are some *natural* fibres. 
-Nylon and polyester are some examples of *synthetic* fibres.
-Fibres like cotton and jute are obtained from *plants*.
+Cotton, wool, silk and jute are some *natural* fibers. 
+Nylon and polyester are some examples of *synthetic* fibers.
+Fibers like cotton and jute are obtained from *plants*.
 Wool and silk are obtained from *animals*.`
       }
     },
@@ -76,7 +76,7 @@ Jute`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the given clothing items based on the fibre used to make them.',
+          'Classify the given clothing items based on the fiber used to make them.',
         types: [
           {
             name: 'Cotton',
@@ -100,7 +100,7 @@ Mittens`
       type: 'classifySentence',
       data: {
         title:
-          'Classify the given clothing items based on the fibre used to make them.',
+          'Classify the given clothing items based on the fiber used to make them.',
         types: [
           {
             name: 'Silk',
@@ -127,16 +127,16 @@ Rayon blouse`
         types: [
           {
             name: 'True',
-            text: ` Yarn is made from fibres.
+            text: ` Yarn is made from fibers.
 The process of removing seed from cotton is called ginning.
 Weaving of yarn makes a piece of fabric.`
           },
           {
             name: 'False',
-            text: `Spinning is the process of making fibres.
+            text: `Spinning is the process of making fibers.
 Jute is the outer covering of coconut.
 Silk is obtained from the stem of a plant.
-Polyester is a natural fibre.`
+Polyester is a natural fiber.`
           }
         ]
       }
@@ -150,7 +150,7 @@ Polyester is a natural fibre.`
           fontSize: '1rem',
           dashWidth: 80
         },
-        text: `The process of making yarn from fibres is called: *spinning*
+        text: `The process of making yarn from fibers is called: *spinning*
 The process of arranging two sets of yarns together to make a fabric is called: *weaving*
 The process of removing seed from cotton is called: *ginning*
 The process by which a single yarn is used to make a piece of cloth is called: *knitting*`
@@ -186,8 +186,8 @@ Nylon, Synthetic`,
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: 'Which of the following is not a synthetic fibre?',
-            options: `Jute, Nylon, Polyster`
+            qText: 'Which of the following is not a synthetic fiber?',
+            options: `Jute, Nylon, Polyester`
           },
           {
             qText: 'Which is the process used to make yarns?',
@@ -198,11 +198,11 @@ Nylon, Synthetic`,
             options: `Knitting, Weaving, Ginning`
           },
           {
-            qText: 'Which part of the cotton plant gives us cotton fbres?',
+            qText: 'Which part of the cotton plant gives us cotton fibers?',
             options: `Fruit, Stem, Flower`
           },
           {
-            qText: 'Which part of the jute plant is used to make jute fibres?',
+            qText: 'Which part of the jute plant is used to make jute fibers?',
             options: `Stem, Leaf, Fruit`
           }
         ]
@@ -214,9 +214,9 @@ Nylon, Synthetic`,
       type: 'passage',
       data: {
         text: `# History 
-In ancient times, people used bark, big leaves, animals skins and fur to cover themselves. After people began to settle in agricultural communities, they learnt to weave twigs and grass into mats and baskets. Vines, animal fleece or hair were twisted together into long strands. These were woven into fabrics. 
-The early Indians wore fabrics made out of cotton that grew in the regions near the river Ganga. Flax is also a plant that gives natural fibres. 
-In ancient Egypt, cotton as well as flax were cultivated near the river Nile and were used for making fabrics. In those days, stitching was not known. People simply draped the fabrics around different parts of their body. With the invention of the sewing needle, people started stitching fabrics to make clothes. `,
+In ancient times, people used bark, big leaves, animal skins and fur to cover themselves. After people began to settle in agricultural communities, they learned to weave twigs and grass into mats and baskets. Vines, animal fleece or hair were twisted together into long strands. These were woven into fabrics. 
+The early Indians wore fabrics made out of cotton that grew in the regions near the river Ganga. Flax is also a plant that gives natural fibers. 
+In ancient Egypt, cotton as well as flax were cultivated near the river Nile and were used for making fabrics. In those days, stitching was not known. People simply draped the fabrics around different parts of their bodies. With the invention of the sewing needle, people started stitching fabrics to make clothes. `,
         title: 'History of Clothing Material '
       }
     },
@@ -227,8 +227,8 @@ In ancient Egypt, cotton as well as flax were cultivated near the river Nile and
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `The early Indians wore fabrics made out of *cotton (jute)* that grew in the regions near the river Ganga. 
-Flax is also a plant that gives *natural (synthetic)* fibres. 
-In ancient *Egypt (India)* , cotton as well as flax were cultivated near the river *Nile (Ganga)* and were used for making fabrics.
+Flax is also a plant that gives *natural (synthetic)* fibers. 
+In ancient *Egypt (India)*, cotton as well as flax were cultivated near the river *Nile (Ganga)* and were used for making fabrics.
 To popularise and promote khadi, the Government of *India (Egypt)* constituted a body called Khadi and Village Industries Commission in *1956 (1965)*.`
       }
     }

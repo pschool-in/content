@@ -11,19 +11,19 @@ export default {
         text: `# Methods of separation
 Handpicking, winnowing, sieving, sedimentation, decantation and filtration are some of the methods of separating substances from their mixtures.
 # Handpicking
-Handpicking is used for separating slightly larger sized impurities like pieces of dirt, stone and husk from wheat, rice or pulses. The quantity of such impurities is usually not very large.
+Handpicking is used for separating slightly larger-sized impurities like pieces of dirt, stone and husk from wheat, rice or pulses. The quantity of such impurities is usually not very large.
 # Threshing
 The process used to separate grain from stalks is called threshing. The stalks are beaten to free the grains. Machines and bullocks are sometimes used for the process.
 # Winnowing
-Winnowing is used to separate heavier and lighter components of a mixture by wind or by blowing air. It is commonly used by farmers to separate lighter husk particles from heavier seeds of grain. The husk particles are carried away by the wind. The seeds of grain get separated and form a heap.
+Winnowing is used to separate heavier and lighter components of a mixture by wind or by blowing air. It is commonly used by farmers to separate lighter husk particles from heavier seeds of grain. The husk particles are carried away by the wind. The seeds of the grain get separated and form a heap.
 # Sieving
 Sieving allows the fine flour particles to pass through the holes of the sieve while the bigger impurities remain on the sieve.
 # Sedimentaion, Decantation and Filtration
 When the heavier component in a mixture settles after water is added to it, the process is called sedimentation. Removal of water along with the dust is called decantation. Filtration can be used to separate components of a mixture of an insoluble solid and a liquid.
 # Evaporation
-The process of conversion of water into its vapour is called evaporation. The process of evaporation takes place continuously wherever water is present.
+The process of conversion of water into its vapor is called evaporation. The process of evaporation takes place continuously wherever water is present.
 # Condensation
-The process of conversion of water vapour into its liquid form is called condensation.
+The process of conversion of water vapor into its liquid form is called condensation.
 # Use of more than one method of separation.
 Some mixtures require more than one separation method to completely separate the substances. For example, to separate sand and salt from the water collected from an ocean we need to use decantation, filtration, evaporation and condensation.
 # Saturated solution
@@ -44,7 +44,7 @@ Water dissolves different amounts of soluble substances in it.`,
         },
         text: `Husk and stones could be separated from grains by *handpicking*.
 Husk is separated from heavier seeds of grain by *winnowing*.
-Difference in the size of particles in a mixture is utilised to separate them by the process of *sieving* and filtration.
+The difference in the size of particles in a mixture is utilized to separate them by the process of *sieving* and filtration.
 *Filtration* can be used to separate components of a mixture of an insoluble solid and a liquid.`
       }
     },
@@ -58,7 +58,7 @@ Difference in the size of particles in a mixture is utilised to separate them by
 Evaporation can be used to separate a *solid (liquid)* dissolved in a liquid.
 A *saturated (unsaturated)* solution is one in which no more of that substance can be dissolved.
 More of a substance can be dissolved in a solution by *heating (cooling)* it.
-Water dissolves different amount of *soluble (insoluble)* substances in it.`
+Water dissolves different amounts of *soluble (insoluble)* substances in it.`
       }
     },
     {
@@ -106,14 +106,14 @@ ORS made with a pinch of salt and sugar in a cup of water.`
         types: [
           {
             name: 'Filtration',
-            text: `Air filter that removes impurites from air.
-Water filter that remove impurities from water.`
+            text: `Air filter that removes impurities from the air.
+Water filter that removes impurities from water.`
           },
           {
             name: 'Sieving',
-            text: `Flour is passed through sieve in baking processes.
+            text: `Flour is passed through the sieve in baking processes.
 Cement is sifted before mixing.
-Tea leaves separated from tea using strainer.`
+Tea leaves are separated from tea using a strainer.`
           }
         ]
       }
@@ -132,9 +132,9 @@ Stones can be separated by handpicking.`
           },
           {
             name: 'False',
-            text: `A mixture of water and milk can be separarted by filterartion.
-Separation of sugar from tea can be done by filtration.
-Salt is obtained from sea water by decantation.`
+            text: `A mixture of water and milk can be separated by filtration.
+The separation of sugar from tea can be done by filtration.
+Salt is obtained from seawater by decantation.`
           }
         ]
       }
@@ -160,7 +160,7 @@ Coconut oil and water, Separating funnel`,
         types: [
           {
             name: 'Handpicking',
-            text: `Separating mixture of chillies and ladies finger.
+            text: `Separating a mixture of chilies and ladies finger.
 Separation of stone from rice, pulses and wheat.
 Separating rotten potatoes from fresh ones.`
           },
@@ -184,8 +184,8 @@ Remove corn from straw.`
         text: `The process used to separate grain from stalks is called *threshing*.
 When the heavier component in a mixture settles after water is added to it, the process is called *sedimentation*. 
 Removal of water along with the dust is called *decantation*.
-The process of conversion of water into its vapour is called *evaporation*.
-The process of conversion of water vapour into its liquid form is called *condensation*.`
+The process of conversion of water into its vapor is called *evaporation*.
+The process of conversion of water vapor into its liquid form is called *condensation*.`
       }
     },
     {
@@ -210,7 +210,7 @@ The process of conversion of water vapour into its liquid form is called *conden
           },
           {
             qText:
-              'The separation of grains from husk is done by the process of',
+              'The separation of grains from the husk is done by the process of',
             options: `winnowing, handpicking, sieving, threshing`
           },
           {
@@ -218,7 +218,8 @@ The process of conversion of water vapour into its liquid form is called *conden
             options: `beating, animals, machines, *all of these`
           },
           {
-            qText: 'Filtration is a method to separate the components of a',
+            qText:
+              'Filtration is a method to separate the components of a ____________________.',
             options: `mixture of a liquid and an insoluble substance, solution, pure substance`
           },
           {
@@ -228,7 +229,7 @@ The process of conversion of water vapour into its liquid form is called *conden
           },
           {
             qText:
-              'Which of the following method is used when there is a difference in size and colour of desirable and undesirable constituents?',
+              'Which of the following methods is used when there is a difference in size and colour of desirable and undesirable constituents?',
             options: `Handpicking, Threshing, Filtration, Decantation`
           }
         ]
