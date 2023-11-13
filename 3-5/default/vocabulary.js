@@ -17,9 +17,58 @@ export default {
         // 50 sentences (set of 10) for kg to 2nd
         `pull | _____ the door. | Pull, Push
 giraffe | Giraffe has a _____ neck. | long, short
-pillow | The pillow is _____ in color. | blue, red`,
+pillow | The pillow is _____ in color. | blue, red
+book | The book has a _____ cover. | hard, soft
+tree | The tree has _____ leaves. | green, brown
+car | The car has _____ wheels. | three, four
+cat | The cat has _____ fur. | soft, hard
+morning | The sun is _____ in the sky. | shining, hidden
+rose | The flower has _____ petals. | red, pink
+mountain | The mountain is _____ in height. | tall, short`,
 
-        // 50 sentences (set of 10) for 3rd to 5th
+        `door | The door has a _____ handle. | long, round
+computer | The computer is _____ in weight. | heavy, light
+umbrella | The umbrella is _____ when open. | large, small
+pencil | The pencil has a _____ tip. | sharp, blunt
+cloud | The cloud is _____. | soft, hard
+backpack| The bag is _____ in size. | big, small
+cake | The cake is _____ in taste. | sweet, sour
+mintleaf | The plant has _____ leaves. | green, brown
+hat | The hat has a _____ ribbon. | black, blue
+balloon | The balloon is _____ in shape. | round, square`,
+
+        `butterfly | The butterfly has _____ wings. | colorful, plain
+juice | The juice is _____ in taste. | sweet, bitter
+ball | The ball is _____ in shape. | round, square
+tortoise| The tortoise is very ______.|slow, fast
+chocolate| The chocolate is _____ in taste.|sweet, sour
+ship| The ship is _____ in size.| big, small
+teapot| The teapot is ____ in colour.| red, orange
+mirror| The mirror is _____.|tall, short
+literature| There are ______ books.|many, few
+sing| The _____ is singing.|girl, boy`,
+
+        `sick| The boy is ____.|sick, happy
+bat| The bat can ____.|fly, swim
+fish | The fish swims in the _____ . | water, air
+night | The moon is in the _____ . | sky, ocean
+nest| The nest has ____ eggs.| three, four
+frog | The frog has a _____ skin. | green, brown
+house | The house is _____. | big, cold
+duck | The duck has a _____ beak. | yellow, green
+apple | The apple is _____. | sweet, sour
+car | The car is _____ in color. | red, purple`,
+
+        `horse| This is a _____.|horse, donkey
+cap| The ____ is blue in colour.|cap, hat
+tie| This is a ___.|tie, bow
+torch| This is a _____.|torch, lamp
+chin| This is my ____.|chin, cheeck
+sheep| The sheep has _____ fur.|white, black
+lemon| A lemon is _____ in taste.|sour, sweet
+banana| The bananas are long and ______.|yellow, green
+window| The window is ______.|open, closed
+cup| The cup is ______ in colour.|yellow, orange`// 50 sentences (set of 10) for 3rd to 5th
         `rain | It is _______. | raining, shining
         bat2 | This is a ______ bat. | cricket, tennis`
       ]
