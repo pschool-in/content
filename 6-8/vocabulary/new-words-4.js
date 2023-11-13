@@ -193,7 +193,7 @@ Mundane × Extraordinary`
       }
     },
     {
-      id: 'mcq',
+      id: 'mcq-anto',
       label: 'Antonym Challenge',
       type: 'mcq',
       commonData: {

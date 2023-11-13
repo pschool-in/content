@@ -195,7 +195,7 @@ Innovative × Unimaginative`
     },
     //ref:E221 sentences created using chatGPT
     {
-      id: 'mcq',
+      id: 'mcq-anto',
       label: 'Find the Antonym!',
       type: 'mcq',
       commonData: {
