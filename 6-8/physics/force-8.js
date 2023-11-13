@@ -9,15 +9,15 @@ export default {
       label: 'Force',
       data: {
         title: 'Force',
-        text: `Force causes motion to objects. Force can be either a pull or push.
-We can push a car, or we can lift a weight or we can throw a ball. Atleast two objects must interact for a force to come into play. An interaction of one object with another object results in a force between the two objects.
+        text: `Force causes motion to objects. Force can be either a pull or a push.
+We can push a car, or we can lift a weight or we can throw a ball. At least two objects must interact for a force to come into play. An interaction of one object with another object results in a force between the two objects.
 In the game of tug-of-war, two teams pull at a rope in opposite directions. Sometimes the rope simply does not move. It means the forces from both directions are the same. The team that pulls harder, applies a larger force and wins the game.
 Forces applied to an object in the same direction add to one another. If two forces act in the opposite direction, the net force is the difference between the two.
 The strength of a force is usually expressed by its magnitude. Also, we have to identify the direction in which the force acts. If the magnitude or direction of the applied force changes, its effect also changes.
 If more than one force acts on an object, the effect on the object is based on the net force acting on it.
 A body at rest can be brought to motion by applying force. A body in motion can be brought to rest by applying force in the opposite direction.
-A change in either the speed of an object, or its direction of motion, or both, is described as a change in its state of motion. Thus, a force may bring a change in the state of motion of an object.
-Not every force results in a change in the state of motion. For example, if we apply force and push a wall, nothing with happen.
+A change in either the speed of an object, its direction of motion, or both, is described as a change in its state of motion. Thus, a force may bring a change in the state of motion of an object.
+Not every force results in a change in the state of motion. For example, if we apply force and push a wall, nothing will happen.
 Applying force to chapati dough, will change its shape.`
       }
     },
@@ -78,9 +78,9 @@ If two forces act on an object in opposite directions, the net force is the diff
           },
           {
             name: 'False',
-            text: `Application of force on an object always result in change in state of motion or change in shape.
+            text: `Application of force on an object always results in a change in state of motion or change in shape.
 A body will be at rest only if no force acts on it.
-Every force applied result in some change of motion or shape.`
+Every force applied results in some change of motion or shape.`
           }
         ]
       }
@@ -95,7 +95,7 @@ Every force applied result in some change of motion or shape.`
         text: [
           `Forces are broadly classified into contact and non-contact forces. Muscular force and friction are examples of contact forces. Magnetic, electro-static and gravitational forces are examples of non-contact forces.
 # Muscular Force
-When we push an object like a school bag or lift a bucket of water, where does the force come from? This force is caused by the action of muscles in our body. The force resulting due to the action of muscles is known as the muscular force.
+When we push an object like a school bag or lift a bucket of water, where does the force come from? This force is caused by the action of muscles in our body. The force resulting from the action of muscles is known as the muscular force.
 Animals like bullocks, horses, donkeys and camels are used to perform various tasks for us using their muscular force.
 # Friction
 A ball rolling along the ground gradually slows down and finally comes to rest. When we stop pedaling a bicycle, it gradually slows down and finally comes to a stop. A car or a scooter also comes to rest once its engine is switched off. Similarly, a boat comes to rest if we stop rowing it. All these happen because of friction.
@@ -150,10 +150,10 @@ Gravity is not a property of the earth alone. Every object in the universe, whet
       label: 'Fill Up',
       type: 'fillup',
       data: {
-        text: `Atleast *two (three)* objects must interact for a force to come into play.
+        text: `At least *two (three)* objects must interact for a force to come into play.
 The *strength (direction)* of the force is expressed by its magnitude.
 Applying force can change the *shape (state, weight)* of an object.
-The force applied by us is called *muscular (human)* force.
+The force applied by us is called the *muscular (human)* force.
 *Frictional (Magnetic)* force is always opposite to the direction of motion.`
       }
     },
@@ -199,16 +199,16 @@ Its direction is along the motion of the object.`
           `Strong winds during a storm or a cyclone can blow away even the rooftops. You also learned that winds and cyclones are caused by differences in air pressure.
 Try cutting vegetables with a blunt knife and then with a sharp knife. Which is easier? Try to push a nail into a wooden plank by its head and by the pointed end. Which one will work?
 The area over which the force is applied plays a role in making these tasks easier. The force acting on a unit area of a surface is called pressure.
-pressure = force / area on which it acts
+pressure = force/area on which it acts
 At this stage, we consider only those forces which act perpendicular to the surface on which the pressure is to be computed.`,
           { type: 'img', src: 'physics/porter.jpg' },
-          `Porters place a round piece of cloth on their heads, when they have to carry heavy loads. By doing this they increase the area of contact of the load with their head. So, the pressure on their head is reduced and they find it easier to carry the load.
-Smaller the area, larger the pressure on a surface for the same force. The area of the pointed end of the nail is much smaller than that of its head. The same force, therefore, produces a pressure sufficient to push the pointed end of the nail into the wooden plank.
+          `Porters place a round piece of cloth on their heads when they have to carry heavy loads. By doing this they increase the area of contact of the load with their head. So, the pressure on their head is reduced and they find it easier to carry the load.
+The smaller the area, the larger the pressure on a surface for the same force. The area of the pointed end of the nail is much smaller than that of its head. The same force, therefore, produces a pressure sufficient to push the pointed end of the nail into the wooden plank.
 Shoulder bags are provided with broad straps so that the weight is spread over the area. Tools meant for cutting and piercing always have sharp edges.
 # Liquids and Gases
 Liquid and gases exert pressure on the walls of the container. When we blow a balloon, the air inside the balloon will be denser than the atmospheric air. As the air inside the balloon pushes the wall, the balloon will stretch. If we put a hole in a balloon, the air forces out.
 # Atmospheric Pressure
-The atmospheric air extends up to many kilometres above the surface of the earth. The pressure exerted by this air is known as atmospheric pressure. The force due to air in a column of the height of the atmosphere and area 15 cm × 15 cm (top area of our head) is nearly equal to the force of gravity on an object of mass 225 kg (2250N). The reason we are not crushed under this force of gravity is that the pressure inside our body is equal to the atmospheric pressure and balances the pressure from outside.`
+The atmospheric air extends up to many kilometers above the surface of the earth. The pressure exerted by this air is known as atmospheric pressure. The force due to air in a column of the height of the atmosphere and area 15 cm × 15 cm (top area of our head) is nearly equal to the force of gravity on an object of mass 225 kg (2250N). The reason we are not crushed under this force of gravity is that the pressure inside our body is equal to the atmospheric pressure and balances the pressure from outside.`
         ]
       }
     },
@@ -263,7 +263,7 @@ the wood is weak and the nail is strong`
       data: {
         text: `Atmospheric pressure *decreases (increases)* as we move up in space.
 The pressure inside the balloon is *greater (lesser)* than the pressure outside the balloon.
-Tools meant for cutting purpose should have *sharp (strong)* edges.
+Tools meant for cutting purposes should have *sharp (strong)* edges.
 Cyclones are caused due to differences in *air pressure (temperature)*.
 Pressure increases if the area on which the force acts *decreases (increases)*.`
       }
