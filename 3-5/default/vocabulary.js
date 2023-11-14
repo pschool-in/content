@@ -70,7 +70,59 @@ banana| The bananas are long and ______.|yellow, green
 window| The window is ______.|open, closed
 cup| The cup is ______ in colour.|yellow, orange`// 50 sentences (set of 10) for 3rd to 5th
         `rain | It is _______. | raining, shining
-        bat2 | This is a ______ bat. | cricket, tennis`
+bat2 | This is a ______ bat. | cricket, tennis
+cake | It is a __________ cake. | chocolate, vanilla
+dog | This is a ______ dog. | brown, white
+elephant | It is a ____ animal. | big, small
+ice-cream | It is __________. | cold, melting
+sun | It is __________. | shining, hiding
+spider | This is a ______ spider. | creepy, cute
+rainbow | It is __________. | colorful, dull
+star | It is __________. | twinkling, dim`,
+
+        `snake | This is a ______ snake. | slithery, still
+owl | This is an ______ owl. | wise, silly
+ocean | It is __________. | wavy, calm
+lion | This is a ______ lion. | roaring, quiet
+teddy | This is a ______ teddy bear. | cuddly, firm
+penguin | This is a ______ penguin. | waddling, still
+frog | This is a ______ frog. | jumping, sitting
+moon | It is __________. | round, square
+train | This is a ______ train. | fast, slow
+palm-tree | The ______ is tall. | palm tree, pine tree`,
+
+        `macaw | The colorful ______ is singing. | parrot, canary
+rose | This is a beautiful ______. | rose, daisy
+goldfish| Look at the shiny ______. | goldfish, betta fish
+shoe | I need new ______ for school. | shoes, sandals
+tailorbird | The tiny ______ is building a nest. | tailor bird, robin
+bouquet | Mom gave me a bouquet of colorful ______. | flowers, tulips
+boat | Let's go for a ride in the ______. | boat, yacht
+apartment | This is a tall, white ______. | apartment, house
+robin | The chirping ______ woke me up. | robin, bluebird
+dog | Our loyal ______ guards the house. | dog, guard dog`,
+
+        `bed | I sleep in a comfy ______. | bed, mattress
+apple | An ______ a day keeps the doctor away. | apple, orange
+cycle | I ride my colorful ______ to the park. | bicycle, bike
+ant | Tiny ______ march in a straight line. | ant, insect
+ship | A big ______ sails across the ocean. | ship, boat
+key | Don't forget your house ______. | key, door
+bee | The _____ buzzes around the colorful flower. | bee, fly
+rain | The gentle ______ patters on the roof. | rain, drizzle
+car | A fast red ______ zooms down the road. | car, van
+boots| Put on your _____; it might start raining! | boots, slippers`,
+
+        `daisy | This is a pretty ______. | daisy, sunflower
+peacock | The vibrant ______ is dancing. | peacock, flamingo
+sunflower | This is a bright yellow ______. | sunflower, daffodil
+backpack | I carry my books in a yelow ______. | backpack, lunchbox
+fort | This is a grand, stone ______. | fort, palace
+rocket | The ______ is zooming to space. | rocket, airplane
+toy | I ride my pink ______ in the park. | scooter, bicycle
+dolphin | The playful ______ is leaping in the water. | dolphin, seal
+tree-house | We built a cozy wooden ______ in the backyard. | treehouse, clubhouse
+submarine | Let's explore the ocean in a yellow ______. | submarine, boat`
       ]
     },
     {
