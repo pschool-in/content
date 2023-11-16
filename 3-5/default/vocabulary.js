@@ -17,11 +17,112 @@ export default {
         // 50 sentences (set of 10) for kg to 2nd
         `pull | _____ the door. | Pull, Push
 giraffe | Giraffe has a _____ neck. | long, short
-pillow | The pillow is _____ in color. | blue, red`,
+pillow | The pillow is _____ in color. | blue, red
+book | The book has a _____ cover. | hard, soft
+tree | The tree has _____ leaves. | green, brown
+car | The car has _____ wheels. | three, four
+cat | The cat has _____ fur. | soft, hard
+morning | The sun is _____ in the sky. | shining, hidden
+rose | The flower has _____ petals. | red, pink
+mountain | The mountain is _____ in height. | tall, short`,
 
-        // 50 sentences (set of 10) for 3rd to 5th
+        `door | The door has a _____ handle. | long, round
+computer | The computer is _____ in weight. | heavy, light
+umbrella | The umbrella is _____ when open. | large, small
+pencil | The pencil has a _____ tip. | sharp, blunt
+cloud | The cloud is _____. | soft, hard
+backpack| The bag is _____ in size. | big, small
+cake | The cake is _____ in taste. | sweet, sour
+mintleaf | The plant has _____ leaves. | green, brown
+hat | The hat has a _____ ribbon. | black, blue
+balloon | The balloon is _____ in shape. | round, square`,
+
+        `butterfly | The butterfly has _____ wings. | colorful, plain
+juice | The juice is _____ in taste. | sweet, bitter
+ball | The ball is _____ in shape. | round, square
+tortoise| The tortoise is very ______.|slow, fast
+chocolate| The chocolate is _____ in taste.|sweet, sour
+ship| The ship is _____ in size.| big, small
+teapot| The teapot is ____ in colour.| red, orange
+mirror| The mirror is _____.|tall, short
+literature| There are ______ books.|many, few
+sing| The _____ is singing.|girl, boy`,
+
+        `sick| The boy is ____.|sick, happy
+bat| The bat can ____.|fly, swim
+fish | The fish swims in the _____ . | water, air
+night | The moon is in the _____ . | sky, ocean
+nest| The nest has ____ eggs.| three, four
+frog | The frog has a _____ skin. | green, brown
+house | The house is _____. | big, cold
+duck | The duck has a _____ beak. | yellow, green
+apple | The apple is _____. | sweet, sour
+car | The car is _____ in color. | red, purple`,
+
+        `horse| This is a _____.|horse, donkey
+cap| The ____ is blue in colour.|cap, hat
+tie| This is a ___.|tie, bow
+torch| This is a _____.|torch, lamp
+chin| This is my ____.|chin, cheeck
+sheep| The sheep has _____ fur.|white, black
+lemon| A lemon is _____ in taste.|sour, sweet
+banana| The bananas are long and ______.|yellow, green
+window| The window is ______.|open, closed
+cup| The cup is ______ in colour.|yellow, orange`// 50 sentences (set of 10) for 3rd to 5th
         `rain | It is _______. | raining, shining
-        bat2 | This is a ______ bat. | cricket, tennis`
+bat2 | This is a ______ bat. | cricket, tennis
+cake | It is a __________ cake. | chocolate, vanilla
+dog | This is a ______ dog. | brown, white
+elephant | It is a ____ animal. | big, small
+ice-cream | It is __________. | cold, melting
+sun | It is __________. | shining, hiding
+spider | This is a ______ spider. | creepy, cute
+rainbow | It is __________. | colorful, dull
+star | It is __________. | twinkling, dim`,
+
+        `snake | This is a ______ snake. | slithery, still
+owl | This is an ______ owl. | wise, silly
+ocean | It is __________. | wavy, calm
+lion | This is a ______ lion. | roaring, quiet
+teddy | This is a ______ teddy bear. | cuddly, firm
+penguin | This is a ______ penguin. | waddling, still
+frog | This is a ______ frog. | jumping, sitting
+moon | It is __________. | round, square
+train | This is a ______ train. | fast, slow
+palm-tree | The ______ is tall. | palm tree, pine tree`,
+
+        `macaw | The colorful ______ is singing. | parrot, canary
+rose | This is a beautiful ______. | rose, daisy
+goldfish| Look at the shiny ______. | goldfish, betta fish
+shoe | I need new ______ for school. | shoes, sandals
+tailorbird | The tiny ______ is building a nest. | tailor bird, robin
+bouquet | Mom gave me a bouquet of colorful ______. | flowers, tulips
+boat | Let's go for a ride in the ______. | boat, yacht
+apartment | This is a tall, white ______. | apartment, house
+robin | The chirping ______ woke me up. | robin, bluebird
+dog | Our loyal ______ guards the house. | dog, guard dog`,
+
+        `bed | I sleep in a comfy ______. | bed, mattress
+apple | An ______ a day keeps the doctor away. | apple, orange
+cycle | I ride my colorful ______ to the park. | bicycle, bike
+ant | Tiny ______ march in a straight line. | ant, insect
+ship | A big ______ sails across the ocean. | ship, boat
+key | Don't forget your house ______. | key, door
+bee | The _____ buzzes around the colorful flower. | bee, fly
+rain | The gentle ______ patters on the roof. | rain, drizzle
+car | A fast red ______ zooms down the road. | car, van
+boots| Put on your _____; it might start raining! | boots, slippers`,
+
+        `daisy | This is a pretty ______. | daisy, sunflower
+peacock | The vibrant ______ is dancing. | peacock, flamingo
+sunflower | This is a bright yellow ______. | sunflower, daffodil
+backpack | I carry my books in a yelow ______. | backpack, lunchbox
+fort | This is a grand, stone ______. | fort, palace
+rocket | The ______ is zooming to space. | rocket, airplane
+toy | I ride my pink ______ in the park. | scooter, bicycle
+dolphin | The playful ______ is leaping in the water. | dolphin, seal
+tree-house | We built a cozy wooden ______ in the backyard. | treehouse, clubhouse
+submarine | Let's explore the ocean in a yellow ______. | submarine, boat`
       ]
     },
     {

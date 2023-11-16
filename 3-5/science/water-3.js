@@ -18,20 +18,20 @@ Potable Water is:
 1. free from harmful chemicals.
 2. transparent.
 3. odourless and colourless.
-4. free from bacteria which cause diseases.
+4. free from bacteria that cause diseases.
 # Sources of Drinking Water
 Water is available through many sources, but not all of them are suitable for drinking. It can be boiled to kill the germs and to make it suitable for drinking.
 # Saving Water
 Only 3% of the water in the entire Earth is freshwater. Thus, water is precious and we should never waste it.
-Some ways to prevent wastage of water:
+Some ways to prevent the waste of water:
 1. Never let water overflow from buckets.
-2. Wash fruits and vegetables in a bowl and not under running tap.
+2. Wash fruits and vegetables in a bowl and not under a running tap.
 3. Always close the tap while brushing your teeth.
-4. Pour left over water in a plant.
+4. Pour leftover water in a plant.
 5. Close the tap properly after use.
 6. Use a sprinkler to water the garden.
 # Conservation of Water Bodies
-Rain water flows through streams and rivers. Some water gets collected in low lying areas like ponds and lakes. Rain water also seeps into the ground and available as underground water. River waters can be blocked by building a dam, and we can use them in the Summer.
+Rainwater flows through streams and rivers. Some water gets collected in low-lying areas like ponds and lakes. Rain water also seeps into the ground and is available as underground water. River waters can be blocked by building a dam, and we can use them in the Summer.
 # Lake
 It is a large area filled with water and surrounded by land. It is usually a part of a river or some other water source.
 # Pond
@@ -43,9 +43,9 @@ A water tank is a container that stores water for our daily use.
 2. Plant trees at the bank of water bodies
 3. Reduce water pollution
 4. Avoid digging too many wells in a region
-# Water borne diseases
-Stagnant water is breeding ground for mosquitoes that result in Malaria and Dengue.
-Waterborne diseases such as cholera, dysentery, typhoid are caused by drinking unclean water.
+# Waterborne diseases
+Stagnant water is a breeding ground for mosquitoes that result in Malaria and Dengue.
+Waterborne diseases such as cholera, dysentery, and typhoid are caused by drinking unclean water.
 # Experiment
 Let us assemble a Simple Pump`,
           { type: 'img', src: 'science/waterPumpExperiment.jpg' },
@@ -54,7 +54,7 @@ A hollow tube - PVC, metal or even a long papaya stem
 # Procedure
 Hold the tube with your left hand and move it up and down into a bucket of water. Keep your right palm on top of the tube and open and close it with each up and down reciprocation. Soon, water will start squirting out. Here the up-down motion of the left hand does the pumping while the right palm acts like a valve.
 # Do you know?
-1. A camel can drink 60 to 100 litres of water at a time and live without water for several days.
+1. A camel can drink 60 to 100 liters of water at a time and live without water for several days.
 2. World Water Day is on 22nd March.`
         ]
       }
@@ -68,16 +68,16 @@ Hold the tube with your left hand and move it up and down into a bucket of water
         questions: [
           {
             qText: ' Which is the main source of water?',
-            options: 'Rain,Lake,Sea'
+            options: 'Rain, Lake, Sea'
           },
           {
             qText:
               ' Only _____ of the water in the entire Earth is fresh water.',
-            options: '3%,0.3%,30%'
+            options: '3%, 0.3%, 30%'
           },
           {
             qText: 'By __________ water, we can kill the germs present in it.',
-            options: 'boiling,cooling,filtering'
+            options: 'boiling, cooling, filtering'
           },
           {
             qText: 'Which of these is not true?',
@@ -85,7 +85,7 @@ Hold the tube with your left hand and move it up and down into a bucket of water
               'We should always waste water, Plants and animals need water,  We should use water carefully,  Water is precious'
           },
           {
-            qText: 'Where does the rain water go?',
+            qText: 'Where does the rainwater go?',
             options:
               '* Seeps into the ground, * Plants absorb the water, * Mingles with sea and ocean, * Mixes with lake and pond'
           },
@@ -103,13 +103,13 @@ Hold the tube with your left hand and move it up and down into a bucket of water
           },
           {
             qText: 'Which of the following is responsible for water in a well?',
-            options: 'ground water, river, water tank, stream'
+            options: 'groundwater, river, water tank, stream'
           },
           {
             qText:
               'Which of the following does not relate to preserving water?',
             options:
-              'taking umbrella while going out in rain,avoiding water pollution,planting more trees,saving rain water'
+              'taking an umbrella while going out in rain, avoiding water pollution, planting more trees,saving rain water'
           }
         ]
       }
@@ -123,10 +123,10 @@ Hold the tube with your left hand and move it up and down into a bucket of water
         printTitle: 'Underline the odd one',
         fontSize: '1.3rem',
         noCaps: true,
-        text: `Hill,Lake,Pond, Sea
-Rose, Lily, Lotus,Water Hyacinth   
-Fish,Horse, Tiger, Cow
-Combing, Swimming, Washing,Bathing
+        text: `Hill, Lake, Pond, Sea
+Rose, Lily, Lotus, Water Hyacinth   
+Fish, Horse, Tiger, Cow
+Combing, Swimming, Washing, Bathing
 Water Tank, Sea, Ocean, Lake
 Ice Cream, Water, Ice, Vapour`
       }
@@ -142,15 +142,15 @@ Ice Cream, Water, Ice, Vapour`
             name: 'True',
             text: `Saving water is our duty.
 Always close the tap while brushing.
-Planting more trees lead to rainfall.
-It is necessary to collect rain water.`
+Planting more trees leads to rainfall.
+It is necessary to collect rainwater.`
           },
           {
             name: 'False',
             text: `Living things do not need water.
-A tank is a larger than a reservoir.
-We should wash our vehicles everyday.
-We should bathe in shower to save water.`
+A tank is larger than a reservoir.
+We should wash our vehicles every day.
+We should bathe in the shower to save water.`
           }
         ]
       }
@@ -163,7 +163,7 @@ We should bathe in shower to save water.`
         title: 'Click the blanks and fill it with the right word.',
         printTitle: 'Fill in the blanks.',
         text: `Drinking water is known as *potable (pot)* water.
-Water that collects in the low lying areas is called *lake (sea)*.
+Water that collects in the low-lying areas is called *lake (sea)*.
 It is our *responsibility (work)* to keep the public water resources clean.
 The largest source of water on the earth is *ocean (sea)*.
 *All (Few)* living things need water.
@@ -177,22 +177,22 @@ The largest source of water on the earth is *ocean (sea)*.
       data: {
         title: 'Experiments with Water',
         text: [
-          `Add a spoon of salt in a cup of water and stir it with the spoon. Observe what happens. Repeat the same experiment using sand instead of salt. Observe the difference.
-          # What mix with water? 
+          `Add a spoon of salt to a cup of water and stir it with the spoon. Observe what happens. Repeat the same experiment using sand instead of salt. Observe the difference.
+          # What mixes with water? 
           We can find salt dissolves in water. The added salt is not visible in the water. But sand doesn't dissolve in water. We can see them at the bottom of the cup.
-          Substances like salt, sugar, detergent dissolve in water. But oil, turmeric powder, sand, sawdust doesn't dissolve in water.
+          Substances like salt, sugar, and detergent dissolve in water. But oil, turmeric powder, sand, and sawdust don't dissolve in water.
           # Floats vs Sinks
-          Matters that don't mix with water either floats on the surface of water or sink and settle at the bottom. If it is heavier than water than it sinks. If it is lighter than water than it floats.
-          Things like coin, rock, sand, marble sink in water. Things like wood, sponge, apple, paper, eraser floats in water.
+          Matters that don't mix with water either float on the surface of the water or sink and settle at the bottom. If it is heavier than water then it sinks. If it is lighter than water then it floats.
+          Things like coins, rocks, sand, marble sink in water. Things like wood, sponges, apples, paper, and erasers float in water.
 # New Words!
 1. Solution: The mixture of water and the substance dissolved in it is called a solution. Water retains the taste of the substance dissolved. For example, water with salt dissolved in it will taste salty.
-2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomach can drink this.
+2. ORS: It stands for Oral Rehydration Solution and is a solution of water, salt and sugar. People with upset stomachs can drink this.
 3. Saline: It is usually a solution of salt and water that is given to patients in the hospitals through drips.
-4. Micro-organism: An organism that is not visible with the naked eyes. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
+4. Micro-organism: An organism that is not visible to the naked eye. 'Microscopes' are the instruments used to see them. Some of these are very important and useful for both nature and us, humans.
 # Do you know?
-1. Sea water is unfit for drinking because its saline.
-2. Taste of well-water differs from area to area. It is because the ground water also dissolves different substances present in the soil.
-3. Carbondioxide is dissolved in water (under pressure) to make cold-drinks.
+1. Sea water is unfit for drinking because it is saline.
+2. The taste of well water differs from area to area. This is because the groundwater also dissolves different substances present in the soil.
+3. Carbon dioxide is dissolved in water (under pressure) to make cold drinks.
 4. Particles of soil are heavier than water but since they're small in size, they take time to sink. Also, swirling alum in water helps these particles to settle down faster.
 5. Boiling the water kills micro-organisms present in it and makes it safe for drinking.`
         ]
@@ -204,8 +204,8 @@ The largest source of water on the earth is *ocean (sea)*.
       id: 'drag-drop',
       data: {
         text: `Salt and sugar *dissolve* in water.
-Mixture obtained after dissolving a substance in water is called *solution*.
-Some micro-organisms can cause *diseases* if they enter our body.
+Mixture obtained after dissolving a substance in water is called a *solution*.
+Some microorganisms can cause *diseases* if they enter our body.
 Things that float in water are *lighter*.
 Things that sink in water are *heavier*.
 *Alum* is swirled in muddy water to clean it.`

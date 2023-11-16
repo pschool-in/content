@@ -10,19 +10,19 @@ export default {
       label: 'Passage',
       data: {
         title: 'Plants-Notes',
-        text: `Plants are an important part of nature. Plants need good soil, water and sunlight. The main parts of the plant are root, stem, leaf, flower, vegetable and fruit. Plants gives us food, fresh air, medicine, wood etc.
+        text: `Plants are an important part of nature. Plants need good soil, water and sunlight. The main parts of the plant are the root, stem, leaf, flower, vegetable and fruit. Plants give us food, fresh air, medicine, wood etc.
 # Leaf
-It is usually green in colour. Leaves are of different shapes and sizes. Leaves have a life cycle on its own. A new leaf would be soft and small. It grows in size. And finally it will dry and fall to the ground. Leaves are food to animals like goat, cow and deer. We too eat some of the leaves. Though they are not tasty, they are healthy. 
+It is usually green in color. Leaves are of different shapes and sizes. Leaves have a life cycle on its own. A new leaf would be soft and small. It grows in size. And finally, it will dry and fall to the ground. Leaves are food for animals like goats, cows and deer. We too eat some of the leaves. Though they are not tasty, they are healthy. 
 # Flower
-Many kids feel that flowers are the most attractive part of a plant. Flowers are of different shapes and colours. Some flowers smell nicely. We can see butterflies and bees sitting on flowers and drinking honey. 
+Many kids feel that flowers are the most attractive part of a plant. Flowers are of different shapes and colors. Some flowers smell nice. We can see butterflies and bees sitting on flowers and drinking honey. 
 # Vegetable & Fruit
 In most of the plants, flowers become vegetables and fruits. They provide food to humans like us, and they are very healthy. 
 # Seed
-Seeds are very important to plant, because they help in bringing new plants. Farmers sow the seeds to grow plants. Birds eat the fruits and throw the seeds in some other places. And after few days, a new plant will come from the seeds.
+Seeds are very important to plants because they help in bringing new plants. Farmers sow the seeds to grow plants. Birds eat the fruits and throw the seeds in some other places. And after a few days, a new plant will come from the seeds.
 # Stem
-Stem is the strongest part of a plant. It helps the plant to stand straight. Plants with weak stems are usually creepers. They need support to grow.
+The stem is the strongest part of a plant. It helps the plant to stand straight. Plants with weak stems are usually creepers. They need support to grow.
 # Root
-Root is responsible for absorbing water and other minerals from the soil. The strength of the plant depends on the strength of the roots. Plants with weak roots fell during rain and heavy winds.`
+The root is responsible for absorbing water and other minerals from the soil. The strength of the plant depends on the strength of the roots. Plants with weak roots fell during rain and heavy winds.`
       }
     },
     {
@@ -102,7 +102,7 @@ peas, seed`
       type: 'match',
       label: 'Flower and Color',
       data: {
-        title: 'Match the flowers with its usual colour',
+        title: 'Match the flowers with their usual color',
         text: `Jasmine, White
 Sunflower, Yellow
 Hibiscus, Red
@@ -148,7 +148,7 @@ Marigold, Orange`
           },
           {
             qText: 'Plants need _______ for their growth',
-            options: 'sun light, moon light, wind'
+            options: 'sunlight, moonlight, wind'
           },
           {
             qText: 'Which of the following is a fruit?',
@@ -175,7 +175,7 @@ Roots help plants to get water.`
           },
           {
             name: 'False',
-            text: `It is a good habit to pluck flowers from public garden. 
+            text: `It is a good habit to pluck flowers from a public garden. 
 All flowers become fruits. 
 Plants can move from one place to another.`
           }
@@ -188,7 +188,7 @@ Plants can move from one place to another.`
       type: 'matchByDragDrop',
       data: {
         text: `*Flower* is the most attractive part of a plant.
-*Seed* helps in growing new plant.
+*Seed* helps in growing new plants.
 *Stem* helps the plant to stand straight.
 *Root* helps the plant to get water.
 *Fruit* is the important edible part of a plant.`
@@ -263,17 +263,17 @@ Plants can move from one place to another.`
       id: 'plants-as-food-notes',
       data: {
         title: 'Plants as Food',
-        text: `Humans and other animals often use plants as food. Plants we eat are edible. Edible parts of some plants include leaves, stems and roots. We also eat fruits produced by plants.
+        text: `Humans and other animals often use plants as food. The plants we eat are edible. Edible parts of some plants include leaves, stems and roots. We also eat fruits produced by plants.
         # Roots as food
         Many plants store excess food in their roots. They have thick and swollen roots. Eg: Carrot, Beetroot, Tapioca
         # Stems as food
-        In some plants the stem stores the excess food in it. Eg: sugarcane, potato, onion, ginger. Though some of them grow underground, they are not roots. 
+        In some plants, the stem stores the excess food in it. Eg: sugarcane, potato, onion, ginger. Though some of them grow underground, they are not roots. 
         # Leaves as food
-        We eat the leaves of plants like cabbage, coriander,moringa.
+        We eat the leaves of plants like cabbage, coriander, and moringa.
         # Flowers as food
         Many flowers are used as food. Eg: banana flower, Cauliflower, clove.
         # Seeds as food.
-        Grains are seeds.  Pulses, cereals, fenugreek are the commonly eaten seeds.`
+        Grains are seeds. Pulses, cereals, and fenugreek are the commonly eaten seeds.`
       }
     },
 
@@ -287,7 +287,7 @@ Plants can move from one place to another.`
         # Taproot
         Taproot has one main, thick root. It grows from the radicle and goes deep into the soil. Many small thin roots grow out from the main root. Plants such as carrot, beetroot, turnip, mango and neem have taproots. 
         # Fibrous Root
-        A fibrous root consists of many thin roots of different sizes. They grow from the base of the stem and all of them are bunched together. They do not go deep into the soil. Plants such as grass, paddy, wheat and onion have fibrous roots. Coconut and palm tree have fibrous root.
+        A fibrous root consists of many thin roots of different sizes. They grow from the base of the stem and all of them are bunched together. They do not go deep into the soil. Plants such as grass, paddy, wheat and onion have fibrous roots. Coconut and palm trees have fibrous roots.
         In some plants, roots store food. Eg: Carrot, Beetroot, Radish`
       }
     },
@@ -300,14 +300,14 @@ Plants can move from one place to another.`
         types: [
           {
             name: 'True',
-            text: `Grass has fibrous root.
-            Taproot usually grow very deep.
-            Neem and mango trees have tap root.
-            Palm and coconut trees have fibrous root.`
+            text: `Grass has a fibrous root.
+            Taproot usually grows very deep.
+            Neem and mango trees have tap roots.
+            Palm and coconut trees have fibrous roots.`
           },
           {
             name: 'False',
-            text: `All trees have tap root.
+            text: `All trees have a tap root.
             Fibrous root has one main root.`
           }
         ]
@@ -337,10 +337,10 @@ Plants can move from one place to another.`
       data: {
         title: 'Stem',
         text: `Stem is the main part of the shoot system. It grows towards the sunlight. It looks green when it is young. Branches, leaves, buds, flowers and fruits grow from the stem.
-Herbs such as coriander and mint have a thin and weak stem. Trees such as peepal and banyan have very strong and thick stem called trunk. As trees grow older, their trunks grow wider.
+Herbs such as coriander and mint have a thin and weak stem. Trees such as peepal and banyan have very strong and thick stems called trunks. As trees grow older, their trunks grow wider.
 # Functions of the Stem
 1. It supports the whole plant.
-2. It transports food from leaf and water from root to various parts of the plant.
+2. It transports food from leaves and water from roots to various parts of the plant.
 3. Some stems store excess food in them. E.g., Potato, Onion.`
       }
     },
@@ -349,7 +349,7 @@ Herbs such as coriander and mint have a thin and weak stem. Trees such as peepal
       id: 'stem-fillup',
       type: 'matchByDragDrop',
       data: {
-        text: `Stem is the main part of the *shoot* system. It grows towards the *sunlight*. Herbs like coriander have a *weak* stem. Banyan tree has a *strong* stem and it is called *trunk*.`
+        text: `Stem is the main part of the *shoot* system. It grows towards the *sunlight*. Herbs like coriander have a *weak* stem. The banyan tree has a *strong* stem and it is called a *trunk*.`
       }
     },
     {
@@ -392,7 +392,7 @@ Some fruits are seedless. Eg: Pineapple, Banana`
             options: 'Pineapple, Papaya, Apricot'
           },
           {
-            qText: 'Which of the following is not part of shoot system?',
+            qText: 'Which of the following is not part of the shoot system?',
             options: 'Root, Stem, Seed, Flower'
           },
           {
