@@ -50,33 +50,29 @@ umbrella | The umbrella protects us from ______. | rain, cold
 
 //make better sentences for below
 
+cat | The cat says "__." | meow, woof
+shoe | A shoe is worn on the _____. | foot, head
+banana | A banana is ____ when it's ripe. | yellow, purple
+rose | The flower is ____ and smells nice. | colorful, black
+sun | The sun gives us light and _. | heat, cold
+frog | The frog says "." | ribbit, quack
+chair | I ___ on a chair. | sit, jump
+tree | The tree provides _____. | shade, water
+dog | The dog _____ loudly. | barks, purrs
+key | A ____ unlocks a door. | key, lock
 
-book | The book has a _____ cover. | hard, soft
-door | The door has a _____ handle. | long, round
-computer | The computer is _____ in weight. | heavy, light
-umbrella | The umbrella is _____ when open. | large, small
-cloud | The cloud is _____. | soft, hard
-backpack| The bag is _____ in size. | big, small
-cake | The cake is _____ in taste. | sweet, sour
-mintleaf | The plant has _____ leaves. | green, brown // we already said tree has green leaves
-hat | The hat has a _____ ribbon. | black, blue
-balloon | The balloon is _____ in shape. | round, square
-butterfly | The butterfly has _____ wings. | colorful, plain
-juice | The juice is _____ in taste. | sweet, bitter
+elephant | The elephant has a long ____. | trunk, tail
+book | I love to ___ a good book. | read, eat
+moon | The moon is bright in the _____. | night, morning
+ocean | The ocean is full of _____. | water, sand
+kite | A kite flies high in the ____. | sky, water
+guitar | A guitar has strings and makes _____. | music, noise
+camera | I take pictures with my ____. | camera, binoculars
+phone | I talk on the ____ with friends. | phone, TV
+shirt | I wear a shirt in ___ weather. | hot, cold
+star | The star shines in the _____ sky. | night, morning`,
 
-chocolate| The chocolate is _____ in taste.|sweet, sour
-ship| The ship is _____ in size.| big, small
-mirror| The mirror is _____.|tall, short
-house | The house is _____. | big, cold
-duck | The duck has a _____ beak. | yellow, green
-apple | The apple is _____. | sweet, sour
-car | The car is _____ in color. | red, purple
-banana| The bananas are long and ______.|yellow, green
-cup| The cup is ______ in colour.|yellow, orange
-`,
-
-        `
-` // 50 sentences (set of 10) for 3rd to 5th
+        // 50 sentences (set of 10) for 3rd to 5th
         `rain | It is _______. | raining, shining
 bat2 | This is a ______ bat. | cricket, tennis
 cake | It is a __________ cake. | chocolate, vanilla
