@@ -3,12 +3,119 @@ export default {
   id: 'ratio-7',
   list: [
     {
+      label: 'Equivalent Ratio',
+      type: 'classifySentence',
+      id: 'eqn-or-not',
+      data: {
+        title: 'Classify the below two ratios as equivalent or not',
+        fontSize: '2rem',
+        types: [
+          //the last 2 problems from both sets are taken from 7m
+          {
+            name: 'Equivalent',
+            text: `1 : 2, 20 : 40
+            75 : 100, 3 : 4
+            2 : 5, 10 : 25
+             3 : 5, 12 : 20 
+            100 : 11, 1000 : 110`
+          },
+          {
+            name: 'Not Equivalent',
+            text: ` 1 : 5, 10 : 100
+            3 : 5, 10 : 6
+            1 : 7, 3 : 14
+            12 : 19, 18 : 25
+            1 : 7, 7 : 17`
+          }
+        ]
+      }
+    },
+    {
+      type: 'informationProcessing',
+      id: 'rate-table',
+      label: 'Rate Table',
+      data: [
+        {
+          title:
+            'The marks obtained by a student in two subjects are given below.',
+          type: 'table',
+          table: `Subject | Marks Obtained | Maximum Marks
+Maths | 17 | 25
+English | 12 | 20`,
+          widths: [140, 100, 100],
+          questions: [
+            {
+              qText: 'What percentage did she get in English?',
+              type: 'number',
+              value: 60
+            },
+            {
+              qText: 'What percentage did she get in Maths?',
+              type: 'number',
+              value: 68
+            },
+            {
+              qText: 'In which subject the student has performed better?',
+              options: 'Maths, English, Both equal'
+            },
+            {
+              qText:
+                'The ratio between marks obtained and maximum marks for English is ____. (in simplest form)',
+              options: '3 : 5, 6 : 10, 12 : 20'
+            },
+            {
+              qText:
+                'The ratio between marks obtained and maximum marks for Maths is ____. (in simplest form)',
+              options: '17 : 25, 34 : 50, 68 : 100'
+            }
+          ]
+        },
+        {
+          title: 'The marks obtained by Julie are given below.',
+          type: 'table',
+          table: `Subject | Marks Obtained | Maximum Marks
+Maths | 19 | 25
+English | 13 | 20
+History | 19 | 50
+Science | 21 | 25`,
+          widths: [140, 100, 100],
+          questions: [
+            {
+              qText:
+                'True or False: Julie got same percentage in both Maths and History.',
+              options: 'False, True'
+            },
+            {
+              qText: 'What percentage did she get in History?',
+              type: 'number',
+              value: 38
+            },
+            {
+              qText: 'What percentage did she get in Science?',
+              type: 'number',
+              value: 84
+            },
+            {
+              qText:
+                'What is the ratio between the maximum marks of History and Science?',
+              options: '2 : 1, 1 : 2, 25 : 50, 19 : 21'
+            },
+            {
+              qText: 'In which subject, did she get less percentage of marks?',
+              options: 'History, Science, Maths, English'
+            }
+          ]
+        }
+      ]
+    },
+    {
       type: 'numberInput',
       id: 'simplify',
       label: 'Ratio - Simplest Form',
       data: {
         title: 'Express the given ratio in the simplest form.',
         type: 'word-problem',
+        fracFontSize: '0.9rem',
         list: [
           `96 : 144
 HCF of 96 and 144 = ?0
@@ -130,31 +237,65 @@ So, 4:7 < 5:8
       type: 'numberInput',
       id: 'wordproblem-2',
       label: 'Ratios of Different Units',
-      data: {
+      commonData: {
         title: 'Express the following ratio in simplest form.',
-        type: 'word-problem',
-        list: [
-          `25 cm to 1 m.
+        type: 'word-problem'
+      },
+      data: [
+        {
+          list: [
+            `2 1/2 L : 600 mL
+            We need to write both in same units. Lets write in the smaller unit.
+            2 1/2 L = ?0 mL
+            So the ratio is ?1 : ?2
+            It can be simplified to ?3 : ?4
+            2500, 2500, 600, 25, 6`,
+
+            `550 mL : 3 L 300 mL
+            3 L 300 mL = ?0 mL
+            So the ratio is ?1 : ?2
+            It can be simplified to ?3 : ?4
+            3300, 550, 3300, 1, 6`,
+
+            `5 kg 500 g : 990 g
+            5 kg 500 g = ?0 g
+            So the ratio is ?1 : ?2
+            It can be simplified to ?3 : ?4
+            5500, 5500, 990, 50, 9`,
+
+            `3 hours 20 minutes : 2 hours
+              Lets write both sides in minues.
+              3 hours 20 minutes = ?0 minutes
+              2 hours = ?1 minutes
+              So the ratio is ?2 : ?3
+              It can be simplified to ?4 : ?5
+              200, 120, 200, 120,  5, 3
+            `
+          ]
+        },
+        {
+          list: [
+            `25 cm to 1 m.
 We need to write to numbers in the same units. It is good to write them in the smaller unit. 
 1 m = ?0 cm
 So the ratio is ?1 : ?2
 It can be simplified to ?3 : ?4
 100, 25, 100, 1, 4`,
 
-          `85 paise to ₹ 5
+            `85 paise to ₹ 5
 ₹ 5 = ?0 paise
 So the ratio is ?1 : ?2
 HCF = ?3,
 It can be simplified to ?4 : ?5
 500, 85, 500, 5, 17, 100`,
 
-          `3 kg to 500 g
+            `3 kg to 500 g
 3 kg = ?0 g
 So the ratio is ?1 : ?2
 It can be simplified to ?3 : ?4
 3000, 3000, 500, 6, 1`,
 
-          `15 ^m/s to 108 ^km/h
+            `15 ^m/s to 108 ^km/h
 Converting ^km/h to ^m/s is little challenging.
 1 km = ?0 m
 1 hour = ?1 seconds
@@ -165,25 +306,25 @@ So the ratio is ?2 : ?3/?4
 = ?6 : ?7
 1000, 3600, 15, 108, 3.6, 30, 1, 2
 `,
-          `35 days to 6 weeks
+            `35 days to 6 weeks
 6 weeks = ?0 days
 So the ratio is ?1 : ?2
 It can be simplified as ?3 : ?4
 42, 35, 42, 5, 6`,
 
-          `300 mL to 1 L 350 mL
+            `300 mL to 1 L 350 mL
 1 L 350 mL = ?0 mL
 The ratio is ?1 : ?2
 The HCF = ?3
 So the ratio can be simplified as ?4 : ?5
 1350, 300, 1350, 150, 2, 9`,
 
-          `1 1/2 hours to 1/2 hours
+            `1 1/2 hours to 1/2 hours
 By writing the mixed fraction as improper fraction, and removing the denominator, we get the ratio
 = ?0 : ?1
 3, 1`,
 
-          `8 months to 3 years
+            `8 months to 3 years
 3 years = ?0 months
 The ratio is ?1 : ?2
 The HCF of the two numbers = ?3
@@ -191,13 +332,139 @@ So the ratio can be simplified as
 ?4 : ?5
 36, 8, 36, 4, 2, 9`,
 
-          `2 km to 1 km 50 m
+            `2 km to 1 km 50 m
 2 km = ?0 m
 1 km 50 m = ?1 m
 So the ratio is ?2 : ?3
 HCF = ?4
 So the ratio can be simplified as ?5 : ?6
 2000, 1050, 2000, 1050, 50, 40, 21`
+          ]
+        }
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'wordproblem-2',
+      label: 'Ratio Between 3 terms',
+      data: {
+        title: 'Word Problems',
+        type: 'word-problem',
+        list: [
+          `Find the ratio A : B : C in the following case.
+          A : B = 1 : 2 and B : C = 4 : 3
+          We need to find a common number for the term B.
+          In the first ratio, B = ?0
+          In the second ratio, B = ?1
+          The LCM of ??0 and ??1 = ?2
+          1 : 2 can be written as ?3 : ?4
+          A : B : C = ?5 : ?6 : ?7
+          2, 4, 4, 2, 4, 2, 4, 3`,
+
+          `Find the ratio A : B : C in the following case.
+          A : B = 6 : 7 and B : C = 6 : 5
+          We need to find a common number for the term B.
+          In the first ratio, B = ?0
+          In the second ratio, B = ?1
+          The LCM of ??0 and ??1 = ?2
+          6 : 7 can be written as ?3 : ?4
+          A : B : C = ?5 : ?6 : ?7
+          7, 6, 42, 36, 42, 36, 42, 35`,
+
+          `If A : B = 5 : 7 and B : C = 6 : 10, then find the ratio between A, B and C.
+Here we need to find a common number for the term B.
+In the first ratio, B = 7
+In the second ratio, B = 6
+LCM of 7 and 6 = ?0
+5 : 7 can be written as ?1 : ?2
+6 : 10 can be written as ?3 : ?4
+∴ A : B : C = ?5 : ?6 : ?7
+42, 30, 42, 42, 70, 30, 42, 70`
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'wordproblem-3',
+      label: 'Word Problems - 2',
+      data: {
+        title: 'Word Problems',
+        type: 'word-problem',
+        fracFontSize: '1rem',
+        list: [
+          `Divide ₹ 5200 between Sudha, Latha and Anitha in the ratio 2 : 7 : 4.
+          We need to find the equivalent ratio where the numbers add up to ₹ 5200
+          Let us write the ratio in the form 2𝑥 : 7𝑥 : 4𝑥
+          2𝑥 + 7𝑥 + 4𝑥 = ?0 𝑥
+          𝑥 = 5200/??0 = ?1
+          Sudha's share = 2 × ??1 = ?2
+          Latha's share = 7 × ??1 = ?3
+          Anitha's share = 4 × ??1 = ?4
+          13, 400, 800, 2800, 1600 `,
+
+          `A bag of 4100 candies is packed in 3 different types of boxes. The ratio of the number of candies in box 1 to the number of candies in box 2 is 2 : 5 and the ratio of the number of candies in box 2 to the number of candies in box 3 is 3 : 4. Find the number of candies in each boxes.
+          First lets find the ratio between three boxes.
+          First ratio = 2 : 5
+          Second ratio = 3 : 4
+          Combined ratio = ?0 : ?1 : ?2
+          Total parts = ?3
+          Value of one part = 4100/??3 = ?4
+          First box = ??0 × ??4 = ?5 candies
+          Second box = ??1 × ??4 = ?6 candies
+          Third box = ??2 × ??4 = ?7 candies
+          6, 15, 20, 41, 100, 600, 1500, 2000`,
+
+          `Find the angles of a triangle in the following case. The angles are in the ratio 5 : 3 : 10
+          The sum of three angles in a triangle = ?0
+          We have to form an equivalent ratio so that the sum of the term equals ??0
+          Lets write the ratio in the form 5𝑥 : 3𝑥 : 10𝑥
+          5𝑥 + 3𝑥 + 10𝑥 = ?1 𝑥
+          𝑥 = ?2
+          ∴ The angles are ?3 , ?4 , ?5
+          180, 18, 10, 50, 30, 100`,
+
+          `Find the angles of a triangle in the following case. The ratio of the base angle to the other angle in an isosceles triangle is 1 : 4
+          In an isosceles triangle two sides are equal, so their opposite angles are equal.
+          So the ratio between the angles can written as 1 : 4 : ?0
+          We have to form an equivalent ratio so that the sum of the numbers equal ?1
+          Lets write the ratio in the form 𝑥 : 4𝑥 : 4𝑥
+          𝑥 + 4𝑥 + 4𝑥 = ?2 𝑥
+          𝑥 = ??1/??2 = ?3
+          ∴ The angles are ?4 , ?5 , ?6
+          4, 180, 9, 20, 20, 80, 80`,
+
+          `A family spends ₹ 7500 per month to buy vegetables, fruits and groceries. The ratio of the amounts the family spends for buying them is 2 : 3 : 7 respectively. Find the money spent on each category.
+          We have to form the equivalent ratio so that the terms add up to ₹ 7500.
+          Lets rewrite the ratio as 2𝑥 : 3𝑥 : 7𝑥
+          2𝑥 + 3𝑥 + 7𝑥 = ?0 𝑥
+          𝑥 = 7500/??0 = ?1
+          For vegetables = 2 × ??1 = ₹ ?2
+          For fruits = 3 × ??1 = ₹ ?3
+          For groceries = 7 × ??1 = ₹ ?4
+          12 , 625, 1250, 1875, 4375`,
+
+          `A rope of length 10^m 20^cm is to be divided into 3 pieces whose lengths are in the ratio 4 : 6 : 7. Find the length of each piece.
+          Length of the rope = ?0 ^cm
+          We have to rewrite the ratio so that the terms add up to ??0.
+          Lets rewrite the ratio as 4𝑥 : 6𝑥 : 7𝑥
+          4𝑥 + 6𝑥 + 7𝑥 = ?1 𝑥
+          𝑥 = ??0/??1 = ?2
+          Length of first piece = 4 × ??2 = ?3 ^cm
+          Length of second piece = 6 × ??2 = ?4 ^cm
+          Length of third piece = 7 × ??2 = ?5 ^cm
+          1020, 17, 60, 240, 360, 420`,
+
+          `Find out who will get the highest amount if ₹ 31,175 is divided amoung A, B and C in such a way that, A : B = 5 : 6 and B : C = 4 : 7. Also, find the amount each one will get.
+          First we need to find the ratio A : B : C.
+          LCM of B in the 2 ratios = ?0
+          So the combined ratio = ?1 : ??0 : ?2
+          The total terms in the ratio = ?3
+          𝑥 = 31175/??3 = ?4
+          A gets = ??1 × ??4 = ₹ ?5
+          B gets = ??0 × ??4 = ₹ ?6
+          C gets = ??2 × ??4 = ₹ ?7
+          ∴ C gets the highest amount.
+          12, 10, 21, 43, 725, 7250, 8700, 15225`
         ]
       }
     }
