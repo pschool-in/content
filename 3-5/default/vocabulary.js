@@ -84,53 +84,54 @@ spider | This is a ______ spider. | creepy, cute
 rainbow | Rainbow is __________. | colorful, dull
 star | It is __________. | twinkling, dim
 apple | An apple a day keeps the _____ away. | doctor, teacher
+
 key | We can't enter the house if the ____ is lost. | key, lock
 toy | I got this toy scooter as a ____. | gift, lift
 
 
 //make better sentences for below
 
-snake | This is a ______ snake. | slithery, still
-owl | This is an ______ owl. | wise, silly
-ocean | It is __________. | wavy, calm
-lion | This is a ______ lion. | roaring, quiet
-teddy | This is a ______ teddy bear. | cuddly, firm
-penguin | This is a ______ penguin. | waddling, still
-frog | This is a ______ frog. | jumping, sitting
-moon | It is __________. | round, square
-train | This is a ______ train. | fast, slow
-palm-tree | The ______ is tall. | palm tree, pine tree
-macaw | The colorful ______ is singing. | parrot, canary
+baby| The baby is __________.|crawling, walking
+riding| I ____ my bicycle to school everyday.|ride, take
+sunflower | The sunflower follows the ____. | sun, moon
+lion | The lion is known as the "____ of the jungle." | king, queen
+clock | The clock has hands that show the hours and _______. | minutes, seconds
+rocket | Astronauts travel to ______ in a rocket. | space, ocean
+cloud | A cloud is a collection of tiny _____ droplets. | water, dust
+rain | The rain makes everything __________. | wet, dry
 
+bee | Bees collect nectar from flower to make ______. | honey, wax
+sun | The sun provides light and ______ to the Earth. | warmth, shade
+rain | Rain is essential for ______ to grow. | plants, man
+literature | Reading is a good ______. | habit, job
+raincoat | Wear a raincoat when it _____. | rains, warms
+ocean | The ocean is home to many ___ creatures. | sea, land
+flag | Every _______ has its own flag. | country, street
+train | The train travels on ______. | tracks, water
+glasses | Wear glasses to ____ better. | see, hear
+spade | Use a spade to ____ in the sand. | dig, rake
 
+river | The water in the river is __________. | clear, muddy
+penguin | The penguin is a bird that cannot ___. | fly, walk
+valley | Cows, chickens, and pigs live on a _____. | farm, mountain
+candle | A candle _____ in the dark. | glows, dims
+forest | Lions, tigers, and elephants live in the _____. | forest, zoo
+hat | Wear a hat to protect yourself from the ____. | sun, cold
+scarf | Wear a scarf to protect yourself from the ____. | cold, sun
+hockey| Hockey is the national game of _______.|India, China
+map | We can use a map to find our ____. | way, lost toy
+hand| Wash your hands to keep them ______.|clean, dirty
 
-tailorbird | The tiny ______ is building a nest. | tailor bird, robin
-rose | This is a beautiful ______. | rose, daisy
-goldfish| Look at the shiny ______. | goldfish, betta fish
-shoe | I need new ______ for school. | shoes, sandals
-bouquet | Mom gave me a bouquet of colorful ______. | flowers, tulips
-boat | Let's go for a ride in the ______. | boat, yacht
-apartment | This is a tall, white ______. | apartment, house
-robin | The chirping ______ woke me up. | robin, bluebird
-dog | Our loyal ______ guards the house. | dog, guard dog
-bed | I sleep in a comfy ______. | bed, mattress
-cycle | I ride my colorful ______ to the park. | bicycle, bike
-ant | Tiny ______ march in a straight line. | ant, insect
-ship | A big ______ sails across the ocean. | ship, boat
-
-bee | The _____ buzzes around the colorful flower. | bee, fly
-rain | The gentle ______ patters on the roof. | rain, drizzle
-car | A fast red ______ zooms down the road. | car, van
-boots| Put on your _____; it might start raining! | boots, slippers
-daisy | This is a pretty ______. | daisy, sunflower
-peacock | The vibrant ______ is dancing. | peacock, flamingo
-sunflower | This is a bright yellow ______. | sunflower, daffodil
-backpack | I carry my books in a yelow ______. | backpack, lunchbox
-fort | This is a grand, stone ______. | fort, palace
-rocket | The ______ is zooming to space. | rocket, airplane
-dolphin | The playful ______ is leaping in the water. | dolphin, seal
-tree-house | We built a cozy wooden ______ in the backyard. | treehouse, clubhouse
-submarine | Let's explore the ocean in a yellow ______. | submarine, boat`
+tiger | The tiger is a majestic wild ____.| cat, dog
+cheetah| The cheetah is the _______ animal.|fastest, slowest
+owl| The owl is _____ bird.| wise, foolish
+ostrich| The ostrich is the _______ bird.|fastest, slowest
+strawberry| Strawberry has _____ seeds.| many, no
+egg| ______ lays eggs.|Hen, Rooster
+lotus| Lotus grows in _____.|water, soil
+running| The boy is ________.|running, walking
+cough| Cover your _____ when you cough.|mouth, eyes
+seesaw| Kids are _______ on the seesaw.|playing, swinging`
       ]
     },
     {

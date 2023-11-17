@@ -11,13 +11,13 @@ export default {
       data: {
         title: 'Spoilage of Food',
         text: [
-          `Food items like fruits, vegetables, milk and meat will be fresh for very short time. These are called perishable foods and they get spoiled easily. Some food items like rice have long life time but they also decompose. The change in the normal state of the food is called spoilage of food. Spoiled food becomes unsuitable to eat. We can notice such changes from the taste and smell of the spoiled food. Eating spoiled food results in diseases.
+          `Food items like fruits, vegetables, milk and meat will be fresh for a very short time. These are called perishable foods and they get spoiled easily. Some food items like rice have a long life time but they also decompose. The change in the normal state of the food is called the spoilage of food. Spoiled food becomes unsuitable to eat. We can notice such changes in the taste and smell of the spoiled food. Eating spoiled food results in diseases.
 Once the food items are harvested they begin to decompose. Food can be spoiled by factors like air and oxygen, moisture, enzymes, microorganisms, light and temperature.
-1. Air and Oxygen: When oxygen reacts with food contents, it produces changes in the colour and flavour of the food.
+1. Air and Oxygen: When oxygen reacts with food contents, it produces changes in the color and flavor of the food.
 2. Moisture keeps the food fresh. When the moisture is gone, vegetables and fruits shrink. Due to evaporation, moisture loss occurs in foods like meat, fish and cheese.
 3. Enzymes break down the tissues and components of the food in different ways like oxidation, browning and ripening. So the food items decay.
 4. Microorganisms such as fungi, yeast and bacteria can grow well in low temperatures. They multiply in food and spoil them.
-5. Light produces colour changes and also vitamin loss.
+5. Light produces color changes and also vitamin loss.
 6. Temperature: Sometimes rise in temperature causes food spoilage.
 Spoiled foods are not suitable to eat. They may not be fresh and tasty.
 Sometimes it will be harmful to consume them. Microorganisms present in spoiled foods may cause foodborne diseases like stomach pain, fever, dysentery, vomiting and indigestion.
@@ -27,10 +27,10 @@ While purchasing packed food items, we should check the following details.
 3. Ingredients
 4. Energy content of the food material.
 # Preservation of Food
-Chemical preservatives are added to stop the growth of micro-organisms in certain food materials. E.g. Sodium benzoate is added with fruits, Sulphur dioxide is added with dry fruits, Vinegar is added with pickles.
-Irradiation is a modern method by which, food is exposed to gamma rays or ultra violet rays to kill the bacteria and the mould. It does not affect the taste of the food or nutritive value of the foods. E.g. Onion, Potatoes.
+Chemical preservatives are added to stop the growth of microorganisms in certain food materials. E.g. Sodium benzoate is added to fruits, Sulphur dioxide is added to dry fruits, and vinegar is added to pickles.
+Irradiation is a modern method by which, food is exposed to gamma rays or ultraviolet rays to kill the bacteria and the mold. It does not affect the taste of the food or nutritive value of the food. E.g. Onion, Potatoes.
 # Purpose of Food Preservation
-1. To retain the colour, taste and nutritive value of the food.
+1. To retain the color, taste and nutritive value of the food.
 2. To make food available throughout the year.
 3. To prevent the growth of microorganisms like bacteria and fungi in the food items.
 4. To reduce the wastage of food materials.
@@ -65,7 +65,7 @@ Irradiation is a modern method by which, food is exposed to gamma rays or ultra 
         text: `Spoiled foods are *unsuitable (suitable)* to eat.
 The change in the normal state of the food is called *spoilage(storage)* of food.
 Food products start to decay after *harvesting (cooking)*.
-Eating spoiled foods bring *food (air)* borne diseases.
+Eating spoiled foods brings *food (air)* borne diseases.
 Sometimes we can check spoiled food by *smelling (hearing)*.`
       }
     },
@@ -97,10 +97,10 @@ Sometimes we can check spoiled food by *smelling (hearing)*.`
           },
           {
             qText: 'What keeps the food fresh?',
-            options: 'moisure, enzyme, light, oxygen'
+            options: 'moisture, enzyme, light, oxygen'
           },
           {
-            qText: 'What rays are used in irradiation process?',
+            qText: 'What rays are used in the irradiation process?',
             options: '* gamma rays, x-rays, infra-red rays, * ultra-violet rays'
           }
         ]
@@ -113,30 +113,30 @@ Sometimes we can check spoiled food by *smelling (hearing)*.`
       data: {
         title: 'Disease',
         text: [
-          `A disease is an abnormal condition that affects a living organism. This abnormal condition affects the structure and function of the organism. Diseases may be caused by external factors as well as internal dysfunction. Each disease has symptoms. We come to know about the diseases from their symptoms.`,
-          `# Causes of Diseases`,
-          `Diseases are caused by microorganisms like bacteria, virus, protozoa and fungi. They are transmitted by insects, and also through contaminated air and water. Some diseases are caused when the function of the organ is affected. In general, causes of diseases can be classified as below.`,
-          `1. Metabolic factor. E.g. Diabetes`,
-          `2. Genetic factor. E.g. Colour blindness`,
-          `3. Microorganisms. E.g. Bacterial diseases`,
-          `4. Nutritional factor. E.g. Marasmus`,
-          `5. Environmental factor. E.g. Cholera`,
-          `# Types of Diseases`,
-          `There are four main types of diseases. They are`,
-          `1. Infectious diseases are caused by microorganisms which invade our body and multiply inside them. These diseases are spread from one person to another. E.g. Common cold.`,
-          `2. Hereditary diseases occur due to abnormalities in the gene. These diseases are passed from parents to children. E.g. Heart disease.`,
-          `3. Physiological diseases are caused due to malfunction of the body organs. E.g. Asthma.`,
-          `4. Deficiency diseases are caused due to the deficiency in one or more of the nutrients. Eg. Anaemia`,
-          `# Protein deficiency diseases`,
-          `Marasmus and Kwashiorkor are the protein deficiency diseases. In marasmus, the child loses weight and it will appear as though bones are covered by skin. In Kwashiorkor, the child develops an enlarged belly with swollen face and feet. By eating protein rich foods like egg, milk, fish and green leafy vegetables we can avoid protein deficiency diseases. Kwashiorkor disease is found more among people in developing countries. It is because their diet is high in carbohydrates which is cheaper and low in proteins. As they live below poverty line, they couldn’t afford protein rich food which is costly.`,
-          `# Vitamin deficiency diseases`,
-          `There are different types of vitamins, and they are named with letters.`,
-          `1. Vitamin-A is present in egg, papaya, milk and carrot. Lack of vitamin-A may cause Night-blindness.`,
-          `2. Vitamin-B is present cereals and green vegetables. Lack of vitamin-B may cause Beri-beri.`,
-          `3. Vitamin-C is abundent in lemon, orange and tomato. Lack of vitamin-C may cause Scurvy.`,
-          `4. Sun is the natural source of vitamin-D. It is also present in fish, egg and milk. Lack of vitamin-D may cause Rickets.`,
-          `# Mineral deficiency diseases`,
-          `Iron and Iodine are common minerals that we need for good health. Cashewnuts, dates, spinach and lentils are rich in iron. Lack of iron may cause Anaemia. Iodine is present in vegetables and iodized salt.`
+          `A disease is an abnormal condition that affects a living organism. This abnormal condition affects the structure and function of the organism. Diseases may be caused by external factors as well as internal dysfunction. Each disease has symptoms. We come to know about the diseases from their symptoms.
+# Causes of Diseases
+Diseases are caused by microorganisms like bacteria, viruses, protozoa and fungi. They are transmitted by insects, and also through contaminated air and water. Some diseases are caused when the function of the organ is affected. In general, causes of diseases can be classified as below.
+1. Metabolic factor. E.g. Diabetes
+2. Genetic factor. E.g. Colour blindness
+3. Microorganisms. E.g. Bacterial diseases
+4. Nutritional factor. E.g. Marasmus
+5. Environmental factor. E.g. Cholera
+# Types of Diseases
+There are four main types of diseases. They are:
+1. Infectious diseases are caused by microorganisms that invade our bodies and multiply inside them. These diseases are spread from one person to another. E.g. Common cold.
+2. Hereditary diseases occur due to abnormalities in the gene. These diseases are passed from parents to children. E.g. Heart disease.
+3. Physiological diseases are caused by to malfunction of the body's organs. E.g. Asthma.
+4. Deficiency diseases are caused due to a deficiency in one or more of the nutrients. Eg. Anaemia
+# Protein deficiency diseases
+Marasmus and Kwashiorkor are protein deficiency diseases. In marasmus, the child loses weight and it will appear as though bones are covered by skin. In Kwashiorkor, the child develops an enlarged belly with a swollen face and feet. By eating protein-rich foods like eggs, milk, fish and green leafy vegetables we can avoid protein deficiency diseases. Kwashiorkor disease is found more common among people in developing countries. It is because their diet is high in carbohydrates which is cheaper and low in proteins. As they live below the poverty line, they can't afford protein rich food which is costly.
+# Vitamin deficiency diseases
+There are different types of vitamins, and they are named with letters.
+1. Vitamin A is present in eggs, papaya, milk and carrots. Lack of vitamin A may cause night blindness.
+2. Vitamin B is present in cereals and green vegetables. Lack of vitamin B may cause Beriberi.
+3. Vitamin C is abundant in lemons, oranges and tomatoes. Lack of vitamin C may cause Scurvy.
+4. The sun is the natural source of vitamin D. It is also present in fish, eggs and milk. Lack of vitamin D may cause Rickets.
+# Mineral deficiency diseases
+Iron and Iodine are common minerals that we need for good health. Cashewnuts, dates, spinach and lentils are rich in iron. Lack of iron may cause anemia. Iodine is present in vegetables and iodized salt.`
         ]
       }
     },
@@ -159,7 +159,7 @@ Protein, Fish`
       type: 'match',
       label: 'Nutrients and Diseases',
       data: {
-        title: 'Match the Nutrients with its deficiency Diseases.',
+        title: 'Match the Nutrients with its Deficiency Diseases.',
         text: `Vitamin-C, Scurvy
 Vitamin-B, Beri-beri
 Vitamin-A, Night-blindness
@@ -227,7 +227,7 @@ Growing children need more proteins in their food.`
             name: 'False',
             text: `In case of Gas leakage, we can continue to use electric appliances.
 Irradiation affects the taste of the food materials.
-Deficiency due to iodine is called as beriberi.`
+Deficiency due to iodine is called beriberi.`
           }
         ]
       }
@@ -240,9 +240,9 @@ Deficiency due to iodine is called as beriberi.`
         fontSize: '1rem',
         text: `Night Blindness is caused by the lack of *vitamin-A*.
 Marasmus is a *protein* deficiency disease.
-Bad smell from the food item is due to *spoilage*.
-Humidity in air is one of the *important* factor, which spoils food.
-Using low quality gas tubes in the gas stove may lead to *gas* leakage.`
+The bad smell from the food item is due to *spoilage*.
+Humidity in the air is one of the *important* factors, which spoils food.
+Using low-quality gas tubes in the gas stove may lead to *gas* leakage.`
       }
     },
     {
@@ -258,10 +258,10 @@ Water from rivers, lakes and wells is used for irrigation in addition to rainwat
 # Fertilizers and Pesticides
 Fertilizers provide the required nutritive substances to the crop. There are two kinds of fertilizers, natural and chemical. Natural fertilizers are obtained from materials available in nature like green waste and animal dung. Chemical fertilizers are mixtures of different chemical substances in specific proportions, useful for agriculture. Chemical fertilizers came to be used for quicker growth and higher yields. Overuse of chemical fertilizers lowers the fertility of the soil and reduces its productivity.
 It is important to avoid excessive use of fertilizers to protect the crops as overuse can damage the crops in fields. It is also important to store the harvested crop safely. Stored grains can get damaged by fungi and insects. To prevent such damage, neem leaves are mixed with the gains.
-# Food storage and conservation of environment
-1. Green revolution- The  increase in food grain production (such as rice and wheat) due to the introduction of high-yielding varieties, the use of pesticides, and improved management techniques.
+# Food storage and conservation of the environment
+1. Green Revolution- The increase in food grain production (such as rice and wheat) due to the introduction of high-yielding varieties, the use of pesticides, and improved management techniques.
 2. In 2013, India enacted a food security law that made it possible to fight against hunger and malnutrition.
-3. Various agriculture assistance programmes are organised for farmers to inform them about the latest technology, irrigation facilities, pesticides, fertilizers etc.`
+3. Various agriculture assistance programs are organised for farmers to inform them about the latest technology, irrigation facilities, pesticides, fertilizers etc.`
       }
     },
     {
@@ -288,15 +288,15 @@ Crops are grown from March to June. *Summer crops*`
       }
     },
     {
-      label: 'Name the following',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-5',
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'word',
       data: {
-        text: `A Beverage crop- *MAIZE*
-A crop that grows in the temperate zone- *WHEAT*
-A crop which is grown extensively in Coimbatore- *COTTON*
-The Oldest method of irrigation- *WELL*
-Rearing of animals- *MIXED FARMING*`
+        text: `A Beverage crop| MAIZE
+A crop that grows in the temperate zone| WHEAT
+A crop which is grown extensively in Coimbatore| COTTON
+The Oldest method of irrigation| WELL
+Rearing of animals| MIXED FARMING`
       }
     },
     {
@@ -328,7 +328,7 @@ Japan is the land of farmers.`
         title: 'Multiple Choice Questions',
         questions: [
           {
-            qText: ' Which is called the golden fibre?',
+            qText: ' Which is called the golden fiber?',
             options: 'Jute, Cotton, Silk'
           },
           {
@@ -358,15 +358,15 @@ Japan is the land of farmers.`
         title: 'Preserving Food',
         text: `# Food Preservation
 1. In the winter season, to keep food longer foodstuffs are kept in the refrigerator.
-2. Grains should be dried in sun before storing them
+2. Grains should be dried in the sun before storing them
 3. We should boil milk, curries and vegetables to prevent them from spoiling.
 4. We should keep the food away from mice, rats and other insects.
-Microorganisms are present all around us. If microorganisms grow, they spoil the food. The nutrition value of such food is decreased. Such food can cause diseases.
+Microorganisms are present all around us. If microorganisms grow, they spoil the food. The nutritional value of such food is decreased. Such food can cause diseases.
 # Methods of Preservation
 Drying- It is the process in which foodstuffs are dried to remove the water content.
 Cooling- It is the process in which the foodstuffs are kept in the refrigerator. Through this process, micro-organisms do not get any warmth so they are unable to grow.
 Boiling- In this process the foodstuffs are boiled to destroy microorganisms.
-Storing in airtight containers- In this process the foodstuffs are placed in airtight containers to ensure that water or air are not entered the foodstuff.`
+Storing in airtight containers- In this process the foodstuffs are placed in airtight containers to ensure that water or air does not enter the foodstuff.`
       }
     },
     {
@@ -420,14 +420,14 @@ Soaking food in saltwater, vinegar or oil. *Pickling*`
       id: 'food-spoilage',
       data: {
         title: 'Food Spoilage',
-        text: `Perishable foods get spoiled easily. The change in the normal state of food is called spoilage of food.
-# Why food gets spoiled?
+        text: `Perishable foods get spoiled easily. The change in the normal state of food is called the spoilage of food.
+# Why does food get spoiled?
 1. Air, oxygen and moisture can cause spoilage of food.
 2. When foodstuffs are exposed to warmth it leads to the growth of microorganisms. Microorganisms multiply in food and spoil them.
-3. Light produces colour changes and also vitamin loss. 
-4. Enzymes are chemicals that are present in all foodstuffs. They speed up chemical changes that result in loss of flavour, colour and texture.
+3. Light produces color changes and also vitamin loss. 
+4. Enzymes are chemicals that are present in all foodstuffs. They speed up chemical changes that result in loss of flavor, color and texture.
 # Purpose of food preservation
-1. To keep the food's colour, flavour, and nutritional value.
+1. To keep the food's color, flavor, and nutritional value.
 2. To ensure that food is available all year.
 3. To prevent the growth of germs such as bacteria and fungi in food.
 4. To reduce the wastage of food.
@@ -450,7 +450,7 @@ In marasmus, the child loses weight and the bones appear to be covered by skin. 
 Vitamin and mineral deficiencies can cause a variety of diseases. We can avoid these diseases by consuming vitamin and mineral-rich foods.
 The food pyramid was created to encourage people to eat healthily. The requirements for certain nutrients vary from person to person depending on our work, age, and sex.
 # Kitchen safety
-1. The kitchen is a necessary part of our houses. The kitchen's equipment and surroundings maybe a little dangerous. As a result, we must take precautions and care.
+1. The kitchen is a necessary part of our houses. The kitchen's equipment and surroundings may be a little dangerous. As a result, we must take precautions and care.
 2. Gas easily catches fire. There could be serious consequences if gas is released. As a result, we must exercise care when handling cylinders.
 3. Wet hands should not be used to operate electrical appliances, as this might produce electric shocks.
 4. Keep flammable materials such as kerosene and gasoline away from stoves.
@@ -493,9 +493,9 @@ Goitre, Iodine`,
       id: 'drag-drop-9',
       data: {
         text: `Diseases caused due to abnormalities in genes are called *Hereditary* diseases.
-Diseases which are caused due to a lack of essential nutrients in the body are called *Deficiency* diseases.
-Diseases which are caused due to micro-organisms are called *Infectious* diseases.
-Diseases which are caused due to the malfunction of the body organs are called *Physiological* diseases.`
+Diseases that are caused due to a lack of essential nutrients in the body are called *Deficiency* diseases.
+Diseases that are caused due to micro-organisms are called *Infectious* diseases.
+Diseases that are caused due to the malfunction of the body's organs are called *Physiological* diseases.`
       }
     },
     {
@@ -511,16 +511,16 @@ Diseases which are caused due to the malfunction of the body organs are called *
               'Expose the burnt area to cool running water, Apply warmth, Rub on the burnt skin'
           },
           {
-            qText: 'Which of the statement is false?',
+            qText: 'Which of the statements is false?',
             options:
-              'Use low quality gas stoves, tubes and regulators, Always use I.S.I standard gas, Keep the doors open to ensure ventilation'
+              'Use low-quality gas stoves, tubes and regulators, Always use I.S.I standard gas, Keep the doors open to ensure ventilation'
           },
           {
             qText: 'In which position we should keep the cylinder?',
             options: 'Vertical position, Inverted position, Horizontal position'
           },
           {
-            qText: 'Which of the following statement is true?',
+            qText: 'Which of the following statements is true?',
             options:
               'Turn the knob after lighting the lighter, Turn on the electrical appliances in the kitchen, Keep the cylinder in an inverted position'
           }
@@ -536,11 +536,11 @@ Diseases which are caused due to the malfunction of the body organs are called *
         text: `# What our ancestors ate?
 Our ancestors mainly depended on meat caught by hunting and fruits for their nutrition. They gathered fruit, nuts, plants, vegetables and seeds that were edible.
 # Changes in food habits
-Nowadays, we restrict our diet to few food groups. This diet does not provide us enough nutrients. This is a major cause for lifestyle diseases. To avoid this we need to stricktly follow a balanced diet.
+Nowadays, we restrict our diet to a few food groups. This diet does not provide us with enough nutrients. This is a major cause of lifestyle diseases. To avoid this we need to strictly follow a balanced diet.
 # Food shortage 
 There are times when farmers are not able to grow enough food. Crops fail either because of lack of rainfall or due to floods. At times like these, the prices go up as the number of mouths to feed is far more than the food availability. In this case, it's the poor who suffer as they can no longer afford to buy food. Food shortages can also be created artificially. This happens when enough food is produced but is not released in the market in order to keep the prices high. Traders hoard food grains and make more money by selling them at higher prices.
 # Taste buds
-Taste buds are sensory organs that are found on the tongue and allow us to experience taste that are sweet, salty, sour and bitter. The front part of the tongue recognises the sweet taste while the sides of the tongue recognises sour and salty taste. The back part of the tongue recognises bitter taste.`
+Taste buds are sensory organs that are found on the tongue and allow us to experience tastes that are sweet, salty, sour and bitter. The front part of the tongue recognizes the sweet taste while the sides of the tongue recognize sour and salty taste. The back part of the tongue recognizes bitter taste.`
       }
     },
     {
@@ -561,14 +561,14 @@ Taste buds are sensory organs that are found on the tongue and allow us to exper
           },
           {
             qText: 'Which of the following is not sweet?',
-            options: 'chilli, ice cream, candy'
+            options: 'chili, ice cream, candy'
           },
           {
             qText: 'Which of the following is bitter?',
             options: 'bitter gourd, carrot, orange'
           },
           {
-            qText: 'What part of our tongue recognises salty taste?',
+            qText: 'What part of our tongue recognizes salty taste?',
             options: 'sides, front, back'
           }
         ]
