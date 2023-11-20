@@ -54,8 +54,8 @@ cat | The cat says "__." | meow, woof
 shoe | A shoe is worn on the _____. | foot, head
 banana | A banana is ____ when it's ripe. | yellow, purple
 rose | The flower is ____ and smells nice. | colorful, black
-sun | The sun gives us light and _. | heat, cold
-frog | The frog says "." | ribbit, quack
+sun | The sun gives us light and _____. | heat, cold
+doubt: frog | The frog says "______" | ribbit, quack
 chair | I ___ on a chair. | sit, jump
 tree | The tree provides _____. | shade, water
 dog | The dog _____ loudly. | barks, purrs
@@ -69,9 +69,10 @@ kite | A kite flies high in the ____. | sky, water
 guitar | A guitar has strings and makes _____. | music, noise
 camera | I take pictures with my ____. | camera, binoculars
 phone | I talk on the ____ with friends. | phone, TV
-shirt | I wear a shirt in ___ weather. | hot, cold
+shirt | I wear a sweater in ___ weather. | cold, hot
 star | The star shines in the _____ sky. | night, morning`,
 
+        // todo:
         // 50 sentences (set of 10) for 3rd to 5th
         `rain | It is _______. | raining, shining
 bat2 | This is a ______ bat. | cricket, tennis
@@ -107,7 +108,7 @@ literature | Reading is a good ______. | habit, job
 raincoat | Wear a raincoat when it _____. | rains, warms
 ocean | The ocean is home to many ___ creatures. | sea, land
 flag | Every _______ has its own flag. | country, street
-train | The train travels on ______. | tracks, water
+train | The train travels on ______. | tracks, road
 glasses | Wear glasses to ____ better. | see, hear
 spade | Use a spade to ____ in the sand. | dig, rake
 
@@ -122,16 +123,17 @@ hockey| Hockey is the national game of _______.|India, China
 map | We can use a map to find our ____. | way, lost toy
 hand| Wash your hands to keep them ______.|clean, dirty
 
+
 tiger | The tiger is a majestic wild ____.| cat, dog
 cheetah| The cheetah is the _______ animal.|fastest, slowest
-owl| The owl is _____ bird.| wise, foolish
-ostrich| The ostrich is the _______ bird.|fastest, slowest
-strawberry| Strawberry has _____ seeds.| many, no
+doubt: owl| The owl is _____ bird.| wise, foolish
+doubt: ostrich| The ostrich is the _______ bird.|fastest, slowest
+doubt : strawberry| Strawberry has _____ seeds.| many, no
 egg| ______ lays eggs.|Hen, Rooster
 lotus| Lotus grows in _____.|water, soil
 running| The boy is ________.|running, walking
 cough| Cover your _____ when you cough.|mouth, eyes
-seesaw| Kids are _______ on the seesaw.|playing, swinging`
+seesaw| Kids are _______ on the seesaw.| playing, swinging`
       ]
     },
     {
