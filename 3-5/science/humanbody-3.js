@@ -12,15 +12,15 @@ export default {
         title: 'Sense Organs',
         text: `It is very interesting to learn about our human body. We learn about our body and the external world through our sense organs. Sense organs help us to observe and understand the world around us. We have five sense organs.
 # Eyes
-They help us to see the things around us. Eye is the most important sense organ as we learn lot of things through seeing. We can see and tell different colors with the help of eyes. We cannot do most of our works with closed eyes.
+They help us to see the things around us. The eye is the most important sense organ as we learn a lot of things through seeing. We can see and tell different colors with the help of our eyes. We cannot do most of our work with closed eyes.
 # Ears
-We are able to hear the sounds around us with the help of ears. If we close our ears, we can realize that volume of music or noise will be reduced.
+We can hear the sounds around us with the help of our ears. If we close our ears, we can realize that the volume of music or noise will be reduced.
 # Nose
-Nose helps us to breathe. Apart from that, they also help us to smell our surroundings. Nice food smell increases our appetite. We detect rotten food by its smell. Animals like dog have better smelling ability than us.
+The nose helps us to breathe. Apart from that, they also help us to smell our surroundings. Nice food smell increases our appetite. We detect rotten food by its smell. Animals like dogs have better-smelling abilities than us.
 # Tongue
-Tongue helps our to enjoy our food. It helps us in detecting different tastes like sweet, salty, bitter or sour. 
+The tongue helps us to enjoy our food. It helps us detect different tastes like sweet, salty, bitter or sour. 
 # Skin
-Skin is the largest organ as it is located throughout our body. Through skin we experience pain, temperature, pressure etc. And these help us to protect ourself from danger.`
+Skin is the largest organ as it is located throughout our body. Through the skin, we experience pain, temperature, pressure etc. And these help us to protect ourselves from danger.`
       }
     },
     {
@@ -122,14 +122,14 @@ The cavity in the torso has three parts. The cavity in the chest is called the t
         types: [
           {
             name: 'True',
-            text: `Internal cavities help in keeping the organs in its place.
+            text: `Internal cavities help in keeping the organs in place.
 The cavity inside the head is called the cranial cavity.
-The important organs does not move from its original place.`
+The important organs do not move from their original place.`
           },
           {
             name: 'False',
-            text: `All important organs are hard in nature.
-The lungs are present in pelvic cavity.`
+            text: `All important organs are hard.
+The lungs are present in the pelvic cavity.`
           }
         ]
       }
@@ -141,13 +141,13 @@ The lungs are present in pelvic cavity.`
       data: {
         title: 'Heart',
         text: `We take in air when we breathe. Our blood carries the air to all parts of the body. The food that we eat gets digested. It is again blood that carries the digested part to every particle of the body. For these purposes, it is necessary to keep blood flowing through the blood vessels that spread throughout the body. It is the function of the heart to keep the blood flowing.
-The heart is an important internal organ. It is in the centre of the thoracic cavity, a little to its left. It is slightly bigger than one’s fist. The walls of the heart too are flexible.
-1. The heart contracts : The heart becomes smaller.
-2. The heart relaxes : The heart returns to its original size.
-Place your palm a little to the left of the centre of your chest. You can feel your own heartbeat.
-When it contracts the blood in the heart is pushed into the blood vessels. At every contraction, it is pushed further and further. A contraction of the heart is called a ‘heartbeat’. If you place your hand on the middle of the chest a little to the left, you can feel the throbbing of your heart due to the heartbeats.
+The heart is an important internal organ. It is in the center of the thoracic cavity, a little to its left. It is slightly bigger than one's fist. The walls of the heart too are flexible.
+1. The heart contracts: The heart becomes smaller.
+2. The heart relaxes: The heart returns to its original size.
+Place your palm a little to the left of the center of your chest. You can feel your heartbeat.
+When it contracts the blood in the heart is pushed into the blood vessels. At every contraction, it is pushed further and further. A contraction of the heart is called a 'heartbeat'. If you place your hand on the middle of the chest a little to the left, you can feel the throbbing of your heart due to the heartbeats.
 At the wrist, there is a blood vessel that flows very close to the skin. If you place your fingers there, you can feel the heartbeats. This is called feeling the pulse.
-# Do you know ?
+# Do you know?
 When we are sleeping quietly, the pulse becomes slower. When we are running, the pulse becomes faster.`
       }
     },
@@ -167,7 +167,7 @@ When we are sleeping quietly, the pulse becomes slower. When we are running, the
             options: 'wrist, hand, fingers, nails'
           },
           {
-            qText: 'Heart is present in the centre of the _________.',
+            qText: 'Heart is present in the center of the _________.',
             options: 'thoracic cavity, cranial cavity, pelvic cavity'
           },
           {
@@ -215,17 +215,17 @@ The doctor puts her fingers on our *wrist* to feel your *pulse*.`
       data: {
         title: 'Our Body',
         text: `# Parts of our Body
-1. Head: The head is covered with hair. Below the forehead are two eyes, with eyebrows and eyelashes. On the sides are the ears. In front is the nose. Below the nose, is the mouth and chin. The part that joins the head to the torso is the neck.
-2. Torso: The chest, abdomen and back together make up the torso. The part where the arm is joined to the torso is called the shoulder. The leg is joined to the torso at the hip-joint.      
+1. Head: The head is covered with hair. Below the forehead are two eyes, with eyebrows and eyelashes. On the sides are the ears. In front is the nose. Below the nose, are the mouth and chin. The part that joins the head to the torso is the neck.
+2. Torso: The chest, abdomen and back together make up the torso. The part where the arm is joined to the torso is called the shoulder. The leg is joined to the torso at the hip joint.      
 3. Arm: The arm has three parts - upper arm, forearm and hand. The fingers are part of the hand. The upper arm and forearm are joined at the elbow. The forearm and hand are joined at the wrist.       
 4. Leg: The leg, has three parts - thigh, shank and foot. Toes are part of the foot. The thigh and shank are joined at the knee. The shank and foot are joined at the ankle.        
 # Organ         
-A part of the body that is used for a particular purpose is called organ. Organs are further classified as internal and external organs.       
+A part of the body that is used for a particular purpose is called an organ. Organs are further classified as internal and external organs.       
 # Body Movement        
 1. Neck: The neck bends forward as well as backward. It turns left or right. It also bends left or right.         
 2. Arm: We can bend our arm at the shoulder, elbow and wrist. The fingers of our hands can bend too.       
 3. Waist: We can bend our torso only at the waist. We can bend forward at the waist.        
-4. Leg: Our legs can bend at the hip-joint, the knees and the ankles. Our toes too can bend, but not as much as our fingers.`
+4. Leg: Our legs can bend at the hip joint, the knees and the ankles. Our toes too can bend, but not as much as our fingers.`
       }
     },
     {
@@ -347,12 +347,12 @@ text: 'nostril, skin, nose, mouth, eyes'
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `A part of the body that is used for a particular purpose is called *organ (body part)*. 
-The neck bends forward as well as *backward (rightside)*. 
+The neck bends forward as well as *backward (right side)*. 
 We can bend our arm at the shoulder, *elbow (knee)* and wrist.
 The *fingers (toes)* of our hands can bend.
 We can bend our torso only at the *waist (hips)*. 
 We can bend *forward (backward)* at the waist.
-Our legs can bend at the hip-joint, the *knees (elbow)* and the ankles.
+Our legs can bend at the hip joint, the *knees (elbow)* and the ankles.
 Our toes *can (cannot)* bend, but not as much as our fingers.`
       }
     },
@@ -365,7 +365,7 @@ Our toes *can (cannot)* bend, but not as much as our fingers.`
         questions: [
           {
             qText: ' The leg is joined to the torso at the ______________.',
-            options: 'hip-joint, waist, shoulder'
+            options: 'hip joint, waist, shoulder'
           },
           {
             qText:
@@ -374,7 +374,7 @@ Our toes *can (cannot)* bend, but not as much as our fingers.`
           },
           {
             qText:
-              'Some of our body parts can bend. That is why we are able to make ________________ .',
+              'Some of our body parts can bend. That is why we can make ________________ .',
             options: 'movements, run, sit'
           },
           {
@@ -394,15 +394,15 @@ Our toes *can (cannot)* bend, but not as much as our fingers.`
 Our sensory organs tell us about the situation all around us. The eyes, ears, nose, tongue and skin are our five sensory organs.
 1. We can see with our eyes.
 2. We can hear with our ears.
-3. We can smell with our nose. 
+3. We smell with our nose. 
 4. We taste things with our tongue. 
 5. We feel things with our skin.
 # Co-ordination
-When we work, we need to have co-ordination in all the tasks. Difficulties may arise due to lack of co-ordination.
+When we work, we need to have co-ordination in all the tasks. Difficulties may arise due to lack of coordination.
 # Disability
 If any organ does not function well, we may face difficulties in doing our work. We must not give up in the face of difficulties. They can be overcome.
 # Overcoming Disability
-Some disabilities can be corrected by medical treatment. In some matter, we can take the help of other people. Often, some special devices can be used to overcome the disability.
+Some disabilities can be corrected by medical treatment. In some matters, we can take the help of other people. Often, some special devices can be used to overcome the disability.
 1. If we cannot see well, we can use spectacles.
 2. If we cannot see at all, we can make use of sounds, or feel with our hands to get things done.
 3. A person who cannot hear well, can use a hearing aid.
@@ -417,9 +417,9 @@ Some disabilities can be corrected by medical treatment. In some matter, we can 
       data: {
         title: 'Click the blanks and fill it with the right word.',
         text: `If we cannot see well, we can use *spectacles (walking stick)*.
-If we cannot see at all, we can make use of *sounds (hearing aid), or feel with the hands to get things done.
+If we cannot see at all, we can make use of *sounds (hearing aids)*, or feel with our hands to get things done.
 A person who cannot hear well, can use a *hearing aid (translator)*.
-Those who cannot hear at all, can use *sign (braille)* language.
+Those who cannot hear at all can use *sign (braille)* language.
 If there is a defect in the leg, a special *wheelchair (prosthetic leg)* can be used.`
       }
     },
@@ -433,14 +433,14 @@ If there is a defect in the leg, a special *wheelchair (prosthetic leg)* can be 
           {
             name: 'True',
             text: `Some disabilities can be corrected by medical treatment.
-Difficulties may arise due to lack of co-ordination.
+Difficulties may arise due to a lack of coordination.
 Our sensory organs tell us about the situation all around us.`
           },
           {
             name: 'False',
             text: `Disabilities cannot be overcome.
 Eyes help to smell.
-Sign language is used by blind.`
+Sign language is used by the blind.`
           }
         ]
       }
@@ -531,7 +531,7 @@ We feel things with our *skin*.`
           },
           {
             qText: 'The smell tells us that the air is _________.',
-            options: 'foul, colourless, harsh ',
+            options: 'foul, colorless, harsh ',
             feedback:
               'Our nose helps us to sense the various scents around us and help to differentiate them as a sweet fragrance or foul odor.'
           },
@@ -544,7 +544,7 @@ We feel things with our *skin*.`
           {
             qText:
               'Our tongue feels as if it is burning when we eat a __________ .',
-            options: 'chilli, ice cream, mango'
+            options: 'chili, ice cream, mango'
           }
         ]
       }
@@ -557,7 +557,7 @@ We feel things with our *skin*.`
         title: 'Our Teeth',
         text: `# Teeth
 The teeth that grow when we are infants are called milk teeth. They start falling at seven or eight years of age. Then we get new teeth once again. These are called permanent teeth. If permanent teeth fall, we do not get new teeth in their place. So, we must take care of our teeth.
-If our teeth are dirty, foul substances go into our stomach. We can fall ill. We must wash our hands before we eat. We must keep our hair, our nails, our sense organs and the entire body clean`
+If our teeth are dirty, foul substances go into our stomachs. We can fall ill. We must wash our hands before we eat. We must keep our hair, our nails, our sense organs and the entire body clean`
       }
     },
     {
@@ -570,8 +570,8 @@ If our teeth are dirty, foul substances go into our stomach. We can fall ill. We
           {
             name: 'True',
             text: `Infected wound ooze pus.
-We must rinse our mouth repeatedly with water after eating something.
-First set of teeth is milk teeth.`
+We must rinse our mouths repeatedly with water after eating something.
+The first set of teeth is milk teeth.`
           },
           {
             name: 'False',
