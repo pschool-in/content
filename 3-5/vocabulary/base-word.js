@@ -450,15 +450,13 @@ The *dreamer* often escapes into a world of fantasy.
 *Dreaming* of a better future motivates people to work hard. 
 *Daydreaming* can be a pleasant way to pass the time.`,
 
-        `The *eater* savored every bite of the delicious meal. 
-*Eating* a balanced diet is essential for good health. 
+        `*Eating* a balanced diet is essential for good health. 
 Is the fruit ripe and *edible*?
 The *educator* inspired students to pursue their passions. 
 *Education* is the key to unlocking one's potential. 
 Don't remain *uneducated* about important issues.`,
 
-        `The *enjoyer* relished the beautiful sunset. 
-*Enjoyable* activities make life more fulfilling. 
+        ` *Enjoyable* activities make life more fulfilling. 
 Some find joy even in the seemingly *unenjoyable* tasks.
 The *explorer* ventured into unexplored territories.
 *Exploration* is a natural human instinct. `
