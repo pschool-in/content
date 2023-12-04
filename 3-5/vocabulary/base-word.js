@@ -556,6 +556,101 @@ Can you find time to *rewrite* and improve your work? (write)
 *Reaction* times vary among individuals. (react)
 Be mindful not to *overreact* in stressful situations. (react)`
       ]
+    },
+    {
+      label: 'MCQ',
+      type: 'mcq',
+      id: 'mcq',
+      data: {
+        title: 'Multiple Choice Questions',
+        questions: [
+          {
+            qText: `____________ the beauty in everyday life enhances happiness.`,
+            options: `Seeing, Saw, Unseen, See`
+          },
+          {
+            qText: `The ________ eloquently delivered a powerful speech. `,
+            options: `speaker, speak, speaking, speech`
+          },
+          {
+            qText: `The ________ explored distant lands and experienced new cultures. `,
+            options: `traveler, travel, traveling, traveled`
+          },
+          {
+            qText: `Proper ____________ of tools enhances productivity.`,
+            options: `usage, user, use, misuse`
+          },
+          {
+            qText: `The _________ enjoyed exploring the tourist attractions. `,
+            options: `visitor, visits, visiting, visit`
+          },
+          {
+            qText: `____________ is a simple and effective form of exercise.`,
+            options: `Walking, Walk, Walked, Walker`
+          },
+          {
+            qText: `The ______ eloquently conveyed their thoughts in the novel.`,
+            options: `writer, writing, wrote, write`
+          },
+          {
+            qText: `___________ connected to others is essential for well-being.`,
+            options: `Feeling, Felt, Feel, Feeler`
+          },
+          {
+            qText: ` ____________ times vary among individuals.`,
+            options: `Reaction, React, Reacting, Reacted`
+          },
+          {
+            qText: `____________ is a choice that requires conscious effort.`,
+            options: `Happiness, Unhappiness, Happy`
+          }
+        ]
+      }
+    },
+    {
+      id: 'fillup-2',
+      label: 'Fill in the blanks 2',
+      type: 'fillup',
+      commonData: {
+        noOptions: true,
+        title:
+          'Fill in the blanks with the most appropriate word. The base word is given within the brackets.'
+      },
+      lockAfter: 2,
+      data: [
+        `*Friendly* gestures strengthen the bonds of friendship. (friend)
+Cherish the true *friends* who stand by you. (friend)
+The *developer* worked on improving software functionality. (develop)
+*Development* projects require careful planning. (develop)
+*Undeveloped* areas may hold untapped potential. (develop)`,
+
+        `The *builder* constructed a sturdy house. (build)
+*Building* relationships takes time and effort. (build)
+Can you *rebuild* trust after a misunderstanding? (build)
+*Strength* is not just physical; it also refers to mental fortitude. (strong)
+*Stronger* communities thrive on collaboration. (strong)
+The *strongest* individuals often overcome adversity. (strong)`,
+
+        `The *helper* volunteered their time to assist those in need. (help)
+*Helpful* advice can guide someone through challenging situations. (help)
+Avoid being *unhelpful* when others seek assistance. (help)
+*Healthy* habits, such as regular exercise and balanced nutrition, contribute to overall well-being. (health)
+*Unhealthy* choices may lead to chronic conditions. (health)`,
+
+        `*Knowledge* is a powerful tool for personal and societal growth. (know)
+The known and *unknown* are intertwined in the vast universe. (know) 
+Do you seek *knowledge* about different cultures? (know)
+The *learner* eagerly absorbed new information. (learn)
+*Learning* is a lifelong journey. (learn)
+*Unlearn* outdated beliefs that hinder your progress. (learn)`,
+
+        `The *artist* expressed their creativity through unique artwork. (art)
+*Artistic* endeavors often challenge traditional perspectives. (art)
+*Artistry* can be found in unexpected places. (art)
+The *powerful* leader inspired positive change in the community. (power)
+*Powerless* individuals may struggle to influence outcomes. (power)
+*Empower* others to reach their full potential. (power)`
+      ]
     }
   ]
 };
