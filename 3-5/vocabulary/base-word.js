@@ -30,6 +30,43 @@ Addition of the suffix "-ly" (e.g., "quick" becomes "quickly," "happy" becomes "
         ]
       }
     },
+    /*
+Words with many derived words
+{
+id: 'reading-3',
+type: 'passage',
+label: 'Base Words - Examples',
+data: {
+title: 'Examples',
+text: [
+{
+type: 'hilight',
+text: `Create - creation, creator, creative, creatively, recreative, uncreative, procreate, recreationally, uncreatively, recreate
+Manage - management, manager, manageable, mismanage, unmanageable, mismanagement, managed, managing
+Understand - understanding, misunderstand, misunderstood, understandable, understandably, understandingly, misunderstanding, understands, misunderstands
+Educate - education, educator, educational, uneducated, reeducate, reeducated, educating, educates
+Employ - employment, employer, employee, employable, unemployment, employed, employing, employs, unemployable
+Develop - development, developer, developing, developed, undeveloped, redevelopment, predevelop, redevelopment, developmental
+Explore - exploration, explorer, explored, exploring, exploitable, exploitative, unexplored, exploratory, explores
+Communicate - communication, communicator, communicative, communicating, communicated, communicability, miscommunication, uncommunicative, recommunicate, recommunication
+Organize - organization, organizer, organizational, organizing, organized, unorganized, disorganized, reorganize, reorganized, reorganizing
+Innovate - innovation, innovator, innovative, innovatively, innovativeness, uninventive, noninnovative, innovated
+Success - successful, unsuccessfully, successively, successor, succeeder, succeeding, succeedingly, successiveness
+Perceive - perception, perceptive, perceptible, perceptibly, unperceived, perceived, perceiving, perceives, preceptive
+Determine - determination, determined, determiner, determinable, undetermined, predetermine, predetermined, predeterminable, predetermining, redetermine
+Demonstrate - demonstration, demonstrator, demonstrative, demonstratively, undemonstrative, redemonstrate, demonstrated
+Contribute - contribution, contributor, contributive, contributory, contributed, contributing, uncontributed, noncontributor, noncontributory
+Illuminate - illumination, illuminator, illuminative, illuminating, illuminated, illuminatingly, unilluminated, nonilluminated, reilluminate
+Differentiate - differentiation, differentiator, different, differently, differential, differentiable, undifferentiated, nondifferentiated, redifferentiate
+Evaluate - evaluation, evaluator, evaluative, evaluated, evaluating, unvalued, undervalued, overvalued, reevaluate, reevaluation
+Participate - participation, participator, participative, participatory, participated, participating, unparticipated, nonparticipative, nonparticipatory
+Motivate - motivation, motivator, motivational, motivated, motivating, unmotivated, demotivate, demotivated, demotivating, remotivate
+`
+}
+]
+}
+},
+*/
     {
       id: 'reading-2',
       type: 'passage',
