@@ -36,6 +36,7 @@ export default {
       label: 'Rate Table',
       data: [
         {
+          // m7
           title:
             'The marks obtained by a student in two subjects are given below.',
           type: 'table',
@@ -112,6 +113,7 @@ Science | 21 | 25`,
       type: 'numberInput',
       id: 'simplify',
       label: 'Ratio - Simplest Form',
+      // Below problems are taken from J7
       data: {
         title: 'Express the given ratio in the simplest form.',
         type: 'word-problem',
@@ -163,6 +165,7 @@ Ans = ?4 : ?5 : ?6
       id: 'wordproblem',
       label: 'Word Problems',
       data: {
+        // Below problems are taken from J7
         title: 'Word Problems',
         type: 'word-problem',
         list: [
@@ -243,6 +246,7 @@ So, 4:7 < 5:8
       },
       data: [
         {
+          // Below problems from M7
           list: [
             `2 1/2 L : 600 mL
             We need to write both in same units. Lets write in the smaller unit.
@@ -274,6 +278,7 @@ So, 4:7 < 5:8
           ]
         },
         {
+          //Below problems from J7
           list: [
             `25 cm to 1 m.
 We need to write to numbers in the same units. It is good to write them in the smaller unit. 
@@ -350,6 +355,7 @@ So the ratio can be simplified as ?5 : ?6
       data: {
         title: 'Word Problems',
         type: 'word-problem',
+        // Below problems from M7
         list: [
           `Find the ratio A : B : C in the following case.
           A : B = 1 : 2 and B : C = 4 : 3
@@ -392,6 +398,7 @@ LCM of 7 and 6 = ?0
         type: 'word-problem',
         fracFontSize: '1rem',
         list: [
+          // Below problems from M7
           `Divide ₹ 5200 between Sudha, Latha and Anitha in the ratio 2 : 7 : 4.
           We need to find the equivalent ratio where the numbers add up to ₹ 5200
           Let us write the ratio in the form 2𝑥 : 7𝑥 : 4𝑥
@@ -465,6 +472,59 @@ LCM of 7 and 6 = ?0
           C gets = ??2 × ??4 = ₹ ?7
           ∴ C gets the highest amount.
           12, 10, 21, 43, 725, 7250, 8700, 15225`
+        ]
+      }
+    },
+
+    {
+      type: 'numberInput',
+      id: 'unitary',
+      label: 'Unitary Method',
+      data: {
+        title: 'Word Problems',
+        type: 'word-problem',
+        fracFontSize: '1rem',
+        list: [
+          {
+            text: `The cost of 4 cupcakes is ₹168. Find the cost of a dozen cupcakes.
+  Solution:
+  Cost of 1 cupcake = ?0/?1 = ₹ ?2
+  Cost of dozen cupcakes = ??2 × ?3
+   = ₹ ?4
+  168, 4, 42, 12, 504
+  `
+          },
+          {
+            text: `The cost of 15 boxes of apples is ₹ 1440. Find the cost of 25 such boxes of apples.
+Solution:
+Cost of 1 box = ?0/?1 = ₹ ?2
+Cost of 25 boxes = ??2 × 25
+=  ₹ ?3
+  1440, 15, 96, 2400`
+          },
+          {
+            text: `Anita can stitch falls for 3 sarees in 1 ^hr. If she works from 9:00 am to 1:00 pm without any break, how many saree falls can she stitch?
+            Solution:
+            Total time in hours = ?0 
+            No. of saree falls stitch in 1 hr 
+             = ?1
+            No. of saree falls stitch in ??0 hrs
+             = ??0 × ??1 = ?2
+            4, 3, 12
+            `
+          },
+          {
+            text: `Using 15 mL of a fruit syrup, Sudha can make 6 glasses of juice. How many glasses of juice can be prepared by her using 1/2 L of fruit syrup?
+            Solution:
+            Syrup needed for 1 glass of juice
+             = ?0/?1 = ?2 mL
+            1/2 L = ?3 mL
+            No. of glasses of juice prepared from ??3 mL
+             = ??3/??2 = ?4 glasses
+             15, 6, 2.5, 500, 200
+            `
+          }
+          //TODO: More problems to be added for exercise 8.3
         ]
       }
     }

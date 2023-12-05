@@ -162,7 +162,7 @@ These wells are very deep and narrow. The groundwater is extracted with the help
 # Water Towers
 They are build in our locality and water is pumped and stored at a height. It is connected through pipes and reaches our bathroom and kitchen.`,
 
-          { type: 'img', src: 'img/science/water-tower.png' },
+          { type: 'img', src: 'water-tower.jpg' },
           `In olden days, there was no tap water in the houses. People have to walk a distance to get water. But nowadays, we get water in our houses directly through pipes. In case if there is any problem in getting water, we will call a plumber who will fix the problem for us.`
         ]
       }
@@ -235,8 +235,7 @@ People think that we can't drink water from previous day. But the truth is, wate
       type: 'sorting',
       data: {
         title: 'Arrange these steps in the order of occurrence.',
-        text:
-          'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
+        text: 'Source of water, Purification of water, Storage of water in water tower, Spread of water through pipelines, Reaching homes and industries'
       },
       id: 'sorting-5'
     },

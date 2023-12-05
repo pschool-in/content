@@ -169,9 +169,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = 1/2 × base × height
-                        = 1/2 × ?0 × ?1
-                        = ?2 ^sq.cm
-            12, 5,  30`
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+12, 5,  30`
             },
             {
               svg: {
@@ -187,9 +187,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = 1/2 × base × height
-                = 1/2 × ?0 × ?1
-                = ?2 ^sq.cm
-    5, 2, 5`
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+5, 2, 5`
             },
             {
               svg: {
@@ -213,9 +213,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = 1/2 × base × height
-                      = 1/2 × ?0 × ?1
-                      = ?2 ^sq.cm
-          10, 2.5, 12.5`
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+10, 2.5, 12.5`
             },
             {
               svg: {
@@ -239,11 +239,11 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Though it looks like a right angle, base and height value are not given. Instead hypotenuse and the perpendicular to it are given.
-              So we have to consider the hypotenuse as the base and the perpendicular as the height.
-              Area = 1/2 × base × height
-                  = 1/2 × ?0 × ?1
-                  = ?2 ^sq.cm
-      11, 3, 11.5`
+So we have to consider the hypotenuse as the base and the perpendicular as the height.
+Area = 1/2 × base × height
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+11, 3, 11.5`
             }
           ]
         },
@@ -273,9 +273,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = base × height
-                  = ?0 × ?1
-                  = ?2 ^sq.cm
-      8, 3, 24`
+= ?0 × ?1
+= ?2 ^sq.cm
+8, 3, 24`
             },
             {
               svg: {
@@ -300,9 +300,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = base × height
-                    = ?0 × ?1
-                    = ?2 ^sq.cm
-        7, 2, 14`
+= ?0 × ?1
+= ?2 ^sq.cm
+7, 2, 14`
             },
             {
               svg: {
@@ -327,9 +327,9 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Area = base × height
-                      = ?0 × ?1
-                      = ?2 ^sq.cm
-          4, 5, 20`
+= ?0 × ?1
+= ?2 ^sq.cm
+4, 5, 20`
             },
             {
               svg: {
@@ -354,11 +354,11 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `
-                As perpendicular is given for the line BC, consider it as base. Imagine the parallelogram as rotated.
-                Area = base × height
-                        = ?0 × ?1
-                        = ?2 ^sq.cm
-            5, 6, 30`
+As perpendicular is given for the line BC, consider it as base. Imagine the parallelogram as rotated.
+Area = base × height
+= ?0 × ?1
+= ?2 ^sq.cm
+5, 6, 30`
             }
           ]
         },
@@ -368,9 +368,9 @@ Saved = ??2 - 15000 = ₹ ?3
             {
               widths: '100, 100, 140',
               text: `Base  | Height | Area
-              6 ^cm  | 7 ^cm| ?0 ^sq.cm
-              10 ^cm  | 5.5 ^cm| ?1 ^sq.cm
-              16 ^cm  | 8 ^cm| ?2 ^sq.cm
+6 ^cm  | 7 ^cm| ?0 ^sq.cm
+10 ^cm  | 5.5 ^cm| ?1 ^sq.cm
+16 ^cm  | 8 ^cm| ?2 ^sq.cm
 12 ^cm | ?3 ^cm | 96 ^sq.cm
 ?4 ^cm  | 3.5 ^cm| 52.5 ^sq.cm
 8.9 ^cm  | ?5 ^cm | 64.08 ^sq.m
@@ -384,10 +384,10 @@ Saved = ??2 - 15000 = ₹ ?3
             {
               widths: '100, 100, 140',
               text: `Base  | Height | Area
-              4 ^cm  | 8 ^cm| ?0 ^sq.cm
-              9 ^cm  | 3 ^cm| ?1 ^sq.cm
-              18 ^cm  | ?2 ^cm| 18 ^sq.cm
-              11.5 ^cm  | 4 ^cm| ?3 ^sq.cm
+4 ^cm  | 8 ^cm| ?0 ^sq.cm
+9 ^cm  | 3 ^cm| ?1 ^sq.cm
+18 ^cm  | ?2 ^cm| 18 ^sq.cm
+11.5 ^cm  | 4 ^cm| ?3 ^sq.cm
 11.2 ^cm | ?4 ^cm | 43.68 ^sq.cm
 19.4 ^cm  | 8.9 ^cm| ?5 ^sq.cm
 16, 13.5, 2, 23, 3.9, 172.66`
@@ -397,7 +397,6 @@ Saved = ??2 - 15000 = ₹ ?3
         {
           title: 'Answer the below question.',
           list: [
-            /*
             {
               svg: {
                 width: 350,
@@ -424,27 +423,27 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `In the parallelogram ABCD, AB = 12 ^cm, AD = 8 ^cm and CE = 6.2 ^cm. Find
-              a. the area of the parallelogram
-              b. the length BF
-              In the parallelogram ABCD
-              base = ?0 ^cm   height = ?1 ^cm
-              area = ??0 × ??1 = ?2 ^sq.cm
-              We know AD = 8 ^cm. So BC = ?3 ^cm
-              BF is perpendicular to BC. If we consider BC as base then BF is the height.
-              As we already know the area of the parallelogram, we can find BF
-              BF (height) = area/base 
-              = ??2/??3 = ?4 ^cm
+a. the area of the parallelogram
+b. the length BF
+In the parallelogram ABCD
+base = ?0 ^cm   height = ?1 ^cm
+area = ??0 × ??1 = ?2 ^sq.cm
+We know AD = 8 ^cm. So BC = ?3 ^cm
+BF is perpendicular to BC. If we consider BC as base then BF is the height.
+As we already know the area of the parallelogram, we can find BF
+BF (height) = area/base 
+= ??2/??3 = ?4 ^cm
 12, 6.2, 74.4, 8, 9.3`
             },
             {
               text: `The altitudes to the sides AB and AD of parallelogram ABCD are 5 ^cm and 20 ^cm respectively. If the area of the parallelogram is 160 ^sq.cm, find its perimeter.
-              We can find the area, by using either AB or AD as base.
-              AB = area/height = 160/?0 = ?1 ^cm
-              AD = 160/?2 = ?3
-              Perimeter = 2 × (AB + AD)
-                = 2 × ( ??1 + ??3 )
-                 = 2 × ?4 = ?5 ^cm
-              5, 32, 20, 8, 40, 80`
+We can find the area, by using either AB or AD as base.
+AB = area/height = 160/?0 = ?1 ^cm
+AD = 160/?2 = ?3
+Perimeter = 2 × (AB + AD)
+= 2 × ( ??1 + ??3 )
+= 2 × ?4 = ?5 ^cm
+5, 32, 20, 8, 40, 80`
             },
             {
               svg: {
@@ -470,18 +469,18 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `The perimeter of the given △ABC is 41.36 cm. Find the area of △ABC?
-              First lets find the height (CD)
-              △BCD is a right triangle
-              So ~CD~2 = ~15~2 - ~12~2  
-              CD = ?0 (Remembering pythagoras triplet)
-              Now lets find the length AD,
-              AD = 41.36 - (10 + 15 + 12)
-              = 41.36 - ?1 = ?2
-              Base = AD + DB = ?3
-              Area of △ABC = 1/2 × ??3 × ??0
-               = ?4 ^sq.cm
-              9, 37, 4.36, 16.36, 73.62`
-            },*/
+First lets find the height (CD)
+△BCD is a right triangle
+So ~CD~2 = ~15~2 - ~12~2  
+CD = ?0 (Remembering pythagoras triplet)
+Now lets find the length AD,
+AD = 41.36 - (10 + 15 + 12)
+= 41.36 - ?1 = ?2
+Base = AD + DB = ?3
+Area of △ABC = 1/2 × ??3 × ??0
+= ?4 ^sq.cm
+9, 37, 4.36, 16.36, 73.62`
+            },
             {
               svg: {
                 width: 350,
@@ -508,13 +507,13 @@ Saved = ??2 - 15000 = ₹ ?3
                 ]
               },
               text: `Find the area of the quadrilateral ABCD, given that BC = 3 ^cm, BD = 8 ^cm and AE = 1.5 ^cm.
-              Solution:
-              The area of the quadrilateral is the sum of the △ABD and △BCD.
-              Area of △ABD = 1/2 × base × height
-              = 1/2 × ?0 × ?1 = ?2 ^sq.cm
-              Area of △BCD =  = 1/2 × ?3 × ?4 = ?5 ^sq.cm
-              Area of quadrilateral = ??2 + ??5  = ?6 ^sq.cm
-              8, 1.5, 6, 8, 3, 12, 18`
+Solution:
+The area of the quadrilateral is the sum of the △ABD and △BCD.
+Area of △ABD = 1/2 × base × height
+= 1/2 × ?0 × ?1 = ?2 ^sq.cm
+Area of △BCD =  = 1/2 × ?3 × ?4 = ?5 ^sq.cm
+Area of quadrilateral = ??2 + ??5  = ?6 ^sq.cm
+8, 1.5, 6, 8, 3, 12, 18`
             }
           ]
         }
@@ -539,36 +538,36 @@ Saved = ??2 - 15000 = ₹ ?3
           list: [
             {
               text: `radius = 7 ^cm
-              circumference = 2πr
-               = 2 × ?0/?1 × ?2
-               = ?3 ^cm
-            22, 7, 7, 44`
+circumference = 2πr
+= 2 × ?0/?1 × ?2
+= ?3 ^cm
+22, 7, 7, 44`
             },
             {
               text: `radius = 21 ^cm
-              circumference = 2πr
-               = 2 × 22/7 × ?0
-              = 2 × 22 × ?1
-              = 2 × ?2
-               = ?3 ^cm
-            21, 3, 66, 132`
+circumference = 2πr
+= 2 × 22/7 × ?0
+= 2 × 22 × ?1
+= 2 × ?2
+= ?3 ^cm
+21, 3, 66, 132`
             },
             {
               text: `radius = 14 ^cm
-              circumference = 2πr
-               = 2 × 22/7 × ?0
-              = 2 × 22 × ?1
-              = 2 × ?2
-               = ?3 ^cm
-            14, 2, 44, 88`
+circumference = 2πr
+= 2 × 22/7 × ?0
+= 2 × 22 × ?1
+= 2 × ?2
+= ?3 ^cm
+14, 2, 44, 88`
             },
             {
               text: `radius = 7/2 ^cm
-              circumference = 2πr
-               = 2 × 22/7 × 7/2
-              = 2 × ?0
-               = ?1 ^cm
-           11, 22`
+circumference = 2πr
+= 2 × 22/7 × 7/2
+= 2 × ?0
+= ?1 ^cm
+11, 22`
             }
           ]
         },
@@ -578,100 +577,472 @@ Saved = ??2 - 15000 = ₹ ?3
           list: [
             {
               text: `radius = 28 ^cm
-              area = ~πr~2
-               = ?0/?1 × ?2 × ??2
-               = ??0 × ??2 × ?3
-               = ??0 × ?4
-               = ?5 ^sq.cm
-            22, 7, 28, 4, 112, 2464`
+area = ~πr~2
+= ?0/?1 × ?2 × ??2
+= ??0 × ??2 × ?3
+= ??0 × ?4
+= ?5 ^sq.cm
+22, 7, 28, 4, 112, 2464`
             },
             {
               text: `radius = 14 ^cm
-              area = ~πr~2
-              = 22/7 × ?0 × ??0
-              = 22 × ??0 × ?1
-              = 22 × ?2
-              = ?3 ^sq.cm
-           14, 2, 28, 616`
+area = ~πr~2
+= 22/7 × ?0 × ??0
+= 22 × ??0 × ?1
+= 22 × ?2
+= ?3 ^sq.cm
+14, 2, 28, 616`
             },
             {
               text: `radius = 7/2 ^cm
-              area = ~πr~2
-              = 22/7 × 7/2 × 7/2
-              = ?0 × ?1/?2
-              = ?3/??2
-              = ?4 ^sq.cm
-           11, 7, 2, 77, 38.5`
+area = ~πr~2
+= 22/7 × 7/2 × 7/2
+= ?0 × ?1/?2
+= ?3/??2
+= ?4 ^sq.cm
+11, 7, 2, 77, 38.5`
             },
             {
               text: `radius = 42 ^cm
-              area = ~πr~2
-              = 22/7 × ?0 × ??0
-              = 22 × ??0 × ?1
-              = 22 × ?2
-              = ?3 ^sq.cm
-           42, 6, 252, 5544`
+area = ~πr~2
+= 22/7 × ?0 × ??0
+= 22 × ??0 × ?1
+= 22 × ?2
+= ?3 ^sq.cm
+42, 6, 252, 5544`
             }
           ]
         },
         {
           title: 'Answer the following.',
           list: [
-            /*
             {
               text: `The diameter of a circular metal sheet is 1.4 ^m. Find its circumference and area (Take π = 22/7 )
-              Solution:
-              radius = diameter/2 = ?0 ^m
-              circumference = 2πr
-               = 2 × 22/7 × ??0
-               = 2 × ?1 = ?2 ^m
-               area = ~πr~2 = 22/7 × ??0 × ??0 
-                  = 22 × ?3 = ?4 ^sq.m
-              0.7, 2.2, 4.4, 0.07, 1.54`
+Solution:
+radius = diameter/2 = ?0 ^m
+circumference = 2πr
+= 2 × 22/7 × ??0
+= 2 × ?1 = ?2 ^m
+area = ~πr~2 = 22/7 × ??0 × ??0 
+= 22 × ?3 = ?4 ^sq.m
+0.7, 2.2, 4.4, 0.07, 1.54`
             },
-            
+
             {
               text: `The circumference of a circle is 264 ^cm. Find its area. (Take π = 22/7 ) 
-              Solution:
-              Lets find the radius.
-              We know circumference (C)= 2πr
-              r = C/2π = 264/2 × 7/22 
-              = ?0 × 7   = ?1 ^cm
-              area = ~πr~2 = 22/7 × 42 × 42 
-                = 22 × ?2 = ?3
-              6, 42, 252, 5544`
-            },*/
+Solution:
+Lets find the radius.
+We know circumference (C)= 2πr
+r = C/2π = 264/2 × 7/22 
+= ?0 × 7   = ?1 ^cm
+area = ~πr~2 = 22/7 × 42 × 42 
+= 22 × ?2 = ?3
+6, 42, 252, 5544`
+            },
             {
               text: `The area of a circular field is 13.86 ~m2. Find the circumference of the field. (Take π = 22/7 ) 
-              Solution:
-              Lets find the radius.
-              We know Area (A)=  ~πr~2
-              ~r~2 = A/π = 13.86 × 7/22
-              = ?0 × 7 = ?1
-              r = ?2 
-              C = 2πr = 2 × 22/7 × ??2
-                = 2 × ?3 = ?4 ^m
-              0.63, 4.41, 2.1, 6.6, 13.2`
+Solution:
+Lets find the radius.
+We know Area (A)=  ~πr~2
+~r~2 = A/π = 13.86 × 7/22
+= ?0 × 7 = ?1
+r = ?2 
+C = 2πr = 2 × 22/7 × ??2
+= 2 × ?3 = ?4 ^m
+0.63, 4.41, 2.1, 6.6, 13.2`
             },
             {
               text: `The diameter of a flowerbed in a garden is 2.8 ^m. Find the cost of fencing it at the rate of ₹ 55 per ^m. (Take π = 22/7 ) 
-              Solution:
-              radius = diameter/2 = ?0 ^m
-              For fencing we need to find circumference.
-              C = 2πr = 2 × 22/7 × ??0
-               = 2 × ?1 = ?2 ^m
-              Cost of fencing = ??2 × ?3 = ₹ ?4
-              1.4, 4.4, 8.8, 55, 484`
+Solution:
+radius = diameter/2 = ?0 ^m
+For fencing we need to find circumference.
+C = 2πr = 2 × 22/7 × ??0
+= 2 × ?1 = ?2 ^m
+Cost of fencing = ??2 × ?3 = ₹ ?4
+1.4, 4.4, 8.8, 55, 484`
             },
             {
               text: `Anita wants to make a circular grass bed in her garden. If the cost of levelling the ground is ₹ 18 per ^sq.m , find the amount she has to spend to make a circular grassbed of diameter 7 ^m.
-              Solution:
-              We need to find the area.
-              Lets take the radius as 7/2 ^m
-              Area =  ~πr~2 = 22/7 × 7/2 × 7/2 
-               = ?0 × ?1/?2 = ?3/??2 = ?4 ^sq.m
-              Cost = ?4 × ?5 = ₹ ?6
-             11, 7, 2, 77, 38.5, 18,  693`
+Solution:
+We need to find the area.
+Lets take the radius as 7/2 ^m
+Area =  ~πr~2 = 22/7 × 7/2 × 7/2 
+= ?0 × ?1/?2 = ?3/??2 = ?4 ^sq.m
+Cost = ?4 × ?5 = ₹ ?6
+11, 7, 2, 77, 38.5, 18,  693`
+            }
+          ]
+        },
+        {
+          title: 'Answer the following.',
+          list: [
+            {
+              text: `Ashok sells carpets. For a circular type of carpet, he charges ₹ 250 per ^sq.m. If you want to buy a circular carpet of radius 1.4 ^m, find how much money you have to pay.  (Take π = 22/7 ) 
+Solution:
+Area = ~πr~2 = 22/7 × 1.4 × 1.4 
+= 22 × ?0
+= ?1 ^sq.m
+Charges = 250 × ??1
+= ₹ ?2
+0.28, 6.16, 1540`
+            },
+            {
+              text: `There are two wires each of length 88 ^cm. One is bent to form a square and the other is bent to form a circle. Find which one of them has more area. (Take π = 22/7 ) 
+Solution:
+The perimeter of the square and the circumference of the circle are given.
+Side of square = perimeter/4 
+= ?0/4 = ?1 ^cm
+Area of square = side × side = ?2 ^sq.cm
+Radius of circle = circumference/2π
+= ?3/2 × ?4/?5 = ?6 × ??4
+= ?7 ^cm
+Area of circle =  ~πr~2 = 22/7 × ??7 × ??7
+= 22 × ?8 = ?9 ^sq.cm
+∴ The area of circle is bigger than the area of square.
+88, 22, 484, 88, 7, 22, 2, 14, 28, 616
+`
+            },
+            {
+              text: `Find the number of times a wheel of radius 56 ^cm must rotate to cover a distance of 264 ^m. 
+Solution:
+We need to divide the distance by circumference of the wheel to get the number of times the wheel should rotate.
+Circumference = 2πr = 2 × 22/7 × ?0
+= 2 x 22 x ?1 = ?2 ^cm
+Total distance = ?3 ^cm
+No. of Rotation = ??3/??2 = ?4
+56, 8, 352, 26400, 75`
+            },
+            {
+              text: `The radius of a circular brass plate is 20 ^cm. Find the cost of polishing the top surface of 12 such plate at the rate of ₹ 450 ^sq.m. (Take π = 3.14)
+Solution:
+Area of Plate = ~πr~2 = 3.14 × 20 × 20 
+= 3.14 × ?0 = ?1 ^sq.cm
+Area of 12 plates = ??1 × 12 = ?2 ^sq.cm
+= ?3 ^sq.m
+Cost = 450 × ??3 = ₹ ?4 
+400, 1256, 15072, 1.5072, 678.24`
+            },
+            {
+              text: `From a square metallic sheet of side 60 ^cm, a circle of maximum size was cut out. Find the area of the remaining metallic sheet. (Take π = 3.14)
+Solution:
+We need to subtract the area of the circle form the area of the square.
+Radius of circle = ?0 ^cm
+Area of circle = 3.14 × ??0 × ??0 
+= 3.14 × ?1 = ?2 ^sq.cm
+Area of square = 60 × 60 = ?3 ^sq.cm
+Remaining area = ??3 - ??2 = ?4 ^sq.cm
+30, 900, 2826, 3600, 774
+`
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'real-life',
+      label: 'Application in Real Life',
+      commonData: {
+        title: 'Problem',
+        type: 'word-problem',
+        fracFontSize: '0.9rem',
+        // isSentence: false,
+        //answerBox: false,
+        fontSize: '1rem'
+      },
+      data: [
+        {
+          title: 'Answer the following.',
+          list: [
+            {
+              text: `The area of a square field is 9 hectares. Find the cost of fencing it at the rate of ₹ 32 per ^metre.
+Solution: 
+We know 1 ^hectare = ?0 ^sq.m
+9 ^hectare = ?1 ^sq.m
+side of square = ?2 ^m
+perimeter = ?3 ^m
+cost of fencing = 32 × ??3
+= ₹ ?4
+10000, 90000, 300, 1200, 38400`
+            },
+            {
+              text: `The length and breadth of a plot are 125 ^m and 95 ^m respectively. A builder wants to buy the plot to construct a residential colony. Find the amount he has to pay if the cost of the plot is ₹ 12,000 per ^sq.m
+Solution:
+First we need to find the area of rectangular plot.
+A = 125 × 95 = ?0 ^sq.m
+Cost = ??0 × 12000 =  ₹ ?1
+11875, 142500000`
+            },
+            {
+              svg: {
+                width: 330,
+                height: 220,
+                paths: [
+                  'M 10 10 L 300 10 L 300 200 L 10 200 Z',
+                  {
+                    d: 'M 30 30 L 280 30 L 280 180 L 30 180 Z',
+                    stroke: 'none',
+                    fill: '#aaffaa'
+                  },
+                  'M 153 180 L 153 200 M 149 196 L 153 200 L 157 196 M 149 184 L 153 180 L 157 184'
+                ],
+                texts: [
+                  { str: '4 m', x: 158, y: 177 },
+                  { str: '96 m', x: 144, y: 29 },
+                  { str: '74 m', x: 233, y: 86 }
+                ]
+              },
+              text: `The length and breadth of a rectangular plot are 96 ^m and 74 ^m respectively. A path of 4 ^m wide is to be constructed outside and around the garden. Find the area of the path.
+Solution:
+To find the area of the path, we need to subtract the area of rectangle excluding the path, from the area of rectangle including the path.
+Area of garden = 96 × 74 = ?0 ^sq.m
+width including the path = ?1
+breadth including the path = ?2
+Area including the path = ?3 ^sq.m
+∴ Area of path = ??3 - ??0 
+=  ?4 ^sq.m
+7104, 104, 82, 8528, 1424
+`
+            },
+            {
+              svg: {
+                width: 330,
+                height: 250,
+                paths: [
+                  {
+                    d: 'M 35 40 L 235 40 L 235 230 L 35 230 Z ',
+                    stroke: 'none',
+                    fill: '#aaffaa'
+                  },
+                  {
+                    d: 'M 56 61 L 215 61 L 215 211 L 56 211 Z ',
+                    stroke: 'none',
+                    fill: '#aaaaff'
+                  },
+                  'M 129 211 L 129 231 M 125 227 L 129 231 L 133 227 M 125 215 L 129 211 L 133 215 '
+                ],
+                texts: [
+                  { str: '1 m', x: 134, y: 206 },
+                  { str: '50 m', x: 99, y: 15 },
+                  { str: '50 m', x: 237, y: 120 }
+                ]
+              },
+              text: `There is a grassbed of width 1 ^m running around a square waterbed inside a park of side 50 ^m as shown in the figure. Find the area of the grassbed.
+Solution:
+Area of grassbed is the difference between the area of square including the grassbad and the area of square excluding the grassbed.
+Area including the grassbed 
+= 50 × 50 = ?0 ^ sq.m
+Side excluding water bed = ?1 ^m
+Area excluding the grassbed
+= ??1 × ??1 = ?2 ^sq.m
+Area of grassbed = ??0 - ??2 = ?3 ^sq.m 
+2500, 48, 2304, 196
+`
+            },
+            {
+              svg: {
+                width: 350,
+                height: 250,
+                paths: [
+                  'M 33 43 L 323 43 L 323 233 L 33 233 Z ',
+                  {
+                    d: 'M 53 63 L 303 63 L 303 213 L 53 213 Z '
+                    //stroke: 'none',
+                    //fill: '#aaffaa'
+                  },
+                  'M 129 212 L 129 232 M 125 228 L 129 232 L 133 228 M 125 216 L 129 212 L 133 216 '
+                ],
+                texts: [
+                  { str: '2 m', x: 134, y: 210 },
+                  { str: '54 m', x: 162, y: 18 },
+                  { str: '36 m', x: 329, y: 124 }
+                ]
+              },
+              text: `The length and breadth of a rectangular park are 54 ^m and 36 ^m respectively. A path of width 2 ^m is to be build inside the park. Find the area of the path. Find the cost of cementing it at the rate of ₹30 per ^sq.m
+Solution:
+To find the area of the path, we need to subtract the area of rectangle excluding the path, from the area of rectangle including the path.
+Area of park = 54 × 36 = ?0 ^sq.m
+width excluding the path = ?1
+breadth excluding the path = ?2
+Area excluding the path = ?3 ^sq.m
+Area of path = ??0 - ??3 
+=  ?4 ^sq.m
+Cost of cementing = 30 × ??4
+= ₹ ?5
+1944, 50, 32, 1600, 344, 10320
+`
+            }
+          ]
+        },
+        {
+          title: 'Answer the following.',
+          list: [
+            {
+              svg: {
+                width: 350,
+                height: 250,
+                paths: [
+                  'M 18 28 L 282 28 L 282 216 L 18 216 Z ',
+                  {
+                    d: 'M 17 102 L 131 101 L 131 28 L 158 28 L 158 102 L 282 103 L 282 129 L 158 127 L 159 216 L 131 216 L 133 127 L 18 128 ',
+                    //stroke: 'none',
+                    fill: '#aaaaaa'
+                  },
+                  'M 55 105 L 55 125 M 51 121 L 55 125 L 59 121 M 51 109 L 55 105 L 59 109 '
+                ],
+                texts: [
+                  { str: '3 m', x: 64, y: 103 },
+                  { str: '80 m', x: 184, y: 6 },
+                  { str: '60 m', x: 286, y: 152 }
+                ]
+              },
+              text: `Two crossroads, each of width 3 ^m, run at right angles and parallel to the sides of a rectangular plot of dimensions 80 ^m x 60 ^m. Find the area of the roads.
+Solution:
+Area of the road running along the length 
+= 80 × 3 = ?0 ^sq.m
+Area of the road running along the breadth 
+= 60 × 3 = ?1 ^sq.m  
+If we add, the two we should get the total area of the road. But the intersecting area will be counted twice. So we need to subtract it.
+Intersecting area = ?2 × ?3 = ?4 ^sq.m
+∴ Area of road = ??0 + ??1 - ??4 
+= ?5 ^sq.m
+240, 180, 3, 3, 9, 411`
+            },
+            {
+              svg: {
+                width: 350,
+                height: 250,
+                paths: [
+                  'M 18 28 L 247 28 L 247 219 L 18 219 Z',
+                  {
+                    d: 'M 17 103 L 116 102 L 116 28 L 142 28 L 142 103 L 247 104 L 247 131 L 142 129 L 142 219 L 116 219 L 117 129 L 17 130 ',
+                    //stroke: 'none',
+                    fill: '#aaaaaa'
+                  },
+                  'M 55 105 L 55 125 M 51 121 L 55 125 L 59 121 M 51 109 L 55 105 L 59 109 '
+                ],
+                texts: [
+                  { str: '4 m', x: 64, y: 103 },
+                  { str: '800 m', x: 184, y: 6 },
+                  { str: '800 m', x: 249, y: 151 }
+                ]
+              },
+              text: `A square field of side 800 ^m has two crossroads that cut at right angles through the centre of the field. Find the area of the field, excluding the crossroads in hectares, given that the width of both the roads are 4 ^m and they are parallel to the sides of the field.
+Solution:
+Both Roads are of same length
+Area of one road = 800 × 4 = ?0 ^sq.m
+Area of two roads = 2 × ??0 = ?1 ^sq.m
+The intersecting area is counted twice. So we need to subtract it.
+Intersecting area = ?2 × ?3 = ?4 ^sq.m
+∴ Area of road = ??1 - ??4 
+= ?5 ^sq.m
+Area of the field = 800 × 800 = ?6 ^sq.m
+Area excluding roads = ??6 - ??5 = ?7 ^sq.m
+In hectare, area = ?8 ^sq.m (rounding off to two decimal points)
+3200, 6400, 4, 4, 16, 6384, 640000, 633616, 63.36`
+            },
+            {
+              text: `There is a circular waterbed of diameter 14 ^m in a garden. It is surrounded by a path of width 2 ^m to keep flower pots. Find the area of the path and also calculate the cost of cementing this path at the rate of ₹ 32 per ^sq.m
+Solution:
+Radius of waterbed = ?0 ^m
+Area of waterbed =  ~πr~2 = 22/7 × ??0 × ??0 
+= 22  × ?1 = ?2 ^sq.m
+Radius of waterbed including the path = ?3 ^m
+Area of waterbed including the path 
+= ~πr~2 = 22/7 × ??3 × ??3 
+= ?4 ^ sq.m (roundoff to 2 decimal points)
+Area of path = ??4 - ??2 = ?5 ^sq.m
+cost of cementing = ??5 × 32 = ₹ ?6
+7,7, 154,  9,  254.57, 100.57, 3218.24
+`
+            },
+            {
+              svg: {
+                width: 320,
+                height: 210,
+                paths: [
+                  'M 31 28 H 263 V 169 H 31 V 28 ',
+                  'M 154 52 C 183 52 206 73 207 101 C 207 128 184 149 154 151 C 125 151 102 129 101 101 C 100 74 123 53 154 52',
+                  'M 152 101 L 206 102'
+                ],
+                texts: [
+                  { str: '5 m', x: 156, y: 79 },
+                  { str: '15 m', x: 155, y: 4 },
+                  { str: '12 m', x: 263, y: 84 }
+                ]
+              },
+              text: `There is a circular waterbed of radius 5 ^m inside a rectangular park of length 15 ^m and breadth 12 ^m, as shown in the figure. Find the area of the park excluding the waterbed and also find the cost of fencing the water bed at the rate of ₹60 per ^m. (Take π = 3.14)
+Solution:
+Area of rectangular park = 15 × 12 = ?0 ^sq.m
+Area of waterbed =  ~πr~2 = 22/7 × 5 × 5
+= ?1 ^sq.m
+Area of park excluding waterbed 
+= ??0 - ??1 = ?2 ^sq.m
+Circumference of waterbed = 2πr
+= 2 × 22/7 × 5 = ?3 ^m (upto 1 decimal point)
+Cost of fencing = ??3 × 60 = ₹ ?4
+180, 78.57, 101.43, 31.4, 1884`
+            }
+          ]
+        },
+        {
+          title: 'Find the area of the shaded region for the following figure.',
+          list: [
+            {
+              svg: {
+                width: 350,
+                height: 250,
+                paths: [
+                  'M 35 30 H 259 V 241 H 35 V 30 ',
+                  {
+                    d: 'M 147 31 L 259 241 H 36 Z ',
+                    //stroke: 'none',
+                    fill: '#aaffaa'
+                  }
+                ],
+                texts: [
+                  { str: '15 cm', x: 57, y: 8 },
+                  { str: '15 cm', x: 174, y: 9 },
+                  { str: '30 cm', x: 262, y: 132 }
+                ]
+              },
+              text: `Solution:
+By observing the fig, we can say the area of the filled and unfilled part are the same.
+Also the shaded region is a triangle whose base and height we know.
+Shaded area = 1/2 × base × height
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+30, 30, 450`
+            },
+            {
+              svg: {
+                width: 350,
+                height: 250,
+                paths: [
+                  'M 61 40 H 276 V 170 H 61 V 40 ',
+                  {
+                    d: 'M 164 40 L 274 104 L 164 170 L 60 104 Z ',
+                    //stroke: 'none',
+                    fill: '#ffffaa'
+                  }
+                ],
+                texts: [
+                  { str: '10 cm', x: 73, y: 17 },
+                  { str: '10 cm', x: 193, y: 17 },
+                  { str: '10 cm', x: 196, y: 167 },
+                  { str: '10 cm', x: 81, y: 169 },
+                  { str: '6 cm', x: 15, y: 62 },
+                  { str: '6 cm', x: 15, y: 131 },
+                  { str: '6 cm', x: 278, y: 124 },
+                  { str: '6 cm', x: 278, y: 58 }
+                ]
+              },
+              text: `Solution:
+If we split the rectangle either horizontally or vertically into two equal parts, the area formed by the shaded and non-shaded region are the same.
+Shaded area = 1/2 × width × height
+= 1/2 × ?0 × ?1
+= ?2 ^sq.cm
+20, 12, 120`
             }
           ]
         }
