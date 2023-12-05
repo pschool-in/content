@@ -55,7 +55,7 @@ shoe | A shoe is worn on the _____. | foot, head
 banana | A banana is ____ when it's ripe. | yellow, purple
 rose | The flower is ____ and smells nice. | colorful, black
 sun | The sun gives us light and _____. | heat, cold
-doubt: frog | The frog says "______" | ribbit, quack
+pig | The pig says "______" | oink, quack
 chair | I ___ on a chair. | sit, jump
 tree | The tree provides _____. | shade, water
 dog | The dog _____ loudly. | barks, purrs
@@ -69,7 +69,7 @@ kite | A kite flies high in the ____. | sky, water
 guitar | A guitar has strings and makes _____. | music, noise
 camera | I take pictures with my ____. | camera, binoculars
 phone | I talk on the ____ with friends. | phone, TV
-shirt | I wear a sweater in ___ weather. | cold, hot
+sweater | I wear a sweater in ___ weather. | cold, hot
 star | The star shines in the _____ sky. | night, morning`,
 
         // todo:
@@ -126,9 +126,9 @@ hand| Wash your hands to keep them ______.|clean, dirty
 
 tiger | The tiger is a majestic wild ____.| cat, dog
 cheetah| The cheetah is the _______ animal.|fastest, slowest
-doubt: owl| The owl is _____ bird.| wise, foolish
-doubt: ostrich| The ostrich is the _______ bird.|fastest, slowest
-doubt : strawberry| Strawberry has _____ seeds.| many, no
+ladder| The boy is _______ the ladder.| climbing, clinging
+ostrich| The ostrich runs _______.|fast, slow
+mango| Mango has _____ seed.| one, no
 egg| ______ lays eggs.|Hen, Rooster
 lotus| Lotus grows in _____.|water, soil
 running| The boy is ________.|running, walking
