@@ -9,10 +9,10 @@ export default {
       label: 'Notes',
       type: 'passage',
       data: {
-        text: `We hear various types of sounds such as music, voices of people talking, honking of horns and many more. Sounds may or may not be pleasant to our ears. Sounds such as chirping of birds and various musical instruments such as a flute, a guitar or drums are pleasant to our ears. On the other hand, sounds such as horns, loud music and cutting of stones are unpleasant to hear. These sounds irritate us. They are called noises.
-# How is sound produced?
-Sound is produced when an object vibrates on being struck. For example, the sheet of the drum or strings of guitar vibrate when we strike them and they produce sound. When we speak, the air inside our mouth strikes the voice box present in our throat. The voice box vibrates and produces sound. We hear this sound through our ears.
-Too much of sounds can create noise pollution. If our ears get exposed to heavy sounds for a long time, then it loses its hearing ability. `,
+        text: `We hear various types of sounds such as music, voices of people talking, honking of horns and many more. Sounds may or may not be pleasant to our ears. Sounds such as the chirping of birds and various musical instruments such as a flute, a guitar or drums are pleasant to our ears. On the other hand, sounds such as horns, loud music and cutting of stones are unpleasant to hear. These sounds irritate us. They are called noises.
+# How is a sound produced?
+Sound is produced when an object vibrates on being struck. For example, the sheet of the drum or strings of a guitar vibrates when we strike them and they produce sound. When we speak, the air inside our mouth strikes the voice box present in our throat. The voice box vibrates and produces sound. We hear this sound through our ears.
+Too much sound can create noise pollution. If our ears get exposed to heavy sounds for a long time, then they lose their hearing ability. `,
         title: 'Sound'
       }
     },
@@ -58,9 +58,8 @@ Sound is produced by vibration.`
           },
           {
             name: 'False',
-            text: `
-We cannot hear any sound in the dark.
-The sound of the loudspeaker is a soft sound.`
+            text: `We cannot hear any sound in the dark.
+The sound of the loudspeaker is soft.`
           }
         ]
       }
@@ -72,7 +71,7 @@ The sound of the loudspeaker is a soft sound.`
       data: {
         text: `Unpleasant sound is called *noise* and it *irritates* us. 
 Too much of sound can cause noise *pollution*.
-Sound is a form of *energy* and it is caused by *vibration*.`
+A sound is a form of *energy* and it is caused by *vibration*.`
       }
     },
     {

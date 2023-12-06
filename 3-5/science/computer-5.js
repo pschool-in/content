@@ -10,26 +10,26 @@ export default {
       id: 'notes-computersystem',
       data: {
         title: 'Computer System',
-        text: `A  computer is made up of software and  hardware.
+        text: `A  computer is made up of software and hardware.
 # Hardware
-All physical parts of a computer that can be touched or connected to the computer is called hardware. Eg: monitor, keyboard, CPU, mouse, printer, and speaker
-Hardwares can be internal or external.
+All physical parts of a computer that can be touched or connected to the computer are called hardware. Eg: monitor, keyboard, CPU, mouse, printer, and speaker
+Hardware can be internal or external.
 # External Hardware:
 They are visible components connected to a computer. Eg: mouse, keyboard, pendrive, printer. 
 # Internal Hardware:
-The parts present inside the CPU are called internal hardware. They include motherboard, microprocessor, RAM, Hard disk etc.
+The parts present inside the CPU are called internal hardware. They include the motherboard, microprocessor, RAM, Hard disk etc.
 # Motherboard
-It is an electronic board that holds all other internal hardwares like RAM, microprocessor etc.
+It is an electronic board that holds all other internal hardware like RAM, microprocessor etc.
 # Microprocessor
-This is the most important part of a computer and called the brain of a computer. This is responsible for running a software in your computer.
+This is the most important part of a computer and is called the brain of a computer. This is responsible for running software on your computer.
 # RAM
-It stands for Random Access Memory. It is often called the main memory of the computer. It holds the data and instructions on which computer is currently working. Once we turn off the computer, the data stored in RAM will be lost.
+It stands for Random Access Memory. It is often called the main memory of the computer. It holds the data and instructions on which the computer is currently working. Once we turn off the computer, the data stored in RAM will be lost.
 # Hard Disk
-It is used to store data permanently. Even if we turn off the computer, the data stored in a hard disk is retained. Usually harddisk have hundreds of times more capacity than RAM.
+It is used to store data permanently. Even if we turn off the computer, the data stored in a hard disk is retained. Usually, a hard disk has hundreds of times more capacity than RAM.
 # Software
 It is a set of instructions or programs on which the computer works. Eg: Operating System (OS), Anti Virus, Internet Browser, Search Engine
 # Operating System (OS)
-It is the most important software in your computer. It is the first software that runs when you start a computer. It manages all the activities of a computer. It is reponsible of running other softwares.  The three famous OS on laptops and desktops are Windows, MacOS and Linux. The two famous OS on smartphones are Android and iOS.`
+It is the most important software on your computer. It is the first software that runs when you start a computer. It manages all the activities of a computer. It is responsible for running other software.  The three famous OS on laptops and desktops are Windows, MacOS and Linux. The two famous OS on smartphones are Android and iOS.`
       }
     },
     {
@@ -61,7 +61,7 @@ It is the most important software in your computer. It is the first software tha
             name: 'True',
             text: `A computer is an electronic device.
 A pen drive is a storage device.
-Output device displays result.`
+Output device displays the result.`
           },
           {
             name: 'False',
@@ -109,7 +109,7 @@ Desktop, Mouse`
         questions: [
           {
             qText: 'CPU has a ______________.',
-            options: 'Microprocessor, Microcontrolller, Microphone'
+            options: 'Microprocessor, Microcontroller, Microphone'
           },
           {
             qText: 'Which is not a storage device?',
@@ -117,10 +117,10 @@ Desktop, Mouse`
           },
           {
             qText: 'Which is not an operating system?',
-            options: 'MS word, Linux, Windows'
+            options: 'MS Word, Linux, Windows'
           },
           {
-            qText: 'What is the software that manages other softwares?',
+            qText: 'What is the software that manages other software?',
             options: 'Operating System, Anti Virus, Micro Processor, CPU'
           },
           {
@@ -138,11 +138,11 @@ Desktop, Mouse`
         title: 'Click the blanks and fill it with the right word.',
         text: `*Software (Hardware)* is a set of instructions on which computer works.
 CPU is the *brain (heart)* of the computer.
-*Windows (MS Word)* is an example of operating system.
-*Motherboard (RAM)* helps in keeping all the internal hardwares together.
+*Windows (MS Word)* is an example of an operating system.
+*Motherboard (RAM)* helps keep all the internal hardware together.
 *Hard Disk (RAM)* is used to store data permanently.
 Hardware components that are visible to our eyes are called *external (internal)* hardware.
-To get hard copy of a computer output, we use *printer (scanner)*.`
+To get a hard copy of a computer output, we use *printer (scanner)*.`
       }
     },
     {
@@ -155,9 +155,9 @@ To get hard copy of a computer output, we use *printer (scanner)*.`
         type: 'clue',
         text: `An input device used to select items on the computer screen.|MOUSE
 An output device that gives output on paper.|PRINTER
-A device that helps to listen music.|SPEAKER
+A device that helps to listen to music.|SPEAKER
 A device to view images and videos.|MONITOR
-A device to convert the content of paper into soft copy. | SCANNER`
+A device to convert the content of paper into a soft copy. | SCANNER`
       }
     }
   ]
