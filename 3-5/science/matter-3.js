@@ -10,16 +10,16 @@ export default {
       type: 'passage',
       data: {
         title: 'States of Matter',
-        text: `We can see a number of things around us. Everything we can see and touch is made up of matter. Anything that occupies space and has mass is called matter.
+        text: `We can see many things around us. Everything we can see and touch is made up of matter. Anything that occupies space and has mass is called matter.
 # What is Mass?
 Mass is a measure of how much matter is present in an object. The air we breathe, the food we take, and the water we drink, all have matter in them. 
 # What is Volume?
 The space occupied by an object is called its volume.
-# Three states of Matter
+# Three States of Matter
 Solid, liquid and gas are the three states of matter. 
-Solid has fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
-Liquid does not have fixed shape. It takes the shape of its container. eg: milk, honey, water, juice, oil, petrol.
-Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapour, wind.`
+Solid has a fixed shape and fixed volume. eg: pencil, bat, bag, apple, stone, book.
+Liquid does not have a fixed shape. It takes the shape of its container. eg: milk, honey, water, juice, oil, petrol.
+Gas does not have a fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), spray, water vapor, wind.`
       }
     },
     {
@@ -66,7 +66,7 @@ Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), 
           },
           {
             name: 'Gas',
-            text: 'cloud, smoke, LPG, spray, water vapour, wind'
+            text: 'cloud, smoke, LPG, water vapor, wind'
           }
         ]
       }
@@ -82,7 +82,7 @@ Gas does not have fixed shape and volume. eg: cloud, smoke, gas cylinder (LPG), 
             name: 'True',
             text: `Everything we can see is made up of matter.
 Gas has no fixed volume.
-Cloud is a form of gas.`
+A cloud is a form of gas.`
           },
           {
             name: 'False',
@@ -113,7 +113,7 @@ fixed shape, solid`
       data: {
         text: `*Mass* is a measure of how much matter is in an object.
 *Volume* is the space occupied by an object.
-*Liquid* has no fixed shape but has fixed volume.
+*Liquid* has no fixed shape but has a fixed volume.
 *Smoke* is a gas.
 *Gas* has no fixed shape and no fixed volume.`
       }
@@ -124,17 +124,17 @@ fixed shape, solid`
       type: 'passage',
       data: {
         title: 'Change in States of Matter',
-        text: `Matters change their state as the temparature changes. Solid changes to liquid and liquid changes into gas on heating. Gas becomes liquid and liquid becomes solid on cooling.
+        text: `Matters change their state as the temperature changes. Solid changes to liquid and liquid changes into gas on heating. Gas becomes liquid and liquid becomes solid on cooling.
 # Melting
-Change of solid into liquid on heating is called melting. For example, if ice (solid) is heated, it will change into water (liquid).
+The change of solid into liquid on heating is called melting. For example, if ice (solid) is heated, it will change into water (liquid).
 # Evaporation
-Change of liquid into vapour on heating is called Evaporation. For example, if water is heated, it will change into steam.
+The change of a liquid into vapor on heating is called Evaporation. For example, if water is heated, it will change into steam.
 # Freezing
-Change of liquid into solid on cooling is known as freezing. For example, water (liquid) poured in ice-tray and placed in the freezer (fridge), gets cooled and becomes ice (solid).
+The change of liquid into solid on cooling is known as freezing. For example, water (liquid) poured into in ice-tray and placed in the freezer (fridge), gets cooled and becomes ice (solid).
 # Condensation
-Change of gas into liquid on cooling is called condensation. For example; clouds (gas) on cooling condense and fall as rain (liquid)
+The change of gas into liquid on cooling is called condensation. For example; clouds (gas) on cooling condense and fall as rain (liquid)
 # Experiment
-Take a balance. Keep an air filled football in one plate and an empty football in another plate. What happens? 
+Take a balance. Keep an air-filled football on one plate and an empty football on another plate. What happens? 
 Air filled ball goes down. It is because air has mass.`
       }
     },
@@ -144,8 +144,8 @@ Air filled ball goes down. It is because air has mass.`
       id: 'drag-drop-2',
       data: {
         text: `*Water* from ocean and rivers *evaporate* and form clouds.
-Clouds are in *gas* state. They get cooled by breeze and fall as *rain*.
-If we put water in *freezer*, it becomes *ice*.`
+Clouds are in *gas* state. They get cooled by the breeze and fall as *rain*.
+If we put water in the *freezer*, it becomes *ice*.`
       }
     },
     {
@@ -157,7 +157,7 @@ If we put water in *freezer*, it becomes *ice*.`
         questions: [
           {
             qText: 'Solid becomes ______ on heating.',
-            options: `liquid, gas, water vapour, water`
+            options: `liquid, gas, water vapor, water`
           },
           {
             qText: ' Change of solid into liquid on heating is called ______.',
@@ -169,7 +169,7 @@ If we put water in *freezer*, it becomes *ice*.`
           },
           {
             qText: 'Water becomes _____ on heating.',
-            options: `water vapour, cloud, atmosphere`
+            options: `water vapor, cloud, atmosphere`
           },
           {
             qText: 'Change of liquid into solid on cooling is called ______.',
@@ -193,8 +193,8 @@ Change of gas into liquid on cooling is called condensation.`
           },
           {
             name: 'False',
-            text: `Water is commonly avaiable in gas form.
-Metals like gold, iron cannot be melted.`
+            text: `Water is commonly available in gas form.
+Metals like gold and iron cannot be melted.`
           }
         ]
       }
@@ -206,8 +206,8 @@ Metals like gold, iron cannot be melted.`
       data: {
         title: 'Fuel',
         text: `Paper, firewood, dried leaves and charcoal can be burnt. Liquids like kerosene, petrol and diesel also burn on heating. Domestic gas burns and helps in cooking.
-Substances when burnt give out heat. But in some substances, the heat released is very low. Thus, these are not used for heating purpose.
-Substances that give out more heat while burning are used for heating purpose.
+Substances when burnt give out heat. But in some substances, the heat released is very low. Thus, these are not used for heating purposes.
+Substances that give out more heat while burning are used for heating purposes.
 These substances are called fuels.
 Electrical energy is also used as fuel for cooking and transporting.`
       }
@@ -274,21 +274,9 @@ All solid matter can be used as a fuel.`
       data: {
         text: `Cars run on *petrol*.
 *LPG* is used for cooking.
-Oven uses *electrical* energy.
-Substances that give lot of heat on burning is called *fuel*.
+The oven uses *electrical* energy.
+Substances that give a lot of heat on burning are called *fuel*.
 *Kerosene* is the liquid fuel commonly used for cooking.`
-      }
-    },
-    {
-      label: 'Drag and Drop',
-      type: 'matchByDragDrop',
-      id: 'drag-drop-4',
-      data: {
-        text: `Fuel gives *heat* energy on burning.
-An example for solid is *stone*.
-An example for liquid is *water*.
-Moving air in the atmosphere is called *wind*.
-The measure of matter in an object is called *mass*.`
       }
     },
     {
@@ -299,9 +287,21 @@ The measure of matter in an object is called *mass*.`
         title: 'Match the related ones.',
         fontSize: '1rem',
         text: `solid to liquid, melting
-water to vapour, evaporation
-vapour to liquid, condensation
+water to vapor, evaporation
+vapor to liquid, condensation
 liquid to solid, freezing`
+      }
+    },
+    {
+      label: 'Drag and Drop',
+      type: 'matchByDragDrop',
+      id: 'drag-drop-4',
+      data: {
+        text: `Fuel gives *heat* energy on burning.
+An example of a solid is *stone*.
+An example of liquid is *water*.
+Moving air in the atmosphere is called *wind*.
+The measure of matter in an object is called *mass*.`
       }
     }
   ]

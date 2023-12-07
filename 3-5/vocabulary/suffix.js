@@ -105,6 +105,66 @@ export default {
             type: 'sitewords',
             text: 'musical, technical, practical, logical, periodical, electrical, historical, grammatical',
             width: 120
+          },
+          '# -ance words',
+          {
+            type: 'sitewords',
+            text: 'acceptance, assistance, attendance, resistance, assurance, performance, tolerance, radiance, brilliance',
+            width: 120
+          },
+          '# -ence words',
+          {
+            type: 'sitewords',
+            text: 'excellence, presence, difference, independence, confidence, consequence, persistence, intelligence, essence, convergence',
+            width: 120
+          },
+          '# -dom words',
+          {
+            type: 'sitewords',
+            text: 'kingdom, freedom, wisdom, random, stardom, fandom',
+            width: 120
+          },
+          '# -ee words',
+          {
+            type: 'sitewords',
+            text: 'employee, trainee, referee, interviewee, trustee, addressee, absentee, attendee, refugee',
+            width: 120
+          },
+          '# -er words',
+          {
+            type: 'sitewords',
+            text: 'teacher, writer, dancer, singer, baker, gardener, engineer, speaker, painter, driver',
+            width: 120
+          },
+          '# -or words',
+          {
+            type: 'sitewords',
+            text: 'actor, director, professor, operator, editor, supervisor, governor, investor, author',
+            width: 120
+          },
+          '# -hood words',
+          {
+            type: 'sitewords',
+            text: 'childhood, brotherhood, neighborhood, parenthood, adulthood, sisterhood, fatherhood, motherhood, boyhood, girlhood',
+            width: 120
+          },
+          '# -ry words',
+          {
+            type: 'sitewords',
+            text: 'mystery, victory, history, discovery, delivery, gallery, memory, bakery, nursery, factory',
+            width: 120
+          },
+          '# -en words',
+          {
+            type: 'sitewords',
+            text: 'brighten, lengthen, heighten, strengthen, fasten, weaken, soften, widen, ripen, broaden',
+            width: 120
+          },
+          '# -y words',
+          {
+            type: 'sitewords',
+            text: 'happy, sunny, rainy, silly, tasty, noisy, sleepy, shiny, healthy',
+            width: 120
           }
         ]
       }
@@ -185,7 +245,21 @@ actual, ly
 cultur, al  
 priori, ty  
 pave, ment  
-direct, ion`
+direct, ion`,
+
+        `accept, ance
+differ, ence
+king, dom
+employ, ee
+teach, er
+act, or`,
+
+        `child, hood
+bright, en
+rain, y
+bake, ry
+assist, ance
+excell, ence`
       ]
     },
     {
@@ -264,7 +338,21 @@ original, ly
 individu, al  
 nationali, ty 
 retire, ment  
-suggest, ion`
+suggest, ion`,
+
+        `free, dom
+train, ee
+sing, er
+profess, or
+brother, hood
+memo, ry`,
+
+        `soft, en
+tast, y
+wis, dom
+refer, ee
+speak, er
+invest, or`
       ]
     },
     {
@@ -343,7 +431,21 @@ friend, ship
 seri, ous
 home, less
 heavi, ness
-interrog, ate`
+interrog, ate`,
+
+        `neighbor, hood
+histo, ry
+strength, en
+sill, y
+resist, ance
+pres, ence`,
+
+        `ran, dom
+trust, ee
+garden, er
+edit, or
+parent, hood
+bake, ry`
       ]
     },
     {
@@ -756,7 +858,55 @@ feroci, ous, ive
 support, ive, ous
 product, ive, ous
 age, less, ness
-attach, ment, ness`
+attach, ment, ness
+accept, ance, ence
+excell, ence, ance
+king, dom, dem
+employ, ee, e`,
+
+        `teach, er, ee
+act, or, er
+child, hood, dom
+myste, ry, y
+bright, en, in
+rain, y, ny
+assist, ance, ence
+pres, ence, ance
+free, dom, ance
+train, ee, e`,
+
+        `writ, er, or
+direct, or, er
+neighbor, hood, ly
+victo, ry, y
+fast, en, ir
+sleep, y, py
+attend, ance, ence
+differ, ence, ance
+ran, dom, out
+refer, ee, e`,
+
+        `danc, er, or
+profess, or, er
+discove, ry, y
+tast, y, ty
+resist, ance, ence
+confid, ence, ance
+star, dom, y
+adress, ee, e
+bak, er, or
+operat, or, er`,
+
+        `fast, en, in
+health, y, hy
+assur, ance, ence
+persist, ence, ance
+fan, dom, out
+absent, ee, e
+attend, ee, e
+paint, er, or
+govern, or, er
+bake, ry, y`
       ]
     },
     {

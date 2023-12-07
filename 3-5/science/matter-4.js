@@ -10,23 +10,23 @@ export default {
       id: 'notes',
       data: {
         title: 'Materials',
-        text: `We can see lot of things around us. The matter from which a thing is made of is called material. For example: Chair is made of wood, Eraser is made of rubber, Candle is made of wax.
+        text: `We can see a lot of things around us. The matter from which a thing is made is called material. For example: Chair is made of wood, Eraser is made of rubber, Candle is made of wax.
 # Properties of Materials
-We can measure, see or feel the materials. Different types of material have different properties that make them useful for various purposes. Most materials have more than one property. They can be hard or soft, shiny or dull, smooth or rough and flexible or rigid.
+We can measure, see or feel the materials. Different types of materials have different properties that make them useful for various purposes. Most materials have more than one property. They can be hard or soft, shiny or dull, smooth or rough and flexible or rigid.
 # Hard and Soft
-Materials which cannot be easily compressed, cut, bent or scratched are called hard materials. eg: brick, bone and steel.
-Materials which can be easily compressed, cut, bent or scratched are called soft materials. eg: foam, clay and skin.
+Materials that cannot be easily compressed, cut, bent or scratched are called hard materials. eg: brick, bone and steel.
+Materials that can be easily compressed, cut, bent or scratched are called soft materials. eg: foam, clay and skin.
 # Shiny and Dull
-Materials which reflect the light well are called shiny materials. eg: stainless steel, gold and diamond.
-Materials which do not reflect the light well are called dull materials. eg: candle, paper and jute bag.
+Materials that reflect the light well are called shiny materials. eg: stainless steel, gold and diamond.
+Materials that do not reflect the light well are called dull materials. eg: candle, paper and jute bag.
 # Rough and Smooth
-Materials which have ups and downs on their surface are called rough materials. eg: brick, rock and tyre.
-Materials which do not have ups and downs on their surface are called smooth materials. eg: mirror, silk cloth and tiles.
+Materials that have ups and downs on their surface are called rough materials. eg: brick, rock and tyre.
+Materials that do not have ups and downs on their surface are called smooth materials. eg: mirror, silk cloth and tiles.
 # Flexible and Rigid
-Materials which can be bent or stretched easily are known as flexible materials. eg: rubber band, electric wire and cycle tube.
-Materials which cannot be bent or stretched easily are known as rigid materials. eg: stick, wooden scale and stone.
+Materials that can be bent or stretched easily are known as flexible materials. eg: rubber band, electric wire and cycle tube.
+Materials that cannot be bent or stretched easily are known as rigid materials. eg: stick, wooden scale and stone.
 # Waterproof Materials
-Materials that do not allow water to pass through them are called Waterproof Materials. eg: raincoat and aluminium foil of tablet strip.`
+Materials that do not allow water to pass through them are called Waterproof Materials. eg: raincoat and aluminum foil of tablet strip.`
       }
     },
     {
@@ -45,6 +45,20 @@ Materials that do not allow water to pass through them are called Waterproof Mat
             text: 'eraser, cotton, foam, clay, skin'
           }
         ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match',
+      type: 'match',
+      data: {
+        title: 'Match the related ones.',
+        fontSize: '1rem',
+        text: `rough, rock
+smooth, tiles
+shiny, gold
+soft, cotton
+hard, steel`
       }
     },
     {
@@ -84,6 +98,20 @@ Materials that do not allow water to pass through them are called Waterproof Mat
       }
     },
     {
+      id: 'match-2',
+      label: 'Match',
+      type: 'match',
+      data: {
+        title: 'Match the related ones.',
+        fontSize: '1rem',
+        text: `wood, chair
+paper, book
+stainless steel, spoon
+mud, bricks
+glass, jar`
+      }
+    },
+    {
       label: 'Flexible vs Rigid',
       id: 'flexible-rigid',
       type: 'group',
@@ -99,34 +127,6 @@ Materials that do not allow water to pass through them are called Waterproof Mat
             text: 'stone, wooden scale, steel pipe'
           }
         ]
-      }
-    },
-    {
-      id: 'match',
-      label: 'Match',
-      type: 'match',
-      data: {
-        title: 'Match the related ones.',
-        fontSize: '1rem',
-        text: `rough, rock
-smooth, tiles
-shiny, gold
-soft, cotton
-hard, steel`
-      }
-    },
-    {
-      id: 'match-2',
-      label: 'Match',
-      type: 'match',
-      data: {
-        title: 'Match the related ones.',
-        fontSize: '1rem',
-        text: `wood, chair
-paper, book
-stainless steel, spoon
-mud, bricks
-glass, jar`
       }
     },
     {
@@ -160,13 +160,13 @@ cotton, dress`
           },
           {
             qText:
-              'The materials that does not allow water to pass through are called _________ materials.',
+              'The materials that do not allow water to pass through are called _________ materials.',
             options: `waterproof, dry, wet, hard`
           },
           {
             qText:
               'Which of the following is called the natural source of light?',
-            options: `The Sun, The Moon, Electric light, Torch light`
+            options: `The Sun, The Moon, Electric light, Torchlight`
           },
           {
             qText: 'Which of the following is not made of rubber?',
@@ -185,7 +185,7 @@ cotton, dress`
           {
             name: 'True',
             text: `Gold and diamond are examples of shiny material.
-Aluminium foil of tablet strips are waterproof.
+Aluminium foil of tablet strips is waterproof.
 Plastic scale is flexible but wooden scale is not flexible.`
           },
           {
@@ -202,10 +202,10 @@ Cycle tube is not flexible.`
       label: 'Odd One Out',
       data: {
         title: 'Pick the odd one out.',
-        text: `silk cloth, brick, coir, pine apple
+        text: `silk cloth, brick, coir, pineapple
 stone, rubber band, cycle tube, electric wire
 pen, sun, candle, torch
-sponge, umbrella, rain coat, jerkin
+sponge, umbrella, raincoat, jerkin
 glass bottle, paper plate, wooden board`
       }
     },
@@ -216,7 +216,7 @@ glass bottle, paper plate, wooden board`
       data: {
         title: 'Light',
         text: `We see the world around us with the help of light. Where do we get light from? Light may come either from the Sun or from other sources like an electric lamp or a bulb. The objects that give off light are called light sources.
-# Transparent,Translucent and Opaque objects
+# Transparent, Translucent and Opaque objects
 Transparent objects allow the light to pass through them. So, we can see things on the other side of the object. eg: air, glass and pure water.
 Translucent objects allow some light to pass through them. So, we cannot see objects clearly, but we see them as blurred images through them. eg: paper soaked in oil, snow and vegetable oil.
 Opaque objects do not allow light to pass through them. So, we cannot see through these objects. eg: wood, stone and metals.
@@ -259,7 +259,7 @@ If we tilt the mirror, the direction of reflection does not change.`
           },
           {
             qText:
-              'The material that does not allow light to pass through are called ______.',
+              'The material that does not allow light to pass through is called ______.',
             options: `opaque, transparent, translucent`
           },
           {
@@ -284,8 +284,8 @@ If we tilt the mirror, the direction of reflection does not change.`
       data: {
         title: 'Match the related ones.',
         fontSize: '1rem',
-        text: `light source, Sun
-waterproof, rain coat
+        text: `light source, sun
+waterproof, raincoat
 transparent, glass
 translucent, vegetable oil
 opaque, metal`
@@ -298,7 +298,7 @@ opaque, metal`
       data: {
         text: `We see the world around us with the help of *light*.
 The objects that give off light are called light *sources*.
-Light usually get *reflected* from mirror. 
+Light usually gets *reflected* from the mirror. 
 Wood is *opaque*, but glass is *transparent*.`
       }
     }
