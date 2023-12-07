@@ -89,7 +89,78 @@ export default {
             text: 'extracurricular, homophone, microscope, triangle, tricycle, bicycle, unicycle',
             width: 120
           },
-          `The following words are usually not considered as prefixes.`,
+          '# auto- words',
+          {
+            type: 'sitewords',
+            text: 'automatic, autobiography, autopilot, autograph, autonomy, autopsy, autofocus',
+            width: 120
+          },
+          '# extra- words',
+          {
+            type: 'sitewords',
+            text: 'extravagant, extraneous, extraterrestrial, extraordinary, extrasensory, extrapolate, extracurricular, extracellular',
+            width: 120
+          },
+          '# hyper- words',
+          {
+            type: 'sitewords',
+            text: 'hyperactive, hyperbole, hypertension, hyperlink, hypermarket',
+            width: 120
+          },
+          '# inter- words',
+          {
+            type: 'sitewords',
+            text: 'interact, intercontinental, intermediate, interlude, internet, interstellar, intertwine',
+            width: 120
+          },
+          '# mid- words',
+          {
+            type: 'sitewords',
+            text: 'midnight, midday, midway, midterm',
+            width: 120
+          },
+          '# non- words',
+          {
+            type: 'sitewords',
+            text: 'nonprofit, nonsense, nonfiction',
+            width: 120
+          },
+          '# out- words',
+          {
+            type: 'sitewords',
+            text: 'outrageous, outspoken, outgoing, outskirts, outsource, outgrow, outdo, outnumber, outrun',
+            width: 120
+          },
+          '# post- words',
+          {
+            type: 'sitewords',
+            text: 'postpone, postscript, postwar, postgraduate',
+            width: 120
+          },
+          '# pro- words',
+          {
+            type: 'sitewords',
+            text: 'proactive, proclaim, profound, prologue',
+            width: 120
+          },
+          '# sub- words',
+          {
+            type: 'sitewords',
+            text: 'submarine, subconscious, submerge, subordinate, suburb, subdivide, subdue, substantial, substitute, sublime',
+            width: 120
+          },
+          '# trans- words',
+          {
+            type: 'sitewords',
+            text: 'transform, translate, transmission, transparent, transcribe, transplant',
+            width: 120
+          },
+          '# up- words',
+          {
+            type: 'sitewords',
+            text: 'upgrade, uphold, upbeat, uphill, upturn, uplift, uptake, uptown, upend, uproar',
+            width: 120
+          }`The following words are usually not considered as prefixes.`,
           {
             type: 'sitewords',
             text: 'predict, preferable, presentation, president, precious, pressure, prepare, repeat, response, reasonable, revolution, replicate, delicious, develop, deliver, decline, destiny',
@@ -174,7 +245,21 @@ ir, rational
 re, publish        
 un, usual 
 im, prison  
-mis, use`
+mis, use`,
+
+        `up, grade
+trans, form
+sub, marine
+out, grow
+mid, day
+pro, claim`,
+
+        `up, hold
+trans, slate
+sub, merge
+out, spoken
+mid, night
+pro, active`
       ]
     },
     {
@@ -239,7 +324,21 @@ de, fame
 dis, obedient
 over, do  
 re, organise
-un, zip`
+un, zip`,
+
+        `up, beat
+trans, mission
+sub, due
+out, going
+mid, way
+pro, found`,
+
+        `up, hill
+trans, plant
+sub, lime
+out, source
+mid, term
+pro, logue`
       ]
     },
     {
@@ -448,7 +547,45 @@ locate, re, un`,
 hook, un, en
 fill, re, en
 mix, re, un
-safe, un, re`
+safe, un, re
+day, mid, in
+sense, non, out
+act, inter, mid
+pilot, auto, anti
+power, over, up`,
+
+        `grade, up, trans
+active, pro, pre
+do, out, pro
+marine, sub, out
+form, trans, out
+hold, up, post
+late, trans, up
+hill, up, out
+way, mid, in
+urb, sub, out`,
+
+        `matic, auto, pro
+turn, re, de
+fix, pre, pro
+due, over, pro
+profit, non, pro
+grow, out, sub
+war, post, out
+claim, pro, sub
+call, re, out
+view, pre, pro`,
+
+        `beat, up, pre
+form, trans, out
+found, pro, pre
+active, hyper, extra
+clude, in, re
+grade, up, mid
+fix, pre, pro
+match, mis, up
+mature, im, in
+kind, un, dis`
       ]
     },
     {
