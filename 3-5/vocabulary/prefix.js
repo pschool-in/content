@@ -160,7 +160,8 @@ export default {
             type: 'sitewords',
             text: 'upgrade, uphold, upbeat, uphill, upturn, uplift, uptake, uptown, upend, uproar',
             width: 120
-          }`The following words are usually not considered as prefixes.`,
+          },
+          `The following words are usually not considered as prefixes.`,
           {
             type: 'sitewords',
             text: 'predict, preferable, presentation, president, precious, pressure, prepare, repeat, response, reasonable, revolution, replicate, delicious, develop, deliver, decline, destiny',
