@@ -12,25 +12,24 @@ export default {
         text: [
           `There are different types of animals.
 Some are domestic animals, and others are wild animals.
-Some live in group, and others live alone.
+Some live in groups, and others live alone.
 Some lay eggs, and others give birth to young ones.
-Some live in land, and others live in water. Some live in both land and water.
+Some live on land, and others live in water. Some live on both land and water.
 Some eat plants and others eat meat. Some eat both.
 # Domestic Animals
 dog, cat, goat, cow, donkey, horse, camel, buffalo
 # Wild Animals
 tiger, lion, deer, bear, fox, giraffe, camel, crocodile
 # Lay Eggs
-birds, crocodile, tortoise, lizard, cockroach
+bird, crocodile, tortoise, lizard, cockroach
 # Give birth to young ones
-goat, elephant, bat, lions, rat
+goat, elephant, bat, lion, rat
 # Do you know?
-Not every birds can fly. Big birds like ostrich, emu, penguin cannot fly.
-Though bat can fly, it is not a bird. Bat give birth to young ones and don't lay eggs.
-Some animals like snail and tortoise move very slowly. Some animals like deer, cheetah can move very fast.
-Some animals like dinosaur lived thousands of years ago, but got extinct now. You cannot find a real dinosaur now. But you can find their skeletons in a museum.
-
-Each bird's nest looks different. Birds use sticks, thorns, cotton and fibre to build their nests. Some birds such as the woodpecker, owl and parrot live in the holes in the tree trunks called hollows.
+Not every bird can fly. Big birds like ostrich, emu, and penguins cannot fly.
+Though a bat can fly, it is not a bird. Bats give birth to young ones and don't lay eggs.
+Some animals like snails and tortoises move very slowly. Some animals like deer, cheetah can move very fast.
+Some animals like dinosaurs lived thousands of years ago, but are extinct now. You cannot find a real dinosaur now. But you can find their skeletons in a museum.
+Each bird's nest looks different. Birds use sticks, thorns, cotton and fiber to build their nests. Some birds such as the woodpecker, owl and parrot live in the holes in the tree trunks called hollows.
 The cuckoo does not build a nest. It lays its eggs in the nests of other birds. `
         ]
       }
@@ -88,7 +87,7 @@ Shark is a domestic animal.`
         title: 'Rearrange the animals from smallest to largest.',
         multiple: true,
         fontSize: '1.3rem',
-        text: `cat, dog, bear, zebra, elephant
+        text: `cat, dog, zebra, bear, elephant
 frog, rat, snake, monkey, hippo
 cockroach, parrot, owl, eagle, flamingo 
 sparrow, crow, hen, peacock, ostrich
@@ -127,12 +126,12 @@ Tortoise lay eggs.`,
 
           `Birds usually give birth to young ones.
 Goat lay eggs.
-Elephant can live both in land and water.`
+Elephant can live both on land and water.`
         ],
         [
           `Bat gives birth to young ones.
-Lions live in group.
-Crocodile can live both in land and water.`,
+Lions live in groups.
+Crocodile can live both on land and water.`,
 
           `Penguin can fly.
 Ostrich can fly.`
@@ -156,24 +155,6 @@ Snakes give birth to young ones.`
       ]
     },
     {
-      type: 'completeWord',
-      id: 'complete-word',
-      label: 'Find the Animal',
-      data: {
-        title: 'Find the animal based on the hint.',
-        text: `A wild animal with a long neck. | GIRAFFE | G______
-An animal with long ears and big teeth that lives in burrow. | RABBIT | R_____
-A desert animal | CAMEL | ____L
-A wild animal with stripes | TIGER | T____
-A big animal that lives in very cold region. | POLARBEAR | P________
-A black and white bird that lives in very cold region. | PENGUIN | P______
-A dangerous animal that lives in both land and water. | CROCODILE | C________
-A very big animal that lived thousands of years ago. | DINOSAUR | D_______
-A slow moving small animal. | SNAIL | S____
-It can fly but not a bird. | BAT | B__`
-      }
-    },
-    {
       id: 'match',
       label: 'Number of Legs',
       type: 'match',
@@ -184,6 +165,24 @@ Zebra, 4 Legs
 Spider, 8 Legs
 Snake, No Legs`,
         title: 'Match the animals and the number of legs they have.'
+      }
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word',
+      label: 'Find the Animal',
+      data: {
+        title: 'Find the animal based on the hint.',
+        text: `A wild animal with a long neck. | GIRAFFE | G______
+An animal with long ears and big teeth that lives in a burrow. | RABBIT | R_____
+A desert animal | CAMEL | ____L
+A wild animal with stripes | TIGER | T____
+A big animal that lives in a very cold region. | POLAR BEAR | P____ B___
+A black and white bird that lives in a very cold region. | PENGUIN | P______
+A dangerous animal that lives in both land and water. | CROCODILE | C________
+A very big animal that lived thousands of years ago. | DINOSAUR | D_______
+A slow-moving small animal. | SNAIL | S____
+It can fly but not a bird. | BAT | B__`
       }
     },
     {
@@ -203,7 +202,7 @@ smallest, virus`
       label: 'Fill Up',
       type: 'fillup',
       data: {
-        text: `Elephants have *trunk (stripe)*. *Tusks (Trunks)* are modified form of teeth. They have *small (large)* eyes and *large (small)* ears.`
+        text: `Elephants have *trunk (stripe)*. *Tusks (Trunks)* are modified forms of teeth. They have *small (large)* eyes and *large (small)* ears.`
       }
     },
     {
@@ -212,11 +211,11 @@ smallest, virus`
       id: 'drag-drop-3',
       data: {
         title: 'Find the Animal',
-        text: `I live in trees and jumb between branches. I like bananas. Who am I? | MONKEY
-        I have sharp teeth. I am the king of the jungle. Who am I? | LION  
-        I have no legs. But I slither on the ground and trees. Who am I? | SNAKE   
-        I am not a bird, but I can fly. I collect nectar from flowers and make honey. Who am I? | BEE | ___
-        I have big ears and a long trunk. Who am I? | ELEPHANT`
+        text: `I live in trees and jump between branches. I like bananas. Who am I? | MONKEY
+I have sharp teeth. I am the king of the jungle. Who am I? | LION  
+I have no legs. But I slither on the ground and trees. Who am I? | SNAKE   
+I am not a bird, but I can fly. I collect nectar from flowers and make honey. Who am I? | BEE | ___
+I have big ears and a long trunk. Who am I? | ELEPHANT`
       }
     }
   ]

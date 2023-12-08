@@ -24,7 +24,7 @@ spinach | Spinach
 fenugreek | Fenugreek
 corianderleaf | Coriander leaf
 curryleaf | Curry leaf
-spring-onion | Onion Spring`
+spring-onion | Spring Onion`
       ]
     },
     {
@@ -60,7 +60,7 @@ spring-onion | Onion Spring`
       label: 'Passage',
       data: {
         title: 'Notes',
-        text: `Every plant has a root and a shoot system. The part of the plant that grows under the ground is called the root system. The part of the plant that grows above the ground is called the shoot system. It consists of stem, leaf, flower and fruit. 
+        text: `Every plant has a root and a shoot system. The part of the plant that grows under the ground is called the root system. The part of the plant that grows above the ground is called the shoot system. It consists of a stem, leaf, flower and fruit. 
 # Herbs
 Herbs are small plants with thin and soft stems. Most of them live for a few months. eg: mint, coriander, grass
 # Shrubs
@@ -68,13 +68,13 @@ Shrubs are smaller than trees. Their stems are thin and hard. Shrubs live for ma
 # Climbers
 Climbers have weak stems and they need support to climb and grow. eg: snake gourd, ridge gourd
 # Creepers
-Creepers have weak stem and grow along the ground and bear large and heavy fruits. eg: pumpkin, watermelon
+Creepers have weak stems that grow along the ground and bear large and heavy fruits. eg: pumpkin, watermelon
 # Trees
-Trees are big and tall plants.They have hard and thick stem called trunk. They live for many years. Eg: neem, banyan, coconut
+Trees are big and tall plants. They have hard and thick stems called trunks. They live for many years. Eg: neem, banyan, coconut
 # Benefits of Plants
 We get most of our foods from plants in the form of vegetables, fruits, cereals, pulses, spices and oils.
 Coconut oil is used both as cooking oil and hair oil.
-Many plants has medicinal value. Eg: eucalyptus, neem, tulsi.
+Many plants have medicinal value. Eg: eucalyptus, neem, tulsi.
 Plants are also used as cosmetics. Eg: henna, shikakai, aloe vera.`
       }
     },
@@ -84,7 +84,7 @@ Plants are also used as cosmetics. Eg: henna, shikakai, aloe vera.`
       type: 'matchByDragDrop',
       data: {
         text: `*Leaf* grows from the stem.
-*Flower* has special smell and colour.
+*Flower* has a special smell and color.
 *Fruit* has seeds.
 *Stem* supports the plant.
 *Root* fixes the plant in the soil.`
@@ -136,7 +136,7 @@ Flowers grow from *buds (fruits)*.
         audioOffsets: [4.5, 12.5, 17.5, 23, 29, 35, 40.5, 46.5],
         steps: [
           `The farmer picks the mangoes from the tree.
-          The farmer uses a net to pluck the mangoes, to avoid getting damaged.
+The farmer uses a net to pluck the mangoes, to avoid getting damaged.
 The plucked mangoes are loaded in a truck.
 The truck moves the mangoes from the village to the city.
 A big merchant buys all the mangoes in the city.

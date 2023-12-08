@@ -15,12 +15,12 @@ export default {
       },
       data: [
         [
-          'almond, carrot, apple, mushroom, cucumber,spinach',
-          'ice-cream, lollipop, cake, chocolate'
+          'almond, carrot, apple, mushroom, cucumber, spinach',
+          'ice cream, lollipop, cake, chocolate'
         ],
         [
-          'salad, juice, cashewnut, corn, beetroot, banana',
-          'pizza, burger, soft-drink, french-fry'
+          'salad, juice, cashew nut, corn, beetroot, banana',
+          'pizza, burger, soft drink, french-fry'
         ]
       ]
     },
@@ -86,7 +86,7 @@ Do not waste food.`
             name: 'False',
             text: `Swallow the food without chewing.
 No need to wash fruits before eating.
-Stale food are healthy.`
+Stale food is healthy.`
           }
         ]
       }
@@ -99,10 +99,10 @@ Stale food are healthy.`
         title: 'Our Food',
         text: `All of us need food to live. Food gives us energy to work and play.
 Milk is a healthy drink. It keeps our teeth and bones strong.
-Pulses, meat, fish and egg help us grow.
+Pulses, meat, fish and eggs help us grow.
 Nuts, fruits and vegetables keep us healthy and protect us from diseases.
 # A Variety of Dishes
-Each and every dish we eat is unique in taste. The dishes are made up of one or more ingredients.
+Every dish we eat is unique in taste. The dishes are made up of one or more ingredients.
 We can prepare many dishes using the same ingredients.
 # Food for a Day
 We have breakfast in the morning, lunch in the afternoon and dinner at night. We should not skip any meal. Some people prefer vegetarian food and some non-vegetarian food. 
@@ -115,7 +115,7 @@ We have snacks in between. We should choose healthy food items as snacks.`
       label: 'Meal and Time',
       data: {
         title: 'Match Meal and Time',
-        text: `8 am , breakfast
+        text: `8 am, breakfast
 1 pm, lunch
 4 pm, snacks
 8 pm, dinner`
@@ -144,13 +144,13 @@ We have snacks in between. We should choose healthy food items as snacks.`
       type: 'matchByDragDrop',
       data: [
         `All of us need *food* to live. Food gives us *energy* to work and play.
-  Milk is a *healthy* drink. It keeps our *teeth* and bones strong.
-  Pulses, meat, fish and egg help us *grow*.
-  Nuts, fruits and vegetables keep us healthy and protect us from *diseases*.`,
+Milk is a *healthy* drink. It keeps our *teeth* and bones strong.
+Pulses, meat, fish and eggs help us *grow*.
+Nuts, fruits and vegetables keep us healthy and protect us from *diseases*.`,
 
-        `Each and every dish we eat is unique in *taste*. The dishes are made up of one or more *ingredients*.
-  We have *breakfast* in the morning, *lunch* in the afternoon and *dinner* at night.
-  We should choose *healthy* food items as snacks.`
+        `Every dish we eat is unique in *taste*. The dishes are made up of one or more *ingredients*.
+We have *breakfast* in the morning, *lunch* in the afternoon and *dinner* at night.
+We should choose *healthy* food items as snacks.`
       ]
     }
   ]

@@ -43,6 +43,40 @@ export default {
         'bone, cook, draw | ward, feel, game, hear, know, many, path, same'
       ]
     },
+    // doubt: too advanced
+    {
+      type: 'completeWord',
+      id: 'complete-word-cmp',
+      label: 'Complete Word ',
+      commonData: {
+        title: `Fill in the blanks with suitable words.`
+      },
+      data: [
+        `The ____ chef prepared a delicious meal for the guests.|ABLE
+The cat sat on the windowsill, gazing at the ____ beyond.|AREA
+After a tiring day, she decided to step ____ from her desk and take a short walk.|AWAY
+The playground was filled with laughter as children played with a colorful ____.|BALL
+The music ____ played a lively tune at the outdoor concert.|BAND`,
+
+        `We decided to explore the ____ of the river and enjoy the scenic view.|BANK
+The cat curled up on the warm ____ of the bed for a nap.|BASE
+The warm water in the tub was perfect for a relaxing ____.|BATH
+The teddy bear hugged tightly brought comfort to the crying ____.|BABY
+As the sun set, they walked ____ to the car after a day at the beach.|BACK`,
+
+        `The magician pulled a rabbit out of his ____ .|HAT
+The rhythmic ____ of the drums echoed through the room.|BEAT
+The Christmas ____ rang, signaling the start of the festive celebration.|BELL
+She tightened her ____ before embarking on the challenging hike.|BELT
+Their teamwork was the ____ part of the escape room challenge.|BEST`,
+
+        `Riding a ____ is a fun and healthy way to commute.|BIKE
+The colorful ____ was singing a melodious tune.|BIRD
+A gentle breeze threatened to ____ away the fallen leaves.|BLOW
+The sky turned a beautiful shade of ____.|BLUE
+They rowed the ____ across the calm lake on a sunny afternoon.|BOAT`
+      ]
+    },
     {
       id: 'reading-2',
       type: 'passage',

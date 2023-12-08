@@ -10,9 +10,9 @@ export default {
       data: {
         title: 'Work',
         text: `An action in which one exerts a force to move an object is known as work. Force is applied to do some work.
-When can we say that work is done or not? Two main conditions are needed for word to be done.
+When can we say that work is done or not? Two main conditions are needed for the word to be done.
 1. A force should act on an object.
-2. Object should move from one place to another.
+2. Objects should move from one place to another.
 When the force acting on the object makes it move it is said to be done a work.`
       }
     },
@@ -36,9 +36,9 @@ Throwing a ball up`
           {
             name: 'No Work Done',
             text: `Holding a doll
-Sitting in a bus
+Sitting on a bus
 Pushing a wall
-Sleeping on bed`
+Sleeping on a bed`
           }
         ]
       }
@@ -49,13 +49,13 @@ Sleeping on bed`
       type: 'passage',
       data: {
         title: 'Energy',
-        text: `A man pulls a luggage. To do so he needs some energy. But from where he gets the energy. Food gives energy to humans. A car moves by the energy obtained from the burning of fuel. The fuel used in car is usually petrol. The escalator moves by using electricity as energy. 
-Energy is defined as capacity for doing work. Energy must be transferred to an object in order to do work.
+        text: `A man pulls a luggage. To do so he needs some energy. But from where does he get the energy? Food gives energy to humans. A car moves by the energy obtained from the burning of fuel. The fuel used in cars is usually petrol. The escalator moves by using electricity as energy. 
+Energy is defined as the capacity to do work. Energy must be transferred to an object in order to do work.
 # Renewable Energy
-Renewable sources of energy are replaced naturally over a period of time. We can keep using these sources for a long period of time. Since the beginning of human life, we have been using these resources. We use these resources for light, transport, cooking, heating. eg: sun, wind and water.
-The resources which are not easily replaced once used are called the non-renewable resources. eg: petrol, coal and natural gas
+Renewable sources of energy are replaced naturally over some time. We can keep using these sources for a long period. Since the beginning of human life, we have been using these resources. We use these resources for light, transport, cooking, and heating. eg: sun, wind and water.
+The resources that are not easily replaced once used are called non-renewable resources. eg: petrol, coal and natural gas
 # Law of conservation
-The law of conservation of energy states that energy can neither be created nor be destroyed. It can be converted from one form to another. The SI unit of energy is joule. It is named after James Joule who explained about energy. `
+The law of conservation of energy states that energy can neither be created nor destroyed. It can be converted from one form to another. The SI unit of energy is joule. It is named after James Joule who explained about energy. `
       }
     },
     {
@@ -80,9 +80,9 @@ The law of conservation of energy states that energy can neither be created nor 
             options: `Force, Work, Machine, Energy`
           },
           {
-            qText: 'What does law of conservation of energy say?',
+            qText: 'What does the law of conservation of energy say?',
             options: `Energy can neither be created nor be destroyed.
-We get tired after doing lot of work.
+We get tired after doing a lot of work.
 We need to apply force to do work.`
           },
           {
@@ -104,7 +104,7 @@ We need to apply force to do work.`
             text: 'solar, wind, water'
           },
           {
-            name: 'Non Renewable Source',
+            name: 'Non-Renewable Source',
             text: 'petrol, coal, natural gas'
           }
         ]
@@ -128,27 +128,27 @@ The escalator moves by using *electricity* as energy.`
         title: 'Simple Machine',
         text: `In our daily life our effort is saved with the help of some simple machines.
 We draw water from the well with the help of a wheel and a rope.
-Simple machines are tools which are used to make our work easier. Some examples for simple machines are pulley, wedge, inclined plane, screw, lever, wheel and axle.
+Simple machines are tools that are used to make our work easier. Some examples of simple machines are pulley, wedge, inclined plane, screw, lever, wheel and axle.
 A pulley is a machine made up of a wheel with a cut around it. A rope or chain passes around the pulley. It rotates in the direction with more force. eg: crane, well.
-An inclined plane is a flat sloping surface with one end higher than another. eg: ramp, slide and slope for wheel chair.
-A wedge is a tool with a sharp edge which can be used to split materials. It is used to break wooden logs into two pieces. eg: knife, scissors and axe.
-The screw is used to raise weights and to hold objects together. eg: pencil sharpener, screw-jack, bottle cap and windmill.
-The screw in the bottle cap holds the cap and the bottle together. The blade and sharpner are held together by screw.
-Wheel and axle consist of a wheel attached to a small rod so that these two parts rotate together. eg: bicycle wheel, door knob, grinder, axle wheel.
+An inclined plane is a flat sloping surface with one end higher than another. eg: ramp, slide and slope for a wheelchair.
+A wedge is a tool with a sharp edge that can be used to split materials. It is used to break wooden logs into two pieces. eg: knife, scissors and axe.
+The screw is used to raise weights and to hold objects together. eg: pencil sharpener, screw-jack, a bottle cap and windmill.
+The screw in the bottle cap holds the cap and the bottle together. The blade and sharpener are held together by a screw.
+The wheel and axle consist of a wheel attached to a small rod so that these two parts rotate together. eg: a bicycle wheel, door knob, grinder, axle wheel.
 Simple machines usually exchange a smaller force to move a heavy object. The work required is the same, but the force required is less. 
 # Lever
-A lever is used to multiply the force we give on an object. eg: see saw, nut cracker and plier.
+A lever is used to multiply the force we give on an object. eg: see saw, nutcracker and plier.
 To understand the lever, we must know the following terms.
 1. Load is the object on which the force is applied.
 2. Effort is the force we apply on the lever.
-3. Fulcrum is the point on which the lever rotates.
-Lever is classified into three types according to where the load and effort are located with respect to fulcrum.
+3. The fulcrum is the point on which the lever rotates.
+A lever is classified into three types according to where the load and effort are located with respect to the fulcrum.
 # Class I lever
-When the fulcrum is between the effort and the load, it is known as Class I lever.eg: scissors, pliers, seesaw.
+When the fulcrum is between the effort and the load, it is known as a Class I lever. eg: scissors, pliers, seesaw.
 # Class II lever
-When the load is between the effort and the fulcrum, it is known as Class II lever. eg: wheel barrow, lemon squeezer, nut cracker
+When the load is between the effort and the fulcrum, it is known as a Class II lever. eg: wheelbarrow, lemon squeezer, nutcracker
 # Class III lever
-In this lever, the effort is between the load and the fulcrum. eg: stapler, tongs, broom stick, hockey stick.`
+In this lever, the effort is between the load and the fulcrum. eg: stapler, tongs, broomstick, hockey stick.`
       }
     },
     {
@@ -177,10 +177,10 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
           },
           {
             qText: 'Which of the following is not a function of a screw?',
-            options: `To move up the slope, To raise weight, To hold objects together`
+            options: `To move up the slope, To raise the weight, To hold objects together`
           },
           {
-            qText: 'How many types of lever are there?',
+            qText: 'How many types of the lever are there?',
             options: `Three, Four, Five, Two`
           },
           {
@@ -188,6 +188,20 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
             options: `Axle, Load, Effort, Fulcrum`
           }
         ]
+      }
+    },
+    {
+      id: 'match',
+      label: 'Match',
+      type: 'match',
+      data: {
+        title: 'Match the related ones.',
+        fontSize: '1rem',
+        text: `Class 1, Seesaw
+Class 2, Nutcracker
+Class 3, Stapler
+Inclined plane, Ramp
+Wedge, Axe`
       }
     },
     {
@@ -203,23 +217,9 @@ In this lever, the effort is between the load and the fulcrum. eg: stapler, tong
           },
           {
             name: 'Class II Lever',
-            text: 'leman squeezer, nut cracker, bottle opener'
+            text: 'lemon squeezer, nutcracker, bottle opener'
           }
         ]
-      }
-    },
-    {
-      id: 'match',
-      label: 'Match',
-      type: 'match',
-      data: {
-        title: 'Match the related ones.',
-        fontSize: '1rem',
-        text: `Class 1, Seesaw
-Class 2, Nut cracker
-Class 3, Stapler
-Inclined plane, Ramp
-Wedge, Axe`
       }
     },
     {
@@ -241,9 +241,9 @@ Wedge, Knife`
       type: 'matchByDragDrop',
       id: 'drag-drop-lever',
       data: {
-        text: `*Lever* is cassified into three types.
+        text: `*Lever* is classified into three types.
 *Load* is the object on which the force is applied.
-*Effort* is the force we apply on the lever.
+*Effort* is the force we apply to the lever.
 *Fulcrum* is the point on which the lever rotates.
 *Simple* machines usually exchange a smaller force to move a heavy object.`
       }
@@ -257,14 +257,14 @@ Wedge, Knife`
         types: [
           {
             name: 'True',
-            text: `Stapler is an example of Class III lever.
-Scissors is an example of Class I lever.
-Nut Cracker is an example of Class II lever.`
+            text: `Stapler is an example of a Class III lever.
+Scissors is an example of a Class I lever.
+Nut Cracker is an example of a Class II lever.`
           },
           {
             name: 'False',
-            text: `Broom stick is an example of Class II lever.
-Seesaw is an example of Class III lever.`
+            text: `Broomstick is an example of a Class II lever.
+Seesaw is an example of a Class III lever.`
           }
         ]
       }
@@ -300,8 +300,7 @@ Seesaw is an example of Class III lever.`
               x: 3,
               y: 2
             },
-            hint:
-              'In a lever, ____ is the object on which the force is applied.',
+            hint: 'In a lever, ____ is the object on which the force is applied.',
             direction: 'across'
           },
           {
@@ -364,7 +363,7 @@ Seesaw is an example of Class III lever.`
               x: 7,
               y: 3
             },
-            hint: 'A type of wedge commonly used in kitchen',
+            hint: 'A type of wedge commonly used in the kitchen',
             direction: 'down'
           }
         ],

@@ -8,11 +8,11 @@ export default {
       type: 'passage',
       id: 'notes',
       data: {
-        title: 'Humanbody',
+        title: 'Human body',
         text: `Our bones help us stand up straight and give us shape.
-        Without our bones, we would be having no shape.
-        The place where two or more bones meet is called a joint. We have to bend our body to do many activities. This is made possible by the joints.
-        Some of the common joints are wrist, elbow, shoulder, knee, ankle.`
+Without our bones, we would have no shape.
+The place where two or more bones meet is called a joint. We have to bend our bodies to do many activities. This is made possible by the joints.
+Some of the common joints are the wrist, elbow, shoulder, knee, and ankle.`
       }
     },
     {
@@ -68,20 +68,19 @@ shoulder | Shoulder`
       label: 'Human Body - Reading',
       type: 'passage',
       data: {
-        title: 'Humanbody',
+        title: 'Human body',
         text: `# External body parts 
 External organs are the body parts that we can see outside. Like eyes, ears, nose, hands, legs, mouth, fingers, shoulders, etc.
 # Functions of External Body Parts
-1. Eyes help us to see things, to read, to watch T.V, etc.
+1. Eyes help us to see things, to read, to watch TV, etc.
 2. Ears help us to hear different sounds.
 3. Nose helps us to smell.
 4. Mouth helps us to eat food.
 5. Hands help us to write, to hold things, etc.
 6. Legs help us to walk, to run, to jump, etc.
-7. Fingers help us to turn pages, to hold things, etc.
+7. Fingers help us to turn pages, hold things, etc.
 # Sense Organs
-Our senses work together to tell us about the world we live in. We have five sense organs. They are eyes, nose, ears, tongue and skin.
-`
+Our senses work together to tell us about the world we live in. We have five sense organs. They are eyes, nose, ears, tongue and skin.`
       },
       id: 'passage'
     },
@@ -148,9 +147,9 @@ The cuckoo makes a musical *sound*.`
       type: 'matchByDragDrop',
       data: {
         text: `There are ripe mangoes. Let us *jump* and *pluck* them.
-        See the green frog moving. Shall we *hop* like that?
-        Bits of paper make the place untidy. Let us *pick* them up.
-        I reached my home and *waved* my hands to say bye.`
+See the green frog moving. Shall we *hop* like that?
+Bits of paper make the place untidy. Let us *pick* them up.
+I reached my home and *waved* my hands to say bye.`
       }
     },
     {

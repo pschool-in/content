@@ -11,7 +11,7 @@ export default {
         text: `# Light
 Light comes from different sources called light sources; our main natural light source is the Sun. Other sources include fire, moon and man-made light sources such as light-bulbs and torches. Thanks to light, we see the world in glorious colors.
 # Shadow
-A shadow is the dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
+A shadow is a dark shape made when something blocks light from a light source like the sun, a flashlight, or a campfire.`
       },
       id: 'passage'
     },
@@ -73,7 +73,7 @@ We cannot see anything in a *dark (lit)* room.`
         questions: [
           {
             qText: 'Which of the following is an artificial source of light?',
-            options: `torch, sun , fire`
+            options: `torch, sun, fire`
           },
           {
             qText: 'What is the most powerful source of light?',
@@ -82,8 +82,8 @@ We cannot see anything in a *dark (lit)* room.`
           {
             qText: 'What is a shadow?',
             options: `A dark shape formed when light is blocked by an object.
-            A dark reflection of the object in mirror.
-            A dark image in the absence of light. `
+A dark reflection of the object in a mirror.
+A dark image in the absence of light. `
           }
         ]
       }

@@ -11,10 +11,10 @@ export default {
       data: {
         title: 'Day and Night',
         text: [
-          `Day and night repeat every day. Dawn is the early morning just before the sunrise. It is good for health to wake up at this time.
+          `Day and night repeat every day. Dawn is the early morning just before sunrise. It is good for health to wake up at this time.
 Morning follows the dawn. It is the time to get ready, eat breakfast and go to school.
 Lunch is at noon. The time that follows noon is called afternoon.
-Evening is play time. Then the Sun sets.
+Evening is playtime. Then the Sun sets.
 Twilight is the time after sunset, just before the night. The time between dawn and sunrise is also called Twilight.
 Night is the time to sleep.
 We get day and night because of the rotation of our Earth.`,
@@ -32,7 +32,7 @@ We get day and night because of the rotation of our Earth.`,
 morning, breakfast
 noon, lunch
 after sunset, twilight
-evening, play time
+evening, playtime
 night, sleep`
       }
     },
@@ -44,9 +44,9 @@ night, sleep`
         title: 'Sun',
         text: `The Sun is a star. We get light and heat from the Sun. There can be no life on the Earth without the sun. It helps plants grow. The Sun is much bigger than the Earth. 
 # Moon
-The moon has no light of its own. It gets its light from the Sun. The moon appears to change shape every  night. On the night when we see it in its complete form, it is called the full moon. On the night when we cannot see the moon at all, it is called the new moon.
+The moon has no light of its own. It gets its light from the Sun. The moon appears to change shape every night. On the night when we see it in its complete form, it is called the full moon. On the night when we cannot see the moon at all, it is called the new moon.
 # Stars
-There are so many stars in the sky. The stars shine at night. They have their own light. They look small because they are very far away. The Sun is the nearest star. We see that a group of stars appears to form a pattern in the sky. In olden days,the position of the pattern of stars helped people to find directions during travel.
+There are so many stars in the sky. The stars shine at night. They have their own light. They look small because they are very far away. The Sun is the nearest star. We see that a group of stars appears to form a pattern in the sky. In the olden days, the position of the pattern of stars helped people to find directions during travel.
 # Do you know?
 1. The sunflower buds turn and face the Sun.
 2. Some flowers like jasmine blooms at night.
@@ -77,8 +77,8 @@ There are so many stars in the sky. The stars shine at night. They have their ow
           {
             qText: 'In olden days, people find the direction using _______.',
             options: `the position of star pattern
-the shape of moon
-the position of moon`
+the shape of the moon
+the position of the moon`
           },
           {
             qText: 'Neil Armstrong was the first man to step on _____.',
@@ -115,8 +115,8 @@ We can see the complete moon on a new moon day.`
         title: 'Based on the below clue, connect letters and form the word.',
         type: 'clue',
         text: `The time when the Sun rises|DAWN
-Closest star to the Earth |SUN
-They give direction to the people travelling by night.|STARS
+The closest star to the Earth |SUN
+They give direction to the people traveling by night.|STARS
 It gets its light from the Sun. |MOON
 A bird that is active in the night. | OWL`
       }
@@ -127,7 +127,7 @@ A bird that is active in the night. | OWL`
       id: 'complete-word',
       data: {
         text: `The time after sunset | TWILIGHT
-The day when the moon will not be visible. | NEWMOON
+The day when the moon will not be visible. | NEW MOON|N__ M___
 The first man to land on the moon | NEIL ARMSTRONG | N_I_ A__S_____
 A flower that blooms in the evening | JASMINE
 The time that follows noon. | AFTERNOON`
@@ -141,7 +141,7 @@ The time that follows noon. | AFTERNOON`
         `Sun helps *plants* grow. Sun is the *nearest* star. Stars appear *small* because they are *far* away. Stars have their *own* light, but *moon* doesn't have its own light.`,
 
         `The sun rises in the *east* and sets in the *west*. The earth rotates like a *top*. The shape of the Earth is like a very big *ball*.
-        We get more sunlight in *summer* and less sunlight in *winter*.`
+We get more sunlight in *summer* and less sunlight in *winter*.`
       ]
     }
   ]

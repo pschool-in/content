@@ -11,13 +11,13 @@ export default {
         id: 'passage',
         text: [
           `Living things 
-          1. eat
-          2. grow
-          3. move
-          4. breathe
-          5. feel
-          6. have young ones
-          If we look around in our surroundings we find two types of things, living things and non-living things. Living things can eat, breathe, grow, move and can give birth to young ones. Non-living things cannot grow, eat or move.`,
+1. eat
+2. grow
+3. move
+4. breathe
+5. feel
+6. have young ones
+If we look around at our surroundings we find two types of things, living things and non-living things. Living things can eat, breathe, grow, move and give birth to young ones. Non-living things cannot grow, eat or move.`,
           {
             type: 'table',
             title: ['living things', 'non-living things'],
@@ -36,11 +36,11 @@ They can not give birth to young ones.`
             ]
           },
           `# Basic needs of a living thing
-          The basic needs of living things are air, water, food and shelter.
-          1. They need air to breathe.
-          2. They need water to drink.
-          3. They need food to eat and grow.
-          4. They need shelter to protect themselves from heat and rain.`
+The basic needs of living things are air, water, food and shelter.
+1. They need air to breathe.
+2. They need water to drink.
+3. They need food to eat and grow.
+4. They need shelter to protect themselves from heat and rain.`
         ]
       }
     },
@@ -140,11 +140,11 @@ Living things need *shelter* to protect themselves from heat and rain.`
       id: 'sounds-fillup',
       type: 'matchByDragDrop',
       data: {
-        text: `the *cawing* of a crow
-        the *ringing* of a bell
-        the *ticking* of a clock
-        the sound of a *moving* train
-        the sound of a water *drop*`
+        text: `The *cawing* of a crow.
+The *ringing* of a bell.
+The *ticking* of a clock.
+The sound of a *moving* train.
+The sound of a water *drop*.`
       }
     }
   ]

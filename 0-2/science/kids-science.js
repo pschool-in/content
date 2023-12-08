@@ -107,7 +107,7 @@ export default {
       type: 'match',
       label: 'Animals and Houses',
       data: {
-        title: 'Match Animals with their house.',
+        title: 'Match animals with their houses.',
         text: `Cow, Shed
 Monkey, Tree
 Dog, Kennel
@@ -148,7 +148,7 @@ Bird, Nest`
           },
           {
             name: 'Non-living',
-            text: 'pen, ring, stone,toy, paper,box'
+            text: 'pen, ring, stone, toy, paper, box'
           }
         ]
       },
@@ -207,7 +207,7 @@ We *touch* with our hands.`
       type: 'match',
       label: 'Regions and animals',
       data: {
-        title: 'Match Animals with their dwelling regions.',
+        title: 'Match animals with their dwelling regions.',
         text: `Desert, Camel
 Farm, Cow
 Ocean, Whale
@@ -243,8 +243,7 @@ Iceland, Penguin`
         types: [
           {
             name: 'Lighter',
-            text:
-              'leaves, plastic ball, butterfly, balloon, coffee cup, feather, pencil '
+            text: 'leaves, plastic ball, butterfly, balloon, coffee cup, feather, pencil '
           },
           {
             name: 'Heavier',

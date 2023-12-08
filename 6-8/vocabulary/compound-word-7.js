@@ -37,7 +37,14 @@ Eg: red-hot, well-known, high-speed, open-minded.
 3. Compound verbs: These are verbs formed by combining two or more words.
 Eg: drive-in, break up, turn off, pick up.
 4. Compound prepositions: These are prepositions formed by combining two or more words.
-Eg: according to, because of, in spite of, out of.`
+Eg: according to, because of, in spite of, out of.
+# General Rules`,
+          {
+            type: 'html',
+            text: `Closed compound words are usually <i>nouns</i>: They put on <b>makeup</b>.<br><br>
+Open compound words are usually <i>nouns</i> or <i>verbs</i>: I have to <b>make up</b> <i>(verbs)</i> that exam at my <b>high school</b>. <i>(noun)</i><br><br>
+Hyphenated compound words are usually <i>adjectives</i> or <i>adverb-adjective</i> combinations: I have to take a <b>make-up</b> <i>(adjective)</i> exam. I will be <b>well-prepared</b>. <i>(adverb + adjective)</i>`
+          }
         ]
       }
     },
@@ -49,35 +56,35 @@ Eg: according to, because of, in spite of, out of.`
         title: `Answer the riddles with compound words.`
       },
       data: [
-        `I can be high or low, but I'm always full of energy. What am I? |Power surge| P____ surge
-I'm something you can hold in your hand, but I'm not solid. What am I?| Air pocket| A__ pocket
-I'm a tool that can be used to cut, but I'm not a knife. What am I?| Wire cutter| W___ cutter
-I'm something you can wear on your head, but I'm not a hat. What am I?| Headband| H___band
-I'm something you can use to light up a room, but I'm not a lamp. What am I? |Light bulb| L____ bulb
-I'm something you can use to clean your teeth, but I'm not toothpaste. What am I? |Dental floss| D_____ floss
-I'm a machine that can be used to lift heavy objects, but I'm not a crane. What am I? |Hydraulic jack| H________ jack
-I'm something you use to hold two things together, but I'm not glue. What am I? |Paperclip| P____clip
-I'm a container that you can carry around, but I'm not a bag. What am I? |Lunchbox| L____box
-I'm something you use to make a call, but I'm not a mobile. What am I? |Telephone| T___phone`,
+        `I can be high or low, but I'm always full of energy. What am I? |POWER SURGE| P____ SURGE
+I'm something you can hold in your hand, but I'm not solid. What am I?|AIR POCKET| A__ POCKET
+I'm a tool that can be used to cut, but I'm not a knife. What am I?|WIRE CUTTER| W___ CUTTER
+I'm something you can wear on your head, but I'm not a hat. What am I?|HEADBAND| H___BAND
+I'm something you can use to light up a room, but I'm not a lamp. What am I? |LIGHT BULB| L____ BULB
+I'm something you can use to clean your teeth, but I'm not toothpaste. What am I? |DENTAL FLOSS| D_____ FLOSS
+I'm a machine that can be used to lift heavy objects, but I'm not a crane. What am I? |HYDRAULIC JACK| H________ JACK
+I'm something you use to hold two things together, but I'm not glue. What am I? |PAPERCLIP| P____CLIP
+I'm a container that you can carry around, but I'm not a bag. What am I? |LUNCHBOX| L____BOX
+I'm something you use to make a call, but I'm not a mobile. What am I? |TELEPHONE| T___PHONE`,
 
-        `I'm something you can use to write, but I'm not a pen. What am I? |Chalkboard| C____board
-I'm a machine that can be used to cook food, but I'm not an oven. What am I? |Microwave| M____wave
-I'm a tool that can be used to cut down trees, but I'm not an ax. What am I? |Chainsaw| C____saw
-I'm something you can use to make coffee, but I'm not a coffee maker. What am I? |Coffee grounds| C_____ grounds
-I can be opened and closed, and I keep your food fresh. What am I? |Ziplock| Z__lock
-I'm something you use to write on a chalkboard. What am I? |Chalk stick| C____ stick
-I'm something you tie before you go outside. What am I? |Shoe lace| S___ lace
-I'm the type of ball that you bounce. What am I? |Rubber ball| R_____ ball
-I'm something you use to clean the dishes. What am I? |Dish soap| D___ soap
-I'm something you wear on your head to keep warm. What am I? |Winter hat| W_____ hat`,
+        `I'm something you can use to write, but I'm not a pen. What am I? |CHALKBOARD| C____BOARD
+I'm a machine that can be used to cook food, but I'm not an oven. What am I? |MICROWAVE| M____WAVE
+I'm a tool that can be used to cut down trees, but I'm not an ax. What am I? |CHAINSAW| C____SAW
+I'm something you can use to make coffee, but I'm not a coffee maker. What am I? |COFFEE GROUNDS| C_____ GROUNDS
+I can be opened and closed, and I keep your food fresh. What am I? |ZIPLOCK| Z__LOCK
+I'm something you use to write on a chalkboard. What am I? |CHALK STICK| C____ STICK
+I'm something you tie before you go outside. What am I? |SHOE LACE| S___ LACE
+I'm the type of ball that you bounce. What am I? |RUBBER BALL| R_____ BALL
+I'm something you use to clean the dishes. What am I? |DISH SOAP| D___ SOAP
+I'm something you wear on your head to keep warm. What am I? |WINTER HAT| W_____ HAT`,
 
-        `I'm a type of cheese that is yellow and has holes in it. What am I? |Swiss cheese| S____ cheese
-I'm something you use to brush your hair. What am I? |Hair brush| H___ brush
-I'm something you wear on your feet to go swimming. What am I? |Swim fin| S___ fin
-I'm something you use to clean your teeth, but I'm not toothpaste. What am I? |Toothbrush| T____brush
-I'm something you use to carry your things, but I'm not a backpack. What am I? |Handbag| H___bag
-I'm something you use to keep food fresh, but I'm not a fridge. What am I? |Tupperware| T_____ware
-I'm something you can use to clean the floor, but I'm not a broom. What am I? |Dustpan| D___pan`
+        `I'm a type of cheese that is yellow and has holes in it. What am I? |SWISS CHEESE| S____ CHEESE
+I'm something you use to brush your hair. What am I? |HAIR BRUSH| H___ BRUSH
+I'm something you wear on your feet to go swimming. What am I? |SWIM FIN| S___ FIN
+I'm something you use to clean your teeth, but I'm not toothpaste. What am I? |TOOTHBRUSH| T____BRUSH
+I'm something you use to carry your things, but I'm not a backpack. What am I?|HANDBAG| H___BAG
+I'm something you use to keep food fresh, but I'm not a fridge. What am I? |TUPPERWARE| T_____WARE
+I'm something you can use to clean the floor, but I'm not a broom. What am I? |DUSTPAN| D___PAN`
       ]
     },
     {
