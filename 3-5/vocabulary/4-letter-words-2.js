@@ -37,6 +37,38 @@ export default {
       ]
     },
     {
+      type: 'completeWord',
+      id: 'complete-word-cmp',
+      label: 'Complete Word ',
+      commonData: {
+        title: `Fill in the blanks with suitable words.`
+      },
+      data: [
+        `The _____ on the shelf is both interesting and informative.|BOOK
+Don't ____ the toast; just make another slice.|BURN
+The ____near the camp is full of colorful flowers.|BUSH
+I'm too ____ to call right now; can we talk later?|BUSY
+Stay ____ and focused during times of stress.|CALM`,
+
+        `He ____ to the camp at dawn and set up his tent.|CAME
+The ____ breeze at the edge of the lake was refreshing.|COOL
+Can you ____ this document for me before the meeting?|COPY
+The ____ of the new car is higher than I expected.|COST
+The ____ in the field is ready for harvest.|CROP`,
+
+        `It's ____ outside; don't forget to turn on the lights.|DARK
+The ____ in the report is accurate and well-researched.|DATA
+Let's schedule a ____ to meet and discuss the project.|DATE
+The dawn of a new day brings ____ and possibilities.|HOPE
+The ____ leaves on the ground create a crunchy sound.|DEAD`,
+
+        `Please ____ the package off at the post office.|DROP
+It's my ____ to ensure everyone's safety during the event.|DUTY
+____ person has a unique perspective on life.|EACH
+I ____ a living by working as a writer.|EARN`
+      ]
+    },
+    {
       id: 'reading-2',
       type: 'passage',
       label: 'Words List - 2',
@@ -67,6 +99,38 @@ export default {
         'slow, song, talk, tell, then, tour, warm, west, wife, read | dear | dare',
         'snow, soon, tall, test, they, town, very, wash, what, wild, meat | team',
         'soft, tank, than, thin, tree, wait, wave, when, wind, task, near | earn'
+      ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-cmp-2',
+      label: 'Complete Word ',
+      commonData: {
+        title: `Fill in the blanks with suitable rhyming words words.`
+      },
+      data: [
+        `Shook|BOOK
+Turn|BURN
+Lush|BUSH
+Cake|BAKE
+Palm|CALM`,
+
+        `Shame|CAME
+Fool|COOL
+Poppy|COPY
+Lost|COST
+Drop|CROP`,
+
+        `Park|DARK
+Date|FATE
+Hate|DATE
+Rope |HOPE
+Bed|DEAD`,
+
+        `Crop|DROP
+Leak|PEAK
+Peach|EACH
+Learn |EARN`
       ]
     }
   ]

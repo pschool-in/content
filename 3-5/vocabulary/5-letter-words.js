@@ -12,7 +12,7 @@ export default {
           `Find below some basic five-letter words. Get familiar with them.`,
           {
             type: 'sitewords',
-            text: `about,actor,again,ahead,alert,apple,argue,audio,award,beach,begin,below,bench,black,brain,break,bring,brown,build,buyer,carry,catch,chain,chair,cheap,clear,close,cover,cream,crowd,cycle,doing,dream,drink,early,earth,empty,enjoy,enter,equal,error,every,faith,false,fiber,fifty,fight,first,floor,force,forty,fresh,great,group,happy,heavy,horse,human,large,laugh,level,limit,lower,lunch,maker,march,match,metal,mixed,model,month,moral,mount,mouse,never,noise,ocean,order,paint,party,place,plant,price,print,proof,queen,right,rough,scene,sense,seven,sharp,shock,since,sixth,sixty,skill,sleep,slide,small,smart,smile,smoke,solve,south,speak,sport,stone,storm,style,super,teach,think,three,tiger,title,total,train,treat,truck,twice,upper,value,voice,watch,water,whole,write,wrong,young`,
+            text: `about,actor,again,ahead,alert,apple,argue,audio,award,beach,begin,below,bench,black,brain,break,bring,brown,build,buyer,carry,catch,chain,chair,cheap,clear,close,cover,cream,crowd,cycle,doing,dream,drink,early,earth,empty,enjoy,enter,equal,error,every,faith,false,fiber,fifty,fight,first,floor,force,forty,fresh,great,group,happy,heavy,horse,human,large,laugh,level,limit,lower,lunch,maker`,
             width: 90
           }
         ]
@@ -33,14 +33,22 @@ export default {
         'bench, carry, cycle, error, great | grate, limit, plant, sense, speak, dream | armed',
         'black, chain | china, doing, faith, group, lower | rowel, never | nerve, price, sharp | harps, sport | ports',
         'brain, clear, fiber | brief, happy, maker, noise, print, shock, stone | notes | onset | tones, month',
-        'break | baker | brake, close, drink, fifty, heavy, match, ocean, proof, sixth, three',
-        'bring, cover, earth | hater | heart, first | rifts, horse | shore, mixed, order, queen, skill | kills | silks, title',
-        'storm, style, super | purse, teach | cheat, think, total, train, truck, voice, tiger',
-        'water, build, false, march, sixty, treat, audio, early, large, seven | evens',
-        'whole, catch, fight, model, sleep | peels, twice, award, enjoy, laugh, since',
-        'wrong | grown, chair, floor, moral, smart, upper, begin | being, equal, lunch, slide',
-        'young, cheap | peach, force, mouse, smoke, value, below | bowel | elbow, every, metal, watch'
+        'break | baker | brake, close, drink, fifty, heavy, match, ocean, proof, sixth, three'
       ]
+    },
+    {
+      label: 'Complete Word',
+      type: 'completeWord',
+      id: 'word',
+      data: {
+        text: `I'm a recognition, a prize of merit; an acknowledgment received, a success spirit. What am I? |AWARD
+I'm a sandy shore, where land meets sea; waves crashing gently, a serene glee. What am I? |BEACH
+I'm a shade in the spectrum, a color so dark; absorbing all light, a visual mark. What am I? |BLACK
+I'm the command center, the thinking core; processing thoughts, learning more. What am I? |BRAIN
+I'm a physical action, a load to bear; lifting a weight, an effort rare. What am I? |CARRY
+I'm a seating object, a support to sit; found at a table, a resting fit. What am I?|CHAIR
+I'm a mode of transport, a two-wheel glide; pedaling forward, a cycling ride. What am I? |CYCLE`
+      }
     },
     {
       id: 'reading-2',
@@ -52,7 +60,7 @@ export default {
           `Find below more five-letter words. Get familiar with them.`,
           {
             type: 'sitewords',
-            text: `above,admit,adult,after,agree,alarm,alone,among,anger,angry,apply,avoid,basic,birth,blame,blind,blood,bread,check,child,class,clean,clock,count,court,crime,cross,daily,dance,death,delay,doubt,drama,dress,drive,eight,event,fifth,final,giant,glass,globe,grade,grass,green,guest,guide,heart,hotel,house,image,judge,label,later,learn,leave,logic,lucky,magic,money,mouth,movie,music,night,north,nurse,other,paper,peace,phone,point,power,press,prize,proud,prove,quick,river,round,scale,score,shape,solid,sorry,sound,space,speed,stand,start,story,sugar,sweet,table,taste,teeth,their,there,thing,third,those,today,topic,touch,trade,trust,under,usage,video,visit,waste,wheel,where,which,while,whose,woman,world,worry,yield,youth`,
+            text: `march,match,metal,mixed,model,month,moral,mount,mouse,never,noise,ocean,order,paint,party,place,plant,price,print,proof,queen,right,rough,scene,sense,seven,sharp,shock,since,sixth,sixty,skill,sleep,slide,small,smart,smile,smoke,solve,south,speak,sport,stone,storm,style,super,teach,think,three,tiger,title,total,train,treat,truck,twice,upper,value,voice,watch,water,whole,write,wrong,young`,
             width: 90
           }
         ]
@@ -67,18 +75,12 @@ export default {
         printTitle: 'Form the word using the letters.'
       },
       data: [
-        'above, class, glass, music, sorry, visit, birth, fifth, money, solid',
-        'adult, count, green | genre, north | thorn, space, waste | sweat, blind, final, mouth, sound',
-        'alarm, crime, guest, nurse, speed, wheel, bread | beard | bared | debar, giant, night | thing, start | tarts',
-        'alone, daily, hotel, other, stand, while, check, globe, paper, table',
-        'among, delay, label, peace, story, whose, child, grade | raged, point, there | three',
-        'angry, doubt, later | alert | alter, phone, sugar, world, clean, grass, press, those',
-        'apply, drama, learn | renal, power, sweet, youth, clock, guide, prize, topic',
-        'avoid, dress, leave, proud, taste | state, admit, court, heart | earth | hater, prove, trade',
-        'basic, drive | diver, logic, quick, teeth, after | fater, cross, house, river, trust | strut',
-        'blame | amble, eight, lucky, round, today, agree | eager, dance | caned, image, scale, under',
-        'blood, event, magic, shape | phase | heaps, touch, anger | range, death | hated, judge, score | corse, video',
-        'where, woman, worry, yield, movie, their, which, third, usage, thing | night'
+        'bring, cover, earth | hater | heart, first | rifts, horse | shore, mixed, order, queen, skill | kills | silks, title',
+        'storm, style, super | purse, teach | cheat, think, total, train, truck, voice, tiger',
+        'water, build, false, march, sixty, treat, audio, early, large, seven | evens',
+        'whole, catch, fight, model, sleep | peels, twice, award, enjoy, laugh, since',
+        'wrong | grown, chair, floor, moral, smart, upper, begin | being, equal, lunch, slide',
+        'young, cheap | peach, force, mouse, smoke, value, below | bowel | elbow, every, metal, watch'
       ]
     }
   ]

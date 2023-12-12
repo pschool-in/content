@@ -103,6 +103,38 @@ They rowed the ____ across the calm lake on a sunny afternoon.|BOAT`
         'bomb, come, down, fear, gain, head, king, make, park, dear | read | dare',
         'bone, cook, draw | ward, feel, game, hear, know, many, path, same'
       ]
+    },
+    {
+      type: 'completeWord',
+      id: 'complete-word-cmp-2',
+      label: 'Complete Word ',
+      commonData: {
+        title: `Fill in the blanks with suitable rhyming words.`
+      },
+      data: [
+        `Stable|ABLE
+Gain|PAIN
+Fold|COLD
+Hall|BALL
+Hand|BAND`,
+
+        `Sank|BANK
+Chase|BASE
+Ball|FALL
+Seek|PEEK
+Sack|BACK`,
+
+        `Seat|BEAT
+Hell|BELL
+Felt|BELT
+Fest|BEST`,
+
+        `Strike|BIKE
+Game|SAME
+Glow|BLOW
+Glue|BLUE
+Float|BOAT`
+      ]
     }
   ]
 };
