@@ -14,30 +14,28 @@ export default {
         imageType: 'stockimg'
       },
       data: [
-        // 50 sentences (set of 10) for kg to 2nd
         `pull | _____ the door. | Pull, Push
 giraffe | Giraffe has a _____ neck. | long, short
 pillow | The pillow is _____ in color. | blue, red
 tree | The tree has _____ leaves. | green, brown
 cat | The cat has _____ fur. | soft, hard
-car | The car has _____ wheels. | three, four
+car | The car has _____ wheels. |  four, three
 morning | The sun is _____ in the sky. | shining, hidden
 rose | The flower has _____ petals. | red, pink
-mountain | The mountain is _____. | tall, short
-pencil | The pencil has a _____ tip. | sharp, blunt
+mountain | The mountain is _____. | tall, short`,
 
-teapot| The teapot is ____ in colour.| red, orange
+        `teapot| The teapot is ____ in colour.| red, orange
 literature| There are ______ books.|many, few
 sing| The _____ is singing.|girl, boy
 sick| The boy is ____.|sick, happy
 bat| The bat can ____.|fly, swim
 fish | The fish swims in the _____ . | water, air
 night | The moon is in the _____ . | sky, ocean
-nest| The nest has ____ eggs.| three, four
+nest| The nest has eggs.| eggs, egg
 frog | The frog has a _____ skin. | green, brown
-horse| This is a _____.|horse, donkey
+horse| This is a _____.|horse, donkey  `,
 
-cap| The ____ is blue in colour.|cap, hat
+        `cap| The ____ is blue in colour.|cap, hat
 tie| This is a ___.|tie, bow
 torch| This is a _____.|torch, lamp
 chin| This is my ____.|chin, cheeck
@@ -46,94 +44,35 @@ lemon| A lemon is _____ in taste.|sour, sweet
 window| The window is ______.|open, closed
 ball | The ball is _____ in shape. | round, square
 tortoise| The tortoise is very ______.|slow, fast
-umbrella | The umbrella protects us from ______. | rain, cold
+umbrella | The umbrella protects us from ______. | rain, cold`,
 
-//make better sentences for below
-
-cat | The cat says "__." | meow, woof
+        `cat | The cat says "__." | meow, woof
 shoe | A shoe is worn on the _____. | foot, head
 banana | A banana is ____ when it's ripe. | yellow, purple
-rose | The flower is ____ and smells nice. | colorful, black
+rose | The flower is ____ and smells nice. | colorful, dull
 sun | The sun gives us light and _____. | heat, cold
-pig | The pig says "______" | oink, quack
+pig | A pig is _______ than a horse. | shorter, taller
 chair | I ___ on a chair. | sit, jump
 tree | The tree provides _____. | shade, water
 dog | The dog _____ loudly. | barks, purrs
-key | A ____ unlocks a door. | key, lock
+key | A ____ unlocks a door. | key, lock`,
 
-elephant | The elephant has a long ____. | trunk, tail
+        `elephant | The elephant has a long ____. | trunk, tail
 book | I love to ___ a good book. | read, eat
 moon | The moon is bright in the _____. | night, morning
 ocean | The ocean is full of _____. | water, sand
 kite | A kite flies high in the ____. | sky, water
 guitar | A guitar has strings and makes _____. | music, noise
 camera | I take pictures with my ____. | camera, binoculars
-phone | I talk on the ____ with friends. | phone, TV
+smartphone | I talk on the ____ with friends. | phone, TV
 sweater | I wear a sweater in ___ weather. | cold, hot
 star | The star shines in the _____ sky. | night, morning`,
 
-        // todo:
-        // 50 sentences (set of 10) for 3rd to 5th
-        `rain | It is _______. | raining, shining
-bat2 | This is a ______ bat. | cricket, tennis
-cake | It is a __________ cake. | chocolate, vanilla
-dog | This is a ______ dog. | brown, white
+        `dog | This is a ______ dog. | brown, white
 elephant | It is a ____ animal. | big, small
 ice-cream | It is __________. | cold, hot
-sun | It is __________. | shining, hiding
-spider | This is a ______ spider. | creepy, cute
 rainbow | Rainbow is __________. | colorful, dull
-star | It is __________. | twinkling, dim
-apple | An apple a day keeps the _____ away. | doctor, teacher
-
-key | We can't enter the house if the ____ is lost. | key, lock
-toy | I got this toy scooter as a ____. | gift, lift
-
-
-//make better sentences for below
-
-baby| The baby is __________.|crawling, walking
-riding| I ____ my bicycle to school everyday.|ride, take
-sunflower | The sunflower follows the ____. | sun, moon
-lion | The lion is known as the "____ of the jungle." | king, queen
-clock | The clock has hands that show the hours and _______. | minutes, seconds
-rocket | Astronauts travel to ______ in a rocket. | space, ocean
-cloud | A cloud is a collection of tiny _____ droplets. | water, dust
-rain | The rain makes everything __________. | wet, dry
-
-bee | Bees collect nectar from flower to make ______. | honey, wax
-sun | The sun provides light and ______ to the Earth. | warmth, shade
-rain | Rain is essential for ______ to grow. | plants, man
-literature | Reading is a good ______. | habit, job
-raincoat | Wear a raincoat when it _____. | rains, warms
-ocean | The ocean is home to many ___ creatures. | sea, land
-flag | Every _______ has its own flag. | country, street
-train | The train travels on ______. | tracks, road
-glasses | Wear glasses to ____ better. | see, hear
-spade | Use a spade to ____ in the sand. | dig, rake
-
-river | The water in the river is __________. | clear, muddy
-penguin | The penguin is a bird that cannot ___. | fly, walk
-valley | Cows, chickens, and pigs live on a _____. | farm, mountain
-candle | A candle _____ in the dark. | glows, dims
-forest | Lions, tigers, and elephants live in the _____. | forest, zoo
-hat | Wear a hat to protect yourself from the ____. | sun, cold
-scarf | Wear a scarf to protect yourself from the ____. | cold, sun
-hockey| Hockey is the national game of _______.|India, China
-map | We can use a map to find our ____. | way, lost toy
-hand| Wash your hands to keep them ______.|clean, dirty
-
-
-tiger | The tiger is a majestic wild ____.| cat, dog
-cheetah| The cheetah is the _______ animal.|fastest, slowest
-ladder| The boy is _______ the ladder.| climbing, clinging
-ostrich| The ostrich runs _______.|fast, slow
-mango| Mango has _____ seed.| one, no
-egg| ______ lays eggs.|Hen, Rooster
-lotus| Lotus grows in _____.|water, soil
-running| The boy is ________.|running, walking
-cough| Cover your _____ when you cough.|mouth, eyes
-seesaw| Kids are _______ on the seesaw.| playing, swinging`
+mango| Mango has _____ seed.| one, no`
       ]
     },
     {

@@ -519,8 +519,12 @@ We feel things with our *skin*.`
           {
             qText: ' Our eyes tell us how __________ something is.',
             options: 'far, tasty, smelly',
-            feedback:
-              'Our eyes help us to estimate how far or near an object is from us'
+            rightFb:
+              'Our eyes help us to estimate how far or near an object is from us',
+            wrongFb: {
+              1: ' It is the job of our tongue.',
+              2: 'It is the job of our nose.'
+            }
           },
           {
             qText:

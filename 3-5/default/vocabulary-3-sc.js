@@ -5,6 +5,69 @@ export default {
   grade: '3-5',
   list: [
     {
+      type: 'classifySentence',
+      label: 'Pick the right option',
+      id: 'tense',
+      commonData: {
+        title: 'Pick the right option that fills the blank',
+        variableOptions: true,
+        imageType: 'stockimg'
+      },
+      data: [
+        `apple | An apple a day keeps the _____ away. | doctor, teacher
+        key | We can't enter the house if the ____ is lost. | key, lock
+        toy | I got this toy scooter as a ____. | gift, lift
+        rain | It is _______. | raining, shining
+bat2 | This is a ______ bat. | cricket, tennis
+cake | It is a __________ cake. | chocolate, vanilla
+pencil | The pencil has a _____ tip. | sharp, blunt
+sun | It is __________. | shining, hiding
+spider | This is ______ spider. | an unpleasant, a cute
+star | It is __________. | twinkling, dim`,
+
+        `baby| The baby is __________.|crawling, walking
+riding| I ____ my bicycle to school everyday.|ride, take
+sunflower | The sunflower follows the ____. | sun, moon
+lion | The lion is known as the "____ of the jungle." | king, queen
+clock | The clock has hands that show the hours and _______. | minutes, seconds
+rocket | Astronauts travel to ______ in a rocket. | space, ocean
+cloud | A cloud is a collection of tiny _____ droplets. | water, dust
+rain | The rain makes everything __________. | wet, dry
+bee | Bees collect nectar from flower to make ______. | honey, wax
+sun | The sun provides light and ______ to the Earth. | warmth, shade`,
+
+        `rain | Rain is essential for ______ to grow. | plants, man
+literature | Reading is a good ______. | habit, job
+raincoat | Wear a raincoat when it _____. | rains, warms
+ocean | The ocean is home to many ___ creatures. | sea, land
+flag | Every _______ has its own flag. | country, street
+train | The train travels on ______. | track, road
+glasses | Wear glasses to ____ better. | see, hear
+spade | Use a spade to ____ in the sand. | dig, rake
+river | The water in the river is __________. | clear, muddy
+penguin | The penguin is a bird that cannot ___. | fly, walk`,
+
+        `valley | Cows, chickens, and pigs live on a _____. | farm, mountain
+candle | A candle _____ in the dark. | glows, dims
+forest | Lions, tigers, and elephants live in the _____. | forest, village
+hat | Wear a hat to protect yourself from the ____. | sun, cold
+scarf | Wear a scarf to protect yourself from the ____. | cold, sun
+hockey| Hockey is the national game of _______.|India, China
+map | We can use a map to find our ____. | way, lost toy
+hand| Wash your hands to keep them ______.|clean, dirty
+tiger | The tiger is a majestic wild ____.| cat, dog
+cheetah| The cheetah is the _______ animal.|fastest, slowest`,
+
+        `ladder| The boy is _______ the ladder.| climbing, clinging
+ostrich| The ostrich runs _______.|fast, slow
+egg| ______ lays eggs.|Hen, Rooster
+lotus| Lotus grows in _____.|water, soil
+running| The boy is ________.|running, walking
+cough| Cover your _____ when you cough.|mouth, eyes
+seesaw| Kids are _______ on the seesaw.| playing, swinging`
+      ]
+    },
+    {
       type: 'dragDropImgLabel',
       label: 'Emotions',
       id: 'drag-emotions',
