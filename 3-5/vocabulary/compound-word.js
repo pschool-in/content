@@ -12,7 +12,7 @@ export default {
           `Compound words are made from two words put together.`,
           {
             type: 'sitewords',
-            text: 'aircraft, airplane, airport, allover, alongside, another, anybody, anyhow, anymore, anyone, anything, anytime, anyway, armchair, backbone, backdrop, background, backward, baseball, basketball, bathroom, became, because, bedroom, bedtime, blackmail, blueprint, bodyguard, bookmark, bookshelf, bookstore, brainwash, breakfast, butterfly, buttermilk, cabdriver, candlelight, cannot, carefree, caretaker, caveman, chairman, checkup, classroom, clockwise, comeback, commonplace, copycat, courtroom, cowboy, cupboard, daydream, daylight, dishwasher, dragonfly, eardrop, earring, earthquake, elsewhere, everything, eyeballs, eyesight, eyewitness, firearm, firecracker, firefighter, fireworks, football, footprint, footrest, forecast, forefather, forever, forget, forgive, fortnight, goodbye, goodnight, grandchild, grandmother, grandson, haircut, handbag, handbook, handcuff, hereafter, hereby, herself, highway, homemade, hometown, homework, honeybee, houseboat, housekeeper, income, indoor, inside, jackfruit, jellyfish, keyboard, keyhole, keyword, landmark, landslide, lawmaker, layman, layoff, lifeboat, lifelong, lifetime, lighthouse, mailbox, meantime, meanwhile, moonlight, moreover, motorcycle, nearby, newfound, newspaper, nightfall, nobody, nowhere, oneself, onetime, outside, overcoat, overflow, pancake, passport, paycheck, pickup, playback, playground, popcorn, postcard, railway, rainbow, raincoat, rainfall, rainwater, rubberband, scapegoat, scarecrow, schoolbus, seashore, sendoff, setback, shipwreck, shipyard, shoelace, sidekick, skyscraper, slowdown, somebody, someone, something, sometimes, somewhere, soundproof, spacewalk, starfish, steamboat, stonewall, subway, sunflower, sunshine, superman, tablecloth, tablespoon, taskmaster, teammate, teenage, textbook, themselves, therefore, thunderbolt, timetable, together, toothpaste, underground, upgrade, uppercase, upside, waistcoat, wallpaper, wardroom, warehouse, warmhearted, washroom, wastepaper, watchdog, watchman, waterfall, waterlog, watermelon, weatherman, welldone, wheelchair, whitewash, without',
+            text: 'airplane, airport, another, anybody, anyhow, anymore, anyone, anything, anytime, anyway, background, backward, basketball, bathroom, became, because, bedroom, bedtime, blackmail, bookshelf, bookstore, breakfast, butterfly, buttermilk, cabdriver, candlelight, cannot, caretaker, checkup, classroom, comeback, copycat, courtroom, cowboy, cupboard, daydream, daylight, dishwasher, dragonfly, eardrop, earring, elsewhere, everything, eyeballs, eyesight, firecracker, firefighter, fireworks, football, footprint, footrest, forever, forget, forgive, goodbye, goodnight, grandchild, grandmother, grandson, haircut, handbag, handbook, handcuff, hereafter, hereby, herself, highway, homemade, hometown, homework, honeybee, houseboat, housekeeper, income, indoor, inside, jackfruit, jellyfish, keyboard, keyhole, keyword, landmark, landslide, lifeboat, lifelong, lifetime, lighthouse, mailbox, meanwhile, moonlight, moreover, motorcycle, nearby, newspaper, nightfall, nobody, nowhere, oneself, onetime, outside, overcoat, overflow, pancake, passport, paycheck, pickup, playback, playground, popcorn, postcard, railway, rainbow, raincoat, rainfall, rainwater, rubberband, schoolbus, seashore, sendoff, setback, shoelace, slowdown, somebody, someone, something, sometimes, somewhere, soundproof, spacewalk, starfish, steamboat, stonewall, subway, sunflower, sunshine, superman, tablecloth, tablespoon, teammate, teenage, textbook, themselves, therefore, timetable, together, toothpaste, underground, upgrade, uppercase, upside, waistcoat, wallpaper, washroom, wastepaper, watchman, waterfall, waterlog, watermelon, weatherman, welldone, wheelchair, whitewash, without',
             width: 120
           }
         ]
@@ -28,48 +28,41 @@ export default {
       data: [
         `no, body
 cup, board
-fort, night
 sea, shore
 up, side
-arm, chair`,
+some, where`,
 
-        `some, where
-cave, man
-home, work
+        `home, work
 back, ward
 rubber, band
-book, shelf`,
+book, shelf
+any, how`,
 
-        `any, how
-there, fore
+        `there, fore
 table, cloth
 grand, son
 jack, fruit
-care, free`,
+no, where`,
 
-        `no, where
-text, book
+        `text, book
 time, table
 with, out
 rain, bow
-chair, man`,
+foot, rest`,
 
-        `warm, hearted
-foot, rest
-life, long
+        `life, long
 else, where
 one, self
-slow, down`,
+slow, down
+for, give`,
 
-        `for, give
-shoe, lace
+        `shoe, lace
 key, board
 pan, cake
-blue, print
-hand, book`,
+hand, book
+water, fall`,
 
-        `water, fall
-cow, boy
+        `cow, boy
 butter, fly
 ear, drop
 bed, room
@@ -79,11 +72,9 @@ waist, coat`,
 them, selves
 hair, cut
 over, coat
-fore, father
 land, slide`,
 
-        `earth, quake
-dragon, fly
+        `dragon, fly
 come, back
 check, up
 book, mark
@@ -92,7 +83,6 @@ tooth, paste`,
         `up, grade
 wheel, chair
 day, dream
-along, side
 eye, sight
 post, card`
       ]
@@ -108,47 +98,40 @@ post, card`
         `key, hole
 home, town
 night, fall
-scare, crow
 eye, balls
-clock, wise`,
+here, after`,
 
-        `here, after
-dish, washer
-back, drop
-mean, time
-brain, wash
-fore, cast`,
-
-        `rain, fall
+        `dish, washer
+rain, fall
 water, log
 in, door
-send, off
-star, fish
-teen, age`,
+send, off`,
 
-        `mail, box
+        `star, fish
+teen, age
+mail, box
 rain, coat
-rail, way
-honey, bee
-white, wash
-copy, cat`,
+rail, way`,
 
-        `fire, cracker
-pop, corn
-any, time
+        `honey, bee
+white, wash
+copy, cat
+fire, cracker
+pop, corn`,
+
+        `any, time
 grand, child
 watch, man
-water, melon`,
+water, melon
+motor, cycle`,
 
-        `motor, cycle
-mean, while
+        `mean, while
 sun, flower
-ward, room
 moon, light
-high, way`,
+high, way
+every, thing`,
 
-        `every, thing
-air, port
+        `air, port
 key, word
 play, back
 house, boat
@@ -156,20 +139,17 @@ care, taker`,
 
         `fire, works
 any, one
-watch, dog
 stone, wall
 in, side
 set, back`,
 
         `an, other
 can, not
-body, guard
 light, house
 grand, mother
 here, by`,
 
-        `back, bone
-upper, case
+        `upper, case
 house, keeper
 any, body
 be, cause
@@ -184,95 +164,74 @@ wall, paper`
         title: 'Match the compound words'
       },
       data: [
-        `lay, off
-foot, ball
+        `foot, ball
+hand, cuff       
 some, thing
-lay, man
 life, boat
-in, come`,
+in, come
+any, way`,
 
-        `base, ball
-ware, house
-any, way
-play, ground
+        `play, ground
 near, by
-pick, up`,
+pick, up
+weather, man
+class, room`,
 
-        `weather, man
-class, room
-good, bye
+        `good, bye
 ear, ring
 back, ground
-for, get`,
+for, get
+book, store`,
 
-        `fire, arm
-air, craft
-side, kick
-book, store
-good, night
-new, found`,
-
-        `rain, water
+        `good, night
+rain, water
 home, made
 basket, ball
-bath, room
-steam, boat
-day, light`,
+bath, room`,
 
-        `for, ever
+        `steam, boat
+day, light
+for, ever
 be, came
-court, room
-space, walk
-sun, shine
-jelly, fish`,
+court, room`,
 
-        `some, times
+        `sun, shine
+jelly, fish
+some, times
 candle, light
-school, bus
-thunder, bolt
-fire, fighter
-break, fast`,
+school, bus`,
 
-        `news, paper
+        `fire, fighter
+break, fast
+news, paper
 any, thing
-team, mate
-sky, scraper
-to, gether
-sound, proof`,
+team, mate`,
 
-        `foot, print
+        `to, gether
+sound, proof
+foot, print
 more, over
-over, flow
-scape, goat
-air, plane
-any, more`,
+over, flow`,
 
-        `waste, paper
-common, place
+        `air, plane
+any, more
+waste, paper
 her, self
-all, over
-table, spoon
-butter, milk
-super, man`,
+table, spoon`,
 
-        `hand, bag
+        `butter, milk
+super, man
+hand, bag
 under, ground
-law, maker
-pass, port
-some, one
+pass, port`,
+
+        `some, one
 land, mark
-life, time`,
-
-        `ship, yard
+life, time
 sub, way
-eye, witness
-black, mail
-pay, check
-wash, room`,
+black, mail`,
 
-        `ship, wreck
-task, master
-hand, cuff
+        `wash, room
 well, done
 some, body
 out, side
@@ -339,109 +298,92 @@ sun, glasses`
       data: [
         `no, body, side
 else, where, wise
-fort, night, day
 some, where, why
 up, side, middle
-arm, chair, stool
 sea, shore, beach
-cave, man, boy
 home, work, play
-back, ward, while`,
-
-        `rubber, band, play
+back, ward, while
+rubber, band, play
 book, shelf, show
-any, how, what
-there, fore, four
+any, how, what`,
+
+        `there, fore, four
 table, cloth, dress
 grand, son, sun
 jack, fruit, flower
-care, free, fine
 no, where, why
-text, book, pen`,
-
-        `time, table, chair
+text, book, pen
+time, table, chair
 with, out, all
 rain, bow, bun
-chair, man, all
-warm, hearted, headed
-foot, rest, read
+chair, man, all`,
+
+        `foot, rest, read
 life, long, lone
 cup, board, pan
 one, self, son
-slow, down, done`,
-
-        `for, give, live
+slow, down, done
+for, give, live
 shoe, lace, loss
 key, board, bored
 pan, cake, tea
-blue, print, book
-hand, book, print
-water, fall, fun
+hand, book, print`,
+
+        `water, fall, fun
 cow, boy, bat
 over, coat, cool
-ear, drop, fall`,
-
-        `bed, room, run
+ear, drop, fall
+bed, room, run
 waist, coat, cat
 cab, driver, taxi
 them, selves, ful
 hair, cut, cane
-butter, fly, fur
-fore, father, parent
-land, slide, ride
-earth, quake, move
-dragon, fly, walk`,
+butter, fly, fur`,
 
-        `come, back, well
+        `land, slide, ride
+dragon, fly, walk
+come, back, well
 check, up, thing
-book, mark, bag
 tooth, paste, water
 up, grade, class
 wheel, chair, show
 day, dream, think
-along, side, sip
 eye, sight, view
 post, card, cool`,
 
         `key, hole, whole
 home, town, area
 night, fall, rise
-scare, crow, eagle
 eye, balls, games
 clock, wise, fool
 here, after, all
 dish, washer, water
-back, drop, fall
-mean, time, day`,
-
-        `brain, wash, wish
-fore, cast, quit
 rain, fall, fun
 water, log, large
-in, door, time
-star, fish, floor
+in, door, time`,
+
+        `star, fish, floor
 rain, coat, king
 teen, age, anger
 mail, box, pot
-send, off, on`,
-
-        `rail, way, van
+send, off, on
+rail, way, van
 honey, bee, be
 white, wash, wall
 copy, cat, dog
-fire, cracker, chill
-pop, corn, carrot
+fire, cracker, chill`,
+
+        `pop, corn, carrot
 any, time, clock
 grand, child, kid
 watch, man, boy
-water, melon, fruit`,
-
-        `motor, cycle, ring
+water, melon, fruit
+motor, cycle, ring
 mean, while, way
 sun, flower, floor
-ward, room, fare
-moon, light, site
-high, way, win
+moon, light, site`,
+
+        `high, way, win
 every, thing, say
 some, thing, far
 key, word, letter
