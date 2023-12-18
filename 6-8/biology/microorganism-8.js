@@ -13,7 +13,7 @@ export default {
           dashWidth: 80
         },
         text: `Microorganisms can be seen with the help of a *microscope*.
-Blue green algae fix *nitrogen* directly from the air and enhance the fertility of the soil.
+Blue-green algae fix *nitrogen* directly from the air and enhance the fertility of the soil.
 Alcohol is produced with the help of *yeast*.
 Cholera is caused by *bacteria*.
 The process of conversion of sugar into alcohol is known as *fermentation*.`
@@ -156,7 +156,7 @@ Hepatitis A`
         text: `Salt, Amla
 Sugar, Jam
 Vinegar, Pickle
-Pasturization, Milk`,
+Pasteurization, Milk`,
         title: 'Match the following.'
       }
     }
