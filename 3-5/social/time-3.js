@@ -85,12 +85,7 @@ Sometimes, old statues, coins, shards of pottery, old objects, etc. are found wh
       type: 'matchByDragDrop',
       id: 'timedrag-1',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Old newspapers help us to know about the *past*.
 1 hour is *60 minutes*.
 1 minute is *60 seconds*.

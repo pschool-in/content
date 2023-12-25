@@ -350,7 +350,7 @@ So the ratio can be simplified as ?5 : ?6
     },
     {
       type: 'numberInput',
-      id: 'wordproblem-2',
+      id: 'wordproblem-3',
       label: 'Ratio Between 3 terms',
       data: {
         title: 'Word Problems',
@@ -391,7 +391,7 @@ LCM of 7 and 6 = ?0
     },
     {
       type: 'numberInput',
-      id: 'wordproblem-3',
+      id: 'wordproblem-4',
       label: 'Word Problems - 2',
       data: {
         title: 'Word Problems',

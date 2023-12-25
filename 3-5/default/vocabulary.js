@@ -31,7 +31,7 @@ sick| The boy is ____.|sick, happy
 bat| The bat can ____.|fly, swim
 fish | The fish swims in the _____ . | water, air
 night | The moon is in the _____ . | sky, ocean
-nest| The nest has eggs.| eggs, egg
+nest| The nest has _____.| eggs, egg
 frog | The frog has a _____ skin. | green, brown
 horse| This is a _____.|horse, donkey  `,
 
@@ -81,7 +81,7 @@ mango| Mango has _____ seed.| one, no`
       label: 'Three Letter Words',
       data: [
         'ice, air, fan, pen, his, lip, jar, ant, pet, hit',
-        'jam, man, cat, van, fat, age, red, can, win, pig',
+        'jam, man, cat | act, van, fat, age, red, can, win, pig',
         'pay, yes, map, egg, box, hen, fin, boy, sun, see',
         'cow, oil, big, run'
       ]
@@ -91,8 +91,8 @@ mango| Mango has _____ seed.| one, no`
       id: '4-letter-word',
       label: 'Four Letter Words',
       data: [
-        'baby, dear, duck, long, look, four, fish, hand, bird',
-        'love, luck, made, same, star, wire, wise, blue, from',
+        'baby, dear | read, duck, long, look, four, fish, hand, bird',
+        'love, luck, made, same, star, wire, wise, blue, from | form',
         'wish, with, wood, word, year, your, nine, fast, park',
         'book, fire, five, salt, boat, head, home, page, pain'
       ]

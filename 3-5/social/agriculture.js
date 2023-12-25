@@ -52,12 +52,7 @@ This method conserves both water and soil nutrients. In this, water drips slowly
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*CGWB* monitors the level and nature of groundwater.
 *Horticulture* is the science of cultivating fruits, vegetables, flowers, or ornamental plants.
 *Green Revolution* increased crop production.

@@ -65,12 +65,8 @@ Some measures to avoid pollution are:
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `During construction work, a lot of *dust* gets added into the environment.
 *Noise* pollution irritates us instantly.
 Polluted water causes *diseases* in humans.
@@ -114,12 +110,8 @@ soil pollution, loss of crops`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Smoke leads to *air* pollution.
 Fish can die if the water they live in is *polluted*.
 Rise in *temperature* of the atmosphere is caused by air pollution.

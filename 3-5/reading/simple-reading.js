@@ -18,12 +18,9 @@ export default {
       id: 'sandwich-fillup',
       data: {
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
-        text:
-          'First, keep all the *ingredients* ready. Now, begin by arranging two slices of *bread* on a plate. Spread *butter* on both slices. Then, add *cheese*, tomatoes, cucumbers, salt, and pepper. Next, *cover* the arrangement with the other slice of bread. Lastly, toast the *sandwich* on medium flame until it is slightly brown.'
+        fontSize: '1rem',
+        dashWidth: 70,
+        text: 'First, keep all the *ingredients* ready. Now, begin by arranging two slices of *bread* on a plate. Spread *butter* on both slices. Then, add *cheese*, tomatoes, cucumbers, salt, and pepper. Next, *cover* the arrangement with the other slice of bread. Lastly, toast the *sandwich* on medium flame until it is slightly brown.'
       }
     },
     {
@@ -31,8 +28,7 @@ export default {
       type: 'sorting',
       data: {
         title: 'Sort the sentences in the right order.',
-        text:
-          'First, keep all the ingredients ready. \nNow, begin by arranging two slices of bread on a plate.\nSpread butter on both the slices. \nThen, add cheese, tomatoes, cucumbers, salt, and pepper. \nNext, cover the arrangement with the other slice of bread. \nLastly, toast the sandwich on medium flame until it is slightly brown.'
+        text: 'First, keep all the ingredients ready. \nNow, begin by arranging two slices of bread on a plate.\nSpread butter on both the slices. \nThen, add cheese, tomatoes, cucumbers, salt, and pepper. \nNext, cover the arrangement with the other slice of bread. \nLastly, toast the sandwich on medium flame until it is slightly brown.'
       },
       id: 'sandwich-sort'
     },

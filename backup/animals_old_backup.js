@@ -32,12 +32,7 @@ A Food web is an interconnection of multiple food chains. Transfer of energy bet
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `A lion lives in a *den*.
 Birds live and lay their eggs in the *nest*.
 An *earthworm* is found in soil.
@@ -231,12 +226,7 @@ Dinosaur, extinct`,
       type: 'matchByDragDrop',
       id: 'fillup-4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Reptiles have *scales* instead of hair or feathers.
 All insects have three main parts in their body which are called head, *thorax* and abdomen.
 All birds have *wings* but not all of them can fly.
@@ -410,12 +400,7 @@ Owl, Parliament`,
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The animals which are active at night are called *Nocturnal* animals.
 *Kangaroo* is best known for parental care.
 *Honeybees* lives in hives.
@@ -529,8 +514,7 @@ A sanctuary is a protected area which is reserved for the conservation of animal
         types: [
           {
             name: 'Endangered',
-            text:
-              'Umbrella Tree, Malabar Lily, Rafflesia Flower, Indian Mallo, Musli Plant'
+            text: 'Umbrella Tree, Malabar Lily, Rafflesia Flower, Indian Mallo, Musli Plant'
           },
           {
             name: 'Not Endangered',
@@ -606,12 +590,7 @@ Green, formerly endangered`,
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Reproduction in animals are of two types, *sexual* and asexual. 
 Pupa is also known as *Chrysalis*.
 *Fission* is the process of reproduction in flatworms.
@@ -741,12 +720,7 @@ mice, touch`,
       type: 'matchByDragDrop',
       id: 'fillup-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The animals that are active at night are called *nocturnal* animals.
 Shark has taste buds in its mouth as well as on its *snout*.
 Ants multi sensory organs are called *antennae*.

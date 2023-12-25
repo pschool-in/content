@@ -369,12 +369,8 @@ export default {
       id: 'match-4',
       lockAfter: 2,
       commonData: {
-        isPractice: false,
         title: 'சரியான விடையை தேர்ந்தெடு',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `*நன்மையும்* தீமையும் நாடி *நலம்புரிந்த*

@@ -185,11 +185,10 @@ gentleman, lady`
       id: 'same-basket',
       lockAfter: 1,
       commonData: {
-        title: 'Drag and drop words, so that nouns of the same group are together.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        title:
+          'Drag and drop words, so that nouns of the same group are together.',
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `drumstick, capsicum, *cauliflower*

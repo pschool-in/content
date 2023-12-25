@@ -30,12 +30,8 @@ Wrestling: Also called kushti, wrestling as a sport has a long history in India.
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `A dance form which originated from thang-da - *Manipuri*
 The kalaripayattu trainer - *Gurukal*
 The state where onam is celebrated - *Kerala*
@@ -60,12 +56,8 @@ kalaripayattu, sword`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Thoda is the martial art form from *Himachal Pradesh*.
 Kalaripayattu is similar to *Kung fu*.
 Karate is the martial art form of *Japan*.

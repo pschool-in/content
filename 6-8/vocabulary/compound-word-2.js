@@ -42,12 +42,12 @@ thunder, bolt`,
         `ward, room
 ware, house
 warm, hearted
-watch, dog
+back, bone
 ship, wreck`,
 
         `along, side
 arm, chair
-back, bone
+watch, dog
 back, drop
 blue, print`,
 
@@ -60,11 +60,11 @@ cave, man`,
         `chair, man
 clock, wise
 common, place
-eye, witness
+fore, father
 fire, arm`,
 
         `fore, cast
-fore, father
+        eye, witness
 fort, night
 earth, quake
 law, maker`,

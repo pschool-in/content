@@ -295,7 +295,6 @@ twelve, 12`
       id: 'drag',
       commonData: {
         title: 'Fill the blanks by dragging the numbers.',
-        styles: { fontSize: '1.5rem', dashWidth: 40 },
         dashWidth: 40,
         fontSize: '1.5rem'
       },

@@ -315,7 +315,6 @@ It is always cool to have good manners. We can feel proud about ourself, and oth
         width: 342,
         height: 368,
         wordWidth: 100,
-        isPractice: false,
         words: [
           { word: 'Karnataka', x: 50, y: 180 },
           { word: 'Andhra Pradesh', x: 115, y: 130 },
@@ -332,13 +331,10 @@ It is always cool to have good manners. We can feel proud about ourself, and oth
       type: 'matchByDragDrop',
       id: '4-south-states-capital',
       data: {
-        isPractice: false,
         title: 'Drag and drop to match states and capitals.',
         id: '3-map-south-rivers',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1rem',
+        dashWidth: 70,
         text: `Andhra Pradhesh → *Amaravati*
 Karnataka → *Bengaluru*
 Kerala → *Thiruvananthapuram*
@@ -357,7 +353,6 @@ Maharashtra → *Mumbai*`
         width: 253,
         height: 286,
         wordWidth: 85,
-        isPractice: false,
         words: [
           { word: 'Cauvery', x: 70, y: 180 },
           { word: 'Krishna', x: 125, y: 76 },
@@ -374,7 +369,6 @@ Maharashtra → *Mumbai*`
       type: 'match',
       id: '4-south-state-language',
       data: {
-        isPractice: false,
         title: 'Match states and language spoken.',
         fontSize: '1rem',
         text: `Andhra Pradhesh, Telugu

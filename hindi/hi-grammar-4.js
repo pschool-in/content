@@ -44,13 +44,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun2',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही पुरुषवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*मैं* घर जाना चाहती हूँ।
 *आप* कहते हैं तो ठीक ही होगा।
 *तुम* जब तक आये तब तक वह चला गया।
@@ -63,12 +58,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun3',
       data: {
-        isPractice: false,
         title: 'दिए गए शब्दों में से सही निजवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `मैं अपने कपडे *स्वयं* धो लूँगा।
 मैं वहाँ अपने *आप* चला जाऊँगा।
 *मैं* सुबह जल्दी उठता हूँ।
@@ -130,12 +120,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofadjective3',
       data: {
-        isPractice: false,
         title: 'दिए गए शब्दों में से सही गुणवाचक विशेषण चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `मोहन एक *ईमानदार* लड़का है।
 भोजन में *बदबू* आ रही है।
 आज मौसम बहुत *ठंडा* है।
@@ -148,13 +133,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofadjective4',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही संख्यावाचक विशेषण या परिमाणवाचक विशेषण चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `कल मेरे *दो* मित्र घर आए थे।
 जयपुर *बहुत सारे* लोग आते हैं।
 मुझे *थोड़ा* दूध चाहिए, बच्चे भूखे हैं।
@@ -167,13 +147,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'typesofadjective-5',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही संकेतवाचक विशेषण चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*यह* मेरी मेज है।
 *उस* बाइक को हाथ मत लगाओ।
 *वह* घोड़ा मेरा है।

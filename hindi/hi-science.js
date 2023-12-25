@@ -191,11 +191,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'didyouknow',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `मनुष्य का दायाँ पैर, बाऍं पैर की अपेक्षा *लंबा* होता है।

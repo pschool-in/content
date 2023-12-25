@@ -113,11 +113,7 @@ First Invention, Wheel`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          dashWidth: 80
-        },
         text: `Buying and selling of goods and services is called *trade*. If we buy from a different country, it is called *import*. If we sell to a different country, it is called *export*. We have lot of *ports* as we have a long *coastal* area.`
       }
     },
@@ -126,11 +122,7 @@ First Invention, Wheel`
       id: 'fillup-2',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          dashWidth: 80
-        },
         text: `*National Highway* connects the major cities in the country.
 *State Highway* connects the major cities within a state.
 *District Roads* connects the offices and markets

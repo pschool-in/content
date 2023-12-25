@@ -798,12 +798,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'bn-kar',
       data: {
-        isPractice: false,
         title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
-        styles: {
-          fontSize: '1.1rem',
-          dashWidth: 80
-        },
+        fontSize: '1.1rem',
         text: `খোকা তে "খ" এর সাথে যোগ করো "* ো*" কার 
 দেখা তে "দ" এর সাথে যোগ করো  "* ে*"  কার 
 চিনি তে "চ" এর সাথে যোগ করো  "* ি*"  কার 

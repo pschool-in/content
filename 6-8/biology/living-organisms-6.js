@@ -33,10 +33,7 @@ The organisms, both plants and animals, living in a habitat are its biotic compo
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The presence of specific features, which enable a plant or an animal to live in a particular habitat, is called *adaptation*.
 The habitats of the plants and animals that live on land are called *terrestrial* habitat.
 The habitats of plants and animals that live in water are called *aquatic* habitat.
@@ -162,10 +159,7 @@ In terrestrial plants, roots normally play a very important role in the absorpti
       type: 'matchByDragDrop',
       id: 'pond-lake',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `In aquatic plants, *roots* are much reduced in size and their main function is to hold the plant in place.
 The stems of these plants are long, hollow and *light*. 
 The *stems* grow up to the surface of the water while the leaves and *flowers*, float on the surface of water. 

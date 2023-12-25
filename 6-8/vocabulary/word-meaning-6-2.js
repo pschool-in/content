@@ -54,10 +54,7 @@ export default {
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
 
       data: [
@@ -94,10 +91,7 @@ export default {
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `He cancelled many unnecessary words in his *manuscript*
@@ -178,10 +172,8 @@ export default {
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `
@@ -218,10 +210,8 @@ export default {
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `The *cemetery* is surrounded by indigenous plants and trees
@@ -300,10 +290,8 @@ He received a *mortal* wound soon after the battle began`
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `
@@ -339,10 +327,8 @@ He received a *mortal* wound soon after the battle began`
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `Everyone makes mistakes, but few are *incorrigible*

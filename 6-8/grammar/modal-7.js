@@ -685,10 +685,7 @@ He *has* to be at work by 9 AM every day.`
       title: `Complete the conditional sentences using suitable modals.`,
       id: 'fillup-drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `If I see him, I *will (can)* tell him you called. 
 If he had studied harder, he *would (must)* have passed the exam
 If you had arrived earlier, we *could (can)* have gone to the concert. 

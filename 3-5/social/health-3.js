@@ -42,8 +42,7 @@ It is important to wash our hands, before and after having the food.
         types: [
           {
             name: 'Used',
-            text:
-              'toothbrush, toothpaste, soap, shampoo, cotton buds, towel, nail cutter'
+            text: 'toothbrush, toothpaste, soap, shampoo, cotton buds, towel, nail cutter'
           },
           {
             name: 'Not Used',
@@ -91,12 +90,7 @@ Rinse both hands with enough water.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Germs* are micro organisms that affect our bodies.
 It is important to wash our hands to keep ourselves *healthy*. 
 Washing hand, *kills* or removes germs.
@@ -212,12 +206,7 @@ Using toilets causes cholera.`
       type: 'matchByDragDrop',
       id: 'drag-drop3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Do not play with water or *run* around in the bathroom. 
 Do not touch *sharp* objects such as blades, razors and scissors kept in the bathroom.
 Do not leave the bathroom floor *wet*. 
@@ -421,12 +410,7 @@ Someone touching your private parts.`
       type: 'matchByDragDrop',
       id: 'drag-drop7',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Some cannot use any one or more of the five senses, such people are called *differently-abled*.
 Some touches are *good* and safe, like when we shake hands. 
 Some touches are *bad* and unsafe, like when we hit someone.
@@ -536,12 +520,7 @@ Exercise slows down brain functions and memory.`
       type: 'matchByDragDrop',
       id: 'drag-drop-8',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Global Hand Washing Day is observed on *October 15*.
 World Toilet Day is observed on *November 19*.
 National Deworming Day is observed on *February 10*.

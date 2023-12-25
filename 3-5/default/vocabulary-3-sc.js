@@ -105,7 +105,7 @@ suspicious | Suspicious`
         'bush, hero, plan, play, rest, drop, dust, duty, each',
         'high, hill, poor, hour, east, easy, hurt, many, milk',
         'hole, hope, rice, ring, edge, earn, hear, lake, lion',
-        'rain, tell, test, else, idea, inch, join'
+        'rain, tell, test, else, idea, inch | chin, join'
       ]
     },
     {

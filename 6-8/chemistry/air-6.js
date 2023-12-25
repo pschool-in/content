@@ -36,10 +36,7 @@ The burning of fuel also produces smoke. Smoke contains a few gases and fine dus
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Air is found *everywhere*.
 We cannot see *air*, but we can *feel* it.
 Air in motion is called *wind*.
@@ -238,10 +235,7 @@ Plants produce oxygen during photosynthesis. Plants also consume oxygen for resp
       type: 'matchByDragDrop',
       id: 'match-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The *wind* makes the windmill rotate.  
 Windmills are used to generate *electricity*. 
 Air helps in the *movements* of sailing yachts, gliders, parachutes and airplanes. 

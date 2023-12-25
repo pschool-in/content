@@ -665,7 +665,8 @@ export default {
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `When the ship was sinking, the crew had to *abandon* it and escape in lifeboats.
@@ -1413,7 +1414,8 @@ A heavy rain | DELUGE`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `Can you pass me the lighter so I can *ignite* the campfire?

@@ -60,12 +60,7 @@ The municipality runs the administration of the village.`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `It runs the administration of the village. - *gram panchayat*
 It runs the administration of the town. - *municipality*
 It is present in big cities. - *municipal cooperation*
@@ -77,12 +72,7 @@ It keeps our money safe. -  *bank*`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Public services* should be used carefully.
 *Money* is kept safe in the bank.
 We can send *letters* anywhere in the world.
@@ -163,12 +153,7 @@ These are the same as village panchayats in the towns. Here the population range
       type: 'matchByDragDrop',
       id: 'drag-drop3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Village panchayat* provides the basic facilities for the village people.
 *Panchayat Raj* is the three-tier system.
 Collecting *tax* is a compulsory duty of panchayat.
@@ -261,12 +246,7 @@ Superintendent of Police: Superintendent is responsible for the police force in 
       type: 'matchByDragDrop',
       id: 'drag-drop4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The District collector is the *Administrative* head of the district.
 The District collector is responsible for the proper and smooth functioning of the *district*.
 District collector seeks assistance from the *police force* to maintain law and order in the district.
@@ -278,12 +258,7 @@ Prompt actions during a natural disaster are taken by the *district collector*.`
       type: 'matchByDragDrop',
       id: 'drag-drop5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The administrative head of the district. - *collector*
 Maintains law and order. - *police*
 Advises on health. - *health officer*

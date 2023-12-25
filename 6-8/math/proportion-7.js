@@ -79,7 +79,7 @@ x = ??0/??1 × 28
     },
     {
       type: 'numberInput',
-      id: 'simplify',
+      id: 'simplify-2',
       label: 'Word Problems',
       data: {
         title: 'Word Problems',

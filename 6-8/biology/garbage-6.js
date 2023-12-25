@@ -41,10 +41,7 @@ Some plastics can be recycled but not all. Consuming food packed in reused plast
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Landfill* is an area where the garbage collected from a city or town is dumped. 
 The area used as a landfill is later converted into a *park*.
 Converting plant and animal waste including that from the kitchen, into manure, is called *composting*.
@@ -138,10 +135,7 @@ Plastics are not a hazard to health.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Process by which plant and animals waste is converted to manure - *Composting*
 Structure that earthworms used to grind food - *Gizzard*
 Low-lying open area used to dump garbage - *Landfill*

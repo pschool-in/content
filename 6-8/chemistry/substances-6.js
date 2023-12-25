@@ -38,10 +38,7 @@ Water dissolves different amounts of soluble substances in it.`,
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Husk and stones could be separated from grains by *handpicking*.
 Husk is separated from heavier seeds of grain by *winnowing*.
 The difference in the size of particles in a mixture is utilized to separate them by the process of *sieving* and filtration.
@@ -66,10 +63,7 @@ Water dissolves different amounts of *soluble (insoluble)* substances in it.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The method of separating seeds of paddy from its stalks is called: *threshing*
 The process of separating cream from milk is an example of: *filtration*
 Salt is obtained from seawater by the process of: *evaporation*
@@ -177,10 +171,7 @@ Remove corn from straw.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The process used to separate grain from stalks is called *threshing*.
 When the heavier component in a mixture settles after water is added to it, the process is called *sedimentation*. 
 Removal of water along with the dust is called *decantation*.

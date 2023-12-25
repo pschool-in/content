@@ -696,7 +696,8 @@ The <i><b>decay</b></i> of fallen leaves on the forest floor contributes to nutr
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `She has the *ability* to speak five different languages fluently.
@@ -848,7 +849,7 @@ It's essential to <i><b>defend</b></i> your rights and speak up when you're bein
                 type: 'html',
                 text: `Eg: <br><br>
 The <i><b>delicate</b></i> embroidery on the wedding dress was exquisite, showcasing incredible attention to detail.<br><br>
-Handling antique china requires a <i><b>delicate</b></i> touch to avoid any damage.`
+Handling antique chain requires a <i><b>delicate</b></i> touch to avoid any damage.`
               }
             ],
             [
@@ -1367,7 +1368,8 @@ The best <i><b>method</b></i> for controlling weeds is having a goat.`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `She signed the *deed* to her new house, officially transferring ownership.

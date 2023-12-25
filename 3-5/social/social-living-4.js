@@ -101,12 +101,7 @@ When we offer and seek help, learning becomes more enjoyable.`
       type: 'matchByDragDrop',
       id: 'drag-drop3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `We get many different friends in *school*.
 In school, we come to know about the *diversity* in our country.
 Every child must get the joy of *learning* in school.
@@ -161,12 +156,7 @@ Sharath Gayakwad is disabled in one hand. However, he has made the country famou
       type: 'matchByDragDrop',
       id: 'drag-drop4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Being *sensitive* is understanding the difficulties of the people in our family and locality, and helping them when needed.
 We must treat old people, patients and those with special needs with care and *respect*.
 If we are sensitive, our *capacity* to help others increases.
@@ -179,12 +169,7 @@ People who cannot hear use *sign language*. `
       type: 'matchByDragDrop',
       id: 'drag-drop5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Sudha Chandran* is an expert Bharatanatyam dancer. She lost a leg in an accident. However, even with an artificial leg, she continues to dance and act with great determination.
 *Ravindra Jain* is blind. He has composed music for many movies and television programs. He has also received many awards for his music.
 *Sharath Gayakwad* is disabled in one hand. However, he has made the country famous worldwide in swimming competitions.`
@@ -295,12 +280,7 @@ To make sure that the school is run smoothly, a â€˜School Management Committeeâ€
       type: 'matchByDragDrop',
       id: 'drag-drop6',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Management* is necessary for any work to be done properly.
 A detailed *plan* is necessary for group work.
 If work is carried out according to the plan, it is done smoothly and on *time*.

@@ -82,11 +82,10 @@ I love *balloons*.`
       id: 'same-basket',
       lockAfter: 1,
       commonData: {
-        title: 'Drag and drop words, so that nouns of the same group are together.',
-        styles: {
-          fontSize: '1.5rem',
-          dashWidth: 70
-        }
+        title:
+          'Drag and drop words, so that nouns of the same group are together.',
+        fontSize: '1.5rem',
+        dashWidth: 70
       },
       data: [
         `cat, dog, *cow*

@@ -327,12 +327,8 @@ Chennai, Fort St. George`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Village* is formed by the people who got settled and lived together in a place. 
 In India, some places are famous because of *historical buildings*.
 *Sun temple* is situated in Konark.
@@ -395,8 +391,7 @@ St. George fort is the first English fort in India. It is present in Chennai.
         types: [
           {
             name: 'British Monuments',
-            text:
-              'Gateway of India, India Gate, Fort St. George, Victoria Memorial'
+            text: 'Gateway of India, India Gate, Fort St. George, Victoria Memorial'
           },
           {
             name: 'Mughal Monuments',
@@ -454,12 +449,8 @@ Sree Padmanabhaswamy Temple, Kerala`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Thiruvalluvar statue* was situated in the Kanyakumari district.
 Aayi Mandapam is also called *Park Monument*.
 *Mandvi Gate* is the north gate of the Royal Enclosure for the state Baroda.

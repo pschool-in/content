@@ -9,10 +9,8 @@ export default {
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at the right blanks.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `Leaves *rustle* in the breeze.

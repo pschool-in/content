@@ -707,6 +707,258 @@ const coloring = {
       data: { type: 'mirror' }
     },
     {
+      id: 'shapes',
+      label: 'Match Shapes',
+      type: 'dragAndDrop',
+      commonData: {
+        width: 300,
+        height: 300,
+        wordWidth: 70,
+        title: 'Fix the shapes given at the bottom in the correct position.',
+        optionType: 'svg',
+        optionW: 80,
+        optionH: 80,
+        isPractice: true
+      },
+      data: [
+        {
+          optionColor: '#cb3ce7',
+          svg: {
+            props: {
+              stroke: 'none',
+              fill: 'white',
+              strokeLinejoin: 'round'
+            },
+            paths: [
+              {
+                d: 'M 0 0 H 300 V 300 H 0 z',
+                fill: '#d87cea'
+              },
+              'M 202 44 L 165 74 L 180 120 L 225 119 L 238 72 L 202 44 ',
+              'M 83 182 L 50 200 L 49 239 L 82 258 L 116 240 L 118 201 L 83 182 ',
+              'M 162 204 H 207 V 185 L 236 213 L 207 241 V 221 H 162 V 221 Z ',
+              'M 87 68 L 76 42 L 68 68 L 41 71 L 62 88 L 57 115 L 78 99 L 102 113 L 93 87 L 113 68 L 87 68 '
+            ]
+          },
+          words: [
+            {
+              word: 'circle',
+              text: 'M 39 2 L 2 32 L 17 78 L 62 77 L 75 30 L 39 2 ',
+              x: 164,
+              y: 43
+            },
+
+            {
+              word: 'square',
+              text: 'M 39 2 L 6 20 L 5 59 L 38 78 L 72 60 L 74 21 L 39 2 ',
+              x: 45,
+              y: 180
+            },
+            {
+              word: 'arrow',
+              text: 'M 2 36 H 47 V 17 L 76 45 L 47 73 V 53 H 2 V 53 Z ',
+              x: 161,
+              y: 169
+            },
+            {
+              word: 'star',
+              text: 'M 50 29 L 39 3 L 31 29 L 4 32 L 25 49 L 20 76 L 41 60 L 65 74 L 56 48 L 76 29 L 50 29 ',
+              x: 37,
+              y: 40
+            }
+          ]
+        },
+        {
+          optionColor: '#097b9a',
+          svg: {
+            props: {
+              stroke: 'none',
+              fill: 'white',
+              strokeLinejoin: 'round'
+            },
+            paths: [
+              {
+                d: 'M 0 0 H 300 V 300 H 0 z',
+                fill: '#0ba4cd'
+              },
+              'M 210 38 C 199 38 187 49 193 63 C 180 62 172 74 176 87 C 182 101 198 101 208 93 Q 204 105 192 113 L 230 113 Q 214 105 213 93 C 225 104 245 98 246 82 C 247 74 240 63 227 63 C 232 51 224 38 210 38 ',
+              'M 65 189 C 46 209 27 219 35 237 C 39 248 52 250 62 244 Q 59 255 50 263 L 80 263 Q 71 255 69 243 C 81 252 96 247 97 232 C 97 214 80 207 65 189 ',
+              'M 211 194 C 199 181 176 178 176 205 C 179 231 201 235 211 257 C 222 235 244 231 247 205 C 247 178 224 181 211 194 ',
+              'M 84 37 C 100 70 76 108 34 87 C 43 113 78 123 98 101 C 116 76 107 51 84 37 '
+            ]
+          },
+          words: [
+            {
+              word: 'circle',
+              text: 'M 39 2 C 28 2 16 13 22 27 C 9 26 1 38 5 51 C 11 65 27 65 37 57 Q 33 69 21 77 L 59 77 Q 43 69 42 57 C 54 68 74 62 75 46 C 76 38 69 27 56 27 C 61 15 53 2 39 2 ',
+              x: 171,
+              y: 38
+            },
+
+            {
+              word: 'square',
+              text: 'M 36 4 C 17 24 -2 34 6 52 C 10 63 23 65 33 59 Q 30 70 21 78 L 51 78 Q 42 70 40 58 C 52 67 67 62 68 47 C 68 29 51 22 36 4 ',
+              x: 29,
+              y: 186
+            },
+            {
+              word: 'rect',
+              text: 'M 39 13 C 27 0 4 -3 4 24 C 7 50 29 54 39 76 C 50 54 72 50 75 24 C 75 -3 52 0 39 13 ',
+              x: 173,
+              y: 181
+            },
+            {
+              word: 'rect2',
+              text: 'M 53 1 C 69 34 45 72 3 51 C 12 77 47 87 67 65 C 85 40 76 15 53 1 ',
+              x: 31,
+              y: 37
+            }
+          ]
+        },
+        {
+          optionColor: '#ff9999',
+          svg: {
+            props: {
+              stroke: 'none',
+              fill: 'white',
+              strokeLinejoin: 'round'
+            },
+            paths: [
+              {
+                d: 'M 0 0 H 300 V 300 H 0 z',
+                fill: '#ffbbbb'
+              },
+              'M 60 60 l 40 40 l -40 40 l -40 -40 Z',
+              'M 200 200 h 60 v 60 h -60 Z',
+              'M 180 80 h 80 v 25 h -80 z',
+              'M 50 200 h 25 v 80 h -25 z'
+            ]
+          },
+          words: [
+            {
+              word: 'diamond',
+              text: 'M 40 0 l 40 40 l -40 40 l -40 -40 Z',
+              x: 20,
+              y: 60
+            },
+
+            {
+              word: 'square',
+              text: 'M 10 10 h 60 v 60 h -60 Z',
+              x: 190,
+              y: 190
+            },
+            {
+              word: 'rect',
+              text: 'M 0 20 h 80 v 25 h -80 z',
+              x: 180,
+              y: 60
+            },
+            {
+              word: 'rect2',
+              text: 'M 20 0 h 25 v 80 h -25 z',
+              x: 30,
+              y: 200
+            }
+          ]
+        },
+        {
+          optionColor: '#469d46',
+          svg: {
+            props: {
+              stroke: 'none',
+              fill: 'white',
+              strokeLinejoin: 'round'
+            },
+            paths: [
+              {
+                d: 'M 0 0 H 300 V 300 H 0 z',
+                fill: '#63d563'
+              },
+              'M 160 160 h 70 c 0 30 -30 70 -70 70 z',
+              'M 160 140 h 70 c 0 -30 -30 -70 -70 -70 z',
+              'M 140 140 h -70 c 0 -30 30 -70 70 -70 z',
+              'M 140 160 h -70 c 0 30 30 70 70 70 z'
+            ]
+          },
+          words: [
+            {
+              word: 'diamond',
+              text: 'M 0 0 h 70 c 0 30 -30 70 -70 70 z',
+              x: 160,
+              y: 160
+            },
+
+            {
+              word: 'square',
+              text: 'M 0 70 h 70 c 0 -30 -30 -70 -70 -70 z',
+              x: 160,
+              y: 70
+            },
+            {
+              word: 'rect',
+              text: 'M 70 70 h -70 c 0 -30 30 -70 70 -70 z',
+              x: 70,
+              y: 70
+            },
+            {
+              word: 'rect2',
+              text: 'M 70 0 h -70 c 0 30 30 70 70 70 z',
+              x: 70,
+              y: 160
+            }
+          ]
+        },
+        {
+          optionColor: '#e58934',
+          svg: {
+            props: {
+              stroke: 'none',
+              fill: 'white',
+              strokeLinejoin: 'round'
+            },
+            paths: [
+              {
+                d: 'M 0 0 H 300 V 300 H 0 z',
+                fill: '#e49d5c'
+              },
+              'M 86 50 C 66 50 50 66 50 87 C 50 107 65 123 86 124 C 105 124 121 108 122 87 C 123 67 107 51 86 50 ',
+              'M 221 48 C 235 48 246 65 247 86 C 247 106 235 123 221 124 C 207 124 195 107 195 86 C 194 65 205 49 221 48 ',
+              'M 85 196 C 105 196 122 208 123 225 C 123 240 106 253 85 254 C 64 254 47 241 46 225 C 45 209 62 196 85 196 ',
+              'M 259 200 C 275 216 279 239 266 252 C 254 265 230 260 211 245 C 196 228 193 205 204 191 C 217 179 241 182 259 200 '
+            ]
+          },
+          words: [
+            {
+              word: 'circle',
+              text: 'M 41 2 C 21 2 5 18 5 39 C 5 59 20 75 41 76 C 60 76 76 60 77 39 C 78 19 62 3 41 2 ',
+              x: 47,
+              y: 50
+            },
+
+            {
+              word: 'square',
+              text: 'M 41 2 C 55 2 66 19 67 40 C 67 60 55 77 41 78 C 27 78 15 61 15 40 C 14 19 25 3 41 2 ',
+              x: 180,
+              y: 48
+            },
+            {
+              word: 'rect',
+              text: 'M 40 16 C 60 16 77 28 78 45 C 78 60 61 73 40 74 C 19 74 2 61 1 45 C 0 29 17 16 40 16 ',
+              x: 46,
+              y: 180
+            },
+            {
+              word: 'rect2',
+              text: 'M 63 18 C 79 34 83 57 70 70 C 58 83 34 78 15 63 C 0 46 -3 23 8 9 C 21 -3 45 0 63 18 ',
+              x: 197,
+              y: 184
+            }
+          ]
+        }
+      ]
+    },
+    {
       type: 'pathDraw',
       id: 'flower',
       label: 'Symmetric Flower',

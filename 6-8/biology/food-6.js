@@ -27,10 +27,6 @@ Animals that eat only plants are called herbivores. Animals that eat only animal
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Plant: *Oranges*, Carrots
 Animal: Milk, *Eggs*
 Herbivore: *Cow*, Elephant
@@ -43,10 +39,7 @@ Omnivore: *Bear*, Crow`
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Milk, curd, paneer, ghee are all *animal* products.
 Spinach, cauliflower, and carrot are *plant* products.
 Lions and tigers eat *other animals*.
@@ -60,10 +53,7 @@ We get *sugar* from sugarcane.`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Materials needed to prepare a dish are called *ingredients*.
 Animals that only eat plant products are called *herbivores*.
 Animals that eat other animals are called *carnivores*.
@@ -135,10 +125,7 @@ Diseases that occur due to a lack of nutrients over a long period are called def
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Rickets* is caused by deficiency of Vitamin D.
 Deficiency of *Vitamin B1* causes a disease known as beri-beri.
 Deficiency of Vitamin C causes a disease known as *scurvy*.
@@ -151,10 +138,7 @@ Eating too much fatty foods may lead to *obesity*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Fats : *Ghee*, Butter
 Starch : Rice, *Potato*
 Dietary fibre : *Fruits*, Vegetables 
@@ -166,10 +150,7 @@ Protein : Chicken, *Paneer*`
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Diseases that occur due to lack of nutrients over a long period are called *deficiency diseases*.
 A diet containing all necessary nutrients is called a *balanced diet*.
 Ginger is rich in *iodine*.
@@ -222,10 +203,7 @@ Lemon is rich in *Vitamin C*.`
       title: `Find the deficiency disorder from the symptoms displayed.`,
       id: 'fillup-drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Poor vision, loss of vision in darkness - *night blindness*
 Weak muscles and very little energy to work - *beriberi*
 Bleeding gums, and wounds take longer to heal - *scurvy*

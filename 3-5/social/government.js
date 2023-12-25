@@ -117,12 +117,8 @@ Dictatorship: A dictatorship is a government where one person makes all the rule
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Chief* Minister runs a state and the *Prime* minister runs the country.
         *Monarchy* is the rule of kings and queens.
         *Democracy* is for the people, by the people and of the people.

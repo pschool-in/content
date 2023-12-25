@@ -92,10 +92,8 @@ _____ is a mixture of several gases.|AIR| _I_`
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The layers of air in the atmosphere close to the earth are pressed *closer* to each other while the upper layers are rarer.
 There is *air* even in an empty container.
 The air at a greater height from the earth is *rarer* than the air nearer to the earth.

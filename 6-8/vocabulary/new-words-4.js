@@ -302,11 +302,6 @@ Mundane × Extraordinary`
         {
           questions: [
             {
-              qText:
-                'The painting was created *in the likeness of* a famous artist.',
-              options: 'resembling, contrasting, imitating'
-            },
-            {
               qText: 'She will return in *a matter of moments*.',
               options: 'seconds, hours, days'
             },
@@ -386,7 +381,7 @@ Mundane × Extraordinary`
             },
             {
               qText:
-                'The architect designed a building with exceptionally convoluted details.',
+                'The architect designed a building with *exceptionally convoluted* details.',
               options: 'intricate, simple, plain'
             },
             {

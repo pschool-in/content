@@ -556,12 +556,9 @@ king | அரசன், அறசன் `
       label: 'மனிதர்களும் தொழில்களும்',
       type: 'matchByDragDrop',
       commonData: {
-        isPractice: false,
         title: 'மனிதர்களும் தொழில்களும் ',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        }
+        fontSize: '1rem',
+        dashWidth: 60
       },
       data: [
         `ஆடை நெய்பவர் = *நெசவாளர்* 
@@ -596,12 +593,9 @@ king | அரசன், அறசன் `
       label: 'பறவைகளின் ஒலிகள்',
       type: 'matchByDragDrop',
       commonData: {
-        isPractice: false,
         title: 'பறவைகளின் ஒலிகள் ',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        }
+        fontSize: '1rem',
+        dashWidth: 60
       },
       data: [
         `ஆந்தை = *அலறும்*

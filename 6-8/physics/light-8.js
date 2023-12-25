@@ -32,10 +32,6 @@ The idea of a number of images formed by mirrors placed at an angle to one anoth
       id: 'drag-drop',
       type: 'matchByDragDrop',
       data: {
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        },
         text: `We need *light* to see the world around us with the help our *eyes*. We cannot see things in the *dark*.
 We see TV through *emitted* light. We see tables and chairs through *reflected* light.`
       }
@@ -189,12 +185,7 @@ On the other hand, birds like eagles can see well during the day but not in the 
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
-      commonData: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        }
-      },
+      commonData: {},
       data: [
         `The transparent front part of our eye is called *cornea*. Behind it, we find a dark muscular structure called the *iris*, which has a small opening called *pupil*.
 The lens behind the pupil focuses light on the back of the eye, on a layer called the *retina* which contains several *nerve cells*.`,

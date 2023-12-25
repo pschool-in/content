@@ -65,7 +65,6 @@ export default {
         width: 300,
         height: 300,
         wordWidth: 70,
-        isPractice: false,
         title: 'দিক',
         svg: {
           props: {

@@ -11,7 +11,7 @@ export default {
       data: {
         title: 'Exclamation mark',
         text: `It is used to show strong feelings of joy, sadness, confusion, surprise, etc. This mark can be used after a word, phrase, or sentence. The sentences ending with an exclamation mark are called exclamatory sentences. A few examples of such sentences are:
-1. Alas! My holidays are canceled.
+1. Alas! My holidays are cancelled.
 2. Wow, it’s raining!
 3. Oh God!
 4. I hear thunder!`
@@ -36,7 +36,7 @@ Have you completed your homework *? (., !)*`,
 
         `What a beautiful day *! (., ?)*
 How old are you *? (., !)*
-Alas *! (., ?)* My holidays are canceled.
+Alas *! (., ?)* My holidays are cancelled.
 My name is Sheena *. (?, !)*
 Oh my God *! (., ?)*`,
 

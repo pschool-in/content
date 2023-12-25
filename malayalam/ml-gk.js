@@ -104,11 +104,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'districts-match',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `*തിരുവനന്തപുരം*: പഴക്കമുള്ള നഗരം
@@ -183,11 +179,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'nationalofindia',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `കേരളത്തിന്റ്റെ രാജ്യ പക്ഷി - *വേഴാമ്പൽ*

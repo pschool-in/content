@@ -251,8 +251,8 @@ My purse has been stolen.`
       },
       data: [
         `Jim wrote a letter. |  a letter was written by Jim
-Lata sings lovely songs. | lovely songs are sung by Lata
-Tom is building a house. | a house is being built by Tom
+Lata sings lovely songs. | lovely songs are sung by Lata`,
+        `Tom is building a house. | a house is being built by Tom
 They will run a race. | a race will be run by them 
 I am writing a letter. | a letter was being written by me`,
 

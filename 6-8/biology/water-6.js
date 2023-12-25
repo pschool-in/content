@@ -42,10 +42,7 @@ One way of increasing the availability of water is to collect rainwater and stor
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The process of changing water into its vapor is called *evaporation*.
 The process of changing water vapor into water is called *condensation*.
 No rainfall for a year or more may lead to *drought* in that region.
@@ -126,10 +123,7 @@ Water evaporates into the air from oceans, rivers and lakes but not from the soi
       type: 'matchByDragDrop',
       id: 'match-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Snow in the mountains *melts* into water.
 A part of the *rainwater* gets absorbed by the ground and seems to disappear into the soil.
 *Groundwater* is brought back to the air by the process of evaporation and transpiration. 

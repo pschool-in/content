@@ -8,10 +8,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Microorganisms can be seen with the help of a *microscope*.
 Blue green algae fix *nitrogen* directly from the air and enhance the fertility of the soil.
 Alcohol is produced with the help of *yeast*.
@@ -76,10 +73,7 @@ Fungi, Wheat rust`,
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Microorganisms are too *small* and are not visible to the unaided eye.
 Microorganisms are found in air, *water* and in the *bodies* of plants and animals.
 Microorganisms include bacteria, *fungi*, protozoa and some algae. 

@@ -214,12 +214,7 @@ Palk, Strait`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        },
         text: `97% of the available water in our Earth is *salt* water and only 3% is *fresh* water. 
 *Vembanad* Lake is the largest lake in India which is connected with Arabian Sea. It is partially salt water. *Wular* Lake is the largest fresh water lake in India.
 *Pacific* ocean is the largest ocean. *Arctic* ocean is the smallest ocean.`

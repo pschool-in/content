@@ -57,10 +57,8 @@ export default {
       id: 'gesture-1',
       data: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1rem',
+        dashWidth: 70,
         text: `*frowning* : showing worry, anger, or disapproval
 *grinning* : showing happiness or approval
 *pouting*: showing disappointment or unhappiness
@@ -86,10 +84,8 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `*witty* - makes jokes easily, 
@@ -124,10 +120,8 @@ When little Anne lost her toy, she *pouted (grinned)* the entire afternoon.
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the words at appropriate places',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `To make pancakes, we first need the *batter*.

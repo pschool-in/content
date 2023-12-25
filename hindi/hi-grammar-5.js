@@ -178,13 +178,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun2',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही द्रव्यवाचक संज्ञा चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `एक किलो *तेल* लेकर आओ।
 मुझे *दाल* पसंद है।
 मुझे *चांदी* के आभूषण बहुत पसंद हैं।
@@ -200,13 +195,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun3',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही समुदायवाचक संज्ञा चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `भारतीय *सेना* दुनिया की सबसे बड़ी सेना है।
 कल बस स्टैंड पर *भीड़* जमा हो गयी।
 मेरे *परिवार* में चार सदस्य हैं।
@@ -378,13 +368,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun3',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही निश्चयवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*यह* कार मेरी है।
 *वह* मोटरबाइक तुम्हारी है।
 *ये* पुस्तकें मेरी हैं।
@@ -396,13 +381,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun4',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही अनिश्चयवाचक सर्वनाम या प्रश्नवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `मेरे खाने में *कुछ* गिर गया।
 तुमसे *कोई* बात करना चाहता है।
 *किसी* ने तुम्हारे लिए ये भेजा है।
@@ -415,13 +395,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofpronoun5',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही सम्बन्धवाचक सर्वनाम चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `जैसी करनी *वैसी* भरनी।
 जो सोवेगा *सो* खोवेगा जो जागेगा सो पावेगा।
 *जैसा* बोओगे वैसा काटोगे।
@@ -490,13 +465,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofadjective3',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही परिमाणवाचक विशेषण चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `मेरी पेंट में *सवा मीटर* कपड़ा लगेगा।
 मोबाइल की बैटरी *६ घंटा* चलेगी।
 सफल होने के लिए *बहुत सारी* मेहनत करनी पड़ेगी।

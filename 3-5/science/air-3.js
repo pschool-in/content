@@ -44,10 +44,8 @@ A very strong wind is called a gale. Gale is stronger than a storm.`
       id: 'drag-drop',
       type: 'matchByDragDrop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+        dashWidth: 80,
         text: `We inhale *oxygen* and exhale *carbon-dioxide*. This cyclical process of inhalation and exhalation is called *breathing*. 
 The air present on Earth is majorly made up of *nitrogen*. 
 Air has *weight* but it doesn't have *shape*.`
@@ -152,10 +150,8 @@ We need air for our bodies to function properly. It also makes us feel fresh and
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `As *breathing* goes on continuously, a sleeping man's chest can be seen going up and down.
 There is *air* all around us.
 Like us, all living things *need* air.

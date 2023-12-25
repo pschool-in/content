@@ -325,12 +325,9 @@ export default {
       id: 'match-2',
       lockAfter: 2,
       commonData: {
-        isPractice: false,
         title: 'கோடிட்ட இடங்களை நிரப்புக ',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem',
+        dashWidth: 80
       },
       data: [
         `ஓடி விளையாடு *பாப்பா*!

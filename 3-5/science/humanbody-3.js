@@ -90,12 +90,9 @@ Many functions go on inside our body. A network of blood vessels is spread throu
       id: 'fillup-drag',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+        dashWidth: 80,
         text: `We cannot see our *internal* organs. 
 We breathe *oxygen* through our *nose*.
 Blood *vessels* carry oxygen to *every* part of our body.
@@ -197,12 +194,9 @@ The right lung is slightly bigger than the left lung. A pipe-like internal organ
       id: 'fillup-drag-2',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+        dashWidth: 80,
         text: `Our chest *expands* when we *breathe* in.
 Our heart *contracts* while pumping *blood*.
 The doctor puts her fingers on our *wrist* to feel your *pulse*.`
@@ -233,12 +227,9 @@ A part of the body that is used for a particular purpose is called an organ. Org
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The head is covered with *hair*.
 Below the forehead are two *eyes*, with *eyebrows* and eyelashes. 
 On the sides are the *ears*. 
@@ -252,12 +243,9 @@ The part that joins the head to the torso is the *neck*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The chest, *abdomen* and back together make up the torso.
 The part where the *arm* is joined to the torso is called the *shoulder*. 
 The leg is joined to the torso at the *hip-joint*.`
@@ -268,12 +256,9 @@ The leg is joined to the torso at the *hip-joint*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The arm has three parts - upper arm, forearm and *hand*. 
 The *fingers* are part of the hand. 
 The upper arm and forearm are joined at the *elbow*. 
@@ -285,12 +270,9 @@ The forearm and hand are joined at the *wrist*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The leg has three parts - thigh, *shank* and foot.
 *Toes* are part of the foot. 
 The thigh and shank are joined at the *knee*. 
@@ -496,12 +478,9 @@ The curry is too salty.`
       type: 'matchByDragDrop',
       id: 'drag-drop-22',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `We can see with our *eyes*.
 We can hear with our *ears*.
 We can smell with our *nose*. 
@@ -591,12 +570,9 @@ Clean gums may make us ill. `
       type: 'matchByDragDrop',
       id: 'teeth',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The teeth we get when we are small are called *milk* teeth. 
 If *permanent* teeth fall, we do not get new teeth in their place. 
 We must take care of our *teeth*.

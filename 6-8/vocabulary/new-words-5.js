@@ -76,15 +76,15 @@ Riveting - Engrossing`
               options: 'articulate, incoherent, unclear, mumbled'
             },
             {
-              qText: 'She found the riddle to be perplexing.',
+              qText: 'She found the riddle to be *perplexing*.',
               options: 'confusing, easy, straightforward, misleading'
             },
             {
-              qText: 'The artwork was truly grandiose.',
+              qText: 'The artwork was truly *grandiose*.',
               options: 'awe-inspiring, mediocre, unimpressive, ordinary'
             },
             {
-              qText: 'She had a competent understanding of the topic.',
+              qText: 'She had a *competent* understanding of the topic.',
               options: 'proficient, inept, amateurish, incomplete'
             },
             {

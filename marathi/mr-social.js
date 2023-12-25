@@ -128,7 +128,6 @@ export default {
         width: 300,
         height: 300,
         wordWidth: 70,
-        isPractice: false,
         title: 'Direction',
         svg: {
           props: {
@@ -217,7 +216,6 @@ valley | दरी`
         width: 342,
         height: 368,
         wordWidth: 100,
-        isPractice: false,
         words: [
           { word: 'कर्नाटक', x: 50, y: 180 },
           { word: 'आंध्र प्रदेश', x: 115, y: 130 },
@@ -238,7 +236,6 @@ valley | दरी`
         width: 253,
         height: 286,
         wordWidth: 85,
-        isPractice: false,
         words: [
           { word: 'कावेरी', x: 70, y: 180 },
           { word: 'कृष्णा', x: 125, y: 76 },
@@ -255,7 +252,6 @@ valley | दरी`
       type: 'match',
       id: '4-south-state-language',
       data: {
-        isPractice: false,
         title: 'Match states and language spoken.',
         fontSize: '1rem',
         text: `आंध्र प्रदेश, तेलुगु

@@ -118,12 +118,7 @@ We cannot prevent the spread of diseases.`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Diseases caused by micro-organisms are called *infectious* diseases.
 Every infectious disease is caused by a specific *micro-organism*.
 Infectious diseases spread through water, food or air, by *direct contact* or through insect bites.
@@ -257,12 +252,7 @@ Pollution, squalor, epidemics, addictions and insect-borne diseases are all bene
       type: 'matchByDragDrop',
       id: 'drag-drop2 ',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Each person should put efforts to maintain the community's *health*.
 We must be *alert* concerning matters of public health.
 Wholesome living leads to good personal and *social* health.

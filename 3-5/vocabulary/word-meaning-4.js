@@ -520,7 +520,8 @@ It's important not to <i><b>spoil</b></i> children with excessive gifts, as it m
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `The refugee's life was filled with *misery* as they struggled to find safety and stability.
@@ -898,7 +899,8 @@ Economic <i><b>woe</b></i> can result from financial instability and market down
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `In times of famine, people may *starve* due to the scarcity of food.

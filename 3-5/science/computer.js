@@ -103,12 +103,9 @@ RAM is an example of *primary (secondary)* storage.`
       type: 'matchByDragDrop',
       id: 'name-them',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `A high-speed access area in memory unit is called *cache*
 A tape  with data encoded on the magnetic strip is called *magnetic tape*
 A device that stores data in digital format is called *optical disk*
@@ -120,12 +117,9 @@ A portable, soft magnetic disk with slow access is called *floppy*`
       type: 'matchByDragDrop',
       id: 'fill-up2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `The *capslock* key is used when we want to type a capital letter.
 *Enter* key is used to finish a line and move to the next line on the page.
 The *shift* key is a modifier key present on both sides of the keyboard.
@@ -151,8 +145,7 @@ CPU - Central *Processing (Programming)* Unit`
       data: {
         title:
           'Arrange the steps in starting the computer in the correct order.',
-        text:
-          'plugin computer, switch on UPS, press power button on CPU, boot up '
+        text: 'plugin computer, switch on UPS, press power button on CPU, boot up '
       },
       id: 'sort'
     },
@@ -260,12 +253,9 @@ Second-generation computers used *assembly (operating)* languages. `
       type: 'matchByDragDrop',
       id: 'name-them',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `An ancient memory aid device to record and document numbers, quantities, or even messages is called *tally stick*
 A mechanical device used to aid an individual in performing mathematical calculations is called *abacus*
 An automatic loom controlled by punched cards is called *jacquard loom*
@@ -326,12 +316,9 @@ The basic requirement to access the internet includes a computer, a web browser,
       type: 'matchByDragDrop',
       id: 'fill-up3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `*World Wide Web* is a collection of websites or web pages stored in web servers.
 *Web page* is a document that can be displayed in a web browser.
 *Website* is a collection of web pages.
@@ -344,12 +331,9 @@ The basic requirement to access the internet includes a computer, a web browser,
       type: 'matchByDragDrop',
       id: 'fill-up4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `*Search engine* is a website used to search for information on the internet.
 *Instant messaging* is used for online chat
 *Video conferencing* is a face to face communication among people at distant locations through the internet.
@@ -361,12 +345,9 @@ The basic requirement to access the internet includes a computer, a web browser,
       type: 'matchByDragDrop',
       id: 'fill-up5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `*Internet* stands for International Network.
 *URL* stands for Uniform Resource Locator. 
 *E-mail* stands for Electronic mail`

@@ -1,17 +1,56 @@
 export const templates = [
   {
-    type: 'passage',
-    label: 'Passage - Template',
-    id: 'passage-template',
-
+    label: 'Multiple Choice Questions - MCQ',
+    type: 'mcq',
     data: {
-      title: `Passage Title`,
-      text: `This is a paragraph
-  #heading
-  This is another para.
-  1. list item 1
-  2. list item 2
-  3. list item 3`
+      title: 'Multiple Choice Questions',
+      questions: [
+        {
+          qText: `India gets lot of rain during ________.`,
+          options: `monsoon, winter, summer`
+        },
+        {
+          qText: `Which of the following is incorrect?`,
+          options: `In winter, there will be snowfall in South India.
+          Rain water runs through rivers.
+          It never rains in summer.
+          River water can be saved by building dams.`
+        },
+        {
+          qText: `Which of the following country is present in Asia?`,
+          options: `Cuba
+          New Zealead
+          West Indies
+          * None of the above`
+        },
+        {
+          qText: `Which of the following are IT cities in India?`,
+          options: `* Bangalore
+          * Hydrabad
+          * Chennai
+          Surat`
+        },
+        {
+          qText: `________ helps in predicting weather.`,
+          options: `Satellites, Rockets, Aeroplane, Astrology`
+        }
+      ]
+    }
+  },
+  {
+    label: 'Fill up by drag - Template',
+    type: 'matchByDragDrop',
+    id: 'drag-and-drop-blanks-template',
+    data: {
+      title: 'Drag and drop the words at proper places.',
+      fontSize: '1rem',
+      dashWidth: 70,
+      text: `*Sun* is the center of solar system.
+  Jupiter is the *biggest* planet.
+  *Saturn* has a big ring around it.
+  Venus is the bright and *hottest* planet.
+  Uranus is the *coldest* planet.
+  *Pluto* is a dwarf planet.`
     }
   },
   {
@@ -24,16 +63,33 @@ export const templates = [
       text: `first, two, nice, fine, third`
     }
   },
-  /*{
-      type: "sequence",
-      label: "Find Sentence Template",
-      data: {
-        
-        title: "Connect the blocks to form meaningful sentence.",
-        text: `this is the first sentence
-  second sentence goes here`,
-      },
-    },*/
+  {
+    type: 'match',
+    label: 'Match - Template',
+    id: 'match',
+
+    data: {
+      title: 'Match the words with same meaning.',
+      text: `huge, large
+  quick, fast
+  ill, sick
+  friendly, kind
+  silent, quiet
+  speak, talk
+  large, big`
+    }
+  },
+  {
+    label: 'Sorting - Template',
+    type: 'sorting',
+    id: 'sort',
+
+    data: {
+      title:
+        'Sort the planets based on its distance from sun. (Nearest planet at top)',
+      text: `Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune`
+    }
+  },
   {
     type: 'rightOne',
     label: 'Correct Spelling - Template',
@@ -86,26 +142,7 @@ export const templates = [
       ]
     }
   },
-  {
-    label: 'Fill up by drag - Template',
-    type: 'matchByDragDrop',
-    id: 'drag-and-drop-blanks-template',
 
-    data: {
-      isPractice: false,
-      title: 'Drag and drop the words at proper places.',
-      styles: {
-        fontSize: '1rem',
-        dashWidth: 70
-      },
-      text: `*Sun* is the center of solar system.
-  Jupiter is the *biggest* planet.
-  *Saturn* has a big ring around it.
-  Venus is the bright and *hottest* planet.
-  Uranus is the *coldest* planet.
-  *Pluto* is a dwarf planet.`
-    }
-  },
   {
     label: 'Select Word - Template',
     type: 'selectWord',
@@ -126,7 +163,8 @@ export const templates = [
     id: 'fillup',
 
     data: {
-      noOptions: true,
+      type: 'noOptions',
+      lang: 'en',
       title: `Fill in the blanks with proper article`,
       text: `Picasso was *an* artist.
   He is *an* honest man.
@@ -138,12 +176,14 @@ export const templates = [
   It looks like it's going to rain. Do you have *an* umbrella?`
     }
   },
+  /*
   {
     label: 'Fillup with Options - Template',
     type: 'fillup',
     id: 'fillup-fixed-options',
     data: {
       title: `Fill in the blanks with proper article`,
+      type: 'fixedOptions',
       text: `Picasso was *an* artist.
   He is *an* honest man.
   I study at *a* small university in London.
@@ -155,7 +195,7 @@ export const templates = [
       options: 'a, an, the'
     }
   },
-  /* {
+   {
       label: "Fillup (Variable options) Template",
       type: "fillup",
       
@@ -166,62 +206,6 @@ export const templates = [
   She went to *the (a) * library and had *an (a) * ice-cream.`,
       },
     },*/
-  {
-    type: 'match',
-    label: 'Match - Template',
-    id: 'match',
-
-    data: {
-      title: 'Match the words with same meaning.',
-      text: `huge, large
-  quick, fast
-  ill, sick
-  friendly, kind
-  silent, quiet
-  speak, talk
-  large, big`
-    }
-  },
-  {
-    label: 'Sorting - Template',
-    type: 'sorting',
-    id: 'sort',
-
-    data: {
-      title:
-        'Sort the planets based on its distance from sun. (Nearest planet at top)',
-      text: `Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune`
-    }
-  },
-  {
-    label: 'Multiple Choice Questions - MCQ',
-    type: 'mcq',
-    data: {
-      title: 'Multiple Choice Questions',
-      questions: [
-        {
-          qText: `India gets lot of rain during ________.`,
-          options: `monsoon, winter, summer`
-        },
-        {
-          qText: `We need to drink lot of water during ______.`,
-          options: `summer, winter, monsoon`
-        },
-        {
-          qText: `What season India has during May month?`,
-          options: `Summer, Winter, Monsoon, Spring`
-        },
-        {
-          qText: `What season India has during January month?`,
-          options: `Winter, Monsoon, Spring, Summer`
-        },
-        {
-          qText: `________ helps in predicting weather.`,
-          options: `Satellites, Rockets, Aeroplane, Astrology`
-        }
-      ]
-    }
-  },
   {
     label: 'Drag and Drop : Classify - Template ',
     type: 'group',

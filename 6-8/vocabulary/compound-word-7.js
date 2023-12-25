@@ -69,7 +69,7 @@ I'm something you use to make a call, but I'm not a mobile. What am I? |TELEPHON
 
         `I'm something you can use to write, but I'm not a pen. What am I? |CHALKBOARD| C____BOARD
 I'm a machine that can be used to cook food, but I'm not an oven. What am I? |MICROWAVE| M____WAVE
-I'm a tool that can be used to cut down trees, but I'm not an ax. What am I? |CHAINSAW| C____SAW
+I'm a tool that can be used to cut down trees, but I'm not an axe. What am I? |CHAINSAW| C____SAW
 I'm something you can use to make coffee, but I'm not a coffee maker. What am I? |COFFEE GROUNDS| C_____ GROUNDS
 I can be opened and closed, and I keep your food fresh. What am I? |ZIPLOCK| Z__LOCK
 I'm something you use to write on a chalkboard. What am I? |CHALK STICK| C____ STICK
@@ -169,7 +169,7 @@ firefly, fire-fly, fire fly
 know-it-all, know it all, knowitall
 life-size, lifesize, life size
 forever, for ever, for-ever
-gentleman, gentle man gentle-man
+gentleman, gentle man, gentle-man
 post office, postoffice, post-office
 prime minister, prime-minister, primeminister
 real estate, realestate, real-estate`,

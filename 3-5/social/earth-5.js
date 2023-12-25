@@ -32,12 +32,7 @@ We live on the surface of the Earth. It is called the Blue Planet. It is made up
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The planets nearer to the sun are very *hot*. 
 The planets away from the sun are very *cold*.  
 Venus is called Earth’s *twin*. 
@@ -72,12 +67,7 @@ There are 5 continents and 7 oceans.`
       type: 'matchByDragDrop',
       id: 'match',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Red planet - *Mars*
 Blue planet - *Earth*
 Ringed planet - *Saturn*
@@ -91,12 +81,7 @@ Largest planet - *Jupiter*`
       type: 'matchByDragDrop',
       id: 'match-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Smallest continent - *Australia*
 Largest continent - *Asia*
 Snow covered continent - *Antarctica*
@@ -153,8 +138,7 @@ Second largest continent - *Africa*`
       data: {
         title:
           'Arrange the continents based on their size. (Start from largest continent)',
-        text:
-          'Asia, Africa, N.America, S.America, Antarctica, Europe, Australia'
+        text: 'Asia, Africa, N.America, S.America, Antarctica, Europe, Australia'
       },
       id: 'sorting-2'
     },
@@ -279,12 +263,7 @@ The world's smallest country, the *Vatican City*, is in Europe.`
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Highest volcano - *Mt. Cotopaxi*
 Smallest country - *Vatican City*
 White continent - *Antarctica*

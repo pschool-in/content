@@ -97,10 +97,8 @@ night blindness, vitamin A`,
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+        dashWidth: 80,
         text: `The disease caused by iron deficiency is *anaemia*
 The disease caused by Vitamin C deficiency is *scurvy*
 The disease caused by Vitamin B deficiency is *beriberi*

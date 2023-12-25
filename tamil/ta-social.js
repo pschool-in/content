@@ -58,7 +58,6 @@ export default {
         width: 320,
         height: 412,
         wordWidth: 110,
-        isPractice: false,
         title: 'நதிகளை சரியான இடத்தில் பொருத்துக ',
         words: [
           {
@@ -109,7 +108,6 @@ export default {
         width: 320,
         height: 412,
         wordWidth: 110,
-        isPractice: false,
         words: [
           {
             word: 'சென்னை',
@@ -149,7 +147,6 @@ export default {
         width: 320,
         height: 412,
         wordWidth: 110,
-        isPractice: false,
         words: [
           {
             word: 'மாமல்லபுரம்',

@@ -219,12 +219,9 @@ export default {
       label: 'உடலின் பாகங்களும் செயல்களும்',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'உடலின் பாகங்களும் செயல்களும்',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: `பார்க்க உதவும் உறுப்பு = *கண்*
 சுவாசிக்க பயன்படும் உறுப்பு = *மூக்கு* 
 கேட்க உதவும் உறுப்பு = *காது* 

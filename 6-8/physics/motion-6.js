@@ -21,10 +21,6 @@ Later came automobiles such as motor cars, trucks and buses. Motorized boats and
       id: 'drag-drop',
       type: 'matchByDragDrop',
       data: {
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        },
         text: `Logs of wood were joined together to make a *boat*.
 Invention of the *wheel* made a great change in modes of transport.
 Initially, man used *animals* for transportation.
@@ -145,12 +141,7 @@ Motion is a change in the position of an object with time. The change in this po
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
-      commonData: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        }
-      },
+      commonData: {},
       data: [
         `Measuring length is about the *distance* between two *points*. Flower sellers use *forearm* to measure garlands. In older days, measurements *vary* with people. 
 Curved lines can be measured with the help of a *thread*. Tailors use *tapes* for measuring clothes. Students can measure the length of a pencil using a *scale*.`,

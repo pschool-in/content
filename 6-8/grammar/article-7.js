@@ -271,11 +271,7 @@ I know how to play *the* violin.`
       lockAfter: 1,
       commonData: {
         title:
-          'Complete the paragraph using articles. Mark `-` wherever articles are not used.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+          'Complete the paragraph using articles. Mark `-` wherever articles are not used.'
       },
       data: [
         `Mr. Sheetal Das is my *- (a, an, the)* neighbor. He is *a (-, an, the)* businessman. He owns *a (-, an, the)* spacious bungalow and *a (-, an, the)* car. His house is well-furnished. It is equipped with all *the (a, an, -)* comforts of life. I am, however, sad to see that he does not have very good relations with his *- (a, an, the)* neighbors. Once he called *the (a, an, -)* police against one of his neighbors. It happened just because he thought that his neighbor's children had broken his window glass. *The (A, An, -)* children had of course denied it. He has *a (-, an, the)* servant. This poor boy is not given enough food to eat. He never donates money to any cause. I wonder why he behaves in such *an (a,the, -)* ignoble manner. May God grant him *- (a, an, the)* wisdom!`,

@@ -368,11 +368,11 @@ Captivating × Uninteresting`
         {
           questions: [
             {
-              qText: 'The ancient castle stands *on top of the hill*.',
+              qText: 'The ancient castle stands on *top of the hill*.',
               options: 'hilltop, atop, over the hill'
             },
             {
-              qText: 'The old man told stories *from his youth*.',
+              qText: 'The old man told stories from *his youth*.',
               options: 'childhood, ancient times, senior years'
             },
             {

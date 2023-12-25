@@ -156,8 +156,7 @@ South America, Brazil`
       data: {
         title:
           'Rearrange the continents based on the size (Largest at the top)',
-        text:
-          'Asia, Africa, North America, South America, Antarctica, Europe, Australia'
+        text: 'Asia, Africa, North America, South America, Antarctica, Europe, Australia'
       },
       id: 'sort'
     },
@@ -166,12 +165,7 @@ South America, Brazil`
       id: 'fillup',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `The top two highly populated countries are present in *Asia*. It is very difficult to live in the continent *Antarctica*. The Great Barrier Reef, is one of the pride of *Australia*. The world's largest desert, Sahara desert is present in *Africa*. Amazon rain forest is present in *South America*. Countries like France and Spain are present in *Europe*.
 Canada is part of *North America*.`
       }

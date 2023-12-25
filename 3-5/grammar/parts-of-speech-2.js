@@ -226,10 +226,8 @@ Both *he* and Vikram are booksellers.`
       lockAfter: 2,
       commonData: {
         title: 'Choose the most appropriate adverb.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `Meera spoke *rudely* to her teacher.

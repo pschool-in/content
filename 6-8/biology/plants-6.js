@@ -30,10 +30,7 @@ The most prominent and colorful parts of a flower are called petals. The small l
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The prominent line in the middle of the leaf is called *midrib*.
 If the venation is a netlike design on both sides of the midrib, then it is called *reticulate* venation.
 The main root of the plant is called *tap root*.
@@ -45,10 +42,7 @@ The smaller roots seen on a plant is called *fibrous root*.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The process by which plants lose water - *transpiration*
 The process by which plants make food - *photosynthesis*
 The part of the leaf that attaches it to the stem - *petiole*
@@ -76,10 +70,7 @@ Plants having leaves with parallel venation have *fibrous (tap)* roots.`
       title: `Drag and drop to match parts and their food`,
       id: 'match-drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Roots → *Carrot*
 Flowers → *Cauliflower*
 Fruits → *Mango*
@@ -163,10 +154,7 @@ The design made by the veins in a leaf is called the leaf *venation (veination)*
       type: 'matchByDragDrop',
       id: 'match-drag-drop-4',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Leaves are attached to the stem by a structure called *petiole*. 
 The broad green part of the leaf is called *lamina*. 
 The lines on a leaf are called *veins*. 

@@ -178,11 +178,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'riddles',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `बिन खाए, बिन पिए, सबके घर में रहता हूं । ना खाता हूं, ना रोता हूं, घर की रखवाली करता हूं । *ताला* 

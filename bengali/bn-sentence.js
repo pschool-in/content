@@ -81,12 +81,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'bn-singpru',
       commonData: {
-        isPractice: false,
-        title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        }
+        title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন'
       },
       data: [
         `*তোমরা* সবাই মিলে কোথায় যাচ্ছো ?
@@ -270,12 +265,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'bn-antonym-sentence',
       data: {
-        isPractice: false,
         title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
-        styles: {
-          fontSize: '1.1 rem',
-          dashWidth: 80
-        },
+        fontSize: '1.1rem',
         text: `অমিত একজন *ছেলে *। রিয়া একটি মেয়ে। অমিত এবং রিয়া বন্ধু।
 রিয়া গরীব কিন্তু অমিত খুব *ধনী *          
 রিয়ার বাড়ি কাঁচা, কিন্তু অমিতের বাড়ি *পাকা *।          

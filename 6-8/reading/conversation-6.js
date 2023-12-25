@@ -92,7 +92,7 @@ export default {
             type: 'html',
             text: `<b>Reem</b>: Hey, I've been meaning to talk to you about something. I feel like there's been some tension between us lately, and I want to resolve it.<br>
 <b>Sarah</b>: Yeah, I've noticed that too. I think I might have said something that upset you, but I'm not sure what it was.<br>
-<b>Reem</b>: It's possible. I felt hurt when you canceled our plans last week without much explanation. I was really looking forward to spending time together.<br>
+<b>Reem</b>: It's possible. I felt hurt when you cancelled our plans last week without much explanation. I was really looking forward to spending time together.<br>
 <b>Sarah</b>: I'm really sorry about that. I had an unexpected family emergency, and I didn't know how to bring it up. I should have communicated better.<br>
 <b>Reem</b>: Thanks for letting me know. I wish you had told me earlier, but I understand that emergencies happen. I just felt ignored and thought you didn't value our friendship.<br>
 <b>Sarah</b>: I can see why you felt that way, and I regret not being upfront with you. I do value our friendship a lot, and I'll try my best to communicate better in the future.<br>

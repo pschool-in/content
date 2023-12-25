@@ -114,11 +114,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'one-word-sub',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `मास में एक बार आने वाला - *मासिक*

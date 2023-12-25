@@ -56,12 +56,7 @@ Mayor is the head of municipality.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Municipality* is a form of local government in a small town where 50,000 to 1,00,000 people live.
 The head of the municipality is called the *President*.
 The chairperson of the corporation is called *Mayor*.

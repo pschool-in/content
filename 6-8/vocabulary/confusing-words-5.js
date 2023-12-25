@@ -85,7 +85,7 @@ The tropical *isle* was known for its beautiful beaches.
 Please make way for others in the narrow *aisle* of the airplane.
 The cruise ship docked at a picturesque *isle* in the Caribbean.
 She walked down the *aisle* in a beautiful wedding gown.
-The small, uninhabited *isle* was a haven for wildlife.
+The small, uninhabited *isle* was a heaven for wildlife.
 The flight attendant pushed the cart down the narrow airplane *aisle*.
 The medieval castle was located on a remote *isle* in the middle of the lake.
 I'll meet you in the bookstore's fiction *aisle*.
@@ -105,7 +105,6 @@ Are you *all ready* for the presentation?
 The guests are *already* arriving for the party.
 We are *all ready* to leave for the trip.
 She's *already* left for the airport.
-Is everyone *all ready* for the team meeting?
 The movie has *already* started; we're late!
 We are *all ready* to face any challenges.
 He has *already* booked his flight for the vacation.

@@ -313,10 +313,6 @@ Innovative × Unimaginative`
               options: 'resembling, contrasting, ignoring'
             },
             {
-              qText: 'She will return in *a matter of moments*.',
-              options: 'seconds, hours, days'
-            },
-            {
               qText:
                 "He's been studying this subject *for an extended fortnight*.",
               options: 'two weeks, months, years'
@@ -360,7 +356,7 @@ Innovative × Unimaginative`
         {
           questions: [
             {
-              qText: "The scientist's theory is highly intricate.",
+              qText: "The scientist's theory is *highly intricate*.",
               options: 'complex, complicated, elaborate'
             },
             {
@@ -476,7 +472,7 @@ lack of knowledge or expertise`
             },
             {
               qText:
-                "The candidate's persistence throughout the campaign impressed many voters.",
+                "The candidate's *persistence* throughout the campaign impressed many voters.",
               options: `continued determination and effort 
 frequent changes in direction`
             },
@@ -492,7 +488,7 @@ lack of clear expression or articulation`
 lack of interest or enthusiasm`
             },
             {
-              qText: `The film's ambiguity left viewers debating its meaning for days.`,
+              qText: `The film's *ambiguity* left viewers debating its meaning for days.`,
               options: `uncertainty or vagueness in interpretation 
 clear and unequivocal meaning`
             }

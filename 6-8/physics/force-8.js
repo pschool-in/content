@@ -120,10 +120,6 @@ Gravity is not a property of the earth alone. Every object in the universe, whet
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        },
         text: `The strength of a force is usually expressed by its *magnitude*. The effect of more than one force acting on an object depends on its *net force*. A rolling ball comes to rest due to *friction*. Leaves fall from the tree due to *gravity*. Muscular force is an example for *contact* force and magnetic force is an example for *non-contact* force.`
       }
     },

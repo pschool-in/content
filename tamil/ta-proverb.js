@@ -180,12 +180,9 @@ export default {
       type: 'matchByDragDrop',
       id: 'proverbs1',
       commonData: {
-        isPractice: false,
         title: 'பொருத்தமான விடையை கண்டுபிடி',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        }
+        fontSize: '1rem',
+        dashWidth: 60
       },
       data: [
         `ஏட்டுச் சுரைக்காய் *கறிக்கு* உதவாது.

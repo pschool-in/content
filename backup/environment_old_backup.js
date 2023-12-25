@@ -1496,7 +1496,6 @@ New Delhi is India's capital. Rajasthan is India's largest state in terms of lan
       type: 'matchByDragDrop',
       id: 'gettingtoknowindiafilldrag-1',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',
@@ -1528,7 +1527,6 @@ Union territories, Eight`,
       type: 'matchByDragDrop',
       id: 'gettingtoknowindiafilldrag-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
         styles: {
           fontSize: '1.3rem',

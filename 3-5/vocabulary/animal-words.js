@@ -137,12 +137,8 @@ wolf, pack`
       label: 'Collective Nouns',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the collective nouns at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        },
+        fontSize: '1rem',
         text: `a *herd* of cattle
 a *flock* of birds
 a *school* of fish

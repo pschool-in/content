@@ -175,12 +175,8 @@ Learning about early humans is not important.`
       id: 'fillup-2',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Numismatics* is the study and collecting of coins.
 *Museum* is a place where archaeological objects are preserved.
 *Excavation* is the process of digging ground and discovering the things used by our ancestors.

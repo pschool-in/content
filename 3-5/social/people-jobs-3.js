@@ -14,18 +14,15 @@ export default {
       data: [
         {
           audioOffset: 0,
-          text:
-            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
+          text: 'axe, balance, blackboard, hose, microscope, needle, oven, plier'
         },
         {
           audioOffset: 16,
-          text:
-            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer'
+          text: 'plough, saw, spade, stethoscope, telescope, test-tube, thermometer'
         },
         {
           audioOffset: 30,
-          text:
-            'trowel, walkie-talkie|walkie talkie, awl, compass, easel, hacksaw, scalpel'
+          text: 'trowel, walkie-talkie|walkie talkie, awl, compass, easel, hacksaw, scalpel'
         }
       ]
     },
@@ -78,13 +75,11 @@ scalpel | Scalpel`
       data: [
         {
           audioOffset: 0,
-          text:
-            'axe, balance, blackboard, hose, microscope, needle, oven, plier'
+          text: 'axe, balance, blackboard, hose, microscope, needle, oven, plier'
         },
         {
           audioOffset: 16,
-          text:
-            'plough, saw, spade, stethoscope, telescope, test-tube, thermometer'
+          text: 'plough, saw, spade, stethoscope, telescope, test-tube, thermometer'
         },
         {
           audioOffset: 30,
@@ -162,10 +157,7 @@ fire-engine,  hose`
       lockAfter: 1,
       commonData: {
         title: 'Match the given words at the right blanks.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `I look after sick people in the hospital, I am a *nurse*.
@@ -360,12 +352,8 @@ A plumber helps to repair vehicles.`
       type: 'matchByDragDrop',
       id: 'drag-and-drop',
       commonData: {
-        isPractice: false,
         title: 'Drag the correct option in each blank to form an alliteration.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `A *teacher* works in schools.

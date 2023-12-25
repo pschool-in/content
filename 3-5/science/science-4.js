@@ -4,11 +4,7 @@ export default {
   list: [
     {
       data: {
-        isPractice: false,
-        styles: {
-          dashWidth: 70,
-          fontSize: '1rem'
-        },
+        fontSize: '1rem',
         text: `Shivaji assumed the title of *chhatrapati*in 1647.
   Akbar started a new religion called *Din-i-ilahi*
   Maharana Pratap was a *great* king.
@@ -139,16 +135,13 @@ Moving air is called ,wind`,
     },
     {
       data: {
-        isPractice: false,
-        styles: {
-          dashWidth: 70,
-          fontSize: '1rem'
-        },
+        dashWidth: 70,
+        fontSize: '1rem',
         text: `The quantity of liquid that a container can hold is called its *volume*.
 Pie chart is used to compare *data*
 2/3 of year in months = *8 months*
 It is day or night at 2:00 am? *Night*
-The *Perimeter* of figure is sum of length of its side.
+The *perimeter* of figure is sum of length of its side.
 1/2,1/4,1/5 are called *improper*fraction
 How many 250g are there in 1 kg *4*
 What is the area of rectangle that covers 10 unit square *10*`,

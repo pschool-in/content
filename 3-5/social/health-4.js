@@ -88,12 +88,7 @@ We should directly bandage an open wound without cleaning it.`
       type: 'matchByDragDrop',
       id: 'drag-drop ',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Some illnesses are cured *quickly*. But, some do not get *cured* easily.
 Minor illnesses can be cured with *home remedies*. 
 Experienced, *elderly* people in the family know of such home remedies.
@@ -155,8 +150,7 @@ In case of a fracture, just rest at home. There is no need to visit a doctor.`
       type: 'sorting',
       data: {
         title: 'Arrange in order the steps in treating a wound.',
-        text:
-          'wash with clean water, dab it dry, apply tincture of iodine, cover with clean cotton, bandage the wound'
+        text: 'wash with clean water, dab it dry, apply tincture of iodine, cover with clean cotton, bandage the wound'
       },
       id: 'first-aid'
     }

@@ -121,11 +121,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'right-word',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `ചെങ്കോട്ട - *ഡൽഹി*
@@ -259,11 +255,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'indias-first',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `ഇന്ത്യയുടെ ആദ്യ രാഷ്ട്രപതി - *ഡോ. രാജേന്ദ്ര പ്രസാദ്*
@@ -286,11 +278,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'nationalofindia',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `ഇന്ത്യയുടെ ദേശീയ പക്ഷി - *മയിൽ*

@@ -137,7 +137,7 @@ The rent payment is *due* on the first of the month.
 Please *do* your best on the exam.
 Her success is *due* to hard work and determination.
 I don't know what to *do* with all these extra clothes.
-The event was canceled *due* to bad weather.
+The event was cancelled *due* to bad weather.
 We have a lot of work to *do* before the deadline.
 The package is *due* to arrive tomorrow.`,
         options: 'do, due'
@@ -235,7 +235,7 @@ She's been *lightening* her hair with highlights.
 The loud boom of *lightning* startled everyone.
 Her goal is *lightening* the mood with her jokes.
 I saw a beautiful bolt of *lightning* during the storm.
-The weather forecast predicts *lightening* and thunder.
+The weather forecast predicts *lightning* and thunder.
 *Lightning (Lightening)* can be a spectacular natural phenomenon.
 He is *lightening* the load by removing unnecessary items.
 *Lightning (Lightening)* is often followed by thunder in a storm.

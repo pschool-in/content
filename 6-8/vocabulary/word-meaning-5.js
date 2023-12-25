@@ -454,7 +454,7 @@ The manager needed to <i><b>clarify</b></i> the company's new policy for the emp
                 type: 'html',
                 text: `Eg: <br><br>
 "To Kill a Mockingbird" is considered a <i><b>classic</b></i> novel of American literature.<br><br>
-Classic cars from the 1950s are highly sought after by collectors.`
+<i><b>Classic</b></i> cars from the 1950s are highly sought after by collectors.`
               }
             ],
             [
@@ -714,7 +714,8 @@ At the end of the trial, the judge will <i><b>conclude</b></i> the proceedings.`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `The scientist's measurements were highly *accurate*, with minimal margin for error.
@@ -1480,7 +1481,8 @@ Overcoming personal <i><b>hardship</b></i> often leads to personal growth.`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `The similar-sounding words can easily *confuse* new language learners.

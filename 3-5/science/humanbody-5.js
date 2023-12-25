@@ -24,10 +24,6 @@ export default {
       type: 'matchByDragDrop',
       id: 'digestion',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The process of digestion *begins* as soon as food is taken into the mouth.
 The teeth, tongue and *saliva* all help to convert food into a soft moist ball called a *bolus*.
 The bolus passes through the *esophagus* into the stomach.
@@ -41,10 +37,6 @@ The digestive *juices* in the stomach bring about some digestive processes.`
       type: 'matchByDragDrop',
       id: 'small-intestine',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The food changes into a thin *slurry* in the stomach. 
 Then it passes into the *small* intestine.
 The small intestine of an adult is about *7* meters long. 
@@ -58,10 +50,6 @@ The remaining substances pass into the *large* intestine.`
       type: 'matchByDragDrop',
       id: 'large-intestine',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The large intestine of an adult is about *one* and a half meters long. 
 Here, much of the *water* in the remaining substances is absorbed into the body.
 The *feces* collect in the rectum for some time. 
@@ -73,10 +61,6 @@ Later, they are expelled from the body through the *anus*.`
       type: 'matchByDragDrop',
       id: 'ailmentry-canal',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Digestion* takes place in different parts of a long and flexible tube called the *alimentary* canal. 
 The upper end of this tube is the *mouth* and the lower end is called the *anus*.
 The *shape* of this tube is not the same in all its parts.`
@@ -87,10 +71,6 @@ The *shape* of this tube is not the same in all its parts.`
       type: 'matchByDragDrop',
       id: 'respiration',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `When we inhale, the air from outside goes into the trachea and through its branches, into the *lungs*.
 In the lungs, these *branches* divide further into smaller and smaller branches. 
 At the end of the last branches, there are air sacs or *alveoli*.
@@ -104,10 +84,6 @@ When the diaphragm moves *upwards*, air in the lungs is pushed out.`
       type: 'matchByDragDrop',
       id: 'gases',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `When the outside air reaches the alveoli, the *oxygen* in it passes into the thin *blood* vessels.
 The *carbon dioxide* that is brought by the blood from all parts of the body enters the *air* in the alveoli. 
 When we *exhale*, the carbon dioxide is also given out with the air.`
@@ -118,10 +94,6 @@ When we *exhale*, the carbon dioxide is also given out with the air.`
       type: 'matchByDragDrop',
       id: 'nervous-system',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `There is a *network* that connects the brain with all the different parts of the body. 
 This is a network of *nerves* that carry messages to and fro between the brain and the parts of the body.
 The brain and the network of nerves are together called the *nervous* system. 
@@ -330,12 +302,7 @@ Heart has 5 chambers.`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Salivary glands secrete *saliva* which moistens food. 
 Saliva contains enzymes that break down complex molecules into *simple* molecules. 
 Pancreas produces *pancreatic* juice which contains digestive enzymes for digesting *fats*, proteins and carbohydrates.
@@ -347,12 +314,7 @@ Liver produces *bile* for the digestion of fat.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `There are some organisms which *live* in the digestive systems of animals.  
 *Tape worm* lives in the human intestine.
 The three pairs of salivary glands parotid,*sublingual* and submandibular gland secrete *1.5* litres of saliva every day.`
@@ -372,12 +334,7 @@ The three pairs of salivary glands parotid,*sublingual* and submandibular gland 
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The heart is a *hollow*, muscular organ.
 The heart is covered with a double-walled membrane called *pericardium*. 
 The space between the membranes is filled with *pericardial* fluid.
@@ -390,12 +347,7 @@ The heart is divided into *four* chambers. `
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: ` Two upper chambers are called *atria*. 
 Two lower chambers are called *ventricles*. 
 The chambers of the heart are separated by *auriculo-ventricular* septum of the heart. 
@@ -408,12 +360,7 @@ The left side of the heart receives *oxygenated* blood. `
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The kidneys filter the *blood* to remove waste and produce *urine*. 
 The kidneys are a pair of dark red, *bean* shaped organs. 
 *Right* kidney is slightly *lower* than the left kidney. 
@@ -427,12 +374,7 @@ Nephrons are the structural and *functional* units of the kidneys.`
       type: 'matchByDragDrop',
       id: 'drag-drop-6',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `It is sac-like in shape and acts as a temporary storage organ of *urine*. 
 Urine entering the urinary bladder from the ureters fills the *bladder*.
 Urine is expelled from the body through the *urethra*.
@@ -444,12 +386,7 @@ Every minute, kidneys receive approximately *1.250* litre of blood.`
       type: 'matchByDragDrop',
       id: 'drag-drop-7',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The *fore brain* consists of cerebrum, thalamus and hypothalamus.
 Fore brain is the center of human *memory*.
 Fore brain is responsible for intelligence, *imagination* and reasoning.
@@ -462,12 +399,7 @@ Fore brain is responsible for intelligence, *imagination* and reasoning.
       type: 'matchByDragDrop',
       id: 'drag-drp-8',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Peripheral nervous system consists of nerves extending from the *spinal cord* to all parts of the body. 
 Somatic nervous system carries *sensations* from the organs to the brain. 
 Somatic nervous system takes *messages* from the brain to the organs for movements. 

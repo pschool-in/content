@@ -132,10 +132,8 @@ a ______ of keys | bunch`
       lockAfter: 1,
       commonData: {
         title: 'Drag and drop the collective nouns at proper places.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `A *herd* of cattle
@@ -232,10 +230,8 @@ Do you know that the *camel* is known as the *ship* of the *desert*? This is bec
       commonData: {
         title:
           'Drag and drop words, so that nouns of the same group are together.',
-        styles: {
-          fontSize: '1.5rem',
-          dashWidth: 70
-        }
+        fontSize: '1.5rem',
+        dashWidth: 70
       },
       data: [
         `anger, fight, *argument*

@@ -310,9 +310,19 @@ export default {
       grade: '6-8'
     },
     {
+      label: 'Quick Math - 7',
+      id: 'quick-math-7',
+      grade: '6-8'
+    },
+    {
       label: 'Percentage',
       id: 'percentage',
       grade: '4-6'
+    },
+    {
+      label: 'Percentage - 7',
+      id: 'percent-7',
+      grade: '6-8'
     },
     {
       label: 'Ratio',
@@ -324,7 +334,11 @@ export default {
       id: 'ratio-7',
       grade: '6-8'
     },
-
+    {
+      label: 'Ratio (Class 7)',
+      id: 'proportion-7',
+      grade: '6-8'
+    },
     {
       label: 'Unit Rate',
       id: 'unit-rate',
@@ -359,6 +373,11 @@ export default {
       label: 'Area and Perimeter - 2',
       id: 'area-perimeter-2',
       grade: '5-8'
+    },
+    {
+      label: 'Area and Perimeter - 7',
+      id: 'area-perimeter-7',
+      grade: '6-8'
     },
     {
       label: 'Triangle and Properties',

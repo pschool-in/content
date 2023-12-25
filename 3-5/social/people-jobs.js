@@ -51,12 +51,9 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop to match People and Jobs.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: `A *fireman* puts out fire.
           A *butcher* cuts meat and sell.
           A *policeman* prevents crime.
@@ -70,12 +67,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drad-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop to match People and workplace.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Doctor → *Hospital* 
   Teacher → *School* 
  Cashier → *Bank* 
@@ -89,12 +82,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop to match People and the tools they use.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Doctor → *Stethoscope* 
   Painter → *Brush* 
  Fisherman → *Net*  

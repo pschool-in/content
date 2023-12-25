@@ -494,9 +494,7 @@ When two objects touch each other, a special type of force develops between them
       type: 'matchByDragDrop',
       id: '3-water-ice-vapor',
       data: {
-        styles: {
-          dashWidth: 60
-        },
+        dashWidth: 60,
         text: `If you *heat* water to a temperature of *100 °C*, it *evaporates* to form water vapour.
 If you *cool* water to a temparature of *0 °C*, it *freezes* to form ice.`
       }

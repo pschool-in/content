@@ -1,6 +1,7 @@
 export default {
   label: 'Percentage - 7',
   id: 'percent-7',
+  video: 'https://youtu.be/wgc2jYQGqaA',
   list: [
     {
       type: 'numberInput',
@@ -210,7 +211,7 @@ Percentage = ??0/??1 × 100 %
     },
     {
       type: 'numberInput',
-      id: 'word-prob',
+      id: 'word-prob-2',
       label: 'x % of y',
       commonData: {
         title: 'Answer the following',
@@ -383,7 +384,7 @@ Percentage = ??0/??1 × 100 %
     },
     {
       type: 'numberInput',
-      id: 'word-prob-2',
+      id: 'word-prob-3',
       label: 'Answer the following -2',
       //M7 Exercise 9.2
       commonData: {

@@ -158,10 +158,8 @@ Both my *parents* were born in March.`
       commonData: {
         title:
           'Drag and drop words, so that nouns of the same group are together.',
-        styles: {
-          fontSize: '1.5rem',
-          dashWidth: 70
-        }
+        fontSize: '1.5rem',
+        dashWidth: 70
       },
       data: [
         `week, month, *year*

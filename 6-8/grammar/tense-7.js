@@ -240,10 +240,7 @@ Babar has founded the Mughal Empire.`
       commonData: {
         title:
           'Read the sentences and fill in the blanks with the correct form of the past tense.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `I *went* to the store yesterday.
@@ -314,10 +311,7 @@ By the end of the month, <i>I will have worked</i> here for 5 years.`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `I *shall reach* the station before the train leaves.
 The log of wood *will break* and they will fall into the ditch.
 The gardener *will be* watering the plants at noon.
@@ -333,10 +327,7 @@ You *will* find her crying bitterly.`
       commonData: {
         title:
           'Read the sentences and fill in the blanks with the correct form of tense.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `Vignesh *left (leave)*  his native village yesterday. 

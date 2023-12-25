@@ -595,7 +595,8 @@ export default {
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         `The forest was so *dense* that it was difficult to see through.
@@ -1360,7 +1361,8 @@ Characterized by enmity or ill will | HOSTILE`
       lockAfter: 1,
       commonData: {
         title:
-          'Drag the correct option in each blank to form meaningfull sentences.'
+          'Drag the correct option in each blank to form meaningfull sentences.',
+        fontSize: '1rem'
       },
       data: [
         ` Safety is the top *priority* in any workplace.

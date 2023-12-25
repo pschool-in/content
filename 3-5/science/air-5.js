@@ -326,10 +326,8 @@ ___________ is the day-to-day conditions of the atmosphere.|WEATHER| W__T_E_`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `*Climate* is the average weather for a given period.
 *Solar radiation* is the heat energy from the sun.
 *Meteorology* is the study of weather.
@@ -365,10 +363,8 @@ Monsoon winds move in the same direction throughout the year with the rotation o
       type: 'matchByDragDrop',
       id: 'drag-drop-4',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `*Barometer* is used to measure pressure.
 *Wind vane* is used to measure the direction of wind. 
 *Anemometer* is used to measure the speed of wind. `
@@ -379,10 +375,8 @@ Monsoon winds move in the same direction throughout the year with the rotation o
       type: 'matchByDragDrop',
       id: 'drag-drop-5',
       data: {
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
+        dashWidth: 80,
         text: `Technique of collection and storage of rainwater is called *Rain water harvesting*
 The zone between the Tropic of Cancer and the Tropic of Capricorn is called *Torrid zone*
 The area that receives slanting rays of the sun is called *Temperate zone*

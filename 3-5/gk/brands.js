@@ -121,10 +121,8 @@ Facebook, Social Media Platform`
       commonData: {
         title: 'Drag and drop to match Brands and Slogans.',
         printTitle: 'Pick the brand to match the slogon.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        fontSize: '1.2rem',
+        dashWidth: 80
       },
       data: [
         `*Amul* − The Taste of India

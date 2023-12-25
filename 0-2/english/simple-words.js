@@ -122,7 +122,7 @@ export default {
         'rat | art , fly, bed, fox, hat, jug, big, map, red, run, dim | mid,',
         'man, cow, may | yam, sad, bag, met, men, the, and, hug, war | raw, ',
         'pig, she, bit, let, son, hen, day, cap, sit, one',
-        'joy, hit, cat, mat, two, cry, old, sun, bad, hut',
+        'joy, hit, cat | act, mat, two, cry, old, sun, bad, hut',
         'tin, try, use | sue, van, oil, bun, few, nut, has | ash, jar',
         'dig, him, ice, jam, jet, ran, fan, fat, dry, dip',
         'aim, spy, you, pin, her, pen, axe, set, key, sin',

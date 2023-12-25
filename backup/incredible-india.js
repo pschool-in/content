@@ -41,12 +41,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The capital of Gujarat is *Gandhinagar*.
   Jaipur is known as *Pink City*.
   Giddha is famous dance form of *Punjab*.
@@ -71,12 +67,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Largest salt lake - *Chilika* Lake
   Capital of Punjab and Haryana - *Chandigarh*
   Coastline stretching upto 482 km - *Odisha*

@@ -36,10 +36,7 @@ In knitting, a single yarn is used to make a piece of fabric. Socks and many oth
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Fabrics are made from *yarns*, which in turn are made from *fibres*.
 Cotton, wool, silk and jute are some *natural* fibers. 
 Nylon and polyester are some examples of *synthetic* fibers.
@@ -146,10 +143,7 @@ Polyester is a natural fiber.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The process of making yarn from fibers is called: *spinning*
 The process of arranging two sets of yarns together to make a fabric is called: *weaving*
 The process of removing seed from cotton is called: *ginning*

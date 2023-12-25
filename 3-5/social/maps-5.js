@@ -153,12 +153,7 @@ Physical maps can be utilised in military operations, tourism, mountaineering ro
       type: 'matchByDragDrop',
       id: 'landformsfilldrag',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Contour line* method shows the unevenness of landfroms.
 Conventional *symbols* are miniature signs of temples, mosques etc.
 In modern method, *computers* are used to convey data from man-made satellites.

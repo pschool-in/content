@@ -124,10 +124,8 @@ very careful, cautious`
       type: 'matchByDragDrop',
       id: '3-water-ice-vapor',
       commonData: {
-        styles: {
-          dashWidth: 100,
-          fontSize: '1rem'
-        }
+        dashWidth: 100,
+        fontSize: '1rem'
       },
       data: [
         `*Pediatrician* - Takes care of babies and children.

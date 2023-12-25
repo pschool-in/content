@@ -261,10 +261,8 @@ Later, she picked up Thumbelina and hopped back into the wetlands.`
       lockAfter: 1,
       commonData: {
         title: 'Put the adjectives given in the bottom at the right place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem',
+        dashWidth: 70
       },
       data: [
         `An ostrich lays the *biggest* eggs!

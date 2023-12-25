@@ -329,11 +329,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'riddles',
       commonData: {
-        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.'
       },
       data: [
         `ഞെട്ടില്ല വട്ടേല? - *പപ്പടം* 

@@ -141,19 +141,15 @@ export default {
 ஞாயிற்றுக்கிழமை எங்களுடன் வருகிறீர்களா?`
       ]
     },
-   
-   
+
     {
       id: '100',
       label: 'குறிப்புகளைக் கொண்டு கண்டுபிடி ',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'குறிப்புகளைக் கொண்டு கண்டுபிடி ',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: `மணக்கும் எழுத்து : *பூ* 
 அரசரும், அமைச்சர்களும் கூடும் இடம் : *அரசவை* 
 நிலவும், விண்மீன்களும் வானில் தெரியும் நேரம்: *இரவு* 
@@ -166,12 +162,9 @@ export default {
       label: 'நிரப்புக ',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'நிரப்புக ',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: `வணிகர் *அரபு* நாட்டைச் சேர்ந்தவர். 
 உழவர், வணிகர் இருவரின் வழக்கை எதிர்கொண்டவர் *மரியாதை ராமன்* 
 திருமண ஊர்வலத்தில் *யானை* இறந்து விட்டது. 
@@ -183,9 +176,9 @@ export default {
       type: 'matchByDragDrop',
       id: 'my-pet',
       data: {
-        isPractice: false,
         title: 'நிரப்புக',
-        styles: { fontSize: '1rem', dashWidth: 70 },
+        fontSize: '1rem',
+        dashWidth: 70,
         text: `நான் ஒரு *நாய்* வளர்த்தேன். அதன் பெயர் மணி. அதன் *நிறம்* வெள்ளை. மணி என்னை கண்டவுடன் *வாலை* ஆட்டும். பிறரைக் கண்டால் லொள் லொள் என *குலைக்கும்*. மணி பாலை விரும்பிக் *குடிக்கும்*. நான் தினமும் அதனுடன் *விளையாடுவேன்*. இரவில் என் வீட்டைக் காக்கும். மணி ஒரு *நன்றியுள்ள* மிருகம். நாமும் மிருகங்களுடன் *அன்புடன்* நடந்து கொள்வோம்.`
       }
     },
@@ -194,12 +187,9 @@ export default {
       label: 'நிரப்புக : __ர்',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'நிரப்புக : __ர்',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: `உலகம் என்பதன் வேறு சொல்: *பார்* 
 திருவிழா என்றாலே இது இருக்கும் : *தேர்* 
 மக்கள் சேர்ந்து வாழுமிடம் : *ஊர்* 
@@ -211,12 +201,9 @@ export default {
       label: 'நிரப்புக : __ர் - 2',
       type: 'matchByDragDrop',
       data: {
-        isPractice: false,
         title: 'நிரப்புக : __ர்',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 60
-        },
+        fontSize: '1rem',
+        dashWidth: 60,
         text: ` நீர் விட்டுத் தயிர் கடைந்தால்: *மோர்* 
 மரம், செடி, கொடி மண்ணில் ஊன்றி நிற்க உதவும்: *வேர்* 
 மன்னர்கள் தம் நாட்டின் எல்லையை விரிவுபடுத்த அண்டை நாடுகளோடு செய்வது : *போர்* 

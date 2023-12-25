@@ -33,10 +33,8 @@ Study of Eyes - Ophthalmology`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       commonData: {
-        styles: {
-          dashWidth: 100,
-          fontSize: '1rem'
-        }
+        dashWidth: 100,
+        fontSize: '1rem'
       },
       data: [
         `Study of Blood : *Haematology*

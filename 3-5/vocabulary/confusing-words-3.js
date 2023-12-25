@@ -139,7 +139,7 @@ The executive *board* oversees the company's strategic planning.`,
         printTitle: 'brake vs break',
         text: `Don't forget to use the *brake* when you stop the car.
 I need a short *break* to grab some coffee.
-He had to slam on the *brakes* to avoid the accident.
+He had to slam on the *brakes (breaks)* to avoid the accident.
 After a long day of work, I like to take a relaxing *break*.
 Be careful not to *break* the fragile glassware.
 The bicycle's *brakes* need to be adjusted.

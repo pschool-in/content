@@ -370,12 +370,8 @@ export default {
       id: 'match-3',
       lockAfter: 2,
       commonData: {
-        isPractice: false,
         title: 'சரியான விடையை தேர்ந்தெடு',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        }
+        fontSize: '1rem'
       },
       data: [
         `எண்ணென்ப *ஏனை* எழுத்தென்ப இவ்விரண்டும்

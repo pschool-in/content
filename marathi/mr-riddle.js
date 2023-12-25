@@ -170,11 +170,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'riddles',
       commonData: {
-        title: 'योग्य उत्तर निवडा.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'योग्य उत्तर निवडा.'
       },
       data: [
         `पंख नाहीत मला तरीही मी हवेत उडते, हात नसूनही मी तुमच्याशी भांडते. *पतंग*

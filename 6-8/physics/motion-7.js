@@ -90,12 +90,7 @@ To study more about the speed, we can plot a graph between time and distance. Ti
       label: 'Drag and Drop',
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
-      commonData: {
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
-      },
+      commonData: {},
       data: [
         `The distance moved by an object in a unit time is called its *speed*.
 To calculate the speed we need to divide the *kilometre* covered by the *hours* travelled.

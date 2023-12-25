@@ -11,11 +11,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'right-word',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `लाल किला - *दिल्ली*
@@ -161,12 +157,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'sun-planets',
       data: {
-        isPractice: false,
         title: 'दिए गए शब्दों को सही रिक्त स्थान पर खींचें और छोड़ें।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*सूर्य*- हमें धूप देता है।
 *चन्द्रमा*- हमें रात को प्रकाश देता है।
 *बुध*- सूर्य के सबसे निकट है।
@@ -181,11 +172,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'nationalofindia',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `भारत का राष्ट्रीय पक्षी - *मोर*
@@ -209,11 +196,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'indias-first',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `भारत के प्रथम राष्ट्रपति - *डॉ राजेंद्र प्रसाद*

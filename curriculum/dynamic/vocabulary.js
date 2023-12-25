@@ -18,24 +18,34 @@ export default {
       grade: '0-2'
     },
     {
-      label: 'Connect Letters',
-      id: 'connect-letters',
-      grade: '3-5'
-    },
-    {
-      label: 'Connect Letters - 2',
-      id: 'connect-letters-2',
-      grade: '3-5'
-    },
-    {
       label: '4 Letter Words',
       id: '4-letter-words',
-      grade: '1-4'
+      grade: '1-3'
+    },
+    {
+      label: '4 Letter Words - 2',
+      id: '4-letter-words-2',
+      grade: '1-3'
     },
     {
       label: '5 Letter Words',
       id: '5-letter-words',
-      grade: '2-5'
+      grade: '1-3'
+    },
+    {
+      label: '5 Letter Words - 2',
+      id: '5-letter-words-2',
+      grade: '1-3'
+    },
+    {
+      label: '6 Letter Words',
+      id: '6-letter-words',
+      grade: '2-4'
+    },
+    {
+      label: '6 Letter Words - 2',
+      id: '6-letter-words-2',
+      grade: '2-4'
     },
     {
       label: 'Antonyms Collection 1',
@@ -83,12 +93,12 @@ export default {
       grade: '3-5'
     },
     {
-      label: 'Common Spelling',
+      label: 'Common Spelling Mistakes',
       id: 'spelling-1',
       grade: '0-2'
     },
     {
-      label: 'Common Spelling Mistakes',
+      label: 'Common Spelling Mistakes - 2',
       id: 'spelling-2',
       grade: '3-5'
     },
@@ -98,9 +108,44 @@ export default {
       grade: '3-5'
     },
     {
+      label: 'Compound Words - 2',
+      id: 'compound-word-2',
+      grade: '6-8'
+    },
+    {
+      label: 'Prefix',
+      id: 'prefix',
+      grade: '3-6'
+    },
+    {
+      label: 'Suffix',
+      id: 'suffix',
+      grade: '3-6'
+    },
+    {
       label: 'Prefix and Suffix',
       id: 'prefix-suffix',
+      grade: '4-6'
+    },
+    {
+      label: 'Crossword',
+      id: 'crossword-1',
       grade: '3-5'
+    },
+    {
+      label: 'Homonyms',
+      id: 'homonyms-8',
+      grade: '6-8'
+    },
+    {
+      label: 'Base Words',
+      id: 'base-word',
+      grade: '4-5'
+    },
+    {
+      label: 'Base Words - 2',
+      id: 'base-word-2',
+      grade: '6-8'
     },
     {
       label: 'Confusing Words',
@@ -111,6 +156,26 @@ export default {
       label: 'Confusing Words - 2',
       id: 'confusing-words-2',
       grade: '3-5'
+    },
+    {
+      label: 'Confusing Words - 3',
+      id: 'confusing-words-3',
+      grade: '4-6'
+    },
+    {
+      label: 'Confusing Words - 4',
+      id: 'confusing-words-4',
+      grade: '6-8'
+    },
+    {
+      label: 'Confusing Words - 5',
+      id: 'confusing-words-5',
+      grade: '6-8'
+    },
+    {
+      label: 'Confusing Words - 6',
+      id: 'confusing-words-6',
+      grade: '7-8'
     },
     {
       label: 'Words and Meaning',
@@ -125,7 +190,7 @@ export default {
     {
       label: 'Words and Meaning - 4',
       id: 'word-meaning-4',
-      grade: '5-7'
+      grade: '4-6'
     },
     {
       label: 'Words and Meaning - 5',
@@ -138,7 +203,7 @@ export default {
       grade: '6-8'
     },
     {
-      label: `Words and Meaning - 6 (Cont'd)`,
+      label: `Words and Meaning - 6 (2)`,
       id: 'word-meaning-6-2',
       grade: '6-8'
     },
@@ -150,16 +215,6 @@ export default {
     {
       label: 'Words and Meaning - 8',
       id: 'word-meaning-8',
-      grade: '6-8'
-    },
-    {
-      label: 'Crossword',
-      id: 'crossword-1',
-      grade: '3-5'
-    },
-    {
-      label: 'Homonyms',
-      id: 'homonyms-8',
       grade: '6-8'
     },
     {

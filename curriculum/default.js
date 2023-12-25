@@ -28,7 +28,9 @@ import math3 from '../3-5/default/math-3-sc.js';
 import math6 from '../3-5/default/math-6-sc.js';
 import science from '../3-5/default/science.js';
 import science3 from '../3-5/default/science-3-sc.js';
+import science6 from '../3-5/default/science-6-sc.js';
 import social from '../3-5/default/social.js';
+import social6 from '../3-5/default/social-6-sc.js';
 import sound from '../3-5/default/en-sound-basic.js';
 import picture from '../3-5/default/en-picture-basic.js';
 
@@ -114,7 +116,9 @@ let mainMenu = {
     sound,
     science,
     science3,
+    science6,
     social,
+    social6,
     sudoku,
     sudoku4,
     wordsearch,

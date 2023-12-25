@@ -48,10 +48,7 @@ The bone is covered by muscles. The muscles work together to move a bone. When y
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `What is the framework that gives shape to the body called? - *skeleton*
 Additional parts of the skeleton that are not as hard as the bones and can be bent - *cartilage*
 They work in pairs and help in the movement of bones - *muscles*
@@ -111,10 +108,7 @@ The cartilages are harder than the bones.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Have fins on the body - *Fish*
 Has an outer skeleton - *Cockroach*
 Is an immovable joint - *Upper jaw*
@@ -166,10 +160,7 @@ Slithers - *Snake*`
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Joints of the bones help in the *movement* of the body.
 A combination of bones and cartilage forms the *skeleton* of the body.
 The bones at the elbow are joined by a *hinge* joint.
@@ -210,10 +201,7 @@ The Gait of Animals is a book written by the ancient Greek philosopher Aristotle
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Snakes have a long *backbone*.
 Strong muscles and light bones work together to help the *birds* fly.
 *Snakes* slither on the ground by looping sideways. 
@@ -261,10 +249,7 @@ Tiny *bristles* on the underside of the body of the earthworm help in gripping t
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The body of an *earthworm* is made up of many rings joined end to end.
 The *snail* has a rounded structure it carries on its back.
 *Cockroaches* walk and climb as well as fly in the air.

@@ -8,10 +8,6 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Kharif crop: *Paddy*, Maize
 Rabi crop: Wheat, *Gram*
 Fertilizer: NPK, *Urea*
@@ -23,10 +19,6 @@ Manure: *Cow dung*, Animal excreta`
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `The same kind of plants grown and cultivated on a large scale at a place is called *crop*.
 The first step before growing crops is *preparation* of the soil.
 Damaged seeds would *float* on top of the water.
@@ -38,10 +30,6 @@ For growing a crop sufficient sunlight and *water* and *nutrients* from the soil
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
         text: `Supply of water to crops at appropriate intervals is called *irrigation*.
 *Weeding* involves the removal of unwanted and uncultivated plants called *weeds*.
 *Harvesting* is the cutting of the mature crop manually or by machines.

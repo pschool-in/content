@@ -234,12 +234,8 @@ export default {
       id: 'bn-oneword',
       lockAfter: 2,
       commonData: {
-        isPractice: false,
         title: 'শূন্যস্থান পূরণের জন্য উপযুক্ত শব্দটি রাখুন',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        }
+        fontSize: '1.3rem'
       },
       data: [
         `যা মাসে একবার হয় : *মাসিক*

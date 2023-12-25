@@ -353,12 +353,9 @@ We go near a waterhole in a forest to see *wild (domestic)* animals.`,
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+          dashWidth: 80,
         text: `Plants that grow in water are called *aquatic*.
 Only *3%* of the earth's water is fresh.
 Only *0.5%* of the fresh water is available to us.
@@ -449,12 +446,8 @@ Sugar does not dissolve in water.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Pure* water has no colour, smell or taste.
 Water is *transparent*.
 Water does not have a *shape* of its own.

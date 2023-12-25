@@ -8,11 +8,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'onewordsubstitution',
       commonData: {
-        title: 'खालील शब्दसमूहाबद्दल योग्य शब्द निवडा.',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'खालील शब्दसमूहाबद्दल योग्य शब्द निवडा.'
       },
       data: [
         `दररोज प्रसिद्ध होणारे - *दैनिक*

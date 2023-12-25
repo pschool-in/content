@@ -222,13 +222,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun2',
       data: {
-        isPractice: false,
         title:
           'दिए गए शब्दों में से सही व्यक्तिवाचक संज्ञा चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*रमेश* बाहर खेल रहा है।
 *धोनी* क्रिकेट खेलते हैं।
 मैं *भारत* में रहता हूँ।
@@ -241,12 +236,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun3',
       data: {
-        isPractice: false,
         title: 'दिए गए शब्दों में से सही जातिवाचक संज्ञा चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `स्कूल में *बच्चे* पढ़ते हैं।
 बिल्ली *चूहे* खाती है।
 पेड़ों पर *पक्षी* बैठे हैं
@@ -259,12 +249,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-typesofnoun4',
       data: {
-        isPractice: false,
         title: 'दिए गए शब्दों में से सही भाववाचक संज्ञा चुनकर वाक्य पूरी करो।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `ज्यादा दोड़ने से मुझे *थकान* हो जाती है।
 लगातार परिश्रम करने से *सफलता* मिलेगी।
 तुम्हारी आवाज़ में बहुत *मिठास* है।

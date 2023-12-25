@@ -1,5 +1,5 @@
 export default {
-  label: '4 Letter Words 2',
+  label: '4 Letter Words - 2',
   id: '4-letter-words-2',
   list: [
     {

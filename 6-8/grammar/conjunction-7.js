@@ -119,10 +119,7 @@ She cared for the baby *as though* she were her mother.
       lockAfter: 1,
       commonData: {
         title: 'Fill in the blanks with the most appropriate conjunction.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `*As soon as* Deepa reached home, she called to let me know.
@@ -310,10 +307,7 @@ We can go to the park *or (nor, for)* the museum for our field trip.`
       lockAfter: 1,
       commonData: {
         title: 'Fill in the blanks with the most appropriate conjunction.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 70
-        }
+        fontSize: '1rem'
       },
       data: [
         `I want to go to the park, *but* it's raining outside.

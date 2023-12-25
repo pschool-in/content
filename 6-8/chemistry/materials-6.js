@@ -25,10 +25,7 @@ Materials are grouped together based on similarities and differences in their pr
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Metals have *lustre* while fabric is *dull*.
 Diamond is *hard* but chalk is *soft*.
 Sugar is *soluble* in water while oil is *insoluble*.

@@ -21,10 +21,7 @@ Iron structures are heated to fit them into wooden handles. Iron expands on heat
       type: 'matchByDragDrop',
       id: 'match-drag-drop-1',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `On heating iron it *expands*.
 Cold water is used to *contract* iron.
 Water turns to vapor by the process of *evaporation*.
@@ -122,10 +119,7 @@ Cooking of food is a reversible change.`
       type: 'matchByDragDrop',
       id: 'match-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Procces that can be reversed - *Reversible*
 Process that cannot be reversed - *Irreversible*
 Change in iron on heating - *Expansion*

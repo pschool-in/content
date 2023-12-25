@@ -23,12 +23,7 @@ A natural event such as an earthquake or flood that causes great damage and loss
       type: 'matchByDragDrop',
       id: 'drag-drop-1',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Rain the comes in non-rainy season is called *untimely* rain.
 *Hailstorms* can injure people as well as animals.
 Sometimes *flood* waters enter areas where people are living.
@@ -90,12 +85,7 @@ Hailstorm is a man-made disaster.`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `Overflow of large amount of water - *flood*
 Sudden violent shaking of ground - *earthquake*
 Earthquake under sea - *tsunami*
@@ -180,12 +170,7 @@ Clearing of fields to construct factories is a good practice.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `In summer, there is a *shortage* of water in many villages and cities.
 A bullock or a male buffalo is used to turn the *waterwheel*.
 *Man* is more intelligent than all other animals.

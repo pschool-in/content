@@ -195,11 +195,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'one-word-sub',
       commonData: {
-        title: 'सही उत्तर का चयन करें।',
-        styles: {
-          fontSize: '1.2rem',
-          dashWidth: 80
-        }
+        title: 'सही उत्तर का चयन करें।'
       },
       data: [
         `बोलने वाला व्यक्ति - *वक्ता*
@@ -406,12 +402,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-collectivewords-3',
       data: {
-        isPractice: false,
         title: 'सही उत्तर चुनें और रिक्त स्थानों की पूर्ति करें।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `परीक्षकों की *मडली*
 पैदल सैनिको का *दल*
 शिष्यों का *समूह*
@@ -425,12 +416,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'hi-collectivewords-4',
       data: {
-        isPractice: false,
         title: 'सही उत्तर चुनें और रिक्त स्थानों की पूर्ति करें।',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `चोरों का *गिरोह*
 बंदरो का *झुण्ड*
 कविताओं का *संग्रह*

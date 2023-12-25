@@ -170,10 +170,8 @@ Electric lamp converts electrical energy into heat energy.`
       type: 'matchByDragDrop',
       id: 'drag-drop-3',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
+        dashWidth: 80,
         text: `Mobiles and laptops run on *electrical* energy. 
 Wind mills convert *kinetic* energy of winds into electrical energy. 
 Moving body can be brought to rest using *mechanical* energy. 

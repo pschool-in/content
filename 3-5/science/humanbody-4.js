@@ -220,12 +220,7 @@ The brain is made up of three parts.
       type: 'matchByDragDrop',
       id: 'organs-1',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The *heart* keeps the blood flowing through the blood vessels spread throughout the body.
 The heart is continuously *contracting* and relaxing.
 The contractions of the heart *push* the blood from the heart into the blood vessels. `
@@ -236,12 +231,7 @@ The contractions of the heart *push* the blood from the heart into the blood ves
       type: 'matchByDragDrop',
       id: 'organs-2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The *lungs* are the organs through which the air we breathe in is supplied to the whole body. 
 The *right* lung is a little bigger than the left lung.
 The heart and the lungs are held safely in the *ribcage* in the *thoracic* cavity.
@@ -253,12 +243,7 @@ Our *brain* is a very important internal organ. It has a safe place inside the *
       type: 'matchByDragDrop',
       id: 'name-drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The cavity inside the head is called *cranial* cavity
 The cavity in the chest is called *thoracic* cavity
 The cavity in  the upper abdomen is called *abdominal* cavity
@@ -270,12 +255,7 @@ The cavity in the lower abdomen is called the *pelvic* cavity`
       type: 'matchByDragDrop',
       id: 'journey-food',
       data: {
-        isPractice: false,
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `The journey of food in our body begins in the *mouth*. 
 The internal organs in the *abdomen* help to digest it. 
 The undigested, unwanted part is passed out through the *anus* in the form of *feces*. That is where the journey *ends*.

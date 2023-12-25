@@ -40,12 +40,8 @@ export default {
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Make sure there aren’t any *cables* where people walk.
 Turn *off* electrical objects by the switch and then unplug.
 Keep water, juice, or any other types of *liquid* away from electronics.
@@ -80,12 +76,8 @@ We can leave devices charging overnight.`
       type: 'matchByDragDrop',
       id: 'drag-drop2',
       data: {
-        isPractice: false,
         title: 'Drag and drop the words at proper place.',
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Never *push* other children or cause any harm.
 Do not go too *close* to the swing when someone is using it.
 Inform your *parents* before going outdoors to play.
