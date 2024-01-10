@@ -298,43 +298,63 @@ export default {
     {
       label: 'Force & Pressure',
       id: 'force-8',
-      grade: '8'
+      grade: '7-8'
     },
     {
       label: 'Light - 8',
       id: 'light-8',
-      grade: '8'
+      grade: '7-8'
     },
     //biology
     {
       label: 'Source & Components of Food',
       id: 'food-6',
-      grade: '6'
+      grade: '6-7'
     },
     {
       label: 'Water - 6',
       id: 'water-6',
-      grade: '6'
+      grade: '6-7'
     },
     {
       label: 'Plants - 6',
       id: 'plants-6',
-      grade: '6'
+      grade: '6-7'
     },
     {
       label: 'Body movements - 6',
       id: 'body-movements-6',
-      grade: '6'
+      grade: '6-7'
     },
     {
       label: 'Living Organisms - 6',
       id: 'living-organisms-6',
-      grade: '6'
+      grade: '6-7'
     },
     {
       label: 'Garbage - 6',
       id: 'garbage-6',
-      grade: '6'
+      grade: '6-7'
+    },
+    {
+      label: 'Crop Production & Management - 8',
+      id: 'crop-8',
+      grade: '7-8'
+    },
+    {
+      label: 'Reaching the Age of Adolescence - 8',
+      id: 'adolescence-8',
+      grade: '8'
+    },
+    {
+      label: 'Micro Organism - 8',
+      id: 'microorganism-8',
+      grade: '7-8'
+    },
+    {
+      label: 'Conservation - 8',
+      id: 'conservation-8',
+      grade: '7-8'
     },
     //chemistry
     {

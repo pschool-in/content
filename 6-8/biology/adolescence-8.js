@@ -8,10 +8,7 @@ export default {
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `The onset of *puberty* brings about the growth of the reproductive organs. 
 *Hair* grows at various places on the body. 
 Breasts develop in *girls* and facial hair appears in *boys*. 
@@ -34,10 +31,13 @@ The onset of puberty and maturity of reproductive parts are controlled by *hormo
 proper diet develops their brains.
 adolescents feel hungry all the time.`
           },
+          /*
+          //Rethna : I don't think the below question is right.
           {
             qText: 'Reproductive age in women starts when their _________',
             options: `menstruation starts, breasts start developing, body weight increases.`
           },
+          */
           {
             qText: 'The right meal for adolescents consists of ___________',
             options: `chapati, dal, vegetables
@@ -75,15 +75,15 @@ Estrogen, female hormone. `,
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
-        text: `*Pituitary* gland secretes hormones which include *growth* hormone and hormones that make other glands secrete hormones.
+        fontSize: '1rem',
+        text: `*Pituitary* gland secretes hormones which include growth hormone and hormones that make other glands secrete hormones.
 *Pancreas* secretes insulin, *thyroid* produces thyroxine and *adrenals* produce adrenalin.
-*Testosterone* is the male hormone and *estrogen*, the female hormone. 
+*Testosterone* is the male hormone and *estrogen*, the female hormone. `
+        /*
+Rethna: Too big - so removed the last few
 The *uterine* wall in females prepares itself to receive the developing fertilized egg. 
-In case there is no fertilization, the thickened lining of the uterine wall breaks down and goes out of the body along with blood. This is called *menstruation*.`
+In case there is no fertilization, the thickened lining of the uterine wall breaks down and goes out of the body along with blood. This is called *menstruation*.
+*/
       }
     },
     {
@@ -100,9 +100,9 @@ Female hormone|ESTROGEN
 Male hormone|TESTOSTERONE
 Secretes thyroxine|THYROID
 Another term for teenage|ADOLESCENCE
-Hormone reaches here through blood stream|TARGET SITE|T_____ S___
 Voice box|LARYNX
 Term for changes at adolescence|PUBERTY`
+        //Hormone reaches here through blood stream|TARGET SITE|T_____ S___
       }
     }
   ]

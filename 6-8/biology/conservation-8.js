@@ -8,12 +8,9 @@ export default {
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `A place where animals are protected in their natural habitat is called *biosphere reserves*.
-Species found only in a particular area are known as *endemic species*.
+Species having restricted to small area are known as *endemic species*.
 Today, a major threat to the survival of these organisms is *deforestation*.
 The plants found in a particular area are termed *flora*.
 The animals found in a particular area are termed *fauna*.`
@@ -73,10 +70,7 @@ Reforestation, restock`,
       type: 'matchByDragDrop',
       id: 'fillup-drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `*Endemic* species are found only in a particular area.
 *Endangered* species are those which are facing the danger of *extinction*.
 *Red Data* Book contains a record of endangered species.

@@ -346,18 +346,19 @@ My grandparents live in a *brick* house.`
       label: 'Identify the adjectives',
       type: 'selectWord',
       id: 'multi-select-word',
-      commonData: {
+      data: {
         title: 'Identify the adjectives in the passage.',
         multiSelect: true,
-        isPassage: true
-      },
-      data: [
-        `Trees are found everywhere. *Some* trees are *big* and some are *small*. *Some* trees have *broad* leaves while some have *narrow* leaves. *Some* trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.`,
-
-        `My cousin, Ram has a *large* farm. On that farm, there are *many* plants and animals. The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. Ram sells *fresh* fruits and vegetables in the *big* market *every* Sunday.`,
-
-        `A shopkeeper sells *tasty* and *fresh* apples and mangoes in *different* boxes. There are *forty* mangoes in the *large* box and *fifteen* mangoes in the *small* box. He sends them to the *nearby* city through an *old* lorry.`
-      ]
+        isPassage: true,
+        text: `Trees are found everywhere. *Some* trees are *big* and some are *small*. *Some* trees have *broad* leaves while some have *narrow* leaves.
+        *Some* trees produce *sweet* fruits like mango and apple, while some give *sour* fruits like lemon.
+        My cousin, Ram has a *large* farm. On that farm, there are *many* plants and animals. 
+        The *playful* dog's name is Rocky. The *cute* kitten is called Ginger. 
+        Ram sells *fresh* fruits and vegetables in the *big* market *every* Sunday.
+        A shopkeeper sells *tasty* and *fresh* apples and mangoes in *different* boxes. 
+        There are *forty* mangoes in the *large* box and *fifteen* mangoes in the *small* box. 
+        He sends them to the *nearby* city through an *old* lorry.`
+      }
     }
   ]
 };

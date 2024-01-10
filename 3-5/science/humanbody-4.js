@@ -294,7 +294,7 @@ Lungs pump blood.`
         title: 'Click the blanks and fill it with the right word.',
         text: `The body is structured in such a way that the internal organs remain safe within the *cavities (spaces)* inside the head and the torso.
 The *esophagus (windpipe)* carries the swallowed food from the throat to the stomach.
-The heart keeps the blood flowing through the *blood vessels (veins)* spread throughout the body.
+The heart keeps the blood flowing through the *blood vessels (muscles)* spread throughout the body.
 Controlling movements, becoming aware of *emotions (movements)* and interpreting the information collected by the *sensory organs (internal organs)* are the functions of the *brain (heart)*.`
       }
     },

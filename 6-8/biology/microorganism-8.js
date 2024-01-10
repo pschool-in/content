@@ -61,10 +61,10 @@ The process of conversion of sugar into alcohol is known as *fermentation*.`
         text: `Bacterium, Measles
 Rhizobium, fix nitrogen
 Lactobacillus, set curd
-Yeat, alcohol
 Virus, AIDS
 Protozoa, Malaria
 Fungi, Wheat rust`,
+        //Yeast, alcohol
         title: 'Match the following.'
       }
     },
@@ -77,10 +77,12 @@ Fungi, Wheat rust`,
         text: `Microorganisms are too *small* and are not visible to the unaided eye.
 Microorganisms are found in air, *water* and in the *bodies* of plants and animals.
 Microorganisms include bacteria, *fungi*, protozoa and some algae. 
-*Viruses*, though different from living organisms, are considered microbes.
 Some microorganisms are useful for the commercial production of *medicines* and alcohol.
-*Protozoans* cause serious diseases like dysentery and malaria.
 Some of the microorganisms grow in our food and cause *food poisoning*.`
+        /*
+         *Viruses*, though different from living organisms, are considered microbes.
+         *Protozoans* cause serious diseases like dysentery and malaria.
+         */
       }
     },
     {
@@ -92,7 +94,8 @@ Some of the microorganisms grow in our food and cause *food poisoning*.`
 Loius Pasteur, Pasteurization
 Edward Jenner, Smallpox
 Robert Koch, Anthrax bacterium`,
-        title: 'Match the following.'
+        title: 'Match the following.',
+        fontSize: '1rem'
       }
     },
     {
@@ -100,6 +103,7 @@ Robert Koch, Anthrax bacterium`,
       id: 'organism',
       type: 'classifySentence',
       data: {
+        title: 'Classify the micro-organism',
         types: [
           {
             name: 'Bacteria',
@@ -144,14 +148,14 @@ Hepatitis A`
     },
     {
       id: 'match-3',
-      label: 'Match the following',
+      label: 'Preservatives',
       type: 'match',
       data: {
         text: `Salt, Amla
 Sugar, Jam
 Vinegar, Pickle
 Pasteurization, Milk`,
-        title: 'Match the following.'
+        title: 'Match preservatives with their products'
       }
     }
   ]

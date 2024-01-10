@@ -28,7 +28,7 @@ In addition to their milk-producing abilities, cows are also utilized for farmin
 Cows are *herbivores (carnivores)*, consuming fresh grass and vegetables.
 Cows have the ability to *adapt (live)* to different environments.
 Cow's milk is highly *nutritious (sweet)* and offers numerous health benefits.
-Male cows, known as *ox (buffalo)*, are used in agricultural activities.`
+Male cow, known as *ox (buffalo)*, is used in agricultural activities.`
       }
     },
     {

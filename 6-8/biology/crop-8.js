@@ -1,5 +1,5 @@
 export default {
-  id: 'crop-6',
+  id: 'crop-8',
   label: 'Crop Production and Management',
   lockAfter: 4,
   list: [
@@ -91,7 +91,8 @@ Separation of the grains from the chaff is called *threshing*.`
 Rabi crop, Wheat
 Chemical fertilizer, Urea
 Organic manure, Cow dung`,
-        title: 'Match the following.'
+        title: 'Match the following.',
+        fontSize: '1rem'
       }
     },
     {
@@ -110,6 +111,7 @@ Organic manure, Cow dung`,
       id: 'fertilizer-manure',
       type: 'classifySentence',
       data: {
+        title: 'Classify the below as Fertilizer or Manure.',
         types: [
           {
             name: 'Fertilizer',

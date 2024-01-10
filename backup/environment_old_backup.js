@@ -64,10 +64,7 @@ mountain, land`
       type: 'matchByDragDrop',
       id: 'drag-drop',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Living things bring changes in *non-living things* too.
 Living things need *food* to grow.
 Humans used to weave *clothes* using cotton, silk, wool.
@@ -111,10 +108,7 @@ For survival, living things take their needs from the *environment*.`
       type: 'matchByDragDrop',
       id: 'drag-drop-2',
       data: {
-        styles: {
-          fontSize: '1rem',
-          dashWidth: 80
-        },
+        fontSize: '1rem',
         text: `Crocodiles are *reptiles*.
 *Elephants* have trunk.
 *Snake* is a cold-blooded animal.
@@ -1497,10 +1491,6 @@ New Delhi is India's capital. Rajasthan is India's largest state in terms of lan
       id: 'gettingtoknowindiafilldrag-1',
       data: {
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
         text: `*Diversity* has a significant effect on our lifestyle, traditions and culture.
 Historical forts are also known as *sea forts*.
 Landforms, water bodies, forests are *geographical* features.
@@ -1528,10 +1518,7 @@ Union territories, Eight`,
       id: 'gettingtoknowindiafilldrag-2',
       data: {
         title: 'Drag and drop the given words at the right blanks.',
-        styles: {
-          fontSize: '1.3rem',
-          dashWidth: 80
-        },
+        fontSize: '1.3rem',
         text: `Largest state- *Rajasthan*
 State born in 2014- *Telangana*
 The state in which apples are grown- *Jammu and Kashmir*
