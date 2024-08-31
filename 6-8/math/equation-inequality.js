@@ -1,6 +1,7 @@
 export default {
   label: 'Equation and Inequality',
   id: 'equation-inequality',
+  lockAfter: 100,
   list: [
     {
       id: 'notes',

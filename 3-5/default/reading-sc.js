@@ -2,7 +2,7 @@ export default {
   label: 'Reading',
   id: 'reading-sc',
   img: 'reading',
-  lockAfter: 5,
+  lockAfter: 7,
   grade: '0-2',
   pdf: 'stories.pdf',
   list: [

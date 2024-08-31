@@ -2,6 +2,7 @@ export default {
   label: 'Crossword',
   id: 'ml-crossword',
   img: 'crossword',
+  lockAfter: 100,
   list: [
     {
       id: '1691555398447',

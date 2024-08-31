@@ -2,6 +2,7 @@ export default {
   label: 'సాంఘిక శాస్త్రం',
   lang: 'te',
   id: 'te-social',
+  lockAfter: 100,
   list: [
     {
       type: 'dragAndDrop',

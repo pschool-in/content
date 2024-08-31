@@ -2,7 +2,7 @@ export default {
   label: 'सामाजिक विज्ञान',
   id: 'hi-social',
   img: 'social',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

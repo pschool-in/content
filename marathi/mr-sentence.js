@@ -2,6 +2,7 @@ export default {
   label: 'वाक्य',
   id: 'mr-sentence',
   img: 'sentence',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

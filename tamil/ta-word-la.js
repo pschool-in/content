@@ -1,6 +1,7 @@
 export default {
   label: 'ல, ள, ழ வேறுபாடுகள்',
   id: 'ta-word-la',
+  lockAfter: 100,
   list: [
     {
       id: 'reading',

@@ -1,6 +1,7 @@
 export default {
   label: 'Numbers',
   id: 'ml-numbers',
+  lockAfter: 100,
   list: [
     {
       id: 'match',

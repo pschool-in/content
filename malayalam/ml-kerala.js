@@ -1,7 +1,7 @@
 export default {
   label: 'കേരളം',
   id: 'ml-kerala',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'rivers',

@@ -1,9 +1,9 @@
 export default {
   label: 'शब्द खोज',
-  lockAfter: 3,
   id: 'hi-wordsearch',
   img: 'wordsearch',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       id: 'days',

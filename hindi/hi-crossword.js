@@ -1,6 +1,6 @@
 export default {
   label: 'वर्ग पहेली',
-  lockAfter: 3,
+  lockAfter: 100,
   id: 'hi-crossword',
   img: 'crossword',
   lang: 'hi',

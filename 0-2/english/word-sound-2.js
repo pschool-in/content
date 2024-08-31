@@ -1,7 +1,7 @@
 export default {
   label: 'Fruits and Vegetables 2',
   id: 'word-sound-2',
-  lockAfter: 2,
+  // lockAfter: 2,
   list: [
     {
       id: 'reading',
@@ -13,15 +13,13 @@ export default {
           `# Fruits`,
           {
             type: 'sitewords',
-            text:
-              'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange, papaya, pineapple, watermelon, pomegranate, fig, custard-apple, plum, dates, muskmelon',
+            text: 'apple, grapes, banana, cherry, avocado, strawberry, guava, jackfruit, mango, orange, papaya, pineapple, watermelon, pomegranate, fig, custard-apple, plum, dates, muskmelon',
             width: 80
           },
           `# Vegetables`,
           {
             type: 'sitewords',
-            text:
-              'carrot, beetroot, onion, tomato, potato, cabbage, corn, cucumber, garlic, ginger, cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut, coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, radish, spinach, vegetables',
+            text: 'carrot, beetroot, onion, tomato, potato, cabbage, corn, cucumber, garlic, ginger, cauliflower, pumpkin, almond, beans, bitter gourd, brinjal, capsicum, cashewnut, chilli, coconut, coriander leaf, curry leaf, drumstick, green peas, ladies finger, mint leaf, peanut, radish, spinach, vegetables',
             width: 80
           }
         ]
@@ -53,6 +51,7 @@ export default {
       type: 'rightOne',
       label: 'Identify Vegetables',
       id: 'sound-vegetables',
+      lockAfter: 1,
       commonData: {
         title: 'Listen to the sound and click on the vegetable.',
         type: 'words',

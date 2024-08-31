@@ -2,6 +2,7 @@ export default {
   label: 'ವರ್ಣಮಾಲೆ',
   lang: 'kn',
   id: 'kn-letter',
+  lockAfter: 100,
   list: [
     {
       type: 'tracing',

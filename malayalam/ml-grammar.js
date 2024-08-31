@@ -2,7 +2,7 @@ export default {
   label: 'വ്യാകരണം',
   id: 'ml-grammar',
   img: 'langGrammar',
-  lockAfter: 3,
+  lockAfter: 100,
   list: [
     {
       id: 'ml-sandhi',

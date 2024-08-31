@@ -3,6 +3,7 @@ export default {
   id: 'hi-grammar-sc',
   img: 'langGrammar',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       label: 'शब्दों का लिंग-परिवर्तन',

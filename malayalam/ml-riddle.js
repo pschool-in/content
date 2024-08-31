@@ -1,7 +1,7 @@
 export default {
   label: 'കടങ്കഥകൾ ',
   id: 'ml-riddle',
-  lockAfter: 2,
+  lockAfter: 100,
   list: [
     {
       id: 'story',

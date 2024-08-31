@@ -3,6 +3,7 @@ export default {
   id: 'science-3-sc',
   img: 'science',
   grade: '3-5',
+  lockAfter: 100,
   list: [
     {
       id: 'water-cyle',
@@ -572,6 +573,7 @@ The sun is a ball of fire. It is very  hot.  Living  organisms  cannot  exist  o
       type: 'matchByDragDrop',
       data: {
         dashWidth: 70,
+        fontSize: '2rem',
         text: `*Sun* is the center of solar system.
 *Jupiter* is the biggest planet.
 *Saturn* has a big ring around it.

@@ -2,7 +2,7 @@ export default {
   label: 'वर्ण',
   id: 'hi-letter',
   img: 'writing',
-  lockAfter: 1,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

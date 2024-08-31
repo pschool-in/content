@@ -2,6 +2,7 @@ export default {
   label: 'Letters',
   lang: 'ml',
   id: 'ml-letter',
+  lockAfter: 100,
   list: [
     {
       type: 'tracing',

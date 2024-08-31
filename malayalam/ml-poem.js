@@ -3,6 +3,7 @@ export default {
   id: 'ml-poem',
   img: 'reading',
   lang: 'ml',
+  lockAfter: 100,
   list: [
     {
       id: '100',

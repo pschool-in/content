@@ -1,7 +1,7 @@
 export default {
   label: 'Clock & Time',
   id: 'clock-4-sc',
-  lockAfter: 3,
+  lockAfter: 100,
   img: 'clock',
   grade: '4-8',
   list: [
@@ -9,7 +9,7 @@ export default {
       type: 'clock',
       id: 'write-time',
       label: 'AM or PM',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         type: 'AMorPM'
       },
@@ -37,7 +37,7 @@ Jacob is swimming on a hot afternoon. | 2:30 | PM`
       type: 'clock',
       id: 'write-time-2',
       label: 'Word Problems - Set the clock',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         type: 'wordProblem',
         title: 'Find the answer for the below question and set the clock.'
@@ -71,14 +71,31 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
       type: 'numberInput',
       id: 'conversion',
       label: 'Convert Units',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Convert units as requested',
-        type: 'conversion',
         fontSize: '1.5rem',
-        allowFrac: true
+        answerBox: false
       },
       data: [
+        `1 ^hour = ?0 ^minutes | 60
+        3 ^hours = ?0 ^minutes | 180
+        1 ^hour = ?0 ^seconds | 3600
+        1 ^minute = ?0 ^seconds | 60
+        3 ^minutes = ?0 ^seconds | 180`,
+
+        `30 ^days = ?0 ^weeks ?1 ^days | 4, 2
+        4 ^years 1 ^month = ?0 ^months | 49
+        5 ^days 17 ^hours = ?0 ^hours | 137
+        ?0 ^hours = 120 ^minutes | 2 
+        349 ^seconds = ?0 ^minutes ?1 ^seconds | 5, 49`,
+
+        `2 ^hours 47 ^minutes = ?0 ^minutes | 167
+        4 ^hours 30 ^minutes = ?0 ^minutes | 270
+        300 ^minutes = ?0 ^hours | 5
+        300 ^seconds = ?0 ^minutes | 5
+        ?0 ^hours 20 ^minutes = 200 ^minutes | 3`
+        /*
         `1 ^hour = ?^minutes, 60
 3 ^hours = ?^minutes, 180
 1 ^hour = ?^seconds, 3600
@@ -94,6 +111,7 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
 300 ^minutes = ?^hours, 5
 300 ^seconds = ?^minutes, 5
 ?^hours 20 ^minutes = 200 ^minutes, 3`
+*/
       ]
     },
     {

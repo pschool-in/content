@@ -3,6 +3,7 @@ export default {
   id: 'mr-grammar',
   img: 'langGrammar',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       label: 'नाम',

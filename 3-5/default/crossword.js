@@ -3,6 +3,7 @@ export default {
   id: 'crossword',
   img: 'crossword',
   grade: '3-8',
+  lockAfter: 10,
   list: [
     {
       id: 'animals',
@@ -559,6 +560,7 @@ export default {
       type: 'crossword',
       label: 'Simple Crosswords',
       id: 'simple',
+      lockAfter: 2,
       data: [
         {
           words: [

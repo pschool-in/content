@@ -1,6 +1,7 @@
 export default {
   id: 'area-perimeter-2',
   label: 'Area and Perimeter',
+  lockAfter: 100,
   list: [
     {
       type: 'numberInput',

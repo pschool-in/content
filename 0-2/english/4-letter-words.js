@@ -31,7 +31,7 @@ export default {
         'star, fish, hand, bird, bath, bear, beat, wire, wise, wish, care | race',
         'able, also, area, away, baby, back, ball, band, bank, base',
         'card,  even, food, grow, hurt, list | silt | slit, neck, risk, your',
-        'bell,  evil | live, foot, hair, idea, logo, news, with, salt | last',
+        'bell,  evil | live, foot, hair, idea| aide, logo, news, with, salt | last',
         'belt, cash, deep, exit, fort, half,  long, next, rock | cork',
         'best, cell, deny, face, four, hall, join, look, nine, roof, from | form'
       ]
@@ -57,8 +57,7 @@ The warm water in the tub was perfect for a relaxing ____.|BATH
 The teddy bear hugged tightly brought comfort to the crying ____.|BABY
 As the sun set, they walked ____ to the car after a day at the beach.|BACK`,
 
-        `The magician pulled a rabbit out of his ____ .|HAT
-The rhythmic ____ of the drums echoed through the room.|BEAT
+        `The rhythmic ____ of the drums echoed through the room.|BEAT
 The Christmas ____ rang, signaling the start of the festive celebration.|BELL
 She tightened her ____ before embarking on the challenging hike.|BELT
 Their teamwork was the ____ part of the escape room challenge.|BEST`,

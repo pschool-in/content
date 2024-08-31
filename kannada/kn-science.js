@@ -2,6 +2,7 @@ export default {
   label: 'ವಿಜ್ಞಾನ',
   id: 'kn-science',
   lang: 'kn',
+  lockAfter: 100,
   list: [
     {
       id: 'parts-face',

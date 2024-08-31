@@ -140,7 +140,8 @@ export default {
         type: 'word-problem',
         title: 'Write the decimal number from the given expanded form.',
         isSentence: false,
-        fontSize: '2rem'
+        fontSize: '2rem',
+        fracFontSize: '1.2rem'
       },
       data: [
         `4 + 3/10 | 4.3

@@ -1,6 +1,7 @@
 export default {
   label: 'Lines and Angles',
   id: 'angles',
+  lockAfter: 100,
   list: [
     {
       label: 'Notes',

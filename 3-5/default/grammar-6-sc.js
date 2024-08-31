@@ -3,6 +3,7 @@ export default {
   id: 'grammar-6-sc',
   img: 'grammar',
   grade: '6-8',
+  lockAfter: 100,
   list: [
     {
       label: 'Choose Right Prefix',
@@ -251,10 +252,10 @@ My purse has been stolen.`
       },
       data: [
         `Jim wrote a letter. |  a letter was written by Jim
-Lata sings lovely songs. | lovely songs are sung by Lata`,
-        `Tom is building a house. | a house is being built by Tom
+Lata sings lovely songs. | lovely songs are sung by Lata
+Tom is building a house. | a house is being built by Tom
 They will run a race. | a race will be run by them 
-I am writing a letter. | a letter was being written by me`,
+I am writing a letter. | a letter is being written by me`,
 
         `He ate an apple. | an apple was eaten by him
 He is eating an apple. | an apple is being eaten by him

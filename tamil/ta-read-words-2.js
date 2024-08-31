@@ -1,7 +1,7 @@
 export default {
   label: 'எழுத்துக்கூட்டி படிக்கவும்  - 2',
   id: 'ta-read-words-2',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       label: 'மக்கள்',

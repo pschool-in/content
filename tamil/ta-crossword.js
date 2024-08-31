@@ -3,7 +3,7 @@ export default {
   id: 'ta-crossword',
   img: 'crossword',
   lang: 'ta',
-  lockAfter: 2,
+  lockAfter: 100,
   list: [
     {
       id: 'opposites',

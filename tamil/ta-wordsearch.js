@@ -2,7 +2,7 @@ export default {
   label: 'வார்த்தை தேடல்',
   id: 'ta-wordsearch',
   img: 'wordsearch',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

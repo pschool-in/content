@@ -2,6 +2,7 @@ export default {
   label: 'పదం',
   lang: 'te',
   id: 'te-word',
+  lockAfter: 100,
   list: [
     {
       id: 'form-words',

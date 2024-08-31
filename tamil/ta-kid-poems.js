@@ -2,7 +2,7 @@ export default {
   label: 'மழலை பாடல்கள்',
   id: 'ta-kid-poems',
   img: 'reading',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

@@ -3,7 +3,7 @@ export default {
   id: 'hi-essay-3',
   img: 'reading',
   lang: 'hi',
-  lockAfter: 3,
+  lockAfter: 100,
   list: [
     {
       id: 'pegion',

@@ -13,7 +13,7 @@ export default {
       grade: '2-4'
     },
     {
-      label: '3 Letter Words',
+      label: 'Simple Words',
       id: 'simple-words',
       grade: '0-2'
     },

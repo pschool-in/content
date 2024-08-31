@@ -2,6 +2,7 @@ export default {
   label: 'रंग',
   id: 'hi-colors',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

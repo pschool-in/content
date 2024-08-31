@@ -11,6 +11,7 @@ export default {
         type: 'custom',
         noPicker: true,
         audio: 'kg-5/shapes.mp3',
+        yGuides: [],
         source: [
           {
             id: 'circle',
@@ -238,6 +239,7 @@ CYLINDER | _YLINDER`,
       type: 'tracing',
       data: {
         type: 'custom',
+        yGuides: [20, 220],
         noPicker: true,
         audio: 'kg-5/shapes.mp3',
         source: [

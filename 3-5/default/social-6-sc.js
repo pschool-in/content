@@ -3,6 +3,7 @@ export default {
   id: 'social-6-sc',
   img: 'social',
   grade: '6-8',
+  lockAfter: 3,
   list: [
     {
       id: 'asia',

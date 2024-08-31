@@ -8,7 +8,9 @@ export default {
       label: 'Improper to Mixed',
       commonData: {
         title: 'Convert the below improper fraction to mixed fraction.',
-        type: 'improperToMixed'
+        type: 'improperToMixed',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         `3/2, 5/4, 9/2, 7/3, 4/3, 7/2, 11/5, 7/5, 8/3, 10/3`,
@@ -22,7 +24,9 @@ export default {
       label: 'Mixed to Improper',
       commonData: {
         title: 'Convert the below mixed fraction into improper fraction.',
-        type: 'mixedToImproper'
+        type: 'mixedToImproper',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         `3 1/2, 2 1/5, 1 2/5, 2 2/3, 3 1/3, 1 1/2, 1 1/4, 4 1/2, 2 1/3, 1 1/3`,
@@ -35,8 +39,10 @@ export default {
       id: 'simple-fraction',
       label: 'Simple Fraction',
       commonData: {
-        title: 'Write the fraction in the lowest term.',
-        type: 'simpleFraction'
+        title: 'Write the fraction in the simple form.',
+        type: 'simpleFraction',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         `2/6, 3/9, 2/4, 20/30, 4/8, 5/15, 11/44, 5/10, 15/20, 6/12`,
@@ -49,7 +55,9 @@ export default {
       id: 'equal-fraction',
       label: 'Equal Fractions',
       commonData: {
-        title: 'Fill in the empty boxes to form equal fractions.'
+        title: 'Fill in the empty boxes to form equal fractions.',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         {
@@ -72,7 +80,9 @@ export default {
       label: 'Fraction to Decimal',
       commonData: {
         title: 'Write the decimal equivalent of the fraction.',
-        type: 'fracToDeci'
+        type: 'fracToDeci',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         `1/2, 1/4, 1/5, 3/5, 7/10, 2/5, 3/4, 1/10, 3/10, 9/10`,
@@ -87,7 +97,9 @@ export default {
       label: 'Decimal to Fraction',
       commonData: {
         title: 'Write the fraction equivalent of the decimal number.',
-        type: 'deciToFrac'
+        type: 'deciToFrac',
+        fracFontSize: '1.4rem',
+        fontSize: '2rem'
       },
       data: [
         `0.5, 0.25, 0.2, 0.7, 0.75, 0.8, 0.4, 0.9, 0.1, 0.3`,
@@ -199,7 +211,8 @@ export default {
       label: 'Answer the word problem.',
       commonData: {
         title: 'Answer the word problem.',
-        type: 'word-problem'
+        type: 'word-problem',
+        fracFontSize: '1rem'
       },
       data: [
         `I ate 2/7 part of the pizza. How much is left? | ?0/?1 | 5, 7

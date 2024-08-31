@@ -3,6 +3,7 @@ export default {
   id: 'science-6-sc',
   img: 'science',
   grade: '6-8',
+  lockAfter: 100,
   list: [
     {
       id: 'plant-cell',

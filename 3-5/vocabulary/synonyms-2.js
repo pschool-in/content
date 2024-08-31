@@ -214,7 +214,8 @@ soon − shortly`
       commonData: {
         lang: 'en',
         title: 'Type the synonym of the given word.',
-        hintFontSize: '2rem'
+        hintFontSize: '2rem',
+        lowerCase: true
       },
       data: [
         {

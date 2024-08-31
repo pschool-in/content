@@ -2,6 +2,7 @@ export default {
   label: 'ಪದಗಳ ಹುಡುಕಾಟ',
   id: 'kn-wordsearch',
   img: 'wordsearch',
+  lockAfter: 100,
   list: [
     {
       data: {

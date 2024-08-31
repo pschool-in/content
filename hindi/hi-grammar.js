@@ -3,7 +3,7 @@ export default {
   lang: 'hi',
   id: 'hi-grammar',
   img: 'langGrammar',
-  lockAfter: 3,
+  lockAfter: 100,
   list: [
     {
       id: 'gender-hi',

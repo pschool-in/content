@@ -2,7 +2,7 @@ export default {
   label: 'वाक्य',
   id: 'hi-sentence-3',
   img: 'sentence',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

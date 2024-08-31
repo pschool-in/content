@@ -667,6 +667,7 @@ const coloring = {
   id: 'fun',
   img: 'coloring',
   grade: '0-5',
+  lockAfter: 100,
   list: [
     {
       type: 'coloring',
@@ -698,13 +699,13 @@ const coloring = {
       id: 'freehand',
       style: 'big',
       label: 'Drawing for fun',
-      data: { type: 'normal' }
+      data: { type: 'normal' /*maxHeight: 'initial' */ }
     },
     {
       type: 'freehand',
       id: 'mirror',
       label: 'Mirror Image Drawing',
-      data: { type: 'mirror' }
+      data: { type: 'mirror' /*maxHeight: 'initial' */ }
     },
     {
       id: 'shapes',
@@ -1704,7 +1705,7 @@ height: 60
       type: 'shapeSize',
       label: 'Order Shape by Size',
       id: 'size-wise',
-      lockAfter: 1,
+      lockAfter: 2,
       data: [
         [
           `M 10 10 h 112 v 112 h -112 z
@@ -1818,7 +1819,7 @@ M 89 208 L 89 187 C 47 170 80 138 60 111 Q 75 108 83 122 Q 85 110 95 102 Q 106 1
       type: 'completePattern',
       label: 'Repeat the Pattern',
       id: 'complete-pattern',
-      lockAfter: 1,
+      lockAfter: 3,
       data: [
         {
           arr: patternArr[0],
@@ -1867,7 +1868,7 @@ M 89 208 L 89 187 C 47 170 80 138 60 111 Q 75 108 83 122 Q 85 110 95 102 Q 106 1
       type: 'completePattern',
       label: 'Mirror Image of a Pattern',
       id: 'complete-pattern-2',
-      lockAfter: 1,
+      lockAfter: 3,
       data: [
         {
           arr: patternArr[0],

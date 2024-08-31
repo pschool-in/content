@@ -2,7 +2,7 @@ export default {
   label: 'அறிவியல்',
   id: 'ta-science',
   img: 'science',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

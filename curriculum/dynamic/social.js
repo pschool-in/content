@@ -196,7 +196,13 @@ export default {
       label: 'Our Emotional World',
       id: 'lifeskills-5',
       grade: '3-5'
+    },
+    {
+      label: 'Walls Tell Stories',
+      id: 'walls-tell-stories-5',
+      grade: '5'
     }
+
     /*
       {
         label: 'Nature ',

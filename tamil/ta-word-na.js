@@ -1,6 +1,7 @@
 export default {
   label: 'ந, ன, ண வேறுபாடுகள்',
   id: 'ta-word-na',
+  lockAfter: 100,
   list: [
     {
       id: 'reading',

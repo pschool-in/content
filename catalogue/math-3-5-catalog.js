@@ -117,17 +117,6 @@ Simple word problems - fill up`
       Sort the fractions in ascending and descending order.`
     },
     {
-      label: 'Fraction - 2',
-      id: 'fraction-2',
-      text: `Convert improper to mixed fraction.
-      Convert mixed to improper fraction.
-      Write the fraction in the simplest form.
-      Write the equivalent fraction.
-      Write the decimal equivalent of the fraction.
-      Write the fraction equivalent of the decimal number.
-      Simple word problems on fraction.`
-    },
-    {
       label: 'Big Numbers',
       id: 'big-num',
       text: `Write the number for the given number name.
@@ -173,6 +162,7 @@ Simple word problems - fill up`
       id: 'number-series-2',
       text: 'Complete the series by filling the missing numbers.'
     },
+
     {
       label: 'Roman Number System',
       id: 'roman-number',
@@ -182,23 +172,7 @@ Simple word problems - fill up`
       Arrange the roman numbers in ascending and descending order.
       Write the decimal equivalent of the roman number.`
     },
-    {
-      label: 'Decimal Arithmetic',
-      id: 'decimal-arithmetic',
-      text: `Simple addition of integer with decimal number.
-      Simple subtraction of decimal number from integer.
-      Multiply with 0.1, 0.01, 0.001.
-      Divide by 10, 100, 1000
-      Find the missing number in an expression.`
-    },
-    {
-      label: 'Decimal Arithmetic - 2',
-      id: 'decimal-arithmetic-2',
-      text: `Addition and subtraction - multiples of 0.25, x.x format
-      Multiply with 0.x
-      Divide by 2, 4, 5
-      Find the missing number in an expression.`
-    },
+
     {
       label: 'Percentage',
       id: 'percentage',
@@ -208,6 +182,24 @@ Simple word problems - fill up`
       Solve Format : x % of y
       Match equal values
       Fill the boxes with the correct value`
+    },
+
+    {
+      label: 'Least Common Multiple',
+      id: 'lcm',
+      text: `Find the multiples of a number.
+      Common multiples of a pair of numbers.
+      Find LCM
+      Match multiples`
+    },
+    {
+      label: 'Highest Common Factor',
+      id: 'hcf',
+      text: `Find the factors of a number.
+      Common factors of a pair of numbers.
+      Find HCF
+      LCM and HCF product rule
+      Factor Pairs`
     }
   ]
 };

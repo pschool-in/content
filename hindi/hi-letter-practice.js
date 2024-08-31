@@ -2,7 +2,7 @@ export default {
   label: 'वर्ण - 2',
   id: 'hi-letter-practice',
   img: 'writing',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

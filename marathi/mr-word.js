@@ -2,6 +2,7 @@ export default {
   label: 'शब्द',
   id: 'mr-word',
   img: 'word',
+  lockAfter: 100,
   list: [
     {
       id: '2-letter',

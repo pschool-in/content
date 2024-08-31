@@ -1,7 +1,7 @@
 export default {
   label: 'पहेलियाँ',
   id: 'hi-riddle',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

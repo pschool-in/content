@@ -3,6 +3,7 @@ export default {
   id: 'hi-grammar-3',
   img: 'langGrammar',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       id: 'homonyms-hi',

@@ -3,6 +3,7 @@ export default {
   id: 'hi-gk',
   img: 'gk',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       id: 'mcq',

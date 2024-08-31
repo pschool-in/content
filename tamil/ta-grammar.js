@@ -3,7 +3,7 @@ export default {
   id: 'ta-grammar',
   img: 'langGrammar',
   lang: 'ta',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'reading-letters',

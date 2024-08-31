@@ -2,6 +2,7 @@ export default {
   label: 'పద శోధన',
   lang: 'te',
   id: 'te-wordsearch',
+  lockAfter: 100,
   list: [
     {
       data: {

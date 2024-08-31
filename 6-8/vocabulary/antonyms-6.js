@@ -239,7 +239,8 @@ amateur × professional`
       commonData: {
         lang: 'en',
         title: 'Type the antonym of the given word.',
-        hintFontSize: '2rem'
+        hintFontSize: '2rem',
+        lowerCase: true
       },
       data: [
         {

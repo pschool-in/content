@@ -3,6 +3,7 @@ export default {
   id: 'games',
   img: 'brain',
   grade: '0-5',
+  lockAfter: 100,
   list: [
     {
       type: 'memoryFindPair',
@@ -16,9 +17,9 @@ export default {
       label: 'Four Color Game',
       data: [
         `133
-        021
-        012
-        023`,
+021
+012
+023`,
 
         ''
       ]

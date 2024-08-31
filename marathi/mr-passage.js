@@ -2,6 +2,7 @@ export default {
   label: 'वाचन',
   id: 'mr-passage',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       id: '100',

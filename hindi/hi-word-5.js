@@ -2,14 +2,14 @@ export default {
   label: 'शब्द 5',
   id: 'hi-word-5',
   img: 'word',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {
       type: 'match',
       label: 'विलोम शब्द',
       id: 'antonyms',
-      lockAfter: 2,
+      lockAfter: 5,
       commonData: {
         title: 'विलोम शब्द का मिलान करें'
       },

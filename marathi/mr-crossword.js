@@ -3,6 +3,7 @@ export default {
   id: 'mr-crossword',
   img: 'crossword',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       id: 'cw-1',

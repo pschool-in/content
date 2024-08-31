@@ -14,9 +14,6 @@ export default {
       },
       data: [
         {
-          pattern: 'xxxxx'
-        },
-        {
           pattern: 'x0 + x0'
         },
         {
@@ -44,9 +41,6 @@ export default {
         probType: 'smallest'
       },
       data: [
-        {
-          pattern: 'xxxxx'
-        },
         {
           pattern: 'x0 + x0'
         },

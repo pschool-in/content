@@ -2,7 +2,7 @@ export default {
   label: 'எழுத்து',
   id: 'ta-letter',
   img: 'writing',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'vowels-writing',

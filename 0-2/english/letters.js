@@ -10,6 +10,7 @@ export default {
       data: {
         repeatCount: 3,
         yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'A',
@@ -66,6 +67,7 @@ export default {
       id: 'write-F-J',
       data: {
         repeatCount: 3,
+        audio: 'kg-5/english.mp3',
         yGuides: [20, 120, 220, 320],
         source: [
           {
@@ -127,6 +129,7 @@ export default {
       data: {
         repeatCount: 3,
         yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'K',
@@ -184,6 +187,7 @@ export default {
       data: {
         repeatCount: 3,
         yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'P',
@@ -236,6 +240,7 @@ export default {
       data: {
         repeatCount: 3,
         yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'U',

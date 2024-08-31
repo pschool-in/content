@@ -1,7 +1,7 @@
 export default {
   label: 'எழுத்துக்கூட்டி படிக்கவும்  ',
   id: 'ta-read-words',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       label: 'விலங்குகள்',

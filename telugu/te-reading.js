@@ -2,6 +2,7 @@ export default {
   label: 'కథ',
   lang: 'te',
   id: 'te-reading',
+  lockAfter: 100,
   list: [
     {
       id: 'story-1',

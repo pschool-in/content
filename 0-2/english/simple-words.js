@@ -158,7 +158,8 @@ I'm a young human. What am I?| KID`,
         I'm an insect, tiny and black, I can give you a painful attack. What am I?|ANT
 I'm what you find on your feet and the bottom of a chair. What am I?|LEG
 I'm a tool, I turn and screw, Handy in fixing things, it's true. What am I? |NUT
-I'm a furry pet, with a wagging tail, Love to fetch, and I'll never fail. What am I?|DOG`
+I'm a furry pet, with a wagging tail, Love to fetch, and I'll never fail. What am I?|DOG
+The magician pulled a rabbit out of his ____ .|HAT`
       ]
     },
     {

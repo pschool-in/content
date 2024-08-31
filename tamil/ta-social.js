@@ -3,6 +3,7 @@ export default {
   id: 'ta-social',
   img: 'social',
   lang: 'ta',
+  lockAfter: 100,
   list: [
     {
       id: 'direction',

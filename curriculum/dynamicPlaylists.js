@@ -51,11 +51,11 @@ export default {
     }
   ],
   list: [
+    math,
     vocabulary,
     grammar,
     reading,
     english,
-    math,
     science,
     social,
     gk,

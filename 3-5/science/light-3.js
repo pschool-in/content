@@ -8,8 +8,7 @@ export default {
       label: 'Light',
       type: 'passage',
       data: {
-        text: `# Light
-Light helps us to see things around us. The sun is the natural source of light. It emits its own light. All stars are natural sources of light. When natural light is not available, we use candles, torches, bulbs, etc. These are man-made sources of light. Many objects around us do not emit light at all such as tables, chairs, paper and clothes. Objects that emit their own light are called luminous objects while those that do not emit their own light are called non-luminous objects. As the moon reflects the light of the sun, it is a non-luminous object. 
+        text: `Light helps us to see things around us. The sun is the natural source of light. It emits its own light. All stars are natural sources of light. When natural light is not available, we use candles, torches, bulbs, etc. These are man-made sources of light. Many objects around us do not emit light at all such as tables, chairs, paper and clothes. Objects that emit their own light are called luminous objects while those that do not emit their own light are called non-luminous objects. As the moon reflects the light of the sun, it is a non-luminous object. 
 We can see any object only when light falls on it and bounces off and the light is reflected back into our eyes. We cannot see anything in a dark room because there is no light.
 When light falls on objects, some objects allow light to pass through them while some do not. These are called transparent and opaque objects. Glass is transparent whereas wood is opaque.
 # Shadows

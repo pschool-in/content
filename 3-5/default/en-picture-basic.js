@@ -4,6 +4,7 @@ export default {
   lang: 'en',
   img: 'image',
   grade: '0-2',
+  lockAfter: 100,
   list: [
     {
       type: 'dragDropImgLabel',

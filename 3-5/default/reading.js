@@ -2,7 +2,7 @@ export default {
   label: 'Stories',
   id: 'reading',
   img: 'reading',
-  lockAfter: 5,
+  lockAfter: 10,
   grade: '3-8',
   pdf: 'stories.pdf',
   list: [
@@ -14,7 +14,7 @@ export default {
         title: `A Thirsty Crow`,
         displayType: 'steps',
         autoPlay: false,
-        audio: 'kg-5/reading/thirsty-crow.mp3  ',
+        audio: 'kg-5/reading/thirsty-crow.mp3',
         images: 'img/story/crow',
 
         audioOffsets: [

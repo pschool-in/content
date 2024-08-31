@@ -28,6 +28,7 @@ Similarly subtracting two like fractions is easy. We need to substract the numer
         title: 'Add the fractions',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -111,6 +112,7 @@ Similarly subtracting two like fractions is easy. We need to substract the numer
         title: 'Subtract the fraction',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -166,6 +168,7 @@ Similarly subtracting two like fractions is easy. We need to substract the numer
         title: 'Fill in the blanks',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -306,6 +309,7 @@ Similarly subtracting two like fractions is easy. We need to substract the numer
         title: 'Multiply Fractions',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [

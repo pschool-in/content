@@ -2,7 +2,7 @@ export default {
   label: 'எழுத்து',
   id: 'ta-letter-2',
   img: 'writing',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

@@ -2,7 +2,7 @@ export default {
   label: 'ശാസ്ത്രം',
   id: 'ml-science',
   img: 'science',
-  lockAfter: 3,
+  lockAfter: 100,
   list: [
     {
       id: 'parts-of-face',

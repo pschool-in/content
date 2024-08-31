@@ -2,6 +2,7 @@ export default {
   label: 'म्हणी',
   id: 'mr-proverb',
   img: 'reading',
+  lockAfter: 100,
   list: [
     {
       label: 'म्हणी',

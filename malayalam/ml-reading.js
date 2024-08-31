@@ -3,6 +3,7 @@ export default {
   id: 'ml-reading',
   img: 'reading',
   lang: 'ml',
+  lockAfter: 100,
   list: [
     {
       id: 'thirsty-crow',

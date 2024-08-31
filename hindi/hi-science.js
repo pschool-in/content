@@ -2,7 +2,7 @@ export default {
   label: 'विज्ञान',
   id: 'hi-science',
   img: 'science',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

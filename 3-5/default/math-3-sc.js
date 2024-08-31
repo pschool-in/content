@@ -1,11 +1,12 @@
 import * as Vars from './_variables.js';
 
 export default {
-  label: 'Quick Math',
+  label: 'Maths',
   id: 'math-3-sc',
   img: 'quickMath',
   grade: '3-5',
   appLink: Vars.mathApp,
+  lockAfter: 100,
   list: [
     {
       type: 'picturePuzzle',
@@ -379,7 +380,7 @@ export default {
       label: 'Find the Problem',
       type: 'numberLine',
       id: 'number-line',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'What does the below numberline represents? Fill in the blanks',
         type: 'read'

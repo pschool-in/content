@@ -1,6 +1,7 @@
 export default {
   label: 'Colors',
   id: 'ml-colors',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

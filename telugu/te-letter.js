@@ -2,6 +2,7 @@ export default {
   label: 'వర్ణమాల',
   lang: 'te',
   id: 'te-letter',
+  lockAfter: 100,
   list: [
     {
       type: 'tracing',

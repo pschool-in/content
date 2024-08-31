@@ -29,7 +29,7 @@ export default {
       data: [
         'about, write, apple, actor, again, ahead, alert | alter | later, paint, right | girth, small | malls',
         'argue, brown, cream, empty, forty, human, party, rough, solve | loves, smile | limes| miles',
-        'beach, buyer, crowd, enter, fresh, level, mount, place, scene, south',
+        'beach, buyer, crowd, enter, fresh, level, mount, place, scene, south | shout',
         'bench, carry, cycle, error, great | grate, limit, plant, sense, speak, dream | armed',
         'black, chain | china, doing, faith, group, lower | rowel, never | nerve, price, sharp | harps, sport | ports',
         'brain, clear, fiber | brief, happy, maker, noise, print, shock, stone | notes | onset | tones, month',

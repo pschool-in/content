@@ -1,7 +1,7 @@
 export default {
   label: 'मराठी कोडी',
   id: 'mr-riddle',
-  lockAfter: 2,
+  lockAfter: 100,
   list: [
     {
       id: 'story',

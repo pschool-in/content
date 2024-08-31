@@ -3,6 +3,7 @@ export default {
   id: 'vocabulary',
   img: 'vocabulary',
   grade: '0-2',
+  lockAfter: 100,
   list: [
     {
       type: 'classifySentence',
@@ -38,7 +39,7 @@ horse| This is a _____.|horse, donkey  `,
         `cap| The ____ is blue in colour.|cap, hat
 tie| This is a ___.|tie, bow
 torch| This is a _____.|torch, lamp
-chin| This is my ____.|chin, cheeck
+chin| This is my ____.|chin, cheek
 sheep| The sheep has _____ fur.|white, black
 lemon| A lemon is _____ in taste.|sour, sweet
 window| The window is ______.|open, closed
@@ -94,7 +95,7 @@ mango| Mango has _____ seed.| one, no`
         'baby, dear | read, duck, long, look, four, fish, hand, bird',
         'love, luck, made, same, star, wire, wise, blue, from | form',
         'wish, with, wood, word, year, your, nine, fast, park',
-        'book, fire, five, salt, boat, head, home, page, pain'
+        'book, fire, five, salt|last, boat, head, home, page, pain'
       ]
     },
     {

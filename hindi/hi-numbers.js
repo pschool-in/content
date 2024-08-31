@@ -2,6 +2,7 @@ export default {
   label: 'गिनती',
   id: 'hi-numbers',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       id: 'match',

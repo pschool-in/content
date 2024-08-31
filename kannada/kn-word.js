@@ -2,7 +2,7 @@ export default {
   label: 'ಪದ',
   id: 'kn-word',
   img: 'word',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     //connect letters and form word
     {

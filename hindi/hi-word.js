@@ -2,7 +2,7 @@ export default {
   label: 'शब्द',
   id: 'hi-word',
   img: 'word',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

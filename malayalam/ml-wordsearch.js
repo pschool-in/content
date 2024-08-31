@@ -2,6 +2,7 @@ export default {
   label: 'Wordsearch',
   lang: 'ml',
   id: 'ml-wordsearch',
+  lockAfter: 100,
   list: [
     {
       id: '1691384089771',

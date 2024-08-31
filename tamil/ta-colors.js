@@ -1,6 +1,7 @@
 export default {
   label: 'வண்ணங்கள்',
   id: 'ta-colors',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

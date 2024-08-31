@@ -3,6 +3,7 @@ export default {
   id: 'grammar-3-sc',
   img: 'grammar',
   grade: '3-5',
+  lockAfter: 100,
   list: [
     {
       type: 'group',

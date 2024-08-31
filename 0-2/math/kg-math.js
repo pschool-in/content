@@ -8,11 +8,14 @@ export default {
       id: 'write',
       data: {
         type: 'numbers',
+        yGuides: [20, 220],
+        audio: 'math/no-1-50.mp3',
         source: [
           {
             id: '1',
             paths: ['M 37 20 L 37 220'],
-            width: 100
+            width: 100,
+            audio: 0
           },
           {
             id: '2',
@@ -20,7 +23,8 @@ export default {
               'M 22 40 C 67 15 128 9 122 64 C 114 115 63 175 15 220 ',
               'M 15 220 L 180 220'
             ],
-            width: 200
+            width: 200,
+            audio: 2
           },
           {
             id: '3',
@@ -28,7 +32,8 @@ export default {
               'M 17 20 Q 117 20 117 70 Q 117 120 17 120 ',
               'M 17 120 Q 117 120 117 170 Q 117 220 17 220 '
             ],
-            width: 130
+            width: 130,
+            audio: 4
           },
           {
             id: '4',
@@ -37,7 +42,8 @@ export default {
               'M 15 120 L 120 120 ',
               'M 73 55 L 73 200 '
             ],
-            width: 140
+            width: 140,
+            audio: 6
           },
           {
             id: '5',
@@ -45,7 +51,8 @@ export default {
               'M 125 20 L 15 20 L 15 120 ',
               'M 15 120 C 54 77 114 81 124 129 C 140 207 72 239 14 205 '
             ],
-            width: 140
+            width: 140,
+            audio: 8
           }
         ]
       }
@@ -56,6 +63,8 @@ export default {
       id: 'write-2',
       data: {
         type: 'numbers',
+        yGuides: [20, 220],
+        audio: 'math/no-1-50.mp3',
         source: [
           {
             id: '6',
@@ -63,12 +72,14 @@ export default {
               'M 101 21 C 20 41 12 142 25 181 C 38 235 136 230 137 177 ',
               'M 137 177 C 140 149 120 86 20 123 '
             ],
-            width: 150
+            width: 150,
+            audio: 10
           },
           {
             id: '7',
             paths: ['M 15 20 L 130 20 ', 'M 130 20 L 70 220'],
-            width: 150
+            width: 150,
+            audio: 12
           },
           {
             id: '8',
@@ -76,7 +87,8 @@ export default {
               'M 80 20 C 41 20 6 55 39 104 C 52 125 83 127 98 142 C 124 160 128 219 80 220 ',
               'M 80 220 C 9 221 18 165 37 147 C 54 127 78 111 110 85 C 134 64 122 19 80 20 '
             ],
-            width: 150
+            width: 150,
+            audio: 14
           },
           {
             id: '9',
@@ -84,7 +96,8 @@ export default {
               'M 100 20 Q 15 21 15 71 Q 15 121 100 120 ',
               'M 100 20 L 100 220 '
             ],
-            width: 110
+            width: 110,
+            audio: 16
           },
           {
             id: '10',
@@ -93,7 +106,8 @@ export default {
               'M 145 21 C 245 21 245 221 145 221 ',
               'M 145 221 C 45 221 45 21 145 21 '
             ],
-            width: 230
+            width: 230,
+            audio: 18
           }
         ]
       }

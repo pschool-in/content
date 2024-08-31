@@ -73,28 +73,27 @@ The receptionist usually starts her 50-minute lunch break at 11:45 am, but today
       label: 'Convert Units',
       commonData: {
         title: 'Convert units as requested',
-        type: 'conversion',
         fontSize: '1.5rem',
-        allowFrac: true
+        answerBox: false
       },
       data: [
-        `1 ^hour = ? ^minutes, 60
-3 ^hours = ? ^minutes, 180
-1 ^hour = ? ^seconds, 3600
-1 ^minute = ? ^seconds, 60
-3 ^minutes = ? ^seconds, 180`,
+        `1 ^hour = ?0 ^minutes | 60
+        3 ^hours = ?0 ^minutes | 180
+        1 ^hour = ?0 ^seconds | 3600
+        1 ^minute = ?0 ^seconds | 60
+        3 ^minutes = ?0 ^seconds | 180`,
 
-        `30 ^days = ?^weeks ?^days, 4, 2
-4 ^years 1 ^month = ?^months, 49
-5 ^days 17 ^hours = ?^hours, 137
-? ^hours = 120 ^minutes, 2 
-349 ^seconds = ? ^minutes ? ^seconds, 5, 49`,
+        `30 ^days = ?0 ^weeks ?1 ^days | 4, 2
+        4 ^years 1 ^month = ?0 ^months | 49
+        5 ^days 17 ^hours = ?0 ^hours | 137
+        ?0 ^hours = 120 ^minutes | 2 
+        349 ^seconds = ?0 ^minutes ?1 ^seconds | 5, 49`,
 
-        `2 ^hours 47 ^minutes = ? ^minutes, 167
-4 ^hours 30 ^minutes = ? ^minutes, 270
-300 ^minutes = ? ^hours, 5
-300 ^seconds = ? ^minutes, 5
-? ^hours 20 ^minutes = 200 ^minutes, 3`
+        `2 ^hours 47 ^minutes = ?0 ^minutes | 167
+        4 ^hours 30 ^minutes = ?0 ^minutes | 270
+        300 ^minutes = ?0 ^hours | 5
+        300 ^seconds = ?0 ^minutes | 5
+        ?0 ^hours 20 ^minutes = 200 ^minutes | 3`
       ]
     },
     {

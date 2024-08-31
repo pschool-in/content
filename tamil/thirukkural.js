@@ -2,7 +2,7 @@ export default {
   label: 'திருக்குறள்',
   id: 'thirukkural',
   img: 'thirukkural',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

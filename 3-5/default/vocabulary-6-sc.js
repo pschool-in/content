@@ -3,6 +3,7 @@ export default {
   id: 'vocabulary-6-sc',
   img: 'vocabulary',
   grade: '6-8',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

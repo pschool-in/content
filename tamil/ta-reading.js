@@ -2,7 +2,7 @@ export default {
   label: 'கதை',
   id: 'ta-reading',
   img: 'reading',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

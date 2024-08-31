@@ -1,6 +1,7 @@
 export default {
   label: 'काळ',
   id: 'mr-tense',
+  lockAfter: 100,
   list: [
     {
       label: 'काळ',

@@ -3,6 +3,7 @@ export default {
   id: 'hi-sentence-sc',
   img: 'sentence',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       type: 'makeSentence',

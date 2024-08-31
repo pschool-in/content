@@ -2,7 +2,7 @@ export default {
   label: 'பாரதி',
   id: 'barathi',
   img: 'barathi',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {
@@ -330,7 +330,7 @@ export default {
         dashWidth: 80
       },
       data: [
-        `ஓடி விளையாடு *பாப்பா*!
+        `ஓடி விளையாடு *பாப்பா* !
 கொத்தித் திரியுமந்தக் *கோழி* 
 வண்டி இழுக்கும் நல்ல *குதிரை*
 வயலில் உழுதுவரும் *மாடு*

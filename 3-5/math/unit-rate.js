@@ -282,6 +282,7 @@ Alex bought a dozen of apple for $6. What is the cost of 1 apple? | $ ?0 | 0.5`
         type: 'word-problem',
         answerBox: false,
         fontSize: '1.2rem',
+        fracFontSize: '1rem',
         isSentence: true,
         list: [
           `Rohan bought a set of 12 markers for ₹60. What is the cost of 10 markers?

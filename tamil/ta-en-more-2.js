@@ -1,6 +1,7 @@
 export default {
   label: 'இணையான ஆங்கிலம் - 2',
   id: 'ta-en-more-2',
+  lockAfter: 100,
   list: [
     {
       id: 'notes',

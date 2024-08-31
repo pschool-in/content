@@ -2,6 +2,7 @@ export default {
   label: 'Social',
   id: 'mr-social',
   img: 'social',
+  lockAfter: 100,
   list: [
     {
       id: 'rivers',

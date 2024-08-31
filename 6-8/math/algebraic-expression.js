@@ -1,6 +1,7 @@
 export default {
   label: 'Algebraic Expression',
   id: 'algebraic-expression',
+  lockAfter: 100,
   list: [
     {
       label: 'Number of Terms',
@@ -348,7 +349,7 @@ export default {
         ~4(2𝑥-3)=?0𝑥-?1 | 8, 12
         ~4(3𝑥2-2𝑥-3) ~=?0𝑥2-?1𝑥-?2 | 12, 8, 12
         ~3(2𝑥2-5𝑥+10) ~=?0𝑥2-?1𝑥+?2 | 6, 15, 30
-        ~5(2𝑥2-11)=?0𝑥2-?1 | 6, 15, 30`,
+        ~5(2𝑥2-11)=?0𝑥2-?1 | 10, 55`,
 
         `~2𝑥(𝑥-4)=?0𝑥2-?1𝑥 | 2, 8
         ~3𝑥(3𝑥+5)=?0𝑥2+?1𝑥 | 9, 15
@@ -367,7 +368,8 @@ export default {
         inputType: 'small',
         answerBox: false,
         isSentence: false,
-        fontSize: '1.5rem'
+        fontSize: '1.5rem',
+        fracFontSize: '1.2rem'
       },
       data: [
         `~4𝑥2+10/2 = ~?0𝑥2+?1 | 2, 5

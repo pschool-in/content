@@ -2,7 +2,7 @@ export default {
   label: 'வாக்கியம்',
   id: 'ta-sentence',
   img: 'sentence',
-  lockAfter: 2,
+  lockAfter: 100,
   list: [
     {
       id: 'match-words',

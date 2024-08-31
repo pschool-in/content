@@ -2,7 +2,7 @@ export default {
   label: 'பாடல்கள்',
   id: 'ta-poems',
   img: 'reading',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

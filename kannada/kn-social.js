@@ -2,6 +2,7 @@ export default {
   label: 'ಸಮಾಜ ವಿಜ್ಞಾನ',
   lang: 'kn',
   id: 'kn-social',
+  lockAfter: 100,
   list: [
     {
       type: 'dragAndDrop',

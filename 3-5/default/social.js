@@ -3,12 +3,13 @@ export default {
   id: 'social',
   img: 'social',
   grade: '3-5',
+  lockAfter: 100,
   list: [
     {
       type: 'dragDropImgLabel',
       label: 'Road Signs',
       id: 'road-signs',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Drag the names and drop on the images.',
         path: 'img/social/road-sign'

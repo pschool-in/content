@@ -35,6 +35,7 @@ import sound from '../3-5/default/en-sound-basic.js';
 import picture from '../3-5/default/en-picture-basic.js';
 
 import wordsearch from '../3-5/default/wordsearch.js';
+import wordsearch6 from '../3-5/default/wordsearch-6.js';
 import crossword from '../3-5/default/crossword.js';
 import reading from '../3-5/default/reading.js';
 import readingKg from '../3-5/default/reading-sc.js';
@@ -99,6 +100,9 @@ let mainMenu = {
   list: [
     fun,
     alphabets,
+    math,
+    math3,
+    math6,
     grammar,
     grammar3,
     grammar6,
@@ -107,9 +111,6 @@ let mainMenu = {
     vocabulary6,
     reading,
     readingKg,
-    math,
-    math3,
-    math6,
     clock,
     clock4,
     picture,
@@ -122,6 +123,7 @@ let mainMenu = {
     sudoku,
     sudoku4,
     wordsearch,
+    wordsearch6,
     crossword,
     games,
     gk3,

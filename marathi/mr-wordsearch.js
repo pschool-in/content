@@ -3,6 +3,7 @@ export default {
   id: 'mr-wordsearch',
   img: 'wordsearch',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       id: 'ws-1',

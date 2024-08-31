@@ -7,7 +7,16 @@ export default {
       label: 'Phonics Collection - 1',
       type: 'phonics',
       id: 'phonics-all',
-      data: {}
+      data: {
+        audioWidth: 1,
+        bgData: {
+          width: 1200,
+          bgImg: 'bigLand.png',
+          imgWidth: 1260,
+          imgHeight: 784,
+          marginLeft: 0
+        }
+      }
     },
     {
       label: 'Phonics Sound',

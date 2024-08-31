@@ -22,12 +22,11 @@ export default {
       id: 'classify-images',
       grade: '0-2'
     },
-    /*
-      {
-        label: 'Picture Activities',
-        id: 'kg-picture',
-        grade: '0-1'
-      },*/
+    {
+      label: 'Picture Activities',
+      id: 'kg-picture',
+      grade: '0-1'
+    },
     {
       label: 'Match Colors',
       id: 'match-colors',

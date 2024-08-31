@@ -3,6 +3,7 @@ export default {
   id: 'wordsearch',
   img: 'wordsearch',
   grade: '0-5',
+  lockAfter: 8,
   list: [
     {
       type: 'wordsearch',

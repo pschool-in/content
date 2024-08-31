@@ -2,6 +2,7 @@ export default {
   label: 'Letters',
   lang: 'ml',
   id: 'ml-letter-2',
+  lockAfter: 100,
   list: [
     {
       type: 'rightOne',

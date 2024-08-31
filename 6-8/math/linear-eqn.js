@@ -1,6 +1,7 @@
 export default {
   label: 'Linear Equation',
   id: 'linear-eqn',
+  lockAfter: 100,
   list: [
     {
       label: 'Notes',
@@ -129,9 +130,9 @@ The linear equations in one variable is an equation which is expressed in the fo
       label: 'Write the fraction',
       commonData: {
         title: 'Find the value of 𝑥 in the below equation.',
-        type: 'algebra',
         firstLineFontSize: '1.8rem',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        fracFontSize: '1.5rem'
       },
       data: [
         {

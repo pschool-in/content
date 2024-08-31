@@ -1,6 +1,6 @@
 export default {
   id: 'data-handling-2',
-  label: 'Data Handling',
+  label: 'Data Handling for Kids',
   list: [
     {
       type: 'informationProcessing',
@@ -77,7 +77,7 @@ export default {
     },
     {
       type: 'informationProcessing',
-      id: 'pic-2',
+      id: 'pic-3',
       label: 'Transport',
       data: {
         title: 'Observe the picture and answer the questions.',

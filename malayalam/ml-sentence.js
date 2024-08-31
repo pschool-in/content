@@ -2,7 +2,7 @@ export default {
   label: 'വാചകം',
   id: 'ml-sentence',
   img: 'sentence',
-  lockAfter: 3,
+  lockAfter: 100,
   list: [
     {
       id: 'form-sentence',

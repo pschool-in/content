@@ -3,6 +3,7 @@ export default {
   id: 'grammar',
   img: 'grammar',
   grade: '0-2',
+  lockAfter: 100,
   list: [
     {
       label: 'Pick the Right Article',
@@ -235,7 +236,7 @@ How old are you?`
       type: 'match',
       label: 'Match Words',
       id: 'match',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Match the words that form a sentence.',
         fontSize: '1.2rem'

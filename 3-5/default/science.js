@@ -3,6 +3,7 @@ export default {
   id: 'science',
   img: 'science',
   grade: '0-2',
+  lockAfter: 100,
   list: [
     {
       type: 'slides',

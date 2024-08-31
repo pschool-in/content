@@ -10,6 +10,7 @@ export default {
       data: {
         repeatCount: 3,
         yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'a',
@@ -62,6 +63,9 @@ export default {
       id: 'write-f-j',
       label: 'Small Letters (f - j)',
       data: {
+        repeatCount: 3,
+        yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'f',
@@ -102,9 +106,7 @@ export default {
             width: 140,
             audio: 18
           }
-        ],
-        repeatCount: 3,
-        yGuides: [20, 120, 220, 320]
+        ]
       }
     },
     {
@@ -112,6 +114,9 @@ export default {
       id: 'write-k-o',
       label: 'Small Letters (k - o)',
       data: {
+        repeatCount: 3,
+        yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'k',
@@ -150,9 +155,7 @@ export default {
             width: 135,
             audio: 28
           }
-        ],
-        repeatCount: 3,
-        yGuides: [20, 120, 220, 320]
+        ]
       }
     },
     {
@@ -160,6 +163,9 @@ export default {
       label: 'Small Letters (p - t)',
       id: 'write-p-t',
       data: {
+        repeatCount: 3,
+        yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'p',
@@ -204,9 +210,7 @@ export default {
             width: 160,
             audio: 38
           }
-        ],
-        repeatCount: 3,
-        yGuides: [20, 120, 220, 320]
+        ]
       }
     },
     {
@@ -214,6 +218,9 @@ export default {
       label: 'Small Letters (u - z)',
       id: 'write-u-z',
       data: {
+        repeatCount: 3,
+        yGuides: [20, 120, 220, 320],
+        audio: 'kg-5/english.mp3',
         source: [
           {
             id: 'u',
@@ -264,9 +271,7 @@ export default {
             width: 140,
             audio: 50
           }
-        ],
-        repeatCount: 3,
-        yGuides: [20, 120, 220, 320]
+        ]
       }
     },
     {

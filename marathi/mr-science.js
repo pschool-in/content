@@ -2,6 +2,7 @@ export default {
   label: 'Science',
   id: 'mr-science',
   img: 'science',
+  lockAfter: 100,
   list: [
     {
       id: 'parts-of-face',

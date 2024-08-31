@@ -3,13 +3,13 @@ export default {
   id: 'roman-number',
   list: [
     {
-      label: 'Roman Numbers 1 to 50',
+      label: 'Roman Numbers 1 to 100',
       type: 'passage',
-      id: 'notes-1',
+      id: 'notes',
       data: {
         title: 'Quick Notes',
         text: [
-          `Roman numerals represent a number system that uses letters to express numbers collectively. The ancient Romans used the letters I, V, X, L, C, D, and M to write numbers.
+          `Roman numerals represent a number system that uses letters to express numbers collectively. The ancient Romans used the letters I, V, X, L, C etc to write numbers.
 The first 20 Roman Numbers are given below.`,
           {
             type: 'table',
@@ -49,19 +49,19 @@ LXX — 70
 LXXX — 80
 XC — 90
 C — 100
-CC — 200
-CCC — 300`,
+XXXIII — 33
+XXXIV — 34`,
 
-              `CCCXXXIII — 333
-CCCLXXXVIII — 388
-CD — 400
-D — 500
-DCCC — 800
-CM — 900
-M — 1000
-MI — 1001
-MMM — 3000
-MMMCDXLIV — 3444`
+              `XXXV — 35
+XXXVI — 36
+XXXVII — 37
+XXXVIII — 38
+XXXIX — 39
+XLIV — 44
+XLIX — 49
+XCIII — 93
+XCIX — 99
+XCVII — 97`
             ]
           }
         ]
@@ -75,17 +75,17 @@ MMMCDXLIV — 3444`
         title: 'Match Roman and Decimal.'
       },
       data: [
-        `C, 100
-L, 50
-D, 500
-M, 1000
-X, 10`,
-
         `II, 2
 VII, 7
 IV, 4
 X, 10
 V, 5`,
+
+        `C, 100
+L, 50
+XL, 40
+LX, 60
+X, 10`,
 
         `XI, 11
 XIII, 13
@@ -100,16 +100,16 @@ XLVIII, 48
 LXX, 70`,
 
         `XC, 90
-L, 50
-XLI, 41
-CL, 150
-LX,60`,
+LIX, 59
+LIV, 54
+XCV, 95
+LXX,70`,
 
-        `M, 1000
-DCL, 650
-CCC, 300
-CML, 950
-D, 500`
+`XLII , 42
+LV11 , 57
+LXIII , 63
+LXXXIX , 89
+LXXVII , 77`,
       ]
     },
     {
@@ -140,17 +140,11 @@ LXXXVII, LVI, XXXVI, XL
 XC, LXXX,LX, XL
 LXX, XL, L, XX`,
 
-        `D, XCI, CD, CL
-DC, DL, CCCL, CDL
-M, CML, DC, CL
-DCCCL, DCL, CDL, XC
-DCC, CCCL, LXXX, LX`,
-
-        `CML, C, XC, LX
-XCIX, LXXX, LIII, XLIX
-CM, DCC, CCCL, XC
-DCC, DL, CCL, XC
-CD, XC, C, CL`
+        `C, XC, XCV, XCIX
+XC, XL, LXXXIX, LV
+XLIX, XXXV, XXVIII, XLIV
+LXXXIX, LXXIX, LXV, LXXXVIII
+XXX, XXIX, XXVIII, XXIV`
       ]
     },
     {
@@ -175,23 +169,17 @@ LXXXV, XCV, CC, DC
 XX, XLIX, XC, LXXX
 LI, LXX, XCVI, LXXXV`,
 
-        `L, C, CML, D
-LXX, XCI, XC, LXXIX
-XCI, XCIX, M, DC
-XXX, XL, XLV, LXI
-XXXI, XLIV, LXII, XC`,
+        `VI, XV, X, IX
+X, XX, XI,XIX
+III, XXIX, VIII, XVI
+VI, XXIII, XII, XVII
+IX, XXX, XXV, XIX`,
 
-        `DCCL, M, CML, CM
-LIV, LXIV, XC, DC
-XLIX, LXXI, DCCCL, XC
-XCIII, C, CL, DC
-XXXVI, XCI, LV, XCIX`,
-
-        `DC, CML, M, DCL
-CCCL, D, DL, CD
-C, CL, CM, DCL
-XCV, XCIX, CL, CDL
-XC, DL, C, M`
+        ` XI, L, XL, XXXVIII
+XXIX, XL, LX, L
+XXXIX, LXVI, LVI, XLIX
+XIV, LIX, L, XXIX
+XXII, LXIII, LVI, XXVI`
       ]
     },
     {
@@ -213,29 +201,17 @@ XIV, XXIX, XLVI, LXIV, LXXI
 XXI, XXIV, XXXV, XLVI, L
 XXX, XLI, LI, LXI, XC`,
 
-        `XXV, XXXVI, XLV, LIV, LXV
-L, LX, XC, XCIX, CDL
-XLV, LI, LXIX, LXXI, XC
-XLI, LI, LXXIV, XCI, CL
-LXXXV, XCII, CL, D, CM`,
+        `X, XI, XVI, XXI, XXX
+IX, XV, XXI, XXIX, XXXV
+XVIII, XX, XXI, XL, XLI
+X, XI, XXII, XXIX, XL
+II, VIII, XV, XIX, XXII`,
 
-        `XCI, CL, DC, CM, M
-XLVI, LIV, LXXI, XCI, CL
-LIV, LXXV, XCI, CL, DC
-XXIX, XL, LXXI, XCI, CL
-LXX, XCI, C, CL, CD`,
-
-        `LXVI, XCI, XCIX, CL, DC
-XL, XCIV, C, CCL, DCC
-XXXVIII, L, XCIII, CC, DCL
-LVI, XCI, CL, DC, CM
-LXIV, LXXXV, CC, DCL, CML`,
-
-        `CL, CCL, CDL, DL, DC
-CD, D, DC, CML, M
-LXXX, XC, C, CL, CC
-C, CC, CD, DL, DC
-LIX, C, DL, CM, CML`
+        `XL, L, LX, LXXX, XCI
+XXX, XLIX, LXXX, XCI, XCIX
+XXV, XLVIII, LX, LXXXI, LXXXV
+LX, LXXI, XC, XCI, C
+LI, LX, LXII, LXXX, XCI`
       ]
     },
     {
@@ -250,6 +226,12 @@ LIX, C, DL, CM, CML`
         fontSize: '1.3rem'
       },
       data: [
+        `LI, XLIV, XXXV, XIV, III
+LXII, XLIX, XXV, XII, VIII
+LXXI, LXIV, XLVI, XXIX, XIV
+L, XLVI, XXXV, XXIV, XXI
+XC, LXI, LI, XLI, XXX`,
+
         `XXX, XXI, XVI, XI, X
 XXXV, XXIX, XXI, XV, IX
 XLI, XL, XXI, XX, XVIII
@@ -257,69 +239,112 @@ XL, XXIX, XXII, XI, X
 XXII, XIX, XV, VIII, II`,
 
         `XCI, LXXX, LX, L, XL
-CCC, XCI, LXXX, XLIX, XXX
-DL, LXXXI, LX, XLVIII, XXV
+XCIX, XCI, LXXX, XLIX, XXX
+LXXXV, LXXXI, LX, XLVIII, XXV
 C, XCI, XC, LXXI, LX
-XCI, LXXX, LXII, LX, LI`,
-
-        `LX, XLIX, XL, XXX, XIX
-CCC, XCIX, LXXXI, LXV, LIX
-CCCL, LXXXIX, LIX, XLIX, XXIX
-XCI, LXXXI, LXXIX, LXV, LIX
-LXI, LIX, XLIX, XXXI, XX `,
-
-        `CL, XCIX, LXXI, LI, L
-CML, DCCCL, DC, DL, CDL
-DCC, CD, CL, XC, LXI
-XCIX, XC, LXI, L, XXX
-LXXV, LXX, LIII, L, XL`,
-
-        `M, DCCL, D, CL, C
-DCCCL, D, CDL, XC, LX
-DC, CDL, LXXIX, LXV, LV
-CM, DL, CCL, CC, XC
-CDL, XC, LV, L, XL`
+XCI, LXXX, LXII, LX, LI`
       ]
     },
     {
       type: 'numberInput',
       id: 'number-names',
-      label: 'Write the Numbers',
+      label: 'Write the Decimal Numbers',
       commonData: {
         title: 'Convert Roman numbers to Decimal numbers',
         type: 'word-problem',
-        firstLineFontSize: '2.5rem'
+        firstLineFontSize: '2.5rem',
+        isSentence: false
       },
       data: [
-        `DCL | 650
-DCCCL | 850 
-M | 1000
-XCVIII | 98 
-LXXXVIII | 88 `,
+        `XXX | 30
+XL | 40
+XXIV | 24
+XIX | 19
+VIII | 8`,
 
-        `DCCL | 750
-D | 500
-DCCC  | 800
-CML | 950
-LXXXVI | 86 `,
+        `LXX | 70
+LXXIX | 79
+XLVII | 47
+XIX | 19
+VII | 7`,
 
-        ` MMM | 3000
-MCCLXXXVIII | 1288
-MMMCCLIV | 3254
-MMDCCCXCVII | 2897
-MCCCXXX | 1330 `,
+        `IX | 9
+XIII | 13
+XXII | 22
+XXXIV | 34
+XLIX | 49`,
 
-        `CMXCIX | 999
-MMMCMLXXXVII | 3987
-MMCMLXXXVI | 2986
-MCCLXXXVII | 1287
-MCMXCV | 1995 `,
+        `LXXV | 75
+XC | 90
+XCV | 95
+XCIX | 99
+XCIV | 94`,
 
-        `MMMCMLXXX | 3980
-MMCMXCIX | 2999
-MMMDCCCLXXVI | 3876
-MMMDXLI | 3541 
-MCCVII | 1207 `
+`XLII | 42
+LV11 | 57
+LXIII | 63
+LXXXIX | 89
+LXXVII | 77`,
+
+      ]
+    },
+    {
+      type: 'numberInput',
+      id: 'number-names-2',
+      label: 'Write the Roman Numbers',
+      commonData: {
+        title: 'Convert Decimal numbers to Roman numbers',
+        type: 'word-problem',
+        firstLineFontSize: '2.5rem',
+        customKeys: 'I,V,X,L,C,D,M',
+        numberInput: false,
+        isSentence: false
+      },
+      data: [
+        `30 | XXX
+40 | XL 
+24 | XXIV
+19 | XIX 
+8 | VIII `,
+
+        `70 | LXX
+79 | LXXIX
+47 | XLVII
+19 | XIX
+7 | VII`,
+
+        `9 | IX
+13 | XIII
+22 | XXII
+34 | XXXIV
+49 | XLIX`,
+
+        `75 | LXXV
+90 | XC
+95 | XCV
+99 | XCIX
+94 | XCIV`
+      ]
+    },
+    {
+      id: 'group',
+      label: 'Valid or Invalid Number',
+      type: 'group',
+      commonData: {
+        fontSize: '2rem',
+        types: ['Valid', 'Invalid'],
+        title: 'Classify the below numbers as valid and invalid roman numbers.'
+      },
+      data: [
+        {
+          arr: ['II, XX, C, V, L', 'LL, VV, A, B, E']
+        },
+        {
+          arr: ['XL, IV, VI, XXXV, XIX', 'IIV, VX, XXL, XXXX, IXI']
+        },
+        {
+          arr: ['XCIX, XVIII, LXXX, XL, XLIX', 'XCXI, VXIII, LVX, XLXI, LVV']
+        }
       ]
     }
   ]

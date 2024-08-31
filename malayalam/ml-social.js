@@ -2,7 +2,7 @@ export default {
   label: 'സാമൂഹിക ശാസ്ത്രം',
   id: 'ml-social',
   img: 'social',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'rivers',

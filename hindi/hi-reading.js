@@ -2,6 +2,7 @@ export default {
   label: 'Small Picture and Passage',
   id: 'hi-reading',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       type: 'informationProcessing',

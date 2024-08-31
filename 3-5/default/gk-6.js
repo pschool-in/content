@@ -3,6 +3,7 @@ export default {
   id: 'gk-6',
   img: 'gk',
   grade: '6-8',
+  lockAfter: 100,
   list: [
     {
       type: 'slides',
@@ -58,6 +59,7 @@ uno | UNO`
         }
       ]
     },
+
     {
       type: 'dragDropImgLabel',
       label: 'Match Flags',
@@ -107,6 +109,33 @@ scout | Scouts
 unicef | UNICEF
 uno | UNO`
       ]
+    },
+    {
+      type: 'dragDropImgLabel',
+      label: 'Match Flags (Big Screen)',
+      id: 'flags-match-big',
+      onlyBigScreen: true,
+      data: {
+        title: 'Drag and drop the labels to the respective flags.',
+        path: 'img/social/flags',
+        imgWidth: 110,
+        imgHeight: 110,
+        text: `india | India
+usa | U S A
+uk | United Kingdom
+australia | Australia
+canada | Canada
+mexico | Mexico
+russia | Russia
+china | China
+japan | Japan
+cuba | Cuba
+france | France
+germany | Germany
+italy | Italy
+egypt | Egypt
+iran | Iran`
+      }
     },
     {
       label: 'Choose the best Answer',

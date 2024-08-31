@@ -2,7 +2,7 @@ export default {
   label: 'வார்த்தை',
   id: 'ta-word',
   img: 'word',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       label: 'எழுத்துக்கூட்டி படிக்கவும்',

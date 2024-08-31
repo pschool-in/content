@@ -2,6 +2,7 @@ export default {
   label: 'Word',
   id: 'ml-word',
   img: 'word',
+  lockAfter: 100,
   list: [
     {
       id: 'jumbled-ml-1',

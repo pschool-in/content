@@ -2,6 +2,7 @@ export default {
   label: 'Word',
   id: 'ml-word-2',
   lang: 'ml',
+  lockAfter: 100,
   list: [
     {
       type: 'match',

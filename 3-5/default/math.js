@@ -1,11 +1,12 @@
 import * as Vars from './_variables.js';
 
 const math = {
-  label: 'Quick Math',
+  label: 'Maths',
   id: 'math',
   img: 'quickMath',
   grade: '0-2',
   appLink: Vars.mathApp,
+  lockAfter: 100,
   list: [
     {
       type: 'dominos',
@@ -17,7 +18,7 @@ const math = {
       label: 'Find the Number',
       type: 'placeValueAbacus',
       id: 'abacus-placevalue',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {},
       data: [
         { pattern: 'aa' },
@@ -81,31 +82,31 @@ const math = {
       },
       data: [
         {
-          format: 'a',
+          format: 'c',
           denos: [2, 1]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [10, 5]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [100, 1]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [100, 10]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [20, 10]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [5, 2, 1]
         },
         {
-          format: 'a',
+          format: 'c',
           denos: [100, 10]
         }
       ]

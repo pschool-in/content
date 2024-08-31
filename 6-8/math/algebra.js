@@ -1,5 +1,5 @@
 export default {
-  label: 'Algebra',
+  label: 'Find 𝑥',
   id: 'algebra',
   list: [
     {
@@ -114,12 +114,12 @@ export default {
         type: 'word-problem',
         fontSize: '1.5rem',
         isSentence: false,
+        inputType: 'small',
         list: [
-          /*
           `2𝑥 + 9 = 𝑥 + 4
-2𝑥 = 𝑥 + ?0
+2𝑥 = 𝑥 - ?0
 𝑥 = ?1
--5, -5`,
+5, -5`,
 
           `𝑥 + 5 = 2𝑥 - 9
 2𝑥 - 9 = 𝑥 + ?0
@@ -134,15 +134,14 @@ export default {
 16, 16, 2`,
 
           `3𝑥 + 1 = 2𝑥 - 7
-3𝑥 = 2𝑥 + ?0
+3𝑥 = 2𝑥 - ?0
 𝑥 = ?1
--8, -8`,
+8, -8`,
 
           `𝑥 + 7 = 2𝑥 + 1
 𝑥 = 2𝑥 - ?0
 𝑥 = ?1
 6, 6`,
-*/
           `3𝑥 - 5 = 𝑥 + 1
 3𝑥 = 𝑥 + ?0
 ~?1𝑥 = 6
@@ -159,6 +158,7 @@ export default {
         title: 'Fill in the boxes and complete the solution',
         type: 'word-problem',
         fontSize: '1.5rem',
+        fracFontSize: '1.2rem',
         list: [
           `Find the value of m.
 4(m + 3) = 18
@@ -167,11 +167,11 @@ m = 9/2 - 3 = ~9-?2/2
 m = ?3/?4
 4, 2, 6, 3, 2`,
 
-          `Find the value of x.
--2(x + 3) = 8
-x + 3 = - 8/?0 = - ?1
-x = - ?2 - ?3
-x = - ?4
+          `Find the value of 𝑥.
+-2(𝑥 + 3) = 8
+𝑥 + 3 = - 8/?0 = - ?1
+𝑥 = - ?2 - ?3
+𝑥 = - ?4
 2, 4, 4, 3, 7`
         ]
       }
@@ -183,55 +183,56 @@ x = - ?4
       label: 'Word Problem with Steps',
       data: {
         title: 'Answer the word problem.',
-        type: 'word-problem',
         inputType: 'small',
+        isSentence: true,
+        //fontSize: '1.2rem',
         list: [
           `Two  numbers are in the ratio 3:4. If the sum of numbers is 63, find the numbers.
 Solution:
-Let the numbers be 3x and 4x. 
-3x + 4x = 63
-~?0x = 63
-x = ?1
+Let the numbers be 3𝑥 and 4𝑥. 
+3𝑥 + 4𝑥 = 63
+~?0𝑥 = 63
+𝑥 = ?1
 The first number = ?2
 The second number = ?3
 7, 9, 27, 36`,
 
           `Two  numbers are in the ratio 2:3. If the sum of numbers is 50, find the numbers.
 Solution:
-Let the numbers be 2x and 3x. 
-2x + 3x = 50
-~?0x = 50
-x = ?1
+Let the numbers be 2𝑥 and 3𝑥. 
+2𝑥 + 3𝑥 = 50
+~?0 𝑥 = 50
+𝑥 = ?1
 The first number = ?2
 The second number = ?3
 5, 10, 20, 30`,
 
           `Two  numbers are in the ratio 1:3. If the sum of numbers is 48, find the numbers.
 Solution:
-Let the numbers be x and 3x. 
-x + 3x = 48
-~?0x = 48
-x = ?1
+Let the numbers be 𝑥 and 3𝑥. 
+𝑥 + 3𝑥 = 48
+~?0 𝑥 = 48
+𝑥 = ?1
 The first number = ?2
 The second number = ?3
 4, 12, 12, 36`,
 
           `Two  numbers are in the ratio 7:5. If the difference between the numbers is 6, find the numbers.
 Solution:
-Let the numbers be 7x and 5x. 
-7x - 5x = 6
-~?0x = 6
-x = ?1
+Let the numbers be 7𝑥 and 5𝑥. 
+7𝑥 - 5𝑥 = 6
+~?0𝑥 = 6
+𝑥 = ?1
 The first number = ?2
 The second number = ?3
 2, 3, 21, 15`,
 
           `Two  numbers are in the ratio 4:3. If the difference between the numbers is 7, find the numbers.
 Solution:
-Let the numbers be 3x and 4x. 
-4x - 3x = 7
-~?0x = 7
-x = ?1
+Let the numbers be 3𝑥 and 4𝑥. 
+4𝑥 - 3𝑥 = 7
+~?0𝑥 = 7
+𝑥 = ?1
 The first number = ?2
 The second number = ?3
 1, 7, 28, 21`

@@ -1,7 +1,7 @@
 export default {
   label: 'सामान्य ज्ञान',
   id: 'mr-gk',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'mcq',

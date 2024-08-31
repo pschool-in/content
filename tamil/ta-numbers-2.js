@@ -1,6 +1,7 @@
 export default {
   label: 'எண்கள் - 2',
   id: 'ta-numbers-2',
+  lockAfter: 100,
   list: [
     {
       id: 'match',

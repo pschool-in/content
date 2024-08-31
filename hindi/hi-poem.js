@@ -2,7 +2,7 @@ export default {
   label: 'कविता',
   id: 'hi-poem',
   img: 'reading',
-  lockAfter: 3,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

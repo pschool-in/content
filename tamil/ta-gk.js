@@ -3,6 +3,7 @@ export default {
   id: 'ta-gk',
   img: 'gk',
   lang: 'ta',
+  lockAfter: 100,
   list: [
     {
       id: 'mcq',

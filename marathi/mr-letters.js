@@ -2,6 +2,7 @@ export default {
   label: 'Letter',
   id: 'mr-letters',
   img: 'writing',
+  lockAfter: 100,
   list: [
     {
       id: 'vowels-writing',

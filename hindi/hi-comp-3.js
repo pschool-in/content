@@ -2,7 +2,7 @@ export default {
   label: 'गद्यांश',
   lang: 'hi',
   id: 'hi-comp-3',
-  lockAfter: 2,
+  lockAfter: 100,
   list: [
     {
       id: 'friends',

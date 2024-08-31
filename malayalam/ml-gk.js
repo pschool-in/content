@@ -1,7 +1,7 @@
 export default {
   label: 'സാമൂഹിക ശാസ്ത്രം',
   id: 'ml-gk',
-  lockAfter: 4,
+  lockAfter: 100,
   list: [
     {
       id: 'districts',

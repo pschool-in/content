@@ -3,6 +3,7 @@ export default {
   id: 'hi-letter-2',
   img: 'writing',
   lang: 'hi',
+  lockAfter: 100,
   list: [
     {
       id: 'barakhadi-writing',

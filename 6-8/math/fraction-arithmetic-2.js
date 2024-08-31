@@ -10,6 +10,7 @@ export default {
         title: 'Fraction Addition',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -107,6 +108,7 @@ export default {
         title: 'Fraction Subtraction',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -205,6 +207,7 @@ export default {
         title: 'Add the fractions and convert them into mixed fraction',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -294,6 +297,7 @@ export default {
         title: 'Fraction Subtraction and Simplify',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -346,6 +350,7 @@ export default {
         title: 'Evaluate: Fill in the Boxes',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -497,6 +502,7 @@ export default {
         title: 'Multiply Fractions',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [
@@ -591,6 +597,7 @@ export default {
         title: 'Fraction Division',
         type: 'word-problem',
         fontSize: '1.8rem',
+        fracFontSize: '1.2rem',
         isSentence: false
       },
       data: [

@@ -3,6 +3,7 @@ export default {
   id: 'mr-grammar-2',
   img: 'langGrammar',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       label: 'लिंग',

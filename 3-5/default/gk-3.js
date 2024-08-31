@@ -3,6 +3,7 @@ export default {
   id: 'gk-3',
   img: 'gk',
   grade: '2-5',
+  lockAfter: 100,
   list: [
     {
       id: 'notes',
@@ -55,7 +56,7 @@ export default {
               img: 'Kalam'
             },
             {
-              text: 'Rabindranath Tagore was a famous bengali poet. He is the author of our National Anthem.',
+              text: 'Rabindranath Tagore was a famous Bengali poet. He is the author of our National Anthem.',
               img: 'Tagore'
             },
             {
@@ -292,7 +293,7 @@ Brightest Planet − Venus`
       id: 'mcq',
       label: 'Multiple Choice Questions',
       type: 'mcq',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Multiple Choice Questions'
       },
@@ -376,7 +377,7 @@ Brightest Planet − Venus`
       type: 'match',
       label: 'Match',
       id: 'match',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Match the following',
         fontSize: '1.2rem'
@@ -408,7 +409,7 @@ Largest Island, Greenland`
       type: 'completeWord',
       label: 'Answer It',
       id: 'complete',
-      lockAfter: 1,
+      lockAfter: 2,
       commonData: {
         title: 'Type the right answer.'
       },
@@ -432,7 +433,7 @@ Longest River| Nile
 Largest Ocean| Pacific
 Largest Country by area| Russia
 Largest Country by population | China
-Hardest Metal| tungsten`,
+Hardest Metal| Tungsten`,
 
         `Largest Peninsula| Arabian 
 Tallest Waterfall| Angel 

@@ -2,7 +2,7 @@ export default {
   label: 'कहानियाँ',
   id: 'hi-reading-3',
   img: 'reading',
-  lockAfter: 4,
+  lockAfter: 100,
   lang: 'hi',
   list: [
     {

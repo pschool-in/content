@@ -1,7 +1,7 @@
 export default {
   label: 'விடுகதைகள் ',
   id: 'ta-riddle',
-  lockAfter: 2,
+  lockAfter: 100,
   lang: 'ta',
   list: [
     {

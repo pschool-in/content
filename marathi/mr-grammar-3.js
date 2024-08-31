@@ -2,6 +2,7 @@ export default {
   label: 'व्याकरण - 3',
   id: 'mr-grammar-3',
   lang: 'mr',
+  lockAfter: 100,
   list: [
     {
       label: 'शब्दसमूहाबद्दल एक शब्द',

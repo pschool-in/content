@@ -2,6 +2,7 @@ export default {
   label: 'ಕಥೆ',
   id: 'kn-reading',
   img: 'reading',
+  lockAfter: 100,
   list: [
     {
       id: '100',

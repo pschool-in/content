@@ -2,6 +2,7 @@ export default {
   label: 'శాస్త్రం',
   lang: 'te',
   id: 'te-science',
+  lockAfter: 100,
   list: [
     {
       id: 'parts-of-face',

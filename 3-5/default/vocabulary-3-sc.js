@@ -3,6 +3,7 @@ export default {
   id: 'vocabulary-3-sc',
   img: 'vocabulary',
   grade: '3-5',
+  lockAfter: 100,
   list: [
     {
       type: 'classifySentence',
@@ -104,8 +105,8 @@ suspicious | Suspicious`
       data: [
         'bush, hero, plan, play, rest, drop, dust, duty, each',
         'high, hill, poor, hour, east, easy, hurt, many, milk',
-        'hole, hope, rice, ring, edge, earn, hear, lake, lion',
-        'rain, tell, test, else, idea, inch | chin, join'
+        'hole, hope, rice, ring | grin, edge, earn | near, hear, lake, lion',
+        'rain, tell, test, else, idea | aide, inch | chin, join'
       ]
     },
     {
@@ -142,7 +143,7 @@ tooth, teeth, tooths`
       label: 'Complete Word - Hint',
       data: [
         `A desert fruit | DATES | D____
-A small model of our Earth. | GLOBE | G____
+A small model of our Earth. | GLOBE |   
 A wearable device  that shows time | WATCH | ____H
 Water moving from a mountain to sea. | RIVER | ____R
 The biggest water body in the Earth. | OCEAN | O____`,
@@ -299,9 +300,9 @@ They got a set of 12 *knives (knifes)* and forks for their wedding.`
       id: '5-letter-word',
       label: 'Five Letter Words',
       data: [
-        'about, write, apple, actor, again, ahead, alert, paint, right, small',
+        'about, write, apple, actor, again, ahead, alert | alter | later, paint, right, small',
         'argue, brown, cream, empty, forty, human, party, rough, solve, smile',
-        'beach, buyer, crowd, enter, fresh, level, mount, place, scene, south',
+        'beach, buyer, crowd, enter, fresh, level, mount, place, scene, south | shout',
         'bench, carry, cycle, error, great, limit, plant, sense, speak, dream'
       ]
     },
@@ -401,7 +402,7 @@ listen, lisen
 disappoint, dissapoint
 separate, seperate
 similar, similer
-skilful, skilfull, skillful
+skilful, skilfull
 speech, speach`
       ]
     }
