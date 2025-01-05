@@ -71,6 +71,22 @@ export default {
           id: 'ta-numbers-2'
         },
         {
+          label: 'ஒருமை - பன்மை ',
+          id: 'ta-plural'
+        },
+        {
+          label: 'கூட்டுச் சொற்கள்',
+          id: 'ta-compoundword'
+        },
+        {
+          label: 'சொல்லும் பொருளும்',
+          id: 'ta-meaning'
+        },
+        {
+          label: 'எதிர்சொல்',
+          id: 'ta-opposite'
+        },
+        {
           label: 'ஓசை: விலங்குகளும் பறவைகளும்',
           id: 'ta-sound'
         },

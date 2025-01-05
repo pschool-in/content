@@ -240,6 +240,345 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
         ]
       }
     },
+
+    {
+      type: 'numberInput',
+      id: 'variable-angle',
+      label: 'Unknown Angles',
+      data: {
+        title: 'Find the unknown angle(s).',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        fontSize: '1.5rem',
+        list: [
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 193 153 L 27 155 L 110 21 L 192 152',
+                'M 119 37 Q 109 47 100 36 M 41 134 Q 52 143 48 154 M 175 127 Q 154 135 161 154 '
+              ],
+              texts: [
+                { str: '𝑥', x: 103, y: 40 },
+                { str: '𝑥', x: 49, y: 124 },
+                { str: '𝑥', x: 147, y: 118 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+60`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 31 29 L 204 29 L 32 144 L 31 29',
+                'M 44 29 L 44 44 L 31 44 M 32 117 Q 48 117 48 132 M 167 30 Q 167 42 178 46'
+              ],
+              texts: [
+                { str: '30°', x: 137, y: 30 },
+                { str: '𝑥', x: 41, y: 97 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+60`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 187 183 L 24 99 L 182 15 L 187 183 M 183 43 Q 165 47 155 30 M 51 113 Q 62 99 49 87 M 164 173 Q 170 157 187 157'
+              ],
+              texts: [
+                { str: '50°', x: 61, y: 86 },
+                { str: '𝑥', x: 151, y: 38 },
+                { str: '𝑥', x: 157, y: 135 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+65`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 197 133 L 24 133 L 196 17 L 197 133 M 184 133 L 184 118 L 197 118 M 196 44 Q 180 44 180 29 M 61 132 Q 61 120 50 116'
+              ],
+              texts: [
+                { str: '2𝑥', x: 170, y: 38 },
+                { str: '𝑥', x: 64, y: 104 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+30`
+          },
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 187 183 L 17 185 L 182 15 L 187 183 M 183 43 Q 171 47 162 34 M 165 182 Q 167 161 187 157 M 39 163 Q 49 171 43 185'
+              ],
+              texts: [
+                { str: '𝑥', x: 158, y: 38 },
+                { str: '2𝑥', x: 52, y: 153 },
+                { str: '3𝑥', x: 142, y: 148 }
+              ]
+            },
+            text: `𝑥 + 2𝑥 + 3𝑥 = ?0 ° 
+𝑥 = ?1 ° 
+180, 30`
+          }
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'right-3angle',
+      label: 'Unknown Angle in Right triangle',
+      data: {
+        title: 'Find the unknown angle.',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        fontSize: '1.5rem',
+        list: [
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 7 8 L 142 126 L 7 126 Z M 7 114 L 19 114 L 19 126 M 7 23 Q 14 25 18 17 M 122 126 Q 120 117 128 113 '
+              ],
+              texts: [
+                { str: '𝑥', x: 8, y: 23, width: 20, height: 12 },
+                { str: '45°', x: 97, y: 107, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+45`
+          },
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 6 41 L 142 126 L 7 126 Z M 7 114 L 19 114 L 19 126 M 6 57 Q 15 57 17 48 M 122 126 Q 120 120 126 116 '
+              ],
+              texts: [
+                { str: '𝑥', x: 106, y: 106, width: 20, height: 12 },
+                { str: '60°', x: 9, y: 56, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+30`
+          },
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 142 41 L 6 126 L 141 126 Z M 141 114 L 129 114 L 129 126 M 142 57 Q 133 57 131 48 M 26 126 Q 28 120 22 116 '
+              ],
+              texts: [
+                { str: '𝑥', x: 121, y: 54, width: 20, height: 12 },
+                { str: '35°', x: 30, y: 108, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+55`
+          },
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 115 118 L 4 12 L 114 12 Z M 114 25 L 103 25 L 103 12 M 115 98 Q 107 98 105 109 M 18 12 Q 20 18 15 23 '
+              ],
+              texts: [
+                { str: '𝑥', x: 20, y: 10, width: 20, height: 12 },
+                { str: '50°', x: 93, y: 78, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+40`
+          },
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 5 118 L 76 12 L 6 12 Z M 6 25 L 17 25 L 17 12 M 5 98 Q 11 96 12 107 M 62 12 Q 60 21 71 20 '
+              ],
+              texts: [
+                { str: '𝑥', x: 8, y: 82, width: 20, height: 12 },
+                { str: '75°', x: 44, y: 17, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+15`
+          },
+          {
+            svg: {
+              width: 150,
+              height: 130,
+              paths: [
+                'M 8 111 L 138 50 L 85 8 Z M 80 15 L 85 19 L 90 12 M 19 95 Q 25 98 20 105 M 128 41 Q 119 49 125 57 '
+              ],
+              texts: [
+                { str: '𝑥', x: 105, y: 39, width: 20, height: 12 },
+                { str: '20°', x: 23, y: 80, width: 20, height: 12 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+70`
+          }
+        ]
+      }
+    },
+    {
+      type: 'numberInput',
+      id: 'variable-angle-2',
+      label: 'Isosceles Triangle - Unknown Angles',
+      data: {
+        title: 'Find the unknown angle(s).',
+        type: 'word-problem',
+        isSentence: false,
+        answerBox: false,
+        fontSize: '1.5rem',
+        list: [
+          {
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 221 115 L 19 117 L 127 23 L 221 115 M 189 116 Q 189 103 203 97 M 37 101 Q 47 107 42 117 M 75 63 L 82 72 M 78 60 L 85 69 M 177 63 L 169 71 M 181 67 L 173 75 '
+              ],
+              texts: [
+                { str: '40°', x: 168, y: 87 },
+                { str: '𝑥', x: 45, y: 90 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+40`
+          },
+          {
+            //2
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 138 137 L 30 136 L 31 20 L 138 137 M 114 137 Q 113 126 121 119 M 31 121 Q 44 123 44 136 M 23 79 L 37 79 M 23 74 L 37 74 M 81 141 L 81 130 M 76 141 L 76 130 '
+              ],
+              texts: [
+                { str: '45°', x: 91, y: 109 },
+                { str: '𝑥', x: 43, y: 103 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+90`
+          },
+          {
+            //3
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 147 131 L 32 72 L 135 11 L 147 131 M 129 122 Q 134 113 145 113 M 117 22 Q 125 31 136 27 M 91 96 L 83 104 M 95 100 L 87 108 M 69 45 L 76 54 M 72 42 L 79 51 '
+              ],
+              texts: [
+                { str: '50°', x: 106, y: 27 },
+                { str: '𝑥', x: 119, y: 91 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+50`
+          },
+          {
+            //4
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 221 115 L 19 117 L 127 23 L 221 115 M 114 35 Q 125 44 137 33 M 37 101 Q 47 107 42 117 M 75 63 L 82 72 M 78 60 L 85 69 M 177 63 L 169 71 M 181 67 L 173 75 '
+              ],
+              texts: [
+                { str: '100°', x: 110, y: 37 },
+                { str: '𝑥', x: 45, y: 90 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+40`
+          },
+          {
+            //5
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 24 137 L 132 136 L 131 20 L 24 137 M 131 37 Q 123 43 115 37 M 131 121 L 118 121 L 118 136 M 139 79 L 125 79 M 139 74 L 125 74 M 81 141 L 81 130 M 86 141 L 86 130'
+              ],
+              texts: [{ str: '𝑥', x: 111, y: 34 }]
+            },
+            text: `𝑥 = ?0 ° 
+45`
+          },
+          {
+            //6
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 33 131 L 148 72 L 45 11 L 33 131 M 51 122 Q 46 113 35 113 M 131 62 Q 123 71 128 83 M 83 98 L 89 107 M 87 95 L 93 104 M 95 34 L 88 43 M 99 36 L 92 45 '
+              ],
+              texts: [
+                { str: '40°', x: 97, y: 57 },
+                { str: '𝑥', x: 38, y: 90 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+60`
+          },
+          {
+            //7
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 221 115 L 19 117 L 103 20 L 171 115 M 163 104 C 177 98 186 104 189 115 M 34 100 Q 47 107 42 117 M 139 60 L 131 68 M 143 64 L 135 72 M 58 64 L 65 73 M 61 61 L 68 70'
+              ],
+              texts: [
+                { str: '120°', x: 170, y: 79 },
+                { str: '𝑥', x: 46, y: 88 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+60`
+          },
+          {
+            //11
+            svg: {
+              width: 250,
+              height: 200,
+              paths: [
+                'M 131 11 L 132 170 L 24 171 L 131 54 M 48 171 Q 49 160 41 153 M 131 155 L 118 155 L 118 170 M 118 68 C 115 58 118 44 131 43 M 139 113 L 125 113 M 139 108 L 125 108 M 81 175 L 81 164 M 86 175 L 86 164'
+              ],
+              texts: [
+                { str: '𝑥', x: 49, y: 142 },
+                { str: '𝑦', x: 91, y: 34 }
+              ]
+            },
+            text: `𝑥 = ?0 ° 
+𝑦 = ?1 ° 
+45, 135`
+          }
+        ]
+      }
+    },
     {
       type: 'numberInput',
       id: 'external-angle',
@@ -440,240 +779,6 @@ Sum of the lengths of any two sides of a triangle is always greater than the len
             text: `𝑥 = ?0 ° 
 𝑦 = ?1 °
 90, 60`
-          }
-        ]
-      }
-    },
-    {
-      type: 'numberInput',
-      id: 'variable-angle',
-      label: 'Unknown Angles',
-      data: {
-        title: 'Find the unknown angle(s).',
-        type: 'word-problem',
-        isSentence: false,
-        answerBox: false,
-        fontSize: '1.5rem',
-        list: [
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 193 153 L 27 155 L 110 21 L 192 152',
-                'M 119 37 Q 109 47 100 36 M 41 134 Q 52 143 48 154 M 175 127 Q 154 135 161 154 '
-              ],
-              texts: [
-                { str: '𝑥', x: 103, y: 40 },
-                { str: '𝑥', x: 49, y: 124 },
-                { str: '𝑥', x: 147, y: 118 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-60`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 31 29 L 204 29 L 32 144 L 31 29',
-                'M 44 29 L 44 44 L 31 44 M 32 117 Q 48 117 48 132 M 167 30 Q 167 42 178 46'
-              ],
-              texts: [
-                { str: '30°', x: 137, y: 30 },
-                { str: '𝑥', x: 41, y: 97 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-60`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 187 183 L 24 99 L 182 15 L 187 183 M 183 43 Q 165 47 155 30 M 51 113 Q 62 99 49 87 M 164 173 Q 170 157 187 157'
-              ],
-              texts: [
-                { str: '50°', x: 61, y: 86 },
-                { str: '𝑥', x: 151, y: 38 },
-                { str: '𝑥', x: 157, y: 135 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-65`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 197 133 L 24 133 L 196 17 L 197 133 M 184 133 L 184 118 L 197 118 M 196 44 Q 180 44 180 29 M 61 132 Q 61 120 50 116'
-              ],
-              texts: [
-                { str: '2𝑥', x: 170, y: 38 },
-                { str: '𝑥', x: 64, y: 104 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-30`
-          },
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 187 183 L 17 185 L 182 15 L 187 183 M 183 43 Q 171 47 162 34 M 165 182 Q 167 161 187 157 M 39 163 Q 49 171 43 185'
-              ],
-              texts: [
-                { str: '𝑥', x: 158, y: 38 },
-                { str: '2𝑥', x: 52, y: 153 },
-                { str: '3𝑥', x: 142, y: 148 }
-              ]
-            },
-            text: `𝑥 + 2𝑥 + 3𝑥 = ?0 ° 
-𝑥 = ?1 ° 
-180, 30`
-          }
-        ]
-      }
-    },
-    {
-      type: 'numberInput',
-      id: 'variable-angle-2',
-      label: 'Isosceles Triangle - Unknown Angles',
-      data: {
-        title: 'Find the unknown angle(s).',
-        type: 'word-problem',
-        isSentence: false,
-        answerBox: false,
-        fontSize: '1.5rem',
-        list: [
-          {
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 221 115 L 19 117 L 127 23 L 221 115 M 189 116 Q 189 103 203 97 M 37 101 Q 47 107 42 117 M 75 63 L 82 72 M 78 60 L 85 69 M 177 63 L 169 71 M 181 67 L 173 75 '
-              ],
-              texts: [
-                { str: '40°', x: 168, y: 87 },
-                { str: '𝑥', x: 45, y: 90 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-40`
-          },
-          {
-            //2
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 138 137 L 30 136 L 31 20 L 138 137 M 114 137 Q 113 126 121 119 M 31 121 Q 44 123 44 136 M 23 79 L 37 79 M 23 74 L 37 74 M 81 141 L 81 130 M 76 141 L 76 130 '
-              ],
-              texts: [
-                { str: '45°', x: 91, y: 109 },
-                { str: '𝑥', x: 43, y: 103 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-90`
-          },
-          {
-            //3
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 147 131 L 32 72 L 135 11 L 147 131 M 129 122 Q 134 113 145 113 M 117 22 Q 125 31 136 27 M 91 96 L 83 104 M 95 100 L 87 108 M 69 45 L 76 54 M 72 42 L 79 51 '
-              ],
-              texts: [
-                { str: '50°', x: 106, y: 27 },
-                { str: '𝑥', x: 119, y: 91 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-50`
-          },
-          {
-            //4
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 221 115 L 19 117 L 127 23 L 221 115 M 114 35 Q 125 44 137 33 M 37 101 Q 47 107 42 117 M 75 63 L 82 72 M 78 60 L 85 69 M 177 63 L 169 71 M 181 67 L 173 75 '
-              ],
-              texts: [
-                { str: '100°', x: 110, y: 37 },
-                { str: '𝑥', x: 45, y: 90 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-40`
-          },
-          {
-            //5
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 24 137 L 132 136 L 131 20 L 24 137 M 131 37 Q 123 43 115 37 M 131 121 L 118 121 L 118 136 M 139 79 L 125 79 M 139 74 L 125 74 M 81 141 L 81 130 M 86 141 L 86 130'
-              ],
-              texts: [{ str: '𝑥', x: 111, y: 34 }]
-            },
-            text: `𝑥 = ?0 ° 
-45`
-          },
-          {
-            //6
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 33 131 L 148 72 L 45 11 L 33 131 M 51 122 Q 46 113 35 113 M 131 62 Q 123 71 128 83 M 83 98 L 89 107 M 87 95 L 93 104 M 95 34 L 88 43 M 99 36 L 92 45 '
-              ],
-              texts: [
-                { str: '40°', x: 97, y: 57 },
-                { str: '𝑥', x: 38, y: 90 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-60`
-          },
-          {
-            //7
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 221 115 L 19 117 L 103 20 L 171 115 M 163 104 C 177 98 186 104 189 115 M 34 100 Q 47 107 42 117 M 139 60 L 131 68 M 143 64 L 135 72 M 58 64 L 65 73 M 61 61 L 68 70'
-              ],
-              texts: [
-                { str: '120°', x: 170, y: 79 },
-                { str: '𝑥', x: 46, y: 88 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-60`
-          },
-          {
-            //11
-            svg: {
-              width: 250,
-              height: 200,
-              paths: [
-                'M 131 11 L 132 170 L 24 171 L 131 54 M 48 171 Q 49 160 41 153 M 131 155 L 118 155 L 118 170 M 118 68 C 115 58 118 44 131 43 M 139 113 L 125 113 M 139 108 L 125 108 M 81 175 L 81 164 M 86 175 L 86 164'
-              ],
-              texts: [
-                { str: '𝑥', x: 49, y: 142 },
-                { str: '𝑦', x: 91, y: 34 }
-              ]
-            },
-            text: `𝑥 = ?0 ° 
-𝑦 = ?1 ° 
-45, 135`
           }
         ]
       }

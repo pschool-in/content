@@ -131,10 +131,10 @@ export default {
     {
       id: 'match',
       type: 'match',
-      label: 'பழமொழிகள் ',
+      label: 'பொருத்துக ',
       lockAfter: 2,
       commonData: {
-        title: 'பழமொழிகள்',
+        title: 'பொருத்துக',
         fontSize: '1rem'
       },
       data: [

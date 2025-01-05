@@ -74,7 +74,7 @@ Reforestation, restock`,
         text: `*Endemic* species are found only in a particular area.
 *Endangered* species are those which are facing the danger of *extinction*.
 *Red Data* Book contains a record of endangered species.
-*Migration* is the phenomenon of movement of a species from its own habitat to some otherhabitat.
+*Migration* is the phenomenon of movement of a species from its own habitat to some other habitat.
 We should save, *reuse* and recycle paper to save trees, energy and water.
 *Reforestation* is the restocking of destroyed forests by planting new trees.`
       }

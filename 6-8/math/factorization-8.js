@@ -72,7 +72,7 @@ export default {
             },
             `~𝑥2𝑦z+𝑥𝑦2z+𝑥𝑦z2 | ?0 ( ?1 ) | 𝑥𝑦z, 𝑥+𝑦+z`,
             {
-              text: `𝑎𝑥2𝑦+𝑏𝑥𝑦2+𝑐𝑥𝑦z | ?0 ( ?1 ) | 𝑥𝑦, 𝑎𝑥+𝑏𝑦+𝑐z`,
+              text: `~𝑎𝑥2𝑦+𝑏𝑥𝑦2+𝑐𝑥𝑦z | ?0 ( ?1 ) | 𝑥𝑦, 𝑎𝑥+𝑏𝑦+𝑐z`,
               vars: '𝑎𝑏𝑐𝑥𝑦z'
             }
           ]
@@ -232,7 +232,7 @@ Ans = ?0
       id: 'simp-regroup-3',
       label: 'Factors in the form (𝑥+𝑎)(𝑥+𝑏)',
       data: {
-        title: 'Factorize using Identities',
+        title: 'Factorize',
         fontSize: '1.2rem',
         bigKeys: false,
         algebra: true,

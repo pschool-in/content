@@ -1,10 +1,10 @@
 export default {
-  label: 'Tables 6 to 10',
+  label: 'Tables : 6 to 10',
   id: 'tables-2',
   list: [
     {
       type: 'match',
-      label: 'Tables',
+      label: 'Match Tables',
       id: 'match',
       commonData: {
         title: 'Tables - Match the following'
@@ -82,6 +82,31 @@ export default {
       ]
     },
     {
+      type: 'matchByDragDrop',
+      label: `Drag & Drop`,
+      id: `table-drag`,
+      commonData: {
+        type: 'tables'
+      },
+      data: [
+        {
+          number: 6
+        },
+        {
+          number: 7
+        },
+        {
+          number: 8
+        },
+        {
+          number: 9
+        },
+        {
+          number: 10
+        }
+      ]
+    },
+    {
       id: 'multiply',
       type: 'quickArithmetic',
       label: 'Multiply',
@@ -106,6 +131,50 @@ export default {
           type: 'mul~x~10'
         }
       ]
+    },
+    {
+      type: 'numberInput',
+      id: 'word-probs',
+      label: 'Word Problem',
+      data: {
+        title: 'Fill the Blanks',
+        type: 'word-problem',
+        isSentence: false,
+        inputType: 'small',
+        fontSize: '1.3rem',
+        bgColor: 'white',
+        list: [
+          `1 img~apple costs ₹ 6.
+3 img~apple cost ₹ ?0
+6 img~apple cost ₹ ?1
+8 img~apple cost ₹ ?2
+18, 36, 48`,
+
+          `1 img~ice-cream costs ₹ 7.
+2 img~ice-cream cost ₹ ?0
+4 img~ice-cream cost ₹ ?1
+7 img~ice-cream cost ₹ ?2
+14, 28, 49`,
+
+          `1 img~stone weighs 8 ^kg
+5 img~stone weigh ?0 ^kg
+6 img~stone weigh ?1 ^kg
+8 img~stone weigh ?2 ^kg
+40, 48, 64`,
+
+          `1 img~grapes costs ₹ 9.
+2 img~grapes cost ₹ ?0
+5 img~grapes cost ₹ ?1
+6 img~grapes cost ₹ ?2
+18, 45, 54`,
+
+          `1 img~capsicum costs ₹ 10.
+3 img~capsicum cost ₹ ?0
+4 img~capsicum cost ₹ ?1
+9 img~capsicum cost ₹ ?2
+30, 40, 90`
+        ]
+      }
     },
     {
       label: 'Group the Multiples',
@@ -189,7 +258,7 @@ export default {
             },
             {
               name: 'Not',
-              text: '44, 50, 56, 76, 64, 68'
+              text: '46, 50, 56, 76, 64, 68'
             }
           ]
         },
@@ -244,6 +313,211 @@ export default {
               text: '75, 105, 108, 85, 95, 64'
             }
           ]
+        }
+      ]
+    },
+    {
+      id: 'multiply-rev',
+      type: 'quickArithmetic',
+      label: 'Fill up',
+      commonData: {
+        count: 10,
+        title: 'Multiply',
+        isReverse: true,
+        blankPos: 1
+      },
+      data: [
+        {
+          type: '6*x'
+        },
+        {
+          type: '7*x'
+        },
+        {
+          type: '8*x'
+        },
+        {
+          type: '9*x'
+        },
+        {
+          type: '10*x'
+        }
+      ]
+    },
+    {
+      id: 'maze',
+      type: 'maze',
+      label: 'Connect the Multiples',
+      data: [
+        {
+          title:
+            'Connect the multiples of 6 and help the elephant to get the watermelon.',
+          start: 'elephant',
+          target: 'watermelon',
+          color: '#c05252',
+          startPt: {
+            x: 5,
+            y: 5
+          },
+          endPt: {
+            x: 5,
+            y: 0
+          },
+          size: 50,
+          fills: `76,84,90,96,98,132
+  68,78,80,102,116,126
+  66,72,74,108,114,120
+  60,62,64,107,112,124
+  54,48,38,24,18,12
+  43,42,36,30,4,6`,
+          table: `0,1,1,1,0,1
+  0,1,0,1,0,1
+  1,1,0,1,1,1
+  1,0,0,0,0,0
+  1,1,0,1,1,1
+  0,1,1,1,0,1`
+        },
+        {
+          title:
+            'Connect the multiples of 7 and help the baby to get the milk.',
+          start: 'baby',
+          target: 'milk',
+          color: '#c05252',
+          startPt: {
+            x: 5,
+            y: 5
+          },
+          endPt: {
+            x: 5,
+            y: 0
+          },
+          size: 50,
+          fills: `106,112,119,126,145,154
+  98,105,128,133,140,147
+  91,95,101,107,30,27
+  84,77,41,35,28,21
+  68,70,46,42,29,14
+  65,63,56,49,44,7`,
+          table: `0,1,1,1,0,1
+  1,1,0,1,1,1
+  1,0,0,0,0,0
+  1,1,0,1,1,1
+  0,1,0,1,0,1
+  0,1,1,1,0,1`
+        },
+        {
+          title:
+            'Connect the multiples of 8 and help the girl to get the cycle.',
+          start: 'girl',
+          target: 'cycle',
+          color: '#c05252',
+          startPt: {
+            x: 3,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `152,143,120,112,104,96
+  144,136,128,74,81,88
+  51,49,75,64,72,80
+  47,40,48,56,50,44
+  26,32,22,14,21,35
+  20,24,16,8,4,12`,
+          table: `1,0,1,1,1,1
+  1,1,1,0,0,1
+  0,0,0,1,1,1
+  0,1,1,1,0,0
+  0,1,0,0,0,0
+  0,1,1,1,0,0`
+        },
+        {
+          title: 'Connect the multiples of 9 and help the dog to get the bone.',
+          start: 'dog',
+          target: 'bone',
+          color: '#c05252',
+          startPt: {
+            x: 1,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `171,161,117,108,99,98
+  162,152,126,97,90,80
+  153,144,135,61,81,72
+  40,20,35,42,53,63
+  32,17,27,36,45,54
+  21,9,18,26,32,41`,
+          table: `1,0,1,1,1,0
+  1,0,1,0,1,0
+  1,1,1,0,1,1
+  0,0,0,0,0,1
+  0,0,1,1,1,1
+  0,1,1,0,0,0`
+        },
+        {
+          title:
+            'Connect the multiples of 10 and help the boy to get the calculator.',
+          start: 'boy',
+          target: 'calculator',
+          color: '#c05252',
+          startPt: {
+            x: 0,
+            y: 5
+          },
+          endPt: {
+            x: 0,
+            y: 0
+          },
+          size: 50,
+          fills: `220,235,245,150,140,130
+  210,225,195,160,135,120
+  200,190,180,170,125,110
+  92,82,72,65,90,100
+  20,30,40,55,80,85
+  10,15,50,60,70,75`,
+          table: `1,0,0,1,1,1
+  1,0,0,1,0,1
+  1,1,1,1,0,1
+  0,0,0,0,1,1
+  1,1,1,0,1,0
+  1,0,1,1,1,0`
+        }
+      ]
+    },
+    {
+      label: 'Select All Multiples',
+      type: 'numberTable',
+      id: 'select-multiples',
+      commonData: {
+        start: 1,
+        step: 1
+      },
+      data: [
+        {
+          title: 'Select all multiples of 6 in the below table.',
+          answer: 6
+        },
+        {
+          title: 'Select all multiples of 7 in the below table.',
+          answer: 7
+        },
+        {
+          title: 'Select all multiples of 8 in the below table.',
+          answer: 8
+        },
+        {
+          title: 'Select all multiples of 9 in the below table.',
+          answer: 9
+        },
+        {
+          title: 'Select all multiples of 10 in the below table.',
+          answer: 10
         }
       ]
     }

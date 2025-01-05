@@ -117,6 +117,14 @@ Simple word problems - fill up`
       Sort the fractions in ascending and descending order.`
     },
     {
+      label: 'Compare Fraction',
+      id: 'fraction-compare',
+      text: `Compare 2 fractions
+      Smallest & biggest fraction
+      Ascending & descending order
+      Match equal fractions`
+    },
+    {
       label: 'Big Numbers',
       id: 'big-num',
       text: `Write the number for the given number name.
@@ -200,6 +208,13 @@ Simple word problems - fill up`
       Find HCF
       LCM and HCF product rule
       Factor Pairs`
+    },
+
+    {
+      label: 'Area & Perimeter from Figure',
+      id: 'area-perimeter-fig',
+      text: `Area & perimeter of square & rectangle
+      Perimeter of triangle, quadrilateral, polygon`
     }
   ]
 };

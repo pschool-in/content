@@ -238,8 +238,8 @@ Frightened, Sam dashed towards the exit but tripped over a loose floorboard. The
         questions: [
           {
             qText: 'What did Sam find in the abandoned house?',
-            options: `A shiny key
-A treasure map
+            options: `A treasure map
+A shiny key
 A family of mice`
           },
           {

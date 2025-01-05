@@ -35,7 +35,7 @@ juice | The liquid squeezed from fruit or vegetables that is good to drink
 blade | The metal part of a knife
 onion | A vegetable that might make your eyes sting when you peel and cut it
 comb | You can use this to neaten your hair
-leaf | A green part growning on a tree branch
+leaf | A green part growing on a tree branch
 purse| A small bag for carrying money
 
 
@@ -107,7 +107,7 @@ export default [
     comb | You can use this to neaten your hair
     skin | The outside layer of your body
     eggs | Hens lay these and we eat them
-    leaf | A green part growning on a tree branch
+    leaf | A green part growing on a tree branch
     beach | A place with sand and surf that is fun to visit in summertime. | Place you might go in summer for a swim and to build sandcastles
     kerb | The edge of the road
     ants | small black insects

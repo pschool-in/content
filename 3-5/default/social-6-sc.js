@@ -70,7 +70,7 @@ export default {
               y: 249
             },
             {
-              word: 'Afganistan',
+              word: 'Afghanistan',
               x: 95,
               y: 184
             },

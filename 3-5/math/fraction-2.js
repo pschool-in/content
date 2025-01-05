@@ -66,12 +66,15 @@ export default {
         },
         {
           type: 'equalFraction2',
-          text: `1/2 2, 1/2 3, 1/2 4, 2/3 2, 1/5 10, 2/5 5, 3/4 2, 3/4 2, 1/3 3, 1/3 2`
-        },
+          text: `1/2 2, 1/2 3, 1/2 4, 2/3 2, 1/5 10, 2/5 5, 3/4 2, 3/4 5, 1/3 3, 1/3 2`
+        }
+        /*
+        // We have to remove this method as there are more than one right answer.
         {
           type: 'equalFraction3',
-          text: `1/2, 2/3, 5/6, 1/3, 1/8, 1/4, 3/5, 3/4, 1/3, 1/3`
+          text: `1/2, 2/3, 5/6, 1/3, 1/8, 1/4, 3/5, 3/4, 1/5, 5/7`
         }
+          */
       ]
     },
     {
@@ -197,7 +200,7 @@ export default {
             },
             {
               qText:
-                'I can run 1 km in 1/6 of an hour. How much of an hour will it take to run 3 km?',
+                'I can run 1 ^km in 1/6 of an hour. How much of an hour will it take to run 3 ^km?',
               options: '1/2, 3/5, 1/3'
             }
           ]

@@ -166,9 +166,19 @@ export default {
       grade: '3-5'
     },
     {
+      label: 'Compare Fraction',
+      id: 'fraction-compare',
+      grade: '5-6'
+    },
+    {
       label: 'Measurement',
       id: 'measurement',
       grade: '3-5'
+    },
+    {
+      label: 'Area & Perimeter from Figure',
+      id: 'area-perimeter-fig',
+      grade: '4-5'
     },
     {
       label: 'Place Value',

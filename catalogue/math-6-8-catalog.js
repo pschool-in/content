@@ -49,6 +49,13 @@ Find area and perimeter of complex shapes
 Olympiod questions on shapes.`
     },
     {
+      label: 'Area & Perimeter from Figure - 2',
+      id: 'area-perimeter-fig-2',
+      text: `Perimeter of isosceles triangle
+      Perimeter of polygon
+      Area of triangle`
+    },
+    {
       label: 'Area and Perimeter - 7',
       id: 'area-perimeter-7',
       text: `Square and Rectangle
@@ -74,6 +81,12 @@ Divide`
 Add the Algebraic Expressions
 Multiply
 Division`
+    },
+    {
+      label: 'Factors of Monomial',
+      id: 'factors-monomial',
+      text: `Count the number of factors.
+      HCF & LCM of monomial`
     },
     {
       label: 'Math Machine',
@@ -204,6 +217,14 @@ Subtract fraction and simpliy it
 Evaluate
 Multiply fraction
 Fraction division`
+    },
+    {
+      label: 'Fraction Arithmetic - 3',
+      id: 'fraction-arithmetic-3',
+      text: `Fraction of a number
+    Simplify Product of fractions by cancelling factors
+    Convert percentage to fraction and vice versa
+    Addition & Subtraction of mixed fractions`
     },
     {
       label: 'Integers',
@@ -358,6 +379,15 @@ Negative value for x.
 Solve simple equation.
 Word problems involving x and ratios.`
     },
+
+    {
+      label: 'Quadrilateral - Figure Based',
+      id: 'quadrilateral-fig',
+      text: `Unknown angle in trapezium
+      Area of parallelogram
+      Area of trapezium`
+    },
+
     {
       label: 'Math Workout',
       id: 'math-workout',
@@ -365,6 +395,23 @@ Word problems involving x and ratios.`
 Workout picture for LCM and HCF
 Workout picture for binary, hexadecimal conversion.`
     },
+
+    {
+      label: 'Symmetry',
+      id: 'symmetry-7',
+      text: `Lines of symmetry
+      Order of rotational symmetry
+      Visualizing rotation`
+    },
+
+    {
+      label: 'Visualising Solid Shapes',
+      id: 'visualize-3d-7',
+      text: `Different 3D shapes
+      Faces, Vertices and Edges
+      Count the cubes based on front, left and top views`
+    },
+
     //NCERT - CLass 6
 
     {
@@ -512,6 +559,14 @@ Standard Identities
 Applying Identities`
     },
 
+    {
+      label: 'Chap 11:  Mensuration',
+      id: 'mensuration-8',
+      text: `Area and Perimeter
+      Quadrilateral & Trapezium
+      Surface area of cube and cylinder
+      Volume of cylinder and cube`
+    },
     {
       label: 'Chap 14:  Factorisation',
       id: 'factorization-8',

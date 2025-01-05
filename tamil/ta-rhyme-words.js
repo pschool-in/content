@@ -2,7 +2,6 @@ export default {
   label: 'ஒத்த ஓசை சொற்கள்',
   id: 'ta-rhyme-words',
   img: 'science',
-  lockAfter: 100,
   list: [
     {
       label: 'சரியான வார்த்தையை பொருத்துக ',

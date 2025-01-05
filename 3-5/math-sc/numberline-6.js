@@ -266,7 +266,7 @@ export default {
       id: 'multiply',
       lockAfter: 1,
       commonData: {
-        title: 'Pick the correct answer for the word problem.',
+        title: 'Write the multiplication problem.',
         type: 'read',
         count: 5,
         minorLines: 10,
@@ -479,6 +479,7 @@ export default {
         },
         wordWidth: 40,
         wordHeight: 25,
+        boxColor: '#ab6666',
         svg: {
           paths: [
             'M 0 30 L 450 30 M 25 35 V 25 M 110 35 V 25 M 195 35 V 25 M 280 35 V 25',
@@ -616,6 +617,7 @@ export default {
         },
         wordWidth: 40,
         wordHeight: 25,
+        boxColor: '#cf24ff',
         svg: {
           paths: [
             'M 0 30 L 450 30 M 25 35 V 25 M 110 35 V 25 M 195 35 V 25 M 280 35 V 25',
@@ -779,6 +781,8 @@ export default {
         },
         wordWidth: 40,
         wordHeight: 25,
+        maxCharLength: 5,
+        boxColor: '#24a4ff',
         svg: {
           paths: [
             'M 0 30 L 450 30 M 25 35 V 25 M 100 35 V 25 M 175 35 V 25 M 250 35 V 25 M 325 35 V 25',

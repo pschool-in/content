@@ -534,12 +534,12 @@ export default {
       data: [
         {
           audio: 'kn/kn-vowels.mp3',
-          words: `ಅ, ಆ, ಇ, ಈ, ಉ, ಊ, ಋ, ೠ`
+          words: `ಅ, ಆ, ಇ, ಈ, ಉ, ಊ, ಋ` //, ೠ`
         },
         {
           audio: 'kn/kn-vowels.mp3',
           words: `ಎ, ಏ, ಐ, ಒ, ಓ, ಔ, ಅಂ, ಅಃ`,
-          audioOffset: 16
+          audioOffset: 14
         },
         {
           audio: 'kn/kn-consonents.mp3',

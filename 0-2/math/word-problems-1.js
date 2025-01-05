@@ -17,7 +17,7 @@ export default {
 Ramu likes to eat Idly. He ate 2 Idlis for breakfast, 3 for Lunch and 2 for Dinner. In a day what is the total number of Idlis does Ramu eat? | 7
 David cycles 4 kms everyday. How many kms in total will David cycle on Saturday and Sunday? | 8
 You have 3 ladoos, your best friend gave another 3 to you. How many ladoos do you have now? | 6
-Riya likes to fill water in a water bottle. She has 3 water bottles of of volume 1,2 and 3 litres. If she fills all the bottles, then how much total water has she filled? | ?0 litre | 6`,
+Riya likes to fill water in a water bottle. She has 3 water bottles of volume 1,2 and 3 litres. If she fills all the bottles, then how much total water has she filled? | ?0 litre | 6`,
 
         // Word Problems for (1-9) Subtraction - Class 1
         `Susan had 8 apples in the basket. She ate 2 apples. How many apples were left? | 6

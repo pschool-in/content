@@ -33,7 +33,7 @@ The process of conversion of sugar into alcohol is known as *fermentation*.`
           },
           {
             qText:
-              'What of the following is a carrier of malaria-causing protozoan?',
+              'Which of the following is a carrier of malaria-causing protozoan?',
             options: `female Anopheles mosquito, housefly, rat`
           },
           {

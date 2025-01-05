@@ -11,7 +11,7 @@ export default {
         fontSize: '1rem',
         text: `The onset of *puberty* brings about the growth of the reproductive organs. 
 *Hair* grows at various places on the body. 
-Breasts develop in *girls* and facial hair appears in *boys*. 
+Breasts development in *girls* and facial hair appears in *boys*. 
 Voice of boys becomes hoarse as the *voice box* enlarges during adolescence.
 Children gain *height* during adolescence.
 The onset of puberty and maturity of reproductive parts are controlled by *hormones*.`
@@ -93,7 +93,7 @@ In case there is no fertilization, the thickened lining of the uterine wall brea
       data: {
         text: `Protruding voice box in boys|ADAMS APPLE| A____ A____
 Glands without ducts|ENDOCRINE
-Endocrine gland attached to brain|PITUTARY
+Endocrine gland attached to brain|PITUITARY
 Secretion of endocrine glands|ENZYME
 Pancreatic hormone|INSULIN
 Female hormone|ESTROGEN

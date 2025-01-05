@@ -320,7 +320,7 @@ export default {
             {
               word: ['L', 'E', 'A', 'F'],
               marker: [1, 2, 4, 2],
-              hint: 'A green part growning on a tree branch'
+              hint: 'A green part growing on a tree branch'
             },
             {
               word: ['P', 'U', 'R', 'S', 'E'],

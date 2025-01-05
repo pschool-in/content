@@ -36,6 +36,11 @@ export default {
       grade: '6-8'
     },
     {
+      label: 'Fraction Arithmetic - 3',
+      id: 'fraction-arithmetic-3',
+      grade: '6-8'
+    },
+    {
       label: 'Fraction Based Problems',
       id: 'fraction-6',
       grade: '5-7'
@@ -141,6 +146,11 @@ export default {
     {
       label: 'Exponents and Powers - 2',
       id: 'exponents-powers-2',
+      grade: '6-8'
+    },
+    {
+      label: 'Factors of Monomial',
+      id: 'factors-monomial',
       grade: '6-8'
     },
     {
@@ -256,6 +266,11 @@ export default {
       grade: '5-8'
     },
     {
+      label: 'Area & Perimeter from Figure - 2',
+      id: 'area-perimeter-fig-2',
+      grade: '6-7'
+    },
+    {
       label: 'Area and Perimeter - 7',
       id: 'area-perimeter-7',
       grade: '6-8'
@@ -270,8 +285,30 @@ export default {
       id: 'angles',
       grade: '6-8'
     },
+    {
+      label: 'Quadrilateral - Figure Based',
+      id: 'quadrilateral-fig',
+      grade: '7-8'
+    },
 
-    //Module 5: Measurement
+    {
+      label: '(NCERT 7) Symmetry',
+      id: 'symmetry-7',
+      grade: '8'
+    },
+
+    {
+      label: '(NCERT 7) Visualizing 3D',
+      id: 'visualize-3d-7',
+      grade: '8'
+    },
+
+    //Module 5: Data Handling, Mensuration, Graph
+    {
+      label: '(NCERT 8) Mensuration',
+      id: 'mensuration-8',
+      grade: '8'
+    },
 
     //Module 6: Misc
     {

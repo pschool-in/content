@@ -5,11 +5,12 @@ export default {
     {
       type: 'numberInput',
       id: 'find-x',
-      label: 'What is x?',
+      label: 'What is 𝑥?',
       commonData: {
-        title: 'Find the value of x in the below equation.',
+        title: 'Find the value of 𝑥 in the below equation.',
         type: 'algebra',
-        firstLineFontSize: '1.8rem',
+        fontSize: '1.8rem',
+        fracFontSize: '1.5rem',
         justifyContent: 'center'
       },
       data: [
@@ -51,7 +52,8 @@ export default {
       commonData: {
         title: 'Find the value of x in the below equation.',
         type: 'algebra',
-        firstLineFontSize: '1.8rem',
+        fontSize: '1.8rem',
+        fracFontSize: '1.5rem',
         justifyContent: 'center'
       },
       data: [
@@ -77,11 +79,12 @@ export default {
     {
       type: 'numberInput',
       id: 'find-x-3',
-      label: 'Find the value of X',
+      label: 'Find the value of 𝑥',
       commonData: {
         title: 'Find the value of x in the below equation.',
         type: 'algebra',
-        firstLineFontSize: '1.8rem',
+        fontSize: '1.8rem',
+        fracFontSize: '1.5rem',
         justifyContent: 'center'
       },
       data: [
@@ -160,11 +163,11 @@ export default {
         fontSize: '1.5rem',
         fracFontSize: '1.2rem',
         list: [
-          `Find the value of m.
-4(m + 3) = 18
-m + 3 = 18/?0 = 9/?1
-m = 9/2 - 3 = ~9-?2/2
-m = ?3/?4
+          `Find the value of 𝑚.
+4(𝑚 + 3) = 18
+𝑚 + 3 = 18/?0 = 9/?1
+𝑚 = 9/2 - 3 = ~9-?2/2
+𝑚 = ?3/?4
 4, 2, 6, 3, 2`,
 
           `Find the value of 𝑥.

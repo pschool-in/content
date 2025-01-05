@@ -38,7 +38,6 @@ export default {
         ]
       }
     },
-
     {
       id: 'reading-2',
       type: 'passage',

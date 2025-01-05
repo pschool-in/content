@@ -372,6 +372,38 @@ Simply the fraction.
       ]
     },
     {
+      type: 'numberInput',
+      id: 'ratio-between3',
+      label: 'Ratio Between 3',
+      commonData: {
+        title: 'Fill the missing numbers in the equivalent ratios',
+        type: 'word-problem',
+        answerBox: false,
+        fontSize: '1.6rem',
+        isSentence: false,
+        inputType: 'small'
+      },
+      data: [
+        `1 : 2 : 3 = ?0 : ?1 : 15 | 5, 10
+        3 : 5 : 7 = ?0 : 15 : ?1 | 9, 21
+        6 : 3 : 1 = 30 : ?0 : ?1 | 15, 5
+        ?0 : ?1 : 3 = 20 : 16 : 12 | 5, 4
+        2 : ?0 : ?1 = 6 : 15 : 21 | 5, 7`,
+
+        `?0 : 2 : 3 = 20 : ?1 : 15 | 4, 10
+        ?0 : 5 : 7 = 18 : 15 : ?1 | 6, 21
+        6 : 3 : ?0 = 30 : ?1 : 25 | 5, 15
+        ?0 : 1 : 3 = 20 : ?1 : 12 | 5, 4
+        2 : 10 : ?0 = 6 : ?1 : 21 | 7 , 30 `,
+
+        `?0 : 1 : 2 = 100 : 50 : ?1 | 2 , 100
+        7 : 2 : ?0 = ?1 : 4 : 6 | 3, 14
+        2 : 3 : ?0 = ?1 : 15 : 15 | 3, 10
+        1 : 3 : ?0 = ?1 : 15 : 25 | 5, 5
+        ?0 : 1 : 3 = 8 : ?1 : 12 | 2, 4`
+      ]
+    },
+    {
       label: 'Drag and Drop Ratios',
       type: 'matchByDragDrop',
       id: 'drag-drop',

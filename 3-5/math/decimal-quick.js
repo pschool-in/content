@@ -405,7 +405,8 @@ export default {
       commonData: {
         title: 'Fill in the empty boxes',
         type: 'word-problem',
-        fontSize: '1.8rem',
+        fontSize: '1.5rem',
+        fracFontSize: '1.3rem',
         isSentence: false
       },
       data: [

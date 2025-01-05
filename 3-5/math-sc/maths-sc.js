@@ -45,7 +45,7 @@ export default {
       label: 'Class 7'
     },
     {
-      value: 'g8',
+      id: 'g8',
       label: 'Class 8'
     }
   ],

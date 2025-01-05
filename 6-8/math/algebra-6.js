@@ -7,7 +7,7 @@ export default {
       //type: 'algebraicInput',
       type: 'numberInput',
       id: 'ex-11-1',
-      label: 'Exercise Problems (11.1)',
+      label: 'Ex 11.1: Idea of variable',
       commonData: {
         fontSize: '1.2rem',
         bigKeys: false,
@@ -293,7 +293,7 @@ Ans = ?0
       //type: 'algebraicInput',
       type: 'numberInput',
       id: 'ex-11-2',
-      label: 'Exercise Problems (11.2)',
+      label: 'Ex 11.2: Use of variable',
       data: {
         fontSize: '1.2rem',
         bigKeys: false,
@@ -358,7 +358,7 @@ Ans: ?0
       //type: 'algebraicInput',
       type: 'numberInput',
       id: 'ex-11-3',
-      label: 'Exercise Problems (11.3)',
+      label: 'Ex 11.3 : Expression with variable',
       commonData: {
         fontSize: '1.2rem',
         bigKeys: false,
@@ -392,7 +392,7 @@ Ans: ?0
       //type: 'algebraicInput',
       type: 'numberInput',
       id: 'ex-11-4',
-      label: 'Exercise Problems (11.4)',
+      label: 'Ex 11.4: Practical use of variable',
       data: {
         fontSize: '1.2rem',
         bigKeys: false,

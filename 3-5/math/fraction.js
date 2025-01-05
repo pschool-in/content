@@ -157,7 +157,7 @@ Three-seventh, 3/7`
       label: 'Biggest Fraction',
       id: 'biggest',
       commonData: {
-        title: `Pick the biggest fraction`,
+        title: `Pick the biggest number`,
         fontSize: '1.3rem'
       },
       data: [

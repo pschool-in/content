@@ -199,7 +199,7 @@ Loss = ?1
 SP = CP - Loss = ?2
 12000, 1500, 10500`,
 
-            `The cost price of 6 pencils is equal to the selling price of 5 pencils. Each pencil was sold for ₹ 12. What is the CP of 1 pencil.
+            `The cost price of 6 pencils is equal to the selling price of 5 pencils. Each pencil was sold for ₹ 12. What is the CP of 1 pencil?
 Solution:
 SP of 5 pencils = ₹ ?0
 CP of 6 pencils = ₹ ?1

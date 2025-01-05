@@ -111,7 +111,7 @@ export default {
     {
       type: 'classifySentence',
       label: 'படம் சொல்லும் சொல்',
-      id: 'tense',
+      id: 'right-word',
       commonData: {
         title: 'சரியான சொல்லைத் தேர்வு செய்க.',
         variableOptions: true,

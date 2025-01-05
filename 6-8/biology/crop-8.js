@@ -22,7 +22,7 @@ Manure: *Cow dung*, Animal excreta`
         text: `The same kind of plants grown and cultivated on a large scale at a place is called *crop*.
 The first step before growing crops is *preparation* of the soil.
 Damaged seeds would *float* on top of the water.
-For growing a crop sufficient sunlight and *water* and *nutrients* from the soil are essential.`
+For growing a crop sufficient sunlight, water and *nutrients* from the *soil* are essential.`
       }
     },
     {

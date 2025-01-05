@@ -1,5 +1,5 @@
 export default {
-  label: 'பாரதி',
+  label: 'பாரதியார் பாடல்கள்',
   id: 'barathi',
   img: 'barathi',
   lockAfter: 100,

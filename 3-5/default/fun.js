@@ -672,7 +672,7 @@ const coloring = {
     {
       type: 'coloring',
       id: 'coloring',
-      label: 'Coloring for Fun New',
+      label: 'Coloring for Fun',
       lockAfter: 10,
       more: 'food-4',
       commonData: {
