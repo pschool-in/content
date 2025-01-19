@@ -197,7 +197,8 @@ export default {
       label: 'Match Equals',
       commonData: {
         title: 'Match Equals',
-        allowFrac: true
+        allowFrac: true,
+        fracFontSize: '1.2rem'
       },
       data: [
         `1/5, 9/45

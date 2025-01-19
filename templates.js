@@ -1,6 +1,7 @@
 export const templates = [
   {
     label: 'Multiple Choice Questions - MCQ',
+    btnLabel: 'MCQ',
     type: 'mcq',
     data: {
       title: 'Multiple Choice Questions',
@@ -39,6 +40,7 @@ Surat`
   },
   {
     label: 'Fill up by drag - Template',
+    btnLabel: 'Fill Up by Drag',
     type: 'matchByDragDrop',
     id: 'drag-and-drop-blanks-template',
     data: {
@@ -55,6 +57,7 @@ Uranus is the *coldest* planet.
   },
   {
     label: 'Fillup - Template',
+    btnLabel: 'Fill Up',
     type: 'fillup',
     id: 'fillup',
 
@@ -74,6 +77,7 @@ It looks like it's going to rain. Do you have *an* umbrella?`
   },
   {
     type: 'match',
+    btnLabel: 'Match',
     label: 'Match - Template',
     id: 'match',
     data: {
@@ -89,9 +93,9 @@ large, big`
   },
   {
     label: 'Classify Sentence - Template ',
+    btnLabel: 'Classify Sentence',
     type: 'classifySentence',
     id: 'classify',
-
     data: {
       title: 'Classify the below sentences as Facts and Opinions',
       types: [
@@ -116,6 +120,7 @@ Sometimes he behave like a fool.`
   },
   {
     label: 'Sorting - Template',
+    btnLabel: 'Sorting',
     type: 'sorting',
     id: 'sort',
 
@@ -127,6 +132,7 @@ Sometimes he behave like a fool.`
   },
   {
     type: 'sequence',
+    btnLabel: 'Jumbled',
     label: 'Jumbled - Template',
     id: 'find-word-template',
 
@@ -135,9 +141,9 @@ Sometimes he behave like a fool.`
       text: `first, two, nice, fine, third`
     }
   },
-
   {
     type: 'rightOne',
+    btnLabel: 'Right Option',
     label: 'Correct Spelling - Template',
     id: 'correct-spelling-template',
 
@@ -154,6 +160,7 @@ doctor, doktor`
   },
   {
     type: 'completeWord',
+    btnLabel: 'Complete Word',
     id: 'complete-word',
     label: 'Complete the Word - Template',
 
@@ -188,9 +195,9 @@ doctor, doktor`
       ]
     }
   },
-
   {
     label: 'Select Word - Template',
+    btnLabel: 'Select Word',
     type: 'selectWord',
     id: 'select-word',
 
@@ -238,7 +245,7 @@ She went to *the (a) * library and had *an (a) * ice-cream.`,
     label: 'Drag and Drop : Classify - Template ',
     type: 'group',
     id: 'group',
-
+    btnLabel: 'Group',
     data: {
       title: 'Above ground and Below ground',
       types: [
@@ -257,6 +264,7 @@ She went to *the (a) * library and had *an (a) * ice-cream.`,
     label: 'Wordle',
     type: 'wordle',
     id: 'wordle',
+    btnLabel: 'Wordle',
     data: {
       text: 'APPLE'
     }
